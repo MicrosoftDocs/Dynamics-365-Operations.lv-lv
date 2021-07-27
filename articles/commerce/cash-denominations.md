@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5dbef67728e86259ee48b51c48921f6e44a61015
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 356552fd1c2001619785b6a03b8ec4cba92725da
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793061"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351325"
 ---
 # <a name="configure-cash-denominations-for-the-point-of-sale-pos"></a>Pārdošanas punkta (POS) skaidras naudas denomināciju konfigurēšana
 
@@ -33,7 +33,7 @@ Skaidras naudas denomināciju banknotēm un monētām var definēt operāciju uz
 
 Denominācijas tiek iestatītas katram veikalam lapā **Iestatīšana** \> **Skaidras naudas deklarēšana** no veikala rekvizīta.
 
-![Opcija Skaidras naudas deklarēšana](./media/image1-denomination.png)
+![Opcija Skaidras naudas deklarēšana.](./media/image1-denomination.png)
 
 Denominācijas definēšana
 
@@ -41,7 +41,7 @@ Denominācijas definēšana
 1. Norādiet tipu (monēta vai banknote).
 1. Norādiet summu (vērtība).
 
-![Lapa Skaidras naudas deklarācijas denominācijas](./media/image2-denomination.png)
+![Lapa Skaidras naudas deklarācijas denominācijas.](./media/image2-denomination.png)
 
 ## <a name="configure-the-functionality-profile"></a>Funkcionalitātes profila konfigurēšana
 

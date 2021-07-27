@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9c19f999a94e6ad8451c208cf204d0b59306b77d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a447dee71e57df07d1e7709bc8e4d075fcc803b8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837805"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343680"
 ---
 # <a name="schedule-maintenance-plans"></a>Plānot uzturēšanas plānus
 
@@ -40,7 +40,7 @@ Profilaktiskās uzturēšanas plānošana ģenerē kalendāra ierakstus līdzek�
 3. Pārslēgšanas pogā **Izveidot automātiski, ja tas ir norādīts rindā** atlasiet vērtību “Jā”, ja darba pasūtījumi ir jāizveido automātiski atbilstoši uzturēšanas plāna rindai.
 
 >[!NOTE]
->Ja šī pārslēgšanas poga ir iestatīta uz “Jā” *un* ir atlasīta arī izvēles rūtiņa **Izveidot automātiski** uzturēšanas plānu rindās **Uzturēšanas plāni**, darba pasūtījumi tiek izveidoti, pamatojoties uz uzturēšanas plāna rindām, un tiek izveidotas arī uzturēšanas grafika rindas ar statusu “Darba pasūtījums izveidots”. Ja ir atlasīta tikai viena opcija (pārslēgšanas poga **Izveidot automātiski, ja tas ir norādīts rindā** šajā dialoglodziņā vai izvēles rūtiņa **Izveidot automātiski** veidlapā **Uzturēšanas plāni**), tiek izveidotas tikai uzturēšanas grafika rindas ar statusu “Izveidots”. Tāda gadījumā darba pasūtījumi netiek izveidoti.
+>Ja šī pārslēgšanas poga ir iestatīta uz “Jā” *un* ir atlasīta arī izvēles rūtiņa **Izveidot automātiski** uzturēšanas plānu rindās **Uzturēšanas plāni**, darba pasūtījumi tiek izveidoti, pamatojoties uz uzturēšanas plāna rindām, un tiek izveidotas arī uzturēšanas grafika rindas ar statusu “Darba pasūtījums izveidots”. Ja ir atlasīta tikai viena opcija (pārslēgšanas poga **Izveidot automātiski, ja tas ir norādīts rindā** šajā dialoglodziņā vai izvēles rūtiņa **Izveidot automātiski** veidlapā **Uzturēšanas plāni** ), tiek izveidotas tikai uzturēšanas grafika rindas ar statusu “Izveidots”. Tāda gadījumā darba pasūtījumi netiek izveidoti.
 
 4. Ir iespējams ģenerēt kalendāra ierakstus, pamatojoties uz uzturēšanas plāniem (laiku vai skaitītāju), līdzekļiem, līdzekļu tipiem, funkcionālajiem novietojumiem un funkcionālo novietojumu tipiem. Ja nepieciešams, noklikšķiniet uz pogas **Filtrēt** un veiciet atlasi.
 
@@ -52,14 +52,14 @@ Profilaktiskās uzturēšanas plānošana ģenerē kalendāra ierakstus līdzek�
 
 5. Noklikšķiniet uz **Labi** labi, lai sāktu uzturēšanas grafika ierakstu ģenerēšanu par līdzekļiem. Ģenerētie ieraksti tiks parādīti saraksta lapā **Viss uzturēšanas grafiks**. Nākamajā attēlā ir parādīts dialoglodziņa **Plānot uzturēšanas plānus** piemērs.
 
-![1. attēls](media/09-preventive-maintenance.png)
+![1. attēls.](media/09-preventive-maintenance.png)
 
 - Dialoglodziņā **Ieplānot uzturēšanas plānus** varat iestatīt pakešuzdevumus kopsavilkuma cilnē **Palaist fonā**, lai automātiski ģenerētu kalendāra ierakstus regulāros intervālos.  
 - Plānojot profilaktisko uzturēšanu, uzturēšanas grafika rindas ar paredzēto sākuma datumu un laiku, kas agrāks par sistēmas datumu un laiku, netiks izveidotas.  
 
 Attēlā tālāk ir sniegta grafiska ilustrācija uzturēšanas plāna aprēķināšanai pēc laika.  
 
-![2. attēls](media/10-preventive-maintenance.jpg)
+![2. attēls.](media/10-preventive-maintenance.jpg)
 
 Kas attiecas uz skaitītāja uzturēšanas plāniem: attēlos tālāk ir parādīti divi atšķirīgi skaitītāja reģistrācijas cikli. Tie balstīti uz uzturēšanas plāna iestatīšanu līdzeklim “V0001”, kuram paredzēts, ka līdzeklis (automašīna) nobrauks aptuveni 2000 km katru mēnesi.
 
@@ -69,9 +69,9 @@ Tālāk norādītajā attēlā katru mēnesi tiek reģistrēti 2000 km. Tāpēc
 
 Šeit aprakstītie piemēri rāda, ka visām skaitītāja reģistrācijām, kas izveidotas līdzeklim, tiek rādīta tendence, kas apraksta līdzekļa nolietojumu un nodilumu. Šī tendence tiek izmantota par pamatu, aprēķinot apkopes plānu ieplānošanas laiku.
 
-![3. attēls](media/11-preventive-maintenance.png)
+![3. attēls.](media/11-preventive-maintenance.png)
 
-![4. attēls](media/12-preventive-maintenance.png)
+![4. attēls.](media/12-preventive-maintenance.png)
 
 
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-17
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 056808b7d4d490bc4d60aa058108d159c1d4867c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b3a8fe37ae97cf3b14f5121274603cd30de3304b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826255"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356779"
 ---
 # <a name="reduce-balance-depreciation-after-a-split"></a>Degresīvā nolietojuma aprēķināšanas metode pēc sadalījuma
 
@@ -37,7 +37,7 @@ Piemēram, ir spēkā šādi nosacījumi:
 - Pirmā finanšu gada nolietojums ir vienāds ar $ 18 000, mēneša nolietojums ir vienāds ar $ 150, un pamatlīdzeklis tiek nolietots līdz 2019. novembrim (summa ir $ 738,75).
 - 2019. novembrī 80 procenti līdzekļa tiek sadalīti uz citu līdzekli.
 
-[![Degresīvā nolietojuma aprēķināšanas metode pēc sadalījuma](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
+[![Degresīvā nolietojuma aprēķināšanas metode pēc sadalījuma.](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
 
 Oriģinālā pamatlīdzekļa nolietošanas summa ir $ 1822,25. Šī summa ir vienāda ar AV pirms sadalītā darījuma grāmatošanas ($ 9111,25), pieskaitot iegādes korekciju, kas tiek ģenerēta, grāmatojot sadalīto darījumu (-$ 8000), kā arī nolietojuma korekciju, kas tiek ģenerēta sadalīšanas darījumā ($ 711). Tāpēc nolietojums otrajā gadā ir (1822,25 × 18 procenti) ÷ 12 = $ 27,33.
 

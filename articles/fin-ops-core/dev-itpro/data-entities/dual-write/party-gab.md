@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: c62290506d32579d926ad1a1d6f090845c0d0f26
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: ce246a51c75cc322f1cfea70c47f00c7dd750ea2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216616"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346624"
 ---
 # <a name="party-and-global-address-book"></a>Puse un globālā adrešu grāmata
 
@@ -41,7 +41,7 @@ Puses modelis bieži tiek izmantots, lai pārstāvētu vidējas un sarežģītas
 
 Šajā attēlā redzams puses datu modelis.
 
-![Puses datu modelis](media/party-gab-image1.png)
+![Puses datu modelis.](media/party-gab-image1.png)
 
 > [!TIP]
 > Mēģinot izveidot jaunu konta ierakstu, izmantojiet lauku **Puse**, lai meklētu ierakstu pēc nosaukuma. Šādā veidā, ja atrodat ierakstu, tas ir tikai jāatlasa. Tad sistēma automātiski aizpilda visus datus no puses. Nav manuāli jāiestāta visi nepieciešamie lauki. Šo darbību var atrast ārpus saraksta lapas **Konts**, **Kontaktpersona** un **Kreditors**.
@@ -58,9 +58,9 @@ Atkarībā no biznesa konteksta personai vai organizācijai var būt vairāk nek
 
 Sekojošajā attēlā ir parādītas globālās adrešu grāmatas datu modelis.
 
-![Globālās adrešu grāmatas datu modelis](media/party-gab-image2.png)
+![Globālās adrešu grāmatas datu modelis.](media/party-gab-image2.png)
 
-## <a name="contact"></a>Kontaktpersona
+## <a name="contact"></a>Saziņa
 
 Customer Engagement programmās kontaktpersona ir persona. Tomēr tabula **Kontaktpersona** ir pārslogota, lai pārstāvētu personu, portāla lietotāju, uzņēmums-patērētājs (B2C) klientu vai kreditoru. Pārstāvība ir netieša, un jūs nevarat noteikt atšķirību, neizmeklējot saistītos darījumus. Tabulai **Kontaktpersona** ir ierobežota attiecība viens pret vienu (1:1) ar tabulu **Konts**. Kā puses un globālās adrešu grāmatas modeļa daļa dubultā rakstīšana ievieš precīzus klasifikācijas rekvizītus un pieļauj N:N attiecības starp kontaktpersonu, kas ir persona un organizācija (**Konts** vai **Kreditors** entītijas).
 
@@ -94,7 +94,7 @@ Piemēram, Nataša Džonsa un Migels Reiss ir veterinārārsti, kas rūpējas pa
     + Ja izvēlaties vērtību laukā **Saistītā kontaktpersona**, tiek atlasīta svītrotā kontaktpersona, kuras tips ir **Persona**.
     + Ja atlasāt vērtību laukā **Saistītais konts** vai **Saistītais kreditors**, jūs atlasāt organizāciju.
 
-    ![Cilne Saistītās organizācijas lapā Kontaktpersona](media/party-gab-image3.png)
+    ![Cilne Saistītās organizācijas lapā Kontaktpersona.](media/party-gab-image3.png)
 
     Neatkarīgi no jūsu izvēles asociācija tiek izveidota puses līmenī, taa attiecas uz visām puses lomām, un glabājas elementā **Puses kontaktpersona**.
 
@@ -109,7 +109,7 @@ Kad tiek atvērta rinda **Kontaktpersona**, kur vai nu lauks **Ir debitors**, va
 
 Lapās **Konts**, **Kontaktpersona** un **Kreditors** ir ieviesta jauna cilne **Adreses**. Šī cilne atbalsta vairākas pasta adreses, izmantojot režģi, kā parādīts šajā ilustrācijā.
 
-![Pasta adrešu režģis](media/party-gab-image4.png)
+![Pasta adrešu režģis.](media/party-gab-image4.png)
 
 Režģī ir iekļautas tālāk minētās kolonnas.
 
@@ -121,7 +121,7 @@ Varat izmantot pogu **Jauna adrese** virs režģa, lai izveidotu pēc izvēles t
 
 Lauki **1. adrese** un **2. adrese** lapas **Konts** cilnē **Kopsavilkums** atbilst attiecīgi **Piegādes** un **Rēķina** adresēm.
 
-![Kopsavilkuma cilne pasta adresēm](media/party-gab-image5.png)
+![Kopsavilkuma cilne pasta adresēm.](media/party-gab-image5.png)
 
 Lauki **1. adrese**, **2. adrese** un **3. adrese** lapas **Konts** cilnē **Kopsavilkums** atbilst attiecīgi **Biznesa**, **Piegādes** un **Rēķina** adresēm.
 
@@ -129,7 +129,7 @@ Lauki **1. adrese**, **2. adrese** un **3. adrese** lapas **Konts** cilnē **Kop
 
 Lapās **Konts**, **Kontaktpersona** un **Kreditors** ir ieviesta jauna cilne **Elektroniskās adreses**. Šī cilne atbalsta vairākas elektroniskās adreses, izmantojot režģi, kā parādīts šajā ilustrācijā.
 
-![Elektronisko adrešu režģis](media/party-gab-image6.png)
+![Elektronisko adrešu režģis.](media/party-gab-image6.png)
 
 Režģī ir iekļautas tālāk minētās kolonnas.
 
@@ -205,7 +205,7 @@ Elektroniskās adreses ir pieejamas tikai šajā režģī. Turpmākajos laidieno
     | Puses ID (lauks) | Precīza atbilstība |
     | Atlasiet (lauku) | (tukšs) |
 
-    ![Dublēt kontu kārtulu](media/duplicate-rule-1.PNG)
+    ![Dublēt kontu kārtulu.](media/duplicate-rule-1.PNG)
 
 10. Izvērsiet dublikātu noteikšanas kārtulu tabulai **Kontaktpersonas**, iestatot sekojošos laukus.
 
@@ -221,7 +221,7 @@ Elektroniskās adreses ir pieejamas tikai šajā režģī. Turpmākajos laidieno
     | Puses ID (lauks) | Precīza atbilstība |
     | Atlasiet (lauku) | (tukšs) |
 
-    ![Dublēt kontaktpersonu kārtulu](media/duplicate-rule-2.PNG)
+    ![Dublēt kontaktpersonu kārtulu.](media/duplicate-rule-2.PNG)
 
 11. Ja jūs esat esošs duālās rakstīšanas lietotājs, izpildiet norādes sadaļā [Jaunināšana uz pušu un globālo adrešu grāmatas modeli](upgrade-party-gab.md) un jauniniet savus datus.
 
@@ -300,11 +300,11 @@ Papildinformāciju skatiet sadaļā [Dubultā ieraksta kartēšanas atsauce](map
 + Elektroniskās adreses, kas iestatītas elektroniskās adreses veidlapu **Konts**, **Kontaktpersona** un **Kreditors** cilnē, nāk no `msdyn_partyelectronicaddress` tabulas. Šī informācija neplūst uz tās saistītajām darījumiem, piemēram, pārdošanas pasūtījumu, piedāvājumu un pirkšanas pasūtījumu. Mēs plānojam risināt šo problēmu inkrementālā izlaidē. Esošie dati konta elektroniskās adreses laukos un kontaktpersonu ierakstos turpinās strādāt ar darījumiem, piemēram, pārdošanas pasūtījumu, piedāvājumu un pirkšanas pasūtījumu.
 + Lietojumprogrammās Finance and Operations var izveidot kontaktpersonas ierakstu no veidlapas **Pievienot kontaktpersonu**. Ja mēģināt izveidot jaunu kontaktpersonu no veidlapas **Skatīt kontaktpersonu**, darbība neizdodas. Šī ir zināma problēma.
 
-    ![Zināmā problēma ar Pievienot kontaktpersonu](media/party-gab-contact-issue.png)
+    ![Zināmā problēma ar Pievienot kontaktpersonu.](media/party-gab-contact-issue.png)
 
 + **Sākotnējā sinhronizācija** neatbalsta laika laukus **Pieejams no** un **Pieejams līdz** cilnē **ContactForParty**, jo DIXF pārvērš vērtību virknē vesela skaitļa vietā. Pārvēršana izraisa kļūdu `Cannot convert the literal '<say 08:00:00>’ to the expected type edm.int32`.
 + Ja pasta adrese tiek izmantota vairāk nekā vienam iemeslam, piemēram, biznesa sakaru adrese un rēķina adrese, tai ir jāparādās kā `Business;Invoice`,kā parādīts šajā attēlā. Ja starp vērtībām pievienosiet atstarpi, tiks parādīts kļūdas ziņojums.
 
-    ![Zināmā problēma ar Adresi](media/party-gab-address-issue.png)
+    ![Zināmā problēma ar Adresi.](media/party-gab-address-issue.png)
 
 + Nevar ievadīt ar nākotnes datumu datētu pasta adresi, izmantojot programmu Finance and Operations ar dubultās rakstīšanas funkciju, jo Dataverse neatbalsta spēkā stāšanās datumu. Ja ievadāt ar nākotnes datumu datētu pasta adresi, izmantojot programmu Finance and Operations, tā tiek pilnībā sinhronizēta ar Dataverse un jūs uzreiz redzēsiet adresi lietotāja interfeisā. Jebkura šī ieraksta atjaunināšanas rezultātā rodas kļūda, jo tā ir datēta ar nākotnes datumu un nav aktuāls Finance and Operations programmā.

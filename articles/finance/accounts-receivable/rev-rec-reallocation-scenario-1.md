@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f94b054d213dc2b347f4e5a7b2f4c2a51d519f57
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 626393f0c07803eb944e9066c72a24d2cf9ea0ce
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824008"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356225"
 ---
 # <a name="revenue-recognition-reallocation--scenario-1"></a>Ieņēmumu atzīšanas atkārtota sadale — 1. scenārijs
 
@@ -28,25 +28,25 @@ ms.locfileid: "5824008"
 
 Šim scenārijam **virsgrāmatas parametru** lapas cilnē **Ieņēmumu atzīšana** opcija **Grāmatot rēķinu labojumus debitoru parādos** ir iestatīta uz **Nē**(**Ieņēmumu atzīšana \> iestatīšana \> Virsgrāmatas parametri**).
 
-[![Opcija Grāmatot rēķinu labojumus debitoru parādos ir iestatīta uz Nē](./media/06_rev-rec-scenarios.png)](./media/06_rev-rec-scenarios.png)
+[![Opcija Grāmatot rēķinu labojumus debitoru parādos ir iestatīta pozīcijā Nē.](./media/06_rev-rec-scenarios.png)](./media/06_rev-rec-scenarios.png)
 
 Pārdošanas pasūtījums ir izveidots debitoram US\_SI\_0003. Debitors iegādājas klēpjdatoru (krājuma numurs S0012) un tam paredzētu atbalsta plānu (krājuma numurs S0008, "Nepārtraukts inženierijas pakalpojums"). Klēpjdatora ieņēmumi tiek nekavējoties atpazīti (nav ieņēmumu atzīšanas grafika). Atbalsta plāna ieņēmumi tiks atlikti un atzīti 12 mēnešu laikā, kā definēts saskaņā ar līguma laika periodu.
 
-[![Klēpjdatora un atbalsta plāna pārdošanas pasūtījuma rindas](./media/07_rev-rec-scenarios.png)](./media/07_rev-rec-scenarios.png)
+[![Klēpjdatora un atbalsta plāna pārdošanas pasūtījuma rindas.](./media/07_rev-rec-scenarios.png)](./media/07_rev-rec-scenarios.png)
 
 Pārdošanas pasūtījums ir apstiprināts. Tā kā abi krājumi ir iestatīti ieņēmumu cenas sadalījumam, ieņēmumu cena tiek aprēķināta, kad tiek apstiprināts pārdošanas pasūtījums. Ieņēmumus, kas tiks atpazīti, var apskatīt **ieņēmumu cenas sadalījuma** lapā (**pārdošanas pasūtījuma** lapas darbību rūts cilnes **Pārvaldīt** grupā **Ieņēmumu atzīšana** atlasiet **Ieņēmumu cenas sadalījums**). Klēpjdatora ieņēmumi tiks grāmatoti ieņēmumu kontā 1008,01 $ summas apmērā. Atbalsta plāna ieņēmumi tiks grāmatoti atlikto ieņēmumu kontā 190,99 $ summas apmērā. Ieņēmumu cenu summai jābūt vienādai ar to rindu summu, kas tika iestatītas ieņēmumu cenu sadalījuma tveršanai (1199,00 $).
 
-[![Ieņēmumu cenas sadalījuma lapa](./media/08_rev-rec-scenarios.png)](./media/08_rev-rec-scenarios.png)
+[![Ieņēmumu cenas sadalījuma lapa.](./media/08_rev-rec-scenarios.png)](./media/08_rev-rec-scenarios.png)
 
 Debitors pārdošanas laikā izvēlējās neiegādāties instalēšanas pakalpojumus (krājuma numurs S0001), taču vēlāk pārdomāja. Tāpēc tam pašam debitoram tiek ievadīts otrs pārdošanas pasūtījums.
 
-[![Pārdošanas pasūtījuma rinda instalēšanas pakalpojumiem](./media/09_rev-rec-scenarios.png)](./media/09_rev-rec-scenarios.png)
+[![Pārdošanas pasūtījuma rinda instalēšanas pakalpojumiem.](./media/09_rev-rec-scenarios.png)](./media/09_rev-rec-scenarios.png)
 
 Otrais pārdošanas pasūtījums ir apstiprināts. Tā kā šajā pārdošanas pasūtījumā ir tikai viena rinda, ieņēmumu cenas sadalījums netiek veikts, kad tiek apstiprināts pārdošanas pasūtījums. Ieņēmumu cenas sadalījums notiek tikai tad, ja ir divi vai vairāki unikāli krājumi un ja šie krājumi ir iestatīti ieņēmumu cenas sadalījumam.
 
 Ja šis jaunais pārdošanas pasūtījums ir vienīgās izmaiņas debitora līgumā, tagad var palaist atkārtotas sadales procesu. Vienā no abiem pārdošanas pasūtījumiem atlasiet **Atkārtoti sadalīt cenu ar jaunām pasūtījuma rindām**, lai atvērtu lapu **Atkārtoti sadalīt cenu ar jaunām pasūtījuma rindām**. Vai arī dodieties uz **Ieņēmumu atzīšana \> Periodiski uzdevumi \> Atkārtoti sadalīt cenu ar jaunām pasūtījuma rindām**. Atlasiet divus pārdošanas pasūtījumus un atbilstošās pārdošanas pasūtījuma rindas un pēc tam atlasiet **Atjaunināt atkārtoto sadali**. Kolonna **Atkārtoti sadalītā summa** parāda jauno ieņēmumu cenu katrai pārdošanas pasūtījuma rindai.
 
-[![Jaunas ieņēmumu cenas lapā Atkārtoti sadalīt cenu ar jaunām pasūtījuma rindām](./media/10_rev-rec-scenarios.png)](./media/10_rev-rec-scenarios.png)
+[![Jaunas ieņēmumu cenas lapā Atkārtoti sadalīt cenu ar jaunām pasūtījuma rindām.](./media/10_rev-rec-scenarios.png)](./media/10_rev-rec-scenarios.png)
 
 Ja atlasāt **paredzēto dokumentu**, nekas netiek rādīts, jo nav grāmatots neviens rēķins.
 
@@ -55,7 +55,7 @@ Lai pabeigtu atkārtoto sadali, atlasiet **Apstrādāt**. Tiek parādīts uzaici
 > [!TIP]
 > Lai parādītu kontekstu, kāpēc šie papildu krājumi tiek rādīti, režģim var pievienot citas kolonnas, piemēram, **Atkārtotas sadales ID** un **Pārdošanas pasūtījums**.
 > 
-> [![Papildu kolonnas ieņēmumu cenu sadalījumu lapā](./media/11_rev-rec-scenarios.png)](./media/11_rev-rec-scenarios.png)
+> [![Papildu kolonnas ieņēmumu cenu sadalījumu lapā.](./media/11_rev-rec-scenarios.png)](./media/11_rev-rec-scenarios.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

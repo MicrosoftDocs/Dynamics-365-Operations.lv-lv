@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6d872719d3b1aa27ccfdcf36d7739c883e7b4996
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9ed12444e2f03643e88ebad075366e26054a09e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801365"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350236"
 ---
 # <a name="work-with-modules"></a>Darbs ar moduļiem
 
@@ -53,7 +53,7 @@ Lielākā daļa parasto, ikdienas lapu un satura autorēšanas aktivitāšu ietv
 
 Tālāk esošajā attēlā ir parādīts, kā moduļi tiek ligzdoti pamata konteineru moduļa slotos.
 
-![Ligzdošanas moduļi](../commerce/media/basic-module-nesting.png)
+![Ligzdošanas moduļi.](../commerce/media/basic-module-nesting.png)
 
 ## <a name="add-or-remove-modules"></a>Moduļu pievienošana vai noņemšana
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2fc57579f817d2735aaa94a5f6834185961dab39
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: bd9b6239a8f5db51ab3f238593197408e641b782
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750232"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349112"
 ---
 # <a name="navigation-search"></a>Navigācijas meklēšana
 
@@ -34,7 +34,7 @@ Lai izmantotu šo līdzekli, noklikšķiniet uz ikonas **Meklēšana**, lai par�
 > [!NOTE]
 > Lodziņš **Meklēšana** palīdz atrast lapas un pāriet uz tām. Tas nepalīdzēs jums atrast specifiskus datus vai darbības.
 
-[![meklēšanas lodziņš](media/navigation-search.png "Meklēšanas lodziņš")
+[![meklēšanas lodziņš.](media/navigation-search.png "Meklēšanas lodziņš")
 
 ## <a name="quickly-navigate-to-a-particular-page"></a>Ātri pārvietoties uz konkrētu lapu
 

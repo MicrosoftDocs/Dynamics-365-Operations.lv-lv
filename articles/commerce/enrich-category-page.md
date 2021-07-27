@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5e18439fc0e91619cade33b83b87be0d5c4d1040
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1d9470e4d517c5fb0b49ae2e26eb14220ea17aa3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799015"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349404"
 ---
 # <a name="enrich-a-category-landing-page"></a>Kategorijas ielādes lapas papildināšana
 
@@ -31,7 +31,7 @@ Commerce nodrošina noklusējuma kategorijas mērķlapu, kas tiek izmantota, kad
 
 Tomēr, tā vietā, lai izmantotu noklusējuma kategorijas lapu, iespējams, vēlēsieties izmantot "papildinātu" kategorijas mērķlapu, kam ir vairāk satura un specifiskāki elementi. Parasta papildināšana var ietvert kategorijai specifiska mārketinga satura pievienošanu kategorijas lapai. Šis saturs var ietvert vairāku preces izvietošanu dažādās kategorijās papildu pārdošanas nolūkam, redakcijas sarakstus, attēlus, video un citu tekstu. Varat vai nu modificēt noklusējuma kategorijas lapu, vai definēt citu kategorijas lapu noteiktai kategorijai.
 
-![Bagātināta kategorijas ielādes lapa](./media/CategoryLandingPages.png)
+![Bagātināta kategorijas ielādes lapa.](./media/CategoryLandingPages.png)
 
 Commerce vietnes veidotājā lapa **Prece** ietver kategoriju sarakstu no kanāla, kas piešķirts vietnei. Ja kategorijas lapai atlasīts statuss **Papildināts**, šī kategorijas lapa ir tikusi papildināta. Pretējā gadījumā kategorijai tiek izmantota noklusējuma kategorijas lapa un saturs. Varat priekšskatīt gan papildinātas, gan nepapildinātas kategorijas lapas, atlasot kategorijas nosaukumu.
 

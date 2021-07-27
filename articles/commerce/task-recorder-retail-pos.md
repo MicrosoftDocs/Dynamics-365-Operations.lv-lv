@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 02e8bb1bfb088a877ef23b7a81982868700f4ae2
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 7b5f8303ea23f4f38bf27d35de0fa91ab82f4b5b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6028111"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354473"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Retail Modern POS (MPOS) un Cloud POS uzdevumu ierakstītājs un palīdzība
 
@@ -53,16 +53,16 @@ Lai POS iespējotu uzdevuma reģistrēšanu, veiciet tālāk norādītas darbīb
 Lai izveidotu jaunu ierakstu, izmantojot uzdevuma reģistrētāju, veiciet tālāk norādītās darbības.
 
 1. Palaidiet programmu Retail Modern POS vai Cloud POS un pierakstieties.
-2. Lapas **Iestatījumi** sadaļā **Uzdevuma reģistrētājs** noklikšķiniet uz **Atvērt uzdevuma reģistrētāju**. Tiek parādīta rūts **Uzdevuma reģistrētājs**. Varat noklikšķināt uz pogas **Aizvērt** (**X**) augšējā labajā stūrī, lai aizvērtu rūti **Uzdevuma reģistrētājs** pirms jaunas reģistrēšanas sesijas sākšanas. Lai atkārtoti atvērtu rūti, atkārtojiet 2. darbību.
+2. Lapas **Iestatījumi** sadaļā **Uzdevuma reģistrētājs** noklikšķiniet uz **Atvērt uzdevuma reģistrētāju**. Tiek parādīta rūts **Uzdevuma reģistrētājs**. Varat noklikšķināt uz pogas **Aizvērt** (**X**) augšējā labajā stūrī, lai aizvērtu rūti **Uzdevuma reģistrētājs** pirms jaunas reģistrēšanas sesijas sākšanas. Lai atkārtoti atvērtu rūti, atkārtojiet 2. darbību.
 
-    [![Rūts Uzdevuma reģistrētājs](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg)
+    [![Rūts Uzdevuma reģistrētājs.](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg)
 
 3. Ievadiet ieraksta nosaukumu un aprakstu un pēc tam noklikšķiniet uz **Sākt**. Reģistrēšanas sesija sākas, tiklīdz noklikšķināt uz **Sākt**.
 
     > [!NOTE]
-    > Ja ierakstīšanas laikā noklikšķināt uz pogas **Aizvērt** (**X**) augšējā labajā stūrī, tiek aizvērta rūts **Uzdevuma reģistrētājs**, taču reģistrēšanas sesija netiek beigta. Lai atkāroti atvērtu uzdevuma reģistrētāju, noklikšķiniet uz pogas **Palīdzība** (jautājuma zīmes ikonas) ekrāna augšpusē.
+    > Ja ierakstīšanas laikā noklikšķināt uz pogas **Aizvērt** (**X**) augšējā labajā stūrī, tiek aizvērta rūts **Uzdevuma reģistrētājs**, taču reģistrēšanas sesija netiek beigta. Lai atkāroti atvērtu uzdevuma reģistrētāju, noklikšķiniet uz pogas **Palīdzība** (jautājuma zīmes ikonas) ekrāna augšpusē.
     >
-    > [![Jautājuma zīme](./media/help.jpg)](./media/help.jpg)
+    > [![Jautājuma zīme.](./media/help.jpg)](./media/help.jpg)
 
 4. Pēc noklikšķināšanas uz **Sākt** uzdevuma reģistrētājs tiek pārslēgts reģistrēšanas režīmā. Rūtī **Uzdevuma reģistrētājs** tiek rādīta ar reģistrēšanas procesu saistītā informācija un vadīklas.
 5. Veiciet vajadzīgās darbības programmas Retail Modern POS vai Cloud POS lietotāja interfeisā (UI).
@@ -72,7 +72,7 @@ Lai izveidotu jaunu ierakstu, izmantojot uzdevuma reģistrētāju, veiciet tāl�
 
 Kad beidzat reģistrēšanas sesiju, tiek parādītas vairākas ierakstu lejupielādes opcijas.
 
-[![Lejupielādes opcijas](./media/downlaod-options.jpg)](./media/downlaod-options.jpg)
+[![Lejupielādes opcijas.](./media/downlaod-options.jpg)](./media/downlaod-options.jpg)
 
 ### <a name="save-to-this-pc"></a>Saglabāt šajā datorā
 
@@ -88,7 +88,7 @@ Neapstrādātais ieraksta fails ir noderīgs izstrādātājiem, piemēram, testa
 
 ## <a name="recording-controls"></a>Ierakstīšanas vadīklas
 
-[![Reģistrēšanas vadīklas](./media/controls.jpg)](./media/controls.jpg)
+[![Reģistrēšanas vadīklas.](./media/controls.jpg)](./media/controls.jpg)
 
 ### <a name="stop"></a>Apturēt
 
@@ -117,13 +117,13 @@ Varat norādīt grupētu darbību kopas sākumu un beigas, izmantojot pogas **S�
 
 Piezīme ir papildu teksts, ko pievienojat ieraksta darbībai. Piemēram, varat izmantot piezīmes, lai sniegtu lietotājam papildu informāciju vai kontekstu. Anotācijas var pievienot pirms vai pēc darbības. Varat pievienot anotāciju jebkurai darbībai, noklikšķinot uz pogas **Rediģēt** (zīmuļa simbola) pa labi no darbības.
 
-[![Darbības rediģēšanas poga](./media/annotate.jpg)](./media/annotate.jpg)
+[![Darbības rediģēšanas poga.](./media/annotate.jpg)](./media/annotate.jpg)
 
 ### <a name="texts-and-notes"></a>Teksts un piezīmes
 
 Varat izmantot laukus **Teksts** un **Piezīmes**, lai pievienotu tekstu, kas ir jāsaista ar darbību uzdevuma reģistrētājā.
 
-[![Lauki Teksts un Piezīmes](./media/annotatesteps.jpg)](./media/annotatesteps.jpg)
+[![Lauki Teksts un Piezīmes.](./media/annotatesteps.jpg)](./media/annotatesteps.jpg)
 
 #### <a name="text"></a>Teksts
 
@@ -137,7 +137,7 @@ Laukā **Piezīmes** ievadītais teksts tiek rādīts *zem* darbības teksta uzd
 
 Lai jūsu pielāgotie uzdevumu ieraksti tiktu rādīti programmu Retail Modern POS un Cloud POS rūtī Palīdzība teksta formātā, jums ir jāsaglabā ieraksti savā BPM bibliotēkā un pēc tam ir jāatjaunina palīdzības sistēmas parametri tā, lai tie norādītu uz jūsu BPM bibliotēku. Plašāku informāciju skatiet rakstā [Savienojuma izveidošana ar palīdzības sistēmu](../fin-ops-core/fin-ops/get-started/help-connect.md). Retail Modern POS un Cloud POS palīdzības sistēma nodrošina reāllaika meklēšanu pakalpojumā LCS. Sistēma nodrošina meklēšanu visās BPM bibliotēkās, kas ir atlasītas Commerce palīdzības sistēmas parametros, un atbilstošo rezultātu parādīšanu. Lai piekļūtu izvēlnei **Palīdzība**, noklikšķiniet uz pogas **Palīdzīga** (jautājuma zīme) ekrāna augšdaļā, meklēšanas lodziņā ievadiet procesa nosaukumu un nospiediet meklēšanas pogu.
 
-[![Poga Palīdzība](./media/help.jpg)](./media/help.jpg)
+[![Poga Palīdzība.](./media/help.jpg)](./media/help.jpg)
 
 Kad meklēšanas rezultātu sarakstā noklikšķināt uz uzdevuma ceļveža, varat skatīt darbības palīdzības tēmas formātā vai eksportēt darbības Word dokumenta formātā.
 

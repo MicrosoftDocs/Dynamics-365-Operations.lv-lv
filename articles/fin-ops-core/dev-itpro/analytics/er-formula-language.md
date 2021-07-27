@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 470b4fa1c8b15ae4a9e9ebef81af9e4ca107422d
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 1e48c02ecc9d69cf14ed257aae56081925cedfe9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6223990"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355398"
 ---
 # <a name="electronic-reporting-formula-language"></a>Elektronisko atskaišu veidošanas formulas valoda
 
@@ -117,15 +117,15 @@ Ja izteiksme atsaucas uz kādu strukturētu datu avotu, ceļa definīciju varat 
 
 Ja strukturētā datu avota ceļš sākas ar zīmi "at" (@), tas ir relatīvs ceļš. "At" zīme tiek rādīta atlikušās izmantotās hierarhiskā koka absolūtā ceļa daļas vietā. Tālāk redzamajā attēlā parādīts piemērs. Šeit absolūtais ceļš `Ledger.'accountingCurrency()'` norāda, ka **Virsgrāmatas** datu avota uzskaites valūtas vērtība tiek ievadīta datu modeļa laukā **AccountingCurrency**.
 
-![Absolūtā ceļa piemērs ER modeļa kartēšanas noformētāja lapā](./media/ER-FormulaLanguage-AbsolutePath.png)
+![Absolūtā ceļa piemērs ER modeļa kartēšanas noformētāja lapā.](./media/ER-FormulaLanguage-AbsolutePath.png)
 
 Šajā ilustrācijā ir parādīts piemērs tam, kā tiek izmantots relatīvais ceļš. Relatīvais ceļš `@.AccountNum` norāda, ka lauks **AccountNum** datu avotā **Intrastat** (kas datu modeļa hierarhiskajā kokā tiek parādīts vienu līmeni virs lauka **AccountNum** ) tiek izmantots, lai datu modeļa laukā **AccountNum** ievadītu debitora vai kreditora kodu.
 
-![Relatīvā ceļa piemērs ER modeļa kartēšanas noformētāja lapā](./media/ER-FormulaLanguage-RelativePath1.png)
+![Relatīvā ceļa piemērs ER modeļa kartēšanas noformētāja lapā.](./media/ER-FormulaLanguage-RelativePath1.png)
 
 Atlikusī absolūtā ceļa daļa tiek rādīta arī [ER formulas redaktorā.](general-electronic-reporting-formula-designer.md).
 
-![Atlikusī absolūtā ceļa daļa ER formulas noformētāja lapā](./media/ER-FormulaLanguage-RelativePath2.png)
+![Atlikusī absolūtā ceļa daļa ER formulas noformētāja lapā.](./media/ER-FormulaLanguage-RelativePath2.png)
 
 Papildinformācijai skatiet [Relatīva ceļa lietošana ER modeļu un formātu datu saistījumiem](relative-path-data-bindings-er-models-format.md).
 

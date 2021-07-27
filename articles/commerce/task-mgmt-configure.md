@@ -13,12 +13,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 742d49b1b7b46952d0a8bb6c8a33cde2a35d124f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1abcc4befd1277d7f08d3dfa89cb76b0ee4a6178
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791706"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354569"
 ---
 # <a name="configure-task-management"></a>Uzdevumu pārvaldības konfigurēšana
 
@@ -44,7 +44,7 @@ Lai konfigurētu uzdevumu pārvaldības atļaujas veikala pārvaldniekiem, veici
 
 Šajā attēlā parādīts, kā konfigurēt uzdevumu pārvaldības atļaujas veikala pārvaldniekiem.
 
-![Uzdevumu pārvaldības atļauju konfigurēšana veikala vadītājiem](media/HQ-POS-Tasks-Notifications-User-Permission.png)
+![Uzdevumu pārvaldības atļauju konfigurēšana veikala vadītājiem.](media/HQ-POS-Tasks-Notifications-User-Permission.png)
 
 ## <a name="configure-permissions-for-employees"></a>Atļauju konfigurēšana nodarbinātajiem
 
@@ -78,7 +78,7 @@ Lai konfigurētu POS paziņojumus uzdevumiem, veiciet šīs darbības.
 
 Šajā attēlā redzama operācija **Uzdevumu pārvaldība** lapā **POS operācijas**.
 
-![Uzdevumu pārvaldības operācija POS operāciju lapā](media/HQ-POS-Tasks-Notifications.png)
+![Uzdevumu pārvaldības operācija POS operāciju lapā.](media/HQ-POS-Tasks-Notifications.png)
 
 Plašāku informāciju par to, kā konfigurēt POS paziņojumus, skatiet sadaļā [Pasūtījuma paziņojumu rādīšana pārdošanas punktā (POS)](notifications-pos.md).
 
@@ -95,7 +95,7 @@ Lai konfigurētu elementu **Uzdevumi** POS programmas sākumlapā, veiciet šīs
 
 Šajā attēlā parādīts elementa **Uzdevumi** piemērs POS sākumlapā.
 
-![Uzdevumu elements POS sākumlapā](media/POS-home-screen-tasks-button-image.png)
+![Uzdevumu elements POS sākumlapā.](media/POS-home-screen-tasks-button-image.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 

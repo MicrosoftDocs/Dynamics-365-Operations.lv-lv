@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1fa55ab83562983273768895db61032ec7199fa6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 017cdc76368ae4f80131471a289aa03ab06c99bf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793949"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350212"
 ---
 # <a name="work-with-fragments"></a>Darbs ar fragmentiem 
 
@@ -45,7 +45,7 @@ Visas vietas, kur šis fragments tiek pievienots, ir atsauces uz jūsu izveidoto
 
 Tālāk esošajā attēlā ir parādīts, kā fragmentus var izmantot, lai centralizētu koplietota moduļa konfigurāciju autorēšanu e-komercijas vietnē.
 
-![Attēlā ir parādīts, kā fragmentus var izmantot, lai centralizētu koplietota moduļa konfigurāciju autorēšanu e-komercijas vietnē](./media/fragment-figure1.png)
+![Attēlā ir parādīts, kā fragmentus var izmantot, lai centralizētu koplietota moduļa konfigurāciju autorēšanu e-komercijas vietnē.](./media/fragment-figure1.png)
 
 ## <a name="create-a-fragment"></a>Fragmenta izveidošana
 
@@ -62,7 +62,7 @@ Lai konvertētu iepriekš konfigurētu moduli par atkārtoti izmantojamu fragmen
 1. Dialoglodziņā **Saglabāt kā fragmentu** ievadiet fragmenta nosaukumu.
 1. Atlasiet **Labi**, lai saglabātu moduļa konfigurāciju kā fragmentu, ko var pievienot citām lapām.
 <!-- The following image shows how to save a module configuration as a fragment.-->
-<!--![A screen capture of how to save a module configuration as a fragment](./media/save-as-fragment.png)-->
+<!--![A screen capture of how to save a module configuration as a fragment.](./media/save-as-fragment.png)-->
 
 ### <a name="create-a-new-fragment"></a>Izveidot jaunu fragmentu
 
@@ -73,7 +73,7 @@ Lai izveidotu jaunu fragmentu Commerce vietņu veidotājā, izpildiet tālāk no
 1. Atlasiet sava fragmenta moduļa veidu.
 
 <!-- The following image shows where to create a new fragment.-->
-<!-- ![A screen capture of where to create a new fragment](./media/fragment-nav-menu.png)-->
+<!-- ![A screen capture of where to create a new fragment.](./media/fragment-nav-menu.png)-->
 > [!TIP]
 > Atlasot vispārīgā konteinera moduļa tipu, jūs iegūstat augstāko elastību, kad vēlāk ir jāatjaunina un jākonfigurē jūsu fragments.
 
@@ -88,14 +88,14 @@ Lai pievienotu fragmentu lapai Commerce vietņu veidotājā, izpildiet tālāk n
 1. Strukturējuma rūtī pa kreisi vai tieši vizuālo lapu veidotājā atlasiet konteineru vai slotu, kuram var pievienot atvašu moduļus.
 1. Atlasiet daudzpunkti (**...**) blakus konteinera nosaukumam vai slotam.  Vai arī, ja izmantojat vizuālo lapu veidotāju, atlasiet plus zīmi (**+**).  
 1. Atlasiet **Pievienot fragmentu**.
-    <!-- ![A screen capture of how to add an existing fragment to a slot or container](./media/add-fragment.png)-->
+    <!-- ![A screen capture of how to add an existing fragment to a slot or container.](./media/add-fragment.png)-->
  
     > [!NOTE]
     > Ja konteiners vai slots neatbalsta jaunus atvašu moduļus, opcija **Pievienot fragmentu** nav pieejama.
     
 1. Dialoglodziņā **Atlasīt fragmentu** meklējiet un atlasiet pievienojamo fragmentu. Ja pieejamo fragmentu sarakstā nav neviena fragmenta, iespējams, vispirms ir jāizveido fragments no moduļa tipa, ko atbalsta atlasītais konteiners vai slots.
 1. Atlasiet vēlamo fragmentu, kuru pievienot konteineram vai slotam jūsu lapā.
-<!--    ![A screen capture of the fragment picker modal window](./media/fragment-picker.png)-->
+<!--    ![A screen capture of the fragment picker modal window.](./media/fragment-picker.png)-->
 
 > [!NOTE]
 > Moduļi, kas ir atļauti konteinerā vai slotā, tiek definēti ar lapas veidni vai pašu moduļu definīcijām.

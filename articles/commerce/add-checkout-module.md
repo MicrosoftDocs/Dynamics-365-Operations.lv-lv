@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b1e86cbe1c2b9247f902a8f5777e73f7a9b37929
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: bda264a255a688d64e314d994dc281602c9324cc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797819"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347594"
 ---
 # <a name="checkout-module"></a>Norēķināšanās modulis
 
@@ -33,7 +33,7 @@ Izrakstīšanās modulis atveido datus, pamatojoties uz groza ID. Šis groza ID 
 
 Attēlā zemāk redzams Fabrikam norēķināšanās moduļa piemērs norēķināšanās lapā.
 
-![Norēķināšanās moduļa piemērs](./media/Checkout.PNG)
+![Norēķināšanās moduļa piemērs.](./media/Checkout.PNG)
 
 ## <a name="checkout-module-properties"></a>Norēķināšanās moduļa rekvizīti
 
@@ -52,13 +52,13 @@ Norēķinu modulī tiek rādīts pasūtījuma kopsavilkums, un tā nodrošina fu
 
     Attēlā zemāk redzams Fabrikam piegādes adreses moduļa piemērs norēķināšanās lapā.
 
-    ![Piegādes adreses moduļa piemērs](./media/ecommerce-shippingaddress.PNG)
+    ![Piegādes adreses moduļa piemērs.](./media/ecommerce-shippingaddress.PNG)
 
 - **Piegādes opcijas** — šis modulis ļauj klientam izvēlēties pasūtījuma piegādes veidu. Plašāku informāciju par šo moduli skatiet [Piegādes opciju modulis](delivery-options-module.md).
 
     Attēlā zemāk redzams piegādes opciju moduļa piemērs norēķināšanās lapā.
  
-    ![Piegādes opciju moduļa piemērs](./media/ecommerce-deliveryoptions.PNG)
+    ![Piegādes opciju moduļa piemērs.](./media/ecommerce-deliveryoptions.PNG)
 
 - **Norēķināšanās sadaļas konteiners** — šis modulis ir konteiners, kurā varat ievietot vairākus moduļus, lai izveidotu sadaļu norēķināšanās plūsmā. Piemēram, visus ar maksājumiem saistītos moduļus var ievietot šajā konteinerā, lai tos varētu parādīt kā vienu sadaļu. Šis modulis ietekmē tikai plūsmas izkārtojumu.
 
@@ -70,7 +70,7 @@ Norēķinu modulī tiek rādīts pasūtījuma kopsavilkums, un tā nodrošina fu
 
     Attēlā zemāk ir parādīts dāvanu karšu, lojalitātes programmas punktu, maksājumu moduļu piemērs norēķināšanās lapā.
 
-    ![Dāvanu karšu, lojalitātes programmas punktu, maksājumu moduļu piemērs norēķināšanās lapā](./media/ecommerce-payments.PNG)
+    ![Dāvanu karšu, lojalitātes programmas punktu, maksājumu moduļu piemērs norēķināšanās lapā.](./media/ecommerce-payments.PNG)
 
 - **Kontaktinformācija** — šis modulis ļauj klientam pievienot vai mainīt kontaktpersonas informāciju (e-pasta adresi) pasūtījumam.
 
@@ -80,7 +80,7 @@ Norēķinu modulī tiek rādīts pasūtījuma kopsavilkums, un tā nodrošina fu
 
     Attēlā zemāk redzams noteikumu un nosacījumu piemērs norēķināšanās lapā.
 
-    ![Norēķinu lapas noteikumu un nosacījumu piemērs](./media/ecommerce-checkout-terms.PNG)
+    ![Norēķinu lapas noteikumu un nosacījumu piemērs.](./media/ecommerce-checkout-terms.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Commerce Scale Unit mijiedarbība
 

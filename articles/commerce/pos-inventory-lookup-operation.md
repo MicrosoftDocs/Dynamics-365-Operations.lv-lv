@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: 873c6413c14d2ee8315c149ee9c495bb59dbd930
-ms.sourcegitcommit: 11ca5863175150b6c39f47a9322caa2186727a26
+ms.openlocfilehash: c0f753febb0d347015fde1374148835f90df55a3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025452"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353784"
 ---
 # <a name="inventory-lookup-operation-in-pos"></a>Krājumu uzmeklēšanas operācija punktā POS
 
@@ -45,7 +45,10 @@ Atsevišķai precei krājumu uzmeklēšanas darbība nodrošina krājumu uzmekl�
 
 Vietu saraksta skatā ir ietverti visi veikali un noliktavas, kas ir konfigurētas izpildes grupās, ar kurām ir saistīts pašreizējais veikals, kā parādīts šajā piemēra attēlā.
 
-![Krājumu uzmeklēšanas operācija saraksta skatā](media/inventory-lookup-list-view.png)
+![Krājumu uzmeklēšanas operācija saraksta skatā.](media/inventory-lookup-list-view.png)
+
+> [!NOTE]
+> Pārliecinieties, ka pašreizējais veikals ir iekļauts saistītās izpildes grupās.
 
 POS programmas joslā ir pieejamas tālāk minētās darbības:
 
@@ -65,7 +68,7 @@ POS programmas joslā ir pieejamas tālāk minētās darbības:
 - **Pievienot darījumam** - šī darbība pievieno preci grozam un novirza lietotāju uz darījuma ekrānu.
 
 > [!NOTE]
-> Kārtojot pēc atrašanās vietas, attālumu starp atrašanās vietu un pašreizējo veikalu nosaka koordinātas (platums un garums), kas noteiktas Commerce galvenajā mītnē. Veikalam atrašanās vietas informācija ir definēta ar veikalu saistītās pārvaldības struktūrvienības primārajā adresē. Noliktavā, kas nav veikala noliktava, atrašanās vietas informācija ir definēta noliktavas adresē. Ja pašreizējā veikalā nav pareizi definētas koordinātas, pašreizējā kārtošanas opcija, kas pamatota uz atrašanās vietu, parādīs pašreizējo veikalu saraksta augšpusē un pēc tam šķiros citas vietas pēc nosaukuma.
+> Kārtojot pēc atrašanās vietas, attālumu starp atrašanās vietu un pašreizējo veikalu nosaka koordinātas (platums un garums), kas noteiktas Commerce galvenajā mītnē. Veikalam atrašanās vietas informācija ir definēta ar veikalu saistītās pārvaldības struktūrvienības primārajā adresē. Noliktavā, kas nav veikala noliktava, atrašanās vietas informācija ir definēta noliktavas adresē. Ja pašreizējā veikalā nav definētas koordinātas, pašreizējā kārtošanas opcija, kas pamatota uz atrašanās vietu, parādīs pašreizējo veikalu saraksta augšpusē un pēc tam šķiros citas vietas pēc nosaukuma.
 
 > [!NOTE]
 > Darbības **Rādīt veikala pieejamību**, **Rādīt veikala atrašanās vietu**, **Saņemt veikalā** un **Sūtīt preci** nav pieejamas atrašanās vietām, kas nav veikals.
@@ -76,7 +79,7 @@ POS programmas joslā ir pieejamas tālāk minētās darbības:
 
 Nākamajā piemēra attēlā ir parādīts krājumu uzmeklēšanas matricas skats punktā POS.
 
-![Krājumu uzmeklēšanas operācija matricas skatā](media/inventory-lookup-matrix-view.png)
+![Krājumu uzmeklēšanas operācija matricas skatā.](media/inventory-lookup-matrix-view.png)
 
 Matricas skatā katra šūna pārstāv atsevišķu variantu un apakšējā labajā stūrī parāda rīcībā esošo krājumu (pieejamo fizisko) vērtību, kā arī **rezervētas** (fiziski rezervētas) un **pasūtītas** (pasūtītas kopsummā) vērtības augšējā kreisajā stūrī. Nākamajā tabulā ir paskaidrota dažādo rīcībā esošo vērtību nozīme.
 
@@ -103,7 +106,7 @@ POS lietotāji var piekļūt krājumu uzmeklēšanas darbībai no citām POS lap
 
 Nākamajā piemēra attēlā ir parādīts krājumu uzmeklēšanas rezultāti no PDP punktā POS.
 
-![Krājumu uzmeklēšana no preču informācijas lapas](media/inventory-lookup-from-product-details-page.png)
+![Krājumu uzmeklēšana no preču informācijas lapas.](media/inventory-lookup-from-product-details-page.png)
 
 Šablona preces PDP varat izmantot darbību **Skatīt visus variantus** programmas joslā, lai palaistu krājumu uzmeklēšanas matricas skatu, kurā ir redzama informācija par pašreizējā veikala krājumu pieejamību visiem preces variantiem. Atsevišķai precei PDP rāda šīs preces rīcībā esošo krājumu (fiziski pieejamo) vērtību pašreizējam veikalam. Turklāt varat atlasīt saiti **Citu veikalu krājumi**, lai palaistu krājumu uzmeklēšanas operāciju, lai pārbaudītu preču pieejamību citos veikalos vai noliktavās.
 

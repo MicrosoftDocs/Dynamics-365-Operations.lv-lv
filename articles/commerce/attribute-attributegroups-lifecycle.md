@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: a49a0d05a55e72b5dae17933d38d03287a01d5ee
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: dce26087a81e38c5618b07a9341fee195e3c98c9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936808"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346808"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>Atribūtu un atribūtu grupu pārvaldība
 
@@ -70,7 +70,7 @@ Atribūti ir balstīti uz *atribūtu veidiem*. Atribūta veids norāda datu veid
     - Vienam atribūta veidam piešķiriet nosaukumu **Lēcu forma** un pievienojiet šādas vērtības: **Ovāla**, **Kvadrāta** un **Taisnstūra**.
     - Otram atribūta veidam piešķiriet nosaukumu **Saulesbriļļu zīmols** un pievienojiet šādas vērtības: **Ray ban**, **Aviator** un **Oakley**.
 
-![Atribūtu tipi](media/AttributeType.png)
+![Atribūtu tipi.](media/AttributeType.png)
 
 ### <a name="set-up-an-attribute"></a>Iestatīt atribūtu
 
@@ -79,7 +79,7 @@ Atribūti ir balstīti uz *atribūtu veidiem*. Atribūta veids norāda datu veid
 3. Izveidojiet atribūtu ar nosaukumu **Lēcas**.
 4. Iestatiet laukam **Atribūta veids** vērtību **Lēcu forma**.
 
-![Atribūti](media/Attribute.png)
+![Atribūti.](media/Attribute.png)
 
 ## <a name="attribute-metadata"></a>Atribūta metadati
 
@@ -134,7 +134,7 @@ Lapa **Filtra rādīšanas preferences** ietver šādus laukus:
     - 200–500
     - 500 vai vairāk
 
-![Atribūtu filtra iestatījumi](media/AttributeFilterSettings.PNG)
+![Atribūtu filtra iestatījumi.](media/AttributeFilterSettings.PNG)
 
 ## <a name="attribute-groups"></a>Atribūtu grupas
 
@@ -142,7 +142,7 @@ Kad atribūti ir definēti, tos var piešķirt atribūtu grupām. *Atribūtu gru
 
 Atribūtiem var iestatīt arī noklusējuma vērtības, kas tiek iekļautas atribūtu grupā. Piemēram, pievienojiet atribūtu grupai krāsas atribūtu un atlasiet **Zila** kā atribūta noklusējuma vērtību. Šajā gadījumā, ja atribūtu grupa tiek pievienota precei, kas ietver krāsu kā vienu no tās atribūtiem, **Zils** parādās kā noklusējuma krāsa attiecīgajai precei.
 
-![Atribūtu grupas](media/AttributeGroup.png)
+![Atribūtu grupas.](media/AttributeGroup.png)
 
 ### <a name="create-an-attribute-group"></a>Izveidot atribūtu grupu
 
@@ -155,7 +155,7 @@ Atribūtiem var iestatīt arī noklusējuma vērtības, kas tiek iekļautas atri
 
 Vienu vai vairākas atribūtu grupas var saistīt ar kategoriju mezgliem šāda veida mazumtirdzniecības kategoriju hierarhijās: Commerce preču hierarhija, kanāla navigācijas kategoriju hierarhija un papildu preču kategoriju hierarhija. Kad preces ir sadalītas kategorijās, tās manto atribūtus, kas ir iekļauti atribūtu grupās.
 
-![Preču hierarhija — preču atribūtu grupas](media/AGRetailProdHierarchy.PNG)
+![Preču hierarhija — preču atribūtu grupas.](media/AGRetailProdHierarchy.PNG)
 
 Izpildiet tālāk minētās darbības, lai piešķirtu atribūtu grupas kategorijām Commerce preču hierarhijā.
 
@@ -200,7 +200,7 @@ Vienu vai vairākas atribūtu grupas var saistīt ar vienu vai vairākiem veikal
     3. Atlasiet kategorijas mezglu **Modes aksesuāri**, atlasiet kategoriju **Modernas saulesbrilles** un pēc tam kopsavilkuma cilnē **Kanāla preces īpašības** katram atribūtam atlasiet **Iekļaut atribūtu**.
     4. Atlasiet kategorijas mezglu **Vīriešu apģērbi**, atlasiet kategoriju **Bikses** un pēc tam kopsavilkuma cilnē **Kanāla preces īpašības** katram atribūtam atlasiet **Iekļaut atribūtu**.
 
-![Kanālu kategorijas un preču īpašības — atribūtu grupas](media/CCPAttrGrp.png)
+![Kanālu kategorijas un preču īpašības — atribūtu grupas.](media/CCPAttrGrp.png)
 
 ## <a name="overriding-attribute-values"></a>Atribūta vērtību ignorēšāna
 
@@ -214,7 +214,7 @@ Preču līmenī var ignorēt atsevišķu preču atribūtu noklusējuma vērtība
 4. Režģī atlasiet nepieciešamo preci. Pēc tam darbību rūts grupas **Iestatīšana** cilnē **Prece** atlasiet **Preces īpašības**.
 5. Kreisajā rūtī atlasiet atribūtu un pēc tam labajā rūtī atjauniniet tā vērtību.
 
-![Preces detalizētas informācijas lapa — preču īpašību grupas](media/ProdDetailsProdAttrValues.png)
+![Preces detalizētas informācijas lapa — preču īpašību grupas.](media/ProdDetailsProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-catalog"></a>Kataloga preču atribūtu vērtību ignorēšana
 
@@ -233,7 +233,7 @@ Preču līmenī var ignorēt atsevišķu preču atribūtu noklusējuma vērtība
     > [!NOTE]
     > Ja tiek izveidots koplietots preces datu nesējs un koplietotas preces īpašības, tie tiek lietoti visām precēm.
 
-![Kataloga preču īpašību grupas](media/CatalogProdAttrValues.png)
+![Kataloga preču īpašību grupas.](media/CatalogProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-channel"></a>Kanāla preču atribūtu vērtību ignorēšana
 

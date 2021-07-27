@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76dbf5f8f2fc3b33077d559ffcef580a5295adb2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 59dda2207f002402f5153f9c77206b6c644f2679
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815576"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352862"
 ---
 # <a name="general-journal-processing"></a>Virsgrāmatas žurnāla apstrāde
 
@@ -42,14 +42,14 @@ Lapā **Žurnālu nosaukumi**, jūs varat iestatīt šādus elementus:
 
 Žurnāla nosaukums var tikt izmantots tikai korekcijām. Šādā gadījumā, jūs varat norādīt, ka tikai **Virsgrāmatas** konta tips ir derīgs visos uzņēmumos. 
 
-[![Žurnāla pārbaudes kontu veidi](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
+[![Žurnāla pārbaudes kontu veidi.](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
 
 Žurnāla nosaukumu var izmantot tikai galveno kontu noteiktam segmentam vai diapazonam. 
 
-[![Žurnāla pārbaudes segments](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
+[![Žurnāla pārbaudes segments.](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
 
 Virsgrāmatas žurnālos ir pieejama opcija **Automātiskās atgriešana**. Piemēram, jums ir uzkrājuma korekcija, kur faktiskais dokuments vēl nav apstrādāts, kā parādīts šajā attēlā.
-[![Virsgrāmatas žurnāla storno](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
+[![Virsgrāmatas žurnāla storno.](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
 Microsoft Excel pievienojumprogramma žurnāla ierakstu izveidei nodrošina papildu automatizācijas līmeni un atvieglo datu ievadi. Darbība **Atvērt rindas programmā Excel** ir pieejama lapās **Virsgrāmatas žurnāls** un **Žurnāla dokuments**. 
 

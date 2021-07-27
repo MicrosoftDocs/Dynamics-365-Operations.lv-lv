@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143aa5c3ba4d6064cde63f8e7ebeac0977b1325c
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 97fc3c6bd096854b5aa72980dd2bd6f3a8a1ef9e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908710"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353424"
 ---
 # <a name="gantt-chart-for-job-scheduling"></a>Ganta diagrammas izmantošana darba plānošanā
 
@@ -45,10 +45,10 @@ Ganta diagrammu var atvērti divos dažādos skatos: **Pasūtījumu skats** un *
 
 ## <a name="order-view"></a>Pasūtījumu skats
 
-[![Pasūtījumu skats](./media/orderview.png)](./media/orderview.png)
+[![Pasūtījumu skats.](./media/orderview.png)](./media/orderview.png)
 
 ## <a name="resource-view"></a>Resursu skats
-[![Resursu skats](./media/resview.png)](./media/resview.png)
+[![Resursu skats.](./media/resview.png)](./media/resview.png)
 
 ## <a name="activities"></a>Aktivitātes
 Darbības tiek parādītas kā joslas un ir izkārtotas laika skalas režģī ar plānotu sākuma un beigu laiku, padarot joslu garumu proporcionālu laikam, kas nepieciešams darbības izpildei. Darbības tiek rādītas atbilstoši laika skalai. Laika skalu varat pielāgot izvēlnē, kurā atlasāt sākuma un beigu datumu un laika vienību, piemēram, stundas vai dienas. Pielāgojot laika skalu, varat iestatīt laika intervālu, kurā vēlaties pārvaldīt darbības. 
@@ -102,25 +102,25 @@ Nav iespējams plānot darbu ārpus noteiktā laika intervāla Ganta diagrammā.
 
 Darbību tīklam, piemēram, darbiem, kas pieder vienam ražošanas pasūtījumam, varat izmantot funkciju **Plānot iepriekšējos darbus**, lai iepriekšējos darbus plānotu attiecībā pret atlasīto darbu tīklā. Tālāk esošajā piemērā iezīmētā darbība ir atlasītais darbs. Diagramma tiek parādīta pirms tam, kad ir ieplānots iepriekšējais darbs, un pēc tam, kad ir ieplānots iepriekšējais darbs. 
 
-[![Plānot iepriekšējo darbu](./media/schprevjob3.png)](./media/schprevjob3.png)
+[![Plānot iepriekšējo darbu.](./media/schprevjob3.png)](./media/schprevjob3.png)
 
 ### <a name="schedule-next-jobs"></a>Plānot nākamos darbus
 
 Funkciju **Plānot nākamos darbus** varat izmantot, lai nākamos darbus plānotu attiecībā pret atlasīto darbu darbību tīklā. Tālāk esošajā piemērā iezīmētā darbība ir atlasītais darbs. Diagramma tiek parādīta pirms tam, kad ir ieplānots nākamais darbs, un pēc tam, kad ir ieplānots nākamais darbs. 
 
-[![Plānot nākamo darbu](./media/schnxtjob.png)](./media/schnxtjob.png)
+[![Plānot nākamo darbu.](./media/schnxtjob.png)](./media/schnxtjob.png)
 
 ### <a name="schedule-around-job"></a>Plānot ap darbu
 
 Funkciju **Plānot ap darbu** varat izmantot, lai nākamo darbu un iepriekšējo darbu plānotu attiecībā pret atlasīto darbu darbību tīklā. Tālāk esošajā piemērā iezīmētā darbība ir atlasītais darbs. Diagramma tiek parādīta pirms tam, kad ir ieplānots darbs, un pēc tam, kad ir ieplānots darbs. 
 
-[![Plānot ap darbu](./media/scharoundjob1.png)](./media/scharoundjob1.png)
+[![Plānot ap darbu.](./media/scharoundjob1.png)](./media/scharoundjob1.png)
 
 ### <a name="arrange-jobs"></a>Sakārtot darbus
 
 Funkciju **Sakārtot** varat izmantot, lai sakārtotu atlasītās darbības vienam resursam. Šīs darbības var būt gan vienā darbības tīklā, gan piederēt dažādiem tīkliem. Izmantojot sakārtošanas funkciju, tiks likvidēti laika pārtraukumi starp atlasītajām darbībām. Šo funkciju varat izmantot, lai optimizētu resursu noslodzes lietojumu. Diagramma tiek parādīta pirms tam, kad ir ieplānots darbs, un pēc tam, kad ir ieplānots darbs. 
 
-[![Sakārtot darbu](./media/arrangejobs1.png)](./media/arrangejobs1.png)
+[![Sakārtot darbu.](./media/arrangejobs1.png)](./media/arrangejobs1.png)
 
 ### <a name="reassign-activities-from-one-resource-to-another"></a>Darbību atkārtota piešķiršana no viena resursa citam
 
@@ -149,8 +149,8 @@ Ganta diagrammu var atvērt no tālāk norādītajām lapām.
 |                                            <strong>Resursu grupa</strong>                                             |                                                                                                                                                 Lapā <strong>Resursu grupa</strong> Ganta diagrammu varat atvērt no izvēlnes vienuma <strong>Ganta diagramma</strong>. Pēc atlasīšanas tiks parādīti visi resursu grupas resursiem ieplānotie darbi atlasītajā laika intervālā.                                                                                                                                                 |
 |                                             <strong>Ganta diagrammas</strong>                                              |                                                                                 Lapā <strong>Ganta diagrammas</strong> varat konfigurēt Ganta diagrammas pa resursiem un resursu grupām. Piemēram, ja vēlaties kontrolēt ražošanas darbības noteiktām resursu vai resursu grupu kopām, lapā <strong>Ganta diagrammas</strong> varat izveidot atsevišķas to konfigurācijas. Pēc tam Ganta diagrammu var atvērt no katras konfigurācijas.                                                                                 |
 |                                       <strong>Stundu prognozes</strong> (projekts)                                        |                                                                                                                              Resursiem var ieplānot tipa <strong>Stundu prognozes</strong> projekta darbības. Lapā <strong>Stundu prognoze</strong> esošajā izvēlnē <strong>Plānošana</strong> varat atvērt Gantt diagrammu par kādu pasūtījumu, lai skatītu darbam ieplānotās stundu prognozes tipa projekta darbības.                                                                                                                               |
-|           <strong>Veicamais darbs</strong> (saraksts darbvietā <strong>Ražošanas pārvaldība</strong>)            |                                                                                               Darbvietā <strong>Veicamo darbu saraksts ražošanas vadībā</strong> tiek rādīti darbi no ražošanas un partijas pasūtījumiem, kas notiek atlasītajos darbvietas resursos. Izvēlnes vienumā <strong>Ganta diagramma</strong> varat atvērt Ganta diagrammu, un visi sarakstā atlasītie darbi tiks ielādēti diagrammā.                                                                                               |
-| <strong>Izlaišanai paredzētie ražošanas pasūtījumi</strong> (pieejama darbvietā <strong>Ražošanas pārvaldība</strong>) |                                                                                                                                         Lapa Izlaišanai paredzētie ražošanas pasūtījumi tiek atvērta no darbvietas <strong>Ražošanas pārvaldība</strong>. Šajā lapā tiek rādīti plānotie ražošanas un partijas pasūtījumi, kas gaida izlaišanu. Šajā lapā Ganta diagrammu varat atvērt atlasītajiem ražošanas pasūtījumiem.                                                                                                                                          |
+|           <strong>Veicamais darbs</strong> (saraksts darbvietā <strong>Ražošanas pārvaldība</strong> )            |                                                                                               Darbvietā <strong>Veicamo darbu saraksts ražošanas vadībā</strong> tiek rādīti darbi no ražošanas un partijas pasūtījumiem, kas notiek atlasītajos darbvietas resursos. Izvēlnes vienumā <strong>Ganta diagramma</strong> varat atvērt Ganta diagrammu, un visi sarakstā atlasītie darbi tiks ielādēti diagrammā.                                                                                               |
+| <strong>Izlaišanai paredzētie ražošanas pasūtījumi</strong> (pieejama darbvietā <strong>Ražošanas pārvaldība</strong> ) |                                                                                                                                         Lapa Izlaišanai paredzētie ražošanas pasūtījumi tiek atvērta no darbvietas <strong>Ražošanas pārvaldība</strong>. Šajā lapā tiek rādīti plānotie ražošanas un partijas pasūtījumi, kas gaida izlaišanu. Šajā lapā Ganta diagrammu varat atvērt atlasītajiem ražošanas pasūtījumiem.                                                                                                                                          |
 
 ## <a name="additional-resources"></a>Papildu resursi  
 [Vizuāla plānošana ar Ganta diagrammu ražošanas un partijas pasūtījumiem (video)](https://youtu.be/BtbuShkGj4I)

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ae957f592ad9a1237817fec5d4172295f9a53020
-ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
+ms.openlocfilehash: a9b2e8d46debf8e065361d85f10162cda56b62e8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6222590"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349038"
 ---
 # <a name="enable-customer-payment-predictions-preview"></a>Debitora maksājumu prognožu iespējošana (priekšskatījums)
 
@@ -51,7 +51,7 @@ ms.locfileid: "6222590"
 
     1. Doties uz **Kredīti un iekasēšana \> Iestatījumi \> Finanšu ieskati \> Finanšu ieskatu parametri**.
 
-        [![Finanšu ieskatu parametru lapa pirms līdzekļa konfigurēšanas](./media/finance-insights-parameters.png)](./media/finance-insights-parameters.png)
+        [![Finanšu ieskatu parametru lapa pirms līdzekļa konfigurēšanas.](./media/finance-insights-parameters.png)](./media/finance-insights-parameters.png)
 
     2. Lapā **Finanšu ieskatu parametri**, kas atrodas cilnē **Debitora maksājumu ieskati** atlasiet saiti **Skatīt datu laukus, kas izmantoti prognozēšanas modelī**, lai atvērtu lapu **Datu lauki prognozēšanas modelim**. Tur varat apskatīt noklusējuma sarakstu ar laukiem, kas tiek izmantoti, lai izveidotu mākslīgā intelekta prognozēšanas modeli debitora maksājumu prognozēm.
 
@@ -77,7 +77,7 @@ ms.locfileid: "6222590"
 
 Pēc tam, kad līdzeklis ir ieslēgts un konfigurēts, un prognozēšanas modelis ir izveidots un darbojas, sadaļā **Prognozēšanas modelis** lapā **Finanšu ieskatu parametri** redzama modeļa precizitāte, kā parādīts tālāk redzamajā attēlā.
 
-[![Prognozēšanas modeļa precizitāte finanšu ieskatu parametru lapā](./media/finance-insights-parameters-accuracy.png)](./media/finance-insights-parameters-accuracy.png)
+[![Prognozēšanas modeļa precizitāte finanšu ieskatu parametru lapā.](./media/finance-insights-parameters-accuracy.png)](./media/finance-insights-parameters-accuracy.png)
 
 ## <a name="release-details"></a>Informācija par izlaišanu
 

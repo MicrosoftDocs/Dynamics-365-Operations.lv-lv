@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 9dbef5a3071eea0514bc656477001358c6a5b561
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 58e44160ffbcc18f1a4816176d9987507ca84d3a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910333"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346110"
 ---
 # <a name="sales-orders-mobile-workspace"></a>Pārdošanas pasūtījumu mobilā darbvieta
 
@@ -78,7 +78,7 @@ Mobilā darbvieta nodrošina divus skatus, kas palīdz detalizēti analizēt pā
         -   Sūtījumi, kas norāda pārdošanas pasūtījuma nosūtīšanas veidu un laiku
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
-Priekšnosacījumi atšķiras atkarībā no jūsu organizācijai izvietotās Microsoft Dynamics 365 versijas.
+Priekšnosacījumi atšķiras atkarībā no jūsu organizācijai izvietotās Microsoft Dynamics 365 versijas.
 
 ### <a name="prerequisites-if-you-use-supply-chain-management"></a>Priekšnosacījumi, ja izmantojat Supply Chain Management 
 Ja jūsu organizācijai ir izvietota programmatūra Supply Chain Management, sistēmas administratoram ir jāpublicē mobilā darbvieta **Pārdošanas pasūtījumi**. Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md).
@@ -129,7 +129,7 @@ Mobilās programmas Finance and Operations lejupielāde un instalēšana.
 3.  Pirmajā pierakstīšanās reizē tiek prasīts ievadīt lietotājvārdu un paroli. Ievadiet savus akreditācijas datus.
 4.  Pēc pierakstīšanās tiek parādītas jūsu uzņēmumam pieejamās darbvietas. Ņemiet vērā, ka gadījumā, ja sistēmas administrators vēlāk publicēs jaunu darbvietu, jums būs jāatsvaidzina mobilo darbvietu saraksts.
 
-[![Velciet, lai atsvaidzinātu](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Velciet, lai atsvaidzinātu.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-information-about-sales-orders-for-a-customer-by-using-the-sales-order-mobile-workspace"></a>Informācijas par kāda debitora pārdošanas pasūtījumiem skatīšana, izmantojot mobilo darbvietu Pārdošanas pasūtījums
 

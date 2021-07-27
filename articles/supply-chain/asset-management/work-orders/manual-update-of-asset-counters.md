@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4618ff2d6880f478683fbed0ed716af5ab8d4d9c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8b95975f5be9ef49eee2fd6c6ff1cbbde49c9336
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842253"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350598"
 ---
 # <a name="manual-update-of-asset-counters"></a>Pamatlīdzekļu skaitītāju manuāla atjaunināšana
 
@@ -54,7 +54,7 @@ Lapā **Visi līdzekļi** jūs izveidojat stundu vai daudzuma skaitītāja reģi
 
 Attēlā zemāk ir parādīta lapa **Līdzekļu skaitītāji**.
 
-![1. attēls](media/11-work-orders.png)
+![1. attēls.](media/11-work-orders.png)
 
 Lapā **Līdzekļu skaitītāji** (**Līdzekļu pārvaldība** > **Pieprasījumi** > **Līdzekļi** > **Līdzekļu skaitītāji**) var veikt skaitītāja reģistrācijas vairākiem līdzekļiem vienlaicīgi, ja nepieciešams.
 

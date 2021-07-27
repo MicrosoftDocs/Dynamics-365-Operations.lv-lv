@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 65c174896bbee07514285d4d19e1693c13dd9697
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: db58e3d1a6665d15ad2f3ac25612ecbf448a9c17
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021520"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344200"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Materiālu apstrādes aprīkojuma interfeiss (MHAX)
 
@@ -29,7 +29,7 @@ Jūs variet izmantot *materiālu apstrādes aprīkojuma interfeisu* (MHAX), lai 
 
 Šajā attēlā redzami dažādie elementi un secība, kas tiek veikta, kad izmantojat MHAX integrāciju.
 
-![MHAX komponenti un mijiedarbības](media/mhax-components.png "MHAX komponenti un mijiedarbības")
+![MHAX komponenti un mijiedarbības.](media/mhax-components.png "MHAX komponenti un mijiedarbības")
 
 Šeit sniegts iepriekšējā ilustrācijā parādītās mijiedarbības skaidrojums:
 
@@ -99,7 +99,7 @@ Lai iestatītu abonementa karti, atlasiet attiecīgo abonementu abonementu lapā
 
 #### <a name="work-creation-events"></a>Darba izveides notikumi
 
-Darba izveides notikumi tiek izveidoti pēc tam, kad darbs tiek ģenerēts programmā. Šī darbība attiecas uz vairumu darba izveides procesu veidu, visizplatītākais izdošanas un papildināšanas darba izveidei. Ja darbs ir izveidots *Atvērtā*  stāvoklī, kas norāda, ka darbu var veikt darbinieks, parasti tiek ģenerēts darba izveides notikums. Turklāt darba izveides notikumi tiks ģenerēti pamata kustības darbam (nevis kustībai pēc veidnes darba), pat ja darbs nav izveidots kā atvērts darbs.
+Darba izveides notikumi tiek izveidoti pēc tam, kad darbs tiek ģenerēts programmā. Šī darbība attiecas uz vairumu darba izveides procesu veidu, visizplatītākais izdošanas un papildināšanas darba izveidei. Ja darbs ir izveidots *Atvērtā* stāvoklī, kas norāda, ka darbu var veikt darbinieks, parasti tiek ģenerēts darba izveides notikums. Turklāt darba izveides notikumi tiks ģenerēti pamata kustības darbam (nevis kustībai pēc veidnes darba), pat ja darbs nav izveidots kā atvērts darbs.
 
 Šim uzvedības nepastāvīgs izņēmums ir cikla inventarizācijas darbs, kas pašlaik netiek atbalstīts. Krājumu uzskaite MH sistēmā ir ārpus MHAX sfēras, un inventarizācijas rezultāti ir jāimportē krājumu uzskaites žurnālā.
 
@@ -129,7 +129,7 @@ Lai pārskatītu nosūtīšanas rindu, dodieties uz **Materiālu apstrādes apr�
 
 ### <a name="clean-up-the-outbound-queue"></a>Iztīriet izejošo rindu
 
-Visbeidzot, jūsu nosūtīšanas rinda sāks kļūt pilns ar rindas krājumiem, kas jau ir nosūtīti. Lai noņemtu šos elementus, dodieties uz **Materiālu apstrādes aprīkojuma interfeiss \>Periodiskie uzdevumi\>Tīrīšana \> Tīrīšanas Nosūtīšanas rindas tīrīšana** tīrīšana. 
+Visbeidzot, jūsu nosūtīšanas rinda sāks kļūt pilns ar rindas krājumiem, kas jau ir nosūtīti. Lai noņemtu šos elementus, dodieties uz **Materiālu apstrādes aprīkojuma interfeiss \> Periodiskie uzdevumi \> Tīrīšana \> Tīrīšanas Nosūtīšanas rindas tīrīšana** tīrīšana.
 
 ## <a name="inbound-events"></a>Ienākošie notikumi
 
@@ -158,7 +158,7 @@ Darba apstiprināšanas notikumiem nepieciešams, lai ienākošie datu lauki iek
 - **data03** – numura zīmes ID, no kā izvēlēties.
 - **data04** – darba virsraksta mērķa numura zīmes ID.
 
-Ja tiek nodrošināts darba rindu pāra ID, visas izdošanas, izvietošanas vai pielāgotās darba rindas, kas atzīmētas ar darba rindu pāra ID un kuru statuss ir *Atvērts* vai *Procesā*, tiek palaistas secīgi. Ja tiek nodrošināts darba rindas ieraksta ID (`RecId`vērtība), darba rindai jābūt izdošanas, izvietošanas vai pielāgotai darba rindai, kuras statuss ir *Atvērts* vai *Procesā*.
+Ja tiek nodrošināts darba rindu pāra ID, visas izdošanas, izvietošanas vai pielāgotās darba rindas, kas atzīmētas ar darba rindu pāra ID un kuru statuss ir *Atvērts* vai *Procesā*, tiek palaistas secīgi. Ja tiek nodrošināts darba rindas ieraksta ID (`RecId` vērtība), darba rindai jābūt izdošanas, izvietošanas vai pielāgotai darba rindai, kuras statuss ir *Atvērts* vai *Procesā*.
 
 Izdošanas rindām no numura zīmes kontrolētiem novietojumiem ir nepieciešams, lai **dati03** norādītu numura zīmi, no kuras ir jāizņem, neatkarīgi no tā, vai rindas ir atzīmētas ar darba rindas ieraksta ID vai darba rindu pāra ID. Laukam **data04** ir jānorāda darba virsraksta mērķa numura zīme importēšanai.
 
@@ -217,7 +217,7 @@ Visas darba operācijas (izdošanas un izvietošanas) tiek izpildītas, izmantoj
 
 ### <a name="clean-up-the-inbound-queue"></a>Iztīriet ienākošo rindu
 
-Visbeidzot, jūsu ienākošā rinda sāks kļūt pilna ar jau apstrādātiem rindas krājumiem. Lai noņemtu šos elementus, dodieties uz **Materiālu apstrādes aprīkojuma interfeiss \>Periodiskie uzdevumi \>Tīrīšana \> Ienākošās rindas tīrīšana**. 
+Visbeidzot, jūsu ienākošā rinda sāks kļūt pilna ar jau apstrādātiem rindas krājumiem. Lai noņemtu šos elementus, dodieties uz **Materiālu apstrādes aprīkojuma interfeiss \> Periodiskie uzdevumi \> Tīrīšana \> Ienākošās rindas tīrīšana**.
 
 ## <a name="get-a-quick-overview-by-using-the-queue-manager"></a>Iegūt ātro pārskatu, izmantojot rindas pārvaldnieku
 

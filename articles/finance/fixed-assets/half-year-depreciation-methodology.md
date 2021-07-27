@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-17
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: d0e33128c37e970ebf5af87bd601ae30aef96952
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9a8dd3d8c6b92be9f22573f463aa96b13d9e3418
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818587"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355536"
 ---
 # <a name="half-year-depreciation-convention-methodology"></a>Pusgada nolietojuma konvencijas metodika
 
@@ -36,7 +36,7 @@ Pirmais ekspluatācijas gads noslēgsies 2020. gada decembrī, kas nozīmē, ka 
 > Gada nolietojums 50 000/5 = 10 000 mēneša nolietojums 10 000/12 = 833,33 <br>
 > Pirmā gada nolietojums 10 000/2 = 5 000 un nākamā mēneša nolietojums 5 000/9 = 555,56
 
-   [![Nolietojuma grafiks pusgada nolietojuma konvencijai](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
+   [![Nolietojuma grafiks pusgada nolietojuma konvencijai.](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
 
 Paplašinātie nolietojuma periodi, kas pievienoti ar pusgada konvenciju, nodrošina precīzāku nolietojuma sadalījumu. Sešu mēnešu konvencija labāk atspoguļo nolietojuma izdevumus, kas ir noderīgi pārskatu sniegšanai peļņas un zaudējumu pārskatā.
 

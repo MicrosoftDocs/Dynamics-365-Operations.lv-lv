@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 39fae603a8ae34a7500ead1d2d1cecff6dc65f1e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 62cc0bb9d62b0ab90e212b03e6c4efd9734dadec
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804045"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347420"
 ---
 # <a name="templates-and-layouts-overview"></a>Pārskats par veidnēm un izkārtojumiem
 
@@ -32,9 +33,9 @@ Labs veids, kā sākt strādāt ar veidnēm, ir izprast veidņu un izkārtojumu 
 
 Tālāk esošajā attēlā redzama lapas modeļa hierarhija aiz atveidotas lapas.
 
-![Lapas modeļa diagramma](../commerce/media/page-model-diagram.png)
+![Lapas modeļa diagramma.](../commerce/media/page-model-diagram.png)
 
-| Elements        | Pamata funkcija |
+| Entītija        | Pamata funkcija |
 |---------------|----------------|
 | Veidne      | Veidnes nosaka moduļu opcijas un pamata sastatnes, lai izveidotu izkārtojumus un lapas instances. |
 | Izkārtojums        | Izkārtojumi definē moduļu gala atlasi un izkārtojumu lapai vai lapu kopai. |
@@ -98,7 +99,7 @@ Iepriekš iestatītais izkārtojums un pielāgotie izkārtojumi tiek rediģēti 
 
 Tālāk esošajos attēlos ir parādīti iepriekš iestatītu un pielāgotu izkārtojumu scenāriji.
 
-![Iepriekš iestatītu un pielāgotu izkārtojumu scenāriji](../commerce/media/template-figure1.png)
+![Iepriekš iestatītu un pielāgotu izkārtojumu scenāriji.](../commerce/media/template-figure1.png)
 
 Lai sāktu izmantot iepriekš iestatītus izkārtojumus, skatiet sadaļu [Darbs ar iepriekš iestatītiem izkārtojumiem](work-with-layouts.md).
 

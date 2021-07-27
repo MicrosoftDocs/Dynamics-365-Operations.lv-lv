@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3a5c2b6fb48d98ba045c77ed034d976f7d89af98
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 7b97eca8c2d4fe9f71c3cd8f1e40a3bbb7ee4879
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021373"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348420"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Nodokļu līdzekļu atbalsts pārsūtīšanas pasūtījumiem
 
@@ -40,7 +40,7 @@ Veiciet šīs darbības, lai iestatītu nodokli, kas ir iesaistīts pārsūtīš
 
 1. Lapā **Nodokļu līdzekļi**, cilnē **Versijas** atlasiet melnraksta līdzekļa versiju un pēc tam atlasiet **Rediģēt**.
 
-    ![Atlasot Rediģēt](../media/tax-feature-support-01.png)
+    ![Atlasot Rediģēt.](../media/tax-feature-support-01.png)
 
 2. Lapā **Nodokļu līdzekļu iestatījums** cilnē **Nodokļu kodi** atlasiet **Pievienot**, lai izveidotu jaunus nodokļu kodus. Šajā piemērā ir izveidoti trīs nodokļu kodi: **NL-Neapliekamais**, **BE-RC-21** un **BE-RC+21**.
 
@@ -53,7 +53,7 @@ Veiciet šīs darbības, lai iestatītu nodokli, kas ir iesaistīts pārsūtīš
         4. Atlasiet **Pievienot** tabulā **Likme**.
         5. Pārsledziet **Ir neapliekams** uz **Jā** sadaļā **Vispārējais**.
 
-        ![NL-Neapliekamā nodokļa kods](../media/tax-feature-support-02.png)
+        ![NL-Neapliekamā nodokļa kods.](../media/tax-feature-support-02.png)
 
     - Kad pārsūtīšanas pasūtījums tiek saņemts Beļģijas noliktavā, atgriezeniskās maksas mehānisms tiek piemērots, izmantojot **BE-RC-21** un **BE-RC+21** nodokļu kodus.
         
@@ -66,7 +66,7 @@ Veiciet šīs darbības, lai iestatītu nodokli, kas ir iesaistīts pārsūtīš
         6. Pārsledziet **Ir apgrieztā maksa** uz **Jā** sadaļā **Vispārējais**.
         7. Atlasiet **Saglabāt**.
 
-        ![BE-RC-21 nodokļa kods apgrieztām maksām](../media/tax-feature-support-03.png)
+        ![BE-RC-21 nodokļa kods apgrieztām maksām.](../media/tax-feature-support-03.png)
         
         Izveidojiet nodokļa kodu **BE-RC+21**.
         1. Atlasiet **Pievienot** ievadiet **BE-RC-21** laukā **Nodokļa kods**.
@@ -76,7 +76,7 @@ Veiciet šīs darbības, lai iestatītu nodokli, kas ir iesaistīts pārsūtīš
         5. Ievadiet **21** laukā **Nodokļa likme**.
         6. Atlasiet **Saglabāt**.
 
-        ![BE-RC+21 nodokļa kods apgrieztām maksām](../media/tax-feature-support-04.png)
+        ![BE-RC+21 nodokļa kods apgrieztām maksām.](../media/tax-feature-support-04.png)
 
 3. Nosakiet nodokļa kodu piemērojamību.
 
@@ -105,11 +105,11 @@ Veiciet šīs darbības, lai iestatītu nodokli, kas ir iesaistīts pārsūtīš
         6. Laukā **Nodokļu kodi** atlasiet **BE-RC+21** un **BE-RC-21**.
         7. Laukā **Nodokļu grupa** un **Krājuma nodokļu grupa** ievadiet saistīto nodokļa grupu un krājumu nodokļa grupu, kas ir definēta jūsu Finanšu sistēmā.
 
-        ![Piemērojamības kārtulas](../media/image5.png)
+        ![Lietojamības kārtulas.](../media/image5.png)
 
 4. Pabeidziet un publicējiet jauno nodokļu līdzekļu versiju.
 
-    [![Jaunas versijas statusa maiņa](../media/image6.png)](../media/image6.png)
+    [![Jaunas versijas statusa maiņa.](../media/image6.png)](../media/image6.png)
 
 ## <a name="set-up-finance-for-transfer-order-transactions"></a>Pārsūtīšanas pasūtījumu darījumu Finance iestatīšana
 
@@ -121,7 +121,7 @@ Veiciet šīs darbības, lai iespējotu un iestatītu nodokļus pārsūtīšanas
     > [!IMPORTANT]
     > Līdzeklis **Nodoklis pārsūtīšanas pasūtījumā** ir pilnībā atkarīgs no nodokļu pakalpojuma. Tādēļ to var ieslēgt tikai pēc nodokļu pakalpojumu instalēšanas.
 
-    ![Līdzeklis Nodoklis pārsūtīšanas pasūtījumā](../media/image7.png)
+    ![Līdzeklis Nodoklis pārsūtīšanas pasūtījumā.](../media/image7.png)
 
 3. Iespējojiet nodokļu pakalpojumu un atlasiet biznesa procesu **Krājums**.
 
@@ -131,11 +131,11 @@ Veiciet šīs darbības, lai iespējotu un iestatītu nodokļus pārsūtīšanas
     1. Doties uz **Nodoklis** \> **Iestatījums** \> **Nodokļa konfigurācija** \> **Nodokļu pakalpojuma iestatījumi**.
     2. Laukā **Biznesa process** atlasiet **Krājumi**.
 
-    ![Biznesa procesa lauka iestatīšana](../media/image8.png)
+    ![Biznesa procesa lauka iestatīšana.](../media/image8.png)
 
 4. Pārbaudiet, vai ir iestatīts apgrieztās maksas mehānisms. Dodieties uz **Virsgrāmata** \> **Iestatījums** \> **Parametri** un pēc tam cilnē **Apgrieztā maksa** pārbaudiet, vai opcija **Iespējot apgriezto maksu** ir iestatīta uz **Jā**.
 
-    ![Aktivizēt apgrieztās maksas opciju](../media/image9.png)
+    ![Aktivizēt apgrieztās maksas opciju.](../media/image9.png)
 
 5. Pārbaudiet, vai saistītie nodokļu kodi, nodokļu grupas, krājumu nodokļu grupas un PVN reģistrācijas numuri ir iestatīti Finance atbilstoši nodokļu pakalpojuma vadlīnijām.
 6. Iestatiet pagaidu tranzīta kontu. Šī darbība ir nepieciešama tikai tad, ja nodoklis, kas tiek lietots pārsūtīšanas pasūtījumam, nav piemērojams ar nodokli neapliekamam vai atgriezenisko maksājumu mehānismam.
@@ -143,7 +143,7 @@ Veiciet šīs darbības, lai iespējotu un iestatītu nodokļus pārsūtīšanas
     1. Pārejiet uz sadaļu **Nodokļi** \> **Iestatījumi** \> **PVN** \> **Virsgrāmatas grāmatošanas grupas**.
     2. Laukā **Pagaidu tranzīts** atlasiet Virsgrāmatas kontu.
 
-    ![Atlasot pagaidu tranzīta kontu](../media/image10.png)
+    ![Atlasot pagaidu tranzīta kontu.](../media/image10.png)
 
 ## <a name="set-up-basic-inventory-for-transfer-order-transactions"></a>Iestatīt pamata krājumus pārsūtīšanas pasūtījuma darījumiem
 
@@ -158,7 +158,7 @@ Veiciet šīs darbības, lai iestatītu pamata krājumus pārsūtīšanas pasūt
     > [!NOTE]
     > Vienai no izveidotajām vietnēm ir jābūt nosauktai **Tranzīts**. Vēlākās šīs procedūras darbībās šī vieta ir jāpiešķir tranzīta noliktavai, lai ar nodokļiem saistītos krājumu dokumentus varētu grāmatot “nosūtīšanas” un “saņemšanas” transakcijās pārsūtīšanas pasūtījumiem. Tranzīta vietas adrese nav atbilstoša nodokļu aprēķinam. Tādēļ to var atstāt tukšu.
 
-    ![Vietu iestatīšana](../media/image11.png)
+    ![Vietu iestatīšana.](../media/image11.png)
 
 2. Izveidot piegādes, tranzīta un nosūtīšanas noliktavas. Jebkura adreses informācija, kas tiek uzturēta noliktavā, nodokļu aprēķināšanas laikā ignorēs vietas adresi.
 
@@ -166,24 +166,24 @@ Veiciet šīs darbības, lai iestatītu pamata krājumus pārsūtīšanas pasūt
     2. Atlasiet **Jauns**, lai izveidotu vietu un piešķir to atbilstošajai vietai.
     3. Atkārtojiet 2. darbību, lai izveidotu noliktavu katrai vietai pēc vajadzības.
 
-    ![Noliktavu iestatīšana](../media/image12.png)
+    ![Noliktavu iestatīšana.](../media/image12.png)
 
     > [!NOTE]
     > Piegāde no noliktavas pārsūtīšanas pasūtījuma darījumiem laukā **Tranzīta noliktava** ir jāatlasa tranzīta noliktava.
     >
-    > ![Tranzīta noliktavas atlasīšana](../media/image13.png)
+    > ![Tranzīta noliktavas atlasīšana.](../media/image13.png)
 
 3. Pārbaudiet, vai krājumu grāmatošanas konfigurācija ir iestatīta pārsūtīšanas pasūtījumu darījumiem.
 
     1. Doties uz **Krājumu vadība** \> **Iestatīšana** \> **Grāmatojums** \> **Grāmatošana**.
     2. Cilnē **Krājumi** pārbaudiet, vai Virsgrāmatas konts ir iestatīts gan **Krājumu izejas plūsmas**, gan **Krājumu ieejas plūsmas** grāmatošanai.
 
-        ![Krājumu izejas un krājumu ieejas plūsmas grāmatošanas iestatīšana](../media/image14.png)
+        ![Krājumu izejas un krājumu ieejas plūsmas grāmatošanas iestatīšana.](../media/image14.png)
 
     3. Pārbaudiet, vai Virsgrāmatas konts ir iestatīts **Starpvienību maksājumu** grāmatošanai.
 
-        ![Starpvienību maksājumu grāmatošanas iestatīšana](../media/image15.png)
+        ![Starpvienību maksājumu grāmatošanas iestatīšana.](../media/image15.png)
 
     4. Pārbaudiet, vai Virsgrāmatas konts ir iestatīts **Starpvienību ieņēmumi** grāmatošanai.
 
-        ![Starpvienību ieņēmumu grāmatošanas iestatīšana](../media/image16.png)
+        ![Starpvienību ieņēmumu grāmatošanas iestatīšana.](../media/image16.png)

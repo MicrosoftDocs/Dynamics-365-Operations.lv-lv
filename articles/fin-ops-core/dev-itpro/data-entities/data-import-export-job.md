@@ -8,16 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c660cf5aba786fb6f84776f6443f658ebbfa25d5
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.openlocfilehash: 12de6d70243bdcda5fc7887f24eecb462de23683
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937334"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351023"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Datu importēšanas un eksportēšanas darbu pārskats
 
@@ -106,7 +107,7 @@ Pastāv divi kartēšanas skati: **Kartēšanas vizualizēšana**, kurš ir nokl
 
 Kartējumu lapā varat ģenerēt, atlasot **Ģenerēt avota kartējumu**. Ģenerēts kartējums darbojas tāpat kā automātisks kartējums. Tādēļ visi nekartētie lauki jums ir jākartē manuāli.
 
-![Datu kartēšana](./media/dixf-map.png)
+![Datu kartēšana.](./media/dixf-map.png)
 
 ## <a name="verify-the-security-for-your-import-or-export-job"></a>Sava importēšanas vai eksportēšanas darba drošības pārbaudīšana
 Piekļuve darbvietai **Datu pārvaldība** var būt ierobežota, lai lietotāji bez administratora tiesībām varētu piekļūt tikai noteiktiem datu darbiem. Piekļuve datu darbam tostarp nozīmē pilnu piekļuvi šī darba izpildes vēsturei un piekļuvi sagatavošanas tabulām. Tādēļ, kad veidojat datu darbu, jums ir jāpārliecinās, vai tiek izmantotas atbilstošas piekļuves kontroles.
@@ -132,7 +133,7 @@ Darbu varat palaist vienu reizi, pēc darba definēšanas atlasot pogu **Import�
 ## <a name="validate-that-the-job-ran-as-expected"></a>Pārbaudīšana, vai darba norise notiek paredzētajā veidā
 Gan eksportēšanas, gan importēšanas darbiem problēmu novēršanai un izmeklēšanai ir pieejama darbu vēsture. Vēsturiskās darbu izpildes ir sakārtotas pēc laika diapazoniem.
 
-![Darbu vēsture diapazoni](./media/dixf-job-history.md.png)
+![Darbu vēsture diapazoni.](./media/dixf-job-history.md.png)
 
 Par katru darba palaišanu ir tālāk aprakstītā detalizētā informācija.
 

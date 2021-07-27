@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 8dc312e66dc666ac6c23bac6b705ffc7893fd06b
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 09d4516c40833771d27db13eac8228bd8c5e0e4a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188001"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355039"
 ---
 # <a name="overhead-calculation"></a>Pieskaitāmo izmaksu aprēķins
 
@@ -48,7 +48,7 @@ Pieskaitāmo izmaksu aprēķins izpilda izmaksu uzskaites politikas pareizajā s
 
 Pieskaitāmo izmaksu aprēķins tiek darbināts neatkarīgi no versijas. Tāpēc budžeta versiju varat aprēķināt pirms faktiskās versijas. Pieskaitāmo izmaksu aprēķinu veido četri soļi, kā parādīts nākamajā attēlā. Katrā solī tiek izveidots žurnāla virsraksts, kurā ir žurnāla ieraksti. Šis žurnāla virsraksts glabā ievades datus par katru aprēķina soli. Politikas un kārtulas tiek lietotas katrai žurnāla rindai, un izmaksu ieraksti tiek ģenerēti kā izvade. Tādēļ jums vienmēr ir pilnīga izsekojamība. 
 
-[![Pieskaitāmo izmaksu aprēķins](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
+[![Pieskaitāmo izmaksu aprēķins.](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
 
 ## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a>Aprēķināt un piešķirt elektrības pieskaitāmās izmaksas
 Finanšu uzskaitē noteiktas izmaksas, piemēram, par elektrību, tiek reģistrētas kā vienreizēja izmaksa. Tāpēc izmaksu uzskaitei netiek nodrošināti detalizēti pārvaldības ieskati. Lai izmaksu uzskaitē sniegtu pareizus pārvaldības ieskatus par visām organizācijas vienībām un līmeņiem, izmaksām ir jāplūst caur organizatoriskajām vienībām. Šīs plūsmas pamatā ir jābūt vai nu precīzai patēriņa reģistrēšanai, vai objektīvam novērtējumam. Virsgrāmatā elektrības izmaksas var grāmatot nākamajā tabulā parādītajā veidā.
@@ -618,7 +618,7 @@ Sīkāku informāciju skatiet šeit: [Pieskaitāmo izmaksu aprēķina veikšana]
 
 Sadalījums tiek izmantots, lai izmaksu objekta bilanci piešķirtu citiem izmaksu objektiem, lietojot sadalījuma pamatu. Finance atbalsta savstarpējā sadalījuma metodi. Savstarpējā sadalījuma metodē tiek pilnīgi atpazīti savstarpējie pakalpojumi, ar kuriem izmaksu objekti apmainās. Sistēma automātiski nosaka pareizo secību, kādā veikt sadalījumus. Izmaksu objekta bilance tiek sadalīta pēc viena sadalījuma pamata. Tiek atbalstīti sadalījumi dažādās izmaksu objektu dimensijās un to attiecīgajos elementos. Sadalījuma secību kontrolē izmaksu kontroles vienība. 
 
-[![Savstarpējā metode](./media/reciprocal-method.png)](./media/reciprocal-method.png)
+[![Savstarpējā metode.](./media/reciprocal-method.png)](./media/reciprocal-method.png)
 
 #### <a name="define-the-cost-allocation"></a>Definēt izmaksu sadalījumu
 

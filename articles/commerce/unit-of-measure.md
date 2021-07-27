@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7d338ba207c9a101f5e224ca66555b16a457bcbc
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 076d4a68362dbf11c5fcf223a836f075d07e27a3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271405"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350332"
 ---
 # <a name="apply-unit-of-measure-settings"></a>Lietot mērvienības iestatījumus
 
@@ -32,7 +32,7 @@ Preci var pārdot dažādās vienībās, piemēram, "katrs", "pāris" un "ducis.
 
 Šajā ilustrācijā parādīts, ka precei programmā Commerce Headquarters ir konfigurēta pārdošanas mērvienība **kt** (katrs).
 
-![Tās preces piemērs, kas ir konfigurēta ar mērvienību programmā Commerce Headquarters](./media/Productunit-headquarters.PNG)
+![Tās preces piemērs, kas ir konfigurēta ar mērvienību programmā Commerce Headquarters.](./media/Productunit-headquarters.PNG)
 
 > [!NOTE]
 > Atbalsts mērvienības pielietošanai un rādīšanai ir pieejams Commerce versijā 10.0.19 laidienā.
@@ -54,11 +54,11 @@ Moduļi, kas izmanto mērvienības iestatījumus, ietver pirkšanas kasti, vēlm
 
 Piemērā šajā attēlā, preču informācijas lapa (product details page - PDP) parāda preces mērvienību (**kt**).
 
-![PDP piemērs, kurā parādīta mērvienība](./media/Productunit-PDP.png)
+![PDP piemērs, kurā parādīta mērvienība.](./media/Productunit-PDP.png)
 
 Piemērā šajā attēlā, preču kolekcijas modulis parāda preces mērvienību (**kt**).
 
-![Preču kolekcijas moduļa piemērs, kurā parādīta mērvienība](./media/Productunit-productcollection.png)
+![Preču kolekcijas moduļa piemērs, kurā parādīta mērvienība.](./media/Productunit-productcollection.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 

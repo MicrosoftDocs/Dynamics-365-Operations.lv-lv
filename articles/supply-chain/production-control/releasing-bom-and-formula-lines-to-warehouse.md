@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 5917d3f6acf6db6b5e3ceee1b399839542ce1f6f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 99047bd30b04ccaaa24edbb2e28d5288ed2872f9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811682"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350550"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>MK un formulas rindu izlaišana nosūtīšanai uz noliktavu
 
@@ -61,7 +61,7 @@ Pakešuzdevuma **Automātiska MK un formulas rindu izlaišana** vaicājumā vara
 
 Nākamajā attēlā ir parādīts ražošanas pasūtījums, kurā ir divi darbi — 10 un 20 —, kuri aptver ražošanas pasūtījumam paredzēto montēšanu un iepakošanu. Katram darbam ir iestatīts patērēt noteiktu materiālu daudzumu. Šajā attēlā izlaišanas periods, kas ir norādīts ar zaļo bultu zem laika līnijas, ir vienāds ar dienu skaitu, kas ir norādīts ar kritēriju **(LessThanDate())**. Piemēram, **(LessThanDate(2))** norāda, ka darbam ir jāmeklē neizlaistais daudzums tikai divu dienu periodā.
 
-![Ražošanas pasūtījuma piemērs ar diviem pakešuzdevumiem](media/bach-job-setup.PNG)
+![Ražošanas pasūtījuma piemērs ar diviem pakešuzdevumiem.](media/bach-job-setup.PNG)
 
 ## <a name="releasing-material-per-operation-number-or-in-proportion-to-the-amount-of-finished-goods"></a>Materiāla izlaišana katram operācijas numuram vai proporcionāli pabeigto preču daudzumam
 
@@ -78,7 +78,7 @@ Lai kontrolētu operācijas, uz kurām ir jāizlaiž materiāls, izmantojiet lap
 
 Nākamajā attēlā ir parādīts ražošanas pasūtījums, kurā ir divas operācijas — 10 un 20. Ja šajā piemērā ierobežojat izlaišanu uz operāciju 10, tiek izlaists tikai materiāls M9203.
 
-![Piemērs par materiāla izlaišanu katram operācijas numuram](media/two-operations.PNG)
+![Piemērs par materiāla izlaišanu katram operācijas numuram.](media/two-operations.PNG)
 
 Īsu demonstrāciju par to, kā izlaist materiālu proporcionāli pabeigto preču daudzumam, skatiet šajā īsajā YouTube video par [ražošanas pasūtījuma izlaišanas procesa uzlabojumiem](https://www.youtube.com/watch?v=Rm3ojAz6Zu0).
 

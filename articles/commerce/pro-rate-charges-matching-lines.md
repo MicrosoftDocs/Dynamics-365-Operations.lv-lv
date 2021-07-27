@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: c36948cc58291b56c1bbe8a3d5c3db52dccc8399
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: cca35be696c8dd9956176e54e77a60f0252e0760
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018610"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352184"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Proporcionāla virsraksta maksu sadalīšana atbilstošajās pārdošanas rindās
 
@@ -56,9 +56,9 @@ Nākamajos divos piemēra gadījumos ir aprakstīts, kā šīs maksas tiek aprē
 
 Šajā gadījumā organizācija ir definējusi virsraksta līmeņa maksas piegādes relācijas režīmam **99** un **11**. Piegādes režīmam **21** nav konfigurētas automātiskās izmaksas.
 
-![Automātiskās izmaksas piegādes režīmam 99, ja atbilstošās rindas proporcionālā sadalīšana ir izslēgta](media/99_disabled.png)
+![Automātiskās izmaksas piegādes režīmam 99, ja atbilstošās rindas proporcionālā sadalīšana ir izslēgta.](media/99_disabled.png)
 
-![Automātiskās izmaksas piegādes režīmam 11, ja atbilstošās rindas proporcionālā sadalīšana ir izslēgta](media/11_disabled.png)
+![Automātiskās izmaksas piegādes režīmam 11, ja atbilstošās rindas proporcionālā sadalīšana ir izslēgta.](media/11_disabled.png)
 
 Zvanu centrā ir izveidots pārdošanas pasūtījums, un piegādes režīms ir iestatīts **99**. Šis pasūtījums satur piecus krājumus. Divas pasūtījuma rindas ir konfigurētas izmantot piegādes režīmu **99**, divas rindas ir konfigurēta izmantot piegādes režīmu **11** un viena rinda ir konfigurēta izmantot piegādes režīmu **21**, kā redzams nākamajā tabulā.
 
@@ -78,9 +78,9 @@ Zvanu centrā ir izveidots pārdošanas pasūtījums, un piegādes režīms ir i
 
 Šajā gadījumā virsraksta līmeņa maksas tiek definētas piegādes relācijas režīmam **99** un **11**. Tomēr šīm automātiskās maksas tabulām ir iestatīta opcijas **Proporcionāls aprēķins atbilstošajām pārdošanas rindām** vērtība **Jā**.
 
-![Automātiskās izmaksas piegādes režīmam 99, ja atbilstošās rindas proporcionālā sadalīšana ir ieslēgta](media/99_enabled.png)
+![Automātiskās izmaksas piegādes režīmam 99, ja atbilstošās rindas proporcionālā sadalīšana ir ieslēgta.](media/99_enabled.png)
 
-![Automātiskās izmaksas piegādes režīmam 11, ja atbilstošās rindas proporcionālā sadalīšana ir ieslēgta](media/11_enabled.png)
+![Automātiskās izmaksas piegādes režīmam 11, ja atbilstošās rindas proporcionālā sadalīšana ir ieslēgta.](media/11_enabled.png)
 
 Šajā gadījumā tiek izmantots tas pats pārdošanas pasūtījums, kas satur piecas rindas. Piegādes režīms pasūtījuma virsrakstā ir iestatīts **99**, bet katra krājuma piegādes režīms pārdošanas pasūtījumā ir konfigurēts tā, kā redzams nākamajā tabulā.
 
@@ -130,9 +130,9 @@ Tā kā automātiskās maksas konfigurācija ir iestatīta proporcionāli sadal�
     - Kopējā preces vērtība = $15
     - **Maksas vērtība = $0** (Šai debitora un piegādes režīma kombinācijai nav konfigurēta neviena automātiskā maksa.)
 
-    ![Piegādes režīma 11 maksas atbilst atzīmētajai pakāpei](media/step2mode11.png)
+    ![Piegādes režīma 11 maksas atbilst atzīmētajai pakāpei.](media/step2mode11.png)
 
-    ![Piegādes režīma 99 maksas atbilst atzīmētajai pakāpei](media/step2mode99.png)
+    ![Piegādes režīma 99 maksas atbilst atzīmētajai pakāpei.](media/step2mode99.png)
 
 3. Sistēma aprēķina maksas vērtību, kas jāsaista ar katru rindu, atkarībā no proporcionālās sadalīšanas loģiku, kas ņem vērā rindas proporcionālo vērtību saistībā ar grupas kopējo preču vērtību.
 
@@ -163,7 +163,7 @@ Tā kā automātiskās maksas konfigurācija ir iestatīta proporcionāli sadal�
 
 Līdz ar to šajā piemērā krājums 81334 tiks saistīts ar kravas maksu $5,62. Šīs izmaksas var skatīt pārdošanas rindas lapā **Uzturēt maksas**. Nākamajā attēlā ir redzams šīs izskats krājumam 81334.
 
-![Proporcionāli sadalītas maksas pārdošanas rindā krājumam 81334](media/proratedlinecharge.png)
+![Proporcionāli sadalītas maksas pārdošanas rindā krājumam 81334.](media/proratedlinecharge.png)
 
 Ja šī aprēķināšanas metode tiek izmantota daļējas atgriešanas gadījumā un ja maksas kods atbilst atgriešanai, tikai maksas daļa, kas ir piešķirta šai rindai, tiks atgriezta krājuma atgriešanas gadījumā.
 

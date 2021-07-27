@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 8342afefa6eeda3a53decb39caddb62d1e4e1963
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: af8cd65565a50341b0bf2dba84204d010486532c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270865"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350454"
 ---
 # <a name="delivery-options-module"></a>Piegādes opciju modulis
 
@@ -41,11 +41,11 @@ Ja nosūtīšanas izmaksas attiecas uz rindas krājumiem, tās var tikt rādīta
 
 Ilustrācijā zemāk redzams piegādes opciju moduļa piemērs norēķināšanās lapā.
 
-![Piegādes opciju moduļa piemērs norēķināšanās lapā](./media/ecommerce-deliveryoptions.PNG)
+![Piegādes opciju moduļa piemērs norēķināšanās lapā.](./media/ecommerce-deliveryoptions.PNG)
 
 ## <a name="delivery-options-module-properties"></a>Piegādes opciju moduļa rekvizīti
 
-| Rekvizīts | Vērtības | apraksts |
+| Rekvizīts | Vērtības | Apraksts |
 |----------|--------|-------------|
 | Virsraksts | Virsraksta teksts un virsraksta etiķete (**H1**, **H2**, **H3**, **H4**, **H5** vai **H6**) | Izvēles virsraksts piegādes opciju modulim. |
 | Pielāgotās CSS klases nosaukums | Teksts | Pielāgota Cascading Style Sheets (CSS) klases nosaukums, kas tiks izmantots šī moduļa atveidei, ja piemērojams. |

@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c61686615495ac64efccf84c697e0e1d594dcaf9
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 7efd9096a85ccafd114448f9ba7ca924c198aacb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027967"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352064"
 ---
 # <a name="account-management-pages-overview"></a>Konta pārvaldības lapu pārskats
 
@@ -35,7 +36,7 @@ Kad klients pierakstās un atlasa **Mans konts**, tiek atvērta konta pārvaldī
 
 Tālāk redzamajā attēlā ir parādīts konta pārvaldības mērķlapas piemērs.
 
-![Konta pārvaldības mērķlapas piemērs](./media/Account-Management.PNG)
+![Konta pārvaldības mērķlapas piemērs.](./media/Account-Management.PNG)
 
 ### <a name="my-profile-page"></a>Mana profila lapa
 
@@ -43,7 +44,7 @@ Lapā **Mans profils** ir redzama informācija par klienta kontu, piemēram, vā
 
 Tālāk redzamajā attēlā ir parādīts lapas **Mans profils** piemērs, kura izveidota, izmantojot moduļu bibliotēku.
 
-![Mana profila lapas piemērs](./media/Account-Management-MyProfile.PNG)
+![Mana profila lapas piemērs.](./media/Account-Management-MyProfile.PNG)
 
 ### <a name="addresses-page"></a>Adrešu lapa
 
@@ -51,7 +52,7 @@ Lapa **Adreses** lapa ļauj klientam pievienot adreses savam kontam. Tā parāda
 
 Tālāk redzamajā attēlā ir parādīts lapas **Adreses** piemērs.
 
-![Adrešu lapas piemērs](./media/Account-Management-Address.png)
+![Adrešu lapas piemērs.](./media/Account-Management-Address.png)
 
 ### <a name="order-history-and-order-details-pages"></a>Pasūtījumu vēstures un pasūtījuma detalizētas informācijas lapas
 
@@ -59,11 +60,11 @@ Lapā **Pasūtījumu vēsture** parādīts visu to pasūtījumu apkopojums, ko k
 
 Tālāk redzamajā attēlā ir parādīts lapas **Pasūtījumu vēsture** piemērs.
 
-![Pasūtījumu vēstures lapas piemērs](./media/Account-Management-OrderHistory.PNG)
+![Pasūtījumu vēstures lapas piemērs.](./media/Account-Management-OrderHistory.PNG)
 
 Tālāk redzamajā attēlā ir parādīts lapas **Pasūtījumu detalizēta informācija** piemērs.
 
-![Pasūtījumu detalizētas informācijas lapas piemērs](./media/Account-Management-OrderDetails.PNG)
+![Pasūtījumu detalizētas informācijas lapas piemērs.](./media/Account-Management-OrderDetails.PNG)
 
 ### <a name="loyalty-program-page"></a>Lojalitātes programmas lapa
 
@@ -71,7 +72,7 @@ Lapa **Lojalitātes programma** ļauj klientam kļūt par lojalitātes programma
 
 Tālāk redzamajā attēlā parādīts lapas **Lojalitātes programma** piemērs.
 
-![Lojalitātes programmas lapas piemērs](./media/Account-Management-Loyalty.PNG)
+![Lojalitātes programmas lapas piemērs.](./media/Account-Management-Loyalty.PNG)
 
 ### <a name="wishlist-page"></a>Vēlmju saraksta lapa
 
@@ -79,7 +80,7 @@ Lapa **Vēlmju saraksts** parāda sarakstu ar precēm, ko klients pievienojis sa
 
 Tālāk redzamajā attēlā parādīts lapas **Vēlmju saraksts** piemērs.
 
-![Vēlmju saraksta lapas piemērs](./media/Account-Management-Wishlist.PNG)
+![Vēlmju saraksta lapas piemērs.](./media/Account-Management-Wishlist.PNG)
 
 Lai iegūtu vairāk informācijas par konta pārvaldības moduļiem un to, kā tos autorēt, skatiet [Konta pārvaldība](account-management.md).
 

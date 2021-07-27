@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e3837ccebca0e6644ac5ded98344a5135cfb5d7a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 130f570646d73e37a790ab90ae9a1d6a48b0f8b8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799593"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351373"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>Atmaksas apstrāde zvanu centros
 
@@ -37,7 +37,7 @@ Zvanu centrs izmanto oriģinālā pasūtījuma maksājuma metodi, lai noteiktu m
 
     Šajā attēlā redzama scenārija konfigurācija, kurā klients atgriež preces no pārdošanas pasūtījuma, kas ir saistīts ar USD valūtu un kas sākotnēji tika apmaksāts, izmantojot parasto vai čeka maksājuma tipu. Šajā scenārijā klientam tiks izsniegta atmaksa, izmantojot sistēmas ģenerētu atmaksas čeku. **REF-CHK** AR maksājuma metode ir konfigurēta kā atmaksas čeka maksājuma tips.
 
-    ![Zvanu centra atmaksas metožu konfigurācija parastajiem un čeka sākotnējiem maksājumiem](media/callcenterrefundmethods.png)
+    ![Zvanu centra atmaksas metožu konfigurācija parastajiem un čeka sākotnējiem maksājumiem.](media/callcenterrefundmethods.png)
 
 - **Kredītkarte** - kad izveidotais atgriešanas pasūtījums atsaucas uz sākotnējo pasūtījumu, kas tika apmaksāts, izmantojot kredītkarti, zvanu centra loģika atmaksas maksājumiem piemēro to pašu sākotnējo kredītkarti atgriešanas pasūtījumam.
 - **Lojalitātes karte** - kad izveidotais atgriešanas pasūtījums atsaucas uz sākotnējo pasūtījumu, kas tika apmaksāts, izmantojot klienta lojalitātes karti, zvanu centra loģika atmaksas maksājumiem piemēro atmaksu tai pašai lojalitātes kartei.
@@ -48,7 +48,7 @@ Ja sākotnējā pasūtījuma maksājuma tips nav zināms kāda iemesla dēļ vai
 
 Šajā ilustrācijā parādīts **Maksājuma metodes** lauks **AKA/Atgriešanas** cilnē **Zvanu centra parametru** lapā.
 
-![Maksājuma metodes lauks AKA/Atgriešanas cilnē Zvanu centra parametru lapā](media/callcenterrefundparameters.png)
+![Maksājuma metodes lauks AKA/Atgriešanas cilnē Zvanu centra parametru lapā.](media/callcenterrefundparameters.png)
 
 > [!NOTE]
 > Iepriekš aprakstītie atmaksas apstrādes noteikumi attiecas arī uz pasūtījumiem vai pasūtījumu rindām, kuras zvanu centra lietotājs atceļ programmā Commerce Headquarters. Ja pasūtījuma vai specifisku pasūtījuma rindu atcelšana rada pārmaksas, tiek izmantoti tie paši noteikumi, lai ģenerētu atmaksas maksājuma rindas.
@@ -82,7 +82,7 @@ Iestatījums **Jā** opcijai **Lietot kredītu** ir piemērojams tikai tad, kad 
 > [!NOTE]
 > Atgriešanas pasūtījumam, kuram nav saistīta aizstāšanas pasūtījuma, iestatījums **Jā** opcijai **Lietot kredītu** neietekmē atgriešanas pasūtījuma maksājuma loģiku, jo šis iestatījums attiecas tikai uz aizvietošanas pasūtījumiem.
 
-![Lauks Lietot kredītu maksājuma metodi AKA/Atgriešanas cilnē Zvanu centra parametru lapā](media/callcenterrefundparameters1.png)
+![Lauks Lietot kredītu maksājuma metodi AKA/Atgriešanas cilnē Zvanu centra parametru lapā.](media/callcenterrefundparameters1.png)
 
 > [!IMPORTANT]
 > Ja lietotāji, kas izveido aizstāšanas pasūtījumu plānu, lai izmantotu opciju **Lietot kredītu**, tiem nav jāpalaiž funkcija **Pabeigts** atgriešanas pasūtījumā, pirms viņi iestata opciju **Lietot kredītu** uz **Jā**. Kad funkcija **Pabeigts** ir palaista, atmaksas maksājums tiek aprēķināts un pielietots atgriešanas pasūtījumam. Jebkurš mēģinājums iestatīt opciju **Lietot kredītu** uz **Jā**, ja atmaksas maksājums jau ir aprēķināts un piemērots, neaktivizēs atmaksas maksājuma pārrēķinu, un laukā **Lietot kredītu maksājumu metodi** atlasītā maksāšanas metode netiks pielietota. Ja šajā kontekstā ir jāizmanto opcija **Lietot kredītu**, lietotājam ir jāizdzēš aizvietošanas pasūtījums un AKA, un pēc tam jāsāk no jauna un jāizveido jauna AKA. Šoreiz lietotājam ir jānodrošina, lai pirms funkcijas **Pabeigts** palaišanas opcija **Lietot kredītu** būtu iestatīta uz **Jā**.
@@ -91,14 +91,14 @@ Iestatījums **Jā** opcijai **Lietot kredītu** ir piemērojams tikai tad, kad 
 
 Lai gan zvanu centra loģika sistemātiski nosaka atmaksas metodi iepriekš aprakstītajā veidā, dažreiz lietotāji var vēlēties ignorēt šos maksājumus. Piemēram, lietotājs var rediģēt vai noņemt esošās atmaksas rindas un pielietot jaunas maksājumu rindas. Sistēmas aprēķinātos atmaksas maksājumus var mainīt tikai lietotāji, kuriem ir pareizās labošanas atļaujas. Šīs atļaujas var konfigurēt **Ignorēt atļaujas** Retail un Commerce lapās. Lai ignorētu atmaksas maksājumu, lietotājam ir jābūt saistītam ar drošības lomu, kur opcija **Atļaut alternatīvu maksājumu** ir iestatīta uz **Jā** lapā **Ignorēt atļaujas**.
 
-![Atļaut alternatīvu maksāšanas opciju lapā Ignorēt atļaujas](media/overridepermissions.png)
+![Atļaut alternatīvu maksāšanas opciju lapā Ignorēt atļaujas.](media/overridepermissions.png)
 
 Vai arī organizācija var iestatīt opciju **Atļaut maksājuma ignorēšanu** uz **Jā** lapā **Zvanu centra parametri** cilnē **AKA/Atgriešana**. Šajā gadījumā laukā **Drošības ignorēšanas kods** ir jāatlasa kods. Drošības ignorēšanas kods ir burtciparu kods, kas ir jāpārvalda ārēji, jo lietotāji to nevar skatīt programmā Commerce Headquarters pēc to iestatīšanas. Drošības ignorēšanas kodu jāzina tikai dažiem galvenajiem, uzticamākajiem cilvēkiem organizācijā. Ja opcija **Atļaut maksājuma ignorēšanu** ir iestatīta uz **Jā** un ja jebkuri lietotāji, kuriem nav pareizo lomu atļauju, mēģinās mainīt atgriešanas pasūtījuma maksājuma metodi, lietotājiem būs iespēja ievadīt drošības ignorēšanas kodu. Ja viņi to nezina vai arī vadītājs vai galvenais vadītājs nevar to ievadīt lapā, viņi nevarēs ignorēt atgriešanas maksājuma metodi.
 
 > [!NOTE]
 > Ja drošības ignorēšanas kods ir pazaudēts vai aizmirsts, organizācijai tas būs jāatiestata, definējot jaunu drošības ignorēšanas kodu laukā **Drošības ignorēšanas kods**, kas atrodas lapā **Zvanu centra parametri** cilnē **AKA/Atgriešana**.
 
-![Maksājuma ignorēšanas parametri AKA/Atgriešanas cilnē Zvanu centra parametru lapā](media/overridepaymentparameter.png)
+![Maksājuma ignorēšanas parametri AKA/Atgriešanas cilnē Zvanu centra parametru lapā.](media/overridepaymentparameter.png)
 
 > [!IMPORTANT]
 > Pirms organizācijas mēģina ignorēt atmaksas maksājumus, kas izmanto kredītkaršu maksājumu veidus, tām ir jāpārbauda, vai to kredītkaršu procesors ļauj veikt nesavienotu atgriešanu. Daudziem procesoriem atmaksas ir jāgrāmato atpakaļ sākotnējā kartē. Jebkurš mēģinājums izsniegt atmaksu kartei, kam nav iepriekšējas tveršanas, var izraisīt procesora grāmatošanas kļūmes.

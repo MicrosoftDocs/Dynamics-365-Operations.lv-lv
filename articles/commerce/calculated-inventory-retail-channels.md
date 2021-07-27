@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 96a600279b7a90d6626d23ee8868de13e9dd0f14
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 2b6f9663ed08ab431ffc6ffe3154854250c1b092
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270889"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350478"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Krājumu pieejamības aprēķināšana mazumtirdzniecības kanāliem
 
@@ -105,7 +105,7 @@ Commerce izlaidumā 10.0.9 un vecākās darbība **Krājumu informācijas iegū�
 
 Kad kanāla puses aprēķins ir pareizi konfigurēts un pārvaldīts, tas var nodrošināt uzticamāku pašreizējo veikala krājumu aplēsi, jo tas izmanto transakciju datus, kas ir Commerce Channel datu bāzē, bet kuriem Headquarters varētu vēl nebūt informācijas. Piemēram, ja izmantojat esošo reāllaika pakalpojumu izsaukumu krājumu pārlūkošanai POS, Headquarters, iespējams, vēl nebūs informācijas par pārdošanu skaidrā naudā bez piegādes, kas tikko notikusi saistībā ar preci. Tāpēc rīcībā esošo krājumu vērtība, ko Headquarters atgriež šai precei, iespējams, pārsniedz veikala faktisko rīcībā esošo krājumu daudzumu par vienu vienību. Tomēr, ja izmantojat kanāla puses aprēķinu, pārdošanu skaidrā naudā bez piegādes var iekļaut aprēķinā, un tā tiek atskaitīta no parādītās rīcībā esošās vērtības. Lai gan vērtības, kas gan kanāla puses aprēķinā, gan reāllaika pakalpojuma izsaukumā sniedz tikai aprēķinus par rīcībā esošiem krājumiem, vērtība, ko sniedz kanāla puses aprēķins, ir daudz ticamāka pašreizējam veikalam.
 
-Lai konfigurētu POS **Krājumu uzmeklēšanas** operāciju Headquarters, lai izmantotu kanāla puses aprēķina loģiku un izslēgtu reāllaika pakalpojuma izsaukumu, sekojiet šiem darbībām.
+Lai konfigurētu POS operāciju **Krājumu uzmeklēšana** Commerce Headquarters, lai izmantotu kanāla puses aprēķina loģiku un izslēgtu reāllaika pakalpojuma izsaukumu, vispirms aktivizējiet līdzekli **Optimizētās preču pieejamības aprēķināšana**, izmantojot darbvietu **Līdzekļu pārvaldība** programmā Commerce Headquarters un pēc tam izpildiet šīs darbības.
 
 1. Dodieties uz sadaļu **Retail un Commerce \> Kanāla iestatīšana \> POS iestatīšana \> POS profili \> Funkcionalitātes profili**.
 1. Atlasiet funkcionalitātes profilu.

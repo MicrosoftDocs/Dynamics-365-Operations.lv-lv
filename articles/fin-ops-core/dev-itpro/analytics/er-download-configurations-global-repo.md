@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 6f74602cafe3f0848a9e03f17300ca6242fe1545
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 53d01756d803a0ebc9eb366deded4bf3bef3b1f6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893984"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351750"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>Elektronisko pārskatu (ER) konfigurāciju lejupielāde no konfigurācijas pakalpojuma globālā repozitorija
 
@@ -40,7 +40,7 @@ ms.locfileid: "5893984"
 3. Sadaļā **Konfigurācijas nodrošinātāji** atlasiet elementu **Microsoft**.
 3. Elementā **Microsoft** atlasiet **Repozitoriji**.
 
-    ![Elektronisko pārskatu darbvieta](./media/er-download-configurations-global-repo-er-workspace.png)
+    ![Elektronisko pārskatu darbvieta.](./media/er-download-configurations-global-repo-er-workspace.png)
 
 4. Lapā **Konfigurācijas repozitoriji**, režģī atlasiet esošu repozitoriju ar veidu **Globāls**. Ja šis repozitorijs netiek parādīts režģī, rīkojieties šādi:
 
@@ -52,7 +52,7 @@ ms.locfileid: "5893984"
 
 5. Atlasiet **Atvērt**, lai skatītu ER konfigurāciju sarakstu atlasītajam repozitorijam.
 
-    ![Repozitoriju lapas konfigurēšana](./media/er-download-configurations-global-repo-repositories-list.png)
+    ![Repozitoriju lapas konfigurēšana.](./media/er-download-configurations-global-repo-repositories-list.png)
 
 ## <a name="import-a-single-configuration"></a>Vienas atsevišķas konfigurācijas importēšana
 

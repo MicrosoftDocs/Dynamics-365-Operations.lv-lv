@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 7b397b91d1b8a45347ef2d05f42fb7c610ab3912
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 55526b34eb057abb9a8c33cbfea1807601da6577
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797074"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348218"
 ---
 # <a name="iframe-module"></a>Iframe modulis
 
@@ -37,11 +37,11 @@ Iframe modulim nepieciešams mērķa URL. Tad tas vieso mērķa lapas saturu, ka
 
 Sekojošajā attēlā ir parādīti iframe moduļu piemēri, kas parāda ārējos videoklipus vietnes lapās.
 
-![Piemērs iframe moduļiem, kas izrāda ārējos video](./media/ecommerce-iframe.PNG)
+![Piemērs iframe moduļiem, kas izrāda ārējos video.](./media/ecommerce-iframe.PNG)
 
 ## <a name="iframe-module-properties"></a>Iframe moduļa rekvizīti
 
-| Rekvizīta nosaukums             | Vērtība                 | apraksts |
+| Rekvizīta nosaukums             | Vērtība                 | Apraksts |
 |---------------------------|-----------------------|-------------|
 | Virsraksts | Teksts | Moduļa virsraksts. |
 | Mērķa URL | Vietrādis URL | Modulī viesotais vietrādis URL. |

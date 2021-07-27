@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: fb2651644efd2cadfccb91e48c34dfddc8383e1f
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: e813b4f0c6408a8046fa8203007a0a356ca2c794
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021420"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347812"
 ---
 # <a name="process-collection-letters-example"></a>Atgādinājuma vēstuļu apstrādes piemērs
 
@@ -40,7 +40,7 @@ Kad esat pabeidzis, izpildiet tālāk minētās darbības.
 
 Ilustrācijā zemāk ir parādīta tabulā esošā informācija tā, kā tā būtu redzama lapā **Atgādinājuma vēstules**. 
 
-[![Atgādinājuma vēstuļu secības iestatīšana](./media/Ignore-payments-creditmemos-1.PNG)](./media/Ignore-payments-creditmemos-1.PNG)
+[![Atgādinājuma vēstuļu secības iestatīšana.](./media/Ignore-payments-creditmemos-1.PNG)](./media/Ignore-payments-creditmemos-1.PNG)
 
  Tagad jāiestata divi parametri, kas nepieciešami šim piemēram.
 
@@ -49,7 +49,7 @@ Ilustrācijā zemāk ir parādīta tabulā esošā informācija tā, kā tā bū
     1. Cilnē **Iekasēšana** iestatiet opciju **Maksājumu un kredītrēķinu ignorēšana, aprēķinot atgādinājuma vēstules kodu** uz **Jā**.
     2. Pārliecinieties, vai lauks **Izveidot atgādinājuma vēstuli katram** ir iestatīts uz **Debitors**.
 
-    [![Debitoru parādu parametru iestatīšana kredīta iekasēšanai](./media/Ignore-payments-creditmemos-2.PNG)](./media/Ignore-payments-creditmemos-2.PNG)
+    [![Debitoru parādu parametru iestatīšana kredīta iekasēšanai.](./media/Ignore-payments-creditmemos-2.PNG)](./media/Ignore-payments-creditmemos-2.PNG)
 
 3. Pārejiet uz sadaļu **Debitoru parādi \> Rēķini \> Visi brīva teksta rēķini**, atlasiet **Jauns** un pēc tam izpildiet tālāk minētās darbības.
 
@@ -74,7 +74,7 @@ Ilustrācijā zemāk ir parādīta tabulā esošā informācija tā, kā tā bū
 5. Atkārtojiet 4. darbību, bet ievadiet **-200,00** laukā **Vienības cena**.
 6. Pārejiet uz **Debitoru parādi \> Debitori \> Visi debitori** un atlasiet debitoru **US-045**. Pēc tam Darbību rūtī atlasiet **Darījumi \> Darījumi**, lai pārskatītu debitora darbības, ko iepriekš iegrāmatojāt.
 
-    [![Grāmatoto debitoru darījumu pārskatīšana](./media/Ignore-payments-creditmemos-3.PNG)](./media/Ignore-payments-creditmemos-3.PNG)
+    [![Grāmatoto debitoru darījumu pārskatīšana.](./media/Ignore-payments-creditmemos-3.PNG)](./media/Ignore-payments-creditmemos-3.PNG)
 
     Tagad jāizveido atgādinājuma vēstules debitoram US-045.
 
@@ -93,7 +93,7 @@ Ilustrācijā zemāk ir parādīta tabulā esošā informācija tā, kā tā bū
 
     1. Ņemiet vērā, ka atgādinājuma vēstules kods gan virsrakstā, gan darbības rindās ir **1. atgādinājuma vēstule**, jo šī atgādinājuma vēstule secībā ir pirmā atgādinājuma vēstule. (Lai skatītu darbību rindas, iespējams, būs jāatlasa kopsavilkuma cilne **Darījumi**.)
 
-   [![Pārbaude, vai galvenē un rindās ir viens un tas pats atgādinājuma vēstules kods](./media/Ignore-payments-creditmemos-4.PNG)](./media/Ignore-payments-creditmemos-4.PNG)
+   [![Pārbaude, vai galvenē un rindās ir viens un tas pats atgādinājuma vēstules kods.](./media/Ignore-payments-creditmemos-4.PNG)](./media/Ignore-payments-creditmemos-4.PNG)
 
     2. Darbību rūtī atlasiet **Grāmatot**.
     3. Laukā **Grāmatošanas datums** ievadiet **1/19/2021**.
@@ -115,7 +115,7 @@ Ilustrācijā zemāk ir parādīta tabulā esošā informācija tā, kā tā bū
 
     1. Ņemiet vērā, ka atgādinājuma vēstules kods galvenē ir **1. atgādinājuma vēstule**. Tomēr kods darījuma rindās ir **2. atgādinājuma vēstule**.
 
-   [![Pārbaude, vai galvenē un rindās ir dažādi atgādinājuma vēstules kodi](./media/Ignore-payments-creditmemos-5.PNG)](./media/Ignore-payments-creditmemos-5.PNG)
+   [![Pārbaude, vai galvenē un rindās ir dažādi atgādinājuma vēstules kodi.](./media/Ignore-payments-creditmemos-5.PNG)](./media/Ignore-payments-creditmemos-5.PNG)
 
   Kodi atšķiras, jo opcija **Maksājumu un kredītrēķinu ignorēšana, aprēķinot atgādinājuma vēstules kodu** ir iestatīta uz **Jā**.
 
@@ -123,7 +123,7 @@ Ilustrācijā zemāk ir parādīta tabulā esošā informācija tā, kā tā bū
 
 11. Pārejiet uz sadaļu **Kredīts un iekasēšana \> Iestatīšana \> Debitoru parādu parametri** un pēc tam cilnē **Atgādinājumi** iestatiet opciju **Maksājumu un kredītrēķinu ignorēšana, aprēķinot atgādinājuma vēstules kodu** uz **Nē**.
 
-    [![Opcijas Maksājumu un kredītrēķinu ignorēšana, aprēķinot atgādinājuma vēstules kodu, iestatīšana uz Nē](./media/Ignore-payments-creditmemos-6.PNG)](./media/Ignore-payments-creditmemos-6.PNG)
+    [![Opcijas Maksājumu un kredītrēķinu ignorēšana, aprēķinot atgādinājuma vēstules kodu, iestatīšana uz Nē.](./media/Ignore-payments-creditmemos-6.PNG)](./media/Ignore-payments-creditmemos-6.PNG)
 
     Tagad vēlreiz jāizveido atgādinājuma vēstules debitoram US-045.
 
@@ -140,6 +140,6 @@ Ilustrācijā zemāk ir parādīta tabulā esošā informācija tā, kā tā bū
 
 13. Pārejiet uz sadaļu **Kredīts un ieksēšana \> Atgādinājuma vēstule \> Pārskatīt un apstrādāt atgādinājuma vēstules** un ņemiet vērā, ka atgādinājuma vēstules kods gan virsrakstā, gan darbības rindās ir **2. atgādinājuma vēstule**.
 
-    [![Parādīšana vēlreiz, ka galvenē un rindās ir viens un tas pats atgādinājuma vēstules kods](./media/Ignore-payments-creditmemos-7.PNG)](./media/Ignore-payments-creditmemos-7.PNG)
+    [![Parādīšana vēlreiz, ka galvenē un rindās ir viens un tas pats atgādinājuma vēstules kods.](./media/Ignore-payments-creditmemos-7.PNG)](./media/Ignore-payments-creditmemos-7.PNG)
 
     Viens un tas pats kods parādās abās vietās, jo opcija **Maksājumu un kredītrēķinu ignorēšana, aprēķinot atgādinājuma vēstules kodu** tagad ir iestatīta uz **Nē**.

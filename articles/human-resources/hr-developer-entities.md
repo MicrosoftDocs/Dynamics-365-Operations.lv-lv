@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 325bd8a9de07e3978ff6c513975a0e8db22854e0
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: c405d933adff08e2a4ce12dc53329f10a9ae89b7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054360"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346302"
 ---
 # <a name="dataverse-tables"></a>Dataverse tabulas
 
@@ -152,31 +152,31 @@ Microsoft Dynamics 365 Human Resources izmanto Dataverse, lai iespējotu paplaš
 
 ### <a name="worker"></a>Darbinieks
 
-![Darbinieks](./media/HCMCommon-worker-entity-diagram.png)
+![Nodarbinātais](./media/HCMCommon-worker-entity-diagram.png)
 
 ### <a name="job-and-job-position"></a>Darbs un amats
 
-![Darbs un amats](./media/HCMCommon-job-and-job-position-entity-diagram.png)
+![Darbs un amats.](./media/HCMCommon-job-and-job-position-entity-diagram.png)
 
-### <a name="benefits"></a>Priekšrocības
+### <a name="benefits"></a>Atvieglojumi
 
-![Priekšrocības](./media/HCMCommon-benefits-entity-diagram.png)
+![Atvieglojumi.](./media/HCMCommon-benefits-entity-diagram.png)
 
 ### <a name="compensation"></a>Kompensācija
 
-![Kompensācija](./media/HCMCommon-compensation-entity-diagram.png)
+![Kompensācija.](./media/HCMCommon-compensation-entity-diagram.png)
 
-### <a name="leave"></a>Pamest
+### <a name="leave"></a>Atvaļinājums
 
-![Pamest](./media/HCMCommon-leave-entity-diagram.png)
+![Atvaļinājums.](./media/HCMCommon-leave-entity-diagram.png)
 
 ### <a name="work-calendar"></a>Darba kalendārs
 
-![Darba kalendārs](./media/HCMCommon-work-calendar-entity-diagram.png)
+![Darba kalendārs.](./media/HCMCommon-work-calendar-entity-diagram.png)
 
 ## <a name="see-also"></a>Skatiet arī
 
-[Izvēlēties datu integrācijas tehnoloģiju](hr-admin-integration-choose-technology.md)<br>
+[Datu integrācijas tehnoloģiju izvēle](hr-admin-integration-choose-technology.md)<br>
 [Pakalpojuma Dataverse integrācijas konfigurēšana](hr-admin-integration-common-data-service.md)<br>
 [Pakalpojuma Dataverse virtuālo tabulu konfigurēšana](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Human Resources virtuālās tabulas: Bieži uzdotie jautājumi](hr-admin-virtual-entity-faq.md)<br>

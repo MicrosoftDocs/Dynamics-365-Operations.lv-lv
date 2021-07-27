@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ed28928b0f07833d5906a68f780e3bb5bbe0bfe9
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 03c9406d295fb0dbd22e8072c2695dbef419b706
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5921221"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353544"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Mērvienību konvertēšana katram preces variantam
 
@@ -56,7 +56,7 @@ Lai konfigurētu preces šablonu, lai atbalstītu mērvienību pārveidošanu ka
     - **Prece** – atlasot šo vērtību, varat iestatīt mērvienību pārveidošanu preces šablonam. Šī mērvienību pārveidošana tiks izmantota kā atkāpšanās metode visiem preču variantiem, kam nav definēta neviena vienības pārvēršana.
     - **Preces variants** – atlasot šo vērtību, varat iestatīt mērvienību pārveidošanu konkrētam preces šablonam. Izmantojiet lauku **Preces variants**, lai atlasītu variantu.
 
-    ![Jaunas pārveides pievienošana](media/uom-new-conversion.png "Jaunas pārveides pievienošana")
+    ![Jaunas pārveides pievienošana.](media/uom-new-conversion.png "Jaunas pārveides pievienošana")
 
 1. Izmantojiet citus laukus, kas tiek sniegti, lai iestatītu mērvienību pārveidošanu.
 1. Atlasiet **Labi**, lai saglabātu jauno mērvienību pārveidošanu.

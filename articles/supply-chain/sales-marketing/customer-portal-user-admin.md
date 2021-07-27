@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 453c6f18c689bb8bf2f6208d9181b23a2792f41a
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 0c08cee1fc772dbd06aeca3a96fdc40c1ca62413
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907769"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353894"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Debitoru portāla lietotāju izveide un pārvaldība
 
@@ -38,7 +38,7 @@ Video (parādīts iepriekš) [Aicināt klientus reģistrēties un izmantot jūsu
 
 Kontakti Power Apps portālos tiek saglabāti kā ieraksti tabulā **Kontaktpersonas** pakalpojumā Microsoft Dataverse. Pēc tam duālais ieraksts pēc vajadzības sinhronizē šos ierakstus ar Microsoft Dynamics 365 Supply Chain Management.
 
-![Sistēmas diagramma Debitoru portāla kontaktpersonām](media/customer-portal-contacts.png "Sistēmas diagramma Debitoru portāla kontaktpersonām")
+![Sistēmas diagramma Debitoru portāla kontaktpersonām.](media/customer-portal-contacts.png "Sistēmas diagramma Debitoru portāla kontaktpersonām")
 
 Pirms sākat uzaicināt jaunus debitorus, pārliecinieties, ka esat iespējojis tabulas **Kontaktpersonas** kartēšanu duālajā ierakstā.
 

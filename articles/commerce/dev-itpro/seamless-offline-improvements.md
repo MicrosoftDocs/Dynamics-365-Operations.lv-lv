@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 20120-02-28
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 47867447e6d16a0fb4542c17ab184068300b2c1c
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8f5c8f104d8304cf9a54efcdf6e22efbc3b356b3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019961"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348272"
 ---
 # <a name="seamless-offline-switch-for-gift-card-and-credit-memo-operations"></a>Ērta bezsaistes pārslēgšanās dāvanu karšu un kredītrēķinu darbībām
 
@@ -36,7 +36,7 @@ Tomēr, ja POS pazaudē savienojumu pēc tam, kad dāvanu karte ir pievienota tr
 
 Lai iespējotu funkcionalitāti, kas ļauj noslēgt dāvanu kartes transakcijas pēc pārslēgšanās uz bezsaistes režīmu, dodieties uz cilni **Grāmatošana**, kas atrodas lapā **Commerce parametri**. Šajā cilnē atrodiet kopsavilkuma cilni **Dāvanu karte** un iestatiet opciju **Noslēgt dāvanu karšu darbības bezsaistes režīmā** uz **Jā**.
 
-![Bezsaistes dāvanu kartes iestatīšana](../media/gift.png)
+![Bezsaistes dāvanu kartes iestatīšana.](../media/gift.png)
 
 Commerce parametri parasti tiek kešoti. Tāpēc, lai sinhronizētu izmaiņas kanālā pēc šī parametra iestatījuma atjaunināšanas un sadales grafika sākšanas, izmaiņas var ilgt līdz pat 24 stundām. Lai izmaiņas stātos spēkā nekavējoties, atiestatiet Microsoft Internet Information Services (IIS).
 
@@ -46,7 +46,7 @@ Līdzīgi kā iekšējās dāvanu kartes, kredītrēķini tiek centralizēti uzt
 
 Lai iespējotu funkcionalitāti, kas ļauj noslēgt kredītrēķina transakcijas pēc pārslēgšanās uz bezsaistes režīmu, dodieties uz cilni **Grāmatošana**, kas atrodas lapā **Commerce parametri**. Šajā cilnē atrodiet kopsavilkuma cilni **Kredītrēķins** un iestatiet opciju **Noslēgt kredītrēķinu transakcijas bezsaistes režīmā** uz **Jā**.
 
-![Bezsaistes kredītrēķina iestatīšana](../media/creditmemo.png)
+![Bezsaistes kredītrēķina iestatīšana.](../media/creditmemo.png)
 
 Commerce parametri parasti tiek kešoti. Tāpēc, lai sinhronizētu izmaiņas kanālā pēc šī parametra iestatījuma atjaunināšanas un sadales grafika sākšanas, izmaiņas var ilgt līdz pat 24 stundām. Lai izmaiņas stātos spēkā nekavējoties, atiestatiet IIS.
 

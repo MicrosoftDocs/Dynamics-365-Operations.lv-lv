@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ecdf4e5618d3397527bf83977857fbe3f8dbb265
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: de378edbd7d13626302c7129c605b1837ffb579e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799183"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349606"
 ---
 # <a name="create-a-default-customer"></a>Noklusējuma debitora izveide
 
@@ -47,7 +47,7 @@ Lai izveidotu debitoru grupu, izpildiet tālāk aprakstītās darbības.
 
 Tālāk redzamajā attēlā ir parādītas vairākas konfigurētās debitoru grupas.
 
-![Debitoru grupas](media/customer-groups.png)
+![Debitoru grupas.](media/customer-groups.png)
 
 ## <a name="create-a-customer-address-book"></a>Jaunas debitoru adrešu grāmatas izveide
 
@@ -63,7 +63,7 @@ Lai izveidotu debitoru grupas adrešu grāmatu, izpildiet tālāk aprakstītās 
 
 Tālāk redzamajā attēlā ir parādīts adresu gramatas piemērs.
 
-![Adrešu grāmata](media/address-book.png)
+![Adrešu grāmata.](media/address-book.png)
 
 ## <a name="create-a-default-customer&quot;></a>Noklusējuma debitora izveide
 
@@ -86,11 +86,11 @@ Lai izveidotu noklusējuma debitoru, izpildiet tālāk aprakstītās darbības.
 
 Tālāk redzamajā attēlā parādīts debitoru izveides piemērs.
 
-![Noklusējuma debitora izveide](media/default-customer-creation.png)
+![Noklusējuma debitora izveide.](media/default-customer-creation.png)
 
 Tālāk redzamajā attēlā parādīta noklusējuma debitora konfigurācija.
 
-![Debitora konfigurācijas paraugs](media/default-customer-configuration1.png)
+![Debitora konfigurācijas paraugs.](media/default-customer-configuration1.png)
 
 Lielākā daļa noklusējuma vērtību debitora detalizētās informācijas ekrānā var palikt, bet ir divas vērtības ir jāmaina.
 
@@ -100,13 +100,13 @@ Lielākā daļa noklusējuma vērtību debitora detalizētās informācijas ekr�
 
 Tālāk redzamajā attēlā parādīts debitoru konfigurācijas piemērs.
 
-![Debitora konfigurācijas piemērs](media/default-customer-configuration2.png)
+![Debitora konfigurācijas piemērs.](media/default-customer-configuration2.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Kanālu apskats](channels-overview.md)
 
-[Uzstādīt kanālu priekšnosacījumus](channels-prerequisites.md)
+[Kanāla iestatīšanas priekšnosacījumi](channels-prerequisites.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

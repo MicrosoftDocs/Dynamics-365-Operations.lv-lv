@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: f57a20ed56a761894b2cedf8835310dac098b098
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7e6ac62b2b289ef818a083b9ae4d1d74946ae3fc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750622"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346500"
 ---
 # <a name="integrated-vendor-master"></a>Integrētie kreditoru pamatdati
 
@@ -39,11 +39,11 @@ Abās pieejās tiek integrēti kreditoru dati starp portāliem Dynamics 365 Supp
 
 Ja nevēlaties glabāt kreditora datus tabulā **Konts/Kontaktpersona** pakalpojumā Dataverse, varat izmantot jauno kreditora noformējumu.
 
-![Kreditora datu plūsma](media/dual-write-vendor-data-flow.png)
+![Kreditora datu plūsma.](media/dual-write-vendor-data-flow.png)
 
-Ja nevēlaties turpināt glabāt kreditora datus tabulā **Konts/Kontaktpersona** pakalpojumā , varat izmantot paplašināto kreditora noformējumu. Lai izmantotu paplašināto kreditoru noformējumu, ir jākonfigurē kreditoru darbplūsmas duālā ieraksta risinājuma pakotnē. Papildinformāciju skatiet šeit rakstā [Pārslēgšanās starp kreditoru noformējumiem ](vendor-switch.md).
+Ja nevēlaties turpināt glabāt kreditora datus tabulā **Konts/Kontaktpersona** pakalpojumā , varat izmantot paplašināto kreditora noformējumu. Lai izmantotu paplašināto kreditoru noformējumu, ir jākonfigurē kreditoru darbplūsmas duālā ieraksta risinājuma pakotnē. Papildinformāciju skatiet šeit rakstā [Pārslēgšanās starp kreditoru noformējumiem](vendor-switch.md).
 
-![Kreditora paplašinātā datu plūsma](media/dual-write-vendor-detail.jpg)
+![Kreditora paplašinātā datu plūsma.](media/dual-write-vendor-detail.jpg)
 
 > [!TIP]
 > Ja izmantojat Power Apps portālus pašapkalpošanās kreditoriem, kreditora informācija var plūst tieši uz Finance and Operations programmām.

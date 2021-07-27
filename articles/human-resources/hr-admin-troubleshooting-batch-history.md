@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 6a9e94e282aa8f101b42c1378ef21c6c1fe0477e
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 5a4749e3234288927a781106dd4becebd5260084
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053495"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344668"
 ---
 # <a name="optimize-performance-with-auto-cleanup-tasks"></a>Optimizēt veiktspēju ar automātiskās tīrīšanas uzdevumiem
 
@@ -41,23 +41,23 @@ Ieplānojiet automātisku jūsu pakešuzdevuma vēstures tīrīšanas uzdevumu. 
 
 2. Joslā **Meklēšana** ievadiet **Pakešuzdevuma darba vēstures tīrīšana.**
 
-   ![Meklējiet pakešuzdevumu vēstures tīrīšanu](media/talent-batch-history-cleanup-search-bar.png)
+   ![Meklējiet pakešuzdevumu vēstures tīrīšanu.](media/talent-batch-history-cleanup-search-bar.png)
 
 3. **Vēstures ierobežojums (dienas)** joslā ievadiet **30**.
 
-   ![Iestatiet vēstures glabāšanu uz 30](media/talent-batch-history-cleanup-history-limit.png)
+   ![Iestatiet vēstures glabāšanu uz 30.](media/talent-batch-history-cleanup-history-limit.png)
 
 4. Atlasiet **Palaist fonā** un pēc tam atlasiet **Periodiskums.**
 
-   ![Iestatiet periodiskumu](media/talent-batch-history-cleanup-recurrence.png)
+   ![Iestatiet periodiskumu.](media/talent-batch-history-cleanup-recurrence.png)
 
 5. Sadaļā **Definēt periodiskumu** iestatiet **Sākuma datums** un **Sākuma laiks**, kas jāveic ārpus darba laika vai nedēļas nogalē, un pēc tam atlasiet **BEZ BEIGU DATUMA.** 
 
-   ![Definējiet periodiskuma sākuma datumu un laiku](media/talent-batch-history-cleanup-define-recurrence.png)
+   ![Definējiet periodiskuma sākuma datumu un laiku.](media/talent-batch-history-cleanup-define-recurrence.png)
 
 6. Sadaļā **PERIODISKUMA MODELIS** atlasiet **Dienas** un iestatiet **ATKĀRTOT PĒC NORĀDĪTĀ INTERVĀLA** uz **7**.
 
-   ![Iestatiet tīrīšanu tā, lai tā atkārtotos katru nedēļu](media/talent-batch-history-cleanup-recurrence-pattern.png)
+   ![Iestatiet tīrīšanu tā, lai tā atkārtotos katru nedēļu.](media/talent-batch-history-cleanup-recurrence-pattern.png)
 
 7. Atlasiet **Labi**.
 

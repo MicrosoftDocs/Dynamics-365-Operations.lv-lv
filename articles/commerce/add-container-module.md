@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8e1d2d600a00ab71348fbef2bc2f30cc53bc5314
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 59887b058346d55341e68d553ec5dfbc6eb365d6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797795"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347570"
 ---
 # <a name="container-module"></a>Konteinera modulis
 
@@ -42,11 +42,11 @@ Tiek atbalstīti trīs standarta konteineru moduļu tipi: konteiners, konteiners
 
 Sekojošajā attēlā ir parādīts konteinera moduļa piemērs, kurā atrodas karuseļa modulis Commerce vietņu veidotājā. Šajā piemērā konteinera moduļa rekvizīts **Platums** ir iestatīts uz **Aizpildīt ekrānu**.
 
-![Konteinera moduļa piemērs](./media/ecommerce-container.PNG)
+![Konteinera moduļa piemērs.](./media/ecommerce-container.PNG)
 
 ## <a name="container-module-properties"></a>Konteinera moduļa pievienošana
 
-| Rekvizīta nosaukums     | Vērtības | apraksts |
+| Rekvizīta nosaukums     | Vērtības | Apraksts |
 |-------------------|--------|-------------|
 | Virsraksts           | Virsraksta teksts un virsraksta etiķete (**H1**, **H2**, **H3**, **H4**, **H5** vai **H6**) | Pēc izvēles konteineram var nodrošināt virsrakstu. Pēc noklusējuma virsrakstam tiek izmantota **H2** virsraksta etiķete. Tomēr etiķeti var mainīt atbilstoši pieejamības prasībām. |
 | Platums             | **Ietilpināt konteinerā** vai **Pilnekrāna režīms** | Ja vērtība ir iestatīta uz **Ietilpināt konteinerā** (noklusējuma vērtība), elementi konteinerā ir ierobežoti ar konteinera platumu. Ja vērtība ir iestatīta uz **Aizpildīt ekrānu**, moduļi neaprobežojas ar konteinera platumu, bet var pāriet pilnekrāna režīmā. |
