@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 7e415bc0a4ced11c5bb8393fe5dfe03a5f7cdd6c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 658396e87b3007216f6fa11c6ad3923daeb8a67d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798991"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349332"
 ---
 # <a name="experimentation-in-dynamics-365-commerce"></a>Eksperimentēšana pakalpojumā Dynamics 365 Commerce
 Izmantojiet eksperimentēšanu pakalpojumā Dynamics 365 Commerce, lai pārbaudītu hipotēzi par jūsu e-komercijas lapu efektivitāti un pieņemtu lēmumus, pamatojoties uz datiem. Commerce atbalsta A/B testēšanu lapās, moduļos un fragmentos un ļauj novērtēt piedāvāto izmaiņu ietekmi uz jūsu tīmekļa vietni.
@@ -39,7 +39,7 @@ Varat veidot, rediģēt un pārvaldīt lapu un satura apstrādi, ko sauc par **v
 ## <a name="experimentation-lifecycle"></a>Eksperimenta dzīves cikls
 Eksperimenta iestatīšana, variantu izveide un eksperimenta izpildīšana ir iteratīvs process. Tālāk redzamajā diagrammā parādīts eksperimenta dzīves cikls pakalpojumā Commerce un trešās puses pakalpojumā. 
 
-[ ![Eksperimenta dzīves cikls](./media/experimentation_lifecycle.svg) ](./media/experimentation_lifecycle.svg#lightbox)
+[ ![Eksperimenta dzīves cikls.](./media/experimentation_lifecycle.svg) ](./media/experimentation_lifecycle.svg#lightbox)
 
 Lai uzzinātu vairāk par katru eksperimenta procesa darbību, skatiet tālāk norādītās tēmas.
 - [Hipotēzes identificēšana un eksperimenta rādītāju noteikšana](experimentation-identify.md)

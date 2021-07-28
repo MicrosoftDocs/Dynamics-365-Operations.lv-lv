@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: 74df8ac27c2028582b8909db0a7260b9b0ed38f5
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a81a779dd484d30397c89076d081413a72560f0b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797285"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348711"
 ---
 # <a name="assortment-management"></a>Preču klāsta pārvaldība
 
@@ -35,27 +35,27 @@ Kanāla kopējo preču kombināciju nosaka publicētie preču klāsti, kas pieš
 
 Šajā piemērā katrā veikalā tiek konfigurēts unikāls preču klāsts. Šajā gadījumā 1. veikalā ir pieejama tikai 1. prece, bet 2. veikalā ir pieejama tikai 2. prece.
 
-![Katra prece ir pieejama vienā veikalā](./media/Managing-assortments-figure1.png)
+![Katra prece ir pieejama vienā veikalā.](./media/Managing-assortments-figure1.png)
 
 Lai 2. prece būtu pieejama 1. veikalā, varat pievienot preci 1. preču klāstam.
 
-![2. prece pievienota 1. klāstam](./media/Managing-assortments-figure2.png)
+![2. prece pievienota 1. klāstam.](./media/Managing-assortments-figure2.png)
 
 Varat arī pievienot 2. preču klāstam 1. veikalu.
 
-![1. veikals pievienots 2. klāstam](./media/Managing-assortments-figure3.png)
+![1. veikals pievienots 2. klāstam.](./media/Managing-assortments-figure3.png)
 
 ### <a name="organization-hierarchies"></a>Organizācijas hierarhijas
 
 Ja vairākos kanālos ir vienāds preču klāsts, varat konfigurēt preču klāstu, izmantojot Commerce preču klāsta organizācijas hierarhiju. Pievienojot mezglus no šīs hierarhijas, tiks iekļauti visi šī mezgla un tā apakšmezglu kanāli.
 
-![Organizācijas hierarhija](./media/Managing-assortments-figure4.png)
+![Organizācijas hierarhija.](./media/Managing-assortments-figure4.png)
 
 ### <a name="product-categories"></a>Preces kategorijas
 
 Līdzīgi var rīkoties arī ar precēm: var ietvert preču grupas, izmantojot preču kategoriju hierarhijas. Varat konfigurēt preču klāstus, iekļaujot vienu vai vairākus kategoriju hierarhijas mezglus. Tādā gadījumā preču klāstā tiks iekļautas visas kategorijas mezglā un tā apakšmezglos esošās preces.
 
-![Preces kategorijas](./media/Managing-assortments-figure5.png)
+![Preces kategorijas.](./media/Managing-assortments-figure5.png)
 
 ### <a name="excluded-products-or-categories"></a>Izslēgtās preces vai kategorijas
 
@@ -64,7 +64,7 @@ Papildus preču un kategoriju iekļaušanai preču klāstos varat izmantot opcij
 > [!NOTE]
 > Ja saskaņā ar definīciju prece ir gan iekļauta vienā vai vairākos preču klāstos, gan izslēgta no tiem, prece vienmēr tiks uzskatīta kā izslēgta.
 
-![Izslēgta prece](./media/Managing-assortments-figure6.png)
+![Izslēgta prece.](./media/Managing-assortments-figure6.png)
 
 ### <a name="global-and-released-products"></a>Globālas un realizētas preces
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-15
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: fe533052b0e5b04a7d27b954ba644761c631d6d7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1bddb76d17b65e3485680675b77750fca714407d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838865"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350076"
 ---
 # <a name="numbering-documents-and-vouchers-chronologically"></a>Dokumentu un kvīšu hronoloģiska numerācija
 
@@ -69,7 +69,7 @@ Lai definētu numuru secības, dodieties uz **Organizācijas administrēšana** 
 
 Norādiet uzņēmumu katrai numuru secībai. Numuru secību segmentiem jābūt definētiem tā, lai tie periodiem nodrošinātu hronoloģiski secību. Piemēram, segmentu nosaukumi var ietvert īpašu prefiksu, kas identificē noteiktu periodu.
 
-![Numuru secību iestatīšana](media/chrono-num-sequence.jpg)
+![Numuru secību iestatīšana.](media/chrono-num-sequence.jpg)
 
 ### <a name="configure-number-sequence-groups"></a>Konfigurēt numuru secību grupas
 
@@ -77,7 +77,7 @@ Lai konfigurētu numuru secību grupas, dodieties uz **Debitori** > **Iestatīš
 
 Katrai grupai sadaļā **Atsauce** atlasiet vienu no atbalstītajām dokumenta atsaucēm un **Numuru secības koda** laukā skatiet numuru secību, kas iepriekš izveidota saistītajam periodam.
 
-![Numuru sēriju grupas iestatījumi](media/chrono-num-sequence-group.jpg)
+![Numuru sēriju grupas iestatījumi.](media/chrono-num-sequence-group.jpg)
 
 Līdzīgi konfigurējiet numuru secību grupas moduļos **Kreditori** un **Projektu pārvaldība un uzskaite**.
 
@@ -85,7 +85,7 @@ Līdzīgi konfigurējiet numuru secību grupas moduļos **Kreditori** un **Proje
 
 Lai konfigurētu numuru secību grupu hronoloģiju, dodieties uz **Organizācijas administrēšana** > **Numuru secības** > **Hronoloģiskas numuru secību grupas**. Definējiet numuru secību grupu piemērojamības nosacījumus.
 
-![Hronoloģiska numuru iestatīšana](media/chrono-num-sequence-group-period.jpg)
+![Hronoloģiska numuru iestatīšana.](media/chrono-num-sequence-group-period.jpg)
 
 | Lauks            | Apraksts                                                                                                                                                                                                                                                                                                                                                                                   |
 |---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

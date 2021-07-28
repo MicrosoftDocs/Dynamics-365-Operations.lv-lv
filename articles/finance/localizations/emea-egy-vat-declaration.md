@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9c776cedb65804f8cadbe324082c2abac435f906
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: f9953d1a996f6f68600a7fd04719e9b112494175
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186618"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349901"
 ---
 #  <a name="vat-declaration-for-egypt-eg-00002"></a>PVN deklarācija Ēģiptei (EG-00002)
 
@@ -77,7 +77,7 @@ Programmai specifiskie parametri ļauj izveidot kritērijus tam, kā nodokļu da
 
 Ēģiptes pārdošanas un pirkšanas grāmatas pārskatos ir ietverta kolonnu kopa, kas atbilst noteiktai darbību klasifikācijai kā operāciju, preču un dokumentu tipi, kas ir specifiski Ēģiptei. Tā vietā, lai šīs jaunās klasifikācijas iekļautu kā jaunus ierakstu datus, grāmatojot darbības, klasifikācijas tiks noteiktas, pamatojoties uz dažādām uzmeklēšanām, kas ieviestas **Konfigurācijas** > **Programmai specifisku parametru iestatīšana** > **Iestatīšana**, lai izpildītu PVN pārskatu prasības Ēģiptei. 
 
-![Programmai specifisku parametru lapa](media/egypt-vat-declaration-setup1.png)
+![Programmai specifisku parametru lapa.](media/egypt-vat-declaration-setup1.png)
 
 Šīs uzmeklēšanas konfigurācijas tiek izmantotas, lai klasificētu darbības pirkšanas un pārdošanas PVN grāmatu pārskatos:
 
@@ -206,7 +206,7 @@ Lai izveidotu PVN atgriešanas veidlapu Microsoft Excel formātā, definējiet E
 2. Cilnes **PVN** sadaļā **Nodokļu opcijas** laukā **PVN deklarācijas formāta kartēšana** atlasiet **PVN deklarācija Excel (EG)**. Ja šo lauku atstājat tukšu, standarta PVN pārskats tiks ģenerēts SSRS formātā.
 3. Atlasiet **Kategoriju hierarhija**. Šī kategorija iespējo preču kodu Ārējās tirdzniecības cilnes darbībās, lai ļautu lietotājiem atlasīt un klasificēt preces un pakalpojumus. Šīs klasifikācijas apraksts ir detalizēts pārdošanas un pirkšanas darījumu pārskatos. Šī konfigurācija nav obligāta.
 
-![Deklarācijas veidlapa](media/egypt-vat-declaration-setup2.png)
+![Deklarācijas veidlapa.](media/egypt-vat-declaration-setup2.png)
 
 
 ## <a name="generate-a-vat-return-report"></a>Ģenerēt PVN atgriešanas pārskatu

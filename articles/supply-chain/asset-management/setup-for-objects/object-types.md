@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b493c6993ebd466c153e999fa2592105b78d0f2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ba8151e6f6b53f53e8ab54821d86a371b3341775
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825714"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347168"
 ---
 # <a name="asset-types"></a>Līdzekļu veidi
 
@@ -45,9 +45,9 @@ Vispirms iestatiet nepieciešamos līdzekļu veidus. Pēc tam izveidojiet līdze
 7. Atlasiet **Saglabāt**.
 8. Kopsavilkuma cilnē **Uzturēšanas darbu veidi** atlasiet uzturēšanas darbu veidus, kurus vajadzētu saistīt ar līdzekļu veidu.
 
-    - Lai atlasītu uzturēšanas darba veidu, laukā **Atlikušie uzturēšanas darba veidi** un pēc tam atlasiet bultiņas pa labi pogu ![Bultiņas pa labi poga](media/29-setup-for-objects.png), lai pārvietotu to uz sadaļu **Atlasītie uzturēšanas darba veidi**.
-    - Lai atlasītu visus pieejamos uzturēšanas darba veidus, atlasiet pogu ![Bultiņa Pārsūtīt visu](media/30-setup-for-objects.png). Visi uzturēšanas darba veidi tiek pārsūtīti no lauka **Atlikušie uzturēšanas darba veidi** uz lauku **Atlasītie uzturēšanas darba veidi**.
-    - Lai atceltu uzturēšanas darba veida atlasi, atlasiet to laukā **Atlasītie uzturēšanas darba veidi** un pēc tam atlasiet bultiņas pa kreisi pogu ![Bultiņas pa kreisi poga](media/31-setup-for-objects.png), lai pārvietotu to uz lauku **Atlikušie uzturēšanas darba veidi**.
+    - Lai atlasītu uzturēšanas darba veidu, laukā **Atlikušie uzturēšanas darba veidi** un pēc tam atlasiet bultiņas pa labi pogu ![Bultiņas pa labi poga.](media/29-setup-for-objects.png) Lai pārvietotu to uz sadaļu **Atlasītie uzturēšanas darba tipi**.
+    - Lai atlasītu visus pieejamos uzturēšanas darba veidus, atlasiet pogu ![Bultiņa Pārsūtīt visu.](media/30-setup-for-objects.png) poga. Visi uzturēšanas darba veidi tiek pārsūtīti no lauka **Atlikušie uzturēšanas darba veidi** uz lauku **Atlasītie uzturēšanas darba veidi**.
+    - Lai atceltu uzturēšanas darba veida atlasi, laukā **Atlasītie uzturēšanas darba veidi** un pēc tam atlasiet bultiņas pa kreisi pogu ![Bultiņas pa kreisi poga.](media/31-setup-for-objects.png) Lai pārvietotu to uz lauku **Atlikušie uzturēšanas darba tipi**.
 
 9. Varat arī atlasīt skaitītājus, kam jābūt saistītiem ar līdzekļa veidu. Kopsavilkuma cilnē **Skaitītāji** veiciet atlasi, izmantojot metodes, kas 8. darbībā aprakstītās uzturēšanas darba veidiem. Papildinformāciju par skaitītāju iestatīšanu, skatiet [Skaitītāji](counters.md).
 10. Varat arī atlasīt atribūtu veidus, kam jābūt saistītiem ar līdzekļa veidu. Kopsavilkuma cilnē **Atribūtu veidi** veiciet atlasi, izmantojot metodes, kas 8. darbībā aprakstītās uzturēšanas darba veidiem. Pēc tam, lai izveidotu vēlamo atribūtu veidu secību, atlasiet atribūta veidu laukā **Atlasītie atribūtu veidi** un izmantojiet augšupvērstās un lejupvērstās bultiņas pogas, lai to pārvietotu. Atribūtu veidu secība tiks parādīta līdzekļiem, kas izmanto šo līdzekļa veidu. Plašāku informāciju par līdzekļu atribūtiem skatiet sadaļā [Uzturēšanas atribūtu veidi](../setup-for-functional-locations/specification-types.md).

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 5c4cad305e3d130b3283ca3424c84f60e2d13307
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 7d723e7468e42589b8b9a1ed3080c691ebc6bc8e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907819"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353918"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>Debitoru portāla instalēšana, iestatīšana un atjaunināšana
 
@@ -34,7 +34,7 @@ Lai ieviestu Debitoru portālu, ir jābūt tālāk minētajām licencēm.
 
 Debitoru portāls ir atkarīgs no Power Apps portāliem un duālā ieraksta, kā parādīts attēlā zemāk.
 
-![Debitoru portāla atkarības](media/customer-portal-elements.png "Debitoru portāla atkarības")
+![Debitoru portāla atkarības.](media/customer-portal-elements.png "Debitoru portāla atkarības")
 
 Atšķirībā no citiem Supply Chain Management līdzekļiem, Debitoru portāla veidne atrodas Power Apps portālos. Tāpēc Debitoru portālu ierobežo funkcionalitāte un iespējas, ko sniedz Power Apps portāli un duālā ieraksta tabulas.
 

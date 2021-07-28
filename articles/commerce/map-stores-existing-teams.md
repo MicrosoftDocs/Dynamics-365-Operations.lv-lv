@@ -1,5 +1,5 @@
 ---
-title: 'Kartējiet veikalus un grupas, ja programmā Microsoft Teams ir iepriekšējas darba grupas '
+title: Kartējiet veikalus un grupas, ja programmā Microsoft Teams ir iepriekšējas darba grupas
 description: Šajā tēmā ir apskatīts, kā kartēt veikalus un attiecīgās komandas galvenajā Dynamics 365 Commerce birojā, ja jūsu organizācija jau ir izveidojusi grupas Microsoft Teams pirms Commerce integrācijas.
 author: gvrmohanreddy
 ms.date: 03/31/2021
@@ -13,14 +13,14 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ccc2cbf11e405facf310d93e5458cfe12a43146d
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c75525749d9015387cc112beda104238a93698e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020223"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346696"
 ---
-# <a name="map-stores-and-teams-if-there-are-pre-existing-teams-in-microsoft-teams"></a>Kartējiet veikalus un grupas, ja programmā Microsoft Teams ir iepriekšējas darba grupas 
+# <a name="map-stores-and-teams-if-there-are-pre-existing-teams-in-microsoft-teams"></a>Kartējiet veikalus un grupas, ja programmā Microsoft Teams ir iepriekšējas darba grupas
 
 [!include [banner](includes/banner.md)]
 
@@ -57,7 +57,7 @@ Lai kartētu veikalus un attiecīgās komandas Commerce Headquarters, rīkojieti
 
 Nākamajā piemēra attēlā ir parādīta **Eksporta darba grupu kartēšanas** grupa programmā Commerce ar elementiem **Pievienot entītiju** un izceltas eksportēto CSV failu galvenes.
 
-![Eksporta darba grupu kartēšanas grupa programmā Commerce ar entītijas pievienošanas elementiem un izceltām eksportēto CSV failu galvenēm](media/d365-commerce-data-mgmt-export-entity.png)
+![Eksporta darba grupu kartēšanas grupa programmā Commerce ar entītijas pievienošanas elementiem un izceltām eksportēto CSV failu galvenēm.](media/d365-commerce-data-mgmt-export-entity.png)
 
 > [!NOTE]
 > Pēc tam, kad esiet pabeidzis (-usi) precei pa solim, sekojiet soļiem [Sinhronizēt uzdevumu pārvaldību starp Microsoft Teams un POS](synchronize-tasks-teams-pos.md), lai sinhronizētu uzdevumu pārvaldību. 

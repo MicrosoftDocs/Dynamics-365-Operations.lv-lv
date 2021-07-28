@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 131d14f1f1aa329bd71b1f8a4015192736bd8e44
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 682910350832e441ed13c716c0c18200a3b7865d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022579"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351077"
 ---
 # <a name="configure-lookup-data-sources-to-use-er-application-specific-parameters"></a>Uzmeklēšanas datu avotu konfigurēšana, lai izmantotu elektronisko pārskatu programmai raksturīgos parametrus 
 
@@ -44,38 +44,38 @@ Jūs varat konfigurēt sekojošos **Uzmeklēšanas** datu avotu veidus atkarīb�
 
 Šajā attēlā parādīts, kā formāta uzskaitījumu var konfigurēt ER parauga formātā.
 
-   ![Formāta uzskaitījuma rādīšana kā konfigurētā uzmeklēšanas datu avota pamats](./media/er-lookup-data-sources-img1.gif)
+   ![Formāta uzskaitījuma rādīšana kā konfigurētā uzmeklēšanas datu avota pamats.](./media/er-lookup-data-sources-img1.gif)
 
 Šajā attēlā parādīti formāta komponenti, kas ir konfigurēti, lai ziņotu par dažādiem nodokļu veidiem citā ģenerētā pārskata sadaļā.
 
-   ![Parāda formāta sadaļas, lai atsevišķi ziņotu dažādus nodokļu veidus](./media/er-lookup-data-sources-img2.png)
+   ![Parāda formāta sadaļas, lai atsevišķi ziņotu dažādus nodokļu veidus.](./media/er-lookup-data-sources-img2.png)
 
 Šajā attēlā parādīts, kā ER operāciju veidotājs atļauj pievienot **Formāta uzskaitījuma\Uzmeklēšanas** veida datu avotu.  Pievienotais datu avots tiek konfigurēts kā atgrieza vērtību no `List of taxation levels` formāta uzskaitījuma.
 
-   ![Pievienot ER datu avotu formātu uzskaitījuma\uzmeklēšanas veidam](./media/er-lookup-data-sources-img3.gif)
+   ![Pievienot ER datu avotu formātu uzskaitījuma\uzmeklēšanas veidam.](./media/er-lookup-data-sources-img3.gif)
 
 Šajā attēlā parādīts, kā pievienotais datu avots ir konfigurēts, lai izmantotu datu avota **Modelis** ierakstu saraksta **Modelis.Dati.Nodoklis** lauku **Kods** kā parametru, kas jānorāda katrai konfigurētajai kārtulai.
 
-![Notiek formāta uzskaitījuma\uzmeklēšanas veida pievienoto datu avota parametru konfigurēšana](./media/er-lookup-data-sources-img4.gif)
+![Notiek formāta uzskaitījuma\uzmeklēšanas veida pievienoto datu avota parametru konfigurēšana.](./media/er-lookup-data-sources-img4.gif)
 
 Pievienotais `Model.Data.Tax` datu avots ir konfigurēts, lai norādītu nodokļu kodu katram konfigurētai kārtulai, piekļūstot pieteikuma tabulas **NodokļuTabula** ierakstiem.
 
-   ![Formāta uzskaitījuma\uzmeklēšanas vaida viena uzņēmuma uzmeklēšanas datu avota pārskatīšana](./media/er-lookup-data-sources-img5.gif)
+   ![Formāta uzskaitījuma\uzmeklēšanas vaida viena uzņēmuma uzmeklēšanas datu avota pārskatīšana.](./media/er-lookup-data-sources-img5.gif)
 
 Varat iestatīt meklēšanas kārtulas atlasītajam ER formātam, izmantojot UI, kas ir automātiski saskaņots ar konfigurētā datu avota struktūru. Pašreiz šim UI ir nepieciešams, lai katrai kārtulai norādītu atgriezto vērtību kā `List of taxation levels` formāta uzskaitījuma vērtību, kā arī nodokļu kodu kā parametru.
 
-   ![Iestatīt konfigurētā datu avota kārtulas](./media/er-lookup-data-sources-img6.gif)
+   ![Iestatīt konfigurētā datu avota kārtulas.](./media/er-lookup-data-sources-img6.gif)
 
 Šajā attēlā parādīts, kā **Aprēķinātā lauka** veida `Model.Data.Summary.LevelByLookup` datu avotu var konfigurēt, lai izsauktu konfigurēto **Uzmeklēšanas** datu avotu, kas sniedz nepieciešamos parametrus. Lai apstrādātu šo izsaukumu izpildlaikā, ER iziet cauri konfigurēto kārtulu sarakstam definētajā secībā, lai atrastu pirmo kārtulu, kas atbilst norādītajiem nosacījumiem. Šajā piemērā tā ir kārtula, kas satur nodokļu kodu, kas atbilst norādītajam. Rezultātā tiek atrasta vispiemērotākā kārtula un šis datu avots atgriež atrastajai kārtulai konfigurēto uzskaitījuma vērtību.
 
 > [!NOTE]
 > Ja nav atrasta neviena piemērojamā kārtula, rodas izņēmums. Lai novērstu šos izņēmumus, kārtulu saraksta beigās konfigurējiet papildu kārtulas, lai apstrādātu gadījumus, kad ir norādīta nekonfigurēta vērtība vai arī vērtība nav sniegta. Izmantojiet atbilstīgi opcijas **\*Nav tukšs\*** un **\*Tukšs\***.  
 >
-> ![Pievienot datu avotu, lai izsauktu konfigurēto uzmeklēšanas datu avotu](./media/er-lookup-data-sources-img7.png)
+> ![Pievienot datu avotu, lai izsauktu konfigurēto uzmeklēšanas datu avotu.](./media/er-lookup-data-sources-img7.png)
 
 Iestatot opciju **Starpuzņēmums** kā **Jā** rediģējamam uzmeklēšanas datu avotam, šai datu avota parametru kopai tiek pievienots jauns nepieciešamais parametrs **Uzņēmums**. Parametra **Uzņēmums** vērtība ir jānorāda izpildlaikā, kad tiek izsaukts uzmeklēšanas datu avots. Ja uzņēmuma kods ir norādīts izpildlaikā, šim uzņēmumam konfigurētās kārtulas tiek izmantotas, lai atrastu piemērotāko kārtulu, un atbilstošā vērtība tiek atgriezta. Šajā attēlā parādīts, kā to var izdarīt un kā tiek mainīta rediģējama datu avota parametru kopa.
 
-   ![Formāta uzskaitījuma\uzmeklēšanas veida starpuzņēmuma uzmeklēšanas datu avota pārskatīšana](./media/er-lookup-data-sources-img8.gif)
+   ![Formāta uzskaitījuma\uzmeklēšanas veida starpuzņēmuma uzmeklēšanas datu avota pārskatīšana.](./media/er-lookup-data-sources-img8.gif)
 
 > [!NOTE]
 > Atlasiet katru uzņēmumu atsevišķi, lai konfigurētu kārtulu kopu šim uzmeklēšanas datu avotam rediģējamā ER formātā. Izpildlaikā rodas izņēmums, ja starpuzņēmuma uzmeklēšana tiek izsaukta ar tā uzņēmuma kodu, kura uzmeklēšanas iestatījums netika pabeigts.
@@ -84,7 +84,7 @@ Iestatot opciju **Starpuzņēmums** kā **Jā** rediģējamam uzmeklēšanas dat
 
 Sākot ar versiju 10.0.19, ir pieejamas **Uzmeklēšanas** datu avotu paplašinātās iespējas. Kad rediģējamajam uzmeklēšanas datu avotam iestatāt opciju **Paplašināts** uz **Jā**, konfigurētais uzmeklēšanas datu avots tiek pārvērsts par strukturēto datu avotu, kas piedāvā papildu iespējas analizēt konfigurēto kārtulu kopu. Šajā attēlā parādīta šī transformācija.
 
-   ![Formāta uzskaitījuma\uzmeklēšanas veida strukturētā uzmeklēšanas datu avota pārskatīšana](./media/er-lookup-data-sources-img9.gif)
+   ![Formāta uzskaitījuma\uzmeklēšanas veida strukturētā uzmeklēšanas datu avota pārskatīšana.](./media/er-lookup-data-sources-img9.gif)
 
 - Apakškrājums **Uzmeklēšana** ir veidots kā funkcija, kas atrod atbilstošāko kārtulu no konfigurējamo kārtulu kopas, pamatojoties uz sniegto parametru kopu.
 - Apakškrājums **IrUzmeklēšanasRezultātuKopa** ir veidota kā funkcija, lai pieņemtu pamata uzskaitījuma datu avota sniegto vērtību un atgrieztu *Būla* vērtību **Patiess**, kad kārtulu kopa satur vismaz vienu kārtulu, kurai sniegtā uzskaitījuma vērtība tika konfigurēta kā atgriezta vērtība. Šī funkcija atgriež *Būla* vērtību **Aplams**, ja nav nevienas kārtulas, kas konfigurēta, lai atgrieztu šo uzskaitījuma vērtību.

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 09c7504eda0d389738b9d13b73f33472dc8f5fe3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1d4aaa40ee0128a281fe76072e021774a52c9a9e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804483"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352328"
 ---
 # <a name="payment-module"></a>Maksājumu modulis
 
@@ -46,9 +46,9 @@ Adyen maksājuma savienotājs atbalsta arī drošu klientu autentifikāciju (SCA
 
 Ilustrācijā zemāk ir parādīts dāvanu karšu, lojalitātes programmas, Adyen maksājumu moduļu piemērs norēķināšanās lapā.
 
-![Dāvanu karšu, lojalitātes programmas punktu, Adyen maksājumu moduļu piemērs norēķināšanās lapā](./media/ecommerce-payments.PNG)
+![Dāvanu karšu, lojalitātes programmas punktu, Adyen maksājumu moduļu piemērs norēķināšanās lapā.](./media/ecommerce-payments.PNG)
 
-## <a name="dynamics-365-payment-connector-for-paypal"></a>Dynamics 365 maksājumu savienotājs pakalpojumam PayPal
+## <a name="dynamics-365-payment-connector-for-paypal"></a>Dynamics 365 Payment Connector pakalpojumam PayPal
 
 Kopš Commerce izlaišanas 10.0.14 maksājumu modulis ir integrēts ar Dynamics 365 maksājuma savienotāju PayPal. Papildu informāciju par to, ka iestatīt un konfigurēt šo maksājuma savienotāju, skatiet [Dynamics 365 Payment Connector for PayPal](paypal.md).
  
@@ -59,14 +59,14 @@ Kad maksājumu modulis ir konfigurēts, lai izmantotu PayPal maksājuma savienot
 PayPal maksājuma savienotājam nav nepieciešams norēķinu adreses modulis, jo visu ar rēķinu saistīto informāciju apstrādā PayPal tās iframe ietvaros. Tomēr ir jānorāda piegādes adreses un piegādes opciju moduļi.
 
 Sekojošajā attēlā ir parādīts divu maksājumu moduļu piemērs norēķinu lapā, viens konfigurēts ar Adyen maksājuma savienotāju un otrs ar PayPal maksājuma savienotāju.
-![Adyen un PayPal maksājumu moduļu piemērs norēķināšanās lapā](./media/ecommerce-paypal.png)
+![Adyen un PayPal maksājumu moduļu piemērs norēķināšanās lapā.](./media/ecommerce-paypal.png)
 
 Sekojošajā attēlā redzams piemērs no PayPal iframe, kas tiek izsaukts, izmantojot PayPal pogu. 
-![Paypal iframe piemērs izrakstīšanās lapā](./media/ecommerce-paypal-iframe.png)
+![, Paypal iframe piemērs izrakstīšanās lapā.](./media/ecommerce-paypal-iframe.png)
 
 ## <a name="payment-module-properties"></a>Maksājuma moduļa rekvizīti
 
-| Rekvizīta nosaukums | Vērtības | apraksts |
+| Rekvizīta nosaukums | Vērtības | Apraksts |
 |---------------|--------|-------------|
 | Virsraksts | Virsraksta teksts | Izvēles virsraksts maksājuma modulim. |
 | Iframe augstums | Pikseļi | Iframe augstums pikseļos. Augstumu var pielāgot pēc nepieciešamības. |
@@ -76,7 +76,7 @@ Sekojošajā attēlā redzams piemērs no PayPal iframe, kas tiek izsaukts, izma
 |Ir primārais maksājums|  **Patiess** vai **Nepatiess** | Ja **Patiess**, visi kļūdu ziņojumi tiks ģenerēti no primārā maksājuma savienotāja norēķinu lapā. Ja abi Adyen un PayPal maksājuma savienotāji ir konfigurēti, iestatiet Adyen uz **Patiess**, kas tika pievienots Commerce 10.0.14 laidienā.|
 
 Sekojošajā attēlā ir parādīts **Atbalstīto norēķinu veidu** vērtības piemērs, kas iestatīts uz "PayPal" maksājuma savienotāja konfigurāciju Commerce Headquarters.
-![Commerce Headquarters atbalstīto norēķinu veidu piemērs](./media/ecommerce-paymenttendertypes.png)
+![Atbalstīto piedāvājumu veidu piemērs Commerce Headquarters.](./media/ecommerce-paymenttendertypes.png)
 
 ## <a name="billing-address"></a>Norēķinu adrese
 

@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 84a2342d76dc309fa1fd3de7b2c3de60e62e4d72
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 64b03faa76e16a4e587f26ec2fb9bf1e34d226df
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186400"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355656"
 ---
 # <a name="customer-payment-predictions-preview"></a>Debitoru maksājumu prognozes (priekšskatījums)
 
@@ -53,11 +55,11 @@ Katram atvērtajam rēķinam līdzeklis piešķir trīs apmaksas iespējamības:
 
 Šis līdzeklis sniedz arī apkopotu skatījumu par paredzētajiem maksājumiem.
 
-[![Apkopots skats uz maksājuma prognozēm](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
+[![Apkopots skats uz maksājuma prognozēm.](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
 
 Turklāt katram rēķinam ir piešķirta laikā veikta maksājuma iespējamība. Rēķini, kuru laicīgas apmaksas iespējamība ir mazāka par 50 procentiem, tiek atzīmēti ar sarkanu apli, lai norādītu, ka parādu piedziņas atbildīgajam darbiniekam, iespējams, būs jāapskata šie rēķini.
 
-[![Maksājumu iespējamības saraksts](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
+[![Maksājumu iespējamības saraksts.](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
 
 Debitora maksājumu prognožu līdzeklis sniedz arī kontekstuālu informāciju, lai izskaidrotu prognozēšanu. Šī informācija ietver galvenos faktorus, kas ietekmēja prognozēšanu, pašreizējo biznesa situāciju ar debitoru un detalizētu informāciju par debitora vēsturiskas darbības ar maksājumiem.
 

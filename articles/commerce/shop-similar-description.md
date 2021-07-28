@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: ce01ef1d4b916d955685b4d01dafd3d54d6fcebd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: baf6064fbddc3b49cfb0d950896c0b448bddb560
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795409"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357790"
 ---
 # <a name="enable-shop-similar-description-recommendations"></a>Ieteikumu “pirkt līdzīgus aprakstus” iespējošana
 
@@ -79,13 +79,13 @@ Lai pievienotu pogu **Pirkt līdzīga apraksta preces** PDP, izmantojot Commerce
 
 Sekojošajā attēlā ir parādīta izvēles rūtiņa **Iespējot Pirkt līdzīga apraksta preces saiti** un poga **Pirkt līdzīga apraksta preces** piemēra PDP vietnes veidotājā.
 
-![Pirkt līdzīga apraksta preces saites izvēles rūtiņas un Pirkt līdzīga apraksta preces pogas iespējošana PDP vietnes veidotājā](./media/ter_site_builder_buybox_button.png)
+![Pirkt līdzīga apraksta preces saites izvēles rūtiņas un Pirkt līdzīga apraksta preces pogas iespējošana PDP vietnes veidotājā.](./media/ter_site_builder_buybox_button.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Preču ieteikumu apskats](product-recommendations.md)
 
-[Iespējojiet Azure Data Lake Storage vidē Dynamics 365 Commerce .](enable-adls-environment.md)
+[Iespējojiet Azure Data Lake Storage pakalpojuma Dynamics 365 Commerce vidē](enable-adls-environment.md)
 
 [Iespējot preču ieteikumus](enable-product-recommendations.md)
 

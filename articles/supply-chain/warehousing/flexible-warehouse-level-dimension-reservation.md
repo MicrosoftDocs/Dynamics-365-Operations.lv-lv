@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: ed90e773e1b8c90afc119a471cf844941ad19226
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: eca0b61e1fa6760bfed1a9f9979deddccf6fb1a5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6103050"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343778"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Elastīga noliktavas līmeņa dimensiju rezervācijas politika
 
@@ -58,7 +58,7 @@ Kaut arī *Partijas lejpusēja\[novietojuma\]* rezervāciju hierarhija kalpo uz�
 
 Lai piemērotu vēlamo elastību partijas rezervācijas rīcībā krājumiem, kas ir saistīti ar *Partijas lejpusēja\[novietojuma\]* krājumu rezervēšanas hierarhiju, krājuma vadītājiem jāatzīmē izvēles rūtiņa **Atļaut rezervāciju pēc pieprasījuma pasūtījuma** līmenim **Partijas numurs** lapā **Krājumu rezervācijas hierarhija**.
 
-![Krājumu rezervācijas hierarhijas elastīguma nodrošināšana](media/Flexible-inventory-reservation-hierarchy.png)
+![Krājumu rezervācijas hierarhijas elastīguma nodrošināšana.](media/Flexible-inventory-reservation-hierarchy.png)
 
 Ja hierarhijā ir atlasīts līmenis **Partijas numurs**, tad automātiski tiks atlasītas visas dimensijas virs šī līmeņa un uz augšu līdz līmenim **Atrašanās vieta**. (Pēc noklusējuma visas dimensijas virs līmeņa **Atrašanās vieta** tiek atlasītas iepriekš.) Šāda rīcība ataino loģiku, ka pasūtījuma rindā rezervējot konkrētu partijas numuru, automātiski tiek rezervetas arī visas dimensijas diapazonā starp partijas numuru un novietojumu.
 
@@ -145,7 +145,7 @@ Tālāk piemērā ir parādītas visi plūsmas posmi.
 
 6. Lapā **Partijas rezervēšana** atlasiet partijas rindu **B11** un pēc tam atlasiet **Rezervēt rindu**. Automātiskās rezervēšanas laikā novietojuma un numura zīmju piešķiršanai nav norādīta loģika. Daudzumu laukā **Rezervācija** var ievadīt manuāli. Ievērojiet, ka kopsavilkuma cilnē **Avota rindai piesaistīti partijas numuri** partija **B11** tiek norādīta kā **Piešķirts**.
 
-    ![Konkrēta partijas numura piešķiršana pārdošanas pasūtījuma rindai lapā Partijas rezervēšana](media/Batch-reservation-form-with-order-committed-reservation.png)
+    ![Konkrēta partijas numura piešķiršana pārdošanas pasūtījuma rindai lapā Partijas rezervēšana.](media/Batch-reservation-form-with-order-committed-reservation.png)
 
     > [!NOTE]
     > Pārdošanas pasūtījuma rindā norādītā daudzuma rezervāciju var veikt vairākām partijām. Tāpat tās pašas partijas rezervāciju var veikt vairākām vietām un noliktavas vienībām (ja novietojumiem ir iespējotas noliktavas vienības).
@@ -154,7 +154,7 @@ Tālāk piemērā ir parādītas visi plūsmas posmi.
 
 7. DOdieties uz **Preču informācijas pārvaldība** \> **Preces** \> **Nodotās preces**. Atlasiet savu vienību un pēc tam atlasiet **Pārvaldīt krājumu** \> **Skatīt** \> **Darbības**.
 
-    ![Ar pasūtījumu saistīta rezervācija kā krājumu darbības tips](media/Inventory-transactions-for-order-committed-reservation.png)
+    ![Ar pasūtījumu saistīta rezervācija kā krājumu darbības tips.](media/Inventory-transactions-for-order-committed-reservation.png)
 
 8. Pārskatiet vienuma krājumu transakcijas, kas saistītas ar pārdošanas pasūtījuma rindas rezervāciju.
 
@@ -172,7 +172,7 @@ Tālāk piemērā ir parādītas visi plūsmas posmi.
     - Lai izveidotu darbu, sistēma izmanto darba veidnes, bet ne novietojuma direktīvas. Visi standarta iestatījumi, kas definēti darba veidnēm, piemēram, maksimālais izdošanas rindu skaits vai noteikta mērvienība, tiks lietoti, lai noteiktu, kad jāizveido jauns darbs. Tomēr noteikumi, kas ar novietojuma direktīvām ir saistīti, lai identificētu izdošanas vietas, netiek ņemti vērā, jo ar pasūtījumu saistītajā rezervācija jau ir norādītas visas krājuma dimensijas. Šīs krājuma dimensijas ietver dimensijas noliktavas glabāšanas līmenī. Tāpēc darbs pārmanto šīs dimensijas, nekonsultējoties ar novietojuma direktīvām.
     - Partijas numurs netiek uzrādīts izdošanas rindā (kā tas ir darba rindas gadījumā, kas izveidota krājumam, kuram ir saistītā rezervācijas hierarhija *Partijas augšpusējs\[novietojums\]*.) Partijas numurs "no" un visas citas glabāšanas dimensijas tiek rādītas darba rindas darbu krājumu transakcijā, kam ir atsauce no saistītajām krājuma transakcijām.
 
-        ![Noliktavas krājuma transakcija, kas izveidota no ar pasūtījumu saistītas rezervācijas](media/Work-inventory-transactions-for-order-committed-reservation.png)
+        ![Noliktavas krājuma transakcija, kas izveidota no ar pasūtījumu saistītas rezervācijas.](media/Work-inventory-transactions-for-order-committed-reservation.png)
 
     - Pēc darba izveides tiek noņemta vienuma krājuma transakcija, kurā lauks **Atsauce** ir iestatīts kā **Ar pasūtījumu saistīta rezervēšana**. Krājumu transakcija, kurā lauks **Atsauces** ir iestatīts uz **Darbs**, tagad ietver fizisko rezervāciju visām daudzuma krājumu dimensijām.
 
@@ -180,7 +180,7 @@ Tālāk piemērā ir parādītas visi plūsmas posmi.
 
         Ja izrādās, ka nav praktiski izvēlēties no vietas, kas norādīta darba rindā, noliktavas operatori var izmantot vienu no tālāk norādītajām darbībām, lai novirzītu konkrētas partijas izdošanu no ērtākas atrašanās vietas.
 
-        - Standarta darbība **Ignorēt atrašanās vietu** mobilajā ierīcē (ar nosacījumu, ka ir iespējots noliktavas darbinieka iestatījums **Atļaut izdošanas novietojuma ignorēšanu**)
+        - Standarta darbība **Ignorēt atrašanās vietu** mobilajā ierīcē (ar nosacījumu, ka ir iespējots noliktavas darbinieka iestatījums **Atļaut izdošanas novietojuma ignorēšanu** )
         - Darbība **Mainīt atrašanāš vietu** lapā **Detalizēta informācija par darba sarakstu**. 
 
 2. Mobilajā ierīcē pabeidziet darba izdošanu un nodošanu.
@@ -207,7 +207,7 @@ Lai varētu izmantot elastīgu noliktavas vienības rezervāciju, diviem līdzek
 
 Lai aktivizētu numura zīmes rezervāciju pasūtījumā, ir jāatlasa izvēles rūtiņa **Atļaut rezervāciju pēc pieprasījuma pasūtījuma**, kas atrodas **Numura zīmes** līmenī, lapā **Krājumu rezervāciju hierarhija**, kas saistīta ar saistīto krājumu.
 
-![Krājumu rezervēšanas hierarhijas lapa elastīgai numura zīmes rezervāciju hierarhijai](media/Flexible-LP-reservation-hierarchy.png)
+![Krājumu rezervēšanas hierarhijas lapa elastīgai numura zīmes rezervāciju hierarhijai.](media/Flexible-LP-reservation-hierarchy.png)
 
 Jūs varat aktivizēt numura zīmes rezervāciju pasūtījumā jebkurā vietā jūsu izvietošanā. Šīs izmaiņas neietekmē rezervācijas vai atvērto noliktavas darbu, kas tika izveidots pirms izmaiņu rašanās. Tomēr jūs nevarat notīrīt **Atļaut rezervāciju pēc pieprasījuma pasūtījuma** izvēles rūtiņu, ja vienam vai vairākām atvērtajām, izejošajām krājumu darbībām, kam ir statuss *Rezervēts*, *Rezervēts pasūtījumā* vai *Rezervēts fiziski* krājumu darbības, pastāv vienam vai vairākiem vienumiem, kas saistīti ar šo rezervācijas hierarhiju.
 
@@ -221,13 +221,13 @@ Lai rezervētu noteiktu numura zīmi, ir jāizmanto [Atvērto datu protokola (OD
 - Numura zīme
 - Daudzums
 
-Ja ir jārezervē noteikta numura zīme partijas izsekotajam krājumam, izmantojiet lapu **Partijas rezervēšana**, kā aprakstīts sadaļā[Ievadīt pārdošanas pasūtījuma informāciju](#sales-order-details).
+Ja ir jārezervē noteikta numura zīme partijas izsekotajam krājumam, izmantojiet lapu **Partijas rezervēšana**, kā aprakstīts sadaļā [Ievadīt pārdošanas pasūtījuma informāciju](#sales-order-details).
 
 Kad pārdošanas pasūtījuma rinda, kas izmanto pasūtījumu iesniegtu numura zīmes rezervāciju, tiek apstrādāta ar noliktavas operācijām, novietojuma direktīvas netiek izmantotas.
 
 Ja noliktavas darba vienība sastāv no rindām, kas vienādas ar pilnu paleti, un tām ir ar numura zīme saistītie daudzumi, izdošanas procesu var optimizēt, izmantojot mobilās ierīces izvēlnes elementu, kur opcija **Apstrādāt ar numura zīmi** ir iestatīta uz *Jā*. Pēc tam noliktavas darbinieks var skenēt numura zīmi, lai pabeigtu izdošanu, nevis skenēt krājumus no darba pa vienam.
 
-![Mobilās ierīces izvēlnes elements, kur opcija Rīkoties pēc numura zīmes ir iestatīta uz Jā](media/Handle-by-LP-menu-item.png)
+![Mobilās ierīces izvēlnes elements, kur opcija Rīkoties pēc numura zīmes ir iestatīta uz Jā.](media/Handle-by-LP-menu-item.png)
 
 Tā kā **Rīkoties pēc numura zīmes** funkcionalitāte neatbalsta darbu, kas ietver vairākas paletes, labāk ir iegūt atsevišķu darba vienumu dažādām numura zīmēm. Lai izmantotu šo pieeju, pievienojiet **Pasūtījuma numura zīmes ID** lauku kā darba virsraksta pārtraukumu **Darba veidnes** lapā.
 
@@ -249,7 +249,7 @@ Tā kā **Rīkoties pēc numura zīmes** funkcionalitāte neatbalsta darbu, kas 
 1. Laukā **Nosaukums** ievadiet vērtību (piemēram, *FlexibleLP*).
 1. Laukā **Apraksts** ievadiet vērtību (piemēram, *Flexible LP rezervācija*).
 1. **Atlasītajā** sarakstā atlasiet **Partijas numuru**, **Sērijas numuru** un **Īpašnieku**.
-1. Atlasiet pogu **Noņemt** ![Atpakaļvērstā bultiņa](media/backward-button.png), lai pārvietotu atlasītos ierakstus uz sarakstu **Pieejamie**.
+1. Atlasiet **Noņemt** pogu ![bultiņa atpakaļ.](media/backward-button.png) lai pārvietotu atlasītus ierakstus uz **Pieejams** sarakstu.
 1. Atlasiet **Labi**.
 1. Dimensijas līmeņa rindā **Numura zīme** atzīmējiet izvēles rūtiņu **Atļaut rezervāciju pēc pieprasījuma pasūtījuma**. Automātiski tiek atlasīts līmenis **Novietojums** un to izvēles rūtiņu nevar dzēst.
 1. Atlasiet **Saglabāt**.
@@ -308,7 +308,7 @@ Tā kā **Rīkoties pēc numura zīmes** funkcionalitāte neatbalsta darbu, kas 
 1. Kopsavilkuma cilnē **Rindas informācija** cilnē **Iestatīšana** atzīmējiet katras rindas **Laidiena ID** vērtību. Šīs vērtības tiks pieprasītas īpašas numura zīmes rezervēšanas laikā.
 
     > [!NOTE]
-    > Lai rezervētu konkrētu numura zīmi, ir jāizmanto **Pasūtījuma rezervācijas uz licences plāksnīti** datu vienība. Lai rezervētu partijas izsekotu krājumu noteiktai numura zīmei, izmantojiet lapu **Partijas rezervēšana**, kā aprakstīts sadaļā[Ievadīt pārdošanas pasūtījuma informāciju](#sales-order-details).
+    > Lai rezervētu konkrētu numura zīmi, ir jāizmanto **Pasūtījuma rezervācijas uz licences plāksnīti** datu vienība. Lai rezervētu partijas izsekotu krājumu noteiktai numura zīmei, izmantojiet lapu **Partijas rezervēšana**, kā aprakstīts sadaļā [Ievadīt pārdošanas pasūtījuma informāciju](#sales-order-details).
     >
     > Ja ievadāt numura zīmi tieši pārdošanas pasūtījuma rindā un apstipriniet to sistēmā, noliktavas pārvaldības apstrāde netiks izmantota rindai.
 

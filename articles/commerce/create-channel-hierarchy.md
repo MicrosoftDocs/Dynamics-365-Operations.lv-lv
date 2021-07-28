@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 5df46de9dadfa0b7160a9b340ef36fdf963a0ad3
-ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
+ms.openlocfilehash: e43c4c00545dfecb2f9a2192f81cd25300e3d6e6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5951912"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352474"
 ---
 # <a name="create-a-channel-navigation-hierarchy"></a>Izveidot kanāla navigācijas hierarhiju
 
@@ -49,7 +49,7 @@ Lai izveidotu kanālu navigācijas hierarhiju, veiciet tālāk minētās darbīb
 
 Tālāk redzamajā attēlā ir parādīts saknes mezgla piemērs.
 
-![Saknes mezgla paraugs](media/create-channel-hierarchy-1.png)
+![Saknes mezgla paraugs.](media/create-channel-hierarchy-1.png)
 
 ## <a name="create-navigation-category-nodes"></a>Navigācijas kategoriju mezglu izveide
 
@@ -65,7 +65,7 @@ Lai izveidotu papildu navigācijas kategoriju mezglus, kas kanālā pārstāvēs
 
 Tālāk redzamajā attēlā parādīts pabeigtas kanālu navigācijas hierarhijas piemērs.
 
-![Kanālu hierarhijas paraugs](media/create-channel-hierarchy-2.png)
+![Kanālu hierarhijas paraugs.](media/create-channel-hierarchy-2.png)
 
 ## <a name="add-products-to-category-nodes"></a>Preču pievienošana kategoriju mezgliem
 
@@ -81,7 +81,7 @@ Lai pievienotu preces kategoriju mezgliem, izpildiet tālāk aprakstītos norād
 
 Tālāk redzamajā attēlā parādīts mezgla piemērs ar pievienotām precēm.
 
-![Kategoriju mezglam pievienotās preces](media/create-channel-hierarchy-3.png)
+![Kategoriju mezglam pievienotās preces.](media/create-channel-hierarchy-3.png)
 
 ## <a name="add-product-attribute-groups-to-category-nodes"></a>Preču īpašību grupu pievienošana kategoriju mezgliem
 
@@ -97,7 +97,7 @@ Lai preču īpašību grupu pievienotu kategoriju mezglam, veiciet tālāk aprak
 
 Tālāk redzamajā attēlā parādīts mezgla paraugs ar pievienotām preču īpašību grupām.
 
-![Preču īpašību grupas mezglā](media/create-channel-hierarchy-4.png)
+![Preču īpašību grupas mezglā.](media/create-channel-hierarchy-4.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 

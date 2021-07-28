@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 97509ac662fad6181cbd60e5e0a44f674410acb9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 92a95e5a0f603eb5f9afbf14ba924df168e44203
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754042"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350864"
 ---
 # <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>Problēmu novēršana saistībā ar Finance and Operations programmu jauninājumiem
 
@@ -68,7 +68,7 @@ Lapā **Duālais ieraksts** var tikt parādīts kļūdas ziņojums, kas līdzīg
 
 *Nav avota lauka \<field name\> sistēmā.*
 
-![Trūkstošās avota kolonnas kļūdas ziņojuma piemērs](media/error_missing_field.png)
+![Trūkstošās avota kolonnas kļūdas ziņojuma piemērs.](media/error_missing_field.png)
 
 Lai atrisinātu problēmu, vispirms veiciet šīs darbības, lai nodrošinātu, ka kolonnas atrodas tabulā.
 

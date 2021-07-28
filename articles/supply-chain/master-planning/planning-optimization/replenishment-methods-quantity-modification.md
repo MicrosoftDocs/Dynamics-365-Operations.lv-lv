@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d5e0e671e624de2646a47647ef08d3567599b884
-ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
+ms.openlocfilehash: d693d306929140c9640ed34d756399d70b81a12f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261700"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347762"
 ---
 # <a name="replenishment-methods-and-quantity-modification"></a>Papildināšanas metodes un daudzuma modificēšana
 
@@ -34,15 +34,15 @@ Plānošanas optimizāciju var konfigurēt tā, lai izmantotu dažādas papildin
 
 - **Periods** – papildināšanas metode, kas apvieno visu perioda pieprasījumu vienā pasūtījumā šai precei. Pasūtījums tiks plānots pirmajai perioda dienai, un tā daudzums atbilstīs neto prasībām noteiktajā periodā. Periods sākas ar preces pirmo pieprasījumu un sedz noteikto laika periodu. Nākamais periods sāksies ar nākamās preces prasībām. Vajadzības kods *Periods* bieži tiek izmantots neprognozējamu krājumu izvelkšanai, sezonas ietekmējamām precēm vai augstas izmaksas precēm. Tālāk redzamajā attēlā parādīts piemērs.
 
-    ![Perioda vajadzības koda izmantošanas piemērs](./media/coverage-code-period.png "Perioda vajadzības koda izmantošanas piemērs")
+    ![Perioda vajadzības koda izmantošanas piemērs.](./media/coverage-code-period.png "Perioda vajadzības koda izmantošanas piemērs")
 
 - **Prasība** – papildināšanas metode, saskaņā ar kuru sistēma izveido plānoto pirkšanas, pārsūtīšanas vai ražošanas pasūtījumu preces prasību. Šī metode tiek izmantota dārgam precēm, kam ir intermitējošs pieprasījums. Vajadzības kods *Prasība* bieži tiek izmantots konfigurējamām precēm vai pasūtījumā veidotiem scenārijiem. Tālāk redzamajā attēlā parādīts piemērs.
 
-    ![Prasības vajadzības koda izmantošanas piemērs](./media/coverage-code-requirement.png "Prasības vajadzības koda izmantošanas piemērs")
+    ![Prasības vajadzības koda izmantošanas piemērs.](./media/coverage-code-requirement.png "Prasības vajadzības koda izmantošanas piemērs")
 
 - **Min./maks.** – Papildināšanas metode ir balstīta uz krājumu līmeni. Tā definē krājumu papildināšanu līdz noteiktam līmenim, kad paredzamais rīcībā esošo krājumu līmenis ir zem noteikta sliekšņa. Papildināšanas daudzums būs vienāds ar starpību starp maksimālo līmeni un prognozēto rīcībā esošo līmeni. Vienība *Min./maks.* vajadzības kods bieži tiek izmantots paredzamu krājumu izvelkšanai, labākām precēm vai lētākām precēm. Tālāk redzamajā attēlā parādīts piemērs.
 
-    ![Min./Maks. vajadzības koda izmantošanas piemērs](./media/coverage-code-min-max.png "Min./Maks. vajadzības koda izmantošanas piemērs")
+    ![Min./Maks. vajadzības koda izmantošanas piemērs.](./media/coverage-code-min-max.png "Min./Maks. vajadzības koda izmantošanas piemērs")
 
 - **Manuāla** – papildināšanas metode, kad sistēma neiesaka precei pirkšanas, pārsūtīšanas vai ražošanas pasūtījumus. Tā vietā produkta plānotājs ir atbildīgs par nepieciešamo pasūtījumu izveidi preces papildināšanai. Vajadzības kods *Manuāls* bieži tiek izmantots precēm, kurām nav vajadzīgi sistēmas ģenerētie plānotie pasūtījumi.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2021-02-02
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 2bd22e991de376cfd93f75158f1f29716d2559e1
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 1d25d583580af3d73a3ac1eaebc9f7d8413c6563
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018737"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360212"
 ---
 # <a name="discontinue-configurations-in-the-rcs-global-repository"></a>Konfigurāciju pārtraukšana RCS globālajā repozitorijā
 
@@ -45,7 +45,7 @@ Lai pārtrauktu konfigurāciju, izpildiet šīs darbības:
 2. Iestatiet parametru **Pārtraukt** uz opciju **Jā**.
 3. Atlasiet **Labi**, lai pārtrauktu konfigurācijas. Lauks **Pārtraukšanas datums** tiks aizpildīts, kad saglabāsit izmaiņas.
 
-![Konfigurācijas pārtraukšanas informācija](media/Discontinue-details-2.png)
+![Konfigurācijas pārtraukšanas informācija.](media/Discontinue-details-2.png)
   
 Jebkurā laikā varat atgriezt konfigurāciju statusā **Kopīgota** vai pielāgot konfigurācijas informāciju. Kopīgojot informāciju, norādiet datumu **Atbalstīta līdz** un citu informāciju, kas ir saistīta ar pārtraukšanu, lai norādītu savus plānus attiecībā uz pārtraukšanu nākotnē.
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3f1f5dc2c8402d9b6b68a049f804932812eb74c0
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.openlocfilehash: fe6262fa8a7fb27fda7642180f605376af726e54
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937538"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346062"
 ---
 # <a name="set-up-a-retail-channel"></a>Mazumtirdzniecības kanāla iestatīšana
 
@@ -50,11 +50,11 @@ Pirms mazumtirdzniecības kanāla izveidošanas pārliecinieties, ka esat ievēr
 
 Tālāk redzamajā attēlā parādīta jauna mazumtirdzniecības kanāla izveide.
 
-![Jauns mazumtirdzniecības kanāls](media/channel-setup-retail-1.png)
+![Jauns mazumtirdzniecības kanāls.](media/channel-setup-retail-1.png)
 
 Tālāk redzamajā attēlā ir parādīts mazumtirdzniecības kanāla piemērs.
 
-![Mazumtirdzniecības kanāla piemērs](media/channel-setup-retail-2.png)
+![Mazumtirdzniecības kanāla piemērs.](media/channel-setup-retail-2.png)
 
 ## <a name="other-settings"></a>Citi iestatījumi
 
@@ -64,7 +64,7 @@ Turklāt skatiet sadaļu [Pārdošanas punkta (POS) ekrāna izkārtojumi](pos-s
 
 Tālāk redzamajā attēlā ir parādīts mazumtirdzniecības kanāla iestatījumu konfigurācijas piemērs.
 
-![Mazumtirdzniecības kanāla konfigurācijas piemērs](media/channel-setup-retail-3.png)
+![Mazumtirdzniecības kanāla konfigurācijas piemērs.](media/channel-setup-retail-3.png)
 
 ## <a name="additional-channel-set-up"></a>Papildu kanāla iestatīšana
 
@@ -74,7 +74,7 @@ Papildu uzdevumi, kas nepieciešami tiešsaistes kanāla iestatīšanai, ietver 
 
 Tālāk esošajā attēlā ir parādītas dažādas papildu mazumtirdzniecības kanāla iestatīšanas opcijas cilnē **Iestatīšana**.
 
-![Kanāla iestatīšana](media/channel-setup-retail-4.png)
+![Kanāla iestatīšana.](media/channel-setup-retail-4.png)
 
 ### <a name="set-up-payment-methods"></a>Iestatīt maksājuma metodes
 
@@ -89,7 +89,7 @@ Lai iestatītu maksājuma metodes, katram šajā kanālā atbalstītajam maksāj
 
 Tālāk esošajā attēlā ir parādīts skaidras naudas maksājuma piemērs.
 
-![Maksājumu metožu piemērs](media/channel-setup-retail-5.png)
+![Maksājumu metožu piemērs.](media/channel-setup-retail-5.png)
 
 ### <a name="set-up-cash-declaration"></a>Skaidrās naudas deklarācijas iestatīšana
 
@@ -98,7 +98,7 @@ Tālāk esošajā attēlā ir parādīts skaidras naudas maksājuma piemērs.
 
 Tālāk esošajā attēlā ir parādīts skaidras naudas deklarācijas piemērs.
 
-![Skaidrās naudas deklarācijas iestatīšana](media/channel-setup-retail-6.png)
+![Skaidrās naudas deklarācijas iestatīšana.](media/channel-setup-retail-6.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Iestatiet piegādes veidus
 
@@ -112,7 +112,7 @@ Lai mainītu vai pievienotu piegādes veidu, rīkojieties, kā norādīts tālā
 
 Tālāk redzamajā attēlā parādīts piegādes režīma piemērs.
 
-![Iestatiet piegādes veidus](media/channel-setup-retail-7.png)
+![Iestatiet piegādes veidus.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-incomeexpense-account"></a>Ienākumu/izdevumu konta iestatīšana
 
@@ -129,7 +129,7 @@ Lai iestatītu ienākumu/izdevumu kontu, veiciet tālāk norādītās darbības.
 
 Tālāk esošajā attēlā parādīts ieņēmumu/izdevumu konta piemērs.
 
-![Ienākumu/izdevumu kontu iestatīšana](media/channel-setup-retail-8.png)
+![Ienākumu/izdevumu kontu iestatīšana.](media/channel-setup-retail-8.png)
 
 ### <a name="set-up-sections"></a>Sadaļu iestatīšana
 
@@ -155,7 +155,7 @@ Lai iestatītu izpildes grupas piešķiri, veiciet tālāk norādītās darbība
 
 Tālāk redzamajā attēlā parādīts izpildes grupas piešķires piemērs.
 
-![Izpildes grupas piešķires iestatīšana](media/channel-setup-retail-9.png)
+![Izpildes grupas piešķires iestatīšana.](media/channel-setup-retail-9.png)
 
 ### <a name="set-up-safes"></a>Seifu iestatīšana
 

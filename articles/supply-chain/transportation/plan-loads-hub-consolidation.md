@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: WHSLoadPlanningWorkbench, WHSHistory, WHSLoadTable, WHSLoadPlanningListPage, TMSParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 92273
+ms.custom:
+- "92273"
+- intro-internal
 ms.assetid: d27b0926-a534-4caf-a2a3-acbc7c440bca
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f0e7ae8db62ce374b991ac5f117e3d1d33534df
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2c53110f583feeb3ef77226fb57396cfc2988e9f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828470"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345310"
 ---
 # <a name="plan-loads-using-hub-consolidation-overview"></a>Pārskats par kravu plānošanu, izmantojot konsolidēšanu pārkraušanas punktā
 
@@ -32,7 +34,7 @@ ms.locfileid: "5828470"
 Kad preces no dažādām noliktavām piegādājat tam pašam debitoram vai kad preces no vairākiem kreditoriem tiek piegādātas uz to pašu noliktavu, var būt noderīgi sūtījumus konsolidēt vienā pārkraušanas punktā.
 
 ## <a name="building-loads"></a>Kravu plānošana
-Lai varētu izmantot pārkraušanas punkta konsolidāciju, ir jāiespējo opcija **Tranzīta plānošana** lapā **Transportēšanas pārvaldības parametri**. Jums ir arī jāizveido pārkraušanas punkti, kur notiks konsolidēšana. Nākamajā diagrammā ir parādīts pārkraušanas punkta konsolidācijas piemērs. Šajā gadījumā pārdošanas pasūtījumi no dažādām noliktavām tiek piegādāti vienam un tam pašam debitoram. Pamata kravas tiek veidotas, pamatojoties uz pārdošanas pasūtījumiem parastajā veidā, izmantojot lapu **Kravu plānošanas rīks**. Lai divas kravas konsolidētu vienā pārkraušanas punktā, pirms tās tiek piegādātas debitoram, lapas **Kravu plānošanas rīks** laukā **Transportēšana** atlasiet vienumu **Pārkraušanas punktu konsolidācija**. Kad katrai kravai atlasāt pareizo pārkraušanas punktu, kravām šis pārkraušanas punkts tiek norādīts kā “nodošanas” galamērķis. Jums būs arī divas “transportēšanas pieprasījuma rindas” sadaļā **Piedāvājums un pieprasījums**, lapā **Kravu plānošanas rīks**. Pēc tam šīs abas rindas varat pievienot jaunai kravai. Šai jaunajai kravai būs abas pārdošanas pasūtījuma rindas, kā arī būs pārkraušanas punkts kā “saņemšanas” adrese un debitors A kā “nodošanas” galamērķis. Pēc tam šīs trīs kravas ir gatavas vērtēšanai un maršrutēšanai kā jebkura cita krava. Jūs varat norādīt jebkādu sūtījumu pārvadātāju, ko sistēma ierosina katrai kravai. [![Pārkraušanas punktu konsolidācija](./media/hubconsol.jpg)](./media/hubconsol.jpg) Šo pašu metodi varat arī izmantot, lai konsolidētu kravas no vairākiem pārsūtīšanas pasūtījumiem. Šajā gadījumā debitors A iepriekšējā diagrammā ir noliktava. Vai varat konsolidēt kravas no vairākiem pirkšanas pasūtījumiem, kur kravas no dažādiem kreditoriem tiek piegādātas uz to pašu noliktavu. Jums var būt vairāki konsolidācijas pārkraušanas punkti, un varat konsolidēt vairākos pārkraušanas punktos vairākām kravām, kas tiek piegādātas no dažādām noliktavām. Kad esat izveidojis savas pamata kravas un izmantojis pārkraušanas punktu konsolidēšanas opciju, jūs veidojat jaunu kravas, izmantojot konsolidēto transportēšanas pieprasījumu rindas. Pēc tam jūs vērtējat un maršrutējat savas kravas.
+Lai varētu izmantot pārkraušanas punkta konsolidāciju, ir jāiespējo opcija **Tranzīta plānošana** lapā **Transportēšanas pārvaldības parametri**. Jums ir arī jāizveido pārkraušanas punkti, kur notiks konsolidēšana. Nākamajā diagrammā ir parādīts pārkraušanas punkta konsolidācijas piemērs. Šajā gadījumā pārdošanas pasūtījumi no dažādām noliktavām tiek piegādāti vienam un tam pašam debitoram. Pamata kravas tiek veidotas, pamatojoties uz pārdošanas pasūtījumiem parastajā veidā, izmantojot lapu **Kravu plānošanas rīks**. Lai divas kravas konsolidētu vienā pārkraušanas punktā, pirms tās tiek piegādātas debitoram, lapas **Kravu plānošanas rīks** laukā **Transportēšana** atlasiet vienumu **Pārkraušanas punktu konsolidācija**. Kad katrai kravai atlasāt pareizo pārkraušanas punktu, kravām šis pārkraušanas punkts tiek norādīts kā “nodošanas” galamērķis. Jums būs arī divas “transportēšanas pieprasījuma rindas” sadaļā **Piedāvājums un pieprasījums**, lapā **Kravu plānošanas rīks**. Pēc tam šīs abas rindas varat pievienot jaunai kravai. Šai jaunajai kravai būs abas pārdošanas pasūtījuma rindas, kā arī būs pārkraušanas punkts kā “saņemšanas” adrese un debitors A kā “nodošanas” galamērķis. Pēc tam šīs trīs kravas ir gatavas vērtēšanai un maršrutēšanai kā jebkura cita krava. Jūs varat norādīt jebkādu sūtījumu pārvadātāju, ko sistēma ierosina katrai kravai. [![Pārkraušanas punktu konsolidācija.](./media/hubconsol.jpg)](./media/hubconsol.jpg) Šo pašu metodi varat arī izmantot, lai konsolidētu kravas vairākiem pārsūtīšanas pasūtījumiem. Šajā gadījumā debitors A iepriekšējā diagrammā ir noliktava. Vai varat konsolidēt kravas no vairākiem pirkšanas pasūtījumiem, kur kravas no dažādiem kreditoriem tiek piegādātas uz to pašu noliktavu. Jums var būt vairāki konsolidācijas pārkraušanas punkti, un varat konsolidēt vairākos pārkraušanas punktos vairākām kravām, kas tiek piegādātas no dažādām noliktavām. Kad esat izveidojis savas pamata kravas un izmantojis pārkraušanas punktu konsolidēšanas opciju, jūs veidojat jaunu kravas, izmantojot konsolidēto transportēšanas pieprasījumu rindas. Pēc tam jūs vērtējat un maršrutējat savas kravas.
 
 
 

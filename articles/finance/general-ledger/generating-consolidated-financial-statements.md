@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0c0eab7b0b1325d18f77ab5b8c9704781beba856
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: dce0dd216d552d956ba7fdbcb4eebb6ed85b7115
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897868"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348966"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Konsolidēto finanšu pārskatu ģenerēšana
 
@@ -38,19 +38,19 @@ Vienkāršākā metode konsolidēšanai, izmantojot finanšu pārskatu sniegšan
 
 Tālāk redzamajā attēlā ir parādīts, kā pārskatu koka definīciju var izmantot finanšu pārskatu sniegšanā, lai identificētu katru uzņēmumu, kas tiks konsolidēts.
 
-![Pārskatu koka definīcija](./media/reporting-tree-definition.png "Pārskatu koka definīcija")
+![Pārskatu koka definīcija.](./media/reporting-tree-definition.png "Pārskatu koka definīcija")
 
 Kā norādīts konsolidētajā ziņojumā tālāk redzamajās attēlā, izmantojot pārskatu koka kopā ar pārskatu definīciju, katru uzņēmumu var apskatīt atsevišķi. Konsolidētās summas tiek parādītas kopsavilkuma līmenī.
 
-![Konsolidēt summas kopsavilkuma līmeni](./media/consolidate-amount-summary-level.png "Konsolidēt summas kopsavilkuma līmeni")
+![Konsolidēt summas kopsavilkuma līmeni.](./media/consolidate-amount-summary-level.png "Konsolidēt summas kopsavilkuma līmeni")
 
 Varat arī izveidot vairāklīmeņu pārskatu koku, kas ietver tik daudz līmeņu, cik nepieciešams. Tālāk redzamajā attēlā parādīta daudzlīmeņu pārskatu koka definīcija ar apkopojumiem pēc pasaules reģioniem.
 
-![Vairāklīmeņu pārskata koka definīcija ar apkopojumiem pēc reģiona](./media/multilevel-reporting-tree-definition-roll-ups-worldwide-region.png "Vairāklīmeņu pārskata koka definīcija ar apkopojumiem pēc reģiona")
+![Vairāklīmeņu pārskata koka definīcija ar apkopojumiem pēc reģiona.](./media/multilevel-reporting-tree-definition-roll-ups-worldwide-region.png "Vairāklīmeņu pārskata koka definīcija ar apkopojumiem pēc reģiona")
 
 Tālāk redzamajā attēlā parādīta daudzlīmeņu pārskatu koka definīcija ar apkopojumiem pēc funkcijas.
 
-![Vairāklīmeņu pārskata koka definīcija ar apkopojumiem pēc funkcijas](./media/multilevel-reporting-tree-definition-roll-ups-by-function.png "Vairāklīmeņu pārskata koka definīcija ar apkopojumiem pēc funkcijas")
+![Vairāklīmeņu pārskata koka definīcija ar apkopojumiem pēc funkcijas.](./media/multilevel-reporting-tree-definition-roll-ups-by-function.png "Vairāklīmeņu pārskata koka definīcija ar apkopojumiem pēc funkcijas")
 
 ### <a name="viewing-companies-side-by-side"></a>Uzņēmumu skatīšana līdzās
 Daudzi klienti dod priekšroku pārskatiem, kur uzņēmumi tiek parādīti līdzās un kolonnā redzama konsolidētā kopsumma. Šo formātu ir viegli iegūt pēc tam, kad esat izveidojis pārskatu koku. Tālāk norādītas augsta līmeņa darbības, kas veicamas, lai konsolidētajos finanšu pārskatos uzņēmumus skatītu līdzās.
@@ -61,19 +61,19 @@ Daudzi klienti dod priekšroku pārskatiem, kur uzņēmumi tiek parādīti līdz
 
 Tālāk redzamajā piemērā parādīta kolonnas definīcija līdzāsparādīšanas formātā.
 
-![Kolonnas definīcija līdzāsparādīšanas formātā](./media/column-definition-side-by-side-format.png "Kolonnas definīcija līdzāsparādīšanas formātā")
+![Kolonnas definīcija līdzāsparādīšanas formātā.](./media/column-definition-side-by-side-format.png "Kolonnas definīcija līdzāsparādīšanas formātā")
 
 ## <a name="consolidations-that-use-organization-structures-that-are-created-from-legal-entities"></a>Konsolidācijas, kas izmanto organizācijas struktūras, kas izveidotas no juridiskām personām
 Organizācijas hierarhijas, kas satur dimensijas vai juridiskas personas, dinamiski izveido pārskatu koka definīcijas programmā Finanšu pārskatu sniegšana. Ērts konsolidāciju racionalizēšanas veids ir organizācijas hierarhijas pievienošana pārskatam programmā Finanšu pārskatu sniegšana. Pamatojoties uz pārskata datumu, programma Financial Reporting atlasīs organizācijas hierarhiju aktīvajā datumā vai pirms tā, kā parādīts tālāk redzamajā ilustrācijā.
 
-![Dinamiski izveidot pārskata koka definīciju](./media/dynamically-create-reporting-tree-definitions.png "Dinamiski izveidot pārskata koka definīciju")
+![Dinamiski izveidot pārskata koka definīciju.](./media/dynamically-create-reporting-tree-definitions.png "Dinamiski izveidot pārskata koka definīciju")
 
 ## <a name="consolidations-that-involve-eliminations"></a>Konsolidācijas, kas ietver eliminācijas
 Eliminācijas transakcijas ir konsolidācijas procesa parasta daļa. Šajā piemērā pieci konti tiek eliminēti konsolidācijas laikā: 142600, 211400, 401420, 401180 un 510820. Uzņēmumi var iestatīt starpuzņēmumu kontus atšķirīgi. Piemēram, dažos uzņēmumos konta pēdējais cipars tiek iestatīts kā 9, ja konts tiek izmantots starpuzņēmumu transakcijās. Neatkarīgi no metodes, ja zināt starpuzņēmumu kontus, varat parādīt eliminācijas konsolidētajos finanšu pārskatos.
 
 Tālāk redzamajā ilustrācijā ir parādīta kolonnas definīcija konsolidētajam ieņēmumu paziņojumam. Katram uzņēmumam, izmantojot dimensiju filtru, ir definēti trīs peļņas un zaudējumu starpuzņēmumu konti. F, G un H kolonnās ir iekļauti tikai USMF, USRT un DEMF uzņēmumu eliminācijas konti. Šīs kolonnas ir iestatītas tā, ka tās **netiek** drukātas finanšu pārskatā.
 
-![Kolonnas definīcijas konsolidētais peļņas un zaudējumu pārskats](./media/column-definition-consolidated-income-statement.png "Kolonnas definīcijas konsolidētais peļņas un zaudējumu pārskats")
+![Kolonnas definīcijas konsolidētais peļņas un zaudējumu pārskats.](./media/column-definition-consolidated-income-statement.png "Kolonnas definīcijas konsolidētais peļņas un zaudējumu pārskats")
 
 Veidojot pārskatu, eliminācijas summas tiek aprēķinātas F, G un H kolonnās, un tās tiek summētas I kolonnā. J kolonna parāda konsolidētās summas. Šīs konsolidācijas summas neietver eliminācijas USMF, USRT un DEMF uzņēmumiem.
 
@@ -82,7 +82,7 @@ Veidojot pārskatu, eliminācijas summas tiek aprēķinātas F, G un H kolonnās
 
 Tālāk redzamajā ilustrācijā parādīts konsolidētais pārskats.
 
-![Ienākumu deklarācijas konsolidētais finanšu pārskats](./media/consolidated-report-income-statement.png "Ienākumu deklarācijas konsolidētais finanšu pārskats")
+![Ienākumu deklarācijas konsolidētais finanšu pārskats.](./media/consolidated-report-income-statement.png "Ienākumu deklarācijas konsolidētais finanšu pārskats")
 
 Neatkarīgi no tā, vai izmantojat kontus, dimensijas vai abus, programma Finanšu pārskatu sniegšana ļauj atfiltrēt eliminācijas ierakstus, izmantojot filtrēšanas iespēju dimensiju.
 
@@ -95,20 +95,20 @@ Pārskatu koka definīcijā ievadiet īpašumtiesību procentuālo daļu kolonn�
 > [!NOTE]
 > Šo īpašumtiesību procentuālo vērtību var piemērot jebkurai pārskata vienībai, ne tikai uzņēmuma līmenī. 
 
-![Pārskatu koka definīcijas īpatsvara izmantošana](./media/Using-reporting-tree-definition-percentage.png "Pārskatu koka definīcijas īpatsvara izmantošana")
+![Pārskatu koka definīcijas īpatsvara izmantošana.](./media/Using-reporting-tree-definition-percentage.png "Pārskatu koka definīcijas īpatsvara izmantošana")
 
 Veidojot pārskatu, uzņēmuma Contoso Vācija ziņojumā tiks parādi 100 procenti no pārdošanas summas, un 80 procenti no summas tiks piešķirti un apkopoti uz pārdošanas konsolidēto līmeni.
 
 Ja jums pieder mazāk nekā 1 procents no uzņēmuma, varat atlasīt izvēles rūtiņu **Atļaut apkopojumu mazāku par 1 %** cilnē **Papildu opcijas** lapā **Pārskata iestatījumi**, kā parādīts tālāk redzamajā attēlā. Šajā gadījumā vērtības kolonnā **Apkopojuma %** pārskatu kokā tiks apstrādātas kā mazāk nekā 1 procents. Piemēram, ievadot **.8**, uz konsolidēto līmeni tiks apkopoti 0,8 procenti, nevis 80 procenti. To pašu rezultātu arī var iegūt, atstājot izvēles rūtiņu **Atļaut apkopojumu mazāku par 1 %** neatzīmētu un ievadot **.008** kolonnā **Apkopojuma %**.
 
-![Pārskatu iestatījuma opcijas](./media/reporting-setting-options.png "Pārskatu iestatījuma opcijas")
+![Pārskatu iestatījuma opcijas.](./media/reporting-setting-options.png "Pārskatu iestatījuma opcijas")
 
 ### <a name="showing-ownership-as-a-separate-row-on-the-consolidated-report"></a>Īpašumtiesību parādīšana atsevišķā rindā konsolidētajā pārskatā
 Vēl viena mazākuma līdzdalības daļas iespēja ir parādīt 100 procentus meitasuzņēmuma katrai rindai pārskatā, bet atņemt nekontrolējošos procentus no tīrā ienākuma.
 
 Kā parādīts tālāk redzamajā attēlā, paziņojumu **JA TAD CITS** un kolonnas ierobežojumu rindas definīcijā var izmantot, lai aprēķinātu mazākuma līdzdalības daļu finanšu pārskatos.
 
-![Īpašumtiesību parādīšana atsevišķā rindā konsolidētajā pārskatā](./media/Showing-ownership-separate-row-consolidated-report.png "Īpašumtiesību parādīšana atsevišķā rindā konsolidētajā pārskatā")
+![Īpašumtiesību parādīšana atsevišķā rindā konsolidētajā pārskatā.](./media/Showing-ownership-separate-row-consolidated-report.png "Īpašumtiesību parādīšana atsevišķā rindā konsolidētajā pārskatā")
 
 ## <a name="multiple-charts-of-accounts-across-legal-entities"></a>Vairāki juridisko personu kontu plāni
 Bieži vien dažādām juridiskajām personām ir dažādi kontu plāni, taču tās joprojām vēlas izveidot konsolidētus finanšu pārskatus. Šādā gadījumā programmu Finanšu pārskatu sniegšana var izmantot, lai konsolidētu datus, lai varētu izveidot konsolidētus finanšu pārskatus. Tālāk ir aprakstītas augsta līmeņa darbības, kas veicamas, lai veiktu konsolidāciju, ja juridiskajām personām ir dažādi kontu plāni.
@@ -122,11 +122,11 @@ Rindas definīcijā katram unikālam uzņēmuma kontu plānam katrai rindai var 
 > [!TIP]
 > Papildinformāciju par šūnu **Saite uz finanšu dimensijām** skatiet šūnā Saites norādīšana uz finanšu dimensijām.
 
-![Iestatīt kontu pirmo saiti uz finanšu dimensijām](./media/set-accounts-first-Link-to-Financial-Dimensions.png "Iestatīt kontu pirmo saiti uz finanšu dimensijām")
+![Iestatīt kontu pirmo saiti uz finanšu dimensijām.](./media/set-accounts-first-Link-to-Financial-Dimensions.png "Iestatīt kontu pirmo saiti uz finanšu dimensijām")
 
 Pārskatu koku var izmantot, lai definētu, kura saite uz finanšu dimensijām no rindas definīcijas tiek izmantota katram uzņēmumam. Atlasiet rindas definīciju E kolonnā un pēc tam atlasiet atbilstošās rindas saiti F kolonnā, kā parādīts tālāk redzamajā attēlā.
 
-![Saistīt izmantoto finanšu dimensiju rindas definīciju](./media/link-financial-dimensions-row-definition-used.png "Saistīt izmantoto finanšu dimensiju rindas definīciju")
+![Saistīt izmantoto finanšu dimensiju rindas definīciju.](./media/link-financial-dimensions-row-definition-used.png "Saistīt izmantoto finanšu dimensiju rindas definīciju")
 
 > [!TIP]
 > Veidojot saites uz finanšu dimensijām, izmantojiet aprakstu, lai identificētu uzņēmumus, uz kuriem katra saite attiecas. Šādā veidā var vieglāk atlasīt pareizo uzņēmumu, veidojot pārskatu koku. Kolonnas definīcijā lauks **Pārskata vienība** ļauj ierobežot katru kolonnu līdz pārskata koka vienībai, lai datus varētu skatīt līdzās. Ja kolonnai netiek norādīts noteikts uzņēmums, tiks parādīti konsolidētie dati visiem uzņēmumiem.
@@ -146,16 +146,16 @@ Veidojot kolonnas definīciju vairākiem uzņēmumiem ar atšķirīgiem finanšu
 
 Tālāk redzamajā attēlā USMF uzņēmums ir norādīts laukā **Uzņēmuma nosaukums** pārskata definīcijā. Tādēļ USMF uzņēmuma finanšu kalendārs tiks lietots kā pamata finanšu kalendārs. Šajā piemērā, veidojot pārskatu uz 2018. gada 30. jūniju, tiks izmantots USMF uzņēmuma BĀZES periods, kas ir definēts kā 12. periods pārskata definīcijā. INMF uzņēmums izmantos 6. BĀZI, kas ir 6. periods. Abās kolonnās tiks iekļauti dati par 2018. gada jūniju.
 
-![Pārskata bāzes periods](./media/report-base-period.png "Pārskata bāzes periods")
+![Pārskata bāzes periods.](./media/report-base-period.png "Pārskata bāzes periods")
 
 Tālāk redzamajā attēlā ir parādītas opcijas pārskata definīcijā, kas ļauj atlasīt, vai konsolidācijā tiek izmantots perioda numurs vai perioda beigu datums.
 
-![Opciju pārskata definīcijas perioda numurs](./media/options-report-definition-period-number.png "Opciju pārskata definīcijas perioda numurs")
+![Opciju pārskata definīcijas perioda numurs.](./media/options-report-definition-period-number.png "Opciju pārskata definīcijas perioda numurs")
 
 ## <a name="business-unit-consolidations"></a>Biznesa vienības konsolidācijas
 Šajā tēmā tika apskatīta pārskatu koka definīciju un organizācijas hierarhijas izmantošana programmā Finanšu pārskatu sniegšana konsolidācijas nolūkos. Pārskatu koku var arī izmantot, lai izveidotu biznesa vienības konsolidācijas pārskatus, piemēram, pārskatus par pārdošanu vai operācijām visā pasaulē. Šie pārskati ir standarta prasība. Lai tos izveidotu, atlasiet uzņēmumu un dimensiju katrai vienībai, kuru vēlaties konsolidēt. Piemēram, tālāk redzamajā attēlā biznesa vienības apkopojums ir veikts, atkārtojot katru uzņēmumu kolonnā **Uzņēmums** (A kolonna) un identificējot nodaļas grupas dimensijas vērtības katram uzņēmumam kolonnā **Dimensijas** (D kolonna).
 
-![Biznesa vienības konsolidācijas pārskati](./media/business-unit-consolidation-reports.png "Biznesa vienības konsolidācijas pārskati")
+![Biznesa vienības konsolidācijas pārskati.](./media/business-unit-consolidation-reports.png "Biznesa vienības konsolidācijas pārskati")
 
 ## <a name="consolidations-that-involve-multiple-reporting-currencies"></a>Konsolidācijas, kas ietver vairākas pārskata valūtas
 Finanšu pārskatu sniegšanas programma piedāvā lielāku elastību, skatot faktiskos, budžeta, budžeta kontroles un budžeta plānošanas datus vairākās valūtās. Pārceļot galvenos iestatījuma datus, nav nepieciešams veikts nekādus papildu iestatījumus finanšu pārskatu veikšanas programmā, lai skatītu jebkuru pārskatu jebkurā valūtā, jebkurā laikā un jebkuram lietotājam.
@@ -168,7 +168,7 @@ Galvenajā kontā lauki **Finanšu pārskatu maiņas kursa tips** un **Valūtas 
 - Laukā **Finanšu pārskatu maiņas kursa tips** atlasiet maiņas kursa tipu, kas satur kontam piemērojamās valūtas un maiņas kursus. Šī valūtu un maiņas kursu tabula tiks piemērota faktiskajiem datiem finanšu pārskatu programmā.
 - Laukā **Valūtas pārrēķināšanas tips** atlasiet maiņas kursu aprēķināšanas metodi kontam. Šī valūtas metode tiek izmantota gan faktiskajiem, gan budžeta datiem finanšu pārskatu sniegšanas programmā.
 
-![Finanšu pārskata galvenie konti](./media/Financial-reporting-main-accounts.png "Finanšu pārskata galvenie konti")
+![Finanšu pārskata galvenie konti.](./media/Financial-reporting-main-accounts.png "Finanšu pārskata galvenie konti")
 
 Budžeta, budžeta kontroles un budžeta plānošanas datiem maiņas kursa tips tiek definēts lapā **Virsgrāmata**. Šī tabula tiks izmantota, lai iegūtu maiņas kursus un valūtas pārrēķināšanas veidu, kas ir piešķirti kontam.
 
@@ -199,15 +199,15 @@ Valūtu pārrēķināšanas korekcija (VPK) ir starpība starp kursiem, kuri tie
 
 - Izmantojiet lapu **Noapaļošanas korekcijas** rindas definīcijā, kā parādīts tālāk redzamajā attēlā.
 
-    ![Valūtas pārrēķina korekcijas noapaļošanas korekcijas](./media/Currency-translation-adjustment-rounding-adjustments.png "Valūtas pārrēķina korekcijas noapaļošanas korekcijas")
+    ![Valūtas pārrēķina korekcijas noapaļošanas korekcijas.](./media/Currency-translation-adjustment-rounding-adjustments.png "Valūtas pārrēķina korekcijas noapaļošanas korekcijas")
 
     Norādot rindu, kurā jāparāda noapaļošanas korekcija (VPK), kopējo līdzekļu rindu, kopējo saistību un kapitāla rindu un pieņemamo slieksni, finanšu pārskatu programma aprēķinās starpību un ievadīs to vēlamajā rindā. Tiks izveidota rinda ar nosaukumu **Noapaļošanas korekcija**, un tā tiks parādīta detalizētā skatā, kā parādīts tālāk redzamajā attēlā.
 
-    ![Noapaļošanas korekcija detalizēti](./media/rounding-adjustment-drill-down.png "Noapaļošanas korekcija detalizēti")
+    ![Noapaļošanas korekcija detalizēti.](./media/rounding-adjustment-drill-down.png "Noapaļošanas korekcija detalizēti")
 
 - Lieciet visus kontus diapazonā, no aktīviem līdz izdevumiem. Kā parādīts tālāk redzamajā ilustrācijā, starpība būs tāda pati summa kā noapaļošanas korekcija (VPK). Tādēļ to var izmantot kā kopsummas pārbaudi, lai pārliecinātos, vai noapaļošanas korekcijas lapa neietver kādas kontu bilances, kas tika izlaistas.
 
-    ![Noapaļošanas korekcijas formas pārbaude](./media/rounding-adjustment-form-check.png "Noapaļošanas korekcijas formas pārbaude")
+    ![Noapaļošanas korekcijas formas pārbaude.](./media/rounding-adjustment-form-check.png "Noapaļošanas korekcijas formas pārbaude")
 
 ### <a name="balance-calculation-approach"></a>Bilances aprēķina pieeja
 Lai iegūtu pareizi pārrēķinātas summas, kad tiek izmantotas valūtas, finanšu pārskatu programma izmanto tālāk aprakstītās bilanču aprēķina metodes.

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9523492d766669e6c38579fba7b5ddd6b3d282fc
-ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
+ms.openlocfilehash: a74847b50512d2f712e5a9a5125e520afc732591
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/17/2021
-ms.locfileid: "6049368"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344499"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>Darbību ikonu un nosaukumu piešķiršana Warehouse Management mobilajai programmai
 
@@ -25,7 +25,7 @@ ms.locfileid: "6049368"
 
 Nākamajās ilustrācijās ir parādīts, kā darbību ikonas un virsraksti tiek parādīti Warehouse Management mobilajā lietojumprogrammā.
 
-![Darbību ikonas un virsraksta piemērs Warehouse Management mobilajā lietojumprogrammā](media/step-icon-example.png "Darbību ikonas un virsraksta piemērs Warehouse Management mobilajā lietojumprogrammā")
+![Darbību ikonas un virsraksta piemērs Warehouse Management mobilajā lietojumprogrammā.](media/step-icon-example.png "Darbību ikonas un virsraksta piemērs Warehouse Management mobilajā lietojumprogrammā")
 
 ## <a name="turn-on-this-feature-in-your-system"></a>Šī līdzekļa ieslēgšana sistēmā
 
@@ -350,13 +350,13 @@ Sistēmā ir ietverta standarta darbību ikonu kolekcija, ko varat izmantot arī
 
 Šajā attēlā parādīta šī uzdevuma plūsma.
 
-![Uzdevuma plūsmas diagramma](media/step-icons-example-task-flow.png "Uzdevuma plūsmas diagramma")
+![Uzdevuma plūsmas diagramma.](media/step-icons-example-task-flow.png "Uzdevuma plūsmas diagramma")
 
 ### <a name="create-a-step-class-for-the-container-input-page"></a>Izveidot darbības klasi konteinera ievades lapai
 
 Konteinera ievades lapa ļauj darbiniekam skenēt vai ievadīt konteinera ID.
 
-![Konteinera ievades lapa](media/step-icons-example-container-input.png "Konteinera ievades lapa")
+![Konteinera ievades lapa.](media/step-icons-example-container-input.png "Konteinera ievades lapa")
 
 Konteinera ievades lapā ir ievadītā lauka kontroles nosaukums `ContainerId`. Tā kā šis vadīklas nosaukums nav norādīts [darbības ID sarakstā](#step-ids-classes), jūs neatradīsiet esošu darbību, kas ir balstīta uz to. Tādēļ ir jāizveido darbības klase, kas pārstāv šo darbību. Tālāk ir minēts piemērs.
 
@@ -382,7 +382,7 @@ Lai piešķirtu darbības ikonu, iestatiet `defaultStepIcon` uz vienu no ikonu I
 
 Svara ievades lapa ļauj darbiniekam ievadīt svaru.
 
-![Svara ievades lapa](media/step-icons-example-weight-input.png "Svara ievades lapa")
+![Svara ievades lapa.](media/step-icons-example-weight-input.png "Svara ievades lapa")
 
 Svara ievades lapā ievades lauka kontroles nosaukums ir `Weight`, kas atrodas [darbības ID sarakstā](#step-ids-classes). Tādēļ, ja definētā darbības ikona un nosaukums `WHSMobileAppStepWeight` klasē jums ir pieņemami, šai darbībai nekas nav jāmaina.
 

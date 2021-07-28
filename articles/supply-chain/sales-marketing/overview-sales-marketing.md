@@ -8,18 +8,20 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 92303
+ms.custom:
+- "92303"
+- intro-internal
 ms.assetid: 65ca9992-bbfa-4224-bf0e-067a25c7e6a4
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42934a88065da015334455b6c37f57591611360f
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 92077c0d8a9c9f3820171fd4ffd8aedb02f59602
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188129"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359865"
 ---
 # <a name="sales-and-marketing-overview"></a>Pārdošanas un mārketinga pārskats
 
@@ -29,18 +31,18 @@ Moduli Pārdošana un mārketings varat izmantot, lai iegūtu, uzglabātu un izm
 
 ## <a name="marketing"></a>Mārketings
 
-Mārketinga kampaņas un aktivitātes jūs izmantojat, lai atrastu un veidotu attiecības ar potenciālajiem klientiem un sākotnējās mijiedarbības varētu pārtapt par tirdzniecības attiecībām. Nākamajā procesa plūsmā ir parādīts biznesa process mārketingam. [![Mārketinga biznesa process](./media/marketing01.jpg)](./media/marketing01.jpg)
+Mārketinga kampaņas un aktivitātes jūs izmantojat, lai atrastu un veidotu attiecības ar potenciālajiem klientiem un sākotnējās mijiedarbības varētu pārtapt par tirdzniecības attiecībām. Nākamajā procesa plūsmā ir parādīts biznesa process mārketingam. [![Mārketinga biznesa process.](./media/marketing01.jpg)](./media/marketing01.jpg)
 
-### <a name="relationships"></a>Attiecības
+### <a name="relationships"></a>Saistības
 
-Pārdošanā un mārketingā sākotnējās mijiedarbības, kas jums notiek ar potenciālajiem klientiem, var rasties dažādās situācijās. Piemēram, potenciālu klientu varat atrast, kamēr apmeklējat tirdzniecības izstādi, vai jums varētu būt potenciāla sadarbība ar klientu pēc tam, kad jūsu organizācija realizē lielapjoma pasta sūtīšanas kampaņu. Ir ļoti svarīgi izprast personas elementa plūsmu, pirms šī persona kļūst par klientu. Nākamajā attēlā ir parādīta elementu attiecību plūsma, potenciālajam klientam kļūstot par faktisku debitoru. [![SalesandMarketing01](./media/salesandmarketing01.jpg)](./media/salesandmarketing01.jpg)
+Pārdošanā un mārketingā sākotnējās mijiedarbības, kas jums notiek ar potenciālajiem klientiem, var rasties dažādās situācijās. Piemēram, potenciālu klientu varat atrast, kamēr apmeklējat tirdzniecības izstādi, vai jums varētu būt potenciāla sadarbība ar klientu pēc tam, kad jūsu organizācija realizē lielapjoma pasta sūtīšanas kampaņu. Ir ļoti svarīgi izprast personas elementa plūsmu, pirms šī persona kļūst par klientu. Nākamajā attēlā ir parādīta elementu attiecību plūsma, potenciālajam klientam kļūstot par faktisku debitoru. [![SalesandMarketing01.](./media/salesandmarketing01.jpg)](./media/salesandmarketing01.jpg)
 
 ### <a name="campaigns"></a>Kampaņas
 
 Kampaņa ir vērsta uz kontaktpersonām potenciālajiem klientiem, interesentiem, iespējām un debitoriem, kas ir atlasīti dalībai šajā kampaņā. Programmatūrā Supply Chain Management jūs varat izveidot vairākus kampaņu tipus, piemēram, telemārketinga, pasta sūtījumu un e-pasta kampaņas, lai maksimāli palielinātu savu debitoru potenciālu. Kad kampaņas gaitā saņemt pozitīvas atbildes, varat sākt pārdošanas procesu tiem adresātiem, kuri uz kampaņu ir atbildējuši pozitīvi.
 
 ## <a name="sales"></a>Pārdošana
-Pārdošanas funkcionalitāti varat izmantot, lai izveidotu piedāvājumus, papildu pārdošanu un šķērspārdošanu jauniem un esošajiem klientiem, izveidot pārdošanas pasūtījumus un izveidot pārdošanas rēķinus debitoriem. Nākamajā procesa plūsmā ir parādīts biznesa process pārdošanai. [![Pārdošanas biznesa process](./media/sales01.jpg)](./media/sales01.jpg)
+Pārdošanas funkcionalitāti varat izmantot, lai izveidotu piedāvājumus, papildu pārdošanu un šķērspārdošanu jauniem un esošajiem klientiem, izveidot pārdošanas pasūtījumus un izveidot pārdošanas rēķinus debitoriem. Nākamajā procesa plūsmā ir parādīts biznesa process pārdošanai. [![Pārdošanas biznesa process.](./media/sales01.jpg)](./media/sales01.jpg)
 
 ### <a name="sales-quotations"></a>Pārdošanas piedāvājumi
 

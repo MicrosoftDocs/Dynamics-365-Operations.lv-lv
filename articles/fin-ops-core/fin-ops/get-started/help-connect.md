@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 82bb9a09e6d302b0d453ceb5131da039769b58fb
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 1a70a9771d5f9c1acea9274b8454a23c8dd7c1ed
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745693"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343938"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Konfigurēt Palīdzības pieredzi Finance and Operations programmām
 
@@ -32,7 +32,7 @@ ms.locfileid: "5745693"
 
 Finance and Operations programmas ietver konceptuālus apskatus un citas tēmas, kas publicētas [https://docs.microsoft.com/dynamics365](/dynamics365/) vietnē. Šim saturam var piekļūt no preces **Palīdzības** rūts. Nākamajā attēlā ir parādītas daļas no palīdzības sistēmas.
 
-[![Palīdzības sistēmas arhitektūra](./media/help-architecture.png)](./media/help-architecture.png)
+[![Palīdzības sistēmas arhitektūra.](./media/help-architecture.png)](./media/help-architecture.png)
 
 Preces palīdzības sistēma izvelk rakstus no docs.microsoft.com un citām saistītām vietnēm. Tas arī velk uzdevumu ceļvežus, kas tiek uzglabāti Biznesa procesu modelētājā (BPM) Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -47,14 +47,14 @@ Lapā **Sistēmas parametri** sistēmas administratori var konfigurēt piekļuvi
 > - Lai konfigurētu palīdzību, jums ir jāpierakstās ar kontu tajā pašā nomniekā, kurā ir izvietota programma.
 > - Savienojumu ar LCS bibliotēku nav iespējams izveidot no programmas instances, kas darbojas lokālā virtuālajā cietajā diskā (VHD).
 
-[![Veidlapa Sistēmas parametri, kurā ir atvērti palīdzības iestatījumi](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)
+[![Veidlapa Sistēmas parametri, kurā ir atvērti palīdzības iestatījumi.](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)
 
 Lai konfigurētu risinājuma uzdevumu ceļvežus, veiciet šīs darbības lapā **Sistēmas parametri**.
 
 > [!IMPORTANT]
 > Kad cilni **Palīdzība** atverat pirmo reizi, ir jāizveido savienojums ar Lifecycle Services. Noteikti atlasiet saiti formas vidū, uzgaidiet, līdz tiek izveidots savienojums, aizveriet dialoglodziņu un pēc tam atlasiet **Labi**, lai piekļūtu lapai **Sistēmas parametri**.
 >
-> [![Izveidot savienojumu ar LCS](./media/connect-to-lcs-crop-1024x365.png "Izveidot savienojumu ar LCS")](./media/connect-to-lcs-crop.png)
+> [![Savienojuma izveide ar LCS](./media/connect-to-lcs-crop-1024x365.png "Savienojuma izveide ar LCS."](./media/connect-to-lcs-crop.png)
 
 1. Atlasiet Lifecycle Services projektu, ar kuru izveidot savienojumu.
 2. Atlasiet BPM bibliotēkas (atlasītajā projektā), no kurām izgūt uzdevumu ierakstus.

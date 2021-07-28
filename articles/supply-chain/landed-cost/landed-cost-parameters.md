@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 3340ea07414eb92997ab4a9d6fa46cd075f8f9db
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ea0f60424ff1ee40a4231aa9cc129bb942fca519
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021011"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353568"
 ---
 # <a name="landed-cost-parameters-setup"></a>Kopējo izmaksu parametru iestatīšana
 
@@ -31,7 +31,7 @@ Lapu **Kopējo izmaksu parametri** var izmantot, lai iestatītu vispārīgu info
 
 Lai strādātu ar parametriem, dodieties uz sadaļu **Kopējās izmaksas \> Iestatījumi \> Kopējo izmaksu parametri**, tad iestatiet laukus, kā aprakstīts nākamajās sadaļās.
 
-![Kopējo izmaksu parametru lapa](media/landed-cost-parameters.png "Kopējo izmaksu parametru lapa")
+![Kopējo izmaksu parametru lapa.](media/landed-cost-parameters.png "Kopējo izmaksu parametru lapa")
 
 ## <a name="general-tab"></a>Cilne Vispārīgi
 
@@ -66,12 +66,12 @@ Sekojošajā tabulā ir aprakstīti lauki, kas ir pieejami kopsavilkuma cilnes *
 
 | Iestatījums | Apraksts |
 |---|---|
-| Vairāki izmaksu rēķini | Atlasiet, kas notiek, ja vienai papildmaksai pret reisu, folio vai konteineru tiek apstrādāti vairāki rēķini.<ul><li>**Pieņemt** – sistēma atļautu vairākus izmaksu rēķinus.</li><li>**Brīdinājums** – tiek parādīts brīdinājums.</li><li>**Kļūda** — tiek parādīts kļūdas ziņojums.</li></ul> |
+| Vairāki izmaksu rēķini | Atlasiet, kas notiek, ja vienai papildmaksai pret reisu, folio vai konteineru tiek apstrādāti vairāki rēķini.<ul><li>**Pieņemt** – sistēma atļautu vairākus izmaksu rēķinus.</li><li>**Brīdinājums** – tiek parādīts brīdinājums.</li><li>**Kļūda** — tiek parādīts kļūdas ziņojums.</li></ul> |
 | Vairāki kreditori vienā folio | Atlasiet to, kas notiek, ja folio tiek pievienoti vairāk nekā viena kreditora pirkšanas pasūtījumi.<ul><li>**Pieņemt** – sistēmai būtu jāatļauj darbība.</li><li>**Brīdinājums** – tiek parādīts brīdinājums, bet darbību joprojām var veikt.</li><li>**Kļūda** – tiek rādīts kļūdas ziņojums, un darbība netiek novērsta.</li></ul><p>Jūsu muitas starpnieks vai lokālie likumi var noteiktai vērtībai šajā laukā.</p> |
 | Piegādes tolerances vairāki režīmi | Atlasiet, kas notiek, ja šai reisam tiek pievienotas preces pirkšanas pasūtījumā, kas izmanto citu piegādes veidu nekā reiss.<ul><li>**Pieņemt** – sistēmai būtu jāatļauj darbība.</li><li>**Brīdinājums** – tiek parādīts brīdinājums, bet darbību joprojām var veikt.</li><li>**Kļūda** – tiek rādīts kļūdas ziņojums, un darbība netiek novērsta.</li></ul> |
-| Vairāku noliktavu tolerance | Atlasiet, kas notiek, ja reiss ietver vairākas pasūtījuma rindas, kas jāpiegādā dažādās noliktavās. Šīs pasūtījuma rindas var izplatīties starp vienu vai vairākiem pirkšanas pasūtījumiem.<ul><li>**Pieņemt** – sistēmai būtu jāatļauj darbība.</li><li>**Brīdinājums** – tiek parādīts brīdinājums.</li><li>**Kļūda** — tiek parādīts kļūdas ziņojums.</li></ul> |
-| Trūkst apjoma | Atlasiet, kas notiek, ja lietotājs pievieno krājumu bez tilpuma reisam.<ul><li>**Pieņemt** – sistēmai būtu jāatļauj darbība.</li><li>**Brīdinājums** – tiek parādīts brīdinājums.</li><li>**Kļūda** — tiek parādīts kļūdas ziņojums.</li></ul><p>Ja apjomus izmanto, lai aprēķinātu un sašautu izmaksas, ieteicams atlasīt *Brīdinājumu* vai *Kļūdu*.</p> |
-| Pakalpojumu sniedzējs bez reisa izmaksām | Atlasiet, kas notiek, ja lietotājs mēģina apstrādāt rēķinu pakalpojumu sniedzējam, kas nav saistīts ar reisu. <ul><li>**Pieņemt** – sistēmai būtu jāatļauj darbība.</li><li>**Brīdinājums** – tiek parādīts brīdinājums.</li><li>**Kļūda** — tiek parādīts kļūdas ziņojums.</li></ul><p>Ieteicams atlasīt *Brīdinājumu*.</p> |
+| Vairāku noliktavu tolerance | Atlasiet, kas notiek, ja reiss ietver vairākas pasūtījuma rindas, kas jāpiegādā dažādās noliktavās. Šīs pasūtījuma rindas var izplatīties starp vienu vai vairākiem pirkšanas pasūtījumiem.<ul><li>**Pieņemt** – sistēmai būtu jāatļauj darbība.</li><li>**Brīdinājums** – tiek parādīts brīdinājums.</li><li>**Kļūda** — tiek parādīts kļūdas ziņojums.</li></ul> |
+| Trūkst apjoma | Atlasiet, kas notiek, ja lietotājs pievieno krājumu bez tilpuma reisam.<ul><li>**Pieņemt** – sistēmai būtu jāatļauj darbība.</li><li>**Brīdinājums** – tiek parādīts brīdinājums.</li><li>**Kļūda** — tiek parādīts kļūdas ziņojums.</li></ul><p>Ja apjomus izmanto, lai aprēķinātu un sašautu izmaksas, ieteicams atlasīt *Brīdinājumu* vai *Kļūdu*.</p> |
+| Pakalpojumu sniedzējs bez reisa izmaksām | Atlasiet, kas notiek, ja lietotājs mēģina apstrādāt rēķinu pakalpojumu sniedzējam, kas nav saistīts ar reisu. <ul><li>**Pieņemt** – sistēmai būtu jāatļauj darbība.</li><li>**Brīdinājums** – tiek parādīts brīdinājums.</li><li>**Kļūda** — tiek parādīts kļūdas ziņojums.</li></ul><p>Ieteicams atlasīt *Brīdinājumu*.</p> |
 
 ### <a name="defaults-fasttab"></a>Kopsavilkuma cilne Noklusētie iestatījumi
 

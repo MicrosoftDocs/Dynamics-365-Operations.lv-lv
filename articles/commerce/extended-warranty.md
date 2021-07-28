@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 567f102cfe78a92e2e6f1243fb531dd3366c9bf2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 699c285ba0f92df4ccc05790b813ff423c01b62a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792467"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353832"
 ---
 # <a name="create-and-configure-extended-warranties"></a>Paplašināto garantiju izveide un konfigurēšana
 
@@ -81,7 +81,7 @@ Lai izveidotu garantijas preci sadaļā Komercija, veiciet šādas darbības.
 
     Piemēram, divu gadu garantijai iestatiet **Laika vienības** lauku uz **Gads(-i)** un **Laika ilguma** lauku uz **2**. Vai arī iestatiet **Laika vienības** lauku uz **Mēnesis(-ši)** un **Laika ilguma** lauku uz **24**, kā parādīts sekojošajā ilustrācijā.
 
-    ![Preces detalizētas informācijas lapa garantijas precei](./media/ew-time-properties.png)
+    ![Preces detalizētas informācijas lapa garantijas precei.](./media/ew-time-properties.png)
 
 1. Atlasiet **Saglabāt**, lai saglabātu garantijas preci.
 1. Izlaidiet garantijas preci uzņēmumam, lai to varētu pārdot. Papildinformāciju skatiet [Uzstādīt mazumtirdzniecības preces](set-up-retail-products.md).
@@ -94,7 +94,7 @@ Lai izveidotu garantijas preci sadaļā Komercija, veiciet šādas darbības.
 
     Piemēram, sekojošajā attēlā parādīts **Cenu diapazonu bāzes** lauks, kas iestatīts uz **Pamatcenu**, **Apakšējās robežas** lauks ir iestatīts kā $500 un **Augšējās robežas** lauks ir iestatīts uz $1000.
     
-    ![Izlaistās preces detalizētas informācijas lapa garantijas precei](./media/ew-release-product-details.png)
+    ![Izlaistās preces detalizētas informācijas lapa garantijas precei.](./media/ew-release-product-details.png)
 
 1. Pievienojiet garantijas preci kanālam, kur tā tiks pārdota. Plašāku informāciju skatiet [Iestatīt sortimentus](set-up-assortments.md).
 
@@ -161,11 +161,11 @@ Divas POS operācijas ļauj pārdošanas partneriem pārdot garantijas preces de
 
 Sekojošajā attēlā parādīts POS termināļa lapas piemērs ar uzvedni, lai pievienotu garantijas preci pašreizējam garantējamās preces pirkumam.
 
-![Uzvednes piemērs, lai pašreizējam pirkumam pievienotu garantijas preci](./media/ew-sell-warranty.png)
+![Uzvednes piemērs, lai pašreizējam pirkumam pievienotu garantijas preci.](./media/ew-sell-warranty.png)
 
 Šajā ilustrācijā parādīts garantijas preces pievienošanas funkcijas piemērs garantējamajai precei, kas iepriekš tika pārdota.
 
-![Garantijas preces pievienošanas funkcijas piemērs iepriekš pārdotai garantējamai precei](./media/ew-add-warranty-existing.png)
+![Garantijas preces pievienošanas funkcijas piemērs iepriekš pārdotai garantējamai precei.](./media/ew-add-warranty-existing.png)
 
 ## <a name="process-warranty-transactions"></a>Apstrādāt garantijas transakcijas
 

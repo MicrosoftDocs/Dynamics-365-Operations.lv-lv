@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 709a3c332bb6d086910b257fee9cdec8d2bc81a2
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: 9a6be5f4e08a92171892549c017c15c66b1bde2e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941059"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350816"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Problēmu novēršana sākotnējās sinhronizēšanas laikā
 
@@ -38,7 +38,7 @@ ms.locfileid: "5941059"
 
 Kad iespējojat kartēšanas veidnes, karšu statusam jābūt **Palaists**. Ja statuss ir **Nav palaists**, sākotnējās sinhronizācijas laikā radušās kļūdas. Lai skatītu kļūdas, lapā **Duālais ieraksts** atlasiet cilni **Sākotnējās sinhronizācijas informācija**.
 
-![Kļūda cilnē Sākotnējā sinhronizācijas informācija](media/initial_sync_status.png)
+![Kļūda cilnē Sākotnējā sinhronizācijas informācija.](media/initial_sync_status.png)
 
 ## <a name="you-cant-complete-initial-synchronization-400-bad-request"></a>Sākotnējo sinhronizāciju nevar pabeigt: 400 nederīgs pieprasījums
 
@@ -85,7 +85,7 @@ Lai novērstu problēmu, izpildiet šīs darbības.
 1. Piesakieties Finance and Operations programmā.
 2. Lapā **Azure Active Directory programma** izdzēsiet klientu **DtAppID** un pēc tam pievienojiet to vēlreiz.
 
-![DtAppID klients Azure AD programmu sarakstā](media/aad_applications.png)
+![DtAppID klients Azure AD programmu sarakstā.](media/aad_applications.png)
 
 ## <a name="self-reference-or-circular-reference-failures-during-initial-synchronization"></a>Pašatsauces vai cirkulārās atsauces kļūmes sākotnējās sinhronizācijas laikā
 
@@ -115,11 +115,11 @@ Ja jebkādām rindām kreditora elementā ir vērtības kolonnās **PrimaryConta
     2. Meklējiet **primarycontactperson**, lai atrastu avota kolonnu **PrimaryContactPersonId**.
     3. Atlasiet **Darbības** un pēc tam atlasiet **Dzēst**.
 
-        ![PrimaryContactPersonId kolonnas dzēšana](media/vend_selfref3.png)
+        ![PrimaryContactPersonId kolonnas dzēšana.](media/vend_selfref3.png)
 
     4. Atkārtojiet šos soļus, lai dzēstu kolonnu **InvoiceVendorAccountNumber**.
 
-        ![InvoiceVendorAccountNumber kolonnas dzēšana](media/vend-selfref4.png)
+        ![InvoiceVendorAccountNumber kolonnas dzēšana.](media/vend-selfref4.png)
 
     5. Saglabājiet jūsu izmaiņas kartējumā.
 
@@ -129,11 +129,11 @@ Ja jebkādām rindām kreditora elementā ir vērtības kolonnās **PrimaryConta
     2. Atlasiet tabulu **Kreditori V2**.
     3. Darbību rūtī atlasiet **Opcijas** un pēc tam atlasiet **Mainīt izsekošanu**.
 
-        ![Izmaiņu izsekošanas opcijas atlasīšana](media/selfref_options.png)
+        ![Izmaiņu izsekošanas opcijas atlasīšana.](media/selfref_options.png)
 
     4. Atlasiet **Atspējot izmaiņu izsekošanu**.
 
-        ![Atspējot izmaiņu izsekošanu atlasīšana](media/selfref_tracking.png)
+        ![Atspējot izmaiņu izsekošanu atlasīšana.](media/selfref_tracking.png)
 
 3. Palaidiet sākotnējo kartēšanas sinhronizāciju attiecībā uz **Kreditori V2 (msdyn\_vendors)**. Sākotnējā sinhronizācija ir sekmīgi jāizpilda bez kļūdām.
 4. Palaidiet sākotnējo sinhronizāciju **CDS kontaktpersonas V2 (kontaktpersonas)** kartēšanai. Jums ir jāsinhronizē šis kartējums, ja vēlaties sinhronizēt primāro kontaktpersonu kolonnu kreditoru tabulā, tāpēc ka sākotnējā sinhronizācija jāveic arī kontaktu rindām.
@@ -162,11 +162,11 @@ Ja jebkādām rindām debitora tabulā ir vērtības kolonnās **ContactPersonID
     2. Meklējiet **kontaktpersonu**, lai atrastu avota kolonnu **ContactPersonID**.
     3. Atlasiet **Darbības** un pēc tam atlasiet **Dzēst**.
 
-        ![ContactPersonID kolonnas dzēšana](media/cust_selfref3.png)
+        ![ContactPersonID kolonnas dzēšana.](media/cust_selfref3.png)
 
     4. Atkārtojiet šos soļus, lai dzēstu kolonnu **InvoiceAccount**.
 
-        ![InvoiceAccount kolonnas dzēšana](media/cust_selfref4.png)
+        ![InvoiceAccount kolonnas dzēšana.](media/cust_selfref4.png)
 
     5. Saglabājiet jūsu izmaiņas kartējumā.
 
@@ -176,11 +176,11 @@ Ja jebkādām rindām debitora tabulā ir vērtības kolonnās **ContactPersonID
     2. Atlasiet tabulu **Dabitori V3**.
     3. Darbību rūtī atlasiet **Opcijas** un pēc tam atlasiet **Mainīt izsekošanu**.
 
-        ![Izmaiņu izsekošanas opcijas atlasīšana](media/selfref_options.png)
+        ![Izmaiņu izsekošanas opcijas atlasīšana.](media/selfref_options.png)
 
     4. Atlasiet **Atspējot izmaiņu izsekošanu**.
 
-        ![Atspējot izmaiņu izsekošanu atlasīšana](media/selfref_tracking.png)
+        ![Atspējot izmaiņu izsekošanu atlasīšana.](media/selfref_tracking.png)
 
 3. Palaidiet sākotnējo sinhronizāciju **Debitori V3 (konti)** kartēšanai. Sākotnējā sinhronizācija ir sekmīgi jāizpilda bez kļūdām.
 4. Palaidiet sākotnējo sinhronizāciju **CDS kontaktpersonas V2 (kontaktpersonas)** kartēšanai.
@@ -196,7 +196,7 @@ Ja jebkādām rindām debitora tabulā ir vērtības kolonnās **ContactPersonID
 
         Šajā attēlā ir parādīts projekts, kas atjaunina **CustomerAccount** un **ContactPersonId**.
 
-        ![Datu integrācijas projekts, lai atjauninātu CustomerAccount un ContactPersonId](media/cust_selfref6.png)
+        ![Datu integrācijas projekts, lai atjauninātu CustomerAccount un ContactPersonId.](media/cust_selfref6.png)
 
     2. Pievienojiet uzņēmuma kritērijus filtram Dataverse pusē, lai tiktu atjauninātas tikai tās rindas, kas atbilst filtra kritērijiem programmā Finance and Operations. Lai pievienotu filtru, atlasiet filtra pogu. Tad dialoglodziņā **Rediģēt vaicājumu** varat pievienot filtra vaicājumu, piemēram, **\_msdyn\_company\_value eq '\<guid\>'**. 
 
@@ -204,7 +204,7 @@ Ja jebkādām rindām debitora tabulā ir vērtības kolonnās **ContactPersonID
 
         Ja neievadāt filtra vaicājumu **\_msdyn\_company\_value**, visas rindas tiks sinhronizētas.
 
-        ![Filtra vaicājuma pievienošana](media/cust_selfref7.png)
+        ![Filtra vaicājuma pievienošana.](media/cust_selfref7.png)
 
     Rindu sākotnējā sinhronizācija tagad ir pabeigta.
 

@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: c3da7474f9a61e97ee11688a18cb91a5ad1ccb5c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e2369b17244525023541cdbd0a0da3f2a2a09b30
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791169"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355456"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>Klienta preču saņemšanas laika nišu izveidošana un atjaunināšana
 
@@ -34,7 +34,7 @@ Laika nišas funkcija sniedz mazumtirgotājiem veidu, kā definēt laika nišu k
 
 Sekojošajā attēlā parādīts laika nišas atlases piemērs e-tirdzniecības norēķināšanās laikā.
 
-![Laika nišas atlases piemērs e-tirdzniecības norēķināšanās laikā](../dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
+![Laika nišas atlases piemērs e-tirdzniecības norēķināšanās laikā.](../dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
 
 ## <a name="time-slot-properties"></a>Laika nišas rekvizīti
 
@@ -60,7 +60,7 @@ Laika niša tiek definēta, izmantojot šādus rekvizītus:
 - **Aktīvās dienas** - norādiet nedēļas dienas, kad saņemšanas laika nišas ir aktīvas. Šis rekvizīts ļauj mazumtirgotājam noteikt dienas, kad tas vēlas atbalstīt saņemšanas pasūtījumus.
 - **Mazumtirdzniecības kanāli** - norādiet mazumtirdzniecības kanālus. Katru laika nišu var saistīt ar vienu vai vairākiem mazumtirdzniecības veikaliem. Atkarībā no katra veikala darbības laika, var izveidot vienu vai vairākus laika nišas ierakstus un saistīt tos ar kanālu. 
 
-<!-- ![HQ Timeslot overview](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
+<!-- ![HQ Timeslot overview.](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
 
 Katram kanālam var konfigurēt tikai vienu laika nišas veidni. Šie kanāli ietver fiziskus veikalus, zvanu centrus, mobilās ierīces un e-komercijas vietnes.
 
@@ -85,14 +85,14 @@ Lai konfigurētu laika nišu līdzekli Commerce Headquarters, veiciet tālāk no
     > [!NOTE]
     > Varat izveidot vairākas veidnes, bet tikai vienu veidni var saistīt ar vienu kanālu vai veikalu.
 
-    ![Pasūtījuma saņemšana - laika iestatījumu dialoglodziņš](../dev-itpro/media/Curbside_timeslot_Settings_Page.PNG)
+    ![Pasūtījuma saņemšana - laika iestatījumu dialoglodziņš.](../dev-itpro/media/Curbside_timeslot_Settings_Page.PNG)
 
 1. Pēc pabeigšanas atlasiet **Labi**.
 1. Ja laika nišas dienā atšķirsies, izveidojiet papildu ierakstus kopsavilkuma cilnē **Pasūtījuma saņemšana - laika iestatījumi**, lai nodrošinātu, ka datumi un laiki nepārklājas.
 1. Kopsavilkuma cilnē **Mazumtirdzniecības kanāli** atlasiet **Pievienot**, lai saistītu laika nišas veidni ar veikaliem vai kanāliem, kuros tas tiks izmantots.
 1. Dialoglodziņā **Izvēlēties organizācijas mezglus**, izmantojiet bultiņu pogas, lai atlasītu (vai notīrītu izvēli) veikalus, reģionus un organizācijas, ar kurām veidne jāsaista.
 
-    <!-- ![HQ Timeslot overview](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
+    <!-- ![HQ Timeslot overview.](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
 
 1. Pēc pabeigšanas atlasiet **Labi**.
 1. Lapā **Sadales grafiks** palaidiet darbus **1070** un **1135**, lai sinhronizētu datus ar kanāliem.
@@ -103,7 +103,7 @@ Kad pasūtījuma vai pasūtījuma rinda ir identificēta izsniegšanai POS sist�
 
 Sekojošajā attēlā parādīts laika nišu atlases piemērs POS pasūtījumam.
 
-![Laika nišu atlases piemērs POS pasūtījumam](../dev-itpro/media/Curbside_timeslot_POS.png)
+![Laika nišu atlases piemērs POS pasūtījumam.](../dev-itpro/media/Curbside_timeslot_POS.png)
 
 ## <a name="time-slot-selection-for-e-commerce-orders"></a>Laika nišu atlase e-tirdzniecības pasūtījumiem
 
@@ -114,13 +114,13 @@ Informāciju par to, kā veikt laika nišu atlasi e-tirdzniecības pasūtījumie
 
 Sekojošajā attēlā redzams e-tirdzniecības pasūtījuma piemērs, kurā ir izvēlēta saņemšanas laika niša.
 
-![E-tirdzniecības pasūtījuma piemērs, kurā ir izvēlēta saņemšanas laika niša](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+![E-tirdzniecības pasūtījuma piemērs, kurā ir izvēlēta saņemšanas laika niša.](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
 
 ## <a name="time-slot-selection-for-call-center-orders"></a>Laika nišu atlase zvanu centra pasūtījumiem
 
 Zvanu centra programmā zvanu centra aģenti var atlasīt saņemšanas veikalu vai atrašanās vietu, kā arī datuma un laika nišu, kā parādīts šajā ilustrācijā.
 
-![Zvanu centra pasūtījuma piemērs, kurā ir izvēlēta saņemšanas laika niša](../dev-itpro/media/Curbside_timeslot_callcenter.png)
+![Zvanu centra pasūtījuma piemērs, kurā ir izvēlēta saņemšanas laika niša.](../dev-itpro/media/Curbside_timeslot_callcenter.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 

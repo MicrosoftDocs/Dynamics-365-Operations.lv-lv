@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 8b61e65d3a641a1e3d73192853c832d57ed17401
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 23da08f982639c9ba0ef847990979f73b96cac22
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021275"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345528"
 ---
 # <a name="archive-inventory-transactions"></a>Arhivēt krājumu transakcijas
 
@@ -64,7 +64,7 @@ Lai arhivētu krājumu darbības, izpildiet tālāk aprakstītos norādījumus.
 
     Parādās lapa **Krājumu darbību arhīvs**, kurā parādīts arhivēto procesu ierakstu saraksts.
 
-    ![Krājumu transakcijas arhīva lapa](media/archive-inventory-empty.png "Krājumu darbību arhīva lapa")
+    ![Krājumu transakcijas arhīva lapa.](media/archive-inventory-empty.png "Krājumu darbību arhīva lapa")
 
 1. Darbību rūtī atlasiet **Krājumu darbību arhīvs**, lai izveidotu krājumu darbību arhīvu.
 1. Kopsavilkuma cilnes **Parametri** dialoglodziņā **Krājumu darbību arhīvs** iestatiet šādus laukus:
@@ -72,7 +72,7 @@ Lai arhivētu krājumu darbības, izpildiet tālāk aprakstītos norādījumus.
     - **No datuma slēgtajā Virsgrāmatas periodā** – atlasiet agrāko darbības datumu, ko iekļaut arhīvā.
     - **Līdz datuma slēgtajā Virsgrāmatas periodā** – atlasiet jaunākās darbības datumu, ko iekļaut arhīvā.
 
-    ![Krājumu transakcijas arhīva dialoglodziņš](media/archive-inventory-dates.png "Krājumu darbību arhīva dialoglodziņš")
+    ![Krājumu transakcijas arhīva dialoglodziņš.](media/archive-inventory-dates.png "Krājumu darbību arhīva dialoglodziņš")
 
     > [!NOTE]
     > Atlasei būs pieejami tikai [priekšnosacījumiem](#prerequisites) atbilstošie periodi.
@@ -87,7 +87,7 @@ Lai arhivētu krājumu darbības, izpildiet tālāk aprakstītos norādījumus.
 
 Lapa **Krājumu darbību arhīvs** rāda visu arhivēšanas vēsturi. Katra režģa rinda rāda tādu informāciju kā arhīva izveidošanas datumu, lietotāju, kas to izveidoja, un tā statusu.
 
-![Vēstures arhivēšana Krājumu darbību arhīva lapā](media/archive-inventory-full.png "Vēstures arhivēšana Krājumu darbību arhīva lapā")
+![Vēstures arhivēšana Krājumu darbību arhīva lapā.](media/archive-inventory-full.png "Vēstures arhivēšana Krājumu darbību arhīva lapā")
 
 Nolaižamajā sarakstā lapas augšpusē atlasiet vienu no šīm vērtībām, lai filtrētu režģī parādītos arhīvus:
 
@@ -109,7 +109,7 @@ Rīkjosla virs režģa nodrošina šādas pogas, kuras var izmantot darbam ar at
 
 - **Arhivētās darbības** – apskatiet visas izvēlētā arhīva detaļas. **Arhivēto darbību** lapa, kurā parādītas visas arhīva darbības.
 
-    ![Arhivēto darbību lapa](media/archive-inventory-transactions.png "Arhivēto darbību lapa")
+    ![Arhivēto darbību lapa.](media/archive-inventory-transactions.png "Arhivēto darbību lapa")
 
     Lai skatītu papildinformāciju par noteiktu darbību lapā **Arhivētās darbības**, atlasiet to režģī un pēc tam darbību rūtī atlasiet **Arhivētās darbības detaļas**. Lapa **Arhivēto darbību detaļas**, kas parādās, parāda tādu informāciju kā grāmatošana Virsgrāmatā, saistītās apakšgrāmatas atsauces un finanšu dimensijas.
 

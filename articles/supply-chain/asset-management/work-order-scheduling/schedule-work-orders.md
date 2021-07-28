@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5f5cfdcb5e930d2dc5830ad7cd9c85c88b3d40f7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7fa0b6f315008e6af774470c775bd34106201b16
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813753"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347120"
 ---
 # <a name="schedule-work-orders"></a>Plānot darba pasūtījumus
 
@@ -56,7 +56,7 @@ Var ieplānot tikai tos darba pasūtījumus, kuriem ir tāds darba pasūtījuma 
 
 *Piemērs:* tālāk dotajā attēlā formula, kas ievietota laukā **Paredzētais sākums**, ģenerēs darba pasūtījumu plānošanu visiem darba pasūtījumiem ar paredzēto sākuma datumu nedēļu no šī brīža un vēlāk. Šī formula var būt noderīga, ja palaižat darba pasūtījumu plānošanu pastāvīgi, bet vēlaties pārliecināties, ka darba pasūtījumi, kas ieplānoti nākamajām 5–6 dienām, netiks pārplānoti.
 
-![1. attēls](media/03-work-order-scheduling.png)
+![1. attēls.](media/03-work-order-scheduling.png)
 
 Darba pasūtījuma tips, kas saistīts ar darba pasūtījumiem, var iestatīt plānošanu vienam uzturēšanas speciālistam (**Līdzekļu pārvaldība** > **Iestatīšana** > **Darba pasūtījumi** > **Darba pasūtījumu tipi** > **Viena uzturēšanas speciālists** pārslēgšanas pogai ir iestatīta uz “Jā”). Tas nozīmē, ka, ja darba pasūtījuma tips tiek izmantots darba pasūtījumā, pārslēgšanas poga **Viens uzturēšanas speciālists** automātiski tiek iestatīta uz “Jā” detalizētas informācijas lapā **Visi darba pasūtījumi** > skatā **Virsraksta** > kopsavilkuma cilnē **Ieplānot**. Darba pasūtījuma plānošanas laikā visi darba pasūtījuma uzdevumi, kas izveidoti darba pasūtījumā, pēc tam tiks ieplānoti vienam un tam pašam uzturēšanas speciālistam. Ja nepieciešams, varat rediģēt atlasi ar pārslēgšanas pogu **Viens uzturēšanas speciālists** sadaļā **Visi darba pasūtījumi**, lai atļautu vairāku vai vienu darbinieku ieplānošanu darba pasūtījuma uzdevumiem.
 
@@ -81,9 +81,9 @@ Tālāk norādītajos piemēros kritiskais rādītājs ir “2”, un pakalpojum
 
 | Darba pasūtījuma ID | Plānotais sākuma datums | Darba pasūtījuma kritiskums | Darba pasūtījuma pakalpojuma līmenis | Aprēķins               | Skaits      |
 |---------------|---------------------|------------------------|--------------------------|---------------------------|------------|
-| WO-00010816   | Rītdien            | 2.                      | 20              | (-1 \* 10) + (2 \* 2) + 5 / 20     | \- 5.75    |
-| WO-00010817   | Divas dienas no šodienas   | 2.                      | 20              | (-2 \* 10) + (2 \* 2) + 5 / 20     | \- 15.75   |
-| WO-00010818   | Divas dienas no šodienas   | 3.                      | 5               | (-2 \* 10) + (2 \* 3) + 5 / 5      | \- 13      |
+| WO-00010816   | Rītdien            | 2.                      | 20              | (-1 \* 10) + (2 \* 2) + 5 / 20     | \- 5.75    |
+| WO-00010817   | Divas dienas no šodienas   | 2.                      | 20              | (-2 \* 10) + (2 \* 2) + 5 / 20     | \- 15.75   |
+| WO-00010818   | Divas dienas no šodienas   | 3.                      | 5               | (-2 \* 10) + (2 \* 3) + 5 / 5      | \- 13      |
 
 Darba pasūtījumi tiks ieplānoti tālāk norādītajā secībā: WO-000108 **16**, WO-000108 **18**, WO-000108 **17**.
 
@@ -91,8 +91,8 @@ Darba pasūtījumi tiks ieplānoti tālāk norādītajā secībā: WO-000108 **1
 
 | Darba pasūtījuma ID | Plānotais sākuma datums | Darba pasūtījuma kritiskums | Darba pasūtījuma pakalpojuma līmenis | Aprēķins                 | Skaits    |
 |---------------|---------------------|------------------------|---------------------|----------------------------------|----------|
-| WO-00010816   | Rītdien            | 2.                      | 20                  | (-1 \* 10) + (2 \* 2) + 100 / 20 | \- 1     |
-| WO-00010817   | Divas dienas no šodienas   | 2.                      | 20                  | (-2 \* 10) + (2 \* 2) + 100 / 20 | \- 11    |
+| WO-00010816   | Rītdien            | 2.                      | 20                  | (-1 \* 10) + (2 \* 2) + 100 / 20 | \- 1     |
+| WO-00010817   | Divas dienas no šodienas   | 2.                      | 20                  | (-2 \* 10) + (2 \* 2) + 100 / 20 | \- 11    |
 | WO-00010818   | Divas dienas no šodienas   | 3.                      | 5                   | (-2 \* 10) + (2 \* 3) + 100 / 5  | 6        |
 
 Ja pakalpojuma līmeņa rādītājs tiek palielināts līdz “100”, nevis “5”, tad plānošanas kārtība būs: WO-000108 **18**, WO-000108 **16**, WO-000108 **17**.

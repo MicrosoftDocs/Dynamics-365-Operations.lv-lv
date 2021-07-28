@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: acf5ead6ed90d4dbb41de08520cde8085a7f3935
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c58a5bfbc140eb770415a96d1d9c5748e3e2d132
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823720"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350028"
 ---
 # <a name="enable-delayed-tax-calculation-on-journals"></a>Iespējot nokavētā nodokļa aprēķinu žurnālos
 [!include [banner](../includes/banner.md)]
@@ -45,14 +45,14 @@ Sistēma piešķir prioritāti žurnāla virsraksta iestatījumam. Pēc noklusē
 1. Dodieties uz **Virsgrāmata \> Virsgrāmatas iestatīšana \> Virsgrāmatas parametri**.
 2. Cilnes **PVN** kopsavilkuma cilnē **Vispārīgi** iestatiet opcijas **Aizkavētais nodokļa aprēķins** vērtību uz **Jā**.
 
-![Virsgrāmatas parametru attēls](media/delayed-tax-calculation-gl.png)
+![Virsgrāmatas parametru attēls.](media/delayed-tax-calculation-gl.png)
 
 ## <a name="turn-on-delayed-tax-calculation-at-the-journal-name-level"></a>Ieslēgt aizkavēto nodokļa aprēķinu žurnāla nosaukuma līmenī
 
 1. Dodieties uz **Virsgrāmata \> Žurnāla iestatīšana \> Žurnālu nosaukumi**.
 2. Kopsavilkuma cilnes **Vispārīgi** sadaļā **PVN** iestatiet opcijas **Aizkavētais nodokļa aprēķins** vērtību uz **Jā**.
 
-![Žurnālu nosaukumu attēls](media/delayed-tax-calculation-journal-name.png)
+![Žurnālu nosaukumu attēls.](media/delayed-tax-calculation-journal-name.png)
 
 ## <a name="turn-on-delayed-tax-calculation-at-the-journal-header-level"></a>Ieslēgt aizkavēto nodokļa aprēķinu žurnāla virsraksta līmenī
 
@@ -61,7 +61,7 @@ Sistēma piešķir prioritāti žurnāla virsraksta iestatījumam. Pēc noklusē
 3. Atlasiet žurnāla nosaukumu.
 4. Cilnē **Iestatīšana** iestatiet opciju **Aizkavētais nodokļa aprēķins** uz **Jā**.
 
-![Virsgrāmatas žurnāla lapas attēls](media/delayed-tax-calculation-journal-header.png)
+![Virsgrāmatas žurnāla lapas attēls.](media/delayed-tax-calculation-journal-header.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

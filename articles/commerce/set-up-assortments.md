@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bbe7749e6c8293ded933611d6f1084b89223302c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 447c5f580e5d925efbfeaabc3890e2d67f9688f5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790986"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344351"
 ---
 # <a name="set-up-assortments"></a>Iestatīt preču klāstus
 
@@ -31,7 +31,7 @@ ms.locfileid: "5790986"
 
 Preču klāsts ir saistīto preču grupa, ko piešķirat komercijas kanālam, piemēram, fiziskam vai tiešsaistes veikalam. Preču klāsti tiek izmantoti, lai norādītu preces, kas ir pieejamas katrā veikalā. Preču klāstā var ietvert preču kategorijas. Tāpēc visas preces, kas ir piešķirtas noteiktai kategorijai, ir ietvertas preču klāstā. Preču klāstā var ietvert arī noteiktas preces un noteiktus preču variantus. Iestatot preču klāstu, varat saviem kanāliem vienlaikus piešķirt tūkstošiem produktu jebkādā kombinācijā, kas ir nepieciešama veikalos. Varat iestatīt tik daudz preču klāstu, cik ir nepieciešams. Katru preci var iekļaut vienā vai vairākos preču klāstos, un katru preču klāstu var piešķirt vienam vai vairākiem kanāliem. Piemēram, jūs definējat vienu preču klāstu, kas ietver preču pamata kopu. Visi veikali saņem šo preču klāstu. Pēc tam jūs definējat citu preču klāstu, kas ietver tikai lielu sporta aprīkojumu. Šo preču klāstu saņem tikai lielākie veikali. Tālāk esošajā diagrammā ir redzams, kā preces var piešķirt preču klāstiem un kā šos preču klāstus var piešķirt kanāliem.
 
-![Preču klāsta attiecības](./media/assortments_relationship.gif)
+![Preču klāsta attiecības.](./media/assortments_relationship.gif)
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 

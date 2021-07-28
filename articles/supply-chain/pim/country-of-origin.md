@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: b07747752dd09f39c3a7a9a647cc3d10cc4b5cc7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2f97a003ab35192d164741ef2e6b6597d3df46b6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829550"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358789"
 ---
 # <a name="country-of-origin"></a>Izcelsmes valsts/reģions
 
@@ -86,7 +86,7 @@ Lai iestatītu sertifikāta informāciju, veiciet tālāk norādītās darbības
 
 Tiek ģenerēts un parādīts pārskats, kas parāda informāciju par katras daļas izcelsmes valsti/reģion. Tālāk ir sniegts pārskata piemērs.
 
-![Izcelsmes valsts/reģiona pārskats](media/country-of-origin-report.png "Izcelsmes valsts/reģiona pārskats")
+![Izcelsmes valsts/reģiona pārskats.](media/country-of-origin-report.png "Izcelsmes valsts/reģiona pārskats")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

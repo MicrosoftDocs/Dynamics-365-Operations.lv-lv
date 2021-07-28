@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: edc6da8a54de98696322ace67ada5dfe97af2024
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 1c8a6b4152215bc912d99f2f4c250defa75278c3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189948"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356931"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Papildināšana ar atvilkumu Kanban
 
@@ -35,9 +35,9 @@ Atvilkumu Kanban darbus var izmantot, lai viena krājuma Kanban darbu pārvietot
 
 Nākamajā scenārijā ir parādīta uz vilkšanu balstīta papildināšanas sistēma, kur vilkšanas signāls aktivizē Kanban izveidošanu kāda ražošanas procesa materiālu papildināšanai. 
 
-[![Vilkšanas signāls aktivizē Kanban izveidošanu kāda ražošanas procesa materiālu papildināšanai](./media/material-replenishment-with-withdrawal-kanban.png)](./media/material-replenishment-with-withdrawal-kanban.png)
+[![Vilkšanas signāls aktivizē Kanban izveidošanu kāda ražošanas procesa materiālu papildināšanai.](./media/material-replenishment-with-withdrawal-kanban.png)](./media/material-replenishment-with-withdrawal-kanban.png)
 
-1.  Atvilkumu Kanban
+1.  Ieturēšanas Kanban
 2.  Kanban novietojums “no” un izvietošanas novietojums noliktavas darbam
 3.  Kanban novietojums “uz” un ražošanas ievades novietojums
 4.  Ražošanas process
@@ -72,7 +72,7 @@ Ja attālums starp noliktavu novietojumiem un ražošanas ievades novietojumu ir
 
 Nākamajā scenārijā atvilkumu Kanban pārsūtīšanas aktivitāte ir konfigurēta tā, lai pārsūtītu starp diviem novietojumiem vienā un tajā pašā noliktavā. Atvilkumu Kanban pārsūtīšanas aktivitāte ir iestatīta tā, lai tā tiktu izpildīta automātiski. 
 
-[![Pārsūtīšanas aktivitāte tiek automātiski izpildīta, kad tiek apstrādāts Kanban izdošanas darbs](./media/transfer-activities-when-processing-kanban-picking.png)](./media/transfer-activities-when-processing-kanban-picking.png)
+[![Pārsūtīšanas aktivitāte tiek automātiski izpildīta, kad tiek apstrādāts Kanban izdošanas darbs.](./media/transfer-activities-when-processing-kanban-picking.png)](./media/transfer-activities-when-processing-kanban-picking.png)
 
 1.  Kopīga noliktavu izejmateriāliem un ražošanai
 2.  Noliktavas novietojumi izejmateriāliem

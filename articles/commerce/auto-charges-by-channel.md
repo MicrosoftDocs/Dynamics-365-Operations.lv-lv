@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 23d02cf96faf3753303435acc148bf71e487d791
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c38717ca9c57913ea22f2dd7712b49f39d2e556e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799920"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349702"
 ---
 # <a name="enable-and-configure-auto-charges-by-channel"></a>Automātisko maksu iespējošana un konfigurēšana katram kanālam
 
@@ -66,7 +66,7 @@ Lai piešķirtu noklusējuma hierarhiju uzņēmuma hierarhijas mērķim programm
 1. Darbību rūtī atlasiet **Palaist tagad**.
 1. Atkārtojiet iepriekšējos divus soļus, lai palaistu **1070** (**Kanāla konfigurācija**) un **1110** (**Globālā konfigurācija**) darbus.
 
-![Mazumtirdzniecības automātiskās izmaksas organizācijas hierarhijas nolūka konfigurācija](media/Auto-charges-org-hierarchy-purpose.png)
+![Mazumtirdzniecības automātiskās izmaksas organizācijas hierarhijas nolūka konfigurācija.](media/Auto-charges-org-hierarchy-purpose.png)
 
 ## <a name="define-auto-charges-by-channel"></a>Definēt automātiskās izmaksas pēc kanāla
 
@@ -74,7 +74,7 @@ Pēc tam, kad esat ieslēdzis līdzekli **Iespējot filtra automātiskās izmaks
 
 Lai definētu automātiskās izmaksas pēc kanāla programmā Commerce, veiciet šādas darbības.
 
-1. Pārejiet uz sadaļu **Debitori \> Izmaksu iestatīšana \> Automātiskās izmaksas**.
+1. Pārejiet uz sadaļu **Debitori \> Izmaksu iestatīšana \> Automātiskās izmaksas**.
 1. Kreisajā rūtī laukā **Līmenis** izvēlieties vai nu **Galveni** vai **Rindu** atkarībā no jūsu biznesa vajadzībām.
 1. Laukā **Mazumtirdzniecības kanāla kods** izvēlieties atbilstošo kanāla kodu (piemēram, **Tabula** vai **Grupa**). Ja tiek izmantots noklusētais iestatījums **Visi**, izmaksas noteikumi tiek piemēroti visiem kanāliem.
 
@@ -86,15 +86,15 @@ Lai definētu automātiskās izmaksas pēc kanāla programmā Commerce, veiciet 
 1. Darbību rūtī atlasiet **Palaist tagad**.
 1. Atkārtojiet iepriekšējos divus soļus, lai palaistu **1070** (**Kanāla konfigurācija**) un **1110** (**Globālā konfigurācija**) darbus.
     
-![Automātiskās izmaksas definētas pēc kanāla](media/Auto-charges-line-charge-by-channel.png)
+![Automātiskās izmaksas definētas pēc kanāla.](media/Auto-charges-line-charge-by-channel.png)
 
-## <a name="example-scenario"></a>Piemēra situācija
+## <a name="example-scenario"></a>Piemērs
 
 Sekojošajā piemērā aprakstīti soļi, kas nepieciešami preces konfigurēšanai, lai otrreizējās pārstrādes izmaksas tiktu iekasētas, kad prece tiek pārdota, izmantojot Sanfrancisko faktiskās pārdošanas kanālu. Piemērā ir arī parādīts, kā automātiskās izmaksas parādās Commerce pārdošanas punkta (POS) programmā.
 
 Organizācija nosaka izmaksu kodu ar nosaukumu **PĀRSTRĀDE**, kā parādīts sekojošajā ilustrācijā.
 
-![PĀRSTRĀDES izmaksu kods](media/Auto-charges-charge-code.png)
+![PĀRSTRĀDES izmaksu kods.](media/Auto-charges-charge-code.png)
 
 Automātiska izmaksa ir izveidota rindas līmenī. Tai ir tālāk minētā konfigurācija:
 
@@ -112,13 +112,13 @@ Tiek izveidota automātiskā izmaksu rinda. Tai ir tālāk minētā konfigurāci
 - Lauks **Kategorija** ir iestatīts uz **Fiksēts**.
 - Lauks **Izmaksas** ir iestatīts uz **$6.25**.
 
-![Rindas līmeņa automātiskās izmaksas un automātiskās izmaksas rindas konfigurācija](media/Auto-charges-recyclingfee-line-fee.png)
+![Rindas līmeņa automātiskās izmaksas un automātiskās izmaksas rindas konfigurācija.](media/Auto-charges-recyclingfee-line-fee.png)
 
 POS programmā ir izveidots pārdošanas pasūtījums **Sanfrancisko** veikala kanālā. **Izmaksu** rindā ir redzama pārstrādes izmaksa **$6.25**.
 
 Atlasot **Transakciju opcijas \> Izmaksas \> Pārvaldīt maksas** POS programmā, varat skatīt izmaksu kodu un aprakstu par pārstrādes izmaksu.
 
-![Otrreizējās pārstrādes maksa POS programmā](media/pos-auto-charges-recyclingfee-line-fee.png)
+![Otrreizējās pārstrādes maksa POS programmā.](media/pos-auto-charges-recyclingfee-line-fee.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 

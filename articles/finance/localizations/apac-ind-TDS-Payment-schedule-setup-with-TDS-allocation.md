@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 47551f52f35fec5ae49d696e3f4027b7d2eb2e19
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 27f6750dd91a211ad12a1bd5d9c4ab9a2e1e4a79
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023426"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358414"
 ---
 # <a name="set-up-payment-schedules-with-tds-allocation"></a>Iestatīt maksājumu grafikus ar TDS sadalījumu
 
@@ -31,7 +31,7 @@ ms.locfileid: "6023426"
 
 1. Dodieties uz **Kreditori \> Maksājuma iestatījumi \> Maksājuma grafiki**.
 
-    [![Maksājumu grafiku lapa](./media/apac-ind-TDS-27.png)](./media/apac-ind-TDS-27.png)
+    [![Maksājumu grafiku lapa.](./media/apac-ind-TDS-27.png)](./media/apac-ind-TDS-27.png)
 
 2. Darbību rūtī atlasiet **Jauns**, lai izveidotu maksājuma grafiku, un ievadiet nepieciešamo informāciju.
 3. Laukā **Sadalījums** atlasiet metodi, ko izmantot maksājuma grafika sadalīšanai:

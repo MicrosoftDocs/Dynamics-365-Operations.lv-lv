@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1b4673631f9c7d2310d8bdb08e0b25027bc8dedf
-ms.sourcegitcommit: 4c880b152e81350f023b944c2ab13e60498e2c7b
+ms.openlocfilehash: f7679afa29e5e4ef8482c71558275297d7359362
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6093924"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351661"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Piemērotības kārtulu un opciju konfigurēšana
 
@@ -137,20 +137,20 @@ Varat definēt kārtulas, kurās ir vairāki kritēriji. Kad definējat vairāku
 
 Piemēram, **Aktīvo darbinieku** kārtula tiek veidota no šādiem kritērijiem. Lai darbinieks būtu piemērots, pamatojoties uz **Aktīvo darbinieku** kārtulu, darbiniekam jābūt nodarbinātam juridiskajā amatā USMF *un* jābūt pilnas laika amata tipam.  
 
-![Kritēriji piemērotības kārtulai](media/CriteriaWithinAnEligibilityRule.png) 
+![Kritēriji piemērotības kārtulai.](media/CriteriaWithinAnEligibilityRule.png) 
  
 ### <a name="multiple-conditions-within-criteria"></a>Vairāki nosacījumi kritērijos
 
 Kārtulas var papildus izvērst, lai vienā kritērijā izmantotu vairākus nosacījumus. Darbiniekam ir jāatbilst vismaz vienam nosacījumam, lai varētu tikt piemērots. Lai izveidotu iepriekšminētajā piemērā, **Aktīvo darbinieku** kārtulu var papildus paplašināt, lai iekļautu darbiniekus, kas arī ir nepilna laika darbinieki. Tā rezultātā darbiniekam jābūt darbiniekam USMF *un* vai nu pilnas laika, vai nepilnas laika darbiniekam.  
 
-![Vairāki nosacījumi kritērijos](media/MultipleConditionsWithinCriteria.png) 
+![Vairāki nosacījumi kritērijos.](media/MultipleConditionsWithinCriteria.png) 
  
 ### <a name="eligibility-conditions-within-a-custom-field-criterion"></a>Piemērotības nosacījumi pielāgotā lauka kritērijā 
 Līdzīgi iepriekš pielāgotos laukus var izmantot, veidojot piemērotības nosacījumus un strādāt vienādā veidā. Piemēram, varat piedāvāt interneta kompensāciju Fargo vai Kopenhāgenas darbiniekiem, kas strādā no mājām, jo šajās vietās interneta izmaksas ir augstākas. Lai to izdarītu, izveidojiet divus pielāgotos laukus: **Biroja atrašanās vieta** (izdošanas veidlapa) un **Darbs no mājām** (izvēles rūtiņa). Pēc tam izveidojiet kārtulu ar nosaukumu **WFH darbinieki**. Kārtulas kritērijs ir vieta, kur **Biroja atrašanās vieta = Fargo** vai **Kopenhāgena** *un*, kur **Darbs no mājām = Jā**.
 
 Pielāgotās piemērotības kārtulas būtu jāiestata kā norādīts šajā attēlā. 
 
-![Piemērotības nosacījumi pielāgotā lauka kritērijā](media/EligibilityConditionsWithinACustomFieldCriterion.png) 
+![Piemērotības nosacījumi pielāgotā lauka kritērijā.](media/EligibilityConditionsWithinACustomFieldCriterion.png) 
  
 ## <a name="configure-bundles"></a>Pakešu konfigurācija
 

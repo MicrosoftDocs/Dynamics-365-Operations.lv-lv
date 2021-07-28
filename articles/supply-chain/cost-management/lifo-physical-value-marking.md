@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 294c7bbb328c31c6c3fdc16a72267224d7c71b27
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dcac72a60eac6abb29a017eb4ce02a71dca572d3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809738"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344548"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>LIFO ar fizisko vērtību un iezīmēšanu
 
@@ -53,7 +53,7 @@ Tālākie piemēri parāda LIFO ietekmi, to lietojot trīs dažādos konfigurāc
 
 Jaunā faktiskā vidējo izmaksu cena attiecas uz finansiāli atjaunināto transakciju vidējo vērtību USD 15,00. Nākamajā attēlā ir parādīta LIFO krājumu modeļa ietekme uz šo transakciju sēriju, ja netiek izmantota opcija **Iekļaut fizisko vērtību**. 
 
-![LIFO bez fizisko vērtību iekļaušanas](./media/lifowithoutincludephysicalvalue.gif) 
+![LIFO bez fizisko vērtību iekļaušanas.](./media/lifowithoutincludephysicalvalue.gif) 
 
 **Diagrammas atslēga**
 
@@ -89,7 +89,7 @@ Transakcija 6a tiek koriģēta atbilstoši saņemšanas transakcijai 4b. Sistēm
 
 Sekojošā ilustrācija parāda LIFO krājumu modeļa ietekmi uz šo darbību sēriju, kad tiek izmantota opcija **Iekļaut fizisko vērtību**. 
 
-![LIFO ar fizisko vērtību iekļaušanu](./media/lifowithincludephysicalvalue.gif) 
+![LIFO ar fizisko vērtību iekļaušanu.](./media/lifowithincludephysicalvalue.gif) 
 
 **Diagrammas atslēga**
 
@@ -133,9 +133,9 @@ Jauna spēkā esošā vidējā izmaksu cena attēlo finansiāli vai fiziski atja
 
 Sekojošajā ilustrācijā redzama šī darījumu sērija ar ietekmi, ko rada LIFO krājumu modeļa izvēle ar nozīmēšanu starp izsniegšanas un saņemšanas darījumiem. 
 
-![LIFO ar apzīmējumu](./media/lifowithmarking.gif) 
+![LIFO ar apzīmējumu.](./media/lifowithmarking.gif) 
 
-**Diagrammas atslēga**
+**Diagrammas apzīmējumi**
 
 - Krājuma darbības ir atzīmētas ar vertikālām bultām.
 - Krājuma saņemšana ir atzīmēta ar vertikālām bultām virs laika skalas.

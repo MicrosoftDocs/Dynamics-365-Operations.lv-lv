@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 088f1b13e20602345dbec5179c343e27be9cec44
-ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
+ms.openlocfilehash: 3774a6258fcefb361c5c2ed709dd7700b1dc071d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "6085504"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351156"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektroniskās pārskatu veidošanas (ER) adresāti
 
@@ -62,7 +62,7 @@ Iestatot opciju **Partijas apstrāde** uz **Jā**, ER formāts tiek palaists [pa
 > [!NOTE]
 > Darba apraksts tiek uzsākts, lai informētu par ER formāta kartēšanas izpildi. Tajā ir ietvertas arī izpildīto ER komponentu nosaukums.
 
-[![Palaist ER formātu](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
+[![Palaist ER formātu.](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
 
 Informāciju par šo darbu varat atrast vairākās vietās:
 
@@ -74,17 +74,17 @@ Informāciju par šo darbu varat atrast vairākās vietās:
 
 - Lapā **Elektronisko pārskatu izveides darbi** atlasiet **Rādīt failus**, lai skatītu visu to kļūdu un brīdinājumu sarakstu, kas tika izveidoti darba izpildes laikā.
 
-    [![Pārskatīt ER darbu sarakstu](./media/ER_Destinations-ReviewERJobs.png)](./media/ER_Destinations-ReviewERJobs.png)
+    [![Pārskatīt ER darbu sarakstu.](./media/ER_Destinations-ReviewERJobs.png)](./media/ER_Destinations-ReviewERJobs.png)
 
 ### <a name="user-configured-behavior"></a>Lietotāja konfigurēta uzvedība
 
 Lapā **Elektronisko pārskatu galamērķis** varat ignorēt konfigurācijas noklusējuma uzvedību. Importētās konfigurācijas šajā lapā tiek rādītas tikai pēc tam, kad atlasāt **Jauns** un laukā **Atsauce** atlasāt konfigurāciju, kurai izveidot galamērķa iestatījumus.
 
-[![Konfigurācijas atlasīšana laukā Atsauce](./media/ER_Destinations-SelectFormat.png)](./media/ER_Destinations-SelectFormat.png)
+[![Konfigurācijas atlasīšana laukā Atsauce.](./media/ER_Destinations-SelectFormat.png)](./media/ER_Destinations-SelectFormat.png)
 
 Kad esat izveidojis atsauci, varat izveidot faila galamērķi katram atsaucē minētā ER formāta **Mapes** vai **Faila** izvades komponentam.
 
-[![Faili galamērķa izveidošana](./media/ER_Destinations-ConfigureElementDestination.png)](./media/ER_Destinations-ConfigureElementDestination.png)
+[![Faili galamērķa izveidošana.](./media/ER_Destinations-ConfigureElementDestination.png)](./media/ER_Destinations-ConfigureElementDestination.png)
 
 Pēc tam dialoglodziņā **Galamērķa iestatījumi** faila galamērķim varat iespējot un atspējot atsevišķus galamērķus. Poga **Iestatījumi** tiek izmantota, lai kontrolētu visus galamērķus atlasītajam failu galamērķim. Dialoglodziņā **Galamērķa iestatījumi** varat kontrolēt katru galamērķi atsevišķi, iestatot tam opciju **Iespējots**.
 
@@ -92,7 +92,7 @@ Finance versijās **pirms versijas 10.0.9** varat izveidot **viena faila galamē
 
 Piemēram, varat izmantot šo iespēju, lai konfigurētu faila galamērķus faila komponentam, kas tiek izmantots izejošā dokumenta ģenerēšanai Excel formātā. Vienu galamērķi ([Arhīvs](er-destination-type-archive.md)) var konfigurēt, lai uzglabātu oriģinālo Excel failu ER darbu arhīvā, un citu galamērķi ([E-pastu](er-destination-type-email.md)) var konfigurēt, lai vienlaikus [konvertētu](#OutputConversionToPDF) Excel failu PDF formātā un nosūtītu PDF failu pa e-pastu.
 
-[![Vairāku galamērķu konfigurēšana viena formāta elementam](./media/ER_Destinations-SampleDestinations.png)](./media/ER_Destinations-SampleDestinations.png)
+[![Vairāku galamērķu konfigurēšana viena formāta elementam.](./media/ER_Destinations-SampleDestinations.png)](./media/ER_Destinations-SampleDestinations.png)
 
 Kad jūs darbināt ER formātu, vienmēr tiek palaisti visi adresāti, kas tika konfigurēti formāta komponentiem. Turklāt finanšu versijā **10.0.17 un vēlāk** ER mērķa funkcionalitāte ir uzlabota un tagad ļauj konfigurēt dažādas adresātu kopas vienam ER formātam. Šī konfigurācija atzīmē katru kopu kā konfigurētu konkrētai lietotāja darbībai. ER API ir [paplašināts](er-apis-app10-0-17.md), lai var nodrošināt darbību, ko lietotājs veic, izpildot ER formātu. Nodrošinātais darbības kods tiek nodots ER adresātiem. Atkarībā no nodrošinātā darbības koda varat palaist dažādus ER formāta adresātus. Papildinformāciju skatiet sadaļā [No darbības atkarīgu ER adresātu konfigurēšana](er-action-dependent-destinations.md).
 
@@ -116,11 +116,11 @@ Varat iestatīt galamērķus tikai ER konfigurācijām, kas ir importētas, un f
 
 Konfigurējot failu galamērķus atlasītajam formātam, konfigurējiet tos visam formātam.
 
-[![Konfigurācijas saite](./media/ER_Destinations-ConfigurationLink.png)](./media/ER_Destinations-ConfigurationLink.png)
+[![Konfigurācijas saite.](./media/ER_Destinations-ConfigurationLink.png)](./media/ER_Destinations-ConfigurationLink.png)
 
 Tajā pašā laikā, iespējams, ir vairākas tā formāta [versijas](general-electronic-reporting.md#component-versioning), kas importētas pašreizējā Finance instancē. Tos var apskatīt, atlasot saiti **Konfigurācija**, kas tiek piedāvāta, atlasot lauku **Atsauce**.
 
-[![Konfigurācijas versijas](./media/ER_Destinations-ConfigurationVersions.png)](./media/ER_Destinations-ConfigurationVersions.png)
+[![Konfigurācijas versijas.](./media/ER_Destinations-ConfigurationVersions.png)](./media/ER_Destinations-ConfigurationVersions.png)
 
 Pēc noklusējuma konfigurētie galamērķi tiek piemēroti tikai tad, kad palaižat ER formāta versiju ar statusu **Pabeigts** vai **Koplietots**. Tomēr dažreiz konfigurētie galamērķi jāizmanto, kad tiek palaista ER formāta melnraksta versija. Piemēram, jūs modificējiet sava formāta melnraksta versiju un vēlaties izmantot konfigurētos galamērķus, lai pārbaudītu, kā tiek piegādāta ģenerētā izvade. Izpildiet tālāk norādītās darbības, lai pielietotu ER formāta galamērķus, kad tiek palaista melnraksta versija.
 
@@ -128,7 +128,7 @@ Pēc noklusējuma konfigurētie galamērķi tiek piemēroti tikai tad, kad palai
 2. Lapas **Konfigurācijas** darbību rūtī, cilnē **Konfigurācijas**, grupā **Papildu iestatījumi** atlasiet vienumu **Lietotāja parametri**.
 3. Iestatiet opciju **Izmantot galamērķus melnraksta statusam** uz **Jā**.
 
-[![Opcija Izmantot galamērķus melnraksta statusam](./media/ER_Destinations-UserSetting1.png)](./media/ER_Destinations-UserSetting1.png)
+[![Opcija Izmantot galamērķus melnraksta statusam.](./media/ER_Destinations-UserSetting1.png)](./media/ER_Destinations-UserSetting1.png)
 
 Lai izmantotu ER formāta melnraksta versiju, jums attiecīgi jāatzīmē ER formāts.
 
@@ -136,11 +136,11 @@ Lai izmantotu ER formāta melnraksta versiju, jums attiecīgi jāatzīmē ER for
 2. Lapas **Konfigurācijas** darbību rūtī, cilnē **Konfigurācijas**, grupā **Papildu iestatījumi** atlasiet vienumu **Lietotāja parametri**.
 3. Atlasiet opcijai **Palaist iestatījumu** iestatījumu **Jā**.
 
-[![Palaist iestatījuma opciju](./media/ER_Destinations-UserSetting2.png)](./media/ER_Destinations-UserSetting2.png)
+[![Palaist iestatījuma opciju.](./media/ER_Destinations-UserSetting2.png)](./media/ER_Destinations-UserSetting2.png)
 
 Pēc šīs iestatīšanas pabeigšanas opcija **Palaist melnrakstu** kļūst pieejama ER formātiem, ko jūs modificējat. Iestatiet šo opciju kā **Jā**, lai sāktu izmantot formāta melnraksta versiju, kad tiek palaists formāts.
 
-[![Palaist melnraksta opciju](./media/ER_Destinations-FormatSetting.png)](./media/ER_Destinations-FormatSetting.png)
+[![Palaist melnraksta opciju.](./media/ER_Destinations-FormatSetting.png)](./media/ER_Destinations-FormatSetting.png)
 
 ## <a name="destination-failure-handling"></a><a name="DestinationFailure"></a>Galamērķa kļūmes apstrāde
 
@@ -148,7 +148,7 @@ Parasti ER formāts tiek palaists noteiktā biznesa procesa tvērumā. Tomēr, t
 
 Piemēram, jūs konfigurējiet kreditora maksājumu apstrādi tā, lai tiktu palaists **ISO20022 pārvietošana kredītā** ER formāts, lai ģenerētu maksājuma failu un papildu dokumentus (piemēram, pavadvēstuli un kontroles pārskatu). Ja maksājums ir jāuzskata par sekmīgu apstrādātu tikai tad, ja pavadvēstule tiek veiksmīgi piegādāta pa e-pastu, jāatlasa izvēles rūtiņa **Pārtraukt apstrādi kļūmes gadījumā** komponentam **Pavadvēstule** atbilstošajā faila galamērķī, kā parādīts tālak redzamajā ilustrācijā. Šādā gadījumā pārstrādei atlasītais maksājuma statuss tiks mainīts no **Neviens** uz **Nosūtīts** tikai tad, kad ģenerētā pavadvēstule tiek veiksmīgi pieņemta nosūtīšanai ar e-pasta pakalpojumu sniedzēju, kas konfigurēts Finance instancē.
 
-[![Procesa apstrādes konfigurēšana faila galamērķa kļūmei](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)
+[![Procesa apstrādes konfigurēšana faila galamērķa kļūmei.](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)
 
 Notīrot izvēles rūtiņu **Pārtraukt apstrādi kļūmes gadījumā** galamērķa komponentam **Pavadvēstule**, maksājums tiks uzskatīts par sekmīgu apstrādātu arī tad, ja pavadvēstule nav veiksmīgi piegādāta pa e-pastu. Maksājuma statuss tiks mainīts no **Nav** uz **Nosūtīts** pat tad, ja pavadvēstuli nevar nosūtīt, jo, piemēram, trūkst adresāta vai sūtītāja e-pasta adreses vai tā nav pareiza.
 
@@ -160,7 +160,7 @@ Varat izmantot PDF pārveides opciju, lai pārveidotu izvadi no Microsoft Office
 
 Lai PDF pārveides opciju padarītu pieejamu pašreizējā Finance instancē, atveriet darbvietu **Līdzekļu pārvaldība** un ieslēdziet līdzekli **Pārveidot elektronisko pārskatu izejošos dokumentus no Microsoft Office formātiem PDF formātā**.
 
-[![Līdzekļa Izejošo dokumentu pārveide PDF formātā ieslēgšana līdzekļu pārvaldībā](./media/ER_Destinations-EnablePdfConversionFeature.png)](./media/ER_Destinations-EnablePdfConversionFeature.png)
+[![Līdzekļa Izejošo dokumentu pārveide PDF formātā ieslēgšana līdzekļu pārvaldībā.](./media/ER_Destinations-EnablePdfConversionFeature.png)](./media/ER_Destinations-EnablePdfConversionFeature.png)
 
 ### <a name="applicability"></a>Piemērojamība
 
@@ -185,13 +185,13 @@ Lai pārveidotu izvadi, kas nesatur iegultus fontus, tiek izmantoti tikai Window
 
 Lai ieslēgtu faila galamērķa pārveidi PDF formātā, atzīmējiet izvēles rūtiņu **Pārveidot PDF formātā**.
 
-[![Pārveides PDF formātā ieslēgšana faila galamērķim](./media/ER_Destinations-TurnOnPDFConversion.png)](./media/ER_Destinations-TurnOnPDFConversion.png)
+[![Pārveides PDF formātā ieslēgšana faila galamērķim.](./media/ER_Destinations-TurnOnPDFConversion.png)](./media/ER_Destinations-TurnOnPDFConversion.png)
 
 ### <a name=""></a><a name="SelectPdfPageOrientation">Lappuses orientācijas atlasīšana konvertēšanai PDF formātā</a>
 
 Ja Excel formātā ģenerējat ER konfigurāciju un vēlaties to konvertēt PDF formātā varat norādīt PDF faila lappuses orientāciju. Ja atzīmējat izvēles rūtiņu **Konvertēt PDF formātā**, lai ieslēgtu PDF konvertēšanu faila galamērķim, kas ģenerē izvades failu Excel formātā, lauks **Lappuses orientācija** kļūst pieejams kopsavilkuma cilnē **PDF konvertēšanas iestatījumi**. Laukā **Lapas orientācija** var atlasīt vēlamo lapas orientāciju.
 
-[![Lappuses orientācijas atlasīšana konvertēšanai PDF formātā](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
+[![Lappuses orientācijas atlasīšana konvertēšanai PDF formātā.](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
 
 > [!NOTE]
 > Lai būtu iespēja atlasīt PDF lappuses orientāciju, ir jāinstalē Finance 10.0.10 vai jaunāka versija.
@@ -222,7 +222,7 @@ Kopsavilkuma cilnes **Vispārīgi** laukā **Sūtīt mapi kā** atlasiet vienu n
     > [!NOTE]
     > Atlasot **Atsevišķus failus**, ģenerētā izvade tiek apkopota saspiestā stāvoklī. Tāpēc maksimālais [faila izmēra limits](er-compress-outbound-files.md) tiek pielietots saspiestam izvades failam, kad reālais faila izmērs var pārsniegt noteikto limitu. Mēs iesakām atlasīt šo vērtību, ja paredzat, ka ģenerētās izvades faila lielums būs pārāk liels.
 
-[![Notiek mapes formāta komponenta adresāta konfigurēšana](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
+[![Notiek mapes formāta komponenta adresāta konfigurēšana.](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
 
 ### <a name="limitations"></a>Ierobežojumi
 

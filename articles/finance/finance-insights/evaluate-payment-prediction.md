@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 014684595c7cd65383dc12d9eec2dd8ea7b8c20f
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 872f4cfd968b70cb8a2087822870dcc76e83e92b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186742"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349014"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Sākotnējā debitora maksājuma prognozēšanas modeļa izvērtēšana (priekšskatījums)
 
@@ -33,32 +33,32 @@ ms.locfileid: "6186742"
 
 Lapā **Finanšu ieskatu parametri** pakalpojumā Microsoft Dynamics 365 Finance blakus precizitātes rezultātam ir redzama saite **Modeļa precizitātes uzlabošana**.
 
-[![Modeļa precizitātes uzlabošanas saite](./media/prediction-model.png)](./media/prediction-model.png)
+[![Modeļa precizitātes uzlabošanas saite.](./media/prediction-model.png)](./media/prediction-model.png)
 
 Šī saite aizved jūs uz AI Builder, kur varat uzzināt vairāk par pašreizējo modeli, kā arī veikt darbības, lai to uzlabotu. Tālāk atrodamajā attēlā ir redzams atvērta lapa.
 
-[![AI Builder](./media/what-to-predict.png)](./media/what-to-predict.png)
+[![AI Builder.](./media/what-to-predict.png)](./media/what-to-predict.png)
 
 Atvērtajā lapā ir redzama tālāk minētā informācija.
 
 - Sadaļā **Veiktspēja** modeļa veiktspējas pakāpe sniedz skatījumu uz modeļa kvalitāti. Plašāku informāciju par šo pakāpi skatiet sadaļā [Prognozēšanas modeļa veiktspēja](/ai-builder/prediction-performance), kas atrodama AI Builder dokumentācijā.
 - Sadaļā **Visietekmīgākie dati** parādīts, cik svarīgi jūsu modelim bija dažādi datu ievades tipi. Varat novērtēt šo sarakstu un atbilstošos procentus, lai noteiktu, vai informācija atbilst tam, ko zināt par savu uzņēmumu un tirgu.
 
-    [![Prognozēšanas modeļa sadaļas Veiktspēja un Visietekmīgākie dati](./media/models.png)](./media/models.png)
+    [![Prognozēšanas modeļa sadaļas Veiktspēja un Visietekmīgākie dati.](./media/models.png)](./media/models.png)
 
 - Sadaļā **Veiktspēja** atlasiet **Skatīt papildinformāciju,**, lai uzzinātu vairāk par pakāpi un citiem apsvērumiem. Šajā attēlā informācija rāda, ka modelis izmanto mazāk informācijas nekā ieteicams. Tāpēc sistēma ir ģenerējusi brīdinājuma ziņojumu.
 
-    [![Brīdinājumi par modeļa veiktspēju](./media/details.png)](./media/details.png)
+    [![Brīdinājumi par modeļa veiktspēju.](./media/details.png)](./media/details.png)
 
 ## <a name="digging-deeper"></a>Detalizētāka izpēte
 
 Kaut arī precizitāte ir labs sākumpunkts, lai novērtētu modeli, un veiktspējas pakāpe nodrošina perspektīvu, AI Builder nodrošina detalizētāku metriku, ko varat izmantot novērtējumam. Lai lejupielādētu detalizētu informāciju, sadaļā **Veiktspēja** atlasiet daudzpunktes pogu (**...**) blakus pogai **Izmantot modeli** un pēc tam atlasiet **Lejupielādēt detalizētu metriku**.
 
-[![Komanda Lejupielādēt detalizētu metriku](./media/performance.png)](./media/performance.png)
+[![Komanda Lejupielādēt detalizētu metriku.](./media/performance.png)](./media/performance.png)
 
 Tālāk atrodamajā attēlā redzams formāts, kādā varat lejupielādēt datus.
 
-[![Lejupielādēto datu formāts](./media/data-format.png)](./media/data-format.png)
+[![Lejupielādēto datu formāts.](./media/data-format.png)](./media/data-format.png)
 
 Lai iegūtu detalizētāku rezultātu analīzi, ir labs sākumpunkts, lai pārskatītu metriku Neskaidrību matrica. Piemēram, šeit ir dati, kas tiek rādīti šim rādītājam iepriekšējā attēlā.
 

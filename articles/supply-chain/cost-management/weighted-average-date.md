@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 563fa291754f7f795fa64d530de49b9fe4083c56
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9990df3e57d65c77a75913efaf30675528d411b4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821301"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343704"
 ---
 # <a name="weighted-average-date"></a>Vidējā svērtā uz datumu
 
@@ -39,7 +39,7 @@ Svērtais vidējais = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (Q
 
 Krājumu slēgšanas laikā aprēķins tiek veikts katru dienu visā slēgšanas perioda laikā, kā parādīts nākamajā attēlā. 
 
-![Vidējā svērtā datuma ikdienas aprēķina modelis](./media/weightedaveragedatedailycalculationmodel.gif) 
+![Vidējā svērtā datuma ikdienas aprēķina modelis.](./media/weightedaveragedatedailycalculationmodel.gif) 
 
 Krājumu izejas plūsmas transakcijas, piemēram, pārdošanas pasūtījumi, krājumu žurnāli un ražošanas pasūtījumi, tiek veiktas, izmantojot novērtēto izmaksu cenu grāmatošanas datumā. Šī novērtēto izmaksu cena tiek saukta arī par kārtējo vidējo izmaksu cenu. Krājumu slēgšanas dienā sistēmā tiek analizētas krājumu transakcijas par iepriekšējiem periodiem, iepriekšējām dienām un pašreizējo dienu. Šī analīze tiek izmantota, lai noteiktu, kurš no tālāk norādītajiem slēgšanas principiem ir jāizmanto.
 
@@ -72,7 +72,7 @@ Tālāk aprakstītajā scenārijā ir iegrāmatotas finansiāli atjauninātas ie
 -   2.b Tiek atjaunināta krājumu finanšu izejas plūsma — daudzums: 2, vienības cena: USD 10,00.
 -   3. Tiek veikta krājumu slēgšana, izmantojot tiešās segšanas metodi, lai segtu krājumu finanšu ieejas plūsmu ar krājumu finanšu izejas plūsmu.
 
-![Novērtētā vidējā datuma tiešā nosegšana bez Iekļaut fizisko vērtību iespējas](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
+![Novērtētā vidējā datuma tiešā nosegšana bez Iekļaut fizisko vērtību iespējas.](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Attēla apzīmējumi:**
 
@@ -126,7 +126,7 @@ Sistēmā tiek ģenerētas un grāmatotas apkopotās krājumu pārsūtīšanas t
 
 Tālāk esošajā ilustrācijā ir attēlotas šīs transakcijas, kā arī ietekme, ko rada svērtā vidējā krājumu modeļa un apkopotās segšanas principa izmantošana, ja netiek izmantota opcija **Iekļaut fizisko vērtību**. 
 
-![Novērtētā vidējā datuma kopsavilkuma nosegšana bez Iekļaut fizisko vērtību opcijas](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![Novērtētā vidējā datuma kopsavilkuma nosegšana bez Iekļaut fizisko vērtību opcijas.](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Attēla apzīmējumi**
 
@@ -175,7 +175,7 @@ Varat atzīmēt saņemšanas darbībai paredzēto izdošanas darbību pirms darb
 
 Jauna pašreizēja vidējā izmaksu cena attēlo finansiāli vai fiziski atjaunināto darbību vidējo par summu USD 27,50. Tālāk esošajā ilustrācijā ir attēlotas šīs transakcijas, kā arī ietekme, ko rada svērtā vidējā uz datumu krājumu modeļa un iezīmēšanas izmantošana.
 
-![Novērtētais vidējais datums ar iezīmēšanu](./media/weightedaveragedatewithmarking.gif) 
+![Novērtētais vidējais datums ar iezīmēšanu.](./media/weightedaveragedatewithmarking.gif) 
 
 **Attēla apzīmējumi:**
 

@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85f6188bff4d3535369e4af145f8f55a3263c4a3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2811e61045c0a830d1c814d760820a364893efcc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794167"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352232"
 ---
 # <a name="retail-sales-price-management"></a>Mazumtirdzniecības pārdošanas cenu pārvaldība
 
@@ -46,11 +46,11 @@ Pati par sevi cenu grupa ir tikai nosaukums, apraksts un, ja vēlaties, cenu not
 
 Nākamajā attēlā ir parādīts, kā cenu grupas tiek izmantotas. Ievērojiet, ka šajā attēlā “Cenu grupa” burtiski atrodas cenu noteikšanas un atlaižu pārvaldības centrā. Komercijas entītijas, kuras varat izmantot, lai pārvaldītu atšķirīgās cenas un atlaides, atrodas pa kreisi, un faktisko cenu un atlaižu ieraksti atrodas pa labi.
 
-![Cenu grupas](./media/PriceGroups.png "Cenu grupas")
+![Cenu grupas.](./media/PriceGroups.png "Cenu grupas")
 
 Kad veidojat cenu grupas, vienu un to pašu cenu grupu nevajadzētu izmantot vairākiem komercijas entītiju tipiem. Pretējā gadījumā varētu būt sarežģīti noteikt, kāpēc kādai transakcijai tiek piemērota noteikta cena vai atlaide.
 
-Kā attēlā ir norādīts ar sarkano pārtraukto līniju, programma Commerce neatbalsta programmā Microsoft Dynamics 365 ietverto tieši debitoram iestatītas cenu grupas pamata funkcionalitāti. Taču šajā gadījumā jūs saņemat tikai pārdošanas cenas tirdzniecības līgumus. Ja vēlaties lietot no debitora atkarīgas cenas, ieteicams neiestatīt cenu grupas tieši debitoram. Tā vietā vajadzētu izmantot piederības. 
+Kā attēlā ir norādīts ar sarkano pārtraukto līniju, programma Commerce neatbalsta programmā Microsoft Dynamics 365 ietverto tieši debitoram iestatītas cenu grupas pamata funkcionalitāti. Taču šajā gadījumā jūs saņemat tikai pārdošanas cenas tirdzniecības līgumus. Ja vēlaties lietot no debitora atkarīgas cenas, ieteicams neiestatīt cenu grupas tieši debitoram. Tā vietā vajadzētu izmantot piederības. 
 
 Ņemiet vērā, ka tad, ja cenu grupa ir iestatīta debitoram, šī cenu grupa tiek saistīta ar to pasūtījumu, kas izveidoti šim debitoram, pārdošanas pasūtījuma galveni. Ja lietotājs maina cenu grupu pasūtījuma galvenē, vecā cenu grupa tiek aizstāta ar jauno cenu grupu tikai pašreizējam pasūtījumam. Piemēram, vecā cenu grupa neietekmēs pašreizējo pasūtījumu, bet tā joprojām būs saistīta ar debitoru turpmākajiem pasūtījumiem.
 
@@ -60,12 +60,12 @@ Nākamajās sadaļās ir sniegta plašāka informācija par komercijas entītij�
 
 Komercijas nozarē dažādos kanālos parasti ir dažādas cenas. Divi primārie faktori, kas ietekmē no kanāla atkarīgās cenas, ir izmaksas un vietējā tirgus apstākļi.
 
-- **Izmaksas** — jo tālāk kanāls atrodas no preces avota, jo vairāk izmaksā šīs preces krājumu nodrošināšana. Piemēram, jaunai produkcijai ir ierobežots glabāšanas laiks un pastāv īpašas ražošanas prasības (piemēram, augšanas sezona). Ziemas laikā svaigas salātlapas, visticamāk, ziemeļu reģionos izmaksā vairāk nekā dienvidu reģionos. Ja iestatāt cenas kanāliem lielā ģeogrāfiskajā apgabalā, visticamāk, ir nepieciešams dažādiem kanāliem iestatīt dažādas cenas.
-- **Vietējā tirgus apstākļi** — veikals, kura tiešais konkurents atrodas otrpus ielai, ir daudz jutīgāks pret cenas ietekmi nekā veikals, kuram tuvumā nav tiešo konkurentu.
+- **Izmaksas** — jo tālāk kanāls atrodas no preces avota, jo vairāk izmaksā šīs preces krājumu nodrošināšana. Piemēram, jaunai produkcijai ir ierobežots glabāšanas laiks un pastāv īpašas ražošanas prasības (piemēram, augšanas sezona). Ziemas laikā svaigas salātlapas, visticamāk, ziemeļu reģionos izmaksā vairāk nekā dienvidu reģionos. Ja iestatāt cenas kanāliem lielā ģeogrāfiskajā apgabalā, visticamāk, ir nepieciešams dažādiem kanāliem iestatīt dažādas cenas.
+- **Vietējā tirgus apstākļi** — veikals, kura tiešais konkurents atrodas otrpus ielai, ir daudz jutīgāks pret cenas ietekmi nekā veikals, kuram tuvumā nav tiešo konkurentu.
 
 ### <a name="affiliations"></a>Piederības
 
-Piederības vispārējā definīcija ir saikne vai saistība ar kādu grupu. Programmatūrā Commerce piederības ir debitoru grupas. Piederības ir daudz pielāgojamāks rīks debitoru cenu noteikšanai un atlaižu lietošanai nekā programmā Microsoft Dynamics 365 izmantotais debitoru grupu un atlaižu grupu pamata jēdziens. Pirmkārt — piederību var izmantot gan cenām, gan atlaidēm, savukārt cenu noteikšanai, kas nav paredzēta mazumtirdzniecībai, ir atšķirīga grupa katram atlaižu un cenu tipam. Otrkārt — debitors var piederēt vairākām piederībām, bet var piederēt tikai vienai katra tipa cenu noteikšanas grupai tādai cenu noteikšanai, kas nav paredzēta mazumtirdzniecībai. Visbeidzot — lai gan piederības var iestatīt tā, lai tās būtu saistītas ar kādu debitoru, tas nav obligāti. Ekspromta piederību POS programmatūrā var izmantot anonīmiem debitoriem. Tipisks anonīmas piederības atlaides piemērs ir senioru vai studentu atlaide, kur debitors var saņemt atlaidi, vienkārši parādot grupas dalībnieka karti.
+Piederības vispārējā definīcija ir saikne vai saistība ar kādu grupu. Programmatūrā Commerce piederības ir debitoru grupas. Piederības ir daudz pielāgojamāks rīks debitoru cenu noteikšanai un atlaižu lietošanai nekā programmā Microsoft Dynamics 365 izmantotais debitoru grupu un atlaižu grupu pamata jēdziens. Pirmkārt — piederību var izmantot gan cenām, gan atlaidēm, savukārt cenu noteikšanai, kas nav paredzēta mazumtirdzniecībai, ir atšķirīga grupa katram atlaižu un cenu tipam. Otrkārt — debitors var piederēt vairākām piederībām, bet var piederēt tikai vienai katra tipa cenu noteikšanas grupai tādai cenu noteikšanai, kas nav paredzēta mazumtirdzniecībai. Visbeidzot — lai gan piederības var iestatīt tā, lai tās būtu saistītas ar kādu debitoru, tas nav obligāti. Ekspromta piederību POS programmatūrā var izmantot anonīmiem debitoriem. Tipisks anonīmas piederības atlaides piemērs ir senioru vai studentu atlaide, kur debitors var saņemt atlaidi, vienkārši parādot grupas dalībnieka karti.
 
 Lai gan piederības visbiežāk ir saistītas ar atlaidēm, tās varat izmantot arī, lai iestatītu atšķirīgu cenu noteikšanu. Piemēram, kad mazumtirgotājs kaut ko pārdod darbiniekam, tas varētu vēlēties mainīt pārdošanas cenu, nevis piemērot atlaidi papildus standarta cenai. Cits piemērs — mazumtirgotājs, kurš pārdod gan patērētājiem, gan biznesa klientiem, saviem biznesa klientiem varētu piedāvāt labākas cenas, ņemot vērā to pirkšanas apjomu. Piederības ļauj izmantot abus šos scenārijus.
 
@@ -79,7 +79,7 @@ Lojalitātes programmas ir papildu funkcionalitāte, kas ir pieejama papildus ce
 
 ### <a name="catalogs"></a>Katalogi
 
-Daži mazumtirgotāji izmanto fiziskus vai virtuālus katalogus, lai savas preces reklamētu un to cenu noteiktu īpaši mērķētām debitoru grupām. Daļu no viņu biznesa modeļa veido mērķēts mārketings, izmantojot katalogu, tāpēc šie mazumtirgotāji dažādos katalogos var iestatīt dažādas cenas. Microsoft Dynamics 365 atbalsta šo iespēju, sniedzot iespēju definēt no kataloga atkarīgas atlaides un cenas tieši tāpat, kā varat definēt no kanāla atkarīgas vai no piederības atkarīgas atlaides. Kad rediģējat kādu katalogu, ar šo katalogu varat saistīt cenu grupas tieši tāpat, kā tās varat saistīt ar kanālu, piederību vai lojalitātes programmu.
+Daži mazumtirgotāji izmanto fiziskus vai virtuālus katalogus, lai savas preces reklamētu un to cenu noteiktu īpaši mērķētām debitoru grupām. Daļu no viņu biznesa modeļa veido mērķēts mārketings, izmantojot katalogu, tāpēc šie mazumtirgotāji dažādos katalogos var iestatīt dažādas cenas. Microsoft Dynamics 365 atbalsta šo iespēju, sniedzot iespēju definēt no kataloga atkarīgas atlaides un cenas tieši tāpat, kā varat definēt no kanāla atkarīgas vai no piederības atkarīgas atlaides. Kad rediģējat kādu katalogu, ar šo katalogu varat saistīt cenu grupas tieši tāpat, kā tās varat saistīt ar kanālu, piederību vai lojalitātes programmu.
 
 ### <a name="best-practices-for-price-groups"></a>Labākās prakses cenu grupām
 
@@ -109,7 +109,7 @@ Valsts līmeņa mazumtirgotājs vairumu cenu iestata atkarībā no reģiona, un 
 
 Šajā piemērā mēs detalizēti aplūkojam Ziemeļaustrumu reģionu. 1. veikals atrodas Bostonā, un 2. veikals atrodas Manhetenā. Bostonas veikalam ar kanālu ir saistītas divas cenu grupas: Ziemeļaustrumi un 1. veikals. Manhetenas veikalam ar kanālu ir saistītas trīs cenu grupas: Ziemeļaustrumi, NYC un 2. veikals.
 
-Mazumtirgotājs iestata divas cenu noteikšanas prioritātes: Augstām izmaksām prioritātes skaitlis ir 5, un Veikala cenām prioritātes skaitlis ir 10. (Atcerieties — pēc noklusējuma cenu noteikšanas prioritāte ir 0 \[nulle\], un cena vai atlaide, kurai ir lielāks prioritātes skaitlis, tiek izmantota pirms cenas vai atlaides, kurai ir mazāks prioritātes skaitlis.) Ziemeļaustrumu cenu grupas cenu noteikšanas prioritātei tiek atstāta noklusējuma vērtība **0** (nulle). NYC cenu grupai cenu noteikšanas prioritāte ir iestatīta uz **5**, jo Ņujorkas pilsēta ir augstu izmaksu tirgus. 1. veikala un 2. veikala cenu grupām cenu noteikšanas prioritāte ir iestatīta uz **10**.
+Mazumtirgotājs iestata divas cenu noteikšanas prioritātes: Augstām izmaksām prioritātes skaitlis ir 5, un Veikala cenām prioritātes skaitlis ir 10. (Atcerieties — pēc noklusējuma cenu noteikšanas prioritāte ir 0 \[nulle\], un cena vai atlaide, kurai ir lielāks prioritātes skaitlis, tiek izmantota pirms cenas vai atlaides, kurai ir mazāks prioritātes skaitlis.) Ziemeļaustrumu cenu grupas cenu noteikšanas prioritātei tiek atstāta noklusējuma vērtība **0** (nulle). NYC cenu grupai cenu noteikšanas prioritāte ir iestatīta uz **5**, jo Ņujorkas pilsēta ir augstu izmaksu tirgus. 1. veikala un 2. veikala cenu grupām cenu noteikšanas prioritāte ir iestatīta uz **10**.
 
 Divas mazumtirgotāja pārdotās preces ir 1. prece, parasts T-krekls, un 2. prece, īpaša zīmola moderni džinsi.
 
@@ -125,7 +125,7 @@ T-krekls tiek pārdots par to pašu cenu (t.i., 15 USD) gan Bostonas, gan Manhe
 
 ## <a name="types-of-prices"></a>Cenu tipi
 
-Programmā Microsoft Dynamics 365 preces cenu varat iestatīt trīs tālāk norādītajās vietās.
+Programmā Microsoft Dynamics 365 preces cenu varat iestatīt trīs tālāk norādītajās vietās.
 
 - Tieši precei (pamatcena)
 - Pārdošanas cenas tirdzniecības līgumā
@@ -143,11 +143,11 @@ Ja kādai precei ir vienāda cena neatkarīgi no pircēja, pamatcena nodrošina 
 
 Ja kāda kanāla valūta atšķiras no uzņēmuma valūtas, pamatcena attiecīgajā kanālā tiek noteikta, izmantojot valūtas konvertēšanu cenai, kas ir iestatīta šai precei.
 
-Lai gan cenas vienība nav izplatīts scenārijs, cenu noteikšanas programma to atbalsta. Ja cenas vienība ir iestatīta uz vērtību, kas nav **0** (nulle), vienības cena tiek aprēķināta pēc formulas Cena ÷ Cenas vienība. Piemēram, ja kādas preces cena ir 10,00 USD un cenas vienība ir 50, cena par daudzumu 1 ir 0,20 USD (= 10,00 USD ÷ 50).
+Lai gan cenas vienība nav izplatīts scenārijs, cenu noteikšanas programma to atbalsta. Ja cenas vienība ir iestatīta uz vērtību, kas nav **0** (nulle), vienības cena tiek aprēķināta pēc formulas Cena ÷ Cenas vienība. Piemēram, ja kādas preces cena ir 10,00 USD un cenas vienība ir 50, cena par daudzumu 1 ir 0,20 USD (= 10,00 USD ÷ 50).
 
 ### <a name="sales-price-trade-agreement"></a>Pārdošanas cenas tirdzniecības līgums
 
-Izmantojot tirdzniecības līgumu žurnālu, varat izveidot pārdošanas cenas tirdzniecības līgumus katrai precei. Programmā Microsoft Dynamics 365 ir pieejami trīs pārdošanas cenas tirdzniecības līgumu debitoru tvērumi: **Tabula**, **Grupa** un **Visi**. Debitoru tvērums nosaka debitorus, uz kuriem attiecas noteikts pārdošanas cenas tirdzniecības līgums.
+Izmantojot tirdzniecības līgumu žurnālu, varat izveidot pārdošanas cenas tirdzniecības līgumus katrai precei. Programmā Microsoft Dynamics 365 ir pieejami trīs pārdošanas cenas tirdzniecības līgumu debitoru tvērumi: **Tabula**, **Grupa** un **Visi**. Debitoru tvērums nosaka debitorus, uz kuriem attiecas noteikts pārdošanas cenas tirdzniecības līgums.
 
 Pārdošanas cenas tirdzniecības līgums **Tabula** ir paredzēts atsevišķam debitoram, kas tiek iestatīts tieši pārdošanas līgumam. Šis scenārijs nav tipiskais scenārijs “no uzņēmuma patērētājam” (Business-to-Consumer — B2C). Taču, ja tāds rodas, cenas noteikšanai cenu noteikšanas programma izmanto tirdzniecības līgumus **Tabula**.
 
@@ -186,15 +186,15 @@ Cenas var paaugstināt vai pazemināt, izmantojot kategorijas cenas kārtulu lau
 
 - Laukā **Cenas kārtula** atlasiet, kādu cenas izmaiņas tipu vēlaties izmantot.
 
-    - **Uzcenojums** — pārdošanas cenas aprēķināšanai tiek izmantots procentuāls daudzums no cenas bāzes. Piemēram, precei, kas maksā 10,00 un ko pārdod par 15,00, uzcenojums ir 50 procenti.
-    - **Peļņa** — peļņas summas aprēķināšanai tiek izmantots procentuāls daudzums no pārdošanas cenas. Piemēram, precei, kas maksā 10,00 un ko pārdod par 15,00, peļņa ir 33,3 procenti.
-    - **Fiksēta summa** — pārdošanas cenas aprēķināšanai tiek izmantota summa, kas tiek pieskaitīta cenas bāzei. Piemēram, precei, kas maksā 10,00 un ko pārdod par 15,00, fiksēta summa ir 5,00.
+    - **Uzcenojums** — pārdošanas cenas aprēķināšanai tiek izmantots procentuāls daudzums no cenas bāzes. Piemēram, precei, kas maksā 10,00 un ko pārdod par 15,00, uzcenojums ir 50 procenti.
+    - **Peļņa** — peļņas summas aprēķināšanai tiek izmantots procentuāls daudzums no pārdošanas cenas. Piemēram, precei, kas maksā 10,00 un ko pārdod par 15,00, peļņa ir 33,3 procenti.
+    - **Fiksēta summa** — pārdošanas cenas aprēķināšanai tiek izmantota summa, kas tiek pieskaitīta cenas bāzei. Piemēram, precei, kas maksā 10,00 un ko pārdod par 15,00, fiksēta summa ir 5,00.
 
 - Laukā **Cenas bāze** atlasiet modificējamās cenas tipu.
 
-    - **Bāzes izmaksas** — summa, ko mazumtirgotājs samaksāja piegādātājam.
-    - **Bāzes cena** — pārdošanas cena pirms tirdzniecības līgumu un cenas korekciju piemērošanas.
-    - **Pašreizējā cena** — pārdošanas cena pēc tirdzniecības līgumu un cenas korekciju piemērošanas.
+    - **Bāzes izmaksas** — summa, ko mazumtirgotājs samaksāja piegādātājam.
+    - **Bāzes cena** — pārdošanas cena pirms tirdzniecības līgumu un cenas korekciju piemērošanas.
+    - **Pašreizējā cena** — pārdošanas cena pēc tirdzniecības līgumu un cenas korekciju piemērošanas.
 
 Lai ērti atjauninātu cenas dažādām precēm no dažādām preču kategorijām, kopā ar kategorijas cenu kārtulām varat izmantot papildu preču kategorijas.
 
@@ -203,7 +203,7 @@ Lai ērti atjauninātu cenas dažādām precēm no dažādām preču kategorijā
 Izmaksu dēļ kanālu datu bāzēm bieži tiek izmantota sistēma Microsoft SQL Server Express (bezmaksas). Paturiet prātā, ka sistēmai SQL Server Express pastāv aparatūras ierobežojumi un datu apjoma ierobežojumi. Ja neplānojat pareizi, drīz vien varat sasniegt SQL Server Express datu apjoma ierobežojumu. Šis apsvērums attiecas ne tikai uz cenu noteikšanu, bet arī uz citām preču jomām. Tālāk ir norādītas dažas labākās prakses, kas jums varētu noderēt, lai samazinātu savu datu apjomu.
 
 - Ja izmantojat tirdzniecības līgumus un jūsu cenas mainās, jums vajadzētu izbeigt vecos tirdzniecības līgumus, iestatot beigu datumu. Laika gaitā šī metode palīdz samazināt tirdzniecības līgumus skaitu, kas tiek glabāts kanāla datu bāzēs. Tā palīdz arī samazināt datu apjomu, ar kādu ir jāstrādā cenas aprēķināšanas algoritmam.
-- Ja jūsu cenas atšķiras atkarībā no preces varianta, apsveriet iespēju izmantot preces pamatcenu kā visbiežākā varianta cenu. Pēc tam izmantojiet tirdzniecības līgumus tikai variantu cenām, kas ir izņēmumi. Šī metode palīdz samazināt tirdzniecības līgumu ierakstu skaitu. Tā kā importēt datus programmā Microsoft Dynamics 365 ir tik vienkārši, iespējams, vēlēsities importēt tirdzniecības līgumu par katru no ikvienas preces variantiem. Taču šī prakse var radīt daudzus tirdzniecības līgumus, kuriem ir tāda pati vērtība. Tādēļ tas var lieki palielināt datus apjomu.
+- Ja jūsu cenas atšķiras atkarībā no preces varianta, apsveriet iespēju izmantot preces pamatcenu kā visbiežākā varianta cenu. Pēc tam izmantojiet tirdzniecības līgumus tikai variantu cenām, kas ir izņēmumi. Šī metode palīdz samazināt tirdzniecības līgumu ierakstu skaitu. Tā kā importēt datus programmā Microsoft Dynamics 365 ir tik vienkārši, iespējams, vēlēsities importēt tirdzniecības līgumu par katru no ikvienas preces variantiem. Taču šī prakse var radīt daudzus tirdzniecības līgumus, kuriem ir tāda pati vērtība. Tādēļ tas var lieki palielināt datus apjomu.
 - Programmatūra Commerce no varianta atkarīgās cenas apstrādā secībā no konkrētākajām līdz vispārīgākajām. Ja kāda preces dimensija neietekmē cenu, nav nepieciešams tai definēt tirdzniecības līgumus. Piemēram, prece ir pieejama trīs krāsās un četros izmēros, bet cena mainās tikai atkarībā no izmēra. Ja definējat tirdzniecības līgumu katram variantam, jūs izveidojat 12 ierakstus. Tā vietā varat definēt tirdzniecības līgumu tikai katram izmēram un krāsu dimensiju varat atstāt tukšu. Tādā gadījumā jūs izveidojat tikai četrus ierakstus.
 
     Vai arī — ja ne katra dimensijas vērtība izveido atšķirīgu cenu — varat definēt vienu tirdzniecības līgumu preces šablonam un visas preces dimensijas atstāt tukšas. Pēc tam definējiet atsevišķu tirdzniecības līgumu tikai katrai dimensijas vērtībai, kas veido atšķirīgu cenu. Piemēram, ja XXL izmēram ir augstāka cena, bet visiem pārējiem izmēriem ir vienāda cena, jums ir nepieciešami tikai divi tirdzniecības līgumi: viens līgums preces šablonam un viens — XXL izmēram.

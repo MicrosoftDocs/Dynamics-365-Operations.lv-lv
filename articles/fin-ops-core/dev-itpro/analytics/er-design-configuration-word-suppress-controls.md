@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 8c99203110cfdc7f8123c30488611d55f48e8f67
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e6ab75c970c6c14d4977b6c739ba46e33f4962e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753605"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348048"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>Word satura vadīklu likvidēšana ģenerētajos pārskatos
 
@@ -63,7 +63,7 @@ Turklāt jums ir nepieciešams šim pašam pārskatam lejupielādēt un saglabā
     > [!NOTE]
     > Atkārtotā satura vadīkla ir atzīmēta ar atslēgu **SummaryLines**, kas atbilst pielāgotās XML daļas laukam, uz kuru tā ir kartēta.
 
-    ![Word veidnes izkārtojums](./media/er-design-configuration-word-suppress-controls-image1.gif)
+    ![Word veidnes izkārtojums.](./media/er-design-configuration-word-suppress-controls-image1.gif)
 
 ## <a name="select-the-existing-er-report-configuration"></a>Atlasiet esošo ER pārskatu konfigurāciju
 
@@ -98,7 +98,7 @@ Pašlaik SampleVendPaymDocReportBounded.docx fails tiek izmantots kā veidne, la
 7. Atlasiet **Labi**.
 8. Dialoglodziņā **Elektroniskā pārskata parametri** atlasiet **Labi** un analizējiet ģenerēto izvadi.
 
-    ![Maksājumi apstrāde lapā Kreditora maksājumi](./media/er-design-configuration-word-suppress-controls-image2.gif)
+    ![Maksājumi apstrāde lapā Kreditora maksājumi.](./media/er-design-configuration-word-suppress-controls-image2.gif)
 
     Rezultāts ir parādīts Word formātā un satur kopsavilkuma sadaļu.
 
@@ -149,7 +149,7 @@ Ja vēlaties likvidēt kopsavilkuma sadaļu ģenerētajā dokumentā, pamatojoti
 
 9. Atlasiet **Saglabāt**, lai saglabātu rediģējamā formāta izmaiņas.
 
-    ![Ģenerētā izvade Word formātā](./media/er-design-configuration-word-suppress-controls-image3.gif)
+    ![Ģenerētā izvade Word formātā.](./media/er-design-configuration-word-suppress-controls-image3.gif)
 
 ## <a name="run-the-modified-format-to-create-word-output"></a>Palaist modificēto formātu, lai izveidotu Word izvadi
 
@@ -163,7 +163,7 @@ Ja vēlaties likvidēt kopsavilkuma sadaļu ģenerētajā dokumentā, pamatojoti
 8. Dialoglodziņa **Elektroniskā pārskata parametri** laukā **Likvidēt kopsavilkuma sadaļu** atlasiet **Jā**.
 9. Atlasiet **Labi** un analizējiet ģenerēto izvades informāciju.
 
-    ![Ģenerētais rezultāts Word formātā](./media/er-design-configuration-word-suppress-controls-image4.gif)
+    ![Ģenerētais rezultāts Word formātā.](./media/er-design-configuration-word-suppress-controls-image4.gif)
 
     Ņemiet vērā, ka izvade neietver kopsavilkuma sadaļu, jo tā ir likvidēta.
 
