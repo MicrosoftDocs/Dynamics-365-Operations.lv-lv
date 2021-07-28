@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b42fc4f0e299dc785ef465efc54286effccfb92b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e44e0ff5c36190d0f66afb6a59389fee826d8214
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823840"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360716"
 ---
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>Pievienot finanšu dimensijas CFO darbvietai
 
@@ -45,14 +45,14 @@ ms.locfileid: "5823840"
 11. Mainiet vērtību **Krusteniskās filtrēšanas virziens** uz **Viens**.
 12. Atlasiet gan **Aktivizēt šo relāciju**, gan **Pieņemt atsauces integritāti**, atlasiet **Labi** un pēc tam atlasiet **Aizvērt**.
 
-    [![Relācijas izveide](./media/Create-relationship.png)](./media/Create-relationship.png)
+    [![Relācijas izveide.](./media/Create-relationship.png)](./media/Create-relationship.png)
 
 13. Laukā **Lauki** tiek rādīta tabula un pieejamās finanšu dimensijas. Velciet nepieciešamās finanšu dimensijas uz pārskata līmeņa filtriem.
 14. Saglabājiet izmaiņas.
 15. Lietojumprogrammas objektu kokā (AOT) ar peles labo pogu noklikšķiniet uz projekta un pēc tam atlasiet **Sinhronizēt**.
 16. Izveidojiet projektu un pēc tam atveriet lietojumprogrammu, lai skatītu rezultātus.
 
-    [![Izpildīta darbvieta](./media/workspace.png)](./media/workspace.png)
+    [![Izpildīta darbvieta.](./media/workspace.png)](./media/workspace.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

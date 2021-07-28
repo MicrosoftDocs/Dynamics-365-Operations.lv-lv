@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ac3d540ee3d1737e4e8be45394cd5807ae4a8d6f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9636348e7840206ad1ef5669eae7f553231cadf1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796152"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352618"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Zvanu centra piegādes veidu un maksu konfigurēšana
 
@@ -65,11 +65,11 @@ Sadaļā **Rindas** pēc nepieciešamības varat definēt vienu vai vairākas ma
 
 Uzņēmumi bieži vien konfigurē pa pakāpēm sadalītās maksas. Tādā gadījumā summa, kas debitoriem ir jāmaksā par piegādi, ir balstīta uz pasūtījuma vērtību. Lai konfigurētu pa pakāpēm sadalītās maksas, papildus pašas maksas definēšanai laukā **Maksu vērtība** ievadiet vērtības laukā **No summas** un **Līdz summai**. Piemēram, pasūtījumiem, kuru vērtība ir mazāka par 50 USD, mazumtirgotājs par sūtīšanu iekasē 5,95 USD. Par pasūtījumiem, kuru vērtība ir vienāda ar vai lielāka par 50 USD, bet ir mazāk par 100 USD, mazumtirgotājs iekasē 7,95 USD. Visbeidzot — pasūtījumiem, kuru vērtība ir vienāda ar vai lielāka par 100 USD, mazumtirgotājs nodrošina bezmaksas sūtīšanu. Nākamajā attēlā ir parādīta šo maksu konfigurācija.
 
-![Piemērs ar fiksētām un pa pakāpēm sadalītām maksām](media/fixedtieredcharges.png)
+![Piemērs ar fiksētām un pa pakāpēm sadalītām maksām.](media/fixedtieredcharges.png)
 
 Maksām varat izmantot vairāku kategoriju kombināciju, ņemot vērā sava uzņēmuma vajadzības. Piemēram, visiem pasūtījumiem, kuru vērtība ir mazāka par 100 USD, par sūtīšanu tiek iekasēta fiksēta maksa 9,95 USD. Pēc tam par pasūtījumiem, kuru vērtība ir vienāda ar vai lielāka par 100 USD, piegādes maksas tiek aprēķinātas ar likmi 5 procenti no pasūtījuma vērtības. Nākamajā attēlā ir parādīta šo maksu konfigurācija.
 
-![Piemērs ar jauktām un pa pakāpēm sadalītām maksām](media/mixedtieredcharges.png)
+![Piemērs ar jauktām un pa pakāpēm sadalītām maksām.](media/mixedtieredcharges.png)
 
 ## <a name="apply-delivery-modes-during-order-entry-in-a-call-center"></a>Piegādes veidu lietošana zvanu centrā pasūtījuma izveidošanas laikā
 

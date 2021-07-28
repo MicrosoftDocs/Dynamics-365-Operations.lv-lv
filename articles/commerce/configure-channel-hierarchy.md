@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 94d38c5c3a091263b310f346f839e1a67d6c0609
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 79054573fa6f86bea5c4fe014233d71c01020348
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796128"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352594"
 ---
 # <a name="configure-a-channel-to-use-a-channel-navigation-hierarchy"></a>Konfigurējiet kanālu, lai izmantotu kanāla navigācijas hierarhiju
 
@@ -45,7 +45,7 @@ Lai kanālu konfigurētu kanālu navigācijas hierarhijas izmantošanai, veiciet
 
 Tālāk esošais attēls parāda, kā konfigurēt kanālu, lai izmantotu kanāla navigācijas hierarhiju.
 
-![Kanāla konfigurācijas piemērs](media/configure-channel-hierarchy-1.png)
+![Kanāla konfigurācijas piemērs.](media/configure-channel-hierarchy-1.png)
 
 ## <a name="set-attribute-metadata"></a>Atribūtu metadatu iestatīšana
 
@@ -61,9 +61,9 @@ Lai iestatītu atribūtu metadatus, veiciet tālāk norādītās darbības.
 
 Tālāk esošajā attēlā redzams kanāla preču atribūtu kopums, kas konfigurēts kanāla kategorijas mezglā.
 
-![Kanāla atribūti kanāla kategorijas mezglā](media/configure-channel-hierarchy-2.png)
+![Kanāla atribūti kanāla kategorijas mezglā.](media/configure-channel-hierarchy-2.png)
 
-## <a name="publish-changes"></a>Izmaiņu publicēšana
+## <a name="publish-changes"></a>Publicēt izmaiņas
 
 Lai izmaiņas stātos spēkā, jums tās ir jāpublicē.
 
@@ -74,11 +74,11 @@ Lai publicētu izmaiņas, veiciet tālāk norādītās darbības.
 
 Tālāk esošajā attēlā ir parādīts, kā publicēt kanālu atjauninājumus.
 
-![Publicēt kanāla atjauninājumus](media/configure-channel-hierarchy-3.png)
+![Publicēt kanāla atjauninājumus.](media/configure-channel-hierarchy-3.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Kanālu navigācijas hierarhijas izveide](create-channel-hierarchy.md)
+[Izveidot kanāla navigācijas hierarhiju](create-channel-hierarchy.md)
 
 
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4cf5a5fc2d40e66d189d281b343d1525edf7e8c5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 5e9d1f33102ed08d9e5c486d4d1490d4b278a28e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744127"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360306"
 ---
 # <a name="accessibility-features"></a>Pieejamības līdzekļi
 
@@ -52,13 +52,13 @@ Katrai lapā nodrošinātajai darbībai var piekļūt no tastatūras, izmantojot
 
 Vēlaties palaist darbību **E-pasta paziņojumu žurnāls**, kas ir redzama darbību rūts cilnes **Pārdošanas pasūtījums** grupā **E-pasta paziņojums**.
 
-![E-pasta paziņojuma žurnāla darbība darbību rūtī](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "'E-pasta paziņojuma žurnāla' darbība darbību rūtī")
+![E-pasta paziņojuma žurnāla darbība darbību rūtī.](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "'E-pasta paziņojuma žurnāla' darbība darbību rūtī")
 
 Viena iespēja ir izmantot tastatūru. Nospiediet taustiņu kombināciju Ctrl+F6, lai fokusu pārvietotu uz darbību rūti, un pēc tam atkārtoti spiediet taustiņu Tab, lai pārvietotos pa cilnēm un darbībām, līdz fokuss ir vērsts uz darbību **E-pasta paziņojumu žurnāls**.
 
 Taču šo darbību varat palaist arī tiešāka veidā. No jebkuras vietas lapā nospiediet taustiņu kombināciju Ctrl+apostrofs ('), lai parādītu meklēšanas lodziņu darbībām.
 
-![Meklēšanas lodziņš darbībām](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Meklēšanas lodziņš darbībām")
+![Meklēšanas lodziņš darbībām.](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Meklēšanas lodziņš darbībām")
 
 Meklēšanas lodziņā ierakstiet vārdus, kas apraksta attiecīgo darbību. Darbība jums kļūst pieejama, un varat to palaist tiešā veidā. Piemēram, ierakstot **e-pasts**, **paziņ** (daļēju vārdu) vai **žurnāls**, varat “pārlēkt” uz funkcionalitāti E-pasta paziņojumu žurnāls.
 

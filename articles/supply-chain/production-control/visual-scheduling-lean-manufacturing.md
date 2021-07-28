@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c94834a491877a69a206f827ad60f12455456e3f
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: c91de72f32f70fba09c6b7e3ca284553d0c858b1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188856"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353448"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Vizuāla plānošana ražošanai lean manufacturing
 
@@ -47,7 +47,7 @@ Ieplānot var tikai tipa **Apstrādāt** darbus. Kanban darbs un tā rekvizīti,
 ## <a name="kanban-schedule-board"></a>Kanban grafika dēlis
 Lapā **Kanban plānošanas panelis** ir septiņi galvenie elementi, kā parādīts tālāk esošajā attēlā. 
 
-![Kanban grafika dēlis](./media/kanban-schedule-board-1024x554.png)
+![Kanban grafika dēlis.](./media/kanban-schedule-board-1024x554.png)
 1.  Darbības rūts
 2.  Lauku filtrēšana
 3.  Poga neplānotajiem darbiem
@@ -71,7 +71,7 @@ Lai uzlabotu Kanban plānošanas paneļa sniegto pārskatu, varat izmantot krās
 ## <a name="plan-unplanned-jobs"></a>Plānot neplānotus darbus
 Neplānotos Kanban darbus varat plānot dialoglodziņā **Plānot neplānotos darbus**. Lai atvērtu šo dialoglodziņu, noklikšķiniet uz pogas **Neplānotie darbi**, kas parāda pašreizējo neplānoto darbu skaitu. Vai arī noklikšķiniet uz **Plānot neplānotos darbus** darbību rūts cilnē **Panelis**. Dialoglodziņā tiek rādīts saraksts ar darba šūnas neplānotajiem Kanban darbiem. Varat izmantot lauku **Filtrēt**, lai filtrētu visus laukus režģī. Piemēram, varat filtrēt Kanban darbus pēc noteiktas preces. Kad esat izfiltrējis sarakstu ar darbiem, ko vēlaties ieplānot, atlasiet tos sarakstā un pēc tam noklikšķiniet uz **Labi**. Lai darbu plānošanai lietotu automātisko plānošanu, opciju **Automātiskā plānošana** iestatiet uz **Jā**. Šajā gadījumā darbi tiek ieplānoti periodā saskaņā ar to izpildes datumu. Darbus varat plānot arī pēc perioda. Atlasiet kādu periodu laukā **Periods**. Tālāk esošajā attēlā parādīts dialoglodziņa **Plānot neplānotos darbus** piemērs. 
 
-![Dialoglodziņš Plānot neplānotos darbus](./media/plan-unplanned-jobs-1024x564.png)
+![Dialoglodziņš Plānot neplānotos darbus.](./media/plan-unplanned-jobs-1024x564.png)
 
 ## <a name="sequence-kanban-jobs-within-the-same-period"></a>Kanban darbu kārtošana vienā periodā
 Varat mainīt viena vai vairāku atlasīto darbu secību periodā. Šī iespēja var būt noderīga, ja noteiktiem darbiem periodā vēlaties piešķirt prioritāti. Iespējams, vēlaties kārtot darbus, kuriem ir vienādas preču īpašības, lai optimizētu darbu izpildi. Secību var mainīt, veicot vilkšanas un nomešanas darbību vai izmantojot izvēlnes vienumus **Atpakaļ** un **Uz priekšu** darbību rūts cilnē **Panelis**.

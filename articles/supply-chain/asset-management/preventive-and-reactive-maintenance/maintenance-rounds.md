@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 62f812c7c7fa06deb5f41508044b029e6c5ca4a0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 24f019547b9edc932c203d5dc8c73013007af599
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825738"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361046"
 ---
 # <a name="maintenance-rounds"></a>Uzturēšanas cikls
 
@@ -80,7 +80,7 @@ ms.locfileid: "5825738"
 
 Nākamajā ilustrācijā ir redzams piemērs uzturēšanas ciklam, kurā ietilpst trīs līdzekļi.
 
-![1. attēls](media/13-preventive-maintenance.png)
+![1. attēls.](media/13-preventive-maintenance.png)
 
 
 ## <a name="schedule-maintenance-rounds"></a>Plānot uzturēšanas ciklus
@@ -106,9 +106,9 @@ Kad esat uzstādījis uzturēšanas ciklu, jūs palaižat grafika darbu, lai iep
 
 Divās nākamajās ilustrācijās ir parādīts darba grafiks dialoglodziņā **Plānot uzturēšanas ciklus** un uzturēšanas grafika rindas, kas izveidotas **Visos uzturēšanas grafikos**, pamatojoties uz šo plānoto darbu.
 
-![2. attēls](media/14-preventive-maintenance.png)
+![2. attēls.](media/14-preventive-maintenance.png)
 
-![3. attēls](media/15-preventive-maintenance.png)
+![3. attēls.](media/15-preventive-maintenance.png)
 
 - Kad darba pasūtījums tiek manuāli izveidots līdzekļiem, uz kuriem attiecas piegādātāja garantija, tiek parādīts dialoglodziņš, lai informētu lietotāju par garantiju. Pēc tam darba pasūtījuma izveidi var atcelt. Garantijas saistības pārbaude tiek izlaista tiem darba pasūtījumiem, kuri ir izveidoti automātiski.  
 - Ātrajā cilnē **Palaist fonā** jūs uzstādīt pakešuzdevumu, lai ieplānotu ciklus regulāros intervālos.  

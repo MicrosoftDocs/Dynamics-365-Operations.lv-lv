@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: ea1fe6ba374c77784c88cf8202bff2eace217b6a
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: b285cefc35654695ee631cc73baa0ccc2c1b5ac9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102714"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359889"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Debitoru portāla pielāgošana un izmantošana
 
@@ -27,7 +27,7 @@ ms.locfileid: "6102714"
 
 Debitora portāls standarta variantā piedāvā dažas tīmekļa lapas un darbības. Vietnes kartē zemāk ir sniegts pārskats par šīm tīmekļa lapām un darbībām, kā arī lomām, kas var veikt darbības.
 
-![Debitoru portāla vietnes karte](media/customer-portal-site-map.png "Debitoru portāla vietnes karte")
+![Debitoru portāla vietnes karte.](media/customer-portal-site-map.png "Debitoru portāla vietnes karte")
 
 ## <a name="typical-customizations"></a>Parastie pielāgojumi
 
@@ -61,12 +61,12 @@ Tālāk ir norādītas standarta darbības pasūtījuma iesniegšanai no Debitor
     - **Pieprasījuma numurs** — ievadiet pasūtījuma pieprasījuma numuru. Šis lauks nav obligāts.
     - **Nosūtīt uz valsti/reģionu** — ievadiet valsti vai reģionu, uz kuru tiks nogādāti krājumi. Šis lauks tiek automātiski iestatīts lietotājiem, kuri nav administratori.
 
-    ![Pasūtījuma informācijas lapa](media/customer-portal-order-information.png "Pasūtījuma informācijas lapa")
+    ![Pasūtījuma informācijas lapa.](media/customer-portal-order-information.png "Pasūtījuma informācijas lapa")
 
 1. Atlasiet **Nākamais**.
 1. Lapā **Krājumi** atlasiet **Pievienot krājumu**.
 
-    ![Krājumu lapa](media/customer-portal-items.png "Krājumu lapa")
+    ![Krājumu lapa.](media/customer-portal-items.png "Krājumu lapa")
 
 1. Dialoglodziņā **Krājumu informācija** iestatiet tālak norādītos laukus.
 
@@ -75,14 +75,14 @@ Tālāk ir norādītas standarta darbības pasūtījuma iesniegšanai no Debitor
     - **Vienība** — norādiet mērvienību (piemēram, **ea.**, **kg** vai **kaste**).
     - **Prognozētā neto summa** — vērtība tiek aprēķināta kā krājuma paredzētā cena × atlasītās vienības daudzums.
 
-    ![Dialoglodziņš Krājumu informācija](media/customer-portal-item-information.png "Dialoglodziņš Krājumu informācija")
+    ![Dialoglodziņš Krājumu informācija.](media/customer-portal-item-information.png "Dialoglodziņš Krājumu informācija")
 
 1. Atlasiet **Labi**, lai pievienotu krājumu pasūtījumam.
 1. Atkārtojiet 4.–6. darbību, līdz esat pievienojis visus krājumus, ko vēlaties pasūtīt.
 1. Kad esat pabeidzis krājumu pievienošanu, lapā **Krājumi** atlasiet **Tālāk**.
 1. Lapā **Informācija par pasūtījumu** ir sniegts pasūtījuma kopsavilkums. Pārskatiet pasūtījuma saturu un informāciju par piegādi. Ja viss izskatās pareizi, atlasiet **Iesniegt**, lai iesniegtu pasūtījumu.
 
-    ![Pabeigta pasūtījuma informācijas lapa](media/customer-portal-order-submit.png "Pabeigta pasūtījuma informācijas lapa")
+    ![Pabeigta pasūtījuma informācijas lapa.](media/customer-portal-order-submit.png "Pabeigta pasūtījuma informācijas lapa")
 
 ### <a name="standard-data-setup"></a>Standarta datu iestatīšana
 
@@ -147,19 +147,19 @@ Visas Debitoru portālā esošās vadīklas ir iebūvētas Power Apps portālu v
 
 Tikai pielāgota vadīkla, kas ir iekļauta Debitoru portāla veidnē, tiek izmantota, lai izveidotu elementus sākumlapā.
 
-![Elementi sākumlapā](media/customer-portal-home-page-tiles.png "Elementi sākumlapā")
+![Elementi sākumlapā.](media/customer-portal-home-page-tiles.png "Elementi sākumlapā")
 
 Lai modificētu elementus, veiciet tālāk noradītās darbības.
 
 1. Atveriet [Portāla pārvaldības programma](/powerapps/maker/portals/configure/configure-portal).
 1. Navigācijas rūtī kreisajā pusē atlasiet **Lapas veidnes**.
 
-    ![Portāla pārvaldības navigācijas rūts](media/customer-portal-nav.png "Portāla pārvaldības navigācijas rūts")
+    ![Portāla pārvaldības navigācijas rūts.](media/customer-portal-nav.png "Portāla pārvaldības navigācijas rūts")
 
 1. Atlasiet lapas veidni, kuras nosaukums ir **Sākums**.
 1. Laukā **Tīmekļa veidne** atlasiet saiti **Sākums**, lai atvērtu šīs lapas pirmkodu.
 
-    ![Tīmekļa veidnes lauks](media/customer-portal-web-template.png "Tīmekļa veidnes lauks")
+    ![Tīmekļa veidnes lauks.](media/customer-portal-web-template.png "Tīmekļa veidnes lauks")
 
 1. Tagad jums vajadzētu redzēt visu šīs sākumlapas pirmkodu un varat to modificēt pēc vajadzības.
 

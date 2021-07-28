@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 86f15831f11dc9fdcada9639858fd3b18cdc7503
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 35fd48ef300d46d00c07f3231d780d1ba431d8ef
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271105"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350574"
 ---
 # <a name="message-processor-messages"></a>Ziņojumu apstrādātāja ziņojumi
 
@@ -88,15 +88,15 @@ Kā aktivizēšanas procesa daļa jums tiks sniegta informācija, kas norāda, v
 
 1. Sistēmā [Power Automate](https://preview.flow.microsoft.com) izveidojiet jaunu automatizētu mākoņa plūsmu plūsmas trigerim **Kad rodas biznesa notikums - Fin & Ops (Dynamics 365)**, kam seko **Parse JSON** un **Sūtīt e-pasta ziņojumu** darbības, kā parādīts šajā ilustrācijā.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example1.png" alt-text="Power Automate automatizētā mākoņa plūsma":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example1.png" alt-text="Power Automate automatizētā mākoņa plūsma.":::
 
 1. Darbības **Kad rodas biznesa notikums** laikā ir iespējams atrast vai ievadīt centrmezglu **Instance** kas seko **Kategorija** un pēc tam **Biznesa notikums** *Ziņojumu procesora ziņojums apstrādāts* kā parādīts šajā ilustrācijā.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example2.png" alt-text="Power Automate darbība Kad notiek biznesa notikums":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example2.png" alt-text="Power Automate darbība Kad notiek biznesa notikums.":::
 
 1. Darbībai **Parse JSON** ievadiet **Shēmu**, kas definē paplašinātos laukus. Varat izmantot opciju *Lejupielādes shēma* lapā **Biznesa notikumu katalogs** Supply Chain Management vai arī sāciet, ielīmējot parauga shēmas tekstu. Šis piemēra teksts ir parādīts pēc šī ilustrācijas.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example3.png" alt-text="Power Automate Parsēt JSON darbību":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example3.png" alt-text="Power Automate Parsēt JSON darbību.":::
 
     ```json
     {
@@ -183,7 +183,7 @@ Kā aktivizēšanas procesa daļa jums tiks sniegta informācija, kas norāda, v
 
 1. Darbībā **Sūtīt e-pasta zīņojumu** varat atlasīt atsevišķus laukus vai sākt, ielīmējot e-pasta pamatteksta piemēru laukā **Pamatteksts**. Šis piemērs ir parādīts pēc šī ilustrācijas.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example4.png" alt-text="Power Automate darbība Sūtīt e-pasta ziņojumu":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example4.png" alt-text="Power Automate darbība Sūtīt e-pasta ziņojumu.":::
 
     ```plaintext
     Message queue: @{body('Parse_JSON')?['MessageQueue']}

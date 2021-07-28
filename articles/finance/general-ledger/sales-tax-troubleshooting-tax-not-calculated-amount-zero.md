@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: c398579a0a408e7f5625a3e801a967955c4b1e5b
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c731e0284b720394059384e21deea1ea4407718c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020119"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352814"
 ---
 # <a name="tax-isnt-calculated-or-the-tax-amount-is-zero"></a>Nodoklis nav aprēķināts vai nodokļa summa ir nulle
 
@@ -32,17 +32,17 @@ Ja transakcija neatlasa pareizos nodokļu kodus vai neatlasa nodokļu kodus, tai
 
 1. Transakciju rindā kopsavilkuma cilnē **Rindas informācija**, cilnē **Iestatījums** sadaļā **PVN** pārbaudiet, vai pareizās PVN grupas ir atlasītas laukos **Krājumu PVN grupa** un **PVN grupa**. Ja nav atlasītas pareizās nodokļu grupas, atlasiet tās.
 
-    [![Krājumu PVN grupas un PVN grupas lauki](./media/tax-not-calculated-tax-amount-zero-Picture1.png)](./media/tax-not-calculated-tax-amount-zero-Picture1.png)
+    [![Krājumu PVN grupas un PVN grupas lauki.](./media/tax-not-calculated-tax-amount-zero-Picture1.png)](./media/tax-not-calculated-tax-amount-zero-Picture1.png)
 
 2. Dodieties uz **Nodokļi** \> **Netiešie nodokļi** \> **Pārdošanas nodoklis** \> **Pārdošanas nodokļa grupas**.
 3. Atlasiet atbilstošo PVN grupu un pēc tam kopsavilkuma cilnē **Iestatījumi** atzīmējiet PVN kodu laukā **PVN kods**.
 
-    [![PVN grupu lapa](./media/tax-not-calculated-tax-amount-zero-Picture2.png)](./media/tax-not-calculated-tax-amount-zero-Picture2.png)
+    [![PVN grupu lapa.](./media/tax-not-calculated-tax-amount-zero-Picture2.png)](./media/tax-not-calculated-tax-amount-zero-Picture2.png)
 
 4. Dodieties uz **Nodokļi** \> **Netiešie nodokļi** \> **PVN** \> **Krājuma PVN grupas**.
 5. Atlasiet atbilstošo krājumu PVN grupu un pēc tam kopsavilkuma cilnē **Iestatījumi** pārbaudiet, vai PVN kods laukā **PVN kods** atbilst PVN grupas PVN kodam.
 
-    [![Krājuma PVN grupu lapa](./media/tax-not-calculated-tax-amount-zero-Picture3.png)](./media/tax-not-calculated-tax-amount-zero-Picture3.png)
+    [![Krājuma PVN grupu lapa.](./media/tax-not-calculated-tax-amount-zero-Picture3.png)](./media/tax-not-calculated-tax-amount-zero-Picture3.png)
 
 6. Ja nodokļu kodi neatbilst, atjauniniet PVN kodu vienai no grupām.
 
@@ -53,12 +53,12 @@ Ja nodokļu kodi ir neapliekami vai arī nodokļa likme ir 0 (nulle), nodokļu a
 1. Dodieties uz **Nodokļi** \> **Netiešie nodokļi** \> **Pārdošanas nodoklis** \> **Pārdošanas nodokļa grupas**.
 2. Atlasiet atbilstošo PVN grupu un pēc tam kopsavilkuma cilnē **Iestatījumi** pārbaudiet, vai izvēles rūtiņa **Neapliekams** ir notīrīta. Ja tas ir atlasīts, notīriet to.
 
-    [![Neapliekamā izvēles rūtiņa PVN grupu lapā](./media/tax-not-calculated-tax-amount-zero-Picture4.png)](./media/tax-not-calculated-tax-amount-zero-Picture4.png)
+    [![Neapliekamā izvēles rūtiņa PVN grupu lapā.](./media/tax-not-calculated-tax-amount-zero-Picture4.png)](./media/tax-not-calculated-tax-amount-zero-Picture4.png)
 
 3. Dodieties uz **Nodoklis** \> **Netiešie nodokļi** \> **PVN** \> **PVN kodi**.
 4. Atlasiet atbilstošo PVN kodu un pēc tam pārbaudiet, ka nodokļa likmes vērtība laukā **Vērtība** nav 0 (nulle). Ja tā ir 0, atjauniniet lauku tā, lai tas būtu iestatīts uz pareizo nodokļa likmi.
 
-    [![Vērtības lauks lapā PVN kodu vērtības](./media/tax-not-calculated-tax-amount-zero-Picture5.png)](./media/tax-not-calculated-tax-amount-zero-Picture5.png)
+    [![Vērtības lauks lapā PVN kodu vērtības.](./media/tax-not-calculated-tax-amount-zero-Picture5.png)](./media/tax-not-calculated-tax-amount-zero-Picture5.png)
 
 ## <a name="determine-whether-zero-is-the-correct-tax-amount"></a>Noteikt, vai nulle ir pareizā nodokļa summa
 
@@ -67,7 +67,7 @@ Dažos scenārijos nodokļa summa 0 (nulle) ir pareiza. Veiciet šīs darbības,
 1. Dodieties uz **Virsgrāmata** \> **Virsgrāmatas iestatīšana** \> **Virsgrāmatas parametri**.
 2. Cilnē **PVN** laukā **Aprēķina metode** pārbaudiet, vai ir atlasīta **Kopsumma**.
 
-    [![Aprēķina metodes lauks virsgrāmatas parametru lapā](./media/tax-not-calculated-tax-amount-zero-Picture6.png)](./media/tax-not-calculated-tax-amount-zero-Picture6.png)
+    [![Aprēķina metodes lauks virsgrāmatas parametru lapā.](./media/tax-not-calculated-tax-amount-zero-Picture6.png)](./media/tax-not-calculated-tax-amount-zero-Picture6.png)
 
 3. Dodieties uz **Nodoklis** \> **Netiešie nodokļi** \> **PVN** \> **PVN kodi**.
 4. Atlasiet atbilstošo PVN kodu, atlasiet **Aprēķins** \> **Robežbāze** un pārbaudiet, vai aprēķina pamatā ir iestatīta **Rēķina bilances neto summa** vai **rēķina kopsumma, iekļaujot citas PVN summas**. Plašāku informāciju skatiet [Rēķina kopsumma, iekļaujot citas PVN summas](marginal-base-field.md#invoice-total-incl-other-sales-tax-amounts).

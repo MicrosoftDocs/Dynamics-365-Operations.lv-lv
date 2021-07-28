@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 9aac18155fbc7a87554ac0521cd9f40d11eba9e2
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 35a2abaa2165288097bc07b47320e002efc290e7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890835"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348490"
 ---
 # <a name="set-up-electronic-invoicing"></a>Elektronisko rēķinu izrakstīšanas iestatīšana
 
@@ -37,7 +37,7 @@ Konfigurējamība ir atkarīga no elektroniskās ziņošanas (Electronic reporti
 
 Sekojošajā attēlā ir parādīts, elektronisko rēķinu izrakstīšanas līdzekļa galvēnos komponentus.
 
-![Pārskats par elektronisko rēķinu izrakstīšanas līdzekli](media/e-Invoicing-services-feature-setup-Overview-e-Invoicing-feature.png)
+![Pārskats par elektronisko rēķinu izrakstīšanas līdzekli.](media/e-Invoicing-services-feature-setup-Overview-e-Invoicing-feature.png)
 
 Rēķinu formātu un darbības plūsmu izmaiņu dēļ līdzekļa iestatījums var atšķirties atkarībā no valsts vai reģiona, vai atbilstoši biznesa prasībām.
 
@@ -50,7 +50,7 @@ Iestatīšanas process ir jāpabeidz jūsu RCS vidē. Veiciet šīs darbības, l
 3. Lapā **Elektronisko rēķinu izrakstīšanas līdzekļi** atlasiet **Importēt**, lai importētu ER datu modeļa konfigurāciju no globālās krātuves.
 4. Atlasiet **Pievienot**, lai izveidotu elektronisku rēķinu izrakstīšanas līdzekli. Varat vai nu izveidot līdzekli no fragmenta, vai arī iegūt to no pastāvoša elektronisko rēķinu izrakstīšanas līdzekļa.
 
-    ![Elektronisko rēķinu izrakstīšanas līdzekļa pievienošana](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
+    ![Elektronisko rēķinu izrakstīšanas līdzekļa pievienošana.](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
 
 > [!NOTE]
 > Kad izveidojat jaunu elektronisko rēķinu izrakstīšanas līdzekli, tam ir versijas numurs, un tā noklusētais statuss ir iestatīts kā **Melnraksts**.
@@ -63,21 +63,21 @@ Veiciet šīs darbības, lai pievienotu ER formātu elektronisko rēķinu izraks
 
 1. Lapā **Elektronisko rēķinu izrakstīšanas līdzekļi** cilnē **Konfigurācijas** atlasiet **Pievienot** ER faila formāta konfigurācijas elektronisko rēķinu izrakstīšana līdzeklim.
 
-    ![Elektronisko rēķinu izrakstīšanas līdzekļa konfigurācijas](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Configurations.png)
+    ![Elektronisko rēķinu izrakstīšanas līdzekļa konfigurācijas.](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Configurations.png)
 
     > [!NOTE]
     > Kad izveidojat elektronisko rēķinu izrakstīšanas līdzekli no nulles, ir manuāli jāpievieno visas ER faila formāta konfigurācijas. Kad izveidojat elektronisko rēķinu izrakstīšanas līdzekli no esoša līdzekļa, ER faila formāta konfigurācijas tiek veidotas automātiski, jo tās tiek pārmantotas no oriģinālā elektronisko rēķinu izrakstīšanas līdzekļa.
 
 2. Atlasiet **Rediģēt**, lai atvērtu lapu **Formāta veidotājs**, kur varat rediģēt ER faila formāta konfigurāciju.
 
-    ![Elektronisko rēķinu izrakstīšanas līdzekļa rediģēšana](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
+    ![Elektronisko rēķinu izrakstīšanas līdzekļa rediģēšana.](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
 
     > [!NOTE]
     > Rediģējot formātu, konfigurācijas versijas statuss tiek iestatīts uz **Melnraksts**.
 
 3. Lai mainītu failu formāta konfigurāciju, izmantojiet lapu **Formāta veidotājs**. Papildinformāciju skatiet tēmā [Elektronisko dokumentu konfigurāciju izveide](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md).
 
-    ![Formāta veidotāja lapa](media/e-Invoicing-services-feature-setup-ER-Format-designer.png)
+    ![Formāta veidotāja lapa.](media/e-Invoicing-services-feature-setup-ER-Format-designer.png)
 
 ### <a name="feature-setups"></a>Līdzekļa iestatījumi
 
@@ -87,18 +87,18 @@ Veiciet šīs darbības, lai pievienotu līdzekļa iestatījumus elektronisko r�
 
 1. Lapā **Elektronisko rēķinu izrakstīšanas līdzekļi** cilnē **Iestatījumi** atlasiet **Pievienot** līdzekļa iestatījumus elektronisko rēķinu izrakstīšanas līdzeklim.
 
-    ![Elektronisko rēķinu izrakstīšanas līdzekļa iestatījumu pievienošana](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Setups.png)
+    ![Elektronisko rēķinu izrakstīšanas līdzekļa iestatījumu pievienošana.](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Setups.png)
 
     > [!NOTE]
     > Kad izveidojat elektronisko rēķinu izrakstīšanas līdzekli no nulles, ir manuāli jāpievieno visus nepieciešamos līdzekļa iestatījumus. Kad izveidojat elektronisko rēķinu izrakstīšanas līdzekli no esoša līdzekļa, visi līdzekļa iestatījumi tiek veidoti automātiski, jo tie tiek pārmantoti no oriģinālā elektronisko rēķinu izrakstīšanas līdzekļa.
 
 2. Atlasiet **Rediģēt**, lai rediģētu līdzekļa versijas iestatījumu.
 
-    ![Elektronisko rēķinu izrakstīšanas līdzekļa iestatījumu rediģēšana](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Setups.png)
+    ![Elektronisko rēķinu izrakstīšanas līdzekļa iestatījumu rediģēšana.](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Setups.png)
 
 3. Izmantojiet lapu **Līdzekļa versijas iestatīšana**, lai konfigurētu darbības, piemērojamības noteikumi un mainīgos.
 
-    ![Darbības, piemērojamības noteikumi un mainīgie](media/e-Invoicing-services-feature-setup-View-Actions-Applicability-Rules-Variables.png)
+    ![Darbības, piemērojamības noteikumi un mainīgie.](media/e-Invoicing-services-feature-setup-View-Actions-Applicability-Rules-Variables.png)
 
 ### <a name="actions"></a>Darbības
 
@@ -113,7 +113,7 @@ Lapā **Līdzekļu versiju iestatīšana** cilnē **Darbības**, kas atrodas kop
 - Atlasiet **Jauns** vai **Dzēst**, lai pievienotu jaunas darbības vai dzēstu esošās darbības.
 - Atlasiet **Uz augšu** vai **Uz leju**, lai pārvietotu atlasītās darbības režģī uz augšu vai uz leju, un tādējādi mainiet secību, kādā tie tiek izpildīti. Darbības tiek izpildītas tādā secībā, kādā tās parādās režģī, no sākuma līdz beigām.
 
-![Darbību pārvaldība](media/e-Invoicing-services-feature-setup-Manage-Actions.png)
+![Darbību pārvaldība.](media/e-Invoicing-services-feature-setup-Manage-Actions.png)
 
 Tālāk esošajā tabula apraksta laukus, kas ir pieejami **Darbības** kopsavilkuma cilnē.
 
@@ -129,7 +129,7 @@ Tālāk esošajā tabula apraksta laukus, kas ir pieejami **Darbības** kopsavil
 
 Kopsavilkuma cilne **Parametri** uzskaita parametrus darbībai, kas atlasīta kopsavilkuma cilnē **Darbības**.
 
-![Kopsavilkuma cilne Parametri](media/e-Invoicing-services-feature-setup-View-Actions-Parameters.png)
+![Kopsavilkuma cilne Parametri.](media/e-Invoicing-services-feature-setup-View-Actions-Parameters.png)
 
 Tālāk esošajā tabula apraksta laukus, kas ir pieejami **Parametri** kopsavilkuma cilnē.
 
@@ -259,20 +259,20 @@ Piemērojamības noteikumi ļauj izveidot loģiskus noteikumus, kas nosaka līdz
 
 1. Lapā **Līdzekļu versijas iestatīšana** cilnē **Piemērojamības noteikumi** atlasiet **Jauns**, lai pievienotu piemērojamības noteikumu.
 
-    ![Piemērojamības noteikumu pārvaldība](media/e-Invoicing-services-feature-setup-Manage-Actions-Applicability-rules.png)
+    ![Piemērojamības noteikumu pārvaldība.](media/e-Invoicing-services-feature-setup-Manage-Actions-Applicability-rules.png)
 
 2. Režģī atlasiet klauzulas, kas jāsagrupē.
 3. Atlasiet **Grupas klauzula**.
 
-    ![Klauzulu grupēšana](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-clause.png)
+    ![Klauzulu grupēšana.](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-clause.png)
 
     Kad klauzulas tiek grupētas, režģim tiek pievienota jauna kolonna. Šī kolonna norāda grupēto klauzulu loģisko operatoru.
 
-    ![Grupētu klauzulu loģiskais operators](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-criterias.png)
+    ![Grupētu klauzulu loģiskais operators.](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-criterias.png)
 
 Lai atgrupētu klauzulas, atlasiet grupētās klauzulas atgrupēšanai un pēc tam atlasiet **Atgrupēt klauzulu**.
 
-![Klauzulu atgrupēšana](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-UnGroup-criterias.png)
+![Klauzulu atgrupēšana.](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-UnGroup-criterias.png)
 
 > [!NOTE]
 > Atgrupējot klauzulu, vienmēr sāciet no iekšējā grupēšanas līmeņa.
@@ -294,7 +294,7 @@ Varat izveidot mainīgos un pēc tam izmantot tos kā ievades vērtību konkrēt
 
 - Lapas **Līdzekļu versijas iestatīšana** cilnē **Mainīgie** atlasiet **Jauns** vai **Dzēst**, lai pārvaldītu mainīgos.
 
-    ![Mainīgo pārvaldība](media/e-Invoicing-services-feature-setup-Manage-Variables.png)
+    ![Mainīgo pārvaldība.](media/e-Invoicing-services-feature-setup-Manage-Variables.png)
 
 Tālāk esošajā tabula apraksta laukus, kas ir pieejami **Mainīgie** cilnē.
 
@@ -310,7 +310,7 @@ Tālāk esošajā tabula apraksta laukus, kas ir pieejami **Mainīgie** cilnē.
 
 - Lapā **Līdzekļu versijas iestatīšana**, kas atrodas darbības rūtī, atlasiet **Validēt**, lai validētu līdzekļa versijas iestatījumu.
 
-   ![Pogas Validēt atlasīšana](media/e-Invoicing-services-feature-setup-Select-Validate-Button.png)
+   ![Pogas Validēt atlasīšana.](media/e-Invoicing-services-feature-setup-Select-Validate-Button.png)
 
 Validācija pārbauda visas konfigurācijas konsekvenci. Piemēram, ja noteikts darbības parametrs ir obligāts, bet tā vērtība paliek tukša, validācija atklāj šo neatbilstību, un jūs saņemat brīdinājumu.
 
@@ -323,7 +323,7 @@ Lai iespējotu Elektronisko rēķinu izrakstīšanas vidi elektronisko rēķinu 
 1. Lapā **Elektronisko rēķinu izrakstīšanas līdzekļi** cilnē **Vides** atlasiet **Iespējot** līdzekļa iestatījumus elektronisko rēķinu izrakstīšanas vidi.
 2. Laukā **Spēkā no** ievadiet datumu, kad jauna vide stājās spēkā.
 
-![Iespējot elektronisko rēķinu izrakstīšanas vidi](media/e-Invoicing-services-feature-setup-Select-Enable-e-Invoicing-feature-Environment.png)
+![Iespējot elektronisko rēķinu izrakstīšanas vidi.](media/e-Invoicing-services-feature-setup-Select-Enable-e-Invoicing-feature-Environment.png)
 
 ## <a name="organizations"></a>Organizācijas
 

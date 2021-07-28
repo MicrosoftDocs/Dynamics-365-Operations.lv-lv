@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: c31564fdc40cb0cba82b9ab8fbfdfee7adf4f4ee
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 579f2946bceceaacc3e4f1d664a5211ce40f705e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053013"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353690"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>Atvieglojumu programmas definēšana un pārvaldība
 
@@ -32,7 +32,7 @@ Personāla vadība sniedz rīkus, ko var izmantot, lai iestatītu un uzturētu a
 
 Pirms darbiniekiem var reģistrēt atvieglojumus, jāizveido katra atvieglojuma elementi. Šie elementi apvienot līdzīgus atvieglojumu plānus un nosaka noklusējuma iestatījumus, piemēram, ieturējumu likmes un informāciju par uzskaiti. Daudzus no šiem iestatījumiem var pielāgot, kad darbinieki tiek vēlāk reģistrēti atvieglojumiem. Katram atvieglojumu plānam organizācija var piedāvāt vairākas reģistrācijas opcijas, vai darbinieks var atteikties no reģistrācijas plānā. 
 
-[![Atvieglojumu procesa plūsma](./media/benefit-process-flow1.png)](./media/benefit-process-flow1.png)
+[![Atvieglojumu procesa plūsma.](./media/benefit-process-flow1.png)](./media/benefit-process-flow1.png)
 
 ## <a name="benefit-elements"></a>Atvieglojumu elementi
 
@@ -44,7 +44,7 @@ Pirms sākat veidot atvieglojumus un reģistrēt tajos darbiniekus, ir jādefin�
 
 Katram atvieglojumu tipam, piemēram, redzes vai zobu, organizācija saviem darbiniekiem var piedāvāt vienu vai vairākus plānus. Katram plānam organizācija var piedāvāt dažādas opcijas. Piemēram, darbinieki var iegādāties papildu termiņa dzīvības apdrošināšanas segumu, kas vienu, divas vai trīs reizes pārsniedz gada algu. Katra plānu un opciju kombinācija kļūst par atvieglojumu, kuram darbinieki var reģistrēties. 
 
-[![Atvieglojumu attēls](./media/benefit-pic.png)](./media/benefit-pic.png)
+[![Atvieglojumu attēls.](./media/benefit-pic.png)](./media/benefit-pic.png)
 
 ## <a name="eligibility"></a>Piemērojamība
 Daudzi faktori ietekmē darbinieka atbilstību dažādiem atvieglojumu tipiem, kurus piedāvā darba devējs. Kad veidojat atvieglojumu Dynamics 365 Human Resources, varat iestatīt piemērojamības tipu, kas attiecas uz šo atvieglojumu. 

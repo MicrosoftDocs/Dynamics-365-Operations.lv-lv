@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 260594
+ms.custom:
+- "260594"
+- intro-internal
 ms.assetid: 6fc835ef-d62e-4f23-9d49-50299be642ca
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: e495ac4f3cc55503cc8b15d4d4640d3468ab7cd2
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 679c8d7895ac82236c12732e1080529f44231947
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936734"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349630"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Debitoru pasūtījumi Pārdošanas punktā (POS)
 
@@ -44,7 +46,7 @@ Pirms mēģināt punktā POS izmantot debitora pasūtījumu funkcionalitāti, p�
 
 Lai lietotu debitoru pasūtījumus, ir jākonfigurē piegādes veidi, ko var izmantot krātuves kanāls. Ir jādefinē vismaz viens piegādes veids, ko var izmantot, kad pasūtījuma rindas tiek nosūtītas debitoram no krātuves. Ir arī jādefinē vismaz viens paņemšanas piegādes veids, ko var izmantot, kad pasūtījuma rindas tiek paņemtas no krātuves. Piegādes veidi ir definēti programmas Commerce Headquarters lapā **Piegādes veidi** . Papildinformāciju par to, kā iestatīt Commerce kanālu piegādes veidus, skatiet rakstā [Piegādes veidu definēšana](./configure-call-center-delivery.md#define-delivery-modes).
 
-![Piegādes veidu lapa](media/customer-order-modes-of-delivery.png)
+![Piegādes veidu lapa.](media/customer-order-modes-of-delivery.png)
 
 
 ### <a name="set-up-fulfillment-groups"></a>Izpildes grupu iestatīšana
@@ -53,7 +55,7 @@ Dažas krātuves vai noliktavas var nespēt izpildīt debitoru pasūtījumus. Ko
 
 Commerce versijā 10.0.12 un vēlākā versijā, organizācijas var noteikt, vai noliktavas vai noliktavas un krātuves kombinācijas, kas definētas izpildes grupās, var tikt izmantotas nosūtīšanai, saņemšanai vai gan piegādei, gan saņemšanai. Tas ļauj uzņēmumam piešķirt papildu elastību, nosakot, kuras noliktavas var atlasīt, izveidojot debitora pasūtījumu krājumiem nosūtīšanai pret to, kuri veikali var tikt atlasīti, izveidojot debitora pasūtījumu krājumiem savākšanai. Lai izmantotu šīs konfigurācijas opcijas, ieslēdziet līdzekli **Spēja noteikt atrašanās vietas kā "nosūtīšana" vai "saņemšana", kas ir iespējotas izpildes grupās** . Ja noliktava, kas ir saistīta ar izpildes grupu, nav krātuve, to var konfigurēt tikai kā nosūtīšanas vietu. To nevar izmantot, ja saņemšanas pasūtījumi tiek konfigurēti POS punktā.
 
-![Izpildes grupu lapa](media/customer-order-fulfillment-group.png)
+![Izpildes grupu lapa.](media/customer-order-fulfillment-group.png)
 
 ### <a name="configure-channel-settings"></a>Kanāla iestatījumu konfigurēšana
 
@@ -65,7 +67,7 @@ Strādājot ar klientu pasūtījumiem POS punktā, ir jāapsver daži krātuves 
 - **Izmantot mērķa nodokli** – Šī opcija norāda, vai piegādes adrese tiek izmantota, lai noteiktu nodokļu grupu, kas tiek lietota pasūtījuma rindām, kas tiek nosūtītas uz debitora adresi.
 - **Izmantot uz debitoru balstītu nodokli** – Šī opcija norāda, vai nodokļu grupa, kas ir noteikta klienta piegādes adresei, tiek izmantota debitoru pasūtījumu apmaksai, kas tiek izveidoti POS punktā nosūtīšanai uz klienta mājām.
 
-![Krātuves kanāla iestatīšana lapā Krātuves](media/customer-order-all-stores.png)
+![Krātuves kanāla iestatīšana lapā Krātuves.](media/customer-order-all-stores.png)
 
 ### <a name="set-up-customer-order-parameters"></a>Iestatīt debitora pasūtījuma parametrus
 
@@ -80,7 +82,7 @@ Pirms jūs mēģināt izveidot debitoru pasūtījumus POS punktā, ir jākonfigu
 - **Piegādes maksas kods** – Ja opcija **Izmantot papildu automātiskās maksas** ir iestatīta uz **Jā**, šim parametru iestatījumam nav efekta. Ja šī opcija ir iestatīta uz **Nē**, lietotājiem tiek piedāvāts manuāli ievadīt piegādes maksu, kad tie izveido debitoru pasūtījumus POS punktā. Izmantojiet šo parametru, lai kartētu debitoru parādu maksas kodu, kas tiks lietots pasūtījumiem, kad lietotāji ievada piegādes maksu. Maksas kods definē piegādes maksas finanšu grāmatošanas loģiku.
 - **Izmantot papildu automātiskās maksas** – Iestatiet šo opciju uz **Jā** , lai izmantotu sistēmas aprēķinātās automātiskās maksas, kad debitora pasūtījumi tiek izveidoti POS punktā. Šīs automātiskās maksas var izmantot, lai aprēķinātu piegādes maksas vai citus pasūtījuma vai krājuma specifiskās izmaksas. Papildinformāciju par to, kā iestatīt un lietot papildu automātiskās izmaksas, skatiet [Omni-kanālu uzlabotās automātiskās maksas](./omni-auto-charges.md).
 
-![Cilne Klientu pasūtījumi lapā Commerce parametri](media/customer-order-parameters.png)
+![Cilne Klientu pasūtījumi lapā Commerce parametri.](media/customer-order-parameters.png)
 
 ### <a name="update-transaction-screen-layouts-in-pos"></a>Atjaunināt transakcijas ekrāna izkārtojumus POS punktā
 
@@ -95,7 +97,7 @@ Pārliecinieties, ka POS punktā [ekrāna izkārtojums](./pos-screen-layouts.md)
 - **Mainīt piegādes veidu** – Šo operāciju var izmantot, lai ātri mainītu piegādes veidu rindām, kas jau ir konfigurētas nosūtīšanai, nepieprasot, lai lietotāji no jauna izietu cauri plūsmai "nosūtīt visas preces" vai "nosūtīt atlasītās preces".
 - **Depozīta pārlabošana** — Šo operāciju var izmantot, lai izmainītu depozīta summu, ko debitors maksās par atlasīto debitora pasūtījumu.
 
-![Operācijas POS darbības ekrānā](media/customer-order-screen-layout.png)
+![Operācijas POS darbības ekrānā.](media/customer-order-screen-layout.png)
 
 ## <a name="work-with-customer-orders-in-pos"></a>Darbs ar debitoru pasūtījumiem POS punktā
 

@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f50bc2828df19062a6bdced6faaa7b4d66c38bed
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 52d8b1055517bc544eea6a8e405a8b6d5c0eee0a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792779"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356858"
 ---
 # <a name="distributed-order-management-dom"></a>Sadalīto pasūtījumu pārvaldība (DOM)
 
@@ -34,9 +34,9 @@ DOM optimizē pasūtījumu izpildīšanu kompleksā sistēmu un procesu tīklā.
 
 Šajā attēlā parādīts pārdošanas pasūtījuma dzīves cikls DOM sistēmā.
 
-![Pārdošanas pasūtījuma dzīves cikls DOM kontekstā](./media/flow.png "Pārdošanas pasūtījuma dzīves cikls DOM kontekstā")
+![Pārdošanas pasūtījuma dzīves cikls DOM kontekstā.](./media/flow.png "Pārdošanas pasūtījuma dzīves cikls DOM kontekstā")
 
-## <a name="set-up-dom"></a>DOM iestatīšana
+## <a name="set-up-dom"></a>DOM iestatīšana
 
 1. Dodieties uz **Sistēmas administrēšana \> Iestatījumi \> Licences konfigurācija**.
 2. Cilnē **Konfigurācijas atslēgas** izvērsiet mezglu **Tirdzniecība** un pēc tam atzīmējiet izvēles rūtiņu **Sadalīto pasūtījumu pārvaldība**.
@@ -200,7 +200,7 @@ Apstrādes laikā DOM ņem vērā pasūtījumu un pasūtījuma rindas, kā aprak
 
 Pēc kārtulu, krājumu ierobežojumu un optimizācijas lietošanas DOM izvēlas vietu, kas ir vistuvāk klienta piegādes adresei.
 
-![Pārdošanas pasūtījumu kritēriji](./media/ordercriteria.png "Pārdošanas pasūtījumu kritēriji")
+![Pārdošanas pasūtījumu kritēriji.](./media/ordercriteria.png "Pārdošanas pasūtījumu kritēriji")
 
 ## <a name="results-of-dom-runs"></a>DOM izpildes rezultāti
 

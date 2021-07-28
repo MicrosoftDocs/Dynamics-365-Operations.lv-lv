@@ -1,6 +1,6 @@
 ---
-title: Konfigurācija Finance Insights – versijām līdz 10.0.19
-description: Šajā tēmā ir izskaidrotas konfigurācijas darbības, kas ļaus jūsu sistēmai izmantot iespējas, kas pieejamas Finance Insights versijām līdz 10.0.19.
+title: Konfigurācija Finance Insights – pirms versijas 10.0.19
+description: Šajā tēmā ir izskaidrotas konfigurācijas darbības, kas ļaus jūsu sistēmai izmantot iespējas, kas pieejamas Finance Insights versijām pirms 10.0.19.
 author: ShivamPandey-msft
 ms.date: 06/03/2021
 ms.topic: article
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 6ad06bb6d041fc060b3a99538f6d4d0af333180f
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 6b578962839a34a1e2ce0311f7d8e7ee57a10927
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186424"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357442"
 ---
-# <a name="configuration-for-finance-insights-preview"></a>Konfigurācijas Finance Insights (priekšskatījums)
+# <a name="configuration-for-finance-insights-for-private-preview-preview---before-version-10019"></a>Finance Insights konfigurācija privātam priekšskatījumam (priekšskatījums) – pirms versijas 10.0.19
 
 [!include [banner](../includes/banner.md)]
 
@@ -31,7 +31,7 @@ ms.locfileid: "6186424"
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!NOTE]
-> Tālāk norādītās procedūras Finance Insights iestatīšanai ir derīgas Microsoft Dynamics 365 Finance versijām līdz 10.0.19. Lai iestatītu Finance Insights versijā 10.0.20 vai jaunākā, skatiet [Finance Insights (priekšskatījuma) konfigurāciju – versijai 10.0.20 un jaunākām](configure-for-fin-insites-PubPrvw.md).
+> Tālāk norādītās procedūras Finance Insights iestatīšanai ir derīgas Microsoft Dynamics 365 Finance pirms versijas 10.0.19. Lai iestatītu Finance Insights versijā 10.0.20 vai jaunākā, skatiet [Finance Insights (priekšskatījuma) konfigurāciju – versijai 10.0.20 un jaunākām](configure-for-fin-insites-PubPrvw.md).
 
 Finance Insights apvieno Microsoft Dynamics 365 Finance funkcionalitāti ar Microsoft Dataverse, Azure un AI Builder, lai nodrošinātu jaudīgus prognozēšanas rīkus jūsu organizācijai. Šajā tēmā ir izskaidrotas konfigurācijas darbības, kas ļaus jūsu sistēmai izmantot iespējas, kas pieejamas Finance Insights.
 
@@ -59,7 +59,7 @@ Izmantojiet tālāk norādītās darbības, lai konfigurētu Dataverse programma
 
     1. Atveriet lapu **Vides**.
 
-        [![Lapa Vides](./media/power-pltfrm-admin-center.png)](./media/power-pltfrm-admin-center.png)
+        [![Lapa Vides.](./media/power-pltfrm-admin-center.png)](./media/power-pltfrm-admin-center.png)
 
     2. Atlasiet Dataverse vidi, kas izveidota iepriekš, un pēc atlasiet **Iestatījumi**.
     3. Atlasiet **Resursi \> Visi mantotie iestatījumi**.
@@ -792,6 +792,8 @@ Pievienojumprogramma tiks instalēta dažu minūšu laikā.
     | CDS organizācijas URL                                     | Iepriekš kopētais Dataverse organizācijas URL. |
     | CDS org. ID                                               | Iepriekš kopētais Dataverse organizācijas ID. |
 5. Iespējot **Vai šī ir nomnieka noklusējuma vide**.
+
+Pievienojumprogrammas instalēšana var ilgt vairākas minūtes.
     
 ## <a name="configure-the-entity-store"></a>Elementu krātuves konfigurēšana
 

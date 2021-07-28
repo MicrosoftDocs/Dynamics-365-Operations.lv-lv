@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 03150ccdaeaf48754f04a4329cb1bc14ea2b6895
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a9215672f4ace591bf7d964c8fbd3ad483bacca5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840417"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360428"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Sūtījumu konsolidācijas politiku konfigurēšana
 
@@ -179,7 +179,7 @@ Sekojiet šiem soļiem, lai izveidotu sūtījuma konsolidācijas politiku šim b
 1. Atstājiet opciju **Konsolidēt ar atvērtu sūtījumu** uz *Nē*.
 1. Darbību rūtī atlasiet **Saglabāt**.
 1. Kopsavilkuma cilnē **Konsolidācijas lauki** sarakstā **Atlikušie lauki**, atlasiet rindu, kur lauks **Lauka nosaukums** ir iestatīts uz *Piegādes veids*.
-1. Atlasiet pogu **Pievienot** ![Labā bultiņa](media/forward-button.png), lai pārvietotu lauku uz sarakstu **Atlasītie lauki**.
+1. Atlasiet **Pievienot** pogu ![Labā bultiņa.](media/forward-button.png) lai pārvietotu lauku uz **Atlasītie lauki** sarakstu.
 1. Darbību rūtī atlasiet **Rediģēt vaicājumu**.
 1. Dialoglodziņa vaicājumu redaktorā cilnē **Diapazons**, kas atrodas režģī, atrodiet rindu, kur **Lauka** lauks ir iestatīts uz *Debitora konts*, un iestatiet lauku **Kritēriji** uz *US-001*.
 1. Atlasiet **Pievienot**, lai pievienotu rindu, kurai režģī ir šādi iestatījumi:
@@ -214,7 +214,7 @@ Sekojiet šiem soļiem, lai izveidotu sūtījuma konsolidācijas politiku šim b
 1. Iestatiet opciju **Konsolidēt ar atvērtu sūtījumu** uz *Jā*.
 1. Darbību rūtī atlasiet **Saglabāt**.
 1. Kopsavilkuma cilnē **Konsolidācijas lauki** sarakstā **Atlikušie lauki**, atlasiet rindu, kur lauks **Lauka nosaukums** ir iestatīts uz *Piegādes veids*.
-1. Atlasiet pogu **Pievienot** ![Labā bultiņa](media/forward-button.png), lai pārvietotu lauku uz sarakstu **Atlasītie lauki**.
+1. Atlasiet **Pievienot** pogu ![Labā bultiņa.](media/forward-button.png) lai pārvietotu lauku uz **Atlasītie lauki** sarakstu.
 1. Darbību rūtī atlasiet **Rediģēt vaicājumu**.
 1. Vaicājumu redaktora dialoglodziņā cilnē **Savienojumi** izvērsiet un atlasiet **Tabulas \> Noslodzes detaļas** kokā.
 1. Atlasiet **Pievienot tabulu savienojumu**.
@@ -251,9 +251,9 @@ Sekojiet šiem soļiem, lai izveidotu sūtījuma konsolidācijas politiku šim b
 1. Iestatiet opciju **Konsolidēt ar atvērtu sūtījumu** uz *Jā*.
 1. Darbību rūtī atlasiet **Saglabāt**.
 1. Kopsavilkuma cilnē **Konsolidācijas lauki** sarakstā **Atlikušie lauki**, atlasiet rindu, kur lauks **Lauka nosaukums** ir iestatīts uz *Debitora pieprasījums*.
-1. Atlasiet pogu **Pievienot** ![Labā bultiņa](media/forward-button.png), lai pārvietotu lauku uz sarakstu **Atlasītie lauki**.
+1. Atlasiet **Pievienot** pogu ![Labā bultiņa.](media/forward-button.png) lai pārvietotu lauku uz **Atlasītie lauki** sarakstu.
 1. Sarakstā **Atlikušie lauki**, atlasiet rindu, kur lauks **Lauka nosaukums** ir iestatīts uz *Piegādes veids*.
-1. Atlasiet pogu **Pievienot** ![Labā bultiņa](media/forward-button.png), lai pārvietotu lauku uz sarakstu **Atlasītie lauki**.
+1. Atlasiet **Pievienot** pogu ![Labā bultiņa.](media/forward-button.png) lai pārvietotu lauku uz **Atlasītie lauki** sarakstu.
 1. Darbību rūtī atlasiet **Rediģēt vaicājumu**.
 1. Dialoglodziņa vaicājumu redaktorā cilnē **Diapazons** atrodiet rindu, kur **Lauka** lauks ir iestatīts uz *Debitora konts*, un iestatiet lauku **Kritēriji** uz *US-001*.
 1. Atlasiet **Labi**, lai aizvērtu dialoglodziņu.
@@ -283,7 +283,7 @@ Sekojiet šiem soļiem, lai izveidotu sūtījuma konsolidācijas politiku šim b
 1. Atstājiet opciju **Konsolidēt ar atvērtu sūtījumu** uz *Nē*.
 1. Darbību rūtī atlasiet **Saglabāt**.
 1. Kopsavilkuma cilnē **Konsolidācijas lauki** sarakstā **Atlikušie lauki**, atlasiet rindu, kur lauks **Lauka nosaukums** ir iestatīts uz *Piegādes veids*.
-1. Atlasiet pogu **Pievienot** ![Labā bultiņa](media/forward-button.png), lai pārvietotu lauku uz sarakstu **Atlasītie lauki**.
+1. Atlasiet **Pievienot** pogu ![Labā bultiņa.](media/forward-button.png) lai pārvietotu lauku uz **Atlasītie lauki** sarakstu.
 1. Darbību rūtī atlasiet **Rediģēt vaicājumu**.
 1. Vaicājuma redaktora dialoglodziņā cilnē **Diapazons** atlasiet **Pievienot**, lai pievienotu rindu, kurai režģī ir šādi iestatījumi:
 
@@ -317,7 +317,7 @@ Parasti šo biznesa gadījumu var risināt, izmantojot noklusējuma politikas, k
 1. Atstājiet opciju **Konsolidēt ar atvērtu sūtījumu** uz *Nē*.
 1. Darbību rūtī atlasiet **Saglabāt**.
 1. Kopsavilkuma cilnē **Konsolidācijas lauki** laukā **Atlikušie lauki** atlasiet rindu, kur lauks **Lauka nosaukums** ir iestatīts uz *Piegādes veids*.
-1. Atlasiet pogu **Pievienot** ![Labā bultiņa](media/forward-button.png), lai pārvietotu lauku uz sarakstu **Atlasītie lauki**.
+1. Atlasiet **Pievienot** pogu ![Labā bultiņa.](media/forward-button.png) lai pārvietotu lauku uz **Atlasītie lauki** sarakstu.
 1. Darbību rūtī atlasiet **Rediģēt vaicājumu**.
 1. Dialoglodziņa vaicājumu redaktorā cilnē **Diapazons** atrodiet rindu, kur **Lauka** lauks ir iestatīts uz *Noliktava*, un iestatiet lauku **Kritēriji** uz *61, 63*.
 1. Atlasiet **Labi**, lai aizvērtu dialoglodziņu.

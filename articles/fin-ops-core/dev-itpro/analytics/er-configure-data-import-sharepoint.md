@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 582a59f72e0e59f58191aeb00a7605b0ea08b2d3
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 48c5b876108d877a03785f1ed1d48261f22b124b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753796"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357622"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Datu importēšanas no SharePoint konfigurēšana
 
@@ -47,13 +47,13 @@ Noskatieties uzdevumu ceļvežus **ER: datu importēšana no Microsoft Excel fai
 - ER modeļa konfigurācija **1099 maksājumu modelis**
 - ER formāta konfigurācija **Formāts kreditoru transakciju importēšanai no Excel**
 
-![ER konfigurācijas datu importēšanai no SharePoint](./media/GERImportFromSharePoint-01-Configurations.PNG)
+![ER konfigurācijas datu importēšanai no SharePoint.](./media/GERImportFromSharePoint-01-Configurations.PNG)
 
 #### <a name="sample-of-the-incoming-file-for-data-import"></a>Ienākošā faila paraugs datu importēšanai
 
 - Excel fails **1099import-data.xlsx** ar kreditoru transakcijām, kas ir jāimportē programmā.
 
-![Excel faila paraugs importēšanai no SharePoint](./media/GERImportFromSharePoint-02-Excel.PNG)
+![Excel faila paraugs importēšanai no SharePoint.](./media/GERImportFromSharePoint-02-Excel.PNG)
     
 > [!NOTE]
 > Formāts kreditoru transakciju importēšanai ir atlasīts kā noklusējuma modeļa kartēšana. Tādēļ, ja palaižat modeļa kartēšanu **1099 maksājumu modelis** un šī modeļa kartēšana ir ar tipu **Uz galamērķi**, modeļa kartēšana palaiž šo formātu, lai importēt datus no ārējiem failiem. Pēc tam tā izmanto šos datus, lai atjauninātu programmas tabulas.
@@ -68,7 +68,7 @@ Lai glabātu elektronisko pārskatu failus SharePoint vietā, ir jākonfigurē p
      - Failu importēšanas avots (Galvenais) (Piemērs parādīts ekrānuzņēmumā tālāk)
      - Failu importēšanas avots (alternatīvais)
 
-    ![Failu importēšanas avots (galvenais)](./media/GERImportFromSharePoint-04-SharePointFolder1.png)
+    ![Failu importēšanas avots (galvenais).](./media/GERImportFromSharePoint-04-SharePointFolder1.png)
 
 4. (Neobligāti) Failu glabāšanai pēc importēšanas izveidojiet tālāk norādītās mapes. 
 
@@ -87,7 +87,7 @@ Lai glabātu elektronisko pārskatu failus SharePoint vietā, ir jākonfigurē p
 |SP brīdinājums             |Fails                |SharePoint     |Failu ar brīdinājumiem mape|
 |SP kļūda             |Fails                |SharePoint     |Kļūdaino failu mape|
 
-![SharePoint iestatījums — jauns dokumentu tips](./media/GERImportFromSharePoint-06-SharePointDocumentTypesSetup.png)
+![SharePoint iestatījums — jauns dokumentu tips.](./media/GERImportFromSharePoint-06-SharePointDocumentTypesSetup.png)
 
 ## <a name="configure-er-sources-for-the-er-format"></a>ER avotu konfigurēšana ER formātam
 1. Noklikšķiniet uz **Organizācijas administrēšana** \> **Elektroniskie pārskati** \> **Elektronisko pārskatu avots**.
@@ -96,7 +96,7 @@ Lai glabātu elektronisko pārskatu failus SharePoint vietā, ir jākonfigurē p
 4. Mainiet iestatījumu **Kārtot failus pirms importēšanas** uz **Nekārtot**, ja ir vairāki faili importēšanai un importēšanas secība nav svarīga.
 5. Atlasiet visas iepriekš izveidotās SharePoint mapes.
 
-    [![ER failu avota iestatījums](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)
+    [![ER failu avota iestatījums.](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)
 
 > [!NOTE]
 > - ER *avots* tiek definēts katram programmas uzņēmumam atsevišķi. Savukārt ER *konfigurācijas* tiek koplietotas dažādos uzņēmumos.
@@ -114,7 +114,7 @@ Varat arī atvērt lapu **Failu stāvokļi avotiem**, atlasot **Organizācijas a
 ## <a name="import-data-from-excel-files-that-are-in-a-sharepoint-folder"></a>Datu importēšana no Excel failiem, kas atrodas SharePoint mapē
 1. Pakalpojumā SharePoint augšupielādējiet Microsoft Excel failu **1099import-data.xlsx**, kurā ir ietvertas kreditoru transakcijas, iepriekš izveidotajā SharePoint mapē **Failu importēšanas avots (galvenais)**.
 
-    [![SharePoint saturs — importējamais Microsoft Excel fails](./media/GERImportFromSharePoint-08-UploadFile.png)](./media/GERImportFromSharePoint-08-UploadFile.png)
+    [![SharePoint saturs — importējamais Microsoft Excel fails.](./media/GERImportFromSharePoint-08-UploadFile.png)](./media/GERImportFromSharePoint-08-UploadFile.png)
 
 2. Lapā **Failu stāvokļi avotiem** atlasiet **Atsvaidzināt**, lai šo lapu atsvaidzinātu. Pakalpojumā SharePoint augšupielādētajam Excel failam šajā lapā tiek rādīts statuss **Gatavs**. Pašlaik tiek atbalstīti tālāk norādītie statusi.
 
@@ -124,19 +124,19 @@ Varat arī atvērt lapu **Failu stāvokļi avotiem**, atlasot **Organizācijas a
     - **Nesekmīgi** — ER pārskats to piešķir automātiski, kad faila importēšana ir pabeigta ar kļūdām vai izņēmumiem.
     - **Aizturēts** — to manuāli piešķir šīs lapas lietotājs. Šis statuss nozīmē, ka fails pagaidām netiks importēts. Šo statusu var izmantot, lai atliktu dažu failu importēšanu.
 
-    [![Atjaunināta ER failu stāvokļu lapa atlasītajiem avotiem](./media/GERImportFromSharePoint-09-FileStatesForm.png)](./media/GERImportFromSharePoint-09-FileStatesForm.png)
+    [![Atjaunināta ER failu stāvokļu lapa atlasītajiem avotiem.](./media/GERImportFromSharePoint-09-FileStatesForm.png)](./media/GERImportFromSharePoint-09-FileStatesForm.png)
 
 ## <a name="import-data-from-sharepoint-files"></a>Datu importēšana no SharePoint failiem
 1. Atveriet ER konfigurāciju koku, atlasiet **1099 maksājumu modelis** un izvēstiet ER modeļa komponentu sarakstu.
 2. Atlasiet modeļa kartēšanas nosaukumu, lai atvērtu sarakstu ar atlasītās ER modeļa konfigurācijas modeļa kartējumiem.
 
-    [![Lapa Konfigurācija](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)
+    [![Lapa Konfigurācija.](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)
 
 3. Atlasiet **Palaist**, lai palaistu atlasīto modeļa kartēšanu. Tā kā jūs konfigurējāt failu avotus šim ER formātam, pēc nepieciešamības varat mainīt opcijas **Faila avots** iestatījumu. Ja saglabājat šīs opcijas iestatījumu, no konfigurētajiem avotiem (šajā piemērā no SharePoint mapēm) tiek importēti .xslx formāta faili.
 
     Šajā piemērā jūs importējat tikai vienu failu. Taču, ja ir pieejami vairāki faili, tie tiek atlasīti importēšanai tādā secībā, kādā tie tika pievienoti SharePoint mapei. Katra ER formāta palaišana importē vienu atlasīto failu.
 
-    [![Importēšana no SharePoint un ER modeļa kartēšanas palaišana](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)
+    [![Importēšana no SharePoint un ER modeļa kartēšanas palaišana.](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)
 
 4. Modeļa kartēšanu var palaist [neuzraudzītu](#limitations) partijas režīmā. Tādā gadījumā katru reizi, kad partija palaiž šo ER formātu, tiek importēts viens fails no konfigurētajiem failu avotiem.
 
@@ -144,11 +144,11 @@ Varat arī atvērt lapu **Failu stāvokļi avotiem**, atlasot **Organizācijas a
 
 5. Ievadiet dokumenta ID, piemēram, **V-00001**, un pēc tam atlasiet **Labi**.
 
-    [![ER modeļa kartēšanas palaišana](./media/GERImportFromSharePoint-12-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-12-ModelMappingRunFinished.PNG)
+    [![ER modeļa kartēšanas palaišana.](./media/GERImportFromSharePoint-12-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-12-ModelMappingRunFinished.PNG)
 
 6. Lapā **Failu stāvokļi avotiem** atlasiet **Atsvaidzināt**, lai šo lapu atsvaidzinātu.
 
-    [![ER failu stāvokļi avotu lapai](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)
+    [![ER failu stāvokļi avotu lapai.](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)
 
 7. Sadaļā **Faili** pārskatiet failu sarakstu. Sadaļā **Avotu žurnāls importa formātam** ir sniegta Excel faila importēšanas vēsture. Tā kā šis fails ir sekmīgi importēts, SharePoint mapē tas ir atzīmēts ar statusu **Dzēsts**.
 8. Pārskatiet SharePoint mapi **Failu importēšanas avots (galvenais)**. Excel faili, kas tika sekmīgi importēti, no šīs mapes ir dzēsti.
@@ -157,12 +157,12 @@ Varat arī atvērt lapu **Failu stāvokļi avotiem**, atlasot **Organizācijas a
 
     Lapā tiek parādītas kreditoru transakcijas, kas tika importētas no Excel failiem pakalpojumā SharePoint dokumentam **V-00001**.
 
-    [![1099 kreditoru transakciju lapa](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)
+    [![1099 kreditoru transakciju lapa.](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)
 
 ## <a name="prepare-an-excel-file-for-import"></a>Excel faila sagatavošana importēšanai
 1. Atveriet Excel failu, ko izmantojāt iepriekš. 3. rindas 1. kolonnā pievienojiet kreditora kodu, kas nepastāv programmā. Pievienojiet šai rindai papildu aplamu kreditora informāciju.
 
-    [![Pakalpojuma Microsoft Excel faila paraugs importēšanai no SharePoint](./media/GERImportFromSharePoint-15-Excel.PNG)](./media/GERImportFromSharePoint-15-Excel.PNG)
+    [![Pakalpojuma Microsoft Excel faila paraugs importēšanai no SharePoint.](./media/GERImportFromSharePoint-15-Excel.PNG)](./media/GERImportFromSharePoint-15-Excel.PNG)
 
 2. Augšupielādējiet atjaunināto Excel failu, kurā ir ietvertas kreditoru transakcijas, SharePoint mapē **Failu importēšanas avots (galvenais)**.
 3. Atveriet ER konfigurāciju koku, atlasiet **1099 maksājumu modelis** un izvēstiet ER modeļa komponentu sarakstu.
@@ -170,7 +170,7 @@ Varat arī atvērt lapu **Failu stāvokļi avotiem**, atlasot **Organizācijas a
 5. Atlasiet **Noformētājs**.
 6. Cilnē **Validācijas** jums ir jāmaina pēcvalidācijas darbība attiecībā uz validācijas kārtulu, kas bija konfigurēta, lai novērtētu, vai programmā pastāv importētais kreditora konts. Lauka **Pēcvalidācijas darbība** vērtību atjauniniet uz **Apturēt izpildi**, saglabājiet veiktās izmaiņas un aizveriet lapu.
 
-    [![ER modeļa kartēšanas noformētāja lapa](./media/GERImportFromSharePoint-16-UpdateModelMapping.PNG)](./media/GERImportFromSharePoint-16-UpdateModelMapping.PNG)
+    [![ER modeļa kartēšanas noformētāja lapa.](./media/GERImportFromSharePoint-16-UpdateModelMapping.PNG)](./media/GERImportFromSharePoint-16-UpdateModelMapping.PNG)
 
 7. Saglabājiet veiktās izmaiņas un aizveriet ER modeļa kartēšanas noformētāju.
 8. Atlasiet **Palaist**, lai palaistu modificēto ER modeļa kartēšanu.
@@ -178,11 +178,11 @@ Varat arī atvērt lapu **Failu stāvokļi avotiem**, atlasot **Organizācijas a
 
     Informācijas žurnālā ir ietverts paziņojums par to, ka SharePoint mapē ir fails, kurā ir ietverts nepareizs kreditora konts un kuru nevar importēt.
 
-    [![Pabeigta ER modeļa kartēšana](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)
+    [![Pabeigta ER modeļa kartēšana.](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)
 
 10. Lapā **Failu stāvokļi avotiem** atlasiet **Atsvaidzināt** un pēc tam sadaļā **Faili** pārskatiet failu sarakstu.
 
-    [![ER failu stāvokļu lapa atlasītajiem avotiem](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)
+    [![ER failu stāvokļu lapa atlasītajiem avotiem.](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)
 
    Sadaļā **Avotu žurnāls importēšanas formātam** ir norādīts, ka importēšanas process bija nesekmīgs un fails atrodas SharePoint mapē Kļūdainie faili (nav atzīmēta izvēles rūtiņa **Ir dzēsts** ). Ja labojat šo failu pakalpojumā SharePoint, pievienojot pareizo kreditora kodu, un pēc tam pārvietojat to uz SharePoint mapi Failu importēšanas avots (galvenais), varat vēlreiz importēt failu.
 

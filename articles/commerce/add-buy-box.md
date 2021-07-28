@@ -2,7 +2,7 @@
 title: Iegādes lodziņa modulis
 description: Šajā tēmā aplūkoti Buy box moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,20 +14,21 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: dce3c8adcd2926e60d001bddb5c278fac6860268
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 307c9876aa0fed77778fcf81903f9c52e3f5be67
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796226"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479236"
 ---
 # <a name="buy-box-module"></a>Pirkšanas lodziņa modulis
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Šajā tēmā aplūkoti Buy box moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
 
-Termins *iegādes lodziņš* tipiski tiek attiecināts uz preces informācijas lapas apgabalu, kas ir “virs ieloces” un kurā ir ietverta visa svarīgākā informācija, kas nepieciešama preces pirkuma veikšanai. (Apgabals, kas ir “virs ieloces”, ir redzams, kad lapa tiek ielādēta pirmo reizi, lai lietotājiem skatīšanai nebūtu jāritina uz leju.)
+Termins *iegādes lodziņš* tipiski tiek attiecināts uz preces informācijas lapas (product details page - PDP)apgabalu, kas ir “virs ieloces” un kurā ir ietverta visa svarīgākā informācija, kas nepieciešama preces pirkuma veikšanai. (Apgabals, kas ir “virs ieloces”, ir redzams, kad lapa tiek ielādēta pirmo reizi, lai lietotājiem skatīšanai nebūtu jāritina uz leju.)
 
 Iegādes lodziņa modulis ir īpašs konteiners, kas tiek izmantots, lai viesotu visus moduļus, kas parādīti preces informācijas lapas iegādes lodziņā.
 
@@ -35,7 +36,7 @@ Preces informācijas lapas vietrādī URL ir ietverta preces ID. Visa informāci
 
 Attēlā zemāk redzams iegādes lodziņa moduļa piemērs preces informācijas lapā.
 
-![Iegādes lodziņa moduļa piemērs](./media/ecommerce-pdp-buybox.PNG)
+![Iegādes lodziņa moduļa piemērs.](./media/ecommerce-pdp-buybox.PNG)
 
 ## <a name="buy-box-module-properties-and-slots"></a>Iegādes lodziņa moduļa rekvizīti un sloti 
 
@@ -67,14 +68,16 @@ Iegādes lodziņa moduļa iestatījumus var konfigurēt sadaļā **Vietnes iesta
 
 - **Groza rindu daudzuma ierobežojums** — šis rekvizīts tiek izmantos, lai norādītu katras preces maksimālo skaitu, ko var pievienot grozam. Piemēram, mazumtirgotājs var nolemt, ka vienā transakcijā var pārdot tikai 10 katras preces vienumus.
 - **Krājumi** — papildinformāciju par to, kā lietot krājumu iestatījumus, skatiet [Krājumu iestatījumu lietošana](inventory-settings.md).
-- **Pievienot produktu grozam** — šis rekvizīts tiek izmantots, lai noteiktu uzvedību pēc krājuma pievienošanas grozam. Iespējamās vērtības ir **Doties uz lapu Grozs**, **Nedoties uz lapu Grozs** un **Parādīt paziņojumu**. Kad vērtība ir iestatīta uz **Doties uz lapu Grozs**, lietotāji pēc krājuma pievienošanas tiek nosūtīti uz groza lapu. Kad vērtība ir iestatīta uz **Nedoties uz lapu Grozs**, lietotāji pēc krājuma pievienošanas netiek nosūtīti uz groza lapu. Kad vērtība ir iestatīta **Rādīt paziņojumu**, lietotājiem tiek parādīts apstiprinājuma paziņojums un viņi turpināt pārlūkot preces informācijas lapā. 
+- **Pievienot preci grozam** — informācija par to, kā pielietot iestatījumus **Pievienot preci grozam**, skatiet [Iestatījumi Pievienot preci grozam](add-cart-settings.md).
+
+## <a name="buy-box-module-definition-extensions-in-the-adventure-works-theme"></a>Iegādes lodziņa moduļa definīcijas paplašinājumi Adventure Works tēmā
+
+Iegādes lodziņa modulim, kuru sniedz Adventure Works tēma, ir moduļa definīcijas paplašinājums, kas atbalsta produkta specifikāciju moduļa ieviešanu pie PDP iegādes lodziņā. Lai parādītu preces specifikācijas īpašības PDP iegādes lodziņā, pievienojiet preces specifikācijas moduli iegādes lodziņa slotam.
+
 
 > [!IMPORTANT]
-> Vietas iestatījums **Pievienot produktu grozam** ir pieejams Dynamics 365 Commerce 10.0.11 laidienā. Ja veicat atjaunināšanu no vecākas Dynamics 365 Commerce versijas, ir manuāli jāatjaunina fails appsettings.json. Norādījumus par faila appsettings.json atjaunināšanu skatiet [SDK un moduļu bibliotēkas atjauninājumi](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
+> Adventure Works tēma ir pieejama Dynamics 365 Commerce versijas 10.0.20 laidienā.
 
-Attēlā zemāk redzams "pievienots grozam" apstiprinājuma paziņojuma piemērs Fabrikam vietnē.
-
-![Paziņojuma moduļa piemērs](./media/ecommerce-addtocart-notifications.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Commerce Scale Unit mijiedarbība
 
@@ -127,6 +130,8 @@ Lai pievienotu iegādes lodziņa moduli jaunā lapā un iestatītu nepieciešamo
 [Kājenes modulis](author-footer-module.md)
 
 [Sociālo tīklu dalīšanās modulis](social-share-module.md)
+
+[Iestātījumi Pievienot preci grozam](add-cart-settings.md)
 
 [Krājumu pieejamības aprēķināšana mazumtirdzniecības kanāliem](calculated-inventory-retail-channels.md)
 

@@ -8,18 +8,20 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 27681
+ms.custom:
+- "27681"
+- intro-internal
 ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e20b6d586e4effbb56d476504a679c3b0b8adb3c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 0389ed6ca7926a4981029f6e91be2d1be4b8618e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754498"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354419"
 ---
 # <a name="reporting-and-analytics-with-power-bi-home-page"></a>Pārskatu veidošana un analīze, izmantojot Power BI sākumlapu
 
@@ -37,7 +39,7 @@ Darbvietās var izmantot bagātīgas infografikas un vizuālos līdzekļus, ko a
 
 Lietotāji var mijiedarboties ar datiem, lapā noklikšķinot uz vizuālajiem līdzekļiem vai pieskaroties tiem. Viņi turpat darbvietā var skatīt cēloņsakarības un veikt vienkāršas scenāriju operācijas. Pateicoties lieliskajiem interaktīvajiem vizuālajiem līdzekļiem, datu izpēte un slēpto tendenču atklāšana jūsu lietotājiem būs interesanta un aizraujoša pieredze.
 
-![Piemērs ar Power BI darbvietā](./media/Power-BI-in-D365-Workspace.png)
+![Piemērs ar Power BI darbvietā.](./media/Power-BI-in-D365-Workspace.png)
 
 Lai uzzinātu vairāk, skatiet tālāk norādītās tēmas.
 
@@ -50,7 +52,7 @@ Lai uzzinātu vairāk, skatiet tālāk norādītās tēmas.
 ## <a name="business-documents-and-printing"></a>Biznesa dokumenti un drukāšana
 Pārskatu izveides risinājumus bieži izmanto, lai iegūtu un apspriestu informāciju par biznesa darījumiem. Tādēļ pārskatu izveides risinājumā ir jābūt iespējai biznesa datus piedāvāt fiziskā formā, izmantojot esošās ierīces, piemēram, tīkla printerus. Biznesa dokumenti ir, piemēram, pārdošanas rēķini, klientu darījumu pārskati un čeki.
 
-[![Biznesa dokumentu piemērs](./media/image-of-business-documents-1024x632.png)](./media/image-of-business-documents.png)
+[![Biznesa dokumentu piemērs.](./media/image-of-business-documents-1024x632.png)](./media/image-of-business-documents.png)
 
 Lai uzzinātu vairāk, skatiet tālāk norādītās tēmas.
 
@@ -61,7 +63,7 @@ Lai uzzinātu vairāk, skatiet tālāk norādītās tēmas.
 ## <a name="electronic-reporting"></a>Elektroniskie pārskati
 Elektronisko pārskatu veidošana (ER) ir rīks, kas ļauj konfigurēt elektronisko dokumentu formātus saskaņā ar dažādu valstu vai reģionu juridiskajām prasībām. Elektronisko pārskatu veidošanas rīku var izmantot, piemēram, finanšu auditam, nodokļu pārskatam un elektronisko rēķinu izveidei.
 
-[![Elektronisko pārskatu veidošanas piemērs](./media/electronic-reporting-example.png)](./media/electronic-reporting-example.png)
+[![Elektronisko pārskatu veidošanas piemērs.](./media/electronic-reporting-example.png)](./media/electronic-reporting-example.png)
 
 Lai uzzinātu vairāk, skatiet tālāk norādītās tēmas.
 
@@ -72,7 +74,7 @@ Lai uzzinātu vairāk, skatiet tālāk norādītās tēmas.
 ## <a name="financial-reporting"></a>Finanšu pārskatu veidošana
 Tiek nodrošināti standarta finanšu pārskati, kas izmanto noklusējuma galvenā konta kategorijas. Lai izveidotu vai mainītu tradicionālos finanšu pārskatus, piemēram, ienākumu pārskatus un bilances, varat izmantot pārskatu noformētāju. Pēc tam rezultātus varat koplietot ar citiem organizācijas dalībniekiem. Finanšu pārskati ir, piemēram, bilances, skaidras naudas plūsma un gada kopsavilkuma apgrozījuma bilance.
 
-[![Finanšu pārskata piemērs](./media/financial-reporting-example.png)](./media/financial-reporting-example.png)
+[![Finanšu pārskata piemērs.](./media/financial-reporting-example.png)](./media/financial-reporting-example.png)
 
 Lai uzzinātu vairāk, skatiet tālāk norādītās tēmas.
 

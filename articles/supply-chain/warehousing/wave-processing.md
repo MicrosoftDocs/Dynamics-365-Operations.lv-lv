@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 4bf47b15b668a37f12edb3dbb842d19655fac97a
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 76b11eaec0f22393e877c2837e2533a176018f2b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019031"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355486"
 ---
 # <a name="wave-creation-and-processing"></a>Kopumu izveide un apstrāde
 
@@ -42,7 +42,7 @@ Izmantojot lauku **Vajadzība pēc materiālu rezervēšanas** lapā **Ražošan
 
 Šajā diagrammā ir parādīta plūsma, kā tiek veidoti, apstrādāti un izlaisti nosūtīšanas kopumi. Numuri atbilst šajā sadaļā tālāk norādītajām sadaļām.
 
-![Kopuma izveides apstrāde](media/wave-processing-diagram.png "Kopuma izveides apstrāde")
+![Kopuma izveides apstrāde.](media/wave-processing-diagram.png "Kopuma izveides apstrāde")
 
 ### <a name="prerequisites"></a>Priekšnosacījumi
 
@@ -158,7 +158,7 @@ Kad *Grafika darba izveides* funkcionalitāte ir aktivizēta, kopuma apstrāde i
 
 Šajā plūsmkartē ir parādīts, kā kopuma apstrādes laikā tiek veidots plānotais darbs.
 
-![Ieplānot darba izveidi](media/schedule-work-creation-process.png)
+![Ieplānot darba izveidi.](media/schedule-work-creation-process.png)
 
 ### <a name="planned-work"></a>Plānots darbs
 
@@ -211,7 +211,7 @@ Pēc tam jūs varat pārskatīt katras slodzes rindas galīgo statusu kopumā un
 Veids, kādā sistēma parāda kopuma apstrādes statusa ziņojumus, ir atkarīgs no tā, kā esat iestatījis opciju **Izveidot kopuma apstrādes vēstures žurnālu** lapā **Noliktavas pārvaldības parametri**.
 
 - Ja **Izveidot kopuma apstrādes vēstures žurnālu** ir iestatīta uz *Nē*, ielādes rindas statusa ziņojumi tiek parādīti **Informācijas žurnālā**.
-- Ja **Izveidot kopuma apstrādes vēstures žurnālu** ir iestatīta uz *Jā*, ielādes rindas statusa ziņojumi tiek parādīti lapā **Kopuma apstrādes vēstures žurnāls**. Lai skatītu žurnālu, dodieties uz **Noliktavas pārvaldība \>Izejošie kopumi \> Kopumu apstrādes vēstures žurnāls**.
+- Ja **Izveidot kopuma apstrādes vēstures žurnālu** ir iestatīta uz *Jā*, ielādes rindas statusa ziņojumi tiek parādīti lapā **Kopuma apstrādes vēstures žurnāls**. Lai skatītu žurnālu, dodieties uz **Noliktavas pārvaldība \> Izejošie kopumi \> Kopumu apstrādes vēstures žurnāls**.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

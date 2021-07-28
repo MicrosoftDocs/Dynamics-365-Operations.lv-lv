@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0fe387631a1716c6612f9d475faff56d0aef3fdc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6f23b4c15937a0e61eb64b25eadef58c1fda231e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791684"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354617"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>Preču vērtējumu sinhronizācija pakalpojumā Dynamics 365 Commerce
 
@@ -59,7 +59,7 @@ Lai pārbaudītu, vai **RetailProductRating** apakšdarbs pastāv, rīkojieties,
 
 Tālāk redzamajā attēlā ir parādīts Commerce apakšdarba detalizētas informācijas piemērs.
 
-![Detalizēta informācija par RetailProductRating apakšdarbu](media/rnr-hq-ratings-sub-job.png)
+![Detalizēta informācija par RetailProductRating apakšdarbu.](media/rnr-hq-ratings-sub-job.png)
 
 > [!NOTE]
 > Ja neatrodat **RetailProductRating** apakšdarbu, iespējams, jau esat palaidis darbu **Sinhronizēt preču vērtējumus** darbu un darbu **1040 CDX** pirms Commerce plānotāja inicializēšanas. Šādā gadījumā veiciet šīs darbības, lai palaistu darbu **Pilnīga datu sinhronizācija**.
@@ -83,7 +83,7 @@ Lai importētu preču vērtējumus Commerce no vērtējumu un pārskatu pakalpoj
 
 Tālāk redzamajā attēlā ir parādīta pakešuzdevuma konfigurācija programmā Commerce.
 
-![Pakešuzdevumu preču vērtējuma sinhronizēšanas konfigurācija](media/rnr-hq-batchjob-recurrence.png)
+![Pakešuzdevumu preču vērtējuma sinhronizēšanas konfigurācija.](media/rnr-hq-batchjob-recurrence.png)
 
 ## <a name="verify-that-the-batch-job-for-product-rating-synchronization-was-successful"></a>Pārbaudīt, vai pakešuzdevumu preču vērtējuma sinhronizēšana bija veiksmīga
 
@@ -95,7 +95,7 @@ Lai pārbaudītu, vai pakešuzdevums **Sinhronizēt preces vērtējumu** bija ve
 
 Tālāk esošajā attēlā parādīts piemērs ar pakešuzdevuma detalizētu informāciju programmā Commerce, kad pakešuzdevums tiek plānots izpildei divu stundu intervālos.
 
-![Pakešuzdevumu preču vērtējuma sinhronizēšanas detalizēta informācija](media/rnr-hq-batchjob-status-checking.png)
+![.Pakešuzdevumu preču vērtējuma sinhronizēšanas detalizēta informācija.](media/rnr-hq-batchjob-status-checking.png)
 
 ## <a name="make-product-ratings-available-at-the-pos"></a>Padarīt preces vērtējumus pieejamus POS
 
@@ -113,15 +113,15 @@ Lai ieslēgtu preču vērtējumus POS, veiciet tālāk minētās darbības.
 
 Tālāk esošajā attēlā parādīts piemērs par Commerce parametru konfigurāciju, lai POS sistēmā ieslēgtu preces vērtējumus.
 
-![Commerce parametru konfigurācija preču vērtējumiem POS sistēmā](media/rnr-hq-enable-ratings-in-pos.png)
+![Commerce parametru konfigurācija preču vērtējumiem POS sistēmā.](media/rnr-hq-enable-ratings-in-pos.png)
 
 Nākamajā attēlā ir parādīts piemērs ar preces vērtējumiem POS sistēmā.
 
-![Preču vērtējumi POS sistēmā](media/rnr-pos-catalog-ratings.png)
+![Preču vērtējumi POS sistēmā.](media/rnr-pos-catalog-ratings.png)
 
 Nākamajā attēlā ir parādīts piemērs ar preces vērtējumiem zvanu centra kanālos.
 
-![Preču vērtējumi zvanu centra kanālā](media/rnr-call-center-ratings.png)
+![Preču vērtējumi zvanu centra kanālā.](media/rnr-call-center-ratings.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
