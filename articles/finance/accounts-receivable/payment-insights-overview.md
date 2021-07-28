@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: a1b3b6540a03dc85d5dcd813e8c41ac49ab36728
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 82b301b4b8ba61375a53a8fe6220628500f6cf3d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822399"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359321"
 ---
 # <a name="customer-payment-insights-preview"></a>Klienta maksājumu ieskati (priekšskatījums)
 
@@ -47,11 +49,11 @@ Katram neapmaksātajam rēķinam līdzeklis Debitoru maksājumu ieskati (priekš
 
 Debitora maksājumu ieskati (priekšskatījums) sniedz arī apkopotu skatu par gaidāmajiem maksājumiem, kas var palīdzēt organizācijām izprast kopējo maksājuma summu, ko tās var sagaidīt no debitora vienā no trijiem intervāliem (Laikā, Novēloti un Ļoti novēloti).
 
-[![Apkopots skats uz maksājuma prognozēm](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
+[![Apkopots skats uz maksājuma prognozēm.](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
 
 Turklāt katram rēķinam ir piešķirta maksājuma iespējamība laikā. Ja maksājuma iespējamība laikā ir mazāka par 50%, rēķini tiek atzīmēti ar sarkanu apli, lai norādītu, ka šiem rēķiniem var būt nepieciešama uzmanība iekasēšanā. 
 
-[![Maksājumu iespējamības saraksts](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
+[![Maksājumu iespējamības saraksts.](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
 
 Debitora maksājuma ieskats (priekšskatījums) sniedz arī kontekstuālu informāciju, lai izskaidrotu prognozēšanu, piemēram, vislabākos faktorus, kas ietekmēja prognozes, pašreizējo biznesa situāciju ar debitoru un detalizētu informāciju par vēsturisko debitoru maksājumu uzvedību. Daudzos uzņēmumos iekasēšanas process ir aktīva darbība; iekasēšanas process netiek sākts, līdz pienāk rēķinu apmaksas laiks. 
 

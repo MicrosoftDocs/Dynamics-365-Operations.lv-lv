@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e963cf8cbae4651ad05126cdf465a386dea2d7a5
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 052ac3291ea6d2984c25445b7165284dfdcfa2b2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798733"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353088"
 ---
 # <a name="create-new-address-book"></a>Izveidot jaunu adrešu grāmatu
 
@@ -40,7 +40,7 @@ Lai izveidotu jaunu adrešu grāmatu, izpildiet tālāk aprakstītās darbības.
 
 Šajā attēlā ir parādīta darbinieka adrešu grāmatas izveide mazumtirdzniecības veikalam.
 
-![Darbinieka adrešu grāmatas piemērs](media/address-books.png)
+![Darbinieka adrešu grāmatas piemērs.](media/address-books.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 

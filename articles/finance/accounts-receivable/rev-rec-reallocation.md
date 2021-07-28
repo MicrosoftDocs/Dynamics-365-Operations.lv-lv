@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2d961cb4eedda6265b4acd8dbd6f82e8026373fa
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 37c3da576b79d3ae9f6983b5046343a7c8120de6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820573"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356129"
 ---
 # <a name="revenue-recognition-reallocation"></a>Ieņēmumu atzīšanas atkārtota sadale
 
@@ -48,7 +48,7 @@ Tā kā atkārtoto sadali var veikt pārdošanas pasūtījumā, kas ir daļēji 
 
 Katrai organizācijai ir jāizlemj, vai labojumam jāatjaunina tikai virsgrāmata, vai arī debitoru parādi. Pieņemtais lēmums nosaka atbilstošo **virsgrāmatas parametru** lapas cilnes **Ieņēmumu atzīšana** opcijas **Grāmatot rēķinu labojumus debitoru parādos** iestatījumu (**Ieņēmumu atzīšana \> Iestatīšana \> Virsgrāmatas parametri**). Atbilstošais iestatījums ir atkarīgi no konkrētā scenārija. Lai iegūtu plašāku informāciju par iespējamiem scenārijiem, izmantojiet šīs tēmas sadaļā [Atkārtotās sadales scenāriji](#scenarios-for-reallocation) norādītās saites.
 
-[![Ieņēmumu atzīšanas cilne virsgrāmatas parametru lapā](./media/01_RevRecScenarios.png)](./media/01_RevRecScenarios.png)
+[![Ieņēmumu atzīšanas cilne virsgrāmatas parametru lapā.](./media/01_RevRecScenarios.png)](./media/01_RevRecScenarios.png)
 
 Ja opcija **Grāmatot rēķinu labojumus debitoru parādos** ir iestatīta uz **Jā**, atkārtotas sadales process rada šādu rezultātu:
 
@@ -76,7 +76,7 @@ Kā jau ir norādīts, varat atjaunināt tikai virsgrāmatu vai virsgrāmatu un 
 
 Lai sāktu atkārtotās sadales procesu, jebkurā pārdošanas pasūtījumā, kas atkārtoti jāsadala, atlasiet opciju **Atkārtoti sadalīt cenu ar jaunām pasūtījuma rindām**. Vai arī atveriet **Ieņēmumu atzīšana \> Periodiskie uzdevumi \> Atkārtoti sadalīt cenu ar jaunām pasūtījuma rindām**, un pēc tam ievadiet atbilstošus filtrus, piemēram, debitora kontu.
 
-[![Atkārtoti sadalīt cenu ar jaunu pasūtījuma rindu lapu](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
+[![Atkārtoti sadalīt cenu ar jaunu pasūtījuma rindu lapu.](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
 
 Lapas **Atkārtoti sadalīt cenu ar jaunām pasūtījuma rindām** augšējā režģa nosaukums ir **Pārdošana**. Tajā uzskaitīt debitora pārdošanas pasūtījumi. Atlasiet pārdošanas pasūtījumus, kas ir atkārtoti jāsadala Nevar atlasīt projekta pārdošanas pasūtījumus, jo projekta pārdošanas pasūtījumus nevar atkārtoti sadalīt. Nevar atlasīt arī tos pārdošanas pasūtījumus, kuriem jau ir atkārtotas sadales ID, jo ar projektu nesaistītos pārdošanas pasūtījumus var atkārtoti sadalīt tikai vienu reizi. Ja pārdošanas pasūtījumam ir atkārtotas sadales ID, cits lietotājs to jau ir atzīmējis atkārtotai sadalei.
 
@@ -86,11 +86,11 @@ Kad esat beidzis atlasīt nepieciešamās pārdošanas pasūtījuma rindas, izma
 
 - **Atjaunināt atkārtoto sadali** — aprēķināt jaunās ieņēmumu cenas summas atlasītajām pārdošanas pasūtījuma rindām. Ja rinda tika noņemta vai atcelta, atkārtotā sadale tiks veikta tikai esošajām atlasītajām rindām. Tālāk attēlā parādīts pārdošanas pasūtījuma rindu piemērs pirms atkārtotās sadales atjaunināšanas.
 
-    [![Pārdošanas pasūtījuma rindas pirms atkārtotās sadales atjaunināšanas](./media/03_RevRecScenarios.png)](./media/03_RevRecScenarios.png)
+    [![Pārdošanas pasūtījuma rindas pirms atkārtotās sadales atjaunināšanas.](./media/03_RevRecScenarios.png)](./media/03_RevRecScenarios.png)
 
     Jaunās ieņēmumu cenu summas tiek rādītas **rindu** režģa kolonnā **Atkārtoti sadalītā summa**. Šajā brīdī atkārtotā sadale ir apstrādāta, taču vēl nav aprēķināta. Tālāk attēlā parādīts pārdošanas pasūtījuma rindu piemērs pēc atkārtotās sadales atjaunināšanas.
 
-    [![Pārdošanas pasūtījuma rindas pēc atkārtotās sadales atjaunināšanas](./media/04_RevRecScenarios.png)](./media/04_RevRecScenarios.png)
+    [![Pārdošanas pasūtījuma rindas pēc atkārtotās sadales atjaunināšanas.](./media/04_RevRecScenarios.png)](./media/04_RevRecScenarios.png)
 
 - **Apstrādāt** — apstrādāt vai grāmatot atkārtoti sadalītās ieņēmumu cenas. Kad atlasīsit šo pogu, nevarēsit atsaukt atkārtoto sadali. Ja pirms pogas **Apstrādāt** atlases neatlasījāt opciju **Atjaunināt atkārtoto sadali**, tiek automātiski palaista atkārtotā sadale.
 
@@ -100,7 +100,7 @@ Kad esat beidzis atlasīt nepieciešamās pārdošanas pasūtījuma rindas, izma
 - **Paredzētais dokuments** — parādīt to uzskaites ierakstu priekšskatījumu, kas izveidoti visām rēķinā iekļautajām pārdošanas pasūtījuma rindām. Ja rēķinā nav iekļauta neviena rinda, nekas netiek parādīts. Ja pirms pogas **Paredzētais dokuments** atlases neatlasījāt opciju **Atjaunināt atkārtoto sadali**, tiek automātiski palaista atkārtotā sadale.
 - **Ieņēmumu atkārtota sadale** — atver lapu, kas rāda ieņēmumu cenas sadalījumu visām atlasītajām rindām. Lapā nav iespējams mainīt informāciju. Tā parāda rindu summas, kas tika izmantotas atkārtotajai sadalei.
 
-    [![Rindu summas, kas tika izmantotas atkārtotai sadalei](./media/05_RevRecScenarios.png)](./media/05_RevRecScenarios.png)
+    [![Rindu summas, kas tika izmantotas atkārtotai sadalei.](./media/05_RevRecScenarios.png)](./media/05_RevRecScenarios.png)
 
 - **Atiestatīt atlasītā debitora datus** — ja atkārtotās sadales process tika sākts, bet netika pabeigts, notīriet atkārtotās sadales tabulas datus tikai atlasītajam debitoram. Piemēram, jūs atkārtotai sadalei atzīmējat vairākas pārdošanas pasūtījuma rindas, atstājat lapu atvērtu, neatlasot **Apstrādāt**, un pēc tam iestājas lapas noildze. Šajā gadījumā pārdošanas pasūtījuma rindas paliek atzīmētas un nebūs pieejamas citam lietotājam, lai pabeigtu atkārtotās sadales procesu. Atverot lapu, tā var būt arī tukša. Šādā gadījumā pogu **Atiestatīt atlasītā debitora datus** var izmantot, lai klīrētu neapstrādātos pārdošanas pasūtījumus, lai cits lietotājs varētu pabeigt atkārtotās sadales procesu.
 

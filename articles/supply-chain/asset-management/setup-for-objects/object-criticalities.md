@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bb2da2d58b7f98fad80d0ea63bf4445ec4d08163
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: baf2c279a656bd67a0850ef9178e1bc984bb9b8b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808356"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351493"
 ---
 # <a name="asset-criticality-types"></a>Līdzekļu kritiskuma veidi
 
@@ -40,7 +40,7 @@ Lai iestatītu kritiskumu, vispirms izveidojiet kritiskuma veidus, kas jāizmant
 4. Laukā **Nosaukums** ievadiet kritiskuma veida nosaukumu.
 5. Laukā **Koeficients** ievadiet koeficientu. Šis koeficients tiek izmantots darba pasūtījuma plānošanas aprēķināšanas laikā, lai noteiktu, kādu kritiskuma ierakstu izmantot. (Vienmēr tiek izmantots ieraksts, kuram ir augstākais koeficients.) Šis iestatījums ir atbilstošs, ja, kā parādīts nākamajā attēlā, tiek veidotas kritiskuma rindas, kurām ir tāda pati kritiskuma vērtība.
 
-    ![Kritiskuma veidu lapa](media/23-setup-for-objects.png)
+    ![Kritiskuma veidu lapa.](media/23-setup-for-objects.png)
 
 ## <a name="set-up-asset-criticalities"></a>Līdzekļa kritisko vērtību iestatīšana
 

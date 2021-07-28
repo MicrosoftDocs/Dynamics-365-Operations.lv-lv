@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2fe5523edf46712b17aa7abcad50da44c3eaffd
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4be7d3b77f72a9d79047d31b46dcabcb2bf09d12
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816770"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351565"
 ---
 # <a name="assets-and-work-orders"></a>Līdzekļi un darba pasūtījumi
 
@@ -32,23 +32,23 @@ ms.locfileid: "5816770"
 
 Katram līdzeklim tiek iestatīti dažādi dati, piemēram, informācija par preci un līdzekļa specifikācija, un nepieciešamie uzturēšanas plāni. Nākamajā attēlā ir redzams pārskats par līdzekļu datiem un līdzekļu piederību darba veidiem. Sarkanaiss teksts tiek izmantots piemēriem, kas parāda pārmantošanu un atkarības.
 
-![Shēmā ir parādīti līdzekļu dati saistībā ar darbu veidiem](media/05-overview-image.png)
+![Shēmā ir parādīti līdzekļu dati saistībā ar darbu veidiem.](media/05-overview-image.png)
 
 Katram darba pasūtījumam ir darba pasūtījuma veids, šāda profilaktiska uzturēšana, koriģējoša uzturēšana vai pārbaude. Darba pasūtījumā ir viens vai vairāki darba pasūtījuma darbi. Katrs darba pasūtījuma darbs definē darbu, kas jāveic līdzeklim, un saistīto darba veidu. Saistīto darba veidu piemēri ietver 10 000 km, 50 000 km, 1 gada kapitālremontu un drošības pārbaudi. Viens darba pasūtījums var būt saistīts ar vairākiem līdzekļiem.
 
 Nākamajā attēlā ir parādīts pārskats par galvenajiem datiem darba pasūtījumā.
 
-![Shēmā ir redzami darba pasūtījuma galvenie dati](media/06-overview-image.png)
+![Shēmā ir redzami darba pasūtījuma galvenie dati.](media/06-overview-image.png)
 
 Darba pasūtījums var būt saistīts ar citu darba pasūtījumu, un darba veidos var ietilpt secīgi darbi, kas veido darba pasūtījumu. Parasti starp darba pasūtījumiem nav atkarību. Tāpēc tie var mainīt savu darba pasūtījuma dzīves cikla stāvokli, un tos var ieplānot neatkarīgi vienu no otra.
 
 Darba pasūtījumus var veidot dažādos veidos, kas ir saistīti ar koriģējošu, preventīvu vai reaktīvu uzturēšanu. Darba pasūtījumus var izveidot arī manuāli. Nākamajā attēlā ir parādīts apskats par procesu automātiskai vai manuālai darba pasūtījumu izveidei.
 
-![Shēmā ir parādīta automātiska vai manuāla darba pasūtījumu izveide](media/07-overview-image.png)
+![Shēmā ir parādīta automātiska vai manuāla darba pasūtījumu izveide.](media/07-overview-image.png)
 
 Ja vēlaties plānot un izpildīt uzturēšanas darbu darba pasūtījumā, ir jāizpilda vairākas darbības. Nākamajā attēlā ir parādīts pārskats par darba pasūtījum apstrādi.
 
-![Shēmā ir parādīts darba pasūtījuma apstrādes pārskats](media/08-overview-image.png)
+![Shēmā ir parādīts darba pasūtījuma apstrādes pārskats.](media/08-overview-image.png)
 
 > [!NOTE]
 > Parasti, strādājot programmā Dynamics 365 Supply Chain Management un modulī **Līdzekļu pārvaldība**, jūs atlasāt **Jauns**, lai izveidotu jaunu ierakstu, atlasāt **RediģētEdit**, lai atjauninātu esošu ierakstu, un atlasāt **Saglabāt**, lai saglabātu jaunus vai rediģētus datus.

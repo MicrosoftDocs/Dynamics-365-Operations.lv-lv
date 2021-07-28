@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 225fd6a07fee29414ac30a4602b4dfccdc4d742b
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 698c556b8839ae1d657ef02796fe08ab9cd3621e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800619"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346038"
 ---
 # <a name="create-legal-entities"></a>Izveidot juridiskās personas
 
@@ -44,7 +44,7 @@ Lai izveidotu jaunu juridisko personu programmā Dynamics 365 Commerce, veiciet 
 1. Laukā **Valsts/reģions** ievadiet vai atlasiet kādu vērtību.
 1. Atlasiet **Labi**. 
 
-   ![Juridiskās personas izveide](media/legal-entities.png)
+   ![Juridiskās personas izveide.](media/legal-entities.png)
 
 1. Sadaļā **Vispārīgi** sniedziet šādu vispārīgo informāciju par juridisko personu: 
    1. Ievadiet meklēšanas nosaukumu, ja ir nepieciešams meklēšanas nosaukums. Meklēšanas nosaukums ir alternatīvs nosaukums, ko var lietot šīs juridiskās personas meklēšanai. 
@@ -67,11 +67,11 @@ Lai izveidotu jaunu juridisko personu programmā Dynamics 365 Commerce, veiciet 
 
 Tālāk redzamajā attēlā parādīts juridiskas personas informācijas piemērs.
 
-![Juridiskās personas vispārīgā sadaļa](media/legal-entities-general.png)
+![Juridiskās personas vispārīgā sadaļa.](media/legal-entities-general.png)
    
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Organizācijas un organizāciju hierarhiju pārskats](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
+[Organizāciju un organizāciju hierarhiju pārskats](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
 
 [Organizācijas hierarhijas plānošana](../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/commerce/toc.json)
 

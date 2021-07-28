@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 7bc4b48260907788eb90a19c5dc0b5c8f1d9d3b5
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: a16006a18e552c00fbed5eda7579fbcb77c315ea
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908112"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355929"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>Programmā Sales ietverto kontaktpersonu tieša sinhronizēšana ar kontaktpersonām vai debitoriem programmā Supply Chain Management
 
@@ -38,7 +38,7 @@ ms.locfileid: "5908112"
 
 Risinājumā No potenciālā klienta līdz skaidrai naudai tiek izmantots līdzeklis Datu integrācija, lai sinhronizētu datus programmu Supply Chain Management un Sales instancēs. Risinājuma No potenciālā klienta līdz skaidrai naudai veidnes, kas ir pieejamas ar līdzekli Datu integrācija, nodrošina ar kontiem, kontaktpersonām, precēm, pārdošanas piedāvājumiem, pārdošanas pasūtījumiem un pārdošanas rēķiniem saistīto datu plūsmu starp programmām Supply Chain Management un Sales. Tālāk esošajā attēlā ir redzams, kā notiek datu sinhronizēšana programmās Supply Chain Management un Sales.
 
-[![Datu plūsma risinājumā No potenciālā klienta līdz skaidrai naudai](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Datu plūsma risinājumā No potenciālā klienta līdz skaidrai naudai.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Veidnes un uzdevumi
 
@@ -119,11 +119,11 @@ Tālāk esošajos attēlos ir redzams piemērs veidnes kartējumam līdzeklī Da
 
 ### <a name="contact-to-contact"></a>Kontaktpersona ar kontaktpersonu
 
-![Veidnes kartējums datu integrētājā](./media/contacts-direct-template-mapping-data-integrator-1.png)
+![Veidnes kartēšana datu integrētājā.](./media/contacts-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="contact-to-customer"></a>Kontaktpersona ar debitoru
 
-![Veidnes kartējums datu integrētājā](./media/contacts-direct-template-mapping-data-integrator-2.png)
+![Veidnes kartēšana datu integrētājā.](./media/contacts-direct-template-mapping-data-integrator-2.png)
 
 
 ## <a name="related-topics"></a>Saistītās tēmas

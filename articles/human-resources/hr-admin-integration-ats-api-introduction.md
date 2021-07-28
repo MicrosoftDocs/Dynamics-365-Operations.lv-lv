@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c043ac9c19a810d1718f0d4907cd5e9d651d778f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 5038a1a1b3fa4c32f54ea87b03f886504e0b004f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055296"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357392"
 ---
 # <a name="applicant-tracking-system-integration-api-introduction"></a>Kandidāta izsekošanas sistēmas integrācijas API ievads
 
@@ -26,7 +26,7 @@ ms.locfileid: "6055296"
 
 Šajā tēmā aprakstīts Dynamics 365 Human Resources kandidāta izsekošanas sistēmas (ATS) integrācijas API. API nolūks ir nodrošināt racionalizētu integrāciju starp Dynamics 365 Human Resources un partnera ATS.
 
-![AtS integrācijas plūsma](media/hr-admin-integration-ats-api-introduction-flow.png)
+![AtS integrācijas plūsma.](media/hr-admin-integration-ats-api-introduction-flow.png)
 
 Integrētā pieredze Human Resources sākas, kad darbā pieņemšanas vadītājs izveido personāla atlases pieprasījumu. Kad pieprasījums ir aktivizēts, ATS izvelk detalizētu informāciju pieprasījumam izveidot personāla atlases projektu. Pēc tam tas seko darbā pieņemšanas konveijeram, lai atlasītu un pieņemtu kandidātu šiem amatiem. Visbeidzot ATS pabeidz aprites integrāciju uz serveri, nosūtot atlasītā kandidāta ierakstu Human Resources. Pēc tam kandidāta ierakstam var veikt vairākas uzņēmuma apstiprināšanas un darbplūsmām, lai izveidotu darbinieka ierakstu.
 
@@ -69,7 +69,7 @@ Datu modelis ir centrēts ap diviem galvenajiem elementiem:
 
 Sekojošā diagramma attēlo attiecības API. Vairākiem veidiem ir ārējās atslēgas citām, iepriekš esošām Human Resources entītijām, kas šeit nav attēlotas. Šajā dokumentā ir sniegta informācija par elementiem, kas ir specifiski darbā pieņemšanas integrācijas scenārijiem. Tomēr Web API ir daudzi citi elementi Dataverse Web API programmai Dynamics 365 Human Resources, kas var būt atbilstīgi jūsu integrācijai. Piemēram, jums var būt nepieciešama detalizēta informācija par darbiniekiem, darbiem, amatiem vai citiem šeit nedefinētiem elementiem. Daudziem no šiem elementiem ir atsauces ārējās atslēgas attiecībās vai navigācijas rekvizītos.
 
-![ATS integrācijas API datu modelis](media/hr-admin-integration-ats-api-data-model.png)
+![ATS integrācijas API datu modelis.](media/hr-admin-integration-ats-api-data-model.png)
 
 ## <a name="recruiting-request-and-related-entities-and-option-sets"></a>Darbā pieņemšanas pieprasījums un saistītie elementi un opciju kopas
 

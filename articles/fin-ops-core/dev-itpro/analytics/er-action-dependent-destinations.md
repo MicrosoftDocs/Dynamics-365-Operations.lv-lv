@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7decdb1d759284c616ecf928c10f99098627472d
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: e9c9143bdbab450b1793b15937d123607361add6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893582"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358673"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Konfigurēt no darbības atkarīgus ER adresātus
 
@@ -69,11 +69,11 @@ Piemēram, **Brīvā teksta rēķinu (Excel)** ER formātu var izmantot, lai dru
 
 Šajā attēlā parādīts, kā var sasniegt šo ER adresātu konfigurēšanu kā atsevišķu mērķa ierakstu kopu, kad katrs ieraksts ir konfigurēts atsevišķai lietotāja darbībai:
 
-![Elektronisko pārskatu mērķa lapa, kam ir no darbības atkarīgi mērķa iestatījumi ER formātam, ja katrs mērķa ieraksts ir konfigurēts atsevišķa lietotāja darbībai](./media/er-destination-action-dependent-01.png)
+![Elektronisko pārskatu mērķa lapa, kam ir no darbības atkarīgi mērķa iestatījumi ER formātam, ja katrs mērķa ieraksts ir konfigurēts atsevišķa lietotāja darbībai.](./media/er-destination-action-dependent-01.png)
 
 Šajā attēlā parādīts, kā var sasniegt šo ER adresātu konfigurēšanu kā atsevišķu mērķa ierakstu kopu, kad katrs ieraksts ir konfigurēts atsevišķai lietotāja darbībai:
 
-![Elektronisko pārskatu mērķa lapa, kam ir no darbības atkarīgi mērķa iestatījumi ER formātam, ja katrs mērķa ieraksts ir konfigurēts atsevišķa lietotāja darbībai](./media/er-destination-action-dependent-01a.png)
+![Elektronisko pārskatu mērķa lapa, kam ir no darbības atkarīgi mērķa iestatījumi ER formātam, ja katrs mērķa ieraksts ir konfigurēts atsevišķa lietotāja darbībai.](./media/er-destination-action-dependent-01a.png)
 
 > [!NOTE]
 > Ja darbības kods ir norādīts palaistajā ER formātā, bet šim darbības kodam nav konfigurēti adresāti, tiek pielietota [noklusējuma](electronic-reporting-destinations.md#default-behavior) mērķa uzvedība.
@@ -84,7 +84,7 @@ Ja ER formāts tiek palaists, ja lietotāju darbības ir nodrošinātas ar lieto
 
 Šajā attēlā parādīts **Elektronisko pārskatu formāta mērķa** dialoglodziņa piemērs, kas parādās, kad tiek [grāmatots](../../../finance/accounts-receivable/create-free-text-invoice-new.md) brīva teksta rēķins un šī formāta **Brīvā teksta rēķina (Excel)** ER formāts tiek palaists, lai ģenerētu šo dokumentu, ja darbība **Drukāt** tika nodrošināta un ER adresāti tika konfigurēti šim formātam, kā parādīts iepriekš šajā tēmā.
 
-![Dialoglodziņš, ar kuru tiek sniegta opcija inicializācijas konfigurēto ER adresātu maiņai darbinātajā ER formātā](./media/er-destination-action-dependent-02.gif)
+![Dialoglodziņš, ar kuru tiek sniegta opcija inicializācijas konfigurēto ER adresātu maiņai darbinātajā ER formātā.](./media/er-destination-action-dependent-02.gif)
 
 > [!NOTE]
 > Ja jūs konfigurējat ER adresātus vairākiem ER formāta komponentiem, opcija tiks piedāvāta atsevišķi katram konfigurētam ER formāta komponentam.
@@ -103,7 +103,7 @@ Izpildiet šīs darbības, lai pārbaudītu nodrošināto lietotāja darbības k
 6. **Konfigurācijas atkļūdošanas žurnālu** lapā filtrējiet ER izpildes žurnālus, lai atrastu žurnālu ER formāta palaišanai.
 7. Pārskatiet žurnāla ierakstus, kuros jābūt ierakstam, kas norāda sniegto lietotāja darbības kodu, ja ir bijusi nodrošināta kāda darbība ER formāta palaišanai.
 
-    ![Elektronisko pārskatu palaišanas žurnālu lapa, kas satur informāciju par lietotāja darbības kodu, kas ir nodrošināts ER formāta filtrētai palaišanai](./media/er-destination-action-dependent-03.png)
+    ![Elektronisko pārskatu palaišanas žurnālu lapa, kas satur informāciju par lietotāja darbības kodu, kas ir nodrošināts ER formāta filtrētai palaišanai.](./media/er-destination-action-dependent-03.png)
 
 ## <a name=""></a><a name="reports-list-wave1">Biznesa dokumentu saraksts (1. kopums)</a>
 

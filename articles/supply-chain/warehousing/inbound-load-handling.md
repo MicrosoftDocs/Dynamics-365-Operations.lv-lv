@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 0c1e6a9490fba0becb4840cbec9d04c22d482511
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: e0b0eb1466d962fb04566b936322db1e4c28f830
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6103172"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359791"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Noliktavas apstrādes process ienākošajām slodzēm pirkšanas pasūtījumiem
 
@@ -30,7 +30,7 @@ Katrai saņemšanas noslodzei jūsu sistēmai jau ir jāiekļauj saistītais pā
 
 Sekojošajā attēlā redzama parastā plūsma ienākošo slodžu apstrādei, kurām ir pirkšanas pasūtījuma daudzumi, kad tie ierodas noliktavā.
 
-![Ienākošo noslodžu apstrādes process](media/inbound-process.png "Ienākošo noslodžu apstrādes process")
+![Ienākošo noslodžu apstrādes process.](media/inbound-process.png "Ienākošo noslodžu apstrādes process")
 
 1. **Kreditors apstiprina pirkšanas pasūtījumu.**
 
@@ -293,7 +293,7 @@ Pirms noliktavas saņemšanas darbinieki var izmantot mobilo ierīci, lai reģis
 
     Varat atstāt visus pārējos iestatījumus noklusējuma vērtībās.
 
-    ![Mobilās ierīces izvēlnes krājuma iestatījumi](media/inbound-mobile-menu-items.png "Mobilās ierīces izvēlnes krājuma iestatījumi")
+    ![Mobilās ierīces izvēlnes krājuma iestatījumi.](media/inbound-mobile-menu-items.png "Mobilās ierīces izvēlnes krājuma iestatījumi")
 
     Papildinformāciju par mobilās ierīces izvēlnes krājuma iestatīšanu skatiet [Mobilo ierīču iestatīšana noliktavas darbam](configure-mobile-devices-warehouse.md).
 
@@ -328,7 +328,7 @@ Pirms noliktavas saņemšanas darbinieki var izmantot mobilo ierīci, lai reģis
     - Kopsavilkuma cilnē **Noslodze** **Noslodzes statusa** lauks ir iestatīts uz _Atvērts_.
     - Sadaļā **Noslodzes rindas** ir viena rinda, kur **Daudzuma** lauks ir iestatīts uz _10_, un lauks **Darba izveidotais daudzums** ir iestatīts kā _0_ (nulle).
 
-    ![Detalizēta informācija par kravu](media/inbound-load-details.png "Detalizēta informācija par kravu")
+    ![Detalizēta informācija par kravu.](media/inbound-load-details.png "Detalizēta informācija par kravu")
 
 1. Darbību rūts cilnē **Nosūtīt un saņemt**, atlasiet **Apstiprināt \> Ienākošais sūtījums**. Ievērojiet, ka **Noslodzes statuss** ir mainīts uz _Piegādāts_.
 1. Atzīmējiet **Noslodzes ID** vērtību, lai to varētu izmantot nākamajā procedūrā.

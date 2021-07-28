@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b1e2006c0d9b9effe331a644aaaa9fa33ff2fb7c
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: da19066f647c17e934a11e4dab7cb370baabfb5c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270539"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352740"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Ražošanas izpildes darba slodzes mākoņa un malas mēroga vienībām
 
@@ -44,7 +44,7 @@ Ražošanas izpildē mēroga vienības nodrošina šādas iespējas:
 
 Kā parādīts sekojošajā attēlā, ražošanas cikls ir sadalīts trīs fāzēs: *Plānošana*, *Izpilde* un *Pabeigšana*.
 
-[![Ražošanas izpildes fāzes, kad tiek izmantota viena vide](media/mes-phases.png "Ražošanas izpildes fāzes, kad tiek izmantotas viena vide")](media/mes-phases-large.png)
+[![Ražošanas izpildes fāzes, ja tiek izmantota viena vide](media/mes-phases.png "Ražošanas izpildes fāzes, ja tiek izmantota viena vide."](media/mes-phases-large.png)
 
 Fāzē _Plānošana_ ietver produkta definīciju, plānošanu, pasūtījuma izveidi un plānošanu un izlaišanu. Izlaišanas darbība norāda pāreju no fāzes _Plānošana_ uz fāzi _Izpilde_. Kad ražošanas pasūtījums tiek izlaists, ražošanas pasūtījuma darbi būs redzami ražotnē un gatavi izpildei.
 
@@ -54,7 +54,7 @@ Kad ražošanas darbs ir atzīmēts kā pabeigts, tas tiek pārvietots no fāzes
 
 Kā redzams ilustrācijā, kad tiek izmantotas mēroga vienības, fāze _Izpilde_ tiek sadalīta kā atsevišķa darba slodze.
 
-[![Ražošanas izpildes fāzes, kad tiek izmantotas mēroga vienības](media/mes-phases-workloads.png "Ražošanas izpildes fāzes, kad tiek izmantotas mēroga vienības")](media/mes-phases-workloads-large.png)
+[![Ražošanas izpildes fāzes, ja tiek izmantotas mēroga vienības](media/mes-phases-workloads.png "Ražošanas izpildes fāzes, ja tiek izmantotas mēroga vienības."](media/mes-phases-workloads-large.png)
 
 Tagad modelis pāriet no viena gadījuma instalācijas modeļa uz modeli, kura pamatā ir centrmezgls un mēroga vienības. Fāzes _Plānošana_ un _Pabeigšana_ tiek izpildītas kā biroja operācijas, un ražošanas izpildes darba slodze darbojas uz mēroga vienībām. Dati tiek pārsūtīti asinhroni starp centrmezglu un mēroga vienībām.
 
@@ -87,7 +87,7 @@ Lai gan darbs parasti tiek palaists automātiski, to var palaist manuāli jebkur
 
 Lai pārskatītu reģistrācijas apstrādes žurnālu, piesakieties centrmezglam un dodieties uz **Ražošanas kontrole \> Periodiskie uzdevumi \> Biroja darba slodzes pārvaldība \> Neapstrādāto reģistrāciju apstrādes žurnāls**. Lapa **Neapstrādāto reģistrāciju apstrādes žurnāls** rāda apstrādāto neapstrādāto reģistrāciju sarakstu un katras reģistrācijas statusu.
 
-![Neapstrādāto reģistrāciju apstrādes žurnāla lapa](media/mes-processing-log.png "Neapstrādāto reģistrāciju apstrādes žurnāla lapa")
+![Neapstrādāto reģistrāciju apstrādes žurnāla lapa.](media/mes-processing-log.png "Neapstrādāto reģistrāciju apstrādes žurnāla lapa")
 
 Jūs varat strādāt ar jebkuru reģistrāciju sarakstā, atlasot to un pēc tam atlasot vienu no šīm pogām darbības rūtī:
 

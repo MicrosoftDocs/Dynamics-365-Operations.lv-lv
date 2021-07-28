@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 529f419a4e3e4e8807c6938fd2425ae01ce282f9
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: dc883606b832dc75b28f6209b05c0e35a51036b8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051813"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359681"
 ---
 # <a name="recruit-job-candidates"></a>Personāla atlases kandidāti
 
@@ -61,13 +61,13 @@ Ja jūsu uzņēmuma ir vairākas atrašanās vietas, varat pievienot tās, lai p
 
 3. Laukā **Personāla atlases pieprasījuma vieta** ievadiet atrašanās vietas nosaukumu.
 
-   ![Pievienot personāla atlases pieprasījuma vietu](./media/hr-recruit-0a-add-location.png)
+   ![Pievienot personāla atlases pieprasījuma vietu.](./media/hr-recruit-0a-add-location.png)
 
 4. Laukā **Apraksts** ievadiet atrašanās vietas aprakstu.
 
 5. Sadaļā **Atrašanās vieta** atlasiet **Pievienot**. Ja parādās uznirstošais logs **Jaunā adrese**, ievadiet atrašanās vietas adresi.
 
-   ![Ievadiet adresi](./media/hr-recruit-0b-address.png)
+   ![Ievadiet adresi.](./media/hr-recruit-0b-address.png)
 
 6. Sadaļā **Kontaktinformācija** ievadiet atrašanās vietas kontaktinformāciju.
 
@@ -83,11 +83,11 @@ Vadītāji var iesniegt personāla atlases pieprasījumus Personāla vadībā. J
 
 3. Atlasiet  **Pieprasījums, lai pieņemtu darbā**.
 
-   ![Sākt personāla atlases pieprasījumu](./media/hr-recruit-1-request-to-recruit.png)
+   ![Sākt personāla atlases pieprasījumu.](./media/hr-recruit-1-request-to-recruit.png)
 
 4. Aizpildiet laukus **Apraksts**, **Darbs** un **Plānotais sākuma datums**.
 
-   ![Pabeigt personāla atlases pieprasījumu](./media/hr-recruit-2-request-to-recruit.png)
+   ![Pabeigt personāla atlases pieprasījumu.](./media/hr-recruit-2-request-to-recruit.png)
 
 5. Atlasiet **Turpināt**. Tiek parādīts jūsu pozīcijas personāla atlases pieprasījums.
 
@@ -95,7 +95,7 @@ Vadītāji var iesniegt personāla atlases pieprasījumus Personāla vadībā. J
 
 7. Sadaļā **Darbs** mainiet nepieciešamo informāciju un pēc tam atlasiet **Izveidot detalizētu informāciju no darba**.
 
-   ![Izveidot detalizētu informāciju no darba](./media/hr-recruit-3-create-details-from-job.png)
+   ![Izveidot detalizētu informāciju no darba.](./media/hr-recruit-3-create-details-from-job.png)
 
    Pārējā informācija jūsu ievadītajam darbam atlases pieprasījumā tiks aizpildīta ar noklusējuma informāciju.
 
@@ -103,13 +103,13 @@ Vadītāji var iesniegt personāla atlases pieprasījumus Personāla vadībā. J
 
 9. Sadaļā **Amati** atlasiet **Pievienot** un pēc tam atlasiet amatu šim personāla atlases pieprasījumam.
 
-   ![Pievienot amatu](./media/hr-recruit-4-select-position.png)
+   ![Pievienot amatu.](./media/hr-recruit-4-select-position.png)
 
 10. Sadaļā **Prasmes** atlasiet **Pievienot** un pēc tam atlasiet prasmi.
 
 11. Sadaļā **Izglītības prasības** atlasiet **Pievienot** un pēc tam atlasiet vērtības no **Izglītības** un **Izglītības līmeņa** nolaižamajiem logiem.
 
-   ![Pievienot izglītības prasības](./media/hr-recruit-5-select-educational-requirements.png)
+   ![Pievienot izglītības prasības.](./media/hr-recruit-5-select-educational-requirements.png)
 
 12. Sadaļā **Komentārs** pievienojiet komentārus pēc nepieciešamības.
 
@@ -117,7 +117,7 @@ Vadītāji var iesniegt personāla atlases pieprasījumus Personāla vadībā. J
 
 14. Kad jūsu personāla atlases pieprasījums ir pabeigts un jūs esat gatavs sākt personāla atlases procesu, izvēlņu joslā atlasiet **Aktivizēt**.
 
-   ![Aktivizēt personāla atlases pieprasījumu](./media/hr-recruit-6-activate-recruit-request.png)
+   ![Aktivizēt personāla atlases pieprasījumu.](./media/hr-recruit-6-activate-recruit-request.png)
 
 15. Atlasiet **Saglabāt**.
 
@@ -131,7 +131,7 @@ Ja esat vadītājs un vēlaties skatīt savus pieprasījumus:
 
 3. Sadaļā **Manas darba grupas informācija** atlasiet cilni **Personāla atlases pieprasījumi**.
 
-   ![Atlasiet cilni Personāla atlases pieprasījumi](./media/hr-recruit-7-recruiting-requests.png)
+   ![Atlasiet cilni Personāla atlases pieprasījumi.](./media/hr-recruit-7-recruiting-requests.png)
 
 4. Lai apskatītu vai rediģētu personāla atlases pieprasījumu, atlasiet to režģī.
 
@@ -141,7 +141,7 @@ Ja esat HR pro un vēlaties skatīt visus personāla atlases pieprasījumus:
 
 2. Atlasiet **Personāla atlases pieprasījumi**.
 
-   ![Skatīt personāla atlases pieprasījumus Personāla pārvaldībā](./media/hr-recruit-8-recruiting-requests-personnel-management.png)
+   ![Skatīt personāla atlases pieprasījumus Personāla pārvaldībā.](./media/hr-recruit-8-recruiting-requests-personnel-management.png)
 
 3. Lai apskatītu vai rediģētu personāla atlases pieprasījumu, atlasiet to režģī.
 
@@ -155,7 +155,7 @@ Ja jūsu uzņēmums ir integrēts ar citu programmu, lai pārvaldītu personāla
 
 3. Sadaļā **Personāla atlase** atlasiet **Kandidāti**.
 
-   ![Skatīt kandidātus](./media/hr-recruit-9-candidates.png)
+   ![Skatīt kandidātus.](./media/hr-recruit-9-candidates.png)
 
 4. Lai pievienotu kandidātu, atlasiet **Jauns**. Lai rediģētu esošu kandidātu, izvēlieties kandidātu no saraksta un pēc tam atlasiet **Rediģēt**. Tiek parādīts kandidāta profils.
 
@@ -163,7 +163,7 @@ Ja jūsu uzņēmums ir integrēts ar citu programmu, lai pārvaldītu personāla
 
 6. Sadaļā **Personāla atlases pieprasījums** atlasiet atlases pieprasījumu, lai saistītu kandidātu. Pēc tam pabeidziet **Aprēķināto sākuma datumu**, **Pieņemšanas vadītāju**, **Amatu** un **Apraksta laukus**.
 
-   ![Saistīt ar personāla atlases pieprasījumu](./media/hr-recruit-10-link-to-recruiting-request.png)
+   ![Saistīt ar personāla atlases pieprasījumu.](./media/hr-recruit-10-link-to-recruiting-request.png)
 
 7. Aizpildiet visu informāciju, ko vēlaties iekļaut kandidāta ierakstā, sekojošajās jomās:
    - **Komentāri**
@@ -182,11 +182,11 @@ Kad esat gatavs pieņemt darbā kandidātu, ievērojiet šo procedūru, lai noma
 
 1. Kandidāta veidlapā atlasiet **Pieņemt darbā**.
 
-   ![Pieņemt darbā kandidātu](./media/hr-recruit-11-hire.png)
+   ![Pieņemt darbā kandidātu.](./media/hr-recruit-11-hire.png)
 
 2. Aizpildiet visus laukus veidlapā **Pieņemt darbā jaunu darbinieku**, sadaļā **Detalizēti** .
 
-   ![Ievadīt jaunā darbinieka informāciju](./media/hr-recruit-12-hire-new-worker.png)
+   ![Ievadīt jaunā darbinieka informāciju.](./media/hr-recruit-12-hire-new-worker.png)
 
 3. Sadaļā **Amata detaļas** pēc nepieciešamības pārbaudiet un mainiet informāciju.
 
@@ -203,7 +203,7 @@ Ja izlemjat nepieņemt kandidātu, sekojiet šai procedūrai, lai noņemtu to no
 
 1. Kandidāta veidlapā atlasiet **Nepieņemt darbā**.
 
-   ![Nepieņemt darbā kandidātu](./media/hr-recruit-13-do-not-hire.png)
+   ![Nepieņemt darbā kandidātu.](./media/hr-recruit-13-do-not-hire.png)
 
 2. Atlasiet **Pamatojuma kodu** un iekļaujiet komentārus.
 
@@ -215,7 +215,7 @@ Ja nepieciešams, varat noraidīt kandidātu pēc pieņemšanas darbā. Piemēra
 
 - Kandidāta veidlapā atlasiet **Noraidīt kandidātu**.
 
-  ![Noraidīt kandidātu](./media/hr-recruit-14-dismiss-candidate.png)
+  ![Noraidīt kandidātu.](./media/hr-recruit-14-dismiss-candidate.png)
 
 ## <a name="see-also"></a>Skatiet arī
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 66fb9f2b50079b5eb4eb16da17b8a473d687d354
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 17316081501ab29aafac476d13947774ecbb61e5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054912"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346278"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>Dataverse virtuālās tabulas vaicājumu optimizācija
 
@@ -50,11 +50,11 @@ Piemērs, kur, iespējams, redzat šo ietekmi, ir vaicājumos pret nodarbināto 
 - **Vaicājuma taimauts**: Iespējams, ka vaicājumam iestājas taimauts un tiek atgriezta šāda kļūda: "tika iegūta pilnvara, lai izsauktu Finance and Operations, bet Finance and Operations atgrieza InternalServerError veida kļūdu."
 - **Neparedzēta kļūda**: vaicājums var atgriezt 400 veida kļūdas ar šādu ziņojumu: "Radusies negaidīta kļūda."
 
-  ![Kļūdas veids 400 uz HcmWorkerBaseEntity](./media/HcmWorkerBaseEntityErrorType400.png)
+  ![Kļūdas veids 400 uz HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType400.png)
 
 - **Ierobežošana**: vaicājums var pārmērīgi izmantot servera resursus un tikt pakļauts ierobežošanai. Šajā gadījumā vaicājums atgriež šādu kļūdu: "Marķieris tika iegūts, lai izsauktu Finance and Operations, bet Finance and Operations atgrieza 429 veida kļūdu." Papildinformāciju par ierobežošanu pakalpojumā Human Resources skatiet sadaļā [Bieži uzdotie jautājumi par ierobežošanu](./hr-admin-integration-throttling-faq.md).
 
-  ![Kļūdas veids 429 uz HcmWorkerBaseEntity](./media/HcmWorkerBaseEntityErrorType429.png)
+  ![Kļūdas veids 429 uz HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType429.png)
 
 ## <a name="resolution"></a>Novēršana
 
@@ -96,7 +96,7 @@ Ja, veidojot Power BI pārskatu Dataverse virtuālai tabulai, rodas kāda no iep
 2. Logā **Iegūt datus** ievadiet **Common Data Service** meklēšanas lodziņā, atlasiet savienotāju **Common Data Service** un atlasiet **Savienot**.
 3. Laukā **Servera Url**, logā Common Data Service ievadiet uzņēmuma URI jūsu Dataverse videi un atlasiet **Labi**.
   
-   ![Ievadiet URI jūsu Dataverse videi](./media/PowerBIDataverseURLSetup.png)
+   ![Ievadiet URI jūsu Dataverse videi.](./media/PowerBIDataverseURLSetup.png)
   
 4. Logā Navigators izvērsiet zaru **Elementi**.
 5. Meklēšanas lodziņā ievadiet **mshr_hcmworkerbaseentity** un atlasiet elementu.
@@ -113,7 +113,7 @@ Ja, veidojot Power BI pārskatu Dataverse virtuālai tabulai, rodas kāda no iep
    in
      selectedWorkerBaseEntityColumns
    ```
-   ![Atjaunināt vaicājumu Power Query redaktoram Vaicājumu redaktorā](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
+   ![Atjaunināt vaicājumu Power Query redaktoram Vaicājumu redaktorā.](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
 
 9. Atlasiet **Gatavs**.
 
@@ -138,7 +138,7 @@ Piemēram, ja vienam no datu laukiem, kas ietverti programmas lapā, ir atsauce 
 
 Varat izmantot [Power Apps monitoru](/powerapps/maker/monitor-overview), lai nodrošinātu, ka tikai jums nepieciešamas kolonnas tiek iekļautas vaicājumā, lai iegūtu datus par programmu Power App. Varat skatīt URL, kas veidots getRows operācijai, lai nodrošinātu, ka jūsu programmai atlasītās kolonnas būs optimālas datu izgūšanai.
 
-![Izmantojiet Power Apps monitoru, lai analizētu getData operāciju](./media/HcmWorkerBaseEntityPowerAppsMonitor.png)
+![Izmantojiet Power Apps monitoru, lai analizētu getData operāciju.](./media/HcmWorkerBaseEntityPowerAppsMonitor.png)
 
 ### <a name="filtering-the-data-query"></a>Datu vaicājuma filtrēšana
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: f543adc8bab5ca224bdb672d6b3c282c2d8531d8
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 97fce25ea8c556f001c84f6836a0a270a9f3524f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023406"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358390"
 ---
 # <a name="record-tds-concession-certificate-numbers"></a>Ierakstīt TDS koncesijas sertifikātu numurus
 
@@ -33,7 +33,7 @@ ms.locfileid: "6023406"
 2. Laukā **Nodokļu tips** atlasiet **TDS**, lai ierakstītu koncesijas sertifikātus TDS nodokļu veidam.
 3. Cilnē **Pārskats** atlasiet **Alt+N**, lai izveidotu rindu.
 
-    [![Jaunās rindas virsraksts](./media/apac-ind-TDS-34.png)](./media/apac-ind-TDS-34.png)
+    [![Jaunās rindas virsraksts.](./media/apac-ind-TDS-34.png)](./media/apac-ind-TDS-34.png)
 
 4. Laukā **Ieturētā nodokļa kods** atlasiet TDS nodokļa kodu, kuram kreditora koncesijas sertifikāti ir izsniegti. Lauks **Ieturētā nodokļa koda nosaukums** parāda TDS nodokļa koda nosaukumu.
 5. Laukos **sākuma datums** un **Beigu datums** definējiet derīguma termiņu koncesijas sertifikātam, kas izmanto TDS nodokļu kodu, lai piegādātājam aprēķinātu TDS, pamatojoties uz koncesiju.
@@ -50,6 +50,6 @@ ms.locfileid: "6023406"
 
 11. Laukā **Sertifikāts** ievadiet TDS koncesijas sertifikāta numuru.
 
-    [![Sertifikāta kopsavilkuma cilne](./media/apac-ind-TDS-33.png)](./media/apac-ind-TDS-33.png)
+    [![Sertifikāta kopsavilkuma cilne.](./media/apac-ind-TDS-33.png)](./media/apac-ind-TDS-33.png)
 
 12. Aizvērt lapu.

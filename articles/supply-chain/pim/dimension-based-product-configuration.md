@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: BOMConfigRule, BOMTable, ConfigChooseFromRoute, ConfigGroup, ConfigHierarchy, EcoResDimensionBasedConfiguration
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 19821
+ms.custom:
+- "19821"
+- intro-internal
 ms.assetid: 4db9890b-306b-4be7-ba98-3be2094d561f
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16027cc7fd22a34e3f689678aa9f5e85800cbf02
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 604b9e14d7a218ab75ebeff5b686f380ef88b34e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829526"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354693"
 ---
 # <a name="dimension-based-product-configuration-overview"></a>No dimensijām atkarīgas preču konfigurācijas pārskats
 
@@ -66,7 +68,7 @@ Konfigurācijas maršruts nosaka konfigurāciju grupu secību, kādā tās tiks 
 Konfigurācijas nosacījumi ir mehānisms, kas nodrošina, ka vienā MK konfigurāciju grupā iekļautā prece īsteno preces iekļaušanu vai izslēgšanu viena MK dažādās konfigurāciju grupās.
 
 ## <a name="product-modeling-process"></a>Preces modelēšanas process
-Veidojot no dimensijas atkarīgas preces modeli, parastā darbību secība sākas ar saistīto konfigurāciju grupu definēšanu. Ir svarīgi pārliecināties, ka visas preces, kas tiks izmantotas MK, ir izlaistas uzņēmumam, kuram tiek veidots preces modelis. Izmantojot šos veidošanas blokus, lietotājs var izveidot MK un piešķirt konfigurāciju grupas visiem saistītajām MK rindām. Kad MK ir pabeigts, var definēt konfigurācijas maršrutu konfigurāciju grupu kārtošanai pareizā secībā. [![No dimensijām atkarīgs preču modelēšanas process](./media/dimension-based-product-modeling-process-v1.png)](./media/dimension-based-product-modeling-process-v1.png) Ja dažādās konfigurāciju grupās ir noteiktas preces, kas ir jālieto kopā vai kuras nedrīkst lietot kopā, tad varat izveidot konfigurācijas nosacījumus, kas liks ievērot šo preču attiecības. Pēc tam, kad MK tiek saistīts ar no dimensijām atkarīgs preces šablonu, izmantojot MK versiju, un abi ir apstiprināti un aktivizēti, varat izveidot preces konfigurācijas un ievadīt nosaukumu katrai konfigurācijai. Konfigurācijas var definēt pirms tiek ģenerētas jebkādas transakcijas, vai arī to var izdarīt tad, kad rodas vajadzība pēc noteiktas konfigurācijas.
+Veidojot no dimensijas atkarīgas preces modeli, parastā darbību secība sākas ar saistīto konfigurāciju grupu definēšanu. Ir svarīgi pārliecināties, ka visas preces, kas tiks izmantotas MK, ir izlaistas uzņēmumam, kuram tiek veidots preces modelis. Izmantojot šos veidošanas blokus, lietotājs var izveidot MK un piešķirt konfigurāciju grupas visiem saistītajām MK rindām. Kad MK ir pabeigts, var definēt konfigurācijas maršrutu konfigurāciju grupu kārtošanai pareizā secībā. [![Uz dimensijām balstīts preču modelēšanas process.](./media/dimension-based-product-modeling-process-v1.png)](./media/dimension-based-product-modeling-process-v1.png) Ja dažādās konfigurāciju grupās ir noteiktas preces, kas ir jālieto kopā vai kuras nedrīkst lietot kopā, tad varat izveidot konfigurācijas nosacījumus, kas liks ievērot šo preču attiecības. Pēc tam, kad MK tiek saistīts ar no dimensijām atkarīgs preces šablonu, izmantojot MK versiju, un abi ir apstiprināti un aktivizēti, varat izveidot preces konfigurācijas un ievadīt nosaukumu katrai konfigurācijai. Konfigurācijas var definēt pirms tiek ģenerētas jebkādas transakcijas, vai arī to var izdarīt tad, kad rodas vajadzība pēc noteiktas konfigurācijas.
 
 ### <a name="suggested-use"></a>Ieteiktais pielietojums
 

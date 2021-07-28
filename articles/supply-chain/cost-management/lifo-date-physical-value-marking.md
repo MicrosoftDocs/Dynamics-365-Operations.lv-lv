@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6a9f21c6c329ef37d515fa0fbdaca57b4f3be0a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 744111a28256bb737246605ca8a259ff5a3d2b5d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821541"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344572"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>LIFO uz datums ar fizisko vērtību un iezīmēšanu
 
@@ -55,7 +55,7 @@ Tālāk sniegtajos piemēros ir parādīta ietekme, ko rada LIFO uz datumu izman
 
 Jaunā aktīvā vidējā izmaksu cena ataino finansiāli atjaunināto darbību vidējo vērtību pie USD 15,00. 
 
-Tālāk redzamajā ilustrācija ir parāda ietekme, ko rada LIFO uz datumu krājumu modeļa izmantošana, ja netiek izmantota opcija **Iekļaut fizisko vērtību**. ![LIFO datums ar fizisko vērtību iekļaušanu](./media/lifodatewithoutincludephysicalvalue.gif) 
+Tālāk redzamajā ilustrācija ir parāda ietekme, ko rada LIFO uz datumu krājumu modeļa izmantošana, ja netiek izmantota opcija **Iekļaut fizisko vērtību**. ![LIFO datums ar fizisko vērtību iekļaušanu.](./media/lifodatewithoutincludephysicalvalue.gif) 
 
 **Diagrammas atslēga**
 
@@ -90,7 +90,7 @@ Tālāk esošajā ilustrācijā ir redzamas tālāk norādītās transakcijas:
 
 Jaunā aktīvā vidējā izmaksu cena ataino finansiāli atjaunināto darbību vidējo vērtību pie USD 20,00. 
 
-Tālāk redzamajā ilustrācija ir parāda ietekme, ko rada LIFO krājumu modeļa izmantošana, ja tiek izmantota opcija **Iekļaut fizisko vērtību**. ![LIFO datums ar fizisko vērtību iekļaušanu](./media/lifodatewithincludephysicalvalue.gif) 
+Tālāk redzamajā ilustrācija ir parāda ietekme, ko rada LIFO krājumu modeļa izmantošana, ja tiek izmantota opcija **Iekļaut fizisko vērtību**. ![LIFO datums ar fizisko vērtību iekļaušanu.](./media/lifodatewithincludephysicalvalue.gif) 
 
 **Diagrammas atslēga**
 
@@ -136,7 +136,7 @@ Sekojošajā ilustrācijā tiek parādītas šīs darbības:
 
 Jauna pašreizēja vidējā izmaksu cena attēlo finansiāli vai fiziski atjaunināto darbību vidējo par summu USD 27,50. 
 
-Tālāk redzamajā ilustrācija ir parāda ietekme, ko rada LIFO krājumu modeļa izmantošana, ja tiek izmantota izejas un ieejas plūsmu saistīšana iezīmējot. ![LIFO datums ar apzīmējumu](./media/lifodatewithmarking.gif) 
+Tālāk redzamajā ilustrācija ir parāda ietekme, ko rada LIFO krājumu modeļa izmantošana, ja tiek izmantota izejas un ieejas plūsmu saistīšana iezīmējot. ![LIFO datums ar apzīmējumu.](./media/lifodatewithmarking.gif) 
 
 **Diagrammas atslēga**
 

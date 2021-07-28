@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 06b5721c423330b8840bb546bdb144c3189c25bb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c350e6d6bfd4e699c55a4c0a57695b1b718b7167
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795385"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357766"
 ---
 # <a name="enable-shop-similar-looks-recommendations"></a>Ieteikumu “pirkt līdzīgus modeļus” iespējošana
 
@@ -68,7 +68,7 @@ Lai iespējotu "pirkt līdzīgas preces" ieteikumus programmā Commerce Headquar
 
 Sekojošajā attēlā ir parādīts līdzeklis **pirkt līdzīgas preces** lapā **Līdzekļu pārvaldība** programmā Commerce Headquarters.
 
-![Pirkt līdzīgas preces līdzeklis lapā Līdzekļu pārvaldība programmā Commerce Headquarters](./media/enableshopsimilarlooks.png)
+![Pirkt līdzīgas preces līdzeklis lapā Līdzekļu pārvaldība programmā Commerce Headquarters.](./media/enableshopsimilarlooks.png)
 
 Pēc tam, kad iepriekš norādītie uzdevumi ir pabeigti, POS termināļi tiek automātiski uzlaboti ar kontekstuālu **pirkt līdzīgas preces** paneli. Atlasot **Skatīt vairāk**, POS termināļa lietotājus var aizvest uz "pirkt līdzīgas preces" lapu, ko var filtrēt tālāk.
 
@@ -88,13 +88,13 @@ Lai pievienotu pogu **Pirkt līdzīgas preces** PDP, izmantojot Commerce Site Bu
 
 Sekojošajā attēlā ir parādīta izvēles rūtiņa **Iespējot Pirkt līdzīgas preces saiti** un **Pirkt līdzīgas preces**, piemēram, PDP vietnes veidotājā.
 
-![Iespējot Pirkt līdzīgas preces saiti un Pirkt līdzīgas preces PDP vietnes veidotājā](./media/SSLecomtooling.png)
+![Iespējot Pirkt līdzīgas preces saiti un Pirkt līdzīgas preces PDP vietnes veidotājā.](./media/SSLecomtooling.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Preču ieteikumu apskats](product-recommendations.md)
 
-[Iespējojiet Azure Data Lake Storage vidē Dynamics 365 Commerce](enable-adls-environment.md)
+[Iespējojiet Azure Data Lake Storage pakalpojuma Dynamics 365 Commerce vidē](enable-adls-environment.md)
 
 [Iespējot preču ieteikumus](enable-product-recommendations.md)
 

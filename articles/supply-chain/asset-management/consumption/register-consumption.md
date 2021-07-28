@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f38b01d94fd2efcce5de210f77124fdc24be6e39
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 50ace9a2f8f5fa39dc927e11f0acd707167ef126
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837901"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346230"
 ---
 # <a name="register-consumption"></a>Patēriņa reģistrēšana
 
@@ -54,7 +54,7 @@ Dažos gadījumos, iespējams, jūs varat pievienot vai dzēst prognozes rindas 
 
 Tālāk redzamajā ekrānuzņēmumā ir parādīts stundas vai krājuma reģistrācijas piemērs darba pasūtījumā **Darba pasūtījuma žurnāli**.
 
-![1. attēls](media/01-consumption.png)
+![1. attēls.](media/01-consumption.png)
 
 
 ## <a name="split-hours-on-work-orders-with-several-work-order-jobs"></a>Stundu sadalīšana darba pasūtījumos ar vairākiem darbu pasūtījuma uzdevumiem
@@ -73,13 +73,13 @@ Ja darba pasūtījumā ir vairāki darba pasūtījuma uzdevumi, varat reģistrē
 
 6. Ievadiet darba stundu skaitu, kas jāsadala, laukā **Stundas**.
 
-    ![2. attēls](media/02-consumption.png)
+    ![2. attēls.](media/02-consumption.png)
 
 7. Noklikšķiniet uz **Labi**.
 
 *Piemērs:* tālāk redzamajā ekrānuzņēmumā ir parādītas žurnāla rindas darba pasūtījumam, kas ietver trīs darba pasūtījuma uzdevumus. Pirmā rinda, kas ietver trīs darba stundas, ir sadalīta, un viena darba stunda tiek reģistrēta katram darba pasūtījuma uzdevumam. Pēc tam, kad ir izveidotas trīs stundu reģistrācijas rindas, varat izlemt, ko darīt ar sākotnējo stundu reģistrācijas rindu (piemērā norādīta kā pirmā rinda). Varat to atstāt tādu, kāda tā ir, vai dzēst. 
 
-![3. attēls](media/03-consumption.png)
+![3. attēls.](media/03-consumption.png)
 
 ## <a name="financial-dimensions-on-consumption-registrations"></a>Finanšu dimensijas patēriņa reģistrācijās
 

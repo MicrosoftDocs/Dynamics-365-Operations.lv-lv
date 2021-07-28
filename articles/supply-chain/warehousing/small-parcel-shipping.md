@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 3e72959d79e9b3b03e061a0f26750e3bd025219e
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d6b24446a5944eb82334dc5dc1f0b15656f83a12
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910213"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358030"
 ---
 # <a name="small-parcel-shipping"></a>Mazu paku nosūtīšana
 
@@ -214,7 +214,7 @@ Lai izveidotu pārdošanas pasūtījumu, veiciet sekojošās darbības.
 1. Atlasiet **Jauns**, lai izveidotu pārdošanas pasūtījumu.
 1. Dialoglodziņā **Pārdošanas pasūtījuma izveide** **Klienta konta** laukā atlasiet *US-027*.
 1. Atlasiet **Labi**, lai izveidotu pārdošanas pasūtījumu un aizvērtu dialoglodziņu.
-1. Jaunais pārdošanas pasūtījums ir atvērts. Kopsavilkuma cilnē **Pārdošanas pasūtījuma galvene** laukā **Pārvadātāja debitora kods** iestatiet vērtību, kuru atlasījāt šim debitoram iepriekš *(12345*).
+1. Jaunais pārdošanas pasūtījums ir atvērts. Kopsavilkuma cilnē **Pārdošanas pasūtījuma galvene** laukā **Pārvadātāja debitora kods** iestatiet vērtību, kuru atlasījāt šim debitoram iepriekš (*12345*).
 1. Sadaļā **Pārdošanas pasūtījuma rindas** pievienojiet pārdošanas rindu un iestatiet tai šādas vērtības:
 
     - **Krājuma numurs:** *A0002*
@@ -274,7 +274,7 @@ Lai iepakotu sūtījumu, veiciet sekojošās darbības.
 
     Nosūtīšanas uzlīme tagad ir jādrukā iepriekš atlasītajā ZPL printerī. Tiem vajadzētu līdzināties šādam piemēram.
 
-    ![Nosūtīšanas uzlīmes piemērs](media/sps-label-example.png "Nosūtīšanas uzlīmes piemērs")
+    ![Nosūtīšanas uzlīmes piemērs.](media/sps-label-example.png "Nosūtīšanas uzlīmes piemērs")
 
 1. Ievērojiet, ka **Konteinera manifesta ID** un **Kopējās kravas** vērtības ir pievienotas kā saņemtas no pārvadātāja.
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7ac7eec69bda7ad2fa41a7311a71a969eddeafb6
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: a34c9f265a3adbbe938d90f2aa7f5d02b7201c05
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021492"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344986"
 ---
 # <a name="time-and-attendance-management-in-retail"></a>Laika un apmeklētības pārvaldība programmā Retail
 
@@ -31,7 +31,7 @@ ms.locfileid: "6021492"
 
 ## <a name="manage-worker-setup-and-scheduling"></a>Darbinieku iestatījumu un plānošanas pārvaldība
 
-### <a name="initial-configuration"></a> sākotnējā konfigurācija
+### <a name="initial-configuration"></a>Sākotnējā konfigurācija
 
 - Palaidiet konfigurācijas vedni.
 - Reģistrējiet darbiniekus kā laika reģistrācijas darbiniekus.
@@ -44,8 +44,8 @@ Papildinformāciju par konfigurācijas darbībām skatiet tēmā [Laika un apmek
 
 ### <a name="commerce-specific-configuration"></a>Commerce paredzēta konfigurācija
 
-- Iespējojiet funkcionalitātes Laika uzskaite profilu darbiniekiem, kuriem vēlaties aktivizēt laika reģistrāciju. Noklikšķiniet uz **POS funkcionalitātes profili** &gt; **Funkcijas** &gt; **POS laika reģistrācijas** &gt; **Aktivizēt laika reģistrācijas**.
-- Konfigurējiet pārdošanas punkta (POS) atļaujas grupas, lai iespējotu funkcijas Skatīt laika uzskaites ierakstus atļauju. Ar šo atļauju lietotājs var skatīt citu veikala (un citu veikalu, ar kuriem lietotājs ir saistīts, izmantojot adrešu grāmatu) darbinieku laika uzskaites reģistrācijas ierakstus. Šo atļauju ieteicams aktivizēt vadītāja lomai, bet ne kasiera lomai. Noklikšķiniet uz **POS atļauju grupas** &gt; **Skatīt darba laika uzskaites ierakstus**.
+- Iespējojiet funkcionalitātes Laika uzskaite profilu darbiniekiem, kuriem vēlaties aktivizēt laika reģistrāciju. Noklikšķiniet uz **POS funkcionalitātes profili** &gt; **Funkcijas** &gt; **POS laika reģistrācijas** &gt; **Aktivizēt laika reģistrācijas**.
+- Konfigurējiet pārdošanas punkta (POS) atļaujas grupas, lai iespējotu funkcijas Skatīt laika uzskaites ierakstus atļauju. Ar šo atļauju lietotājs var skatīt citu veikala (un citu veikalu, ar kuriem lietotājs ir saistīts, izmantojot adrešu grāmatu) darbinieku laika uzskaites reģistrācijas ierakstus. Šo atļauju ieteicams aktivizēt vadītāja lomai, bet ne kasiera lomai. Noklikšķiniet uz **POS atļauju grupas** &gt; **Skatīt darba laika uzskaites ierakstus**.
 
 ## <a name="register-time"></a>Reģistra laiks
 
@@ -97,7 +97,7 @@ Papildinformāciju par konfigurācijas darbībām skatiet tēmā [Laika un apmek
         </tbody>
         </table>
 
-        [![Laika uzskaites stāvokļi](./media/timeclockstates.png)](./media/timeclockstates.png)
+        [![Laika uzskaites stāvokļi.](./media/timeclockstates.png)](./media/timeclockstates.png)
 
 - Skatiet apstiprinājuma ziņojumu un pārbaudiet, vai pašreizējais aktivitātes laiks ir pareizs.
 - Reģistrācijas žurnāls
@@ -108,7 +108,7 @@ Papildinformāciju par konfigurācijas darbībām skatiet tēmā [Laika un apmek
 
 - Atšķirīgas laika zonas
 
-    - Ja tiek skatīta laika uzskaite no citas atrašanās vietas (kasiera žurnālā vai izmantojot vadītāja scenārija opciju **Skatīt laika uzskaites ierakstus**) un šī atrašanās vieta atrodas citā laika joslā, redzamie laika uzskaites ieraksti tiek pārvērsti atbilstoši vietējai laika joslai. Piemēram, pieņemsim, ka esat divu veikalu vadītājs, no kuriem viens atrodas Arizonā, bet otrs atrodas Nevadā. Kasieris reģistrē ierašanos 9:00 pēc Arizonas laika. Šajā brīdī Nevadā ir 8:00. Tāpēc, ja atrodaties veikalā Nevadā un skatāt laika reģistrācijas ierakstus, ir redzams, ka laika reģistrācija ir atzīmēta 8:00.
+    - Ja tiek skatīta laika uzskaite no citas atrašanās vietas (kasiera žurnālā vai izmantojot vadītāja scenārija opciju **Skatīt laika uzskaites ierakstus** ) un šī atrašanās vieta atrodas citā laika joslā, redzamie laika uzskaites ieraksti tiek pārvērsti atbilstoši vietējai laika joslai. Piemēram, pieņemsim, ka esat divu veikalu vadītājs, no kuriem viens atrodas Arizonā, bet otrs atrodas Nevadā. Kasieris reģistrē ierašanos 9:00 pēc Arizonas laika. Šajā brīdī Nevadā ir 8:00. Tāpēc, ja atrodaties veikalā Nevadā un skatāt laika reģistrācijas ierakstus, ir redzams, ka laika reģistrācija ir atzīmēta 8:00.
 
 ## <a name="view-worker-time-registrations"></a>Darbinieku laika reģistrācijas ierakstu skatīšana
 
@@ -135,7 +135,7 @@ Commerce lietotājs izpilda darbplūsmu, lai aprēķinātu, apstiprinātu un pā
 - Aiziešana grupā
 - Kavējuma reģistrēšana
 
-Papildinformāciju par laika un apmeklētības ierakstu apstrādi skatiet tēmā[Laika un apmeklētības ierakstu apstrāde](/dynamicsax-2012/appuser-itpro/process-time-and-attendance-registrations).
+Papildinformāciju par laika un apmeklētības ierakstu apstrādi skatiet tēmā [Laika un apmeklētības ierakstu apstrāde](/dynamicsax-2012/appuser-itpro/process-time-and-attendance-registrations).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

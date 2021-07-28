@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 5ecfa8ac4db050ee1e38f3b420d81beba19b9409
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9b55a48847e9c6201e7a93a2fb5d6622b581d785
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812959"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354717"
 ---
 # <a name="planning-optimization-overview"></a>Plānošanas optimizācijas pārskats
 
@@ -29,11 +29,11 @@ ms.locfileid: "5812959"
 
 Plānošanas optimizācijas pievienojumprogramma, kas paredzēta Microsoft Dynamics 365 Supply Chain Management, ļauj veikt vispārējās plānošanas aprēķinus Dynamics 365 Supply Chain Management, kas tiek notiek ārpusē, un saistīto SQL datu bāzi. Priekšrocības, kas saistītas ar plānošanas optimizācijas funkcionalitāti, vispārējās plānošanas izpildes laikā ietver uzlabotu veiktspēju un minimālu ietekmi uz SQL datu bāzi. Ātro plānošanu var veikt arī darba stundu laikā, lai plānotāji varētu nekavējoties reaģēt uz pieprasījumu vai parametru izmaiņām.
 
-Lai izmantotu plānošanas optimizāciju, jums ir jāinstalē Plānošanas optimizācijas pievienojumprogramma no jūsu projekta Microsoft Dynamics Lifecycle Services (LCS) un jāieslēdz Plānošanas optimizācijas funkcionalitāte Supply Chain Management. Papildinformāciju skatiet [Sākt darbu ar Plānošanas optimizāciju ](get-started.md).
+Lai izmantotu plānošanas optimizāciju, jums ir jāinstalē Plānošanas optimizācijas pievienojumprogramma no jūsu projekta Microsoft Dynamics Lifecycle Services (LCS) un jāieslēdz Plānošanas optimizācijas funkcionalitāte Supply Chain Management. Papildinformāciju skatiet [Sākt darbu ar Plānošanas optimizāciju](get-started.md).
 
 Sekojošajā attēlā redzama Plānošanas optimizācijas priekšrocība darba stundu laikā.
 
-![Plānošanas optimizācijas priekšrocība darba stundu laikā](media/PlanningOptimization1.png)
+![Plānošanas optimizācijas priekšrocība darba stundu laikā.](media/PlanningOptimization1.png)
 
 ## <a name="improved-performance"></a>Uzlabota veiktspēja
 
@@ -62,11 +62,11 @@ Ja Plānošanas optimizācijas pievienojumprogramma ir atinstalēta, visi saist�
 
 Nākamajā attēlā ir redzamas datu plūsmas.
 
-![Datu plūsma atjaunošanai tiek veikta](media/PlanningOptimization2.png)
+![Datu plūsma atjaunošanai tiek veikta.](media/PlanningOptimization2.png)
 
 ## <a name="related-resources"></a>Saistītie resursi
 
-[Darba sākšana ar Plānošanas optimizāciju](get-started.md)
+[Darba sākšana ar plānošanas optimizāciju](get-started.md)
 
 [Plānošanas optimizācijas atbilstības analīze](planning-optimization-fit-analysis.md)
 

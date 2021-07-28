@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c09dee94891fb78c22e8cf9f203cb7f5531bb968
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
+ms.openlocfilehash: 4fd08d9eeb9bb6ac9e3c19ff3c8592086c050182
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6016139"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354958"
 ---
 # <a name="cost-and-date-control"></a>Izmaksu un datuma kontrole
 
@@ -58,7 +58,7 @@ Aprēķini, kas veikti līdzekļiem, funkcionālajam novietojumam un darba pasū
 
     Zemāk esošajā attēlā ir parādīts **Līdzekļu izmaksu kontroles** dialogs.
 
-    ![Līdzekļu izmaksu kontroles dialoglodziņš](media/01-controlling-and-reporting.png)
+    ![Līdzekļu izmaksu kontroles dialoglodziņš.](media/01-controlling-and-reporting.png)
 
 10. Lapā **Līdzekļu izmaksu kontrole** noklikšķiniet uz attiecīgās pogas **Grupēt pēc..**, lai uzrādītu nepieciešamo aprēķina informācijas detalizācijas līmeni. Atlasītās **Grupēt pēc** pogas ir izceltas. Noklikšķiniet uz pogas, lai to aktivizētu vai deaktivizētu.
 
@@ -71,7 +71,7 @@ Tālāk esošajā ekrānuzņēmumā ir parādīts līdzekļu aprēķina rezultā
 - Laukā **Atvērtās saistību izmaksa** redzamas saistība par maksājumiem par vienumiem, stundām un pakalpojumiem, ko esat pasūtījis vai saņēmis, bet vēl neesat apmaksājis. 
 - Kad ir grāmatotas visas patēriņa reģistrācijas, saistītās izmaksas tiek iekļautas laukā **Faktiskās izmaksas**.
 
-![Piemēram, aprēķina rezultāts ir Līdzekļu izmaksu kontrolē](media/02-controlling-and-reporting.png)
+![Piemēram, aprēķina rezultāts ir Līdzekļu izmaksu kontrolē.](media/02-controlling-and-reporting.png)
 
 Cits veids, kā veikt izmaksu aprēķinu, ir atzīmēt vairākus līdzekļus sadaļā **Visi līdzekļi** vai **Aktīvie līdzekļi**. Tad klikšķiniet uz pogas **Izmaksu kontrole** cilnē **Vispārēji**. Dialogā **Līdzekļu izmaksu kontrole** atlasītie līdzekļi tiek automātiski ievietoti laukā **Līdzekļi** kopsavilkuma cilnē **Iekļaujamie ieraksti**. Klikšķiniet uz **Labi**, tiks parādīts atlasīto līdzekļu izmaksu aprēķins. To pašu procedūru var veikt funkcionālajiem novietojumiem sadaļās **Visi funkcionālie novietojumi** vai **Aktīvie funkcionālie novietojumi** un darba pasūtījumiem sadaļās **Visi darba pasūtījumi** vai **Aktīvie darba pasūtījumi**.
 
@@ -99,7 +99,7 @@ Tālāk esošajā ekrānuzņēmumā ir parādīts līdzekļu aprēķina rezultā
 - Laukā **Vidējais beigu kavējums** tiks parādīta starpība starp darba pasūtījuma ieplānoto beigu datumu un faktisko beigu datumu. Ja, piemēram, faktiskais beigu datums bijis trīs dienas pēc ieplānotā datuma, šajā laukā rādīs „3”.  
 - Laukā **Gadījumi** parāda skaitli, cik bieži notikušas novirzes attiecībā uz plānoto un faktisko sākuma datumu un plānoto un faktisko darba pasūtījuma datumu.
 
-![Piemēram, aprēķina rezultāts ir Darba pasūtījuma datuma kontrole](media/03-controlling-and-reporting.png)
+![Piemēram, aprēķina rezultāts ir Darba pasūtījuma datuma kontrole.](media/03-controlling-and-reporting.png)
 
 
 

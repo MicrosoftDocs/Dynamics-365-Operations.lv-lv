@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bd3bea647698f76efa5831d0b8b34d3cb0ad479a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 344f015b5d2de45e3eca1eb8c0f3b1676da945d2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825546"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354160"
 ---
 # <a name="dispatch-work-order"></a>Darba pasūtījuma nosūtīšana
 
@@ -52,7 +52,7 @@ Varat plānot vienu vai vairākus darba pasūtījumus vienam darbiniekam, izmant
 
 Tālāk redzamais attēls parāda nosūtīšanas atlašu piemēru dialoglodziņā **Plānot darba pasūtījumu**.
 
-![1. attēls](media/04-work-order-scheduling.png)
+![1. attēls.](media/04-work-order-scheduling.png)
 
 [!NOTE]
 Ja vēlaties dzēst darba pasūtījuma grafiku, atlasiet darba pasūtījumu sadaļā **Visi darba pasūtījumi** un pēc tam noklikšķiniet uz **Dzēst grafiku** cilnē **Vispārīgi**. Izdzēšot grafiku, neaizmirstiet manuāli atjaunināt darba pasūtījuma dzīves cikla stāvokli.

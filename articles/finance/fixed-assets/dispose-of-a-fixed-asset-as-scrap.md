@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 413847d350ca6b2bdd6153a598ea5b3f34a33818
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0e465594968ac860a9cb8f6f5d679084e5594457
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826279"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355610"
 ---
 # <a name="dispose-of-a-fixed-asset-as-scrap"></a>Izslēgt pamatlīdzekļus kā norakstītos
 
@@ -43,7 +43,7 @@ Tēmā ir aprakstīts process, kurā tiek likvidētas transakcijas pamatlīdzekl
 Pirms pamatlīdzekļa likvidēsanas kā brāķa, ir jāizveido virsgrāmatas konts, kas ir saistīts ar pamatlīdzekļa iegādes vērtību, nolietojumu pašreizējam gadam, nolietojumu iepriekšējos gados un pamatlīdzekļa NBV. Pamatlīdzekļu transakciju veidi ir uzskaitīti **Pamatlīdzekļu grāmatošanas profila** lapā. Dodieties uz **Pamatlīdzekļi \> Iestatīšanas \> Pamatlīdzekļu grāmatošanas metodes** un pēc tam kopsavilkuma cilnē **Likvidēšana** atlasiet **Brāķis** laukā virs režģa. Sekojošajā attēlā ir redzams pamatlīdzekļu transakciju veidu saraksts **Pamatlīdzekļu grāmatošanas profile** lapā.
 
 
-[![Pamatlīdzekļa likvidēšana kā brāķa, 1. attēls](./media/Fixed_asset_Disposal_scrap_scenario_1.png)](./media/Fixed_asset_Disposal_scrap_scenario_1.png)
+[![Pamatlīdzekļa likvidēšana kā brāķa, 1. attēls.](./media/Fixed_asset_Disposal_scrap_scenario_1.png)](./media/Fixed_asset_Disposal_scrap_scenario_1.png)
 
 Šim piemēram, pamatlīdzeklis tika iegādāts 2018. gada 1. janvārī, un tas tiks likvidēts 2019. gada 31. martā.
 
@@ -58,27 +58,27 @@ Atlikusī vērtība = Iegādes cena — Nolietojums
 
 Šajā piemērā pamatlīdzeklis tika iegādāts un tika nolietots 15 mēnešu laikā no 2018. līdz 2019. gada martam. Tāpēc pamatlīdzekļa NBV ir 9 000,00 USD (24 000,00 USD – 15 000,00 USD).
 
-[![Pamatlīdzekļa nolietojuma piemērs](./media/Fixed_asset_Disposal_scrap_scenario_2.png)](./media/Fixed_asset_Disposal_scrap_scenario_2.png)
+[![Pamatlīdzekļa nolietojuma piemērs.](./media/Fixed_asset_Disposal_scrap_scenario_2.png)](./media/Fixed_asset_Disposal_scrap_scenario_2.png)
 
 
 Lai izveidotu likvidēšanas žurnālu, atveriet **Pamatlīdzekļi \> Žurnāla ieraksti \> Pamatlīdzekļu žurnāls** un pēc tam Darbības rūtī atlasiet **Rindas**. Atlasiet **Likvidēšana— brāķis**, pēc tam atlasiet pamatlīdzekļa ID. Lai pilnībā likvidētu pamatlīdzekli, neievadiet vērtību laukā **Debets** vai laukā **Kredīts**.
 
-[![Pamatlīdzekļu žurnāls](./media/Fixed_asset_Disposal_scrap_scenario_3.png)](./media/Fixed_asset_Disposal_scrap_scenario_3.png)
+[![Pamatlīdzekļu žurnāls.](./media/Fixed_asset_Disposal_scrap_scenario_3.png)](./media/Fixed_asset_Disposal_scrap_scenario_3.png)
 
 Pamatlīdzekļa likvidēšanas transakcija brāķa dēļ maina pamatlīdzekļu grāmatas lauka vērtības šādos veidos:
 
 - Sadaļā **Bilance** lauks **Statuss** tiek atjaunināts uz **Brāķēts**.
 - Sadaļā **Izsniegšana** lauks **Likvidēšanas datums** tiek iestatīts uz datumu, kad pamatlīdzeklis tika norakstīts.
 
-[![Detalizēta informācija par amatlīdzekļu žurnālu](./media/Fixed_asset_Disposal_scrap_scenario_4.png)](./media/Fixed_asset_Disposal_scrap_scenario_4.png)
+[![Detalizēta informācija par amatlīdzekļu žurnālu.](./media/Fixed_asset_Disposal_scrap_scenario_4.png)](./media/Fixed_asset_Disposal_scrap_scenario_4.png)
 
 Sekojošajā attēlā ir redzama pamatlīdzekļa bilance.
 
-[![Pamatlīdzekļu bilance](./media/Fixed_asset_Disposal_scrap_scenario_5.png)](./media/Fixed_asset_Disposal_scrap_scenario_5.png)
+[![Pamatlīdzekļu bilance.](./media/Fixed_asset_Disposal_scrap_scenario_5.png)](./media/Fixed_asset_Disposal_scrap_scenario_5.png)
 
 Sekojošajā attēlā ir redzams grāmatots dokuments.
 
-[![Atlikusī vērtība](./media/Fixed_asset_Disposal_scrap_scenario_6.png)](./media/Fixed_asset_Disposal_scrap_scenario_6.png)
+[![Atlikusī vērtība.](./media/Fixed_asset_Disposal_scrap_scenario_6.png)](./media/Fixed_asset_Disposal_scrap_scenario_6.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 001795914c683a6182b885b79be7e225ad80e5cd
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 1fcf9f45eb7f3ef111d66c2c30ec529269b0685b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750568"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352916"
 ---
 # <a name="data-templates-with-multiple-worksheets"></a>Datu veidnes ar vairākām darblapām
 
@@ -32,13 +32,13 @@ Apskatīsim piemēru, kur vienā Excel failā ir darblapas ar nosaukumu **Vietas
 
 Ja pievienojat otro elementu, **Noliktavas**, neaizverot formu **Pievienot failu**, darblapas uzmeklēšana jums ļauj atlasīt darblapu **Noliktavas** bez nepieciešamības šo failu augšupielādēt vēlreiz. Vienīgais iemesls augšupielādēt jaunu failu būtu tad, ja dati **Noliktavas** atrastos citā failā.
 
-![Vairākas darblapas](./media/AddFileMultipleWorkSheets.png)
+![Vairākas darblapas.](./media/AddFileMultipleWorkSheets.png)
 
 ## <a name="fix-worksheet-to-entity-mapping"></a>Darblapas norādīšana elementa kartēšanai
 
 Darblapas kartēšanu uz kādu datu elementu importēšanas darbā var norādīt no režģa. Režģa kolonnā **Darblapa** tiek rādītas darblapas no faila, kurš tika kartēts. Nolaižamajā izvēlnē varat izvēlēties citu darblapu. Ja izvēlētā darblapa jau tiek kartēta uz kādu elementu datu projektā, sistēma jums lūdz apstiprināt šīs izmaiņas. Ieteicams norādīt visus kartējumus režģī.
 
-![Darblapas kartējuma atjaunināšana](./media/UpdateMappings.png)
+![Darblapas kartējuma atjaunināšana.](./media/UpdateMappings.png)
 
 ## <a name="re-map-to-a-new-file"></a>Pārkartēšana uz jaunu failu
 

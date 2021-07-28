@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b7e5726f7e4beea1584b9a8e142212531ba1db56
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6e87781762112955902d8a5807092a842f53f6af
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051741"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356564"
 ---
 # <a name="understand-date-and-time-fields"></a>Informācija par datuma un laika laukiem
 
@@ -36,13 +36,13 @@ ms.locfileid: "6051741"
 
 Parādot datus laukā **Datums un laiks**, programma Human Resources pielāgo datumu un laiku, pamatojoties uz lietotāja laika zonu, kas iestatīta veidlapā **Lietotāja opcijas** (**Kopīgi > Iestatīšana > Lietotāja opcijas**). Datuma un laika informācija, ko ievadāt laukā, var nebūt vienāda ar datu bāzē ierakstīto informāciju.
 
-[![Lietotāja opciju veidlapa](./media/useroptionsform.png)](./media/useroptionsform.png)
+[![Lietotāja opciju veidlapa.](./media/useroptionsform.png)](./media/useroptionsform.png)
 
 ## <a name="understanding-date-and-time-fields-in-forms"></a>Izpratne par Datuma un laika laukiem veidlapās 
 
 **Datuma un laika** ekrānā parādītie dati nav tādi paši kā dati, kas tiek glabāti datu bāzē, ja lietotāja laika josla nav iestatīta uz koordinēto pasaules laiku (UTC). Dati **Datuma un laika** laukos vienmēr tiek glabāti kā UTC.
 
-[![Darbinieka veidlapa UTC](./media/worker-form.png)](./media/worker-form.png)
+[![Darbinieka veidlapa UTC.](./media/worker-form.png)](./media/worker-form.png)
 
 ## <a name="understand-date-and-time-fields-in-the-database"></a>Izpratne par Datuma un laika laukiem datu bāzē 
 
@@ -52,7 +52,7 @@ Iepriekšminētajā piemērā sākuma laiks ir laika punkts, nevis konkrēts dat
   
 Zemāk minētajā piemērā darbinieku 000724 nodarbinātība kļūst aktīva tajā pašā laikā neatkarīgi no laika zonas. Darbinieks būs aktīvs 04/30/2019 GMT laika joslā, kas ir tad pat kad 05/01/2019 GMT + 12:00 laika zonā. Abi attiecas uz vienu un to pašu punktu laikā, nevis konkrētu datumu. 
 
-[![Darbinieka veidlapa GMT](./media/worker-form2.png)](./media/worker-form2.png)
+[![Darbinieka veidlapa GMT.](./media/worker-form2.png)](./media/worker-form2.png)
 
 ## <a name="date-and-time-data-in-data-management-framework-excel-dataverse-and-power-bi"></a>Datuma un laika dati Datu pārvaldības struktūrā, Excel, Dataverse un Power BI 
 
@@ -68,27 +68,27 @@ Lietojot ārējos avotus, piemēram, DMF, lai skatītu vai autorizētu datus, j�
 
 **Programma Human Resources ar lietotāja laika joslu iestatītu uz UTC**
 
-[![Darbinieka veidlapa, kas iestatīta uz UTC](./media/worker-form3.png)](./media/worker-form3.png)
+[![Darbinieka veidlapa, kas iestatīta uz UTC.](./media/worker-form3.png)](./media/worker-form3.png)
 
 **Programma Human Resources ar lietotāja laika joslu iestatītu uz GMT +12:00** 
 
-[![Darbinieka veidlapa, kas iestatīta uz GMT](./media/worker-form4.png)](./media/worker-form4.png)
+[![Darbinieka veidlapa, kas iestatīta uz GMT.](./media/worker-form4.png)](./media/worker-form4.png)
 
 **Excel, izmantojot OData**
 
-[![Excel, izmantojot OData](./media/Excelviaodata.png)](./media/Excelviaodata.png)
+[![Excel, izmantojot OData.](./media/Excelviaodata.png)](./media/Excelviaodata.png)
 
 **DMF sagatavošana**
 
-[![DMF sagatavošana](./media/DMFStaging.png)](./media/DMFStaging.png)
+[![DMF sagatavošana.](./media/DMFStaging.png)](./media/DMFStaging.png)
 
 **DMF eksportēšana**
 
-[![DMF eksports](./media/DMFexport.png)](./media/DMFexport.png)
+[![DMF eksports.](./media/DMFexport.png)](./media/DMFexport.png)
 
 **Excel, izmantojot Dataverse**
 
-[![Excel, izmantojot Dataverse](./media/ExcelCDS.png)](./media/ExcelCDS.png)
+[![Excel, izmantojot Dataverse.](./media/ExcelCDS.png)](./media/ExcelCDS.png)
 
 ## <a name="see-also"></a>Skatiet arī
 

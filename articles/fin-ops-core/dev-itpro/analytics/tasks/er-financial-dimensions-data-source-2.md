@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1e6f5ffbebdfcd9f945e6237904d80e8734b0220
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 15f564ec0b4639ba7a27c6f3f989304c71695ee4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752440"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356347"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>ER finanšu dimensijas, kuras izmanto kā datu avotu (2. daļa. Modeļa kartēšana)
 
@@ -56,14 +56,14 @@ Lai izpildītu šos soļus, vispirms ir jāpabeidz soļi, kas aprakstīti proced
 21. Atlasiet Jā laukā Jautāt galveno kontu.
     * Iestatiet 'Jautāt galveno kontu' uz Jā, lai atļautu lietotājiem atlasīt galveno kontu kā daļu no dimensiju saraksta.   Ja ir iestatīts uz Nē, galvenais konts netiks iekļauts dimensiju sarakstā, un opcija 'Vai galvenais konts ir obligāts' ir iespējota. Ja opcija 'Vai galvenais konts ir obligāts' ir iestatīta uz Jā, iekļaujiet galveno kontu dimensiju sarakstā, neatkarīgi no lietotāja veiktās atlases.  
 22. Noklikšķiniet uz Labi.
-![ER modeļa kartēšanas noformētāja lapa](../media/er-financial-dimensions-guides-model-mapping1.png)
+![ER modeļa kartēšanas noformētāja lapa.](../media/er-financial-dimensions-guides-model-mapping1.png)
 23. Kokā atlasiet 'Dynamics 365 for Operations\Tabulas ieraksti'.
 24. Noklikšķiniet uz Pievienot sakni.
 25. Laukā Nosaukums ierakstiet 'LedgerJournal'.
 26. Laukā Pieprasīt vaicājumu atlasiet Jā.
 27. Laukā Tabula ievadiet 'LedgerJournalTable'.
 28. Noklikšķiniet uz Labi.
-![ER modeļa kartēšanas noformētāja lapa](../media/er-financial-dimensions-guides-model-mapping2.png)
+![ER modeļa kartēšanas noformētāja lapa.](../media/er-financial-dimensions-guides-model-mapping2.png)
 
 ## <a name="map-data-model-elements-to-added-data-sources"></a>Kartēt datu modeļa elementus pievienotajiem datu avotiem
 1. Kokā izvērsiet 'Žurnāls'.
@@ -94,7 +94,7 @@ Lai izpildītu šos soļus, vispirms ir jāpabeidz soļi, kas aprakstīti proced
 25. Kokā atlasiet "LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Main account and dimensions".
 26. Kokā atlasiet 'Žurnāls\Darbība\Dimensiju dati'.
 27. Noklikšķiniet uz Saistīt.
-![ER modeļa kartēšanas noformētāja lapa](../media/er-financial-dimensions-guides-model-mapping3.png)
+![ER modeļa kartēšanas noformētāja lapa.](../media/er-financial-dimensions-guides-model-mapping3.png)
 28. Kokā atlasiet "LedgerJournal\<Relations\LedgerJournalTrans\Debit(AmountCurDebit)".
 29. Kokā atlasiet 'Žurnāls\Darbība\Debets'.
 30. Noklikšķiniet uz Saistīt.
@@ -132,10 +132,10 @@ Lai izpildītu šos soļus, vispirms ir jāpabeidz soļi, kas aprakstīti proced
 62. Noklikšķiniet uz Rediģēt.
 63. Laukā expressionAsStringText field ievadiet 'Uzņēmums.'atrast()'.'nosaukums()''.
     * Uzņēmums.'atrast()'.'nosaukums()'  
-64. Klikšķiniet Saglabāt.
-![ER modeļa kartēšanas noformētāja lapa](../media/er-financial-dimensions-guides-model-mapping4.png)
+64. Noklikšķiniet uz Saglabāt.
+![ER modeļa kartēšanas noformētāja lapa.](../media/er-financial-dimensions-guides-model-mapping4.png)
 65. Aizvērt lapu.
-66. Klikšķiniet Saglabāt.
+66. Noklikšķiniet uz Saglabāt.
 67. Aizvērt lapu.
 
 ## <a name="complete-this-draft-models-version"></a>Pabeigt šo modeļa melnraksta versiju
@@ -144,7 +144,7 @@ Lai izpildītu šos soļus, vispirms ir jāpabeidz soļi, kas aprakstīti proced
 3. Noklikšķiniet uz Mainīt statusu.
 4. Noklikšķiniet uz Pabeigt.
 5. Noklikšķiniet uz Labi.
-![ER modeļa kartēšanas noformētāja lapa](../media/er-financial-dimensions-guides-model-mapping5.png)
+![ER modeļa kartēšanas noformētāja lapa.](../media/er-financial-dimensions-guides-model-mapping5.png)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

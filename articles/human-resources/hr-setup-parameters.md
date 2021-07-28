@@ -2,7 +2,7 @@
 title: Konfigurēt Human Resources parametrus
 description: Šajā rakstā ir paskaidrots, kā iestatīt uzņēmumam raksturīgus parametrus programmā Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 06/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c4c93e3d2644a380e3d5d2247961a8b6fb34568
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 24d30aa06805b530cc069be0517279a11dff9ed4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052413"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356540"
 ---
 # <a name="configure-human-resources-parameters"></a>Konfigurēt Human Resources parametrus
 
@@ -30,7 +30,7 @@ Dažu cilvēkresursu parametru iestatījumi tiek koplietoti uzņēmumu starpā, 
 
 Divas lapas tiek izmantotas, lai iestatītu cilvēkresursu parametrus. Parametriem, kas ir kopīgi visiem uzņēmumiem, izmanto lapu **Personāla vadības kopīgie parametri**. Parametriem, kas ir specifiski uzņēmumam (citiem vārdiem sakot, iestatījumi attiecas uz vienu uzņēmumu), izmanto lapu **Personāla vadības parametri**.
 
-![Dodieties uz Cilvēkresursu parametri](./media/hr-employee-self-service-human-resources-parameters.png)
+![Dodieties uz Cilvēkresursu parametri.](./media/hr-employee-self-service-human-resources-parameters.png)
 
 Lapā **Personāla vadības parametri** iestatījumi ir sadalīti sešās cilnēs:
 
@@ -51,14 +51,15 @@ Katra cilne ietver informāciju, kas attiecas uz vienu uzņēmumu.
 
 Iestatījumi lapā **Vispārīgi** nosaka informācijas parādīšanos par kavējumu, traumu un slimību un jaunām pieņemšanām darbā. Šīs cilnes iestatījumi definē arī dažus noklusējuma ierakstus, kas parādās darba laikā. It īpaši šī cilne ļauj:
 
-- Atlasiet krāsu, kuru piemērot atvērtajām kavējumu transakcijām
-- Norādīt stilu lapu, kas jāizmanto pārskatiem
-- Iespējot integrāciju starp apmācību kursiem un prombūtnes reģistrēšanu
+- Atlasiet krāsu, kuru piemērot atvērtajām kavējumu transakcijām.
+- Norādīt stilu lapu, kas jāizmanto pārskatiem.
+- Iespējot integrāciju starp apmācību kursiem un prombūtnes reģistrēšanu.
 - Atlasiet kavējuma kodu, kas tiek izmantots šīs integrācijas kontrolei.
 - Norādiet, cik ilgi uzturēt traumas vai slimības gadījumu incidentus.
 - Norādiet noklusēto identifikācijas numuru, kas tiek rādīts, pieņemot darbā jaunu darbinieku.
+- Norādiet datumu, kas tiek lietots, lai aprēķinātu pakalpojuma gadu. 
 
-![Cilne Vispārīgi](./media/hr-setup-parameters-general.png)
+![Cilne Vispārīgi.](./media/hr-setup-parameters-general.png)
 
 ## <a name="recruitment"></a>Personāla atlase
 
@@ -76,7 +77,7 @@ Cilvēkresursu sadaļā varat lietot cilni **Atlīdzība**, lai izvēlētos iero
 
 Papildinformāciju par atlīdzību skatiet [Atlīdzības plānu pārskats](hr-compensation-overview.md).
 
-![Kompensāciju cilne](./media/hr-setup-parameters-compensation.png)
+![Kompensāciju cilne.](./media/hr-setup-parameters-compensation.png)
 
 ## <a name="number-sequences"></a>Numuru sērijas
 
@@ -96,13 +97,13 @@ Plašāku informāciju par numuru secību skatiet [Numuru sērijas pārskats](..
 > [!NOTE]
 > Nostrādāto stundu skaits nedrīkst pārsniegt 1250 un nodarbinātības garums nedrīkst pārsniegt 12 mēnešus. Šīs maksimālās vērtības ir saskaņā ar federālo likumu Amerikas Savienotajās Valstīs.
 
-![Cilne Numuru sērijas](./media/hr-setup-parameters-number-sequences.png)
+![Cilne Numuru sērijas.](./media/hr-setup-parameters-number-sequences.png)
 
 ## <a name="fmla"></a>FMLA
 
 Cilnē FMLA iestatiet FMLA piemērotības prasības un FMLA pilnvaru stundas. Papildinformāciju skatiet [Atvaļinājumu un prombūtnes parametru konfigurēšana](hr-leave-and-absence-parameters.md).
 
-![Cilne FMLA](./media/hr-setup-parameters-fmla.png)
+![Cilne FMLA.](./media/hr-setup-parameters-fmla.png)
 
 ## <a name="employee-self-service"></a>Darbinieku patstāvīgi izmantojamais pakalpojums
 
@@ -115,7 +116,7 @@ Iestatījumi cilnē **Darbinieku pašapkalpošanās** ietekmē to, kā darbiniek
 
 Papildinformāciju par Darbinieku pašapkalpošanās iestatīšanu skatiet pārskatā [Darbinieku un Pārvaldnieka pašapkalpošanās](hr-employee-manager-self-service-overview.md).
 
-![Darbinieku pašapkalpošanās cilne](./media/hr-setup-parameters-employee-self-service.png)
+![Darbinieku pašapkalpošanās cilne.](./media/hr-setup-parameters-employee-self-service.png)
 
 ## <a name="manager-self-service"></a>Vadītāja pašapkalpošanās
 
@@ -129,13 +130,13 @@ Papildinformāciju par Darbinieku pašapkalpošanās iestatīšanu skatiet pārs
 
 Papildinformāciju par Darbinieku pašapkalpošanās iestatīšanu skatiet [Darbinieku un Vadītāja pašapkalpošanās pārskats](hr-employee-manager-self-service-overview.md).
 
-![Vadītāja pašapkalpošanās cilne](./media/hr-setup-parameters-manager-self-service.png)
+![Vadītāja pašapkalpošanās cilne.](./media/hr-setup-parameters-manager-self-service.png)
 
 ## <a name="benefits-management"></a>Atvieglojumu pārvaldība
 
 Cilnē Atvieglojumu pārvaldība varat konfigurēt e-pasta opcijas atvieglojumu pārvaldībai. Papildinformāciju par atvieglojumu pārvaldības iestatīšanu un izmantošanu skatiet [Atvieglojumu pārvaldības pārskats](hr-benefits-management-overview.md).
 
-![Cilne Atvieglojumu pārvaldība](./media/hr-setup-parameters-benefits-management.png)
+![Cilne Atvieglojumu pārvaldība.](./media/hr-setup-parameters-benefits-management.png)
 
 ## <a name="leave-and-absence"></a>Atvaļinājumi un kavējumi
 
@@ -145,7 +146,7 @@ Papildinformāciju par atvaļinājumu un kavējumu pārskatu skatiet tēmā [Atv
 
 Cilnē **Maksājuma metodes** varat atlasīt maksājumu metodes, ko atbalsta jūsu organizācija. Papildinformāciju par atlīdzību konfigurēšanu skatiet [Atlīdzības plānu pārskats](hr-compensation-overview.md).
 
-![Cilne Maksājuma metodes](./media/hr-setup-parameters-payment-methods.png)
+![Cilne Maksājuma metodes.](./media/hr-setup-parameters-payment-methods.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

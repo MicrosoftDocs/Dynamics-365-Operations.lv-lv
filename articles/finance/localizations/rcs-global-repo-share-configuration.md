@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: ace62319bbfa38bcf4be7157882dd0c8989e25bc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 530cb77ccbca1b6946b5a96cee4e6226ed3467e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838749"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361262"
 ---
 # <a name="share-electronic-reporting-er-configurations-in-regulatory-configuration-services-rcs-global-repository-with-external-organizations"></a>Koplietot elektronisko pārskatu (ER) konfigurācijas Regulatory Configuration Services (RCS) globālā repozitorijā tieši ar ārējām organizācijām
 
@@ -47,7 +47,7 @@ Sekojiet šiem soļiem, lai pārbaudītu, vai konfigurācija, kuru vēlaties kop
 
 1. **Elektroniskā pārskata** darbvietā atlasiet **Repozitoriji** jūsu konfigurācijas nodrošinātājam.
 
-    ![Konfigurācijas nodrošinātāji](media/1_RCS_Repo_for_config_provider.JPG)
+    ![Konfigurācijas nodrošinātāji.](media/1_RCS_Repo_for_config_provider.JPG)
 
 2. Atlasiet **Globālais repozitorijs** \> **Atvērt**.
 3. Meklējiet konfigurāciju, ko vēlaties koplietot. Varat izmantot filtra lauku, lai sašaurinātu meklēšanu. Ja jūs nevarat atrast konfigurāciju globālajā repozitorijā, sekojiet soļiem, lai [izveidotu un augšupielādētu jaunu elektronisko pārskatu (ER) konfigurācijas versiju](rcs-global-repo-upload.md).
@@ -61,11 +61,11 @@ Kad konfigurācijas nodrošinātājs ir izveidojis konfigurāciju, to var tieši
 3. Atlasiet konfigurāciju, ko vēlaties koplietot.
 4. Kopsavilkuma cilnē **Kopīgots ar** atlasiet **Organizācija**.
 
-    ![Koplietots izmantojot kopsavilkuma cilni](media/1_RCS_Repo_for_Share_with_org.JPG)
+    ![Koplietots izmantojot kopsavilkuma cilni.](media/1_RCS_Repo_for_Share_with_org.JPG)
 
 5. Dialoglodziņā ievadiet ārējās organizācijas domēna nosaukumu un pēc tam atlasiet **Labi**.
 
-    ![Koplietošanas konfigurācijas versija ar ārējo organizācijas dialoglodziņu](media/1_RCS_Repo_for_Share_with_form.JPG)
+    ![Koplietošanas konfigurācijas versija ar ārējo organizācijas dialoglodziņu.](media/1_RCS_Repo_for_Share_with_form.JPG)
 
 Konfigurācija tiek koplietota ar ārējo organizāciju un ir pieejama šai organizācijai globālajā repozitorijā. No turienes to var importēt organizācijas RCS instancē vai tās programmas Finance and Operations instancēs.
 

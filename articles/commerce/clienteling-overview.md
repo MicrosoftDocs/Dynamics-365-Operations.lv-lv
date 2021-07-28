@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 260624
+ms.custom:
+- "260624"
+- intro-internal
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: b680ec227ecd70893999950a8be2ad152c476575
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 598145bccadbeb44d33adb96388f6af5a8a45f5d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5937016"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352692"
 ---
 # <a name="clienteling-overview"></a>Pārskats par attiecību veidošanu ar klientiem
 
@@ -68,7 +70,7 @@ Lai ieslēgtu attiecību ar klientiem funkcionalitāti jūsu vidē, veiciet tāl
 
 1. Darbvietā **Līdzekļu pārvaldība** filtrējiet līdzekļus pēc moduļa **Mazumtirdzniecība un komercija**.
 
-    ![Attiecības ar klientiem Commerce moduļa funkciju sarakstā](./media/Enable_clienteling.png "Attiecības ar klientiem Retail un Commerce moduļa funkciju sarakstā")
+    ![Attiecības ar klientiem Commerce moduļa funkciju sarakstā.](./media/Enable_clienteling.png "Attiecības ar klientiem Retail un Commerce moduļa funkciju sarakstā")
 
 2. Ieslēdziet līdzekli **Attiecības ar klientiem**, atlasot vienumu **Iespējot tūlīt**.
 3. Lapas **Commerce parametri** cilnē **Numuru sērija** atlasiet rindu **Klienta grāmatas identifikators**. Pēc tam laukā **Numuru sērijas kods** atlasiet numuru sēriju. Sistēma izmantos šo numuru sēriju, lai piešķirtu ID klienta grāmatām.
@@ -83,7 +85,7 @@ Lai ieslēgtu attiecību ar klientiem funkcionalitāti jūsu vidē, veiciet tāl
 
 6. Lapas **Commerce parametri** cilnes **Attiecības ar klientiem** laukā **Klienta grāmatas atribūtu grupa** atlasiet atribūtu grupu, kuru tikko izveidojāt.
 
-    ![Atlasītā klientu grāmatas atribūtu grupa](./media/Client%20book%20attributes.png "Atlasītā klientu grāmatas atribūtu grupa")
+    ![Atlasītā klientu grāmatas atribūtu grupa.](./media/Client%20book%20attributes.png "Atlasītā klientu grāmatas atribūtu grupa")
 
 7. Lai tvertu aktivitātes, kas notiek POS, definējiet aktivitāšu veidus lapā **Aktivitāšu veidi** (**Retail un Commerce \> Klienti \> Aktivitāšu veidi**).
 
@@ -95,7 +97,7 @@ Lai ieslēgtu attiecību ar klientiem funkcionalitāti jūsu vidē, veiciet tāl
 
 Kad esat pabeidzis šo procedūru, pārdošanas partneri POS var atvērt lapu Detalizēta informācija par klientu un pievienot klientus klienta grāmatai, skatīt un tvert klientu aktivitātes un piezīmes, un orientēties uz klientiem, izmantojot debitoru un klientu grāmatas atribūtus, lai filtrētu klienta grāmatu. Nākamajā attēlā parādīts klienta grāmatas piemērs.
 
-![Klienta grāmatas piemērs](./media/client_book.png "Klienta grāmatas piemērs")
+![Klienta grāmatas piemērs.](./media/client_book.png "Klienta grāmatas piemērs")
 
 ## <a name="turn-on-the-integration-of-customer-insights-with-commerce"></a>Ieslēgt Customer Insights integrāciju ar Commerce
 

@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 52baa707c36f3468263782dc8ec735e44af88e38
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 422b1f7f8dc99e1c96da9e266cadcdc09e7aac71
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804237"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347470"
 ---
 # <a name="configure-and-run-job-to-post-statements"></a>Konfigurēt un palaist darbu, lai grāmatotu pārskatus
 
@@ -31,9 +31,9 @@ ms.locfileid: "5804237"
 2. Noklikšķiniet uz Grāmatot pārskatus partijā.
     * Atlasiet organizācijas hierarhiju un pēc tam organizācijas zaru kokā atlasiet atsevišķu veikalu vai zaru. Atlasiet zaru, lai izveidotu pakešuzdevumu veikalu grupai.  
     * Noklikšķiniet uz bultiņas, lai pievienotu atlasi.  
-3. Noklikšķiniet uz cilnes Palaist fonā. ![Palaist fonā](../dev-itpro/media/runbackground.png "Palaist fonā") 
+3. Noklikšķiniet uz cilnes Palaist fonā. ![Palaist fonā.](../dev-itpro/media/runbackground.png "Palaist fonā") 
 4. Atzīmējiet izvēles rūtiņu Pakešapstrāde vai noņemiet tās atzīmi.
-![Pakešveida apstrāde](../dev-itpro/media/batchprocessing.png "Pakešveida apstrāde un periodiskums") 
+![Pakešveida apstrāde.](../dev-itpro/media/batchprocessing.png "Pakešveida apstrāde un periodiskums") 
 5. Noklikšķiniet uz Periodiskums.
 6. Laukā Sākuma datums ievadiet kādu datumu.
 7. Laukā Sākuma laiks ievadiet laiku.

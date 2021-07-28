@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e7cadc20cc8fd52ecc8c4ab5c2f6c9dc62c2f68b
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: b6feb5319290cc53d82feb28ffa8c049bfadd29b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897580"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355087"
 ---
 # <a name="dimension-hierarchy"></a>Dimensiju hierarhija
 
@@ -39,7 +39,7 @@ Dimensiju hierarhijas tiek izmantotas dažādās moduļa Izmaksu uzskaite sadaļ
 
 Tālāk ir sniegts dimensiju hierarhijas piemērs.
 
-![Dimensiju hierarhijas piemērs](./media/dimension-hierarchy.png)
+![Dimensiju hierarhijas piemērs.](./media/dimension-hierarchy.png)
 
 Var izveidot tālāk norādīto dimensiju veidu dimensiju hierarhiju.
 
@@ -80,7 +80,7 @@ Dimensiju hierarhija tiek veidota kā koka struktūra, kurā pastāv mezglu un l
 
 Mazam uzņēmumam ir tālāk norādītā organizācijas struktūra, kurā finanšu un personāla vadības nodaļas ir pakļautas administrācijai, bet montāžas un iepakošanas nodaļas ir pakļautas ražošanas nodaļai.
 
-![Organizācijas struktūras piemērs](./media/dimension-hierarchy-org.png)
+![Organizācijas struktūras piemērs.](./media/dimension-hierarchy-org.png)
 
 Izmaksu objekta dimensija atbilst viesiem izmaksu centriem organizācijā.
 

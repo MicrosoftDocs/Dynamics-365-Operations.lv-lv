@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 0eb1f112430005945b4f82b99ef9cc718c56de65
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 0ff85acfbe16fc28afb2fbcee0baf4b12b1f3e9e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022711"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353064"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Multikanāla papildu automātiskās maksas
 
@@ -43,7 +43,7 @@ Papildu automātisko maksu līdzeklis sniedz POS lietotājiem iespēju izmantot
 
 Lapā **Mazumtirdzniecība un komercija \> Heaquarters iestatīšana \> Parametri \> Commerce parametri** dodieties uz cilni **Klientu pasūtījumi**. Kopsavilkuma cilnē **Maksas** opcijai **Izmantot papildu automātiskās maksas** iestatiet vērtību **Jā**.
 
-![Parametrs Papildu automātiskās maksas](media/advancedchargesparameter.png)
+![Parametrs Papildu automātiskās maksas.](media/advancedchargesparameter.png)
 
 Kad ir iespējotas papildu automātiskās maksas, izveidojot klienta pasūtījumu Piegādāt visu vai Piegādāt atlasīto, lietotājiem vairs netiek parādīta uzvedne ar norādi manuāli ievadīt piegādes maksu POS terminālī. POS pasūtījuma maksas tiek sistemātiski aprēķinātas un pievienotas POS darījumam (ja tiek atrasta izveidotā pasūtījuma kritērijiem atbilstoša automātisko maksājumu tabula). Lietotāji var arī manuāli pievienot vai uzturēt galvas vai rindas līmeņa maksas, izmantojot jaunās POS operācijas, ko var pievienot POS ekrāna izkārtojumiem.
 
@@ -58,7 +58,7 @@ Lai nodrošinātu papildu automātisko maksu pareizu darbību POS lietojumprogr
 Tālāk ir norādītas jaunās operācijas.
 
 - **142. Pārvaldīt maksas** — izmantojiet šo operāciju, lai sniegtu POS lietotājiem iespēju skatīt un rediģēt papildmaksas POS darījumiem, kas tika pievienotas manuāli vai sistemātiski, izmantojot automātisko maksu aprēķinus.
-- **141. Pievienot galvenes maksas** – izmantojiet šo operāciju, lai sniegtu lietotājam iespēju manuāli pievienot galvenes līmeņa papildmaksu jebkurai POS pārdošanas darījumam (un atlasīt izmantojamo maksu kodu).
+- **141. Pievienot galvenes maksas** – izmantojiet šo operāciju, lai sniegtu lietotājam iespēju manuāli pievienot galvenes līmeņa papildmaksu jebkurai POS pārdošanas darījumam (un atlasīt izmantojamo maksu kodu).
 - **140. Pievienot rindas maksas** – izmantojiet šo operāciju, lai sniegtu lietotājam iespēju manuāli pievienot rindas līmeņa papildmaksu jebkurai POS pārdošanas darījuma rindai (un atlasīt izmantojamo maksu kodu).
 - **143. Pārrēķināt maksas** – izmantojiet šo operāciju, lai pārdošanas darījuma maksas pārrēķinātu pilnībā. Visas lietotāja iepriekš pārrakstītās automātiskās maksas tiek pārrēķinātas, pamatojoties uz pašreizējo groza konfigurāciju.
 
@@ -80,13 +80,13 @@ Mazumtirgotājs vēlas automātiski pievienot transportēšanas maksas, kad jebk
 
 Šim scenārijam ir nepieciešama divu automātisko maksu tabulu konfigurēšana.
 
-Pārejiet uz sadaļu **Debitori \> Izmaksu iestatīšana \> Automātiskās izmaksas**.
+Pārejiet uz sadaļu **Debitori \> Izmaksu iestatīšana \> Automātiskās izmaksas**.
 
 Konfigurējiet divas dažādas galvas līmeņa automātiskās maksas. Konfigurēt vienu maksu piegādes pa sauszemi režīmam un vienu maksu piegādes pa gaisu režīmam. Šī scenārija ietvaros konfigurējiet tās lietošanai visiem klientiem.
 
 Lai konfigurētu piegādes pa zemi maksas, lapas **Automātiskās maksas** rindu sadaļā definējiet maksu 10.00 USD apmērā, kas ir jālieto pasūtījumiem, kuru vērtība ir no 0,01 USD līdz 100 USD. Izveidojiet citu maksu rindu, lai norādītu, ka pasūtījumiem, kuru vērtība ir lielāka nekā 100,01 USD, netiek lietotas nekādas maksas.
 
-![Paraugs ar divām automātisko maksu tabulām](media/headerchargesexample.png)
+![Paraugs ar divām automātisko maksu tabulām.](media/headerchargesexample.png)
 
 Lai konfigurētu piegādes pa gaisu maksas, formas Automātiskās maksas rindu sadaļā definējiet maksu 20,00 USD apmērā, kas ir jālieto visiem pasūtījumiem (kuru vērtība ir no 0,01 USD līdz 9 999 999 USD).
 
@@ -112,11 +112,11 @@ Mazumtirgotājs vēlas no klienta iekasēt papildu maksu par iestatīšanu gadī
 
 Šī scenārija ietvaros ir jākonfigurē vienas rindas līmeņa automātisko maksu tabula.
 
-Pārejiet uz sadaļu **Debitori \> Izmaksu iestatīšana \> Automātiskās izmaksas**.
+Pārejiet uz sadaļu **Debitori \> Izmaksu iestatīšana \> Automātiskās izmaksas**.
 
 Nolaižamajā izvēlnē **Līmenis** iestatiet vērtību **Rinda** un izveidojiet jaunu automātisko maksājumu ierakstu visiem klientiem un konkrētajai precei vai preču grupai, par kuru tiks iekasēta iestatīšanas maksa.
 
-![Vienas rindas līmeņa automātisko maksu tabulu piemērs](media/linechargesexample.png)
+![Vienas rindas līmeņa automātisko maksu tabulu piemērs.](media/linechargesexample.png)
 
 Nosūtiet maksas uz Commerce Scale Unit/kanāla DB, lai tās varētu lietot POS sistēmā, izpildot darbu **1040 sadales grafiks**.
 
@@ -134,9 +134,9 @@ Mazumtirgotājs ievieš parastā procesa izņēmumu, piedāvājot nodrošināt �
 
 #### <a name="setup-and-configuration"></a>Iestatīšana un konfigurēšana
 
-Nodrošiniet, ka šī scenārija ietvaros izmantotais maksu kods ir pareizi konfigurēts, pārejot uz sadaļu **Debitori \> Maksu iestatīšana \> Maksas**, lai definētu scenārijam piemērotu maksu kodu.
+Nodrošiniet, ka šī scenārija ietvaros izmantotais maksu kods ir pareizi konfigurēts, pārejot uz sadaļu **Debitori \> Maksu iestatīšana \> Maksas**, lai definētu scenārijam piemērotu maksu kodu.
 
-![Maksu piemērs](media/chargesexample.png)
+![Maksu piemērs.](media/chargesexample.png)
 
 Ja maksa ir jāapstrādā kā ar piegādi saistīta maksa, lai varētu lietot ar piegādi saistītas atlaides vai akcijas, maksu koda opcijas **Piegādes maksa** vērtību iestatiet uz **Jā**. Ja šo maksu ir arī atļauts sistemātiski atlīdzināt, veicot atgriešanas darījumu POS lietojumprogrammā, iestatiet opcijas **Atmaksājams** vērtību **Jā**. Karodziņš **Atmaksājams** tiek lietots tikai tad, ja ir iestatīta parametra **Izmantot papildu automātiskās maksas** vērtība **Jā**.
 
@@ -158,7 +158,7 @@ Klients ir pieprasījis, lai divi no pieciem pārdošanas pasūtījumā ietvert
 
 #### <a name="setup-and-configuration"></a>Iestatīšana un konfigurēšana
 
-Nodrošiniet, ka šī scenārija ietvaros izmantotais maksu kods ir pareizi konfigurēts, pārejot uz sadaļu **Debitori \> Maksu iestatīšana \> Maksas**, lai definētu scenārijam piemērotu maksu kodu.
+Nodrošiniet, ka šī scenārija ietvaros izmantotais maksu kods ir pareizi konfigurēts, pārejot uz sadaļu **Debitori \> Maksu iestatīšana \> Maksas**, lai definētu scenārijam piemērotu maksu kodu.
 
 Ja maksa ir jāapstrādā kā ar piegādi saistīta maksa, lai varētu lietot ar piegādi saistītas atlaides vai akcijas, iestatiet maksu koda opcijas **Piegādes maksa** vērtību **Jā**. Ja maksu ir atļauts arī sistemātiski atlīdzināt, veicot atgriešanas darījumu POS lietojumprogrammā, iestatiet opcijas **Atmaksājams** vērtību **Jā**. Karodziņš **Atmaksājams** tiek lietots tikai tad, ja ir iestatīta parametra **Izmantot papildu automātiskās maksas** vērtība **Jā**.
 
@@ -176,13 +176,13 @@ Tādu pašu procesu var lietot zvanu centrā, izmantojot funkciju "Uzturēt maks
 
 ### <a name="editing-charges-on-a-pos-sales-transaction"></a>Maksu rediģēšana POS pārdošanas darījuma ietvaros
 
-[POS ekrāna izkārtojumam](/dynamics365/unified-operations/retail/pos-screen-layouts) ir jāpievieno operācija **Pārvaldīt maksas** (142), lai lietotājs varētu skatīt un rediģēt vai pārlabot jebkuras sistēmas aprēķinātās vai manuāli izveidotās galvas vai rindas līmeņa maksas. Ja operācija netiek pievienota, lietotāji nevar pielāgot POS darījuma maksu vērtību, kā arī nevar skatīt detalizētu informāciju par maksām, piemēram, ar maksām saistīto maksu koda veidu.
+[POS ekrāna izkārtojumam](/dynamics365/unified-operations/retail/pos-screen-layouts) ir jāpievieno operācija **Pārvaldīt maksas** (142), lai lietotājs varētu skatīt un rediģēt vai pārlabot jebkuras sistēmas aprēķinātās vai manuāli izveidotās galvas vai rindas līmeņa maksas. Ja operācija netiek pievienota, lietotāji nevar pielāgot POS darījuma maksu vērtību, kā arī nevar skatīt detalizētu informāciju par maksām, piemēram, ar maksām saistīto maksu koda veidu.
 
 POS sistēmas lapā **Pārvaldīt maksas** lietotājs var skatīt detalizētu informāciju gan par galvas līmeņa, gan par rindas līmeņa maksām. Lietotājs var izmantot šajā lapā pieejamo funkciju **Rediģēt**, lai mainītu iekasēto summu noteiktā maksu rindā. Kad ir manuāli pārrakstīta maksu rinda, tā netiek sistemātiski pārrēķināta, ja vien lietotājs neuzsāk operāciju **Pārrēķināt maksas**.
 
 Ja iestatīšanas lapā **Commerce parametri** ir konfigurēta opcija **Maksu pārlabošanas iemesla kods**, pēc maksu izmainīšanas POS lietojumprogrammā lietotājam tiek prasīts norādīt iemesla kodu.
 
-Ja tiek noteikti pārrakstītu maksu iemeslu kodi, tiek nodrošināts arī jauns pārskats, kurā var pārskatīt un auditēt šīs pārlabošanas. Pārskats ir pieejams sadaļā **Mazumtirdzniecība un komercija \> Pieprasījumi un pārskati \> Maksu pārlabošanas vēsture**.
+Ja tiek noteikti pārrakstītu maksu iemeslu kodi, tiek nodrošināts arī jauns pārskats, kurā var pārskatīt un auditēt šīs pārlabošanas. Pārskats ir pieejams sadaļā **Mazumtirdzniecība un komercija \> Pieprasījumi un pārskati \> Maksu pārlabošanas vēsture**.
 
 ### <a name="refunding-charges-on-a-pos-return-transaction"></a>Maksu atmaksāšana POS atgriešanas darījuma ietvaros
 
@@ -197,7 +197,7 @@ Maksas netiek sistemātiski atmaksātas programmā Commerce izveidoto **Atgrieš
 Lai nodrošinātu papildu automātisko maksu funkcionalitātes atbalstu, kvīts rindai un kājenei ir pievienoti tālāk norādītie kvīts elementi.
 
 - **Rindas piegādes maksas** – šo rindas līmeņa elementu var izmantot, lai iegūtu kopsavilkumu par noteiktiem maksu kodiem, kas ir lietoti pārdošanas rindai. Šeit tiek rādīti tikai tie maksu kodi, kas ir atzīmēti ar maksu veida karodziņu **Piegāde** lapā **Maksu kods**
-- **Citas rindas maksas** – šo rindas līmeņa elementu var izmantot, lai iegūtu kopsavilkumu par visu ar piegādi nesaistītu maksu kodiem, kas ir lietoti šai pārdošanas rindai. **Citas rindas maksas** ir maksu kodi, kas nav atzīmēti ar karodziņu  **Piegāde** lapā **Maksu kods**.
+- **Citas rindas maksas** – šo rindas līmeņa elementu var izmantot, lai iegūtu kopsavilkumu par visu ar piegādi nesaistītu maksu kodiem, kas ir lietoti šai pārdošanas rindai. **Citas rindas maksas** ir maksu kodi, kas nav atzīmēti ar karodziņu **Piegāde** lapā **Maksu kods**.
 - **Detalizēta informācija par pasūtījuma piegādes maksām** – šis kājenes līmeņa elements rāda to pasūtījumam lietoto maksu kodu aprakstus, kas iestatīšanas lapā **Maksu kods** ir atzīmēti ar maksu veida karodziņu **Piegāde**.
 - **Pasūtījuma piegādes maksas** – šis kājenes līmeņa elements rāda ar piegādi saistīto maksu vērtību dolāros.
 - **Detalizēta informācija par citām pasūtījuma maksām** – šis kājenes līmeņa elements rāda to pasūtījumam lietoto maksu kodu aprakstus, kas nav atzīmēti kā ar piegādi saistītas maksas.
@@ -211,7 +211,7 @@ Dažas organizācijas var izvēlēties pirms maksu parēķināšanas uzgaidīt, 
 
 ### <a name="charges-override-reports"></a>Maksu ignorēšanas pārskati
 
-Ja lietotāji manuāli ignorē aprēķinātās maksas vai pievieno darījumam manuālas maksas, šie dati būs pieejami auditēšanai pārskatā **Maksu ignorēšanas vēsture**. Pārskats ir pieejams sadaļā **Mazumtirdzniecība un komercija \> Pieprasījumi un pārskati \> Maksu pārlabošanas vēsture**. Ir svarīgi atzīmēt, ka šim pārskatam nepieciešamie dati tiek importēti no kanāla datu bāzes uz HQ, izmantojot "P" sadales grafika darbus. Tāpēc informācija par POS veiktajām ignorēšanas darbībām tūlītēji var nebūt pieejama šajā pārskatā, bet tikai tad, kad ar šo darbu HQ ir augšupielādēti saglabātie darbību dati.
+Ja lietotāji manuāli ignorē aprēķinātās maksas vai pievieno darījumam manuālas maksas, šie dati būs pieejami auditēšanai pārskatā **Maksu ignorēšanas vēsture**. Pārskats ir pieejams sadaļā **Mazumtirdzniecība un komercija \> Pieprasījumi un pārskati \> Maksu pārlabošanas vēsture**. Ir svarīgi atzīmēt, ka šim pārskatam nepieciešamie dati tiek importēti no kanāla datu bāzes uz HQ, izmantojot "P" sadales grafika darbus. Tāpēc informācija par POS veiktajām ignorēšanas darbībām tūlītēji var nebūt pieejama šajā pārskatā, bet tikai tad, kad ar šo darbu HQ ir augšupielādēti saglabātie darbību dati.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

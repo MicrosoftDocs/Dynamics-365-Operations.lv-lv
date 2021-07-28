@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: a194e14c76827650e6752f331081ebe0c2130a13
-ms.sourcegitcommit: e4992c57eea4c15ac052e9d65dddae625e3528f9
+ms.openlocfilehash: d932a0c10df72dbadcc65d7ef78eb8ad05645bd5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866160"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357522"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool apmācība
 
@@ -67,11 +67,11 @@ RSAT ļauj izmantot vienu un to pašu uzdevuma reģistrēšanu ar vairākiem pā
 
 Šo funkciju var izmantot, lai pārbaudītu, vai darbība ir notikusi. Piemēram, kad tiek izveidots un pēc tam sākts ražošanas pasūtījums, programma parāda ziņojumu “Ražošana — Sākums”, lai informētu, ka ražošanas pasūtījums ir sākts.
 
-![Paziņojums Ražošana — Sākums](./media/use_rsa_tool_05.png)
+![Paziņojums Ražošana — Sākums.](./media/use_rsa_tool_05.png)
 
 Šo ziņojumu varat validēt ar RSAT, ievadot ziņojuma tekstu atbilstošā ieraksta Excel parametru faila cilnē **MessageValidation**.
 
-![Ziņojuma validēšanas cilne](./media/use_rsa_tool_06.png)
+![Ziņojuma validēšanas cilne.](./media/use_rsa_tool_06.png)
 
 Pēc testa gadījuma palaišanas ziņojums Excel parametru failā tiek salīdzināts ar ziņojumu, kas tiek parādīts programmā. Ja ziņojumi nesakrīt, testa gadījums ir nesekmīgs.
 
@@ -104,11 +104,11 @@ Kad tiek palaists testa gadījums, RSAT ģenerēs soļu momentuzņēmumus (attē
 
 Tālāk redzamajā attēlā ir parādīta šī scenārija plūsma.
 
-![Demonstrācijas scenārija plūsma](./media/use_rsa_tool_14.png)
+![Demonstrācijas scenārija plūsma.](./media/use_rsa_tool_14.png)
 
 Sekojošajā attēlā redzama biznesa procesu hierarhija šim scenārijam LCS biznesa procesu modelētājā.
 
-![Demonstrācijas scenārija biznesa procesi](./media/use_rsa_tool_15.png)
+![Demonstrācijas scenārija biznesa procesi.](./media/use_rsa_tool_15.png)
 
 ## <a name="strategy--key-learning"></a>Stratēģija — galvenās mācību tēmas
 

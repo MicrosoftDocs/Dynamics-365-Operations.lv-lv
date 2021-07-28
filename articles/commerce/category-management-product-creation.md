@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 678561856fbb5514ff954363a767091edac6dee2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 89237c830109e8cb304b2547230484f15b90d875
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794377"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351301"
 ---
 # <a name="manage-product-categories-and-products"></a>Preču kategoriju un preču pārvaldība
 
@@ -35,17 +35,17 @@ Pievērsiet uzmanību parādītās lapas **Commerce preču hierarhija** uzlabota
 
 Uzlabotajā preču kategoriju struktūrā preču rekvizīti tiek loģiski sadalīti, pamatojoties uz to piemērojamību grupas ietvaros, tādējādi atspoguļojot izlaisto preču detalizētās informācijas formas struktūru.
 
-![Lauki, kas grupēti, pamatojoties uz rekvizītu piemērojamības jomu](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
+![Lauki, kas grupēti, pamatojoties uz rekvizītu piemērojamības jomu.](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
 
 Varat pārslēgties starp juridiskajai personai specifisku rekvizītu pārvaldīšanu visās juridiskās personās, un varat tos pārvaldīt konkrētai juridiskajai personai.
 
 Lai pārvaldītu rekvizītus visām juridiskajām personām, atlasiet **Skatīt visām juridiskajām personām** (vai **Rediģēt visām juridiskajām personām**).
 
-![Skatīt/rediģēt visām juridiskajām personām](media/ToggleBackToEditForSpecificLegalEntity.PNG)
+![Skatīt/rediģēt visām juridiskajām personām.](media/ToggleBackToEditForSpecificLegalEntity.PNG)
 
 Lai pārvaldītu rekvizītus konkrētai juridiskajai personai, atlasiet **Skatīt konkrētai juridiskajai personai** (vai **Rediģēt konkrētai juridiskajai personai**).
 
-![Skatīt/rediģēt konkrētai juridiskajai personai](media/ToggleToEditForAllLegalEntities.PNG)
+![Skatīt/rediģēt konkrētai juridiskajai personai.](media/ToggleToEditForAllLegalEntities.PNG)
 
 Turklāt uzlabotajā preču kategorijas struktūrā preču pārvaldnieks var definēt noklusējuma vērtības papildu preču rekvizītu kopai atsevišķu kategoriju līmenī. Pēc tam, izveidojot preces, tās pārmanto preču rekvizītu noklusējuma vērtības, ņemot vērā attiecīgo rekvizītu saistību ar atsevišķu kategoriju no preču hierarhijas. Šos pārmantotos preču rekvizītus katrai precei var modificēt, lai tie atbilstu konkrētajām biznesa prasībām.
 
@@ -53,7 +53,7 @@ Turklāt uzlabotajā preču kategorijas struktūrā preču pārvaldnieks var def
 
 Šo jauno uzlaboto preču rekvizītu struktūru var izmantot, lai atlasītu atjauninātos preču rekvizītus, kuri jāpārceļ pie saistītajām precēm. Lapas **Commerce preču hierarhija** darbību rūtī atlasiet **Kategorija** un pēc tam atlasiet **Atjaunināt preces**, lai atvērtu dialoglodziņu **Atjaunināt preces**.
 
-![Dialoglodziņš Atjaunināt preces](media/NewUpdateProductsEnhancedView.PNG)
+![Dialoglodziņš Atjaunināt preces.](media/NewUpdateProductsEnhancedView.PNG)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

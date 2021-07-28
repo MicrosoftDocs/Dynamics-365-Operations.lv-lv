@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 8e82c9a5ff4b6d7db1a808e5a94206628cdf0930
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 14c8c36b90caa3a9378a739932d734b94985b46c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754602"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354449"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analīzes iespēju pievienošana darbvietām, izmantojot Power BI Embedded
 
@@ -54,11 +54,11 @@ Izpildiet tālāk norādītās darbības, lai pievienotu .pbix formāta failu k
 3. Dialoglodziņa **Pievienot jaunu vienumu** sadaļā **Operāciju artefakti** atlasiet veidni **Resurss**.
 4. Ievadiet nosaukumu, kas tiks izmantots kā atsauce uz pārskatu X++ metadatos, un pēc tam noklikšķiniet uz **Pievienot**.
 
-    ![Dialoglodziņš Pievienot jaunu vienumu](media/analytical-workspace-add.png)
+    ![Dialoglodziņš Pievienot jaunu vienumu.](media/analytical-workspace-add.png)
 
 5. Atrodiet .pbix failu, kas satur analītiskā pārskata definīciju, un pēc tam noklikšķiniet uz **Atvērt**.
 
-    ![Dialoglodziņš Atlasīt resursa failu](media/analytical-workspace-select-resource.png)
+    ![Dialoglodziņš Atlasīt resursa failu.](media/analytical-workspace-select-resource.png)
 
 Tagad, kad esat pievienojis .pbix failu kā Dynamics 365 resursu, varat iegult pārskatus darbvietās un pievienot tiešās saites, izmantojot izvēlnes elementus.
 
@@ -67,7 +67,7 @@ Tagad, kad esat pievienojis .pbix failu kā Dynamics 365 resursu, varat iegult 
 
 Tālāk esošajā attēlā ir parādīts, kā izskatās forma **FMClerkWorkspace** Microsoft Visual Studio noformētājā.
 
-![Forma FMClerkWorkspace pirms izmaiņām](media/analytical-workspace-definition-before.png)
+![Forma FMClerkWorkspace pirms izmaiņām.](media/analytical-workspace-definition-before.png)
 
 Veiciet tālāk norādītās darbības, lai paplašinātu formas definīciju darbvietai **Rezervēšanas pārvaldība**.
 
@@ -92,7 +92,7 @@ Veiciet tālāk norādītās darbības, lai paplašinātu formas definīciju dar
 
 Tālāk esošajā attēlā parādīts, kā noformējums izskatās pēc šo izmaiņu lietošanas.
 
-![FMClerkWorkspace pēc izmaiņām](media/analytical-workspace-definition-after.png)
+![FMClerkWorkspace pēc izmaiņām.](media/analytical-workspace-definition-after.png)
 
 Tagad, kad esat pievienojis formu vadīklas, kas tiks izmantotas darbvietas pārskata iegulšanai, jums ir jādefinē vecākobjekta vadīklas lielums tā, lai varētu izvietot izkārtojumu. Pēc noklusējuma pārskatā būs redzama gan lapa **Filtru rūts**, gan lapa **Cilne**. Tomēr šo vadīklu redzamību var mainīt pēc nepieciešamības pārskata mērķa patērētājam.
 
@@ -142,7 +142,7 @@ Izpildiet tālāk norādītās darbības, lai pievienotu biznesa loģiku, kas in
 
 Esat pabeidzis uzdevumu ar biznesa loģikas pievienošanu, kas inicializē iegulto pārskatu skatītāja vadīklu. Tālāk esošajā attēlā parādīts, kā darbvieta izskatās pēc šo izmaiņu lietošanas.
 
-![Pārskats iegults darbvietā](media/analytical-workspace-final.png)
+![Pārskats iegults darbvietā.](media/analytical-workspace-final.png)
 
 > [!NOTE]
 > Esošajam darbības skatam varat piekļūt, izmantojot darbvietas cilnes zem lapas virsraksta.

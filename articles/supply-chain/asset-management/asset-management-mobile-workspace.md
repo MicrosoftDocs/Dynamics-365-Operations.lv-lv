@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.dyn365.ops.version: 10.0.5
 ms.search.validFrom: 2019-08-31
-ms.openlocfilehash: 98f935a11ad8a5272cde0270f9ae0471411b914a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fb4e2843ecb30b75d2a8d97ceff5b5825e0bd704
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837949"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360129"
 ---
 # <a name="use-the-asset-management-mobile-workspace"></a>Līdzekļu pārvaldības mobilās darbvietas izmantošana
 
@@ -60,7 +60,7 @@ Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Ope
 
 1. Pēc pierakstīšanās tiek parādītas jūsu uzņēmumam pieejamās darbvietas. Ņemiet vērā, ka gadījumā, ja sistēmas administrators vēlāk publicēs jaunu darbvietu, jums būs jāatsvaidzina mobilo darbvietu saraksts.
 
-    ![Atlasiet darbvietu](media/am-mobile-01.png "Atlasiet darbvietu")
+    ![Atlasiet darbvietu.](media/am-mobile-01.png "Atlasiet darbvietu")
 
 ## <a name="view-assigned-work-order-jobs-in-calendar-view"></a>Apskatīt piešķirtos darba pasūtījuma uzdevumus kalendāra skatā.
 
@@ -90,7 +90,7 @@ Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Ope
 
 1. Atlasiet **Gatavs**.
 
-    ![Līnijas pievienošanas ekrāns](media/am-mobile-03.png "Līnijas pievienošanas ekrāns")
+    ![Līnijas pievienošanas ekrāns.](media/am-mobile-03.png "Līnijas pievienošanas ekrāns")
 
 
 ## <a name="add-attachment-to-a-work-order-job"></a>Pievienojiet pielikumu darba pasūtījuma uzdevumam
@@ -112,7 +112,7 @@ Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Ope
 
 1. Atlasiet **Gatavs**.
 
-    ![Skatīt un pievienot pielikumus darba pasūtījuma darbam](media/am-mobile-04.png "Skatīt un pievienot pielikumus darba pasūtījuma darbam")
+    ![Skatīt un pievienot pielikumus darba pasūtījuma darbam.](media/am-mobile-04.png "Skatīt un pievienot pielikumus darba pasūtījuma darbam")
 
 ## <a name="view-maintenance-checklist-on-a-work-order-job"></a>Darba pasūtījuma uzdevumā skatiet uzturēšanas kontrolsarakstu.
 
@@ -129,7 +129,7 @@ Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Ope
 
 1. Atlasiet pogu Atpakaļ(**<**), lai atgrieztos iepriekšējā lapā.
 
-    ![Uzturēšanas kontrolsaraksts un rindas informācija](media/am-mobile-05.png "Uzturēšanas kontrolsaraksts un rindas informācija")
+    ![Uzturēšanas kontrolsaraksts un rindas informācija.](media/am-mobile-05.png "Uzturēšanas kontrolsaraksts un rindas informācija")
 
 ## <a name="view-and-update-asset-counters-on-a-work-order-job"></a>Skatīt un atjaunināt pamatlīdzekļu skaitītājus darba pasūtījuma uzdevumā.
 
@@ -146,7 +146,7 @@ Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Ope
 
 1. Ievadiet jaunu skaitītāja vērtību un atlasiet **Gatavs.**
 
-    ![Llīdzekļu skaitītāju skatīšana un atjaunināšana](media/am-mobile-06.png "Llīdzekļu skaitītāju skatīšana un atjaunināšana")
+    ![Llīdzekļu skaitītāju skatīšana un atjaunināšana.](media/am-mobile-06.png "Llīdzekļu skaitītāju skatīšana un atjaunināšana")
 
 ## <a name="register-consumption-on-a-work-order-job"></a>Reģistrējiet patēriņu darba pasūtījuma uzdevumā.
 
@@ -178,7 +178,7 @@ Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Ope
     1. Ievadiet **Izmaksas** izmaksu reģistrā.
     1. Atlasiet **Gatavs**.
 
-    ![Atjaunināt darba pasūtījumu žurnālu](media/am-mobile-07.png "Atjaunināt darba pasūtījumu žurnālu")
+    ![Atjaunināt darba pasūtījumu žurnālu.](media/am-mobile-07.png "Atjaunināt darba pasūtījumu žurnālu")
 
 ## <a name="update-lifecycle-state-on-a-work-order"></a>Darba pasūtījuma dzīves cikla stāvokļa atjaunināšana.
 
@@ -216,7 +216,7 @@ Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Ope
 
 1. Atlasiet **Gatavs**.
 
-    ![Izveidot uzturēšanas pieprasījumu](media/am-mobile-09.png "Izveidot uzturēšanas pieprasījumu")
+    ![Izveidot uzturēšanas pieprasījumu.](media/am-mobile-09.png "Izveidot uzturēšanas pieprasījumu")
 
 ## <a name="add-attachment-to-a-maintenance-request"></a>Pievienojiet pielikumu uzturēšanas pieprasījumam.
 
@@ -236,7 +236,7 @@ Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Ope
 
 1. Atlasiet **Gatavs**.
 
-    ![Pievienojiet pielikumu uzturēšanas pieprasījumam](media/am-mobile-10.png "Pievienot pielikumu uzturēšanas pieprasījumam")
+    ![Pievienojiet pielikumu uzturēšanas pieprasījumam.](media/am-mobile-10.png "Pievienot pielikumu uzturēšanas pieprasījumam")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 60d566e3ef1fa4bc0cea960f7c75094f51823550
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4ff6b8495f3ef0d75ffc8f829a9f332f507789d0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838230"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358054"
 ---
 # <a name="quality-check"></a>Kvalitātes pārbaude
 
@@ -310,7 +310,7 @@ Pēc tam, kad pirkšanas pasūtījums ir izveidots, to var saņemt, izmantojot *
 
     Lapā **Kvalitātes pārbaude**, kas parādās, nav ierakstu lauku. Tam ir tikai apstiprinājuma (atzīme) poga apakšā un izvēlnes poga (**≡**) augšā. (Izvēlnes poga dažreiz tiek saukta par hamburgeru vai hamburgeru pogu.) Lai paātrinātu kvalitātes pārbaudes procesu, kad palete iztur kvalitātes pārbaudi, lietotājs vienkārši apstiprina **Kvalitātes pārbaudes** lapu.
 
-    ![Kvalitātes pārbaudes lapa](media/quality-check.png "Kvalitātes pārbaudes lapa")
+    ![Kvalitātes pārbaudes lapa.](media/quality-check.png "Kvalitātes pārbaudes lapa")
 
 1. Izvēlieties apstiprināšanas pogu, lai nokārtotu kvalitātes pārbaudi paletei 1 no 1. rindas.
 

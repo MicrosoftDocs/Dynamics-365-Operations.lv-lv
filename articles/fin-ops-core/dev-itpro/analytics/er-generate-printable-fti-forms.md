@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 9e64899e0bbdb5a9d8899e865de9ee32aae59382
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: f5556195a1a787420061fbcaef5d97ac47823221
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751660"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359009"
 ---
 # <a name="generate-printable-fti-forms"></a>Drukājamu FTI formu ģenerēšana
 
@@ -77,7 +77,7 @@ Lai ģenerētu FTI veidlapas, izmantojot ER platformu, ER formātus varat pie�
 3. Atlasiet dokumenta līmenī, lai apstrādei norādītu rēķinu tvērumu.
 4. Atlasiet norādītā dokumenta līmeņa ER formātu.
 
-![Drukāšanas parametru iestatīšana](media/FTIbyGER-PMSetting.png)
+![Drukāšanas parametru iestatīšana.](media/FTIbyGER-PMSetting.png)
 
 > [!NOTE]
 > Atlasītā formāta laukā **Pārskata formāta uzmeklēšana** tiek parādīti tikai tie ER formāti, kas izmanto datu modeļa **CustomersInvoicing** saknes deskriptoru **FreeTextInvoice**.
@@ -87,9 +87,9 @@ FTI veidlapas ER platformā tiek ģenerētas tādā pašā veidā, kādā tiek
 
 Lai ģenerētu FTI veidlapas, rēķinus varat atlasīt pēc diapazona vai atlases. 
 
-![Rēķina atlase](media/FTIbyGER-InvoiceSelection.png)
+![Rēķina atlase.](media/FTIbyGER-InvoiceSelection.png)
 
-![Rēķina priekšskatījums](media/FTIbyGER-InvoiceExcelPreview.png)
+![Rēķina priekšskatījums.](media/FTIbyGER-InvoiceExcelPreview.png)
 
 Kad ER formātus izmanto, lai šādā veidā drukātu FTI veidlapas, tiek lietoti noklusējuma ER failu galamērķi. Galamērķi nevar mainīt. Papildinformāciju par EP formātu EP galamērķu konfigurēšanu skatiet tēmā [Elektronisko pārskatu (EP) galamērķi](electronic-reporting-destinations.md).
 
@@ -101,9 +101,9 @@ FTI veidlapas varat arī ģenerēt, kad grāmatojat FTI, ieslēdzot iestatījum
 > - **Nosaukums:** ERFormatDestinationRuntimeMaintain
 > - **Etiķete:** Uzturēt elektronisko pārskatu veidošanas formāta galamērķi izpildlaikā
 
-![Elektroniskās pārskatu veidošanas adresāts](media/FTIbyGER-ERFileDestinationSetting.png)
+![Elektroniskās pārskatu veidošanas adresāts.](media/FTIbyGER-ERFileDestinationSetting.png)
 
-![Elektronisko pārskatu veidošanas formāta galamērķis](media/FTIbyGER-ERFileDestinationUsage.png)
+![Elektronisko pārskatu veidošanas formāta galamērķis.](media/FTIbyGER-ERFileDestinationUsage.png)
 
 ER platforma ģenerētajiem dokumentiem pašlaik atbalsta tālāk norādītos galamērķus.
 
@@ -128,7 +128,7 @@ Varat lejupielādēt ER konfigurāciju paraugu, lai to izmantotu kā FTI risin
 ### <a name="features-that-are-implemented-in-the-sample-er-format"></a>ER formāta paraugā ieviestie līdzekļi
 ER formāta konfigurācijas paraugā Excel fails tiek izmantots kā veidne FTI veidlapu ģenerēšanai.
 
-![Veidotāja formāts](media/FTIbyGER-ERFormat.png)
+![Veidotāja formāts.](media/FTIbyGER-ERFormat.png)
 
 Pašlaik šis ER formāta paraugs FTI veidlapu ģenerēšanai atbalsta tālāk norādītos līdzekļus.
 
@@ -179,7 +179,7 @@ Papildus ģenerētajai rēķina veidlapai var tikt ģenerētas žiro naudas pār
 - Juridiskajai personai, kura izmanto Somijas valsts/reģiona kontekstu un kam ir vismaz viens bankas konts, kas ir atzīmēts kā **Žiro konts** un **Banku svītrkods**. 
 - Rēķinam, kas ir atzīmēts kā nepieciešams **Somu** saistītajam maksājuma pielikumam.
 
-![Žiro kvīts](media/FTIbyGER-GiroSlip.PNG)
+![Žiro kvīts.](media/FTIbyGER-GiroSlip.PNG)
 
 > [!NOTE]
 > ER formāta paraugs ir konfigurēts tā, lai žiro naudas pārsūtīšanas kvītis pēc izvēles varētu ģenerēt atsevišķā darblapā.
@@ -194,7 +194,7 @@ Lai konfigurētu e-pasta galamērķus, izmantojiet tālāk norādītos ER form�
 - E-pasta ziņojuma tēmas tekstam var piekļūt, izmantojot šādu ER izteiksmi: **Emailing.TxtToUse.Subject**.
 - E-pasta ziņojuma pamattekstam var piekļūt, izmantojot šādu ER izteiksmi: **Emailing.TxtToUse.Body**.
 
-![Adresāta iestatījumi](media/FTIbyGER-ERFileDestinationSettingEmail.png)
+![Adresāta iestatījumi.](media/FTIbyGER-ERFileDestinationSettingEmail.png)
 
 E-pasta ziņojuma noklusējuma tēmas teksts un pamatteksts ir definēts ER formāta paraugā. Valoda ir atkarīga no formāta etiķetēm. Šis noklusējuma teksts e-pasta ziņojumos tiks izmantots, ja nebūs pievienota pielāgotā organizācijas e-pasta ziņojumu veidne, kurai ir iepriekš definētais **ERFTITMP** ID.
 
@@ -203,9 +203,9 @@ E-pasta ziņojuma noklusējuma tēmas teksts un pamatteksts ir definēts ER for
 
 Ja organizācijas e-pasta veidne, kam ir iepriekš definētais **ERFTITMP** ID, ir pievienota juridiskajai personai, kuras rēķinu apstrādājat, e-pasta ziņojuma ģenerēšanai tiks izmantota e-pasta ziņojuma tēmas un pamatteksta veidne. 
 
-![Organizācijas e-pasta ziņojumu veidnes](media/FTIbyGER-EmailTemplate.png)
+![Organizācijas e-pasta ziņojumu veidnes.](media/FTIbyGER-EmailTemplate.png)
 
-![Augšupielādēt e-pasta veidni](media/FTIbyGER-EmailTemplateBody.png)
+![Augšupielādēt e-pasta veidni.](media/FTIbyGER-EmailTemplateBody.png)
 
 ER formāta parauga ER izteiksme **Emailing.TxtToUse.Subject** ir konfigurēta tā, lai visas viettura %1 instances aizstātu ar apstrādes rēķina ID.
 
@@ -218,10 +218,10 @@ Formāta parauga izteiksme **Emailing.TxtToUse.Body** ir konfigurēta tālāk no
 - Vietturis "%5" tiek aizstāts ar uzņēmuma kontaktpersonas amata nosaukumu.
 - Vietturis "%6" tiek aizstāts ar uzņēmuma kontaktpersonas e-pasta adresi.
 
-![E-pasta adrese](media/FTIbyGER-Email.PNG)
+![E-pasts.](media/FTIbyGER-Email.PNG)
 
 ## <a name="additional-resources"></a>Papildu resursi
-[Elektronisko ziņojumu (ER) pārskats](general-electronic-reporting.md)
+[Elektronisko pārskatu veidošanas (ER) apskats](general-electronic-reporting.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

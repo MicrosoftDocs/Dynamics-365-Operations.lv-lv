@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: af746d1d20ddd1552bce797288c6d62d69d7bd16
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: d903d58fbd5e9d6bd9ecf7943d09525446721ba2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748853"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350768"
 ---
 # <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Pārbaudiet duālā ieraksta konfigurāciju Finance and Operations programmās un pakalpojumā Dataverse
 
@@ -39,11 +39,11 @@ Lai noteiktu, vai kļūdas, kas tiek parādītas, mēģinot saglabāt rindu atja
 
 + Ja Finance and Operations programmā jums ir administratora privilēģijas, dodieties uz **Darbvietas \> Datu pārvaldība** un atlasiet elementu **Duālais ieraksts**. Ja tiek parādīta informācija par saistītajām vidēm un darbojošos tabulu karšu sarakstu, duālais ieraksts tiek konfigurēts.
 
-    ![Programmas Finance and Operations savienojuma pārbaude ar administratora privilēģijām](media/verify_fin_ops_1.png)
+    ![Programmas Finance and Operations savienojuma pārbaude ar administratora privilēģijām.](media/verify_fin_ops_1.png)
 
 + Ja jums nav administratora privilēģiju, tiek parādīts kļūdas ziņojums *Nevar ierakstīt datus elementā \<entity name\>*. Šī attēla piemērā nevar izveidot klienta rindu Finance and Operations programmā, jo ir konfigurēts duālais ieraksts, bet pakalpojumā Dataverse nepastāv klientu grupas un maksājumu nosacījumu atsauces dati.
 
-    ![Programmas Finance and Operations savienojuma pārbaude bez administratora privilēģijām](media/verify_fin_ops_2.png)
+    ![Programmas Finance and Operations savienojuma pārbaude bez administratora privilēģijām.](media/verify_fin_ops_2.png)
 
 Informāciju par to, kā novērst problēmas, veidojot datus Finance and Operations programmās, skatiet sadaļā [Tiešsaistes sinhronizācijas problēmu novēršana](dual-write-troubleshooting-live-sync.md).
 
@@ -51,7 +51,7 @@ Informāciju par to, kā novērst problēmas, veidojot datus Finance and Operati
 
 Kad izveidojat datus, ja tiek parādīta kolonna **Uzņēmums** pakalpojuma Dataverse lapās, duālais ieraksts ir konfigurēts.
 
-![Dataverse savienojuma pārbaude](media/verify_cds.png)
+![Pakalpojuma Dataverse savienojuma pārbaude.](media/verify_cds.png)
 
 Informāciju par to, kā novērst problēmas, veidojot datus pakalpojumā Dataverse, skatiet sadaļā [Tiešsaistes sinhronizācijas problēmu novēršana](dual-write-troubleshooting-live-sync.md).
 

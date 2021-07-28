@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 59277323e0995f59d3a451395a038fa3708274eb
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 85ca468fe6c440fb333b4c32f59f1d41eb89f4e6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936834"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346832"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Atbalsta pievienošana satura piegādes tīklam (CDN)
 
@@ -74,11 +74,11 @@ Lai konfigurētu aizmugursistēmas kopu Azure optimālās ieejas pakalpojumā, v
 
 Šajā attēlā redzams dialoglodziņš **Pievienot aizmugursistēmu** Azure optimālās ieejas pakalpojumā ar ievadīto aizmugursistēmas resursdatora virsrakstu.
 
-![Pievienot aizmugursistēmas kopas dialoglodziņu](./media/CDN_BackendPool.png)
+![Pievienot aizmugursistēmas kopas dialoglodziņu.](./media/CDN_BackendPool.png)
 
 Šajā attēlā redzams dialoglodziņš **Pievienot aizmugursistēmas kopa** Azure optimālās ieejas pakalpojumā ar noklusējuma noslodzes balansēšanas vērtībām.
 
-![Pievienot aizmugursistēmas kopas dialoglodziņa turpinājumu](./media/CDN_BackendPool_2.png)
+![Pievienot aizmugursistēmas kopas dialoglodziņa turpinājumu.](./media/CDN_BackendPool_2.png)
 
 > [!NOTE]
 > Noteikti atspējojiet **Veselības zondes**, iestatot savu Azure Front Door pakalpojumu pakalpojumam Commerce.
@@ -107,13 +107,13 @@ Ja jūsu domēns ir jauns un nav jau esošs domēns, varat pievienot pielāgotu 
 
 Šajā attēlā redzams dialoglodziņš **CNAME konfigurācija** Azure optimālās ieejas pakalpojumā.
 
-![CNAME konfigurācijas dialoglodziņš](./media/CNAME_Configuration.png)
+![CNAME konfigurācijas dialoglodziņš.](./media/CNAME_Configuration.png)
 
 Varat izmantot Azure optimālās ieejas pakalpojumu, lai pārvaldītu sertifikātu, vai arī varat izmantot savu sertifikātu pielāgotajam domēnam.
 
 Šajā attēlā redzams dialoglodziņš **Pielāgota domēna HTTPS** Azure optimālās ieejas pakalpojumā.
 
-![Pielāgota domēna HTTPS dialoglodziņš](./media/Custom_Domain_HTTPS.png)
+![Pielāgota domēna HTTPS dialoglodziņš.](./media/Custom_Domain_HTTPS.png)
 
 Lai iegūtu detalizētas instrukcijas par pielāgota domēna pievienošanu Azure optimālās ieejas pakalpojumu, skatiet sadaļu [Pievienot pielāgotu domēnu jūsu optimālās ieejas pakalpojumam](/azure/frontdoor/front-door-custom-domain).
 

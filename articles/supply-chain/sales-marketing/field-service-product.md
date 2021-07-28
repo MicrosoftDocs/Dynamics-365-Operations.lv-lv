@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 45a989604d829db715756b6cd206a5675a18acf2
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: f765a6f0cbdc99604e0b0191e1cb6a200546769b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909995"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359585"
 ---
 # <a name="synchronize-products-in-supply-chain-management-to-products-in-field-service"></a>Programmā Supply Chain Management esošo produktu tieša sinhronizēšana ar produktiem programmā Field Service
 
@@ -69,7 +69,7 @@ Tālāk esošajos attēlos ir redzams veidnes kartējums līdzeklī Datu integr�
 
 ### <a name="field-service-products-supply-chain-management-to-field-service-products---products"></a>Field Service preces (no Supply Chain Management uz Field Service): Preces — Preces
 
-[![Veidņu kartēšana līdzeklī Datu integrācija](./media/FSProduct.png)](./media/FSProduct.png)
+[![Veidņu kartēšana līdzeklī Datu integrācija.](./media/FSProduct.png)](./media/FSProduct.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

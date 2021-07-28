@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dfe04881e71558ed326025d8f2545c3c611df3aa
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6a319007b32a8a52bd4a0c0af337ed8fd4062cfa
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796974"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346672"
 ---
 # <a name="adjust-ai-ml-based-product-recommendation-results"></a>Uz AI-ML balstītu preču ieteikumu rezultātu pielāgošana
 
@@ -51,7 +51,7 @@ Atkarībā no jūsu biznesa, sarakts "Vispirktākās" var dot atšķirīgus rezu
 
 Preču sarakstam "Vispirktākās" ir viens parametrs, ko var mainīt.
 
-![Vispirktāko preču saraksta noklusējuma parametra piemērs](./media/examplebestsellingparameters.PNG)
+![Vispirktāko preču saraksta noklusējuma parametra piemērs.](./media/examplebestsellingparameters.PNG)
 
 1. **Iekļaut pārdošanu no pēdējām X dienām** — pārdošanas transakcijas, kas notikušas noteiktu dienu skaitu pirms pašreizējā datuma, var izmantot, lai pasūtītu preces. Iepriekš minētā noklusētā vērtība norāda, ka visi preces pirkumi, kas veikti pēdējo 30 dienu laikā, tiks izmantoti, lai noteiktu preces novietojumu vispirktāko preču sarakstā. 
 
@@ -65,13 +65,13 @@ Preču sarakstam "Vispirktākās" ir viens parametrs, ko var mainīt.
 1.  Lai tabulai pievienotu preces, atlasiet **Pievienot rindu**. 
 1.  Sadaļā Preces kolonna meklējiet preci pēc **Nosaukuma** vai **Preces numura.**
 
-    ![Piemērs preces meklēšanai sarakstā Jauna prece](./media/examplenewlistconfiguration1.png)
+    ![Piemērs preces meklēšanai sarakstā Jauna prece.](./media/examplenewlistconfiguration1.png)
 
 1.  Kolonnas rindas veidā atlasiet vienu no divām opcijām:
     -   **Iekļaut** — forsē preci uz saraksta priekšgalu
     -   **Izslēgt** — noņem preci no parādīšanās sarakstā
     
-    ![Piemērs preces iekļaušanai vai izņemšanai no Jaunas preces saraksta](./media/examplenewlistconfiguration2.png)
+    ![Piemērs preces iekļaušanai vai izņemšanai no Jaunas preces saraksta.](./media/examplenewlistconfiguration2.png)
 
 1.  Mainot **Rādīšanas secība**, tiks mainīta secība, kādā prece, kas atzīmēta ar **Iekļaut**, parādīsies sarakstā.
     - Ja divām precēm ir tāda pati vērtība **Rādīšanas secība**, šo divu rezultātu galīgā secība var atšķirties no tās, kas ir birojā.
@@ -87,11 +87,11 @@ Preču sarakstam "Vispirktākās" ir viens parametrs, ko var mainīt.
 Veiciet tālāk minētās darbības, lai manuāli pievienotu vai noņemtu rezultātus sākuma precei.
 1.  Atlasiet **Sākuma prece**. 
 1.  Kolonnā **Prece** meklējiet preci pēc **Nosaukums** vai **Preces numurs.**
-![Piemērs preces meklēšanai sarakstā Bieži iegādāts kopā](./media/exampleFBTlistconfiguration1.png)
+![Piemērs preces meklēšanai sarakstā Bieži iegādāts kopā.](./media/exampleFBTlistconfiguration1.png)
 1. Kolonnā **Rindas veids** atlasiet vienu no divām opcijām:
     - **Iekļaut** — forsē preci uz saraksta priekšgalu
     - **Izslēgt** — noņem preci no parādīšanās sarakstā     
-![Piemērs preces iekļaušanai vai izslēgšanai no saraksta Bieži iegādāts kopā](./media/exampleFBTlistconfiguration2.png)
+![Piemērs preces iekļaušanai vai izslēgšanai no saraksta Bieži iegādāts kopā.](./media/exampleFBTlistconfiguration2.png)
 1.  Lai noņemtu preces no tabulas: atlasiet noņemamo rindu un atlasiet Noņemt.
 
 
@@ -99,7 +99,7 @@ Veiciet tālāk minētās darbības, lai manuāli pievienotu vai noņemtu rezult
 
 [Preču ieteikumu apskats](product-recommendations.md)
 
-[Iespējojiet Azure Data Lake Storage vidē Dynamics 365 Commerce](enable-adls-environment.md)
+[Iespējojiet Azure Data Lake Storage pakalpojua Dynamics 365 Commerce vidē](enable-adls-environment.md)
 
 [Iespējot preču ieteikumus](enable-product-recommendations.md)
 

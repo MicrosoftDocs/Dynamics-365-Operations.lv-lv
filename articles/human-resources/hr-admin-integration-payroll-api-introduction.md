@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e6d8a1cb9619a863184460a74e472af3f06934b6
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 3b6b01053a043477521d7eb1a41bb9f6f51fc0e4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058564"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360572"
 ---
 # <a name="payroll-integration-api-introduction"></a>Payroll integrācijas API ieviešana
 
@@ -26,7 +26,7 @@ ms.locfileid: "6058564"
 
 Šajā dokumentā aprakstīts Dynamics 365 Human Resources Payroll integrācijas API. API iespējo racionalizētu “no gala līdz galam” integrēšanu starp Human Resources un partnerattiecībām algu sistēmā. Pakalpojumā Human Resources sākas integrētā pieredze ar darbinieka profilu, algu, ieturējumu un ieguldījumu informāciju. Nolīgjot darbinieku un ievadot nepieciešamo profilu un apmaksas informāciju sistēmā Human Resources, algu sistēma izvelk šo informāciju, lai to izmantotu algas apstrādes laikā. Visi darbiniekam veiktie atjauninājumi vai maksājuma informācija arī tiek izvilkti izmantošanai vēlākās algas izpildes.
 
-![Payroll integrācijas plūsma](media/hr-admin-integration-payroll-api-introduction-flow.png)
+[![Payroll integrācijas plūsma.](media/hr-admin-integration-payroll-api-introduction-flow.png)](media/hr-admin-integration-payroll-api-introduction-flow-2.png#lightbox)
 
 Lai iespējotu integrāciju, Human Resources satur šādus komponentus:
 
@@ -60,7 +60,7 @@ Informāciju par API virtuālo tabulu ģenerēšanu skatiet [Konfigurēt Dataver
 
 Sekojošā diagramma attēlo attiecības API. Vairākiem veidiem ir ārējās atslēgas citām, iepriekš esošām Human Resources entītijām, kas šeit nav attēlotas. Šajā dokumentā ir sniegta informācija par elementiem, kas ir specifiski darbā algas integrācijas scenārijiem. Tomēr Web API ir daudzi citi elementi Dataverse Web API programmai Human Resources, kas var būt atbilstīgi jūsu integrācijai. Dažiem no šiem elementiem ir atsauces ārējās atslēgas attiecībās vai navigācijas rekvizītos.
 
-![Payroll integrācijas API datu modelis](media/hr-admin-payroll-api-data-model.png)
+[![Payroll integrācijas API datu modelis.](media/hr-admin-payroll-api-data-model.png)](media/hr-admin-payroll-api-data-model.png#lightbox)
 
 ## <a name="payroll-employee-and-related-entities"></a>Payroll darbinieks un saistītie elementi
 
@@ -68,7 +68,8 @@ Elementi:
 
 - [Algots darbinieks](hr-admin-integration-payroll-api-payroll-employee.md)
 - [Algas nodarbinātā adrese](hr-admin-integration-payroll-api-payroll-worker-address.md)
-- [Algu aprēķina fiksētās atlīdzības plāns](hr-admin-integration-ats-api-recruiting-request-education.md)
+- [Algu aprēķina fiksētās atlīdzības plāns](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md)
+- [Algu aprēķina mainīgās atlīdzības plāns](hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md)
 - [Algas pozīcijas darbs](hr-admin-integration-payroll-api-payroll-position-job.md)
 - [Algas pozīcija](hr-admin-integration-payroll-api-payroll-position.md)
 

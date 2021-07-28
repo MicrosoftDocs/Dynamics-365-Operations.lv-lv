@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cb3e09ad849b250ed3f1d7aec910b44d591cb88e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e1672ee1777150a7f78c03d07dc79df118a3632f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751636"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347880"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Organizēt atskaites komponentus atskaišu veidotājā
 
@@ -47,7 +47,7 @@ Pārskatu definīcijas iespējams grupēt, lai vienlaicīgi izveidotu vairākus 
 ### <a name="create-a-report-group"></a>Pārskata grupas izveidošana
 
 1. Atskaišu veidotāja navigācijas rūtī noklikšķiniet uz **Atskaišu grupas**.
-2. Izvēlnē **Fails** noklikšķiniet uz **Jauns** &gt; **Pārskatu grupas definīcija**, lai skatītāja logā atvērtu jaunu pārskatu grupu. Varat arī noklikšķināt uz rīkjoslas pogas **Pārskatu grupa** ![Pārskatu grupa](media/report-group.gif "Pārskatu grupa").
+2. Izvēlnē **Fails** noklikšķiniet uz **Jauns** &gt; **Pārskatu grupas definīcija**, lai skatītāja logā atvērtu jaunu pārskatu grupu. Varat arī noklikšķināt uz rīkjoslas pogas **Pārskatu grupa** ![Pārskatu grupa.](media/report-group.gif "Pārskatu grupa") rīkjoslā.
 3. Noklikšķiniet uz cilnes **Pārskatu grupa**. Lai šī pārskata izveidošanai ignorētu informāciju par atsevišķu pārskatu definīcijām, atzīmējiet izvēles rūtiņu **Ignorēt uzņēmuma, detalizētas informācijas un datuma iestatījumus no atsevišķām pārskatu definīcijām**. Uzņēmuma nosaukums, detalizētības līmenis, provizoriskie iestatījumi un datuma informācija tiek ievadīta automātiski, bet jūs varat veikt atjauninājumus.
 4. Lai ģenerētu vairākas atskaites, kurās ir redzamas atskaišu valūtas, atzīmējiet izvēles rūtiņu **Ietvert visas atskaišu valūtas**. Pēc tam varat piekļūt vairākiem skatiem, tīmekļa skatītājā noklikšķinot uz pogas **Valūta**, kas skatāt šo atskaiti.
 5. Laukā **Atskaites grupā** noklikšķiniet uz **Pievienot**, lai atlasītu atskaites, ko iekļaut atskaišu grupā. Lai dialoglodziņā **Pievienot** atlasītu vairākas atskaites, atskaišu atlasīšanas laikā turiet nospiestu taustiņu Ctrl. Kad esat beidzis atlasīt atskaites, noklikšķiniet uz **Labi**.
@@ -58,7 +58,7 @@ Pārskatu definīcijas iespējams grupēt, lai vienlaicīgi izveidotu vairākus 
 1. Atskaišu veidotāja navigācijas rūtī noklikšķiniet uz **Atskaišu grupas**.
 2. Veiciet dubultklikšķi uz pārskata grupas, lai modificētu to.
 3. Cilnē **Atskaišu grupa** veiciet nepieciešamās izmaiņas.
-4. Izvēlnē **Fails** noklikšķiniet uz **Saglabāt**, lai saglabātu modificēto pārskatu grupu, vai arī noklikšķiniet uz rīkjoslas pogas **Saglabāt** ![Saglabāt](media/save.gif "Saglabāt").
+4. Izvēlnē **Fails** noklikšķiniet uz **Saglabāt**, lai saglabātu modificēto pārskatu grupu, vai arī noklikšķiniet uz rīkjoslas pogas **Saglabāt** ![Saglabāt.](media/save.gif "Saglabāt") rīkjoslā.
 
 > [PIEZĪME] Ja esat ieplānojis atskaites, lai tās tiktu ģenerētas noteiktos intervālos, varat ignorēt šos iestatījumus un ģenerēt atskaiti nekavējoties.
 
@@ -66,7 +66,7 @@ Pārskatu definīcijas iespējams grupēt, lai vienlaicīgi izveidotu vairākus 
 
 1. Atskaišu veidotāja navigācijas rūtī noklikšķiniet uz **Atskaišu grupas**.
 2. Atveriet pārskata grupu, lai izveidotu.
-3. Noklikšķiniet uz pogas **Ģenerēt pārskatu** ![Ģenerēt pārskatu](media/generate-report.gif "Ģenerēt pārskatu"), lai ģenerētu pārskatus.
+3. Noklikšķiniet uz pogas **Ģenerēt pārskatu** ![Ģenerēt pārskatu.](media/generate-report.gif "Ģenerēt pārskatu") lai ģeņerētu pārskatus.
 
 ### <a name="delete-a-report-group"></a>Grupas pārskata dzēšana
 

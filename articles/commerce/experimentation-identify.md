@@ -15,17 +15,17 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: a3f5d44e008e4092557d75c8f5d830d5ae36a091
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 265a54fc67fba85b23b372af3403cded29545c4f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799055"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349356"
 ---
 # <a name="identify-a-hypothesis-and-determine-success-metrics-for-an-experiment"></a>Hipotēzes identificēšana un eksperimenta panākumu rādītāju noteikšana
 Pirmā eksperimenta dzīves cikla fāze ietver eksperimenta hipotēzes identificēšanu un rādītāju noteikšanu, kam sekosit, lai novērtētu panākumus. Tālāk esošajā diagrammā ir parādītas visas darbības, kas jāveic, lai [iestatītu un izpildītu eksperimentu](experimentation-overview.md) e-komercijas tīmekļa vietnē pakalpojumā Dynamics 365 Commerce. Papildu darbības ir apskatītas atsevišķās tēmās. 
 
-[ ![Eksperimenta lietotāja maršruts – identificēšana](./media/experimentation_identify.svg) ](./media/experimentation_identify.svg#lightbox)
+[ ![Eksperimenta lietotāja maršruts – identificēšana.](./media/experimentation_identify.svg) ](./media/experimentation_identify.svg#lightbox)
 
 Hipotēze ir apgalvojums, kurā prognozēts eksperimenta rezultāts. Hipotēzes definēšanā ir iesaistīti daudzi faktori, piemēram, lietotāju uzvedības un apkopoto tīmekļa vietņu datu izpēte. Ar hipotēzi jūs definēsit pieņēmumu vai teoriju, kuru vēlaties apstiprināt ar savu eksperimentu. Eksperimenta hipotēzes piemērs varētu būt “*Vasaras mēnešos attēls ar baltas krāsas t-kreklu manā mājas lapā radīs lielāku vidējo klikšķu skaitu nekā tumši zils džemperis, jo vasarā cilvēki vēlas valkāt kaut ko plānu un gaišās krāsās.*” Šādā gadījumā jūs izveidosit variantus, kas ietver baltu t-kreklu un tumši zilu džemperi, un abus publicēsit vienlaicīgi.
 
