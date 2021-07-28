@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 26f0dc3b128daf8c7d8a05d6f3cacc5b7de0c756
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 964c54ba85f585bc90c5f7d78b2393195dd664bd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909112"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353496"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>Pirkšanas pasūtījuma apstiprināšanas mobilā darbvieta
 
@@ -79,11 +79,11 @@ Mobilās programmas Finance and Operations lejupielāde un instalēšana.
 ## <a name="sign-in-to-the-mobile-app"></a>Pierakstīšanās mobilajā programmā
 
 1. Palaidiet programmu savā mobilajā ierīcē.
-2. Ievadiet savu Microsoft Dynamics 365 vietrādi URL.
+2. Ievadiet savu Microsoft Dynamics 365 vietrādi URL.
 3. Pirmajā pierakstīšanās reizē tiek prasīts ievadīt lietotājvārdu un paroli. Ievadiet savus akreditācijas datus.
 4. Pēc pierakstīšanās tiek parādītas jūsu uzņēmumam pieejamās darbvietas. Ņemiet vērā, ka gadījumā, ja sistēmas administrators vēlāk publicēs jaunu darbvietu, jums būs jāatsvaidzina mobilo darbvietu saraksts.
 
-![Pirkšanas pasūtījuma apstiprināšanas darbvieta pieejamo darbvietu sarakstā](./media/po-workspaces.png)
+![Pirkšanas pasūtījuma apstiprināšanas darbvieta pieejamo darbvietu sarakstā.](./media/po-workspaces.png)
 
 ## <a name="view-orders-that-are-assigned-to-you"></a>Piešķirto pasūtījumu skatīšana
 1. Mobilajā ierīcē atlasiet darbvietu **Pirkšanas pasūtījuma apstiprināšana**.

@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.20 update
-ms.openlocfilehash: 08564ce7af7412f2501b917b3496942004402611
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
+ms.openlocfilehash: 513ec2f48a3c7c81a41fd64a9752067d12eb4ec8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6117234"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353866"
 ---
 # <a name="configure-product-dimension-values-to-appear-as-swatches"></a>Konfigurēt preču dimensiju vērtības, lai tās tiktu rādītas kā paraugi
 
@@ -39,11 +39,11 @@ Displeja dimensijas kā paraugu funkcija ļauj Commerce izmantot heksadecimālos
 
 Nākamajā attēlā ir parādīts piemērs, kur e-komercijas vietnes PDP krāsas parādās kā paraugi.
 
-![Krāsu piemērs, kas preces informācijas lapā tiek rādītas kā paraugi](../dev-itpro/media/swatch_pdp.png)
+![Krāsu piemērs, kas preces informācijas lapā tiek rādītas kā paraugi.](../dev-itpro/media/swatch_pdp.png)
 
 Nākamajā attēlā ir parādīts piemērs, kur e-komercijas vietnes meklēšanas rezultātu saraksta lapā krāsas parādās kā paraugi.
 
-![Krāsu piemērs, kas meklēšanas rezultātu saraksta lapā tiek rādītas kā paraugi](../dev-itpro/media/swatch_searchresults.PNG)
+![Krāsu piemērs, kas meklēšanas rezultātu saraksta lapā tiek rādītas kā paraugi.](../dev-itpro/media/swatch_searchresults.PNG)
 
 ## <a name="enable-the-display-dimensions-as-swatches-feature-in-commerce-headquarters"></a>Commerce Headquarters iespējojiet displeja izmērus kā paraugus
 
@@ -57,15 +57,15 @@ Konfigurāciju var veikt jebkurā no šiem līmeņiem:
 
 - **Dimensija** - programmā Commerce Headquarters atveriet dimensijas lapu, meklējot **Krāsu**, **Izmēru** vai **Stilu**. Katrā lappusē režģis uzskaita dimensiju vērtības. Varat pārvaldīt rādīšanas secību, heksadecimālo kodu un attēla URL vērtības. Tālāk redzamajā attēlā ir parādīts lapas **Krāsas** konfigurācijas piemērs.
 
-    ![Dimensiju konfigurācijas piemērs lapā Krāsas](../dev-itpro/media/swatch_Color.PNG)
+    ![Dimensiju konfigurācijas piemērs lapā Krāsas.](../dev-itpro/media/swatch_Color.PNG)
 
 - **Dimensiju grupa** - programmā Dynamics 365 Commerce var izmantot rekvizītu **RefinerGroup**, lai izveidotu dimensiju grupas. Ja ir definētas dimensiju grupas, atveriet atbilstošo lappusi, meklējot **Krāsu grupu**, **Izmēru grupu** vai **Stila grupu**. Katrā lapā varat pārvaldīt heksadecimālo kodu, attēla URL un precizētāju grupas vērtības. Tālāk redzamajā attēlā ir parādīts lapas **Krāsu grupas** konfigurācijas piemērs.
 
-    ![Dimensiju konfigurācijas piemērs lapā Krāsu grupas](../dev-itpro/media/swatch_colorGroup.PNG)
+    ![Dimensiju konfigurācijas piemērs lapā Krāsu grupas.](../dev-itpro/media/swatch_colorGroup.PNG)
 
 - **Preces dimensija (preces izveides laikā)** – veidojot jaunu preci, dimensiju vērtību ievadīšanai var izmantot lapu **Preču dimensijas**. Esošajām precēm lauki **Heksadecimālais kods**, **URL** (attēliem) un **RefinerGroup**, iespējams, jau ir iestatīti. Tomēr, jūs varat mainīt vērtības pēc nepieciešamības. Tālāk redzamajā attēlā ir parādīts lapas **Preču dimensijas** konfigurācijas piemērs.
 
-    ![Dimensiju konfigurācijas piemērs lapā Preču dimensijas](../dev-itpro/media/swatch_product_dimensions.PNG)
+    ![Dimensiju konfigurācijas piemērs lapā Preču dimensijas.](../dev-itpro/media/swatch_product_dimensions.PNG)
 
 > [!NOTE]
 > Heksadecimālā koda un attēla URL konfigurāciju pārvaldības process atbilst tam pašam modelim, kas tiek izmantots, lai pārvaldītu dimensiju parādīšanas secību.
@@ -76,7 +76,7 @@ Lielākajai daļai krāsu dimensiju programmā Commerce Headquarters dimensiju l
 
 Nākamajā attēlā ir parādīts piemērs, kur krāsu dimensijas tiek konfigurētas, izmantojot heksadecimālā koda vērtības.
 
-![Dimensiju konfigurācijas piemērs, kas izmanto heksadecimālos kodus](../dev-itpro/media/swatch_color_hexcode.png)
+![Dimensiju konfigurācijas piemērs, kas izmanto heksadecimālos kodus.](../dev-itpro/media/swatch_color_hexcode.png)
 
 ## <a name="configure-dimension-values-by-using-image-urls"></a>Dimensiju vērtību konfigurēšana, izmantojot attēlu URL
 
@@ -86,13 +86,13 @@ Katrs attēls ir jāaugšupielādē Commerce vietņu veidotājā un jāpublicē.
 
 Tālāk redzamajā attēlā ir parādīts piemērs, kur attēla URL tiek izmantoti konfigurācijai lapā **Krāsas**.
 
-![Dimensiju konfigurācijas piemērs, kas izmanto attēla URL](../dev-itpro/media/swatch_color_urls.PNG)
+![Dimensiju konfigurācijas piemērs, kas izmanto attēla URL.](../dev-itpro/media/swatch_color_urls.PNG)
 
 Varat izmantot multivides veidni, lai definētu attēlu URL, tāpat kā preču un kategoriju attēlus. Augšupielādējot attēlus vietņu veidotājā, failu nosaukumu konvencijām un failu ceļiem jābūt saskanīgiem.
 
 Tālāk redzamajā attēlā ir parādīts piemērs, kur attēla URL tiek izmantoti multivides veidnes konfigurācijai.
 
-![Multivides veidnes konfigurācijas piemērs](../dev-itpro/media/swatch_media_template.PNG)
+![Multivides veidnes konfigurācijas piemērs.](../dev-itpro/media/swatch_media_template.PNG)
 
 ## <a name="configure-dimension-values-by-using-both-hex-codes-and-image-urls"></a>Dimensiju vērtību konfigurēšana, izmantojot gan heksadecimālos kodus, gan attēlu URL
 
@@ -100,7 +100,7 @@ Lielākajai daļai krāsu dimensiju var konfigurēt gan heksadecimālos kodus, g
 
 Tālāk redzamajā attēlā ir parādīts piemērs, kur lapā **Krāsas** konfigurācijai tiek izmantoti gan heksadecimālie kodi, gan attēla URL.
 
-![Dimensiju konfigurācijas piemērs, kas izmanto gan heksadecimālos kodus, gan attēla URL](../dev-itpro/media/swatch_color_hexandimage.png)
+![Dimensiju konfigurācijas piemērs, kas izmanto gan heksadecimālos kodus, gan attēla URL.](../dev-itpro/media/swatch_color_hexandimage.png)
 
 ## <a name="configure-refiner-groups"></a>Konfigurēt precizētāju grupas
 
@@ -110,7 +110,7 @@ Piemēram, ja krāsu dimensiju vērtības ir "blue", "blue plaid", "blue wash" u
 
 Nākamajā attēlā redzamajā piemērā ir parādīta attiecība starp rekvizītiem **Krāsa** un **RefinerGroup** programmā Commerce Headquarters.
 
-![Precizētāju grupas pārvaldības piemērs](../dev-itpro/media/swatch_refiner_group.png)
+![Precizētāju grupas pārvaldības piemērs.](../dev-itpro/media/swatch_refiner_group.png)
 
 ## <a name="manage-images-in-commerce-site-builder"></a>Pārvaldīt attēlus Commerce vietnes veidotājā
 
@@ -118,7 +118,7 @@ Ja attēlu URL tiek izmantoti jebkurām dimensiju vērtībām, atbilstošie att�
 
 Nākamajā attēlā ir parādīts piemērs, kur dialoglodziņš **Augšupielādēt attēlus** tiek izmantots, lai augšupielādētu attēlus vietnes veidotāja multivides bibliotēkā. Tajā ir iezīmētas kategorijas **Izmērs**, **Krāsa** un **Stils**, kas ir pieejamas atlasei.
 
-![Attēlu failu kategoriju piemērs augšupielādes laikā vietņu veidotāja multivides bibliotēkā](../dev-itpro/media/swatch_sitebuilder.png)
+![Attēlu failu kategoriju piemērs augšupielādes laikā vietņu veidotāja multivides bibliotēkā.](../dev-itpro/media/swatch_sitebuilder.png)
 
 ## <a name="enable-swatch-display-on-e-commerce-site-pages"></a>Iespējot paraugu parādīšanu e-komercijas vietnes lapās
 

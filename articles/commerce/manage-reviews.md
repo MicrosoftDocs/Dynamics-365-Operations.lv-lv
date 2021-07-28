@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 60ad0dd821dc91576a59cf73ec46da4aefd34a2f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 94abcf7189dc7c1f5587eb06d47650dc707c5007
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794263"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352402"
 ---
 # <a name="manage-ratings-and-reviews"></a>Vērtējumu un atsauksmju pārvaldība
 
@@ -45,7 +45,7 @@ Lai lasītu atsauksmi Commerce vietņu veidotājā, veiciet tālāk norādītās
 
 Papildu filtri ļauj ierobežot apskatus pēc perioda, vērtējuma, kanāla vai svarīguma statusa (noņemts, atbildēts vai ziņots).
 
-![Moderēšanas sākumlapa](media/rnr-moderation-home.png) 
+![Moderēšanas sākumlapa.](media/rnr-moderation-home.png) 
 
 ## <a name="respond-to-a-review"></a>Atbildēšana uz apskatu 
 
@@ -59,7 +59,7 @@ Lai atbildētu uz atsauksmi Commerce vietņu veidotājā, veiciet tālāk norād
 1. Ievadiet atbildes tekstu un parādāmo atbildētāja vārdu. Noklusējuma atbildētāja vārds ir **Moderators**.
 1. Pēc pabeigšanas atlasiet **Ievietot atbildi**.
 
-![Atbildēšana uz apskatu](media/rnr-moderation-response.png) 
+![Atbildēšana uz apskatu.](media/rnr-moderation-response.png) 
 
 ## <a name="take-down-a-review"></a>Apskata noņemšana 
 
@@ -82,7 +82,7 @@ Lai atrastu un dzēstu klienta datus Commerce vietņu veidotājā, rīkojieties 
 1. Ja klients veicis kādas apskatīšanas aktivitātes (piemēram, iesniedzis apskatus, balsojis par cita klienta apskatu noderīgumu vai komentējis cita klienta apskatu), tiek parādīti rezultāti. Katram elementam ir poga **Dzēst**.
 1. Katram elementam, kas jāizdzēš, atlasiet **Dzēst**. Kad tiek pieprasīts apstiprinājums, atlasiet **Jā**. 
     
-![Klienta datu dzēšana](media/rnr-moderation-delete-reviews.png) 
+![Klienta datu dzēšana.](media/rnr-moderation-delete-reviews.png) 
 
 > [!NOTE]
 > - Var paiet līdz septiņām dienām, lai dati tiktu pilnībā noņemti no sistēmas. Moderatoriem jāpaziņo klientiem par šo kavēšanos.
@@ -106,19 +106,19 @@ Lai skatītu vērtējumu un atsauksmju tendences Commerce vietņu veidotājā, r
 1. Dodieties uz **Sākums \> Apskati \> Ziņošana**.
 1. Atlasiet **PowerBI veidne**, lai lejupielādētu veidni.
 
-    ![Lejupielādējiet Power BI veidni](media/rnr-moderation-reports.png) 
+    ![Lejupielādējiet Power BI veidni.](media/rnr-moderation-reports.png) 
 
 1. Atveriet lejupielādēto veidni, izmantojot Power BI programmu. Aizveriet parādījušos dialoglodziņu **Piekļuve tīmekļa saturam** un pēc tam aizveriet parādījušos "Atsvaidzināt" kļūdas ziņojumu.
 1. Dodieties uz **Sākums**, atlasiet **Rediģēt vaicājumus** un pēc tam atlasiet **Datu avota iestatījumi**.
 1. Dialoglodziņā **Datu avota iestatījumi** atlasiet **Mainīt avotu**.
 1. Laukā **URL** ievadiet ceļu uz apskatu datiem, ko lejupielādējāt iepriekšējā procedūrā (piemēram, **c:\\reviews\\ReviewsData.csv**).
 
-    ![URL lauks ar komatu atdalīto vērtību dialoglodziņā](media/rnr-powerbi-datasource-settings.png) 
+    ![URL lauks ar komatu atdalīto vērtību dialoglodziņā.](media/rnr-powerbi-datasource-settings.png) 
 
 1. Atlasiet **Labi** un pēc tam atlasiet **Piemērot izmaiņas**. Lai datu avotam tiktu piemērotas izmaiņas, būs nepieciešamas vienas līdz divas minūtes.
 1. Atlasiet **Tendenču loksne**, lai skatītu vērtējumu un apskatu tendences.
 
-    ![Vērtējumu un apskatu tendences](media/rnr-powerbi-dashboard-template.png) 
+    ![Vērtējumu un apskatu tendences.](media/rnr-powerbi-dashboard-template.png) 
     
 ## <a name="additional-resources"></a>Papildu resursi
 

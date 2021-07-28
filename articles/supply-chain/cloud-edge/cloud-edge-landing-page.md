@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 24c322712edf1277eabfdd708f528d89bcf43640
-ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
+ms.openlocfilehash: ffb1cedc08b033532580fda1349ade32b7dc1eb1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261750"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354813"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Mākoņa un malas mēroga vienības ražošanas un noliktavas pārvaldības darba slodzēm
 
@@ -41,7 +41,7 @@ Darba slodzes iespējas tiek pastāvīgi izlaistas, izmantojot inkrementālos uz
 
 Mēroga vienības paplašina centrālo Supply Chain Management centrmezgla vidi, pievienojot īpašu apstrādes noslodzi. Mēroga vienības var palaist mākonī. Vai arī tās var tikt palaistas uz malas uz vietas jūsu vietējā iestādē.
 
-:::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Dynamics 365 ar mēroga vienībām":::
+:::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Dynamics 365 ar mēroga vienībām.":::
 
 Mēroga vienības nodrošina piešķirtajām darba slodzēm noturību, uzticamību un mērogu. Malas skalas vienības var īslaicīgi atvienot no mākoņa centrmezgla vides, un darbinieki turpina strādāt ar piešķirtajām darba slodzes daļām.
 
@@ -157,7 +157,7 @@ Mēroga vienības tiek piedāvātas vairākās noliktavas vienībās (NV) un cen
 
 Ievades līmeņa SKU ir pazīstama kā *Pamata* un vēl spēcīgāka SKU ir pazīstama kā *Standarta*. Katra SKU ir iepriekš ielādēta ar noteiktu mēneša transakciju skaitu. Tomēr ikmēneša transakciju budžetu var palielināt, katram SKU pievienojot pārsnieguma pievienojumprogrammas.
 
-:::image type="content" source="media/SKUs-highlevel.png" alt-text="Pievienojumprogrammas mākoņa mēroga vienībām":::
+:::image type="content" source="media/SKUs-highlevel.png" alt-text="Pievienojumprogrammas mākoņa mēroga vienībām.":::
 
 > [!TIP]
 > Lai identificētu izmērus, kas vislabāk atbilst jūsu vajadzībām, sazinieties ar partneri un Microsoft, lai izprastu nepieciešamo mēneša transakciju lielumu.
@@ -181,11 +181,11 @@ Ja jūsu meklētais nomnieks nav sarakstā, dodieties uz [LCS](https://lcs.dynam
 
 Katram nomniekam saraksts parāda pievienošanas statusu.
 
-:::image type="content" source="media/cloud_edge-EnableHybrid1.png" alt-text="Nomnieku saraksts Dynamics 365 nomnieku cilnē":::
+:::image type="content" source="media/cloud_edge-EnableHybrid1.png" alt-text="Nomnieku saraksts Dynamics 365 nomnieku cilnē.":::
 
 Atlasiet **Noklikšķiniet šeit, lai sāktu darbu**, lai pieprasītu LCS nomnieka pievienošanu. Jums ir jāpiekrīt noteikumiem. Jums ir arī jāsniedz uzņēmuma e-pasta adrese, kur Microsoft var nosūtīt paziņojumus, kas saistīti ar pievienošanas procesu.
 
-:::image type="content" source="media/cloud_edge-EnableHybrid2.png" alt-text="Reģistrēšanās iesniegums nomniekam":::
+:::image type="content" source="media/cloud_edge-EnableHybrid2.png" alt-text="Reģistrēšanās iesniegums nomniekam.":::
 
 Korporācija Microsoft pārskatīs jūsu pieprasījumu un sniegs informāciju par nākamajām darbībam, sūtot e-pastu uz adresi, kuru sniedzat reģistrēšanās veidlapā. Korporācija Microsoft cieši sadarbojas ar jums, lai aktivizētu mēroga vienības jūsu biznesa scenārijā hibrīdu topoloģijā.
 
@@ -195,13 +195,13 @@ Kad pievienošana ir pabeigta, varat izmantot portu, lai konfigurētu mēroga vi
 
 Dodieties uz [portālu Skale Unit Manager](https://aka.ms/SCMSUM) un piesakieties, izmantojot savu nomnieka kontu. Lapā **Konfigurēt mēroga vienības** varat pievienot centrmezgla vidi, ja tā jau nav norādīta sarakstā. Pēc tam varat atlasīt centrmezglu, ko vēlaties konfigurēt ar mēroga vienībām un darba slodzēm.
 
-:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Mēroga vienības un darba slodzes pārvaldības pieredze":::
+:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Mēroga vienības un darba slodzes pārvaldības pieredze.":::
 
 Lai pievienotu vienu vai vairākas mēroga vienības, kas ir pieejamas jūsu abonementos, atlasiet **Pievienot mēroga vienības**.
 
 Lai pievienotu noliktavas pārvaldības darba slodzi kādai no jūsu mēroga vienībām, cilnē **Definētās darba slodzes** izmantojiet pogu **Izveidot darba slodzi**. Katrai darba slodzei jānorāda to procesu konteksts, kas piederēs šai darba slodzei. Noliktavas pārvaldības darba slodzei konteksts ir noteikta noliktava noteiktā vietā un juridiskajā personā.
 
-:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Darba slodzes izveide":::
+:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Darba slodzes izveide.":::
 
 > [!TIP]
 > Laika gaitā inkrementāli uzlabojumi tiks pievienoti Mēroga vienību pārvaldnieka pieredzei, lai atvieglotu dzīves cikla pārvaldības operācijas. Pašreizējās versijas specifiskās iespējas ir dokumentētas pievienošanas rokasgrāmatā, kas ir pieejama klientiem, kuri ir pievienošanas procesā sadalītajai hibrīdu tipiloģijai pakalpojumam Supply Chain Management. <!-- KFM: Add a link to the handbook when it is published -->

@@ -13,12 +13,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 141d58c2183c386584b0b974f4997e7a81ef3109
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b9d072914b5effdd733ec2c18e4ada877f932ba8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749990"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350164"
 ---
 # <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a>Relatīva ceļa lietošana ER modeļu un formātu datu saistījumiem
 
@@ -31,20 +31,20 @@ Elektronisko pārskatu veidošanas (Electronic reporting — ER) rīks ļauj li
 
 Lai uzlabotu ER kartēšanas noformētāju lietojamību, ir izlaists [relatīvā ceļa](er-formula-language.md#relative-path) līdzeklis. Pēc noklusējuma relatīvā ceļa rādīšanas opcija ir ieslēgta visām jaunajām programmas instancēm, kur ir iespējota ER noformējuma funkcionalitāte (Microsoft Dynamics 365 Finance, Microsoft Regulatory Configuration Service). Mēs ieviesām relatīvā ceļa parametru, lai lietotāji varētu turpināt izmantot pilno ceļu, strādājot ar šo ER saistījumu attēlojumu.
 
-[![Lietotāja parametri](./media/relative-path-01.png)](./media/relative-path-01.png)
+[![Lietotāja parametri.](./media/relative-path-01.png)](./media/relative-path-01.png)
 
  
 Kad ir ieslēgts relatīvā ceļa lietošanas parametrs, ceļu uz vecākelementa vienumu pašreizējā modeļa elementa saistījumā aizstāj viena rakstzīme @. Viss saistījuma ceļš kļūst īsāks, līdz ar to viss kartējums ir skaidrāks un saprotamāks. Vairumā gadījumu ER noformētājā nav nepieciešams veikt papildu ritināšanu, lai skatītu visus datu modeļa saistījumus.
 
-[![Modeļa kartējuma noformētājs](./media/relative-path-02.png)](./media/relative-path-02.png)
+[![Modeļa kartējuma noformētājs.](./media/relative-path-02.png)](./media/relative-path-02.png)
  
 Kad sākat noformēt jaunu ER izteiksmi, ir jāievada tikai viena rakstzīme, lai definētu saistījumu ar kādu vecākelementa vienuma lauku.
 
-[![Formulas veidotājs](./media/relative-path-03.png)](./media/relative-path-03.png)
+[![Formulas veidotājs.](./media/relative-path-03.png)](./media/relative-path-03.png)
  
 Kad vecākelementa modeļa vienumam izlemjat mainīt datu avotu, ja izmantojat absolūto ceļu, jums šim modeļa vienumam, kā arī visiem ligzdotajiem vienumiem, ir manuāli jāmaina piesaiste uz jaunu datu avotu. Ja ir ieslēgta relatīvā ceļa lietošana un jūs atlasāt jaunu datu avotu, kas ir jāsaista ar kādu vecākelementa vienumu, jums tiek piedāvāta opcija visiem šajā vecākelementa vienumā ligzdotajiem elementiem ar vienu klikšķi mainīt piesaisti automātiski.
 
-[![Ziņojums par esoša ceļa aizstāšanu](./media/relative-path-04.png)](./media/relative-path-04.png)
+[![Ziņojums par esoša ceļa aizstāšanu.](./media/relative-path-04.png)](./media/relative-path-04.png)
  
 Ja apstiprināt ligzdoto vienumu piesaistes maiņu, jaunais vecākelementa vienums tiks ievietots visu to ligzdoto vienumu ceļā, kuros ir pastāvošais vecākelementa vienums.
 Šis līdzeklis nesabojā ER struktūras atpakaļsaderību. Visas iepriekš izveidotās ER konfigurācijas darbosies ar šo jauno līdzekli, un nav jāveic nekāda jaunināšana vai konvertēšana.

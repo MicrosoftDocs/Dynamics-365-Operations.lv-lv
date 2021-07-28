@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 8c2ae3368db47363a65e8ecd6317bb0432829802
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ccad9c55c0200d008525c7d3fdaeeef99b7eecfb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748829"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350744"
 ---
 # <a name="general-troubleshooting"></a>Vispārējā problēmu novēršana
 
@@ -44,16 +44,16 @@ Pēc pakotnes izvietošanas rīka instalēšanas, instalējiet risinājumu pakot
 
 1. Lejupielādējiet jaunāko risinājumu pakotnes failu no Yammer.com. Kad pakotnes ZIP fails ir lejupielādēts, ar peles labo pogu noklikšķiniet uz tā un atlasiet **Rekvizīti**. Atzīmējiet izvēles rūtiņu **Atbloķēt** un pēc tam atlasiet **Piemērot**. Ja nav redzama izvēles rūtiņa **Atbloķēt**, ZIP fails jau ir atbloķēts, un šo darbību var izlaist.
 
-    ![Rekvizītu dialoglodziņš](media/unblock_option.png)
+    ![Rekvizītu dialoglodziņš.](media/unblock_option.png)
 
 2. Izvelciet pakotnes ZIP failu un iekopējiet visus failus mapē **Dynamics365FinanceAndOperationsCommon. ackageDeployer. 2.0.438**.
 
-    ![Mapes Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438 saturs](media/extract_package.png)
+    ![Mapes Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438 saturs.](media/extract_package.png)
 
 3. Ielīmējiet visus kopētos failus pakotnes izvietošanas rīka mapē **Rīki**. 
 4. Palaidiet **PackageDeployer.exe**, lai atlasītu Dataverse vidi un instalētu risinājumus.
 
-    ![Rīku mapes saturs](media/paste_copied_files.png)
+    ![Rīku mapes saturs.](media/paste_copied_files.png)
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Spraudņa trasēšanas žurnāla iespējošana un skatīšana Dataverse, lai skatītu kļūdas informāciju
 

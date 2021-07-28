@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d37efef723a7ca5e5f2333ff41cdf8351156e9bb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 393239571de8a8d845107a8a8a151748c6b963c2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821613"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356001"
 ---
 # <a name="fifo-with-physical-value-and-marking"></a>FIFO ar fizisko vērtību un iezīmēšanu
 
@@ -51,7 +51,7 @@ Lietojot FIFO metodi, varat izvēlēties neizmantot FIFO noteikumus. Tā vietā,
 
 Jaunā aprēķinātā vidēja izmaksu cena ietekmē finansiāli atjaunoto darījumu vidējo rādītāju. Sekojošās ilustrācijas parāda FIFO krājumu modeļa ietekmi uz šo darbību sēriju, kad opcija **Iekļaut fizisko vērtību** netiek izmantota. 
 
-![FIFO bez fizisko vērtību iekļaušanas](./media/fifowithoutincludephysicalvalue.gif) 
+![FIFO bez fizisko vērtību iekļaušanas.](./media/fifowithoutincludephysicalvalue.gif) 
 
 **Diagrammas atslēga**
 
@@ -83,7 +83,7 @@ Ja krājumam lapā **Krājumu modeļu grupa** ir atzīmēta izvēles rūtiņa **
 
 Ar darījumu 5b tiks nosegta saņemšanas darbība 1b. Šai izdošanas darbībai būs korekcija USD –11,25 apjomā. Jauna spēkā esošā vidējā izmaksu cena attēlo finansiāli vai fiziski atjaunināto darbību vidējo par summu USD 27,50. Sekojošā ilustrācija parāda FIFO krājumu modeļa ietekmi uz šo darbību sēriju, kad tiek izmantota opcija **Iekļaut fizisko vērtību**. 
 
-![FIFO ar fizisko vērtību iekļaušanu](./media/fifowithincludephysicalvalue.gif) 
+![FIFO ar fizisko vērtību iekļaušanu.](./media/fifowithincludephysicalvalue.gif) 
 
 **Diagrammas atslēga**
 
@@ -115,7 +115,7 @@ Atzīmēšana ir process, kas sniedz iespēju izdošanas transakciju saistīt je
 
 Jauna spēkā esošā vidējā izmaksu cena attēlo finansiāli vai fiziski atjaunināto darbību vidējo par summu USD 27,50. Sekojošajā ilustrācijā redzama šī darījumu sērija ar ietekmi, ko rada FIFO krājumu modeļa izvēle ar nozīmēšanu starp izsniegšanas un saņemšanas darījumiem. 
 
-![FIFO ar apzīmējumu](./media/fifowithmarking.gif) 
+![FIFO ar apzīmējumu.](./media/fifowithmarking.gif) 
 
 **Diagrammas atslēga**
 

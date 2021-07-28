@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df08bdffb2bda67269eec9f1572bd76af9ae1e11
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2da54d147c7e9c8a42ef9de94abcbe7f36c98295
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747181"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355752"
 ---
 # <a name="actions-in-workflow-approval-processes"></a>Darbības darbplūsmas apstiprināšanas procesos
 
@@ -29,7 +29,7 @@ ms.locfileid: "5747181"
 
 Darbplūsma var ietvert vairākas cilvēku grupas: iniciatoru, uzdevuma veicējus, lēmumu pieņēmējus un apstiprinātājus. Piemēram, nākamajā izdevumu atskaites darbplūsmā Sems ir iniciators, rindas dalībnieki ir uzdevumu veicēji, Džons ir lēmumu pieņēmējs, bet Frenks, Sjū un Anna ir apstiprinātāji.
 
-[![Darbplūsma\_WithManualDecision](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif)
+[![Darbplūsma\_WithManualDecision.](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif)
 
 Nākamajās sadaļās ir skaidrotas darbplūsmas darbības, ko var veikt katra no šīm grupām.
 

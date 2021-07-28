@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: f7f80928e1d3f5d4892f72d4bd2fd09b70a26c1f
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: ddee15c28455dc1736e37ff6132e1360e2d135ac
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270711"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351944"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>Elektronisko pārskatu uzlabotās formulas redaktors
 
@@ -45,7 +45,7 @@ Veiciet tālāk norādītās darbības, lai sāktu izmantot uzlabotās formulas 
 2.  Lapas **Konfigurācijas** darbību rūtī, cilnē **Konfigurācijas**, grupā **Papildu iestatījumi** atlasiet vienumu **Lietotāja parametri**.
 3.  Dialoglodziņā **Lietotāja parametri** sadaļā **Izpildes izsekošana** iestatiet parametru **Iespējot uzlabotās formulas redaktoru** uz **Jā**.
 
-[![Lietotāja parametru dialoglodziņš, Iespējot izcelto papildu formulas redaktora parametru](./media/ER-AdvEditor-Activate.png)](./media/ER-AdvEditor-Activate.png)
+[![Lietotāja parametru dialoglodziņš, Iespējot izcelto papildu formulas redaktora parametru.](./media/ER-AdvEditor-Activate.png)](./media/ER-AdvEditor-Activate.png)
 
 > [!NOTE]
 > Ņemiet vērā, ka šis parametrs ir lietotājam raksturīgs un uzņēmumam raksturīgs.
@@ -58,7 +58,7 @@ Sākot ar Microsoft Dynamics 365 Finance versiju 10.0.19, varat kontrolēt, kur�
 4.  Lapas **Konfigurācijas** darbību rūtī, cilnē **Konfigurācijas**, grupā **Papildu iestatījumi** atlasiet vienumu **Lietotāja parametri**.
 5.  Dialoglodziņā **Lietotāja parametri** atrodiet parametru **Atspējot papildu formulas redaktoru** un pārbaudiet, vai tas ir iestatīts uz **Nē**.
 
-[![Lietotāja parametru dialoglodziņš, Atspējot izcelto papildu formulas redaktora parametru](./media/ER-AdvEditor-Activate2.png)](./media/ER-AdvEditor-Activate2.png)
+[![Lietotāja parametru dialoglodziņš, Atspējot izcelto papildu formulas redaktora parametru.](./media/ER-AdvEditor-Activate2.png)](./media/ER-AdvEditor-Activate2.png)
 
 > [!NOTE]
 > Parametru vērtības **Iespējot papildu formulas redaktoru** un **Atspējot papildu formulas redaktoru** tiek paturētas atsevišķi katram lietotājam un tiek piedāvātas dialoglodziņā **Lietotāja parametri** atkarībā no līdzekļa **Iestatīt ER papildu formulas redaktoru kā noklusējuma redaktoru visiem lietotājiem** statusa.
@@ -67,7 +67,7 @@ Sākot ar Microsoft Dynamics 365 Finance versiju 10.0.19, varat kontrolēt, kur�
 
 Kad rakstāt kompleksu izteiksmi, kas sastāv no vairākām koda rindām, jaunas ievadītas rindas atkāpe būs atbilstoša iepriekšējās rindas atkāpei. Varat atlasīt rindas un mainīt to atkāpes, ierakstot **Cilne** vai **Shift+Tab**.
 
-[![ER formulas redaktora gif, kas rāda rindu atlasi un atkāpes mainīšanas rādīšanu](./media/ER-AdvEditor-Indentation.gif)](./media/ER-AdvEditor-Indentation.gif)
+[![ER formulas redaktora gif, kas rāda rindu atlasi un atkāpes mainīšanas rādīšanu.](./media/ER-AdvEditor-Indentation.gif)](./media/ER-AdvEditor-Indentation.gif)
 
 Izmantojot autoformatēšanu, varat saglabāt visu izteiksmi labi formatētu, kas atvieglos turpmāku uzturēšanu un vienkāršos konfigurētās loģikas izpratni.
 
@@ -75,7 +75,7 @@ Izmantojot autoformatēšanu, varat saglabāt visu izteiksmi labi formatētu, ka
 
 Redaktors nodrošina vārdu pabeigšanu, kas palīdz ātrāk uzrakstīt izteiksmi un izvairīties no iespiedkļūdām. Kad sākat pievienot jaunu tekstu, redaktors automātiski piedāvā to funkciju sarakstu, kas tiek atbalstītas ER funkcijās, kuras satur ievadītās rakstzīmes. Varat arī jebkurā konfigurētās izteiksmes vietā aktivizēt IntelliSense, ievadot **Ctrl+Atstarpe**.
 
-[![ER formulas redaktora gif, kas rāda trigeru IntelliSense](./media/ER-AdvEditor-Intelisense.gif)](./media/ER-AdvEditor-Intelisense.gif)
+[![ER formulas redaktora gif, kas rāda trigeru IntelliSense.](./media/ER-AdvEditor-Intelisense.gif)](./media/ER-AdvEditor-Intelisense.gif)
 
 ## <a name=""></a><a name="CodeCompletion">Kodu pabeigšana</a>
 
@@ -85,7 +85,7 @@ Redaktors automātiski nodrošina koda pabeigšanu, veicot tālāk minētās dar
 - Ievietojot otro pēdiņu simbolu, kad tiek ierakstīts pirmais, paturot kursoru pēdiņās.
 - Ievietojot otro dubultpēdiņu simbolu, kad tiek ierakstīts pirmais, paturot kursoru pēdiņās.
 
-[![ER formulas redaktora gif, kas automātiski parāda redaktoru, kas nodrošina koda pabeigšanu](./media/ER-AdvEditor-CodeCompletion.gif)](./media/ER-AdvEditor-CodeCompletion.gif)
+[![ER formulas redaktora gif, kas automātiski parāda redaktoru, kas nodrošina koda pabeigšanu.](./media/ER-AdvEditor-CodeCompletion.gif)](./media/ER-AdvEditor-CodeCompletion.gif)
 
 Kad norādāt uz ierakstītajam pēdiņām, šī pāra otrā iekava tiek automātiski iezīmēta, lai parādītu konstrukciju, ko tās atbalsta.
 
@@ -101,7 +101,7 @@ Piemēram, lai pārlēktu uz **8**. rindu, veiciet tālak norādītās darbības
 
 - Piespiediet **F1**, ierakstiet **G**, atlasiet **Doties uz rindu**, ievadiet vērtību **8** un piespiediet **Enter**.
 
-[![ER formulas redaktora gif, kas parāda, kā atrast izteiksmes daļas, izmantojot komandu paleti](./media/ER-AdvEditor-Goto.gif)](./media/ER-AdvEditor-Goto.gif)
+[![ER formulas redaktora gif, kas parāda, kā atrast izteiksmes daļas, izmantojot komandu paleti.](./media/ER-AdvEditor-Goto.gif)](./media/ER-AdvEditor-Goto.gif)
 
 ## <a name=""></a><a name="CodeStructuring">Kodu strukturēšana</a>
 
@@ -123,7 +123,7 @@ Lai salocītu visus reģionus, veiciet tālāk norādītās darbības.
   
 - Piespiediet **F1**, ierakstiet **UN**, atlasiet **Atlocīt visu** un pēc tam piespiediet **Enter**
 
-[![ER formulas redaktora gif, kas rāda kodu, kas tiek izvērsts](./media/ER-AdvEditor-ToggleFold.gif)](./media/ER-AdvEditor-ToggleFold.gif)
+[![ER formulas redaktora gif, kas rāda kodu, kas tiek izvērsts.](./media/ER-AdvEditor-ToggleFold.gif)](./media/ER-AdvEditor-ToggleFold.gif)
 
 ## <a name=""></a><a name="FindAndReplace">Meklēt un aizvietot</a>
 
@@ -151,13 +151,13 @@ Lai izmainītu visus konkrēta teksta gadījumus, atlasiet izteiksmē tekstu un 
   
 - Piespiediet **F1**, ievadiet **C** un pēc tam atlasiet nepieciešamo opciju, lai izmainītu atlasīto tekstu. Ievadiet alternatīvo tekstu.
 
-[![ER formulas redaktora gif, kas rāda atrast un aizstāt](./media/ER-AdvEditor-Find.gif)](./media/ER-AdvEditor-Find.gif)
+[![ER formulas redaktora gif, kas rāda atrast un aizstāt.](./media/ER-AdvEditor-Find.gif)](./media/ER-AdvEditor-Find.gif)
 
 ## <a name=""></a><a name="DataPasting">Datu avoti un funkciju ielīmēšana</a>
 
 Varat atlasīt **Pievienot datu avotu**, kas Ielīmē pašreizējā izteiksmē datu avotu, kas pašlaik ir atlasīts **Datu avota** kreisajā panelī. Līdzīgi varat atlasīt **Pievienot funkciju**, kas ielīmē pašreizējā izteiksmē funkciju, kura pašlaik ir atlasīta **Funkciju** labajā panelī. Ja izmantojat ER formulas redaktoru, atlasītā funkcija vai atlasītais datu avots vienmēr tiks ielīmēts konfigurētās izteiksmes beigās. Ja izmantojat uzlabotās ER formulas redaktoru, atlasītā funkcija vai atlasītais datu avots var tikt ielīmēts jebkurā konfigurētās izteiksmes daļā. Lai norādītu, kur vēlaties ielīmēt datus, būs jāizmanto kursors.
 
-[![ER formulas redaktora gif, kas rāda datu avota pievienošanu un funkcijas ielīmētu](./media/ER-AdvEditor-PasteValue.gif)](./media/ER-AdvEditor-PasteValue.gif)
+[![ER formulas redaktora gif, kas rāda datu avota pievienošanu un funkcijas ielīmētu.](./media/ER-AdvEditor-PasteValue.gif)](./media/ER-AdvEditor-PasteValue.gif)
 
 ## <a name=""></a><a name="SyntaxColorization">Sintakses iekrāsošana</a>
 
@@ -165,7 +165,7 @@ Pašlaik tiek lietotas dažādas krāsas, lai iezīmētu tālāk norādītās iz
 
 - Teksts dubultiekavās, kas var apzīmēt teksta konstantes etiķetes ID.
 
-[![ER formulas redaktors](./media/ER-AdvEditor-SyntaxColorization.png)](./media/ER-AdvEditor-SyntaxColorization.png)
+[![ER formulas redaktors.](./media/ER-AdvEditor-SyntaxColorization.png)](./media/ER-AdvEditor-SyntaxColorization.png)
 
 ## <a name="limitations"></a>Ierobežojumi
 

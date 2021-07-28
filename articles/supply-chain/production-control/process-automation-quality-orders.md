@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: f35adab3075ba810964a41899ba95ae40c115e83
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.openlocfilehash: 0ebb34f58a4bfbe8bda935d7b40e9d89c3dacd03
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115201"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353992"
 ---
 # <a name="invoke-process-automation-flows-to-create-quality-orders"></a>Izsaukt procesa automatizācijas plūsmas, lai izveidotu kvalitātes pasūtījumus
 
@@ -30,7 +30,7 @@ Varat lejupielādēt automatizācijas risinājuma veidni [šeit](https://aka.ms/
 
 Lai apskatītu šo funkciju un tās iespējas, skatiet sekojošo video: [Izmantot RPA, lai izveidotu kvalitātes pasūtījumus programmā Dynamics 365 Supply Chain Management](https://www.youtube.com/watch?v=LFbzJ6-H89w)
 
-![Automatizācijas opcijas ar RPA](media/rpa-automation-options.png "Automatizācijas opcijas ar RPA")
+![Automatizācijas opcijas ar RPA.](media/rpa-automation-options.png "Automatizācijas opcijas ar RPA")
 
 Risinājuma Power Automate veidne ietver mākoņa automatizācijas plūsmu un darbvirsmas automatizācijas plūsmu, kas automatizē kvalitātes pasūtījumu izveidi programmā Supply Chain Management.
 
@@ -38,7 +38,7 @@ Automatizāciju var sākt, reaģējot uz daudziem notikumiem un signāliem, iesk
 
 Risinājuma parametri tiek iekļauti, lai konfigurētu automatizāciju specifiskam lietošanas gadījumam ražošanas iestādē.
 
-![Izveidot kvalitātes pārbaudes pasūtījumu](media/rpa-create-quality-roder.png "Izveidot kvalitātes pārbaudes pasūtījumu")
+![Izveidot kvalitātes pārbaudes pasūtījumu.](media/rpa-create-quality-roder.png "Izveidot kvalitātes pārbaudes pasūtījumu")
 
 Pilnu detalizēto rokasgrāmatu par to, kā lejupielādēt, instalēt un izmantot parauga risinājumu kvalitātes pasūtījuma izveides automatizēšanai, skatiet [Kvalitātes pasūtījuma izveides automatizēšana programmā Dynamics 365 Supply Chain Management ar Robotizēto procesu automatizāciju, izmantojot Power Automate Desktop](/power-automate/desktop-flows/dynamics365-scm-rpa).
 

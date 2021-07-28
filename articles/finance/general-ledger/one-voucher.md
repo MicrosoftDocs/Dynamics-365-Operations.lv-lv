@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 8229dc84040b1f3bd46d75c13795f0dc9b7e71f1
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 105fdc1b8e8c9e30c0d305894910194591707193
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897772"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356707"
 ---
 # <a name="one-voucher"></a>Viens dokuments
 
@@ -33,18 +33,18 @@ Esošā funkcionalitāte jums ļauj finanšu žurnālos (vispārējā žurnālā
 
 - Iestatiet žurnāla nosaukumu (**Virsgrāmata** \> **Žurnāla iestatīšana** \> **Žurnālu nosaukumi**) tā, lai lauks **Jauns dokuments** būtu iestatīts uz **Tikai viena dokumenta numurs**. Tagad visas rindas, ko pievienojat šim žurnālam, tiek ietvertas tajā pašā dokumentā. Tādēļ šo dokumentu var ievadīt kā vairāku rindu dokumentu, kā tās pašas rindas kontu/korespondējošo kontu vai kā kombināciju.
 
-    [![Atsevišķas rindas](./media/same-line.png)](./media/same-line.png)
+    [![Atsevišķas rindas.](./media/same-line.png)](./media/same-line.png)
 
     > [!IMPORTANT]
     > Viena dokumenta definīcija **neattiecas** uz gadījumiem, kur žurnālu nosaukumi ir iestatīti kā **Tikai viena dokumenta numurs**, bet pēc tam lietotājs ievada dokumentu, kurā ir tikai Virsgrāmatas kontu tipi. Šajā tēmā Viens dokuments nozīmē, ka pastāv viens dokuments, kurā ir vairāki kreditori, debitori, bankas, pamatlīdzekļi vai projekti.
 
 - Ievadiet vairāku rindu dokumentu, kurā nav norādīts korespondējošais konts.
 
-    [![Vairāku rindu dokuments](./media/Multi-line.png)](./media/Multi-line.png)
+    [![Vairāku rindu dokuments.](./media/Multi-line.png)](./media/Multi-line.png)
 
 - Ievadiet dokumentu, kurā gan kontā, gan korespondējošajā kontā ir apakšgrāmatas konta tips, piemēram, **Kreditors**/**Kreditors**, **Debitors**/**Debitors**, **Kreditors**/**Debitors** vai **Banka**/**Banka**.
 
-    [![Apakšgrāmatas dokuments](./media/subledger.png)](./media/subledger.png)
+    [![Apakšgrāmatas dokuments.](./media/subledger.png)](./media/subledger.png)
 
 ## <a name="issues-with-one-voucher"></a>Funkcionalitātes Viens dokuments problēmas
 
@@ -52,11 +52,11 @@ Funkcionalitātē Viens dokuments var rasties problēmas, veicot nosegšanu, apr
 
 Piemēram, jūs iegrāmatojat tālāk norādīto vairāku rindu dokumentu.
 
-[![Vairāku rindu dokumenta piemērs](./media/example.png)](./media/example.png)
+[![Vairāku rindu dokumenta piemērs.](./media/example.png)](./media/example.png)
 
 Pēc tam ģenerējat pārskatu **Izdevumi pēc kreditora** darbvietā **Finanšu ieskati**. Šajā pārskatā izdevumu konta bilances tiek grupētas pēc kreditoru grupas un pēc tam — pēc kreditora. Kad tiek ģenerēts pārskats, sistēma nevar noteikt, kuras kreditoru grupas/kreditori ir radījuši izdevumus 250,00 apmērā. Tā kā trūkst transakcijas datu, sistēma pieņem, ka visus izdevumus 250,00 apmērā izraisīja pirmais dokumentā atrodamais kreditors. Tādēļ izdevumu summa 250,00, kas ir ietverta galvenā konta 600120 bilancē, tiek rādīta pie attiecīgās kreditoru grupas/kreditora. Taču ir ļoti iespējams, ka pirmais dokumentā atrodamais kreditors nav īstais kreditors. Tādēļ pārskats, visticamāk, ir nepareizs.
 
-[![Pārskats Izdevumi pēc kreditora](./media/expenses.png)](./media/expenses.png)
+[![Pārskats Izdevumi pēc kreditora.](./media/expenses.png)](./media/expenses.png)
 
 ## <a name="the-future-of-one-voucher"></a>Funkcionalitātes Viens dokuments turpmākais izmantojums
 

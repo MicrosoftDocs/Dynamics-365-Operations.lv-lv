@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage, PurchReqConsolidationPartByVendor, PurchReqConsolidationLineDetail, PurchReqConsolidationCreate, PurchReqConsolidationBulkEdit, PurchReqConsolidationAddLine
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 2174
+ms.custom:
+- "2174"
+- intro-internal
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e067c9df91894c5d2ce05a6afb92d1fadc954531
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: d8bde73d424e72ad66c27decd11a3b866d02b48c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188201"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349798"
 ---
 # <a name="purchase-requisition-overview"></a>Pirkšanas pieprasījuma apskats
 
@@ -47,7 +49,7 @@ Pirkšanas pieprasījuma darbplūsmas procesu var konfigurēt, lai pirkšanas pi
 
 Nākamajā diagrammā ir redzami pirkšanas pieprasījumam un tā rindām piešķirtais statuss atbilstoši to apstrādes gaitai darbplūsmas procesā.  
 
-[![Pirkšanas pieprasījuma virsraksta un rindu statusi](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
+[![Pirkšanas pieprasījuma virsraksta un rindu statusi.](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
 
 ### <a name="purchase-requisition-header-and-line-status-relationships"></a>Pirkšanas pieprasījuma virsraksta un rindu statusa attiecības
 
@@ -65,7 +67,7 @@ Pirkšanas pieprasījuma vispārējo statusu nosaka pirkšanas pieprasījuma rin
 <tr class="odd">
 <td>Melnraksts</td>
 <td>Melnraksts</td>
-<td>Ir izveidots pirkšanas pieprasījums un pirkšanas pieprasījuma rinda, taču tie nav&#39; iesniegti pārskatīšanai. Pirkšanas pieprasījumus un pirkšanas pieprasījuma rindas, kuru statuss ir <strong>Melnraksts</strong>, var modificēt. Pirkšanas pieprasījuma vai pirkšanas pieprasījuma rindas statuss ir <strong>Melnraksts</strong> arī tad, ja pieprasījums vai rinda ir atsaukta, taču na&#39;v atkārtoti iesniegta pārskatīšanai. <strong>Piezīme.</strong> Pirkšanas pieprasījumu var iesniegt vai atsaukt dokumenta līmenī. Taču nevara&#39;t iesniegt vai atsaukt atsevišķu pirkšanas pieprasījuma rindu.</td>
+<td>Ir izveidots pirkšanas pieprasījums un pirkšanas pieprasījuma rinda, taču tie nav&#39;iesniegti pārskatīšanai. Pirkšanas pieprasījumus un pirkšanas pieprasījuma rindas, kuru statuss ir <strong>Melnraksts</strong>, var modificēt. Pirkšanas pieprasījuma vai pirkšanas pieprasījuma rindas statuss ir <strong>Melnraksts</strong> arī tad, ja pieprasījums vai rinda ir atsaukta, taču na&#39;v atkārtoti iesniegta pārskatīšanai. <strong>Piezīme.</strong> Pirkšanas pieprasījumu var iesniegt vai atsaukt dokumenta līmenī. Taču nevara&#39;t iesniegt vai atsaukt atsevišķu pirkšanas pieprasījuma rindu.</td>
 </tr>
 <tr class="even">
 <td>Tiek pārskatīts</td>
@@ -75,8 +77,8 @@ Pirkšanas pieprasījuma vispārējo statusu nosaka pirkšanas pieprasījuma rin
 </ul></td>
 <td>Ja darbplūsma ir konfigurēta tā, lai pirkšanas pieprasījuma rindas tiek virzītas atsevišķiem pārskatītājiem, katras pirkšanas pieprasījuma rindas statuss ir <strong>Notiek pārskatīšana</strong> vai <strong>Atteikts</strong>. Pirkšanas pieprasījuma statuss tiek atjaunināts, kad visu rindu apstrāde pārskatīšanas procesā ir pabeigta un ir veiktas visas pirkšanas pieprasījuma pārskatīšanas darbības.
 <ul>
-<li><strong>Notiek pārskatīšana</strong> — pirkšanas pieprasījuma rindas ir iesniegtas pārskatīšanai. Kad pirkšanas pieprasījuma rindas apstrāde darbplūsmas procesā ir pabeigta, šīs rindas statuss saglabājas <strong>Notiek pārskatīšana</strong>, līdz visas pārējās pirkšanas pieprasījuma rindas ir pārskatītas.</li>
-<li><strong>Atteikts</strong> — pirkšanas pieprasījuma rinda ir atteikta. Atteiktās pirkšanas pieprasījuma rindas var modificēt iesniegt atkārtoti.</li>
+<li><strong>Notiek pārskatīšana</strong> — pirkšanas pieprasījuma rindas ir iesniegtas pārskatīšanai. Kad pirkšanas pieprasījuma rindas apstrāde darbplūsmas procesā ir pabeigta, šīs rindas statuss saglabājas <strong>Notiek pārskatīšana</strong>, līdz visas pārējās pirkšanas pieprasījuma rindas ir pārskatītas.</li>
+<li><strong>Atteikts</strong> — pirkšanas pieprasījuma rinda ir atteikta. Atteiktās pirkšanas pieprasījuma rindas var modificēt iesniegt atkārtoti.</li>
 </ul>
 Ja atteikta pirkšanas pieprasījuma rinda tiek iesniegta vēlreiz, pārskatīšanas process tiek sākts vēlreiz visām pirkšanas pieprasījuma rindām, kas vēl tiek pārskatītas. </br><strong>Piezīme:</strong> jau iesniegtu pirkšanas pieprasījumu var atsaukt. Ja pirkšanas pieprasījums tiek atsaukts, atsauktas tiek arī visas pārējās pirkšanas pieprasījuma rindas. Atsauktas pirkšanas pieprasījuma rindas var dzēst.</td>
 </tr>
@@ -94,9 +96,9 @@ Ja atteikta pirkšanas pieprasījuma rinda tiek iesniegta vēlreiz, pārskatīš
 </ul></td>
 <td>Visu pirkšanas pieprasījuma rindu apstrāde pārskatīšanas procesā ir pabeigta un ir veiktas visas pirkšanas pieprasījuma pārskatīšanas darbības.
 <ul>
-<li><strong>Apstiprināts</strong> — pirkšanas pieprasījuma rindu apstrāde pārskatīšanas procesā ir pabeigta, un rinda ir apstiprināta.</li>
-<li><strong>Atcelts</strong> — pirkšanas pieprasījuma rinda ir tikusi apstiprināta, taču tā ir atcelta, jo t&#39;ā vairs nav vajadzīga. Anulēt var tikai apstiprinātas pirkšanas pieprasījuma rindas.</li>
-<li><strong>Slēgts</strong> — pirkšanas pieprasījuma rinda ir apstiprināta un dokuments ir izveidots atbilstoši pieprasījuma mērķim.
+<li><strong>Apstiprināts</strong> — pirkšanas pieprasījuma rindu apstrāde pārskatīšanas procesā ir pabeigta, un rinda ir apstiprināta.</li>
+<li><strong>Atcelts</strong> — pirkšanas pieprasījuma rinda ir tikusi apstiprināta, taču tā ir atcelta, jo t&#39;ā vairs nav vajadzīga. Anulēt var tikai apstiprinātas pirkšanas pieprasījuma rindas.</li>
+<li><strong>Slēgts</strong> — pirkšanas pieprasījuma rinda ir apstiprināta un dokuments ir izveidots atbilstoši pieprasījuma mērķim.
 <ul>
 <li>Ja pieprasījuma mērķis ir patēriņš, pirkšanas pasūtījuma rindai tiek ģenerēts pirkšanas pieprasījums.</li>
 <li>Ja pieprasījuma mērķis ir papildināšana, tiek ģenerēts viens vai vairāki izpildes dokumenti.</li>
@@ -121,7 +123,7 @@ Ja atteikta pirkšanas pieprasījuma rinda tiek iesniegta vēlreiz, pārskatīš
 <li>Ja pieprasījuma mērķis ir patēriņš, pirkšanas pasūtījuma rindai tiek ģenerēts pirkšanas pieprasījums.</li>
 <li>Ja pieprasījuma mērķis ir papildināšana, tiek ģenerēts viens vai vairāki izpildes dokumenti.</li>
 </ul></li>
-<li><strong>Atcelts</strong> — pirkšanas pieprasījuma rinda ir tikusi apstiprināta, taču tā ir atcelta, jo t&#39;ā vairs nav vajadzīga. Anulēt var tikai apstiprinātas pirkšanas pieprasījuma rindas.</li>
+<li><strong>Atcelts</strong> — pirkšanas pieprasījuma rinda ir tikusi apstiprināta, taču tā ir atcelta, jo t&#39;ā vairs nav vajadzīga. Anulēt var tikai apstiprinātas pirkšanas pieprasījuma rindas.</li>
 </ul>
 <strong>Piezīme.</strong> Ja slēgtajā pirkšanas pieprasījuma rindā minētā prece vairs nav vajadzīga, rinda ir jāanulē šai pirkšanas pieprasījuma rindai izveidotajā izpildes dokumentā.</td>
 </tr>
@@ -179,7 +181,7 @@ Lai izveidotu to pirkšanas pieprasījuma rindu pirkšanas pasūtījumu, kuras n
 
 Vajadzību konsolidācijas process sākas brīdī, kad darbplūsmā tiek apstiprināts pirkšanas pieprasījums un, ja programmā ir konfigurēta jūsu organizācijas budžeta kontrole, kad tiek ierakstītas budžeta rezervācijas un apgrūtinājumi bez juridiskām saistībām. Tālāk norādītajā diagrammā ir attēlota vajadzību konsolidācijas procesa gaita.  
 
-[![Pieprasījuma konsolidācijas procesa plūsma](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
+[![Pieprasījuma konsolidācijas procesa plūsma.](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
 
 Lai konsolidētu apstiprinātās pirkšanas pieprasījuma rindas, rīkojieties šādi:
 

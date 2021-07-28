@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 38a616c418c3b32490c9adaf69a69af0d47d3478
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 892f8001c52cd40d748c81f27c2f83618b84e5c2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019450"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350406"
 ---
 # <a name="set-up-an-e-commerce-development-environment-to-debug-against-a-tier-1-retail-server-virtual-machine"></a>E-komercijas izstrādes vides iestatīšana, lai atkļūdotu, izmantojot 1. līmeņa Retail Server virtuālo mašīnu
 
@@ -38,11 +38,11 @@ Kad atkļūdojat, izmantojot 1. līmeņa vidi, jo vietne tagad izsauc citu Reta
 
 Attēlā zemāk parādīts kļūdas piemērs, kura var rasties, ja preču informācijas lapā ir atlasīts variants.
 
-![Kļūda, ja preču informācijas lapā ir atlasīts variants](media/unhandled-rejection-error.jpg)
+![Kļūda, ja preču informācijas lapā ir atlasīts variants.](media/unhandled-rejection-error.jpg)
 
 Attēlā zemāk ir parādīts līdzīgas kļūdas piemērs pārlūka atkļūdotāja rīkos (F12 izstrādātāja rīki). Kļūdas ziņojumā minēts satura drošības politikas direktīvas pārkāpums.
 
-![Atkļūdotāja rīku kļūda](media/debugger-tools-error.JPG)
+![Atkļūdotāja rīku kļūda.](media/debugger-tools-error.JPG)
 
 ## <a name="resolution"></a>Novēršana
 

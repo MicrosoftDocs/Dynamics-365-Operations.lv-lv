@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 6e0a6a05fcb4afb8c8965e25c3089bc1b3d98431
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 70e57a928ecd3f5d10ebd3d0fc3f52870d40fcd9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023413"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358174"
 ---
 # <a name="set-up-tax-components-for-the-tds-tax-type"></a>Nodokļu komponentu iestatīšana TDS nodokļu veidam
 
@@ -33,7 +33,7 @@ Lai iestatītu TDS komponentus, rīkojieties šādi.
 
 1. Atveriet **Nodoklis \> Iestatīšana \> Ieturētais nodoklis \> Ieturētā nodokļa komponenti**.
 
-    [![Ieturētā nodokļa komponentu lapa](./media/apac-ind-TDS-9.png)](./media/apac-ind-TDS-9.png)
+    [![Ieturētā nodokļa komponentu lapa.](./media/apac-ind-TDS-9.png)](./media/apac-ind-TDS-9.png)
 
 2. Laukā **Nodokļu tips** atlasiet **TDS**, lai iestatītu ieturētā nodokļa komponentus TDS nodokļa tipam.
 3. Lai izveidotu rindu, darbību rūtī atlasiet **Jauns**.
@@ -50,7 +50,7 @@ Lai iestatītu TDS komponentus, rīkojieties šādi.
 
     Piemēram, ja izņēmuma sliekšņa summa ir 5000, TDS tiek aprēķināts uz noteiktu rēķina rindu, ja rēķina rindas summa pārsniedz 5000 (citiem vārdiem, ja tas ir 5001 vai vairāk).
 
-    [![Sliekšņa lapa](./media/apac-ind-TDS-10.png)](./media/apac-ind-TDS-10.png)
+    [![Sliekšņa lapa.](./media/apac-ind-TDS-10.png)](./media/apac-ind-TDS-10.png)
 
     > [!NOTE]
     > Izņēmuma sliekšņa summai ir jābūt mazākai par sliekšņa summu vai vienādai ar to.
@@ -66,6 +66,6 @@ Lai iestatītu TDS komponentus, rīkojieties šādi.
 
 14. Atlasiet **Labi**, lai kopētu un izveidotu TDS komponentus citai TDS komponentu grupai **Ieturētā nodokļa komponentu** lapā.
 
-    [![Kopēt ieturētā nodokļa komponentu dialoglodziņu](./media/apac-ind-TDS-11.png)](./media/apac-ind-TDS-11.png)
+    [![Kopēt ieturētā nodokļa komponentu dialoglodziņu.](./media/apac-ind-TDS-11.png)](./media/apac-ind-TDS-11.png)
 
 15. Aizvērt lapu.

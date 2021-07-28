@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 18556e35d63ea20b181c525b758788dc0f89f701
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f3e01dd85cbe8e2b2c9095431f3e0aead817a5a5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842229"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352766"
 ---
 # <a name="procurement"></a>Sagāde
 
@@ -36,10 +36,10 @@ Saraksta lapā **Darba pasūtījuma pirkšanas pieprasījums** (**Līdzekļu pā
 
 Attēlā tālāk ir parādīts sarakstu lapas **Darba pasūtījumu pirkšanas pieprasījums** piemērs.
 
-![1. attēls](media/08-work-orders.png)
+![1. attēls.](media/08-work-orders.png)
 
 
-Saraksta lapā **Darba pasūtījuma pirkšana** (**Līdzekļu pārvaldība**  > **Vispārīgi** > **Sagāde** > **Darba pasūtījuma pirkšana**) tiek parādīti pirkšanas pieprasījumi, kas saistīti ar darba pasūtījumiem. Kad šajā lapā atlasāt darba pasūtījuma uzdevumu, varat izmantot pogas grupā **Rādīt** **Darba pasūtījuma pirkšana** darbības rūtī, lai veiktu dažādas darbības:
+Saraksta lapā **Darba pasūtījuma pirkšana** (**Līdzekļu pārvaldība** > **Vispārīgi** > **Sagāde** > **Darba pasūtījuma pirkšana**) tiek parādīti pirkšanas pieprasījumi, kas saistīti ar darba pasūtījumiem. Kad šajā lapā atlasāt darba pasūtījuma uzdevumu, varat izmantot pogas grupā **Rādīt** **Darba pasūtījuma pirkšana** darbības rūtī, lai veiktu dažādas darbības:
 
 - Lai atvērtu saistīto pirkšanas pasūtījumu, atlasiet **Pirkšanas pasūtījums**. 
 - Lai atvērtu saistīto darba pasūtījumu, atlasiet **Darba pasūtījums**.
@@ -47,7 +47,7 @@ Saraksta lapā **Darba pasūtījuma pirkšana** (**Līdzekļu pārvaldība**  > 
 
 Attēlā tālāk ir parādīts sarakstu lapas **Darba pasūtījumu pirkšanas** piemērs.
 
-![2. attēls](media/09-work-orders.png)
+![2. attēls.](media/09-work-orders.png)
 
 
 Gan **Darba pasūtījuma pirkšanas** saraksta lapā, gan **Darba pasūtījuma pirkšanas pieprasījuma** saraksta lapā, simbols, kas ir saistīts ar saņemšanas datuma kontroli, parādās katras rindas labajā pusē. Ja simbols ir izsaukuma zīme sarkanā aplī, saistītā pirkšanas pasūtījuma vai pirkšanas pieprasījuma piegāde var tikt kavēta.
@@ -93,7 +93,7 @@ Lai skatītu vai ievadītu aktivitātes numuru, kas saistīts ar pirkšanas pas�
 
 Ilustrācijā ir redzams **Pirkšanas pasūtījuma** lapas piemērs ar uzsvaru uz **Aktivitātes numuru**.
 
-![3. attēls](media/10-work-orders.png)
+![3. attēls.](media/10-work-orders.png)
 
 Lai skatītu vai ievadītu aktivitātes numuru, kas saistīts ar Darba pasūtījuma pirkšanas pieprasījuma rindu, saraksta lapā **Darba pasūtījuma pirkšanas pieprasījums** atlasiet pirkšanas pieprasījuma ierakstu un pēc tam kolonnā **Pirkšanas pieprasījums** atlasiet saiti pirkšanas pieprasījumam. Jūs varat atrast **Aktivitātes numuru** lauku cilnē **Projekts**, kas atrodas **Rindas detaļas** kopsavilkuma cilnē.
 

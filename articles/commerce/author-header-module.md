@@ -2,7 +2,7 @@
 title: Galvenes modulis
 description: Šajā tēmā aplūkoti galvenes moduļi un aprakstīta lapu galveņu izveide risinājumā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 10/20/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6b14178431b281daa827749781dd16481f8bfb74
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 21bf454e57c62a2542ed055bb0913c48ab70e235
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799919"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479260"
 ---
 # <a name="header-module"></a>Galvenes modulis
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Šajā tēmā aplūkoti galvenes moduļi un aprakstīta lapu galveņu izveide risinājumā Microsoft Dynamics 365 Commerce.
 
@@ -33,7 +34,7 @@ Galvenes modulī ir iekļauts vietnes logotips, saites uz navigācijas hierarhij
 
 Attēlā zemāk redzams galvenes moduļa piemērs sākumlapā.
 
-![Galvenes moduļa piemērs](./media/ecommerce-header.png)
+![Galvenes moduļa piemērs.](./media/ecommerce-header.png)
 
 ## <a name="properties-of-a-header-module"></a>Galvenes moduļa rekvizīti
 
@@ -58,9 +59,16 @@ Rekvizīts **Mana konta saites** var tikt izmantots, lai definētu konta lapas, 
 - **Veikalu atlasītājs** — veikalu atlasītāja moduli var iekļaut galvenes moduļa veikalu atlasītāja slotā. Tas ļauj lietotājiem pārlūkot un atrast tuvumā esošos veikalus. Lietotāji var arī norādīt vēlamo veikalu. Šis veikals pēc tam būs redzams galvenē. Kad veikalu atlasītāja modulis ir iekļauts galvenes modulī, tā rekvizītam **Režīms** jābūt iestatītam uz **Atrast veikalus**. Plašāku informāciju skatiet sadaļā [Veikalu atlasītāja modulis](store-selector.md).
 
 > [!NOTE]
-> - Atbalsts groza ikonas moduļa izmantošanai galvenes moduļos ir pieejams Dynamics 365 Commerce 10.0.11 laidienā.
-> - Atbalsts vietas atlasītāja moduļa izmantošanai galvenes moduļos ir pieejams Dynamics 365 Commerce 10.0.14 laidienā.
-> - Atbalsts veikalu atlasītāja moduļa izmantošanai galvenes moduļos ir pieejams Dynamics 365 Commerce 10.0.15 laidienā.
+> - Atbalsts groza ikonas moduļa izmantošanai galvenes moduļos ir pieejams kā Dynamics 365 Commerce versija 10.0.11 laidienā.
+> - Atbalsts vietnes atlasītāja moduļa izmantošanai galvenes moduļos ir pieejams kā Dynamics 365 Commerce versija 10.0.14 laidienā.
+> - Atbalsts veikala atlasītāja moduļa izmantošanai galvenes moduļos ir pieejams kā Dynamics 365 Commerce versija 10.0.15 laidienā.
+
+## <a name="header-module-in-the-adventure-works-theme"></a>Virsraksta modulis Adventure Works tēmā
+
+Adventure Works tēmā virsraksta modulis atbalsta rekvizītu **Mobilais logotips**. Šis rekvizīts iespējo logotipa norādīšanu mobilajām skatījumu vietām. Rekvizīts **Mobilais logotips** ir pieejams kā moduļa definīcijas paplašinājums.
+
+> [!IMPORTANT]
+> Adventure Works tēma ir pieejama Dynamics 365 Commerce versijas 10.0.20 laidienā.
 
 ## <a name="create-a-header-fragment-for-a-page"></a>Lapas galvenes fragmenta izveide
 

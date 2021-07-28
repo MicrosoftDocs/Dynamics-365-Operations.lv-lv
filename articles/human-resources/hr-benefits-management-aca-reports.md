@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1417232baeaf03721bd0b25cc3f9fd5f750c65d5
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: b8a83982ad36abfe9032cae50fe4f09339985dc8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052269"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353666"
 ---
 # <a name="generate-aca-reports-in-benefits-management"></a>Ģenerēt ACA pārskatus Atvieglojumu pārvaldībā
 
@@ -48,17 +48,17 @@ Pieejamās aprūpes seguma grupas palīdz pārvaldīt šo informāciju vairākie
 
 1. Darbvietā **Atvieglojumu pārvaldība** atlasiet **Pieejamās aprūpes seguma grupa**.
 
-    ![Pieejamās aprūpes seguma grupas atlasīšana](./media/hr-benefits-management-aca-coverage-group.png)
+    ![Pieejamās aprūpes seguma grupas atlasīšana.](./media/hr-benefits-management-aca-coverage-group.png)
 
 2. Atlasiet **Jauns**, lai izveidotu jaunu Pieejamās aprūpes seguma grupu, vai **Rediģēt**, lai mainītu esošo grupu.
 
-    ![Jauns vai Rediģēt atlasīšana](./media/hr-benefits-management-aca-new.png)
+    ![Jauns vai Rediģēt atlasīšana.](./media/hr-benefits-management-aca-new.png)
 
 3. Iestatiet tālāk minētos laukus.
 
     | Lauks | Apraksts |
     |---|---|
-    | Vārds, uzvārds | Ievadiet grupas nosaukumu. |
+    | Nosaukums/vārds, uzvārds | Ievadiet grupas nosaukumu. |
     | Apraksts | Ievadiet grupas aprakstu. |
     | Vajadzību piedāvājums | Segums, kas tiek piedāvāts darbiniekiem, viņu dzīvesbiedram vai partnerim un viņu apgādājamajiem. |
     | Darbinieka izmaksu daļa | Summa, par kuru darbinieks atbildīgs. |
@@ -67,7 +67,7 @@ Pieejamās aprūpes seguma grupas palīdz pārvaldīt šo informāciju vairākie
     | Grupa derīga no | Pirmais datums, kad šis ieraksts ir derīgs. |
     | Grupa derīga līdz | Pēdējais datums, kad šis ieraksts ir derīgs. Ja nav beigu datuma, ievadiet **Nekad**. |
 
-    ![Seguma grupas izveide](./media/hr-benefits-management-aca-new-group.png)
+    ![Seguma grupas izveide.](./media/hr-benefits-management-aca-new-group.png)
 
 4. Atlasiet **Saglabāt**.
 
@@ -77,11 +77,11 @@ Pieejamās aprūpes seguma grupas palīdz pārvaldīt šo informāciju vairākie
 2. Atlasiet grupu, kam piešķirt darbiniekus.
 3. Atlasiet **Masveida piešķire**.
 
-    ![Masveida piešķires atlasīšana](./media/hr-benefits-management-aca-mass-assignment.png)
+    ![Masveida piešķires atlasīšana.](./media/hr-benefits-management-aca-mass-assignment.png)
 
 4. Atlasiet sarakstā darbiniekus un pēc tam atlasiet **Piešķirt**.
 
-    ![Atlasīto darbinieku piešķiršana grupai](./media/hr-benefits-management-aca-assign-coverage-group.png)
+    ![Atlasīto darbinieku piešķiršana grupai.](./media/hr-benefits-management-aca-assign-coverage-group.png)
 
 ## <a name="maintain-multiple-versions-of-coverage-options"></a>Segumu opciju vairāku versiju uzturēšana
 
@@ -111,12 +111,12 @@ Lai ievadītu izņēmumus jebkādām seguma grupas vērtībām, izpildiet tālā
 2. Sarakstā atlasiet darbinieku.
 3. Cilnes **Nodarbinātība** sadaļā **Papildinformācija** atlasiet **Pieejamās aprūpes segums**.
 
-    ![Darbinieka opciju maiņa](./media/hr-benefits-management-aca-change-single-employee.png)
+    ![Darbinieka opciju maiņa.](./media/hr-benefits-management-aca-change-single-employee.png)
 
 4. Atlasiet **Rediģēt**.
 5. Katram mēnesim, kam nepieciešamas izmaiņas, atzīmējiet izvēles rūtiņu **Ignorēt noklusējumu** un pēc tam mainiet pārējās vērtības pēc vajadzības.
 
-    ![Noklusēto vērtību ignorēšana](./media/hr-benefits-management-aca-override-default.png)
+    ![Noklusēto vērtību ignorēšana.](./media/hr-benefits-management-aca-override-default.png)
 
 6. Atlasiet **Saglabāt**.
 
@@ -131,7 +131,7 @@ Lai norādītu, vai jāsniedz pārskats par atvieglojumu plānu, izpildiet tāl�
 3. Atlasiet **Rediģēt**.
 4. Iestatiet opciju **Norādīts pārskatā saskaņā ar Pieejamās aprūpes aktu** uz **Jā**.
 
-    ![Veselības aprūpes seguma ziņošana](./media/hr-benefits-management-aca-report-coverage.png)
+    ![Veselības aprūpes seguma ziņošana.](./media/hr-benefits-management-aca-report-coverage.png)
 
 5. Atlasiet **Saglabāt**.
 
@@ -147,23 +147,23 @@ Ja darbinieks izvēlas apgādājamā veselības aprūpes segumu, apgādājamā s
     > [!NOTE]
     > Ja drukājat formas 1095-C vairāk nekā 500 darbiniekiem, jūs saņemsiet vairāk nekā vienu PDF failu. Iesakām palielināt lauka **Maksimālais faila lielums megabaitos** vērtību lapā **Dokumentu pārvaldības parametri** uz **150**. (Lai ātri atvērtu šo lapu, varat izmantot meklēšanas lauku navigācijas joslā.)
     >
-    > ![Maksimālā faila lieluma maiņa](./media/hr-benefits-management-aca-maximum-file-size.png)
+    > ![Maksimālā faila lieluma maiņa.](./media/hr-benefits-management-aca-maximum-file-size.png)
 
 3. Lai pārbaudītu pārskatu statusu un tos skatītu, izmantojiet meklēšanas lauku navigācijas joslā, lai atvērtu lapu **Elektronisko pārskatu izveides darbi**.
 
-    ![Elektronisko pārskatu izveides darbu lapas meklēšana](./media/hr-benefits-management-aca-search-electronic-reporting-jobs.png)
+    ![Elektronisko pārskatu izveides darbu lapas meklēšana.](./media/hr-benefits-management-aca-search-electronic-reporting-jobs.png)
 
 4. Atlasiet skatāmo pārskatu un pēc tam atlasiet **Rādīt failus**.
 
-    ![Failu rādīšana](./media/hr-benefits-management-aca-show-files.png)
+    ![Failu rādīšana.](./media/hr-benefits-management-aca-show-files.png)
 
 5. Atlasiet **Atvērt**.
 
-    ![Faila atvēršana](./media/hr-benefits-management-aca-open-file.png)
+    ![Faila atvēršana.](./media/hr-benefits-management-aca-open-file.png)
 
 6. No paziņojumu joslas, kas tiek parādīta pārlūkprogrammas loga apakšā, atveriet tilpsaspiesto failu un pēc tam atlasiet pārskatu. Varat apskatīt vai drukāt PDF failu.
 
-    ![Parauga forma 1095-C](./media/hr-benefits-management-aca-1095-c-form.png)
+    ![Parauga forma 1095-C.](./media/hr-benefits-management-aca-1095-c-form.png)
 
 ## <a name="view-aca-coverage-information"></a>ACA seguma informācijas skatīšana
 
@@ -178,7 +178,7 @@ Lai apskatītu šo informāciju, veiciet šādas darbības.
 1. Darbvietā **Atvieglojumu pārvaldība** atlasiet **Darbinieka Pieejamās aprūpes segums**.
 2. Laukā **Grupas nosaukums** atlasiet grupu.
 
-    ![ACA seguma skatīšana](./media/hr-benefits-management-aca-view-coverage.png)
+    ![ACA seguma skatīšana.](./media/hr-benefits-management-aca-view-coverage.png)
 
 Ja kāda no pieejamās aprūpes seguma grupas noklusējuma vērtībām ir pārrakstīta, pie mainītās vērtības tiek rādīta zvaigznīte. Ja vērtības visiem 12 mēnešiem ir vienādas un nav tikušas pārrakstītas, tad vērtība tiek rādīta kolonnā **Visi 12 mēneši**.
 
@@ -198,11 +198,11 @@ Lai eksportētu kādu no sarakstiem uz Microsoft Excel, veiciet tālāk minētā
 
 Ja jums ir jāsniedz pārskats par iekļautajām personām, jo jūs nodrošināt paša apdrošinātu segumu, varat apskatīt visus apgādājamos, kas ietverti atvieglojumu plānos, kuri atzīmēti kā **Norādāmi ACA pārskā**. Darbību rūtī atlasiet **Skatīt apgādājamā segumu**.
 
-![Apgādājamā seguma skatīšana](./media/hr-benefits-management-aca-view-dependent-coverage.png)
+![Apgādājamā seguma skatīšana.](./media/hr-benefits-management-aca-view-dependent-coverage.png)
 
 Tiek rādīta seguma informācija par darbinieka apgādājamiem.
 
-![Apgādājamo segums](./media/hr-benefits-management-aca-dependents.png)
+![Apgādājamo segums.](./media/hr-benefits-management-aca-dependents.png)
 
 > [!NOTE]
 > Lapā tiek rādīti tikai tie atvieglojumu plāni, kas ir atzīmēti kā **Norādāmi ACA pārskatā**.

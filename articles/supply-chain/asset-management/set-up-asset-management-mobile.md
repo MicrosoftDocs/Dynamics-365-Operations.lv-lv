@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: bc170df2fc58ae6b42fbc8834caad0bb7cd16f69
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9c8f202a813520129867b57e660e8d995c20ed87
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837781"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351517"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>Līdzekļu pārvaldības darbvietas izmantošana
 
@@ -47,7 +47,7 @@ Lai līdzekļu pārvaldības līdzekļi būtu pieejami mobilajā programmā Fina
 1. Supply Chain Management atlasiet pogu **Iestatījumi** (ātrumkārbas simbols augšējā labajā stūrī) un izvēlnē atlasiet **Mobilā programma**.
 1. Dialoglodziņā **Pārvaldīt mobilo programmu** atrodiet elementu **Līdzekļu pārvaldība**. Ja tajā ir teksts "Metadatos - nav publicēti", darbalauks vēl nav publicēts. Ja tajā ir teksts "Metadatos - publicēts", darbvieta jau ir publicēta, un jūš varat izlaist šīs procedūras atlikušo daļu.
 
-    ![Pārvaldīt mobilās programmas dialoglodziņu](media/mobile-workspaces.png "Pārvaldīt mobilās programmas dialoglodziņu")
+    ![Pārvaldīt mobilās programmas dialoglodziņu.](media/mobile-workspaces.png "Pārvaldīt mobilās programmas dialoglodziņu")
 
 1. Atlasiet elementu **Līdzekļu pārvaldība** un pēc tam rīkjoslā atlasiet **Publicēt**. Pēc dažām sekundēm jums jāsaņem paziņojums par to, ka darbvietas publicēšana ir veiksmīgi pabeigta. Turklāt elementa tekstam jāmainās uz "Metadatos — publicēts."
 
@@ -60,22 +60,22 @@ Lai līdzekļu pārvaldības līdzekļi būtu pieejami mobilajā programmā Fina
 
 1. Atveriet Finance and Operations (Dynamics 365) programmu. Jāparādās pierakstīšanās lapai. **Pieteikšanās** laukā ievadiet Supply Chain Management URL vai atlasiet neseno URL sarakstā **Jaunākās vides** un pēc tam nospiediet **Savienot**.
 
-    ![Pierakstīšanās lapa](media/mobile-app-sign-in.png "Pierakstīšanās lapa")
+    ![Pierakstīšanās lapa.](media/mobile-app-sign-in.png "Pierakstīšanās lapa")
 
 1. Ja tiek piedāvāts apstiprināt savienojumu, atzīmējiet izvēles rūtiņu **Es saprotu** un pēc tam nospiediet taustiņu **Savienot**.
 1. Lapā **Konta izvēle** izmantojiet Microsoft kontu, lai pieteiktos mobilajā programmā.
 
     Tiek atvērta lapa **Darbvietas**. Tas uzskaita katru mobilo darbvietu, ko publicējusi jūsu Supply Chain Management instance.
 
-    ![Darbvietu saraksts](media/mobile-app-workspaces.png "Darbvietu saraksts")
+    ![Darbvietu saraksts.](media/mobile-app-workspaces.png "Darbvietu saraksts")
 
 1. Ja jāmaina juridiskā persona (uzņēmums), augšējā kreisajā stūrī klikšķiniet pogu Izvēlne (dažreiz tiek saukta par hamburgera pogu) un pēc tam nospiediet **Mainīt uzņēmumu**.
 
-    ![Juridiskās personas maiņa](media/mobile-app-change-comp.png "Juridiskās personas maiņa")
+    ![Juridiskās personas maiņa.](media/mobile-app-change-comp.png "Juridiskās personas maiņa")
 
 1. Lapā **Darbvietas** atlasiet darbvietu, ar kuru vēlaties strādāt, lai to atvērtu.
 
-    ![Līdzekļu pārvaldības mobilā darbvieta](media/mobile-app-asset-workspace.png "Līdzekļu pārvaldības mobilā darbvieta")
+    ![Līdzekļu pārvaldības mobilā darbvieta.](media/mobile-app-asset-workspace.png "Līdzekļu pārvaldības mobilā darbvieta")
 
 ## <a name="work-with-the-asset-management-mobile-workspace"></a>Darbs ar Līdzekļu pārvaldības mobilo darbvietu
 

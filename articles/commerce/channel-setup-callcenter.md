@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e89c63c90aa8d46fd23900897a54165e14fb635d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 34fa845c72f23485a2573d6bb4cf38b66c7adb7c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800667"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351204"
 ---
 # <a name="set-up-a-call-center-channel"></a>Zvanu centra kanāla iestatīšana
 
@@ -54,11 +54,11 @@ Lai izveidotu un konfigurētu jaunu zvanu centra kanālu, veiciet tālāk norād
 
 Tālāk redzamajā attēlā parādīta jauna zvanu centra kanāla izveide.
 
-![Jauns zvanu centra kanāls](media/channel-setup-callcenter-1.png)
+![Jauns zvanu centra kanāls.](media/channel-setup-callcenter-1.png)
 
 Tālāk redzamajā attēlā ir parādīts zvanu centra kanāla piemērs.
 
-![Zvanu centra kanāla piemērs](media/channel-setup-callcenter-2.png)
+![Zvanu centra kanāla piemērs.](media/channel-setup-callcenter-2.png)
 
 ## <a name="additional-channel-setup"></a>Papildu kanāla iestatīšana
 
@@ -66,7 +66,7 @@ Papildu uzdevumi, kas nepieciešami zvanu centra kanāla iestatīšanai, ietver 
 
 Tālāk esošajā attēlā ir parādītas cilnes **Iestatīšana** iestatīšanas opcijas **Piegādes veidi** un **Maksāšanas metodes**.
 
-![Papildu zvanu centra kanāla iestatīšanas darbības](media/channel-setup-callcenter-3.png)
+![Papildu zvanu centra kanāla iestatīšanas darbības.](media/channel-setup-callcenter-3.png)
 
 ### <a name="set-up-payment-methods"></a>Iestatīt maksājuma metodes
 
@@ -81,7 +81,7 @@ Lai iestatītu maksājuma metodes, katram šajā kanālā atbalstītajam maksāj
 
 Tālāk esošajā attēlā ir parādīts skaidras naudas maksājuma piemērs.
 
-![Maksājumu metožu piemērs](media/channel-setup-callcenter-payments.png)
+![Maksājumu metožu piemērs.](media/channel-setup-callcenter-payments.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Iestatiet piegādes veidus
 
@@ -97,7 +97,7 @@ Lai mainītu vai pievienotu piegādes veidu, kas ir jāsaista ar zvanu centra ka
 
 Tālāk redzamajā attēlā parādīts piegādes režīma piemērs.
 
-![Iestatiet piegādes veidus](media/channel-setup-retail-7.png)
+![Iestatiet piegādes veidus.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-channel-users"></a>Kanāla lietotāju iestatīšana
 

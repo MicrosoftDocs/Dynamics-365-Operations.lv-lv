@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: fd48a04612159cbe29a2cc7cafea1c9c4c8745b4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6b46f2d08c8cee14baa1879b4fd2c02a2e0432f1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795433"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357814"
 ---
 # <a name="shipping-address-module"></a>Piegādes adreses modulis
 
@@ -37,11 +37,11 @@ Kaut arī piegādes adreses modulis nenodrošina adrešu validāciju, šī funkc
 
 Ilustrācijā zemāk redzams jauns piegādes adreses moduļa piemērs norēķināšanās lapā.
 
-![Piegādes adreses moduļa piemērs norēķināšanās lapā](./media/ecommerce-shippingaddress.PNG)
+![Piegādes adreses moduļa piemērs norēķināšanās lapā.](./media/ecommerce-shippingaddress.PNG)
 
 ## <a name="module-properties"></a>Moduļa rekvizīti
 
-| Rekvizīta nosaukums | Vērtības | apraksts |
+| Rekvizīta nosaukums | Vērtības | Apraksts |
 |---------------|--------|-------------|
 | Virsraksts | Virsraksta teksts un virsraksta etiķete (**H1**, **H2**, **H3**, **H4**, **H5** vai **H6**) | Izvēles virsraksts piegādes adreses modulim. |
 | Rādīt adreses veidu | **Patiess** vai **Nepatiess** | Ja šis neobligātais rekvizīts ir iestatīts kā **Patiess**, tiks parādīts adreses tips, piemēram, **Sākums** vai **Uzņēmums**. Ja nav norādīts adreses tips, adrese automātiski tiks saglabāta kā **Tips**=**Cits**. |

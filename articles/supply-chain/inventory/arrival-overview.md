@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 274363
+ms.custom:
+- "274363"
+- intro-internal
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 734fbdd6f62c192580029a24844fff78fda8b919
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fdd2995da04aa4752868a84499c81c2c01d80c16
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809594"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360452"
 ---
 # <a name="arrival-overview"></a>Saņemšanas darbību apskats
 
@@ -34,7 +36,7 @@ Lapa **Saņemšanas pārskats** sniedz pārskatu par visiem paredzamajiem ienāk
 ## <a name="business-scenario"></a>Biznesa scenārijs
 Aplūkosim tālāk aprakstīto scenāriju saistībā ar ienākošajiem procesiem.
 
-[![Biznesa scenārijs](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
+[![Biznesa scenārijs.](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
 
 Saņemšanas darbinieks Semijs vēlas zināt, ko paredzēts saņemt šajā dienā. Lapā **Saņemšanas pārskats** Semijs var iegūt pārskatu par pašreizējiem uzdevumiem un aptuvenu novērtējumu par daudzumu, apjomu, svaru, dažādiem pasūtījumu veidiem utt. Pēc tam tiek veikta piegāde vienā no saņemšanas dokiem un Semijs saņem piegādes sarakstu. Lapā **Saņemšanas pārskats** Semijs var veikt šādus uzdevumus:
 
@@ -66,7 +68,7 @@ Lai automātiski izveidotu saņemšanas žurnālus lapā **Saņemšanas pārskat
 
 -   Ir jānorāda žurnāla nosaukums, lai izveidotu žurnālu.
 
-[![Žurnāla nosaukuma norādīšana](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
+[![Žurnāla nosaukuma norādīšana.](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
 
 -   Ja norādāt vērtības laukos **Noliktava** un **Vieta**, šīs vērtības tiek lietotas žurnāla rindās. Ja vērtības netiek norādītas, sistēma izmanto vērtības no dimensijas, kas norādīta krājumu darbībās.
 

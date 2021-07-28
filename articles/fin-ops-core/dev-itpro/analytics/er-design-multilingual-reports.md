@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 50156b8c6b3553b02d092fad9c72e90c1f70ff78
-ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
+ms.openlocfilehash: 48e54c0f7d4bd1b4e1661a5bd1d4c11fd9cec986
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5951989"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351125"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Veidot daudzvalodu pārskatus Elektroniskajos pārskatos
 
@@ -54,11 +54,11 @@ Noformējot ER datu modeli, ER modeļa kartēšanu vai ER formātu, **Tulkošana
 
 Sekojošajā attēlā ir parādīts, kā šis tulkojums tiek veikts rediģējamā ER datu modelī. Šajā piemērā **PurchaseOrder** lauka **Apraksta** atribūts rediģējamam **Rēķinu modelim** tiek tulkots Austrijas vācu (DE-AT) un japāņu (JA) valodās.
 
-![Nodrošina ER etiķetes tulkojumu ER datu modeļa noformētājā](./media/er-multilingual-labels-refer.png)
+![Nodrošina ER etiķetes tulkojumu ER datu modeļa noformētājā.](./media/er-multilingual-labels-refer.png)
 
 Var tulkot tikai etiķešu tekstu etiķetēm, kas atrodas rediģējamā ER komponentā. Piemēram, ja atlasāt opciju **Tulkot** ER modeļa kartēšanas datu avota etiķetes atribūtam un pēc tam izvēlaties ER etiķeti, kas atrodas pamata ER datu modelī, jūs redzēsiet etiķetes saturu, bet to nevarēsiet mainīt. Šādos gadījumos lauks **Tulkotais teksts** nav pieejams, kā parādīts sekojošajā ilustrācijā.
 
-![Piedāvātā ER etiķetes tulkojuma pārskatīšana ER modeļa kartēšanas noformētājā](./media/er-multilingual-labels-refer-mapping.png)
+![Piedāvātā ER etiķetes tulkojuma pārskatīšana ER modeļa kartēšanas noformētājā.](./media/er-multilingual-labels-refer-mapping.png)
 
 > [!NOTE]
 > Jūs nevarat izmantot noformētājus, lai dzēstu etiķeti, kas ievadīta rediģējamā ER komponentā.
@@ -71,19 +71,19 @@ ER etiķetes var tikt attiecinātas uz vairākiem tulkotiem ER komponentu atrib�
 
 Konfigurējot ER datu modeli, varat pievienot tam ER etiķetes. Modeļa vienuma **Etiķetes** un **Apraksta** atribūti, katra modeļa lauks un katra <a id="LinkModelEnum"></a>modeļa uzskaitījuma vērtība var tikt saistīta ar ER etiķeti, kas pievienota ER datu modelim.
 
-![Tiek nodrošināts Apraksts atribūtam ER datu modeļu noformētājā](./media/er-multilingual-labels-refer.png)
+![Tiek nodrošināts Apraksts atribūtam ER datu modeļu noformētājā.](./media/er-multilingual-labels-refer.png)
 
 Kad ER datu modelis ir konfigurēts šādā veidā, tā saturs tiks prezentēts ER datu modeļa noformētāja lietotājiem katrā lietotāja vēlamajā valodā. Tāpēc modeļa uzturēšana ir vienkāršota. Sekojošās ilustrācijās ir parādīts, kā šī funkcionalitāte darbojas lietotājiem, kuri izmanto DE-AT un JA iestatītu kā vēlamo valodu.
 
-![ER datu modeļa noformētāja izkārtojums lietotājam ar DE-AT iestatītu kā vēlamo valodu](./media/er-multilingual-labels-refer-de.png)
+![ER datu modeļa noformētāja izkārtojums lietotājam ar DE-AT iestatītu kā vēlamo valodu.](./media/er-multilingual-labels-refer-de.png)
 
-![ER datu modeļa noformētāja izkārtojums lietotājam ar JA iestatītu kā vēlamo valodu](./media/er-multilingual-labels-refer-ja.png)
+![ER datu modeļa noformētāja izkārtojums lietotājam ar JA iestatītu kā vēlamo valodu.](./media/er-multilingual-labels-refer-ja.png)
 
 ### <a name="model-mapping-component"></a>Modeļa kartēšanas komponents
 
 Tā kā ER modeļa kartēšana balstās uz ER datu modeli, datu modeļa elementu etiķetes tiek parādītas lietotāja vēlamajā valodā modeļa kartēšanas veidotājā. Sekojošajā attēlā ir parādīts, kā ir izskaidrota lauka **PurchaseOrder** nozīme rediģējamā modeļa kartēšanā, izmantojot **Apraksta** atribūta etiķeti, kas ir pievienota konfigurētajam datu modelim. Ievērojiet, ka šī etiķete ir norādīta lietotāja vēlamajā valodā (šajā piemērā DE-AT).
 
-![ER datu kartēšanas noformētāja izkārtojums lietotājam ar DE-AT iestatītu kā vēlamo valodu](./media/er-multilingual-labels-show-mapping.png)
+![ER datu kartēšanas noformētāja izkārtojums lietotājam ar DE-AT iestatītu kā vēlamo valodu.](./media/er-multilingual-labels-show-mapping.png)
 
 Kad **Lietotāja ievades parametru** datu avota **Etiķetes** atribūts ir konfigurēts kā saistīts ar ER etiķeti, parametru lauks, kas atbilst šim datu avotam, tiek parādīts lietotāja dialoglodziņā izpildlaikā lietotājiem vēlamajā valodā.
 
@@ -100,21 +100,21 @@ Tā kā ER formāts balstās uz ER datu modeli, datu modeļa elementu etiķetes 
 
 Kad **Lietotāja ievades parametru** datu avota **Etiķetes** atribūts ir konfigurēts kā saistīts ar ER etiķeti, parametru lauks, kas atbilst parametram lietotāja dialoglodziņā izpildlaikā, tiek parādīts lietotājam kā uzvedne. Sekojošās ilustrācijās ir parādīts, kā var saistīt **Lietotāja ievades parametra** datu avota **Etiķetes** atribūtu noformēšanas laikā uz ER etiķeti, lai lietotājiem tiktu pieprasīts parametrs dažādās lietotāja vēlamajās valodās (tiek rādīts angļu valodā Amerikas Savienotajām valstīm (EN-US) un DE-AT valodām) izpildlaikā.
 
-![Tiek nodrošināts lietotāja ievades parametra atribūtu tulkojums ER operāciju noformētājā](./media/er-multilingual-labels-refer-format.png)
+![Tiek nodrošināts lietotāja ievades parametra atribūtu tulkojums ER operāciju noformētājā.](./media/er-multilingual-labels-refer-format.png)
 
-![ER kreditora maksājumu apstrāde izpildlaikā EN-US lietotāja vēlamajā valodā](./media/er-multilingual-labels-show-runtime-en.png)
+![ER kreditora maksājumu apstrāde izpildlaikā EN-US lietotāja vēlamajā valodā.](./media/er-multilingual-labels-show-runtime-en.png)
 
-![ER kreditora maksājumu apstrāde izpildlaikā DE-AT lietotāja vēlamajā valodā](./media/er-multilingual-labels-show-runtime-de.png)
+![ER kreditora maksājumu apstrāde izpildlaikā DE-AT lietotāja vēlamajā valodā.](./media/er-multilingual-labels-show-runtime-de.png)
 
 ### <a name="expressions"></a>Izteiksmes
 
 Lai varētu izmantot etiķeti ER [izteiksmē](er-formula-language.md), jāizmanto sintakse **@"GER\_LABEL:X"**, kur priedēklis **@** norāda, ka operands attiecas uz etiķeti, **GER\_LABEL** norāda, ka ER etiķete ir iesaistīta, un **X** ir ER etiķetes ID.
 
-![Tiek konfigurētas ER izteiksmes, kas satur atsauci uz ER etiķeti ER formulas noformētājā](./media/er-multilingual-labels-expression1.png)
+![Tiek konfigurētas ER izteiksmes, kas satur atsauci uz ER etiķeti ER formulas noformētājā.](./media/er-multilingual-labels-expression1.png)
 
 Lai atsauktos uz sistēmas (programmas) etiķeti, izmantojiet sintaksi **@"X"**, kur prefikss **@** norāda, ka operands attiecas uz etiķeti, un **X** ir sistēmas etiķetes ID.
 
-![Tiek konfigurētas ER izteiksmes, kas satur atsauci uz programmas etiķeti ER formulas noformētājā](./media/er-multilingual-labels-expression2.png)
+![Tiek konfigurētas ER izteiksmes, kas satur atsauci uz programmas etiķeti ER formulas noformētājā.](./media/er-multilingual-labels-expression2.png)
 
 #### <a name="model-mapping"></a>Modeļa kartēšana
 
@@ -126,19 +126,19 @@ Ja norādītajai etiķetei nav tulkojuma tā formāta izpildes konteksta valodai
 
 ER formāta izpausmi var konfigurēt, izmantojot etiķetes. Kad šis formāts ir palaists, lai ģenerētu izejošo dokumentu, izpildes konteksts ietver valodas kodu. Konfigurēta izteiksmes etiķete tiks aizpildīta ar etiķetes tekstu, kas ir konfigurēts šai konteksta valodai.
 
-![Nodrošina tulkojumu ER rediģējamās izteiksmes ER etiķetei ER formulas noformētājā](./media/er-multilingual-labels-refer-in-expression.png)
+![Nodrošina tulkojumu ER rediģējamās izteiksmes ER etiķetei ER formulas noformētājā.](./media/er-multilingual-labels-refer-in-expression.png)
 
-![Datu saistījuma paraugs, kas attiecas uz ER etiķeti ER operāciju noformētājā](./media/er-multilingual-labels-refer-in-binding.png)
+![Datu saistījuma paraugs, kas attiecas uz ER etiķeti ER operāciju noformētājā.](./media/er-multilingual-labels-refer-in-binding.png)
 
 Varat konfigurēt ER formāta **FAILA** komponentu, lai ģenerētu pārskatu lietotāja vēlamajā valodā.
 
-![Iestatiet FAILA komponentu ER operāciju noformētājā, lai ģenerētu pārskatu lietotāja vēlamajā valodā](./media/er-multilingual-labels-language-context-user.png)
+![Iestatiet FAILA komponentu ER operāciju noformētājā, lai ģenerētu pārskatu lietotāja vēlamajā valodā.](./media/er-multilingual-labels-language-context-user.png)
 
 Ja jūs konfigurējat ER formātu šādā veidā, tad pārskats tiek ģenerēts, izmantojot attiecīgo ER etiķešu tekstu. Sekojošās ilustrācijās ir parādīti pārskatu piemēri EN-US un DE-AT lietotāja valodām.
 
-![Pārskata priekšskatījums, kas ģenerēts EN-US lietotāja vēlamajā valodā](./media/er-multilingual-labels-report-preview-en.png)
+![Pārskata priekšskatījums, kas ģenerēts EN-US lietotāja vēlamajā valodā.](./media/er-multilingual-labels-report-preview-en.png)
 
-![Pārskata priekšskatījums, kas ģenerēts DE-AT lietotāja vēlamajā valodā](./media/er-multilingual-labels-report-preview-de.png)
+![Pārskata priekšskatījums, kas ģenerēts DE-AT lietotāja vēlamajā valodā.](./media/er-multilingual-labels-report-preview-de.png)
 
 Ja norādītajai etiķetei nav tulkojuma tā formāta izpildes konteksta valodai, tā vietā tiek izmantots etiķetes teksts EN-US valodā.
 
@@ -148,16 +148,16 @@ ER atbalsta dažādus veidus, lai norādītu valodu ģenerētajam pārskatam. Ci
 
 - **Uzņēmuma preference** — izveidot pārskatu uzņēmuma noteiktajā valodā.
 
-    ![Ievadiet ER operāciju noformētājā uzņēmuma vēlamo valodu kā ģenerētā pārskata valodu](./media/er-multilingual-labels-language-context-company.png)
+    ![Ievadiet ER operāciju noformētājā uzņēmuma vēlamo valodu kā ģenerētā pārskata valodu.](./media/er-multilingual-labels-language-context-company.png)
 
 - **Lietotāja preference** — izveidot pārskatu lietotāja vēlamajā valodā.
 - **Skaidri definēts** – izveidot pārskatu valodā, kas norādīta izstrādes laikā.
 
-    ![Ievadiet ER operāciju noformētājā izstrādes laikā norādīto valodu kā ģenerētā pārskata valodu](./media/er-multilingual-labels-language-context-fixed.png)
+    ![Ievadiet ER operāciju noformētājā izstrādes laikā norādīto valodu kā ģenerētā pārskata valodu.](./media/er-multilingual-labels-language-context-fixed.png)
 
 - **Definēts izpildlaikā** – izveidot pārskatu valodā, kas norādīta izpildlaikā. Atlasot šo vērtību, laukā **Valoda** konfigurējiet ER izteiksmi, kas atgriež valodas kodu valodai, piemēram, atbilstošā klienta valodu.
 
-    ![Ievadiet ER operāciju noformētājā izpildlaikā norādīto valodu kā ģenerētā pārskata valodu](./media/er-multilingual-labels-language-context-runtime.png)
+    ![Ievadiet ER operāciju noformētājā izpildlaikā norādīto valodu kā ģenerētā pārskata valodu.](./media/er-multilingual-labels-language-context-runtime.png)
 
 ## <a name="culture-specific-formatting"></a>Kultūrai raksturīgais formatējums
 
@@ -165,15 +165,15 @@ ER atbalsta dažādus veidus, lai norādītu kultūru ģenerētajam pārskatam. 
 
 - **Lietotāja preference** - formatējiet vērtības saskaņā ar lietotāja vēlamo kultūru. Šī kultūra ir definēta laukā **Datuma, laika un numura formāts** cilnē **Preferences** lapā **Lietotāja opcijas**.
 
-    ![Lietotāja izvēlētās kultūras definēšana kā ģenerētā pārskata kultūra ER operāciju veidotājā](./media/er-multilingual-labels-culture-context-user-preferred.png)
+    ![Lietotāja izvēlētās kultūras definēšana kā ģenerētā pārskata kultūra ER operāciju veidotājā.](./media/er-multilingual-labels-culture-context-user-preferred.png)
 
 - **Skaidri definēts** - formatējiet vērtības saskaņā ar kultūru, kas ir noteikta dizaina laikā.
 
-    ![Definējiet kultūru, kas projektēšanas laikā norādīta kā ģenerētā ziņojuma kultūra ER operāciju izstrādātājā](./media/er-multilingual-labels-culture-context-fixed.png)
+    ![Definējiet kultūru, kas projektēšanas laikā norādīta kā ģenerētā ziņojuma kultūra ER operāciju izstrādātājā.](./media/er-multilingual-labels-culture-context-fixed.png)
 
 - **Definēts izpildlaikā** - formatējiet vērtības saskaņā ar kultūru, kas ir noteikta izpildlaikā. Ja atlasāt šo vērtību, cilnē **Kartēšana** laukā **Datuma, laika un numura formāts** konfigurējiet ER izteiksmi, kas atgriež kultūras kodu kultūrai, piemēram, attiecīgā debitora kultūrai.
 
-    ![Definējiet kultūru, kas izpildlaikā definēta kā ģenerētā ziņojuma kultūra ER operāciju izstrādātājā](./media/er-multilingual-labels-culture-context-runtime.png)
+    ![Definējiet kultūru, kas izpildlaikā definēta kā ģenerētā ziņojuma kultūra ER operāciju izstrādātājā.](./media/er-multilingual-labels-culture-context-runtime.png)
 
 > [!NOTE]
 > ER komponents, kam definēta noteikta kultūra, iespējams, satur pakārtotos ER komponentus, kas ir konfigurēti teksta vērtības aizpildīšanai. Pēc noklusējuma pamatkomponenta kultūra tiek izmantota šo komponentu vērtību formatēšanai. Jūs varat izmantot šādas iebūvētās ER funkcijas, lai konfigurētu šo komponentu saistījumus un vērtību formatēšanai pielietotu alternatīvu kultūru:
@@ -196,19 +196,19 @@ Kad pievienojat ER etiķeti **Teksta tulkojumam** [rūtī](#TextTranslationPane)
 
 ER komponenta konfigurācija tiek veikta ar to ER konfigurācijas melnraksta versiju, kas atrodas rediģējamā ER komponentā.
 
-![ER konfigurācijas lapa, kas piedāvā piekļuvi konfigurācijas versijai Melnraksta statusā](./media/er-multilingual-labels-configurations.png)
+![ER konfigurācijas lapa, kas piedāvā piekļuvi konfigurācijas versijai Melnraksta statusā.](./media/er-multilingual-labels-configurations.png)
 
 Kā aprakstīts iepriekš šajā tēmā, jūs varat pievienot nepieciešamās ER etiķetes rediģējamā ER komponentā. Šādā veidā var norādīt ER etiķešu tekstu EN-US valodā. Pēc tam varat eksportēt ER komponenta etiķetes, izmantojot iebūvēto ER funkciju. Atlasiet to ER konfigurācijas melnraksta versiju, kas satur rediģējamo ER komponentu un pēc tam atlasiet **Apmainīt \> Eksporta etiķetes**.
 
-![ER konfigurācijas lapa, kas ļauj eksportēt ER etiķetes no atlasītās konfigurācijas versijas](./media/er-multilingual-labels-export.png)
+![ER konfigurācijas lapa, kas ļauj eksportēt ER etiķetes no atlasītās konfigurācijas versijas.](./media/er-multilingual-labels-export.png)
 
 Varat eksportēt vai nu visas etiķetes, vai arī vienas valodas etiķetes, ko norādāt eksportēšanas sākumā. Etiķetes tiek eksportētas kā zip faili, kas satur XML failus. Katrs XML fails satur vienas valodas etiķetes.
 
-![Eksportētā faila paraugs, kas satur ER etiķetes DE-AT valodā](./media/er-multilingual-labels-in-xml.png)
+![Eksportētā faila paraugs, kas satur ER etiķetes DE-AT valodā.](./media/er-multilingual-labels-in-xml.png)
 
 Šis formāts tiek lietots automātiskam etiķešu tulkojumam, ko izmanto ārējie tulkošanas pakalpojumi, piemēram [Dynamics 365 Translation Service](../lifecycle-services/translation-service-overview.md). Kad saņemat tulkotās etiķetes, jūs varat tās importēt atpakaļ uz tās melnraksta versiju, kurā atrodas ER komponenti, kam pieder šīs etiķetes. Atlasiet to ER konfigurācijas melnraksta versiju, kas satur rediģējamo ER komponentu un atlasiet **Apmainīt \> Ielādēt etiķetes**.
 
-![ER konfigurācijas lapa, kas ļauj importēt ER etiķetes uz atlasīto konfigurācijas versiju](./media/er-multilingual-labels-load.png)
+![ER konfigurācijas lapa, kas ļauj importēt ER etiķetes uz atlasīto konfigurācijas versiju.](./media/er-multilingual-labels-load.png)
 
 Tulkotās etiķetes tiks importētas atlasītajā ER konfigurācijā. Tulkotās etiķetes, kas pastāv šajā ER konfigurācija, ir aizstātas. Ja ER konfigurācijā trūkst tulkotas etiķetes, tās tiek pievienotas.
 

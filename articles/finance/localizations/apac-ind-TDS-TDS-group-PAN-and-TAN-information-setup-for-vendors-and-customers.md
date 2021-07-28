@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: fd33b1775afefed798f1e9bb7601f4112222c430
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: f4add6d32c34993338b0e587723df12d0a33ce43
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023419"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358270"
 ---
 # <a name="tds-group-pan-and-tan-information-setup-for-vendors-and-customers"></a>TDS grupas, PAN un TAN informācijas iestatīšana debitoriem un kreditoriem
 
@@ -31,7 +31,7 @@ ms.locfileid: "6023419"
 
 1. Dodieties uz **Kreditori \> Kreditori \> Visi kreditori** vai **Debitori \> Debitori \> Visi Debitori**.
 
-    [![Visu kreditoru lapa](./media/apac-ind-TDS-55.png)](./media/apac-ind-TDS-55.png)
+    [![Visu kreditoru lapa.](./media/apac-ind-TDS-55.png)](./media/apac-ind-TDS-55.png)
 
 2. Darbību rūtī atlasiet **Jauns**, lai izveidotu kreditoru vai debitoru, un ievadiet nepieciešamo informāciju. Vai arī atlasiet esošu kreditoru vai debitoru.
 3. Kopsavilkuma cilnes **Rēķins un piegāde** sadaļā **Ieturētais nodoklis** iestatiet opciju **Aprēķināt ieturēto nodokli** uz **Jā**, lai aprēķinātu ieturēto nodokli, TDS vai TCS kreditoram vai debitoram.
@@ -60,7 +60,7 @@ ms.locfileid: "6023419"
     - Vietējā pašvaldība
     - Citi
 
-    [![Nodokļu informācijas kopsavilkuma cilne](./media/apac-ind-TDS-56.png)](./media/apac-ind-TDS-56.png)
+    [![Nodokļu informācijas kopsavilkuma cilne.](./media/apac-ind-TDS-56.png)](./media/apac-ind-TDS-56.png)
 
 9. Darbību rūtī cilnē **Kreditors**, grupā **Reģistrācija** atlasiet **Reģistrācijas ID**, lai atvērtu lapu **Pārvaldīt adreses**.
 10. Lapas **Pārvaldīt adreses** kopsavilkuma cilnē **Informācija par nodokļiem** atlasiet **Pievienot** vai **Rediģēt** lai atvērtu lapu **Pārvaldīt nodokļu informāciju**, kur varat uzturēt nodokļu reģistrācijas ierakstu.

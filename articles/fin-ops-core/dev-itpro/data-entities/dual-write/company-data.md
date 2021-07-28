@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 6a858135d377b30d6e8885ae18b2dc50da11813b
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: ab063c66712b43818f58eee1493ec168771ae97a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941033"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350963"
 ---
 # <a name="company-concept-in-dataverse"></a>Uzņēmuma koncepts Dataverse
 
@@ -43,7 +43,7 @@ Tā kā biznesa vienība un uzņēmums nav līdzvērtīgi koncepti, nav iespēja
 
 Nākamajos attēlos ir parādīts šīs datu iestatīšanas piemērs Dataverse.
 
-![Datu iestatīšana Dataverse](media/dual-write-company-1.png)
+![Datu iestatīšana Dataverse.](media/dual-write-company-1.png)
 
 Šīs konfigurācijas dēļ jebkura ar USMF uzņēmumu saistītā rinda pieder grupai, kas ir piesaistīta USMF biznesa vienībai Dataverse. Tādēļ jebkurš lietotājs, kuram ir piekļuve šai biznesa vienībai, izmantojot drošības lomu, kas ir iestatīta uz biznesa vienības līmeņa redzamību, tagad var redzēt šīs rindas. Nākamajā piemērā parādīts, kā grupas var tikt izmantotas, lai nodrošinātu pareizo piekļuvi šīm rindām.
 
@@ -52,21 +52,21 @@ Nākamajos attēlos ir parādīts šīs datu iestatīšanas piemērs Dataverse.
 + "USMF pārdošanas" grupa ir saistīta ar iepriekš minēto USMF biznesa vienību.
 + Tādēļ "USMF pārdošanas" grupas dalībnieki var redzēt jebkuru kontu, kas pieder "USMF DW" lietotājam, kurš nācis no USMF uzņēmuma tabulas programmā Finance and Operations.
 
-![Kā grupas var tikt izmantotas](media/dual-write-company-2.png)
+![Kā grupas var tikt izmantotas.](media/dual-write-company-2.png)
 
 Kā redzams iepriekšējā attēlā, šī 1:1 kartēšana starp biznesa vienību, uzņēmumu un grupu ir tikai sākumpunkts. Šajā piemērā jaunā "Eiropas" biznesa vienība tiek izveidota manuāli Dataverse kā DEMF un ESMF vecākelements. Šī jaunā saknes biznesa vienība nav saistīta ar duālo ierakstu. Taču to var izmantot, lai grupas "EUR Sales" dalībniekiem piešķirtu piekļuvi konta datiem gan DEMF, gan ESMF, saistītajā drošības lomā iestatot datu redzamību uz **Vecākelementa/Pakārtotā elementa BU**.
 
 Pēdējā tēma, kas jāapspriež, ir tas, kā duālais ieraksts nosaka, kurai īpašnieka grupai būtu jāpiešķir rindas. Šo uzvedību kontrolē kolonna **Noklusējuma atbildīgā darba grupa** CDM\_Uzņēmums rindā. Kad cdm\_Uzņēmums rinda ir iespējota duālam ierakstam, spraudnis automātiski izveido saistīto biznesa vienību un īpašnieka grupu (ja tādas vēl nav) un iestata kolonnu **Noklusējuma atbildīgā darba grupa**. Administrators var mainīt šo kolonnu uz citu vērtību. Tomēr administrators nevar notīrīt kolonnu, kamēr tabula ir iespējota duālajam ierakstam.
 
 > [!div class="mx-imgBorder"]
-![Noklusējuma atbildīgās darba grupas kolonna](media/dual-write-default-owning-team.jpg)
+![Noklusējuma atbildīgās darba grupas kolonna.](media/dual-write-default-owning-team.jpg)
 
 ## <a name="company-striping-and-bootstrapping"></a>Uzņēmuma svītrošana un sāknēšana
 
 Dataverse integrācija rada uzņēmuma paritāti, izmantojot uzņēmuma identifikatoru datu svītrošanai. Kā redzams nākamajā attēlā, visas uzņēmumam specifiskās tabulas tiek izvērstas tā, lai tām būtu relācija daudzi pret vienu (N:1) ar cdm\_Uzņēmuma tabulu.
 
 > [!div class="mx-imgBorder"]
-![N:1 relācija starp uzņēmumam specifisko tabulu un cdm_Uzņēmuma tabula](media/dual-write-bootstrapping.png)
+![N:1 relācija starp uzņēmumam specifisko tabulu un cdm_Uzņēmuma tabula.](media/dual-write-bootstrapping.png)
 
 + Pēc tam, kad uzņēmums ir pievienots un saglabāts, rindu vērtība kļūst tikai lasāma. Tādēļ lietotājiem jāpārliecinās, ka tie atlasa pareizo uzņēmumu.
 + Tikai rindas, kurās ir uzņēmuma dati, ir piemērotas duālajiem ierakstiem starp programmu un Dataverse.
@@ -98,7 +98,7 @@ Ir vairāki veidi, kā automātiski aizpildīt uzņēmuma nosaukumu klientu iesa
 
 Lai lietotu filtrēšanu, pamatojoties uz uzņēmuma kontekstu pielāgotās veidlapās vai pielāgotajos uzmeklēšanas laukos, kas pievienoti standarta veidlapām, atveriet veidlapu un izmantojiet **Saistīto ierakstu filtrēšanas** sadaļu, lai pielietotu uzņēmuma filtru. Tas ir jāiestata katram uzmeklēšanas laukam, kam ir nepieciešama filtrēšana, pamatojoties uz norādītajam uzņēmumam atbilstošo rindu. Šis iestatījums tiek parādīts **Kontam** sekojošajā ilustrācijā.
 
-:::image type="content" source="media/apply-company-context.png" alt-text="Lietot uzņēmuma kontekstu":::
+:::image type="content" source="media/apply-company-context.png" alt-text="Lietot uzņēmuma kontekstu.":::
 
 
 

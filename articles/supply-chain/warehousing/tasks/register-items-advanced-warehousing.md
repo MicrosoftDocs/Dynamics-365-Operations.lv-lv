@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c58aa1cec6c0bfe33fa1ef90267dcd8ac1218157
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: af427e8df2ac7a3a3b5a7fd6edb740400f6bbeaf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830838"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358006"
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Krājumu reģistrēšana uzlabotā noliktavā aktivizētam krājumam, izmantojot krājumu saņemšanas žurnālu
 
@@ -53,14 +53,14 @@ Tā vietā varat strādāt šajā scenārijā, aizstājot vērtības no saviem d
 1. Iestatiet **Konta numuru** uz *1001*.
 1. Iestatiet **Numuru** pirkšanas pasūtījuma numuram, kuru esat identificējis šim uzdevumam.
 
-    ![Krājumu saņemšanas žurnāls](../media/item-arrival-journal-header.png "Krājumu saņemšanas žurnāls")
+    ![Krājumu saņemšanas žurnāls.](../media/item-arrival-journal-header.png "Krājumu saņemšanas žurnāls")
 
 1. Atlasiet **Labi**, lai izveidotu žurnāla galveni.
 1. Sadaļā **Žurnāla rindas** atlasiet **Pievienot rindu** un ievadiet šādus datus:
     - **Krājuma numurs** – iestatiet uz *M9200*. **Vieta**, **Noliktava** un **Daudzums** tiks iestatīti, pamatojoties uz krājumu darbības datiem 10 paletēm (1000 ea.).
-    - **Novietojums** – iestatīts uz *001*. Šis konkrētais novietojums neizseko numura zīmes.
+    - **Novietojums** – iestatīts uz  *001*. Šis konkrētais novietojums neizseko numura zīmes.
 
-    ![Krājumu saņemšanas žurnāla rinda](../media/item-arrival-journal-line.png "Krājumu saņemšanas žurnāla rinda")
+    ![Krājumu saņemšanas žurnāla rinda.](../media/item-arrival-journal-line.png "Krājumu saņemšanas žurnāla rinda")
 
     > [!NOTE]
     > Lauks **Datums** nosaka datumu, kurā šī krājuma rīcībā esošais daudzums tiks reģistrēts krājumos.  

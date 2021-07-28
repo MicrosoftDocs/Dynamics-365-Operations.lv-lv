@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: EricWang
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: d0cb4b282fe2bd5c68af17c741787c4caca98003
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.openlocfilehash: c019c597f4734f92f5d9aacdff1cbb30f9fb0a60
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937310"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358837"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>PVN aprēķins vispārējā žurnālā.
 [!include [banner](../includes/banner.md)]
@@ -115,7 +115,7 @@ Dodieties uz **Virsgrāmata \> Kontu plāns \> Konti \> Galvenie konti** un atla
 
 Šajā sadaļā ir aprakstīts, kā tiek aprēķināta PVN summa.
 
-![PVN darījumu lapa](media/sales-tax-amount-sign.jpg)
+![PVN darījumu lapa.](media/sales-tax-amount-sign.jpg)
 
 Sekojošajā tabulā ir parādīts vispārīgais noteikums, lai noteiktu PVN virzienu un summas apjomu pagaidu PVN tabulā.
 

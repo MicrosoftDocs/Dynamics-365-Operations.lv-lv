@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d2ac28a1bd09cf68c711295116fb007bdfab2070
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 946d0433df41ce7067b8b0673db680abb42b7792
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053399"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357293"
 ---
 # <a name="integration-with-finance-faq"></a>Integrācija ar Finance bieži uzdotajiem jautājumiem
 
@@ -37,7 +37,7 @@ Nr.p.k. Ja rediģējat Human Resources programmas lietotāju, integrēšana star
 | --- | --- | --- | --- |
 | Dynamics365 for Talent | f9be0c49-aa22-4ec6-911a-c5da515226ff | 27fd8129-4b3c-43f7-b1bf-47495d3a049b | f9be0c49-aa22-4ec6-911a-c5da515226ff |
 
-![Noklusējuma iestatījumi Talent programmas lietotājam](media/DynamicsApplicationUser.png)
+![Noklusējuma iestatījumi Talent programmas lietotājam.](media/DynamicsApplicationUser.png)
 
 ## <a name="is-all-data-synchronized-or-just-some-data-entities"></a>Vai tiek sinhronizēti visi dati vai tikai daži datu elementi?
 
@@ -57,7 +57,7 @@ Finanšu dimensijas pašlaik nav pakalpojumā Dataverse un līdz ar to nav noklu
 
 Tādu datu gadījumā, kuri atrodas Finance, bet kuru nav Human Resources, saistiet abas sistēmas kopā, izmantojot Human Resources vienumu **Konfigurēt saites**.
 
-![Kartēt finanšu dimensijas](media/MapFinancialDimensions.png)
+![Kartēt finanšu dimensijas.](media/MapFinancialDimensions.png)
 
 ## <a name="sometimes-when-i-import-employees-they-go-into-inactive-workers-in-finance-why"></a>Dažreiz, importējot darbiniekus, tie tiek iekļauti neaktīvo darbinieku sarakstā risinājumā Finance. Kādēļ?
 
@@ -71,14 +71,14 @@ Datu sinhronizācija tiek veikta saskaņā ar izpildes grafiku. Integrācija ņe
 
 Ar opciju “Papildu vaicājums” varat filtrēt un pārveidot avota datus pirms to nosūtīšanas uz galamērķi.
 
-![Aktīvo darbinieku papildu vaicājums](media/MapOnlyActiveWorkersAdvancedQuery.png)
+![Aktīvo darbinieku papildu vaicājums.](media/MapOnlyActiveWorkersAdvancedQuery.png)
 
 ## <a name="can-i-specify-which-fields-to-send-to-finance-for-a-specific-entity"></a>Vai var norādīt, kurus laukus nosūtīt uz risinājumu Finance konkrētam elementam?
 
 Laukus var pievienot vai noņemt no integrācijas uzdevuma. Ne visi datu lauki, kas pastāv Dataverse tabulā, tiks aizpildīti no Human Resources.
 Papildu datus var aizpildīt, izmantojot Power Apps.
 
-![Pievienot vai noņemt laukus no integrācijas uzdevuma](media/SpecifyFieldsIncludedInIntegration.png)
+![Pievienot vai noņemt laukus no integrācijas uzdevuma.](media/SpecifyFieldsIncludedInIntegration.png)
 
 ## <a name="i-set-up-integration-as-a-batch-job-but-human-resources-lost-connection-to-the-destination-system-how-can-i-send-the-same-set-of-changes-to-the-destination-system"></a>Integrācija ir iestatīta kā pakešuzdevums, bet tika zaudēts Human Resources savienojums ar mērķa sistēmu. Kā var nosūtīt to pašu izmaiņu kopumu uz mērķa sistēmu?
 
@@ -126,21 +126,21 @@ Izsekojiet laiku datu integrētāja izpildes vēsturē un meklējiet projektu ar
 
 1. Iegūstiet uzdevuma indeksu no datu integrētāja (šajā piemērā tas ir “9”).
 
-    ![Uzdevuma indeksa iegūšana no datu integrētāja](media/CaptureTaskIndex.png)
+    ![Uzdevuma indeksa iegūšana no datu integrētāja.](media/CaptureTaskIndex.png)
 
 2. Izsekojiet projekta izpildes laiku.
 
-    ![Projekta izpildes laika izsekošana](media/CaptureTimeOfExecution.png)
+    ![Projekta izpildes laika izsekošana.](media/CaptureTimeOfExecution.png)
 
 3. Risinājumā Finance norādiet indeksu-1. Šajā piemērā projekts ar sufiksu “8” un projekta ar indeksu “0” izpildes laiks atbilst izpildes laikam 2. darbībā.
 
-    ![Indeksa atrašana](media/IdentifyIndex.png)
+    ![Indeksa atrašana.](media/IdentifyIndex.png)
 
 ## <a name="after-integrating-human-resources-and-finance-i-dont-see-my-human-resources-data-in-finance-what-do-i-do"></a>Pēc Human Resources un Finance integrācijas Finance nevar redzēt savus Human Resources datus. Ko darīt?
 
 Integrācija risinājumā Finance paredz divas darbības. Vispirms pārliecinieties, vai Human Resources dati ir atjaunināti un ir pieejami Dataverse. Šī sinhronizācija tiek veikta gandrīz reālā laikā, un to var pārbaudīt risinājumā Power Apps, skatot datus, kuri ir datu tabulās.
 
-![Dati pakalpojumā Dataverse](media/DataInCDS.png)
+![Dati pakalpojumā Dataverse.](media/DataInCDS.png)
 
 Ja dati pakalpojumā Dataverse netiek rādīti paredzētajā veidā, pārbaudiet, vai integrācijā šis elements tiek atbalstīts. Lai iekļautu papildu datus pakalpojumā Dataverse, būs nepieciešamas izmaiņas no Microsoft puses.
 
@@ -165,7 +165,7 @@ Pārliecinieties, ka esat atlasījis pareizās juridiskās personas saistītajai
 
 Atsvaidziniet datu elementus risinājumā Finance, atverot sadaļu **Datu pārvaldība \> Struktūras parametri \> Elementu iestatījumi \> Atsvaidzināt elementu sarakstu.** Šīs darbības pabeigšanai ir nepieciešamas dažas minūtes, un pēc tam būs redzami attiecīgie kartējumi. Šī problēma rodas, veidojot jaunus projektus.
 
-![Trūkst lauku kartējuma](media/MissingFieldMapping.png)
+![Trūkst lauku kartējuma.](media/MissingFieldMapping.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 

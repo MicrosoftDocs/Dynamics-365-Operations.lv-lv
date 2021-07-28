@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: c4f663ae36f7d4ea3db9888e618f2fe3bf8c3256
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 073f89b5ae44e20d1d2e854341afaa176f9b6280
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748951"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350939"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Valūtas datu tipa migrācija duālajai rakstīšanai
 
@@ -82,13 +82,13 @@ Ir daži ierobežojumi:
 
 Pēc migrācijas pabeigšanas administratori var iestatīt valūtas precizitāti. Dodieties uz **Iestatījumi \> Administrēšana** un atlasiet **Sistēmas iestatījumi**. Pēc tam cilnē **Vispārīgi** mainiet lauka **Iestatīt valūtas precizitāti, kas ir izmantota cenu noteikšanā visā sistēmā** vērtību, kā parādīts sekojošajā ilustrācijā.
 
-![Valūtas sistēmas iestatījumi](media/currency-system-settings.png)
+![Valūtas sistēmas iestatījumi.](media/currency-system-settings.png)
 
 ### <a name="business-management-currencies"></a>Biznesa pārvaldība: Valūtas
 
 Ja vēlaties, lai konkrētas valūtas precizitātes atšķirtos no valūtas precizitātes, kas tiek izmantota cenu noteikšanai, varat mainīt to. Dodieties uz **Iestatījumi \> Biznesa pārvaldība**, atlasiet **Valūtas** un atlasiet valūtu, ko vēlaties mainīt. Pēc tam iestatiet **Valūtas precizitātes** lauku uz vēlamo decimāldaļu skaitu, kā parādīts sekojošajā ilustrācijā.
 
-![Noteiktas lokalizācijas valūtu iestatījumi](media/specific-currency.png)
+![Noteiktas lokalizācijas valūtu iestatījumi.](media/specific-currency.png)
 
 ### <a name="tables-currency-column"></a>tabulas: valūtas lauks
 

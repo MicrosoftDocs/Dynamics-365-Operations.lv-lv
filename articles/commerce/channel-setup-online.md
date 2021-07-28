@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f0f1e0f3e7145c66b8f2b082b44ad7035c57d947
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: dc76c3c8c3da11202ebb29f4c5c0df72892c094a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936948"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351180"
 ---
 # <a name="set-up-an-online-channel"></a>Tiešsaistes kanāla iestatīšana
 
@@ -55,11 +55,11 @@ Lai izveidotu un konfigurētu jaunu tiešsaistes kanālu, veiciet tālāk norād
 
 Tālāk redzamajā attēlā parādīta jauna tiešsaistes kanāla izveide.
 
-![Jauns tiešsaistes kanāls](media/channel-setup-online-1.png)
+![Jauns tiešsaistes kanāls.](media/channel-setup-online-1.png)
 
 Tālāk redzamajā attēlā ir parādīts tiešsaistes kanāla piemērs.
 
-![Tiešsaistes kanāla piemērs](media/channel-setup-online-2.png)
+![Tiešsaistes kanāla piemērs.](media/channel-setup-online-2.png)
 
 ## <a name="set-up-languages"></a>Valodu iestatīšana
 
@@ -75,7 +75,7 @@ Papildu uzdevumi, kas nepieciešami tiešsaistes kanāla iestatīšanai, ietver 
 
 Tālāk esošajā attēlā ir parādītas cilnes **Iestatīšana** iestatīšanas opcijas **Piegādes veidi**, **Maksāšanas metodes** un **Izpildes grupas piešķires**.
 
-![Papildu tiešsaistes kanāla iestatīšanas darbības](media/channel-setup-online-3.png)
+![Papildu tiešsaistes kanāla iestatīšanas darbības.](media/channel-setup-online-3.png)
 
 ### <a name="set-up-payment-methods"></a>Iestatīt maksājuma metodes
 
@@ -90,7 +90,7 @@ Lai iestatītu maksājuma metodes, katram šajā kanālā atbalstītajam maksāj
 
 Tālāk esošajā attēlā ir parādīts skaidras naudas maksājuma piemērs.
 
-![Maksājumu metožu piemērs](media/channel-setup-retail-5.png)
+![Maksājumu metožu piemērs.](media/channel-setup-retail-5.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Iestatiet piegādes veidus
 
@@ -104,7 +104,7 @@ Lai mainītu vai pievienotu piegādes veidu, rīkojieties, kā norādīts tālā
 
 Tālāk redzamajā attēlā parādīts piegādes režīma piemērs.
 
-![Iestatiet piegādes veidus](media/channel-setup-retail-7.png)
+![Iestatiet piegādes veidus.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-a-fulfillment-group-assignment"></a>Izpildes grupas piešķires iestatīšana
 
@@ -118,13 +118,13 @@ Lai iestatītu izpildes grupas piešķiri, veiciet tālāk norādītās darbība
 
 Tālāk redzamajā attēlā parādīts izpildes grupas piešķires piemērs.
 
-![Izpildes grupas piešķires iestatīšana](media/channel-setup-retail-9.png)
+![Izpildes grupas piešķires iestatīšana.](media/channel-setup-retail-9.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Kanālu apskats](channels-overview.md)
 
-[Kanālu iestatīšanas priekšnosacījumi](channels-prerequisites.md)
+[Kanāla iestatīšanas priekšnosacījumi](channels-prerequisites.md)
 
 [Mazumtirdzniecības kanāla iestatīšana](channel-setup-retail.md)
 

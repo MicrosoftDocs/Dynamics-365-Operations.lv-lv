@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b300cef0a508f7cc37397480738091158efdead
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 5fe49184ee4023e8b4f54dd7f5107be8c711d4b8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027919"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353734"
 ---
 # <a name="listjoin-er-function"></a>LISTJOIN ER funkcija
 
@@ -66,15 +66,15 @@ Tad ievadiet datu avotu **Ieraksts 2** veidam `Container`. Šis datu avots satur
 - **Daudzums**: šis lauks satur izteiksmi, kas atgriež `Real` tipa vērtību.
 - **IsValid**: šis lauks satur izteiksmi, kas atgriež `Boolean` tipa vērtību.
 
-![ER modeļa kartēšanas noformētāja lapa](./media/er-functions-list-listjoin-image1.gif)
+![ER modeļa kartēšanas noformētāja lapa.](./media/er-functions-list-listjoin-image1.gif)
 
 Šajā gadījumā izteiksme `LISTJOIN(LIST('Record 1'), LIST('Record 2'))` atgriež jaunu sarakstu, kurā ir divi ieraksti.
 
-![ER modeļa kartēšanas veidotāja lapa ar diviem ierakstiem](./media/er-functions-list-listjoin-image2.gif)
+![ER modeļa kartēšanas veidotāja lapa ar diviem ierakstiem.](./media/er-functions-list-listjoin-image2.gif)
 
 Šī saraksta struktūra sastāv no viena **Daudzuma** lauka tipā `Real`, jo šis lauks ir vienīgais lauks, kas tiek parādīts katrā izsauktās funkcijas argumentā.
 
-![ER modeļa kartēšanas veidotāja lapas summas lauks](./media/er-functions-list-listjoin-image3.gif)
+![ER modeļa kartēšanas veidotāja lapas summas lauks.](./media/er-functions-list-listjoin-image3.gif)
 
 ## <a name="additional-resources"></a>Papildu resursi
 

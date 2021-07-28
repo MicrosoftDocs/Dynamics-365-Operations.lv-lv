@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: 637962cf63bfd8c2330726f33545f939ec91d58d
-ms.sourcegitcommit: dbffde1944b9d037124415c28053036c9ef1ecb7
+ms.openlocfilehash: cf82abbe5493eac9665323738441fa016205e9ef
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6295822"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355011"
 ---
 # <a name="regulatory-configuration-service-rcs---delete-an-rcs-environment"></a>Regulatory Configuration Service (RCS) - dzēst RCS vidi
 
@@ -38,11 +38,11 @@ Pirms varat pabeigt šajā tēmā norādīta procedūra, jāizpilda šādi priek
 1. Atvēriet RCS un atlasiet darbvietas elementu **Elektronisko pārskatu veidošana**.
 2. Sadaļā **Saistītās saites** atlasiet **Dzēst RCS vidi**.
 
-    ![Dzēst RCS vides saiti sadaļā Saistītās saites](media/01_RCS-Delete-Environ-Related-Link.PNG)
+    ![Dzēst RCS vides saiti sadaļā Saistītās saites.](media/01_RCS-Delete-Environ-Related-Link.PNG)
 
 3. Dialoglodziņā, kas tiek parādīts, pārskatiet ziņojumus par vides dzēšanas tvērumu.
 
-    ![Ziņojumi RCS vides dzēšanas dialoglodziņā](media/01_RCS-Delete-Environ-Msg_noGUID.PNG)
+    ![Ziņojumi RCS vides dzēšanas dialoglodziņā.](media/01_RCS-Delete-Environ-Msg_noGUID.PNG)
 
     > [!IMPORTANT]
     > RCS vides dzēšanu nevar atcelt.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 3982232e5008d6f8c283d6cecfaf2fa6e66150a1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d2fe07790f64f7e7f672980f80a3e56804cefd66
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836738"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351541"
 ---
 # <a name="creating-work-orders"></a>Darba pasūtījumu izveidošana
 
@@ -48,7 +48,7 @@ Lai izveidotu darba pasūtījumus, kas ir balstīti uz uzturēšanas grafiku, se
 
     Tiek parādīts dialoglodziņš **Izveidot darba pasūtījumus**. Kopīgais paredzamais stundu skaits atlasītajām rindām tiek parādīts laukā **Uzturēšanas prognozes stundas**.
 
-    ![Darba pasūtījumu dialoglodziņa izveide](media/18-preventive-maintenance.png)
+    ![Darba pasūtījumu dialoglodziņa izveide.](media/18-preventive-maintenance.png)
 
 1. Sadaļā **Parametri** norādiet izveidojamo darba pasūtījumu skaitu. Izvēlieties vienu no šīm opcijām:
 

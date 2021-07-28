@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a1a25e3d5bc1cc5c1c7509186451fdfef50dd6cf
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c8a22a356053789f97fd4f3f9437d57978a67943
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792343"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352136"
 ---
 # <a name="add-product-recommendations-on-pos"></a>Pievienot preču ieteikumi punktā POS
 
@@ -39,7 +39,7 @@ Preču ieteikumi ir iespējoti tālāk norādītajos POS scenārijos. Tie ir pi
 
     - Ja veikala darbinieks apmeklē lapu **Detalizēta informācija par preci**, skatot iepriekšējās transakcijas dažādos kanālos, ieteikumu serviss piedāvā papildu preces, kas var tikt nopirktas kopā.
 
-    [![Ieteikumi lapā Informācija par preci](./media/proddetails.png)](./media/proddetails.png)
+    [![Ieteikumi lapā Informācija par preci.](./media/proddetails.png)](./media/proddetails.png)
 
 2. Lapā **Transakcija**.
 
@@ -48,7 +48,7 @@ Preču ieteikumi ir iespējoti tālāk norādītajos POS scenārijos. Tie ir pi
     > [!NOTE]
     > Lai lapā **Transakcija** tiktu rādīti ieteikumi, mazumtirgotājam ir jāatjaunina ekrāna izkārtojums programmā Dynamics 365 Commerce. Lapā **Transakcijas** ir jāaktivizē vadīkla **Ieteikumi** lapā.
 
-    [![Ieteikumi lapā Transakcija](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
+    [![Ieteikumi lapā Transakcija.](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
 ## <a name="configure-commerce-to-enable-pos-recommendations"></a>Commerce konfigurēšana, lai iespējotu POS ieteikumus
 
@@ -70,7 +70,7 @@ Lai iestatītu preču ieteikumus, rīkojieties šādi:
 
 [Preču ieteikumu apskats](product-recommendations.md)
 
-[Iespējojiet Azure Data Lake Storage vidē Dynamics 365 Commerce](enable-adls-environment.md)
+[Iespējojiet Azure Data Lake Storage pakalpojuma Dynamics 365 Commerce vidē](enable-adls-environment.md)
 
 [Iespējot preču ieteikumus](enable-product-recommendations.md)
 

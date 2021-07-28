@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-03-18
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: eaf6264f060d33575740ad38e7a65158baba296b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f0806a5b36b04e77a5a6d10f3c2eb3d7ba680e75
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829622"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356420"
 ---
 # <a name="product-configuration-model-calculations"></a>Preces konfigurācijas modeļa aprēķini
 
@@ -70,7 +70,7 @@ Nākamajā piemērā mērķa atribūts ir Būla tipa, un aprēķinā tiek izmant
 
 Šajā ekrānuzņēmumā parādīts, kā šī atribūta iestatījumi var izskatīties jūsu sistēmā.
 
-![Atribūta tipa iestatījumi 2. piemēram](media/model-calculations-example2.png "Atribūta tipa iestatījumi 2. piemēram")
+![Atribūta tipa iestatījumi 2. piemēram.](media/model-calculations-example2.png "Atribūta tipa iestatījumi 2. piemēram")
 
 Atribūts tiek lietots šādā nosacījuma priekšrakstā:
 
@@ -92,7 +92,7 @@ Ja `integerAttribute` ir mazāks par 150, šis priekšraksts atgriež pirmā ier
 
 Šajā ekrānuzņēmumā parādīts, kā šī atribūta iestatījumi var izskatīties jūsu sistēmā.
 
-![Atribūta tipa iestatījumi 3. piemēram](media/model-calculations-example3.png "Atribūta tipa iestatījumi 3. piemēram")
+![Atribūta tipa iestatījumi 3. piemēram.](media/model-calculations-example3.png "Atribūta tipa iestatījumi 3. piemēram")
 
 Atribūta `textFixedList` vērtība tiek aprēķināta, izmantojot šādu nosacījuma priekšrakstu:
 

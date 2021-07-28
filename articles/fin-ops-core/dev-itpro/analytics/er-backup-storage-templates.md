@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b41760bb58cbef66146b3f1af6f30c6a35a18727
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 305576b79fdb11f29de9207662de0fe4b4dd6eb5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743851"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351846"
 ---
 # <a name="backup-storage-of-er-templates"></a>ER veidņu dublējumkopijas
 
@@ -65,19 +65,19 @@ Lai iestatītu parametru **Automātiski izpildīt procedūru, lai atjaunotu boj�
 > [!NOTE]
 > Šis parametrs ir definēts kā lietojumprogrammas lietotājs un reģistrēts uzņēmums.
 
-![ER konfigurāciju lapa](./media/GER-BackupTemplates-1.png)
+![ER konfigurāciju lapa.](./media/GER-BackupTemplates-1.png)
 
 Sekojošajā attēlā ir parādīts ziņojuma piemērs, kas parādās, parametrs **Automātiski izpildīt procedūru, kas tiek veikta, atjaunojot bojātas veidnes partijas** ir iestatīts uz **Ieslēgts**.
 
-![Kreditora maksājumu žurnāla rinda](./media/GER-BackupTemplates-2.png)
+![Kreditora maksājumu žurnāla rinda.](./media/GER-BackupTemplates-2.png)
 
 Sekojošajā attēlā ir parādīts pakešveida apstrādes process **Atjaunot bojātās veidnes no iekšējās datu bāzes dublēšanas** lapā **Pakešuzdevums**.
 
-![Lapa Pakešuzdevumi](./media/GER-BackupTemplates-3.png)
+![Lapa Pakešuzdevumi.](./media/GER-BackupTemplates-3.png)
 
 Izpildes žurnāls pabeigtajām **atjaunošanas sarautajām veidnēm, kas atrodas iekšējās** datu bāzes dublēšanas pakešuzdevuma procesā, ietver informāciju par veidnēm, kas atjaunotas no dublējuma glabāšanas vietas uz primāro krātuves vietu.
 
-![Pakešuzdevumu vēstures lapa](./media/GER-BackupTemplates-4.png)
+![Pakešuzdevumu vēstures lapa.](./media/GER-BackupTemplates-4.png)
 
 Pēc noklusējuma automātiski tiek izveidotas to veidņu dublējumkopijas, kas atrodas ER formāta konfigurācijās. Lai beigtu izveidot veidņu dublējumkopijas, iestatiet opciju **Pārtraukt veidot veidnes dublējumkopijas** uz **Jā** lapas **Elektroniskie pārskatu parametri** cilnē **Pielikumi**. Šo lapu varat atvērt, izmantojot darba vidi **Elektroniskais pārskats**.
 
@@ -85,7 +85,7 @@ Ja iestatāt opciju **Pārtraukt veidot veidņu dublējumkopijas** uz **Jā** un
 
 Ja jauninājāt savu vidi uz Finance and Operations versijas 10.0.5 (2019. gada oktobris) un vēlaties migrēt uz jaunu vidi, kas ietver ER formāta konfigurācijas, ko var palaist, pirms migrācijas atlasiet **Aizpildīt rezerves krātuvi** lapā **Elektronisko pārskatu parametri**. Šī poga sāk visu pieejamo veidņu dublējumkopijas izveidošanas procesu, lai tos varētu uzglabāt ar ER dublējuma glabāšanas vietu veidnēm.
 
-![Elektronisko pārskatu veidošanas parametru lapa](./media/GER-BackupTemplates-5.png)
+![Elektronisko pārskatu veidošanas parametru lapa.](./media/GER-BackupTemplates-5.png)
 
 ## <a name="manual-recovery"></a>Manuāla atkopšanās
 

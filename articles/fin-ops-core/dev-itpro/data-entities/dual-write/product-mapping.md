@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 6941a38e96520befd3bdba65956d45a6bbaee4be
-ms.sourcegitcommit: f21659f1c23bc2cd65bbe7fb7210910d5a8e1cb9
+ms.openlocfilehash: 115eaad4f11fc4fb5321f0d8bb9d4f5a9f2f2c7c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6306393"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358597"
 ---
 # <a name="unified-product-experience"></a>Vienotā preču pieredze
 
@@ -33,11 +33,11 @@ Ja biznesa ekosistēma ir izveidota no Dynamics 365 lietojumprogrammām, piemēr
 
 Lūk, preču datu modelis no Sales.
 
-![Preču datu modelis CE](media/dual-write-product-4.jpg)
+![Preču datu modelis CE.](media/dual-write-product-4.jpg)
 
 Šeit it preču datu modelis no Finance and Operations programmām.
 
-![Preču datu modelis pakalpojumā Finance and Operations](media/dual-write-products-5.jpg)
+![Preču datu modelis pakalpojumā Finance and Operations.](media/dual-write-products-5.jpg)
 
 Šie divi preču datu modeļi ir integrēti Dataverse, kā parādīts zemāk.
 
@@ -86,7 +86,7 @@ Tā kā produkts tiek attēlots kā SKU, atšķirīgu preču, preču šablonu un
 - **Preču šabloni** tiek izmantoti kā ģenēriskas preces, kas satur definīciju un nosacījumus, kas nosaka biznesa procesu darbību. Balstoties uz šīm definīcijām, var tikt ģenerētas atšķirīgas preces, kas zināmas kā preces varianti. Piemēram, T-krekls ir preces šablons, un tam var būt Krāsa un Izmērs dimensiju veidā. Var izlaist variantus, kuriem ir dažādas šo dimensiju kombinācijas, piemēram, mazs zils T-krekls vai vidēji zaļš T-krekls. Integrācijā katram variantam preču tabulā tiek izveidota viena rinda. Šī rinda satur ar variantu saistītu informāciju, piemēram, dažādas dimensijas. Vispārīgā informācija par preci tiek uzglabāta **msdyn\_sharedproductdetails** tabulā. (Šī ir vispārīga informācija tiek turēta preces pamatinformācijā.) Preces pamatinformācija tiek sinhronizēta Dataverse, tiklīdz tiek izveidots izlaistais preces šablons (bet pirms tiek izlaisti varianti).
 - **Atšķirīgas preces** attiecas uz visām produktu apakštipa precēm un visiem preces variantiem. 
 
-![Preču datu modelis](media/dual-write-product.png)
+![Preču datu modelis.](media/dual-write-product.png)
 
 Ar iespējotu duālās rakstīšanas funkcionalitāti Finance and Operations preces tiks sinhronizētas citās Dynamics 365 precēs **Melnraksta** stāvoklī. Tās tiek pievienotas pirmajam cenrādim ar nemainīgu valūtu. Citiem vārdiem, tie ir pievienoti pirmajam cenrādim Dynamics 365 lietojumprogrammā, kas atbilst jūsu juridiskās personas valūtai, kur prece tiek izdota Finance and Operations programmā. Ja dotajā valūtā nav cenu saraksta, automātiski tiks izveidota cenu saraksts un prece tiks tam piešķirta. 
 
@@ -112,7 +112,7 @@ Preču saimju veidošana no Dynamics 365 Sales netiek atbalstīta, izmantojot pr
 
 Preču dimensijas ir īpašības, ko izmanto, lai identificētu preces variantu. Četras preces dimensijas (krāsa, lielums, stils un konfigurācija) ir arī kartētas Dataverse, lai definētu preces variantus. Sekojošajā attēlā ir parādītas preces dimensijas krāsas datu modelis. Tas pats modelis ir piemērots izmēriem, stiliem un konfigurācijām. 
 
-![Datu modelis preces dimensijām](media/dual-write-product-two.png)
+![Datu modelis preces dimensijām.](media/dual-write-product-two.png)
 
 [!include [product colors](includes/EcoResProductColorEntity-msdyn-productcolor.md)]
 
@@ -148,7 +148,7 @@ Pasūtījuma noklusējuma iestatījumi definē vietu un noliktavu, kur krājumi 
 
 Mērvienības un to atbilstošais pārveidojums ir pieejami Dataverse sekojošajā datu modelī, kas redzams diagrammā.
 
-![Mērvienību datu modelis](media/dual-write-product-three.png)
+![Mērvienību datu modelis.](media/dual-write-product-three.png)
 
 Mērvienības koncepcija ir integrēta starp Finance and Operations un citām Dynamics 365 lietojumprogrammām. Katrai mērvienību klasei Finance and Operations lietojumprogrammā tiek izveidota mērvienību grupa Dynamics 365 lietojumprogrammā, kas satur mērvienības, kas pieder pie mērvienību kategorijas. Katrai vienību grupai tiek izveidota arī noklusētā pamatvienība. 
 

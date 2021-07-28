@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: d06bd5baeb6b8b6995fe1ae47f14bab458b8ecc2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: beacff21c6468e9c4b387a654e95f25572c0ede9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831990"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348372"
 ---
 # <a name="visibility-into-material-exceptions"></a>Redzamība materiālu izņēmumos
 
@@ -31,15 +31,15 @@ Darbvietā **Ražošanas pārvaldība** labāku redzamību par izņēmumiem atti
 - Neapstrādātie kopumi, kuriem jāpievērš uzmanība
 - Atvērtais noliktavas darbs, kam jāpievērš uzmanība
 
-Visos trīs elementos materiālu komplekta (MK) rindu un formulas rindu izejmateriālu datums tiek salīdzināts ar darbvietas datumu, kā arī ar filtriem, kas iestatīti vienumiem **Ražošanas vienība**, **Resursu grupa** un **Resurss** — šie vienumi ir iestatīti izvēlnē **Konfigurēt manu darbvietu**. Darbvietas datums pēc noklusējuma ir iestatīts uz pašreizējo datumu, bet varat to regulēt.
+Visos trīs elementos materiālu komplekta (MK) rindu un formulas rindu izejmateriālu datums tiek salīdzināts ar darbvietas datumu, kā arī ar filtriem, kas iestatīti vienumiem **Ražošanas vienība**, **Resursu grupa** un **Resurss** — šie vienumi ir iestatīti izvēlnē **Konfigurēt manu darbvietu**. Darbvietas datums pēc noklusējuma ir iestatīts uz pašreizējo datumu, bet varat to regulēt.
 
 Neizlaistai MK rindai vai formulas rindai ir jāpievērš uzmanība, ja rindas izejmateriālu datums ir vienāds ar vai agrāks par darbvietas datumu, kā arī gadījumos, ja tas atbilst darbvietas filtru noteiktajiem kritērijiem.
 
 Nākamajā attēlā zilā josla norāda ražošanas darbu, kurš ir plānots kādam resursam. Šim darbam ir plānots sākties 2017. gada 1. maijā (01.05.2017.). Šis datums ir izejmateriālu datums. Citiem vārdiem sakot — šajā datumā ir jābūt gataviem materiāliem, kas šim darbam ir piešķirti MK un formulas rindās. Otrs attēlā redzamais datums, 2017. gada 6. maijs (06.05.2017.), apzīmē darbvietas datumu. Šajā piemērā izejmateriālu datums ir agrāks par darbvietas datumu. Tādēļ datums, kad izejmateriālu patēriņam bija plānots sākties, ir pagājis, un MK un formulas rindas atbilst kritērijiem par nepieciešamību pievērst uzmanību.
 
-![Ražošanas darba piemērs, kur izejmateriālu datums ir agrāks par darbvietas datumu](./media/improved-visibility.png)
+![Ražošanas darba piemērs, kur izejmateriālu datums ir agrāks par darbvietas datumu.](./media/improved-visibility.png)
 
-## <a name="unreleased-material-lines-needing-attention"></a>Neizlaistās materiālu rindas, kam jāpievērš uzmanība
+## <a name="unreleased-material-lines-needing-attention"></a>Neizlaistās materiālu rindas, kam nepieciešama uzraudzība
 
 MK vai formulas rindu var izlaist nosūtīšanai uz noliktavu trīs tālāk norādītajos veidos.
 

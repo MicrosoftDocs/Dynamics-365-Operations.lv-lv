@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: dabourq
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 8f6affd05e658f39d567f7512c71d944636588ff
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: ad4ba2781c1b1086f2b554ec1db0f0f970d2d671
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907943"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351445"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Kreditoru sadarbības mobilā darbvieta
 
@@ -54,7 +54,7 @@ Mobilā darbvieta **Kreditoru sadarbība** kreditoram ļauj veikt tālāk norād
 -   Skatiet informāciju par kreditora iesniegto lietotāja pieprasījumu un sekojiet līdzi pieprasījuma statusam. (Šim uzdevumam ir nepieciešama papildu drošības loma.)
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
-Priekšnosacījumi atšķiras atkarībā no jūsu organizācijai izvietotās Microsoft Dynamics 365 versijas.
+Priekšnosacījumi atšķiras atkarībā no jūsu organizācijai izvietotās Microsoft Dynamics 365 versijas.
 
 ### <a name="prerequisites-if-you-use-supply-chain-management"></a>Priekšnosacījumi, ja izmantojat Supply Chain Management
 Ja jūsu organizācijai ir izvietota programmatūra Supply Chain Management, sistēmas administratoram ir jāpublicē mobilā darbvieta **Kreditoru sadarbība**. Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md).
@@ -72,9 +72,9 @@ Ja jūsu organizācijai ir izvietota Microsoft Dynamics 365 for Operations versi
 </thead>
 <tbody>
 <tr class="odd">
-<td>Ja izmantojat 3. platformas atjauninājumu, ir jāievieš KB 3216943.</td>
+<td>Ja izmantojat 3. platformas atjauninājumu, ir&#39;jāievieš KB 3216943.</td>
 <td>Sistēmas administrators</td>
-<td>KB 3216943 ir binārais atjauninājums, kas ir nepieciešams, ja izmantojat 3. platformas atjauninājumu. Lai ieviestu šo KB, sistēmas administratoram ir jāizpilda tālāk minētās darbības.
+<td>KB 3216943 ir binārais atjauninājums, kas ir&#39;nepieciešams, ja izmantojat 3. platformas atjauninājumu. Lai ieviestu šo KB, sistēmas administratoram ir jāizpilda tālāk minētās darbības.
 <ol>
 <li>Lejupielādējiet KB 3216943 no pakalpojuma Microsoft Dynamics Lifecycle Services (LCS).</li>
 <li>Instalējiet bināro atjauninājumu, kas ir nodrošināts kā izvietojama pakotne. Informāciju par to, kā lietot izvietojamu pakotni, skatiet sadaļā <a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Lietot izvietojamu pakotni</a>.</li>
@@ -116,16 +116,16 @@ Mobilās programmas Finance and Operations lejupielāde un instalēšana.
 
 ## <a name="sign-in-to-the-mobile-app"></a>Pierakstīšanās mobilajā programmā
 1.  Palaidiet programmu savā mobilajā ierīcē.
-2.  Ievadiet savu Microsoft Dynamics 365 vietrādi URL.
+2.  Ievadiet savu Microsoft Dynamics 365 vietrādi URL.
 4.  Pirmajā pierakstīšanās reizē tiek prasīts ievadīt lietotājvārdu un paroli. Ievadiet savus akreditācijas datus.
 5.  Pēc pierakstīšanās tiek parādītas jūsu uzņēmumam pieejamās darbvietas. Ņemiet vērā, ka gadījumā, ja sistēmas administrators vēlāk publicēs jaunu darbvietu, jums būs jāatsvaidzina mobilo darbvietu saraksts.
 
-    [![Velciet, lai atsvaidzinātu](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+    [![Velciet, lai atsvaidzinātu.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="use-the-vendor-collaboration-mobile-workspace"></a>Mobilās darbvietas Kreditoru sadarbība lietošana
 Atlasot darbvietu **Kreditoru sadarbība**, būs redzamas tālāk norādītās opcijas.
 
-![Kreditoru sadarbības mobilā darbvieta](./media/vendor-collaboration-mobile-app.png)
+![Kreditoru sadarbības mobilā darbvieta.](./media/vendor-collaboration-mobile-app.png)
 
 Darbvietā **Kreditoru sadarbība** ir tālāk aprakstītās lapas.
 

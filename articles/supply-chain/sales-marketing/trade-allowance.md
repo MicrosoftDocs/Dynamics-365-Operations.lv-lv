@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 51b734e6a94ffdfabb218a19986f1bec65b839e7
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: 35ceb14d4d048959ae6a1740791bd4d57f33b34c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102810"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359537"
 ---
 # <a name="trade-allowance-management"></a>Mazumtirdzniecības atlaižu pārvaldība
 
@@ -59,7 +59,7 @@ Tirdzniecības atlaižu līgums ir veicināšanas programma, kurā klientiem, ku
 
 Līdzekļi, kas tiek piešķirti tirdzniecības atlaižu līgumiem, tiek reģistrēti lapā **Fondi**. Lai atvērtu lapu **Fondi**, atlasiet **Pārdošana un mārketings** \> **Tirdzniecības atlaides** \> **Fondi** \> **Fondi**.
 
-![Fondu lapa](./media/trade-allowance-management-funds-page.png "Fondu lapa")
+![Fondu lapa.](./media/trade-allowance-management-funds-page.png "Fondu lapa")
 
 Lapā **Fondi** varat skatīt informāciju par veicināšanas fondiem.
 
@@ -75,9 +75,9 @@ Kad ir izveidota fonda definīcija, nākamās darbības reklāmas pasākuma plā
 
 Mazumtirdzniecības atlaižu līgumus reģistrē lapā **Mazumtirdzniecības atlaižu līgumi**. Lai atvērtu lapu **Mazumtirdzniecības atlaižu līgumi**, atlasiet **Pārdošana un mārketings** \> **Mazumtirdzniecības atlaides** \> **Mazumtirdzniecības atlaižu līgumi**.
 
-![Tirdzniecības atlaižu līgumu lapa](./media/trade-allowance-management-agreements-page.png "Tirdzniecības atlaižu līgumu lapa")
+![Tirdzniecības atlaižu līgumu lapa.](./media/trade-allowance-management-agreements-page.png "Tirdzniecības atlaižu līgumu lapa")
 
-#### <a name="header"></a>Virsraksts
+#### <a name="header"></a>Galvene
 
 Atlasiet vienumu **Virsraksts**, lai pārslēgtos uz virsrakstu skatu.
 
@@ -103,7 +103,7 @@ Cilnē **Tirdzniecības notikumi** tiek parādīti līguma segto notikumu veidi.
 
 Atlasot tirdzniecības notikumu un pēc tam atlasot cilni **Summas**, tiek atrasta detalizētu informāciju par notikumu.
 
-![Tirdzniecības atlaižu līguma rindas](./media/trade-allowance-management-agreements-lines.png "Tirdzniecības atlaižu līguma rindas")
+![Tirdzniecības atlaižu līguma rindas.](./media/trade-allowance-management-agreements-lines.png "Tirdzniecības atlaižu līguma rindas")
 
 Sadaļā **Mazumtirdzniecības atlaižu rindas** norādiet daudzumu vai summu diapazonus, kas debitoram ir jāsasniedz definīcijām, lai iegūtu atlīdzības.
 

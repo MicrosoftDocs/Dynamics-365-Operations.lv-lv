@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f380f3f56727d927d7cd328fef3c9d999afa2873
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f9fffb5b4f51c86076d62ac2a44bdc779490c7bd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794353"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351277"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Noklusējuma kategorijas ielādes lapas un meklēšanas rezultātu lapas pārskats
 
@@ -31,7 +31,7 @@ ms.locfileid: "5794353"
 
 Noklusējuma kategorijas ielādes lapa ir lapa, uz kuru parasti tiek novirzīti vietnes lietotāji, kad viņi atlasa kategoriju navigācijas hierarhijā. Kategorijas lapa ļauj jums pārlūkot, un jūs varat arī kārtot un attīrīt kategorizētās preces.
 
-![Noklusējuma kategorijas ielādes lapa](./media/SimpleCategoryLandingDressCategory.png)
+![Noklusējuma kategorijas ielādes lapa.](./media/SimpleCategoryLandingDressCategory.png)
 
 Lapas augšdaļā ir virsraksts, kas parāda visas preču kategorijas un citas lapas, kurām ir kategorizēts tirdzniecības vadītājs. Konfigurācija tiek veikta kā kanāla navigācijas hierarhijas konfigurācijas sastāvdaļa. Lapas apakšdaļā ir kājene, kas ietver ātras saites uz dažādām tēmām, kas varētu interesēt pircēju.
 
@@ -55,7 +55,7 @@ Kategorijai ir svarīgi šādi komponenti.
 
 Ja vēlaties, lai kategorijas ielādes lapai būtu vairāk pielāgota pieredze noteiktai kategorijai, varat “bagātināt” kategorijas ielādes lapu šai kategorijai. Piemēram, varat pievienot mārketinga video un dažas kategorijas stāstījumus, lai piesaistītu pircēju uzmanību. Plašāku informāciju skatiet tēmā [Kategorijas ielādes lapas bagātināšana](enrich-category-page.md).
 
-![Bagātināta kategorijas ielādes lapa](./media/CategoryLandingPages.png)
+![Bagātināta kategorijas ielādes lapa.](./media/CategoryLandingPages.png)
 
 ## <a name="auto-suggest-and-search-results-pages"></a>Automātiskās piedāvāšanas un meklēšanas rezultātu lapas
 
@@ -69,11 +69,11 @@ Piedāvājam dažus piedāvājumu tipus, kas var tikt rādīti.
 - **Preces** sniedz tiešas saites uz preču informācijas lapu.
 - **Atlasītie kategorijas meklēšanas ieteikumi** uzskaita dažādas kategorijas un ļauj lietotājiem meklēt atslēgvārdu noteiktā kategorijā.
 
-![Visaptveroša automātiskā piedāvāšana](./media/ImmersiveAutoSuggestUX.png)
+![Visaptveroša automātiskā piedāvāšana.](./media/ImmersiveAutoSuggestUX.png)
 
 Kad lietotāji atlasa vienu no atslēgvārdiem vai atlasītajiem kategoriju meklēšanas ieteikumiem, vai ja nav ieteikumu meklētajam terminam, kas tiek ievadīts, viņi tiek novirzīti uz meklēšanas rezultātu lapu. Pēc tam lietotāji var pārlūkot, kārtot un precizēt meklēšanas rezultātu sarakstu, lai atrastu vēlamo elementu.
 
-![Meklēšanas ielāde](./media/SearchLanding.png)
+![Meklēšanas ielāde.](./media/SearchLanding.png)
 
 Meklēšanas rezultātu lapai ir svarīgi šādi komponenti.
 
@@ -94,13 +94,13 @@ Meklēšanas rezultātu lapai ir svarīgi šādi komponenti.
 
 >[!NOTE]
 >Mākoņa darbinātas meklēšanas iespējas ir pieejamas, sākot ar versiju 10.0.8. Pārliecinieties, vai sadaļas **Commerce parametri > Konfigurācijas parametri** ievadne “ProductSearch.UseAzureSearch ir iestatīta kā “true””. 
-![Mākoņa darbinātas meklēšanas konfigurācijas parametri](./media/CloudPoweredSearchConfigurationParameters.png)
+![Mākoņa darbinātas meklēšanas konfigurācijas parametri.](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Mākoņa darbināts meklēšanas pārskats](cloud-powered-search-overview.md)
+[Mākoņa darbinātas meklēšanas pārskats](cloud-powered-search-overview.md)
 
-[Mājas lapas pārskats](quick-tour-home-page.md)
+[Sākumlapas pārskats](quick-tour-home-page.md)
 
 [Preču papildinformācijas lapu apskats](quick-tour-pdp.md)
 

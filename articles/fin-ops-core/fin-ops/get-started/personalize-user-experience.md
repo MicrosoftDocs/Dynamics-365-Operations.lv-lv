@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 764444442aedcbf0934f1c636d7440bc0d277043
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 279212d05615805dd74c702b2b98c344c87fdc78
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944537"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348683"
 ---
 # <a name="personalize-the-user-experience"></a>Lietotāja pieredzes personalizēšana
 
@@ -85,7 +85,7 @@ Dažas no tipiskākajām un svarīgākajām izmaiņām, ko lapai var veikt, ir t
 
 Turklāt visparastākie personalizēšanas tipi ir pieejami, noklikšķinot ar peles labo pogu uz kāda elementa un pēc tam atlasot **Personalizēt**. (Ņemiet vērā, ka ne visus lapā esošos elementus var personalizēt.) Izmantojot šo personalizēšanas metodi, tiek parādīts elementa *rekvizītu logs*.
 
-![Elementa rekvizītu personalizēšana](./media/cli-element-property-window.png)
+![Elementa rekvizītu personalizēšana.](./media/cli-element-property-window.png)
 
 Rekvizītu logu varat izmantot, lai personalizētu kādu elementu tālāk norādītajos veidos.
 
@@ -107,7 +107,7 @@ Ja vēlaties lapā veikt vairākas izmaiņas vai izmaiņas, kuras nevar veikt, i
 - Atlasiet **Personalizēt šo veidlapu** grupā **Personalizēt** cilnē **Opcijas** jebkuras lapas darbību panelī.
 - Navigācijas joslā atlasiet pogu **Iestatījumi** (zobrata simbols) un pēc tam atlasiet **Personalizēt.**
 
-[![Personalizēšanas rīkjosla](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
+[![Personalizēšanas rīkjosla.](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
 
 #### <a name="navigating-the-page"></a>Pārvietošanās lapā
 
@@ -147,7 +147,7 @@ Dažām lapām, kurās ir ietverti saraksti, personalizēšanas līdzeklis **Pie
 > [!NOTE]
 > Ja ir ieslēgts līdzeklis [Saglabātie skati](saved-views.md), saturs, ko virzāt uz darbvietu, ir tieši saistīts ar skatu. Skatījuma vaicājums tiek izmantots, lai atgūtu datus darbvietā, un atbilstošais elements vai saite darbvietā atver lapu šim skatam, lai tam tiktu piemērots skata vaicājums un personalizācijas. Ja skats tiek atjaunināts, atbilstošie darbvietas elementi tiks pielāgoti jaunajai skata definīcijai.
 
-[![Pievienot darbvietai](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
+[![Pievienot darbvietai.](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
 
 - Lai darbvietai pievienotu kādu sarakstu, vispirms kārtojiet vai filtrējiet lapā esošo sarakstu, lai informācija tajā tiktu rādīta tā, kā to vēlaties rādīt darbvietā. (Ja ir ieslēgts līdzeklis **Saglabātie skati**, nevar turpināt darbu, kamēr nav saglabāts skats, kam ir šie nosacījumi.) Pēc tam atlasiet **Pievienot darbvietai**. Atlasiet darbvietu un pēc tam laukā **Prezentācija** atlasiet **Saraksts**. Kad atlasāt vienumu **Konfigurēt**, tiek parādīts dialoglodziņš, kur varat atlasīt kolonnas, kuras ir jārāda šīs darbvietas sarakstā. Varat arī norādīt etiķeti, kas ir izmantota sarakstam šajā darbvietā.
 - Lai darbvietai pievienotu kādu elementu, vispirms filtrējiet lapā esošo sarakstu, lai tajā būtu redzami dati, kurus vajag apkopot vai kuriem vēlaties ātri piekļūt. (Ja ir ieslēgts līdzeklis **Saglabātie skati**, nevar turpināt darbu, kamēr nav saglabāts skats, kam ir šie nosacījumi.) Pēc tam atlasiet **Pievienot darbvietai**. Atlasiet darbvietu un pēc tam laukā **Prezentācija** atlasiet **Elements**. Kad ir atlasīts vienums **Konfigurēt**, tiek paradīts dialoglodziņš, kur varat norādīt etiķeti, kuru ir jāizmanto elementam šajā darbvietā. Var arī norādīt, vai elementam ir jārāda skaits. Pēc tam, kad elements ir pievienots darbvietai, varat to atlasīt, lai atvērtu pašreizējo lapu no darbvietas. Pēc tam varat apskatīt filtrēto sarakstu, kas ir saistīts ar elementu.

@@ -9,16 +9,17 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
 ms.search.scope: Retail, Core, Operations
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: c22af9bf76818dd682b4147c3677cd1715e4cbf8
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 6d82c1cafe35db5523c58870f4dcb2a7f63134a1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021993"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352642"
 ---
 # <a name="dynamics-365-commerce-and-microsoft-teams-integration-overview"></a>Dynamics 365 Commerce un Microsoft Teams integrācijas pārskats
 
@@ -50,7 +51,7 @@ Pirms varat sākt izmantot Microsoft Teams integrācijas līdzekļus, jābūt š
 
 Šajā attēlā redzama Dynamics 365 Commerce un Microsoft Teams konceptuālā arhitektūra un integrācija, izmantojot Sanfrancisko veikalu kā piemēru. Gan brigādes, gan Commerce POS programma izmanto Microsoft Planner kā repozitoriju, lai no Teams publicētie uzdevumi tiktu parādīti POS programmā, un veikala programmas ekspromta uzdevumos, kas izveidoti POS programmā, tiek parādīti Teams, kā rezultātā ir viengabala uzdevumu pārvaldības pieredze starp programmām.    
 
-![Commerce un Teams integrācijas arhitektūra](media/d365-commerce-teams-integration-conceptual-architecture.png)
+![Commerce un Teams integrācijas arhitektūra.](media/d365-commerce-teams-integration-conceptual-architecture.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 

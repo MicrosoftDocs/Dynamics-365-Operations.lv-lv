@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 76c2f07ac5c25eea576cbb69256e76fbef4d86ca
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 6fb4e91f00163f5280d2c767843afd5c7a33712d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754116"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350889"
 ---
 # <a name="dual-write-overview"></a>Duālā ieraksta pārskats
 
@@ -37,7 +37,7 @@ Duālais ieraksts ir standarta infrastruktūra, kas nodrošina gandrīz reāllai
 
 Duālais ieraksts nodrošina cieši saistītu divvirzienu integrāciju starp Finance and Operations programmām un Dataverse. Visas Finance and Operations programmas datu izmaiņas izraisa Dataverse ierakstus, un jebkuras datu izmaiņas, kas rodas Dataverse rada ierakstus Finance and Operations programmām. Šī automatizētā datu plūsma nodrošina integrētu lietotāja pieredzi programmās.
 
-![Datu relācija starp programmām](media/dual-write-overview.jpg)
+![Datu relācija starp programmām.](media/dual-write-overview.jpg)
 
 Duālajam ierakstam ir divi aspekti: *infrastruktūras* aspekts un *programmas* aspekts.
 

@@ -932,6 +932,8 @@
                   href: manage-ecommerce-users-roles.md
                 - name: Krājumu iestatījumu lietošana
                   href: inventory-settings.md
+                - name: "Iestatījumi produkta pievienošanai grozam\_— lietošana"
+                  href: add-cart-settings.md
                 - name: Meklētājprogrammas optimizēšanas (SEO) apsvērumi jūsu vietnei
                   href: search-engine-optimization-considerations.md
                 - name: Satura drošības politikas (CSP) pārvaldība
@@ -1016,6 +1018,10 @@
                       href: customize-site-navigation.md
                     - name: Lapas vietrāža URL izveide
                       href: create-page-URL.md
+                - name: Adventure Works dizains
+                  items:
+                    - name: Adventure Works dizaina pārskats
+                      href: adventure-works-theme.md
             - name: Digitālo līdzekļu pārvaldība
               items:
                 - name: Pārskats par digitālo līdzekļu pārvaldību
@@ -1070,6 +1076,16 @@
                       href: add-hero-module.md
                     - name: Video atskaņotāja modulis
                       href: add-video-player.md
+                    - name: Aktīvā attēla modulis
+                      href: active-image-module.md
+                    - name: Attēlu saraksta modulis
+                      href: image-list-module.md
+                    - name: Interaktīvo līdzekļu modulis
+                      href: interactive-feature-module.md
+                    - name: Abonēšanas modulis
+                      href: subscribe-module.md
+                    - name: Elementu saraksta modulis
+                      href: tile-list-module.md
                 - name: Galvenes un kājenes moduļi
                   items:
                     - name: Galvenes modulis
@@ -1314,6 +1330,10 @@
                   href: localizations/emea-nor-cash-registers.md
                 - name: Izvietošanas vadlīnijas kases sistēmām
                   href: localizations/emea-nor-loc-deployment-guidelines.md
+            - name: Krievija
+              items:
+                - name: Commerce lokalizācija Krievijai
+                  href: localizations/rus-commerce-localization.md
             - name: Zviedrija
               items:
                 - name: Kases sistēmas funkcionalitāte
@@ -2146,6 +2166,8 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/commerce/toc.json
                     - name: Konfigurēt apstiprinājuma darbības
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/commerce/toc.json
+                    - name: Konfigurēt izdevumu pārskatītājus
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/commerce/toc.json
                     - name: Konfigurēt manuālus lēmumus
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/commerce/toc.json
                     - name: Konfigurēt nosacījuma lēmumus
@@ -2558,7 +2580,9 @@
                   href: dev-itpro/extensions-shipping-carrier-integration.md
                 - name: Kanāla datu bāzes paplašinājumi
                   href: dev-itpro/channel-db-extensions.md
-                - name: 'Iespējot pielāgotu CDX sinhronizāciju, izmantojot paplašinājumu'
+                - name: Noņemt mākoņa mēroga vienību paplašinājumus
+                  href: dev-itpro/retail-sdk/remove-csu-package.md
+                - name: "Iespējot pielāgotu CDX\_sinhronizāciju, izmantojot paplašinājumu"
                   href: dev-itpro/cdx-extensibility.md
                 - name: Pasūtījuma atribūtu definēšana un iestatīšana
                   href: dev-itpro/order-attributes.md
