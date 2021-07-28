@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: c3648a2d9df300ecd0c26a12db8093babb3db48f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8c5574efeb1dee372a8ecf8ddb1d1710f63b73a7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838254"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345238"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>Konfigurēt preču filtrus noliktavas darījumiem
 
@@ -46,11 +46,11 @@ Preču filtri nodrošina līdz 10 **Filtra nosaukuma** raksturlielumiem, kas ir 
 1. Laukā **Filtra nosaukums** atlasiet vērtību.
 1. Laukā **Filtra kods** ierakstiet kādu vērtību.
 
-    ![Preču filtra iestatīšana](media/Product_Filters10.png "Preču filtra iestatīšana")
+    ![Preču filtra iestatīšana.](media/Product_Filters10.png "Preču filtra iestatīšana")
 
 1. Laukā **Apraksts** ievadiet koda nosaukumu. Piemēram, *2. kods* varētu atainot kreditorus. Pēc tam varat veidot produktu filtru noteiktam kreditoram vai kreditoru grupai. Papildinformāciju skatiet šīs tēmas nākamajā sadaļā [Kreditoru filtra kodu iestatīšana](#vendor-product-filters).
 
-    ![Preču filtru kopums](media/Product_Filters.png "Preču filtru kopums")
+    ![Preču filtru kopums.](media/Product_Filters.png "Preču filtru kopums")
 
 ## <a name="set-up-product-filter-groups"></a>Iestatiet preču filtru grupas
 
@@ -69,7 +69,7 @@ Lai iestatītu filtru grupas, veiciet šādas darbības.
 1. Laukā **Krājumu grupa** atlasiet krājumu grupu, uz kuru attiecas preču filtrs.
 1. Laukos no **1. koda** līdz **10. kodam** pēc vajadzības atlasiet filtru kodus, ko iekļaut grupā.
 
-    ![Krājumu grupa](media/ProdFilterGroup.png "Krājumu grupa")
+    ![Krājumu grupa.](media/ProdFilterGroup.png "Krājumu grupa")
 
 > [!NOTE]
 > Ja, aizverot formu, saņemat kļūdas ziņojumu, iespējams, trūkst kodu iestatījumi. Lapā **Krājumu grupas** kodus krājumu grupai var padarīt obligātus, atzīmējot izvēles rūtiņas **Piešķirt filtra 1. kodu krājumu grupai**, **Piešķirt filtra 2. kodu krājumu grupai** utt.
@@ -88,7 +88,7 @@ Lai krājumu grupai iestatītu filtru kodus, izpildiet šādas darbības.
 
     Lai atjauninātu izlaisto preci, atveriet lapu **Izlaistās preces informācija** un pēc tam darbību rūtī atlasiet **Rediģēt**. Pēc tam ar kodiem saistītie filtri kļūst pieejami kopsavilkuma cilnē **Noliktava**.
 
-    ![Krājumu grupas](media/ItemGroup10.png "Krājumu grupas")
+    ![Krājumu grupas.](media/ItemGroup10.png "Krājumu grupas")
 
 1. Sadaļā **Krājumu grupas filtrs** atzīmējiet to filtru izvēles rūtiņas, kuriem jāatbilst filtru grupai, lai tie būtu krājuma noklusējuma filtru grupa.
 

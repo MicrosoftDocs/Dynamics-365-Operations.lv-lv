@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 10.0.09
-ms.openlocfilehash: 964ed05eaba2a4dbba904b4ce0e0be33d0925fb5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 20f3c04e5a916524c2c2e8fcb49dfbcd41eb6bb6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753460"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347904"
 ---
 # <a name="power-bi-destination"></a>Power BI galamērķis
 
@@ -30,7 +30,7 @@ Varat konfigurēt galamērķi Microsoft Power BI katram mapes vai faila komponen
 
 Iestatiet **Iespējot** uz **Jā**, lai izmantotu savu ER konfigurāciju datu pārsūtīšanai no savas instances Dynamics 365 Finance uz Microsoft Power BI pakalpojumiem. Pārsūtītie faili tiek glabāti Microsoft SharePoint Server instancē, kas ir jākonfigurē šim mērķim. Papildinformāciju skatiet tēmā [Elektronisko pārskatu veidošanas (ER) konfigurēšana, lai izvilktu datus Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md).
 
-[![Adresāta iestatījumu lapa](./media/ER_Destinations-EnablePowerBIDestination.png)](./media/ER_Destinations-EnablePowerBIDestination.png)
+[![Adresāta iestatījumu lapa.](./media/ER_Destinations-EnablePowerBIDestination.png)](./media/ER_Destinations-EnablePowerBIDestination.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 

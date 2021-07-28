@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f7b28a33dff4af6bf2b97db825a5a8304213f3a0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 57f5d23533c2fd17593648a15745fa770fc01dc4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796490"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345212"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Pasūtījumu paziņojumu parādīšana pārdošanas punktā (POS)
 
@@ -44,7 +44,7 @@ Lai iespējotu paziņojumus par pasūtījumu izpildes vai pasūtījuma atcelšan
     > Paziņojumus var ignorēt lietotāja līmenī. Lai to paveiktu, atveriet darbinieka ierakstu, atlasiet **POS atļaujas** un pēc tam rediģējiet lietotāja paziņojumu abonementu.
 
 1. Dodieties uz sadaļu **Retail un Commerce \> Kanāla iestatīšana \> POS iestatīšana \> POS profili \> Funkcionalitātes profili**. Laukā **Paziņošanas intervāls** norādiet, cik bieži paziņojumi jārāda. Dažiem paziņojumiem sistēmai POS ir jāveic reāllaika izsaukums grāmatvedības programmai. Šie zvani patērē grāmatvedības programmai nepieciešamo datora noslodzi. Tādēļ, iestatot paziņošanas intervālu, jāņem vērā gan uzņēmuma prasības, gan reāllaika izsaukumu grāmatvedības programmai ietekme. Vērtība **0** (nulle) izslēdz paziņojumus.
-1. Pārejiet uz **Mazumtirdzniecība un komercija \> Mazumtirdzniecības un komercijas IT \> Sadales grafiks**. Atlasiet grafiku **1060** (**Personāls**), lai sinhronizētu paziņojumu abonementa iestatījumus, un pēc tam atlasiet **Izpildīt tūlīt**. Tālāk sinhronizējiet atļaujas intervālu, atlasot **1070** (**Kanāla konfigurācija**), un pēc tam atlasiet **Izpildīt tūlīt**.
+1. Pārejiet uz **Mazumtirdzniecība un komercija \> Mazumtirdzniecības un komercijas IT \> Sadales grafiks**. Atlasiet grafiku **1060** (**Personāls**), lai sinhronizētu paziņojumu abonementa iestatījumus, un pēc tam atlasiet **Izpildīt tūlīt**. Tālāk sinhronizējiet atļaujas intervālu, atlasot **1070** (**Kanāla konfigurācija**), un pēc tam atlasiet **Izpildīt tūlīt**.
 
 ## <a name="view-notifications-in-the-pos"></a>Paziņojumu skatīšana programmā POS
 
@@ -72,14 +72,14 @@ Tagad uz POS pogas var parādīt skaitu, lai darbinieki varētu viegli noteikt,
 
 Tālāk attēlā ir parādīts reāllaika satura iestatījumi pogas režģa veidotājā.
 
-![Tiešsaistes satura iestatījumi pogu režģa noformētājā](./media/ButtonGridDesigner.png "Tiešsaistes satura iestatījumi pogu režģa noformētājā")
+![Tiešsaistes satura iestatījumi pogu režģa noformētājā.](./media/ButtonGridDesigner.png "Tiešsaistes satura iestatījumi pogu režģa noformētājā")
 
-Lai parādītu paziņojumu skaitu uz pogas, ir jāpārliecinās, ka tiek atjaunināts atbilstošais ekrāna izkārtojums. Lai noteiktu ekrāna izkārtojumu, ko izmanto POS, augšējā labajā stūrī atlasiet ikonu **Iestatījumi** un piefiksējiet rādītājus **Ekrāna izkārtojuma ID** un **Izkārtojuma izšķirtspēja**. Izmantojot pārlūkprogrammu Edge, dodieties uz lapu **Ekrāna izkārtojums**, atrodiet iepriekš noteiktos rādītājus **Ekrāna izkārtojuma ID** un **Izkārtojuma izšķirtspēja** un atzīmējiet izvēles rūtiņu **Iespējot tiešsaistes saturu**. Dodieties uz **Retail un Commerce\> Retail un Commerce IT \> Sadales grafiks** un palaidiet darbu 1090 (Reģistri), lai sinhronizētu izkārtojuma izmaiņas.
+Lai parādītu paziņojumu skaitu uz pogas, ir jāpārliecinās, ka tiek atjaunināts atbilstošais ekrāna izkārtojums. Lai noteiktu ekrāna izkārtojumu, ko izmanto POS, augšējā labajā stūrī atlasiet ikonu **Iestatījumi** un piefiksējiet rādītājus **Ekrāna izkārtojuma ID** un **Izkārtojuma izšķirtspēja**. Izmantojot pārlūkprogrammu Edge, dodieties uz lapu **Ekrāna izkārtojums**, atrodiet iepriekš noteiktos rādītājus **Ekrāna izkārtojuma ID** un **Izkārtojuma izšķirtspēja** un atzīmējiet izvēles rūtiņu **Iespējot tiešsaistes saturu**. Dodieties uz **Retail un Commerce \> Retail un Commerce IT \> Sadales grafiks** un palaidiet darbu 1090 (Reģistri), lai sinhronizētu izkārtojuma izmaiņas.
 
-![Atrast POS izmantoto ekrāna izkārtojumu](./media/Choose_screen_layout.png "Atrast ekrāna izkārtojumu")
+![Atrast POS izmantoto ekrāna izkārtojumu.](./media/Choose_screen_layout.png "Atrast ekrāna izkārtojumu")
 
 Tālāk attēlā ir parādīts rezultāts, atlasot dažāda izmēra pogu **Augšējā labajā stūrī** vai **Vidū** laukā **Satura pielāgošana**.
 
-![Reāllaika saturs POS pogās](./media/ButtonsWithLiveContent.png "Reāllaika saturs POS pogās")
+![Reāllaika saturs POS pogās.](./media/ButtonsWithLiveContent.png "Reāllaika saturs POS pogās")
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

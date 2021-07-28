@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2020-04-28
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 50cfea6656e1f13532b018784fa64b2aac10fc7f
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 3793dca681e28b90e96469256f368620393704f2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908571"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344274"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>Integrēt Dynamics 365 Supply Chain Management (Līdzekļu pārvaldība) ar Dynamics 365 Guides
 
@@ -56,38 +56,38 @@ Lai saistītu ceļvedi ar uzturēšanas kontrolsaraksta veidni, sekojiet šiem s
     1. Kopsavilkuma cilnē **Uzturēšanas kontrolsaraksta rindas** atlasiet rindu, ar kuru vēlaties saistīt ceļvedi.
     1. Kopsavilkuma cilnē **Saistītie ceļveži** atlasiet **Pievienot ceļvedi**.
 
-        ![Saistīt ceļvedi ar uzturēšanas kontrolsaraksta rindu](media/am-guides-integration-add-guide.png "Saistīt ceļvedi ar uzturēšanas kontrolsaraksta rindu")
+        ![Saistīt ceļvedi ar uzturēšanas kontrolsaraksta rindu.](media/am-guides-integration-add-guide.png "Saistīt ceļvedi ar uzturēšanas kontrolsaraksta rindu")
 
     1. Laukā **Nosaukums** atlasiet ceļvedi un pēc tam atlasiet **Saglabāt**.
 
-        ![Atlasīt ceļvedi Nosaukuma laukā](media/am-guides-integration-select-guide.png "Atlasīt ceļvedi Nosaukuma laukā")
+        ![Atlasīt ceļvedi Nosaukuma laukā.](media/am-guides-integration-select-guide.png "Atlasīt ceļvedi Nosaukuma laukā")
 
 1. Saistīt uzturēšanas kontrolsaraksta veidni ar darba veidu:
 
     1. [Izveidot uzturēšanas darba veidu](setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md#create-a-maintenance-job-type) vai atlasīt jau esošu uzturēšanas darba veidu.
     1. Darbības rūtī atlasiet **Uzturēšanas darba veida noklusējumi**.
 
-        ![Uzturēšanas darba veida noklusējumu poga](media/am-guides-integration-job-defaults.png "Uzturēšanas darba veida noklusējumu poga")
+        ![Uzturēšanas darba veida noklusējumu poga.](media/am-guides-integration-job-defaults.png "Uzturēšanas darba veida noklusējumu poga")
 
     1. Izveidojiet rindu un tad atlasiet **Saglabāt**.
 
-        ![Izveidot rindu](media/am-guides-integration-add-line.png "Izveidot rindu")
+        ![Izveidojiet rindu.](media/am-guides-integration-add-line.png "Izveidot rindu")
 
     1. Darbību rūtī atlasiet **Uzturēšanas kontrolsaraksts**.
 
-        ![Uzturēšanas kontrolsaraksta poga](media/am-guides-integration-maintenance-checklist.png "Uzturēšanas kontrolsaraksta poga")
+        ![Uzturēšanas kontrolsaraksta poga.](media/am-guides-integration-maintenance-checklist.png "Uzturēšanas kontrolsaraksta poga")
 
     1. Kopsavilkuma cilnē **Uzturēšanas kontrolsaraksta rindas** pievienojiet rindu un pēc tam mainiet lauka **Veids** vērtību uz **Veidne**.
 
-        ![Mainīt Veida vērtību](media/am-guides-integration-checklist-lines.png "Mainīt Veida vērtību")
+        ![Mainīt Veida vērtību.](media/am-guides-integration-checklist-lines.png "Mainīt Veida vērtību")
 
     1. Kopsavilkuma cilnē **Rindas detaļas** laukā **Veidne** atlasiet veidni, ar kuru esat saistījis ceļvedi, un pēc tam atlasiet **Saglabāt**.
 
-        ![Atlasīt veidni](media/am-guides-integration-checklist-line-details.png "Atlasīt veidni")
+        ![Atlasīt veidni.](media/am-guides-integration-checklist-line-details.png "Atlasīt veidni")
 
 1. [Izveidot darba pasūtījumu](work-orders/manually-created-workorders.md#create-work-order) un pēc tam atlasīt uzturēšanas darba veidu, kas izmanto uzturēšanas kontrolsaraksta veidni, ar kuru ir saistīts ceļvedis. Ceļvedis ir automātiski saistīts ar darba pasūtījumu.
 
-    ![Atlasīt uzturēšanas darba veidu](media/am-guides-integration-create-work-order.png "Atlasīt uzturēšanas darba veidu")
+    ![Atlasīt uzturēšanas darba veidu.](media/am-guides-integration-create-work-order.png "Atlasīt uzturēšanas darba veidu")
 
 1. Skatiet ceļvedi, kas saistīts ar darba pasūtījumu un darbiniekiem:
 
@@ -95,11 +95,11 @@ Lai saistītu ceļvedi ar uzturēšanas kontrolsaraksta veidni, sekojiet šiem s
     1. [Atveriet uzturēšanas kontrolsarakstu](asset-management-mobile-workspace.md#view-maintenance-checklist-on-a-work-order-job) darba pasūtījumam.
     1. Atlasiet kontrolsaraksta rindu, lai apskatītu saistīto ceļvedi.
 
-        ![Ceļvedis, kas saistīts ar kontrolsaraksta rindu](media/am-guides-integration-show-guide.png "Ceļvedis, kas saistīts ar kontrolsaraksta rindu")
+        ![Ceļvedis, kas saistīts ar kontrolsaraksta rindu.](media/am-guides-integration-show-guide.png "Ceļvedis, kas saistīts ar kontrolsaraksta rindu")
 
     1. Atveriet ceļvedi programmā HoloLens.
 
-        ![Atveriet ceļvedi programmā HoloLens](media/am-guides-integration-hololens-select.png "Atveriet ceļvedi programmā HoloLens")
+        ![Atveriet ceļvedi programmā HoloLens.](media/am-guides-integration-hololens-select.png "Atveriet ceļvedi programmā HoloLens")
 
 > [!NOTE]
 > Varat arī saistīt ceļvedi tieši darba pasūtījuma vai darba veida uzturēšanas kontrolsarakstā.

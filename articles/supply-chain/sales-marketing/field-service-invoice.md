@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 21a77a0289055285f47323803a484c012e662e3a
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: 69399a0e086225bc95c42b01863296a3259162a8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102738"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345456"
 ---
 # <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-supply-chain-management"></a>Sinhronizējiet līguma rēķinus risinājumā Field Service ar brīva teksta rēķiniem risinājumā Supply Chain Management
 
@@ -52,8 +52,8 @@ Lai varētu veikt līguma rēķinu sinhronizāciju, ir nepieciešama tālāk nor
 
 | Field Service  | Supply Chain Management                 |
 |----------------|----------------------------------------|
-| rēķini       | Dataverse debitora brīva teksta rēķinu galvenes |
-| invoicedetails | Dataverse debitora brīva teksta rēķinu rindas   |
+| rēķini       | Dataverse debitora brīva teksta rēķinu galvenes |
+| invoicedetails | Dataverse debitora brīva teksta rēķinu rindas   |
 
 ## <a name="entity-flow"></a>Elementu plūsma
 
@@ -100,11 +100,11 @@ Tālāk esošajos attēlos ir redzams veidnes kartējums līdzeklī Datu integr�
 
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-headers"></a>Līguma rēķini (no Field Service uz Supply Chain Management): Rēķinu galvenes
 
-[![Veidņu kartēšana Rēķinu virsrakstu datu integrācijā](./media/FSFreeTextInvoice1.png)](./media/FSFreeTextInvoice1.png)
+[![Veidņu kartēšana Rēķinu virsrakstu datu integrācijā.](./media/FSFreeTextInvoice1.png)](./media/FSFreeTextInvoice1.png)
 
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-lines"></a>Līguma rēķini (no Field Service uz Supply Chain Management): Rēķinu rindas
 
-[![Veidņu kartēšana Rēķinu rindu datu integrācijā](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
+[![Veidņu kartēšana Rēķinu rindu datu integrācijā.](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

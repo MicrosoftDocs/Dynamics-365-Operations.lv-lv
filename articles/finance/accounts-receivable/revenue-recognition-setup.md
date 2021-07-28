@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 294ad788c97850880b479d3c3c44cc19d55e9a6e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0646f8b6371ffbb5d203f8fd062999fb22613240
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837157"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345630"
 ---
 # <a name="revenue-recognition-setup"></a>Ieņēmumu atzīšanas iestatīšana
 [!include [banner](../includes/banner.md)]
@@ -72,7 +72,7 @@ Ieņēmumu atzīšanas iestatījumi tiek konfigurēti lapas **Virsgrāmatas para
     - Iestatiet šo opciju uz **Nē**, lai ierobežotu labošanas transakcijas grāmatošanu virsgrāmatā. Kad šī opcija ir iestatīta uz **Nē**, debitoru parādos netiek izveidoti papildu dokumenti iekšējās uzskaites labojumam. Kad rēķins ir apmaksāts, segšanas procesā tiek izmantots iepriekšējais uzskaites ieraksts, lai grāmatotu visas termiņatlaides vai visu realizēto peļņu vai zaudējumus.
     - Iestatiet šo opciju uz **Jā**, lai automātiski izveidotu storno dokumentu un jaunu rēķinu labošanas transakcijai debitoru parādos. Tā kā šis labojums ir iekšējās uzskaites labojums, jaunie dokumenti netiek sūtīti vai nodoti debitoram. Storno dokuments tiek nosegts ar sākotnējo rēķinu, un jauno laboto rēķinu apmaksā debitors. Ņemiet vērā, ka visi trīs dokumenti tiek rādīti pārskatos, piemēram, debitora pārskatā.
 
-[![Iestatījumu informācija](./media/revenue-recognition-setup-info.png)](./media/revenue-recognition-setup-info.png)
+[![Iestatījumu informācija.](./media/revenue-recognition-setup-info.png)](./media/revenue-recognition-setup-info.png)
 
 ## <a name="revenue-schedules"></a>Ieņēmumu grafiki
 
@@ -82,7 +82,7 @@ Ja ieņēmumi tiek atzīti pēc atskaites punkta, ieteicams izveidot ieņēmumu 
 
 Ieņēmumu grafiki tiek izveidoti lapā **Ieņēmumu grafiki** (**Ieņēmumu atzīšana \> Iestatīšana \> Ieņēmumu grafiki**).
 
-[![Ieņēmumu grafiki](./media/revenue-recognition-revenue-schedules.png)](./media/revenue-recognition-revenue-schedules.png)
+[![Ieņēmumu grafiki.](./media/revenue-recognition-revenue-schedules.png)](./media/revenue-recognition-revenue-schedules.png)
 
 Ievadiet aprakstošas vērtības laukos **Ieņēmumu grafiks** un **Apraksts**. Tālāk norādītie papildu iestatījumi tiek izmantoti, lai izveidotu ieņēmumu grafiku, kad rēķins ir iegrāmatots.
 
@@ -104,7 +104,7 @@ Ievadiet aprakstošas vērtības laukos **Ieņēmumu grafiks** un **Apraksts**. 
 
 Atlasiet pogu **Detalizēta informācija par ieņēmumu grafiku**, lai skatītu vispārīgos periodus un procentuālās vērtības, kas tiek atzītas katrā periodā. Pēc noklusējuma vērtība **Atzīšanas procentuālā vērtība** tiek vienādi sadalīta atbilstoši periodu skaitam. Ja atzīšanas bāze ir iestatīta kā **Ik mēnesi** vai **Gadījumi**, atzīšanas procentuālo vērtību var mainīt. Mainot atzīšanas procentuālās vērtības, brīdinājuma ziņojums jūs informēs, ka kopsumma nav vienāda ar 100 procentiem. Ja saņemat ziņojumu, varat turpināt rediģēt rindas. Tomēr kopējā procentuālajai vērtībai jābūt vienādai ar 100, pirms aizverat lapu.
 
-[![Detalizēta informācija par ieņēmumu grafiku](./media/revenue-recognition-revenue-schedule-details.png)](./media/revenue-recognition-revenue-schedule-details.png)
+[![Detalizēta informācija par ieņēmumu grafiku.](./media/revenue-recognition-revenue-schedule-details.png)](./media/revenue-recognition-revenue-schedule-details.png)
 
 ## <a name="inventory-setup"></a>Krājumu iestatīšana
 
@@ -139,7 +139,7 @@ Krājumu grupas un izlaistās preces var iestatīt, izmantojot vidējās cenas m
 
 Pēc tam, kad pabeigsit izlaistās preces iestatījumu konfigurēšanu, lapā **Ieņēmumu cenas** (dodieties uz **Ieņēmumu atzīšana \> Iestatīšana \> Krājumu iestatīšana \> Izlaistās preces** un pēc tam darbību rūtī cilnē **Pārdošana** grupā **Ieņēmumu atzīšana** atlasiet **Ieņēmumu cenas**) jums ir manuāli jādefinē ieņēmumu cena, ievadot patiesās vērtības cenu vai vidējo cenu (ja lietojat vidējās cenas metodi).
 
-[![Ieņēmumu cenas](./media/revenue-recognition-revenue-prices.png)](./media/revenue-recognition-revenue-prices.png)
+[![Ieņēmumu cenas.](./media/revenue-recognition-revenue-prices.png)](./media/revenue-recognition-revenue-prices.png)
 
 Ieņēmumu cena, kas tiek definēta manuāli šajā lapā, tiek izmantota, lai noteiktu ieņēmumu cenas sadalījumu katram pārdošanas pasūtījumam, pamatojoties uz definētajiem kritērijiem. Katrs kritērijs tiek saskaņots ar pārdošanas pasūtījuma rindu, lai noteiktu ieņēmumu cenu, kas jāizmanto sadalījuma procesā.
 
@@ -181,7 +181,7 @@ Iestatot komplekta krājumu, lapā **Izlaistās preces** ir jāiestata divi lauk
 
 Pēc tam komponenti ir jāpiešķir komplektam/MK pamatkrājumam lapā **MK versijas** (dodieties uz **Ieņēmumu atzīšana \> Iestatīšana \> Krājumu un preču iestatīšana \> Izlaistās preces** un pēc tam darbību rūtī cilnē **Inženieris** grupā **MK** atlasiet **MK versijas**). Papildinformāciju skatiet MK iestatīšanas dokumentācijā.
 
-[![Izlaistās preces, MK grafiki](./media/revenue-recognition-bom-scheduleds.jpg)](./media/revenue-recognition-bom-scheduleds.jpg)
+[![Izlaistās preces, MK grafiki.](./media/revenue-recognition-bom-scheduleds.jpg)](./media/revenue-recognition-bom-scheduleds.jpg)
 
 Ja komplekta pamatkrājums un komplekta komponenti ir iestatīti sadalei, komplekta ieņēmumu cena tiks sadalīta pa komponentiem, pamatojoties uz to ieņēmumu seguma procentuālajām vērtībām.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c3827c5cff009453c820e70f00bfa4f36d78973f
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 3bf1c8081eea86fd14600174d843447b727d0226
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5755256"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347952"
 ---
 # <a name="modify-row-definition-cells"></a>Rindu definīciju šūnu modificēšana
 
@@ -174,7 +174,7 @@ Rindas definīcijas kolonnā **Formāta kods** formātu kodi **DES**, **LFT**, *
 
 Šajā piemērā lietotājs vēlas novērst virsrakstu un pasvītrojuma zīmju drukāšanu sava pārskata rindai **Kopsumma kasē**, jo nevienā no kases kontiem nebija aktivitātes. Tāpēc 220. rindas (kas saskaņā ar formāta kodu **---** ir formatēšanas rinda) šūnā **Saistītās formulas/rindas/vienības** lietotājs ievada **250**, kas ir tās summas rindas kods, kuru lietotājs vēlas likvidēt.
 
-[![RelatedRowsRowDefinition](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
+[![RelatedRowsRowDefinition.](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
 
 ## <a name="select-the-base-row-for-a-column-calculation"></a>Pamata rindas atlase kolonnas aprēķinam
 Relāciju pārskatā rindas definīcijai piešķiriet vienu vai vairākas pamata rindas, izmantojot formāta kodu **CBR** (pamata rindas maiņa). Pēc tam ar aprēķinu kolonnas definīcijā tiek izmantota atsauce uz pamata rindu. Tālāk minēti daži tipiski CBR aprēķinu piemēri.
@@ -399,7 +399,7 @@ Noteiktas grāmatvedības sistēmas finanšu datos atbalsta kontu atribūtus un 
 2. Veiciet dubultklikšķi uz kolonnas **Saite uz finanšu dimensijām** šūnas.
 3. Dialoglodziņā **Dimensijas**, veiciet dubultklikšķi uz šūnas, kas redzama zem dimensijas nosaukuma.
 4. Dimensijas dialoglodziņā atlasiet **Individuāli vai diapazona**.
-5. Laukā **No** ievadiet sākuma dimensiju vai noklikšķiniet uz ![Pārlūkot](media/browse.gif "Pārlūkot"), lai meklētu pieejamās dimensijas. Lai ievadītu dimensiju diapazonu, ievadiet beigu dimensiju laukā **Uz**.
+5. Laukā **No** ievadiet sākuma dimensiju vai noklikšķiniet uz ![Pārlūkot.](media/browse.gif "Pārlūkot") lai meklētu pieejamās dimensijas. Lai ievadītu dimensiju diapazonu, ievadiet beigu dimensiju laukā **Uz**.
 6. Lai aizvērtu dimensijas dialoglodziņu, noklikšķiniet uz **Labi**. Dialoglodziņā **Dimensijas** attēlota atjauninātā dimensija vai diapazons.
 7. Lai aizvērtu dialoglodziņu **Dimensijas**, noklikšķiniet uz **Labi**.
 
@@ -476,7 +476,7 @@ Tabulā ir aprakstīti dialoglodziņa **Dimensijas** lauki.
 
 | Vienums                | Apraksts |
 |---------------------|-------------|
-| Atsevišķi vai diapazons | Laukā **No** ievadiet konta nosaukumu vai noklikšķiniet uz pogas **Pārlūkot** ![Pārlūkot](media/browse.gif "Pārlūkot"), lai pārlūkotu līdz kontam. Lai atlasītu diapazonu, ievadiet vai uzmeklējiet vērtību laukā **Līdz**. |
+| Atsevišķi vai diapazons | Laukā **No** ievadiet konta nosaukumu vai noklikšķiniet uz pogas **Pārlūkot** ![Pārlūkot.](media/browse.gif "Pārlūkot") lai meklētu kontu. Lai atlasītu diapazonu, ievadiet vai uzmeklējiet vērtību laukā **Līdz**. |
 | Dimensijas vērtību kopa | Laukā **Nosaukums** ievadiet dimensijas vērtību kopas nosaukumu. Lai kopu izveidotu, modificētu, kopētu vai dzēstu, noklikšķiniet uz **Pārvaldīt dimensiju vērtību kopas**. Lauks **Formula** tiek aizpildīts ar formulu no šūnas **Saite uz finanšu dimensijām** šai dimensiju vērtību kopai rindas definīcijā. |
 | Kontu summēšana   | Laukā **Nosaukums** ievadiet vai uzmeklējiet dimensiju summēšanas kontiem. Lauks **Formula** šim summēšanas kontam pārskata definīcijā tiek aizpildīts ar formulu no šūnas **Saite uz finanšu dimensijām**. |
 

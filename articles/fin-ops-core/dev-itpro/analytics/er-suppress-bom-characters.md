@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d5ada93c0192aadac70c38c8c8c4f3af86ff6fc3
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 2b26e31748f97603b0b175f79a8daae2650261d7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893280"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345892"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>Izveidot ER konfigurācijas, lai likvidētu MK rakstzīmes ģenerētos failos
 
@@ -29,14 +29,14 @@ Varat noformēt [elektronisko pārskatu (Electronic Reporting — ER)](general-
 > [!NOTE]
 > Ja formāts ietver nepareizu kodēšanas nosaukumu, saglabājot izmaiņas formāta iestatījumos, tiek parādīts kļūdas ziņojums.
 
-![Saknes elementu pievienošana Formātu noformētāja lapā](./media/er-suppress-bom-characters-image1.gif)
+![Saknes elementu pievienošana Formātu noformētāja lapā.](./media/er-suppress-bom-characters-image1.gif)
 
 Ja kā kodēšanas veidu norādāt **UTF-8**, **UTF-16** vai **UTF-32**, kļūst pieejama opcija **Likvidēt MK rakstzīmes**. Iestatiet šo opciju kā **Jā**, lai likvidētu [baitu pasūtījuma atzīmes (MK) rakstzīmes](/globalization/encoding/byte-order-mark) izejošos failos, kas tiek ģenerēti izpildlaikā,kad tiek palaists rediģējams ER formāts.
 
 > [!NOTE]
 > Ja atstājat tukšu lauku **Kodēšana**, tad tiek izmantota **UTF-8** noklusējuma vērtība.
 
-![Opcijas Likvidēt MK rakstzīmes iestatīšana lapā Formāta veidotājs](./media/er-suppress-bom-characters-image2.gif)
+![Opcijas Likvidēt MK rakstzīmes iestatīšana lapā Formāta veidotājs.](./media/er-suppress-bom-characters-image2.gif)
 
 Lai pārskatītu izpildlaika funkcionalitāti, izpildiet attiecīgo procedūru. Piemēram, izpildiet darbības tēmā [XML elementu XML elementu izpildes atliktā izpilde ER formātos](er-defer-xml-element.md). Kad esat izpildījis soļus sadaļā [Modificēt formātu, lai aprēķins būtu balstīts uz šīs tēmas ģenerēto izvades](er-defer-xml-element.md#modify-the-format-so-that-the-calculation-is-based-on-generated-output) sadaļu, izpildiet šīs papildu darbības.
 
@@ -59,7 +59,7 @@ Lai pārskatītu izpildlaika funkcionalitāti, izpildiet attiecīgo procedūru. 
 
     Pirmā atšķirība, ko pamanīsit, ir faila galvenē. Failā SampleXmlReport.xml ir MK rakstzīme, kurā nav SampleXmlReport (1).xml faila.
 
-    ![Salīdziniet ģenerētos failus failu salīdzinājuma utilītā](./media/er-suppress-bom-characters-image3.png)
+    ![Salīdziniet ģenerētos failus failu salīdzinājuma utilītā.](./media/er-suppress-bom-characters-image3.png)
 
 ## <a name="see-also"></a>Skatiet arī
 

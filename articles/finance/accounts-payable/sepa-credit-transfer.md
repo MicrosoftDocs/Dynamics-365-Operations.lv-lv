@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 11124
+ms.custom:
+- "11124"
+- intro-internal
 ms.assetid: 36b0f870-16d4-4bbb-8da5-e747e69b970d
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 158d96e748b982c87be3f8b08f68d1fdb919aeeb
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 03732ecd5a0cd59d15fa1f9f0691571bd0a19606
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897166"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346454"
 ---
 # <a name="sepa-credit-transfer-overview"></a>SEPA kredīta pārskaitījuma apskats
 
@@ -30,7 +32,7 @@ ms.locfileid: "5897166"
 
 ## <a name="what-is-a-credit-transfer-message"></a>Kas ir kredīta pārskaitījuma ziņojums?
 Kredīta pārskaitījuma ziņojums ir pieprasījums, kuru iniciējošā puse (jūsu uzņēmums) nosūta, lai pārvietotu līdzekļus no sava konta kreditoram. Pastāv daudzi no valstij/reģionam specifiski un bankai specifiski kredīta pārskaitījuma ziņojumu īstenošanas veidi. Daži no tiem tiek izmantoti vienā valstī/reģionā, un daži kļūst par standartiem. Viens no vispāratzītiem globālajiem standartiem ir ISO 20022 un tā iniciēšanas ziņojumi, piemēram, kredīta pārskaitījums. Šajā ilustrācijā parādītas attiecības un segums noteiktiem kredīta pārskaitījuma ziņojumiem. 
-![Kredīta pārskaitījums](./media/credit-transfer.jpg) Kredīta pārskaitījuma ziņojumi 
+![Kredīta pārskaitījums.](./media/credit-transfer.jpg) Kredīta pārsūtīšanas ziņojumi 
 
 ## <a name="what-are-iso-20022-and-sepa-payments"></a>Kas ir ISO 20022 un SEPA maksājumi?
 Vienoto eiro maksājumu zonu (Single Euro Payments Area — SEPA) ir izveidojusi Eiropas Komisija, un tā nosaka, ka visi elektroniskie maksājumi tiek uzskatīti par iekšzemes maksājumiem neatkarīgi no privātpersonas, uzņēmuma vai organizācijas un bankas atrašanās valsts/reģiona. Starp nacionālajiem maksājumiem un pārrobežu maksājumiem nav nekādas atšķirības. SEPA ietver 28 Eiropas Savienības (ES) dalībvalstis, kā arī Islandi, Lihtenšteinu, Norvēģiju, Šveici, Monako un Sanmarīno. SEPA palīdz veidot vienoto maksājumu transakciju tirgus Eiropas Ekonomikas zonā (EEZ). Visbeidzot, paredzams, ka SEPA samazinās maksājumu formātu skaitu, ar kuru ir jāstrādā bankām, uzņēmumiem un privātpersonām. Eiropas Komisija SEPA maksājumiem juridisko pamatu izveidoja ar Maksājumu pakalpojumu direktīvu (Payment Services Directive — PSD). Eiropas Maksājumu padome (European Payments Council — EPC) atbalsta SEPA ar šādām darbībām:

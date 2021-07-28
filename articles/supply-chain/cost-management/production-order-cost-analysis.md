@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12e9446c145752cd74fb71884fcabe9d4bd03c68
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 4d0a298a8f782ae318971e99c03e864fa5a4ef88
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187702"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343654"
 ---
 # <a name="production-order-cost-analysis"></a>Ražošanas pasūtījuma izmaksu analīze
 
@@ -41,7 +41,7 @@ Novirzes norāda ar ražošanas krājumu saistīto reģistrēto ražošanas darb
 
 Šajā diagrammā redzamas četras novirzes, kas attiecas uz ražošanas pasūtījuma faktisko izmaksu un aprēķināto izmaksu starpību krājumu izmaksu ierakstā ražošanas pasūtījuma izpildes beigās. 
 
-![Novirzes, kas norāda uz atšķirībām pabeigtā ražošanas pasūtījumā](./media/control.jpg) 
+![Novirzes, kas norāda uz atšķirībām pabeigtā ražošanas pasūtījumā.](./media/control.jpg) 
 
 Ražošanas novirzes varat analizēt, izmantojot lapu **Novirze** vai pārskatu **Ražošanas novirze**. Izmantojiet displeja opcijas, lai apskatītu detalizētas novirzes pēc krājuma un operāciju resursa vai pēc izmaksu grupas. Izmaksu sadalījuma politika krājumu parametros nosaka, vai novirzes tiek izsekotas pēc izmaksu grupas. Lai skatītu apkopojumu par novirzēm, var izmantot displeja opciju **viena**, **vairākas** un **kopsumma**. Detalizēta informācija par novirzēm var palīdzēt izprast katras noviržu avotu. Lai prognozētu novirzes pirms ražošanas pasūtījuma beigām, analizējiet pārskatā **Novērtētās un faktiski grāmatotās izmaksas** pieejamo detalizēto informāciju.
 

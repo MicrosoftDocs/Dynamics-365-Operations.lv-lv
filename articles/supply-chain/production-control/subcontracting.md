@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 053dff19da6e51d23383d667c340c49f3eff1b27
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 37a82a2bf9fc73b81e5a61b120e7bed73b8c4521
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825186"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346134"
 ---
 # <a name="subcontracting"></a>Apakšlīgumu slēgšana
 
@@ -33,13 +33,13 @@ ms.locfileid: "5825186"
 
 HQUS juridiskā persona ražo augstas kvalitātes skaļruņus. Ražošanas procesa gaitā skaļruņi ir pakļauti tālāk aprakstītajiem trīs operāciju līmeņiem.
 
-- **Iepriekšēja montāža** — tiek samontēts skaļruņa korpuss. Pirms operācijas sākšanas materiālu noliktavā tiek izdots korpusa materiāls.
-- **Pārklāšana** — kad skaļruņa korpuss ir samontēts, tas ir jāpārklāj. Šo operācija pabeidz kreditors (apakšuzņēmējs). Iepriekš samontētais skaļruņa korpuss kopā ar diviem materiāliem tiek nosūtīts apakšuzņēmējam pārklāšanai.
-- **Pabeigšana** — kad apakšuzņēmējs ir pārklājis iepriekš samontēto skaļruņa korpusu, tas tiek atgriezts HQUS juridiskajai personai, lai var pabeigt galīgo skaļruņa montāžu.
+- **Iepriekšēja montāža** — tiek samontēts skaļruņa korpuss. Pirms operācijas sākšanas materiālu noliktavā tiek izdots korpusa materiāls.
+- **Pārklāšana** — kad skaļruņa korpuss ir samontēts, tas ir jāpārklāj. Šo operācija pabeidz kreditors (apakšuzņēmējs). Iepriekš samontētais skaļruņa korpuss kopā ar diviem materiāliem tiek nosūtīts apakšuzņēmējam pārklāšanai.
+- **Pabeigšana** — kad apakšuzņēmējs ir pārklājis iepriekš samontēto skaļruņa korpusu, tas tiek atgriezts HQUS juridiskajai personai, lai var pabeigt galīgo skaļruņa montāžu.
 
 Nākamajā attēlā ir redzamas trīs operācijas un visi materiāli, kuri tajās tiek izmantoti.
 
-![Operācija Iepriekšēja montāža, Pārklāšana un Pabeigšana un tajās izmantotie materiāli](./media/subcontract01_operations-materials.png)
+![Operācija Iepriekšēja montāža, Pārklāšana un Pabeigšana un tajās izmantotie materiāli.](./media/subcontract01_operations-materials.png)
 
 ## <a name="setup"></a>Iestatīt
 
@@ -52,41 +52,41 @@ Pirms kritiskās analīzes uzsākšanas ir jāiestata dati.
 1. Lai atvērtu lapu **Izlaisto preču detalizēta informācija**, atlasiet **Preču informācijas pārvaldība \> Preces \> Izlaistās preces**.
 2. Lai atrastu esošo izlaisto preci, ātrās filtrēšanas laukā ievadiet **D8100**.
 
-    ![Izlaistās preces D8100 filtrēšana izlaisto preču detalizētas informācijas lapā](./media/subcontract02_filtering-released-products.png)
+    ![Izlaistās preces D8100 filtrēšana izlaisto preču detalizētas informācijas lapā.](./media/subcontract02_filtering-released-products.png)
 
 3. Lai atvērtu lapu **Maršruts**, darbību rūts cilnē **Inženieris** atlasiet **Maršruts**.
 
     Lapā **Maršruts** ir redzamas izlaistās preces D8100 astoņas maršruta versijas. Astoņas maršruta versijas tiek sadalītas četras maršrutos vietā Nr. 1 un Nr. 5. Maršruts 000400 tiek izmantots izmaksu aprēķināšanai, maršruts 00041 tiek izmantots, ja operācija Pārklāšana ir iekšēja operācija, un maršruts 00042 tiek izmantots, ja operācija Pārklāšana ir ārēja operācija.
 
-    ![Astoņu maršruta versijas lapā Maršruts](./media/subcontract03_route-page.png)
+    ![Astoņu maršruta versijas lapā Maršruts.](./media/subcontract03_route-page.png)
 
 4. Augšējās rūts režģī **Versijas** atlasiet maršruta versiju **00042** vietai **5**.
 5. Apakšējās rūts režģa cilnē **Pārskats** atlasiet operāciju **20** (**Cbnt CtSc**).
 
-    ![Atlasīta maršruta versijas 00042 operācija 20 vietai Nr. 5](./media/subcontract04_route-version-operation.png)
+    ![Atlasīta maršruta versijas 00042 operācija 20 vietai Nr. 5.](./media/subcontract04_route-version-operation.png)
 
 6. Atlasiet cilni **Vispārēji**.
 
     Ievērojiet, ka ir iestatīta lauka **Maršruta veids** opcija **Kreditors**. Šī vērtība norāda, ka operācija 20 (Cbnt CtSc) ir apakšlīgumā paredzēta operācija.
 
-    ![Lauka Maršruta veids iestatījums Kreditors cilnē Vispārīgi](./media/subcontract05_general-tab.png)
+    ![Lauka Maršruta veids iestatījums Kreditors cilnē Vispārīgi.](./media/subcontract05_general-tab.png)
 
 7. Atlasiet cilni **Resursu pieprasījumi**.
 
     Parametrus izmanto, lai ražošanas plānošanas laikā atrastu attiecīgo resursu. Ievērojiet, ka operācijai 20 (Cbnt CtSc) ir nepieciešams resurss, kam ir divi parametri **Pārklāšana** un **Pārklāti korpusi**.
 
-    ![Parametrs Pārklāšana un Pārklāti korpusi resursu pieprasījumu cilnē](./media/subcontract06_resource-requirements-tab.png)
+    ![Parametrs Pārklāšana un Pārklāti korpusi resursu pieprasījumu cilnē.](./media/subcontract06_resource-requirements-tab.png)
 
 8. Lai atvērtu dialoglodziņu **Izmantojamie resursi**, atlasiet **Izmantojamie resursi**.
 
     Atrasti ir trīs resursi, kas atbilst operācijas resursu pieprasījumiem. Ievērojiet, ka ir resursa 8851 un 8852 veids ir **Kreditors**.
 
-    ![Trīs attiecīgie resursi dialoglodziņā Izmantojamie resursi](./media/subcontract07_applicable-resources-dialog.png)
+    ![Trīs attiecīgie resursi dialoglodziņā Izmantojamie resursi.](./media/subcontract07_applicable-resources-dialog.png)
 
 9. Atlasiet **Labi**, lai aizvērtu dialoglodziņu **Izmantojamie resursi**, un atveriet atkal lapu **Maršruts**.
 10. Aizveriet lapu **Maršruts**, lai atkal atvērtu lapu **Izlaistās preces detalizēta informācija**.
 
-    ![Izlaistās preces detalizētas informācijas lapa](./media/subcontract08_released-product-details-page.png)
+    ![Izlaistās preces detalizētas informācijas lapa.](./media/subcontract08_released-product-details-page.png)
 
 11. Lai atvērtu lapu **MK versijas**, darbību rūts cilnē **Inženieris** atlasiet **MK versijas**.
 
@@ -94,7 +94,7 @@ Pirms kritiskās analīzes uzsākšanas ir jāiestata dati.
 
     Ievērojiet, ka krājums S8050 ir krājuma veida **Pakalpojums** prece. Šis krājums pārstāv apakšuzņēmēja darbu.
 
-    ![Četras MK versijas MK versiju lapā](./media/subcontract09_bom-versions-page.png)
+    ![Četras MK versijas MK versiju lapā.](./media/subcontract09_bom-versions-page.png)
 
 12. Lai atvērtu dialoglodziņu **MK rindas rediģēšana**, kopsavilkuma cilnē **Materiālu komplektu rindas** atlasiet **Rediģēt**.
 
@@ -102,7 +102,7 @@ Pirms kritiskās analīzes uzsākšanas ir jāiestata dati.
 
     Ievērojiet, ka MK rinda ir savienota ar darbību Pārklāšana, izmantojot operācijas numuru (šajā gadījumā 20).
 
-    ![Dialoglodziņš MK rinda rediģēšana](./media/subcontract10_edit-bom-line-dialog.png)
+    ![Dialoglodziņš MK rinda rediģēšana.](./media/subcontract10_edit-bom-line-dialog.png)
 
 ### <a name="create-a-password-for-warehouse-workers"></a>Noliktavā nodarbināto paroļu izveide
 
@@ -111,7 +111,7 @@ Noliktavā nodarbinātajiem, kuri izmanto pārnēsājamu ierīci, ir jānosaka p
 1. Lai atvērtu lapu **Darba lietotāji**, atlasiet **Noliktavas pārvaldība \> Iestatīšana \> Nodarbinātais**.
 2. Kopsavilkuma cilnē **Lietotāji** atlasiet lietotāja rindu **51**.
 
-    ![Darba lietotāju lapa](./media/subcontract11_work-users-page.png)
+    ![Darba lietotāju lapa.](./media/subcontract11_work-users-page.png)
 
 3. Atlasiet **Atiestatīt paroli**.
 4. Laukā **Parole** un **Apstiprināt paroli** ievadiet **1**.
@@ -126,14 +126,14 @@ Ir izveidots preces D8100 “Pārklāts korpuss” 10 gabalu ražošanas pasūt
 1. Lai atvērtu lapu **Visi ražošanas pasūtījumi**, atlasiet **Ražošanas kontrole \> Ražošanas pasūtījumi \> Visi ražošanas pasūtījumi**.
 2. Lai atvērtu dialoglodziņu **Ražošanas pasūtījumu izveide**, darbību rūtī atlasiet **Jauns ražošanas pasūtījums**.
 
-    ![Dialoglodziņš Ražošanas pasūtījumu izveide](./media/subcontract12_create-production-order-dialog.png)
+    ![Dialoglodziņš Ražošanas pasūtījumu izveide.](./media/subcontract12_create-production-order-dialog.png)
 
 3. Laukā **Krājuma numurs** atlasiet **D8100**.
 4. Kad krājuma numurs ir atlasīts, tiek parādīti krājumu dimensiju lauki. Laukā **Krāsa** atlasiet **Hroms**.
 
     Tiek parādīts ziņojuma lodziņš ar jautājumu, vai ir jāievada MK aktīvās versijas un maršruts.
 
-    ![Ziņojuma lodziņš](./media/subcontract13_message-box.png)
+    ![Ziņojuma lodziņš.](./media/subcontract13_message-box.png)
 
 5. Atlasiet **Jā**. 
 
@@ -149,15 +149,15 @@ Ir izveidots preces D8100 “Pārklāts korpuss” 10 gabalu ražošanas pasūt
     > [!NOTE]
     > Lai korpusa pārklāšanu ar apakšlīgumu nodotu kreditoram US-801, gan MK, gan maršrutam tiek izmantota versija 000042.
 
-    ![Dialoglodziņā Ražošanas pasūtījumu izveide iestatītās vērtības](./media/subcontract14_create-production-order-dialog-set.png)
+    ![Dialoglodziņā Ražošanas pasūtījumu izveide iestatītās vērtības.](./media/subcontract14_create-production-order-dialog-set.png)
 
 9. Lai izveidotu ražošanas pasūtījumu, atlasiet **Izveidot** un atgriezieties lapā **Visi ražošanas pasūtījumi**.
 
-    ![Jauns ražošanas pasūtījums lapā Visi ražošanas pasūtījumi](./media/subcontract15_new-production-order.png)
+    ![Jauns ražošanas pasūtījums lapā Visi ražošanas pasūtījumi.](./media/subcontract15_new-production-order.png)
 
 10. Lai atvērtu dialoglodziņu **Aprēķināšana**, darbību rūts cilnē **Ražošanas pasūtījums** atlasiet **Aprēķināt**.
 
-    ![Dialoglodziņš Aprēķināšana](./media/subcontract16_estimate-dialog.png)
+    ![Dialoglodziņš Aprēķināšana.](./media/subcontract16_estimate-dialog.png)
 
 11. Lai apstiprinātu aprēķinu, atlasiet **Labi** un atgriezieties lapā **Visi ražošanas pasūtījumi**.
 
@@ -168,7 +168,7 @@ Ir izveidots preces D8100 “Pārklāts korpuss” 10 gabalu ražošanas pasūt
 
     Ievērojiet, ka pakalpojama krājumam S8050 ir pievienota atsauce uz pirkšanas pasūtījumu, kas tika ģenerēts, kad tikai aprēķināts ražošanas pasūtījums.
 
-    ![Ražošanas pasūtījuma MK rindas MK lapā](./media/subcontract17_production-order-bom-lines.png)
+    ![Ražošanas pasūtījuma MK rindas MK lapā.](./media/subcontract17_production-order-bom-lines.png)
 
 13. Lai atgrieztos lapā **Visi ražošanas pasūtījumi**, aizveriet lapu **MK**.
 14. Lai atvērtu dialoglodziņu **Darba grafika izveide**, darbību rūts cilnē **Grafiks** atlasiet **Izveidot darbu grafiku**.
@@ -177,24 +177,24 @@ Ir izveidots preces D8100 “Pārklāts korpuss” 10 gabalu ražošanas pasūt
     - Laukā **Plānošanas virziens** atlasiet **Sākot no rītdienas**.
     - Iestatiet opcijas **Ierobežota noslodze** vērtību **Jā**.
 
-    ![Dialoglodziņš Darba grafika izveide](./media/subcontract18_job-scheduling-dialog.png)
+    ![Dialoglodziņš Darba grafika izveide.](./media/subcontract18_job-scheduling-dialog.png)
 
 16. Atlasiet **Labi**, lai aizvērtu dialoglodziņu **Darba grafika izveide**, un atveriet atkal lapu **Visi ražošanas pasūtījumi**.
 17. Darbību rūts cilnē **Grafiks** atlasiet **Ganta diagramma**, lai atvērtu lapu **Ganta diagramma — resursu skats**.
 
     Ganta diagramma sniedz vizuālu pārskatu par to, kā tiek izveidots grafiks par ražošanas darbiem, kas saistīti ar resursiem. Ievērojiet, ka ārējā operācija Pārklāšana ietver trīs darbus: procesa darbu, transportēšanas darbu un gaidīšanas laika darbu.
 
-    ![Ganta diagramma lapā Ganta diagramma — resursu skats](./media/subcontract19_gantt-chart.png)
+    ![Ganta diagramma lapā Ganta diagramma — resursu skats.](./media/subcontract19_gantt-chart.png)
 
 18. Lai atgrieztos lapā **Visi ražošanas pasūtījumi**, aizveriet lapu **Ganta diagramma — resursu skats** lapu.
 19. Lai atvērtu dialoglodziņu **Izlaišana**, darbību rūts cilnē **Ražošanas pasūtījums** atlasiet **Izlaist**.
 
-    ![Dialoglodziņš Izlaišana](./media/subcontract20_release-dialog.png)
+    ![Dialoglodziņš Izlaišana.](./media/subcontract20_release-dialog.png)
 
 20. Lai dialoglodziņu **Izlaišana** aizvērtu, atlasiet **Labi**.
 21. Lai atvērtu dialoglodziņu **Automātiska MK un formulas rindu izlaide**, atlasiet **Ražošanas kontrole \> Regulārie uzdevumi \> Izlaišana uz noliktavu \> Automātiska MK un formulas rindu izlaide**.
 
-    ![Dialoglodziņš Automātiska MK un formulas rindu izlaide](./media/subcontract21_auto-release-bom-formula-lines-dialog.png)
+    ![Dialoglodziņš Automātiska MK un formulas rindu izlaide.](./media/subcontract21_auto-release-bom-formula-lines-dialog.png)
 
 22. Lai palaistu automātisko MK un formulas rindu darbu, atlasiet **Labi**.
 
@@ -206,7 +206,7 @@ Ir izveidots preces D8100 “Pārklāts korpuss” 10 gabalu ražošanas pasūt
 
     Ievērojiet, ka lapā ir redzami divi izejmateriālu izdošanas darbu komplekti. Pirmais darbs attiecas uz materiālu M8100 un M8101. Šie materiāli tiek izmantoti operācijā 10. Otrais darbs attiecas uz materiālu M8202 un M8250. Šie materiāli tiek izmantoti operācijā 20, kas ir apakšlīgumā paredzētā darbība.
 
-    ![Divi izejmateriālu izdošanas darbu komplekti lapā Darbs](./media/subcontract22_work-page.png)
+    ![Divi izejmateriālu izdošanas darbu komplekti lapā Darbs.](./media/subcontract22_work-page.png)
 
 26. Lai apstrādātu noliktavas darba operāciju 10, palaidiet Warehouse Managemen mobile programmu.
 
@@ -220,7 +220,7 @@ Ir izveidots preces D8100 “Pārklāts korpuss” 10 gabalu ražošanas pasūt
     - Laukā **No operācijas Nr.** atlasiet **10**.
     - Laukā **Uz operācijas Nr.** atlasiet **10**.
 
-    ![Cilnē Vispārīgi iestatītās vērtības 1](./media/subcontract23_start-dialog.png)
+    ![Cilnē Vispārīgi iestatītās vērtības 1.](./media/subcontract23_start-dialog.png)
 
 31. Atlasiet **Labi**, lai aizvērtu dialoglodziņu **Sākšana**, un atveriet atkal lapu **Visi ražošanas pasūtījumi**.
 
@@ -238,7 +238,7 @@ Ir izveidots preces D8100 “Pārklāts korpuss” 10 gabalu ražošanas pasūt
     - Laukā **Daudzums** ievadiet **10**.
     - Iestatiet opcijas **Grāmatot izdošanas sarakstu tagad** vērtību **Nē**.
 
-    ![Cilnē Vispārīgi iestatītās vērtības 2](./media/subcontract24_general-tab.png)
+    ![Cilnē Vispārīgi iestatītās vērtības 2.](./media/subcontract24_general-tab.png)
 
 35. Atlasiet **Labi**, lai aizvērtu dialoglodziņu **Sākšana**, un atveriet atkal lapu **Visi ražošanas pasūtījumi**.
 
@@ -247,57 +247,57 @@ Ir izveidots preces D8100 “Pārklāts korpuss” 10 gabalu ražošanas pasūt
 36. Darbību rūts cilnē **Skats** atlasiet **Izdošanas saraksts**, lai atvērtu lapu **Izdošanas saraksts**.
 37. Atlasiet izdošanas sarakstu, kas nav iegrāmatotas, un pēc tam atlasiet žurnāla numuru, lai skatītu žurnāla rindas.
 
-    ![Žurnāla rindas lapā Izdošanas saraksts](./media/subcontract25_picking-list.png)
+    ![Žurnāla rindas lapā Izdošanas saraksts.](./media/subcontract25_picking-list.png)
 
 38. Darbību rūtī atlasiet **Drukāt** \> **Izdošanas saraksta pārskats**, lai atvērtu dialoglodziņu **Izdošanas saraksta pārskats**.
 39. Iestatiet opcijas **Izmantot piegādes pavadzīmes izkārtojumu** vērtību **Jā**.
 
-    ![Dialoglodziņš Izdošanas saraksta pārskats](./media/subcontract26_picking-list-report-dialog.png)
+    ![Dialoglodziņš Izdošanas saraksta pārskats.](./media/subcontract26_picking-list-report-dialog.png)
 
 40. Lai ģenerētu pārskatu **Izdošanas saraksts**, atlasiet **Labi**.
 
     Šajā gadījumā kreditora piegādes pavadzīme tiek drukāta no ražošanas izdošanas saraksta žurnāla. Piegādes pavadzīmē ir norādīti materiāli, kas tiek nosūtīti kreditoram, kurš veic operāciju Pārklāšana.
 
-    ![Izdošanas saraksta pārskats](./media/subcontract27_picking-list-report.png)
+    ![Izdošanas saraksta pārskats.](./media/subcontract27_picking-list-report.png)
 
 41. Lai atgrieztos lapā **Izdošanas saraksts**, aizveriet pārskatu **Izdošanas saraksts**.
 42. Darbību rūtī atlasiet **Grāmatot**, lai atvērtu dialoglodziņu **Žurnāla grāmatošana**.
 
-    ![Dialoglodziņš Žurnāla grāmatošana](./media/subcontract28_post-journal-dialog.png)
+    ![Dialoglodziņš Žurnāla grāmatošana.](./media/subcontract28_post-journal-dialog.png)
 
 43. Lai dialoglodziņu **Žurnāla grāmatošana** aizvērtu, atlasiet **Labi**.
 44. Atveriet pirkšanas pasūtījumu.
 
-    ![Pirkšanas pasūtījuma lapa](./media/subcontract29_purchase-order-page.png)
+    ![Pirkšanas pasūtījuma lapa.](./media/subcontract29_purchase-order-page.png)
 
 45. Darbību rūts cilnē **Pirkums** atlasiet **Apstiprināt**.
 46. Atlasiet **Grāmatot**, lai atvērtu dialoglodziņu **Žurnāla grāmatošana**.
 47. Atlasiet **Labi**, lai aizvērtu dialoglodziņu **Žurnāla grāmatošana**, un atveriet atkal lapu **Pirkšanas pasūtījums**.
 48. Mainiet vienības cenu no **33** uz **40**.
 
-    ![Pirkšanas pasūtījuma lapā mainīta vienības cena](./media/subcontract30_unit-price.png)
+    ![Pirkšanas pasūtījuma lapā mainīta vienības cena.](./media/subcontract30_unit-price.png)
 
 49. Vēlreiz apstipriniet pirkšanas pasūtījumu.
 50. Preces ieejas plūsma.
 
-    ![Dialoglodziņš Preces ieejas plūsmas grāmatošana](./media/subcontract31_posting-product-receipt-dialog.png)
+    ![Dialoglodziņš Preces ieejas plūsmas grāmatošana.](./media/subcontract31_posting-product-receipt-dialog.png)
 
 51. Pirkšanas rēķins.
 52. Atjauniniet atbilstības statusu.
 
-    ![Kreditora rēķinu lapa](./media/subcontract32_vendor-invoice-page.png)
+    ![Kreditora rēķinu lapa.](./media/subcontract32_vendor-invoice-page.png)
 
 53. Sniedziet pārskatu, ka prece ir pabeigta.
 
-    ![Dialoglodziņš Pārskata par preces pabeigšanu sniegšana](./media/subcontract33_report-as-finished-dialog.png)
+    ![Dialoglodziņš Pārskata par preces pabeigšanu sniegšana.](./media/subcontract33_report-as-finished-dialog.png)
 
 54. Nobeidziet procesu.
 
-    ![Dialoglodziņš Beigšana](./media/subcontract34_end-dialog.png)
+    ![Dialoglodziņš Beigšana.](./media/subcontract34_end-dialog.png)
 
 55. Izmaksu salīdzinājums.
 
-    ![Izmaksu salīdzinājuma diagrammas](./media/subcontract35_cost-comparison-charts.png)
+    ![Izmaksu salīdzinājuma diagrammas.](./media/subcontract35_cost-comparison-charts.png)
 
 Trūkstoši datu iestatījumi.
 

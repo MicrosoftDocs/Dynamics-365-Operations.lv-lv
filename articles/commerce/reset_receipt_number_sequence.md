@@ -16,12 +16,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: cabce32a43e55f3a3f19bc2d78547d9bab0d89a2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a08d14369057ceb9b23e9d6f9a79847c6175f88e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792053"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345086"
 ---
 # <a name="reset-receipt-numbers"></a>Atiestatīt kvīšu numurus 
 
@@ -49,13 +49,13 @@ Varat atiestatīt kvītis secīgu numerāciju noteiktā datumā. Pēc tam pirmaj
 
 Lai aktivizētu atiestatīšanu, veiciet tālāk minētās darbības.
 
-1. Dodieties uz sadaļu **Retail un Commerce\> Kanāla iestatīšana \> POS iestatīšana \> POS profili \> Funkcionalitātes profili**.
+1. Dodieties uz sadaļu **Retail un Commerce \> Kanāla iestatīšana \> POS iestatīšana \> POS profili \> Funkcionalitātes profili**.
 1. **Kvīts numerācijas** kopsavilkuma cilnē atlasiet **Atiestatīt numura atiestatīšanas datumu**.
 1. Nolaižamajā dialoglodziņā laukā **Atiestatīt datumu** atlasiet nākotnes datumu, kad jāveic atiestatīšana.
 1. Laukā **Atiestatīt kvīts veidu** atlasiet **Tikai vienu reizi** vai **Katru gadu**.
 1. Atlasiet **Labi**.
 
-![Kvīts atiestatīšanas datuma atlasīšana](media/Enable_receipt_reset.png "Kvīts atiestatīšanas datuma atlasīšana")
+![Kvīts atiestatīšanas datuma atlasīšana.](media/Enable_receipt_reset.png "Kvīts atiestatīšanas datuma atlasīšana")
 
 Pēc datuma atlasīšanas tas parādās kolonnā **Nākamais kvīts numura atiestatīšanas datums**, Atiestatīšanas datums ir piemērojams visiem kvīšu darījumu tipiem. Tāpēc kvīts numuru sērija tiks atiestatīta visiem kvīšu veidiem.
 

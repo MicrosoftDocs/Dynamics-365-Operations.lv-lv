@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 52aba53b5323a9c6c4331cd8de7e932bb9c3547e
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: bb7844a009bc35f7151827b8e675cb39f71459fd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893205"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345742"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Elektronisko pārskatu veidošanas (ER) konfigurācijas dzīves cikla pārvaldība
 
@@ -80,7 +80,7 @@ Tālāk minēto ar ER saistīto apsvērumu dēļ ER konfigurācijas ir ieteicams
 
 Izstrādes vidē izstrādātās ER konfigurācijas var [augšupielādēt](#data-persistence-consideration) testēšanas vidē konfigurācijas novērtēšanai (pareiza procesu integrācija, pareizi rezultāti un veiktspēja) un kvalitātes nodrošināšanai (pareizas lomu piekļuves tiesības un pienākumu sadale). Šim nolūkam var izmantot ER konfigurāciju apmaiņas līdzekļus. Apstiprinātās ER konfigurācijas var augšupielādēt LCS, lai tās koplietotu ar pakalpojumu abonentiem, vai tās var [importēt](#data-persistence-consideration) ražošanas vidē iekšējai izmantošanai.
 
-![ER konfigurācijas dzīves cikls](./media/ger-configuration-lifecycle.png)
+![ER konfigurācijas dzīves cikls.](./media/ger-configuration-lifecycle.png)
 
 ## <a name="data-persistence-consideration"></a><a name="data-persistence-consideration" />Datu noturības apsvērumi
 

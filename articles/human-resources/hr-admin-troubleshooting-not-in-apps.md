@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 17a454cd32a08db105a13577c32368ad819bed1c
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 292db7e430bf0f2171f2b0a482ad70250774caec
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053380"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346350"
 ---
 # <a name="human-resources-doesnt-appear-in-microsoft-dynamics-365-apps"></a>Human Resources neparādās Microsoft Dynamics 365 programmās
 
@@ -39,11 +39,11 @@ Lietotājs ir jāpievieno lomai Vides veidotājs programmas Microsoft Power Apps
 
 3. Cilnē **Drošība**, cilnē **Vides lomas** atlasiet **Vides veidotājs**.
 
-    ![Cilne Vides lomas](media/environment-roles.png)
+    ![Cilne Vides lomas.](media/environment-roles.png)
 
 4. Cilnē **Lietotāji** pievienojiet lietot. vai savu org.
 
-    ![Cilne Lietotāji](media/environment-maker.png)
+    ![Cilne Lietotāji.](media/environment-maker.png)
 
 5. Atlasiet **Saglabāt**.
 

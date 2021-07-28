@@ -13,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: eae1e722a7c4d819cbca398eb14a2b36fa04eec5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6844f3962562a02609333ef7d6963801852af4b0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830766"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344150"
 ---
 # <a name="work-split"></a>Darba sadale
 
@@ -51,7 +51,7 @@ Pēc tam ieslēdziet līdzeli *Darba sadale*, kas ir norādīts tālāk norādī
 - **Sadalīt darbu** – sadala pašreizējā darba ID vairākos mazākos darba ID, kurus var apstrādāt atsevišķi darbinieki.
 - **Atcelt darba sadales sesiju** — atceļ darba sadales sesiju un padara darbu pieejamu apstrādei.
 
-![Pogas Darba sadale un Atcelt darba sadales sesiju](media/Work_split_buttons.png "Pogas Darba sadale un Atcelt darba sadales sesiju")
+![Pogas Darba sadale un Atcelt darba sadales sesiju.](media/Work_split_buttons.png "Pogas Darba sadale un Atcelt darba sadales sesiju")
 
 > [!IMPORTANT]
 > Poga **Darba sadale** nav pieejama, ja ir izpildīts kāds no tālāk minētajiem nosacījumiem.
@@ -94,7 +94,7 @@ Lai sadalītu darbu, veiciet tālāk norādītās darbības.
 
     Lauks pašreizējam darbam **Darba aizturēšanas iemesls** tiks iestatīts uz *Sadalīt darbu*, un darbs tiks aizturēts.
 
-    ![Aizturēšanas iemesls](media/Blocking_reason.png "Aizturēšanas iemesls")
+    ![Aizturēšanas iemesls.](media/Blocking_reason.png "Aizturēšanas iemesls")
 
 1. Atlasiet rindas, kas jānoņem no pašreizējā darba ID un jāpievieno jaunā darba ID. Notiek tālāk aprakstītie notikumi:
 

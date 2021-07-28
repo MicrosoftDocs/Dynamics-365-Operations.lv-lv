@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bf211e9f256a7489cdc3c38ed2d2198bd1dd6789
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 86474d22f7a1426ed1c8f61c346ac7a6f67173f2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813825"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345432"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>Prognozes, darba pasūtījumi un projekti
 
@@ -58,13 +58,13 @@ Daļa no šīs informācijas var nebūt atrodama darba pasūtījumā. Tādēļ d
 
 Piemēram, sekojošajā ilustrācijā, ņemot vērā to, ka ir iestatīts **Kravas automašīnas programmas** līdzekļa tips, katrs darba pasūtījuma uzdevums, kas tiek izveidots ar **Kravas automašīnas programmas** līdzekļa tipu, būs projekta ID 000186 apakšprojekts.
 
-![1. attēls](media/01-integration-to-pma.png)
+![1. attēls.](media/01-integration-to-pma.png)
 
 Projekta ID, kas ir paredzēts darba pasūtījuma uzdevumā, un saistītā aktivitātes numura mērķis, ir izsekot izmaksas, kas ir saistītas ar darba pasūtījuma uzdevumu un līdzekli, kas tam atlasīts **Projekta vadības un uzskaites** modulī. (Lai skatītu projekta ID un aktivitātes numuru, atlasiet **Pamatlīdzekļu pārvaldība** > **Kopīgie** > **Darba pasūtījumi** > **Visi darba pasūtījumi** un pēc tam atlasiet darba pasūtījumu. **Rindas detaļas** kopsavilkuma cilnē lauks **Projekta ID** rāda projekta ID, un **Aktivitātes numurs** lauks rāda aktivitātes numuru.) Lai iegūtu vairāk informācijas par izmaksu kontroli Pamatlīdzekļu pārvaldībā, skatiet [Izmaksu un datumu kontrole](../controlling-and-reporting/cost-and-date-control.md).
 
 Sekojošā ilustrācija rāda grafisku pārskatu par darba pasūtījumu projektiem un atbilstošām projektu aktivitātēm.
 
-![2. attēls](media/02-integration-to-pma.png)
+![2. attēls.](media/02-integration-to-pma.png)
 
 Darba pasūtījumā veidojot jaunu darba pasūtījuma uzdevumu, automātiski uzdevumam tiek izveidots darba pasūtījuma projekts. Finanšu dimensijas līdzeklim, kas atbilst darba pasūtījuma uzdevumam, automātiski tiek pārceltas uz darba pasūtījuma projektu.
 
@@ -86,17 +86,17 @@ Lai palīdzētu nodrošināt pareizu darba pasūtījumu dzīves cikla stāvokļu
 
 Sekojošās ilustrācijas parāda saistības starp darba pasūtījumu projektu grupām, atbilstošajiem projektu tipiem, projektu posmiem un darba pasūtījumu dzīves cikla stāvokļiem.
 
-![3. attēls](media/03-integration-to-pma.png)
+![3. attēls.](media/03-integration-to-pma.png)
 
-![4. attēls](media/04-integration-to-pma.png)
+![4. attēls.](media/04-integration-to-pma.png)
 
-![5. attēls](media/05-integration-to-pma.png)
+![5. attēls.](media/05-integration-to-pma.png)
 
 Papildinformāciju par darba pasūtījumu veidu iestatīšanu skatiet sadaļā [Darba pasūtījumu projektu iestatīšana](../setup-for-work-orders/work-order-project-setup.md). Lai iegūtu vairāk informācijas par to, kā izveidot darba pasūtījumu dzīves cikla stāvokļus, skatiet sadaļu [Darba pasūtījuma dzīves cikla stāvokļi](../setup-for-work-orders/work-order-lifecycle-states.md).
 
 Sekojošajā ilustrācijā redzams grafisks pārskats par dažādiem projektiem, kas izveidoti **Līdzekļu pārvaldības** modulī, lai iespējotu integrāciju ar **Projektu vadības un uzskaites** moduli. Tas arī rāda darba procesus, ar kuriem projekti ir saistīti.
 
-![6. attēls](media/06-integration-to-pma.png)
+![6. attēls.](media/06-integration-to-pma.png)
 
 
 

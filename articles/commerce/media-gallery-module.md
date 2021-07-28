@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e9af56a8a82938fa7d23e8096db2c59ed5fcb517
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 1d8e8ce51d9e7f962a4d4e39db502089d846d748
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271284"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346720"
 ---
 # <a name="media-gallery-module"></a>Multivides galerijas modulis
 
@@ -41,11 +41,11 @@ Piedāvājam dažus lietojuma piemērus plašsaziņas līdzekļu galerijas modu�
 
 Piemērā nākamajā attēlā ir norādīta, ka pirkšanas lodziņš uz PDP vieso preču attēlus, izmantojot multivides galerijas moduli.
 
-![Pirkšanas lodziņa piemērs preču informācijas lapā, kas vieso preču attēlus, izmantojot multivides galerijas moduli](./media/ecommerce-pdp-buybox.PNG)
+![Pirkšanas lodziņa piemērs preču informācijas lapā, kas vieso preču attēlus, izmantojot multivides galerijas moduli.](./media/ecommerce-pdp-buybox.PNG)
 
 ## <a name="media-gallery-properties"></a>Multivides galerijas rekvizīti
 
-| Rekvizīta nosaukums | Vērtības | apraksts |
+| Rekvizīta nosaukums | Vērtības | Apraksts |
 |---------------|--------|-------------|
 | Attēla avots | **Lapas konteksts** vai **Preces ID** | Noklusējuma vērtība ir **Lapas konteksts**. Ja ir atlasīts **Lapas konteksts**, modulis sagaida, ka lapa nodrošinās preces ID informāciju. Ja ir izvēlēts **Preces ID**, preces ID attēlam jābūt norādītam kā **Preces ID** rekvizīta vērtībai. Šī iespēja ir pieejama Commerce versijā 10.0.12. |
 | Preces ID | Preces ID | Šis rekvizīts ir piemērojams tikai tad, ja **Attēla avota** rekvizīta vērtība ir **Preces ID**. |
@@ -59,11 +59,11 @@ Piemērā nākamajā attēlā ir norādīta, ka pirkšanas lodziņš uz PDP vies
 
 Sekojošajā attēlā ir parādīts plašsaziņas galerijas moduļa piemērs, kurā ir pieejamas pilnekrāna un tālummaiņas opcijas.
 
-![Plašsaziņas galerijas moduļa piemērs, kurā ir pieejamas pilnekrāna un tālummaiņas opcijas](./media/ecommerce-media-zoom.png)
+![Plašsaziņas galerijas moduļa piemērs, kurā ir pieejamas pilnekrāna un tālummaiņas opcijas.](./media/ecommerce-media-zoom.png)
 
 Sekojošajā attēlā ir parādīts tādas multivides galerijas moduļa piemērs, kurā ir pārraudzīti attēli (t.i., norādītie attēli nav atkarīgi no produkta ID vai lapas konteksta).
 
-![Multivides galerijas moduļa piemērs, kurā ir pārraudzīti attēli](./media/ecommerce-media-curated.PNG)
+![Multivides galerijas moduļa piemērs, kurā ir pārraudzīti attēli.](./media/ecommerce-media-curated.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Commerce Scale Unit mijiedarbība
 

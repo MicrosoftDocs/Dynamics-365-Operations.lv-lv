@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 7fbec962fea374afdbabaad48a42dad380708678
-ms.sourcegitcommit: dbffde1944b9d037124415c28053036c9ef1ecb7
+ms.openlocfilehash: 23b965bb51a4323164ae52bf70050133c9c9c9da
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6295577"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344886"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>ER formātu izpildes izsekošana, lai novērstu veiktspējas problēmas
 
@@ -56,14 +56,14 @@ Nepieciešams arī lejupielādēt un lokāli saglabāt tālāk norādītos failu
 
 Katra ER veiktspējas izsekošana, kas tiek ģenerēta programmā, tiek saglabāta kā izpildes žurnāla ieraksta pielikums. Šo pielikumu pārvaldībai tiek izmantota dokumentu pārvaldības (Document Management — DM) struktūras. Vispirms ir jākonfigurē ER parametri, lai norādītu DM dokumenta tipu, kas jāizmanto veiktspējas izsekošanas pievienošanai. Darbvietā **Elektronisko pārskatu veidošana** atlasiet saiti **Elektronisko pārskatu veidošanas parametri**. Pēc tam lapas **Elektronisko pārskatu veidošanas parametri** cilnes **Pielikumi** laukā **Citi** atlasiet DM dokumenta tipu, kas tiks izmantots veiktspējas izsekošanai.
 
-![Elektronisko pārskatu veidošanas parametru lapa](./media/GER-PerfTrace-GER-Parameters-DocumentType.png)
+![Elektronisko pārskatu veidošanas parametru lapa.](./media/GER-PerfTrace-GER-Parameters-DocumentType.png)
 
 Lai DM dokumenta tips būtu pieejams uzmeklēšanas laukā **Citi**, tas ir jākonfigurē lapā **Dokumentu tipi** (**Organizācijas administrēšana \> Dokumentu pārvaldība \> Dokumentu tipi**) šādā veidā:
 
 - **Klase:** Pievienot failu
 - **Grupa:** Fails
 
-![Dokumentu veidu lapa](./media/GER-PerfTrace-DM-DocumentType.png)
+![Lapa Dokumentu tipi.](./media/GER-PerfTrace-DM-DocumentType.png)
 
 > [!NOTE]
 > Atlasītajam dokumenta tipam jābūt pieejamam ikvienā pašreizējās instances uzņēmumā, jo DM pielikumi attiecas tikai uz konkrētu uzņēmumu.
@@ -72,7 +72,7 @@ Lai DM dokumenta tips būtu pieejams uzmeklēšanas laukā **Citi**, tas ir jāk
 
 ER veiktspējas izsekošana, kas tiek ģenerēta, tiks importēta RCS analīzes veikšanai, izmantojot ER formāta noformētāju un ER kartēšanas noformētāju. Tā kā ER veiktspējas izsekošana tiek uzglabāta kā izpildes žurnāla ieraksta pielikums, kas ir saistīts ar ER formātu, RCS parametri ir jākonfigurē iepriekš, lai norādītu DM dokumenta tipu, kas jāizmanto veiktspējas izsekošanas pievienošanai. Tādā RCS instancē, kas nodrošināta jūsu uzņēmumam, darbvietā **Elektronisko pārskatu veidošana** atlasiet **Elektronisko pārskatu veidošanas parametri.** Pēc tam lapas **Elektronisko pārskatu veidošanas parametri** cilnes **Pielikumi** laukā **Citi** atlasiet DM dokumenta tipu, kas tiks izmantots veiktspējas izsekošanai.
 
-![Lapa Elektronisko pārskatu veidošanas parametri pakalpojumā RCS](./media/GER-PerfTrace-RCS-Parameters-DocumentType.png)
+![Lapa Elektronisko pārskatu veidošanas parametri pakalpojumā RCS.](./media/GER-PerfTrace-RCS-Parameters-DocumentType.png)
 
 Lai DM dokumenta tips būtu pieejams uzmeklēšanas laukā **Citi**, tas ir jākonfigurē lapā **Dokumentu tipi** (**Organizācijas administrēšana \> Dokumentu pārvaldība \> Dokumentu tipi**) šādā veidā:
 
@@ -92,7 +92,7 @@ Pieņemsim, ka esat sācis izstrādāt jaunu ER risinājumu, lai ģenerētu jaun
     2. Atlasiet **Pārlūkot**, lai atlasītu atbilstošu failu nepieciešamajai ER konfigurācijai XML formātā.
     3. Atlasiet **Labi**.
 
-    ![Lapa Konfigurācijas pakalpojumā RCS](./media/GER-PerfTrace-RCS-ImportedConfigurations.png)
+    ![Lapa Konfigurācijas pakalpojumā RCS.](./media/GER-PerfTrace-RCS-ImportedConfigurations.png)
 
 ## <a name="run-the-er-solution-to-trace-execution"></a>Palaidiet ER risinājumu, lai izsekotu izpildi
 
@@ -156,7 +156,7 @@ Datu modeļa un modeļa kartējuma konfigurāciju atbilstošās versijas automā
     > [!NOTE]
     > Parametri dialoglodziņā **Lietotāja parametri** dialoglodziņā ir raksturīgi lietotājam un pašreizējam uzņēmumam.
 
-    ![Lietotāja parametru dialoglodziņš](./media/GER-PerfTrace-GER-UserParameters.png)
+    ![Lietotāja parametru dialoglodziņš.](./media/GER-PerfTrace-GER-UserParameters.png)
 
 ### <a name="run-the-er-format"></a><a id='run-format'></a>ER formāta palaišana
 
@@ -177,11 +177,11 @@ Veiktspējas izsekošana ir atdalīta no avota ER formāta, un to var serializē
 2. Lapā **Elektronisko pārskatu palaišanas žurnāli**, kreisajā rūtī, laukā **Konfigurācijas nosaukums** atlasiet **Veiktspējas izsekošanas formāts**, lai atrastu žurnāla ierakstus, kas ģenerēti, izpildot konfigurāciju **Veiktspējas izsekošanas formāts**.
 3. Atlasiet pogu **Pielikumi** (papīra saspraudes simbols) lapas augšējā labajā stūrī vai nospiediet **Ctrl+Shift+A**.
 
-    ![Poga Pielikumi lapā Elektronisko pārskatu palaišanas žurnāli](./media/GER-PerfTrace-GER-DebugLog.png)
+    ![Poga Pielikumi lapā Elektronisko pārskatu palaišanas žurnāli.](./media/GER-PerfTrace-GER-DebugLog.png)
 
 4. Lapas **Elektronisko pārskatu palaišanas žurnālu pielikumi** darbību rūtī atlasiet **Atvērt**, lai iegūtu veiktspējas izsekošanu kā zip failu un saglabātu to lokāli.
 
-    ![Elektronisko pārskatu palaisanas žurnālu pielikumi](./media/GER-PerfTrace-GER-DebugLog-AttachedTrace.png)
+    ![Elektronisko pārskatu palaisanas žurnālu pielikumi.](./media/GER-PerfTrace-GER-DebugLog-AttachedTrace.png)
 
 > [!NOTE]
 > Ģenerētajai izsekošanai ir atsauce uz avota ER pārskatu, izmantojot unikālu pārskata identifikatoru tikai **GUID** formātā. Formāta versijas numerācija netiek ņemta vērā.
@@ -198,7 +198,7 @@ Veiktspējas izsekošana ir atdalīta no avota ER formāta, un to var serializē
 6. Lai atlasītu iepriekš eksportētu .axtr failu, atlasiet **Pārlūkot** .
 7. Atlasiet **Labi**.
 
-    ![Dialoglodziņš Veiktspējas izsekošanas rezultātu iestatījumi pakalpojumā RCS](./media/GER-PerfTrace-RCS-ImportedPerfTrace.png)
+    ![Dialoglodziņš Veiktspējas izsekošanas rezultātu iestatījumi pakalpojumā RCS.](./media/GER-PerfTrace-RCS-ImportedPerfTrace.png)
 
 ### <a name="use-the-performance-trace-for-analysis-in-rcs--format-execution"></a>Veiktspējas izsekošanas izmantošana analīzes veikšanai pakalpojumā RCS — formāta izpilde
 
@@ -209,7 +209,7 @@ Veiktspējas izsekošana ir atdalīta no avota ER formāta, un to var serializē
     - Faktiskais laiks, kas patērēts, ievadot datus ģenerētajā izvadē, izmantojot formāta vienumu
     - Tas pats laiks, kas izteikts procentos no kopējā laika, kurš patērēts, ģenerējot visu izvadi
 
-    ![Formāta noformētāja lapa pakalpojumā RCS](./media/GER-PerfTrace-RCS-TraceInfoInFormat.png)
+    ![Formāta noformētāja lapa pakalpojumā RCS.](./media/GER-PerfTrace-RCS-TraceInfoInFormat.png)
 
 2. Aizveriet lapu **Formāta noformētājs**.
 
@@ -232,7 +232,7 @@ Veiktspējas izsekošana ir atdalīta no avota ER formāta, un to var serializē
 - Viens izsaukums tiek veikts, lai ievadītu informāciju par katru transakciju datu modelī, pamatojoties uz konfigurētajiem saistījumiem.
 - Viens izsaukums tiek veikts, lai ievadītu aprēķināto transakciju skaitu katram kreditoram datu modelī.
 
-![Ziņojums par datu bāzes pieprasījumu dublikātiem lapā Modeļa kartējuma noformētājs pakalpojumā RCS](./media/GER-PerfTrace-RCS-TraceInfoInMapping1.png)
+![Ziņojums par datu bāzes pieprasījumu dublikātiem lapā Modeļa kartējuma noformētājs pakalpojumā RCS.](./media/GER-PerfTrace-RCS-TraceInfoInMapping1.png)
 
 Vērtība **\[Q:530\]** norāda, ka VendTrans tabula tika izsaukta 530 reizes, lai atgrieztu ierakstu no šīs tabulas uz VendTable/\<Relations/VendTrans.VendTable\_AccountNum datu avotu. Vērtība **\[530\]** norāda, ka VendTable/\<Relations/VendTrans.VendTable\_AccountNum datu avots tika izsaukts 530 reizes, lai atgrieztu ierakstu no šī datu avota un ievadītu tā informāciju datu modelī.
 
@@ -240,7 +240,7 @@ Ieteicams izmantot kešdarbi VendTable/\<Relations/VendTrans.VendTable\_AccountN
 
 Tas arī var būt noderīgi, lai samazinātu LedgerTransTypeList datu avotam veikto izsaukumu skaitu. Šis datu avots tiek izmantots, lai katru **LedgerTransType** uzskaitījuma vērtību saistītu ar tā etiķeti. Izmantojot šo datu avotu, varat atrast atbilstošu etiķeti un ievadīt to katras kreditora transakcijas datu modelī. Pašreizējais izsaukumu skaits šim datu avotam (9027) ir diezgan liels 265 transakcijām.
 
-![Lapa Modeļa kartējuma noformētājs pakalpojumā RCS, kurā norādīti 9027 izsaukumi uz datu avotu](./media/GER-PerfTrace-RCS-TraceInfoInMapping1a.png)
+![Lapa Modeļa kartējuma noformētājs pakalpojumā RCS, kurā norādīti 9027 izsaukumi uz datu avotu.](./media/GER-PerfTrace-RCS-TraceInfoInMapping1a.png)
 
 ## <a name="improve-the-model-mapping-based-on-information-from-the-execution-trace"></a>Modeļa kartējuma uzlabošana, pamatojoties uz informāciju no izpildes izsekošanas
 
@@ -253,7 +253,7 @@ Tas arī var būt noderīgi, lai samazinātu LedgerTransTypeList datu avotam vei
     3. Izvērsiet vienumu **VendTable**, izvērsiet “viens pret daudziem” relāciju sarakstu VendTable datu avotam (vienums **\<Relācijas** ) un atlasiet vienumu **VendTrans.VendTable\_AccountNum**.
     4. Atlasiet **Kešatmiņa**.
 
-    ![Kešdarbes iestatīšana, lai palīdzētu novērst dublētus izsaukumus](./media/GER-PerfTrace-RCS-ChangeMapping-Cache.png)
+    ![Kešdarbes iestatīšana, lai palīdzētu novērst dublētus izsaukumus.](./media/GER-PerfTrace-RCS-ChangeMapping-Cache.png)
 
 2. Veiciet šīs darbības, lai LedgerTransTypeList datu avotu iekļautu VendTable datu avota tvērumā.
 
@@ -274,7 +274,7 @@ Tas arī var būt noderīgi, lai samazinātu LedgerTransTypeList datu avotam vei
     3. Atlasiet vienumu **VendTable.\$TransType**.
     4. Atlasiet **Kešatmiņa**.
 
-    ![Kešdarbes iestatīšana laukam $TransType](./media/GER-PerfTrace-RCS-ChangeMapping-Cache2.png)
+    ![Kešdarbes iestatīšana laukam $TransType.](./media/GER-PerfTrace-RCS-ChangeMapping-Cache2.png)
 
 4. Veiciet šīs darbības, lai mainītu lauku **\$TransTypeRecord**, lai tas sāktu izmantot kešoto lauku **\$TransType**.
 
@@ -329,19 +329,19 @@ Atkārtojiet šīs tēmas iepriekšējā sadaļā [Veiktspējas izsekošanas izm
 
 Ņemiet vērā, ka korekcijas, kuras veicāt modeļa kartējumam, likvidēja datu bāzes vaicājumu dublikātus. Datu bāzu tabulu un datu avotu izsaukumu skaits šim modeļa kartējumam arī ir samazināts. Tādēļ ir uzlabojusies ER risinājuma kopējā veiktspēja.
 
-![Izsekot informāciju par VendTable datu avotu lapā Modeļa kartējuma noformētājs pakalpojumā RCS](./media/GER-PerfTrace-RCS-TraceInfoInMapping2.png)
+![Izsekot informāciju par VendTable datu avotu lapā Modeļa kartējuma noformētājs pakalpojumā RCS.](./media/GER-PerfTrace-RCS-TraceInfoInMapping2.png)
 
 Izsekošanas informācijā VendTable datu avota vērtība **\[12\]** norāda, ka šis datu avots tika izsaukts 12 reizes. Vērtība **\[Q:6\]** norāda, ka seši izsaukumi tika pārveidoti par datu bāzes izsaukumiem uz VendTable tabulu. Vērtība **\[C:6\]** norāda, ka ieraksti, kas tika ienesti no datu bāzes, tika kešoti, un seši citi izsaukumi tika apstrādāti, izmantojot kešatmiņu.
 
 Ņemiet vērā, ka LedgerTransTypeList datu avota izsaukumu skaits ir samazināts no 9027 līdz 240.
 
-![Izsekot informāciju par LedgerTransTypeList datu avotu lapā Modeļa kartējuma noformētājs pakalpojumā RCS](./media/GER-PerfTrace-RCS-TraceInfoInMapping2a.png)
+![Izsekot informāciju par LedgerTransTypeList datu avotu lapā Modeļa kartējuma noformētājs pakalpojumā RCS.](./media/GER-PerfTrace-RCS-TraceInfoInMapping2a.png)
 
 ## <a name="review-the-execution-trace-in-the-application"></a>Pārskatiet izpildes izsekošanu lietojumprogrammā
 
 Papildus pakalpojumam RCS dažas versijas var nodrošināt ER struktūras noformētāja iespējas. Šīm versijām ir opcija **Iespējot noformēšanas režīmu**, ko var ieslēgt. Šo opciju var atrast lapas **Elektronisko pārskatu veidošanas parametri** cilnē **Vispārīgi**, kuru varat atvērt, izmantojot darbvietu **Elektronisko pārskatu veidošana**.
 
-![Opcija Iespējot noformēšanas režīmu lapā Elektronisko pārskatu veidošanas parametri](./media/GER-PerfTrace-GER-Parameters-DesignMode.png)
+![Opcija Iespējot noformēšanas režīmu lapā Elektronisko pārskatu veidošanas parametri.](./media/GER-PerfTrace-GER-Parameters-DesignMode.png)
 
 Ja izmantojat vienu no šīm versijām, varat analizēt ģenerēto veiktspējas izsekošanu informāciju tieši programmā. Tās nav jāeksportē no programmas un jāimportē pakalpojumā RCS.
 
@@ -359,7 +359,7 @@ Atkārtojiet šīs tēmas iepriekšējā sadaļā [ER formāta palaišana](#run-
 
 Ņemiet vērā, ka tīmekļa pārlūkprogramma piedāvā lejupielādēt zip failu. Šis fails satur veiktspējas izsekošanu PerfView formātā. Pēc tam varat izmantot PerfView veiktspējas analīzes rīku, lai analizētu ER formāta izpildes informāciju.
 
-![Veiktspējas izsekošanas informācija PerfView formātā](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
+![Veiktspējas izsekošanas informācija PerfView formātā.](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
 
 ## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>Ārēju rīku izmantošana, lai pārskatītu izpildes izsekošanu, kas ietver datu bāzes vaicājumus
 
@@ -375,7 +375,7 @@ Tā kā ER struktūrā ir veikti uzlabojumi, PerfView formātā ģenerētā veik
     - Opciju **Vākt vaicājumu statistiku** iestatiet uz **Jā**.
     - Opciju **Izsekot vaicājumu** iestatiet uz **Jā**.
 
-    ![Izpildes izsekošanas sadaļa, lietotāja parametru dialoglodziņš](./media/GER-PerfTrace2-GER-UserParameters.PNG)
+    ![Izpildes izsekošanas sadaļa, lietotāja parametru dialoglodziņš.](./media/GER-PerfTrace2-GER-UserParameters.PNG)
 
 ### <a name="run-the-er-format"></a>ER formāta palaišana
 
@@ -383,7 +383,7 @@ Atkārtojiet šīs tēmas iepriekšējā sadaļā [ER formāta palaišana](#run-
 
 Ņemiet vērā, ka tīmekļa pārlūkprogramma piedāvā lejupielādēt zip failu. Šis fails satur veiktspējas izsekošanu PerfView formātā. Pēc tam varat izmantot PerfView veiktspējas analīzes rīku, lai analizētu ER formāta izpildes informāciju. Šajā izsekošanā tagad ir informācija par piekļuvi SQL datu bāzei ER formāta izpildes laikā.
 
-![Izpildītā ER formāta informācijas izsekošana rīkā PerfView](./media/GER-PerfTrace2-PerfViewTrace2.PNG)
+![Izpildītā ER formāta informācijas izsekošana rīkā PerfView.](./media/GER-PerfTrace2-PerfViewTrace2.PNG)
 
 ## <a name="additional-resources"></a>Papildu resursi
 

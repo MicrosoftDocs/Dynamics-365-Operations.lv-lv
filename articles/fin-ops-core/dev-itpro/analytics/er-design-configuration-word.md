@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 7790d7e581b9b4260a4c57af84b02a182dde953d
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 7bc02a97005f84f7ac01f9fd9371f2a0a29314c4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894080"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346648"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>(ER) konfigurāciju noformēšana, lai ģenerētu atskaites Word formātā
 
@@ -26,37 +26,37 @@ ms.locfileid: "5894080"
 
 Lai pārskatus izveidotu kā Microsoft Word dokumentus, jāizveido pārskatu veidne, izmantojot, piemēram, Word datora programmu. Šajā attēlā ir parādīta kontroles pārskata parauga veidne, kuru var ģenerēt, lai parādītu informāciju par apstrādātajiem kreditoru maksājumiem.
 
-![Kontroles pārskata parauga veidne Word darbvirsmas programmā](./media/er-design-configuration-word-image1.png)
+![Kontroles pārskata parauga veidne Word darbvirsmas programmā.](./media/er-design-configuration-word-image1.png)
 
 Lai Word dokumentu izmantotu kā veidni pārskatiem Word formātā, jūs varat konfigurēt jaunu [elektronisko pārskatu (ER)](general-electronic-reporting.md) [risinājumu](er-quick-start1-new-solution.md). Šim risinājumam jāietver ER [konfigurācija](general-electronic-reporting.md#Configuration), kas satur ER [formāta](general-electronic-reporting.md#FormatComponentOutbound) komponentu.
 
 > [!NOTE]
 > Veidojot jaunu ER formāta konfigurāciju, lai veidotu pārskatus Word formātā, jāatlasa **Word** kā formāta tips nolaižamajā dialoglodziņā **Izveidot konfigurāciju** vai arī jāatstāj lauks **Formāta tips** tukšs.
 
-![Pielāgota formāta pievienošana konfigurācija lapā Konfigurācijas](./media/er-design-configuration-word-image2.gif)
+![Pielāgota formāta pievienošana konfigurācija lapā Konfigurācijas.](./media/er-design-configuration-word-image2.gif)
 
 Risinājuma ER formāta komponentam jāietver **Excel\\Faila** formāta elements, un formāta elementam jābūt saistītam ar Word dokumentu, kas izpildlaikā tiks izmantots kā veidne ģenerētajiem pārskatiem. Lai konfigurētu ER formāta komponentu, jāatver izveidotās ER konfigurācijas [melnraksta versija](general-electronic-reporting.md#component-versioning) ER formāta veidotājā. Pēc tam pievienojiet **Excel\\Faila** elementu, pievienojiet savu Word veidni rediģējamā ER formātam un saistiet šo veidni ar pievienoto **Excel\\Faila** elementu.
 
 > [!NOTE]
 > Manuāli pievienojot veidni, jāizmanto [dokumenta veids](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types), kas ir [konfigurēts](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) ER parametros to uzglabāšanai.
 
-![Veidnes pievienošana formātu veidotāja lapā](./media/er-design-configuration-word-image3.gif)
+![Veidnes pievienošana formātu veidotāja lapā.](./media/er-design-configuration-word-image3.gif)
 
 Varat pievienot **Excel\\Diapazons** un **Excel\\Šūna** ligzdotos elementus **Excel\\Faila** elementam, lai norādītu datu struktūru, kas izpildlaikā tiks ievadīti ģenerētos pārskatos. Pēc tam šie elementi jāsaista ar datu avotiem rediģējamā ER formātā, lai norādītu faktiskos datus, kas izpildlaikā tiks ievadīti ģenerētos pārskatos.
 
-![Ligzdoto elementu pievienošana un Formātu noformētāja lapā](./media/er-design-configuration-word-image4.gif)
+![Ligzdoto elementu pievienošana un Formātu noformētāja lapā.](./media/er-design-configuration-word-image4.gif)
 
 Kad saglabājat izmaiņas ER formātā izstrādes laikā, hierarhiskā formāta struktūra tiek saglabāta pievienotajā Word veidnē kā [pielāgota XML daļa](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019) ar nosaukumu **Pārskats**. Jums ir jāpiekļūšana modificētai veidnei, lejupielādējiet to no Finanses, saglabājiet to lokāli un atveriet to Word darbvirsmas programmā. Šajā attēlā ir parādīta lokāli saglabātā parauga veidne kontroles pārskatam, kurā ir ietverta **Pārskata** pielāgotā XML daļa.
 
-![Pārskata parauga veidnes priekšskatīšana Word darbvirsmas programmā](./media/er-design-configuration-word-image5.gif)
+![Pārskata parauga veidnes priekšskatīšana Word darbvirsmas programmā.](./media/er-design-configuration-word-image5.gif)
 
 Izpildlaikā tiek darbināti **Excel\\Diapazona** un **Excel\\Šūnu** formāta elementu saistījumi, dati, kurus piegāda katrs saistījums, tiek iekļauti ģenerētajā Word dokumentā kā atsevišķs **Pārskata** pielāgotās XML daļas lauks. Lai ģenerētajā dokumentā ievadītu pielāgotās XML daļas lauku vērtības, word veidnei jāpievieno atbilstošās Word [satura vadīklas](/office/client-developer/word/content-controls-in-word), lai tās būtu kā vietturi izpildlaikā aizpildītajiem datiem. Lai norādītu, kā tiek aizpildītas satura vadīklas, kartējiet katru satura vadīklu uz **Pārskata** pielāgotās XML daļas atbilstošo lauku.
 
-![Satura vadīklu pievienošana un kartēšana Word darbvirsmas programmā](./media/er-design-configuration-word-image6.gif)
+![Satura vadīklu pievienošana un kartēšana Word darbvirsmas programmā.](./media/er-design-configuration-word-image6.gif)
 
 Pēc tam rediģējama ER formāta oriģinālā Word veidne ir jāaizstāj ar modificēto veidni, kas tagad satur Word satura kontroles, kas tika kartētas uz **Pārskata** pielāgotās XML daļas laukiem.
 
-![Veidnes aizvietošana formātu veidotāja lapā](./media/er-design-configuration-word-image7.gif)
+![Veidnes aizvietošana formātu veidotāja lapā.](./media/er-design-configuration-word-image7.gif)
 
 Izpildot konfigurēto ER formātu, pievienotā Word veidne tiek izmantota, lai ģenerētu jaunu pārskatu. Faktiskie dati tiek glabāti Word pārskatā kā pielāgota XML daļa ar nosaukumu **Pārskats**. Kad ir atvērts ģenerētais pārskats, Word satura vadīklas tiek aizpildītas ar datiem no **Pārskata** pielāgotās XML daļas.
 

@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 58941
+ms.custom:
+- "58941"
+- intro-internal
 ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26088a01b0e849a5df559631591ec65d7885452b
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 05c77b913c1c2281ca45a3dea8fef2223a1dcfbb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944369"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345694"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektronisko pārskatu veidošanas (ER) apskats
 
@@ -101,7 +103,7 @@ Formāta komponents jums ļauj pievienot noteiktus failus, kurus var izmantot p�
 
 Nākamajā attēlā ir parādīts, kā šiem formātiem notiek datu plūsmas.
 
-[![Datu plūsma izejošo formātu komponentiem](./media/ER-overview-02.png)](./media/ER-overview-02.png)
+[![Datu plūsma izejošo formātu komponentiem.](./media/ER-overview-02.png)](./media/ER-overview-02.png)
 
 Lai palaistu atsevišķi ER formāta konfigurāciju un ģenerētu izejošu elektronisko dokumentu, ir nepieciešams identificēt formāta konfigurācijas kartējumu.
 
@@ -115,7 +117,7 @@ Formāta komponents ir ienākošā dokumenta shēma, kas tiek importēta izpilde
 
 Nākamajā attēlā ir parādīts, kā šiem formātiem notiek datu plūsmas.
 
-[![Datu plūsma ienākošo formātu komponentiem](./media/ER-overview-03.png)](./media/ER-overview-03.png)
+[![Datu plūsma ienākošo formātu komponentiem.](./media/ER-overview-03.png)](./media/ER-overview-03.png)
 
 Lai palaistu atsevišķu ER formāta konfigurāciju un importētu datus no ienākoša elektroniskā dokumenta, ir nepieciešams identificēt formāta konfigurācijas vēlamo kartējumu, kā arī modeļa kartējuma integrācijas punktu. Vienu un to pašu modeļa kartējumu un mērķus varat izmantot kopā ar dažādiem formātiem, kas paredzēti dažāda tipa ienākošajiem dokumentiem.
 
@@ -290,7 +292,7 @@ ER jums ļauj atvasinātā komponenta pašreizējā melnraksta versijā automāt
 
 ER konfigurāciju saraksts programmai Finance tiek pastāvīgi atjaunināts. Atveriet [Globālo repozitoriju](er-download-configurations-global-repo.md), lai pārskatītu pašreiz atbalstīto ER konfigurāciju sarakstu. Kopsavilkuma cilnē **Detalizēta informācija par pārtraukšanu** varat pārskatīt informāciju par konfigurācijām, kuras ir pārtrauktas vai kuras vairs netiek uzturētas. 
 
-![Globālā repozitorija satura filtrēšana Konfigurācijas repozitorija lapā](./media/er-overview-03.gif)
+![Globālā repozitorija satura filtrēšana Konfigurācijas repozitorija lapā.](./media/er-overview-03.gif)
 
 ## <a name="additional-resources"></a>Papildu resursi
 

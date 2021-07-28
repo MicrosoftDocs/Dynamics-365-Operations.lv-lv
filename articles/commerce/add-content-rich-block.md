@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7dbeb8785641960cc2680335436aea10775759d3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 20a2e0bc46e182172ccd96f556fd398e8bffc34b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797771"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347546"
 ---
 # <a name="text-block-module"></a>Teksta bloka modulis
 
@@ -42,11 +42,11 @@ Teksta bloka moduļus var izmantot šādi.
 
 Attēlā zemāk redzams piemērs teksta bloka modulim, kas tiek izmantots sākumlapā.
 
-![Teksta bloka moduļa piemērs](./media/ecommerce-textblock.PNG)
+![Teksta bloka moduļa piemērs.](./media/ecommerce-textblock.PNG)
 
 ## <a name="text-block-module-properties"></a>Teksta bloka moduļa rekvizīti
 
-| Rekvizīta nosaukums     | Vērtība                                            | apraksts |
+| Rekvizīta nosaukums     | Vērtība                                            | Apraksts |
 |-------------------|--------------------------------------------------|-------------|
 | Bagātināts teksts         | Bagātināts teksts                                        | Rindkopas teksts. Tiek atbalstītas dažas pamata bagātināta teksta iespējas, piemēram, treknraksts, pasvītrots un slīpraksta teksts. |
 | Pielāgotās klases nosaukums | Kaskadētās stila lapas (CSS) klases nosaukums        | Tās pielāgotās CSS klases nosaukums, ko izstrādātājs sniedz, lai formatētu šo moduli. Klases nosaukumam ir jābūt definētam dizaina pakotnē. |

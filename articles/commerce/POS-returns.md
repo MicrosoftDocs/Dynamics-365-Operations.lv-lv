@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: 496c4fe5230a599acf60fac39e51c43db372f92c
-ms.sourcegitcommit: 927574c77f4883d906e5c7bddf0af9b717e492bf
+ms.openlocfilehash: c7be9e2d32384df23a4609d82216804fc945061a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/01/2021
-ms.locfileid: "6129820"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345188"
 ---
 # <a name="create-returns-in-pos"></a>Atpakaļ atdošanas izveide programmā POS
 
@@ -48,7 +48,7 @@ Ja tiek atrasts darījums vai pasūtījums, kas atbilst meklēšanas kritērijie
 
 Katrai pasūtījuma rindai atpakaļ atdoto preču sarakstā POS tiek parādīta informācija par sākotnējo pirkšanas daudzumu un visiem iepriekš apstrādātajiem atpakaļ atdotajiem daudzumiem. Atpakaļ atdošanas daudzumam, ko lietotājs ievada pasūtījuma rindai, ir jābūt mazākam vai vienādam ar vērtību, kas ir laukā **Pieejams atdošanai atpakaļ**.
 
-![Atpakaļ atdodamo preču lapa](media/returnslist.png)
+![Atpakaļ atdodamo preču lapa.](media/returnslist.png)
 
 Ja atpakaļ atdošanas apstrādes laikā lietotājam ir fiziska prece un tai precei ir svītrkods, lietotājs var skenēt svītrkodu, lai reģistrētu atpakaļ atdošanu. Katra svītrkoda skenēšana palielina atpakaļ atdodamo daudzumu par vienu preci. Tomēr, ja svītrkoda etiķetei ir iegults daudzums, šis daudzums tiks ievadīts laukā **Atpakaļ atdots**.
 
@@ -97,6 +97,13 @@ Ja kanāla puses informācija kāda iemesla dēļ nav atjaunināta un bezsaistes
 
 > [!NOTE]
 > Ja ir ieslēgts līdzeklis **Vienotā atpakaļ atdošanas apstrādes pieredze programmā POS**, tad var piekļūt jauniem izvēles līdzekļiem, kas atbalsta serializētās preces atpakaļ atdošanas validāciju. Papildinformāciju skatiet sadaļā [Sērijveida kontrolētu preču atdošana atpakaļ pārdošanas punktā POS](POS-serial-returns.md).
+
+## <a name="enable-proper-tax-calculation-for-returns-with-partial-quantity"></a>Iespējot pareizu nodokļu aprēķināšanu daļējai atgriešanai
+
+Šis līdzeklis nodrošina, ka gadījumā, ja pasūtījums tiek atgriezts vairākus rēķinos, nodokļi beigās būs vienādi ar sākotnēji iekasēto nodokļu summu.
+1.  Dodieties uz darbvietu **Līdzekļu pārvaldība** un meklējiet **Iespējot pareizu nodokļu aprēķināšanu daļējai atgriešanai**.
+2.  Atlasiet **Iespējot pareizu nodokļu aprēķināšanu daļējai atgriešanai** un pēc tam noklikšķiniet uz **Iespējot**.
+
 
 ## <a name="additional-resources"></a>Papildu resursi
 

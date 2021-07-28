@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 721799c9a6fafe0a809f447189ce6814b30ca863
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 1a1ee5345e2d6b3736d45e233a59ac4009a9f1c8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052461"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344692"
 ---
 # <a name="configure-dataverse-integration"></a>Dataverse integrācijas konfigurēšana
 
@@ -48,15 +48,15 @@ Iespējamas, velēsieties izslēgt integrāciju tālāk minētajās situācijās
 
 1. Human Resources instancē, kur vēlaties skatīt vai konfigurēt iestatījumus integrācijai ar Dataverse, atlasiet elementu **Sistēmas administrēšana**.
 
-    [![Sistēmas administrēšanas elements](./media/hr-select-system-administration.png)](./media/hr-select-system-administration.png)
+    [![Sistēmas administrēšanas elements.](./media/hr-select-system-administration.png)](./media/hr-select-system-administration.png)
 
 2. Atlasiet cilni **Saites**.
 
-    [![Saišu cilne](./media/hr-system-administration-links.png)](./media/hr-system-administration-links.png)
+    [![Saišu cilne.](./media/hr-system-administration-links.png)](./media/hr-system-administration-links.png)
 
 3. Sadaļā **Integrācijas** atlasiet **Dataverse konfigurācija**.
 
-    [![Dataverse konfigurācijas saite](./media/hr-admin-integration-dataverse-select.png)](./media/hr-admin-integration-dataverse-select.png)
+    [![Dataverse konfigurācijas saite.](./media/hr-admin-integration-dataverse-select.png)](./media/hr-admin-integration-dataverse-select.png)
 
 ## <a name="turn-data-integration-between-human-resources-and-dataverse-on-or-off"></a>Datu integrācijas starp Human Resources un Dataverse ieslēgšana vai izslēgšana
 
@@ -67,7 +67,7 @@ Iespējamas, velēsieties izslēgt integrāciju tālāk minētajās situācijās
 
 - Lai izslēgtu integrāciju, iestatiet opciju uz **Nē**.
 
-[![Pakalpojuma Dataverse integrācijas ieslēgšana vai izslēgšana](./media/hr-admin-integration-dataverse-enable-disable.png)](./media/hr-admin-integration-dataverse-enable-disable.png)
+[![Pakalpojuma Dataverse integrācijas ieslēgšana vai izslēgšana.](./media/hr-admin-integration-dataverse-enable-disable.png)](./media/hr-admin-integration-dataverse-enable-disable.png)
 
 > [!WARNING]
 > Lai veiktu datu migrācijas uzdevumus, ieteicams izslēgt Dataverse integrāciju. Lielas datu augšupielādes var būtiski ietekmēt veiktspēju. Piemēram, 2000 darbinieku augšupielādēšana var aizņemt vairākas stundas, ja integrācija ir iespējota, un mazāk par vienu stundu, kad tā ir atspējota. Šajā piemērā sniegtie numuri ir tikai demonstrācijas nolūkiem. Precīzs laika apjoms, kas nepieciešams, lai importētu ierakstus, var būtiski atšķirties atkarībā no daudziem faktoriem.
@@ -98,7 +98,7 @@ Ja izjūtat problēmas datu sinhronizācijas laikā starp Human Resources un Dat
 
 - Lai noņemtu ieraksta saistību starp Resources ierakstu un Dataverse rindu, atlasiet tabulu laukā **Dataverse tabula** un pēc tam atlasiet **Dzēst izsekošanas informāciju**.
 
-[![Izsekošanas informācija dzēšana](./media/hr-admin-integration-dataverse-clear-tracking.png)](./media/hr-admin-integration-dataverse-clear-tracking.png)
+[![Izsekošanas informācija dzēšana.](./media/hr-admin-integration-dataverse-clear-tracking.png)](./media/hr-admin-integration-dataverse-clear-tracking.png)
 
 Lai tabulā izpildītu pilnu sinhronizāciju pēc izsekošanas dzēšanas, skatiet nākamo procedūru.
 
@@ -116,13 +116,13 @@ Lai veiktu pilnu sinhronizāciju tabulā starp Human Resources un Dataverse:
 
 2. Atlasiet **Sinhronizēt tagad**.
 
-[![Pilnīgas sinhronizācijas izpilde](./media/hr-admin-integration-dataverse-sync-now.png)](./media/hr-admin-integration-dataverse-sync-now.png)
+[![Pilnīgas sinhronizācijas izpilde.](./media/hr-admin-integration-dataverse-sync-now.png)](./media/hr-admin-integration-dataverse-sync-now.png)
 
 ## <a name="see-also"></a>Skatiet arī
 
 [Dataverse tabulas](hr-developer-entities.md)<br>
 [Pakalpojuma Dataverse virtuālo tabulu konfigurēšana](hr-admin-integration-common-data-service-virtual-entities.md)<br>
-[Human Resources virtuālās tabulas: Bieži uzdotie jautājumi](hr-admin-virtual-entity-faq.md)<br>
+[Bieži uzdotie jautājumi par Human Resources tabulām](hr-admin-virtual-entity-faq.md)<br>
 [Kas ir Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)<br>
 [Terminoloģijas atjauninājumi](/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
 

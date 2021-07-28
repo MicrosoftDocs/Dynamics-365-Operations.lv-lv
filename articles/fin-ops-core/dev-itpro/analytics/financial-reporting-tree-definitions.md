@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 1a884031905e59e7bfedab9af7b97a7c54e40895
-ms.sourcegitcommit: e4992c57eea4c15ac052e9d65dddae625e3528f9
+ms.openlocfilehash: 97ecd7996ed2d8fb12c1038aa296450d3481e6fd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866306"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345790"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Pārskatu koka definīcijas finanšu pārskatos
 
@@ -170,23 +170,23 @@ Jūs varat neļaut noteiktiem lietotājiem un grupām piekļūt pārskata vienī
 - Viszemākā līmeņa detalizācijas atskaites vienības (Home Sales, Auto Sales, Client Services un Operations) apzīmē nodaļas finanšu datos. Šīs pārskata vienības ir diagrammas ēnotais apgabals.
 - Augstāka līmeņa kopsavilkuma vienības apkopo informāciju no detaļu vienībām.
 
-[![Contoso kopsavilkuma pārskata struktūra — 1. piemērs](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
+[![Contoso kopsavilkuma pārskata struktūra — 1. piemērs.](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
 
 ### <a name="reporting-unit-structure--example-2"></a>Atskaites vienības struktūra — 2. piemērs
 
 Nākamajā diagrammā ir redzams atskaišu koks, kam ir organizatoriska struktūra, kura ir sadalīta pēc biznesa funkcijas.
 
-[![Contoso kopsavilkuma pārskata struktūra — 2. piemērs](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
+[![Contoso kopsavilkuma pārskata struktūra — 2. piemērs.](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>Dialoglodziņa Ievietot atskaišu vienības no dimensijām piemērs
 
 Nākamajā attēlā ir parādīts dialoglodziņa **Ievietot atskaišu vienības no dimensijām** piemērs. Šajā piemērā rezultāti atgriezīs biznesa vienību, izmaksu centru un nodaļu kombinācijas.
 
-[![Ievietot pārskatu vienības](./media/insertreportingunits.png)](./media/insertreportingunits.png)
+[![Ievietot pārskatu vienības.](./media/insertreportingunits.png)](./media/insertreportingunits.png)
 
 Iegūtā atskaišu koka definīcija tiek kārtota pēc biznesa vienības, pēc tam tiek kārtota pēc izmaksu centra, un pēc tam — pēc nodaļas. Piektās pārskata vienības dimensija ir **Biznesa vienība = \[001\], Izmaksu centrs =\[\], Nodaļa = \[022\]**, un tā norāda pārskata vienību kontiem, kas atbilst biznesa vienībai 001 un nodaļai 022.
 
-[![Pārskata koka ilustrācija](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
+[![Pārskata koka ilustrācija.](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
 
 ### <a name="examples-of-data-roll-up"></a>Datu apkopojuma piemēri
 
@@ -194,11 +194,11 @@ Nākamajos piemēros ir parādīta iespējamā informācija, kas tiek izmantota 
 
 #### <a name="example-1"></a>1. piemērs
 
-[![Mutli uzņēmuma apkopojums](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
+[![Mutli uzņēmuma apkopojums.](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
 
 #### <a name="example-2"></a>2. piemērs
 
-[![Starpuzņēmumu nodaļu apkopojums](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
+[![Starpuzņēmumu nodaļu apkopojums.](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 

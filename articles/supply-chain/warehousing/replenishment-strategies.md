@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-29
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 84c97bdbe00285d7992a25edbf5d42ffe9b58903
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a8ddc7022a1e9a7db14aaa67efcd442025b0f9d8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814516"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344477"
 ---
 # <a name="replenishment-strategies"></a>Papildināšanas stratēģijas
 
@@ -43,9 +43,9 @@ Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā.
 
 ## <a name="set-up-replenishment-strategies"></a>Papildināšanas stratēģiju uzstādīšana
 
-Lai piekļūtu veidnēm, dodieties uz **Noliktavas pārvaldība \> Iestatīšana \>Papildināšana \> Papildināšanas veidnes**. Sadaļā **Pārskats** atlasiet vai izveidojiet kopuma pieprasījuma papildināšanas veidni, kur **Papildināšanas tipa** lauks ir iestatīts kā  *Kopuma pieprasījums*. Pēc tam iestatiet papildināšanas veidnes rindas sadaļā **Papildināšanas veidnes detaļas**. Katrai rindai laukā **Papildināšanas stratēģija** atlasiet papildināšanas stratēģiju, ko vēlaties izmantot.
+Lai piekļūtu veidnēm, dodieties uz **Noliktavas pārvaldība \> Iestatīšana \> Papildināšana \> Papildināšanas veidnes**. Sadaļā **Pārskats** atlasiet vai izveidojiet kopuma pieprasījuma papildināšanas veidni, kur **Papildināšanas tipa** lauks ir iestatīts kā *Kopuma pieprasījums*. Pēc tam iestatiet papildināšanas veidnes rindas sadaļā **Papildināšanas veidnes detaļas**. Katrai rindai laukā **Papildināšanas stratēģija** atlasiet papildināšanas stratēģiju, ko vēlaties izmantot.
 
-![Papildināšanas veidnes lapa](media/ReplenTempWaveDmdMaxLocCap.png "Papildināšanas veidnes lapa")
+![Papildināšanas veidnes lapa.](media/ReplenTempWaveDmdMaxLocCap.png "Papildināšanas veidnes lapa")
 
 Ja **Papildināšanas stratēģijas** kolonna neparādās režģī sadaļā **Papildināšanas veidnes detaļas**, pārliecinieties, ka līdzeklis ir ieslēgts un atlasītajai papildināšanas veidnei ir *Kopuma pieprasījuma* papildināšanas veids.
 
@@ -85,7 +85,7 @@ Iestatot papildināšanas stratēģiju uz *Maksimālo novietojuma noslodzi*, tie
 - **Papildināšanas darbs 1:** Izlaidiet 4 kastes no lielapjoma atrašanās vietas un ievietojiet tās novietojumā izdošana-001.
 - **Papildināšanas darbs 2:** Izlaidiet 5 kastes no lielapjoma atrašanās vietas un ievietojiet tās novietojumā izdošana-002.
 
-[![1. piemērs](media/ReplenTemp_example_1.png "1. piemērs")](media/ReplenTemp_example_1_large.png)
+[![Piemērs 1.](media/ReplenTemp_example_1.png "1. piemērs")](media/ReplenTemp_example_1_large.png)
 
 ### <a name="example-2"></a>2. piemērs
 
@@ -109,7 +109,7 @@ Atkarībā no opcijas **Atļaut sadalīt** iestatījuma novietojuma direktīvās
 
 Rezultāti atšķiras pieejamās informācijas dēļ darba izveides laikā. Ja opcija **Atļaut sadalīt** ir iestatīta uz *Jā*, novietojuma direktīvās par papildināšanas izdošanu, jūs zināt, ka jums ir izdevies atrast 160 gab. Tādējādi varat izveidot darbu šim daudzumam. Tomēr, ja opcija **Atļaut sadalīt** ir iestatīta uz *Nē*, jūs nezināt par 160 gab. esamību. Tā kā papildu daudzums, kuru jūs nolēmāt papildināt, bija 3 kastes, jūs nometīsiet šo papildu daudzumu un vēlreiz mēģināsiet veikt sākotnējo daudzumu.
 
-[![2. piemērs](media/ReplenTemp_example_2.png "2. piemērs")](media/ReplenTemp_example_2_large.png)
+[![Piemērs 2.](media/ReplenTemp_example_2.png "2. piemērs")](media/ReplenTemp_example_2_large.png)
 
 Tāpēc, lai iegūtu maksimālo daudzumu uz papildinātajām atrašanās vietām, ir jāiestata opcija **Atļaut sadalīt** uz *Jā* novietojuma direktīvās papildināšanas izdošanai.
 

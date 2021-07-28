@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e22089220edfff3fb53b2101b39f5352817db2a
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 3673705ba4a8d69c32848881d6a280a09047d1e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188025"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343890"
 ---
 # <a name="budget-planning"></a>Budžeta plānošana
 
@@ -47,11 +47,11 @@ Jūlija ir grāmatvede uzņēmumā Contoso Entertainment Systems (DEMF) Vācijā
 
 Budžeta plānošanas konfigurācijas shēma scenārijam izskatās šādi:
 
-![Budžeta plānošanas konfigurācijas shēma](./media/screenshot1-300x152.png)
+![Budžeta plānošanas konfigurācijas shēma.](./media/screenshot1-300x152.png)
 
 Budžeta sagatavošanai Jūlija izmanto šādu Excel veidni:
 
-[![Excel veidne](./media/screenshot2-1024x352.png)](./media/screenshot2.png)
+[![Excel veidne.](./media/screenshot2-1024x352.png)](./media/screenshot2.png)
 
 ## <a name="exercise-1-configuration"></a>1. vingrinājums. Konfigurācija
 
@@ -60,23 +60,23 @@ Viss budžeta izstrādes process notiek finanšu daļā, tādēļ Jūlijai ir j�
 
 1.1. Pārejiet uz sadaļu Organizācijas hierarhijas (Organizācijas administrēšana &gt; Organizācijas &gt; Organizācijas hierarhijas) un noklikšķiniet uz pogas Jauns.
 
-![Organizācijas hierarhijas](./media/screenshot3.png) 
+![Organizācijas hierarhijas.](./media/screenshot3.png) 
 
 1.2. Nosaukuma rūtī ievadiet organizācijas hierarhijas nosaukumu un noklikšķiniet uz pogas Piešķiršanas nolūks.
 
 1.3. Atlasiet vienumu Budžeta plānošanas nolūks, noklikšķiniet uz pogas Pievienot un piešķiriet jaunizveidoto organizācijas hierarhiju. 
 
-[![Piešķiršanas nolūks](./media/screenshot5.png)](./media/screenshot5.png)
+[![Piešķiršanas nolūks.](./media/screenshot5.png)](./media/screenshot5.png)
 
 1.4. Atkārtojiet iepriekšējo darbību organizācijas nolūkam Drošība. Kad darbība ir pabeigta, aizveriet formu.
 
 1.5. Formā Organizācijas hierarhijas noklikšķiniet uz Skats. Sadaļā Hierarhijas noformētājs noklikšķiniet uz Rediģēt un izveidojiet hierarhiju, noklikšķinot uz Ievietot.
 
-[![Iespraust](./media/screenshot7.png)](./media/screenshot7.png) 
+[![Iespraust.](./media/screenshot7.png)](./media/screenshot7.png) 
 
 1.6. Atlasiet budžeta hierarhijai vienumu Finanšu nodaļa. 
 
-[![Finansēt](./media/screenshot8.png)](./media/screenshot8.png)
+[![Finansēt.](./media/screenshot8.png)](./media/screenshot8.png)
 
 1.7. Pēc tam noklikšķiniet uz Publicēt un Aizvērt. Atlasiet 1/1/2015 kā hierarhijas publicēšanas spēkā stāšanās datumu.
 
@@ -90,15 +90,15 @@ Budžeta plānošanas procesā izmanto īpašas drošības politikas, lai konfig
 
 2.2. Pārejiet uz Budžeta veidošana &gt; Iestatīšana &gt; Budžeta plānošana &gt; Budžeta plānošanas konfigurācija. Cilnē Parametri vienumam Drošības modeļa vērtība iestatiet vērtību Pamatojoties uz drošības organizāciju. 
 
-[![Parametri](./media/screenshot11.png)](./media/screenshot11.png) 
+[![Parametri.](./media/screenshot11.png)](./media/screenshot11.png) 
 
 2.3. Dodieties uz Sistēmas administrēšana &gt; Lietotāji &gt; Lietotāji. Piešķiriet lietotājam Administrators (Jūlija Funderburka) lomu Budžeta pārvaldnieks. 
 
-[![Budžeta pārvaldnieks](./media/screenshot12.png)](./media/screenshot12.png) 
+[![Budžeta pārvaldnieks.](./media/screenshot12.png)](./media/screenshot12.png) 
 
 2.4. Izvēlieties lietotāja lomu un noklikšķiniet uz Piešķirt organizācijas. 
 
-[![Piešķirt organizācijas](./media/screenshot13.png)](./media/screenshot13.png)
+[![Piešķirt organizācijas.](./media/screenshot13.png)](./media/screenshot13.png)
 
 2.5. Atlasiet Atsevišķi piešķirt piekļuvi noteiktām organizācijām. Atlasiet organizācijas hierarhiju, ko izveidojāt pirmās darbības laikā. Atlasiet zaru Finanses un noklikšķiniet uz pogas Piešķirt ar apakšelementiem. 
 
@@ -109,7 +109,7 @@ Budžeta plānošanas procesā izmanto īpašas drošības politikas, lai konfig
 
 *Piezīme. Ja nepieciešams, šajā uzdevumā var izveidot un izmantot jaunus scenārijus.* 
 
-[![Jauni scenāriji](./media/screenshot15.png)](./media/screenshot15.png) 
+[![Jauni scenāriji.](./media/screenshot15.png)](./media/screenshot15.png) 
 
 *Piezīme. Jūlija neizmanto oficiālu apstiprināšanas procesu budžeta sagatavošanai, tādēļ šajā uzdevumā izlaidīsim iestatīšanas darbību vienumam Darbplūsmas, Stadijas un Darbplūsmas stadijas un izmantosim esošos iestatījumus vienumam Automātiski apstiprināt darbplūsmu. Informāciju par šīs darbplūsmas konfigurāciju skatiet pielikumā.*
 
@@ -118,17 +118,17 @@ Budžeta plāna kolonnas ir atkarīgas no naudas vai daudzuma kolonnām, kuras v
 
 4.1. Pārejiet uz Budžeta veidošana&gt;Iestatīšana &gt; Budžeta plānošana &gt; Budžeta plānošanas konfigurācija un atveriet lapu Kolonnas. Formas augšējā labajā stūrī noklikšķiniet uz Office pogas un atlasiet vienumu Kolonnas (bez filtra). 
 
-[![Kolonnas bez filtra](./media/screenshot16.png)](./media/screenshot16.png) 
+[![Kolonnas bez filtra.](./media/screenshot16.png)](./media/screenshot16.png) 
 
 4.2. Sistēma atvērs Excel darbgrāmatu, kas jāizmanto vērtību aizpildīšanai. Ja tiek pieprasīts, noklikšķiniet uz Iespējot rediģēšanu un Uzticēties šai programmai. 
 
 4.3. Mums būs nepieciešamas papildu kolonnas, lai aizpildītu vērtības. Labajā rūtī noklikšķiniet uz Dizains, lai režģim pievienotu kolonnu. 
 
-[![Dizains](./media/screenshot19.png)](./media/screenshot19.png) 
+[![Dizains.](./media/screenshot19.png)](./media/screenshot19.png) 
 
 4.4. Noklikšķiniet uz zīmuļa pogas blakus vienumam PlanColumns, lai apskatītu pieejamās kolonnas, ko var pievienot režģim. 
 
-[![Rediģēt](./media/screenshot20.png)](./media/screenshot20.png) 
+[![Rediģēt.](./media/screenshot20.png)](./media/screenshot20.png) 
 
 4.5. Veiciet dubultklikšķi uz katra pieejamā lauka, lai to pievienotu vienumam Atlasītie lauki, un pēc tam noklikšķiniet uz Atjaunināt. 
 
@@ -136,7 +136,7 @@ Budžeta plāna kolonnas ir atkarīgas no naudas vai daudzuma kolonnām, kuras v
 
 4.7. Atgriezieties programmā un atsvaidziniet lapu. Tiks parādītas publicētās vērtības. 
 
-[![Atsvaidzināt](./media/screenshot23.png)](./media/screenshot23.png)
+[![Atsvaidzināt.](./media/screenshot23.png)](./media/screenshot23.png)
 
 ### <a name="task-5-create-budget-plan-document-layouts-and-templates"></a>5. uzdevums. Budžeta plāna dokumenta izkārtojumu un veidņu izveide
 Izkārtojums definē, kā izskatīsies budžeta plāna dokumenta rindu režģis, kad lietotājs atver budžeta plāna dokumentu. Budžeta plāna dokumentu izkārtojumu var arī pārslēgt, lai datus aplūkotu no dažādiem aspektiem. Tā kā budžeta plāna dokumentam lietojamās kolonnas ir definētas, Jūlijai ir jāizveido budžeta plāna dokumenta izkārtojums, kas izskatīsies līdzīgi Excel tabulai, ko viņa izmanto, lai izveidotu budžeta datus (skatiet šī uzdevuma sadaļu Scenārija pārskats) 
@@ -147,14 +147,14 @@ Izkārtojums definē, kā izskatīsies budžeta plāna dokumenta rindu režģis,
 -   Norādiet visas budžeta plāna kolonnas, ko izveidojāt iepriekšējā darbībā sadaļā Elementi. Iestatiet, lai visas summas, izņemot iepriekšējā gada faktiskās izmaksas, būtu rediģējamas.
 -   Noklikšķiniet uz pogas Apraksti, lai atlasītu, kuras finanšu dimensijas ir jāparāda rindā Apraksti.
 
-[![Apraksti](./media/screenshot24.png)](./media/screenshot24.png) 
+[![Apraksti.](./media/screenshot24.png)](./media/screenshot24.png) 
 
 Pamatojoties uz budžeta plāna izkārtojuma definīciju, varam izveidot Excel veidni, kas jāizmanto kā alternatīva metode budžeta datu rediģēšanai. Excel veidnei ir jāatbilst budžeta plāna izkārtojuma definīcijai. Pēc Excel veidnes ģenerēšanas, budžeta plāna izkārtojumu nevar rediģēt, tāpēc šis uzdevums jāveic pēc tam, kad visi izkārtojuma komponenti ir definēti. 
 
 5.2. Izkārtojumam, ko izveidojāt 5.1. darbībā, noklikšķiniet uz pogas Veidne &gt; Ģenerēt. Apstipriniet brīdinājuma ziņojumu. Lai skatītu šo veidni, noklikšķiniet uz Veidne &gt; Skats. 
 
-*Piezīme. Noteikti atlasiet “Saglabāt kā” un atlasiet vietu, kur veidne ir jāglabā, lai to varētu rediģēt. Ja lietotājs dialoglodziņā atlasa vienumu “Atvērt” bez saglabāšanas, tad aizverot failu, failā veiktās izmaiņas netiek saglabātas.* 
-[![Veidnes skats](./media/screenshot25.png)](./media/screenshot25.png) 
+*Piezīme: noteikti atlasiet “Saglabāt kā” un atlasiet vietu, kur veidne ir jāglabā, lai to varētu rediģēt. Ja lietotājs dialoglodziņā atlasa vienumu “Atvērt” bez saglabāšanas, tad aizverot failu, failā veiktās izmaiņas netiek saglabātas.* 
+[![Veidnes skats.](./media/screenshot25.png)](./media/screenshot25.png) 
 
 5.3. &lt; Neobligāta darbība&gt; Modificējiet Excel veidni, lai tā izskatās lietotājam draudzīgāka — pievienojiet kopsummu formulas, galvenes laukus, formatējumu utt. Saglabājiet izmaiņas un augšupielādējiet failu budžeta plāna izkārtojumā, noklikšķinot uz Izkārtojums &gt; Augšupielādēt. 
 
@@ -174,11 +174,11 @@ Jūlijai ir jāizveido un jāaktivizē jauns budžeta plānošanas process, apvi
 
 *Piezīme. Varat izveidot papildu dokumentu izkārtojumus un piešķirt tos, lai tie būtu pieejami budžeta plānošanas darbplūsmas posmā, noklikšķinot uz pogas Alternatīvie izkārtojumi.* 
 
-[![Alternatīvie izkārtojumi](./media/screenshot27.png)](./media/screenshot27.png) 
+[![Alternatīvie izkārtojumi.](./media/screenshot27.png)](./media/screenshot27.png) 
 
 6.2. Atlasiet Darbības &gt; Aktivizēt, lai aktivizētu šo budžeta plānošanas darbplūsmu. 
 
-[![Aktivizēt](./media/screenshot28.png)](./media/screenshot28.png)
+[![Aktivizēt.](./media/screenshot28.png)](./media/screenshot28.png)
 
 ## <a name="exercise-2-process-simulation"></a>2. uzdevums. Procesa simulācija
 
@@ -187,26 +187,26 @@ Jūlijai ir jāizveido un jāaktivizē jauns budžeta plānošanas process, apvi
 
 7.2. Pārejiet uz Budžeta veidošana &gt; Budžeta plāni, lai atrastu procesa ģenerēšanas laikā izveidoto budžeta plānu. 
 
-[![Budžeta plāns](./media/screenshot30.png)](./media/screenshot30.png) 
+[![Budžeta plāns.](./media/screenshot30.png)](./media/screenshot30.png) 
 
 7.3. Atveriet dokumenta informāciju, noklikšķinot uz hipersaites Dokumenta numurs. Budžeta plāns tiek parādīts atbilstoši izkārtojumam, kāds tika definēts šī uzdevuma izpildes laikā. 
 
-[![Budžeta plāna displejs](./media/screenshot31.png)](./media/screenshot31.png)
+[![Budžeta plāna displejs.](./media/screenshot31.png)](./media/screenshot31.png)
 
 ### <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a>8. uzdevums. Pašreizējā gada budžeta izveide, pamatojoties uz iepriekšējā gada faktiskajām summām
 Budžeta plānā var izmantot sadalījuma metodes, lai viegli kopētu budžeta plānu informāciju no viena scenārija citā/izplatīt tos dažādos periodos/sadalītu pa dimensijām. Mēs izmantosim sadalījumus, lai izveidotu pašreizējā gada budžetu no iepriekšējā gada faktiskajam summām. 
 
 8.1. Atlasiet visas rindas budžeta plāna dokumentu režģī un noklikšķiniet uz Piešķirt budžetu. 
 
-[![Visas rindas](./media/screenshot32.png)](./media/screenshot32.png) 
+[![Visas rindas.](./media/screenshot32.png)](./media/screenshot32.png) 
 
 8.2. Atlasiet sadalījuma metodi, perioda atslēgu, avota un mērķa scenārijus un noklikšķiniet uz Piešķirt. 
 
-[![Sadalīt](./media/screenshot33.png)](./media/screenshot33.png)
+[![Sadalīt.](./media/screenshot33.png)](./media/screenshot33.png)
 
 Iepriekšējā gada faktiskās summas tiks kopētas uz pašreizējā gada budžetu un sadalītas pa periodiem, izmantojot pārdošanas līknes perioda atslēgu. 
 
-[![Pārdošanas līkne](./media/screenshot34.png)](./media/screenshot34.png)
+[![Pārdošanas līkne.](./media/screenshot34.png)](./media/screenshot34.png)
 
 ### <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a>9. uzdevums. Budžeta plāna dokumenta koriģēšana, izmantojot programmu Excel, un dokumenta pabeigšana
 9.1. Noklikšķiniet uz pogas Darblapa, lai dokumenta saturu atvērtu programmā Excel.
@@ -215,9 +215,9 @@ Iepriekšējā gada faktiskās summas tiks kopētas uz pašreizējā gada budže
 
 9.3. Atgriezties pie budžeta plāna dokumenta. Noklikšķiniet uz Darbplūsma &gt; Iesniegt dokumentu automātiskai apstiprināšanai.
 
-[![Automātiska apstiprināšana](./media/screenshot37.png)](./media/screenshot37.png) 
+[![Automātiska apstiprināšana.](./media/screenshot37.png)](./media/screenshot37.png) 
 
-Kad darbplūsma ir pabeigta, budžeta plāna dokumenta stadija mainās uz Apstiprināts. [![Apstiprināts](./media/screenshot38.png)](./media/screenshot38.png)
+Kad darbplūsma ir pabeigta, budžeta plāna dokumenta stadija mainās uz Apstiprināts. [![Apstiprināts.](./media/screenshot38.png)](./media/screenshot38.png)
 
 ## <a name="appendix"></a>Pielikums
 
@@ -225,21 +225,21 @@ Kad darbplūsma ir pabeigta, budžeta plāna dokumenta stadija mainās uz Apstip
 
 A. Budžeta veidošana &gt; Iestatīšana &gt; Budžeta plānošana &gt; Budžeta veidošanas darbplūsmas. Izveidot jaunu darbplūsmu, izmantojot veidni Budžeta plānošanas darbplūsmas:
 
-[![Izveidot jaunu darbplūsmu](./media/screenshot39.png)](./media/screenshot39.png)
+[![Izveidot jaunu darbplūsmu.](./media/screenshot39.png)](./media/screenshot39.png)
 
 Šai darbplūsmai ir tikai viens uzdevums — Budžeta plāna stadijas pāreja. 
 
-[![Stadijas pārejas budžeta plāns](./media/screenshot40.png)](./media/screenshot40.png) 
+[![Stadijas pārejas budžeta plāns.](./media/screenshot40.png)](./media/screenshot40.png) 
 
 Saglabājiet un aktivizējiet darbplūsmu. 
 
 B. Pārejiet uz Budžeta veidošana &gt; Iestatīšana &gt; Budžeta plānošana &gt; Budžeta plānošanas konfigurācija. Cilnē Stadijas izveidojiet 2 stadijas — Sākotnējais un Iesniegts. 
 
-[![Sākotnējais un iesniegtais](./media/screenshot41.png)](./media/screenshot41.png)
+[![Sākotnējais un iesniegtais.](./media/screenshot41.png)](./media/screenshot41.png)
 
 C. Pārejiet uz Budžeta veidošana &gt; Iestatīšana &gt; Budžeta plānošana &gt; Budžeta plānošanas konfigurācija. Cilnē Darbplūsmas stadijas A darbības laikā izveidoto automātiskas apstiprināšanas darbplūsmu saistiet ar stadijām Sākotnējais un Iesniegts.
 
-[![Budžeta veidošana un budžeta plānošana](./media/screenshot42.png)](./media/screenshot42.png)  
+[![Budžeta veidošana un budžeta plānošana.](./media/screenshot42.png)](./media/screenshot42.png)  
 
 
 

@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 30ccdf45d4993e9803f86025f8e789d4f75f64dc
-ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
+ms.openlocfilehash: dc065684952cbbe2a324b766dc8c465371cdb49d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "6184026"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345504"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Noliktavas pārvaldības darba slodzes mākoņa un malas mēroga vienībām
 
@@ -73,7 +73,7 @@ Centrmezglam pieder šādi dati:
 
 Mēroga vienībām pieder faktiskā kopuma apstrāde (piemēram, darba sadalījums, papildināšanas darbs un pieprasījuma darba izveidošana) pēc kopuma izlaišanas. Tāpēc noliktavas darbinieki var apstrādāt nosūtīšanas darbu, izmantojot Warehouse Management mobile programmu, kas ir saistīta ar šo mēroga vienību.
 
-![Kopuma apstrādes plūsma](./media/wes-wave-processing-ga.png "Kopuma apstrādes plūsma")
+![Kopuma apstrādes plūsma.](./media/wes-wave-processing-ga.png "Kopuma apstrādes plūsma")
 
 ### <a name="process-work-and-ship"></a>Apstrādāt darbu un nosūtīt
 
@@ -81,7 +81,7 @@ Tiklīdz beidzamā darba process izliks krājumu galīgā nosūtīšanas vietā 
 
 Tiklīdz centrmezgls atjauninājis darbības līdz *Izdots*, tas var apstrādāt nosūtīšanas kravas apstiprinājumu un saistīto kravas pārdošanas pavadzīmi vai pārsūtīšanas pasūtījuma sūtījumu.
 
-![Izejošā apstrādes plūsma](./media/WES-outbound-processing-19.png "Izejošā apstrādes plūsma")
+![Izejošā apstrādes plūsma.](./media/WES-outbound-processing-19.png "Izejošā apstrādes plūsma")
 
 ## <a name="inbound-process-flow"></a>Ienākošā procesa plūsma
 
@@ -107,11 +107,11 @@ Darbinieks var palaist saņemšanas procesu, izmantojot Warehouse Management mob
 
 Ja neizmantojat procesu *nodošana noliktavā*, un tāpēc neizmantojat *noliktavas pasūtījumus*, centrmezgls var apstrādāt noliktavas saņemšanu un darbu apstrādi neatkarīgi no mēroga vienībām.
 
-![Ienākošā procesa plūsma](./media/wes-inbound-ga.png "Ienākošā procesa plūsma")
+![Ienākošā procesa plūsma.](./media/wes-inbound-ga.png "Ienākošā procesa plūsma")
 
 Veicot ienākošo reģistrāciju, izmantojot noliktavas programmas saņemšanas procesu attiecībā pret mēroga vienības noliktavas pasūtījumu, mēroga vienības darba noslodze dos signālu centrmezglam atjaunināt saistītās pirkšanas pasūtījuma rindas darbības uz *Reģistrēts*. Līdzko tas ir pabeigts, centrmezglā var palaist pirkšanas pasūtījuma produktu ieejas plūsmu.
 
-![Ienākošā apstrādes plūsma](./media/WES-inbound-processing-19.png "Ienākošā apstrādes plūsma")
+![Ienākošā apstrādes plūsma.](./media/WES-inbound-processing-19.png "Ienākošā apstrādes plūsma")
 
 ## <a name="supported-processes-and-roles"></a>Atbalstītie procesi un lomas
 

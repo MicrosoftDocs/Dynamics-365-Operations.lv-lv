@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 9dc305f46dad6b372721805669529bbc9ac554e8
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 428de5304b3f6f9b861e765d5084d5573b79df90
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908297"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347738"
 ---
 # <a name="safety-margins"></a>Drošības rezerves
 
@@ -41,7 +41,7 @@ Ir pieejami trīs drošības rezervju veidi.
 
 Šajā attēlā parādīts, kā šīs drošības rezerves tiek piemērotas laika gaitā.
 
-![Drošības rezerves](media/safety-margins-1.png)
+![Drošības rezerves.](media/safety-margins-1.png)
 
 Visas rezerves ir definētas dienās. Noklusējuma vērtība, *0* (nulle), norāda, ka rezerve netiek lietota. Iestatot vairākas vezerves, tās visas pievieno kopējam laikam no piegādes *pasūtījuma datuma* līdz pieprasījuma *vajadzības datumam* . Piemēram, iestatījumam nav izpildes laika, un visi trīs vezervju veidi ir iestatīti uz vienu dienu. Šādā gadījumā starp piegādes pasūtījuma datumu un pieprasījuma vajadzības datumu būs trīs dienas, tātad, ja pasūtījuma datums ir 1. jūlijs, vajadzības datums ir 4. jūlijs.
 
@@ -51,7 +51,7 @@ Ieejas plūsmas rezerve visticamāk tiek izmantota trijās drošības rezervēs.
 
 Sekojošajā attēlā ir parādīta ieejas plūsmas rezerve.
 
-![Ieejas plūsmas rezerve](media/safety-margins-2.png)
+![Ieejas plūsmas rezerve.](media/safety-margins-2.png)
 
 Parasti ieejas plūsmas rezerve tiek izmantota kā buferis, lai nodrošinātu noliktavas reģistrācijas laiku vai citus laikietilpīgus procesus, kas netiek uztverti kā daļa no vispārējā izpildes laika sistēmā. Pirkumiem viena priekšrocība ir tāda, ka pirkšanas pasūtījuma *piegādes datums* tiek attiecīgi pārvietots uz priekšu. Palielinot izpildes laiku tā vietā, lai izmantotu drošības rezervi, kreditoram joprojām tiks lūgts veikt piegādi pēdējā minūtē.
 
@@ -66,7 +66,7 @@ Ievērojiet, ka ieejas plūsmas rezerve nemaina piegādes *vajadzības datumu*. 
 
 Sekojošajā attēlā ir parādīta pasūtījuma rezerve.
 
-![Pasūtījuma rezerve](media/safety-margins-3.png)
+![Pasūtījuma rezerve.](media/safety-margins-3.png)
 
 Pasūtījuma rezerve tiek pievienota pirms krājuma izpildes laika visiem plānotajiem pasūtījumiem vispārējās plānošanas laikā. Tāpēc tā nodrošina papildu laiku piegādes pasūtījuma ievietošanai. Šī rezerve parasti tiek izmantota kā buferis, lai nodrošinātu laiku apstiprināšanas procesiem vai citiem iekšējiem procesiem, kas ir nepieciešami piegādes pasūtījumu izveides laikā. Pasūtījuma rezerve tiek novietota starp piegādes *pasūtījuma datumam* un *sākuma datumam*.
 
@@ -77,7 +77,7 @@ Pasūtījuma rezerve tiek pievienota pirms krājuma izpildes laika visiem plāno
 
 Sekojošajā attēlā ir parādīta izejas plūsmas rezerve.
 
-![Izejas plūsmas rezerve](media/safety-margins-4.png)
+![Izejas plūsmas rezerve.](media/safety-margins-4.png)
 
 Vispārējās plānošanas laikā izejas plūsmas rezerve tiek atskaitīta no pieprasījuma vajadzības datuma. Tas palīdz nodrošināt, ka ir laiks reaģēt un nosūtīt ienākošos pieprasījuma pasūtījumus. Šo rezervi parasti izmanto kā buferi, lai nodrošinātu nosūtīšanas laiku un saistītos nosūtīšanas noliktavas procesus.
 
@@ -165,7 +165,7 @@ Sekojošajā attēlā redzama matrica, kas apkopo, kuri kalendāri tiek lietoti,
 - **Noliktava (Warehouse - WH):** Dzeltena
 - **Kreditors (Vendor - V):** Zila
 
-[![Kalendāra iestatīšanas pārskata matrica](media/safety-margins-calendar-matrix.png)](media/safety-margins-calendar-matrix-high.png)
+[![Kalendāra iestatīšanas pārskata matrica.](media/safety-margins-calendar-matrix.png)](media/safety-margins-calendar-matrix-high.png)
 
 ## <a name="calculating-delays"></a>Kavējumu aprēķināšana
 
@@ -173,7 +173,7 @@ Visi trīs drošības rezervju veidi tiek iekļauti, kad sistēma nosaka, vai pa
 
 Piemēram, krājumam ir vienas dienas izpildes laiks un trīs dienu ieejas plūsmas rezerve. Pārdošanas pasūtījums šim krājumam ir iestatīts kā nepieciešams šodien. Šādā gadījumā aizkave tiek aprēķināta kā *izpildes laiks* + *ieejas plūsmas rezerve* = četras dienas. Tāpēc, ja šodien ir 14. augusts, četras aizkaves dienas veido piegādi 18. augustā. Tālāk redzamajā attēlā parādīts šis piemērs.
 
-![Kavējuma aprēķina piemērs](media/safety-margins-delays.png)
+![Kavējuma aprēķina piemērs.](media/safety-margins-delays.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 

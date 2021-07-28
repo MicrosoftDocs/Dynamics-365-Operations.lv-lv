@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e84a8c3f69bb1a429c6fd9679ba671a185cf6378
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d86c16ecd2105a7f118cf77aa078f553feb2d933
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838350"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345262"
 ---
 # <a name="cycle-counting"></a>Cikla inventarizācija
 
@@ -34,7 +34,7 @@ Cikla inventarizācija ir noliktavas process, ko var izmantot, lai auditētu rī
 2.  **Cikla inventarizācijas apstrāde** – kad ir izveidots cikla inventarizācijas darbs, to var veikt, saskaitot noliktavas vietā esošos krājumus un pēc tam izmantojot mobilo ierīci, lai ievadītu rezultātu programmā Dynamics 365 Supply Chain Management. Noliktavas novietojumā esošos krājumus var arī saskaitīt, neizveidojot cikla inventarizācijas darbu. Šo procesu sauc par *cikla inventarizāciju uz vietas*.
 3.  **Aprēķinātās vērtības starpību atrisināšana** — pēc cikla inventarizācijas visiem krājumiem ar uzskaitītās vērtības starpību lapā **Viss darbs** tiek piešķirts statuss **Neapstiprināts pārskats**. Šīs starpības var atrisināt lapā **Izskatīšanu gaidošais cikla inventarizācijas darbs**.
 
-Šajā ilustrācijā ir parādīts cikla inventarizācijas process. ![Cikla inventarizācijas procesa plūsma](./media/performcyclecountinginawarehouselocation.jpg)
+Šajā ilustrācijā ir parādīts cikla inventarizācijas process. ![Cikla inventarizācijas procesa plūsma.](./media/performcyclecountinginawarehouselocation.jpg)
 
 ## <a name="cycle-counting-prerequisites"></a>Cikla inventarizācijas priekšnoteikumi
 Tālāk esošajā tabulā ir norādīti priekšnoteikumi, kas ir jāizpilda, pirms varat izmantot cikla inventarizāciju.
