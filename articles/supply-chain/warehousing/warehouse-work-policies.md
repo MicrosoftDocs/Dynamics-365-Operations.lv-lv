@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 39a9ba00763fac220eff16bdd42aa07cc8e35ba4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d3f3a02a369cab34b965b2443bb77053377a190e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838134"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353376"
 ---
 # <a name="work-policies"></a>Darba politikas
 
@@ -200,7 +200,7 @@ Pirkšanas pasūtījums tagad ir saņemts, bet ar to nav saistīts neviens darbs
 
 Nākamajā piemērā ir divi ražošanas pasūtījumi, *PRD-001* un *PRD-002*. Ražošanas pasūtījumā *PRD-001* ir operācija ar nosaukumu *Montāža*, kur prece *SC1* tiek ziņota kā pabeigta uz novietojumu *001*. Ražošanas pasūtījumā *PRD-002* ir operācija ar nosaukumu *Krāsošana*, un tas patērē preci *SC1* no novietojuma *001*. Ražošanas pasūtījums *PRD-002* patērē arī izejmateriālu *RM1* no novietojuma *001*. Izejmateriāls *RM1* tiek glabāts noliktavas novietojumā *BULK-001* un ar noliktavas darbu izejmateriālu izdošanai tiks izdots uz novietojumu *001*. Izdošanas darbs tiek ģenerēts, kad tiek izlaista ražošana *PRD-002*.
 
-[![Noliktavas darba politikas](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
+[![Noliktavas darba politikas.](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
 
 Kad plānojat konfigurēt noliktavas darba politiku šim scenārijam, ir jāņem vērā tālāk norādītā informācija:
 

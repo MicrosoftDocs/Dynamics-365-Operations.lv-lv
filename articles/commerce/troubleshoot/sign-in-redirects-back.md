@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: a1d0ae4e487c391020947c607d5d7cb5d1ba6af4
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: e83b381e73d28dce0a438a37d5f8ed23b4957adf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020607"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350382"
 ---
 # <a name="sign-in-link-redirects-back-to-an-e-commerce-site"></a>Pierakstīšanās saite novirza atpakaļ uz e-komercijas vietni
 
@@ -43,7 +43,7 @@ Lai apstiprinātu, ka atbildes vietrādis URL ir pareizi konfigurēts Azure AD B
 1. Atlasiet programmu, ko izveidojāt Azure AD B2C iestatīšanas laikā.
 1. Sadaļā **Atbildes vietrādis URL** pārliecinieties, vai sarakstā ir ietverti gan vietnes domēna vietrāža URL, gan e-komercijas ģenerētā vietrāža URL ieraksti, kā parādīts piemērā nākamajā attēlā.
 
-    ![Azure AD B2C atbildes vietrāža URL ieraksti](media/aad-b2c-reply-url.jpg)
+    ![Azure AD B2C atbildes vietrāža URL ieraksti.](media/aad-b2c-reply-url.jpg)
 
 > [!NOTE]
 > Gan vietnes domēna vietrādim URL, gan e-komercijas ģenerētajam vietrādim URL ir jābūt derīgā URL formātā, kas neietver sākuma un beigu slīpsvītras.

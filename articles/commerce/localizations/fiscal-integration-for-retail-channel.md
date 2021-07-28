@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
 audience: Application User
 ms.reviewer: josaw
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 155056eb3a2acd0d66e0ace8d5558929678cb8e3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 5c8036b8b802043ca9a2a985f813e5ff8347a27e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798785"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348194"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>Commerce kanālu finanšu integrācijas apskats
 
@@ -46,8 +47,8 @@ Finanšu reģistrācijas process programmā Retail POS var sastāvēt no vienas
 
 Finanšu ierīces finanšu integrācijas paraugā ir ietverti CRT un aparatūras stacijas paplašinājumi attiecīgi finanšu dokumentu nodrošinātājam un finanšu savienotājam. Tajā ir ietvertas arī tālāk norādītās komponentu konfigurācijas.
 
-- **Finanšu dokumentu nodrošinātāja konfigurācija** — šajā konfigurācijā ir definēta izvades metodi un finanšu dokumentu formāts. Tajā ir ietverta arī nodokļus un maksājuma metožu datu kartēšana, lai padarītu no programmas Retail POS saņemtos datus saderīgus ar finanšu ierīces programmaparatūrā iepriekš definētajām vērtībām.
-- **Finanšu savienotāja konfigurācija** — šajā konfigurācijā ir definēta fiziskā saziņa ar konkrēto finanšu ierīci.
+- **Finanšu dokumentu nodrošinātāja konfigurācija** — šajā konfigurācijā ir definēta izvades metodi un finanšu dokumentu formāts. Tajā ir ietverta arī nodokļus un maksājuma metožu datu kartēšana, lai padarītu no programmas Retail POS saņemtos datus saderīgus ar finanšu ierīces programmaparatūrā iepriekš definētajām vērtībām.
+- **Finanšu savienotāja konfigurācija** — šajā konfigurācijā ir definēta fiziskā saziņa ar konkrēto finanšu ierīci.
 
 Noteiktas POS kases sistēmas finanšu reģistrācijas process tiek definēts, izmantojot atbilstošo iestatījumu POS funkcionalitātes profilā. Papildinformāciju par to, kā konfigurēt finanšu reģistrācijas procesu, augšupielādēt finanšu dokumentu nodrošinātāju un finanšu savienotāju konfigurācijas un mainīt to parametrus, redzēt rakstā [Finanšu reģistrācijas procesa iestatīšana](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
 
@@ -57,21 +58,21 @@ Tālāk sniegtajā piemērā ir aprakstīta tipiska finanšu reģistrācijas izp
 2. CRT nosaka, vai pašreizējam notikumam ir nepieciešama finanšu reģistrācija.
 3. Pamatojoties uz finanšu reģistrācijas procesa iestatījumiem, programma CRT nosaka finanšu savienotāju un atbilstošo finanšu dokumentu nodrošinātāju, kas ir jāizmanto finanšu reģistrācijai.
 4. CRT izpilda finanšu dokumentu nodrošinātāju, kas ģenerē finanšu dokumentu (piemēram, XML formāta dokumentu), kurš atbilst transakcijai vai notikumam.
-5. POS sistēma nosūta programmas CRT sagatavoto finanšu dokumentu uz aparatūras staciju.
+5. POS sistēma nosūta programmas CRT sagatavoto finanšu dokumentu uz aparatūras staciju.
 6. Aparatūras stacija izpilda finanšu savienotāju, kas apstrādā finanšu dokumentu un pārsūta to uz finanšu ierīci vai pakalpojumu.
 7. POS sistēma analizē no finanšu ierīces vai pakalpojuma saņemto atbildi, lai noteiktu, vai finanšu reģistrācija ir bijusi veiksmīga.
 8. CRT saglabā atbildi kanāla datu bāzē.
 
-![Risinājumu shēma](media/emea-fiscal-integration-solution.png "Risinājumu shēma")
+![Risinājumu shēma.](media/emea-fiscal-integration-solution.png "Risinājumu shēma")
 
 ## <a name="error-handling"></a>Kļūdu apstrāde
 
 Finanšu integrācijas struktūra nodrošina tālāk norādītās opcijas kļūmju apstrādei finanšu reģistrācijas laikā.
 
-- **Mēģināt vēlreiz** — operatori var izmantot šo opciju gadījumā, ja kļūmi var ātri novērst un var atkārtoti izpildīt finanšu reģistrāciju. Piemēram, šo opciju var izmantot gadījumā, ja finanšu ierīce nav pievienota vai fiskālajā printerī ir beidzies vai iesprūdis papīrs.
-- **Atcelt** — šī opcija sniedz operatoriem iespēju atlikt pašreizējās transakcijas vai notikuma finanšu reģistrāciju, ja tā neizdodas. Pēc reģistrācijas atlikšanas operators var turpināt strādāt ar POS sistēmu un veikt jebkuru operāciju, kam nav nepieciešama finanšu reģistrācija. Kad POS sistēmā notiek notikums, kam ir nepieciešama finanšu reģistrācija (piemēram, tiek atvērta jauna transakcija), tiek automātiski parādīts kļūdu apstrādes dialoglodziņš, kurā operatoram tiek paziņots, ka iepriekšējā transakcija netika pareizi reģistrēta, un tiek norādītas kļūdu apstrādes iespējas.
-- **Izlaist** — operatori var izmantot šo opciju gadījumā, ja finanšu reģistrāciju var izlaist noteiktos apstākļos un POS sistēmā var turpināt veikt parastās operācijas. Piemēram, šo opciju var izmantot gadījumā, ja pārdošanas transakciju, kuras finanšu reģistrācija neizdevās, var reģistrēt īpašā papīra žurnālā.
-- **Atzīmēt kā reģistrētu** — operatori var izmantot šo opciju gadījumā, ja transakcija ir reģistrēta finanšu ierīcē (piemēram, ir izdrukāts finanšu dokuments), taču, saglabājot finanšu atbildi kanāla datu bāzē, ir radusies kļūme.
+- **Mēģināt vēlreiz** — operatori var izmantot šo opciju gadījumā, ja kļūmi var ātri novērst un var atkārtoti izpildīt finanšu reģistrāciju. Piemēram, šo opciju var izmantot gadījumā, ja finanšu ierīce nav pievienota vai fiskālajā printerī ir beidzies vai iesprūdis papīrs.
+- **Atcelt** — šī opcija sniedz operatoriem iespēju atlikt pašreizējās transakcijas vai notikuma finanšu reģistrāciju, ja tā neizdodas. Pēc reģistrācijas atlikšanas operators var turpināt strādāt ar POS sistēmu un veikt jebkuru operāciju, kam nav nepieciešama finanšu reģistrācija. Kad POS sistēmā notiek notikums, kam ir nepieciešama finanšu reģistrācija (piemēram, tiek atvērta jauna transakcija), tiek automātiski parādīts kļūdu apstrādes dialoglodziņš, kurā operatoram tiek paziņots, ka iepriekšējā transakcija netika pareizi reģistrēta, un tiek norādītas kļūdu apstrādes iespējas.
+- **Izlaist** — operatori var izmantot šo opciju gadījumā, ja finanšu reģistrāciju var izlaist noteiktos apstākļos un POS sistēmā var turpināt veikt parastās operācijas. Piemēram, šo opciju var izmantot gadījumā, ja pārdošanas transakciju, kuras finanšu reģistrācija neizdevās, var reģistrēt īpašā papīra žurnālā.
+- **Atzīmēt kā reģistrētu** — operatori var izmantot šo opciju gadījumā, ja transakcija ir reģistrēta finanšu ierīcē (piemēram, ir izdrukāts finanšu dokuments), taču, saglabājot finanšu atbildi kanāla datu bāzē, ir radusies kļūme.
 
 > [!NOTE]
 > Opcijas **Izlaist** un **Atzīmēt kā reģistrētu** pirms lietošanas ir jāaktivizē finanšu reģistrācijas procesa ietvaros. Turklāt operatoriem ir jāpiešķir atbilstošās atļaujas.
@@ -98,8 +99,8 @@ POS veic darbspējas pārbaudi šādu notikumu gadījumā:
 
 Ja darbspējas pārbaude neizdodas, POS rāda darbspējas pārbaudes dialoglodziņu. Minētajā dialoglodziņā ir pieejamas šādas pogas:
 
-- **Labi** — šī poga ļauj operatoram ignorēt darbspējas pārbaudes kļūdu un turpināt, lai apstrādātu darījumu. Operatori var atlasīt šo pogu tikai tad, ja tiem ir iespējota atļauja **Atļaut izlaist darbspējas pārbaudes kļūdu**.
-- **Atcelt** — ja operators izvēlas šo pogu, POS atceļ pēdējo darbību (piemēram, krājums nav pievienots jaunam darījumam).
+- **Labi** — šī poga ļauj operatoram ignorēt darbspējas pārbaudes kļūdu un turpināt, lai apstrādātu darījumu. Operatori var atlasīt šo pogu tikai tad, ja tiem ir iespējota atļauja **Atļaut izlaist darbspējas pārbaudes kļūdu**.
+- **Atcelt** — ja operators izvēlas šo pogu, POS atceļ pēdējo darbību (piemēram, krājums nav pievienots jaunam darījumam).
 
 > [!NOTE]
 > Darbspējas pārbaude tiek izpildīta tikai tad, ja pašreizējai operācijai obligāti jāveic finanšu reģistrācija un ja parametrs **Kļūdas gadījumā turpināt** ir atspējots pašreizējam finanšu reģistrācijas procesa solim. Plašāku informāciju skatiet tēmā [Kļūdu apstrādes iestatījumu veikšana](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).

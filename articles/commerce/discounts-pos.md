@@ -16,12 +16,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: a9fd5a90d59ec329f8d4a2515e657fb822c098b0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d251eb02e7d9db1e61ba8bb6531c90e0e23717b3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792851"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356882"
 ---
 # <a name="show-discounts-in-pos"></a>Rādīt atlaides punktā POS
 
@@ -33,7 +33,7 @@ Veicināšanas pasākumiem ir svarīga loma, motivējot klientus, kuri pieņem p
 
 Commerce ietver operāciju ar nosaukumu "Skatīt visas atlaides". Šī operācija parāda visas atlaides, kas pašlaik tiek darbinātas veikalā. Operāciju "Skatīt visas atlaides" var kartēt uz pogu pārdošanas punktā (POS), un šo pogu var pievienot **Sveiciena** lapai vai **Transakcijas** lapai. Nākamajā attēlā ir parādīts atvērtas lapas **Visas atlaides**.
 
-![Visu atlaižu lapa](./media/View_all_discounts.png "Visu atlaižu lapa")
+![Visu atlaižu lapa.](./media/View_all_discounts.png "Visu atlaižu lapa")
 
 Lai parādītu atlaides, sistēma meklē visas atlaides, kas atbilst vienam vai vairākiem no šādiem nosacījumiem:
 
@@ -61,11 +61,11 @@ Sekojošās ilustrācijās redzama loģika, kas nosaka, kuras atlaides tiek rād
 
 Sekojošajā attēlā redzama loģika, kas tiek izmantota, kad atlaides vienlaicīguma kontrole ir iestatīta kā **Labākā cena un salikums prioritātē, nekad salikts prioritātēs**.
 
-![Optimālas cenas un salikuma loģika prioritātes ietvaros, nekad salikts prioritātēs](./media/Model_1.png "Optimālas cenas un salikuma loģika prioritātes ietvaros, nekad salikta prioritātēs").
+![Optimālas cenas un salikuma loģika prioritātes ietvaros, nekad salikts prioritātēs.](./media/Model_1.png "Optimālas cenas un salikuma loģika prioritātes ietvaros, nekad salikta prioritātēs").
 
 Sekojošajā attēlā redzama loģika, kas tiek izmantota, kad atlaides vienlaicīguma kontrole ir iestatīta kā **Labākā cena tikai prioritātē, vienmēr salikts prioritātē**.
 
-![Optimālas cenas loģika tikai prioritātes ietvaros, vienmēr salikta prioritātē](./media/Model_2.png "Optimālas cenas loģika tikai prioritātes ietvaros, vienmēr salikta prioritātē").
+![Optimālas cenas loģika tikai prioritātes ietvaros, vienmēr salikta prioritātē.](./media/Model_2.png "Optimālas cenas loģika tikai prioritātes ietvaros, vienmēr salikta prioritātē").
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

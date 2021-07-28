@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 413be634e80b87781444e1c1445c78691f4b4b0b
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: d152449b55ab111cf5bac363b38d32c3658a56e3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944296"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359415"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>ER konfigurāciju ar Excel veidnēm atkārtota izmantošana, lai veidotu pārskatus Word formātā
 
@@ -54,14 +54,14 @@ Turklāt jums ir nepieciešams šim pašam pārskatam lejupielādēt un lokāli 
 5. Atlasiet **Noformētājs**.
 6. **Formāta veidotāja** lapā ievērojiet, ka saknes formāta elementa nosaukums norāda, ka pašlaik tiek izmantota Excel veidne.
 
-![Atlasiet esošo konfigurāciju](../media/er-design-configuration-word-2016-11-image01.gif)
+![Atlasiet esošo konfigurāciju.](../media/er-design-configuration-word-2016-11-image01.gif)
 
 ## <a name="review-the-downloaded-word-template"></a>Pārskatīt lejupielādēto Word veidni
 
 1. Word darbvirsmas programmā atveriet **SampleVendPaymDocReport.docx veidnes** failu, kuru lejupielādējāt iepriekš.
 2. Ņemiet vērā, ka šī veidne satur tikai dokumenta izkārtojumu, kuru vēlaties ģenerēt kā ER izvadi.
 
-![Pārskata parauga veidnes priekšskatīšana Word darbvirsmas programmā](../media/er-design-configuration-word-2016-11-image02.png)
+![Pārskata parauga veidnes priekšskatīšana Word darbvirsmas programmā.](../media/er-design-configuration-word-2016-11-image02.png)
 
 ## <a name="replace-the-excel-template-with-the-word-template-and-add-a-custom-xml-part"></a>Aizstāt Excel veidni ar Word veidni un pievienot pielāgotu XML daļu
 
@@ -84,7 +84,7 @@ Pašlaik Excel dokuments tiek izmantots kā veidne, lai ģenerētu izvadi formā
 
 9. Formāta veidotāja lapā ievērojiet, ka saknes formāta elementa nosaukums norāda, ka pašlaik tiek izmantota Excel veidne.
 
-    ![Aizstāt Excel veidni ar Word veidni un pievienot pielāgotu XML daļu](../media/er-design-configuration-word-2016-11-image03.gif)
+    ![Aizstāt Excel veidni ar Word veidni un pievienot pielāgotu XML daļu.](../media/er-design-configuration-word-2016-11-image03.gif)
 
 10. Cilnē **Formāts** atlasiet **Pielikumi**.
 
@@ -110,7 +110,7 @@ Ja pārzināt Word dokumentus, ko var noformēt kā veidlapas, kurās ir [satura
 1. Word darbvirsmas programmā atveriet **SampleVendPaymDocReport.docx veidnes** veidnes failu.
 2. Ņemiet vērā, ka šī veidne satur tikai dokumenta izkārtojumu, kuru vēlaties ģenerēt kā ER izvadi. Satura vadīklas, kas tiek izmantotas kā vietturi datiem, ko ER ievadīs šajā veidnē izpildlaikā, ir balstītas uz kartējumiem, kas ir konfigurēti starp **Pārskata** pielāgotās XML daļas elementiem un Word dokumenta satura vadīklām.
 
-![Pārskata parauga veidnes priekšskatīšana Word darbvirsmas programmā](../media/er-design-configuration-word-2016-11-image04.png)
+![Pārskata parauga veidnes priekšskatīšana Word darbvirsmas programmā.](../media/er-design-configuration-word-2016-11-image04.png)
 
 ## <a name="upload-the-word-template-where-the-custom-xml-part-is-mapped-to-content-controls"></a>Pārskatīt Word veidni, kur pielāgotā XML daļa ir kartēta uz satura vadīklām
 
@@ -144,7 +144,7 @@ Lai palaistu rediģējamā formāta melnraksta versiju, tā ir jāpadara [palai�
 3. Lapā **Kreditoru maksājumi** atlasiet visas režģa rindas.
 4. Atlasiet **Maksājuma statusu** \> **Nav**.
 
-    ![Maksājumi apstrāde lapā Kreditora maksājumi](../media/er-design-configuration-word-2016-11-image05.png)
+    ![Maksājumi apstrāde lapā Kreditora maksājumi.](../media/er-design-configuration-word-2016-11-image05.png)
 
 5. Darbību rūtī atlasiet **Ģenerēt maksājumus**.
 6. Nolaižamajā dialoglodziņā veiciet tālāk norādītās darbības:
@@ -156,11 +156,11 @@ Lai palaistu rediģējamā formāta melnraksta versiju, tā ir jāpadara [palai�
 7. Dialoglodziņā **Elektroniskā pārskata parametri** atlasiet **Labi**.
 8. Izveidotā izvade tiek rādīta formātā Word, un tā ietver detalizētu informāciju par apstrādātajiem maksājumiem. Analizējiet ģenerēto izvadi.
 
-    ![Ģenerētais rezultāts Word formātā](../media/er-design-configuration-word-2016-11-image06.png)
+    ![Ģenerētais rezultāts Word formātā.](../media/er-design-configuration-word-2016-11-image06.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-- [ER konfigurāciju noformēšana, lai ģenerētu atskaites Word formātā](../er-design-configuration-word.md)
+- [Jaunas ER konfigurācijas noformēšana, lai ģenerētu atskaites Word formātā](../er-design-configuration-word.md)
 - [Iegulstiet attēlus un formas jūsu ģenerētajos dokumentos, izmantojot ER](../electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
 
 

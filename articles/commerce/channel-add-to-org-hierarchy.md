@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: c7ff6d8ee7e526e45975cfa500b5e6d6079054dc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f20b5c36b45fc0d242edb4e5305a4195d6dfbe94
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800691"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351229"
 ---
 # <a name="add-a-channel-to-an-organizational-hierarchy"></a>Pievienot kanālu organizācijas hierarhijai
 
@@ -44,7 +44,7 @@ Lai atlasītu hierarhiju, rīkojieties, kā norādīts tālāk.
 
 Tālāk esošajā attēlā parādīta izvēlētās hierarhijas organizācijas hierarhijas detalizēta informācija.
 
-![Izvēlētās hierarhijas organizācijas hierarhijas detalizēta informācija](media/channel-add-to-org-hierarchy-1.png)
+![Izvēlētās hierarhijas organizācijas hierarhijas detalizēta informācija.](media/channel-add-to-org-hierarchy-1.png)
 
 ## <a name="add-a-channel-to-a-hierachy-node"></a>Kanāla pievienošana hierarhijas mezglam
 
@@ -58,17 +58,17 @@ Lai pievienotu kanālu hierarhijas mezglam, veiciet tālāk norādīto.
 
 Tālāk esošajā attēlā ir parādīts, kā atlasīt kanālu, ko pievienot hierarhijas mezglam.
 
-![Atlasiet kanālu, lai pievienotu hierarhijas mezglam](media/channel-add-to-org-hierarchy-2.png)
+![Atlasiet kanālu, lai pievienotu hierarhijas mezglam.](media/channel-add-to-org-hierarchy-2.png)
 
 Tālāk esošais attēls rāda hierarhiju, kurai pievienoti dažādi kanāli.
 
-![Hierarhija ar vairākiem pievienotiem kanāliem](media/channel-add-to-org-hierarchy-3.png)
+![Hierarhija ar vairākiem pievienotiem kanāliem.](media/channel-add-to-org-hierarchy-3.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Kanālu apskats](channels-overview.md)
 
-[Kanālu iestatīšanas priekšnosacījumi](channels-prerequisites.md)
+[Kanāla iestatīšanas priekšnosacījumi](channels-prerequisites.md)
 
 [Organizācijas un organizāciju hierarhiju pārskats](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
 

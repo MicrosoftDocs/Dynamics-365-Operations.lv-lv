@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: AssetLeaseLeasingWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 4464
+ms.custom:
+- "4464"
+- intro-internal
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 8141badab2561707e2055d7084323ed4310d2421
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 0f0d39e5a3a1a70f57d305da67e160b0b20cedf4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5892437"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360740"
 ---
 # <a name="asset-leasing-get-started"></a>Līdzekļu nomas sākšana
 
@@ -35,7 +37,7 @@ Lai iegūtu vairāk informācijas par grāmatvedības standartiem, skatiet 16. S
 ## <a name="asset-leasing-elements"></a>Līdzekļu nomas elementi
 Diagrammā ir parādīti nomas biznesa procesa galvenie elementi.
 
-[![Līdzekļu nomas elementi](./media/overview-01.png)](./media/overview-01.png)
+[![Līdzekļu nomas elementi.](./media/overview-01.png)](./media/overview-01.png)
 
 Iznomāts līdzeklis ietver šādus galvenos komponentus:
 
@@ -54,7 +56,7 @@ Līdzekļu nomas kartes nomā informāciju, maksājumu grafikus, sākuma un beig
 
 Diagrammā ir parādīta nomas grāmata, nomas līgums, aprēķinātais maksājumu grafiks, nomas un nomas grāmatu klasifikācijas testi un attiecīgie grāmatvedības darījumi.
 
-[![Noma, nomas grāmata un maksājumu grafiks](./media/overview-02.png)](./media/overview-02.png)
+[![Noma, nomas grāmata un maksājumu grafiks.](./media/overview-02.png)](./media/overview-02.png)
 
 - **Nomas grāmata** — nomas grāmatā ir iekļauta visa nomas līguma informācija, piemēram, nomas noteikumi, patiesā vērtība un nomas maksājumi. Tā ietver arī jūsu izmantoto grāmatvedības standartu, nomas veidu un sliekšņus, kas tiek ņemti vērā nomas klasifikācijas testā. Nomas grāmatā ietverti arī nomas darījumi, kas iegrāmatoti virsgrāmatā. 
   
@@ -117,7 +119,7 @@ Pirmais periods sāksies ar nulles periodu, ja priekšsamaksas veids ir priekšs
 
 Klasifikācijas testi ietver īpašumtiesību nodošanu, pirkšanas opciju, nomas termiņu, neto pašreizējo vērtību un unikālu līdzekli. Diagramma attēlo nomas klasifikācijas testus.
 
-[![Nomas klasifikācijas testi](./media/overview-03.png)](./media/overview-03.png)
+[![Nomas klasifikācijas testi.](./media/overview-03.png)](./media/overview-03.png)
 
 Katrs nomas veids dažādu nomas darījumu uzskaiti veic atšķirīgi. Darījumi ietver sākotnējo atzīšanu, procentu izdevumus, nomas maksājumu un nomas nolietojumu, un tie ir balstīti uz grāmatvedības standartiem, kuriem sekojat (16. SFPS vai ASC 842). Virsgrāmatas konti ir definēti nomas grāmatošanas metodē katram darījuma veidam un uzskaites ietvaram.
 
@@ -232,7 +234,7 @@ Lai izveidotu jaunu nomu, veiciet tālāk norādītās darbības.
 
    Lapa **Maksājumu grafiks** norāda turpmākos maksājumu grafikus nomas ID. Atlasiet **Apstiprināt grafiku**, lai varētu grāmatot **Sākotnējās atzīšana** darījumus. 
 
-[![Sākotnējās atzīšanas funkcija](./media/overview-13.png)](./media/overview-13.png)
+[![Sākotnējās atzīšanas funkcija.](./media/overview-13.png)](./media/overview-13.png)
 
 8. Atlasiet **Sākotnējā atzīšana**, lai izveidotu sākotnējo atzīšanas žurnālu. 
 
@@ -246,7 +248,7 @@ Lai izveidotu jaunu nomu, veiciet tālāk norādītās darbības.
 
    Lapa **Līdzekļu nolietojuma grafiks** parāda nolietojuma darbības atlasītajiem nomas ID. 
 
-   [![LLT darījumu lapa](./media/overview-20.png)](./media/overview-20.png)
+   [![LLT darījumu lapa.](./media/overview-20.png)](./media/overview-20.png)
 
    Lapa **LLT darījumi** parāda sākotnējo atzīšanu, uzkrāto nolietojumu un līdzekļa bilanci. 
 

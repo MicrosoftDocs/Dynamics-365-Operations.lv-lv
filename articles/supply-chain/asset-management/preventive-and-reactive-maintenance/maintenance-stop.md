@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b2162621968c5b1c3957ea1a1639e71439000918
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e9d024a5096b499b986ec2d5c38c0d6a2b7794d3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837829"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356492"
 ---
 # <a name="maintenance-downtime-activities"></a>Dīkstāves uzturēšanas aktivitātes
 
@@ -40,7 +40,7 @@ Kad dīkstāves uzturēšanas dēļ reģistrācijā ir atlasīti līdzekļi, vis
 
 Noklikšķiniet uz **Līdzekļu pārvaldība** > **Vispārīgi** > **Dīkstāves uzturēšanas dēļ darbības** > **Visas uzturēšanas dīkstāves dēļ darbības**, lai atvērtu sarakstu ar visām dīkstāves uzturēšanas dēļ darbībām un redzētu informāciju, kas saistīta ar darbībām. Noklikšķiniet uz saites kolonnā **Dīkstāves uzturēšanas dēļ darbības**, lai atvērtu detalizētu skatu. Nākamajā attēlā ir parādīts saraksta **Dīkstāves uzturēšanas dēļ aktivitātes** piemērs.
 
-![1. attēls](media/19-preventive-maintenance.png)
+![1. attēls.](media/19-preventive-maintenance.png)
 
 
 ## <a name="create-a-maintenance-downtime-activity"></a>Izveidojiet dīkstāves uzturēšanas dēļ aktivitāti
@@ -61,7 +61,7 @@ Noklikšķiniet uz **Līdzekļu pārvaldība** > **Vispārīgi** > **Dīkstāves
 
 Nākamajā attēlā ir parādīts detalizētā skata **Dīkstāves uzturēšanas dēļ aktivitātes** piemērs.
 
-![2. attēls](media/20-preventive-maintenance.png)
+![2. attēls.](media/20-preventive-maintenance.png)
 
 >[!NOTE]
 >Darba pasūtījuma uzturēšanas darbi un uzturēšanas grafika rindas, kas saistītas ar atlasītiem līdzekļiem, tiek automātiski atjauninātas, ja tiek izveidoti jauni darba pasūtījumi vai uzturēšanas grafika rindas pēc tam, kad izveidojat dīkstāves uzturēšanas dēļ darbību. Piemēram, ja ieplānojat uzturēšanas plānus vai uzturēšanas ciklus saistītos līdzekļos divas dienas pēc dīkstāves uzturēšanas dēļ darbības izveides, jaunās uzturēšanas grafika rindas tiek automātiski pievienotas dīkstāves uzturēšanas dēļ darbībai.
@@ -72,7 +72,7 @@ Nākamajā attēlā ir parādīts detalizētā skata **Dīkstāves uzturēšanas
 
 10. Noklikšķiniet uz **Labi**, lai sāktu aprēķināšanu. Kopējais stundu skaits ir uzrādīts pārskatā **Noslodze**. Cilnē **Noslodze** darbību rūts grupās **Grupēt pēc...** noklikšķiniet uz attiecīgajām pogām, lai iegūtu detalizētāku pārskatu par prognozēto stundu piešķiršanu. Nākamajā attēlā ir redzami **Noslodzes** aprēķina rezultāti.
 
-![3. attēls](media/21-preventive-maintenance.png)
+![3. attēls.](media/21-preventive-maintenance.png)
 
 11. Lai iegūtu pārskatu par noslodzi, ja vēlaties veikt darba pasūtījuma uzturēšanas darbu vai uzturēšanas grafika rindu pielāgojumus, atgriezieties detalizētajā skatā **Dīkstāves uzturēšanas dēļ darbības** un atlasiet rindas, kuras vēlaties pielāgot kopsavilkuma cilnēs **Darba pasūtījumu uzturēšanas gala darbi** un **Uzturēšanas grafika rindas**.
 
@@ -89,7 +89,7 @@ Nākamajā attēlā ir parādīts detalizētā skata **Dīkstāves uzturēšanas
 
 16. Noklikšķiniet uz **Labi**, lai sāktu aprēķināšanu. Kopējais vienuma prognožu skaits ir uzrādīts pārskatā  **Vienuma prognoze**. Cilnē **Vienuma prognoze** > darbību rūts grupās **Grupēt pēc...** noklikšķiniet uz attiecīgajām pogām, lai iegūtu detalizētāku pārskatu par prognozēto vienumu piešķiršanu. Nākamajā attēlā ir parādīti **Vienuma prognozes** aprēķina rezultāti.
 
-![4. attēls](media/22-preventive-maintenance.png)
+![4. attēls.](media/22-preventive-maintenance.png)
 
 - Jūs varat nokopēt līdzekļus no vienas dīkstāves uzturēšanas dēļ darbības citā. In **Visas dīkstāves uzturēšanas dēļ darbības** atlasiet pogu **Kopēt dīkstāves uzturēšanas dēļ darbības** un veiciet atlasi laukos **Dīkstāves uzturēšanas dēļ darbības no** un **Dīkstāves uzturēšanas dēļ darbības līdz** un noklikšķiniet uz **Labi**.
 - Laukā **Visas dīkstāves uzturēšanas dēļ darbības** noklikšķiniet uz pogas **Uzturēšanas grafika rindas** vai pogas **Aktīvi darba pasūtījumi**, lai atvērtu saistītos sarakstus un skatītu rindas, kas ir saistītas ar atlasīto dīkstāves uzturēšanas dēļ darbību.

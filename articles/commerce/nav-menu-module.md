@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: b112bb453e0840120c63038bf8d6897fbf5ff288
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 637d8d211f59711aafe9357dcd48d48f861f722d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798757"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353112"
 ---
 # <a name="navigation-menu-module"></a>Navigācijas izvēlnes modulis
 
@@ -33,7 +33,7 @@ Navigācijas izvēlnes moduļu primārais nolūks ir ļaut vietnes lietotājiem 
 Navigācijas izvēlnes moduli var pievienot lapas galvenes modulim. Tēmā Fabrikam navigācijas izvēlne pēc noklusējuma rāda divus līmeņus. Tēmā Starter navigācijas izvēlne pēc noklusējuma rāda trīs līmeņus. Lai mainītu uz līmeņu skaitu, tēmā ir nepieciešams skata paplašinājums.
 
 Sekojošajā attēlā redzams vietnes Fabrikam navigācijas izvēlnes piemērs ar diviem kategoriju hierarhijas līmeņiem un dažiem statiskiem izvēlnes elementiem.
-![Navigācijas izvēlnes moduļa piemērs](./media/ecommerce-header.png)
+![Navigācijas izvēlnes moduļa piemērs.](./media/ecommerce-header.png)
 
 ## <a name="navigation-menu-module-properties"></a>Navigācijas izvēlnes moduļa rekvizīti
 
@@ -50,7 +50,7 @@ Sekojošajā attēlā redzams vietnes Fabrikam navigācijas izvēlnes piemērs a
 | Saknes izvēlne | virkne | Šo rekvizītu var izmantot, lai definētu tekstu pielāgotai saknei, ja rekvizīts **Rādīt saknes izvēlni** ir iestatīts uz **Patiess**. |
 
 Sekojošajā attēlā redzams kategorijas attēla piemērs, kas parādīts Fabrikam vietnes navigācijas izvēlnē.
-![Navigācijas izvēlnes moduļa piemērs ar kategoriju attēliem](./media/ecommerce-categoryimages.PNG)
+![Navigācijas izvēlnes moduļa piemērs ar kategoriju attēliem.](./media/ecommerce-categoryimages.PNG)
 
 ## <a name="add-a-navigation-menu-module-to-a-header-module"></a>Navigācijas izvēlnes moduļa pievienošana galvenes modulim
 

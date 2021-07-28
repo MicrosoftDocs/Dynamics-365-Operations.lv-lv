@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c865d5e055e3fadf2dda225b49f13a163974768f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e7d2cd7b7ce9446d77eff66433739c8ea6b1f309
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797459"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348300"
 ---
 # <a name="tab-module"></a>Cilnes modulis
 
@@ -34,11 +34,11 @@ Katrā cilnes modulī var pievienot vienu vai vairākus cilnes krājumu moduļus
 
 Attēlā zemāk redzams cilnes moduļa piemērs vietas lapā. Šajā piemērā ir atlasīta cilne **Piegāde**.
 
-![Cilnes moduļa piemērs](./media/ecommerce-tab.PNG)
+![Cilnes moduļa piemērs.](./media/ecommerce-tab.PNG)
 
 ## <a name="tab-module-properties"></a>Cilnes moduļa rekvizīti
 
-| Rekvizīta nosaukums | Vērtības | apraksts |
+| Rekvizīta nosaukums | Vērtības | Apraksts |
 |---------------|--------|-------------|
 | Virsraksts | Teksts | Šis rekvizīts norāda neobligātu teksta virsrakstu cilnes modulim. |
 | Aktīvās cilnes indekss | Skaits | Šis rekvizīts norāda cilni, kas pēc noklusējuma ir jāaktivizē, kad tiek ielādēta lapa. Ja nav norādīta vērtība, pēc noklusējuma ir aktīvs ir pirmais cilnes elements. |

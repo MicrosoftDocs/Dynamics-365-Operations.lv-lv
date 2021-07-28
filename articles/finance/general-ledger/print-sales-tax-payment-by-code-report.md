@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: eb3ee4a12d2d29c2769f1ae22e11dc05608b47c1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dad1cad6dcda1c7768f9be8bd7bd4426be7fbcbb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815456"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358861"
 ---
 # <a name="print-the-sales-tax-payment-by-code-report"></a>PVN maksājuma drukāšana pēc koda pārskata 
 
@@ -40,11 +40,11 @@ Jūs varat arī ģenerēt šo pārskatu, lai tas parāda PVN maksājumu summas P
     - **Uzskaites valūta** — drukāt pārskata summas uzskaites valūtā.
     - **PVN koda valūta** — drukāt pārskatu summas PVN kodu valūtās.
 
-    ![PVN maksājums pēc koda dialoglodziņš](media/Sales-tax-payment-by-code.png)
+    ![PVN maksājums pēc koda dialoglodziņš.](media/Sales-tax-payment-by-code.png)
 
 Tālāk redzamajā attēlā ir parādīts ģenerēta pārskata piemērs. Pārskats rāda, ka pārskata kodam **101** ir valūta **EUR**, ja **PVN valūtas** lauks ir iestatīts uz **EUR** PVN kodam, kuram ir piešķirts pārskata kods.
 
-![PVN maksājums pēc koda pārskata piemērs](media/Sales-tax-payment-by-code-2.png)
+![PVN maksājums pēc koda pārskata piemērs.](media/Sales-tax-payment-by-code-2.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

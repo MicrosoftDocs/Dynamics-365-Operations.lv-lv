@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 06ddad1f2df895da4819a06e3552acab8e9aff78
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 5ce0da7eb99d6da876362bb7e3f2cfbb9e561cfd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744737"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358945"
 ---
 # <a name="my-team-mobile-workspace"></a>Mobilā darbvieta Mana grupa
 
@@ -78,7 +78,7 @@ Mobilās programmas Finance and Operations lejupielāde un instalēšana.
 3.  Pirmajā pierakstīšanās reizē tiek prasīts ievadīt lietotājvārdu un paroli. Ievadiet savus akreditācijas datus.
 4.  Pēc pierakstīšanās tiek parādītas jūsu uzņēmumam pieejamās darbvietas. Ņemiet vērā, ka gadījumā, ja sistēmas administrators vēlāk publicēs jaunu darbvietu, jums būs jāatsvaidzina mobilo darbvietu saraksts.
 
-[![Velciet, lai atsvaidzinātu](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Velciet, lai atsvaidzinātu.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-team-members-by-using-the-my-team-mobile-workspace"></a>Skatīt grupas dalībniekus, izmantojot mobilo darbvietu Mana grupa
 1.  Mobilajā programmā atlasiet darbvietu **Mana grupa**. Tiek parādīts grupas dalībnieku saraksts. Šajā sarakstā tiek rādīts arī katras grupas dalībnieka amats un visi tiešie pārskati, kas šim darbiniekam ir.

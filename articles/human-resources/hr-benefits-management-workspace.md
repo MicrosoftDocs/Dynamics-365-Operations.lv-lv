@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cf2c41af6aa8e77eff819cfacc3459ead290642b
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 45f776238fbb8e028e8d5b2f342b7d27009c686d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193435"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353618"
 ---
 # <a name="benefits-management-workspace"></a>Atvieglojumu pārvaldības darbvieta
 
@@ -31,7 +31,7 @@ ms.locfileid: "6193435"
 Šajā tēmā ir aprakstīta **Atvieglojumu pārvaldības** darbvieta programmā Dynamics 365 Human Resources.
 
 > [!NOTE]
-> Lai skatītu **Atvieglojumu pārvaldības** darbvietu, Līdzekļa pārvaldībā vispirms ir jāiespējo līdzeklis **(Priekšskatījums) Atvieglojumu pārvaldības** darbvieta. Lai iegūtu papildinformāciju par priekšskatījuma līdzekļu iespējošanu, skatiet sadaļu [Līdzekļu pārvaldība](hr-admin-manage-features.md).<br><br>![Atvieglojumu pārvaldības darbvietas iespējošana](./media/hr-benefits-management-workspace-enable.png)
+> Lai skatītu **Atvieglojumu pārvaldības** darbvietu, Līdzekļa pārvaldībā vispirms ir jāiespējo līdzeklis **(Priekšskatījums) Atvieglojumu pārvaldības** darbvieta. Lai iegūtu papildinformāciju par priekšskatījuma līdzekļu iespējošanu, skatiet sadaļu [Līdzekļu pārvaldība](hr-admin-manage-features.md).<br><br>![Atvieglojumu pārvaldības darbvietas iespējošana.](./media/hr-benefits-management-workspace-enable.png)
 
 **Atvieglojumu pārvaldības** darbvieta ļauj jums ātri skatīt atvieglojumu krājumus, kam ir nepieciešama jūsu uzmanība. Šajā lapa var redzēt:
 
@@ -43,13 +43,13 @@ ms.locfileid: "6193435"
 - Darbinieki ar aktīviem notikumiem dzīvē
 - Darbinieki ar atvērtām reģistrācijām, kuri nav izvēlējies nevienu plānu
 
-![Atvieglojumu pārvaldības darbvieta](./media/hr-benefits-management-workspace.png)
+![Atvieglojumu pārvaldības darbvieta.](./media/hr-benefits-management-workspace.png)
 
 ## <a name="view-action-items"></a>Skatīt darbības elementus
 
 Darbību elementus varat skatīt, atlasot elementu vai cilni. Atlasot cilni, var skatīt un atlasīt darbiniekus tieši darbvietas lapā.
 
-![Darbības elementi](./media/hr-benefits-management-workspace-action-items.png)
+![Darbības elementi.](./media/hr-benefits-management-workspace-action-items.png)
 
 Ja atlasāt elementu, dodieties uz šī apgabala lapu. Piemēram, atlasot jebkuru no šiem informācija, tiek parādīta lapa **Darbinieka atvieglojumu plāni**, kas filtrēti darbiniekiem, par kuriem jāpieņem lēmums:
 
@@ -58,11 +58,11 @@ Ja atlasāt elementu, dodieties uz šī apgabala lapu. Piemēram, atlasot jebkur
 - **Reģistrēts atvieglojumiem**
 - **Jauna darbā pieņemšana nav reģistrēta**
 
-![Nodarbināto atvieglojumu plāni](./media/hr-benefits-management-workspace-plans.png)
+![Nodarbināto atvieglojumu plāni.](./media/hr-benefits-management-workspace-plans.png)
 
 Atlasot **Aktīvos dzīves notikumus** vai **Turpmākos dzīves notikumus**, jums tiek parādīts aktīvo vai nākotnes dzīves notikumu saraksts.
 
-![Dzīves notikumi](./media/hr-benefits-management-workspace-life-events.png)
+![Dzīves notikumi.](./media/hr-benefits-management-workspace-life-events.png)
 
 ## <a name="processing"></a>Notiek apstrāde.
 
@@ -72,7 +72,7 @@ Lai apstrādātu reģistrēšanas piemērotību, dzīves notikumus vai likmes ma
 
 Lai skatītu apstrādes rezultātus, atlasiet lapā **Procesa rezultāti**.
 
-![Procesa rezultāti](./media/hr-benefits-management-workspace-process-results.png)
+![Procesa rezultāti.](./media/hr-benefits-management-workspace-process-results.png)
 
 Plašāku informāciju par atvieglojumu apstrādi skatiet:
 
@@ -86,13 +86,13 @@ Plašāku informāciju par atvieglojumu apstrādi skatiet:
 
 Lai skatītu citu atvieglojumu periodu, atlasiet to no nolaižamā saraksta **Periods**.
 
-![Mainīt periodu](./media/hr-benefits-management-workspace-period.png)
+![Mainīt periodu.](./media/hr-benefits-management-workspace-period.png)
 
 ## <a name="view-more-options"></a>Skatīt vairāk opciju
 
 Lai apskatītu vairāk informācijas un darbības, ko varat veikt, atlasiet **Saites**.
 
-![Saites](./media/hr-benefits-management-workspace-links.png)
+![Saites.](./media/hr-benefits-management-workspace-links.png)
 
 ## <a name="see-also"></a>Skatiet arī
 

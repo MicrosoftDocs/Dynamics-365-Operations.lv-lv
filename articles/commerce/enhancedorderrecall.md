@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 2f7ad4f53917bb607afe84a2c457518c3f8f7a08
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7a9507cd7f2a1612ab4063d6307b72d8522619ba
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799110"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349428"
 ---
 # <a name="recall-order-operation-in-pos"></a>Pasūtījuma operāciju atsaukšana punktā POS
 
@@ -29,7 +29,7 @@ Lai iespējotu šo funkcionalitāti ieslēdziet līdzekli **Uzlabota pasūtījum
 
 Operāciju pogas **Atsaukt pasūtījumu** konfigurēšana ļauj organizācijām izvietot operāciju ar iepriekš definētu displeju.
 
-![Pogu rindas konfigurēšana](media/recallorderbuttongrid.png)
+![Pogu rindas konfigurēšana.](media/recallorderbuttongrid.png)
 
 Displeja opcijas ir aprakstītas šeit.
 - **Nav** – šī opcija izvieto operāciju bez noteikta displeja. Kad lietotājs atver operāciju ar šo konfigurāciju, viņam tiks piedāvāts meklēt un atrast pasūtījumus vai izvēlēties no iepriekš definēta pasūtījumu filtra.
@@ -42,11 +42,11 @@ Uzsākot **Atsaukt pasūtījumu** operāciju no punkta POS, ja displejs ir konfi
 - Lai izmantotu filtrēšanas mehānismu un atrastu pasūtījumus, kas atbilst filtrēšanas kritērijiem, atlasiet **Meklēt pasūtījumus** vai **Meklēt un filtrēt** ikonu, kas atrodas AppBar.
 - Nolaižamajā izvēlnē **Rādīt pasūtījumus** izvēlieties kādu no iepriekš definētajiem filtriem (izpildāmie pasūtījumi, izdodamie pasūtījumi vai nosūtāmie pasūtījumi).
 
-![RecallOrderMainMenu](media/recallordermain.png)
+![RecallOrderMainMenu.](media/recallordermain.png)
 
 Pēc meklēšanas kritēriju piemērošanas programmā tiks parādīts atbilstošo pārdošanas pasūtījumu saraksts. Ir svarīgi ņemt vērā, ka, izmantojot meklēšanas/filtra opcijas, izgūtajiem pasūtījumiem nav jābūt pasūtījumiem, kas saistīti ar lietotāja pašreizējo veikalu. Šis meklēšanas process izgūs un parādīs jebkuru debitora pasūtījumu, kas atbilst meklēšanas kritērijiem, pat ja pasūtījums tika izveidots vai iestatīts izpildei citā veikala/kanāla vai noliktavas vietā.
 
-![RecallOrderDetail](media/orderrecalldetail.png)
+![RecallOrderDetail.](media/orderrecalldetail.png)
 
 Lietotājs sarakstā var atlasīt pasūtījumu, lai skatītu papildu informāciju. Informācijas panelī ekrāna labajā pusē tiek parādīta atlasītā pasūtījuma specifika, ieskaitot pasūtījuma rindas informāciju, piegādes informāciju un izpildes informāciju.
 

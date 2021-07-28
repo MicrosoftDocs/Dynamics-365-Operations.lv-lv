@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 1f9325d182f89b98e8b943ae047c55e7e1aeb02f
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c74132af95f088ea88155b722a8270861fba50e7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023428"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361290"
 ---
 # <a name="set-up-withholding-tax-reporting-codes-for-the-tds-tax-type"></a>ieturētā nodokļa kodu pārskatu iestatīšana TDS nodokļu tipam
 
@@ -31,7 +31,7 @@ Ieturētā nodokļa pārskatu kodi tiek izmantoti, lai ģenerētu formas 26Q un 
 
 1. Atveriet **Nodoklis \> Iestatīšana \> Ieturētais nodoklis \> ieturētā nodokļa pārskatu kodi**.
 
-    [![Ieturēto nodokļu pārskatu kodi lapa](./media/apac-ind-TDS-16.png)](./media/apac-ind-TDS-16.png)
+    [![Ieturēto nodokļu pārskatu kodi lapa.](./media/apac-ind-TDS-16.png)](./media/apac-ind-TDS-16.png)
 
 2. Laukā **Nodokļu tips** atlasiet **TDS**, lai definētu ieturētā nodokļa pārskatu kodus TDS nodokļa tipam.
 3. Laukā **Ieturama nodokļa komponents** atlasiet TDS komponentu, kam definē ieturētā nodokļa pārskata kodu. **Ieturētā nodokļa komponentu grupas** lauks rāda TDS komponentu grupu, kas tika definēta jūsu definētajam TDS komponentam.

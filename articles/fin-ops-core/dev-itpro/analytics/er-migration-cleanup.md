@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 97dbb625fc312548fb266b2ef6643a2b8e2b0f81
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 8b6e81e47cd781bbe856676b1cecb50b8ee1adfc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750890"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351053"
 ---
 # <a name="er-migration-cleanup"></a>ER migrācijas tīrīšana 
 
@@ -30,11 +30,11 @@ Kad pārvaldāt Finance instances, varat izlemt migrēt jūsu pašreizējo insta
 
 Ja mēģināt palaist ER formātu, kas izmanto veidni, lai ģenerētu biznesa dokumentus, tiek veikts izņēmums, un jūs tiekat informēts par trūkstošajām veidnēm. Varat arī izmantot ER migrācijas tīrīšanas rīka opciju, lai dzēstu un pēc tam atkārtoti importētu ER formāta konfigurāciju, kas satur veidni.
 
-[![Palaist ER formātu](./media/er-migration-cleanup-run.png)](./media/er-migration-cleanup-run.png)
+[![Palaist ER formātu.](./media/er-migration-cleanup-run.png)](./media/er-migration-cleanup-run.png)
 
 Jūs redzēsiet līdzīgu kļūdu, ja pārvietosieties uz **Konfigurācijas** lapu (**Organizācijas administrēšana** \> **Elektroniskie pārskati** \> **Konfigurācijas**) un konfigurāciju kokā, mēģināsiet dzēst ER formāta konfigurāciju, kas izmanto veidni.
 
-[![ER formāta dzēšana](./media/er-migration-cleanup-delete.png)](./media/er-migration-cleanup-delete.png)
+[![ER formāta dzēšana.](./media/er-migration-cleanup-delete.png)](./media/er-migration-cleanup-delete.png)
 
 Veiciet tālāk norādītās darbības, lai atrisinātu problēmas ar ER veidnēm, kurām nevarat piekļūt.
 
@@ -50,7 +50,7 @@ Veiciet tālāk norādītās darbības, lai atrisinātu problēmas ar ER veidnē
 >
 > Ja jūs izmantojat **Migrācijas tīrīšanas** opciju, lai dzēstu ER formāta konfigurāciju, kad saistītā veidne ir pieejama Blob glabātuvē, jūs izdzēšat tikai saistītos konfigurācijas artefaktus programmas datu bāzē. Veidnes fiziskais fails BLOB krātuvē saglabājas. Failu pārrakstīšana BLOB krātuvē vairs nav atļauta. Lai iegūtu papildinformāciju, skatiet [KB4557217](https://fix.lcs.dynamics.com/Issue/Details?kb=4557217). Turklāt vairs nevarēsiet atkārtoti importēt konfigurācijas, kas dzēstas, izmantojot šajā vidē esošo Migrācijas tīrīšanu. Lai atrisinātu šo problēmu, ir nepieciešams atrast atbilstošo failu BLOB krātuvē un to manuāli dzēst.
 
-[![ER formāta importēšana](./media/er-migration-cleanup-import.png)](./media/er-migration-cleanup-import.png)
+[![ER formāta importēšana.](./media/er-migration-cleanup-import.png)](./media/er-migration-cleanup-import.png)
 
 Līdzīga problēma var rasties, ja migrējat jūsu programmas instanci uz citu atrašanās vietu, kas izmantota kā migrācijas mērķis vairāk nekā vienu reizi un kam BLOB krātuvē jau ir ER veidnes faili.
 

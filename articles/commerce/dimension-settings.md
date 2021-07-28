@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b901622bbfc8d6b3066879f6456a4ab618ca4076
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
+ms.openlocfilehash: d6854c11822e07ff06426b7a35eac86cdc0e9b06
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6117235"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356906"
 ---
 # <a name="apply-display-settings-for-product-dimensions"></a>Displeja iestatījumu pielietošana preču dimensijām
 
@@ -33,7 +33,7 @@ Dynamics 365 Commerce atbalsta izmēru, stilu un krāsu izmērus, lai atšķirtu
 
 Commerce vietnes veidotājā dimensiju iestatījumi tiek definēti **Vietas iestatījumi \> Paplašinājumi \> Dimensiju iestatījumi**. Nākamajā attēlā ir parādīts dimensiju iestatījumu piemērs vietņu veidotājā.
 
-![Vietnes iestatījumu piemērs Commerce vietnes veidotājā](./dev-itpro/media/swatch_site_settings.PNG)
+![Vietnes iestatījumu piemērs Commerce vietnes veidotājā.](./dev-itpro/media/swatch_site_settings.PNG)
 
 Ir pieejami divi dimensiju iestatījumi:
 
@@ -41,13 +41,13 @@ Ir pieejami divi dimensiju iestatījumi:
 
     Nākamajā attēlā ir parādīts piemērs, kur e-komercijas vietnes PDP ietver krāsu un izmēru paraugus. Šajā piemērā krāsu dimensijai ir konfigurēts heksadecimālais kods. Tāpēc paraugi tiek parādīti kā krāsas. Tomēr izmēra dimensijai nav konfigurēts ne heksadecimālais kods, ne attēla URL. Tāpēc tiek parādīts teksts.
 
-    ![Piemērs krāsu dimensijai, kas e-komercijas preču informācijas lapā tiek rādīti kā paraugi](./dev-itpro/media/swatch_pdp.png)
+    ![Piemērs krāsu dimensijai, kas e-komercijas preču informācijas lapā tiek rādīti kā paraugi.](./dev-itpro/media/swatch_pdp.png)
 
 - **Preču kartē rādāmās dimensijas** — norādiet, kurām dimensijām jāparādās produktu kartēs, kas tiek rādītas sarakstos un saraksta lapās. Lai dimensija varētu parādīties preču kartē, šai dimensijai ir jāiespējo šis iestatījums. Ir jāiespējo arī iestatījums **Dimensijas, lai parādītu kā attēlu**. Paraugu atlases darbība preču kartēs ir optimizēta krāsu dimensijai. Citām dimensijām var būt nepieciešams skata paplašinājums, lai pielāgotu parauga atlases darbību.
 
     Nākamajā attēlā ir parādīts piemērs, kur e-komercijas vietnes saraksta lapā ir preču kartes, kurās ir krāsu paraugi.
 
-    ![Piemērs krāsu dimensijai, kas e-komercijas saraksta lapā tiek rādīti kā paraugi](./dev-itpro/media/swatch_searchresults.PNG)
+    ![Piemērs krāsu dimensijai, kas e-komercijas saraksta lapā tiek rādīti kā paraugi.](./dev-itpro/media/swatch_searchresults.PNG)
 
 Informāciju par to, kā konfigurēt preču dimensijas tā, lai tās vietnes lapās tiktu rādītas kā paraugi, skatiet [Konfigurēt preču dimensiju vērtības, lai tās tiktu rādītas kā paraugi](./dev-itpro/dimensions-swatch.md).
 

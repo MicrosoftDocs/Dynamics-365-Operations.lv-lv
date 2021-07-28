@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 0ece83a20a33a8f23e8700d1b5d680a11d64fea0
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: c8c50a9a6f9f3c6582e9fd0f28080a3259faab21
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907721"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349774"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Kā darbinieki izmanto ražotnes izpildes interfeisu
 
@@ -32,7 +32,7 @@ Pirms darbinieki var sākt izmantot ierīci, uzraudzītājam vai tehniskajam per
 
 Kad ierīce ir sagatavota, tajā tiek parādīta pierakstīšanās lapa. Šī lapa tiek rādīta informāciju par vietējās darba šūnas darbu statusu. Šī informācija tiek periodiski atjaunināta. Lapā darbinieki izmanto savu žetonu ID, lai pierakstītos. Lai gan darbiniekiem nav jābūt lietotāja kontam programmā Supply Chain Management, viņiem ir jābūt *laikā reģistrēta darbinieka* kontam, ko viņi var izmantot pierakstoties.
 
-![Ražotnes izpildes interfeisa pierakstīšanās lapa](media/pfei-sign-in-page.png "Ražotnes izpildes interfeisa pierakstīšanās lapa")
+![Ražotnes izpildes interfeisa pierakstīšanās lapa.](media/pfei-sign-in-page.png "Ražotnes izpildes interfeisa pierakstīšanās lapa")
 
 Šīs tēmas pārējās sadaļās ir aprakstīts, kā darbinieki mijiedarbojas ar interfeisu.
 
@@ -40,7 +40,7 @@ Kad ierīce ir sagatavota, tajā tiek parādīta pierakstīšanās lapa. Šī la
 
 Cilnē **Visi darbi** ir pieejams darbu saraksts, kurā redzami visi ražošanas darbi, kuru statuss ir *Nesākts*, *Apturēts* vai *Sākts*. (Šis cilnes nosaukums ir pielāgojams un var atšķirties jūsu sistēmai.)
 
-![Cilne Visi darbi](media/pfei-all-jobs-tab.png "Cilne Visi darbi")
+![Cilne Visi darbi.](media/pfei-all-jobs-tab.png "Cilne Visi darbi")
 
 Darbu sarakstā ir tālāk minētās kolonnas. Numuri atbilst iepriekšējā attēlā redzamajiem numuriem.
 
@@ -59,7 +59,7 @@ Darbu sarakstā ir tālāk minētās kolonnas. Numuri atbilst iepriekšējā att
 
 Cilnēs **Aktīvie darbi** ir parādīts visu to darbu saraksts, ko jau pierakstījies darbinieks ir sācis. (Šis cilnes nosaukums ir pielāgojams un var atšķirties jūsu sistēmai.)
 
-![Cilne Aktīvie darbi](media/pfei-active-jobs-tab.png "Cilne Aktīvie darbi")
+![Cilne Aktīvie darbi.](media/pfei-active-jobs-tab.png "Cilne Aktīvie darbi")
 
 Darbu sarakstā ir tālāk minētās kolonnas:
 
@@ -76,7 +76,7 @@ Darbu sarakstā ir tālāk minētās kolonnas:
 
 Cilne **Mana iekārta** ļauj darbiniekiem atlasīt līdzekli, kas ir saistīts ar iekārtas resursu filtra iestatījuma cilnē **Visi darbi**. Darbinieks pēc tam var skatīt atlasītā pamatlīdzekļa stāvokli un veselības stāvokli, nolasot vērtības līdz četriem atlasītajiem skaitītājiem un neseno uzturēšanas pieprasījumu un reģistrēto dīkstāves pieprasījumu sarakstu. Darbinieks var arī pieprasīt atlasītā pamatlīdzekļa uzturēšanu un reģistrēt un rediģēt iekārtas dīkstāves laiku. (Šis cilnes nosaukums ir pielāgojams un var atšķirties jūsu sistēmai.)
  
-![Cilne Mana iekārta](media/pfei-my-machine-tab.png "Cilne Mana iekārta")
+![Cilne Mana iekārta.](media/pfei-my-machine-tab.png "Cilne Mana iekārta")
 
 Cilnei **Mana iekārta** ir šādas kolonnas. Numuri atbilst iepriekšējā attēlā redzamajiem numuriem.
 
@@ -87,7 +87,7 @@ Cilnei **Mana iekārta** ir šādas kolonnas. Numuri atbilst iepriekšējā att�
 
 1. **Iestatījumi** – izvēlieties ātrumkārbas ikonu, lai atvērtu dialoglodziņu, kur var izvēlēties, kuru skaitītāju skatīt atlasītajam iekārtas pamatlīdzeklim. Šo skaitītāju vērtības ir parādītas **Pamatlīdzekļu pārvaldības** cilnes augšpusē. **Iestatījumu** izvēlne (parādīta ekrānuzņēmumā) ļauj aktivizēt līdz pat četriem skaitītājiem. Katram skaitītājam, kuru vēlaties iespējot, izmantojiet uzmeklēšanas lauku elementa augšā, lai atlasītu skaitītāju. Uzmeklēšanas laukā ir uzskaitīti visi skaitītāji, kas saistīti ar līdzekli, kas atlasīts **Pamatlīdzekļu pārvaldības lapas** augšpusē. Iestatiet katru skaitītāju, lai pārraudzītu skaitītāja **Apkopoto** vērtību vai pēdējo **Faktisko** vērtību. Piemēram, ja iestatāt skaitītāju, kas izseko, cik stundu dators darbojas, tad to vajadzētu iestatīt uz **Uzkrāts**. Ja iestatāt skaitītāju, lai izmērītu jaunāko atjaunināto temperatūras vai spiediens, jums tas jāiestata uz **Faktiskais**. Atlasiet **Labi**, lai iestatījumus saglabātu un aizvērtu dialoglodziņu.
 
-    ![Cilne Manas iekārtas iestatījumi](media/pfei-my-machine-tab-settings.png "Cilne Manas iekārtas iestatījumi")
+    ![Cilne Manas iekārtas iestatījumi.](media/pfei-my-machine-tab-settings.png "Cilne Manas iekārtas iestatījumi")
 
 1. **Pieprasījuma uzturēšana** – atlasiet šo pogu, lai atvērtu dialoglodziņu, kur varat izveidot uzturēšanas pieprasījumu. Varat sniegt aprakstu un piezīmi. Pieprasījums tiks nosūtīts Supply Chain Management lietotājam, kurš tad varēs pārveidot uzturēšanas pieprasījumu uz uzturēšanas darba pasūtījumu.
 1. **Reģistrēt dīkstāves laiku** – atlasiet šo pogu, lai atvērtu dialoglodziņu, kur reģistrēt iekārtas dīkstāves laiku. Varat atlasīt pamatojuma kodu un ievadīt dīkstāves laika posmu. Iekārtas dīkstāves reģistrācija tiek izmantota iekārtas līdzekļa efektivitātes aprēķināšanai.
@@ -98,7 +98,7 @@ Cilnei **Mana iekārta** ir šādas kolonnas. Numuri atbilst iepriekšējā att�
 
 Darbinieki sāk ražošanas darbu, atlasot darbu cilnē **Visi darbi** un pēc tam atlasot **Sākt darbu**, lai atvērtu dialoglodziņu **Sākt darbu**.
 
-![Dialoglodziņš Sākt darbu](media/pfei-start-job-dialog.png "Dialoglodziņš Sākt darbu")
+![Dialoglodziņš Sākt darbu.](media/pfei-start-job-dialog.png "Dialoglodziņš Sākt darbu")
 
 Darbinieki izmanto dialoglodziņu **Sākt darbu**, lai apstiprinātu ražošanas daudzumu un pēc tam sāktu darbu. Darbinieki var pielāgot daudzumu, atlasot lauku **Daudzums** un pēc tam izmantojot parādīto ciparu tastatūru. Darbinieki pēc tam atlasa **Sākt**, lai sāktu darbu. Dialoglodziņš **Sākt darbu** tiek aizvērts un darbs tiek pievienots cilnē **Aktīvie darbi**.
 
@@ -108,13 +108,13 @@ Darbinieki var sākt darbu, kam ir jebkurš statuss. Kad darbinieks sāk darbu, 
 
 Kad darbinieks pabeidz vai daļēji pabeidz darbu, viņš var ziņot par preču daudzumiem, kas tika saražoti, atlasot darbu cilnē **Aktīvie darbi** un pēc tam atlasot **Pārskata norise**. Pēc tam dialoglodziņā **Pārskata norise** darbinieks ievada preču daudzumu, izmantojot ciparu tastatūru. Pēc noklusējuma daudzums ir tukšs. Kad daudzums ir ievadīts, darbinieks var atjaunināt darba statusu uz *Norit*, *Apturēts* vai *Pabeigts*.
 
-![Dialoglodziņš Ziņot par norisi](media/pfei-report-progress-dialog.png "Dialoglodziņš Ziņot par norisi")
+![Dialoglodziņš Ziņot par norisi.](media/pfei-report-progress-dialog.png "Dialoglodziņš Ziņot par norisi")
 
 ## <a name="reporting-scrap"></a>Ziņošana par brāķi
 
 Kad darbinieks pabeidz vai daļēji pabeidz darbu, viņš var ziņot par preču brāķi, kas tika saražots, atlasot darbu cilnē **Aktīvie darbi** un pēc tam atlasot **Ziņot par brāķi**. Pēc tam dialoglodziņā **Ziņot par brāķi** darbinieks ievada brāķa daudzumu, izmantojot ciparu tastatūru. Darbinieks atlasa arī pamatojumu (*Neviens*, *Mašīna*, *Operators* vai *Materiāls*).
 
-![Dialoglodziņš Ziņot par brāķi](media/pfei-report-scrap-dialog.png "Dialoglodziņš Ziņot par brāķi")
+![Dialoglodziņš Ziņot par brāķi.](media/pfei-report-scrap-dialog.png "Dialoglodziņš Ziņot par brāķi")
 
 ## <a name="completing-a-job-and-starting-a-new-job"></a>Darba pabeigšana un jauna darba sākšana
 

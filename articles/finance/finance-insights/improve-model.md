@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 184a1cb5d3851e26b41340b711c51ef38e06eb53
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 74005d17e2524b922b0fab1aab5350b85dfad771
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186646"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355680"
 ---
 # <a name="improve-the-prediction-model-preview"></a>Prognozēšanas modeļa uzlabošana (priekšskatījums)
 
@@ -33,7 +33,7 @@ ms.locfileid: "6186646"
 
 Vispirms atlasiet vienu vai vairākus no trim iespējamiem iznākumiem rēķiniem: **Laicīgi**, **Novēloti** un **Ļoti novēloti**. Jāatlasa visi trīs rezultāti. Notīrot kāda rezultāta atlasi, rēķini tiks filtrēti no apmācības procesa, un prognozes precizitāte tiks samazināta.
 
-[![Iznāķumu apstiprināšana](./media/confirm-3-outcomes.png)](./media/confirm-3-outcomes.png)
+[![Iznāķumu apstiprināšana.](./media/confirm-3-outcomes.png)](./media/confirm-3-outcomes.png)
 
 Ja jūsu organizācijai nepieciešami tikai divi iznākumi, mainiet **Novēloti** un **Ļoti novēloti** slieksni uz 0 (nulle) dienām. Šādā veidā jūs efektīvi sakļaujat prognozes binārajā stāvoklī ar **Laicīgi** vai **Novēloti**.
 
@@ -51,7 +51,7 @@ Kad atlasāt laukus iekļaušanai modelī, ņemiet vērā, ka sarakstā ir iekļ
 
 Nākamajā attēlā ir parādīti avoti, kas ir pieejami rēķina tabulai.
 
-[![Rēķina tabulai pieejamie lauki](./media/available-fields.png)](./media/available-fields.png)
+[![Rēķina tabulai pieejamie lauki.](./media/available-fields.png)](./media/available-fields.png)
 
 Apmācībām nav jāatlasa tālāk minētie lauki.
 
@@ -66,7 +66,7 @@ Apmācībām nav jāatlasa tālāk minētie lauki.
 
 Nākamajā attēlā ir parādīti avoti, kas ir pieejami debitora tabulai.
 
-[![Debitora tabulai pieejamie lauki](./media/related-entities.png)](./media/related-entities.png)
+[![Debitora tabulai pieejamie lauki.](./media/related-entities.png)](./media/related-entities.png)
 
 Apmācībām nav jāatlasa tālāk minētais lauks.
 
@@ -74,8 +74,8 @@ Apmācībām nav jāatlasa tālāk minētais lauks.
 
 ## <a name="filters"></a>Filtri
 
-Filtri pašlaik neatbalsta debitoru maksājumu prognozēšanas scenāriju. Tāpēc atlasiet **Izlaist šo darbību** un pārejiet uz kopsavilkuma lapu.
+Varat filtrēt rēķinus, kas tiek izmantoti apmācībai, iestatot filtra kritērijus laukiem rēķinā vai debitoru tabulās. Piemēram, varat iestatīt slieksni, lai iekļautu tikai tos rēķinus, kuru kopsumma ir vienāda ar noteikto summu vai pārsniedz to. Alternatīvi jūs varat izslēgt rēķinus, kas ir saistīti ar klientiem noteiktā debitoru grupā.
 
-[![Fokusa režīms ar filtriem](./media/focus-model-with-filters.png)](./media/focus-model-with-filters.png)
+Papildinformāciju par datu filtrēšanu skatiet sadaļā [Prognozēšanas modeļa izveide](https://docs.microsoft.com/ai-builder/prediction-create-model#filter-your-data).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

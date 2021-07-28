@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 9ffb1378eccf175fbb9bd84228f91ba606125a63
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c641849b2aec76124b6661f339175325a312efce
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753994"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350840"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Problēmu novēršana sākotnējās iestatīšanas laikā
 
@@ -42,7 +42,7 @@ ms.locfileid: "5753994"
 
 Kļūdas lapā **Iestatīt saiti uz Dataverse** parasti izraisa nepilnīgas iestatīšanas vai atļauju problēmas. Pārliecinieties, ka visa darbspējas pārbaude iet uz lapu **Iestatīt saiti uz Dataverse**, kā parādīts nākamajā attēlā. Nevarat saistīt duālo ierakstu, ja vien nav izieta pilnīga darbspējas pārbaude.
 
-![Veiksmīga darbspējas pārbaude](media/health_check.png)
+![Veiksmīga darbspējas pārbaude.](media/health_check.png)
 
 Jums ir jābūt Azure AD nomnieka administratora akreditācijas datiem, lai saistītu Finance and Operations un Dataverse vides. Pēc vides saistīšanas lietotāji var pieteikties, izmantojot sava konta akreditācijas datus un atjauninot esošo tabulas karti.
 
@@ -77,7 +77,7 @@ Lai nodrošinātu, ka duālais ieraksts darbojas pareizi, uzņēmumi, kurus atla
 4. Atlasiet uzņēmumu, kas bija saistīts, konfigurējot duālo ierakstu.
 5. Pārbaudiet, vai kolonnai **Noklusējuma atbildīgā grupa** ir vērtība. Šajā attēlā lauks **Noklusējuma atbildīgā grupa** ir iestatīts uz **USMF Duālais ieraksts**.
 
-    ![Noklusējuma atbildīgās grupas pārbaude](media/default_owning_team.png)
+    ![Noklusējuma atbildīgās grupas pārbaude.](media/default_owning_team.png)
 
 ## <a name="find-the-limit-on-the-number-of-legal-tables-or-companies-that-can-be-linked-for-dual-write"></a>Atrodiet ierobežojumu attiecībā uz to juridisko personu vai uzņēmumu skaitu, kurus var saistīt duālajam ierakstam
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f027a856dbd596ede84c39e30ee2227aab9329f2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 32dfcc65d8b76f7314dcc348299c29d4ccff8d91
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826742"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355584"
 ---
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Pamatlīdzekļu vērtības modeļa un nolietojuma grāmatas sapludināšana
 
@@ -27,7 +27,7 @@ ms.locfileid: "5826742"
 
 Iepriekšējos laidienos pamatlīdzekļiem pastāvēja divi vērtēšanas jēdzieni — vērtības modeļi un nolietojuma grāmatas. Laidienā Microsoft Dynamics 365 for Operations (1611) vērtības modeļa funkcionalitāte un nolietojuma grāmatas funkcionalitāte ir apvienotas vienā jēdzienā, kas tiek saukts par grāmatu.
 
-Jauna grāmatas funkcionalitāte ir balstīta uz iepriekšējās vērtības modeļa funkcionalitāti, bet ietver arī visas funkcionalitātes, kas iepriekš tika nodrošinātas tikai nolietojuma grāmatām. [![Grāmata, kurā ir apvienotas vērības modeļa un nolietojuma grāmatas funkcijas](./media/fixed-assets.png)](./media/fixed-assets.png) Šī funkciju apvienošana tagad sniedz iespēju izmantot vienu lapu, pieprasījumu un pārskatu kopu visiem pamatlīdzekļu procesiem. Tabulas šajā tēmā apraksta nolietojuma grāmatu un vērtības modeļu iepriekšējo funkcionalitāti, kopā ar jauno funkcionalitāti grāmatām.
+Jauna grāmatas funkcionalitāte ir balstīta uz iepriekšējās vērtības modeļa funkcionalitāti, bet ietver arī visas funkcionalitātes, kas iepriekš tika nodrošinātas tikai nolietojuma grāmatām. [![Grāmatot kā vērtības modeļa un nolietojuma grāmatas funkcionalitātes apvienošanu](./media/fixed-assets.png)](./media/fixed-assets.png) Pateicoties šai apvienošanai, jūs tagad varat izmantot vienotu lapu kopu, uzziņas un pārskatus visiem pamatlīdzekļu procesiem. Tabulas šajā tēmā apraksta nolietojuma grāmatu un vērtības modeļu iepriekšējo funkcionalitāti, kopā ar jauno funkcionalitāti grāmatām.
 
 ## <a name="setup"></a>Iestatīšana
 Pēc noklusējuma grāmatas grāmato gan virsgrāmatā (GL), gan pamatlīdzekļu apakšgrāmatā. Grāmatām ir jauna opcija **Grāmatot Virsgrāmatā**, kas ļauj atspējot grāmatošanu virsgrāmatā, un grāmatot tikai pamatlīdzekļu apakšgrāmatās. Šī funkcionalitāte ir līdzīga agrākai grāmatošanas uzvedībai nolietojuma grāmatām. Žurnālu nosaukumu iestatīšanai ir jaunu grāmatošanas slānis, ar nosaukumu Nav. Šis grāmatošanas līmenis tika pievienots īpaši pamatlīdzekļu darbībām. Lai grāmatotu darbības grāmatām, kas negrāmato Virsgrāmatā, jums ir jāizmanto žurnāla nosaukums, kura grāmatošanas slānis ir iestatīts uz **Nav**.

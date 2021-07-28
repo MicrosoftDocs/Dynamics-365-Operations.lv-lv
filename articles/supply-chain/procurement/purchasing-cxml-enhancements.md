@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-08-03
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: f3bc63fd4b1017a5c96116ff6c9bbcc387869927
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b579ebff28e01caa727a22b01ae636ff713a27aa
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825282"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359961"
 ---
 # <a name="purchasing-cxml-enhancements"></a>cXML uzlabojumu iegāde
 
@@ -38,7 +38,7 @@ Pēc līdzekļa ieslēgšanas ir jākonfigurē iestatījumi tālāk aprakstītaj
 
 Šī konfigurācija ir attēlota tālāk esošajā attēlā.
 
-![cXML līdzekļu iestatīšanas apgabali](media/cxml-settings-areas.png "cXML līdzekļu iestatīšanas apgabali")
+![cXML līdzekļu iestatīšanas apgabali.](media/cxml-settings-areas.png "cXML līdzekļu iestatīšanas apgabali")
 
 Turklāt ir jāiestata arī [Pirkšanas pasūtījuma pieprasījuma pakešuzdevums](#po-batch). Šis pakešuzdevums tiek izmantots apstiprināto pirkšanas pasūtījumu nosūtīšanai.
 
@@ -46,7 +46,7 @@ Turklāt ir jāiestata arī [Pirkšanas pasūtījuma pieprasījuma pakešuzdevum
 
 Izmantojiet **cXML parametri** lapu, lai izveidotu dažus globālus iestatījumus, kas attiecas uz pirkšanas pasūtījumu nosūtīšanas funkcionalitāti.
 
-![cXML parametru lapa](media/cxml-parameters.png "cXML parametru lapa")
+![cXML parametru lapa.](media/cxml-parameters.png "cXML parametru lapa")
 
 Dodieties uz **Sagāde un avoti \> Iestatīšana \> cXML pārvaldība \> cXML parametri** un iestatiet šādus parametrus:
 
@@ -67,7 +67,7 @@ Katru reizi, apstiprinot pirkšanas pasūtījumu, kurā opcija **Nosūtīt pirk�
 - Lai iestatītu kreditoru tā, lai tas automātiski izmanto cXML visiem jaunajiem pirkšanas pasūtījumiem, kas tiek izveidoti no pieprasījuma, dodieties uz **Sagāde un avoti \> Kreditori \> Visi kreditori** un atlasiet vai izveidojiet kreditoru, lai atvērtu tā informācijas lapu. Pēc tam kopsavilkuma cilnē **Pirkšanas pasūtījuma noklusējuma informācija** iestatiet opciju **Nosūtīt pirkšanas pasūtījumu, izmantojot cXML** uz _Jā_. Ja cXML ir automātiski jāizmanto arī jaunajiem pirkšanas pasūtījumiem, kas **nav** izveidoti no pieprasījuma, tad arī pasūtījuma rekvizīts **ENABLEMANUALPO** attiecīgajam ārējam katalogam ir jāiestata uz _Patiess_, kā aprakstīts šīs tēmas sadaļā [Pasūtījuma rekvizītu iestatīšana](#set-order-properties).
 - Atsevišķu pirkšanas pasūtījumu gadījumā, dodieties uz **Sagāde un avoti \> Pirkšanas pasūtījumi \> Visi pirkšanas pasūtījumi** un atlasiet vai izveidojiet pirkšanas pasūtījumu, lai atvērtu tā informācijas lapu. Pārejiet uz skatu **Galvene** un pēc tam kopsavilkuma cilnē **Iestatīšana** iestatiet opciju **Nosūtīt pirkšanas pasūtījumu, izmantojot cXML** pēc nepieciešamības.
 
-![Kreditora pirkšanas pasūtījumu noklusējuma iestatījumi](media/cxml-order-defaults.png "Kreditora pirkšanas pasūtījumu noklusējuma iestatījumi")
+![Kreditora pirkšanas pasūtījumu noklusējuma iestatījumi.](media/cxml-order-defaults.png "Kreditora pirkšanas pasūtījumu noklusējuma iestatījumi")
 
 ## <a name="set-up-an-external-catalog-to-use-cxml"></a><a name="external-catalog-setup"></a>Ārēja kataloga iestatīšana, lai izmantotu cXML
 
@@ -76,7 +76,7 @@ Katram katalogam lapā **Ārējie katalogi** varat iestatīt PunchOut funkcional
 > [!NOTE]
 > Apstiprinot pirkšanas pasūtījumu, ko var nosūtīt, izmantojot cXML, sistēma uzmeklē kreditoru, kas ir saistīts ar pirkšanas pasūtījumu, un pēc tam atrod pirmo aktīvo ārējo katalogu, kas ir saistīts ar šo kreditoru. Pēc tam sistēma izmanto iestatījumus no ārējā kataloga, lai nosūtītu pirkšanas pasūtījumu. Ja ir iestatīti vairāki ārējie katalogi, sistēma izmanto tikai pirmo atrasto ārējo katalogu, pamatojoties uz pirkšanas pasūtījumā norādīto kreditoru. Tāpēc ir ieteicams izveidot tikai vienu ārējo katalogu katram kreditoram.
 
-![Ārējā kataloga iestatījumi](media/cxml-supplier-catalog.png "Ārējā kataloga iestatījumi")
+![Ārējā kataloga iestatījumi.](media/cxml-supplier-catalog.png "Ārējā kataloga iestatījumi")
 
 ### <a name="set-the-punchout-protocol-type"></a>PunchOut protokola iestatīšana
 
@@ -143,11 +143,11 @@ Kā jau tika minēts iepriekš sadaļā [Pasūtījuma rekvizītu iestatīšana](
 
 Lai iestatītu to piezīmju veidus, kurus meklēs sistēma, dodieties uz **Sagāde un avoti \> Iestatījumi \> Formas \> No iestatījumiem**. Pēc tam cilnē **Pirkšanas pasūtījums** iestatiet **Iekļaut dokumentu veidus** lauku uz to veidu, ko vēlaties iekļaut. Tiek iekļautas tikai teksta piezīmes, nevis dokumentu pielikumi.
 
-![Formas iestatījumu lapa](media/cxml-form-setup.png "Formas iestatījumu lapa")
+![Formas iestatījumu lapa.](media/cxml-form-setup.png "Formas iestatījumu lapa")
 
 Pielikumi tiks iekļauti pirkšanas pasūtījumā tikai tad, ja to lauks **Veids** ir iestatīts uz vērtību, kas atlasīta laukā **Iekļaut dokumentu veidu** un ja to lauks **Ierobežojums** ir iestatīts uz _Ārējs_. Lai izveidotu, skatītu vai rediģētu pirkšanas pasūtījuma pielikumus, dodieties uz **Sagāde un avoti \> Visi pirkšanas pasūtījumi**, atlasiet vai izveidojiet pirkšanas pasūtījumu un pēc tam augšējā labajā stūrī atlasiet pogu (saspraudes simbols) **Pielikumi**.
 
-![Pievienotā piezīme, kas ir iestatīta nosūtīšanai kreditoram](media/cxml-note-to-vendor.png "Pievienotā piezīme, kas ir iestatīta nosūtīšanai kreditoram")
+![Pievienotā piezīme, kas ir iestatīta nosūtīšanai kreditoram.](media/cxml-note-to-vendor.png "Pievienotā piezīme, kas ir iestatīta nosūtīšanai kreditoram")
 
 ## <a name="view-the-cxml-cart-message-log-for-external-catalog-punchout"></a><a name="message-log"></a>cXML groza ziņojumu žurnāla skatīšana ārējam katalogam PunchOut
 
@@ -155,7 +155,7 @@ Iestatot lauku **Punchout protokols** uz _cXML_ ārējam katalogam, sistēma not
 
 Lai atvērtu ārējā kataloga žurnālu, atlasiet atbilstošo katalogu un pēc tam darbību rūtī atlasiet **cXML groza ziņojumu žurnāls**. Lapa **cXML groza ziņojumu žurnāls** parāda atgriezto grozu sarakstu, ar šiem groziem saistītās XML un saistītajā pirkšanas pieprasījumā izveidotās rindas.
 
-![cXML groza ziņojumu žurnāla lapa](media/cxml-cart-message-log.png "cXML groza ziņojumu žurnāla lapa")
+![cXML groza ziņojumu žurnāla lapa.](media/cxml-cart-message-log.png "cXML groza ziņojumu žurnāla lapa")
 
 ## <a name="set-the-extrinsic-elements-for-external-catalog-punchout"></a>Ārējā kataloga PunchOut ārējo elementu iestatīšana
 
@@ -178,21 +178,21 @@ Lai pievienotu ārējos elementus ārējam katalogam, izpildiet tālāk aprakst�
         - **Uzvārds** – izmantojiet uzvārdu kontaktpersonai, kas saistīta ar lietotāju, kurš piekļūst ārējam katalogam.
         - **Tālruņa numurs** – izmantojiet primāro tālruņa numuru kontaktpersonai, kas saistīta ar lietotāju, kurš piekļūst ārējam katalogam.
 
-![Ārēja elementa iestatījumi](media/cxml-extrinsics.png "Ārēja elementa iestatījumi")
+![Ārēja elementa iestatījumi.](media/cxml-extrinsics.png "Ārēja elementa iestatījumi")
 
 Lietotājs vai administrators neredzēs ārējos elementus, jo tie netiek pievienoti, kamēr lietotājs nav veicis PunchOut. Tie tiks automātiski ievietoti starp **BuyerCookie** un **BrowserFromPost** elementiem cXML iestatīšanas pieprasījuma ziņojumā. Tāpēc, iestatot ārējo katalogu, tie XML nav jāiestata manuāli.
 
-![Ārējo elementu pievienošana XML](media/cxml-extrinsics-xml.png "Ārējo elementu pievienošana XML")
+![Ārējo elementu pievienošana XML.](media/cxml-extrinsics-xml.png "Ārējo elementu pievienošana XML")
 
 ## <a name="create-and-process-a-purchase-order"></a><a name="create-po"></a>Pirkšanas pasūtījuma izveide un apstrāde
 
 Izveidojot pirkšanas pasūtījumu kreditoram, tas mantos opcijas **Nosūtīt pirkšanas pasūtījumu, izmantojot cXML** iestatījumu no attiecīgā kreditora. Tomēr iestatījums ir pieejams kopsavilkuma cilnes **Iestatīšana** pirkšanas pasūtījuma skatā **Galvene**, lai to vēlāk varētu mainīt pēc nepieciešamības.
 
-![Pirkšanas pasūtījuma iestatīšana, lai izmantotu cXML](media/cxml-purchase-order.png "Pirkšanas pasūtījuma iestatīšana, lai izmantotu cXML")
+![Pirkšanas pasūtījuma iestatīšana, lai izmantotu cXML.](media/cxml-purchase-order.png "Pirkšanas pasūtījuma iestatīšana, lai izmantotu cXML")
 
 Izveidojot pirkšanas pasūtījumu no pirkšanas pieprasījuma, kas nāk no PunchOut plūsmas, tiks aizpildīta visu nepieciešamo rindu informācija. Pēc tam varat manuāli pievienot pirkšanas pasūtījuma rindas vai kopēt tās no citiem pirkšanas pasūtījumiem. Pārliecinieties, vai ir iestatīti visi obligātie lauki. Šie obligātie lauki ietver ārējās atsauces numuru, kas ir kreditora numurs, kas tiks izmantots cXML ziņojumā.
 
-![Ārējā atsauces numura piemērs](media/cxml-line-details.png "Ārējā atsauces numura piemērs")
+![Ārējā atsauces numura piemērs.](media/cxml-line-details.png "Ārējā atsauces numura piemērs")
 
 Pabeidzot aizpildīt informāciju par pirkšanas pasūtījumu, noteikti to apstipriniet. Ziņojums netiek nosūtīts, kamēr pirkšanas pasūtījums nav apstiprināts. Lai apstiprinātu pirkšanas pasūtījumu, darbību rūtī cilnē **Pirkšana** grupā **Darbības** atlasiet **Apstiprināt**. 
 
@@ -200,17 +200,17 @@ Pēc pirkšanas pasūtījuma apstiprināšanas, varat skatīt apstiprinājuma st
 
 Katram pirkšanas pasūtījumam var būt vairāki apstiprinājumi. Katrs apstiprinājums tiek atzīmēts ar inkrementālu skaitli. Tālāk esošajā attēlā pirkšanas pasūtījums ir *00000275* un apstiprinājums ir *00000275-1*. Šī numerācija ataino standarta Supply Chain Management funkcionalitāti, kur izmaiņas pirkšanas pasūtījumā un arī cXML ziņojuma veidā, kas jāsūta kreditoram, tiek identificēts, pamatojoties uz apstiprinājumu. Kā redzams attēlā, lapa **Pirkšanas pasūtījuma apstiprinājumi** ietver arī laukus **Pasūtījuma nosūtīšanas statuss** un **Pasūtījuma pieprasījuma kreditora statuss**. Lai iegūtu papildinformāciju par dažādām šīs lapas statusa vērtībām, skatiet šīs tēmas sadaļu [Pirkšanas pasūtījumu pieprasījumu pārraudzīšana](#monitor-po-requests).
 
-![Pirkšanas pasūtījumu apstiprinājumu lapa](media/cxml-po-confirmations.png "Pirkšanas pasūtījumu apstiprinājumu lapa")
+![Pirkšanas pasūtījumu apstiprinājumu lapa.](media/cxml-po-confirmations.png "Pirkšanas pasūtījumu apstiprinājumu lapa")
 
 Lai skatītu papildinformāciju par dokumentu, atlasiet virs režģa esošo **Pirkšanas pasūtījuma pieprasījums**.
 
 Lapa **Pirkšanas pasūtījuma pieprasījums** ietver divus režģus. Režģim lapas augšdaļā ir viens ieraksts katram pirkšanas pasūtījumam, kas ir atzīmēts nosūtīšanai. Režģim cilnē **Pirkšanas pasūtījuma pieprasījumu vēsture** lapas apakšdaļā var būt vairāki ieraksti atlasītajam pirkšanas pasūtījumam, lai norādītu katra apstiprinājuma statusu. Tālāk esošajā attēlā ir parādīts pirkšanas pasūtījums 00000275 augšējā režģī un dokuments 00000275-1 cilnes **Pirkšanas pasūtījuma pieprasījumu vēsture** režģī.
 
-![Pirkšanas pasūtījuma pieprasījuma lapa](media/cxml-po-request.png "Pirkšanas pasūtījuma pieprasījuma lapa")
+![Pirkšanas pasūtījuma pieprasījuma lapa.](media/cxml-po-request.png "Pirkšanas pasūtījuma pieprasījuma lapa")
 
 Ja pakešuzdevums ir iestatīts un palaists, dokuments tiks nosūtīts. Statusa izmaiņas var skatīt pēc dokumenta nosūtīšanas. Tālāk esošajā attēlā lauks **Pasūtījuma nosūtīšanas statuss** ir iestatīts uz _Nosūtīts_. Lauks **Pasūtījuma pieprasījuma kreditora statuss** ir iestatīts uz _Apstiprināts_, lai norādītu, ka kreditors ir saņēmis dokumentu, un spēja to izlasīt un saglabāt savā sistēmā. Režģī cilnē **Pirkšanas pasūtījuma pieprasījumu vēsture** tiek rādīts laiks, kad dokuments tika nosūtīts. Lai iegūtu papildinformāciju par dažādām šīs lapas statusa vērtībām, skatiet sadaļu [Pirkšanas pasūtījumu pieprasījumu pārraudzīšana](#monitor-po-requests).
 
-![Statusa ziņojumi pirkšanas pasūtījuma pieprasījuma lapā](media/cxml-po-request-2.png "Statusa ziņojumi pirkšanas pasūtījuma pieprasījuma lapā")
+![Statusa ziņojumi pirkšanas pasūtījuma pieprasījuma lapā.](media/cxml-po-request-2.png "Statusa ziņojumi pirkšanas pasūtījuma pieprasījuma lapā")
 
 ## <a name="schedule-the-purchase-order-request-batch-job"></a><a name="po-batch"></a>Pirkšanas pasūtījuma pieprasījuma pakešuzdevuma ieplānošana
 
@@ -226,7 +226,7 @@ Process meklēs pirkšanas pasūtījuma pieprasījuma dokumentus ar statusu *Gai
 
 Kad pasūtījumi, kurus var nosūtīt, izmantojot cXML, tiek apstiprināti, tie pāriet uz statusu _Gaida_. Kā jau aprakstīts sadaļā [Pirkšanas pasūtījuma izveide un apstrāde](#create-po), varat skatīt pirkšanas pasūtījuma statusu lapā **Pirkšanas pasūtījuma pieprasījums**. Katram pirkšanas pasūtījuma pieprasījumam var būt viens no statusiem, atkarībā no tā parametriem un datiem. Šajā sadaļā ir aprakstīti dažādi statusa veidi un vērtības, kas tiem var būt. Šī informācija var palīdzēt pārvaldīt problēmas un saprast jūsu pirkšanas pasūtījumu statusu.
 
-![Pirkšanas pasūtījuma statuss pirkšanas pasūtījuma pieprasījuma lapā](media/cxml-monitor-po-request.png "Pirkšanas pasūtījuma statuss pirkšanas pasūtījuma pieprasījuma lapā")
+![Pirkšanas pasūtījuma statuss pirkšanas pasūtījuma pieprasījuma lapā.](media/cxml-monitor-po-request.png "Pirkšanas pasūtījuma statuss pirkšanas pasūtījuma pieprasījuma lapā")
 
 Režģis, kas atrodas lapas **Pirkšanas pasūtījuma pieprasījums** augšējā daļā, var parādīt šādas statusa vērtības:
 
@@ -262,17 +262,17 @@ Režģis **Pirkšanas pasūtījuma pieprasījumu vēsture** cilnē, kas atrodas 
 
 Lai skatītu pirkšanas pasūtījuma pieprasījuma ziņojumu XML, atlasiet cilni **Pieprasījuma XML teksts** lapas **Pirkšanas pasūtījuma pieprasījums** apakšā. Informācija šajā cilnē var būt noderīga pārbaudes vai kļūdas validēšanas laikā. Lai padarītu informāciju vienkāršāk lasāmu, varat to skatīt kā formatētu ziņojumu. Kopējiet cilnes saturu teksta failā un pēc tam skatiet to XML redaktorā.
 
-![Pieprasījuma XML teksta cilne](media/cxml-request-xml-text.png "Pieprasījuma XML teksta cilne")
+![Pieprasījuma XML teksta cilne.](media/cxml-request-xml-text.png "Pieprasījuma XML teksta cilne")
 
 ### <a name="view-the-details-of-the-vendor-response"></a>Skatīt kreditora atbildes informāciju
 
 Lai skatītu kreditora apstiprinājuma vai kļūdas atbildes saturu, atlasiet cilni **Atbildes XML**, kas atrodas lapas **Pirkšanas pasūtījuma pieprasījums** apakšā.
 
-![Atbildes XML cilne](media/cxml-response-xml.png "Atbildes XML cilne")
+![Atbildes XML cilne.](media/cxml-response-xml.png "Atbildes XML cilne")
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-- [Ārēja kataloga iestatīšana elektroniskai atzīmēšanas sagādei](set-up-external-catalog-for-punchout.md)
+- [Ārēja kataloga iestatīšana PunchOut e-sagādei](set-up-external-catalog-for-punchout.md)
 - [Ārējo katalogu izmantošana elektroniskai atzīmēšanas sagādei](use-external-catalogs-for-punchout.md)
 
 

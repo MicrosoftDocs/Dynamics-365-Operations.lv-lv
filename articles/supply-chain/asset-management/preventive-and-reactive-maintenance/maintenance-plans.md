@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 143b9337dc9ca530383575e0f9bb16e4313ce96b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 435e4c0b7aac8a8dc179ee8e74b985a4c434b7ea
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839611"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361118"
 ---
 # <a name="maintenance-plans"></a>Uzturēšanas plāni
 
@@ -145,23 +145,23 @@ Zemāk ir redzami piemēri laikā balstītu un skaitītājā balstītu uzturēš
 
 **1. piemērs - Laikā balstīta uzturēšanas plāna rinda:** Eļļošanas darbu var uzstādīt fiksētā intervālā, kas tiek īstenots reizi nedēļā. Šim nolūkam laukā **Intervāla tips** atlasiet lauku "Atkārtots no plāna datuma". Aplūkojiet piemēru sekojošajā ilustrācijā.
 
-![Fiksētā intervālā iestatīts pakalpojuma darbs, kas tiek veikts reizi nedēļā](media/02-preventive-maintenance.png "Fiksētā intervālā iestatīts pakalpojuma darbs, kas tiek veikts reizi nedēļā")
+![Fiksētā intervālā iestatīts pakalpojuma darbs, kas tiek veikts reizi nedēļā.](media/02-preventive-maintenance.png "Fiksētā intervālā iestatīts pakalpojuma darbs, kas tiek veikts reizi nedēļā")
 
 **2. piemērs - Laikā balstīta uzturēšanas plāna rinda:** Pārbaudes darbu var uzstādīt veikšanai aptuveni reizi nedēļā. Šim nolūkam laukā **Intervāla tips** atlasiet lauku "Atkārtots no pēdēja darba pasūtījuma". Aplūkojiet piemēru sekojošajā ilustrācijā.
 
-![Pārbaudes darbs, kas iestatīts darbam aptuveni vienu reizi nedēļā](media/03-preventive-maintenance.png "Pārbaudes darbs, kas iestatīts darbam aptuveni vienu reizi nedēļā")
+![Pārbaudes darbs, kas iestatīts darbam aptuveni vienu reizi nedēļā.](media/03-preventive-maintenance.png "Pārbaudes darbs, kas iestatīts darbam aptuveni vienu reizi nedēļā")
 
 **3. piemērs - Skaitītājā balstīta uzturēšanas plāna rinda:** Sekojošā grafiska ilustrācija ir parādīts stundu skaitītājs, kuram tiek izveidota jauna uzturēšanas grafika rinda ikreiz, kad ir pagājušas 250 stundas. Intervāla tips šai skaitītājā balstītajai rindai ir "Atkārtot no sākuma datuma". Sākuma datums ir saistīto līdzekļu sākuma datums detalizētajā skatā **Visi līdzekļi** kopsavilkuma cilnē \> **Līdzekļu uzturēšanas plāni** laukā \> **Sākuma datums** vai detalizētajā skatā **Funkcionālais novietojums** kopsavilkuma cilnē \> **Uzturēšanas plāni** laukā \> **Sākuma datums**. Šis ir *preventīva* uzturēšanas plāna piemērs, jo uzturēšanas grafika rinda tiek automātiski izveidota katru reizi, kad tiek sasniegts slieksnis (+ 250).
 
-![Stundu skaitītājs, kas periodiski izveido uzturēšanas grafika rindas](media/04-preventive-maintenance.png "Stundu skaitītājs, kas periodiski izveido uzturēšanas grafika rindas")
+![Stundu skaitītājs, kas periodiski izveido uzturēšanas grafika rindas.](media/04-preventive-maintenance.png "Stundu skaitītājs, kas periodiski izveido uzturēšanas grafika rindas")
 
 **4. piemērs - Skaitītājā balstīta uzturēšanas plāna rinda:** Sekojošā grafiska ilustrācija ir parādīts skaitītāja, kas mēra bremžu paliktņa nolietojumu, vērtības samazinājums. Uzturēšanas grafika rinda tiek izveidota, kad bremžu paliktnim tiek izveidota skaitītāja reģistrācija zem 20 mm. Intervāla tips šai skaitītājā balstītajai rindai ir "Kad sasniegts zem" vai "Vienreiz no pēdējā sākuma datuma". Šis ir *reaktīva* uzturēšanas plāna piemērs, jo uzturēšanas grafika rinda netiek izveidota, kamēr nav sasniegts mērījums zem 20 mm.
 
-![Skaitītāja vērtības samazinājums, bremžu kluču nolietojuma mērīšana](media/05-preventive-maintenance.png "Skaitītāja vērtības samazinājums, bremžu kluču nolietojuma mērīšana")
+![Skaitītāja vērtības samazinājums, bremžu kluču nolietojuma mērīšana.](media/05-preventive-maintenance.png "Skaitītāja vērtības samazinājums, bremžu kluču nolietojuma mērīšana")
 
 **5. piemērs - Skaitītājā balstīta uzturēšanas plāna rinda:** Sekojošā grafiska ilustrācija ir parādīts skaitītājs, kura slieksnis ir -18° pēc Celsija. Uzturēšanas grafika rinda tiek izveidota, kad tiek veikta skaitītāja reģistrācija virs -18° pēc Celsija. Intervāla tips šai skaitītājā balstītajai rindai ir "Kad sasniegts virs". Šis ir *reaktīva* uzturēšanas plāna piemērs, jo uzturēšanas grafika rinda netiek izveidota, kamēr nav reģistrēts mērījums virs -18° pēc Celsija.
 
-![Skaitītājs ar slieksni -18° Celsius](media/06-preventive-maintenance.png "Skaitītājs ar slieksni -18° Celsius")
+![Skaitītājs ar slieksni -18° Celsius.](media/06-preventive-maintenance.png "Skaitītājs ar slieksni -18° Celsius")
 
 - Kad izveidojat jaunu līdzekli un šis līdzeklis izmanto līdzekļa tipu, kas ir saistīts ar uzturēšanas plānu, uzturēšanas plāns tiek automātiski ievadīts **Visi objekti \> Līdzekļu uzturēšanas plāni** kopsavilkuma cilnē. Tāpat arī sadaļā **Līdzekļa tipu noklusējumi** kopsavilkuma cilnē **Uzturēšanas plāni** saistītie uzturēšanas plāni tiks automātiski ievietoti.
 - Ja jūs pievienojat vai noņemat līdzekļu tipus vai funkcionālā novietojuma tipus sadaļā **Uzturēšanas plāni**, šīs izmaiņas attieksies vienīgi uz jaunajiem līdzekļiem, kas izveidoti pēc izmaiņu veikšanas.
@@ -169,7 +169,7 @@ Zemāk ir redzami piemēri laikā balstītu un skaitītājā balstītu uzturēš
 
 Sekojošajā attēlā ir parādīts "Platformas servisa" uzturēšanas plāna piemērs lapā **Uzturēšanas plāni** .
 
-![Kravas automašīnas pakalpojuma uzturēšanas plāna piemērs](media/07-preventive-maintenance.png "Kravas automašīnas pakalpojuma uzturēšanas plāna piemērs")
+![Kravas automašīnas pakalpojuma uzturēšanas plāna piemērs.](media/07-preventive-maintenance.png "Kravas automašīnas pakalpojuma uzturēšanas plāna piemērs")
 
 ## <a name="add-a-maintenance-plan-to-an-asset"></a>Uzturēšanas plāna pievienošana līdzeklim
 
@@ -187,11 +187,11 @@ Sekojošajā attēlā ir parādīts "Platformas servisa" uzturēšanas plāna pi
 
 Sekojošajā attēlā ir parādīts uzturēšanas plāna iestatīšana līdzeklī, lapā **Visi līdzekļi** .
 
-![Pamatlīdzeklim iestatīto uzturēšanas plānu piemērs](media/08-preventive-maintenance.png "Pamatlīdzeklim iestatīto uzturēšanas plānu piemērs")
+![Pamatlīdzeklim iestatīto uzturēšanas plānu piemērs.](media/08-preventive-maintenance.png "Pamatlīdzeklim iestatīto uzturēšanas plānu piemērs")
 
 <a id="counter-based-maintenance"></a>
 
-## <a name="counter-based-maintenance-enhancements"></a>Uz skaitītāju balstītas uzturēšanas uzlabojumi
+## <a name="counter-based-maintenance-enhancements"></a>Uz skaitītāju balstīti uzturēšanas uzlabojumi
 
 Uz *Skaitītāju bāzēts uzturēšanas uzlabojumu* līdzeklis iepazīstina ar šādu funkcionalitāti:
 

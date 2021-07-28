@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37ae6ebd4347d3bbb414b7f1e4e0d54150878c02
-ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
+ms.openlocfilehash: 0fd573ab1676af292174efce562b010bcbeb6514
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6097238"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354741"
 ---
 # <a name="negative-days-and-dynamic-negative-days"></a>Negatīvās dienas un dinamiskās negatīvās dienas
 
@@ -43,7 +43,7 @@ Pieprasījums var rasties vai nu salīdzinoši agri krājuma izpildes laikā, va
 
 Nākamajā attēlā ir parādīts šī scenārija grafisks skats.
 
-![1. scenārija grafisks skats](./media/negative-days-1.jpg)
+![1. scenārija grafisks skats.](./media/negative-days-1.jpg)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>A gadījums. Negatīvo dienu vērtība ir mazāka par krājuma izpildes laiku
 
@@ -51,11 +51,11 @@ Iestatot vienumam Dienas(-) skaitli, kas ir mazāks par krājuma izpildes laiku,
 
 Nākamajā attēlā ir redzams šī gadījuma ekrānuzņēmums.
 
-![1. scenārija A gadījuma ekrānuzņēmums](./media/negative-days-2.png)
+![1. scenārija A gadījuma ekrānuzņēmums.](./media/negative-days-2.png)
 
 Nākamajā attēlā ir parādīts šā gadījuma grafisks skats.
 
-![1. scenārija A gadījuma grafisks skats](./media/negative-days-3.png)
+![1. scenārija A gadījuma grafisks skats.](./media/negative-days-3.png)
 
 Ņemot vērā MRP veiktspēju un plāna nestabilitāti, šis gadījums nenodrošina labus rezultātus. MRP ir jāizveido jauns plānotais pasūtījums un ir jāaprēķina kavējumi un darbības. Šie uzdevumi ir laikietilpīgi. Šis gadījums arī pievieno plānam divas papildu transakcijas. No otras puses, pārdošanas pasūtījums tiek aizkavēts tikai par sešām, nevis septiņām dienām.
 
@@ -73,11 +73,11 @@ Dinamisko negatīvo dienu periods = Pirkšanas izpildes laiks + Negatīvo dienu 
 
 Lietojot dinamiskās negatīvās dienas, periods, kuru ņem vērā MRP attiecībā uz ieejas plūsmām, tagad ir 6 + 2 + 0 = 8 dienas. MRP atrod esošo pirkšanas pasūtījumu un piesaista tam pārdošanas pasūtījumu. Netiek izveidoti jauni plānotie pasūtījumi. Tādēļ MRP izpildes laiks ir īsāks. Nākamajā attēlā ir parādītas demonstrācijas preces krājuma neto vajadzības.
 
-![1. scenārija C gadījuma neto vajadzības](./media/negative-days-4.png)
+![1. scenārija C gadījuma neto vajadzības.](./media/negative-days-4.png)
 
 Nākamajā attēlā ir parādīts šā gadījuma grafisks skats.
 
-![1. scenārija C gadījuma grafisks skats](./media/negative-days-5.png)
+![1. scenārija C gadījuma grafisks skats.](./media/negative-days-5.png)
 
 ### <a name="case-d-use-only-dynamic-negative-days"></a>D gadījums. Izmantot tikai dinamiskās negatīvās dienas
 
@@ -85,11 +85,11 @@ Iestatot vienumam Dienas(-) vērtību **0** (nulle) un izmantojot tikai dinamisk
 
 Nākamajā attēlā ir redzams šī gadījuma ekrānuzņēmums.
 
-![1. scenārija D gadījuma ekrānuzņēmums](./media/negative-days-6.png)
+![1. scenārija D gadījuma ekrānuzņēmums.](./media/negative-days-6.png)
 
 Nākamajā attēlā ir parādīts šā gadījuma grafisks skats.
 
-![1. scenārija D gadījuma grafisks skats](./media/negative-days-7.png)
+![1. scenārija D gadījuma grafisks skats.](./media/negative-days-7.png)
 
 ### <a name="case-e-use-both-negative-days-that-are-more-than-the-items-lead-time-and-the-dynamic-negative-days-time-fence"></a>E gadījums. Izmantot gan negatīvās dienas, kas pārsniedz krājuma izpildes laiku, gan dinamisko negatīvo dienu periodu
 
@@ -106,7 +106,7 @@ Pieprasījums var rasties krājuma izpildes laikā. Tālāk minēts šī scenār
 
 Nākamajā attēlā ir parādīts šī scenārija grafisks skats.
 
-![2. scenārija grafisks skats](./media/negative-days-8.png)
+![2. scenārija grafisks skats.](./media/negative-days-8.png)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>A gadījums. Negatīvo dienu vērtība ir mazāka par krājuma izpildes laiku
 
@@ -114,11 +114,11 @@ Iestatot vienumam Dienas(-) skaitli, kas ir mazāks par krājuma izpildes laiku,
 
 Nākamajā attēlā ir redzams šī gadījuma ekrānuzņēmums.
 
-![2. scenārija A gadījuma ekrānuzņēmums](./media/negative-days-9.png)
+![2. scenārija A gadījuma ekrānuzņēmums.](./media/negative-days-9.png)
 
 Nākamajā attēlā ir parādīts šā gadījuma grafisks skats.
 
-![2. scenārija A gadījuma grafisks skats](./media/negative-days-10.png)
+![2. scenārija A gadījuma grafisks skats.](./media/negative-days-10.png)
 
 ### <a name="case-b-negative-days-are-more-than-the-items-lead-time"></a>B gadījums. Negatīvo dienu vērtība ir lielāka par krājuma izpildes laiku
 
@@ -130,11 +130,11 @@ Nākamajā attēlā ir parādīts šā gadījuma grafisks skats.
 
 Nākamajā attēlā ir redzams šī gadījuma ekrānuzņēmums.
 
-![2. scenārija C gadījuma ekrānuzņēmums](./media/negative-days-11.png)
+![2. scenārija C gadījuma ekrānuzņēmums.](./media/negative-days-11.png)
 
 Nākamajā attēlā ir parādīts šā gadījuma grafisks skats.
 
-![2. scenārija C gadījuma grafisks skats](./media/negative-days-12.png)
+![2. scenārija C gadījuma grafisks skats.](./media/negative-days-12.png)
 
 ### <a name="case-d-use-only-dynamic-negative-days"></a>D gadījums. Izmantot tikai dinamiskās negatīvās dienas
 
@@ -155,7 +155,7 @@ Pieprasījums var rasties pēc krājuma izpildes laika. Tālāk minēts šī sce
 
 Nākamajā attēlā ir parādīts šī scenārija grafisks skats.
 
-![3. scenārija grafisks skats](./media/negative-days-13.png)
+![3. scenārija grafisks skats.](./media/negative-days-13.png)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>A gadījums. Negatīvo dienu vērtība ir mazāka par krājuma izpildes laiku
 
@@ -163,11 +163,11 @@ Iestatot vienumam Dienas(-) skaitli, kas ir mazāks par krājuma izpildes laiku,
 
 Nākamajā attēlā ir redzams šī gadījuma ekrānuzņēmums.
 
-![3. scenārija A gadījuma ekrānuzņēmums](./media/negative-days-14.png)
+![3. scenārija A gadījuma ekrānuzņēmums.](./media/negative-days-14.png)
 
 Nākamajā attēlā ir parādīts šā gadījuma grafisks skats.
 
-![3. scenārija A gadījuma grafisks skats](./media/negative-days-15.png)
+![3. scenārija A gadījuma grafisks skats.](./media/negative-days-15.png)
 
 > [!NOTE]
 > Iepriekšējā ekrānuzņēmumā pirkšanas pasūtījuma vajadzības datums ir 12. janvāris. Tā kā šis ekrānuzņēmums tika izveidots 2015. gadā, kad 11. janvāris bija svētdiena, MRP pārcēla vajadzības datumu uz nākamo darba dienu, kas bija pirmdiena, 12. janvāris. Tomēr pirkšanas pasūtījuma piegādes datums ir 11. janvāris.
@@ -178,11 +178,11 @@ Iestatot vienumam Dienas(-) skaitli, kas ir lielāks nekā krājuma izpildes lai
 
 Nākamajā attēlā ir redzams šī gadījuma ekrānuzņēmums.
 
-![3. scenārija B gadījuma ekrānuzņēmums](./media/negative-days-16.png)
+![3. scenārija B gadījuma ekrānuzņēmums.](./media/negative-days-16.png)
 
 Nākamajā attēlā ir parādīts šā gadījuma grafisks skats.
 
-![3. scenārija B gadījuma grafisks skats](./media/negative-days-17.png)
+![3. scenārija B gadījuma grafisks skats.](./media/negative-days-17.png)
 
 ### <a name="case-c-automatically-correlate-the-items-lead-time-to-the-negative-days-time-fence"></a>C gadījums. Automātiski saistīt krājuma izpildes laiku ar negatīvo dienu periodu
 
@@ -192,7 +192,7 @@ Dinamisko negatīvo dienu periods ir 6 + 2 – 7 = 1 diena. Tomēr šajā gadīj
 
 Nākamajā attēlā ir parādīts šā gadījuma grafisks skats.
 
-![3. scenārija C gadījuma grafisks skats](./media/negative-days-18.png)
+![3. scenārija C gadījuma grafisks skats.](./media/negative-days-18.png)
 
 ### <a name="case-d-use-only-dynamic-negative-days"></a>D gadījums. Izmantot tikai dinamiskās negatīvās dienas
 
@@ -219,11 +219,11 @@ Varat iestatīt ilgu negatīvo dienu periodu un pēc tam strādāt ar darbību z
 
 Nākamajā attēlā ir parādīts procesa grafisks skats.
 
-![Piemēra grafisks pārskats](./media/negative-days-19.png)
+![Piemēra grafisks pārskats.](./media/negative-days-19.png)
 
 MRP sniedz šādus rezultātus.
 
-![1. rezultātu piemērs](./media/negative-days-20.png)
+![1. rezultātu piemērs.](./media/negative-days-20.png)
 
 Iepriekšējā ekrānuzņēmumā pārdošanas pasūtījuma vajadzības datums ir 9. janvāris, nevis 10. janvāris. Tā kā šis ekrānuzņēmums tika izveidots 2015. gadā, kad 10. janvāris bija sestdiena, pasūtījuma vajadzības datumam ir jābūt iepriekšējai darba dienai, kas bija piektdiena, 9. janvāris.
 
@@ -233,7 +233,7 @@ Rezultāti nav nepareizi, bet MRP izpildes laiks var būt ilgāks, jo MRP ir jā
 
 Samazinot negatīvo dienu skaitu līdz vērtībai, kas ir tuvāka krājuma izpildes laikam, un izmantojot dinamiskās negatīvās dienas, MRP nodrošina tālāk redzamos rezultātus.
 
-![2. rezultātu piemērs](./media/negative-days-21.png)
+![2. rezultātu piemērs.](./media/negative-days-21.png)
 
 MRP izveido plānoto pasūtījumu, kas piesaistīts pirmajam pārdošanas pasūtījumam. Pēc tam, kā paredzēts, otrais pārdošanas pasūtījums tiek piesaistīts esošajam pirkšanas pasūtījumam, pamatojoties uz negatīvo dienu iestatījumiem. Arī šis plānošanas rezultāts ir pareizs, un MRP izpildes laiks var būt īsāks. Šādā gadījumā nav svarīgi, lai jūs saprastu darbības ziņojumus un zinātu, kā ar tiem strādāt.
 

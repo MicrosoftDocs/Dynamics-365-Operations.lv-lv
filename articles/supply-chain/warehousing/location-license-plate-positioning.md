@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: e5fd7a9a9703f9ab6802def0aac096e29aa04f1a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1235f8fa64fbc87a4c22f4dcf0e9ddd4b4565b76
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831390"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359767"
 ---
 # <a name="location-license-plate-positioning"></a>Novietojuma noliktavas vienības pozīcija
 
@@ -88,7 +88,7 @@ Līdzeklim ir jābūt iespējotam novietojuma profilā katrai atrašanās vietai
 1. Kamēr **Noliktavas vienība** joprojām ir atlasīta, atlasiet **Pievienot tabulas savienojumu**.
 1. Tabulu sarakstā, kas tiek parādīts kolonnā **Relācija**, atlasiet **Novietojuma noliktavas vienības pozīcija (Noliktavas vienība)**. Pēc tam atlasiet **Atlasīt**, lai pievienotu **Novietojuma noliktavas vienības pozīcija** tabulas savienojumam **Krājumu dimensijas**.
 
-    ![Tabulas savienojums](media/LpTableJoin.png "Tabulas savienojums")
+    ![Tabulas savienojums.](media/LpTableJoin.png "Tabulas savienojums")
 
 1. Atlasiet **Labi**, lai apstiprinātu atjauninātās savienotās tabulas un aizvērtu vaicājumu redaktoru.
 1. Kopsavilkuma cilnē **Novietojuma direktīvas darbības** vēlreiz atlasiet **Rediģēt vaicājumu**, lai atkārtoti atvērtu vaicājumu redaktoru.
@@ -100,7 +100,7 @@ Līdzeklim ir jābūt iespējotam novietojuma profilā katrai atrašanās vietai
     - **Lauks:** *LP pozīcija*
     - **Kritēriji:** *1*
 
-    ![Jauns diapazons](media/LpPositionCriteria.png "Jauns diapazons")
+    ![Jauns diapazons.](media/LpPositionCriteria.png "Jauns diapazons")
 
 1. Atlasiet **Labi**, lai apstiprinātu izmaiņas un aizvērtu vaicājumu redaktoru.
 
@@ -275,7 +275,7 @@ Tagad, kad ir iestatīts līdzeklis *Novietojuma noliktavas vienības pozīcija*
 1. Lapā **Skenēt darba ID / noliktavas vienības ID** atlasiet lauku **ID** un pēc tam ievadiet darba ID no pārdošanas rindas.
 1. Ņemiet vērā, ka izdošanas darbs jūs novirza izdot krājumu *A0002* no atrašanās vietas *01A01R1S2B*. Šī instrukcija tiek saņemta, jo krājums *A0002* atrodas noliktavas vienībā, kas ir novietojuma pozīcijā *1*.
 
-    ![1. pozīcijas novietojums](media/LocationLicensePlatePositioning.png "1. pozīcijas novietojums")
+    ![1. pozīcijas novietojums.](media/LocationLicensePlatePositioning.png "1. pozīcijas novietojums")
 
 1. Ievadiet novietojuma izveidoto noliktavas vienības ID un pēc tam sekojiet uzvednēm, lai izdotu pārdošanas pasūtījumu.
 

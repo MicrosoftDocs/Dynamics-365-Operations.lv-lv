@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: b5c17a65a54ae88118bc5ecaa25cdadb67861129
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 037c9fb8dfc7aca4535540d92aae3e0ce0f8c638
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802771"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352160"
 ---
 # <a name="process-customer-order-pickups-in-pos"></a>Klientu pasūtījumu izdošanas process programmā POS
 
@@ -32,7 +32,7 @@ Ja esat veikala lietotājs, varat veikt izdošanu, izmantojot vai nu **Pasūtīj
 
 Ja atlasītais pasūtījums vai pasūtījuma rindas šajā konkrētajā veikalā nav konfigurētas, vai pasūtījums jau ir pilnībā izdots, operācija **Izdošana** nebūs pieejama.
 
-![Izdošanas operācija](media/pickupoperation.png)
+![Izdošanas operācija.](media/pickupoperation.png)
 
 Programmas Microsoft Dynamics 365 Commerce versijā 10.0.17 un jaunākās līdzekli **Uzlabota lietotāja pieredze izdošanas pasūtījuma apstrādei pārdošanas punktā** var ieslēgt, izmantojot Commerce Headquarters līdzekļu pārvaldību. Ja šis līdzeklis ir izslēgts, lietotāji nevar atlasīt izdošanas daudzumus. Pēc noklusējuma pilnais daudzums, kas tika pasūtīts rindai, ir daudzums, kas tiks izdots. Šī pieredze var būt problemātiska, jo lietotāji var aizmirst atlasīt dažus krājumus izdošanai, veicot izdošanu, izmantojot pasūtījuma izpildi.
 
@@ -40,13 +40,13 @@ Līdzeklis **Uzlabota lietotāja pieredze izdošanas pasūtījuma apstrādei pā
 
 Ja ir ieslēgts līdzeklis **Uzlabota lietotāja pieredze izdošanas pasūtījuma apstrādei pārdošanas punktā**, un jūs atlasāt operāciju **Izdošana**, tiks parādīts **Izdošanas** dialoglodziņš. Tajā varat atlasīt krājumus un daudzumus, kas tiks izdoti. Pēc noklusējuma visi krājumu pasūtītie daudzumi, kuri ir izdošanas vai iepakošanas stāvoklī, tiek uzskatīti par piemērotiem izdošanai. Pēc noklusējuma šis daudzums tiek iestatīts kā izdošanas daudzums. Ievadīto daudzumu var mainīt, ja daudzums nav 0 (nulle) un nepārsniedz atlasītās rindas kopējo atvērto (t.i., rēķinā neiekļauto) daudzumu.
 
-![Izdošanas dialoglodziņš](media/pickupselect.png)
+![Izdošanas dialoglodziņš.](media/pickupselect.png)
 
 Kad atlasāt izdodamos daudzumus, un pēc tam atlasāt **Izdošana**, tiek parādīta darījuma lapa. Ja [universālā kanāla maksājumu](omni-channel-payments.md) līdzeklis ir ieslēgts un failā ir iepriekš autorizēti kredītkaršu maksājumi, tie tiek attiecināti uz maksājumu.
 
 Darījuma lapā sistēma aprēķina maksājamās summas, aprēķinot kopējo summu, kas ir jāmaksā par atlasītajiem izdošanas krājumiem, un pēc tam atņemot visus iepriekš piemērotos depozītus vai autorizētos kredītkaršu maksājumus. Jums jāapstrādā maksājums, lai pabeigtu izdošanas darījumu. Ja darījuma lapas [ekrāna izkārtojums](pos-screen-layouts.md) ir konfigurēts tā, ka tajā ir iekļauta operācija **Pabeigt darījumu** un summa nav jāmaksā, darījumu var pabeigt, neatlasot maksājuma metodi. Ja operācija **Pabeigt darījumu** nav pieejama, varat atlasīt saiti **summa apmaksai 0,00 $** cilnē **Kopsummas**, lai pabeigtu darījumu, neatlasot maksājuma metodi.
 
-![Klienta pasūtījuma izdošanas darījuma lapa](media/pickupcart.png)
+![Klienta pasūtījuma izdošanas darījuma lapa.](media/pickupcart.png)
 
 ## <a name="changing-pickup-lines-or-quantities"></a>Izdošanas rindu daudzuma mainīšana
 
@@ -54,7 +54,7 @@ Ja nepieciešams mainīt izdošanas daudzumu pēc tam, kad jau atlasīti krājum
 
 Ja līdzeklis **Uzlabota lietotāja pieredze izdošanas pasūtījuma apstrādei pārdošanas punktā** ir ieslēgts, organizācijas var pievienot pogu operācijai **Izdošanas rindu mainīšana** darījuma lapas ekrāna izkārtojumam. Kad programmā POS ir izveidots izdošanas darījuma grozs un atlasīti krājumi, varat izvēlēties **Izdošanas rindu mainīšanu**, ja ir nepieciešams mainīt izdošanas krājumus, bet nevēlaties anulēt visu darījumu. Parādītajā **Izdošanas rindu mainīšanas** dialoglodziņā varat mainīt izdošanas krājumus un daudzumus. Pēc tam darījuma grozs tiek atjaunināts, lai atspoguļotu veiktās izmaiņas.
 
-![Izdošanas krājumu mainīšanas dialoglodziņš](media/pickupchange.png)
+![Izdošanas krājumu mainīšanas dialoglodziņš.](media/pickupchange.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

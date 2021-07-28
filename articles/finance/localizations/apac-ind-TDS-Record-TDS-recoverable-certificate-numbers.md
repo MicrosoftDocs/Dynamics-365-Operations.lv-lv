@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: b501c331cccc6d030f36d0a13ba0a6a13c08c733
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 2c7fe2e1050053fb2ddaf85854e7ac46dd6912a5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023404"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358366"
 ---
 # <a name="record-tds-recoverable-certificate-numbers"></a>Ierakstīt atjaunojamos TDS sertifikātu numurus
 
@@ -33,7 +33,7 @@ Izpildiet šīs darbības, lai ierakstītu TDS sertifikātu numurus un datumus.
 
 1. Pārejiet uz sadaļu **Nodokļi \> Netiešais nodoklis \> Ieturētais nodoklis \> Atjaunojamie sertifikāti**.
 
-    [![Atjaunojamo sertifikātu lapa](./media/apac-ind-TDS-49.png)](./media/apac-ind-TDS-49.png) 
+    [![Atjaunojamo sertifikātu lapa.](./media/apac-ind-TDS-49.png)](./media/apac-ind-TDS-49.png) 
 
 2. Lapā **Atjaunojamie sertifikāti** laukā **Nodokļa tips** atlasiet **TDS**.
 3. Atlasiet **Jauns**, lai izveidotu ierakstu.

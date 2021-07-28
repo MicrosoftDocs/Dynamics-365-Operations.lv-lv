@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1c8d939fef4fd0f9e189ca37318c2c0306511785
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 96e1575e2237cab481c368083da1e60fec612087
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893912"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359033"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Konfigurācijas noformēšana dokumentu ģenerēšanai Excel formātā
 
@@ -39,7 +39,7 @@ Kad pievienojat jaunu ER formāta konfigurāciju, lai ģenerētu izejošo dokume
 
 Lai konfigurētu konfigurācijas ER formāta komponentu, darbību rūtī atlasiet **Veidotājs** un atveriet ER formāta komponentu rediģēšanai ER operāciju veidotājā.
 
-![Lapa Konfigurācijas](./media/er-excel-format-add-format.png)
+![Lapa Konfigurācijas.](./media/er-excel-format-add-format.png)
 
 ## <a name="excel-file-component"></a>Excel faila komponents
 
@@ -47,14 +47,14 @@ Lai konfigurētu konfigurācijas ER formāta komponentu, darbību rūtī atlasie
 
 Jums ir jāpievieno **Excel\\Fails** komponents konfigurētajam ER formātam, lai ģenerētu izejošo dokumentu Excel formātā.
 
-![Excel\Faila komponents](./media/er-excel-format-add-file-component.png)
+![Excel\Faila komponents.](./media/er-excel-format-add-file-component.png)
 
 Lai norādītu izejošā dokumenta izkārtojumu, pievienojiet Excel darbgrāmatu, kam ir paplašinājums .xlsx, **Excel\\Faila** komponentam kā veidni izejošajiem dokumentiem.
 
 > [!NOTE]
 > Manuāli pievienojot veidni, jāizmanto [dokumenta veids](../../../fin-ops-core/fin-ops/organization-administration/configure-document-management.md#configure-document-types), kas ir konfigurēts šim nolūkam [ER parametros](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
 
-![Pielikuma pievienošana Excel\Faila komponentam](./media/er-excel-format-add-file-component2.png)
+![Pielikuma pievienošana Excel\Faila komponentam.](./media/er-excel-format-add-file-component2.png)
 
 Lai norādītu, kā pievienotā veidne tiks aizpildīta, palaižot konfigurēto ER formātu, ir jāpievieno ligzdotas **Lapas**, **Diapazona** un **Šūnas** komponenti **Excel\\Faila** komponentam. Katram ligzdotajam komponentam ir jābūt saistītam ar Excel nosaukto krājumu.
 
@@ -62,7 +62,7 @@ Lai norādītu, kā pievienotā veidne tiks aizpildīta, palaižot konfigurēto 
 
 Varat atlasīt **Importēt no Excel** darbību rūts cilnē **Importēt**, lai importētu jaunu veidni tukšā ER formātā. Šajā piemērā **Excel\\Faila** komponents tiks izveidots automātiski, un importētā veidne tiks tai pievienota. Visi vajadzīgie ER komponenti arī tiks izveidoti automātiski, balstoties uz Excel nosaukto vienumu sarakstu.
 
-![Opcijas Importēt no Excel atlasīšana](./media/er-excel-format-import-template.png)
+![Opcijas Importēt no Excel atlasīšana.](./media/er-excel-format-import-template.png)
 
 > [!NOTE]
 > Ja vēlaties izveidot izvēles **Lapas** elementu rediģējamajā ER formātā, iestatiet opciju **Izveidot Excel lapas formāta elementu** uz **Jā**.
@@ -79,7 +79,7 @@ ER operācijas veidotāja cilnē **Kartēšana** varat konfigurēt **Iespējoto*
 - Ja **Iespējotā** rekvizīta izteiksme ir konfigurēta, lai atgrieztu opciju **Patiess** izpildlaikā, vai arī, ja neviena izteiksme nav konfigurēta vispār, izveidotajā dokumentā tiks ievietota atbilstoša darblapa.
 - Ja **Iespējotā** rekvizīta izteiksme ir konfigurēta, lai atgrieztu opciju **Aplams** izpildlaikā, ģenerētajā dokumentā netiks ietverta darblapa.
 
-![Lapas komponenta piemērs](./media/er-excel-format-sheet-component.png)
+![Lapas komponenta piemērs.](./media/er-excel-format-sheet-component.png)
 
 ## <a name="range-component"></a>Diapazona komponents
 
@@ -182,7 +182,7 @@ Varat atlasīt **Atjaunināt no Excel** darbību rūts cilnē **Importēt**, lai
 >
 > Ja rediģējamais ER formāts sākotnēji ietvēra **Lapas** elementus, ieteicams iestatīt opciju **Izveidot Excel lapas formāta elementu** uz **Jā**, importējot atjauninātu veidni. Pretējā gadījumā visi oriģinālās **Lapas** elementa ligzdotie elementi tiks izveidoti no nulles. Tāpēc atjauninātajā ER formātā tiks zaudēti visi atkārtoti izveidoto formāta elementu saistījumi.
 
-![Izveidot Excel lapas formāta elementa opciju dialoglodziņā Atjaunināt no Excel](./media/er-excel-format-update-template.png)
+![Izveidot Excel lapas formāta elementa opciju dialoglodziņā Atjaunināt no Excel.](./media/er-excel-format-update-template.png)
 
 Lai uzzinātu vairāk par šo līdzekli, sekojiet soļiem sadaļā [Modificēt elektronisko pārskatu formātus, atkārtoti pielietojot Excel veidnes](modify-electronic-reporting-format-reapply-excel-template.md).
 
@@ -190,7 +190,7 @@ Lai uzzinātu vairāk par šo līdzekli, sekojiet soļiem sadaļā [Modificēt e
 
 Pārbaudot ER formātu, ko var rediģēt, tiek veikta konsekvences pārbaude, lai pārliecinātos, ka Excel nosaukums ir pašlaik izmantotajā Excel veidnē. Jūs tiksiet informēts par jebkādām neatbilstībām. Dažām neatbilstībām tiks piedāvāta opcija automātiski labot problēmas.
 
-![Pārbaudes kļūdu ziņojums](./media/er-excel-format-validate.png)
+![Pārbaudes kļūdu ziņojums.](./media/er-excel-format-validate.png)
 
 ## <a name="control-the-calculation-of-excel-formulas"></a>Excel formulu aprēķinu kontrolēšana
 
@@ -209,7 +209,7 @@ Kad tiek ģenerēts izejošais dokuments Microsoft Excel darbgrāmatas formātā
 1. Izmantojiet nodrošinātās ER konfigurācijas, lai [ģenerētu](er-generate-printable-fti-forms.md) drukājamu brīvā teksta rēķina (FTI) dokumentu.
 2. Pārskatiet ģenerētā dokumenta kājeni. Ievērojiet, ka tā satur informāciju par pašreizējās lapas numuru un kopējo lapu skaitu dokumentā.
 
-    ![Ģenerētā dokumenta kājenes pārskatīšana Excel formātā](./media/er-fillable-excel-footer-1.gif)
+    ![Ģenerētā dokumenta kājenes pārskatīšana Excel formātā.](./media/er-fillable-excel-footer-1.gif)
 
 3. ER formāta veidotājā [atveriet](er-generate-printable-fti-forms.md#features-that-are-implemented-in-the-sample-er-format) parauga ER formātu pārskatīšanai.
 
@@ -222,7 +222,7 @@ Kad tiek ģenerēts izejošais dokuments Microsoft Excel darbgrāmatas formātā
 
     - Otrais komponents **Virkne** aizpilda tekstu, kas satur pašreizējo lapas numuru un kopējo lapu skaitu pašreizējā dokumentā.
 
-    ![Kājenes ER formāta komponenta pārskatīšana lapā Formāta veidotājs](./media/er-fillable-excel-footer-2.png)
+    ![Kājenes ER formāta komponenta pārskatīšana lapā Formāta veidotājs.](./media/er-fillable-excel-footer-2.png)
 
 4. Pielāgojiet parauga ER formātu, lai modificētu pašreizējās lapas kājeni:
 
@@ -237,20 +237,20 @@ Kad tiek ģenerēts izejošais dokuments Microsoft Excel darbgrāmatas formātā
         1. Pievienojiet komponentu **Virkne**, kas izlīdzina apstrādes datumu labajā pusē un parāda to 8 punktu "Segoe UI Regular" fontā (**"&R&"Segoe UI,Regular"&8"**).
         2. Pievienojiet komponentu **Virkne**, kas aizpilda apstrādes datumu pielāgotā formātā (**"&nbsp;"&DATEFORMAT(SESSIONTODAY(), "yyyy-MM-dd")**).
 
-        ![Kājenes ER formāta komponenta pārskatīšana lapā Formāta veidotājs](./media/er-fillable-excel-footer-3.png)
+        ![Kājenes ER formāta komponenta pārskatīšana lapā Formāta veidotājs.](./media/er-fillable-excel-footer-3.png)
 
     4. [Aizpildiet](er-quick-start2-customize-report.md#CompleteDerivedFormat) atvasinātā **Brīvā teksta rēķina (Excel) pielāgotā** ER formāta melnraksta versiju.
 
 5. [Konfigurējiet](er-generate-printable-fti-forms.md#configure-print-management) drukas pārvaldību, lai izmantotu atvasināto **Brīvā teksta rēķina (Excel) pielāgoto** ER formātu, nevis ER parauga formātu.
 6. Ģenerējiet drukājamu FTI dokumentu un pārskatiet ģenerētā dokumenta kājeni.
 
-    ![Ģenerētā dokumenta kājenes pārskatīšana Excel formātā](./media/er-fillable-excel-footer-4.gif)
+    ![Ģenerētā dokumenta kājenes pārskatīšana Excel formātā.](./media/er-fillable-excel-footer-4.gif)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Elektronisko pārskatu veidošanas apskats](general-electronic-reporting.md)
 
-[Izveidot konfigurāciju atskaišu ģenerēšanai formātā OPENXML](tasks\er-design-reports-openxml-2016-11.md)
+[Konfigurācijas noformēšana pārskatu ģenerēšanai formātā OPENXML](tasks\er-design-reports-openxml-2016-11.md)
 
 [Elektronisko pārskatu veidošanas formātu modificēšana, atkārtoti lietojot Excel veidnes](modify-electronic-reporting-format-reapply-excel-template.md)
 

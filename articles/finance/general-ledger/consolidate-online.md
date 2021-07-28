@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 8a946a8325afebf76639991c60135d7425f5f211
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: eca0d30903985126412e1ae0b8e3232c3e4700f4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826766"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351688"
 ---
 # <a name="online-financial-consolidations"></a>Tiešsaistes finanšu konsolidācijas
 
@@ -31,7 +31,7 @@ Pēc tam, kad esat pabeidzis iestatīšanu, ievadiet konsolidācijas datus lapā
 ## <a name="criteria"></a>Kritēriji
 Cilnē **Kritēriji** lapā **Konsolidēt [tiešsaistē]** definējiet kontus, periodus un datu veidus, kas tiek konsolidēti.
 
-![Cilne Kritēriji](./media/criteria-consolidate-online.png "Cilne Kritēriji")
+![Cilne Kritēriji.](./media/criteria-consolidate-online.png "Cilne Kritēriji")
 
 Tālāk aprakstīts šīs cilnes dažādo lauku skaidrojums.
 
@@ -57,16 +57,16 @@ Tālāk aprakstīts šīs cilnes dažādo lauku skaidrojums.
 ## <a name="financial-dimensions"></a>Finanšu dimensijas
 Cilnē **Finanšu dimensijas** varat definēt dimensijas, kuras jāiekļauj konsolidācijas uzņēmumā. Lai atlasītu dimensiju, iestatiet lauku **Specifikācija** pozīcijā **Dimensija**, un pēc tam nosakiet dimensijas secību konsolidētajā uzņēmumā.
 
-![Cilne Finanšu dimensijas](./media/financial-dimensions-cons.png "Cilne Finanšu dimensijas")
+![Cilne Finanšu dimensijas.](./media/financial-dimensions-cons.png "Cilne Finanšu dimensijas")
 
 Neatkarīgi no jūsu definētās secības **Galvenais konts** vienmēr būs pirmais segments.
 
 ## <a name="legal-entities"></a>Juridiskas personas
 Cilnē **Juridiskās personas** varat definēt uzņēmumus, kuri jāiekļauj konsolidācijas uzņēmumā. Jūs arī nosakāt šo uzņēmumu īpašumtiesību procentu. Ja norādāt mazāk nekā 100 procentu īpašumtiesības, norādītā procentuālā vērtību tiks apkopota konsolidācijas uzņēmumā. Atšķirīgu pārrēķināšanu gadījumā lauks **Konta veids konvertācijas atšķirībām** tiek izmantots, lai atlasītu galveno kontu no iestatījuma lapā **Konti automātiskām transakcijām**.
 
-![Cilne Juridiskās personas](./media/legal-entities-cons.png "Cilne Juridiskās personas")
+![Cilne Juridiskās personas.](./media/legal-entities-cons.png "Cilne Juridiskās personas")
 
-![Lapa Automātisko darījumu konti](./media/accounts-for-automatic-cons.png "Lapa Automātisko darījumu konti")
+![Lapa Automātisko darījumu konti.](./media/accounts-for-automatic-cons.png "Lapa Automātisko darījumu konti")
 
 ## <a name="elimination"></a>Korekcijas
 Cilnē **Eliminācija** ir trīs tālāk aprakstītās iespējas elimināciju apstrādei.
@@ -75,7 +75,7 @@ Cilnē **Eliminācija** ir trīs tālāk aprakstītās iespējas elimināciju ap
 - Atlasiet eliminācijas kārtulu un pēc tam laukā **Piedāvājumu opcijas** atlasiet **Tikai grāmatot**. Šī opcija apstrādā elimināciju konsolidācijas procesa laikā un visu grāmato vienā darbībā.
 - Apstrādājiet eliminācijas piedāvājumu atsevišķi no konsolidācijas procesa, izmantojot eliminācijas žurnālu.
 
-![Cilne Korekcijas](./media/elimination-cons-onl.png "Cilne Korekcijas")
+![Cilne Korekcijas.](./media/elimination-cons-onl.png "Cilne Korekcijas")
 
 Plašāku informāciju par eliminācijām skatiet sadaļā [Eliminācijas kārtulas](./elimination-rules.md).
 
@@ -86,7 +86,7 @@ Cilnē **Valūtas pārrēķināšana** varat noteikt juridisko personu kontu un 
 - **Transakcijas datums** – katras transakcijas datums tiks izmantots, lai atlasītu maiņas kursu. Šī opcija visbiežāk tiek izmantota pamatlīdzekļiem, un to bieži sauc par vēsturisko kursu. Kursa priekšskatījumu nevarēs redzēt, jo būs daudz dažādu transakciju kursu konta diapazonā.
 - **Lietotāja noteiktais kursa** – pēc tam, kad ir atlasīta šī opcija, var ievadīt vēlamo maiņas kursu. Šī opcija var būt noderīga vidējiem maiņas kursiem vai veicot konsolidēšanu ar fiksētu valūtas kursu.
 
-![Cilne Valūtas pārrēķināšana](./media/currency-translation-cons-online.png "Cilne Valūtas pārrēķināšana")
+![Cilne Valūtas pārrēķināšana.](./media/currency-translation-cons-online.png "Cilne Valūtas pārrēķināšana")
 
 ## <a name="additional-resources"></a>Papildu resursi
 

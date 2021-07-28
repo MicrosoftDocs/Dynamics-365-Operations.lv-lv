@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1a2bac914330058400a7e4d7d355bd4a00a4522f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 86d85d280b32834c36691535a019ef6d5141bf93
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816800"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356025"
 ---
 # <a name="inbound-and-outbound-assets"></a>Ienākošie un izejošie līdzekļi
 
@@ -42,7 +42,7 @@ Līdzekļu pārvaldības iestatījumi nosaka, vai varat strādāt ar ienākošaj
 3. Atlasiet **Atjaunināt uzturēšanas pieprasījuma stāvokli**.
 4. Atlasiet **Ienākošais** (vai cits dzīves cikla stāvoklis, ko esat izveidojis ienākošajiem līdzekļiem) un pēc tam atlasiet **Labi**.
 
-![Reģistrēt līdzekļus kā ienākošos](media/07-manage-maintenance-requests.png)
+![Reģistrēt līdzekļus kā ienākošos.](media/07-manage-maintenance-requests.png)
 
 ## <a name="register-inbound-assets-as-received"></a>Reģistrēt ienākošos līdzekļus kā saņemtus
 
@@ -51,7 +51,7 @@ Līdzekļu pārvaldības iestatījumi nosaka, vai varat strādāt ar ienākošaj
 3. Atlasiet **Saņemt līdzekļus**.
 4. Laukā **Saņemts** ievadiet datumu un laiku. Tad atl. **Labi**. Ieraksts tiek noņemts saraksta lapā **Ienākošie līdzekļi**.
 
-![Reģistrēt ienākošos līdzekļus kā saņemtus](media/08-manage-maintenance-requests.png)
+![Reģistrēt ienākošos līdzekļus kā saņemtus.](media/08-manage-maintenance-requests.png)
 
 ## <a name="register-assets-as-outbound"></a>Reģistrēt līdzekļus kā izejošos
 

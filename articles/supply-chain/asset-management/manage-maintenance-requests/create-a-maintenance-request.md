@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 147388d5052bd14851bbddfbb7fe25297a43f104
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: 861899e4cd7565309ba513408346912642b7fa9a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102978"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354909"
 ---
 # <a name="create-maintenance-requests"></a>Izveidot uzturēšanas pieprasījumus
 
@@ -52,7 +52,7 @@ Sadaļa **Aktīvie uzturēšanas pieprasījumi** rūtī **Saistītā informācij
 11. Laukā **Piezīmes** ievadiet visas nepieciešamās papildu piezīmes.
 12. Atlasiet **Labi**.
 
-![Izveidot uzturēšanas pieprasījumu](media/03-manage-maintenance-requests.png)
+![Izveidot uzturēšanas pieprasījumu.](media/03-manage-maintenance-requests.png)
 
 ## <a name="subsequent-processing-of-maintenance-requests"></a>Turpmāka uzturēšanas pieprasījumu apstrāde
 
@@ -67,7 +67,7 @@ Detalizētas informācijas skatā varat atjaunināt dažādu informāciju. Daži
 - Atlasiet uzturēšanas darba veidu un, ja šī informācija ir būtiska, saistīto uzturēšanas darba variantu un darba tirdzniecību.
 - Laukos **Platums** un **Garums** ievadiet ģeogrāfiskās koordinātas. Visas koordinātas, kas tiek pievienotas uzturēšanas pieprasījumam, tiek automātiski pārsūtītas uz saistīto darba pasūtījumu. 
 
-![Uzturēšanas pieprasījuma atjaunināšana](media/04-manage-maintenance-requests.png)
+![Uzturēšanas pieprasījuma atjaunināšana.](media/04-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Ja atlasāt līdzekli, veidojot uzturēšanas pieprasījumu, varat līdzeklim pievienot vienu kļūmi. Pēc uzturēšanas pieprasījuma izveides varat pievienot vairāk kļūmju — kā nepieciešams. Lai pievienotu kļūmes, atlasiet **Līdzekļa kļūme** lapā **Visi uzturēšanas pieprasījumi**.

@@ -10,12 +10,12 @@ ms.search.region: global
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: eb4170ef6cb09c862f6a4163670c519d5d8077fb
-ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
+ms.openlocfilehash: e604e1491bbafa041fa3f52ad0f8b454c63d47de
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6103573"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359367"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Duālā ieraksta iestatīšana no Lifecycle Services
 
@@ -40,7 +40,7 @@ Veiciet šos soļus, lai iestatītu duālo rakstīšanu no LCS **Vides informāc
 
 2. Atlasiet **Duālās rakstīšanas programmas** pogu.
 
-    ![Power Platform integrēšana](media/powerplat_integration_step2.png)
+    ![Power Platform integrēšana.](media/powerplat_integration_step2.png)
 
 3. Pārskatiet noteikumus un nosacījumus un atzīmējiet **Konfigurēt**.
 
@@ -52,7 +52,7 @@ Veiciet šos soļus, lai iestatītu duālo rakstīšanu no LCS **Vides informāc
 
 7. Atlasiet **Saite uz Power Platform vidi**, lai izveidotu saiti starp Dataverse un pašreizējās vides datu bāzēm. Tas parasti aizņem mazāk kā 5 minūtes.
 
-    :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Saite uz Power Platform vidi":::
+    :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Saite uz Power Platform vidi.":::
 
 8. Kad saistīšana ir pabeigta, tiek parādīta hipersaite. Izmantojiet saiti, lai pieteiktos duālās rakstīšanas administrācijas apgabalā Finance and Operations vidē. No turienes varat iestatīt elementu kartējumus.
 

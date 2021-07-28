@@ -2,7 +2,8 @@
 title: Veikala atlasītāja modulis
 description: Šajā tēmā aplūkots veikalu atlasītāja modulis un aprakstīts, kā to pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 04/02/2021
+manager: annbe
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +16,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5a9311435264119e8287f1b7da2d0456552231f3
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 341312758e0a6da2e918406e09df618e2475811f
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021468"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479380"
 ---
 # <a name="store-selector-module"></a>Veikalu atlasītāja modulis
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Šajā tēmā aplūkots veikalu atlasītāja modulis un aprakstīts, kā to pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 
@@ -50,12 +52,12 @@ Lai ievadītu veikala atrašanās vietas platumu un garumu programmā Commerce H
 1. Atlasiet noliktavas atrašanās vietu kreisajā rūtī.
 1. Kopsavilkuma cilnē **Adreses** atlasiet **Papildu**.
 
-    ![Veikala detalizētas informācijas piemērs galvenajā birojā](./media/Store-address.png)
+    ![Veikala detalizētas informācijas piemērs galvenajā birojā.](./media/Store-address.png)
 
 1. Darbību rūtī atlasiet **Rediģēt**.
 1. Kopsavilkuma cilnē **Vispārīgi** ievadiet vērtības **Platums** un **Garums**.
 
-    ![Veikala platuma un garuma iestatījuma piemērs galvenajā birojā](./media/Store-latitude-longitude.png)
+    ![Veikala platuma un garuma iestatījuma piemērs galvenajā birojā.](./media/Store-latitude-longitude.png)
 
 1. Darbību rūtī atlasiet **Saglabāt**. 
 
@@ -70,7 +72,6 @@ Automātiskā ieteikšanas REST API jums ir jānodrošina, ka ir atļauti šādi
 - **script-src** direktīvai **pievienojiet &#42;.bing.com, &#42;.virtualearth.net**.
 - **script style-src** direktīvai pievienojiet **&#42;.bing.com**.
 
- 
 ## <a name="pickup-in-store-mode"></a>Saņemšana veikalā režīms
 
 Veikala atlasītāja modulis atbalsta **Saņemšanu veikalā** režīmu, kas parāda veikalu sarakstu, kur produkts ir pieejams saņemšanai. Tas arī parāda veikala stundas un preču inventāru katram veikalam sarakstā. Veikala atlasītāja modulim ir nepieciešams preces saturs, kas atveido preces pieejamību un ļauj lietotājam pievienot preci grozam, ja preces piegādes režīms ir iestatīts uz **saņemšanu** atlasītajā veikalā. Papildinformāciju skatiet [Krājumu iestatījumi](inventory-settings.md). 
@@ -81,7 +82,7 @@ Lai šis scenārijs darbotos, precēm jābūt konfigurētām lai tiktu izmantots
 
 Šajā attēlā redzams veikala atlasītāja moduļa piemērs, kas izmantots PDP.
 
-![Veikala atlasītāja moduļa piemērs, kas izmantots PDP](./media/BOPIS.PNG)
+![Veikala atlasītāja moduļa piemērs, kas izmantots PDP.](./media/BOPIS.PNG)
 
 > [!NOTE]
 > Versijā 10.0.16 un jaunākās versijās var iespējot jaunu funkciju, kas ļauj organizācijai definēt klientiem piegādes opciju vairākus saņemšanas veidus.  Ja šī funkcija ir aktivizēta, veikala selektors un citi e-tirdzniecības moduļi tiks uzlaboti, lai ļautu pircējiem izvēlēties no potenciāli vairākām saņemšanas opcijām, ja tās ir konfigurētas.  Lai uzzinātu vairāk par šo līdzekli, skatiet [šo dokumentāciju](./multiple-pickup-modes.md). 
@@ -92,7 +93,7 @@ Veikala atlasītāja modulis atbalsta arī **Atrast veikalu** režīmu. Šo rež
 
 Sekojošajā attēlā redzams veikala atlasītāja moduļa piemērs, kas tiek izmantots kopā ar kartes moduli veikala atrašanās vietu lapā.
 
-![Veikala atlasītāja moduļa un kartes moduļa piemērs veikala atrašanās vietu lapā](./media/ecommerce-Storelocator.PNG)
+![Veikala atlasītāja moduļa un kartes moduļa piemērs veikala atrašanās vietu lapā.](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="render-a-map"></a>Atveidot karti
 
@@ -110,6 +111,10 @@ Veikala atlasītāja moduli var izmantot kopā ar kartes moduli, lai parādītu 
 | Automātiskās ieteikšanas opcijas: maksimālie rezultāti | Skaits | Šis rekvizīts nosaka maksimālo ieteikto rezultātu skaitu, ko var parādīt, izmantojot Bing automātiskās ieteikšanas API. |
 | Meklēšanas rādiuss | Skaits | Šis rekvizīts nosaka veikalu meklēšanas rādiusu jūdzēs. Ja nav norādīta vērtība, tiek izmantots noklusētais meklēšanas rādiuss, kas ir 50 jūdzes. |
 | Pakalpojuma noteikumi | Vietrādis URL |  Šis rekvizīts norāda pakalpojuma URL nosacījumus, kas nepieciešami Bing karšu pakalpojuma izmantošanai. |
+
+## <a name="site-settings"></a>Vietnes iestatījumi
+
+Veikala atlasītājam modulim tiek ievērots [Iestatījums Pievienot preci grozam](add-cart-settings.md). Kad krājums ir pievienots grozam no veikala atlases moduļa, vietas lietotāji redzēs atbilstošās konfigurētās darbplūsmas.
 
 ## <a name="add-a-store-selector-module-to-a-page"></a>Veikala atlasītāja moduļa pievienošana lapai
 

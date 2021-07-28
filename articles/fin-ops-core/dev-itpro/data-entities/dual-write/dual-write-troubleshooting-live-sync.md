@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 1c0dfebb3ef442f67d8489d7aed00305c02cf410
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2694f48b295ba727870f068e7062f7cdcababdbe
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748901"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350792"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Tiešsaistes sinhronizācijas problēmu novēršana
 
@@ -73,21 +73,21 @@ Ja dati ir abās pusēs un apstiprinājāt, ka problēma nav saistīta ar datiem
 
 Iespējams, saņemsit kļūdas ziņojumu "Nederīgs pieprasījums", kas līdzīgs šim piemēram, kad Finance and Operations programmā veidojat datus.
 
-![Slikta pieprasījuma kļūmes ziņojuma piemērs](media/error_record_id_source.png)
+![Slikta pieprasījuma kļūmes ziņojuma piemērs.](media/error_record_id_source.png)
 
 Lai labotu problēmu, ir jāpiešķir pareiza drošības loma kartētas Dynamics 365 Sales vai Dynamics 365 Customer Service biznesa struktūrvienības grupai, lai iespējotu trūkstošās privilēģijas.
 
 1. Programmā Finance and Operations atrodiet biznesa struktūrvienību, kas ir kartēta datu integrācijas savienojuma kopā.
 
-    ![Organizācijas kartēšana](media/mapped_business_unit.png)
+    ![Organizācijas kartēšana.](media/mapped_business_unit.png)
 
 2. Piesakieties vidē ar modeļa vadītu Dynamics 365 programmu, pārejiet uz **Iestatījumi \> Drošība** un sameklējiet kartētās biznesa vienības grupu.
 
-    ![Kartētās biznesa vienības grupa](media/setting_security_page.png)
+    ![Kartētās biznesa vienības grupa.](media/setting_security_page.png)
 
 3. Atveriet komandas lapu rediģēšanai, pēc tam atlasiet **Pārvaldīt lomas**, lai atvērtu dialoglodziņu **Pārvaldīt grupu lomas**.
 
-    ![Lomu pārvaldības poga](media/manage_team_roles.png)
+    ![Lomu pārvaldības poga.](media/manage_team_roles.png)
 
 4. Piešķiriet lomu ar lasīšanas/rakstīšanas privilēģiju attiecīgajām tabulām un pēc tam atlasiet **Labi**.
 

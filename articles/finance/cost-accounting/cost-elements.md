@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 067d7035cdb9c8f4bcb2bdac9cf0a33cd4e01079
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2fa602d01cadecbf24c2433360f7b2a8ebb0854a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811441"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355159"
 ---
 # <a name="cost-element-dimensions"></a>Izmaksu elementu dimensijas
 
@@ -63,7 +63,7 @@ Ir divu veidu izmaksu elementi: primāro izmaksu elementi un sekundāro izmaksu 
 ## <a name="cost-element-dimensions-and-cost-element-dimension-members"></a>Izmaksu elementu dimensijas un izmaksu elementu dimensijas dalībnieki
 Izmaksu elementi, kas tiek saukti par *izmaksu elementu dimensijas*. Atsevišķas dimensiju vērtības tiek sauktas par *izmaksu elementu dimensijas dalībnieki*. Piemēram, jums ir ASV kontu plāna struktūra (COA), kas ir pamats ar likumu noteikto pārskatu veidošanai. Šī COA tiek izmantota kā izmaksu elementa dimensija. Konti, kas ir primāro izmaksu elementi, tiek attēloti kā izmaksu elementu dimensijas dalībnieki Izmaksu uzskaitē. Šajā ekrānuzņēmumā parādīts Galveno kontu kā izmaksu elementu dimensijas piemērs, ar tā faktiskajiem galvenajiem kontiem kā izmaksu elementa dimensijas dalībniekiem. 
 
-[![Galveno kontu ekrānuzņēmums kā izmaksu elementa dimensija](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
+[![Galveno kontu ekrānuzņēmums kā izmaksu elementa dimensija.](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
 
 ## <a name="import-cost-element-dimension-members-through-data-connectors"></a>Importējiet izmaksu elementu dimensijas dalībniekus, izmantojot datu savienotājus
 Lai vienkāršotu izmaksu elementa dimensijas dalībnieku iestatīšanu Izmaksu uzskaitē, jūs varat izmantot datu savienotājus, kas ir vai nu iepriekš izveidoti vai jūsu izveidoti, lai izgūt primāro izmaksu elementus no vienas vai vairākām avota sistēmām.

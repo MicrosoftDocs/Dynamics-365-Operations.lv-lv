@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 73d20958d0efadefc709db524fe16ed85d1ea33a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2ceb95198332d6a9da057d657771fe6fcca5c5b9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824898"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359609"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Pārskats par integrāciju ar Microsoft Dynamics 365 Field Service
 

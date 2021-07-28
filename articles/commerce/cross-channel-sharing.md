@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: de317c2fae4607f5b8b887dd5e866d812043dcd3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a5f35dc48dbdf89e963108e9e8ef6faec326f970
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799521"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349726"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>Koplietošana vairākos kanālos — iespējošana un izmantošana
 
@@ -48,15 +48,15 @@ Lai iespējotu starpkanālu koplietošanu Commerce vietņu veidotājā, izpildie
 1. Dodieties uz **Vietnes iestatījumi \> Līdzekļi**.
 1. Iestatiet līdzekļa **Starpkanāls** opciju uz **Ieslēgts**.
 
-    ![Starpkanāls opcija Commerce vietņu veidotājā ir iestatīta uz Ieslēgts](./media/enabling-cross-channel-sharing.png)
+    ![Starpkanāls opcija Commerce vietņu veidotājā ir iestatīta uz Ieslēgts.](./media/enabling-cross-channel-sharing.png)
 
 Kad ir iespējota starpkanālu koplietošana, starpkanālu informācija tiks parādīta sadaļā **Kanāli**, kas atrodas **Vietnes iestatījumi \> Līdzekļi**, kā parādīts piemēra nākamajā attēlā.
 
-![Kanālu informācija, kas redzama pēc starpkanālu koplietošanas iespējošanas](./media/channels-cross-channel.png)
+![Kanālu informācija, kas redzama pēc starpkanālu koplietošanas iespējošanas.](./media/channels-cross-channel.png)
 
 Turklāt pēc starpkanālu koplietošanas iespējošanas Commerce vietņu veidotāja augšējā labajā pusē esošajā laukā **Kanāls** tiks iekļauta opcija **Starpkanālu tiešsaistes veikals**, ko var izmantot, lai pārvaldītu starpkanālu saturu, kā parādīts nākamajā attēlā.
 
-![Starpkanālu tiešsaistes veikala opcija laukā Kanāli pēc starpkanālu koplietošanas iespējošanas](./media/cross-channel-dropdown.png)
+![Starpkanālu tiešsaistes veikala opcija laukā Kanāli pēc starpkanālu koplietošanas iespējošanas.](./media/cross-channel-dropdown.png)
 
 ## <a name="create-and-use-cross-channel-content"></a>Starpkanālu satura izveidošana un izmantošana
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: cbb1d9a53a7a09ab525532f08553898c4e40223a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7faa9a3cf6a29d8ed126cfcb0e2902b2016d03ff
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822785"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358150"
 ---
 # <a name="regulatory-configuration-services-rcs---globalization-features"></a>Regulatory Configuration Services (RCS) — globalizācijas līdzekļi
 
@@ -53,7 +53,7 @@ Savā programmas Finance and Operations instancē veiciet tālāk minētās darb
 1. Savā RCS instancē atlasiet elementu **Līdzekļu pārvaldība**.
 2. Darbvietā **Līdzekļu pārvaldība** sarakstā atlasiet **Globalizācijas līdzekļi** un pēc tam atlasiet **Iespējot tūlīt**.
 
-    ![Globalizācijas līdzekļi līdzekļu pārvaldībā](./media/RCS_GlobalF_1%20Feature%20mgmt.JPG)
+    ![Globalizācijas līdzekļi līdzekļu pārvaldībā.](./media/RCS_GlobalF_1%20Feature%20mgmt.JPG)
 
 ## <a name="globalization-features"></a>Globalizācijas līdzekļi
 
@@ -67,11 +67,11 @@ Lai izmantotu globalizācijas līdzekli, vispirms tas ir jāimportē no globāl�
 1. Pārliecinieties, ka līdzeklis **Globalizācijas līdzekļi** ir ieslēgts līdzekļu pārvaldībā, kā aprakstīts iepriekš šajā tēmā.
 2. Atveriet jauno darbvietu **Globalizācijas līdzekļi** un pēc tam sadaļā **Līdzekļi** atlasiet elementu **e-rēķinu izrakstīšana**.
 
-    ![Globālo līdzekļu darbvieta](./media/RCS_GlobalF_2%20Feature%20wrkspace.JPG)
+    ![Globālo līdzekļu darbvieta.](./media/RCS_GlobalF_2%20Feature%20wrkspace.JPG)
 
     Tiek atvērta lapa **Elektroniskās rēķinu izrakstīšanas līdzekļi**.
 
-    ![E-rēķinu izrakstīšanas līdzekļu lapa](./media/RCS_GlobalF_3%20Feature%20form.JPG)
+    ![E-rēķinu izrakstīšanas līdzekļu lapa.](./media/RCS_GlobalF_3%20Feature%20form.JPG)
 
 ## <a name="add-a-derived-globalization-feature"></a>Atvasināta globalizācijas līdzekļa pievienošana
 
@@ -79,27 +79,27 @@ Varat pievienot jaunu globalizācijas līdzekli, atvasinot to no esoša līdzek�
 
 1. Atlasiet **Importēt**, lai atvērtu lapu **Importēšanas līdzeklis no globālā repozitorija**.
 
-    ![Līdzekļa importēšana no globālā repozitorija lapas](./media/RCS_GlobalF_4%20Feature%20import%20form%20GR.JPG)
+    ![Līdzekļa importēšana no globālā repozitorija lapas.](./media/RCS_GlobalF_4%20Feature%20import%20form%20GR.JPG)
 
 2. Atlasiet **Sinhronizēt**, lai iegūtu jaunākos līdzekļus.
 
     Sinhronizētajā sarakstā ir iekļauti līdzekļi, kas ir pieejami tāpēc, ka tos ir publicējusi korporācija Microsoft, vai arī tie tikuši koplietoti ar citu konfigurācijas nodrošinātāju.
 
-    ![Līdzekļu sinhronizētais saraksts](./media/RCS_GlobalF_5%20Feature%20GR%20sync.JPG)
+    ![Līdzekļu sinhronizētais saraksts.](./media/RCS_GlobalF_5%20Feature%20GR%20sync.JPG)
 
 3. Sarakstā atlasiet importējamos līdzekļus un pēc tam atlasiet **Importēt**. Jūs saņemsit ziņojumu, kad atlasītie līdzekļi ir sekmīgi importēti.
 
-    ![Ziņojums par sekmīgu importēšanu](./media/RCS_GlobalF_6%20Feature%20GR%20import%20success.JPG)
+    ![Ziņojums par sekmīgu importēšanu.](./media/RCS_GlobalF_6%20Feature%20GR%20import%20success.JPG)
 
 4. Atlasiet **Pievienot** un pēc tam nolaižamajā dialoglodziņā atlasiet opciju **Pamatojoties uz esošu versiju**.
 5. Ievadiet līdzekļa nosaukumu un aprakstu.
 6. Pieejamo līdzekļu sarakstā atlasiet līdzekļa pamatversiju un pēc tam atlasiet **Izveidot līdzekli**.
 
-    ![Atvasināta līdzekļa pievienošana](./media/RCS_GlobalF_7%20Feature%20create%20derived.JPG)
+    ![Atvasināta līdzekļa pievienošana.](./media/RCS_GlobalF_7%20Feature%20create%20derived.JPG)
 
     Pievienotais līdzeklis ir izveidots, un tam ir statuss **Melnraksts**.
 
-    ![Atvasinātais līdzeklis, kam ir melnraksta statuss](./media/RCS_GlobalF_8%20Feature%20draft%20create.JPG)
+    ![Atvasinātais līdzeklis, kam ir melnraksta statuss.](./media/RCS_GlobalF_8%20Feature%20draft%20create.JPG)
 
 7. Pārskatiet līdzekļa komponentus, lai noteiktu, vai ir nepieciešami atjauninājumi.
 
@@ -120,7 +120,7 @@ Varat pievienot jaunu globalizācijas līdzekli, izveidojot to pilnībā pats.
 2. Ievadiet līdzekļa nosaukumu un aprakstu.
 3. Atlasiet **Izveidot līdzekli**.
 
-    ![Jauna līdzekļa pievienošana](./media/RCS_GlobalF_9%20Feature%20create%20new.JPG)
+    ![Jauna līdzekļa pievienošana.](./media/RCS_GlobalF_9%20Feature%20create%20new.JPG)
 
 4. Cilnē **Versijas** atlasiet datumu **Spēkā no** un pēc tam atlasiet **Mainīt statusu**, lai pabeigtu līdzekli. Pabeigtos līdzekļus var padarīt pieejamus noteiktai videi, lai tos varētu izmantot globalizācijas pakalpojumos, vai arī tos var publicēt globālajā repozitorijā.
 
@@ -173,10 +173,10 @@ Līdzekļa iestatīšanai ir pieejamas tālāk minētās darbības.
 - **Rediģēt** — izveidot, dzēst vai modificēt līdzekļa iestatījuma trīs galveno komponentu atribūtus.
 
     - Darbības un to parametri
-    - Piemērojamības kārtulas
+    - Lietojamības kārtulas
     - Mainīgie
 
-![Līdzekļa versijas iestatīšanas lapa](./media/RCS_GlobalF_10%20Feature%20set%20up.JPG)
+![Līdzekļa versijas iestatīšanas lapa.](./media/RCS_GlobalF_10%20Feature%20set%20up.JPG)
 
 ### <a name="environments"></a>Vides
 
@@ -193,7 +193,7 @@ Izpildiet tālāk minētās darbības, lai koplietotu globalizācijas līdzekli 
 2. Cilnē **Organizācijas** atlasiet **Koplietot ar** un pēc tam nolaižamajā dialoglodziņā ievadiet organizācijas domēna nosaukumu.
 3. Atlasiet **Koplietot**.
 
-    ![Līdzekļa koplietošana ar organizāciju](./media/RCS_GlobalF_20%20Feature%20orgn_share%20with.JPG)
+    ![Līdzekļa koplietošana ar organizāciju.](./media/RCS_GlobalF_20%20Feature%20orgn_share%20with.JPG)
 
 Līdzeklis tiek koplietots ar atlasīto organizāciju un ir pieejams šai organizācijai globālajā repozitorijā. No turienes līdzekli var importēt RCS organizācijas instancē vai Dynamics 365 Finance tā, lai to varētu izmantot.
 
@@ -201,7 +201,7 @@ Līdzeklis tiek koplietots ar atlasīto organizāciju un ir pieejams šai organi
 
 Atvasināto globalizācijas līdzekli varat pārskatīt uz jaunu vai atjauninātu bāzes līdzekļu versiju. Šādā veidā izmaiņas, kas notikušas bāzes versijā, var tikt automātiski atjauninātas. Atjaunināto bāzes līdzekļa versiju izveido sākotnējais konfigurācijas nodrošinātājs, un tā tiek publicēta vai koplietota.
 
-![Atjauninātā bāzes līdzekļa versija](./media/RCS_GlobalF_12%20Feature%20new%20version.JPG)
+![Atjauninātā bāzes līdzekļa versija.](./media/RCS_GlobalF_12%20Feature%20new%20version.JPG)
 
 Piemēram, ja vēlaties pārskatīt jūsu izveidotā līdzekļa atvasināto versiju, vispirms iegūstiet līdzekļa jaunāko versiju, importējot to no globālā repozitorija.
 
@@ -209,23 +209,23 @@ Piemēram, ja vēlaties pārskatīt jūsu izveidotā līdzekļa atvasināto vers
 2. Atlasiet **Sinhronizēt**, lai iegūtu jaunākos līdzekļus.
 3. Līdzekļu sarakstā atlasiet importējamos līdzekļus un pēc tam atlasiet **Importēt**.
 
-    ![Līdzekļa jaunākās versijas importēšana](./media/RCS_GlobalF_13%20Feature%20new%20version%20import.JPG)
+    ![Līdzekļa jaunākās versijas importēšana.](./media/RCS_GlobalF_13%20Feature%20new%20version%20import.JPG)
 
 4. Līdzekļu sarakstā atlasiet līdzekli, kas jāpārskata.
 5. Cilnē **Versija** atlasiet **Jauns**, lai izveidotu melnraksta versiju.
 
-    ![Izveidota jauna melnraksta versija](./media/RCS_GlobalF_14%20Feature%20new%20base%20version.JPG)
+    ![Izveidota jauna melnraksta versija.](./media/RCS_GlobalF_14%20Feature%20new%20base%20version.JPG)
 
 6. Atlasiet **Pārskatīt**.
 7. Dialoglodziņā **Pārskatīt** atlasiet jaunāko līdzekļa versiju, uz kuru to pārveidot.
 
-    ![Dialoglodziņš Pārskatīt](./media/RCS_GlobalF_15%20Feature%20rebase%20version.JPG)
+    ![Dialoglodziņš Pārskatīt.](./media/RCS_GlobalF_15%20Feature%20rebase%20version.JPG)
 
 8. Atlasiet **Labi**.
 9. Pārskatiet līdzekļa komponentus un veiciet nepieciešamās izmaiņas.
 10. Atlasiet **Mainīt statusu**, lai pabeigtu pārskatīto līdzekli. Kad pārskatīšana ir pabeigta, varat veikt papildu darbības. Piemēram, varat publicēt līdzekli un padarīt to pieejamu izmantošanai globalizācijas pakalpojumos.
 
-    ![Līdzekļa statuss atjaunināts uz Pabeigts](./media/RCS_GlobalF_16%20Feature%20rebase%20version%20complete.JPG)
+    ![Līdzekļa statuss atjaunināts uz Pabeigts.](./media/RCS_GlobalF_16%20Feature%20rebase%20version%20complete.JPG)
 
 ## <a name="configure-environments-for-globalization-features"></a><a name="configureenvironment"></a>Vižu konfigurēšana globalizācijas līdzekļiem
 
@@ -233,13 +233,13 @@ Globalizācijas pakalpojumu lietotāji var pārvaldīt vidi, lai iestatītu glob
 
 1. Darbvietā **Globalizācijas līdzekļi** zem **Vides** atlasiet elementu **e-rēķinu izrakstīšana**.
 
-    ![Globalizācijas līdzekļu darbvieta](./media/RCS_GlobalF_17%20Feature%20environment.JPG)
+    ![Globalizācijas līdzekļu darbvieta.](./media/RCS_GlobalF_17%20Feature%20environment.JPG)
 
 2. Atlasiet **Key Vault parametrus** un pēc tam atlasiet **Jauns**, lai izveidotu Azure Key Vault noslēpumu.
 3. Ievadiet Key Vault aprakstu un pēc tam laukā **Key Vault URI** ievadiet vietrādi URL, kas identificē Key Vault resursu Azure.
 4. Kopsavilkuma cilnē **Sertifikāti** atlasiet **Pievienot**, lai pievienotu sertifikātu, un ievadiet katra sertifikāta nosaukumu un aprakstu.
 
-    ![Sertifikāts pievienots](./media/RCS_GlobalF_18%20Feature%20envn%20key%20vault%20parameter.JPG)
+    ![Sertifikāts pievienots.](./media/RCS_GlobalF_18%20Feature%20envn%20key%20vault%20parameter.JPG)
 
 5. Atlasiet **Jauns**, lai izveidotu jaunu vidi.
 6. Ievadiet krātuvei nepieciešamo nosaukumu, aprakstu un koplietojamo piekļuves paraksta marķieri.
@@ -248,7 +248,7 @@ Globalizācijas pakalpojumu lietotāji var pārvaldīt vidi, lai iestatītu glob
 9. Atkārtojiet 7. un 8. darbību, lai pievienotu vairāk lietotāju.
 10. Atlasiet **Publicēt**, lai publicētu vidi.
 
-    ![Publicētā vide](./media/RCS_GlobalF_19%20Feature%20envn%20publishing.JPG)
+    ![Publicētā vide.](./media/RCS_GlobalF_19%20Feature%20envn%20publishing.JPG)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4ee5a074c5c6d2e2144181e39917b1cc42dfc015
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: e3dc83b71300387c8123f5533522c5ead7d86333
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944845"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349188"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>Uzlabot ER risinājumu veiktspēju, pievienojot parameterizētus APRĒĶINĀTO LAUKU datu avotus
 
@@ -56,7 +56,7 @@ Pirmais solis ir importēt parauga ER risinājumu, lai ģenerētu kreditora darb
     2. Atlasiet **Pārlūkot** un atlasiet atbilstošu failu ER konfigurācijai XML formātā.
     3. Atlasiet **Labi**.
 
-![Importētās konfigurācijas Konfigurāciju lapā](./media/er-calculated-field-ds-performance-imported-configurations.png)
+![Importētās konfigurācijas Konfigurāciju lapā.](./media/er-calculated-field-ds-performance-imported-configurations.png)
 
 ## <a name="review-the-sample-er-solution"></a>Parauga ER risinājuma failu priekšskatījums
 
@@ -76,7 +76,7 @@ Pirmais solis ir importēt parauga ER risinājumu, lai ģenerētu kreditora darb
 
     Modeļa kartēšana šajā konfigurācijā implementē pamatdatu modeli jebkuram no šajā modelī kas ir izveidoti šim modelim un tiek palaisti risinājumā Finance. Tādējādi **Trans** datu avotu saturs ir pakļauts ER formātiem, piemēram, abstraktiem **modelis** datu avotiem.
 
-    ![Trans datu avots Modeļu kartēšanas veidotāja lapā](media/er-calculated-field-ds-performance-mapping-1.png)
+    ![Trans datu avots Modeļu kartēšanas veidotāja lapā.](media/er-calculated-field-ds-performance-mapping-1.png)
 
 4. Aizveriet lapu **Modeļa kartējuma noformētājs**.
 5. Aizveriet lapu **Datu avota kartējuma modelis**.
@@ -90,7 +90,7 @@ Pirmais solis ir importēt parauga ER risinājumu, lai ģenerētu kreditora darb
 
     Šis ER formāts ir izveidots, lai ģenerētu kreditoru transakciju pārskatu XML formātā.
 
-    ![Formātu datu avoti un konfigurētie formāta elementu saistījumi Formāta veidotāja lapā](media/er-calculated-field-ds-performance-format.png)
+    ![Formātu datu avoti un konfigurētie formāta elementu saistījumi Formāta veidotāja lapā.](media/er-calculated-field-ds-performance-format.png)
 
 5. Aizveriet lapu **Formāta veidotājs**.
 
@@ -103,7 +103,7 @@ Iedomājieties, ka esat pabeidzis izstrādāt ER risinājuma pirmo versiju. Taga
 1. Atlasiet **DEMF** uzņēmumu.
 2. Izpildiet darbības, kas aprakstītas [Ieslēgt ER veiktspējas izsekošanu](trace-execution-er-troubleshoot-perf.md#turn-on-the-er-performance-trace) , lai izveidotu veiktspējas izsekošanu, kamēr tiek palaists ER formāts.
 
-    ![Lietotāja parametru dialoglodziņš](media/er-calculated-field-ds-performance-format-user-parameters.png)
+    ![Lietotāja parametru dialoglodziņš.](media/er-calculated-field-ds-performance-format-user-parameters.png)
 
 ### <a name="run-the-er-format"></a><a id="run-format"></a>ER formāta palaišana
 
@@ -124,7 +124,7 @@ Tagad ir pieejama jauna informācija par dažiem pašreizējā modeļa kartējum
 - Faktiskais laiks, kas patērēts, iegūstot datus, izmantojot datu avotu
 - Tas pats laiks, kas izteikts procentos no kopējā laika, kurš patērēts, palaižot visu modeļa kartējumu
 
-![Izpildes laika informācija Modeļa kartēšanas veidotāja lapā](./media/er-calculated-field-ds-performance-mapping-2.png)
+![Izpildes laika informācija Modeļa kartēšanas veidotāja lapā.](./media/er-calculated-field-ds-performance-mapping-2.png)
 
 Režģis **Veiktspējas statistika** rāda, ka **Trans** datu avots izsauc VendTrans tabulu vienu reizi. Vērtība **\[265\]\[Q:265\]** no **Trans** datu avota norāda, ka 265 kreditoru darbības ir paņemtas no programmas tabulas un atgrieztas datu modelī.
 
@@ -137,7 +137,7 @@ Režģis **Veiktspējas statistika** arī rāda, ka pašreizējā modeļa kartē
 
 - Kreditoru tabula tiek izsaukta katrai no atkārtotajām kreditora transakcijam, pat ja iesniegtās transakcijas ir grāmatotas tikai pieciem kreditoriem. No 530 izsaukumiem 525 ir dublikāti. Sekojošajā attēlā parādīts ziņojums, ko saņemat par dubultajiem izsaukumiem (datu bāzes pieprasījumi).
 
-![Ziņojums par datu bāzes pieprasījumu dublikātiem lapā Modeļa kartējuma noformētājs](./media/er-calculated-field-ds-performance-mapping-2a.png)
+![Ziņojums par datu bāzes pieprasījumu dublikātiem lapā Modeļa kartējuma noformētājs.](./media/er-calculated-field-ds-performance-mapping-2a.png)
 
 Ievērojiet, ka no kopējā modeļa kartēšanas izpildes laika (aptuveni astoņas sekundes) vairāk nekā 80 procenti (aptuveni sešas sekundes) ir izlietoti, izgūstot vērtības no VendTable pieteikumu tabulas. Šis procentuālais daudzums ir pārāk liels diviem piecu kreditoru atribūtiem, salīdzinot ar informācijas apjomu no VendTrans pieteikumu tabulas.
 
@@ -172,7 +172,7 @@ Veiciet šīs darbības, lai izmantotu kešatmiņu un **Aprēķinātais lauks** 
     3. Dialoglodziņa laukā **Nosaukums** ievadiet **Box**.
     3. Atlasiet **Labi**.
 
-    ![Lodziņa datu avots Modeļu kartēšanas veidotāja lapā](./media/er-calculated-field-ds-performance-mapping-3.png)
+    ![Lodziņa datu avots Modeļu kartēšanas veidotāja lapā.](./media/er-calculated-field-ds-performance-mapping-3.png)
 
 6. Veiciet šīs darbības, lai pievienotu **Aprēķinātais lauks** veida parameterizētu datu avotu:
 
@@ -208,7 +208,7 @@ Veiciet šīs darbības, lai izmantotu kešatmiņu un **Aprēķinātais lauks** 
 
 9. Atlasiet **Saglabāt**.
 
-    ![Vend datu avots Modeļu kartēšanas veidotāja lapā](./media/er-calculated-field-ds-performance-mapping-4.png)
+    ![Vend datu avots Modeļu kartēšanas veidotāja lapā.](./media/er-calculated-field-ds-performance-mapping-4.png)
 
 10. Aizveriet lapu **Modeļa kartējuma noformētājs**.
 11. Aizveriet lapu **Modeļa kartējumi**.
@@ -232,11 +232,11 @@ Atkārtojiet šīs tēmas iepriekšējā sadaļā [ER formāta palaišana](#run-
 
 Ņemiet vērā, ka korekcijas, kuras veicāt modeļa kartējumam, likvidēja datu bāzes vaicājumu dublikātus. Datu bāzu tabulu un datu avotu izsaukumu skaits šim modeļa kartējumam arī ir samazināts.
 
-![Izsekošanas informācija Modeļu kartēšanas veidotāja lapā 1](./media/er-calculated-field-ds-performance-mapping-5.png)
+![Izsekošanas informācija Modeļu kartēšanas veidotāja lapā 1.](./media/er-calculated-field-ds-performance-mapping-5.png)
 
 Kopējais izpildes laiks ir samazināts aptuveni 20 reizes (no aptuveni 8 sekundēm līdz aptuveni 400 milisekundēm). Tādēļ tika uzlabota ER risinājuma kopējā veiktspēja.
 
-![Izsekošanas informācija Modeļu kartēšanas veidotāja lapā 2](./media/er-calculated-field-ds-performance-mapping-5a.png)
+![Izsekošanas informācija Modeļu kartēšanas veidotāja lapā 2.](./media/er-calculated-field-ds-performance-mapping-5a.png)
 
 ## <a name="appendix-1-download-the-components-of-the-sample-microsoft-er-solution"></a><a name="appendix1"></a>1. papildinājums: lejupielādēt parauga Microsoft ER risinājuma komponentus
 

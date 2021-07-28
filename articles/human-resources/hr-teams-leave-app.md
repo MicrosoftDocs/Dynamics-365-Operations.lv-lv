@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 661bb8369fe4dbe6cdf6ee0fb05d16f4350ecf5a
-ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
+ms.openlocfilehash: aec6d784fd6bd54297ac4204c834c7f77ed75362
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6097263"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356516"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Atvaļinājumu pieprasījumu pārvaldība programmā Teams
 
@@ -61,7 +61,7 @@ Varat lūgt botam:
 
 - Izveidot atvaļinājuma pieprasījumu. Piemēram, nosūtiet ziņojumu, kas paziņo "Paņemt atvaļinājumu" vai "Es vēlos paņemt atvaļinājuma laiku nākamajā ceturtdienā un piektdienā", lai konkrētāk veiktu pieprasījumu atvaļinājuma pieprasīšanas veidam. 
 
-  ![Sākt atvaļinājuma pieprasījumu Teams tērzētavā](./media/hr-teams-leave-app-initiate.png)
+  ![Sākt atvaļinājuma pieprasījumu Teams tērzētavā.](./media/hr-teams-leave-app-initiate.png)
 
 - Tērzēšanas bots aizpildīs jūsu atvaļinājuma pieprasījumu. Atlasiet **Izslēgt pieprasījuma laiku** un rediģējiet detalizētu informāciju par jūsu pieprasījumu.
 
@@ -69,11 +69,11 @@ Varat lūgt botam:
 
    Ja izvēlaties pusdienas atvaļinājumu, kad atvaļinājuma pieprasījuma vienība ir dienās, varat norādīt, vai vēlaties pieprasīt brīvo laiku pirmajā dienas pusē vai otrajā, izvēloties opciju **Pusdienas definīcija** izvēlnē **Papildu opcijas**.
    
-   ![Pusdienas definēšana](./media/HalfDayDefinitions.png)
+   ![Pusdienas definēšana.](./media/HalfDayDefinitions.png)
 
 - Kad esat beidzis rediģēt atvaļinājuma pieprasījuma detaļas, atlasiet **Iesniegt**, lai to iesniegtu apstiprināšanai.
 
-  ![Iesniegt atvaļinājuma pieprasījumu](./media/hr-teams-leave-app-submit.png)
+  ![Iesniegt atvaļinājuma pieprasījumu.](./media/hr-teams-leave-app-submit.png)
 
 ## <a name="manage-your-leave-in-teams"></a>Atvaļinājuma pārvaldība programmā Teams
 
@@ -93,7 +93,7 @@ Cilne **Brīvais laiks** ļauj skatīt:
 
 2. Ievadiet dienu vai dienas, kurās vēlaties ņemt pārtraukumu, un pēc tam atlasiet **Pievienot**.
 
-   ![Human Resources Teams atstāj programmas pievienot prombūtni](./media/TimeOffHours.png)
+   ![Human Resources Teams atstāj programmas pievienot prombūtni.](./media/TimeOffHours.png)
 
 3. Ja piemērojams, ievadiet iemesla kodu. Ievadiet arī komentārus un pievienojiet pielikumus.
 
@@ -123,7 +123,7 @@ Pēc tam, kad esat instalējis Human Resources programmu Teams, varat vienkārš
 
 1. Programmas Teams grupā vai tērzēšanā atlasiet Human Resources pogu zem tērzēšanas loga.
 
-   ![Human Resources poga zem tērzēšanas loga](./media/hr-teams-leave-app-chat-button.png)
+   ![Human Resources poga zem tērzēšanas loga.](./media/hr-teams-leave-app-chat-button.png)
 
 2. Atlasiet atvaļinājuma pieprasījumu, kuru vēlaties kopīgot. Ja vēlaties kopīgot melnraksta atvaļinājuma pieprasījumu, vispirms atlasiet **Melnraksti**.
 
@@ -173,11 +173,11 @@ Ja tulkojumi netiek rādīti kā gaidīti, pārliecinieties, ka programmā Teams
 
 Teams sadaļā skatiet **Programmas valoda** **Iestatījumos**.
 
-![Teams iestatījumi](./media/hr-teams-leave-app-settings.png)
+![Teams iestatījumi.](./media/hr-teams-leave-app-settings.png)
 
 Sadaļā Cilvēkresursi atlasiet **Iestatījumi** un pēc tam atlasiet **Lietotāja opcijas**. Pārbaudiet, vai lauks **Valoda** atbilst **Lietojumprogrammas valodas** laukam programmā Teams.
 
-![Cilvēkresursu Lietotāja opcijas](./media/hr-teams-leave-app-user-options.png)
+![Cilvēkresursu Lietotāja opcijas.](./media/hr-teams-leave-app-user-options.png)
 
 Ja joprojām pastāv tulkošanas problēmas, ļauj mums zināt. Papildinformāciju skatiet sadaļā [Iegūt atbalstu Finance and Operations programmām vai Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 

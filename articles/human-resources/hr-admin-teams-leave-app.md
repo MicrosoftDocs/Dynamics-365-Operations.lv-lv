@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c1cceb15d64215cb8d5c996df792e863d466f87d
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 627883544f387e53920da268fa8d805c0074de47
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053567"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357365"
 ---
 # <a name="human-resources-app-in-teams"></a>Programma Human Resources programmā Teams
 
@@ -28,11 +28,11 @@ ms.locfileid: "6053567"
 
 Microsoft Dynamics 365 Human Resources programma sadaļā Microsoft Teams ļauj darbiniekiem ātri pieprasīt prombūtni un skatīt savu laiku ārpusbilances informāciju Microsoft Teams. Darbinieki var sazināties ar botu, lai pieprasītu informāciju. Cilne **Brīvais laiks** sniedz detalizētu informāciju. Turklāt darbinieki var nosūtīt personām informāciju par gaidāmo prombūtni grupās un tērzēšanas sarunās ārpus personāla vadības lietojumprogrammas.
 
-![Human Resources Teams atstāj programmu botu](./media/hr-teams-leave-app-bot.png)
+![Human Resources Teams atstāj programmu botu.](./media/hr-teams-leave-app-bot.png)
 
-![Human Resources Teams atstāj programmas cilni Brīvais laiks](./media/hr-teams-leave-app-timeoff-tab.png)
+![Personāla vadība Teams atstāj programmas cilni Brīvais laiks.](./media/hr-teams-leave-app-timeoff-tab.png)
 
-![Human Resources programmas atvaļinājuma pieprasījuma karte](./media/hr-teams-leave-app-chat-card.png)
+![Human Resources programmas atvaļinājuma pieprasījuma karte.](./media/hr-teams-leave-app-chat-card.png)
 
 ## <a name="install-and-setup"></a>Instalēt un iestatīt
 
@@ -57,11 +57,11 @@ Ja vēlaties, lai lietotāji saņemtu paziņojumus par atvaļinājumu pieprasīj
 
 4. Cilnē **Vispārīgi** iestatiet **Iespējot paziņojumus Teams programmai** uz **Jā**.
 
-   ![Aktivizējiet Teams programmas paziņojumus Sistēmas parametros](./media/hr-admin-teams-leave-app-enable-notifications.png)
+   ![Aktivizējiet Teams programmas paziņojumus Sistēmas parametros.](./media/hr-admin-teams-leave-app-enable-notifications.png)
 
 5. Lai ieslēgtu Teams paziņojumus visiem lietotājiem, uzvednē atlasiet **Jā** .
 
-   ![Iespējojiet Teams paziņojumus visiem lietotājiem](./media/hr-admin-teams-leave-app-notifications-all-users.png)
+   ![Iespējojiet Teams paziņojumus visiem lietotājiem.](./media/hr-admin-teams-leave-app-notifications-all-users.png)
 
 ### <a name="turn-teams-notifications-on-or-off-for-individual-users"></a>Ieslēdziet vai izslēdziet Teams paziņojumus atsevišķiem lietotājiem
 
@@ -77,7 +77,7 @@ Pēc tam, kad esat iespējojis paziņojumus Dynamics 365 Human Resources Teams p
 
 5. Iestatiet opciju **Iespējot paziņojumus programmai Teams** uz **Jā** , lai lietotājam iespējotu paziņojumus, vai uz **Nē**, lai atspējotu paziņojumus lietotājam.
 
-   ![Iespējojiet Teams programmas paziņojumus cilnē Lietotāju opciju darbplūsma](./media/hr-admin-teams-leave-app-notifications.png)
+   ![Iespējojiet Teams programmas paziņojumus cilnē Lietotāju opciju darbplūsma.](./media/hr-admin-teams-leave-app-notifications.png)
 
 6. Atlasiet **Saglabāt**.
 
