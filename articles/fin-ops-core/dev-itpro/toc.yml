@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-updates-10-0-20.md
                 - name: "Platform atjauninājumi versijai\_10.0.19 (2021.\_gada jūnijs)"
                   href: get-started/whats-new-platform-updates-10-0-19.md
-                - name: "Platform atjauninājumi versijai\_10.0.18 (2021.\_gada maijs)"
-                  href: get-started/whats-new-platform-updates-10-0-18.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
                 - name: Noņemtie vai novecojušie līdzekļi sākumlapā
@@ -366,6 +364,8 @@
                       href: deployment/troubleshoot-newinfrastructure.md
                     - name: Bieži uzdotie jautājumi par plānoto uzturēšanu pašapkalpošanās vidēs
                       href: deployment/plannedmaintenance-selfservice.md
+                    - name: Uzņēmējdarbības nepārtrauktība un ārkārtas atkopšana
+                      href: sysadmin/business-continuity-disaster-recovery.md
                 - name: Azure Resource Manager pievienošanas pabeigšana
                   href: deployment/arm-onboarding.md
                 - name: Azure ExpressRoute un Finance and Operations
@@ -376,6 +376,8 @@
                   href: deployment/apply-deployable-package-system.md
                 - name: Atjauninājumu un paplašinājumu lietošana vienībā Commerce Scale Unit (mākonis)
                   href: deployment/Update-retail-channel.md
+                - name: Commerce Scale Unit (mākoņa) automātiskā atjaunināšana
+                  href: deployment/Auto-Update-Commerce-Scale-Unit.md
                 - name: Commerce Scale Unit (mākoņa) inicializēšana
                   href: deployment/Initialize-Retail-Channels.md
                 - name: Kanālu migrēšana uz citu Commerce Scale Unit
@@ -392,6 +394,8 @@
                       href: deployment/on-premises-overview.md
                     - name: Plānošana un sagatavošanās lokāliem izvietojumiem
                       href: deployment/plan-onprem-deployment.md
+                    - name: "Microsoft Dynamics 365 Finance\_+ Operations (on-premises) atbalstītā programmatūra"
+                      href: deployment/onprem-compatibility.md
                     - name: Aparatūras izmēru prasības
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
                     - name: "Autentifikācija programmā Dynamics 365 Finance\_+\_Operations (on-premises)"
@@ -502,8 +506,6 @@
                   href: dev-tools/access-instances.md
                 - name: Vienotas izstrādes vides konfigurēšana
                   href: dev-tools/configure-developer-vm.md
-                - name: Jaunu lietotāju izveide izstrādes mašīnās
-                  href: dev-tools/enable-development-machine.md
                 - name: 'Bieži uzdotie jautājumi par tādu virtuālo mašīnu izstrādi un būvēšanu, kas neļauj administratora piekļuvi'
                   href: sysadmin/VMs-no-admin-access.md
                 - name: 'Lokālās vides pārdēvēšana, lai piekļūtu Azure DevOps operācijām'
@@ -1116,7 +1118,7 @@
                       href: data-entities/dual-write/integrated-hr.md
                     - name: Pušu un globālā adrešu grāmata
                       href: data-entities/dual-write/party-gab.md
-                    - name: Power Portal izmantošana kopā ar pušu datu modeli
+                    - name: Microsoft Power Apps portālu izmantošana kopā ar pušu datu modeli
                       href: data-entities/dual-write/party-gab-portal.md
                     - name: Jaunināšana uz pušu un globālās adrešu grāmatas modeli
                       href: data-entities/dual-write/upgrade-party-gab.md
@@ -1604,6 +1606,8 @@
                   href: migration-upgrade/upgrade-go-live-prep.md
                 - name: "AX 2012 jauninājums\_— Ekspluatācijas uzsākšana"
                   href: migration-upgrade/2012-upgrade-cutover.md
+                - name: "Jaunināšana no AX 2012\_— Bieži uzdotie jautājumi par datu jaunināšanu"
+                  href: migration-upgrade/upgrade-faq.md
                 - name: 'Izmaiņas, kas ietekmē jaunināšanu no AX 2012'
                   items:
                     - name: Unikāla kontu plāna norobežotāja iestatīšana

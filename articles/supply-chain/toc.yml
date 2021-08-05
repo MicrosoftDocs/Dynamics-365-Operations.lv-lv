@@ -76,8 +76,6 @@
                       href: get-started/whats-new-scm-10-0-20.md
                     - name: "Supply Chain Management 10.0.19 (2021.\_gada jūnijs)"
                       href: get-started/whats-new-scm-10-0-19.md
-                    - name: "Supply Chain Management 10.0.18 (2021.\_gada maijs)"
-                      href: get-started/whats-new-scm-10-0-18.md
                 - name: Noņemtie vai novecojušie līdzekļi
                   items:
                     - name: Noņemtie vai novecojušie līdzekļi sākumlapā
@@ -186,9 +184,9 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Vides plānošana
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Sagatavošanās līdzeklim Go Live
+                - name: Sagatavošanās ekspluatācijai
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Bieži uzdotie jautājumi par Go Live
+                - name: Bieži uzdotie jautājumi par ekspluatāciju
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Pakalpojuma pieprasījuma iesniegšana
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/supply-chain/toc.json
@@ -2001,9 +1999,7 @@
                   href: procurement/tasks/create-purchase-order-delivery-schedule.md
                 - name: Pirkšanas pasūtījuma izveide vienreizējam piegādātājam
                   href: procurement/tasks/create-purchase-order-one-time-supplier.md
-                - name: 'Pirkšanas izpildpasūtījumu izveide, veidojot pirkšanas pasūtījumu'
-                  href: procurement/tasks/create-purchase-release-order-creating-purchase-order.md
-                - name: Pirkšanas izpildpasūtījuma izveide no pirkšanas līguma
+                - name: 'Pirkšanas līguma lietošana, izveidojot pirkšanas pasūtījumu'
                   href: procurement/tasks/create-purchase-release-order-purchase-agreement.md
                 - name: Pirkšanas atgriešanas pasūtījuma izveide
                   href: procurement/tasks/create-purchase-return-order.md

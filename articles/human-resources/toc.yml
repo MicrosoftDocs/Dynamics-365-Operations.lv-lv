@@ -5,6 +5,8 @@
       items:
         - name: Jaunumi un izmaiņas programmā Human Resources
           href: hr-admin-whats-new.md
+        - name: "2021.\_gada 12.\_jūlijs"
+          href: hr-whats-new-2021-07-12.md
         - name: "2021.\_gada 22.\_jūnijs"
           href: hr-whats-new-2021-06-22.md
         - name: "2021.\_gada 20.\_maijs"
@@ -251,10 +253,12 @@
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json
         - name: Programma Human Resources programmā Teams
           href: hr-admin-teams-leave-app.md
-        - name: Sagatavošanās līdzeklim Go Live
+        - name: Sagatavošanās ekspluatācijai
           href: hr-admin-go-live-prepare.md
-        - name: Bieži uzdotie jautājumi par Go Live
+        - name: Bieži uzdotie jautājumi par ekspluatāciju
           href: hr-admin-go-live-faq.md
+        - name: "Bieži uzdotie jautājumi par programmas Human\_Resources infrastruktūru"
+          href: hr-infrastructure-merge-faq.md
         - name: Dokumentācijas resursi
           items:
             - name: Palīdzības sistēma
@@ -691,7 +695,9 @@
               href: hr-compensation-define-process.md
             - name: Atlīdzības plānu apstrāde
               href: hr-compensation-process.md
-        - name: Pārvaldīt atvieglojumus
+            - name: Darbinieka atzīmēšana kā Gatavs apmaksai
+              href: hr-compensation-payroll.md
+        - name: Atvieglojumu pārvaldīšana
           items:
             - name: Atvieglojumu pārvaldība
               items:
@@ -713,11 +719,11 @@
                       href: hr-benefits-setup-coverage-options.md
                     - name: Iestatīt maksājumu biežumu
                       href: hr-benefits-setup-payment-frequencies.md
-                    - name: Konfigurēt dzīves notikumu tipus
+                    - name: Konfigurēt dzīves notikumu veidus
                       href: hr-benefits-setup-life-event-types.md
-                    - name: Izveidot plānu tipus
+                    - name: Plānot veidu pārskatu
                       href: hr-benefits-setup-plan-types.md
-                    - name: Iestatiet cēloņa kodus
+                    - name: Iestatīt cēloņa kodus
                       href: hr-benefits-setup-reason-codes.md
                     - name: Iestatīt pakāpju kodus
                       href: hr-benefits-setup-tier-codes.md
@@ -803,10 +809,12 @@
               href: hr-leave-and-absence-analytics.md
             - name: Atvaļinājumu un kavējumu pieprasījumu pārvaldība
               href: hr-employee-self-service-manage-requests.md
-            - name: Prombūtnes pieprasīšana
+            - name: Brīvā laika pieprasīšana
               href: hr-employee-self-service-request-time-off.md
             - name: Grupas un uzņēmuma kalendāru skatīšana
               href: hr-employee-self-service-calendar.md
+            - name: Kavējumu pārvaldnieka lomas konfigurēšana
+              href: hr-configure-absence-manager.md
             - name: Atvaļinājuma iegādes un pārdošanas politiku pārvaldība
               href: hr-leave-and-absence-manage-buy-and-sell-leave-policies.md
             - name: Atvaļinājuma iegādes un pārdošanas darbplūsmu izveide

@@ -98,8 +98,6 @@
                       href: get-started/whats-new-commerce-10-0-20.md
                     - name: "Commerce 10.0.19 (2021.\_gada jūnijs)"
                       href: get-started/whats-new-commerce-10-0-19.md
-                    - name: "Commerce 10.0.18 (2021.\_gada maijs)"
-                      href: get-started/whats-new-commerce-10-0-18.md
                 - name: Noņemtie vai novecojušie līdzekļi
                   items:
                     - name: Noņemtie vai novecojušie līdzekļi sākumlapā
@@ -206,9 +204,9 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/commerce/toc.json
                 - name: Vides plānošana
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/commerce/toc.json
-                - name: Sagatavošanās līdzeklim Go Live
+                - name: Sagatavošanās ekspluatācijai
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/commerce/toc.json
-                - name: Bieži uzdotie jautājumi par Go Live
+                - name: Bieži uzdotie jautājumi par ekspluatāciju
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/commerce/toc.json
                 - name: Pakalpojuma pieprasījuma iesniegšana
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json
@@ -900,6 +898,8 @@
                   href: set-up-B2C-tenant.md
                 - name: Pielāgotu lapu iestatīšana lietotāja pierakstīšanās gadījumiem
                   href: custom-pages-user-logins.md
+                - name: Automātiskas identitātes ierakstu saistīšanas ar klientu kontiem iespējošana
+                  href: identity-record-linking.md
                 - name: Vairāku B2C nomnieku konfigurēšana Commerce vidē
                   href: configure-multi-B2C-tenants.md
                 - name: Domēni programmā Dynamics 365 Commerce
@@ -1016,12 +1016,14 @@
                   items:
                     - name: Vietnes navigācijas pielāgošana
                       href: customize-site-navigation.md
-                    - name: Lapas vietrāža URL izveide
+                    - name: "Lapas vietrāža\_URL izveide"
                       href: create-page-URL.md
                 - name: Adventure Works dizains
                   items:
                     - name: Adventure Works dizaina pārskats
                       href: adventure-works-theme.md
+                    - name: Adventure Works tēmas instalēšana
+                      href: install-adventure-works.md
             - name: Digitālo līdzekļu pārvaldība
               items:
                 - name: Pārskats par digitālo līdzekļu pārvaldību

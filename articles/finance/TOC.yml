@@ -76,8 +76,6 @@
                       href: get-started/whats-new-changed-10-0-20.md
                     - name: "Finance 10.0.19 (2021.\_gada jūnijs)"
                       href: get-started/whats-new-changed-10-0-19.md
-                    - name: "Finance 10.0.18 (2021.\_gada maijs)"
-                      href: get-started/whats-new-changed-10-0-17.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
                 - name: Noņemtie vai novecojušie līdzekļi sākumlapā
@@ -184,9 +182,9 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/finance/toc.json
                 - name: Vides plānošana
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/finance/toc.json
-                - name: Sagatavošanās līdzeklim Go Live
+                - name: Sagatavošanās ekspluatācijai
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/finance/toc.json
-                - name: Bieži uzdotie jautājumi par Go Live
+                - name: Bieži uzdotie jautājumi par ekspluatāciju
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Pakalpojuma pieprasījuma iesniegšana
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/finance/toc.json
@@ -1566,6 +1564,8 @@
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: Pārrobežu pakalpojumu pārskats
                   href: localizations/emea-aut-cross-border-services-report.md
+                - name: Pirkšanas nodokļi
+                  href: localizations/emea-aut-purchase-duties.md
             - name: Bahreina
               items:
                 - name: Bahreinas pārskats
@@ -1992,6 +1992,10 @@
                       href: localizations/tasks/eur-00002-specify-lading-address-intra-community.md
                     - name: ES Intrastat deklarācijas ģenerēšana
                       href: localizations/tasks/eur-00002-eu-intrastat-declaration.md
+                    - name: Franču Intrastat
+                      href: localizations/emea-fra-intrastat.md
+                    - name: Itāliešu Intrastat
+                      href: localizations/emea-ita-intrastat.md
                 - name: Krājumu žurnāla pārskati
                   href: localizations/emea-set-up-report-inventory-journal-names.md
                 - name: Rēķinu izsniegšanas termiņi
@@ -2968,6 +2972,12 @@
                   href: localizations/emea-pol-split-ap-ar-exchange-difference.md
                 - name: 'PVN deklarācija ar reģistriem (JPK_V7M, VDEK)'
                   href: localizations/emea-pol-vdek.md
+                - name: Sagatavošanās JPK-V7M pārskatiem
+                  href: localizations/emea-pol-vdek-setup.md
+                - name: JPK-V7M pārskats
+                  href: localizations/emea-pol-vdek-reporting.md
+                - name: Detalizēta informācija par konkrētiem biznesa scenārijiem JPK-V7M pārskatā
+                  href: localizations/emea-pol-vdek-scenarios.md
             - name: Katara
               items:
                 - name: Kataras pārskats
@@ -3204,6 +3214,8 @@
                       href: localizations/rus-accounts-payable-debt-tax-registers-and-debt-write-offs.md
                     - name: Nenomaksātu parādu rezerves debitoru parādos
                       href: localizations/rus-bad-debts.md
+                    - name: Nodokļu aktīvu un nodokļu parādu reģistru aprēķins
+                      href: localizations/rus-calculation-tax-asset-tax-liability-registers.md
             - name: Saūda Arābija
               items:
                 - name: Saūda Arābijas pārskats
@@ -3428,7 +3440,7 @@
                   href: ../human-resources/hr-compensation-define-process.md?toc=/dynamics365/finance/toc.json
                 - name: Atlīdzības plānu apstrāde
                   href: ../human-resources/hr-compensation-process.md?toc=/dynamics365/finance/toc.json
-            - name: Pārvaldīt atvieglojumus
+            - name: Atvieglojumu pārvaldīšana
               items:
                 - name: Atvieglojumu programmas definēšana un pārvaldība
                   href: ../human-resources/hr-benefits-manage-program.md?toc=/dynamics365/finance/toc.json
@@ -3997,6 +4009,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: 'Pārskatu ģenerēšana Office formātos, kuros ir iegultie attēli'
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
+                    - name: 'ER formāta izveide, lai ģenerētu pārskatu Excel failā ar iegultiem attēliem lapas galvenēs vai kājenēs'
+                      href: ../fin-ops-core/dev-itpro/analytics/er-embed-images-header-footer-excel-reports.md?toc=/dynamics365/finance/toc.json
                 - name: 'Ģenerēto XML failu sadalīšana, pamatojoties uz faila lielumu un satura daudzumu'
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
                 - name: MK rakstzīmju likvidēšana ģenerētos failos
