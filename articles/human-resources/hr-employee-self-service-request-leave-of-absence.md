@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4da23ff0dc8858558df3111b90159e43bd5fdccf
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e00748fc9629d7ecfa91701002d3d2d7dda0a86f
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056328"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639418"
 ---
 # <a name="request-a-leave-of-absence"></a>Kavējumu atvaļinājuma pieprasījums
 
@@ -48,6 +48,10 @@ Varat iesniegt kavējuma atvaļinājuma pieprasījumu un skatīt savu atvaļinā
 1. Darbvietā **Darbinieku patstāvīgi izmantotie pakalpojumi** atlasiet opciju **Vairāk** (...) rūtī **Brīvā laika bilances**.
 
 2. Lai skatītu savus kavējuma atvaļinājuma pieprasījumus, atlasiet **Skatīt kavējuma atvaļinājumu**.
+
+## <a name="importing-leave-requests-from-other-systems-or-older-systems"></a>Atvaļinājuma pieprasījumu importēšana no citām sistēmām vai vecākām sistēmām
+
+Lai importētu atvaļinājuma pieprasījumus no citas sistēmas, jums jāiziet cauri parastai darbplūsmai, lai izveidotu piemērotus atvaļinājuma darījumus. Varat arī importēt atvaļinājuma bankas darījumus un atvaļinājuma pieprasījumus pabeigtā stāvoklī. Ņemiet vērā, ka, importējot tikai atvaļinājumu pieprasījumus, bankas darījumi netiek veidotas automātiski.
 
 ## <a name="see-also"></a>Skatiet arī
 

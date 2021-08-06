@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.20. priekšskatījums (2021. gada augusts)
+title: Jaunumi un izmaiņas risinājumā Dynamics 365 Supply Chain Management 10.0.20 (2021. gada augusts)
 description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Supply Chain Management 10.0.20.
 author: kamaybac
 ms.date: 05/28/2021
@@ -10,30 +10,28 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: a782416bdb12a8ac7f1ba807452ca54072af3ab5
-ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
+ms.openlocfilehash: 09cdb039b9bde3f97db012f1aaaeaf4c8a7df944
+ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6301750"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6641060"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10020-august-2021"></a>Dynamics 365 Supply Chain Management 10.0.20. priekšskatījums (2021. gada augusts)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Jaunumi un izmaiņas risinājumā Dynamics 365 Supply Chain Management 10.0.20 (2021. gada augusts)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Šajā tēmā uzskaitīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti Microsoft Dynamics 365 Supply Chain Management versijas 10.0.20 priekšskatījumā. Šai versijai ir būvējuma numurs 10.0.886, un tas ir pieejams šeit:
+Šī tēma uzskaita līdzekļus, kas ir vai nu jauni, vai kas ir mainīti programmas Microsoft Dynamics 365 Supply Chain Management versijā 10.0.20. Šai versijai ir būvējuma numurs 10.0.886, un tas ir pieejams šeit:
 
 - **Priekšskatījuma laidiens:** 2021. gada maijs
 - **Vispārēja laidiena (automātisks atjauninājums) pieejamība:** 2021. gada jūlijs
 - **Vispārēja laidiena (automātisks atjauninājums) pieejamība:** 2021. gada augusts
 
-
 ## <a name="features-included-in-this-release"></a>Šajā laidienā iekļautie līdzekļi
 
 Šajā tabulā ir uzskaitīti šajā laidienā iekļautie līdzekļi. Kolonna *Līdzeklis* nodrošina saites uz [izlaišanas plānu](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features), kur varat redzēt oficiālos izlaišanas datumus katram līdzeklim. Kolonna *Vairāk informācijas* sniedz detalizētu informāciju un/vai saites uz saistīto dokumentāciju.
 
-Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), pirms varat tos izmantot. Daži no norādītajiem līdzekļiem joprojām ir pieejami priekšskatījumā, kamēr citi, iespējams, jau ir vispārīgi pieejami.
+Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), pirms varat tos izmantot.
 
 | Līdzekļu apgabals | Funkcija | Papildinformācija |
 |---|---|---|
@@ -49,7 +47,7 @@ Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvald
 
 | Līdzekļu apgabals | Līdzekļa&nbsp;nosaukums&nbsp;līdzekļu&nbsp;pārvaldībā | Papildinformācija |
 |---|---|---|
-| Vispārējā plānošana | Negatīvās dienas optimizācijas plānošanai | Šis priekšskatījuma līdzeklis iespējo Plānošanas optimizāciju apsvērt kavējumu toleranci, pamatojoties uz vajadzību grupās definēto parametru **Negatīvās dienas**. |
+| Vispārējā plānošana | Negatīvās dienas optimizācijas plānošanai | Šis līdzeklis iespējo Plānošanas optimizāciju apsvērt kavējumu toleranci, pamatojoties uz vajadzību grupās definēto parametru **Negatīvās dienas**. |
 | Vispārējā plānošana | Koriģētas pieprasījuma apjoma prognozes paralēla pilnvarošana | Šis līdzeklis ļauj pielāgotās pieprasījuma apjoma prognozes paralēlu autorizāciju no **Pielāgotās pieprasījuma apjoma prognozes** lapas. Šīs funkcijas nolūks ir palielināt veiktspēju, kad ir autorizēts liels prognožu skaits. Autorizējoties lietotājs var norādīt **Pavedienu skaitu** autorizācijas dialogā. |
 | Vispārējā plānošana | (Priekšskatījums) Sērijveida nostiprināšana un apvienošana plānotajiem lielapjoma un pakotņu partiju pasūtījumiem | Šis līdzeklis sniedz iespēju izmantot pakešuzdevumus, lai nostiprinātu un konsolidētu plānotos lielapjoma un pakotņu pasūtījumus. |
 | Ražošanas kontrole | Kopēt vispārīgus maršrutus | Šī funkcija uzlabo maršruta kopēšanas funkciju, lai ļautu lietotājiem kopēt maršrutus, kas nav specifiski krājumiem. Tas iespējo sistēmu atjaunināt visu atbilstošo informāciju (piemēram, vietni, maršrutu grupu, resursu vajadzības un dažādus laikus) pēc maršruta kopēšanas funkcijas izmantošanas, lai pārrakstītu maršrutu, kas vēl nav piešķirts krājumam. |
@@ -75,7 +73,7 @@ Nesen ir pievienotas vai ievērojami atjauninātas tālāk norādītās palīdz�
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformas atjauninājumi Finance and Operations programmām
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.20 ietver platformas atjauninājumus. Lai iegūtu papildinformāciju, skatiet [Platformas atjauninājumi Finance and Operations programmu versijai 10.0.20 (2021. gada jūlijs)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md). <!-- KFM: Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.20 ietver platformas atjauninājumus. Lai iegūtu papildinformāciju, skatiet [Platformas atjauninājumi Finance and Operations programmu versijai 10.0.20 (2021. gada jūlijs)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md).
 
 ### <a name="bug-fixes"></a>Kļūdu labojumi
 

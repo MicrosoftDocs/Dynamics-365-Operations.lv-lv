@@ -2,7 +2,7 @@
 title: Debitora maksājumu prognožu iespējošana (priekšskatījums)
 description: Šajā tēmā paskaidrots, kā ieslēgt un konfigurēt debitora maksājumu prognozēšanas līdzekli Finanšu ieskatos.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: a9b2e8d46debf8e065361d85f10162cda56b62e8
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 03320aa925ae94ef39d54e64701846089ec66084
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349038"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638588"
 ---
 # <a name="enable-customer-payment-predictions-preview"></a>Debitora maksājumu prognožu iespējošana (priekšskatījums)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Šajā tēmā paskaidrots, kā ieslēgt un konfigurēt debitora maksājumu prognozēšanas līdzekli Finanšu ieskatos. Ieslēdziet līdzekli darbvietā **Līdzekļu pārvaldība** un ievadiet konfigurācijas iestatījumus lapā **Finanšu ieskatu parametri**. Šajā tēmā iekļauta arī informācija, kas var palīdzēt efektīvi izmantot līdzekli.
 

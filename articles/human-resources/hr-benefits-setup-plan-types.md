@@ -1,8 +1,8 @@
 ---
-title: Izveidot plānu tipus
+title: Plāna tipa apskats
 description: Plāna tips programmā Microsoft Dynamics 365 Human Resources ir noteikta tipa atvieglojumu augsta līmeņa grupēšana. Katram plāna tipam ir plāna tipa kods, kas nosaka plāna tipa kārtulas.
 author: andreabichsel
-ms.date: 04/06/2020
+ms.date: 06/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,24 +15,34 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: eb4746425c2faa3c0b1bd3940bf2e03cf7f9595c
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 806b3839feb1e1bf889747986388a56113c3ebe1
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6057866"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558277"
 ---
-# <a name="create-plan-types"></a>Izveidot plānu tipus
+# <a name="plan-type-overview"></a>Plāna tipa apskats
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Plāna tips programmā Microsoft Dynamics 365 Human Resources ir noteikta tipa atvieglojumu augsta līmeņa grupēšana. Katram plāna tipam ir plāna tipa kods, kas nosaka plāna tipa kārtulas. Piemēram, plāna tipa Pamata dzīve būtu plāna tipa kods Life, jo tas ir sava veida dzīvības apdrošināšanas plāns, un tam jāatbilst kārtulām, kas noteiktas plāna tipa kodam Life. Cits plāna tips var būt Papildu dzīve, arī ar plāna tipa kodu Life.
+Plāna veids ir noteikta veida atvieglojumu augsta līmeņa grupēšana. Katram plāna tipam ir plāna tipa kods, kas nosaka plāna tipa kārtulas. Piemēram, plāna tipam **Pamata dzīve** būtu plāna tipa kods **Dzīve**, jo tas ir sava veida dzīvības apdrošināšanas plāna tips, un tam jāatbilst kārtulām, kas noteiktas plāna tipa kodam **Dzīve**. Cits plāna tips varētu būt **Papildu dzīve**. Šim plāna tipam būs arī plāna tipa **Dzīve** kods.
 
 Katrs plāna tips norāda, vai nodarbinātais var pieteikties vienā sava tipa plānā vai vairākos. Piemēram, nodarbinātais varētu pieteikties plāna tipa Dzīve politikām Pamata dzīve un Papildu dzīve. Nodarbinātajam visticamāk būs atļauts reģistrēties tikai vienā tipa Medicīna politikā.
 
 Ja plāna tips ietver kontaktus, plāna tips norāda, vai kontaktpersonas ir saņēmēji vai pakārtotie. Piemēram, Pamata dzīves plāna veidam būtu saņēmēji, bet Pamata medicīniskā plāna veidam ir pakārtotie. Dažos gadījumos plānam var nebūt personīgu kontaktpersonu. Piemēram, elastīgu izdevumu konts vai autostāvvietas atļauja.
 
 Plāna tips var definēt vajadzību opcijas. Vajadzību opcijas ir definētas veidlapā Vajadzības opcija. Vajadzības opcija var norādīt atvieglojumu summu vai kontaktpersonas, kas ir tiesīgas uz plāna tipu. Piemēram, ja kontaktpersonas tips ir Saņēmējs, vajadzības opcijai ir jādefinē nosacījumi, ko saņēmējs var saņemt, kad tiek izmantoti atvieglojumi. Ja kontaktpersonas tips ir Pakārtotais, vajadzības opcijai jādefinē attiecības starp pakārtoto un darbinieku. 
+
+> [!IMPORTANT]
+> Veidlapā ir ietverti galvenie dati, kas ietekmē opcijas, kas ir pieejamas, izveidojot jaunu atvieglojumu plānu:
+>
+> - **Plāna tipa kods** – šis lauks ietekmē to, kas tiek rādīts cilnē **Konfigurācija**, kad tiek iestatīti faktiskie atvieglojumi.  
+> - **Vienlaicīga reģistrācija** – šis lauks nosaka, vai vairākas reģistrācijas ir atļautas. (Medicīniskām plānam šis lauks parasti ir iestatīts kā **Viena reģistrācija**.)
+> - **Kontaktpersonas tips** – šis lauks aktivizē pakārtoto vai saņēmēju pievienošanai plānam. Ja iestatījums ir **Nav**, darbiniekiem, kuri reģistrē atvieglojumus, nav iespējas atlasīt saņēmēju vai apgādājamo.
+> - **Vajadzības opcijas** – izmantojiet šo lauku, lai saistītu vajadzību opcijas ar plāna tipiem. Tas definē vai nu personas, kuras tiks segtas ar šo plāna tipu, vai nodrošinājuma summas, kas ir pieejamas šim plāna tipam. Piemēram, varat norādīt, ka nodrošinājums medicīniskā plāna tipam būs pieejams tikai darbiniekam, darbiniekam un vienai citai personai, darbiniekam un viņu saimei.
+
+## <a name="create-plan-types"></a>Izveidot plānu tipus
 
 1. Darbvietā **Atvieglojumu pārvaldība**, sadaļā **Iestatījumi** atlasiet **Plānu veidi**.
 

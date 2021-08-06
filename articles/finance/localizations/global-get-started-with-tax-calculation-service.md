@@ -2,7 +2,7 @@
 title: Darba sākšana ar nodokļu aprēķinu
 description: Šajā tēmā paskaidrots, kā iestatīt Nodokļu aprēķinu.
 author: wangchen
-ms.date: 05/17/2021
+ms.date: 07/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 454608c2c3a86b71cf181129c762c837c5165902
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: b76184b3f1a97941fea7539aa3fac2c11b1f59b1
+ms.sourcegitcommit: cef2986e24d0510957b5db742545c266dec4275c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336660"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6644978"
 ---
 # <a name="get-started-with-the-tax-calculation-preview"></a>Sākt darbu ar Nodokļu aprēķinu (Priekšskatījums)
 
@@ -58,15 +58,16 @@ Pirms varat pabeigt šajā tēmā norādītās procedūras, ir jāievieš šādi
 Šīs sadaļas darbības nav saistītas ar noteiktu juridisko personu. Jums ir jāveic šī procedūra tikai vienu reizi, un jūs variet pabeigt to jebkurā juridiskajā persona programmā RCS.
 
 1. Pierakstieties [RCS](https://marketing.configure.global.dynamics.com/).
-2. Darbvietā **Elektronisko pārskatu veidošana** pievienojiet jaunu konfigurācijas nodrošinātāju. Kā nodrošinātāja nosaukumu izmantojiet uzņēmuma nosaukumu. Papildinformāciju skatiet [Izveidot konfigurācijas nodrošinātājus un atzīmēt tos kā aktīvus](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
-3. Atlasiet tikko izveidoto konfigurācijas nodrošinātāju un pēc tam atlasiet **Iestatīt aktīvu**.
-4. Atlasiet **Microsoft** konfigurācijas nodrošinātāju, un tad atlasiet **Repozitoriji**.
-5. Laukā **Tips** atlasiet **Globāls**.
-6. Atlasiet **Atvērt**.
-7. Dodieties uz **Nodokļu datu modelis**, izvērsiet failu koku un pēc tam atlasiet **Nodokļu konfigurācija**.
-8. Atlasiet jaunāko versiju un pēc tam atlasiet **Importēt**.
-9. Atgriezieties darbvietā **Globalizācijas līdzekļi (priekšskatījums)**, atlasiet **Līdzekļi**, atlasiet elementu **Nodokļu aprēķins** un pēc tam atlasiet **Pievienot**.
-10. Atlasiet vienu no šiem līdzekļu tipiem:
+2. Darbvietā **Līdzekļu pārvaldība** atlasiet un iespējojiet līdzekli **Globalizācijas līdzekļi**.
+3. Darbvietā **Elektronisko pārskatu veidošana** pievienojiet jaunu konfigurācijas nodrošinātāju. Kā nodrošinātāja nosaukumu izmantojiet uzņēmuma nosaukumu. Papildinformāciju skatiet [Izveidot konfigurācijas nodrošinātājus un atzīmēt tos kā aktīvus](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
+4. Atlasiet tikko izveidoto konfigurācijas nodrošinātāju un pēc tam atlasiet **Iestatīt aktīvu**.
+5. Atlasiet **Microsoft** konfigurācijas nodrošinātāju, un tad atlasiet **Repozitoriji**.
+6. Laukā **Tips** atlasiet **Globāls**.
+7. Atlasiet **Atvērt**.
+8. Dodieties uz **Nodokļu datu modelis**, izvērsiet failu koku un pēc tam atlasiet **Nodokļu konfigurācija**.
+9. Atlasiet jaunāko versiju un pēc tam atlasiet **Importēt**.
+10. Atgriezieties darbvietā **Globalizācijas līdzekļi**, atlasiet **Līdzekļi**, atlasiet elementu **Nodokļu aprēķins** un pēc tam atlasiet **Pievienot**.
+11. Atlasiet vienu no šiem līdzekļu tipiem:
 
     - **Jauns līdzeklis** – izveidojiet līdzekļa iestatījumu, kam ir tukšs saturs.
     - **Balstīts uz esošo līdzekli** – izveidojiet līdzekli no esoša līdzekļa un kopējiet saturu no esoša līdzekļa iestatījuma.

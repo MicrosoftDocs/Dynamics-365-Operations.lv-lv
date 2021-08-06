@@ -2,7 +2,7 @@
 title: Adventure Works tēmas pārskats
 description: Šī tēma sniedz pārskatu par Adventure Works tēmu un apraksta, kā to pielietot vietnes lapām Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 07/08/2021
+ms.date: 07/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,36 +14,48 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: c7557a36a948de5ae877d74bbbdea78821099b82
-ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
+ms.openlocfilehash: c8183d09e15f83606d84fddd02cb2dfb9b2fb528
+ms.sourcegitcommit: 0c77dbb8547cd36fce3977ca9515fa1474efa77a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "6479495"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6655636"
 ---
 # <a name="adventure-works-theme-overview"></a>Adventure Works tēmas pārskats
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Šī tēma sniedz pārskatu par Adventure Works tēmu un apraksta, kā to pielietot vietnes lapām Microsoft Dynamics 365 Commerce.
 
 Dynamics 365 Commerce ir e-komercijas tēma ar nosaukumu Adventure Works. Adventure Works tēma parāda sporta un izklaides produktus un ir optimizēta attiecībā uz bagātināto un uzlaboto pieredzi. Ta nodrošina mūsdienīgu izskatu, jaunus izkārtojumus un animācijas efektus, lai tiešsaistē izveidotu visaptverošu, saistošu tiešsaistes iepirkumu pieredzi e-komercijas klientiem.
 
-Adventure Works tēma nodrošina šādas jaunas darbplūsmas:
+## <a name="trial-environments-in-commerce"></a>Izmēģinājuma vides risinājumā Commerce
 
-- Tagad video atskaņotāja modulis atbalsta virsrakstu, rindkopu un saišu funkcionalitāti papildu stāstīšanai.
-- Groza pievienošanas darbība izsauc mini grozu, nevis sniedz paziņojumu.
+Lai apskatītu, kā izskatās Adventure Works tēma, kad tā ir izvietota "bizness-patērētājam" (B2C) un "bizness-biznesam" (B2B) vietnēs, apmeklējiet šādas izmēģinājuma vietnes:
+
+- [Adventure Works B2C vietne](https://www.adventure-works.com/)
+- [Adventure Works B2B vietne](https://www.adventure-works.com/business)
+
+## <a name="theme-capabilities"></a>Tēmas iespējas
+
+Adventure Works tēma nodrošina šādas jaunas iespējas:
+
+- Tagad video atskaņotāja modulis atbalsta virsrakstu, rindkopu un saites funkcionalitāti papildu stāstīšanai.
+- Ir labākas satura pārejas caur animāciju.
+- "Groza pievienošanas" darbība izsauc mini grozu, nevis sniedz paziņojumu.
 - Ātrā skata modulis ir rūts, kas ieslīd gan darbvirsmas, gan mobilajos skatu portos.
-- Tukšs grozs tagad var demonstrēt izplatīšanu.
+- Vietnes lapām ir jauni izkārtojumi. 
+- Mārketinga saturu var konfigurēt grozam un mini grozam, ja tie ir tukši.
+- Mini grozs var rādīt reklāmas ziņojumus, piemēram, "Bezmaksas piegāde pasūtījumos virs $50."
+- Apraksta kartes tiek atveidotas meklēšanas un kategoriju lapās.
 
-Adventure Works tēma ietver sekojošos moduļus Commerce moduļu bibliotēkā:
+Adventure Works tēma tagad ietver sekojošos moduļus Commerce moduļu bibliotēkā:
 
-- Elementu saraksta modulis
-- Interaktīvā līdzekļa modulis
-- Abonēšanas modulis
-- Aktīvā attēla modulis
-- Attēlu saraksta modulis
+- [Elementu saraksta modulis](tile-list-module.md)
+- [Interaktīvo līdzekļu modulis](interactive-feature-module.md)
+- [Aktīvā attēla modulis](active-image-module.md)
+- [Abonēšanas modulis](subscribe-module.md)
+- [Attēlu saraksta modulis](image-list-module.md)
 
 Adventure Works tēma ir pilnībā atsaucīga un nodrošina optimizētu pieredzi galddatoriem, mobilajām ierīcēm un planšetdatoriem.
 
@@ -77,6 +89,10 @@ Adventure Works tēmā ir ietverti vairāki tēmu paplašinājumi, piemēram, **
 Tāpat citi moduļi ietver moduļa definīciju paplašinājumus. Piemēram, [groza ikonas modulī](cart-icon-module.md) ir ietverti divi papildu sloti **Tukšs grozs** un **Reklāmas saturs**, kas ir ieviesti, izmantojot moduļa definīcijas paplašinājumus. Turklāt virsraksta modulim ir pievienots jauns rekvizīts **Mobilais logotips**, lai atbalstītu logotipu mobilajās ierīcēs. Šis rekvizīts ir ieviests kā virsraksta moduļa definīcijas paplašinājums.
 
 Papildinformāciju par tēmu paplašinājumiem skatiet [Tēmas paplašinājumi](e-commerce-extensibility/theme-module-extensions.md).
+
+## <a name="install-the-adventure-works-theme"></a>Adventure Works tēmas instalēšana
+
+Informāciju par to, kā instalēt Adventure Works tēmu, skatiet [Adventure Works tēmas instalēšana](install-adventure-works.md).
 
 ## <a name="additional-resources"></a>Papildu resursi
 

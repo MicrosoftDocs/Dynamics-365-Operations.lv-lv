@@ -1,6 +1,6 @@
 ---
-title: Power Portal izmantošana kopā ar pušu datu modeli
-description: Šajā tēmā aprakstītas izmaiņas Power Portal tīmekļa lomās, kas ir veiktas, jo puses datu modelis ir dubultrakstīšanā.
+title: Izmantot Microsoft Power Apps porālus kopā ar pušu datu modeli
+description: Šajā tēmā aprakstītas izmaiņas Microsoft Power Apps portālu tīmekļa lomās, kas ir veiktas, jo puses datu modelis ir dubultrakstīšanā.
 author: RamaKrishnamoorthy
 ms.date: 03/22/2021
 ms.topic: article
@@ -9,14 +9,14 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-22
-ms.openlocfilehash: 3b03603038d05305c63fc2890a196670ae343e53
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ca9d4ad1efa128ba274cd84b1c2f672fe70975a5
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358621"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542567"
 ---
-# <a name="using-power-portal-with-the-party-data-model"></a>Power Portal izmantošana kopā ar pušu datu modeli
+# <a name="using-microsoft-power-apps-portals-with-the-party-data-model"></a>Izmantot Microsoft Power Apps porālus kopā ar pušu datu modeli
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
@@ -44,13 +44,13 @@ Lai izveidotu šīs jaunās tabulas atļaujas, rīkojieties šādi:
 
     Jums ir jāizveido trīs jaunas atļaujas:
 
-    + Savienojums kontaktpesona ar pusi
-    + Savienojums puse ar kontu
-    + Savienojums konts ar pasūtījumu
+    + **Kontaktpersona** ar **Puse** tabulas savienojums
+    + **Puse** ar **Konts** tabulas savienojums
+    + **Konts** ar **Pasūtījums** tabulas savienojums
 
 4. Izveidojiet un saglabājiet jaunu atļauju savienojumam kontaktpersona ar pusi, iestatot šādus parametrus:
 
-    + **Nosaukums**: savienojums puse ar kontu (vai jūsu izvēle)
+    + **Nosaukums**: **Puse** ar **Konts** tabulas savienojums (vai jūsu izvēle)
     + **Tabulas nosaukums**: msdyn_contactforparty
     + **Tīmekļa vietne**: Debitoru portāls
     + **Tvērums**: kontaktpersona

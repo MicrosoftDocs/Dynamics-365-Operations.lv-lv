@@ -2,7 +2,7 @@
 title: Palīdzības sistēma
 description: Šajā tēmā ir sniegts pārskats par Palīdzības sistēmu Finance and Operations programmām.
 author: edupont04
-ms.date: 04/14/2021
+ms.date: 07/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6f4c9ad36eb2f1abfc9225f1e62e635cebacd47
-ms.sourcegitcommit: 42a93a96565c56c9c64642ed6e6e302b3fbfcd85
+ms.openlocfilehash: e0ba083c64c840e17bf2fba982b2686c8a47e097
+ms.sourcegitcommit: 5c9a5bfef507ed36f0f849ab56fa0aa8abb78d54
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6373371"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "6646517"
 ---
 # <a name="help-system"></a>Palīdzības sistēma
 
@@ -30,7 +30,7 @@ ms.locfileid: "6373371"
 
 Šo programmu lietotāji var piekļūt kontekstjutīgai palīdzībai un citam saturam, kas ir balstīts uz to pašu palīdzības sistēmu:
 
-- Microsoft Dynamics 365 Commerce
+- Dynamics 365 Commerce
 - Dynamics 365 Finance
 - Dynamics 365 Human Resources
 - Dynamics 365 Supply Chain Management
@@ -48,23 +48,23 @@ Vietne docs.microsoft.com ([docs.microsoft.com/dynamics365/](/dynamics365/)) ir 
 
 Jūs varat atrast saturu docs.microsoft.com, izmantojot jebkuru meklētājprogrammu. Labākiem rezultātiem, mēs iesakām izmantot meklēšanu vietnē, piemēram, **site:docs.microsoft.com dynamics 365 “meklējamais vārds vai frāze”**.
 
-<!--## Get notified about changes through an RSS feed
+## <a name="get-notified-about-changes-through-an-rss-feed"></a>Saņemt paziņojumus par izmaiņām, izmantojot RSS plūsmu
 
-To subscribe to an RSS feed of all updates made to the content on docs.microsoft.com across the Finance and Operations apps, use the following link:
+Lai abonētu RSS plūsmu visiem atjauninājumiem, kas ir docs.microsoft.com saturam Finance and Operations programmās, izmantojiet šādu saiti:
 
-[RSS feed](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
+[RSS plūsma](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
 > [!NOTE]
-> The RSS feed returns a list of the 100 topics most recently updated. The list is not sorted by date.  
+> RSS plūsma atgriež 100 jaunāko tēmu sarakstu. Saraksts netiek kārtots pēc datuma.  
 
-Alternatively, you can subscribe to an RSS feed by app:
+Varat arī abonēt RSS plūsmu pēc programmas:
 
 - [Commerce](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-commerce%27)&locale=en-us)  
 - [Finance](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finance%27)&locale=en-us)  
 - [Human Resources](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-hr%27)&locale=en-us)  
-- [Supply Chain](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-supplychain%27)&locale=en-us)  
-- [Talent](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-talent%27)&locale=en-us)  
-COMMENTED OUT UNTIL THE CONTNT HAS BEEN INDEXED BY THE SEARCH API-->
+- [Piegādes ķēde](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-supplychain%27)&locale=en-us)  
+- [Potenciālais kandidāts](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-talent%27)&locale=en-us)  
+
 ### <a name="leave-us-feedback"></a>Sniedziet mums atsauksmes
 
 Ja vēlaties sniegt atsauksmes vai uzdot jautājumu par tēmu, pievienojiet komentāru lapas apakšdaļā.

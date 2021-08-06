@@ -2,7 +2,7 @@
 title: Izveidot seguma opcijas
 description: Vajadzību opcijas programmā Microsoft Dynamics 365 Human Resources ir nodrošinājuma līmeņi dalībnieka vēlēšanām atvieglojumu plānā vai programmā.
 author: andreabichsel
-ms.date: 04/06/2020
+ms.date: 06/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,21 +15,25 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d9f67a97ec57bade840e1035c6011b94427a77c4
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 1e8f13075a9835963c231a8e4e8a737368a952ba
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055584"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558229"
 ---
 # <a name="create-coverage-options"></a>Izveidot seguma opcijas
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Vajadzību opcijas programmā Microsoft Dynamics 365 Human Resources ir nodrošinājuma līmeņi dalībnieka vēlēšanām atvieglojumu plānā vai programmā. Piemēram, vajadzības opcijas var iekļaut **Tikai darbinieks** medicīniskajam plānam vai **Atalgojums x2** dzīvības apdrošināšanas plānam. Pēc definēšanas varat atkārtoti izmantot atvieglojumu vajadzību opcijas. Varat saistīt opciju ar vienu vai vairākiem plāniem.
+Vajadzību opcijas nosaka, kurš ir jāsedz vai cik seguma ir pieejams apdrošināšanas plānā. Piemēram, medicīniskām plānam, iespējams, ir opcija **tikai darbinieks**, opcija **darbinieks + 1** un opcija **ģimene**. Dzīvības apdrošināšanai jūs varat piedāvāt segumu par **1 x algu** vai **2 x algu**.
 
-Kad seguma opcijas ir definētas, pievienojiet seguma opcijas atvieglojumu plāna veidam. Pēc tam plāna veids tiek saistīts ar atvieglojumu plānu vai programmu. Seguma opcijas, kas saistītas ar plāna veidu, ir pieejamas visiem plāniem, kas izveidoti ar šo plāna veidu. 
+Pēc tam, kad ir definētas pabalstu seguma iespējas, varat tās atkārtoti izmantot. Varat saistīt opciju ar vienu vai vairākiem plāniem.
 
+> [!IMPORTANT]
+> Kad seguma opcijas ir definētas, pievienojiet tās atvieglojumu plāna veidam. Pēc tam plāna veids tiek saistīts ar atvieglojumu plānu vai programmu. Seguma opcijas, kas saistītas ar plāna veidu, ir pieejamas visiem šāda veida plāniem, kas tiek izveidoti.
+
+## <a name="create-coverage-options"></a>Izveidot seguma opcijas
 1. Darbvietā **Atvieglojumu pārvaldība**, sadaļā **Iestatījumi** atlasiet **Seguma opcijas**.
 
 2. Atlasiet **Jauns**.
@@ -40,7 +44,7 @@ Kad seguma opcijas ir definētas, pievienojiet seguma opcijas atvieglojumu plān
    | --- | --- |
    | **Seguma opcija** | Unikāls seguma opcijas nosaukums. |
    | **Apraksts** | Seguma opcijas apraksts. |
-   | **Vajadz. aprēķ. metode** | Seguma kodi piešķir minimālo un maksimālo summu katram segumam piemērotās personas veidam. Seguma kods norāda, kuram ir segums, vai plāna veidam atļautā seguma summu. Seguma summu varat izteikt kā summu dolāros vai procentuālu vērtību. Piemēram:</br></br>- **Darbinieks+1** — lai kvalificētos, darbiniekam ir jābūt atlasītam vienam apgādājamam (ja atlasīts vairāk nekā viens, tie vairs nekvalificējas).</br></br>- **Darbinieks+ģimene** — lai kvalificētos, darbiniekam jāatlasa vismaz divi apgādājamie. |
+   | **Vajadz. aprēķ. metode** | Seguma kodi piešķir minimālo un maksimālo summu katram segumam piemērotās personas veidam. Seguma kods norāda, kuram ir segums, vai plāna veidam atļautā seguma summu. Seguma summu varat izteikt kā summu dolāros vai procentuālu vērtību. Piemēram:<ul><li>**Darbinieks+1** — lai kvalificētos, darbiniekam ir jābūt atlasītam vienam apgādājamam (ja atlasīts vairāk nekā viens, tie vairs nekvalificējas).</li><li>**Darbinieks+ģimene** — lai kvalificētos, darbiniekam jāatlasa vismaz divi apgādājamie.</li></ul> |
    | **Maksimālais skaits** | Maksimālais apgādājamo skaits. |
    | **Statuss** | Seguma opcijas statuss. Ja seguma opcijas statuss ir iestatīts uz Neaktīvs, plānu veidos nevar atlasīt seguma opciju. |
    | **Procenti** | Procentuālā summa. Šis lauks ir aktīvs tikai tad, ja laukā Seguma kods ir atlasīts % x alga. |

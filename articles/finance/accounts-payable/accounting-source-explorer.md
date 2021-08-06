@@ -1,7 +1,7 @@
 ---
 title: Uzskaites avota pārlūks
 description: Šajā rakstā ir sniegta informācija par uzskaites avota pārlūku, kuru var izmantot detalizētai virsgrāmatas uzskaites ierakstu avota informācijas analīzei.
-author: ShylaThompson
+author: rcarlson
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4624a740538493c247b6c3a0f051ed6208c52504
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f1ab7cb7f8f9a42d5f311f8760ff2463055dc178
+ms.sourcegitcommit: f2dfec2f4c427e37a574e6acdfaaf150bc92ebb6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820935"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6661041"
 ---
 # <a name="accounting-source-explorer"></a>Uzskaites avota pārlūks
 
@@ -46,8 +46,10 @@ Avota dokumentiem, kas izmanto pirmdokumenta atsauces identitātes koncepciju, u
 
 Šiem dokumentiem no uzskaites avota pārlūka var pārvietoties uz faktisko pirmdokumentu.
 
-
-
-
+> [!NOTE]
+> No versijas 10.0.20 poga **Atjaunināšana** nodrošina divus papildu diapazonus, lai ierobežotu sākotnējo vaicājumu, kas tiek palaists, lai ievadītu lapas datus. Šie papildu diapazoni ir pieejami arī versijā 10.0.19 kā pakalpojuma atjauninājums. Tiek pievienoti tālāk norādītie lauki:
+>
+> - No vaučera, uz vaučeru
+> - No galvenā konta, uz galveno kontu
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Darbinieka atvaļinājuma pārvaldība
 description: Darbinieka atvaļinājuma pārvaldība risinājumā Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 11/02/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 33080fc5ca43f3d83ee9d17565f4c229ced7b94f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: c161e324a1ebe5b30c95d6d3e0468da671a7c2de
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055632"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639466"
 ---
 # <a name="manage-employee-leave"></a>Darbinieka atvaļinājuma pārvaldība
 
@@ -44,12 +44,11 @@ Darbinieka atvaļinājumu var pārvaldīt pēc atvaļinājuma veida. Tas ietver 
 
 Koriģējot darbinieka atvaļinājuma bilanci, jūs varat iekļaut iemesla kodu un komentāru. 
 
->[!IMPORTANT]
->Papildu informācijas skatīšana par atvaļinājuma atlikumiem ir priekšskatījumā. Jums vajadzēs iespējot to savā **Smilškastes** vidē. Lai iegūtu papildinformāciju par priekšskatījuma līdzekļu iespējošanu, skatiet sadaļu [Līdzekļu pārvaldība](hr-admin-manage-features.md).<br>
->Pārejot uz jebkuru atvaļinājuma bilanci, tiks rādīts:<br>
->- **Pieejams**: kopsumma šajā gadā - šis gads
->- **Kopsumma šajā gadā**: visi uzkrājumi, korekcijas un pārnešana uz gadu
->- **Paņemts šajā gadā**: viss apstiprinātais prombūtnes laiks
+Tagad, novietojot kursoru virs atvaļinājuma bilances, tiek parādīta šāda informācija:
+
+- **Pieejams** – vērtība **Šī gada kopsumma** mīnus vērtība **Paņemts šogad**.
+- **Kopsumma šajā gadā** – visi uzkrājumi, korekcijas un pārnešana uz gadu.
+- **Paņemts šajā gadā** – viss apstiprinātais prombūtnes laiks.
 
 ## <a name="see-also"></a>Skatiet arī
 

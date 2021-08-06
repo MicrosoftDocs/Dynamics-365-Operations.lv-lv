@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ae444b4d208804364333bd3d6e4704500da85470
-ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
+ms.openlocfilehash: c2f362e71832d6f7b17e06ad98142019ced4df14
+ms.sourcegitcommit: baad2723291774f610324a8054fc14abf3287fe1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6303566"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "6560078"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-22-2021"></a>Jaunumi un izmaiņas programmatūrā Dynamics 365 Human Resources 2021. gada 22. jūnijs
 
@@ -44,7 +44,7 @@ Zemāk minētie līdzekļi parasti ir pieejami ar šo laidienu.
 | --- | --- | --- |
 | Informējiet darbiniekus bez nodarbinātības līdzekļa - Kad ir ieslēgta papildu piekļuve un līdzekļu pārvaldībā ir atspējots līdzeklis **Skatīt visus darbiniekus bez nodarbinātības**, veidlapā darbiniekiem bez nodarbinātības tiek parādīts reklāmkarogs. Reklāmkarogs liks lietotājam ieslēgt līdzekli **Skatīt visus darbiniekus bez nodarbinātības**. | Nav attiecināms| [Nodarbinātie bez nodarbinātības](/dynamics365/human-resources/hr-personnel-workers-without-employment)|
 | Pielāgotā lauka atbalsts atvieglojumu pārvaldības atbilstības noteikumiem | [Pielāgots lauka atbalsts atbilstības apstrādei](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-eligibility-processing) |[Atbilstības noteikumu konfigurēšana](/dynamics365/human-resources/hr-benefits-setup-eligibility-rules) |
-| Atvaļinājuma uzkrājumu darījumu auditēšana | Nav attiecināms | [Atvaļinājuma uzkrājumu darījumu auditēšana](hr-leave-and-absence-accrue.md#preview-leave-accrual-transaction-auditing)|
+| Atvaļinājuma uzkrājumu darījumu auditēšana | Nav attiecināms | [Atvaļinājuma uzkrājumu darījumu auditēšana](hr-leave-and-absence-accrue.md)|
 | Atvaļinājuma un kavējumu darbplūsmas pieredzes uzlabojumi | [Atvaļinājuma un kavējumu darbplūsmas pieredzes uzlabojumi](https://go.microsoft.com/fwlink/?linkid=2147528) | [Pieprasīt brīvo laiku](hr-employee-self-service-request-time-off.md)|
 
 ### <a name="bug-fixes"></a>Kļūdu labojumi

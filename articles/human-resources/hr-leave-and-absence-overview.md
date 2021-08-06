@@ -2,7 +2,7 @@
 title: Atvaļinājumu un kavējumu apskats
 description: Programmā Dynamics 365 Human Resources atvaļinājuma un prombūtnes darbvietā tiek nodrošināts elastīga struktūra jaunu atvaļinājumu plānu veidošanai. Tas nodrošina darbplūsmas pieprasījumu pārvaldībai un intuitīvo pašapkalpošanās lapu darbiniekiem, lai varētu pieprasīt prombūtni.
 author: andreabichsel
-ms.date: 06/01/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b41838b447dcbffc656ab759fcc4746abb620661
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 7a3c305910f41ebd775292dee91a6044c2cdb244
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339719"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639490"
 ---
 # <a name="leave-and-absence-overview"></a>Atvaļinājumu un kavējumu apskats
 
@@ -34,7 +34,8 @@ Pirms atvaļinājumu plānu izveidošanas saviem darbiniekiem, ir jāveic dažas
 
 - [Atvaļinājumu un prombūtnes parametru konfigurēšana](hr-leave-and-absence-parameters.md)
 - [Darba laika kalendāra izveide](hr-leave-and-absence-working-time-calendar.md)
-- [Atvaļinājuma pieprasījuma darbplūsmas izveide](hr-leave-and-absence-workflow.md)
+- [Atvaļinājuma pieprasījuma izveide darbplūsmai](hr-leave-and-absence-workflow.md)
+- [Konfigurēt lomu Prombūtnes pārvaldnieks](hr-configure-absence-manager.md)
 
 ## <a name="create-and-manage-leave-plans"></a>Izveidojiet un pārvaldiet atvaļinājuma plānus
 
@@ -50,8 +51,9 @@ Pirms atvaļinājuma plānu izveides jūsu darbiniekiem ir jāizveido atvaļinā
 
 Jūsu darbinieki var iesniegt brīvā laika pieprasījumus, un tos var pārvaldīt **Darbinieku patstāvīgi izmantojamo pakalpojumu** darbvietā.
 
-[Brīvā laika pieprasīšana](hr-employee-self-service-request-time-off.md)
-[Atvaļinājumu un kavējumu pieprasījumu pārvaldība](hr-employee-self-service-manage-requests.md)
+- [Pieprasīt brīvo laiku](hr-employee-self-service-request-time-off.md)
+- [Atvaļinājumu un kavējumu pieprasījumu pārvaldība](hr-employee-self-service-manage-requests.md)
+- [Konfigurēt lomu prombūtnes pārvaldnieks](hr-configure-absence-manager.md)
 
 
 

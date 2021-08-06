@@ -2,7 +2,7 @@
 title: Data mart atiestatīšanas BUJ
 description: Šī tēma sniedz atbildes uz dažiem bieži uzdotiem jautājumiem par data mart atiestatīšanu.
 author: jinniew
-ms.date: 06/09/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7cd96c7bc698986ef1ef07ca88479a3d49f22924
-ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
+ms.openlocfilehash: 90abe1fc3e84e0a9777f3eabd790a4b7e9b509c5
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "6266613"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638271"
 ---
 # <a name="data-mart-resets-faq"></a>Data mart atiestatīšanas BUJ
 
@@ -37,6 +37,9 @@ Ja uz jūsu situāciju attiecas viens vai vairāki no šiem priekšrakstiem, jū
 
 - Programmu datu bāze ir atjaunota.
 - Jūs esat atvēris atbalsta biļeti, un atbalsta inženieris ir norādījis, ka jūs atiestatīt data mart kā daļu no problēmu novēršanas soļa.
+ 
+> [!NOTE]
+> Datu apstrādes atiestatīšanas procesu ietekmē virsgrāmatas un budžeta darbību skaits jūsu datu bāzē. Atkarībā no jūsu sistēmā veikto darbību skaita datu apstrādes atiestatīšanu var veikt ilgt no 15 minūtēm līdz pat četrām stundām. Tomēr, ja atiestatīšanas process ilgst vairāk nekā četras stundas, ieteicams sazināties ar atbalsta dienestu.
  
 ## <a name="when-is-a-data-mart-reset-inappropriate"></a>Kad data mart atiestatīšana nav piemērota?
 

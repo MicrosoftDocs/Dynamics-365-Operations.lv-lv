@@ -2,7 +2,7 @@
 title: Piemērotības kārtulu un opciju konfigurēšana
 description: Iestatiet piemērotības kārtulas un opcijas atvieglojumu pārvaldībā Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 05/20/2021
+ms.date: 06/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,25 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f7679afa29e5e4ef8482c71558275297d7359362
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 25593bc4d136e403c7ba87e044c95f4fae1e7db9
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351661"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558373"
 ---
-# <a name="configure-eligibility-rules-and-options"></a>Piemērotības kārtulu un opciju konfigurēšana
+# <a name="configure-eligibility-rules-and-options"></a>Piemērotības kārtulu un opciju konfigurēšana 
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Pēc nepieciešamo parametrus konfigurēšanas atvieglojumu pārvaldībā Microsoft Dynamics 365 Human Resources varat izveidot piemērotības noteikumus, komplektus, periodus un programmas, ko saistīsiet ar saviem atvieglojumu plāniem.
+Pēc nepieciešamo parametrus konfigurēšanas atvieglojumu pārvaldībā varat izveidot piemērotības noteikumus, komplektus, periodus un programmas, ko saistīsiet ar saviem atvieglojumu plāniem.
+
+Piemērotības nosacījumus izmanto, lai noteiktu, vai darbinieki ir piemēroti plānam. Darbiniekiem ir jāatbilst vismaz vienas kārtulas nosacījumam, lai to uzskatītu par atbilstošu atvieglojumam. Piemēram, plānā ir divas kārtulas. Pirmā kārtula (1. rinda) norāda, ka darbinieka tipam jābūt **Darbinieks**. Otrā kārtula (2. rinda) norāda, ka darbinieka jābūt darbiniekam jābūt nodarbinātam uz pilnu slodzi. Tāpēc darbinieki, kuri atbilst 1. kārtulai, ir piemēroti pat tad, ja tie ir nodarbināti tikai nepilna laika.
+
+Tomēr varat iestatīt vienu noteikumu, kuram ir vairāki nosacījumi. Šajā gadījumā darbiniekiem jāatbilst visiem kārtulas nosacījumiem, lai viņus uzskatītu par tiesīgiem uz atvieglojumu. Piemēram, ir noteikums ar nosaukumu **Darbinieks pilna laika**. Šis noteikums norāda, ka darbinieka tipam jābūt **Darbinieks** *un* darbiniekam jābūt nodarbinātam uz pilnu slodzi. Tādējādi, lai darbinieki varētu būt piemēroti, darbiniekiem ir jāatbilst abiem noteikuma nosacījumiem.
+
+> [!IMPORTANT]
+> Vismaz vienam piemērotības nosacījumam jābūt saistītam ar katru atvieglojumu plānu. Varat saistīt vairākus noteikumus ar atvieglojumu.
 
 ## <a name="create-an-eligibility-rule"></a>Piemērotības kārtulas izveide
 
@@ -72,7 +79,7 @@ Atvērtās reģistrācijas laikā darbinieki var atlasīt atvieglojumu plānus. 
    | **Piemērots amata veids** | Norāda amata veidu vai veidus, lai izpildītu piemērotības kārtulu. Piemēram, pilna laika. |
    | **Piemērotais stāvoklis** | Norāda administratīvās teritorijas, lai izpildītu piemērotības kārtulu. Piemēram, Ziemeļdakota, ASV vai Britu Kolumbija, Kanāda. |
    | **Piemēroti nodarbinātības noteikumi** | Norāda nodarbinātības noteikumus, lai izpildītu piemērotības kārtulu. Piemēram, brīvs līgums vai koplīgums. |
-   | **Piemērotā arodbiedrība** | Norāda dalību arodbiedrībā, lai izpildītu piemērotības kārtulu. Piemēram, Amerikas autoiekrāvēju vadītāji. </br></br>Izmantojot uz arodbiedrību balstītu piemērotības kārtulu, nodarbinātā arodbiedrības ierakstam jāaizpilda beigu datums. To nevar atstāt tukšu. |
+   | **Piemērotā arodbiedrība** | Norāda dalību arodbiedrībā, lai izpildītu piemērotības kārtulu. Piemēram, Amerikas autoiekrāvēju vadītāji.</br></br>Izmantojot uz arodbiedrību balstītu piemērotības kārtulu, nodarbinātā arodbiedrības ierakstam jāaizpilda beigu datums. To nevar atstāt tukšu. |
    | **Piemērojamais pasta indekss** | Norāda pasta indeksus, lai izpildītu piemērotības kārtulu. Piemēram, 58104. |
 
 5. Sadaļā **Papildinformācija** varat apskatīt tālāk minēto papildinformāciju.
@@ -131,7 +138,7 @@ Kad atvieglojumu plānam ir piešķirti vairāki piemērotības nosacījumi, dar
 ![Darbiniekam ir jāatbilst vai nu kārtulas Darba tips, vai arī kārtulas Aktīvie darbinieki prasībām.](media/RulesAssignedToAPlan.png)
  
 ### <a name="criteria-within-an-eligibility-rule"></a>Kritēriji piemērotības kārtulai 
-Kārtulā definējiet kritērijus, kas veido kārtulu. Iepriekšminētajā piemērā **Darba tipa** kārtulas kritēriji ir tie, kur Darba tips = Vadītāji. Tādēļ darbiniekam jābūt vadītājam, lai viņš būtu piemērots darbinieks. Šī ir kārtula, kurā ir tikai viens kritērijs.
+Kārtulā definējiet kritērijus, kas veido kārtulu. Iepriekšminētajā piemērā **Darba tipa** kārtulas kritērijs ir tas, kur Darba tips = Vadītāji. Tādēļ darbiniekam jābūt vadītājam, lai viņš būtu piemērots darbinieks. Šī ir kārtula, kurā ir tikai viens kritērijs.
 
 Varat definēt kārtulas, kurās ir vairāki kritēriji. Kad definējat vairākus kritērijus piemērotības kārtulā, darbiniekam ir jāatbilst visiem kārtulas kritērijiem, lai būtu piemērots atvieglojumu plānam. 
 

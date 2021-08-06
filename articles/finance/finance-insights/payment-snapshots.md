@@ -2,7 +2,7 @@
 title: Momentuzņēmumu apskats (priekšskatījums)
 description: Šī tēma apraksta momentzņēmumu līdzekli, kas ļauj ietaupīt naudas plūsmas prognozi analīzei vai salīdzinājumam ar faktiskajām vērtībām. Ģenerējot naudas plūsmas prognozi, varat saglabāt šo prognozi kā momentuzņēmumu. Pēc tam varat izmantot šos momentuzņēmumus, lai rediģētu tos kontus, kas tika iekļauti prognozē, vai salīdzinātu prognozi momentuzņēmumā uz faktiskajiem datiem.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 23df01603e74847f6f01a1eaa84b8fd3bb1d6e59
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: cf39e5233b2ef4d50d6c5ace57ba2574ed5fe6fe
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6337212"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638348"
 ---
 # <a name="snapshots-overview-preview"></a>Momentuzņēmumu apskats (priekšskatījums)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Momentuzņēmumi ļauj organizācijām rediģēt un saglabāt informāciju par savu finansiālo stāvokli un skaidras naudas prognozēm noteiktā laika posmā. Varat salīdzināt momentuzņēmumu ar faktisko finansiālo stāvokli, pārbaudīt novirzi un izmantot šo informāciju, lai laika gaitā uzlabotu naudas plūsmas prognozes. Momentuzņēmumus var izmantot šādi.
 

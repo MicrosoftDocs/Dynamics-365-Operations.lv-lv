@@ -16,20 +16,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2694f48b295ba727870f068e7062f7cdcababdbe
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: a0a14c87af7f0d2372d752233f21d9accbca58a8
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350792"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542519"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Tiešsaistes sinhronizācijas problēmu novēršana
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
-
 
 Šajā rakstā ir sniegta informācija par problēmu novēršanu duālā ieraksta integrācijai starp Finance and Operations programmām un Dataverse. Konkrēti, šajā tēmā sniegta informācija par problēmu novēršanu, kas var palīdzēt novērst problēmas ar tiešsaistes sinhronizāciju.
 
@@ -81,7 +79,7 @@ Lai labotu problēmu, ir jāpiešķir pareiza drošības loma kartētas Dynamics
 
     ![Organizācijas kartēšana.](media/mapped_business_unit.png)
 
-2. Piesakieties vidē ar modeļa vadītu Dynamics 365 programmu, pārejiet uz **Iestatījumi \> Drošība** un sameklējiet kartētās biznesa vienības grupu.
+2. Piesakieties vidē ar Customer Engagement programmu, pārejiet uz **Iestatījumi \> Drošība** un sameklējiet kartētās biznesa vienības grupu.
 
     ![Kartētās biznesa vienības grupa.](media/setting_security_page.png)
 
@@ -99,7 +97,7 @@ Veidojot datus Finance and Operations programmā, iespējams, saņemsit šādu k
 
 *{"entityName": "CustCustomerV3Entity", "executionStatus": 2, "fieldResponses":\[\], "recordResponses":\[{"errorMessage": "**Nevar ģenerēt lietderīgās vērtības elementam CustCustomerV3Entity**", "logDateTime": "2019-08-27T 18:51:52.5843124Z", "verboseError": "Lietderīgas vērtības izveide neizdevās, kļūdas dēļ Nederīgs URI: URI ir tukšs."}\], "isErrorCountUpdated":true}*
 
-Šādi izskatās kļūda modeļa vadītā Dynamics 365 lietojumprogrammā:
+Tālāk ir parādīts, kā izskatās kļūda Customer Engagement programmā.
 
 *No ISV koda radās neparedzēta kļūda. (ErrorType = ClientError) Negaidīts izņēmums no spraudņa (Izpildīt): Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: System.Exception: neizdevās apstrādāt elementa kontu — (savienojuma izveides mēģinājums neizdevās, jo savienotā puse pēc noteikta laikposma nav atbilstoši atbildējusi vai izveidotais savienojums neizdevās, jo savienotais resursdators nav atbildējis*
 
@@ -125,6 +123,5 @@ Lai novērstu problēmu, izpildiet šīs darbības.
 
 3. Pārliecinieties, vai **externalenvironmentURL** kolonnai ir pareizs Dataverse vai programmas vietrādis URL. Dzēsiet visas dublētās rindas, kas norāda nepareizu Dataverse vietrādi URL. Dzēsiet atbilstošās rindas DUALWRITEPROJECTFIELDCONFIGURATION un DUALWRITEPROJECTCONFIGURATION tabulās.
 4. Tabulas kartēšanas apturēšana un pēc tam atsākšana
-
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

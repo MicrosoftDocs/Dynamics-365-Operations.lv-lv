@@ -2,7 +2,7 @@
 title: Atvaļinājuma pieprasījumu pārvaldība programmā Teams
 description: Šajā tēmā parādīts, kā pieprasīt prombūtni Dynamics 365 Human Resources programmā Microsoft Teams.
 author: andreabichsel
-ms.date: 05/25/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: aec6d784fd6bd54297ac4204c834c7f77ed75362
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 2a74b895052d017ccbe397bfb9a45609646b2f93
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6356516"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639442"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Atvaļinājumu pieprasījumu pārvaldība programmā Teams
 
@@ -166,6 +166,10 @@ Ja jums rodas problēmas, pierakstoties vai izmantojot Dynamics 365 Human Resour
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Nevar pierakstīties personāla vadības lietojumprogrammā Teams
 
 Ja nevarat pierakstīties lietojumprogrammā, iespējams, ka konts, kuru izmantojat, lai pierakstītos Microsoft Teams nav saistīts ar darbinieka ierakstu Dynamics 365 Human Resources. Sazinieties ar sistēmas administratoru, lai pārliecinātos, ka darbinieka ieraksts ir pareizi saistīts.
+
+### <a name="cant-find-the-dynamics-365-human-resources-environment-in-settings"></a>Iestatījumos nevar atrast Dynamics 365 Human Resources vidi
+
+Ja nevarat atlasīt pareizo Dynamics 365 vidi, iespējams, lietotāja ieraksts nav pareizi sinhronizēts. Sazinieties ar sistēmas administratoru, lai atkārtoti izveidotu lietotāja ierakstu un saistītu to ar lietotāja akreditācijas datiem. Pēc tam pēc dažām minūtēm mēģiniet pieteikties Human Resources programmā Microsoft Teams.
 
 ### <a name="translations-dont-display-correctly"></a>Tulkojumi netiek rādīti pareizi
 

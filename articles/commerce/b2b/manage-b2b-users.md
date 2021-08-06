@@ -2,24 +2,24 @@
 title: Biznesa partneru lietotāju pārvaldīšana B2B e-komercijas tīmekļa vietnēs
 description: Šajā tēmā aprakstīts, kā administratori var pievienot, rediģēt un dzēst biznesa partneru lietotājus bizness-biznesam (B2B) e-komercijas tīmekļa vietnēs.
 author: josaw1
-ms.date: 01/20/2021
+ms.date: 07/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailOperations
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: v-chgri
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: josaw
+ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 6beee4cc4c0dd36f49a38ee49a1a23ad9b513360
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 88f613be59a0c7b0d5efcdc0bef2c5a54506f9eb
+ms.sourcegitcommit: 0c77dbb8547cd36fce3977ca9515fa1474efa77a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936660"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6655610"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Biznesa partneru lietotāju pārvaldīšana B2B e-komercijas tīmekļa vietnēs
 
@@ -67,7 +67,7 @@ Lai apstiprinātu un iestatītu biznesa partnera administratoru komponentā Comm
 
 1. Dodieties uz **Mazumtirdzniecības un tirdzniecības IT \> Sadales grafiks** un palaidiet **1010** (**Klienti**) darbu, lai pievienotu jaunizveidoto klientu un klientu hierarhijas ierakstus kanāla datu bāzei.
 
-Pēc pieprasījuma apstiprināšanas, arī klientu un klientu hierarhijas ierakstu sinhronizēšanas ar kanālu datu bāzi, pieprasītājs var pierakstīties B2B e-komercijas tīmekļa vietnē, izmantojot e-pasta adresi, ko tas norādījis, iesniedzot pieprasījumu. Lietotāji var izmantot pierakstīšanās plūsmu, lai definētu sava konta paroli.
+Pēc pieprasījuma apstiprināšanas, arī klientu un klientu hierarhijas ierakstu sinhronizēšanas ar kanālu datu bāzi, pieprasītājs var pierakstīties B2B e-komercijas tīmekļa vietnē, izmantojot e-pasta adresi, ko tas norādījis, iesniedzot pieprasījumu. Lietotāji var izmantot pierakstīšanās plūsmu, lai definētu sava konta paroli. Lai iespējotu identitātes nodrošinātāja (Azure AD B2C) ierakstu, kas jāsaista ar B2B debitora ierakstu, kas tika izveidots, reģistrējoties vai pierakstoties, izpildiet norādījumus sadaļā [Iespējot automātisku identitātes ierakstu saistīšanu ar debitora kontiem](../identity-record-linking.md).
 
 ## <a name="onboard-additional-business-partner-users"></a>Papildu biznesa partneru lietotāju pievienošana
 
@@ -83,7 +83,7 @@ Lai B2B e-komercijas tīmekļa vietnei pievienotu papildu biznesa partnera lieto
 
 1. Palaidiet **1010** (**Klienti**) darbu, lai sinhronizētu jauno biznesa partnera lietotāju ar kanālu datu bāzēm.
 
-Pēc klienta ieraksta sinhronizēšanas lietotāja statuss B2B e-komercijas tīmekļa vietnē ir iestatīts uz **Aktīvs**, un jaunais lietotājs var pierakstīties B2B e-komercijas tīmekļa vietnē, izmantojot savu e-pasta adresi. Lietotāji var izmantot pierakstīšanās plūsmu, lai definētu sava konta paroli.
+Pēc klienta ieraksta sinhronizēšanas lietotāja statuss B2B e-komercijas tīmekļa vietnē ir iestatīts uz **Aktīvs**, un jaunais lietotājs var pierakstīties B2B e-komercijas tīmekļa vietnē, izmantojot savu e-pasta adresi. Lietotāji var izmantot pierakstīšanās plūsmu, lai definētu sava konta paroli. Lai iespējotu identitātes nodrošinātāja (Azure AD B2C) ierakstu, kas jāsaista ar B2B debitora ierakstu, kas tika izveidots, reģistrējoties vai pierakstoties, izpildiet norādījumus sadaļā [Iespējot automātisku identitātes ierakstu saistīšanu ar debitora kontiem](../identity-record-linking.md).
 
 ## <a name="edit-business-partner-user-details"></a>Biznesa partnera lietotāja datu rediģēšana
 

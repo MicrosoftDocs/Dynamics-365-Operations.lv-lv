@@ -1,8 +1,8 @@
 ---
 title: Regulēšanas atjauninājumi
 description: Šajā tēmā ir sniegts plānoto un izlaisto Microsoft Dynamics 365 Finance normatīvo atjauninājumu saraksts.
-author: ShylaThompson
-ms.date: 02/04/2021
+author: VStamberg
+ms.date: 07/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 24743bd15f77769e2d4ca81981284995ce3a576e
-ms.sourcegitcommit: 927574c77f4883d906e5c7bddf0af9b717e492bf
+ms.openlocfilehash: b6519465ca4e205eb86a595f82ce1278a9a90ce2
+ms.sourcegitcommit: bf2daeccbe3f2826e734f409bfc823820144aa23
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/01/2021
-ms.locfileid: "6129781"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "6617971"
 ---
 # <a name="regulatory-updates"></a>Regulēšanas atjauninājumi
 
@@ -39,51 +39,34 @@ Informāciju par jaunākajiem normatīvo atjauninājumu plāniem skatiet nākama
 
 |Valsts/reģions|Izpildes datums|Partijas versija|Normatīvais atjauninājums|
 |--------------------|---------------|-------|-------| 
-|      Brazīlija         |   2021. gada maijs, 2020. gada decembris      | 10.0.20, 10.0.19, 10.0.17      |   NF-e NT2020.006 – digitālās platformas starpnieka identifikācija (izkārtojuma un validācijas noteikumu atjaunināšana)   |
+|      Austrālija         |   2021. jūnijs      | 10.0.21      |   AU — maksājumu laiku pārskata rēķins 2020, kas paredzēts Microsoft Dynamics 365 Finance   |
+|      Brazīlija         |   2021. gada maijs, 2021. gada februāris      | 10.0.20, 10.0.19      |   NF-e NT2020.006 – digitālās platformas starpnieka identifikācija (izkārtojuma un validācijas noteikumu atjaunināšana)   |
 |      Brazīlija         |   2021. marts         | 10.0.19         |    SPED REINF izkārtojums 1.5.1  |
-|      Brazīlija         |   2021. februāris         | 10.0.18         |    Fiskālais SPED 015 – RS noteikumi |
-|      Brazīlija         |   2021. marts         | 10.0.17 HF       |    NFS-e Brazīlijas pakalpojumu (pilsētas) elektroniskais rēķins  |
 |      Brazīlija         |   2021. aprīlis         | 10.0.20        |    SPED ECD Layout 9  |
 |      Brazīlija         |   2021. maijs         | 10.0.20         |    SPED ieguldījums – Ceļvedis versijai 1.34  |
-|      Ēģipte         |   2021. februāris         | 10.0.17         |    PVN atgriešanas veidlapa un pārskati  |
-|      Ēģipte        |   2021. februāris         | 10.0.17         |    Rēķina izkārtojuma konfigurācija  |
-|      Ēģipte         |   2021. februāris         | 10.0.17         |    Ieturētās deklarācijas veidlapa 41  |
-|      Ēģipte         |   2021. februāris         | 10.0.17         |    Ieturētās deklarācijas veidlapa 11  |
-|      Ēģipte         |   2021. februāris         | 10.0.17         |    Atsauces uz sākotnējiem rēķiniem kredīta notās  |
-|      Eiropa        |   2021. janvāris       | 10.0.17      |   Breksits – Ziemeļīrijas protokola ietekme uz kopienas iekšējās tirdzniecības pārskatiem ES valstīs  |
-|      Francija        |   2021. marts       | 10.0.18      |   Retail – sertificēts POS sistēmas atjauninājums – Dynamics 365 Commerce  |
+|      Brazīlija         |   2021. jūnijs         | 10.0.21         |    SPED ECF - Layout 7  |
+|      Brazīlija         |   2021. maijs         | 10.0.20         |    NF-e NT2020.005 v1.10 - Apstiprināšanas noteikumi un atjauninājumi PED ECF - Izkārtojums 7  |
+|      Brazīlija         |   2021. maijs         | 10.0.21         |    SPED Reinf 1.5.1 — Izmaiņas EVENT 5011 tīmekļa pakalpojumu metodē  |
 |      Francija        |   2021. aprīlis       | 10.0.20      |   Francijas datu arhivēšanas eksporta (FEC) uzlabojumi  |
-|      Vācija        |   2021. janvāris       | 10.0.17      |   Izmaiņas ELSTER PVN avansa paziņojuma XML struktūrā (UstVA)  |
 |      Vācija        |   2021. marts       | 10.0.19      |   GDPDU paplašinājumi pamatlīdzekļu tabulai un darījumiem  |
 |      Vācija        |   2021. aprīlis       | 10.0.20HF      |   Izmaiņas e-rēķinu izrakstīšanas formātā (xRechnung) Vācijā kopš 2021. gada  |
-|      Globāls        |   2021. janvāris       | 10.0.17      |   Ieturamais nodoklis rindas līmenī  |
-|      Globāls        |   2021. janvāris       | 10.0.17      |   Ieturētā nodokļa maksājums  |
-|      Globāls        |   2021. janvāris       | 10.0.17      |   Ieturētais nodoklis pārdošanas pasūtījumos  |
-|      Globāls        |   2021. janvāris       | 10.0.17      |   Ieturētā nodokļa slieksnis rēķina summai  |
-|      Globāls        |   2021. janvāris       | 10.0.17      |   Rēķina datuma izejas plūsmas pārbaude pēc pavadzīmju iegrāmatošanas, kas pieejamas visās valstīs  |
-|      Ungārija        |   2021. februāris       | 10.0.17HF, 10.0.18      |   Tiešsaistes rēķinu izrakstīšanas sistēma v.3.0  |
-|      Indija         |   2021. februāris      | 10.0.17HF, 10.0.18      |   GST e-rēķini: eWay rēķina informācija  |
-|      Indija         |   2021. marts      | 10.0.17HF, 10.0.18HF, 10.0.19      |   GST e-rēķini: eksporta pasūtījumi, uzskatītais eksports, SEZ  |
-|      Indija         |   2021. marts      | 10.0.17HF, 10.0.18HF, 10.0.19      |   Dynamics QR kods B2C rēķinā  |
+|      Indija         |   2021. marts      | 10.0.19      |   GST e-rēķini: eksporta pasūtījumi, uzskatītais eksports, SEZ  |
+|      Indija         |   2021. marts      | 10.0.19      |   Dynamics QR kods B2C rēķinā  |
+|      Indija         |   2021. jūnijs      | 10.0.21      |   Jauna API versija e-rēķinam (v.1.04)  |
 |      Itālija         |   2021. marts      | 10.0.19      |   Rēķinu saziņa (Esterometro) formāta izmaiņas v.2.1.1  |
-|      Itālija        |   2021. maijs      | 10.0.17HF, 10.0.18HF, 10.0.19      |   Retail – fiskālā printera integrācijas parauga atjauninājums XML RT 2.0 atbalstam  |
+|      Itālija        |   2021. maijs      | 10.0.19      |   Retail – fiskālā printera integrācijas parauga atjauninājums XML RT 2.0 atbalstam  |
 |      Itālija         |   2021. marts      | 10.0.19      |   Retail – iespējojiet mazumtirdzniecībai raksturīgos rēķinus, kas izmanto hronoloģisku iegrāmatošanu  |
 |      Itālija         |   2021. februāris      | 10.0.19      |   Unikālā sertifikācija – 2021. gads  |
-|      Latvija         |   2020. decembris      | 10.0.17      |   Intrastat formāts tiek atjaunināts, sākot no 2021  |
-|      Lietuva         |   2021. marts      | 10.0.18      |   SAF-T pārskata versija 2.01  |
-|      Meksika         |   2020. decembris      | 10.0.17      |   Atribūta “Monto” atjauninājums |
-|      Nīderlande         |   2020. decembris      | 10.0.17     |   Nīderlandes taksonomijas jaunā versija NT15 |
-|      Polija          |   2021. janvāris     | 10.0.17     |   Polija: JPK_KR (SAF uzskaites grāmatas) precizējumi, spēkā no 2021. gada janvāra |
-|      Krievija          |   2021. janvāris     | 10.0.17    |   Jauns formāts īpašuma nodokļa deklarācijai (tehniskā versija 5.07, nevis 5.06) 2020. gada pārskatam|
+|      Omāna         |   2021. jūnijs      | 10.0.21      |   PVN deklarācija  |
+|      Polija          |   2021. jūnijs     | 10.0.21     |   JPK_V7M (V IERAŠANĀS) - Procedurālo iezīmējumu uzlabojumi |
+|      Polija          |   2021. gada jūlijs     | 10.0.21     |   MVK-V7M jauni noteikumi, lai pabeigtu darbību, sākot no 2021. gada jūlija |
 |      Krievija          |   2021. marts     | 10.0.19    |   2020. gada īpašuma nodokļa deklarācijai būs jānorāda gada vidējā vērtība kustamajiem pamatlīdzekļiem|
 |      Krievija          |   2021. marts     | 10.0.19HF    |   2020. gada peļņas nodokļa deklarācijas versija 5.09|
 |      Krievija          |   2021. marts     | 10.0.19    |   Valdības dekrēts N 2200 21.12.2020 nepieciešams pieteikumā 4 jauna formāta transporta rēķinam|
-|      Spānija          |   2020. gada novembris     | 10.0.17    |   SII atjaunināšanas apstiprināšana un kļūdas v.2.1(bis) no 2021. gada 1. janvāra|
-|      Taizeme          |   2021. februāris     | 10.0.17HF    |   Ieturētā veidlapa Por Ngor Dor 53, 3 un 2 |
+|      Krievija          |   2021. jūnijs     | 10.0.21HF, 10.0.20HF, 10.0.19 HF    |   Izmaiņas rēķinu-faktūrrēķinu un labojošo faktūrrēķinu drukāšanas izkārtojumos|
+|      Spānija          |   2021. gada jūlijs     | 10.0.21    |    OSS / IOSS scenārijs - ArlīveRegimenEspecialOTrascendentari = 17- KB4623605|
+|      Zviedrija          |   2021. gada jūlijs     | 10.0.21    |    PVN deklarācijas formāts, tostarp apgrieztās maksas summas|
 |      Apvienotie Arābu Emirāti   |   2021. maijs     | 10.0.20    |   Maksājumu žurnāla iegrāmatošana bankas kontā ar iepriekšēju datumu datētiem čekiem |
-|      Apvienotā Karaliste         |   2020. decembris     | 10.0.17    |   Uzņēmuma nodokļu reģistrācija klientu rēķinos (Breksits – Ziemeļīrijas protokols)|
-|      Apvienotā Karaliste          |   2020. decembris     | 10.0.17    |   Breksits – Ziemeļīrijas protokola ietekme uz uzņēmumiem, kas tirgo preces gan GB, gan NI teritorijās|
-|      Apvienotā Karaliste          |   2021. marts     | 10.0.18    |   MTD PVN> teksta izmaiņas priekšskatījuma drukāšanas izkārtojumā (lodziņi 2,8,9) 2021. gads|
 
 
 

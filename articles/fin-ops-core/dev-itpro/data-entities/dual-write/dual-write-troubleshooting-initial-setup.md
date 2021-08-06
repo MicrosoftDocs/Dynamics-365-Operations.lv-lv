@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: c641849b2aec76124b6661f339175325a312efce
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 0e7316d7749566b74835acded0addb2fa4b0e858
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350840"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542419"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Problēmu novēršana sākotnējās iestatīšanas laikā
 
@@ -71,7 +71,7 @@ Lai nodrošinātu programmas piekrišanu, veiciet tālāk norādītās darbības
 
 Lai nodrošinātu, ka duālais ieraksts darbojas pareizi, uzņēmumi, kurus atlasāt konfigurēšanas laikā, tiek izveidoti Dataverse vidē. Pēc noklusējuma šie uzņēmumi ir tikai lasāmi un rekvizīts **IsDualWriteEnable** ir iestatīts uz **True**. Turklāt tiek izveidots noklusējuma piederošās biznesa vienība īpašnieks un komanda un ietverts uzņēmuma nosaukums. Pirms iespējojat kartes, pārbaudiet, vai ir norādīts noklusējuma grupas īpašnieks. Lai atrastu tabulu **Uzņēmumi (CDM\_Uzņēmums)**, veiciet tālāk norādītās darbības.
 
-1. Modeļa vadītajā programmā pakalpojumā Dynamics 365 augšējā labajā stūrī atlasiet filtru.
+1. Customer Engagement programmā atlasiet filtru augšējā labajā stūrī.
 2. Nolaižamajā sarakstā atlasiet **Uzņēmums**.
 3. Atlasiet **Palaist**, lai skatītu rezultātus.
 4. Atlasiet uzņēmumu, kas bija saistīts, konfigurējot duālo ierakstu.

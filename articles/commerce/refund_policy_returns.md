@@ -2,7 +2,7 @@
 title: Izveidot un atjaunināt kanāla atgriešanas un atmaksas politiku
 description: Šajā tēmā izskaidrots, kā iestatīt atgriešanas un atmaksas politiku kanālam.
 author: ShalabhjainMSFT
-ms.date: 07/02/2021
+ms.date: 07/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 6cb2bb77a62ee9fc2ea6115949e30496bf3365c4
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ca5797cfc2d92c4cbc98d3f64d60e1fd260f0418
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345112"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558301"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Izveidot un atjaunināt kanāla atgriešanas un atmaksas politiku
 
@@ -36,12 +36,21 @@ Politikas darbības sfēra pašlaik ir ierobežota, nosakot maksājuma norēķin
 
 ## <a name="enable-return-policy"></a>Atgriešanas politikas iespējošana
 
-Lai iespējotu kanāla atgriešanas politikas funkcionalitāti, rīkojieties šādi:
+Lai iespējotu kanāla atgriešanas politikas funkcionalitāti programmā Commerce Headquarters, veiciet tālāk minētās darbības.
 
 1. Ejiet uz **Līdzekļu pārvaldības** darbtelpu pakalpojumā Dynamics 365 Commerce.
 1. Funkciju nosaukumu sarakstā meklējiet funkciju **iespējot kanāla atgriešanas politikas**.
 1. Atlasiet **Iespējot tagad**.
-1. Lapā **Sadales grafiks** palaidiet darbu **1110** (Globālā konfigurācija), lai sadalītu līdzekļa izmaiņas. 
+1. Lapā **Sadales grafiks** palaidiet darbu **1110** (Globālā konfigurācija), lai sadalītu līdzekļa izmaiņas.
+
+## <a name="initialize-the-commerce-scheduler"></a>Commerce plānotāja inicializēšana
+
+Pēc līdzekļa **Iespējotā kanāla atgriešanas politiku iespējošana** ir jāinicializē Commerce plānotājs, lai nodrošinātu, ka jaunās līdzekļu datu bāzes izmaiņas tiek pievienotas, izmantojot Commerce Data Exchange (CDX) sinhronizāciju. 
+
+Lai inicializētu Commerce plānotāju Commerce Headquarters, veiciet tālāk norādītās darbības.
+
+- Dodieties uz **Retail un Commerce \> Headquarters uzstādīšanas programmas \> Commerce plānotājs \> Inicializēt komercijas plānotāju**. Varat arī meklēt “inicializēt Commerce plānotāju.”
+- Dialoglodziņā **Inicializēt komercijas plānotāju** pārliecinieties, vai opcija **Dzēst esošo konfigurāciju** ir iestatīta uz **Nē** un pēc tam atlasiet **Labi**.
 
 ## <a name="configure-return-policy"></a>Atgriešanas politikas konfigurēšana
 

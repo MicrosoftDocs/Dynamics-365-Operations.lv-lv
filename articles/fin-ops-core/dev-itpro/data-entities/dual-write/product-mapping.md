@@ -4,24 +4,17 @@ description: Šajā tēmā ir aprakstīta preču datu integrācija starp program
 author: t-benebo
 ms.date: 12/12/2019
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 115eaad4f11fc4fb5321f0d8bb9d4f5a9f2f2c7c
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 7b477ad83d2e101715ab85ea3f6b703732950dea
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358597"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542371"
 ---
 # <a name="unified-product-experience"></a>Vienotā preču pieredze
 
@@ -49,100 +42,96 @@ Duālā ieraksta tabulas kartes precēm ir izveidotas, lai virzītu datus tikai 
 
 Preces informācijā ir ietverts viss nepieciešamais, kas saistīts ar preci un tās definīciju, piemēram, preces dimensijas vai izsekošana un noliktavas dimensijas. Kā redzams šajā tabulā, tiek izveidota tabulas karšu kolekcija, lai sinhronizētu preces un saistīto informāciju.
 
-Finance and Operations programmas | Citas Dynamics 365 programmas | apraksts
+Finance and Operations programmas | Citas Dynamics 365 programmas | Apraksts
 -----------------------|--------------------------------|---
-Izlaistās preces V2 | msdyn\_sharedproductdetails | **msdyn\_sharedproductdetails** tabula satur kolonnas no Finance and Operations lietojumprogrammām, kas nosaka preci un kurās ir ietverta preces finanšu un pārvaldības informācija. 
-Dataverse izlaistās atšķirīgās preces | Produkts | **Preces** tabula satur kolonnas, kas definē preci. Tā ietver atsevišķas preces (preces ar apakštipa preci) un preces variantus. Tālāk esošajā tabulā parādīta kartēšana.
-Produkta numura identifikācijas svītrkods | msdyn\_productbarcodes | Preču svītrkodi tiek izmantoti, lai unikāli identificētu preces.
-Pasūtījuma noklusējuma iestatījumi | msdyn\_productdefaultordersettings
-Īpaši preču noklusējuma pasūtījuma iestatījumi | msdyn_productdefaultordersettings
-Preces dimensiju grupas | msdyn\_productdimensiongroups | Preču dimensiju grupa definē, kuras preces dimensijas definē preci. 
-Noliktavas dimensiju grupas | msdyn\_productstoragedimensiongroups | Produktu noliktavas dimensiju grupa atbilst metodei, kas tiek izmantota, lai definētu preces novietojumu noliktavā.
-Izsekošanas dimensiju grupas | msdyn\_productstoragedimensiongroups | Preču izsekošanas dimensiju grupa parāda metodi, kas tiek izmantota, lai izsekotu preci krājumos.
-Krāsas | msdyn\_productcolors
-Izmēri | msdyn\_productsizes
-Stili | msdyn\_productsytles
-Konfigurācijas | msdyn\_productconfigurations
-Preces šablona krāsas | msdyn_sharedproductcolors | **Koplietojamās preces krāsas** tabula norāda krāsas, kas var būt konkrētam preces šablonam. Šis jēdziens tiek migrēts uz Dataverse, lai saglabātu datus saskaņotus.
-Preces šablona izmēri | msdyn_sharedproductsizes | Tabula **Koplietojamās preces izmērs** norāda izmērus, kas var būt konkrētam preces šablonam. Šis jēdziens tiek migrēts uz Dataverse, lai saglabātu datus saskaņotus.
-Preces šablona stili | msdyn_sharedproductstyles | **Koplietojamās preces stila** tabula norāda stilus, kas var būt konkrētam preces šablonam. Šis jēdziens tiek migrēts uz Dataverse, lai saglabātu datus saskaņotus.
-Preces šablona konfigurācijas | msdyn_sharedproductconfigurations | **Koplietojamo preču konfigurācijas** tabula norāda konfigurācijas, kas var būt konkrētam preces šablonam. Šis jēdziens tiek migrēts uz Dataverse, lai saglabātu datus saskaņotus.
-Visas preces | msdyn_globalproducts | Visu preču tabula satur visas preces, kas pieejamas Finance and Operations lietojumprogrammās: gan izlaistas, gan neizlaistas preces.
-Vienība | uoms
-Mērvienību pārveidošana | msdyn_ unitofmeasureconversions
-Īpaša preces mērvienības konversija | msdyn_productspecificunitofmeasureconversion
-Preces kategorijas | msdyn_productcategories | Katra no preču kategorijām un informācija par tās struktūru un raksturlielumiem ir ietverta preču kategorijas tabulā. 
-Preču kategoriju hierarhijas | msdyn_productcategoryhierarhies | Varat izmantot preču hierarhijas, lai dalītu preces kategorijās vai grupās. Kategoriju hierarhijas ir pieejamas pakalpojumā Dataverse, izmantojot preču kategoriju hierarhijas tabulu. 
-Preču kategoriju hierarhijas lomas | msdyn_productcategoryhierarchies | Preču hierarhijas var izmantot atšķirīgām lomām D365 Finance and Operations. Tās norāda, kura kategorija tiek izmantota katrai lomai, kurā preču kategorijas lomā tabula tiek izmantota. 
-Preču kategoriju piešķires | msdyn_productcategoryassignments | Lai piešķirtu preci kategorijai, var izmantot preču kategorijas piešķires tabulu.
+[Visas preces](mapping-reference.md#138) | msdyn_globalproducts | Visu preču tabula satur visas preces, kas pieejamas Finance and Operations lietojumprogrammās: gan izlaistas, gan neizlaistas preces.
+[CDS izlaistās atšķirīgās preces](mapping-reference.md#213) | Produkts | **Preces** tabula satur kolonnas, kas definē preci. Tā ietver atsevišķas preces (preces ar apakštipa preci) un preces variantus. Tālāk esošajā tabulā parādīta kartēšana.
+[Krāsas](mapping-reference.md#170) | msdyn\_productcolors
+[Konfigurācijas](mapping-reference.md#171) | msdyn\_productconfigurations
+[Pasūtījuma noklusējuma iestatījumi](mapping-reference.md#172) | msdyn_productdefaultordersettings |
+[Preces kategorijas](mapping-reference.md#166) | msdyn_productcategories | Katra no preču kategorijām un informācija par tās struktūru un raksturlielumiem ir ietverta preču kategorijas tabulā.
+[Preču kategoriju piešķires](mapping-reference.md#167) | msdyn_productcategoryassignments | Lai piešķirtu preci kategorijai, var izmantot preču kategorijas piešķires tabulu.
+[Preču kategoriju hierarhijas](mapping-reference.md#168) | msdyn_productcategoryhierarchies | Varat izmantot preču hierarhijas, lai dalītu preces kategorijās vai grupās. Kategoriju hierarhijas ir pieejamas pakalpojumā Dataverse, izmantojot preču kategoriju hierarhijas tabulu.
+[Preču kategoriju hierarhijas lomas](mapping-reference.md#169) | msdyn_productcategoryhierarchyroles | Preču hierarhijas var izmantot atšķirīgām lomām D365 Finance and Operations. Tās norāda, kura kategorija tiek izmantota katrai lomai, kurā preču kategorijas lomā tabula tiek izmantota.
+[Preču noklusējuma pasūtījuma iestatījumi V2](mapping-reference.md#175) | msdyn_productspecificdefaultordersettings |
+[Preces dimensiju grupas](mapping-reference.md#173) | msdyn\_productdimensiongroups | Preču dimensiju grupa definē, kuras preces dimensijas definē preci.
+[Preces šablona krāsas](mapping-reference.md#187) | msdyn_sharedproductcolors | **Koplietojamās preces krāsas** tabula norāda krāsas, kas var būt konkrētam preces šablonam. Šis jēdziens tiek migrēts uz Dataverse, lai saglabātu datus saskaņotus.
+[Preces šablona konfigurācijas](mapping-reference.md#188) | msdyn_sharedproductconfigurations | **Koplietojamo preču konfigurācijas** tabula norāda konfigurācijas, kas var būt konkrētam preces šablonam. Šis jēdziens tiek migrēts uz Dataverse, lai saglabātu datus saskaņotus.
+[Preces šablona izmēri](mapping-reference.md#190) | msdyn_sharedproductsizes | Tabula **Koplietojamās preces izmērs** norāda izmērus, kas var būt konkrētam preces šablonam. Šis jēdziens tiek migrēts uz Dataverse, lai saglabātu datus saskaņotus.
+[Preces šablona stili](mapping-reference.md#191) | msdyn_sharedproductstyles | **Koplietojamās preces stila** tabula norāda stilus, kas var būt konkrētam preces šablonam. Šis jēdziens tiek migrēts uz Dataverse, lai saglabātu datus saskaņotus.
+[Produkta numura identifikācijas svītrkods](mapping-reference.md#164) | msdyn\_productbarcodes | Preču svītrkodi tiek izmantoti, lai unikāli identificētu preces.
+[Precei specifisku mērvienību pārveidošana](mapping-reference.md#176) | msdyn_productspecificunitofmeasureconversions |
+[Izlaistās preces V2](mapping-reference.md#189) | msdyn\_sharedproductdetails | **msdyn\_sharedproductdetails** tabula satur kolonnas no Finance and Operations lietojumprogrammām, kas nosaka preci un kurās ir ietverta preces finanšu un pārvaldības informācija.
+[Izmēri](mapping-reference.md#174) | msdyn\_productsizes
+[Noliktavas dimensiju grupas](mapping-reference.md#177) | msdyn_productstoragedimensiongroups | Produktu noliktavas dimensiju grupa atbilst metodei, kas tiek izmantota, lai definētu preces novietojumu noliktavā.
+[Stili](mapping-reference.md#178) | msdyn\_productsytles
+[Izsekošanas dimensiju grupas](mapping-reference.md#179) | msdyn_producttrackingdimensiongroups | Preču izsekošanas dimensiju grupa parāda metodi, kas tiek izmantota, lai izsekotu preci krājumos.
+[Vienības](mapping-reference.md#219) | uoms
+[Mērvienību pārveidošana](mapping-reference.md#199) | msdyn_ unitofmeasureconversions
 
 ## <a name="integration-of-products"></a>Preču integrēšana
 
-Šajā modelī preci attēlo divu Dataverse tabulu kombinācija: **preces** un **msdyn\_sharedproductdetails**. Tā kā pirmā tabula satur preces definīciju (preces unikālais identifikators, preces nosaukums un apraksts), otrā tabula ietver kolonnas, kas tiek glabātas preču līmenī. Šo divu tabulu kombinācija tiek izmantota, lai definētu preci atbilstoši krājumu uzskaites vienības (SKU) koncepcijai. Katrai izlaistajai precei būs sava informācija minētajās tabulās (Prece un Koplietojamā informācija par preci). Lai izsekotu visām precēm (izlaistām un neizlaistām), tiek izmantota tabula **Globālās preces**. 
+Šajā modelī preci attēlo divu Dataverse tabulu kombinācija: **preces** un **msdyn\_sharedproductdetails**. Tā kā pirmā tabula satur preces definīciju (preces unikālais identifikators, preces nosaukums un apraksts), otrā tabula ietver kolonnas, kas tiek glabātas preču līmenī. Šo divu tabulu kombinācija tiek izmantota, lai definētu preci atbilstoši krājumu uzskaites vienības (SKU) koncepcijai. Katrai izlaistajai precei būs sava informācija minētajās tabulās (Prece un Koplietojamā informācija par preci). Lai izsekotu visām precēm (izlaistām un neizlaistām), tiek izmantota tabula **Globālās preces**.
 
 Tā kā produkts tiek attēlots kā SKU, atšķirīgu preču, preču šablonu un preču variantu koncepcijas var uztvert Dataverse šādi:
 
 - **Preces ar apakštipa preci** ir preces, kas definētas pašas. Dimensijas nav jādefinē. Piemērs ir noteikta grāmata. Šīm precēm viens ieraksts tiek izveidots **Preces** tabulā, un viens ieraksts tiek izveidots **msdyn\_sharedproductdetails** tabulā. Nav izveidota neviena preču saimes rinda.
 - **Preču šabloni** tiek izmantoti kā ģenēriskas preces, kas satur definīciju un nosacījumus, kas nosaka biznesa procesu darbību. Balstoties uz šīm definīcijām, var tikt ģenerētas atšķirīgas preces, kas zināmas kā preces varianti. Piemēram, T-krekls ir preces šablons, un tam var būt Krāsa un Izmērs dimensiju veidā. Var izlaist variantus, kuriem ir dažādas šo dimensiju kombinācijas, piemēram, mazs zils T-krekls vai vidēji zaļš T-krekls. Integrācijā katram variantam preču tabulā tiek izveidota viena rinda. Šī rinda satur ar variantu saistītu informāciju, piemēram, dažādas dimensijas. Vispārīgā informācija par preci tiek uzglabāta **msdyn\_sharedproductdetails** tabulā. (Šī ir vispārīga informācija tiek turēta preces pamatinformācijā.) Preces pamatinformācija tiek sinhronizēta Dataverse, tiklīdz tiek izveidots izlaistais preces šablons (bet pirms tiek izlaisti varianti).
-- **Atšķirīgas preces** attiecas uz visām produktu apakštipa precēm un visiem preces variantiem. 
+- **Atšķirīgas preces** attiecas uz visām produktu apakštipa precēm un visiem preces variantiem.
 
 ![Preču datu modelis.](media/dual-write-product.png)
 
-Ar iespējotu duālās rakstīšanas funkcionalitāti Finance and Operations preces tiks sinhronizētas citās Dynamics 365 precēs **Melnraksta** stāvoklī. Tās tiek pievienotas pirmajam cenrādim ar nemainīgu valūtu. Citiem vārdiem, tie ir pievienoti pirmajam cenrādim Dynamics 365 lietojumprogrammā, kas atbilst jūsu juridiskās personas valūtai, kur prece tiek izdota Finance and Operations programmā. Ja dotajā valūtā nav cenu saraksta, automātiski tiks izveidota cenu saraksts un prece tiks tam piešķirta. 
+Ar iespējotu duālās rakstīšanas funkcionalitāti Finance and Operations preces tiks sinhronizētas citās Dynamics 365 precēs **Melnraksta** stāvoklī. Tās tiek pievienotas pirmajam cenrādim ar nemainīgu valūtu. Citiem vārdiem, tie ir pievienoti pirmajam cenrādim Dynamics 365 lietojumprogrammā, kas atbilst jūsu juridiskās personas valūtai, kur prece tiek izdota Finance and Operations programmā. Ja dotajā valūtā nav cenu saraksta, automātiski tiks izveidota cenu saraksts un prece tiks tam piešķirta.
 
 Pašreizējā dubulto ierakstu spraudņu ieviešana, kas saista noklusējuma cenu sarakstu ar vienību, uzmeklē ar programmu Finance and Operations saistīto valūtu un atrod pirmo cenu sarakstu programmā Customer Engagement, izmantojot alfabētisko secību cenu saraksta nosaukumiem. Lai iestatītu noklusējuma cenu sarakstu noteiktai valūtai, kad jums ir vairāki cenu saraksti šai valūtai, cenu saraksta nosaukums ir jāatjaunina uz nosaukumu, kas alfabētiskajā secībā ir agrāk nekā jebkurš cits cenu saraksts tai pašai valūtai.
 
-Pēc noklusējuma preces no Finance and Operations programmām tiek sinhronizētas ar citām Dynamics 365 programmām statusā **Melnraksts**. Lai sinhronizētu preci ar statusu **Aktīvs**, lai varētu to tieši izmantot pārdošanas pasūtījuma piedāvājumos, ir jāizvēlas, piemēram, šāds iestatījums: cilnē **Sistēma > Administrēšana > Sistēmas administrēšana > Sistēmas iestatījumi > Pārdošana** atlasiet opciju **Izveidot preces aktīvā stāvoklī = Jā**. 
+Pēc noklusējuma preces no Finance and Operations programmām tiek sinhronizētas ar citām Dynamics 365 programmām statusā **Melnraksts**. Lai sinhronizētu preci ar statusu **Aktīvs**, lai varētu to tieši izmantot pārdošanas pasūtījuma piedāvājumos, ir jāizvēlas, piemēram, šāds iestatījums: cilnē **Sistēma > Administrēšana > Sistēmas administrēšana > Sistēmas iestatījumi > Pārdošana** atlasiet opciju **Izveidot preces aktīvā stāvoklī = Jā**.
 
 Kad preces ir sinhronizētas, jāievada lauka **Pārdošanas vienība** vērtība programmā Finance and Operations, jo tas ir obligāts lauks programmā Sales.
 
 Preču saimju veidošana no Dynamics 365 Sales netiek atbalstīta, izmantojot preču dubulto ierakstu sinhronizāciju.
 
-Ņemiet vērā, ka preču sinhronizācija notiek no Finance and Operations programmām uz Dataverse. Tas nozīmē, ka preču elementa lauku vērtības var mainīt pakalpojumā Dataverse, taču, kad sinhronizācija tiks uzsākta (kad preces lauks tiek modificēts programmā Finance and Operations ), to vērtības tiks pārrakstītas pakalpojumā Dataverse. 
+Ņemiet vērā, ka preču sinhronizācija notiek no Finance and Operations programmām uz Dataverse. Tas nozīmē, ka preču elementa lauku vērtības var mainīt pakalpojumā Dataverse, taču, kad sinhronizācija tiks uzsākta (kad preces lauks tiek modificēts programmā Finance and Operations ), to vērtības tiks pārrakstītas pakalpojumā Dataverse.
 
-[!include [symbols](../../includes/dual-write-symbols.md)]
+Finance and Operations programmas | Customer engagement programmas |
+---|---
+[CDS izlaistās atšķirīgās preces](mapping-reference.md#213) | Produkts |
+[Izlaistās preces V2](mapping-reference.md#189) | msdyn_sharedproductdetails |
+[Visas preces](mapping-reference.md#138) | msdyn_globalproducts |
 
-[!include [products](includes/EcoResReleasedDistinctProductCDSEntity-products.md)]
+## <a name="product-dimensions"></a>Preces dimensijas
 
-[!include [product details](includes/EcoResReleasedProductV2-msdyn-sharedproductdetails.md)]
-
-[!include [global products](includes/EcoResEveryProductEntity-msdyn-globalproducts.md)]
-
-## <a name="product-dimensions"></a>Preces dimensijas 
-
-Preču dimensijas ir īpašības, ko izmanto, lai identificētu preces variantu. Četras preces dimensijas (krāsa, lielums, stils un konfigurācija) ir arī kartētas Dataverse, lai definētu preces variantus. Sekojošajā attēlā ir parādītas preces dimensijas krāsas datu modelis. Tas pats modelis ir piemērots izmēriem, stiliem un konfigurācijām. 
+Preču dimensijas ir īpašības, ko izmanto, lai identificētu preces variantu. Četras preces dimensijas (krāsa, lielums, stils un konfigurācija) ir arī kartētas Dataverse, lai definētu preces variantus. Sekojošajā attēlā ir parādītas preces dimensijas krāsas datu modelis. Tas pats modelis ir piemērots izmēriem, stiliem un konfigurācijām.
 
 ![Datu modelis preces dimensijām.](media/dual-write-product-two.png)
 
-[!include [product colors](includes/EcoResProductColorEntity-msdyn-productcolor.md)]
-
-[!include [product sizes](includes/EcoResProductSizeEntity-msdyn-productsizes.md)]
-
-[!include [product sizes](includes/EcoResProductStyleEntity-msdyn-productstyles.md)]
-
-[!include [product sizes](includes/EcoResProductConfigurationsEntity-msdyn-productconfigurations.md)]
+Finance and Operations programmas | Customer engagement programmas |
+---|---
+[Krāsas](mapping-reference.md#170) | msdyn\_productcolors
+[Izmēri](mapping-reference.md#174) | msdyn\_productsizes
+[Stili](mapping-reference.md#178) | msdyn\_productsytles
+[Konfigurācijas](mapping-reference.md#171) | msdyn\_productconfigurations
 
 Ja precei ir dažādas preces dimensijas (piemēram, preces šablona izmērs un krāsa ir tādas pašas kā preces dimensijas), katra atšķirīga prece (t.i., katrs preču variants) tiek definēta kā šo preču dimensiju kombinācija. Piemēram, preču numurs B0001 ir īpaši mazs, melns T krekls, un preces numurs B0002 ir neliels melns T krekls. Šādā gadījumā tiek definētas esošās preču dimensiju kombinācijas. Piemēram, no iepriekšējā piemēra T-krekls var būt īpaši mazs un melns, mazs un melns, vidējs un melns vai liels un melns, bet tas nevar būt īpaši liels un melns. Citiem vārdiem sakot, preču dimensijas, ko var veikt preces šablons, ir norādītas, un variantus var izlaist, pamatojoties uz šīm vērtībām.
 
-Lai sekotu preču dimensijām, ko var veikt preces šablons, katrai preces dimensijai tiek izveidotas un kartētas Dataverse tālāk norādītās tabulas. Papildinformāciju skatiet rakstā, [Preču informācija](../../../../supply-chain/pim/product-information.md). 
+Lai sekotu preču dimensijām, ko var veikt preces šablons, katrai preces dimensijai tiek izveidotas un kartētas Dataverse tālāk norādītās tabulas. Papildinformāciju skatiet rakstā, [Preču informācija](../../../../supply-chain/pim/product-information.md).
 
-[!include [product colors](includes/EcoResProductMasterColorEntity-msdyn-sharedproductcolors.md)]
-
-[!include [product sizes](includes/EcoResProductMasterSize-msdyn-sharedproductsizes.md)]
-
-[!include [product styles](includes/EcoResProductMasterStyleEntity-msdyn-sharedproductstyles.md)]
-
-[!include [product configurations](includes/EcoResProductMasterConfigurationEntity-msdyn-sharedproductconfigurations.md)]
-
-[!include [product bar codes](includes/EcoResProductNumberIdentifiedBarcode-msdyn-productbarcodes.md)]
+Finance and Operations programmas | Customer engagement programmas |
+---|---
+[Preces šablona krāsas](mapping-reference.md#187) | msdyn_sharedproductcolors |
+[Preces šablona konfigurācijas](mapping-reference.md#188) | msdyn_sharedproductconfigurations |
+[Preces šablona izmēri](mapping-reference.md#190) | msdyn_sharedproductsizes |
+[Preces šablona stili](mapping-reference.md#191) | msdyn_sharedproductstyles |
+[Produkta numura identifikācijas svītrkods](mapping-reference.md#164) | msdyn\_productbarcodes |
 
 ## <a name="default-order-settings-and-product-specific-default-order-settings"></a>Noklusējuma pasūtījuma iestatījumi un preces specifiskie noklusējuma iestatījumi
 
 Pasūtījuma noklusējuma iestatījumi definē vietu un noliktavu, kur krājumi tiks iegūti vai glabāti, minimālos, maksimālos, vairākkārtējos un standarta daudzumus, kas tiks izmantoti tirdzniecībai vai krājumu pārvaldībai, izpildes laikus, apturēšanas karodziņus un pasūtījumu solīšanas metodes. Šī informācija ir pieejama Dataverse, izmantojot noklusētos pasūtījuma iestatījumus un preces specifiskos noklusējuma pasūtījuma iestatījumu elementu. Plašāku informāciju par funkcionalitāti varat izlasīt tēmā [Noklusējuma pasūtījuma iestatījumi](../../../../supply-chain/production-control/default-order-settings.md).
 
-[!include [product sizes](includes/InventProductDefaultOrderSettingsEntity-msdyn-productdefaultordersetting.md)]
-
-[!include [product sizes](includes/InventProductSpecificOrderSettingsV2Entity-msdyn-productspecificdefaultordersetting.md)]
+Finance and Operations programmas | Customer engagement programmas |
+---|---
+[Pasūtījuma noklusējuma iestatījumi](mapping-reference.md#172) | msdyn_productdefaultordersettings |
+[Preču noklusējuma pasūtījuma iestatījumi V2](mapping-reference.md#175) | msdyn_productspecificdefaultordersettings |
 
 ## <a name="unit-of-measure-and-unit-of-measure-conversions"></a>Mērvienība un mērvienību pārvēršana
 
@@ -150,13 +139,13 @@ Mērvienības un to atbilstošais pārveidojums ir pieejami Dataverse sekojošaj
 
 ![Mērvienību datu modelis.](media/dual-write-product-three.png)
 
-Mērvienības koncepcija ir integrēta starp Finance and Operations un citām Dynamics 365 lietojumprogrammām. Katrai mērvienību klasei Finance and Operations lietojumprogrammā tiek izveidota mērvienību grupa Dynamics 365 lietojumprogrammā, kas satur mērvienības, kas pieder pie mērvienību kategorijas. Katrai vienību grupai tiek izveidota arī noklusētā pamatvienība. 
+Mērvienības koncepcija ir integrēta starp Finance and Operations un citām Dynamics 365 lietojumprogrammām. Katrai mērvienību klasei Finance and Operations lietojumprogrammā tiek izveidota mērvienību grupa Dynamics 365 lietojumprogrammā, kas satur mērvienības, kas pieder pie mērvienību kategorijas. Katrai vienību grupai tiek izveidota arī noklusētā pamatvienība.
 
-[!include [unit of measure](includes/UnitOfMeasureEntity-uom.md)]
-
-[!include [unit of measure conversions](includes/UnitOfMeasureConversionEntity-msdyn-unitofmeasureconversions.md)]
-
-[!include [product-specific unit of measure conversions](includes/EcoResProductSpecificUnitConversionEntity-msdyn-productspecificunitofmeasureconversions.md)]
+Finance and Operations programmas | Customer engagement programmas |
+---|---
+[Precei specifisku mērvienību pārveidošana](mapping-reference.md#176) | msdyn_productspecificunitofmeasureconversions |
+[Vienības](mapping-reference.md#219) | uoms
+[Mērvienību pārveidošana](mapping-reference.md#199) | msdyn_ unitofmeasureconversions
 
 ## <a name="initial-synchronization-of-units-data-matching-between-finance-and-operations-and-dataverse"></a>Sākotnējā atbilstošo datu vienību sinhronizēšana starp programmu Finance and Operations un Dataverse
 
@@ -183,50 +172,46 @@ Kolonnai msdyn_symbol jābūt aizpildītai visām vienībām. Vienības vienmēr
 
 ## <a name="product-policies-dimension-tracking-and-storage-groups"></a>Preces politikas: dimensija, izsekošanas un glabāšanas grupas
 
-Preces politikas ir politiku kopas, ko izmanto preču definēšanai un to raksturlielumus krājumos. Produktu dimensiju grupa, preču izsekošanas dimensiju grupa un noliktavas dimensiju grupa ir atrodama kā produktu politikas. 
+Preces politikas ir politiku kopas, ko izmanto preču definēšanai un to raksturlielumus krājumos. Produktu dimensiju grupa, preču izsekošanas dimensiju grupa un noliktavas dimensiju grupa ir atrodama kā produktu politikas.
 
-[!include [product dimension group](includes/EcoResProductDimensionGroup-msdyn-productdimensiongroups.md)]
-
-[!include [product tracking dimension group](includes/EcoResTrackingDimensionGroup-msdyn-producttrackingdimensiongroups.md)]
-
-[!include [product storage dimension group](includes/EcoResStorageDimensionGroup-msdyn-productstoragedimensiongroups.md)]
+Finance and Operations programmas | Customer engagement programmas |
+---|---
+[Preces dimensiju grupas](mapping-reference.md#173) | msdyn\_productdimensiongroups |
+[Noliktavas dimensiju grupas](mapping-reference.md#177) | msdyn_productstoragedimensiongroups |
+[Izsekošanas dimensiju grupas](mapping-reference.md#179) | msdyn_producttrackingdimensiongroups |
 
 ## <a name="product-hierarchies"></a>Preču hierarhijas
 
-[!include [product category hierarchy](includes/EcoResProductCategoryHierarchyEntity-msdyn-productcategoryhierarchy.md)]
+Finance and Operations programmas | Customer engagement programmas |
+---|---
+[Preču kategoriju piešķires](mapping-reference.md#167) | msdyn_productcategoryassignments |
+[Preču kategoriju hierarhijas](mapping-reference.md#168) | msdyn_productcategoryhierarchies |
+[Preču kategoriju hierarhijas lomas](mapping-reference.md#169) | msdyn_productcategoryhierarchyroles |
 
-[!include [product category](includes/EcoResProductCategoryEntity-msdyn-productcategory.md)]
+## <a name="integration-key-for-products"></a>Preču integrācijas atslēga
 
-[!include [product category assignments](includes/EcoResProductCategoryAssignmentEntity-msdyn-productcategoryassignment.md)]
+Lai unikāli identificētu preces starp Dynamics 365 for Finance and Operations un precēm pakalpojumā Dataverse, tiek izmantotas integrācijas atslēgas.
+Precēm **(productnumber)** ir unikāla atslēga, kas identificē preci pakalpojumā Dataverse. To veido šāda konkatenācija: **(uzņēmums, msdyn_productnumber)**. **Uzņēmums** norāda juridisko personu Finance and Operations, un **msdyn_productnumber** norāda preces numuru konkrētai precei Finance and Operations.
 
-[!include [product category role](includes/EcoResProductCategoryHierarchyRoleEntity-msdyn-productcategoryhierarchyrole.md)]
+Citu Dynamics 365 programmu lietotājiem prece tiek identificēta UI ar **msdyn_productnumber** (ņemiet vērā, ka kolonnas etiķete ir **Preces numurs**). Preces veidlapā tiek rādīts gan uzņēmums, gan msydn_productnumber. Tomēr kolonna (productnumber) - unikālā preces atslēga - netiek rādīta.
 
-
-## <a name="integration-key-for-products"></a>Preču integrācijas atslēga 
-
-Lai unikāli identificētu preces starp Dynamics 365 for Finance and Operations un precēm pakalpojumā Dataverse, tiek izmantotas integrācijas atslēgas. Precēm **(productnumber)** ir unikāla atslēga, kas identificē preci pakalpojumā Dataverse. To veido šāda konkatenācija: **(uzņēmums, msdyn_productnumber)**. **Uzņēmums** norāda juridisko personu Finance and Operations, un **msdyn_productnumber** norāda preces numuru konkrētai precei Finance and Operations. 
-
-Citu Dynamics 365 programmu lietotājiem prece tiek identificēta UI ar **msdyn_productnumber** (ņemiet vērā, ka kolonnas etiķete ir **Preces numurs**). Preces veidlapā tiek rādīts gan uzņēmums, gan msydn_productnumber. Tomēr kolonna (productnumber) - unikālā preces atslēga - netiek rādīta. 
-
-Ja izveidojat programmas pakalpojumā Dataverse, ir jāpievērš uzmanība tam, kā izmantojat **productnumber** (unikālo produkta ID) kā integrācijas atslēgu. Nelietojiet **msdyn_productnumber**, jo tā nav unikāla. 
+Ja izveidojat programmas pakalpojumā Dataverse, ir jāpievērš uzmanība tam, kā izmantojat **productnumber** (unikālo produkta ID) kā integrācijas atslēgu. Nelietojiet **msdyn_productnumber**, jo tā nav unikāla.
 
 ## <a name="initial-synchronization-of-products-and-migration-of-data-from-dataverse-to-finance-and-operations"></a>Sākotnējā preču sinhronizācija un datu migrēšana no Dataverse uz Finance and Operations
 
-### <a name="initial-synchronization-of-products"></a>Sākotnējā preču sinhronizācija 
+### <a name="initial-synchronization-of-products"></a>Sākotnējā preču sinhronizācija
 
 Kad duālais ieraksts ir iespējots, preces no Finance and Operations tiek sinhronizētas ar Dataverse un Customer engagement programmām. Preces, kas izveidotas Dataverse un citās Dynamics 365 programmās pirms duālā ieraksta palaišanas, netiks atjauninātas vai saskaņotas ar preču datiem no Finance and Operations programmām.
 
 ### <a name="matching-product-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>Atbilstošie preču dati no Finance and Operations un citām Dynamics 365 programmām
 
 Ja vienas un tās pašas preces tiek turētas (pārklāšanās/salīdzināšana) Finance and Operations un Dataverse, un citās Dynamics 365 programmās, iespējojot duālo ierakstu, tiks veikta preču sinhronizācija no Finance and Operations, un vienai un tai pašai precei parādīsies dublikāta ieraksti pakalpojumā Dataverse.
-Lai izvairītos no iepriekš minētās situācijas, ja citām Dynamics 365 programmām ir produkti, kas pārklājas/saskan ar Finance and Operations, tad administratoram, iespējojot duālo ierakstu, ir jāsāknē lauki **Uzņēmums** (piemērs: "USMF") and **msdyn_productnumber** (piemērs: "1234:Black:S"), pirms tiek veikta preču sinhronizēšana. Citiem vārdiem sakot, šie divi preces lauki pakalpojumā Dataverse ir jāaizpilda ar attiecīgo uzņēmumu Finance and Operations, ar kuru prece ir jāsaskaņo, un ar preces numuru. 
+Lai izvairītos no iepriekš minētās situācijas, ja citām Dynamics 365 programmām ir produkti, kas pārklājas/saskan ar Finance and Operations, tad administratoram, iespējojot duālo ierakstu, ir jāsāknē lauki **Uzņēmums** (piemērs: "USMF") and **msdyn_productnumber** (piemērs: "1234:Black:S"), pirms tiek veikta preču sinhronizēšana. Citiem vārdiem sakot, šie divi preces lauki pakalpojumā Dataverse ir jāaizpilda ar attiecīgo uzņēmumu Finance and Operations, ar kuru prece ir jāsaskaņo, un ar preces numuru.
 
-Pēc tam, kad sinhronizācija ir iespējota un notiek, preces no Finance and Operations tiks sinhronizētas ar saskaņotajām precēm pakalpojumā Dataverse un citās Dynamics 365 programmās. Tas ir attiecināms uz atšķirīgām precēm un preču variantiem. 
-
+Pēc tam, kad sinhronizācija ir iespējota un notiek, preces no Finance and Operations tiks sinhronizētas ar saskaņotajām precēm pakalpojumā Dataverse un citās Dynamics 365 programmās. Tas ir attiecināms uz atšķirīgām precēm un preču variantiem.
 
 ### <a name="migration-of-product-data-from-other-dynamics-365-apps-to-finance-and-operations"></a>Preču datu migrēšana no citām Dynamics 365 programmām uz Finance and Operations
 
-Ja citās Dynamics 365 programmās ir preces, kas nav iekļautas Finance and Operations, administrators var vispirms izmantot **EcoResReleasedProductCreationV2Entity**, lai importētu šīs preces Finance and Operations. Un, otrkārt, saskaņot preču datus no Finance and Operations un citām Dynamics 365 programmām, kā aprakstīts iepriekš. 
-
+Ja citās Dynamics 365 programmās ir preces, kas nav iekļautas Finance and Operations, administrators var vispirms izmantot **EcoResReleasedProductCreationV2Entity**, lai importētu šīs preces Finance and Operations. Un, otrkārt, saskaņot preču datus no Finance and Operations un citām Dynamics 365 programmām, kā aprakstīts iepriekš.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
