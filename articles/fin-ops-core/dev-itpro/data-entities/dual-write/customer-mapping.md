@@ -4,24 +4,17 @@ description: Šajā tēmā aprakstīta debitoru datu integrācija starp programm
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 5af584eb0bdb65942921847219b46b8f93dae79d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 8f85759f650e1c0e2a1d228b6429d218edac8ef4
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350915"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542543"
 ---
 # <a name="integrated-customer-master"></a>Integrētie debitoru pamatdati
 
@@ -29,8 +22,7 @@ ms.locfileid: "6350915"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-
-Klienta datus var apgūt vairāk nekā vienā Dynamics 365 lietojumprogrammā. Piemēram, klienta rinda var rasties, izmantojot pārdošanas darbību programmā Dynamics 365 Sales (modeļa vadītā programmā pakalpojumā Dynamics 365), vai rinda var rasties, izmantojot mazumtirdzniecības darbību pakalpojumā Dynamics 365 Commerce ( Finance and Operations programmā). Neatkarīgi no tā, no kurienes radušies klienta dati, tie tiek integrēti aizkulisēs. Integrētie klientu pamatdati sniedz jums elastību, lai varētu apgūt klienta datus jebkurā Dynamics 365 lietojumprogrammā, un sniedz visaptverošu skatījumu par klientu visā Dynamics 365 lietojumprogrammu komplektā.
+Klienta datus var apgūt vairāk nekā vienā Dynamics 365 lietojumprogrammā. Piemēram, klienta rinda var rasties, izmantojot pārdošanas darbību programmā Dynamics 365 Sales (Customer Engagement programmā), vai rinda var rasties, izmantojot mazumtirdzniecības darbību pakalpojumā Dynamics 365 Commerce (Finance and Operations programmā). Neatkarīgi no tā, no kurienes radušies klienta dati, tie tiek integrēti aizkulisēs. Integrētie klientu pamatdati sniedz jums elastību, lai varētu apgūt klienta datus jebkurā Dynamics 365 lietojumprogrammā, un sniedz visaptverošu skatījumu par klientu visā Dynamics 365 lietojumprogrammu komplektā.
 
 ## <a name="customer-data-flow"></a>Debitora datu plūsma
 
@@ -50,43 +42,18 @@ Kad nepārdodama kontaktpersona piedalās piedāvājumu vai pasūtījumu proces�
 
 Debitora dati ietver visu informāciju par debitoru, piemēram, debitora grupu, adreses, kontaktinformāciju, maksājuma profilu, rēķina profilu un lojalitātes programmas statusu. Tabulas karšu vākšana darbojas kopā debitora datu mijiedarbības laikā, kā redzams nākamajā tabulā.
 
-Finance and Operations programmas | Citas Dynamics 365 programmas         | Apraksts
+Finance and Operations programmas | Customer engagement programmas         | Apraksts
 ----------------------------|---------------------------------|------------
-CDS kontaktpersonas V2             | kontaktpersonas                        | Šī veidne sinhronizē visu primāro, sekundāro un terciāro kontaktpersonas informāciju par debitoriem un kreditoriem.
-Debitoru grupas             | msdyn_customergroups            | Šī veidne sinhronizē debitoru grupas informāciju.
-Debitora maksāšanas metode     | msdyn_customerpaymentmethods    | Šī veidne sinhronizē debitoru maksājuma metodes informāciju.
-Debitori V3                | konti                        | Šī veidne sinhronizē debitora pamatinformāciju komerciāliem un organizācijas debitoriem.
-Debitori V3                | kontaktpersonas                        | Šī veidne sinhronizē klienta pamatdatus par debitoriem un gala lietotājiem.
-Nosaukuma afiksi                | msdyn_nameaffixes               | Šī veidne sinhronizē nosaukumu afiksu atsauces datus par debitoriem un kreditoriem.
-Maksāšanas dienu rindas CDS V2    | msdyn_paymentdaylines           | Šī veidne sinhronizē maksāšanas dienu rindas atsauces datus par debitoriem un kreditoriem.
-Maksāšanas dienas CDS            | msdyn_paymentdays               | Šī veidne sinhronizē maksāšanas dienu atsauces datus par debitoriem un kreditoriem.
-Maksājumu grafika rindas      | msdyn_paymentschedulelines      | Sinhronizē maksāšanas grafika rindu atsauces datus par debitoriem un kreditoriem.
-Maksājumu grafiks            | msdyn_paymentschedules          | Šī veidne sinhronizē maksāšanas grafika atsauces datus par debitoriem un kreditoriem.
-Apmaksas nosacījumi            | msdyn_paymentterms              | Šī veidne sinhronizē maksāšanas nosacījumu (apmaksas nosacījumu) atsauces datus par debitoriem un kreditoriem.
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-[!include [mapping contacts contacts](includes/CDSContactsV2-contacts.md)]
-
-[!include [mapping customer group](includes/CustCustomerGroup-msdyn-customergroups.md)]
-
-[!include [mapping customer payment method](includes/CustomerPaymentMethod-msdyn-customerpaymentmethods.md)]
-
-[!include [mapping customer accounts](includes/CustomersV3-accounts.md)]
-
-[!include [mapping customer contacts](includes/CustomersV3-contacts.md)]
-
-[!include [mapping name affixes](includes/NameAffixes-msdyn-nameaffixes.md)]
-
-[!include [mapping payment day lines](includes/PaymentDayLinesCdsV2-msdyn-paymentdaylines.md)]
-
-[!include [mapping payment days](includes/PaymentDaysCds-msdyn-paymentdays.md)]
-
-[!include [mapping payment schedule lines](includes/PaymentScheduleLines-msdyn-paymentschedulelines.md)]
-
-[!include [mapping payment schedules](includes/PaymentSchedules-msdyn-paymentschedules.md)]
-
-[!include [mapping terms of payment](includes/TermsofPayment-msdyn-paymentterms.md)]
-
+[CDS kontaktpersonas V2](mapping-reference.md#115) | kontaktpersonas | Šī veidne sinhronizē visu primāro, sekundāro un terciāro kontaktpersonas informāciju par debitoriem un kreditoriem.
+[Debitoru grupas](mapping-reference.md#126) | msdyn_customergroups | Šī veidne sinhronizē debitoru grupas informāciju.
+[Debitora maksāšanas metode](mapping-reference.md#127) | msdyn_customerpaymentmethods | Šī veidne sinhronizē debitoru maksājuma metodes informāciju.
+[Debitori V3](mapping-reference.md#101) | konti | Šī veidne sinhronizē debitora pamatinformāciju komerciāliem un organizācijas debitoriem.
+[Debitori V3](mapping-reference.md#116) | kontaktpersonas | Šī veidne sinhronizē klienta pamatdatus par debitoriem un gala lietotājiem.
+[Nosaukuma afiksi](mapping-reference.md#155) | msdyn_nameaffixes | Šī veidne sinhronizē nosaukumu afiksu atsauces datus par debitoriem un kreditoriem.
+[Maksāšanas dienu rindas CDS V2](mapping-reference.md#157) | msdyn_paymentdaylines | Šī veidne sinhronizē maksāšanas dienu rindas atsauces datus par debitoriem un kreditoriem.
+[Maksāšanas dienas CDS](mapping-reference.md#158) | msdyn_paymentdays | Šī veidne sinhronizē maksāšanas dienu atsauces datus par debitoriem un kreditoriem.
+[Maksājumu grafika rindas](mapping-reference.md#159) | msdyn_paymentschedulelines | Sinhronizē maksāšanas grafika rindu atsauces datus par debitoriem un kreditoriem.
+[Maksājumu grafiks](mapping-reference.md#160) | msdyn_paymentschedules | Šī veidne sinhronizē maksāšanas grafika atsauces datus par debitoriem un kreditoriem.
+[Apmaksas nosacījumi](mapping-reference.md#161) | msdyn_paymentterms | Šī veidne sinhronizē maksāšanas nosacījumu (apmaksas nosacījumu) atsauces datus par debitoriem un kreditoriem.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -4,24 +4,17 @@ description: Šajā tēmā ir aprakstīta organizācijas datu integrācija starp
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 77625e6e80bfa45add6839df89d9aae27e41d456
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: d1ad3bc4eef1650b927d9f6dd699f788994c7e87
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355302"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542591"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Organizācijas hierarhija Dataverse
 
@@ -45,32 +38,17 @@ Organizācijas hierarhijas tabulu kartes ir pieejamas datu vienvirziena sinhroni
 
 Preces informācijā ir ietverts viss nepieciešamais, kas saistīts ar preci un tās definīciju, piemēram, preces dimensijas vai izsekošana un noliktavas dimensijas. Kā redzams šajā tabulā, tiek izveidota tabulas karšu kolekcija, lai sinhronizētu preces un saistīto informāciju.
 
-Finance and Operations programmas | Citas Dynamics 365 programmas | apraksts
+Finance and Operations programmas | Customer engagement programmas     | Apraksts
 -----------------------|--------------------------------|---
-Organizācijas hierarhijas nolūki | msdyn_internalorganizationhierarchypurposes | Šī veidne nodrošina organizācijas hierarhijas mērķa tabulas vienvirziena sinhronizāciju.
-Organizācijas hierarhijas tips | msdyn_internalorganizationhierarchytypes | Šī veidne nodrošina organizācijas hierarhijas veida tabulas vienvirziena sinhronizāciju.
-Organizācijas hierarhija — publicēta | msdyn_internalorganizationhierarchies | Šī veidne nodrošina organizācijas hierarhijas publicētās tabulas vienvirziena sinhronizāciju.
-Pārvaldības struktūrvienība | msdyn_internalorganizations |
-Juridiskas personas | msdyn_internalorganizations |
-Juridiskas personas | cdm_companies | Nodrošina juridiskas personas (uzņēmuma) informācijas divvirzienu sinhronizāciju.
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-[!include [Organization hierarchy purposes](includes/OrganizationHierarchyPurpose-msdyn-internalorganizationhierarchypurposes.md)]
-
-[!include [Organization hierarchy type](includes/OrganizationHierarchyType-msdyn-internalorganizationhierarchytypes.md)]
-
-[!include [Organization hierarchy - published](includes/OrganizationHierarchyPublished-msdyn-internalorganizationhierarchies.md)]
+[Juridiskas personas](mapping-reference.md#102) | cdm_companies | Nodrošina juridiskas personas (uzņēmuma) informācijas divvirzienu sinhronizāciju.
+[Juridiskas personas](mapping-reference.md#142) | msdyn_internalorganizations |
+[Pārvaldības struktūrvienība](mapping-reference.md#143) | msdyn_internalorganizations |
+[Organizācijas hierarhija — publicēta](mapping-reference.md#139) | msdyn_internalorganizationhierarchies | Šī veidne nodrošina organizācijas hierarhijas publicētās tabulas vienvirziena sinhronizāciju.
+[Organizācijas hierarhijas nolūki](mapping-reference.md#140) | msdyn_internalorganizationhierarchypurposes | Šī veidne nodrošina organizācijas hierarhijas mērķa tabulas vienvirziena sinhronizāciju.
+[Organizācijas hierarhijas tips](mapping-reference.md#141) | msdyn_internalorganizationhierarchytypes | Šī veidne nodrošina organizācijas hierarhijas veida tabulas vienvirziena sinhronizāciju.
 
 ## <a name="internal-organization"></a>Iekšējā organizācija
 
-Iekšējās organizācijas informācija Dataverse tiek iegūta no divām tabulām — **pārvaldības struktūrvienība** un **juridiska persona**.
-
-[!include [Operating unit](includes/OperatingUnit-msdyn-internalorganizations.md)]
-
-[!include [Legal entities](includes/LegalEntities-msdyn-internalorganizations.md)]
-
-[!include [Legal entities](includes/LegalEntities-Companies.md)]
-
+Iekšējās organizācijas informācija Dataverse tiek iegūta no divām tabulām — **Pārvaldības struktūrvienība** un **Juridiska persona**.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

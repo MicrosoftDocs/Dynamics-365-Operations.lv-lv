@@ -2,7 +2,7 @@
 title: Pārskats
 description: Dynamics 365 Human Resources Lietotāja rokasgrāmata sniedz jums norādījumus, kā iestatīt Human Resources, kompensācijas un atvieglojumus saviem darbiniekiem un pārvaldīt personālu.
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8595bbbce9ab39893b67ee142bcb71996ccd6994
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 8b03865c1e53f943989437ed4839474e37419f2e
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338058"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639514"
 ---
 # <a name="overview"></a>Pārskats
 
@@ -100,13 +100,14 @@ Dynamics 365 Human Resources Lietotāja rokasgrāmata sniedz jums norādījumus,
 [Uzkrāt atvaļinājumu un kavējumu plānus](hr-leave-and-absence-accrue.md)</br>
 [Skatīt analīzi par atvaļinājumu un kavējumu](hr-leave-and-absence-analytics.md)</br>
 [Atvaļinājumu un kavējumu pieprasījumu pārvaldība](hr-employee-self-service-manage-requests.md)</br>
-[Pieprasīt prombūtni](hr-employee-self-service-request-time-off.md)</br>
-[Skatīt grupas un uzņēmuma kalendārus](hr-employee-self-service-calendar.md)</br>
+[Pieprasīt brīvo laiku](hr-employee-self-service-request-time-off.md)</br>
+[Grupas un uzņēmuma kalendāru skatīšana](hr-employee-self-service-calendar.md)</br>
+[Konfigurēt lomu Prombūtnes pārvaldnieks](hr-configure-absence-manager.md)</br>
 
-## <a name="develop-employees"></a>Attīstīt darbiniekus
+## <a name="develop-employees"></a>Darbinieku prasmju attīstīšana
 
 [Veiktspējas pārvaldības pārskats](hr-develop-performance-management-overview.md)</br>
-[Saskaņot darbaspēka prasmes](hr-develop-skills.md)</br>
+[Darbaspēka prasmju saskaņošana](hr-develop-skills.md)</br>
 [Pievienot jūsu veiktspējas žurnālam](hr-develop-add-performance-journal.md)</br>
 [Mērķa izveide](hr-develop-create-goal.md)</br>
 [Veiktspējas pārskata izveide](hr-develop-create-performance-review.md)</br>

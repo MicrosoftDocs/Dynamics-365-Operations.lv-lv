@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c53d28192c5bf673baccd76e4cfb6e0453fe29d
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: e155263daf2f33531abefdc45c5046a5ab5bca11
+ms.sourcegitcommit: 787c94b35f343f4c38fc8efaaa0cfaf20a846368
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6337933"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "6647210"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Sagādes un avotu sākumlapa
 
@@ -76,11 +76,10 @@ Sagāde un avoti aptver visas darbības no preces un pakalpojumus nepieciešamī
 -   [Atkārtota pirkšanas pasūtījuma izveide](tasks/create-repeat-purchase-order.md)
 -   [Pirkšanas pasūtījuma izveide no pārdošanas pasūtījuma](../sales-marketing/tasks/create-purchase-order-sales-order.md)
 -   [Izveidot pirkšanas pasūtījumu vienreizējam piegādātājam](tasks/create-purchase-order-one-time-supplier.md)
--   [Izveidot pirkšanas pasūtījumu ar piegādes grafiku](tasks/create-purchase-order-delivery-schedule.md)
--   [Izveidot pirkšanas atgriešanas pasūtījumu](tasks/create-purchase-return-order.md)
--   [Pirkšanas izpildpasūtījumu izveide no pirkšanas līguma](tasks/create-purchase-release-order-purchase-agreement.md)
--   [Pirkšanas izpildpasūtījumu izveide, veidojot pirkšanas pasūtījumu](tasks/create-purchase-release-order-creating-purchase-order.md)
--   [Izveidot sūtījuma papildināšanas pasūtījumu](../inventory/tasks/create-consignment-replenishment-order.md)
+-   [Pirkšanas pasūtījuma izveide ar piegādes grafiku](tasks/create-purchase-order-delivery-schedule.md)
+-   [Pirkšanas atgriešanas pasūtījuma izveide](tasks/create-purchase-return-order.md)
+-   [Pirkšanas līguma lietošana, veidojot pirkšanas pasūtījumu](tasks/create-purchase-release-order-purchase-agreement.md)
+-   [Sūtījuma papildināšanas pasūtījuma izveide](../inventory/tasks/create-consignment-replenishment-order.md)
 
 ## <a name="prices-and-discounts"></a>Cenas un atlaides
 -   [Pirkšanas līgumi](purchase-agreements.md)

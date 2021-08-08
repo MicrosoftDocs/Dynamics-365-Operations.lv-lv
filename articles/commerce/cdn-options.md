@@ -2,7 +2,7 @@
 title: Satura pieg'ades tīkla ieviešanas opcijas
 description: Šajā tēmā pārskatītas dažādas opcijas satura piegādes tīkla (CDN) ieviešanai, kuru var izmantot ar Microsoft Dynamics 365 Commerce vidēm. Šīs opcijas ietver vietējās, Commerce nodrošinātās Azure Front Door instances un klientam piederošās Azure Front Door instances.
 author: BrianShook
-ms.date: 03/11/2021
+ms.date: 07/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: eec18dbffe33bc6366b4282d05189b31620616d6
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 0e6425d7e473d1d1c263624599d54c6b040d90cb
+ms.sourcegitcommit: a52ad281071b3a49c461e5853e82f302dd33095a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351253"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6657123"
 ---
 # <a name="content-delivery-network-implementation-options"></a>Satura pieg'ades tīkla ieviešanas opcijas
 
@@ -50,7 +50,7 @@ Papildu informāciju par to, kā iestatīt Azure Front Door instanci savai Comme
 
 | Priekšrocības | Trūkumi |
 |------|------|
-| <ul><li>Instance ir iekļauta Commerce izmaksās.</li><li>Tā kā instanci pārvalda Commerce darba grupa, ir nepieciešama mazāka uzturēšana un ir kopīgas iestatīšanas darbības.</li><li>Azure viesotā infrastruktūra ir mērogojama, droša un uzticama.</li><li>Drošligzdu slāņa (SSL) sertifikātam ir nepieciešama vienreizēja iestatīšana, un tas tiek atjaunināts automātiski.</li><li>Instances kļūdas un novirzes no normas uzrauga Commerce darba grupa.</li></ul> | <ul><li>WAF netiek atbalstīts.</li><li>Nav konkrētu pielāgojumu vai iestatīšanas pielāgojumu.</li><li>Instances atjauninājumi vai izmaiņas ir atkarīgas no Commerce darba grupas.</li><li>Apex domēniem ir vajadzīga atsevišķa Azure Front Door instance, lai tos integrētu ar Azure DNS.</li><li>Klientam netiek nodrošināta telemetrija par atbildēm sekundē (RPS) vai kļūdu rādītāju.</li></ul> |
+| <ul><li>Instance ir iekļauta Commerce izmaksās.</li><li>Tā kā instanci pārvalda Commerce darba grupa, ir nepieciešama mazāka uzturēšana un ir kopīgas iestatīšanas darbības.</li><li>Azure viesotā infrastruktūra ir mērogojama, droša un uzticama.</li><li>Drošligzdu slāņa (SSL) sertifikātam ir nepieciešama vienreizēja iestatīšana, un tas tiek atjaunināts automātiski.</li><li>Instances kļūdas un novirzes no normas uzrauga Commerce darba grupa.</li></ul> | <ul><li>MK netiek atbalstīts.</li><li>Nav konkrētu pielāgojumu vai iestatīšanas pielāgojumu.</li><li>Instances atjauninājumi vai izmaiņas ir atkarīgas no Commerce darba grupas.</li><li>Apex domēniem ir vajadzīga atsevišķa Azure Front Door instance, lai tos integrētu ar Azure DNS.</li><li>Klientam netiek nodrošināta telemetrija par atbildēm sekundē (RPS) vai kļūdu rādītāju.</li></ul> |
 
 Šajā attēlā parādīta Commerce nodrošinātas Azure Front Door instances arhitektūra.
 
@@ -74,7 +74,7 @@ Papildu informāciju par to, kā iestatīt Azure Front Door instanci savai Comme
 
 | Priekšrocības | Trūkumi |
 |------|------|
-| <ul><li>Šī opcija ir noderīga, ja esošais domēns jau tiek viesots ārējā CDN.</li><li>Konkurentu CDN (piemēram, Akamai) var būt vairāk WAF iespēju.</li></ul> | <ul><li>Ir nepieciešams atsevišķs līgums un papildu izmaksas.</li><li>SSL var radīt papildu izmaksas.</li><li>Tā kā pakalpojums ir šķirts no Azure mākoņa struktūras, ir jāpārvalda papildu infrastruktūra.</li><li>Pakalpojumam var būt nepieciešamas ilgākas investīcijas galapunkta un drošības iestatīšanā.</li><li>Pakalpojums tiek pašpārvaldīts.</li><li>Pakalpojums tiek pašuzraudzīts.</li></ul> |
+| <ul><li>Šī opcija ir noderīga, ja esošais domēns jau tiek viesots ārējā CDN.</li><li>MK: atkarīgs no ārējā nodrošinātāja.</li></ul> | <ul><li>Ir nepieciešams atsevišķs līgums un papildu izmaksas.</li><li>SSL var radīt papildu izmaksas.</li><li>Tā kā pakalpojums ir šķirts no Azure mākoņa struktūras, ir jāpārvalda papildu infrastruktūra.</li><li>Pakalpojumam var būt nepieciešamas ilgākas investīcijas galapunkta un drošības iestatīšanā.</li><li>Pakalpojums tiek pašpārvaldīts.</li><li>Pakalpojums tiek pašuzraudzīts.</li></ul> |
 
 Šajā attēlā parādīta Commerce infrastruktūra, kas ietver klientam ārēju CDN pakalpojumu.
 
