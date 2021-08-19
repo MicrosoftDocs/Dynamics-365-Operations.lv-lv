@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b05f014600fdac03173a0aacf2ad6cd581b789f0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3673e2a6c135e2dd7cbc593ee737a2f843b2ee2637ae17ce975d157287229646
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809138"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767416"
 ---
 # <a name="formula-designer"></a>Formulas veidotājs
 
@@ -45,11 +45,11 @@ Formulu veidotājam ir divas tālāk norādītās sadaļas.
 
 -   Formulas struktūras koka struktūras skats.
 -   Detalizētas informācijas sadaļa, kurā sniegta detalizēta informācija par atlasītajiem datiem. Atlasot zaru koka skatā, FastTabs tiek atjauninātas detalizētas informācijas sadaļā, pamatojoties uz šo mezglu:
-    -   **Detalizēta informācija par formulas rindu** — skatiet detalizētu informāciju par koka skatā atlasīto formulas rindu.
-    -   **Krājuma dati** — skatiet detalizētu informāciju par galveno krājumu vai krājumiem, kas tiek izmantoti atlasītajā zarā. Varat noklikšķināt uz **Labot izlaisto preci**, lai uzturētu atlasīto krājumu.
-    -   **Formula** — skatiet ar atlasīto zaru saistītās formulas virsrakstu.
-    -   **Maršruts** — skatiet ar atlasīto zaru saistītā maršruta virsrakstu.
-    -   **Maršruta operācijas** — skatiet maršruta operāciju priekšskatījumu. Kad tiek atlasīta materiālu komplekta (MK) rinda, kas ir piešķirta konkrētai operācijai, šī operācija tiek atzīmēta kā **Operācijās nepieciešamie komponenti**.
+    -   **Detalizēta informācija par formulas rindu** — skatiet detalizētu informāciju par koka skatā atlasīto formulas rindu.
+    -   **Krājuma dati** — skatiet detalizētu informāciju par galveno krājumu vai krājumiem, kas tiek izmantoti atlasītajā zarā. Varat noklikšķināt uz **Labot izlaisto preci**, lai uzturētu atlasīto krājumu.
+    -   **Formula** — skatiet ar atlasīto zaru saistītās formulas virsrakstu.
+    -   **Maršruts** — skatiet ar atlasīto zaru saistītā maršruta virsrakstu.
+    -   **Maršruta operācijas** — skatiet maršruta operāciju priekšskatījumu. Kad tiek atlasīta materiālu komplekta (MK) rinda, kas ir piešķirta konkrētai operācijai, šī operācija tiek atzīmēta kā **Operācijās nepieciešamie komponenti**.
 
 ## <a name="select-a-formula-and-route"></a>Atlasīt formulu un maršrutu
 Formulai un maršrutam lietotais filtrs tiek rādīts formulu veidotāja virsrakstā. Jūs varat nomainīt filtru, izmantojot dialoglodziņu **Filtrs**. Tabulā ir aprakstīti šī dialoglodziņa lauki.
@@ -64,7 +64,7 @@ Formulai un maršrutam lietotais filtrs tiek rādīts formulu veidotāja virsrak
 <tbody>
 <tr class="odd">
 <td>Preces dimensijas</td>
-<td>Ja atlasītā pabeigtā prece ir preces šablons, tad aktīvās preces dimensijas varat definēt galvenajai atlasei. Ņemiet vērā, ka gadījumā, ja atverat formulu veidotāju precei, kas nav preces šablons, dialoglodziņā <strong>Filtrs</strong> nevar atlasīt nevienu preces dimensiju.</p></td>
+<td>Ja atlasītā pabeigtā prece ir preces šablons, tad aktīvās preces dimensijas varat definēt galvenajai atlasei. Ņemiet vērā, ka gadījumā, ja atverat formulu veidotāju precei, kas&#39;nav preces šablons, dialoglodziņā <strong>Filtrs</strong> nevar atlasīt nevienu preces dimensiju.</p></td>
 </tr>
 <tr class="even">
 <td>Atrašanās vieta</td>
