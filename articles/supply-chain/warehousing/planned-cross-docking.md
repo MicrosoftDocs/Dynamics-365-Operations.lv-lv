@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 9c31b8dd7d69fee40ecefb6c6bc81c9c2dd17ef7
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 81888e0703c53333ab9697c0445270f2f40c7b9ba02f3ba5fa728aef0b78b3a6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359081"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730014"
 ---
 # <a name="planned-cross-docking"></a>Plānotā pārkraušana sadales centrā
 
@@ -117,6 +117,9 @@ Plānotā pārkraušana sadales centrā tiek ieviesta kā noslodzes grāmatošan
     - **Secības numurs:** *1*
     - **Piegādes avots:** *Pirkuma pasūtījums*
 
+> [!NOTE]
+> Vaicājumu var iestatīt, lai kontrolētu, ja tiek izmantota īpaša pārkraušana sadales centra veidne. Veidnēm pārkraušanas sadales centra vaicājumam ir tikai tabula *InventTable* (krājumi) un iekšējā *WHSInventTable* (WHS krājumi) tabula. Ja vaicājumam vēlaties pievienot citas tabulas, varat tās pievienot, izmantojot tikai *esošos savienojumus* vai *neesošos savienojumus*. Filtrējot savienotās tabulas, katram atbilstošam ierakstam savienotajā tabulā tiek izgūts galvenās tabulas ieraksts. Ja savienojuma tips ir *esošie savienojumi*, meklēšana beidzas pēc pirmās atbilstības meklēšanas. Piemēram, ja pievienojat pārdošanas pasūtījuma rindu tabulu krājumu tabulai, sistēma validē un atgriež krājumus, kuriem vismaz vienai pārdošanas pasūtījuma rindai ir definēts nosacījums. Būtībā dati tiek iegūti no primāras (vienumu) tabulas, nevis no pakārtotās (pārdošanas pasūtījuma rindas) tabulas. Tāpēc filtrēšanu pēc pirmdokumentiem, piemēram, pārdošanas pasūtījuma rindām vai debitoriem, nevar veikt uzreiz.
+
 ### <a name="create-a-work-class"></a>Darba klases izveide
 
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatījumi \> Darbs \> Darba klases**.
@@ -129,7 +132,7 @@ Plānotā pārkraušana sadales centrā tiek ieviesta kā noslodzes grāmatošan
 
 ### <a name="create-a-work-template"></a>Izveidojiet darba veidni
 
-1. Doties uz **Noliktavas vadība \> Iestatīšana \> Darbs \> Darba veidnes**.
+1. Doties uz **Noliktavas pārvaldība \> Iestatīšana \> Darbs \> Darba veidnes**.
 1. Laukā **Darba pasūtījuma veids** atlasiet *Pārkraušana sadales centrā*.
 1. Lai pievienotu rindu cilnē **Pārskats**, darbības rūtī atlasiet **Jauns**.
 1. Jaunajā rindā iestatiet šādas vērtības:
@@ -151,13 +154,16 @@ Plānotā pārkraušana sadales centrā tiek ieviesta kā noslodzes grāmatošan
     - **Darba klases ID:** *Pārkraušana sadales centrā*
 
 1. Atlasiet **Saglabāt** un apstipriniet, ka ir atlasīta rūtiņa **Derīgs** veidnei *51 Pārkraušana sadales centrā*.
+1. Nav obligāti: atlasiet **Rediģēt vaicājumu**, ja vēlaties iestatīt kritērijus, lai kontrolētu, kad un kur tiek izmantota darba veidne.
+
+    Vaicājumu var iestatīt, lai kontrolētu, kad tiek izmantota konkrētā darba veidne. Piemēram, varat norādīt, ka veidni var izmantot darbam tikai noteiktā vietā. Ja vēlaties, lai darba veidne pārkraušanai sadales centrā tiktu lietota noteiktā vietā, tās filtrēšana ir jāveic laukā **Sākuma novietojums**, nevis laukā **Novietojums**, jo saņemšanas procesu darba izveide (pirkšana, pārkraušana sadales centrā un papildināšana) sākas no izvietošanas rindas. Kad darbs ir izveidots, novietojuma direktīva iestata lauku **Novietojuma** uz izvietošanas novietojumu. Tomēr izdošanas vieta tiek glabāta laukā **Sākuma vieta**.
 
 > [!NOTE]
 > Darba klases ID *Izdošanas* un *Izvietošanas* darbu tipiem jābūt vienādiem.
 
 ### <a name="create-location-directives"></a>Novietojuma direktīvu izveide
 
-1. Dodieties uz **Noliktavas vadība \> Iestatījumi \> Novietojuma direktīvas**.
+1. Dodieties uz **Noliktavas pārvaldība \> Iestatījumi \> Novietojuma direktīvas**.
 1. Laukā **Darba pasūtījuma veids** atlasiet *Pārkraušana sadales centrā*.
 1. Darbību rūtī atlasiet **Jauns**, un pēc tam iestatiet šādas vērtības:
 

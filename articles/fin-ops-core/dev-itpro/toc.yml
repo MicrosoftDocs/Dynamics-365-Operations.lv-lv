@@ -14,6 +14,8 @@
               items:
                 - name: Jaunumi un izmaiņas Platform atjauninājumu sākumlapā
                   href: get-started/whats-new-home-page.md
+                - name: "Platform atjauninājumi versijai\_10.0.21 (2021.\_gada oktobris)"
+                  href: get-started/whats-new-platform-updates-10-0-21.md
                 - name: "Platform atjauninājumi versijai\_10.0.20 (2021.\_gada augusts)"
                   href: get-started/whats-new-platform-updates-10-0-20.md
                 - name: "Platform atjauninājumi versijai\_10.0.19 (2021.\_gada jūnijs)"
@@ -446,6 +448,8 @@
                       href: deployment/onprem-adfscompatibility.md
                     - name: Vietējā aģenta pirmsizvietošanas un pēcizvietošanas skripti
                       href: lifecycle-services/pre-post-scripts.md
+                    - name: Lokālā aģenta izvietošanas konfigurācijas
+                      href: deployment/onprem-localagent-options.md
                     - name: Lokālā aģenta atjaunināšana
                       href: lifecycle-services/update-local-agent.md
                 - name: Problēmu novēršana
