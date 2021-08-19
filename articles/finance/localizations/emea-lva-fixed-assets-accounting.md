@@ -15,12 +15,12 @@ ms.search.region: Latvia
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4b76bc1ff4e2e62f78b2fe21e9e1ea29428acb09
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dc8d8829a58ff2abfe210e58ca59d6e995cabb997629bdd0f4878ea1e6352229
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840977"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715924"
 ---
 # <a name="fixed-assets-accounting-for-tax-purposes"></a>Pamatlīdzekļu uzskaite nodokļu aprēķinam
 

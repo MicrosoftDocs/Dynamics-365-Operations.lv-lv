@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d55ee9a851e2a7bfbba7d60b0b1fc774c4f6c170
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d25db42351529fafbc68313c992f873918cd5e8638d9dc9417cb04f1ba5698f3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830320"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6711933"
 ---
 # <a name="inventory-close"></a>Krājumu slēgšana
 
@@ -61,7 +61,7 @@ Virsgrāmatas konti, kas tiek atjaunināti saistībā ar šo uzdevumu izpildi, t
 > - Pirms slēgšanas procedūras izpildes var skatīt to krājumu sarakstu, kuru atjaunināšanas laikā nevar nosegt.
 > - Krājumu slēgšanu ir ieteicams veikt zemas darba slodzes laikā, lai vienmērīgāk sadalītu skaitļošanas resursus.
 
-## <a name="the-inventory-close-log"></a> Krājumu slēgšanas žurnāls
+## <a name="the-inventory-close-log"></a>Krājumu slēgšanas žurnāls
 Kad krājumu slēgšanas process ir pabeigts, iespējams, ka ziņojumu centrā tiek parādīts ziņojums ar informāciju, ka vienības pašizmaksa var būt nepareiza, jo transakciju nevar pilnībā nosegt. 
 
 Pirms šī ziņojuma parādīšanas sistēmā tiek parādīts krājuma numurs un ietekmētā transakcija. Ziņojumā ir iekļauta informācija, ka šajā transakcijā izmantotais izmaksu apjoms nav atjaunināts krājumu slēgšanas dēļ. Ziņojums tiek parādīts, ja nevar nosegt izejas plūsmas veida transakciju. 

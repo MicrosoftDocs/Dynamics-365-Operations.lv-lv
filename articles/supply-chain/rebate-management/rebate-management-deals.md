@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 7ba42df021eddccbae389321b38828c7a92e50c8
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 5b8a1beae80ad63f26cd1b532d1d6026a5b38a8701c9c1d0aadfee5da8965477
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020511"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716496"
 ---
 # <a name="rebate-management-deals"></a>Atlaižu pārvaldības darījumi
 
@@ -102,6 +102,7 @@ Pēc tam, kad esat izveidojis darījumu, kā aprakstīts iepriekšējā sadaļā
         - *Visi* – darījuma rinda attiecas uz visiem krājumiem.
 
     - **Krājuma saistība** - Ja laukā **Krājuma kods** atlasījāt *Tabula*, atlasiet attiecīgo krājumu, uz kuru attiecas darījums. Ja atlasījāt *Grupa*, atlasiet krājumu grupu. Ja atlasījāt vērtību *Visi*, šis lauks nav pieejams.
+    - **Vienības veids** — atlasiet vienības veidu, kas attiecas uz darījuma rindu (*Krājumu vienība* vai *Pieļaujamā svara vienība*). Ievērojiet, ka šis lauks vecākiem ierakstiem var būt tukšs. Šajā gadījumā tiek pieņemts, ka vērtība *Krājuma vienība* ir norādīta.
     - **(Krājumu vadības parametri)** – atlikušajos darījuma rindas laukos norādiet krājumu vadības parametru vērtības, kas tiks izmantotas, lai definētu krājumus, kas ir iekļauti darījumā (piemēram, krājuma izmērs, krāsa, stils, vieta un noliktava). Lai pievienotu vai noņemtu dimensijas, darbību rūtī atlasiet **Rādīt dimensijas**.
 
 1. Darbību rūtī atlasiet **Saglabāt**.
@@ -118,7 +119,7 @@ Kopsavilkuma cilnes **Atlaižu pārvaldības informācija** cilnē **Vispārīgi
 
 | Lauks | Apraksts |
 |---|---|
-| Aprēķina metode | Atlasiet metodi, kuru izmantot, kad atlasītā darījuma rinda ir kombinēta ar citām darījuma rindām (*Pakāpenisks*,*Kumulatīvs*, *Secīgs* vai *Kopējs*). Šī lauka vērtība var ievērojami ietekmēt atlaižu aprēķinu rezultātu. Lai iegūtu pilnu aprakstu par katru metodi un piemērus, kas parāda, kā tā ietekmē atlaides aprēķinu, skatiet tālāk šīs tēmas sadaļā [Darījuma rindu aprēķināšanas metodes](#calc-methods). |
+| Aprēķina metode | Atlasiet metodi, kuru izmantot, kad atlasītā darījuma rinda ir kombinēta ar citām darījuma rindām (*Pakāpenisks*, *Kumulatīvs*, *Secīgs* vai *Kopējs*). Šī lauka vērtība var ievērojami ietekmēt atlaižu aprēķinu rezultātu. Lai iegūtu pilnu aprakstu par katru metodi un piemērus, kas parāda, kā tā ietekmē atlaides aprēķinu, skatiet tālāk šīs tēmas sadaļā [Darījuma rindu aprēķināšanas metodes](#calc-methods). |
 | Pamats | Atlasiet, vai atlaide tiek piemērota, pamatojoties uz daudzumu (t.i., uz kopējo nopirkto vai pārdoto preču skaitu) vai uz vērtību (t.i., uz kopējo iegādāto vai pārdoto preču cenu). |
 | Darījuma veids | <p>Atlasiet procesa punktu, kad jāveic aprēķins:</p><ul><li>*Pasūtījums* – izmantot pasūtīto daudzumu vai vērtību kā pamatu aprēķinam.</li><li>*Piegādāts* – izmantot pasūtīto daudzumu vai vērtību kā pamatu aprēķinam.</li><li>*Rēķins* – izmantot aprēķināto daudzumu vai vērtību kā pamatu aprēķinam.</li></ul> |
 | Vienība | Ja atlasījāt *Daudzumu* laukā **Pamata**, atlasiet vienību, kurā ir jānorāda šis daudzums. |

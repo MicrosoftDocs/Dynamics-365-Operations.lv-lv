@@ -2,7 +2,7 @@
 title: Elektronisko pārskatu konfigurāciju atkarības no citiem komponentiem definēšana
 description: Šajā tēmā aprakstīts, kā projektēt elektronisko pārskatu (ER) konfigurāciju un noteikt tās atkarību no citiem programmatūras komponentiem.
 author: NickSelin
-ms.date: 06/23/2017
+ms.date: 07/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e4aef052a77428bb783a3a098754ca4dcc1b4296
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2901092938dae5ae14480716eeeb2b0386848332e91ad388ce5d34437f8492ba
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5755110"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717598"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Elektronisko pārskatu konfigurāciju atkarības no citiem komponentiem definēšana
 
@@ -138,5 +138,8 @@ Mēs dzēsīsim izveidotās konfigurācijas no sistēmas un lejupielādēsim tā
     * Ņemiet vērā, ka kartējuma konfigurācija 'Parauga kartēšana' tika lejupielādēta kopā ar atlasīto datu modeļa konfigurāciju. Divi faili tika lejupielādēti kopā, jo 'Parauga kartēšana' ir definēts kā atlasītā datu modeļa ieviešana, un tas ir piemērojams risinājumam programmai. Konfigurācija 'Parauga kartēšana (alternatīvi)' netika lejupielādēta, jo nosacījums nepieciešamajai programmas versijai nav izpildīts.   
     * Ja pierakstīsities risinājumā Finance and Operations, reģistrēsit tādu pašu nodrošinātāju, piekļūsit tādam pašam LCS projektam un lejupielādēsit tādu pašu datu modeļa konfigurāciju, konfigurācija 'Parauga kartēšana (alternatīvi)' tiks lejupielādēta, savukārt konfigurācija 'Parauga kartēšana' tiks izlaista.  
 
+## <a name="additional-resources"></a>Papildu resursi
+
+[Elektronisko pārskatu veidošanas (ER) konfigurācijas dzīves cikla pārvaldība](../general-electronic-reporting-manage-configuration-lifecycle.md)
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

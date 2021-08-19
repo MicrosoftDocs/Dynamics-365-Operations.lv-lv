@@ -1,6 +1,6 @@
 ---
-title: Container modulis
-description: Šajā tēmā aplūkoti Container moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
+title: Konteinera modulis
+description: Šajā tēmā aplūkoti konteinera moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 59887b058346d55341e68d553ec5dfbc6eb365d6
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 752d0ddc6f666a5d96a2593c8c246a82dc7e1de2fd4bd2356a275222d7abec29
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347570"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715444"
 ---
 # <a name="container-module"></a>Konteinera modulis
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aplūkoti Container moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
+Šajā tēmā aplūkoti konteinera moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
 
 Konteinera modulis ir modulis, kas vieso citus moduļus. Konteinera moduļa galvenais nolūks ir definēt, izmantojot tam iestatītos rekvizītus, iekšā esošo moduļu izkārtojumu. Piemēram, šie moduļi var parādīties blakus divu kolonnu, trīs kolonnu, četru kolonnu vai sešu kolonnu izkārtojumā. Tie var būt ierobežoti ar konteinera platumu vai arī var aizpildīt ekrānu. Virsrakstu var pievienot arī katram konteinera modulim.
 

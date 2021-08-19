@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f6b3f682906dacc4e284b77e75e0c6dc99b2e06
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: fc026562d06fcc569cebe540d47b6ef9185c2bc3a131363748e7c08b2d0f7b1c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336935"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713594"
 ---
 # <a name="time-and-attendance-registration-overview"></a>Laika un apmeklētības reģistrācijas pārskats
 
@@ -42,7 +42,7 @@ Uzņēmumos, kuros ir laika un apmeklētības reģistrācija, darbiniekiem ir j�
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ja veicat laika un apmeklētības reģistrāciju kopā ar ražošanas izpildi, visas reģistrācijas par projektiem, projektu aktivitātēm, netiešām aktivitātēm, kavējumu kodiem, virsstundām un brīvā režīma laiku tiks veiktas algas aprēķināšanai abos moduļos. |
 
-## <a name="time-registrations-workers"></a> Darbinieku laika reģistrācija
+## <a name="time-registrations-workers"></a>Darbinieku laika reģistrācija
 
 Lai reģistrētu laiku un kavējumu, darbinieki jāiestata kā uzņēmumā nodarbināti darbinieki ar laika reģistrāciju.
 
@@ -90,7 +90,7 @@ Tāpat kā piešķīrāt reģistrācijas darbiniekam aprēķina grupu, jums jāp
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ja konkrētiem darbiniekiem ir aprēķinātas virsstundas, tās var piešķirt par konkrētiem dienas laika darbiem. Tas jādara, ja darba izmaksas tiek aprēķinātas, pamatojoties uz darbinieka apmaksu. |
 
-## <a name="approving-registrations-using-workflow"></a> Reģistrāciju apstiprināšana, izmantojot darbplūsmu
+## <a name="approving-registrations-using-workflow"></a>Reģistrāciju apstiprināšana, izmantojot darbplūsmu
 
 Ir iespējama iestatīt darbplūsmas apstiprināšanas procesu, kas automātiski apstiprinās reģistrācijas atbilstoši darbplūsmas kārtulām, atstājot tikai manuāli apstrādājamas atkāpes. Ja ir aktivizēta darbplūsmas apstiprināšana, grupas vadītājs vai supervizors iesniedz aprēķinātās reģistrācijas apstiprināšanai. Darbplūsmas process ģenerēs atbilstošus apstiprinājumus un uzdevumus, un pēc tam piešķirs tos attiecīgiem lietotājiem un lomām, kā tas norādīts darbplūsmā. Uz laika un apmeklējuma reģistrāciju attiecas divi darbplūsmas apstiprinājuma veidi.
 

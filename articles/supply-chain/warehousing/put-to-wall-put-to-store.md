@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: cf34a61d0b3f784b5a424473588d05bf8703635c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d8c88b742c1dccb169e47fe96a5c9d9aac35e605be685cc1a0f010826c959db5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823291"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712866"
 ---
 # <a name="put-to-wall---put-to-store"></a>Novietot pie sienas – Novietot veikalā
 
@@ -57,7 +57,7 @@ Līdzekli *Izejošā kārtošana* var izmantot savienojumā ar *Organizācijas l
 
 1. Atlasiet **Saglabāt**.
 
-### <a name="warehouse-management-parameters"></a>Noliktavas vadības parametri
+### <a name="warehouse-management-parameters"></a>Noliktavas pārvaldības parametri
 
 1. Doties uz **Noliktavas pārvaldība \> Iestatījumi \> Noliktavas pārvaldības parametri**.
 1. Cilnē **Vispārīgi**, kopsavilkuma cilnes **Novietojuma veidi** laukā **Kārtošanas novietojuma veids** ievadiet *SORT*.
@@ -263,7 +263,7 @@ Rediģējiet kopuma veidni, kas tiek izmantota kopuma pieprasījuma kārtošanai
 
 ### <a name="mobile-device-menu"></a>Mobilās ierīces izvēlne
 
-1. Dodieties uz **Noliktavas vadība \> Iestatījumi \> Mobilā ierīce \> Mobilās ierīces izvēlne**.
+1. Dodieties uz **Noliktavas pārvaldība \> Iestatījumi \> Mobilā ierīce \> Mobilās ierīces izvēlne**.
 1. Izvēlņu sarakstā atlasiet **Izejošs**.
 1. Darbību rūtī atlasiet **Rediģēt**.
 1. Režģī **Pieejamās izvēlnes un izvēļņu elementi** meklējiet un atlasiet tikko izveidoto izvēlnes elementu **Kārtot**.
@@ -437,7 +437,7 @@ Izpildiet šo procedūru, lai katru pārdošanas pasūtījumu izlaistu noliktav�
     Tiks saņemts informatīvs ziņojums, kurā norādīts izveidotais kopuma ID un sūtījuma ID.
 
 1. Atkārtojiet iepriekšējās darbības, lai izlaistu noliktavā 2. un 3. pārdošanas pasūtījumu. Ievērojiet, ka saņemtais informatīvais ziņojums norāda, ka sūtījums ir pievienots kopumam, kas tika izveidots, izlaižot 1. pārdošanas pasūtījumu.
-1. Dodieties uz **Noliktavas pārvaldība \>Izejošie kopumi \>Sūtījuma kopumi \>Visi kopumi**.
+1. Dodieties uz **Noliktavas pārvaldība \> Izejošie kopumi \> Sūtījuma kopumi \> Visi kopumi**.
 1. Atlasiet kopuma ID, kas tika izveidots no pārdošanas pasūtījuma izlaides, lai atvērtu lapu **Kopumi**. Šajā lapā tiek rādīta kopuma informācija. Kopsavilkuma cilne **Kopuma rindas** rāda izveidotos sūtījumus.
 
     Tagad ir jāizveido darbs, lai krājumus no izdošanas vietām pārnestu uz kārtošanas vietām.
