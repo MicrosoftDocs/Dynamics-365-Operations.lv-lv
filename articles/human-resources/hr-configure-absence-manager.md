@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e8a8250b36d2774ac308637253b780592df316cd
-ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
+ms.openlocfilehash: 050874628388629569751afae201ef346af020da09c81d24a69e1a4b5eb41b6f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6639610"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732349"
 ---
 # <a name="configure-the-absence-manager-role"></a>Konfigurēt lomu Prombūtnes pārvaldnieks
 
@@ -89,16 +89,21 @@ Prombūtnes pārvaldnieka loma ir jāpiešķir darbiniekiem, lai tie varētu aps
 
 ## <a name="absence-manager-workspace"></a>Kavējumu pārvaldnieka darbvieta
 
-Darbvietā **Darbinieku pašapkalpošana** cilne **Prombūtnes pārvaldnieks** parāda prombūtnes informāciju par darbiniekiem, kas ir piešķirti prombūtnes pārvaldniekam atvaļinājumu hierarhijā.
+Darbvietā **Darbinieku pašapkalpošana** cilne **Kavējumu pārvaldnieks** parāda kavējumu informāciju par darbiniekiem, kas ir piešķirti kavējumu pārvaldniekam atvaļinājumu hierarhijā. Kavējumu pārvaldniekam ir pieejamas dažas opcijas: 
+ - Prombūtnes pieprasījumu atcelšana.</br>
+ - Iesniedziet darba laika pieprasījumu darbinieka vārdā.</br>
+ - Skatiet visus darbiniekus, kam tie tika piešķirti kā daļa no kavējumu hierarhijas.</br>
+ - Skatīt kavējumu pārvaldnieka kalendāru.</br>
 
-Cilnē **Atvaļinājums un prombūtne** katram darbiniekam ir pieejamas šādas opcijas:
-
-- **Brīvais laiks** – skatiet bilances, apstiprinātos izslēgtos laikus un izvēlētā darbinieka brīvā laika pieprasījumus.
-- **Atvaļinājuma bilances** – skatiet bilances sarakstu dažādiem atlasītā darbinieka atvaļinājumu plāniem.
+**Atvaļinājumu pārvaldības** darbvietā ir divas cilnes:
+ - **Neierašanās pieprasījumi**: šajā cilnē tiks uzskaitīts visi nenokārtoto laiku kavējumu pieprasījumi, kurus kavējumu vadītājs var apstiprināt. Kavējumu pārvaldnieks var atlasīt vairākus ierakstus un rīkoties ar tiem vienlaicīgi. Ja starpuzņēmumu atvaļinājumu skats ir iespējots, šajā sarakstā tiks rādīti neizlemto laiku pieprasījumi visām juridiskajām personām, kurām viņiem ir piekļuve. Pretējā gadījumā tiks rādīti pašlaik atlasītās juridiskās personas neizlemto laiku pieprasījumi. </br>
+ - **Visi darbinieki** : šajā cilnē tiks uzskaitīti visi darbinieki, kas ir piešķirti kavējumu vadītājam Atvaļinājumu hierarhijā. Katram darbiniekam ir pieejamas dažas opcijas:
+    - **Pieprasījuma laiks** ir izslēgts - iesniegt jaunu atlasītā darbinieka aiziešanas pieprasījuma laiku.</br>
+    - **Brīvais laiks** – skatiet bilances, apstiprinātos izslēgtos laikus un izvēlētā darbinieka brīvā laika pieprasījumus.</br>
 
 ## <a name="approve-time-off-requests"></a>Prombūtnes pieprasījumu apstiprināšana
 
-Prombūtnes pārvaldnieki var apstiprināt vai noraidīt darbinieku brīvā laika pieprasījumus. Pēc vajadzības viņi var izveidot pieprasījumus darbinieku vārdā.
+Prombūtnes pārvaldnieki var apstiprināt vai noraidīt darbinieku brīvā laika pieprasījumus. 
 
 > [!IMPORTANT]
 > Pirms prombūtnes pārvaldnieki var apstiprināt vai noraidīt brīvā laika pieprasījumus, atvaļinājumu pieprasījuma darbplūsma ir jākonfigurē, lai piešķirtu tiem darba pieprasījuma krājumus pārskatīšanai.
@@ -109,15 +114,13 @@ Prombūtnes pārvaldnieki var apstiprināt vai noraidīt darbinieku brīvā laik
 >
 > Informāciju par to, kā izveidot atvaļinājuma pieprasījuma darbplūsmu, skatiet šeit: [Atvaļinājuma pieprasījuma darbplūsmas izveide](hr-leave-and-absence-workflow.md).
 
-1. Darbvietā **Darbinieka pašapkalpošana** atlasiet cilni **Prombūtnes pārvaldnieks**.
+1. Darbvietā **Darbinieka pašapkalpošana** atlasiet cilni **Atvaļinājumu pārvaldnieks**.
 
-2. Cilnē **Prombūtnes pārvaldnieks** atlasiet vēlamo darbinieku.
+2. Cilnē **Izslēgt laiku pieprasījumus** atlasiet pieprasījumus, ar kuriem vēlaties veikt darbības. Šajā saraksta skatā varat atlasīt vairākus ierakstus.
 
-3. Atlasiet **Detaļas** un pēc tam **Brivais laiks**.
+3. Izmantojiet darbības pogas režģa augšpusē, lai apstiprinātu, liegtu vai deleģētu pieprasījumu pēc laika. 
 
-4. Atrodiet brīvā laika pieprasījumu un atlasiet opciju **Apstiprinājums**. Pēc tam varat izvēlēties opciju, lai apstiprinātu vai atceltu brīvā laika pieprasījumu.
-
-Statuss **Atcelšana** norāda, ka pieprasījums ir noraidīts. Statuss **Pabeigts** norāda, ka pieprasījums ir apstiprināts.
+Vai arī lietotājs var izmantot arī **Laiku pieprasījumu** elementu kreisajā pusē, lai pārvietotos uz visu nepieprasamo darba vienumu sarakstu. 
 
 ## <a name="view-time-off-in-the-calendar"></a>Skatīt kalendārā brīvo laiku
 

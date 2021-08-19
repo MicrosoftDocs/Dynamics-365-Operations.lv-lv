@@ -14,12 +14,12 @@ ms.search.region: Latvia
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 6dfd6bc72a272ca47d8e0c45335cf9f8c75c04c2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 991d168f930353011b596a03474a244bd30f33245f5a9ff7071b89e1575a1c4e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840975"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729539"
 ---
 # <a name="fixed-assets-location-change-tracking-for-latvia"></a>Sekošana līdzi pamatlīdzekļu novietojuma maiņām Latvijai
 
