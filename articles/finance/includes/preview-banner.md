@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 7b757b6c4d1fa28b4d9e25e8ab4b01661c7fba7b
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: cc3cdffd30cac3ff7d25a7d0c714648cf6d78db6e18f365bba16e8b835633c33
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893848"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778196"
 ---
 > [!IMPORTANT]
 > Daļa vai visa šajā tēmā minētā funkcionalitāte ir pieejama priekšskatījuma laidienā. Saturs un funkcionalitāte var tikt mainīti. Papildinformāciju par priekšskatījuma laidieniem skatiet sadaļā [Pakalpojuma atjauninājumu pieejamība](/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).

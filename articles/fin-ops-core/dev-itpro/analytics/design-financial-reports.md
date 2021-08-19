@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 96c1cccccd2b20626dba14d9b0cb97bef10732fd
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c13169ab05dd506f75b2c9d28f05fcf4471f5a7c8f0a563c974bc38949993295
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749708"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724447"
 ---
 # <a name="view-and-design-financial-reports"></a>Skatīt un izveidot finanšu pārskatus
 
@@ -151,7 +151,7 @@ ms.locfileid: "5749708"
 4. Atlasiet **Fails** &gt; **Saglabāt kā** un piešķiriet pārskatam nosaukumu **Konsolidēta bilance un ieņēmumu pārskats viens otram blakus**.
 5. Mainiet pamata gadu uz 2012.
 6. Noklikšķiniet uz nolaižamās bultiņas Koka veids un atlasiet **Organizācijas hierarhijas**.
-7. Noklikšķiniet uz nolaižamās bultiņas Koka veids un atlasiet **Contoso krājumi**.
+7. Noklikšķiniet uz nolaižamās bultiņas Koka veids un atlasiet **Contoso Holdings**.
 8. Saglabājiet izmaiņas un ģenerējiet pārskatu. Ja tiek piedāvāts, atlasiet visas pārskata vienības. Kad pārskata ģenerēšana tiek pabeigta un tas tiek atvērts, varat to pārskatīt.
 9. Atlasiet **Pārskata opcijas**.
 10. Atlasiet **Pievienot dimensiju filtru** un izvēlieties **Nodaļa**.

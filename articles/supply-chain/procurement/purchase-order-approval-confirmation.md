@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a9b387be0b28564dd7ae88af33812a8bbf034c0
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 580095bacafe74c9e22aba47ca657e1cf42b3c6ae7929478a0d2f8bd241868f1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188296"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780130"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Pirkšanas pasūtījumu apstiprināšana un ratificēšana
 
@@ -75,7 +75,7 @@ Kad pasūtījums ir ratificēts, to vairs nevar izdzēst. Taču varat atcelt kop
 
 PP var tikt atcelts, izmantojot galvenes darbību **Atcelt**.
 
-Ja daudzums ir daļēji reģistrēts, saņemts vai iekļauts rēķinā, varat atcelt tikai atlikušo daudzumu, kas nav reģistrēts, saņemts vai iekļauts rēķinā. Pēc tam pasūtījuma daudzums attiecīgi tiek samazināts. Kad rindas daudzums ir atjaunināts, tiek atjaunināts arī rindas statuss. Piemēram, sākotnējais daudzums rindā ir 5, un tiek saņemts 3.  Šādā gadījumā var atcelt tikai divas. Pēc tam rinda tiek atjaunināta uz statusu **Saņemts**.
+Ja daudzums ir daļēji reģistrēts, saņemts vai iekļauts rēķinā, varat atcelt tikai atlikušo daudzumu, kas nav reģistrēts, saņemts vai iekļauts rēķinā. Pēc tam pasūtījuma daudzums attiecīgi tiek samazināts. Kad rindas daudzums ir atjaunināts, tiek atjaunināts arī rindas statuss. Piemēram, sākotnējais daudzums rindā ir 5, un tiek saņemts 3. Šādā gadījumā var atcelt tikai divas. Pēc tam rinda tiek atjaunināta uz statusu **Saņemts**.
 
 Ja pasūtījuma rindai ir pievienots saņemšanas atlikums un tas pārsniedz pasūtījuma rindā norādīto daudzumu, darbība **Atcelt** neatceļ lieko daudzumu. Tā vietā rinda paliek statusā **Atvērts pasūtījums**, jo tai ir atlikušais daudzums. Piemēram, sākotnējais daudzums rindā ir 5, un saņemšanas atlikums ir 7. Ja pasūtījums ir atcelts, tiek atceltas piecas, un divas paliek, kā tas redzams krājumu transakcijās.
 

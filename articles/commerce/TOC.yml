@@ -94,6 +94,8 @@
                   items:
                     - name: Jaunumi un izmaiņas Commerce sākumlapā
                       href: get-started/whats-new-home-page.md
+                    - name: "Commerce\_10.0.21 (2021.\_gada oktobris)"
+                      href: get-started/whats-new-commerce-10-0-21.md
                     - name: "Commerce 10.0.20 (2021.\_gada augusts)"
                       href: get-started/whats-new-commerce-10-0-20.md
                     - name: "Commerce 10.0.19 (2021.\_gada jūnijs)"
@@ -516,8 +518,16 @@
                       href: tasks/configure-credit-card-processing.md
                     - name: Dialoglodziņa “Atlikums līdz” izlaišana punktā POS
                       href: dev-itpro/skip-change-due.md
-                    - name: Adyen maksājumu savienotājs
-                      href: dev-itpro/adyen-connector.md
+                    - name: "Dynamics\_365 Payment Connector pakalpojumam Adyen"
+                      items:
+                        - name: "Dynamics\_365 Payment Connector pakalpojumam Adyen\_— pārskats"
+                          href: dev-itpro/adyen-connector.md
+                        - name: "Dynamics\_365 Payment Connector pakalpojumam Adyen\_— iestatīšana"
+                          href: dev-itpro/adyen-connector-setup.md
+                        - name: "Dynamics\_365 Payment Connector pakalpojumam Adyen\_— bieži uzdotie jautājumi"
+                          href: dev-itpro/adyen-connector-faq.md
+                        - name: "Dynamics\_365 Payment Connector pakalpojumam Adyen\_— problēmu novēršana"
+                          href: dev-itpro/adyen-connector-troubleshoot.md
                     - name: 'Tiešsaistes maksājumu instrumentu saglabāšana, izmantojot savienotāju Adyen'
                       href: dev-itpro/adyen-connector-listPI.md
                     - name: 'Droša klientu autentifikācija (SCA), izmantojot savienotāju Adyen'
@@ -1182,6 +1192,10 @@
               items:
                 - name: Tiešsaistes kanālu pārskatu ģenerēšana
                   href: generate-reports.md
+            - name: Mērķauditorijas atlase
+              items:
+                - name: 'Mērķauditorijas atlase pēc ierīces, tirgus un ģeogrāfiskās atrašanās vietas'
+                  href: targeting-overview.md
             - name: Eksperimenti
               items:
                 - name: Eksperimenti risinājumā Dynamics 365 Commerce
@@ -1336,6 +1350,10 @@
               items:
                 - name: Commerce lokalizācija Krievijai
                   href: localizations/rus-commerce-localization.md
+                - name: "Commerce lokalizācija Krievijai\_— iestatīšana"
+                  href: localizations/rus-commerce-setup.md
+                - name: "Commerce lietošanai Krievijā\_— priekšapmaksa"
+                  href: localizations/rus-commerce-prepayments.md
             - name: Zviedrija
               items:
                 - name: Kases sistēmas funkcionalitāte

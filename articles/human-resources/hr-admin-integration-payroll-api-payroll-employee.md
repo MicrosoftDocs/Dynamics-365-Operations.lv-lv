@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 672db002ddf8d12aaab5b97241390c036ad7ab5c
-ms.sourcegitcommit: 8fb79920bea14746a71551a4456236a6386bfcea
+ms.openlocfilehash: 20e74e97f98d0bc0fd454d54cbf969d4f1b46c7c98b2949b0ed8cfe671312dd2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "6538858"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768195"
 ---
 # <a name="payroll-employee"></a>Algots darbinieks
 
@@ -33,27 +33,25 @@ Fiziskais nosaukums: mshr_payrollemployeeentity.
 Šis elements sniedz informāciju par darbinieku. Pirms šī elementa lietošanas jāiestata [algas integrācijas parametri](hr-admin-integration-payroll-api-parameters.md).
 
 >[!IMPORTANT] 
->**FirstName**, **MiddleName**, **LastName**, **NameValidFrom** un **NameValidTo** lauki vairs nebūs pieejami šim elementam. Tas ir tādēļ, lai nodrošinātu, ka ir tikai viens efektīvo datu avots, kas atbalsta šo elementu, kas ir **HcmEmployment** ar laukiem **EmploymentStartDate** un **EmploymentEndDate**.
-
->Šie lauki būs pieejami **DirPersonNameHistoricalEntity**, kas tika izlaists Platformas atjauninājumā 43. Laukā **Persona** pastāv OData relācija no **PayrollEmployeeEntity** uz **DirPersonNameHistoricalEntity**. Vai arī entītija **DirPersonNameHistoricalEntity** var tikt tieši vaicāta ar OData, izmantojot publisko nosaukumu **PersonHistoricalNames**.
-
+>**FirstName**, **MiddleName**, **LastName**, **NameValidFrom** un **NameValidTo** lauki vairs nebūs pieejami šim elementam. Tas nodrošina, ka ir tikai viens datuma efektīvais datu avots, kas atbalsta šo elementu.
+>Šie lauki būs pieejami **DirPersonNameHistoricalEntity**, kas tika izlaists Platformas atjauninājumā 43. Laukā **Persona** pastāv OData relācija no **PayrollEmployeeEntity** uz **DirPersonNameHistoricalEntity**. 
 
 ## <a name="properties"></a>Rekvizīti
 
 | Rekvizīts<br>**Fiziskais nosaukums**<br>**_tips_** | Izmantot | Apraksts |
 | --- | --- | --- |
-| **Darbinieku skaits**<br>mshr_personnelnumber<br>*Virkne* | Tikai lasāms<br>Obligāts | Darbinieka unikālais personāla numurs. |
-| **Primārais lauks**<br>mshr_primaryfield<br>*Virkne* | Obligāts<br>Sistēmas ģenerēts |  |
-| **Juridiskas personas ID**<br>mshr_legalentityID<br>*Virkne* | Tikai lasāms<br>Obligāts | Norāda juridisko personu (uzņēmumu). |
-| **Dzimums**<br>mshr_gender<br>[mshr_hcmpersongender opciju kopa](hr-admin-integration-payroll-api-gender.md) | Tikai lasāms<br>Obligāts | Darbinieka dzimums. |
+| **Darbinieku skaits**<br>mshr_personnelnumber<br>*Virkne* | Tikai lasāms | Darbinieka unikālais personāla numurs. |
+| **Primārais lauks**<br>mshr_primaryfield<br>*Virkne* | Tikai lasāms<br>Sistēmas ģenerēts |  |
+| **Juridiskas personas ID**<br>mshr_legalentityID<br>*Virkne* | Tikai lasāms | Norāda juridisko personu (uzņēmumu). |
+| **Dzimums**<br>mshr_gender<br>[mshr_hcmpersongender opciju kopa](hr-admin-integration-payroll-api-gender.md) | Tikai lasāms | Darbinieka dzimums. |
 | **Payroll darbinieka elementa ID**<br>mshr_payrollemployeeentityid<br>*GUID* | Obligāts<br>Sistēmas ģenerēts | Sistēmas ģenerēta GUID vērtība, lai unikāli identificētu darbinieku. |
-| **Darba attiecību uzsākšanas datums**<br>mshr_employmentstartdate<br>*Datuma laika nobīde* | Tikai lasāms<br>Obligāts | Darbinieka nodarbinātības sākuma datums. |
-| **Identifikācijas veida ID**<br>mshr_identificationtypeid<br>*Virkne* |Tikai lasāms<br>Obligāts | Darbiniekam definētais identifikācijas veids. |
-| **Nodarbinātības beigu datums**<br>mshr_employmentenddate<br>*Datuma laika nobīde* | Tikai lasāms<br>Obligāts |Darbinieka nodarbinātības beigas.  |
-| **Datu apgabala ID**<br>mshr_dataareaid_id<br>*GUID* | Obligāts <br>Sistēmas ģenerēts | Sistēmas ģenerēta GUID vērtība, kas identificē juridisko personu (uzņēmumu). |
-| **Derīgs līdz**<br>mshr_namevalidto<br>*Datuma Laika Nobīde* |  Tikai lasāms<br>Obligāts | Datums, līdz kuram ir derīga informācija par darbinieku. |
-| **Dzimšanas datums**<br>mshr_birthdate<br>*Datuma Laika Nobīde* | Tikai lasāms <br>Obligāts | Darbinieka dzimšanas datums |
-| **Identifikācijas numurs uz**<br>mshr_identificationnumber<br>*Virkne* | Tikai lasāms <br>Obligāts |Darbiniekam definētais identifikācijas numurs.  |
+| **Darba attiecību uzsākšanas datums**<br>mshr_employmentstartdate<br>*Datuma laika nobīde* | Tikai lasāms | Darbinieka nodarbinātības sākuma datums. |
+| **Identifikācijas veida ID**<br>mshr_identificationtypeid<br>*Virkne* |Tikai lasāms | Darbiniekam definētais identifikācijas veids. |
+| **Nodarbinātības beigu datums**<br>mshr_employmentenddate<br>*Datuma laika nobīde* | Tikai lasāms |Darbinieka nodarbinātības beigas.  |
+| **Datu apgabala ID**<br>mshr_dataareaid_id<br>*GUID* | Tikai lasāms <br>Sistēmas ģenerēts | Sistēmas ģenerēta GUID vērtība, kas identificē juridisko personu (uzņēmumu). |
+| **Derīgs līdz**<br>mshr_namevalidto<br>*Datuma Laika Nobīde* |  Tikai lasāms | Datums, līdz kuram ir derīga informācija par darbinieku. |
+| **Dzimšanas datums**<br>mshr_birthdate<br>*Datuma Laika Nobīde* | Tikai lasāms | Darbinieka dzimšanas datums |
+| **Identifikācijas numurs uz**<br>mshr_identificationnumber<br>*Virkne* | Tikai lasāms |Darbiniekam definētais identifikācijas numurs.  |
 
 ## <a name="example-query-for-payroll-employee"></a>Payroll darbinieka vaicājuma piemērs
 
