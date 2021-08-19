@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fbf99853b7eb74dd6f277bd1c235145bfa08f4a
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 48cabc174cd46d95631010692da5972c182b36167d520cfefd9742b4b522ca73
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338402"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722371"
 ---
 # <a name="product-configuration-models-overview"></a>Pārskats par preču konfigurācijas modeļiem
 
@@ -54,9 +54,9 @@ Preču konfigurācijas modeļi tiek veidoti, lai pārstāvētu vispārīgu preč
 <td>Atribūti</td>
 <td>Atribūti apraksta visus preču konfigurācijas modeļa līdzekļus. Atribūtus var izmantot, lai norādītu līdzekļus, ko var atlasīt konfigurējot atšķirīgu preci. Atribūti tiek izmantoti, ievērojot ierobežojumus un nosacījumus. Ja atribūti tiek izveidoti un pievienoti preces konfigurācijas modelim, saistītie atribūtu veidi tiek norādīti ar atsaucēm. Atribūtam var iestatīt noklusējuma vērtību. Konfigurācijas lietotāja interfeisā (UI) tiek izmantota noklusējuma vērtība, konfigurējot preču konfigurācijas modeli. Varat norādīt, ka atribūts ir obligāts, tikai lasāms vai slēpts.
 <ul>
-<li><strong>Obligāts</strong> — konfigurējot preci, šim atribūtam ir jāiestata kāda vērtība.</li>
-<li><strong>Tikai lasāms</strong> — atribūta vērtība tiek rādīta konfigurācijas sesijas laikā, taču to nevar mainīt.</li>
-<li><strong>Paslēpts</strong> — atribūta vērtība ir iekļauta ierobežojumos un nosacījumos, taču netiek rādīta konfigurācijas sesijas laikā.</li>
+<li><strong>Obligāts</strong> — konfigurējot preci, šim atribūtam ir jāiestata kāda vērtība.</li>
+<li><strong>Tikai lasāms</strong> — atribūta vērtība tiek rādīta konfigurācijas sesijas laikā, taču to nevar&#39;mainīt.</li>
+<li><strong>Paslēpts</strong> — atribūta vērtība ir iekļauta ierobežojumos un nosacījumos, taču netiek&#39;rādīta konfigurācijas sesijas laikā.</li>
 </ul>
 Varat norādīt arī atribūtu nosacījumu. Ja nosacījums tiek izpildīts, obligātajam atribūtam ir jāievada vērtība. Nosacījumi ir izteiksmes, kas jāievēro tajos atribūtos, MK rindās un maršruta operācijās, kas tiks iekļautas preču konfigurācijas modelī. Jebkurš atribūts, uz kuru ir izveidota atsauce nosacījumā, kļūst obligāts. Iesakām cilnē <strong>Atribūti</strong> atribūtus atlasīt kā obligātus. Tas var atvieglot obligāto atribūtu identificēšanu. Atribūtu vērtības ir atkārtoti izmantojamo konfigurāciju svarīga daļa. Sistēma izmanto atribūtu vērtības, lai noteiktu, vai pastāv konfigurācija, kas atbilst lietotāja veiktajai atlasei konfigurācijas sesijas laikā.</td>
 </tr>
@@ -75,7 +75,7 @@ Ja atribūta tips ir <strong>Būla</strong>, <strong>Vesels skaitlis</strong> ar
 <td>Ierobežojumi</td>
 <td>Ierobežojumi apraksta preču modeļa konfigurācijas ierobežojumus. Ierobežojumi tiek izmantoti, lai garantētu, ka preces konfigurēšanas laikā tiek atlasītas tikai derīgas vērtības. Ierobežojumi var būt izteiksmes ierobežojumi vai tabulas ierobežojumi:
 <ul>
-<li>Izteiksmes ierobežojumus var izmantot tikai tam komponentam, kuram tie ir piesaistīti. Komponenta izteiksmes ierobežojumos var tikt izmantota atsauce uz komponenta apakškomponentu atribūtiem. Preču konfigurācijas risinātājs tiek izmantots, lai atrisinātu ierobežojumus, un ierobežojumu rakstīšanas laikā jums ir jālieto risinātāja sintakse. Plašāku informāciju skatiet tēmas vietnē par izteiksmes ierobežojumiem un tabulas ierobežojumiem.</li>
+<li>Izteiksmes ierobežojumus var izmantot tikai tam komponentam, kuram tie ir piesaistīti. Komponenta izteiksmes ierobežojumos var tikt izmantota atsauce uz komponenta&#39;apakškomponentu atribūtiem. Preču konfigurācijas risinātājs tiek izmantots, lai atrisinātu ierobežojumus, un ierobežojumu rakstīšanas laikā jums ir jālieto risinātāja sintakse. Plašāku informāciju skatiet tēmas vietnē par izteiksmes ierobežojumiem un tabulas ierobežojumiem.</li>
 <li>Lai preces konfigurācijas modeļa komponentam varētu lieto tabulas ierobežojumus, tie vispirms ir jādefinē. Tabulas ierobežojumi var būt lietotāja definēti vai sistēmas definēti. Lietotāja definēts tabulas ierobežojums ir tādas matricas veids, ko var izmantot, lai aprakstītu tādu atribūtu vērtību kombināciju kopas, ko definē atribūtu veidi. Piemēram, ja tiek ražoti skaļruņi, tad lietotāja definēta tabulas ierobežojuma matricā var būt kolonnas skaļruņu apdarei un režģim.</li>
 </ul>
 <strong>Piemērs.</strong> Skaļruņi ir pieejami ar četrām apdarēm: Melns, Ozola, Rožkoka un Balts. Skaļruņiem var būt viens no trim priekšējiem režģiem: Melns, Metāla vai Balts. Melnā apdare ir pieejama visiem režģiem, bet pārējās apdares ir pieejamas tikai noteiktiem režģiem. Nākamajā tabulā ir parādīts piemērs, kāda informācija tiek rādīta cilnē <strong>Atļautās kombinācijas</strong>, lapā <strong>Rediģēt tabulas ierobežojumu</strong>.
@@ -131,15 +131,15 @@ Sistēmas definēts tabulas ierobežojums norāda kartēšanu starp atribūta ti
 <li>Laukā <strong>Preces apakštips</strong> atlasiet opciju <strong>Preces šablons</strong>.</li>
 <li>Laukā <strong>Konfigurēšanas tehnoloģija</strong> atlasiet opciju <strong>Konfigurācija atbilstoši ierobežojumam</strong>.</li>
 </ul>
-Cilnē <strong>Vispārīgi</strong>, lapā <strong>Detalizēta informācija par izlaistajām precēm</strong> varat apskatīt, vai izlaisto preci var izmantot kā komponentu vai apakškomponentu. Ja laukā <strong>Konfigurēšanas tehnoloģija</strong> ir atlasīta opcija <strong>Konfigurācija atbilstoši ierobežojumam</strong>, tad šo preci var lietot kā komponentu vai apakškomponentu. Varat paslēpt apakškomponentus, lai tie netiktu rādīti lietotājam konfigurācijas sesijas laikā. Atribūti, apakškomponenti un lietotāju prasības, kas saistītas ar apakškomponentu, arī ir paslēpti.</td>
+Cilnē <strong>Vispārīgi</strong>, lapā <strong>Detalizēta informācija par izlaistajām precēm</strong> varat apskatīt, vai izlaisto preci var izmantot kā komponentu vai apakškomponentu. Ja laukā <strong>Konfigurēšanas tehnoloģija</strong> ir atlasīta opcija <strong>Konfigurācija atbilstoši ierobežojumam</strong>, tad šo preci var lietot kā komponentu vai apakškomponentu. Varat paslēpt apakškomponentus, lai tie netiktu&#39;rādīti lietotājam konfigurācijas sesijas laikā. Atribūti, apakškomponenti un lietotāju prasības, kas saistītas ar apakškomponentu, arī ir paslēpti.</td>
 </tr>
 <tr class="odd">
 <td>Lietotāju prasības</td>
-<td>Lietotāju prasības norāda abstrakciju starp lietotāju prasībām, specifiskiem komponentiem un atribūtiem. Lietotāja prasību nevar kartēt ar krājumu. Piemēram, klients vēlas iegādāties mājas kinoteātra sistēmu. Tirdzniecības pārstāvis var jautāt par tās telpas lielumu, kur klients plāno uzstādīt sistēmu, lai noteiktu, cik vati ir nepieciešami. Šajā piemērā telpas lielums var būt lietotāja prasība, kas palīdz noteikt atbilstošo atribūta vērtību konkrētam komponentam. Varat paslēpt lietotāja prasības, lai tās netiktu rādītas lietotājam konfigurācijas sesijas laikā. Atribūti, apakškomponenti un lietotāju prasības, kas saistītas ar lietotāju prasību, arī ir paslēptas. Jūs varat rakstīt nosacījumu, lai kontrolētu, vai lietotāju prasību var paslēpt. Nosacījums ir jāraksta, izmantojot optimizācijas modelēšanas valodas (Optimization Modeling Language — OML) sintaksi.</td>
+<td>Lietotāju prasības norāda abstrakciju starp lietotāju prasībām, specifiskiem komponentiem un atribūtiem. Lietotāja prasību nevar&#39;kartēt ar krājumu. Piemēram, klients vēlas iegādāties mājas kinoteātra sistēmu. Tirdzniecības pārstāvis var jautāt par tās telpas lielumu, kur klients plāno uzstādīt sistēmu, lai noteiktu, cik vati ir nepieciešami. Šajā piemērā telpas lielums var būt lietotāja prasība, kas palīdz noteikt atbilstošo atribūta vērtību konkrētam komponentam. Varat paslēpt lietotāja prasības, lai tās netiktu&#39;rādītas lietotājam konfigurācijas sesijas laikā. Atribūti, apakškomponenti un lietotāju prasības, kas saistītas ar lietotāju prasību, arī ir paslēptas. Jūs varat rakstīt nosacījumu, lai kontrolētu, vai lietotāju prasību var paslēpt. Nosacījums ir jāraksta, izmantojot optimizācijas modelēšanas valodas (Optimization Modeling Language — OML) sintaksi.</td>
 </tr>
 <tr class="even">
 <td>MK rindas</td>
-<td>MK rindas norāda komponentu atsevišķus materiālus preču konfigurācijas modelī. Lapā <strong>Detalizēta informācija par MK rindu</strong> visi krājumi ir pieejami atlasei. MK rindai var pievienot nosacījumu, lai atšķirīgas preces variantam atlasītās MK rindas varētu atšķirties, pamatojoties uz lietotāja veikto atlasi preces konfigurācijas modeļa iestatīšanas laikā. Nosacījumi ir izteiksmes, kas jāievēro tajos atribūtos, MK rindās un maršruta operācijās, kas tiks iekļautas preču konfigurācijas modelī. Lapā <strong>Detalizēta informācija par MK rindu</strong> varat atlasīt atšķirīgu vērtību. Alternatīvi varat kartēt uz kādu atribūtu, kuram ir atlasīta vērtība, iestatot preces konfigurācijas modeli.</td>
+<td>MK rindas norāda komponentu atsevišķus materiālus preču konfigurācijas modelī. Lapā <strong>Detalizēta informācija par MK rindu</strong> visi krājumi ir pieejami atlasei. MK rindai var pievienot nosacījumu, lai atšķirīgas preces variantam atlasītās MK rindas varētu atšķirties, pamatojoties uz lietotāja&#39;veikto atlasi preces konfigurācijas modeļa iestatīšanas laikā. Nosacījumi ir izteiksmes, kas jāievēro tajos atribūtos, MK rindās un maršruta operācijās, kas tiks iekļautas preču konfigurācijas modelī. Lapā <strong>Detalizēta informācija par MK rindu</strong> varat atlasīt atšķirīgu vērtību. Alternatīvi varat kartēt uz kādu atribūtu, kuram ir atlasīta vērtība, iestatot preces konfigurācijas modeli.</td>
 </tr>
 <tr class="odd">
 <td>Maršruta operācijas</td>

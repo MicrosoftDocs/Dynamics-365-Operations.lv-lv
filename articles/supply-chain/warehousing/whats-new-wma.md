@@ -2,7 +2,7 @@
 title: Kas jauns vai mainīts mobilajā programmā Warehouse Management
 description: Šajā tēmā ir uzskaitīti jaunie un mainītie līdzekļi katrai Microsoft Dynamics 365 Supply Chain Management Warehouse Management mobilās programmas izlaistajai versijai.
 author: ivanv-microsoft
-ms.date: 06/07/2021
+ms.date: 07/30/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,38 @@ ms.search.region: Global
 ms.author: ivanv
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 61124728942c0b8162de9f687ae752773c47d07e
-ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
+ms.openlocfilehash: 43d1381e73d5659bfd6ae6c6d944b7e6918b681a4f89df7ad23abbed5b4a0d3c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261788"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720088"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Kas jauns vai mainīts mobilajā programmā Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir uzskaitīti jaunie līdzekļi, labojumi, uzlabojumi un zināmas problēmas katrai Microsoft Dynamics 365 Supply Chain Management Warehouse Management mobilās programmas izlaistajai versijai.
+
+## <a name="2070"></a>2.0.7.0
+
+### <a name="new-features-fixes-and-improvements-in-version-2070"></a>Jauni līdzekļi, labojumi un uzlabojumi versijā 2.0.7.0
+
+- Pievienota sadaļa lapai **Par**, kas pārbauda programmas jaunāko izlaisto versiju.
+- Atvieglo datu pārvilkšnu un pavilkšnu starp lapām.
+- Mainīta darba saraksta ikona augošā/dilstošā secībā.
+- Samazinātās uzcenojumi kartē **Detaļas**, lai tie atbilstu plašākai informācijai.
+- Tika piemēroti dažādi veiktspējas uzlabojumi, lai samazinātu problēmu, ka lietotne laika gaitā kļūst lēnāka.
+- Ja uz ekrāna ir vairāk vadīklu, nekā nepieciešams, tā rezultātā lapošanā spinera vadīkla vairs neritina tāpat kā lapa.
+- Nosaka prioritāti pēdējās skenētās vērtības rādīšanai, nevis uzdevuma nosaukuma rādīšanai, tāpēc, ja tās pārklājas, uzdevuma nosaukums tiks saīsināts.
+- Ir fiksētas dažādas problēmas, kuru dēļ sistēma nereaģēja.
+- Dažās valodās teksts dažādās vietās vairs netiek nogriezts.
+- Programma pēc noklusējuma darbojas pilnekrāna režīmā.
+- Fiksētā problēma, kas dažkārt izraisa to, ka skenējumus var ignorēt pamatlapā ar noteiktām ierīcēm.
+
+### <a name="known-issues-in-version-2070"></a>Zināmās problēmas versijā 2.0.7.0
+
+- Dažās ierīcēs, startējot programmu vai sākot uzdevumu, saņemsit šādu kļūdas ziņojumu: "Nevar atrast šim izmēram piemērotu skatu." Ja jebkurā no jūsu ierīcēm redzat šo kļūdas ziņojumu, jums šajā ierīcē ir pazemināt mobilā programma Warehouse Management līdz versijai 2.0.6.0 un jāgaida, līdz tiks izlaista nākamā programmas versija.
 
 ## <a name="version-2060"></a>Versija 2.0.6.0
 

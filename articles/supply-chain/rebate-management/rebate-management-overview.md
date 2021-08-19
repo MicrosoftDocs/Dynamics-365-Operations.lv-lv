@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 577d48e207c8ce5911d104e657101a8557100064
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 136e528093e6e73ffe090cea0c02a4cdbf787c5efc3d9c0664869c995a682daa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339998"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720256"
 ---
 # <a name="rebate-management-module-overview"></a>Atlaižu pārvaldības moduļa pārskats
 
@@ -91,10 +91,9 @@ Lietotājiem vairs nav jārīkojas ar darījumiem vai uzkrājumiem divos soļos.
 
 Kad atlaides tiek aprēķinātas, process izveido transakcijas, ko var pārskatīt pirms grāmatošanas. Atsevišķs process grāmato atlaides pārvaldības darījumus. Pēc tam var izveidot žurnālu, kredīta notu vai debeta darījumu, grāmatojot piedāvātos darījumus. Pārskatu pārskatus un darbību sarakstus var iegūt, lai nodrošinātu atbilstību, efektivitāti un pārskatāmību.
 
-
 ## <a name="guaranteed-royalty-payments"></a>Nodrošinātie patentmaksu maksājumi
 
-Atlaižu pārvaldībā automātiskā maksājumu ģenerēšana ļauj ātri un viegli apstrādāt patentmaksas, pat ja tiek lietots nodrošinātais minimums. 
+Atlaižu pārvaldībā automātiskā maksājumu ģenerēšana ļauj ātri un viegli apstrādāt patentmaksas, pat ja tiek lietots nodrošinātais minimums.
 
 ## <a name="maximizing-spend-versus-rebates"></a>Palielināt tēriņus pret atlaidēm
 
