@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 24e41e35b3e810c509a16b91fffd1e796ab9d134
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1198bc12830afa2ae2c5eb8e77413a9d8ef70c625823f676ab1965ff250c2443
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832062"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730397"
 ---
 # <a name="troubleshoot-inventory-operations"></a>Krājumu problēmu novēršanas operācijas
 
@@ -46,7 +46,7 @@ Ja problēma attiecas uz visiem lietotājiem, var rasties, jo apstiprināšanas 
 
 Ja darbplūsma izmanto pielāgotu kodu, pēc sistēmas jaunināšanas var rasties problēmas. Piemēram, žurnāla darbplūsmā poga **Iesniegt** var būt pelēkota, tāpēc jūs nevarat to atlasīt, lai apstiprinātu iesniegšanu.
 
-Ja poga **Iesniegt** ir iepelēkota, iespējams, ka darbplūsma ir pielāgota, kas nozīmē darbplūsmas metodi, sadaļā `canSubmitToWorkflow()`ir `FormDataUtil`paplašināta. Lai novērstu šo problēmu, mainiet veidu, kā paplašināt metodes `canSubmitToWorkflow()`struktūras izmantošanai šajā piemērā.
+Ja poga **Iesniegt** ir iepelēkota, iespējams, ka darbplūsma ir pielāgota, kas nozīmē darbplūsmas metodi, sadaļā `canSubmitToWorkflow()` ir `FormDataUtil`paplašināta. Lai novērstu šo problēmu, mainiet veidu, kā paplašināt metodes `canSubmitToWorkflow()` struktūras izmantošanai šajā piemērā.
 
 ```xpp
 [ExtensionOf(formStr(InventJournalMovement))]
@@ -103,17 +103,17 @@ Esošajā laidienā krājumu darbplūsmas nosacījumi attiecas tikai uz žurnāl
 
 ### <a name="issue-description"></a>Problēmas apraksts
 
-Filtra rūts filtri **Rīcībā esošo krājumu saraksta**  lapā nefiltrē rezultātus, kā paredzēts.
+Filtra rūts filtri **Rīcībā esošo krājumu saraksta** lapā nefiltrē rezultātus, kā paredzēts.
 
 ### <a name="issue-resolution"></a>Problēmas risinājums
 
 Tas tiek darīts ar nolūku.
 
- **Rīcībā esošo krājumu saraksta**  lapa tiek apkopota no detalizētas rīcībā esošo krājumu tabulas, kas ietver visas pieejamās dimensijas. Tomēr saraksts šajā lapā ir kopsavilkums. Tāpēc tā var apvienot rindas no avota tabulas, apkopojot vērtības atbilstoši parādītajām dimensijām.
+Lapa **Rīcībā esošo krājumu saraksta** tiek apkopota no detalizētas rīcībā esošo krājumu tabulas, kas ietver visas pieejamās dimensijas. Tomēr saraksts šajā lapā ir kopsavilkums. Tāpēc tā var apvienot rindas no avota tabulas, apkopojot vērtības atbilstoši parādītajām dimensijām.
 
 Filtri, ko iestatāt Filtru rūtī, attiecas uz avota tabulu, nevis uz apkopoto sarakstu. Dažreiz šī uzvedība var radīt neparedzētus rezultātus, kā parādīts [šajos piemēros](inventory-on-hand-list.md#examples).
 
-Tomēr  [režģī sniegtie filtri](inventory-on-hand-list.md#grid-filters) *attiecas*  uz apkopoto sarakstu. Šie filtri ietver gan QuickFilter režģa augšpusē, gan katra kolonnas virsraksta filtru.
+Tomēr [režģī sniegtie filtri](inventory-on-hand-list.md#grid-filters) *attiecas* uz apkopoto sarakstu. Šie filtri ietver gan QuickFilter režģa augšpusē, gan katra kolonnas virsraksta filtru.
 
 ## <a name="the-unit-and-unit-quantity-arent-working-correctly-in-the-inventory-journal"></a>Krājumu žurnālā mērvienības un mērvienību daudzums nedarbojas pareizi.
 
