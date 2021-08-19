@@ -2,7 +2,7 @@
 title: Dāvanu kartes modulis
 description: Šajā tēmā aplūkoti Dāvanu kartes moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 04/29/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7fc35c67a2d9b641f03f11ed5d06913e10d8e25b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 5a4aaf8e072f6547fe1dcf6fa156d2e144fd03ed806a2dc809a2cedb991461f7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347503"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728343"
 ---
 # <a name="gift-card-module"></a>Dāvanu kartes modulis
 
@@ -48,11 +48,17 @@ Attēlā zemāk redzams cilnes dāvanu kartes moduļa piemērs norēķināšanā
 
 - **Rādīt papildu laukus** – šis rekvizīts nosaka, kuri lauki ir jārāda dāvanu kartēm papildus dāvanu kartes numuram, kas vienmēr tiek parādīts pēc noklusējuma. Piemēram, dažas dāvanu kartes atbalsta personas identifikācijas numura (PIN) rādīšanu, bet citas atbalsta PIN un beigu datuma parādīšanu. Pretējā gadījumā šis rekvizīts var tikt iestatīts uz "Nav", kas parādītu tikai dāvanu kartes numuru un papildu laukus.
 
-Atbalstītās vērtības:
--   PIN
--   Beigu datums
--   PIN un beigu datums 
--   None
+    Tālāk ir norādītas atbalstītās vērtības:
+
+    - PIN
+    - Beigu datums
+    - PIN un beigu datums 
+    - Neviens
+
+- **Iespējojiet vieslietotājiem** - ja šis rekvizīts ir iespējots, viesa lietotāji var izpirkt vai pārbaudīt dāvanu karšu bilances. Šis rekvizīts pieprasa, lai programmā Commerce headquarters tiktu iespējota anonīma (viesa) piekļuve dāvanu kartēm. Papildinformāciju skatiet sadaļā [Dāvanu karšu maksājumu iespējošana viesa norēķiniem](#enable-gift-card-payments-for-guest-checkout).
+
+> [!IMPORTANT]
+> Rekvizīts **Iespējot vieslietotājiem** ir pieejams kā Commerce 10.0.21 laidiena versijā. Nepieciešams, lai būtu instalēta Commerce moduļa bibliotēkas pakotnes versija 9.31.
 
 ## <a name="site-settings-for-gift-card-modules"></a>Vietas iestatījumi dāvanu karšu moduļiem
 

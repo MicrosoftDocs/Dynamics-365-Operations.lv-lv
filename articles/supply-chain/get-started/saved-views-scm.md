@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 1b1077fdb4707bf2c019e86cb073b30465817577
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 2544591773bea7d54b4da4ac25ed3fed3f9e3594c5f791a0975c0349583b695c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270663"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728631"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Standarta saglabātie skati Supply Chain Management
 
@@ -77,6 +77,18 @@ Tabulā ir aprakstīti Sagādes un avotu modulim pieejamie saglabātie skati.
 | Pirkšanas pasūtījuma dati | Finanšu pārvaldība | Šis vienkāršotais skats ir optimizēts ar finansēm saistītu aktivitāšu veikšanai, piemēram, cenu, kopsummu un maksu rēķinu izrakstīšanai un pārbaudei. | Saglabātie pirkšanas pasūtījumu skati |
 | Pirkšanas pasūtījuma dati | Pirkšanas pasūtījuma apstiprināšana | Šis vienkāršotais skats ir optimizēts jaunu pirkšanas pasūtījumu apstiprināšanai. | Saglabātie pirkšanas pasūtījumu skati |
 
+## <a name="saved-views-for-the-product-information-management-module"></a>Preces informācijas pārvaldības moduļa saglabātie skati
+
+Tabulā ir aprakstīti Preces informācijas pārvaldības modulim pieejamie saglabātie skati.
+
+| Lapa | Skata nosaukums | Skatiet aprakstu | Līdzekļa nosaukums |
+|---|---|---|---|
+| Izlaisto preču saraksts | Preces izveide | Vienkāršots lapas skats, kurā iekļauti tikai tie lauki, kurus visbiežāk izmanto, veidojot produktus. | Saglabātie izlaisto preču skati |
+| Nodoto preču papildinformācija | Preces izveide | Vienkāršots lapas skats, kurā iekļauti tikai tie lauki, kurus visbiežāk izmanto, veidojot produktus. | Saglabātie izlaisto preču skati |
+| Nodoto preču papildinformācija | Loģistikas informācijas pārvaldība | Vienkāršots lapas skats, kurā iekļauti tikai tie lauki, kurus visbiežāk izmanto, pārvaldot produktu loģistikas informāciju. | Saglabātie izlaisto preču skati |
+| Nodoto preču papildinformācija | Pirkumu informācijas pārvaldība | Vienkāršots lapas skats, kurā iekļauti tikai tie lauki, kurus visbiežāk izmanto, pārvaldot produktu pirkumu informāciju. | Saglabātie izlaisto preču skati |
+| Nodoto preču papildinformācija | Pārdošanas informācijas pārvaldība | Vienkāršots lapas skats, kurā iekļauti tikai tie lauki, kurus visbiežāk izmanto, pārvaldot produktu pārdošanas informāciju. | Saglabātie izlaisto preču skati |
+
 ## <a name="saved-views-for-the-production-control-module"></a>Preču kontroles moduļa saglabātie skati
 
 Tabulā ir aprakstīti Preču kontroles modulim pieejamie saglabātie skati.
@@ -110,8 +122,8 @@ Tabulā ir aprakstīti Noliktavas pārvaldības modulim pieejamie saglabātie sk
 | Visi sūtījumi | Ienākošās plūsmas apstrāde | Šis vienkāršotais skats ietver tikai tos laukus, kas visbiežāk tiek izmantoti ienākošo kravu apstrādei. | Saglabātie skati sūtījuma apstrādei |
 | Visi sūtījumi | Izejošās plūsmas apstrāde | Šis vienkāršotais skats ietver tikai tos laukus, kas visbiežāk tiek izmantoti ienākošo kravu apstrādei. | Saglabātie skati sūtījuma apstrādei |
 | Visi kopumi | Vienkāršoti | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | Saglabāts skats kopuma apstrādei |
-| Kravu plānošanas rīks | Vienkāršoti | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | Saglabāts darba plānošanas resursa skats |
-| Detalizēta informācija par darbu | Vienkāršoti | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | Saglabāts skats darba detalizētās informācijas lapai |
+| Kravu plānošanas rīks | Vienkāršoti | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | Saglabāts skats kravu plānošanas rīkam |
+| Detalizēta informācija par darbu | Vienkāršots | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | Saglabāts skats darba detalizētās informācijas lapai |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
