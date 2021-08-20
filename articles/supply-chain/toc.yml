@@ -72,6 +72,8 @@
                   items:
                     - name: Jaunumi un izmaiņas programmas Supply Chain Management sākumlapā
                       href: get-started/whats-new-home-page.md
+                    - name: "Supply Chain Management\_10.0.21 (2021.\_gada oktobris)"
+                      href: get-started/whats-new-scm-10-0-21.md
                     - name: "Supply Chain Management 10.0.20 (2021.\_gada augusts)"
                       href: get-started/whats-new-scm-10-0-20.md
                     - name: "Supply Chain Management 10.0.19 (2021.\_gada jūnijs)"
@@ -1601,6 +1603,8 @@
                   href: master-planning/planning-optimization/planning-optimization-overview.md
                 - name: Darba sākšana ar plānošanas optimizāciju
                   href: master-planning/planning-optimization/get-started.md
+                - name: Plānošanas optimizācijas laidiena process un laidiena vēsture
+                  href: master-planning/planning-optimization/release-process.md
                 - name: Plānošanas optimizācijas atbilstības analīze
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
                 - name: 'Parametri, kas netiek izmantoti plānošanas optimizācijai'
@@ -1631,6 +1635,8 @@
                   href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
                 - name: Seguma laika periodi
                   href: master-planning/planning-optimization/coverage-time-fence.md
+                - name: Neto prasības un piesaistes informācija darbā ar plānošanas optimizāciju
+                  href: master-planning/planning-optimization/net-requirements.md
                 - name: Plānoto pasūtījumu apstiprināšana
                   href: master-planning/planning-optimization/approved-planned-order.md
                 - name: Plānoto pasūtījumu apstiprināšana
@@ -1709,7 +1715,9 @@
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
                 - name: Sadarbība ar iekšējās piegādes ķēdes debitoriem
                   href: master-planning/tasks/collaborate-internal-supply-chain-customers.md
-            - name: Budžeta veidošana
+                - name: Neto prasības un piesaistes informācija darbā ar iebūvēto vispārējo plānošanu
+                  href: master-planning/net-requirements-built-in-master-planning.md
+            - name: Prognozēšana
               items:
                 - name: Pieprasījuma un piedāvājuma prognozēšana
                   items:
@@ -1967,6 +1975,8 @@
                   href: procurement/request-quotations.md
                 - name: Piedāvājuma pieprasījuma izveide
                   href: procurement/tasks/create-request-quotation.md
+                - name: Slēgta piedāvājumu izteikšana PP
+                  href: procurement/sealed-bidding.md
                 - name: 'Tāda pieprasījuma izveide, kas lieto PP'
                   href: procurement/tasks/create-requisition-uses-rfq.md
                 - name: PP punktu skaitīšanas metodes izveide
@@ -2281,6 +2291,8 @@
               href: engineering-change-management/product-readiness.md
             - name: Preču struktūras izlaišana
               href: engineering-change-management/release-product-structure.md
+            - name: Tehnisko preču variantu ģenerēšana
+              href: engineering-change-management/engineering-variants.md
             - name: 'Tehnisko izmaiņu pārvaldība: bieži uzdotie jautājumi'
               href: engineering-change-management/change-management-faq.md
         - name: Ražošanas kontrole
@@ -2603,6 +2615,8 @@
               href: rebate-management/rebate-management-overview.md
             - name: Atlaižu pārvaldības moduļa iestatīšana un konfigurēšana
               items:
+                - name: Atlaižu pārvaldības moduļa ieslēgšana sistēmai
+                  href: rebate-management/rebate-management-enable.md
                 - name: Atlaižu pārvaldības parametri
                   href: rebate-management/rebate-management-parameters.md
                 - name: Atlaižu pārvaldības darījumu darbplūsmas
@@ -2619,6 +2633,8 @@
               href: rebate-management/rebate-management-deals.md
             - name: 'Atlaižu apstrāde, pārskatīšana un grāmatošana'
               href: rebate-management/process-review-post.md
+            - name: 'Ieturējumu pārvaldība, izmantojot ieturējumu rīku'
+              href: rebate-management/deduction-workbench.md
         - name: Pārdošana un mārketings
           items:
             - name: Pārdošanas un mārketinga pārskats
@@ -3057,6 +3073,8 @@
               href: landed-cost/in-transit-processing.md
             - name: Pārsn./nesasn. darījumu apstrāde
               href: landed-cost/over-under-transactions.md
+            - name: Atjaunināt izsekošanu izvietošanai
+              href: landed-cost/update-tracking-putaway.md
             - name: Uzziņas par kopējām sūtīšanas izmaksām
               href: landed-cost/landed-cost-inquiries.md
             - name: Pārskati par kopējām sūtīšanas izmaksām
@@ -3117,6 +3135,8 @@
                       href: warehousing/cluster-position-full.md
                     - name: Sistēmas noteikta klastera izdošana
                       href: warehousing/system-directed-cluster-pick.md
+                    - name: Pārdošanas un pārsūtīšanas pasūtījumu izdošana
+                      href: warehousing/over-picking-for-sales-and-transfer-orders.md
                     - name: Dažādu iepakošanas un glabāšanas dimensiju iestatīšana
                       href: warehousing/packing-vs-storage-dimensions.md
                     - name: Partijas un numura zīmes apstiprināšana
@@ -3509,6 +3529,12 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Noliktavas pārvaldība
               items:
+                - name: 'Nevar apstiprināt sūtījumu, jo klients ir aizturēts'
+                  href: troubleshooting/warehousing/customer-is-on-hold.md
+                - name: 'Nevar apstiprināt sūtījumu, jo noslodzes rindu daudzums ir nulle'
+                  href: troubleshooting/warehousing/load-line-quantity-is-zero.md
+                - name: 'Nevar atjaunināt noslodzes rindu, jo izpildei nodotais daudzums būtu negatīvs'
+                  href: troubleshooting/warehousing/released-qty-cannot-be-negative.md
                 - name: Atceltas produktu ieejas plūsmas neatjaunina darījumu statusu uz reģistrētu
                   href: troubleshooting/warehousing/canceled-product-receipts.md
                 - name: Fiziskā daudzuma decimāldaļas noapaļošana nav pareiza

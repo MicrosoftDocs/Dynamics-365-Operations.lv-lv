@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 8d7020ff1ad1beb06ff7a9ce217f39993c6eceec
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 4ee68b691bba7f3314b5278b0bcc26504c1583335914a1e7c645abd5303f02c6
+ms.sourcegitcommit: fa5ff2a0822aac16b518a2aea0d3389f79793390
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358126"
+ms.lasthandoff: 08/07/2021
+ms.locfileid: "7012017"
 ---
 # <a name="regulatory-configuration-service"></a>Regulatory Configuration Service
 
@@ -49,6 +49,9 @@ Lapā **Regulatory Configuration Service** pārskatiet un akceptējiet pakalpoju
 
 - **Pierakstīties**, ja esat pakalpojuma pirmreizējs lietotājs un izmantojat uzņēmuma e-pasta adresi, lai nodrošinātu uzņēmumam pakalpojumu vidi
 - **Pieteikties**, ja iepriekš esat pierakstījies pakalpojumam un vēlaties piekļūt savas organizācijas videi
+
+> [!NOTE] 
+> Pēc reģistrēšanās ieteicams pievienot papildu SysAdmin lietotāju RCS videi. Šis lietotājs tiks nodrošināts kā vides līdzadministrators. Tas palīdzēs nodrošināt stabilitātes piekļuvi RCS videi, jo SysAdmin loma ir pārvaldīt šīs vides lietotājus. Varat pievienot lietotājus, izmantojot **RCS darbvieta> Sistēmas administrācija**.
 
 ## <a name="regional-availability"></a>Reģionālā pieejamība
 

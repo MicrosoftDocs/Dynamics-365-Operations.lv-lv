@@ -14,12 +14,12 @@ ms.search.region: Latvia
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4c3ceed717967a87a97c26f2c55c424415f80719
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 711385fc663b914e0fda15680d9df7572511ab8a76779775086e80de89965f82
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830409"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774217"
 ---
 # <a name="vat-statement-details-for-latvia"></a>PVN deklarācijas informācija Latvijai
 
