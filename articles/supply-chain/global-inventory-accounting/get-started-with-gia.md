@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 07d3222680d9d9bff639f34eca5fea64d753ffd1
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 90fcbdc5c9dd4301225952d885794bd4d03ef825fd5590896be13eacfad1f979
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336983"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773300"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Darba sākšana ar Globālo krājumu uzskaiti
 
@@ -42,7 +42,7 @@ Globālā krājumu uzskaite šobrīd neatbalsta visus izmaksu pārvaldības līd
 > [!IMPORTANT]
 > Lai izmantotu Globālo krājumu uzskaiti, ir jābūt LCS iespējotai augstas pieejamības videi (nevis OneBox videi). Turklāt jāizmanto Supply Chain Management versiju 10.0.19 vai jaunāku.
 
-Lai pieteiktos Globālās krājumu uzskaites publiskajam priekšskatījumam, nosūtiet savu LCS vides ID pa e-pastu [Globālās krājumu uzskaites grupai](mailto:GlobalInventoryAccounting@service.microsoft.com). Pēc programmas apstiprināšanas grupa nosūtīs jums e-pasta ziņojumu, kas ietvers Globālās krājumu uzskaites beta atslēgu un jūsu pakalpojuma galapunktus. Pēc beta atslēgas saņemšanas varat [instalēt pievienojumprogrammu](#install).
+Lai pieteiktos Globālās krājumu uzskaites publiskajam priekšskatījumam, nosūtiet savu LCS vides ID pa e-pastu [Globālās krājumu uzskaites grupai](mailto:GlobalInvAccount@microsoft.com). Pēc programmas apstiprināšanas grupa nosūtīs jums e-pasta ziņojumu, kas ietvers Globālās krājumu uzskaites beta atslēgu un jūsu pakalpojuma galapunktus. Pēc beta atslēgas saņemšanas varat [instalēt pievienojumprogrammu](#install).
 
 ## <a name="licensing"></a>Licencēšana
 

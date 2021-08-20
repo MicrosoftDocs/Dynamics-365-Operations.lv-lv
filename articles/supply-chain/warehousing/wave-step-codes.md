@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f44d500d58dffb37b27d230b0633336eb87996a6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 47ec1319c7d1dde151f63e7e37e86c0265d84089f4d0366dea9310bda49c859d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838062"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780438"
 ---
 # <a name="wave-step-codes"></a>Kopuma darbību kodi
 
@@ -71,10 +71,10 @@ Pēc tam, kad esat definējis piemērotus kopuma darbību kodus, tos var lietot 
 Lai pielietotu kopuma darbību kodus, dodieties uz atbilstošo mērķa veidni. Šeit ir mērķa veidnes, kam kopuma darbību kodi ir izveidoti, lai norādītu uz:
 
 - **Papildināšanas veidnes.:** Noliktavas pārvaldība \> Iestatīšana \> Papildināšana \> Papildināšanas veidnes
-- **Noslodzes būvējuma veidnes:** Noliktavas pārvaldība \>Iestatīšana \>noslodzes kompilācijas veidnes \> 
-- **Kārtot veidnes:** Noliktavas pārvaldība \>Iestatīšana \>Iepakošana \>Nosūtīšanas kārtošanas veidnes
+- **Noslodzes būvējuma veidnes:** Noliktavas pārvaldība \> Iestatīšana \> Noslodze \> Noslodzes kompilācijas veidnes
+- **Kārtot veidnes:** Noliktavas pārvaldība \> Iestatīšana \> Iepakošana \> Nosūtīšanas kārtošanas veidnes
 - **Konteinerizēšanas veidnes:** Noliktavas pārvaldība \> Iestatīšana \> Konteineri \> Konteineru būvējuma veidnes
-- **Etiķešu drukāšanas veidnes:** Noliktavas pārvaldība \>Uzstādīšana \>Dokumenta maršrutēšana \>Kopuma etiķešu veidnes
+- **Etiķešu drukāšanas veidnes:** Noliktavas pārvaldība \> Uzstādīšana \> Dokumenta maršrutēšana \> Kopuma etiķešu veidnes
 
 Šajā sarakstā iekļautās veidnes tiek piemērotas, kad tās ir norādītas no kopuma procesa metodes, kas ir atlasītas kopuma veidnēs. Kad kopuma darbību kods procesa metodē kopuma veidnē atbilst tā darbību kodam vienā no veidņu tipiem, tiek lietota veidne.
 
@@ -82,10 +82,10 @@ Lai pielietotu kopuma darbību kodus, dodieties uz atbilstošo mērķa veidni. �
 
 Šī procedūra palīdz garantēt, ka izveidotā papildināšanas veidne tiks lietota kopuma veidnei.
 
-1. Dodieties uz **Noliktavas pārvaldība \>Iestatīšana \>Kopumi \>Kopuma darbību kodi** un izveidojiet kopuma darbību kodu **Papildināšanas** tipam.
-2. Dodieties uz **Noliktavu pārvaldība\> Iestatīšana \> Papildināšana \> Papildināšanas veidnes** un izveidojiet papildināšanas veidni.
+1. Dodieties uz **Noliktavas pārvaldība \> Iestatīšana \> Kopumi \> Kopuma darbību kodi** un izveidojiet kopuma darbību kodu **Papildināšanas** tipam.
+2. Dodieties uz **Noliktavu pārvaldība \> Iestatīšana \> Papildināšana \> Papildināšanas veidnes** un izveidojiet papildināšanas veidni.
 3. Papildināšanas veidnē atlasiet kopuma darbības kodu, ko izveidojāt **Papildināšanas** tipam.
-4. Dodieties uz **Noliktavas pārvaldība \> Iestatīšana \>Kopumi \>Kopuma veidnes** un atlasiet kopuma veidni, ko plānojat izmantot.
+4. Dodieties uz **Noliktavas pārvaldība \> Iestatīšana \> Kopumi \> Kopuma veidnes** un atlasiet kopuma veidni, ko plānojat izmantot.
 5. Veidnē kopsavilkuma cilnē **Metodes** atlasiet **Papildināšanas** metodi.
 6. Laukā **Kopuma darbības kodi** atlasiet kopuma darbības kodu, ko izvēlējāties papildināšanas veidnē.
 

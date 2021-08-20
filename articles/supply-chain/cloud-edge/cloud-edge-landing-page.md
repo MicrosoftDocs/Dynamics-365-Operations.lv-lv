@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ffb1cedc08b033532580fda1349ade32b7dc1eb1
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: dbe5833d4c9d8038fcebf1d9d446af757c834e42a2f77f10c7eb7268e738ed28
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6354813"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780678"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Mākoņa un malas mēroga vienības ražošanas un noliktavas pārvaldības darba slodzēm
 
@@ -102,7 +102,7 @@ Jūsu pašreizējai ražošanas videi jābūt atzīmētam ar tipu **Pašapkalpo�
 > [!IMPORTANT]
 > Vides tipi, kas darbojas kā infrastruktūras pakalpojums (infrastructure as a service - IaaS), netiek atbalstīti. Šīs vides parasti tiek pievienotas veidam **Microsoft pārvaldītās** pakalpojumā LCS. Ja jums ir šī tipa vide, sazinieties ar Microsoft kontaktpersonu, lai izprastu migrācijas laika skalu uz **Pašapkalpošanās** tipu.
 
-Korporācija Microsoft pārvieto visas Supply Chain Management mākoņa vides no IaaS modeļa uz topoloģiju, kas ir viesota Service Fabric. Šī pārvietošana uzlabo mērogojamību un atvieglo pakalpojumu pārvaldību. Tāpēc izvietošanas un uzturēšanas operācijas ir ātrākas. Tāpat pakalpojuma komponenti tiek migrēti uz mikropakošanas pakalpojumu koncepciju, un pakalpojuma viesošanas modelis [pāriet](https://docs.microsoft.com/virtualization/windowscontainers/about/containers-vs-vm) no virtuālās mašīnas (VM) modeļa uz vieglu, izolētu arhitektūru.
+Korporācija Microsoft pārvieto visas Supply Chain Management mākoņa vides no IaaS modeļa uz topoloģiju, kas ir viesota Service Fabric. Šī pārvietošana uzlabo mērogojamību un atvieglo pakalpojumu pārvaldību. Tāpēc izvietošanas un uzturēšanas operācijas ir ātrākas. Tāpat pakalpojuma komponenti tiek migrēti uz mikropakošanas pakalpojumu koncepciju, un pakalpojuma viesošanas modelis [pāriet](/virtualization/windowscontainers/about/containers-vs-vm) no virtuālās mašīnas (VM) modeļa uz vieglu, izolētu arhitektūru.
 
 Visbeidzot, viena un tā pati uz Service Fabric balstīta konteinerizēta pakalpojumu infrastruktūra nodrošinās gan mākoņa, gan malas pakalpojuma instances neatkarīgi no tā, vai instance ir centrmezgls mākonī vai mēroga vienība mākonī vai malā.
 

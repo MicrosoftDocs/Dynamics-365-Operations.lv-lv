@@ -2,7 +2,7 @@
 title: Debitoru pasūtījumi Pārdošanas punktā (POS)
 description: Šajā tēmā ir sniegta informācija par debitoru pasūtījumiem Pārdošanas punktā (POS). Debitoru pasūtījumi tiek saukti arī par īpašajiem pasūtījumiem. Šajā tēmā ir iekļauta diskusija par saistītajiem parametriem un transakciju plūsmām.
 author: josaw1
-ms.date: 01/06/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 679c8d7895ac82236c12732e1080529f44231947
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 44beb4515bf0d2f8fc7ad75feb3164bf1c7c2d5737552b1a06ce59c2edcaf8fe
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349630"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755087"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Debitoru pasūtījumi Pārdošanas punktā (POS)
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par to, kā izveidot un pārvaldīt debitoru pasūtījumus Pārdošanas punktā (POS). Debitoru pasūtījumus var izmantot, lai notvertu tos pārdošanas gadījumus, kad pircēji vēlas saņemt preces vēlākā datumā, saņemt preces no citas atrašanās vietas vai arī, lai preces tiktu nosūtītas viņiem. 
+Šajā tēmā ir sniegta informācija par to, kā izveidot un pārvaldīt debitoru pasūtījumus Pārdošanas punkta (POS) lietojumprogrammā. Debitoru pasūtījumus var izmantot, lai notvertu tos pārdošanas gadījumus, kad pircēji vēlas saņemt preces vēlākā datumā, saņemt preces no citas atrašanās vietas vai arī, lai preces tiktu nosūtītas viņiem. 
 
 Visaptveroša kanāla tirdzniecības pasaulē daudzi mazumtirgotāji nodrošina iespēju izmantot debitoru pasūtījumus jeb īpašos pasūtījumus, lai izpildītu dažādas preču un izpildes prasības. Tālāk uzskaitīti daži tipiski scenāriji.
 
@@ -132,6 +132,10 @@ Mazumtirdzniecības pasūtījumus, kas ir izveidoti tiešsaistes vai krātuves k
 > [!IMPORTANT]
 > Ne visus mazumtirdzniecības pasūtījumus var rediģēt, izmantojot POS programmu. Zvanu centra kanālā izveidotos pasūtījumus nevar rediģēt, izmantojot POS punktu, ja iestatījums [Iespējot pasūtījuma pabeigšanu](./set-up-order-processing-options.md#enable-order-completion) ir ieslēgts zvanu centra kanālam. Lai nodrošinātu pareizu maksājuma apstrādi, pasūtījumus, kas radās zvanu centra kanālā un kas izmanto iespējošanas pasūtījuma pabeigšanas funkcionalitāti, ir jārediģē, izmantojot zvanu centra programmu programmā Commerce Headquarters.
 
+> [!NOTE]
+> Ieteicams sistēmā Commerce Headquarters nerediģēt pasūtījumus un piedāvājumus, ko izveidoja sistēmas Commerce Headquarters lietotājs, kas nav zvanu centrs. Šie pasūtījumi un piedāvājumi neizmanto Commerce cenu noteikšanas programmu, tādēļ, ja tie tiek rediģēti sistēmā POS, Commerce pricing engine tos izmantos atkārtoti.
+
+
 Versijā 10.0.17 un jaunākās versijās lietotāji var rediģēt atbilstošos pasūtījumus, izmantojot POS programmu, pat ja pasūtījums ir daļēji izpildīts. Tomēr pasūtījumus, kas ir pilnībā iekļauti rēķinā, joprojām nevar rediģēt, izmantojot POS punktu. Lai iespējotu šo iespēju, ieslēdziet līdzekli **Rediģēt daļēji izpildītos pasūtījumus Pārdošanas punktā** darbvietā **Līdzekļu pārvaldība** . Ja šī funkcija nav iespējota vai ja izmantojat versiju 10.0.16 vai vecāku versiju, POS programmas lietotāji varēs rediģēt debitoru pasūtījumus tikai tad, ja pasūtījums ir atvērts pilnībā. Ja šī funkcija ir aktivizēta, varat ierobežot veikalus, kuros var rediģēt daļēji izpildītus pasūtījumus. Opciju atspējot šo iespēju noteiktiem veikaliem var konfigurēt, izmantojot **Funkcijas profilu** sadaļā **Vispārīgi**.
 
 
@@ -142,7 +146,23 @@ Versijā 10.0.17 un jaunākās versijās lietotāji var rediģēt atbilstošos p
 5. Pabeidziet rediģēšanas procesu, atlasot maksājuma operāciju.
 6. Lai izietu no rediģēšanas procesa, nesaglabājot izmaiņas, varat izmantot operāciju **Anulēt transakcijas** .
 
+#### <a name="pricing-impact-when-orders-are-edited"></a>Cenu noteikšanas ietekme, kad pasūtījumi tiek rediģēti
 
+Kad pasūtījumi tiek izvietoti POS vai Commerce e-commerce vietnē, debitori piekrīt summai. Šī summa ietver cenu, un tā var ietvert arī atlaidi. Debitoram, kas iesniedz pasūtījumu un pēc tam vēlāk sazinās ar zvanu centru, lai mainītu šo pasūtījumu (piemēram, lai pievienotu citu krājumu), būs noteiktas atlaižu lietošanas prognozes. Pat ja esošo pasūtījumu rindu veicināšanas pasākumi ir beigušos, debitors plānos, ka atlaides, kas sākotnēji tika piemērotas šīm rindām, paliks spēkā. Tomēr, ja atlaide bija spēkā, kad pasūtījums sākotnēji tika veikts, bet atlaide ir pagājusi kopš šī laika, debitors plānos jauno atlaidi piemērot mainītam pasūtījumam. Pretējā gadījumā debitors var tikko atcelt esošo pasūtījumu un pēc tam izveidot jaunu pasūtījumu, kur tiek piemērota jaunā atlaide. Kā redzams šajā scenārijā, ir jāsaglabā cenas un atlaides, kurām debitori ir piekrituši. Tajā pašā laikā POS un zvanu centra lietotājiem jābūt elastīgumam, lai pārrēķinātu pārdošanas pasūtījuma rindu cenas un atlaides pēc vajadzības.
+
+Kad pasūtījumi tiek atsaukti un rediģēti POS, esošo pasūtījuma rindu cenas un atlaides tiek uzskatītas par bloķētām. Citiem vārdiem sakot, tie nemainās, pat ja dažas pasūtījuma rindas tiek atceltas vai mainītas, vai arī tiek pievienotas jaunas pasūtījuma rindas. Lai mainītu esošo pārdošanas rindu cenas un atlaides, POS lietotājam ir jāatlasa **Pārrēķināt**. Pēc tam cenu bloķēšana tiek noņemta no esošajām pasūtījuma rindām. Tomēr pirms Commerce versijas 10.0.21 izlaišanas šī iespēja nebija pieejama zvanu centrā. Tā vietā jebkuras izmaiņas pasūtījuma rindās izraisīja cenu un atlaižu pārrēķinu.
+
+Commerce versijā 10.0.21 ir pieejama jauna funkcija ar nosaukumu **Novērst neapdomātu cenu aprēķinu komercpasūtījumiem**, kas ir pieejama **Līdzekļu pārvaldības** darbvietā. Šī funkcija pēc noklusējuma ir ieslēgta. Ja programma ir ieslēgta, visiem e-komercijas pasūtījumiem ir pieejams jauns rekvizītus ar **Bloķētu cenu**. Kad pasūtījuma tveršana ir pabeigta pasūtījumiem, kas tiek izvietoti no jebkura kanāla, šis rekvizīts tiek automātiski iespējots (tas ir, izvēles rūtiņa tiek atzīmēta) visām pasūtījuma rindām. Pēc tam Commerce cenu noteikšanas programma izslēdz šīs pasūtījuma rindas no visiem cenu un atlaižu aprēķiniem. Tāpēc, ja pasūtījums tiek labots, pasūtījuma rindas pēc noklusējuma tiks izslēgtas no cenu noteikšanas un atlaides aprēķina. Tomēr zvanu centra lietotāji var atspējot rekvizītu (t.i., notīrīt izvēles rūtiņu) jebkurai pasūtījuma rindai un pēc tam atlasīt **Pārrēķināt**, lai ietvertu esošās pasūtījuma rindas cenu noteikšanas aprēķinos.
+
+Pat ja manuālā atlaide tiek piemērota esošai pārdošanas rindai, zvanu centra lietotājiem ir jāatspējo pārdošanas rindas rekvizīts **Cena ir bloķēta** pirms manuālas atlaides lietošanas.
+
+Zvanu centra lietotāji var arī atspējot pasūtījuma rindām lielapjoma rekvizītu **Cenas bloķēšana**, cilnes **Pārdošana** **Pasūtījuma** lapas darbības rūts cilnē **Aprēķināt grupu** **Noņemt cenu bloķēšanu**. Šajā gadījumā cenu slēgs tiek noņemts no visām pasūtījuma rindām, izņemot rindas, kuras nav rediģējamas (t.i., rindas ar statusu **Daļēji izrakstīts rēķins** vai **Izrakstīts rēķins**). Pēc tam pēc tam, kad pasūtījuma izmaiņas ir pabeigtas un iesniegtas, cenas slēgs tiek atkārtoti iesniegts visām pasūtījuma rindām.
+
+> [!IMPORTANT]
+> Ja ir ieslēgta funkcija **Novērst nenovērtēto cenu aprēķinu komercpasūtījumiem**, cenu noteikšanas darbplūsmās tirdzniecības līguma novērtējuma iestatījumi tiks ignorēti. Citiem vārdiem sakot, tirdzniecības līguma novērtēšanas dialoglodziņi nerādīs ar **Cenu saistīto** sadaļu. Šī darbība notiek tāpēc, ka gan tirdzniecības līguma novērtēšanas iestatījumam, gan cenu bloķēšanas funkcijai ir līdzīgs nolūks: novērst nepaplašinītas cenu izmaiņas. Tomēr tirdzniecības līgumu novērtēšanā lietotāja pieredze nav pietiekami liela apjoma pasūtījumiem, kur lietotājiem ir jāatlasa viena vai vairākas pasūtījuma rindas atkārtotai izpildei.
+
+> [!NOTE]
+> Rekvizītu **Cena bloķēta** var atspējot vienai vai vairākām atlasītajām rindām tikai tad, ja tiek izmantots **Zvanu centra** modulis. POS darbība paliek nemainīga. Citiem vārdiem sakot, POS lietotājs nevar atbloķēt atlasītās pasūtījuma rindas cenas. Tomēr viņi var atlasīt **Pārrēķināt**, lai noņemtu cenas bloķēšanu no visām esošajām pasūtījuma rindām.
 
 ### <a name="cancel-a-customer-order"></a>Debitora pasūtījuma atcelšana
 
