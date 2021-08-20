@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a816f6cff90b8292f66d73b12d328c3f56108957
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: dbb81929538ac93ba970e1a8f0a21a2787efb0b65e827d1b90d231860d4f6662
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920561"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764087"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-e-procurement"></a>Ārēja kataloga iestatīšana elektroniskai atzīmēšanas sagādei
 
@@ -58,7 +58,7 @@ Lai iestatītu paziņojumu, jūsu kreditoram ir jāiesniedz jums informācija, k
 6. Noklikšķiniet uz pogas **Pievienot**, lai sāktu sagādes kategoriju kartēšanu ārējā katalogā. Pēc tam atlasiet kategoriju sarakstā Kategorijas nosaukums. Kategoriju saraksts ir paplašināts sagādes kategoriju variants, ko kreditors kartēja visām juridiskajām personām, kuras kreditors iestatīja.
 
     > [!NOTE]
-    > Iepirkuma politikas tiek izmantotas, lai atļautu vai ierobežotu piekļuvi kategorijām juridiskajai personai, kura iegādājas, vai pārvaldības struktūrvienībai, kura saņem.  Lai veiktu atzīmēšanu ārējā katalogā, ir jābūt atļautai piekļuvei vismaz vienai no sagādes kategorijām, kas ir kartētas ar katalogu.
+    > Iepirkuma politikas tiek izmantotas, lai atļautu vai ierobežotu piekļuvi kategorijām juridiskajai personai, kura iegādājas, vai pārvaldības struktūrvienībai, kura saņem. Lai veiktu atzīmēšanu ārējā katalogā, ir jābūt atļautai piekļuvei vismaz vienai no sagādes kategorijām, kas ir kartētas ar katalogu.
 
 7. Iestatiet cXML iestatījumu pieprasījuma ziņojumu, kas tiks nosūtīts kreditoram. Automātiski ģenerētā ziņojuma formāts ir minimālā veidne, kas ir nepieciešama, lai sāktu sesiju. Ievadiet etiķešu vērtības.
 

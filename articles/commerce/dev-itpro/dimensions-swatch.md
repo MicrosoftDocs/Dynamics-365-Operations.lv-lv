@@ -2,7 +2,7 @@
 title: Konfigurēt preču dimensiju vērtības, lai tās tiktu rādītas kā paraugi
 description: Šajā tēmā aprakstīts, kā konfigurēt preču dimensiju vērtības kā paraugus galvenajā Microsoft Dynamics 365 Commerce mītnē.
 author: anupamar-ms
-ms.date: 05/28/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.20 update
-ms.openlocfilehash: 4ffbb6a162e87fd19cdb44224adc8c223ba8e903
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: b1cef992b3d4e3889dd1d5dcc21a0d1ba3f55acc166f5003fc79f64fc54a8754
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6638298"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764618"
 ---
 # <a name="configure-product-dimension-values-to-appear-as-swatches"></a>Konfigurēt preču dimensiju vērtības, lai tās tiktu rādītas kā paraugi
 
@@ -124,6 +124,19 @@ Nākamajā attēlā ir parādīts piemērs, kur dialoglodziņš **Augšupielād�
 Lai paraugi varētu parādīties e-komercijas vietnes lapās, kurām nepieciešama dimensiju atlase, piemēram, PDP un saraksta lapās, programmā Commerce Headquarters ir jākonfigurē dimensiju vietnes iestatījumi. Papildinformāciju skatiet sadaļā [Lietot dimensijas vietnes iestatījumus](../dimension-settings.md).
 
 Turklāt meklēšanas rezultātu moduļiem ir jāiespējo rekvizīts **Iekļaut preces atribūtus meklēšanas rezultātos**. Ja vietne izmanto pielāgotas kategoriju lapas, ir jāatjaunina šajās lapās izmantotie meklēšanas rezultātu moduļi, lai būtu iespējots rekvizīts **Iekļaut preču atribūtus meklēšanas rezultātos**. Plašāku informāciju skatiet sadaļā [Meklēšanas rezultātu modulis](../search-result-module.md).
+
+## <a name="inventory-awareness-on-swatches"></a>Krājumu apzināšana attiecībā uz krājumiem
+
+Funkcijai Krājumi ir izvēles iespēja rādīt preces varianta krāsas vai dimensijas krājumu pieejamību. Piemēram, prece tiek pārdota vairākos izmēros, bet daži izmēri nav noliktavā. Šajā gadījumā preces, kas nav krājumā, tiek renderētas atšķirīgi, lai norādītu, ka tās nav pieejamas. Šī iespēja palīdz samazināt klientu noklikšķināto skaitu, kas nepieciešams preču pieejamības noteikšanai.
+
+Krājuma pieejamības līdzekli var konfigurēt lietošanai gan PDP, gan meklēšanas vai kategoriju saraksta lapās, kur tiek parādīti krājumi. Lai to aktivizētu, šis dimensiju atlases rekvizīts **Atjaunināt datu nesēju** jāiestata uz **Patiess** [plašsaziņas nesēja modulī](../media-gallery-module.md). Šis iestatījums iespējo mediju galerijas attēlu atjaunināšanu, kad tiek atlasītas dimensijas. 
+
+> [!IMPORTANT]
+> Rekvizīts Iespējot vieslietotājiem ir pieejams kā Commerce 10.0.21 laidiena versijā. Nepieciešams, lai būtu instalēta Commerce moduļa bibliotēkas pakotnes versija 9.31.
+
+Šajā attēlā parādīts PDP lieluma pārzzināšanas piemērs par krājumu apzināšanos.
+
+![Piemērs krājumu apzināšanai PDP izmēra darbībās](../dev-itpro/media/swatch_inventory.png)
 
 ## <a name="display-swatches-in-pos-and-other-channels"></a>Rādīt paraugus POS un citos kanālos
 
