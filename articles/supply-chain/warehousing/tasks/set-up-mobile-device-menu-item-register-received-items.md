@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dfe068bd964f31b77e30b34ef20c2b0f70ed6238
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d9dc74d51dae4af21679ed71b68286ca29ff6201977242490fb749364a223f64
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830790"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764672"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a>Mobilās ierīces izvēlnes vienuma iestatīšana, lai reģistrētu saņemtos krājumus
 
@@ -34,7 +34,7 @@ ms.locfileid: "5830790"
 1. Navigācijas rūtī pārejiet uz sadaļu **Moduļi > Noliktavas vadība > Iestatīšana > Mobilā ierīce > Mobilās ierīces izvēlnes elementi**.
 2. Atlasiet **Jauns**.
 3. Laukā **Izvēlnes vienuma nosaukums** ievadiet vērtību. Tas ir unikāls identifikators šim mobilās ierīces izvēlnes elementam. Piemēram, jūs varat ierakstīt `My PO registration`.  
-4. Laukā **Nosaukums** ievadiet vērtību.  Tas ir nosaukums, kas tiks rādīts lietotājam mobilajā ierīcē. Piemēram, jūs varat ierakstīt `PO registration`.  
+4. Laukā **Nosaukums** ievadiet vērtību. Tas ir nosaukums, kas tiks rādīts lietotājam mobilajā ierīcē. Piemēram, jūs varat ierakstīt `PO registration`.  
 5. Laukā **Režīms** atlasiet **Darba**. Pirkšanas pasūtījuma rindai saņemto rīcībā esošo daudzumu reģistrēšanas rezultātā tiks izveidots darbs, kas pārvietos krājumus no saņemšanas zonas uz krājumiem. Darbs netiks izveidots, kamēr krājumi nav reģistrēti. Taču opciju **Izmantot esošo darbu** atstājiet iestatītu uz **Nē**.
 6. Sadaļas **Vispārīgi** laukā **Darba izveides process** atlasiet **Pirkuma pasūtījuma krājuma saņemšana**.
     - Pirkšanas pasūtījuma rindai jābūt unikāli identificējamai pirms rīcībā esošo var reģistrēt noliktavā. Šajā scenārijā mobilā ierīce reģistrēs pirkšanas pasūtījuma numuru un krājuma kodu, un tas ļaus sistēmai identificēt PP rindu. Tiks izveidots izvietošanas darbs un to var saņemt cits darbinieks. Jūsu izvēlētā darba izveides metode nosaka, kuri lauki kļūst pieejami kopsavilkuma cilnē **Vispārīgi**.  

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-5-07
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 052b8944c0a015187d1d7c4ba3db878c52faeeea
-ms.sourcegitcommit: 905a8c7a0c1bc06ada2acfba913dfe5f7b44ea16
+ms.openlocfilehash: 16000243bc8aa76b04ac56dfb8bfbab7cd644eb3120cc68493ff066598f6cf85
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/14/2021
-ms.locfileid: "6039954"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758081"
 ---
 # <a name="change-or-reassign-a-ledger-calendar"></a>Virsgrāmatas kalendāra maiņa vai atkārtota piešķiršana
 
@@ -32,7 +32,7 @@ Dažkārt uzņēmumiem ir jāmaina esošais kalendārs, kas ir piešķirts virsg
 
 ## <a name="resolution"></a>Novēršana
 
-Pastāv divi virsgrāmatas kalendāra maiņas vai atkārtotas piešķires scenāriji. Pirmais scenārijs ir saistīts ar esoša kalendāra, kas jau ir piešķirts virsgrāmatai, maiņu. Otrais scenārijs ietver jauna kalendāra izveidi un tā piešķiršanu virsgrāmatai. Abas izmaiņas var veikt jebkurā laikā, pat pēc transakciju iegrāmatošanas virsgrāmatā.
+Pastāv divi virsgrāmatas kalendāra maiņas vai atkārtotas piešķiršanas scenāriji. Pirmais scenārijs ir saistīts ar esoša kalendāra, kas jau ir piešķirts virsgrāmatai, maiņu. Otrais scenārijs ietver jauna kalendāra izveidi un tā piešķiršanu virsgrāmatai. Abas izmaiņas var veikt jebkurā laikā, pat pēc transakciju iegrāmatošanas virsgrāmatā.
 
 ### <a name="change-an-existing-fiscal-calendar"></a>Esoša finanšu kalendāra maiņa
 
