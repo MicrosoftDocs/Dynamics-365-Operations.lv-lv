@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: fd8c306dd6c3aeb7ef41b4eb3f6f8bad040035c2
-ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
+ms.openlocfilehash: 67240491bba5a81455bff00be22908670880803c3e08091d76e037fa0b5f49ec
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935609"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760518"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>Jaunumi vai izmaiņas risinājumā Dynamics 365 Supply Chain Management 10.0.17. (2021. gada aprīlis)
 
@@ -53,6 +53,8 @@ Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvald
 
 - [Iepakošana pret noliktavas dimensijām](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/packing-vs.-storage-dimensions)<br> - Lai iegūtu papildu informāciju, skatiet sadaļā [Dažādu iepakošanas un glabāšanas dimensiju iestatīšana](../warehousing/packing-vs-storage-dimensions.md)
 
+- [Paralēls kopumu sadalījums](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/parallel-wave-allocation)<br> - Papildu informāciju skatiet [Kopuma sadalījums](../warehousing/wave-allocation-method.md).
+
 - [Saglabātie skati krājumiem un loģistikai](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-inventory-logistics)<br> - papildinformāciju skatiet Standarta [saglabātos skatus Supply Chain Management](saved-views-scm.md).
 
 - [Plānot noliktavas darba izveidi](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-warehouse-work-creation)<br> - lai iegūtu papildu informāciju, skatiet [Darba izveides plānošana kopuma laikā](../warehousing/configure-wave-schedule-work-creation.md).
@@ -63,7 +65,7 @@ Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvald
 
 - [Noliktavas izpilde ar mēroga vienībām mākonī](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud)<br> - papildinformāciju skatiet [Noliktavas pārvaldības darba jauda mākoņa un malas mēroga vienībām](../cloud-edge/cloud-edge-workload-warehousing.md) un [Noliktavas pasūtījumi mākoņa un malas mēroga vienībām](../cloud-edge/cloud-edge-warehouse-order.md).
 
-- [pogramma Warehouse Management mobile](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application)<br> - Lai iegūtu papildu informāciju, skatiet [Warehouse Management lietotnes instalēšana un savienošana](../warehousing/install-configure-warehouse-management-app.md) un [Mobilo ierīču lietotāju iestatījumi](../warehousing/mobile-device-user-settings.md).
+- [Noliktavas pārvaldības mobilā pogramma](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application)<br> - Lai iegūtu papildu informāciju, skatiet [Warehouse Management lietotnes instalēšana un savienošana](../warehousing/install-configure-warehouse-management-app.md) un [Mobilo ierīču lietotāju iestatījumi](../warehousing/mobile-device-user-settings.md).
 
 - Kopuma izpildes paziņojumi<br> - Plašāku informāciju skatiet sadaļā [Kopuma izpildes paziņojumi](../warehousing/wave-execution-notifications.md)
 
