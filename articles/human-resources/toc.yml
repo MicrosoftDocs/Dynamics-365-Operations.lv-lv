@@ -5,6 +5,8 @@
       items:
         - name: Jaunumi un izmaiņas programmā Human Resources
           href: hr-admin-whats-new.md
+        - name: "2021.\_gada 26.\_jūlijs"
+          href: hr-whats-new-2021-07-26.md
         - name: "2021.\_gada 12.\_jūlijs"
           href: hr-whats-new-2021-07-12.md
         - name: "2021.\_gada 22.\_jūnijs"
@@ -27,38 +29,38 @@
           href: hr-whats-new-2021-01-28.md
         - name: "2021.\_gada 21.\_janvāris"
           href: hr-whats-new-2021-01-21.md
-        - name: "2020.\_gada 2.\_decembris"
-          href: hr-whats-new-2020-12-02.md
-        - name: "2020.\_gada 22.\_oktobris"
-          href: hr-whats-new-2020-10-22.md
-        - name: "2020.\_gada 6.\_oktobris"
-          href: hr-whats-new-2020-10-06.md
-        - name: "2020.\_gada 26.\_septembris"
-          href: hr-whats-new-2020-09-26.md
-        - name: "2020.\_gada 16.\_septembris"
-          href: hr-whats-new-2020-09-16.md
-        - name: "2020.\_gada 3.\_septembris"
-          href: hr-whats-new-2020-09-03.md
-        - name: "2020.\_gada 20.\_augusts"
-          href: hr-whats-new-2020-08-20.md
-        - name: "2020.\_gada 6.\_augusts"
-          href: hr-whats-new-2020-08-06.md
-        - name: "2020.\_gada 23.\_jūlijs"
-          href: hr-whats-new-2020-07-23.md
-        - name: "2020.\_gada 8.\_jūlijs"
-          href: hr-whats-new-2020-07-08.md
-        - name: "2020.\_gada 25.\_jūnijs"
-          href: hr-whats-new-2020-06-23.md
-        - name: "2020.\_gada 11.\_jūnijs"
-          href: hr-whats-new-2020-06-11.md
-        - name: "2020.\_gada 28.\_maijs"
-          href: hr-whats-new-2020-05-28.md
-        - name: "2020.\_gada 14.\_maijs"
-          href: hr-whats-new-2020-05-14.md
-        - name: "2020.\_gada 1.\_maijs"
-          href: hr-whats-new-2020-05-01.md
         - name: "Jaunumu arhīvi, 2020.\_gads"
           items:
+            - name: "2020.\_gada 2.\_decembris"
+              href: hr-whats-new-2020-12-02.md
+            - name: "2020.\_gada 22.\_oktobris"
+              href: hr-whats-new-2020-10-22.md
+            - name: "2020.\_gada 6.\_oktobris"
+              href: hr-whats-new-2020-10-06.md
+            - name: "2020.\_gada 26.\_septembris"
+              href: hr-whats-new-2020-09-26.md
+            - name: "2020.\_gada 16.\_septembris"
+              href: hr-whats-new-2020-09-16.md
+            - name: "2020.\_gada 3.\_septembris"
+              href: hr-whats-new-2020-09-03.md
+            - name: "2020.\_gada 20.\_augusts"
+              href: hr-whats-new-2020-08-20.md
+            - name: "2020.\_gada 6.\_augusts"
+              href: hr-whats-new-2020-08-06.md
+            - name: "2020.\_gada 23.\_jūlijs"
+              href: hr-whats-new-2020-07-23.md
+            - name: "2020.\_gada 8.\_jūlijs"
+              href: hr-whats-new-2020-07-08.md
+            - name: "2020.\_gada 25.\_jūnijs"
+              href: hr-whats-new-2020-06-23.md
+            - name: "2020.\_gada 11.\_jūnijs"
+              href: hr-whats-new-2020-06-11.md
+            - name: "2020.\_gada 28.\_maijs"
+              href: hr-whats-new-2020-05-28.md
+            - name: "2020.\_gada 14.\_maijs"
+              href: hr-whats-new-2020-05-14.md
+            - name: "2020.\_gada 1.\_maijs"
+              href: hr-whats-new-2020-05-01.md
             - name: "2020.\_gada 13.\_aprīlis"
               href: hr-whats-new-2020-04-13.md
             - name: "2020.\_gada 3.\_aprīlis"
@@ -473,6 +475,10 @@
                   href: hr-admin-integration-payroll-api-leave-type.md
                 - name: Atvaļinājuma pieprasījums
                   href: hr-admin-integration-payroll-api-leave-request.md
+            - name: Ar atvieglojumiem saistītie elementi
+              items:
+                - name: Algoto nodarbināto atvieglojumu plāns
+                  href: hr-admin-integration-payroll-api-payroll-worker-benefit-plan.md
             - name: Opciju kopas
               items:
                 - name: Dzimums
@@ -483,6 +489,10 @@
                   href: hr-admin-integration-payroll-api-award-type.md
                 - name: Procesa veids
                   href: hr-admin-integration-payroll-api-process-type.md
+                - name: Atvieglojumu plāna veida segums
+                  href: hr-admin-integration-payroll-api-benefit-plan-type-cover.md
+                - name: Atvieglojumu darbinieka plāna statuss
+                  href: hr-admin-integration-payroll-api-benefit-employee-plan-status.md
     - name: Lietotāja rokasgrāmata
       items:
         - name: Pārskats
