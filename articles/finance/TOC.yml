@@ -72,6 +72,8 @@
                   items:
                     - name: Jaunumi un izmaiņas programmas Finance sākumlapā
                       href: get-started/whats-new-home-page.md
+                    - name: "Finance 10.0.21 (2021.\_gada oktobris)"
+                      href: get-started/whats-new-changed-10-0-21.md
                     - name: "Finance 10.0.20 (2021.\_gada augusts)"
                       href: get-started/whats-new-changed-10-0-20.md
                     - name: "Finance 10.0.19 (2021.\_gada jūnijs)"
@@ -1168,6 +1170,8 @@
                   href: general-ledger/yec-mssng-open-blnces.md
                 - name: Finanšu žurnālu veidņu atvēršana sistēmā Office
                   href: general-ledger/open-fincl-jrnls-in-office.md
+                - name: Kādēļ es nevaru atgriezt šo darījumu?
+                  href: general-ledger/cant-reverse-transctns.md
         - name: Finanšu pārskatu veidošana
           items:
             - name: Darba sākšana ar finanšu pārskatiem
@@ -1498,12 +1502,16 @@
                           href: localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/finance/toc.json
                         - name: Darba sākšana ar elektronisko rēķinu izveidi
                           href: localizations/e-invoicing-get-started.md?toc=/dynamics365/finance/toc.json
+                        - name: Jauna elektronisko rēķinu izveides līdzekļa izveide
+                          href: localizations/e-invoicing-create-new-e-invoicing-feature.md
                         - name: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Brazīlijā
                           href: localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Ēģiptē
                           href: localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Meksikā
                           href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
+                        - name: 'Elektronisko rēķinu izveides pakalpojuma izveide, lai importētu kreditoru rēķinus'
+                          href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: Elektronisko rēķinu izveides iestatīšana
                           href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
                     - name: Bieži uzdotie jautājumi par elektronisko rēķinu izveidi
@@ -1514,8 +1522,12 @@
                       href: localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/finance/toc.json
                     - name: Darba sākšana ar nodokļu aprēķinu
                       href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
+                    - name: "PVN\_piemērojamības un PVN\_grupas noteikšanas loģika"
+                      href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
                     - name: Nodokļu līdzekļu atbalsts pārsūtīšanas pasūtījumiem
                       href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
+                    - name: 'Nodokļa aprēķins kopā ar cenu, ja ir iespējots līdzeklis nodokļu iekļaušanai cenā'
+                      href: localizations/global-exclude-from-tax-base-amount-calculation.md?toc=/dynamics365/finance/toc.json
                     - name: Datu lauku pievienošana nodokļu konfigurācijās
                       href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: 'Datu lauku pievienošana nodokļu integrācijai, izmantojot paplašinājumus'
@@ -1528,9 +1540,13 @@
                       items:
                         - name: Pārskatu veidošana vairākām PVN reģistrācijām
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
+                        - name: Francijas pārskatu veidošana
+                          items:
+                            - name: PVN deklarācija
+                          href: localizations/emea-fra-VAT-declaration-preview-France.md
                         - name: Nīderlandes pārskatu veidošana
                           items:
-                            - name: "PVN\_deklarācija"
+                            - name: PVN deklarācija
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: Pārskats par preču piegādēm Eiropas Kopienas teritorijā
                               href: localizations/emea-nl-eu-sales-list.md
@@ -1544,14 +1560,18 @@
               items:
                 - name: Austrālijas pārskats
                   href: localizations/australia.md
+                - name: Austrālijas banku failu formāti
+                  href: localizations/apac-aus-bank-file-formats.md
                 - name: Saimnieciskās darbības pārskats (SDP)
                   href: localizations/apac-aus-business-activity-statement.md
-                - name: Pārskatu lodziņu pievienošana un BAS ģenerēšana
+                - name: "Pārskatu lodziņu pievienošana un SDP\_ģenerēšana"
                   href: localizations/tasks/add-bas-report-boxes.md
                 - name: Pamatlīdzekļu nolietojuma aprēķina metode
                   href: localizations/apac-aus-low-value-pool-depreciation.md
                 - name: SDP iemeslu kodu iestatīšana
                   href: localizations/tasks/set-up-reason-codes-australia-bas.md
+                - name: Maksājumu laiku pārskatu izveides shēma
+                  href: localizations/apac-aus-payment-times-report.md
             - name: Austrija
               items:
                 - name: Austrijas pārskats
@@ -1802,6 +1822,8 @@
                   href: localizations/china.md
                 - name: "Finance and Operations\_— darbību nodrošina 21Vianet Ķīnā"
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md
+                - name: Kontu grupu atlase Ķīnas dokumentu tipiem
+                  href: localizations/apac-chn-account-groups-selection.md
                 - name: Materiālu komplektu salīdzinājums
                   href: localizations/apac-chn-bom-comparison.md
                 - name: Ķīnas kontu plāna hierarhija
@@ -1868,8 +1890,12 @@
                   href: localizations/emea-amount-printing-forms.md
                 - name: PVN deklarācija
                   href: localizations/emea-cze-vat-statement-details.md
-                - name: PVN deklarācija (Čehijas Republika)
+                - name: "PVN\_deklarācija (Čehijas Republika)"
                   href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
+                - name: Bankas kontu bankas simboli
+                  href: localizations/emea-cze-specify-bank-symbols-for-bank-accounts.md
+                - name: EK iekšējais PVN
+                  href: localizations/emea-cze-intra-community-VAT.md
                 - name: Gada beigu slēgšana
                   href: localizations/emea-cze-hun-year-end.md
             - name: Dānija
@@ -1992,10 +2018,6 @@
                       href: localizations/tasks/eur-00002-specify-lading-address-intra-community.md
                     - name: ES Intrastat deklarācijas ģenerēšana
                       href: localizations/tasks/eur-00002-eu-intrastat-declaration.md
-                    - name: Franču Intrastat
-                      href: localizations/emea-fra-intrastat.md
-                    - name: Itāliešu Intrastat
-                      href: localizations/emea-ita-intrastat.md
                 - name: Krājumu žurnāla pārskati
                   href: localizations/emea-set-up-report-inventory-journal-names.md
                 - name: Rēķinu izsniegšanas termiņi
@@ -2120,6 +2142,8 @@
                   href: localizations/emea-fra-derogatory-depreciation.md
                 - name: Francijas vekseļi un parādzīmes
                   href: localizations/tasks/fr-00004-french-bills-exchange-promissory-notes.md
+                - name: Francijas Intrastat
+                  href: localizations/emea-fra-intrastat.md
                 - name: NAF kodi un siret numuri
                   href: localizations/emea-fra-naf-codes-siret-numbers.md
                 - name: NAF kodu un siret numuru iestatīšana
@@ -2134,10 +2158,12 @@
                   href: localizations/emea-fra-print-lump-sum-recovery-text.md
                 - name: RB/SL nolietojums
                   href: localizations/emea-fra-rbsl-depreciation.md
-                - name: Maksāšanas metodes iestatīšana
+                - name: Maksāšanas veidu izveidošana
                   href: localizations/tasks/fr-00004-setup-method-payment.md
                 - name: Debitora maksāšanas metodes atjaunināšana
                   href: localizations/tasks/fr-00004-update-method-payment-customer.md
+                - name: PVN deklarācija
+                  href: localizations/emea-fra-VAT-declaration-preview-France.md
                 - name: DAS-2 pārskats
                   href: localizations/emea-fra-das2-report.md
             - name: Vācija
@@ -2162,6 +2188,8 @@
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: PVN deklarācijas elektroniskā pārsūtīšana (ELSTER)
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
+                - name: Vācijas Intrastat
+                  href: localizations/emea-deu-intrastat.md
                 - name: PVN deklarācija Vācijai
                   href: localizations/emea-de-vat-declaration.md
                 - name: Klientu elektronisko rēķinu pārskats
@@ -2170,6 +2198,8 @@
                   href: localizations/emea-deu-journal-list-report.md
                 - name: Elektronisko nodokļu deklarāciju iestatīšana
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/dynamics365/finance/toc.json
+                - name: 'Drukāt atsevišķu etiķeti kredītrēķiniem, kuri izveidojušies no pārdošanas'
+                  href: localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md
             - name: Ungārija
               items:
                 - name: Ungārijas pārskats
@@ -2616,6 +2646,8 @@
                   href: localizations/emea-ita-exil-zero-invoice-posting.md
                 - name: Bankas datu izmantojamības uzlabošana
                   href: localizations/emea-ita-exil-bank-accounts-setup.md
+                - name: Itāliešu Intrastat
+                  href: localizations/emea-ita-intrastat.md
                 - name: Intrastat deklarācijā iekļautās papildmaksas par kilogramu
                   href: localizations/emea-ita-exil-misc-charges-intrastat.md
                 - name: "Nolūka vēstules\_— rēķinu izrakstīšana parastajiem eksportētājiem"
@@ -2836,6 +2868,8 @@
                   href: localizations/emea-ltu-isaf.md
                 - name: Standarta audita fails nodoklim (SAF-T) Lietuvā
                   href: localizations/emea-ltu-saf-t.md
+                - name: Pārsūtīšanas dokumentu par preču kustību uzņēmumā iestatīšana
+                  href: localizations/tasks/set-up-transfer-documents-goods-movement-inside-company.md
             - name: Malaizija
               items:
                 - name: Malaizijas pārskats
@@ -2970,14 +3004,18 @@
                   href: localizations/emea-pol-turnover-balances-statement.md
                 - name: Kreditoru/debitoru valūtas starpības sadale
                   href: localizations/emea-pol-split-ap-ar-exchange-difference.md
+                - name: "PKWiU\_kodu iestatīšana un izmantošana Polijā"
+                  href: localizations/emea-pol-pkwiu-code.md
                 - name: 'PVN deklarācija ar reģistriem (JPK_V7M, VDEK)'
-                  href: localizations/emea-pol-vdek.md
-                - name: Sagatavošanās JPK-V7M pārskatiem
-                  href: localizations/emea-pol-vdek-setup.md
-                - name: JPK-V7M pārskats
-                  href: localizations/emea-pol-vdek-reporting.md
-                - name: Detalizēta informācija par konkrētiem biznesa scenārijiem JPK-V7M pārskatā
-                  href: localizations/emea-pol-vdek-scenarios.md
+                  items:
+                    - name: "PVN deklarācija ar reģistriem (JPK_V7M, VDEK)\_— pārskats"
+                      href: localizations/emea-pol-vdek.md
+                    - name: Sagatavošanās JPK-V7M pārskatiem
+                      href: localizations/emea-pol-vdek-setup.md
+                    - name: JPK-V7M pārskats
+                      href: localizations/emea-pol-vdek-reporting.md
+                    - name: Detalizēta informācija par konkrētiem biznesa scenārijiem JPK-V7M pārskatā
+                      href: localizations/emea-pol-vdek-scenarios.md
             - name: Katara
               items:
                 - name: Kataras pārskats
@@ -3200,6 +3238,8 @@
                       href: localizations/rus-reporting-deferrals.md
                 - name: Nodokļu grāmatvedība
                   items:
+                    - name: Nodokļu reģistru un nodokļu reģistru žurnāla izveide
+                      href: localizations/rus-profit-tax-registers.md
                     - name: Izdevumu un ieņēmumu kodi
                       href: localizations/rus-expense-and-income-codes.md
                     - name: Līdzekļu nodokļu reģistri
@@ -3216,6 +3256,10 @@
                       href: localizations/rus-bad-debts.md
                     - name: Nodokļu aktīvu un nodokļu parādu reģistru aprēķins
                       href: localizations/rus-calculation-tax-asset-tax-liability-registers.md
+                    - name: Preču kustības nodokļu reģistri
+                      href: localizations/rus-goods-movement-tax-registers.md
+                    - name: Citi nodokļu reģistri
+                      href: localizations/rus-other-tax-registers.md
             - name: Saūda Arābija
               items:
                 - name: Saūda Arābijas pārskats
@@ -3304,8 +3348,6 @@
                   href: localizations/apac-tha-tax-branch-dimensions.md
                 - name: Pārdošanas PVN pārskats
                   href: localizations/apac-tha-sales-vat-report.md
-                - name: Vidējais PVN pirkšanas darījumiem
-                  href: localizations/apac-tha-average-vat-for-purchase-transactions.md
                 - name: Ieturētais nodoklis
                   href: localizations/apac-tha-withholding-tax.md
             - name: Apvienotie Arābu Emirāti (AAE)

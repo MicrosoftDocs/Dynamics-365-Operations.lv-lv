@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 98f9fffcbf93871de302a0d8b4b9675889ef5e40
-ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
+ms.openlocfilehash: c1930a47bc133c411a0e6054aa766322a261064a06ac4cec8dcdd12c126dc7cd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6641132"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773541"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Jaunumi un izmaiņas programmas Dynamics 365 Supply Chain Management versijā 10.0.19 (2021. gada jūnijs)
 
@@ -35,6 +35,7 @@ Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvald
 
 | Līdzekļu apgabals | Funkcija | Papildinformācija |
 |---|---|---|
+| Krājumi&nbsp;un&nbsp;loģistika | [Apstiprināt un saglabāt kreditora iesniegto bankas informāciju](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/approve-save-vendor-submitted-bank-details) | [Kreditora bankas konta informācijas uzturēšana](../../finance/accounts-payable/maintain-vendor-bank-info.md) |
 | Krājumi un loģistika | [Kontaktpersonas datu entītijas eksporta optimizācija](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/contact-person-data-entity-export-optimization)  | Iespējojot šo līdzekli, izmaiņas atsauces datos neļaus saistītās kontaktpersonas iekļaut nākamajā inkrementālā eksportā. Atspējojot šo līdzekli, izmaiņas atsauces datos ļaus saistītās kontaktpersonas iekļaut nākamajā inkrementālā eksportā. |
 | Krājumi un loģistika | [Inkrementāli uzlabojumi noliktavas izpildes iespējām ar apjoma vienībām](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/incremental-enhancements-warehouse-execution-capabilities-scale-units) |[Ziņojumu apstrādātāja ziņojumi](../cloud-edge/cloud-edge-message-processor-messages.md)<br><br>[Noliktavas krājumu korekcija](../cloud-edge/cloud-edge-warehouse-inventory-adjustment.md)<br><br>[Noliktavas pārvaldības darba slodzes mākoņa un malas mēroga vienībām](../cloud-edge/cloud-edge-workload-warehousing.md) |
 | Krājumi un loģistika | [Uzmeklēšanas funkcionalitāte dokumenta ievada un dokumenta noslēgšanas laukiem pārdošanas piedāvājuma lapā](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | Šis līdzeklis pievieno uzmeklēšanas funkcionalitāti **Dokumenta ievada** un **Dokumenta noslēgšanas** laukiem **Pārdošanas piedāvājuma** lapā.<br><br>Šis līdzeklis ir iespējots pēc noklusējuma. |
@@ -52,8 +53,8 @@ Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvald
 |---|---|---|
 | Pārdošana un mārketings | Pārdošanas vēstures tīrīšanas veiktspējas uzlabojumi | Pārdošanas vēstures tīrīšana var aizņemt ilgu laiku, ja retos gadījumos tiek palaista vidēs ar augstu pārdošanas atjauninājumu daudzumu. Lai samazinātu ilgumu un uzlabotu uzticamību, šis līdzeklis sadala tīrīšanu partijās, kas tiek palaistas uz ierobežotu laiku. Ja iespējams, datu bāzes iespējas tiks līdzsvarotas, lai samazinātu bloķēšanu un izvairītos no darbību tabulu pievienošanas tīrīšanas laikā. |
 | Pārdošana un mārketings | Atjaunināt pieprasīto saņemšanas datumu ar starpuzņēmumu pasūtījumu apstiprināto datumu | Šī funkcija ļauj kontrolēt, kas notiks ar pārdošanas un pirkšanas datuma lauka vērtībām, izmantojot starpuzņēmumu tiešo piegādi. Varat izvēlēties, vai sistēma atjauninās pieprasītos datumus vai izlaidīs to atjaunināšanu. Ja izlaižat atjaunināšanu, pieprasītie datumi atainos debitora pieprasīto informāciju. Ja iespējojat atjaunināšanu, pieprasītie datumi (izmantojot piegādes datuma kontroli) sākotnēji parāda, ko debitors pieprasa. Piegādes datuma kontrole, ja tā atšķiras no *Neviena*, ignorēs sākotnējo pieprasīto informāciju. Šo opciju var iestatīt, izmantojot jauno iestatījumu **Atjaunināt pieprasīto rēķina datumu ar apstiprinātu datumu** starpuzņēmumu kreditora vai debitora iestatījumos.<br><br>Ja līdzeklis ir deaktivizēts, sistēma pārrakstīs pieprasīto rēķina datumu sākotnējos pārdošanas pasūtījumos, pamatojoties uz piegādes datuma kontroles nosacījumiem, bet pieprasītais nosūtīšanas datums paliks tāds pats. |
-| Noliktavas vadība | Pēc izlaišanas uz noliktavu daudzumus noapaļot līdz tuvākajai pārdošanas vienībai | Šī funkcija pievieno opciju, kas var ierobežot pasūtījuma daudzumu, kad tiek izlaista nosūtīšana uz noliktavu. Ja aktivizēta, pasūtījuma daudzumi tiek noapaļoti uz leju līdz tuvākajai veselai pārdošanas vienībai, un pasūtījumi, kuros iekļauti daudzumi mazāk nekā vienai pārdošanas vienībai, tiks noraidīti izlaišanai. |
-| Noliktavas vadība | Organizācijas mēroga kopuma metode “Ieplānot darba izveidi” | *Plānošanas darba izveides* kopuma metode tiks konfigurēta tā, lai tā darbotos paralēli visām juridiskajām personām. Tiks ietekmēti arī vairāki papildu iestatījumi. Lai iegūtu pilnu informāciju, skatiet [Darba izveides plānošana kopuma laikā](../warehousing/configure-wave-schedule-work-creation.md). |
+| Noliktavas pārvaldība | Pēc izlaišanas uz noliktavu daudzumus noapaļot līdz tuvākajai pārdošanas vienībai | Šī funkcija pievieno opciju, kas var ierobežot pasūtījuma daudzumu, kad tiek izlaista nosūtīšana uz noliktavu. Ja aktivizēta, pasūtījuma daudzumi tiek noapaļoti uz leju līdz tuvākajai veselai pārdošanas vienībai, un pasūtījumi, kuros iekļauti daudzumi mazāk nekā vienai pārdošanas vienībai, tiks noraidīti izlaišanai. |
+| Noliktavas pārvaldība | Organizācijas mēroga kopuma metode “Ieplānot darba izveidi” | *Plānošanas darba izveides* kopuma metode tiks konfigurēta tā, lai tā darbotos paralēli visām juridiskajām personām. Tiks ietekmēti arī vairāki papildu iestatījumi. Lai iegūtu pilnu informāciju, skatiet [Darba izveides plānošana kopuma laikā](../warehousing/configure-wave-schedule-work-creation.md). |
 
 ## <a name="new-and-updated-documentation-resources"></a>Jauni un atjaunināti dokumentācijas resursi
 
@@ -66,7 +67,7 @@ Nesen ir pievienotas vai ievērojami atjauninātas tālāk norādītās palīdz�
 | Preču informācijas pārvaldība | [Mērvienības pārvaldība](../pim/tasks/manage-unit-measure.md)<br><br>[Preces konfigurācijas modeļa aprēķini](../pim/config-model-calculations.md) |
 | Ražošanas kontrole | [Vienota darbu ID numuru secība](../production-control/unified-job-ids.md) |
 | Transportēšanas pārvaldība | [LTL klases](../transportation/ltl-class.md)<br><br>[NMFC kodi](../transportation/nmfc-codes.md) |
-| Noliktavas vadība | [Problēmu novēršana saistībā ar noliktavu partiju un sēriju rezervācijas hierarhijām](../warehousing/troubleshoot-warehouse-batch-and-serial-reservation-hierarchies.md) |
+| Noliktavas pārvaldība | [Problēmu novēršana saistībā ar noliktavu partiju un sēriju rezervācijas hierarhijām](../warehousing/troubleshoot-warehouse-batch-and-serial-reservation-hierarchies.md) |
 | Noliktavas pārvaldība, kopuma izveide un apstrāde | [Kopumu izveide un apstrāde](../warehousing/wave-processing.md)<br><br>[Noliktavas parametri kopuma apstrādei](../warehousing/wave-warehouse-parameters.md)<br><br>[Kopumu veidnes](../warehousing/wave-templates.md)<br><br>[Kopumu sadalījums](../warehousing/wave-allocation-method.md)<br><br>[Darba izveides plānošana kopuma laikā](../warehousing/configure-wave-schedule-work-creation.md)<br><br>[Konteinerizēšana](../warehousing/wave-containerization.md)<br><br>[Kopuma izpildes paziņojumi](../warehousing/wave-execution-notifications.md) |
 
 ## <a name="additional-resources"></a>Papildu resursi

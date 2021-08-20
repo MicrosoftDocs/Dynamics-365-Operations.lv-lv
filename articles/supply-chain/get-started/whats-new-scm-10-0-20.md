@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 09cdb039b9bde3f97db012f1aaaeaf4c8a7df944
-ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
+ms.openlocfilehash: 1aada0d3ebe80e1efb92815c6d429ed5638dabdbac165aa09be1ca281c51b255
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6641060"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773517"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Jaunumi un izmaiņas risinājumā Dynamics 365 Supply Chain Management 10.0.20 (2021. gada augusts)
 
@@ -47,7 +47,6 @@ Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvald
 
 | Līdzekļu apgabals | Līdzekļa&nbsp;nosaukums&nbsp;līdzekļu&nbsp;pārvaldībā | Papildinformācija |
 |---|---|---|
-| Vispārējā plānošana | Negatīvās dienas optimizācijas plānošanai | Šis līdzeklis iespējo Plānošanas optimizāciju apsvērt kavējumu toleranci, pamatojoties uz vajadzību grupās definēto parametru **Negatīvās dienas**. |
 | Vispārējā plānošana | Koriģētas pieprasījuma apjoma prognozes paralēla pilnvarošana | Šis līdzeklis ļauj pielāgotās pieprasījuma apjoma prognozes paralēlu autorizāciju no **Pielāgotās pieprasījuma apjoma prognozes** lapas. Šīs funkcijas nolūks ir palielināt veiktspēju, kad ir autorizēts liels prognožu skaits. Autorizējoties lietotājs var norādīt **Pavedienu skaitu** autorizācijas dialogā. |
 | Vispārējā plānošana | (Priekšskatījums) Sērijveida nostiprināšana un apvienošana plānotajiem lielapjoma un pakotņu partiju pasūtījumiem | Šis līdzeklis sniedz iespēju izmantot pakešuzdevumus, lai nostiprinātu un konsolidētu plānotos lielapjoma un pakotņu pasūtījumus. |
 | Ražošanas kontrole | Kopēt vispārīgus maršrutus | Šī funkcija uzlabo maršruta kopēšanas funkciju, lai ļautu lietotājiem kopēt maršrutus, kas nav specifiski krājumiem. Tas iespējo sistēmu atjaunināt visu atbilstošo informāciju (piemēram, vietni, maršrutu grupu, resursu vajadzības un dažādus laikus) pēc maršruta kopēšanas funkcijas izmantošanas, lai pārrakstītu maršrutu, kas vēl nav piešķirts krājumam. |
