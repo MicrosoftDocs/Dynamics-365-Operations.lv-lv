@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bd5a92470b711b9d316e4fe96aecadd7252ff807
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 48fef68dc3e5935f0032ca006840202b53d577e06e5376ead0b66eca2a9c36bb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360153"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740843"
 ---
 # <a name="copy-an-instance"></a>Instances kopēšana
 
@@ -52,7 +52,7 @@ Kopējot Human Resources datu bāzi, notiek tālāk minētie notikumi.
 
 - Dokumenti Microsoft Azure Blob krātuvē netiek kopēti no vienas vides uz citu. Kā rezultātā visi pievienotie dokumenti un veidnes netiks kopētas un paliks avota vidē.
 
-- Nebūs pieejami visi lietotāji, izņemot administratora un citu iekšējo pakalpojumu lietotāju kontus. Administrators var dzēst vai aptumšot datus, pirms citi lietotāji drīkst ienākt atpakaļ sistēmā.
+- Visi lietotāji, izņemot tos, kuriem ir drošības loma Sistēmas administrators, un citi iekšējo pakalpojumu lietotāju konti nav pieejami. Administrators var dzēst vai aptumšot datus, pirms citi lietotāji drīkst ienākt atpakaļ sistēmā.
 
 - Administratoram ir jāveic nepieciešamās konfigurācijas izmaiņas, piemēram, integrācijas galapunktu atkārtota pieslēgšana noteiktiem pakalpojumiem vai URL.
 
@@ -111,7 +111,7 @@ Daži no šiem elementiem netiek kopēti, jo tie ir videi specifiski. Piemēram,
 
 Turklāt, kopējot instanci, mainās tālāk minētie statusi.
 
-- Visi lietotāji, izņemot administratorus, ir iestatīti uz **Atspējots**.
+- Visi lietotāji, izņemot tos, kuriem ir loma Sistēmas administrators, ir iestatīti kā **Atspējoti**.
 
 - Visi pakešuzdevumi, izņemot dažus sistēmas uzdevumus, ir iestatīti uz **Aizturēt**.
 
