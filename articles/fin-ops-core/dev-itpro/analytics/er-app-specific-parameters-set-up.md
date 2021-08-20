@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 9276a633d560bc95c868b9c12438b4f625ed169a
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 28fea4a09d7c105096859495d9b4a43f4c86c834184809827fe77ce1bbff5b84
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351894"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749828"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Iestatīt ER formāta parametrus juridiskai personai
 
@@ -41,7 +41,7 @@ Lai izpildītu šīs tēmas piemērus, ir jābūt piekļuvei Microsoft Dynamics 
 1.  Pierakstieties savā vidē.
 2.  Noklusējuma informācijas panelī atlasiet **Elektroniskais pārskats**.
 3.  Atlasiet **Pārskatu konfigurācijas**.
-4.  Importējiet uz pašreizējo Finance instanci konfigurācijas, kas tika eksportētas no Regulatory Configuration Service (RCS), kad izpildījāt darbības no tēmas [Konfigurēt ER formātus, lai izmantotu parametrus, kas konkretizēti juridiskai personai](er-app-specific-parameters-configure-format.md). Veiciet šīs darbības katrai elektroniskās ziņošanas (ER) konfigurācijai šādā secībā: datu modelis, modeļa kartēšana un formāti.
+4.  Importējiet uz pašreizējo Finance instanci konfigurācijas, kas tika eksportētas no Regulatory Configuration Services (RCS), kad izpildījāt darbības no tēmas [Konfigurēt ER formātus, lai izmantotu parametrus, kas konkretizēti juridiskai personai](er-app-specific-parameters-configure-format.md). Veiciet šīs darbības katrai elektroniskās ziņošanas (ER) konfigurācijai šādā secībā: datu modelis, modeļa kartēšana un formāti.
 
     1. Atlasiet **Apmaiņa \> Ielādēt no XML faila**.
     2. Atlasiet **Pārlūkot**, lai atlasītu failu nepieciešamajai ER konfigurācijai XML formātā.
