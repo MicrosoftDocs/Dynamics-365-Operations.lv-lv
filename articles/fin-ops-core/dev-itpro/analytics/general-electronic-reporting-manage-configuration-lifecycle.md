@@ -2,7 +2,7 @@
 title: Elektronisko pārskatu veidošanas (ER) konfigurāciju dzīves cikla pārvaldība
 description: Šajā tēmā ir aprakstīts, kā pārvaldīt elektronisko pārskatu izveides (Electronic reporting — ER) konfigurāciju Dynamics 365 Finance.
 author: NickSelin
-ms.date: 04/13/2021
+ms.date: 07/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bb7844a009bc35f7151827b8e675cb39f71459fd
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: b8b61082cf17707c952b6e07613769a671c349bb8fa92c21e3fe8524ef62dcb2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345742"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767783"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Elektronisko pārskatu veidošanas (ER) konfigurācijas dzīves cikla pārvaldība
 
@@ -82,20 +82,34 @@ Izstrādes vidē izstrādātās ER konfigurācijas var [augšupielādēt](#data
 
 ![ER konfigurācijas dzīves cikls.](./media/ger-configuration-lifecycle.png)
 
-## <a name="data-persistence-consideration"></a><a name="data-persistence-consideration" />Datu noturības apsvērumi
+## <a name="data-persistence-consideration"></a>Datu noturības apsvērumi
 
 Dažādas ER [konfigurācijas](general-electronic-reporting.md#Configuration) [versijas](general-electronic-reporting.md#component-versioning) var [importēt](tasks/er-import-configuration-lifecycle-services.md) atsevišķi uz Finance instanci. Kad tiek importēta jauna ER konfigurācijas versija, sistēma kontrolē šīs konfigurācijas melnraksta versijas saturu:
 
-   - Kad importētā versija ir zemāka nekā visaugstākā šīs konfigurācijas versija pašreizējā Finance instancē, šīs konfigurācijas melnraksta versijas saturs paliek nemainīgs.
-   - Kad importētā versija ir augstāka nekā jebkura cita šīs konfigurācijas versija pašreizējā Finance instancē, importētās versijas saturs tiek kopēts šīs konfigurācijas melnraksta versijā, lai ļautu turpināt rediģēt pēdējo pabeigto versiju.
+- Kad importētā versija ir zemāka nekā visaugstākā šīs konfigurācijas versija pašreizējā Finance instancē, šīs konfigurācijas melnraksta versijas saturs paliek nemainīgs.
+- Kad importētā versija ir augstāka nekā jebkura cita šīs konfigurācijas versija pašreizējā Finance instancē, importētās versijas saturs tiek kopēts šīs konfigurācijas melnraksta versijā, lai ļautu turpināt rediģēt pēdējo pabeigto versiju.
 
 Ja šī konfigurācija pieder pašlaik aktivizētām konfigurācijas [nodrošinātājam](general-electronic-reporting.md#Provider), šīs konfigurācijas melnraksta versija ir redzama lapas **Konfigurācijas** kopsavilkuma cilnē **Versijas** (**Organizācijas administrēšana** > **Elektronisko pārskatu veidošana** > **Konfigurācijas**). Varat atlasīt konfigurācijas melnraksta versiju un [modificēt](er-quick-start2-customize-report.md#ConfigureDerivedFormat) tās saturu, izmantojot atbilstīgo ER veidotāju. Kad esat rediģējis ER konfigurācijas melnraksta versiju, tās saturs vairs neatbilst šīs konfigurācijas augstākās versijas saturam pašreizējā Finance instancē. Lai novērstu jūsu izmaiņu zudumus, sistēma parādā kļūdu, ka imports nevar turpināties, jo šīs konfigurācijas versija ir augstāka par augstāko šīs konfigurācijas versiju pašreizējā Finance instancē. Kad tā notiek, piemēram, ar formāta konfigurāciju **X**, tiek rādīta kļūda **Formāta 'X' versija nav pabeigta**.
 
 Lai atsauktu melnraksta versijā ieviestās izmaiņas, atlasiet visaugstāko pabeigto vai koplietojamo jūsu ER konfigurācijas versiju pakalpojumā Finance, kopsavilkuma cilnē **Versijas** un pēc tam atlasiet opciju **Iegūt šo versiju**. Atlasītās versijas saturs tiek kopēts melnraksta versijā.
 
+## <a name="applicability-consideration"></a>Piemērojamības apsvērumi
+
+Veidojot jaunu ER konfigurācijas versiju, var definēt tās [atkarību](tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md) no citiem programmatūras komponentiem. Šis solis tiek uzskatīts par priekšnoteikumu, lai kontrolētu šīs konfigurācijas versijas lejupielādi no ER repozitorija vai ārēja XML faila un jebkādu turpmāku šīs versijas izmantošanu. Mēģinot importēt jaunu ER konfigurācijas versiju, sistēma izmanto konfigurētos priekšnosacījumus, lai kontrolētu, vai šo versiju var importēt.
+
+Dažos gadījumos var būt nepieciešams, lai sistēma ignorētu konfigurētos priekšnosacījumus, kad importējat jaunas ER konfigurāciju versijas. Lai importa laikā sistēma ignorētu priekšnosacījumus, veiciet šīs darbības.
+
+1. Dodieties uz **Organizācijas administrēšana** \> **Elektronisko pārskatu veidošana** \> **Konfigurācijas**.
+2. Lapas **Konfigurācijas** darbību rūtī, cilnē **Konfigurācijas**, grupā **Papildu iestatījumi** atlasiet vienumu **Lietotāja parametri**.
+3. Iestatiet **Izlaist produkta atjauninājumus un versijas priekšnosacījumu pārbaudi importēšanas laikā** uz **Jā**.
+
+    > [!NOTE]
+    > Šis parametrs ir lietotājam raksturīgs un uzņēmumam raksturīgs.
+
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Elektronisko pārskatu veidošanas (ER) apskats](general-electronic-reporting.md)
 
+[Elektronisko pārskatu konfigurāciju atkarības no citiem komponentiem definēšana](tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

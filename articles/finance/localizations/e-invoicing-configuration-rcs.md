@@ -2,7 +2,7 @@
 title: Elektronisko rēķinu izveides konfigurēšana pakalpojumā Regulatory Configuration Services (RCS)
 description: Šajā tēmā skaidrots, kā konfigurēt Elektronisko rēķinu izrakstīšanu Dynamics 365 Regulatory Configuration Services (RCS).
 author: gionoder
-ms.date: 05/19/2021
+ms.date: 07/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6c1d309744c4c8dd0d17f5259551d31c257ede61
-ms.sourcegitcommit: 633d51834d7d29b745824924315a3898dc471f1a
+ms.openlocfilehash: 98ba40da7b365e46e1c624ba70c7dc048144e2c7137e8fd8eb5abe348028ce35
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6075147"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757978"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Elektronisko rēķinu izveides konfigurēšana pakalpojumā Regulatory Configuration Services (RCS)
 
@@ -46,21 +46,13 @@ Funkcijas atbalsta arī scenārijus, kuros ir nepieciešama atbilstība failu fo
 
 Visbeidzot, funkcijas atbalsta ziņojumu apmaiņu ar ārējiem tīmekļa pakalpojumiem, ko vieso nodokļu iestāde vai kāda atsevišķa akreditēta puse, un pieprasa autorizāciju vai apstiprinājuma zīmogu elektroniskajā rēķinā.
 
-### <a name="availability-of-electronic-invoicing-features"></a>Elektronisko rēķinu izrakstīšanas funkciju pieejamība
+## <a name="availability-of-electronic-invoicing-features"></a>Elektronisko rēķinu izrakstīšanas funkciju pieejamība
 
 Elektronisko rēķinu izrakstīšanas funkciju pieejamība ir atkarīga no valsts vai reģiona. Lai arī dažas funkcijas parasti ir pieejamas, citas ir pieejamas tikai priekšskatījumā.
 
-#### <a name="generally-available-features"></a>Vispārpieejami līdzekļi
+### <a name="generally-available-features"></a>Vispārpieejami līdzekļi
 
 Šajā tabulā parādītas elektronisko rēķinu izrakstīšanas funkcijas, kas pašlaik ir vispārpieejami.
-
-| Valsts/reģions | Līdzekļa nosaukums                         | Biznesa dokuments |
-|----------------|--------------------------------------|-------------------|
-| Ēģipte          | Ēģiptes elektroniskais rēķins (EG) | Pārdošanas un projektu rēķini |
-
-#### <a name="preview-features"></a>Priekšskatījuma līdzekļi
-
-Šajā tabulā parādītas elektronisko rēķinu izrakstīšanas funkcijas, kas pašlaik ir pieejamas priekšskatījumā.
 
 | Valsts/reģions | Līdzekļa nosaukums                         | Biznesa dokuments |
 |----------------|--------------------------------------|-------------------|
@@ -68,17 +60,27 @@ Elektronisko rēķinu izrakstīšanas funkciju pieejamība ir atkarīga no valst
 | Beļģija        | Beļģijas elektroniskais rēķins (BE)      | Pārdošanas un projektu rēķini |
 | Brazīlija         | Brazīlijas NF-e (BR)                  | 55. finanšu dokumenta modelis, labojumu vēstules, atcelšanas un anulēšanas |
 | Brazīlija         | Brazīlijas NFS-e ABRASF Curitiba (BR) | Pakalpojuma finanšu dokumenti |
+| Brazīlija         | Brazīlijas NF-e imports no e-pasta (BR) | 55. modeļa finanšu dokuments |
 | Dānija        | Dānijas elektroniskais rēķins (DK)       | Pārdošanas un projektu rēķini |
+| Ēģipte          | Ēģiptes elektroniskais rēķins (EG)     | Pārdošanas un projektu rēķini |
 | Igaunija        | Igaunijas elektroniskais rēķins (EE)     | Pārdošanas un projektu rēķini |
 | Somija        | Somijas elektroniskais rēķins (FI)      | Pārdošanas un projektu rēķini |
 | Francija         | Francijas elektroniskais rēķins (FR)       | Pārdošanas un projektu rēķini |
 | Vācija        | Vācijas elektroniskais rēķins (DE)       | Pārdošanas un projektu rēķini |
 | Itālija          | FatturaPA (IT)                       | Pārdošanas un projektu rēķini |
-| Meksika         | Meksikas CFDI (MX)                    | Pārdošanas rēķini, pavadzīmes, krājumu pārsūtījumi, maksājumu papildinājumi un atcelšanas |
 | Nīderlande    | Nīderlandes elektroniskais rēķins (NL)        | Pārdošanas un projektu rēķini |
 | Norvēģija         | Norvēģijas elektroniskais rēķins (NO)    | Pārdošanas un projektu rēķini |
 | Spānija          | Spānijas elektroniskais rēķins (ES)      | Pārdošanas un projektu rēķini |
 | Eiropa         | PEPPOL elektroniskais rēķins            | PEPPOL pārdošanas un projektu rēķini |
+| Eiropa         | PEPPOL kreditoru rēķins                | PEPPOL importa kreditoru rēķini |
+
+### <a name="preview-features"></a>Priekšskatījuma līdzekļi
+
+Šajā tabulā parādītas elektronisko rēķinu izrakstīšanas funkcijas, kas pašlaik ir pieejamas priekšskatījumā.
+
+| Valsts/reģions | Līdzekļa nosaukums                         | Biznesa dokuments |
+|----------------|--------------------------------------|-------------------|
+| Meksika         | Meksikas CFDI (MX)                    | Pārdošanas rēķini, pavadzīmes, krājumu pārsūtījumi, maksājumu papildinājumi un atcelšanas |
 
 ### <a name="configurable-components-of-electronic-invoicing-features"></a>Elektronisko rēķinu izrakstīšanas funkciju konfigurējami komponenti
 
@@ -204,10 +206,10 @@ Papildus neiekļautajām ER formāta konfigurācijām, lai izmantotu ar Elektron
 | Darbība                                        | Apraksts                                                                  | Pieejamība         |
 |-----------------------------------------------|------------------------------------------------------------------------------|----------------------|
 | Transformējiet dokumentu                            | Lai pārveidotu dokumentu, palaidiet elektronisko pārskatu formātu.                   | Vispārēji pieejams  |
-| Parakstīt xml dokumentu                             | Parakstīt xml dokumentus ar digitālo parakstu.                                   | Priekšskatījumā           |
-| Parakstīt json dokumentu Ēģiptes nodokļu iestādei | Parakstīt json dokumentus ar digitālo parakstu Ēģiptes nodokļu iestādei.       | Vispārēji pieejams  |
+| Parakstīt xml dokumentu                             | Parakstīt xml dokumentus ar digitālo parakstu.                                   | Vispārēji pieejams  |
+| Json dokumenta parakstīšana Ēģiptes nodokļu iestādei | Parakstīt json dokumentus ar digitālo parakstu Ēģiptes nodokļu iestādei.       | Vispārēji pieejams  |
 | Integrēt ar Ēģiptes ETA pakalpojumu           | Sazināties ar Ēģiptes nodokļu iestādi.                                     | Vispārēji pieejams  |
-| Izsauciet Brazīlijas SEFAZ pakalpojumu                  | Integrēt ar Brazīlijas SEFAZ pakalpojumu finanšu dokumenta iesniegšanai.       | Priekšskatījumā           |
+| Izsauciet Brazīlijas SEFAZ pakalpojumu                  | Integrēt ar Brazīlijas SEFAZ pakalpojumu finanšu dokumenta iesniegšanai.       | Vispārēji pieejams  |
 | Izsaukt Meksikas PAC pakalpojumu                      | Integrēt ar Meksikas PAC pakalpojumu CFDI iesniegšanai.                      | Priekšskatījumā           |
 | Apstrādāt atbildi                              | Analizējiet atbildi, kas saņemta no tīmekļa pakalpojumu zvana.                     | Vispārēji pieejams  |
 | Izmantot MS Power Automate                         | Integrējiet ar Microsoft Power Automate iebūvētu plūsmu.                       | Priekšskatījumā           |

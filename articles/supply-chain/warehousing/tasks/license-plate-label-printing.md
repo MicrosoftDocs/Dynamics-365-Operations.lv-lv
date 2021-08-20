@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a608e9a2356f9dd49bbec1bcbe5489af5931d44
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fd79abfc1029c4e0ef41d0e9b0f33ff524f50e36b70cf4fa3ed50dcdc4cb7f03
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830886"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751676"
 ---
 # <a name="enable-license-plate-label-printing"></a>Numura zīmes uzlīmes drukāšanas iespējošana
 
@@ -38,7 +38,7 @@ ms.locfileid: "5830886"
 1. Pārejiet uz **Navigācijas rūts > Moduļi > Organizācijas administrēšana > Numuru sērijas > Numuru sērijas**.
 2. Laukā **Apgabals** atlasiet opciju.
 3. Laukā **Atsauce** atlasiet opciju.
-4. Laukā **Uzņēmums** ievadiet vērtību. 
+4. Laukā **Uzņēmums** ievadiet vērtību.
 5. Izvērsiet sadaļu **Segmenti**.
 6. Atlasiet **Rediģēt**.
 7. Tabulā **Segmenti** atlasiet pirmo rindu
@@ -50,7 +50,7 @@ ms.locfileid: "5830886"
 ## <a name="create-the-document-route-layout"></a>Izveidot dokumentu maršruta izkārtojumu
 1. Dodieties uz **Navigācijas rūts > Moduļi > Noliktavas pārvaldība > Iestatīšana> Dokumentu maršrutēšana > Dokumentu maršrutēšanas izkārtojumi**. Iespējojiet SPKK izkārtojumu.  
 2. Atlasiet **Jauns**.
-3. Laukā **Izkārtojuma ID** ievadiet vērtību. 
+3. Laukā **Izkārtojuma ID** ievadiet vērtību.
 4. Laukā **Apraksts** ierakstiet kādu vērtību.
 5. Atlasiet **Ievadīt teksta beigās**.
 6. Atlasiet **Saglabāt**.
@@ -72,7 +72,7 @@ ms.locfileid: "5830886"
 1. Dodieties uz **Navigācijas rūts > Moduļi > Noliktavas pārvaldība > Iestatīšana > Mobilā ierīce > Mobilās ierīces izvēlne**.
 2. Atlasiet **Jauns**.
 3. Laukā **Izvēlnes vienuma nosaukums** ievadiet vērtību.
-4. Laukā **Nosaukums** ievadiet vērtību. 
+4. Laukā **Nosaukums** ievadiet vērtību.
 5. Laukā **Režīms** atlasiet opciju.
 6. Atlasiet **Jā** laukā **Izmantot esošo darbu**.
 7. Atlasiet **Jā** laukā **Ģenerēt licences numura zīmi**.
