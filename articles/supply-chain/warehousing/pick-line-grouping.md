@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: fe0e63ef742b7bfd09684a94d273a1841d24599c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 076a4dfdc49525eef616d1008073371be1dd4a248cd6f16d395b544ae70e7531
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828277"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757498"
 ---
 # <a name="pick-line-grouping"></a>Izdošanas rindu grupēšana
 
@@ -63,7 +63,7 @@ Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā.
 
 Sekojiet šiem soļiem, lai pievienotu tikko izveidoto izvēlnes elementu **Nosūtīšanas** izvēlnei.
 
-1. Dodieties uz **Noliktavas vadība \> Iestatījumi \> Mobilā ierīce \> Mobilās ierīces izvēlne**.
+1. Dodieties uz **Noliktavas pārvaldība \> Iestatījumi \> Mobilā ierīce \> Mobilās ierīces izvēlne**.
 1. Darbību rūtī atlasiet **Rediģēt**.
 1. Saraksta rūtī ir redzamas visas esošās mobilās ierīces izvēlnes. Sarakstā atlasiet *Izejošie*.
 1. Režģī **Pieejamās izvēlnes un izvēļņu elementi** meklējiet un atlasiet tikko izveidoto izvēlnes elementu *Pārdošanas grupas rindu izdošana*.
@@ -116,7 +116,7 @@ Pirms varēsiet iestatīt izdošanas rindas grupēšanu, ir jāizveido daži pie
     - **Krājums M9201:** *3* katram
     - **Krājums M9202:** *9* katram
 
-1. Pirms pasūtījumu izdošanas noliktavā jāpārliecinās, vai savākšanas vietās ir pietiekami daudz krājumu visām precēm visos pasūtījumos. Pārskatiet **Atrašanās vietas direktīvas** iestatījumu, lai noteiktu, kuras izdošanas vietas tiek izmantotas pārdošanas pasūtījuma izdošanai. Ja izmantojat Contoso demonstrācijas datu vidi *51.* noliktavai, apstipriniet, ka ir pieejami krājumi.
+1. Pirms pasūtījumu izdošanas noliktavā jāpārliecinās, vai savākšanas vietās ir pietiekami daudz krājumu visām precēm visos pasūtījumos. Pārskatiet **Atrašanās vietas direktīvas** iestatījumu, lai noteiktu, kuras izdošanas vietas tiek izmantotas pārdošanas pasūtījuma izdošanai. Ja izmantojat Contoso demonstrācijas datu vidi noliktavai *51*, apstipriniet, ka ir pieejami krājumi.
 
     Tagad krājums ir jārezervē katrai rindai.
 

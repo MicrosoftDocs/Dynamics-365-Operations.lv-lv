@@ -2,7 +2,7 @@
 title: Mazumtirdzniecības pārdošanas cenu pārvaldība
 description: Šajā tēmā ir aprakstītas pārdošanas cenu izveides un pārvaldības jēdzieniem programmā Dynamics 365 Commerce.
 author: ShalabhjainMSFT
-ms.date: 05/28/2020
+ms.date: 07/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2811e61045c0a830d1c814d760820a364893efcc
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: f78a4f328d6962db373990ea60dc03cec35718dc719aa0b284b319db5bc059ab
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6352232"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759289"
 ---
 # <a name="retail-sales-price-management"></a>Mazumtirdzniecības pārdošanas cenu pārvaldība
 
@@ -40,21 +40,21 @@ ms.locfileid: "6352232"
 
 ## <a name="price-groups"></a>Cenu grupas
 
-Cenu grupas veido Commerce programmatūras cenu un atlaižu pārvaldības kodolu. Cenu grupas tiek izmantotas, lai cenas un atlaides piešķirtu komercijas entītijām (tas ir, kanāliem, katalogiem, piederībām un lojalitātes programmām). Tā kā cenu grupas tiek lietotas visām cenu noteikšanām un atlaidēm, ir ļoti svarīgi vēl pirms sākšanas izplānot veidu, kādā jūs tās izmantosiet.
+Cenu grupas veido Commerce programmatūras cenu un atlaižu pārvaldības kodolu. Cenu grupas tiek izmantotas, lai cenas un atlaides piešķirtu Commerce entītijām (tas ir, kanāliem, katalogiem, piederībām un lojalitātes programmām). Tā kā cenu grupas tiek lietotas visām cenu noteikšanām un atlaidēm, ir ļoti svarīgi vēl pirms sākšanas izplānot veidu, kādā jūs tās izmantosiet.
 
-Pati par sevi cenu grupa ir tikai nosaukums, apraksts un, ja vēlaties, cenu noteikšanas prioritāte. Galvenais, kas jāatceras saistībā ar cenu grupām — tās tiek izmantotas, lai pārvaldītu attiecības “daudzi pret daudziem”, kādas atlaidēm un cenām ir ar komercijas entītijām.
+Pati par sevi cenu grupa ir tikai nosaukums, apraksts un, ja vēlaties, cenu noteikšanas prioritāte. Galvenais, kas jāatceras saistībā ar cenu grupām — tās tiek izmantotas, lai pārvaldītu attiecības “daudzi pret daudziem”, kādas atlaidēm un cenām ir ar Commerce entītijām.
 
-Nākamajā attēlā ir parādīts, kā cenu grupas tiek izmantotas. Ievērojiet, ka šajā attēlā “Cenu grupa” burtiski atrodas cenu noteikšanas un atlaižu pārvaldības centrā. Komercijas entītijas, kuras varat izmantot, lai pārvaldītu atšķirīgās cenas un atlaides, atrodas pa kreisi, un faktisko cenu un atlaižu ieraksti atrodas pa labi.
+Nākamajā attēlā ir parādīts, kā cenu grupas tiek izmantotas. Ievērojiet, ka šajā attēlā “Cenu grupa” burtiski atrodas cenu noteikšanas un atlaižu pārvaldības centrā. Commerce entītijas, kuras varat izmantot, lai pārvaldītu atšķirīgās cenas un atlaides, atrodas pa kreisi, un faktisko cenu un atlaižu ieraksti atrodas pa labi.
 
 ![Cenu grupas.](./media/PriceGroups.png "Cenu grupas")
 
-Kad veidojat cenu grupas, vienu un to pašu cenu grupu nevajadzētu izmantot vairākiem komercijas entītiju tipiem. Pretējā gadījumā varētu būt sarežģīti noteikt, kāpēc kādai transakcijai tiek piemērota noteikta cena vai atlaide.
+Kad veidojat cenu grupas, vienu un to pašu cenu grupu nevajadzētu izmantot vairākiem Commerce entītiju tipiem. Pretējā gadījumā varētu būt sarežģīti noteikt, kāpēc kādai transakcijai tiek piemērota noteikta cena vai atlaide.
 
 Kā attēlā ir norādīts ar sarkano pārtraukto līniju, programma Commerce neatbalsta programmā Microsoft Dynamics 365 ietverto tieši debitoram iestatītas cenu grupas pamata funkcionalitāti. Taču šajā gadījumā jūs saņemat tikai pārdošanas cenas tirdzniecības līgumus. Ja vēlaties lietot no debitora atkarīgas cenas, ieteicams neiestatīt cenu grupas tieši debitoram. Tā vietā vajadzētu izmantot piederības. 
 
 Ņemiet vērā, ka tad, ja cenu grupa ir iestatīta debitoram, šī cenu grupa tiek saistīta ar to pasūtījumu, kas izveidoti šim debitoram, pārdošanas pasūtījuma galveni. Ja lietotājs maina cenu grupu pasūtījuma galvenē, vecā cenu grupa tiek aizstāta ar jauno cenu grupu tikai pašreizējam pasūtījumam. Piemēram, vecā cenu grupa neietekmēs pašreizējo pasūtījumu, bet tā joprojām būs saistīta ar debitoru turpmākajiem pasūtījumiem.
 
-Nākamajās sadaļās ir sniegta plašāka informācija par komercijas entītijām, kuras varat izmantot, lai iestatītu atšķirīgas cenas, kad tiek izmantotas cenu grupas. Cenu un atlaižu konfigurēšana visām šīm entītijām ir procedūra no divām darbībām. Šīs darbības var izpildīt jebkādā secībā. Taču loģiskā secība ir vispirms iestatīt cenu grupas entītijām, jo šī darbība, visticamāk, ir vienreizēja iestatīšana, kas tiek veikta ieviešanas laikā. Pēc tam, kad tiek veidotas cenas un atlaides, varat iestatīt cenu grupas šīm cenām un atlaidēm atsevišķi.
+Nākamajās sadaļās ir sniegta plašāka informācija par Commerce entītijām, kuras varat izmantot, lai iestatītu atšķirīgas cenas, kad tiek izmantotas cenu grupas. Cenu un atlaižu konfigurēšana visām šīm entītijām ir procedūra no divām darbībām. Šīs darbības var izpildīt jebkādā secībā. Taču loģiskā secība ir vispirms iestatīt cenu grupas entītijām, jo šī darbība, visticamāk, ir vienreizēja iestatīšana, kas tiek veikta ieviešanas laikā. Pēc tam, kad tiek veidotas cenas un atlaides, varat iestatīt cenu grupas šīm cenām un atlaidēm atsevišķi.
 
 ### <a name="channels"></a>Kanāli
 
@@ -214,29 +214,30 @@ Iestatot pārdošanas cenas programmā Dynamics 365, nenorādāt, vai iestatīta
 
 Ja strādājat gan ar ietvertu, gan neietvertu nodokļu tipiem, ir ļoti svarīgi cenas iestatīt pareizi, jo kopējā summa, kas debitoram ir jāmaksā, mainās atkarībā no tā, vai attiecīgajam kanālam ir mainīts iestatījums **Cena ietver PVN**.
 
-## <a name="differences-between-retail-pricing-and-non-retail-pricing"></a>Atšķirības starp mazumtirdzniecības cenu noteikšanu un cenu noteikšanu, kas nav paredzēta mazumtirdzniecībai
+## <a name="differences-between-commerce-pricing-and-non-commerce-pricing"></a>Atšķirības starp Commerce cenu noteikšanu un cenu noteikšanu, kas nav Commerce
 
-Tiek izmantota viena un tā pati cenu noteikšanas programma, lai aprēķinātu cenas visos kanālos: Zvanu centrā, Mazumtirdzniecības veikalā un Tiešsaistes veikalos. Tas palīdz iespējojot vienotos komercijas scenārijus.
+Tiek izmantota viena un tā pati cenu noteikšanas programma, lai aprēķinātu cenas visos kanālos: Zvanu centrā, Mazumtirdzniecības veikalā un Tiešsaistes veikalos. Tas palīdz iespējojot vienotos Commerce scenārijus.
 
-Cenu noteikšanu ir paredzēta darbam ar mazumtirdzniecības entītijām, nevis ar entītijām, kas nav mazumtirdzniecības entītijas. Tas ir — tā ir paredzēta cenu noteikšanai pēc veikala, nevis pēc noliktavas.
+Cenu noteikšanu ir paredzēta darbam ar Commerce entītijām, nevis ar entītijām, kas nav Commerce. Tas ir — tā ir paredzēta cenu noteikšanai pēc veikala, nevis pēc noliktavas.
 
-Cenu noteikšanas programma **neatbalsta** tālāk uzskaitītos cenu noteikšanas līdzekļus.
+Commerce cenu noteikšanas programma **neatbalsta** tālāk uzskaitītos cenu noteikšanas līdzekļus:
 
 - Iestatot cenas pēc Vietas vai Vietas un noliktavas, krātuves dimensijas netiek atbalstītas. Ja tirdzniecības līgumos norādāt tikai vietnes dimensiju, cenu noteikšanas programma ignorēs Vietu un piemēros tirdzniecības līgumu visām vietām. Ja norādāt gan vietu, gan noliktavu, tad darbība ir nedefinēta/nepārbaudīta, jo ir paredzams, ka mazumtirgotāji izmanto veikala cenu grupas, lai kontrolētu cenas katram veikalam/noliktavai.
 - Atribūtos balstīta cenu noteikšana netiek atbalstīta.
 - Piegādātāja atlaižu pāreja netiek atbalstīta.
+- Vispārējās valūtas līdzeklis netiek atbalstīts, t.i., pat ja tirdzniecības līgumam ir ieslēgts **Iekļaut vispārējo valūtas** pārslēgs, tomēr šis tirdzniecības līgums tiks uzskatīts par derīgu tikai tirdzniecības līgumā definētai valūtai.
 - Standarta Supply Chain Management cenu noteikšanas programma atbalsta cenas aprēķinu, pamatojoties uz "Pieprasītais nosūtīšanas datums" un "Pieprasītais saņemšanas datums" kopā ar pašreizējo datumu. Tomēr mazumtirdzniecības cenu noteikšana pašlaik neatbalsta šīs vērtības. Iemesls ir tas, ka B2C scenārijos debitori negaida, ka pieprasītais piegādes datums ietekmēs krājuma cenu. Dažos gadījumos mazumtirgotājiem ir gan B2B, gan B2C operācijas. B2B operācijām ir parasti mainīt cenas, ņemot vērā piegādes datumus. Šie mazumtirgotāji var izmantot Supply Chain Management izcenojumus savam B2B biznesam un mazumtirdzniecības izcenojumus savam B2C biznesam. Mazumtirdzniecības cenu veidošana sākas tikai tad, ja programmas lietotājs tiek pievienots kā zvanu centra lietotājs, tāpēc mazumtirgotāji var piešķirt konkrētus lietotājus, kuri strādās ar Supply Chain Management cenu noteikšanu, un piešķirt dažus lietotājus, kas strādās ar mazumtirdzniecības cenu noteikšanu, t.i., šie lietotāji jāpievieno kā zvanu centra lietotāji. Turklāt rekvizītam **Izmantot šodienas datumu cenu aprēķināšanai** sadaļā **Tirdzniecības parametri > Cenu noteikšana un atlaidess > Dažādi** ir jābūt ieslēgtam. Šādā veidā tie var turpināt izmantot debitoru parametra vērtību Pieprasītajam nosūtīšanas datumam vai Pieprasītajam piegādes datumam Supply Chain Management cenu noteikšanai, bet mazumtirdzniecības cenu noteikšana turpinās izmantot šodienas datumu cenu aprēķināšanai.
 
-Turklāt **tikai** cenu noteikšanas programma atbalsta tālāk uzskaitītos cenu noteikšanas līdzekļus.
+Turklāt **tikai** Commerce cenu noteikšanas programma atbalsta tālāk uzskaitītos cenu noteikšanas līdzekļus.
 
-- Cena ir balstīta uz preču dimensijām, secībā no konkrētākā varianta cenas līdz vispārīgākajai varianta cenai, līdz preces šablona cenai. Cena, kas ir iestatīta, izmantojot divas preces dimensijas (piemēram, Krāsa un Lielums), tiek izmantota pirms cenas, kas ir iestatīta, izmantojot tikai vienu preces dimensiju (piemēram, Lielums).
+- Cena ir balstīta uz preču dimensijām, secībā no konkrētākā varianta cenas līdz vispārīgākajai varianta cenai, līdz preces šablona cenai. Cena, kas ir iestatīta, izmantojot divas preces dimensijas (piemēram, krāsa un lielums), tiek izmantota pirms cenas, kas ir iestatīta, izmantojot tikai vienu preces dimensiju (piemēram, lielums).
 - Cenu noteikšanas un atlaižu kontrolēšanai var izmantot tās pašas cenu grupas.
 
 ## <a name="pricing-api-enhancements"></a>Cenu noteikšanas API uzlabojumi
 
 Cena ir viens no vissvarīgākajiem faktoriem, kas kontrolē daudzu klientu lēmumus par pirkšanu, un daudzi klienti pirms pirkuma veikšanas salīdzina cenas dažādās vietās. Lai mazumtirgotāji varētu nodrošināt, ka viņi piedāvā konkurētspējīgas cenas, šiem mazumtirgotājiem ir cieši jāuzmana savi konkurenti un bieži jāorganizē veicināšanas pasākumi. Lai palīdzētu šiem mazumtirgotājiem piesaistīt klientus, ir ļoti svarīgi, ka preču meklēšana, pārlūkošanas līdzeklis, saraksti un preču informācijas lapa rāda visprecīzākās cenas.
 
-Turpmākā Commerce laidienā lietojumprogrammu programmēšanas interfeiss (application programming interface — API) **GetActivePrices** atgriezīs cenas, kas ietver vienkāršas atlaides (piemēram, vienrindas atlaides, kas nav atkarīgas no citiem grozā esošajiem vienumiem). Šādi rādītās cenas ir tuvas faktiskajai summai, ko klienti maksās par vienumiem. Šis API ietver visus vienkāršo atlaižu tipus: uz piederību balstītās, uz lojalitāti balstītās, uz katalogu balstītās un uz kanālu balstītās atlaides. Turklāt API atgriezīs arī lietoto atlaižu nosaukumus un informāciju par to derīguma termiņu, lai mazumtirgotāji varētu sniegt detalizētāku aprakstu par preci un radīt steidzamības sajūtu, ja atlaides derīguma termiņš drīz beigsies.
+Lietojumprogrammas **GetActivePrices** programmēšanas interfeiss (API) risinājumā Commerce atgriež cenas, kas ietver vienkāršas atlaides (piemēram, vienkāršas atlaides, kas nav atkarīgas uz citām precēm grozā). Šādi rādītās cenas ir tuvas faktiskajai summai, ko klienti maksās par vienumiem. Šis API ietver visus vienkāršo atlaižu tipus: uz piederību balstītās, uz lojalitāti balstītās, uz katalogu balstītās un uz kanālu balstītās atlaides. Turklāt API atgriezīs arī lietoto atlaižu nosaukumus un informāciju par to derīguma termiņu, lai mazumtirgotāji varētu sniegt detalizētāku aprakstu par preci un radīt steidzamības sajūtu, ja atlaides derīguma termiņš drīz beigsies.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

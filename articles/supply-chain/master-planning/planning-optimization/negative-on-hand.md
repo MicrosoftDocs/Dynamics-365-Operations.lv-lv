@@ -2,7 +2,7 @@
 title: Plānošana ar negatīviem rīcībā esošajiem daudzumiem
 description: Šajā tēmā izskaidrots, kā, lietojot plānošanas optimizāciju, tiek apstrādāts negatīvs rīcībā esošais daudzums.
 author: ChristianRytt
-ms.date: 02/18/2020
+ms.date: 07/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 1c403e23309dda36dd1c99e22bbae0aa2d6d76a4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 97688e09aae9706dd85e7965aa08c7ea873a44d81391c39406e2e6367660e0d0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813103"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758548"
 ---
 # <a name="planning-with-negative-on-hand-quantities"></a>Plānošana ar negatīviem rīcībā esošajiem daudzumiem
 
@@ -52,7 +52,7 @@ Tāpēc kopējais rīcībā esošais daudzums 13. noliktavai ir 12 gab. (= 20 ga
 
 Šādā gadījumā plānošanas programma izmanto kopējo rīcībā esošo daudzumu, kas ir 12 gab. 13. noliktavai.
 
-Rezultāts tiek plānots 13 gab. pasūtījumam. (= 25 gab. &minus;12 gab.), lai uzpildītu 13. noliktavu no 12 gab. uz 25 gab.
+Rezultāts tiek plānots 13 gab. pasūtījumam. (= 25 gab. &minus; 12 gab.), lai uzpildītu 13. noliktavu no 12 gab. uz 25 gab.
 
 ## <a name="example-2"></a>2. piemērs
 
@@ -71,19 +71,31 @@ Tāpēc kopējais rīcībā esošais daudzums 13. noliktavai ir &minus;4 gab. (=
 
 Šajā gadījumā plānošanas programma pieņem, ka rīcībā esošais daudzums 13. noliktavā ir 0 gab. nevis &minus;4 gab.
 
-Rezultāts tiek plānots 25 gab. pasūtījumam. (= 25 gab. &minus;0 gab.), lai uzpildītu 13. noliktavu no 0 gab. uz 25 gab.
+Rezultāts tiek plānots 25 gab. pasūtījumam. (= 25 gab. &minus; 0 gab.), lai uzpildītu 13. noliktavu no 0 gab. uz 25 gab.
+
+## <a name="planning-when-there-is-a-reservation-against-negative-on-hand-inventory"></a>Plānošana, ja ir rezervēšana pret negatīviem rīcībā esošiem krājumiem
+
+Ja krājumus koriģē, kamēr pastāv fiziskas rezervācijas, var radīt situāciju, kad pasūtījums ir fiziski rezervēts attiecībā pret negatīviem krājumiem. Šajā gadījumā, tā kā pastāv fiziska rezervācija, plānošanas optimizācija pieņem, ka to atbalsta rīcībā esošie krājumi, pat ja rīcībā esošo krājumu saņemšana sistēmā vēl nav reģistrēta. Tāpēc tiek pieņemts, ka papildināšana nav pieprasīta un neizveido plānoto pasūtījumu pasūtījuma daudzuma papildināšanai.
+
+Tas ir atainots tālāk sniegtajā scenārija piemērā.
+
+### <a name="example"></a>Paraugs
+
+Sistēma tiek konfigurēta šādā veidā:
+
+- Pastāv *FG* prece, un tai ir *10* gab. rīcībā esošo krājumu.
+- Preces konfigurācija ļauj veikt fiziskus negatīvus krājumus.
+- Pastāv pārdošanas pasūtījums daudzumam *10* gab. preču *FG*.
+- Pārdošanas pasūtījuma daudzums ir fiziski rezervēts attiecībā pret esošajiem rīcībā esošajiem krājumiem.
+
+Pēc tam koriģējiet preču *FG* daudzumu, lai rīcībā esošie krājumi būtu 0 (nulle). Tā kā rīcībā esošie preču krājumi ir nulle, pārdošanas pasūtījuma daudzums tagad tiek rezervēts pret negatīviem krājumiem. Tomēr, ja palaižat vispārējo plānošanu tagad, netiks izveidots plānotais pasūtījums pārdošanas pasūtījuma piegādei, jo optimizācijas plānošana pieņems, ka nepieciešamie rīcībā esošie krājumi ir, lai piegādātu fizisko rezervēšanu.
 
 ## <a name="related-resources"></a>Saistītie resursi
 
-[Plānošanas optimizācijas apskats](planning-optimization-overview.md)
-
-[Darba sākšana ar plānošanas optimizāciju](get-started.md)
-
-[Plānošanas optimizācijas atbilstības analīze](planning-optimization-fit-analysis.md)
-
-[Plāna vēstures un plānošanas žurnālu skatīšana](plan-history-logs.md)
-
-[Plānošanas darba atcelšana](cancel-planning-job.md)
-
+- [Plānošanas optimizācijas apskats](planning-optimization-overview.md)
+- [Darba sākšana ar plānošanas optimizāciju](get-started.md)
+- [Plānošanas optimizācijas atbilstības analīze](planning-optimization-fit-analysis.md)
+- [Plāna vēstures un plānošanas žurnālu skatīšana](plan-history-logs.md)
+- [Plānošanas darba atcelšana](cancel-planning-job.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
