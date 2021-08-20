@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: ecf8caa7f31c560af2cbc929a37f3ca02bd0da44
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: d4503b6939e3d01ae5bcf1d79c1f85d39348fbb6233cfb7a965f84f3a3b0699a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021204"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744802"
 ---
 # <a name="goods-in-transit-processing"></a>Tranzīta preču apstrāde
 
@@ -104,6 +104,7 @@ Preces var arī saņemt, izveidojot saņemšanas žurnālu. Saņemšanas žurnā
 1. Atvērt reisu, konteineru vai folio.
 1. Darbību rūts cilnes **Opcijas** grupā **Kopīgot** atlasiet **Izveidot saņemšanas žurnālu**.
 1. Dialoglodziņā **Izveidot pirkuma pasūtījumu** iestatiet sekojošas vērtības:
+
     - **Inicializēt daudzumu** — iestatiet šo opciju kā *Jā*, lai iestatītu daudzumu no tranzīta daudzuma. Ja šī opcija ir iestatīta uz *Nē*, no tranzīta rindām uz precēm netiek iestatīts noklusējuma daudzums.
     - **Izveidot no tranzīt precēm** – iestatiet šo opciju kā *Jā*, lai no atlasītā reisa, konteinera vai folio atlasītās tranzīta rindas iegūtu daudzumus.
     - **Izveidot no pasūtījuma rindām** – iestatiet šo opciju kā *Jā*, lai iestatītu noklusējuma daudzumu saņemšanas žurnālā no pirkšanas pasūtījuma rindām. Noklusējuma daudzumu saņemšanas žurnālā var iestatīt šādā veidā, ja daudzums pirkšanas pasūtījuma rindā sakrīt ar daudzumu preču tranzīta pasūtījumā.
@@ -117,7 +118,7 @@ Preces var arī saņemt, izveidojot saņemšanas žurnālu. Saņemšanas žurnā
 
 ## <a name="warehouse-management"></a>Noliktavas pārvaldība
 
-Iespējojot moduli **Kopējās izmaksas**, tiek modificētas vairākas **Noliktavas pārvaldības** moduļa lapas, lai pasūtījuma apstrādi (it īpaši preču tranzītapstrāde) varētu veikt caur **Kopējo izmaksu** moduli. Šajā sadaļā ir ieskicē lauki un procesi, kas ir pievienoti **Moliktavas pārvaldības** modulim.
+Iespējojot moduli **Kopējās izmaksas**, tiek modificētas vairākas **Noliktavas pārvaldības** moduļa lapas, lai pasūtījuma apstrādi (it īpaši preču tranzītapstrāde) varētu veikt caur **Kopējo izmaksu** moduli. Šajā sadaļā ir ieskicē lauki un procesi, kas ir pievienoti **Noliktavas pārvaldības** modulim.
 
 ### <a name="mobile-device-menu-items"></a>Mobilās ierīces izvēlnes vienumi
 
@@ -140,4 +141,21 @@ Kopējās izmaksas pievieno jaunu darba pasūtījuma tipu, kura nosaukums ir *Pr
 
 ### <a name="work-templates"></a>Darbu veidnes
 
+Šajā sadaļā ir aprakstīti līdzekļi, ko modulis **Izkraušanas izmaksas** pievieno darba veidnēm.
+
+#### <a name="goods-in-transit-work-order-type"></a>Preces tranzīta darba pasūtījuma veids
+
 Kopējās izmaksas pievieno jaunu darba pasūtījuma tipu, kura nosaukums ir *Preces tranzītā* **Darba veidņu** lapā. Šim darba pasūtījuma tipam jābūt konfigurētam tādā pašā veidā kā [pirkšanas pasūtījuma darba pasūtījuma tipiem](/dynamicsax-2012/appuser-itpro/create-a-work-template).
+
+#### <a name="work-header-breaks"></a>Darba virsrakstu pārtraukumi
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+
+Darba veidnes, kuru darba pasūtījuma veids *Preces tranzītā* var konfigurēt, lai sadalītu darbu virsrakstus. Lapā **Darba veidnes** veiciet vienu no tālāk norādītajām darbībām:
+
+- Veidnes cilnē **Vispārīgi** iestatiet darba virsraksta maksimumus. Šie maksimumi darbojas tādā pašā veidā, kā tie darbojas pirkšanas pasūtījuma darba veidnēs. (Papildinformāciju skatiet [pirkšanas pasūtījumu darbu veidnēs](/dynamicsax-2012/appuser-itpro/create-a-work-template).)
+- Izmantojiet pogu **Darba virsraksta pārtraukumi**, lai definētu, kad sistēmai jāizveido jaunus darba virsrakstus, pamatojoties uz laukiem, kas tiek izmantoti kārtošanai. Piemēram, lai izveidotu darba virsrakstu katram konteinera ID, darbības rūtī atlasiet **Rediģēt vaicājumu** un pēc tam pievienojiet lauku **Konteinera ID** vaicājumu redaktora cilnei **Kārtošana**. Lauki, kas ir pievienoti cilnei **Kārtošana**, ir pieejami atlasei kā *grupēšanas lauki*. Lai iestatītu grupēšanas laukus, darbības rūtī atlasiet **Darba virsraksta pārtraukumi** un pēc tam katram laukam, kuru vēlaties izmantot kā grupēšanas lauku, atzīmējiet izvēles rūtiņu kolonnā **Grupēt pēc ša lauka**.
+
+Izkraušanas izmaksas [izveido pārsniegtu darījumu](over-under-transactions.md), ja reģistrētais daudzums pārsniedz sākotnējā pasūtījuma daudzumu. Kad darba virsraksts ir pabeigts, sistēma atjaunina krājumu darbību statusu galvenā pasūtījuma daudzumam. Tomēr tā vispirms atjaunina daudzumu, kas ir saistīts ar pārsniegtu darbību pēc tam, kad galvenais ir pilnībā nopirkts.
+
+Ja atceļat darba virsrakstu pārsniegtai darbībai, kas jau ir reģistrēta, pārsniegta darbība vispirms tiek samazināta ar atcelto daudzumu. Kad pārsniegta darbība tiek samazināta līdz daudzumam 0 (nulle), ieraksts tiek noņemts, un visi papildu daudzumi tiek noņemti attiecībā pret galveno pasūtījuma daudzumu.

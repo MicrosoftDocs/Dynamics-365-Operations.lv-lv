@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 50d7cf7b765c27db5aa9ea50c8593132c68c850a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8d5188c4a0e06f116e1fdcab33546e3e0745c4f483c72f954b65b2307a683080
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824850"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753895"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Attiecināmo cenu un atlaižu pārlūkošana
 
@@ -46,7 +46,7 @@ ms.locfileid: "5824850"
 10. Aizvērt lapu.
 
 ## <a name="find-the-applicable-discount"></a>Piemērojamās atlaides atrašana
-Pārliecinieties, ka laukā Debitora konts ir norādīts klienta numurs US-001    
+Pārliecinieties, ka laukā Debitora konts ir norādīts klienta numurs US-001   
 1. Laukā Krājuma kods ierakstiet T0012.
     * Pārliecinieties, ka laukā Daudzums vērtība ir iestatīta uz 1.  
     * Parādītās papildinformācijas par cenu noteikšanu precei T0012 dati nāk no viena vai vairākiem tirdzniecības līgumiem: vienības cena ir 1000 CAD un atlaides procents ir 5.  

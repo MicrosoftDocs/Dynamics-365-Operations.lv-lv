@@ -2,7 +2,7 @@
 title: Sīkfailu atbilstība
 description: Šajā tēmā aprakstīti apsvērumi sīkdatņu atbilstībai un noklusējuma politikas, kas ir iekļautas Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 07/01/2021
+ms.date: 07/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 71b2e0e8d0a7db6cbbc8b9b4024b067bd5c6a2a1
-ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
+ms.openlocfilehash: 509ae998b4d0fa8ab6dd5e3d242dfb4abc492952cd66addc04050fbaff949326
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "6333073"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747701"
 ---
 # <a name="cookie-compliance"></a>Sīkfailu atbilstība
 
@@ -54,6 +54,10 @@ Lai iegūtu papildinformāciju par pamatprincipiem, kurus Microsoft izmanto sīk
 | \_msdyn365___muid_                            | Tiek izmantots, ja vidē ir aktivizēts eksperiments; izmantots kā lietotāja ID eksperimentu nolūkiem. | 1 gada |
 | \_msdyn365___exp_                             | Tiek izmantots, ja vidē ir aktivizēts eksperiments; izmanto, lai mērītu veiktspējas noslodzes līdzsvarošanu.         | 1 stunda |
 | d365mkt                                       | Izmanto, ja atrašanās vietas noteikšana, lai izsekotu lietotāja IP adresi veikala atrašanās vietas ieteikumiem, ir iespējota Commerce vietnes veidotājā **Vietnes iestatījumi \> Vispārīgi \> Iespējot uz atrašanās vietu balstītu krātuves noteikšanu**.      | 1 stunda |
+| \_msdyn365___tuid_                           | Tiek izmantots tikai, ja vides aktivizēšana tiek aktivizēta; Ģenerē GUID, kas kalpo kā lietotāja identifikators. Vērtība mainīsies, ja mainās lietotāja pierakstīšanās statuss.      | 1 gada |
+| \_msdyn365___aud_0                          | Saglabā segmentu vērtības, ko izmanto mērķauditorija, un tiek izmantotas tikai tad, ja mērķu konfigurēšanu lapā vai fragmentu pieprasa vietas lietotājs. Sīkfails tiek novietots tikai tad, kad segmenta vērtības nāk no trešās puses segmentācijas nodrošinātāja.      | 7 dienas |
+| \_msdyn365___aud_1                           | Saglabā segmentu vērtības, ko izmanto mērķauditorija, un tiek izmantotas tikai tad, ja mērķu konfigurēšanu lapā vai fragmentu pieprasa vietas lietotājs. Sīkfails tiek novietots tikai tad, kad segmenta vērtības nāk no trešās puses segmentācijas nodrošinātāja.      | 7 dienas |
+| \_msdyn365___aud_2                           | Saglabā segmentu vērtības, ko izmanto mērķauditorija, un tiek izmantotas tikai tad, ja mērķu konfigurēšanu lapā vai fragmentu pieprasa vietas lietotājs. Sīkfails tiek novietots tikai tad, kad segmenta vērtības nāk no trešās puses segmentācijas nodrošinātāja.      | 7 dienas |
 
 Ja vietas lietotājs izvēlas kādu no sociālās multivides saitēm vietā, sīkfaili šajā tabulā tiks izsekoti arī viņu pārlūkprogrammā.
 
