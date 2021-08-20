@@ -2,7 +2,7 @@
 title: Bieži uzdotie jautājumi par finanšu pārskatu veidošanu
 description: Šajā tēmā sniegtas atbildes uz dažiem bieži uzdotiem jautājumiem par finanšu pārskatu veidošanu.
 author: jiwo
-ms.date: 01/13/2021
+ms.date: 07/07/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e1b67f86446403933005008a9a1e2cc6739dc516
-ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
+ms.openlocfilehash: dd493e855e45362c1681dc9cdfbbcb71f7627d64624cd093eadab32fd966c174
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "6266637"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733615"
 ---
 # <a name="financial-reporting-faq"></a>Bieži uzdotie jautājumi par finanšu pārskatu veidošanu
 
@@ -77,5 +77,29 @@ Ziņojums norāda, ka radās problēma, sistēmai mēģinot izgūt finanšu meta
 
 - Pārskatiet datu integrācijas statusu, rīkā Report Designer dodoties uz **Rīki \> Integrācijas statuss**. Ja integrācija ir nepilnīga, uzgaidiet, līdz tā tiks pabeigta. Pēc tam vēlreiz mēģiniet veikt darbību, ko veicāt, kad saņēmāt ziņojumu.
 - Sazinieties ar atbalsta dienestu, lai identificētu un novērstu šo problēmu. Iespējams, sistēmā ir nekonsekventi dati. Atbalsta tehniskie darbinieki var palīdzēt identificēt šo problēmu serverī un atrast konkrētos datus, kurus var būt nepieciešams atjaunināt.
+
+## <a name="how-does-the-selection-of-historical-rate-translation-affect-report-performance"></a>Kā vēsturiskā kursa transformācijas atlase ietekmē pārskata veiktspēju?
+
+Vēsturiskais kurss parasti tiek izmantots nesadalītās peļņas, īpašuma, ražotnes un aprīkojuma kontos, kā arī kapitāla kontos. Vēsturiskais kurss var būt obligāts, pamatojoties uz Finanšu grāmatvedības standartu padomes (Financial Accounting Standards Board — FASB) vadlīnijām vai vispārpieņemtiem grāmatvedības principiem (generally accepted accounting principles — GAAP). Papildinformāciju skatiet sadaļā [Valūtas iespējas finanšu pārskatos](financial-reporting-currency-capability.md).
+
+## <a name="how-many-types-of-currency-rate-are-there"></a>Cik valūtas maiņas kursu veidi ir pieejami?
+
+Ir pieejami trīs tālāk aprakstītie veidi.
+
+- **Pašreizējais kurss** — šo veidu parasti izmanto bilances kontos. To dēvē par *tūlītējo valūtas maiņas kursu*, un tas var būt kurss mēneša pēdējā dienā vai citā iepriekš noteiktā datumā.
+- **Vidējais kurss** — šo veidu parasti izmanto ienākumu pārskata (peļņas/zaudējumu) kontos. Varat iestatīt vidējo kursu, lai noteiktu vienkāršu vidējo vai svērto vidējo vērtību.
+- **Vēsturiskais kurss** — šo veidu parasti izmanto nesadalītās peļņas, īpašuma, ražotnes un aprīkojuma kontos, kā arī kapitāla kontos. Šie konti var būt obligāti, pamatojoties uz FASB vai GAAP vadlīnijām.
+
+## <a name="how-does-historical-currency-translation-work"></a>Kā darbojas vēsturiskās valūtas pārrēķināšana?
+
+Kursi ir atkarīgi no darījuma datuma. Tādēļ katrs darījums tiek pārrēķināts atsevišķi, pamatojoties uz tuvāko valūtas maiņas kursu.
+
+Veicot vēsturiskās valūtas pārrēķināšanu, var izmantot iepriekš aprēķinātas periodu bilances, nevis individuālu darījumu informāciju. Šīs darbības atšķiras no pašreizējā kursa pārrēķina darbībām.
+
+## <a name="how-does-historical-currency-translation-affect-performance"></a>Kā vēsturiskās valūtas pārrēķināšana ietekmē veiktspēju?
+
+Kad pārskatos iekļautie dati tiek atjaunināti, var rasties aizkave, jo summas ir jāpārrēķina, pārbaudot darījuma informāciju. Šī aizkave tiek aktivizēta katru reizi, kad tiek atjaunināti kursi vai iegrāmatoti papildu darījumi. Piemēram, ja ir iestatīta vairāku tūkstošu kontu vēsturiskā pārrēķināšana vairākas reizes dienā, pārskata datu atjaunināšana var aizkavēties līdz pat stundai. Savukārt, ja specifisku kontu skaits ir mazāks, pārskata datu atjaunināšanas laiku var samazināt līdz vairākām minūtēm vai mazāk.
+
+Tāpat, kad pārskati tiek ģenerēti, izmantojot valūtas pārrēķināšanu vēsturiskā veida kontiem, tiks veikti papildu aprēķini katram darījumam. Atkarībā no kontu skaita pārskatu ģenerēšanas laiks var būt vairāk nekā divas reizes ilgāks.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

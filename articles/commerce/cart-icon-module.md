@@ -2,7 +2,7 @@
 title: Groza ikonas modulis
 description: Šajā tēmā aplūkots groza ikonas modulis un aprakstīta tā pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 07/08/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d9e3850d98e716d1bbea2017f6e8c9d75f19adc9
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: 5cf86876ba03d510b03237c9c89a1fc069a73482b755a1d72227037c91439e86
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6638005"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735682"
 ---
 # <a name="cart-icon-module"></a>Groza ikonas modulis
 
@@ -35,9 +35,14 @@ Attēlā zemāk redzams groza ikonas moduļa piemērs,, kurā ir parādīts mini
 
 ## <a name="module-properties"></a>Moduļa rekvizīti
 
-- **Rādīt mini grozu** — ja tas ir patiess, šis rekvizīts iespējo groza kopsavilkumu (mini grozs), kas tiks parādīts, kad atrodaties virs groza ikonas. Šī funkcionalitāte tiek atbalstīta tikai darbvirsmas skatu portiem.
+- **Rādīt mini grozu** — ja rekvizīts ir **Patiess**, šis rekvizīts iespējo groza kopsavilkumu (mini grozs), kas tiks parādīts, kad atrodaties virs groza ikonas. Šī funkcionalitāte tiek atbalstīta tikai darbvirsmas skatu portiem.
+- **Atļaut anonīmu pārbaudi** — ja šis rekvizīts ir iestatīts kā **Patiess**, mini grozs ļauj lietotājiem, kuri nav reģistrējušies, veikt viesa pārbaudi. Šis rekvizīts ir pieejams Commerce versijas 10.0.21 laidienā kā daļa no Commerce moduļa bibliotēkas pakotnes.
+- **Krājumu secība** – šis rekvizīts kontrolē secību, kādā krājumi parādās mini grozā. Kad tiek atlasīta opcija **Jauni krājumi, kas pievienoti saraksta augšgalā**, mini groza krājumu saraksta sākumā parādīsies jauni krājumi, kas ir pievienoti grozam. Kad tiek atlasīta noklusējuma opcija **Jauni krājumi, kas pievienoti saraksta augšgalā**, mini groza krājumu saraksta sākumā parādīsies jauni krājumi, kas ir pievienoti grozam. Šis rekvizīts ir pieejams Commerce versijas 10.0.21 laidienā kā daļa no Commerce moduļa bibliotēkas pakotnes.
 
-## <a name="module-properties-in-the-adventure-works-theme"></a>Moduļa rekvizīti Adventure Works tēmā
+> [!IMPORTANT]
+> Rekvizīti **Atļaut anonīmo paņemšanu** un **Krājumu secība** ir pieejami Commerce versijas 10.0.21 laidienā. Nepieciešams, lai būtu instalēta Commerce moduļa bibliotēkas pakotnes versija 9.31.
+
+## <a name="module-properties-and-slots-in-the-adventure-works-theme"></a>Moduļa rekvizīti un sloti Adventure Works dizainā
 
 Adventure Works tēmā groza ikonas modulis ietver divus papildu slotus mini grozam. Šie sloti ir ietverti kā moduļa definīcijas paplašinājums.
 

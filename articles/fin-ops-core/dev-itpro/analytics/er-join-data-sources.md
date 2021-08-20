@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: 5b4899cad01a0ed2424dcc5d29e9fb5cca65a6a9
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: c9a06c048e98676e30a6652cad6634c2e13531d4ebc6d35f325f4c7153cd82ae
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351101"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723217"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>Izmantojiet SAVIENOJUMA datu avotus, lai iegūtu datus no vairākām programmas tabulām elektronisko pārskatu (ER) modeļu kartējumos
 
@@ -44,7 +44,7 @@ Lai iegūtu papildinformāciju par šo līdzekli, aizpildiet šajā tēmā snieg
 
 ## <a name="example-use-join-data-sources-in-er-model-mappings"></a>Piemērs: izmantot SAVIENOJUMA datu avotus ER modeļu kartējumos
 
-Tālākminētajās darbībās paskaidrots, kā sistēmas administrators vai elektronisko pārskatu noformētājs var konfigurēt elektronisko pārskatu (ER) modeļa kartēšanu, lai iegūtu datus no vairākām programmas tabulām uzreiz, izmantojot **Savienojuma** veida datu avotus nolūkā uzlabot datu piekļuves veiktspēju. Šīs darbības var veikt jebkuram uzņēmumam, kas izmanto Dynamics 365 Finance vai Regulatory Configuration Service (RCS).
+Tālākminētajās darbībās paskaidrots, kā sistēmas administrators vai elektronisko pārskatu noformētājs var konfigurēt elektronisko pārskatu (ER) modeļa kartēšanu, lai iegūtu datus no vairākām programmas tabulām uzreiz, izmantojot **Savienojuma** veida datu avotus nolūkā uzlabot datu piekļuves veiktspēju. Šīs darbības var veikt jebkuram uzņēmumam, kas izmanto Dynamics 365 Finance vai Regulatory Configuration Services (RCS).
 
 ### <a name="prerequisites"></a>Priekšnosacījumi
 
