@@ -256,7 +256,7 @@
                       href: dev-itpro/CDX-Troubleshooting.md
                 - name: Modern POS arhitektūra
                   href: dev-itpro/retail-modern-pos-architecture.md
-                - name: Tiešsaistes veikala kanāla publicēšana
+                - name: Tiešsaistes veikala kataloga publicēšana
                   href: dev-itpro/retail-online-store-publishing-architecture.md
                 - name: Retail Channel Performance Power BI saturs
                   href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
@@ -1268,6 +1268,26 @@
                   href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
                 - name: "Regulatory Configuration Service\_— Lifecycle Services krātuves atbalsta pārtraukšana"
                   href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/commerce/toc.json
+                - name: Elektronisko pārskatu konfigurāciju lejupielāde risinājumā Commerce
+                  items:
+                    - name: Konfigurāciju lejupielāde no RCS
+                      href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
+                    - name: Konfigurāciju importēšana no RCS
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
+                - name: Globālais repozitorijs (GR)
+                  items:
+                    - name: Konfigurāciju importēšana no GR
+                      href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
+                    - name: Elektronisko pārskatu konfigurāciju atjauninātu versiju importēšana
+                      href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
+                    - name: 'Uzlabota filtrēšana, lai atrastu konfigurācijas globālajā repozitorijā (GR)'
+                      href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
+                    - name: Konfigurāciju augšupielāde globālajā repozitorijā (GR)
+                      href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
+                    - name: Konfigurāciju koplietošana globālajā repozitorijā (GR)
+                      href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
+                    - name: Pārtraukt konfigurācijas RCS globālajā repozitorijā
+                      href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
             - name: Austrija
               items:
                 - name: Fiskālās reģistrācijas pakalpojuma integrācijas paraugs Austrijai
@@ -1315,6 +1335,12 @@
                 - name: Kases sistēmas funkcionalitāte
                   href: localizations/emea-fra-cash-registers.md
                 - name: Izvietošanas vadlīnijas kases sistēmām
+                  href: localizations/emea-fra-fi-deployment.md
+                - name: Finanšu arhīvs un datu integritātes pārbaude
+                  href: localizations/emea-fra-fiscal-archive.md
+                - name: Migrēšana no mantojuma funkcionalitātes Francijai
+                  href: localizations/emea-fra-fi-migration.md
+                - name: Izvietošanas vadlīnijas kases sistēmām (mantojums)
                   href: localizations/emea-fra-deployment.md
             - name: Vācija
               items:
@@ -1350,6 +1376,8 @@
               items:
                 - name: Commerce lokalizācija Krievijai
                   href: localizations/rus-commerce-localization.md
+                - name: Vienkāršotas debitora adreses formāts Commerce POS Krievijai
+                  href: localizations/rus-simplified-address.md
                 - name: "Commerce lokalizācija Krievijai\_— iestatīšana"
                   href: localizations/rus-commerce-setup.md
                 - name: "Commerce lietošanai Krievijā\_— priekšapmaksa"
@@ -1860,30 +1888,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/commerce/toc.json
                     - name: Konfigurāciju importēšana (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/commerce/toc.json
-                - name: Regulatory service (RCS)
-                  items:
-                    - name: "Globalizācijas līdzekļi\_RCS"
-                      href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
-                    - name: Elektronisko pārskatu konfigurāciju lejupielāde risinājumā Commerce
-                      items:
-                        - name: Konfigurāciju lejupielāde no RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
-                        - name: Konfigurāciju importēšana no RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
-                    - name: Globālais repozitorijs (GR)
-                      items:
-                        - name: Konfigurāciju importēšana no GR
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: Elektronisko pārskatu konfigurāciju atjauninātu versiju importēšana
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: 'Uzlabota filtrēšana, lai atrastu konfigurācijas globālajā repozitorijā (GR)'
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: Konfigurāciju augšupielāde globālajā repozitorijā (GR)
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
-                        - name: Konfigurāciju koplietošana globālajā repozitorijā (GR)
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
-                        - name: Pārtraukt konfigurācijas RCS globālajā repozitorijā
-                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
             - name: Ātras darba sākšanas ceļveži
               items:
                 - name: 'Elektronisko pārskatu formāta pielāgošana, lai ģenerētu pielāgotu elektronisko dokumentu'
@@ -2112,7 +2116,7 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/commerce/toc.json
             - name: 'Elementu datu atvēršana programmā Excel un to atjaunināšana, izmantojot Excel pievienojumprogrammu'
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/commerce/toc.json
-            - name: Atvēršanas Excel programmā pieredzes izveide
+            - name: 'Atvēršanas Excel programmā pieredze: BUJ'
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/commerce/toc.json
             - name: Veidņu pievienošana izvēlnei “Atvērt rindas programmā Excel”
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/commerce/toc.json
@@ -2360,6 +2364,8 @@
                       href: e-commerce-extensibility/globalize-modules.md
                     - name: Azure Key Vault iestatīšana drošai atslēgu pārvaldībai
                       href: e-commerce-extensibility/set-up-key-vault.md
+                    - name: Pieprasījuma izveide konveijera spraudņa āķim
+                      href: e-commerce-extensibility/request-pipeline-hook.md
                 - name: Datu darbību izstrāde
                   items:
                     - name: Datu darbību pārskats
@@ -2422,6 +2428,12 @@
                   items:
                     - name: Savienotāju konfigurēšana un iespējošana
                       href: e-commerce-extensibility/connectors.md
+                - name: Veiktspēja
+                  items:
+                    - name: Lapu kešatmiņas konfigurēšana
+                      href: e-commerce-extensibility/page-caching.md
+                    - name: Datu darbību instances kešatmiņa
+                      href: e-commerce-extensibility/instance-cache.md
                 - name: Telemetrija un analīze
                   items:
                     - name: Telemetrijas reģistrētājs

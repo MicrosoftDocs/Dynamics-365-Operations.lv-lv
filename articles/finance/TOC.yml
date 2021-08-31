@@ -1170,6 +1170,8 @@
                   href: general-ledger/yec-mssng-open-blnces.md
                 - name: Finanšu žurnālu veidņu atvēršana sistēmā Office
                   href: general-ledger/open-fincl-jrnls-in-office.md
+                - name: Žurnāla grāmatošanas kļūme neatbilstības dēļ
+                  href: general-ledger/posting-fail-imbalance.md
                 - name: Kādēļ es nevaru atgriezt šo darījumu?
                   href: general-ledger/cant-reverse-transctns.md
         - name: Finanšu pārskatu veidošana
@@ -1482,6 +1484,26 @@
                       href: localizations/rcs-delete-environment.md
                     - name: "Regulatory Configuration Service\_— Lifecycle Services krātuves atbalsta pārtraukšana"
                       href: localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/finance/toc.json
+                    - name: Elektronisko pārskatu konfigurāciju lejupielāde programmā Finance
+                      items:
+                        - name: Konfigurāciju lejupielāde no RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: Konfigurāciju importēšana no RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
+                    - name: Globālais repozitorijs (GR)
+                      items:
+                        - name: Konfigurāciju importēšana no GR
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Elektronisko pārskatu konfigurāciju atjauninātu versiju importēšana
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: 'Uzlabota filtrēšana, lai atrastu konfigurācijas globālajā repozitorijā (GR)'
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Konfigurāciju augšupielāde globālajā repozitorijā (GR)
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                        - name: Konfigurāciju koplietošana globālajā repozitorijā (GR)
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
+                        - name: Pārtraukt konfigurācijas RCS globālajā repozitorijā
+                          href: localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/finance/toc.json
                 - name: Elektronisko rēķinu izrakstīšana
                   items:
                     - name: Elektronisko rēķinu izveides pārskats
@@ -1520,40 +1542,56 @@
                   items:
                     - name: Nodokļu aprēķina pārskats
                       href: localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/finance/toc.json
-                    - name: Darba sākšana ar nodokļu aprēķinu
-                      href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
-                    - name: "PVN\_piemērojamības un PVN\_grupas noteikšanas loģika"
-                      href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
-                    - name: Nodokļu līdzekļu atbalsts pārsūtīšanas pasūtījumiem
-                      href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
-                    - name: 'Nodokļa aprēķins kopā ar cenu, ja ir iespējots līdzeklis nodokļu iekļaušanai cenā'
-                      href: localizations/global-exclude-from-tax-base-amount-calculation.md?toc=/dynamics365/finance/toc.json
-                    - name: Datu lauku pievienošana nodokļu konfigurācijās
-                      href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
-                    - name: 'Datu lauku pievienošana nodokļu integrācijai, izmantojot paplašinājumus'
-                      href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
-                    - name: Pamatdatu uzmeklēšanas vides iestatīšana
-                      href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
-                    - name: Vairāki PVN reģistrācijas numuri
-                      href: localizations/emea-multiple-vat-registration-numbers.md
-                    - name: Pārskatu veidošana vairākām PVN reģistrācijām
+                    - name: Iestatīšana
                       items:
+                        - name: Darba sākšana ar nodokļu aprēķinu
+                          href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
+                        - name: Pamatdatu uzmeklēšanas vides iestatīšana
+                          href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
+                    - name: Noteikšana
+                      items:
+                        - name: "PVN\_piemērojamības un PVN\_grupas noteikšanas loģika"
+                          href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
+                    - name: Aprēķins
+                      items:
+                        - name: 'Nodokļa aprēķins kopā ar cenām, ja ir iespējots līdzeklis nodokļu iekļaušanai cenā'
+                          href: localizations/global-exclude-from-tax-base-amount-calculation.md?toc=/dynamics365/finance/toc.json
+                        - name: Nodokļu aprēķina noapaļošanas kārtulas
+                          href: localizations/tax-calculation-rounding-rules.md
+                    - name: Vairākas PVN reģistrācijas
+                      items:
+                        - name: Vairāki PVN reģistrācijas numuri
+                          href: localizations/emea-multiple-vat-registration-numbers.md
                         - name: Pārskatu veidošana vairākām PVN reģistrācijām
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
                         - name: Francijas pārskatu veidošana
                           items:
                             - name: PVN deklarācija
-                          href: localizations/emea-fra-VAT-declaration-preview-France.md
+                              href: localizations/emea-fra-VAT-declaration-preview-France.md
                         - name: Nīderlandes pārskatu veidošana
                           items:
                             - name: PVN deklarācija
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: Pārskats par preču piegādēm Eiropas Kopienas teritorijā
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: Šveices pārskatu veidošana
+                          items:
+                            - name: PVN deklarācija
+                              href: localizations/emea-che-vat-declaration-switzerland.md
                         - name: Apvienotās Karalistes pārskatu veidošana
                           items:
                             - name: "Sagatavošanās integrācijai\_MTD PVN\_iekļaušanai"
                               href: localizations/emea-gbr-mtd-vat-integration.md
+                    - name: Nodokļa aprēķinu iespējošana pārsūtīšanas pasūtījumam
+                      items:
+                        - name: Nodokļu līdzekļu atbalsts pārsūtīšanas pasūtījumiem
+                          href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
+                    - name: Paplašinājums
+                      items:
+                        - name: Datu lauku pievienošana nodokļu konfigurācijās
+                          href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: 'Datu lauku pievienošana nodokļu integrācijai, izmantojot paplašinājumus'
+                          href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
             - name: Normatīvie atjauninājumi
               href: localizations/regulatory-updates.md
             - name: Austrālija
@@ -1710,6 +1748,8 @@
                       href: localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
                     - name: NF-e parametru iestatīšana finanšu iestādei
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+                    - name: "NT2020.005\_— izkārtojuma un apstiprināšanas atjauninājumi elektroniskajā finanšu dokumentā (NF-e)"
+                      href: localizations/latam-bra-nfe-nt2020.005.md
                     - name: NT2020.006 — starpnieka pārdošanas digitālā platforma NF-e
                       href: localizations/latam-bra-nf-e-nt2020-006-v1-00.md
                     - name: "NT2019.001\_— nodokļu atvieglojumu un atbrīvojumu kārtulas NF-e/NFC-e"
@@ -2334,8 +2374,6 @@
                               href: localizations/apac-ind-gst-reference-groups.md
                         - name: Nodokļu transakcijas
                           items:
-                            - name: "GST\_TDS par preču un pakalpojumu apmaksu"
-                              href: localizations/ind-gst-tds-payment-goods-services.md
                             - name: Pirkšanas transakcijas
                               items:
                                 - name: Pirkumi no nereģistrētiem kreditoriem
@@ -2370,7 +2408,11 @@
                                   href: localizations/apac-ind-GST-purchase-return-order.md
                                 - name: 'Kreditoru avansa maksājumi, ja tiek piemērotas apgrieztās maksas'
                                   href: localizations/apac-ind-GST-vendor-advance-payment-reverse-charges.md
-                            - name: Pārdošanas darbības
+                                - name: "GST\_TDS par preču un pakalpojumu apmaksu"
+                                  href: localizations/ind-gst-tds-payment-goods-services.md
+                                - name: "GST\_TCS par preču un pakalpojumu apmaksu"
+                                  href: localizations/ind-gst-tcs-payment.md
+                            - name: Pārdošanas transakcijas
                               items:
                                 - name: Ar nodokli apliekamu preču pārdošana patērētājiem
                                   href: localizations/apac-ind-GST-sell-taxable-goods-consumer.md
@@ -3130,16 +3172,18 @@
                           href: localizations/rus-fixed-assets-revaluation.md
                         - name: Budžeta žurnālu izveide un grāmatošana pamatlīdzekļu iegūšanai
                           href: localizations/rus-post-budget-fixed-asset-acquisition.md
-                        - name: Pamatlīdzekļus pārsūtīšana
+                        - name: Pārsūtīt pamatlīdzekļus
                           href: localizations/rus-fixed-asset-transfer.md
+                        - name: Unificētas pamatlīdzekļu drukāšanas formas
+                          href: localizations/printing-forms-fixed-assets.md
+                        - name: Pieprasījumi un pārskati
+                          href: localizations/rus-fa-inquiries-reports.md
                     - name: Mazvērtīgie pamatlīdzekļi un darba drēbes
                       items:
                         - name: Mazvērtīgie pamatlīdzekļi (NVFA) (Krievija)
                           href: localizations/rus-not-valuable-assets.md
                         - name: Darba drēbju/speciāla aprīkojuma uzskaite (Krievija)
                           href: localizations/rus-working-clothes-instruments-accounting.md
-                        - name: Unificētas pamatlīdzekļu drukāšanas formas
-                          href: localizations/printing-forms-fixed-assets.md
                 - name: Kreditori un debitori
                   items:
                     - name: Kredīta notu korekcijas (Krievija)
@@ -3330,6 +3374,8 @@
                   href: localizations/emea-che-esr-customer-payments-import.md
                 - name: Šveices QR rēķini
                   href: localizations/emea-che-swiss-qr-bills.md
+                - name: PVN deklarācija
+                  href: localizations/emea-che-VAT-declaration-Switzerland.md
             - name: Taizeme
               items:
                 - name: Taizemes pārskats
@@ -4101,30 +4147,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/finance/toc.json
                     - name: Konfigurāciju importēšana (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
-                - name: Regulatory service (RCS)
-                  items:
-                    - name: "Globalizācijas līdzekļi\_RCS"
-                      href: localizations/rcs-globalization-feature.md?toc=dynamics365/finance/toc.json
-                    - name: Elektronisko pārskatu konfigurāciju lejupielāde programmā Finance
-                      items:
-                        - name: Konfigurāciju lejupielāde no RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
-                        - name: Konfigurāciju importēšana no RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
-                    - name: Globālais repozitorijs (GR)
-                      items:
-                        - name: Konfigurāciju importēšana no GR
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
-                        - name: Elektronisko pārskatu konfigurāciju atjauninātu versiju importēšana
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/finance/toc.json
-                        - name: 'Uzlabota filtrēšana, lai atrastu konfigurācijas globālajā repozitorijā (GR)'
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
-                        - name: Konfigurāciju augšupielāde globālajā repozitorijā (GR)
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
-                        - name: Konfigurāciju koplietošana globālajā repozitorijā (GR)
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
-                        - name: Pārtraukt konfigurācijas RCS globālajā repozitorijā
-                          href: localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/finance/toc.json
             - name: Ātras darba sākšanas ceļveži
               items:
                 - name: 'Elektronisko pārskatu formāta pielāgošana, lai ģenerētu pielāgotu elektronisko dokumentu'
@@ -4355,7 +4377,7 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/finance/toc.json
             - name: 'Elementu datu atvēršana programmā Excel un to atjaunināšana, izmantojot Excel pievienojumprogrammu'
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/finance/toc.json
-            - name: Atvēršanas Excel programmā pieredzes izveide
+            - name: 'Atvēršanas Excel programmā pieredze: BUJ'
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/finance/toc.json
             - name: Veidņu pievienošana izvēlnei “Atvērt rindas programmā Excel”
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/finance/toc.json

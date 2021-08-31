@@ -222,6 +222,26 @@
                       href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
                     - name: "Regulatory Configuration Service\_— Lifecycle Services krātuves atbalsta pārtraukšana"
                       href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Elektronisko pārskatu veidošanas rīka konfigurāciju lejupielāde programmā Supply Chain Management
+                      items:
+                        - name: Konfigurāciju lejupielāde no RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Konfigurāciju importēšana no RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Globālais repozitorijs (GR)
+                      items:
+                        - name: Konfigurāciju importēšana no GR
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Elektronisko pārskatu konfigurāciju atjauninātu versiju importēšana
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: 'Uzlabota filtrēšana, lai atrastu konfigurācijas globālajā repozitorijā (GR)'
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Konfigurāciju augšupielāde globālajā repozitorijā (GR)
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/fsupply-chain/toc.json
+                        - name: Konfigurāciju koplietošana globālajā repozitorijā (GR)
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Pārtraukt konfigurācijas RCS globālajā repozitorijā
+                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Elektronisko rēķinu izrakstīšana
                   items:
                     - name: Elektronisko rēķinu izveides pārskats
@@ -1237,30 +1257,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Konfigurāciju importēšana (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Regulatory service (RCS)
-                  items:
-                    - name: "Globalizācijas līdzekļi\_RCS"
-                      href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Elektronisko pārskatu veidošanas rīka konfigurāciju lejupielāde programmā Supply Chain Management
-                      items:
-                        - name: Konfigurāciju lejupielāde no RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Konfigurāciju importēšana no RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Globālais repozitorijs (GR)
-                      items:
-                        - name: Konfigurāciju importēšana no GR
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Elektronisko pārskatu konfigurāciju atjauninātu versiju importēšana
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: 'Uzlabota filtrēšana, lai atrastu konfigurācijas globālajā repozitorijā (GR)'
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Konfigurāciju augšupielāde globālajā repozitorijā (GR)
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/fsupply-chain/toc.json
-                        - name: Konfigurāciju koplietošana globālajā repozitorijā (GR)
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Pārtraukt konfigurācijas RCS globālajā repozitorijā
-                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/supply-chain/toc.json
             - name: Ātras darba sākšanas ceļveži
               items:
                 - name: 'Elektronisko pārskatu formāta pielāgošana, lai ģenerētu pielāgotu elektronisko dokumentu'
@@ -1574,7 +1570,19 @@
             - name: Arhivēt krājumu darbības
               href: inventory/archive-inventory-transactions.md
             - name: Krājumu redzamības pievienojumprogramma
-              href: inventory/inventory-visibility.md
+              items:
+                - name: Krājumu redzamības pievienojumprogrammas pārskats
+                  href: inventory/inventory-visibility.md
+                - name: Krājumu redzamības iestatīšana
+                  href: inventory/inventory-visibility-setup.md
+                - name: Krājumu redzamības konfigurēšana
+                  href: inventory/inventory-visibility-configuration.md
+                - name: Krājumu redzamības rezervācijas
+                  href: inventory/inventory-visibility-reservations.md
+                - name: Krājumu redzamības Power App
+                  href: inventory/inventory-visibility-power-platform.md
+                - name: Krājumu redzamības publiskais API
+                  href: inventory/inventory-visibility-api.md
         - name: IoT informācija
           items:
             - name: IoT informācijas sākumlapa
@@ -1607,6 +1615,8 @@
                   href: master-planning/planning-optimization/release-process.md
                 - name: Plānošanas optimizācijas atbilstības analīze
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
+                - name: Atšķirības starp iebūvēto vispārējo plānošanu un plānošanas optimizāciju
+                  href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
                 - name: 'Parametri, kas netiek izmantoti plānošanas optimizācijai'
                   href: master-planning/planning-optimization/not-used-parameters.md
                 - name: Filtru lietošana plānam
@@ -1795,7 +1805,7 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/supply-chain/toc.json
             - name: 'Elementu datu atvēršana programmā Excel un to atjaunināšana, izmantojot Excel pievienojumprogrammu'
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Atvēršanas Excel programmā pieredzes izveide
+            - name: 'Atvēršanas Excel programmā pieredze: BUJ'
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/supply-chain/toc.json
             - name: Veidņu pievienošana izvēlnei “Atvērt rindas programmā Excel”
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/supply-chain/toc.json
@@ -1975,8 +1985,6 @@
                   href: procurement/request-quotations.md
                 - name: Piedāvājuma pieprasījuma izveide
                   href: procurement/tasks/create-request-quotation.md
-                - name: Slēgta piedāvājumu izteikšana PP
-                  href: procurement/sealed-bidding.md
                 - name: 'Tāda pieprasījuma izveide, kas lieto PP'
                   href: procurement/tasks/create-requisition-uses-rfq.md
                 - name: PP punktu skaitīšanas metodes izveide
@@ -3301,6 +3309,8 @@
                       href: warehousing/install-configure-warehouse-management-app.md
                     - name: Noliktavas programmas instalēšana un savienošana
                       href: warehousing/install-configure-warehousing-app.md
+                    - name: Svītrkodu atbalsts mobilajās ierīcēs
+                      href: warehousing/mobile-barcode-support.md
                     - name: 'Svītrkodu skenēšana mobilajā programmā Warehouse Management, izmantojot kameru'
                       href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Mobilās programmas Warehouse Management savienojuma problēmu novēršana
@@ -3311,6 +3321,8 @@
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Mobilo ierīču iestatīšana darbam noliktavā
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Darbību nosaukumu un instrukciju pielāgošana mobilajai programmai Warehouse Management
+                      href: warehousing/mobile-app-titles-instructions.md
                     - name: 'Numura zīmes saņemšana, izmantojot mobilo programmu Warehouse Management'
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Mobilās ierīces izvēlnes vienuma iestatīšana pirkšanas pasūtījuma darba pabeigšanai
@@ -3331,7 +3343,7 @@
                   href: warehousing/mobile-device-user-settings.md
                 - name: Noliktavas programmas notikumu apstrāde
                   href: warehousing/warehouse-app-events.md
-                - name: Noliktavas programmas pielāgošana
+                - name: Noliktavas mobilo procesu paplašināšana
                   items:
                     - name: Procesu rokasgrāmatas struktūra
                       href: warehousing/process-guide-framework.md
@@ -3403,8 +3415,8 @@
                       href: warehousing/system-group-on-open-work-list.md
                     - name: Dokumenta maršrutēšanas izkārtojums numura zīmes etiķetēm
                       href: warehousing/document-routing-layout-for-license-plates.md
-                    - name: Svītrkodu atbalsts mobilajās ierīcēs
-                      href: warehousing/mobile-barcode-support.md
+                    - name: GS1 svītrkodi un QR kodi
+                      href: warehousing/gs1-barcodes.md
                     - name: Noliktavas iestatīšana pārsūtīšanas pasūtījumiem
                       href: warehousing/transfer-orders-warehouse.md
                     - name: Noliktavas konfigurācijas problēmu novēršana
