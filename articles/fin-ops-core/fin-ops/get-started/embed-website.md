@@ -2,7 +2,7 @@
 title: Iegult trešās puses programmas
 description: Šajā tēmā ir paskaidrots, kā iegult trešās puses programmas, lai atbalstītu produkta funkcionalitāti.
 author: jasongre
-ms.date: 04/22/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,21 +13,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: f47fb6a2fdb586fbc9f25938c3b9c1cfc16ddc1af432b91621421bd829b23925
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b0471fd2ea9a5e8b07b9e8bc279da53f6a1539ca
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737803"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345414"
 ---
 # <a name="embed-third-party-apps"></a>Iegult trešās puses programmas
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-Daudzi debitori biznesa izpildē izmanto vairākas programmas. Dažas no šīm programmām ir trešās puses tīmekļa programmas, kas darbojas kopā ar Finance and Operations programmām. Lai nodrošinātu vienkāršāku lietotāja pieredzi, varat izmantot līdzekli **(Priekšskatījums) Pilnas lapas lietojumprogrammas**, lai iegultu šīs trešās puses programmas tieši jūsu Finance and Operations programmās (ar nosacījumu, ka trešās puses programmas ļauj iegulties). Šādā veidā lietotāji var piekļūt vietnēm un nepieciešamām programmām, nepārslēdzot cilnes vai logus.
+Daudzi debitori biznesa izpildē izmanto vairākas programmas. Dažas no šīm programmām ir trešās puses tīmekļa programmas, kas darbojas kopā ar Finance and Operations programmām. Lai nodrošinātu vienkāršāku lietotāja pieredzi, varat izmantot līdzekli **Pilnas lapas programmas**, lai iegultu šīs trešās puses programmas tieši jūsu Finance and Operations programmās (ar nosacījumu, ka trešās puses programmas ļauj iegulšanu). Šādā veidā lietotāji var piekļūt vietnēm un nepieciešamām programmām, nepārslēdzot cilnes vai logus.
 
-Pirms varat produktā iegult trešās puses programmas, līdzekļa pārvaldībā ir jāslēdz līdzekli **(Priekšskatījums) Pilnas lapas lietojumprogrammas** . Pēc tam varat izmantot vienu no šīm metodēm, lai iegultu trešās puses programmu vai vietni. Šīs metodes ir analogas metodēm, kas tiek izmantotas, lai iegultu pamatnes programmas no Microsoft Power Apps uz Finance and Operations programmām.
+Pirms varat produktā iegult trešās puses programmas, līdzekļa pārvaldībā ir jāslēdz līdzekli **Pilnas lapas programmas** . Pēc tam varat izmantot vienu no šīm metodēm, lai iegultu trešās puses programmu vai vietni. Šīs metodes ir analogas metodēm, kas tiek izmantotas, lai iegultu pamatnes programmas no Microsoft Power Apps uz Finance and Operations programmām.
 
 - Iegult programmu vai vietni esošajā lapā kā jaunu cilnes lapu (koptabulu, kopsavilkuma cilni, failu vai darbvietas sadaļu).
 - Izveidojiet jaunu pilnas lapas pieredzi programmai vai vietnei no informācijas paneļa.
@@ -64,7 +64,7 @@ Izmantojiet šo procedūru, ja vēlaties papildināt esošu sistēmas lapu ar ie
 Izmantojiet šo procedūru, ja programma, kuru vēlaties iegult, nav saistīta ar esošu lapu vai ja vēlaties, lai programmai būtu pilna lapu pieredze Finance and Operations programmā.
 
 1. Atveriet informācijas paneli.
-2. Atlasiet un turiet lapu (vai noklikšķiniet ar peles labo pogu), atlasiet **Personalizēt** un pēc tam atlasiet **Pievienot lapu**.
+2. Atlasiet un turiet lapu (vai noklikšķiniet ar peles labo pogu) informācijas paneli, atlasiet **Personalizēt** un pēc tam atlasiet **Pievienot lapu**.
 3. Rūtī **Pievienot lapu** atlasiet **Vietne**.
 4. Konfigurējiet iegulto pakalpojumu:
 
@@ -82,9 +82,9 @@ Izmantojiet šo procedūru, ja programma, kuru vēlaties iegult, nav saistīta a
 
 Kad ir iegulta programma, izmantojot vienu no metodēm, kas aprakstītas iepriekšējās sadaļās, iespējams, vēlēsieties koplietot skatu ar citiem lietotājiem sistēmā. Lai koplietotu iegulto programmu, izmantojiet vienu no tālāk aprakstītajām metodēm.
 
-- **Publicējiet skatu (ieteicams):** Ja iegultā programma ir saglabāta skatā, ieteicamais un vēlamais veids, kā to kopīgot, ir publicēt šo skatu lietotājiem, kuriem ir atbilstošās drošības lomas. Tad visi lietotāji, kuriem ir drošības lomas, kas ir vērstas uz publicēto skatu, redzēs programmu Finance and Operations lietojumprogrammās. Papildinformāciju par to, kā publicēt skatu, skatiet sadaļā [Skatu publicēšana](saved-views.md#publishing-views).
+- **Publicējiet skatu (ieteicams):** Ja iegultā programma ir saglabāta skatā, ieteicamais un vēlamais veids, kā to kopīgot, ir publicēt šo skatu lietotājiem, kuriem ir atbilstošās drošības lomas mērķa juridiskajās personās. Šajā gadījumā tikai vēlamais lietotājs redzēs šajā lapā iegulto programmu. Papildinformāciju par to, kā publicēt skatu, skatiet sadaļā [Skatu publicēšana](saved-views.md#publishing-views).
 
-    Varat arī publicēt programmu, kas ir iegulta kā pilnas lapas pieredze no informācijas paneļa. Informācijas panelī atlasiet un turiet (vai noklikšķiniet ar peles labo pogu) ar programmu saistīto elementu, atlasiet **Personalizēt** un pēc tam atlasiet **Publicēt lapu**. Pašlaik var publicēt tikai uz drošības lomām. Tomēr iespēja publicēt juridiskām personām tiks pievienota, pirms funkcionalitāte kļūst plaši pieejama.
+    Varat arī publicēt programmu, kas ir iegulta kā pilnas lapas pieredze no informācijas paneļa. Informācijas panelī atlasiet un turiet (vai noklikšķiniet ar peles labo pogu) ar programmu saistīto elementu, atlasiet **Personalizēt** un pēc tam atlasiet **Publicēt lapu**. Yiek parādīta pieredze, kas ir līdzīga *publicēto skatu* pieredzei, un varat atlasīt drošības lomas, lai to publicētu. Ja ir ieslēgts līdzeklis **Uzlabots atbalsts juridiskām personām par saglabātajiem skatiem**, atjauninājumā 10.0.21 vai jaunākās versijās varat publicēt programmu vēlamajām juridiskajām personām.
 
 - **Kopēt personalizēšanu:** lapām, kas neatbalsta skatus (piemēram, dialoglodziņam vai darbvietam), vai pilnas lapas programmu pieredzei, varat kopēt personalizēšanu atbilstošajiem lietotājiem. Papildinformāciju skatiet sadaļā [Personalizēšanas koplietošana](personalize-user-experience.md#sharing-personalizations).
 

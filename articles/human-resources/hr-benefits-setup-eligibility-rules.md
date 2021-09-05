@@ -1,8 +1,8 @@
 ---
 title: Piemērotības kārtulu un opciju konfigurēšana
-description: Iestatiet piemērotības kārtulas un opcijas atvieglojumu pārvaldībā Microsoft Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 06/25/2021
+description: Šajā rakstā aprakstīts, kā iestatīt piemērotības kārtulas un opcijas sadaļā Atvieglojumu pārvaldība programmā Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3aae50b8f7fac6991f187ced44f7d122eb7ed40824bd2d53265fa06bfa87dd6a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 034957628580c468ed00b14afeb7e49af15c45cc
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756128"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423475"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Piemērotības kārtulu un opciju konfigurēšana 
 
@@ -155,7 +155,7 @@ Kārtulas var papildus izvērst, lai vienā kritērijā izmantotu vairākus nosa
 ### <a name="eligibility-conditions-within-a-custom-field-criterion"></a>Piemērotības nosacījumi pielāgotā lauka kritērijā 
 Līdzīgi iepriekš pielāgotos laukus var izmantot, veidojot piemērotības nosacījumus un strādāt vienādā veidā. Piemēram, varat piedāvāt interneta kompensāciju Fargo vai Kopenhāgenas darbiniekiem, kas strādā no mājām, jo šajās vietās interneta izmaksas ir augstākas. Lai to izdarītu, izveidojiet divus pielāgotos laukus: **Biroja atrašanās vieta** (izdošanas veidlapa) un **Darbs no mājām** (izvēles rūtiņa). Pēc tam izveidojiet kārtulu ar nosaukumu **WFH darbinieki**. Kārtulas kritērijs ir vieta, kur **Biroja atrašanās vieta = Fargo** vai **Kopenhāgena** *un*, kur **Darbs no mājām = Jā**.
 
-Pielāgotās piemērotības kārtulas būtu jāiestata kā norādīts šajā attēlā. 
+Pielāgotās piemērotības kārtulas būtu jāiestata, kā norādīts šajā attēlā. 
 
 ![Piemērotības nosacījumi pielāgotā lauka kritērijā.](media/EligibilityConditionsWithinACustomFieldCriterion.png) 
  
@@ -217,13 +217,13 @@ Varat izmantot brīvā režīma kredīta programmas, lai reģistrētu darbinieku
 
    | Lauks | Apraksts |
    | --- | --- |
-   | Atvieglojumu kredīta ID | Brīvā režīma kredīta programmas unikālais identifikators. |
-   | Apraksts | Brīvā režīma kredīta programmas apraksts. | 
-   | No datuma | Datums, kad brīvā režīma kredīta programma kļūst aktīva. |
-   | Līdz datumam | Datums, kad brīvā režīma kredīta programma beidz darboties. Varat atstāt noklusēto vērtību (12/31/2154), lai norādītu, ka brīvā režīma kredīta programmai nav ieplānota beigu termiņa. |
-   | Kopējā kredīta vērtība | Kredītpunktu skaits, kas katram darbiniekam jāizmanto saviem atvieglojumiem. |
-   | Proporcionālas sadalīšanas kārtula | Kārtula, ko izmanto, lai proporcionāli sadalītu brīvā režīma kredītus, ja darbinieks tiek nolīgts brīvā režīma kredīta perioda vidū. </br></br><ul><li>**Nav** — darbinieks nesaņem brīvā režīma kredītus, ja tas tiek pieņemti darbā pēc brīvā režīma kredīta programmas perioda sākuma.</li><li>**Pilns kredīts** — darbinieks saņem pilnu brīvā režīma kredītu summu, neatkarīgi no tā, kad tiek pieņemts darbā.</li><li>**Proporcionāla sadale** — darbinieks saņem proporcionālu brīvā režīma kredītu summu, pamatojoties uz pieņemšanas datumu.</li></ul> |
-   | Brīvā režīma kredīta proporcionālas sadales formula | Kārtula, ko izmanto, lai proporcionāli sadalītu brīvā režīma kredītus darbiniekiem, kuri pieņemti darbā brīvā režīma kredīta atvieglojumu perioda vidū. Šīs proporcijas pamatā ir nodarbinātības sākuma datums. Šis lauks tiek izmantots tikai tad, ja laukā **Proporcionālās sadalīšanas kārtula** atlasāt **Proporcionāli sadalīt**. </br></br><ul><li>**Katru dienu** — proporcionāli sadala brīvā režīma kredītu skaitu, ko darbinieks saņem katru dienu. Kopējais brīvā režīma kredītu skaits tiek dalīts ar dienu skaitu periodā. Piemēram, ja atvieglojumu periods ir 400 dienas, sistēma kopējo brīvā režīma kredītu skaitu izdalīs ar 400, lai aprēķinātu brīvā režīma kredītpunktu skaitu, ko darbinieki saņems katru dienu.</li><li>**Pašreizējā mēnesī** — proporcionāli sadala brīvā režīma kredītu skaitu, ko darbinieks saņem katru mēnesi, noapaļojot līdz pašreizējam mēnesim. Kopējais brīvā režīma kredītu skaits tiek dalīts ar mēnešu skaitu periodā. Piemēram, ja atvieglojumu periods ir 15 mēneši, sistēma kopējo brīvā režīma kredītu skaitu izdalīs ar 15, lai aprēķinātu brīvā režīma kredītpunktu skaitu, ko darbinieki saņems katru mēnesi.</li><li>**Nākamajā mēnesī** — proporcionāli sadala brīvā režīma kredītu skaitu, ko darbinieks saņem katru mēnesi, noapaļojot līdz nākamajam mēnesim. Kopējais brīvā režīma kredītu skaits tiek dalīts ar mēnešu skaitu periodā. Piemēram, ja atvieglojumu periods ir 15 mēneši, sistēma kopējo brīvā režīma kredītu skaitu izdala ar 15, lai aprēķinātu brīvā režīma kredītpunktu skaitu, ko darbinieki saņems katru mēnesi.</li></ul> |
+   | **Atvieglojumu kredīta ID** | Brīvā režīma kredīta programmas unikālais identifikators. |
+   | **Apraksts** | Brīvā režīma kredīta programmas apraksts. | 
+   | **No datuma** | Datums, kad brīvā režīma kredīta programma kļūst aktīva. |
+   | **Līdz datumam** | Datums, kad brīvā režīma kredīta programma beidz darboties. Varat atstāt noklusēto vērtību (12/31/2154), lai norādītu, ka brīvā režīma kredīta programmai nav ieplānota beigu termiņa. |
+   | **Kopējā kredīta vērtība** | Kredītpunktu skaits, kas katram darbiniekam jāizmanto saviem atvieglojumiem. |
+   | **Proporcionālas sadalīšanas kārtula** | Kārtula, ko izmanto, lai proporcionāli sadalītu brīvā režīma kredītus, ja darbinieks tiek nolīgts brīvā režīma kredīta perioda vidū. </br></br><ul><li>**Nav** — darbinieks nesaņem brīvā režīma kredītus, ja tas tiek pieņemti darbā pēc brīvā režīma kredīta programmas perioda sākuma.</li><li>**Pilns kredīts** — darbinieks saņem pilnu brīvā režīma kredītu summu, neatkarīgi no tā, kad tiek pieņemts darbā.</li><li>**Proporcionāla sadale** — darbinieks saņem proporcionālu brīvā režīma kredītu summu, pamatojoties uz pieņemšanas datumu.</li></ul> |
+   | **Brīvā režīma kredīta proporcionālas sadales formula** | Kārtula, ko izmanto, lai proporcionāli sadalītu brīvā režīma kredītus darbiniekiem, kuri pieņemti darbā brīvā režīma kredīta atvieglojumu perioda vidū. Šīs proporcijas pamatā ir nodarbinātības sākuma datums. Šis lauks tiek izmantots tikai tad, ja laukā **Proporcionālās sadalīšanas kārtula** atlasāt **Proporcionāli sadalīt**. </br></br><ul><li>**Katru dienu** — proporcionāli sadala brīvā režīma kredītu skaitu, ko darbinieks saņem katru dienu. Kopējais brīvā režīma kredītu skaits tiek dalīts ar dienu skaitu periodā. Piemēram, ja atvieglojumu periods ir 400 dienas, sistēma kopējo brīvā režīma kredītu skaitu izdalīs ar 400, lai aprēķinātu brīvā režīma kredītpunktu skaitu, ko darbinieki saņems katru dienu.</li><li>**Pašreizējā mēnesī** — proporcionāli sadala brīvā režīma kredītu skaitu, ko darbinieks saņem katru mēnesi, noapaļojot līdz pašreizējam mēnesim. Kopējais brīvā režīma kredītu skaits tiek dalīts ar mēnešu skaitu periodā. Piemēram, ja atvieglojumu periods ir 15 mēneši, sistēma kopējo brīvā režīma kredītu skaitu izdalīs ar 15, lai aprēķinātu brīvā režīma kredītpunktu skaitu, ko darbinieki saņems katru mēnesi.</li><li>**Nākamajā mēnesī** — proporcionāli sadala brīvā režīma kredītu skaitu, ko darbinieks saņem katru mēnesi, noapaļojot līdz nākamajam mēnesim. Kopējais brīvā režīma kredītu skaits tiek dalīts ar mēnešu skaitu periodā. Piemēram, ja atvieglojumu periods ir 15 mēneši, sistēma kopējo brīvā režīma kredītu skaitu izdala ar 15, lai aprēķinātu brīvā režīma kredītpunktu skaitu, ko darbinieki saņems katru mēnesi.</li></ul> |
    
    Pārliecinieties, ka katrs atvieglojumu plāns tiek reģistrēts tikai vienā brīvā režīma kredīta programmā katram atvieglojumu periodam. Pretējā gadījumā sistēma nezinās, kuru brīvā režīma kredīta programmu izmantot, lai piešķirtu brīvā režīma kredītus, un radīsies problēmas. 
 

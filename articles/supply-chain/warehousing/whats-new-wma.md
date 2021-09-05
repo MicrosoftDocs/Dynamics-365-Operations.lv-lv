@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: ivanv
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 43d1381e73d5659bfd6ae6c6d944b7e6918b681a4f89df7ad23abbed5b4a0d3c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6d98cea29f4c25319caed6680966f61c660778f0
+ms.sourcegitcommit: 3d05bb2a423fe130700686ff73daa355d15b0e09
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720088"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386103"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Kas jauns vai mainīts mobilajā programmā Warehouse Management
 
@@ -23,7 +23,23 @@ ms.locfileid: "6720088"
 
 Šajā tēmā ir uzskaitīti jaunie līdzekļi, labojumi, uzlabojumi un zināmas problēmas katrai Microsoft Dynamics 365 Supply Chain Management Warehouse Management mobilās programmas izlaistajai versijai.
 
-## <a name="2070"></a>2.0.7.0
+## <a name="version-2090"></a>Versija 2.0.9.0
+
+Šī versija labo problēmu, kad programma varētu apturēt atbildes, ja lietotāji lapu izveido no saraksta augšas.
+
+## <a name="version-2080"></a>Versija 2.0.8.0
+
+Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
+
+- Pievienots atbalsts darbību [norādījumu ](mobile-app-titles-instructions.md)līdzeklim, kas ieviests Supply Chain Management versijā 10.0.21.
+- Pievienotas atgādinājumu pamācības, lai parādītu lietotājus, ka viņi var aizvērt pārklājumus, nometot uz leju.
+- Pievienots darbību sarakstu un izvēlņu funkciju taustiņu atbalsts. Lietotāji var uz trim sekundēm aizturēt jebkuru funkcijas taustiņu, lai iegūtu pieejamo komandu sarakstu.
+- Fiksētā problēma, kas izraisīja tālāk norādītā kļūdas ziņojuma rādīšanu dažās ierīcēs: "Nevar atrast norādītajam izmēram piemērotu skatu."
+- Tika atrisināta problēma, kad, izmantojot pilnekrāna režīmu, tas ne vienmēr darbojās, izmantojot ekrāntastatūru.
+- Tika atrisināta problēma, kad lapu pāršķiršana nedarbojās Windows ierīcēs.
+- Ir fiksētas dažādas problēmas, kuru dēļ sistēma nereaģēja.
+
+## <a name="version-2070"></a>Versija 2.0.7.0
 
 ### <a name="new-features-fixes-and-improvements-in-version-2070"></a>Jauni līdzekļi, labojumi un uzlabojumi versijā 2.0.7.0
 

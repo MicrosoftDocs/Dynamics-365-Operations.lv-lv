@@ -1,6 +1,6 @@
 ---
-title: Pārdošanas pasūtījuma rēķinu izveidošana
-description: Šajā uzdevuma ceļvedī ir aprakstīta pārdošanas pasūtījuma rēķina izrakstīšana, tostarp rēķinu sapludināšana un pakešapstrāde.
+title: Pārdošanas pasūtījumu rēķinu izveide
+description: Šajā tēmā ir aprakstīta pārdošanas pasūtījuma rēķina izrakstīšana, tostarp rēķinu sapludināšana un pakešapstrāde.
 author: ShivamPandey-msft
 ms.date: 06/25/2019
 ms.topic: business-process
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8a6556838a2843f961e1538947a6eda090b94894ed4df8476ea60abeda8056b6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b6712779ca64f5934edd37730597541679b86e43
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771828"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394614"
 ---
-# <a name="create-sales-order-invoices"></a>Pārdošanas pasūtījuma rēķinu izveidošana
+# <a name="create-sales-order-invoices"></a>Pārdošanas pasūtījumu rēķinu izveide
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā uzdevuma ceļvedī ir aprakstīta pārdošanas pasūtījuma rēķina izrakstīšana, tostarp rēķinu sapludināšana un pakešapstrāde. Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USMF” dati.
+Šajā tēmā ir aprakstīta pārdošanas pasūtījuma rēķina izrakstīšana, tostarp rēķinu sapludināšana un pakešapstrāde. Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USMF” dati.
 
 
 ## <a name="create-an-invoice-from-a-sales-order"></a>Izveidot rēķinu no pārdošanas pasūtījuma
 1. Dodieties uz **Navigācijas rūts > Moduļi > Debitoru parādi > Pasūtījumi > Nosūtītie pārdošanas pasūtījumi, kas vēl nav iekļauti rēķinā**.
 2. Sarakstā atlasiet kādu pārdošanas pasūtījumu. 
-3. **Darbību rūtī** noklikšķiniet uz **Rēķins > Ģenerēt > Rēķins**. Ievērojiet, ka ar šo pārdošanas pasūtījumu ir saistītas vairākas pavadzīmes. Pavadzīmes numura vietā tajā tiek rādīts tikai vārds <multiple>.  
+3. **Darbību rūtī** noklikšķiniet uz **Rēķins > Ģenerēt > Rēķins**. Ievērojiet, ka ar šo pārdošanas pasūtījumu ir saistītas vairākas pavadzīmes. Pavadzīmes numura vietā tajā tiek rādīts tikai vārds *vairāki*.  
 4. Izvērsiet sadaļu **Parametri**.
     - Lai grāmatotu rēķinu, grāmatošana ir jāiestata uz Jā. Varat arī grāmatošanu izslēgt un rēķinu tikai drukāt. Taču to pašu rezultātu varat panākt, rēķina vietā izveidojot pro forma rēķinu.  
     - Šī opcija tiek izmantota pakešuzdevumiem. Vaicājums tiek izpildīts, kad tiek veikts pakešuzdevums.

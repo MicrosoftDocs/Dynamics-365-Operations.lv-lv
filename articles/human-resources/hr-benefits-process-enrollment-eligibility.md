@@ -1,8 +1,8 @@
 ---
-title: Reģistrācijas piemērotības apstrāde
+title: Procesa reģistrācijas piemērojamība
 description: Šajā rakstā ir paskaidrots, kā izpildīt reģistrācijas piemērotības apstrādi.
-author: andreabichsel
-ms.date: 04/06/2020
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,17 +12,17 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 989b493af6e8386f9517737c582150470a4e226d161e63c3f7a6088dbd3df903
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7c83753c17721487ba6adbf822c994a71ae0a0e6
+ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782076"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7417488"
 ---
-# <a name="process-enrollment-eligibility"></a>Reģistrācijas piemērotības apstrāde
+# <a name="process-enrollment-eligibility"></a>Procesa reģistrācijas piemērojamība
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -53,13 +53,13 @@ ms.locfileid: "6782076"
 
 ## <a name="view-process-results"></a>Skatīt procesa rezultātus
 
-Šajā rakstā ir paskaidrots, kā skatīt reģistrācijas piemērotības rezultātus.
+Šajā rakstā ir paskaidrots, kā skatīt piemērotības procesa rezultātus.
 
 1.  Darbvietā **Atvieglojumu pārvaldība** sadaļā **Apstrāde** atlasiet **Procesa rezultāti**.
 
-2.  Veidlapā **Procesa rezultāti** ir norādīti šādi lauki:
+2.  Lapā **Procesa rezultāti** ir norādīti šādi lauki:
 
-   | Lauks | apraksts |
+   | Lauks | Apraksts |
    | --- | --- |
    | **Procesa ID** | Unikālais ID darbinieku, juridisko personu un procesa izpildes kombinācijai. |
    | **Procesu tips** | Tas identificē procesu, kas tika palaists. Piemēram: Uzņemšana. |

@@ -1,8 +1,8 @@
 ---
-title: Izvēlēties datu integrācijas tehnoloģiju
-description: Šis raksts sniedz informāciju par datu integrēšanu, kurus pārvalda Personāla vadība. Tas apraksta dažādas integrēšanas tehnoloģijas, lai palīdzētu jums izlemt, kuras tehnoloģijas vislabāk atbilst jūsu vajadzībām.
-author: andreabichsel
-ms.date: 02/28/2020
+title: Datu integrācijas tehnoloģiju izvēle
+description: Šajā tēmā sniegta informācija par datu, kurus pārvalda personāla vadība, integrēšanu.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,27 +15,26 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5f7942d08459455192f816b2a06251d0f756b8de521d958eb38a84fa2e5616d4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d58a42236b07bf177e09aee50a207ffdf2ed1435
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720472"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414718"
 ---
-# <a name="choose-a-data-integration-technology"></a>Izvēlēties datu integrācijas tehnoloģiju
+# <a name="choose-a-data-integration-technology"></a>Datu integrācijas tehnoloģiju izvēle
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Šis raksts sniedz informāciju datu integrēšanai, kurus pārvalda Dynamics 365 Human Resources. Tas apraksta dažādas integrēšanas tehnoloģijas, lai palīdzētu jums izlemt, kuras tehnoloģijas vislabāk atbilst jūsu vajadzībām.
+Šajā tēmā sniegta informācija datu, kurus pārvalda Dynamics 365 Human Resources, integrēšanai. Tas apraksta dažādas integrēšanas tehnoloģijas, lai palīdzētu jums izlemt, kuras tehnoloģijas vislabāk atbilst jūsu vajadzībām.
 
 ## <a name="data-integration-background"></a>Datu integrācijas fons
 
 Biznesa dati ir galvenie līdzekļi, kas padara uzņēmumu unikālu. Biznesa dati ir ļoti vērtīgi. Lai uzlabotu biznesa procesus un biznesa informāciju visā uzņēmumā, varat izmantot attiecības starp datiem, kas apkopoti jūsu uzņēmumā. Mēs cenšamies nodrošināt vieglu, drošu un stabilu piekļuvi jūsu biznesa datiem neatkarīgi no sistēmas, no kā tie tiek iegūti.
 
-Vēsturiski datu integrācija starp vairākām sistēmām ir bijusi sarežģīta.
-Microsoft veic darbības, lai atvieglotu datu integrāciju, un liels solis pretī šim mērķim tiek realizēts, izmantojot [Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
+Vēsturiski datu integrācija starp vairākām sistēmām ir bijusi sarežģīta. Microsoft veic darbības, lai atvieglotu datu integrāciju, un liels solis pretī šim mērķim tiek realizēts, izmantojot [Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
 
 Personāla vadība dod priekšroku Dataverse kā Personāla vadības datu publiskajam interfeisam. Laika gaitā mēs sagaidām, ka visi svarīgākie dati, ko pārvalda Human Resources, tiks sniegti Dataverse. Mēs iesakām Dataverse kā izvēles tehnoloģiju lielākajai daļai integrācijas pieteikumu.
 
@@ -47,7 +46,7 @@ Turpmākajās sadaļās aprakstītas dažādas datu integrācijas tehnoloģijas,
 
 ### <a name="dataverse-tables"></a>Dataverse tabulas
 
-Dataverse ir izvēlētais publisko datu interfeiss Human Resources. Tas attīstījās no Dynamics 365 XRM platformas, ko izmanto [Dynamics 365 Customer Engagement](/dynamics365/?panel=customer-engagement#pivot=business-apps) risinājumi.
+Dataverse ir izvēlētais publisko datu interfeiss Human Resources. Tas ir attīstījies no Dynamics 365 XRM platformas, ko izmanto [Dynamics 365 Customer Engagement](/dynamics365/?panel=customer-engagement#pivot=business-apps) risinājumi.
 
 Dataverse nodrošina platformu un API datu tabulām. Kad tiek izvietota Personāla vadība, tie tiek savienoti ar Dataverse instanci. Personāla vadības datu entītijas tiek izvietotas šajā Dataverse instancē. Tabulas un to dati ir pieejami jebkurai programmai, kas var pieslēgties Dataverse instancei. Human Resources sinhronizē datus uz un no Dataverse tabulām.
 

@@ -2,7 +2,7 @@
 title: Konfigurēt Palīdzības pieredzi Finance and Operations programmām
 description: Šajā tēmā ir sniegta informācija par palīdzības sistēmas komponentiem dažām Microsoft Dynamics 365 programmām.
 author: margoc
-ms.date: 05/11/2020
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c8481a2ba54b88f0911436f352b901cde55924e2ccc15a381b8742abe85d972
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f793068a5d4df6206229249c5b37bee0ef34da8d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714527"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343816"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Konfigurēt Palīdzības pieredzi Finance and Operations programmām
 
@@ -54,7 +54,7 @@ Lai konfigurētu risinājuma uzdevumu ceļvežus, veiciet šīs darbības lapā 
 > [!IMPORTANT]
 > Kad cilni **Palīdzība** atverat pirmo reizi, ir jāizveido savienojums ar Lifecycle Services. Noteikti atlasiet saiti formas vidū, uzgaidiet, līdz tiek izveidots savienojums, aizveriet dialoglodziņu un pēc tam atlasiet **Labi**, lai piekļūtu lapai **Sistēmas parametri**.
 >
-> [![Savienojuma izveide ar LCS](./media/connect-to-lcs-crop-1024x365.png "Savienojuma izveide ar LCS."](./media/connect-to-lcs-crop.png)
+> [![Izveidot savienojumu ar LCS](./media/connect-to-lcs-crop-1024x365.png "Izveidot savienojumu ar LCS.")](./media/connect-to-lcs-crop.png)
 
 1. Atlasiet Lifecycle Services projektu, ar kuru izveidot savienojumu.
 2. Atlasiet BPM bibliotēkas (atlasītajā projektā), no kurām izgūt uzdevumu ierakstus.

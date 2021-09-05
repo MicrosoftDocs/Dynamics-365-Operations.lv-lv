@@ -1,8 +1,8 @@
 ---
 title: Vērtības modeļu iestatīšana
 description: Šajā procedūrā parādīts, kā izveidot jaunu pamatlīdzekļu grāmatu un sasaistīt to ar pamatlīdzekļu grupu.
-author: saraschi2
-ms.date: 08/29/2018
+author: moaamer
+ms.date: 08/12/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,19 +13,20 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 923c3d0c7a2d54f616452a8b927681603f4955c2d7e5ff306971561b73355743
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 46c26e5fad3c5c60d87c2fea2b29043c69b82b5d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741540"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344662"
 ---
 # <a name="set-up-value-models"></a>Vērtības modeļu iestatīšana
 
 [!include [banner](../../includes/banner.md)]
+[!include [preview banner](../../includes/preview-banner.md)]
+
 
 Šajā procedūrā parādīts, kā izveidot jaunu pamatlīdzekļu grāmatu un sasaistīt to ar pamatlīdzekļu grupu. Tas izmanto grāmatveža lomu un demonstrācijas datus USMF juridiskajai personai.
-
 
 ## <a name="create-a-book"></a>Izveidot grāmatu
 1. Dodieties uz pamatlīdzekļi > Iestatījumi > Grāmatas.
@@ -48,9 +49,10 @@ ms.locfileid: "6741540"
 1. Noklikšķiniet uz Pamatlīdzekļu grupas.
 2. Ievadiet vai atlasiet vērtību laukā Pamatlīdzekļu grupa.
 3. Ievadiet skaitli laukā Lietošanas ilgums.
-    * Ņemiet vērā, ka Nolietojuma periodi tiek aprēķināti pēc vērtības Lietošanas ilgums iestatīšanas.  
-    * Jūs varat arī iestatīt nolietojuma aprēķināšanas metodi, ja nepieciešams nodokļu vajadzībām.  
 
+  - Ņemiet vērā, ka lauka Nolietojuma periodi vērtība tiek aprēķināta pēc vērtības Lietošanas ilgums iestatīšanas.  
+  - Nolietojuma aprēķināšanas metodi var iestatīt nodokļu vajadzībām, ja nepieciešams.
+  - Pamatlīdzekļiem, kas ir saistīti ar nomām, vērtība laukā **Lietošanas ilgums** tiks ignorēta, jo mazākais no nomas termiņa pamatlīdzekļu grāmatā vai pamatlīdzekļa lietošanas laikā. Ja nomas grāmatas **Īpašumtiesību pārsūtīšanas lauks** ir iestatīts uz **Jā**, vērtība laukā **Lietošanas ilgums** vienmēr būs pamatlīdzekļa lietošanas ilgums.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

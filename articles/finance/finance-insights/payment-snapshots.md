@@ -1,5 +1,5 @@
 ---
-title: Momentuzņēmumu apskats (priekšskatījums)
+title: Momentuzņēmumu apskats
 description: Šī tēma apraksta momentzņēmumu līdzekli, kas ļauj ietaupīt naudas plūsmas prognozi analīzei vai salīdzinājumam ar faktiskajām vērtībām. Ģenerējot naudas plūsmas prognozi, varat saglabāt šo prognozi kā momentuzņēmumu. Pēc tam varat izmantot šos momentuzņēmumus, lai rediģētu tos kontus, kas tika iekļauti prognozē, vai salīdzinātu prognozi momentuzņēmumā uz faktiskajiem datiem.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: dcdc7bfbf88acca3f74b2cc57e5caf38cea43a833f12e6ec40eebcb9b249b059
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bcaaa9fe13e36bbe71e29d82c9f22a4fff9248ef
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765032"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386567"
 ---
-# <a name="snapshots-overview-preview"></a>Momentuzņēmumu apskats (priekšskatījums)
+# <a name="snapshots-overview"></a>Momentuzņēmumu apskats
 
 [!include [banner](../includes/banner.md)]
 

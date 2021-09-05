@@ -1,8 +1,8 @@
 ---
 title: Dataverse virtuālo tabulu konfigurēšana
-description: Šajā tēmā parādīts, kā konfigurēt virtuālās tabulas Dynamics 365 Human Resources. Ģenerējiet un atjauniniet esošās virtuālās tabulas un analizējiet ģenerētās un pieejamās tabulas.
-author: andreabichsel
-ms.date: 01/25/2021
+description: Šajā tēmā ir parādīts, kā konfigurēt, ģenerēt, atjaunināt esošās virtuālās tabulas, kā arī analizēt ģenerētās un pieejamās tabulas programmai Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4461b072c12848220c48d3a711cc2d4991c98f068e1ba477becf6d0be068fca8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9e26a2fb65564cb4a1d2f9ba4b0d621177207545
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721611"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414668"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Dataverse virtuālo tabulu konfigurēšana
 
@@ -140,6 +140,9 @@ Nākamais solis ir konfigurēt virtuālās tabulas datu avotu Power Apps vidē.
 
      >[!NOTE]
      >Noteikti iekļaujiet rakstzīmi "**/**" vietrāža URL beigās, lai izvairītos no kļūdas saņemšanas.
+
+     >[!NOTE]
+     >Mērķa vietrādis URL nosaka personāla vadības vidi, uz kuru virtuālās tabulas norādīs datu iegūšanai. Ja izveidojat izmēģināšanas vidi, veidojot ražošanas vides kopiju, atjauniniet šo vērtību uz jaunās izmēģināšanas vides nosaukumu telpas URL. Tādējādi tiek nodrošināts, ka virtuālās tabulas ir saistītas ar izmēģināšanas vides datiem, nevis turpina norādīt uz ražošanas vidi.
 
    - **Nomnieka ID**: Azure Active Directory (Azure AD) nomnieka ID.
 

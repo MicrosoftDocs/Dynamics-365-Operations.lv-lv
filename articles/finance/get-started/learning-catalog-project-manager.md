@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f9dfa54f0a2b849a38c71a041f6d72dd84c762edba3482575b0b7867b1e11a53
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5055d18e57d36bc8218bb0423721056e33fc3018
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716625"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402180"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-finance"></a>Apmācības katalogs ieviešanas projektu pārvaldniekiem, kas strādā ar Dynamics 365 Finance
 
@@ -61,7 +61,6 @@ Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem dom�
 | [Kā jaunināt uz 7.2 (2017. jūlijs) no 7.0 (RTW)/7.1 (laidiens 1611) (DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | Šajā sesijā tiks izskaidrots, kā atjaunināt sistēmu no Dynamics 365 Finance and Operations lietojumprogrammas v 7.0 (RTW) un v 7.1 (1611) uz v 7.2 (July 2017). Mēs izveidojam nepārprotamu diferenciāciju starp īstiem klientiem un vēl realizācijā esošiem projektiem. | TechTalk (ieakstīts vebinārs) | 58 minūtes |
 | [Finance and Operations: Jaunināšana no 7.x uz 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | Lūdzu, pievienojieties mums mūsu nākamajam TechTalk, kuras laikā mēs runāsim arī par jaunināšanas procesu no 7. X uz 8. X . Mēs apspriedīs dažādus scenārijus un darbības, lai veiktu koda un datu jaunināšanu. Tiks pārrunāti arī paplašināšanas pieprasījumu scenāriji un kā tos izmantot atbilstošā gadījumā. 1. daļa no 2. | TechTalk (ieakstīts vebinārs) | 61 minūtes |
 | [AX2012 uz Dynamics 365 for Operations jauninājumu (VIR817PAL2)](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | Šī Tech Talk sniegs pārskatu par to, kā atjaunināt kodu un datus no Dynamics AX 2012 uz. Dynamics 365 for Operations | TechTalk (ieakstīts vebinārs) | 45 minūtes |
-| [Pārskatu veidošanas opcijas programmatūrā Dynamics 365 for Operations (VIR810PAL)](https://community.dynamics.com/365/b/techtalks/posts/reporting-options-in-dynamics-365-for-operations-february-23-2017) | Šajā sesijā tiks apspriesti dažādi drukāšanas scenāriji D365 darbībām, ieskaitot padomus un trikus dokumentu maršrutēšanas aģentam. | TechTalk (ieakstīts vebinārs) | 60 minūtes |
 | [Analīzes un pārskatu veidošanas opcijas: drukāšana un dokumentu maršrutēšanas aģents](https://community.dynamics.com/365/b/techtalks/posts/analytics-amp-reporting-options-printing-and-the-document-routing-agent-february-8-2018)| Lūdzu, pievienojieties mums, lai piedalītos šajā Tech talk par divām saistītām tēmām. Vispirms mēs apspriedīsim analīzes un pārskatu risinājumu modeļus un rīkus Dynamics 365 for Finance and Operations, Enterprise Edition. Otrkārt, tiks apspriesti drukāšanas scenāriji un dokumentu maršrutēšanas aģents. | TechTalk (ieakstīts vebinārs) | 45 minūtes |
 | [Kurss MB-300T01-A: galvenie kopējie līdzekļi Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-300T01) | Šajā kursā tiks apspriesti galvenie kopīgie līdzekļi Microsoft Dynamics 365 for Finance and Operations. | Pasniedzēja vadīta personiska vai tiešsaistes apmācība; izmaksas var mainīties atkarībā no reģiona un partnera. | 1 diena |
 | [Kurss MB-300T02-: pamata konfigurācija Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-300T02) | Šis kurss apspriež pamata konfigurācijas uzdevumus Microsoft Dynamics 365 for Finance and Operations. | Pasniedzēja vadīta personiska vai tiešsaistes apmācība; izmaksas var mainīties atkarībā no reģiona un partnera. | 1 diena |
@@ -93,6 +92,5 @@ Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem dom�
 | [Eksāmens MB-300: Microsoft Dynamics 365 Unified Operations Pamata](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Šis eksāmens nosaka jūsu spēju izpildīt sekojošos tehniskos uzdevumus: izmantot parasto funkcionalitāti un ieviešanas rīkus; konfigurēt drošību, procesus un opcijas; veikt datu migrāciju un pārbaudīt un atbalstīt risinājumu. | Eksāmens; izmaksas var mainīties atkarībā no reģiona |
 | [Eksāmens MB-310: Microsoft Dynamics 365 for Finance and Operations, Finanses](/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | Šis eksāmens nosaka jūsu spēju izpildīt šādus tehniskos uzdevumus: iestatīt un konfigurēt finanšu pārvaldību; pārvaldīt un lietot parastos procesus; ieviest un pārvaldīt parādus kreditoriem un debitoriem; pārvaldīt budžeta un pamatlīdzekļus. | Eksāmens; izmaksas var mainīties atkarībā no reģiona |
 | [Microsoft apstiprināts: Dynamics 365 for Finance and Operations, Finanšu un funkcionālā konsultanta partneris](https://www.microsoft.com/learning/d365-functional-consultant-financials.aspx) | Microsoft apsiprināts: Dynamics 365 for Finance and Operations, Finanšu un funkcionālie konsultanti apvieno globālās finanses un darbības un automatizē uzdevumus un darbplūsmas, racionalizē klientu pasūtījumus, pārdošanu, rēķinu izrakstīšanu un ziņošanu. | Sertificēšana, izmaksas var mainīties atkarībā no reģiona |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

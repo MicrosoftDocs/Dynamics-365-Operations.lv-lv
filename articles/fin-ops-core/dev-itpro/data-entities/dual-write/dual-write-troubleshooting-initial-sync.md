@@ -4,24 +4,17 @@ description: Šajā tēmā sniegta informācija par problēmu novēršanu, kas v
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 0fe319f4c8edd54700b2b32ef80539a8d0ff793aa815cef3813af4c63fd1b0d3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: 985825d3a205f566a94ac7532e45895e7060edf5
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736378"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416985"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Problēmu novēršana sākotnējās sinhronizēšanas laikā
 
@@ -46,7 +39,7 @@ Kad iespējojat kartēšanas veidnes, karšu statusam jābūt **Palaists**. Ja s
 
 Mēģinot palaist kartēšanu un sākotnējo sinhronizēšanu, jūs varētu saņemt šādu kļūdas ziņojumu:
 
-*(\[Nederīgs pieprasījums\], Attālais serveris atgrieza kļūdu: (400) nederīgs pieprasījums.), AX eksportējot radās kļūda*
+*(\[Nederīgs pieprasījums\], attālais serveris atgrieza kļūdu: (400) nederīgs pieprasījums.), AX eksportējot radās kļūda.*
 
 Tālāk ir sniegts tabulas pilnā kļūdas ziņojuma piemērs.
 
@@ -198,7 +191,7 @@ Ja jebkādām rindām debitora tabulā ir vērtības kolonnās **ContactPersonID
 
         ![Datu integrācijas projekts, lai atjauninātu CustomerAccount un ContactPersonId.](media/cust_selfref6.png)
 
-    2. Pievienojiet uzņēmuma kritērijus filtram Dataverse pusē, lai tiktu atjauninātas tikai tās rindas, kas atbilst filtra kritērijiem programmā Finance and Operations. Lai pievienotu filtru, atlasiet filtra pogu. Tad dialoglodziņā **Rediģēt vaicājumu** varat pievienot filtra vaicājumu, piemēram, **\_msdyn\_company\_value eq '\<guid\>'**. 
+    2. Pievienojiet uzņēmuma kritērijus filtram Dataverse pusē, lai tiktu atjauninātas tikai tās rindas, kas atbilst filtra kritērijiem programmā Finance and Operations. Lai pievienotu filtru, atlasiet filtra pogu. Tad dialoglodziņā **Rediģēt vaicājumu** varat pievienot filtra vaicājumu, piemēram, **\_msdyn\_company\_value eq '\<guid\>'**.
 
         > [PIEZĪME] Ja filtra poga nav atrodama, izveidojiet atbalsta biļeti, lai lūgtu datu integrācijas grupai iespējot filtra iespēju jūsu nomniekam.
 
@@ -210,5 +203,36 @@ Ja jebkādām rindām debitora tabulā ir vērtības kolonnās **ContactPersonID
 
 8. Programmā Finance and Operations vēlreiz iespējojiet izmaiņu izsekošanu tabulā **Debitori V3**.
 
+## <a name="initial-sync-failures-on-maps-with-more-than-10-lookup-fields"></a>Sākotnējās sinhronizācijas kļūmes kartēs ar vairāk nekā 10 uzmeklēšanas laukiem
+
+Varat saņemt šādu kļūdas ziņojumu, mēģinot palaist sākotnējās sinhronizācijas kļūmes **Debitori V3 (konti)**, **Pirkšanas pasūtījumi** kartēšanā vai jebkurā kartēšanā ar vairāk nekā 10 uzmeklēšanas laukiem:
+
+*CRMExport: pakotnes izpilde pabeigta. Kļūdas apraksts: 5 nesekmīgi mēģinājumi iegūt datus no https://xxxxx//datasets/yyyyy/tables/accounts/items?$select=accountnumber, address2_city, address2_country, ... (msdyn_company/cdm_companyid eq 'id')&$orderby=accountnumber asc.*
+
+Tā kā vaicājumā ir norādīti uzmeklēšanas ierobežojumi, sākotnējā sinhronizācija neizdodas, ja elementa kartēšanā ir vairāk par 10 uzmeklējumiem. Papildinformāciju skatiet rakstā [Saistīto tabulas ierakstu izgūšana ar vaicājumu](/powerapps/developer/common-data-service/webapi/retrieve-related-entities-query).
+
+Lai novērstu šo problēmu, veiciet tālāk minētās darbības.
+
+1. Noņemiet izvēles uzmeklēšanas laukus no dubultā ieraksta elementu kartes, lai uzmeklēšanas skaits būtu 10 vai mazāk.
+2. Saglabājiet karti un veiciet sākotnējo sinhronizāciju.
+3. Kad pirmā soļa sākotnējā sinhronizācija ir veiksmīga, pievienojiet atlikušos uzmeklēšanas laukus un noņemiet uzmeklēšanas laukus, kas ir sinhronizēti pirmajā darbībā. Pārliecinieties, ka uzmeklēšanas lauku skaits ir 10 vai mazāk. Saglabājiet karti un veiciet sākotnējo sinhronizāciju.
+4. Atkārtojiet šīs darbības, līdz visi uzmeklēšanas lauki tiek sinhronizēti.
+5. Pievienojiet kartē visus uzmeklēšanas laukus, saglabājiet karti un palaidiet karti ar **Izlaist sākotnējo sinhronizāciju**.
+
+Šis process iespējo karti tiešsaistes sinhronizācijas režīmam.
+
+## <a name="known-issue-during-initial-sync-of-party-postal-addresses-and-party-electronic-addresses"></a>Zināmā problēma puses pasta adrešu un puses elektronisko adrešu sākotnējās sinhronizēšanas laikā
+
+Mēģinot palaist puses pasta adrešu un puses elektronisko adrešu sākotnējo kodu, iespējams, saņemsit šādu kļūdas ziņojumu:
+
+*Puses numurs nav atrasts pakalpojumā Dataverse.*
+
+**DirPartyCDSEntity** Finance and Operations programmās ir ietatīts diapazons, kas filtrē puses pēc veida **Persona** un **Organizācija**. Tāpēc sākotnējā sinhronizācija **CDS puses – msdyn_parties** kartēšanā nesinhronizēs citu veidu puses, tostarp **Juridiska persona** un **Pārvaldības struktūrvienība**. Ja sākotnējā sinhronizācija tiek palaista **CDS pušu pasta adresēm (msdyn_partypostaladdresses)** vai **pušu kontaktinformācijai V3 (msdyn_partyelectronicaddresses)**, iespējams, tiks saņemts kļūdas ziņojums.
+
+Mēs strādājam pie labojuma, lai noņemtu puses veida diapazonu Finance and Operations entītijā un puses ar visiem tipiem varētu veiksmīgi sinhronizēt ar Dataverse.
+
+## <a name="are-there-any-performance-issues-while-running-initial-sync-for-customers-or-contacts-data"></a>Vai, izpildot sākotnējo sinhronizāciju debitoriem vai kontaktpersonu datiem, ir veiktspējas problēmas?
+
+Ja veicāt sākotnējo sinhronizāciju **debitoru** datiem un veicāt **klientu** kartēšanu, kā arī pēc tam veicāt sākotnējo sinhronizāciju **kontaktpersonu** datiem, ievietošanas un atjaunināšanas laikā var būt veiktspējas problēmas ar **LogisticsPostalAddress** un **LogisticsElectronicAddress** tabulām **kontakpersonu** adresēm. Tādas pašas globālās pasta adreses un elektronisko adrešu tabulas tiek izsekotas **CustCustomerV3Entity** un **VendVendorV2Entity** un duālā ieraksta mēģinājumiem, lai veidotu vairāk vaicājumu, lai rakstītu datus citā pusē. Ja jau esat izpildījis sākotnējo sinhronizāciju **debitoram**, apturiet atbilstošo karti, kad tiek izpildīta **kontaktpersonu** datu sākotnējā sinhronizācija. Veiciet to pašu ar **kreditoru** datiem. Kad sākotnējā sinhronizācija ir pabeigta, jūs varat palaist visas kartes, izlaižot sākotnējo sinhronizāciju.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

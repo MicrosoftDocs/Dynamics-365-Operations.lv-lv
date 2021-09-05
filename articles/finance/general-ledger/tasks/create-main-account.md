@@ -1,6 +1,6 @@
 ---
 title: Galvenā konta izveide
-description: Šajā uzdevuma ceļvedī aprakstīts, kā pievienot galveno kontu esošajam kontu plānam.
+description: Šajā procedūrā aprakstīts, kā pievienot galveno kontu esošajam kontu plānam.
 author: aprilolson
 ms.date: 07/11/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 66e248d029063d4a465ad789e5eb193706b8a2351bf659306050c7ac7d1c950d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cbc93e2d2aec1ffcfa755c46553022931bc24c5b
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729634"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394640"
 ---
 # <a name="create-a-main-account"></a>Galvenā konta izveide
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā uzdevuma ceļvedī aprakstīts, kā pievienot galveno kontu esošajam kontu plānam. Šajā ierakstā tiek izmantots USMF demonstrācijas uzņēmums.  
+Šajā procedūrā aprakstīts, kā pievienot galveno kontu esošajam kontu plānam. Šajā ierakstā tiek izmantots USMF demonstrācijas uzņēmums.  
 
 1. Dodieties uz **Navigācijas rūts > Moduļi > Virsgrāmata > Kontu plāns > Konti > Galvenie konti**.
 2. Klikšķiniet **Jauns**.

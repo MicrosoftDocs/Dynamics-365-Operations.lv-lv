@@ -2,34 +2,25 @@
 title: Problēmu novēršana sākotnējās iestatīšanas laikā
 description: Šajā tēmā ir sniegta informācija par problēmu novēršanu, kas var palīdzēt novērst problēmas, kas var rasties, veicot sākotnējo iestatīšanu duālā ieraksta integrācijai.
 author: RamaKrishnamoorthy
-ms.date: 03/16/2020
+ms.date: 08/10/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 7c51a92ab101937a0ccf630fa0355485e42e9a0deca36c23327d96976f5228b8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2b75155aac12d79b9d68cce3e066acaaf80d6764
+ms.sourcegitcommit: caa41c076f731f1e02586bc129b9bc15a278d280
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758196"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7380192"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Problēmu novēršana sākotnējās iestatīšanas laikā
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
-
 
 Šajā rakstā ir sniegta informācija par problēmu novēršanu duālā ieraksta integrācijai starp Finance and Operations programmām un Dataverse. Konkrēti, šajā tēmā ir sniegta informācija par problēmu novēršanu, kas var palīdzēt novērst problēmas, kas var rasties, veicot sākotnējo iestatīšanu duālā ieraksta integrācijai.
 
@@ -46,46 +37,55 @@ Kļūdas lapā **Iestatīt saiti uz Dataverse** parasti izraisa nepilnīgas iest
 
 Jums ir jābūt Azure AD nomnieka administratora akreditācijas datiem, lai saistītu Finance and Operations un Dataverse vides. Pēc vides saistīšanas lietotāji var pieteikties, izmantojot sava konta akreditācijas datus un atjauninot esošo tabulas karti.
 
-## <a name="error-when-you-open-the-link-to-dataverse-page"></a>Kļūda, atverot saiti uz Dataverse lapu
-
-**Nepieciešamie akreditācijas dati problēmas novēršanai:** Azure AD nomnieka administrators
-
-Atverot lapu **Saite uz Dataverse** programmā Finance and Operations, jūs varētu saņemt šādu kļūdas ziņojumu:
-
-*Atbildes statusa kods nenorāda uz veiksmi: 404 (nav atrasts)*
-
-Šī kļūda rodas, ja piekrišanas solis nav pabeigts. Lai pārbaudītu, vai piekrišanas darbība ir izpildīta, piesakieties portal.Azure.com, izmantojot Azure AD nomnieka administratora kontu, un skatiet, vai trešās puses programma, kurai ir ID **33976c19-1db5-4c02-810e-c243db79efde**, parādās Azure AD sarakstā **Uzņēmuma lietojumprogrammas**. Ja tā nenotiek, jums ir jāsniedz programmas piekrišana.
-
-Lai nodrošinātu programmas piekrišanu, veiciet tālāk norādītās darbības.
-
-1. Atveriet šo vietrādi URL, izmantojot administratora akreditācijas datus. Jūs virzīs uz piekrišanas sniegšanu.
-
-    <https://login.microsoftonline.com/common/oauth2/authorize?client_id=33976c19-1db5-4c02-810e-c243db79efde&response_type=code&prompt=admin_consent>
-
-2. Atlasiet **Piekrist**, lai norādītu, ka dodat piekrišanu savā nomniekā instalēt programmu, kuras ID ir **33976c19-1db5-4c02-810e-c243db79efde**.
-
-    > [!TIP]
-    > Šī programma ir nepieciešama, lai Dataverse saistītu ar Finance and Operations programmām. Ja rodas problēmas ar šo darbību, atveriet pārlūkprogrammu inkognito režīmā (pārlūkā Google Chrome) vai InPrivate režīmā (in Microsoft Edge).
-
-## <a name="verify-that-company-data-and-dual-write-teams-are-set-up-correctly-during-linking"></a>Pārbaudiet, vai uzņēmuma datu un duālā ieraksta komandas saistīšanas laikā ir pareizi iestatītas.
-
-Lai nodrošinātu, ka duālais ieraksts darbojas pareizi, uzņēmumi, kurus atlasāt konfigurēšanas laikā, tiek izveidoti Dataverse vidē. Pēc noklusējuma šie uzņēmumi ir tikai lasāmi un rekvizīts **IsDualWriteEnable** ir iestatīts uz **True**. Turklāt tiek izveidots noklusējuma piederošās biznesa vienība īpašnieks un komanda un ietverts uzņēmuma nosaukums. Pirms iespējojat kartes, pārbaudiet, vai ir norādīts noklusējuma grupas īpašnieks. Lai atrastu tabulu **Uzņēmumi (CDM\_Uzņēmums)**, veiciet tālāk norādītās darbības.
-
-1. Customer Engagement programmā atlasiet filtru augšējā labajā stūrī.
-2. Nolaižamajā sarakstā atlasiet **Uzņēmums**.
-3. Atlasiet **Palaist**, lai skatītu rezultātus.
-4. Atlasiet uzņēmumu, kas bija saistīts, konfigurējot duālo ierakstu.
-5. Pārbaudiet, vai kolonnai **Noklusējuma atbildīgā grupa** ir vērtība. Šajā attēlā lauks **Noklusējuma atbildīgā grupa** ir iestatīts uz **USMF Duālais ieraksts**.
-
-    ![Noklusējuma atbildīgās grupas pārbaude.](media/default_owning_team.png)
-
 ## <a name="find-the-limit-on-the-number-of-legal-tables-or-companies-that-can-be-linked-for-dual-write"></a>Atrodiet ierobežojumu attiecībā uz to juridisko personu vai uzņēmumu skaitu, kurus var saistīt duālajam ierakstam
 
 Mēģinot iespējot kartes, jūs varētu saņemt šādu kļūdas ziņojumu:
 
-*Duālā ieraksta kļūda - Spraudņa reģistrācija neizdevās: \[(Nevar iegūt nodalījuma karti projektam DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-.7f12cb89-1550-42e2-858e-4761fc1443ea Kļūda pārsniedz kartēšanai atļauto maksimālo nodalījumu skaitu DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea)\], Radās viena vai vairākas kļūdas*
+*Duālā ieraksta kļūda - spraudņa reģistrācija neizdevās: [(Nevar iegūt nodalījuma karti projektam DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea. Kļūda pārsniedz kartēšanai atļauto maksimālo nodalījumu skaitu DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea)], radās viena vai vairākas kļūdas.*
 
 Saistot vides, pašreizējais ierobežojums ir aptuveni 40 juridiskās personas. Šī kļūda rodas, ja mēģināt iespējot kartes un starp vidēm ir saistītas vairāk nekā 40 juridiskās personas.
 
+## <a name="connection-set-failed-while-linking-environment"></a>Saistot vidi, neizdevās iestatīt savienojumu
+
+Saistot duālās rakstīšanas vidi, darbība neizdodas ar šādu kļūdas ziņojumu:
+
+*Savienojuma kopas saglabāšana neizdevās! Vienums ar tādu pašu atslēgu jau ir pievienots.*
+
+Duālais ieraksts neatbalsta vairākas juridiskas personas/uzņēmumus ar vienādu nosaukumu. Piemēram, ja jums ir divi uzņēmumi ar nosaukumu "DAT", Dataverse saņems šo kļūdas ziņojumu.
+
+Lai atbloķētu debitoru, noņemiet Dataverse tabulā **cdm_company** esošos ierakstu dublikātus. Ari tad, ja tabulā **cdm_company** ir tukši ieraksti, noņemiet vai izlabojiet tos.
+
+## <a name="error-when-opening-the-dual-write-page-in-finance-and-operations-apps"></a>Atverot duālā ieraksta lapu Finance and Operations programmās, radās kļūda
+
+Mēģinot saistīt Dataverse vidi duālajam ierakstam, jūs varētu saņemt šādu kļūdas ziņojumu:
+
+*Atbildes statusa kods nenorāda uz veiksmi: 404 (nav atrasts)*
+
+Šī kļūda rodas, ja programmas piekrišanas solis nav pabeigts. Varat pārbaudīt, vai ir sniegta atļauja, piesakoties `portal.azure.com`, izmantojot nomnieka administratora kontu, un pārbaudot, vai trešās puses programma ar ID `33976c19-1db5-4c02-810e-c243db79efde` ir redzama AAD uzņēmuma lietojumprogrammu sarakstā. Ja tā nav redzama, tad atkārtoti izpildiet atļaujas soli, kā aprakstīts nākamajā sadaļā.
+
+### <a name="providing-app-consent"></a>Programmas atļaujas sniegšana
+
++ Atveriet tālāk minēto vietrādi URL, izmantojot administratora akreditācijas datus.
+
+    `https://login.microsoftonline.com/common/oauth2/authorize?client_id=33976c19-1db5-4c02-810e-c243db79efde&response_type=code&prompt=admin_consent`
+
++ Atlasiet **Akceptēt**, lai akceptētu. Jūs dodat atļauju instalēt programmu (ar `id=33976c19-1db5-4c02-810e-c243db79efde`) nomniekā.
++ Šī programma ir nepieciešama, lai Dataverse varētu sazināties ar Finance and Operations programmām.
+
+    ![Problēmu novēršana sākotnējās iestatīšanas laikā.](media/Initial-sync-setup-troubleshooting-1.png)
+
+> [!NOTE]
+> Ja tas nedarbojas, palaidiet vietrādi URL privātā režīmā pārlūkā Microsoft Edge vai inkognito režīmā pārlūkā Chrome.
+
+## <a name="finance-and-operations-environment-is-not-discoverable"></a>Finance and Operations vide nav atklājama
+
+Jūs varētu saņemt šādu kļūdas ziņojumu:
+
+*Finance and Operations programmu vide \*\*\* .cloudax.dynamics.com nav atklājama.*
+
+Problēmai, kad vide nav atklājama, var būt divi iemesli.
+
++ Lietotājs, kurš tiek izmantots pieteikšanās laikā, nav tas pats nomnieks, kas Finance and Operations instancei.
++ Ir dažas mantotās Finance and Operations instances, kas bija Microsoft viesotas un kam bija problēma ar atklāšanu. Lai to labotu, atjauniniet Finance and Operations instanci. Vide kļūst atklājama ar jebkādu atjauninājumu.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

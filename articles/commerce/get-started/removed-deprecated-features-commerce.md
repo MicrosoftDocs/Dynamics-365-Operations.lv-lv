@@ -2,7 +2,7 @@
 title: Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Commerce
 description: Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt no Dynamics 365 Commerce.
 author: josaw
-ms.date: 01/11/2021
+ms.date: 08/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: aa6030468259069cf031feb8df48d6710e1160f310a1d82c1034afe69249f00f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ac08a409284681ba9bcc4825b936c0330d14e04
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740411"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386745"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Commerce
 
@@ -32,6 +32,55 @@ ms.locfileid: "6740411"
 
 > [!NOTE]
 > Detalizēta informācija par Finance and Operations programmu objektiem ir pieejama tēmā [Tehniskās atsauces pārskati](/dynamics/s-e/). Varat salīdzināt dažādās šo pārskatu versijas, lai noskaidrotu, kuri objekti ir mainīti vai noņemti katrā Finance and Operations programmu versijā.
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>Noņemtie vai novecojuši līdzekļi programmas Commerce 10.0.21 laidienā
+
+[!include [banner](../includes/preview-banner.md)]
+
+### <a name="retail-sdk-distributed-by-using-lifecycle-services"></a>Retail SDK sadale, izmantojot lifecycle Services
+
+Retail SDK nosūta pakalpojumos Lifecycle Services (LCS). Šis sadales režīms ir novecojis versijā 10.0.21. Tālāk Retail SDK atsauces pakotnes, bibliotēkas un paraugi tiks publicēti GitHub publiskajos repozitojos.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Retail SDK nosūta LCS. LCS procesa pabeigšana ir nepieciešamas dažas stundas, un šis process ir jāatkārto katram atjauninājumam. Tālāk Retail SDK atsauces pakotnes, bibliotēkas un paraugi tiks publicēti GitHub publiskajos repozitojos. Paplašinājuma paraugus un atsauces pakotnes var patērēt viegli, un atjaunināšanas pabeigšana ir pēc dažām minūtēm. |
+| **Vai ir aizstāts ar citu līdzekli?**   |  [Lejupielādēt Retail SDK paraugus un atsauces pakotnes no GitHub un NuGet](../dev-itpro/retail-sdk/sdk-github.md) |
+| **Ietekmētie produkta apgabali**         | Retail SDK |
+| **Izvietošanas iespēja**              | Visu |
+| **Statuss**                         | Novecojis: No versijas 10.0.21 nosūtītais SDK, izmantojot LCS VM, tiks noņemts 2022. gada oktobrī. |
+
+### <a name="retail-deployable-package-and-combined-pos-hardware-station-and-cloud-scale-unit-installers"></a>Retail izvietojama pakotne un kombinētie POS, aparatūras stacijas un Cloud Scale Unit instalētāji
+
+Mazumtirdzniecības izvietojamās pakotnes, kas ģenerētas, izmantojot Retail SDK MSBuild, ir novecojušas versijā 10.0.21. Virzīsies uz priekšu, izmantojiet Cloud Scale Unit (CSU) pakotni Cloud Scale Unit paplašinājumiem (Commerce Runtime, kanāla datu bāze, Headless commerce API, maksājumi un Cloud Point of Sale (POS)). Izmantojiet tikai paplašinājuma instalētājus, kas ir pieejami POS, aparatūras stacijai un Cloud Scale Unit, kas tiek viesota.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Retail izvietojama pakotne ir kombinēta pakotne, kurā ir ietverta pilna paplašinājuma pakotņu un instalētāju kopa. Šī apvienotā pakotne padara izvietošanu par kompleksu, jo CSU paplašinājumi tiek izvietoti veikalos uz Cloud Scale Unit un instalētājiem. Instalēšanas programma ietver paplašinājumu un pamata preci, kas apgrūtinātu atjauninājumus. Ar katru atjauninājumu ir jāveic koda sapludināšana un pakotnes ģenerēšana. Lai šo procesu vienkāršotu, paplašinājuma pakotnes tagad tiek sadalītas komponentos viegliai izvietošanai un pārvaldībai. Izmantojot jauno pieeju, paplašinājumi un pamata produktu instalētāji ir atdalīti, un tos var neatkarīgi apkalpot un jaunināt bez koda sapludināšanas vai pārpakošanas.|
+| **Vai ir aizstāts ar citu līdzekli?**   | CSU paplašinājumi, POS paplašinājumu instalētāji, aparatūras stacijas paplašinājumu instalētāji |
+| **Ietekmētie produkta apgabali**         | Dynamics 365 Commerce paplašināšana un izvietošana |
+| **Izvietošanas iespēja**              | Visu |
+| **Statuss**                         | Novecojis: no versijas 10.0.21 izvietošanas atbalsts RetailDeployablePackage izvietošanai LCS tiks noņemts 2022. gada oktobrī. |
+
+Plašāku informāciju skatiet:
+
++ [Ģenerēt atsevišķu pakotni Commerce Cloud Scale Unit (CSU)](../dev-itpro/retail-sdk/retail-sdk-packaging.md#generate-a-separate-package-for-commerce-cloud-scale-unit-csu)
++ [Modern POS paplašinājuma pakotnes izveide](../dev-itpro/pos-extension/mpos-extension-packaging.md)
++ [POS integrācija ar jaunu aparatūras ierīci](../dev-itpro/hardware-device-extension.md)
++ Koda paraugi
+    + [Cloud Scale Unit](https://github.com/microsoft/Dynamics365Commerce.ScaleUnit)
+    + [POS, CSU un aparatūras stacija](https://github.com/microsoft/Dynamics365Commerce.InStore)
+
+### <a name="modernpossln-and-cloudpossln-in-the-retail-sdk"></a>ModernPos.Sln un CloudPOs.sln, kas atrodas Retail SDK
+
+POS paplašinājuma izstrāde, izmantojot ModernPos.sln, CloudPOs.sln, POS. Extension.csproj un POS mape ir novecojusi versijā 10.0.21. Tālāk POS paplašinājumiem izmantojiet POS neatkarīgu iepakojuma SDK.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Agrākās Retail SDK versijās, ja ir POS paplašinājumi, ir nepieciešams veikt koda sapludināšanu un pārpakošanu, lai atjauninātu uz POS jaunāko versiju. Koda sapludināšana bija laikietilpīgs jaunināšanas process, un jums repozitorijā bija jāuztur pilns Retail SDK. Jums arī bija nepieciešams kompilēt pamata POS.App projektu. Izmantojot neatkarīgu iepakojuma modeli, ir jāsaglabā tikai paplašinājums. Process, kas nodrošina jaunākās POS paplašinājumu versijas atjaunināšanu, ir tik viegls kā pakotnes versijas NuGet atjaunināšana, ko patērē projekts. Paplašinājumi var tikt izvietoti neatkarīgi, un pakalpojumi izmanto paplašinājuma instalētājus. Pamata POS var izvietot un uzturēt atsevišķi, un nav nepieciešama koda sapludināšana vai atkārtota iepakošana ar bāzes instalētāju vai kodu. |
+| **Vai ir aizstāts ar citu līdzekli?**   | [No POS neatkarīga iepakojuma SDK](../dev-itpro/pos-extension/pos-extension-getting-started.md) |
+| **Ietekmētie produkta apgabali**         | Dynamics 365 Commerce POS paplašināšana un izvietošana |
+| **Izvietošanas iespēja**              | Visu |
+| **Statuss**                         | Novecojis: no versijas 10.0.21 versijas atbalsts kombinētajām POS pakotnēm un paplašinājuma modelim, izmantojot ModernPos.Sln, CloudPOs.sln un POS.Extensons.csproj programmā Retail SDK tiks noņemts 2022. gada oktobrī. |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10017-release"></a>Noņemtie vai novecojuši līdzekļi programmas Commerce 10.0.17 laidienā
 

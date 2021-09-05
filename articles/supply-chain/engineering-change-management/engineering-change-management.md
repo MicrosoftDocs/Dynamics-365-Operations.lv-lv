@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 55952a9b1c25b806ee4a21ef1982c5b15a41adeb9c9bfdf2fccb8c9da242ffdb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb6fd57f200b101cb2df396cb10417feaa9425c1
+ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714334"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7384589"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Pārvaldīt tehnisko produktu izmaiņas
 
@@ -113,16 +113,16 @@ Lai pārskatītu ietekmētās darbības, bloķētu atlasītās darbības un nos�
     - **Skatīt darījumu** – atvērt atlasīto darījumu ierakstu.
     - **Bloķēt pasūtījumu** – šī poga ir pieejama tikai cilnē **Pārdošanas pasūtījumi**. Atlasiet to, lai bloķētu atlasīto pārdošanas pasūtījumu.
     - **Bloķēt rindu** – šī poga ir pieejama tikai cilnē **Pirkšanas pasūtījumi**. Atlasiet to, lai bloķētu atlasīto pirkšanas pasūtījumu rindu.
-    - **Paziņot atbildīgajam** - šī poga ir pieejama tikai cilnē **Pārdošanas pasūtījumi**. Atlasiet to, lai nosūtītu izmaiņu paziņojumu lietotājam, kurš ir iestatīts kā atbildīgais par atlasīto pārdošanas pasūtījumu.
-    - **Paziņot pasūtītājam** - šī poga ir pieejama tikai cilnē **Pirkšanas pasūtījumi**. Atlasiet to, lai nosūtītu izmaiņu paziņojumu lietotājam, kurš ir iestatīts kā pasūtītājs par atlasīto pirkšanas pasūtījumu.
-    - **Paziņot ražošanai** - šī poga ir pieejama tikai cilnē **Ražošanas pasūtījumi**. Atšķirībā no pārdošanas un pirkšanas pasūtījumiem ražošanas pasūtījumos nav viens lietotājs, kurš ir iestatīts kā atbildīgais par tiem. Tā vietā dažādi vadītāji vai plānotāji parasti īpašumtiesības piešķir noteiktai vietai vai noteiktai ražošanas daļai (piemēram, konkrētiem resursiem vai resursu grupām). Tāpēc, atlasot šo pogu, visi lietotāji, kas ir atbildīgi par jebkuru resursu, kas saistīts ar atlasīto ražošanas pasūtījumu, saņem izmaiņu paziņojumu.
-    - **Paziņot sagatavotājam** - šī poga ir pieejama tikai cilnē **Pirkšanas pieprasījums**. Atlasiet to, lai nosūtītu izmaiņu paziņojumu lietotājam, kurš ir iestatīts kā sagatavotājs par atlasīto pirkšanas pieprasījumu.
-    - **Paziņot pārdošanas atbildīgajam** - šī poga ir pieejama tikai cilnē **Piedāvājums**. Atlasiet to, lai nosūtītu izmaiņu paziņojumu lietotājam, kurš ir iestatīts kā atbildīgais par atlasīto piedāvājumu.
+    - **Paziņot atbildīgajam** - šī poga ir pieejama tikai cilnē **Pārdošanas pasūtījumi**. Atlasiet to, lai nosūtītu izmaiņu paziņojumu lietotājam, kurš ir iestatīts kā atbildīgais par atlasīto pārdošanas pasūtījumu. Papildinformāciju par to, kas var skatīt paziņojumus un kā, skatiet sadaļā [Transakciju izmaiņu paziņojumu pārskatīšana un apstrāde](#review-notifications).
+    - **Paziņot pasūtītājam** - šī poga ir pieejama tikai cilnē **Pirkšanas pasūtījumi**. Atlasiet to, lai nosūtītu izmaiņu paziņojumu lietotājam, kurš ir iestatīts kā pasūtītājs par atlasīto pirkšanas pasūtījumu. Papildinformāciju par to, kas var skatīt paziņojumus un kā, skatiet sadaļā [Transakciju izmaiņu paziņojumu pārskatīšana un apstrāde](#review-notifications).
+    - **Paziņot ražošanai** - šī poga ir pieejama tikai cilnē **Ražošanas pasūtījumi**. Atšķirībā no pārdošanas un pirkšanas pasūtījumiem ražošanas pasūtījumos nav viens lietotājs, kurš ir iestatīts kā atbildīgais par tiem. Tā vietā dažādi vadītāji vai plānotāji parasti īpašumtiesības piešķir noteiktai vietai vai noteiktai ražošanas daļai (piemēram, konkrētiem resursiem vai resursu grupām). Tāpēc, atlasot šo pogu, visi lietotāji, kas ir atbildīgi par jebkuru resursu, kas saistīts ar atlasīto ražošanas pasūtījumu, saņem izmaiņu paziņojumu. Papildinformāciju par to, kas var skatīt paziņojumus un kā, skatiet sadaļā [Transakciju izmaiņu paziņojumu pārskatīšana un apstrāde](#review-notifications).
+    - **Paziņot sagatavotājam** - šī poga ir pieejama tikai cilnē **Pirkšanas pieprasījums**. Atlasiet to, lai nosūtītu izmaiņu paziņojumu lietotājam, kurš ir iestatīts kā sagatavotājs par atlasīto pirkšanas pieprasījumu. Papildinformāciju par to, kas var skatīt paziņojumus un kā, skatiet sadaļā [Transakciju izmaiņu paziņojumu pārskatīšana un apstrāde](#review-notifications).
+    - **Paziņot pārdošanas atbildīgajam** - šī poga ir pieejama tikai cilnē **Piedāvājums**. Atlasiet to, lai nosūtītu izmaiņu paziņojumu lietotājam, kurš ir iestatīts kā atbildīgais par atlasīto piedāvājumu. Papildinformāciju par to, kas var skatīt paziņojumus un kā, skatiet sadaļā [Transakciju izmaiņu paziņojumu pārskatīšana un apstrāde](#review-notifications).
     - **Brāķis** – šī poga ir pieejama tikai cilnē **Krājumi**. Atlasiet to, lai brāķētu atlasīto krājumu.
     - **Skatīt vēsturi** – atvērt to darbību vēsturi, kas veiktas atlasītajam darījumam, izmantojot dialoglodziņu **Biznesa ietekme uz atvērtajiem darījumiem**. (Piemēram, vēsture parāda, vai paziņojumi ir nosūtīti vai darbības ir bloķētas.) 
     - **Apskatīt visus darījumus** – atveriet pilnu sarakstu ar visiem darījumiem, ne tikai atvērtajiem darījumiem.
 
-#### <a name="review-and-process-change-notifications-for-transactions"></a>Pārskatīt un apstrādāt darījumu izmaiņu paziņojumus
+#### <a name="review-and-process-change-notifications-for-transactions"></a><a name="review-notifications"></a>Pārskatīt un apstrādāt darījumu izmaiņu paziņojumus
 
 Jūs varat lasīt un apstrādāt saņemtos izmaiņu paziņojumus šādos veidos:
 

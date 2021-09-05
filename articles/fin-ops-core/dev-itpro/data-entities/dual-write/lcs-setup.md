@@ -8,14 +8,13 @@ audience: Application User, IT Pro
 ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 060734154607263b5fed80b21fc9355b513ea26e3b1be88498310905531dceaa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2cfe6d882c5de763164ddb4a344cba2991c88783
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729047"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416655"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Duālā ieraksta iestatīšana no Lifecycle Services
 
@@ -69,7 +68,7 @@ Lai esošajai Dataverse videi iestatītu duālo rakstīšanu, ir jāizveido Micr
 
 ## <a name="linking-mismatch"></a>Saistīšanas neatbilstība
 
-Ir iespējams, ka jūsu LCS vide ir saistīta ar vienu Dataverse instanci, kamēr duālās rakstīšanas vide ir saistīta ar citu Dataverse instanci. Šī saistīšanas neatbilstība var izraisīt neparedzētu uzvedību, un tā var beigt datu nosūtīšanu uz nepareizo vidi. Ieteicamā vide, kas tiek izmantota duālām rakstiet, ir tā, kas ir izveidota kā daļa no Power Platform integrācijas, un ilgtermiņa, tas būs vienīgais veids, kā izveidot saiti starp vidēm.
+Ir iespējams, ka jūsu LCS vide ir saistīta ar vienu Dataverse instanci, kamēr duālās rakstīšanas vide ir saistīta ar citu Dataverse instanci. Šī saistīšanas neatbilstība var izraisīt neparedzētu uzvedību, un tā var beigt datu nosūtīšanu uz nepareizo vidi. Ieteicamā vide, kas tiek izmantota duālajā rakstībā, ir tā, kas ir izveidota kā daļa no Power Platform integrācijas, un ilgtermiņa, tas būs vienīgais veids, kā izveidot saiti starp vidēm.
 
 Ja jūsu videi ir saistīšanas neatbilstība, LCS parāda brīdinājumu jūsu vides informācijas lapā, kas ir līdzīga "Microsoft ir noteikusi, ka jūsu vide ir saistīta, izmantojot duālo rakstiet ar citu adresātu, nevis to, kas ir norādīts Power Platform integrācijā, kas nav ieteicama":
 
@@ -78,6 +77,6 @@ Ja jūsu videi ir saistīšanas neatbilstība, LCS parāda brīdinājumu jūsu v
 Ja saskaraties ar šo kļūdu, pastāv divas opcijas, kas pamatotas uz jūsu vajadzībām:
 
 + [Atsaistīt un atkārtoti saistīt dubultās rakstīšanas vides (Atiestatīt vai mainīt saistīšanu)](relink-environments.md#scenario-reset-or-change-linking), kā norādīts LCS vides informācijas lapā. Šī ir ideālā opcija, jo to varat palaist bez Microsoft atbalsta.  
-+ Ja vēlaties saglabāt saiti duālā rakstīšanas ierakstā, varat lūgt Microsoft Atbalsta dienestu palīdzību mainīt Power Platform integrāciju, lai izmantotu esošo Dataverse vidi, kā dokumentēts iepriekšējā sadaļā.  
++ Ja vēlaties saglabāt saiti duālās rakstīšanas ierakstā, varat lūgt Microsoft Atbalsta dienestu palīdzību mainīt Power Platform integrāciju, lai izmantotu esošo Dataverse vidi, kā dokumentēts iepriekšējā sadaļā.  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: Iestatīt maksājumu biežumu
 description: Microsoft Dynamics 365 Human Resources izmanto maksājuma biežumu, lai aprēķinātu gada atvieglojumu algu, noteiktu atvieglojumu piemaksas summu, ko nodarbinātais maksā katram apmaksas periodam, un cik bieži pakalpojumu sniedzējiem tiek samaksāts.
-author: andreabichsel
-ms.date: 04/06/2020
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 738df6a31ec8e9f50259461cd7bbf30bd5c2b73c6f8a23ffacba53ab261a80ed
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1a11023f6b80b74ff4e4e5523550288f7c15cdb9
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732756"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423394"
 ---
 # <a name="set-up-payment-frequencies"></a>Iestatīt maksājumu biežumu
 
@@ -36,7 +36,7 @@ Pārveidošanas koeficienta lauki identificē pārveidošanas koeficientu no mak
 
 2. Atlasiet **Jauns**.
 
-3. Norādiet vērtības tālāk minētajos laukos.
+3. Norādiet vērtības tālāk minētajos laukos:
 
    | Lauks | Apraksts |
    | --- | --- |

@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 08ece85c773538283fa31ed72e8af61e2da03845fbaa4e6b0507a65626bce803
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 978d0dc28f86860335a782bd2ddaa141ed639fe5
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720530"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344062"
 ---
 # <a name="one-voucher"></a>Viens dokuments
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 
 ## <a name="what-is-one-voucher"></a>Kas ir Viens dokuments?
@@ -81,7 +82,7 @@ Pamatojoties uz sarunām ar klientiem, tālāk norādītajā sarakstā Microsoft
 
 Tālāk norādītajos scenārijos noteiktas darbības ir izpildāmas, tikai izmantojot funkcionalitāti Viens dokuments. Ja jūsu organizācijā tiek izmantots jebkurš no šiem scenārijiem, jums ir jāiespējo vairāku transakciju ievadīšana vienā dokumentā, mainot parametra **Atļaut vairākas transakcijas vienā dokumentā** iestatījumu lapā **Virsgrāmatas parametri**. Šī trūkstošā funkcionalitāte tiks nodrošināta, izmantojot citus līdzekļus vēlākos laidienos.
 
-> [!Note]
+> [!NOTE]
 > [Katrai no sekojošajām situācijām lauks **Atļaut vairākas darbības vienā dokumentā** ir jāiestata uz Jā, kopsavilkuma cilnē **Vispārīgi** lapā **Virsgrāmatas parametri**.]
 
 ### <a name="post-vendor-or-customer-payments-in-summary-form-to-a-bank-account"></a>Kreditora vai debitora maksājumu grāmatošana bankas kontā kopsavilkuma formā
@@ -115,15 +116,7 @@ Ja organizācijai ir nepieciešams skatīt visus biznesa notikuma uzskaites iera
 Ja kompensācijas periodiskais uzdevums tiek palaists no moduļa Debitoru parādi, tas izveido transakciju bilances pārvietošanai no debitora uz kreditoru. Šī scenārija nolūkos ir jāizmanto funkcionalitāte Viens dokuments, lai debitoram izsniegtu kompensāciju.
 
 ### <a name="fixed-asset-maintenance-catch-up-depreciation-split-asset-calculate-depreciation-on-disposal"></a>Pamatlīdzekļu uzturēšana: nolietojums ar atpakaļejošu datumu, līdzekļa sadalīšana, nolietojuma aprēķināšana izslēgšanas gadā
-Vairākas transakcijas vienā dokumentā izveido arī tālāk norādītās pamatlīdzekļu transakcijas.
-
-- Līdzeklim tiek veikta papildu iegāde, un tiek aprēķināts nolietojums ar atpakaļejošu datumu.
-- Tiek veikta līdzekļa sadalīšana.
-- Tiek ieslēgts parametrs norakstīšanas aprēķināšanai, un pēc tam līdzeklis tiek norakstīts.
-- Līdzekļa pakalpojuma sniegšanas datums ir pirms iegādes datuma. Tāpēc tiek grāmatota nolietojuma korekcija.
-
-> [!Note]
-> Ievadot darbības, pārliecinieties, ka visas darbības attiecas uz vienu pamatlīdzekli. Dokuments netiks grāmatots, ja tas ietver vairāk nekā vienu pamatlīdzekli, pat ja lauks **Jauns dokuments** ir iestatīts tikai uz vienu dokumenta numuru lapā **Žurnāla nosaukums** Virsgrāmatā. Ja dokumentā iekļaujat vairāk nekā vienu pamatlīdzekli, tiks parādīta ziņa **Var būt tikai viena pamatlīdzekļa darbība pēc dokumenta**, un jūs nevarēsit grāmatot dokumentu.  
+Ar versiju 10.0.21 un vēlākām versijām pamatlīdzekļu darbības nolietojumam ar atvasināto nolietojumu, pamatlīdzekļa sadalījumu un pamatlīdzekļa izslēgšanas nolietojuma aprēķinu tiek izveidotas, izmantojot dažādus dokumentu numurus.
 
 ### <a name="bills-of-exchange-and-promissory-notes"></a>Vekseļi un parādzīmes
 Vekseļiem un parādzīmēm ir nepieciešams, lai tiktu lietota funkcionalitāte Viens dokuments, jo ar transakcijām debitora vai kreditora bilance tiek pārvietota no viena Virsgrāmatas konta Debitoru parādi/Parādi kreditoriem uz citu, balstoties uz maksājuma stāvokli.

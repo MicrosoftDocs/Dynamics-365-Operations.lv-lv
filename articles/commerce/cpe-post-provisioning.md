@@ -2,7 +2,7 @@
 title: Dynamics 365 Commerce novērtēšanas vides konfigurēšana
 description: Šajā tēmā paskaidrots, kā konfigurēt Microsoft Dynamics 365 Commerce novērtējuma vidi pēc tās nodrošināšanas.
 author: psimolin
-ms.date: 07/16/2020
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 87933c57ee5f626b224b1edc92da13906e3edc2613f61c5b4a917d8cc5d1dcd3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2e98ea9e98380ee63f6cc1eb6dfc7b84d38c7dbb
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742444"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416483"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce novērtēšanas vides konfigurēšana
 
@@ -128,7 +128,7 @@ Lai pakalpojumā Commerce palaistu pilnu datu sinhronizāciju, veiciet Commerce 
 Lai vietnē veiktu pārbaudes transakcijas, varat izmantot tālāk minēto pārbaudes kredītkartes informāciju.
 
 - **Kartes numurs:** 4111-1111-1111-1111
-- **Beigu datums:** 10/20
+- **Beigu datums:** 10/30
 - **Kartes verificēšanas vērtības (CVV) kods:** 737
 
 > [!IMPORTANT]
@@ -139,6 +139,9 @@ Lai vietnē veiktu pārbaudes transakcijas, varat izmantot tālāk minēto pārb
 Kad nodrošināšanas un konfigurēšanas darbības ir pabeigtas, varat sākt izmantot novērtējuma vidi. Izmantojiet Commerce vietnes veidotāja URL, lai dotos uz autorēšanas pieredzi. Izmantojiet Commerce vietnes URL, lai dotos uz mazumtirdzniecības klienta vietnes pieredzi.
 
 Lai konfigurētu neobligātos līdzekļus savai Commerce novērtējuma videi, skatiet [Commerce novērtējuma vides neobligāto līdzekļu konfigurācija](cpe-optional-features.md).
+
+> [!NOTE]
+> Commerce novērtēšanas vidēs ir iepriekš ielādēts Azure Active Directory (Azure AD) “no uzņēmuma patērētājam” (Business-to-Consumer — B2C) nomnieks demonstrācijas nolūkiem. Paša Azure AD B2C nomnieka konfigurēšana nav nepieciešama novērtēšanas vidēm. Tomēr, ja jūs konfigurējat novērtēšanas vidi, lai izmantotu savu Azure AD B2C nomnieku, lūdzu, pievienojiet ``https://login.commerce.dynamics.com/_msdyn365/authresp`` kā atbildes URL Azure AD B2C programmā, izmantojot Azure portālu.
 
 ## <a name="additional-resources"></a>Papildu resursi
 
@@ -159,6 +162,8 @@ Lai konfigurētu neobligātos līdzekļus savai Commerce novērtējuma videi, sk
 [Microsoft Azure portāls](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce tīmekļa vietne](https://aka.ms/Dynamics365CommerceWebsite)
+
+[B2C nomnieka iestatīšana programmā Commerce](set-up-B2C-tenant.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

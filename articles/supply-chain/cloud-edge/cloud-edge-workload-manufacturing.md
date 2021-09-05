@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 958c7a8853e5ef0d7fb211225796d7808e4e7ae1afaf861cc6746157225c0dbb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 77e0a0e0eb47c331b2b219dc523ecd2c706a4638
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721467"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345303"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Ražošanas izpildes darba slodzes mākoņa un malas mēroga vienībām
 
@@ -44,7 +44,7 @@ Ražošanas izpildē mēroga vienības nodrošina šādas iespējas:
 
 Kā parādīts sekojošajā attēlā, ražošanas cikls ir sadalīts trīs fāzēs: *Plānošana*, *Izpilde* un *Pabeigšana*.
 
-[![Ražošanas izpildes fāzes, ja tiek izmantota viena vide](media/mes-phases.png "Ražošanas izpildes fāzes, ja tiek izmantota viena vide."](media/mes-phases-large.png)
+[![Ražošanas izpildes fāzes, kad tiek izmantota viena vide](media/mes-phases.png "Ražošanas izpildes fāzes, kad tiek izmantotas viena vide.")](media/mes-phases-large.png)
 
 Fāzē _Plānošana_ ietver produkta definīciju, plānošanu, pasūtījuma izveidi un plānošanu un izlaišanu. Izlaišanas darbība norāda pāreju no fāzes _Plānošana_ uz fāzi _Izpilde_. Kad ražošanas pasūtījums tiek izlaists, ražošanas pasūtījuma darbi būs redzami ražotnē un gatavi izpildei.
 
@@ -54,7 +54,7 @@ Kad ražošanas darbs ir atzīmēts kā pabeigts, tas tiek pārvietots no fāzes
 
 Kā redzams ilustrācijā, kad tiek izmantotas mēroga vienības, fāze _Izpilde_ tiek sadalīta kā atsevišķa darba slodze.
 
-[![Ražošanas izpildes fāzes, ja tiek izmantotas mēroga vienības](media/mes-phases-workloads.png "Ražošanas izpildes fāzes, ja tiek izmantotas mēroga vienības."](media/mes-phases-workloads-large.png)
+[![Ražošanas izpildes fāzes, kad tiek izmantotas mēroga vienības](media/mes-phases-workloads.png "Ražošanas izpildes fāzes, kad tiek izmantotas mēroga vienības.")](media/mes-phases-workloads-large.png)
 
 Tagad modelis pāriet no viena gadījuma instalācijas modeļa uz modeli, kura pamatā ir centrmezgls un mēroga vienības. Fāzes _Plānošana_ un _Pabeigšana_ tiek izpildītas kā biroja operācijas, un ražošanas izpildes darba slodze darbojas uz mēroga vienībām. Dati tiek pārsūtīti asinhroni starp centrmezglu un mēroga vienībām.
 

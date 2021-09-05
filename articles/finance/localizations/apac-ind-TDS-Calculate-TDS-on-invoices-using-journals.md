@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: cfe473f39ee729957924fd7c161aed01138cd507eea56766af35177891676f65
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fde81efed6b8a72e2149056f0196e4f9d60e59f2
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778897"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345523"
 ---
 # <a name="calculate-tds-on-invoices-using-journals"></a>Aprēķināt TDS rēķinos, izmantojot žurnālus
 
@@ -65,6 +65,6 @@ Sāciet, atverot **Virsgrāmatas žurnāla** lapu (**Virsgrāmata > Žurnāla ie
 
 8. Ievadiet pārējo nepieciešamo informāciju. Apstipriniet un grāmatojiet šo žurnālu. TDS summa, kas ir aprēķināta pirkšanas rēķiniem, tiek grāmatota kreditora kontā. TDS summa, kas tiek aprēķināta pārdošanas rēķinos, tiek grāmatota debitoru kontā, kas katrai TDS nodokļu kodam ir definēts TDS grupā. TDS nodokļu kodu kreditoru vai debitoru konti ir definēti **Ieturētā nodokļa kodu** lapā.
 
-9. Atlasiet **Grāmatoto ieturēto nodokli**, lai atvērtu **Ieturētā** **nodokļa** **darījumu** lapu. Laukā **Vērtība** tiek parādīta kopējā procentuālā vērtība, kas tiek izmantota darījuma TDS aprēķinam.
+9. Atlasiet **Grāmatoto ieturēto nodokli**, lai atvērtu **Ieturētā nodokļa darījumu** lapu. Laukā **Vērtība** tiek parādīta kopējā procentuālā vērtība, kas tiek izmantota darījuma TDS aprēķinam.
 
    Lauki cilnēs **Pārskats**, **Vispārīgi** un **Summa** ieturētā nodokļa darījuma lapā parāda aprēķināto TDS summu un pielāgoto TDS summas informāciju par katru TDS nodokļa kodu, kas pievienots TDS grupai.

@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f2144d2ca9b2f5e06f0a21f6f97b7ca6440ffe8ce300bdbf329279505059459
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 849b1202ea2c0080f5fc5bacba1f95180fc4008a
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720602"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343660"
 ---
 # <a name="budgeting-overview"></a>Budžeta veidošanas pārskats
 
@@ -38,7 +38,7 @@ Ir vairākas metodes, kā izveidot budžeta reģistra ierakstus.
 
 -   Manuāli ievadiet dokumenta informāciju lapā **Budžeta reģistra ieraksti**.
 -   Izmantojiet Microsoft Excel veidni, ko var atvērt, noklikšķinot uz pogas **Atvērt programmā Excel** lapā **Budžeta reģistra ieraksti**.
--   Izmantojiet datu elementu **Budžeta kontu ieraksti** sadaļā Datu pārvaldība, lai importētu budžeta reģistra ierakstus. Ja sistēmā ir jāimportē daudzi budžeta kontu ieraksti, ir jāapsver iespēja izmantot šo metodi un ieslēgt parametru **No kopas atkarīga** **apstrāde**.
+-   Izmantojiet datu elementu **Budžeta kontu ieraksti** sadaļā Datu pārvaldība, lai importētu budžeta reģistra ierakstus. Ja sistēmā ir jāimportē daudzi budžeta kontu ieraksti, ir jāapsver iespēja izmantot šo metodi un ieslēgt parametru **No kopas atkarīga apstrāde**.
 -   Ja uzņēmums izmanto Budžeta plānošanas funkcionalitāti, lai sagatavotu budžeta datus, var izmantot periodisko procesu **Budžeta reģistra ieraksta ģenerēšana**.
 
 Budžeta reģistra ieraksts tiek uzskatīts par pabeigtu, kad budžeta bilances ir atjauninātas. Lapā **Budžeta reģistra ieraksti** noklikšķiniet uz **Atjaunināt budžeta bilances** atlasītajam budžeta reģistra ierakstam vai vairākiem ierakstiem. Kad tiek atjauninātas budžeta bilances, budžeta reģistra ieraksta statuss mainās uz **Pabeigts**. Pabeigtu budžeta reģistra ierakstu nevar atkārtoti atvērt, lai veiktu labojumus. Tādēļ, ja jāpielāgo budžeta dati, ir jāizveido jauns budžeta reģistra ieraksts nevis jālabo pabeigtā budžeta reģistra ieraksta dati.

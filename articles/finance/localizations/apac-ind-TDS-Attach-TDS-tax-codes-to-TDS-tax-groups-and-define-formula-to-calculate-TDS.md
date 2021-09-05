@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 81aac53cca91a75cde811c314bd6f7039852d32505fe6540921e17f3d1bbc7ad
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 98d6ceb794716f39c6ae47b300bdb7618a8e688b
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739314"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345232"
 ---
 # <a name="attach-tds-tax-codes-to-tds-tax-groups-and-define-the-formula-for-calculating-tds"></a>Pievienojiet TDS nodokļu kodus TDS nodokļu grupām un definējiet TDS aprēķināšanas formulu
 
@@ -55,7 +55,7 @@ Sekojiet šiem soļiem, lai iestatītu TDS nodokļu grupu, tai pievienotus TDS n
     > [!NOTE]
     > Lauku **Apliekamās bāzes** nevar iestatīt uz **Bez bruto summas** TDS nodokļa kodam, kam ir prioritātes ID **1**.
 
-12. TDS aprēķina pamatā ir formula, kas laukā **Aprēķina izteiksme** noteikta katram nodokļu kodam, kas ir piesaistīts TDS nodokļu grupai. Atlasiet plus zīmes (**+**), mīnus zīmes (**-**), reizināšanai zīmes (**\**_) vai dalījuma zīmes (_*/**) pogu, lai ievadītu aprēķina izteiksmi atlasītam TDS nodokļa kodam laukā **Aprēķina izteiksme**.
+12. TDS aprēķina pamatā ir formula, kas laukā **Aprēķina izteiksme** noteikta katram nodokļu kodam, kas ir piesaistīts TDS nodokļu grupai. Atlasiet pluszīmi (+), mīnuszīmi (-), reizināšanai zīmi (\*) vai dalīšanas zīmi (/) lai ievadītu aprēķina izteiksmi atlasītam TDS nodokļa kodam laukā **Aprēķina izteiksme**.
 
     > [!NOTE]
     > TDS nodokļa kodam, kura prioritātes ID ir **1**, nevar definēt aprēķina izteiksmi.

@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 76e7c0be047decb40019be207a735be27f79d78b4cde9321e8c3728bdbd45e35
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b337e80db6d47354dc187477832add370a164172
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760542"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402205"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-supply-chain-management"></a>Apmācības katalogs ieviešanas projektu pārvaldniekiem, kas strādā ar Dynamics 365 Supply Chain Management
 
@@ -27,8 +27,8 @@ Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem dom�
 
 ## <a name="get-started"></a>Sākt darbu<a name="get-started"></a>
 
-| Saturs | Apraksts  | Formāts  | Ilgums    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|-----------|
+| Saturs | Apraksts | Formāts | Ilgums |
+|---------|-------------|--------|--------|
 | [Uzziniet Microsoft Dynamics 365 un Power Platformbiznesa vērtību](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Vai vēlaties uzzināt par biznesa lietotnēm? Varbūt nezināt, kā sākt darbu ar Microsoft Dynamics 365 un Power Platform pieteikumiem? Uzziniet, kā biznesa lietojumprogrammu pilnvaras var palīdzēt pārveidot jūsu biznesu. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 7 stundas |
 | [Dynamics 365 un Power Platform pamati](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Vai vēlaties uzzināt par biznesa lietotnēm? Sāciet ar šo mācīšanās ceļu, lai uzzinātu, kā tiek izmantotas Dynamics 365 lietojumprogrammas. Uzzini par mākoņa koncepcijām, Power Platformun par to, kā uzsākt darbu ar Dynamics 365 lietojumprogrammām. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 5.5 stundas |
 | [Darba sākšana ar Finance and Operations programmām](/learn/paths/get-started-finance-operations/) | Uzziniet, kā Finance and Operations programmas atbalsta uzņēmumus, lai pārvaldītu to globālās finanšu sistēmas, darbības biznesa procesus un racionalizētas piegādes ķēdes, lai dotu iespēju cilvēkiem pieņemt ātrus, informētus lēmumus. Kā pirmo soli karjerā, strādājot ar programmām Finance and Operations, jums ir jāiepazīstas ar tā iespējām un funkcionalitāti neatkarīgi no jūsu vēlamās lomas. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 2 stundas |
@@ -38,8 +38,8 @@ Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem dom�
 
 ## <a name="core-platform-knowledge"></a>Zināšanas par galveno platformu<a name="core-platform-knowledge"></a>
 
-| Saturs  | Apraksts  | Formāts   | Ilgums    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|---------------------------------------------------------------------------|
+| Saturs | Apraksts | Formāts | Ilgums |
+|---------|-------------|--------|--------|
 | [Izmantojiet Lifecycle Services, lai izstrādātu un plānotu Finance and Operations programmu ieviešanu](/learn/paths/use-lcs-design-plan-implementation-finance-operations/) | Lifecycle Services (LCS) ir sadarbības darbvieta, ko klienti un to partneri izmanto, lai pārvaldītu Finance and Operations programmas no iepriekšējas pārdošanas līdz ieviešanas stadijai un visbeidzot – ražošanas videi. Tas nodrošina kontrolsarakstus un rīkus, kas palīdz pārvaldīt projektu, ieskaitot iepriekšējas izveides metodoloģijas, lai palīdzētu ieviest un regulāri atjaunināt pakalpojumus. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 2 stundas |
 | [Konfigurējiet savu organizāciju Finance and Operations programmās](/learn/paths/configure-your-organization-finance-ops/) | Kā funkcionālam konsultantam, kas strādā ar Finance and Operations programmām, jums ir jāsaprot, kā iestatīt organizāciju savam debitoram. Šis apmācības ceļš citu uzdevumu starpā parāda, kā iestatīt juridiskās personas, ieviest drošības iestatījumus, personalizēt lietotāja interfeisu lietotājiem, izstrādāt un veidot mobilās programmas, un ieviest kopējās integrācijas. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 12 stundas |
 | [Migrēt datus un sākt strādāt ar Finance and Operations programmām](/learn/paths/migrate-data-go-live-finance-operations/) | Kā funkcionālajam konsultantam jums ir jāsaprot, kā sagatavot jūsu klienta datus migrācijai, strādāt ar datu pārvaldību un veikt lietotāja pieņemšanas pārbaudi, lai sāktu strādāt ar Finance and Operations programmām. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 4 stundas |
@@ -69,8 +69,8 @@ Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem dom�
 
 ## <a name="supply-chain-management"></a>Piegādes ķēdes pārvaldība<a name="supply-chain-management"></a>
 
-| Saturs  | Apraksts  | Formāts | Ilgums    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|---------------------------------------------------------------------------|
+| Saturs | Apraksts | Formāts | Ilgums |
+|---------|-------------|--------|--------|
 | [Konfigurējiet un pārvaldiet preces un krājumus Dynamics 365 Supply Chain Management](/learn/paths/configure-manage-products-inventory-dyn365-supply-chain-mgmt/) | Preču informācija ir piegādes ķēžu un mazumtirdzniecības programmu pamats visās nozarēs. Dažādos biznesa risinājumu moduļos preču informācija un konfigurācija ir vajadzīga, lai pārvaldītu biznesa procesus, kas ir saistīti ar īpašām precēm, preču saimēm, materiālu komplektiem un preču kategorijām. Krājumu pārskati parāda, cik daudz krājumu ir dažādos veidos, un tas izskaidros, kā efektīvāk veikt krājumu ieguldījumus. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 6 stundas |
 | [Konfigurējiet un pārvaldiet sagādes un piegādātājus Dynamics 365 Supply Chain Management](/learn/paths/configure-manage-procurement-vendors-dyn365-supply-chain-mgmt/) | Piegādātāju atrašana un darbs ar tiem, produktu iepirkumu un preču un pakalpojumu kvalitātes nodrošināšanas process ir svarīgi faktori, kas ietekmē uzņēmuma reputāciju un panākumus. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 6 stundas |
 | [Konfigurējiet un strādājiet ar noliktavas pārvaldību Dynamics 365 for Finance and Operations](/learn/paths/configure-work-warehouse-management-d365-finance-ops/) | Noliktavas pārvaldība Dynamics 365 for Finance and Operations palīdz optimizēt un racionalizēt noliktavas procesus atbilstoši jūsu individuālajām vajadzībām un sniedz ieskatu jūsu krājumos, kā arī sniedz rīkus, kas palīdz palielināt klientu apmierinātību un samazināt izmaksas. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 5 stundas |
@@ -86,8 +86,8 @@ Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem dom�
 
 ## <a name="manufacturing"></a>Ražošana<a name="manufacturing"></a>
 
-| Saturs  | Apraksts  | Formāts    | Ilgums    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|---------------------------------------------------------------------------|
+| Saturs | Apraksts | Formāts | Ilgums |
+|---------|-------------|--------|--------|
 | [Konfigurējiet un izmantojiet diskrēto ražošanu Dynamics 365 Supply Chain Management](/learn/paths/configure-use-discrete-manufacturing-dyn365-supply-chain-mgmt/) | Ja uzņēmums ražo tikai vienkāršas preces, ražošanu var plānot manuāli, izmantojot pareizā materiālu komplekta (MK) daļas, kas pienāk ražošanas stāvā pareizā laikā un piemērotā resursa veidā. Kā ražošanas funkcionālajam konsultantam jums ir jāzina, kā konfigurēt Dynamics 365 for Finance and Operations diskrētai ražošanai, lai jūsu klients varētu veikt un kontrolēt ražošanas ciklu. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 9 stundas |
 | [Konfigurējiet un izmantojiet lean manufacturing Dynamics 365 Supply Chain Management](/learn/paths/configure-use-lean-manufacturing-dyn365-supply-chain-mgmt/) | Lean Manufacturing ir nepārtraukta uzlabojuma ceļojums. Mērķis ir radīt tieši to, ko klients vēlas, kad viņš to vēlas, un darīt to ekonomiski. Jūs varat izmantot Lean manufacturing apvienotā (jaukta režīma) ražošanas vidē, kurā ir apvienotas dažādas piegādes, ražošanas un avotu izmantošanas stratēģijas. Šīs stratēģijas iekļauj ražošanas pasūtījumus, partiju pasūtījumus apstrādes rūpniecības nozarēm, pirkšanas pasūtījumus un pārsūtīšanas pasūtījumus. Lean manufacturing arhitektūra Dynamics 365 for Finance and Operations sastāv no ražošanas plūsmām, aktivitātēm un Kanban nosacījumiem. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 6.5 stundas |
 | [Konfigurējiet un izmantojiet apstrādes ražošanu Dynamics 365 Supply Chain Management](/learn/paths/configure-use-process-manufacturing-dyn365-supply-chain-mgmt/) | Apstrādes ražošana ir saistīta ar formulām un ražošanas receptēm, atšķirībā no atsevišķas ražošanas, kas izmanto diskrētas vienības un materiālu komplektus. Apstrādes ražošana tiek izmantota ražošanas vidēs, kur ražošana ir pabeigta sērijveida vai daļēji nepārtrauktos procesos. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 6 stundas |
@@ -98,13 +98,12 @@ Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem dom�
 
 ## <a name="exams"></a>Eksāmeni<a name="exams"></a>
 
-| Saturs  | Apraksts  | Formāts   |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------------------------------------------------------------|
+| Saturs | Apraksts | Formāts |
+|---------|-------------|--------|
 | [Microsoft apstiprināts: Dynamics 365 for Finance and Operations, Supply Chain Management funkcionālā konsultanta partneris](https://www.microsoft.com/learning/d365-functional-consultant-supply-chain-management.aspx) | Microsoft Apsiprināts: Dynamics 365 for Finance and Operations, Supply Chain Management funkcionālie konsultanti racionalizē izmaksu uzskaiti, krājumu pārvaldību, vispārējo plānošanu un noliktavas vadību saviem klientiem. | Sertificēšana, izmaksas var mainīties atkarībā no reģiona |
 | [Microsoft apstiprināts: Dynamics 365 for Finance and Operations, Ražošanas funkcionālā konsultanta partneris](https://www.microsoft.com/learning/d365-functional-consultant-manufacturing.aspx) | Microsoft apstiprināts: Dynamics 365 for Finance and Operations, Ražošanas funkcionālie konsultanti integrē digitālās un fiziskās sistēmas; uzlabo pārredzamību, ražošanas efektivitāti un elastību; pazemina izmaksas saviem klientiem. | Sertificēšana, izmaksas var mainīties atkarībā no reģiona |
 | [Eksāmens MB-300: Microsoft Dynamics 365 Unified Operations Pamata](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Šis eksāmens nosaka jūsu spēju izpildīt sekojošos tehniskos uzdevumus: izmantot parasto funkcionalitāti un ieviešanas rīkus; konfigurēt drošību, procesus un opcijas; veikt datu migrāciju un pārbaudīt un atbalstīt risinājumu. | Eksāmens; izmaksas var mainīties atkarībā no reģiona |
 | [Eksāmens MB-320: Microsoft Dynamics 365 for Finance and Operations, Ražošana](/learn/certifications/exams/mb-320?wt.mc_id=learningredirect_certs-web-wwl) | Šis eksāmens nosaka jūsu spēju veikt sekojošos tehniskos uzdevumus: iestatīt un konfigurēt ražošanu; izveidot un pārvaldīt ražošanas un Lean pasūtījumus; un izveidot, apstrādāt un pārvaldīt ražošanas partijas pasūtījumus. | Eksāmens; izmaksas var mainīties atkarībā no reģiona |
 | [Eksāmens MB-330: Microsoft Dynamics 365 for Finance and Operations, Supply Chain Management](/learn/certifications/exams/mb-330?wt.mc_id=learningredirect_certs-web-wwl) | Šis eksāmens nosaka jūsu spēju veikt šādus tehniskos uzdevumus: ieviest produktu informācijas pārvaldību; ieviest krājumu pārvaldību; ieviest un pārvaldīt piegādes ķēdes procesus; ieviest noliktavas pārvaldības un transportēšanas pārvaldību un veikt biznesa procesus. | Eksāmens; izmaksas var mainīties atkarībā no reģiona |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

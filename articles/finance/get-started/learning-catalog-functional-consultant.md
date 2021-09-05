@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 5a0ea3efc08ac9305887727c57a3821c694d6b25d3355edb6a60a6348967842c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8b2efa7021c302e771f36179be690fc1c8653a07
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763098"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402377"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-functional-consultants"></a>Dynamics 365 Finance funkcionālo konsultantu apmācības katalogs
 
@@ -34,6 +34,7 @@ Funkcionāliem konsultantiem mūsu darba uzdevuma analīzes pētījumi parādīj
 | [Uzziniet Microsoft Dynamics 365 un Power Platformbiznesa vērtību](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Vai vēlaties uzzināt par biznesa lietotnēm? Varbūt nezināt, kā sākt darbu ar Microsoft Dynamics 365 un Power Platform pieteikumiem? Uzziniet, kā biznesa lietojumprogrammu pilnvaras var palīdzēt pārveidot jūsu biznesu. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 7 stundas |
 | [Dynamics 365 un Power Platform pamati](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Vai vēlaties uzzināt par biznesa lietotnēm? Sāciet ar šo mācīšanās ceļu, lai uzzinātu, kā tiek izmantotas Dynamics 365 lietojumprogrammas. Uzzini par mākoņa koncepcijām, Power Platformun par to, kā uzsākt darbu ar Dynamics 365 lietojumprogrammām. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 5.5 stundas |
 | [Darba sākšana ar Finance and Operations programmām](/learn/paths/get-started-finance-operations/) | Uzziniet, kā Finance and Operations programmas atbalsta uzņēmumus, lai pārvaldītu to globālās finanšu sistēmas, darbības biznesa procesus un racionalizētas piegādes ķēdes, lai dotu iespēju cilvēkiem pieņemt ātrus, informētus lēmumus. Kā pirmo soli karjerā, strādājot ar programmām Finance and Operations, jums ir jāiepazīstas ar tā iespējām un funkcionalitāti neatkarīgi no jūsu vēlamās lomas. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 2 stundas |
+| [Darba sākšana ar Dynamics 365 Intelligent Order Management](/learn/modules/get-started-intelligent-order-management/) | Ar Dynamics 365 Intelligent Order Management debitori var pārvaldīt pasūtījumu instrumentāciju, lai izpildītu. Šīs iespējas ļauj organizācijām instrumentēt pasūtījumu plūsmas dažādās platformās un programmās. | Brīva režīma, paša kontrolēts tiešsaistes mācību modulis | 30 minūtes |
 | [Pirms iegādes](/dynamics365/unified-operations/fin-and-ops/get-started/before-you-buy) | Iepazīstieties ar detalizētiem norādījumiem, kas noderēs neatkarīgi no tā, vai joprojām izvērtējat Finance and Operations, vai arī esat gatavs veikt pirkumu. | Dokumentācija | |
 | [Nodošanas izpildei plāns](/dynamics365/release-plans/) | Uzziniet par jaunākajām Dynamics 365 iespējām un uzlabojumiem | Dokumentācija | |
 
@@ -41,6 +42,7 @@ Funkcionāliem konsultantiem mūsu darba uzdevuma analīzes pētījumi parādīj
 
 | Saturs  | Apraksts | Formāts  | Ilgums    |
 |----------|-------------|---------|-----------|
+| [Izmantot Success by Design for Dynamics 365 risinājumus](/learn/paths/use-success-design/) | FastTrack for Dynamics 365 ir paredzēts, lai palīdzētu debitoriem un partneriem sasniegt sekmīgu Dynamics 365 risinājumu izvietošanu. Lai piegādātu šo pakalpojumu, ir jāizmanto risinājuma arhitekti Success by Design. Šajā apmācības ceļā apskatīti Success by Design jēdzieni. | Brīva režīma, paša kontrolēts tiešsaistes mācību modulis | 12 stundas |
 | [Izmantojiet Lifecycle Services, lai izstrādātu un plānotu Finance and Operations programmu ieviešanu](/learn/paths/use-lcs-design-plan-implementation-finance-operations/) | Lifecycle Services (LCS) ir sadarbības darbvieta, ko klienti un to partneri izmanto, lai pārvaldītu Finance and Operations programmas no iepriekšējas pārdošanas līdz ieviešanas stadijai un visbeidzot – ražošanas videi. Tas nodrošina kontrolsarakstus un rīkus, kas palīdz pārvaldīt projektu, ieskaitot iepriekšējas izveides metodoloģijas, lai palīdzētu ieviest un regulāri atjaunināt pakalpojumus. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 2 stundas |
 | [Konfigurējiet savu organizāciju Finance and Operations programmās](/learn/paths/configure-your-organization-finance-ops/) | Kā funkcionālam konsultantam, kas strādā ar Finance and Operations programmām, jums ir jāsaprot, kā iestatīt organizāciju savam debitoram. Šis apmācības ceļš citu uzdevumu starpā parāda, kā iestatīt juridiskās personas, ieviest drošības iestatījumus, personalizēt lietotāja interfeisu lietotājiem, izstrādāt un veidot mobilās programmas, un ieviest kopējās integrācijas. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 12 stundas |
 | [Migrēt datus un sākt strādāt ar Finance and Operations programmām](/learn/paths/migrate-data-go-live-finance-operations/) | Kā funkcionālajam konsultantam jums ir jāsaprot, kā sagatavot jūsu klienta datus migrācijai, strādāt ar datu pārvaldību un veikt lietotāja pieņemšanas pārbaudi, lai sāktu strādāt ar Finance and Operations programmām. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 4 stundas |
@@ -102,6 +104,5 @@ Funkcionāliem konsultantiem mūsu darba uzdevuma analīzes pētījumi parādīj
 | [Microsoft apstiprināts: Dynamics 365 for Finance and Operations, Finanšu un funkcionālā konsultanta partneris](https://www.microsoft.com/learning/d365-functional-consultant-financials.aspx) | Microsoft apsiprināts: Dynamics 365 for Finance and Operations, Finanšu un funkcionālie konsultanti apvieno globālās finanses un darbības un automatizē uzdevumus un darbplūsmas, racionalizē klientu pasūtījumus, pārdošanu, rēķinu izrakstīšanu un ziņošanu. | Sertificēšana, izmaksas var mainīties atkarībā no reģiona |
 | [Eksāmens MB-300: Microsoft Dynamics 365 Unified Operations Pamata](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Šis eksāmens nosaka jūsu spēju izpildīt sekojošos tehniskos uzdevumus: izmantot parasto funkcionalitāti un ieviešanas rīkus; konfigurēt drošību, procesus un opcijas; veikt datu migrāciju un pārbaudīt un atbalstīt risinājumu. | Eksāmens; izmaksas var mainīties atkarībā no reģiona |
 | [Eksāmens MB-310: Microsoft Dynamics 365 for Finance and Operations, Finanses](/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | Šis eksāmens nosaka jūsu spēju izpildīt šādus tehniskos uzdevumus: iestatīt un konfigurēt finanšu pārvaldību; pārvaldīt un lietot parastos procesus; ieviest un pārvaldīt parādus kreditoriem un debitoriem; pārvaldīt budžeta un pamatlīdzekļus. | Eksāmens; izmaksas var mainīties atkarībā no reģiona |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

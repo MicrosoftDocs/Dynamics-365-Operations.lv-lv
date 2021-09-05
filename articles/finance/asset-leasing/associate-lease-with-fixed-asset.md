@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 4811c65a32e27668d1247086d962366eb8369d5e9fe28a105e1d6a020bca325d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bd55d433b0961b8b210b9c28d7340ff880635a85
+ms.sourcegitcommit: 3af457fc216bd0020843291ca57fd379acb53c96
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737753"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "7392478"
 ---
 # <a name="associate-fixed-assets-with-leases"></a>Pamatlīdzekļu saistīšana ar nomu
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Tēmā ir paskaidrots, kā esošu pamatlīdzekli saistīt ar jaunu nomu. Saistot pamatlīdzekli ar nomu, līdzekļa lietošanas tiesību (LLT) vērtība sākotnējā atzīšanā būs pamatlīdzekļa iegādes izmaksas.
 
@@ -49,8 +50,18 @@ Pēc sākotnējās atzīšanas žurnāla ieraksta grāmatošanas darījums tiek 
 
 Tagad pamatlīdzeklim var aprēķināt nolietojumu, izmantojot standarta nolietojuma funkcionalitāti Pamatlīdzekļos. Papildinformāciju par nolietojum skatiet [Nolietojuma metodes un konvencijas](../fixed-assets/depreciation-methods-conventions.md).
 
+Kad noma ir saistīta ar pamatlīdzekli, lauks **Lietošanas ilgums** pamatlīdzekļu grāmatā tiks atjaunināts, lai saskaņotu ar mazāko vērtību no šādiem kritērijiem: 
+
+ - Līdzekļa lietderīgās lietošanas laiks
+ - Nomas termiņš no saistītās nomas grāmatas
+
+Ja nomas grāmatas **Īpašumtiesību pārsūtīšanas lauks** ir iestatīts uz **Jā**, vērtība laukā **Lietošanas ilgums** vienmēr būs pamatlīdzekļa lietošanas ilgums. 
+ 
+Lietošanas ilgums tiks atjaunināts katru reizi, kad tiek koriģēta noma, lai nodrošinātu, ka līdzekļa lietošanas tiesības tiek noņemtas pēc nomas perioda tāpat kā tās tiek noņemtas līdzekļu nomā.
+
 > [!NOTE]
 > Ja saistāt pamatlīdzekli ar nomu, Līdzekļa nomā pogas **Līdzekļa nolietojums** un **Nomas vērtības samazinājums** ir atspējotas. Varat skatīt līdzekļa nolietojumu un nomas vērtības samazinājuma darījumus no Pamatlīdzekļiem. Poga **Līdzekļu darījumi**, kas atver pieprasījuma formu, arī ir atspējota. Arī pieprasījumu **Līdzekļa darījumi** varat atvērt Pamatlīdzekļos.  
 
+Lapas **Pamatlīdzekļi** un **Pamatlīdzekļu grāmata** attelos nomas ID, kas ir saistīts ar pamatlīdzekli. Ja pamatlīdzeklis ir saistīts ar nomu, nomas ID un nomas apraksts tiks parādīts kopsavilkuma cilnē **Informācija par nomu** lapā **Pamatlīdzekļi**. amatlīdzekļu grāmatām, kas ir saistītas ar nomas grāmatām, lauki **Nomas ID**, **Nomas apraksts** un **Grāmatas veids** parādīs informāciju par atlasīto pamatlīdzekļu grāmatu kopsavilkuma cilnē **Nomas informācija**, lai norādītu, ka tā ir saistīta ar nomas grāmatu.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

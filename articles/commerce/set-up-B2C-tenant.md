@@ -2,7 +2,7 @@
 title: B2C nomnieka iestatīšana programmā Commerce
 description: Šajā tēmā aprakstīts, kā iestatīt Azure Active Directory (Azure AD) biznesa-patērētāju (B2C) nomniekus lietotāja vietas autentifikācijai sistēmā Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 03/17/2021
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 13dad5f3b82914514688bfa0c7e4f82b8b85b8dd73458618d2fcfddb169927c9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 107e06d44d159152b260897dfba456a525f19e27
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772256"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344502"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>B2C nomnieka iestatīšana programmā Commerce
 
@@ -34,6 +34,9 @@ Dynamics 365 Commerce izmanto Azure AD B2C, lai atbalstītu lietotāja akreditā
  
  > [!NOTE]
  > Commerce novērtēšanas vidēs ir iepriekš ielādēts Azure AD B2C nomnieks demonstrācijas nolūkiem. Paša Azure AD B2C nomnieka ielādēšana, izmantojot tālāk aprakstītās darbības, nav nepieciešama novērtēšanas vidēm.
+
+> [!TIP]
+> Jūs varat turpmāk aizsargāt savus vietas lietotājus un uzlabot savu Azure AD B2C nomnieku drošību ar Azure AD identitātes aizsardzību un nosacījuma piekļuvi. Lai pārskatītu Azure AD B2C Premium P1 un Premium P2 nomniekiem pieejamās iespējas, skatiet [Azure AD B2C identitātes aizsardzība un nosacījuma piekļuve](/azure/active-directory-b2c/conditional-access-identity-protection-overview).
 
 ## <a name="create-or-link-to-an-existing-aad-b2c-tenant-in-the-azure-portal"></a>Izveidot vai saistīt ar esošo AAD B2C nomnieku Azure portālā
 

@@ -2,7 +2,7 @@
 title: Commerce kanālu finanšu integrācijas iestatīšana
 description: Šajā tēmā ir sniegti norādījumi par finanšu integrācijas funkcionalitātes iestatīšanu Commerce kanāliem.
 author: josaw
-ms.date: 02/01/2019
+ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,28 +14,26 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: fb48eb93d8cf4f26174441de65c0b105c5e8774c2030e844ec7bd1352bff64b0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 38ad2cc3dc7e511ac6e2ac9484d10ebd2d1d425d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719900"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343317"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Commerce kanālu finanšu integrācijas iestatīšana
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="introduction"></a>Ievads
-
 Šajā tēmā ir sniegti norādījumi par finanšu integrācijas funkcionalitātes iestatīšanu Commerce kanāliem. Plašāku informāciju par finanšu integrāciju skatiet tēmā [Apskats par Commerce kanālu finanšu integrāciju](fiscal-integration-for-retail-channel.md).
 
 Finanšu integrācijas iestatīšanas procedūra ietver šādus uzdevumus:
 
-1. Konfigurēt finanšu savienotājus, kas apzīmē finanšu ierīces vai pakalpojumus, kurus izmanto finanšu reģistrācijas nolūkiem, piemēram, fiskālos printerus.
-2. Konfigurēt dokumentu nodrošinātājus, kas izveido finanšu dokumentus, kurus finanšu savienotāji reģistrēs finanšu ierīcēs vai pakalpojumos.
-3. Konfigurēt finanšu reģistrācijas procesu, kas nosaka finanšu reģistrācijas darbību secību un finanšu savienotājus un finanšu dokumentu nodrošinātājus, ko izmanto katrai darbībai.
-4. Piešķirt finanšu reģistrācijas procesus pārdošanas punkta (POS) funkcionalitātes profiliem.
-5. Piešķirt savienotāja tehniskos profilus aparatūras profiliem.
+- Konfigurēt finanšu savienotājus, kas apzīmē finanšu ierīces vai pakalpojumus, kurus izmanto finanšu reģistrācijas nolūkiem, piemēram, fiskālos printerus.
+- Konfigurēt dokumentu nodrošinātājus, kas izveido finanšu dokumentus, kurus finanšu savienotāji reģistrēs finanšu ierīcēs vai pakalpojumos.
+- Konfigurēt finanšu reģistrācijas procesu, kas nosaka finanšu reģistrācijas darbību secību un finanšu savienotājus un finanšu dokumentu nodrošinātājus, ko izmanto katrai darbībai.
+- Piešķirt finanšu reģistrācijas procesus pārdošanas punkta (POS) funkcionalitātes profiliem.
+- Piešķirt savienotāja tehniskos profilus aparatūras profiliem.
 
 ## <a name="set-up-a-fiscal-registration-process"></a>Finanšu reģistrācijas procesa iestatīšana
 
@@ -49,12 +47,12 @@ Pirms sākat lietot finanšu integrācijas funkcionalitāti, būtu jākonfigurē
         - Finanšu savienotāja grupas numurs
         - Reģistrācijas procesa numurs
 
-    2. Lapā **Commerce parametri** definējiet numuru sēriju finanšu funkcionālā profila numuram.
+    1. Lapā **Commerce parametri** definējiet numuru sēriju finanšu funkcionālā profila numuram.
 
     > [!NOTE]
     > Numuru sērijas nav obligātas. Numurus visiem finanšu integrācijas elementiem var izveidot, izmantojot numuru sērijas vai manuāli.
 
-2. Augšupielādējiet finanšu savienotāju un finanšu dokumentu nodrošinātāju konfigurācijas.
+1. Augšupielādējiet finanšu savienotāju un finanšu dokumentu nodrošinātāju konfigurācijas.
 
     Finanšu dokumentu nodrošinātājs ir atbildīgs par finanšu dokumentu sagatavošanu, kuri norāda transakcijas un notikumus, kas reģistrēti POS, tādā formātā, kas tiek izmantots arī mijiedarbībai ar finanšu ierīci vai pakalpojumu. Piemēram, finanšu dokumentu nodrošinātājs var izveidot finanšu dokumenta attēlojumu XML formātā.
 
@@ -65,22 +63,22 @@ Pirms sākat lietot finanšu integrācijas funkcionalitāti, būtu jākonfigurē
         > [!TIP]
         > Atlasot **Skatīt**, varat skatīt visus funkcionālos un tehniskos profilus, kas ir saistīti ar pašreizējo finanšu savienotāju.
 
-    2. Lapā **Finanšu dokumentu nodrošinātāji** (**Retail un Commerce \> Kanāla iestatīšana \> Finanšu integrācija \> Finanšu dokumentu nodrošinātāji**) augšupielādējiet XML konfigurāciju katrai ierīcei vai pakalpojumam, ko plānojat izmantot.
+    1. Lapā **Finanšu dokumentu nodrošinātāji** (**Retail un Commerce \> Kanāla iestatīšana \> Finanšu integrācija \> Finanšu dokumentu nodrošinātāji**) augšupielādējiet XML konfigurāciju katrai ierīcei vai pakalpojumam, ko plānojat izmantot.
 
         > [!TIP]
         > Atlasot **Skatīt**, varat skatīt visus funkcionālos profilus, kas ir saistīti ar pašreizējo finanšu dokumentu nodrošinātāju.
 
-    Finanšu savienotāju un finanšu dokumentu nodrošinātāju konfigurāciju piemērus skatiet tēmā [Finanšu integrācijas paraugi komplektā Retail SDK](fiscal-integration-for-retail-channel.md#fiscal-integration-samples-in-the-retail-sdk).
+    Finanšu savienotāju un finanšu dokumentu nodrošinātāju konfigurāciju piemērus skatiet tēmā [Finanšu integrācijas paraugi komplektā Commerce SDK](fiscal-integration-for-retail-channel.md#fiscal-integration-samples-in-the-commerce-sdk).
 
     > [!NOTE]
     > Datu kartēšana tiek uzskatīta par daļu no finanšu dokumentu nodrošinātāja. Lai iestatītu citus datu kartējumus tam pašam savienotājam (piemēram, ja pastāv valstij raksturīgi noteikumi), jums vajadzētu izveidot dažādus finanšu dokumentu nodrošinātājus.
 
-3. Izveidojiet savienotāja funkcionālos profilus un savienotāja tehniskos profilus.
+1. Izveidojiet savienotāja funkcionālos profilus un savienotāja tehniskos profilus.
 
     1. Lapā **Savienotāja funkcionālie profili** (**Retail un Commerce \> Kanāla iestatīšana \> Finanšu integrācija \> Savienotāja funkcionālie profili**) izveidojiet savienotāja funkcionālo profilu katrai finanšu savienotāja un ar šo finanšu savienotāju saistītā finanšu dokumentu nodrošinātāja kombinācijai.
 
         1. Atlasiet savienotāja nosaukumu.
-        2. Atlasiet kādu dokumentu nodrošinātāju.
+        1. Atlasiet kādu dokumentu nodrošinātāju.
 
         Varat mainīt datu kartēšanas parametrus savienotāja funkcionālajā profilā. Lai atjaunotu noklusētos parametrus, kas definēti finanšu dokumentu nodrošinātāja konfigurācijā, atlasiet **Atjaunināt**.
 
@@ -95,39 +93,39 @@ Pirms sākat lietot finanšu integrācijas funkcionalitāti, būtu jākonfigurē
         > [!NOTE]
         > Savienotāja funkcionālie profili attiecas tikai uz konkrētu uzņēmumu. Ja plānojat izmantot to pašu finanšu savienotāja un finanšu dokumentu nodrošinātāja kombināciju dažādos uzņēmumos, ir jāizveido savienotāja funkcionālais profils katram uzņēmumam.
 
-    2. Lapā **Savienotāja tehniskie profili** (**Retail un Commerce \> Kanāla iestatīšana \> Finanšu integrācija \> Savienotāja tehniskie profili**) izveidojiet savienotāja tehnisko profilu katram finanšu savienotājam.
+    1. Lapā **Savienotāja tehniskie profili** (**Retail un Commerce \> Kanāla iestatīšana \> Finanšu integrācija \> Savienotāja tehniskie profili**) izveidojiet savienotāja tehnisko profilu katram finanšu savienotājam.
 
         1. Atlasiet savienotāja nosaukumu.
-        2. Atlasiet kādu savienotāja tipu. Ierīcēm, kas ir savienotas ar aparatūras staciju, atlasiet vienumu **Vietējais**.
+        1. Atlasiet kādu savienotāja tipu. Ierīcēm, kas ir savienotas ar aparatūras staciju, atlasiet vienumu **Vietējais**.
 
             > [!NOTE]
             > Pašlaik tiek atbalstīti tikai vietējie savienotāji.
 
         Parametrus savienotāja tehniskā profila cilnēs **Ierīces** un **Iestatījumi** var mainīt. Lai atjaunotu noklusētos parametrus, kas definēti finanšu savienotāja konfigurācijā, atlasiet **Atjaunināt**. Ielādējot XML konfigurācijas jaunu versiju, tiek parādīts ziņojums, ka pašreizējais finanšu savienotājs vai finanšu dokumentu nodrošinātājs jau tiek izmantots. Šī procedūra nepārlabo manuālās izmaiņas, kas iepriekš veiktas savienotāja funkcionālajos profilos un savienotāja tehniskajos profilos. Lai lietotu noklusējuma parametru kopu no jaunas konfigurācijas, atlasiet vienumu **Atjaunināt** lapā **Savienotāja funkcionālie profili** vai lapā **Savienotāja tehniskie profili**.
 
-4. Izveidojiet finanšu savienotāju grupas.
+1. Izveidojiet finanšu savienotāju grupas.
 
     Savienotāju grupā ir apvienoti tādu finanšu savienotāju funkcionālie profili, kuri veic identiskas funkcijas un finanšu reģistrācijas procesā tiek izmantoti tajā pašā darbībā. Piemēram, ja vairākus fiskālo printeru modeļus var izmantot veikalā, finanšu savienotājus šiem fiskālajiem printeriem var apvienot finanšu savienotāju grupā.
 
     1. Lapā **Finanšu savienotāju grupa** (**Retail un Commerce \> Kanāla iestatīšana \> Finanšu integrācija \> Finanšu savienotāju grupas**) izveidojiet jaunu finanšu savienotāju grupu.
-    2. Pievienojiet funkcionālos profilus savienotāju grupai. Cilnē **Funkcionālie profili** atlasiet vienumu **Pievienot** un atlasiet kādu profila numuru. Katram finanšu savienotājam noteiktā savienotāju grupā var būt tikai viens funkcionālais profils.
-    3. Lai pārtrauktu attiecīgā funkcionālā profila izmantošanu, opcijai **Atspējot** iestatiet vienumu **Jā**. Šīs izmaiņas ietekmē tikai pašreizējo savienotāju grupu. Varat turpināt tā paša funkcionālā profila izmantošanu citās savienotāju grupās.
+    1. Pievienojiet funkcionālos profilus savienotāju grupai. Cilnē **Funkcionālie profili** atlasiet vienumu **Pievienot** un atlasiet kādu profila numuru. Katram finanšu savienotājam noteiktā savienotāju grupā var būt tikai viens funkcionālais profils.
+    1. Lai pārtrauktu attiecīgā funkcionālā profila izmantošanu, opcijai **Atspējot** iestatiet vienumu **Jā**. Šīs izmaiņas ietekmē tikai pašreizējo savienotāju grupu. Varat turpināt tā paša funkcionālā profila izmantošanu citās savienotāju grupās.
 
-5. Izveidojiet finanšu reģistrācijas procesu.
+1. Izveidojiet finanšu reģistrācijas procesu.
 
     Finanšu reģistrācijas procesu nosaka reģistrācijas darbību secība un katrā darbībā izmantotā savienotāju grupa.
 
     1. Lapā **Finanšu reģistrācijas process** (**Retail un Commerce \> Kanāla iestatīšana \> Finanšu integrācija \> Finanšu reģistrācijas procesi**) izveidojiet jaunu ierakstu katram unikālajam finanšu reģistrācijas procesam.
-    2. Pievienojiet procesam reģistrācijas darbības.
+    1. Pievienojiet procesam reģistrācijas darbības.
 
         1. Atlasiet **Pievienot**.
-        2. Atlasiet finanšu savienotāja tipu.
-        3. Laukā **Grupas numurs** atlasiet atbilstošo finanšu savienotāju grupu.
+        1. Atlasiet finanšu savienotāja tipu.
+        1. Laukā **Grupas numurs** atlasiet atbilstošo finanšu savienotāju grupu.
 
-6. Piešķiriet finanšu reģistrācijas procesa elementus POS profiliem.
+1. Piešķiriet finanšu reģistrācijas procesa elementus POS profiliem.
 
     1. Lapā **POS funkcionalitātes profili** (**Retail un Commerce \> Kanāla iestatīšana \> POS iestatīšana \> POS profili \> Funkcionalitātes profili**) piešķiriet finanšu reģistrācijas procesu POS funkcionalitātes profilam. Atlasiet **Rediģēt** un pēc tam cilnes **Finanšu reģistrācijas process** laukā **Procesa numurs** atlasiet procesu.
-    2. Lapā **POS aparatūras profils** (**Retail un Commerce \> Kanāla iestatīšana \> POS iestatīšana \> POS profili \> Aparatūras profili**) piešķiriet savienotāja tehnisko profilu aparatūras profilam. Atlasiet **Rediģēt**, pievienojiet rindu cilnē **Finanšu perifērijas ierīces** un pēc tam laukā **Profila numurs** atlasiet savienotāja tehnisko profilu.
+    1. Lapā **POS aparatūras profils** (**Retail un Commerce \> Kanāla iestatīšana \> POS iestatīšana \> POS profili \> Aparatūras profili**) piešķiriet savienotāja tehnisko profilu aparatūras profilam. Atlasiet **Rediģēt**, pievienojiet rindu cilnē **Finanšu perifērijas ierīces** un pēc tam laukā **Profila numurs** atlasiet savienotāja tehnisko profilu.
 
     > [!NOTE]
     > Tam pašam aparatūras profilam varat pievienot vairākus tehniskos profilus. Tomēr aparatūras profilam vai POS funkcionalitātes profilam jābūt tikai vienam krustpunktam ar jebkuru finanšu savienotāju grupu.
@@ -139,7 +137,7 @@ Pirms sākat lietot finanšu integrācijas funkcionalitāti, būtu jākonfigurē
     - Finanšu dokumentu nodrošinātājs izmanto datu kartēšanas iestatījumus no finanšu dokumentu nodrošinātāja konfigurācijas, lai pārveidotu transakciju/notikumu datus, piemēram, nodokļus un maksājumus, kamēr tiek izveidots finanšu dokuments.
     - Ja finanšu dokumentu nodrošinātājs izveido finanšu dokumentu, finanšu savienotājs var to nosūtīt uz finanšu ierīci tādu, kāds tas ir, vai parsēt to un pārveidot par ierīces lietojumprogrammas interfeisa (API) komandu sēriju atkarībā no tā, kā tiek apstrādāti sakari.
 
-7. Lapā **Finanšu reģistrācijas process** (**Retail un Commerce \> Kanāla iestatīšana \> Finanšu integrācija \> Finanšu reģistrācijas procesi**) atlasiet vienumu **Validēt**, lai validētu finanšu reģistrācijas procesu.
+1. Lapā **Finanšu reģistrācijas process** (**Retail un Commerce \> Kanāla iestatīšana \> Finanšu integrācija \> Finanšu reģistrācijas procesi**) atlasiet vienumu **Validēt**, lai validētu finanšu reģistrācijas procesu.
 
     Ieteicams palaist šī tipa pārbaudes šādos gadījumos:
 
@@ -147,7 +145,7 @@ Pirms sākat lietot finanšu integrācijas funkcionalitāti, būtu jākonfigurē
     - Pēc tam, kad veiktas esošā finanšu reģistrācijas procesa izmaiņas, un šīs izmaiņas var izraisīt cita finanšu savienotāja atlasi izpildes laikā (piemēram, mainot savienotāju grupu finanšu reģistrācijas procesa darbībai, iespējojot savienotāja funkcionālo profilu savienotāja grupā vai pievienojot jaunu savienotāja funkcionālo profilu savienotāja grupai).
     - Pēc izmaiņu veikšanas saistībā ar savienotāja tehnisko profilu piešķiri aparatūras profiliem.
 
-8. Lapā **Sadales grafiks** palaidiet darbus **1070** un **1090**, lai pārsūtītu datus uz kanāla datu bāzi.
+1. Lapā **Sadales grafiks** palaidiet darbus **1070** un **1090**, lai pārsūtītu datus uz kanāla datu bāzi.
 
 ## <a name="set-up-fiscal-texts-for-discounts"></a>Atlaižu finanšu teksta iestatīšana
 
@@ -156,11 +154,11 @@ Dažos gadījumos uz finanšu dokumenta jādrukā īpašs teksts, ja tiek piemē
 - Manuālām atlaidēm, kuras tiek piemērotas POS, jāiestata finanšu teksts informācijas kodam vai informācijas kodu grupai, kas POS funkcionalitātes profilā ir norādīti kā informācijas kods **Preces atlaide**.
 
     1. Lapā **Finanšu savienotāju grupa** atlasiet **Finanšu dokumenta teksts**.
-    2. Cilnē **Informācijas kodi** atlasiet **Pievienot** un atlasiet informācijas kodu vai informācijas kodu grupu.
-    3. Vienumam **Informācijas koda numurs** atlasiet vērtību.
-    4. Laukā **Apakškoda numurs** atlasiet vērtību, ja apakškods ir nepieciešams atlasītajam informācijas kodam.
-    5. Laukā **Finanšu dokumenta teksts** norādiet finanšu tekstu, kas jādrukā uz finanšu dokumenta.
-    6. Iestatiet opcijai **Izdrukāt lietotāja ievadi finanšu dokumentā** vienumu **Jā**, lai pārlabotu tekstu uz finanšu dokumenta ar informāciju, ko lietotājs manuāli ievada POS. Šī opcija attiecas tikai uz informācijas kodiem, kuriem ir ievades veids **Teksts**.
+    1. Cilnē **Informācijas kodi** atlasiet **Pievienot** un atlasiet informācijas kodu vai informācijas kodu grupu.
+    1. Laukā **Informācijas koda numurs** atlasiet vērtību.
+    1. Laukā **Apakškoda numurs** atlasiet vērtību, ja apakškods ir nepieciešams atlasītajam informācijas kodam.
+    1. Laukā **Finanšu dokumenta teksts** norādiet finanšu tekstu, kas jādrukā uz finanšu dokumenta.
+    1. Iestatiet opcijai **Izdrukāt lietotāja ievadi finanšu dokumentā** vienumu **Jā**, lai pārlabotu tekstu uz finanšu dokumenta ar informāciju, ko lietotājs manuāli ievada POS. Šī opcija attiecas tikai uz informācijas kodiem, kuriem ir ievades veids **Teksts**.
 
     > [!NOTE]
     > Var norādīt finanšu tekstu vairākiem informācijas kodiem, lai nodrošinātu atbalstu scenārijiem, kuru ietvaros tiek izmantotas informācijas kodu grupas, saistīti informācijas kodi un aktivizēti informācijas kodi. Šajos scenārijos finanšu dokumentā būs ietverti finanšu teksti no visiem informācijas kodiem, kas ir saistīti ar transakcijas rindu, kurai tika piemērota atlaide.
@@ -168,8 +166,8 @@ Dažos gadījumos uz finanšu dokumenta jādrukā īpašs teksts, ja tiek piemē
 - Kanālam raksturīgu atlaižu gadījumā ir jādefinē finanšu teksts atlaides ID.
 
     1. Lapā **Finanšu savienotāju grupa** atlasiet **Finanšu dokumenta teksts**.
-    2. Cilnē **Atlaides** atlasiet **Pievienot** un atlasiet atlaides ID.
-    3. Laukā **Finanšu dokumenta teksts** norādiet finanšu tekstu, kas jādrukā uz finanšu dokumenta.
+    1. Cilnē **Atlaides** atlasiet **Pievienot** un atlasiet atlaides ID.
+    1. Laukā **Finanšu dokumenta teksts** norādiet finanšu tekstu, kas jādrukā uz finanšu dokumenta.
 
     > [!NOTE]
     > Ja tai pašai transakcijas rindai tiek piemērotas vairākas atlaides, finanšu dokumentā būs ietverti finanšu teksti no visām atlaidēm, kuras ir saistītas ar attiecīgo transakcijas rindu.
@@ -187,8 +185,8 @@ Kļūdu apstrādes opcijas, kas pieejamas finanšu integrācijā, tiek iestatīt
     > [!NOTE]
     > Ja ir iespējots parametrs **Kļūdas gadījumā turpināt**, parametrs **Atļaut izlaist** un parametrs **Atļaut atzīmēt kā reģistrētu** automātiski tiek atspējots.
 
-2. Opcijām **Izlaist** un **Atzīmēt kā reģistrētu** kļūdu apstrādes dialoglodziņā ir nepieciešama atļauja **Atļaut izlaist reģistrāciju vai atzīmēt kā reģistrētu**. Tādēļ lapā **Atļauju grupas** (**Retail un Commerce \> Darbinieki \> Atļauju grupas**) ir jāiespējo atļauja **Atļaut izlaist reģistrāciju vai atzīmēt kā reģistrētu**.
-3. Opcijas **Izlaist** un **Atzīmēt kā reģistrētu** ļauj operatoriem ievadīt papildu informāciju, kad finanšu reģistrācija neizdodas. Lai šī funkcionalitāte būtu pieejama, ir jānorāda informācijas kodi **Izlaist** un **Atzīmēt kā reģistrētu** finanšu savienotāju grupā. Pēc tam operatoru ievadītā informācija tiek saglabāta kā informācijas koda transakcija, kas saistīta ar finanšu transakciju. Plašāku informāciju par informācijas kodiem skatiet tēmā [Informācijas kodi un informācijas kodu grupas](../info-codes-retail.md).
+1. Opcijām **Izlaist** un **Atzīmēt kā reģistrētu** kļūdu apstrādes dialoglodziņā ir nepieciešama atļauja **Atļaut izlaist reģistrāciju vai atzīmēt kā reģistrētu**. Tādēļ lapā **Atļauju grupas** (**Retail un Commerce \> Darbinieki \> Atļauju grupas**) ir jāiespējo atļauja **Atļaut izlaist reģistrāciju vai atzīmēt kā reģistrētu**.
+1. Opcijas **Izlaist** un **Atzīmēt kā reģistrētu** ļauj operatoriem ievadīt papildu informāciju, kad finanšu reģistrācija neizdodas. Lai šī funkcionalitāte būtu pieejama, ir jānorāda informācijas kodi **Izlaist** un **Atzīmēt kā reģistrētu** finanšu savienotāju grupā. Pēc tam operatoru ievadītā informācija tiek saglabāta kā informācijas koda transakcija, kas saistīta ar finanšu transakciju. Plašāku informāciju par informācijas kodiem skatiet tēmā [Informācijas kodi un informācijas kodu grupas](../info-codes-retail.md).
 
     > [!NOTE]
     > Trigera funkcija **Prece** netiek atbalstīta informācijas kodiem, kas tiek izmantoti opcijām **Izlaist** un **Atzīmēt kā reģistrētu** finanšu savienotāju grupās.
@@ -201,7 +199,7 @@ Kļūdu apstrādes opcijas, kas pieejamas finanšu integrācijā, tiek iestatīt
     > - **Finanšu dokuments** — obligāts dokuments, kas ir veiksmīgi jāreģistrē (piemēram, finanšu dokuments).
     > - **Ar finansēm nesaistīts dokuments** — transakcijas vai notikuma papildu dokuments (piemēram, dāvanu karte).
 
-4. Ja operatoram ir jāspēj turpināt pašreizējās operācijas apstrādāšanu (piemēram, transakcijas izveidošanu vai pabeigšanu) arī pēc darbspējas pārbaudes kļūda rašanās, iespējojiet atļauju **Atļaut izlaist darbspējas pārbaudes kļūdu** lapā **Atļauju grupas** (**Retail un Commerce \> Darbinieki \> Atļauju grupas**). Plašāku informāciju par darbspējas pārbaudes procedūru skatiet rakstā [Finanšu reģistrācijas darbspējas pārbaude](fiscal-integration-for-retail-channel.md#fiscal-registration-health-check).
+1. Ja operatoram ir jāspēj turpināt pašreizējās operācijas apstrādāšanu (piemēram, transakcijas izveidošanu vai pabeigšanu) arī pēc darbspējas pārbaudes kļūda rašanās, iespējojiet atļauju **Atļaut izlaist darbspējas pārbaudes kļūdu** lapā **Atļauju grupas** (**Retail un Commerce \> Darbinieki \> Atļauju grupas**). Plašāku informāciju par darbspējas pārbaudes procedūru skatiet rakstā [Finanšu reģistrācijas darbspējas pārbaude](fiscal-integration-for-retail-channel.md#fiscal-registration-health-check).
 
 ## <a name="set-up-fiscal-xz-reports-from-the-pos"></a>POS finanšu X/Z pārskatu iestatīšana
 
@@ -210,9 +208,9 @@ Lai iespējotu finanšu X/Z pārskatu izpildi no POS, ir jāpievieno jaunas poga
 - Lapā **Pogu rindas** sekojiet instrukcijām sadaļā [POS operāciju pievienošana POS izkārtojumam, izmantojot Pogu rindas veidotāju](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters), lai instalētu veidotāju un atjauninātu POS izkārtojumu.
 
     1. Atlasiet atjaunināmo izkārtojumu. 
-    2. Pievienojiet jaunu pogu un iestatiet **Drukāt finanšu X** pogas rekvizītu.
-    3. Pievienojiet jaunu pogu un iestatiet **Drukāt finanšu Z** pogas rekvizītu.
-    4. Lapā **Sadales grafiks** palaidiet darbu **1090**, lai pārsūtītu izmaiņas uz kanāla datu bāzi.
+    1. Pievienojiet jaunu pogu un iestatiet **Drukāt finanšu X** pogas rekvizītu.
+    1. Pievienojiet jaunu pogu un iestatiet **Drukāt finanšu Z** pogas rekvizītu.
+    1. Lapā **Sadales grafiks** palaidiet darbu **1090**, lai pārsūtītu izmaiņas uz kanāla datu bāzi.
 
 ## <a name="enable-manual-execution-of-postponed-fiscal-registration"></a>Atliktas finanšu reģistrācijas manuālas izpildes iespējošana
 
@@ -221,8 +219,8 @@ Lai iespējotu atliktas finanšu reģistrācijas manuālu izpildīšanu, POS izk
 - Lapā **Pogu rindas** sekojiet instrukcijām sadaļā [POS operāciju pievienošana POS izkārtojumam, izmantojot Pogu rindas veidotāju](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters), lai instalētu veidotāju un atjauninātu POS izkārtojumu.
 
     1. Atlasiet atjaunināmo izkārtojumu.
-    2. Pievienojiet jaunu pogu un iestatiet pogas rekvizītu **Pabeigt finanšu reģistrācijas procesu**.
-    3. Lapā **Sadales grafiks** palaidiet darbu **1090**, lai jūsu veiktās izmaiņas pārsūtītu uz kanāla datu bāzi.
+    1. Pievienojiet jaunu pogu un iestatiet pogas rekvizītu **Pabeigt finanšu reģistrācijas procesu**.
+    1. Lapā **Sadales grafiks** palaidiet darbu **1090**, lai jūsu veiktās izmaiņas pārsūtītu uz kanāla datu bāzi.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

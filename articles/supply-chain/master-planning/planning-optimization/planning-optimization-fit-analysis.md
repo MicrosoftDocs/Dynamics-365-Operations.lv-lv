@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 52048ea6cced6f670faf13ef07f1288183e6d9b67a016608030f9e192a98faa7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd0fdd677824db823f9bc42f0ad1bdd90cf3b16d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751102"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344982"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Plānošanas optimizācijas atbilstības analīze
 
@@ -51,6 +51,9 @@ Lai skatītu plānošanas optimizācijas atbilstības analīzes rezultātus, dod
 ## <a name="overview-of-possible-results-from-the-fit-analysis"></a>Pārskats par iespējamiem saderības analīzes rezultātiem
 
 Tabulā ir redzami dažādi rezultāti, kas var tikt parādīti pēc saderības analīzes. Numura zīmes (_\#_) tiks aizstātas ar skaitli, kas norāda to ierakstu skaitu, kuriem ir uzskaitītā problēma. Atbalstītie vai priekšskatījuma līdzekļi ir pieejami versijā 10.0.9 vai jaunākā versijā (ja vien augstākas versijas numurs nav norādīts kolonnā Paredzamā pieejamība).
+
+> [!NOTE]
+> Dažas neatbilstības nevar identificēt, izmantojot plānošanas optimizācijas atbilstības analīzi. Papildinformāciju skatiet sadaļā [Atšķirības starp vispārējo plānošanu un plānošanas optimizāciju](planning-optimization-differences-with-built-in.md).
 
 | Funkcija | Uzskaitītā problēma | Paskaidrojums | Paredzamā pieejamība |
 | --- | --- | --- | --- |
@@ -105,6 +108,10 @@ Tabulā ir redzami dažādi rezultāti, kas var tikt parādīti pēc saderības 
 [Plānošanas optimizācijas apskats](planning-optimization-overview.md)
 
 [Darba sākšana ar plānošanas optimizāciju](get-started.md)
+
+[Atšķirības starp vispārējo plānošanu un plānošanas optimizāciju](planning-optimization-differences-with-built-in.md)
+
+[Parametri, kas netiek izmantoti plānošanas optimizācijai](not-used-parameters.md)
 
 [Plāna vēstures un plānošanas žurnālu skatīšana](plan-history-logs.md)
 

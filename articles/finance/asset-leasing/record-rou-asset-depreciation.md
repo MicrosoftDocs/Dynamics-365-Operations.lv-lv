@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 40af957582f9cdf4e1caf3ab03ead41f2823b42d59d427c7e7623cd8688e1827
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 02364a0871e9a54f52c7c526cd1897165d52ec68
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778366"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345374"
 ---
 # <a name="record-right-of-use-asset-depreciation-preview"></a>Līdzekļa lietošanas tiesību nolietojuma reģistrēšana (priekšskatījums)
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Nomām, kas tiek atzītas organizācijas bilancē, lietošanas tiesību LLT tiek amortizēts reizi mēnesī. Šajā tēmā skaidrots, kā izveidot žurnāla ierakstu amortizācijai. Amortizācija debetē izdevumu Virsgrāmatas kontu un kreditē uzkrātā nolietojuma Virsgrāmatas kontu, pamatojoties uz jūsu grāmatošanas profila iestatījumiem un nomas tipu. Šos ierakstus var izveidot katrai nomai, vai arī tos var izveidot vairākām nomām, izmantojot žurnāla pakešuzdevuma funkcionalitāti.
 
@@ -36,6 +38,9 @@ Nomām, kas tiek atzītas organizācijas bilancē, lietošanas tiesību LLT tiek
 
 2. Atlasiet nolietojuma periodu un pēc tam atlasiet **Izveidot žurnālu**. Tiek parādīts ziņojums, ka tika izveidots žurnāls, kas tiks izmantots nolietojuma reģistrēšanai.
 3. Atlasiet **Žurnāli \> Līdzekļu nomas žurnāli**, lai atvērtu lapu **Līdzekļu nomas žurnāls**, kur varat skatīt izveidoto nolietojuma izdevumu žurnāla ierakstu.
+
+   Sistēma bloķē noteiktus finanšu laukus, lai novērstu novirzes starp darbībām un grafikiem. Dažos bloķētos laukos ir iekļauts: **Konts**, **Summa**, **Finanšu dimensijas**, **Valūta** un **Darbības tips**. Turklāt nevarēsit pievienot vai dzēst žurnāla ierakstu rindas jebkurās Pamatlīdzekļu izlaižot žurnāla ierakstos, jo tas var izraisīt novirzes starp grafikiem un darbībām.
+
 4. Atlasiet žurnāla ierakstu un pēc tam atlasiet **Grāmatot**, lai ierakstītu nolietojuma ierakstu Virsgrāmatā.
 
 ## <a name="calculation-of-rou-asset-amortization-expense-for-operating-leases"></a>LLT amortizācijas izdevumu aprēķins operatīvajām nomām

@@ -1,8 +1,8 @@
 ---
 title: Dynamics 365 Human Resources bieži uzdotie jautājumi par infrastruktūras sapludināšanu
 description: Šī tēma sniedz atbildes uz bieži uzdotiem jautājumiem par Microsoft Dynamics 365 Human Resources un Finance and Operations infrastruktūras sapludināšanu.
-author: rachel-profitt
-ms.date: 07/14/2021
+author: twheeloc
+ms.date: 08/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: raprofit
+ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 537917e9a987d701a0c96dfb7592e124e09bb748e4f2f52d39f8d97000c70ae3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5ae2896eda98a8f9545d465e941d5b50065ae94b
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712005"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386543"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-faq"></a>Dynamics 365 Human Resources bieži uzdotie jautājumi par infrastruktūras sapludināšanu
 
@@ -43,7 +43,7 @@ Dynamics 365 Human Resources ir savrupa programma, kas izmanto dažādas infrast
 - Tās nodrošina atbilstību starp Dynamics 365 Human Resources un citām Finance and Operations programmām Application Lifecycle Management (ALM), Microsoft Dynamics Lifecycle Services (LCS), ģeogrāfiskās pieejamības, paplašināmības un citas informācijas ziņā.
 - Tie ļauj izmantot koplietoto pakalpojumu un rīku sniegtās priekšrocības un palīdzēt samazināt izmaksas.
 
-### <a name="my-organization-uses-dynamics-365-human-resources-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-what-benefits-will-we-see-from-these-changes"></a>Mana organizācija izmanto Dynamics 365 Human Resources programmās Dynamics 365 Finance, Supply Chain Management, Commerce vai Project Operations. Kādus atvieglojumus mēs redzēsim no šīm izmaiņām?
+### <a name="my-organization-uses-the-human-resources-module-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-what-benefits-will-we-see-from-these-changes"></a>Mana organizācija izmanto cilvēkresursu moduli programmās Dynamics 365 Finance, Supply Chain Management, Commerce vai Project Operations. Kādus atvieglojumus mēs redzēsim no šīm izmaiņām?
 
 Iespējas un ieguldījumi, kas ir veikti Dynamics 365 Human Resources, tagad būs pieejami debitoriem, kuri izmanto HR moduli programmā Dynamics 365 Finance. Dažas no šīm iespējām ir atvaļinājumu un prombūtnes pārvaldība, atvieglojumu pārvaldība un uzdevumu pārvaldība.
 
@@ -67,21 +67,27 @@ Ja jūsu organizācija izmanto Dynamics 365 Human Resources, bet neizmanto citas
 
 Turklāt, izmantojot rīkus, varat pārbaudīt migrācijas procesu un pārbaudīt datus un pieredzi pirms ražošanas vides migrēšanas.
 
-Ja jūsu organizācija izmanto gan Dynamics 365 Human Resources abas programmas, gan citas Finance and Operations programmas, jums jāplāno vairāk laika validācijai, lai nodrošinātu, ka dati tiek pareizi migrēti jaunajā vidē. Migrācija uz jauno infrastruktūru saplūdīs ar jūsu Human Resources vides datiem ar Finance and Operations vidi. Būs pieejami rīki, lai automatizētu pēc iespējas vairāk datu sapludināšanas procesa. Tomēr konfliktējošu datu gadījumā būs nepieciešama lietotāja ievadne, lai noteiktu, kā konflikts jāatrisina. Lietotājiem un administratoriem būs jāpārvalda datu kartēšana, kur ir konflikti, un jātestē migrācija smilškastu vidēs pirms ražošanas vides migrācijas.
+Ja jūsu organizācija izmanto gan Dynamics 365 Human Resources abas programmas, gan citas Finance and Operations programmas, jums jāplāno vairāk laika validācijai, lai nodrošinātu, ka dati tiek pareizi migrēti jaunajā vidē. Migrācija uz jauno infrastruktūru saplūdīs ar jūsu Human Resources vides datiem ar Finance and Operations vidi. Tomēr konfliktējošu datu gadījumā būs nepieciešama lietotāja ievadne, lai noteiktu, kā konflikts jāatrisina. Lietotājiem un administratoriem būs jāpārvalda datu kartēšana, kur ir konflikti, un jātestē migrācija smilškastu vidēs pirms ražošanas vides migrācijas.
 
-### <a name="my-organization-uses-dynamics-365-human-resources-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-what-do-we-have-to-plan-for-to-migrate-to-the-new-experience"></a>Mana organizācija izmanto Dynamics 365 Human Resources programmās Dynamics 365 Finance, Supply Chain Management, Commerce vai Project Operations. Kas mums ir jāplāno, lai pārietu uz jauno pieredzi?
+### <a name="my-organization-uses-the-human-resources-module-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-what-do-we-have-to-plan-for-to-migrate-to-the-new-experience"></a>Mana organizācija izmanto cilvēkresursu moduli programmās Dynamics 365 Finance, Supply Chain Management, Commerce vai Project Operations. Kas mums ir jāplāno, lai pārietu uz jauno pieredzi?
 
-Organizācijām, kas izmanto HR moduli Finance and Operations programmās, jūsu videi tiks pielietota jaunā līdzekļa funkcionalitāte no Dynamics 365 Human Resources, izmantojot standarta vienas versijas atjaunināšanas procesu. Ir paredzams, ka jūsu vidē jaunā funkcionalitāte būs pieejama katrā atjauninājumā. Lai ieslēgtu jaunus līdzekļus, var izmantot līdzekļu pārvaldību. Tomēr ir jāplāno šo līdzekļu validācija. Ievērojiet procesus, kas jums ir pieejami citu vides atjauninājumu validēšana. Papildinformāciju par to, kā atjauninājumi tiek pielietoti Finance and Operations programmām, skatiet sadaļā [Vienas versijas apskats](../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md).
+Organizācijām, kas izmanto HR moduli Finance and Operations programmās, jūsu videi tiks pielietota jaunā līdzekļa funkcionalitāte no Dynamics 365 Human Resources, izmantojot standarta vienas versijas atjaunināšanas procesu. Ir paredzams, ka jūsu vidē jaunā funkcionalitāte būs pieejama katrā atjauninājumā. Funkciju pārvaldību var izmantot, lai ieslēgtu jaunas funkcijas, tomēr šo funkciju pār validēšanas plāns. Ievērojiet procesus, kas jums ir pieejami citu vides atjauninājumu validēšana. Papildinformāciju par to, kā atjauninājumi tiek pielietoti Finance and Operations programmām, skatiet sadaļā [Vienas versijas apskats](../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md).
 
 ### <a name="when-will-my-organization-be-migrated"></a>Kad mana organizācija tiks migrēta?
 
 Katras organizācijas migrācija būs atkarīga no tās pašreizējās konfigurācijas un gatavības migrēt uz jauno infrastruktūru. Šos datumus var mainīt.
 
-- Organizācijas, kas Finance and Operations lietojumprogrammās pašreiz izmanto HR moduli, saņems HR funkcionalitāti programmai Dynamics 365 Human Resources kā daļu no parastā vienas versijas atjaunināšanas procesa. Ir plānots, ka jaunās funkcijas kļūs plaši pieejamas, sākot no 2021. gada oktobra.
+- Organizācijas, kas Finance and Operations lietojumprogrammās pašreiz izmanto HR moduli, saņems HR funkcionalitāti programmai Dynamics 365 Human Resources kā daļu no parastā vienas versijas atjaunināšanas procesa. Ir plānots, ka jaunās funkcijas kļūs plaši pieejamas, sākot no 2022. gada janvāra.
 - Organizācijām, kas pašlaik izmanto tikai Dynamics 365 Human Resources būs piekļuve migrācijas rīkiem, lai tie varētu sākt testēšanu un sākt migrāciju, kas sāksies 2022. gada vidū. Datums, kad jāveic migrācija uz jauno infrastruktūru, vēl nav noteikts. Tomēr tas būs vismaz gadu pēc dienas, kad būs pieejami migrācijas rīki.
-- Organizācijām, kas pašlaik izmanto gan Dynamics 365 Human Resources, gan citas Finance and Operations programmas, būs piekļuve migrācijas rīkiem, lai tie varētu sākt testēšanu un sākt migrāciju, kas sāksies 2022. gada vidū. Datums, kad jāveic migrācija uz jauno infrastruktūru, vēl nav noteikts. Tomēr tas būs vismaz gadu pēc dienas, kad būs pieejami migrācijas rīki.
+- Organizācijām, kas pašlaik izmanto gan Dynamics 365 Human Resources, gan citas Finance and Operations programmas, būs piekļuve migrācijas rīkiem, lai tie varētu sākt testēšanu un sākt migrāciju, kas sāksies 2022. gada nogalē. Datums, kad jāveic migrācija uz jauno infrastruktūru, vēl nav noteikts. Tomēr tas būs vismaz gadu pēc dienas, kad būs pieejami migrācijas rīki.
 
 Papildinformāciju par jaunajām Dynamics 365 Human Resources funkcijām skatiet sadaļā [Jaunumi vai izmaiņas programmā Human Resources](./hr-admin-whats-new.md).
+
+### <a name="my-organization-has-not-yet-gone-live-on-dynamics-365-human-resources-should-we-go-live-with-the-human-resources-module-in-the-finance-and-operations-apps-or-with-the-dynamics-365-human-resources-app-on-the-legacy-infrastructure"></a>Mana organizācija vēl nav pārgājusi Dynamics 365 Human Resources tiešsaistē. Vai mums vajadzētu būt tiešsaistē ar personāla vadības moduli Finance and Operations programmās vai ar mantojuma infrastruktūras Dynamics 365 Human Resources programmu?
+
+Svarīgi elementi ir apsvērt, kāda HR funkcionalitāte ir nepieciešama un kad šī funkcionalitāte būs pieejama jaunajā infrastruktūrai. Ja organizācijai ir nepieciešama personāla vadības galvenā funkcionalitāte, kas pašreiz ir pieejama jaunās infrastruktūras Finance and Operations programmu personāla vadības modulī. Līdzekļu pārība starp programmu HR moduli un programmu ir paredzama Finance and Operations 10.0.25. laidienā, kas ir ieplānots kā plaši pieejams Dynamics 365 Human Resources 2022. gada martā. Vēlākos laidienos būs pieejami programmas Teams un Dataverse entītijas integrācijas līdzekļi.
+
+Ja organizācijas HR funkcionalitātei būs nepieciešama jauna infrastruktūra laika periodā, kurā organizācija ietu, tas var būt vieglāk nobraukt uz Cilvēkresursu moduli Finance and Operations lietojumprogrammās. Tā rezultātā radīsies vieglāka migrācija, jo tā būs programmas standarta jaunināšana uz Dynamics 365 Human Resources programmu, un klients jau būs jaunajā infrastruktūrā. Ja organizācija izlemj doties tiešsaistē Dynamics 365 Human Resources programmā, tad, lai pārietu uz jauno infrastruktūru, nepieciešama vides migrācija. Tas var izvairīties, veicot jaunās infrastruktūras nosācāmo darbību.
 
 ### <a name="i-am-using-new-capabilities-that-are-available-only-in-dynamics-365-human-resources-such-as-leave-and-absence-and-benefits-management-will-these-capabilities-now-be-available-in-the-human-resources-module-on-the-finance-and-operations-infrastructure-too"></a>Es izmantoju jaunas iespējas, kas pieejamas tikai programmā Dynamics 365 Human Resources (piemēram, **Atvaļinājums un prombūtne** un **Atvieglojumu pārvaldība**). Vai šīs iespējas tagad būs pieejamas arī Human Resources modulī Finance and Operations infrastruktūrā?
 
@@ -97,7 +103,7 @@ Migrācijas pieredze katram neatkarīgam programmatūras izstrādātāja (ISV) r
 
 ### <a name="my-organization-uses-linkedin-talent-hub-integration-with-dynamics-365-human-resources-will-this-integration-continue-to-work-after-the-infrastructure-change-is-completed"></a>Mana organizācija izmanto LinkedIn Talantu Hub integrāciju ar Dynamics 365 Human Resources. Vai šī integrācija turpinās darbu pēc infrastruktūras izmaiņu pabeigšanas?
 
-Jā, LinkedIn Talantu Hub integrācija turpinās darbu pēc migrācijas uz jauno infrastruktūru.
+Nē, LinkedIn Talent Hub integrācija neturpinās darbu pēc migrācijas uz jauno infrastruktūru. Pakalpojums LinkedIn Talent Hub integrācijai tiks noņemts ar mantojuma Dynamics 365 Human Resources infrastruktūru.
 
 ### <a name="my-organization-uses-the-human-resources-app-for-teams-will-the-app-continue-to-work-after-the-infrastructure-change-is-completed"></a>Mana organizācija izmanto Human Resourcesprogrammu programmai Teams. Vai šī programma turpinās darbu pēc infrastruktūras izmaiņu pabeigšanas?
 
@@ -125,13 +131,13 @@ Tas ir atkarīgs no integrācijas galapunkta. Plašāku informāciju par Finance
 
 Ja Dynamics 365 Human Resources un Finance and Operations vides, kas tiks apvienotas jaunās infrastruktūras vidē, ir saistītas ar vienu un to pašu Dataverse vidi, divas programmas turpinās savienoties ar vienu un to pašu Dataverse vidi pēc migrācijas. Tāpēc visiem Dataverse paplašinājumiem migrācija nav nepieciešama.
 
-Tomēr, ja Dynamics 365 Human Resources un Finance and Operations pašlaik ir savienoti ar atsevišķām Dataverse vidēm, divas Dataverse vides būs jāapvieno tā, lai tie būtu savienoti ar vienotu vidi jaunajā infrastruktūrā. Šai Dataverse migrācijai Dataverse tabulas, kas ir Human Resources risinājumu standarts, var savienot ar jauno Dataverse vidi un unsinhronizēt ar to. Tomēr visi Dataverse vides paplašinājumi netiks migrēti automātiski, bet ir atkārtoti jā izvietošana jaunajā vidē. Ir ieteicams izmantot pārvaldītus risinājumus, lai pārvaldītu Dataverse paplašinājumus. Papildinformāciju skatiet sadaļā [Ievads risinājumos](https://docs.microsoft.com/powerapps/developer/data-platform/introduction-solutions).
+Tomēr, ja Dynamics 365 Human Resources un Finance and Operations pašlaik ir savienoti ar atsevišķām Dataverse vidēm, divas Dataverse vides būs jāapvieno tā, lai tie būtu savienoti ar vienotu vidi jaunajā infrastruktūrā. Šai Dataverse migrācijai Dataverse tabulas, kas ir Human Resources risinājumu standarts, var savienot ar jauno Dataverse vidi un unsinhronizēt ar to. Tomēr visi Dataverse vides paplašinājumi netiks migrēti automātiski, bet ir atkārtoti jāizvieto jaunajā vidē. Ir ieteicams izmantot pārvaldītus risinājumus, lai pārvaldītu Dataverse paplašinājumus. Papildinformāciju skatiet sadaļā [Ievads risinājumos](/powerapps/developer/data-platform/introduction-solutions).
 
 ### <a name="we-have-configured-microsoft-power-automate-flows-andor-microsoft-power-apps-to-work-with-dynamics-365-human-resources-will-these-microsoft-power-platform-components-be-migrated-and-work-automatically-after-the-infrastructure-change-is-completed"></a>Ir konfigurētas Microsoft Power Automate plūsmas un/vai Microsoft Power Apps darbam ar Dynamics 365 Human Resources. Vai šie Microsoft Power Platform komponenti tiks migrēti un darbojas automātiski pēc infrastruktūras izmaiņu pabeigšanas?
 
 Power Apps, Power Automate plūsmas un citi Microsoft Power Platform pielāgojumi ir līdzīgi Dataverse paplašinājumiem. Tas, vai pēc migrācijas uz jauno infrastruktūru tie darbojas automātiski, ir atkarīgs no tā, vai Human Resources programma un Finance and Operations programmas pirms migrācijas ir saistītas ar vienu un to pašu Power Apps vidi.
 
-Ja programmas pašlaik ir saistītas ar vienu Power Apps vidi, tās turpinās būt saistītas ar šo Power Apps vidi pēc jaunās infrastruktūras migrācijas. Šajā gadījumā Power Apps, Power Automate plūsmas un citi Microsoft Power Platform pielāgojumi turpinās darbu, nekonfigurējot papildu konfigurāciju. Ir ieteicams izmantot pārvaldītus risinājumus, lai pārvaldītu programmu paplašinājumus Dataverse. Papildinformāciju skatiet sadaļā [Ievads risinājumos](https://docs.microsoft.com/powerapps/developer/data-platform/introduction-solutions).
+Ja programmas pašlaik ir saistītas ar vienu Power Apps vidi, tās turpinās būt saistītas ar šo Power Apps vidi pēc jaunās infrastruktūras migrācijas. Šajā gadījumā Power Apps, Power Automate plūsmas un citi Microsoft Power Platform pielāgojumi turpinās darbu, nekonfigurējot papildu konfigurāciju. Ir ieteicams izmantot pārvaldītus risinājumus, lai pārvaldītu programmu paplašinājumus Dataverse. Papildinformāciju skatiet sadaļā [Ievads risinājumos](/powerapps/developer/data-platform/introduction-solutions).
 
 Tomēr, ja Human Resources programma un Finance and Operations programmas ir saistītas ar atsevišķām Power Apps vidēm, tās būs jāapvieno kā daļa no migrācijas. Šim uzdevumam būs nepieciešams, lai visi Power Apps un citi pielāgojumi tiktu atkārtoti izvietoti jaunajā vidē.
 
@@ -173,7 +179,7 @@ Pēc migrācijas debitori būs daudz elastīgāki attiecībā uz ALM un pakalpoj
 
 ### <a name="how-will-the-migration-affect-my-lcs-project-for-dynamics-365-human-resources"></a>Kā migrācija ietekmēs manu LCS projektu Dynamics 365 Human Resources?
 
-Migrācija uz jauno infrastruktūru pārvietos jūsu Dynamics 365 Human Resources vides pārvaldību uz LCS ieviešanas projektu. Ja migrācija sapludina Dynamics 365 Human Resources ar esošu Finance and Operations vidi, Human Resources LCS projekts tiks sapludināts programmas Finance and Operations LCS ieviešanas projektā. Ja pašlaik izmantojat tikai Dynamics 365 Human Resources, tiks izveidots jauns LCS ieviešanas projekts un esošais Human Resources LCS projekts tiks migrēts uz jauno projektu.
+Migrācija uz jauno infrastruktūru pārvietos jūsu Dynamics 365 Human Resources vides pārvaldību uz Finance and Operations LCS ieviešanas projektu. Ja migrācija sapludina Dynamics 365 Human Resources ar esošu Finance and Operations vidi, Human Resources LCS projekts tiks sapludināts programmas Finance and Operations LCS ieviešanas projektā. Ja pašlaik izmantojat tikai Dynamics 365 Human Resources, tiks izveidots jauns LCS ieviešanas projekts un esošais Human Resources LCS projekts tiks migrēts uz jauno projektu.
 
 Jaunais projekts būs tas pats projekta tips, ko Finance and Operations programmas izmanto. Tam būs tādas pašas funkcijas un funkcionalitāte vides pārvaldībai. Papildinformāciju skatiet šeit: [Lifecycle Services resursi](../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
 
@@ -217,7 +223,7 @@ Piemērojamie pakešuzdevumi automātiski tiks migrēti uz jauno infrastruktūru
 
 Debitori, kas iegādājušies Dynamics 365 Human Resources licences, netiks ietekmēti. Šim debitoram nav licencēšanas migrācijas. Papildu noliktavas vienība (NV), kas bija raksturīga Human Resources, vairs netiks piemērota. Tā vietā debitori var izvēlēties pirkt Finance and Operations lietojumprogrammu 2. līmeņa smilškasti ar nedaudz zemāku cenu. Esošie debitori, kas iegādājušies Human Resources smilškasti, būs migrēti uz Finance and Operations lietojumprogrammu 2. līmeņa smilškasti bez papildu izmaksām.
 
-### <a name="my-organization-uses-dynamics-365-human-resources-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-does-my-licensing-or-cost-change"></a>Mana organizācija izmanto Dynamics 365 Human Resources programmās Dynamics 365 Finance, Supply Chain Management, Commerce vai Project Operations. Vai mana licencēšana vai izmaksas mainās?
+### <a name="my-organization-uses-the-human-resources-module-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-does-my-licensing-or-cost-change"></a>Mana organizācija izmanto cilvēkresursu moduli programmās Dynamics 365 Finance, Supply Chain Management, Commerce vai Project Operations. Vai mana licencēšana vai izmaksas mainās?
 
 Esošie Dynamics 365 programmu lietotāji un lietotāji, kuriem ir savrupa Dynamics 365 Finance, Supply Chain Management, Commerce un Project Operations, var piekļūt Human Resources kā daļai no šīm licencēm līdz 2025. gada februārim vai līdz pašreizējā licencēšanas līguma termiņa beigām neatkarīgi no tā, kas ir agrāk. Varat izvēlēties pārvietoties Human Resources licencēm agrāk, ja tas palīdz sasniegt labākus izmaksu uzkrājumus. Sākot no 2025. gada februāra visiem esošajiem CHF un EA debitoriem ir jāatrite HR modulis un jāpērk Human Resources licences, lai izmantotu jaunās iespējas, kas tiek pārdotas Finance and Operations programmām.
 

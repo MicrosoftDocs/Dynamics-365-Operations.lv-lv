@@ -1,8 +1,8 @@
 ---
 title: Integrācijas konfigurēšana ar Dayforce
-description: Integrācija starp Microsoft Dynamics 365 Human Resources un Ceridian Dayforce balstās uz vairākām konfigurācijas darbībām, kas ir aprakstītas šajā rakstā. Pirms maksājuma izpildes apstrādes vispirms ir jākonfigurē integrācija gan Human Resources, gan Dayforce.
-author: andreabichsel
-ms.date: 02/03/2020
+description: Šajā tēmā ir aprakstītas konfigurācijas darbības, kas nepieciešamas Microsoft Dynamics 365 Human Resources un Ceridian Dayforce integrācijai.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 961d3bd61e85549f4124391389682bb24aceae3e16e52dc8111a44c365a8c081
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 255cc612ef727153be70b755745eed9ad679b839
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782735"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414588"
 ---
 # <a name="configure-integration-with-dayforce"></a>Integrācijas konfigurēšana ar Dayforce
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Integrācija starp Microsoft Dynamics 365 Human Resources un Ceridian Dayforce balstās uz vairākām konfigurācijas darbībām, kas ir aprakstītas šajā rakstā. Pirms maksājuma izpildes apstrādes vispirms ir jākonfigurē integrācija gan Human Resources, gan Dayforce.
+Microsoft Dynamics 365 Human Resources un Ceridian Dayforce integrācijai tiek izmantotas vairākas konfigurācijas darbības, kas ir aprakstītas šajā tēmā. Pirms maksājuma izpildes apstrādes vispirms ir jākonfigurē integrācija gan Human Resources, gan Dayforce.
 
 Ja maksājumu izpildei izmantojat tādu pakalpojumu kā Dayforce, jāiespējo integrācija Human Resources. Integrācijai ir nepieciešami noteikti Human Resources dati. Tādēļ ir jāpārliecinās, vai uz Dayforce kartētie dati Human Resources ir konfigurēti veidā, kas atbalsta integrāciju. Integrācija izmanto tālāk norādītās vispārējās datu kategorijas.
 
@@ -35,7 +35,7 @@ Ja maksājumu izpildei izmantojat tādu pakalpojumu kā Dayforce, jāiespējo in
 - Algu dati, piemēram, apmaksas cikli, apmaksas periodi un ienākumu veidu kodi
 - Nodarbināto dati
 
-Šajā rakstā ir aprakstītas darbības, kas jāveic, lai iespējotu integrāciju. Tajā ir arī izskaidrots, kādu veidu dati un konfigurācijas informācija ir nepieciešama integrācijai.
+Šajā tēmā ir aprakstītas darbības, kas jāveic, lai iespējotu integrāciju, un ir paskaidroti integrācijai nepieciešamie datu tipi un detalizēta konfigurācijas informācija.
 
 ## <a name="enable-the-integration"></a>Integrācijas iespējošana
 
@@ -50,7 +50,7 @@ Lai Human Resources ieslēgtu integrāciju, veiciet tālāk minētās darbības.
 
 Kad integrācija ir ieslēgta, tiek izveidota datu eksportēšanas pakotne un faili, kā arī iestatīts biežums. Biežumu varat mainīt atbilstoši vajadzībām.
 
-Papildinformāciju par Azure krātuves kontiem un Azure krātuves savienojuma virknēm skatiet tālāk minētajos Azure rakstos.
+Papildinformāciju par Azure krātuves kontiem un Azure krātuves savienojuma virknēm skatiet tālāk sniegtajās Azure tēmās.
 
 - [Par Azure krātuves kontiem](/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
 - [Azure krātuves savienojuma virkņu konfigurēšana](/azure/storage/common/storage-configure-connection-string)
@@ -122,10 +122,10 @@ Dayforce izveido tālāk norādītos ieturējumus, pamatojoties uz atvieglojumu 
 | Tikai segums          | Ir izveidots darba devēja ieturējums.             |
 | Ieturējums un segums | Ir izveidots darbinieka un darba devēja ieturējums. |
 
-Papildinformāciju par atvieglojumu programmas definēšanu un pārvaldību skatiet tālāk minētajos rakstos.
+Papildinformāciju par atvieglojumu programmas definēšanu un pārvaldību skatiet tālāk sniegtajās tēmās.
 
 - [Darbinieku atvieglojumu programmas nodrošināšana](/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
-- [Izveidot jaunu atvieglojumu](/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
+- [Jauna atvieglojuma izveide](/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
 - [Atvieglojumu piemērotības kārtulu un ierobežojumu definēšana](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
 - [Atvieglojumu reģistrēšana un noņemšana nodarbinātajiem](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
 
@@ -135,7 +135,7 @@ Atlīdzību pārvaldība tiek izmantota, lai kontrolētu pamatalgas un prēmiju 
 
 Dayforce izmanto atlīdzības informāciju, lai aprēķinātu darbinieka stundas vai gada likmi. Ir jānorāda fiksētās atlīdzības plāni un apmaksas likmes konvertēšanas gadījumi. Darbiniekiem ir jābūt saistītiem ar fiksētās atlīdzības plānu.
 
-Papildinformāciju par atlīdzības plāniem skatiet tālāk minētajos rakstos.
+Papildinformāciju par atlīdzības plāniem skatiet tālāk sniegtajās tēmās.
 
 - [Fiksētās atlīdzības plānu izveidošana](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
 - [Mainīgās atlīdzības plānu izveidošana](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
@@ -147,7 +147,7 @@ Papildinformāciju par atlīdzības plāniem skatiet tālāk minētajos rakstos.
 
 #### <a name="jobs"></a>Darbi 
 
-Darbs ir uzdevumu un atbildības jomu kopums, kas ir jāizpilda personai, kura veic darbu. Papildinformāciju skatiet tālāk minētajos rakstos.
+Darbs ir uzdevumu un atbildības jomu kopums, kas ir jāizpilda personai, kura veic darbu. Lai iegūtu papildu informāciju, skatiet šādas tēmas:
 
 - [Darba komponentu iestatīšana](/dynamics365/unified-operations/talent/create-job)
 - [Jaunu darbu definēšana](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
@@ -172,16 +172,16 @@ Iestatot jaunus amatus, ņemiet vērā tālāk norādītos datus un konfigurāci
 
 Ja vienā nodaļā ar to pašu darbu ir saistīti vairāki amati, tie pakalpojumā Dayforce tiek apvienoti vienā amatā.
 
-Papildinformāciju skatiet tālāk minētajos rakstos.
+Lai iegūtu papildu informāciju, skatiet šādas tēmas:
 
-- [Darbaspēka organizēšana, izmantojot nodaļas, darbus un amatus](/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
+- [Organizēt darbaspēku, izmantojot nodaļas, darbus un amatus](/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
 - [Amatu iestatīšana](/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
 
 #### <a name="departments"></a>Nodaļas
 
 Nodaļa ir pārvaldības struktūrvienība, kas pārstāv organizācijas kategoriju vai funkcionālo apgabalu. Nodaļa ir atbildīga par noteiktu organizācijas jomu, piemēram, pārdošanu, uzskaiti vai personāla vadību. Nodaļas var izmantot, lai ziņotu par funkcionālām jomām. Nodaļām var būt peļņas un zaudējumu atbildība.
 
-Papildinformāciju skatiet tālāk minētajos rakstos.
+Lai iegūtu papildu informāciju, skatiet šādas tēmas:
 
 - [Nodaļas izveide un tās saistīšana ar nodaļu hierarhiju](/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
 - [Jaunu nodaļu definēšana](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)

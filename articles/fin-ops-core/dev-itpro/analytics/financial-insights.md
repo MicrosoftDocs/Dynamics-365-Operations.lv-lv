@@ -2,7 +2,7 @@
 title: Finanšu analīze
 description: Finanšu analīzē tiek izmantots pakalpojums Microsoft Power BI, lai apkopotu finanšu izpildes pamatrādītājus (KPI), diagrammas un finanšu pārskatus.
 author: kweekley
-ms.date: 04/22/2021
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4937235dddaf5c1c8d6d504542f161fa232c86213eb6ac4274349e02d18fb8b3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4dc6cb7c0d6c04371ada611626415d87e9f149f0
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767831"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416309"
 ---
 # <a name="financial-analysis"></a>Finanšu analīze
 
@@ -36,9 +36,9 @@ ms.locfileid: "6767831"
 > - **Lapa** — cilne vienā .pbix failā. Katrā lapā var būt viens vizuālo datu vienums vai vairāki.
 > - **Vizuālie dati** — viens datu avots, piemēram, kartīte, KPI, diagramma, grafiks, matrica vai finanšu pārskats. Lapā, kurā kā vizuālie dati ir finanšu pārskats, nevar būt citu vizuālo datu to datu lieluma dēļ, par ko tiek sniegts pārskats.
 
-Pašlaik darbvieta **Finanšu analīze** tiek izmantota, lai skatītu aktīvās juridiskās personas vai visu juridisko personu datus. Turpmākajos laidienos darbvieta tiks attīstīta par vietu, kurā varēsit izmantot pakalpojumu Power BI vizuālo datu rediģēšanai un izveidei.
+Darbvieta **Finanšu analīze** ļauj skatīt un filtrēt datus esošajos pārskatos. Darbvietai **Finanšu analīze** varat pievienot jaunus vizuālos datus. Darbvieta **Finanšu analīze** ir pieejama pašreizējam uzņēmumam, kā arī visiem uzņēmumiem, lai parādītu visu juridisko personu datus neatkarīgi no juridiskajām personām, kurām lomai ir piekļuve.
 
-Darbvietā **CFO apskats** parādīti tie paši vizuālie dati, kas redzami darbvietā **Finanšu analīze**, taču tās galvenais nolūks ir ļaut jums skatīt un filtrēt datus esošos pārskatos. Turpmākajos laidienos darbvietai **Finanšu analīze** varēsit pievienot jaunus vizuālos datus. Jaunie vizuālie dati var arī būt pieejami darbvietās, kas paredzētas citām lomām, piemēram, projektu vadītāja vai kreditoriem maksājamo parādu vadītāja lomai. Darbvietā **CFO apskats** joprojām tiek rādīti visu juridisko personu dati neatkarīgi no juridiskajām personām, kam lomai ir piekļuve.
+- [Power BI vizualizāciju pievienošana vai rediģēšana informācijas panelī](/powerapps-docs/user/add-powerbi-dashboards.md)
 
 ## <a name="dynamics-365-finance-setup"></a>Dynamics 365 Finance iestatīšana
 **Virsgrāmata**

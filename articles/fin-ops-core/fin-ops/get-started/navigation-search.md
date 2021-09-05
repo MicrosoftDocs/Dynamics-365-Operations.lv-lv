@@ -2,7 +2,7 @@
 title: Navigācijas meklēšana
 description: Šajā tēmā ir paskaidrots, kā izmantot meklēšanas funkcionalitāti, lai pārietu uz lapām.
 author: aneesmsft
-ms.date: 04/27/2017
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 82c7bf17eaf0276c448223182b4268a50addb37f1ff115fec0223bc3313905e5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e30b56287520bb3536b250a886e74e6cbe30b412
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749608"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344402"
 ---
 # <a name="navigation-search"></a>Navigācijas meklēšana
 
@@ -34,7 +34,7 @@ Lai izmantotu šo līdzekli, noklikšķiniet uz ikonas **Meklēšana**, lai par�
 > [!NOTE]
 > Lodziņš **Meklēšana** palīdz atrast lapas un pāriet uz tām. Tas nepalīdzēs jums atrast specifiskus datus vai darbības.
 
-[![meklēšanas lodziņš.](media/navigation-search.png "Meklēšanas lodziņš")
+![meklēšanas lodziņš.](media/navigation-search.png "Meklēšanas lodziņš")
 
 ## <a name="quickly-navigate-to-a-particular-page"></a>Ātri pārvietoties uz konkrētu lapu
 

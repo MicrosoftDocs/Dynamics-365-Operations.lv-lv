@@ -2,7 +2,7 @@
 title: Izlaiduma Dynamics 365 Supply Chain Management 10.0.21 priekšskatījums (2021. gada oktobris)
 description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Supply Chain Management 10.0.21.
 author: kamaybac
-ms.date: 08/02/2021
+ms.date: 08/09/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 517411512760374f1d1fd3b8ea3615563c47202c2e847569d00cb17a94657630
-ms.sourcegitcommit: fa5ff2a0822aac16b518a2aea0d3389f79793390
+ms.openlocfilehash: 42d296cb0402b5e96f23d628f08a28fb35683d5f
+ms.sourcegitcommit: 5a44eb4f555bf5ee0b1293f0ecdc37ee8b53aa24
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/07/2021
-ms.locfileid: "7012041"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "7391212"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10021-october-2021"></a>Izlaiduma Dynamics 365 Supply Chain Management 10.0.21 priekšskatījums (2021. gada oktobris)
 
@@ -29,17 +29,18 @@ ms.locfileid: "7012041"
 - **Vispārēja laidiena (automātisks atjauninājums) pieejamība:** 2021. gada oktobris
 
 ## <a name="known-deployment-issue"></a>Zināma izvietošanas problēma
+
 Izvietojot laidienu 10.0.21 vietnē IaaS, varat saņemt šādu izvietošanas brīdinājumu:
 
 **Brīdinājuma kods:** 95017
 
-**Brīdinājuma ziņojums:** Skripts [SetupDiagnostics] neizdevās izpildīt pret VM
+**Brīdinājuma ziņojums:** Skriptu \[SetupDiagnostics\] neizdevās izpildīt pret VM
 
-Izvietošana darbosies, neskatoties uz brīdinājumu, tomēr programmā Lifecycle Services (LCS) var rasties tālāk minētās zināmās problēmas.
+Izvietošana darbosies, neskatoties uz brīdinājumu. Tomēr programmā Lifecycle Services (LCS) var rasties šādas zināmās problēmas:
 
--   Lapā **Vides uzraudzība** nebūs redzama saite **Skatīt detalizētās versijas informāciju**, tādēļ nevarēsit redzēt specifiskās moduļu versijas, kas ir instalētas jūsu vidē. Ja nav pieejami šie dati, turpmākie labojumfaili var neizdoties, jo labojumfailu lietošanas process izmanto šos datus, lai pārbaudītu, vai moduļa versijas priekšnosacījumi ir izpildīti. Tā kā nav iespējams izmantot PEAP/Priekšskatījuma būvējumu ražošanā vai lietot labojumfailus, ietekmei ir jābūt minimālai.
--   Cilnes **Veiktspējas rādītāji** un **Indeksu analīze** lapā **Vides uzraudzība** zem SQL Insights netiks parādīti dati. Visi pārējie **Vides uzraudzības** līdzekļi darbosies, kā paredzēts.
--   Lapai **Pilnas sistēmas diagnostika** nevar piekļūt. Netiks rādīti arī ar tā noteikumiem noteikti saistītie dati par nakts kolektora izpildes statusu un problēmām.
+- Lapā **Vides uzraudzība** nebūs redzama saite **Skatīt detalizētās versijas informāciju**, tādēļ nevarēsit redzēt specifiskās moduļu versijas, kas ir instalētas jūsu vidē. Ja nav pieejami šie dati, turpmākie labojumfaili var neizdoties, jo labojumfailu lietošanas process izmanto šos datus, lai pārbaudītu, vai moduļa versijas priekšnosacījumi ir izpildīti. Tā kā nav iespējams izmantot PEAP/Priekšskatījuma būvējumu ražošanā vai lietot labojumfailus, ietekmei ir jābūt minimālai.
+- Cilnes **Veiktspējas rādītāji** un **Indeksu analīze** lapā **Vides uzraudzība** zem SQL Insights netiks parādīti dati. Visi pārējie **Vides uzraudzības** līdzekļi darbosies, kā paredzēts.
+- Lapai **Pilnas sistēmas diagnostika** nevar piekļūt. Netiks rādīti arī ar tā noteikumiem noteikti saistītie dati par nakts kolektora izpildes statusu un problēmām.
 
 ## <a name="features-included-in-this-release"></a>Šajā laidienā iekļautie līdzekļi
 
@@ -52,10 +53,10 @@ Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvald
 | Krājumi&nbsp;un&nbsp;loģistika | [Globālā krājumu uzskaites pievienojumprogramma Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/global-inventory-accounting-add-in-dynamics-365-supply-chain-management) | [Globālās krājumu uzskaites sākumlapa](../global-inventory-accounting/global-inventory-accounting-home.md) |
 | Krājumi&nbsp;un&nbsp;loģistika | [Rīcībā esošo korekciju grāmatošana, izmantojot kodus, kas saistīti ar korespondējošo kontu](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/post-on-hand-adjustments-using-configurable-reason-codes-connected-offset-accounts) | [Krājumu inventarizācijas iemeslu kodi](../warehousing/reason-codes-for-counting-journals.md) |
 | Krājumi&nbsp;un&nbsp;loģistika | [Tādu datu eksportēšanas politika, uz kuriem atsaucas pārdošanas piedāvājums](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sales-quotation-referenced-data-export-policy) | Izvēlieties, vai izmaiņas datos, uz kuriem atsaucas piedāvājumi, izraisīs šo piedāvājumu (vai rindu) iekļaušanu nākamajā inkrementālajā eksportā. Inkrementālais eksports notiks ātrāk, ja izvēlaties neiekļaut šādus piedāvājumus vai rindas.<br><br>Šis līdzeklis pievieno iestatījumu ar nosaukumu **Izlaist pārdošanas piedāvājumu atsauces datus izmaiņu izsekošanas laikā** lapā **Debitoru parametri**. |
-| Krājumi&nbsp;un&nbsp;loģistika | [Skenēt svītrkodus noliktavā, izmantojot GS1 formāta standartus](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | *Drīzumā*<!-- KFM: Add doc link when ready. --> |
-| Krājumi&nbsp;un&nbsp;loģistika | Aizzīmogotā izsole <!-- KFM: Add RP link when available --> | *Drīzumā*<!-- KFM: Add doc link when ready. --> |
+| Krājumi&nbsp;un&nbsp;loģistika | [Skenēt svītrkodus noliktavā, izmantojot GS1 formāta standartus](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [GS1 svītrkodi un QR kodi](../warehousing/gs1-barcodes.md) |
+| Krājumi&nbsp;un&nbsp;loģistika | [Vieglā rezervācija krājumu redzamības pievienojumprogrammai](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/soft-reservation-inventory-visibility-add-in) | [Krājumu redzamības rezervācija](../inventory/inventory-visibility-reservations.md) |
 | Krājumi&nbsp;un&nbsp;loģistika | [Ieturējumu un pieļaujamā svara uzlabojumi atlaižu pārvaldībai](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/deduction-catch-weight-enhancements-rebate-management) | [Ieturējumu pārvaldība, izmantojot ieturējumu rīku](../rebate-management/deduction-workbench.md )<br><br>[Atlaižu apstrāde, pārskatīšana un grāmatošana](../rebate-management/process-review-post.md)<br><br>[Atlaižu pārvaldības darījumi](../rebate-management/rebate-management-deals.md) |
-| Krājumi&nbsp;un&nbsp;loģistika | [Norādījumi par noliktavas programmas darbībām](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-app-step-instructions) | *Drīzumā*<!-- KFM: Add doc link when ready --> |
+| Krājumi&nbsp;un&nbsp;loģistika | [Norādījumi par noliktavas programmas darbībām](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-app-step-instructions) | [Darbību nosaukumu un instrukciju pielāgošana Warehouse Management mobilajai programmai](../warehousing/mobile-app-titles-instructions.md) |
 | Krājumi&nbsp;un&nbsp;loģistika | [Darba pārtraukumi un izsekošanas atjauninājumi izkraušanas izmaksām](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/work-breaks-tracking-updates-landed-cost) | [Atjaunināt izsekošanu izvietošanai](../landed-cost/update-tracking-putaway.md )<br><br>[Tranzīta preču apstrāde](../landed-cost/in-transit-processing.md) |
 | Vispārējā plānošana | [Negatīvās dienas optimizācijas plānošanai](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/negative-days-support-planning-optimization) | [Aizkaves tolerance (negatīvās dienas)](../master-planning/planning-optimization/delay-tolerance.md) |
 
@@ -66,10 +67,10 @@ Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvald
 | Līdzekļu apgabals | Līdzekļa&nbsp;nosaukums&nbsp;līdzekļu&nbsp;pārvaldībā | Papildinformācija |
 |---|---|---|
 | Izmaksu pārvaldība | Detalizēta informācija par krājuma slēgšanas norisi | Šis priekšskatījuma līdzeklis iespējo detalizētu krājumu slēgšanas progresa pārskatu. |
-| Vispārējā plānošana | (Priekšskatījums) Prioritāri virzīts MRP atbalsts plānošanas optimizācijai | Šis plānošanas optimizācijas priekšskatījuma līdzeklis iespējo vispārējo plānošanu, ko nosaka plānošanas prioritāte ar pārkārtošanas punktu. Iezīmētās izmaiņas ietver: lauks **Plānošanas prioritāte** pārdošanas pasūtījumu rindām, pirkšanas pasūtījuma rindām, pieprasījuma apjoma prognozei un plānotajiem pasūtījumiem; jauna vajadzības koda opcija; lauks **Krājumu vajadzība** atkārtota pasūtījuma punktam; Vispārējās plānošanas iestatījumu formas, lai kontrolētu plānošanas prioritātes iestatīšanu; un plānošanas optimizācijas aprēķina loģika, lai iestatītu un ievērotu plānošanas prioritāti. |
 | Sagāde un avoti | Novērsiet vispārīgu budžeta rezervāciju pārmērīgu patēriņu, ja darbplūsmā ir vairāki pirkšanas pieprasījumi | Šis priekšskatījuma līdzeklis uzlabo kļūdu pārbaudi, kad lietotāji iesniedz un apstiprina pirkšanas pieprasījumus, kas pārsniedz vispārējās budžeta rezervēšanas rindas atlikušo bilanci. Tas palīdz novērst vispārējo budžeta rezervāciju pārtvēršanu, ja vairāki pirkšanas pieprasījumi atrodas darbplūsmā. |
 | Ražošanas kontrole | Ražotnes izpildes saskarnē rādīt pilnus sērijas, partijas numurus un unikālos noliktavas vienības identifikatorus | Šis līdzeklis nodrošina uzlabotu pieredzi sarakstu apskatīšanai ar sērijas, partijas un numura zīmes numuriem ražošanas izpildes interfeisā. Rādīšanas izmaiņas no karšu skata ar ierobežotu rakstzīmju skaitu uz saraksta skatu, kas nodrošina pietiekami daudz vietas pilnu vērtību rādīšanai. Šis saraksts arī nodrošina iespēju meklēt noteiktus numurus. |
-| Noliktavas pārvaldība | Izvietošanas darba atvienošana no IPPN | Šis līdzeklis ir nepieciešams, lai sūtītu un saņemtu iepriekšējus paziņojumus par nosūtīšanu (IPPN), kad palaižat noliktavas vadības darba slodzi mēroga vienībā (kā daļu no sadalītās transportlīdzekļa topoloģijas). Tajā ir pievienota jauna datu bāzes tabula, kas atvēlēta informācijas glabāšanai par izvietošanas darbu. Iepriekš šī informācija tika glabāta tabulās, kas tiek izmantotas arī IPPN. |
+| Pārdošana un mārketings | Ierobežot grāmatošanai atlasāmo pārdošanas pasūtījumu skaitu | Šī funkcija ļauj definēt maksimālo pārdošanas pasūtījumu skaitu, ko var atlasīt, grāmatojot apstiprinājumus, izdošanas sarakstus, pavadzīmes un rēķinus no pārdošanas pasūtījumu saraksta lapas. Tas tiek aktivizēts automātiski. Šis līdzeklis pievieno iestatījumu ar nosaukumu **Maksimālais pārdošanas pasūtījumu skaits grāmatošanai** **Debitoru parādu parametru** lapā. Jaunais iestatījums pēc noklusējuma ir *100*. Šī funkcija palīdz uzlabot pārdošanas pasūtījumu saraksta lapas veiktspēju, kad ir atlasīts liels skaits pārdošanas pasūtījumu. Tas neietekmē pārdošanas pasūtījumu skaitu, ko var apstrādāt periodisks uzdevums. |
+| Noliktavas vadība | Izvietošanas darba atvienošana no IPPN | Šis līdzeklis ir nepieciešams, lai sūtītu un saņemtu iepriekšējus paziņojumus par nosūtīšanu (IPPN), kad palaižat noliktavas vadības darba slodzi mēroga vienībā (kā daļu no sadalītās transportlīdzekļa topoloģijas). Tajā ir pievienota jauna datu bāzes tabula, kas atvēlēta informācijas glabāšanai par izvietošanas darbu. Iepriekš šī informācija tika glabāta tabulās, kas tiek izmantotas arī IPPN. |
 | Noliktavas pārvaldība | Slotu jauktās vienības | Ļauj sistēmai slota krājumus vietās, kas ietver jauktas vienības (piemēram, kastes un kārbas). Katrai slotas veidnes rindai šis līdzeklis ļauj izvēlēties, vai rindai vajadzētu sadalīt vienumus jauktas vienības vai vienas vienības vietās. |
 | Noliktavas pārvaldība | Izmantojiet ātrāku API konteineru aizvēršanai/atkārtotai atvēršanai iepakošanas stacijā | Kad ir iespējots šis priekšskatījuma līdzeklis, krājumu darbības, kas saistītas ar konteineriem, tiek izveidotas, izmantojot jaunu bezsvara procesu, kas uzlabo konteineru slēgšanas vai atvēršanas veiktspēju manuālas iepakošanas stacijas apstrādes laikā. |
 

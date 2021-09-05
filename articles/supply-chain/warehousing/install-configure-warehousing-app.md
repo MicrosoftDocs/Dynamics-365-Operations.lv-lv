@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8386adc3f0e9c9a782e6cd5d4ba770f9650583b8ff3f32c3ac23478475d085ae
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 094d7f0f5642653c6e059952783041b1430e98d6
+ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753799"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7384639"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Noliktavas programmas instalēšana un savienošana
 
@@ -136,7 +136,7 @@ Varat importēt savienojuma iestatījumus no faila vai QR koda. Abām pieejām v
 | ConnectionName | Norādiet savienojuma iestatījumu nosaukumu. Maksimālais garums ir 20 rakstzīmes. Tā kā šī vērtība ir unikāls savienojuma iestatījumu identifikators, pārliecinieties, vai tas sarakstā ir unikāls. Ja ierīcē jau pastāv savienojums ar tādu pašu nosaukumu, importētā faila iestatījumi to ignorēs. |
 | ActiveDirectoryClientAppId | Norādiet klienta ID, kuru pierakstījāt, iestatot Azure AD, sadaļā [Tīmekļa pakalpojuma lietojumprogrammas izveide pakalpojumā Azure Active Directory](#create-service). |
 | ActiveDirectoryResource | Norādiet Supply Chain Management saknes vietrādi URL. |
-| ActiveDirectoryTenant | Norādiet Azure AD nomnieku, kuru izmantojat ar Supply Chain Management serveri. Šīs vērtības forma ir `https://login.windows.net/<your-Azure-AD-tenant-ID>`. Tālāk minēts piemērs: `https://login.windows.net/contosooperations.onmicrosoft.com`. |
+| ActiveDirectoryTenant | Norādiet Azure AD domēna nosaukumu, kuru izmantojat ar Supply Chain Management serveri. Šīs vērtības forma ir `https://login.windows.net/<your-Azure-AD-domain-name>`. Tālāk minēts piemērs: `https://login.windows.net/contosooperations.onmicrosoft.com`. Papildinformāciju par to, kā atrast Azure AD domēna nosaukumu, skatiet sadaļā [Svarīgu lietotāja ID atrašana](/partner-center/find-ids-and-domain-names). |
 | Uzņēmums | Norādiet to juridisko personu programmatūrā Supply Chain Management, ar kuru lietojumprogrammai ir jāizveido savienojums. |
 | ConnectionType | (Neobligāti) Norādiet, vai savienojuma iestatījumam jāizmanto sertifikāts vai klienta noslēpums, lai izveidotu savienojumu ar vidi. Derīgās vērtības ir *"certificate"* un *"clientsecret"*. Noklusējuma vērtība ir *"certificate"*.<p>**Piezīme:** klienta noslēpumus nevar importēt.</p> |
 | IsEditable | (Neobligāti) Norādiet, vai programmas lietotājs var rediģēt savienojuma iestatījumus. Derīgās vērtības ir *"true"* un *"false"*. Noklusējuma vērtība ir *"true"*. |
@@ -248,7 +248,7 @@ Ierīcē instalēto programmu var manuāli konfigurēt, lai izveidotu savienojum
         > [!NOTE]
         > Nebeigt šo vērtību ar slīpsvītru (/).
 
-    - **Active direktorija nomnieks** – ievadiet Azure AD nomnieku, kuru izmantojat ar Supply Chain Management serveri. Šīs vērtības forma ir `https://login.windows.net/<your-Azure-AD-tenant-ID>`. Tālāk minēts piemērs: `https://login.windows.net/contosooperations.onmicrosoft.com`.
+    - **Aktīvs direktorija nomnieks** – ievadiet Azure AD nomnieku, kuru izmantojat ar Supply Chain Management serveri. Šīs vērtības forma ir `https://login.windows.net/<your-Azure-AD-domain-name>`. Tālāk minēts piemērs: `https://login.windows.net/contosooperations.onmicrosoft.com`. Papildinformāciju par to, kā atrast Azure AD domēna nosaukumu, skatiet sadaļā [Svarīgu lietotāja ID atrašana](/partner-center/find-ids-and-domain-names).
 
         > [!NOTE]
         > Nebeigt šo vērtību ar slīpsvītru (/).

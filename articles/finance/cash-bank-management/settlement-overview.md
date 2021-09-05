@@ -1,8 +1,8 @@
 ---
 title: Segšanas apskats
 description: Šajā tēmā ir sniegta vispārīga informācija par nosegšanas procesu. Tā apraksta, kādus transakciju veidus var nosegt un to nosegšanas laiku un procesu. Tajā ir aprakstīti arī segšanas procesa rezultāti.
-author: kweekley
-ms.date: 04/10/2020
+author: panolte
+ms.date: 07/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 30a96b377d70c74a29e9e90699ccb077c727b20758378b5336660c6c056c6022
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6b4a4fd0756a4516b0c14e136730d21d062a106a
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755694"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344815"
 ---
 # <a name="settlement-overview"></a>Segšanas pārskats
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Šajā tēmā ir sniegta vispārīga informācija par nosegšanas procesu. Tā apraksta, kādus transakciju veidus var nosegt un to nosegšanas laiku un procesu. Tajā ir aprakstīti arī segšanas procesa rezultāti.
 
@@ -74,9 +76,25 @@ Segšanas var arī izraisīt transakciju ģenerēšanu. Piemēram, rēķina un m
 
 Mēģinot segt transakciju, jūs varat pamanīt simbolu, kas norāda, ka transakcija ir atzīmēta citā vietā. Šādā gadījumā jūs varat atlasīt transakciju lapā **Segt transakcijas** un pēc tam atlasīt **Pieprasījums \> Nosegšana no nosegšanas loga**. Šī pieprasījuma skatījumā tiek rādīti žurnāli, pārdošanas pasūtījumi, rēķini, maksājumu priekšlikumi un debitoru atrašanās vietas, kas, iespējams, bloķē transakciju no nosegšanas. Lai atrisinātu problēmu, varat atlasīt saiti, lai dotos tieši no uzziņas uz aizturēto atrašanās vietu. Pēc tam varat atjaunināt dokumentu ar korekcijām, kas ir nepieciešamas tās nosegšanai. Varat arī izmantot **Atzīmēto** indikatoru, lai identificētu citus dokumentus, kas ir iekļauti vienā aizturēšanas vietā.
 
+## <a name="resolve-issues-with-transactions-that-cant-be-settled"></a>Atrisināt problēmas ar transakcijām, ko nevar nosegt
+
+Dažreiz darbības nevar nosegt, jo pašreiz dokuments tiek apstrādāts citā darbībā. Mēģinot nosegt darbības, rodas kļūda, jo šīs darbības tiek izmantotas. Lai novērstu šo problēmu, varat izmantot lapu **Atzīmētā darbības informācija**, lai atrastu darbības, kas atzīmētas segšanai, un identificētu jebkurus citus procesus, kam tās piekļūst.
+
+Darbības ir atzīmētas segšanai vai nu tad, kad tiek apmaksāti kreditoru rēķini, vai kad debitori apmaksā atvērtos rēķinus. Reizēm šos rēķinus var jau atzīmēt segšanai. Tāpēc lietotāji nevar tos atlasīt maksājumam. Rēķinus var atzīmēt cits debitoru maksājumu žurnāls, pārdošanas pasūtījums, kreditora maksājumu žurnāls vai pirkšanas pasūtījums pašreizējā juridiskajā personām vai citai juridiskajai personai.
+
+Ja, ievadot debitora maksājumu, darbība ir bloķēta nosegšanai, atveriet lapu **Detalizēta informācija par debitoru** (**Debitori \> Periodiskie uzdevumi \> Debitoru atzīmētie darbības dati**). Lai ātri noteiktu, kur darbība ir bloķēta, var iestatīt jebkuru no šiem atlases parametriem: **Debitora konts**, **Dokuments**, **Datums** vai **Rēķins**. Ja atlases parametri nav iestatīti, sistēma rāda visus bloķētos dokumentus no pašreizējā uzņēmuma vai cita jūsu atlasītā uzņēmuma. Kad nosegšanai bloķētā darbība ir identificēta, varat to atlasīt un pēc tam atlasīt **Noņemt atzīmi atlasītajām darbībām**. Pēc tam atlasītā darbība tiek izņemta no jebkura žurnāla, kurā tā ir iekļauta. Tomēr dokuments netiek noņemts no citas atrašanās vietas. Tikai iezīmēšanas informācija tiek izņemta no šī žurnāla.
+
+Ja, ievadot debitora maksājumu, darbība ir bloķēta nosegšanai, atveriet lapu **Detalizēta informācija par kreditoru** (**Kreditori \> Periodiskie uzdevumi \> Kreditoru atzīmētie darbības dati**). Lai ātri noteiktu, kur darbība ir bloķēta, var iestatīt jebkuru no šiem atlases parametriem: **Kreditora konts**, **Dokuments**, **Datums** vai **Rēķins**. Ja atlases parametri nav iestatīti, sistēma rāda visus bloķētos dokumentus no pašreizējā uzņēmuma vai cita jūsu atlasītā uzņēmuma. Kad nosegšanai bloķētā darbība ir identificēta, varat to atlasīt un pēc tam atlasīt **Noņemt atzīmi atlasītajām darbībām**, lai atrisinātu problēmu ar bloķēšanu. Pēc tam atlasītā darbība tiek izņemta no jebkura žurnāla, kurā tā ir iekļauta. Tomēr dokuments netiek noņemts no citas atrašanās vietas. Tikai iezīmēšanas informācija tiek izņemta no šī žurnāla.
+
+Lai identificētu visus bloķētos dokumentus, atveriet lapu **Detalizēta informācija par visu iezīmēto darbību informāciju** (**Debitoru parādi \> Periodiskie uzdevumi \> Visi atzīmēto darbību uzdevumi** vai **Kreditori \> Periodiskie uzdevumi \> Visi atzīmēto darbību uzdevumi**). Lai ātri noteiktu, kur darbība ir bloķēta, var iestatīt jebkuru no šiem atlases parametriem: **Debitora konts**, **Kreditora konts**, **Dokuments**, **Datums** vai **Rēķins**. Ja atlases parametri nav iestatīti, sistēma rāda visus bloķētos dokumentus no pašreizējā uzņēmuma vai cita jūsu atlasītā uzņēmuma. Kad nosegšanai bloķētā darbība ir identificēta, varat to atlasīt un pēc tam atlasīt **Noņemt atzīmi atlasītajām darbībām**, lai atrisinātu problēmu ar bloķēšanu. Pēc tam atlasītā darbība tiek izņemta no jebkura žurnāla, kurā tā ir iekļauta. Tomēr dokuments netiek noņemts no citas atrašanās vietas. Tikai iezīmēšanas informācija tiek izņemta no šī žurnāla.
+
+Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot **Līdzekļu pārvaldības** darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Tur šī iespēja ir uzskaitīta tālāk minētajā veidā:
+
+- **Modulis:** Skaidras naudas un banku pārvaldība
+- **Līdzekļa nosaukums:** Detalizētas informācijas par atzīmēto darbību veidlapa
+
 ## <a name="additional-resources"></a>Papildu resursi
 
 - [Atlikuma nokārtošana](settle-remainder.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

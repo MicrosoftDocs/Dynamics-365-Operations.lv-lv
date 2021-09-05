@@ -1,8 +1,8 @@
 ---
 title: Pamatlīdzekļu transakciju opcijas
 description: Šajā tēmā ir aprakstītas dažādās pieejamās pamatlīdzekļu transakciju izveides metodes.
-author: ShylaThompson
-ms.date: 02/07/2019
+author: moaamer
+ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b1857d68a0dfaa25386f19344e4cb3ddc9ffd39b8a75860a1642773d6bd59cce
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9e2d7f21d8c88185383e252f8f6324208493c81
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764267"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344694"
 ---
 # <a name="fixed-asset-transaction-options"></a>Pamatlīdzekļu transakciju opcijas
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Šajā tēmā ir aprakstītas dažādās pieejamās pamatlīdzekļu transakciju izveides metodes.
 
@@ -58,14 +59,16 @@ Jebkuru pamatlīdzekļa transakcijas tipu var grāmatot lapā Virsgrāmatas žur
 | Nolietojums                        | Pamatlīdzekļi             | Pamatlīdzekļi                              |
 |                                     | Virsgrāmata           | Virsgrāmatas žurnāls                           |
 | Izslēgšana                            | Pamatlīdzekļi             | Pamatlīdzekļi                              |
-| ** **                               | Virsgrāmata           | Virsgrāmatas žurnāls                           |
-| ** **                               | Debitoru parādi      | Brīva teksta rēķins                         |
+|                                     | Virsgrāmata           | Virsgrāmatas žurnāls                           |
+|                                     | Debitoru parādi      | Brīva teksta rēķins                         |
 
-Pamatlīdzekļa nolietojuma periodu atlikusī vērtība netiek atjaunināta, ja nolietojuma transakcijas veida žurnāla rinda tiek ievadīta manuāli vai importēta, izmantojot datu elementu. Šī vērtība tiek atjaunināta, kad žurnāla rinda tiek izveidota, izmantojot nolietojuma priekšlikuma procesu.
+Atlikusī vērtība netiek atjaunināta pamatlīdzekļu nolietojuma periodiem, ja nolietojuma transakcijas veida žurnāla rinda tiek ievadīta manuāli vai importēta, izmantojot datu elementu. Atlikusī vērtība tiek atjaunināta, kad žurnāla rinda tiek izveidota, izmantojot nolietojuma priekšlikuma procesu.
 
 Plašāku informāciju skatiet rakstā [Pamatlīdzekļu integrācija](fixed-asset-integration.md).
 
-### <a name="transactions-that-require-different-voucher-numbers"></a>Darījumi, kurām ir nepieciešami dažādi dokumentu numuri
+Sistēma neļauj grāmatot nolietojumu tajā pašā periodā divreiz. Piemēram, ja divi lietotāji janvārī atsevišķi izveido nolietojuma priekšlikumus, pirmā lietotāja nolietojums tiks grāmatots pirmajā žurnālā. Kad otrais lietotājs grāmato nolietojumu otrajā žurnālā, sistēma pārbauda datumu, kad nolietojums tika pēdējo reizi izpildīts, un negrāmatots nolietojumu par to pašu periodu otrreiz.
+
+### <a name="transactions-that-require-a-different-voucher-number"></a>Darījumi, kuriem ir nepieciešams cits dokumenta numurs
 
 Pamatlīdzekļu darījumiem tiks lietoti dažādi dokumentu numuri:
 

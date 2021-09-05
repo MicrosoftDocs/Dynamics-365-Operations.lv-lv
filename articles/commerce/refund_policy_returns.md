@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 5c32156aea5f43d41b51f34b45b5b6dfedb5cad0f948924ecea9b3d89e6bb402
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4346f9eefa04688c80ce2512a7972bfd4627942c
+ms.sourcegitcommit: 53fad4d4b5fb67aa75550956ec205f456a5be01d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763696"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "7388937"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Izveidot un atjaunināt kanāla atgriešanas un atmaksas politiku
 
@@ -42,15 +42,6 @@ Lai iespējotu kanāla atgriešanas politikas funkcionalitāti programmā Commer
 1. Funkciju nosaukumu sarakstā meklējiet funkciju **iespējot kanāla atgriešanas politikas**.
 1. Atlasiet **Iespējot tagad**.
 1. Lapā **Sadales grafiks** palaidiet darbu **1110** (Globālā konfigurācija), lai sadalītu līdzekļa izmaiņas.
-
-## <a name="initialize-the-commerce-scheduler"></a>Commerce plānotāja inicializēšana
-
-Pēc līdzekļa **Iespējotā kanāla atgriešanas politiku iespējošana** ir jāinicializē Commerce plānotājs, lai nodrošinātu, ka jaunās līdzekļu datu bāzes izmaiņas tiek pievienotas, izmantojot Commerce Data Exchange (CDX) sinhronizāciju. 
-
-Lai inicializētu Commerce plānotāju Commerce Headquarters, veiciet tālāk norādītās darbības.
-
-- Dodieties uz **Retail un Commerce \> Headquarters uzstādīšanas programmas \> Commerce plānotājs \> Inicializēt komercijas plānotāju**. Varat arī meklēt “inicializēt Commerce plānotāju.”
-- Dialoglodziņā **Inicializēt komercijas plānotāju** pārliecinieties, vai opcija **Dzēst esošo konfigurāciju** ir iestatīta uz **Nē** un pēc tam atlasiet **Labi**.
 
 ## <a name="configure-return-policy"></a>Atgriešanas politikas konfigurēšana
 

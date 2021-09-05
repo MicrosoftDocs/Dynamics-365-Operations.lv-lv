@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 223ad9b5a297a5bcdbb0314d406f64d5de2b239431c6df21299ddebd9e47b8a2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0a37e3463273d1ffd35b267b36dfbd6fd92bb255
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738273"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343481"
 ---
 # <a name="improve-scheduling-engine-performance"></a>plānošanas programmas veiktspējas uzlabošana
 
@@ -70,7 +70,7 @@ Piemēram, apsveriet maršrutu, kas parādīts tālāk redzamajā tabulā un att
 
 Sūtot to uz programmu, tā tiek sadalīta astoņos darbos, kā parādīts tālāk redzamajā ilustrācijā (atlasiet attēlu, lai to palielinātu).
 
-[![Plānošanas programmas darbi](media/scheduling-engine-jobs.png "Plānošanas programmas darbi."](media/scheduling-engine-jobs-large.png)
+[![Plānošanas programmas darbi](media/scheduling-engine-jobs.png "Plānošanas programmas darbi.")](media/scheduling-engine-jobs-large.png)
 
 Standarta saite starp diviem darbiem ir `FinishStart`, kas nozīmē, ka viena darba beigu laikam jābūt pirms cita darba sākuma laika. Tā kā iestatījumus ir jāpilda tam pašam resursam, kas vēlāk veiks procesu, starp tiem pastāv `OnSameResource` ierobežojumi. Starp darbiem primārajai un sekundārajai operācijai 10 pastāv `StartStart` un `FinishFinish` saites, kas nozīmē, ka abiem darbiem ir jāsākas un jābeidzas vienlaicīgi, un pastāv `NotOnSameResource` ierobežojumi, kas nepieļaus vienu resursu primārajam un sekundārajam darbam.
 

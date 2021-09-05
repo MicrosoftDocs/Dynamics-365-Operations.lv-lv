@@ -2,11 +2,11 @@
 title: Darba sākšana ar nodokļu aprēķinu
 description: Šajā tēmā paskaidrots, kā iestatīt Nodokļu aprēķinu.
 author: wangchen
-ms.date: 07/19/2021
+ms.date: 08/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: TaxIntegrationTaxServiceParameters
 audience: Application user
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1f75fb48cc9af5513916b509056ee08569e6118c82f7c2f9e86f1db6fae3bafd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1ddbb22d4f7c6108ca93b415276c53794b5450dd
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769698"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394516"
 ---
-# <a name="get-started-with-the-tax-calculation-preview"></a>Sākt darbu ar Nodokļu aprēķinu (Priekšskatījums)
+# <a name="get-started-with-tax-calculation"></a>Darba sākšana ar nodokļu aprēķinu
 
 [!include [banner](../includes/banner.md)]
 
@@ -32,25 +32,62 @@ ms.locfileid: "6769698"
 
 Iestatījums sastāv no četrām galvenām darbībam:
 
-1. Sistēmā LCS instalējiet Nodokļu aprēķinu.
+1. Sistēmā LCS instalējiet nodokļu aprēķina pievienojumprogrammu.
 2. Sistēmā RCS iestatiet Nodokļu aprēķina līdzekli. Šis iestatījums nav specifisks juridiskajai personai. To var koplietot visas Finance un Supply Chain Management juridiskās personas.
 3. Finance un Supply Chain Management iestatiet Nodokļu aprēķina parametrus pēc juridiskās personas.
 4. Finance un Supply Chain Management izveidojiet tādus darījumus kā pārdošanas pasūtījumi un izmantojiet Nodokļu aprēķinu, lai noteiktu un aprēķinātu nodokļus.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
-Pirms varat pabeigt šajā tēmā norādītās procedūras, ir jāievieš šādi priekšnosacījumi:
+Pirms varat pabeigt šajā tēmā norādītās procedūras, katram vides veidam ir jāievieš priekšnosacījumi.
 
-- Jums ir piekļuve LCS kontam un esat izvietojis LCS projektu ar 2. pakāpes (vai augstākas) vidi, kurā darbojas Dynamics 365 versija 10.0.18 ar [KB4616360](https://fix.lcs.dynamics.com/Issue/Details?kb=4616360&bugId=568738&dbType=3&qc=1f1c04ff39adad74ef871f539e8d73e14c1893ef7cc4b6e3f7d5c5864ec2781a) vai jaunāka.
-- Jums ir piekļuve savam RCS kontam.
-- Esat sazinājies ar uzņēmumu Microsoft, lai iespējotu testējumu jūsu izvietotā Finance vai Supply Chain Management vidē.
+### <a name="for-a-production-environment"></a>Ražošanas videi
+
+Ražošanas videi ir jābūt izpildītiem tālāk minētajiem priekšnosacījumiem.
+
+- Jums jābūt piekļuvei LCS kontam un jābūt izvietotam LCS projektam ar 2. vai augstākas pakāpes vidi, kurā darbojas Dynamics 365 versija 10.0.21 vai jaunāka.
+- Jums ir jāizveido RCS vide jūsu organizācijai, un jums ir jābūt piekļuvei savam kontam. Papildinformāciju par to, kā izveidot RCS vidi, skatiet šeit: [Regulatory Configuration Service pārskats](rcs-overview.md).
+- Ņemot vērā jūsu uzņēmējdarbības vajadzības, jūsu izvietotās vides Finance vai Supply Chain Management darbvietā **Līdzekļu pārvaldība** jābūt ieslēgtiem tālāk minētajiem līdzekļiem.
+
+    - Nodokļu aprēķins
+    - Vairāku PVN reģistrācijas numuru atbalsts
+    - Nodokļi pārsūtīšanas pasūtījumā
+    - ES pārdošanas saraksta pārsūtīšana, pamatojoties tikai uz nodokļu darījumiem
+    - Intrastat pārskatu veidošana pēc vairākiem nodokļu ID
+    - ES pārdošanas sarakstu pārskatu veidošana pēc vairākiem nodokļu ID
+    - PVN deklarācija pēc vairākiem nodokļu ID
+
+- Izvietotās RCS vides darbvietā **Līdzekļu pārvaldība** jābūt ieslēgtiem tālāk minētajiem līdzekļiem.
+
+    - Globalizācijas līdzekļi
+
+### <a name="for-a-test-environment-public-preview"></a>Testa videi (publiskais priekšskatījums)
+
+Testa videi ir jābūt izpildītiem tālāk minētajiem priekšnosacījumiem.
+
+- Jums jābūt piekļuvei LCS kontam un jābūt izvietotam LCS projektam ar 2. vai augstākas pakāpes vidi, kurā darbojas Dynamics 365 versija 10.0.18 ar KB4616360 vai jaunāka versija.
+- Jums ir jāizveido RCS vide jūsu organizācijai, un jums ir jābūt piekļuvei savam kontam. Papildinformāciju par to, kā izveidot RCS vidi, skatiet šeit: [Regulatory Configuration Service pārskats](rcs-overview.md).
+- Lai iespējotu testējumu jūsu izvietotā Finance vai Supply Chain Management vidē, jums ir jāsazinās ar uzņēmumu Microsoft, rakstot uz epasta adresi <taxcalc@microsoft.com>.
+- Ņemot vērā jūsu uzņēmējdarbības vajadzības, jūsu izvietotās vides Finance vai Supply Chain Management darbvietā **Līdzekļu pārvaldība** jābūt ieslēgtiem tālāk minētajiem līdzekļiem.
+
+    - Nodokļu aprēķins
+    - Vairāku PVN reģistrācijas numuru atbalsts
+    - Nodokļi pārsūtīšanas pasūtījumā
+    - ES pārdošanas saraksta pārsūtīšana, pamatojoties tikai uz nodokļu darījumiem
+    - Intrastat pārskatu veidošana pēc vairākiem nodokļu ID
+    - ES pārdošanas sarakstu pārskatu veidošana pēc vairākiem nodokļu ID
+    - PVN deklarācija pēc vairākiem nodokļu ID
+
+- Izvietotās RCS vides darbvietā **Līdzekļu pārvaldība** jābūt ieslēgtiem tālāk minētajiem līdzekļiem.
+
+    - Globalizācijas līdzekļi
 
 ## <a name="set-up-tax-calculation-in-lcs"></a>Iestatīt Nodokļu aprēķinu sistēmā LCS
 
 1. Pierakstīšanās programmā [LCS](https://lcs.dynamics.com)
 2. Pabeidziet Microsoft Power Platform integrācijas iestatīšanu. Papildinformāciju skatiet sadaļā [Pievienojumprogrammas pārskats](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md).
-3. Atlasiet vienu no izvietotām vidēm, kas nav ražošanas vides, un pēc tam atlasiet **Instalēt jaunu pievienojumprogrammu**.
-4. Atlasīt **Nodokļu aprēķins (priekšskatījums)**.
+3. Atlasiet vienu no izvietotām vidēm, un pēc tam atlasiet **Instalēt jaunu pievienojumprogrammu**.
+4. Atlasiet **Nodokļu aprēķins**.
 5. Izlasiet un piekrītiet noteikumiem un nosacījumiem un pēc tam atlasiet **Instalēt**.
 
 ## <a name="set-up-tax-calculation-in-rcs"></a>Iestatīt Nodokļu aprēķinu sistēmā RCS
@@ -58,36 +95,51 @@ Pirms varat pabeigt šajā tēmā norādītās procedūras, ir jāievieš šādi
 Šīs sadaļas darbības nav saistītas ar noteiktu juridisko personu. Jums ir jāveic šī procedūra tikai vienu reizi, un jūs variet pabeigt to jebkurā juridiskajā persona programmā RCS.
 
 1. Pierakstieties [RCS](https://marketing.configure.global.dynamics.com/).
-2. Darbvietā **Līdzekļu pārvaldība** atlasiet un iespējojiet līdzekli **Globalizācijas līdzekļi**.
-3. Darbvietā **Elektronisko pārskatu veidošana** pievienojiet jaunu konfigurācijas nodrošinātāju. Kā nodrošinātāja nosaukumu izmantojiet uzņēmuma nosaukumu. Papildinformāciju skatiet [Izveidot konfigurācijas nodrošinātājus un atzīmēt tos kā aktīvus](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
-4. Atlasiet tikko izveidoto konfigurācijas nodrošinātāju un pēc tam atlasiet **Iestatīt aktīvu**.
-5. Atlasiet **Microsoft** konfigurācijas nodrošinātāju, un tad atlasiet **Repozitoriji**.
-6. Laukā **Tips** atlasiet **Globāls**.
-7. Atlasiet **Atvērt**.
-8. Dodieties uz **Nodokļu datu modelis**, izvērsiet failu koku un pēc tam atlasiet **Nodokļu konfigurācija**.
-9. Atlasiet jaunāko versiju un pēc tam atlasiet **Importēt**.
-10. Atgriezieties darbvietā **Globalizācijas līdzekļi**, atlasiet **Līdzekļi**, atlasiet elementu **Nodokļu aprēķins** un pēc tam atlasiet **Pievienot**.
-11. Atlasiet vienu no šiem līdzekļu tipiem:
+2. Darbvietā **Elektronisko pārskatu veidošana** pievienojiet jaunu konfigurācijas nodrošinātāju. Kā nodrošinātāja nosaukumu izmantojiet uzņēmuma nosaukumu. Papildinformāciju skatiet [Izveidot konfigurācijas nodrošinātājus un atzīmēt tos kā aktīvus](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
+3. Atlasiet tikko izveidoto konfigurācijas nodrošinātāju un pēc tam atlasiet **Iestatīt aktīvu**.
+4. Atlasiet **Microsoft** konfigurācijas nodrošinātāju, un tad atlasiet **Repozitoriji**.
+5. Laukā **Tips** atlasiet **Globāls**.
+6. Atlasiet **Atvērt**.
+7. Dodieties uz **Nodokļu datu modelis**, izvērsiet failu koku un pēc tam atlasiet **Nodokļu konfigurācija**.
+8. Atlasiet pareizo nodokļu konfigurācijas versiju, pamatojoties uz savu Finance versiju, un pēc tam atlasiet **Importēt**.
+
+    | Partijas versija | Nodokļu konfigurācija                       | Modeļa kartēšana                   |
+    | --------------- | --------------------------------------- | ------------------------------- |
+    | 10.0.18         | Nodokļu konfigurācija — Eiropa 30.12.82     |                                 |
+    | 10.0.19         | Nodokļu aprēķina konfigurācija 36.38.193 |                                 |
+    | 10.0.20         | Nodokļu aprēķina konfigurācija 40.43.208 |                                 |
+    | 10.0.21         | Nodokļu aprēķina konfigurācija 40.46.212 | Dataverse Modeļa kartēšana 40.46.9 |
+
+9. Darbvietā **Globalizācijas līdzekļi**, atlasiet **Līdzekļi**, atlasiet elementu **Nodokļu aprēķins** un pēc tam atlasiet **Pievienot**.
+10. Atlasiet vienu no šiem līdzekļu tipiem:
 
     - **Jauns līdzeklis** – izveidojiet līdzekļa iestatījumu, kam ir tukšs saturs.
     - **Balstīts uz esošo līdzekli** – izveidojiet līdzekli no esoša līdzekļa un kopējiet saturu no esoša līdzekļa iestatījuma.
 
 11. Ievadiet jaunā līdzekļa nosaukumu un aprakstu un pēc tam atlasiet **Izveidot līdzekli**.
 
-    Pēc līdzekļa izveides automātiski tiek izveidota tā melnraksta versija.
+    Pēc līdzekļa izveides automātiski tiek izveidota tā melnraksta versija. Varat atlasīt **Iegūt šo versiju**, lai atkārtoti bāzētu melnraksta versiju jebkurā pabeigtā versijā.
 
 12. Atlasiet līdzekļa melnraksta versiju un pēc tam atlasiet **Rediģēt**. Ir aizpildīta lapa **Nodokļu aprēķina iestatījums**.
 13. Atlasiet **Konfigurācijas versija**. 8. darbībā jums vajadzētu redzēt importēto konfigurācijas versiju.
 
-    Microsoft nodrošina nodokļu aprēķina pievienojumprogrammas noklusējuma nodokļu konfigurāciju. Šī konfigurācija sedz lielāko daļu nodokļu aprēķina darbību prasību. Tas tiks atjaunināts, balstoties uz tirgus atsauksmēm. Ja konfigurācija jāpaplašina, lai tā atbilstu noteiktām prasībām, skatiet sadaļu [Kā veidot nodokļu pakalpojumu paplašinājumu](./tax-service-add-data-fields-tax-integration-by-extension.md), lai saņemtu informāciju par to, kā ģenerēt un atlasīt savu nodokļu konfigurāciju.
+    Microsoft nodrošina nodokļu aprēķina noklusējuma nodokļu konfigurāciju. Šī konfigurācija sedz lielāko daļu nodokļu aprēķina darbību prasību. Tas tiks atjaunināts, balstoties uz tirgus atsauksmēm. Ja konfigurācija jāpaplašina, lai tā atbilstu noteiktām prasībām, skatiet sadaļu [Kā veidot nodokļu pakalpojumu paplašinājumu](./tax-service-add-data-fields-tax-integration-by-extension.md), lai saņemtu informāciju par to, kā ģenerēt un atlasīt savu nodokļu konfigurāciju.
 
-    Pēc **Konfigurācijas versija** izvēles, tiek parādītas vairākas papildu cilnes:
+14. Pēc **Konfigurācijas versija** izvēles, tiek parādītas vairākas papildu cilnes. Lai pabeigtu obligāto cilnes iestatīšanu, izpildiet šeit norādīto rīkojumu.
 
-    - **Nodokļu kodi** – šī cilne ir obligāta. To izmanto nodokļu kodu pamatdatu uzturēšanai. Visi šajā cilnē izveidotie nodokļu kodi automātiski tiek sinhronizēti ar Finance, ja iespējojat pašreizējo juridiskās personas nodokļu līdzekļa iestatījumu versiju.
-    - **Nodokļu kodu iespējas** – šī cilne ir obligāta. Tas tiek izmantots, lai definētu matricu, kas nosaka nodokļa kodu, nodokļa grupu un krājuma nodokļa grupu. Noteikto nodokļa kodu izmanto nodokļa summas aprēķināšanai. Lauku **Nodokļa kods**, **Nodokļa grupa** un **Krājuma nodokļa grupa** vērtības tiek atgrieztas programmā Finance.
-    - **Klienta nodokļa reģistrācijas numura piemērojamība** – šī cilne nav obligāta. Ja vienam debitoram ir vairāki nodokļa reģistrācijas numuri, Nodokļu aprēķins var automātiski noteikt pareizo nodokļa reģistrācijas numuru. Šīs cilnes matricā definējiet nosacījumus, kurus izmanto, lai veiktu noteikšanu. Pretējā gadījumā Finance un Supply Chain Management turpinās izmantot ar nodokli apliekamo dokumentu noklusējuma nodokļa reģistrācijas numuru pārdošanas darbībām.
-    - **Kreditora nodokļa reģistrācijas numura piemērojamība** – šī cilne nav obligāta. Ja vienam kreditoram ir vairāki nodokļa reģistrācijas numuri, Nodokļu aprēķins var automātiski noteikt pareizo nodokļa reģistrācijas numuru. Šīs cilnes matricā definējiet nosacījumus, kurus izmanto, lai veiktu noteikšanu. Pretējā gadījumā Finance un Supply Chain Management turpinās izmantot ar nodokli apliekamo dokumentu noklusējuma nodokļa reģistrācijas numuru pirkšanas darbībām.
-    - **Saraksta koda piemērojamība** — šī cilne nav obligāta. Tas var palīdzēt automātiski noteikt lauka **Saraksta kods** vērtību, izmantojot elastīgākus un konfigurējamus noteikumus. Šīs cilnes matricā var definēt nosacījumus, kurus izmanto, lai veiktu noteikšanu. Pretējā gadījumā Finance un Supply Chain Management turpinās izmantot ar nodokli apliekamo dokumentu noklusējuma kodu.
+    **Obligātā iestatīšana**
+
+    - **Nodokļu kodi** — uztur pamatdatus nodokļu kodiem. Visi šajā cilnē izveidotie nodokļu kodi automātiski tiek sinhronizēti ar Finance, ja iespējojat pašreizējo versiju.
+    - **Nodokļu grupa** — definē nodokļu grupas pamatdatus un nodokļu kodus grupā.
+    - **Krājuma nodokļu grupa** — definē krājuma nodokļu grupas pamatdatus un nodokļu kodus grupā.
+
+    **Izvēles iestatīšana**
+
+    - **Nodokļu grupas piemērojamība** — definē matricu, kas nosaka nodokļu grupu. Ja šajā matricā piemērojamības noteikumi neatbilst Dynamics 365 ar nodokli apliekamajam dokumentam, nodokļu aprēķins izmanto ar nodokli apliekamā dokumenta rindas noklusējuma vērtību.
+    - **Krājuma nodokļu grupas piemērojamība** — definē matricu, kas nosaka krājuma nodokļu grupu. Ja šajā matricā piemērojamības noteikumi neatbilst Dynamics 365 ar nodokli apliekamajam dokumentam, nodokļu aprēķins izmanto ar nodokli apliekamā dokumenta rindas noklusējuma vērtību.
+    - **Debitora nodokļu reģistrācijas numura piemērojamība** — ja vienam debitoram ir vairāki nodokļa reģistrācijas numuri, nodokļu aprēķins var automātiski noteikt pareizo nodokļa reģistrācijas numuru. Šīs cilnes matricā definējiet nosacījumus, kurus jāizmanto, lai veiktu noteikšanu. Pretējā gadījumā Finance un Supply Chain Management turpinās izmantot ar nodokli apliekamo dokumentu noklusējuma nodokļa reģistrācijas numuru pārdošanas darbībām.
+    - **Kreditora nodokļu reģistrācijas numura piemērojamība** — ja vienam kreditoram ir vairāki nodokļa reģistrācijas numuri, nodokļu aprēķins var automātiski noteikt pareizo nodokļa reģistrācijas numuru. Šīs cilnes matricā definējiet nosacījumus, kurus jāizmanto, lai veiktu noteikšanu. Pretējā gadījumā Finance un Supply Chain Management turpinās izmantot ar nodokli apliekamo dokumentu noklusējuma nodokļa reģistrācijas numuru pirkšanas darbībām.
+    - **Saraksta koda piemērojamība** — automātiski nosaka lauka **Saraksta kods** vērtību, izmantojot elastīgākus un konfigurējamus noteikumus. Šīs cilnes matricā definējiet nosacījumus, kurus jāizmanto, lai veiktu noteikšanu. Pretējā gadījumā Finance un Supply Chain Management turpinās izmantot ar nodokli apliekamo dokumentu noklusējuma kodu.
 
 14. Cilnē **Nodokļu kodi** atlasiet **Pievienot** un ievadiet nodokļa kodu un aprakstu.
 15. Atlasiet **Nodokļa komponents**. Nodokļa komponents ir metožu grupa, kas definēta atlasītās nodokļu konfigurācijas iepriekšējā versijā. Pieejami tālāk norādītie nodokļu komponenti.
@@ -103,52 +155,93 @@ Pirms varat pabeigt šajā tēmā norādītās procedūras, ir jāievieš šādi
 
     - Ir atbrīvots
     - Ir Importa nodoklis
-    - Ir Apgrieztā maksa
+    - Ir apgrieztā maksa
     - Neiekļaut pamatsummas aprēķinā
 
     Importa nodokļu scenārijam iestatiet vienu nodokļa kodu, kam ir pozitīva nodokļu likme, un atzīmējiet to kā **Ir Importa nodoklis**.
 
     Apgrieztās maksas scenārijam iestatiet divus nodokļu kodus, no kuriem vienam ir pozitīva nodokļu likme, bet otram ir negatīva nodokļu likme, bet tāda pati likmes vērtība. Atzīmējiet negatīvo nodokļa kodu kā **Ir Apgrieztā maksa**. Papildinformāciju par atgrieztās maksas risinājumu programmā Finance skatiet [Apgrieztās maksas mehānisms PVN/GST shēmai](emea-reverse-charge.md).
-    
-    Dažiem nodokļu tipiem, kas dažās valstīs ir jāizslēdz no nodokļu pamatsummas aprēķina, piemēram, muitas nodoklim dažās valstīs, atlasiet izvēles rūtiņu **Neiekļaut pamatsummas aprēķinā**.
+
+    Dažiem nodokļu tipiem, kas nav jāiekļauj nodokļu pamatsummas aprēķinā cenu ietverošām transakcijām (piemēram, muitas nodoklim dažās valstīs vai reģionos), atlasiet izvēles rūtiņu **Neiekļaut pamatsummas aprēķinā**. Papildinformāciju par šo parametru skatiet sadaļā [Nodokļu aprēķināšana virs cenas, ja ir iespējots parametrs Cenas ietver nodokļus](global-exclude-from-tax-base-amount-calculation.md).
 
     Uzturējiet nodokļu likmes un nodokļu summas ierobežojumus šim nodokļu kodam.
 
 18. Atkārtojiet 14.-17. darbību, lai pievienotu visus citus nepieciešamos nodokļu kodus.
-19. Cilnē **Nodokļu kodu piemērojamība** atlasiet kolonnas, kas ir nepieciešamas pareizā nodokļa koda noteikšanai, un pēc tam atlasiet **Pievienot**.
-20. Ievadiet vai atlasiet vērtības katrai kolonnai. Lauki **Nodokļa kods**, **Nodokļa grupa** un **Krājuma nodokļa grupa** būs šīs matricas izvade.
-21. Atkārtojiet no 19. līdz 20. darbības, lai iestatītu debitora nodokļu reģistrācijas numuru, kreditora nodokļa reģistrācijas numuru un sarakstu kodu piemērojamību.
-22. Atlasiet **Saglabāt** un pēc tam aizveriet lapu.
-23. Atlasiet **Mainīt statusu** \> **Pabeigts**. Kad statuss ir mainīts uz **Pabeigts**, versiju vairs nevar rediģēt.
-24. Atlasiet **Mainīt statusu** \> **Publicēt**. Šī nodokļu līdzekļa iestatīšanas versija tiks novirzīta uz globālo repozitoriju un būs redzama katrai Finance juridiskajai personai.
+19. Cilnē **Nodokļu grupa** atlasiet kolonnu **Nodokļu grupa**, pievienojiet to matricai kā ievades nosacījumu un pēc tam pievienojiet rindas, lai uzturētu nodokļu grupas pamatdatus.
 
-## <a name="dynamics-365-setup"></a>Dynamics 365 iestatīšana
+    Tālāk ir minēts piemērs.
 
-Kad būsiet pabeidzis iestatījumu RCS, kā aprakstīts iepriekšējā sadaļā, jums būs nodokļu līdzekļa publicētā versija. Veiciet šīs darbības, lai Finance sistēmā iestatītu Nodokļu aprēķinu.
+    | Nodokļu grupa    | Nodokļu kodi           |
+    | ------------ | ------------------- |
+    | DEU_Domestic | DEU_VAT19; DEU_VAT7 |
+    | DEU_EU       | DEU_Exempt          |
+    | BEL_Domestic | BEL_VAT21; BEL_VAT6 |
+    | BEL_EU       | BEL_Exempt          |
+
+20. Cilnē **Krājumu nodokļu grupa** atlasiet kolonnu **Krājumu nodokļu grupa**, pievienojiet to matricai kā ievades nosacījumu un pēc tam pievienojiet rindas, lai uzturētu nodokļu grupas pamatdatus.
+
+    Tālāk ir minēts piemērs.
+
+    | Krājumu nodokļu grupa | Nodokļu kodi                                    |
+    | -------------- | -------------------------------------------- |
+    | Pilns           | DEU_VAT19; BEL_VAT21; DEU_Exempt; BEL_Exempt |
+    | Samazināts        | DEU_VAT7; BEL_VAT6; DEU_Exempt; BEL_Exempt   |
+
+21. Cilnē **Nodokļu grupas piemērojamība** atlasiet kolonnas, kas ir nepieciešamas pareizās nodokļu grupas noteikšanai, un pēc tam atlasiet **Pievienot**. Ievadiet vai atlasiet vērtības katrai kolonnai. Lauks **Nodokļu grupa** būs šīs matricas rezultāts. Ja šī cilne netiek konfigurēta, tiks izmantota PVN grupa transakciju rindā.
+
+    Tālāk ir minēts piemērs.
+
+    | Biznesa process | Nosūtītājs | Saņēmējs | Nodokļu grupa    |
+    | ---------------- | --------- | ------- | ------------ |
+    | Pārdošana            | DEU       | DEU     | DEU_Domestic |
+    | Pārdošana            | DEU       | FRA     | DEU_EU       |
+    | Pārdošana            | BEL       | BEL     | BEL_Domestic |
+    | Pārdošana            | BEL       | FRA     | BEL_EU       |
+
+22. Cilnē **Krājumu nodokļu grupas piemērojamība** atlasiet kolonnas, kas ir nepieciešamas pareizā nodokļu koda noteikšanai, un pēc tam atlasiet **Pievienot**. Ievadiet vai atlasiet vērtības katrai kolonnai. Lauks **Krājumu nodokļu grupa** būs šīs matricas rezultāts. Ja šī cilne netiek konfigurēta, tiks izmantota krājumu PVN grupa transakciju rindā.
+
+    Tālāk ir minēts piemērs.
+
+    | Krājuma kods | Krājumu nodokļu grupa |
+    | --------- | -------------- |
+    | D0001     | Pilns           |
+    | D0003     | Samazināts        |
+
+    Papildinformāciju par to, kā nodokļu aprēķinā tiek noteikti nodokļu kodi, skatiet sadaļā [PVN grupas un krājuma PVN grupas noteikšanas loģika](global-sales-tax-group-determination.md).
+
+23. Iestatiet debitora nodokļu reģistrācijas numuru, kreditora nodokļa reģistrācijas numuru un sarakstu kodu piemērojamību, pamatojoties uz uzņēmējdarbības vajadzībām.
+24. Atlasiet **Saglabāt** un pēc tam aizveriet lapu.
+25. Atlasiet **Mainīt statusu** \> **Pabeigts**. Kad statuss ir mainīts uz **Pabeigts**, versiju vairs nevar rediģēt.
+26. Atlasiet **Mainīt statusu** \> **Publicēt**. Šī nodokļu līdzekļa iestatīšanas versija tiks novirzīta uz globālo repozitoriju un būs redzama katrai Finance juridiskajai personai.
+
+## <a name="set-up-tax-calculation-in-dynamics-365"></a>Nodokļu aprēķina iestatīšana Dynamics 365
+
+Pēc iestatīšanas pabeigšanas RCS, būs nodrošināta nodokļu līdzekļa publicētā versija. Veiciet šīs darbības, lai Finance sistēmā iestatītu Nodokļu aprēķinu.
 
 Iestatījumus šajā sadaļā veic juridiska persona. Jums tas jākonfigurē katrai juridiskajai personai, kurai programmā Finance vēlaties iespējot Nodokļu aprēķinu.
 
-1. Programmā Finance dodieties uz **Nodoklis** \> **Uzstādīšana** \> **Nodokļu konfigurācija** \> **Nodokļu aprēķina iestatījumi (Priekšskatījums)**.
+1. Programmā Finance dodieties uz **Nodoklis** \> **Uzstādīšana** \> **Nodokļu konfigurācija** \> **Nodokļu aprēķina parametri**.
 2. Cilnē **Vispārīgi** iestatiet šādus laukus:
 
-    - **Iespējot Nodokļu aprēķinu** — atzīmējiet šo izvēles rūtiņu, lai iespējotu Nodokļu aprēķinu juridiskajai personai. Ja tas nav iespējots pašreizējai juridiskajai personai, juridiskā persona turpinās izmantot esošo nodokļu programmu, lai noteiktu un aprēķinātu nodokli.
+    - **Iespējot nodokļu aprēķina pakalpojumu** — atzīmējiet šo izvēles rūtiņu, lai iespējotu nodokļu aprēķinu juridiskajai personai. Ja tas nav iespējots pašreizējai juridiskajai personai, juridiskā persona turpinās izmantot esošo nodokļu programmu, lai noteiktu un aprēķinātu nodokli.
     - **Līdzekļa iestatījumi** — atlasiet publicētu nodokļu līdzekļu iestatījumus un juridiskās personas versiju. Papildinformāciju par publicēta nodokļu līdzekļa iestatīšanu un pabeigšanu skatiet šīs tēmas iepriekšējā sadaļā.
     - **Biznesa process** – atlasiet iespējošanai biznesa procesus.
-    - **Iespējot nodokļu koda korekciju** — iestatiet šo opciju uz **Jā**, lai iespējotu nodokļu koda korekcijas nodokļu lapā.
 
-3. Cilnē **Aprēķins** definējiet juridiskās personas paredzamo noapaļošanas kārtulu.
-4. Cilnē **Kļūdu apstrāde** definējiet juridiskās personas paredzamo kļūdu apstrādes metodi. Katram rezultātu kodam ir pieejamas trīs opcijas:
+3. Cilnē **Aprēķins** definējiet juridiskās personas paredzamo noapaļošanas kārtulu. Papildinformāciju par noapaļošanas loģiku skatiet sadaļā [Nodokļu aprēķina noapaļošanas noteikumi](https://go.microsoft.com/fwlink/?linkid=2166988).
+4. Cilnē **Kļūdu apstrāde** definējiet juridiskās personas paredzamo kļūdu apstrādes metodi. Ir pieejamas trīs opcijas:
 
     - Nr.
     - Brīdinājums
     - Kļūda
 
-5. Saglabājiet iestatījumu.
-6. Atkārtojiet 1.-5. darbību katrai papildu juridiskai personai.
+    Katram rezultāta kodam sadaļā **Detalizēta informācija** var iestatīt kļūdu apstrādes metodi. Alternatīvi, ja daži rezultātu kodi netiek sinhronizēti no nodokļu aprēķina pakalpojuma, noklusējuma metodi varat iestatīt sadaļā **Vispārīgi**.
+
+5. Cilnē **Vairākas PVN reģistrācijas** varat atsevišķi ieslēgt PVN deklarāciju, ES pārdošanas sarakstu un Intrastat, lai strādātu vairāku PVN reģistrāciju scenārijā. Plašāku informāciju par nodokļu pārskatu veidošanu vairākām PVN reģistrācijām skatiet sadaļā [Pārskatu sniegšana vairākām PVN reģistrācijām](emea-reporting-for-multiple-vat-registrations.md).
+6. Saglabājiet iestatījumus un atkārtojiet iepriekšējās darbības katrai papildu juridiskajai personai. Kad tiek publicēta jauna versija un vēlaties to lietot, iestatiet lauku **Līdzekļu iestatīšana** lapas **Nodokļu aprēķina parametri** cilnē **Vispārīgi** (skat. 2. darbību).
 
 ## <a name="transaction-processing"></a>Darbību apstrāde
 
-Kad esat pabeidzis visas iestatīšanas procedūras, varat izmantot Nodokļu aprēķinu, lai noteiktu un aprēķinātu nodokli programmā Finance. Darījumu apstrādes darbības paliek tās pašas. Finance versijā 10.0.18 tiek atbalstītas šādi darījumi:
+Kad esat pabeidzis visas iestatīšanas procedūras, varat izmantot Nodokļu aprēķinu, lai noteiktu un aprēķinātu nodokli programmā Finance. Darījumu apstrādes darbības paliek tās pašas. Finance versijā 10.0.21 tiek atbalstītas šādi darījumi:
 
 - Pārdošanas process
 

@@ -2,7 +2,7 @@
 title: E-pasta ziņojuma ER adresāta tips
 description: Šajā tēmā sniegta informācija par to, kā konfigurēt arhīva mērķi katrai MAPEI vai FAILA komponentam elektronisko pārskatu (ER) formātā.
 author: NickSelin
-ms.date: 07/27/2021
+ms.date: 08/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 46817197f3b0938fb325b2b3ebefbee41b5e4583092e521e6a8dae70d78b0970
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4ee1ae4d8a106e467640a8cbcf5986e770395431
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769323"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343864"
 ---
 # <a name="email-er-destination-type"></a>E-pasta ziņojuma ER adresāta tips
 
@@ -53,9 +53,22 @@ Lai nosūtītu vienu vai vairākus izvades failus pa e-pastu, sekojiet šiem so�
 
 ## <a name="configure-an-email-destination"></a>E-pasta ziņojuma galamērķa konfigurēšana
 
-Kad šī opcija ir iespējota, varat norādīt e-pasta ziņojumu adresātus, kā arī rediģēt tēmu un e-pasta ziņojuma pamattekstu. E-pasta ziņojuma tēmai un pamattekstam varat iestatīt konstantus tekstus, vai arī varat lietot ER [formulas](er-formula-language.md), lai e-pasta tekstus izveidotu dinamiski.
+### <a name="email-content"></a>E-pasta ziņojuma saturs
 
-Pēc noklusējuma e-pasta ziņojums tiek sūtīts pašreizējā lietotāja vārdā. Lai norādītu citu e-pasta sūtītāju, ir jākonfigurē lauks **No**.
+Varat rediģēt e-pasta ziņojuma tēmu un pamattekstu.
+
+Laukā **Tēma** ievadiet e-pasta tēmas tekstu, kam ir jāparādās izpildlaikā ģenerētā elektroniskā ziņojuma tēmas laukā. Laukā **Pamatteksts** ievadiet e-pasta pamatteksta tekstu, kam ir jāparādās elektroniskā ziņojuma pamatteksta laukā. E-pasta ziņojuma tēmai un pamattekstam varat iestatīt konstantus tekstus, vai arī varat lietot ER [formulas](er-formula-language.md), lai e-pasta tekstus izveidotu dinamiski izpildlaikā. Konfigurētai formulai ir jāatgriež [virknes](er-formula-supported-data-types-primitive.md#string) veida vērtība.
+
+Atkarībā no e-pasta klienta e-pasta ziņojuma pamatteksts ir TEKSTA vai HTML formātā. Jūs varat izmantot jebkuru izkārtojumu, stilu un zīmolu, ko HTML un iekļautās kaskadētās stila lapas (CSS) atļauj.
+
+> [!NOTE]
+> E-pasta klienti nosaka izkārtojuma un stila ierobežojumus, kas varētu prasīt labojumus HTML un CSS, ko izmantojat ziņojuma pamattekstam. Mēs iesakām jums iepazīties ar labāko praksi, lai izveidotu HTML, ko atbalstīs populārākie e-pasta klienti.
+>
+> Izmantojiet pareizu kodējumu, lai ieviestu rakstatgriezi, atkarībā no pamatteksta formatējuma. Lai iegūtu plašāku informāciju skatiet datu veida [Virkne](er-formula-supported-data-types-primitive.md#string) definīciju.
+
+### <a name="email-addresses"></a>E-pasta adreses
+
+Varat norādīt e-pasta sūtītāju un e-pasta saņēmējus. Pēc noklusējuma e-pasta ziņojums tiek sūtīts pašreizējā lietotāja vārdā. Lai norādītu citu e-pasta sūtītāju, ir jākonfigurē lauks **No**.
 
 > [!NOTE]
 > Kad e-pasta adresāts ir konfigurēts, lauks **No** ir redzams tikai lietotājiem, kuriem ir `ERFormatDestinationSenderEmailConfigure` drošības privilēģija, **Konfigurēt sūtītāja e-pasta adresi ER formāta adresātiem**.

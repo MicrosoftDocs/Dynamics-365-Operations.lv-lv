@@ -1,8 +1,8 @@
 ---
 title: Atvieglojumu pārvaldības pārskats
-description: Pārskats par Atvieglojumu pārvaldības līdzekli Dynamics 365 Human Resources. Piedāvājiet saviem darbiniekiem paplašinātas atvieglojumu opcijas ar ērti lietojamu tiešsaistes pieredzi.
-author: andreabichsel
-ms.date: 07/13/2021
+description: Šajā tēmā ir sniegts apskats par Atvieglojumu pārvaldības līdzekli programmā Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a1e00bb3fa227eab62b6e530a32f0eae0bd871c1cfe5bb3d29e09a06a707ce17
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7c4709a63201dd1a02c8879151762886f644ce22
+ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719147"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7417413"
 ---
 # <a name="benefits-management-overview"></a>Atvieglojumu pārvaldības pārskats
 
@@ -37,13 +37,13 @@ Lai saglabātu konkurētspēju, jāpiedāvā bagātīgs atvieglojumu kopums, lai
 Ja vēlaties piekļūt demonstrācijas datiem, būs nepieciešams atkārtoti izvietot savu smilškastes vidi.
 
 > [!NOTE]
-> Tagad varat pielāgot atvieglojumu pārvaldības veidlapas. Tagad varat pievienot pielāgotos laukus, kas saistīti ar seguma likmēm, veidlapai **Seguma opcija** atvieglojumu plāniem. Lai iegūtu papildinformāciju par darbu ar pielāgotiem laukiem, skatiet rakstā [Pielāgotie lauki](hr-developer-custom-fields.md).
+> Tagad varat pielāgot Atvieglojumu pārvaldības lapas. Tagad varat pievienot pielāgotos laukus, kas saistīti ar seguma likmēm, lapai **Seguma opcija** atvieglojumu plāniem. Lai iegūtu papildinformāciju par darbu ar pielāgotiem laukiem, skatiet rakstā [Pielāgotie lauki](hr-developer-custom-fields.md).
 >
 > ![Atvieglojumu pārvaldības pielāgotie lauki](media/hr-benefits-management-custom-fields.png)
 
 ## <a name="enable-benefits-management"></a>Atvieglojumu pārvaldības iespējošana
 
-Šī tēma apraksta, kā ieslēgt Human Resources priekšskatījuma līdzekļus. Tajā arī norādīts, kādus pastāvošos Human Resources līdzekļus aizstāj šī atvieglojumu pārvaldība, vai kadi līdzekļi tiek atspējoti, ieslēdzot atvieglojumu pārvaldību.
+Šī tēma apraksta, kā ieslēgt Human Resources priekšskatījuma līdzekļus. Tajā arī norādīts, kādus pastāvošos Human Resources līdzekļus aizstāj šī Atvieglojumu pārvaldība, vai kādi līdzekļi tiek atspējoti, ieslēdzot atvieglojumu pārvaldību.
 
 > [!IMPORTANT]
 > Pēc tam, kad iespējojat Atvieglojumu pārvaldību **Ražošanas** vidē, to nevar atspējot. Iesakām iespējot un testēt Atvieglojumu pārvaldību **Smilškastes** vidē pirms tās iespējošanas **Ražošanas** vidē. Pastāv būtiskas atšķirības starp mantoto Atvieglojumu funkcionalitāti un jauno Atvieglojumu pārvaldības funkcionalitāti, kam nepieciešami papildu iestatījumi, un tie ir jāpārbauda pirms ielaišanas ražošanā.

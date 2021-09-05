@@ -2,19 +2,19 @@
 title: Puse un globālā adrešu grāmata
 description: Šajā tēmā ir aprakstīta dubultās rakstīšanas Puses un globālās adrešu grāmatas funkcionalitāte.
 author: RamaKrishnamoorthy
-ms.date: 02/22/2021
+ms.date: 08/11/2021
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 3cb4cdaefe7bd82dec612a11d75aeedb77bce152a00ff90fb0095f75b23a4bbb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: da5ca16ed87108f8046348c831d37085f6f780d7
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729780"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386689"
 ---
 # <a name="party-and-global-address-book"></a>Puse un globālā adrešu grāmata
 
@@ -139,7 +139,10 @@ Režģī ir iekļautas tālāk minētās kolonnas.
 
 Varat izmantot pogu **Jauna elektroniskā adrese** virs režģa, lai izveidotu pēc izvēles tik daudz adrešu, cik vēlaties.
 
-Elektroniskās adreses ir pieejamas tikai šajā režģī. Turpmākajos laidienos visi pasta adrešu un elektronisko adrešu lauki tiks noņemti no citām cilnēm (piemēram, cilnēm **Kopsavilkums** un **Detalizēta informācija** ).
+Elektroniskās adreses ir pieejamas tikai šajā režģī. Turpmākajos laidienos visi pasta adrešu un elektronisko adrešu lauki tiks noņemti no citām cilnēm, piemēram, **Kopsavilkums** un **Detalizēta informācija**. Cilnē **Detalizēta informācija** rādītā kontaktinformācija ir tikai primārās elektroniskās adreses kopijas, piemēram, primārais tālrunis, primārais e-pasts, primārais fakss un primārais Twitter ID. Potenciālā klienta kvalifikācijas procesa laikā varat norādīt gan biznesa tālruņa numuru, gan mobilā tālruņa numuru. Biznesa tālruņa numurs tiek uzskatīts par primāro tālruņa numuru, ja **IsMobile=Nē** un mobilā tālruņa numurs tiek uzskatīts par sekundāro tālruni, ja **IsMobile=Jā**.
+
+> [!TIP]
+> Lai pārvaldītu pasta un elektroniskās adreses, lietojiet **Konta** un **Kontaktu** veidlapas **Adreses** **Elektroniskās adreses** . Tas nodrošina, ka adrešu dati tiek sinhronizēti ar Finance and Operations programmām.
 
 ## <a name="setup"></a>Iestatīt
 
@@ -249,13 +252,11 @@ Elektroniskās adreses ir pieejamas tikai šajā režģī. Turpmākajos laidieno
     [CDS pārdošanas pasūtījumu virsraksti](mapping-reference.md#217) | salesorders
     [Pārdošanas rēķinu galvenes V2](mapping-reference.md#118) | rēķini
 
-> [!Note]
+> [!NOTE]
 > Karte `CDS Contacts V2 (contacts)` ir karte, kas tika apturēta 1. darbībā. Mēģinot palaist citas kartes, šīs 2 kartes var parādīties pakārtoto sarakstā. Neizmantojiet šīs kartes.
-
-> [!Note]
+>
 > Ja ir instalēts puses un globālās adrešu grāmatas risinājums, ir jāatspējo spraudnis ar nosaukumu `Microsoft.Dynamics.SCMExtended.Plugins.Plugins.LeadPrimaryContactPostCreate: QualifyLead of lead`. Atinstalējot pusi un globālo adrešu grāmatas risinājumu, spraudnis ir jāiespējo no jauna.
-
-> [!Note]
+>
 > Lauku `msdyn_*partynumber` (vienas rindas teksta lauku), kas iekļauts tabulās **Konts**, **Kontaktpersona** un **Kreditors** nedrīkst izmantot turpmāk. Iezīmes nosaukumam ir prefikss **(Novecojis)** skaidrības labad. Tā vietā izmantojiet **msdyn_partyid** lauku. Lauks ir pārlūks **msdyn_party** tabulai.
 
 > Tabulas nosaukums | Vecais lauks | Jauns lauks
@@ -296,7 +297,6 @@ Papildinformāciju skatiet sadaļā [Dubultā ieraksta kartēšanas atsauce](map
 
 + Programmās Finance and Operations, kad izveidojat debitoru kopā ar adresi un saglabājat to, adrese var nesinhronizēties uz tabulu **Adreses**. Tas ir tāpēc, ka pastāv dubultrakstīšanas platformu secības problēma. Vispirms izveidojiet debitoru un saglabājiet to. Pēc tam pievienojiet adresi.
 + Programmās Finance and Operations, kad debitora ierakstam ir primārā adrese un jūs šim debitoram izveidojat jaunu kontaktpersonu, tad kontaktpersonas ieraksts manto primāro adresi no saistītā debitora ieraksta. Tas notiek arī attiecībā uz kreditora kontaktpersonu. Dataverse neatbalsta šo uzvedību. Ja ir aktivizēta duālā rakstīšana, debitoru kontaktpersonas, kas ir mantotas ar primāro adresi no programmas Finance and Operations, tiek sinhronizētas Dataverse kopā ar tās adresi.
-+ Elektroniskās adreses no `msdyn_partyelectronicaddress` tabulas neplūst uz elektroniskajiem adrešu laukiem tabulās **Konts** un **Kontaktpersona**. Mēs plānojam risināt šo problēmu inkrementālā izlaidē. Esošie dati elektroniskās adreses laukos tabulās **Konts** un **Kontaktpersona** netiks pārrakstīti.
 + Elektroniskās adreses, kas iestatītas elektroniskās adreses veidlapu **Konts**, **Kontaktpersona** un **Kreditors** cilnē, nāk no `msdyn_partyelectronicaddress` tabulas. Šī informācija neplūst uz tās saistītajām darījumiem, piemēram, pārdošanas pasūtījumu, piedāvājumu un pirkšanas pasūtījumu. Mēs plānojam risināt šo problēmu inkrementālā izlaidē. Esošie dati konta elektroniskās adreses laukos un kontaktpersonu ierakstos turpinās strādāt ar darījumiem, piemēram, pārdošanas pasūtījumu, piedāvājumu un pirkšanas pasūtījumu.
 + Lietojumprogrammās Finance and Operations var izveidot kontaktpersonas ierakstu no veidlapas **Pievienot kontaktpersonu**. Ja mēģināt izveidot jaunu kontaktpersonu no veidlapas **Skatīt kontaktpersonu**, darbība neizdodas. Šī ir zināma problēma.
 

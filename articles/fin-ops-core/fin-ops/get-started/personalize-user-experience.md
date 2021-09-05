@@ -2,7 +2,7 @@
 title: Lietotāja pieredzes personalizēšana
 description: Šajā tēmā ir paskaidrots, kā varat personalizēt programmu.
 author: jasongre
-ms.date: 04/22/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f71a94a6a5780f8a59590008f6370cb6897fa644e7fd826bacd0fb6206d159c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e3d126bf9ec5687d97dacc8763a221da656fdef1
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719305"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344378"
 ---
 # <a name="personalize-the-user-experience"></a>Lietotāja pieredzes personalizēšana
 
@@ -169,7 +169,7 @@ Informācijas panelis bieži vien ir pirmā lapa, ko redzat, atverot programmu. 
 Viena unikāla personalizācijas iespēja, kas ir pieejama informācijas panelī, ir spēja pievienot elementus. 
 
 - Ja ir izslēgta **Pilnas lappuses programmu** funkcija, jūs pievienojat jaunu elementu, ar peles labo pogu noklikšķinot uz elementa informācijas panelī un pēc tam atlasot **Pievienot darbvietu**. Informācijas paneļa apakšā tiek izveidots jauns darbvietas elements. Šo jauno darbvietas elementu pēc vēlēšanās varat pārdēvēt. Sarakstus, elementus un saites darbvietai varat arī pievienot, kā aprakstīts šīs tēmas sadaļā [Sarakstu, elementu vai saišu pievienošana darbvietai](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace).
-- Ja ir ieslēgta **Pilnas lappuses programmu** funkcija, jūs pievienojat jaunu elementu, ar peles labo pogu noklikšķinot uz elementa informācijas panelī un pēc tam atlasot **Pievienot programmu**. Dialoglodziņā izvēlieties, vai vēlaties pievienot elementu jaunai darbvietai vai elementu, kurā ir saturs no Power Apps vai vietnes. Pēc tam veiciet norādītās darbības, lai konfigurētu izvēlēto opciju. Informācijas paneļa apakšā tiek izveidots jauns elements. 
+- Ja ir ieslēgta **Pilnas lappuses programmu** funkcija, jūs pievienojat jaunu elementu, ar peles labo pogu noklikšķinot uz elementa informācijas panelī un pēc tam atlasot **Pievienot programmu**. Dialoglodziņā izvēlieties, vai vēlaties pievienot elementu jaunai darbvietai vai elementu, kurā ir saturs no Power Apps vai vietnes. Pēc tam veiciet norādītās darbības, lai konfigurētu izvēlēto opciju. Informācijas paneļa apakšā tiek izveidots jauns elements. Papildinformāciju par to, kā pievienot, rediģēt, dzēst un koplietot šīs iegultās lietojumprogrammas, skatiet sadaļā [Iegult pamatnes programmas no Power Apps](embed-power-apps.md) un [Iegult trešās puses programmas](embed-website.md).
 
 ## <a name="sharing-personalizations"></a>Personalizāciju koplietošana
 

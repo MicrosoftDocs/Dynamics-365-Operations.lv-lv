@@ -2,7 +2,7 @@
 title: Uzmeklēšanas datu avotu konfigurēšana, lai izmantotu elektronisko pārskatu programmai raksturīgos parametrus
 description: Šajā tēmā izskaidrots, kā konfigurēt Uzmeklēšanas datu avotus elektroniskajo pārskatu (ER) formātos, lai varētu izmantot ER programmai specifiskos parametrus.
 author: NickSelin
-ms.date: 04/02/2021
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 2849df85c37c4ed00754be91b9a9708db1bb16b7d0eb49d3a61d169037687196
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c028b01aa2889a517bee69de46411ada12d6fe25
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723193"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343433"
 ---
 # <a name="configure-lookup-data-sources-to-use-er-application-specific-parameters"></a>Uzmeklēšanas datu avotu konfigurēšana, lai izmantotu elektronisko pārskatu programmai raksturīgos parametrus 
 
@@ -69,7 +69,7 @@ Varat iestatīt meklēšanas kārtulas atlasītajam ER formātam, izmantojot UI,
 Šajā attēlā parādīts, kā **Aprēķinātā lauka** veida `Model.Data.Summary.LevelByLookup` datu avotu var konfigurēt, lai izsauktu konfigurēto **Uzmeklēšanas** datu avotu, kas sniedz nepieciešamos parametrus. Lai apstrādātu šo izsaukumu izpildlaikā, ER iziet cauri konfigurēto kārtulu sarakstam definētajā secībā, lai atrastu pirmo kārtulu, kas atbilst norādītajiem nosacījumiem. Šajā piemērā tā ir kārtula, kas satur nodokļu kodu, kas atbilst norādītajam. Rezultātā tiek atrasta vispiemērotākā kārtula un šis datu avots atgriež atrastajai kārtulai konfigurēto uzskaitījuma vērtību.
 
 > [!NOTE]
-> Ja nav atrasta neviena piemērojamā kārtula, rodas izņēmums. Lai novērstu šos izņēmumus, kārtulu saraksta beigās konfigurējiet papildu kārtulas, lai apstrādātu gadījumus, kad ir norādīta nekonfigurēta vērtība vai arī vērtība nav sniegta. Izmantojiet atbilstīgi opcijas **\*Nav tukšs\*** un **\*Tukšs\***.  
+> Ja nav atrasta neviena piemērojamā kārtula, rodas izņēmums. Lai novērstu šos izņēmumus, kārtulu saraksta beigās konfigurējiet papildu kārtulas, lai apstrādātu gadījumus, kad ir norādīta nekonfigurēta vērtība vai arī vērtība nav sniegta. Izmantojiet atbilstīgi opcijas **\*Nav tukšs**\* un **\*Tukšs**\*.  
 >
 > ![Pievienot datu avotu, lai izsauktu konfigurēto uzmeklēšanas datu avotu.](./media/er-lookup-data-sources-img7.png)
 

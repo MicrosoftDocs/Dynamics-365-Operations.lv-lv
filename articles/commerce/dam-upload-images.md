@@ -2,7 +2,7 @@
 title: Attēlu augšupielāde
 description: Šajā tēmā aprakstīts, kā augšupielādēt attēlus Microsoft Dynamics 365 Commerce vietnes veidotājā.
 author: psimolin
-ms.date: 03/03/2020
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5f4f84c41e6af23483ccb74a9189cb713016f4ac9d0d9981bf918ca8a71743eb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a5607fa70f5d5d28d10bcbd50da11bb96cbf75de
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757402"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423259"
 ---
 # <a name="upload-images"></a>Attēlu augšupielāde
 
@@ -52,10 +52,17 @@ Noklusējuma nosaukšanas nosacījumi atšķiras atkarībā no kategorijas:
 - Kategorijas attēliem ir jābūt ar nosaukumu "**/Categories/\{CategoryName\}.png**"
 - Klientu attēliem ir jābūt ar nosaukumu "**/Customers/\{CustomerNumber\}.jpg**"
 - Darbinieku attēliem ir jābūt ar nosaukumu "**/Workers/\{WorkerNumber\}.jpg**"
-- Preču attēliem ir jābūt ar nosaukumu "**/Products/\{ProductNumber\}_000_001.png**"
+- Preču attēliem ir jābūt ar nosaukumu "**/Products/\{ProductNumber\}\_000_001.png**"
     - 001 ir attēla secība, un tā var būt 001, 002, 003, 004 vai 005
 - Preču variantu attēliem ir jābūt ar nosaukumu "**/Products/\{ProductNumber\} \^ \{Style\} \^ \{Size\} \^ \{Color\} \^\_000_001.png**"
-    - Piemēram: 93039 \^\^2 \^ melna \^_000_001.png
+    - Piemērs: 93039 \^ &nbsp;\^ 2 \^ Black \^\_000_001.png
+- Preču variantu attēliem ir jābūt ar nosaukumu "**/Products/\{ProductNumber\} \^ \{Configuration\}\_000_001.png**"
+    - Piemērs: 93039 \^ LB8017_000_001.png
+
+> [!NOTE]
+> Ja dimensijas vērtība ir tukša, preces variantu attēliem ir jābūt divām baltstarpām starp kastēm faila nosaukumā.
+
+Iepriekšminētajos piemēros tiek izmantota noklusējuma konfigurācija. Atdalītāja rakstzīme un dimensijas ir konfigurējamas, un precīza nepieciešamā nosaukumdošana var atšķirties starp izvietošanām. Viena metode, lai noteiktu precīzu  nosaukumu piešķiršanas metodi, ir izmantot pārlūkprogrammas izstrādātāja konsole, lai pārbaudītu preces varianta attēlu pieprasījumus, kamēr maināt preces dimensijas Storefront preču informācijas lapā (PDP).
 
 ## <a name="upload-an-image"></a>Augšupielādēt attēlu
 

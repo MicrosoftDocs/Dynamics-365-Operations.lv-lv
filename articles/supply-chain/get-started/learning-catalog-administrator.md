@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3fee88c9822956672469968c3f4fa171a65e1cf301d61d48d5d31e08949797a3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ff9d4d0c1d72d3002f84f895f67d3c9cb347f1e8
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764888"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402229"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-administrators"></a>Mācību katalogs Dynamics 365 Supply Chain Management administratoriem
 
@@ -61,6 +61,14 @@ Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem dom�
 | [Finance and Operations: Jaunināšana no 7.x uz 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | Lūdzu, pievienojieties mums mūsu nākamajam TechTalk, kuras laikā mēs runāsim arī par jaunināšanas procesu no 7. X uz 8. X . Mēs apspriedīs dažādus scenārijus un darbības, lai veiktu koda un datu jaunināšanu. Tiks pārrunāti arī paplašināšanas pieprasījumu scenāriji un kā tos izmantot atbilstošā gadījumā. | Tīmekļa konferences brīva ierakstīšana | 61 minūtes |
 | [Kā jaunināt uz 7.2 (2017. jūlijs) no 7.0 (RTW)/7.1 (laidiens 1611) (DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | Šajā sesijā tiks izskaidrots, kā atjaunināt sistēmu no Dynamics 365 Finance and Operations lietojumprogrammas v 7.0 (RTW) un v 7.1 (1611) uz v 7.2 (July 2017). Mēs izveidojam nepārprotamu diferenciāciju starp īstiem klientiem un vēl realizācijā esošiem projektiem. | Tīmekļa konferences brīva ierakstīšana | 58 minūtes |
 | [AX2012 uz Dynamics 365 for Operations jauninājumu (VIR817PAL2)](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | Šī Tech Talk sniegs pārskatu par to, kā atjaunināt kodu un datus no Dynamics AX 2012 uz. Dynamics 365 for Operations | Tīmekļa konferences brīva ierakstīšana | 45 minūtes |
+| [Migrēšanas rīki no AX2009 uz Dynamics 365 for Operations (VIR809PAL)](https://community.dynamics.com/365/b/techtalks/posts/ax2009-to-dynamics-365-for-operations-migration-tools-march-2-2017) | Šajā sesijā tiks runāts par rīku pieejamība, lai palīdzētu jums migrēt no AX2009 uz D365 operācijām. | Tīmekļa konferences brīva ierakstīšana | 55 minūtes |
+| [AX2009 migrēšanas rīks](https://community.dynamics.com/365/b/techtalks/posts/ax2009-migration-tool-may-11-2017) | Šajā sesijā tiks runāts par rīku pieejamība, lai palīdzētu jums migrēt no AX2009 uz D365 operācijām. | Tīmekļa konferences brīva ierakstīšana | 55 minūtes |
+
+## <a name="supply-chain-management"></a>Supply Chain Management<a name="scm"></a>
+
+| Saturs | Apraksts | Formāts | Ilgums |
+|---------|-------------|--------|--------|
+| [Tehnisko izmaiņu pārvaldība: bieži uzdotie jautājumi Dynamics 365 Supply Chain Management](/learn/paths/set-up-engineering-change-management/) | Šodienas ražotājiem ir nepieciešama spēcīga preču datu pārvaldība, versiju kontrole un tehnikas izmaiņu pārvaldība, lai izdotos pasaulē nemitīgi samazināt preču dzīves ciklus, paaugstinātu kvalitātes un uzticamības prasības un paaugstinātu koncentrēšanos uz preču drošību. Uzziniet, kā iestatīt inženierzinātnes izmaiņu pārvaldību šajā mācību ceļā. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 4 stundas |
 
 ## <a name="servicing"></a>Apkalpošana<a name="servicing"></a>
 
@@ -69,6 +77,7 @@ Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem dom�
 | [Finance and Operations: Līdzekļu pārvaldība (DYN641PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-feature-management-may-17-2019) | Tech Talk par Funkciju pārvaldības pieredzi. Tā nodrošina darbvietu, kur varat apskatīt, iespējot, atspējot un plānot līdzekļus, kas ir piegādāti katrā laidienā. Pēc noklusējuma jaunie līdzekļi ir izslēgti. Varat izmantot darbvietu, lai tos ieslēgtu un skatītu ar tiem saistīto dokumentāciju. Apmeklējiet šo sapulci, lai redzētu, kas tiek piegādāts 10.0.3, un mūsu nākotnes laidienu plānus. | Tīmekļa konferences brīva ierakstīšana | 47 minūtes |
 | [Finance and Operations: Ražošanas apkalpošana, atbalstīšana un uzturēšana (DYN651PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-servicing-supporting-and-maintaining-production-june-27-2019) | Tech Talk par to, kā efektīvi atbalstīt, uzturēt un apkalpot jūsu Dynamics 365 for Finance and Operations ražošanas vidi. | Tīmekļa konferences brīva ierakstīšana | 53 minūtes |
 | [Finance And Operations: Microsoft pārvaldīti nepārtraukti atjauninājumi (DYN610PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-microsoft-managed-continuous-updates-april-2-2019) | Nepārtraukts atjaunināšanas ritms programmai Finance and Operations ir sācies! Lūdzu, pievienojieties mums šajā laikā, lai apspriestu Microsoft pārvaldītos pastāvīgos atjauninājumus, lietotāja pieredze jau ir pieejama Lifecycle Services un turpmākajos atjauninājumos. | Tīmekļa konferences brīva ierakstīšana | 61 minūtes |
+| [Finance And Operations: Microsoft pārvaldīta nepārtraukta atjaunināšana: Kas jauns? - 2018. gada 1. novembris (DYN533cust)](https://community.dynamics.com/Techtalks-FinOps-Videos/MicrosoftManagedContinuousUpdates-WhatsNew-DYN533cust.mp4) | Šajā laikā mēs apspriedīsim atjauninājumus Microsoft pārvaldītajam nepārtraukto atjauninājumu ritmam, kā arī apskatīsim lietotāju pieredzi par Lifecycle Services. | Tīmekļa konferences brīva ierakstīšana | 59 minūtes |
 | [Microsoft pārvaldītie pastāvīgie atjauninājumi: Kas jauns? (DYN543PAL2)](https://community.dynamics.com/365/b/techtalks/posts/microsoft-managed-continuous-updates-what-39-s-new-12-13-18) | Šo apmācību ietvaros mēs paskaidrosim, kas jauns ir izveidots kopš mūsu sākotnējiem paziņojumiem par Microsoft pārvaldītajiem pastāvīgajiem atjauninājumiem. Mēs apspriedīsim atjauninājumu ritmu, kā esam atbildējuši uz jūsu vērtīgajām atsauksmēm par procesu, kā arī aplūkojiet gaidāmo Lifecycle Services lietotāju pieredzi, caur kuru jūs varēsiet pārvaldīt savus atjauninājumus. | Tīmekļa konferences brīva ierakstīšana | 56 minūtes |
 | [Microsoft pārvaldītie pastāvīgie atjauninājumi (DYN474PAL2)](https://community.dynamics.com/365/b/techtalks/posts/microsoft-managed-continuous-updates-september-5-2018) | Mēs apspriedīsim Microsoft plānus, kā uzturēt jūsu sistēmas atjaunināšanu ar jaunāko versiju. Tiks runāts par laika grafikiem, ritmu galvenajiem un mazāk svarīgiem atjauninājumiem, plānotajām procedūrām, sekām un to, kas jādara, lai sasniegtu optimālus rezultātus. | Tīmekļa konferences brīva ierakstīšana | 62 minūtes |
 | [Pārraudzība, optimizācijas padomnieks & kritiskie KBs (DYN456PAL2)](https://community.dynamics.com/365/b/techtalks/posts/monitoring-optimization-advisor-amp-critical-kbs-july-13-2018) | Mēs apspriedīs pārraudzības iespējas un to, ko Microsoft pārrauga jūsu ražošanas vidē, optimizācijas konsultantu un kā to var paplašināt, "Critical X++ atjauninājumu" pieredzi LCS un labākos risinājumus "Pārskata ražošanas pārtraukumu" opcijai LCS. | Tīmekļa konferences brīva ierakstīšana | 40 minūtes |
@@ -86,6 +95,5 @@ Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem dom�
 | Saturs  | apraksts  | Formāts  |
 |----------|--------------|---------|
 | [Dynamics 365 pamati](/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | Pierādiet, ka saprotat Microsoft Dynamics 365; Power Platform; mākoņa koncepcijas; licencēšanas opcijas un izvietošanas opcijas, un opcijas nodošanai izpildei. | Eksāmens; izmaksas var mainīties atkarībā no reģiona |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

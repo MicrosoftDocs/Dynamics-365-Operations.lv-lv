@@ -4,24 +4,17 @@ description: Šajā rakstā ir sniegta informācija par vispārējo problēmu no
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 779cc80d4cb510e79885919f1c705824ab6ad58b3e2fe1bab7bbec0511d08951
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b4adc2d83667a05d14a26ace23e5bd8026df4b5f
+ms.sourcegitcommit: caa41c076f731f1e02586bc129b9bc15a278d280
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736306"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7380216"
 ---
 # <a name="general-troubleshooting"></a>Vispārējā problēmu novēršana
 
@@ -29,31 +22,10 @@ ms.locfileid: "6736306"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-
-
 Šajā rakstā ir sniegta informācija par vispārējo problēmu novēršanu duālā ieraksta integrācijai starp Finance and Operations programmām un Dataverse.
 
 > [!IMPORTANT]
 > Dažas no problēmām, kas risinātas šajā tēmā, var būt nepieciešama vai nu sistēmas administratora loma, vai Microsoft Azure Active Directory (Azure AD) nomnieka administratora akreditācijas dati. Katras problēmas sadaļā ir paskaidrots, vai ir nepieciešama īpaša loma vai akreditācijas dati.
-
-## <a name="when-you-try-to-install-the-dual-write-package-by-using-the-package-deployer-tool-no-available-solutions-are-shown"></a>Mēģinot instalēt duālā ieraksta pakotni, izmantojot pakotnes izvietošanas rīku, netiek rādīti pieejami risinājumi
-
-Dažas pakotnes izvietošanas rīka versijas nav saderīgas ar duālā ieraksta risinājuma pakotni. Lai veiksmīgi instalētu pakotni, pārliecinieties, vai izmantojat pakotnes izvietošanas rīka [versiju 9.1.0.20](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.PackageDeployment.Wpf/9.1.0.20) vai jaunāku.
-
-Pēc pakotnes izvietošanas rīka instalēšanas, instalējiet risinājumu pakotni, izpildot šīs darbības.
-
-1. Lejupielādējiet jaunāko risinājumu pakotnes failu no Yammer.com. Kad pakotnes ZIP fails ir lejupielādēts, ar peles labo pogu noklikšķiniet uz tā un atlasiet **Rekvizīti**. Atzīmējiet izvēles rūtiņu **Atbloķēt** un pēc tam atlasiet **Piemērot**. Ja nav redzama izvēles rūtiņa **Atbloķēt**, ZIP fails jau ir atbloķēts, un šo darbību var izlaist.
-
-    ![Rekvizītu dialoglodziņš.](media/unblock_option.png)
-
-2. Izvelciet pakotnes ZIP failu un iekopējiet visus failus mapē **Dynamics365FinanceAndOperationsCommon. ackageDeployer. 2.0.438**.
-
-    ![Mapes Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438 saturs.](media/extract_package.png)
-
-3. Ielīmējiet visus kopētos failus pakotnes izvietošanas rīka mapē **Rīki**. 
-4. Palaidiet **PackageDeployer.exe**, lai atlasītu Dataverse vidi un instalētu risinājumus.
-
-    ![Rīku mapes saturs.](media/paste_copied_files.png)
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Spraudņa trasēšanas žurnāla iespējošana un skatīšana Dataverse, lai skatītu kļūdas informāciju
 
@@ -74,18 +46,17 @@ Lai skatītu trasēšanas žurnālu, veiciet tālāk minētās darbības.
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Atkļūdošanas režīma iespējošana, lai novērstu tiešsaistes sinhronizācijas problēmas Finance and Operations programmās
 
-**Nepieciešamās lomas, lai apskatītu kļūdas:** sistēmas administratora duālās rakstīšanas kļūdas, kas radušās programmā Dataverse, var parādīties Finance and Operations programmā. Dažos gadījumos pilns kļūdas ziņojuma teksts nav pieejams, jo ziņojums ir pārāk garš vai satur personu identificējošu informāciju (PII). Varat ieslēgt izvērsto kļūdu reģistrēšanu, izpildot tālāk aprakstītās darbības.
+**Kļūdu skatīšanai nepieciešamā loma:** Sistēmas administrators
 
-1. Visām projekta konfigurācijām Finance and Operations programmās ir **IsDebugMode** rekvizīts tabulā **DualWriteProjectConfiguration**. Atveriet elementu **DualWriteProjectConfiguration**, izmantojot Excel pievienojumprogrammu.
+Dataverse radušās duālā ieraksta kļūdas var parādīties Finance and Operations programmā. Lai iespējotu izvērsto kļūdu reģistrēšanu, izpildiet tālāk minētās darbības.
 
-    > [!TIP]
-    > Vienkāršs veids, kā atvērt tabulu, ir ieslēgt režīmu **Noformēšana** Excel pievienojumprogrammā un pēc tam darblapai pievienot **DualWriteProjectConfigurationEntity**. Papildinformāciju skatiet rakstā [Elementa datu atvēršana programmā Excel un to atjaunināšana, izmantojot Excel pievienojumprogrammu](../../office-integration/use-excel-add-in.md).
-
-2. Iestatiet rekvizītu **IsDebugMode** projektam uz **Jā**.
-3. Palaidiet scenāriju, kas ģenerē kļūdas.
-4. Izvērstie žurnāli ir pieejami DualWriteErrorLog tabulā. Lai meklētu datus tabulas pārlūkā, izmantojiet tālāk minēto vietrādi URL (ja nepieciešams, nomainiet **XXX** ):
-
-    `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`
+1. Visām projekta konfigurācijām programmā Finance and Operations ir karodziņš **IsDebugMode** tabulā **DualWriteProjectConfiguration**.
+2. Atveriet elementu **DualWriteProjectConfiguration**, izmantojot Excel pievienojumprogrammu. Lai izmantotu pievienojumprogrammu, iespējojiet dizaina režīmu Finance and Operations Excel pievienojumprogrammā un pievienojiet lapai **DualWriteProjectConfiguration**. Papildinformāciju skatiet sadaļā [Elementa datu skatīšana un atjaunināšana programmā Excel](../../office-integration/use-excel-add-in.md).
+3. Projektā iestatiet **IsDebugMode** uz **Jā**.
+4. Palaidiet scenāriju, kas ģenerē kļūdas.
+5. Izvērstie žurnāli ir pieejami tabulā **DualWriteErrorLog**.
+6. Lai uzmeklēt tabulas pārlūka datus, izmantojiet šādu saiti: `https://999aos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`, `999`aizvietošana.
+7. Atjauniniet vēlreiz pēc [KB 4595434](https://fix.lcs.dynamics.com/Issue/Details?kb=4595434&bugId=527820&dbType=3&qc=98e5dc124ac125c57ad633d885ac612aea3ddb8f4abf9d71ab3aa354f2e06cbe), kas ir pieejams platformas atjauninājumiem 37 vai jaunākai versijai. Ja šis labojums ir instalēts, atkļūdošanas režīms tvers vairāk žurnālu.  
 
 ## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Sinhronizācijas kļūdu pārbaude Finance and Operations programmas virtuālajā mašīnā
 
@@ -116,10 +87,28 @@ Tagad varat saistīt jaunu vidi.
 Veidojot pārdošanas pasūtījumu Dynamics 365 Sales, noklikšķinot uz **+ pievienot preces**, varat tikt novirzīts uz Dynamics 365 Project Operations pasūtījuma rindas veidlapu. No šīs veidlapas nav iespējams skatīt pārdošanas pasūtījuma rindas **Informācijas** veidlapu. **Informācijas** opcija neparādās nolaižamajā sarakstā zem **Jaunas pasūtījuma rindas**. Tas notiek tāpēc, ka projekta operācijas ir uzstādītas jūsu vidē.
 
 Lai atkārtoti iespējotu **Informācijas** veidlapas opciju, rīkojieties šādi:
+
 1. Pārejiet uz **Pasūtījuma rindas** tabulu.
-2. Atrodiet **Informācijas** veidlapu zem veidlapas zara. 
-3. Atlasiet **Informācijas** veidlapu un noklikšķiniet uz **Iespējot drošības lomas**. 
+2. Atrodiet **Informācijas** veidlapu zem veidlapas zara.
+3. Atlasiet **Informācijas** veidlapu un noklikšķiniet uz **Iespējot drošības lomas**.
 4. Mainiet drošības iestatījumu uz **Parādīt visiem**.
 
+## <a name="how-to-enable-and-save-network-trace-so-that-traces-can-be-attached-to-support-tickets"></a>Kā iespējot un saglabāt tīkla izsekošanu, lai izsekošanu varētu pievienot atbalsta biļetēm
+
+Iespējams, atbalsta komandai būs jāpārskata tīkla izsekošana, lai novērstu dažas problēmas. Lai izveidotu tīkla izskeošanu, rīkojieties šādi.
+
+### <a name="chrome"></a>Chrome
+
+1. Atvērtajā cilnē nospiediet **F12** vai izvēlieties **Izstrādātāja rīki**, lai atvērtu izstrādātāja rīkus.
+2. Atveriet cilni **Tīkls** un filtra tekstlodziņā ierakstiet **integ**.
+3. Palaidiet scenāriju un ievērojiet reģistrētos pieprasījumus.
+4. Ar peles labo pogu noklikšķiniet uz ierakstiem un atlasiet **Saglabāt visu kā HAR ar saturu**.
+
+### <a name="microsoft-edge"></a>Microsoft Edge
+
+1. Atvērtajā cilnē nospiediet **F12** vai izvēlieties **Izstrādātāja rīki**, lai atvērtu izstrādātāja rīkus.
+2. Atveriet cilni **Tīkls**.
+3. Palaidiet scenāriju.
+4. Atlasiet **Saglabāt**, lai eksportētu rezultātus kā HAR.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
