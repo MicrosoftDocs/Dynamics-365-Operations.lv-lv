@@ -14,6 +14,8 @@
               items:
                 - name: Jaunumi un izmaiņas Platform atjauninājumu sākumlapā
                   href: get-started/whats-new-home-page.md
+                - name: "Platform atjauninājumi versijai\_10.0.22 (2021.\_gada novembris)"
+                  href: get-started/whats-new-platform-updates-10-0-22.md
                 - name: "Platform atjauninājumi versijai\_10.0.21 (2021.\_gada oktobris)"
                   href: get-started/whats-new-platform-updates-10-0-21.md
                 - name: "Platform atjauninājumi versijai\_10.0.20 (2021.\_gada augusts)"
@@ -590,24 +592,22 @@
                   href: dev-tools/update-development-tools.md
             - name: X++ programmēšanas valoda
               items:
-                - name: X++ un atkļūdošanas līdzekļi
-                  href: dev-tools/new-x-debugger-features.md
-                - name: "Visual Studio\_2017 prasības valodai X++"
-                  href: dev-tools/developer-tools-vs2017.md
-                - name: X++ koda atkļūdošana
-                  href: dev-tools/debug-xpp.md
-                - name: EventHandlerResult klases pieprasījuma vai atbildes scenārijos
-                  href: dev-tools/event-handler-result-class.md
-                - name: 'Biznesa loģikas rakstīšana, izmantojot C# un X++ pirmkodu'
-                  href: dev-tools/write-business-logic.md
-                - name: X++ un X++ kompilatora izmaiņas
-                  href: dev-tools/programming-language-support.md
-                - name: "LINQ sniedzējs\_C# videi"
-                  href: dev-tools/linq-provider-c.md
-                - name: Labākās prakses kārtulu rakstīšana
-                  href: dev-tools/author-best-practice-rules.md
-                - name: Programmu pārlūka rekvizīti
-                  href: dev-ref/application-explorer-aot-properties.md
+                - name: X++ valodas atbalsts
+                  items:
+                    - name: "Visual Studio\_2017 prasības valodai X++"
+                      href: dev-tools/developer-tools-vs2017.md
+                    - name: X++ koda atkļūdošana
+                      href: dev-tools/debug-xpp.md
+                    - name: EventHandlerResult klases pieprasījuma vai atbildes scenārijos
+                      href: dev-tools/event-handler-result-class.md
+                    - name: 'Biznesa loģikas rakstīšana, izmantojot C# un X++ pirmkodu'
+                      href: dev-tools/write-business-logic.md
+                    - name: "LINQ sniedzējs\_C# videi"
+                      href: dev-tools/linq-provider-c.md
+                    - name: Labākās prakses kārtulu rakstīšana
+                      href: dev-tools/author-best-practice-rules.md
+                    - name: Programmu pārlūka rekvizīti
+                      href: dev-ref/application-explorer-aot-properties.md
                 - name: X++ valodas atsauce
                   items:
                     - name: X++ valodas atsauces pārskats
@@ -652,7 +652,7 @@
                           href: dev-ref/xpp-interfaces.md
                         - name: Bibliotēkas
                           href: dev-ref/xpp-library-objects.md
-                        - name: Notikumi
+                        - name: Pasākumi un pārstāvji
                           href: dev-ref/xpp-events.md
                     - name: X++ datu atlase un apstrāde
                       items:
@@ -906,6 +906,8 @@
               href: dev-tools/date-effectivity.md
             - name: Neatkarīgo programmatūras izstrādātāju izstrāde
               items:
+                - name: ISV izstrādes mājas lapa
+                  href: dev-tools/isv-dev-home-page.md
                 - name: 'X++ moduļus saistīšana ar pakotnēm, izmantojot ISV Studio'
                   href: dev-tools/isv-studio-solutions.md
                 - name: ISV licencēšana
@@ -1018,6 +1020,8 @@
               href: lifecycle-services/performancetroubleshooting.md
             - name: Vaicājumu pavārgrāmata
               href: lifecycle-services/querycookbook.md
+            - name: 'Abonementi, kuriem beidzies derīguma termiņš, un datu dzēšana'
+              href: lifecycle-services/expired-subscription-data-deletion.md
             - name: "Microsoft Dynamics\_365 Translation Service"
               items:
                 - name: Dynamics 365 Translation Service pārskats
@@ -1048,6 +1052,8 @@
                       href: data-entities/dual-write/connection-setup.md
                     - name: Sākotnējās sinhronizācijas apsvērumi
                       href: data-entities/dual-write/initial-sync-guidance.md
+                    - name: Tiešsaistes sinhronizācijas ierobežojumi
+                      href: data-entities/dual-write/sync-limits.md
                     - name: Duālā ieraksta iestatīšana no Lifecycle Services
                       href: data-entities/dual-write/lcs-setup.md
                     - name: Duālā ieraksta iespējošana esošajām Finance and Operations programmām
