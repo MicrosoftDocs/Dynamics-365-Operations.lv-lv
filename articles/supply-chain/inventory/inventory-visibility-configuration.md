@@ -1,5 +1,5 @@
 ---
-title: Krājumu redzamības konfigurācija
+title: Krājumu redzamības konfigurēšana
 description: Šajā tēmā ir aprakstīts, kā izmantot Krājumu redzamības programmu.
 author: yufeihuang
 ms.date: 08/02/2021
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 92e42b22d424ab80303d771f760cfcf0599b9f4c
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 27dfc3f431fdfc1ec5c2cad2c3458b11c94189c3
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345037"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474680"
 ---
-# <a name="inventory-visibility-configuration"></a>Krājumu redzamības konfigurācija
+# <a name="configure-inventory-visibility"></a>Krājumu redzamības konfigurēšana
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-Šajā tēmā ir aprakstīts, kā izmantot Krājumu redzamības programmu.
+Šajā tēmā aprakstīts, kā konfigurēt krājuma redzamību, izmantojot Inventory Visibility programmu pakalpojumā Power Apps.
 
 ## <a name="introduction"></a><a name="introduction"></a>Ievads
 
@@ -35,27 +35,58 @@ Pirms sākat strādāt ar Krājumu redzamību, ir jāveic šāda konfigurācija,
 - [Rezervācijas konfigurācija (nav obligāti)](#reservation-configuration)
 - [Noklusējuma konfigurācijas piemērs](#default-configuration-sample)
 
-> [!NOTE]
-> Varat skatīt un rediģēt Krājumu redzamības konfigurācijas programmā [Microsoft Power Apps](./inventory-visibility-power-platform.md#configuration). Kad konfigurācija ir pabeigta, programmā atlasiet **Atjaunināt konfigurāciju**.
+## <a name="prerequisites"></a>Priekšnosacījumi
 
-## <a name="data-source-configuration"></a><a name="data-source-configuration"></a>Datu avota konfigurācija
+Pirms sākat darbu, uzinstalējiet un iestatiet Inventory Visibility pievienojumprogrammu, kā aprakstīts rakstā [Inventory Visibility instalēšana un iestatīšana](inventory-visibility-setup.md).
 
-Datu avots parāda sistēmu, no kuras ir dati. Piemēri ietver `fno` (kas nozīmē " Dynamics 365 Finance and Operations programmas") un `pos` (kas nozīmē "pārdošanas punkts").
+## <a name="enable-inventory-visibility-features-in-power-apps-feature-management"></a><a name="feature-switch"></a>Iespējot Inventory Visibility līdzekļus Power Apps līdzekļu pārvaldībā
 
-Datu avota konfigurācija ietver šādas daļas:
+Inventory Visibility pievienojumprogramma pievieno vairākus jaunus līdzekļus jūsu Power Apps instalēšanai. Pēc noklusējuma šie līdzekļi ir izslēgti. Lai tos izmantotu, pakalpojumā Power Apps atveriet lapu **Konfigurācijas** un cilnē **Līdzekļu pārvaldība** iespējojiet tālāk uzskaitītos līdzekļus.
 
-- Dimensija (dimensiju kartēšana)
-- Fiziskais mērs
-- Aprēķinātais līdzeklis
+- *OnHandReservation*
+- *OnHandMostSpecificBackgroundService*
+
+## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Atrast pakalpojuma galapunktu
+
+Ja nezināt pareizo Krājumu redzamības pakalpojuma galapunktu, atveriet lapu **Konfigurācija** programmā Power Apps un pēc tam augšējā labajā stūrī atlasiet **Rādīt pakalpojuma galapunktu**. Lapa parādīs pareizo pakalpojuma galapunktu.
+
+## <a name="the-configuration-page-of-the-inventory-visibility-app"></a><a name="configuration"></a>Inventory Visibility lietojumprogrammas Konfigurāciju lapa
+
+Pakalpojuma Power Apps lapa **Konfigurācijas** [Inventory Visibility programmā](inventory-visibility-power-platform.md) palīdz iestatīt rīcībā esošo konfigurāciju un vieglās rezervācijas konfigurāciju. Pēc pievienojumprogrammas instalēšanas noklusējuma konfigurācija ietver Microsoft Dynamics 365 Supply Chain Management (datu avotu `fno`) vērtību. Varat pārskatīt noklusējuma iestatījumus. Turklāt, pamatojoties uzņēmuma prasībās un ārējās sistēmas krājumu grāmatošanas prasībās, varat pārveidot konfigurāciju, lai standartizētu veidu, kādā var vairākās sistēmās grāmatot, organizēt un vaicātas krājumu izmaiņas. Pārējās šīs tēmas sadaļās paskaidrots, kā lietot katru lapas **Konfigurācijas** daļu.
+
+Pēc konfigurācijas pabeigšanas pārliecinieties, ka programmā atlasiet opciju **Atjaunināt konfigurāciju**.
+
+## <a name="data-source-configuration"></a>Datu avota konfigurācija
+
+Katrs datu avots atspoguļo sistēmu, no kuras nāk dati. Datu avotu nosaukumu piemēri: `fno` (jeb "Dynamics 365 Finance and Operations lietojumprogrammas") un `pos` (jeb "pārdošanas punkts"). Pēc noklusējuma Krājumu redzamības programma Supply Chain Management ir iestatīta kā noklusējuma datu avots (`fno`).
 
 > [!NOTE]
 > Datu avots `fno` ir rezervēts Dynamics 365 Supply Chain Management.
 
-### <a name="dimension-dimension-mapping"></a><a name="data-source-configuration-dimension"></a>Dimensija (dimensiju kartēšana)
+Lai izveidotu datu avotu, veiciet tālāk aprakstītās darbības.
 
-Dimensijas konfigurācijas nolūks ir standartizēt vairāku sistēmu integrāciju vaicājumam dimensijās un grāmatošanas notikumā ar dimensijām.
+1. Piesakieties savā Power Apps vidē un atveriet **Krājumu redzamību**.
+1. Atveriet lapu **Konfigurācija**.
+1. Cilnē **Datu avots** atlasiet **Jauns datu avots**, lai pievienotu datu avotu.
 
-Krājumu redzamība atbalsta šādas vispārīgās pamatdimensijas.
+> [!NOTE]
+> Kad pievienojat datu avotu, pirms Krājumu redzamības pakalpojuma konfigurācijas atjaunināšanas noteikti pārbaudiet datu avota nosaukumu, fiziskos izmērus un dimensiju kartējumus. Pēc **Konfigurācijas atjaunināšanas** atlases šos iestatījumus nevarēsit modificēt.
+
+Datu avota konfigurācija ietver šādas daļas:
+
+- Izmēri (izmēru kartēšana)
+- Fiziskie mēri
+- Aprēķinātie līdzekļi
+
+### <a name="dimensions-dimension-mapping"></a><a name="data-source-configuration-dimension"></a>Izmēri (izmēru kartēšana)
+
+Dimensijas konfigurācijas nolūks ir standartizēt vairāku sistēmu integrāciju vaicājumam dimensijās un grāmatošanas notikumā ar dimensijām. Krājumu redzamība sniedz pamatdimensiju sarakstu, kuras var kartēt no datu avota dimensijām. Kartēšanai ir pieejamas trīsdesmit trīs dimensijas.
+
+- Pēc noklusējuma, ja jūs izmantojat Supply Chain Management kā vienu no jūsu datu avotiem, 13 dimensijas tiek kartētas uz Supply Chain Management standarta dimensijām. Pārējās divpadsmit dimensijas (`inventDimension1` ar `inventDimension12`) tiek kartētas uz pielāgotām dimensijām Supply Chain Management. Atlikušās astoņas dimensijas ir paplašinātās dimensijas, kuras var kartēt uz ārējiem datu avotiem.
+- Ja neizmantojiet Supply Chain Management kā vienu no jūsu datu avotiem, varat brīvi kartēt dimensijas. Tabulā ir parādīts pilns pieejamo dimensiju saraksts.
+
+> [!NOTE]
+> Ja dimensijas nav noklusējuma dimensiju sarakstā un jūs izmantojat ārēju datu avotu, ieteicams izmantot to `ExtendedDimension1` ar `ExtendedDimension8` kartēšanas darbības laikā.
 
 | Dimensiju veids | Pamata dimensija |
 |---|---|
@@ -74,6 +105,7 @@ Krājumu redzamība atbalsta šādas vispārīgās pamatdimensijas.
 | Citi | `VersionId` |
 | Krājumi (pielāgoti) | `InventDimension1` ar `InventDimension12` |
 | Paplašinājums | `ExtendedDimension1` ar `ExtendedDimension8` |
+| System | `Empty` |
 
 > [!NOTE]
 > Dimensijas veidi, kas norādīti iepriekšējā tabulā, ir tikai atsaucei. Tie nav jādefinē Krājumu redzamībā.
@@ -92,11 +124,24 @@ Krājumu redzamība atbalsta šādas vispārīgās pamatdimensijas.
 
 Konfigurējot dimensiju kartējumu, ārējās dimensijas var nosūtīt tieši uz Krājumu redzamību. Krājumu redzamība pēc tam automātiski konvertēs ārējās dimensijas uz pamatdimensijām.
 
+Lai pievienotu dimensiju kartējumus, rīkojieties šādi.
+
+1. Piesakieties savā Power Apps vidē un atveriet **Krājumu redzamību**.
+1. Atveriet lapu **Konfigurācija**.
+1. Cilnes **Datu avots** sadaļā **Dimensiju kartējumi** atlasiet **Pievienot**, lai pievienotu dimensiju kartējumus.
+    ![Pievienot dimensiju kartējumus](media/inventory-visibility-dimension-mapping.png "Pievienot dimensiju kartējumus")
+
+1. Laukā **Dimensijas nosaukums** norādiet avota dimensiju.
+1. Laukā **Uz pamatdimensiju** atlasiet dimensiju Krājumu redzamībā, ko vēlaties kartēt.
+1. Atlasiet **Saglabāt**.
+
+Piemēram, ja datu avots ietver preces krāsas dimensiju, varat to kartēt uz `ColorId` pamatdimensiju, lai pievienotu pielāgotu `ProductColor` dimensiju `exterchannel` datu avotam. Pēc tam tā ir kartēta uz `ColorId` pamatdimensiju.
+
 ### <a name="physical-measures"></a>Fiziskie mēri
 
-Fiziskie pasākumi modificē daudzumu un atspoguļo krājumu statusu. Varat definēt savus fiziskos līdzekļus, balstoties uz jūsu prasībām.
+Ja datu avots grāmato krājumu izmaiņas Krājumu redzamībai, tas grāmato šīs izmaiņas, izmantojot *fiziskos pasākumus*. Fiziskie pasākumi modificē daudzumu un atspoguļo krājumu statusu. Varat definēt savus fiziskos līdzekļus, balstoties uz jūsu prasībām. Vaicājumu pamatā var būt fiziskie pasākumi.
 
-Krājumu redzamība sniedz ar Supply Chain Management (`fno` datu avotu) saistīto noklusējuma fizisko līdzekļu sarakstu. Tabulā sniegts fizisko līdzekļu piemērs.
+Krājumu redzamība sniedz ar Supply Chain Management (`fno` datu avotu) saistīto noklusējuma fizisko līdzekļu sarakstu. Šie noklusējuma fiziskie pasākumi tiek ņemti no krājumu darbību statusiem Supply Chain Management lapā **Rīcībā esošie krājumi** (**Krājumu pārvaldība \> Pieprasījumi un pārskati \> Rīcībā esošo pārskatu saraksts**). Tabulā sniegts fizisko līdzekļu piemērs.
 
 | Fiziskā līdzekļa nosaukums | Apraksts |
 |---|---|
@@ -117,11 +162,33 @@ Krājumu redzamība sniedz ar Supply Chain Management (`fno` datu avotu) saistī
 | `ReservOrdered` | Rezervēts pasūtījumos |
 | `ReservPhysical` | Fiziski rezervēts |
 
-### <a name="calculated-measures"></a><a name="data-source-configuration-calculated-measure"></a>Aprēķinātie līdzekļi
+Ja datu avots ir Supply Chain Management, jums nav no jauna jāizveido noklusējuma fiziskie pasākumi. Tomēr ārējiem datu avotiem var izveidot jaunus fiziskos krājumus, veicot šādus soļus.
 
-Aprēķinātie pasākumi nodrošina pielāgotu aprēķināšanas formulu, kas sastāv no fizisko līdzekļu kombinācijas. Funkcionalitāte vienkārši ļauj definēt fizisko mērvienību kopu, kas tiks pievienota, un/vai fizisko mēru kopu, kas tiks atņemta, lai izveidotu pielāgotu mērījumu.
+1. Piesakieties savā Power Apps vidē un atveriet **Krājumu redzamību**.
+1. Atveriet lapu **Konfigurācija**.
+1. Cilnes **Datu avots** sadaļā **Fiziskie mēri** atlasiet **Pievienot**, norādiet avota mērvienības nosaukumu un saglabājiet izmaiņas.
 
-Piemēram, ir šāds vaicājuma rezultāts.
+### <a name="calculated-measures"></a>Aprēķinātie līdzekļi
+
+Varat izmantot Krājumu redzamību, lai pieprasītu gan krājumu fiziskos izmērus, gan *pielāgotos aprēķinātos izmērus*. Aprēķinātie pasākumi nodrošina pielāgotu aprēķināšanas formulu, kas sastāv no fizisko līdzekļu kombinācijas. Funkcionalitāte vienkārši ļauj definēt fizisko mērvienību kopu, kas tiks pievienota, un/vai fizisko mēru kopu, kas tiks atņemta, lai izveidotu pielāgotu mērījumu.
+
+Konfigurācija ļauj definēt modifikatoru kopu, kas tiek pievienota vai atņemta, lai iegūtu kopējo uzkrāto izvades daudzumu.
+
+Lai iestatītu pielāgotos aprēķinātos mērījumus, izpildiet tālāk norādītās darbības.
+
+1. Piesakieties savā Power Apps vidē un atveriet **Krājumu redzamību**.
+1. Atveriet lapu **Konfigurācija**.
+1. Cilnē **Aprēķinātais līdzeklis** atlasiet **Jaunu aprēķināto mērījumu**, lai pievienotu aprēķināto mērījumu. Pēc tam iestatiet laukus, kā aprakstīts nākamajā tabulā.
+
+    | Lauks | Vērtība |
+    |---|---|
+    | Jauns aprēķinātā mēra nosaukums | Ievadiet aprēķinātā mēra nosaukumu. |
+    | Datu avots | Vaicāšanas sistēma ir datu avots. |
+    | Modifikatora datu avots | Skatiet vai ievadiet modifikatora avota tipu. |
+    | Modifikators | Ievadiet modifikatora vārdu. |
+    | Modifikatora veids | Atlasiet modifikatora tipu (*Saskaitīšana* vai *Atņemšana*). |
+
+Piemēram, varētu iegūt šādu vaicājuma rezultātu.
 
 ```json
 [
@@ -202,7 +269,7 @@ Izmantojot šo aprēķināšanas formulu, jaunais vaicājuma rezultāts ietvers 
 ]
 ```
 
-`MyCustomAvailableforReservation` izvade tiek balstīta uz aprēķina iestatījumu pielāgotos mērījumos kā: 100 + 50 + 80 + 90 + 30 – 10 – 20 – 60 – 40 = 220.
+`MyCustomAvailableforReservation` izvade, pamatojoties pielāgoto mērījumu aprēķinu iestatījumā ir: 100 + 50 – 10 + 80 – 20 + 90 + 30 – 60 – 40 = 220.
 
 ## <a name="partition-configuration"></a><a name="partition-configuration"></a>Nodalījuma konfigurācija
 
@@ -230,11 +297,21 @@ Krājumu redzamība nodrošina elastību, neļaujot iestatīt _indeksus_. Šie i
 | Dimensija | Pamatdimensijas, uz kurām vaicājuma rezultāts tiek apkopots. |
 | Hierarhija | Hierarhija – hierarhija tiek izmantota, lai definētu atbalstītās dimensiju kombinācijas, kurām var izveidot vaicājumu. Piemēram, jūs iestatāt dimensiju kopu, kam ir hierarhijas `(ColorId, SizeId, StyleId)` secība. Šajā gadījumā sistēma atbalsta vaicājumus par četrām dimensiju kombinācijām. Pirmā kombinācija ir tukša, otrā ir `(ColorId)`, trešā ir `(ColorId, SizeId)` un ceturtā ir `(ColorId, SizeId, StyleId)`. Citas kombinācijas netiek atbalstītas. Papildinformāciju skatiet tālāk norādītajās tēmās. |
 
+Lai iestatītu produktu hierarhijas indeksus, veiciet tālāk norādītās darbības.
+
+1. Piesakieties savā Power Apps vidē un atveriet **Krājumu redzamību**.
+1. Atveriet lapu **Konfigurācija**.
+1. Cilnes **Datu avots** sadaļā **Dimensiju kartējumi** atlasiet **Pievienot**, lai pievienotu dimensiju kartējumus.
+1. Pēc noklusējuma ir sniegts indeksu saraksts. Lai modificētu esošo indeksu, izvēlieties **Labot** vai **Pievienot** atbilstošā indeksa sadaļā. Lai izveidotu jaunu indeksu kopu, atlasiet **Jauna indeksu kopa**. Katrai rindai katrā indeksu kopā laukā **Dimensija** atlasiet pamatdimensiju sarakstā. Automātiski tiek ģenerētas šādu lauku vērtības:
+
+    - **Kopas numurs** – dimensijas, kas pieder vienai grupai (indeksam), tiks grupētas kopā, un tām tiks piešķirts vienāds kopas numurs.
+    - **Hierarhija** – hierarhija tiek izmantota, lai definētu atbalstītās dimensiju kombinācijas, kuras var vaicāt dimensiju grupā (indekss). Piemēram, ja iestatāt dimensiju grupu, kam ir hierarhijas secība *Stils*, *Krāsa* un *Lielums*, sistēma atbalsta trīs vaicājumu grupu rezultātus. Pirmā grupa ir tikai stils. Otrā grupa ir stila un krāsas kombinācija. Trešā grupa ir stila, krāsas un izmēra kombinācija. Citas kombinācijas netiek atbalstītas.
+
 ### <a name="example"></a>Paraugs
 
 Šajā sadaļā sniegts piemērs, kā hierarhija darbojas.
 
-Jūsu krājumos ir šādi elementi.
+Šajā tabulā sniegts šajā piemērā pieejamo krājumu saraksts.
 
 | Objekts | ColorId | SizeId | StyleId | Daudzums |
 |---|---|---|---|---|
@@ -246,7 +323,7 @@ Jūsu krājumos ir šādi elementi.
 | T-krekls | Sarkanā | Mazs | Regulārs | 6 |
 | T-krekls | Sarkanā | Liels | Regulārs | 7 |
 
-Šeit ir indekss.
+Nākamajā tabulā ir parādīts, kā tiek iestatīta indeksu hierarhija.
 
 | Kopas skaitlis | Dimensija | Hierarhija |
 |---|---|---|
@@ -284,6 +361,8 @@ Indekss ļauj veikt rīcībā esošo krājumu vaicājumu šādos veidos:
 
 > [!NOTE]
 > Pamatdimensijas, kas ir definētas nodalījuma konfigurācijās, nav jādefinē indeksa konfigurācijās.
+> 
+> Ja ir jāvaicā tikai tas inventārs, kurš ir apkopots ar visām izmēru kombinācijām, jūs varat iestatīt vienu rādītāju, kas satur bāzes izmēru `Empty`.
 
 ## <a name="reservation-configuration-optional"></a><a name="reservation-configuration"></a>Rezervācijas konfigurācija (nav obligāti)
 
@@ -296,22 +375,37 @@ Rezervācijas konfigurācija ir nepieciešama, ja vēlaties izmantot vieglās re
 
 ### <a name="soft-reservation-mapping"></a>Vieglās rezervācijas kartēšana
 
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+
 Veicot rezervāciju, iespējams, vēlēsieties zināt, vai rīcībā esošie krājumi pašlaik ir pieejami rezervēšanai. Apstiprināšana ir saistīta ar aprēķinātu mērījumu, kas attēlo fizisko mērījumu kombinācijas skaitļošanas formulu.
 
-Piemēram, rezervēšanas mērs ir balstīts uz `SoftReservOrdered` fizisko mērījumu no datu avota `iv` (Krājumu redzamība). Šajā gadījumā varat iestatīt aprēķināto `AvailableToReserve` datu avota `iv`mērījumu, kā parādīts šeit.
+Iestatot kartējumu no fiziskā mēra uz aprēķināto mērījumu, iespējojiet Krājumu redzamības pakalpojumu, lai automātiski validētu rezervāciju pieejamību, pamatojoties uz fizisko mērījumu.
 
-| Aprēķina tips | Datu avots | Fiziskais mērs |
-|---|---|---|
-| Papildinājums | `fno` | `AvailPhysical` |
-| Papildinājums | `pos` | `Inbound` |
-| Atņemšana | `pos` | `Outbound` |
-| Atņemšana | `iv` | `SoftReservOrdered` |
+Pirms kartēšanas iestatīšanas, lapas **Konfigurācija** cilnēs **Datu avots** un **Aprēķinātais līdzeklis** ir jābūt definētiem fiziskajiem līdzekļiem, aprēķinātajiem līdzekļiem un to datu avotiem programmā Power Apps (kā iepriekš aprakstīts šajā tēmā).
 
-Iestatiet vieglās rezervācijas kartēšanu, lai nodrošinātu kartēšanu no `SoftReservOrdered` rezervācijas līdzekļa uz `AvailableToReserve` aprēķināto līdzekli.
+Lai definētu vieglās rezervācijas kartēšanu, veiciet šādas darbības.
 
-| Fiziskais mēra datu avots | Fiziskais mērs | Pieejams rezervēšanas datu avotam | Pieejams rezervēšanai aprēķinātam mēram |
-|---|---|---|---|
-| `iv` | `SoftReservOrdered` | `iv` | `AvailableToReserve` |
+1. Nosakiet fizisko mērījumu, kas kalpo kā vieglās rezervēšanas mērs (piemēram, `SoftReservOrdered`).
+1. Lapas **Konfigurācija** cilnē **Aprēķinātais līdzeklis** definējiet *rezervēšanai pieejamo* (AFR) skaitļošanas formulu, kuru vēlaties kartēt uz fizisko mērījumu. Piemēram, varat iestatīt `AvailableToReserve` (pieejams rezervācijai), lai tas būtu kartēts uz iepriekš noteiktu `SoftReservOrdered` fizisko mērījumu. Šādā veidā var atrast daudzumus, kuru `SoftReservOrdered` krājumu statuss ir pieejams rezervēšanai. Tabulā ir parādīta AFR aprēķina formula.
+
+    | Aprēķina tips | Datu avots | Fiziskais mērs |
+    |---|---|---|
+    | Papildinājums | `fno` | `AvailPhysical` |
+    | Papildinājums | `pos` | `Inbound` |
+    | Atņemšana | `pos` | `Outbound` |
+    | Atņemšana | `iv` | `SoftReservOrdered` |
+
+    Iesakām iestatīt aprēķināto izmēru tā, lai tas saturētu fizisko mērījumu, kurā ir balstīts rezervācijas mērījums. Tādējādi aprēķinātā mērījuma daudzumu ietekmēs rezervācijas mērījumu daudzums. Tāpēc Šajā piemērā `iv` datu avota `AvailableToReserve` aprēķinātajam mērījumam vajadzētu saturēt `SoftReservOrdered` fizisko mērījumu no `iv` kā komponentu.
+
+1. Atveriet lapu **Konfigurācija**.
+1. Cilnē **Vieglās rezervācijas kartēšana** iestatiet kartējumu no fiziskā mēra uz aprēķināto mērījumu. Iepriekšējā piemērā varat izmantot tālāk norādītos iestatījumus, lai kartētu `AvailableToReserve` uz iepriekš definēto `SoftReservOrdered` fizisko mērījumu.
+
+    | Fiziskais mēra datu avots | Fiziskais mērs | Pieejams rezervēšanas datu avotam | Pieejams rezervēšanai aprēķinātam mēram |
+    |---|---|---|---|
+    | `iv` | `SoftReservOrdered` | `iv` | `AvailableToReserve` |
+
+    > [!NOTE]
+    > Ja nevarat rediģēt cilni **Vieglās rezervācijas kartēšana**, jums, iespējams, vajadzēs iespējot līdzekli *OnHandReservation* cilnē **Līdzekļu pārvaldība**.
 
 Tagad, kad veiksiet rezervāciju `SoftReservOrdered`, Krājumu redzamība automātiski atradīs un rezervēšanas validācijai tiks atrasta `AvailableToReserve` saistītā aprēķināšanas formula.
 
@@ -348,11 +442,16 @@ Piemēram, Krājumu redzamībai ir šādi rīcībā esošie krājumi.
 
 Tāpēc, mēģinot veikt rezervācijas `iv.SoftReservOrdered` un daudzums ir mazāks vai vienāds ar `AvailableToReserve` (10), varat veikt rezervēšanu.
 
+> [!NOTE]
+> Izsaucot rezervācijas API, varat kontrolēt rezervācijas derīgumu, pieprasījuma laukā konkretizējot Būla `ifCheckAvailForReserv` parametru. Vērtība `True` nozīmē, ka ir vajadzīga validācija, bet vērtība `False` nozīmē, ka validācija nav vajadzīga. Noklusējuma vērtība ir `True`.
+
 ### <a name="soft-reservation-hierarchy"></a>Vieglās rezervācijas hierarhija
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Rezervāciju hierarhija apraksta dimensiju secību, kas jānorāda, veicot rezervācijas. Tas darbojas tādā pašā veidā, kā preču indeksu hierarhija darbojas rīcībā esošos vaicājumos.
 
-Rezervāciju hierarhija nav atkarīga no preču indeksu hierarhijas. Šī neatkarību ļauj ieviest kategoriju pārvaldību, kur lietotāji var sadalīt dimensijas detalizētāk, lai noteiktu prasības precīzākai rezervāciju veikšanai.
+Rezervāciju hierarhija nav atkarīga no preču indeksu hierarhijas. Šī neatkarību ļauj ieviest kategoriju pārvaldību, kur lietotāji var sadalīt dimensijas detalizētāk, lai noteiktu prasības precīzākai rezervāciju veikšanai. Jūsu vieglās rezervācijas hierarhijai vajadzētu saturēt komponentus `SiteId` un `LocationId`, jo tie veido dalīšanās konfigurāciju. Veicot rezervāciju, ir jākonkretizē produkta dalījums.
 
 Tālāk ir sniegts dimensiju hierarhijas piemērs.
 
@@ -364,10 +463,8 @@ Tālāk ir sniegts dimensiju hierarhijas piemērs.
 | `SizeId` | 4 |
 | `StyleId` | 5 |
 
-Šajā piemērā varat veikt rezervāciju šādām dimensiju secībām:
+Šajā piemērā rezervāciju var veikt šādām izmēru secībām. Veicot rezervāciju, ir jākonkretizē produkta dalījums. Tāpēc pamata hierarhija, kuru varat lietot ir `(SiteId, LocationId)`.
 
-- `()`– dimensija nav dota.
-- `(SiteId)`
 - `(SiteId, LocationId)`
 - `(SiteId, LocationId, ColorId)`
 - `(SiteId, LocationId, ColorId, SizeId)`
@@ -375,9 +472,24 @@ Tālāk ir sniegts dimensiju hierarhijas piemērs.
 
 Dimensiju secībai ir stingri jāievēro rezervāciju hierarhijas secība, dimensija pēc dimensijas. Piemēram, hierarhijas secība `(SiteId, LocationId, SizeId)` nav derīga, jo trūkst `ColorId`.
 
+## <a name="complete-and-update-the-configuration"></a>Pabeidziet un atjauniniet konfigurāciju
+
+Pēc konfigurācijas pabeigšanas ir jāveic visas izmaiņas Krājumu redzamībai. Lai veiktu izmaiņas, atlasiet **Atjaunināt konfigurāciju** lapas **Konfigurācija** augšējā labajā stūrī programmā Power Apps.
+
+Pirmo reizi atlasot **Atjaunināt konfigurāciju**, sistēma pieprasa savus akreditācijas datus.
+
+- **Klienta ID** — Azure programmas ID, ko izveidojāt Krājumu redzamībai.
+- **Nomnieka ID** — jūsu Azure nomnieka ID.
+- **Klienta slepenā informācija** — Azure pieteikuma slepenā informācija, ko izveidojāt Krājumu redzamībai.
+
+Pēc pieteikšanās konfigurācija tiek atjaunināta Krājumu redzamības pakalpojumā.
+
+> [!NOTE]
+> Kad pievienojat datu avotu, pirms Krājumu redzamības pakalpojuma konfigurācijas atjaunināšanas noteikti pārbaudiet datu avota nosaukumu, fiziskos izmērus un dimensiju kartējumus. Pēc **Konfigurācijas atjaunināšanas** atlases šos iestatījumus nevarēsit modificēt.
+
 ## <a name="default-configuration-sample"></a><a name="default-configuration-sample"></a>Noklusējuma konfigurācijas piemērs
 
-Tās inicializācijas posmā Krājumu redzamība iestata noklusējuma konfigurāciju. Pēc nepieciešamības konfigurāciju var modificēt.
+Inicializācijas posmā Inventory Visibility iestata noklusējuma konfigurāciju, kura sīkāk aprakstīta šeit. Šo konfigurāciju varat pēc vajadzības pārveidot.
 
 ### <a name="data-source-configuration"></a>Datu avota konfigurācija
 

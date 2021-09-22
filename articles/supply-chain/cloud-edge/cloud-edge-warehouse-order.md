@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 4a77b157e9dd5ee1f551cbb59abbc89aaa28d325cc74a77e6624f25902c5b19e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bd3c72f2c008b936ceda53a3fcdde79df1e6b1b7
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731893"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471696"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>Noliktavas pasūtījumi darba slodzes mākoņa un malas mēroga vienībām
 
@@ -27,16 +27,18 @@ ms.locfileid: "6731893"
 
 ## <a name="what-are-warehouse-orders"></a>Kas ir noliktavas pasūtījumi?
 
-*Noliktavas pasūtījumi* ir pasūtījuma veids, kas tika izveidots, lai atbalstītu pārkraušanas centra un mēroga vienību noliktavas izvietošanu. Tie ļauj saņemt krājumus, veicot noliktavas darba noslodzi mēroga vienībā. Ties pašlaik tiek lietoti tikai pirkšanas pasūtījumos.
+*Noliktavas pasūtījumi* ir pasūtījumi, kurus izmanto, lai sekmētu centrmezgla un mēroga vienības noliktavas izvietošanu. Ar tiem var saņemt un sūtīt krājumu, kad esat palaiduši noliktavas darba slodzi mēroga vienībā.
 
-Noliktavas pasūtījumi tiek izmantoti kā daļa no noliktavas pārvaldības apstrādes, piemēram, kad Warehouse Management mobile programma tiek izmantota, lai reģistrētu fiziskos rīcībā esošos krājumus ienākošā pirkšanas pasūtījuma apstrādes laikā. Noliktavas pasūtījumi tiek izveidoti kā daļa no *Pārsūtīšanas uz noliktavu* procesa, kas ir pieejams pirkšanas pasūtījumiem, kuros norādīta mēroga vienības noliktava un krājumi, kas ir iespējoti noliktavas pārvaldības procesu izmantošanai.
+Noliktavas pasūtījumi tiek izmantoti kā daļa gan no ienākošās, gan izejošās noliktavu pārvaldības apstrādes. Tie tiek izveidoti kā daļa no *Izlaišanas uz noliktavu* procesa, kas tiek inicializēts centrmezglā.
+Ienākošajai apstrādei tiek izmantota noliktavas mobilā lietojumprogramma, lai reģistrētu fizisko rīcībā esošo krājumu ienākošo pasūtījumu apstrādes laikā; tas ir pieejams pirkuma un ražošanas pasūtījumiem, kuri konkretizē mēroga vienības noliktavu un elementus, kuri ir iespējoti, lai lietotu noliktavas pārvaldības procesus.
+Izejošie noliktavas pasūtījumi tiek lietoti kā daļa no sūtījuma kopuma procesa pārsūtīšanas un pārdošanas pasūtījumiem.
 
 > [!IMPORTANT]
 > Noliktavas pasūtījumi ir pieejami tikai izvietošanās, kas izmanto noliktavas [pārvaldības darba noslodzes mākoņa un malas mēroga vienībām](cloud-edge-workload-warehousing.md).
 
-## <a name="create-a-warehouse-order"></a>Pirkšanas pasūtījuma izveide
+## <a name="create-an-inbound-warehouse-order"></a>Ienākošā noliktavas pasūtījuma izveidne
 
-Lai izveidotu pārdošanas pasūtījumu, veiciet sekojošās darbības.
+Lai izveidotu pirkuma pasūtījuma apstrādes ienākošo noliktavas pasūtījumu, izpildiet tālāk norādītās darbības.
 
 1. Piesakieties Microsoft Dynamics 365 Supply Chain Management instancei, kas ir palaista centrmezglā. (Jums jāuzsāk *Pārsūtīt uz noliktavu* process, kamēr esat pieteicies pārkraušanas punktā.)
 1. Dodieties uz **Sagāde un avoti \> Pirkšanas pasūtījumi \> Visi pirkšanas pasūtījumi**.

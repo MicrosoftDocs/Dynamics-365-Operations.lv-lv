@@ -1,8 +1,8 @@
 ---
 title: Veiktspējas pārskatu izveide
 description: Šajā tēmā paskaidrots, kā izveidot rezultātu pārskatu, un tajā aprakstīts katras pārskata nodaļas nolūks.
-author: andreabichsel
-ms.date: 05/05/2020
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscu
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a4a9f83c2b6cb30888ed5a797fb72b9f382187cb8f119d15a5fa437ed5aba1f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1340653c1e9a21d41743b8e3c0b81a4285245d5a
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732253"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431164"
 ---
 # <a name="create-performance-reviews"></a>Veiktspējas pārskatu izveide
 
@@ -65,17 +65,17 @@ ms.locfileid: "6732253"
 30. Atlasiet cilni **Reitingi**.  
 
     - Kopsavilkuma cilnē **Reitinga detaļas** darbinieki var novērtēt sevi, bet vadītāji novērtēt darbinieku. Ja tiek lietoti svari, automātiski tiks aprēķināta rādītāju vidējā vērtība.  
-    - Lai skatītu šo sadaļu, iespējojiet parametru iestatījumus, lai rādītu darbinieku vērtējumus.  
+    - Lai skatītu šo sadaļu, iespējojiet parametru iestatījumus darbinieku reitingu rādīšanai lapā **Cilvēkresursu kopīgotie parametri**.  
 
-31. Atlasiet cilni **Apstiprināšanas**. Ja pārskatā izmanto darbplūsmu, atteikšanās tiks parādītas tikai pēc darbplūsmas pabeigšanas. Ja darbplūsma netiek izmantota, tad gan darbinieks, gan vadītājs ir norādīti šeit. Nepieciešamā izvēles rūtiņa tiek atzīmēta, pamatojoties uz pārskata tipa iestatījumiem.  
+31. Atlasiet cilni **Apstiprināšanas**. Ja pārskatā izmanto darbplūsmu, atteikšanās tiks parādītas tikai pēc darbplūsmas pabeigšanas. Ja darbplūsma netiek izmantota, tad gan darbinieks, gan vadītājs ir norādīti šeit. Aizzīmes lodziņš **Obligāti** opcijai **Pārtrauktās reģistrācijas** ir atlasīts, pamatojoties pārskata veida iestatījumos.  
 32. Atlasiet cilni **Vispārēji**.
 
     - Veiktspējas periodam izveido noklusējuma sākuma un beigu datumus. Šie datumi ir rediģējami.  
-    - Statusi kontrolē piekļuvi pārskatam. Ja statuss ir **Nesākts**, ikviens var rediģēt pārskatu. Ja statuss ir **Notiekošs**, tikai darbinieks var skatīt un rediģēt pārskatu. **Gatavs pārskatīšanai** ļauj tikai vadītājam skatīt un rediģēt pārskatu. Statuss **Gala pārskats** ļauj gan darbiniekam, gan vadītājam skatīt un rediģēt pārskatu, ja tas ir iestatīts sadaļā pārskata tips. Statusi **Pabeigts** un **Atcelts** padara pārskatu tikai lasāmu. Ja pārskats tiek **Noraidīts** un nosūtīts atpakaļ darbiniekam, gan darbinieks, gan vadītājs var veikt nepieciešamos labojumus, lai darbinieks varētu to atkārtoti iesniegt.
+    - Statusi kontrolē piekļuvi pārskatam. Ja statuss ir **Nesākts**, ikviens var rediģēt pārskatu. Ja statuss ir **Notiekošs**, tikai darbinieks var skatīt un rediģēt pārskatu. **Gatavs pārskatīšanai** ļauj tikai vadītājam skatīt un rediģēt pārskatu. **Gala pārskata** statuss ļauj gan darbiniekam, gan vadītājam skatīt un rediģēt pārskatu, ja pārskata veidā ir atlasīta opcija **Atļaut rediģēt gala pārskatā**. Statusi **Pabeigts** un **Atcelts** padara pārskatu tikai lasāmu. Ja pārskats tiek **Noraidīts** un nosūtīts atpakaļ darbiniekam, gan darbinieks, gan vadītājs var veikt nepieciešamos labojumus, lai darbinieks varētu to atkārtoti iesniegt.
 
 33. Laukā **Pārskats** ierakstiet vērtību.
 34. Atlasiet cilni **Pārskats**. Pārskatam pārvietojoties pa statusiem, darbinieks un vadītājs var pievienot komentārus katram mērķim vai kompetencei.  
-35. Atlasiet cilni **Apstiprināšanas**. Darbinieks un pārvaldnieks var apstiprināt pārskatu. Kad izpildītas visas apstiprināšanas, statuss tiek mainīts uz **Pabeigts** un vairāk izmaiņu nevar veikt.  
+35. Atlasiet cilni **Apstiprināšanas**. Darbinieks un pārvaldnieks var apstiprināt pārskatu. Kad visas vajadzīgās nepabeigtas reģistrācijas ir pabeigtas, statuss tiek mainīts uz **Pabeigts** un nav iespējams veikt jaunas izmaiņas.  
 
 
 

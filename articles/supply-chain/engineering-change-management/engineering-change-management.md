@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: bb6fd57f200b101cb2df396cb10417feaa9425c1
-ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
+ms.openlocfilehash: 2fe94ea1afb74520ee97268f62d42832bad5c3df
+ms.sourcegitcommit: 07fada750de54e2907377df2a9f7dae497c3b66e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7384589"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "7467426"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Pārvaldīt tehnisko produktu izmaiņas
 
@@ -122,6 +122,9 @@ Lai pārskatītu ietekmētās darbības, bloķētu atlasītās darbības un nos�
     - **Skatīt vēsturi** – atvērt to darbību vēsturi, kas veiktas atlasītajam darījumam, izmantojot dialoglodziņu **Biznesa ietekme uz atvērtajiem darījumiem**. (Piemēram, vēsture parāda, vai paziņojumi ir nosūtīti vai darbības ir bloķētas.) 
     - **Apskatīt visus darījumus** – atveriet pilnu sarakstu ar visiem darījumiem, ne tikai atvērtajiem darījumiem.
 
+> [!IMPORTANT]
+> Poga **Ziņot par ražošanu** ir pieejama tikai tad, ja jūsu sistēmā ir iespējots līdzeklis *Inženiertehniskie paziņojumi par ražošanu*. Norādījumus skatiet sadaļā [Inženiertehnisko izmaiņu pārvaldības pārskats](product-engineering-overview.md).
+
 #### <a name="review-and-process-change-notifications-for-transactions"></a><a name="review-notifications"></a>Pārskatīt un apstrādāt darījumu izmaiņu paziņojumus
 
 Jūs varat lasīt un apstrādāt saņemtos izmaiņu paziņojumus šādos veidos:
@@ -131,6 +134,9 @@ Jūs varat lasīt un apstrādāt saņemtos izmaiņu paziņojumus šādos veidos:
 - Ražošanas pasūtījumos varat izvēlēties pārskatīt tikai tos izmaiņu paziņojumus, kas attiecas uz jūsu pārvaldītajiem ražošanas resursiem. Darbvietā **Ražošanas pārvaldība** Darbību rūtī atlasiet **Konfigurēt manu darbvietu**, lai filtrētu lapu tā, lai tā rādītu tikai informāciju par jūsu pārvaldītajām ražošanas vienībām, grupām un/vai resursiem. Sadaļā **Kopsavilkums** elements, kura nosaukums ir **Ražošanas pasūtījumi ar mainītām precēm**, rāda to paziņojumu skaitu, kas atbilst filtra iestatījumiem. Atlasiet šo elementu, lai atvērtu lapu **Inženiertehniskie paziņojumi**, kurā ir pilns darbību saraksts, kas atbilst filtra kritērijiem.
 
 Ja pārskata ražošanas pasūtījumu paziņojumus **Inženiertehnisko paziņojumu** lapā, jūs varat sekot saitēm uz saistītajiem izmaiņu pasūtījumiem vai ražošanas pasūtījumiem, atlasot kolonnu vērtības vai izmantojot saistītās komandas Darbību rūtī. Kad esat beidzis novērtēt izmaiņas un pēc tam, kad esat atcēlis vai modificējis ražošanas pasūtījumus pēc vajadzības, varat atzīmēt paziņojumu kā atrisinātu. Atlasiet paziņojumu un pēc tam Darbības rūtī atlasiet **Atrisināt**. Paziņojums ir noņemts no visu lietotāju skatiem.
+
+> [!IMPORTANT]
+> Iespēja nosūtīt paziņojumus ražošanas pasūtījumiem nozīmē, ka sistēmā ir jābūt iespējotam līdzeklim *Inženiertehniskie paziņojumi par ražošanu*. Norādījumus skatiet sadaļā [Inženiertehnisko izmaiņu pārvaldības pārskats](product-engineering-overview.md).
 
 ### <a name="create-a-change-order-from-a-change-request"></a>Izmaiņu pasūtījuma izveide no izmaiņu pieprasījuma
 

@@ -2,7 +2,7 @@
 title: Pieprasījuma prognozēšanas iestatīšana
 description: Šajā tēmā ir aprakstīti iestatīšanas uzdevumi, kas jāizpilda, sagatavotos pieprasījuma prognozēšanas izpildei.
 author: roxanadiaconu
-ms.date: 01/07/2020
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f282d26f4b2f607cf5f16cdf3dee4ad2c6b9c203973135f75db3f652fdd81c8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 81fec20130a1621d4cb55394db75a7ac0a16fdf3
+ms.sourcegitcommit: 4fbf031319109660c0462a800f85848571eb040d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746212"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "7471339"
 ---
 # <a name="demand-forecasting-setup"></a>Pieprasījuma prognozēšanas iestatīšana
 
@@ -31,73 +31,84 @@ ms.locfileid: "6746212"
 
 Iestatīšanas uzdevumi ietver tālāk minēto datu un parametru iestatīšanu.
 
-## <a name="item-allocation-key"></a>Krājumu sadalījuma princips
-Pieprasījuma apjoma prognoze tiek aprēķināta krājumam un tā dimensijām tikai tad, ja uz krājumu attiecas krājumu sadalījuma princips. Šī kārtula tiek izmantota, lai grupētu lielu krājumu skaitu, kas ļauj paātrināt pieprasījuma apjoma prognožu izveidošanu. Ģenerējot pieprasījuma apjoma prognozes, krājumu sadalījuma principa procentuālais īpatsvars tiek ignorēts. Prognozes tiek veidotas, pamatojoties tikai uz vēsturiskajiem datiem. 
+## <a name="item-allocation-keys"></a>Krājumu sadalījuma principi
 
-Krājumam un tā dimensijām jābūt iekļautiem tikai vienā krājumu sadalījuma principā, ja krājumu sadalījuma princips tiek izmantots prognozes sagatavošanas laikā. 
+Pieprasījuma apjoma prognoze tiek aprēķināta krājumam un tā dimensijām tikai tad, ja uz krājumu attiecas krājumu sadalījuma princips. Šī kārtula tiek izmantota, lai grupētu lielu krājumu skaitu, kas ļauj paātrināt pieprasījuma apjoma prognožu izveidošanu. Ģenerējot pieprasījuma apjoma prognozes, krājumu sadalījuma principa procentuālais īpatsvars tiek ignorēts. Prognozes tiek veidotas, pamatojoties tikai uz vēsturiskajiem datiem.
 
-Lai krājumu sadalījuma principam pievienotu noliktavas vienību (stock keeping unit — SKU), dodieties uz **Vispārējā plānošana** &gt; **Iestatīšana** &gt; **Pieprasījuma prognozēšana** &gt; **Krājumu sadalījuma principi**. Lai piešķirtu krājumu sadalījuma principam, izmantojiet lapu **Krājumu piešķiršana**.
+Krājumam un tā dimensijām jābūt iekļautiem tikai vienā krājumu sadalījuma principā, ja krājumu sadalījuma princips tiek izmantots prognozes sagatavošanas laikā.
+
+Lai pievienotu noliktavas vienību (SKU) krājuma sadalījuma principam, dodieties uz **Galvenā plānošana \>Iestatījumi \>Pieprasīt prognozi\> krājuma sadalījuma principi**. Lai piešķirtu krājumu sadalījuma principam, izmantojiet lapu **Krājumu piešķiršana**.
 
 ## <a name="intercompany-planning-groups"></a>Starpuzņēmumu plānošanas grupas
-Pieprasījuma prognozēšanas laikā tiek izveidotas starpuzņēmumu prognozes. Programmā Dynamics 365 Supply Chain Management uzņēmumi, kuriem plānošana tiek veikta kopā, tiek grupēti vienā starpuzņēmumu plānošanas grupā. Lai katram uzņēmumam norādītu, kuri krājumu sadalījuma principi jāņem vērā, veicot pieprasījuma prognozēšanu, krājumu sadalījuma princips ir jāsaista ar starpuzņēmumu plānošanas grupas dalībnieku, dodoties uz **Vispārējā plānošana** &gt; **Iestatīšana** &gt; **Starpuzņēmumu plānošanas grupas**. 
 
-Ja starpuzņēmumu plānošanas grupas dalībniekiem nav piešķirts neviens krājumu sadalījuma princips, pēc noklusējuma pieprasījuma apjoma prognoze tiek aprēķināta visiem krājumiem, kas ir piešķirti visiem krājumu sadalījuma principiem visiem uzņēmumiem. Lapā **Statistiskās bāzlīnijas prognozes ģenerēšana** ir pieejamas papildu uzņēmumu un krājumu sadalījuma principu filtrēšanas opcijas. 
+Pieprasījuma prognozēšanas laikā tiek izveidotas starpuzņēmumu prognozes. Programmā Dynamics 365 Supply Chain Management uzņēmumi, kuriem plānošana tiek veikta kopā, tiek grupēti vienā starpuzņēmumu plānošanas grupā. Lai konkretizētu, kurus krājuma sadalījuma principus vajadzētu ņemt vērā katra uzņēmuma pieprasījuma prognozēšanai, saistiet krājuma sadalījuma principu ar starpuzņēmumu plānošanas grupas dalībnieku, dodoties uz **Galvenā plānošana \> Iestatījumi \> Starpuzņēmumu plānošanas grupas**.
+
+Ja starpuzņēmumu plānošanas grupas dalībniekiem nav piešķirts neviens krājumu sadalījuma princips, pēc noklusējuma pieprasījuma apjoma prognoze tiek aprēķināta visiem krājumiem, kas ir piešķirti visiem krājumu sadalījuma principiem visiem uzņēmumiem. Lapā **Statistiskās bāzlīnijas prognozes ģenerēšana** ir pieejamas papildu uzņēmumu un krājumu sadalījuma principu filtrēšanas opcijas.
 
 Pārskatiet prognozēto krājumu skaitu. Nevajadzīgie krājumi var izraisīt izmaksu palielināšanos, ja izmantojat Microsoft Azure algoritmisko mācīšanos.
 
 ## <a name="demand-forecasting-parameters"></a>Pieprasījuma prognozēšanas parametri
-Lai iestatītu pieprasījuma prognozēšanas parametrus, dodieties uz **Vispārējā plānošana** &gt; **Iestatīšana** &gt; **Pieprasījuma prognozēšanas parametri**. Tā kā pieprasījuma prognozēšana ietver starpuzņēmumus, iestatījumiem ir globāla nozīme. Tas nozīmē, ka iestatījumi attiecas uz visiem uzņēmumiem. 
 
-Pieprasījuma prognozēšanas laikā tiek ģenerēta daudzumu prognoze. Tāpēc laukā **Pieprasījuma apjoma prognozes vienība** ir jānorāda mērvienība, ar kādu ir jāizsaka daudzums. Mērvienībai ir jābūt unikālai, lai varētu nodrošināt, ka ir skaidri saprotams apkopojums un procentuālais sadalījums. Lai iegūtu sīkāku informāciju par apkopojumu un procentuālo iedalījumu, skatiet sadaļu [Bāzlīnijas prognozes manuālu korekciju veikšana](manual-adjustments-baseline-forecast.md). Pārliecinieties, vai uz visām pieprasījuma prognozēšanā iekļautajām noliktavas vienībām izmantotajām mērvienībām attiecas mērvienības un vispārējās prognozēšanas mērvienības konvertēšanas kārtula. Kad tiek palaista prognozes ģenerēšana, tiek reģistrēts to krājumu saraksts, kam nav veikta mērvienības konvertēšana, kas ļauj ērti labot iestatījumus. 
+Lai iestatītu pieprasījuma prognozēšanas parametrus, dodieties uz **Galvenā plānošana \> Iestatījumi  \> \> Prognozes pieprasīšana \> Prognozes parametru pieprasīšana**. Tā kā pieprasījuma prognozēšana ietver starpuzņēmumus, iestatījumiem ir globāla nozīme. Tas nozīmē, ka iestatījumi attiecas uz visiem uzņēmumiem.
 
-Pieprasījuma prognozēšanu var izmantot, lai prognozētu gan atkarīgu, gan neatkarīgu pieprasījumu. Piemēram, ja atzīmēta ir tikai izvēles rūtiņa **Pārdošanas pasūtījums** un ja visi pieprasījuma prognozēšanā iekļautie krājumi ir pārdoti, sistēmā tiek aprēķināts neatkarīgais pieprasījums. Tomēr krājumu sadalījuma principiem var pievienot kritiskos apakškomponentus, iekļaujot tos pieprasījuma prognozēšanā. Šajā gadījumā, ja ir atzīmēta izvēles rūtiņa **Ražošanas rinda**, tiek aprēķināta atkarīgā prognoze. 
+Pieprasījuma prognozēšanas laikā tiek ģenerēta daudzumu prognoze. Tāpēc laukā **Pieprasījuma apjoma prognozes vienība** ir jānorāda mērvienība, ar kādu ir jāizsaka daudzums. Mērvienībai jābūt unikālai, nodrošinātu, ka apkopošanas un īpatsvara izkliede ir loǵiska. Lai iegūtu sīkāku informāciju par apkopojumu un procentuālo iedalījumu, skatiet sadaļu [Bāzlīnijas prognozes manuālu korekciju veikšana](manual-adjustments-baseline-forecast.md). Pārliecinieties, vai uz visām pieprasījuma prognozēšanā iekļautajām noliktavas vienībām izmantotajām mērvienībām attiecas mērvienības un vispārējās prognozēšanas mērvienības konvertēšanas kārtula. Kad tiek palaista prognozes ģenerēšana, tiek reģistrēts to krājumu saraksts, kam nav veikta mērvienības konvertēšana, kas ļauj ērti labot iestatījumus.
 
-Bāzlīnijas prognozes izveidošanai ir pieejamas divas metodes. Lai ģenerētu prognozi, var izmantot prognozēšanas modeļus virs vēsturiskajiem datiem vai var vienkārši kopēt uz vēsturiskajiem datiem. Laukā **Prognozes ģenerēšanas stratēģija** var izvēlēties vienu no šīm divām metodēm. Lai izmantotu prognozes modeļus, atlasiet vienumu **Azure Machine Learning**. 
+Pieprasījuma prognozēšanu var izmantot, lai prognozētu gan atkarīgu, gan neatkarīgu pieprasījumu. Piemēram, ja atzīmēta ir tikai izvēles rūtiņa **Pārdošanas pasūtījums** un ja visi pieprasījuma prognozēšanā iekļautie krājumi ir pārdoti, sistēmā tiek aprēķināts neatkarīgais pieprasījums. Tomēr krājumu sadalījuma principiem var pievienot kritiskos apakškomponentus, iekļaujot tos pieprasījuma prognozēšanā. Šajā gadījumā, ja ir atzīmēta izvēles rūtiņa **Ražošanas rinda**, tiek aprēķināta atkarīgā prognoze.
 
-Noklikšķinot uz **Prognozes dimensijas** lapas **Pieprasījuma prognozēšanas parametri** kreisajā rūtī, var atlasīt arī pieprasījuma apjoma prognozes ģenerēšanā izmantojamās prognozes dimensijas. Prognozes dimensija norāda to detalizēto datu līmeni, kam prognoze ir definēta. Obligātās prognozes dimensijas ir uzņēmums, vieta un krājumu sadalījuma princips, bet var ģenerēt arī prognozes noliktavas, krājumu statusa, debitoru grupas, debitora konta, valsts/reģiona, pavalsts un krājuma, kā arī visu krājuma dimensiju līmenī. 
+Bāzlīnijas prognozes izveidošanai ir pieejamas divas metodes. Lai ģenerētu prognozi, var izmantot prognozēšanas modeļus virs vēsturiskajiem datiem vai var vienkārši kopēt uz vēsturiskajiem datiem. Laukā **Prognozes ģenerēšanas stratēģija** var izvēlēties vienu no šīm divām metodēm. Lai izmantotu prognozes modeļus, atlasiet vienumu **Azure Machine Learning**.
 
-Jebkurā brīdī dimensiju sarakstam var pievienot pieprasījuma prognozēšanā izmantotās prognozes dimensijas. Prognozes dimensijas var arī sarakstā dzēst. Tomēr, ja prognozes dimensija tiek pievienota vai noņemta, tiek zaudētas manuāli veiktās korekcijas. 
+Lapas **Pieprasījuma prognozes parametri** kreisajā rūtī atlasot **Prognozes izmēri** varat arī atlasīt prognozes izmēru kopu, kuru izmantot, kad tiek ǵenerēta pieprasījuma prognoze. Prognozes dimensija norāda to detalizēto datu līmeni, kam prognoze ir definēta. Prognozes izmēriem ir nepieciešams uzņēmums, vieta un krājuma sadalījuma princips, taču prognozes varat ǵenerēt arī noliktavas, krājuma statusa, klientu grupas, klientu konta, valsts/reǵiona, statusa un krājuma, kā arī visu krājuma izmēru līmenī.
 
-No pieprasījuma prognozēšanas perspektīvas uz visiem krājumi neattiecas vienādi principi. Līdzīgus krājumus var grupēt pēc viena krājumu sadalījuma principa, un parametrus, piemēram, transakcijas tipus un prognozes metodes iestatījumus, var iestatīt katram krājumu sadalījuma principam. Noklikšķiniet uz **Krājumu sadalījuma princips** lapas **Pieprasījuma prognozēšanas parametri** kreisajā rūtī. 
+Jebkurā brīdī dimensiju sarakstam var pievienot pieprasījuma prognozēšanā izmantotās prognozes dimensijas. Prognozes dimensijas var arī sarakstā dzēst. Tomēr, ja prognozes dimensija tiek pievienota vai noņemta, tiek zaudētas manuāli veiktās korekcijas.
 
-Lai ģenerētu prognozi, programmā Supply Chain Management tiek izmantots algoritmiskās mācīšanās tīmekļa pakalpojums. Ja pierakstāties pakalpojumā Microsoft Azure Machine Learning Studio (klasikā), tad, lai izveidotu savienojumu ar pakalpojumu, ir jāievada tālāk norādītā informācija.
+Ne visi krājumi no pieprasījuma prognozes skatupunkta ir ar vienādu veiktspēju. Līdzīgus krājumus var grupēt pēc viena krājumu sadalījuma principa, un parametrus, piemēram, transakcijas tipus un prognozes metodes iestatījumus, var iestatīt katram krājumu sadalījuma principam. Lapas **Pieprasījuma prognozes parametri** kreisajā rūtī atlasiet **Krājuma sadalījuma principi**.
 
--   Tīmekļa pakalpojuma lietojumprogrammas interfeisa (API) atslēga
--   Tīmekļa pakalpojuma galapunkta URL
--   Azure krātuves konta nosaukums
--   Azure krātuves konta atslēga
+Lai ǵenerētu prognozi, Supply Chain Management izmanto algoritmiskās mācīšanās tīmekļa pakalpojumu. Ja pierakstāties pakalpojumā Microsoft Azure Machine Learning Studio (klasikā), tad, lai izveidotu savienojumu ar pakalpojumu, ir jāievada tālāk norādītā informācija.
+
+- Tīmekļa pakalpojuma lietojumprogrammas interfeisa (API) atslēga
+- Tīmekļa pakalpojuma galapunkta URL
+- Azure krātuves konta nosaukums
+- Azure krātuves konta atslēga
 
 > [!NOTE]
-> Azure krātuves konta nosaukums un atslēga ir jānorāda tikai tad, ja tiek izmantots pielāgots krātuves konts. Ja tiek izmantota lokālā versija, ir nepieciešams pielāgots krātuves konts pakalpojumā Azure, lai pakalpojums Algoritmiskā mācīšanās varētu piekļūt vēsturiskajiem datiem. 
+> Azure krātuves konta nosaukums un atslēga ir jānorāda tikai tad, ja tiek izmantots pielāgots krātuves konts. Ja tiek izmantota lokālā versija, ir nepieciešams pielāgots krātuves konts pakalpojumā Azure, lai pakalpojums Algoritmiskā mācīšanās varētu piekļūt vēsturiskajiem datiem.
 
-Lai izveidotu pieprasījuma apjoma prognozes, varat izvietot savu pakalpojumu, izmantojot Machine Learning Studio vai Supply Chain Management pieprasījuma prognozēšanas eksperimentus. Norādījumi par to, kā izvietot pieprasījuma prognozēšanas eksperimentus kā tīmekļa pakalpojumu, ir pieejami programmā Supply Chain Management. Lapā **Pieprasījuma prognozēšanas parametri** noklikšķiniet uz cilnes **Azure Machine Learning**.
+Lai izveidotu pieprasījuma apjoma prognozes, varat izvietot savu pakalpojumu, izmantojot Machine Learning Studio vai Supply Chain Management pieprasījuma prognozēšanas eksperimentus. Norādījumi par to, kā izvietot pieprasījuma prognozēšanas eksperimentus kā tīmekļa pakalpojumu, ir pieejami programmā Supply Chain Management. Lapā **Pieprasījuma prognozes parametri** atveriet cilni **Azure algoritmiskā mācīšanās**.
 
 ## <a name="settings-for-the-demand-forecasting-machine-learning-service"></a>Pieprasījuma prognozēšanas pakalpojuma agoritmiskās mācīšanās iestatījumi
-Lai skatītu pieprasījuma prognozēšanas pakalpojuma konfigurējamos parametrus, pārejiet uz sadaļu **Vispārējā plānošana** &gt; **Iestatīšana** &gt; **Pieprasījuma prognozēšana** &gt; **Prognozēšanas algoritma parametri**. Lapā **Prognozēšanas algoritma parametri** ir redzamas parametru noklusējuma vērtības. Šos parametrus var pārlabot lapā **Pieprasījuma prognozēšanas parametri**. Lai vispārēji pārrakstītu parametrus, izmantojiet cilni **Vispārīgi** vai izmantojiet cilni **Krājumu sadalījuma principi**, lai pārrakstītu katra krājumu sadalījuma principa parametrus. Krājumu sadalījuma principa pārrakstītos parametrus ietekmē tikai krājumu prognoze, kas ir saistīta ar šo krājumu sadalījuma principu.
+
+Lai skatītu parametrus, kurus var konfigurēt pieprasījuma prognozēšanas pakalpojumam, dodieties uz **Galvenā plānošana \> Iestatīšana \> Pieprasījuma prognoze \> Prognozes algoritmiskie parametri**. Lapā **Prognozes algoritmiskie noklusējuma parametri** parādītas parametru noklusējuma vērtības. Šos parametrus varat pārrakstīt, dodoties uz **Galvenā plānošana \> Iestatījumi \> Pieprasījuma prognoze \> Pieprasījuma prognozes parametri**, kur varat veikt tālāk norādītās darbības:
+
+- Lietojiet cilni **Vispārīgi**, lai pārrakstītu parametrus vispārīgi.
+- Lietojiet cilni **Krājuma sadalījuma principi**, lai pārrakstītu parametrus katram krājuma sadalījuma principam. Krājumu sadalījuma principa pārrakstītos parametrus ietekmē tikai krājumu prognoze, kas ir saistīta ar šo krājumu sadalījuma principu.
 
 ### <a name="forecast-algorithm-parameters"></a>Budžeta algoritma parametri
 
-Cilnē **Sadalījuma principi** jūs varat iestatīt **Prognozēšanas algoritma parametri** katram krājumu sadalījuma principam. Ir pieejamas tālāk minētās opcijas.
-- **Ticamības līmeņa procenti**: ticamības intervālu veido vairākas vērtības, kas darbojas kā labs pieprasījuma apjoma prognozes aprēķins. Ticamības līmenis 95% norāda, ka pastāv 5% risks, ka nākamais pieprasījums nebūs ticamības intervāla diapazonā.
-- **Spēka sezonalitāte**: norāda, vai piespiest modeli izmantot noteikta veida sezonalitāti. Attiecas tikai uz objektiem ARIMA un ETS. Opcijas: AUTOMĀTISKS (noklusējuma), NAV, ADITĪVS, MULTIPLIKATĪVS.
-- **Prognozēšanas modelis**: opcijas: ARIMA, ETS, STL, ETS+ARIMA, ETS+STL, VISI. Lai atlasītu atbilstošāko modeli, izmantojiet **VISI**.
-- **Maksimālā prognozētā vērtība**: norāda maksimālo vērtību, ko izmantot prognozēm. Formāts: +1E[n] vai skaitliska konstante.
-- **Minimālā prognozētā vērtība**: norāda minimālo vērtību, ko izmantot prognozēm. Formāts: -1E[n] vai skaitliska konstante.
-- **Trūkstošās vērtības aizvietošana**: norāda, kā tiek aizpildītas atstarpes vēsturiskajos datos. Opcijas: skaitliska vērtība, VIDĒJAIS, IEPRIEKŠĒJAIS, INTERPOLĒTS LINEĀRS, INTERPOLĒTS POLINOMA.
-- **Trūkstošās vērtības aizstāšanas tvērums**: norāda, vai vērtības aizvietošana attiecas tikai uz katra atsevišķa granularitātes atribūta datu diapazonu, vai uz visu datu kopu. Opcijas: GRANULARITĀTES_ATRIBŪTS (noklusējuma), GLOBĀLS.
-- **Sezonalitātes norādījums**: sezonas datiem norādiet prognozēšanas modeļa atgādinājumu, lai uzlabotu prognozes precizitāti. Formāts: vesels skaitlis, kas norāda intervālu skaitu, kur tiek atkārtots pieprasījuma modelis. Piemēram, ievadiet "6" datiem, kas atkārtojas ik pēc sešiem mēnešiem.
-- **Testa kopas lielums procentos**: vēsturisko datu procentuālais daudzums, kas tiks izmantots kā testa kopa, lai aprēķinātu prognozes precizitāti. 
+Lapas **Pieprasījuma prognozes parametri** cilnē **Krājuma sadalījuma principi** varat lietot kopsavilkuma cilni **Prognozes algoritmiskie parametri**, lai piešķirtu prognozes algoritmiskos parametrus krājuma sadalījuma principam, kas pašlaik atlasīts režģī pa kreisi. Izmantojiet rīkjoslas pogas **Pievienot** un **Noņemt**, lai izveidotu vajadzīgo parametru kolekciju. Katram saraksta parametram atlasiet vienu no šīm vērtībām laukā **Nosaukums** un laukā **Vērtība** ievadiet atbilstošo vērtību:
+
+- **Ticamības līmeņa procenti** — Ticamības intervāls sastāv no vērtību diapazona, kuras darbojas kā labi pieprasījuma prognozes aptuvenie rezultāti. Ticamības līmenis 95% norāda, ka pastāv 5% risks, ka nākamais pieprasījums nebūs ticamības intervāla diapazonā.
+- **Uzspiest sezonalitāti** — Konkretizē, vai uzspiest modelim noteikta veida sezonalitātes lietošanu. Attiecas tikai uz objektiem ARIMA un ETS. Opcijas: AUTOMĀTISKS (noklusējuma), NAV, ADITĪVS, MULTIPLIKATĪVS.
+- **Prognozēšanas modelis** — Opcijas: ARIMA, ETS, STL, ETS+ARIMA, ETS+STL, ALL.  Lai atlasītu atbilstošāko modeli, izmantojiet **VISI**.
+- **Maksimālās prognozētās vērtības** — Konkretizē maksimālo vērtību, kuru izmantot prognozēs. Formāts: +1E[n] vai skaitliska konstante.
+- **Minimālās prognozētās vērtības** — Konkretizē minimālo vērtību, kuru izmantot prognozēs. Formāts: -1E[n] vai skaitliska konstante.
+- **Trūkst vērtības aizstājēja** — Konkretizē, kā tiek aizpildītas trūkstošās vietas vēsturiskajos datos. Opcijas: skaitliska vērtība, VIDĒJAIS, IEPRIEKŠĒJAIS, INTERPOLĒTS LINEĀRS, INTERPOLĒTS POLINOMA.
+- **Trūkstošais vērtības aizstājēja tvērums** — Konkretizē, vai vērtības aizstājējs attiecas tikai uz katras atsevišķās granularitātes atribūta datu diapazonu vai uz visu datu kopu. Datumu diapazona, kuru sistēma izmanto, aizpildot trūkstošās vietas vēsturiskajos datos, izveidošanai ir pieejamas tālāk norādītās opcijas:
+
+  - VISPĀRĪGI — Sistēma izmanto pilno visu granularitātes atribūtu datumu diapazonu.
+  - HISTORY_DATE_RANGE – Sistēma izmanto konkrētu datumu diapazonu, kas dialoglodziņa **Ģenerēt statistisko bāzlīnijas prgonozi** lauka grupā **Vēsturiskais horizonts** definēts laukos **Datums no** un **Datums līdz**.
+  - GRANULARITY_ATTRIBUTE — Sistēma izmanto pašlaik apstrādātā granularitātes atribūta datumu diapazonu.
+
+  > [!NOTE]
+  > Granularitātes atribūts ir prognozes izmēru kombinācija, attiecībā pret kuru tiek veikta prognoze. Prognozes izmērus varat definēt lapā **Pieprasījuma prognozes parametri**.
+
+- **Sezonalitātes norāde** — Nodrošina sezonalitātes datu norādi prognozēšanas modelim, lai uzlabotu prognozes precizitāti. Formāts: vesels skaitlis, kas norāda intervālu skaitu, kur tiek atkārtots pieprasījuma modelis. Piemēram, ievadiet "6" datiem, kas atkārtojas ik pēc sešiem mēnešiem.
+- **Testa kopas izmēra procentuālais daudzums** — Vēsturisko datu īpatsvars, kurus jāizmanto kā prognozes precizitātes aprēķina testa kopa.
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Pārskats par pieprasījuma prognozēšanu](introduction-demand-forecasting.md)
-
-[Statistiskās bāzlīnijas prognozes ģenerēšana](generate-statistical-baseline-forecast.md)
-
-[Manuāla bāzlīnijas prognozes korekciju veikšana](manual-adjustments-baseline-forecast.md)
-
-
-
+- [Pārskats par pieprasījuma prognozēšanu](introduction-demand-forecasting.md)
+- [Statistiskās bāzlīnijas prognozes ģenerēšana](generate-statistical-baseline-forecast.md)
+- [Manuāla bāzlīnijas prognozes korekciju veikšana](manual-adjustments-baseline-forecast.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

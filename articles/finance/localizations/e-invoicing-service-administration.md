@@ -2,7 +2,7 @@
 title: Elektroniskās rēķinu izveides administrēšanas komponenti
 description: Šajā tēmā sniegta informācija par komponentiem, kas ir saistīti ar Elektronisko rēķinu izrakstīšanas administrēšanu.
 author: gionoder
-ms.date: 04/29/2021
+ms.date: 08/31/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6582a0a9eda19fe69ead853ea5d79d763afcb8a468717fde84a32146fd0f79af
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d187e8a03552258099d7021ff056d0726ea60ca1
+ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721730"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463885"
 ---
 # <a name="electronic-invoicing-administration-components"></a>Elektroniskās rēķinu izveides administrēšanas komponenti
 
@@ -31,14 +31,14 @@ ms.locfileid: "6721730"
 
 ## <a name="azure"></a>Azure
 
-Izmantojiet Microsoft Azure, lai izveidotu noslēpumus Key Vault un krātuves kontam. Tad izmantojiet Elektronisko rēķinu izrakstīšanas konfigurācijas noslēpumus.
+Lietojiet Microsoft Azure, lai izveidotu atslēgu akreditācijas datu komplekta slepenās vērtības un iestatītu krātuves kontu. Pēc tam izmantojiet atslēgu akreditācijas datu komplekta slepenās vērtības un krātuves konta SAS marķieri elektroniskās rēķinu izrakstīšanas konfigurācijā.
 
 ## <a name="lifecycle-services"></a>Lifecycle Services
 
-Izmantojiet Microsoft Dynamics Lifecycle Services (LCS), lai iespējotu mikropakalpojumus jūsu LCS izvietošanas projektam.
+Lietojiet  Microsoft Dynamics Lifecycle Services (LCS), lai iespējotu jūsu LCS izvietošanas projekta elektroniskās rēķinu izrakstīšanas pievienojumprogrammu.
 
 > [!NOTE]
-> Mikropakalpojuma LCS instalācijai ir nepieciešama vismaz 2. pakāpes virtuālā mašīna. Lai iegūtu vairāk informācijas par vides plānošanu, skatiet [Vides plānošana](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
+> Lai LCS instalētu pievienojumprogrammas, ir vajadzīga vismaz **2. līmeņa vide**. Lai iegūtu vairāk informācijas par vides plānošanu, skatiet [Vides plānošana](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
  
 
 ## <a name="regulatory-configuration-services"></a>Regulatory Configuration Services
@@ -53,20 +53,21 @@ Papildinformāciju par RCS skatiet sadaļā [Regulatory Configuration Services (
 
 Pirms RCS izmantošanas Elektronisko rēķinu konfigurēšanai, jums jākonfigurē RCS, lai ļautu sazināties ar Elektronisko rēķinu izrakstīšanu. Šī konfigurācija tiek pabeigta **Elektronisko pārskatu parametru** lapas **Elektronisko rēķinu izrakstīšanas** cilnē.
 
-#### <a name="service-endpoint"></a>Pakalpojuma galapunkts
+#### <a name="service-endpoint"></a><a id='svc-endpoint-uris'></a>Pakalpojuma galapunkts
 
 Elektronisko rēķinu izrakstīšana ir pieejama vairākās Azure datucentru ģeogrāfijās. Tabulā zemāk ir uzskaitīti pieejamības dati par reģionu.
 
-| Azure datacenter ģeogrāfija |
-|----------------------------|
-| ASV              |
-| Eiropa                     |
-| Apvienotā Karaliste             |
-| Āzija                       |
+
+| Datacenter Azure ģeogrāfija | Pakalpojuma galapunkta URI                                                       |
+|----------------------------|----------------------------------------------------------------------------|
+| ASV              | <p>https://gw.us-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il103.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il104.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il105.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il106.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il107.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il108.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il109.gateway.prod.island.powerapps.com/electronicinvoicing</p> |
+| Eiropa                     | <p>https://gw.eu-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il103.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il104.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il105.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il106.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il107.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il108.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il109.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il110.gateway.prod.island.powerapps.com/electronicinvoicing/</p> |
+| Apvienotā Karaliste             | <p>https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p> |
+| Āzija                       | <p>https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p> |
 
 ### <a name="service-environments"></a>Pakalpojumu vides
 
-Pakalpojumu vides ir loģiskie nodalījumi, kas izveidoti elektronisko rēķinu izrakstīšanas funkciju izpildes atbalstam Elektronisko rēķinu izrakstīšanai. Drošības noslēpumi un digitālie sertifikāti, un vadība (tas ir, piekļuves atļaujas) ir jākonfigurē pakalpojuma vides līmenī.
+Pakalpojumu vides ir loģiski dalījumi, kuri tiek izveidoti, lai sekmētu globalizācijas līdzekļu izpildi elektroniskajā rēķinu izrakstīšanā. Drošības noslēpumi un digitālie sertifikāti, un vadība (tas ir, piekļuves atļaujas) ir jākonfigurē pakalpojuma vides līmenī.
 
 Klienti var izveidot tik daudz pakalpojumu vides, cik nepieciešams. Visas klientu izveidojušās pakalpojumu vides ir neatkarīgas viena no otras.
 
@@ -84,8 +85,8 @@ Pakalpojuma vides var pārvaldīt ar statusu. Iespējamās opcijas ir šādas:
 
 Elektronisko rēķinu izrakstīšana ir atbildīga par visu jūsu uzņēmuma datu glabāšanu Azure resursos, kas pieder jūsu uzņēmumam. Lai nodrošinātu, ka pakalpojums darbojas pareizi un ka visiem biznesa datiem, kas ir nepieciešami un ko ģenerē Elektronisko rēķinu izrakstīšana, ir atbilstoši pieejami, ir jāizveido divi galvenie Azure resursi:
 
-- Azure krātuves konts (BLOB krātuve), kas glabās elektroniskos rēķinus
-- Azure Key Vault, kur tiks glabāti sertifikāti un krātuves konta vienoto resursu identifikatoru (URI)
+- Azure krātuves konts (BLOB krātuve), kurā tiks glabāti elektroniskie dokumenti, tostarp elektroniskie rēķini, dokumentu pārveidojumu rezultāti un atbildes no ārējiem tīmekļa pakalpojumiem.
+- Azure atslēgu akreditācijas datu komplekts, kurā tiks glabāti sertifikāti un krātuves konta (SAS marķieris) vienotais resursu identifikators (URI).
 
 
 Īpašam Key Vault un debitora krātuves kontam ir jābūt piešķirtiem tieši lietošanai ar Elektronisko rēķinu izrakstīšanu . Papildinformāciju skatiet šeit: [Azure krātuves konta un Key Vault izveide](e-invoicing-create-azure-storage-account-key-vault.md).
@@ -122,13 +123,13 @@ Lai iespējotu komunikāciju starp Finance un Supply Chain Management, un elektr
 
 Pakalpojuma galapunkts ir URL, kur atrodas Elektronisko rēķinu izrakstīšana. Pirms var tikt izdoti elektroniskie rēķini, pakalpojuma galapunktam jābūt konfigurētam pakalpojumos Finance un Supply Chain Management, lai ļautu sazināties ar pakalpojumu.
 
-Lai konfigurētu pakalpojuma galapunktu, dodieties uz **Organizācijas administrēšana \> Iestatīšana \> Elektronisko dokumentu parametrs** un pēc tam cilnes **Iesniegšanas pakalpojumi** laukā **Elektronisko rēķinu izrakstīšanas URL** ievadiet URL kā aprakstīts sadaļas **Pakalpojuma galapunkts** tabulā.
+Lai konfigurētu pakalpojuma galapunktu, dodieties uz **Organizācijas pārvaldība \> Iestatījumi \> Elektronisko dokumentu parametri** un lauka **Galapunkta URL** cilnē **Elektroniskā rēķinu izrakstīšana** ievadiet atbilstošo URL no tabulas, kas iepriekš Šajā tēmā aprakstīta sadaļā [Pakalpojumu galapunkts](#svc-endpoint-uris).
 
 #### <a name="environments"></a>Vides
 
 Vides nosaukums, kas ir ievadīts pakalpojumos Finance un Supply Chain Management, attiecas uz vides nosaukumu, kas ir izveidots pakalpojumā RCS un publicēts Elektronisko rēķinu izrakstīšanā.
 
-Vide ir jākonfigurē **Iesniegšanas pakalpojumi** cilnes **Elektronisko dokumentu parametra** lapā, lai katrā elektronisko rēķinu izsniegšanas pieprasījumā būtu vide, kur elektronisko rēķinu izrakstīšana var noteikt, kurai elektronisko rēķinu izrakstīšanas funkcijai ir jāapstrādā pieprasījums.
+Videi jābūt konfigurētai lapas **Elektronisko dokumentu parametri** cilnē **Elektroniskā rēķinu izrakstīšana**. Tādējādi katrs pieprasījums izdot elektroniskus rēķinus satur vidi, kurā elektroniskā rēķinu izrakstīšana var noteikt, kuram līdzeklim ir šis pieprasījums jāapstrādā.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

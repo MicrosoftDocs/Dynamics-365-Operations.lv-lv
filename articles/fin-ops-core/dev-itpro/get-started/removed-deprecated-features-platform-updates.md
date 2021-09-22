@@ -2,7 +2,7 @@
 title: Noņemtie vai novecojušie platformas līdzekļi
 description: Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt no Finance and Operations programmu platformu atjauninājumiem.
 author: sericks007
-ms.date: 05/26/2021
+ms.date: 08/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7bd5a64553afa04517633ed03d8bbd6077208c0b511d8fa131dc9a2849998708
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 68114989ab96d175b534a31a7115420ee4adbcfb
+ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774413"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463631"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Noņemtie vai novecojušie platformas līdzekļi
 
@@ -32,7 +32,29 @@ ms.locfileid: "6774413"
 
 Detalizēta informācija par Finance and Operations programmu objektiem ir pieejama tēmā [Tehniskās atsauces pārskati](/dynamics/s-e/global/axtechrefrep_61). Varat salīdzināt dažādās šo pārskatu versijas, lai noskaidrotu, kuri objekti ir mainīti vai noņemti katrā Finance and Operations programmu versijā.
 
-## <a name="feature-deprecation-notice-effective-may-2021"></a>Līdzekļu nolietošanas paziņojums, kas ir spēkā no 2021. gada maija
+## <a name="feature-deprecation-effective-august-2021"></a>Līdzekļu nolietošana, kas ir spēkā no 2021. gada augusta
+
+### <a name="microsoft-azure-sql-reports-in-lifecycle-services-lcs"></a>Microsoft Azure SQL pārskati Lifecycle Services (LCS)
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Mēs nolietojam dažus SQL pārskatus LCS. Jums vairs nebūs jāpārrauga pārskati, jo šis līdzeklis ir aizstāta ar citiem pakalpojumiem. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Nr. |
+| **Ietekmētie produkta apgabali**         | SQL pārskati: Pašreizējais DTU, Pašreizējās DTU detaļas, Iegūt detalizētu informāciju par bloķēšanu, Pašreizējā plāna palīglīniju saraksts, Iegūt vaicājuma ID sarakstu, Iegūt SQL vaicājumu plānu pašreizējam plāna ID, Iegūt vaicājuma plānus un izpildes statusu, Iegūt droseles configurāciju, Iegūt gaidīšanas statistiku, Uzskaitīt dārgākus vaicājumus |
+| **Izvietošanas iespēja**              | Mākoņa izvietošana: ietekmē Microsoft pārvaldītas ražošanas vides un 2. pakāpes, izmantojot 5. pakāpes tekstlodziņa vides. |
+| **Statuss**                         | Novecojis: plānotais noņemšanas datums 2021. gada oktobris. |
+
+### <a name="azure-sql-actions-in-lcs"></a>Azure SQL darbības LCS
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Mēs nolietojam dažus SQL darbības LCS.  |
+| **Vai ir aizstāts ar citu līdzekli?**   | Nr. |
+| **Ietekmētie produkta apgabali**         | SQL darbības: Izveidot plāna palīglīniju, lai spēkā būtu plāna ID, Izveidot plāna palīglīniju, lai pievienotu tabulas norādes, Noņemt plāna palīglīniju, Atspējot/iespējot lapas bloķēšanu un bloķēšanas eskalāciju, Atjaunināt statistiku tabulā, Atjaunot indeksu, Izveidot indeksu |
+| **Izvietošanas iespēja**              | Mākoņa izvietošana: ietekmē Microsoft pārvaldītas ražošanas vides un 2. pakāpes, izmantojot 5. pakāpes tekstlodziņa vides. |
+| **Statuss**                         | Novecojis: plānotais noņemšanas datums 2021. gada oktobris. |
+
+## <a name="feature-deprecation-effective-may-2021"></a>Līdzekļu nolietošana, kas ir spēkā no 2021. gada maijs
 
 ### <a name="globalization-portal-in-lifecycle-services-lcs"></a>Globalizācijas portāls programmā Lifecycle Services (LCS)
 

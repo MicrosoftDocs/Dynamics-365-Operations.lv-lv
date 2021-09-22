@@ -2,7 +2,7 @@
 title: Krājumu pieejamības aprēķināšana mazumtirdzniecības kanāliem
 description: Šajā tēmā aprakstīts, kā organizācija var izmantot Microsoft Dynamics 365 Commerce, lai skatītu prognozēto, rīcībā esošo produktu pieejamību tiešsaistes un veikala kanālos.
 author: hhainesms
-ms.date: 04/23/2021
+ms.date: 09/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: da79aadace09ad480fa34bc03220831023e469645bb7d53af1647bd2d35af0ea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d3cfd8c2f0b88a4e634cee0398283a51eddf60b2
+ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741816"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7472175"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Krājumu pieejamības aprēķināšana mazumtirdzniecības kanāliem
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Šajā tēmā aprakstīts, kā organizācija var izmantot Microsoft Dynamics 365 Commerce, lai skatītu prognozēto, rīcībā esošo produktu pieejamību tiešsaistes un veikala kanālos.
 
@@ -43,6 +44,21 @@ Pašlaik kanāla puses krājumu aprēķina loģikā tiek apsvērtas šādas krā
 - Krājumi, kas pārdoti, izmantojot debitoru pasūtījumus veikalā vai tiešsaistes kanālā
 - Krājums, kas atgriezts veikalā
 - Izpildītie krājumi (izdošanas, pakas, nosūtīšanas) no veikala noliktavas
+
+Lai lietotu kanāla puses krājumu aprēķinu, ir jāiespējo līdzeklis **Optimizētie preču pieejamības aprēķini**.
+
+Ja jūsu Commerce vides laidiens ir **10.0.8 līdz 10.0.11.**, izpildiet tālāk noteiktās darbības.
+
+1. Commerce galvenajā pārvaldē dodieties uz **Retail un Commerce** \> **Commerce kopīgotie parametri**.
+1. Cilnē **Krājums**, laukā **Preču pieejamības uzdevums** atlasiet **Lietot optimizētu preču pieejamības uzdevuma procesu**.
+
+Ja jūsu Commerce vides laidiens ir **10.0.12. vai jaunāks**, izpildiet tālāk noteiktās darbības.
+
+1. Commerce galvenajā pārvaldē dodieties uz **Darbvietas \> Līdzekļu pārvaldība** un iespējojiet **Optimizētās preču pieejamības aprēķinu** līdzekli.
+1. Ja jūsu tiešsaistes un veikalu kanāli izmanto vienas un tās pašas izpildes noliktavas, ir jāiespējo arī līdzeklis **Pastiprinātā e-komercijas kanāla puses krājuma aprēķina loģika**. Tādējādi kanāla puses aprēķina loģikā tiks iekļautas negrāmatotās transakcijas, kuras ir izveidotas veikala kanālā. (Šīs transakcijas var būt pārdošanas skaidrā naudā bez piegādes transakcijas, klientu pasūtījumi un atgriešana.)
+1. Palaidiet **1070** (**Kanāla konfigurācija**) darbu.
+
+Ja jūsu Commerce vide tika atjaunināta no laidiena, kas ir vecāks par Commerce 10.0.8. versiju, pēc līdzekļa **Optimizētās preču pieejamības aprēķini** iespējošanas ir jāpalaiž arī **Commerce plānotāja inicializēšana**, lai šis līdzeklis stātos spēkā. Lai palaistu inicializāciju, dodieties uz **Retail un Commerce** \>**Galvenās pārvaldes iestatījumi** \>**Commerce plānotājs**.
 
 Lai izmantotu kanāla puses krājumu aprēķinu, kā priekšnosacījums no Headquarters izveidotais krājumu datu periodiskais momentuzņēmums, kas izveidots ar darbu **Preču pieejamība**, ir jāsūta uz kanāla datu bāzēm. Momentuzņēmums attēlo informāciju, kas ir Headquarters rīcībā attiecībā uz krājumu pieejamību noteiktai preču vai preču variantu kombinācijai un noliktavai. Tajā ir iekļautas tikai tās krājumu darbības, kas tika apstrādātas un grāmatotas programmā Headquarters laikā, kad momentuzņēmums tika izveidots, un tas varētu nebūt 100 procenti precīzs reāllaikā sakarā ar konstanto pārdošanas apstrādi, kas notiek sadalītos serveros.
 
@@ -73,9 +89,7 @@ Commerce nodrošina šādus API e-komercijas scenārijiem, lai vaicātu preces k
 
 Abi API iekšēji izmanto kanāla puses aprēķina loģiku un atgriež pieprasītās preces un noliktavas novērtēto **fizisko pieejamo** daudzumu, **kopējo pieejamo** daudzumu, **mērvienību (UOM)** un **krājumu līmeni**. Ja vēlaties, atgrieztās vērtības var tikt rādītas e-komercijas vietnē, vai tās var izmantot, lai aktivizētu citu biznesa loģiku jūsu e-komercijas vietnē. Piemēram, var novērst preču iegādi ar krājumu līmeni "ārpus krājumiem".
 
-Lai gan citi API, kas ir pieejami Commerce, var tieši doties uz Headquarters, lai iznestu rīcībā esošos preču daudzumus, mēs neiesakām tos izmantot e-komercijas vidē iespējamo veiktspējas problēmu un ietekmes dēļ, ko šie Biežie pieprasījumi var radīt jūsu Headquarters serveriem. Turklāt, ar kanāla puses aprēķinu, abi iepriekš minētie API var nodrošināt precīzāku preces pieejamības novērtējumu, ņemot vērā darbības, kas izveidotas kanālos, kas vēl nav zināmi programmā Headquarters.
-
-Lai izmantotu divus API, ir jāiespējo **Optimizētās preču pieejamības aprēķināšanas** līdzeklis, izmantojot **Līdzekļu pārvaldības** darbvietu programmā Headquarters. Ja tiešsaistes un veikala kanāli izmanto vienas izpildes noliktavas, ir jāiespējo arī līdzekli **Uzlaboto e-Commerce kanāla puses krājumu aprēķināšanas loģika**, lai šajā divos API būtu kanāla puses aprēķina loģika neiegrāmatotajās darbībās (skaidras naudas un pārvadāšanas, debitoru pasūtījumu, atgriešanu), kas ir veidotas veikala kanālā. Pēc šo līzdekļu iespējošanas jums būs nepieciešams palaist darbu **1070** (**Kanāla konfigurācija**).
+Lai gan citi API, kas ir pieejami Commerce, var tieši doties uz Headquarters, lai iznestu rīcībā esošos preču daudzumus, mēs neiesakām tos izmantot e-komercijas vidē iespējamo veiktspējas problēmu un ietekmes dēļ, ko šie Biežie pieprasījumi var radīt jūsu Headquarters serveriem. Turklāt ar kanāla puses aprēķinu divas augstāk minētās API var nodrošināt precīzāku aprēķinu par preces pieejamību, ņemot vērā kanālos izveidotās transakcijas, kuras vēl nav zināmas galvenajai pārvaldei.
 
 Lai definētu, kā atgriezt preču daudzumu API izvadē, sekojiet šiem darbībām.
 
@@ -85,17 +99,17 @@ Lai definētu, kā atgriezt preču daudzumu API izvadē, sekojiet šiem darbīb�
 
 Iestatījums **Daudzums API izvadē** nodrošina trīs opcijas:
 
-- **Atgrieztā krājuma daudzums** — fiziski pieejamais un kopējais pieprasītās preces pieejamais daudzums tiek atgriezts API izvadē.
-- **Atgrieztā krājuma daudzums, no kura atņemts krājumu buferis** – API izvadē atgrieztais daudzums tiek koriģēts, atņemot krājumu bufera vērtību. Papildinformāciju par krājumu buferi skatiet sadaļā [Krājumu buferu un krājumu līmeņu konfigurēšana](inventory-buffers-levels.md).
-- **Neatgriež krājumu daudzumu** - API izvadē tiek atgriezts tikai krājumu līmenis. Papildinformāciju par krājumu līmeņiem skatiet sadaļā [Krājumu buferu un krājumu līmeņu konfigurēšana](inventory-buffers-levels.md).
+- **Atgrieztā krājuma daudzums** — Fiziski pieejamais un kopējais pieprasītās preces daudzums, kas atgriezts API izvadē.
+- **Atgrieztā krājuma daudzuma noņemšanas krājuma buferis** — Daudzums, ko atgriezusi API izvade, tiek noregulēts, noņemot krājuma bufera vērtību. Papildinformāciju par krājumu buferi skatiet sadaļā [Krājumu buferu un krājumu līmeņu konfigurēšana](inventory-buffers-levels.md).
+- **Nav atgrieztā krājuma daudzuma** — API izvadē tiek atgriezta tikai krājuma atslēga. Papildinformāciju par krājumu līmeņiem skatiet sadaļā [Krājumu buferu un krājumu līmeņu konfigurēšana](inventory-buffers-levels.md).
 
 Varat izmantot `QuantityUnitTypeValue` API parametru, lai norādītu vienības veidu, kādā vēlaties, lai API atgriež daudzumu. Šis parametrs atbalsta opcijas **krājumu vienība** (noklusējuma), **pirkšanas vienība** un **pārdošanas vienība**. Atgrieztais daudzums tiek noapaļots līdz atbilstošas mērvienības (unit of measure - UOM) definētajai precizitātei programmā Headquarters.
 
 API **GetEstimatedAvailability** piedāvā šādus ievades parametrus, lai atbalstītu dažādus vaicājuma scenārijus:
 
-- `DefaultWarehouseOnly` - Izmantojiet šo parametru, lai vaicātu par produktu noliktavu tiešsaistes kanāla noklusējuma noliktavā. 
-- `FilterByChannelFulfillmentGroup` un `SearchArea` - izmantojiet šos divus parametrus, lai vaicātu par preces krājumiem no visām saņemšanas vietām specifiskā meklēšanas zonā, pamatojoties uz `longitude`, `latitude` un `radius`. 
-- `FilterByChannelFulfillmentGroup` un `DeliveryModeTypeFilterValue` - izmantojiet šos divus parametrus, lai pieprasītu krājumus precei no noteiktām noliktavām, kas ir saistītas ar tiešsaistes kanāla izpildes grupu un ir konfigurēti, lai atbalstītu noteiktus piegādes veidus. Parametrs `DeliveryModeTypeFilterValue` atbalsta **visas** (noklusētās), **nosūtīšanas** un **savākšanas** opcijas. Piemēram, scenārijā, kad tiešsaistes pasūtījumu var izpildīt no vairākām nosūtīšanas noliktavām, varat izmantot šos divus parametrus, lai vaicātu par preces krājumu pieejamību visās šajās nosūtīšanas noliktavās. Šajā gadījumā API atgriež preces rīcībā esošo daudzumu un krājumu līmeni katrā nosūtīšanas noliktavā, kā arī apkopoto daudzumu un apkopoto krājumu līmeni no visām nosūtīšanas noliktavām vaicājumu tvērumā.
+- `DefaultWarehouseOnly` — Izmantojiet šo parametru, lai izvaicātu krājumu produktam tiešsaistes kanāla noklusējuma noliktavā. 
+- `FilterByChannelFulfillmentGroup` un `SearchArea` — Lietojiet šos divus parametrus, lai izvaicātu krājumu precei no visām izdošanas vietām konkrētā meklēšanas apgabalā, pamatojoties `longitude`, `latitude` un `radius`. 
+- `FilterByChannelFulfillmentGroup` un `DeliveryModeTypeFilterValue` — Lietojiet šos divus parametrus, lai izvaicātu krājumu precei no konkrētām noliktavām, kuras ir saistītas ar tiešsaistes kanāla izpildes grupu un kas ir konfigurētas noteiktu piegādes režīmu atbalstam. Parametrs `DeliveryModeTypeFilterValue` atbalsta **visas** (noklusētās), **nosūtīšanas** un **savākšanas** opcijas. Piemēram, scenārijā, kad tiešsaistes pasūtījumu var izpildīt no vairākām nosūtīšanas noliktavām, varat izmantot šos divus parametrus, lai vaicātu par preces krājumu pieejamību visās šajās nosūtīšanas noliktavās. Šajā gadījumā API atgriež preces rīcībā esošo daudzumu un krājumu līmeni katrā nosūtīšanas noliktavā, kā arī apkopoto daudzumu un apkopoto krājumu līmeni no visām nosūtīšanas noliktavām vaicājumu tvērumā.
  
 Commerce pirkšanas kastea, veikala atlasītāja, vēlmju saraksta, groza un groza ikonas moduļi patērē API un iepriekš minētos parametrus, lai parādītu krājumu līmeņa ziņojumus e-komercijas vietnē. Commerce vietņu veidotājs nodrošina dažādus krājumu iestatījumus, lai kontrolētu tirdzniecību un pirkšanu. Papildinformāciju skatiet [Krājumu iestatījumu lietošana](inventory-settings.md).
 
@@ -136,6 +150,5 @@ Lai nodrošinātu labāko iespējamo krājumu aplēsi, ir svarīgi, lai tiktu iz
 > - Veiktspējas apsvērumu dēļ, kad kanāla puses krājumu pieejamības aprēķini tiek izmantoti, lai veiktu krājumu pieejamības pieprasījumu, izmantojot e-komercijas API vai POS kanāla puses krājumu loģiku, aprēķins izmanto kešatmiņu, lai noteiktu, vai ir pagājis pietiekami daudz laika, lai attaisnotu aprēķina loģikas atkārtotu palaišanu. Noklusējuma kešdarbe ir iestatīta uz 60 sekundēm. Piemēram, jūs ieslēdzāt sava veikala kanāla puses aprēķinu un apskatījāt rīcībā esošos krājumus, kas paredzēti precei lapā **Krājumu uzmeklēšana**. Ja pēc tam tiek pārdota viena preces vienība, **Krājumu uzmeklēšanas** lapa nerāda samazinātos krājumus, līdz kešatmiņa nav notīrīta. Pēc tam, kad lietotāji grāmato darījumus POS, tiem ir jāgaida 60 sekundes, pirms tie pārbauda, vai rīcībā esošie krājumi ir samazināti.
 
 Ja jūsu biznesa scenārijs prasa mazāku kešatmiņas laiku, sazinieties ar savu preču atbalsta pārstāvi, lai saņemtu palīdzību.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Algu aprēķina fiksētās atlīdzības plāns
 description: Šī tēma sniedz detalizētu informāciju un parauga vaicājumu Payroll fiksētā atlīdzības plāna elementam programmā Dynamics 365 Human Resources.
 author: jcart
-ms.date: 04/07/2021
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f1e5345d9f27106bdf3a3a60cb0480a9b072e340c01236e4d48c5e2ae592ddbd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dcb253fabbb183003048119c7a627bf0ab960050
+ms.sourcegitcommit: 4d11061f5de0ddba1f968bd5c3fd694a8b104ccc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738395"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7429237"
 ---
 # <a name="payroll-fixed-compensation-plan"></a>Algu aprēķina fiksētās atlīdzības plāns
 
@@ -34,18 +34,27 @@ Fiziskais nosaukums: mshr_payrollfixedcompensationplanentity.
 
 ## <a name="properties"></a>Rekvizīti
 
-| Rekvizīts<br>**Fiziskais nosaukums**<br>**_tips_** | Izmantot | Apraksts |
+| Rekvizīts</br>**Fiziskais nosaukums**</br>**_tips_** | Izmantot | Apraksts |
 | --- | --- | --- |
-| **Darbinieka ID**<br>mshr_fk_employee_id_value<br>*GUID* | Tikai lasāms<br>Obligāts<br>Ārējā atslēga:mshr_Employee_id no mshr_payrollemployeeentity elementa  | Darbinieka ID |
-| **Maksājuma kurss**<br>mshr_payrate<br>*Decimāldaļskaitlis* | Tikai lasāms<br>Obligāts | Fiksētās atlīdzības plānā definētais algas kurss. |
-| **Plāna ID**<br>mshr_planid<br>*Virkne* | Tikai lasāms<br>Obligāts |Norāda atlīdzības plānu.  |
-| **Derīgs no**<br>mshr_validfrom<br>*Datuma Laika Nobīde* |  Tikai lasāms<br>Obligāts |Datums, no kura ir fiksētā atlīdzība par darbinieku.  |
-| **Elements Algu aprēķina fiksētās atlīdzības plāns**<br>mshr_payrollfixedcompensationplanentityid<br>*GUID* | Obligāts<br>Sistēmas ģenerēts | Sistēmas ģenerēta GUID vērtība, lai unikāli identificētu atlīdzības plānu. |
-| **Algas izmaksas biežums**<br>mshr_payfrequency<br>*Virkne* | Tikai lasāms<br>Obligāts |Darbinieka apmaksas biežums.  |
-| **Derīgs līdz**<br>mshr_validto<br>*Datuma Laika Nobīde* | Tikai lasāms <br>Obligāts | Datums, līdz kuram ir fiksētā atlīdzība par darbinieku. |
-| **Amata ID**<br>mshr_positionid<br>*Virkne* | Tikai lasāms <br>Obligāts | Amata ID, kas saistīts ar darbinieka un fiksētās atlīdzības plāna reģistrāciju. |
-| **Valūta**<br>mshr_currency<br>*Virkne* | Tikai lasāms <br>Obligāts |Fiksētās atlīdzības plānam definētā valūta   |
-| **Darbinieku skaits**<br>mshr_personnelnumber<br>*Virkne* | Tikai lasāms<br>Obligāts |Darbinieka unikālais personāla numurs.  |
+| **Plāna ID**</br>mshr_planid</br>*Virkne* | Tikai lasāms | Norāda atlīdzības plānu.  |
+| **Darbinieku skaits**</br>mshr_personnelnumber</br>*Virkne* | Tikai lasāms | Darbinieka unikālais personāla numurs. |
+| **Maksājuma kurss**</br>mshr_payrate</br>*Decimāldaļskaitlis* | Tikai lasāms | Fiksētās atlīdzības plānā definētais algas kurss. |
+| **Amata ID**</br>mshr_positionid</br>*Virkne* | Tikai lasāms | Amata ID, kas saistīts ar darbinieka un fiksētās atlīdzības plāna reģistrāciju. |
+| **Derīgs no**</br>mshr_validfrom</br>*Datuma Laika Nobīde* |  Tikai lasāms | Datums, no kura ir fiksētā atlīdzība par darbinieku.  |
+| **Derīgs līdz**</br>mshr_validto</br>*Datuma Laika Nobīde* | Tikai lasāms | Datums, līdz kuram ir fiksētā atlīdzība par darbinieku. |
+| **Algas izmaksas biežums**</br>mshr_payfrequency</br>*Virkne* | Tikai lasāms | Darbinieka apmaksas biežums.  |
+| **Valūta**</br>mshr_currency</br>*Virkne* | Tikai lasāms | Valūta definēta fiksētās atlīdzības plānam. |
+| **Elements Algu aprēķina fiksētās atlīdzības plāns**</br>mshr_payrollfixedcompensationplanentityid</br>*GUID* | Sistēmas ģenerēts | Sistēmas ģenerēta GUID vērtība, lai unikāli identificētu atlīdzības plānu. |
+
+## <a name="relations"></a>Saites
+
+|Rekvizīta vērtība | Saistītā entītija | Navigācijas rekvizīts | Kolekcijas veids |
+| --- | --- | --- | --- |
+| _mshr_fk_employee_id_value | [mshr_payrollemployeeentity](hr-admin-integration-payroll-api-payroll-employee.md) | mshr_FK_Employee_id | mshr_FK_PayrollEmployeeEntity_FixedCompPlan |
+| _mshr_fk_job_id_value | [mshr_payrollpositionjobentity](hr-admin-integration-payroll-api-payroll-position-job.md) | mshr_FK_Job_id | mshr_FK_PayrollPositionJobEntity_FixedCompPlan |
+| _mshr_fk_payrollposition_id_value | [mshr_payrollpositionentity](hr-admin-integration-payroll-api-payroll-position.md) | mshr_FK_PayrollPosition_id | mshr_FK_PayrollPositionEntity_FixedCompPlan |
+| _mshr_fk_plan_id_value | mshr_hcmcompfixedplantableentity | mshr_FK_Plan_id | - |
+| _mshr_fk_variablecompaward_id_value | [mshr_payrollvariablecompensationawardentity](hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md) | mshr_FK_VariableCompAward_id | mshr_FK_PayrollVariableCompensationAwardEntity_FixedComp |
 
 ## <a name="example-query"></a>Piemēra vaicājums
 

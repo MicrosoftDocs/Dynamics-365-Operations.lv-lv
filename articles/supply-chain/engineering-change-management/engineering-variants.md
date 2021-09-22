@@ -10,18 +10,29 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 57eda6a833df6ff8e91c006bbc5096554eff6c503a8b7ba2bd0b13e2f8e98f56
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4e2133263f4bee09a3365236601e0d2fdd08a7ae
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766156"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471840"
 ---
 # <a name="generate-variants-for-engineering-products"></a>Ģenerēt variantus tehniskām precēm
 
 [!include [banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Šajā tēmā ir aprakstīts, kā ģenerēt variantus tehniskām precēm.
+
+## <a name="turn-on-variant-generation-for-engineering-products"></a>Variantu ģenerācijas iespējošana tehniskajām precēm
+
+Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
+
+- **Modulis:** *Inženiertehnisko izmaiņu pārvaldība*
+- **Līdzekļa nosaukums:** *Variantu ģenerēšana tehniskajām precēm*
+
+> [!IMPORTANT]
+> Līdzeklis *Variantu ģenerēšana tehniskajām precēm* būs redzams sistēmā vienīgi pēc tam, kad būs iespējota konfigurāciju atslēga *Inženiertehnisko izmaiņu pārvaldība*. Norādījumus skatiet sadaļā [Inženiertehnisko izmaiņu pārvaldības pārskats](product-engineering-overview.md).
 
 ## <a name="generate-one-or-more-new-variants-of-an-engineering-product"></a>Ģenerēt vienu vai vairākus jaunus tehnikas preces variantus
 
@@ -38,10 +49,15 @@ Varat izveidot vienu vai vairākus jaunus preces variantus, nekopējot informāc
 1. Pēc nepieciešamības pievienojiet materiālu komplektu (MK) un maršrutu šim variantam.
 1. Darbību rūtī atvēriet cilni **Prece** un no grupas **Preces šablons** atlasiet **Preces dimensijas**.
 1. Atveras lapa **Preces dimensijas**. Šī lapa ietver cilni katrai pieejamai dimensijai. Katrā cilnē pievienojiet rindu katrai vērtībai, kuru atbalstīsit katrai atbilstošajai dimensijai. (Šajā piemērā varat pievienot rindas cilnē **Krāsa** variantiem *Balts*, *Dzeltens* un *Zaļš*).
-1. Aizveriet lapu un atlasiet **Izlaistas preces varianti**. Ņemiet vērā, ka parādās pirmais izveidotais variants (balts V-1).
-1. Atlasiet **Variantu ieteikumus**.
-1. Sistēma piedāvā variantus ar izveidotajām krāsu vērtībām (piemēram, balts V-1, dzeltens V-1 un zaļš V-1).
-1. Atlasiet ieteiktos variantus un atlasiet **Labi**, lai izlaistu variantus tehniskajam uzņēmumam. Ņemiet vērā, ka tiks piemēroti šādi nosacījumi: 
+1. Aizveriet lapu un pēc tam atlasiet **Izlaisto preču varianti**. Tiek parādīts pirmais izveidotais variants (zils V-1).
+1. Darbību rūts cilnē **Preces variants** atlasiet **Variantu ierosinājumi**.
+1. Dialoglodziņā **Variantu ierosinājumi** izpildiet vienu no šīm darbībām:
+
+    - Dialoglodziņa augšpusē ir sadaļa katrai pieejamajai dimensijai. Katrai dimensijai atlasiet aizzīmes lodziņu katrai vērtībai, kurai vēlaties ģenerēt varianta ierosinājumu, un pēc tam rīkjoslā atlasiet **Ierosināt**. Atbilstošie ierosinājumi tiek pievienoti sadaļā **Ierosinātie varianti**.
+    - Rīkjoslā atlasiet **Ierosināt visu**, lai ģenerētu variantu ierosinājumus visām pieejamajām dimensiju vērtību kombinācijām. Ierosinājumi tiek pievienoti sadaļā **Ierosinātie varianti**.
+
+1. Sadaļā **Ierosinātie varianti** atlasiet aizzīmes lodziņu katram variantam, kuru vēlaties izveidot. Pēc tam atlasiet **Izveidot**, lai ģenerētu un izlaistu atlasītos variantus uz inženiertehnisko uzņēmumu. Spēkā ir tālāk minētie nosacījumi:
+
     - Nevienam no izveidotiem variantiem nebūs MK vai maršruts.
     - Šo variantu atribūti pēc noklusējuma tiks kopēti no tehniskās kategorijas un netiks kopēti no iepriekšējā varianta.
 

@@ -1,8 +1,8 @@
 ---
 title: Atvaļinājuma iegāde un pārdošana
-description: Programmā Dynamics 365 Human Resources varat iesniegt pieprasījumus pirkt un pārdot atvaļinājumu, pamatojoties uz pirkšanas un pārdošanas atvaļinājumu politikām, ko iestatījis uzņēmums.
-author: andreabichsel
-ms.date: 08/20/2020
+description: Šajā tēmā aprakstīts, kā iesniegts pieprasījumus pārdot un pirkt atvaļinājumu pakalpojumā Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1225bcfd0c7c9dfecde2aec54983fca8a298f1cf92d2929d8b1fbe2bdf05e5f9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 716afdc4e52c3e4a0432b987cb82077012d4d0c2
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779738"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431514"
 ---
 # <a name="buy-and-sell-leave"></a>Atvaļinājuma iegāde un pārdošana
 
@@ -51,7 +51,7 @@ Jūsu atlikumi tiks automātiski atjaunināti vai pirms atjaunināšanas tiks ve
 
 ## <a name="troubleshooting"></a>Problēmu novēršana 
 
-Ja pirkšanas vai pārdošanas atvaļinājumu pieprasījuma darbplūsma neizdodas, lietotāji, kuriem ir privilēģija **EssLeaveBuySellRequestApprover**, var pārskatīt ziņojumu žurnālu par visiem atvaļinājumu pirkšanas un pārdošanas pieprasījumiem. Lai to izdarītu, dodieties uz **Atvaļinājums un prombūtne > Saite > Pirkšanas vai pārdošanas atvaļinājumu pieprasījumi > Ziņojumu žurnāls** (augšējā kreisajā pusē). Sadaļa **Ziņojumu žurnāls** parāda lietotājiem to, kā darbības ir apstrādātas, un saistīto darbplūsmas vēsturi.
+Ja pirkšanas vai pārdošanas atvaļinājumu pieprasījuma darbplūsma neizdodas, lietotāji, kuriem ir privilēģija **EssLeaveBuySellRequestApprover**, var pārskatīt ziņojumu žurnālu par visiem atvaļinājumu pirkšanas un pārdošanas pieprasījumiem. Lai to izdarītu, dodieties uz **Atvaļinājums un prombūtne > Saites > Pirkt un pārdot atvaļinājuma pieprasījumus > Ziņojumu žurnāls** (augšējā kreisajā stūrī). Sadaļa **Ziņojumu žurnāls** parāda lietotājiem to, kā darbības ir apstrādātas, un saistīto darbplūsmas vēsturi.
 
 
 ## <a name="see-also"></a>Skatiet arī

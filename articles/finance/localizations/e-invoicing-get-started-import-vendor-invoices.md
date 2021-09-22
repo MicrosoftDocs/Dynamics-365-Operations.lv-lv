@@ -2,7 +2,7 @@
 title: Izmantot elektronisko rēķinu izrakstīšanas pakalpojumu, lai importētu kreditora rēķinus
 description: Šajā tēmā ir sniegta informācija, kā importēt kreditoru rēķinus, izmantojot Elektronisko rēķinu izrakstīšanas pakalpojumu.
 author: gionoder
-ms.date: 08/03/2021
+ms.date: 09/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 434bf1f6a5a727a71592493b85ab166cbeff2f0980c2c968c99973a03f4dc660
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c28adbfe532e77a52cab7625b9539d1e8e528bea
+ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751256"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7473380"
 ---
 # <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>Izmantot elektronisko rēķinu izrakstīšanas pakalpojumu, lai importētu kreditora rēķinus
 
@@ -45,13 +45,21 @@ Konfigurējiet e-pasta konta kanālu, ja jūs izveidojāt Elektronisko rēķinu 
 
 1. RCS atlasiet jūsu izveidoto elektronisko rēķinu izrakstīšanas līdzekli. Pārliecinieties, vai ir atlasīta versija ar statusu **Melnraksts**.
 2. Režģa cilnē **Iestatījumi** atlasiet funkcijas iestatījumus un pēc tam atlasiet **Rediģēt**.
-3. Cilnē **Datu kanāls** lauku grupā **Parametri** atlasiet **Servera adrese** un ievadiet e-pasta konta nodrošinātāju.
-4. Atlasiet **Servera portu** un ievadiet portu, ko izmanto e-pasta konta nodrošinātājs.
-5. Atlasiet **Lietotājvārda noslēpumu** un ievadiet atslēgas noslēpuma vārdu, kas satur e-pasta lietotāja konta ID.
-6. Atlasiet **Lietotāja paroles noslēpumu** un ievadiet atslēgas noslēpuma vārdu, kas satur e-pasta lietotāja konta paroli.
-7. Atlasiet **Tēmu filtru**. Pārskatiet un atjauniniet virkni, kas ietver noklusējuma e-pasta tēmu, lai identificētu e-pastu, kas satur importējamā elektroniskā kreditora rēķinu.
-8. Cilnē **Piemērojamības noteikumi** pārskatiet un atjauniniet kritērijus, ja nepieciešams. Papildinformāciju skatiet sadaļā [Piemērojamības noteikumi](e-invoicing-configuration-rcs.md#applicability-rules).
-9. Atlasiet **Saglabāt** un aizveriet lapu.
+3. Cilnes **Datu kanāls** lauka grupā **Parametri**, laukā **Datu kanāls** ievadiet kanāla nosaukumu. Kanāla nosaukumam nevajadzētu pārsniegt 10 rakstzīmes.
+4. Laukā **Servera adrese** ievadiet e-pasta konta sniedzēju. Piemēram, **https://outlook.live.com/** servera adrese ir **imap-mail.outlook.com**.
+5. Laukā **Servera ports** ievadiet e-pasta konta sniedzēja izmantoto portu. Piemēram, **https://outlook.live.com/** servera ports ir **993**.
+6. Laukā **Lietotājvārda slepenie dati** ievadiet atslēgu akreditācijas datu komplekta slepeno datu nosaukumu, kas satur e-pasta lietotāja kontu. Slepenos datus ir jāizveido Azure atslēgu akreditācijas datu komplektā un jāiestata servisa vidē. 
+7. Laukā **Lietotājvārda slepenā parole** ievadiet atslēgu akreditācijas datu komplekta e-pasta lietotāja konta paroli.
+8. Neobligāti — Ievadiet vērtības laukos **Filtrs no**, **Tēmas filtrs** un **Datuma filtrs**.
+9. Ievadiet nosaukumus tām pastkastes mapēm, kurās atradīsies vēstules:
+
+    - Importētas no: **Galvenā mape**
+    - Saglabātas pēc sekmīgas apstrādes: **Arhīva mape**
+    - Saglabātas pēc sekmīgas apstrādes: **Kļūdu mape** Jums nav jāizveido šīs mapes pastkastē. Mapes tiek izveidotas automātiski pēc pirmās e-rēķina importēšanas un apstrādes. 
+   
+10. Lauka grupā **Pielikumu filtrs** pievienojiet filtrēšanas informāciju. Tiek apstrādāti tikai tie pielikumi, kuri atbilst definētajam filtram. Piemēram, varat iestatīt "\*.xml" pielikumiem ar xml paplašinājumu. Pielikuma nosaukums tiek izmantots Dynamics 365 Finance vai Dynamics 365 Supply Chain Management iestatīšanas laikā. 
+11. Cilnē **Piemērojamības kārtulas** pārskatiet un atjauniniet kritērijus pēc vajadzības. Laukam **Kanāls** jābūt vienādam ar iepriekš norādīto lauku **Datu kanāls**. Papildinformāciju skatiet sadaļā [Piemērojamības noteikumi](e-invoicing-configuration-rcs.md#applicability-rules).
+12. Atlasiet **Saglabāt** un aizveriet lapu.
 
 ### <a name="configure-a-microsoft-sharepoint-channel"></a>Konfigurējiet Microsoft SharePoint kanālu
 
@@ -71,10 +79,10 @@ Konfigurējiet Microsoft SharePoint kanālu, ja elektronisko rēķinu izrakstī�
 
 Lai izvietotu Elektronisko rēķinu izrakstīšanas līdzekli Pakalpojuma vidē, skatiet sadaļu [Sākt darbu ar Elektronisko rēķinu izrakstīšanu](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-service-environment).
 
-## <a name="set-up-vendor-invoice-import-in-finance-and-supply-chain-management"></a>Kreditoru rēķinu importa iestatījumi programmās Finance un Supply Chain Management
+## <a name="set-up-vendor-invoice-import-in-finance-or-supply-chain-management"></a>Piegādātāja rēķina importēšanas iestatīšana Finance vai Supply Chain Management
 Lai iestatītu dažādu veidu kreditora rēķinu importu, veiciet tālāk norādītās divas sadaļās norādītās darbības.
 
-### <a name="import-vendor-invoices-from-email"></a>Importēt kreditora rēķinus no e-pasta ziņojuma
+### <a name="import-brazilian-nf-e-from-email"></a>Brazīlijas NF-e importēšana no e-pasta
 
 1. Piesakieties Finance vai Supply Chain Management instancēs un pārbaudiet, vai esat pareizajā juridiskajā personā.
 2. Dodieties uz **Organizācijas pārvaldība** > **Iestatīšana** > **Elektronisko dokumentu parametri**.
@@ -98,30 +106,43 @@ Lai iestatītu dažādu veidu kreditora rēķinu importu, veiciet tālāk norād
 ### <a name="import-peppol-electronic-vendor-invoices"></a>PEPPOL importa kreditoru rēķini
 
 1. Pārejiet uz darbvietu **Elektroniskie pārskati** un atlasiet elementu **Pārskatu veidošanas konfigurācijas**.
-2. Atlasiet **Debitora rēķina konteksta modeli** un izveidojiet atvasinātu konfigurāciju.
-3. **Melnraksta** versijā atlasiet **Veidotājs**.
-4. **Datu modeļa** kokā atlasiet **Debitora rēķins** un pēc tam atlasiet **Kartēt modeli par datu avotu**.
-5. **Definīciju** kokā atlasiet **CustomerInvoice** un pēc tam atlasiet **Veidotājs**.
-6. Kokā **Datu avoti** atlasiet **Context\_Channel**. Laukā **Vērtība** atlasiet **PEPPOL**. Šis ir kanāla nosaukums, kas ir elektronisko rēķinu funkcijas datu kanāla nosaukums RCS. 
+2. Atlasiet **Klienta rēķina konteksta modelis** un pēc tam atlasiet **Izveidot konfigurāciju**  > **Atvasināt no nosaukuma: Klienta rēķina konteksta modelis, Microsoft**, lai izveidotu atvasinātu konfigurāciju.
+3. Versijā **Melnraksts** atlasiet **Noformētājs** un kokā **Datu modelis** atlasiet **Kartēt modeli datu avotos**.
+4. Kokā **Definīcijas** atlasiet **DataChannel** un pēc tam atlasiet **Noformētājs**.
+5. Kokā **Datu avoti** izvērsiet konteineru **$Context\_Channel**. Laukā **Vērtība** atlasiet **Rediģēt** un ievadiet datu kanāla nosaukumu. Šis ir kanāla nosaukums, kas ir elektronisko rēķinu funkcijas datu kanāla nosaukums RCS. 
 7. Atlasiet **Saglabāt** un aizveriet lapu.
 8. Aizvērt lapu.
-9. Atlasiet **Debitora rēķina konteksta modeli** un kopsavilkuma cilnē **Versijas** atlasiet **Mainīt statusu** > **Pabeigts**.
+9. Atlasiet atvasināto konfigurāciju, kuru izveidojāt no **Klienta rēķina konteksta modeļa** un kopsavilkuma cilnē **Versijas** atlasiet **Izmaiņu statuss**  > **Izpildīts**.
 10. Dodieties uz **Organizācijas administrēšana** > **Iestatījumi** > **Elektronisko dokumentu parametri** un cilnē **Līdzekļi** pārliecinieties, ka ir atlasīti **PEPPOL globālie elektroniskie rēķini**. 
 11. **Ārējo kanālu** cilnē **Kanālu** lauku grupā atlasiet **Pievienot**.
-12. **Kanāla** laukā ievadiet **PEPPOL**. Ievadiet aprakstu laukā **Apraksts**.
-13. Laukā **Uzņēmums** atlasiet juridisko personu. Laukā **Dokumenta konteksts** atlasiet **Debitora rēķina konteksts – Debitoru rēķina konteksta modelis**.
-14. Atlasiet **Saglabāt** un pēc tam aizveriet lapu.
+12. Laukā **Kanāls** ievadiet datu kanāa nosaukumu un laukā **Apraksts** ievadiet aprakstu.
+13. Laukā **Uzņēmums** atlasiet juridisko personu. 
+14. Laukā **Dokumenta konteksts** atlasiet jauno atvasināto konfigurāciju no **Klientu rēķina konteksta modeļa**. Kartējuma aprakstam vajadzētu būt **Datu kanāla konteksts**.
+15. Lauku grupā **Avotu importēšana** atlasiet **Pievienot**.
+16. Laukā **Nosaukums** ievadiet **Pielikumu filtra nosaukumu**, un laukā **Datu entitījas nosaukums** atlasiet **Piegādātāja rēķina galvene**.
+17. Laukā **Modeļa kartēšana** atlasiet **Piegādātāja rēķina imports — Importēt piegādātāja rēķinu**.
+18. Noklikšķiniet uz **Saglabāt** un tad aizveriet lapu.
 
 
 ## <a name="receive-electronic-invoices"></a>Elektronisko rēķinu saņemšana
+
+Elektroniskās rēķinu izrakstīšanas pakalpojums veic divas darbības, importējot rēķinu no datu kanāliem:
+
+1. Nodrošina piekļuvi pastkastei un e-pasta lasīšanai.
+2. Veic e-pastu apstrādi. 
+    
+Lai izpildītu šīs divas darbības, klientam vajadzētu manuāli izsaukt servisu katrai darbībai. Taču iesakām iestatīt paketi elektronisko dokumentu saņemšanai.
+
 Lai saņemtu elektroniskos rēķinus, veiciet šādus soļus:
 
 1. Dodieties uz **Organizācijas administrēšana** > **Periodiskais** > **Elektroniskie dokumenti** > **Saņemt elektroniskos dokumentus**.
 2. Atlasiet **Labi** un pēc tam aizveriet lapu.
 
+
 ## <a name="view-receive-logs-for-electronic-invoices"></a>Skatīt elektronisko rēķinu saņemšanas žurnālus
 
 Lai skatītu elektronisko rēķinu saņemšanas žurnālus, dodieties uz **Organizācijas administrēšana** > **Periodiskais** > **Elektroniskie dokumenti** > **Elektronisko dokumentu saņemšanas žurnāls**.
+Ja neredzat sekmīgi apstrādātus rēķinus, noņemiet tabulas filtru.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

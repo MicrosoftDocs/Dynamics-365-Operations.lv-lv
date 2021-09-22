@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1ddbb22d4f7c6108ca93b415276c53794b5450dd
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: b180a8cee1c5b7e9dda837915e6fdf94af30d06a
+ms.sourcegitcommit: 8246ba3872a1f3eaa18c8bb1ba86d3c2142a6e10
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394516"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7465081"
 ---
 # <a name="get-started-with-tax-calculation"></a>Darba sākšana ar nodokļu aprēķinu
 
@@ -49,13 +49,9 @@ Ražošanas videi ir jābūt izpildītiem tālāk minētajiem priekšnosacījumi
 - Jums ir jāizveido RCS vide jūsu organizācijai, un jums ir jābūt piekļuvei savam kontam. Papildinformāciju par to, kā izveidot RCS vidi, skatiet šeit: [Regulatory Configuration Service pārskats](rcs-overview.md).
 - Ņemot vērā jūsu uzņēmējdarbības vajadzības, jūsu izvietotās vides Finance vai Supply Chain Management darbvietā **Līdzekļu pārvaldība** jābūt ieslēgtiem tālāk minētajiem līdzekļiem.
 
-    - Nodokļu aprēķins
+    - Nodokļu aprēķināšanas pakalpojums
     - Vairāku PVN reģistrācijas numuru atbalsts
     - Nodokļi pārsūtīšanas pasūtījumā
-    - ES pārdošanas saraksta pārsūtīšana, pamatojoties tikai uz nodokļu darījumiem
-    - Intrastat pārskatu veidošana pēc vairākiem nodokļu ID
-    - ES pārdošanas sarakstu pārskatu veidošana pēc vairākiem nodokļu ID
-    - PVN deklarācija pēc vairākiem nodokļu ID
 
 - Izvietotās RCS vides darbvietā **Līdzekļu pārvaldība** jābūt ieslēgtiem tālāk minētajiem līdzekļiem.
 
@@ -65,18 +61,14 @@ Ražošanas videi ir jābūt izpildītiem tālāk minētajiem priekšnosacījumi
 
 Testa videi ir jābūt izpildītiem tālāk minētajiem priekšnosacījumiem.
 
-- Jums jābūt piekļuvei LCS kontam un jābūt izvietotam LCS projektam ar 2. vai augstākas pakāpes vidi, kurā darbojas Dynamics 365 versija 10.0.18 ar KB4616360 vai jaunāka versija.
+- Jums ir jāpiekļūst savam LCS kontam un jābūt izvietotam LCS projektam ar 2. līmeņa vai augstāka līmeņa vidi ar Dynamics 365 10.0.21. versiju vai jaunāku.
 - Jums ir jāizveido RCS vide jūsu organizācijai, un jums ir jābūt piekļuvei savam kontam. Papildinformāciju par to, kā izveidot RCS vidi, skatiet šeit: [Regulatory Configuration Service pārskats](rcs-overview.md).
 - Lai iespējotu testējumu jūsu izvietotā Finance vai Supply Chain Management vidē, jums ir jāsazinās ar uzņēmumu Microsoft, rakstot uz epasta adresi <taxcalc@microsoft.com>.
 - Ņemot vērā jūsu uzņēmējdarbības vajadzības, jūsu izvietotās vides Finance vai Supply Chain Management darbvietā **Līdzekļu pārvaldība** jābūt ieslēgtiem tālāk minētajiem līdzekļiem.
 
-    - Nodokļu aprēķins
+    - Nodokļu aprēķināšanas pakalpojums
     - Vairāku PVN reģistrācijas numuru atbalsts
     - Nodokļi pārsūtīšanas pasūtījumā
-    - ES pārdošanas saraksta pārsūtīšana, pamatojoties tikai uz nodokļu darījumiem
-    - Intrastat pārskatu veidošana pēc vairākiem nodokļu ID
-    - ES pārdošanas sarakstu pārskatu veidošana pēc vairākiem nodokļu ID
-    - PVN deklarācija pēc vairākiem nodokļu ID
 
 - Izvietotās RCS vides darbvietā **Līdzekļu pārvaldība** jābūt ieslēgtiem tālāk minētajiem līdzekļiem.
 
@@ -103,12 +95,12 @@ Testa videi ir jābūt izpildītiem tālāk minētajiem priekšnosacījumiem.
 7. Dodieties uz **Nodokļu datu modelis**, izvērsiet failu koku un pēc tam atlasiet **Nodokļu konfigurācija**.
 8. Atlasiet pareizo nodokļu konfigurācijas versiju, pamatojoties uz savu Finance versiju, un pēc tam atlasiet **Importēt**.
 
-    | Partijas versija | Nodokļu konfigurācija                       | Modeļa kartēšana                   |
-    | --------------- | --------------------------------------- | ------------------------------- |
-    | 10.0.18         | Nodokļu konfigurācija — Eiropa 30.12.82     |                                 |
-    | 10.0.19         | Nodokļu aprēķina konfigurācija 36.38.193 |                                 |
-    | 10.0.20         | Nodokļu aprēķina konfigurācija 40.43.208 |                                 |
-    | 10.0.21         | Nodokļu aprēķina konfigurācija 40.46.212 | Dataverse Modeļa kartēšana 40.46.9 |
+    | Partijas versija | Nodokļu konfigurācija                       |
+    | --------------- | --------------------------------------- |
+    | 10.0.18         | Nodokļu konfigurācija — Eiropa 30.12.82     |
+    | 10.0.19         | Nodokļu aprēķina konfigurācija 36.38.193 |
+    | 10.0.20         | Nodokļu aprēķina konfigurācija 40.43.208 |
+    | 10.0.21         | Nodokļu aprēķina konfigurācija 40.46.212 |
 
 9. Darbvietā **Globalizācijas līdzekļi**, atlasiet **Līdzekļi**, atlasiet elementu **Nodokļu aprēķins** un pēc tam atlasiet **Pievienot**.
 10. Atlasiet vienu no šiem līdzekļu tipiem:

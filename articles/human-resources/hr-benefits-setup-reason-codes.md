@@ -1,8 +1,8 @@
 ---
 title: Iestatiet cēloņa kodus
 description: Dynamics 365 Human Resources izmanto pamatojuma kodus, lai izskaidrotu, kāpēc nodarbinātā atvieglojumi mainās.
-author: andreabichsel
-ms.date: 01/25/2021
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bd7c5a35a6d4b40eb376eee2580af681f7bfd7f8f93aab8aad67f238fc40470b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5f89d6158f351e30376fc3f80c793f29734cdcbb
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732685"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431346"
 ---
 # <a name="set-up-reason-codes"></a>Iestatiet cēloņa kodus
 
@@ -29,11 +29,11 @@ ms.locfileid: "6732685"
 Dynamics 365 Human Resources izmanto pamatojuma kodus, lai izskaidrotu, kāpēc nodarbinātā atvieglojumi mainās.
 
 > [!NOTE]
-> No 2021. gada janvāra iemeslu kodi tiek migrēti uz darbvietu **Personāla vadība**, nevis uz darbvietu **Atvieglojumu pārvaldība**. Papildinformāciju skatiet sadaļā [Iemesla kodu manuāla migrēšana uz Personāla pārvaldību](hr-benefits-setup-reason-codes.md#manually-migrate-reason-codes-to-personnel-management).
+> No 2021. gada janvāra iemeslu kodi tika migrēti uz **Personāla pārvaldības** darbvietu, nevis uz **Atvieglojumu pārvaldības** darbvietu. Papildinformāciju skatiet sadaļā [Iemesla kodu manuāla migrēšana uz Personāla pārvaldību](hr-benefits-setup-reason-codes.md#manually-migrate-reason-codes-to-personnel-management).
 
 ## <a name="create-reason-codes"></a>Iemeslu kodu izveide
 
-1. Darbvietā **Personāla pārvaldība** (vai darbvietā **Atvieglojumu pārvaldība**, ja iemeslu kodi vēl nav migrēti), atlasiet **Saites** un pēc tam atlasiet **Iemeslu kodi**.
+1. **Personāla pārvaldības** darbvietā (vai **Atvieglojumu pārvaldības** darbvietā, ja iemeslu kodi nav migrēti), atlasiet **Saites** un pēc tam atlasiet **Iemeslu kodi**.
 
 2. Atlasiet **Jauns**.
 
@@ -44,13 +44,13 @@ Dynamics 365 Human Resources izmanto pamatojuma kodus, lai izskaidrotu, kāpēc 
    | **Pamatojuma kods** | Unikālais nosaukums, lai identificētu iemeslu, kāpēc nodarbinātais varētu mainīt atvieglojumu plāna reģistrāciju. |
    | **Apraksts** | Pamatojuma koda apraksts. |
 
-4. Sadaļā **Piemērojamie scenāriji** iestatiet **Atvieglojumu pārvaldība** uz **Jā**. (Nav piemērojams, ja iemeslu kodi vēl nav migrēti uz darbvietu **Personāla pārvaldība**.)
+4. Sadaļā **Piemērojamie scenāriji** iestatiet **Atvieglojumu pārvaldība** uz **Jā**. (Nav piemērojami, ja iemeslu kodi nav migrēti uz **Personāla pārvaldības** darbvietu.)
 
 5. Atlasiet **Saglabāt**.
 
 ## <a name="manually-migrate-reason-codes-to-personnel-management"></a>Iemesla kodu manuāla migrēšana uz Personāla pārvaldību
 
-2021. gada janvārī iemeslu kodi tiek migrēti uz darbvietu **Personāla vadība**, nevis uz darbvietu **Atvieglojumu pārvaldība**. Vairums iemesla koda datu tiks automātiski migrēti jūsu vidē. Daži iemesla koda dati, iespējams, netiks migrēti. Piemēram, iemeslu kodiem tagad ir maksimālais 15 rakstzīmju skaits, tāpēc visi iemeslu kodi, kas pārsniedz 15 rakstzīmes, netiks migrēti automātiski.
+2021. gada janvārī iemeslu kodi tika migrēti uz **Personāla pārvaldības** darbvietu, nevis uz **Atvieglojumu pārvaldības** darbvietu. Vairums iemesla koda datu tiks automātiski migrēti jūsu vidē. Daži iemesla koda dati, iespējams, netiks migrēti. Piemēram, iemeslu kodiem tagad ir maksimālais 15 rakstzīmju skaits, tāpēc visi iemeslu kodi, kas pārsniedz 15 rakstzīmes, netiks migrēti automātiski.
 
 Jūs redzēsit reklāmkarogu darbvietas **Atvieglojumu pārvaldība** lapā **Saites**, kurā būs sniegta informācija par migrāciju un to, vai kādi iemeslu kodi netika migrēti.
 

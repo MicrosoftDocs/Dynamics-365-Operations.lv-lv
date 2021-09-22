@@ -2,7 +2,7 @@
 title: B2C nomnieka iestatīšana programmā Commerce
 description: Šajā tēmā aprakstīts, kā iestatīt Azure Active Directory (Azure AD) biznesa-patērētāju (B2C) nomniekus lietotāja vietas autentifikācijai sistēmā Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 08/11/2021
+ms.date: 08/31/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 107e06d44d159152b260897dfba456a525f19e27
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: d54de9025926d2c1908ce29d2b680a48172f46a4
+ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344502"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "7466272"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>B2C nomnieka iestatīšana programmā Commerce
 
@@ -36,7 +36,27 @@ Dynamics 365 Commerce izmanto Azure AD B2C, lai atbalstītu lietotāja akreditā
  > Commerce novērtēšanas vidēs ir iepriekš ielādēts Azure AD B2C nomnieks demonstrācijas nolūkiem. Paša Azure AD B2C nomnieka ielādēšana, izmantojot tālāk aprakstītās darbības, nav nepieciešama novērtēšanas vidēm.
 
 > [!TIP]
-> Jūs varat turpmāk aizsargāt savus vietas lietotājus un uzlabot savu Azure AD B2C nomnieku drošību ar Azure AD identitātes aizsardzību un nosacījuma piekļuvi. Lai pārskatītu Azure AD B2C Premium P1 un Premium P2 nomniekiem pieejamās iespējas, skatiet [Azure AD B2C identitātes aizsardzība un nosacījuma piekļuve](/azure/active-directory-b2c/conditional-access-identity-protection-overview).
+> Jūs varat turpmāk aizsargāt savus vietas lietotājus un uzlabot savu Azure AD B2C nomnieku drošību ar Azure AD identitātes aizsardzību un nosacījuma piekļuvi. Lai pārskatītu Azure AD B2C Premium P1 un Premium P2 nomniekiem pieejamās iespējas, skatiet [Pakalpojuma Azure AD B2C identitātes aizsardzība un nosacījuma piekļuve](/azure/active-directory-b2c/conditional-access-identity-protection-overview).
+
+## <a name="dynamics-environment-prerequisites"></a>Dynamics vides priekšnosacījumi
+
+Pirms sākat, nodrošiniet, lai jūsu Dynamics 365 Commerce vide un e-komercijas kanāls tiktu atbilstoši konfigurēti, izpildot tālāk norādītos priekšnosacījumus.
+
+- Iestatiet POS operāciju vērtību **AllowAnonymousAccess** uz "1" programmā Commerce Headquarters:
+    1. Pārejiet uz **POS operācijām**.
+    1. Operāciju režģī noklikšķiniet ar peles labo pogu un atlasiet **Personalizēt**.
+    1. Atlasiet **Pievienot lauku**.
+    1. Pieejamo kolonnu sarakstā atlasiet kolonnu **AllowAnonymousAccess**, lai to pievienotu.
+    1. Atlasiet **Atjaunināt**.
+    1. Operācijai **612** "Debitora pievienošana" mainiet **AllowAnonymousAccess** uz "1."
+    1. Izpildiet darbu **1090 (Reģistri)**.
+- Programmā Commerce Headquarters iestatiet numuru sērijas debitora konta **Manuālo** atribūtu uz **Nē**:
+    1. Dodieties uz **Retail un Commerce \> Headquarters iestatīšana \> Parametri \> Debitoru parametri**.
+    1. Atlasīt **Numuru sērijas**.
+    1. Rindā **Debitora konts** veiciet dubultklikšķi uz vērtības **Numura sērijas kods**.
+    1. Numuru sērijas kopsavilkuma cilnē **Vispārīgi** iestatiet **Manuāli** uz **Nē**.
+
+Pēc vides Dynamics 365 Commerce izvietošanas ir ieteicams arī [Inicializēt sākumdatus](enable-configure-retail-functionality.md) vidē.
 
 ## <a name="create-or-link-to-an-existing-aad-b2c-tenant-in-the-azure-portal"></a>Izveidot vai saistīt ar esošo AAD B2C nomnieku Azure portālā
 

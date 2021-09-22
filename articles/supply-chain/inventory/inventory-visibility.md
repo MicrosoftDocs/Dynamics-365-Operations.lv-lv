@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: defbcdc7ada4471345f8c728522e15f16a8bec8f
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 644eb0d682c35bd604c188aa02e4a6c69b3ff209
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344292"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474992"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>Krājumu redzamības pievienojumprogrammas pārskats
 
@@ -31,22 +31,20 @@ Kā mikropakarakstu, kas ir izveidots Microsoft Dataverse, Krājumu redzamība n
 
 Krājumu redzamību var integrēt ar vairākām trešās personas sistēmām, iestatot konfigurācijas opcijas standartizētām krājumu dimensijām un iestatot darbību tipus. Krājumu redzamība atbalsta arī pielāgotu paplašināmību, izmantojot konfigurējamus aprēķinātos daudzumus.
 
-## <a name="supported-features"></a>Atbalstītie līdzekļi
+## <a name="inventory-visibility-integration-with-dynamics-365-supply-chain-management"></a>Pievienojumprogrammas Krājumu redzamība integrācija ar Dynamics 365 Supply Chain Management
 
-### <a name="inventory-visibility-integration-with-dynamics-365-supply-chain-management"></a>Pievienojumprogrammas Krājumu redzamība integrācija ar Dynamics 365 Supply Chain Management
+Integrētais risinājums izvelk krājumu datus no Dynamics 365 Supply Chain Management un nepārtraukti izseko krājumu izmaiņas. Papildinformāciju skatiet sadaļā [Instalēt un iestatīt krājuma redzamību](inventory-visibility-setup.md) un [Krājuma redzamības konfigurēšana](inventory-visibility-configuration.md).
 
-Integrētais risinājums izvelk krājumu datus no Dynamics 365 Supply Chain Management un nepārtraukti izseko krājumu izmaiņas. Papildinformāciju skatiet [Krājumu uztveramības pievienojumprogrammas iestatīšana](inventory-visibility-setup.md).
+## <a name="get-a-global-view-of-inventory"></a>Iegūt krājumu globālo skatu
 
-### <a name="get-a-global-view-of-inventory"></a>Iegūt krājumu globālo skatu
-
-Integrētais risinājums ļauj definēt savus datu avotus un centralizēt krājumu datus. Papildinformāciju skatiet [Krājumu uztveramības pievienojumprogrammas konfigurēšana](inventory-visibility-configuration.md).
+Integrētais risinājums ļauj definēt savus datu avotus un centralizēt krājumu datus. Papildinformāciju skatiet sadaļā [Krājuma redzamības konfigurēšana](inventory-visibility-configuration.md).
 
 Ir divas pieejas jūsu krājumu skatīšanai:
 
 - Iesniedziet vaicājumu, izmantojot augstas veiktspējas API. Šis API var atgriezt tuvu reāllaika krājumu datus tieši no kešatmiņas instances. Līgumus un paraugus var atrast [Krājumu redzamības publiskā API](inventory-visibility-api.md).
 - Skatīt skatīt rīcībā esošo krājumu sarakstu. Šis saraksts periodiski tiek sinhronizēts no kešatmiņas instances un ir redzams Dataverse. Papildinformāciju skatiet [Krājumu uztveramības programma](inventory-visibility-power-platform.md).
 
-### <a name="soft-reservations"></a>Vieglās rezervācijas
+## <a name="soft-reservations"></a>Vieglās rezervācijas
 
 [!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 

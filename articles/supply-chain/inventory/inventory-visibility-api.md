@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 0aca5838ff6d7c9c4d881698be1e2da2e0e1c02e
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 6dff54f54a495c2b4a7837f3a41f410d418cf12b
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343636"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474656"
 ---
 # <a name="inventory-visibility-public-apis"></a>Krājumu uztveramības pievienojumprogrammas publiskais API
 
@@ -46,6 +46,9 @@ Tālāk esošajā tabulā ir norādītas pieejamās API:
 
 Microsoft ir nodrošinājusi standarta *Pastnieka* pieprasījuma kolekciju. Jūs variet importēt šo kolekciju savā *Pastnieka* programmatūrā, izmantojot šādu koplietojamu saiti: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
 
+> [!NOTE]
+> Ceļa {environmentId} daļa ir vides ID Microsoft Dynamics pakalpojumā Lifecycle Services (LCS).
+
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Atrast galapunktu atbilstoši Lifecycle Services videi
 
 Krājumu redzamības mikropakalpojums ir izvietots Microsoft Azure Service Fabric vairākās atrašanās vietās un reģionos. Šobrīd nav centrālā galapunkta, kas var automātiski novirzīt jūsu pieprasījumu uz atbilstošo ģeogrāfisko vietu un reģionu. Tāpēc informācijas vienības jāveido vietrādī URL, izmantojot šādu modeli:
@@ -54,22 +57,26 @@ Krājumu redzamības mikropakalpojums ir izvietots Microsoft Azure Service Fabri
 
 Reģiona īsais nosaukums var tikt atrasts Microsoft Dynamics Lifecycle Services (LCS) vidē. Tālāk esošajā tabulā ir norādīti pieejamie reģioni.
 
-| Azure reģions | Reģiona īsais nosaukums |
-|---|---|
-| Austrālijas austrumi | eau |
-| Austrālijas dienvidaustrumi | seau |
-| Kanādas centrālā daļā | cca |
-| Kanādas austrumi | eca |
-| Ziemeļeiropa | neu |
-| Rietumeiropa | weu |
-| ASV austrumi | eus |
-| ASV rietumi | wus |
-| Lielbritānijas dienvidi | suk |
-| Lielbritānijas rietumi | wuk |
+| Azure reģions        | Reģiona īsais nosaukums |
+| ------------------- | ----------------- |
+| Austrālijas austrumi      | eau               |
+| Austrālijas dienvidaustrumi | seau              |
+| Kanādas centrālā daļā      | cca               |
+| Kanādas austrumi         | eca               |
+| Ziemeļeiropa        | neu               |
+| Rietumeiropa         | weu               |
+| ASV austrumi             | eus               |
+| ASV rietumi             | wus               |
+| Lielbritānijas dienvidi            | suk               |
+| Lielbritānijas rietumi             | wuk               |
+| Japānas austrumu daļa          | ejp               |
+| Japānas rietumu daļa          | wjp               |
+| Brazīlijas dienvidu daļa        | sbr               |
+| ASV dienvidu centrālā daļa    | scus              |
 
 Salas numurs ir tas, kur LCS vide tiek izvietota pakalpojumā Service Fabric. Šobrīd nav veida, kā iegūt šo informāciju no lietotāja puses.
 
-Microsoft ir izveidojis lietotāja interfeisu (UI) risinājumā Power Apps, lai varētu iegūt pilnu mikropakalpojuma galapunktu. Papildinformāciju skatiet rakstā [Atrast pakalpojuma galamērķi](inventory-visibility-power-platform.md#get-service-endpoint).
+Microsoft ir izveidojis lietotāja interfeisu (UI) risinājumā Power Apps, lai varētu iegūt pilnu mikropakalpojuma galapunktu. Papildinformāciju skatiet rakstā [Atrast pakalpojuma galamērķi](inventory-visibility-configuration.md#get-service-endpoint).
 
 ## <a name="authentication"></a><a name="inventory-visibility-authentication"></a>Autentifikācija
 
@@ -80,66 +87,66 @@ Lai iegūtu drošības pakalpojuma pilnvaru, rīkojieties šādi.
 1. Pieteikties Azure portālā un izmantot to, lai atrastu `clientId` un `clientSecret` vērtības savai Dynamics 365 Supply Chain Management programmai.
 1. Paņemt Azure AD marķieri (`aadToken`), iesniedzot HTTP pieprasījumu ar šādiem rekvizītiem:
 
-    - **URL:** `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
-    - **Metode:** `GET`
-    - **Pamatteksta saturs (veidlapas dati):**
+   - **URL:** `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
+   - **Metode:** `GET`
+   - **Pamatteksta saturs (veidlapas dati):**
 
-        | Princips | Vērtība |
-        |---|---|
-        | client_id | ${aadAppId} |
-        | client_secret | ${aadAppSecret} |
-        | grant_type | client_credentials |
-        | resource | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
+     | Princips           | Vērtība                                |
+     | ------------- | ------------------------------------ |
+     | client_id     | ${aadAppId}                          |
+     | client_secret | ${aadAppSecret}                      |
+     | grant_type    | client_credentials                   |
+     | resource      | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
 
-    Kā atbilde jāsaņem Azure AD marķieris (`aadToken`). Tiem vajadzētu līdzināties šādam piemēram.
+   Kā atbilde jāsaņem Azure AD marķieris (`aadToken`). Tiem vajadzētu līdzināties šādam piemēram.
 
-    ```json
-    {
-        "token_type": "Bearer",
-        "expires_in": "3599",
-        "ext_expires_in": "3599",
-        "expires_on": "1610466645",
-        "not_before": "1610462745",
-        "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
-        "access_token": "eyJ0eX...8WQ"
-    }
-    ```
+   ```json
+   {
+       "token_type": "Bearer",
+       "expires_in": "3599",
+       "ext_expires_in": "3599",
+       "expires_on": "1610466645",
+       "not_before": "1610462745",
+       "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
+       "access_token": "eyJ0eX...8WQ"
+   }
+   ```
 
 1. Formulējiet JavaScript objekta notācijas (JSON) pieprasījumu, kas ir līdzīgs šim piemēram.
 
-    ```json
-    {
-        "grant_type": "client_credentials",
-        "client_assertion_type": "aad_app",
-        "client_assertion": "{Your_AADToken}",
-        "scope": "https://inventoryservice.operations365.dynamics.com/.default",
-        "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
-        "context_type": "finops-env"
-    }
-    ```
+   ```json
+   {
+       "grant_type": "client_credentials",
+       "client_assertion_type": "aad_app",
+       "client_assertion": "{Your_AADToken}",
+       "scope": "https://inventoryservice.operations365.dynamics.com/.default",
+       "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
+       "context_type": "finops-env"
+   }
+   ```
 
-    Ņemiet vērā šādus punktus:
+   Ņemiet vērā šādus punktus:
 
-    - Vērtībai `client_assertion` jābūt Azure AD marķierim (`aadToken`), ko saņēmāt iepriekšējā darbībā.
-    - Vērtībai `context` ir jābūt vides ID, kur vēlaties izvietot pievienojumprogrammu.
-    - Iestatiet pārējās vērtības, kā parādītas piemērā.
+   - Vērtībai `client_assertion` jābūt Azure AD marķierim (`aadToken`), ko saņēmāt iepriekšējā darbībā.
+   - `context` vērtībai jābūt LCS vides ID, kurā vēlaties izvietot pievienojumprogrammu.
+   - Iestatiet pārējās vērtības, kā parādītas piemērā.
 
 1. Iesniedziet HTTP pieprasījumu ar šādiem rekvizītiem:
 
-    - **URL:** `https://securityservice.operations365.dynamics.com/token`
-    - **Metode:** `POST`
-    - **HTTP galvene:** iekļaut API versiju. (Atslēga ir `Api-Version`, un vērtība ir `1.0`.)
-    - **Pamatteksta saturs:** iekļaut JSON pieprasījumu, ko izveidojāt iepriekšējā darbībā.
+   - **URL:** `https://securityservice.operations365.dynamics.com/token`
+   - **Metode:** `POST`
+   - **HTTP galvene:** iekļaut API versiju. (Atslēga ir `Api-Version`, un vērtība ir `1.0`.)
+   - **Pamatteksta saturs:** iekļaut JSON pieprasījumu, ko izveidojāt iepriekšējā darbībā.
 
-    Kā atbilde jāsaņem pieejas marķieris (`access_token`). Tas ir tas, kas jums nepieciešams kā nesēja marķieris, lai izsauktu Krājumu redzamības API. Tālāk ir minēts piemērs.
+   Kā atbilde jāsaņem pieejas marķieris (`access_token`). Tas ir tas, kas jums nepieciešams kā nesēja marķieris, lai izsauktu Krājumu redzamības API. Tālāk ir minēts piemērs.
 
-    ```json
-    {
-        "access_token": "{Returned_Token}",
-        "token_type": "bearer",
-        "expires_in": 3600
-    }
-    ```
+   ```json
+   {
+       "access_token": "{Returned_Token}",
+       "token_type": "bearer",
+       "expires_in": 3600
+   }
+   ```
 
 Tālākās sadaļās jūs izmantosiet `$access_token`, lai attēlotu marķieri, kas tika paņemts pēdējā solī.
 
@@ -160,6 +167,9 @@ Tabulā ir apkopota katra JSON pamatteksta lauka nozīme.
 | `quantities` | Daudzumam ir jābūt mazākam par rīcībā esošo daudzumu. Piemēram, ja plauktam ir pievienotas 10 jaunas grāmatas, vērtība būs `quantities:{ shelf:{ received: 10 }}`. Ja no plaukta ir noņemtas vai pārdotas trīs grāmatas, vērtība būs `quantities:{ shelf:{ sold: 3 }}`. |
 | `dimensionDataSource` | Grāmatošanas izmaiņu notikumā un vaicājumā izmantoto dimensiju datu avots. Ja norādāt datu avotu, varat izmantot pielāgotās dimensijas no norādītā datu avota. Ar dimensiju konfigurāciju Krājumu pārredzamība var kartēt pielāgotās dimensijas uz vispārīgajām noklusējuma dimensijām. Ja nav norādīta `dimensionDataSource` vērtība, jūs vaicājumos varat izmantot tikai [pamata dimensijas](inventory-visibility-configuration.md#data-source-configuration-dimension). |
 | `dimensions` | Dinamisks atslēgu/vērtību pāra kopums. Vērtības ir kartētas uz dažām Supply Chain Management dimensijām. Tomēr jūs varat arī pievienot pielāgotas dimensijas (piemēram, _Avots_), lai norādītu, vai notikums nāk no Supply Chain Management vai ārējas sistēmas. |
+
+> [!NOTE]
+> Parametri `SiteId` un `LocationId` veido [dalījuma konfigurāciju](inventory-visibility-configuration.md#partition-configuration). Tāpēc tie ir jākonkretizē dimensijās, kad izveidojat rīcībā esošu izmaiņu notikumus, kopu vai kad pārlabojat rīcībā esošus daudzumus vai veidojat rezervāciju notikumus.
 
 ### <a name="create-one-on-hand-change-event"></a><a name="create-one-onhand-change-event"></a>Izveidot vienu rīcībā esošo izmaiņu notikumu
 
@@ -201,6 +211,9 @@ Body:
     "productId": "T-shirt",
     "dimensionDataSource": "pos",
     "dimensions": {
+        "SiteId": "1",
+        "LocationId": "11",
+        "PosMachineId": "0001",
         "ColorId": "Red"
     },
     "quantities": {
@@ -211,7 +224,7 @@ Body:
 }
 ```
 
-Šajā piemērā parādīts parauga pamatteksta saturs bez `dimensionDataSource`.
+Šajā piemērā parādīts parauga pamatteksta saturs bez `dimensionDataSource`. Šajā gadījumā `dimensions` būs [bāzes dimensijas](inventory-visibility-configuration.md#data-source-configuration-dimension). Ja ir iestatīts `dimensionDataSource`, `dimensions` var būt vai nu datu avota dimensijas vai bāzes dimensijas.
 
 ```json
 {
@@ -219,9 +232,9 @@ Body:
     "organizationId": "usmf",
     "productId": "T-shirt",
     "dimensions": {
-        "ColorId": "Red",
         "SiteId": "1",
-        "LocationId": "11"
+        "LocationId": "11",
+        "ColorId": "Red"
     },
     "quantities": {
         "pos": {
@@ -275,6 +288,8 @@ Body:
         "productId": "T-shirt",
         "dimensionDataSource": "pos",
         "dimensions": {
+            "PosSiteId": "1",
+            "PosLocationId": "11",
             "PosMachineId&quot;: &quot;0001"
         },
         "quantities": {
@@ -284,10 +299,11 @@ Body:
     {
         "id": "654321",
         "organizationId": "usmf",
-        "productId": "@PRODUCT1",
-        "dimensionDataSource": "pos",
+        "productId": "Pants",
         "dimensions": {
-            "PosMachineId&quot;: &quot;0001"
+            "SiteId": "1",
+            "LocationId": "11",
+            "ColorId&quot;: &quot;black"
         },
         "quantities": {
             "pos": { "outbound": 3 }
@@ -341,6 +357,8 @@ Body:
         "productId": "T-shirt",
         "dimensionDataSource": "pos",
         "dimensions": {
+             "PosSiteId": "1",
+            "PosLocationId": "11",
             "PosMachineId": "0001"
         },
         "quantities": {
@@ -359,6 +377,12 @@ Body:
 Lai lietotu API *rezervēšanu*, ir jāatver rezervēšanas funkcija un jāpabeidz rezervācijas konfigurācija. Papildinformāciju skatiet [Rezervācijas konfigurēšana (nav obligāti)](inventory-visibility-configuration.md#reservation-configuration).
 
 ### <a name="create-one-reservation-event"></a><a name="create-one-reservation-event"></a>Izveidot vienu rezervācijas notikumu
+
+Rezervāciju var veikt pret citiem datu avota iestatījumiem. Lai konfigurētu šāda veida rezervāciju, vispirms konkretizējiet datu avotu parametrā `dimensionDataSource`. Parametrā `dimensions` norādiet dimensijas atbilstoši dimensiju iestatījumiem mērķa datu avotā.
+
+Izsaucot rezervācijas API, varat kontrolēt rezervācijas derīgumu, pieprasījuma laukā konkretizējot Būla `ifCheckAvailForReserv` parametru. Vērtība `True` nozīmē, ka ir vajadzīga validācija, bet vērtība `False` nozīmē, ka validācija nav vajadzīga. Noklusējuma vērtība ir `True`.
+
+Ja vēlaties atcelt rezervāciju vai atsaukt konkrētu krājuma daudzumu rezervāciju, iestatiet daudzumu uz negatīvu vērtību, un iestatiet parametru `ifCheckAvailForReserv` uz vērtību `False`, lai izlaistu validāciju.
 
 ```txt
 Path:
@@ -467,14 +491,28 @@ ContentType:
     application/json
 Body:
     {
-        organizationId: string,
+        dimensionDataSource: string, # Optional
         filters: {
+            organizationId: string[],
+            productId: string[],
+            siteId: string[],
+            locationId: string[],
             [dimensionKey:string]: string[],
         },
         groupByValues: string[],
         returnNegative: boolean,
     }
 ```
+
+Šī pieprasījuma pamatteksta daļā `dimensionDataSource` joprojām ir neobligāts parametrs. Ja tas nav iestatīts, `filters` tiks apstrādāti kā *bāzes dimensijas*. Parametram `filters` ir četri vajadzīgie logi: `organizationId`, `productId`, `siteId` un `locationId`.
+
+- `organizationId` vajadzētu saturēt tikai vienu vērtību, bet tas joprojām ir masīvs.
+- `productId` var saturēt vienu vai vairākas vērtības. Ja tas ir tukšs masīvs, visas preces tiks atgrieztas.
+- Inventory Visiblity dalīšanā tiek izmantoti `siteId` un `locationId`.
+
+`groupByValues` parametram vajadzētu sekot jūsu indeksēšanas konfigurācijai. Papildinformāciju skatiet [Preču indeksa hierarhijas konfigurēšana](./inventory-visibility-configuration.md#index-configuration).
+
+`returnNegative` nosaka, vai rezultāti satur negatīvus ierakstus.
 
 Šajā piemērā parādīts parauga pamatteksta saturs.
 
@@ -484,7 +522,24 @@ Body:
     "filters": {
         "organizationId": ["usmf"],
         "productId": ["T-shirt"],
+        "siteId": ["1"],
+        "LocationId": ["11"],
         "ColorId": ["Red"]
+    },
+    "groupByValues": ["ColorId", "SizeId"],
+    "returnNegative": true
+}
+```
+
+Šajos piemēros parādīts, kā vaicāt preces noteiktā objektā un atrašanās vietā.
+
+```json
+{
+    "filters": {
+        "organizationId": ["usmf"],
+        "productId": [],
+        "siteId": ["1"],
+        "LocationId": ["11"],
     },
     "groupByValues": ["ColorId", "SizeId"],
     "returnNegative": true
@@ -512,7 +567,7 @@ Query(Url Parameters):
 Šeit ir paraugs iegūt vietrādi URL. Šis saņemšanas pieprasījums ir tieši tāds pats kā iepriekš sniegtais grāmatošanas paraugs.
 
 ```txt
-/api/environment/{environmentId}/onhand/indexquery?organizationId=usmf&productId=T-shirt&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
+/api/environment/{environmentId}/onhand/indexquery?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
 ```
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Preču ieteikumu iespējošana
 description: Šajā tēmā izskaidrots, kā sniegt preces ieteikumus, kas balstīti uz mākslīgo intelektu – mašīnmācību (AI-ML), kas pieejama Microsoft Dynamics 365 Commerce klientiem.
 author: bebeale
-ms.date: 08/18/2020
+ms.date: 08/31/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bfecc53a17eb44c5726103b4df738d6c6b0311aec07ad8eab55fa9c94787957a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4a7be82b3a40aba621693f080ff41767fdaea474
+ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752487"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "7466320"
 ---
 # <a name="enable-product-recommendations"></a>Iespējot preču ieteikumus
 
@@ -31,32 +31,28 @@ ms.locfileid: "6752487"
 
 ## <a name="recommendations-pre-check"></a>Ieteikumu iepriekšpārbaude
 
-Pirms iespējošanas ievērojiet, ka preces ieteikumi tiek atbalstīti tikai tiem Commerce klientiem, kuri ir migrējuši savu krātuvi, lai izmantotu Azure Data Lake Storage. 
+1. Pārliecinieties, ka jums ir derīga Dynamics 365 Commerce ieteikumu licence.
+1. Pārliecinieties, ka entitījas veikals ir pieslēgts klientam piederošajam Azure Data Lake Storage Gen2 kontam. Papildinformācijai skatiet [EPārliecinieties, ka Azure Data Lake Storage ir iegādāta un sekmīgi pārbaudīta vidē](enable-ADLS-environment.md).
+1. Apstipriniet, ka Azure AD identitātes konfigurācija ietver ievadni ieteikumiem. Papildinformāciju par to, kā veikt šo darbību, skatīt zemāk.
+1. Pārliecinieties, ka entitījas veikalam katru dienu ir ieplānota atsvaidzināšana uz Azure Data Lake Storage Gen2. Papildinformāciju skatiet [Pārliecinieties, ka elementa krātuves atsvaidzināšana ir automatizēta](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
+1. RetailSale mērījumu iespējošana entitījas veikalam. Plašāku informāciju par šī procesa iestatīšanu skatiet sadaļā [Darbs ar mērījumiem](/dynamics365/ai/customer-insights/pm-measures).
 
-Pirms ieteikumu iespējošanas birojā ir jābūt iespējotām šādām konfigurācijām:
-
-1. Pārliecinieties, ka Azure Data Lake Storage ir iegādāta un sekmīgi pārbaudīta vidē. Papildinformācijai skatiet [EPārliecinieties, ka Azure Data Lake Storage ir iegādāta un sekmīgi pārbaudīta vidē](enable-ADLS-environment.md).
-2. Pārliecinieties, ka elementa krātuves atsvaidzināšana ir automatizēta. Papildinformāciju skatiet [Pārliecinieties, ka elementa krātuves atsvaidzināšana ir automatizēta](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
-3. Apstipriniet, ka Azure AD identitātes konfigurācija ietver ievadni ieteikumiem. Papildinformāciju par to, kā veikt šo darbību, skatīt zemāk.
-
-Turklāt pārliecinieties, ka ir iespējoti RetailSale mērījumi. Lai uzzinātu vairāk par šo iestatīšanas procesu, skatiet [Darbs ar mērvienībām](/dynamics365/ai/customer-insights/pm-measures).
+Pēc tam, kad ir veiktas iepriekš minētās darbības, būsit gatavi iespējot ieteikumus.
 
 ## <a name="azure-ad-identity-configuration"></a>Azure AD identitātes konfigurācija
 
-Šis solis ir nepieciešams visiem klientiem, kas izmanto infra-structure kā pakalpojuma (IaaS) konfigurāciju. Klientiem, kas darbojas Service Fabric (SF), šim solim ir jābūt automātiskam, un ieteicams pārbaudīt, vai iestatījums ir konfigurēts, kā paredzēts.
+Šī darbība ir vajadzīga tikai klientiem, kuri palaiž infrastruktūras pakalpojums (IaaS) konfigurāciju. Azure AD identitātes konfigurācija ir automātiska klientiem, kuri darbojas Azure Service Fabric, taču ir ieteicams pārbaudīt, vai iestatījums ir konfigurēts, kā paredzēts.
 
 ### <a name="setup"></a>Iestatīt
 
-1. Birojā meklējiet **Azure Active Directory pieteikumu** lapu.
-2. Pārbaudiet, vai pastāv ieraksts "RecommendationSystemApplication-1".
+1. Commerce galvenajā pārvaldē meklējiet lapu **Azure Active Directory lietojumprogrammas**.
+1. Pārbaudiet, vai ieraksts eksistē vienumam **RecommendationSystemApplication-1**. Ja ieraksta nav, izveidojiet ierakstu, izmantojot tālāk norādīto informāciju:
 
-Ja ieraksts nepastāv, pievienojiet jaunu ierakstu ar šādu informāciju:
+    - **Klienta Id**: d37b07e8-dd1c-4514-835d-8b918e6f9727
+    - **Nosaukums**: RecommendationSystemApplication-1
+    - **Lietotaja Id**: RetailServiceAccount
 
-- **Klienta ID** - d37b07e8-dd1c-4514-835d-8b918e6f9727
-- **Nosaukums** -RecommendationSystemApplication-1
-- **Lietotāja ID** - RetailServiceAccount
-
-Saglabājiet un aizveriet lapu. 
+1. Saglabājiet un aizveriet lapu. 
 
 ## <a name="turn-on-recommendations"></a>Ieteikumu ieslēgšana
 
@@ -71,15 +67,20 @@ Lai ieslēgtu preču ieteikumus, veiciet tālāk minētās darbības.
 ![Ieteikumu ieslēgšana.](./media/FeatureManagement_Recommendations.PNG)
 
 > [!NOTE]
-> Šī procedūra uzsāk preču ieteikumu saraksta ģenerēšanas procesu. Var paiet vairākas stundas pirms saraksts ir pieejams un var tikt redzams pārdošanas punktā (POS) vai Dynamics 365 Commerce.
+> - Iepriekš minētā procedūra uzsāk preču ieteikumu sarakstu ģenerēšanu. Var paiet vairākas stundas pirms saraksts ir pieejams un var tikt redzams pārdošanas punktā (POS) vai Dynamics 365 Commerce.
+> - Šī konfigurācija neiespējo visus ieteikumu līdzekļus. Papildu līdzekļi, piemēram, personalizēti ieteikumi, "pirkt ar līdzīgu izskatu" un "pirkt ar līdzīgu aprakstu", tiek kontrolēti ar īpašiem līdzekļu pārvaldības ierakstiem. Informāciju par to, kā iespējot šos līdzekļus Commerce galvenajā pārvaldībā, skatiet rakstā [Personalizēto ieteikumu iespējošana](personalized-recommendations.md), [Ieteikumu "pirkt ar līdzīgu izskatu" iespējošana](shop-similar-looks.md) un [Ieteikumu "pirkt ar līdzīgu aprakstu"](shop-similar-description.md) iespējošana.
 
 ## <a name="configure-recommendation-list-parameters"></a>Ieteikumu saraksta parametru konfigurēšana
 
 Pēc noklusējuma AI–ML balstīts preču ieteikumu saraksts nodrošina ieteiktās vērtības. Varat mainīt ieteiktās noklusējuma vērtības, lai tās atbilstu jūsu biznesa plūsmai. Lai uzzinātu vairāk par to, kā mainīt noklusējuma parametrus, dodieties uz [AI–ML balstītu preces ieteikuma rezultātu pārvaldīšana](modify-product-recommendation-results.md).
 
+## <a name="include-recommendations-in-e-commerce-experiences"></a>Rekomendāciju iekļaušana e-komercijas iespējās
+
+Pēc ieteikumu iespējošanas Commerce galvenajā pārvaldē Commerce moduļus, kuri izmantoti, lai rādītu e-komercijas iespēju ieteikumu rezultātus, var konfigurēt. Papildinformāciju skatiet sadaļā [Produktu kolekciju moduļi](product-collection-module-overview.md).
+
 ## <a name="show-recommendations-on-pos-devices"></a>Parādīt ieteikumus POS ierīcēs
 
-Pēc ieteikumu iespējošanas Commerce dokumentu apstrādes birojā, POS ekrānam jāpievieno ieteikumu panelis, izmantojot izkārtojuma rīku. Lai uzzinātu vairāk par šo procesu, skatiet sadaļu [Ieteikumu vadīklas pievienošana POS ierīču transakciju ekrānam](add-recommendations-control-pos-screen.md). 
+Pēc ieteikumu iespējošanas Commerce galvenajā pārvaldē, ieteikumu paneli ir jāpievieno vadības POS ekrānam, izmantojot izkārtojuma rīku. Lai uzzinātu vairāk par šo procesu, skatiet sadaļu [Ieteikumu vadīklas pievienošana POS ierīču transakciju ekrānam](add-recommendations-control-pos-screen.md). 
 
 ## <a name="enable-personalized-recommendations"></a>Personalizētu ieteikumu iespējošana
 

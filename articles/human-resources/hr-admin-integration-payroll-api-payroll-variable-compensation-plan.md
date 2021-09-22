@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-15
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 96a644bf129de6dd3f78098bcb6415d17058d6decbd7d904a99bb6f050d3a9e0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c30df23debed9e2ab90745e6ea9d0e6b8a05b6d5
+ms.sourcegitcommit: 4d11061f5de0ddba1f968bd5c3fd694a8b104ccc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730446"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7429271"
 ---
 # <a name="payroll-variable-compensation-plan"></a>Algu aprēķina mainīgās atlīdzības plāns
 
@@ -36,44 +36,51 @@ Fiziskais nosaukums: mshr_payrollvariablecompensationawardentity.
 
 | Rekvizīts</br>**Fiziskais nosaukums**</br>**_tips_** | Izmantot | Apraksts |
 | --- | --- | --- |
-| **Darbinieku skaits**</br>mshr_personnelnumber</br>*Virkne* | Tikai lasāms</br>Obligāts |Darbinieka unikālais personāla numurs.  |
-| **Piemaksas datums**</br>mshr_awarddate</br>*Datuma Laika Nobīde* | Tikai lasāms</br>Obligāts | Piemaksas datums. |
-| **Piemaksas tips**</br>mshr_awardtype</br>*[mshr_HrmCompVarAwardEmplType opciju kopa](hr-admin-integration-payroll-api-award-type.md)* | Tikai lasāms</br>Obligāts | Piemaksu tips, kas tiek definēts atlīdzības mainīgās daļas plānam. |
-| **Valūta**</br>mshr_unitcurrencycode</br>*Virkne* | Tikai lasāms </br>Obligāts |Mainīgās atlīdzības plānam definētā valūta.   |
+| **Darbinieku skaits**</br>mshr_personnelnumber</br>*Virkne* | Tikai lasāms | Darbinieka unikālais personāla numurs.  |
+| **Piemaksas datums**</br>mshr_awarddate</br>*Datuma Laika Nobīde* | Tikai lasāms | Piemaksas datums. |
+| **Piemaksas tips**</br>mshr_awardtype</br>*[mshr_HrmCompVarAwardEmplType opciju kopa](hr-admin-integration-payroll-api-award-type.md)* | Tikai lasāms | Piemaksu tips, kas tiek definēts atlīdzības mainīgās daļas plānam. |
+| **Valūta**</br>mshr_unitcurrencycode</br>*Virkne* | Tikai lasāms |Mainīgās atlīdzības plānam definētā valūta.   |
 | **Fiksētas atlīdzības plāna ID**</br>mshr_fixedplanid</br>*Virkne* | Tikai lasāms | Fiksētās atlīdzības plāns, kas tiek izmantots, kā pamats piemaksas aprēķinam. |
 | **Vienības vērtība**</br>mshr_awardamount</br>*Decimāldaļskaitlis* | Tikai lasāms | Vienības vērtība |
 | **Procesa tips**</br>mshr_processtype</br>*[mshr_hrmCompProcessType opciju kopa](hr-admin-integration-payroll-api-process-type.md)* | Tikai lasāms | Procesa tips. |
 | **Mainīgās atlīdzības plāna tips**</br>Virkne</br>*mshr_typeid* | Tikai lasāms | Mainīgās atlīdzības plāna tips. |
 | **Mainīgās atlīdzības plāna ID**</br>Virkne</br>*mshr_planid* | Tikai lasāms | Mainīgās atlīdzības plāna ID. |
+| **Vienību skaits**</br>Decimāldaļskaitlis</br>*mshr_numberofunits* | Tikai lasāms | Piešķīruma vienību skaits. |
 | **Primārais lauks**</br>mshr_primaryfield</br>*GUID* | Tikai lasāms</br>Sistēmas ģenerēts. | |
-| **Darbinieka ID**</br>mshr_fk_employee_id_value</br>*GUID* | Tikai lasāms</br>Obligāts</br>Ārējā atslēga:mshr_Employee_id no mshr_payrollemployeeentity elementa  | Darbinieka ID. |
-| **Algu aprēķina mainīgās atlīdzības plāna elements**</br>mshr_payrollvariablecompensationawardentityid</br>*GUID* | Obligāts</br>Sistēmas ģenerēts | Sistēmas ģenerēta GUID vērtība, lai unikāli identificētu atlīdzības plānu. |
+| **Algu aprēķina mainīgās atlīdzības plāna elements**</br>mshr_payrollvariablecompensationawardentityid</br>*GUID* | Sistēmas ģenerēts | Sistēmas ģenerēta GUID vērtība, lai unikāli identificētu atlīdzības plānu. |
 
+## <a name="relations"></a>Saites 
+
+|Rekvizīta vērtība | Saistītā entītija | Navigācijas rekvizīts | Kolekcijas veids |
+| --- | --- | --- | --- |
+| _mshr_fk_employee_id_value | [mshr_payrollemployeeentity](hr-admin-integration-payroll-api-payroll-employee.md) | mshr_FK_Employee_id | mshr_FK_PayrollEmployeeEntity_VariableCompAward |
+| _mshr_fk_fixedcomp_id_value | [mshr_payrollfixedcompensationplanentity](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md) | mshr_FK_FixedComp_id | mshr_FK_PayrollFixedCompensationPlanEntity_VariableCompAward |
 
 ## <a name="example-query"></a>Piemēra vaicājums
 
 **Pieprasīt**
 
 ```http
-GET [Organizaton URI]/api/data/v9.1/mshr_payrollvariablecompensationawardentities?$filter=mshr_personnelnumber eq '000001'
+GET [Organizaton URI]/api/data/v9.1/mshr_payrollvariablecompensationawardentities?$filter=mshr_personnelnumber eq '000046'
 ```
 
 **Atbilde**
 
 ```json
 {
-    "mshr_personnelnumber": "000001",
+    "mshr_personnelnumber": "000046",
     "mshr_awarddate": "2015-01-15T00:00:00Z",
     "mshr_awardtype": 200000000,
     "mshr_unitcurrencycode": "USD",
     "mshr_fixedplanid": "",
-    "mshr_awardamount": 1,
+    "mshr_unitvalue": 1,
     "mshr_processtype": 200000003,
     "mshr_typeid": "Bonus",
     "mshr_planid": "MgBonus",
-    "mshr_primaryfield": "000001 | MgBonus | Bonus | 1/15/2015",
-    "_mshr_fk_employee_id_value": "00000655-0000-0000-adff-004105000000",
-    "mshr_payrollvariablecompensationawardentityid": "000001a1-0000-0000-adff-004105000000",
+    "mshr_numberofunits": 1500,
+    "mshr_primaryfield": "000046 | MgBonus | Bonus | 1/15/2015",
+    "_mshr_fk_employee_id_value": "00000666-0000-0000-daff-004105000000",
+    "mshr_payrollvariablecompensationawardentityid": "000001a4-0000-0000-0d00-005001000000",
     "_mshr_fk_fixedcomp_id_value": null
 }
 ```

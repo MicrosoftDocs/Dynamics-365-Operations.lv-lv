@@ -1,8 +1,8 @@
 ---
 title: Konfigurēt gaidīšanas periodus
 description: Risinājumā Microsoft Dynamics 365 Human Resources gaidīšanas dienas izveido atskaites punktu, ko izmantot atvieglojumu plāniem.
-author: andreabichsel
-ms.date: 04/06/2020
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8e928987a8e25de9c0c5429af1a305ad20b9892d9d3617482ea209af181e3227
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 537ca48e819f047f2095bd5d9337ac7d80e49c5f
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732589"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431069"
 ---
 # <a name="configure-waiting-periods"></a>Konfigurēt gaidīšanas periodus
 
@@ -38,7 +38,7 @@ Risinājumā Microsoft Dynamics 365 Human Resources gaidīšanas dienas izveido 
    | --- | --- |
    | **Gaidīšanas kods** | Unikāls gaidīšanas perioda identifikators. |
    | **Apraksts** | Gaidīšanas perioda apraksts. |
-   | **Gaidīšanas metode** | Atlasiet atbilstošu gaidīšanas metodi no nolaižamā saraksta vērtībām. Opcijas ir neto, pašreizējais mēnesis, pašreizējais ceturksnis, pašreizējais gads un pašreizējā nedēļa. |
+   | **Gaidīšanas metode** | Atlasiet atbilstošu gaidīšanas metodi no nolaižamā saraksta vērtībām. Opcijas ir **Neto**, **Pašreizējais mēnesis**, **Pašreizējais ceturksnis**, **Pašreizējais gads** un **Pašreizējā nedēļa**. |
    | **Mēneši** | Ievadiet mēnešu skaitu, ko pievienot gaidīšanas metodei, lai aprēķinātu gaidīšanas datumu. |
    | **Dienas** | Ievadiet dienu skaitu, ko pievienot gaidīšanas metodei, lai aprēķinātu gaidīšanas datumu. |
    | **Gaidīšanas diena** | Atlasiet gaidīšanas dienu, ko izmantot, lai aprēķinātu gaidīšanas datumu. |

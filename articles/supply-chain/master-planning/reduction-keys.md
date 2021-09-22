@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 555f75df1b28d374f2a46481857902c2f9315809c082699355190c54e856899b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 32d1c7efaefaecae12031073d67b0e4c2cf78a78
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736627"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474776"
 ---
 # <a name="forecast-reduction-keys"></a>Prognozes samazināšanas principi
 
@@ -86,7 +86,18 @@ Piešķiriet samazināšanas principu krājuma saguma grupai. Pēc tam lapas **V
 
 ### <a name="transactions--reduction-key"></a>Transakcijas — samazināšanas princips
 
-Ja ir atlasīta opcija **Transakcijas — samazināšanas princips**, prognozes vajadzības samazina transakcijas, kas tiek veiktas samazināšanas principa noteiktajos periodos.
+Ja iestatāt lauku **Metode, kas izmantota prognozes prasību samazināšanai** uz *Transakcijas — samazinājuma atslēga*, prognozes prasības tiek samazinātas par kvalificētajām transakcijām, kuras rodas samazinājuma atslēgas definētajos periodos.
+
+Kvalificēto prasību definē ar lauku **Samazināt prognozi par** lapā **Vajadzību grupas**. Ja iestatāt lauku **Samazināt prognozi par** uz *Pasūtījumi*, par kvalificētu pieprasījumu uzskata tikai pārdošanas pasūtījumu transakcijas. Ja iestatāt to uz *Visas transakcijas*, jebkādas ne-starpuzņēmumu problēmu krājumu transakcijas tiek uzskatītas par kvalificēto pieprasījumu. Ja starpuzņēmumu pārdošanas pasūtījumus arī jāiekļauj kvalificētajā pieprasījumā, iestatiet opciju **Iekļaut starpuzņēmumu pasūtījumus** uz vērtību *Jā*.
+
+Prognozes samazināšana sākas ar pirmo (agrāko) pieprasījuma prognozes ierakstu samazināšanas laika periodā. Ja kvalificēto krājuma transakciju daudzums pārsniedz pieprasījuma prognozes rindu daudzumu tajā pašā samazinājuma atslēgas periodā, krājuma transakciju bilances daudzums tiks izmantots, lai samazināt pieprasījuma prognozes daudzumu iepriekšējā periodā (ja ir nepatērēta prognoze).
+
+Ja iepriekšējā samazināšanas atslēgas periodā nav nepatērētas prognozes, krājuma transakciju daudzuma krājuma bilance tiks izmantota, lai samazinātu prognozes daudzumu nākamajā mēnesī (ja ir nepatērētas prognozes).
+
+Lauka **Procenti** vērtība samazināšanas atslēgas rindām netiek lietota, kad lauks **Metode, kas izmantota, lai samazinātu prognozes prasības** ir iestatīta uz *Transakcijas — samazinājuma atslēga*. Samazināšanas atslēgas perioda definēšanai tikai izmantoti tikai datumi.
+
+> [!NOTE]
+> Jebkura prognoze, kura tiek grāmatota šodienas datumā vai pirms tā, tiks ignorēta un netiks izmantota plānoto pasūtījumu izveidē. Piemēram, ja jūsu pieprasījuma prognoze mēnesim ir ģenerēta 1. janvārī un jūs palaižat galveno plānošanu, kas ietver pieprasījuma prognozēšanu 2. janvārī, aprēķinos tiks ignorēta pieprasījuma prognozēšanas rinda, kas datēta ar 1. janvāri.
 
 #### <a name="example-transactions--reduction-key"></a>Piemēram: transakcijas — samazināšanas princips
 

@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c9f94ec35ebed5a14252377fb543de09cb994ffd
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: f84a81444e6d5ce9a0d2da4c9a60b1ae3478ee2f
+ms.sourcegitcommit: 2d8035f8bb75957c793c0d293c079a792595eeaf
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416184"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7481319"
 ---
 # <a name="sync-on-demand-with-the-supply-chain-management-pricing-engine"></a>Sinhronizēt ar Supply Chain Management cenu noteikšanas programmu pēc pieprasījuma
 
@@ -41,7 +41,7 @@ Microsoft Dynamics 365 Supply Chain Management iekļauj cenu noteikšanas progra
     + Nodokļu kopsumma
     + Kopsumma
     
-5. Lai nodrošinātu, ka sistēma ņem vērā tirdzniecības un pārdošanas līgumus, lai aprēķinātu cenu:
+5. Lai nodrošinātu, ka sistēma cenas aprēķināšanā iekļaut tirdzniecības līgumus:
     1. Dodieties uz Supply Chain Management vidi.
     2. Navigējiet uz **Debitoru parādi \> Iestatīšana \> Debitoru parādu parametri**.
     3. Atlasiet cilni **Cenas** sānu navigācijas joslā.
@@ -51,7 +51,7 @@ Microsoft Dynamics 365 Supply Chain Management iekļauj cenu noteikšanas progra
 
 Pakalpojumā Sales atlasot **Cenas pasūtījums** saistītajam pārdošanas pasūtījumam tiek izsaukta funkcija **Kopsumma** programmas Supply Chain Management cilnē **Pārdošanas pasūtījums \> Skatīt**. Vērtības pasūtījuma kopsummā pakalpojumā Sales tiek izmantotas, lai aizpildītu atbilstošās kolonnas programmā Supply Chain Management.
 
-Kad pārdošanas pasūtījuma kopsumma tiek aprēķināta programmā Supply Chain Management, aprēķinā novērtē esošos tirdzniecības līgumus un pārdošanas līgumus klientam un preces, kas norādītas pārdošanas pasūtījumā. Šī informācija tiek izmantota kopsummu aprēķināšanai. Kad ir atlasīts **Cenas pasūtījums**, programma Sales automātiski ataino visus iestatījumus, kas veikti programmā Supply Chain Management.
+Kad kopējais pārdošanas pasūtījums tiek aprēķināts programmā Supply Chain Management, aprēķini izvērtē esošos tirdzniecības līgumus klientam un produktus, kuri ir uzskaitīti pārdošanas pasūtījumā. Šī informācija tiek izmantota kopsummu aprēķināšanai. Kad ir atlasīts **Cenas pasūtījums**, programma Sales automātiski ataino visus iestatījumus, kas veikti programmā Supply Chain Management.
 
 ## <a name="limitations"></a>Ierobežojumi
 

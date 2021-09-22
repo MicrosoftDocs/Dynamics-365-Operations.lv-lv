@@ -15,20 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 35a649463b853d4ff0ef158167e5a3e0bcc4ddc5e6e9007fddda82dd14a00851
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dce22b77862c41bc702f46735da8ce1100bb5e7d
+ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731597"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7473308"
 ---
 # <a name="manage-ratings-and-reviews"></a>Vērtējumu un atsauksmju pārvaldība
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā ir paskaidrots, kā pārvaldīt vērtējumus un atsauksmes Microsoft Dynamics 365 Commerce vietņu veidotājā.
-
-## <a name="overview"></a>Pārskats
 
 Dynamics 365 Commerce izmanto Microsoft Azure Cognitive Service, lai automātiski moderētu apskata tekstu, rediģējot nepiedienīgos vārdus. Turklāt moderatori var izmantot Dynamics 365 Commerce vietņu veidotāju, lai ieviestu šādus manuālus uzdevumus:
 

@@ -1,5 +1,5 @@
 ---
-title: Krājumu redzamības iestatīšana
+title: Instalēt krājumu uztveramības pievienojumprogrammu
 description: Šajā tēmā ir aprakstīts, kā instalēt Krājumu redzamības pievienojumprogrammu programmā Microsoft Dynamics 365 Supply Chain Management.
 author: yufeihuang
 ms.date: 08/02/2021
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8573fe01abb1c6092012baf85e8b7df40b74a31f
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: b2b85f533a3318701ed08857b899cf9bdd103863
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343588"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474824"
 ---
-# <a name="set-up-inventory-visibility"></a>Krājumu redzamības iestatīšana
+# <a name="install-and-set-up-inventory-visibility"></a>Inventory Visibility instalēšana un iestatīšana
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
@@ -41,7 +41,7 @@ Pirms instalējat Krājumu redzamību, jums ir jārīkojas šādi:
     - `Inventory Visibility Integration.zip` (Ja jūsu darbinātā Supply Chain Management versija ir agrāka nekā versija 10.0.18)
 
 > [!NOTE]
-> Valstīs un reģionos, kas pašlaik tiek atbalstīti, ir Kanāda (CCA, ECA), Amerikas Savienotās Valstis (WUS, EUS), Eiropas Savienība (NEU, WEU), Apvienotā Karaliste (SUK, WUK) un Austrālija (EAU, SEAU).
+> Pašlaik atbalstītas valstis un reģioni: Kanāda (CCA, ECA), ASV (WUS, EUS), Eiropas Savienība (NEU, WEU), Apvienotā Karaliste (SUK, WUK), Austrālija (EAU, SEAU), Japāna (EJP, WJP) un Brazīlija (SBR, SCUS).
 
 Ja jums ir kādi jautājumi par šiem priekšnosacījumiem, lūdzu, sazinieties ar Krājumu redzamības preču darba grupu.
 
@@ -119,6 +119,9 @@ Pēc pieteikuma reģistrēšanas un klienta noslēpuma pievienošanas Azure AD i
 1. Piekrist noteikumiem un nosacījumam, atlasot izvēles rūtiņu **Noteikumi un nosacījumi**.
 1. Atlasiet **Instalēt**. Pievienojumprogrammas statuss tiks rādīts kā **Instalē**. Pēc tam, kad instalēšana ir pabeigta, atsvaidziniet lapu. Statusam ir jāmainās uz **Instalēts**.
 
+> [!IMPORTANT]
+> Ja jums ir vairāk nekā viena LCS vide, izveidojiet katrai videi atšķirīgu Azure AD lietojumprogrammu. Ja lietojat vienu lietojumprogrammas ID un nomnieka ID, lai instalētu Inventory Visibility lietojumprogrammu atšķirīgām vidēm, vecākām vidēm tiks rādīta marķiera problēma. Tikai pēdējā instalētā vide būs derīga.
+
 ## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>Atinstalēt Krājumu redzamības pievienojumprogrammu
 
 Lai atinstalētu Krājumu redzamības pievienojumprogrammu, atlasiet LCS lapā **Atinstalēt**. Atinstalēšanas process pārtrauc Krājumu redzamības pievienojumprogrammu, noņem pievienojumprogrammas reģistrāciju no LCS un dzēš visus pagaidu datus, kas ir saglabāti Krājumu redzamības pievienojumprogrammas datu kešatmiņā. Tomēr jūsu Dataverse abonementā saglabātie primārie krājumu dati netiek dzēsti.
@@ -133,7 +136,7 @@ Lai atinstalētu krājumu datus, kas ir saglabāti Dataverse abonementā, atveri
 
 Pēc šo risinājumu dzēšanas arī tabulās saglabātie dati arī tiks dzēsti.
 
-## <a name="set-up-supply-chain-management"></a><a name="setup-dynamics-scm"></a>Supply Chain Management iestatīšana
+## <a name="set-up-inventory-visibility-in-supply-chain-management"></a><a name="setup-dynamics-scm"></a>Inventory Visibility iestatīšana pakalpojumā Supply Chain Management
 
 ### <a name="deploy-the-inventory-visibility-integration-package"></a><a name="deploy-inventory-visibility-package"></a>Izvietot Krājumu redzamības integrācijas pakotni
 
@@ -153,8 +156,23 @@ Pārliecinieties, ka jūsu Supply Chain Management vidē ir ieslēgtas šādas f
 
 ### <a name="set-up-inventory-visibility-integration"></a><a name="setup-inventory-visibility-integration"></a>Pievienojumprogrammas Krājumu redzamība integrācijas iestatīšana
 
-1. Programmā Supply Chain Management atveriet **[Līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** darbvietu un iespējojiet *Krājumu redzamības integrācijas* līdzekli.
-1. Pārejiet uz sadaļu **Krājumu pārvaldība \> Iestatījumi \> Krājumu redzamības integrēšanas parametri** un ievadiet URL, kurā palaižat Krājumu redzamību. Papildinformāciju skatiet rakstā [Atrast pakalpojuma galamērķi](inventory-visibility-power-platform.md#get-service-endpoint).
+Kolīdz esat instalējuši pievienojumprogrammu, sagatavojiet Supply Chain Management sistēmu darbam ar to, izpildot tālāk norādītās darbības.
+
+1. Pakalpojumā Supply Chain Management atveriet darbvietu **[Līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** un iespējojiet šādus līdzekļus:
+    - *Inventory Visibility integrācija* — obligāti.
+    - *Inventory Visibility integrācija ar rezervāciju nobīdi* — ieteicama, bet ne obligāta. Vajadzīga 10.0.22. vai jaunāka versija. Papildinformāciju skatiet [Krājumu uztveramības pievienojumprogrammas rezervācijas](inventory-visibility-reservations.md).
+
+1. Dodieties uz **Krājumu pārvaldība \> Iestatījumi \> Inventory Visibility integrācijas parametri**.
+1. Atveriet cilni **Vispārīgi** un veiciet tālāk norādītos iestatījumus.
+    - **Inventory Visibility gala punkts** — Ievadiet URL videi, kurā palaižat Inventory Visibility. Papildinformāciju skatiet rakstā [Atrast pakalpojuma galamērķi](inventory-visibility-configuration.md#get-service-endpoint).
+    - **Maksimālais ierakstu skaits vienā pieprasījumā** — Iestatīts uz maksimālo ierakstu skaitu, kuru ietvert vienā pieprasījumā. Ir jāievada pozitīvs veselais skaitlis, kas ir mazāks vai vienāds ar 1000. Noklusējuma vērtība ir 512. Stingri iesakām paturēt noklusējuma vērtību, ja vien neesat saņēmuši ieteikumi no Microsoft Support vai citu iemeslu dēļ neesat droši, ka tā ir jāmaina.
+
+1. Ja iespējojāt neobligāto līdzekli *Inventory Visibility integrācija ar rezervāciju nobīdi*, atveriet cilni **Rezervāciju nobīde** un veiciet šādus iestatījumus:
+    - **Iespējot rezervāciju nobīdi** — Iestatiet uz *Jā*, lai iespējotu šo funkcionalitāti.
+    - **Rezervāciju nobīdes pārveidotājs** — Atlasiet krājuma transakcijas statusu, kas nobīdīs Inventory Visibility veiktās rezervācijas. Šis iestatījums nosaka pasūtījuma apstrādes posmu, kurš aktivizē nobīdes. Statusu izseko pasūtījuma krājumu darbības statuss. Izvēlieties vienu no šīm:
+        - *Pasūtījumā* – statusam *On transaction* pasūtījums pēc izveidošanas nosūta korespondējošo pieprasījumu. Nobīžu daudzums būs izveidotā pasūtījuma daudzums.
+        - *Rezervēšana* – Pasūtījuma statuss *Rezervēt pasūtītajā pasūtījumā* pēc tā rezervētā, izdotā, pavadzīmes grāmatošanas vai rēķina izrakstīšanas pasūtījums nosūta korespondējošo pieprasījumu. Pieprasījums tiks parādīts tikai vienu reizi, pirmajam solim, kad notiks iepriekš minētais process. Novīdes daudzums būs daudzums, kurā krājuma transakcijas statuss atbilstoŠajā pasūtījuma rindā tiek mainīts no *Pasūtījumā* uz *Rezervēts pasūtījums* (vai uz vēlāku statusu).
+
 1. Dodieties uz **Krājumu pārvaldība \> Periodiskie \> Krājumu redzamības integrāciju** un iespējojiet darbu. Visi krājumu izmaiņu notikumi no Supply Chain Management tagad tiks grāmatoti Krājumu redzamībai.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

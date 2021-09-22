@@ -1,8 +1,8 @@
 ---
 title: Atvaļinājumu un prombūtnes pieprasījumu pārvaldība
 description: Skatiet un apstipriniet atvaļinājumu un prombūtnes pieprasījumus sistēmā Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 04/21/2021
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,27 +12,27 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 46b26a3c4f6594bf1e471f241307c2da55d805c65b038233520003db952a2f4e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0033196c445a59482798e89913bbb40303462e2b
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769663"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431294"
 ---
 # <a name="manage-leave-and-absence-requests"></a>Atvaļinājumu un kavējumu pieprasījumu pārvaldība
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Pārvaldīt taimauta pieprasījumus no **Darbinieku patstāvīgi izmantojamo pakalpojumu** darbvietas sistēmā Dynamics 365 Human Resources. Pieprasījumi var būt vienkārši vienas dienas pieprasījumi vai vairāku dienu pieprasījumi, tostarp vairāki atvaļinājumu un prombūtnes laika veidi. Ja nav iespējota darbplūsma, pieprasījumi tiek automātiski apstiprināti. Kad ir iespējota darbplūsma, apstiprinājumi var tikt apstiprināti automātiskai vai arī tikt pieprasīta parakstīšana, atkarībā no darbplūsmas konfigurācijas.
+Pārvaldiet brīvā laika pieprasījumus no **Darbinieka pašapkalpošanās** darbvietas pakalpojumā Dynamics 365 Human Resources. Pieprasījumi varētu būt vienkārši vienas dienas pieprasījumi vai vairāku dienu pieprasījumi, kuri ietver vairākus atvaļinājumu un prombūtnes veidus. Ja nav iespējota darbplūsma, pieprasījumi tiek automātiski apstiprināti. Iespējojot darbplūsmu, apstiprinājums var būt automātisks, vai tam var būt nepieciešama izrakstīšanās atkarībā no darbplūsmas konfigurācijas.
 
 1. Darbvietā **Nodarbinātā patstāvīgi izmantojamie pakalpojumi** atlasiet **Mana komanda**.
 
 2. Sadaļā **Manas darba grupas informācija** atlasiet cilni **Atvaļinājums un prombūtne**.
 
-3. Pēc nepieciešamības skatiet un apstipriniet savas darba grupas brīvā laika pieprasījumus.
+3. Pēc vajadzības skatiet un apstipriniet darba grupas dalībnieku brīvā laika pieprasījumus.
 
 ## <a name="leave-request-workflow-experience-enhancements"></a>Atvaļinājumu pieprasījumu darbplūsmas pieredzes uzlabojumi
 

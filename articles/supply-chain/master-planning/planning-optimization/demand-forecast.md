@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 71e651afc83e0c2ea147a4657c0f2ce1865ec50efcd932127b4918266d3d7cd8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0f322dd63cb2dee6a9048e6ed086dc075cc0e1b9
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778680"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474848"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Vispārējā plānošana ar pieprasījuma apjoma prognozēm
 
@@ -137,32 +137,85 @@ Piešķiriet samazināšanas principu krājuma saguma grupai. Pēc tam lapas **V
 
 #### <a name="transactions--reduction-key"></a>Transakcijas — samazināšanas princips
 
-Ja ir atlasīta opcija **Transakcijas — samazināšanas princips**, prognozes vajadzības samazina transakcijas, kas tiek veiktas samazināšanas principa noteiktajos periodos.
+Ja iestatāt lauku **Metode, kas izmantota prognozes prasību samazināšanai** uz *Transakcijas — samazinājuma atslēga*, prognozes prasības tiek samazinātas par kvalificētajām transakcijām, kuras rodas samazinājuma atslēgas definētajos periodos.
+
+Kvalificēto prasību definē ar lauku **Samazināt prognozi par** lapā **Vajadzību grupas**. Ja iestatāt lauku **Samazināt prognozi par** uz *Pasūtījumi*, par kvalificētu pieprasījumu uzskata tikai pārdošanas pasūtījumu transakcijas. Ja iestatāt to uz *Visas transakcijas*, jebkādas ne-starpuzņēmumu problēmu krājumu transakcijas tiek uzskatītas par kvalificēto pieprasījumu. Ja starpuzņēmumu pārdošanas pasūtījumus arī jāiekļauj kvalificētajā pieprasījumā, iestatiet opciju **Iekļaut starpuzņēmumu pasūtījumus** uz vērtību *Jā*.
+
+Prognozes samazināšana sākas ar pirmo (agrāko) pieprasījuma prognozes ierakstu samazināšanas laika periodā. Ja kvalificēto krājuma transakciju daudzums pārsniedz pieprasījuma prognozes rindu daudzumu tajā pašā samazinājuma atslēgas periodā, krājuma transakciju bilances daudzums tiks izmantots, lai samazināt pieprasījuma prognozes daudzumu iepriekšējā periodā (ja ir nepatērēta prognoze).
+
+Ja iepriekšējā samazināšanas atslēgas periodā nav nepatērētas prognozes, krājuma transakciju daudzuma krājuma bilance tiks izmantota, lai samazinātu prognozes daudzumu nākamajā mēnesī (ja ir nepatērētas prognozes).
+
+Lauka **Procenti** vērtība samazināšanas atslēgas rindām netiek lietota, kad lauks **Metode, kas izmantota, lai samazinātu prognozes prasības** ir iestatīta uz *Transakcijas — samazinājuma atslēga*. Samazināšanas atslēgas perioda definēšanai tikai izmantoti tikai datumi.
+
+> [!NOTE]
+> Jebkura prognoze, kura tiek grāmatota šodienas datumā vai pirms tā, tiks ignorēta un netiks izmantota plānoto pasūtījumu izveidē. Piemēram, ja jūsu pieprasījuma prognoze mēnesim ir ģenerēta 1. janvārī un jūs palaižat galveno plānošanu, kas ietver pieprasījuma prognozēšanu 2. janvārī, aprēķinos tiks ignorēta pieprasījuma prognozēšanas rinda, kas datēta ar 1. janvāri.
 
 ##### <a name="example-transactions--reduction-key"></a>Piemēram: transakcijas — samazināšanas princips
 
 Šis piemērs parāda, kā faktiskie pasūtījumi, ko samazināšanas princips noteicis noteiktos periodos, samazina pieprasījuma apjoma prognozes vajadzības.
 
-Šajā piemērā lapas **Vispārējie plāni** laukā **Prognozes vajadzību samazināšanai izmantotā metode** atlasiet opciju **Transakcijas — samazināšanas princips**.
+[![Faktiskie pasūtījumi un prognozes pirms galvenās plānošanas palaišanas.](media/forecast-reduction-keys-1-small.png)](media/forecast-reduction-keys-1.png)
 
-Šādi pārdošanas pasūtījumi ir 1. janvārī.
+Šajā piemērā lapas *Vispārējie plāni* laukā **Prognozes vajadzību samazināšanai izmantotā metode** atlasiet opciju **Transakcijas — samazināšanas princips**.
 
-| mēnesis;    | Pasūtīto gabalu skaits |
-|----------|--------------------------|
-| janvāris  | 956                      |
-| Februārī | 1176                    |
-| Martā    | 451                      |
-| Aprīlī    | 119                      |
+1. aprīlī pastāv šādas pieprasījuma prognozes rindas.
 
-Ja izmantojat to pašu pieprasījuma apjoma prognozi 1000 gabaliem mēnesī, kas tika izmantota iepriekšējā piemēra, uz vispārējo plānu tiek pārsūtīti tālāk norādītie vajadzību daudzumi.
+| Datums     | Prognozēto gabalu skaits |
+|----------|-----------------------------|
+| 5. aprīlis  | 100                         |
+| 12. aprīlis | 100                         |
+| 19. aprīlis | 100                         |
+| 26. aprīlis | 100                         |
+| 3. maijs    | 100                         |
+| 10. maijs   | 100                         |
+| 17. maijs   | 100                         |
 
-| Mēnesis                | Vajadzīgo gabalu skaits |
-|----------------------|---------------------------|
-| janvāris              | 44                        |
-| Februārī             | 0                         |
-| Martā                | 549                       |
-| Aprīlī                | 881                       |
-| Maijs – decembris | 1000                     |
+Aprīlī pastāv šādas pārdošanas pasūtījumu rindas.
+
+| Datums     | Pieprasīto gabalu skaits |
+|----------|----------------------------|
+| 27. aprīlis | 240                        |
+
+[![Plānotais piegādes apjoms, kas ģenerēts, pamatoties aprīļa pasūtījumos](media/forecast-reduction-keys-2-small.png)](media/forecast-reduction-keys-2.png)
+
+Kad 1. aprīlī tiek palaista galvenā plānošana, uz galveno plānu tiek pārvirzītas šādi prasību apjomi. Kā redzams, aprīļa prognožu transakcijas tika samazinātas par pieprasījuma apjomu 240 secībā, sākot no pirmās transakcijas.
+
+| Datums     | Vajadzīgo gabalu skaits |
+|----------|---------------------------|
+| 5. aprīlis  | 0                         |
+| 12. aprīlis | 0                         |
+| 19. aprīlis | 60                        |
+| 26. aprīlis | 100                       |
+| 27. aprīlis | 240                       |
+| 3. maijs    | 100                       |
+| 10. maijs   | 100                       |
+| 17. maijs   | 100                       |
+
+Pieņemsim, ka jaunie pasūtījumi tika importēti maija periodam.
+
+Maijā pastāv šādas pārdošanas pasūtījumu rindas.
+
+| Datums   | Pieprasīto gabalu skaits |
+|--------|----------------------------|
+| 4. maijs  | 80                         |
+| 11. maijs | 130                        |
+
+[![Plānotais piegādes apjoms, kas ģenerēts, pamatoties aprīļa un maija pasūtījumos](media/forecast-reduction-keys-3-small.png)](media/forecast-reduction-keys-3.png)
+
+Kad 1. aprīlī tiek palaista galvenā plānošana, uz galveno plānu tiek pārvirzītas šādi prasību apjomi. Kā redzams, aprīļa prognožu transakcijas tika samazinātas par pieprasījuma apjomu 240 secībā, sākot no pirmās transakcijas. Taču maija prognozes transakcijas tika kopumā samazinātas par 210, sakot no pirmās pieprasījuma prognozes transakcijas maijā. Taču kopējie apjomi periodā tiek saglabāti (400 aprīlī un 300 maijā).
+
+| Datums     | Vajadzīgo gabalu skaits |
+|----------|---------------------------|
+| 5. aprīlis  | 0                         |
+| 12. aprīlis | 0                         |
+| 19. aprīlis | 60                        |
+| 26. aprīlis | 100                       |
+| 27. aprīlis | 240                       |
+| 3. maijs    | 0                         |
+| 4. maijs    | 80                        |
+| 10. maijs   | 0                         |
+| 11. maijs   | 130                       |
+| 17. maijs   | 90                        |
 
 #### <a name="transactions--dynamic-period"></a>Transakcijas — dinamiskais periods
 

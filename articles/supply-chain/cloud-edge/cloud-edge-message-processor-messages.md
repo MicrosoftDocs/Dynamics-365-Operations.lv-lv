@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 76a3cc316da322c7997072c00780f2fc133bfd2a02274b1e53f5cd06cfb1277e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 685c8951b7c0d8524091cf06306388736d894f58
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748863"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471648"
 ---
 # <a name="message-processor-messages"></a>Ziņojumu apstrādātāja ziņojumi
 
@@ -44,7 +44,7 @@ Jūs varat izmantot laukus **Ziņojumu procesoru ziņojumu** lapas augšpusē, l
   - *Ievietots rindā* – Ziņojumu ir gatavs ziņojuma procesora apstrādei.
   - *Apstrādāts* – Ziņojuma procesors veiksmīgi apstrādāja ziņojumu.
   - *Atcelts* – ziņojums tika apstrādāts, bet apstrāde neizdevās.
-- **Zīņojuma saturs** - Šis filtrs veic pilnu teksta meklēšanu ziņojuma saturam. (Ziņojuma saturs režģī netiek rādīts.) Vairumu speciālo simbolu (piemēram, "-") filtrs uzskata par atstarpēm, un visus atstarpju simbolus uzskata par Būla OR operatoriem. T=Piemēram, ja meklējat noteiktu `journalid` vērtību, kas vienāda ar "USMF-123456", sistēma atradīs visus ziņojumus, kas satur "USMF" vai "123456", kas, visticamāk, būs garš saraksts. Tāpēc labāk būtu ievadīt tikai "123456", jo tādējādi tiks atgriezti precīzāki rezultāti.
+- **Zīņojuma saturs** - Šis filtrs veic pilnu teksta meklēšanu ziņojuma saturam. (Ziņojuma saturs režģī netiek rādīts.) Vairumu speciālo simbolu (piemēram, "-") filtrs uzskata par atstarpēm, un visus atstarpju simbolus uzskata par Būla OR operatoriem. Piemēram, tas nozīmē, ka, ja meklējat konkrētu `journalid` vērtību, kas vienāda ar "USMF-123456", sistēma atradīs visus ziņojumus, kuri satur "USMF" vai "123456", kas visdrīzāk būs garš saraksts. Tāpēc labāk būtu ievadīt tikai "123456", jo tādējādi tiks atgriezti precīzāki rezultāti.
 
 ## <a name="example-message-type-request-inventory-adjustment-financial-update"></a>Ziņojuma veida piemērs: pieprasīt krājumu korekcijas finanšu atjauninājumu
 
@@ -65,7 +65,7 @@ Rīkjosla cilnē **Žurnāls** ietver šādas pogas:
 
 ## <a name="message-processor-batch-job"></a>Ziņojumu procesora pakešuzdevums
 
-Palaižot mākoņa un malas izvietošanu, pakešuzdevums *Ziņojumu procesors* tiks automātiski atsaukts, kad apstrādei tiek izveidots jauns ziņojums, tāpēc jums nevajadzētu šo darbu plānot manuāli.
+Palaižot izdalīto hibrīdu topoloģiju ar mēroja vienībām, pakešuzdevums *Ziņojuma apstrāde* tiks automātiski izsaukts, kad apstrādei tiek izveidots jauns ziņojums, tāpēc jums nevajadzēs šo darbu plānot manuāli.
 
 Ja nepieciešams, varat piekļūt pakešuzdevumam, noklikšķinot uz **Sistēmas administrēšana > Ziņojumu procesors > Ziņojumu procesors**.
 

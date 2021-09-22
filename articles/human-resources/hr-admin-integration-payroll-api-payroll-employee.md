@@ -2,7 +2,7 @@
 title: Algots darbinieks
 description: Šī tēma sniedz detalizētu informāciju un parauga vaicājumu algas darbinieka elementam programmā Dynamics 365 Human Resources.
 author: jcart
-ms.date: 04/07/2021
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 20e74e97f98d0bc0fd454d54cbf969d4f1b46c7c98b2949b0ed8cfe671312dd2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 450872a38c833de9d37e2c6224839f2bca7cb4c6
+ms.sourcegitcommit: 4d11061f5de0ddba1f968bd5c3fd694a8b104ccc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768195"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7429240"
 ---
 # <a name="payroll-employee"></a>Algots darbinieks
 
@@ -34,31 +34,42 @@ Fiziskais nosaukums: mshr_payrollemployeeentity.
 
 >[!IMPORTANT] 
 >**FirstName**, **MiddleName**, **LastName**, **NameValidFrom** un **NameValidTo** lauki vairs nebūs pieejami šim elementam. Tas nodrošina, ka ir tikai viens datuma efektīvais datu avots, kas atbalsta šo elementu.
->Šie lauki būs pieejami **DirPersonNameHistoricalEntity**, kas tika izlaists Platformas atjauninājumā 43. Laukā **Persona** pastāv OData relācija no **PayrollEmployeeEntity** uz **DirPersonNameHistoricalEntity**. 
+>Šie lauki būs pieejami **DirPersonNameHistoricalEntity**, kas tika izlaists Platformas atjauninājumā 43. No  **PayrollEmployeeEntity** uz **DirPersonNameHistoricalEntity** ir OData relācija. 
 
 ## <a name="properties"></a>Rekvizīti
 
-| Rekvizīts<br>**Fiziskais nosaukums**<br>**_tips_** | Izmantot | Apraksts |
+| Rekvizīts</br>**Fiziskais nosaukums**</br>**_tips_** | Izmantot | Apraksts |
 | --- | --- | --- |
-| **Darbinieku skaits**<br>mshr_personnelnumber<br>*Virkne* | Tikai lasāms | Darbinieka unikālais personāla numurs. |
-| **Primārais lauks**<br>mshr_primaryfield<br>*Virkne* | Tikai lasāms<br>Sistēmas ģenerēts |  |
-| **Juridiskas personas ID**<br>mshr_legalentityID<br>*Virkne* | Tikai lasāms | Norāda juridisko personu (uzņēmumu). |
-| **Dzimums**<br>mshr_gender<br>[mshr_hcmpersongender opciju kopa](hr-admin-integration-payroll-api-gender.md) | Tikai lasāms | Darbinieka dzimums. |
-| **Payroll darbinieka elementa ID**<br>mshr_payrollemployeeentityid<br>*GUID* | Obligāts<br>Sistēmas ģenerēts | Sistēmas ģenerēta GUID vērtība, lai unikāli identificētu darbinieku. |
-| **Darba attiecību uzsākšanas datums**<br>mshr_employmentstartdate<br>*Datuma laika nobīde* | Tikai lasāms | Darbinieka nodarbinātības sākuma datums. |
-| **Identifikācijas veida ID**<br>mshr_identificationtypeid<br>*Virkne* |Tikai lasāms | Darbiniekam definētais identifikācijas veids. |
-| **Nodarbinātības beigu datums**<br>mshr_employmentenddate<br>*Datuma laika nobīde* | Tikai lasāms |Darbinieka nodarbinātības beigas.  |
-| **Datu apgabala ID**<br>mshr_dataareaid_id<br>*GUID* | Tikai lasāms <br>Sistēmas ģenerēts | Sistēmas ģenerēta GUID vērtība, kas identificē juridisko personu (uzņēmumu). |
-| **Derīgs līdz**<br>mshr_namevalidto<br>*Datuma Laika Nobīde* |  Tikai lasāms | Datums, līdz kuram ir derīga informācija par darbinieku. |
-| **Dzimšanas datums**<br>mshr_birthdate<br>*Datuma Laika Nobīde* | Tikai lasāms | Darbinieka dzimšanas datums |
-| **Identifikācijas numurs uz**<br>mshr_identificationnumber<br>*Virkne* | Tikai lasāms |Darbiniekam definētais identifikācijas numurs.  |
+| **Juridiskas personas ID**</br>mshr_legalentityid</br>*Virkne* | Tikai lasāms | Norāda juridisko personu (uzņēmumu). |
+| **Darbinieku skaits**</br>mshr_personnelnumber</br>*Virkne* | Tikai lasāms | Darbinieka unikālais personāla numurs. |
+| **Darba attiecību uzsākšanas datums**</br>mshr_employmentstartdate</br>*Datuma laika nobīde* | Tikai lasāms | Darbinieka nodarbinātības sākuma datums. |
+| **Nodarbinātības beigu datums**</br>mshr_employmentenddate</br>*Datuma laika nobīde* | Tikai lasāms |Darbinieka nodarbinātības beigas.  |
+| **Dzimšanas datums**</br>mshr_birthdate</br>*Datuma Laika Nobīde* | Tikai lasāms | Darbinieka dzimšanas datums. |
+| **Dzimums**</br>mshr_gender</br>[mshr_hcmpersongender opciju kopa](hr-admin-integration-payroll-api-gender.md) | Tikai lasāms | Darbinieka dzimums. |
+| **Nodarbinātības veids**</br>mshr_employmenttype</br>[mshr_hcmemploymenttype opciju kopa](hr-admin-integration-payroll-api-hcmemploymenttype.md) | Tikai lasāms | Nodarbinātības veids. |
+| **Identifikācijas veida ID**</br>mshr_identificationtypeid</br>*Virkne* |Tikai lasāms | Darbiniekam definētais identifikācijas veids. |
+| **Identifikācijas numurs uz**</br>mshr_identificationnumber</br>*Virkne* | Tikai lasāms |Darbiniekam definētais identifikācijas numurs. |
+| **Gatavs apmaksai**</br>mshr_readytopay</br>[mshr_noyes opciju kopa](hr-admin-integration-payroll-api-no-yes.md) | Tikai lasāms | Norāda, vai darbinieks ir atzīmēts kā gatavs maksāt. |
+| **Payroll darbinieka elementa ID**</br>mshr_payrollemployeeentityid</br>*GUID* | Obligāts</br>Sistēmas ģenerēts | Sistēmas ģenerēta GUID vērtība, lai unikāli identificētu darbinieku. |
+
+## <a name="relations"></a>Saites
+
+|Rekvizīta vērtība | Saistītā entītija | Navigācijas rekvizīts | Kolekcijas veids |
+| --- | --- | --- | --- |
+| _mshr_fk_employment_id_value | mshr_hcmemploymentdetailentity | mshr_FK_Employment_id | - |
+| _mshr_fk_fixedcompplan_id_value | [mshr_payrollfixedcompensationplanentity](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md) | mshr_FK_FixedCompPlan_id | mshr_FK_PayrollFixedCompensationPlanEntity_Employee |
+| _mshr_fk_name_id_value | mshr_dirpersonnamehistoricalentity | mshr_FK_Name_id | - |
+| _mshr_fk_worker_id_value | mshr_hcmworkerbaseentity | mshr_FK_Worker_id | - |
+| _mshr_fk_workerbankaccount_id_value | mshr_hcmworkerbankaccountentity | mshr_FK_WorkerBankAccount_id | - |
+| _mshr_fk_variablecompaward_id_value | [mshr_payrollvariablecompensationawardentity](hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md) | mshr_FK_VariableCompAward_id | mshr_FK_PayrollVariableCompensationAwardEntity_Employee |
+| _mshr_fk_address_id_value | [mshr_payrollworkeraddressentity](hr-admin-integration-payroll-api-payroll-worker-address.md) | mshr_FK_Address_id | mshr_FK_PayrollWorkerAddressEntity_Worker |
 
 ## <a name="example-query-for-payroll-employee"></a>Payroll darbinieka vaicājuma piemērs
 
 **Pieprasīt**
 
 ```http
-GET [Organizaton URI]/api/data/v9.1/mshr_payrollemployeeentities?$filter=mshr_personnelnumber eq @personnelnumber and mshr_identificationtypeid eq @idtype and mshr_namevalidfrom le @asofdate and mshr_namevalidto ge @asofdate&@personnelnumber='000041'&@idtype='SSN'&@asofdate=2021-04-01
+GET [Organizaton URI]/api/data/v9.1/mshr_payrollemployeeentities?$filter=mshr_personnelnumber eq '000041'
 ```
 
 **Atbilde**
@@ -71,17 +82,24 @@ GET [Organizaton URI]/api/data/v9.1/mshr_payrollemployeeentities?$filter=mshr_pe
     "mshr_employmentenddate": "2154-12-31T23:59:59Z",
     "mshr_birthdate": "1987-09-12T00:00:00Z",
     "mshr_gender": 200000002,
+    "mshr_employmenttype": 200000000,
     "mshr_identificationtypeid": "SSN",
     "mshr_identificationnumber": "888-99-9342",
+    "mshr_readytopay": 200000000,
     "mshr_dataareaid": "USMF",
     "mshr_primaryfield": "000041 | USMF | 4/5/2011 07:00:00 am",
-    "_mshr_fk_worker_id_value": "000000ad-0000-0000-d5ff-004105000000",
-    "_mshr_fk_employment_id_value": "00000d0d-0000-0000-0600-014105000000",
-    "_mshr_fk_fixedcompplan_id_value": "0000029f-0000-0000-d5ff-004105000000",
-    "mshr_payrollemployeeentityid": "00000d3c-0000-0000-d5ff-004105000000",
+    "_mshr_fk_employment_id_value": "00000d4e-0000-0000-0600-014105000000",
+    "_mshr_fk_fixedcompplan_id_value": "00000598-0000-0000-4cd0-fda002000000",
+    "_mshr_fk_name_id_value": "00000832-0000-0000-d700-014105000000",
+    "_mshr_fk_worker_id_value": "000000af-0000-0000-d5ff-004105000000",
+    "_mshr_fk_workerbankaccount_id_value": "000006f2-0000-0000-b7ff-004105000000",
+    "mshr_payrollemployeeentityid": "00000666-0000-0000-d5ff-004105000000",
+    "_mshr_fk_address_id_value": null,
+    "_mshr_fk_variablecompaward_id_value": null,
     "_mshr_dataareaid_id_value": null
 }
 ```
+
 ## <a name="see-also"></a>Skatiet arī
 
 [Payroll integrācijas API ieviešana](hr-admin-integration-payroll-api-introduction.md)

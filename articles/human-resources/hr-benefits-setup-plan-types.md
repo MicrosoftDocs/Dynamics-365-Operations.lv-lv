@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e5d66d205d2a987310cd592a00feb10ad0dcd90e
-ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
+ms.openlocfilehash: 2eb8ecdd849aa2f583202ac2ec7c3e1bb06698a1
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7423348"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431396"
 ---
 # <a name="plan-type-overview"></a>Plānot veidu pārskatu
 
@@ -28,14 +28,15 @@ ms.locfileid: "7423348"
 
 Plāna veids ir noteikta veida atvieglojumu augsta līmeņa grupēšana. Katram plāna tipam ir plāna tipa kods, kas nosaka plāna tipa kārtulas. Piemēram, plāna tipam **Pamata dzīve** būtu plāna tipa kods **Dzīve**, jo tas ir sava veida dzīvības apdrošināšanas plāna tips, un tam jāatbilst kārtulām, kas noteiktas plāna tipa kodam **Dzīve**. Cits plāna tips varētu būt **Papildu dzīve**. Šim plāna tipam būs arī plāna tipa **Dzīve** kods.
 
-Katrs plāna tips norāda, vai nodarbinātais var pieteikties vienā sava tipa plānā vai vairākos. Piemēram, nodarbinātais varētu pieteikties plāna tipa Dzīve politikām Pamata dzīve un Papildu dzīve. Nodarbinātajam visticamāk būs atļauts reģistrēties tikai vienā tipa Medicīna politikā.
+Katrs plāna tips norāda, vai nodarbinātais var pieteikties vienā sava tipa plānā vai vairākos. Piemēram, darbinieks varētu reģistrēties plāna tipa "Dzīve" politikai **Pamata dzīve** un **Papildu dzīve**. Nodarbinātajam visticamāk būs atļauts reģistrēties tikai vienā tipa Medicīna politikā.
 
-Ja plāna tips ietver kontaktus, plāna tips norāda, vai kontaktpersonas ir saņēmēji vai pakārtotie. Piemēram, Pamata dzīves plāna veidam būtu saņēmēji, bet Pamata medicīniskā plāna veidam ir pakārtotie. Dažos gadījumos plānam var nebūt personīgu kontaktpersonu. Piemēram, elastīgu izdevumu konts vai autostāvvietas atļauja.
+Ja plāna tips ietver kontaktus, plāna tips norāda, vai kontaktpersonas ir saņēmēji vai pakārtotie. Piemēram, plāna tipam **Pamata dzīve** būtu saņēmēji, bet Pamata medicīniskā plāna tipam būtu pakārtotie. Dažos gadījumos plānam var nebūt personīgu kontaktpersonu. Piemēram, elastīgu izdevumu konts vai autostāvvietas atļauja.
 
-Plāna tips var definēt vajadzību opcijas. Vajadzību opcijas ir definētas lapā **Vajadzības opcija**. Vajadzības opcija var norādīt atvieglojumu summu vai kontaktpersonas, kas ir tiesīgas uz plāna tipu. Piemēram, ja kontaktpersonas tips ir Saņēmējs, vajadzības opcijai ir jādefinē nosacījumi, ko saņēmējs var saņemt, kad tiek izmantoti atvieglojumi. Ja kontaktpersonas tips ir Pakārtotais, vajadzības opcijai jādefinē attiecības starp pakārtoto un darbinieku. 
+
+Plāna tips var definēt vajadzību opcijas. Vajadzības opcijas ir definētas lapā **Vajadzības opcijas**. Vajadzības opcija var norādīt atvieglojumu summu vai kontaktpersonas, kas ir tiesīgas uz plāna tipu. Piemēram, ja kontaktpersonas tips ir **Saņēmējs**, vajadzības opcijai vajadzētu definēt nosacījumus par to, ko saņēmējs var saņemt, lietojot atvieglojumu. Ja kontaktpersonas veids ir **Pakārtota**, vajadzības opcijai vajadzētu definēt relāciju starp pakārtoto un darbinieku. 
 
 > [!IMPORTANT]
-> Lapā ir ietverti galvenie dati, kas ietekmē opcijas, kas ir pieejamas, izveidojot jaunu atvieglojumu plānu:
+> Lapā **Plānu veidi** tiek iekļauti galvenie dati, kuri ietekmē opcijas, kuras ir pieejamas jauna ieguvumu plāna izveidnes laikā:
 >
 > - **Plāna tipa kods** – šis lauks ietekmē to, kas tiek rādīts cilnē **Konfigurācija**, kad tiek iestatīti faktiskie atvieglojumi.  
 > - **Vienlaicīga reģistrācija** – šis lauks nosaka, vai vairākas reģistrācijas ir atļautas. (Medicīniskām plānam šis lauks parasti ir iestatīts kā **Viena reģistrācija**.)

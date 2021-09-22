@@ -1,8 +1,8 @@
 ---
 title: Anketas rezultātu analizēšana
 description: Anketu statistiku var izmantot, lai aprēķinātu vidējās vērtības, kopsummas un procentus, balstoties uz demogrāfisko datu kopu.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: KMQuestionnaireStatistics, KMQuestionnaireStatisticsLine, HcmLea
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c61fa41f5502750c07e773568e65cc03df86fa6af4878de7d2c956317a15d495
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4a1a633301097758f222f294d6a0134e67d19d38
+ms.sourcegitcommit: 8246ba3872a1f3eaa18c8bb1ba86d3c2142a6e10
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724992"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7465129"
 ---
 # <a name="analyzing-questionnaire-results"></a>Anketas rezultātu analizēšana
 
@@ -26,46 +26,46 @@ ms.locfileid: "6724992"
 
 
 
-Anketu statistiku var izmantot, lai aprēķinātu vidējās vērtības, kopsummas un procentus, balstoties uz demogrāfisko datu kopu. Lai sāktu šo procedūru, pārejiet uz sadaļu Anketa > Skatīt un analizēt rezultātus > Anketas statistika. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
+Anketu statistiku var izmantot, lai aprēķinātu vidējās vērtības, kopsummas un procentus, balstoties uz demogrāfisko datu kopu. Lai sāktu šo procedūru, dodieties uz **Aptauja**  > **Skatīt un analizēt rezultātus**  > **Aptaujas statistika**. USMF ir paraugdatu uzņēmums, kas tiek izmantots šīs procedūras izveidei.
 
 
 ## <a name="create-a-questionnaire-statistics-record"></a>Anketas statistikas ieraksta izveide
-1. Dodieties uz sadaļu Anketas statistika.
-2. Noklikšķiniet uz Jauns.
+1. Dodieties uz **Aptaujas statistika**.
+2. Klikšķiniet **Jauns**.
 3. Sarakstā atzīmējiet atlasīto rindu.
-4. Ierakstiet vērtību laukā Statistika.
-5. Laukā Apraksts ierakstiet kādu vērtību.
-6. Laukā Anketa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
+4. Laukā **Statistika** ievadiet vērtību.
+5. Laukā **Apraksts** ierakstiet kādu vērtību.
+6. Laukā **Aptauja** noklikšķiniet nolaižamā saraksta pogu, lai atvērtu uzmeklēšanu.
 7. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-8. Noklikšķiniet uz cilnes Vispārīgi.
+8. Noklikšķiniet uz cilnes **Vispārīgi**.
     * Atlasiet, vai vēlaties ietvert anonīmus rezultātus vai rezultātus no darbiniekiem, kontaktpersonām un kandidātiem.  
-9. Atzīmējiet izvēles rūtiņu Darbinieks vai noņemiet tās atzīmi.
+9. Atlasiet izvēles rūtiņu **Darbinieks** vai noņemiet atzīmi no tās.
     * Ja skatīsit rezultātus pēc darba stāža vai vecuma, norādiet intervālus, kurus vēlaties izmantot rezultātu grupēšanai.  
     * Ievadot vecuma intervālu 5, rezultāti tiks grupēti, ņemot vērā piecu gadu vecuma intervālus.  
-10. Ievadiet skaitli laukā Vecums.
+10. Laukā **Vecums** ievadiet skaitu.
     * Atlasiet, vai vēlaties veikt aprēķinu visai anketai, katrai rezultātu grupai, katram jautājumam vai katrai jautājuma rindai.  
     * Atlasiet veidu, kādā vēlaties rezultātus grupēt.  
     * Piemēram, ja aprēķināt vidējo punktu skaitu par katru jautājumu, varat apskatīt jautājumus, kas grupēti pēc rezultātu grupas.  
     * Atlasiet datus, uz kuriem balstīt aprēķinu.  
     * Piemēram, ja vēlaties redzēt saņemto vidējo procentuālo daļu anketā starp jūsu darbiniekiem pret vidējo punktu skaitu starp jūsu darbiniekiem.  
-11. Noklikšķiniet uz cilnes Diapazons.
+11. Noklikšķiniet uz cilnes **Diapazons**.
     * Izmantojiet diapazonus, lai ierobežotu rezultātu kopu, atstājot tikai tos, kas atbilst diapazona kritērijiem.  
-12. Noklikšķiniet uz cilnes Grupēšana pēc.
+12. Noklikšķiniet uz cilnes **Grupēt pēc**.
     * Lai noteiktu, kā rezultāti ir jāattēlo, izmantojiet grupējumus.  
     * Piemēram, grupējiet rezultātus pēc dzimuma un tad pēc vecuma.  
 13. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-    * Pārvietojiet grupējumus uz pusi Atlasīts un izvietojiet tos vēlamajā secībā.  
+    * Pārvietojiet grupējumus uz pusi **Atlasīts** un izvietojiet tos vēlamajā secībā.  
 
 ## <a name="execute-the-statistics-calculation"></a>Statistikas aprēķina izpilde
-1. Noklikšķiniet uz Izpildīt.
+1. Noklikšķiniet **Izpildīt**.
     * Atlasiet aprēķina funkciju, kuru vēlaties pielietot rezultātiem.  
     * Piemēram, aprēķiniet vidējo procentuālo daļu anketā atlasītajiem grupējumiem vai kopējo punktu skaitu rezultātu grupām izvēlētajiem grupējumiem.  
-2. Atlasiet vai izņemiet atzīmi no izvēles rūtiņas Dzēst iepriekš meklēto.
-3. Noklikšķiniet uz OK.
+2. Atlasiet izvēles rūtiņu **Dzēst iepriekšējo meklēšanu** vai noņemiet atzīmi no tās.
+3. Noklikšķiniet uz **Labi**.
 
 ## <a name="view-the-results-of-the-questionnaire-statistics-run"></a>Skatiet anketas statistikas laidiena rezultātus.
-1. Klikšķiniet Rezultāts.
-2. Klikšķiniet Rezultāts.
+1. Noklikšķiniet uz **Rezultāts**.
+2. Noklikšķiniet uz **Rezultāts**.
 3. Aizvērt lapu.
 
 

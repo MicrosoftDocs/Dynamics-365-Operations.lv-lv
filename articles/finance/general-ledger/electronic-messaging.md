@@ -2,7 +2,7 @@
 title: Elektr. ziņojumapm.
 description: Šajā tēmā ir sniegts apskats par elektronisko ziņojumapmaiņu un tās iestatīšanai nepieciešamo informāciju programmā Microsoft Dynamics 365 Finance.
 author: liza-golub
-ms.date: 06/29/2021
+ms.date: 08/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 191abc37b7c349aaf3c9e871fe2f1885eec9fc896271d6fac27e5caa0b0fe3b0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 16b0e0fa74109f1c63ed47606bebe2fefc604fc5
+ms.sourcegitcommit: efcb853a68a77037cca23582d9f6f96ea573727a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768343"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7478728"
 ---
 # <a name="electronic-messaging"></a>Elektroniskā ziņojumapmaiņa
 
@@ -57,6 +57,16 @@ EM funkcionalitāte atbalsta šādus scenārijus:
 - Saglabājiet un pārskatiet visus ģenerētos pārskatus.
 - Saglab. un pārsk. žurnāla inf., kas saistīta ar darb., kuras tiek izpildītas ziņojumam vai ziņojuma vienumam.
 - Kontrolējiet apstrādi, izmantojot ziņoj. statusus un ziņoj. vienumu statusus.
+
+## <a name="security-privileges"></a>Drošības privilēģijas
+
+Elektroniskajiem ziņojumiem ir pieejamas šādas drošības privilēģijas.
+
+| Drošības privilēģija           | Piekļuves līmenis | Asociācija |
+|------------------------------|--------------|-------------|
+| Uzturēt elektroniskos ziņojumus | Šī privilēģija sniedz pilnu piekļuvi EM funkcijai. Ja jums ir šī privilēģija, jūs varat iestatīt elektronisko ziņojumapmaiņu un palaist visus procesus. | Šī privilēģija ir iekļauta drošības pienākumā **Uzturēt pārdošanas nodokļu transakcijas**. Šis pienākums ir iekļauts drošības lomā **Grāmatvedis**. |
+| Skatīt elektroniskos ziņojumus     | Šī privilēģija sniedz tikai lasīšanas piekļuvi EM funkcijai. Ja jums ir šī privilēģija, jūs varat skatīt elektroniskās ziņojumapmaiņas iestatījumus un ziņojumus. Taču jūs neko nevarat iestatīt vai palaist. | Šī privilēģija ir iekļauta drošības pienākumā **Vaicāt par pārdošanas nodokļu transakcijas statusu**. Šis pienākums ir iekļauts šādās drošības lomās:<ul><li>Iekasēšanas pārvaldnieks</li><li>Debitoru parādu darbinieks</li><li>Debitoru parādu vadītājs</li><li>Nodokļu grāmatvedis</li><li>Grāmatvedis</li><li>Uzskaites vadītājs</li><li>Uzskaites supervizors</li><li>Pārdošanas daļas vadītājs</li><li>Kreditoriem maksājamo parādu darbinieks</li></ul> |
+| Apstrādāt elektroniskos ziņojumus  | Šī privilēģija sniedz piekluvi tikai lapām **Elektroniskie ziņojumi** un **Elektronisko ziņojumu elementi**. Ja jums ir šī privilēģija, jūs varat palaist visu apstrādi, kas tiek izsaukta no šīm lapām. | Šī privilēģija ir iekļauta drošības pienākumā **Darbināt elektroniskos ziņojumus**. Šis pienākums ir iekļauts drošības lomā **Elektronisko ziņojumu operators**. |
 
 ## <a name="country-specific-regulatory-features-supported-by-the-em-functionality"></a>Valstij specifiskās regulēšanas funkcijas, ko atbalsta EM funkcionalitāte
 

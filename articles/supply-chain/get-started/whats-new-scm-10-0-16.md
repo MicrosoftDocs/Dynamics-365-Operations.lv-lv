@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-11-30
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 58a69907bdd1b03ea2e025b736dbbf84eed73c76d54bd5c93386ba8a627f095f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4c5c8e1d13a58b5ebc68315c75e5245cb10377f3
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712053"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474920"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>Jaunumi vai izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.16. (2021. gada februāris)
 
@@ -54,32 +54,8 @@ Nesen ir pievienotas vai ievērojami atjauninātas tālāk norādītās palīdz�
 - [No atribūtiem atkarīgas pārdošanas cenas uz ierobežojumiem balstītām produktu konfigurācijām](../pim/attribute-based-product-configurator.md)
 - [Automātisks maksu sadalījums](../procurement/automatic-charges-allocation.md)
 - [Bīstamo materiālu apskats](../pim/hazmat-overview.md) (un saistītās tēmas)
-- [Migrācija uz Plānošanas optimizāciju vispārējai plānošanai](../master-planning/new-master-planning-engine.md)
+- [Migrācija uz plānošanas optimizāciju vispārējai plānošanai](../master-planning/new-master-planning-engine.md)
 - [cXML uzlabojumu iegāde](../procurement/purchasing-cxml-enhancements.md)
-- [Ar izmaksām saistīto problēmu novēršanas pārvaldība](../cost-management/troubleshoot-costmanagement.md)
-- [Ar ienākošās noliktavas operācijām saistīto problēmu novēršana](../warehousing/troubleshoot-warehouse-inbound.md)
-- [Ar kravu veidošanu un nosūtīšanu saistīto problēmu novēršana](../warehousing/troubleshoot-warehouse-loads-shipments.md)
-- [Ar vispārējo plānošanu saistīto problēmu novēršana](../master-planning/troubleshoot-masterplanning.md)
-- [Ar iznākošās noliktavas operācijām saistīto problēmu novēršana](../warehousing/troubleshoot-warehouse-outbound.md)
-- [Ar daļēju izlaidi un daļējiem sūtījumiem saistīto problēmu novēršana](../warehousing/troubleshoot-warehouse-partial-release-shipment.md)
-- [Ar preču konfigurāciju saistīto problēmu novēršana](../pim/troubleshooting-productconfigurator.md)
-- [Ar preču informāciju saistīto problēmu novēršana](../pim/troubleshooting-productinformation.md)
-- [Sagādes un avotu darbplūsmu problēmu novēršana](../procurement/troubleshoot-procurementworkflows.md)
-- [Pirkšanas pasūtījumu problēmu novēršana](../procurement/troubleshoot-purchaseorders.md)
-- [Cenu, cenas samazinājumu, līgumu un atlaižu problēmu novēršana](../procurement/troubleshooting-pricediscountagreements.md)
-- [Produktu ieejas plūsmas un rēķinu izrakstīšanas problēmu novēršana](../procurement/troubleshooting-productreceiptinvoicing.md)
-- [Ar atsevišķo ražošanu saistīto problēmu novēršana](../production-control/troubleshoot-discretemanufacturing.md)
-- [Ar izdošanu un iepakošanu saistīto problēmu novēršana](../warehousing/troubleshoot-warehouse-picking-packing.md)
-- [Ar ražošanas procesu saistīto problēmu novēršana](../production-control/troubleshoot-processmanufacturing.md)
-- [Ar rezervāciju noliktavas pārvaldībā saistīto problēmu novēršana](../warehousing/troubleshoot-warehouse-reservations.md)
-- [Pārdošanas pasūtījumu problēmu novēršana](../sales-marketing/troubleshooting-sales.md)
-- [Pārdošanas piedāvājumu problēmu novēršana](../sales-marketing/troubleshooting-salesquotation.md)
-- [Problēmu novēršana saistībā ar jaunināšanu un migrāciju uz uzlaboto noliktavu pārvaldību](../warehousing/troubleshoot-warehouse-upgrade-migration.md)
-- [Warehouse Management mobile programmas savienojuma problēmu novēršana](../warehousing/troubleshoot-warehouse-app-connection.md)
-- [Ar noliktavas konfigurāciju saistīto problēmu novēršana](../warehousing/troubleshoot-warehouse-configuration.md)
-- [Ar noliktavas papildināšanu saistīto problēmu novēršana](../warehousing/troubleshoot-warehouse-replenishment.md)
-- [Ar noliktavas iestatīšanu saistīto problēmu novēršana](../warehousing/troubleshoot-warehouse-setup.md)
-- [Ar noliktavas darbu saistīto problēmu novēršana](../warehousing/troubleshoot-warehouse-work.md)
 - [Izvietošanas klasteri](../warehousing/putaway-clusters.md)
 - [Papildināšanas stratēģijas](../warehousing/replenishment-strategies.md)
 - [Darba sadale](../warehousing/work-split.md)

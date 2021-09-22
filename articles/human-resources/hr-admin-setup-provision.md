@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5b0f04f27c95b2498ea2b5ad66c3df19bc8df0d9
-ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
+ms.openlocfilehash: 2eb2f7c0f35eb05263644248ecf16c5874547de9
+ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7393527"
+ms.lasthandoff: 08/28/2021
+ms.locfileid: "7441169"
 ---
 # <a name="provision-human-resources"></a>Human Resources nodrošināšana
 
@@ -43,6 +43,11 @@ Pirms sākat nodrošināt jaunu ražošanas vidi, jābūt nodrošinātiem tālā
 Pirms pirmās smilškastes vai ražošanas vides nodrošināšanas, iespējams, vēlēsieties nodrošināt [Human Resources apgrozījuma vidi](https://go.microsoft.com/fwlink/p/?LinkId=2115962), lai validētu Human Resources funkcionalitāti. Izmēģinājuma vides satur fiktīvsu datus, ko var izmantot, lai izpētītu programmu drošā veidā. Kaut arī izmēģinājuma vide pieder lietotājam, kurš to pieprasīja, citus lietotājus var uzaicināt, izmantojot Human Resources sistēmas administrēšanu. 
 
 Izmēģinājuma vides vides nav paredzētas izmantošanai kā ražošanas vides. Tās ir ierobežotas līdz 60 dienu pārbaudes periodam. Kad beidzas izmēģinājuma periods, vide un visi dati tiek dzēsti un nevar tikt atgūti. Vidi nevar pārvērst par smilškastes vai ražošanas vidi. Pēc esošās vides termiņa beigām jūs varat pieteikties jaunai izmēģinājuma videi.
+
+Izveidojot Human Resources izmēģinājuma vidi, nomniekam tiek izveidota arī Power Apps izmēģinājuma vide un saistīta ar Human Resources vidi. Power Apps videi, kas tiek nodēvēta par "TestDrive", ir tāds pats izmēģinājuma periods kā Human Resources videi.
+
+> [!NOTE]
+> Human Resources izmēģinājuma vides nodrošināšana neizdosies, ja autentificētajam lietotājam nav atļaujas izveidot Power Apps izmēģinājuma vides. Lietotājam jābūt iekļautam lietotāju grupā, kura var izveidot izmēģinājuma vides Power Platform administrēšanas centrā. Papildinformāciju skatiet rakstā [Pārvaldīt, kuri var izveidot un pārvaldīt vides Power Platform administrēšanas centrā](//power-platform/admin/control-environment-creation).
 
 ## <a name="plan-human-resources-environments"></a>Human Resources vižu plānošana
 
@@ -69,7 +74,7 @@ Lai lietotu LCS un pārvaldītu savas Human Resources vides, vispirms ir jāizve
 1. Pierakstieties pakalpojumā [LCS](https://lcs.dynamics.com/Logon/Index), izmantojot to pašu kontu, ko lietojat Human Resources abonēšanai.
 
    > [!NOTE]
-   > Lai nodrošinātu sekmīgu nodrošināšanu, kontam, kuru izmantojat Human Resources vides nodrošināšanai, ir jābūt piešķirtam vai nu **Sistēmas administratora**, vai **Sistēmas pielāgotāja** lomai Power Apps vidē, kas saistīta ar Human Resources vidi. Skatiet sadaļu [Lietotāja drošības konfigurēšana resursiem](/power-platform/admin/database-security), lai iegūtu papildu informāciju par drošības lomu piešķiršanu lietotājiem programmā Power Platform.
+   > Lai nodrošinātu sekmīgu nodrošināšanu, kontam, kuru izmantojat Human Resources vides nodrošināšanai, ir jābūt piešķirtam vai nu **Sistēmas administratora**, vai **Sistēmas pielāgotāja** lomai Power Apps vidē, kas saistīta ar Human Resources vidi. Papildu informāciju par drošības lomu piešķiršanu lietotājiem Power Platform, skatiet sadaļā [Lietotāju drošības konfigurēšana resursiem](/power-platform/admin/database-security).
 
 2. Atlasiet pluszīmi (**+**), lai izveidotu projektu.
 

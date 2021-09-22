@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ae4e25874488890f0eeb601038e308fdc7e89485b5f6a8cf5d5fab713107dfcf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a4fd7c242fc2d857cb35f8ef8c08567c758b768
+ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753484"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463593"
 ---
 # <a name="reverse-journal-posting"></a>Stornēt žurnāla grāmatošanu
 
@@ -28,13 +28,17 @@ ms.locfileid: "6753484"
 
 Šajā tēmā ir aprakstītas iespējas Microsoft Dynamics 365 Finance, kas ļauj stornēt visu žurnālu vai stornēt vienu vai vairākus dokumentus no dokumentu darbību saraksta neatkarīgi no to izcelsmes. 
 
+Lai varētu izmantot vienu no šajā tēmā aprakstītiem līdzekļiem, tie ir jāieslēdz jūsu sistēmā. Administratori var izmantot **Līdzekļu pārvaldības** darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Tur šī iespēja ir uzskaitīta tālāk minētajā veidā:
+ - Modulis: Virsgrāmata
+ - Funkcionalitātes nosaukums: **Masveida apgriešana vairākiem dokumentiem**
+
 ## <a name="reversing-journals"></a>Stornējot žurnālus
 
 Varat stornēt žurnāla rindas atsevišķi. Ar stornēto žurnāla grāmatošanu, var arī stornēt visu finanšu žurnālu. Stornēt žurnālu: 
 
-- Atveriet finanšu žurnālu un filtrējiet grāmatotos žurnālus.
+- Filtrēt grāmatotos žurnālus un atvērt žurnālā skatu **Rindas**.
 - Atlasiet **Stornēt** izvēlnes lapas augšdaļā.
-- Jūs redzēsiet kopējo dokumentu un dokumentu rindu skaitu, kā arī kopējo stornēto rindu daudzumu
+- Jūs redzēsiet kopējo dokumentu un dokumentu rindu skaitu, kā arī kopējo stornēto rindu daudzumu.
 - Atlasiet **Jā**, lai izmantotu esošos darbību datumus, vai **Nē**, lai ievadītu jaunu datumu. Dažos gadījumos sākotnējās darbības periods var būt slēgts, un jums vajadzēs ievadīt jaunu darbības datumu stornēšanai.
 - Ja jūs atlasījāt **Nē**, ievadiet darbības datumu stornēšanai. 
 - Ievadiet komentārā, ko vēlaties pievienot stornētai darbībai.
@@ -52,8 +56,8 @@ Jūs varat arī atsaukt dokumentus no **Dokumentu darbību saraksta** visās apa
 
 Lai stornētu vienu vai vairākus dokumentus: 
 
-- Atlasiet **Stornēt** izvēlnes lapas augšdaļā.
-- Jūs redzēsiet kopējo dokumentu un dokumentu rindu skaitu, kā arī kopējo stornēto rindu daudzumu.
+- Atlasiet **Stornēt visu žurnāla nolaižamo sarakstu** izvēlnes lapas augšdaļā.
+- Kopējo dokumentu un dokumentu rindu skaits tiek paradīts, kā arī kopējo stornēto rindu daudzumu.
 - Atlasiet **Jā**, lai izmantotu esošos darbību datumus, vai **Nē**, lai ievadītu jaunu datumu. Dažos gadījumos sākotnējās darbības periods var būt slēgts, un jums vajadzēs ievadīt jaunu darbības datumu, lai to stornētu.
 - Ja jūs atlasījāt **Nē**, ievadiet darbības datumu stornēšanai. 
 - Ievadiet komentāru, lai aprakstītu stornēšanas darbību.

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6c87018cbfbe22fbbc441a1a23aee0ac44af9ddc
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: acc5d5f93f3f625892aac37780a44e221b6eb5ac
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345153"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7475040"
 ---
 # <a name="inventory-visibility-reservations"></a>Krājumu redzamības rezervācija
 
@@ -32,19 +32,20 @@ Varat pēc izvēles iestatīt sistēmu Microsoft Dynamics 365 Supply Chain Manag
 
 Ja ieslēdzat rezervācijas iespēju, Supply Chain Management automātiski kļūst gatava korespondējošām rezervācijām, kas veiktas, izmantojot Krājumu redzamību.
 
-> [!NOTE]
-> Korespondējošai funkcionalitātei nepieciešama Supply Chain Management versija 10.0.22 vai jaunāka. Ja vēlaties izmantot Krājumu redzamības rezervācijas, ir ieteicams gaidīt, līdz Supply Chain Management ir jaunināta uz 10.0.22 vai jaunāku versiju.
-
-## <a name="turn-on-the-reservation-feature"></a>Ieslēgt rezervēšanas līdzekli
+## <a name="turn-on-and-set-up-the-reservation-feature"></a><a name="turn-on"></a>Rezervācijas līdzekļa iespējošana un iestatīšana
 
 Lai ieslēgtu šo līdzekli, veiciet tālāk minētās darbības.
 
-1. Programmā Power Apps atveriet **Krājumu redzamība**.
+1. Piesakieties Power Apps un atveriet **Inventory Visibility**.
 1. Atveriet lapu **Konfigurācija**.
 1. Cilnē **Līdzekļu pārvaldība** ieslēdziet līdzekli *OnHandReservation*.
 1. Pierakstieties Supply Chain Management.
-1. Dodieties uz **Krājumu pārvaldība \> Iestatījumi \> Krājumu un noliktavas pārvaldības parametri**.
-1. Sadaļā **Rezervācijas korespondējošais konts** iestatiet opciju **Aktivizēt rezervāciju korespondējošo kontu** uz *Jā*.
+1. Dodieties uz **[Līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** darbvietu un iespējojiet *Inventory Visibility integrāciju ar rezervācijas nobīdes* līdzekli (vajadzīga 10.0.22. vai jaunāka versija).
+1. Dodieties uz **Krājumu pārvaldība \> Iestatījumi \> Inventory Visibility integrācijas parametri**, atveriet **Rezervāciju nobīdes** cilni un veiciet šādus iestatījumus:
+    - **Iespējot rezervāciju nobīdi** — Iestatiet uz *Jā*, lai iespējotu šo funkcionalitāti.
+    - **Rezervāciju nobīdes pārveidotājs** — Atlasiet krājuma transakcijas statusu, kas nobīdīs Inventory Visibility veiktās rezervācijas. Šis iestatījums nosaka pasūtījuma apstrādes posmu, kurš aktivizē nobīdes. Statusu izseko pasūtījuma krājumu darbības statuss. Izvēlieties vienu no šīm:
+        - *Pasūtījumā* – statusam *On transaction* pasūtījums pēc izveidošanas nosūta korespondējošo pieprasījumu. Nobīžu daudzums būs izveidotā pasūtījuma daudzums.
+        - *Rezervēšana* – Pasūtījuma statuss *Rezervēt pasūtītajā pasūtījumā* pēc tā rezervētā, izdotā, pavadzīmes grāmatošanas vai rēķina izrakstīšanas pasūtījums nosūta korespondējošo pieprasījumu. Pieprasījums tiks parādīts tikai vienu reizi, pirmajam solim, kad notiks iepriekš minētais process. Novīdes daudzums būs daudzums, kurā krājuma transakcijas statuss atbilstoŠajā pasūtījuma rindā tiek mainīts no *Pasūtījumā* uz *Rezervēts pasūtījums* (vai uz vēlāku statusu).
 
 ## <a name="use-the-reservation-feature-in-inventory-visibility"></a>Rezervācijas izmantošana Krājumu redzamības pievienojumprogrammai
 
@@ -56,13 +57,21 @@ Rezervāciju hierarhija apraksta dimensiju secību, kas jānorāda, veicot rezer
 
 Rezervāciju hierarhija var atšķirties no indeksu hierarhijas. Šī neatkarību ļauj ieviest kategoriju pārvaldību, kur lietotāji var sadalīt dimensijas detalizētāk, lai noteiktu prasības precīzākai rezervāciju veikšanai.
 
-Lai konfigurētu vieglās rezervācijas hierarhiju programmā Power Apps, atveriet lapu **Konfigurācija** un pēc tam cilnē **Vieglās rezervācijas kartēšana** iestatiet rezervāciju hierarhiju, pievienojot un/vai modificējot dimensijas un to hierarhijas līmeņus.
+Lai konfigurētu vieglās rezervācijas hierarhiju Power Apps, atveriet lapu **Konfigurācija** un cilnē **Vieglās rezervācijas hierarhija** iestatiet rezervācijas hierarhiju, pievienojot un/vai pārveidojot dimensijas un to hierarhiju līmeņus.
+
+Jūsu vieglās rezervācijas hierarhijai vajadzētu saturēt komponentus `SiteId` un `LocationId`, jo tie veido dalīšanās konfigurāciju.
+
+Papildinformāciju par rezervāciju konfigurēšanu skatiet rakstā [Rezervāciju konfigurācija](inventory-visibility-configuration.md#reservation-configuration).
 
 ### <a name="call-the-reservation-api"></a>Izsaukt rezervēšanas API
 
 Rezervācijas tiek veiktas krājumu redzamības pakalpojumā, iesniedzot GRĀMATOŠANAS pieprasījumu pakalpojuma vietrāža URL, piemēram, `/api/environment/{environment-ID}/onhand/reserve`.
 
 Rezervēšanai pieprasījuma pamattekstam ir jāietver organizācijas ID, preces ID, rezervētie daudzumi un dimensijas. Pieprasījums ģenerē unikālu rezervācijas ID katram rezervācijas ierakstam. Rezervācijas ierakstā ir ietverta preces ID un dimensiju unikālā kombinācija.
+
+Izsaucot rezervācijas API, varat kontrolēt rezervācijas derīgumu, pieprasījuma laukā konkretizējot Būla `ifCheckAvailForReserv` parametru. Vērtība `True` nozīmē, ka ir vajadzīga validācija, bet vērtība `False` nozīmē, ka validācija nav vajadzīga. Noklusējuma vērtība ir `True`.
+
+Ja vēlaties atcelt rezervāciju vai atsaukt konkrētu krājuma daudzumu rezervāciju, iestatiet daudzumu uz negatīvu vērtību, un iestatiet parametru `ifCheckAvailForReserv` uz vērtību `False`, lai izlaistu validāciju.
 
 Šeit parādīts pieprasījuma pamatteksta piemērs atsaucei.
 
@@ -108,18 +117,9 @@ Krājumu darbību statusiem, kas ietver noteiktu rezervju korespondējošo modif
 
 Korespondējošais daudzums seko krājumu daudzumam, kas norādīts krājumu darbībās. Korespondējošā darbība stājas spēkā tikai tad, ja Krājumu redzamības pakalpojumā saglabājas rezervētais daudzums.
 
-> [!NOTE]
-> Korespondējošā konta funkcionalitāte ir pieejama no versijas 10.0.22
+### <a name="set-up-the-reservation-offset-modifier"></a>Rezervācijas nobīdes pārveidotāja iestatīšana
 
-### <a name="set-up-the-reserve-offset-modifier"></a>Iestatīt rezervju korespondējošo kontu modifikatoru
-
-Rezerves korespondējošā konta modifikators nosaka pasūtījuma apstrādes stadiju, kas aktivizē korespondējošās darbības. Statusu izseko pasūtījuma krājumu darbības statuss. Lai iestatītu rezervēšanas korespondējošā konta modifikatoru, veiciet šīs darbības.
-
-1. Dodieties uz **Krājumu pārvaldība \> Iestatījumi \> Krājumu redzamības parametri \> Rezervēšanas korespondējošais konts**.
-1. Laukam **Darba pasūtījuma veids** jābūt iestatītam uz vienu no tālāk minētajām vērtībām:
-
-    - *Pasūtījumā* – statusam *On transaction* pasūtījums pēc izveidošanas nosūta korespondējošo pieprasījumu.
-    - *Rezervēšana* – Pasūtījuma statuss *Rezervēt pasūtītajā pasūtījumā* pēc tā rezervētā, izdotā, pavadzīmes grāmatošanas vai rēķina izrakstīšanas pasūtījums nosūta korespondējošo pieprasījumu. Pieprasījums tiks parādīts tikai vienu reizi, pirmajam solim, kad notiks iepriekš minētais process.
+Ja vēl to neesat izdarījuši, iestatiet rezervācijas pārveidotāju, kā aprakstīts sadaļā [Rezervācijas līdzekļa ieslēgšana un iestatīšana](#turn-on).
 
 ### <a name="set-up-reservation-ids"></a>Rezervāciju ID iestatīšana
 

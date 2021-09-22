@@ -15,20 +15,19 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3afce380f1fd6d83c7e05424079e9e4b9e72bdf9ef90ee8baaa26748aab9d4e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fb75c391809f1ce5c7d48728a735f347ef1784ed
+ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764984"
+ms.lasthandoff: 08/28/2021
+ms.locfileid: "7441269"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>Integrācija ar LinkedIn Talent Hub
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [banner](includes/preview-feature.md)]
-
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+> [!IMPORTANT]
+> Integrācija starp Dynamics 365 Human Resources un LinkedIn Talent Hub, kas aprakstīta Šajā tēmā, nebūs derīga no 2021. gada 31. decembra. Pēc šī datuma integrācijas pakalpojums vairs nebūs pieejams. Organizācijas, kuras jau nelieto integrācijas pakalpojumu, nevarēs ieviest pakalpojumu pirms tā beigām.
 
 [LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub) ir kandidātu izsekošanas sistēmas (ATS) platforma. Tā ļauj jums izveidot, pārvaldīt un nolīgt darbiniekus vienuviet. Integrējot Microsoft Dynamics 365 Human Resources ar LinkedIn Talent Hub, varat viegli izveidot darbinieku ierakstus Human Resources kandidātiem, kuri ir nolīgti amatam.
 

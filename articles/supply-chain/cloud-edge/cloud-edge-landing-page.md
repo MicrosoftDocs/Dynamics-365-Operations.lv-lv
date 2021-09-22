@@ -1,5 +1,5 @@
 ---
-title: Mākoņa un malas mēroga vienības ražošanas un noliktavu pārvaldības darba slodzēm
+title: Mēroga vienības izdalītā hibrīda topoloģijā
 description: Šajā tēmā ir sniegta informācija par mākoņa un malas mēroga vienībām ražošanas un noliktavas pārvaldības darba slodzēm.
 author: cabeln
 ms.date: 04/22/2021
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: dbe5833d4c9d8038fcebf1d9d446af757c834e42a2f77f10c7eb7268e738ed28
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 59d246dd348bca6c00dc90b19353a382986841f2
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780678"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471744"
 ---
-# <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Mākoņa un malas mēroga vienības ražošanas un noliktavas pārvaldības darba slodzēm
+# <a name="scale-units-in-a-distributed-hybrid-topology"></a>Mēroga vienības izdalītā hibrīda topoloģijā
 
 [!include [banner](../includes/banner.md)]
 
@@ -26,11 +26,11 @@ ms.locfileid: "6780678"
 >
 > Iespējojot mākoņa un malas mēroga vienības, jums tiks prasīts apstiprināt, ka jūs saprotat, ka daži dati, kas ir saistīti ar mākoņa un malas mēroga vienību konfigurāciju un apstrādi, var tikt glabāti datu centrā, kas atrodas Amerikas Savienotajās Valstīs. Lai iegūtu plašāku informāciju par mākoņa un malas skalas vienību datu apstrādi, skatiet tālāk šīs tēmas sadaļā [Datu apstrāde skalas vienību pārvaldības laikā](#data-processing-management).
 
-## <a name="core-value-proposition-for-scale-units"></a>Kodola vērtības piedāvājums mēroga vienībām
+## <a name="core-value-proposition-for-a-distributed-hybrid-topology"></a>Galvenās vērtības priekšlikums izdalītajai hibrīda topoloģijai
 
-Uzņēmumiem, kas strādā ar ražošanu un sadali, ir jābūt iespējai palaist galvenos biznesa procesus 24/7, bez pārtraukumiem un pēc mēroga. Mākoņa un malas mēroga vienības ļauj uzņēmumiem darbināt galvenos nepieciešamos ražošanas un noliktavas procesus bez pārtraukumiem, pat tad, ja reizēm rodas tīkla savienojamības vai latentuma problēmas.
+Uzņēmumiem, kas strādā ar ražošanu un sadali, ir jābūt iespējai palaist galvenos biznesa procesus 24/7, bez pārtraukumiem un pēc mēroga. Izdalītā hibrīda topoloģija ļauj uzņēmumiem palaist galvenos/kritiskos ražošanas un noliktavu procesus bez traucējumiem pat, ja jāsaskaras ar īslaicīgām tīkla savienojuma vai latentuma problēmām.
 
-Mākoņa un malas mēroga vienības iespējo ražotnes un noliktavu izpildes darba slodžu sadalījumu starp dažādām vidēm. Šī funkcionalitāte var palīdzēt uzlabot veiktspēju, novērst pakalpojumu traucējumus un palielināt darbspējas laiku. Mēroga vienības tiek nodrošinātas ar šādām pievienojumprogrammām jūsu Supply Chain Management abonementam:
+Ar izdalītā hibrīda topoloģiju tiek ieviests *mēroga vienību* koncepts, kas ļauj veikala grīdas un noliktavas izpildes darba slodzes izdalīt dažādās vides. Šī funkcionalitāte var palīdzēt uzlabot veiktspēju, novērst pakalpojumu traucējumus un palielināt darbspējas laiku. Mēroga vienības tiek nodrošinātas ar šādām pievienojumprogrammām jūsu Supply Chain Management abonementam:
 
 - Mākoņa mēroga vienības pievienojumprogramma pakalpojumam Dynamics 365 Supply Chain Management (*pieejama 2021. gada aprīlī*)
 - Malas mēroga vienības pievienojumprogramma pakalpojumam Dynamics 365 Supply Chain Management (*drīz pieejama*)

@@ -2,7 +2,7 @@
 title: Veidot daudzvalodu pārskatus Elektroniskajos pārskatos
 description: Šajā tēmā skaidrots, kā varat izmantot Elektronisko pārskatu (ER) etiķetes, lai veidotu un izveidotu daudzvalodu pārskatus.
 author: NickSelin
-ms.date: 04/21/2021
+ms.date: 09/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86facc26f57b3ab166d6274689d774adbac50e46aa7759cfd079a0ef5a45456e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e199b350101e10ba3e424894f4dc9881d05c9558
+ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718433"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7473409"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Veidot daudzvalodu pārskatus Elektroniskajos pārskatos
 
 [!include[banner](../includes/banner.md)]
+
+[!include[banner](../includes/preview-banner.md)]
 
 ## <a name="overview"></a>Pārskats
 
@@ -229,10 +231,14 @@ Kā aprakstīts iepriekš šajā tēmā, katra [modeļa](#LinkModelEnum) vai [fo
 - ER etiķetes vērtība, kas ir saistīta ar **Etiķetes** atribūtiem tiek saglabāta atgrieztā ieraksta **Etiķetes** laukā.
 - ER etiķetes vērtība, kas ir saistīta ar **Apraksta** atribūtiem tiek saglabāta atgrieztā ieraksta **Apraksta** laukā.
 
+## <a name="performance"></a><a name=performance></a>Veiktspēja
+
+Konfigurējot ER formāta komponentu, lai ģenerētu atskaiti vēlamajā [valodā](#language) vai, lai importētu ienākošo dokumentu, kura saturu parsē vēlamā valoda, iesakām iespējot līdzekli **Pašreizējā lietotāja vēlamās valodas kešdarba ER palaišanai** darbvietā [Līdzekļu pārvaldība](../../fin-ops/get-started/feature-management/feature-management-overview.md). Šis līdzeklis palīdz uzlabot veiktspēju, īpaši tiem ER formāta komponentiem, kuri satur vairākas atsauces uz marķējumu ER formulās un saistījumos un daudzas [validācijas](general-electronic-reporting-formula-designer.md#TestFormula) kārtulas, lai ģenerētu lietotāja ziņojumus jums vēlamajā valodā.
+
 ## <a name="additional-resources"></a>Papildu resursi
 
 - [Elektronisko pārskatu veidošanas apskats](general-electronic-reporting.md)
-- [Elektronisko pārskatu veidošanas funkcijas](er-formula-language.md#functions)
+- [Elektronisko pārskatu veidošanas funkcijas](er-formula-language.md#Functions)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
