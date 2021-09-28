@@ -80,8 +80,6 @@
                       href: get-started/whats-new-changed-10-0-21.md
                     - name: "Finance 10.0.20 (2021.\_gada augusts)"
                       href: get-started/whats-new-changed-10-0-20.md
-                    - name: "Finance 10.0.19 (2021.\_gada jūnijs)"
-                      href: get-started/whats-new-changed-10-0-19.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
                 - name: Noņemtie vai novecojušie līdzekļi sākumlapā
@@ -450,6 +448,8 @@
                   href: accounts-receivable/tasks/review-collections-information.md
                 - name: Parādu piedziņas procesa automatizācija
                   href: accounts-receivable/collections-process-automate.md
+                - name: Parādu piedziņas procesa automatizācijas parametru konfigurēšana
+                  href: accounts-receivable/config-paramtrs-collections-proc-automate.md
                 - name: Kredīta pārvaldības iestatīšana
                   href: accounts-receivable/cm-credit-mgmt-setup.md
                 - name: Kredītu pārvaldības iestatīšanas informācija
@@ -1635,7 +1635,9 @@
                 - name: PVN deklarācija
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: Pārrobežu pakalpojumu pārskats
-                  href: localizations/emea-aut-cross-border-services-report.md
+                  href: localizations/emea-aut-vat-statement-details.md
+                - name: Intrastat pārskats
+                  href: localizations/emea-aut-intrastat.md
                 - name: Pirkšanas nodokļi
                   href: localizations/emea-aut-purchase-duties.md
             - name: Bahreina
@@ -1668,6 +1670,8 @@
                   href: localizations/tasks/be-00011-set-up-payment-balance-reporting.md
                 - name: PRODCOM iestatīšana un uzturēšana
                   href: localizations/emea-bel-prodcom-report.md
+                - name: Iekšzemes pārdošanas gada PVN saraksts
+                  href: localizations/emea-bel-annual-vat-listing-of-domestic-sales.md
             - name: Brazīlija
               items:
                 - name: Brazīlijas pārskats
@@ -2974,6 +2978,8 @@
                   href: localizations/tasks/mx-00010-e-invoicing-cfdi.md
                 - name: Elektroniskie rēķini
                   href: localizations/latam-mex-CFDI-electronic-invoices.md
+                - name: "Ceļazīmes (Carta de Porte) papildinājums (versija\_1.0)"
+                  href: localizations/latam-mex-carta-de-porte.md
                 - name: Elektroniskās virsgrāmatas uzskaites pārskati
                   href: localizations/latam-mex-electronic-ledger-accounting-statements.md
                 - name: Meksikas juridisko personu nodokļu reģistrācijas ID ievade
@@ -2994,12 +3000,6 @@
                   href: localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
                 - name: Kreditoru reģistrācijas ID
                   href: localizations/tasks/mx-00008-vendor-registration-ids.md
-            - name: Omāna
-              items:
-                - name: Omānas pārskats
-                  href: localizations/oman.md
-                - name: PVN deklarācija Omānai (OM-00003)
-                  href: localizations/emea-oma-vat-declaration.md
             - name: Nīderlande
               items:
                 - name: Nīderlandes pārskats
@@ -3016,6 +3016,10 @@
                   href: localizations/emea-nl-vat-declaration-netherlands.md
                 - name: Pārskats par preču piegādēm Eiropas Kopienas teritorijā
                   href: localizations/emea-nl-EU-sales-list.md
+            - name: Jaunzēlande
+              items:
+                - name: GST deklarācija no GST101A Jaunzēlandei (NZ-00003)
+                  href: localizations/apac-nzl-gst-declaration.md
             - name: Norvēģija
               items:
                 - name: Norvēģijas pārskats
@@ -3032,6 +3036,12 @@
                   href: localizations/emea-nor-satndard-audit-file-for-tax.md
                 - name: Klientu elektroniskie rēķini Norvēģijā
                   href: localizations/emea-nor-e-invoices.md
+            - name: Omāna
+              items:
+                - name: Omānas pārskats
+                  href: localizations/oman.md
+                - name: PVN deklarācija Omānai (OM-00003)
+                  href: localizations/emea-oma-vat-declaration.md
             - name: Polija
               items:
                 - name: Polijas pārskats
@@ -3450,20 +3460,20 @@
                           href: localizations/emea-gbr-mtd-vat-integration.md
                         - name: 'Sagatavojiet savu vidi, lai nodrošinātu sadarbspēju ar HMRC MTD PVN tīmekļa pakalpojumu'
                           href: localizations/emea-gbr-mtd-vat-integration-setup.md
-                        - name: 'Autorizējiet savu Finance vidi, lai nodrošinātu sadarbspēju ar HMRC MTD tīmekļa pakalpojumu'
-                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
-                        - name: Sadarbspējas ar MTD PVN smilškasti pārbaude
-                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
-                        - name: PVN deklarācijas iesniegšana HMRC MTD tīmekļa pakalpojumā
-                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
                         - name: Kontrolsaraksts elektronisko ziņojumu iestatīšanai MTD PVN
                           href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
-                        - name: PVN deklarācijas ģenerēšana papīra formātā (PVN 100 pārskats)
-                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
-                        - name: Detalizēta informācija par PVN deklarāciju PVN iestatīšanu Apvienotajā Karalistē
-                          href: localizations/emea-gbr-mtd-vat-integration-declaration.md
+                        - name: Sadarbspējas ar MTD PVN smilškasti pārbaude
+                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
+                        - name: 'Autorizējiet savu Finance vidi, lai nodrošinātu sadarbspēju ar HMRC MTD tīmekļa pakalpojumu'
+                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
+                        - name: PVN deklarācijas iesniegšana HMRC MTD tīmekļa pakalpojumā
+                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
                         - name: Informācijas par PVN maksājumiem un saistībām izgūšana no HMRC
                           href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
+                        - name: Detalizēta informācija par PVN deklarāciju PVN iestatīšanu Apvienotajā Karalistē
+                          href: localizations/emea-gbr-mtd-vat-integration-declaration.md
+                        - name: PVN deklarācijas ģenerēšana papīra formātā (PVN 100 pārskats)
+                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
                 - name: Maksājumu prakses pārskata statistika
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: Amerikas Savienotās Valstis
@@ -4119,6 +4129,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
                         - name: 'Formātu izpilde, lai Excel pārskatiem dinamiski pievienotu kolonnas'
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
+                    - name: 'Elektronisko pārskatu noformēšana, lai programmā Excel ģenerētos dokumentus dalītu pa vairākām lapām'
+                      href: ../fin-ops-core/dev-itpro/analytics/er-paginate-excel-reports.md?toc=/dynamics365/finance/toc.json
                 - name: 'Konfigurāciju noformēšana, lai ģenerētu pārskatus Word formātā'
                   items:
                     - name: 'Jaunas ER konfigurācijas noformēšana, lai ģenerētu atskaites Word formātā'

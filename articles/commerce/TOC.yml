@@ -102,8 +102,6 @@
                       href: get-started/whats-new-commerce-10-0-21.md
                     - name: "Commerce 10.0.20 (2021.\_gada augusts)"
                       href: get-started/whats-new-commerce-10-0-20.md
-                    - name: "Commerce 10.0.19 (2021.\_gada jūnijs)"
-                      href: get-started/whats-new-commerce-10-0-19.md
                 - name: Noņemtie vai novecojušie līdzekļi
                   items:
                     - name: Noņemtie vai novecojušie līdzekļi sākumlapā
@@ -668,6 +666,8 @@
                   href: tasks/base-price-trade-agreements.md
                 - name: 'Tirdzniecības līgumu izveide, izmantojot kategorijas cenu noteikšanas kārtulas'
                   href: tasks/category-pricing-rules-trade-agreements.md
+                - name: Precīzas cenas un atlaides aprēķina aizkave
+                  href: delayed-price-calculation.md
             - name: Ieteikumi
               items:
                 - name: Preču ieteikumu apskats
@@ -1328,9 +1328,11 @@
                   href: localizations/latam-bra-nfce-contingency-mode.md
                 - name: 'Brazīlijas finanšu dokumentu grāmatošana, izmantojot mazumtirdzniecības pārskatus komponentā Commerce Headquarters'
                   href: localizations/latam-bra-retail-statements.md
+                - name: "Dynamics\_365 Payment Connector pakalpojumam Adyen pakalpojumā Commerce\_POS Brazīlijai"
+                  href: localizations/latam-bra-adyen.md
             - name: Austrumeiropa
               items:
-                - name: Parasts
+                - name: Vispārīgi
                   items:
                     - name: Avansa rēķini programmai Commerce Austrumeiropā
                       href: localizations/emea-eeu-advance-invoices-for-retail.md
@@ -2436,7 +2438,7 @@
                       href: e-commerce-extensibility/event-based-data-actions.md
                     - name: Pamata datu darbības
                       href: e-commerce-extensibility/core-data-actions.md
-                    - name: Retail Server API izsaukšana
+                    - name: Commerce Scale Unit API izsaukšana
                       href: e-commerce-extensibility/call-retail-server-apis.md
                     - name: Retail Server paplašinājumu API izsaukšana
                       href: e-commerce-extensibility/call-retail-extension-api.md
@@ -2514,8 +2516,6 @@
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: Būvējuma konveijera iestatīšana neatkarīga iepakojuma SDK
                   href: dev-itpro/build-pipeline.md
-                - name: Commerce un Finance and Operations būvējumu sistēmu sapludināšana
-                  href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
                 - name: "Retail\_SDK migrēšana no Visual Studio\_2015 uz Visual Studio\_2017"
                   href: dev-itpro/retail-sdk/migrate-sdk.md
                 - name: Retail SDK paplašināmības paraugi
@@ -2628,8 +2628,6 @@
                               href: dev-itpro/pos-extension/consume-apis-pos.md
             - name: Hardware Station paplašināmība
               items:
-                - name: Hardware Station un paplašināmība
-                  href: dev-itpro/hardware-station-extensibility.md
                 - name: "POS\_integrācija ar jaunu aparatūras ierīci"
                   href: dev-itpro/hardware-device-extension.md
             - name: "Retail\_Server paplašināmība"

@@ -2,7 +2,7 @@
 title: Ieņēmumu atzīšanas atkārtota sadale
 description: Šajā tēmā ir sniegta informācija par atkārtoto sadali, kas ļauj organizācijām pārrēķināt ieņēmumu cenas, ja ir mainīti pārdošanas līguma nosacījumi. Tā ietver saites uz citām tēmām, kas apraksta, kā atpazīt ieņēmumus vairākos scenārijos.
 author: kweekley
-ms.date: 12/21/2020
+ms.date: 09/09/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 50ae395c370947e348714ce5685123328849966f3a67903e9ddf8c27dee42f5f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 53304842bdbe7dadb435ab3a0381f3835c2c443a
+ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745041"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487022"
 ---
 # <a name="revenue-recognition-reallocation"></a>Ieņēmumu atzīšanas atkārtota sadale
 
@@ -35,10 +35,22 @@ Jūsu organizācijai pašai jānosaka, vai ir nepieciešama atkārtota sadale. J
 Pastāv daži svarīgi atkārtotās sadales procesa ierobežojumi:
 
 - Procesu var palaist tikai vienu reizi. Tāpēc ir svarīgi to palaist tikai pēc visu izmaiņu veikšanas.
+
+    - Šis ierobežojums ir noņemts versijā 10.0.17 un jaunākās versijās.
+
 - Procesu nevar palaist projekta pārdošanas pasūtījumos.
+
+    - Šis ierobežojums ir noņemts versijā 10.0.17 un jaunākās versijās.
+
 - Ja ir iesaistīti vairāki pārdošanas pasūtījumi, tiem jābūt vienā debitora kontā.
 - Visiem atkārtoti sadalītajiem pārdošanas pasūtījumiem jābūt vienā un tajā pašā transakcijas valūtā.
 - Procesu nevar atsaukt pēc tā palaišanas.
+
+    - Šis ierobežojums ir noņemts versijā 10.0.17 un jaunākās versijās.
+
+- Atkārtotu sadali var veikt tikai pārdošanas pasūtījumiem vai projekta pārdošanas pasūtījumiem. To nevar veikt pārdošanas pasūtījumu un projekta pārdošanas pasūtījumu kombinācijai.
+
+    - Šis ierobežojums ir noņemts versijā 10.0.17 un jaunākās versijās.
 
 ## <a name="set-up-reallocation"></a>Atkārtotās sadales iestatīšana
 
@@ -78,7 +90,7 @@ Lai sāktu atkārtotās sadales procesu, jebkurā pārdošanas pasūtījumā, ka
 
 [![Atkārtoti sadalīt cenu ar jaunu pasūtījuma rindu lapu.](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
 
-Lapas **Atkārtoti sadalīt cenu ar jaunām pasūtījuma rindām** augšējā režģa nosaukums ir **Pārdošana**. Tajā uzskaitīt debitora pārdošanas pasūtījumi. Atlasiet pārdošanas pasūtījumus, kas ir atkārtoti jāsadala Nevar atlasīt projekta pārdošanas pasūtījumus, jo projekta pārdošanas pasūtījumus nevar atkārtoti sadalīt. Nevar atlasīt arī tos pārdošanas pasūtījumus, kuriem jau ir atkārtotas sadales ID, jo ar projektu nesaistītos pārdošanas pasūtījumus var atkārtoti sadalīt tikai vienu reizi. Ja pārdošanas pasūtījumam ir atkārtotas sadales ID, cits lietotājs to jau ir atzīmējis atkārtotai sadalei.
+Lapas **Atkārtoti sadalīt cenu ar jaunām pasūtījuma rindām** augšējā režģa nosaukums ir **Pārdošana**. Tajā uzskaitīt debitora pārdošanas pasūtījumi. Atlasiet pārdošanas pasūtījumus, kas ir atkārtoti jāsadala. Ja pārdošanas pasūtījumam ir atkārtotas sadales ID, cits lietotājs to jau ir atzīmējis atkārtotai sadalei. Ja viens vai vairāki pārdošanas pasūtījumi iepriekš tika atkārtoti sadalīti un tie ir jāiekļauj citā atkārtotā sadalē, vispirms ir jāatceļ šo pārdošanas pasūtījumu atkārtota sadale. Pēc tam to(s) var iekļaut jaunā atkārtotā sadalē. Papildinformāciju skatiet tālāk šīs tēmas sadaļās [Atkārtotas sadales atsaukšana](#undo-a-reallocation) un [Vairākkārtēja atkārtota sadale](#reallocate-multiple-times).
 
 Lapas apakšējā režģa nosaukums ir **Rindas**. Kad **pārdošanas** režģī ir atlasīts viens vai vairāki pārdošanas pasūtījumi, **rindu** režģis rāda pārdošanas pasūtījuma rindas. Atlasiet pārdošanas pasūtījuma rindas, kas ir atkārtoti jāsadala Ja atlasījāt tikai vienu pārdošanas pasūtījumu, tā paša pārdošanas pasūtījuma rindas ir atkārtoti jāsadala. Šāda situācija var rasties, ja kāda no pārdošanas pasūtījuma rindām tika iepriekš iekļauta rēķinā, un pēc tam tika pievienota jauna rinda vai arī esoša rinda tika noņemta vai atcelta. Ja rinda tika noņemta, tā netiks parādīta režģī. Tāpēc to nevar atlasīt. Tomēr tā joprojām tiks ņemta vērā, kad tiks izpildīts atkārtotās sadales process.
 
@@ -104,14 +116,33 @@ Kad esat beidzis atlasīt nepieciešamās pārdošanas pasūtījuma rindas, izma
 
 - **Atiestatīt atlasītā debitora datus** — ja atkārtotās sadales process tika sākts, bet netika pabeigts, notīriet atkārtotās sadales tabulas datus tikai atlasītajam debitoram. Piemēram, jūs atkārtotai sadalei atzīmējat vairākas pārdošanas pasūtījuma rindas, atstājat lapu atvērtu, neatlasot **Apstrādāt**, un pēc tam iestājas lapas noildze. Šajā gadījumā pārdošanas pasūtījuma rindas paliek atzīmētas un nebūs pieejamas citam lietotājam, lai pabeigtu atkārtotās sadales procesu. Atverot lapu, tā var būt arī tukša. Šādā gadījumā pogu **Atiestatīt atlasītā debitora datus** var izmantot, lai klīrētu neapstrādātos pārdošanas pasūtījumus, lai cits lietotājs varētu pabeigt atkārtotās sadales procesu.
 
+## <a name="undo-a-reallocation"></a>Atkārtotas sadales atsaukšana
+
+Atkārtotu sadali var atsaukt, palaižot citu atkārtotu sadali. Atkārtotu sadali veic vēlreiz, un lietotājs atlasa dažādas pārdošanas pasūtījuma rindas, ko iekļaut otrajā atkārtotas sadales procesā.
+
+Ja atkārtota sadale ir veikta divos vai vairākos atsevišķos pārdošanas pasūtījumos, to var atsaukt, atlasot **Atkārtoti sadalīt cenu ar jaunām pasūtījuma rindām** no jebkura pārdošanas pasūtījuma, kas ir iekļauts atkārtotajā sadalē. Jūs nevarat doties uz **Ieņēmumu atzīšana \> Periodiskie uzdevumi \> Atkārtoti sadalīt cenu ar jaunām pasūtījuma rindām**, lai atsauktu atkārtotu sadali, jo lapa, kas tiek atvērta šādā veidā, parāda tikai tos pārdošanas pasūtījumus, kuriem nav atkārtotas sadales ID. Atkārtotas sadales ID tiek piešķirts pēc tam, kad dokuments ir atkārtoti sadalīts.
+
+Lapā **Atkārtoti sadalīt cenu ar jaunām pasūtījuma rindām** noņemiet atzīmi visiem pārdošanas pasūtījumiem, kas ir jāizslēdz no līgumiskās vienošanās. Lai apstrādātu atkārtotu sadali, darbību rūtī izmantojiet atbilstošās pogas, piemēram, **Atjaunināt atkārtoto sadali** un **Apstrādāt**. Ja visiem pārdošanas pasūtījumiem, izņemot aktīvo pārdošanas pasūtījumu, ir noņemta atzīme, tad, apstrādājot izmaiņas, atkārtotas sadales ID tiks noņemts.
+
+Ja atkārtota sadale ir veikta, pievienojot jaunu rindu pilnībā vai daļēji rēķinā iekļautam pārdošanas pasūtījumam, atkārtotu sadali var atsaukt, tikai noņemot šo rindu no pārdošanas pasūtījuma un pēc tam vēlreiz palaižot atkārtotas sadales darbību. Pārdošanas pasūtījuma rinda ir jānoņem, jo tiek pieņemts, ka visas pārdošanas pasūtījuma rindas ir daļa no tā paša līguma. Ja atrodaties lapā **Atkārtoti sadalīt cenu ar jaunām pasūtījuma rindām**, pārdošanas pasūtījuma rindai atzīmi nevar noņemt.
+
+## <a name="reallocate-multiple-times"></a>Vairākkārtēja atkārtota sadale
+
+Ja līgumā ir veiktas vairākas izmaiņas, attiecībā uz vienu un to pašu pārdošanas pasūtījumu var veikt vairākas atkārtotas sadales. Katra atkārtota sadale izraisa atkārtotas sadales ID piešķiršanu pārdošanas pasūtījumam vai pārdošanas pasūtījumu grupai, lai sagrupētu izmaiņas. Ja tiek veiktas vairākas atkārtotas sadales, katrā papildu atkārtotā sadalē tiek izmantots tas pats atkārtotas sadales ID, kā pirmajā atkārtotā sadalē.
+
+Piemēram, tiek ievadīts pārdošanas pasūtījums 00045, un tam ir vairākas rindas. Kad pārdošanas pasūtījums ir pilnībā iekļauts rēķinā, tam tiek pievienota jauna pārdošanas pasūtījuma rinda. Pēc tam tiek palaista atkārtota sadale, atverot lapu **Atkārtoti sadalīt cenu ar jaunām pasūtījuma rindām** vai nu no pārdošanas pasūtījuma 00045 vai dodoties uz **Ieņēmumu atzīšana \> Periodiskie uzdevumi \> Atkārtoti sadalīt cenu ar jaunām pasūtījuma rindām**. Atkārtotas sadales ID **Reall000001** ir piešķirts pārdošanas pasūtījumam.
+
+Tam pašam līgumam tiek izveidots otrs pārdošanas pasūtījums — 00052. Atkārtotu sadali var palaist vēlreiz no pārdošanas pasūtījuma 00045, bet nevis no pārdošanas pasūtījuma 00052, atverot lapu **Atkārtoti sadalīt cenu ar jaunām pasūtījuma rindām**. Ja no pārdošanas pasūtījuma 00052 atvērsit lapu **Atkārtoti sadalīt cenu ar jaunām pasūtījuma rindām**, pārdošanas pasūtījums 00045 netiks rādīts, jo tam ir piešķirts atkārtotas sadales ID. Šajā lapā tiek rādīti tikai tie pārdošanas pasūtījumi, kuriem nav atkārtotas sadales ID.
+
+Pastāv divi veidi, kā veikt otro atkārtoto sadali. Pārdošanas pasūtījuma 00045 atkārtotu sadali var atsaukt. Šajā gadījumā atkārtotas sadales ID tiek noņemts, un pēc tam varat veikt atkārtotu sadali vai nu no pārdošanas pasūtījuma 00045 vai pārdošanas pasūtījuma 00052. Varat arī atvērt lapu **Atkārtoti sadalīt cenu ar jaunām pasūtījuma rindām** no pārdošanas pasūtījuma 00045 un pievienot otru pārdošanas pasūtījumu. Kad atkārtota sadale ir apstrādāta, atkārtotas sadales ID **Reall000001** tiks piešķirts gan pārdošanas pasūtījumam 00045, gan pārdošanas pasūtījumam 00052.
+
 ## <a name="scenarios-for-reallocation"></a>Atkārtotas sadales scenāriji
 
-Tālāk minētajās tēmās ir apskatīti dažādi ieņēmumu atzīšanas scenāriji:
+Tālāk minētajās tēmās ir apskatīti dažādi ieņēmumu atzīšanas scenāriji.
 
 - [Ieņēmumu atzīšanas atkārtotā sadale — 1. scenārijs](rev-rec-reallocation-scenario-1.md) — tiek ievadīti divi pārdošanas pasūtījumi, taču tie tiek tikai apstiprināti. Viens un tas pats scenārijs radīs līdzīgus rezultātus, ja vairāk nekā divu pārdošanas pasūtījumu statuss ir Apstiprināts.
 - [Ieņēmumu atzīšanas atkārtotā sadale — 2. scenārijs](rev-rec-reallocation-scenario-2.md) — ievadīti divi pārdošanas pasūtījumi, un pēc tam debitors pievieno līgumam krājumu, kad pirmais pārdošanas pasūtījums ir iekļauts rēķinā.
 - [Ieņēmumu atzīšanas atkārtotā sadale — 3. scenārijs](rev-rec-reallocation-scenario-3.md) — esošam, rēķinā iekļautam pārdošanas pasūtījumam tiek pievienota jauna rinda.
 - [Ieņēmumu atzīšanas atkārtotā sadale — 4. scenārijs](rev-rec-reallocation-scenario-4.md) — esošam, daļēji rēķinā iekļautam pārdošanas pasūtījumam tiek noņemta rinda.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

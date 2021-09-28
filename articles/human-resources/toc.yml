@@ -5,9 +5,11 @@
       items:
         - name: Jaunumi un izmaiņas programmā Human Resources
           href: hr-admin-whats-new.md
+        - name: "2021.\_gada 6.\_septembris"
+          href: hr-whats-new-2021-09-06.md
         - name: "2021.\_gada 23.\_augusts"
           href: hr-whats-new-2021-08-23.md
-        - name: "2021.\_gada 09.\_augusts"
+        - name: "2021.\_gada 9.\_augusts"
           href: hr-whats-new-2021-08-09.md
         - name: "2021.\_gada 26.\_jūlijs"
           href: hr-whats-new-2021-07-26.md

@@ -1007,7 +1007,11 @@
                 - name: BUJ par plānoto uzturēšanas periodu
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: Pārraudzība un diagnostika
-              href: lifecycle-services/monitoring-diagnostics.md
+              items:
+                - name: Pārraudzības un diagnostikas rīki
+                  href: lifecycle-services/monitoring-diagnostics.md
+                - name: 'Azure Data Explorer izmantošana, lai vaicātu par neapstrādātajiem informācijas žurnāliem'
+                  href: lifecycle-services/azure-data-explorer.md
             - name: Vides pakalpojumu restartēšana
               href: lifecycle-services/restart-environment-services.md
             - name: Ziņošana par ražošanas pārtraukumu
