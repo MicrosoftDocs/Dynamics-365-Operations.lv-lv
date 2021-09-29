@@ -2,7 +2,7 @@
 title: Režģa iespējas
 description: Šajā tēmā ir aprakstīti vairāki ietekmīgi režģa kontroles līdzekļi. Lai piekļūtu šīm iespējām, ir jābūt iespējotam jaunajam režģa līdzeklim.
 author: jasongre
-ms.date: 08/04/2021
+ms.date: 09/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 9bdefeedf8bbbe60f3f76d234f9b393cc8e5dbe8ede7e320e00d0b8e20dbbf73
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9aa79e6e61f3a53073dffa5f3030892cc921d246
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775246"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7483858"
 ---
 # <a name="grid-capabilities"></a>Režģa iespējas
 
@@ -30,7 +30,7 @@ Jaunā režģa kontrole piedāvā daudzas noderīgas un jaudīgas iespējas, ko 
 -  Aprēķina kopsummu
 -  Rakstīšana pirms sistēmas
 -  Matemātisko izteiksmju novērtēšana 
--  Tabulas datu grupēšana (iespējota atsevišķi, izmantojot **(Priekšskatījums) Grupēšana režģos** līdzekli)
+-  Tabulas datu grupēšana (iespējota atsevišķi, izmantojot **Grupēšana režģos** līdzekli)
 -  Iesaldēšanas kolonnas
 
 ## <a name="calculating-totals"></a>Aprēķina kopsummu
@@ -93,7 +93,7 @@ Produktivitātes veicināšanai lietotāji režģa ciparu šūnās var ievadīt 
 Lai sistēma atpazītu vērtību kā izteiksmi, sāciet vērtību ar vienādības zīmi (**=**). Papildinformāciju par atbalstītajiem operatoriem un sintaksi skatiet [Atbalstītie matemātiskie simboli](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
 ## <a name="grouping-tabular-data"></a>Tabulas datu grupēšana
-Biznesa lietotājiem bieži jāveic datu ekspromtanalīze. Lai gan to var izdarīt, eksportējot datus uz Microsoft Excel un izmantojot rakurstabulas, līdzeklis **Grupēšana režģos**, kas ir vispārīgi ir pieejams versijā 10.0.16/platformas atjauninājumā 40 un ir atkarīgs no jaunā režģa kontroles līdzekļa, režģī ļauj lietotājiem programmās Finance and Operations organizēt savus tabulāros datus interesantākos veidos. Tā kā šis līdzeklis paplašina līdzekli **Kopsumma**, līdzeklis **Grupēšana** ļauj iegūt izsmeļošu ieskatu datos, sniedzot apakšsummas grupas līmenī.
+Biznesa lietotājiem bieži jāveic datu ekspromtanalīze. Lai gan to var izdarīt, eksportējot datus uz Microsoft Excel un izmantojot pivot tabulas, **Grupēšanas režģos** līdzeklis, kas ir atkarīgs no jaunā režģa kontroles līdzekļa, režģī ļauj lietotājiem programmās Finance and Operations organizēt savus tabulāros datus interesantākos veidos. Tā kā šis līdzeklis paplašina līdzekli **Kopsumma**, līdzeklis **Grupēšana** ļauj iegūt izsmeļošu ieskatu datos, sniedzot apakšsummas grupas līmenī.
 
 Lai izmantotu šo funkciju, ar peles labo pogu noklikšķiniet uz kolonnas, pēc kuras vēlaties grupēt, un atlasiet **Grupēt pēc šīs kolonnas**. Veicot šo darbību, dati tiks šķiroti pēc atlasītās kolonnas, režģa sākumā tiks pievienota jauna kolonna **Grupēt pēc** un katras grupas sākumā tiks ievietotas “galvenes rindas”. Šīs virsraksta rindas sniedz tālak norādīto informāciju par katru grupu. 
 -  Grupas datu vērtība 
@@ -108,9 +108,6 @@ Kad dati ir grupēti pēc vienas kolonnas, datus var grupēt pēc citas kolonnas
 
 Jebkurā brīdī varat noņemt grupēšanu jebkurā kolonnā, ar peles labo pogu noklikšķinot uz šīs kolonnas un atlasot **Atgrupēt**. Varat arī noņemt grupēšanu no visām kolonnām, atlasot **Režģa opcijas** un pēc tam atlasot **Atgrupēt visu**.   
 
-Ņemiet vērā, ka pirms versijas 10.0.16/platformas atjauninājuma 40 tiek atbalstīts tikai viens grupēšanas līmenis. Ja šajās versijās dati ir grupēti un jūs atlasāt **Grupēt pēc šīs kolonnas** citai kolonnai, sākotnējā grupēšana tiek aizstāta.  
-
-
 ### <a name="expanding-and-collapsing-groups"></a>Grupu paplašināšana un sakļaušana
 Sākotnējai datu grupēšanai būs paplašinātas visas grupas. Varat izveidot kopsavilkuma skatījumus datiem, sakļaujot atsevišķas grupas, vai arī varat izmantot grupas paplašināšanu un sakļaušanu, lai palīdzētu pārvietoties pa datiem. Lai paplašinātu vai sakļautu grupu, atbilstošajā grupas virsraksta rindā atlasiet pogu Chevron (>). Ņemiet vērā, ka atsevišķu grupu paplašināšanas/sakļaušanas stāvoklis personalizācijā **netiek** saglabāts.
 
@@ -118,10 +115,10 @@ Sākotnējai datu grupēšanai būs paplašinātas visas grupas. Varat izveidot 
 Tāpat kā visas režģa rindas var atlasīt (vai noņemt atlasi), atzīmējot izvēles rūtiņu režģa pirmās kolonnas augšdaļā, var arī ātri atlasīt (vai noņemt atlasi) visas grupas rindas, atzīmējot izvēles rūtiņu atbilstošajā grupas galvenes rindā. Grupas galvenes rindas izvēles rūtiņa vienmēr atspoguļo šīs grupas rindu pašreizējo atlases stāvokli neatkarīgi no tā, vai ir atlasītas visas rindas, nav atlasīta neviena rinda vai ir atlasītas tikai dažas rindas.
 
 ### <a name="hiding-column-names"></a>Kolonnu nosaukumu paslēpšana
-Grupējot datus, noklusējuma darbība ir parādīt kolonnas nosaukumu grupas galvenes rindā. Sākot ar versiju 10.0.14/Platformas atjauninājums 38, varat izvēlēties neiekļaut kolonnas nosaukumu grupu galvenes rindās, atlasot **Režģa opcijas** > **Paslēpt grupas kolonnas nosaukumu**.
+Grupējot datus, noklusējuma darbība ir parādīt kolonnas nosaukumu grupas galvenes rindā. Varat izvēlēties neiekļaut kolonnas nosaukumu grupu galvenes rindās, atlasot **Režģa opcijas** > **Paslēpt grupas kolonnas nosaukumu**.
 
 ## <a name="freezing-columns"></a>Iesaldēšanas kolonnas
-Dažas kolonnas režģī var būt pietiekoši nozīmīgas kontekstam, ko nevēlaties ritināt ārpus skata. Tā vietā vēlaties, lai vērtības šajās kolonnās vienmēr būtu redzamas. Versijā 10.0.17 funkcija **Iesaldēt kolonnas režģa elementus** nodrošina lietotājiem šādu elastīgumu. 
+Dažas kolonnas režģī var būt pietiekoši nozīmīgas kontekstam, ko nevēlaties ritināt ārpus skata. Tā vietā varbūt vēlaties, lai vērtības šajās kolonnās vienmēr būtu redzamas. Funkcija **Iesaldēt kolonnas režģa elementus** nodrošina lietotājiem šādu elastīgumu. 
 
 Lai kolonnu iesaldētu, ar peles labo pogu noklikšķiniet kolonnas virsrakstā un pēc tam atlasiet **Iesaldēt kolonnu**. Pirmo reizi pabeidzot šo soli, atlasītā kolonna kļūst par pirmo kolonnu un vairs neritinās skatu. Visas sekojošās kolonnas, kas sasaldētas, tiks pievienotas pēdējās iesaldētās kolonnas labajā pusē. Lai pārkārtotu iesaldētās kolonnas pēc nepieciešamības, varat izmantot standarta funkcionalitāti Pārvietot. Tomēr iesaldētās kolonnas nevar pārvietot, lai tās parādītos starp atsaldēto kolonnu kopu. Tomēr iesaldētās kolonnas nevar pārvietot, lai tās parādītos starp atsaldēto kolonnu kopu.
 
@@ -132,32 +129,16 @@ Ievērojiet, ka rindu atlase un rindu statusa kolonnas jaunajā režģī vienmē
 ## <a name="frequently-asked-questions"></a>Bieži uzdotie jautājumi
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Kā iespējot jauno režģa kontroli manā vidē? 
 
-**10.0.9/Platformas atjauninājums 33 un jaunāks**
+**Jaunā režģa kontroles** līdzeklis ir pieejams tieši Līdzekļu pārvaldībā jebkurā vidē. Pēc līdzekļa iespējošanas līdzekļu pārvaldībā, visas turpmākās sesijas izmantos jauno režģa kontroli. 
 
-**Jaunā režģa kontroles** līdzeklis ir pieejams tieši Līdzekļu pārvaldībā jebkurā vidē. Tāpat kā citi publiskie priekšskatījuma līdzekļi, uz šī līdzekļa iespējošanu ražošanā attiecas [Lietošanas līguma papildu nosacījumi](public-preview-terms.md).  
-
-**10.0.8/Platformas atjauninājums 32 un 10.0.7/Platformas atjauninājums 31**
-
-**Jaunā režģa kontroles** līdzekli var iespējot 1. līmeņa (Dev/Test) un 2. līmeņa (Smilškastes) vidē, lai nodrošinātu papildu testēšanas un noformējuma izmaiņas, veicot tālāk norādītās darbības.
-
-1.  **Iespējot būvējumu izsniegšanu**: izpildīt šādu SQL priekšrakstu: 
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLIReactGridEnableFeature', 1, 0, 5637144576);`
-
-2. **Atiestatiet IIS**, lai notīrītu statisko būvējuma kešatmiņu. 
-
-3.  **Atrast funkciju**: atveriet darbvietu **Funkciju pārvaldība**. Ja **Jaunā režģa kontrole** nav redzama visu funkciju sarakstā, atlasiet **Pārbaudīt, vai nav atjauninājumu**.   
-
-4.  **Iespējot funkciju**: atrodiet funkciju **Jaunā režģa kontrole** funkciju sarakstā un detalizētās informācijas rūtī atlasiet **Iespējot tūlīt**. Ņemiet vērā, ka ir nepieciešama pārlūkprogrammas atsvaidzināšana. 
-
-Visas turpmākās lietotāja sesijas sāksies ar iespējotu jaunā režģa kontroli.
+Šis līdzeklis pēc noklusējuma tiek iespējots no 10.0.21. versijas, un ir paredzēts, ka tas kļūs par obligātu no 10.0.25. versijas. 
 
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Attīstītājs] Atteikšanās no atsevišķām lapām, izmantojot jauno režģi 
-Ja jūsu organizācija atklāj lapu, kurā ir dažas problēmas, izmantojot jauno režģi, ir pieejams API, sākot ar versiju 10.0.13/Platformas atjauninājumu 37, lai ļautu atsevišķai formai izmantot mantoto režģa vadīklu, joprojām ļaujot pārējai sistēmai izmantot jauno režģa vadīklu. Lai izņemtu atsevišķu lapu no jaunā režģa, pievienojiet šādu izsaukuma ierakstu `super()` formas `run()` metodē.
+Ja jūsu organizācija atklāj lapu, kurā ir dažas problēmas, izmantojot jauno režģi, ir pieejams API, lai ļautu atsevišķai formai izmantot mantoto režģa vadīklu, joprojām ļaujot pārējai sistēmai izmantot jauno režģa vadīklu. Lai izņemtu atsevišķu lapu no jaunā režģa, pievienojiet šādu izsaukuma ierakstu `super()` formas `run()` metodē.
 
  ```this.forceLegacyGrid();```
 
-Šis API tiks ievērots līdz 2021. gada oktobra izlaidumam, kad jaunā režģa kontrole kļūs obligāta. Ja kādai problēmai nepieciešams izmantot šo API, ziņojiet par to Microsoft.
+Šis API tiks ievērots līdz 2022. gada oktobra izlaidumam, kad jaunā režģa kontrole kļūs obligāta, kas pašlaik tiek paredzēts 2022. gada aprīlī. Ja kādai problēmai nepieciešams izmantot šo API, ziņojiet par to Microsoft.
 
 ### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Lapas piespiedu jaunā režģa izmantošanai pēc iepriekšējas iziešanas no režģa
 Ja esat izvēlējies atsevišķu lapu, lai neizmantotu jauno režģi, iespējams, vēlēsieties pēc tam atkārtoti aktivizēt jauno režģi pēc pakārtoto problēmu atrisināšanas. Lai to paveiktu, vienkārši ir jānoņem izsaukums `forceLegacyGrid()`. Izmaiņas stāsies spēkā tikai pēc tam, kad notiks kāda no šīm darbībām:

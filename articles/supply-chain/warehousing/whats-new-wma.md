@@ -1,27 +1,39 @@
 ---
 title: Kas jauns vai mainīts mobilajā programmā Warehouse Management
 description: Šajā tēmā ir uzskaitīti jaunie un mainītie līdzekļi katrai Microsoft Dynamics 365 Supply Chain Management Warehouse Management mobilās programmas izlaistajai versijai.
-author: ivanv-microsoft
-ms.date: 07/30/2021
+author: MarkusFogelberg
+ms.date: 09/09/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: ivanv
+ms.author: mafoge
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6d98cea29f4c25319caed6680966f61c660778f0
-ms.sourcegitcommit: 3d05bb2a423fe130700686ff73daa355d15b0e09
+ms.openlocfilehash: ac3ea6a088b2086054eb692cd0688b269dafca51
+ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386103"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485626"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Kas jauns vai mainīts mobilajā programmā Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir uzskaitīti jaunie līdzekļi, labojumi, uzlabojumi un zināmas problēmas katrai Microsoft Dynamics 365 Supply Chain Management Warehouse Management mobilās programmas izlaistajai versijai.
+
+## <a name="version-20100"></a>Versija 2.0.10.0
+
+Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
+
+- Pievienota animācija, velkot cauri sarakstiem un lapām.
+- Tagad teksts tiek pareizi aplauzts savienojuma kļūdas lapā.
+- Kombinētais lodziņš bez noklusējuma vērtībām tagad tiek rādīts pareizi.
+- Informācija apakšvirsraksta apgabalā tagad tiek rādīta tikai pilnās informācijas lapā.
+- Tukšie ievades lauki vairs netiek rādīti detalizētās informācijas kartītē.
+- Apstiprinājuma vērtības vairs netiek dublētas detalizētās informācijas kartītē.
+- Ir fiksētas dažādas problēmas, kuru dēļ sistēma nereaģēja.
 
 ## <a name="version-2090"></a>Versija 2.0.9.0
 

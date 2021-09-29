@@ -2,7 +2,7 @@
 title: Gatavs apmaksai
 description: Šajā tēmā ir parādīts, kā atzīmēt darbinieku kā gatavu maksāt risinājumā Dynamics 365 Human Resources.
 author: marcelbf
-ms.date: 07/13/2020
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 70b3f31db459fe021caf08fe09b2e44a597294d1992ee16a69efd8745941a4bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 80bba5446eb7a87d96a7da4ae856cb5ca114ce52
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732421"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7483786"
 ---
 # <a name="ready-to-pay"></a>Gatavs apmaksai
 
@@ -39,7 +39,7 @@ Darbinieka informācijas apkopošana un validēšana var būt laikietilpīga un 
 
 Lai atzīmētu darbinieku kā gatavu apmaksai:
 
-1. Atveriet **Noklikšķiniet uz Atlīdzību pārvaldība**. Darbvietā ir divi elementi 
+1. Atveriet **Noklikšķiniet uz Atlīdzību pārvaldība**. Darbvietā ir divi elementi: 
     - **Darbinieki, kuri ir gatavi apmaksai**
     - **Darbinieki nav gatavi maksāt**
     ![Kompensācijas pārvaldības darbvieta.](./media/hr-ready-to-pay-1-workspace.png)
@@ -53,22 +53,20 @@ Lai atzīmētu darbinieku kā gatavu apmaksai:
 
 ## <a name="validation"></a>Validēšana
 
-Pirms darbinieka atzīmēšanas par gatavu maksāt sistēma veiks profila pilnīguma pamatvalidāciju.
+Pirms darbinieka atzīmēšanas par gatavu maksāt sistēma veiks profila pilnīguma validāciju.
 
 ![Rezultātu pārbaude.](./media/hr-ready-to-pay-3-results.png)
 
-Nākamajā tabulā ir informācija par katru veikto pārbaudi. 
-
 | Validēšana | Detalizētā informācija |
 | --- | --- |
-| Adreses mērķa parametrs | Pārbauda, vai parametrs **Izmantot algas adrešu mērķi** ir ieslēgts. |
-| Algas adrese | Pārbauda, vai darbinieka profilam ir vismaz viena adrese ar nolūku "Algas apmaksas vieta" vai "Algas darba vieta", un katram nolūkam ir tikai viena adrese. |
-| Nodarbinātība | Pārbaudiet, vai darbiniekam ir vismaz viena nodarbinātība (pašreizējā, iepriekšējā vai turpmākā). |
-| Identifikācijas numurs | Pārbauda, vai parametrs "Izmantot identifikācijas tipus algu apstrādē" ir Jā, un, ja parametrā norādītais identifikācijas tips ir aizpildīts darbinieka profilā. |
-| Vārds un uzvārds | Pārbauda, vai darbinieka profils ir derīgs, pārbaudot, vai ir aizpildīti lauki **Vārds** un **Uzvārds**.|
-| Vieta | Pārbaudiet, vai darbiniekam ir piešķirts amats. |
-| Dzimšanas datums | Pārbauda, vai darbinieka profils ir derīgs, pārbaudot, vai ir aizpildīts lauks **Dzimšanas diena**. |
-| Kompensācija | Pārbaudiet, vai darbinieks ir reģistrēts fiksētās atlīdzības plānā. |
+| **Adreses mērķa parametrs** | Pārbauda, vai parametrs **Izmantot algas adrešu mērķi** ir atlasīts. |
+| **Algas adrese** | Pārbauda, vai darbinieka profilam ir vismaz viena adrese ar nolūku **Algas apmaksas vieta** vai **Algas darba vieta**, un katram nolūkam ir tikai viena adrese. |
+| **Nodarbinātība** | Pārbauda, vai darbiniekam ir vismaz viena nodarbinātība (pašreizējā, iepriekšējā vai turpmākā). |
+| **Identifikācijas numurs** | Pārbauda, vai parametrs **Izmantot identifikācijas tipus algu apstrādē** lapā **Cilvēkresursu parametri** ir **Jā**, un, ja parametrā norādītais identifikācijas tips ir aizpildīts darbinieka profilā. |
+| **Vārds un uzvārds** | Apstiprina, vai ir aizpildīti lauki **Vārds** un **Uzvārds**.|
+| **Vieta** | Pārbauda, vai darbiniekam ir piešķirts amats. |
+| **Dzimšanas datums** | Apstiprina, ka ir aizpildīts lauks **Dzimšanas datums**. |
+| **Kompensācija** | Pārbauda, vai darbinieks ir reģistrēts fiksētās atlīdzības plānā. |
 
 Ja kāda no šīm apstiprināšanām neizdodas, nevar atzīmēt darbinieku kā gatavu maksāt.
 
@@ -77,7 +75,7 @@ Ja lauks **Gatavs maksāt** ir **Nē**, šī ir norāde, ka jāveic darbība, la
 ## <a name="known-issues"></a>Zināmās problēmas
 
 - Līdzekļu pārvaldībā jums jāatspējo iespēja **Racionalizēts darbinieka ieraksts**. Ja izmantojat šo funkciju, kompensācijas pārvaldības darbvietā darbs nedarbosies pareizi.
-- Darbinieka veidlapā cilne **Alga** grupa **Gatavs maksāt** ir pieejama jebkurai lietotāja lomai. 
+- Lapā **Darbinieks** cilnes **Alga** grupa  **Gatavs maksāt** ir pieejama jebkurai lietotāja lomai. 
 
 ## <a name="see-also"></a>Skatiet arī
 

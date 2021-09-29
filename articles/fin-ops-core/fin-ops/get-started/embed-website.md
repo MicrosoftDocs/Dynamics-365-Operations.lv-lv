@@ -2,7 +2,7 @@
 title: Iegult trešās puses programmas
 description: Šajā tēmā ir paskaidrots, kā iegult trešās puses programmas, lai atbalstītu produkta funkcionalitāti.
 author: jasongre
-ms.date: 08/09/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,17 +13,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: b0471fd2ea9a5e8b07b9e8bc279da53f6a1539ca
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 89f101bcf33080f6a73664fe7c3fe6719de04a4e
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345414"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488238"
 ---
 # <a name="embed-third-party-apps"></a>Iegult trešās puses programmas
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Daudzi debitori biznesa izpildē izmanto vairākas programmas. Dažas no šīm programmām ir trešās puses tīmekļa programmas, kas darbojas kopā ar Finance and Operations programmām. Lai nodrošinātu vienkāršāku lietotāja pieredzi, varat izmantot līdzekli **Pilnas lapas programmas**, lai iegultu šīs trešās puses programmas tieši jūsu Finance and Operations programmās (ar nosacījumu, ka trešās puses programmas ļauj iegulšanu). Šādā veidā lietotāji var piekļūt vietnēm un nepieciešamām programmām, nepārslēdzot cilnes vai logus.
 

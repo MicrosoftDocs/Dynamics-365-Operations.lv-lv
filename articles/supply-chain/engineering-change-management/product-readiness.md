@@ -12,22 +12,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 96e2cf45296d937db9b136f1472374ae7254e10e
-ms.sourcegitcommit: 3d7905627ce5260ce1e6a6d5c9fdfc4c92c3163d
+ms.openlocfilehash: 12707774c780a0f805deed532af27c3705ea1f55
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7415325"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500602"
 ---
 # <a name="product-readiness"></a>Preces gatavība
 
 [!include [banner](../includes/banner.md)]
 
-Varat izmantot gatavības pārbaudes, lai nodrošinātu, ka visi nepieciešamie preces pamatdati ir norādīti, pirms tā tiek izmantota darbībās. Kad tiek izmantotas gatavības pārbaudes, lietotājs vai grupa ir atbildīgs par noteiktu iepriekš definētu ar precēm saistītu datu apstiprināšanu. Ja precei ir atvērta gatavības pārbaude, preci nevar izlaist vai izmantot darījumos.
+Varat izmantot gatavības pārbaudes, lai nodrošinātu, ka visi nepieciešamie preces pamatdati ir norādīti, pirms tā tiek izmantota darbībās. Kad tiek izmantotas gatavības pārbaudes, lietotājs vai grupa ir atbildīgs par noteiktu iepriekš definētu ar precēm saistītu datu apstiprināšanu.
 
-**Aktīva** izvēles rūtiņa, kas paredzēta tehniskajai precei, variantam vai versijai, ir pieejama tikai pēc tam, kad visi vajadzīgie dati ir ievadīti un pārbaudīti, un pēc tam, kad visas gatavības pārbaudes ir apstrādātas. Šajā punktā preci, versiju vai variantu var izlaist citiem uzņēmumiem un izmantot darījumos. Varat izveidot gatavības pārbaudes jaunajām precēm, jauniem variantiem un jaunām tehniskām versijām.
+Varat atzīmēt izvēles rūtiņu **Aktīva**, kas paredzēta tehniskajai precei, variantam vai versijai, tikai pēc tam, kad visi vajadzīgie dati ir ievadīti un pārbaudīti, un pēc tam, kad visas gatavības pārbaudes ir apstrādātas. Ja vismaz viena produkta, versijas vai varianta pārbaude nav apstrādāta, tad, mēģinot atzīmēt lodziņu **Aktīva**, saņemsit vedni, kas brīdina, ka ne visas pārbaudes ir izpildītas.
 
-Gatavības pārbaudes var lietot arī standarta (ne inženiertehniskām) precēm. Papildinformāciju skatiet tālāk šīs tēmas sadaļā [Standarta preču gatavības pārbaudes](#standard-products).
+Varat izveidot gatavības pārbaudes jaunajām inženiertehniskām precēm, jauniem variantiem un jaunām tehniskām versijām. Jūs varat iespējot preču gatavības pārbaudes standarta (ne inženiertehniskajām) precēm, (skatiet arī sadaļu [Preču gatavības pārbaudes](#standard-products)). 
+
+Standarta preces transakcijās varat lietot, pat, ja visas gatavības pārbaudes nav izpildītas. Ja jābloķē preces lietošana transakcijās, izmantojiet dzīvescikla stāvokli. Varat piešķirt dzīvescikla stāvokli, kas bloķē preces izmantošanu transakcijās un pēc tam, kad ir izpildītas visas gatavības pārbaudes, piešķirt jaunu dzīvescikla stāvokli, kas ļauj veikt vajadzīgās transakcijas.
 
 ## <a name="types-of-readiness-checks"></a>Gatavības pārbaužu veidi
 

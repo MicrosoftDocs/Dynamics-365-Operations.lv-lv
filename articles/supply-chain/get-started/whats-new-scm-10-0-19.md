@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: bd82ad9a0eb2f8f85bc7dad0ae174726234ad84f
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 86735065864149df27cd3d8b03451ace773af048
+ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474896"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506859"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Jaunumi un izmaiņas programmas Dynamics 365 Supply Chain Management versijā 10.0.19 (2021. gada jūnijs)
 
@@ -40,8 +40,7 @@ Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvald
 | Krājumi un loģistika | [Inkrementāli uzlabojumi noliktavas izpildes iespējām ar apjoma vienībām](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/incremental-enhancements-warehouse-execution-capabilities-scale-units) |[Ziņojumu apstrādātāja ziņojumi](../cloud-edge/cloud-edge-message-processor-messages.md)<br><br>[Noliktavas krājumu korekcija](../cloud-edge/cloud-edge-warehouse-inventory-adjustment.md)<br><br>[Noliktavas pārvaldības darba slodzes mākoņa un malas mēroga vienībām](../cloud-edge/cloud-edge-workload-warehousing.md) |
 | Krājumi un loģistika | [Uzmeklēšanas funkcionalitāte dokumenta ievada un dokumenta noslēgšanas laukiem pārdošanas piedāvājuma lapā](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | Šis līdzeklis pievieno uzmeklēšanas funkcionalitāti **Dokumenta ievada** un **Dokumenta noslēgšanas** laukiem **Pārdošanas piedāvājuma** lapā.<br><br>Šis līdzeklis ir iespējots pēc noklusējuma. |
 | Krājumi un loģistika | [Noliktavas izpilde ar pielāgotas aparatūras malas skalas vienībām](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-edge-scale-units-custom-hardware) | [Izvietot malas skalas vienības pielāgotajā aparatūrā, izmantojot LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
-| Ražošana | [Ražošanas izpilde ar pielāgotas aparatūras malas skalas vienībām](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [Malas mēroga vienību izvietošana pielāgotajā aparatūrā, izmantojot LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
-| Plānošana | [Bezgalīga noslodzes plānošana plānošanas optimizācijai](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | [Plānošana ar neierobežotu noslodzi](../master-planning/planning-optimization/infinite-capacity-planning.md) |
+| Ražošana | [Ražošanas izpilde ar pielāgotas aparatūras malas skalas vienībām](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [Izvietot malas skalas vienības pielāgotajā aparatūrā, izmantojot LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
 | Plānošana | Plānoto pasūtījumu apstiprināšana, pamatojoties uz vaicājumu | [Plānoto pasūtījumu apstiprināšana](../master-planning/planning-optimization/planned-order-firming.md) |
 | Preču informācijas pārvaldība | [Variantu ieteikumu lapas uzlabojumi](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/variant-suggestions-page-improvements) | [Iepriekš definētu preces variantu izveide](../pim/tasks/create-predefined-product-variants.md) |
 

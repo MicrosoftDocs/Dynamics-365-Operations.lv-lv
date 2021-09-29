@@ -2,7 +2,7 @@
 title: DATETIMEVALUE ER funkcija
 description: Šajā tēmā ir sniegta informācija par to, kā tiek izmantota DATETIMEVALUE elektroniskā pārskata (ER) funkcija.
 author: NickSelin
-ms.date: 12/03/2019
+ms.date: 09/08/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 711889e23e85b05c5e4c5ab904ec12ceb0bbb4da1f17d1c994adda1eec8ccb74
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7a9da0b9461926b1033d6a97b37d4b43a86d8dad
+ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776174"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485526"
 ---
 # <a name="datetimevalue-er-function"></a>DATETIMEVALUE ER funkcija
 
 [!include [banner](../includes/banner.md)]
 
-`DATETIMEVALUE` funkcija atgriež *DateTime* vērtību, kas tiek konvertēta no dotās teksta vērtības norādītajā formātā un pēc izvēles norādītajā [kultūrā](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) datuma/laika vērtībai. Papildinformāciju par atbalstītajiem formātiem skatiet sadaļās [standarta](/dotnet/standard/base-types/standard-date-and-time-format-strings) un [pielāgots](/dotnet/standard/base-types/custom-date-and-time-format-strings).
+`DATETIMEVALUE` funkcija atgriež *[DateTime](er-formula-supported-data-types-primitive.md#datetime)* vērtību, kas tiek konvertēta no dotās teksta vērtības norādītajā formātā un pēc izvēles norādītajā [kultūrā](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) datuma/laika vērtībai. Papildinformāciju par atbalstītajiem formātiem skatiet sadaļās [standarta](/dotnet/standard/base-types/standard-date-and-time-format-strings) un [pielāgots](/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 ## <a name="syntax-1"></a>Sintakse 1
 
@@ -41,21 +41,21 @@ DATETIMEVALUE (text, format, culture)
 
 ## <a name="arguments"></a>Argumenti
 
-`text`: *Virkne*
+`text`: *[Virkne](er-formula-supported-data-types-primitive.md#string)*
 
 Teksts, kas apzīmē formatējamo vērtību.
 
 `format`: *Virkne*
 
-Norādītā teksta formāts.
+Norādītā teksta formāts. Papildinformāciju par atbalstītajiem formātiem skatiet sadaļās [standarta](/dotnet/standard/base-types/standard-date-and-time-format-strings) un [pielāgots](/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 `culture`: *Virkne*
 
-Kultūra, kas tiek izmantota dotā teksta formatēšanai.
+Kultūra, kas tiek izmantota dotā teksta formatēšanai. Informāciju par atbalstītajām kultūrām skatiet sadaļā [kultūra](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes).
 
 ## <a name="return-values"></a>Atgrieztās vērtības
 
-*DateTime*
+*Datums un laiks*
 
 Iegūtā datuma/laika vērtība.
 

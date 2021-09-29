@@ -1,8 +1,8 @@
 ---
-title: Fiksētas atlīdzības plāna izveide
-description: Fiksēta atlīdzība attiecas uz darbinieka regulāro bruto algu vai darba samaksu. Šajā rakstā ir aprakstīti komponenti, kas ir jāiestata, lai varētu izveidot fiksētas atlīdzības plānu un reģistrēt darbiniekus.
-author: andreabichsel
-ms.date: 06/20/2017
+title: Fiksētās atlīdzības plānu izveidošana
+description: Šajā tēmā ir aprakstīti komponenti, kas ir jāiestata, lai varētu izveidot fiksētas atlīdzības plānu un reģistrēt darbiniekus.
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,28 +12,28 @@ ms.search.scope: Human Resources
 ms.custom: 15991
 ms.assetid: ef8cf992-176c-4c98-9dff-6510e1eb9f1c
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: ae6f31db40c792c9b65a6f21395e05528a053acbc4b9dc8b56978675c635e0f4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 141666963ca70e320f6acd02a0344f00c780dcac
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732493"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7484125"
 ---
 # <a name="create-a-fixed-compensation-plans"></a>Fiksētās atlīdzības plānu izveidošana
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Fiksēta atlīdzība attiecas uz darbinieka regulāro bruto algu vai darba samaksu. Šajā rakstā ir aprakstīti komponenti, kas ir jāiestata, lai varētu izveidot fiksētas atlīdzības plānu un reģistrēt darbiniekus.
+Fiksēta atlīdzība attiecas uz darbinieka regulāro bruto algu vai darba samaksu. Šajā tēmā ir aprakstīti komponenti, kas ir jāiestata, lai varētu izveidot fiksētas atlīdzības plānu un reģistrēt darbiniekus.
 
 Fiksētas atlīdzības summas saviem darbiniekiem var aprēķināt, pamatojoties uz tādiem faktoriem kā sniegums, reģions un budžeta palielinājums. Dynamics 365 Human Resources atbalsta darbības, pakāpes un indeksa atlīdzības veidus.
 
 ## <a name="fixed-compensation-components"></a>Fiksētas atlīdzības komponenti
 ### <a name="compensation-levels"></a>Atlīdzības līmeņi
 
-Lai iestatītu atlīdzību par dažādiem darbiem, tādējādi nodrošinot, ka darbiniekiem, kuri veic šos darbus, tiek samaksāts godīgi, varat izmantot **atlīdzības līmeņus**. Lapā **Atlīdzības līmeņi** varat iestatīt atlīdzības līmeņus, kas ir nepieciešami katrai darbībai, pakāpei un indeksu plānam. Izmantojiet pogu **Augšup** un **Lejup**, lai iestatītu līmeņus pareizā secībā atbilstoši to veidam. Iestatot atlīdzības līmeņus par darbu, tiek nodrošināts, ka visiem darbiniekiem, kas veic šo darbu, tiek maksāta vienāda līmeņa atlīdzība.
+Lai iestatītu atlīdzību par dažādiem darbiem, tādējādi nodrošinot, ka darbiniekiem, kuri veic šos darbus, tiek samaksāts godīgi, varat izmantot **Atlīdzības līmeņus**. Lapā **Atlīdzības līmeņi** varat iestatīt atlīdzības līmeņus, kas ir nepieciešami katrai darbībai, pakāpei un indeksu plānam. Izmantojiet pogu **Augšup** un **Lejup**, lai iestatītu līmeņus pareizā secībā atbilstoši to veidam. Iestatot atlīdzības līmeņus par darbu, tiek nodrošināts, ka visiem darbiniekiem, kas veic šo darbu, tiek maksāta vienāda līmeņa atlīdzība.
 
 ### <a name="reference-points"></a>Atsauces punkti
 
@@ -41,7 +41,7 @@ Lai iestatītu atlīdzību par dažādiem darbiem, tādējādi nodrošinot, ka d
 
 ### <a name="compensation-grids"></a>Kompensāciju režģi
 
-Pēc līmeņu un atsauces punktu iestatīšanas tos var apvienot, lai izveidotu **atlīdzības režģi**. Lapā **Atlīdzību režģi** definējiet informāciju par režģi. Piemēram, norādiet, kādam nolūkam režģi paredzēts izmantot, kāda veida plānā tas tiks lietots un kuri atsauces punkti vai kolonnas ir nepieciešami režģī. Kad šī informācija ir ievadīta, noklikšķiniet uz **Atlīdzības struktūra**, lai režģim pievienotu līmeņus un summas. 
+Pēc līmeņu un atsauces punktu iestatīšanas tos var apvienot, lai izveidotu **Atlīdzības režģi**. Lapā **Atlīdzību režģi** definējiet informāciju par režģi. Piemēram, norādiet, kādam nolūkam režģi paredzēts izmantot, kāda veida plānā tas tiks lietots un kuri atsauces punkti vai kolonnas ir nepieciešami režģī. Kad šī informācija ir ievadīta, noklikšķiniet uz **Atlīdzības struktūra**, lai režģim pievienotu līmeņus un summas. 
 
 **Padoms.** Izmantojiet funkciju **Masveida izmaiņas** atlīdzību struktūrā, lai iestatītu sākotnējās summas, un pēc tam palieliniet procentuāli vai pēc summas dažādos līmeņos vai atsauces punktos.
 
@@ -60,9 +60,9 @@ Izmantojot iestatījumu **Nolīgšanas kārtula**, varat norādīt, ka visiem da
 
 Kad ir noteikta fiksētas atlīdzības plāna pamatinformācija, varat iestatīt plānam atlīdzības struktūru. Noklikšķiniet uz **Iestatīt atlīdzību**. Tiek atvērts dialoga slīdnis ar trim opcijām:
 
--   izveidot jaunu atlīdzības režģi, atlasot atsauces punkta iestatījumus un piešķirot režģim nosaukumu;
--   izveidot jaunu atlīdzības režģi, izveidojot esoša režģa kopiju, ko var izmantot kā sākuma punktu;
--   izmantot esošu atlīdzības režģi, kas jau ir definēts. Visi atlīdzības plāni, kas izmanto vienu režģi, saņems atjauninājumus, ja attiecīgais režģis tiek rediģēts.
+-   **izveidojiet jaunu atlīdzības režģi**, atlasot atsauces punkta iestatījumus un piešķirot režģim nosaukumu;
+-   **Izveidojiet jaunu atlīdzības režģi**, izveidojot esoša režģa kopiju, ko var izmantot kā sākuma punktu;
+-   **Izmantojiet esošu atlīdzības režģi**, kas jau ir definēts. Visi atlīdzības plāni, kas izmanto vienu režģi, saņems atjauninājumus, ja attiecīgais režģis tiek rediģēts.
 
 Kad esat atlasījis opciju, atveras lapa **Atlīdzības struktūra**, kurā varat veikt izmaiņas jaunajā vai esošajā atlīdzības režģī.
 
@@ -73,7 +73,7 @@ Reģistrējot darbiniekus fiksētas atlīdzības plānam, vispirms ir jānosaka,
 
 **Piezīme.** Piemērotības kārtulas tiek lietotas, lai noteiktu piemērotību gan fiksētas, gan mainīgās atlīdzības plānam. 
 
-Piemērotības kārtulā tiek ņemta vērā konkrētu ieraksta Darbs, Amats un Darbinieks lauku vērtība, lai noteiktu, vai darbinieks piemērots atlīdzības plānam.
+Piemērotības kārtulā tiek ņemta vērā konkrētu ieraksta **Darbs**, **Amats** un **Darbinieks** lauku vērtība, lai noteiktu, vai darbinieks piemērots atlīdzības plānam.
 
 -   Lapā **Darbs** piemērotības kārtulā tiek ņemta vērā šādu lauku vērtība:
     -   lauka **Darbs** vērtība;
@@ -93,7 +93,7 @@ Piemēram, ja darbiniekam ir iestatīta fiksētā atlīdzība, var izmantot tika
 
 Tagad var piešķirt darbiniekam fiksētas atlīdzības plānu. Lapā **Darbinieki** atlasiet darbinieku, ko reģistrēt atlīdzības plānam. Darbību rūtī noklikšķiniet uz **Atlīdzība** &gt; **Fiksēts plāns**. Tagad varat izveidot jaunu fiksētas atlīdzības darbību šim darbiniekam. 
 
-**Piezīme.** Atlīdzības plāna laukā tiek rādīti tikai tie plāni, kuriem darbinieks ir piemērots saskaņā ar piemērotības nosacījumiem, kas tika iestatīti katram plānam. Ja plānam nav iestatīta neviena piemērotības kartula, neviens darbinieks nebūs piemērots šim plānam. 
+**Piezīme**. **Atlīdzības plāna** laukā tiek rādīti tikai tie plāni, kuriem darbinieks ir piemērots saskaņā ar piemērotības nosacījumiem, kas tika iestatīti katram plānam. Ja plānam nav iestatīta neviena piemērotības kartula, neviens darbinieks nebūs piemērots šim plānam. 
 
 Sistēma pārbaudīs, vai atlīdzības summa, kas norādīta atlīdzības plānā ar pakāpes vai indeksa veidu, ir starp noteikto darbinieka darba atlīdzības līmeņa minimālo un maksimālo atsauces punktu. Ja atlīdzības summa ir ārpus atļautā diapazona, atkarībā no tolerances līmeņa, kas ir iestatīts fiksētas atlīdzības plānā, tiek parādīts brīdinājums vai kļūdas ziņojums.
 

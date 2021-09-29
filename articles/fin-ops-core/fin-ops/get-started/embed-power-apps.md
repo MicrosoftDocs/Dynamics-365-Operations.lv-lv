@@ -2,7 +2,7 @@
 title: Iegult pamatnes programmas no Power Apps
 description: Šajā tēmā ir paskaidrots, kā iegult pamatnes programmas no pakalpojuma Microsoft Power Apps klientā, lai atbalstītu produkta funkcionalitāti.
 author: jasongre
-ms.date: 08/09/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,17 +13,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 37ef6101a5a69e9c820347dd6f61c987467d40b3
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 32bf477bb42657b06f22f7677dcb580b38f0a55c
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344533"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488058"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>Iegult pamatnes programmas no Power Apps
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Microsoft Power Apps ir pakalpojums, kas sniedz iespējas izstrādātājiem un ar tehniku nesaistītiem lietotājiem būvēt pielāgotas biznesa programmas mobilajām ierīcēm, planšetdatoriem un tīmeklim bez nepieciešamības rakstīt kodu. Finance and Operations programmas atbalsta integrāciju ar Power Apps. Jūsu, jūsu organizācijas vai plašākas ekosistēmas izstrādātās pamatnes programma var iegult Finance and Operations programmās klientā produkta funkcionalitātes atbalstam. Piemēram, varat izveidot pamatnes programmu no Power Apps, lai papildinātu programmu Finance and Operations ar informāciju, kura tiek izgūta no citas sistēmas.
 

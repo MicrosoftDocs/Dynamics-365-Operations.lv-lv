@@ -2,7 +2,7 @@
 title: Konfigurēto ER komponentu pārbaude, lai novērstu izpildlaika problēmas
 description: Šajā tēmā paskaidrots, kā pārbaudīt konfigurētos Elektronisko pārskatu (ER) komponentus, lai novērstu izpildlaika problēmas, kas varētu rasties.
 author: NickSelin
-ms.date: 03/04/2021
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dd4f2b00dd7634a44b75c76753f5d864b039391f4fcb29e750fb17e8a03e9b77
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a855619ebd1c41dc3ca583912f758ed8a8f9ceef
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718627"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488118"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Konfigurēto ER komponentu pārbaude, lai novērstu izpildlaika problēmas
 
@@ -229,6 +229,12 @@ Tālāk redzamajā tabulā ir sniegts pārskats par ER sniegtajām pārbaudēm. 
 <p>Galvenes/kājenes (&lt;komponenta veids: galvene vai kājene&gt;) nesakrīt</p>
 <p><b>Izpildlaiks:</b> pēdējais konfigurētais komponents tiek izmantots izpildlaikā, ja ir izpildīta konfigurētā ER formāta melnraksta versija.</p>
 </td>
+</tr>
+<tr>
+<td><a href='#i17'>Nesaskaņots Lapas komponenta iestatījums</a></td>
+<td>Datu integritāte</td>
+<td>Kļūda</td>
+<td>Ir vairāk nekā divi diapazonu komponenti bez replicēšanas. Lūdzu, noņemiet nevajadzīgos komponentus.</td>
 </tr>
 </tbody>
 </table>
@@ -866,6 +872,26 @@ Modificējiet konfigurēto formātu, dzēšot vienu no neatbilstošajiem kompone
 #### <a name="option-2"></a>2. opcija
 
 Modificējiet rekvizīta **Galvenes/kājenes izskats** vērtību vienam no neatbilstošajiem komponentiem **Excel\\Galvene** vai **Excel\\Kājene**.
+
+## <a name="inconsistent-setting-of-page-component"></a><a id="i17">Nesaskaņots Lapas komponenta iestatījums</a>
+
+Kad [konfigurējat](er-fillable-excel.md) ER formāta komponentu, lai izmantotu Excel veidni izejošā dokumenta ģenerēšanai, varat pievienot komponentu **Excel\\Lapa**, lai izdalītu pa lapām ģenerēto dokumentu, izmantojot ER formulas. Katram **Excel\\Lapas** komponentam, ko pievienojat, varat pievienot daudzus ligzdotos [Diapazona](er-fillable-excel.md#range-component) komponentus un joprojām nodrošināt atbilstību šādai [struktūrai](er-fillable-excel.md#page-component-structure):
+
+- Pirmo ligzdoto **Diapazona** komponentu var iestatīt tā, lai līdzeklis **Replicēšanas virziens** būtu iestatīts uz **Bez replicēšanas**. Diapazons tiek izmantots, lai ģenerētajos dokumentos izveidotu lappušu galvenes.
+- Varat pievienot daudzus citus ligzdotos **Diapazona** komponentus, kur rekvizīts **Replicēšanas virziens** ir iestatīts uz vērtību **Vertikāls**. Šos diapazonus izmanto, lai aizpildītu ģenerētos dokumentus.
+- Pēdējo ligzdoto **Diapazona** komponentu var iestatīt tā, lai līdzeklis **Replicēšanas virziens** būtu iestatīts uz **Bez replicēšanas**. Diapazons tiek izmantots, lai ģenerētajos dokumentos izveidotu lappušu kājenes un lai pievienotu vajadzīgos lappušu pārtraukumus.
+
+Ja nesekojat šai ER formāta struktūrai ER formāta noformētājā noformēšanas laikā, tiek rādīta validācijas kļūda un jūs saņemsit šādu kļūdas ziņojumu: "Ir vairāk nekā divi diapazona komponenti bez replicēšanas. Lūdzu, noņemiet nevajadzīgos komponentus."
+
+### <a name="automatic-resolution"></a>Automātisks risinājums
+
+Nav pieejama opcija automātiski novērst šo problēmu.
+
+### <a name="manual-resolution"></a>Manuāls risinājums
+
+#### <a name="option-1"></a>1. opcija
+
+Pārveidojiet konfigurēto formātu, mainot rekvizītu **Replicēšanas virziens** visām nepastāvīgajām **Excel\\Diapazona** komponentēm.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

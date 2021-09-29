@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 1a9603df8fd3b2c81c37ca95fd1b13d0b6f4004a38b0cf86846486e3b5d41bfa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: db3c7561a7249930def2e519f3b6718c429fa3ba
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729414"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500479"
 ---
 # <a name="process-review-and-post-rebates"></a>Apstrādāt, pārskatīt un grāmatot atlaides
 
@@ -43,8 +43,6 @@ Jāpalaiž periodiskais uzdevums **Aprēķināt FIFO pirkšanas cenu**, lai apr�
 Dodieties uz **Atlaižu pārvaldība \> Periodiskie uzdevumi \> Aprēķināt FIFO pirkšanas cenu**. Parādītajā dialoglodziņā atlasiet **Labi**, lai palaistu aprēķinu.
 
 ## <a name="create-source-transactions"></a>Izveidot avota transakcijas
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Jūs varat izveidot pārdošanas pasūtījumus vai pirkšanas pasūtījumus, kuriem ir avota transakcijas pirms vai pēc piemērojama atlaides pārvaldības darījuma izveides.
 
@@ -158,8 +156,6 @@ Tā vietā, lai apstrādātu noteiktus piedāvājumus vai darījumu rindas, vara
 
 ### <a name="process-deals-by-using-the-rebate-workbench"></a>Apstrādāt darījumus, izmantojot atlaižu rīku
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Tā vietā, lai apstrādātu noteiktus piedāvājumus vai darījumu rindas, varat izmantot *atlaižu rīku*, lai vienlaikus apstrādātu vairākus darījumus. Pēc izvēles var lietot ierakstu filtrus un/vai uzstādīt periodisku grafiku. Nav jāatlasa neviena rinda. Sistēma apstrādās visas rindas, kas atbilst iestatītajām datumu un filtrēšanas prasībām.
 
 Lai apstrādātu piedāvājumus, izmantojot atlaižu rīku, rīkojieties šādi.
@@ -213,8 +209,6 @@ Lai skatītu un rediģētu atlaižu pārvaldības transakcijas, izmantojot atlai
 > Ja izmantojat prasību procesu, apstrādājot nākamo periodu, darbību sarakstā tiks iekļautas visas iepriekšējās grāmatošanas nepieprasītās darbības, kā arī visas jaunās darbības atlasītajam periodam.
 
 ### <a name="view-and-edit-rebate-management-transactions-by-using-the-rebate-workbench"></a>Skatīt un rediģēt atlaižu pārvaldības transakcijas, izmantojot atlaižu rīku
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Lai skatītu un rediģētu atlaižu pārvaldības transakcijas, izmantojot atlaižu rīku, veiciet šīs darbības.
 
@@ -295,8 +289,6 @@ Tā vietā, lai grāmatotu noteiktus darījumus vai darījumu rindas, varat pala
 
 ### <a name="post-transactions-by-using-the-rebate-workbench"></a>Grāmatot transakcijas, izmantojot atlaižu rīku
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Pēc tam, kad esat apstrādājis uzkrājuma, atlaides vai norakstīšanas transakcijas, veiciet šīs darbības, lai izmantotu šo atlaižu rīku, lai pārskatītu un grāmatotu ģenerētās transakcijas vienai vai vairākām specifiskām transakciju rindām visiem darījumiem.
 
 1. Ejiet uz **Atlaižu pārvaldība \> Atlaižu pārvaldības darījumi \> Atlaižu rīks**.
@@ -332,8 +324,6 @@ Lai pārskatītu žurnāla ierakstus, kas ir saistīti ar atlaižu pārvaldības
 
 ### <a name="review-journals-by-using-the-rebate-workbench"></a>Pārskatiet žurnālus, izmantojot atlaižu rīku
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Lai pārskatītu žurnālus, izmantojot atlaižu rīku, rīkojieties šādi.
 
 1. Ejiet uz **Atlaižu pārvaldība \> Atlaižu pārvaldības darījumi \> Atlaižu rīks**.
@@ -342,8 +332,6 @@ Lai pārskatītu žurnālus, izmantojot atlaižu rīku, rīkojieties šādi.
 1. Tiek parādīts atbilstošo žurnālu, dokumentu vai preču saraksts. Lai skatītu papildinformāciju par jebkuru žurnālu, dokumentu vai vienumu, atlasiet tā rindu un pēc tam darbību rūtī atlasiet **Skatīt detalizētu informāciju**.
 
 ## <a name="rebate-management-transactions-on-the-deduction-workbench"></a>Atlaižu pārvaldības transakcijas ieturējumu rīkā
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Kad grāmatojat atlaižu pārvaldības transakciju, kurai ir kāda no šādām **Maksājuma veida** vērtībām, sistēma izveido debitoru ieturējumu žurnālu vai brīva teksta rēķinu atbilstošam debitora kontam:
 
@@ -358,8 +346,6 @@ Papildinformāciju skatiet [Ieturējumu pārvaldīšana, izmantojot ieturējumu 
 
 ## <a name="purge-unposted-transactions"></a>Dzēst negrāmatotās transakcijas
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Pēc uzkrājumu, atlaižu vai norakstīšanas transakciju apstrādes izpildiet šīs darbības, lai dzēstu atlasītās negrāmatotās transakcijas.
 
 1. Ejiet uz **Atlaižu pārvaldība \> Atlaižu pārvaldības darījumi \> Atlaižu rīks**.
@@ -368,8 +354,6 @@ Pēc uzkrājumu, atlaižu vai norakstīšanas transakciju apstrādes izpildiet �
 4. Atlasiet **Labi**, lai dzēstu negrāmatotas transakcijas.
 
 ## <a name="cancel-a-posted-provision"></a>Atceliet grāmatotus uzkrājumus
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Pēc uzkrājumu apstrādes un grāmatošanas veiciet šīs darbības, lai atceltu iegrāmatotās uzkrājumu transakcijas.
 

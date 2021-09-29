@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2eb2f7c0f35eb05263644248ecf16c5874547de9
-ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
+ms.openlocfilehash: 766e807ee9061f52b692cf3436ba393b334e67c4
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/28/2021
-ms.locfileid: "7441169"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488087"
 ---
 # <a name="provision-human-resources"></a>Human Resources nodrošināšana
 
@@ -41,6 +41,8 @@ Pirms sākat nodrošināt jaunu ražošanas vidi, jābūt nodrošinātiem tālā
 ## <a name="provision-a-human-resources-trial-environment"></a>Human Resources apgrozījuma vides nodrošināšana
 
 Pirms pirmās smilškastes vai ražošanas vides nodrošināšanas, iespējams, vēlēsieties nodrošināt [Human Resources apgrozījuma vidi](https://go.microsoft.com/fwlink/p/?LinkId=2115962), lai validētu Human Resources funkcionalitāti. Izmēģinājuma vides satur fiktīvsu datus, ko var izmantot, lai izpētītu programmu drošā veidā. Kaut arī izmēģinājuma vide pieder lietotājam, kurš to pieprasīja, citus lietotājus var uzaicināt, izmantojot Human Resources sistēmas administrēšanu. 
+
+Izmēǵinājuma vides ļauj novērtēt cilvēkresursu funkciju personām, kurām vēl nav piekļuves Human Resources videi. Ja nodrošināt izmēģinājuma vidi un autentificētajam lietotājam jau ir piekļuve vienai vai vairākām esošām Human Resources vidēm, lietotājs tiks pārvirzīts uz esošo vidi vai vižu sarakstu.
 
 Izmēģinājuma vides vides nav paredzētas izmantošanai kā ražošanas vides. Tās ir ierobežotas līdz 60 dienu pārbaudes periodam. Kad beidzas izmēģinājuma periods, vide un visi dati tiek dzēsti un nevar tikt atgūti. Vidi nevar pārvērst par smilškastes vai ražošanas vidi. Pēc esošās vides termiņa beigām jūs varat pieteikties jaunai izmēģinājuma videi.
 
@@ -135,7 +137,12 @@ Izvēloties Power Apps vidi, kurā izvietot Human Resources, ņemiet vērā tāl
    
     - **Neatbalstītas ģeogrāfiskās vietas** — videi ir jābūt atbalstītā ģeogrāfiskā atrašanās vietā. Papildinformāciju skatiet sadaļā [Atbalstītas ģeogrāfiskās atrašanās vietas](hr-admin-setup-provision.md#supported-geographies).
 
-6. Kad ir noteikta izmantošanai pareizā vide, var pāriet pie nodrošinājuma procesa. 
+6. Divkāršās rakstīšanas iespējas Human Resources datu integrēšanai ar Power Apps vidi var izmantot tikai tad, ja videi ir atlasīta opcija **Iespējot Dynamics 365 programmas**. Papildu informāciju par divkāršo rakstīšanu skatiet sadaļā [Divkāršās rakstīšanas sākumlapa](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md).
+
+    > [!NOTE]
+    > Laikā, kad tiek izveidota Power Apps vide, ir jābūt atlasītai opcijai **Iespējot Dynamics 365 programmas**. Ja opcija netiek atlasīta nodrošināšanas laikā, jūs nevarēsit izmantot divkāršo rakstīšanu, lai integrētu datus starp Dynamics 365 Human Resources un Power Apps vidi vai lai vidē instalētu Dynamics 365 programmas, piemēram Dynamics 365 Sales un Field Service. Šī opcija nav atgriezeniska. Papildu informāciju skatiet Power Platform dokumentācijas vietnes sadaļā [Būtiski apsvērumi, izveidojot jaunu vidi](//power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment).
+
+7. Kad ir noteikta izmantošanai pareizā vide, var pāriet pie nodrošinājuma procesa. 
 
 ### <a name="supported-geographies"></a>Atbalstītas ģeogrāfiskās vietas
 

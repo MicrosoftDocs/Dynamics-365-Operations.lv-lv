@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: f84a81444e6d5ce9a0d2da4c9a60b1ae3478ee2f
-ms.sourcegitcommit: 2d8035f8bb75957c793c0d293c079a792595eeaf
+ms.openlocfilehash: 4467d313aa2518b23434ec05989eb3e87cd35dfa
+ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7481319"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485738"
 ---
 # <a name="sync-on-demand-with-the-supply-chain-management-pricing-engine"></a>Sinhronizēt ar Supply Chain Management cenu noteikšanas programmu pēc pieprasījuma
 
@@ -60,6 +60,7 @@ Kad programmā Sales ir aizpildītas kolonnas, tiek piemēroti šādi ierobežoj
 + Pakalpojumā Sales netiek replicēti maksu un maksu sadalījumu iestatījumi no programmas Supply Chain Management.
 + Cenu noteikšanā netiek ņemtas vērā īpašas mazumtirdzniecības cenas, kas konkretizētas pārdošanas pasūtījuma rindas lapas kolonnā **Mazumtirdzniecības kanāls** programmā Supply Chain Management.
 + Atlaides, kas definētas programmas Supply Chain Management sadaļā **Mazumtirdzniecības atlaižu pārvaldība**.
++ Cenu noteikšanā netiek ņemti pārdošanas līgumi.
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

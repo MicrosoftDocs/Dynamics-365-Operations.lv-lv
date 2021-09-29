@@ -2,7 +2,7 @@
 title: Noņemtie vai novecojušie platformas līdzekļi
 description: Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt no Finance and Operations programmu platformu atjauninājumiem.
 author: sericks007
-ms.date: 08/27/2021
+ms.date: 09/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 68114989ab96d175b534a31a7115420ee4adbcfb
-ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
+ms.openlocfilehash: 8910fc338f822e6b6b59acb0e6ee7a90db2b5007
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463631"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500113"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Noņemtie vai novecojušie platformas līdzekļi
 
@@ -38,7 +38,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Mēs nolietojam dažus SQL pārskatus LCS. Jums vairs nebūs jāpārrauga pārskati, jo šis līdzeklis ir aizstāta ar citiem pakalpojumiem. |
+| **Novecošanas/noņemšanas pamatojums** |   Visas darbības un pārraudzību veic platforma, iekšēji un izmantojot automatizāciju. Nebūs nepieciešama manuāla iejaukšanās.|
 | **Vai ir aizstāts ar citu līdzekli?**   | Nr. |
 | **Ietekmētie produkta apgabali**         | SQL pārskati: Pašreizējais DTU, Pašreizējās DTU detaļas, Iegūt detalizētu informāciju par bloķēšanu, Pašreizējā plāna palīglīniju saraksts, Iegūt vaicājuma ID sarakstu, Iegūt SQL vaicājumu plānu pašreizējam plāna ID, Iegūt vaicājuma plānus un izpildes statusu, Iegūt droseles configurāciju, Iegūt gaidīšanas statistiku, Uzskaitīt dārgākus vaicājumus |
 | **Izvietošanas iespēja**              | Mākoņa izvietošana: ietekmē Microsoft pārvaldītas ražošanas vides un 2. pakāpes, izmantojot 5. pakāpes tekstlodziņa vides. |
@@ -181,7 +181,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 | **Vai ir aizstāts ar citu līdzekli?**   | [Jaunā režģa vadīkla](../..//fin-ops/get-started/grid-capabilities.md) |
 | **Ietekmētie produkta apgabali**         | Tīmekļa klients |
 | **Izvietošanas iespēja**              | Visu |
-| **Statuss**                         | Versijā 10.0.13 jaunā režģa vadīkla ir vispārēji pieejama, un klienti pēc izvēles var ieslēgt šo līdzekli. Jaunā režģa vadīkla kļūs obligāta 2021. gada oktobra laidienā. Kad jaunā režģa kontrole kļūs obligāta, **forceLegacyGrid()** API vairs netiks uzturēta. |
+| **Statuss**                         | Versijā 10.0.13 jaunā režģa vadīkla ir vispārēji pieejama, un klienti pēc izvēles var ieslēgt šo līdzekli. Jaunā režģu vadība kļūs par noklusējuma vadību ar 2021. gada laidienu, un tiek plānots, ka tā kļūs obligāta 2022. gada aprīlī. Kad jaunā režģa kontrole kļūs obligāta, **forceLegacyGrid()** API vairs netiks uzturēta. |
 
 ### <a name="personalization-without-saved-views"></a>Personalizācija bez saglabātajiem skatiem 
 

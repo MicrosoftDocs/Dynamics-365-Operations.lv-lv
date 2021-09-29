@@ -2,7 +2,7 @@
 title: Plānošana ar neierobežotu noslodzi
 description: Šajā tēmā ir sniegta informācija par neierobežotas noslodzes plānošanu Plānošanas optimizēšanai. Šeit aprakstīti arī pašreizējie funkcionalitātes ierobežojumi.
 author: crytt
-ms.date: 09/02/2021
+ms.date: 09/21/2021
 ms.topic: article
 ms.search.form: RouteInventProd
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 2e730340cddac107b04a6b5877e51b84f4dd7b21
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: 9e1e423aaed06f6bb2b42e27d41c2aef46ffe104
+ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471672"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506811"
 ---
 # <a name="scheduling-with-infinite-capacity"></a>Plānošana ar neierobežotu noslodzi
 
@@ -27,7 +27,12 @@ Līdzeklis *Neierobežotās noslodzes Plānošana optimizācija* ievieš plāno�
 
 ## <a name="turn-on-the-infinite-capacity-scheduling-feature"></a>Ieslēgt neierobežotās noslodzes plānošanas līdzekli
 
-Ja sistēmā vēl nav ietverts šajā tēmā aprakstītais līdzeklis, atveriet darbvietu [Līdzekļu pārvaldība](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) un iespējojiet līdzekli *Bezgalīga jaudas plānošana Plānošanas optimizācijai*.
+Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
+
+- **Modulis:** *Vispārējā plānošana*
+- **Līdzekļa nosaukums**: *Bezgalīga noslodzes plānošana plānošanas optimizācijai*
+
+Papildinformāciju par šo līdzekli skatiet tēmā [Plānošana ar iespējā balstītu resursu atlasi](capability-based-scheduling.md).
 
 ## <a name="added-functionality"></a>Pievienota funkcionalitāte
 
@@ -42,7 +47,7 @@ Plānošanas procesa laikā sistēma ņem vērā arī *resursu prasības*, kas n
 - Resursa tips
 - Resurss
 - Resursa grupa
-- Iespēja
+- Iespēja (Papildinformāciju par šo līdzekli skatiet tēmā [Plānošana ar iespējā balstītu resursu atlasi](capability-based-scheduling.md).)
 
 > [!NOTE]
 > Prasības, kas saistītas ar personāla resursiem, piemēram, prasmju vai sertifikātu prasības, vēl nav atbalstītas.
@@ -55,7 +60,6 @@ Kopumā Plānošanas optimizācijas plānošana atbalsta visbiežāk izmantotos 
 
 Uz Plānošanas optimizāciju attiecas šādi ierobežojumi:
 
-- Šis lmīdzeklis atbalsta tikai darbu plānošanu. Iestatījumi, kas ir saistīti ar operāciju plānošanu, plānošanas laikā netiek izskatīti neatkarīgi no plānošanas metodes vispārējos plānos.
 - Šis līdzeklis atbalsta tikai neierobežotu noslodzi.
 - Šis līdzeklis neatbalsta resursu noslodzes funkcionalitāti.
 - Šis līdzeklis neietver maršruta brāķi.

@@ -2,7 +2,7 @@
 title: DATEFORMAT ER funkcija
 description: Šajā tēmā ir sniegta informācija par to, kā tiek izmantota DATEFORMAT elektroniskā pārskata (ER) funkcija.
 author: NickSelin
-ms.date: 01/04/2021
+ms.date: 09/08/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e535f779e1fb87e6e14261df542f39e47323611a55483f03eba18ec379e92ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4a6c113f5f8147cbeaab103e86a44d4c66272c13
+ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770889"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485496"
 ---
 # <a name="dateformat-er-function"></a>DATEFORMAT ER funkcija
 
 [!include [banner](../includes/banner.md)]
 
-`DATEFORMAT` funkcija atgriež *Virknes* vērtību, kas norādīto datuma vērtību uzrāda kā tekstu norādītajā formātā un pēc izvēles norādītajā [kultūrā](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes). Papildinformāciju par atbalstītajiem formātiem skatiet sadaļās [standarta](/dotnet/standard/base-types/standard-date-and-time-format-strings) un [pielāgots](/dotnet/standard/base-types/custom-date-and-time-format-strings).
+`DATEFORMAT` funkcija atgriež *[Virknes](er-formula-supported-data-types-primitive.md#string)* vērtību, kas norādīto datuma vērtību uzrāda kā tekstu norādītajā formātā un pēc izvēles norādītajā [kultūrā](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes). Papildinformāciju par atbalstītajiem formātiem skatiet sadaļās [standarta](/dotnet/standard/base-types/standard-date-and-time-format-strings) un [pielāgots](/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 ## <a name="syntax-1"></a>Sintakse 1
 
@@ -41,20 +41,20 @@ DATEFORMAT (date, format, culture)
 
 ## <a name="arguments"></a>Argumenti
 
-`date`: *Datums*
+`date`*[Datums](er-formula-supported-data-types-primitive.md#date)*
 
 Datuma/laika vērtība, kas apzīmē formatējamo datumu.
 
 `format`: *Virkne*
 
-Izvades virknes formāts.
+Izvades virknes formāts. Papildinformāciju par atbalstītajiem formātiem skatiet sadaļās [standarta](/dotnet/standard/base-types/standard-date-and-time-format-strings) un [pielāgots](/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 > [!NOTE]
 > Ja izmantojat standarta formātu vai pielāgotu formātu, formāta virkne ir reģistrjutīga. Piemēram, [standarta](/dotnet/standard/base-types/standard-date-and-time-format-strings) "d" formāta apzīmētājs atgriež datumu, izmantojot īsa datuma modeli, turpretī standarta "D" formāta apzīmētājs atgriež datumu, izmantojot garo datuma modeli. Turklāt [pielāgotais](/dotnet/standard/base-types/custom-date-and-time-format-strings) formāta apzīmētājs atgriež mēnesi no 1 līdz 12, bet pielāgotais "m" formāta apzīmētājs atgriež minūti no 0 līdz 59.
 
 `culture`: *Virkne*
 
-Kultūra, ko izmantot formatēšanai.
+Kultūra, ko izmantot formatēšanai. Informāciju par atbalstītajām kultūrām skatiet sadaļā [kultūra](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes).
 
 ## <a name="return-values"></a>Atgrieztās vērtības
 

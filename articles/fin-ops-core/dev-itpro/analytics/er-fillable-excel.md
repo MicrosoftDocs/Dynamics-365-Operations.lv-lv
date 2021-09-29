@@ -2,7 +2,7 @@
 title: Konfigurācijas noformēšana dokumentu ģenerēšanai Excel formātā
 description: Šī tēma sniedz informāciju par to, kā veidot elektronisko pārskatu (ER) formātu, lai aizpildītu Excel veidni un pēc tam ģenerētu izejošos Excel formāta dokumentus.
 author: NickSelin
-ms.date: 03/10/2021
+ms.date: 09/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2d737c3a58bf94079b8b674238ed7dd651e238752a2bd992f57c9be4b95aedae
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd3171ad24f9c06f04372b30f2682b6da516bcb6
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748476"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488142"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Konfigurācijas noformēšana dokumentu ģenerēšanai Excel formātā
 
@@ -138,6 +138,55 @@ Papildinformāciju par attēlu un formu iegulšanu skatiet sadaļā [Attēlu un 
 
 **Lappuses pārtraukuma** komponents liek programmai Excel sākt jaunu lapu. Šis komponents nav nepieciešams, ja vēlaties izmantot programmas Excel noklusējuma lapošanu, bet to vajadzētu izmantot, ja vēlaties, lai Excel seko savam ER formātam struktūras lapošanai.
 
+## <a name="page-component"></a><a name="page-component"></a>Lapas komponents
+
+### <a name="overview"></a>Pārskats
+
+Varat lietot komponentu **Lapa**, ja vēlaties, lai Excel ievēro jūsu ER formāta un struktūras sadalījumu pa lapām ģenerētā izvades dokumentā. Kad ER formāts palaiž komponentus, kuri ir zem **Lapas** komponenta, automātiski tiek pievienots vajadzīgais lappuses pārtraukums. Šī procesa laikā ģenerētā satura izmērs, Excel veidnes lappuses iestatījums un Excel veidnē atlasītais papīra izmērs tiek ņemti vērā.
+
+Ģenerētais dokuments ir jāsadala vairākās sadaļās, katra ar atšķirīgu sadalījumu pa lapām, vairākus **Lappuses** komponentus varat konfigurēt katrā [Lapas](er-fillable-excel.md#sheet-component) komponentā.
+
+### <a name="structure"></a><a name="page-component-structure"></a>Struktūra
+
+Pirmais komponents zem komponenta **Lappuse** ir [Diapazons](er-fillable-excel.md#range-component), kurā rekvizīts **Replicēšanas virziens** ir iestatīts uz vērtību **Bez replicēšanas**, šo diapazonu uzskata par lapas galveni sadalījumam pa lapām, kas ir balstīts pašreizējā **Lappuses** komponenta iestatījumos. Excel diapazons, kas tiek saistīts ar šo formāta komponentu, tiek atkārtots katras lappuses augšpusē, kuru ģenerē, izmantojot pašreizējo **Lappuses** komponentu.
+
+> [!NOTE]
+> Lai nodrošinātu pareizu sadalījumu pa lapām, ja Excel veidnē tiek konfigurēts diapazons [Rindas, kuras atkārtot augšpusē](https://support.microsoft.com/office/repeat-specific-rows-or-columns-on-every-printed-page-0d6dac43-7ee7-4f34-8b08-ffcc8b022409), šī Excel diapazona adresei ir jābūt vienādai ar tā Excel diapazona adresi, kura tiek saistīta ar iepriekš aprakstīto **Diapazona** komponentu.
+
+Pēdējais komponents zem komponenta **Lappuse** ir **Diapazons**, kurā rekvizīts **Replicēšanas virziens** ir iestatīts uz vērtību **Bez replicēšanas**, šo diapazonu uzskata par lapas kājeni sadalījumam pa lapām, kas ir balstīts pašreizējā **Lappuses** komponenta iestatījumos. Excel diapazons, kas tiek saistīts ar šo formāta komponentu, tiek atkārtots katras lappuses apakšpusē, kuru ģenerē, izmantojot pašreizējo **Lappuses** komponentu.
+
+> [!NOTE]
+> Lai nodrošinātu pareizu sadalījumu pa lapām, Excel diapazoniem, kuri ir saistīti ar **Diapazona** komponentiem, palaišanas laikā vajadzētu mainīt izmēru. Neiesakām formatēt šī diapazona šūnas, izmantojot Excel [opcijas](https://support.microsoft.com/office/wrap-text-in-a-cell-2a18cff5-ccc1-4bce-95e4-f0d4f3ff4e84) **Aplauzt tekstu šūnā** un **Automātiski ietilpināt rindas augstumu**.
+
+Varat pievienot vairākus citus **Diapazona** komponentus starp neobligātajiem **Diapazona** komponentiem, lai norādītu, kā tiek aizpildīts ģenerētais dokuments.
+
+Ja ligzdotā **Diapazona** komponentu kopa zem **Lappuses** komponent neatbilst iepriekš aprakstītajai struktūrai, ER formāta noformētāja formēšanas laikā tiek rādīta validācijas [kļūda](er-components-inspections.md#i17). Šis kļūdas ziņojums informē, ka problēma var radīt problēmas palaišanas laikā.
+
+> [!NOTE]
+> Lai ģenerētu pareizus izejas datus, nenorādiet saistījumu nevienam no **Diapazona** komponentiem zem **Lappuses** komponenta, ka šī **Diapazona** komponenta rekvizīts **Replicēšanas virziens** ir iestatīts uz vērtību **Bez replicēšanas** un diapazons ir konfigurēts tā, lai tiktu ģenerētas lapu galvenes vai kājenes.
+
+Ja vēlaties ar sadalījumu pa lapām saistītu summēšanu un skaitīšanu, lai aprēķinātu palaistās kopsummas un kopskaitu katrai lapai, iesakām konfigurēt vajadzīgos [Datu kolekcijas](er-data-collection-data-sources.md) datu avotus. Lai uzzinātu, kā lietot **Lappuses** komponentu, lai pa lapām sadalītu ģenerēto Excel dokumentu, izpildiet darbības, kas norādītas sadaļā [Noformēt ER formātu, lai pa lapām sadalītu Excel formātā ģenerētu dokumentu](er-paginate-excel-reports.md).
+
+### <a name="limitations"></a><a name="page-component-limitations"></a>Ierobežojumi
+
+Excel sadalījumam pa lapām lietojot **Lappuses** komponentu, jūs nezināsit lappušu gala skaitu ģenerētajā dokumentā, kamēr nav pabeigts sadalījums pa lapām. Tāpēc jūs nevar aprēķināt kopējo lappušu skaitu, izmantojot ER formulas, un drukāt ģenerētā dokumenta pareizo lappušu skaitu uz jebkuras lappuses pirms pēdējās lappuses.
+
+> [!TIP]
+> Lai šo rezultātu panāktu Excel galvenē vai kājenē, ir jālieto īpašs Excel [formatējums](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) galvenēm un kājenēm.
+
+Konfigurētie **Lapas** komponenti netiek ņemti vērā, atjauninot Excel veidni rediģējamā formātā Dynamics 365 Finance 10.0.22. versijā. Šī funkcija tiek ņemta vērā jaunākos Finance laidienos.
+
+Ja konfigurējat Excel veidni, lai lietotu [nosacījuma formatēšanu](/office/dev/add-ins/excel/excel-add-ins-conditional-formatting), tā dažos gadījumos varētu nedarboties, kā paredzēts.
+
+### <a name="applicability"></a>Piemērojamība
+
+**Lappuses** komponents darbojas [Excel faila](er-fillable-excel.md#excel-file-component) formāta komponentam tikai tad, ja šim komponentam ir konfigurēta veidnes lietošana Excel. Ja [aizstājat](tasks/er-design-configuration-word-2016-11.md) Excel veidni ar Word veidni un pēc tam palaižat rediģējamu ER formātu, **Lappuses** komponents tiks ignorēts.
+
+**Lappuses** komponents darbojas tikai tad, ja ir iespējots līdzeklis **Iespējot EPPlus bibliotēkas izmantošanu elektronisko pārskatu struktūrā**. Izpilddlaikā tiek palaists izņēmums, ja ER mēģina apstrādāt **Lappuses** komponentu, kamēr ir atspējots šis līdzeklis.
+
+> [!NOTE]
+> Izpildlaikā tiek palaists izņēmums, ja ER formāts apstrādē **Lappuses** komponentu Excel veidnei, kura satur vismaz vienu formulu, kura atsaucas uz nederīgu šūnu. Lai novērstu izpilddlaika kļūdas, veiciet Excel veidnes labojumu, kā aprakstīts sadaļā [Kā labot #REF! kļūdu](https://support.microsoft.com/office/how-to-correct-a-ref-error-822c8e46-e610-4d02-bf29-ec4b8c5ff4be).
+
 ## <a name="footer-component"></a>Kājenes komponents
 
 Komponents **Kājene** tiek izmantots, lai aizpildītu kājenes Excel darbgrāmatas ģenerētās darblapas apakšdaļā.
@@ -197,9 +246,12 @@ Pārbaudot ER formātu, ko var rediģēt, tiek veikta konsekvences pārbaude, la
 Kad tiek ģenerēts izejošais dokuments Microsoft Excel darbgrāmatas formātā, dažas šī dokumenta šūnas var saturēt Excel formulas. Kad ir iespējots līdzeklis **EPPlus bibliotēkas izmantošanas iespējošana elektronisko pārskatu struktūrā**, varat kontrolēt, kad formulas tiek aprēķinātas, mainot **Aprēķina opciju** [parametra](https://support.microsoft.com/office/change-formula-recalculation-iteration-or-precision-in-excel-73fc7dac-91cf-4d36-86e8-67124f6bcce4#ID0EAACAAA=Windows) vērtību Excel veidnē, kas tiek izmantota:
 
 - Atlasiet **Automātisks**, lai pārrēķinātu visas pakārtotās formulas ik reizi, kad ģenerētais dokuments tiek pievienots, izmantojot jaunus diapazonus, šūnas utt.
+
     >[!NOTE]
     > Tas var radīt veiktspējas problēmu Excel veidnēm, kas ietver vairākas saistītas formulas.
+
 - Atlasiet **Manuāls**, lai izvairītos no formulas pārrēķina, kad tiek ģenerēts dokuments.
+
     >[!NOTE]
     > Formulas pārrēķins tiek manuāli izpildīts piespiedu kārtā, kad izveidotais dokuments tiek atvērts priekšskatījumam, izmantojot Excel.
     > Neizmantojiet šo opciju, ja konfigurējat ER galamērķi, kas pieņem izveidotā dokumenta izmantošanu bez tā priekšskatījuma programmā Excel (PDF pārvēršana, nosūtīšana e-pasta utt.), jo izveidotajā dokumentā var nebūt vērtības šūnās, kas satur formulas.

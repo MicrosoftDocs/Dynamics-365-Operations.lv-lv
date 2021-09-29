@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 1aada0d3ebe80e1efb92815c6d429ed5638dabdbac165aa09be1ca281c51b255
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 99e95a7fbdce3d040ab7bf01474921ae1f616468
+ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773517"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506835"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Jaunumi un izmaiņas risinājumā Dynamics 365 Supply Chain Management 10.0.20 (2021. gada augusts)
 
@@ -38,7 +38,8 @@ Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvald
 | Krājumi&nbsp;un&nbsp;loģistika | [Pārdošanas pasūtījuma detalizētās informācijas veiktspējas uzlabošana](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-order-details-performance-enhancement) | Atverot pārdošanas pasūtījumus, jo īpaši pasūtījumus, kas ietver daudzas rindas, šī funkcija padara lietotāja interfeisu lielāku. |
 | Ražošana | [Izsaukt procesa automatizācijas plūsmas, lai izveidotu kvalitātes pasūtījumus](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/invoke-process-automation-flows-create-quality-orders) | [Izsaukt procesa automatizācijas plūsmas, lai izveidotu kvalitātes pasūtījumus](../production-control/process-automation-quality-orders.md ) |
 | Ražošana | [Uzlabots ražošanas izpildes interfeiss ražošanai](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing) | [Ražošanas izpildes interfeisa konfigurēšana](../production-control/production-floor-execution-configure.md) |
-| Preču informācijas pārvaldība | [Pārvaldīt izmaiņas formulās un to sastāvdaļās](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/engineering-change-management-support-process-manufacturing) | [Pārvaldīt izmaiņas formulās un to sastāvdaļās](../engineering-change-management/manage-formula-changes.md) |
+| Plānošana | [Bezgalīga noslodzes plānošana plānošanas optimizācijai](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | [Plānošana ar neierobežotu noslodzi](../master-planning/planning-optimization/infinite-capacity-planning.md) |
+| Preču informācijas pārvaldība | [Izmaiņu pārvaldība formulās un to komponentos](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/engineering-change-management-support-process-manufacturing) | [Pārvaldīt izmaiņas formulās un to sastāvdaļās](../engineering-change-management/manage-formula-changes.md) |
 | Preču informācijas pārvaldība | [Preces gatavības pārbaudes](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/product-readiness-checks) | [Preces gatavība](../engineering-change-management/product-readiness.md) |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Šajā laidienā iekļautie līdzekļa uzlabojumi

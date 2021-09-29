@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f3de160cb4e62f9b30c01c56fa6fe5a4dfad5229
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: c3f703e39e5e9d475dcb4f96dfb400a961ae2dcf
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471720"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500431"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Noliktavas pārvaldības darba slodzes mākoņa un malas mēroga vienībām
 
@@ -157,6 +157,7 @@ Mēroga vienībās pašlaik netiek atbalstīti citi avotdokumentu apstrādes vai
 
 - Ienākošā slodzei piešķirtā pirkuma pasūtījuma rindu apstrāde.
 - Iekšējā projekta pirkuma pasūtījumu apstrāde.
+- Kopējo izmaksu pārvaldība, izmantojot reisus un tranzīta kravu pārvaldība.
 - Ienākošā un izejošā to vienumu apstrāde, kuriem ir aktīvas izsekošanas dimensijas **Īpašnieks** un/vai **Sērijas numurs**.
 - Krājuma apstrāde, kuram ir bloķēšanas statusa vērtība.
 - Krājuma statusa maiņa darba kustības procesa laikā.
@@ -187,6 +188,7 @@ Sekojošajā tabulā ir parādīts, kuri izejošie līdzekļi tiek atbalstīti u
 |--------------------------------------------------------------|-----|------------------------------|
 | Pirmdokumenta apstrāde                                   | Jā | Nr. |
 | Apstrāde kravas un transportēšanas pārvaldības ietvaros                | Jā, taču tikai kravas plānošanas procesi. Pārvadāšanas pārvaldības apstrāde netiek atbalstīta  | Nr. |
+| Kopējās izmaksas un tranzīta kravu saņemšana                                         | Jā | Nr. |
 | Izlaist uz noliktavu                                         | Jā | Nr. |
 | Plānotā pārkraušana sadales centrā                                        | Nr.  | Nr. |
 | Sūtījumu konsolidācija                                       | Jā, lietojot kravu plānošanu | Jā |

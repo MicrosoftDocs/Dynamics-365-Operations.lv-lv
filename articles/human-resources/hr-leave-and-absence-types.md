@@ -1,8 +1,8 @@
 ---
 title: Atvaļinājumu un prombūtnes veidu konfigurēšana
 description: Iestatiet atvaļinājumu tipus, ko darbinieki var izņemt pakalpojumā Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 07/16/2021
+author: twheeloc
+ms.date: 09/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0ca474fe12867ae767db936ad0b2995c4437bdf0ee94831450fda825b9e075dc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b616d1f2c8b0bc8131045424b01dbfaa82f41f84
+ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730422"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485811"
 ---
 # <a name="configure-leave-and-absence-types"></a>Atvaļinājumu un prombūtnes veidu konfigurēšana
 
@@ -65,9 +65,9 @@ Atvaļinājumu veidi pakalpojumā Dynamics 365 Human Resources definē, kādu ve
 
 1. Iestatiet noapaļošanas opcijas atvaļinājuma veidam. Opcijas ietver **Neviens**, **Uz augšu**, **Uz leju** un **Tuvākais**. Atvaļinājuma veidam var arī iestatīt noapaļošanas precizitāti.
 
-2. Iestatiet atvaļinājuma veida **Brīvdienu labojumu** Atlasot šo opciju, Human Resources izmanto to brīvdienu skaitu, kuras iekrīt darba dienā, lai noteiktu, kā uzkrāt brīvo laiku atvaļinājuma veidam. Piemēram, ja Ziemassvētki ir pirmdienā, Human Resources, apstrādājot uzkrājumus, atņem vienu dienu no atvaļinājuma veida.
+2. Iestatiet atvaļinājuma veida **Brīvdienu labojumu** Atlasot šo opciju, tiks izmantots to brīvdienu skaits, kuras iekrīt darba dienā, lai noteiktu, kā uzkrāt brīvo laiku atvaļinājuma veidam. Piemēram, ja Ziemassvētki ir pirmdienā, Human Resources, apstrādājot uzkrājumus, atņem vienu dienu no atvaļinājuma veida.
 
-   Brīvdienas varat iestatīt darba laika kalendārā. Papildinformāciju skatiet šeit šeit: [Darba laika kalendāra izveide](hr-leave-and-absence-working-time-calendar.md)
+   Brīvdienas varat iestatīt darba laika kalendārā. Papildinformāciju skatiet šeit šeit: [Darba laika kalendāra izveide](hr-leave-and-absence-working-time-calendar.md).
    
  3. Iestatiet atvaļinājuma veidam **Pārnesta atvaļinājuma veids**. Atlasot šo opciju, visas pārnešanas bilances tiks pārsūtītas uz norādīto atvaļinājumu veidu. Pārnestā atvaļinājuma veids ir jāiekļauj arī atvaļinājumu un prombūtnes plānā. 
  
@@ -76,7 +76,7 @@ Atvaļinājumu veidi pakalpojumā Dynamics 365 Human Resources definē, kādu ve
 ## <a name="configure-the-required-attachment-per-leave-type"></a>Konfigurēt nepieciešamo pielikumu katram atvaļinājuma tipam
 
 > [!NOTE]
-> Lai izmantotu lauku **Nepieciešamais pielikums**, vispirms ieslēdziet līdzeklim **(Priekšskatījums) Konfigurēt nepieciešamo pielikumu atvaļinājumu pieprasījumiem** līdzekļu pārvaldībā. Lai iegūtu papildinformāciju par to, kā ieslēgt priekšskatījuma līdzekļus, skatiet sadaļu [Līdzekļu pārvaldība](hr-admin-manage-features.md).
+> Lai izmantotu lauku **Nepieciešamais pielikums**, vispirms ieslēdziet līdzeklim **Konfigurēt nepieciešamo pielikumu atvaļinājumu pieprasījumiem** līdzekļu pārvaldībā. Lai iegūtu papildinformāciju par to, kā ieslēgt līdzekļus, skatiet sadaļu [Līdzekļu pārvaldība](hr-admin-manage-features.md).
 
 1. Lapas **Atvaļinājums un prombūtne** cilnē **Saites** zem **Iestatījumi** atlasiet **Atvaļinājuma un prombūtnes tipi**.
 
@@ -87,7 +87,7 @@ Darbiniekiem būs jāielādē pielikums, kad tie iesniedz jaunu atvaļinājuma p
 ## <a name="configure-leave-units-hoursdays-per-leave-type"></a>Konfigurēt atvaļinājuma vienības (stundas/dienas) pa atvaļinājuma daļām
 
 > [!NOTE]
-> Lai lietotu atvaļinājuma vienības atvaļinājuma tipa funkcionalitātē, vispirms ir jāslēdz līdzekli **(Priekšskatījums) Konfigurēt atvaļinājuma vienības pa atvaļinājuma veidiem** Līdzekļu pārvaldība. Lai iegūtu papildinformāciju par to, kā ieslēgt priekšskatījuma līdzekļus, skatiet sadaļu [Līdzekļu pārvaldība](hr-admin-manage-features.md).
+> Lai lietotu atvaļinājuma vienības atvaļinājuma tipa funkcionalitātē, vispirms ir jāslēdz līdzekli **Konfigurēt atvaļinājuma vienības pa atvaļinājuma veidiem** Līdzekļu pārvaldība. Lai iegūtu papildinformāciju par to, kā ieslēgt līdzekļus, skatiet sadaļu [Līdzekļu pārvaldība](hr-admin-manage-features.md).
 
 > [!IMPORTANT]
 > Pēc noklusējuma atvaļinājumu tipi juridiskajās personas izmanto atvaļinājuma vienības no atvaļinājumu parametru konfigurācijas juridiskas personas līmenī.

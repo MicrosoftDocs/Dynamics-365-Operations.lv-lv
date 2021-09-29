@@ -1,5 +1,5 @@
 ---
-title: Izlaiduma Dynamics 365 Supply Chain Management 10.0.21 priekšskatījums (2021. gada oktobris)
+title: Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.21 (2021. gada oktobris)
 description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Supply Chain Management 10.0.21.
 author: kamaybac
 ms.date: 08/09/2021
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 42d296cb0402b5e96f23d628f08a28fb35683d5f
-ms.sourcegitcommit: 5a44eb4f555bf5ee0b1293f0ecdc37ee8b53aa24
+ms.openlocfilehash: 3f586a00943e23b458ede1470b353d7c018ba923
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "7391212"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500559"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10021-october-2021"></a>Izlaiduma Dynamics 365 Supply Chain Management 10.0.21 priekšskatījums (2021. gada oktobris)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.21 (2021. gada oktobris)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Šajā tēmā uzskaitīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti Microsoft Dynamics 365 Supply Chain Management versijas 10.0.21 priekšskatījumā. Šai versijai ir būvējuma numurs 10.0.960, un tas ir pieejams šeit:
+Šī tēma uzskaita līdzekļus, kas ir vai nu jauni, vai kas ir mainīti programmas Microsoft Dynamics 365 Supply Chain Management versijā 10.0.21. Šai versijai ir būvējuma numurs 10.0.960, un tas ir pieejams šeit:
 
 - **Laidiena priekšskatījums:** 2021. gada augusts
 - **Vispārēja laidiena (pašatjauninājums) pieejamība:** 2021. gada septembris
@@ -46,13 +45,14 @@ Izvietošana darbosies, neskatoties uz brīdinājumu. Tomēr programmā Lifecycl
 
 Šajā tabulā ir uzskaitīti šajā laidienā iekļautie līdzekļi. Kolonna *Līdzeklis* nodrošina saites uz [izlaišanas plānu](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features), kur varat redzēt oficiālos izlaišanas datumus katram līdzeklim. Kolonna *Vairāk informācijas* sniedz detalizētu informāciju un/vai saites uz saistīto dokumentāciju.
 
-Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), pirms varat tos izmantot. Daži no norādītajiem līdzekļiem joprojām ir pieejami priekšskatījumā, kamēr citi, iespējams, jau ir vispārīgi pieejami.
+Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), pirms varat tos izmantot.
 
 | Līdzekļu apgabals | Funkcija | Papildinformācija |
 |---|---|---|
-| Krājumi&nbsp;un&nbsp;loģistika | [Globālā krājumu uzskaites pievienojumprogramma Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/global-inventory-accounting-add-in-dynamics-365-supply-chain-management) | [Globālās krājumu uzskaites sākumlapa](../global-inventory-accounting/global-inventory-accounting-home.md) |
+| Krājumi&nbsp;un&nbsp;loģistika | [Globālā krājumu uzskaites pievienojumprogramma Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/global-inventory-accounting-add-in-dynamics-365-supply-chain-management) | [Globālās krājumu uzskaites sākumlapa](../global-inventory-accounting/global-inventory-accounting-home.md) |
 | Krājumi&nbsp;un&nbsp;loģistika | [Rīcībā esošo korekciju grāmatošana, izmantojot kodus, kas saistīti ar korespondējošo kontu](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/post-on-hand-adjustments-using-configurable-reason-codes-connected-offset-accounts) | [Krājumu inventarizācijas iemeslu kodi](../warehousing/reason-codes-for-counting-journals.md) |
 | Krājumi&nbsp;un&nbsp;loģistika | [Tādu datu eksportēšanas politika, uz kuriem atsaucas pārdošanas piedāvājums](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sales-quotation-referenced-data-export-policy) | Izvēlieties, vai izmaiņas datos, uz kuriem atsaucas piedāvājumi, izraisīs šo piedāvājumu (vai rindu) iekļaušanu nākamajā inkrementālajā eksportā. Inkrementālais eksports notiks ātrāk, ja izvēlaties neiekļaut šādus piedāvājumus vai rindas.<br><br>Šis līdzeklis pievieno iestatījumu ar nosaukumu **Izlaist pārdošanas piedāvājumu atsauces datus izmaiņu izsekošanas laikā** lapā **Debitoru parametri**. |
+| Krājumi&nbsp;un&nbsp;loģistika | Aizzīmogotā izsole <!-- KFM: Add RP link when available --> | [Slēgta piedāvājumu izteikšana PP](../procurement/sealed-bidding.md) |
 | Krājumi&nbsp;un&nbsp;loģistika | [Skenēt svītrkodus noliktavā, izmantojot GS1 formāta standartus](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [GS1 svītrkodi un QR kodi](../warehousing/gs1-barcodes.md) |
 | Krājumi&nbsp;un&nbsp;loģistika | [Vieglā rezervācija krājumu redzamības pievienojumprogrammai](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/soft-reservation-inventory-visibility-add-in) | [Krājumu redzamības rezervācija](../inventory/inventory-visibility-reservations.md) |
 | Krājumi&nbsp;un&nbsp;loģistika | [Ieturējumu un pieļaujamā svara uzlabojumi atlaižu pārvaldībai](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/deduction-catch-weight-enhancements-rebate-management) | [Ieturējumu pārvaldība, izmantojot ieturējumu rīku](../rebate-management/deduction-workbench.md )<br><br>[Atlaižu apstrāde, pārskatīšana un grāmatošana](../rebate-management/process-review-post.md)<br><br>[Atlaižu pārvaldības darījumi](../rebate-management/rebate-management-deals.md) |

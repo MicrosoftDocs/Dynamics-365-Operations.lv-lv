@@ -2,7 +2,7 @@
 title: Kvīšu formātu iestatīšana un noformēšana
 description: Šajā rakstā ir aprakstīts, kā izveidot un modificēt formu izkārtojumus, lai kontrolētu to, kā tiek drukāti rēķini, kvītis un citi dokumenti. Programmā Dynamics 365 Commerce ir ietverts formas izkārtojuma noformētājs, ko varat izmantot, lai viegli izveidotu un izmainītu dažādu viedu formu izkārtojumus.
 author: rubencdelgado
-ms.date: 06/20/2017
+ms.date: 09/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7f70918e6fd274ac8e3476d6c309eac40744b0dd24a8b79f531d8627bb4a68e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2107670cb5dbac3b8f28c4e3caa357102932291
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715362"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500174"
 ---
 # <a name="set-up-and-design-receipt-formats"></a>Kvīšu formātu iestatīšana un noformēšana
 
@@ -46,7 +46,12 @@ ms.locfileid: "6715362"
 
 ## <a name="print-images"></a>Attēlu drukāšana
 
-Kvīšu noformētājs ietver **Logotipa** mainīgo, ko var izmantot, lai norādītu kvītī drukājamos attēlus. Attēliem, kas ietverti kvītīs, izmantojot **Logotipa** mainīgo, ir jābūt vienkrāsainiem bitkartes (.bmp) tipu failiem. Ja kvīšu noformētājā ir norādīts .bmp attēls, bet tas netiek drukāts, kad tiek nosūtīts uz printeri, faila lielums var būt pārāk liels vai attēla pikseļu izmēri nav saderīgi ar printeri. Tādā gadījumā mēģiniet samazināt attēla faila izšķirtspēju.   
+Kvīšu noformētājs ietver mainīgo **Logotips**. Šo mainīgo varat izmantot, lai konkretizētu attēlu, kuru vajadzētu drukāt uz kvītīm. Attēliem, kas tiek drukāti uz kvītīm, izmantojot **Logotipa** mainīgo, ir jābūt vienkrāsainiem bitkartes (.bmp) tipu failiem. Ja kvīšu noformētājā ir norādīts bitmap attēls, bet tas netiek drukāts, kad kvīts tiek nosūtīta uz printeri, problēmu var būt izraisījis viens no tālāk minētajiem iemesliem:
+
+- Fails ir pārāk liels vai attēla pikseļu izmēri neatbilst printerim. Šādā gadījumā mēģiniet samazināt attēla faila izšķirtspēju vai izmēru.
+- Daži objektu saistīšanas un iegulšanas pārdošanas punktā (OPOS) printeru draiveri neizmanto metodi **PrintMemoryBitmap**, kuru aparatūras stacijas izmanto logotipu attēlu drukāšanā. Šādā gadījumā mēģiniet jūsu privātās vai koplietotās aparatūras stacijas failam **HardwareStation.Extension.config** pievienot šādu karodziņu:
+
+    `<add name="HardwareStation.UsePrintBitmapMethod" value="true"/>`
 
 ## <a name="design-a-receipt-format"></a>Kvīts formāta noformēšana
 

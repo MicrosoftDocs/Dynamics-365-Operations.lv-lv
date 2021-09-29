@@ -2,7 +2,7 @@
 title: Konfigurēt lomu Prombūtnes pārvaldnieks
 description: Šajā tēmā skaidrots, kā iestatīt lomu Prombūtnes pārvaldnieks darbinieku atvaļinājuma pārvaldībai.
 author: hasrivas
-ms.date: 07/19/2021
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 050874628388629569751afae201ef346af020da09c81d24a69e1a4b5eb41b6f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7f2a2fd0a1ad1cca19625ff1029962f608251f1d
+ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732349"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485758"
 ---
 # <a name="configure-the-absence-manager-role"></a>Konfigurēt lomu Prombūtnes pārvaldnieks
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-[!include [preview feature](./includes/preview-feature.md)]
 
 Dažās organizācijās cilvēku vadītāji var ne pārvaldīt atvaļinājumu savas komandas vadītājiem. Tā vietā prombūtnes vadītājs var apstrādāt šo procesu grupas dalībniekiem vairākās nodaļās un komandās. Prombūtnes pārvaldniekiem atvaļinājumu pārvaldībai ir šādas iespējas:
 
@@ -38,7 +36,7 @@ Dažās organizācijās cilvēku vadītāji var ne pārvaldīt atvaļinājumu sa
 
 1. Darbvietā **Sistēmas administrēšana** atlasiet **Līdzekļu pārvaldība**.
 
-2. Cilnē **Līdzekļu pārvaldība** aktivizējiet līdzekli **(Priekšskatījums) Prombūtnes pārvaldnieks, lai pārvaldītu atvaļinājumu**.
+2. Cilnē **Līdzekļu pārvaldība** aktivizējiet līdzekli **Prombūtnes pārvaldnieks, lai pārvaldītu atvaļinājumu**.
 
 ## <a name="define-a-custom-hierarchy"></a>Definēt pielāgotu hierarhiju
 
@@ -129,7 +127,7 @@ Prombūtnes pārvaldnieka lomas lietotāji kalendārā var skatīt brīvā laika
 > [!IMPORTANT]
 > Sistēmas administratoram ir jākonfigurē prombūtnes pārvaldnieka kalendāra skatīšanas opcijas. Lapas **Atvaļinājuma un prombūtnes parametri** cilnē **Kalendārs** ir opcijas, kas ļauj paslēpt vai rādīt dzimšanas dienas, kavējumus bez detalizētas informācijas, prombūtnes atvaļinājumus un gaidošos atvaļinājumu pieprasījumus. Pastāv arī opcija, lai filtrētu kalendāra skata opciju pēc darbinieka veida.
 
-1. Darbvietā **Darbinieku pašapkalpošana** atlasiet **Prombūtnes pārvaldnieks** un pēc tam **Prombūtnes pārvaldnieka kalendārs**.
+1. Darbtelpā **Darbinieku pašapkalpošanās** atlasiet **Atvaļinājumu pārvaldība** un **Prombūtnes pārvaldnieka kalendārs**.
 
 2. Laukā **Datums** ievadiet vajadzīgos datumus.
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 2fd3d2e4f4c3e53913bd811728b0950c63b38bc5afe6fe5282b4cfb05f414619
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 45c5774ac1f6db5845d6be6bf2f5d8f99063ea07
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744182"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488206"
 ---
 # <a name="enable-change-management-on-existing-products"></a>Izmaiņu pārvaldības iespējošana esošajiem produktiem
 
@@ -47,7 +47,9 @@ Tāpēc, ja jums ir atšķirīga prece, to var mainīt tikai uz tehnikas preci, 
 
 *Inženierzinātnes produktu kategorija* ir jāpiešķir katrai tehnikas precei. Šī piešķire tiks izpildīta, palaižot vedni **Pārvērst par inženierzinātnes preci**. *Pirms* šo preču pārveidošanas visām atbilstošām standarta precēm jābūt inženierzinātnes produktu kategorijām.
 
-Inženierzinātnes preču kategorija sniedz pamatu inženierzinātnes produkta izveidošanai, un tā izveido noklusēto vērtību un politiku kopu. Tehniskajai preces kategorijai jāatbilst piešķiramajam projektam. Piemēram, preces tipam un dimensiju grupai jāsakrīt gan ar preci, gan ar tās inženierzinātnes preču kategoriju. Papildinformāciju skatiet [Tehnisko versiju un tehnisko preču kategorijas](engineering-versions-product-category.md).
+Inženierzinātnes preču kategorija sniedz pamatu inženierzinātnes produkta izveidošanai, un tā izveido noklusēto vērtību un politiku kopu. Inženiertehniskie atribūti un to noklusējuma vērtības (kā definēts inženierzinātnes kategorijai) tiek piemēroti arī rezultātā iegūtajam inženiertehniskajam produktam. Varat pēc vajadzības rediģēt atribūtu vērtības un/vai pievienot papildu inženiertehniskos atribūtus rezultātā iegūtajam produktam.
+
+Tehniskajai preces kategorijai jāatbilst piešķiramajam projektam. Piemēram, preces tipam un dimensiju grupai jāsakrīt gan ar preci, gan ar tās inženierzinātnes preču kategoriju. Papildinformāciju skatiet [Tehnisko versiju un tehnisko preču kategorijas](engineering-versions-product-category.md).
 
 > [!IMPORTANT]
 > Vednis **Pārvērst par inženierzinātnes preci** var pārveidot preces tikai par inženierzinātnes precēm, kur versija darbībās nav izsekota. Tāpēc opciju **Izsekot versiju darbībās** ir jāiestata uz *Nē* tehnoloģiju preču kategorijām, kuras izveidojat, lai konvertētu esošās preces.

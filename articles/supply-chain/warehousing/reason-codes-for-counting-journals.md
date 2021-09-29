@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 95f7ceb39d2afef1871f395ed562632865022b39
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 4c178ddf342b13a0ef8fee8b8b958554a9a31069
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345270"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500594"
 ---
 # <a name="reason-codes-for-inventory-counting"></a>Iemeslu kodi krājumu inventarizācijai
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Iemeslu kodi jums ļauj analizēt inventarizācijas procesa rezultātus un visas šajā procesā radušās neatbildības. Varat norādīt iemeslu inventarizācijas veikšanai, piemēram, bojāta palete vai krājumu korekcija, kas ir balstīta uz krājumu paraugiem. Tajā pašā laikā varat izmantot korekcijas funkcionalitāti, lai grāmatotu rīcībā esošo krājumu pielāgojumu vērtību atbilstošajā korespondējošā kontā, pamatojoties uz katras krājuma korekcijas iemeslu.
 
@@ -42,8 +41,6 @@ Pirms šīs sistēmas iestatīšanas iesakām definēt stratēģiju darbam ar ie
 - Vai iemeslu kodi vada finanšu korespondējošā konta grāmatošanu?
 
 ## <a name="turn-on-reason-code-features-in-your-system"></a>Ieslēdziet iemesla koda līdzekļus savā sistēmā
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Ja savā sistēmā neredzat visus līdzekļus, kas ir aprakstīti šajā tēmā, iespējams, būs jāieslēdz līdzekli *Rīcībā esošo korekciju grāmatošana, izmantojot konfigurējamus pamatojuma kodus, kas saistīti ar korespondējošo kontu*. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu, ja nepieciešams. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
 

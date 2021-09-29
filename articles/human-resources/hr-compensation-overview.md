@@ -1,8 +1,8 @@
 ---
-title: Atlīdzības plāni
-description: Atlīdzību un atvieglojumu vadītāji atlīdzību pārvaldību var izmantot, lai organizācijas darbiniekiem uzturētu un apstrādātu fiksētās un mainīgās atlīdzības sistēmas.
-author: andreabichsel
-ms.date: 06/20/2017
+title: Kompensācijas plāni
+description: Šajā tēmā aprakstīts, kā izmantot atlīdzību pārvaldību, lai pārvaldītu un apstrādātu atlīdzību plānus.
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: intro-internal
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: dafba542ec1421a6ef3437d9c2f22e0c363e557d7f5b6410af36fc7cb8d4be7d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 64169ebc5bbd2f0a9b4be3d4ec076c8814e6eb97
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732445"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7483833"
 ---
-# <a name="compensation-plans"></a>Atlīdzības plāni
+# <a name="compensation-plans"></a>Kompensācijas plāni
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Atlīdzību un atvieglojumu vadītāji atlīdzību pārvaldību var izmantot, lai organizācijas darbiniekiem uzturētu un apstrādātu fiksētās un mainīgās atlīdzības sistēmas.
+Atlīdzību un atvieglojumu vadītāji **atlīdzību pārvaldību** var izmantot, lai organizācijas darbiniekiem uzturētu un apstrādātu fiksētās un mainīgās atlīdzības sistēmas.
 
 ### <a name="introduction"></a>Ievads
 
@@ -43,7 +43,7 @@ Nākamajā tabulā ir uzskaitīti atlīdzības procesa komponenti, kas var būt 
 <thead>
 <tr class="header">
 <th>Komponents</th>
-<th>Papildinformācija...</th>
+<th>Papildinformācija</th>
 </tr>
 </thead>
 <tbody>
@@ -89,7 +89,7 @@ Nākamajā tabulā ir uzskaitīti atlīdzības procesa komponenti, kas var būt 
 </tr>
 <tr class="even">
 <td>Kontrolpunkts</td>
-<td>Kontrolpunkts nosaka, ko jūs uzskatāt par ideālu apmaksas likmi visiem darbiniekiem kādā atlīdzības līmenī. Kategoriju plāna struktūrām kontrolpunkti parasti ir diapazona viduspunkts. Joslu struktūrās kontrolpunkti tiek izmantoti reti. Fiksētas atlīdzības plānam kontrolpunktu varat norādīt formā Fiksētas atlīdzības plāni.</td>
+<td>Kontrolpunkts nosaka, ko jūs uzskatāt par ideālu apmaksas likmi visiem darbiniekiem kādā atlīdzības līmenī. Kategoriju plāna struktūrām kontrolpunkti parasti ir diapazona viduspunkts. Joslu struktūrās kontrolpunkti tiek izmantoti reti. Fiksētas atlīdzības plānam kontrolpunktu varat norādīt formā **Fiksētas atlīdzības plāni**.</td>
 </tr>
 <tr class="odd">
 <td>Darba funkcijas</td>
