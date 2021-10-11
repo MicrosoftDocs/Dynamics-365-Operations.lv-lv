@@ -284,6 +284,8 @@
               href: accounts-payable/broker-contract.md
             - name: Patentmaksas līguma pārvaldība
               href: accounts-payable/royalty-contract.md
+            - name: Atsauces uz sākotnējiem rēķiniem kredīta notās (kreditoru rēķini)
+              href: accounts-payable/gbl-original-invoice-numbers-credit-notes-ap.md
             - name: Maksājumi un norēķini
               items:
                 - name: Centralizētie maksājumi kreditoriem
@@ -1272,6 +1274,8 @@
                   href: finance-insights/use-customer-payment-predictions.md
                 - name: Momentuzņēmumu apskats
                   href: finance-insights/payment-snapshots.md
+            - name: Bieži uzdotie jautājumi par Finance Insights problēmu novēršanu
+              href: finance-insights/finance-insights-troubleshooting-faq.md
         - name: Projektu vadība un uzskaite
           items:
             - name: Projektu vadības un uzskaites pārskats
@@ -1574,6 +1578,10 @@
                           href: localizations/emea-multiple-vat-registration-numbers.md
                         - name: Pārskatu veidošana vairākām PVN reģistrācijām
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
+                        - name: Austrijas pārskati
+                          items:
+                            - name: PVN deklarācija
+                              href: localizations/emea-aut-vat-declaration-austria.md
                         - name: Francijas pārskatu veidošana
                           items:
                             - name: PVN deklarācija
@@ -1636,10 +1644,12 @@
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: Pārrobežu pakalpojumu pārskats
                   href: localizations/emea-aut-vat-statement-details.md
-                - name: Intrastat pārskats
+                - name: Austrijas Intrastat
                   href: localizations/emea-aut-intrastat.md
                 - name: Pirkšanas nodokļi
                   href: localizations/emea-aut-purchase-duties.md
+                - name: PVN deklarācija
+                  href: localizations/emea-aut-vat-declaration-austria.md
             - name: Bahreina
               items:
                 - name: Bahreinas pārskats
@@ -2676,8 +2686,6 @@
                   href: localizations/emea-ita-vat-statements-details.md
                 - name: Ceturkšņa PVN komunikācijas pārskats
                   href: localizations/emea-ita-quarterly-vat-communication.md
-                - name: Melnā saraksta pārskats
-                  href: localizations/emea-ita-black-list-report.md
                 - name: Kompetences datums un finanšu žurnāls
                   href: localizations/emea-ita-competence-date.md
                 - name: Pamatlīdzekļu nolietojums
@@ -3801,6 +3809,8 @@
           items:
             - name: Elektronisko pārskatu veidošanas pārskats
               href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/finance/toc.json
+            - name: Elektronisko pārskatu komponenti
+              href: ../fin-ops-core/dev-itpro/analytics/er-overview-components.md?toc=/dynamics365/finance/toc.json
             - name: Konfigurācijas
               items:
                 - name: Konfigurāciju izveide
@@ -4509,6 +4519,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: Globālās adrešu grāmatas konfigurēšana
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/finance/toc.json
+                - name: Adreses iestatīšana
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/finance/toc.json
                 - name: Bieži uzdotie jautājumi par adrešu grāmatām
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: Adrešu grāmatu konfigurēšana

@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-21.md
                 - name: "Platform atjauninājumi versijai\_10.0.20 (2021.\_gada augusts)"
                   href: get-started/whats-new-platform-updates-10-0-20.md
-                - name: "Platform atjauninājumi versijai\_10.0.19 (2021.\_gada jūnijs)"
-                  href: get-started/whats-new-platform-updates-10-0-19.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
                 - name: Noņemtie vai novecojušie līdzekļi sākumlapā
@@ -1080,6 +1078,8 @@
                   items:
                     - name: Elementa un lauka kartējumu pielāgošana
                       href: data-entities/dual-write/customizing-mappings.md
+                    - name: Duālā ieraksta pielāgošanas vadlīnijas
+                      href: data-entities/dual-write/custom-best-practices.md
                     - name: Vairāku elementu karšu apstrāde
                       href: data-entities/dual-write/multiple-entity-maps.md
                     - name: Juridiskas personas rediģēšana pēc duālā ieraksta iestatīšanas

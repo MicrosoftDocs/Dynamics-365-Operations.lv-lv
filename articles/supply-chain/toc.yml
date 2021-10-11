@@ -1651,6 +1651,8 @@
                   href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
                 - name: 'Parametri, kas netiek izmantoti plānošanas optimizācijai'
                   href: master-planning/planning-optimization/not-used-parameters.md
+                - name: Piegādes grafiks
+                  href: master-planning/supply-schedule.md
                 - name: Filtru lietošana plānam
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: Vispārējā plānošana ar pieprasījuma apjoma prognozi
@@ -1759,8 +1761,6 @@
                   href: master-planning/tasks/create-intercompany-plan.md
                 - name: Izejošo plānoto starpuzņēmumu pieprasījuma skatīšana
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
-                - name: Sadarbība ar iekšējās piegādes ķēdes debitoriem
-                  href: master-planning/tasks/collaborate-internal-supply-chain-customers.md
                 - name: Neto prasības un piesaistes informācija darbā ar iebūvēto vispārējo plānošanu
                   href: master-planning/net-requirements-built-in-master-planning.md
             - name: Prognozēšana
@@ -2037,8 +2037,12 @@
                   href: procurement/purchase-order-approval-confirmation.md
                 - name: Pirkšanas pasūtījumu apstiprināšanas mobilā darbvieta
                   href: procurement/purchase-order-mobile-workspace.md
+                - name: Starpuzņēmumu pirkšanas pasūtījuma izveide un rēķina izrakstīšanai iekšējai lietošanai
+                  href: sales-marketing/intercompany-purchase-order-for-internal-use.md
+                - name: Pārbaudīt starpuzņēmuma pasūtījumu cenu atšķirības
+                  href: sales-marketing/intercompany-check-price-discrepancies.md
                 - name: Preču saņemšanas reģistrēšana pirkšanas pasūtījumā
-                  href: ../supply-chain/procurement/tasks/record-receipt-goods-purchase-order.md
+                  href: procurement/tasks/record-receipt-goods-purchase-order.md
             - name: Pirkšanas pasūtījuma izveidošana
               items:
                 - name: Manuāla pirkšanas pasūtījumu izveide
@@ -2725,11 +2729,67 @@
               items:
                 - name: Cenas simulācija
                   href: sales-marketing/price-simulation.md
-                - name: Pārdošanas piedāvājumu izveide masveidā
+                - name: Pārdošanas piedāvājumu lielapjoma izveide
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: Pārdošanas piedāvājumu izveide un rediģēšana
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
-            - name: Atgriešana
+            - name: Starpuzņēmumu tirdzniecība
+              items:
+                - name: Starpuzņēmumu tirdzniecības iestatīšana
+                  items:
+                    - name: Starpuzņēmumu tirdzniecības iestatīšana
+                      href: sales-marketing/intercompany-trade-set-up.md
+                    - name: Starpuzņēmumu parametri
+                      href: sales-marketing/intercompany-parameters.md
+                    - name: 'Kreditoru, debitoru un krājumu iestatīšana starpuzņēmumu tirdzniecībai'
+                      href: sales-marketing/intercompany-set-up-vendors-customers-items.md
+                    - name: Iestatīt maksu starpuzņēmumu pasūtījumos
+                      href: sales-marketing/intercompany-set-up-charges.md
+                    - name: Parametru iestatīšana starpuzņēmumu pasūtījuma grāmatošanai
+                      href: sales-marketing/intercompany-set-up-parameters-to-post-order.md
+                - name: Starpuzņēmumu informācijas sinhronizēšana
+                  items:
+                    - name: Starpuzņēmumu cenu un atlaižu sinhronizēšana
+                      href: sales-marketing/intercompany-sync-prices-discounts.md
+                    - name: Starpuzņēmumu izmaksu sinhronizēšana
+                      href: sales-marketing/intercompany-sync-charges.md
+                    - name: Starpuzņēmumu klientu informācijas sinhronizēšana
+                      href: sales-marketing/intercompany-synch-customer-information.md
+                    - name: Starpuzņēmumu izvietojuma kodu sinhronizēšana
+                      href: sales-marketing/intercompany-synchronize-disposition-codes.md
+                - name: Starpuzņēmumu pārdošanas pasūtījumi un rēķini
+                  items:
+                    - name: Starpuzņēmumu pirkšanas un pārdošanas pasūtījumu veidošana vairākos uzņēmumos
+                      href: sales-marketing/intercompany-orders-in-several-companies.md
+                    - name: Starpuzņēmumu pasūtījumi un atgriešanas pasūtījumi
+                      href: sales-marketing/intercompany-orders-and-return-orders.md
+                    - name: Starpuzņēmumu pārdošanas pasūtījuma izveide iekšējai lietošanai
+                      href: sales-marketing/intercompany-sales-order-for-internal-use.md
+                    - name: Starpuzņēmumu pārdošanas pasūtījumu ārējam debitoram izveide un iekļaušana rēķinā
+                      href: sales-marketing/intercompany-sales-order-for-external-customer.md
+                    - name: Starpuzņēmumu rezervācijas
+                      href: sales-marketing/intercompany-reservations.md
+                    - name: Starpuzņēmumu pārdošanas pasūtījuma oriģināla mainīšana vai dzēšana
+                      href: sales-marketing/intercompany-change-delete-original-sales-order.md
+                    - name: Starpuzņēmumu pasūtījumu mainīšana
+                      href: sales-marketing/intercompany-change-orders.md
+                    - name: Starpuzņēmumu partiju un sēriju numuri
+                      href: sales-marketing/intercompany-batch-serial-numbers.md
+                    - name: Starpuzņēmumu pavadzīmes
+                      href: sales-marketing/intercompany-packing-slips.md
+                    - name: Starpuzņēmumu debitoru rēķinu maksājumu automātiska reģistrēšana
+                      href: sales-marketing/intercompany-register-customer-payments-automatically.md
+                - name: Starpuzņēmumu pirkšanas pasūtījumi
+                  items:
+                    - name: Starpuzņēmumu pirkšanas pasūtījuma izveide un rēķina izrakstīšanai iekšējai lietošanai
+                      href: sales-marketing/intercompany-purchase-order-for-internal-use.md
+                    - name: Pārbaudīt starpuzņēmuma pasūtījumu cenu atšķirības
+                      href: sales-marketing/intercompany-check-price-discrepancies.md
+                - name: Starpuzņēmumu valūtas konvertēšana
+                  href: sales-marketing/intercompany-currency-conversions.md
+                - name: Starpuzņēmumu vispārējā plānošana
+                  href: sales-marketing/intercompany-master-scheduling.md
+            - name: Atgriešanas darbības
               items:
                 - name: Pārdošanas ieņēmumi
                   href: warehousing/sales-returns.md
@@ -3067,6 +3127,8 @@
               href: landed-cost/landed-cost-vs-tms.md
             - name: Kopējo sūtījuma izmaksu moduļa iestatīšana un konfigurēšana
               items:
+                - name: Kopējo sūtījuma izmaksu moduļa ieslēgšana sistēmai
+                  href: landed-cost/landed-cost-enable.md
                 - name: Kopējo sūtījuma izmaksu parametri
                   href: landed-cost/landed-cost-parameters.md
                 - name: Kopējo sūtījuma izmaksu sagādes un avotu parametri
@@ -3181,10 +3243,12 @@
                       href: warehousing/system-directed-work-sequencing.md
                     - name: Izdošanas rindu grupēšana
                       href: warehousing/pick-line-grouping.md
-                    - name: Noliktavas slotu veidošana
+                    - name: Noliktavu slotu veidošana
                       href: warehousing/warehouse-slotting.md
                     - name: Novietojuma direktīvas krājumu izdošanas vecumstruktūras
                       href: warehousing/location-directive-inventory-picking-aging.md
+                    - name: Noenkurošana
+                      href: warehousing/anchoring.md
                     - name: Izejošā kārtošana
                       href: warehousing/outbound-sorting.md
                     - name: "Novietot pie sienas\_— novietot veikalā"
@@ -3341,6 +3405,8 @@
                       href: warehousing/display-older-batches-within-warehouses.md
                     - name: Vecākās partijas izdošana mobilajā ierīcē
                       href: warehousing/pick-oldest-batch.md
+                - name: Globālie mobilās ierīces parametri
+                  href: warehousing/mobile-device-parameters.md
                 - name: Mobilās ierīces lietotāja iestatījumi
                   href: warehousing/mobile-device-user-settings.md
                 - name: Noliktavas programmas notikumu apstrāde

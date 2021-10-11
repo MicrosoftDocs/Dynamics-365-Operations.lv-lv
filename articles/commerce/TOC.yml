@@ -1398,12 +1398,16 @@
               items:
                 - name: Commerce lokalizācija Krievijai
                   href: localizations/rus-commerce-localization.md
-                - name: Vienkāršotas debitora adreses formāts Commerce POS Krievijai
-                  href: localizations/rus-simplified-address.md
                 - name: "Commerce lokalizācija Krievijai\_— iestatīšana"
                   href: localizations/rus-commerce-setup.md
                 - name: "Commerce lietošanai Krievijā\_— priekšapmaksa"
                   href: localizations/rus-commerce-prepayments.md
+                - name: Vienkāršotas debitora adreses formāts Commerce POS Krievijai
+                  href: localizations/rus-simplified-address.md
+                - name: Fiskālā printera integrācijas paraugs Krievijai
+                  href: localizations/rus-fpi-sample.md
+                - name: Klientu informācijas pārvaldība Krievijai
+                  href: localizations/rus-customer-information.md
             - name: Zviedrija
               items:
                 - name: Kases sistēmas funkcionalitāte
@@ -2220,6 +2224,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/commerce/toc.json
                 - name: Globālās adrešu grāmatas konfigurēšana
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/commerce/toc.json
+                - name: Adreses iestatīšana
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/commerce/toc.json
                 - name: Bieži uzdotie jautājumi par adrešu grāmatām
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/commerce/toc.json
                 - name: Adrešu grāmatu konfigurēšana
@@ -2329,7 +2335,11 @@
         - name: Paplašināmība
           items:
             - name: Commerce izstrāde un paplašināmība
-              href: dev-itpro/dev-retail-home-page.md
+              items:
+                - name: "Commerce IT\_speciālistiem un izstrādātājiem"
+                  href: dev-itpro/dev-retail-home-page.md
+                - name: Lokālas izstrādes vides iestatīšana
+                  href: dev-itpro/setup-local-dev-env.md
             - name: Tiešsaistes kanāla paplašināmība
               items:
                 - name: Tiešsaistes kanāla paplašināmības pārskats

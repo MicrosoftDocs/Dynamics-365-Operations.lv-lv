@@ -5,6 +5,8 @@
       items:
         - name: Jaunumi un izmaiņas programmā Human Resources
           href: hr-admin-whats-new.md
+        - name: "2021.\_gada 20.\_septembris"
+          href: hr-whats-new-2021-09-20.md
         - name: "2021.\_gada 6.\_septembris"
           href: hr-whats-new-2021-09-06.md
         - name: "2021.\_gada 23.\_augusts"
@@ -291,6 +293,8 @@
               href: hr-admin-troubleshooting-batch-history.md
             - name: Iestrēgušu pakešuzdevumu atiestatīšana
               href: hr-admin-troubleshooting-batch-execution.md
+            - name: Dataverse sinhronizācijas atiestatīšana
+              href: hr-admin-troubleshooting-dataverse-sync.md
             - name: Analīzes pārskati netiek atjaunināti
               href: hr-admin-troubleshooting-analytic-reports.md
             - name: Nevar izveidot vidi Power Apps administrēšanas centrā
@@ -485,6 +489,12 @@
               items:
                 - name: Algoto nodarbināto atvieglojumu plāns
                   href: hr-admin-integration-payroll-api-payroll-worker-benefit-plan.md
+            - name: Citi elementi
+              items:
+                - name: Personas vārda un uzvārda vēsture
+                  href: hr-admin-integration-payroll-api-person-name-history.md
+                - name: Konvertēšanas maiņas kurss
+                  href: hr-admin-integration-payroll-api-compensation-pay-frequency.md
             - name: Opciju kopas
               items:
                 - name: Dzimums
@@ -493,7 +503,7 @@
                   href: hr-admin-integration-payroll-api-no-yes.md
                 - name: Piemaksas tips
                   href: hr-admin-integration-payroll-api-award-type.md
-                - name: Procesa veids
+                - name: Procesa tips
                   href: hr-admin-integration-payroll-api-process-type.md
                 - name: Atvieglojumu plāna veida segums
                   href: hr-admin-integration-payroll-api-benefit-plan-type-cover.md
@@ -543,6 +553,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: Globālās adrešu grāmatas konfigurēšana
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/human-resources/toc.json
+                - name: Adreses iestatīšana
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/human-resources/toc.json
                 - name: Bieži uzdotie jautājumi par adrešu grāmatām
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: Adrešu grāmatu konfigurēšana
@@ -781,6 +793,8 @@
                       href: hr-benefits-process-rate-changes.md
                 - name: ACA pārskats
                   href: hr-benefits-management-aca-reports.md
+                - name: Atvieglojumu pārskats
+                  href: hr-benefits-statement.md
             - name: Atvieglojumu programmas definēšana un pārvaldība
               href: hr-benefits-manage-program.md
             - name: Atvieglojumu piemērojamības politikas
