@@ -2,7 +2,7 @@
 title: PVN kodu iestatīšana
 description: Šajā tēmā paskaidrots, kā iestatīt pasūtījumu aizturēšanas kodus programmā Dynamics 365 Finance.
 author: twheeloc
-ms.date: 08/29/2018
+ms.date: 09/27/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f5ce2c8d9a117871191dd1c2d32d822bcc72d76fabaec146d9b8c27fc85dc058
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2539d701dda4ef5e1484d095b2d86d1f68a0dc98
+ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719202"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7562106"
 ---
 # <a name="set-up-sales-tax-codes"></a>PVN kodu iestatīšana
 
@@ -38,11 +38,19 @@ ms.locfileid: "6719202"
 8. **Darbību rūtī**, kas atrodas interfeisa augšdaļā, atlasiet **PVN kods**.
 9. Atlasiet **Vērtības**.
 10. Ievadiet šī nodokļa koda vērtību kolonnā **Vērtība**.
-    - Kopsavilkuma cilnes **Aprēķins** laukā Izcelsme ir atlasīta Summa uz vienu vienību, PVN summas rēķināšanai vērtība tiks reizināta ar transakcijā norādīto daudzumu.  Ja nodokļa kods neatbilst uz vienībām balstītam nodoklim, PVN summas vērtība tiek aprēķināta kā procenti no šī nodokļu koda Izcelsmes.     
+
+    Ja kopsavilkuma cilnes **Aprēķins** laukā **Izcelsme** ir atlasīta **Summa par vienu vienību**, PVN summas rēķināšanai vērtība tiks reizināta ar transakcijā norādīto daudzumu.  Ja nodokļa kods neatbilst uz vienībām balstītam nodoklim, PVN summas vērtība tiek aprēķināta kā procenti no šī nodokļu koda Izcelsmes.     
+
 11. Atlasiet **Saglabāt**.
 12. Aizvērt lapu.
 13. Atlasiet **Saglabāt**.
 
+Ja izmantojat Microsoft Dynamics 365 Finance versijā 10.0.22 [Nodokļu pakalpojumu](../../localizations/global-tax-calcuation-service-overview.md) un līdzeklis [**Atbalstīt vairākus PVN reģistrācijas numurus**](../../localizations/emea-multiple-vat-registration-numbers.md) ir iespējots darbvietā **Līdzekļu pārvaldība**, varat izmantot lauku **Nodokļa veids**, lai noteiktu nodokļa koda veidu. Ir pieejamas šādas vērtības:
 
+- Standarta PVN
+- Samazināts PVN
+- PVN 0%
+- Akcīze
+- Cits
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,22 +1,22 @@
 ---
 title: Kategorijas pieprasījumi no kreditoriem
 description: Šajā tēmā aprakstīts, kā kreditori savā kontā var pieprasīt sagādes kategorijas. Šeit aprakstīts arī iepirkuma aģentu pabeigtais apstiprināšanas process.
-author: kamaybac
+author: Henrikan
 ms.date: 04/19/2021
 ms.topic: article
 ms.search.form: VendRequestNewCategory
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: f73e163084ec2870d01cc063c63246a4480fd3a056d04617771b955477325671
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 560b62183f9c0c45c872998373a90dc9dc0ebbb3
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782495"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571717"
 ---
 # <a name="category-requests-from-vendors"></a>Kategorijas pieprasījumi no kreditoriem
 

@@ -1,8 +1,8 @@
 ---
 title: Naudas plūsmas prognozēšana
 description: Šajā tēmā ir sniegts pārskats par naudas plūsmas prognozēšanas procesu. Tajā ir arī paskaidrots, kā naudas plūsmas prognozēšana ir integrēta citos sistēmas moduļos.
-author: JodiChristiansen
-ms.date: 12/16/2020
+author: panolte
+ms.date: 09/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b9455d132a928185bdfeb49c01c141b4c9b2c52e3b3beb9f8a3c96a38238f296
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 83f8e5b03a2222884758dc567688da2a756421da
+ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779450"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547959"
 ---
 # <a name="cash-flow-forecasting"></a>Naudas plūsmas prognozēšana
 
@@ -83,7 +83,10 @@ Varat aizstāt lauka **Likviditātes konts** noklusējuma iestatījumu noteiktie
 
 ### <a name="budgeting"></a>Budžeta veidošana
 
-Naudas plūsmas prognozēs var ietvert budžetus, kas ir izveidoti no budžeta modeļiem. Lapas **Naudas plūsmas prognozes iestatīšana** cilnē **Budžeta veidošana** atlasiet prognozē ietveramos budžeta modeļus. Pēc budžeta modeļa iespējošanas naudas plūsmas prognozēšanai jaunie budžeta reģistra ieraksti pēc noklusējuma tiek ietveri prognozēs. Atsevišķiem budžeta reģistra ierakstiem var atcelt ietveršanu naudas plūsmas prognozēs.
+Naudas plūsmas prognozēs var ietvert budžetus, kas ir izveidoti no budžeta modeļiem. Lapas **Naudas plūsmas prognozes iestatīšana** cilnē **Budžeta veidošana** atlasiet prognozē ietveramos budžeta modeļus. Pēc budžeta modeļa iespējošanas naudas plūsmas prognozēšanai jaunie budžeta reģistra ieraksti pēc noklusējuma tiek ietveri prognozēs.
+
+Budžeta reģistra ierakstus var ietvert naudas plūsmas prognozē individuāli, izmantojot personalizāciju. Kad pievienojat kolonnu **Iekļaut naudas plūsmas prognozēs** **Budžeta reģistra ierakstu** lapai, sistēma pārrakstīs iestatījumus naudas plūsmas prognozes iestatījuma lapā, lai prognozē iekļautu atsevišķu budžeta reģistra ierakstu.
+
 
 ### <a name="inventory-management"></a>Krājumu vadība
 
@@ -144,7 +147,7 @@ Darbvietā **Naudas pārskats — visi uzņēmumi** tiek rādīti naudas plūsm
 
 Darbvietā **Naudas pārskats — pašreizējais uzņēmums** tiek rādīti naudas plūsmas prognozēšanas analīzes dati uzņēmumam definētajā uzskaites valūtā. Analīzei izmantoto uzskaites valūtu var definēt lapā **Virsgrāmata**. Šajā darbvietā ir sniegts pārskats par pašreizējā uzņēmuma naudas plūsmas prognozēšanu un bankas kontu bilancēm. Skaidras naudas ieejas un izejas plūsmas diagramma sniedz pārskatu par gaidāmo naudas plūsmu un bilancēm uzskaites valūtā, kā arī detalizētu informāciju par prognozētajām transakcijām. Varat skatīt arī prognozētās bilances noteiktā valūtā.
 
-Papildinformāciju par naudas plūsmas prognozēšanas analīzi skatiet tēmā [Skaidras naudas Power BI saturs](./cash-overview-power-bi-content.md).
+Papildinformāciju par naudas plūsmas prognozēšanas analīzi skatiet tēmā [Skaidras naudas Power BI satura pārskats](Cash-Overview-Power-BI-content.md).
 
 Tālāk norādītajās lapās varat arī skatīt naudas plūsmas prognozēšanas datus par noteiktiem kontiem, pasūtījumiem un krājumiem.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 4ee1ae4d8a106e467640a8cbcf5986e770395431
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: dc89e7ff43e5df358f6d41bd295e981c883085bc
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343864"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595207"
 ---
 # <a name="email-er-destination-type"></a>E-pasta ziņojuma ER adresāta tips
 
@@ -75,7 +75,7 @@ Varat norādīt e-pasta sūtītāju un e-pasta saņēmējus. Pēc noklusējuma e
 >
 > Kad e-pasta adresātu piedāvā mainīt [palaišanas laikā](electronic-reporting-destinations.md#security-considerations), lauks **No** ir redzams tikai lietotājiem, kuriem ir `ERFormatDestinationSenderEmailMaintain` drošības privilēģija, **Saglabāt sūtītāja e-pasta adresi ER formāta adresātiem**.
 >
-> Kad lauks **No** ir konfigurēts izmantot e-pasta adresi, kas nav pašreizējā lietotāja adrese, tiesības **Sūtīt kā** vai **Sūtīt vārdā** ir pareizi [jāiestata](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group?view=o365-worldwide) iepriekš. Pretējā gadījumā izpildlaikā tiek parādīts šāds izņēmums: "Nevar nosūtīt e-pastu kā \<from email account\> no \<current user account\> konta, lūdzu, pārbaudiet atļaujas Sūtīt kā šim \<from email account\> kontam."
+> Kad lauks **No** ir konfigurēts izmantot e-pasta adresi, kas nav pašreizējā lietotāja adrese, tiesības **Sūtīt kā** vai **Sūtīt vārdā** ir pareizi [jāiestata](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group) iepriekš. Pretējā gadījumā izpildlaikā tiek parādīts šāds izņēmums: "Nevar nosūtīt e-pastu kā \<from email account\> no \<current user account\> konta, lūdzu, pārbaudiet atļaujas Sūtīt kā šim \<from email account\> kontam."
 
 Varat konfigurēt lauku **No**, lai atgrieztu vairāk nekā vienu e-pasta adresi. Šajā gadījumā pirmā saraksta adrese tiek izmantota kā e-pasta sūtītāja adrese.
 

@@ -1,7 +1,7 @@
 ---
 title: Vispārējās plānošanas iestatīšanas vednis
-description: Šajā tēmā ir aprakstītas dažādas svarīgas stratēģijas un parametri, kas tiek izmantoti vispārējās plānošanas iestatīšanai.
-author: t-benebo
+description: Šajā tēmā ir aprakstīts, kā palaist vispārējās plānošanas iestatīšanas ceļvedi, lai iestatītu vispārējo plānošanu.
+author: ChristianRytt
 ms.date: 10/21/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 26dea90a208eddc39b9a92d534fbc3a5242da29f4839a7f0e427b0efb03701b9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b825858653599e8474a6fbd54b682c4fa0118053
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767464"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577508"
 ---
 # <a name="master-planning-setup-wizard"></a>Vispārējās plānošanas iestatīšanas vednis
 
@@ -125,9 +125,9 @@ Visbeidzot, atlasot **Pabeigt**, tiek lietota jaunā konfigurācija. Ja atlasāt
 
 Šajā sadaļā ir aprakstīts, kā iestatīt divus fiktīvus uzņēmumus, lai parādītu, kā iestatījums var mainīties atkarībā no katra uzņēmuma vajadzībām.
 
-### <a name="example-1-contoso-manufacturer"></a>1. piemērs: Contoso Ražotājs
+### <a name="example-1-contoso-manufacturer"></a>1. piemērs: Contoso Manufacturer
 
-Contoso Ražotājs ir ražošanas uzņēmums, kas ražo skaļruņus. Tas no dažādiem piegādātājiem iepērk dažādus izejmateriālus un komponentus, ko izmanto galīgajiem skaļruņiem. Šeit ir dažas tā piegādes un ražošanas īpašības:
+Contoso Manufacturer ir ražošanas uzņēmums, kas ražo skaļruņus. Tas no dažādiem piegādātājiem iepērk dažādus izejmateriālus un komponentus, ko izmanto galīgajiem skaļruņiem. Šeit ir dažas tā piegādes un ražošanas īpašības:
 
 - Pēdējiem krājumiem, kurus uzņēmums ražo, ir materiālu komplekta (MK) struktūra.
 - Visas gala preces un komponentus plāno, izmantojot vispārējo plānošanu. Manuālā plānošana nav veikta.
@@ -135,7 +135,7 @@ Contoso Ražotājs ir ražošanas uzņēmums, kas ražo skaļruņus. Tas no daž
 - Ražotne ražo gala krājumus. Tam ir noteikts skaits frēzēšanas un urbšanas mašīnu, kas tiek izmantotas komponentu apstrādei. Šīm mašīnām ir jāapstrādā dažādie komponenti.
 - Ir daudz piegādātāju. Vidējais krājumu izpildes laiks ir viena nedēļa. Krājumu grupai no tā paša piegādātāja būs septiņu nedēļu izpildes laiks.
 
-Vednī Contoso Ražotājs tiek ievadītas šādas vērtības:
+Vednī Contoso Manufacturer tiek ievadītas šādas vērtības:
 
 - **Vajadzība:**
 
@@ -153,7 +153,7 @@ Vednī Contoso Ražotājs tiek ievadītas šādas vērtības:
     - **Jautājums:** "Vai jums ir nepieciešams plānot operācijas, kas sadalītas atsevišķos darbos?"
     - **Atbilde:** "Jā."
 
-    Contoso Ražošana ir jāplāno un jāieplāno atsevišķie darbi, kas tiks veikti ražotnē. Tāpēc uzņēmums izmantos darbu plānošanu.
+    Contoso Manufacturing ir jāplāno un jāieplāno atsevišķie darbi, kas tiks veikti ražotnē. Tāpēc uzņēmums izmantos darbu plānošanu.
 
 - **Noslodze:**
 
@@ -176,15 +176,15 @@ Vednī Contoso Ražotājs tiek ievadītas šādas vērtības:
 
     Ir jāplāno visi krājumi, kas tiek izmantoti ražošanā. Tā kā krājumiem ir ļoti atšķirīgi izpildes laiki, vispārējā plānošana nodrošinās labāku veiktspēju, kad tā izmanto vajadzību grupas. Atkal, var ievadīt vienas nedēļas rezervi, un izvēršanu var veikt tādam pašam laikam kā vajadzība.
 
-### <a name="example-2-contoso-retailer"></a>2. piemērs: Contoso Mazumtirgotājs
+### <a name="example-2-contoso-retailer"></a>2. piemērs: Contoso Retailer
 
-Contoso Mazumtirgotājs ir izplatīšanas uzņēmums modes industrijā. Tas izmanto vispārējo plānošanu, lai aprēķinātu, kad ir jāievieto pirkšanas pasūtījumi, pamatojoties uz prognozēto pārdošanas apjomu. Šeit ir dažas tā īpašības:
+Contoso Retailer ir izplatīšanas uzņēmums modes industrijā. Tas izmanto vispārējo plānošanu, lai aprēķinātu, kad ir jāievieto pirkšanas pasūtījumi, pamatojoties uz prognozēto pārdošanas apjomu. Šeit ir dažas tā īpašības:
 
-- Contoso Mazumtirgotājs izmanto pieprasījuma apjoma prognozi, lai paredzētu pārdošanu. Pirkšanas pasūtījumi tiks plānoti saskaņā ar šo prognozi.
+- Contoso Retailer izmanto pieprasījuma apjoma prognozi, lai paredzētu pārdošanu. Pirkšanas pasūtījumi tiks plānoti saskaņā ar šo prognozi.
 - Veikalos tiek izmantots pieprasījums papildināšanai.
 - Izpildes laiks no galvenās noliktavas līdz katram veikalam ir aptuveni divas nedēļas visiem krājumiem.
 
-Vednī Contoso Mazumtirgotājs tiek ievadītas šādas vērtības:
+Vednī Contoso Retailer tiek ievadītas šādas vērtības:
 
 - **Pieprasījuma apjoma prognoze:**
 
@@ -198,7 +198,7 @@ Vednī Contoso Mazumtirgotājs tiek ievadītas šādas vērtības:
     - **Jautājums:** "Vai vēlaties, lai vispārējā plānošana automātiski apstiprinātu plānotos pasūtījumus pasūtījumu dokumentos, piemēram, ražošanas vai pirkšanas pasūtījumos?"
     - **Atbilde:** "Jā, kā definēts šajā vispārējā plānā." Tiek ievadīta **1 diena**.
 
-    Tā kā Contoso Mazumtirgotājs izveidos pirkšanas pasūtījumus tieši no plānotajiem pirkšanas pasūtījumiem, tas ir lietderīgi, ja plānotie pirkšanas pasūtījumi tiks automātiski apstiprināti. Tā kā uzņēmums veic vispārējo plānošanu katru dienu, vienas dienas apstiprināšanas laika periods automātiski apstiprinās visus pasūtījumus, kas ir nepieciešami nākamajai dienai.
+    Tā kā Contoso Retailer izveidos pirkšanas pasūtījumus tieši no plānotajiem pirkšanas pasūtījumiem, tas ir lietderīgi, ja plānotie pirkšanas pasūtījumi tiks automātiski apstiprināti. Tā kā uzņēmums veic vispārējo plānošanu katru dienu, vienas dienas apstiprināšanas laika periods automātiski apstiprinās visus pasūtījumus, kas ir nepieciešami nākamajai dienai.
 
 - **Apstiprinātie pieprasījumi:**
 

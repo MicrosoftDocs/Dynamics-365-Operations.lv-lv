@@ -2,7 +2,7 @@
 title: Noņemtie vai novecojušie platformas līdzekļi
 description: Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt no Finance and Operations programmu platformu atjauninājumiem.
 author: sericks007
-ms.date: 09/17/2021
+ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 8910fc338f822e6b6b59acb0e6ee7a90db2b5007
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 956ead503d426bb6cdfd136957c7f9dfa157bc08
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500113"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595149"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Noņemtie vai novecojušie platformas līdzekļi
 
@@ -32,14 +32,26 @@ ms.locfileid: "7500113"
 
 Detalizēta informācija par Finance and Operations programmu objektiem ir pieejama tēmā [Tehniskās atsauces pārskati](/dynamics/s-e/global/axtechrefrep_61). Varat salīdzināt dažādās šo pārskatu versijas, lai noskaidrotu, kuri objekti ir mainīti vai noņemti katrā Finance and Operations programmu versijā.
 
+## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Platformas atjauninājumi Finance and Operations programmu 10.0.21 versijai
+
+### <a name="skype-for-business-online-support"></a>Skype uzņēmumiem tiešsaistes atbalsts
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Skype uzņēmumiem tiešsaistē ir noņemts. Lai iegūtu papildu informāciju, skatieties [Skype uzņēmumiem tiešsaistes pakalpojums ir noņemts](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/the-skype-for-business-online-service-has-retired/ba-p/2596601). |
+| **Vai ir aizstāts ar citu līdzekli?**   | Šobrīd tā nav, lai gan mēs varam apsvērt klātbūtnes pievienošanu nākotnē no Teams.|
+| **Ietekmētie produkta apgabali**         | Tīmekļa klients |
+| **Izvietošanas iespēja**              | Visi |
+| **Statuss**                         | Novecojis. Iestatījums **Skype ir ieslēgts** ir atslēgts no laidiena 10.0.21. Šī iestatījuma noņemšana ir plānota 2022.gada aprīlī; tomēr funkcija vairs nedarbosies, kad Skype komanda izbeigs pakalpojumu. |
+ 
 ## <a name="feature-deprecation-effective-august-2021"></a>Līdzekļu nolietošana, kas ir spēkā no 2021. gada augusta
 
 ### <a name="microsoft-azure-sql-reports-in-lifecycle-services-lcs"></a>Microsoft Azure SQL pārskati Lifecycle Services (LCS)
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** |   Visas darbības un pārraudzību veic platforma, iekšēji un izmantojot automatizāciju. Nebūs nepieciešama manuāla iejaukšanās.|
-| **Vai ir aizstāts ar citu līdzekli?**   | Nr. |
+| **Novecošanas/noņemšanas pamatojums** | Visas darbības un pārraudzību veic platforma, iekšēji un izmantojot automatizāciju. Nebūs nepieciešama manuāla iejaukšanās.|
+| **Vai ir aizstāts ar citu līdzekli?**   | Jā, tagad ir automatizēta sistēma, kas atveido šīs iespējas novecojušas. |
 | **Ietekmētie produkta apgabali**         | SQL pārskati: Pašreizējais DTU, Pašreizējās DTU detaļas, Iegūt detalizētu informāciju par bloķēšanu, Pašreizējā plāna palīglīniju saraksts, Iegūt vaicājuma ID sarakstu, Iegūt SQL vaicājumu plānu pašreizējam plāna ID, Iegūt vaicājuma plānus un izpildes statusu, Iegūt droseles configurāciju, Iegūt gaidīšanas statistiku, Uzskaitīt dārgākus vaicājumus |
 | **Izvietošanas iespēja**              | Mākoņa izvietošana: ietekmē Microsoft pārvaldītas ražošanas vides un 2. pakāpes, izmantojot 5. pakāpes tekstlodziņa vides. |
 | **Statuss**                         | Novecojis: plānotais noņemšanas datums 2021. gada oktobris. |
@@ -48,8 +60,8 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Mēs nolietojam dažus SQL darbības LCS.  |
-| **Vai ir aizstāts ar citu līdzekli?**   | Nr. |
+| **Novecošanas/noņemšanas pamatojums** | Mēs nolietojam dažus SQL darbības LCS. Visas darbības un pārraudzību veic platforma, iekšēji un izmantojot automatizāciju. Nebūs nepieciešama manuāla iejaukšanās. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Jā, tagad ir automatizēta sistēma, kas atveido šīs iespējas novecojušas. |
 | **Ietekmētie produkta apgabali**         | SQL darbības: Izveidot plāna palīglīniju, lai spēkā būtu plāna ID, Izveidot plāna palīglīniju, lai pievienotu tabulas norādes, Noņemt plāna palīglīniju, Atspējot/iespējot lapas bloķēšanu un bloķēšanas eskalāciju, Atjaunināt statistiku tabulā, Atjaunot indeksu, Izveidot indeksu |
 | **Izvietošanas iespēja**              | Mākoņa izvietošana: ietekmē Microsoft pārvaldītas ražošanas vides un 2. pakāpes, izmantojot 5. pakāpes tekstlodziņa vides. |
 | **Statuss**                         | Novecojis: plānotais noņemšanas datums 2021. gada oktobris. |
@@ -64,7 +76,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 | **Vai ir aizstāts ar citu līdzekli?**   | Jā, šis līdzeklis tiek aizstāts ar LCS [izsniegšanas meklēšanu](../lifecycle-services/issue-search-lcs.md) un [Dynamics uzraudzības brīdinājuma iesniegšanas pakalpojumu](../lcs-solutions/submit-localization-alerts.md). |
 | **Ietekmētie produkta apgabali**         | Globalizācijas portāls programmā LCS|
 | **Izvietošanas iespēja**              | Mākoņa izvietošana |
-| **Statuss**                         | Novecojis: plānotais noņemšanas datums 2022. gada maijs. |
+| **Statuss**                         | Novecojis: plānotais noņemšanas datums 2022. gada maijā. |
 
 
 ## <a name="feature-removed-effective-january-28-2021"></a>Līdzeklis noņemts 2021. gada 28. janvārī
@@ -158,7 +170,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Parasti pielāgots kods piedāvā ierobežotas priekšrocības, tajā pašā laikā nodrošina būtisku resursu piešķiršanu un aprēķina atbalstu. Pielāgotu kodu galvenokārt izmanto pārskatu autori, lai izsauktu publiskās metodes no pielāgotas koda komplektācijas. Tomēr mākoņa viesots pakalpojums neatbalsta atsauces uz sistēmas SSRS pārskatus pielāgotajām komplektācijām. |
-| **Vai ir aizstāts ar citu līdzekli?**   | Pārskata autori var izvēlēties turpināt atsauces uz publiskajiem .NET API matemātikai, pārveidošanai un formāta operācijām no jebkuras tekstlodziņa izteiksmes. Papildinformāciju skatiet sadaļā [Koda pievienošana pārskatam (SSRS)](/sql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15).  |
+| **Vai ir aizstāts ar citu līdzekli?**   | Pārskata autori var izvēlēties turpināt atsauces uz publiskajiem .NET API matemātikai, pārveidošanai un formāta operācijām no jebkuras tekstlodziņa izteiksmes. Papildinformāciju skatiet sadaļā [Koda pievienošana pārskatam (SSRS)](/sql/reporting-services/report-design/add-code-to-a-report-ssrs).  |
 | **Ietekmētie produkta apgabali**         | To programmas pārskata noformējumu apakškopa, kas definētas RDL, kas satur pielāgotu kodu. |
 | **Izvietošanas iespēja**              | Visu |
 | **Statuss**                         | Izmantojot versiju 10.0.13, kompilators sāks brīdinājuma izdošanu gadījumiem, kad pielāgots kods tiek noteikts SSRS pārskata definīcijā. Lai labotu problēmu, atveriet pārskata noformējuma definīciju un noņemiet visus pielāgotos kodu artefaktus. Šis brīdinājums tiks aizstāts ar kompilatora kļūdu turpmākajā atjauninājumā.   |

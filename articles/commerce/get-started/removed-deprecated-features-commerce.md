@@ -2,7 +2,7 @@
 title: Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Commerce
 description: Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt no Dynamics 365 Commerce.
 author: josaw
-ms.date: 08/16/2021
+ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 3ac08a409284681ba9bcc4825b936c0330d14e04
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: b582b8b95fcf2ad45aa1bb49eb5594d30874e0f4
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386745"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559563"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Commerce
 
@@ -37,6 +37,18 @@ ms.locfileid: "7386745"
 
 [!include [banner](../includes/preview-banner.md)]
 
+### <a name="overlapping-discounts-handling-setting-in-commerce-parameters"></a>Atlaižu apstrādes iestatījumu pārklāšanās Commerce parametros
+
+**Atlaides, kas pārklājas, apstrādes iestatījums** **Commerce parametru** lapā ir novecojis Commerce versijā 10.0.21. Virzoties uz priekšu, Commerce cenu noteikšanas programma izmantos vienu algoritmu, lai noteiktu optimālu atlaižu kombināciju, kas pārklājas.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | <p>**Atlaižu, kas pārklājas, apstrādes iestatījums** Commerce parametros kontrolē to, kā Commerce cenu noteikšanas programma meklē un nosaka atlaižu pārklāšanās optimālu kombināciju. Pašlaik tas piedāvā trīs opcijas:<p><ul><li> **Labākā veiktspēja** – šī opcija izmanto uzlaboto heiristisko algoritmu un [robežvērtīgās vērtības rangu](../optimal-combination-overlapping-discounts.md) metodi, lai laikus noteiktu prioritātes, novērtēt un noteikt labāko atlaižu kombināciju.</li><li>**Līdzsvarotais aprēķins** – pašreizējā koda bāzē šī opcija darbojas tāpat kā opcija **Labākā veiktspēja**. Tādēļ tā pamatā ir dublēta opcija.</li><li>**Pilnīgs aprēķins** – šī opcija izmanto vecu algoritmu, kas iet cauri visām iespējamām atlaižu kombinācijām cenu aprēķina laikā. Pasūtījumiem, kuriem ir lielas rindas un daudzumi, šī opcija var izraisīt veiktspējas problēmas.</li></ul><p>Lai palīdzētu vienkāršot konfigurāciju, uzlabot veiktspēju un samazināt incidentus, ko rada vecais algoritms, mēs pilnībā izņemsim **Atlaižu apstrādes iestatījumu** un atjauninās Commerce cenu noteikšanas programmas iekšējo loģiku, lai tagad tas varētu izmantot tikai papildu algoritmu (t.i., algoritmu, kas atrodas aiz opcijas **Labākā veiktspēja**).</p> |
+| **Vai ir aizstāts ar citu līdzekli?**   | Nē. Pirms šīs funkcijas noņemšanas ieteicams organizācijām, kas izmanto opciju **Līdzsvarots aprēķins** vai **Pilnīgs aprēķins**, pārslēgties uz opciju **Labākā veiktspēja**. |
+| **Ietekmētie produkta apgabali**         | Cenu noteikšana un atlaides |
+| **Izvietošanas iespēja**              | Visi |
+| **Statuss**                         | Ar 10.0.21 laidienu **Atlaižu apstrādes iestatījums**, kas pārklājas, tiks noņemts no Commerce parametriem 2022. gada oktobrī. |
+
 ### <a name="retail-sdk-distributed-by-using-lifecycle-services"></a>Retail SDK sadale, izmantojot lifecycle Services
 
 Retail SDK nosūta pakalpojumos Lifecycle Services (LCS). Šis sadales režīms ir novecojis versijā 10.0.21. Tālāk Retail SDK atsauces pakotnes, bibliotēkas un paraugi tiks publicēti GitHub publiskajos repozitojos.
@@ -55,7 +67,7 @@ Mazumtirdzniecības izvietojamās pakotnes, kas ģenerētas, izmantojot Retail S
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Retail izvietojama pakotne ir kombinēta pakotne, kurā ir ietverta pilna paplašinājuma pakotņu un instalētāju kopa. Šī apvienotā pakotne padara izvietošanu par kompleksu, jo CSU paplašinājumi tiek izvietoti veikalos uz Cloud Scale Unit un instalētājiem. Instalēšanas programma ietver paplašinājumu un pamata preci, kas apgrūtinātu atjauninājumus. Ar katru atjauninājumu ir jāveic koda sapludināšana un pakotnes ģenerēšana. Lai šo procesu vienkāršotu, paplašinājuma pakotnes tagad tiek sadalītas komponentos viegliai izvietošanai un pārvaldībai. Izmantojot jauno pieeju, paplašinājumi un pamata produktu instalētāji ir atdalīti, un tos var neatkarīgi apkalpot un jaunināt bez koda sapludināšanas vai pārpakošanas.|
+| **Novecošanas/noņemšanas pamatojums** | Retail izvietojama pakotne ir kombinēta pakotne, kurā ir ietverta pilna paplašinājuma pakotņu un instalētāju kopa. Šī apvienotā pakotne padara izvietošanu par kompleksu, jo CSU paplašinājumi tiek izvietoti veikalos uz Cloud Scale Unit un instalētājiem. Instalēšanas programma ietver paplašinājumu un pamata preci, kas apgrūtinātu atjauninājumus. Ar katru atjauninājumu ir nepieciešama koda sapludināšana un pakotnes ģenerēšana. Lai šo procesu vienkāršotu, paplašinājuma pakotnes tagad tiek sadalītas komponentos viegliai izvietošanai un pārvaldībai. Izmantojot jauno pieeju, paplašinājumi un pamata produktu instalētāji ir atdalīti, un tos var neatkarīgi apkalpot un jaunināt bez koda sapludināšanas vai pārpakošanas.|
 | **Vai ir aizstāts ar citu līdzekli?**   | CSU paplašinājumi, POS paplašinājumu instalētāji, aparatūras stacijas paplašinājumu instalētāji |
 | **Ietekmētie produkta apgabali**         | Dynamics 365 Commerce paplašināšana un izvietošana |
 | **Izvietošanas iespēja**              | Visu |
@@ -103,7 +115,7 @@ POS paplašinājuma izstrāde, izmantojot ModernPos.sln, CloudPOs.sln, POS. Exte
 | **Novecošanas/noņemšanas pamatojums** | Sākot ar 2020. gada decembri, Microsoft Internet Explorer 11 atbalsts visām Dynamics 365 precēm ir novecojis, un Internet Explorer 11 netiks atbalstīts pēc 2021. gada augusta.<br><br>Tas ietekmēs klientus, kas izmanto Dynamics 365 preces, kas paredzētas izmantošanai ar Internet Explorer 11 interfeisu. No 2021. gada augusta Internet Explorer 11 šīs Dynamics 365 preces netiks atbalstītas. |
 | **Vai ir aizstāts ar citu līdzekli?**   | Mēs rekomendējam, lai klienti pāriet uz Microsoft Edge.|
 | **Ietekmētie produkta apgabali**         | Visas Dynamics 365 preces |
-| **Izvietošanas iespēja**              | Visu|
+| **Izvietošanas iespēja**              | Visi|
 | **Statuss**                         | Novecojis. Internet Explorer 11 netiks atbalstīts pēc 2021. gada augusta.|
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10011-release"></a>Noņemtie vai novecojuši līdzekļi programmas Commerce 10.0.11 laidienā

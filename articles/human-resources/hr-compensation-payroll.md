@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 80bba5446eb7a87d96a7da4ae856cb5ca114ce52
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.openlocfilehash: b9536a6e12b4037458910b7a2d27450ac175fd9d
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483786"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559611"
 ---
 # <a name="ready-to-pay"></a>Gatavs apmaksai
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-[!include [preview feature](./includes/preview-feature.md)]
 
 > [!NOTE]
 > Ja vēlaties atzīmēt darbinieku kā gatavu apmaksai, vispirms aktivizējiet funkcionalitāti **(Priekšskatījums) algu integrācija** līdzekļu pārvaldībā. Lai iegūtu papildinformāciju par priekšskatījuma līdzekļu iespējošanu, skatiet sadaļu [Līdzekļu pārvaldība](hr-admin-manage-features.md).
@@ -72,10 +70,9 @@ Ja kāda no šīm apstiprināšanām neizdodas, nevar atzīmēt darbinieku kā g
 
 Ja lauks **Gatavs maksāt** ir **Nē**, šī ir norāde, ka jāveic darbība, lai nodrošinātu, ka darbinieka profils ir pabeigts. Tas neapturēs datu saskarsmi ar jebkuru datu elementu. 
 
-## <a name="known-issues"></a>Zināmās problēmas
+## <a name="process-automation"></a>Procesu automatizācija
 
-- Līdzekļu pārvaldībā jums jāatspējo iespēja **Racionalizēts darbinieka ieraksts**. Ja izmantojat šo funkciju, kompensācijas pārvaldības darbvietā darbs nedarbosies pareizi.
-- Lapā **Darbinieks** cilnes **Alga** grupa  **Gatavs maksāt** ir pieejama jebkurai lietotāja lomai. 
+Jūs varat automatizēt visu darbinieku pārbaudi, izmantojot [Procesu automatizāciju](/dynamics365/fin-ops-core/dev-itpro/sysadmin/process-automation). **Atlīdzību pārvaldības** darbvietā dodieties uz **Saites** \> **Parametri** \> **Procesu automatizācija**.
 
 ## <a name="see-also"></a>Skatiet arī
 
