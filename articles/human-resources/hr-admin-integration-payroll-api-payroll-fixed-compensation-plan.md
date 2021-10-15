@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dcb253fabbb183003048119c7a627bf0ab960050
-ms.sourcegitcommit: 4d11061f5de0ddba1f968bd5c3fd694a8b104ccc
+ms.openlocfilehash: a3cc431307d840d393a454e91f202c07c38d2512
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7429237"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559343"
 ---
 # <a name="payroll-fixed-compensation-plan"></a>Algu aprēķina fiksētās atlīdzības plāns
 
@@ -42,13 +42,13 @@ Fiziskais nosaukums: mshr_payrollfixedcompensationplanentity.
 | **Amata ID**</br>mshr_positionid</br>*Virkne* | Tikai lasāms | Amata ID, kas saistīts ar darbinieka un fiksētās atlīdzības plāna reģistrāciju. |
 | **Derīgs no**</br>mshr_validfrom</br>*Datuma Laika Nobīde* |  Tikai lasāms | Datums, no kura ir fiksētā atlīdzība par darbinieku.  |
 | **Derīgs līdz**</br>mshr_validto</br>*Datuma Laika Nobīde* | Tikai lasāms | Datums, līdz kuram ir fiksētā atlīdzība par darbinieku. |
-| **Algas izmaksas biežums**</br>mshr_payfrequency</br>*Virkne* | Tikai lasāms | Darbinieka apmaksas biežums.  |
+| **Algas izmaksas biežums**</br>mshr_payfrequency</br>*Virkne* | Tikai lasāms | [Atlīdzības algas izmaksas biežuma ID ](hr-admin-integration-payroll-api-compensation-pay-frequency.md) dotajam algas koeficientam. |
 | **Valūta**</br>mshr_currency</br>*Virkne* | Tikai lasāms | Valūta definēta fiksētās atlīdzības plānam. |
 | **Elements Algu aprēķina fiksētās atlīdzības plāns**</br>mshr_payrollfixedcompensationplanentityid</br>*GUID* | Sistēmas ģenerēts | Sistēmas ģenerēta GUID vērtība, lai unikāli identificētu atlīdzības plānu. |
 
 ## <a name="relations"></a>Saites
 
-|Rekvizīta vērtība | Saistītā entītija | Navigācijas rekvizīts | Kolekcijas veids |
+|Rekvizīta vērtība | Saistītais elements | Navigācijas rekvizīts | Kolekcijas veids |
 | --- | --- | --- | --- |
 | _mshr_fk_employee_id_value | [mshr_payrollemployeeentity](hr-admin-integration-payroll-api-payroll-employee.md) | mshr_FK_Employee_id | mshr_FK_PayrollEmployeeEntity_FixedCompPlan |
 | _mshr_fk_job_id_value | [mshr_payrollpositionjobentity](hr-admin-integration-payroll-api-payroll-position-job.md) | mshr_FK_Job_id | mshr_FK_PayrollPositionJobEntity_FixedCompPlan |

@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 09caa7fa8f10d1afc44bb9343550bc633b8ec99a
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: 4fd6039843be09ec706e45746d5724faa99a95e6
+ms.sourcegitcommit: 3f59b15ba7b4c3050f95f2b32f5ae6d7b96e1392
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472229"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7563065"
 ---
 # <a name="customer-management-in-stores"></a>Klientu pārvaldība veikalos
 
@@ -45,7 +45,8 @@ Pārdošanas asistenti var tvert vairākas klienta adreses. Klienta vārds, uzv�
 
 ## <a name="sync-customers-and-async-customers"></a>Klientu sinhronizēšana un asinhronizēšana
 
-> [SVARĪGI] Katru reizi, kad POS ir bezsaistē, sistēma automātiski izveido klientu asinhroni pat, ja ir atspējots asinhronas klientu izveidnes režīms. Tāpēc, neatkarīgi no tā, vai izvēlaties sinhrono vai asinhrono klientu izveidi, Commerce galvenās pārvaldes administratoriem ir jāizveido un jāieplāno atkārtots pakešuzdevums **P-darbam**, uzdevumam **Sinhronizēt klientus un biznesa partnerus no asinhronā režīma** (iepriekš zināms kā uzdevums **Sinhronizēt klientus un biznesa partnerus no asinhronā režīma**) un uzdevumam **1010**, lai jebkādi asinhronie klienti Commerce galvenajā pārvaldē tiktu konvertēti par sinhronajiem klientiem.
+> [!IMPORTANT]
+> Katru reizi, kad POS ir bezsaistē, sistēma automātiski izveido klientu asinhroni pat, ja ir atspējots asinhronas klientu izveidnes režīms. Tāpēc, neatkarīgi no tā, vai izvēlaties sinhrono vai asinhrono klientu izveidi, Commerce galvenās pārvaldes administratoriem ir jāizveido un jāieplāno atkārtots pakešuzdevums **P-darbam**, uzdevumam **Sinhronizēt klientus un biznesa partnerus no asinhronā režīma** (iepriekš zināms kā uzdevums **Sinhronizēt klientus un biznesa partnerus no asinhronā režīma**) un uzdevumam **1010**, lai jebkādi asinhronie klienti Commerce galvenajā pārvaldē tiktu konvertēti par sinhronajiem klientiem.
 
 Risinājumā Commerce ir divi klientu izveides režīmi: sinhronā un asinhronā. Klienti pēc noklusējuma tiek izveidoti sinhroni. Citiem vārdiem sakot, tos izveido Commerce galvenajā pārvaldē reāllaikā. Sinhronizētais klientu izveides režīma priekšrocība ir tas, ka jaunos klientus var nekavējoties meklēt visos kanālos. Taču šim režīmam ir arī trūkums. Tā kā tas uz Commerce galveno pārvaldi ģenerē zvanus [Commerce Data Exchange: Reāllaika pakalpojums](dev-itpro/define-retail-channel-communications-cdx.md#realtime-service), var tikt ietekmēts sniegums, ja secīgi tiek veikti vairāki klientu izveides zvani.
 

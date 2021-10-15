@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 255cc612ef727153be70b755745eed9ad679b839
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: f92850a741f2a0d4d1c2636cbbdf21fe95f307df
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414588"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559465"
 ---
 # <a name="configure-integration-with-dayforce"></a>Integrācijas konfigurēšana ar Dayforce
 
@@ -64,7 +64,6 @@ Algu aprēķina integrācijas ieslēgšanai ir divi primārie iznākumi, kā nor
 
 > [!NOTE]
 > Datu pakotne, kas pārsūtīta uz SFTP galapunktu, tiek šifrēta, izmantojot pakotnes unikālo atslēgu. Atslēga glabājas Azure Key Vault krātuvē, kam var piekļūt, tikai izmantojot Ceridian. Nav iespējams atšifrēt un pārbaudīt datu pakotnes saturu. Ja ir jāpārbauda datu pakotnes saturs, eksportējiet datu projektu “Algu aprēķina integrācijas eksportēšana” manuāli, lejupielādējiet to un pēc tam atveriet to. Eksportējot manuāli, pakotne netiks šifrēta un pārsūtīta.
-> Piemēram, ja integrācijas faili tiek sūtīti no Dynamics 365 Human Resources UAT vai smilškastes vides uz Ceridian Dayforce testa vidi, varat izmantot tālāk norādīto galveno akreditācijas datu komplekta URL: https://payrollintegrationprod.vault.azure.net.
 
 ## <a name="configure-your-data"></a>Datu konfigurēšana 
 

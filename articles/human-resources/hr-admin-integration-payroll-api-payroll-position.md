@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 05e9d6441cf99dce3f4663b9d5ba57e2b386e8c2f3060f75550270083f3b98b3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 76131b6cc7ee58d4a095da4ac56cd97124e42587
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741457"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559366"
 ---
 # <a name="payroll-position"></a>Algas pozīcija
 
@@ -32,22 +32,29 @@ Fiziskais nosaukums: mshr_payrollpositionentity.
 
 Šī entītija sniedz ar pozīciju saistīto informāciju par šo darbinieku.
 
-Fiziskais nosaukums: 
+Fiziskais nosaukums: mshr_payrollpositionentity.
 
 ## <a name="properties"></a>Rekvizīti
 
-| Rekvizīts<br>**Fiziskais nosaukums**<br>**_tips_** | Izmantot | Apraksts |
+| Rekvizīts</br>**Fiziskais nosaukums**</br>**_Veids_** | Izmantot | Apraksts |
 | --- | --- | --- |
-| **Ikgadējas regulāras stundas**<br>Ikgadējās regulārās stundas<br>*Decimāldaļskaitlis* | Tikai lasāms<br>Obligāts | Ikgadējās regulārās stundas, kas definētas šajā pozīcijā.  |
-| **Algas pozīcijas detalizētas informācijas elementa ID**<br>payrollpositiondetailsentityid<br>*Guid* | Obligāts<br>Sistēmas ģenerēts. | Sistēmas ģenerēta GUID vērtība, lai unikāli identificētu pozīciju.  |
-| **Primārais lauks**<br>mshr_primaryfield<br>*Virkne* | Obligāts<br>Sistēmas ģenerēts |  |
-| **Pozīcijas darba ID vērtība**<br>_mshr_fk_positionjob_id_value<br>*GUID* | Tikai lasāms<br>Obligāts<br>Ārējā atslēga:mshr_PayrollPositionJobEntity no mshr_payrollpositionjobentity |Darba ID, kas saistīts ar amatu.|
-| **Fiksētās atlīdzības plāna ID vērtība**<br>_mshr_fk_fixedcompplan_id_value<br>*GUID* | Tikai lasāms<br>Obligāts<br>Ārējā atslēga: mshr_FixedCompPlan_id no mshr_payrollfixedcompensationplanentity  | Fiksētās atlīdzības plāna ID, kas saistīts ar amatu. |
-| **Apmaksas cikla ID**<br>mshr_primaryfield<br>*Virkne* | Tikai lasāms<br>Obligāts | Pozīcijai definētais algas cikls. |
-| **Apmaksātāja juridiskā persona**<br>paidbylegalentity<br>*Virkne* | Tikai lasāms<br>Obligāts | Par maksājuma izsniegšanu atbildīgā pozīcijā definētā juridiskā persona. |
-| **Amata ID**<br>mshr_positionid<br>*Virkne* | Tikai lasāms<br>Obligāts | Pozīcijas ID. |
-| **Derīgs līdz**<br>derīgs līdz<br>*Datuma Laika Nobīde* | Tikai lasāms<br>Obligāts |Datums, no kura ir derīga pozīcijas informācija.  |
-| **Derīgs no**<br>derīgs no<br>*Datuma Laika Nobīde* | Tikai lasāms<br>Obligāts |Datums, līdz kuram ir derīga pozīcijas informācija.  |
+| **Amata ID**</br>mshr_positionid</br>*Virkne* | Tikai lasāms | Pozīcijas ID. |
+| **Apmaksas cikla ID**</br>mshr_paycycleid</br>*Virkne* | Tikai lasāms | Pozīcijai definētais algas cikls. |
+| **Ikgadējas regulāras stundas**</br>Ikgadējās regulārās stundas</br>*Decimāls* | Tikai lasāms | Ikgadējās regulārās stundas, kas definētas šajā pozīcijā. |
+| **Apmaksātāja juridiskā persona**</br>paidbylegalentity</br>*Virkne* | Tikai lasāms | Par maksājuma izsniegšanu atbildīgā pozīcijā definētā juridiskā persona. |
+| **Derīgs līdz**</br>derīgs līdz</br>*Datuma Laika Nobīde* | Tikai lasāms | Datums, līdz kuram ir derīga pozīcijas informācija. |
+| **Derīgs no**</br>derīgs no</br>*Datuma Laika Nobīde* | Tikai lasāms | Datums, no kura ir derīga pozīcijas informācija. |
+| **Primārais lauks**</br>mshr_primaryfield</br>*Virkne* | Sistēmas ģenerēts | Primārais lauks. |
+| **Algas pozīcijas detalizētas informācijas elementa ID**</br>payrollpositiondetailsentityid</br>*Guid* | Obligāts</br>Sistēmas ģenerēts. | Sistēmas ģenerēta globālā unikālā identifikatora (GUID) vērtība, lai unikāli identificētu pozīciju. |
+
+## <a name="relations"></a>Saites
+
+| Rekvizīta vērtība | Saistītais elements | Navigācijas rekvizīts | Kolekcijas veids |
+| --- | --- | --- | --- |
+| _mshr_fk_fixedcompplan_id_value | [mshr_payrollfixedcompensationplanentity](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md) | mshr_FK_FixedCompPlan_id | mshr_FK_PayrollFixedCompensationPlanEntity_PayrollPosition |
+| _mshr_fk_hcmpositionhierarchy_id_value | mshr_hcmpositionhierarchyentity | mshr_FK_HcmPositionHierarchy_id | Nav attiecināms |
+| _mshr_fk_job_id_value | mshr_payrollpositionjobentity | mshr_FK_Job_id | mshr_FK_PayrollPositionJobEntity_Payroll |
+| _mshr_fk_positionassignmentv2_id_value | mshr_hcmpositionworkerassignmentv2entity | mshr_FK_PositionAssignmentV2_id | Nav attiecināms |
 
 ## <a name="example-query"></a>Piemēra vaicājums
 

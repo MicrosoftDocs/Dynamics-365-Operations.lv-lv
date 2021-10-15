@@ -12,15 +12,17 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
-ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 15c27696a7f810b275cc9daf155d030d01bb725c69ce1a05b2f3a2d0a52899ac
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: 1946ca72aa92b644e15e8a625577bdf4ef1506ff
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764912"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577748"
 ---
 # <a name="inventory-value-storage-report"></a>Krājumu vērtības glabāšanas pārskats
+
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā skaidrots, kā palaist **Krājumu vērtības uzglabāšanas** pārskatu un padarīt rezultātu pieejamu digitāli vai nu kā interaktīvu lapu programmā Microsoft Dynamics 365 Supply Chain Management, vai kā eksportētu dokumentu jebkurā no vairākiem formātiem.
 

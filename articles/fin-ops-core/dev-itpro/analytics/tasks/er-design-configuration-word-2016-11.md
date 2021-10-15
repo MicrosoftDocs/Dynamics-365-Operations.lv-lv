@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 83e75eee54516539be939e9547a8b637bbf2ab107ae96c07c4bbefaad75f1022
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4d4eb4fd4ea32db5aa19e9d2b1300818b3aaf6fc
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768445"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594988"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>ER konfigurāciju ar Excel veidnēm atkārtota izmantošana, lai veidotu pārskatus Word formātā
 
@@ -90,7 +90,7 @@ Pašlaik Excel dokuments tiek izmantots kā veidne, lai ģenerētu izvadi formā
 
 Veiciet elementu kartēšanu no **Pārskata** pielāgotās XML daļas un Word dokumenta satura vadīklām.
 
-Ja pārzināt Word dokumentus, ko var noformēt kā veidlapas, kurās ir [satura vadīklas](/office/client-developer/word/content-controls-in-word), kas ir kartētas ar [pielāgotu XML daļu elementiem](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019), pabeidziet visas darbības nākamajā procedūŗā, lai izveidotu dokumentu. Papildinformāciju skatiet rakstā [Veidlapu izveide, kuras lietotāji var aizpildīt un izdrukāt Word formātā](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b). Pretējā gadījumā izlaidiet nākamo darbību.
+Ja pārzināt Word dokumentus, ko var noformēt kā veidlapas, kurās ir [satura vadīklas](/office/client-developer/word/content-controls-in-word), kas ir kartētas ar [pielāgotu XML daļu elementiem](/visualstudio/vsto/custom-xml-parts-overview), pabeidziet visas darbības nākamajā procedūŗā, lai izveidotu dokumentu. Papildinformāciju skatiet rakstā [Veidlapu izveide, kuras lietotāji var aizpildīt un izdrukāt Word formātā](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b). Pretējā gadījumā izlaidiet nākamo darbību.
 
 ## <a name="get-a-word-document-that-has-a-custom-xml-part-and-do-data-mapping"></a><a id='get-word-doc'></a>Iegūt Word dokumentu, kam ir pielāgota XML daļa, un veikt datu kartēšanu
 

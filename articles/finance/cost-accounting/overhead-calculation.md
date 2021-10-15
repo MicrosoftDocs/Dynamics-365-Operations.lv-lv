@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 98fd0b4a18b02ed58034ec6e22763ed7c66f567f5c9eeeed124996757470c419
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 60bce611ae1f6ed5d63860793cd5d1da3c421a9e
+ms.sourcegitcommit: e3290eb58ae569a59d6ae2e6922e7d8be8f1980f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766293"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "7551808"
 ---
 # <a name="overhead-calculation"></a>Pieskaitāmo izmaksu aprēķins
 
@@ -1328,83 +1328,12 @@ Nākamajā tabulā ir parādīts rezultāts, kāds tiek iegūts, ja kopējām iz
 ## <a name="conclusion"></a>Nobeigums
 Finanšu grāmatvedībā 10 000,00 izmaksas par elektrību tiek grāmatotas uz fiktīvu izmaksu centra ID. Tāpēc izmaksu grāmatveži zina, ka šīs izmaksas ir jāsadala. Izmaksu uzskaitē izmaksas plūst uz dažādām organizatoriskajām vienībām un līmeņiem, pamatojoties uz lietotajām politikām un kārtulām. Katras izmaksas ir saistītas ar kādu sadalījuma pamatu, kurš nodrošina vislabāko novērtējumu attiecībā uz izmaksu sadalījumu.
 
-<table>
-<thead>
-<tr>
-<th colspan="2" rowspan="2">Izmaksu elements</th>
-<th colspan="9">Izmaksu objekts</th>
-<th rowspan="2">Summa</th>
-</tr>
-<tr>
-<th>CC099</th>
-<th>CC001</th>
-<th>CC002</th>
-<th>CC003</th>
-<th>CC004</th>
-<th>Proj 1</th>
-<th>Proj 2</th>
-<th>Prod 1</th>
-<th>Prod 2</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td colspan="2">10001 Elektrība</td>
-<td style="text-align: right;"><strong>0,00</strong></td>
-<td style="text-align: right;"><strong>0,00</strong></td>
-<td style="text-align: right;"><strong>0,00</strong></td>
-<td style="text-align: right;"><strong>0,00</strong></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"><strong>30,00</strong></td>
-<td style="text-align: right;"><strong>10,00</strong></td>
-<td style="text-align: right;"><strong>7.770,57</strong></td>
-<td style="text-align: right;"><strong>2.189,43</strong></td>
-<td style="text-align: right;"><strong>10.000,00</strong></td>
-</tr>
-<tr>
-<td></td>
-<td style="text-align: left;">Neklasificēts</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-</tr>
-<tr>
-<td style="text-align: right;"></td>
-<td style="text-align: left;">Fiksētas izmaksas</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;">776.36</td>
-<td style="text-align: right;">223.64</td>
-<td style="text-align: right;"><strong>1.000,00</strong></td>
-</tr>
-<tr>
-<td style="text-align: right;"></td>
-<td style="text-align: left;">Mainīgas izmaksas</td>
-<td style="text-align: right;">000</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">30,00</td>
-<td style="text-align: right;">10,00</td>
-<td style="text-align: right;">6,994.21</td>
-<td style="text-align: right;">1,965.79</td>
-<td style="text-align: right;"><strong>9.000,00</strong></td>
-</tr>
-</tbody>
-</table>
+Izmaksu elements | Izmaksu objekts<br>CC099 | Izmaksu objekts<br>CC001 | Izmaksu objekts<br>CC002 | Izmaksu objekts<br>CC003 | Izmaksu objekts<br>CC004 | Izmaksu objekts<br>Proj 1 | Izmaksu objekts<br>Proj 2 | Izmaksu objekts<br>Prod 1 | Izmaksu objekts<br>Prod 2 | Kopsumma
+---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:
+10001 Elektrība | 0.00 | 0.00 | 0.00 | 0.00 |  | 30.00 | 10,00 | 7,770.57 | 2,189.43 | 10,000.00 |
+Neklasificēts | 0,00 |  |  |  |  |  |  |  |  |  |
+Fiksētas izmaksas | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |  |  | 776.36 | 223.64 | 1,000.00 |
+Mainīgas izmaksas | 000 | 0,00 | 0,00 | 0,00 | 0,00 | 30,00 | 10,00 | 6,994.21 | 1,965.79 | 9,000.00 |
 
 > [!NOTE]
 > Šajā tēmā ir parādīts, kā primārais izmaksu elements, 10001 Elektrība, plūst caur izmaksu objektiem. Tāpēc šīs pieskaitāmās izmaksas tiek sadalītas līdz zemākajam līmenim organizācijā. Citiem vārdiem sakot — izmaksas sedz zemākajā līmenī esošie izmaksu objekti. Ja ir nepieciešama vizuāla izmaksu plūsma starp izmaksu objektiem, varat izmantot izmaksu apkopošanas politiku kārtulas, lai šo izmaksu plūsmu vizualizētu. Plašāku informāciju skatiet [Izmaksu apkopojuma politika un pieskaitāmo izmaksu aprēķins](cost-rollup.md).

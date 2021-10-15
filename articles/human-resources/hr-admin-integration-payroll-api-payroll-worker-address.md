@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 898ca7b33e39ec33990fecc4c3a7229620fbfddd5ce8ad14423af38047187e55
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf3fc5f333333b9a832ecb9c185473e476ac231d
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761978"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559513"
 ---
 # <a name="payroll-worker-address"></a>Algas nodarbinātā adrese
 
@@ -34,22 +34,28 @@ Fiziskais nosaukums: mshr_payrollworkeraddressentity.
 
 ## <a name="properties"></a>Rekvizīti
 
-| Rekvizīts</br>**Fiziskais nosaukums**</br>**_tips_** | Izmantot | Apraksts |
+| Rekvizīts</br>**Fiziskais nosaukums**</br>**_Veids_** | Izmantot | Apraksts |
 | --- | --- | --- |
-| **Pilsēta**</br>mshr_city</br>*Virkne* | Tikai lasāms</br>Obligāts | Adresei definētā pilsēta.   |
-| **Darbinieku skaits**</br>mshr_personnelnumber</br>*Virkne* | Tikai lasāms</br>Obligāts | Darbinieka unikālais personāla numurs.  |
-| **Valsts reģions**</br>mshr_countryregionid</br>*Virkne* | Tikai lasāms</br>Obligāts | Adresei definētais valsts reģions.  |
-| **Derīgs no**</br>mshr_postaladdressvalidfrom</br>*Datuma Laika Nobīde* | Tikai lasāms </br>Obligāts | Datums, no kura adrese ir spēkā. |
-| **Darba adrese** </br> mshr_isworkedinaddressbr </br>*[mshr_NoYes opciju kopa](hr-admin-integration-payroll-api-no-yes.md)* | Tikai lasāms</br>Obligāts | Norāda, vai šī adrese ir darbinieka darba adrese. |
-| **Pagasts**</br>mshr_county</br>*Virkne* | Tikai lasāms</br>Obligāts | Adresei definētā valsts.  |
-| **Algas nodarbinātā adreses ID**</br>mshr_payrollworkeraddressentityid</br>*GUID* | Obligāts</br>Sistēmas ģenerēts | Sistēmas ģenerēta GUID vērtība, lai unikāli identificētu adresi.  |
-| **Primārais lauks**</br>mshr_primaryfield</br>*Virkne* | Tikai lasāms</br>Obligāts |  |
-| **Iela**</br>mshr_street</br>*Virkne* | Tikai lasāms</br>Obligāts | Adresei definētā iela. |
-| **Derīgs līdz**</br>mshr_postaladdressvalidto</br>*Datuma Laika Nobīde* | Tikai lasāms </br>Obligāts | Datums, līdz kuram adrese ir spēkā.  |
-| **Atrašanās vietas ID**</br>mshr_locationidbr>*Virkne* | Tikai lasāms <br>Obligāts | Adreses ID.  |
-| **Pasta indekss**</br>mshr_zipcode<br>*Virkne* | Tikai lasāms <br>Obligāts |Darbiniekam definētais identifikācijas numurs.  |
-| **Dzīves vieta**</br>mshr_islivedinaddressbr </br> *[mshr_NoYes opciju kopa](hr-admin-integration-payroll-api-no-yes.md)* | Tikai lasāms</br>Obligāts | Norāda, vai šī adrese ir darbinieka dzīves vieta. |
-| **Novads**</br>mshr_state</br>*Virkne* | Tikai lasāms</br>Obligāts | Adresei definēts štats.  |
+| **Darbinieku skaits**</br>mshr_personnelnumber</br>*Virkne* | Tikai lasāms | Darbinieka unikālais personāla numurs. |
+| **Atrašanās vietas ID**</br>mshr_locationidbr>*Virkne* | Tikai lasāms | Adreses ID. |
+| **Dzīves vieta**</br>mshr_islivedinaddressbr </br> *[mshr_NoYes opciju kopa](hr-admin-integration-payroll-api-no-yes.md)* | Tikai lasāms | Vērtība, kas norāda, vai adrese ir darbinieka dzīves vieta. |
+| **Darba adrese** </br> mshr_isworkedinaddressbr </br>*[mshr_NoYes opciju kopa](hr-admin-integration-payroll-api-no-yes.md)* | Tikai lasāms | Vērtība, kas norāda, vai adrese ir darbinieka darba vieta. |
+| **Valsts reģions**</br>mshr_countryregionid</br>*Virkne* | Tikai lasāms</br>Obligāts | Adresei definētais valsts vai reģions. |
+| **Pasta indekss**</br>mshr_zipcode<br>*Virkne* | Tikai lasāms | Darbiniekam definētais identifikācijas numurs. |
+| **Iela**</br>mshr_street</br>*Virkne* | Tikai lasāms | Adresei definētā iela. |
+| **Pilsēta**</br>mshr_city</br>*Virkne* | Tikai lasāms | Adresei definētā pilsēta. |
+| **Novads**</br>mshr_state</br>*Virkne* | Tikai lasāms | Adresei definētais reģions vai province. |
+| **Pagasts**</br>mshr_county</br>*Virkne* | Tikai lasāms | Adresei definētais rajons. |
+| **Derīgs no**</br>mshr_postaladdressvalidfrom</br>*Datuma Laika Nobīde* | Tikai lasāms | Datums, no kura adrese ir spēkā. |
+| **Derīgs līdz**</br>mshr_postaladdressvalidto</br>*Datuma Laika Nobīde* | Tikai lasāms | Datums, l​īdz kura adrese ir spēkā. |
+| **Primārais lauks**</br>mshr_primaryfield</br>*Virkne* | Tikai lasāms | Primārais lauks. |
+| **Algas nodarbinātā adreses ID**</br>mshr_payrollworkeraddressentityid</br>*GUID* | Sistēmas ģenerēts | Sistēmas ģenerēta globālā unikālā identifikatora (GUID) vērtība, lai unikāli identificētu adresi. |
+
+## <a name="relations"></a>Saites
+
+| Rekvizīta vērtība | Saistītais elements | Navigācijas rekvizīts | Kolekcijas veids |
+| --- | --- | --- | --- |
+| _mshr_fk_worker_id_value | [mshr_payrollemployeeentity](hr-admin-integration-payroll-api-payroll-employee.md) | mshr_FK_Worker_id | mshr_FK_PayrollEmployeeEntity_Address |
 
 ## <a name="example-query"></a>Piemēra vaicājums
 

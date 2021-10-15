@@ -1,7 +1,7 @@
 ---
 title: Programmā Field Service ietverto darba pasūtījumu sinhronizēšana ar projektu programmatūrā Supply Chain Management
 description: Šajā tēmā ir aprakstītas veidnes un pamata uzdevums, kas tiek izmantoti programmā Dynamics 365 Field Service ietverto darba pasūtījumu sinhronizēšanai ar projekta numuru programmā Dynamics 365 Supply Chain Management.
-author: ChristianRytt
+author: Henrikan
 ms.date: 03/12/2019
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 1b953e7649e0a88a31b40aa21de9296f4591904d7629cb12eb10f36091c33bc6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f0b3214aba5882a585664030d6c1aebe34de455c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779984"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572533"
 ---
 # <a name="synchronize-work-orders-with-project-from-field-service-to-supply-chain-management"></a>Programmā Field Service ietverto darba pasūtījumu sinhronizēšana ar projektu programmatūrā Supply Chain Management
 
@@ -61,19 +61,19 @@ Tālāk esošajos attēlos ir redzams veidnes kartējums līdzeklī Datu integr�
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderheader"></a>Darba pasūtījumi ar projektu (no Field Service uz Supply Chain Management): WorkOrderHeader
 
-[![Veidņu kartēšana līdzeklī Datu integrācija.](./media/FSWOP1.png)](./media/FSWOP1.png)
+[![Krājumu kartēšana datu integrācijā, darba pasūtījumi ar projektu (Field Service uz Supply Chain Management): WorkOrderHeader.](./media/FSWOP1.png)](./media/FSWOP1.png)
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderheaderproject"></a>Darba pasūtījumi ar projektu (no Field Service uz Supply Chain Management): WorkOrderHeaderProject
 
-[![Veidņu kartēšana līdzeklī Datu integrācija.](./media/FSWOP2.png)](./media/FSWOP2.png)
+[![Krājumu kartēšana datu integrācijā, darba pasūtījumi ar projektu (Field Service uz Supply Chain Management): WorkOrderHeaderProject.](./media/FSWOP2.png)](./media/FSWOP2.png)
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderproduct"></a>Darba pasūtījumi ar projektu (no Field Service uz Supply Chain Management): WorkOrderProduct
 
-[![Veidņu kartēšana līdzeklī Datu integrācija.](./media/FSWOP3.png)](./media/FSWOP3.png)
+[![Krājumu kartēšana datu integrācijā, darba pasūtījumi ar projektu (Field Service uz Supply Chain Management): WorkOrderProduct.](./media/FSWOP3.png)](./media/FSWOP3.png)
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderservice"></a>Darba pasūtījumi ar projektu (no Field Service uz Supply Chain Management): WorkOrderService
 
-[![Veidņu kartēšana līdzeklī Datu integrācija.](./media/FSWOP4.png)](./media/FSWOP4.png)
+[![Krājumu kartēšana datu integrācijā, darba pasūtījumi ar projektu (Field Service uz Supply Chain Management): WorkOrderService.](./media/FSWOP4.png)](./media/FSWOP4.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

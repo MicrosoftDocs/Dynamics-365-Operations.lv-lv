@@ -1,7 +1,7 @@
 ---
 title: Krājumu vajadzības kārtulu definēšana
-description: Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
-author: ShylaThompson
+description: Šajā procedūrā ir parādīts, kā izveidot vajadzību noteikumus un ignorēt vajadzības iestatījumus noteiktajam krājumam. Tajā ir arī parādīts, kā norādīt krājumu noklusējuma iestatījumus.
+author: ChristianRytt
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,94 +10,108 @@ ms.search.form: ReqGroup, DefaultDashboard, EcoResProductDetailsExtended, EcoRes
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 13725f904c569be21bdc50c8dceea4275da1bae67415e4017842dd258f11b07a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 15b0ad9faf2bcac25dec01a7ab44f804ad2345cd
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768051"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567227"
 ---
 # <a name="define-coverage-rules-for-items"></a>Krājumu vajadzības kārtulu definēšana
 
 [!include [banner](../../includes/banner.md)]
 
-Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF. Šajā procedūrā ir parādīts, kā izveidot vajadzību noteikumus un ignorēt vajadzības iestatījumus noteiktajam krājumam. Tajā ir arī parādīts, kā norādīt krājumu noklusējuma iestatījumus.
-
+USMF ir paraugdatu uzņēmums, kas tiek izmantots šīs procedūras izveidei. Šajā procedūrā ir parādīts, kā izveidot vajadzību noteikumus un ignorēt vajadzības iestatījumus noteiktajam krājumam. Tajā ir arī parādīts, kā norādīt krājumu noklusējuma iestatījumus.
 
 ## <a name="create-a-coverage-group"></a>Vajadzības grupas izveide
+
+Izveidojiet vajadzības grupu, rīkojoties šādi:
+
 1. Dodieties uz **Navigācijas rūts > Moduļi > Vispārējā plānošana > Iestatīšana > Vajadzības grupas**.
-2. Klikšķiniet **Jauns**.
-3. Laukā **Vajadzības grupa** ierakstiet vērtību.
-4. Laukā **Nosaukums** ierakstiet kādu vērtību.
-5. Laukā **Kalendārs** ierakstiet vērtību. Izvēlieties kalendāru, ko vispārējā plānošana izmanto, lai izveidotu papildināšanas ieteikumus šajā grupā iekļautajiem krājumiem.  
-6. Laukā **Vajadzības kods** atlasiet opciju. Šai procedūrai atlasiet 'Prasība'.  
-7. Laukā **Vajadzības periods (dienās)** ievadiet '90'. Šīs grupas krājumiem vispārējā plānošana izveidos papildināšanas ieteikumus līdz 90 dienām nākotnē.  
-8. Laukā **Dienas(-)** ievadiet “1”.
-9. Laukā **Dienas(+)** ievadiet “1”.
-10. Izvērsiet vai sakļaujiet sadaļu **Cits**.
-11. Sadaļā **Drošības rezerves dienās** laukā **Pieprasījuma datumam pieskaitītā saņemšanas rezerve** ievadiet '1'. Piemēram, ja drošības rezerve ir iestatīta uz 1 dienu un pirkšanas pasūtījuma rinda ir ieplānota saņemšanai 15. maijā, tad vispārējā plānošana pielāgoto saņemšanas datumu aprēķina kā 16. maiju.  
-12. Laukā **No pieprasījuma datuma atņemtā izsniegšanas rezerve** ievadiet “1”. Piemēram, ja saņemšanas rezerve ir iestatīta uz 1 dienu un pārdošanas pasūtījuma rinda ir ieplānota piegādei 15. maijā, tad vispārējā plānošana pielāgoto piegādes datumu aprēķina kā 14. maiju.  
-13. Laukā **Krājuma izpildlaikam pieskaitītā atkārtotas pasūtīšanas rezerve** ievadiet “1”.
-14. Noklikšķiniet uz **Saglabāt**.
+1. Atlasiet **Jauns**.
+1. Laukā **Vajadzības grupa** ierakstiet vērtību.
+1. Laukā **Nosaukums** ierakstiet kādu vērtību.
+1. Laukā **Kalendārs** ierakstiet vērtību. Izvēlieties kalendāru, ko vispārējā plānošana izmanto, lai izveidotu papildināšanas ieteikumus šajā grupā iekļautajiem krājumiem.  
+1. Laukā **Vajadzības kods** atlasiet opciju. Šai procedūrai atlasiet 'Prasība'.  
+1. Laukā **Vajadzības periods (dienās)** ievadiet '90'. Šīs grupas krājumiem vispārējā plānošana izveidos papildināšanas ieteikumus līdz 90 dienām nākotnē.  
+1. Laukā **Dienas(-)** ievadiet “1”.
+1. Laukā **Dienas(+)** ievadiet “1”.
+1. Izvērsiet vai sakļaujiet sadaļu **Cits**.
+1. Sadaļā **Drošības rezerves dienās** laukā **Pieprasījuma datumam pieskaitītā saņemšanas rezerve** ievadiet '1'. Piemēram, ja drošības rezerve ir iestatīta uz 1 dienu un pirkšanas pasūtījuma rinda ir ieplānota saņemšanai 15. maijā, tad vispārējā plānošana pielāgoto saņemšanas datumu aprēķina kā 16. maiju.
+1. Laukā **No pieprasījuma datuma atņemtā izsniegšanas rezerve** ievadiet “1”. Piemēram, ja saņemšanas rezerve ir iestatīta uz 1 dienu un pārdošanas pasūtījuma rinda ir ieplānota piegādei 15. maijā, tad vispārējā plānošana pielāgoto piegādes datumu aprēķina kā 14. maiju.  
+1. Laukā **Krājuma izpildlaikam pieskaitītā atkārtotas pasūtīšanas rezerve** ievadiet “1”.
+1. Atlasiet **Saglabāt**.
 
-## <a name="create-a-new-product"></a>Jaunas preces izveide
+## <a name="create-a-new-product"></a>Izveidot jaunu preci
+
+Izveidojiet vajadzības grupu, rīkojoties šādi:
+
 1. Dodieties uz **Navigācijas rūts > Moduļi > Preču informācijas pārvaldība > Preces > Tirdzniecībā izlaistās preces**.
-2. Klikšķiniet **Jauns**.
-3. Laukā **Preces numurs** ierakstiet vērtību.
-4. Laukā **Preces nosaukums** ierakstiet vērtību.
-5. In the **Krājumu modeļu grupa** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-6. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-7. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-8. Laukā **Krājumu grupa** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-9. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-10. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-11. Laukā **Noliktavas dimensiju grupa** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-12. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-13. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-14. Laukā **Izsekošanas dimensiju grupa** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-15. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-16. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-17. Noklikšķiniet uz **Labi**.
+1. Atlasiet **Jauns**.
+1. Laukā **Preces numurs** ierakstiet vērtību.
+1. Laukā **Preces nosaukums** ierakstiet vērtību.
+1. Laukā **Krājumu modeļu grupa** atlasiet nolaižamā saraksta pogu, lai atvērtu uzmeklēšanu.
+1. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
+1. Sarakstā atlasiet saiti atlasītajā rindā.
+1. Laukā **Krājumu grupa** atlasiet nolaižamā saraksta pogu, lai atvērtu uzmeklēšanu.
+1. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
+1. Sarakstā atlasiet saiti atlasītajā rindā.
+1. Laukā **Noliktavas dimensiju grupa** atlasiet nolaižamā saraksta pogu, lai atvērtu uzmeklēšanu.
+1. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
+1. Sarakstā atlasiet saiti atlasītajā rindā.
+1. Laukā **Izsekošanas dimensiju grupa** atlasiet nolaižamā saraksta pogu, lai atvērtu uzmeklēšanu.
+1. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
+1. Sarakstā atlasiet saiti atlasītajā rindā.
+1. Atlasiet **Labi**.
 
-## <a name="setup-default-order-settings"></a>Iestatīt noklusējuma pasūtījuma iestatījumus
-1. **Darbību rūtī** noklikšķiniet uz **Plāns**.
-2. Sadaļā **Pasūtījuma iestatījumi** noklikšķiniet uz lauka **Noklusējuma pasūtījuma iestatījumi**.
-3. Sadaļā **Pirkšanas pasūtījums** laukā **Noklusējuma vieta** ierakstiet vietu, ko izmantojat kā noklusējumu, kad tiek izveidoti pirkšanas pasūtījumi.
-4. Laukā **Noklusējuma noliktava** ierakstiet vietu, kur šis krājums tiek glabāts.
-5. Izvērsiet vai sakļaujiet sadaļu **Krājumi**.
-6. Laukā **Dalītājs** ierakstiet '10'.
-7. Laukā **Minimālais pasūtījuma daudzums** ierakstiet '10'.
-8. Laukā **Maksimālais pasūtījuma daudzums** ierakstiet '100'.
-9. Laukā **Standarta pasūtījuma daudzums** ierakstiet '10'.
-10. Laukā **Pirkšanas izpildes laiks** ievadiet kādu skaitli.
-11. Atzīmējiet izvēles rūtiņu **Darba dienas** vai noņemiet tās atzīmi.
-12. Noklikšķiniet uz **Saglabāt**.
-13. Laukā **Noklusējuma pasūtījuma veids** atlasiet “Pirkšanas pasūtījums”.
-14. Noklikšķiniet uz **Saglabāt**.
-15. Aizvērt lapu. Aizveriet lapu Pasūtījuma noklusējuma iestatījumi.  
+## <a name="set-up-default-order-settings"></a>Iestatīt noklusējuma pasūtījuma iestatījumus
+
+Iestatiet pasūtījuma noklusētos iestatījumus, rīkojoties šādi:
+
+1. **Darbību rūtī** atlasiet **Plāns**.
+1. Sadaļā **Pasūtījuma iestatījumi** atlasiet **Noklusējuma pasūtījuma iestatījumi**.
+1. Sadaļā **Pirkšanas pasūtījums** laukā **Noklusējuma vieta** ierakstiet vietu, ko izmantojat kā noklusējumu, kad tiek izveidoti pirkšanas pasūtījumi.
+1. Laukā **Noklusējuma noliktava** ierakstiet vietu, kur šis krājums tiek glabāts.
+1. Izvērsiet vai sakļaujiet sadaļu **Krājumi**.
+1. Laukā **Dalītājs** ierakstiet '10'.
+1. Laukā **Minimālais pasūtījuma daudzums** ierakstiet '10'.
+1. Laukā **Maksimālais pasūtījuma daudzums** ierakstiet '100'.
+1. Laukā **Standarta pasūtījuma daudzums** ierakstiet '10'.
+1. Laukā **Pirkšanas izpildes laiks** ievadiet kādu skaitli.
+1. Atzīmējiet izvēles rūtiņu **Darba dienas** vai noņemiet tās atzīmi.
+1. Atlasiet **Saglabāt**.
+1. Laukā **Noklusējuma pasūtījuma veids** atlasiet “Pirkšanas pasūtījums”.
+1. Atlasiet **Saglabāt**.
+1. Aizvērt lapu. Aizveriet lapu Pasūtījuma noklusējuma iestatījumi.  
 
 ## <a name="add-an-item-to-a-coverage-group"></a>Pievienot krājumu kādai vajadzības grupai
+
+Pievienojiet vajadzības grupai krājumu, rīkojoties šādi:
+
 1. Izvērsiet vai sakļaujiet sadaļu **Plāns**.
-2. Laukā **Vajadzības grupa** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-3. Šajā sarakstā atrodiet izveidoto **Vajadzības grupu**.
-4. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
+1. Laukā **Vajadzības grupa** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
+1. Šajā sarakstā atrodiet izveidoto **Vajadzības grupu**.
+1. Sarakstā atlasiet saiti atlasītajā rindā.
 
 ## <a name="create-item-coverage-rules"></a>Izveidot krājumu vajadzības kārtulas
-1. **Darbību rūtī** noklikšķiniet uz **Plāns**.
-2. Sadaļā **Vajadzība** noklikšķiniet uz **Krājumu vajadzība**.
-3. Klikšķiniet **Jauns**.
-4. Noklikšķiniet uz cilnes **Vispārīgi**.
-5. Atzīmējiet izvēles rūtiņu iestatījumu **Ignorēt vajadzības grupu** virsrakstā.
-6. Laukā **Vajadzības periods (dienās)** ievadiet '60'. Lai gan krājumi vajadzības grupā Pieprasījums tiek plānoti 90 dienas uz priekšu, šis krājums tiks plānots 60 dienas uz priekšu.  
-7. Laukā **Dienas(-)** ievadiet “2”.
-8. Laukā **Dienas(+)** ievadiet “2”.
-9. Noklikšķiniet uz cilnes **Izpildes laiks**.
-10. Atzīmējiet izvēles rūtiņu **Pirkšana** virsrakstā.
-11. Laukā **Pirkšanas laiks** ievadiet “5”.
-12. Noklikšķiniet uz **Saglabāt**.
+
+Izveidojiet krājuma vajadzības kārtulas, rīkojoties šādi:
+
+1. **Darbību rūtī** atlasiet **Plāns**.
+1. Sadaļā **Vajadzība** noklikšķiniet uz **Krājumu vajadzība**.
+1. Atlasiet **Jauns**.
+1. Atlasiet cilni **Vispārēji**.
+1. Atzīmējiet izvēles rūtiņu iestatījumu **Ignorēt vajadzības grupu** virsrakstā.
+1. Laukā **Vajadzības periods (dienās)** ievadiet '60'. Lai gan krājumi vajadzības grupā Pieprasījums tiek plānoti 90 dienas uz priekšu, šis krājums tiks plānots 60 dienas uz priekšu.  
+1. Laukā **Dienas(-)** ievadiet “2”.
+1. Laukā **Dienas(+)** ievadiet “2”.
+1. Atlasiet cilni **Izpildes laiks**.
+1. Atzīmējiet izvēles rūtiņu **Pirkšana** virsrakstā.
+1. Laukā **Pirkšanas laiks** ievadiet “5”.
+1. Atlasiet **Saglabāt**.
 
 
 

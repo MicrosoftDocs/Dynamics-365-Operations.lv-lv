@@ -1,7 +1,7 @@
 ---
 title: Noteikšana, kā atbrīvoties no atgrieztiem krājumiem
 description: Nosakiet, kā atbrīvoties no atgrieztiem krājumiem.
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 594832f4d89a630bd88b18f665a6afbc7a918f0e5c9627f835f18d4b1a4d2cab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e609c1c285b34a5416a2058809b2fc4fafb73fca
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722251"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571333"
 ---
-# <a name="specify-how-to-dispose-of-returned-items"></a>Noteikšana, kā atbrīvoties no atgrieztiem krājumiem 
+# <a name="specify-how-to-dispose-of-returned-items"></a>Noteikšana, kā atbrīvoties no atgrieztiem krājumiem
 
 [!include [banner](../includes/banner.md)]
-
 
 Kad apstrādājat atgriešanas pasūtījumu, jānorāda iemesla atgriešanas kods, lai noteiktu, kāpēc produkts tiek atgriezts. Ir jānorāda arī atgriešanas metodes kods un atgriešanas metodes transakcija, lai noteiktu, kas jādara ar pašu atgriezto produktu.
 
@@ -35,9 +34,9 @@ Varat definēt jebkādus atgriešanas metodes kodus, kas nepieciešami biznesa p
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -125,8 +124,8 @@ Katram atgriešanas metodes kodam, ko definējat, ir jāatlasa atgriešanas meto
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -162,24 +161,15 @@ Katram atgriešanas metodes kodam, ko definējat, ir jāatlasa atgriešanas meto
 </tbody>
 </table>
 
-
 ## <a name="select-a-disposition-code-for-a-quarantine-order"></a>Izvēlieties izvietojuma kodu karantīnas pasūtījumam
 
-1.  Noklikšķiniet uz **Krājumu pārvaldība** \> **Periodiskās darbības** \> **Kvalitātes pārvaldība** \> **Karantīnas pasūtījumi**.
-
-2.  Esošam karantīnas pasūtījumam atlasiet kādu darbību cilnes **Apskats** laukā **Atgriešanas metodes kods**.
-
-
+1. Dodieties uz **Krājumu pārvaldība** \> **Periodiskās darbības** \> **Kvalitātes pārvaldība** \> **Karantīnas pasūtījumi**.
+1. Esošam karantīnas pasūtījumam atlasiet kādu darbību cilnes **Apskats** laukā **Atgriešanas metodes kods**.
 
 ## <a name="see-also"></a>Skatiet arī
 
 [Karantīnas pasūtījums (forma)](/dynamicsax-2012//quarantine-order-form)
 
 [Atgriešanas metožu kodi (forma)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))
-
-  
-
-
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

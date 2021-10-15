@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 28a5451f4932669fb66d5e47fd2f574eb3648428
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 0b16cfdce801e8a63b47397526b47995018b99c9
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386342"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594835"
 ---
 # <a name="model-management-lifecycle"></a>Modeļu pārvaldības dzīves cikls
 
@@ -32,4 +32,4 @@ Ieteicams izmantot mākslīgā intelekta modeli smilškastes vidē un pēc tam i
 
 Tā kā mākslīgā intelekta modelis ir balstīts uz pieejamajiem rēķina un debitora datiem, ir svarīgi, lai smilškastes videi ir nesena ražošanas datu kopija. Varat sākt sava modeļa apmācību, izpildot darbības sadaļā [Izmantot klientu maksājumu prognozes](use-customer-payment-predictions.md). Pēc modeļa atkārtotas lietošanas novērtējiet rezultātus, kā aprakstīts [Sākotnējā debitora maksājuma prognozēšanas modelī](evaluate-payment-prediction.md). Izmantojiet informāciju [Uzlabot prognozēšanas modeli](improve-model.md), lai eksperimentētu ar funkciju un filtru kombinācijām, kas var palīdzēt uzlabot modeli.
 
-Kad esat apmierināts ar apmācību rezultātiem, izpildiet darbību sadaļā [Mākslīgā intelekta modeļa izplatīšana](https://docs.microsoft.com/ai-builder/distribute-model), lai pārveidotu modeli uz ražošanas vidi.
+Kad esat apmierināts ar apmācību rezultātiem, izpildiet darbību sadaļā [Mākslīgā intelekta modeļa izplatīšana](/ai-builder/distribute-model), lai pārveidotu modeli uz ražošanas vidi.

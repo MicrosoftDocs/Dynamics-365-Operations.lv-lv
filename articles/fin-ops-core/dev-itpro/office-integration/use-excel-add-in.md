@@ -2,7 +2,7 @@
 title: Skatīt un atjaunināt entītijas datus programmā Excel
 description: Šajā tēmā ir paskaidrots, kā atvērt entītijas datus programmā Microsoft Excel un pēc tam skatīt, atjaunināt un rediģēt tos, izmantojot Microsoft Dynamics Office pievienojumprogrammu programmai Excel.
 author: jasongre
-ms.date: 01/22/2021
+ms.date: 10/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aefebe094a0429f22a1a7038a55ab2190e41da6348447850148b8b98e082e743
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d1902e80313c5460ac38896bc2f46d83897e3a58
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761358"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592669"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Skatīt un atjaunināt entītijas datus programmā Excel 
 
@@ -60,9 +60,9 @@ Excel pievienojumprogramma automātiski nolasa datus par jūsu atlasīto element
 
 6. Atlasiet **Labi** un pēc tam atlasiet **Jā**, lai apstiprinātu izmaiņas. Excel pievienojumprogramma tiek restartēta, un tajā tiek ielādēti metadati.
 
-    Tagad ir pieejama poga **Dizains**. Ja Excel pievienojumprogrammai ir poga **Ielādēt sīkprogrammas**, visticamāk, jūs neesat pierakstījies kā pareizais lietotājs. Papildinformāciju skatiet šīs tēmas sadaļas [Problēmu novēršana](../office-integration/use-excel-add-in.md#troubleshooting) apakšsadaļā “Tiek rādīta poga Ielādēt sīkprogrammas”.
+    Tagad ir pieejama poga **Dizains**. Ja Excel pievienojumprogrammai ir poga **Ielādēt sīkprogrammas**, visticamāk, jūs neesat pierakstījies kā pareizais lietotājs. Papildinformāciju par šīs problēmas novēršanai skatiet sadaļā [Noslodzes](../office-integration/office-integration-troubleshooting.md#issue-the-excel-add-in-loads-but-instead-of-showing-data-it-displays-load-applets-in-the-task-pane) problēmu novēršanas ieraksts.
 
-7. Atlasiet **Noformējums**. Excel pievienojumprogramma izgūst elementa metadatus.
+7. Atlasiet **Dizains**. Excel pievienojumprogramma izgūst elementa metadatus.
 8. Atlasiet **Pievienot tabulu**. Tiek parādīts elementu saraksts. Elementi ir uzskaitīti formātā “Nosaukums - Etiķete”.
 9. Sarakstā atlasiet kādu elementu, piemēram, **Debitors — debitori**, un pēc tam atlasiet **Tālāk**.
 10. Lai kādu lauku no saraksta **Pieejamie lauki** pievienotu sarakstam **Atlasītie lauki**, atlasiet attiecīgo lauku un pēc tam atlasiet **Pievienot**. Vai arī veiciet dubultklikšķi uz lauka sarakstā **Pieejamie lauki**.
@@ -136,7 +136,7 @@ No vienas vides darblapā ielasītos datus var kopēt uz citu vidi. Taču jūs n
 ## <a name="troubleshooting"></a>Problēmu novēršana
 Noteiktas problēmas var atrisināt ar dažām vienkāršām darbībām.
 
-- **Tiek rādīta poga Ielādēt sīkprogrammas** — ja pēc pierakstīšanās Excel pievienojumprogrammai tiek rādīta poga **Ielādēt sīkprogrammas**, visticamāk, esat pierakstījies, izmantojot nepareizu lietotāja kontu. Lai atrisinātu šo problēmu, pārbaudiet, vai Excel pievienojumprogrammas labajā augšējā stūrī tiek rādīts pareizais lietotājvārds. Ja tiek rādīts nepareizs lietotājvārds, atlasiet to, izrakstieties un pēc tam atkal pierakstieties.
+- **Tiek parādīta noslodzes saite** – Papildinformāciju par šīs problēmas novēršanai skatiet sadaļā [Noslodzes](../office-integration/office-integration-troubleshooting.md#issue-the-excel-add-in-loads-but-instead-of-showing-data-it-displays-load-applets-in-the-task-pane) problēmu novēršanas ieraksts. 
 - **Saņemat ziņojumu “Aizliegts”**  — ja laikā, kad Excel pievienojumprogrammā notiek metadatu ielāde, saņemat ziņojumu “Aizliegts”, tad kontam, kas ir izmantots, lai pierakstītos Excel pievienojumprogrammā, nav atļaujas lietot attiecīgo pakalpojumu, instanci vai datu bāzi. Lai atrisinātu šo problēmu, pārbaudiet, vai Excel pievienojumprogrammas labajā augšējā stūrī tiek rādīts pareizais lietotājvārds. Ja tiek rādīts nepareizs lietotājvārds, atlasiet to, izrakstieties un pēc tam atkal pierakstieties.
 - **Virs programmas Excel tiek rādīta tukša tīmekļa lapa** — ja pierakstīšanās procesa laikā tiek atvērta tukša tīmekļa lapa, tad kontam ir nepieciešams AD FS, bet Excel versija, kurā darbojas Excel pievienojumprogramma, ir pārāk veca, lai ielādētu pierakstīšanās dialoglodziņu. Lai atrisinātu šo problēmu, atjauniniet izmantoto Excel versiju. Lai atjauninātu Excel versiju, kad esat uzņēmumā, kurš atrodas atliktajā kanālā, izmantojiet [Office izvietošanas rīku](/deployoffice/overview-office-deployment-tool), lai [no atliktā kanāla pārietu uz pašreizējo kanālu](/deployoffice/overview-update-channels).
 - **Datu izmaiņās publicēšanas laikā tiek saņemts taimauts** - ja saņemat taimauta ziņojumus, mēģinot publicēt datu izmaiņas entītijā, apsveriet iespēju samazināt ietekmētās darbgrāmatas publicēšanas paketes lielumu. Entītijas, kas ieraksta izraisīs lielāku loģikas apjomu, iespējams, būs jāsūta atjauninājumi mazākās paketēs, lai palīdzētu novērst taimautus.

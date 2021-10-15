@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 70ebe47997f3b5945a433150ae66de6eb41ff12acf4f4f3c8268351116bdd313
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 4c366d2f9091ee46ac3b1b6eff72e178932da18e
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767955"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592632"
 ---
 # <a name="confirm-and-transfer"></a>Apstiprināt un pārsūtīt
 
@@ -45,8 +45,8 @@ Ir iespējams sadalīt tikai tās kravas, kas atbilst šādiem kritērijiem:
 
 - Vienai vai vairākām kravas rindām ir izdotais daudzums.
 - Kravas statuss ir mazāks nekā tika ielādēts.
-- Nav kravas rindas datu. (Šie dati tiek veidoti, izmantojot noliktavas vienības konsolidāciju sagatavošanas posma atrašanās vietai, un līdzeklis *Apstiprināt un pārsūtīt* neatbalsta noliktavas vienības konsolidēšanu.)
-- Pašlaik iepakošanas vietā nav paredzēts iepakot nevienu krājumu. (Līdzeklis *Apstiprināt un pārsūtīt* neatbalsta krājumus, kas ir izdoti iepakošanas stacijā, bet vēl nav iepakoti.)
+- Nav kravas rindas datu. (Šie dati tiek veidoti, izmantojot noliktavas vienības konsolidāciju sagatavošanas posma atrašanās vietai, un līdzeklis Apstiprināt un pārsūtīt neatbalsta noliktavas vienības konsolidēšanu.)
+- Pašlaik iepakošanas vietā nav paredzēts iepakot nevienu krājumu. (Līdzeklis *Apstiprināt un pārsūtīt* neatbalsta krājumus, kas ir izdoti iepakošanas stacijā, bet vēl nav iepakoti, ja konteineri, kas ir iepakoti, netiek novietoti sagatavošanas vietās ar izveidoto iekraušanas darbu.)
 
 > [!NOTE]
 > Šī funkcionalitāte atšķiras no transportēšanas kravas funkcionalitātes, kas jāizmanto noliktavās, kurās pirms izdošanas nekad nevar plānot un izveidot kravas, bet tā vietā tiek ielādētas pieejamās transportēšanas vietas pēc izdošanas pabeigšanas.

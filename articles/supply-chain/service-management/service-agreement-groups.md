@@ -1,7 +1,7 @@
 ---
 title: Pakalpojumu līgumu pārskats
-description: Pakalpojumu līgumu grupas is noderīgas pakalpojumu līgumu kārtošanai un filtrēšanai.
-author: ShylaThompson
+description: Šajā tēmā sniegts pārskats par to, kā strādāt ar pakalpojumu līgumiem.
+author: kamaybac
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a3baaccf490af8231ca4389fa409b71f6286ff8d37bdcde78d8af95916d55cf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 82cb77dbeb03a2d43ec5a6f797d11984a33b6698
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734095"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578708"
 ---
 # <a name="service-agreements-overview"></a>Pakalpojumu līgumu pārskats
 
@@ -32,9 +32,9 @@ Lapas **Pakalpojumu pārvaldības parametri** laukā **Pakalpojumu līgumu grupa
 
 ## <a name="example"></a>Piemērs
 
--  Varat sagrupēt savus pakalpojumu līgumus atkarībā no piedāvā pakalpojuma līmeņa. 
--  Trīs līgumu grupas, ko esat iestatījuši savā uzņēmumā, ir Zelta, Sudraba un Bronzas.
--  Uzņēmumā tiek nodarbināts jauns pakalpojuma kontu vadītājs. Pakalpojumu kontu vadītājs ir atbildīgs par rīkošanos ar visiem Zelta līgumu klientiem. Jūs varat filtrēt līgumu ierakstus par Zelta līgumu grupu, lai atrastu visus līgumus, kuros kā atbildīgā persona būs jānorāda jaunais pakalpojumu kontu vadītājs.
+- Varat sagrupēt savus pakalpojumu līgumus atkarībā no piedāvā pakalpojuma līmeņa.
+- Trīs līgumu grupas, ko esat iestatījuši savā uzņēmumā, ir Zelta, Sudraba un Bronzas.
+- Uzņēmumā tiek nodarbināts jauns pakalpojuma kontu vadītājs. Pakalpojumu kontu vadītājs ir atbildīgs par rīkošanos ar visiem Zelta līgumu klientiem. Jūs varat filtrēt līgumu ierakstus par Zelta līgumu grupu, lai atrastu visus līgumus, kuros kā atbildīgā persona būs jānorāda jaunais pakalpojumu kontu vadītājs.
 
 ## <a name="related-topics"></a>Saistītās tēmas
 

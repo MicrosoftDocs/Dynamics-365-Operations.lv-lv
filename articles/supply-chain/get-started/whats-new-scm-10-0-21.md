@@ -4,18 +4,18 @@ description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai
 author: kamaybac
 ms.date: 08/09/2021
 ms.topic: article
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3f586a00943e23b458ede1470b353d7c018ba923
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 894686446436a390ec2d019672e3a2b8b0e5f5ef
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500559"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579740"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.21 (2021. gada oktobris)
 
@@ -26,20 +26,6 @@ ms.locfileid: "7500559"
 - **Laidiena priekšskatījums:** 2021. gada augusts
 - **Vispārēja laidiena (pašatjauninājums) pieejamība:** 2021. gada septembris
 - **Vispārēja laidiena (automātisks atjauninājums) pieejamība:** 2021. gada oktobris
-
-## <a name="known-deployment-issue"></a>Zināma izvietošanas problēma
-
-Izvietojot laidienu 10.0.21 vietnē IaaS, varat saņemt šādu izvietošanas brīdinājumu:
-
-**Brīdinājuma kods:** 95017
-
-**Brīdinājuma ziņojums:** Skriptu \[SetupDiagnostics\] neizdevās izpildīt pret VM
-
-Izvietošana darbosies, neskatoties uz brīdinājumu. Tomēr programmā Lifecycle Services (LCS) var rasties šādas zināmās problēmas:
-
-- Lapā **Vides uzraudzība** nebūs redzama saite **Skatīt detalizētās versijas informāciju**, tādēļ nevarēsit redzēt specifiskās moduļu versijas, kas ir instalētas jūsu vidē. Ja nav pieejami šie dati, turpmākie labojumfaili var neizdoties, jo labojumfailu lietošanas process izmanto šos datus, lai pārbaudītu, vai moduļa versijas priekšnosacījumi ir izpildīti. Tā kā nav iespējams izmantot PEAP/Priekšskatījuma būvējumu ražošanā vai lietot labojumfailus, ietekmei ir jābūt minimālai.
-- Cilnes **Veiktspējas rādītāji** un **Indeksu analīze** lapā **Vides uzraudzība** zem SQL Insights netiks parādīti dati. Visi pārējie **Vides uzraudzības** līdzekļi darbosies, kā paredzēts.
-- Lapai **Pilnas sistēmas diagnostika** nevar piekļūt. Netiks rādīti arī ar tā noteikumiem noteikti saistītie dati par nakts kolektora izpildes statusu un problēmām.
 
 ## <a name="features-included-in-this-release"></a>Šajā laidienā iekļautie līdzekļi
 

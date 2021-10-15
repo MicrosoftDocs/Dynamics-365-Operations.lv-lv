@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b2b85f533a3318701ed08857b899cf9bdd103863
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: d6f58eab38d1aee97a5d39704255bf06a168b36c
+ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474824"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "7581869"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>Inventory Visibility instalēšana un iestatīšana
 
@@ -35,63 +35,11 @@ Pirms instalējat Krājumu redzamību, jums ir jārīkojas šādi:
 
 - Iegūt LCS ieviešanas projektu, kurā ir izvietota vismaz viena vide.
 - Pārliecinieties, ka pievienojumprogrammu iestatīšanas priekšnoteikumi ir pabeigti. Plašāku informāciju par šiem priekšnosacījumiem skatiet [Pievienojumprogrammu pārskats](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). Krājumu redzamībai nav nepieciešama dubultās rakstīšanas saistīšana.
-- Sazinieties ar Krājumu redzamības preču grupu [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com), lai iegūtu šādus nepieciešamos failus:
-
-    - `InventoryServiceApplication.PackageDeployer.zip`
-    - `Inventory Visibility Integration.zip` (Ja jūsu darbinātā Supply Chain Management versija ir agrāka nekā versija 10.0.18)
 
 > [!NOTE]
 > Pašlaik atbalstītas valstis un reģioni: Kanāda (CCA, ECA), ASV (WUS, EUS), Eiropas Savienība (NEU, WEU), Apvienotā Karaliste (SUK, WUK), Austrālija (EAU, SEAU), Japāna (EJP, WJP) un Brazīlija (SBR, SCUS).
 
-Ja jums ir kādi jautājumi par šiem priekšnosacījumiem, lūdzu, sazinieties ar Krājumu redzamības preču darba grupu.
-
-## <a name="set-up-dataverse"></a><a name="setup-microsoft-dataverse"></a>Iestātīt Dataverse
-
-Lai iestatītu Dataverse kopā ar Krājumu redzamību, izmantojiet Package Deployer rīku, lai izvietotu Krājumu redzamības pakotni. Tālāk sniegtās apakšsadaļas apraksta, kā pabeigt katru uzdevumu.
-
-> [!NOTE]
-> Pašlaik tiek atbalstītas tikai Dataverse vides, kas izveidotas, izmantojot LCS. Ja jūsu Dataverse vide tika izveidota citādi (piemēram, izmantojot Power Apps administrēšanas centru) un ja tā ir saistīta ar Supply Chain Management vidi, vispirms ir jāsazinās ar Krājumu redzamības produktu grupu, lai novērstu kartēšanas problēmu. Tad instalējiet Krājumu uztveramības pievienojumprogrammu.
-
-### <a name="migrate-from-an-old-version-of-the-dataverse-solution"></a>Migrēt no vecās risinājuma Dataverse versijas
-
-Ja ir instalēta vecāka Krājumu redzamības risinājuma Dataverse versija, lietojiet šīs instrukcijas, lai atjauninātu versiju. Ir divi gadījumi:
-
-- **1. gadījums:** ja manuāli iestatāt Dataverse, importējot `Inventory Visibility Dataverse Solution_1_0_0_2_managed.zip` risinājumu, rīkojieties šādi:
-
-    1. Visbeidzot lejupielādējiet šos trīs failus:
-
-        - `Inventory Visibility Dataverse Solution_1_0_0_3_managed.zip`
-        - `InventoryServiceBase_managed.cab`
-        - `InventoryServiceApplication.PackageDeployer.zip`
-
-    1. Manuāli importēt `Inventory Visibility Dataverse Solution_1_0_0_3_managed.zip` un `InventoryServiceBase_managed.cab` uz Dataverse un veikt šādas darbības:
-
-        1. Atveriet Dataverse vides URL.
-        1. Doties uz lapu **Risinājumi**.
-        1. Atlasiet **Importēt**.
-
-    1. Izmantojiet Package Deployer rīku, lai izvietotu `InventoryServiceApplication.PackageDeployer.zip` pakotni. Norādījumus skatiet tālāk šīs tēmas sadaļā [Izmantot Package Deployer rīku pakotnes izvietošanai](#deploy-package).
-
-- **2. gadījums**: ja iestatāt Dataverse, izmantojot Package Deployer rīku, pirms instalējāt vecāko `.*PackageDeployer.zip``InventoryServiceApplication.PackageDeployer.zip` pakotni, lejupielādējiet un veiciet atjauninājumu. Norādījumus skatiet tālāk šīs tēmas sadaļā [Izmantot Package Deployer rīku pakotnes izvietošanai](#deploy-package).
-
-### <a name="use-the-package-deployer-tool-to-deploy-the-package"></a><a name="deploy-package"></a>Izmantojiet Package Deployer rīku, lai izvietotu pakotni
-
-1. Instalējiet izstrādātāju rīkus, kā aprakstīts sadaļā [Lejupielādējiet rīkus no NuGet](/dynamics365/customerengagement/on-premises/developer/download-tools-nuget).
-1. Atbloķējiet `InventoryServiceApplication.PackageDeployer.zip` failu, ko lejupielādējāt no Teams, rīkojoties šādi:
-
-    1. Atlasiet un turiet (vai noklikšķiniet ar peles labo pogu) failu, un pēc tam atlasiet **Rekvizīti**.
-    1. Dialoglodziņa **Rekvizīti** cilnē **Vispārīgi** atrodiet sadaļu **Drošība**, atlasiet **Atbloķēt** un pielietojiet izmaiņas. Ja cilnē **Vispārīgi** nav sadaļas **Drošība**, fails netiek bloķēts. Šādā gadījumā turpiniet ar nākamo darbību.
-
-    ![Atbloķējiet lejupielādēto failu](media/unblock-file.png "Atbloķējiet lejupielādēto failu")
-
-1. Atarhivēt `InventoryServiceApplication.PackageDeployer.zip`, lai atrastu šādus elementus:
-
-    - `InventoryServiceApplication` mape
-    - `[Content_Types].xml` fails
-    - `Microsoft.Dynamics.InventoryServiceApplication.PackageExtension.dll` fails
-
-1. Kopējiet katru no šiem vienumiem `.\Tools\PackageDeployment` direktorijā. (Šis direktorijs tika izveidots, kad instalējāt izstrādātāju rīkus.)
-1. Palaidiet `.\Tools\PackageDeployment\PackageDeployer.exe` un izpildiet ekrānā redzamos norādījumus, lai importētu risinājumus.
+Ja jums ir kādi jautājumi par šiem priekšnosacījumiem, lūdzu, sazinieties ar Krājumu redzamības preču darba grupu [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
 
 ## <a name="install-the-inventory-visibility-add-in"></a><a name="install-add-in"></a>Instalēt krājumu uztveramības pievienojumprogrammu
 
@@ -102,7 +50,11 @@ Pēc pieteikuma reģistrēšanas un klienta noslēpuma pievienošanas Azure AD i
 1. Pierakstieties [LCS](https://lcs.dynamics.com/Logon/Index).
 1. Sākumlapā atlasiet projektu, kurā tiek izvietota jūsu vide.
 1. Projekta lapā atlasiet vidi, kurā vēlaties instalēt pievienojumprogrammu.
-1. Vides lapā ritiniet uz leju, līdz redzat sadaļu **Vides pievienojumprogrammas** sadaļā **Power Platform integrācija**. Tad varat atrast Dataverse vides nosaukumu.
+1. Vides lapā ritiniet uz leju, līdz redzat sadaļu **Vides pievienojumprogrammas** sadaļā **Power Platform integrācija**. Tad varat atrast Dataverse vides nosaukumu. Apstipriniet, ka Dataverse vides nosaukums ir tas, ko vēlaties izmantot Krājumu redzamībai.
+
+    > [!NOTE]
+    > Pašlaik tiek atbalstītas tikai Dataverse vides, kas izveidotas, izmantojot LCS. Ja jūsu Dataverse vide tika izveidota citādi (piemēram, izmantojot Power Apps administrēšanas centru) un ja tā ir saistīta ar Supply Chain Management vidi, vispirms ir jāsazinās ar Krājumu redzamības produktu grupu, lai novērstu kartēšanas problēmu [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com). Tad instalējiet Krājumu uztveramības pievienojumprogrammu.
+
 1. Sadaļā **Vides pievienojumprogrammas** atlasiet **Instalēt jaunu pievienojumprogrammu**.
 
     ![Vides lapa portālā LCS](media/inventory-visibility-environment.png "Vides lapa portālā LCS")
@@ -118,6 +70,7 @@ Pēc pieteikuma reģistrēšanas un klienta noslēpuma pievienošanas Azure AD i
 
 1. Piekrist noteikumiem un nosacījumam, atlasot izvēles rūtiņu **Noteikumi un nosacījumi**.
 1. Atlasiet **Instalēt**. Pievienojumprogrammas statuss tiks rādīts kā **Instalē**. Pēc tam, kad instalēšana ir pabeigta, atsvaidziniet lapu. Statusam ir jāmainās uz **Instalēts**.
+1. Programmas Dataverse kreisās navigācijas rūtī izvēlieties sadaļu **Programmas** un pārbaudiet, vai **Krājumu redzamība** ir veiksmīgi instalēta Power Apps. Ja nav sadaļas **Programmas**, sazinieties ar Krājumu redzamības preču grupu [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
 
 > [!IMPORTANT]
 > Ja jums ir vairāk nekā viena LCS vide, izveidojiet katrai videi atšķirīgu Azure AD lietojumprogrammu. Ja lietojat vienu lietojumprogrammas ID un nomnieka ID, lai instalētu Inventory Visibility lietojumprogrammu atšķirīgām vidēm, vecākām vidēm tiks rādīta marķiera problēma. Tikai pēdējā instalētā vide būs derīga.
@@ -128,11 +81,11 @@ Lai atinstalētu Krājumu redzamības pievienojumprogrammu, atlasiet LCS lapā *
 
 Lai atinstalētu krājumu datus, kas ir saglabāti Dataverse abonementā, atveriet [Power Apps](https://make.powerapps.com), atlasiet navigācijas joslā **Vide** un atlasiet vidi, kas ir piesaistīta jūsu Dataverse LCS videi. Pēc tam dodieties uz **Risinājumi** un izdzēsiet šos piecus risinājumus:
 
-- Noenkurošanas risinājums Krājumu redzamības Dynamics 365 risinājumā
-- Dynamics 365 FNO SCM Krājumu redzamības Applications risinājums
-- Krājumu pakalpojuma konfigurēšana
-- Krājumu redzamības savrupā programma
-- Dynamics 365 FNO SCM Krājumu redzamības pamata risinājums
+1. Noenkurošanas risinājums Krājumu redzamības Dynamics 365 risinājumā
+1. Dynamics 365 FNO SCM Krājumu redzamības Applications risinājums
+1. Krājumu pakalpojuma konfigurēšana
+1. Krājumu redzamības savrupā programma
+1. Dynamics 365 FNO SCM Krājumu redzamības pamata risinājums
 
 Pēc šo risinājumu dzēšanas arī tabulās saglabātie dati arī tiks dzēsti.
 

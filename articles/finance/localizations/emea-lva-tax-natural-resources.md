@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.custom: 270454
 ms.search.region: Latvia
-ms.author: v-lenest
+ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 066d1bf50fb1457b3b60133094e63811c1c85c3c92219bcfb7c611837c327e0f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 954b944e7f2900502abcf0c145fde57a1be1697b
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729535"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592522"
 ---
 # <a name="tax-on-natural-resources-report"></a>Dabas resursu nodokļa pārskats
 
@@ -75,11 +75,11 @@ Lai varētu ģenerēt pārskatu **Dabas resursu nodoklis**, ir jāiestata rindas
 |-------------|-----------|-----------------|-----------|--------------------------------------------|-----------------|-------------|----------------------------|-----------------------|
 | 2. forma      | Galvene    | 1               |           | I. Nodoklis par dabas resursu lietojumu |                 |             |                            |                       |
 | 2. forma      | Summa     | 2               | 1         | Dabas resursu lietojums (kopsumma)   | 3               |             |                            |                       |
-| 2. forma      | Līnija      | 3               | 1.1       | Contoso Manufacturing Co                   | 1               | 785200      | NR-water                   |                       |
-| 2. forma      | Līnija      | 4               | 1.2       | Smilšu karjers nr. 1                                | 1               | 600900      | NR-sand                    |                       |
+| 2. forma      | Rinda      | 3               | 1.1       | Contoso Manufacturing Co                   | 1               | 785200      | NR-water                   |                       |
+| 2. forma      | Rinda      | 4               | 1.2       | Smilšu karjers nr. 1                                | 1               | 600900      | NR-sand                    |                       |
 | 2. forma      | Summa     | 5               | 2         | Vides piesārņojums (kopsumma)              | 3               |             |                            |                       |
-| 2. forma      | Līnija      | 6               | 2.1       | Contoso Manufacturing Co                   | 2               | 785200      | NR-CO2                     |                       |
-| 2. forma      | Līnija      | 7               | 2.1       | Pārskata rinda                             | 2               |             |                            |                       |
+| 2. forma      | Rinda      | 6               | 2.1       | Contoso Manufacturing Co                   | 2               | 785200      | NR-CO2                     |                       |
+| 2. forma      | Rinda      | 7               | 2.1       | Pārskata rinda                             | 2               |             |                            |                       |
 | 2. forma      | Kopsumma     | 8               | 3         | Kopsummas rinda (1. rinda + 2. rinda)                  |                 |             |                            |                       |
 | 2. forma      | Rinda      | 9               | 4         | Pārskata rinda                             |                 |             |                            |                       |
 

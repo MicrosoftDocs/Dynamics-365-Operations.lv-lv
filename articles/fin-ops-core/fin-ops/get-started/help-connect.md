@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f793068a5d4df6206229249c5b37bee0ef34da8d
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 3a6c37822e84ba08fa0720ed2b3912cbec1448e3
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343816"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594861"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Konfigurēt Palīdzības pieredzi Finance and Operations programmām
 
@@ -30,7 +30,7 @@ ms.locfileid: "7343816"
 
 ## <a name="help-architecture"></a>Palīdzības arhitektūra
 
-Finance and Operations programmas ietver konceptuālus apskatus un citas tēmas, kas publicētas [https://docs.microsoft.com/dynamics365](/dynamics365/) vietnē. Šim saturam var piekļūt no preces **Palīdzības** rūts. Nākamajā attēlā ir parādītas daļas no palīdzības sistēmas.
+Finance and Operations programmas ietver konceptuālus apskatus un citas tēmas, kas publicētas [Microsoft Dynamics 365 documentation](/dynamics365/) vietnē. Šim saturam var piekļūt no preces **Palīdzības** rūts. Nākamajā attēlā ir parādītas daļas no palīdzības sistēmas.
 
 [![Palīdzības sistēmas arhitektūra.](./media/help-architecture.png)](./media/help-architecture.png)
 
@@ -39,7 +39,7 @@ Preces palīdzības sistēma izvelk rakstus no docs.microsoft.com un citām sais
 ## <a name="adding-task-guides"></a>Uzdevumu ceļvežu pievienošana
 
 > [!NOTE]
-> Cilne **Uzdevumu ceļveži** pašlaik nav pieejami Personāla vadībā vai Commerce. <!--We are currently working to enable this functionality in a future release.--> Tomēr uzdevumu ceļveži Darba sākšanas pieredzē Personāla vadībā ir pieejami pamata funkcionalitātes segšanai. Procesuālā palīdzība ir pieejama arī vietnē [https://docs.microsoft.com/dynamics365](/dynamics365/) gan Personāla vadības, gan Commerce programmām.
+> Cilne **Uzdevumu ceļveži** pašlaik nav pieejami Personāla vadībā vai Commerce. <!--We are currently working to enable this functionality in a future release.--> Tomēr uzdevumu ceļveži Darba sākšanas pieredzē Personāla vadībā ir pieejami pamata funkcionalitātes segšanai. Procesuālā palīdzība ir pieejama arī vietnē [Microsoft Dynamics 365 documentation](/dynamics365/) gan Human Resources, gan Commerce programmām.
 
 Lapā **Sistēmas parametri** sistēmas administratori var konfigurēt piekļuvi attiecīgajām uzdevumu ceļveža bibliotēkām ieviešanai.
 

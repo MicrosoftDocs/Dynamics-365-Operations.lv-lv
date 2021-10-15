@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: e29a5295cd3c334aef88dc7a2a36b2eb8a6f636b159c0f69874fc51298a1ab7c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3641e1974ffc277a690ca8b8d15399ac883b0132
+ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772282"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7581141"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Izejošo krājumu operācija punktā POS
 
@@ -116,7 +116,7 @@ Skatā **Pilns pasūtījumu saraksts** varat manuāli atlasīt rindu sarakstā u
 
 ### <a name="over-delivery-shipping-validations"></a>Pasūtījuma apjoma pārsniegšanas nosūtīšanas validācijas
 
-Validācijas notiek dokumenta rindu saņemšanas procesā. Tās ietver validācijas pasūtījuma apjoma pārsniegšanai. Ja lietotājs mēģina saņemt vairāk krājumu, nekā bija pasūtīts uz pirkšanas pasūtījumu, bet vai nu nav konfigurēta pasūtījuma apjoma pārsniegšana, vai saņemtais daudzums pārsniedz pirkšanas pasūtījuma rindai konfigurēto pasūtījuma apjoma pārsniegšanas toleranci, lietotājs saņem kļūdu, un lietotājam nav atļauts saņemt pārsniegto daudzumu.
+Validācijas notiek dokumenta rindu saņemšanas procesā. Tās ietver validācijas pasūtījuma apjoma pārsniegšanai. Ja lietotājs mēģina nosūtīt vairāk krājumu, nekā bija pasūtīts uz pārsūtīšanas pasūtījumu, bet vai nu nav konfigurēta pasūtījuma apjoma pārsniegšana, vai nosūtītais daudzums pārsniedz pārsūtīšanas pasūtījuma rindai konfigurēto pasūtījuma apjoma pārsniegšanas toleranci, lietotājs saņem kļūdu, un lietotājam nav atļauts nosūtīt pārsniegto daudzumu.
 
 ### <a name="underdelivery-close-lines"></a>Nepilna pasūtījuma slēgšanas rindas
 

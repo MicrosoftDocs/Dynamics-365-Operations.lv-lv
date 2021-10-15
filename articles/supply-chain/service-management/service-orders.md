@@ -1,7 +1,7 @@
 ---
 title: Pakalpojumu pasūtījumi
-description: Pakalpojuma pasūtījums nozīmē servisa tehniķa vizīti debitora atrašanās vietā noteiktā datumā.
-author: ShylaThompson
+description: Šajā tēmā sniegts pārskats par to, kā strādāt ar pakalpojumu pasūtījumiem.
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89ff650b0813318573fa273533ba31b57e35696a551105cca7e1a247099b218f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8dc88d445e1331e1532cb3b7385cda39c4f22e80
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739710"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566123"
 ---
-# <a name="service-orders"></a>Pakalpojumu pasūtījumi   
+# <a name="service-orders"></a>Pakalpojumu pasūtījumi
 
 [!include [banner](../includes/banner.md)]
-
 
 Pakalpojuma pasūtījums nozīmē servisa tehniķa vizīti debitora atrašanās vietā noteiktā datumā. Katrs pakalpojumu pasūtījums sastāv no vienas vai vairākām pakalpojumu pasūtījuma rindām. Pakalpojumu pasūtījumu rindas ataino darba stundas, kas pakalpojumu sniegšanas speciālistam ir jānodrošina, kā arī saistītos krājumus, izdevumus un maksas.
 
@@ -39,19 +38,19 @@ Pakalpojumu pasūtījumus varat izveidot arī atsevišķi, tos nesaistot ar kād
 
 
 > [!NOTE]
-> <P>Lai izveidotu pakalpojumu līgumus, kas nav saistīti ar pakalpojumu līgumu, jums ir jāatzīmē izvēles rūtiņa <STRONG>Atļaut bez pakalpojumu līguma</STRONG> formā <STRONG>Pakalpojumu pārvaldības parametri</STRONG>.</P>
+> Lai izveidotu pakalpojumu pasūtījumus, kas nav saistīti ar pakalpojumu līgumu, jums ir jāatzīmē izvēles rūtiņa **Atļaut bez pakalpojumu līguma** lapā **Pakalpojumu pārvaldības parametri**.
 
-**Scenārijs**
+### <a name="scenario"></a>Scenārijs
 
 Nākamajā scenārijā ir aprakstīta cita situācija, kur var noderēt ar pakalpojumu līgumu nesaistīta pakalpojumu pasūtījuma izveidošana.
 
-Uzņēmuma dispečers saņem zvanu ar ārkārtas labošanas prasību liftam. Nav laika izveidot pakalpojumu līgumu un pakalpojuma projektu. Tādēļ dispečers izveido pakalpojumu pasūtījumu tieši formā **Pakalpojumu pasūtījumi**, šo pakalpojumu pasūtījumu pievieno jau esošam projektam un izveido pakalpojumu pasūtījuma rindas. Dispečers izveido arī uzdevumu vai objektu relāciju jau esošam pakalpojumu pasūtījumam, lai ierakstītu darbu, kas nav saistīts ar pakalpojumu līgumu. Plašāku informāciju skatiet tēmā [Pakalpojumu līgumu izveidošana manuāli](create-service-orders-manually.md) un [Pakalpojumu uzdevumu relāciju izveidošana](create-service-task-relations.md).
+Uzņēmuma dispečers saņem zvanu ar ārkārtas labošanas prasību liftam. Nav laika izveidot pakalpojumu līgumu un pakalpojuma projektu. Tādēļ dispečers izveido pakalpojumu pasūtījumu tieši lapā **Pakalpojumu pasūtījumi**, šo pakalpojumu pasūtījumu pievieno jau esošam projektam un izveido pakalpojumu pasūtījuma rindas. Dispečers izveido arī uzdevumu vai objektu relāciju jau esošam pakalpojumu pasūtījumam, lai ierakstītu darbu, kas nav saistīts ar pakalpojumu līgumu. Plašāku informāciju skatiet tēmā [Pakalpojumu līgumu izveidošana manuāli](create-service-orders-manually.md) un [Pakalpojumu uzdevumu relāciju izveidošana](create-service-task-relations.md).
 
 ## <a name="monitor-the-progress-of-service-orders"></a>Pakalpojumu pasūtījumu norises uzraudzīšana
 
 Lai uzraudzītu pārdošanas pasūtījumu norisi dažādās darba grupās un darba procesos, pakalpojumu pasūtījumiem varat iestatīt stadiju sistēmu un iemeslu kodus. Katrai stadijai varat norādīt atļautās darbības. Plašāku informāciju skatiet tēmā [Iemeslu kodu izveidošana](create-reason-codes.md).
 
-**Piemērs**
+### <a name="example"></a>Paraugs
 
 Dispečers apstiprina pakalpojumu pasūtījumu. Dispečers atjaunina pakalpojumu pasūtījuma stadiju un izvēlas iemesla kodu, kurš norāda, ka pakalpojumu pasūtījums ir nodots pakalpojumu sniegšanas speciālistam. Tehniskais speciālists dodas uz klienta telpām un sniedz pakalpojumu.
 
@@ -59,7 +58,7 @@ Dispečers apstiprina pakalpojumu pasūtījumu. Dispečers atjaunina pakalpojumu
 
 Varat norādīt pakalpojumu pasūtījumiem nepieciešamās krājumu vienības. Taču pakalpojumu pasūtījumam ir jābūt saistītam ar kādu projektu. Krājumu vajadzības pakalpojumu pasūtījumiem tiek apstrādātas ar projektu. 
 
-**Piemērs**
+### <a name="example"></a>Paraugs
 
 Dispečers apstrādā pakalpojumu pasūtījumus, kas ir izveidoti no pakalpojumu līguma. Pirmajam pakalpojumu pasūtījumam dispečers saprot, ka pakalpojumu sniegšanas speciālistam ir nepieciešama svarīga rezerves daļa, kuras nav rīcībā esošajos krājumos. Tādēļ dispečers izveido krājuma vajadzību rezerves daļai tieši no pakalpojumu pasūtījuma.
 
@@ -73,7 +72,7 @@ Viens no pārējiem pakalpojumu pasūtījumiem, kas tika izveidoti janvāra mēn
 
 ## <a name="post-from-projects"></a>Grāmatošana no projektiem
 
-Katras nedēļas beigās dispečers vēlas iegrāmatot visus pakalpojumu pasūtījumus, kas ir pievienoti noteiktam projektam. Tādēļ dispečers atrod attiecīgo projektu formā **Projekti** un iegrāmato izpildītos pakalpojumu pasūtījumus. Plašāku informāciju skatiet tēmā [Pakalpojumu pasūtījumu grāmatošana (klases forma)](https://technet.microsoft.com/library/aa574685\(v=ax.60\)).
+Katras nedēļas beigās dispečers vēlas iegrāmatot visus pakalpojumu pasūtījumus, kas ir pievienoti noteiktam projektam. Tādēļ dispečers atrod attiecīgo projektu lapā **Projekti** un iegrāmato izpildītos pakalpojumu pasūtījumus. Plašāku informāciju skatiet tēmā [Pakalpojumu pasūtījumu grāmatošana (klases forma)](https://technet.microsoft.com/library/aa574685\(v=ax.60\)).
 
 ## <a name="delete-service-orders"></a>Pakalpojumu pasūtījumu dzēšana
 

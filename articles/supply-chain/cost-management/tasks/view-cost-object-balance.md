@@ -1,6 +1,6 @@
 ---
 title: Izmaksu objekta bilances skatīšana
-description: Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
+description: Šajā tēmā ir aprakstīts, kā skatīt izmaksu objektu bilanci
 author: AndersGirke
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -13,29 +13,29 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6f908fa9120a91d19040906c8aef7f137f78cdfc45215287db373e79295c1bad
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8a21588d3ab377f6e7bc2432599506c81efcdcb5
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753352"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568931"
 ---
 # <a name="view-cost-object-balance"></a>Izmaksu objekta bilances skatīšana
 
 [!include [banner](../../includes/banner.md)]
 
-Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF. Šī procedūra ir paredzēta izmaksu kontrolierim.
+USMF ir paraugdatu uzņēmums, kas tiek izmantots šīs procedūras izveidei. Šī procedūra ir paredzēta izmaksu kontrolierim.
 
-1. Noklikšķiniet uz Izmaksu administrēšana.
-2. Noklikšķiniet uz Izlaistās preces.
-3. Izmantojiet ātro filtru, lai filtrētu pēc lauka Krājuma numurs ar vērtību "m0004".
-4. Darbību rūtī noklikšķiniet uz Pārvaldīt izmaksas.
-5. Noklikšķiniet uz Izmaksu objekti.
-6. Noklikšķiniet uz Fiziskais daudzums.
-7. Noklikšķiniet uz Dimensiju parādīšana.
-8. Noņemiet atzīmi izvēles rūtiņai Novietojums.
-9. Noklikšķiniet uz OK.
+1. Atlasiet **Izmaksu administrēšana**.
+2. Atlasiet **Izlaistās preces**.
+3. Izmantojiet Ātro filtru, lai filtrētu pēc lauka **Krājuma numurs** ar vērtību *m0004*.
+4. Darbību rūtī atlasiet **Pārvaldīt izmaksas**.
+5. Atlasiet **Izmaksu objekti**.
+6. Atlasiet **Fiziskais daudzums**.
+7. Atlasiet **Dimensiju rādīšana**.
+8. Noņemiet atzīmi izvēles rūtiņai **Novietojums**.
+9. Atlasiet **Labi**.
 
 
 

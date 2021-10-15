@@ -1,8 +1,8 @@
 ---
 title: Atvieglojumu pārvaldības darbvieta
 description: Šajā tēmā ir aprakstīta Atvieglojumu pārvaldības darbvieta programmā Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 02/24/2021
+author: twheeloc
+ms.date: 09/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 49393ab65c2f0020af5b246f7c18a152d613725f5b31be89cb57f244b28003f3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e6cc1432e108c74706dea124a62024272e65b6c1
+ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719096"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7512478"
 ---
 # <a name="benefits-management-workspace"></a>Atvieglojumu pārvaldības darbvieta
 
@@ -47,7 +47,7 @@ ms.locfileid: "6719096"
 
 ## <a name="view-action-items"></a>Skatīt darbības elementus
 
-Darbību elementus varat skatīt, atlasot elementu vai cilni. Atlasot cilni, var skatīt un atlasīt darbiniekus tieši darbvietas lapā.
+Darbību elementus varat skatīt, atlasot elementu vai cilni. Atlasot cilni, var skatīt un atlasīt darbiniekus tieši no darbvietas lapas.
 
 ![Darbības elementi.](./media/hr-benefits-management-workspace-action-items.png)
 
@@ -64,7 +64,7 @@ Atlasot **Aktīvos dzīves notikumus** vai **Turpmākos dzīves notikumus**, jum
 
 ![Dzīves notikumi.](./media/hr-benefits-management-workspace-life-events.png)
 
-## <a name="processing"></a>Notiek apstrāde.
+## <a name="processing"></a>Notiek apstrāde
 
 Lai apstrādātu reģistrēšanas piemērotību, dzīves notikumus vai likmes maiņas atjauninājumus, atlasiet attiecīgo krājumu navigācijas joslā.
 
@@ -88,9 +88,42 @@ Lai skatītu citu atvieglojumu periodu, atlasiet to no nolaižamā saraksta **Pe
 
 ![Mainīt periodu.](./media/hr-benefits-management-workspace-period.png)
 
+
+## <a name="open-enrollment-tab"></a>Atvērt reģistrācijas cilni
+
+Darbību elementus varat skatīt, atlasot elementu vai cilni. Atlasot cilni, var skatīt un atlasīt darbiniekus tieši darbvietas lapā.
+Cilne **Atvērt reģistrēšanu** nodrošina galvenos rādītājus atvērtam reģistrācijas procesam. 
+
+Informācija par atvērto reģistrāciju tiks parādīta 30 dienas pirms **Reģistrācijas sākuma datuma**. Tas ir definēts **Periodu** iestatījumu **Atvieglojumu pārvaldība** > **Saites** > **Periodi** laukā **Reģistrācijas sākuma datums**.  Lai mainītu šo iestatījumu, dodieties uz sadaļu **Cilvēkresursu kopīgie parametri** > **Atvieglojumu pārvaldība** > **Atvērt reģistrācijas opcijas** un atjauniniet lauku **Skaits**.  
+
+Cilnē **Atvērt reģistrāciju** ir pieejama šāda informācija:
+ - Darbinieki, kas nav sākuši atvērtās reģistrācijas procesu
+ - Darbinieki, kas atrodas procesā
+ - Darbinieki, kas ir pabeiguši procesu
+ - Neapstiprinātā atlase
+
+**Kopsavilkuma elementi**
+
+- **Nav sākts** – elements **Nav sākts** parāda to darbinieku skaitu, kuri nav sākuši reģistrēšanās procesu. Elements **Nav sākts** ir filtrēts saraksts, kurā ir redzami tikai tie darbinieki, kuriem nav neviena plāna, kas nav atlasīti, atcelti vai paņemti atvērtam reģistrācijas plāna periodam. Obligātie plāni tiek ignorēti un nav iekļauti, jo tie pēc noklusējuma ir atlasīti darbiniekam.  Varat rakties šajā elementā, lai skatītu to darbinieku sarakstu, kuri nav sākuši atvērto reģistrācijas procesu **Darbinieka atvieglojumu plāna** lapā.
+
+  > [!NOTE]
+  > Ja nevēlaties izsekot **Plāna veidam** atvērto reģistrācijas norisi, varat to izslēgt, atverot **Atvieglojumu pārvaldība** > **Saites** > **Darbinieku pašapkalpošanās parametri** > **Atvieglojumu plānu iestatījumi** un atjauninot lauku **Izsekot atvērtās reģistrācijas progresu**.  Piemēram, var izveidot plānus, kur **Plāna tips** = **Cits**. Šie plāni var būt izvēles plāni, kuriem nevēlaties izsekot reģistrācijas progresu. Ja neatlasot šo plāna tipu, šo tipu plāni tiks ignorēti, izsekojot reģistrācijas norisi vai pabeidzot to cilnē **Atvērt reģistrāciju**. Šis iestatījums attiecas uz plāna tipu, kas atlasīts visiem periodiem un juridiskajām personām.
+
+- **Notiek** – elements **Notiek** sniedz darbinieku skaitu, kuri ir procesā. Elements **Notiek** ir filtrēts saraksts, kurā ir redzami tikai darbinieki, kuriem ir vismaz viens plāns, kas ir atcelts vai atlasīts. Obligātie plāni tiek ignorēti un nav iekļauti, jo tie pēc noklusējuma ir atlasīti darbiniekam. Varat rakties no šī elementa, lai skatītu atlasītos un atceltos plānus lapā **Darbinieku atvieglojumu plānu lielapjoma atjaunināšana**.
+
+- **Reģistrēts atvieglojumos** – elements **Reģistrēts atvieglojumos** sniedz to darbinieku skaitu, kas ir pilnībā reģistrēti atvieglojumiem. Elements **Reģistrēts atvieglojumos** ir filtrēts saraksts, kurā ir redzami darbinieki, kuri ir atlasījuši vai atcēluši visus plānus. Vaicājums izslēdz plānus, kas netiek izsekoti atvērtajai reģistrācijai **Darbinieku pašapkalpošanās parametru** lapā. Varat rakties no šī elementa, lai skatītu darbinieku sarakstu lapā **Darbinieku atvieglojumu plāni**.
+
+- **Neapstiprinātas atlases** — elements **Neapstiprinātas atlases** parāda to darbinieku skaitu, kuriem ir atlasīti vai atcelti plāni, kas ir jāapstiprina. Varat rakties no šī elementa, lai skatītu darbinieku sarakstu lapā **Darbinieku atvieglojumu plāni**.
+
+**Aktivitāte**
+
+- **Nav sākts** – elements **Nav sākts** parāda to darbinieku skaitu, kuri nav sākuši reģistrēšanās procesu. Elements **Nav sākts** ir filtrēts saraksts, kurā ir redzami tikai tie darbinieki, kuriem nav neviena plāna, kas nav atlasīti, atcelti vai paņemti atvērtam reģistrācijas plāna periodam. Obligātie plāni tiek ignorēti un nav iekļauti, jo tie pēc noklusējuma ir atlasīti darbiniekam. Detalizētu informāciju par darbinieku var skatīt, lai rādītu lapu **Detalizēta informācija par darbinieka atvieglojumu plāniem**.
+
+- **Notiek** – elements **Notiek** sniedz darbinieku skaitu, kuri ir procesā. Elements **Notiek** ir filtrēts saraksts, kurā ir redzami tikai darbinieki, kuriem ir vismaz viens plāns, kas ir atcelts vai atlasīts. Obligātie plāni tiek ignorēti un nav iekļauti, jo tie pēc noklusējuma ir atlasīti darbiniekam. Detalizētu informāciju par darbinieku var skatīt, lai rādītu lapu **Detalizēta informācija par darbinieka atvieglojumu plāniem**.
+
 ## <a name="view-more-options"></a>Skatīt vairāk opciju
 
-Lai apskatītu vairāk informācijas un darbības, ko varat veikt, atlasiet **Saites**.
+Lai apskatītu vairāk informācijas un darbību, ko varat veikt, atlasiet **Saites**.
 
 ![Saites.](./media/hr-benefits-management-workspace-links.png)
 

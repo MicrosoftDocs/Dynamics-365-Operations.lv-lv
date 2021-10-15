@@ -1,7 +1,7 @@
 ---
 title: Piemērs dienu skaita samazināšanai
 description: Piemērs dienu skaita samazināšanai.
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,30 +15,29 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ba0cfde66476d052f0c9a048977026341a5295c21603385c5b3774a15be5232
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 97fb032d02df1dbedaeccec14496cb1d63e8cf70
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727802"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567947"
 ---
-# <a name="reduction-days-example"></a>Piemērs dienu skaita samazināšanai 
+# <a name="reduction-days-example"></a>Piemērs dienu skaita samazināšanai
 
 [!include [banner](../includes/banner.md)]
-
 
 Jūs esat izveidojis abonementa darījumu klienta uzturēšanas abonementam, kā aprakstīts šajā tabulā.
 
 <table>
 <colgroup>
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -66,21 +65,20 @@ Jūs esat izveidojis abonementa darījumu klienta uzturēšanas abonementam, kā
 </tbody>
 </table>
 
-
 Klients ziņo, ka tam nav nepieciešams pakalpojumu nodrošinājums uz divām dienām (10. marts un 11. marts). Jūs piekrītat samazināt abonementu par šīm divām dienām.
 
 Jūs izveidojat jaunu darbību, kuras tips ir **Dienu skaita samazināšana**, kā aprakstīts šajā tabulā.
 
 <table>
 <colgroup>
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -108,16 +106,10 @@ Jūs izveidojat jaunu darbību, kuras tips ir **Dienu skaita samazināšana**, k
 </tbody>
 </table>
 
-
 Kad par 2011. gada darbībām tiek sagatavots rēķins, pārdošanas cena EUR 200 tiek samazināta par EUR 12,90. Tādējādi atskaitāmā summa par abonementa darbību ir EUR 187,10, un tiks izsūtīti rēķini par divām darbībām ar kopējo summu EUR 187,10.
 
 ## <a name="see-also"></a>Skatiet arī
 
 [Abonementa apmaksas dienu samazināšana](reduce-the-days-on-subscription-fees.md)
-
-  
-
-
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

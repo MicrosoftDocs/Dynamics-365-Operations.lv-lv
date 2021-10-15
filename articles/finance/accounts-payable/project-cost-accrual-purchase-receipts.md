@@ -1,7 +1,7 @@
 ---
 title: Uzkrātās projekta izmaksas pirkšanas pavadzīmēs
 description: Šajā tēmā ir aprakstīts, kā var izsekot uzkrātajām projekta izmaksām pirkšanas pavadzīmēs programmā Microsoft Dynamics 365 Finance.
-author: ShylaThompson
+author: sunfzam
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ca04760c682969a409943e66f246dfa8a3bf2872183a0197c8c460cf4398c483
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7ae2f57e0104a30492363f1576962d36a2a1b04b
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737287"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595234"
 ---
 # <a name="project-cost-accrual-on-purchase-receipts"></a>Uzkrātās projekta izmaksas pirkšanas pavadzīmēs
 
@@ -32,7 +32,7 @@ Bieži vien projekta rēķini tiek saņemti vēlāk par preču un pakalpojumu pi
 
 Tas ir atainots tālāk sniegtajā scenārija piemērā. 
 
-Contoso Consulting ir sācis jaunu mākoņa izvietošanas projektu. Ir izveidots pirkšanas pasūtījums, lai nopirktu datoru šī projekta vajadzībām. Datora izmaksas ir $ 1500 un uzstādīšanas pakalpojumu izmaksas ir $ 150. Kreditors ir piegādājis un uzstādījis datoru, taču uzņēmums Contoso Consulting vēl nav saņēmis rēķinu. Projekta vadītājs vēlas redzēt uzkrātās projekta izmaksas $ 1650, pirms tiek piegādāts rēķins. Šīs izmaksas ir arī jāietver uzņēmuma mēneša beigu finanšu pārskatos. 
+Uzņēmums Contoso Consulting ir sācis jaunu mākoņa izvietošanas projektu. Ir izveidots pirkšanas pasūtījums, lai nopirktu datoru šī projekta vajadzībām. Datora izmaksas ir $ 1500 un uzstādīšanas pakalpojumu izmaksas ir $ 150. Kreditors ir piegādājis un uzstādījis datoru, taču uzņēmums Contoso Consulting vēl nav saņēmis rēķinu. Projekta vadītājs vēlas redzēt uzkrātās projekta izmaksas $ 1650, pirms tiek piegādāts rēķins. Šīs izmaksas ir arī jāietver uzņēmuma mēneša beigu finanšu pārskatos. 
 
 Uzkrātās izmaksas ir jāreģistrē gan finanšu līmenī, gan projekta līmenī pārskatu izveides nolūkā. Var izsekot krājumu un sagādes kategoriju preces ieejas plūsmas finanšu atjauninājumu. 
 

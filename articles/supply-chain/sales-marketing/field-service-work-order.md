@@ -1,7 +1,7 @@
 ---
 title: Sinhronizējiet darba pasūtījumus risinājumā Field Service ar pārdošanas pasūtījumiem risinājumā Supply Chain Management
 description: Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti risinājumā Field Service ietverto darba pasūtījumu sinhronizēšanai ar pārdošanas pasūtījumiem risinājumā Supply Chain Management.
-author: ChristianRytt
+author: Henrikan
 ms.date: 04/09/2018
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 7d7688e757a3ab9746ae0307a7c15f0624c1d8aceeb0dc935b0da32d3ab2994b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c54f5eaec1ae453ba9e55ef54d47c8591276ec89
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752686"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568379"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Sinhronizējiet darba pasūtījumus risinājumā Field Service ar pārdošanas pasūtījumiem risinājumā Supply Chain Management
 
@@ -245,31 +245,31 @@ Tālāk esošajos attēlos ir redzams veidnes kartējums līdzeklī Datu integr�
 
 Filtrs: (msdyn_systemstatus ne 690970005) un (msdyn_systemstatus ne 690970000), un (msdynce_hasexternallymaintainedproductsonly eq true)
 
-[![Veidņu kartēšana līdzeklī Datu integrācija.](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
+[![Veidņu kartēšana datu integrācijā, darba pasūtījumi ar projektu (Field Service uz Supply Chain Management): WorkOrderHeader.](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineestimate"></a>No darba pasūtījumiem uz pārdošanas pasūtījumiem (no Field Service uz Supply Chain Management): DarbaPasūtījumaServisaRindasNovērtējums
 
 Filtrs: (msdynce_headersystemstatus ne 690970005) un (msdynce_headersystemstatus ne 690970000), un (msdynce_orderhasexternalmaintainedproductsonly eq true), un (msdyn_linestatus eq 690970000), un (msdynce_headersystemstatus ne 690970004)
 
-[![Veidņu kartēšana līdzeklī Datu integrācija.](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
+[![Veidņu kartēšana datu integrācijā, darba pasūtījumi ar projektu (Field Service uz Supply Chain Management): WorkOrderServiceLineEstimate.](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineused"></a>No darba pasūtījumiem uz pārdošanas pasūtījumiem (no Field Service uz Supply Chain Management): DarbaPasūtījumaServisaIzmantotaRinda
 
 Filtrs: (msdynce_headersystemstatus ne 690970005) un (msdynce_headersystemstatus ne 690970000), un (msdynce_orderhasexternalmaintainedproductsonly eq true), un ((msdyn_linestatus eq 690970001), vai (msdynce_headersystemstatus eq 690970004))
 
-[![Veidņu kartēšana līdzeklī Datu integrācija.](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
+[![Veidņu kartēšana datu integrācijā, darba pasūtījumi ar projektu (Field Service uz Supply Chain Management): WorkOrderServiceLineUsed.](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineestimate"></a>No darba pasūtījumiem uz pārdošanas pasūtījumiem (no Field Service uz Supply Chain Management): DarbaPasūtījumaProduktaRindasNovērtējums
 
 Filtrs: (msdynce_headersystemstatus ne 690970005) un (msdynce_headersystemstatus ne 690970000), un (msdynce_orderhasexternalmaintainedproductsonly eq true), un (msdyn_linestatus eq 690970000), un (msdynce_headersystemstatus ne 690970004), un (msdyn_allocated eq true)
 
-[![Veidņu kartēšana līdzeklī Datu integrācija.](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
+[![Veidņu kartēšana datu integrācijā, darba pasūtījumi ar projektu (Field Service uz Supply Chain Management): WorkOrderServiceLineEstimate.](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineused"></a>No darba pasūtījumiem uz pārdošanas pasūtījumiem (no Field Service uz Supply Chain Management): DarbaPasūtījumaProduktaIzmantotaRinda
 
 Filtrs: (msdynce_headersystemstatus ne 690970005) un (msdynce_headersystemstatus ne 690970000), un (msdynce_orderhasexternalmaintainedproductsonly eq true), un ((msdyn_linestatus eq 690970001), vai (msdynce_headersystemstatus eq 690970004), vai (msdyn_allocated ne true))
 
-[![Veidņu kartēšana līdzeklī Datu integrācija.](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
+[![Veidņu kartēšana datu integrācijā, darba pasūtījumi ar projektu (Field Service uz Supply Chain Management): WorkOrderProductLineUsed.](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

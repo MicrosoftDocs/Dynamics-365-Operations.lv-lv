@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 4b64863c668b71335b8935037cc1c2de1fcc620e0f3f91e97ca38614334e6cc9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3e1dbb97ba56b5910dda368b9ec15e27a683dde5
+ms.sourcegitcommit: 5c0a0adeb859cc1ade6f067444f3bf08a895b35a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774973"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7557396"
 ---
 # <a name="global-inventory-accounting-home-page"></a>Globālās krājumu uzskaites sākumlapa
 
@@ -46,8 +46,11 @@ Globālā krājumu uzskaite pašlaik ir pieejama šādos Azure ģeogrāfiskajos 
 - Apvienotā Karaliste
 - Austrālija
 - Kanāda
+- Dienvidamerika
 
 Ja mēģināsit instalēt pievienojumprogrammu no cita ģeogrāfiskā reģiona, Microsoft Dynamics Lifecycle Services (LCS) rādīs ziņojumu, ka jūsu ģeogrāfiskais reģions netiek atbalstīts. Globālā krājumu uzskaite neatbalsta Supply Chain Management lokālas izvietošanas.
+
+Ja jums ir problēmas Globālo krājumu uzskaites iespējošanu vienā no šeit uzskaitītajiem atbalstītajiem ģeogrāfiskajiem reģioniem, lūdzu, nosūtiet e-pasta ziņojumu ar vides ID [Globālu krājumu uzskaites komandai](mailto:GlobalInvAccount@microsoft.com), lai saņemtu validāciju.
 
 ## <a name="licensing"></a>Licencēšana
 

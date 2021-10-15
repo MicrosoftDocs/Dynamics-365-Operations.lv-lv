@@ -1,7 +1,7 @@
 ---
 title: Programmā Field Service ietverto krājumu pārsūtīšanas un korekcijas darbību sinhronizēšana ar programmatūru Supply Chain Management
 description: Šajā tēmā ir apskatītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Dynamics 365 Supply Chain Management ietverto krājumu korekciju un pārsūtīšanas darbību sinhronizēšanai ar programmu Dynamics 365 Field Service.
-author: ChristianRytt
+author: Henrikan
 ms.date: 04/30/2019
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: f1fc4b65fefcc050591f721cf5271fdd79f1b648d992be988af7ac02e220850c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 83ab46904815b177640c87fef58ce208d00d800a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717895"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566387"
 ---
 # <a name="synchronize-inventory-transfers-and-adjustments-from-field-service-to-supply-chain-management"></a>Programmā Field Service ietverto krājumu pārsūtīšanas un korekcijas darbību sinhronizēšana ar programmatūru Supply Chain Management
 
@@ -72,12 +72,12 @@ Tālāk esošajos attēlos ir redzams veidnes kartējums līdzeklī Datu integr�
 
 ### <a name="inventory-adjustment-field-service-to-supply-chain-management-inventory-adjustment"></a>Krājumu korekcija (no Field Service uz Supply Chain Management): Krājumu korekcija
 
-[![Veidņu kartēšana līdzeklī Datu integrācija.](./media/FSAdj1.png)](./media/FSAdj1.png)
+[![Krājumu kartēšana datu integrācijā, krājumu pielāgošana (no Field Service uz Supply Chain Management): Krājumu pielāgošana.](./media/FSAdj1.png)](./media/FSAdj1.png)
 
 
-### <a name="inventory-transfer-field-service-to-supply-chain-management-inventory-transfer"></a>Krājumu pārsūtījumi (no Field Service uz Supply Chain Management): Krājumu pārsūtījumi
+### <a name="inventory-transfer-field-service-to-supply-chain-management-inventory-transfer"></a>Krājumu pārsūtīšana (no Field Service uz Supply Chain Management): Krājumu pārsūtīšana
 
-[![Veidņu kartēšana līdzeklī Datu integrācija.](./media/FSTrans1.png)](./media/FSTrans1.png)
+[![Krājumu kartēšana datu integrācijā, krājumu pārsūtīšana (no Field Service uz Supply Chain Management): Krājumu pārsūtīšana.](./media/FSTrans1.png)](./media/FSTrans1.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

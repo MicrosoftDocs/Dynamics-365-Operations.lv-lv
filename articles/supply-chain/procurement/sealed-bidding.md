@@ -1,22 +1,22 @@
 ---
 title: Slēgta piedāvājumu izteikšana PP
 description: Šajā tēmā ir aprakstīts, kā iestatīt aizzīmogotu izsoli, lai nodrošinātu, ka kreditora solītās atbildes ir slepenas, līdz pirkšanas personāls noņem aizzīmogotos piedāvājumus.
-author: yanansong
+author: Henrikan
 ms.date: 08/02/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: yanansong
+ms.author: henrikan
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 02cbe9d6a6d157208d73ed756efae24df2a082de
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 96549b6053ba75f2d5b9a85bcd5b7feb006f0f1b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500638"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578084"
 ---
 # <a name="sealed-bidding-for-rfqs"></a>Slēgta piedāvājumu izteikšana PP
 
@@ -53,7 +53,11 @@ Pirms sākat iestatīt vai izmantot šo līdzekli, ir jāpārliecinās, vai tas 
 Supply Chain Management izmanto šifrēšanas atslēgas, lai aizsargātu visus aizzīmogotos piedāvājumus un paturētu tos slepenos līdz atbilstošajam laikam. Tas izmanto Key Vault spēju priekšrocības, lai ģenerētu un pārvaldītu nepieciešamās atslēgas. Tādēļ, lai aktivizētu sistēmu, jums ir jāiestata savienojums no Supply Chain Management uz atslēgu.
 
 > [!IMPORTANT]
-> Key Vault ir jābūt veidotai Azure abonementā, kas pieder jūsu organizācijai (nevis abonementā, kurā jūs izmantojiet Supply Chain Management).
+> Atslēgai, kas tiek lietota aizzīmogotos piedāvājumos, jāatbilst šādiem nosacījumiem:
+>
+> - Ja testēšanai un izstrādei un testēšanai izmantojat kasti, tad vienai atvēlētai atslēgai, kas paredzēta glabātavai, un atsevišķai atslēgai ražošanai.
+> - Key Vault ir jābūt veidotai Azure abonementā, kas pieder jūsu organizācijai (nevis abonementā, kurā jūs izmantojiet Supply Chain Management).
+> - Katra atslēga ir jāizmanto tikai aizzīmogotiem piedāvājumiem. Jūs nedrīkstat izmantot aizzīmogotu cenu noteikšanas taustiņus citiem nolūkiem.
 
 Katrs piedāvājums izgūst savu slepeno atslēgu. Šī atslēga tiek izmantota ikreiz, kad lietotājs skata, atjaunina vai noņem zīmogu no piedāvājuma.
 

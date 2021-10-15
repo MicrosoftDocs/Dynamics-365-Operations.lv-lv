@@ -2,19 +2,19 @@
 title: Pakalpojuma apraksts Finance and Operations programmām
 description: Šajā tēmā ir sniegts pakalpojuma apraksts Finance and Operations programmām.
 author: tomhig
-ms.date: 09/03/2021
+ms.date: 09/29/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 4df681641490fe3b43f4d927ad09e43007f83367
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: a1547f0cc6c6f705cd0e2ff6e5be751cb97b946a
+ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472509"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "7581820"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Pakalpojuma apraksts Finance and Operations programmām
 
@@ -28,7 +28,7 @@ Finance and Operations programmas ir uzņēmuma resursu plānošanas (Enterprise
 - [Dynamics 365 Commerce](/dynamics365/commerce/)
 - [Dynamics 365 Project Operations](/dynamics365/project-operations/)
 
-Kopā ar [biznesa inteliģences](/power-bi/fundamentals/power-bi-service-overview), [infrastruktūras](https://azure.microsoft.com/global-infrastructure/), [skaitļošanas](/azure/service-fabric/service-fabric-overview) un [datu bāzes pakalpojumiem](/azure/azure-sql/azure-sql-iaas-vs-paas-what-is-overview) šīs lietojumprogrammas ļauj organizācijām darbināt nozarei specifiskus un darbības biznesa procesus. Debitori, kurus atbalsta ieviešanas partneris, nosaka tās biznesa lietojumprogrammas loģikas konfigurāciju, kas vislabāk atbilst viņu unikālajiem biznesa procesiem. Funkcionalitāti un biznesa procesus var paplašināt vai paplašināt, izmantojot vienu no šiem risinājumiem vai to kombināciju:
+Kopā ar [biznesa inteliģences](/power-bi/fundamentals/power-bi-service-overview), [infrastruktūras](https://azure.microsoft.com/global-infrastructure/), [skaitļošanas](/azure/service-fabric/service-fabric-overview) un [datu bāzes pakalpojumiem](https://devblogs.microsoft.com/azure-sql/running-1m-databases-on-azure-sql-for-a-large-saas-provider-microsoft-dynamics-365-and-power-platform/) šīs lietojumprogrammas ļauj organizācijām darbināt nozarei specifiskus un darbības biznesa procesus. Debitori, kurus atbalsta ieviešanas partneris, nosaka tās biznesa lietojumprogrammas loģikas konfigurāciju, kas vislabāk atbilst viņu unikālajiem biznesa procesiem. Funkcionalitāti un biznesa procesus var paplašināt vai paplašināt, izmantojot vienu no šiem risinājumiem vai to kombināciju:
 
 - Iebūvēta [personalizēšanas pieredze](personalize-user-experience.md)
 - [Microsoft Power Platform](../../dev-itpro/power-platform/overview.md) rīki
@@ -197,17 +197,17 @@ Tabulā ir aprakstīti daži tipiski pakalpojuma scenāriji un darbības. Tas ar
 | Nodrošināt visas ražošanas instances un gadījumus, kas nav ražošanas gadījumi. | X | |
 | Validēt izvietotās ražošanas instances un gadījumus, kas nav ražošanas gadījumi. | | X |
 | **Pakalpojuma atjauninājumi** | |
-| Microsoft piemēro pakalpojumu atjauninājumus norādītām ne produkcijas un ražošanas instancēm. | X | X |
-| Lejupielādējiet atjauninājumu no LCS, definējiet, izstrādājiet un pārbaudiet atjauninājumu un nodrošiniet koda atjaunināšanas pakotni atpakaļ LCS. | | X |
-| Pieprasīt, lai ražošanas instancei tiktu lietoti paplašinājuma atjauninājumi. | | X |
+| Piemērojiet pakalpojumu atjauninājumus norādītajām ar ražošanu saistītām un nesaistītām instancēm. | X | |
+| Manuāli piemērojiet pakalpojumu atjauninājumus no LCS smilškastes instancēm. Definējiet, izstrādājiet, pārbaudiet atjauninājumu un nodrošiniet koda atjaunināšanas pakotni atpakaļ uz LCS. | | X |
+| Pieprasiet un ieplānojiet, lai ražošanas instancei tiktu lietoti paplašinājuma atjauninājumi. | | X |
 | Izveidojiet kodu un datu dublējumu ražošanas instancei pirms jebkādu atjauninājumu lietošanas. | X | |
 | Jebkuras kļūmes gadījumā atritiniet ražošanas instanci uz kodu un datu dublējumu. | X | |
 | **Datu pārvaldība (dublēšana, atjaunošana un atjaunināšana)** | | |
 | Datu bāzes dublējumkopija. | X | |
 | Nosakiet augstu pieejamību un ārkārtas atgūšanas plānu. | X | |
-| Pārraudzīt ražošanas instances datu bāzes veiktspēju. | X | X |
-| Lai nodrošinātu veiktspēju, noregulējiet ražošanas instanču datu bāzi. | X | X |
-| Sāciet ražošanas instances datu bāzes kopēšanu uz instanci, kas nav ražošanas instance. | | X |
+| Pārraudzīt ražošanas instances datu bāzes veiktspēju. | X | |
+| Lai nodrošinātu veiktspēju, noregulējiet ražošanas instanču datu bāzi. | X | |
+| Veiciet ražošanas instances datu bāzes laicīgu atsvaidzināšanu instancei, kas nav ražošanas instance. | | X |
 | **Infrastruktūras atjaunināšana** | | |
 | Plānot regulārus infrastruktūras atjauninājumus. | X | |
 | **Mērogošana uz augšu un uz leju (lietotāji, noliktava un instances)** | | |
@@ -215,7 +215,7 @@ Tabulā ir aprakstīti daži tipiski pakalpojuma scenāriji un darbības. Tas ar
 | Atjauniniet lietošanas izmaiņas LCS abonementa novērtējuma rīkā. | | X |
 | Ziņojiet par jebkādām nozīmīgu veiktspējas problēmām, kas ietekmē pakalpojuma izmantošanu. | | X |
 | Proaktīvi pārvaldiet resursus, kas ir nepieciešami piemērojamam pakalpojumam. | X | |
-| Izpētīt un novērst incidentus; | X | X |
+| Izpētīt un novērst incidentus; | X | |
 | **Drošība (lietotāja piekļuve)** | | |
 | Nodrošiniet lietotāja piekļuvi pakalpojumam. | | X |
 | Nodrošiniet LCS projekta piekļuvi to instanču pārvaldībai un darbībai, kas izvietotas, izmantojot LCS. | | X |

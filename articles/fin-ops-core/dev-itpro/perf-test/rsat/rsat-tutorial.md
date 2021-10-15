@@ -1,24 +1,21 @@
 ---
 title: Regression Suite Automation Tool apmācība
 description: Šajā tēmā ir parādīts, kā izmantot Regression Suite Automation Tool (RSAT). Tajā ir aprakstīti dažādi līdzekļi un sniegti piemēri, kuros izmantota papildu skriptēšana.
-author: robinarh
-ms.date: 01/15/2021
+author: FrankDahl
+ms.date: 09/23/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: rhaertle
-ms.custom: 21761
 ms.search.region: Global
-ms.author: rhaertle
+ms.author: fdahl
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: d70b2e7cf497fbf165a452f7977a14a98b9e1956e5a964d42c7bf8a6c3abe0bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f1d818944ed2779cdad15d84673369e31243285f
+ms.sourcegitcommit: ba8ca42e43e1a5251cbbd6ddb292566164d735dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714553"
+ms.lasthandoff: 09/25/2021
+ms.locfileid: "7556769"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool apmācība
 
@@ -82,13 +79,19 @@ Pēc testa gadījuma palaišanas ziņojums Excel parametru failā tiek salīdzin
 
 Šis līdzeklis uzņem to darbību ekrānuzņēmumus, kas tika izpildītas uzdevuma reģistrēšanas laikā. Tas ir noderīgs audita vai atkļūdošanas nolūkiem.
 
-- Lai izmantotu šo līdzekli, atveriet failu **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config**, kas atrodas RSAT instalācijas mapē (piemēram, **C:\\Program Files (x86)\\Regression Suite Automation Tool**), un mainiet tālāk norādītā elementa vērtību no **false** uz **true**.
+- Lai izmantotu šo līdzekli, atveriet failu **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config**, kas atrodas RSAT instalācijas mapē (piemēram, **C:\\Program Files (x86)\\Regression Suite Automation Tool**), un mainiet tālāk norādītā elementa vērtību no **aplams** uz **patiess**.
 
     ```xml
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-Kad tiek palaists testa gadījums, RSAT ģenerēs soļu momentuzņēmumus (attēlus) pārbaudes gadījumu atskaņošanas mapē darba direktorijā. Ja tiek izmantota vecāka RSAT versija, attēli tiek saglabāti **C:\\Users\\\<Username\>\\AppData\\Roaming\\regressionTool\\playback**, tiek izveidota atsevišķa mape katram testa gadījumam, kas tiek palaists.
+- Lai izmantotu šo līdzekli RSAT darbības laikā, ko palaida CLI (piemēram, Azure DevOps), atveriet failu **Microsoft.Dynamics.RegressionSuite.ConsoleApp.exe.config**, kas atrodas RSAT instalācijas mapē (piemēram, **C:\\Program Files (x86)\\Regression Suite Automation Tool**), un mainiet tālāk norādītā elementa vērtību no **aplams** uz **patiess**.
+
+    ```xml
+    <add key="VerboseSnapshotsEnabled" value="false" />
+    ```
+
+Kad tiek palaisti testa piemēri, RSAT ģenerēs soļu momentuzņēmumus (attēlus) pārbaudes gadījumu atskaņošanas mapē darba direktorijā. Atskaņošanas mapē tiek izveidota atsevišķa apakšmape ar nosaukumu **StepSnapshots**. Mape satur momentuzņēmumus palaistiem pārbaudes gadījumiem.
 
 ## <a name="assignment"></a>Piešķire
 
@@ -521,7 +524,7 @@ for ($i = $start; $i -lt $start + $nr; $i++ )
 
 Tālāk norādītajā piemērā izmantots atvērta datu protokola (OData) izsaukums, lai atrastu pirkšanas pasūtījuma statusu. Ja statuss nav **iekļauts rēķinā**, varat, piemēram, izsaukt RSAT testa gadījumu, kas iegrāmato rēķinu.
 
-```xpp
+```powershell
 function Odata_Get
 {
     Param ( [string] $environment, [string] $cmd )

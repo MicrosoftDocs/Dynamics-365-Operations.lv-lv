@@ -1,7 +1,7 @@
 ---
 title: Pārdošanas līgumu pārskats
 description: Šajā tēmā ir sniegta informācija par pārdošanas līgumiem. Pārdošanas līgums ir līgums, ar kuru debitors piekrīt laika gaitā iegādāties noteiktu daudzumu preču vai iegādāties preces par noteiktu summu apmaiņā pret īpašām cenām un atlaidēm.
-author: omulvad
+author: Henrikan
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.assetid: c5d55c8d-99f2-44f9-a897-5b0dee85fc81
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cff7125e4ba6b27c60253d6dc5ef37b0fd61267800000ea75cb8fb5d3b7a6ccd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 62283429aaa8d584b5b889bd4c9ac5904bf738a5
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779186"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576596"
 ---
 # <a name="sales-agreements-overview"></a>Pārdošanas līgumu pārskats
 

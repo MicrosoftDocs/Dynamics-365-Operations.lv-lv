@@ -2,7 +2,7 @@
 title: Krājumu uztveramības pievienojumprogrammas publiskais API
 description: Šajā tēmā aprakstīti publiskie API, kas tiek nodrošināti ar Krājumu redzamību.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 09/30/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -10,13 +10,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
-ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6dff54f54a495c2b4a7837f3a41f410d418cf12b
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.dyn365.ops.version: 10.0.22
+ms.openlocfilehash: 43fa94118c4d76e021bb635d720208d5f971db19
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474656"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592492"
 ---
 # <a name="inventory-visibility-public-apis"></a>Krājumu uztveramības pievienojumprogrammas publiskais API
 
@@ -82,6 +82,8 @@ Microsoft ir izveidojis lietotāja interfeisu (UI) risinājumā Power Apps, lai 
 
 Platformas drošības marķieris tiek izmantots, lai izsauktu Krājumu redzamības pievienojumprogrammas publisko API. Tāpēc, izmantojot programmu, ir jāizveido _Azure Active Directory (Azure AD) marķieris_ ar Azure AD lietotni. Pēc tam ir jāizmanto Azure AD marķieris, lai iegūtu _piekļuves pilnvaras_ no drošības pakalpojuma.
 
+Microsoft ir nodrošinājusi standarta *Pastnieka* pieprasījuma kolekciju. Jūs variet importēt šo kolekciju savā *Pastnieka* programmatūrā, izmantojot šādu koplietojamu saiti: <https://www.getpostman.com/collections/496645018f96b3f0455e>.
+
 Lai iegūtu drošības pakalpojuma pilnvaru, rīkojieties šādi.
 
 1. Pieteikties Azure portālā un izmantot to, lai atrastu `clientId` un `clientSecret` vērtības savai Dynamics 365 Supply Chain Management programmai.
@@ -131,7 +133,7 @@ Lai iegūtu drošības pakalpojuma pilnvaru, rīkojieties šādi.
    - `context` vērtībai jābūt LCS vides ID, kurā vēlaties izvietot pievienojumprogrammu.
    - Iestatiet pārējās vērtības, kā parādītas piemērā.
 
-1. Iesniedziet HTTP pieprasījumu ar šādiem rekvizītiem:
+1. Paņemt piekļuves marķieri (`access_token`), iesniedzot HTTP pieprasījumu ar šādiem rekvizītiem:
 
    - **URL:** `https://securityservice.operations365.dynamics.com/token`
    - **Metode:** `POST`
@@ -148,7 +150,8 @@ Lai iegūtu drošības pakalpojuma pilnvaru, rīkojieties šādi.
    }
    ```
 
-Tālākās sadaļās jūs izmantosiet `$access_token`, lai attēlotu marķieri, kas tika paņemts pēdējā solī.
+> [!IMPORTANT]
+> Izmantojot *Pastnieka* pieprasījumu kolekciju, lai izsauktu krājumu redzamības publiskos API, katram pieprasījumam ir jāpievieno uzrādītāja marķieris. Lai atrastu savu uzrādītāja marķieri, atlasiet cilni **Autorizācija** zem pieprasījuma URL, atlasiet tipu **Uzrādītāja Marķieris** un kopējiet piekļuves marķieri, kas tika ienests pēdējā solī. Tālākās sadaļās jūs izmantosiet `$access_token`, lai attēlotu marķieri, kas tika paņemts pēdējā solī.
 
 ## <a name="create-on-hand-change-events"></a><a name="create-onhand-change-event"></a>Izveidot rīcībā esošus izmaiņu notikumus
 
@@ -508,7 +511,7 @@ Body:
 
 - `organizationId` vajadzētu saturēt tikai vienu vērtību, bet tas joprojām ir masīvs.
 - `productId` var saturēt vienu vai vairākas vērtības. Ja tas ir tukšs masīvs, visas preces tiks atgrieztas.
-- Inventory Visiblity dalīšanā tiek izmantoti `siteId` un `locationId`.
+- Inventory Visiblity dalīšanā tiek izmantoti `siteId` un `locationId`. Varat norādīt vairāk nekā vienu `siteId` un `locationId` vērtību *Rīcībā aesošā* pieprasījumā. Pašreizējā laidienā jānorāda gan `siteId`, gan `locationId` vērtības.
 
 `groupByValues` parametram vajadzētu sekot jūsu indeksēšanas konfigurācijai. Papildinformāciju skatiet [Preču indeksa hierarhijas konfigurēšana](./inventory-visibility-configuration.md#index-configuration).
 
