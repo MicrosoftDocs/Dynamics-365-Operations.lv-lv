@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: dd493e855e45362c1681dc9cdfbbcb71f7627d64624cd093eadab32fd966c174
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3690a541b503281f204221a72bfb5a371984d9e4
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733615"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605283"
 ---
 # <a name="financial-reporting-faq"></a>Bieži uzdotie jautājumi par finanšu pārskatu veidošanu
 
@@ -101,5 +101,28 @@ Veicot vēsturiskās valūtas pārrēķināšanu, var izmantot iepriekš aprēķ
 Kad pārskatos iekļautie dati tiek atjaunināti, var rasties aizkave, jo summas ir jāpārrēķina, pārbaudot darījuma informāciju. Šī aizkave tiek aktivizēta katru reizi, kad tiek atjaunināti kursi vai iegrāmatoti papildu darījumi. Piemēram, ja ir iestatīta vairāku tūkstošu kontu vēsturiskā pārrēķināšana vairākas reizes dienā, pārskata datu atjaunināšana var aizkavēties līdz pat stundai. Savukārt, ja specifisku kontu skaits ir mazāks, pārskata datu atjaunināšanas laiku var samazināt līdz vairākām minūtēm vai mazāk.
 
 Tāpat, kad pārskati tiek ģenerēti, izmantojot valūtas pārrēķināšanu vēsturiskā veida kontiem, tiks veikti papildu aprēķini katram darījumam. Atkarībā no kontu skaita pārskatu ģenerēšanas laiks var būt vairāk nekā divas reizes ilgāks.
+
+## <a name="what-are-the-estimated-data-mart-integration-intervals"></a>Kādi ir paredzētie Data Mart integrācijas intervāli?
+
+Financial Reporter izmanto 16 uzdevumus, lai kopētu Dynamics 365 Finance datus Financial Reporter datubāzē. Tālāk sniegtajā tabulā uzskaitīti šie 16 uzdevumi un parādīts intervāls, kas norāda, cik bieži katrs uzdevums tiek izpildīts. Intervālus nevar mainīt.
+
+| Nosaukums                                                       | Intervāls | Intervāla hronometrāža |
+|------------------------------------------------------------|----------|-----------------|
+| AX 2012 kontu kategorijas / konta kategorija            | 41       | Minūtes         |
+| AX 2012 konti / konts                                | 7        | Minūtes         |
+| AX 2012 uzņēmumi / uzņēmums                               | 300      | Sekundes         |
+| AX 2012 uzņēmumi / organizācija                          | 23       | Minūtes         |
+| AX 2012 dimensiju kombinācijas / dimensiju kombinācija    | 1        | Minūtes         |
+| AX 2012 dimensiju vērtības / dimensijas vērtība                | 11       | Minūtes         |
+| AX 2012 dimensijas / dimensija                            | 31       | Minūtes         |
+| AX 2012 valūtu kursi / valūtas kurss                    | 17       | Minūtes         |
+| AX 2012 finanšu gadi / finanšu gads                        | 13       | Minūtes         |
+| AX 2012 virsgrāmatas darījumi / informācija                | 1        | Minūtes         |
+| AX 2012 organizācijas hierarhijas / koks                   | 3600    | Sekundes         |
+| AX 2012 scenāriji / scenārijs                              | 29       | Minūtes         |
+| AX 2012 darījuma tipa kvalificētāji / informācijas tipa kvalificētāji | 19       | Minūtes         |
+| Uzturēšanas uzdevums                                           | 1        | Minūtes         |
+| MR pārskata definīcijas / AX7 finanšu pārskati             | 45       | Sekundes         |
+| MR pārskatu versijas / AX finanšu pārskata versijas         | 45       | Sekundes         |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

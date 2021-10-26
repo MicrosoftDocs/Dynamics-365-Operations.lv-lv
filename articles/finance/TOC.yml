@@ -1194,6 +1194,8 @@
               href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
             - name: Valūtas iespējas finanšu pārskatos
               href: general-ledger/financial-reporting-currency-capability.md
+            - name: Nesadalītās peļņas aprēķins finanšu pārskatā
+              href: general-ledger/retained-earnings-enhancements.md
             - name: Bilances finanšu pārskati
               href: general-ledger/balance-sheet-financial-reports.md
             - name: Ģenerēt finanšu pārskatus

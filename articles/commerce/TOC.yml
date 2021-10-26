@@ -802,6 +802,8 @@
                   href: POS-serial-returns.md
                 - name: Saistītās atmaksas
                   href: dev-itpro/linked-refunds.md
+                - name: 'Apstrādāt atsaistītas atmaksas, izmantojot Dynamics 365 Commerce Payment Connector pakalpojumam Adyen'
+                  href: dev-itpro/unlinked-refunds.md
                 - name: 'Tādu preču pārdošana un atgriešana, kas nav iekļautas veikala preču klāstā'
                   href: sell-return-outside-assortments.md
                 - name: Atgriešanas pasūtījumu apmaiņu konfigurēšana un apstrādāšana
