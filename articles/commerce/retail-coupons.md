@@ -1,8 +1,8 @@
 ---
 title: Mazumtirdzniecības pārdošanas kuponu iestatīšana
-description: Šajā tēmā sniegts pārskats par kuponiem un izskaidrots, kā tos iestatīt.
-author: scott-tucker
-ms.date: 06/04/2020
+description: Šajā tēmā sniegts pārskats par kuponiem un izskaidrots, kā tos iestatīt programmā Dynamics 365 Commerce.
+author: josaw1
+ms.date: 10/05/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: josaw
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: scotttuc
+ms.author: josaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: bc79970528e23397b756fa15a715fba834edcc06e4522c6c35b64aede4976300
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6a2ee38139f20b883bdfa5f0776951246f763f5f
+ms.sourcegitcommit: f699dbc21a06dbfb3fb299b789b428ea8d643868
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745312"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "7603127"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Mazumtirdzniecības pārdošanas kuponu iestatīšana
 
@@ -40,6 +40,8 @@ Lai izveidotu kuponu, atlaide un kupons ir jāizveido atsevišķi. Pēc tam tie 
 > Pēc tam, kad kupons ir saistīts ar atlaidi, vairāki lauki programmas Commerce atlaižu lapā kļūst tikai lasāmi, jo to pārvaldībai tiek izmantoti kupona iestatījumi. Šie lauki ietver statusa un standarta datumu diapazona laukus.
 > 
 > Izmantojot kuponu zvanu centra kanālā, ir jāatlasa poga **Pārrēķināt** **(cilne Pārdot > Aprēķināt > Pārrēķināt)**, lai saņemtu ar kuponu saistīto atlaidi. Šī papildu darbība tiks noņemta nākamajā laidienā.
+
+Lai lietotu kuponu pārdošanas darījumam pārdošanas punktā (POS), varat izmantot **Kupona kodu** vai **Kupona svītrkodu**. Lai izmantotu **Kupona kodu**, operācija **Pievienot kupona kodu** ir jākonfigurē POS **Transakcijas** [ekrāna izkārtojumā](pos-screen-layouts.md). Atlasiet **Pievienot kupona kodu** un ievadiet kupona kodu. Vai arī, lai izmantotu **Kupona svītrkodu**, skenējiet svītrkodu vai ievadiet svītrkodu, izmantojot ciparu tastatūru **Transakcijas** ekrānā.
 
 ### <a name="limited-use-coupons"></a>Kuponi ar izmantošanas ierobežojumiem
 

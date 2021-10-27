@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3bf58ec746fedb046b6014f5343d4ac92c2e6aba72882dec5b1f737aa1aaae46
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f14be560ab014224e32169b4ac97682a669249b4
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743217"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605309"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-4---run-the-report"></a>ER finanšu dimensijas, ko izmanto kā datu avotu (4. daļa. Pārskata palaišana)
 
@@ -37,16 +37,16 @@ Lai izpildītu šos soļus, vispirms ir jāpabeidz soļi, kas aprakstīti proced
 ![ER konfigurāciju lapa.](../media/er-financial-dimensions-guides-run1.png)
 5. Ievadiet vai atlasiet vērtību laukā Dimensijas nosaukums.
     * Lai atlasītu visas pašreizējā uzņēmuma dimensijas, ievadiet tālāk norādīto informāciju: BusinessUnit;CostCenter;Department;ItemGroup;MainAccount;Project  
-![ER konfigurāciju lapa.](../media/er-financial-dimensions-guides-run2.png)
+![Elektroniskā pārskata parametru slaids, nolaižamā saraksta dimensijas nosaukums.](../media/er-financial-dimensions-guides-run2.png)
 6. Izvērsiet sadaļu Iekļaujamie ieraksti.
 7. Noklikšķiniet uz Filtrēt.
 8. Atlasiet rindu tabulai Virsgrāmatas žurnāls un laukam Žurnāla iedaļas numurs.
 9. Laukā Kritēriji ierakstiet '00057'.
 10. Noklikšķiniet uz Labi.
 11. Noklikšķiniet uz Labi.
-![ER konfigurāciju lapa.](../media/er-financial-dimensions-guides-run3.png)
+![Elektroniskā pārskata parametru slaids, Pārskati, kas ietver sadaļu.](../media/er-financial-dimensions-guides-run3.png)
     * Pārskatiet ģenerēto izvadi. Katrai darbībai no izvēlētās partija, tiek piedāvātas finanšu dimensijas no atbilstošajām dimensijām. Palaidiet šo pārskatu un atlasiet dažādas dimensijas, lai pārliecinātos, ka pārskatu nav atkarīgs no atlasīto dimensiju skaita, vai dimensiju skaita, kas ir konfigurētas šai instancei.  
-![ER konfigurāciju lapa.](../media/er-financial-dimensions-guides-run4.png)
+![ER konfigurācijas ģenerētā izvade.](../media/er-financial-dimensions-guides-run4.png)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

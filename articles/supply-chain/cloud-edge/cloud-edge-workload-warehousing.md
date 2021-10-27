@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: c3f703e39e5e9d475dcb4f96dfb400a961ae2dcf
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 2c2d2604dc1948d067311a12d00422ef074ac61a
+ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500431"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "7641164"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Noliktavas pārvaldības darba slodzes mākoņa un malas mēroga vienībām
 
@@ -171,7 +171,8 @@ Mēroga vienībās pašlaik netiek atbalstīti citi avotdokumentu apstrādes vai
 - Apstrāde ar negatīvu rīcībā esošo krājumu.
 - Noliktavas darba apstrāde ar sūtīšanas piezīmēm.
 - Noliktavas darba apstrāde ar materiālu apstrāde / noliktavu automatizāciju.
-- Produktu galveno datu attēlu lietošana (piemēram, Warehouse Management mobilajā lietotnē).
+- Produktu galveno datu attēli (piemēram, Warehouse Management mobilajā lietotnē).
+- Produktu datu koplietošana uzņēmumos.
 
 > [!WARNING]
 > Dažas noliktavas funkcionalitātes nebūs pieejamas noliktavām, kas darbojas kā noliktavas pārvaldības darba noslodzes, izmantojot mēroga vienību, un arī netiek atbalstīta pārkraušanas punktu vai mēroga vienības darba noslodze.
@@ -188,7 +189,6 @@ Sekojošajā tabulā ir parādīts, kuri izejošie līdzekļi tiek atbalstīti u
 |--------------------------------------------------------------|-----|------------------------------|
 | Pirmdokumenta apstrāde                                   | Jā | Nr. |
 | Apstrāde kravas un transportēšanas pārvaldības ietvaros                | Jā, taču tikai kravas plānošanas procesi. Pārvadāšanas pārvaldības apstrāde netiek atbalstīta  | Nr. |
-| Kopējās izmaksas un tranzīta kravu saņemšana                                         | Jā | Nr. |
 | Izlaist uz noliktavu                                         | Jā | Nr. |
 | Plānotā pārkraušana sadales centrā                                        | Nr.  | Nr. |
 | Sūtījumu konsolidācija                                       | Jā, lietojot kravu plānošanu | Jā |
@@ -222,9 +222,10 @@ Sekojošajā tabulā ir parādīts, kuri ienākošie līdzekļi tiek atbalstīti
 
 | Apstrādāšana                                                          | Centrmezgls | Noliktavas izpildes darba slodze mēroga vienībā<BR>*(Krājumi ar atzīmi "Jā" attiecas tikai uz noliktavas pasūtījumiem)* |
 |------------------------------------------------------------------|-----|----------------------------------------------------------------------------------|
-| Pirm&nbsp;dokumenta&nbsp;apstrāde                             | Jā | Nr. |
-| Apstrāde kravas un transportēšanas pārvaldības ietvaros                    | Jā | Nr. |
-| Ienākošā sūtījuma apstiprinājums                                    | Jā | Nr. |
+| Pirm&nbsp;dokumenta&nbsp;apstrāde                             | Jā | Nē |
+| Apstrāde kravas un transportēšanas pārvaldības ietvaros                    | Jā | Nē |
+| Kopējās izmaksas un tranzīta kravu saņemšana                       | Jā | Nē |
+| Ienākošā sūtījuma apstiprinājums                                    | Jā | Nē |
 | Pirkšanas pasūtījuma nodošana noliktavā (noliktavas pasūtījuma apstrāde) | Jā | Nr. |
 | Noliktavas pasūtījuma rindu atcelšana<p>Ņemiet vērā, ka tas tiek atbalstīts tikai tad, ja pret rindu nav notikusi reģistrēšana</p> | Jā | Nr. |
 | Pirkšanas pasūtījuma krājuma saņemšana un izvietošana                       | <p>Jā,&nbsp;ja&nbsp;nav&nbsp;noliktavas pasūtījuma</p><p>Nē, ja ir noliktavas pasūtījums</p> | <p>Jā, ja pirkšanas pasūtījums nav daļa no <i>noslodzes</i></p> |

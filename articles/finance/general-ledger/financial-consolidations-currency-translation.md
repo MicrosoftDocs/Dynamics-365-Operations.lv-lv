@@ -1,8 +1,8 @@
 ---
 title: Pārskats par finanšu konsolidācijām un valūtas konvertāciju
 description: Šajā tēmā ir aprakstītas finanšu konsolidācijas un valūtas pārrēķināšana Virsgrāmatā.
-author: aprilolson
-ms.date: 07/25/2019
+author: jiwo
+ms.date: 10/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0df16db842c159b4db469139a0b5463a82e3fe07b4e23f8f7cf0272caaf23602
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9ec8e6a371f08ad7eab0d133e1b71861943274e
+ms.sourcegitcommit: f76fecbc28c9a6048366e8ead70060b1f5d21a97
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748984"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "7615939"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Finanšu konsolidācijas un valūtas pārrēķināšanas pārskats
 
@@ -182,5 +182,17 @@ Tālāk aprakstīti daži programmas Finanšu pārskatu sniegšana atbalstītie 
 ## <a name="generating-consolidated-financial-statements"></a>Konsolidēto finanšu pārskatu ģenerēšana
 Informāciju par scenārijiem, kuros varētu veidot konsolidētos finanšu pārskatus, skatiet sadaļu [Konsolidēto finanšu pārskatu veidošana](./generating-consolidated-financial-statements.md).
 
+## <a name="performance-enhancement-for-large-consolidations"></a>Veiktspējas uzlabošana lielām konsolidācijām
+
+Vides, kurās ir daudz Virsgrāmatas darījumu, var darboties lēnāk nekā ir optimāli pieņemts. Lai novērstu šo problēmu, varat iestatīt paralēlu partiju apstrādi, kas izmanto lietotāja definētu datumu skaitu. Lai nodrošinātu, ka risinājums darbojas kā paredzēts, pievienojiet konsolidācijas paplašinājuma punktu, lai atgrieztu datumu diapazonu konteineru. Pamata implementācijai jāietver viens datumu diapazons konsolidācijas sākuma un beigu datumam. Pamata implementācijas datumu diapazoni tiks pārbaudīti, lai nodrošinātu, ka tajos nav atstarpju vai pārklāšanās. Datumu diapazoni tiks izmantoti, lai katram uzņēmumam izveidotu paralēlus partijas komplektus.
+
+Varat pielāgot datumu diapazonu skaitu, lai tas atbilstu jūsu organizācijas prasībām. Pielāgojot datumu diapazonu skaitu, varat palīdzēt vienkāršot pārbaudi un minimalizēt ietekmi uz esošo kodu, jo nav sadalījuma loģikas. Vienīgās jaunās pārbaudes, kas nepieciešamas, ir apstiprināt partiju komplektu izveidošanu, validēt datumu diapazonus un pārbaudīt datumu diapazonu apakškopu, lai noskaidrotu, vai partijas var apvienot gala pakešuzdevumam. 
+
+Šis līdzeklis uzlabo konsolidācijas procesu Virsgrāmatā, kad process tiek izpildīts pakešuzdevumā. Uzlabojumi veicina Virsgrāmatas konsolidācijas procesa veiktspēju, sadalot konsolidāciju vairākos uzdevumos, kurus var apstrādāt paralēli. Noklusējuma konsolidācijas veikšanai katrs pakešuzdevums apstrādā Virsgrāmatas aktivitātes, kuru apjoms ir astoņas dienas. Tomēr ir pievienots paplašinājuma punkts, kas ļauj pielāgot izveidotos numuru uzdevumus.
+
+Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot **Līdzekļu pārvaldības** darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Tur šī iespēja ir uzskaitīta tālāk minētajā veidā:
+
+- **Modulis:** Virsgrāmata
+- **Līdzekļa nosaukums:** Veiktspējas uzlabošana lielām konsolidācijām
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

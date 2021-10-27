@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 6923954e2d287a16425a9f823e8f8800503735ec0b3837cff764cf8d6e752039
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 32eb5206fadefbd024f2dd2af888d166c81b950f
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724421"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605335"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>Elektronisko pārskatu (ER) konfigurāciju lejupielāde no konfigurācijas pakalpojuma globālā repozitorija
 
@@ -63,7 +63,7 @@ ms.locfileid: "6724421"
     > [!NOTE]
     > Poga **Importēt** nav pieejama ER konfigurācijas versijām, kas jau ir ietvertas pašreizējā Finance instancē.
 
-    ![Konfigurācijas repozitorijas lapa.](./media/er-download-configurations-global-repo-repository-content.png)
+    ![Konfigurācijas repozitorija lapa, konfigurācijas kopsavilkuma cilne.](./media/er-download-configurations-global-repo-repository-content.png)
 
 ## <a name="import-filtered-configurations"></a>Filtrēto konfigurāciju importēšana
 
@@ -77,7 +77,7 @@ ms.locfileid: "6724421"
 4. Kopsavilkuma cilnē **Konfigurācijas** atlasiet **Importēt**, lai lejupielādētu filtrētās konfigurācijas no Globālā repozitorija uz pašreizējo instanci.
 5. Kopsavilkuma cilnē **Konfigurācijas** atlasiet **Atiestatīt filtru**, lai notīrītu norādītos atlases nosacījumus.
 
-    ![Konfigurācijas repozitorijas lapa.](./media/er-download-configurations-global-repo-filtered-configurations.png)
+    ![Konfigurācijas repozitorija lapa, kopsavilkuma cilne Versijas, importēšanas poga.](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
 > Atkarībā no ER iestatījumiem konfigurācijas tiek apstiprinātas pēc to importēšanas. Jūs varat saņemt paziņojumu par konstatētajām neatbilstības problēmām. Šīs problēmas ir jāatrisina, pirms varat izmantot importēto konfigurācijas versiju. Plašāku informāciju skatiet ar šo tēmu saistīto resursu sarakstā.

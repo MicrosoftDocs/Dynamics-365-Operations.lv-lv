@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 921077cb3bc2d01c418f653194e948a2f29cc90dbd562d022ca69aa083a6ef54
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bc7c6bc299dd0af83db3b09b06276a210ecfada5
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713898"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605409"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>ER finanšu dimensijas, kuras izmanto kā datu avotu (2. daļa. Modeļa kartēšana)
 
@@ -56,14 +56,14 @@ Lai izpildītu šos soļus, vispirms ir jāpabeidz soļi, kas aprakstīti proced
 21. Atlasiet Jā laukā Jautāt galveno kontu.
     * Iestatiet 'Jautāt galveno kontu' uz Jā, lai atļautu lietotājiem atlasīt galveno kontu kā daļu no dimensiju saraksta.   Ja ir iestatīts uz Nē, galvenais konts netiks iekļauts dimensiju sarakstā, un opcija 'Vai galvenais konts ir obligāts' ir iespējota. Ja opcija 'Vai galvenais konts ir obligāts' ir iestatīta uz Jā, iekļaujiet galveno kontu dimensiju sarakstā, neatkarīgi no lietotāja veiktās atlases.  
 22. Noklikšķiniet uz Labi.
-![ER modeļa kartēšanas noformētāja lapa.](../media/er-financial-dimensions-guides-model-mapping1.png)
+![Finanšu dimensiju detalizētas informācijas datu avota rekvizīti slaidā.](../media/er-financial-dimensions-guides-model-mapping1.png)
 23. Kokā atlasiet 'Dynamics 365 for Operations\Tabulas ieraksti'.
 24. Noklikšķiniet uz Pievienot sakni.
 25. Laukā Nosaukums ierakstiet 'LedgerJournal'.
 26. Laukā Pieprasīt vaicājumu atlasiet Jā.
 27. Laukā Tabula ievadiet 'LedgerJournalTable'.
 28. Noklikšķiniet uz Labi.
-![ER modeļa kartēšanas noformētāja lapa.](../media/er-financial-dimensions-guides-model-mapping2.png)
+![<Modeļa kartējuma veidotāja lapa, tabulas ieraksta datu avota tips.](../media/er-financial-dimensions-guides-model-mapping2.png)
 
 ## <a name="map-data-model-elements-to-added-data-sources"></a>Kartēt datu modeļa elementus pievienotajiem datu avotiem
 1. Kokā izvērsiet 'Žurnāls'.
@@ -94,7 +94,7 @@ Lai izpildītu šos soļus, vispirms ir jāpabeidz soļi, kas aprakstīti proced
 25. Kokā atlasiet "LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Main account and dimensions".
 26. Kokā atlasiet 'Žurnāls\Darbība\Dimensiju dati'.
 27. Noklikšķiniet uz Saistīt.
-![ER modeļa kartēšanas noformētāja lapa.](../media/er-financial-dimensions-guides-model-mapping3.png)
+!Modeļu kartējuma veidotāja lapa, cilne Kartēšana, Datu avotu koka skats.](../media/er-financial-dimensions-guides-model-mapping3.png)
 28. Kokā atlasiet "LedgerJournal\<Relations\LedgerJournalTrans\Debit(AmountCurDebit)".
 29. Kokā atlasiet 'Žurnāls\Darbība\Debets'.
 30. Noklikšķiniet uz Saistīt.
@@ -144,7 +144,7 @@ Lai izpildītu šos soļus, vispirms ir jāpabeidz soļi, kas aprakstīti proced
 3. Noklikšķiniet uz Mainīt statusu.
 4. Noklikšķiniet uz Pabeigt.
 5. Noklikšķiniet uz Labi.
-![ER modeļa kartēšanas noformētāja lapa.](../media/er-financial-dimensions-guides-model-mapping5.png)
+![ER konfigurāciju lapa.](../media/er-financial-dimensions-guides-model-mapping5.png)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

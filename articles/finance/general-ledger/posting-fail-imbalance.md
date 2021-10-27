@@ -1,6 +1,6 @@
 ---
 title: Žurnāla grāmatošanas kļūme neatbilstības dēļ
-description: Šajā tēmā skaidrots, kādēļ debeti un kredīti dokumentu darbībās var nebūt līdzsvaroti, tādējādi darbības nevar grāmatot. Tēmā ir iekļauti arī soļi problēmas labošanai.
+description: Šajā tēmā skaidrots, kādēļ debeti un kredīti dokumentu darījumos nav sabalansēti, tādējādi darījumus nevar grāmatot. Tēmā ir iekļauti arī soļi problēmas labošanai.
 author: kweekley
 ms.date: 08/03/2021
 ms.topic: article
@@ -13,49 +13,66 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-8-03
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a59724ff698b6ad0e84b0642240da5f8953ab3d1
-ms.sourcegitcommit: 9642494da87c0d237f9fcbe15df14315d9e88fa2
+ms.openlocfilehash: fc413f8230849653aef8c2951f1749823edded6e
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/15/2021
-ms.locfileid: "7385727"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605433"
 ---
 # <a name="journal-posting-failure-because-of-imbalance"></a>Žurnāla grāmatošanas kļūme neatbilstības dēļ
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidrots, kādēļ debeti un kredīti dokumentu darbībās var nebūt līdzsvaroti, tādējādi darbības nevar grāmatot. Tēmā ir iekļauti arī soļi problēmas labošanai.
+Šajā tēmā skaidrots, kādēļ debeti un kredīti dokumentu darījumos nav sabalansēti, tādējādi darījumus nevar grāmatot. Tēmā ir iekļauti arī soļi problēmas labošanai.
 
 ## <a name="symptom"></a>Simptoms
 
-Dažos gadījumos žurnālu nevar grāmatot, un tiek rādīts šāds ziņojums: "Konkrētā dokumenta darbības nelīdzsvaro noteiktu datumu (uzskaites valūta: 0,01 — pārskata valūta: 0,06)." Kāpēc žurnālu nevar grāmatot?
+Dažos gadījumos žurnālu nevar grāmatot, un tiek rādīts šāds ziņojums: “Konkrētā dokumenta darījums nav sabalansēts noteiktam datumam (uzskaites valūta: 0,01 — pārskata valūta: 0,06).” Kāpēc žurnālu nevar grāmatot?
 
 ## <a name="resolution"></a>Novēršana
 
-Grāmatojot Virsgrāmatā, katram dokumentam jābūt līdzsvarotam darbības valūtā, uzskaites valūtā un pārskata valūtā, ja šīs valūtas ir definētas **Virsgrāmatas iestatījuma** lapā. (Dokumenti tiek līdzsvaroti, ja debetu kopsumma ir vienāda ar kredītu kopsummu.)
+Grāmatojot Virsgrāmatā, katram dokumentam jābūt sabalansētam darījuma valūtā, uzskaites valūtā un pārskata valūtā, ja šīs valūtas ir definētas **Virsgrāmatas iestatījuma** lapā. (Dokumenti tiek sabalansēti, ja debetu kopsumma ir vienāda ar kredītu kopsummu.)
 
-Kopsummas tiek rādītas žurnāla rindu lapas apakšdaļā, uzskaites valūtā un pārskata valūtā. Tās **netiek** rādītas ārvalstu valūtas darbību valūtā. Turklāt kļūdas ziņojums, ko lietotāji saņem simulācijas vai grāmatošanas laikā, rāda tikai atšķirības uzskaites valūtā un pārskata valūtā. Tas nerāda tos darījuma valūtā, jo vienam dokumentam var būt vairāk nekā viena darījuma valūta, un žurnālā var būt ietverti dokumenti dažādās darbību valūtās. Tāpēc ir svarīgi pārbaudīt, vai darbības valūtas summas katram dokumentam ir līdzsvarotas.
+Kopsummas tiek rādītas žurnāla rindu lapas apakšdaļā, uzskaites valūtā un pārskata valūtā. Tās **netiek** rādītas ārvalstu valūtas darījumu valūtā. Turklāt kļūdas ziņojums, ko lietotāji saņem simulācijas vai grāmatošanas laikā, rāda tikai atšķirības uzskaites valūtā un pārskata valūtā. Tas nerāda tos darījuma valūtā, jo vienam dokumentam var būt vairāk nekā viena darījuma valūta, un žurnālā var būt ietverti dokumenti dažādās darījumu valūtās. Tāpēc ir svarīgi manuāli pārbaudīt, vai darījuma valūtas summas katram dokumentam, kuram ir tikai viena darījuma valūta, ir sabalansētas.
 
-### <a name="transaction-currency"></a>Darbības valūta
+### <a name="transaction-currency"></a>Darījuma valūta
 
-Simulācijas un grāmatošanas laikā sistēma pārbauda, vai katrs dokuments darbības valūtā ir līdzsvarots. Katram ievadītam dokumentam darbības valūtai var būt viena vai vairākas valūtas. Piemēram, dokumentam, kas ir ievadīts Virsgrāmatas žurnālā, var būt divas darbību valūtas, kad nauda tiek pārsūtīta no bankas konta, kas izmanto eiro (EUR) uz bankas kontu, kurā tiek izmantoti Kanādas dolāri (CAD).
+Simulācijas un grāmatošanas laikā sistēma pārbauda, vai katrs dokuments, kuram ir tikai viena darījuma valūta, ir sabalansēts darījuma valūtā. Katram ievadītam dokumentam var būt viena vai vairākas valūtas, kas tiek uzskatītas par darījuma valūtām. Piemēram, dokumentam, kas ir ievadīts Virsgrāmatas žurnālā, var būt divas darījuma valūtas, kad nauda tiek pārsūtīta no bankas konta, kas izmanto eiro (EUR) uz bankas kontu, kurā tiek izmantoti Kanādas dolāri (CAD).
 
-Ja dokumentam ir tikai viena darbības valūta, debetu kopsummai ir jābūt vienādai ar šī dokumenta kredītu kopsummu. Debitori konstatēja šādus scenārijus, kuros grāmatošana neizdevās pareizi, jo netika līdzsvarotas darbību valūtas summas:
+Ja dokumentam ir tikai viena darījuma valūta, debetu kopsummai ir jābūt vienādai ar šī dokumenta kredītu kopsummu darījuma valūtā. Debitori konstatēja šādus scenārijus, kuros grāmatošana neizdevās pareizi, jo netika sabalansētas darījuma valūtas summas:
 
-- Debetu un kopējo kredītu kopsumma **netika** līdzsvarota darbības valūtā, bet tie tika līdzsvaroti attiecībā uz uzskaites valūtu un pārskata valūtu. Debitors ir pieņemts, ka dokuments joprojām tiks grāmatots. Tomēr šis pieņēmums bija nepareizs. **Darbības valūtas summām dokumentā vienmēr jābūt līdzsvarotām, kad visām dokumenta rindām ir viena valūta.**
-- Dokuments tika importēts Microsoft Excel, un lietotājs domāja, ka darbības valūtas summas tika līdzsvarotas. Excel darbgrāmatā importētās summas tika iestatītas kā **Skaitliskās** vērtības, nevis **Valūtas** vērtības. Šajā scenārijā skaitliskās summas darbgrāmatā bija vairāk nekā divas decimāldaļas vietas, un vairāk nekā divas decimāldaļas vietas tika iekļautas, kad summas tika importētas. Tāpēc debeti nav vienādi ar kredītiem, jo tie tika noņemti pēc sīknaudas daļas. Žurnāls neatspoguļo šo starpību dokumenta rindās, jo parādītajām summām ir tikai divas decimāldaļas vietas.
-- Dokuments tika importēts Excel, un lietotājs domāja, ka darbības valūtas summas tika līdzsvarotas. Lai gan dokuments tika līdzsvarots, dažām dokumenta rindām bija dažādi darbības datumi. Ja pievienojat kopējos debetus un kopējos kredītus dokumenta un darbības datumam, tie netika līdzsvaroti. Sistēma tagad nepieļauj šādu scenāriju. Dokumentam var būt tikai viens darbības datums. Šī prasība tiek īstenota, ievadot dokumentu caur Virsgrāmatas žurnālu sistēmā. Tomēr tā sākotnēji netika ieviesta, kad dokuments tika importēts, izmantojot Excel.
+- Debetu un kopējo kredītu kopsumma **netika** sabalansēta darījuma valūtā, bet tie tika sabalansēti attiecībā uz uzskaites valūtu un pārskata valūtu. Debitors ir pieņemts, ka dokuments joprojām tiks grāmatots. Tomēr šis pieņēmums bija nepareizs. **Darījuma valūtas summām dokumentā vienmēr jābūt sabalansētām, kad visām dokumenta rindām ir viena darījuma valūta.**
+- Dokuments tika importēts ar datu elementu, izmantojot Datu pārvaldības struktūru (DMF), un lietotājs domā, ka darījumu valūtas summas tika sabalansētas. Importētajā failā dažām summām bija vairāk nekā divas decimāldaļas vietas, un vairāk nekā divas decimāldaļas vietas tika iekļautas, kad summas tika importētas. Tāpēc debeti nav vienādi ar kredītiem, jo tie tika noņemti pēc sīknaudas daļas. Žurnāls neatspoguļo šo starpību dokumenta rindās, jo parādītajām summām ir tikai divas decimāldaļas vietas.
+- Dokuments tika importēts ar datu elementu, izmantojot DMF, un lietotājs domāja, ka darījuma valūtas summas tika sabalansētas. Lai gan **dokuments** tika sabalansēts, dažām dokumenta rindām bija dažādi darījuma datumi. Ja pievienojat kopējos debetus un kopējos kredītus darījuma valūtai katrā **dokumenta un darījuma datumā**, tie netika sabalansēti. Šī prasība tiek īstenota, ievadot dokumentu caur Virsgrāmatas žurnālu sistēmā. Tomēr šī opcija netiek ieviesta, kad dokuments tiek importēts ar datu elementu, izmantojot DMF.
 
-Vienā atbalstītajā scenārijā dokumentam var būt vairākas darbības valūtas. Šajā gadījumā sistēma **nepārbauda**, vai debeti ir vienādi ar kredītiem darbības valūtā, jo valūtas nesakrīt. Tā vietā sistēma pārbauda, vai uzskaites valūtas summas ir līdzsvarotas.
+Vienā atbalstītajā scenārijā dokumentam var būt vairākas darījuma valūtas. Šajā gadījumā sistēma **nepārbauda**, vai debeti ir vienādi ar kredītiem darījuma valūtā, jo valūtas nesakrīt. Tā vietā sistēma pārbauda, vai uzskaites valūtas un pārskata valūtas summas ir sabalansētas.
 
 ### <a name="accounting-currency"></a>Uzskaites valūta
 
-Ja visām dokumenta rindām ir viena un tā pati darbības valūta un ja darbības valūtas summas ir līdzsvarotas, sistēma pārbauda, vai uzskaites valūtas summas ir līdzsvarotas. Ja dokuments ir ievadīts ārzemju valūtā, maiņas kurss dokumenta rindās tiek izmantots, lai darbības valūtas summas pārveidotu uzskaites valūtā. Vispirms katra dokumenta rinda tiek tulkota. Pēc tam rindas tiek summētas, lai noteiktu kopējos debetus un kredītus. Tā kā katra rinda tiek tulkota, debetu un kredītu kopsumma var nebūt līdzsvarota. Tomēr, ja starpība ir **Maksimālās sīknaudas starpības** vērtībā, kas definēta **Virsgrāmatas parametru** lapā, dokuments tiks grāmatots un starpība automātiski tiks grāmatota Sīknaudas starpības kontā.
+Ja visām dokumenta rindām ir viena un tā pati darījuma valūta un ja darījuma valūtas summas ir sabalansētas, sistēma pārbauda, vai uzskaites valūtas summas ir sabalansētas. Ja dokuments ir ievadīts ārzemju valūtā, maiņas kurss dokumenta rindās tiek izmantots, lai darījuma valūtas summas pārveidotu uzskaites valūtā. Vispirms katra dokumenta rinda tiek tulkota un noapaļota līdz divām decimālzīmēm aiz komata. Pēc tam rindas tiek summētas, lai noteiktu kopējos debetus un kredītus. Tā kā katra rinda tiek tulkota, debetu un kredītu kopsumma var nebūt līdzsvarota. Tomēr, ja starpības absolūtā vērtība ir **Maksimālās sīknaudas starpības** vērtībā, kas definēta **Virsgrāmatas parametru** lapā, dokuments tiks grāmatots un starpība automātiski tiks grāmatota Sīknaudas starpības kontā.
 
-Ja dokumentam ir vairāk nekā viena darbības valūta, katra dokumenta rinda tiek tulkota uzskaites valūtā, un pēc tam rindas tiek summētas, lai noteiktu kopējos debetus un kopējos kredītus. Lai tā tiktu uzskatīta par līdzsvarotu, debetiem un kredītiem jābūt līdzsvarotiem, un nedrīkst būt sīknaudas noapaļošanas starpība.
+Ja dokumentam ir vairāk nekā viena darījuma valūta, katra dokumenta rinda tiek tulkota uzskaites valūtā un noapaļota līdz divām decimālzīmēm aiz komata, un pēc tam rindas tiek summētas, lai noteiktu kopējos debetus un kopējos kredītus. Lai tie tiktu uzskatīti par sabalansētiem, debetiem un kredītiem jābūt sabalansētiem vai nu kā tulkojumiem, vai arī, kad tiek iekļauta uzskaites valūtas sīknaudas noapaļošanas starpība.
 
 ### <a name="reporting-currency"></a>Pārskata valūta
 
-Ja visām dokumenta rindām ir viena un tā pati darbības valūta un ja darbības valūtas summas ir līdzsvarotas, sistēma pārbauda, vai uzskaites valūtas summas ir līdzsvarotas. Ja dokuments ir ievadīts ārzemju valūtā, maiņas kurss dokumenta rindās tiek izmantots, lai darbības valūtas summas pārveidotu uzskaites valūtā. Vispirms katra dokumenta rinda tiek tulkota. Pēc tam rindas tiek summētas, lai noteiktu kopējos debetus un kredītus. Tā kā katra rinda tiek tulkota, debetu un kredītu kopsumma var nebūt līdzsvarota. Tomēr, ja starpība ir **Maksimālās sīknaudas starpības** vērtībā, kas definēta **Virsgrāmatas parametru** lapā, dokuments tiks grāmatots un starpība automātiski tiks grāmatota Sīknaudas starpības kontā.
+Ja visām dokumenta rindām ir viena un tā pati darījuma valūta un ja darījuma valūtas summas ir sabalansētas, sistēma pārbauda, vai uzskaites valūtas summas ir sabalansētas. Ja dokuments ir ievadīts ārzemju valūtā, maiņas kurss dokumenta rindās tiek izmantots, lai darījuma valūtas summas pārveidotu uzskaites valūtā. Vispirms katra dokumenta rinda tiek tulkota un noapaļota līdz divām decimālzīmēm aiz komata. Pēc tam rindas tiek summētas, lai noteiktu kopējos debetus un kredītus. Tā kā katra rinda tiek tulkota, debetu un kredītu kopsumma var nebūt sabalansētas. Tomēr, ja starpība ir **Maksimālās sīknaudas starpības** vērtībā, kas definēta **Virsgrāmatas parametru** lapā, dokuments tiks grāmatots un starpība automātiski tiks grāmatota Sīknaudas starpības kontā.
 
-Ja dokumentam ir vairāk nekā viena darbības valūta, katra dokumenta rinda tiek tulkota uzskaites valūtā, un pēc tam rindas tiek summētas, lai noteiktu kopējos debetus un kopējos kredītus. Lai tā tiktu uzskatīta par līdzsvarotu, debetiem un kredītiem jābūt līdzsvarotiem, un nedrīkst būt sīknaudas noapaļošanas starpība.
+Ja dokumentam ir vairāk nekā viena darījuma valūta, katra dokumenta rinda tiek tulkota pārskata valūtā un noapaļota līdz divām decimālzīmēm aiz komata, un pēc tam rindas tiek summētas, lai noteiktu kopējos debetus un kopējos kredītus. Lai tie tiktu uzskatīti par sabalansētiem, debetiem un kredītiem jābūt sabalansētiem vai nu kā tulkojumiem, vai arī, kad tiek iekļauta pārskata valūtas sīknaudas noapaļošanas starpība.
+
+### <a name="example-for-an-accounting-currency-imbalance"></a>Piemērs, kad uzskaites valūtas neatbilst
+
+> [!NOTE]
+> Pārskata valūtas summa tiek aprēķināta no darījuma valūtas summas tādā pašā veidā kā uzskaites valūtas summa.
+
+Maiņas kurss: 1,5
+
+| Rinda | Dokuments | Konts | Valūta | Debets (transakcija) | Kredīts (transakcija) | Debets (uzskaite) | Kredīts (uzskaite) |
+|---|---|---|---|---|---|---|---|
+| 1 | 001 | 1101-01 | EUR | 3,33 | | 5,00 (4,995) | |
+| 2 | 001 | 1101-02 | EUR | 3,33 | | 5,00 (4,995) | |
+| 3 | 001 | 1101-03 | EUR | 3,34 | | 5,01 | |
+| 4 | 001 | 4101- | EUR | | 10,00 | | 15,00 |
+| **Summa** | | | | **10,00** | **10,00** | **15,01** | **15,00** |
+
+Uzskaites valūtai ir neatbilstība par 0,01. Tomēr, kamēr maksimālā sīknaudas noapaļošana uzskaites valūtā ir vismaz 0,01, starpība automātiski tiks grāmatota Sīknaudas starpības kontā, un dokuments tiks sekmīgi grāmatots.

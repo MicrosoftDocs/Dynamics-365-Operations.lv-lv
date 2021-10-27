@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.2
-ms.openlocfilehash: 64963348ef2cf850477d03fcb9a40d3a167c715bea86eca1d756f01f54472d5a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5b26c605bd64b8d8e5a90f4389261e8e56825111
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718555"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605375"
 ---
 # <a name="configure-country-context-dependent-er-model-mappings"></a>No valsts konteksta atkarīgu EP modeļu kartējumu konfigurēšana
 
@@ -48,7 +48,7 @@ Dažām šīs tēmas darbībām ir nepieciešama EP formāta izpilde. Dažos gad
 
 Veiciet darbības šīs tēmas [1. papildinājumā](#appendix1), lai izstrādātu obligāto EP komponentus. Tagad jums ir modeļa kartēšanas konfigurācija **Kartēšana(vispārīgā** ), kas ietver modeļa kartēšanu **Ieejas punkta** 1 definīcijai.
 
-![ER konfigurāciju lapa.](./media/RCS-Context-specific-mapping-Tree.PNG)
+![ER konfigurācijas lapa, formatēt, lai uzzinātu kartējumu konfigurāciju.](./media/RCS-Context-specific-mapping-Tree.PNG)
 
 ### <a name="run-the-configured-format"></a>Konfigurētā formāta izpilde
 
@@ -61,7 +61,7 @@ Ievērojiet, ka tīmekļa pārlūks piedāvā lejupielādēt teksta failu, kas t
 
 Veiciet darbības šīs tēmas [2. papildinājumā](#appendix2), lai izstrādātu obligāto EP komponentus. Tagad jums ir modeļa kartēšanas konfigurācija **Kartēšana (Vispārīga)** un **Pielāgota kartēšana (vispārīga)**, kas ietver modeļa kartēšanu **1. ieejas punkta** definīcijai.
 
-![ER konfigurāciju lapa.](./media/RCS-Context-specific-mapping-TreeCustom.PNG)
+![ER konfigurāciju lapa; kartēšanas vispārējā pielāgotā konfigurācija.](./media/RCS-Context-specific-mapping-TreeCustom.PNG)
 
 ### <a name="run-the-configured-format"></a>Konfigurētā formāta izpilde
 
@@ -71,7 +71,7 @@ Veiciet darbības šīs tēmas [2. papildinājumā](#appendix2), lai izstrādāt
 
 Ievērojiet, ka atlasītā EP formāta izpilde ir neveiksmīga. Kļūdas ziņojums informē par to, ka modelim **Modelis, lai uzzinātu kartējumus** un definīcijai **1. ieejas punkts** modeļa kartēšanas konfigurācijās **Kartēšanas (vispārīgā)** un **Pielāgotā kartēšana (vispārīgā) pielāgotās** pastāv vairāk nekā viena modeļa kartēšana. Šis ziņojums iesaka arī izvēlēties vienu no šīm konfigurācijām kā noklusēto konfigurāciju.
 
-![ER konfigurāciju lapa.](./media/RCS-Context-specific-mapping-FormatRunCustomFailed.PNG)
+![ER konfigurāciju lapa ar kļūdas ziņojumu.](./media/RCS-Context-specific-mapping-FormatRunCustomFailed.PNG)
 
 ### <a name="define-a-default-mapping-configuration"></a>Definēt noklusējuma kartējuma konfigurāciju
 
@@ -82,7 +82,7 @@ Veiciet šīs darbības, lai definētu modeļa kartēšanas konfigurāciju **Pie
 3.  Iestatiet opciju **Noklusējums modeļu kartēšanai** kā **Jā**.
 4.  Atlasiet **Saglabāt**.
 
-![ER konfigurāciju lapa.](./media/RCS-Context-specific-mapping-MappingsCustomDefault.PNG)
+![ER konfigurācijas lapa, noklusējums modeļa kartēšanai ir iestatīts uz Jā.](./media/RCS-Context-specific-mapping-MappingsCustomDefault.PNG)
 
 ### <a name="run-the-configured-format"></a>Konfigurētā formāta izpilde
 
@@ -101,7 +101,7 @@ Veiciet darbības šīs tēmas [3. papildinājumā](#appendix3), lai izstrādāt
 
 Ievērojiet, ka modeļa kartēšanas konfigurācijas **Kartēšana (FR)** 1. versija ir konfigurēta tā, ka tā attiecas tikai uz EP formātiem **Modelim kartēšanas apgūšanai**, kas tiek palaists tajos Finance uzņēmumos, kuriem ir Francijas valsts/reģiona konteksts.
 
-![ER konfigurāciju lapa.](./media/RCS-Context-specific-mapping-TreeFR.PNG)
+![ER konfigurāciju lapa; modeļa kartēšanas (FR) konfigurācija.](./media/RCS-Context-specific-mapping-TreeFR.PNG)
 
 ### <a name="run-the-configured-format"></a>Konfigurētā formāta izpilde
 
@@ -121,7 +121,7 @@ Veiciet šīs darbības, lai definētu pielāgoto modeļa kartēšanas konfigur�
 3.  Iestatiet opciju **Noklusējums modeļu kartēšanai** kā **Jā**.
 4.  Atlasiet **Saglabāt**.
 
-![ER konfigurāciju lapa.](./media/RCS-Context-specific-mapping-TreeFRDefault.PNG)
+![ER konfigurācijas lapa, kartēšanas (FR) konfigurācija, noklusējums modeļa kartēšanai ir iestatīts uz Jā.](./media/RCS-Context-specific-mapping-TreeFRDefault.PNG)
 
 ### <a name="run-the-configured-format"></a>Konfigurētā formāta izpilde
 
@@ -276,7 +276,7 @@ Ievērojiet, ka šīs EP konfigurācijas melnraksta 1. versija ir gatava rediģ�
 5.  Atlasiet **Saglabāt**.
 6.  Aizveriet lapu **Formāta veidotājs**.
 
-    ![ER modeļa kartēšanas noformētāja lapa.](./media/RCS-Context-specific-mapping-Mapping1.PNG)
+    ![ER modeļa kartēšanas veidotāja lapa, 1. ieejas punkta definīcija.](./media/RCS-Context-specific-mapping-Mapping1.PNG)
 
 7.  Atlasiet **Saglabāt**.
 8.  Aizveriet lapu **Modeļa kartējuma noformētājs**.
@@ -289,12 +289,12 @@ Ievērojiet, ka šīs EP konfigurācijas melnraksta 1. versija ir gatava rediģ�
 15. Atlasiet **Saglabāt**.
 16. Aizveriet lapu **Formāta veidotājs**.
 
-    ![ER modeļa kartēšanas noformētāja lapa.](./media/RCS-Context-specific-mapping-Mapping2.PNG)
+    ![ER modeļa kartēšanas veidotāja lapa, 2. ieejas punkta definīcija.](./media/RCS-Context-specific-mapping-Mapping2.PNG)
 
 17. Atlasiet **Saglabāt**.
 18. Aizveriet lapu **Modeļa kartējuma noformētājs**.
 
-    ![EP modeļu kartējumu lapa.](./media/RCS-Context-specific-mapping-Mappings.PNG)
+    ![ER modeļa kartēšanas lapa ar ieejas punkta definīciju.](./media/RCS-Context-specific-mapping-Mappings.PNG)
 
 19. Aizveriet lapu **Modeļa kartējumi**.
 
@@ -369,7 +369,7 @@ Ievērojiet, ka šīs EP konfigurācijas melnraksta 1. versija ir gatava rediģ�
 6.  Atlasiet **Saglabāt**.
 7.  Aizvērt lapu.
 
-    ![ER modeļa kartēšanas noformētāja lapa.](./media/RCS-Context-specific-mapping-Mapping1Custom.PNG)
+    ![ER modeļa kartēšanas veidotāja lapa, vispārīgā funkcionalitāte vienai pielāgotai formulai.](./media/RCS-Context-specific-mapping-Mapping1Custom.PNG)
 
 8.  Atlasiet **Saglabāt**.
 9.  Aizvērt lapu.
@@ -380,12 +380,12 @@ Ievērojiet, ka šīs EP konfigurācijas melnraksta 1. versija ir gatava rediģ�
 14. Atlasiet **Saglabāt**.
 15. Aizvērt lapu.
 
-    ![ER modeļa kartēšanas noformētāja lapa.](./media/RCS-Context-specific-mapping-Mapping2Custom.PNG)
+    ![ER modeļa kartēšanas veidotāja lapa, vispārīgā funkcionalitāte divām pielāgotām formulām.](./media/RCS-Context-specific-mapping-Mapping2Custom.PNG)
 
 16. Atlasiet **Saglabāt**.
 17. Aizvērt lapu.
 
-    ![EP modeļu kartējumu lapa.](./media/RCS-Context-specific-mapping-MappingsCustom.PNG)
+    ![ER modelis datu avota kartēšanas lapai Kartēšanas (vispārējs) kopijas kartējums.](./media/RCS-Context-specific-mapping-MappingsCustom.PNG)
 
 18. Aizvērt lapu.
 
@@ -432,7 +432,7 @@ Ievērojiet, ka šīs EP konfigurācijas melnraksta 1. versija ir gatava rediģ�
 7.  Atlasiet **Saglabāt**.
 8.  Aizvērt lapu.
 
-    ![ER modeļa kartēšanas noformētāja lapa.](./media/RCS-Context-specific-mapping-Mapping1FR.PNG)
+    ![ER modeļa kartēšanas veidotāja lapa, FR funkcionalitāte vienai formulai.](./media/RCS-Context-specific-mapping-Mapping1FR.PNG)
 
 9.  Atlasiet **Saglabāt**.
 10. Aizvērt lapu.
@@ -444,12 +444,12 @@ Ievērojiet, ka šīs EP konfigurācijas melnraksta 1. versija ir gatava rediģ�
 16. Atlasiet **Saglabāt**.
 17. Aizvērt lapu.
 
-    ![ER modeļa kartēšanas noformētāja lapa.](./media/RCS-Context-specific-mapping-Mapping2FR.PNG)
+    ![ER modeļa kartēšanas veidotāja lapa, FR funkcionalitāte divām formulām.](./media/RCS-Context-specific-mapping-Mapping2FR.PNG)
 
 18. Atlasiet **Saglabāt**.
 19. Aizvērt lapu.
 
-    ![EP modeļu kartējumu lapa.](./media/RCS-Context-specific-mapping-MappingsFR.PNG)
+    ![ER modelis datu avota kartēšanas lapai.](./media/RCS-Context-specific-mapping-MappingsFR.PNG)
 
 20. Aizvērt lapu.
 

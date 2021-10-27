@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 28fea4a09d7c105096859495d9b4a43f4c86c834184809827fe77ce1bbff5b84
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: baa3cab78574ac3779aaea000f0b2b88ff625c37
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749828"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605259"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Iestatīt ER formāta parametrus juridiskai personai
 
@@ -58,8 +58,6 @@ Varat izmantot ER struktūru, lai iestatītu programmai specifiskus parametrus E
 1.  Atlasiet **DEMF** juridisko personu.
 2.  Konfigurācijas kokā atlasiet formātu **Formatēt, lai uzzinātu, kā uzmeklēt LE datus**.
 3.  Darbību rūts cilnē **Konfigurācijas**, grupā **Programmai specifiski parametri** atlasiet **Iestatīšana**.
-
-    ![ER programmai specifisku parametru lapa.](./media/GER-AppSpecParms-LookupForm.PNG)
     
     Lapā **Programmai specifiski parametri** varat konfigurēt noteikumus datu avotam **Atlasītājs** formātā **Formēt, lai uzzinātu, kā atrast LE datus**.
     
@@ -75,14 +73,14 @@ Varat izmantot ER struktūru, lai iestatītu programmai specifiskus parametrus E
 
     Uzmeklēšana parāda atlases nodokļu kodu sarakstu. Šis saraksts tiek atgriezts, izmantojot datu avotu **Model.Data.Tax**, kas ticis konfigurēts bāzes ER formātā. Tā kā šis datu avots ietver lauku **Nosaukums**, uzmeklēšanas laikā parādās katra nodokļu koda nosaukums.
 
-    ![ER programmai specifisku parametru lapa.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
+    ![ER programmas specifisko parametru lapa, koda lauka pārlūkošana.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
     
 7.  Atlasiet nodokļa kodu **VAT19**.
 8.  Jaunā ieraksta laukā **Uzmeklēšanas rezultāts** atlasiet nolaižamā saraksta bultu, lai atvērtu uzmeklēšanu. Uzmeklēšana parāda atlases TaxationLevel formāta uzskaitījuma vērtību sarakstu.
 
     Ņemiet vērā, ka, ja vācu valoda ir izvēlēta kā vēlamā lietotāja valoda, kurā esat pieteicies, tad uzmeklēšanas vērtību marķējums būs vācu valodā ar nosacījumu, ka tās ir pārtulkotas bāzes ER formātā. Turklāt, ja uzmeklēšanas datu avota marķējums ir tulkots, šis marķējums tiks parādīts lietotāja vēlamajā valodā cilnē **Pārlūki**.
 
-    ![ER programmai specifisku parametru lapa.](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
+    ![ER programmas specifisko parametru lapa, pārlūkošanas rezultāti, kas tiek parādīti vēlamajā valodā, vācu valodā.](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
 
 9.  Atlasiet vērtību **Parastā taksācija**.
 
@@ -120,7 +118,7 @@ Varat izmantot ER struktūru, lai iestatītu programmai specifiskus parametrus E
     
     Pievienojot šo pēdējo ierakstu, tiek definēta šāda kārtula: Vienmēr, kad nodokļa kods, kas tiek nodots kā arguments, neizpilda nevienu no iepriekšējām kārtulām, uzmeklēšanas datu avots atgriezīs **Citu** kā pieprasīto taksācijas līmeni.
 
-    ![ER programmai specifisku parametru lapa.](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
+    ![ER programmas specifisko parametru lapa, nosacījumu kopsavilkuma cilne ar pēdējo ierakstu cilnē Cits.](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
     
 16. Laukā **Statuss** atlasiet **Pabeigts**.
 
@@ -160,7 +158,7 @@ Varat izmantot ER struktūru, lai iestatītu programmai specifiskus parametrus E
 
     Pārlūks tagad parāda nodokļu kodu sarakstu **USMF** uzņēmuma nodokļiem atlasei.
 
-    ![ER programmai specifisku parametru lapa.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
+    ![ER programmas specifisko parametru lapa, koda lauka pārlūkošana, kurā tiek parādīts saraksts ar USMF uzņēmuma nodokļu kodiem.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
     
 8.  Atlasiet nodokļa kodu **EXEMPT**.
 9.  Jaunā ieraksta laukā **Uzmeklēšanas rezultāts** atlasiet vērtību **Nav taksācijas**.
@@ -225,13 +223,13 @@ Iepriekšējā piemērā, lietojot ER struktūru, jums ir pieejami programmai sp
 
 1.  Vai nu atkārtoti izmantojiet esošu izvēlnes elementu **ERSolutionAppSpecificParametersDesigner**, vai ieviesiet savu izvēlnes elementu **ERSolutionAppSpecificParametersDesigner**.
 
-    ![Visual Studio lapa.](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
+    ![Visual Studio lapa, rekvizītu rūts.](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
     
 2.  Izpildiet kādu no šīm darbībām:
 
     1.  Izveidojiet jaunu izvēlnes elementu pogu un saistiet to ar atbilstošo ierakstu no tabulas **ERSolutionTable**, iestatot tās rekvizītu **Datu avots** uz **ERSolutionTable.**
     
-        ![Visual Studio lapa.](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
+        ![Visual studio lapa, dizaina rūtis.](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
         
     2.  Izveidojiet vienkāršu pogu un pārlabojiet metodi **Noklikšķināts**, kā tas redzams piemērā.
     

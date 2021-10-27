@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 766e807ee9061f52b692cf3436ba393b334e67c4
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: c84fdb3c5c61598dfd0934e769f4a7262ce74052
+ms.sourcegitcommit: 8439ce2d4ad5ee5c1ec870640b52b5d2e947a671
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488087"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "7644531"
 ---
 # <a name="provision-human-resources"></a>Human Resources nodrošināšana
 
@@ -49,7 +49,7 @@ Izmēģinājuma vides vides nav paredzētas izmantošanai kā ražošanas vides.
 Izveidojot Human Resources izmēģinājuma vidi, nomniekam tiek izveidota arī Power Apps izmēģinājuma vide un saistīta ar Human Resources vidi. Power Apps videi, kas tiek nodēvēta par "TestDrive", ir tāds pats izmēģinājuma periods kā Human Resources videi.
 
 > [!NOTE]
-> Human Resources izmēģinājuma vides nodrošināšana neizdosies, ja autentificētajam lietotājam nav atļaujas izveidot Power Apps izmēģinājuma vides. Lietotājam jābūt iekļautam lietotāju grupā, kura var izveidot izmēģinājuma vides Power Platform administrēšanas centrā. Papildinformāciju skatiet rakstā [Pārvaldīt, kuri var izveidot un pārvaldīt vides Power Platform administrēšanas centrā](//power-platform/admin/control-environment-creation).
+> Human Resources izmēģinājuma vides nodrošināšana neizdosies, ja autentificētajam lietotājam nav atļaujas izveidot Power Apps izmēģinājuma vides. Lietotājam jābūt iekļautam lietotāju grupā, kura var izveidot izmēģinājuma vides Power Platform administrēšanas centrā. Papildinformāciju skatiet rakstā [Pārvaldīt, kuri var izveidot un pārvaldīt vides Power Platform administrēšanas centrā](/power-platform/admin/control-environment-creation).
 
 ## <a name="plan-human-resources-environments"></a>Human Resources vižu plānošana
 
