@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: c395aabfc8705b4713cf1041b5644ac478d8c1a4c4c211334aea3572f1618b84
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b5ffd86d736cb7b6b5c270663c2b774e14556a6b
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759021"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675182"
 ---
 # <a name="revenue-recognition-setup"></a>Ieņēmumu atzīšanas iestatīšana
 [!include [banner](../includes/banner.md)]
@@ -26,9 +26,9 @@ ms.locfileid: "6759021"
 Ir pievienots modulis **Ieņēmumu atzīšana**, kas ietver izvēlnes elementus visiem nepieciešamajiem iestatījumiem. Šajā tēmā ir aprakstītas iestatīšanas opcijas un to izmantošana.
 
 > [!NOTE]
-> Ieņēmumu atzīšanas līdzekli nav iespējams ieslēgt, izmantojot līdzekļu pārvaldību. Pašlaik jāizmanto konfigurācijas atslēgas, lai to ieslēgtu.
-
-> Ieņēmumu atzīšana, tostarp komplektu funkcionalitāte, netiek atbalstīta izmantošanai Commerce kanālos (e-komercija, POS, zvanu centrs). Krājumus, kas ir konfigurēti ar ieņēmumu atzīšanu, nedrīkst pievienot pasūtījumiem vai transakcijām, kas izveidotas Commerce kanālos.
+> Ieņēmumu atzīšanas līdzeklis tagad ir iespējots pēc noklusējuma, izmantojot līdzekļu pārvaldību. Ja jūsu organizācija neizmanto šo līdzekli, varat to izslēgt **līdzekļa pārvaldības** darbvietā.
+>
+> Ieņēmumu atzīšana, tostarp komplektu funkcionalitāte, netiek atbalstīta izmantošanai Commerce kanālos (e-komercija, POS, zvanu centrs). Krājumus, kas ir konfigurēti ieņēmumu atzīšanai, nedrīkst pievienot pasūtījumiem vai transakcijām, kas izveidotas Commerce kanālos.
 
 Modulim **Ieņēmumu atzīšana** ir tālāk norādītās iestatīšanas opcijas.
 
@@ -40,12 +40,16 @@ Modulim **Ieņēmumu atzīšana** ir tālāk norādītās iestatīšanas opcijas
     - Krājumu grupas un izlaistās preces
     - Ieņēmumu grafika definēšana
     - Ieņēmumu cenas definēšana
+    - Krājumu iestatīšana
 
-        - Grāmatošanas metodes
-        - Komplekti
+        - Ieņēmumu grafika definēšana
+        - Ieņēmumu cenas definēšana
 
-    - Komplekta komponenti
-    - Komplekta krājums
+    - Grāmatošanas metodes
+    - Komplekti
+
+        - Komplekta komponenti
+        - Komplekta krājums
 
 - Projektu iestatījumi
 
@@ -91,20 +95,27 @@ Ievadiet aprakstošas vērtības laukos **Ieņēmumu grafiks** un **Apraksts**. 
 - **Automātiskie līguma termiņi** — atzīmējiet šo izvēles rūtiņu, ja līguma sākuma un beigu datumi ir jāiestata automātiski. Šie datumi tiek iestatīti automātiski tikai izlaistajām precēm, kuru ieņēmumu veids ir **Grāmatot līguma atbalstu**. Līguma sākuma datums tiek automātiski iestatīts uz pārdošanas pasūtījuma rindas pieprasīto nosūtīšanas datumu, un līguma beigu datums tiek automātiski iestatīts uz sākuma datumu, kuram pieskaitīts mēnešu vai gadījumu skaits, kas definēts ieņēmumu grafika iestatījumos. Piemēram, precei pārdošanas pasūtījuma rindā ir viena gada garantija. Noklusējuma ieņēmumu grafiks ir **12M** (12 mēneši), un šim ieņēmumu ir atzīmēta izvēles rūtiņa **Automātiskie līguma termiņi**. Ja pārdošanas pasūtījuma rindas pieprasītais nosūtīšanas datums ir 2019. gada 16. decembris, līguma noklusējuma sākuma datums ir 2019. gada 16. decembris un līguma noklusējuma beigu datums ir 2020. gada 15. decembris.
 - **Atzīšanas bāze** — atzīšanas bāze nosaka, kā ieņēmumu cena tiek sadalīta pa gadījumiem.
 
-    - **Ik mēnesi pēc datumiem** — summa tiek sadalīta, pamatojoties uz katra mēneša faktisko dienu skaitu.
+    - **Ik mēnesi pēc dienām** — summa tiek sadalīta, pamatojoties uz katra mēneša faktisko dienu skaitu.
     - **Ik mēnesi** — summa tiek sadalīta vienādi atbilstoši mēnešu skaitam, kas definēts gadījumos.
     - **Gadījumi** — summa tiek sadalīta vienādi atbilstoši gadījumu skaitam, bet tā var ietvert papildu periodu, atlasot parametru **Faktiskais sākuma datums** kā atzīšanas metodi.
+    - **Finanšu periods pēc dienām** — summa tiek sadalīta, pamatojoties uz katra finanšu perioda faktisko dienu skaitu. 
 
-- **Atzīšanas metode** — atzīšanas metode nosaka noklusējuma datumus, kas tiek iestatīti rēķina ieņēmumu grafikā.
+    **Mēneši pēc dienām** un **Finanšu periods pēc dienām** būs vienādi, ja finanšu periods seko kalendārajiem mēnešiem. Vienīgais izņēmums ir tad, kad atpazīšanas nosacījumi ir iestatīti uz **mēneša/perioda beigām** un **līguma sākuma** un **beigu datuma** lauki pārdošanas pasūtījuma rindā tiek atstāti tukši.
+
+- **Atzīšanas metode** — atzīšanas metode nosaka datumus, kas tiek iestatīti rēķina ieņēmumu grafikā.
 
     - **Faktiskais sākuma datums** — grafiks tiek izveidots, izmantojot līguma sākuma datumu (krājumiem, kuru atbalsts tiek grāmatots \[PCS\]) vai rēķina datumu (svarīgiem un nesvarīgiem krājumiem).
-    - **Mēneša 1. datums** — datums pirmajā grafika rindā ir līguma sākuma datums (vai rēķina datums). Tomēr visas turpmākās grafiku rindas tiek izveidotas mēneša pirmajam datumam.
+    - **Mēneša/perioda 1. diena** — datums pirmajā grafika rindā ir līguma sākuma datums (vai rēķina datums). Tomēr visas turpmākās grafiku rindas tiek izveidotas mēneša vai finanšu perioda pirmajam datumam.
     - **Mēneša puses sadalījums** — pirmās grafika rindas datums ir atkarīgs no rēķina datuma. Ja rēķins ir iegrāmatots no mēneša pirmā līdz piecpadsmitajam datumam, ieņēmumu grafiks tiek izveidots, izmantojot mēneša pirmo dienu. Ja rēķins ir iegrāmatots sešpadsmitajā datumā vai vēlāk, ieņēmumu grafiks tiek izveidots, izmantojot nākamā mēneša pirmo dienu.
-    - **Nākamā mēneša 1. datums** — grafika datums ir nākamā mēneša pirmā diena.
 
-Atlasiet pogu **Detalizēta informācija par ieņēmumu grafiku**, lai skatītu vispārīgos periodus un procentuālās vērtības, kas tiek atzītas katrā periodā. Pēc noklusējuma vērtība **Atzīšanas procentuālā vērtība** tiek vienādi sadalīta atbilstoši periodu skaitam. Ja atzīšanas bāze ir iestatīta kā **Ik mēnesi** vai **Gadījumi**, atzīšanas procentuālo vērtību var mainīt. Mainot atzīšanas procentuālās vērtības, brīdinājuma ziņojums jūs informēs, ka kopsumma nav vienāda ar 100 procentiem. Ja saņemat ziņojumu, varat turpināt rediģēt rindas. Tomēr kopējā procentuālajai vērtībai jābūt vienādai ar 100, pirms aizverat lapu.
+        **Vidējā mēneša sadalījumu** nevar atlasīt, ja atpazīšanas bāze ir iestatīta uz **Finanšu periods pēc dienām**.
 
-[![Detalizēta informācija par ieņēmumu grafiku.](./media/revenue-recognition-revenue-schedule-details.png)](./media/revenue-recognition-revenue-schedule-details.png)
+    - **Nākamā mēneša/perioda 1. diena** — datums, kurā sākas grafiks, ir nākamā mēneša vai finanšu perioda pirmā diena.
+    - **Mēneša/perioda beigas** — datums pirmajā grafika rindā ir līguma sākuma datums (vai rēķina datums). Tomēr visas turpmākās grafiku rindas tiek izveidotas mēneša vai finanšu perioda pēdējai dienai. 
+
+Atlasiet pogu **Detalizēta informācija par ieņēmumu grafiku**, lai skatītu vispārīgos periodus un procentuālās vērtības, kas tiek atzītas katrā periodā. Pēc noklusējuma vērtība **Atzīšanas procentuālā vērtība** tiek vienādi sadalīta atbilstoši periodu skaitam. Ja atzīšanas bāze ir iestatīta kā **Ik mēnesi**, atzīšanas procentuālo vērtību var mainīt. Mainot atzīšanas procentuālās vērtības, brīdinājuma ziņojums jūs informēs, ka kopsumma nav vienāda ar 100 procentiem. Ja saņemat šo ziņojumu, varat turpināt rediģēt rindas. Tomēr kopējā procentuālajai vērtībai jābūt vienādai ar 100, pirms aizverat lapu.
+
+[![Detalizēta informācija par ieņēmumu grafiku.](./media/revenue-schedule-details-2nd-scrn.png)](./media/revenue-schedule-details-2nd-scrn.png)
 
 ## <a name="inventory-setup"></a>Krājumu iestatīšana
 
