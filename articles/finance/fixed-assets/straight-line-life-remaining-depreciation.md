@@ -1,7 +1,7 @@
 ---
-title: Atlikušā lietošanas ilguma lineārā aprēķināšanas metode
-description: Šajā rakstā ir sniegts pārskats par atlikušā lietošanas ilguma lineāro aprēķināšanas metodi.
-author: ShylaThompson
+title: Atlikušā darbmūža lineārā aprēķināšanas metode
+description: Šajā tēmā ir sniegts pārskats par atlikušā lietošanas ilguma lineāro aprēķināšanas metodi.
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 13851
 ms.assetid: 0fa2f71a-596c-414c-a6e6-8f7405a0bf81
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b4c150b779ab3ea98ff3390b0dca5a7e7d892ba40a60d350f3a721e0d4e6ca3e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 5d3372fe5d77f54c68570314e8ba6db8bae28a60
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733009"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675199"
 ---
-# <a name="straight-line-life-remaining-depreciation"></a>Atlikušā lietošanas ilguma lineārā aprēķināšanas metode
+# <a name="straight-line-life-remaining-depreciation"></a>Atlikušā darbmūža lineārā aprēķināšanas metode
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir sniegts pārskats par atlikušā lietošanas ilguma lineāro aprēķināšanas metodi.
+Šajā tēmā ir sniegts pārskats par atlikušā lietošanas ilguma lineāro aprēķināšanas metodi.
 
 Iestatot pamatlīdzekļa nolietojuma profilu un atlasot opciju **Lineārais lietošanas ilgums** laukā **Metode** lapā **Nolietojuma profili**, pamatlīdzekļu, kuriem ir piešķirts šis nolietojuma profils, nolietojums ir balstīts uz pamatlīdzekļa kopējo lietošanas ilgumu. Galvenokārt tas nozīmē, ka visiem nolietojuma periodiem ir viena nolietojuma summa. Lai iestatītu atlikušā lietošanas ilguma lineāro aprēķināšanas metodi, jāatlasa arī opcijas laukā **Nolietojuma aprēķina gads**, kā arī laukā **Perioda biežums** lapā **Nolietojuma tabulas**. Laukā **Perioda biežums** pieejamās opcijas ir atkarīgas no vērtības, kas ir atlasīta laukā **Nolietojuma aprēķina gads**.
 
@@ -37,11 +37,11 @@ Lapā **Nolietojuma tabulas** laukā **Nolietojuma aprēķina gads** varat atlas
 
 Ja atlasāt **Kalendārs** laukā **_Nolietojuma gads_*_, par to tiek uzskatīts gads no 1. janvāra līdz 31. decembrim, pat ja finanšu kalendārs ir definēts atšķirīgi. Opcija _* Kalendārs** atjaunina nolietojuma bāzi katra gada 1. janvārī. Parasti nolietojuma bāze ir atlikusī vērtība mīnus lūžņu vērtība. Tālāk šajā tēmā redzamajos piemēros nolietojuma bāze ir aprēķinu kolonnas pirmās izteiksmes skaitītājs. Ja kā nolietojuma aprēķināšanas gadu atlasāt opciju **Kalendārs**, tad laukā **Perioda biežums** ir pieejamas tālāk norādītās opcijas.
 
--   **Reizi gadā** grāmato summu 31. decembrī.
--   **Reizi mēnesī** grāmato mēneša summu katra kalendārā mēneša beigās.
--   **Reizi ceturksnī** grāmato ceturkšņa summu katra kalendārā ceturkšņa beigās (31. martā, 30. jūnijā, 30. septembrī un 31. decembrī).
--   **Pusgada** grāmatojums par pusgada summu katra kalendārā pusgada beigās (30. jūnijs un 31. decembris),
--   **Reizi dienā** — grāmato nolietojuma summu ikdienas nolietojuma metodei, izmantojot vienu transakciju katrai dienai.
+- **Reizi gadā** grāmato summu 31. decembrī.
+- **Reizi mēnesī** grāmato mēneša summu katra kalendārā mēneša beigās.
+- **Reizi ceturksnī** grāmato ceturkšņa summu katra kalendārā ceturkšņa beigās (31. martā, 30. jūnijā, 30. septembrī un 31. decembrī).
+- **Pusgada** grāmatojums par pusgada summu katra kalendārā pusgada beigās (30. jūnijs un 31. decembris),
+- **Reizi dienā** — grāmato nolietojuma summu ikdienas nolietojuma metodei, izmantojot vienu transakciju katrai dienai.
 
 Piemēram, ja atlasāt **Reizi gadā**, gada nolietojums tiek grāmatots tikai vienu reizi, katra gada 31. decembrī. Ja atlasāt **Reizi mēnesī**, ikmēneša nolietojums tiek grāmatots katru mēnesi kā divpadsmitā daļa no ikgadējās nolietojuma summas.
 
@@ -49,14 +49,14 @@ Piemēram, ja atlasāt **Reizi gadā**, gada nolietojums tiek grāmatots tikai v
 
 Ja laukā **Nolietojuma aprēķina gads** atlasāt opciju **Finanšu**, tiek izmantota atlikušā lietošanas ilguma lineārā aprēķināšanas metode. Nolietojumu aprēķina, pamatojoties uz atlikušo finanšu gadu. Piemēram, finanšu gadam no 2015. gada 1. jūlija līdz 2016. gada 30. jūnijam nolietojuma aprēķins sākas 1. jūlijā. Finanšu gads var būt garāks vai īsāks par 12 mēnešiem. Nolietojums tiek pielāgots katram finanšu periodam. Nākamā finanšu gada garumu nosaka finanšu periodi, kas iestatīti lapā **Finanšu kalendāri**. Ja kā nolietojuma aprēķināšanas gadu atlasāt opciju **Finanšu**, tad laukā **Perioda biežums** ir pieejamas tālāk norādītās opcijas.
 
--   **Reizi gadā** finanšu gada aprēķinātā nolietojuma kopsumma tiek iegrāmatota finanšu gada pēdējā datumā kā viena summa.
--   **Finanšu periods** — aprēķina finanšu gadam aprēķināto nolietojuma kopsummu. Šī summa pēc tam tiek uzkrāta finanšu periodos, kas definēti lapā **Finanšu kalendāri** lapu finanšu kalendāram, kas ir norādīts grāmatai.
+- **Reizi gadā** finanšu gada aprēķinātā nolietojuma kopsumma tiek iegrāmatota finanšu gada pēdējā datumā kā viena summa.
+- **Finanšu periods** — aprēķina finanšu gadam aprēķināto nolietojuma kopsummu. Šī summa pēc tam tiek uzkrāta finanšu periodos, kas definēti lapā **Finanšu kalendāri** lapu finanšu kalendāram, kas ir norādīts grāmatai.
 
 ## <a name="example-of-straight-line-depreciation-of-an-unchanged-fixed-asset"></a>Nemainīta pamatlīdzekļa lineārā nolietojuma piemērs
 Pamatlīdzeklim ir šādi raksturlielumi.
 
 | Lauks               | Vērtība  |
-|---------------------|--------|
+|:---------------------|--------:|
 | Iegādes vērtība    | 11,000 |
 | Lūžņu vērtība       | 1000  |
 | Nolietojuma bāze   | 10 000 |
@@ -66,7 +66,7 @@ Pamatlīdzeklim ir šādi raksturlielumi.
 Nolietojuma summa ir tāda pati katru gadu: (Pirkšanas vērtība — Lūžņu vērtība) ÷ Lietošanas ilgums gados
 
 | Periods | Ikgadējā nolietojuma summas aprēķins | Atlikusī vērtība gada beigās |
-|--------|-----------------------------------------------|---------------------------------------|
+|:--------:|:-----------------------------------------------|---------------------------------------:|
 | 1. gads | (11 000 – 1000) ÷ 5 = 2000                  | 9000                                 |
 | 2. gads | (9 000 – 1000) ÷ 4 = 2000                   | 7000                                 |
 | 3. gads | (7 000 – 1000) ÷ 3 = 2000                   | 5000                                 |

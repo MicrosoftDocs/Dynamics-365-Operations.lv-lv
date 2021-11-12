@@ -2,7 +2,7 @@
 title: Darba sākšana ar nodokļu aprēķinu
 description: Šajā tēmā paskaidrots, kā iestatīt Nodokļu aprēķinu.
 author: wangchen
-ms.date: 08/17/2021
+ms.date: 10/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: a849343cda54745f5ba3afc53e2082e79f71a29a
-ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
-ms.translationtype: HT
+ms.openlocfilehash: 2f26f8e5eafe29e88c26d3fb6cfa950466ec6be9
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7562130"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647438"
 ---
 # <a name="get-started-with-tax-calculation"></a>Darba sākšana ar nodokļu aprēķinu
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Šajā tēmā ir sniegta informācija par to, kā sākt darbu ar Nodokļu aprēķinu. Vispirms tas palīdz veikt konfigurācijas darbības programmās Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS) un Dynamics 365 Finance, un Dynamics 365 Supply Chain Management. Pēc tam tā pārskata kopējo procesu, kas saistīts ar Nodokļu aprēķina iespēju izmantošanu Finance un Supply Chain Management transakcijās.
 
@@ -41,29 +39,10 @@ Iestatījums sastāv no četrām galvenām darbībam:
 
 Pirms varat pabeigt šajā tēmā norādītās procedūras, katram vides veidam ir jāievieš priekšnosacījumi.
 
-### <a name="for-a-production-environment"></a>Ražošanas videi
-
-Ražošanas videi ir jābūt izpildītiem tālāk minētajiem priekšnosacījumiem.
+Ir jāizpilda šādi priekšnosacījumi:
 
 - Jums jābūt piekļuvei LCS kontam un jābūt izvietotam LCS projektam ar 2. vai augstākas pakāpes vidi, kurā darbojas Dynamics 365 versija 10.0.21 vai jaunāka.
 - Jums ir jāizveido RCS vide jūsu organizācijai, un jums ir jābūt piekļuvei savam kontam. Papildinformāciju par to, kā izveidot RCS vidi, skatiet šeit: [Regulatory Configuration Service pārskats](rcs-overview.md).
-- Ņemot vērā jūsu uzņēmējdarbības vajadzības, jūsu izvietotās vides Finance vai Supply Chain Management darbvietā **Līdzekļu pārvaldība** jābūt ieslēgtiem tālāk minētajiem līdzekļiem.
-
-    - Nodokļu aprēķināšanas pakalpojums
-    - Vairāku PVN reģistrācijas numuru atbalsts
-    - Nodokļi pārsūtīšanas pasūtījumā
-
-- Izvietotās RCS vides darbvietā **Līdzekļu pārvaldība** jābūt ieslēgtiem tālāk minētajiem līdzekļiem.
-
-    - Globalizācijas līdzekļi
-
-### <a name="for-a-test-environment-public-preview"></a>Testa videi (publiskais priekšskatījums)
-
-Testa videi ir jābūt izpildītiem tālāk minētajiem priekšnosacījumiem.
-
-- Jums ir jāpiekļūst savam LCS kontam un jābūt izvietotam LCS projektam ar 2. līmeņa vai augstāka līmeņa vidi ar Dynamics 365 10.0.21. versiju vai jaunāku.
-- Jums ir jāizveido RCS vide jūsu organizācijai, un jums ir jābūt piekļuvei savam kontam. Papildinformāciju par to, kā izveidot RCS vidi, skatiet šeit: [Regulatory Configuration Service pārskats](rcs-overview.md).
-- Lai iespējotu testējumu jūsu izvietotā Finance vai Supply Chain Management vidē, jums ir jāsazinās ar uzņēmumu Microsoft, rakstot uz epasta adresi <taxcalc@microsoft.com>.
 - Ņemot vērā jūsu uzņēmējdarbības vajadzības, jūsu izvietotās vides Finance vai Supply Chain Management darbvietā **Līdzekļu pārvaldība** jābūt ieslēgtiem tālāk minētajiem līdzekļiem.
 
     - Nodokļu aprēķināšanas pakalpojums

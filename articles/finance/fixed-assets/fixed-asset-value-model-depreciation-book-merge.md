@@ -1,8 +1,8 @@
 ---
 title: Pamatlīdzekļu vērtības modeļa un nolietojuma grāmatas sapludināšana
 description: Iepriekšējos laidienos pamatlīdzekļiem pastāvēja divi vērtēšanas jēdzieni — vērtības modeļi un nolietojuma grāmatas. Laidienā Microsoft Dynamics 365 for Operations (1611) vērtības modeļa funkcionalitāte un nolietojuma grāmatas funkcionalitāte ir apvienotas vienā jēdzienā, kas tiek saukts par grāmatu.
-author: ShylaThompson
-ms.date: 06/20/2017
+author: moaamer
+ms.date: 10/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,32 +11,33 @@ ms.reviewer: roschlom
 ms.custom: 221564
 ms.assetid: 7c68eb7c-8b1a-4dd9-afb8-04b4040e305e
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a8e04f89673b3e0eb07e19aa1e14276f1f22c25b9aaabc91e2919892f74ed985
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 9b11edcbf03b0917e35d9cef03834629b7b67fad
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727987"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674930"
 ---
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Pamatlīdzekļu vērtības modeļa un nolietojuma grāmatas sapludināšana
 
 [!include [banner](../includes/banner.md)]
 
-Iepriekšējos laidienos pamatlīdzekļiem pastāvēja divi vērtēšanas jēdzieni — vērtības modeļi un nolietojuma grāmatas. Laidienā Microsoft Dynamics 365 for Operations (1611) vērtības modeļa funkcionalitāte un nolietojuma grāmatas funkcionalitāte ir apvienotas vienā jēdzienā, kas tiek saukts par grāmatu.
+Šajā tēmā aprakstīta pašreizējā pamatlīdzekļu grāmatas funkcionalitāte. Šī funkcionalitāte ir balstīta uz iepriekšējās vērtības modeļa funkcionalitāti, bet ietver arī visas funkcionalitātes, kas iepriekš tika nodrošinātas tikai nolietojuma grāmatām.
 
-Jauna grāmatas funkcionalitāte ir balstīta uz iepriekšējās vērtības modeļa funkcionalitāti, bet ietver arī visas funkcionalitātes, kas iepriekš tika nodrošinātas tikai nolietojuma grāmatām. [![Grāmatot kā vērtības modeļa un nolietojuma grāmatas funkcionalitātes apvienošanu](./media/fixed-assets.png)](./media/fixed-assets.png) Pateicoties šai apvienošanai, jūs tagad varat izmantot vienotu lapu kopu, uzziņas un pārskatus visiem pamatlīdzekļu procesiem. Tabulas šajā tēmā apraksta nolietojuma grāmatu un vērtības modeļu iepriekšējo funkcionalitāti, kopā ar jauno funkcionalitāti grāmatām.
+Grāmatas funkcionalitāte ļauj jums izmantot vienu lapu, pieprasījumu un pārskatu kopu visiem jūsu organizācijas pamatlīdzekļu procesiem. Tabulas šajā tēmā apraksta nolietojuma grāmatu un vērtības modeļu iepriekšējo funkcionalitāti, kopā ar jauno funkcionalitāti grāmatām.
 
 ## <a name="setup"></a>Iestatīšana
-Pēc noklusējuma grāmatas grāmato gan virsgrāmatā (GL), gan pamatlīdzekļu apakšgrāmatā. Grāmatām ir jauna opcija **Grāmatot Virsgrāmatā**, kas ļauj atspējot grāmatošanu virsgrāmatā, un grāmatot tikai pamatlīdzekļu apakšgrāmatās. Šī funkcionalitāte ir līdzīga agrākai grāmatošanas uzvedībai nolietojuma grāmatām. Žurnālu nosaukumu iestatīšanai ir jaunu grāmatošanas slānis, ar nosaukumu Nav. Šis grāmatošanas līmenis tika pievienots īpaši pamatlīdzekļu darbībām. Lai grāmatotu darbības grāmatām, kas negrāmato Virsgrāmatā, jums ir jāizmanto žurnāla nosaukums, kura grāmatošanas slānis ir iestatīts uz **Nav**.
+Pēc noklusējuma grāmatas grāmato gan virsgrāmatā (GL), gan pamatlīdzekļu apakšgrāmatā. Grāmatām ir jauna opcija **Grāmatot Virsgrāmatā**, kas ļauj atspējot grāmatošanu Virsgrāmatā, un grāmatot tikai pamatlīdzekļu apakšgrāmatās. Šī funkcionalitāte ir līdzīga agrākai grāmatošanas uzvedībai nolietojuma grāmatām. Žurnālu nosaukumu iestatīšanai ir jaunu grāmatošanas slānis, ar nosaukumu Nav. Šis grāmatošanas līmenis tika pievienots īpaši pamatlīdzekļu darbībām. Lai grāmatotu darbības grāmatām, kas negrāmato Virsgrāmatā, jums ir jāizmanto žurnāla nosaukums, kura grāmatošanas slānis ir iestatīts uz **Nav**.
+
 
 | &nbsp;                                           | Nolietojuma grāmata               | Vērtības modelis                     | Grāmata (Jauna)                                              |
 |--------------------------------------------------|---------------------------------|---------------------------------|---------------------------------------------------------|
-| Grāmatot virsgrāmatā                                   | Nekad                           | Vienmēr                          | Opcija grāmatot Virsgrāmatā                                |
+| Grāmatošana Virsgrāmatā                                   | Nekad                           | Vienmēr                          | Izvēle grāmatot Virsgrāmatā                                |
 | Grāmatošanas līmeņi                                   | Nav attiecināms                  | 3: Pašreizējais, Darbības un Nodoklis | 11: Pašreizējais, Darbības, Nodoklis, 7 pielāgoti slāņi un Nav |
-| Žurnālu nosaukumi                                    | Nolietojuma grāmatas žurnāla nosaukumi | Virsgrāmata - Žurnālu nosaukumi              | Virsgrāmata - Žurnālu nosaukumi                                      |
+| Žurnālu nosaukumi                                    | Nolietojuma grāmatas žurnāla nosaukumi | Virsgrāmata - žurnālu nosaukumi              | Virsgrāmata - žurnālu nosaukumi                                      |
 | Atvasinātās grāmatas                                    | Nav atļauts                     | Atļauts                         | Atļauts                                                 |
 | Nolietojuma profila ignorēšana līdzekļu līmenī | Atļauts                         | Nav atļauts                     | Atļauts                                                 |
 
@@ -61,7 +62,7 @@ Pieprasījumos un pārskatos tiek atbalstītas visas grāmatas. Pārskati, kas n
 | Pamatlīdzekļu piemērojamība ceturkšņa pusē | Atļauts                        | Nav atļauts              | Atļauts                  |
 
 ## <a name="upgrade"></a>Jaunināt
-Jaunināšanas process jūsu esošos iestatījumus un visas jūsu pastāvošās transakcijas pārvietos uz jaunās grāmatas struktūru. Vērtību modeļi saglabāsies pašreizējā stāvokli, kā grāmata, kas grāmato Virsgrāmatā. Tomēr nolietojuma grāmatas tiks pārvietotas uz grāmatu, kurai opcija **Grāmatot virsgrāmatā** ir iestatīta uz **Nē**. Nolietojuma grāmatas žurnāla nosaukumi tiks pārvietoti uz virsgrāmatas žurnāla nosaukumu, kura grāmatošanas slānis ir iestatīts uz **Nav**.
+Jaunināšanas process jūsu esošos iestatījumus un visas jūsu pastāvošās transakcijas pārvietos uz jaunās grāmatas struktūru. Vērtību modeļi saglabāsies pašreizējā stāvokli, kā grāmata, kas grāmato Virsgrāmatā. Tomēr nolietojuma grāmatas tiks pārvietotas uz grāmatu, kurai opcija **Grāmatot Virsgrāmatā** ir iestatīta uz **Nē**. Nolietojuma grāmatas žurnāla nosaukumi tiks pārvietoti uz Virsgrāmatas žurnāla nosaukumu, kura grāmatošanas slānis ir iestatīts uz **Nav**.
 
 
 

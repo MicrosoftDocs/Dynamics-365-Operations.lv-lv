@@ -2,7 +2,7 @@
 title: Pievienot datu laukus nodokļu konfigurācijās
 description: Šajā tēmā skaidrots, kā pielāgot nodokļu konfigurācijas, pievienojot datu laukus.
 author: Kai-Cloud
-ms.date: 09/15/2021
+ms.date: 10/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: fb10fb5feb317dca5253eea6e5694a3960a58a7d
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
-ms.translationtype: HT
+ms.openlocfilehash: 590c2d62995f260ba4277e1031349b0dc43f1417
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500150"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674904"
 ---
 # <a name="add-data-fields-in-tax-configurations"></a>Pievienot datu laukus nodokļu konfigurācijās
 
@@ -30,9 +30,13 @@ ms.locfileid: "7500150"
 
 ## <a name="customize-the-tax-data-model"></a>Nodoku datu modeļa pielāgošana
 
-1. Pakalpojumā Microsoft Dynamics 365 Finance dodieties uz **Elektroniskie pārskati** >  **Nodokļu konfigurācijas**.
-2. Konfigurācijas kokā atlasiet **Nodokļu datu modelis - Eiropa**. Pēc tam darbību rūtī atlasiet **Izveidot konfigurāciju**.
-3. Nolaižamajā dialoglodziņā atlasiet opciju **Ar nodokli apliekamais dokumenta modelis, kas atvasināts no nosaukuma: nodokļu datu modelis - Eiropa, Microsoft**, ievadiet jaunā nodokļu datu modeļa nosaukumu un pēc tam atlasiet **Izveidot konfigurāciju**.
+1. Pakalpojumā Microsoft Dynamics 365 Finance dodieties uz **Elektroniskie pārskati** > **Nodokļu konfigurācijas**.
+2. Konfigurācijas kokā atlasiet **Nodokļu aprēķina datu modelis**. Pēc tam darbību rūtī atlasiet **Izveidot konfigurāciju**. 
+
+  > [!NOTE] 
+  > Ja konfigurācijas nodrošinātājs nav pieejams, izveidojiet šo nodrošinātāju un veidojiet to aktīvu nodokļu konfigurācijai. Papildinformāciju skatiet [Izveidot konfigurācijas nodrošinātājus un atzīmēt tos kā aktīvus](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
+  
+3. Nolaižamajā dialoglodziņā atlasiet opciju **Ar nodokli apliekamais dokumenta modelis, kas atvasināts no nosaukuma: nodokļu aprēķina datu modelis, Microsoft**, ievadiet jaunā nodokļu datu modeļa nosaukumu un pēc tam atlasiet **Izveidot konfigurāciju**.
 4. Atlasiet tikko izveidoto nodokļu datu modeli un pēc tam darbību rūtī atlasiet **Veidotājs**.
 5. Izvērsiet datu modeļa koku, atlasiet **Rindas** un pēc tam atlasiet **Jauns**.
 6. Dialoglodziņā **Mezgla izveide** ievadiet nosaukumu, norādiet krājuma tipu un pēc tam atlasiet **Pievienot**.
@@ -42,9 +46,9 @@ ms.locfileid: "7500150"
 
 ## <a name="customize-the-tax-configuration"></a>Nodokļa pielāgošanas konfigurācija
 
-1. Pakalpojumā Finance dodieties uz **Elektroniskie pārskati** >  **Nodokļu konfigurācijas**.
-2. Konfigurācijas kokā atlasiet **Nodokļu configurācija - Eiropa**. Pēc tam darbību rūtī atlasiet **Izveidot konfigurāciju**.
-3. Nolaižamajā dialoglodziņā atlasiet opciju **Nodokļu pakalpojuma konfigurācija, kas atvasināta no nosaukuma: nodokļu konfigurācija - Eiropa, Microsoft**, ievadiet jaunā nodokļu konfigurācijas nosaukumu un pēc tam atlasiet **Izveidot konfigurāciju**.
+1. Pakalpojumā Finance dodieties uz **Elektroniskie pārskati** > **Nodokļu konfigurācijas**.
+2. Konfigurācijas kokā atlasiet **Nodokļu aprēķina konfigurācija**. Pēc tam darbību rūtī atlasiet **Izveidot konfigurāciju**.
+3. Nolaižamajā dialoglodziņā atlasiet opciju **Nodokļu pakalpojuma konfigurācija, kas atvasināta no nosaukuma: nodokļu aprēķina konfigurācija, Microsoft**, ievadiet jaunā nodokļu konfigurācijas nosaukumu un pēc tam atlasiet **Izveidot konfigurāciju**.
 4. Atlasiet tikko izveidoto nodokļu konfigurāciju un pēc tam darbību rūtī atlasiet **Veidotājs**.
 5. Sadaļā **Rekvizīti**, laukā **Datu modelis** atlasiet iepriekš izveidoto pielāgoto nodokļu datu modeli.
 6. Laukā **Datu modeļa versijas** atlasiet nodokļu datu modeļa pabeigto versiju.
@@ -54,7 +58,7 @@ ms.locfileid: "7500150"
 
 ## <a name="implement-tax-features-in-the-customized-tax-configuration"></a>Pielāgotajā nodokļu konfigurācijā ieviest nodokļu līdzekļus
 
-1. Pakalpojumā Regulatory Configuration Service (RCS) atveriet **Globalizācijas līdzekļi** >  **Nodoklis**.
+1. Pakalpojumā Regulatory Configuration Service (RCS) atveriet **Globalizācijas līdzekļi** > **Nodoklis**.
 2. Atlasiet **Pievienot**, ievadiet informāciju par jauno līdzekli un pēc tam atlasiet **Izveidot līdzekli**.
 3. Cilnē **Versijas** atlasiet līdzekli un pēc tam atlasiet **Rediģēt**.
 4. Cilnē **Vispārīgi**, laukā **Konfigurācijas versija** atlasiet pielāgoto nodokļu konfigurāciju un versiju.

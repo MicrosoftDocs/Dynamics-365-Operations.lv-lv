@@ -2,7 +2,7 @@
 title: Meklēšanas rezultātu modulis
 description: Šajā tēmā tiek stāstīts par meklēšanas rezultātu moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 05/28/2021
+ms.date: 10/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: c3fce73b1827de12bc8d40e1abb43ad000b8aa1c38812221dfae95010513ede1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: dc4a01e520379a74ca3b21c1d588531412e762be
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712409"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647516"
 ---
 # <a name="search-results-module"></a>Meklēšanas rezultātu modulis
 
@@ -83,6 +83,58 @@ Lai pievienotu meklēšanas rezultātu moduli kategorijas lapai, veiciet tālāk
 1. Dodieties uz **Lapas** un atlasiet **Jauns**, lai izveidotu jaunu lapu.
 1. Dialoglodziņā **Izvēlēties veidni** atlasiet iepriekš izveidoto veidni **Meklēšanas rezultāti**, ievadiet **Kategorijas lapa** opcijai **Lapas nosaukums** un pēc tam atlasiet **Labi**. Tā kā visas vērtības ir iestatītas veidnē, lapa ir gatava publicēšanai.
 1. Atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt**, lai publicētu to.
+
+## <a name="enable-inventory-awareness-for-the-search-results-module"></a>Meklēšanas rezultātu moduļa krājumu apzināšanas iespējošana
+
+Klienti parasti sagaida, ka e-Commerce vietne visā pārlūkošanas laikā būs informēta par krājumiem, lai viņi varētu izlemt, ko darīt, ja produktam nav krājumu. Meklēšanas rezultātu modulis var tikt uzlabots, tādējādi tajā iekļauti krājumu dati un sniegta šāda pieredze:
+
+- Rādiet krājumu pieejamības etiķeti kopā ar precēm.
+- Paslēpt preces, kas atrodas ārpus noliktavas.
+- Meklēšanas rezultātu saraksta beigās rādīt preces, kas ir ārpus krājuma.
+    
+Lai iespējotu šo pieredzi, ir jākonfigurē tālāk minētie Commerce Headquarters priekšnosacījumu iestatījumi.
+
+### <a name="enable-the-enhanced-e-commerce-product-discovery-to-be-inventory-aware-feature"></a>Iespējot līdzekli Uzlabota e-Commerce produktu atklāšana ar informāciju par krājumiem
+
+> [!NOTE]
+> Līdzeklis **Uzlabota e-Commerce produktu atklāšana ar informāciju par krājumiem** ir pieejams Commerce versijā 10.0.20 laidienā.
+
+Lai iespējotu līdzekli **Uzlabota e-Commerce produktu atklāšana ar informāciju par krājumiem** programmā Commerce Headquarters, veiciet šīs darbības.
+
+1. Dodieties uz **Darbvietas \> Līdzekļu pārvaldība**.
+1. Mēklējiet līdzekli **Iespējot līdzekli Uzlabota e-Commerce produktu atklāšana ar informāciju par krājumiem**, un pēc tam iespējojiet to.
+
+### <a name="configure-the-populate-product-attributes-with-inventory-level-job"></a>Konfigurējiet darbu Preču īpašību aizpildīšana ar krājumu līmeni
+
+Darbs **Preču īpašību aizpildīšana ar krājumu līmeni** izveido jaunu preces īpašību, lai tvertu krājumu pieejamību, un pēc tam iestata šo atribūtu uz pēdējo krājumu līmeņa vērtību katrai vispārējai precei. Tā kā krājuma pieejamība precei vai preču klāstam, kas tiek pārdots bez izmaiņām, ļoti ieteicams plānot darbu kā pakešuzdevumu.
+
+Lai konfigurētu darbu **Preču īpašību aizpildīšana ar krājumu līmeni** programmā Commerce Headquarters, sekojiet šiem soļiem.
+
+1. Dodieties uz **Retail un Commerce \> Retail un Commerce IT \> Preces un krājumi**.
+1. Atlasiet **Preču īpašību aizpildīšana ar krājumu līmeni**.
+1. Dialoglodziņā **Preču īpašību aizpildīšana ar krājumu līmeni** veiciet šādas darbības:
+
+    1. Sadaļas **Parametri** laukā **Preces īpašības un tipa nosaukums** norādiet tās atvēlētās preces īpašības nosaukumu, kas tiks izveidota, lai tvertu krājumu pieejamību.
+    1. Cilnes **Parametri** laukā **Krājumu pieejamība, pamatojoties uz** lauku atlasiet daudzumu, uz kura krājumu līmeņa aprēķinam jābūt balstītam (piemēram, **Fiziski pieejamais**).
+    1. Sadaļā **Palaist fonā** konfigurējiet darbu, lai tas darbotos fonā, un pēc izvēles ieslēdziet **Pakešapstrādes** opciju. 
+
+> [!NOTE]
+> Lai veiktu konsekventu krājumu līmeņa aprēķinu PDP un produktu saraksta lapās jūsu e-commerce vietnē, noteikti atlasiet vienu un to pašu daudzuma opciju gan iestatījumam **Krājumu pieejamība, pamatojoties uz** Commerce Headquarters un iestatījumam **Krājumu līmenis, pamatojoties uz** Commerce vietņu veidotājā. Papildinformāciju par krājumu iestatījumiem vietņu veidotājā skatiet [Krājumu iestatījumu lietošana](inventory-settings.md).
+
+### <a name="configure-the-new-product-attribute"></a>Konfigurēt jaunas preces atribūtu
+
+Kad darbs **Preču īpašību aizpildīšana ar krājumu līmeni** ir aizpildīts, e-Commerce vietnē jākonfigurē jaunizveidotās preces atrubūts, kur vēlaties iespējot krājumu apzināšanu meklēšanas rezultātu modulim.
+
+Lai konfigurētu jaunas preces atrubūtu Commerce Headquarters, veiciet tālāk norādītās darbības.
+
+1. Pārejiet uz **Mazumtirdzniecība un komercija \> Kanāla iestatīšana \> Kanālu kategorijas un preču īpašības** un atlasiet e-Commerce vietni.
+1. Atlasiet un atveriet saistīto atribūtu grupu, pievienojiet tai jaunizveidotās preces īpašības un pēc tam aizveriet lapu.
+1. Atlasiet **Atribūtu metadatu iestatīšana**, atlasiet jaunizveidotās preces īpašību un pēc tam slēdziet atribūtu **Rādīt kanālā**, **Izgūstams**, **Var precizēt** un **Var iegūt vaicājumu** opcijas.
+
+> [!NOTE]
+> Precēm, kas tiek rādītas meklēšanas rezultātu modulī, krājumu līmenis tiek ievadīts preču šablona līmenī, nevis atsevišķā varianta līmenī. Ir tikai divas iespējamās vērtības: "pieejams" un "nav noliktavā". Faktiskais vērtību teksts tiek iegūts no definīcijas [krājumu līmeņa profils](inventory-buffers-levels.md). Šablona prece tiek uzskatīta par krājumu tikai tad, ja visi tās varianti ir krājumos. Varianta krājumu līmenis tiek noteikts, pamatojoties uz preces krājumu līmeņa profila definīciju. 
+
+Kad visi iepriekšējie konfigurācijas soļi ir pabeigti, meklēšanas rezultātu lapu uzlabotāji parādīs uz krājumiem balstītu filtru, un meklēšanas rezultātu modulis izgūs krājumu datus aiz ēnas. Varat konfigurēt iestatījumu **Krājumu iestatījumi preču saraksta lapām** Commerce vietņu veidotājā, lai kontrolētu to, kā meklēšanas rezultātu modulis rāda preces, kas atrodas ārpus noliktavas. Papildinformāciju skatiet [Krājumu iestatījumu lietošana](inventory-settings.md).
 
 ## <a name="additional-resources"></a>Papildu resursi
 

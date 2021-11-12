@@ -2,7 +2,7 @@
 title: Datu importēšanas un darbu eksportēšanas pārskats
 description: Lai izveidotu un pārvaldītu datu importēšanas un eksportēšanas darbus, izmantojiet darbvietu Datu pārvaldība.
 author: peakerbl
-ms.date: 10/07/2021
+ms.date: 10/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dec8270417cb7237081aa49203ca93d76c0d02ed
-ms.sourcegitcommit: 132c3dbdd66bceb7596d329c34b2256c581a20fa
-ms.translationtype: HT
+ms.openlocfilehash: 51c7d678017bdd9388767500735e21e5374c9f29
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "7612368"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675373"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Datu importēšanas un eksportēšanas darbu pārskats
 
@@ -68,6 +68,9 @@ Kad atlasāt kādu elementu, ir jāatlasa formāts tiem datiem, kas tiks eksport
 | Excel                  | Excel                                      | \-NA-                     |
 | XML                    | \-NA-                                      | XML-elements XML-atribūts |
 | Norobežots, fiksēts platums | Komats, semikols, tabulēšanas rakstzīme, vertikālā josla, kols | \-NA-                     |
+
+> [!NOTE]
+> Ir svarīgi **Rindas norobežotājam**, **Kolonnu norobežotājam** un **Teksta kvalificētājam** atlasīt pareizu vērtību, ja **Faila formāta** opcija ir iestatīta uz **Norobežots**. Pārliecinieties, vai datos nav ietverta rakstzīme, kas tiek lietota kā norobežotājs vai ierobežotājs, jo tādējādi importēšanas un eksportēšanas laikā var rasties kļūdas.
 
 ### <a name="sequence-the-entities"></a>Elementu secības norādīšana
 Datu veidnē vai importēšanas un eksportēšanas darbos elementus var izkārtot noteiktā secībā. Kad palaižat darbu, kurā ir vairāki datu elementi, jums ir pārliecinās, vai šie datu elementi ir sakārtoti pareizā secībā. Elementu secību jūs galvenokārt norādāt tā, lai varētu ievērot visas funkcionālās atkarības starp elementiem. Ja elementiem nav funkcionālo atkarību, tad tos var ieplānot paralēlai importēšanai vai eksportēšanai.

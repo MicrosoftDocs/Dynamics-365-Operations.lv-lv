@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c409b460df4c6a8b2f7811083e8c13c8fdfc186c09f859ecb91e2f3cc0b8b59f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 2acb6d1c31f54a23a0b3c761e2147fa2dd43a161
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749130"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674956"
 ---
 # <a name="automated-vendor-invoicing-processes-overview"></a>Automatizēts kreditoru rēķinu izrakstīšanas procesa pārskats
 
@@ -34,6 +34,7 @@ Varat automatizēt dažus kreditoru rēķinu izrakstīšanas procesus. Šajos pr
 
 Automatizācijas procesus var izmantot, lai veiktu šos uzdevumus:
 
+- Automātiski lietot priekšapmaksu kreditoru rēķiniem
 - Automātiski iesniegt importētos rēķinus darbplūsmas sistēmai.
 - Preču ieejas plūsmu saskaņošana ar gaidošām kreditora rēķina rindām.
 - Simulēt grāmatošanu pirms kreditora rēķina iegrāmatošanas.

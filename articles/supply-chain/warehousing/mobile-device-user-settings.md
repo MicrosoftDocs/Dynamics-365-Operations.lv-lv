@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mafoge
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e20367f4261d0112855f36c69c25cd732c78be7bb23d7c6333aea84db437d735
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 51c530fd0043a4ec5a82660af72c001be25b7e62
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769423"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647489"
 ---
 # <a name="mobile-device-user-settings"></a>Mobilās ierīces lietotāja iestatījumi
 
@@ -54,7 +54,7 @@ Varat arī definēt granulētāku lietotāja iestatījumus, kas ir piemēroti vi
 
 Izpildiet šīs darbības, lai izveidotu un pārvaldītu lietotāju iestatījumus mobilajām ierīcēm.
 
-1. Dodieties uz **Noliktavu pārvaldība \> Mobilā ierīce \> Mobilās ierīces lietotāja iestatījumi**.
+1. Dodieties uz **Noliktavu pārvaldība \> Iestatījumi \> Mobilā ierīce \> Mobilās ierīces lietotāja iestatījumi**.
 1. Saraksta rūtī atlasiet esošu lietotāja iestatījumu profilu, lai atvērtu tā ierakstu. Lai izveidotu jaunu profilu, darbību rūtī atlasiet **Jauns**.
 
     Katrs profils saraksta rūtī ir atzīmēts, lai norādītu zīmolu, modeli un/vai lietotāja ID, uz kuru attiecas profils. Dažiem vai visiem šiem raksturlielumiem vispārīgiem profiliem ir vērtība *Visi*.
@@ -83,7 +83,7 @@ Izmantojiet **Mobilās ierīces zīmolu** lapu, lai skatītu, izveidotu un pārv
 
 Izpildiet šīs darbības, lai izveidotu un pārvaldītu mobilo ierīču zīmolus un modeļus.
 
-1. Dodieties uz **Noliktavu pārvaldība \> Mobilā ierīce \> Mobilās ierīces zīmoli**.
+1. Dodieties uz **Noliktavas pārvaldība \> Iestatījumi \> Mobilā ierīce \> Mobilās ierīces darbības**.
 1. Atlasiet mobilās ierīces zīmolu no saraksta kolonnas, lai atvērtu ierakstu. Lai izveidotu jaunu zīmolu, darbību rūtī atlasiet **Jauns**.
 1. Jaunā vai atlasītā ierīces zīmola ieraksta virsraksta sadaļā iestatiet šādus laukus:
 

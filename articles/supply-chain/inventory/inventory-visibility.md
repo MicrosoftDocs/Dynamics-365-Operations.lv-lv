@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: dfc1bc0d457d0b0b2632aa2e2e5ba6a3c2f3fae7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 1ea1d8c1b0e8c996ead8461005960fa756ce6ca7
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575175"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678913"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>Krājumu redzamības pievienojumprogrammas pārskats
 
@@ -45,8 +45,6 @@ Ir divas pieejas jūsu krājumu skatīšanai:
 - Skatīt skatīt rīcībā esošo krājumu sarakstu. Šis saraksts periodiski tiek sinhronizēts no kešatmiņas instances un ir redzams Dataverse. Papildinformāciju skatiet [Krājumu uztveramības programma](inventory-visibility-power-platform.md).
 
 ## <a name="soft-reservations"></a>Vieglās rezervācijas
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Vieglā rezervācija tiek piemērota, kad uzņēmumam jārezervē noteikts preču daudzums, lai atbalstītu, piemēram, pārdošanas pasūtījuma izpildi, kas novērš pārdošanu pārāk daudz. Kad pārdošanas pasūtījums ir izveidots un apstiprināts Supply Chain Management vai citās pasūtījumu pārvaldības sistēmās, pieprasījums rezervēt daudzumu tiek nosūtīts uz Krājumu redzamību. Krājumu redzamība ļauj rezervēt preces, kurām ir dimensijas detaļas un specifiski krājumu darbību tipi. (Papildinformāciju skatiet [Krājumu redzamības programma](inventory-visibility-power-platform.md).) Kad daudzums ir veiksmīgi rezervēts, rezervācijas ID tiek atgriezts. Šo rezervācijas ID varat izmantot, lai saistītu atpakaļ ar oriģinālo pasūtījumu Supply Chain Management vai citās pasūtījumu pārvaldības sistēmās.
 

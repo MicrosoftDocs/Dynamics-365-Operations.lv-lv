@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3fac6a0232f7e51e859fcc5b23244be092ce8d76123ec42f586063a02abab603
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: e846cde14fe078d6675ec31d1a3271f751dd6468
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722795"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647144"
 ---
 # <a name="vendor-invoices-overview"></a>Kreditoru rēķinu pārskats
 
@@ -72,12 +72,9 @@ Lai pārvaldītu kreditoru rēķinu pārskatīšanas procesu, organizācijā var
 Tālāk ir sniegti vairāki veidi, kā var novērst rēķina iesniegšanu darbplūsmā.
 
 - **Rēķina kopsumma un reģistrētā kopsumma nav vienādas.** Persona, kas iesniedza rēķinu, saņems brīdinājumu, ka kopsummas nav vienādas. Brīdinājums sniedz iespēju labot bilances pirms rēķina atkārtotas iesniegšanas darbplūsmā. Šis līdzeklis ir pieejams, ja ir ieslēgta opcija **Aizliegt iesniegšanu darbplūsmā, ja rēķina kopsumma un reģistrētā rēķina kopsumma nav vienādas** lapā **Līdzekļu pārvaldība**. 
-
 - **Rēķinā ir nepiešķirtas izmaksas.** Persona, kas iesniedza rēķinu, saņems brīdinājumu, ka rēķinā ir nepiešķirtas izmaksas, tāpēc ir iespējams labot bilances, pirms atkārtoti iesniedzat rēķinu darbplūsmai. Šis līdzeklis ir pieejams, ja ir ieslēgta opcija **Aizliegt iesniegšanu darbplūsmā, ja kreditora rēķinā nepiešķirtas izmaksas** lapā **Līdzekļu pārvaldība**.
-
 - **Rēķinā ir tāds pats rēķina numurs kā citam iegrāmatotam rēķinam.** Persona, kas iesniedza rēķinu, saņems ziņojumu, kurā norādīts, ka ir atrasts rēķins ar dublētu numuru. Numura dublikātu var labot pirms rēķina atkārtotas iesūtīšanas darbplūsmā. Šis brīdinājums tiks parādīts, kad parametrs ar nosaukumu **Pārbaudiet izmantoto rēķina numuru** Kreditoros ir iestatīts uz **Noraidīt dublikātu**. Šis līdzeklis ir pieejams, ja parametrs **Aizliegt iesniegšanu darbplūsmā, ja rēķina numurs jau pastāv izliktā rēķinā, un jūsu sistēma nav iestatīta pieņemt rēķinu dublikātu numurus** ir ieslēgts lapā **Līdzekļu pārvaldība**.
-
-- **Rēķinā ir rinda, kurā rēķina daudzums ir mazāks par saskaņoto preču ieejas plūsmas daudzumu.** Persona, kas iesniedz rēķinu vai mēģina grāmatot, saņems ziņojumu, ka daudzumi nav vienādi. Šī ziņa sniedz iespēju labot vērtības pirms rēķina atkārtotas iesniegšanas darbplūsmā. Šis līdzeklis ir pieejams, ja lapā **Līdzekļu pārvaldība** ir ieslēgts parametrs **Bloķēt grāmatošanu un kreditora rēķinu iesniegšanu darbplūsmai** un ja lapā **Kreditoru parametri** ir ieslēgts parametrs **Bloķēt grāmatošanu un iesniegšanu darbplūsmai**.  
+- **Rēķinā ir rinda, kurā rēķina daudzums ir mazāks par saskaņoto preču ieejas plūsmas daudzumu.** Persona, kas iesniedz rēķinu vai mēģina grāmatot, saņems ziņojumu, ka daudzumi nav vienādi. Šī ziņa sniedz iespēju labot vērtības pirms rēķina atkārtotas iesniegšanas darbplūsmā. Šis līdzeklis ir pieejams, ja lapā **Līdzekļu pārvaldība** ir ieslēgts parametrs **Bloķēt grāmatošanu un kreditora rēķinu iesniegšanu darbplūsmai** un ja lapā **Kreditoru parametri** ir ieslēgts parametrs **Bloķēt grāmatošanu un iesniegšanu darbplūsmai**.
 
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Kreditoru rēķinu salīdzināšana ar produktu ieejas plūsmām
 
@@ -119,12 +116,35 @@ Lapai **Atkopt kreditoru rēķinus** varat piekļūt tikai tad, ja jums ir pieš
 
 Darbplūsmas instancei, kas apturēta, jo radās neatkopjama kļūda, būs darbplūsmas statuss **Neatkopjama**. Ja kreditora rēķina darbplūsmas statuss ir **Neatkopjama**, varat atiestatīt to uz **Melnraksts**, atlasot **Atsaukt**. Pēc tam varat rediģēt kreditora rēķinu. Šī funkcija ir pieejama, ja ir ieslēgts parametrs **Atiestatīt darbplūsmas statusu kreditora rēķiniem no “Neatkopjama” uz “Melnraksts”** lapā **Līdzekļu pārvaldība**.
 
-Varat izmantot lapu **Darbplūsmas vēsture**, lai atiestatītu darbplūsmas statusu uz  **Melnraksts**. Varat atvērt šo lapu no **Kreditora rēķins** vai no navigācijas **Kopīgi > Vaicājumi > Darbplūsma** . Lai atiestatītu darbplūsmas statusu uz **Melnraksts**, atlasiet **Atsaukt**. Varat arī atiestatīt darbplūsmas statusu uz Melnraksts, atlasot darbību **Atsaukt** lapā **Kreditora rēķins** vai **Gaidošie kreditoru rēķini**. Kad darbplūsmas statuss tiek atiestatīts uz **Melnraksts**, tas kļūst pieejams labošanai lapā **Kreditora rēķins**.
+Varat izmantot lapu **Darbplūsmas vēsture**, lai atiestatītu darbplūsmas statusu uz **Melnraksts**. Varat atvērt šo lapu no **Kreditora rēķins** vai no navigācijas **Kopīgi > Vaicājumi > Darbplūsma**. Lai atiestatītu darbplūsmas statusu uz **Melnraksts**, atlasiet **Atsaukt**. Varat arī atiestatīt darbplūsmas statusu uz Melnraksts, atlasot darbību **Atsaukt** lapā **Kreditora rēķins** vai **Gaidošie kreditoru rēķini**. Kad darbplūsmas statuss tiek atiestatīts uz **Melnraksts**, tas kļūst pieejams labošanai lapā **Kreditora rēķins**.
 
 ## <a name="viewing-the-invoice-total-on-the-pending-vendor-invoices-page"></a>Rēķina kopsummas skatīšana lapā Gaidošie kreditoru rēķini
+
 Varat skatīt rēķina kopsummu lapā **Gaidošie kreditoru rēķini**, iespējojot parametru **Parādīt rēķina kopsummu gaidošo kreditoru rēķinu sarakstā** lapā **Kreditoru parametri**. 
 
+## <a name="vendor-open-transactions-report"></a>Kreditoru atvērto darījumu pārskats
 
+Pārskats **Atvērtās kreditora darbības** sniedz detalizētu informāciju par katra kreditora atvērtajām darbībām jūsu norādītajā datumā. Šo pārskatu bieži izmanto audita procedūras laikā, lai pārbaudītu bilances starp kreditoru grāmatas darbībām un Virsgrāmatas konta darbībām.
+
+Katrai darbībai pārskats ietver sekojošo detalizēto informāciju:
+
+- Rēķina numurs
+- Darījuma datums
+- Dokumenta numurs
+- Darījuma summa darījuma valūtā un uzskaites valūtā
+- Kredīta atlikums darījuma valūtā un uzskaites valūtā
+- Debeta atlikums darījuma valūtā un uzskaites valūtā
+- Starpsumma uzskaites valūtā
+- Maksājuma izpildes termiņš
+
+### <a name="filter-the-data-on-the-report"></a>Filtrēt pārskatā parādītos datus
+
+Veidojot pārskatu **Kreditora atvērtās darbības**, ir pieejami tālāk norādītie noklusējuma parametri. Izmantojot tos, varat filtrēt pārskatā ietveramos datus.
+
+- **Izslēgt turpmāko segšanu** – atzīmējiet šo izvēles rūtiņu, lai izslēgtu darbības, kas nosegtas pēc datuma, kas ievadīts laukā **Atvērtās darbības pa**.
+- **Atvērtās darbības pa** – ievadiet datumu, lai iekļautu darbības, kas ir atvērtas no šī datuma. Ja datums nav ievadīts, šis lauks ir iestatīts uz maksimālo datumu. (Maksimālais datums ir vēlākais datums, kuru sistēma akceptēs, 2154. gada 31. decembris) Pēc noklusējuma nākamajā pārskata izpildes reizē šis lauks tiks iestatīts kā pēdējais datums, kas tajā ievadīts.
+
+Varat izmantot filtrus laukā **Ieraksti, kurus iekļaut** tālākai darbību datu ierobežošanai, kas tiek iekļauti pārskatā.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

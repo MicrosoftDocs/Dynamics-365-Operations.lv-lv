@@ -2,7 +2,7 @@
 title: Navigācijas izvēlnes modulis
 description: Šajā tēmā tiek stāstīts par navigācijas izvēlnes moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 01/28/2021
+ms.date: 10/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 486f20c26f97c236dfde2cbaedd8df434fe762947a6caa1c7cc03e4d244f4d47
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 5379aa4496c1c448d147bb260689ebe38aaf903f
+ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761590"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7713856"
 ---
 # <a name="navigation-menu-module"></a>Navigācijas izvēlnes modulis
 
@@ -41,8 +41,8 @@ Sekojošajā attēlā redzams vietnes Fabrikam navigācijas izvēlnes piemērs a
 |---------------------------|-----------------------|-------------|
 | Modulis                  | **Mazumtirdzniecība**, **Manuāla autorēšana**, **Mazumtirdzniecība un manuāla autorēšana** | Vērtība **Mazumtirdzniecība** ļauj navigācijas izvēlnē parādīt kanāla navigācijas hierarhiju no Commerce Headquarters. Vērtība **Manuālā autorēšana** ļauj pārraudzīt statiskos izvēlnes vienumus. Vērtība **Mazumtirdzniecība un manuālā autorēšana** ļauj kombinēt abas. |
 | Rādīt kategoriju attēlus | **Patiess** vai **Nepatiess**    | Ja iespējots, šis rekvizīts parāda kategoriju attēlus navigācijas izvēlnē, kā definēts Commerce Headquarters katrai kategorijai. Pievienots Commerce izlaidumā 10.0.14. |
-| Veicināšanas pasākumu rādīšana | **Patiess** vai **Nepatiess** | Ja šis rekvizīts ir iespējots, veicināšanas pasākumus var konfigurēt, izmantojot attēlus, saites un tekstu. Šis rekvizīts tika pievienots Commerce versijas 10.0.17 laidienā. |
-| Veicināšanas pasākumu pievienošana | Teksts, attēls vai saite | Ja ir iespējots rekvizīts **Veicināšanas pasākumu rādīšana**, navigācijas izvēlnē varat pievienot tekstu, attēlu vai saiti kā veicināšanas saturu. |
+| Rādīt reklāmas attēlus | **Patiess** vai **Nepatiess** | Ja šis rekvizīts ir iespējots, veicināšanas pasākumus var konfigurēt, izmantojot attēlus, saites un tekstu. Šis rekvizīts tika pievienots Commerce versijas 10.0.17 laidienā. |
+|Pievienot kategorijas reklāmas saturu | Teksts, attēls vai saite | Ja ir iespējots rekvizīts **Rādīt reklāmas attēlus**, navigācijas izvēlnē varat pievienot tekstu, attēlu vai saiti kā veicināšanas saturu. |
 | Vairāku līmeņu navigācijas izvēlnes iespējošana | **Patiess** vai **Nepatiess** | Kad šis rekvizīts ir iespējots, navigācijas izvēlne var parādīt vairākus navigācijas hierarhijas līmeņus. Šis līdzeklis ir pieejams Commerce versijas 10.0.15 laidienā. |
 | Līmeņu skaits | vesels skaitlis | Šis rekvizīts nosaka līmeņu skaitu, kas jāparāda, ja rekvizīts **Iespējot vairāklīmeņu navigācijas izvēlnes** ir iestatīts uz **Patiess**. |
 | Statisks izvēlnes elements| Vērtību masīvs| Statiski izvēlnes elementi, kas saista izvēlnes elementa nosaukumu ar saiti uz statisku vietnes lapu. Varat izveidot izvēlnes elementus zem citiem izvēlnes elementiem. Pēc noklusējuma statiskās izvēlnes parādās saknes līmenī, un tās tiks pievienotas kanālu navigācijas hierarhijai, ja tāda pastāv. |

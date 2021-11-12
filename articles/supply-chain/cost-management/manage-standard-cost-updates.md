@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 942b144c78176e9a00cdc12101e2948e8aa4685e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 3485f0722b8b99d7dc2d6dab470fdcc465b1da3d
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579764"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678669"
 ---
 # <a name="manage-standard-cost-updates"></a>Standarta izmaksu atjauninājumu pārvaldība
 
@@ -43,8 +43,6 @@ Tālāk sniegtajā piemērā ir parādīts, kā vienas versijas un divu versiju 
 Šajā piemērā tika izmantota viena papildu izmaksu aprēķināšanas versija, lai pārvaldītu atjauninājumus par 2020. gadu. Var izmantot vairākas izmaksu aprēķināšanas versijas, piemēram, atsevišķu versiju katram atjauninājumu paketei. Ja tiek izmantotas vairākas papildu izmaksu aprēķināšanas versijas, atkāpšanās ir jāizsaka kā aktīvās izmaksas, jo aktīvās izmaksas ir ietvertas vairākās izmaksu aprēķināšanas versijās.
 
 ## <a name="financial-dimensions-for-the-standard-cost-revaluation"></a>Finanšu dimensijas standarta izmaksu pārvērtēšanai
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Aktivizējot jaunu standarta cenu, rīcībā esošo krājumu vērtība parasti tiks pārvērtēta, izmantojot standarta izmaksu pārvērtēšanas darbības. Parasti krājuma finanšu dimensijas pēc tam tiek grāmatotas darbībās. Tomēr, ja vēlaties kontrolēt, vai un kā finanšu dimensijas ir iegrāmatotas, izmantojiet [līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), lai ieslēgtu līdzekli ar nosaukumu *Noklusējuma finanšu dimensiju opcijas krājumu standarta izmaksu pārvērtēšanai*. Pēc šīs funkcijas iespējošanas dodieties uz **Izmaksu pārvaldība > Krājumu uzskaites politiku iestatījumi > Parametri** un iestatiet jauno **Finanšu dimensiju izcelsmes** nolaižamo sarakstu uz vienu no šīm vērtībām:
 

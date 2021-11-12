@@ -2,7 +2,7 @@
 title: Krājumu iestatījumu lietošana
 description: Šajā tēmā ir ietverti krājumu iestatījumi un aprakstīts, kā tos lietot programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 04/23/2021
+ms.date: 10/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f57f1f941fe0c0c70394d1ecbf8d88a13c7a3682fdfa8b5439a4f3830f616876
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 4ba3e67cf9c72b9a9606528c02f9e57d19a74c1f
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765270"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647588"
 ---
 # <a name="apply-inventory-settings"></a>Krājumu iestatījumu lietošana
 
@@ -39,7 +39,7 @@ Commerce vietņu veidotājā var definēt krājumu robežvērtības un diapazonu
 
 ## <a name="inventory-settings"></a>Krājumu iestatījumi
 
-Commerce krājumu iestatījumi tiek definēti vietņu veidotājā **Vietas iestatījumi \> Paplašinājumi \> Krājumu vadība**. Ir pieci krājumu iestatījumi, no kuriem viens ir novecojis.
+Commerce krājumu iestatījumi tiek definēti vietņu veidotājā **Vietas iestatījumi \> Paplašinājumi \> Krājumu vadība**. Ir seši krājumu iestatījumi, no kuriem viens ir vecs (novecojis).
 
 - **Iespējot krājumu pārbaudi programmā** — šis iestatījums ieslēdz preču krājumu pārbaudi. Pēc tam pirkšanas lodziņš, grozs un saņemšanas moduļi pārbauda preču krājumus un ļaus preci pievienot grozam tikai tad, ja krājumi ir pieejami.
 - **Krājumu līmenis, pamatojoties uz** — šis iestatījums nosaka, kā tiek aprēķināti krājumu līmeņi. Pieejamās vērtības ir **Kopējais pieejamais daudzums**, **Fiziski pieejamais daudzums** un **Robežvērtība Nav noliktavā**. Commerce krājumu robežvērtības un diapazonus var definēt katrai precei un kategorijai. Krājumu API atgriež preču krājuma informācija par rekvizītu **Kopējais pieejamais daudzums** un rekvizītu **Fiziski pieejamais daudzums**. Mazumtirgotājs lemj, vai vērtība **Kopējais pieejamais daudzums** vai **Fiziski pieejamais daudzums** būtu jāizmanto, lai noteiktu krājumus skaitu un atbilstīgos diapazonus statusam Noliktavā un Nav noliktavā.
@@ -48,8 +48,13 @@ Commerce krājumu iestatījumi tiek definēti vietņu veidotājā **Vietas iesta
 
 - **Krājumu līmenis vairākām noliktavām** – šis iestatījums ļauj krājuma līmeni aprēķināt attiecībā pret noklusējuma noliktavu vai vairākām noliktavām. Opcija **Pamatojoties uz atsevišķu noliktavu** aprēķinās krājumu līmeņi, pamatojoties uz noklusējuma noliktavu. Vai arī e-komercijas vietne var norādīt uz vairākām noliktavām, lai atvieglotu izpildi. Šajā gadījumā, opcija **Balstoties uz apkopoto nosūtīšanas un saņemšanas noliktavām** tiek izmantota, lai norādītu krājumu pieejamību. Piemēram, kad debitors iegādājas krājumu un kā piegādes veidu atlasa "piegāde", krājumu var nosūtīt no jebkuras noliktavas izpildes grupā, kurā ir pieejami krājumi. Preces informācijas lapa (product details page - PDP) nosūtīšanai parādīs ziņojumu "Noliktavā", ja kādai pieejamai nosūtīšanas noliktavai izpildes grupā ir krājumi. 
 
-> [!IMPORTANT] 
-> Iestātījums **Krājumu līmenis vairākām noliktavām** ir pieejams Commerce versijā 10.0.19. versijā. Ja veicat atjaunināšanu no vecākas Commerce versijas, ir manuāli jāatjaunina fails appsettings.json. Instrukcijas skatiet [SDK un moduļu bibliotēkas atjauninājumi](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
+    > [!IMPORTANT] 
+    > Iestātījums **Krājumu līmenis vairākām noliktavām** ir pieejams Commerce versijā 10.0.19. versijā. Ja veicat atjaunināšanu no vecākas Commerce versijas, ir manuāli jāatjaunina fails appsettings.json. Instrukcijas skatiet [SDK un moduļu bibliotēkas atjauninājumi](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
+
+- **Krājumu iestatījumi preču sarakstu lapām** - šis iestatījums nosaka, kā rezerves preces tiek rādītas preču sarakstos, kas tiek renderēti pēc preču kolekcijas un meklēšanas rezultātu moduļiem. Pieejamās vērtības ir **Rādīt pasūtījumā ar citām precēm**, **Paslēpt no saraksta krājumu preces** un **Saraksta beigās parādīt preces, kuru nav noliktavā**. Lai izmantotu šo iestatījumu, vispirms ir jākonfigurē daži priekšnosacījumu iestatījumi programmā Commerce Headquarters. Papildinformāciju skatiet [Meklēšanas rezultātu moduļa krājumu apzināšanas iespējošana](search-result-module.md#enable-inventory-awareness-for-the-search-results-module).
+
+    > [!IMPORTANT] 
+    > Iestatījums **Krājumu iestatījumi preču saraksta lapām** ir pieejams Commerce versijā 10.0.20. versijā. Ja veicat atjaunināšanu no vecākas Commerce versijas, ir manuāli jāatjaunina fails appsettings.json. Instrukcijas skatiet [SDK un moduļu bibliotēkas atjauninājumi](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
 - **Krājumu diapazoni** — šis iestatījums nosaka krājumu diapazonus, kas tiek parādīti uz vietas moduļiem. To var lietot tikai tad, ja ir atlasīta vērtība **Kopējais pieejamais daudzums** vai vērtība **Fiziski pieejamais daudzums** iestatījumam **Krājumu līmenis, pamatojoties uz**. Pieejamās vērtības ir **Viss** **Mazi krājumi un nav noliktavā** un **Nav noliktavā**.
 

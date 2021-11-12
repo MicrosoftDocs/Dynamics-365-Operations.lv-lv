@@ -1,7 +1,7 @@
 ---
-title: PVN kodu visas summas un intervāla aprēķināšanas opcijas
-description: Šajā raksta ir aprakstītas lauka Aprēķina metode opcijas, kas attiecas uz PVN kodiem, un izskaidrots kā tiek aprēķināts intervālu un visu summu PVN.
-author: ShylaThompson
+title: Visas summas un intervāla aprēķināšanas opcijas PVN kodiem
+description: Šajā tēmā ir aprakstītas lauka Aprēķina metode opcijas, kas attiecas uz PVN kodiem, un izskaidrots kā tiek aprēķināts intervālu un visu summu PVN.
+author: kailiang
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,23 +12,23 @@ ms.reviewer: roschlom
 ms.custom: 5624
 ms.assetid: 96166db4-b7ca-470b-aeb7-0a66fe0554c4
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bb3d622f8a81c0eabc84fb165203aa193f5e7dd6ad148ff50a9f55c87453be9c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 44c4ce480de470b623f6faeff5a763bfcb05aecc
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731480"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7726850"
 ---
-# <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>PVN kodu visas summas un intervāla aprēķināšanas opcijas
+# <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Visas summas un intervāla aprēķināšanas opcijas PVN kodiem
 
 [!include [banner](../includes/banner.md)]
 
-Šajā raksta ir aprakstītas lauka Aprēķina metode opcijas, kas attiecas uz PVN kodiem, un izskaidrots kā tiek aprēķināts intervālu un visu summu PVN.
+Šajā tēmā ir aprakstītas lauka **Aprēķina metode** opcijas, kas attiecas uz PVN kodiem, un izskaidrots kā tiek aprēķināts intervālu un visu summu PVN.
 
-Varat iestatīt PVN kodu tā, lai tas tiktu aprēķināts, pamatojoties uz visu summu vai intervāla summu. Izmantojiet lauku Aprēķina metode lapas PVN kodi kopsavilkuma cilnē Aprēķins, lai atlasītu, kā aprēķināt PVN kodu.
+Varat iestatīt PVN kodu tā, lai tas tiktu aprēķināts, pamatojoties uz visu summu vai intervāla summu. Lapā **PVN kodi** izmantojiet lauku **Aprēķina metode** kopsavilkuma cilnē **Aprēķins**, lai izvēlētos PVN koda aprēķina metodi.
 - Visa summa — nodokļa likme tiek lietota visai apliekamajai summai.
 - Intervāls — apliekamā summa tiek sadalīta daļās, katra no kurām atbilst diapazonam ar noteiktu PVN likmi. Summas daļa, kas atbilst noteiktam intervālam, tiek aplikta ar nodokļiem saskaņā ar šī intervāla nodokļa likmi. PVN likme ir summa no visiem nodokļu daudzumiem, kas tiek aprēķināti katram daudzuma intervālam.
   > [!NOTE]                                                                                                                              
@@ -54,12 +54,12 @@ PVN tiek aprēķināts visai apliekamajai summai.
 
 | Apliekamā summa (cena) | Aprēķins    | PVN |
 |------------------------|----------------|-----------|
-| 35,00                  | 35,00 \* 0,30  | 10,50     |
-| 50,00                  | 50,00 \* 0,30  | 15,00     |
-| 85,00                  | 85,00 \* 0,20  | 17,00     |
-| 305,00                 | 305,00 \* 0,10 | 30,50     |
+| 35,00                  | 35,00 \* 0,30  | 10,50     |
+| 50,00                  | 50,00 \* 0,30  | 15,00     |
+| 85,00                  | 85,00 \* 0,20  | 17,00     |
+| 305,00                 | 305,00 \* 0,10 | 30,50     |
 
-## <a name="example-interval-method-of-calculation"></a> Piemērs: intervāla aprēķina metode
+## <a name="example-interval-method-of-calculation"></a>Piemērs: intervāla aprēķina metode
 Lapā Vērtības tiek iestatītas PVN likmes tālāk norādītajos intervālos.
 
 | Minimālā robeža     | Maksimālā robeža     | Nodokļa likme     |
@@ -72,10 +72,10 @@ PVN likme ir summa no visiem nodokļu daudzumiem, kas tiek aprēķināti katram 
 
 | Apliekamā summa (cena) | Aprēķins                                                               | PVN |
 |------------------------|---------------------------------------------------------------------------|-----------|
-| 35,00                  | 35,00 \* 0,30                                                             | 10,50     |
-| 50,00                  | 50,00 \* 0,30                                                             | 15,00     |
-| 85,00                  | (50,00 \* 0,30 = 15,00) + (35,00 \* 0,20 = 7,00)                          | 22,00     |
-| 305,00                 | (50,00 \* 0,30 = 15,00) + (50,00 \* 0,20 = 10,00) + (205 \* 0,10 = 20,50) | 45.50     |
+| 35,00                  | 35,00 \* 0,30                                                             | 10,50     |
+| 50,00                  | 50,00 \* 0,30                                                             | 15,00     |
+| 85,00                  | (50,00 \* 0,30 = 15,00) + (35,00 \* 0,20 = 7,00)                          | 22,00     |
+| 305,00                 | (50,00 \* 0,30 = 15,00) + (50,00 \* 0,20 = 10,00) + (205 \* 0,10 = 20,50) | 45.50     |
 
 
 

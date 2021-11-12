@@ -2,7 +2,7 @@
 title: Preču meklēšana un debitoru meklēšana pārdošanas punktā (POS)
 description: Šajā tēmā ir sniegts apskats par preču un debitoru meklēšanas funkcionalitātes uzlabojumiem programmā Dynamics 365 Commerce.
 author: ShalabhjainMSFT
-ms.date: 03/10/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 043a630408d6b03e528f0afd5443de73ad5f3802c968b9d9bd7a5c51bfe1fb03
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 022dcaca9bb3c9e7e749ee143702325367e5149b
+ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716399"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "7700093"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Preču meklēšana un debitoru meklēšana pārdošanas punktā (POS)
 
@@ -45,9 +45,9 @@ Lokālā preču meklēšana meklē tālāk uzskaitītajos preču rekvizītos.
 - Apraksts
 - Dimensijas
 - Svītrkods
-- Meklēšanas vārds
+- Meklēšanas nosaukums
 
-### <a name="additional-local-product-search-capabilities"></a>Papildu vietējās preču meklēšanas iespējas
+### <a name="additional-local-product-search-capabilities-conventional-sql-full-text-search"></a>Papildu lokālās preču meklēšanas iespējas (parastā SQL pilnteksta meklēšana) 
 
 - Meklēšanai ar vairākiem atslēgvārdiem (t.i., meklēšanai, kur tiek izmantoti meklējamie vārdi) mazumtirgotāji var konfigurēt, vai meklēšanas rezultātos ietvert arī rezultātus, kas atbilst *jebkuram* meklētajam vārdam, vai ietvert tikai rezultātus, kas atbilst *visiem* meklētajiem vārdiem. Šīs funkcionalitātes iestatījums ir pieejams POS funkcionalitātes profilā, jaunā grupā ar nosaukumu **Preču meklēšana**. Noklusējuma iestatījums ir **Meklēt atbilstību jebkuram meklētajam vārdam**. Šis iestatījums ir arī ieteicamais iestatījums. Kad tiek izmantots iestatījums **Meklēt atbilstību jebkuram meklētajam vārdam**, kā meklēšanas rezultāti tiek atgrieztas visas preces, kas pilnīgi vai daļēji atbilst vienam vai vairākiem no meklētajiem vārdiem. Šie rezultāti tiek automātiski kārtoti augošā secībā pēc precēm, kurām ir visvairāk atslēgvārdu atbilstību (pilnīgu vai daļēju).
 
@@ -55,6 +55,8 @@ Lokālā preču meklēšana meklē tālāk uzskaitītajos preču rekvizītos.
 
     - Meklēšana tiek veikta pēc atsevišķiem preču rekvizītiem. Tiek atgrieztas, piemēram, tikai tās preces, kurām ir visi meklētie atslēgvārdi vismaz vienā preces rekvizītā.
     - Dimensijas netiek meklētas.
+> [!NOTE]
+> Tālāk norādītās konfigurācijas **Saskaņot jebkuru meklējamo terminu**/**Saskaņot visus meklējamos vārdus** POS funkcionalitātes profilos ir piemērojamas tikai **lokālai** preču meklēšanas (parastā SQL pilnteksta meklēšana) pieredzei. Šī konfigurācija neietekmē ar mākoni darbināmu meklēšanas darbību. Jaunajai meklēšanas programma ir detalizēts algoritms, kas deleģē meklēšanas atbilstību preču meklēšanas rezultātiem. 
 
 - Mazumtirgotāji var konfigurēt preču meklēšanu, lai rādītu meklēšanas ieteikumus, kamēr lietotāji raksta preču nosaukumus. Šai funkcionalitātei ir pieejams jauns iestatījums POS funkcionalitātes profilā, grupā ar nosaukumu **Preču meklēšana**. Šis iestatījums saucas **Rādīt meklēšanas ieteikumus rakstīšanas laikā**. Šī funkcionalitāte var palīdzēt darbiniekiem ātri atrast meklētās preces, jo viņiem nav nepieciešams visu nosaukumu ievadīt manuāli.
 - Preču meklēšanas algoritms meklētos vārdus tagad meklē arī preces rekvizītā **Meklēšanas nosaukums**.
@@ -147,7 +149,5 @@ Sarakstā zemāk parādīts, kā mākoņa darbinātā debitora meklēšanas funk
 > Debitora meklēšanas iespēja, izmantojot Azure Cognitive Search pakalpojumu, ir pieejama ierobežotos reģionos priekšskatījumam. Debitora meklēšanas iespēja *nav* pieejama šādos reģionos:
 > - Brazīlija
 > - Indija
-> - Kanāda
-> - Apvienotā Karaliste
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

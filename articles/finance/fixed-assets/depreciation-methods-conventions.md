@@ -1,7 +1,7 @@
 ---
 title: Nolietojuma metodes un konvencijas
 description: Šajā rakstā ir sniegts apskats par nolietojuma aprēķināšanas metodēm un nolietojuma metodēm, kas tiek atbalstītas programmā Microsoft Dynamics 365 Finance.
-author: ShylaThompson
+author: moaamer
 ms.date: 04/25/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 3441
 ms.assetid: 1d8267b1-86a8-44bf-8814-f56b5d45a0ae
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: daa8f70e12a8c837a599ead5ef8b98aaf13e8cc827853de8b0332611ed2e257e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: e6abf98b4c1eee3657960a1912445171acc0686a
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713238"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674530"
 ---
 # <a name="depreciation-methods-and-conventions"></a>Nolietojuma metodes un konvencijas
 
@@ -32,7 +32,7 @@ Var atlasīt dažādas nolietojuma metodes un konvencijas. Šo metožu nolūks i
 
 Ja izmantojat nolietojuma konvencijas un modificējat pamatlīdzekļa pēdējo nolietojuma aprēķināšanas datumu, tādējādi izraisot dažu nolietojuma aprēķinu izlaišanu, nolietojums pēdējā gadā var būt lielāks vai mazāks par paredzēto. Nolietojums tiek koriģēts ar nolietojuma periodu skaitu, ko ietekmē pēdējā nolietojuma aprēķināšanas datuma modifikācija.
 
-Piemēram, ja trīs gadus lietojat pusgada nolietojuma konvenciju, nolietošanās parasti notiek 3 1/2 gados. Ja trīsarpus gadu laikā maināt pēdējo nolietojuma aprēķināšanas datumu, pēdējais nolietojums iziet ārpus ietekmēto periodu skaita. Ja maināt datumu par trīs mēnešiem, pēdējam gadam tiek aprēķināts deviņu mēnešu nolietojums, lai gan parasti tam vajadzētu būt sešu mēnešu nolietojumam.
+Piemēram, ja vairāk kā trīs gadus lietojat pusgada nolietojuma konvenciju, nolietošanās parasti notiek trīs ar pusi gados. Ja trīsarpus gadu laikā maināt pēdējo nolietojuma aprēķināšanas datumu, pēdējais nolietojums iziet ārpus ietekmēto periodu skaita. Ja maināt datumu par trīs mēnešiem, pēdējam gadam tiek aprēķināts deviņu mēnešu nolietojums, lai gan parasti tam vajadzētu būt sešu mēnešu nolietojumam.
 
 Varat atlasīt kādu no tālāk norādītajām nolietojuma konvencijām.
 
@@ -48,7 +48,7 @@ Varat atlasīt kādu no tālāk norādītajām nolietojuma konvencijām.
 Varat atlasīt kādu no tālāk norādītajām nolietojuma metodēm.
 -   Lineārais lietošanas ilgums
 -   Atlik. samazinošā
--   Manuālā
+-   Manuāli
 -   Koeficients
 -   Patēriņš
 -   Lineārais atlikušais mūžs
@@ -65,7 +65,7 @@ Varat atlasīt kādu no tālāk norādītajām nolietojuma metodēm.
 
 [Pamatlīdzekļu nolietojums](fixed-asset-depreciation.md)
 
-[Lietošanas ilguma lineārā aprēķināšanas metode](Straight-line-service-life-depreciation.md)
+[Lineārais pakalpojuma novecojums](Straight-line-service-life-depreciation.md)
 
 [Degresīvā nolietojuma aprēķināšanas metode](reduce-balance-depreciation.md)
 

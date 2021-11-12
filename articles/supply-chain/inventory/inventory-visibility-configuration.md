@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 27dfc3f431fdfc1ec5c2cad2c3458b11c94189c3
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
-ms.translationtype: HT
+ms.openlocfilehash: 53cc457c788d24adfe3c523719ccffc6d445fb61
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474680"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678475"
 ---
 # <a name="configure-inventory-visibility"></a>Krājumu redzamības konfigurēšana
 
@@ -366,16 +366,12 @@ Indekss ļauj veikt rīcībā esošo krājumu vaicājumu šādos veidos:
 
 ## <a name="reservation-configuration-optional"></a><a name="reservation-configuration"></a>Rezervācijas konfigurācija (nav obligāti)
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Rezervācijas konfigurācija ir nepieciešama, ja vēlaties izmantot vieglās rezervēšanas funkciju. Konfigurācija sastāv no divām fundamentālajām daļām:
 
 - Vieglās rezervācijas kartēšana
 - Vieglās rezervācijas hierarhija
 
 ### <a name="soft-reservation-mapping"></a>Vieglās rezervācijas kartēšana
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Veicot rezervāciju, iespējams, vēlēsieties zināt, vai rīcībā esošie krājumi pašlaik ir pieejami rezervēšanai. Apstiprināšana ir saistīta ar aprēķinātu mērījumu, kas attēlo fizisko mērījumu kombinācijas skaitļošanas formulu.
 
@@ -446,8 +442,6 @@ Tāpēc, mēģinot veikt rezervācijas `iv.SoftReservOrdered` un daudzums ir maz
 > Izsaucot rezervācijas API, varat kontrolēt rezervācijas derīgumu, pieprasījuma laukā konkretizējot Būla `ifCheckAvailForReserv` parametru. Vērtība `True` nozīmē, ka ir vajadzīga validācija, bet vērtība `False` nozīmē, ka validācija nav vajadzīga. Noklusējuma vērtība ir `True`.
 
 ### <a name="soft-reservation-hierarchy"></a>Vieglās rezervācijas hierarhija
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Rezervāciju hierarhija apraksta dimensiju secību, kas jānorāda, veicot rezervācijas. Tas darbojas tādā pašā veidā, kā preču indeksu hierarhija darbojas rīcībā esošos vaicājumos.
 
@@ -747,8 +741,6 @@ Tabulā ir parādīta noklusējuma nodalījuma konfigurācija.
 Šajā sadaļā aprakstīta noklusējuma rezervācijas konfigurācija.
 
 #### <a name="reservation-mapping"></a>Vieglās rezervācijas kartēšana
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Tabulā ir parādīta noklusējuma rezervāciju kartēšana.
 

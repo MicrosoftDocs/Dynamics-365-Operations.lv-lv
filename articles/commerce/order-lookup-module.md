@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: fa61a20ffd9a31f800c48b71832be7547952119f
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
-ms.translationtype: HT
+ms.openlocfilehash: 0ae5c8a2eea84a9aa707f7c2f6f29950f2f48faa
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472643"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675121"
 ---
 # <a name="order-lookup-module"></a>Pasūtījumu uzmeklēšanas modulis
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Šajā tēmā aprakstīts pasūtījumu uzmeklēšanas modelis un kā to konfigurēt Microsoft Dynamics 365 Commerce.
 
@@ -34,11 +33,11 @@ Pasūtījumu uzmeklēšanas modulis nodrošina veidlapu, kuru klienti var lietot
 
 ![Pasūtījuma uzmeklēšanas moduļa veidlapa lapā.](./media/OrderLookup_module.PNG)
 
-## <a name="order-lookup-module-properties&quot;></a>Pasūtījuma uzmeklēšanas moduļa rekvizīti
+## <a name="order-lookup-module-properties"></a>Pasūtījuma uzmeklēšanas moduļa rekvizīti
 
 | Rekvizīta nosaukums     | Vērtība     | Apraksts |
 |-------------------|-----------|-------------|
-| Virsraksts           | Teksts      | Galvene, kas tiek rādīta veidlapas augšpusē (piemēram, &quot;Atrast pasūtījumu"). |
+| Virsraksts           | Teksts      | Galvene, kas tiek rādīta veidlapas augšpusē (piemēram, "Atrast pasūtījumu"). |
 | Bagātināts teksts         | Bagātināts teksts | Neobligāts skaidrojošais teksts, kas tiek rādīts zem virsraksta. |
 | Pasūtījuma statusa veids | Uzskaitījums      | <p>Atlasiet informācijas veidu, kuru veidlapa pieprasīs no klienta līdztekus pasūtījuma apstiprinājuma ID. Pašlaik tiek atbalstītas šādas vērtības:</p><ul><li><b>E-pasts</b> — Veidlapa ietvers lauku, kurā klienti var ievadīt e-pasta adresi, kura tika izmantota, veicot pasūtījumu.</li><li><b>Nav</b> — Veidlapa nepieprasīs nekādu citu informāciju, izņemot pasūtījuma apstiprināšanas ID.</li></ul> |
 

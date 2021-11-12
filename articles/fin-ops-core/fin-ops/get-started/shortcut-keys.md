@@ -2,7 +2,7 @@
 title: Īsinājumtaustiņi
 description: Šī tēma sniedz apskatu par īsinājumtaustiņu kombinācijām, kuras varat izmantot, strādājot ar Finance and Operations programmām.
 author: jasongre
-ms.date: 10/05/2020
+ms.date: 10/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 749fc3655b1ad41fbe7dd4794fc4ca907f1c86b9ee4e92e2415e924058191ffa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 7e700b841014e1e12560bf0ce9e5e012361ec397
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743175"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647540"
 ---
 # <a name="keyboard-shortcuts"></a>Īsinājumtaustiņi
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Tālāk norādītie īsinājumtaustiņi palīdz ātri un efektīvi ievadīt datus Finance and Operations programmās.
 
@@ -147,15 +148,16 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 | Režģī izpildīt noklusējuma darbību<blockquote>[!NOTE] Šī saīsne ir iespējota, kad ir fokusēta šūna, kurā ir hipersaite, un visās attiecīgās kolonnas šūnās ir hipersaites.</blockquote> | Enter                           |
 | Pārslēgt fokusu no atlasītās rindas uz virsraksta rindu vai otrādi                                                               | Alt+Shift+H                     |
 | Pašreizējo kolonnu padarīt lielāku/mazāku (kamēr fokuss ir virsraksta rindā)                                                  | Bultiņa pa labi/bultiņa pa kreisi        |
-| Atvērt režģa filtrēšanu pašreizējai kolonnai (kamēr fokuss ir virsraksta rindā)                                              | Enter                           |
+| Atvērt režģa filtrēšanu pašreizējai kolonnai (kamēr fokuss ir virsraksta rindā)                                              | Ievadīt                           |
+| Mainīt pašreizējās kolonnas izmēru, lai ietilptu saturs (ar fokusu virsraksta rindā)                                           | A                               |
 
 ## <a name="input-control-shortcuts"></a>Ievades kontroles saīsnes
 
-| Darbība                                                                   | Nospiediet                         |
+| Darbība                                                                   | Nospiests:                         |
 |------------------------------------------------------------------------------|-------------------------------|
 | Atvērt hipersaiti                                                           | Ctrl+Enter                    |
-| Ievadīt sesijas datumu datuma laukā                                       | D                         |
-| Ievadīt pašreizējo datumu datuma laukā                                       | O                         |
+| Ievadīt sesijas datumu datuma laukā                                       | D                             |
+| Ievadīt pašreizējo datumu datuma laukā                                       | O                             |
 | Atvērt uzmeklēšanu, kombinēto lodziņu, datuma atlasītāju, nolaižamo dialoglodziņu                         | Alt+bultiņa uz leju                |
 | Aizvērt uzmeklēšanu lodziņu, kombinēto lodziņu, datuma atlasītāju, nolaižamo dialoglodziņu                        | Esc                           |
 | Aktivizēt uzmeklēšanas lodziņu (kad uzmeklēšanas lodziņš jau ir atvērts)                   | Alt+bultiņa uz leju                |
@@ -202,8 +204,8 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 | Izmantot pārvietošanas rīku (atrodoties personalizēšanas režīmā)                                                                       | M                                   |
 | Pašreizējo vadīklu atlasīt kā pārvietojamo vadīklu (kamēr tiek lietots pārvietošanas rīks un pārvietošanai vēl nav atlasīta neviena vadīkla)  | Atstarpes taustiņš vai Enter                      |
 | Notīrīt pārvietojamo vadīklu (lietojat pārvietošanas rīku)                                                                   | Esc                                 |
-| Pāriet uz nākamo pozīciju atlasītajai vadīklai (lietojot pārvietošanas rīku)                                          | Tab vai bultiņa pa labi, vai bultiņa uz leju    |
-| Pāriet uz iepriekšējo pozīciju atlasītajai vadīklai (lietojot pārvietošanas rīku)                                      | Shift+Tab vai bultiņa pa kreisi, vai bultiņa uz augšu |
+| Pārvietot atlasīto vadīklu uz nākamo pozīciju (lietojot pārvietošanas rīku)                                              | Tab vai bultiņa pa labi, vai bultiņa uz leju    |
+| Pārvietot atlasīto vadīklu uz iepriekšējo pozīciju (lietojot pārvietošanas rīku)                                          | Shift+Tab vai bultiņa pa kreisi, vai bultiņa uz augšu |
 | Izmantot paslēpšanas rīku (atrodoties personalizēšanas režīmā)                                                                       | H                                   |
 | Pārslēgt pašreizējās vadīklas redzamību vai slēpšanu (lietojat paslēpšanas rīku)                                     | Atstarpes taustiņš vai Enter                      |
 | Izmantot izlaišanas rīku (atrodoties personalizēšanas režīmā)                                                                       | K                                   |
@@ -238,7 +240,7 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 
 ## <a name="task-recorder-shortcuts"></a>[Uzdevumu ierakstītāja](../../dev-itpro/user-interface/task-recorder.md) saīsnes 
 
-| Darbība                                                                    | Nospiests:                       |
+| Darbība                                                                    | Nospiests:                      |
 |-------------------------------------------------------------------------------|----------------------------|
 | Apturēt ierakstu (kamēr tiek ierakstīts)                                          | Alt+R,S                    |
 | Pārslēgt uzdevumu ierakstītāja rūts redzamību (kamēr tiek ierakstīts)             | Alt+R,T                    |

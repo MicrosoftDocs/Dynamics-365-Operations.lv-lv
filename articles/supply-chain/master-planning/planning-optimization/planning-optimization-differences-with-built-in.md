@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 14f0e07913af708e9eb3491ab4bc99e85462e5dd
-ms.sourcegitcommit: fcb1aa39e933216dea9e586b552bce6057f416a6
-ms.translationtype: HT
+ms.openlocfilehash: e271ddd3331d7b5de78f00a02b60a0479879c172
+ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "7645810"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "7700009"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Papildinformāciju skatiet sadaļā Atšķirības starp vispārējo plānošanu un plānošanas optimizāciju
 
@@ -41,5 +41,6 @@ Optimizācijas optimizācijas rezultāti var atšķirties no iebūvētās vispā
 
 - [Plānošanas optimizācijas atbilstības analīze](planning-optimization-fit-analysis.md)
 - [Parametri, kas netiek izmantoti plānošanas optimizācijai](not-used-parameters.md)
+- [Datuma un laika parametri, kas tiek izmantoti plānošanas optimizācijai](date-time-used.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

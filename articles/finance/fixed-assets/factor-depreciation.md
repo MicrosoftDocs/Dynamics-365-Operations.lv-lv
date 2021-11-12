@@ -1,7 +1,7 @@
 ---
 title: Reizinātāja nolietojums
 description: Šajā rakstā ir sniegts pārskats par koeficienta nolietojuma metodi.
-author: ShylaThompson
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 13831
 ms.assetid: 2b6c4fe4-02ff-4191-bcad-32f1f34c15f2
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fdb35f7b0efaf2f1a5f63eb0dbdf14363f63a389c5449b7fe145a46fd5c14cc2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: aab5ab518f2806e1b27f352e354dc9280fd27def
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746468"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674459"
 ---
 # <a name="factor-depreciation"></a>Reizinātāja nolietojums
 
@@ -28,7 +28,7 @@ ms.locfileid: "6746468"
 
 Šajā rakstā ir sniegts pārskats par koeficienta nolietojuma metodi.
 
-Koeficienti ir procenti, kurus lieto, lai pazeminātu pamatlīdzekļu vērtību. Ja iestatāt pamatlīdzekļa nolietojuma tabulu un lapā **Nolietojuma tabulas** atlasāt lauka **Metode** vērtību **Koeficients**, varat iestatīt progresīvo, regresīvo vai lineāro nolietojumu.
+Koeficienti ir procenti, kurus lieto, lai pazeminātu pamatlīdzekļu vērtību. Ja iestatāt pamatlīdzekļa nolietojuma tabulu un lapā **Nolietojuma profili** atlasāt lauka **Metode** vērtību **Faktors**, varat iestatīt progresīvo, regresīvo vai lineāro nolietojumu.
 
 -   Izmantojot progresīvo nolietojumu, katrā nolietojuma periodā palielinās nolietojuma summa.
 -   Izmantojot regresīvo nolietojumu, katra perioda nolietojuma summa laika gaitā samazinās.

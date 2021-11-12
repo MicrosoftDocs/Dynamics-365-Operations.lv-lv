@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e93aff4914314ea99798415a0bacc7b844169bc2
-ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
-ms.translationtype: HT
+ms.openlocfilehash: 3a0a8555ac7c523af03401ab84af30f577777995
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7384615"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647624"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Instalējiet un savienojiet lietotni Warehouse Management mobile
 
@@ -109,7 +109,7 @@ Papildinformāciju par to, kā iestatīt tīmekļa pakalpojuma lietojumprogramma
     - [Īsa pamācība: lietojumprogrammas reģistrācija platformā Microsoft Identity](/azure/active-directory/develop/quickstart-register-app)
     - [Kā: izmantot portālu, lai izveidotu Azure AD lietojumprogrammu un pakalpojuma vadītāju, kas var piekļūt resursiem](/azure/active-directory/develop/howto-create-service-principal-portal)
 
-## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>Izveidot un konfigurēt lietotāja kontu programmatūrā Supply Chain Management
+## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a><a name="user-azure-ad"></a>Izveidot un konfigurēt lietotāja kontu programmatūrā Supply Chain Management
 
 Lai jūsu Azure AD lietojumprogrammu varētu izmantot Supply Chain Management, rīkojieties šādi.
 
@@ -117,17 +117,24 @@ Lai jūsu Azure AD lietojumprogrammu varētu izmantot Supply Chain Management, r
 
     1. Programmatūrā Supply Chain Management dodieties uz sadaļu **Sistēmas administrēšana \> Lietotāji \> Lietotāji**.
     1. Izveidojiet lietotāju.
-    1. Piešķiriet noliktavas mobilās ierīces lietotāju.
+    1. Piešķiriet *Noliktavas mobilās ierīces lietotāja* lomu lietotājam.
 
     ![Piešķiriet noliktavas mobilās ierīces lietotāju.](media/app-connect-app-users.png "Piešķiriet noliktavas mobilās ierīces lietotāju")
 
 1. Saistiet savu Azure AD lietojumprogrammu ar lietotnes Warehouse Management mobile lietotāju:
 
     1. Dodieties uz **Sistēmas administrēšana \> Iestatījumi \> Azure Active Directory lietojumprogrammas**.
-    1. Izveidojiet rindu.
-    1. Ievadiet klienta ID, kuram veicāt piezīmi iepriekšējā sadaļā, piešķiriet tam nosaukumu un atlasiet tikko izveidoto lietotāju. Ieteicams atzīmēt visas jūsu ierīces. Pēc tam, to nozaudēšanas gadījumā, varēsit viegli liegt to piekļuvi Supply Chain Management, izmantojot šo lapu.
+    1. Lai izveidotu rindu, darbību rūtī atlasiet **Jauns**.
+    1. Laukā **Klienta ID** ievadiet klienta ID, kuru atzīmējāt iepriekšējā sadaļā.
+    1. Laukā **Nosaukums** ievadiet nosaukumu.
+    1. Laukā **Lietotāja ID** atlasiet lietotāja ID, ko tikko izveidojāt.
 
     ![Azure Active Directory lietojumprogrammas.](media/app-connect-aad-apps.png "Azure Active Directory pieteikumi")
+
+> [!TIP]
+> Viens no šo iestatījumu izmantošanas veidiem ir izveidot klienta ID Azure katrai fiziskajai ierīcei un pēc tam pievienot katru klienta ID **Azure Active Directory lietojumprogrammu** lapai. Ja ierīce ir nozaudēta, to var viegli noņemt Supply Chain Management, noņemot no lapas klienta ID. (Šī pieeja darbojas, jo savienojuma akreditācijas dati, kas tiek saglabāti katrā ierīcē, norāda arī klienta ID, kā aprakstīts tālāk šajā tēmā.)
+>
+> Turklāt noklusējuma valodu, numuru formātu un laika joslas iestatījumus katram klienta ID nosaka preferences, kas tiek iestatītas **Lietotāja ID** vērtībai, kas šeit tiek kartēta. Tāpēc jūs varētu izmantot šīs preferences, lai izveidotu noklusējuma iestatījumus katrai ierīcei vai ierīču kolekcijai, balstoties uz klienta ID. Tomēr šie noklusējuma iestatījumi tiks ignorēti, ja tie ir definēti arī *noliktavas programmas lietotāja kontam*, ko darbinieks izmantos, lai pieteiktos ierīcē. (Lai iegūtu papildinformāciju, skatiet sadaļu [Mobilo ierīču lietotāju konti](mobile-device-work-users.md).)
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Autentificēt, izmantojot sertifikātu vai klienta noslēpumu
 

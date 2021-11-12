@@ -2,7 +2,7 @@
 title: Biznesa partneru lietotāju pārvaldīšana B2B e-komercijas tīmekļa vietnēs
 description: Šajā tēmā aprakstīts, kā administratori var pievienot, rediģēt un dzēst biznesa partneru lietotājus bizness-biznesam (B2B) e-komercijas tīmekļa vietnēs.
 author: josaw1
-ms.date: 07/22/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f6cc1d5dfeb48fd00216fc1908e9e8be24f07131b3e5f1eaeefb10396efbebc3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 090dc9af49840e559b4c1ad1500718fde9764aa2
+ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734947"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7713697"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Biznesa partneru lietotāju pārvaldīšana B2B e-komercijas tīmekļa vietnēs
 
@@ -68,6 +68,18 @@ Lai apstiprinātu un iestatītu biznesa partnera administratoru komponentā Comm
 1. Dodieties uz **Mazumtirdzniecības un tirdzniecības IT \> Sadales grafiks** un palaidiet **1010** (**Klienti**) darbu, lai pievienotu jaunizveidoto klientu un klientu hierarhijas ierakstus kanāla datu bāzei.
 
 Pēc pieprasījuma apstiprināšanas, arī klientu un klientu hierarhijas ierakstu sinhronizēšanas ar kanālu datu bāzi, pieprasītājs var pierakstīties B2B e-komercijas tīmekļa vietnē, izmantojot e-pasta adresi, ko tas norādījis, iesniedzot pieprasījumu. Lietotāji var izmantot pierakstīšanās plūsmu, lai definētu sava konta paroli. Lai iespējotu identitātes nodrošinātāja (Azure AD B2C) ierakstu, kas jāsaista ar B2B debitora ierakstu, kas tika izveidots, reģistrējoties vai pierakstoties, izpildiet norādījumus sadaļā [Iespējot automātisku identitātes ierakstu saistīšanu ar debitora kontiem](../identity-record-linking.md).
+
+## <a name="notify-b2b-prospects-when-they-are-approved-or-rejected"></a>Paziņot B2B potenciālajiem klientiem, ja tie tiek apstiprināti vai noraidīti
+
+Apstiprinot vai noraidot B2B potenciālo klientu darba pieprasījumā, varat automātiski nosūtīt e-pasta paziņojumu potenciālajam klientam. 
+
+Lai programmā Commerce Headquarters iestatītu e-pasta paziņojumus par B2B potenciālā klienta apstiprinātajiem notikumiem vai B2B potenciālā klienta noraidīto paziņojumu veidu, veiciet šīs darbības.
+
+1. Izveidojiet e-pasta veidnes e-pasta ziņojumiem, kas tiks nosūtīti potenciālajiem ziņojumiem, ja B2B potenciālais klients ir apstiprināts, vai B2B potenciālā klienta noraidītā paziņojuma veids tiek parādīts.
+
+    Informāciju par vietturiem, ko B2B potenciālais klients apstiprināja un B2B potenciālā klienta noraidīto paziņojumu tipu atbalstu, skatiet [Paziņojumu tipus](../email-templates-transactions.md#notification-types). Papildinformāciju par e-pasta veidņu izveidi skatiet [E-pasta veidnes izveide](../email-templates-transactions.md#create-an-email-template). 
+
+1. Pievienojiet B2B potenciālo klientu apstiprinātos un B2B potenciālo klientu noraidīto paziņojumu tipus savam e-pasta paziņojuma profilam un kartējiet tos uz jūsu izveidotajām e-pasta veidnēm. Informāciju par to, kā iestatīt paziņojumu profilus, skatiet [E-pasta paziņojuma profila iestatīšana](../email-notification-profiles.md). 
 
 ## <a name="onboard-additional-business-partner-users"></a>Papildu biznesa partneru lietotāju pievienošana
 

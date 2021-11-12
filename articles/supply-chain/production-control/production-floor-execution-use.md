@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 63e26004b28f1ff6c760476933e1d524c0b40451
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 72fe7f8a6b05bd7c6fa242ef599e506a1178d913
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569341"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678693"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Kā darbinieki izmanto ražotnes izpildes interfeisu
 
@@ -93,7 +93,6 @@ Cilnei **Mana iekārta** ir šādas kolonnas. Numuri atbilst iepriekšējā att�
 1. **Reģistrēt dīkstāves laiku** – atlasiet šo pogu, lai atvērtu dialoglodziņu, kur reģistrēt iekārtas dīkstāves laiku. Varat atlasīt pamatojuma kodu un ievadīt dīkstāves laika posmu. Iekārtas dīkstāves reģistrācija tiek izmantota iekārtas līdzekļa efektivitātes aprēķināšanai.
 1. **Apskatīt vai rediģēt** – atlasiet šo pogu, lai atvērtu dialoglodziņu, kur var labot vai apskatīt esošos dīkstāves ierakstus.
 
-
 ## <a name="starting-and-completing-production-jobs"></a>Ražošanas darbu sākšana un pabeigšana
 
 Darbinieki sāk ražošanas darbu, atlasot darbu cilnē **Visi darbi** un pēc tam atlasot **Sākt darbu**, lai atvērtu dialoglodziņu **Sākt darbu**.
@@ -109,6 +108,32 @@ Darbinieki var sākt darbu, kam ir jebkurš statuss. Kad darbinieks sāk darbu, 
 Kad darbinieks pabeidz vai daļēji pabeidz darbu, viņš var ziņot par preču daudzumiem, kas tika saražoti, atlasot darbu cilnē **Aktīvie darbi** un pēc tam atlasot **Pārskata norise**. Pēc tam dialoglodziņā **Pārskata norise** darbinieks ievada preču daudzumu, izmantojot ciparu tastatūru. Pēc noklusējuma daudzums ir tukšs. Kad daudzums ir ievadīts, darbinieks var atjaunināt darba statusu uz *Norit*, *Apturēts* vai *Pabeigts*.
 
 ![Dialoglodziņš Ziņot par norisi.](media/pfei-report-progress-dialog.png "Dialoglodziņš Ziņot par norisi")
+
+## <a name="reporting-good-quantities-on-batch-orders-that-have-co-products-and-by-products"></a>Pārskats par preču daudzumiem partijas pasūtījumos, kuros ir līdzprodukti un blakusprodukti
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)] <!--KFM: GA with 10.0.23 -->
+
+Darbinieki var izmantot ražošanas izpildes interfeisu, lai ziņotu par partijas pasūtījumu progresu. Šis pārskats iekļauj pārskatus par līdzproduktiem un blakusproduktiem.
+
+Daži ražotāji, īpaši procesa nozarēs, izmanto pakešveida pasūtījumus, lai pārvaldītu savus ražošanas procesus. Partijas pasūtījumi tiek izveidoti no formulām, un šīs formulas var definēt tā, lai tām līdzprodukti un blakusprodukti būtu izvade. Ziņojot par šo partijas pasūtījumu datiem, formulas krājumam, kā arī līdzproduktiem un blakusproduktiem ir jāreģistrē ražošanas apjoms.
+
+Kad darbinieks pabeidz vai daļēji pabeidz darbu partijas pasūtījumā, viņš var ziņot par preču vai brāķa daudzumu katrai precei, kas ir definēta kā pasūtījuma izvade. Preces, kas definētas kā partijas pasūtījuma izvade, var būt *Formulas*, *Līdzprodukta*, vai *Blakusprodukta* tipa preces.
+
+Lai ziņotu par preču labajiem daudzumiem, darbinieks atlasa darbu cilnē **Aktīvie darbi** un pēc tam atlasa **Pārskata progress**.
+
+Pēc tam dialoglodziņā **Pārskata progress** darbinieks var atlasīt starp precēm, kas definētas kā izvade pakešveida pasūtījumam, par kuru ir pārskats. Darbinieks sarakstā var atlasīt vienu vai vairākas preces un pēc tam atlasīt **Pārskata progress**. Katra produkta daudzums pēc noklusējuma ir tukšs, un darbinieks var izmantot skaitlisko tastatūru, lai ievadītu daudzumu. Lai pārvietotos starp atlasītajām precēm, darbinieks var izmantot pogas **Iepriekšējais** un **Nākamais**. Kad daudzums ir ievadīts katrai precei, darbinieks var atjaunināt darba statusu uz *Norit*, *Apturēts* vai *Pabeigts*.
+
+![Ziņot par līdzproduktiem un blakusproduktiem.](media/report-co-by-products.png "Ziņot par līdzproduktiem un blakusproduktiem")
+
+### <a name="reporting-on-batch-orders-for-planning-items"></a>Pārskats par partijas pasūtījumiem plānošanas krājumiem
+
+Kad darbinieks pabeidz darbu ar pakešuzdevumu plānotai precei, viņi ziņos daudzumu tikai par līdzproduktiem un blakusproduktiem, jo plānošanas krājumiem nav *Formulas* tipa krājuma.
+
+### <a name="reporting-co-product-variation"></a>Ziņot par līdzprodukta variāciju
+
+Ja partijas pasūtījums ir izveidots no formulas versijas, kur **Līdzproduktu variāciju** opcija ir iestatīta uz *Jā*, darbinieks var ziņot par līdzproduktiem, kas nav daļa no partijas pasūtījumu definīcijas. Šī funkcionalitāte tiek izmantota scenārijos, kuros ražošanas procesā var rasties neparedzēta produkta izvade.
+
+Šajā gadījumā darbinieks var norādīt līdzproduktu un daudzumu pārskatam, pārskata norises dialoglodziņā atlasot **Līdzproduktu variācijas**. Pēc tam darbinieks var atlasīt no visām izlaistajām precēm, kas definētas kā līdzprodukti.
 
 ## <a name="reporting-scrap"></a>Ziņošana par brāķi
 

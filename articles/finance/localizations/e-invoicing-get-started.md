@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 3ba0b68ee61b130b8d0304d0bac6d1d720af8139
-ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
+ms.openlocfilehash: d0550228dc77ed255a0033bc3b0a4ec21d48a497
+ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463844"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7700383"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>Darba sākšana ar elektroniskās rēķinu izveidi
 
@@ -84,6 +84,7 @@ Atkarībā no valsts vai reģiona elektronisko rēķinu izrakstīšanas funkcija
 | Norvēģijas elektroniskais rēķins (NO)    | <p>Debitora rēķina konteksta modelis</p><p>Rēķina modelis</p> |
 | Spānijas elektroniskais rēķins (ES)      | <p>Debitora rēķina konteksta modelis</p><p>Rēķina modelis</p> |
 | PEPPOL elektroniskais rēķins            | <p>Debitora rēķina konteksta modelis</p><p>Rēķina modelis</p> |
+| Saūda Arābijas elektroniskais rēķins (SA)| <p>Debitora rēķina konteksta modelis</p><p>Rēķina modelis</p> |
 
 
 ## <a name="configure-the-application-setup"></a>Lietojumprogrammas iestatīšanas konfigurēšana
@@ -112,6 +113,7 @@ Atkarībā no valsts vai reģiona elektronisko rēķinu izrakstīšanas funkcija
     | Norvēģijas elektroniskais rēķins (NO)    | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Debitoru rēķinu žurnāls</p><p>Projekta rēķins</p> |
     | Spānijas elektroniskais rēķins (ES)      | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Debitoru rēķinu žurnāls</p><p>Projekta rēķins</p> |
     | PEPPOL elektroniskais rēķins            | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Debitoru rēķinu žurnāls</p><p>Projekta rēķins</p> |
+    | Saūda Arābijas elektroniskais rēķins (SA)| <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Debitoru rēķinu žurnāls</p><p>Projekta rēķins</p> |
 
 6. Katram izveidotajam tabulas nosaukumam atlasiet un ievadiet konteksta vērtību atbilstoši šai tabulai.
 
@@ -133,6 +135,7 @@ Atkarībā no valsts vai reģiona elektronisko rēķinu izrakstīšanas funkcija
     | Norvēģijas elektroniskais rēķins (NO)    | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Klienta rēķina konteksta modelis — Klienta rēķina konteksts</p><p>Klienta rēķina konteksta modelis — Projekta rēķina konteksts</p> |
     | Spānijas elektroniskais rēķins (ES)      | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Klienta rēķina konteksta modelis — Klienta rēķina konteksts</p><p>Klienta rēķina konteksta modelis — Projekta rēķina konteksts</p> |
     | PEPPOL elektroniskais rēķins            | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Klienta rēķina konteksta modelis — Klienta rēķina konteksts</p><p>Klienta rēķina konteksta modelis — Projekta rēķina konteksts</p> |
+    | Saūda Arābijas elektroniskais rēķins (SA)| <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Klienta rēķina konteksta modelis — Klienta rēķina konteksts</p><p>Klienta rēķina konteksta modelis — Projekta rēķina konteksts</p> |
 
 7. Katram tabulas nosaukumam un kontekstam atlasiet un ievadiet biznesa dokumenta kartējuma vērtību atbilstoši šai tabulai.
 
@@ -154,6 +157,7 @@ Atkarībā no valsts vai reģiona elektronisko rēķinu izrakstīšanas funkcija
     | Norvēģijas elektroniskais rēķins (NO)    | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Rēķina modeļa kartēšana - Klienta rēķins</p><p>Rēķina modeļa kartēšana - Projekta rēķins</p> |
     | Spānijas elektroniskais rēķins (ES)      | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Rēķina modeļa kartēšana - Klienta rēķins</p><p>Rēķina modeļa kartēšana - Projekta rēķins</p> |
     | PEPPOL elektroniskais rēķins            | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Rēķina modeļa kartēšana - Klienta rēķins</p><p>Rēķina modeļa kartēšana - Projekta rēķins</p> |
+    | Saūda Arābijas elektroniskais rēķins (SA)| <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Rēķina modeļa kartēšana - Klienta rēķins</p><p>Rēķina modeļa kartēšana - Projekta rēķins</p> |
 
 
 ## <a name="country-specific-configuration-of-application-setup"></a>Valstij specifiska lietojumprogrammas iestatījumu konfigurācija
@@ -207,6 +211,8 @@ Atkarībā no valsts vai reģiona Programmas iestātījumam var būt nepiecieša
     | Norvēģijas elektroniskais rēķins (NO)                     | Norvēģija          |
     | PEPPOL elektroniskais rēķins                             | Globāls          |
     | Spānijas elektroniskais rēķins (ES)                       | Spānija           |
+    | Saūda Arābijas elektroniskais rēķins (SA)                 | Saūda Arābija    |
+    
 
 4. Atlasiet **Saglabāt**.
 
@@ -242,8 +248,9 @@ Atkarībā no valsts vai reģiona Programmas iestātījumam var būt nepiecieša
 - [Darba sākšana ar elektroniskās rēķinu izveides servisa administrēšanu](e-invoicing-get-started-service-administration.md)
 - [Darba sākšana ar elektronisko rēķinu izveidi lietošanai Brazīlijā](e-invoicing-bra-get-started.md)
 - [Darba sākšana ar elektronisko rēķinu izveidi lietošanai Meksikā](e-invoicing-mex-get-started.md)
-- [Darba sākšana ar elektroniskās rēķinu izveidi lietošanai Itālijā](e-invoicing-ita-get-started.md)
+- [Darba sākšana ar elektronisko rēķinu izveidi lietošanai Itālijā](e-invoicing-ita-get-started.md)
 - [Klientu elektroniskie rēķini Ēģiptē](emea-egy-e-invoices.md)
+- [Klientu elektroniskie rēķini Saūda Arābijā](emea-sau-e-invoices.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

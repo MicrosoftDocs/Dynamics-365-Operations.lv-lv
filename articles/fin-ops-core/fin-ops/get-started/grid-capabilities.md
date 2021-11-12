@@ -2,7 +2,7 @@
 title: Režģa iespējas
 description: Šajā tēmā ir aprakstīti vairāki ietekmīgi režģa kontroles līdzekļi. Lai piekļūtu šīm iespējām, ir jābūt iespējotam jaunajam režģa līdzeklim.
 author: jasongre
-ms.date: 09/08/2021
+ms.date: 10/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,16 +13,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 9aa79e6e61f3a53073dffa5f3030892cc921d246
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
-ms.translationtype: HT
+ms.openlocfilehash: a21a41399b5884fda9cce214f99851ffa93bbc43
+ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483858"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "7700141"
 ---
 # <a name="grid-capabilities"></a>Režģa iespējas
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 
 Jaunā režģa kontrole piedāvā daudzas noderīgas un jaudīgas iespējas, ko var izmantot, lai uzlabotu lietotāju produktivitāti, izveidotu vairāk interesantu jūsu datu skatu un iegūtu izsmeļošu ieskatu datos. Šajā rakstā ir apskatītas tālāk norādītās iespējas 
@@ -32,6 +33,8 @@ Jaunā režģa kontrole piedāvā daudzas noderīgas un jaudīgas iespējas, ko 
 -  Matemātisko izteiksmju novērtēšana 
 -  Tabulas datu grupēšana (iespējota atsevišķi, izmantojot **Grupēšana režģos** līdzekli)
 -  Iesaldēšanas kolonnas
+-  Automātiski ietilpināt kolonnas platumu
+-  Izstiepjamas kolonnas
 
 ## <a name="calculating-totals"></a>Aprēķina kopsummu
 Programmatūrā Finance and Operations lietotājiem ir iespēja redzēt kopsummas režģos ciparu kolonnu lejasdaļā. Šīs kopsummas tiek rādītas kājenes sadaļā režģa apakšdaļā. 
@@ -43,7 +46,7 @@ Katra Finance and Operations programmas tabulārā režģa apakšējā daļā ir
 - Kopsummas, kas atrodas konfigurēto skaitlisko kolonnu lejasdaļā
 - Datu kopā ietverto rindu skaits 
 
-Šī kājene pēc noklusējuma ir paslēpta, bet to var viegli ieslēgt. Lai parādītu režģa kājeni, noklikšķiniet ar peles labo pogu režģī uz kolonnas galvenes un atlasiet opciju **Rādīt kājeni**. Pēc tam, kad būsiet ieslēdzis kājeni noteiktam režģim, šis iestatījums atgādinās par sevi, līdz lietotājs izvēlēsies slēpt kājeni. Lai slēptu kājeni, ar peles labo pogu noklikšķiniet uz kolonnas galvenes un atlasiet **Slēpt kājeni**.  (Turpmākā atjauninājumā plānots pārvietot darbības **Rādīt kājeni/paslēpt kājeni** novietojumu.) 
+Šī kājene pēc noklusējuma ir paslēpta, bet to var viegli ieslēgt. Lai parādītu režģa kājeni, atlasiet pogu **Režģa opcijas** režģa galvenē, tad atlasiet opciju **Rādīt kājeni**. Pēc tam, kad būsiet ieslēdzis kājeni noteiktam režģim, šis iestatījums atgādinās par sevi, līdz lietotājs izvēlēsies slēpt kājeni. Lai slēptu kājeni, atlasiet **Slēpt kājeni** **Režģa opciju** izvēlnē.  
 
 ### <a name="specifying-columns-with-totals"></a>Kolonnu ar kopsummām norādīšana
 Pašlaik neviena kolonna pēc noklusējuma nerāda kopsummas. Tā tiek uzskatīta par vienreizējas iestatīšanas darbību, kas ir līdzīga kolonnu platumu pielāgošanai režģos. Kad esat norādījis, ka vēlaties redzēt kolonnas kopsummas, šis iestatījums tiek saglabāts nākamajai reizei, kad apmeklēsiet lapu.  
@@ -82,7 +85,7 @@ Lai atbalstītu šo jauno uzvedību, rindas statusam ir pievienota jauna kolonna
 Kad lietotāji ievada datus pirms servera apstrādes vietas, tie var sagaidīt dažas datu ievades pieredzes pasliktinājumus, piemēram, informācijas trūkumu, kontroles līmeņa pārbaudi un noklusējuma vērtību ievadi. Lietotāji, kuriem nepieciešams nolaižamais saraksts, lai atrastu vērtību, tiek mudināti sagaidīt, kad serveris nokļūs pašreizējā rindā. Kontroles līmeņa validācija un noklusēto vērtību ievade arī notiks, kad serveris apstrādā šo rindu.   
 
 ### <a name="pasting-from-excel"></a>Ielīmēšana no Excel
-Lietotāji vienmēr ir spējuši eksportēt datus no režģiem Finance and Operations programmās uz Excel, izmantojot **Eksportēt uz Excel** mehānismu. Tomēr spēja ievadīt datus pirms sistēmas iespējo jauno režģi, lai atbalstītu tabulu kopēšanu no Excel un ielīmētu tās tieši režģos Finance and Operations lietojumprogrammās. Režģa šūna, no kuras tiek sākta ielīmēšanas darbība, nosaka, kur kopēto tabulu sāk ielīmēt. Režģa saturs tiek pārrakstīts ar kopētās tabulas saturu, izņemot divos gadījumos:
+Lietotāji vienmēr ir spējuši eksportēt datus no režģiem Finance and Operations programmās uz Microsoft Excel, izmantojot **Eksportēt uz Excel** mehānismu. Tomēr spēja ievadīt datus pirms sistēmas iespējo jauno režģi, lai atbalstītu tabulu kopēšanu no Excel un ielīmētu tās tieši režģos Finance and Operations lietojumprogrammās. Režģa šūna, no kuras tiek sākta ielīmēšanas darbība, nosaka, kur kopēto tabulu sāk ielīmēt. Režģa saturs tiek pārrakstīts ar kopētās tabulas saturu, izņemot divos gadījumos:
 
 - Ja kolonnu skaits kopētajā tabulā pārsniedz kolonnu skaitu, kas paliek režģī, sākot no ielīmēšanas vietas, lietotājam tiek paziņots, ka papildu kolonnas ir ignorētas. 
 - Ja rindu skaits kopētajā tabulā pārsniedz rindu skaitu režģī, sākot no ielīmēšanas vietas, esošās šūnas tiek pārrakstītas ar ielīmēto saturu, un visas papildu rindas no kopētās tabulas tiek iespraustas kā jaunas rindas režģa apakšā. 
@@ -125,6 +128,9 @@ Lai kolonnu iesaldētu, ar peles labo pogu noklikšķiniet kolonnas virsrakstā 
 Lai kolonnu atsaldētu, ar peles labo pogu noklikšķiniet kolonnas virsrakstā un pēc tam atlasiet **Atsaldēt kolonnu**. 
 
 Ievērojiet, ka rindu atlase un rindu statusa kolonnas jaunajā režģī vienmēr tiek iesaldētas kā pirmās divas kolonnas. Tādējādi, kad šīs kolonnas ir iekļautas režģī, tās vienmēr būs redzamas lietotājam neatkarīgi no horizontālās ritināšanas pozīcijas režģī. Šīs divas kolonnas nevar pārkārtot.
+
+## <a name="autofit-column-width"></a>Automātiski ietilpināt kolonnas platumu
+Līdzīgi kā programma Excel, lietotāji var automātiski piestāt kolonnas izmēru, ņemot vērā šajā kolonnā pašlaik rādīto saturu. Lai to izdarītu, veiciet dubultklikšķi uz izmēru maiņas turi kolonnā vai, ievietojot fokusu kolonnas virsrakstā un nospiežot **A** (automātiskajai ietilpināšanai). Šī iespēja ir pieejama no versijas 10.0.23.  
 
 ## <a name="frequently-asked-questions"></a>Bieži uzdotie jautājumi
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Kā iespējot jauno režģa kontroli manā vidē? 

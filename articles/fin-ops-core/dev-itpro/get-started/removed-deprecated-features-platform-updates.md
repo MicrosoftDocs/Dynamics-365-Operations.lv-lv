@@ -2,7 +2,7 @@
 title: Noņemtie vai novecojušie platformas līdzekļi
 description: Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt no Finance and Operations programmu platformu atjauninājumiem.
 author: sericks007
-ms.date: 09/27/2021
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 956ead503d426bb6cdfd136957c7f9dfa157bc08
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
-ms.translationtype: HT
+ms.openlocfilehash: 0065f5c101237de49ae362ecd3378ec5046dbf4b
+ms.sourcegitcommit: c4500b626667185643b3a2e7fc3a004d42198d07
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595149"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7725053"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Noņemtie vai novecojušie platformas līdzekļi
 
@@ -31,6 +31,64 @@ ms.locfileid: "7595149"
 Šis saraksts ir izveidots, lai jūs savā plānošanā varētu ņemt vērā, kuri līdzekļi tiek noņemti un kļūst novecojuši. 
 
 Detalizēta informācija par Finance and Operations programmu objektiem ir pieejama tēmā [Tehniskās atsauces pārskati](/dynamics/s-e/global/axtechrefrep_61). Varat salīdzināt dažādās šo pārskatu versijas, lai noskaidrotu, kuri objekti ir mainīti vai noņemti katrā Finance and Operations programmu versijā.
+
+## <a name="feature-removal-effective-october-2021"></a>Līdzekļu noņemšana, kas ir spēkā no 2021. gada oktobra
+
+### <a name="microsoft-azure-sql-reports-in-lifecycle-services-lcs"></a>Microsoft Azure SQL pārskati Lifecycle Services (LCS)
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Visas darbības un pārraudzību veic platforma, iekšēji un izmantojot automatizāciju. Nebūs nepieciešama manuāla iejaukšanās.|
+| **Vai ir aizstāts ar citu līdzekli?**   | Jā, tagad ir automatizēta sistēma, kas atveido šīs iespējas novecojušas. |
+| **Ietekmētie produkta apgabali**         | SQL pārskati: Pašreizējais DTU, Pašreizējās DTU detaļas, Iegūt detalizētu informāciju par bloķēšanu, Pašreizējā plāna palīglīniju saraksts, Iegūt vaicājuma ID sarakstu, Iegūt SQL vaicājumu plānu pašreizējam plāna ID, Iegūt vaicājuma plānus un izpildes statusu, Iegūt droseles configurāciju, Iegūt gaidīšanas statistiku, Uzskaitīt dārgākus vaicājumus |
+| **Izvietošanas iespēja**              | Mākoņa izvietošana: ietekmē Microsoft pārvaldītas ražošanas vides un 2. pakāpes, izmantojot 5. pakāpes tekstlodziņa vides. |
+| **Statuss**                         | Noņemts |
+
+### <a name="azure-sql-actions-in-lcs"></a>Azure SQL darbības LCS
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Mēs nolietojam dažus SQL darbības LCS. Visas darbības un pārraudzību veic platforma, iekšēji un izmantojot automatizāciju. Nebūs nepieciešama manuāla iejaukšanās. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Jā, tagad ir automatizēta sistēma, kas atveido šīs iespējas novecojušas. |
+| **Ietekmētie produkta apgabali**         | SQL darbības: Izveidot plāna palīglīniju, lai spēkā būtu plāna ID, Izveidot plāna palīglīniju, lai pievienotu tabulas norādes, Noņemt plāna palīglīniju, Atspējot/iespējot lapas bloķēšanu un bloķēšanas eskalāciju, Atjaunināt statistiku tabulā, Atjaunot indeksu, Izveidot indeksu |
+| **Izvietošanas iespēja**              | Mākoņa izvietošana: ietekmē Microsoft pārvaldītas ražošanas vides un 2. pakāpes, izmantojot 5. pakāpes tekstlodziņa vides. |
+| **Statuss**                         | Noņemts |
+
+
+## <a name="feature-deprecation-effective-october-2021"></a>Līdzekļu nolietošana, kas ir spēkā no 2021. gada oktobra
+
+### <a name="show-related-document-attachments-feature"></a>Līdzeklis "Rādīt saistīto dokumentu pielikumus"
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Funkcija atgrieza neparedzētus rezultātus. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Nē. Visi turpmākie plāni saistībā ar šo funkcionalitāti tiks sasniegti, izmantojot mūsu standarta izlaišanas kopuma izpaušanas procesu. |
+| **Ietekmētie produkta apgabali**         | Tīmekļa klients - dokumenta pielikumu pieredze |
+| **Izvietošanas iespēja**              | Visi |
+| **Statuss**                         | Novecojis  |
+
+## <a name="platform-updates-for-version-10023-of-finance-and-operations-apps"></a>Platformas atjauninājumi Finance and Operations programmu 10.0.23 versijai
+
+### <a name="ondbsynchronize-event"></a>OnDBSynchronize notikums
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Nav vadīklas, ko izmantot šī notikuma izpildei. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Jā, pārvietojiet esošās metodes, abonēta **OnDBSynchronzie** notikums uz SysSetup paplašināto klasi. |
+| **Ietekmētie produkta apgabali**         | Datu bāzes sinhronizēšana |
+| **Izvietošanas iespēja**              | Visi |
+| **Statuss**                         | Novecojis. Plānotais noņemšanas datums ir 2022. gada oktobris. |
+
+
+### <a name="systemnotificationsmanageraddnotification-api"></a>SystemNotificationsManager.AddNotification API
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Pievienojot paziņojumus, Microsoft pieprasa papildu parametrus. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Jā, **SystemNotificationsManager.AddSystemNotification()** API. Šim API ir nepieciešams, lai ģenerētajiem paziņojumiem skaidri iestatītu ExpirationDateTime un RuleID. |
+| **Ietekmētie produkta apgabali**         | Tīmekļa klients |
+| **Izvietošanas iespēja**              | Visi |
+| **Statuss**                         | Novecojis. Plānotais noņemšanas datums ir 2023. gada aprīlis. |
 
 ## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Platformas atjauninājumi Finance and Operations programmu 10.0.21 versijai
 
@@ -54,7 +112,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 | **Vai ir aizstāts ar citu līdzekli?**   | Jā, tagad ir automatizēta sistēma, kas atveido šīs iespējas novecojušas. |
 | **Ietekmētie produkta apgabali**         | SQL pārskati: Pašreizējais DTU, Pašreizējās DTU detaļas, Iegūt detalizētu informāciju par bloķēšanu, Pašreizējā plāna palīglīniju saraksts, Iegūt vaicājuma ID sarakstu, Iegūt SQL vaicājumu plānu pašreizējam plāna ID, Iegūt vaicājuma plānus un izpildes statusu, Iegūt droseles configurāciju, Iegūt gaidīšanas statistiku, Uzskaitīt dārgākus vaicājumus |
 | **Izvietošanas iespēja**              | Mākoņa izvietošana: ietekmē Microsoft pārvaldītas ražošanas vides un 2. pakāpes, izmantojot 5. pakāpes tekstlodziņa vides. |
-| **Statuss**                         | Novecojis: plānotais noņemšanas datums 2021. gada oktobris. |
+| **Statuss**                         | Novecojis: plānotais noņemšanas datums ir 2021. gada oktobris. |
 
 ### <a name="azure-sql-actions-in-lcs"></a>Azure SQL darbības LCS
 
@@ -64,7 +122,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 | **Vai ir aizstāts ar citu līdzekli?**   | Jā, tagad ir automatizēta sistēma, kas atveido šīs iespējas novecojušas. |
 | **Ietekmētie produkta apgabali**         | SQL darbības: Izveidot plāna palīglīniju, lai spēkā būtu plāna ID, Izveidot plāna palīglīniju, lai pievienotu tabulas norādes, Noņemt plāna palīglīniju, Atspējot/iespējot lapas bloķēšanu un bloķēšanas eskalāciju, Atjaunināt statistiku tabulā, Atjaunot indeksu, Izveidot indeksu |
 | **Izvietošanas iespēja**              | Mākoņa izvietošana: ietekmē Microsoft pārvaldītas ražošanas vides un 2. pakāpes, izmantojot 5. pakāpes tekstlodziņa vides. |
-| **Statuss**                         | Novecojis: plānotais noņemšanas datums 2021. gada oktobris. |
+| **Statuss**                         | Novecojis: plānotais noņemšanas datums ir 2021. gada oktobris. |
 
 ## <a name="feature-deprecation-effective-may-2021"></a>Līdzekļu nolietošana, kas ir spēkā no 2021. gada maijs
 
@@ -76,7 +134,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 | **Vai ir aizstāts ar citu līdzekli?**   | Jā, šis līdzeklis tiek aizstāts ar LCS [izsniegšanas meklēšanu](../lifecycle-services/issue-search-lcs.md) un [Dynamics uzraudzības brīdinājuma iesniegšanas pakalpojumu](../lcs-solutions/submit-localization-alerts.md). |
 | **Ietekmētie produkta apgabali**         | Globalizācijas portāls programmā LCS|
 | **Izvietošanas iespēja**              | Mākoņa izvietošana |
-| **Statuss**                         | Novecojis: plānotais noņemšanas datums 2022. gada maijā. |
+| **Statuss**                         | Novecojis: plānotais noņemšanas datums ir 2022. gada maijs. |
 
 
 ## <a name="feature-removed-effective-january-28-2021"></a>Līdzeklis noņemts 2021. gada 28. janvārī

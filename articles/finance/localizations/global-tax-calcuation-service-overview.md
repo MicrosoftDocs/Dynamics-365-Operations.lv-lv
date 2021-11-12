@@ -2,7 +2,7 @@
 title: Nodokļu aprēķina pārskats
 description: Šajā tēmā ir izskaidrots nodokļu aprēķina iespēju vispārējais tvērums un iezīmes.
 author: wangchen
-ms.date: 08/17/2021
+ms.date: 10/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 72895cc18368ebf38818f30510cec999391c7910
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
-ms.translationtype: HT
+ms.openlocfilehash: caa7e458763b6ba6b2b85ab016a1aa2e53cee89a
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394590"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647061"
 ---
 # <a name="tax-calculation-overview"></a>Nodokļu aprēķina pārskats
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Nodokļu aprēķins ir hipermērogojams daudznomnieku pakalpojums, kas ļauj Global Tax Engine automatizēt un vienkāršot nodokļu noteikšanas un aprēķināšanas procesu. Nodokļu programma ir pilnībā konfigurējama. Elementi, kurus var konfigurēt, ietver, bet ne tikai, apliekamo datu modeli, nodokļu kodu, nodokļu piemērošanas matricu un nodokļu aprēķina formulu. Nodokļu programma darbojas pamata pakalpojumu platformā un piedāvā modernu tehnoloģiju un Microsoft Azure eksponenciālu mērogošanu.
 
@@ -120,6 +118,10 @@ Versijā 10.0.21 tiek atbalstītas tālāk norādītās transakcijas.
     - Pārvietošanas pasūtījums – nosūtīšana
     - Pārsūtīšanas pasūtījums – saņemšana
 
+Versijā 10.0.23 tiek atbalstītas tālāk norādītās transakcijas. 
+
+- Brīva teksta rēķins
+
 ## <a name="supported-countriesregions"></a>Atbalstītās valstis/reģioni
 
 Nodokļu aprēķinu var iespējot pēc juridiskās personas. 
@@ -145,6 +147,28 @@ Versijā 10.0.21 tiek atbalstīti tālāk norādītās juridiskās personas prim
 - Šveice
 - Apvienotā Karaliste
 - ASV
+
+Versijā 10.0.22 tiek atbalstīti tālāk norādītās juridiskās personas primārās adreses valstis/reģioni.
+
+- Austrālija
+- Bahreina
+- Kanāda
+- Ēģipte
+- ĶTR īpašais administratīvais reģions Honkonga
+- Kuveita
+- Jaunzēlande
+- Omāna
+- Katara
+- Saūda Arābija
+- Dienvidāfrika
+- Apvienotie Arābu Emirāti
+
+Versijā 10.0.23 tiek atbalstīti tālāk norādītās juridiskās personas primārās adreses valstis/reģioni.
+
+- Taizeme
+- Japāna
+- Malaizija
+- Singapūra
 
 ## <a name="related-resources"></a>Saistītie resursi
 

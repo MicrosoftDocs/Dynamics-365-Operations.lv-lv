@@ -10,18 +10,31 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ac3ea6a088b2086054eb692cd0688b269dafca51
-ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
-ms.translationtype: HT
+ms.openlocfilehash: 6ab5f6887cb60d3d0434b59cda82b44eca272d7e
+ms.sourcegitcommit: 60ade60f72fd0fa0683f7a3eaf93439d10cf3373
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "7485626"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7655389"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Kas jauns vai mainīts mobilajā programmā Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir uzskaitīti jaunie līdzekļi, labojumi, uzlabojumi un zināmas problēmas katrai Microsoft Dynamics 365 Supply Chain Management Warehouse Management mobilās programmas izlaistajai versijai.
+
+## <a name="version-20110"></a>Versija 2.0.11.0
+
+Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
+
+- Pievienots atbalsts veicinātajiem laukiem.
+- Pievienots atbalsts aparatūras tastatūras navigācijai.
+- Uzlabota pieejamība.
+- Uzlabotas detalizētās informācijas kartes.
+- Uzlabota novirzēšana izvēlnes elementu darbībām.
+- Nelieli lietotāja interfeisa uzlabojumi.
+- Novērsta problēma, kas var izraisīt programmas avāriju, skenējot svītrkodus.
+- Ir fiksētas dažādas problēmas, kuru dēļ sistēma varēja nereaģēt.
 
 ## <a name="version-20100"></a>Versija 2.0.10.0
 
@@ -43,7 +56,7 @@ ms.locfileid: "7485626"
 
 Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
 
-- Pievienots atbalsts darbību [norādījumu ](mobile-app-titles-instructions.md)līdzeklim, kas ieviests Supply Chain Management versijā 10.0.21.
+- Pievienots atbalsts darbību [norādījumu](mobile-app-titles-instructions.md) līdzeklim, kas ieviests Supply Chain Management versijā 10.0.21.
 - Pievienotas atgādinājumu pamācības, lai parādītu lietotājus, ka viņi var aizvērt pārklājumus, nometot uz leju.
 - Pievienots darbību sarakstu un izvēlņu funkciju taustiņu atbalsts. Lietotāji var uz trim sekundēm aizturēt jebkuru funkcijas taustiņu, lai iegūtu pieejamo komandu sarakstu.
 - Fiksētā problēma, kas izraisīja tālāk norādītā kļūdas ziņojuma rādīšanu dažās ierīcēs: "Nevar atrast norādītajam izmēram piemērotu skatu."

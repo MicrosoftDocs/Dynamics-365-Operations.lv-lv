@@ -2,7 +2,7 @@
 title: Elektroniskās pārskatu veidošanas (ER) adresāti
 description: Šajā tēmā ir sniegta informācija par elektronisko pārskatu (ER) adresātiem, atbalstīto galamērķu tipiem un drošības apsvērumiem.
 author: nselin
-ms.date: 05/19/2021
+ms.date: 09/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: df617ad476d8210c658f60569656292df22670df44cc094bf0d61b4ee6a19775
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: e8e176b8d4e14eee2050b3c66f7547ff878b5174
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743315"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647097"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektroniskās pārskatu veidošanas (ER) adresāti
 
@@ -164,12 +164,12 @@ Lai PDF pārveides opciju padarītu pieejamu pašreizējā Finance instancē, at
 
 ### <a name="applicability"></a>Piemērojamība
 
-PDF pārveides opciju var ieslēgt tikai tiem failu komponentiem, kas tiek izmantoti, lai ģenerētu izvadi programmā Office (Excel vai Word) formātā (**Excel fails**). Kad šī opcija ir ieslēgta, izvade, kas tiek ģenerēta Office formātā, tiek automātiski pārveidota PDF formātā. Programmas Finance versijās **pirms versijas 10.0.18** šo opciju var ieslēgt tikai **Excel\\faila** tipa komponentiem, kas tiek izmantoti, lai ģenerētu izvadi [Excel](er-fillable-excel.md) vai [Word](er-design-configuration-word.md) formātā. Taču versijā **10.0.18 un jaunākā versijā** šo opciju var ieslēgt arī **kopējā\\failu** tipa komponentiem.
+Programmas Finance versijās **pirms versijas 10.0.18** šo opciju var ieslēgt tikai **Excel\\Faila** tipa komponentiem, kas tiek izmantoti, lai ģenerētu izvadi Office Excel vai Word formātā. Kad šī opcija ir ieslēgta, izvade, kas tiek ģenerēta Office formātā, tiek automātiski pārveidota PDF formātā. Taču versijā **10.0.18 un jaunākā versijā** šo opciju var ieslēgt arī **kopējā\\failu** tipa komponentiem.
 
 > [!NOTE]
 > Jāpievērš uzmanība brīdinājuma ziņojumam, ko saņemat, ieslēdzot PDF pārveides opciju **kopējā\\failu** tipa ER komponentam. Šis ziņojums informē, ka izstrādes laikā nav veida, kā nodrošināt, lai atlasītais faila komponents izpildlaikā atklāj saturu PDF formātā vai PDF konvertējamu saturu. Tāpēc opciju vajadzētu ieslēgt tikai tad, ja esat pārliecināts, ka atlasītais faila komponents ir konfigurēts, lai izpildlaikā rādītu saturu PDF formātā vai PDF konvertējamu saturu.
 > 
-> Ja **Excel\\faila** tipam ieslēdzat PDF pārveides opciju, ja šis komponents atklāj saturu formātā, kas nav PDF, un ja atklāto saturu nevar pārvērst PDF formātā, izpildlaikā parādās izņēmums. Saņemtais ziņojums informē, ka ģenerēto saturu nevar pārveidot PDF formātā.
+> Ja formāta komponentam ieslēdzat PDF pārveides opciju, ja šis komponents atklāj saturu formātā, kas nav PDF, un ja atklāto saturu nevar pārvērst PDF formātā, izpildlaikā parādās izņēmums. Saņemtais ziņojums informē, ka ģenerēto saturu nevar pārveidot PDF formātā.
 
 ### <a name="limitations"></a>Ierobežojumi
 
@@ -189,16 +189,26 @@ Lai ieslēgtu faila galamērķa pārveidi PDF formātā, atzīmējiet izvēles r
 
 ### <a name=""></a><a name="SelectPdfPageOrientation">Lappuses orientācijas atlasīšana konvertēšanai PDF formātā</a>
 
-Ja Excel formātā ģenerējat ER konfigurāciju un vēlaties to konvertēt PDF formātā varat norādīt PDF faila lappuses orientāciju. Ja atzīmējat izvēles rūtiņu **Konvertēt PDF formātā**, lai ieslēgtu PDF konvertēšanu faila galamērķim, kas ģenerē izvades failu Excel formātā, lauks **Lappuses orientācija** kļūst pieejams kopsavilkuma cilnē **PDF konvertēšanas iestatījumi**. Laukā **Lapas orientācija** var atlasīt vēlamo lapas orientāciju.
+Ja Excel formātā ģenerējat ER konfigurāciju un vēlaties to konvertēt PDF formātā, varat norādīt PDF faila lappuses orientāciju. Ja atzīmējat izvēles rūtiņu **Konvertēt PDF formātā**, lai ieslēgtu PDF konvertēšanu faila galamērķim, kas ģenerē izvades failu Excel formātā, lauks **Lappuses orientācija** kļūst pieejams kopsavilkuma cilnē **PDF konvertēšanas iestatījumi**. Laukā **Lapas orientācija** var atlasīt vēlamo lapas orientāciju.
 
 [![Lappuses orientācijas atlasīšana konvertēšanai PDF formātā.](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
 
-> [!NOTE]
-> Lai būtu iespēja atlasīt PDF lappuses orientāciju, ir jāinstalē Finance 10.0.10 vai jaunāka versija.
->
-> Atlasītā lappuses orientācija tiek lietota visām ER konfigurācijām, kas tiek ģenerētas Excel formātā un pēc tam konvertētas PDF formātā.
->
-> Ja konvertētais PDF tiek izveidots no ER konfigurācijas programmas Word formātā, PDF lappuses orientācija tiek ņemta no Word dokumenta.
+Lai būtu iespēja atlasīt PDF lappuses orientāciju, ir jāinstalē Finance 10.0.10 vai jaunāka versija. Finanšu versijās **pirms versijas 10.0.23** opcija piedāvā šādas lapas orientācijas opcijas:
+
+- Portretorientācija
+- Ainavorientācija
+
+Atlasītā lappuses orientācija tiek lietota visām izejošā dokumenta konfigurācijām, kas tiek ģenerētas Excel formātā un pēc tam konvertētas PDF formātā.
+
+Taču **versijā 10.0.23 un jaunākās** lapas orientācijas opciju saraksts ir paplašināts šādi:
+
+- Portretorientācija
+- Ainavorientācija
+- Konkrēta darblapa
+
+Atlasot opciju **Darblapai**, katra ģenerētās Excel darbgrāmatas darblapa tiek konvertēta uz PDF, izmantojot lapas orientāciju, kas ir konfigurēta šai darblapai izmantotajā Excel veidnē. Tātad, iespējams, jums ir gala PDF dokuments, kurā ir portretorientācijas un ainavorientācijas lapas. 
+
+Ja konvertētais PDF tiek izveidots no ER konfigurācijas programmas Word formātā, PDF lappuses orientācija vienmēr tiek ņemta no Word dokumenta.
 
 ## <a name="output-unfolding"></a>Izvades izvēršana
 

@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d77e1f3b5f8d558643b078dbe8e829e62f85120e4931d60224116a33f171fab3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: c630580dd75a86085746b36726e9ee55a9db2af5
+ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721011"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7713752"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>B2B e-komercijas vietnes iestatīšana
 
@@ -37,7 +37,7 @@ Uzņēmums-uzņēmums (B2B) e-komercijas vietnes nodrošina dažas galvenās ies
 
 Jūs varat piekļūt vietnes līmeņa iestatījumiem vietnes veidotājā, **Vietnes iestatījumi \> Paplašinājumi**. Nākamie divi vietnes līmeņa iestatījumi attiecas uz B2B scenārijiem:
 
-- **Iespējot debitora konta maksājumus** – šis rekvizīts ļauj lietotājiem maksāt par pasūtījumiem, izmantojot debitora kontus. Pieejamās vērtības ir **Iespējots B2B debitoriem**, **Iespējots B2C debitoriem**, **Iespējots visiem debitoriem** un **Atspējots visiem debitoriem**. Ja jūsu B2B vietne atbalsta debitoru kontus, jums jāatlasa **Iespējots B2C debitoriem**.
+- **Iespējot debitora konta maksājumus** – šis rekvizīts ļauj lietotājiem maksāt par pasūtījumiem, izmantojot debitora kontus. Pieejamās vērtības ir **Iespējots B2B debitoriem**, **Iespējots B2C debitoriem**, **Iespējots visiem debitoriem** un **Atspējots visiem debitoriem**. Ja jūsu B2B vietne atbalsta debitoru kontus, jums jāatlasa **Iespējots B2B debitoriem**.
 - **Iespējot pasūtījuma daudzuma ierobežojumus** – šis rekvizīts ļauj iestatīt krājumu skaita ierobežojumus, ko var pasūtīt katrai precei vai kategorijai. Pieejamās vērtības ir **Iespējots B2B debitoriem**, **Iespējots B2C debitoriem**, **Iespējots visiem debitoriem** un **Atspējots visiem debitoriem**.
 
 > [!NOTE]

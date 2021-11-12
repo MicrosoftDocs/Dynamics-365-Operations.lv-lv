@@ -1,7 +1,7 @@
 ---
-title: Nolietojuma grāmatas jaunināšanas apskats
-description: Iepriekšējos laidienos pamatlīdzekļiem pastāvēja divi vērtēšanas jēdzieni — vērtības modeļi un nolietojuma grāmatas.
-author: ShylaThompson
+title: Nolietojuma grāmatas jaunināšanas pārskats
+description: Šajā tēmā aprakstīta pašreizējā pamatlīdzekļu grāmatas funkcionalitāte. Šī funkcionalitāte ir balstīta uz iepriekšējās vērtības modeļa funkcionalitāti, bet ietver arī visas funkcionalitātes, kas iepriekš tika nodrošinātas tikai nolietojuma grāmatām.
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,25 +13,25 @@ ms.custom:
 - intro-internal
 ms.assetid: cf434099-36f9-4b0f-a7c8-bed091e34f39
 ms.search.region: global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b1d14154cd2e9bd18a886ba490891a02afeb0b05
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
-ms.translationtype: HT
+ms.openlocfilehash: c36e0ab53f8a10e81e1bed207417861066dd6917
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344718"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675156"
 ---
-# <a name="depreciation-book-upgrade-overview"></a>Nolietojuma grāmatas jaunināšanas apskats
+# <a name="depreciation-book-upgrade-overview"></a>Nolietojuma grāmatas jaunināšanas pārskats
 
 [!include [banner](../includes/banner.md)]
 
-Iepriekšējos laidienos pamatlīdzekļiem pastāvēja divi vērtēšanas jēdzieni — vērtības modeļi un nolietojuma grāmatas. Programmā Microsoft Dynamics 365 for Operations (1611) vērtības modeļa funkcionalitāte un nolietojuma grāmatas funkcionalitāte ir apvienotas vienā jēdzienā, kas tiek saukts par grāmatu. Šajā tēmā ir norādīts uz dažiem faktoriem, kas ir jāņem vērā, veicot jaunināšanu. 
+Šajā tēmā aprakstīta pašreizējā pamatlīdzekļu grāmatas funkcionalitāte. Šī funkcionalitāte ir balstīta uz iepriekšējās vērtības modeļa funkcionalitāti, bet ietver arī visas funkcionalitātes, kas iepriekš tika nodrošinātas tikai nolietojuma grāmatām. Vērtības modeļa funkcionalitāte un nolietojuma grāmatas funkcionalitāte ir apvienotas vienā jēdzienā, kas tiek saukts par grāmatu. Grāmatas funkcionalitāte ļauj jums izmantot vienu lapu, pieprasījumu un pārskatu kopu visiem jūsu organizācijas pamatlīdzekļu procesiem. Šajā tēmā ir sniegtas dažas lietas, kas jāņem vērā pirms jaunināšanas. 
 
-Jaunināšanas process jūsu esošos iestatījumus un visas pastāvošās transakcijas pārvietos uz jaunās grāmatas struktūru. Vērtību modeļi saglabāsies pašreizējā stāvokli, kā grāmata, kas grāmato Virsgrāmatā. Nolietojuma grāmatas tiks pārvietotas uz grāmatu, kurai opcija **Grāmatot virsgrāmatā** ir iestatīta uz **Nē**. Nolietojuma grāmatas žurnāla nosaukumi tiks pārvietoti uz virsgrāmatas žurnāla nosaukumu, kura grāmatošanas slānis ir iestatīts uz **Nav**. Nolietojuma grāmatas transakcijas tiks pārvietotas uz pamatlīdzekļu transakcijām. 
+Jaunināšanas process jūsu esošos iestatījumus un visas pastāvošās transakcijas pārvietos uz jaunās grāmatas struktūru. Vērtību modeļi saglabāsies pašreizējā stāvokli, kā grāmata, kas grāmato Virsgrāmatā. Nolietojuma grāmatas tiks pārvietotas uz grāmatu, kurai opcija Grāmatot virsgrāmatā ir iestatīta uz Nē. Nolietojuma grāmatas žurnāla nosaukumi tiks pārvietoti uz virsgrāmatas žurnāla nosaukumu, kura grāmatošanas slānis ir iestatīts uz Nav. Nolietojuma grāmatas transakcijas tiks pārvietotas uz pamatlīdzekļu transakcijām.
 
-Pirms palaižat datu jaunināšanu, jums ir jāsaprot abas opcijas, kas ir pieejamas nolietojuma grāmatas žurnālu rindu jaunināšanai uz transakciju dokumentiem, un numuru sēriju, kas tiks izmantota dokumentu sērijai. 
+Pirms palaižat datu jaunināšanu, jums ir jāsaprot abas opcijas, kas ir pieejamas nolietojuma grāmatas žurnālu rindu jaunināšanai uz transakciju dokumentiem, un numuru sēriju, kas tiks izmantota dokumentu sērijai.
 
 1. opcija:  **Sistēmas definēta numuru sērija** — šī ir noklusējuma opcija jauninājuma veiktspējas optimizēšanai. Jauninājums neizmantos numuru sēriju struktūru, bet tās vietā dokumentiem izmantos no kopas atkarīgu pieeju. Pēc jaunināšanas tiks veidota jaunā numuru sērija, kuras **Nākamā skaitļu kopa** attiecīgi būs pamatota uz jauninātajām transakcijām. Pēc noklusējuma izmantotā numuru sērija būs formātā FADBUpgr\#\#\#\#\#\#\#\#\#. Kad izmantojot šo pieeju, formāta pielāgošanai jums ir pieejami vairāki tālāk aprakstītie parametri.
 

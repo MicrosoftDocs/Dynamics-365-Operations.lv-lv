@@ -15,17 +15,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2021-08-12
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 3134e10c096525ec2d82365a25eff16a3c5d5e11
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
-ms.translationtype: HT
+ms.openlocfilehash: 35d78cdcc356d35776940147e9b0afee0f0be2a2
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472645"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674727"
 ---
 # <a name="countryregion-picker-module"></a>Valsts / reģiona atlasītāja modulis
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Šajā tēmā aprakstīts valsts/reģiona atlasītāja modelis un tā konfigurēšana Microsoft Dynamics 365 Commerce.
 
@@ -35,13 +34,13 @@ Piemēram, klients Kanādā pieprasa vietnes URL, kas nav saistīts ar Kanādu. 
 
 ![Valsts / reģiona atlasītāja dialoglodziņa piemērs sākumlapā.](./media/Geo_country-region-module-insitu.png)
 
-## <a name="countryregion-picker-module-properties&quot;></a>Valsts / reģiona atlasītāja moduļa rekvizīti
+## <a name="countryregion-picker-module-properties"></a>Valsts / reģiona atlasītāja moduļa rekvizīti
 
 | Rekvizīta nosaukums              | Vērtība       | Apraksts |
 | -------------------------- | ----------- | ----------- |
 | Virsraksts                    | Teksts        | Galvene, kas tiek rādīta virs dialoglodziņa. |
 | Apakšvirsraksts                 | Teksts        | Apakšvirsraksts, kas tiek rādīts zem galvenes. |
-| Valsts: Displeja virkne    | Teksts        | URL opcijas parādāmais nosaukums (piemēram, &quot;Kanāda"). |
+| Valsts: Displeja virkne    | Teksts        | URL opcijas parādāmais nosaukums (piemēram, "Kanāda"). |
 | Valsts: Displeja apakšvirkne | Teksts        | Neobligāta URL opcijas parādīšanas apakšvirne (piemēram, "Angļu" vai "Franču"). |
 | Valsts: Valsts attēls     | Mediju līdzeklis | Neobligāts attēls, kas tiek saistīts ar URL opciju (piemēram, Kanādas karoga attēls). |
 | Valsts: Valsts URL       | Teksts        | URL, kas atbilst kanālam un lokalizācijai, kas ir konfigurētas valstij vai reģionālā Commerce vietnes veidotāja lapā **Kanāli** (**Vietnes iestatījumi\>Kanāli**). Šim URL ir precīzi jāatbilst tam, kas konfigurēts lapā **Kanāli**. |
