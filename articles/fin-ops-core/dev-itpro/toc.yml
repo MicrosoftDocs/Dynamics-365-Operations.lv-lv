@@ -14,12 +14,12 @@
               items:
                 - name: Jaunumi un izmaiņas Platform atjauninājumu sākumlapā
                   href: get-started/whats-new-home-page.md
+                - name: "Platform atjauninājumi versijai\_10.0.23"
+                  href: get-started/whats-new-platform-updates-10-0-23.md
                 - name: "Platform atjauninājumi versijai\_10.0.22 (2021.\_gada novembris)"
                   href: get-started/whats-new-platform-updates-10-0-22.md
                 - name: "Platform atjauninājumi versijai\_10.0.21 (2021.\_gada oktobris)"
                   href: get-started/whats-new-platform-updates-10-0-21.md
-                - name: "Platform atjauninājumi versijai\_10.0.20 (2021.\_gada augusts)"
-                  href: get-started/whats-new-platform-updates-10-0-20.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
                 - name: Noņemtie vai novecojušie līdzekļi sākumlapā
@@ -32,42 +32,6 @@
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Galvenā atbalsta beigas versijai Microsoft Dynamics AX 2009 un 2012
               href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-        - name: Biznesa notikumi
-          items:
-            - name: Biznesa notikumu pārskats
-              href: business-events/home-page.md
-            - name: Programmas biznesa notikumi
-              href: business-events/app-business-events.md
-            - name: Darbplūsmas biznesa notikumi
-              href: business-events/business-events-workflow.md
-            - name: Partijas biznesa notikumi
-              href: business-events/system-business-events.md
-            - name: Brīdinājumi kā biznesa notikumi
-              href: business-events/alerts-business-events.md
-            - name: Biznesa notikumi programmā Microsoft Flow
-              href: business-events/business-events-flow.md
-            - name: Biznesa notikumu izstrādātāja dokumentācija
-              href: business-events/business-events-dev-doc.md
-            - name: Biznesa notikumu problēmu novēršana
-              href: business-events/troubleshooting.md
-            - name: Gadījumu lietošana biznesa notikumiem
-              href: business-events/potential-use-cases.md
-            - name: Apmācība
-              items:
-                - name: Biznesa notikumi un Microsoft Flow
-                  href: business-events/how-to/how-to-flow.md
-                - name: Biznesa notikumi un Azure Event Grid
-                  href: business-events/how-to/how-to-eventgrid.md
-                - name: Biznesa notikumi un Azure Service Bus
-                  href: business-events/how-to/how-to-servicebus.md
-                - name: Biznesa notikumi un darbplūsmu apstiprinājumi
-                  href: business-events/how-to/how-to-workflow.md
-                - name: Biznesa notikumi un Microsoft Forms Pro
-                  href: business-events/how-to/FormsPro.md
-                - name: Biznesa notikumi un Azure Event Hubs
-                  href: business-events/how-to/event-hub.md
-                - name: Biznesa notikumi finanšu perioda slēgšanā
-                  href: business-events/how-to/period-close.md
         - name: Pastāvīga piegāde
           items:
             - name: Pastāvīgas piegādes mājas lapa
@@ -592,7 +556,7 @@
               items:
                 - name: X++ valodas atbalsts
                   items:
-                    - name: "Visual Studio\_2017 prasības valodai X++"
+                    - name: Visual Studio prasības valodai X++
                       href: dev-tools/developer-tools-vs2017.md
                     - name: X++ koda atkļūdošana
                       href: dev-tools/debug-xpp.md
@@ -606,6 +570,8 @@
                       href: dev-tools/author-best-practice-rules.md
                     - name: Programmu pārlūka rekvizīti
                       href: dev-ref/application-explorer-aot-properties.md
+                    - name: Atribūts SysSetupConfigAttribute
+                      href: dev-tools/syssetupconfigattribute.md
                 - name: X++ valodas atsauce
                   items:
                     - name: X++ valodas atsauces pārskats
@@ -1038,6 +1004,10 @@
           items:
             - name: Microsoft Power Platform integrācija ar Finance and Operations
               href: power-platform/overview.md
+            - name: Power Platform integrācijas iespējošana
+              href: power-platform/enable-power-platform-integration.md
+            - name: Autentifikācija un autorizācija
+              href: power-platform/authentication-and-authorization.md
             - name: Duālais ieraksts
               items:
                 - name: Duālā ieraksta sākumlapa
@@ -1084,6 +1054,8 @@
                       href: data-entities/dual-write/multiple-entity-maps.md
                     - name: Juridiskas personas rediģēšana pēc duālā ieraksta iestatīšanas
                       href: data-entities/dual-write/edit-legal-entity.md
+                    - name: Pauzēt dubultā ieraksta darbību uzturēšanai
+                      href: data-entities/dual-write/pause-for-maintenance.md
                     - name: Kļūdu pārvaldības un brīdinājumu paziņojumi
                       href: data-entities/dual-write/errors-and-alerts.md
                     - name: Programmas dzīves cikla pārvaldība
@@ -1176,6 +1148,8 @@
                           href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
                         - name: Duālā ieraksta konfigurācijas pārbaude Finance and Operations programmās un pakalpojumā Dataverse
                           href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: Kļūdas kodi tabulas kartes darbspējas pārbaudei
+                          href: data-entities/dual-write/table-map-health-check.md
                 - name: Bieži uzdotie jautājumi par duālo ierakstu
                   href: data-entities/dual-write/dual-write-faq.md
             - name: Virtuālie elementi
@@ -1186,12 +1160,52 @@
                   href: power-platform/entity-modeling.md
                 - name: Programmas dzīves cikla pārvaldība
                   href: power-platform/application-lifecycle-management.md
-                - name: Finance and Operations un Dataverse administratora atsauce
+                - name: Dataverse virtuālo elementu konfigurēšana
                   href: power-platform/admin-reference.md
+                - name: Dataverse virtuālo elementu iespējošana
+                  href: power-platform/enable-virtual-entities.md
                 - name: Power Apps portāli ar Finance and Operations
                   href: power-platform/power-portal-reference.md
                 - name: Bieži uzdotie jautājumi par Finance and Operations virtuālajiem elementiem
                   href: power-platform/faq.md
+            - name: Biznesa notikumi
+              items:
+                - name: Biznesa notikumu pārskats
+                  href: business-events/home-page.md
+                - name: Programmas biznesa notikumi
+                  href: business-events/app-business-events.md
+                - name: Darbplūsmas biznesa notikumi
+                  href: business-events/business-events-workflow.md
+                - name: Partijas biznesa notikumi
+                  href: business-events/system-business-events.md
+                - name: Brīdinājumi kā biznesa notikumi
+                  href: business-events/alerts-business-events.md
+                - name: Datu notikumi
+                  href: business-events/data-events.md
+                - name: Biznesa notikumi programmā Power Automate
+                  href: business-events/business-events-flow.md
+                - name: Biznesa notikumu izstrādātāja dokumentācija
+                  href: business-events/business-events-dev-doc.md
+                - name: Biznesa notikumu problēmu novēršana
+                  href: business-events/troubleshooting.md
+                - name: Gadījumu lietošana biznesa notikumiem
+                  href: business-events/potential-use-cases.md
+                - name: Apmācība
+                  items:
+                    - name: Biznesa notikumi un Power Automate
+                      href: business-events/how-to/how-to-flow.md
+                    - name: Biznesa notikumi un Azure Event Grid
+                      href: business-events/how-to/how-to-eventgrid.md
+                    - name: Biznesa notikumi un Azure Service Bus
+                      href: business-events/how-to/how-to-servicebus.md
+                    - name: Biznesa notikumi un darbplūsmu apstiprinājumi
+                      href: business-events/how-to/how-to-workflow.md
+                    - name: Biznesa notikumi un Microsoft Forms Pro
+                      href: business-events/how-to/FormsPro.md
+                    - name: Biznesa notikumi un Azure Event Hubs
+                      href: business-events/how-to/event-hub.md
+                    - name: Biznesa notikumi finanšu perioda slēgšanā
+                      href: business-events/how-to/period-close.md
             - name: Pievienojumprogrammas
               items:
                 - name: Pievienojumprogrammu apskats
@@ -1582,6 +1596,8 @@
                   href: sysadmin/batch-history-cleanup.md
                 - name: Pakešuzdevuma izpildes atcelšana
                   href: sysadmin/batch-abort.md
+                - name: Partijas OData API
+                  href: sysadmin/batch-odata-api.md
             - name: Optimizācijas padomnieks
               items:
                 - name: Optimizācijas padomnieka pārskats

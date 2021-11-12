@@ -74,12 +74,12 @@
                   items:
                     - name: Jaunumi un izmaiņas programmas Supply Chain Management sākumlapā
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.23
+                      href: get-started/whats-new-scm-10-0-23.md
                     - name: "Supply Chain Management\_10.0.22 (2021.\_gada novembris)"
                       href: get-started/whats-new-scm-10-0-22.md
                     - name: "Supply Chain Management\_10.0.21 (2021.\_gada oktobris)"
                       href: get-started/whats-new-scm-10-0-21.md
-                    - name: "Supply Chain Management 10.0.20 (2021.\_gada augusts)"
-                      href: get-started/whats-new-scm-10-0-20.md
                 - name: Noņemtie vai novecojušie līdzekļi
                   items:
                     - name: Noņemtie vai novecojušie līdzekļi sākumlapā
@@ -1659,6 +1659,8 @@
                   href: master-planning/planning-optimization/demand-forecast.md
                 - name: Vispārējā plānošana ar pirkšanas tirdzniecības līgumiem
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
+                - name: 'Datuma un laika parametri, kas tiek izmantoti plānošanas optimizācijai'
+                  href: master-planning/planning-optimization/date-time-used.md
                 - name: Drošības rezerves
                   href: master-planning/planning-optimization/safety-margins.md
                 - name: Aizkaves tolerance (negatīvās dienas)
@@ -1885,6 +1887,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Globālās adrešu grāmatas konfigurēšana
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Adreses iestatīšana
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Bieži uzdotie jautājumi par adrešu grāmatām
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Adrešu grāmatu konfigurēšana
@@ -2427,21 +2431,9 @@
                       href: production-control/release-production-orders.md
                     - name: Ziņošana par ražošanas pasūtījumiem kā par pabeigtiem
                       href: production-control/report-production-orders-as-finished.md
-                    - name: Ražošanas izpildes interfeisa iestatīšana un izmantošana
-                      items:
-                        - name: Ražošanas izpildes interfeisa konfigurēšana
-                          href: production-control/production-floor-execution-configure.md
-                        - name: Ražošanas izpildes interfeisa noformēšana
-                          href: production-control/production-floor-execution-tabs.md
-                        - name: Ierīces iestatīšana ražošanas izpildes interfeisa palaišanai
-                          href: production-control/production-floor-execution-setup.md
-                        - name: Kā nodarbinātie izmanto ražošanas izpildes interfeisu
-                          href: production-control/production-floor-execution-use.md
-                        - name: Ražošanas izpildes interfeisa stila veidošana
-                          href: production-control/production-floor-execution-styles.md
-                    - name: Darbu kartes konfigurēšana ierīcēm
+                    - name: Konfigurēt darbu karti ierīcēm
                       href: production-control/config-job-card-device.md
-                    - name: Ziņošana par pabeigšanu no darbu kartes ierīces
+                    - name: Ziņojums par pabeigšanu no darbu kartes ierīces
                       href: production-control/report-finished-job-device.md
                     - name: Jauktās realitātes ceļvežu nodrošināšana nodarbinātajiem ražošanā
                       href: production-control/instruction-guides-in-production-overview.md
@@ -2645,6 +2637,18 @@
                       href: production-control/consumption.md
                     - name: Ražošanas grāmatošana
                       href: cost-management/production-posting.md
+            - name: Ražošanas izpildes interfeisa iestatīšana un izmantošana
+              items:
+                - name: Ražošanas izpildes interfeisa konfigurēšana
+                  href: production-control/production-floor-execution-configure.md
+                - name: Ražošanas izpildes interfeisa noformēšana
+                  href: production-control/production-floor-execution-tabs.md
+                - name: Ierīces iestatīšana ražošanas izpildes interfeisa palaišanai
+                  href: production-control/production-floor-execution-setup.md
+                - name: Kā nodarbinātie izmanto ražošanas izpildes interfeisu
+                  href: production-control/production-floor-execution-use.md
+                - name: Ražošanas izpildes interfeisa stila veidošana
+                  href: production-control/production-floor-execution-styles.md
         - name: Atlaižu pārvaldība
           items:
             - name: Atlaižu pārvaldības moduļa pārskats
@@ -3391,6 +3395,10 @@
                       href: warehousing/configure-mobile-devices-warehouse.md
                     - name: Darbību nosaukumu un instrukciju pielāgošana mobilajai programmai Warehouse Management
                       href: warehousing/mobile-app-titles-instructions.md
+                    - name: Atbalstīto lauku konfigurēšana darbībām mobilajā ierīcē
+                      href: warehousing/warehouse-app-promoted-fields.md
+                    - name: Darbību konfigurēšana mobilās ierīces izvēlnes vienumos
+                      href: warehousing/warehouse-app-detours.md
                     - name: 'Numura zīmes saņemšana, izmantojot mobilo programmu Warehouse Management'
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Mobilās ierīces izvēlnes vienuma iestatīšana pirkšanas pasūtījuma darba pabeigšanai
@@ -3409,6 +3417,8 @@
                       href: warehousing/pick-oldest-batch.md
                 - name: Globālie mobilās ierīces parametri
                   href: warehousing/mobile-device-parameters.md
+                - name: Mobilās ierīces lietotāja konti
+                  href: warehousing/mobile-device-work-users.md
                 - name: Mobilās ierīces lietotāja iestatījumi
                   href: warehousing/mobile-device-user-settings.md
                 - name: Noliktavas programmas notikumu apstrāde
@@ -3737,6 +3747,12 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Noliktavas pārvaldība
               items:
+                - name: Warehouse Mobile App
+                  items:
+                    - name: 'Iestatot programmas savienojumu, nav atrasts sertifikācijas ceļa uzticamības enkurs'
+                      href: troubleshooting/warehousing/certification-path-app-connection-error.md
+                    - name: 'Veicot atjaunināšanu un migrēšanu uz NPS, nav atrasts sertifikācijas ceļa uzticamības enkurs'
+                      href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
                 - name: 'Tiek parādīta automātiska partijas numura rezervēšanas uzvedne pat tad, ja ir pieejami krājumi'
                   href: troubleshooting/warehousing/auto-reservation-prompt-shown.md
                 - name: Nepabeigtā papildināšanas darba dēļ izdošanas darbu nevar atbloķēt
@@ -3747,8 +3763,6 @@
                   href: troubleshooting/warehousing/cant-move-license-plate.md
                 - name: 'Nevar pārvietot krājumu uz atrašanās vietu, ko kontrolē numura zīme'
                   href: troubleshooting/warehousing/cant-reduce-picked-quantities.md
-                - name: 'Iestatot programmas savienojumu, nav atrasts sertifikācijas ceļa uzticamības enkurs'
-                  href: troubleshooting/warehousing/certification-path-app-connection-error.md
                 - name: Nevar atrast klastera profilu
                   href: troubleshooting/warehousing/cluster-profile-not-found-error.md
                 - name: Piegādes pavadzīmes labojumu nevar apstrādāt
@@ -3819,8 +3833,6 @@
                   href: troubleshooting/warehousing/unconfirmed-purchase-orders-confirmed.md
                 - name: Pārdošanas pasūtījuma rindā nevar atsaukt krājumu rezervēšanu
                   href: troubleshooting/warehousing/unreserve-inventory-sales-line.md
-                - name: 'Veicot atjaunināšanu un migrēšanu uz NPS, nav atrasts sertifikācijas ceļa uzticamības enkurs'
-                  href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
                 - name: 'Nevar apstiprināt sūtījumu, jo klients ir aizturēts'
                   href: troubleshooting/warehousing/customer-is-on-hold.md
                 - name: 'Nevar apstiprināt sūtījumu, jo noslodzes rindu daudzums ir nulle'

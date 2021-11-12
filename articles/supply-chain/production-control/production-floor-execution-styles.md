@@ -193,7 +193,7 @@ Kombinētais lodziņš ir trīs vadīklu kombinācija: ievades vadīkla, poga, k
 Stilus kombinētajam lodziņam var lietot tikai tad, ja ir izpildītas tālāk norādītās prasības:
 
 - Šis kombinētais lodziņš ir ietverts formu grupā.
-- Grupas nosaukums sākas ar **Kombinētais lodziņš**.
+- Grupas nosaukums sākas ar **Combobox**.
 - Grupā pirmā vadīkla ir **AxFormStringControl** vadīkla. Šī vadīkla parāda pašreizējo vērtību, un tā ir vieta, kur lietotājs ievada nepieciešamo vērtību.
 - Otra vadīkla ir **CommonButton** vadīkla, un tās nosaukums sākas ar **ClearButton**. Šai pogai ir jāietver kods, kas izmanto rekvizītu **iespējot**, lai parādītu vai slēptu pogu. Piemēram, lai parādītu vai slēptu pogu **Dzēst**, kamēr lietotājs ievada informāciju ievades vadīklā, varat izmantot šādu kodu.
 
