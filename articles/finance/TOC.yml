@@ -708,48 +708,6 @@
               href: general-ledger/electronic-messaging-work-with-em.md
             - name: 'Izsaukt vienkāršu elektroniskā pārskata formātu eksportu, lai ģenerētu Excel pārskatu'
               href: general-ledger/electronic-messaging-example.md
-        - name: Izdevumu pārvaldība
-          items:
-            - name: Pārskats par izdevumu pārvaldību
-              href: /dynamics365/project-operations/prod-exp/expense-management
-            - name: Izdevumu pārskati jaunā izskatā
-              href: /dynamics365/project-operations/prod-exp/ExpenseWorkspaceNew
-            - name: Plānoto izdevumu pārvaldība
-              href: /dynamics365/project-operations/prod-exp/plan-expense-management
-            - name: Izdevumu pārvaldības parametri
-              href: /dynamics365/project-operations/prod-exp/Expense-Management-Parameters
-            - name: Izdevumu pārvaldības mobilā darbvieta
-              href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace
-            - name: Darbplūsmu iestatīšana izdevumu pārvaldībai
-              href: /dynamics365/project-operations/prod-exp/expense-workflows
-            - name: Avansa norēķinu darbplūsma
-              href: /dynamics365/project-operations/prod-exp/expense-workflow
-            - name: Izdevumu deleģēšanas pārvaldība
-              href: /dynamics365/project-operations/prod-exp/manage-expense-delegation
-            - name: Izdevumu ieejas apstrāde
-              href: /dynamics365/project-operations/prod-exp/expense-receipt-processing
-            - name: Kredītkaršu transakciju importēšana un uzturēšana
-              href: /dynamics365/project-operations/prod-exp/import-credit-card
-            - name: Sadales izdevumu pārskatā
-              href: /dynamics365/project-operations/prod-exp/expense-report-distributions
-            - name: Starpuzņēmumu izdevumi
-              href: /dynamics365/project-operations/prod-exp/intercompany-expense
-            - name: Izdevumu politiku definēšana
-              href: /dynamics365/project-operations/prod-exp/travel-expense-policies
-            - name: Skatīt izdevumu pārskatu
-              href: /dynamics365/project-operations/prod-exp/view-expense-report
-            - name: Grāmatot izdevumu pārskatu
-              href: /dynamics365/project-operations/prod-exp/post-expense
-            - name: Izdevumu pārskati un vairāki apstiprinātāji
-              href: /dynamics365/project-operations/prod-exp/expense-report-multiple-approvers
-            - name: 'PVN atgūšana, izmantojot izdevumu pārvaldību'
-              href: /dynamics365/project-operations/prod-exp/VAT-expense-report
-            - name: Dienasnaudas noteikumi
-              href: /dynamics365/project-operations/prod-exp/per-diem
-            - name: Komandējuma pieprasījumi
-              href: /dynamics365/project-operations/prod-exp/travel-req
-            - name: Personiskie izdevumi attiecīgā izdevumu pārskatā
-              href: /dynamics365/project-operations/prod-exp/personal-expenses
         - name: Pamatlīdzekļi
           items:
             - name: Pamatlīdzekļu sākumlapa
@@ -1248,9 +1206,7 @@
               href: finance-insights/finance-insights-home-page.md
             - name: Iestatīšana un administrēšana
               items:
-                - name: Finance Insights konfigurēšana publiskajam priekšskatījumam
-                  href: finance-insights/configure-for-fin-insites-PubPrvw.md
-                - name: Finance Insights konfigurēšana privātajam priekšskatījumam
+                - name: Finance Insights konfigurēšana
                   href: finance-insights/configure-for-fin-insites.md
                 - name: Debitoru maksājumu prognožu iespējošana
                   href: finance-insights/enable-cust-paymnt-prediction.md
@@ -1288,88 +1244,6 @@
                   href: finance-insights/payment-snapshots.md
             - name: Bieži uzdotie jautājumi par Finance Insights problēmu novēršanu
               href: finance-insights/finance-insights-troubleshooting-faq.md
-        - name: Projektu vadība un uzskaite
-          items:
-            - name: Projektu vadības un uzskaites pārskats
-              href: /dynamics365/project-operations/prod-pma/overview-project-management-accounting
-            - name: Starpuzņēmumu rēķinu izrakstīšana
-              href: /dynamics365/project-operations/prod-pma/intercompany-invoicing
-            - name: Starpuzņēmumu projekta rēķinu izrakstīšanas konfigurēšana
-              href: /dynamics365/project-operations/prod-pma/configure-intercompany-project-invoicing
-            - name: Standarta darbaspēka un izdevumu izmaksu konfigurēšana
-              href: /dynamics365/project-operations/prod-pma/configure-standard-costs-labor-expenses
-            - name: Kreditoru maksājumu ieturējumu nosacījumu izveide un lietošana
-              href: /dynamics365/project-operations/prod-pma/create-and-apply-vendor-payment-retention-terms
-            - name: 'Tādu kreditoru maksājumu iestatīšana un lietošana, kas jāapmaksā pēc apmaksas'
-              href: /dynamics365/project-operations/prod-pma/setup-manage-vendor-payments
-            - name: Projekta izmaksu uzkrāšanas pirkšanas pavadzīmes
-              href: accounts-payable/project-cost-accrual-purchase-receipts.md
-            - name: Projekta rēķinu izrakstīšana
-              href: accounts-payable/project-invoicing.md
-            - name: Projekta līgumi
-              href: /dynamics365/project-operations/prod-pma/project-contracts
-            - name: 'Papildu līgumu izveide norēķiniem, pamatojoties uz progresu'
-              href: /dynamics365/project-operations/prod-pma/project-create-advanced-contracts-for-billing-based-progress
-            - name: Projekta prognozes un budžeti
-              href: /dynamics365/project-operations/prod-pma/project-forecasts-budgets
-            - name: Budžeta modeļu izveide projekta budžetiem
-              href: /dynamics365/project-operations/prod-pma/create-forecast-models-project-budgets
-            - name: Projekta budžetu pārsūtīšana finanšu gada beigās
-              href: /dynamics365/project-operations/prod-pma/process-project-budgets-for-fiscal-year-end
-            - name: Projekta pārdošanas pasūtījumi
-              href: /dynamics365/project-operations/prod-pma/project-sales-orders
-            - name: Pirkšanas pasūtījumi projektam
-              href: /dynamics365/project-operations/prod-pma/project-purchase-orders
-            - name: Projektu piedāvājumi
-              href: /dynamics365/project-operations/prod-pma/project-quotations
-            - name: 'Projektu piedāvājuma apstiprināšana, atjaunināšana un sūtīšana'
-              href: /dynamics365/project-operations/prod-pma/confirm-update-send-project-quotation
-            - name: Piedāvājuma pārsūtīšana projektam
-              href: /dynamics365/project-operations/prod-pma/transfer-quote-new-existing-project
-            - name: Projekta resursi
-              items:
-                - name: Projekta resursu pārskats
-                  href: /dynamics365/project-operations/prod-pma/project-resourcing
-                - name: Projekta resursu iestatīšana
-                  href: /dynamics365/project-operations/prod-pma/set-up-project-resources
-                - name: Resursu kompetenču pārvaldība
-                  href: /dynamics365/project-operations/prod-pma/manage-resource-competencies
-                - name: Jauna projekta izveide
-                  href: /dynamics365/project-operations/prod-pma/create-new-project
-                - name: Uz lomu balstītas cenu noteikšanas iestatīšana
-                  href: /dynamics365/project-operations/prod-pma/set-up-role-based-pricing
-                - name: Projekta grupas izveide
-                  href: /dynamics365/project-operations/prod-pma/create-project-team
-                - name: Resursu noslodzes sinhronizēšana
-                  href: /dynamics365/project-operations/prod-pma/synchronize-resource-capacity
-                - name: Projekta resursu plānošanas veiktspēja
-                  href: /dynamics365/project-operations/prod-pma/project-scheduling-performance
-                - name: Lomu iestatīšana darba sadalījuma struktūras veidnēs
-                  href: /dynamics365/project-operations/prod-pma/set-up-roles-wbs-template
-                - name: Resursu izpilde plānotiem resursiem
-                  href: /dynamics365/project-operations/prod-pma/resource-fulfillment-planned-resources
-            - name: Pirkšanas pasūtījuma krājumu saņemšana no krājumu vajadzības
-              href: /dynamics365/project-operations/prod-pma/receive-items-purchase-order-item-requirement
-            - name: Darba sadalījuma struktūras
-              items:
-                - name: Darba sadalījuma struktūru pārskats
-                  href: /dynamics365/project-operations/prod-pma/work-breakdown-structures
-                - name: Microsoft Project Client integrācija
-                  href: /dynamics365/project-operations/prod-pma/project-integration
-                - name: Project mobilo programmu apskats
-                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview
-                - name: Projekta laika ieraksta mobilā darbvieta
-                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace
-                - name: Projektu darba laika uzskaites tabulu mobilā programma
-                  href: /dynamics365/project-operations/prod-pma/project-timesheet
-                - name: Projektu darba laika uzskaites tabulas mobilajā ierīcē
-                  href: /dynamics365/project-operations/prod-pma/Mobile-timesheets
-                - name: Pielāgoto lauku ieviešana projektu darba laika uzskaites tabulu mobilajā programmā
-                  href: /dynamics365/project-operations/prod-pma/custom-fields-mobile
-            - name: Projekta piešķīrumi
-              href: /dynamics365/project-operations/prod-pma/project-grants
-            - name: Projekta novērtējuma izslēgšana
-              href: /dynamics365/project-operations/prod-pma/eliminate-project-estimate
         - name: Publiskais sektors
           items:
             - name: Publiskā sektora sākumlapa
@@ -1804,6 +1678,8 @@
                       href: localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
                     - name: NF-e parametru iestatīšana finanšu iestādei
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+                    - name: NF-e XML failu kā pielikumu pārvietošana
+                      href: localizations/latam-bra-nf-e-move-xml-as-attachment.md
                     - name: "NT2020.005\_— izkārtojuma un apstiprināšanas atjauninājumi elektroniskajā finanšu dokumentā (NF-e)"
                       href: localizations/latam-bra-nfe-nt2020.005.md
                     - name: NT2020.006 — starpnieka pārdošanas digitālā platforma NF-e
@@ -2190,6 +2066,8 @@
                       href: localizations/tasks/create-submit-vat-report.md
                 - name: Segšanas transakciju skatīšana
                   href: localizations/emea-transactions-settlement-form.md
+                - name: Finanšu pamatojums
+                  href: localizations/emea-financial-reason.md
             - name: Somija
               items:
                 - name: Somijas pārskats
@@ -2750,10 +2628,14 @@
                   href: localizations/emea-ita-exil-zero-invoice-posting.md
                 - name: Bankas datu izmantojamības uzlabošana
                   href: localizations/emea-ita-exil-bank-accounts-setup.md
-                - name: Itāliešu Intrastat
-                  href: localizations/emea-ita-intrastat.md
-                - name: Intrastat saņemtā un nosūtītā grāmatošana
-                  href: localizations/emea-ita-post-arrivals-and-dispatches-for-intrastat.md
+                - name: Intrastat
+                  items:
+                    - name: Itāļu Intrastat
+                      href: localizations/emea-ita-intrastat.md
+                    - name: Intrastat saņemtā un nosūtītā grāmatošana
+                      href: localizations/emea-ita-post-arrivals-and-dispatches-for-intrastat.md
+                    - name: Intrastat (IT) faila formāts
+                      href: /dynamics/s-e/365business/dynamices365finance_itintrastatfile
                 - name: Intrastat deklarācijā iekļautās papildmaksas par kilogramu
                   href: localizations/emea-ita-exil-misc-charges-intrastat.md
                 - name: "Nolūka vēstules\_— rēķinu izrakstīšana parastajiem eksportētājiem"
@@ -3108,8 +2990,10 @@
                   href: localizations/emea-foreign-currency-revaluation.md
                 - name: Atgriežams iepakojums
                   href: localizations/emea-pol-returnable-packages.md
-                - name: PVN pārskati
+                - name: "PVN\_pārskati"
                   href: localizations/emea-pol-sales-tax-reports.md
+                - name: Poļu Intrastat
+                  href: localizations/emea-pol-intrastat.md
                 - name: Numuru sēriju iestatīšana pēc noliktavas
                   href: localizations/emea-pol-number-sequence-warehouses.md
                 - name: Standarta audita fails
@@ -4375,6 +4259,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=/dynamics365/finance/toc.json
                 - name: Relatīvais ceļš datu saistījumos
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=/dynamics365/finance/toc.json
+                - name: Izteiksmju noformēšana programmas klases metožu izsaukšanai
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/design-expressions-app-class-er.md?toc=/dynamics365/finance/toc.json
             - name: ER risinājumu izmantošana pakalpojumā Finance
               items:
                 - name: Struktūras konfigurēšana

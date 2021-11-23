@@ -713,8 +713,10 @@
                   href: cost-management/inventory-close.md
                 - name: Rīcībā esošo krājumu izmaksu vērtību koriģēšana
                   href: cost-management/adjust-hand-inventory-cost-values.md
-                - name: Krājumu vērtības glabāšanas pārskats
+                - name: Krājumu vērtības pārskati
                   href: cost-management/inventory-value-report-storage.md
+                - name: Krājumu vērtības pārskatu piemēri un loģika
+                  href: cost-management/inventory-value-report-examples.md
                 - name: Krājumu vecumstruktūru pārskata glabāšana
                   href: cost-management/inventory-aging-report-storage.md
                 - name: Krājumu vecumstruktūru pārskatu piemēri un loģika
@@ -1673,6 +1675,8 @@
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
                 - name: Plānošana ar resursu atlasi atkarībā no iespējas
                   href: master-planning/planning-optimization/capability-based-scheduling.md
+                - name: Uz prioritāti balstīta plānošana
+                  href: master-planning/planning-optimization/priority-based-planning.md
                 - name: Krājumu iezīmēšana ar plānošanas optimizāciju
                   href: master-planning/planning-optimization/marking.md
                 - name: Starpuzņēmumu plānošana
@@ -1719,6 +1723,8 @@
                   href: master-planning/maintain-planned-orders.md
                 - name: Krājumu drošības rezerves izpilde
                   href: master-planning/safety-stock-replenishment.md
+                - name: 'Drošības krājumu žurnāla lietošana, lai atjauninātu minimālo krājumu segumu'
+                  href: master-planning/safety-stock-journal.md
                 - name: Aizkaves
                   href: master-planning/delays.md
                 - name: Vispārējās plānošanas darba atcelšana
@@ -2351,6 +2357,8 @@
               href: production-control/unified-job-ids.md
             - name: 'Procesu automatizācijas plūsmu aktivizēšana, lai izveidotu kvalitātes pārbaudes pasūtījumus'
               href: production-control/process-automation-quality-orders.md
+            - name: Integrācija ar trešās puses ražošanas izpildes sistēmām
+              href: production-control/mes-integration.md
             - name: Atsevišķā ražošana
               items:
                 - name: Ražošanas pamatdatu uzturēšana
@@ -2649,6 +2657,8 @@
                   href: production-control/production-floor-execution-use.md
                 - name: Ražošanas izpildes interfeisa stila veidošana
                   href: production-control/production-floor-execution-styles.md
+                - name: Ražošanas izpildes interfeisa pielāgošana
+                  href: production-control/production-floor-execution-customize.md
         - name: Atlaižu pārvaldība
           items:
             - name: Atlaižu pārvaldības moduļa pārskats

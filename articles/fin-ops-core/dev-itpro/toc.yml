@@ -1172,6 +1172,8 @@
               items:
                 - name: Biznesa notikumu pārskats
                   href: business-events/home-page.md
+                - name: Biznesa notikumu galapunktu pārvaldība
+                  href: business-events/managing-business-event-endpoints.md
                 - name: Programmas biznesa notikumi
                   href: business-events/app-business-events.md
                 - name: Darbplūsmas biznesa notikumi
@@ -1198,12 +1200,16 @@
                       href: business-events/how-to/how-to-eventgrid.md
                     - name: Biznesa notikumi un Azure Service Bus
                       href: business-events/how-to/how-to-servicebus.md
+                    - name: Biznesa notikumi un Azure Service Bus rinda
+                      href: business-events/how-to/how-to-servicebus-queue.md
                     - name: Biznesa notikumi un darbplūsmu apstiprinājumi
                       href: business-events/how-to/how-to-workflow.md
                     - name: Biznesa notikumi un Microsoft Forms Pro
                       href: business-events/how-to/FormsPro.md
                     - name: Biznesa notikumi un Azure Event Hubs
                       href: business-events/how-to/event-hub.md
+                    - name: Abonēt notikumus programmā Dataverse
+                      href: business-events/how-to/how-to-dataverse-events.md
                     - name: Biznesa notikumi finanšu perioda slēgšanā
                       href: business-events/how-to/period-close.md
             - name: Pievienojumprogrammas
@@ -1654,8 +1660,6 @@
                   items:
                     - name: Unikāla kontu plāna norobežotāja iestatīšana
                       href: migration-upgrade/chart-accounts-delimiter-unique.md
-                    - name: Vienotu dokumentu žurnālu un valūtas pārvērtēšanu jaunināšana
-                      href: migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md
                     - name: Projekta resursu plānošanas datu modelis
                       href: migration-upgrade/data-model-changes-resource-management.md
                     - name: Darbplūsmu apakšsistēmas izmaiņas

@@ -1272,7 +1272,7 @@
               href: store-performance-information.md
             - name: 'Nesenības, biežuma un monetārās (RFM) analīzes iestatīšana'
               href: set-up-rfm-analysis.md
-            - name: Microsoft Clarity iestatīšana pakalpojumā Dynamics 365 Commerce
+            - name: Microsoft Clarity iestatīšana pakalpojumā Dynamics 36 Commerce
               href: set-up-clarity.md
         - name: Globalizācija
           items:
@@ -2538,6 +2538,8 @@
                       href: e-commerce-extensibility/debugging-best-practices.md
             - name: "Retail\_SDK"
               items:
+                - name: "Migrēt uz Commerce\_SDK"
+                  href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
                 - name: "Retail\_SDK arhitektūra"
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: Būvējuma konveijera iestatīšana neatkarīga iepakojuma SDK
