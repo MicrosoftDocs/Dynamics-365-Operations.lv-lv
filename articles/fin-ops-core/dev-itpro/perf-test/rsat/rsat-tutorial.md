@@ -5,17 +5,17 @@ author: FrankDahl
 ms.date: 09/23/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: f1d818944ed2779cdad15d84673369e31243285f
-ms.sourcegitcommit: ba8ca42e43e1a5251cbbd6ddb292566164d735dd
-ms.translationtype: HT
+ms.openlocfilehash: 2f31009424629221a8e4f130b0ec1879c6c6e3d4
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/25/2021
-ms.locfileid: "7556769"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781967"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool apmācība
 
@@ -79,13 +79,13 @@ Pēc testa gadījuma palaišanas ziņojums Excel parametru failā tiek salīdzin
 
 Šis līdzeklis uzņem to darbību ekrānuzņēmumus, kas tika izpildītas uzdevuma reģistrēšanas laikā. Tas ir noderīgs audita vai atkļūdošanas nolūkiem.
 
-- Lai izmantotu šo līdzekli, atveriet failu **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config**, kas atrodas RSAT instalācijas mapē (piemēram, **C:\\Program Files (x86)\\Regression Suite Automation Tool**), un mainiet tālāk norādītā elementa vērtību no **aplams** uz **patiess**.
+- Lai izmantotu šo līdzekli, atveriet failu **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config**, kas atrodas RSAT instalācijas mapē (piemēram, **C:\\ Program Files (x86)\\Regression Suite Automation Tool**), un mainiet tālāk norādītā elementa vērtību no **aplams** uz **patiess**.
 
     ```xml
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-- Lai izmantotu šo līdzekli RSAT darbības laikā, ko palaida CLI (piemēram, Azure DevOps), atveriet failu **Microsoft.Dynamics.RegressionSuite.ConsoleApp.exe.config**, kas atrodas RSAT instalācijas mapē (piemēram, **C:\\Program Files (x86)\\Regression Suite Automation Tool**), un mainiet tālāk norādītā elementa vērtību no **aplams** uz **patiess**.
+- Lai izmantotu šo līdzekli RSAT darbības laikā, ko palaida CLI (piemēram, Azure DevOps), atveriet failu **Microsoft.Dynamics.RegressionSuite.ConsoleApp.exe.config**, kas atrodas RSAT instalācijas mapē (piemēram, **C:\\ Program Files (x86)\\Regression Suite Automation Tool**), un mainiet tālāk norādītā elementa vērtību no **aplams** uz **patiess**.
 
     ```xml
     <add key="VerboseSnapshotsEnabled" value="false" />

@@ -2,7 +2,7 @@
 title: Debitoru maksājumu prognožu izmantošana
 description: Šī tēma izskata priekšnosacījumus un vispārējās darbības, kas ir nepieciešamas, lai izmantotu finanšu ieskatu izmēģinājuma versiju.
 author: ShivamPandey-msft
-ms.date: 07/17/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,35 +15,31 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 156136508c5465dc9351434251afc3bbdb9c6052
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
-ms.translationtype: HT
+ms.openlocfilehash: 0606118007c01fc21c2c61d2128a7ec014617fcc
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386294"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752788"
 ---
 # <a name="use-customer-payment-predictions"></a>Debitoru maksājumu prognožu izmantošana
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Šajā tēmā ir paskaidrots, kā izmantot debitoru maksājumu prognozes. Pirms izmantojat šo līdzekli, pārliecinieties, vai esat pabeidzis tā uzstādīšanas darbības. Plašāku informāciju skatiet šeit: [Debitoru maksājumu prognozēšanas iespējošana](enable-cust-paymnt-prediction.md).
 
-Varat skatīt debitoru maksājumu prognozes, kas atrodas darbvietā **Debitoru kredīta un kolekcijas pārvaldība** un divās jaunās saraksta lapās, **Maksājumu prognozes katram darījumam** un **Maksājumu prognozes katram debitoram**.
+Debitoru maksājumu prognozes var skatīt darbvietā Pārvaldīt debitoru kredītu un atgādinājumus, kā arī divās jaunās saraksta **·** **lapās: darbību maksājumu prognozēšana** un debitoru maksājumu **prognozēšanas**.
 
 ### <a name="manage-customer-credit-and-collections-workspace"></a>Darbvieta Debitora kredīta un iekasēšanas pārvaldība
 
-Darbvietā **Debitora kredīta un iekasēšanas pārvaldība** ietver divus jaunus elementus, **Maksājumu prognozes katram darījumam** un **Debitori ar prognozētajām augstajām kavējuma bilancēm**.
+Darbvieta **Pārvaldīt debitora kredītu un iekasēšanas** darbalauku ietver divas jaunas darbības: darbību **maksājumu prognozes un debitoru maksājumu** **·** prognozēšanas.
 
-- Elements **Maksājumu prognoze katram darījumam** rāda atvērto debitora darījumu skaitu, kam ir iespējamība, ka maksājums tiks saņemts **Laicīgi**, ir mazāka par 50 procentiem. Varat atlasīt šo elementu, lai atvērtu saraksta lapu **Maksājumu prognozes katram darījumam**.
-- Elements **Debitori ar prognozētajām augstajām kavējuma bilancēm** parāda to klientu skaitu, kuriem tiek prognozēts, ka vairāk nekā puse (50 procenti) no kopējās bilances tiks apmaksāta novēloti un/vai ļoti novēloti. Varat atlasīt šo elementu, lai atvērtu saraksta lapu **Maksājumu prognoze katram debitoram**.
+### <a name="transaction-payment-predictions-list-page"></a>Darījuma maksājuma prognožu saraksta lapa
 
-[![Darbvieta Debitora kredīta un iekasēšanas pārvaldība.](./media/manage-customer-credit-collections.png)](./media/manage-customer-credit-collections.png)
+Saraksta lapā Darbību maksājumu prognozes varat skatīt maksājumu iespējamību atvērtām darbībām laika, nokavēto un ļoti **·** **·** **·** **nokavēto** intervālu ietvaros. Katram darījumam režģī kolonna **Iespējamība Laicīgi** parāda iespējamību, ka rēķins tiks apmaksāts apmaksas datumā vai pirms tā. Ja iespējamība, ka ir maksājums notiks laicīgi, ir mazāka par 50 procentiem, blakus procentuālajai vērtībai kolonnā **Iespējamība: laicīgi** tiek parādīts sarkans aplis, lai norādītu novēlota maksājuma risku.
 
-### <a name="payment-predictions-per-transaction-list-page"></a>Saraksta lapa Maksājumu prognozes katram darījumam
-
-Saraksta lapā **Maksājumu prognozes katram darījumam** var skatīt maksājumu iespējamību par atvērtiem darījumiem ( **Laicīgi**, **Novēloti** un **Ļoti novēloti** ). Katram darījumam režģī kolonna **Iespējamība Laicīgi** parāda iespējamību, ka rēķins tiks apmaksāts apmaksas datumā vai pirms tā. Ja iespējamība, ka ir maksājums notiks laicīgi, ir mazāka par 50 procentiem, blakus procentuālajai vērtībai kolonnā **Iespējamība: laicīgi** tiek parādīts sarkans aplis, lai norādītu novēlota maksājuma risku.
-
-[![Lapa Maksājumu prognoze katram darījumam.](./media/payment-predictions-per-transaction.png)](./media/payment-predictions-per-transaction.png)
+[![ Lapa Maksājumu prognoze katram darījumam.](./media/payment-predictions-per-transaction.png)](./media/payment-predictions-per-transaction.png)
 
 Lapas labajā pusē esošajā rūtī **Saistītā informācija** tiek rādīta detalizēta informācija par prognozēm.
 
@@ -53,13 +49,13 @@ Lapas labajā pusē esošajā rūtī **Saistītā informācija** tiek rādīta d
 
 Dati sadaļā **Galvenie faktori** un kopsavilkuma cilnēs **Klientu ieskati** un **Klientu vēsture** palīdz izskaidrot maksājumu prognozes. Tas var palīdzēt palielināt jūsu pārliecību par prognožu efektivitāti.
 
-[![Grafiskie indikatori maksājuma prognozēm rūtī Saistītā informācija.](./media/payment-prediction-gauges.png)](./media/payment-prediction-gauges.png)
+[![ Grafiskie indikatori maksājuma prognozēm rūtī Saistītā informācija.](./media/payment-prediction-gauges.png)](./media/payment-prediction-gauges.png)
 
-### <a name="payment-prediction-per-customer-list-page"></a>Saraksta lapa Maksājumu prognoze katram debitoram
+### <a name="customer-payment-predictions-list-page"></a>Debitora maksājuma prognožu saraksta lapa
 
-Saraksta lapa **Maksājumu prognoze katram debitoram** parāda kopējo atvērto bilanci un summu, kas tiek prognozēta apmaksai intervālos **Laicīgi**, **Novēloti** un **Ļoti novēloti**.
+Debitoru maksājumu prognozēšanas saraksta lapa parāda kopējo atvērto bilanci un summu, kas ir prognozēta apmaksai Pēc laika, Nokavēto un Ļoti **·** **·** **·** **vēlu** intervālos.
 
-[![Lapa Maksājumu prognozes katram debitoram.](./media/payment-predictions-per-transaction-02.png)](./media/payment-predictions-per-transaction-02.png)
+[![ Lapa Maksājumu prognozes katram debitoram.](./media/payment-predictions-per-transaction-02.png)](./media/payment-predictions-per-transaction-02.png)
 
 Maksājuma summa katrā grozā tiek aprēķināta kā darījumu bilances svērtā vidējā summa. Šī summa tiek aprēķināta, pamatojoties uz maksājumu iespējamību katrā grozā.
 
@@ -81,26 +77,20 @@ Piemēram, debitoram ir trīs atvērti darījumi, kam katrā grozā ir tālāk m
 
 Lapas labajā pusē esošajā sadaļā **Saistītā informācija** tiek rādīta detalizēta informācija par prognozēm.
 
-- Darījuma, kas atlasīts režģī, kopsavilkuma cilne **Maksājumu prognozes** rāda detalizētu informāciju par maksājuma prognozēm intervālos **Laicīgi**, **Novēloti** un **Ļoti novēloti**. Sadaļā **Galvenie faktori** ir redzami galvenie faktori, kas ietekmēja maksājumus. Galvenie faktori ir konkrētā darījuma un/vai debitora atribūti šim darījumam.
+- Darījuma, kas atlasīts režģī, kopsavilkuma cilne **Maksājumu prognozes** rāda detalizētu informāciju par maksājuma prognozēm intervālos **Laicīgi**, **Novēloti** un **Ļoti novēloti**.
 - Kopsavilkuma cilnē **Debitora ieskati** redzams pašreizējais rēķina, maksājuma un iekasēšanas statistika par debitoru atlasītajam darījumam.
 - Kopsavilkuma cilnē **Debitora vēsture** tiek radīta debitora maksājumu vēsture intervālos **Laicīgi**, **Novēloti** un **Ļoti novēloti**.
 
-Dati sadaļā **Galvenie faktori** un kopsavilkuma cilnēs **Klientu ieskati** un **Klientu vēsture** palīdz izskaidrot maksājumu prognozes. Tas var palīdzēt palielināt jūsu pārliecību par prognožu efektivitāti.
+Dati, kas ir **debitoru ieskatu un** debitoru vēstures kopsavilkuma **·** cilnēs, palīdz skaidrot maksājumu prognozes. Tas var palīdzēt palielināt jūsu pārliecību par prognožu efektivitāti.
 
 ## <a name="improving-the-accuracy-of-payment-predictions"></a>Maksājumu prognožu precizitātes uzlabošana
 
 Varat skatīt maksājumu prognožu precizitāti, dodoties uz **Kredīti un iekasēšana \> Iestatīšana \> Finanšu ieskati \> Finanšu ieskatu parametri**. Cilnē **Debitoru maksājumu ieskati** sadaļa **Prognozēšanas modelis** parāda prognozēšanas modeļa precizitāti procentos.
 
-[![Maksājumu prognožu precizitāte.](./media/finance-insights-parameters-accuracy-2nd.png)](./media/finance-insights-parameters-accuracy-2nd.png)
+[![ Maksājumu prognožu precizitāte.](./media/finance-insights-parameters-accuracy-2nd.png)](./media/finance-insights-parameters-accuracy-2nd.png)
 
 Ja neesat apmierināts ar precizitāti, atlasiet saiti **Uzlabot modeļa precizitāti**, lai atvērtu AI Builder paplašinājumu. AI Builder paplašinājumā varat atlasīt vai atcelt lauku atlasi, kamēr jūs esat atlasījis laukus, kas, jūsuprāt, ir vissvarīgākie, lai precīzi prognozētu maksājumu iespējamību. Kad esat pabeidzis, varat viegli saglabāt prognozēšanas modeli un publicēt izmaiņas. Jaunais apmācītais prognozēšanas modelis tiks automātiski izvēlēts prognozēm pakalpojumā Dynamics 365 Finance.
 
-[![AI Builder paplašinājums.](./media/ai-builder.png)](./media/ai-builder.png)
-
-## <a name="release-details"></a>Informācija par izlaišanu
-
-Finanšu ieskatu publiskais priekšskatījums izmēģinājuma izvietošanai ir pieejams Amerikas Savienotajās Valstīs, Eiropā un Apvienotajā Karalistē. Korporācija Microsoft pakāpeniski pievieno atbalstu citiem reģioniem.
-
-Publiskā priekšskatījuma līdzekļus var un vajadzētu ieslēgt tikai 2. līmeņa smilškastes vidēs. Iestatīšanas un mākslīgā intelekta modeļus, kas izveidoti smilškastes vidē, nevar migrēt uz ražošanas vidi. Lai iegūtu papildu informāciju, skatiet rakstu [Pakalpojuma Microsoft Dynamics 365 Previews lietošanas papildu nosacījumi](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md).
+[![ AI Builder paplašinājums.](./media/ai-builder.png)](./media/ai-builder.png)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

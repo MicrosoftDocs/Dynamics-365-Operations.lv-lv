@@ -2,7 +2,7 @@
 title: Finansiālais stāvoklis
 description: Šajā tēmā aprakstīts, kā skaidras naudas plūsmas prognozēšanas līdzeklis prognozē organizācijas skaidras naudas pozīciju noteiktam laikam. Tajā ir aprakstītas arī opcijas, kas pieejamas, lai parādītu prognozes dažādiem periodiem.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: e54caee1e7d703bb134593412bdad77b3af5ab38
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
-ms.translationtype: HT
+ms.openlocfilehash: bf99ce5c9de00061cba2f49d00cc9dbc728753a8
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386318"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752884"
 ---
 # <a name="cash-position"></a>Finansiālais stāvoklis
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Skaidras naudas pozīcija ir skaidras naudas plūsmas prognoze tuvākajam termiņam. Tā ir balstīta uz skaidras naudas ieņēmumu prognozi no debitoriem, kuri maksā neapmaksātos rēķinus un pasūtījumus, kā arī uz skaidras naudas norēķinu prognozi, kurus kreditori maksā par pirkuma rēķiniem un pasūtījumiem.
 
@@ -44,8 +45,5 @@ Cilnes **Skaidras naudas pozīcija** apakšējā daļa parāda detalizētu infor
 - Režģis **Bankas konts** parāda sagaidāmās naudas ienākošās plūsmas un izejošās plūsmas ietekmi uz bankas bilanci.
 
 Lai saglabātu un rediģētu skaidras naudas pozīciju, izveidojiet momentuzņēmumu. Lai iegūtu papildinformāciju par to, kā strādāt ar momentuzņēmumiem, skatiet [Pārskats par momentuzņēmumiem](payment-snapshots.md).
-
-#### <a name="privacy-notice"></a>Paziņojums par konfidencialitāti
-Priekšskatījumiem (1) var tikt izmantots mazāk konfidencialitātes un drošības pasākumu nekā pakalpojumam Dynamics 365 Finance and Operations, (2) tie nav ietverti pakalpojuma līmeņa līgumā par šo pakalpojumu, (3) tos nedrīkst izmantot personas datu vai citu tādu datu apstrādei, uz kuriem attiecas juridiskās vai normatīvās prasības, un (4) tiem tiek nodrošināts ierobežots atbalsts.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

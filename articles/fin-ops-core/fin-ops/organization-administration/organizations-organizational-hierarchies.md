@@ -2,7 +2,7 @@
 title: Organizāciju un organizāciju hierarhiju pārskats
 description: Organizācijas hierarhijas pārstāv attiecības starp organizācijām, kas veido jūsu uzņēmumu.
 author: sericks007
-ms.date: 07/25/2019
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74aa2736b4cfb11039ea1cee3f62e74cf4928a1b27cea16e7e0e86f66bdddd59
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 6f0388b6e7c22c339d26b82c35f1bbb1ef54cdb5
+ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715993"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798350"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>Organizāciju un organizāciju hierarhiju pārskats
 
@@ -64,9 +64,19 @@ Komanda ir organizācija, kuras dalībniekiem piemīt kopīgā atbildība, inter
 
 Iestatiet organizācijas hierarhijas, lai apskatītu savu uzņēmumu no dažādām perspektīvām un veidotu pārskatus. Piemēram, var iestatīt vienu juridisku personu hierarhiju nodokļu, juridisko vai ar likumu noteikto pārskatu veidošanai. Iestatiet hierarhiju, kas balstās uz pārvaldības struktūrvienību, lai veidotu pārskatus par finanšu informāciju, kura saskaņā ar likumu nav obligāta, bet tiek izmantota iekšējās kontroles nolūkiem. Piemēram, var izveidot pirkšanas hierarhiju, lai kontrolētu pirkšanas politiku, noteikumus un biznesa procesus.
 
+> [!NOTE]
+> Pēc pārvaldības struktūrvienības pievienošanas hierarhijai pārvaldības struktūrvienību nevar dzēst. 
+
 Katrai hierarhijai tiek piešķirts mērķis. Hierarhijas mērķis nosaka organizāciju veidus, ko var iekļaut hierarhijā. Mērķis nosaka arī pielietojuma scenārijus, kuros hierarhiju var izmantot.
 
 Organizācijas hierarhijā var koplietot parametrus, politiku un transakcijas. Organizācija var mantot vai ignorēt savas pamatorganizācijas parametrus. Tomēr koplietojamie pamatdati, piemēram, preces un adrešu grāmatas, attiecas uz visu organizāciju un tos nevar ignorēt atsevišķām organizācijām. Organizāciju un hierarhiju izveidi ir rūpīgi jāplāno. Papildinformāciju skatiet rakstā [Jūsu organizācijas hierarhijas plānošana](plan-organizational-hierarchy.md).
+
+## <a name="additional-resources"></a>Papildu resursi
+- [Organizācijas hierarhijas plānošana](plan-organizational-hierarchy.md)
+- [Organizācijas hierarhijas izveide](tasks/create-organization-hierarchy.md)
+- [Izveidot juridisko personu](tasks/create-legal-entity.md)
+- [Pārvaldības struktūrvienības izveide](tasks/create-operating-unit.md)
+
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: a4f9e5a4a318ceaa45b6919e394e1ff335bfb193
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
-ms.translationtype: HT
+ms.openlocfilehash: a795f88aed78582ad4a2faa90ab1c2529017850f
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678839"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778161"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10022-november-2021"></a>Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.22. (2021. gada novembris)
 
@@ -41,7 +41,6 @@ ms.locfileid: "7678839"
 
 | Modulis | Līdzekļa nosaukums līdzekļu pārvaldībā | Papildinformācija |
 |---|---|---|
-| Izmaksu pārvaldība | Izveidot saistītos dokumentus standarta izmaksu noapaļošanas pārvērtēšanai | <p>Kad tiek veikta krājumu finansiālā grāmatošana (piemēram, pārdošanas pasūtījuma rēķins vai krājumu darbība), šī funkcija liek sistēmai izveidot atsevišķu dokumentu jebkurām saistītām standarta izmaksu noapaļošanas pārvērtēšanām un pievienot to finanšu grāmatošanas dokumentam kā saistīto dokumentu.</p><p>Bez šīs funkcijas sistēma reģistrē standarta izmaksu noapaļošanas pārvērtēšanu vienā un tajā pašā dokumenta grāmatošanā. Šī darbība reizēm var radīt konfliktējošu datuma informāciju, jo pārvērtēšana izmanto sesijas vai sistēmas datumu, bet finanšu grāmatojumi izmanto grāmatošanas datumu.</p> |
 | Dalītā hibrīda topoloģija | *(Līdzekļu pārvaldība nav nepieciešama.)* | <p>Šis laidiens paplašina noliktavas pārvaldības darba noslodzes izejošās noslodzes plānošanas iespējas mākoņa un malas apjoma vienībām.</p><p>Plašāku informāciju skatiet rakstā [Mākoņa un malas mēroga vienības ražošanas izpilde](../cloud-edge/cloud-edge-workload-warehousing.md).</p> |
 | Tehnisko izmaiņu pārvaldība | Tehnisko preču variantu ģenerēšana | <p>Šī funkcija ļauj ģenerēt vairākus variantus tehniskais precei, balstoties uz tās krāsu, izmēru, stilu vai konfigurācijas dimensijām.</p><p>Papildinformāciju skatiet [Tehnisko preču variantu ģenerēšana](../engineering-change-management/engineering-variants.md).</p> |
 | Krājumu un noliktavas pārvaldība | Krājumu redzamības integrācija ar rezervācijas nobīdi | <p>Šo funkciju var aktivizēt tikai pēc tam, kad ir aktivizēta funkcija *Krājumu redzamības integrācija*. Tā nodrošina funkcionalitāti, lai kompensētu rezervācijas, kas veiktas krājumu redzamībai.</p><p>Papildinformāciju skatiet [Krājumu uztveramības pievienojumprogrammas rezervācijas](../inventory/inventory-visibility-reservations.md).</p> |

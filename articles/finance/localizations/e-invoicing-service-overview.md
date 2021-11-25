@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: eebe51ae89326965235c031ed11008c6af3d453f0f297d3201862946ab4caca9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 815e3f15f97c7f7083c4044b9f61bd05a33624cc
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741512"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778188"
 ---
 # <a name="electronic-invoicing-overview"></a>Elektroniskās rēķinu izrakstīšanas pārskats
 
@@ -44,7 +44,7 @@ Elektronisko rēķinu izrakstīšana var palīdzēt sasniegt šādus mērķus:
 
 Lai izmantotu elektronisko rēķinu izrakstīšanu, tas ir jāinstalē no jūsu projekta programmā Microsoft Dynamics Lifecycle Services (LCS). Pēc tam sekojiet iestatīšanas procedūrai, lai ieslēgtu integrāciju ar programmu Finance vai Supply Chain Management. Papildinformāciju skatiet sadaļā [Sākt ar elektronisko rēķinu izrakstīšanu](e-invoicing-get-started.md).
 
-## <a name="service-availability"></a><a name="availability"></a>Pakalpojuma pieejamība
+## <a name="service-availability"></a><a name="availability"></a> Pakalpojuma pieejamība
 
 Pašlaik elektronisko rēķinu izrakstīšana ir pieejama klientiem priekšskatījuma programmas ietvaros, un nākamajā fāzē pakalpojums kļūs vispārīgi pieejams. Tā kā funkcionalitāte, kas attiecas uz valsts/reģiona specifiskām prasībām, var būt ierobežota dažādās laidiena fāzēs, vienmēr pārbaudiet visjaunāko dokumentāciju, kas izceļ atbalstīto valsts/reģiona specifisko risinājumu segumu un darbības jomu.
 
@@ -52,6 +52,8 @@ Elektronisko rēķinu izrakstīšana ir izvietota šādās Azure ģeogrāfijās:
 
 - ASV
 - Eiropa
+- Apvienotā Karaliste
+- Āzija
 
 > [!NOTE]
 > Elektronisko rēķinu izrakstīšana neatbalsta lokālas izvietošanas.
@@ -66,7 +68,7 @@ Elektronisko rēķinu izrakstīšanu var izmantot scenārijos, kur jāizveido un
 - Saskaņota lietotāja pieredze, lai varētu konfigurēt un pārraudzīt e-rēķinu procesu visās valstīs vai reģionos
 - Ātrāka, vieglāka un lētāka Elektronisko rēķinu izrakstīšanas risinājuma pieņemšana jaunajās valstīs vai reģionos
 - Pakalpojuma konfigurācija, izmantojot regulatīvo konfigurācijas pakalpojumu (Regulatory Configuration Service - RCS) un globalizācijas līdzekļa iestatījumu
-- Biznesa datu pārveide vairākos e-rēķinu formātos (XML, JavaScript Object Notation \[JSON\], TXT un ar komatu atdalītas vērtības \[CSV\]), izmantojot konfigurācijas, kas definētas RCS:
+- Biznesa datu pārveide vairākos e-rēķinu formātos (XML, JavaScript Object Notation \[ JSON\], TXT un ar komatu atdalītas vērtības \[ CSV\]), izmantojot konfigurācijas, kas definētas RCS:
 
     - Elektronisko pārskatu formāti, kas ir pieejami valstīm vai reģioniem, kur nav pieejamas konfigurēšana e-rēķina pārveidei
 

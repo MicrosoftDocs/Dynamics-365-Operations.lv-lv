@@ -1,8 +1,8 @@
 ---
 title: Pēctecības plāna izstrāde
 description: Augot organizācijai, jāsāk pēctecības plānošana.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HcmSkillMapping, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ca1d9dda75038d937e2a3dad4582feefa617aac9f7f3f1a75ffd274c69c68ae9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: ed10813c30b9a49b84a7e8e333fbac3d1e26720a
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768219"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731520"
 ---
 # <a name="develop-a-succession-plan"></a>Pēctecības plāna izstrāde
 
@@ -35,8 +35,8 @@ Augot organizācijai, jāsāk pēctecības plānošana. Pēctecības plānošan�
 7. Atlasiet **Persona**.
 8. Laukā **Persons** ierakstiet kādu vārdu vai atlasiet no nolaižamā saraksta.
 9. Atlasiet **Labi**.
-10. Izvērsiet kopsavilkuma cilni **Sertifikāti**, lai skatītu vai rediģētu prasmju kartējumā iekļautos sertifikātus.
-11. Izvērsiet kopsavilkuma cilni **Prasmes**, lai apskatītu vai rediģētu iekļaujamās prasmes.
+10. Izvērsiet kopsavilkuma **cilni** Sertifikāti, lai skatītu vai rediģētu sertifikātus, kas ietverti prasmju kartēšanā.
+11. Izvērsiet kopsavilkuma **cilni** Prasmes, lai skatītu vai rediģētu iekļaujamās prasmes.
 12. Sarakstā atzīmējiet pirmo rindu. Piemērs: Grāmatvedība.
 13. Atlasiet izvēles rūtiņu **Nav obligāti**.
 14. Laukā **Svarīgums** atlasiet kādu opciju. Ja kādu prasmi atzīmējat kā neobligātu, jums šai prasmei ir jānorāda svarīguma līmenis.  
@@ -48,8 +48,8 @@ Augot organizācijai, jāsāk pēctecības plānošana. Pēctecības plānošan�
 20. Laukā **Svarīgums** atlasiet kādu opciju.
 21. Sarakstā atlasiet 4. rindu.
 22. Atlasiet izvēles rūtiņu **Nav obligāti**.
-23. Laukā Svarīgums atlasiet kādu opciju.
-24. Izvērsiet kopsavilkuma cilni **Izglītība**, lai apskatītu vai rediģētu prasmju kartējumā iekļaujamās izglītības kompetences.
+23. Laukā **Svarīgums** atlasiet kādu opciju.
+24. Izvērsiet kopsavilkuma **cilni** Izglītība, lai skatītu vai rediģētu izglītības zināšanas, kas jāiekļauj prasmju kartēšanā.
 25. Atlasiet **Izpildīt**.
 26. Atlasiet **Labi**.
 27. Atlasiet **Rezultāts**.

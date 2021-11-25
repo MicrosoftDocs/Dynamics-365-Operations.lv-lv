@@ -1,7 +1,7 @@
 ---
 title: Atlikuma nokārtošana
 description: Jūs varat apmaksāt atlikušo no norēķinu darbības, ieskaitot šo summu virsgrāmatas kontā.
-author: mikefalkner
+author: roschlom
 ms.date: 10/16/2018
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 1eb82c1f5982b30052acb2cb7659f6c07f2a4da54b68f602a2afb4e499fbcc73
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 216c5c1d7db72e5f5071f2cd03656df538a64e72
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719792"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7754100"
 ---
 # <a name="settle-remainder"></a>Atlikuma nokārtošana
 
@@ -33,7 +33,7 @@ Pirms atlikuma nokārtošanas izmantošanas, ir jāiespējo atlikuma nokārtoša
 2)  Atlasiet cilni **Norēķini** un noklikšķiniet uz **Iespējot atlikuma nokārtošanu**.
 3)  Laukā **Noklusējuma iemesla kods** atlasiet noklusējuma iemesla kodu. Iemeslu kodiem jau ir jābūt iestatītiem sadaļā **Debitoru parādi > Iestatījumi > Debitoru norakstīšanas iemesla kodi** vai **Kreditoru parādi > Iestatījumi > Debitoru norakstīšanas iemesla kodi**. **Noklusējuma atlikuma nokārtošanas konts** pēc noklusējuma būs konts, kas piešķirts norakstīšanas iemesla kodam.
 3)  Atjauniniet parametra **Noklusējuma atlikuma nokārtošanas konts** informāciju pēc nepieciešamības.
-4)  Laukā **Noklusējuma žurnāla nosaukums**, atlasiet maksājumu žurnālu, kas tiks izmantots, ja vēlaties izveidot maksājumu žurnālu, kad kārtojat tikai atvērtās transakcijas. Ja iespējojat atlikuma nokārtošanas līdzekli, ir jāpievieno noklusējuma žurnāla nosaukums.
+4)  Noklusētajā žurnāla nosaukumā atlasiet maksājumu žurnālu, kas tiks lietots, ja vēlaties izveidot maksājumu žurnālu, kad iestatīsit **·** tikai atvērtās darbības. Ja iespējojat atlikuma nokārtošanas līdzekli, ir jāpievieno noklusējuma žurnāla nosaukums.
 
 ## <a name="settle-remainder-from-a-journal"></a>Atlikuma nokārtošana no žurnāla
 Ja neiespējojat līdzekli **Atlikuma nokārtošana**, jūs joprojām varat ievadīt transakciju žurnālā un pēc tam nokārtot transakcijas atbilstoši žurnālam, kā to darījāt iepriekš. Noklikšķinot uz pogas **OK**, atvērtā rēķina bilance tiek samazināta atbilstoši iemaksātajai summai. Ja iemaksātā summa pilnībā nenosedz rēķinu, rēķins paliek atvērts, un atlikumu var samaksāt vēlāk.

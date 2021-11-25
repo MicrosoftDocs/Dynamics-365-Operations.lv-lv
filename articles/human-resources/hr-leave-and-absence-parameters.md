@@ -1,8 +1,8 @@
 ---
 title: Atvaļinājumu un prombūtnes parametru konfigurēšana
-description: Definējiet cilvēkresursu parametrus atvaļinājumam un prombūtnei pakalpojumā Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 11/02/2020
+description: Šajā tēmā aprakstīts, kā definēt personāla vadības parametrus atvaļinājumam un kavējumiem Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ab4b2b3adefa388acfadc77c7b25a6b47d01571f0e58f6ab81101e25d1b548e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 59d89c4b22d71057fd3b398c91e1fbf04112e4a9
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777963"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728861"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Atvaļinājumu un prombūtnes parametru konfigurēšana
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Pirms atvaļinājumu un prombūtnes plānu iestatīšanas pakalpojumā Dynamics 365 Human Resources, ir ieteicams pārbaudīt visu saistīto personāla vadības parametru iestatījumus, tostarp:
+Pirms atvaļinājumu un kavējumu plānu iestatīšanas ieteicams pārbaudīt iestatījumus visiem saistītajiem personāla vadības Dynamics 365 Human Resources **·** parametriem, tai skaitā:
 
 - Atvaļinājumu pieprasījumu numuru sēriju
 - Likuma par ģimenes un medicīniskajiem atvaļinājumiem (FMLA) iestatījumus
@@ -74,7 +74,7 @@ Pirms atvaļinājumu un prombūtnes plānu iestatīšanas pakalpojumā Dynamics 
 
     - Atlasiet **Bilances aprēķinu**, lai parādītu bilances, kas tiek rādītas no šodienas vai no uzkrāšanas perioda. Ja atlasāt **Bilanci no šodienas**, bilance parāda visu uzkrājumu, korekciju un pieprasījumu kopsummu no šodienas. Ja atlasāt **Bilance no uzkrāšanas perioda**, bilance rāda visu uzkrājumu, korekciju un pieprasījumu kopsummu no uzkrājumu perioda, kas definēts, izmantojot atvaļinājumu plāna biežumu. 
 
-    - Iestatiet sākuma laiku pārnestā termiņa beigu pakešuzdevumam.  
+    - Iestatiet **sākuma laiku** pakešuzdevumam **Pārnest beigu** datumu.  
     
     - Atlasiet **Jā** opcijām **Atļaut darbiniekiem pirkt atvaļinājumu** un **Atļaut darbiniekiem pārdot atvaļinājumu**. Ja šīm opcijām atlasāt **Jā**, varat izveidot pirkšanas un pārdošanas atvaļinājuma politikas un dot iespēju darbiniekiem iesniegt pirkšanas un pārdošanas atvaļinājumu pieprasījumus.
 

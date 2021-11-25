@@ -2,7 +2,7 @@
 title: Lietotāja pieredzes personalizēšana
 description: Šajā tēmā ir paskaidrots, kā varat personalizēt programmu.
 author: jasongre
-ms.date: 09/27/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1f24ff1a0730f13af6231510c8e6b3cb46fde48
-ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
-ms.translationtype: HT
+ms.openlocfilehash: 6256765c41ff128b067cda9107c790691c5b376a
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581069"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777989"
 ---
 # <a name="personalize-the-user-experience"></a>Lietotāja pieredzes personalizēšana
 
@@ -46,7 +46,7 @@ Lapā **Lietotāja opcijas** ir vairāki visas sistēmas mēroga iestatījumi pa
 Papildus lietotāja iestatījumu mainīšanai var arī skatīt vai izdzēst lietojuma un personalizācijas datus no **Lietojuma datu** lapas. Lai skatītu lietojuma datus, atlasiet **Lietojuma dati** darbības rūtī. Cilnē **Personalizēšana** jūs varat skatīt un pārvaldīt izmaiņas, kuras personīgi veiktas sistēmas lapās. Šajā cilnē var arī atiestatīt līdzekli remarkas (tas ir, uznirstošos logus, kas ievieš jaunus sistēmas līdzekļus). Pēc tam tiks parādīts brīdinājums par iepriekš konstatētajiem līdzekļiem.
 
 > [!NOTE]
-> Ja ir ieslēgts līdzeklis [Saglabātie skati](saved-views.md), varat skatīt un pārvaldīt jūsu personalizācijas, atlasot **Personalizācijas** darbības rūtī **Lietotāja opcijas**.
+> Ja ir ieslēgts līdzeklis [Saglabātie skati](saved-views.md), varat skatīt un pārvaldīt jūsu personalizācijas, atlasot Personalizācijas darbības rūtī Lietotāja opcijas.
 
 ## <a name="restricted-personalization-access-formerly-implicit-personalizations"></a>Ierobežota personalizācijas piekļuve (iepriekš netieši personalizācijas)
 
@@ -107,7 +107,7 @@ Ja vēlaties lapā veikt vairākas izmaiņas vai izmaiņas, kuras nevar veikt, i
 - Atlasiet **Personalizēt šo veidlapu** grupā **Personalizēt** cilnē **Opcijas** jebkuras lapas darbību panelī.
 - Navigācijas joslā atlasiet pogu **Iestatījumi** (zobrata simbols) un pēc tam atlasiet **Personalizēt.**
 
-[![Personalizēšanas rīkjosla.](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
+[![ Personalizēšanas rīkjosla.](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
 
 #### <a name="navigating-the-page"></a>Pārvietošanās lapā
 
@@ -148,7 +148,7 @@ Dažām lapām, kurās ir ietverti saraksti, personalizēšanas līdzeklis **Pie
 > [!NOTE]
 > Ja ir ieslēgts līdzeklis [Saglabātie skati](saved-views.md), saturs, ko virzāt uz darbvietu, ir tieši saistīts ar skatu. Skatījuma vaicājums tiek izmantots, lai atgūtu datus darbvietā, un atbilstošais elements vai saite darbvietā atver lapu šim skatam, lai tam tiktu piemērots skata vaicājums un personalizācijas. Ja skats tiek atjaunināts, atbilstošie darbvietas elementi tiks pielāgoti jaunajai skata definīcijai.
 
-[![Pievienot darbvietai.](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
+[![ Pievienot darbvietai.](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
 
 - Lai darbvietai pievienotu kādu sarakstu, vispirms kārtojiet vai filtrējiet lapā esošo sarakstu, lai informācija tajā tiktu rādīta tā, kā to vēlaties rādīt darbvietā. (Ja ir ieslēgts līdzeklis **Saglabātie skati**, nevar turpināt darbu, kamēr nav saglabāts skats, kam ir šie nosacījumi.) Pēc tam atlasiet **Pievienot darbvietai**. Atlasiet darbvietu un pēc tam laukā **Prezentācija** atlasiet **Saraksts**. Kad atlasāt vienumu **Konfigurēt**, tiek parādīts dialoglodziņš, kur varat atlasīt kolonnas, kuras ir jārāda šīs darbvietas sarakstā. Varat arī norādīt etiķeti, kas ir izmantota sarakstam šajā darbvietā.
 - Lai darbvietai pievienotu kādu elementu, vispirms filtrējiet lapā esošo sarakstu, lai tajā būtu redzami dati, kurus vajag apkopot vai kuriem vēlaties ātri piekļūt. (Ja ir ieslēgts līdzeklis **Saglabātie skati**, nevar turpināt darbu, kamēr nav saglabāts skats, kam ir šie nosacījumi.) Pēc tam atlasiet **Pievienot darbvietai**. Atlasiet darbvietu un pēc tam laukā **Prezentācija** atlasiet **Elements**. Kad ir atlasīts vienums **Konfigurēt**, tiek paradīts dialoglodziņš, kur varat norādīt etiķeti, kuru ir jāizmanto elementam šajā darbvietā. Var arī norādīt, vai elementam ir jārāda skaits. Pēc tam, kad elements ir pievienots darbvietai, varat to atlasīt, lai atvērtu pašreizējo lapu no darbvietas. Pēc tam varat apskatīt filtrēto sarakstu, kas ir saistīts ar elementu.
@@ -219,6 +219,9 @@ Ja ir iespējoti saglabātie skati, izpildiet šīs darbības, lai kopētu perso
 ### <a name="export-and-import-views-or-personalizations"></a>Eksportēt un importēt skatījumus vai personalizēšanas
 
 Cits veids, kā koplietot personalizēšanas, ir caur eksportu un importu. Atsevišķi lietotāji vai administrators, kas darbojas viņu vārdā, var izmantot šo metodi, lai eksportētu viņu personalizēšanas vai skatus, un tad piešķirt eksportēto failu citiem lietotājiem importēšanai. Alternatīvi lietotāji var sniegt eksportētās personalizēšanas lietotājam, kam ir administratora privilēģijas, un šis lietotājs var izmantot **Personalizēšanas** administrēšanas lapu, lai pielietotu personalizēšanas failu daudziem lietotājiem vienlaicīgi.
+
+> [!IMPORTANT]
+> Kad personalizācijas pastāv starp atjauninājumiem, visu personalizāciju atkārtoti importējot pēc pakalpojuma atjaunināšanas vai jebkurā citā laikā, nav nepieciešams un tiek ļoti mazināts.   
 
 #### <a name="export"></a>Eksports
 

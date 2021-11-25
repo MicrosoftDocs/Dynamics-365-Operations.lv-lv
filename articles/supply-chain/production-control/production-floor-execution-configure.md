@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: fa5a618527ce5a20b59902e7397000bf0796cbbb
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
-ms.translationtype: HT
+ms.openlocfilehash: f852779d43beb3a43c6921a25d393ee00dff96d1
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647193"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777965"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Ražošanas izpildes interfeisa konfigurēšana
 
@@ -39,7 +39,7 @@ Ražošanas stāva izpildes interfeiss, kā arī vairāki papildu iestatījumi, 
 
 ### <a name="the-production-floor-execution-interface"></a>Ražošanas izpildes interfeiss
 
-Šis ir galvenais šajā tēmā aprakstītais līdzeklis. Tas jūsu sistēmai pievieno ražošanas stāva izpildes interfeisu. Lai to iespējotu, ieslēdziet sekojošo līdzekli [līdzekļu pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Šis ir galvenais šajā tēmā aprakstītais līdzeklis. No Piegādes ķēdes pārvaldības versijas 10.0.21 tas ir ieslēgts pēc noklusējuma. Tas jūsu sistēmai pievieno ražošanas stāva izpildes interfeisu. Lai to iespējotu, ieslēdziet sekojošo līdzekli [līdzekļu pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - Ražošanas stāva izpilde
 
@@ -47,19 +47,19 @@ Ražošanas stāva izpildes interfeiss, kā arī vairāki papildu iestatījumi, 
 
 Šie līdzekļi padara numura zīmes funkcionalitāti pieejamu ražošanas stāva izpildes interfeisam. Ja vēlaties tos izmantot, aktivizējiet tālāk norādītos līdzekļus [līdzekļu pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (šādā secībā):
 
-1. Darbu kartes ierīcei ir pievienota noliktavas vienībai, lai ziņotu par pabeigšanu
+1. Numura zīme pabeigšanai, kas pievienota darba kartes ierīcei (No piegādes ķēdes pārvaldības versijas 10.0.21 šī funkcija ir ieslēgta pēc noklusējuma.)
 1. Iespējojiet unikāla noliktavas vienības identifikatora automātisku ģenerēšanu, kad darba kartes ierīcē norādīts pabeigts statuss
 
 ### <a name="print-labels"></a>Drukāt etiķetes
 
 Šie līdzekļi padara etiķešu printēšanas funkcionalitāti pieejamu ražošanas stāva izpildes interfeisam. Ja vēlaties tos izmantot, aktivizējiet tālāk norādītos līdzekļus [līdzekļu pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (šādā secībā):
 
-1. Darbu kartes ierīcei ir pievienota noliktavas vienībai, lai ziņotu par pabeigšanu
+1. Numura zīme pabeigšanai, kas pievienota darba kartes ierīcei (No piegādes ķēdes pārvaldības versijas 10.0.21 šī funkcija ir ieslēgta pēc noklusējuma.)
 1. Izdrukāt etiķeti no darba karšu ierīces
 
 ### <a name="allow-locking-the-touch-screen"></a>Atļaut skārienekrāna bloķēšanu
 
-Šis līdzeklis pievieno pogu ražošanas stāva izpildes interfeisam, kas ļauj darbiniekiem notīrīt skārienjūtīgo ekrānu. Ja vēlaties to izmantot, ieslēdziet sekojošo līdzekli [līdzekļu pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+No Piegādes ķēdes pārvaldības versijas 10.0.21 šī funkcija ir ieslēgta pēc noklusējuma. Tā pievieno pogu ražošanas izpildes interfeisam, kas darbiniekiem ļauj sankcionēt skārienekrānu. Ja vēlaties to izmantot, pārliecinieties, ka līdzekļu pārvaldībā ir ieslēgta [šāda](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) funkcija:
 
 - Līdzeklis darba kartes ierīces un darba kartes termināļa aizturēšanai, lai var veikt to tīrīšanu
 
@@ -95,7 +95,7 @@ Pēc tam konfigurējiet dažādus atlasītās ierīces konfigurācijas iestatīj
 - **Reģistrēt daudzumu aiziešanas laikā** — iestatiet šo opciju uz *Jā*, lai mudinātu darbiniekus ziņot par notiekošajiem darbiem, kad viņi aiziet. Ja šī opcija ir iestatīta uz *Nē*, darbinieki netiks mudināti.
 - **Bloķēt darbinieku** — ja šī opcija ir iestatīta uz *Nē*, darbinieki tiks izrakstīti uzreiz pēc reģistrācijas (piemēram, jauna darba). Pēc tam ierīce atgriezīsies pierakstīšanās lapā. Ja šī opcija ir iestatīta uz *Jā*, visi darbinieki paliks pierakstījušies darba kartes ierīcē. Tomēr darbinieks var manuāli izrakstīties, lai cits darbinieks varētu pierakstīties, kamēr darba kartes ierīce turpina darboties ar to pašu sistēmas lietotāja kontu. Plašāku informāciju par šiem tabulas kontu veidiem skatiet [Piešķirtie lietotāji](config-job-card-device.md#assigned-users).
 - **Izmantot faktisko reģistrācijas laiku** — iestatiet šo opciju uz *Jā*, lai iestatītu laiku katrai jaunajai reģistrācijai tā, lai tas atbilstu precīzajam laikam, kad darbinieks iesniedzis reģistrāciju. Ja šī opcija ir iestatīta uz *Nē*, tā vietā tiek izmantots pierakstīšanās laiks. Parasti šī opcija ir jāiestata uz *Jā*, ja esat iestatījis opciju **Bloķēt darbinieku** un/vai **Viens darbinieks** uz *Jā*, kuru gadījumā darbinieki bieži paliek pierakstījušies ilgāku laiku.
-- **Viens darbinieks** — iestatiet šo opciju uz *Jā*, ja tikai viens darbinieks izmanto katru darba kartes ierīci, kurā šī konfigurācija ir aktīva. Kad šī opcija ir iestatīta uz *Jā*, opcija **Bloķēt darbinieku** automātiski tiek iestatīta uz *Jā*. Turklāt šis iestatījums noņem darbiniekam prasību (un iespēju) pierakstīties, izmantojot žetona ID (vai citu līdzīgu ID). Tā vietā darbinieks pierakstās Microsoft Dynamics 365 Supply Chain Management, izmantojot sistēmas lietotāja vienlau kontu, kas ir saistīts ar *laikā reģistrēto darbinieku* (no tabulas *darbinieki* ), un vienlaikus tiek pierakstīts darba kartes ierīcē kā šis darbinieks.
+- **Viens darbinieks** — iestatiet šo opciju uz *Jā*, ja tikai viens darbinieks izmanto katru darba kartes ierīci, kurā šī konfigurācija ir aktīva. Kad šī opcija ir iestatīta uz *Jā*, opcija **Bloķēt darbinieku** automātiski tiek iestatīta uz *Jā*. Turklāt šis iestatījums noņem darbiniekam prasību (un iespēju) pierakstīties, izmantojot žetona ID (vai citu līdzīgu ID). Tā vietā darbinieks pierakstās Microsoft Dynamics 365 Supply Chain Management, izmantojot sistēmas lietotāja vienlau kontu, kas ir saistīts ar *laikā reģistrēto darbinieku* (no tabulas *darbinieki*), un vienlaikus tiek pierakstīts darba kartes ierīcē kā šis darbinieks.
 - **Atļaut skārienekrāna bloķēšanu** — iestatiet šo opciju uz *Jā*, lai ļautu darbiniekiem bloķēt darbu kartes ierīces skārienekrānu tā, lai varētu to tīrīt. Ja šī opcija ir iestatīta uz *Jā*, ierīces pierakstīšanās lapā tiek pievienota poga **Bloķēt ekrānu tīrīšanai**. Kad darbinieks atlasa šo pogu, skārienekrāns uz laiku tiek bloķēts, lai novērstu netīšu ievadi. Tiek parādīts arī atpakaļskaitīšanas taimeris. Darbinieks pēc tam var droši tīrīt ierīci un ekrānu. Kad atpakaļskaitīšanas ir beigusies, skārienekrāns tiek automātiski atbloķēts.
 - **Ekrāna bloķēšanas ilgums** — kad opcija **Atļaut skārienekrāna bloķēšanu** ir iestatīta uz *Jā*, izmantojiet šo opciju, lai norādītu sekunžu skaitu, cik ilgi skārienekrānam ir jābūt bloķētam tīrīšanai. Ilgumam jābūt diapazonā no 5 līdz 120 sekundēm.
 - **Ģenerēt noliktavas vienību** — iestatiet šo opciju uz *Jā*, lai ģenerētu jaunu noliktavas vienību katru reizi, kad darbinieks izmanto darbu karšu ierīci pabeigšanas reģistrēšanai. Unikāls noliktavas vienības identifikators tiek ģenerēts no numuru sērijas, kas iestatīta lapā **Noliktavas pārvaldības parametri**. Kad šī opcija ir iestatīta uz *Nē*, darbiniekiem ir jānorāda esoša noliktavas vienība, kad tie reģistrē pabeigšanu.

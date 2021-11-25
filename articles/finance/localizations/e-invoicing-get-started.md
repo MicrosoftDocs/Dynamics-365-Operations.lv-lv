@@ -2,7 +2,7 @@
 title: Darba sākšana ar elektroniskās rēķinu izveidi
 description: Šajā tēmā ir sniegta informācija, kas palīdzēs sākt darbu ar elektronisko rēķinu izrakstīšanu programmās Microsoft Dynamics 365 Finance un Dynamics 365 Supply Chain Management.
 author: gionoder
-ms.date: 08/17/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d0550228dc77ed255a0033bc3b0a4ec21d48a497
-ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
-ms.translationtype: HT
+ms.openlocfilehash: ebef9cf97f7a91e0a2fd45f5e0e0fc620070b42a
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7700383"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779698"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>Darba sākšana ar elektroniskās rēķinu izveidi
 
@@ -57,7 +57,12 @@ Pirms pabeidzat šajā tēmā norādītās procedūras, ir jāievieš šādi pri
 
 Atkarībā no valsts vai reģiona elektronisko rēķinu izrakstīšanas funkcijai var būt nepieciešama specifiska konfigurācija. 
 
-Īpašiem soļiem skatiet dokumentāciju "Sākt darbu", kas ir pieejama jūsu valstij vai reģionam.
+> [!NOTE]
+> Iespējojot elektroniskās rēķinu izrakstīšanas līdzekli Somijai, programmai specifiskie parametri pārlūkos netiek atbalstīti. Lai novērstu šo problēmu, Elektronisko **pārskatu** modulī pārskatiet pārdošanas rēķina un projekta rēķinu formātu konfigurācijas. Manuāli iestatiet aprēķināto lauku kartējumam $PaymentMethodSubstitution un pēc tam saistiet šo lauku **·** ar Lauku **AtmaksaMeansCode no pārdošanas rēķina un** projekta rēķinu formātiem.
+>
+> Iespējojot Funkcionalitāti Elektronisko rēķinu izrakstīšana Itālijai, programmā specifiskie parametri pārlūkos netiek atbalstīti. Lai novērstu šo problēmu, Elektronisko pārskatu modulī manuāli iestatiet aprēķināto **·** lauku $NaturaReverseCharge **·** kartēšanai.
+>
+> Īpašiem soļiem, kas ir saistīti ar citām atrašanās vietām, skatiet dokumentāciju "Sākt darbu", kas ir pieejama jūsu valstij vai reģionam.
 
 ## <a name="import-the-model-mapping-configurations-from-electronic-reporting"></a>Modeļu kartēšanas konfigurāciju importēšana no elektronisko pārskatu veidošanas
 
@@ -241,6 +246,14 @@ Atkarībā no valsts vai reģiona Programmas iestātījumam var būt nepiecieša
 
 3. Atlasiet režģī esošu rēķinu un pēc tam atlasiet **Uzziņas** \> **Iesniegšanas informācija**.
 
+## <a name="download-an-electronic-document-file"></a>Elektroniskā dokumenta faila lejupielāde
+
+1. Dodieties uz **Organizācijas administrēšana** \> **Periodiskais** \> **Elektroniskie dokumenti** \> **Elektronisko dokumentu iesniegšanas žurnāls**.
+2. Laukā **Dokumentu tips** izvēlieties tabulu, kurā ir rēķini.
+3. Atlasiet režģī dokumentu un pēc tam atlasiet **Elektronisko dokumentu lejupielādes** \> **·** fails. Arhīvs, kas satur elektronisko dokumenta failu, tiks ieteikts lejupielādei.
+
+> [!NOTE]
+> Pirms failu lejupielādes RCS iestatījumos elektronisko rēķinu izrakstīšanas līdzekļa iestatījumos ir jābūt ieslēgtai opcijai Eksportēt **·** rezultātu.
 
 ## <a name="related-topics"></a>Saistītās tēmas
 

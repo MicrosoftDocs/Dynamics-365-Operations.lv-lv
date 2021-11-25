@@ -1,8 +1,8 @@
 ---
-title: Datu integrētāja projekta izveide
-description: Šajā tēmā paskaidrots, kā izveidot datu integrētāja projektu.
+title: Datu integrācijas projekta izveide
+description: Šajā tēmā skaidrots, kā izveidot datu integrācijas projektu.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,25 +15,26 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: b08af906c18f6c0790ca56c69a833733f48cd88c
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
-ms.translationtype: HT
+ms.openlocfilehash: 7841f8b31e0ac1a40dce9acaac747f5f378236e0
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386366"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752668"
 ---
-# <a name="create-a-data-integrator-project"></a>Datu integrētāja projekta izveide
+# <a name="create-a-data-integration-project"></a>Datu integrācijas projekta izveide
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-Šajā tēmā paskaidrots, kā izveidot datu integrētāja projektu.
+Šajā tēmā skaidrots, kā izveidot datu integrācijas projektu.
 
 1. Pierakstieties programmā Microsoft Dynamics 365 Finance.
 2. Dodieties uz **Darbvietas \> Datu pārvaldība** un atlasiet **Datu entītijas**. Pirms pārejat pie nākamās darbības, uzgaidiet, līdz visas datu entītijas ir atsvaidzinātas.
 3. Atveriet [Power Apps portālu](https://make.powerapps.com/) un veiciet tālāk norādītās darbības.
 
     1. Atlasiet atbilstošo vidi.
-    2. Kreisās puses navigācijas rūtī atlasiet **Dati \> Savienojumi**.
+    2. Navigācijas kreisajā rūtī atlasiet **Dataverse\> Savienojumi**.
     3. Izveidojiet savienojumu ar tālāk norādīto vienumu atbilstošajām instancēm.
 
         - Dynamics 365
@@ -41,7 +42,7 @@ ms.locfileid: "7386366"
 
 4. Atveriet [Power Apps vides](https://admin.powerapps.com/environments) un veiciet tālāk norādītās darbības.
 
-    1. Atlasiet **Datu integrētājs**.
+    1. Izvēlieties **Datu integrāciju**.
     2. Atlasiet **Savienojumu kopas**.
     3. Atlasiet **Jauna savienojumu kopa**.
     4. Ievadiet savienojuma nosaukumu.
@@ -57,8 +58,7 @@ ms.locfileid: "7386366"
 
     1. Izveidojiet datu integrācijas projektus tālāk norādītajām veidnēm, izmantojot savienojuma kopu, ko tikko izveidojāt.
 
-        - Debitora maksājumu ieskatu rezultāti (CDS uz Fin and Ops)
-            - Ja izmantojat versiju 10.0.17 vai jaunāku versiju, ir jāizmanto veidne ar nosaukumu Debitoru maksājumu ieskatu rezultāts (CDS uz Fin un Ops 10.0.17+).
+        - Debitoru maksājumu ieskatu rezultāts (CDS uz Fin un Ops 10.0.17+)
         - Skaidras naudas plūsmas laika sērijas rezultāti (CDS uz Fin and Ops)
         - Budžeta laika sērijas rezultāti (CDS uz Fin and Ops)
 

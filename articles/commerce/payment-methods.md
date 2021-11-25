@@ -1,8 +1,8 @@
 ---
 title: Maksāšanas metodes
 description: Kad sistēma tiek iestatīta, ir jākonfigurē katrs maksājuma tips, kuru mazumtirgotājs pieņem. Šajā rakstā ir aprakstīti maksājumu tipi, kurus varat iestatīt, un aprakstīts to iestatīšanas process.
-author: rubencdelgado
-ms.date: 06/17/2020
+author: BrianShook
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c174dd136cecedc9b23bdaa778885f75e51c9aa556a9e2709bc7da171faa8617
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 0450dbaa37365705ca59fd2223c9d3866054c12a
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713970"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779574"
 ---
 # <a name="payment-methods"></a>Maksāšanas metodes
 
@@ -47,5 +47,10 @@ Lai iestatītu maksāšanas metodes, ir jāizpilda tālāk aprakstītie uzdevumi
 3. Iestatiet veikala maksājuma metodes. Saistiet maksājuma metodes ar katru veikalu un pēc tam ievadiet veikalam raksturīgos maksājuma metodes iestatījumus.
 4. Iestatiet veikalu kartes maksājuma metodes. Veiciet kartes iestatījumus visām kartes maksājuma metodēm, kas tiek pieņemtas veikalā.
 
+## <a name="handle-change-tendering-for-payment-methods"></a>Apstrādāt norēķinu izmaiņas maksāšanas metodēm
+
+Dažas maksāšanas metodes neatbalsta tiešo izmaiņu norēķinus, ja pārdošanas punkta transakciju laikā līdzekļi ir atgriežami debitoriem. Norēķinu **·** maiņai **var izmantot tikai** skaidras naudas un valūtas maksājuma metodes. 
+
+Lai apstrādātu gadījumus, kad darbības laikā ir nepieciešama norēķinu maiņa, bet maksājuma metode to neatbalsta, varat definēt maksājumu **maiņas** metodi. Kad veikalam iestatāt veikala maksāšanas metodes, atlasiet maksāšanas metodi, kuru vēlaties izmantot. Pēc tam **sadaļas** Mainīt laukā **Mainīt** norēķinus ievadiet norēķinu maiņas maksājuma opciju. Piemēram, varat ievadīt **1,** lai norādītu, ka skaidra nauda var tikt izmantota kā norēķinu maiņas maksāšanas opcija.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

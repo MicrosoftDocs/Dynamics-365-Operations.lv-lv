@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 10/12/2020
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 6450ef7b0a59df3a8da2c8bed3aa9c0b14a9cc97
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
-ms.translationtype: HT
+ms.openlocfilehash: 434d1a432cc4b8cfd31198f8f668aef6e04a51fa
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7417061"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782607"
 ---
 # <a name="guidance-for-dual-write-setup"></a>Norādījumi par duālā ieraksta iestatīšanu
 
@@ -50,7 +50,7 @@ Tālāk ir norādīti atbalstītie iestatīšanas scenāriji:
 + [Esoša Finance and Operations programmas instance un jauna klientu iesaistīšanas programmas instance](#existing-new)
 + [Esoša Finance and Operations programmas instance un esoša klientu iesaistīšanas programmas instance](#existing-existing)
 
-## <a name="a-new-finance-and-operations-app-instance-and-a-new-customer-engagement-app-instance"></a><a id="new-new"></a>Jauna Finance and Operations programmas instance un jauna klientu iesaistīšanas programmas instance
+## <a name="a-new-finance-and-operations-app-instance-and-a-new-customer-engagement-app-instance"></a><a id="new-new"></a> Jauna Finance and Operations programmas instance un jauna klientu iesaistīšanas programmas instance
 
 Lai iestatītu duālā ieraksta savienojumu starp jaunu Finance and Operations programmas instanci, kurai nav datu, un jaunu klientu iesaistīšanas programmas instanci, veiciet darbības, kas aprakstītas rakstā [Duālā ieraksta iestatīšana no Lifecycle Services](lcs-setup.md). Kad savienojuma iestatīšana ir pabeigta, automātiski tiek veiktas tālāk norādītās darbības.
 
@@ -61,7 +61,7 @@ Lai iestatītu duālā ieraksta savienojumu starp jaunu Finance and Operations p
 
 Abas vides pēc tam ir gatavas tiešsaistes datu sinhronizācijai.
 
-## <a name="a-new-finance-and-operations-app-instance-and-an-existing-customer-engagement-app-instance"></a><a id="new-existing"></a>Jauna Finance and Operations programmas instance un esoša klientu iesaistīšanas programmas instance
+## <a name="a-new-finance-and-operations-app-instance-and-an-existing-customer-engagement-app-instance"></a><a id="new-existing"></a> Jauna Finance and Operations programmas instance un esoša klientu iesaistīšanas programmas instance
 
 Lai iestatītu duālā ieraksta savienojumu starp jaunu Finance and Operations programmas instanci, kurai nav datu, un esošu klientu iesaistīšanas programmas instanci pakalpojumā Dynamics 365, veiciet darbības, kas aprakstītas rakstā [Duālā ieraksta iestatīšana no Lifecycle Services](lcs-setup.md). Kad savienojuma iestatīšana ir pabeigta, automātiski tiek veiktas tālāk norādītās darbības.
 
@@ -80,7 +80,7 @@ Lai sinhronizētu esošos Dataverse datus uz Finance and Operations programmu, r
 
 Lai skatītu saites uz piemēru un alternatīvu pieeju, skatiet sadaļu [Piemērs](#example) tālāk šajā tēmā.
 
-## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-a-new-customer-engagement-app-instance"></a><a id="new-data-new"></a>Jauna Finance and Operations programmas instance, kurai ir dati, un jauna klientu iesaistīšanas programmas instance
+## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-a-new-customer-engagement-app-instance"></a><a id="new-data-new"></a> Jauna Finance and Operations programmas instance, kurai ir dati, un jauna klientu iesaistīšanas programmas instance
 
 Lai iestatītu duālā ieraksta savienojumu starp jaunu Finance and Operations programmas instanci, kurā ir demonstrācijas dati, un jaunu klientu iesaistīšanas programmas instanci pakalpojumā Dynamics 365, izpildiet darbības, kas aprakstītas sadaļā [Jauna Finance and Operations programmas instance un jauna klientu iesaistīšanas programmas instance](#new-new) iepriekš šajā tēmā. Kad savienojuma iestatīšana ir pabeigta, ja vēlaties sinhronizēt demonstrācijas datus uz klientu iesaistīšanas programmu, veiciet šādas darbības.
 
@@ -89,7 +89,7 @@ Lai iestatītu duālā ieraksta savienojumu starp jaunu Finance and Operations p
 
 Lai skatītu saites uz piemēru un alternatīvu pieeju, skatiet sadaļu [Piemērs](#example).
 
-## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-an-existing-customer-engagement-app-instance"></a><a id="new-data-existing"></a>Jauna Finance and Operations programmas instance, kurai ir dati, un esoša klientu iesaistīšanas programmas instance
+## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-an-existing-customer-engagement-app-instance"></a><a id="new-data-existing"></a> Jauna Finance and Operations programmas instance, kurai ir dati, un esoša klientu iesaistīšanas programmas instance
 
 Lai iestatītu duālā ieraksta savienojumu starp jaunu Finance and Operations programmas instanci, kurā ir demonstrācijas dati, un esošu klientu iesaistīšanas programmas instanci pakalpojumā Dynamics 365, izpildiet darbības, kas aprakstītas sadaļā [Jauna Finance and Operations programmas instance un esoša klientu iesaistīšanas programmas instance](#new-existing) iepriekš šajā tēmā. Kad savienojuma iestatīšana ir pabeigta, ja vēlaties sinhronizēt demonstrācijas datus uz klientu iesaistīšanas programmu, veiciet šādas darbības.
 
@@ -105,7 +105,7 @@ Lai sinhronizētu esošos Dataverse datus uz Finance and Operations programmu, r
 
 Lai skatītu saites uz piemēru un alternatīvu pieeju, skatiet sadaļu [Piemērs](#example).
 
-## <a name="an-existing-finance-and-operations-app-instance-and-a-new-customer-engagement-app-instance"></a><a id="existing-new"></a>Esoša Finance and Operations programmas instance un jauna klientu iesaistīšanas programmas instance
+## <a name="an-existing-finance-and-operations-app-instance-and-a-new-customer-engagement-app-instance"></a><a id="existing-new"></a> Esoša Finance and Operations programmas instance un jauna klientu iesaistīšanas programmas instance
 
 Duālā ieraksta savienojuma iestatīšana starp esošo Finance and Operations programmas instanci un jaunu vai esošu klientu iesaistīšanās programmas instanci notiek Finance and Operation vidē.
 
@@ -114,7 +114,7 @@ Duālā ieraksta savienojuma iestatīšana starp esošo Finance and Operations p
 
 Lai skatītu saites uz piemēru un alternatīvu pieeju, skatiet sadaļu [Piemērs](#example).
 
-## <a name="an-existing-finance-and-operations-app-instance-and-an-existing-customer-engagement-app-instance"></a><a id="existing-existing"></a>Esoša Finance and Operations programmas instance un esoša klientu iesaistīšanas programmas instance
+## <a name="an-existing-finance-and-operations-app-instance-and-an-existing-customer-engagement-app-instance"></a><a id="existing-existing"></a> Esoša Finance and Operations programmas instance un esoša klientu iesaistīšanas programmas instance
 
 Duālā ieraksta savienojuma iestatīšana starp esošo Finance and Operations programmas instanci un esošu klientu iesaistīšanās programmas instanci pakalpojumu notiek Finance and Operation vidē.
 

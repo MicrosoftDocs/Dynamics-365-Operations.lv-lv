@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: b53e07f69992a567d5b300ae1f2b24b74541d176
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
-ms.translationtype: HT
+ms.openlocfilehash: ec5afd92a71c8b12c913de78a513abb0959df88a
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416356"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782065"
 ---
 # <a name="troubleshoot-issues-related-to-solution-awareness"></a>Problēmu novēršana saistībā ar risinājuma apzināšanos
 
@@ -33,7 +33,7 @@ ms.locfileid: "7416356"
 
 Lapā **Duālais ieraksts** var tikt parādīts kļūdas ziņojums, kas līdzīgs šim piemēram:
 
-*Elements ar nosaukumu 'msdyn\_dualwriteentitymap' ar namemapping = 'Loģisks' netika atrasts MetadataCache.*
+*Elements ar nosaukumu 'msdyn\_ dualwriteentitymap' ar namemapping = 'Loģisks' netika atrasts MetadataCache.*
 
 Lai novērstu šo problēmu, pārliecinieties, vai programmā Dataverse ir instalēts duālā ieraksta pamata risinājums. Risinājumu apzināšanai duālais ieraksts ir priekšnoteikums.
 

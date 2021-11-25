@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-obaranov
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 652e6fb3f586fc873ffabf2c741e5c99216931461f159a42f08f9922e756280f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 4883f8a548645436e17b933d87d4ee6330570d48
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735900"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777869"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>Plānot kopuma etiķešu drukāšanu kopuma laikā
 
@@ -33,7 +33,7 @@ Izmantojot līdzekli *Uz uzdevumiem balstīta kopuma etiķetes drukāšana*, sis
 Lai izmantotu šajā tēmā aprakstītos līdzekļus, tie sistēmai ir jāieslēdz. Izmantojiet [Līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lai iespējotu līdzekļus šādā secībā:
 
 1. *Kopuma etiķešu drukāšana* — šis līdzeklis ir nepieciešams, lai kopuma etiķešu drukāšanai iespējotu kopuma apstrādes metodi.
-1. *Organizācijas darba bloķēšana* - šis līdzeklis ir nepieciešams gan manuālai, gan automātiskai ieplānotā darba izveidošanai.
+1. *Organizācijas darba bloķēšana* - šis līdzeklis ir nepieciešams gan manuālai, gan automātiskai ieplānotā darba izveidošanai. (No Piegādes ķēdes pārvaldības versijas 10.0.21, šī funkcija ir obligāta, tāpēc tā ir ieslēgta pēc noklusējuma un to nevar atkal izslēgt.)
 1. *Uz uzdevumiem balstīta kopuma etiķetes drukāšana* — šis līdzeklis ir nepieciešams, lai sadalītu kopuma etiķetes drukāšanu ar atsevišķu darbības jomu.
 
 ## <a name="manually-enable-the-new-wave-step-method"></a>Manuāli iespējot jauno kopuma darbības metodi

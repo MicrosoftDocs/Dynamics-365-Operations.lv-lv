@@ -1,26 +1,26 @@
 ---
 title: Darba komponentu iestatīšana
-description: Šajā rakstā ir aprakstīti konceptuālie elementi, kas var būt iekļauti darbā, un sniegti piemēri par to, kā šos elementus varat lietot savā organizācijā.
-author: andreabichsel
-ms.date: 06/24/2021
+description: Šajā tēmā ir aprakstīti konceptuālie elementi, kas var būt iekļauti darbā, un sniegti piemēri par to, kā šos elementus varat lietot savā organizācijā.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle, HcmPersonnelManagementWorkspace, HCMJobFamily
 audience: Application User
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.scope: Human Resources
 ms.custom: 269054
 ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 55f3edb53236734045e94ddd71461c739d3b5a8e0a2ac07a804dc2dfafabda57
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 0b3d56b3d19bd671d0015e87eefdf8ae62f4cee0
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754780"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731544"
 ---
 # <a name="set-up-the-components-of-a-job"></a>Darba komponentu iestatīšana
 
@@ -60,7 +60,7 @@ Darba funkcijas apraksta augsta līmeņa funkcionālās kategorijas un attiecas 
 Darba funkcijas tiek uzturētas lapā **Darba funkcijas**. Lapā **Darba funkcijas** ievadiet identifikācijas kodu un īsu aprakstu par attiecīgo darba funkciju.
 
 ## <a name="compensation"></a>Kompensācija
-Lai piešķirtu fiksētās atlīdzības sistēmu darbiniekam, kuram ir amats darbā, jums darbam jāiestata atlīdzības līmeņi. Kompensācijas līmenis tiek izmantots, kad minimālās, vidējā darba un maksimālās summas ir iestatītas kompensācijas struktūrā (kompensācijas režģis). Kad tiek izveidots fiksētās atlīdzības plāns, tiek atlasīta kompensācijas struktūra. Kompensācijas struktūra ietver arī kompensācijas līmeni. Kad darbiniekam atlasāt fiksētās atlīdzības sistēmu, atlasei pieejamie atlīdzības līmeņi ir atkarīgi no darba, ar kuru ir saistīts darbinieka amats. Papildinformāciju par to, kā iestatit atlīdzību skatiet [Atlīdzības plāni](hr-compensation-overview.md).
+Lai piešķirtu fiksētās atlīdzības sistēmu darbiniekam, kuram ir amats darbā, jums darbam jāiestata atlīdzības līmeņi. Kompensācijas **līmenis tiek** izmantots, kad minimālās, vidējā darba un maksimālās summas ir iestatītas kompensācijas struktūrā (kompensācijas režģis). Kad tiek izveidots fiksētās atlīdzības plāns, tiek atlasīta kompensācijas struktūra. Kompensācijas struktūra ietver arī kompensācijas līmeni. Kad darbiniekam atlasāt fiksētās atlīdzības sistēmu, atlasei pieejamie atlīdzības līmeņi ir atkarīgi no darba, ar kuru ir saistīts darbinieka amats. Papildinformāciju par to, kā iestatit atlīdzību skatiet [Atlīdzības plāni](hr-compensation-overview.md).
 
 ## <a name="job-skills"></a>Darba prasmes
 Darba prasmes apraksta prasmes, kas nepieciešamas darba veikšanai. Prasmju līmenis jāsaista ar visām darba prasmēm. Prasmju līmeņi ir lietotāja definēti. Tie norāda prasmju vai prasmes līmeni, kas nepieciešams prasmei. Piemēram, uzņēmumi var iestatīt skaitliskus līmeņus, piemēram, 1 līdz 5, kur **1** norāda darbību un **5** apzīmē ekspertu. Alternatīvi uzņēmumi var iestatīt līmeņus, kas atzīmēti kā **Iesācējs**, **Vidējais** vai **Eksperts**. Pēc prasmju līmeņa iestatīšanas var tikt iestatīts arī šīs prasmes svarīgums. Piemēram, ja grāmatvedim nepieciešamas stipras Microsoft Excel zināšanas, var tikt izveidotas prasmes ar nosaukumu **Excel zināšanas**. Pēc tam prasmju līmeni var iestatīt uz **Vidējais**, un svarīgumu var iestatīt uz **Vairums**.
@@ -81,8 +81,8 @@ Darba uzdevumi apraksta pamata uzdevumus, kuri ir jāveic darbiniekam, kas ieņe
 <tr class="odd">
 <td>Pārdošanas daļas vadītājs</td>
 <td><ul>
-<li><strong>Izpildes novērtēšana</strong> — novērtēt katra pārdevēja&#39;darba izpildi.</li>
-<li><strong>Kavējumu izskatīšana</strong> — apstiprināt vai noraidīt katra pārdevēja&#39;kavējumu pieprasījumus vai reģistrācijas.</li>
+<li><strong>Izpildes novērtēšana</strong> — novērtēt katra pārdevēja&#39; darba izpildi.</li>
+<li><strong>Kavējumu izskatīšana</strong> — apstiprināt vai noraidīt katra pārdevēja&#39; kavējumu pieprasījumus vai reģistrācijas.</li>
 </ul></td>
 </tr>
 <tr class="even">

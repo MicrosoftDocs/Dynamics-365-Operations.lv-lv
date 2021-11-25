@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 0fce566bea6340b4016e559b1f5f1764a6881e28
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
-ms.translationtype: HT
+ms.openlocfilehash: 9b57c6165e5de4a115818a135ed1455e3b05e3f0
+ms.sourcegitcommit: 4b7e9d074e368a08d2f75482b722dce0c69a4bbd
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675398"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7733467"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Iestatīt ER formāta parametrus juridiskai personai
 
@@ -118,7 +118,7 @@ Varat izmantot ER struktūru, lai iestatītu programmai specifiskus parametrus E
 
 15. Atlasiet **Pievienot**, tad veiciet šādas darbības:
 
-    1. Laukā **Kods** atlasiet opciju **\*Nav tukšs\***.
+    1. Laukā **Kods** atlasiet opciju **\* Nav tukšs\***.
     2. Laukā **Uzmeklēšanas rezultāts** atlasiet vērtību **Cita**.
 
     Pievienojot šo pēdējo ierakstu, tiek definēta šāda kārtula: Vienmēr, kad nodokļa kods, kas tiek nodots kā arguments, neizpilda nevienu no iepriekšējām kārtulām, uzmeklēšanas datu avots atgriezīs **Citu** kā pieprasīto taksācijas līmeni.
@@ -170,7 +170,7 @@ Lai iestatītu parametrus USMF uzņēmumam, izpildiet šādas darbības:
 8. Atlasiet nodokļa kodu **EXEMPT**.
 9. Jaunā ieraksta laukā **Uzmeklēšanas rezultāts** atlasiet vērtību **Nav aplikšanas ar nodokli**.
 10. Atlasiet **Pievienot**.
-11. Jaunā ieraksta **Kods** atlasiet opciju **\*Nav tukšs\***.
+11. Jaunā ieraksta **Kods** atlasiet opciju **\* Nav tukšs\***.
 12. Jaunā ieraksta laukā **Uzmeklēšanas rezultāts** atlasiet vērtību **Regulāra taksācija**.
 13. Laukā **Statuss** atlasiet **Pabeigts**.
 14. Atlasiet **Saglabāt**.
@@ -226,15 +226,6 @@ Varat arī izmantot šo eksporta-importa pieeju, lai pārsūtītu ER formātam p
 Ja konfigurējat programmai raksturīgos parametrus vienai ER formāta versijai un pēc tam importējat vēlāku šī formāta versiju pašreizējā finanšu instancē, esošie programmai raksturīgie parametri importētajā versijā netiks piemēroti, ja izmantojat **Iepriekšējo ER formātu līdzekļa versiju izmantot programmai noteiktus parametrus**. Papildinformāciju skatiet šīs tēmas turpinājumā esošajā sadaļā [Esošo paramteru atkāŗtota izmantošana](#reuse-existing-parameters).
 
 Ņemiet vērā arī to, ka, atlasot failu importēšanai, programmai specifisko parametru struktūra šajā failā tiek salīdzināta ar atbilstošā **Uzmeklēšanas** tipa datu avota struktūru, kas atlasīta importēšanai. Importēšana tiek veikta, kad katrs programmai specifiskais parametrs atbilst atbilstošā datu avota struktūrai, kas ir atlasīta importēšanai. Ja struktūras nesakrīt, saņemsit brīdinājuma ziņojumu, kurā teikts, ka importēšanu nevar veikt. Ja vēlaties, lai imports tiktu veikts, esošie programmai specifiskajam parametri atlasītajam ER formātam tiks notīrīti, un tie būs jāiestata no sākuma.
-
-Sākot ar Dynamics 365 Finance versiju 10.0.23, jūs varat mainīt noklusējumu un izvairīties no brīdinājuma ziņojuma saņemšanas, iespējojot **Saskaņot ER programmas specifiskos parametrus importējot** **Līdzekļu pārvaldības** darbvietā. Kad šis līdzeklis ir iespējots, ja programmai specifisko parametru struktūra, ko importējat, atšķiras no attiecīgo datu avotu struktūras mērķa ER formātā, kas ir atlasīta importēšanai, importēšana būs sekmīga šādos gadījumos:
-
-- Mērķa ER formāta struktūra ir mainīta, pievienojot jaunas nosacījuma kolonnas jebkuriem esošajiem **Uzmeklēšanas** tipa datu avotiem. Kad imports ir pabeigts, programmai specifiskie parametri tiek atjaunināti. Visos programmai specifiskos parametros importētajos ierakstos vērtības katrā pievienotā nosacījuma kolonnā tiek inicializētas ar noklusēto vērtību [šīs kolonnas](er-formula-supported-data-types-primitive.md) datu tipam.
-- Mērķa ER formāta struktūra ir mainīta, pievienojot jaunas nosacījuma kolonnas jebkuriem esošajiem **Uzmeklēšanas** tipa datu avotiem. Kad imports ir pabeigts, programmai specifiskie parametri tiek atjaunināti. Visos programmai specifiskos parametros importētajos ierakstos tiek dzēstas vērtības katrā noņemtā nosacījuma kolonnā.
-- Mērķa ER formāta struktūra ir mainīta, pievienojot jaunus datu avotus **Uzmeklēšanas** tipam. Kad imports ir pabeigts, pievienotie uzmeklēšanas lauki ir pievienoti programmaas specifiskajiem parametriem.
-- Mērķa ER formāta struktūra ir mainīta, noņemot dažus esošos datu avotus no **Uzmeklēšanas** tipa. Kad importēšana ir pabeigta, visi artefakti, kas saistīti ar **Uzmeklēšanas** tipa datu avotiem, kas tika noņemti no mērķa ER formāta, tiek dzēsti no importētajiem programmas specifiskajiem parametriem.
-
-Kad importēšana ir pabeigta, papildus tikko aprakstītajām izmaiņām importēto programmai specifisko parametru stāvoklis tiek mainīts uz **Notiek**. Brīdinājuma ziņojums jūs informē, ka automātiski koriģētie programmai raksturīgie parametri ir manuāli jālabo.
 
 ### <a name="reuse-existing-parameters"></a>Atkāŗtoti izmantot esošos parametrus
 

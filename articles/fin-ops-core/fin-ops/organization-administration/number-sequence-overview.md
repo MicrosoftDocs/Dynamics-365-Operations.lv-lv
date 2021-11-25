@@ -1,7 +1,7 @@
 ---
 title: Numuru sēriju pārskats
 description: Numuru sērijas tiek izmantotas, lai ģenerētu lasāmus, unikālus identifikatorus pamatdatu ierakstiem un transakciju ierakstiem, kam ir nepieciešami identifikatori.
-author: MargoC
+author: SunilGarg
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.assetid: 6e19bd1d-192b-4da2-8573-84f6e1ce98ef
 ms.search.region: Global
-ms.author: margoc
+ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99647578c11c960cf67439b1cd9994464637feff862d191338811d8ba3e6bef5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 1d65eb3824cfa158e6b382ee7bae2c86aab9396b
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759924"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778333"
 ---
 # <a name="number-sequences-overview"></a>Numuru sēriju pārskats
 
@@ -36,7 +36,7 @@ Iestatot numuru sēriju, ir jānorāda tvērums, kas nosaka, kura organizācija 
 
 Numuru sēriju formāti sastāv no segmentiem. Numuru sērijas, kuru tvērums nav **Koplietots**, var ietvert tvērumam atbilstošus segmentus. Piemēram, numuru sērija ar tvērumu **Juridiska persona** var ietvert juridiskas personas segmentu. Ja numuru sērijas formātā ietilpst tvēruma segments, konkrēta ieraksta tvērumu varat identificēt, skatoties uz tā numuru.
 
-Turklāt segmentiem, kas atbilst tvērumiem, numuru sērijas formāti var ietvert segmentus **Konstante** un **Burti un cipari**. Segments **Konstante** ietver nemainīgu burtu, skaitļu vai simbolu kopu. Segments **Burti un cipari** ietver burtu vai ciparu kopu, kas tiek palielināta katru reizi, kad tiek izmantots numurs. Izmantojiet restītes simbolu (\#), lai apzīmētu pieaugošus numurus, un simbolu &, lai apzīmētu pieaugošus burtus. Piemēram, izmantojot formātu \#\#\#\#\#\_2017, tiek izveidota sērija 00001\_2017, 00002\_2017 utt.
+Turklāt segmentiem, kas atbilst tvērumiem, numuru sērijas formāti var ietvert segmentus **Konstante** un **Burti un cipari**. Segments **Konstante** ietver nemainīgu burtu, skaitļu vai simbolu kopu. Segments **Burti un cipari** ietver burtu vai ciparu kopu, kas tiek palielināta katru reizi, kad tiek izmantots numurs. Izmantojiet restītes simbolu (\#), lai apzīmētu pieaugošus numurus, un simbolu &, lai apzīmētu pieaugošus burtus. Piemēram, izmantojot formātu \#\#\#\#\#\_ 2017, tiek izveidota sērija 00001\_ 2017, 00002\_ 2017 utt.
 
 ## <a name="number-sequence-examples"></a>Numuru sēriju piemēri
 

@@ -1,8 +1,8 @@
 ---
 title: Jaunu darbu definēšana
 description: Šis uzdevums koncentrējas uz jauna darba izveidi.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HcmJob, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 088f49d7887616300b4a9ea07f91598d65afbf6899e678b2c5c51797b4966ef0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 844661db4798c23b0b25d4ce7c2cc1862893a5dc
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770460"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771370"
 ---
 # <a name="define-new-jobs"></a>Jaunu darbu definēšana
 
@@ -28,48 +28,54 @@ ms.locfileid: "6770460"
 
 Šis uzdevums koncentrējas uz jauna darba izveidi. Tas tiks paveikts, izmantojot manuālu ievadīšanu un funkcionalitāti kopēšanai no veidnes. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USMF. Šis uzdevums ir paredzēts personāla vadības speciālistam.
 
-1. Pārejiet uz sadaļu Personāla vadība > Darbi > Darbi.
-2. Noklikšķiniet uz Jauns.
-3. Ierakstiet vērtību laukā Darbs.
-4. Apraksta laukā ierakstiet vērtību.
-5. Atlasiet standarta nosaukumu, kas tiks izmantots darbam. 
-    * Ievadītais nosaukums tiks izmantots pēc noklusējuma jauniem amatiem, kas piešķirti darbam.  
+1. Dodieties uz **sadaļu Personāla \> vadības \> darbi**.
+2. Atlasiet **Jauna**.
+3. Laukā **·** Darbs ievadiet vērtību.
+4. Laukā **Apraksts** ievadiet kādu vērtību.
+5. Atlasiet standarta nosaukumu, kas tiks izmantots darbam.
+
+    Šis nosaukums tiks izmantots kā noklusētā vērtība jaunām pozīcijām, kas tiek piešķirtas darbam.
+
 6. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-7. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-8. Grupā Amatu maksimālais skaits, atlasiet „Maksimālais amatu skaits”
+7. Sarakstā atlasiet saiti atlasītajā rindā.
+8. Maksimālo **pozīciju grupu skaitu** atlasiet Maksimālais **pozīciju** skaits.
 9. Ievadiet maksimālo amatu skaitu. 
-    * Nebūs iespējams piešķirt vairāk amatu nekā šeit norādītā maksimālā vērtība.  
-10. Pārslēdziet sadaļas Apraksts paplašinājumu.
-11. Laukā Piezīme ievadiet darba standarta aprakstu.
-    * Apraksts attiecas uz visiem amatiem, kas piešķirti šeit definētajam darbam.  
-12. Pārslēdziet sadaļas Darba klasifikācija paplašinājumu.
-13. Atlasiet darba funkciju, kas tiks izmantota standarta pārskatos personāla pārvaldes vajadzībām.
-14. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-15. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-16. Atlasiet darba tipu, kas tiks izmantots, lai tālāk klasificētu darbus jūsu organizācijā. 
-    * Darba tipus var izmantot atskaitēm personāla vadībā.  
-17. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-18. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-19. Pārslēdziet sadaļas Atlīdzība paplašinājumu.
-20. Atlasiet atlīdzības līmeni.
-    * Atlīdzības līmenis noteiks minimālo un maksimālo atlīdzību, kas darbiniekam var tikt piešķirta šajā darbā. Atlīdzības noteikumi noteiks, vai darbinieku atlīdzība var pārsniegt šo diapazonu.  
-21. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-22. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-23. Pārslēdziet sadaļas Prasmes paplašinājumu.
-    * Ņemiet vērā, ka kopsavilkuma cilņu lauki Prasmes, Izglītība un Sertifikāti ir tukši. Pēc informācijas kopēšanas no darba veidnes, informācija šajos laukos tiks ievadīta vienā solī.   
-24. Noklikšķiniet uz Saglabāt.
-25. Noklikšķiniet uz Kopēt no.
-26. Noklikšķiniet uz Kopēt no veidnes.
-27. Laukā Darba veidne noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-28. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-29. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-30. Noklikšķiniet uz opcijas Piezīme.
-    * Uz atlasīto darbu tiks pārkopēti tikai atlasītie elementi.    
-31. Noklikšķiniet uz OK.
-32. Pārslēdziet sadaļas Sertifikāti paplašinājumu.
-33. Pārslēdziet sadaļas Izglītība paplašinājumu.
-34. Noklikšķiniet uz Saglabāt.
 
+    Pozīciju piešķires, kas pārsniedz šo skaitli, nav atļautas.
 
+10. Laukā **·** Apraksts **laukā** Piezīme ievadiet **darba standarta** aprakstu.
+
+    Šis apraksts attiecas uz visām pozīcijām, kas ir piešķirtas jūsu definētajiem ieņemamajiem amatiem.
+
+11. Sadaļā **Darbu klasifikācija** atlasiet darba funkciju, kas tiks izmantota personāla vadības standarta pārskatā.
+12. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
+13. Sarakstā atlasiet saiti atlasītajā rindā.
+14. Laukā **Darba tips atlasiet darba** tipu, lai savā organizācijā turpmāk klasificētu darbus.
+
+    Darba tipus var izmantot atskaitēm personāla vadībā.
+
+15. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
+16. Sarakstā atlasiet saiti atlasītajā rindā.
+17. Sadaļā **Atlīdzība** atlasiet kompensācijas līmeni.
+
+    Kompensācijas līmenis nosaka minimālo un maksimālo atlīdzību, kas darbiniekam var būt darbam. Kompensācijas noteikumi noteiks, vai darbinieku atlīdzība var būt ārpus diapazona.
+
+18. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
+19. Sarakstā atlasiet saiti atlasītajā rindā.
+20. Sadaļā **Prasmes** ievērojiet, ka kopsavilkuma cilnēs **·** **·** Prasmes, Izglītība un Sertifikāti ir **·** tukši lauki. Pēc tam, kad kopējat informāciju no darba veidnes, informācija šajos laukos tiks ievadīta vienā solī.
+21. Atlasiet **Saglabāt**.
+22. Atlasiet **Kopēt** no.
+23. Atlasiet **Kopēt no** veidnes.
+24. Laukā **Darba veidne atlasiet** nolaižamo bultiņu, lai atvērtu uzmeklēšanu.
+25. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
+26. Sarakstā atlasiet saiti atlasītajā rindā.
+27. Atlasiet opciju **·** Piezīme.
+
+    Atlasītajā darbā tiks kopēti tikai atlasītie krājumi.
+
+28. Atlasiet **Labi**.
+29. Izvērsiet **sadaļu** Sertifikāti.
+30. Izvērsiet **sadaļu** Izglītība.
+31. Atlasiet **Saglabāt**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 39f462ae325aa1104a25a8290daed70388e624ec
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
-ms.translationtype: HT
+ms.openlocfilehash: 074be71d7b6ec1acab6307a79e397c2a2a045c39
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7476965"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778429"
 ---
 # <a name="the-unit-and-unit-quantity-arent-working-correctly-in-the-inventory-journal"></a>Vienība un vienību skaits krājumu žurnālā nedarbojas pareizi
 
@@ -31,7 +31,7 @@ Strādājot ar mērvienībām un daudzumiem krājumu žurnālā, varat saskartie
 
 Lai novērstu šo problēmu, izpildiet sekojošās darbības.
 
-1. **Līdzekļu pārvaldības** darbvietā pārliecinieties, vai krājumu žurnālu līdzekļa funkcija *Izmanto mērvienību un mērvienību daudzumu* ir ieslēgta. Ar šo žurnālam tiek pievienots lauks **Mērvienība** un **Mērvienības daudzums**.
+1. **Līdzekļu pārvaldības** darbvietā pārliecinieties, vai krājumu žurnālu līdzekļa funkcija *Izmanto mērvienību un mērvienību daudzumu* ir ieslēgta. Ar šo žurnālam tiek pievienots lauks **Mērvienība** un **Mērvienības daudzums**. (No Piegādes ķēdes pārvaldības versijas 10.0.21, šī funkcija ir ieslēgta pēc noklusējuma.)
 1. Kad funkcija ir ieslēgta, lietojiet lauku **Daudzums**, **Mērvienības daudzums** un **Mērvienība** šādā veidā:
 
     - **Daudzums** – norādiet daudzumu, izmantojot izpildei nodotai precei noteikto noklusējuma mērvienību. Tomēr noklusētā mērvienība šeit netiek rādīta. Ja ir iestatīta pārvēršana starp noklusējuma mērvienību un laukā **Mērvienība** atlasīto vienību, lauks **Daudzums** tiek automātiski atjaunināts, pamatojoties uz lauku **Mērvienība** un **Mērvienības daudzums** atlasi.

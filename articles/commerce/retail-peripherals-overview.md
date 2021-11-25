@@ -1,7 +1,7 @@
 ---
 title: Perifērās ierīces
 description: Šajā tēmā ir paskaidrotas koncepcijas, kas ir saistītas ar Commerce perifērajām ierīcēm.
-author: rubencdelgado
+author: BrianShook
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7b240038a946a7f34a3c69df18329edbe1df6be0
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
-ms.translationtype: HT
+ms.openlocfilehash: dbf78eec6c1b25056342f9709f3b047a8bb822ff
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500307"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779850"
 ---
 # <a name="peripherals"></a>Perifērās ierīces
 
@@ -121,7 +121,7 @@ Lai palīdzētu nodrošināt to, ka kopā ar programmu Commerce var lietot pēc 
 -   **Vadības objekts** — ierīču klases (piemēram, rindu displeju) vadības objekts nodrošina programmatūras interfeisu. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) nodrošina standartizētu OPOS vadības objektu kopu, kas tiek saukta par vispārīgajiem vadības objektiem (CCO). Programmas Commerce POS komponenta pārbaudei tiek izmantoti CCO objekti. Tādējādi pārbaude palīdz nodrošināt to, ka gadījumā, ja programma Commerce nodrošina kādas ierīces klases atbalstu, izmantojot OPOS, var tikt nodrošināts daudzu ierīču veidu atbalsts, ja vien ražotājs nodrošina pakalpojumu objektu, kas ir paredzēts standartam OPOS. Nav nepieciešams atsevišķi pārbaudīt katru ierīču veidu.
 -   **Pakalpojumu objekts** — pakalpojumu objekts nodrošina saziņu starp vadības objektu (C) un ierīci. Parasti ierīces pakalpojumu objektu nodrošina ierīces ražotājs. Taču dažos gadījumos pakalpojumu objektu, iespējams, ir nepieciešams lejupielādēt no ražotāja vietnes. Piemēram, var būt pieejama jaunāka pakalpojumu objekta versija. Lai uzzinātu ražotāja vietnes adresi, skatiet aparatūras dokumentāciju.
 
-[![Vadības objekts un pakalpojumu objekts.](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) OLE punktā POS OPOS implementācijas atbalsts palīdz nodrošināt to, ka tad, ja ierīču ražotāji un POS publicētāji ir pareizi ieviesuši standartu, POS sistēmas un atbalstītās ierīces var darboties kopā, pat ja tās iepriekš nav pārbaudītas kopā. 
+[![ Vadības objekts un pakalpojumu objekts.](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) OLE punktā POS OPOS implementācijas atbalsts palīdz nodrošināt to, ka tad, ja ierīču ražotāji un POS publicētāji ir pareizi ieviesuši standartu, POS sistēmas un atbalstītās ierīces var darboties kopā, pat ja tās iepriekš nav pārbaudītas kopā. 
 
 > [!NOTE]
 > OPOS atbalsts nenodrošina visu to ierīču atbalstu, kurām ir OPOS draiveri. Pirmkārt, programmai Commerce ir jānodrošina attiecīgā ierīces veida vai klases atbalsts, izmantojot OPOS. Turklāt pakalpojumu objektos dažreiz var nebūt ietverta jaunākā CCO versija. Ņemiet vērā arī to, ka parasti dažādu pakalpojumu objektu kvalitāte atšķiras.
@@ -207,8 +207,8 @@ Informāciju skatiet rakstā [Iestatiet POS hibrīdprogrammu operētājsistēmā
 
 Papildinformāciju par OPOS komponentiem skatiet šī dokumenta sadaļā “Atbalstītie interfeisi”. Parasti OPOS draiverus nodrošina ierīces ražotājs. Instalējot OPOS ierīces draiveri, kādā no tālāk norādītajām vietām Windows reģistrā tiek pievienota atslēga.
 
--   **32 bitu sistēma:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS
--   **64 bitu sistēma:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS
+-   **32 bitu sistēma:** HKEY\_ LOCAL\_ MACHINESOFTWAREOLEforRetailServiceOPOS
+-   **64 bitu sistēma:** HKEY\_ LOCAL\_ MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS
 
 Reģistra atrašanās vietā ServiceOPOS konfigurētās ierīces ir sakārtotas atbilstoši OPOS ierīču klasei. Tiek saglabāti vairāki ierīču draiveri.
 
@@ -578,7 +578,7 @@ Pēc noklusējuma ir atspējots SSL protokols un visas TLS protokola versijas,
     1.  Nospiediet taustiņu kombināciju Windows logotipa taustiņš+R, lai atvērtu logu **Izpildīt**.
     2.  Laukā **Atvērt** ievadiet **Regedit** un pēc tam noklikšķiniet uz **Labi**.
     3.  Ja tiek parādīts ziņojuma lodziņš **Lietotāja konta kontrole** noklikšķiniet uz **Jā**.
-    4.  Logā **Reģistra redaktors** pārejiet uz ierakstu **HKEY\_LOCAL\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**. Ir automātiski ievadītas tālāk norādītās atslēgas, lai atļautu tikai TLS 1.2 lietošanu.
+    4.  Logā **Reģistra redaktors** pārejiet uz ierakstu **HKEY\_ LOCAL\_ MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**. Ir automātiski ievadītas tālāk norādītās atslēgas, lai atļautu tikai TLS 1.2 lietošanu.
         -   TLS 1.2Server:Enabled=1
         -   TLS 1.2Server:DisabledByDefault=0
         -   TLS 1.2Client:Enabled=1
@@ -793,7 +793,7 @@ Tālāk norādītās perifērās ierīces ir pārbaudītas, izmantojot koplietot
 **Risinājums:** pārbaudiet tālāk sniegto iespējamo kļūmju sarakstu.
 
 -   Sertifikāts, kas tiek izmantots datorā, kurā tiek darbināta aparatūras stacija, ir iestatīts kā uzticams datorā, kurā tiek darbināta programma Modern POS.
-    -   Lai pārbaudītu šos iestatījumus, tīmekļa pārlūkprogrammā apmeklējiet šo URL: https://&lt;Computer Name&gt;:&lt;Port Number&gt;/HardwareStation/ping.
+    -   Lai pārbaudītu šos iestatījumus, tīmekļa pārlūkprogrammā apmeklējiet šo URL: https://&lt; Computer Name&gt;:&lt; Port Number&gt;/HardwareStation/ping.
     -   Šis URL izmanto programmu Ping, lai pārbaudītu, vai datoram var piekļūt, un pārlūkprogramma norāda, vai sertifikāts ir uzticams. (Piemēram, pārlūkprogrammā Internet Explorer adreses joslā tiek parādīta slēdzenes ikona. Kad noklikšķināt uz šīs ikona, pārlūkprogramma Internet Explorer pārbauda, vai sertifikāts pašlaik ir uzticams. Varat instalēt sertifikātu lokālajā datorā, skatot detalizētu informāciju par parādīto sertifikātu.)
 -   Datorā, kurā tiek darbināta aparatūras stacija, ugunsmūrī ir atvērts ports, kas tiks izmantots aparatūras stacijas darbībai.
 -   Aparatūras stacijā ir pareizi instalēta tirgotāja informācija, izmantojot rīku Instalēt tirgotāja informāciju, kas tiek palaists aparatūras stacijas instalēšanas programmas darbības beigās.

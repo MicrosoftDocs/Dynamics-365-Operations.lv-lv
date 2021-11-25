@@ -1,8 +1,8 @@
 ---
 title: Darba pieprasījuma izveide un atvēršana
 description: Personāla atlases projekti jums palīdz pārvaldīt personāla atlases procesu.
-author: andreabichsel
-ms.date: 02/03/2021
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HRMRecruitingTable, HcmWorkerLookUp, HcmJobLookup, HRMRecruiting
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: df60f6461c52e45849d3de89fde4ae53f915dbc3cce417a30790acf443c5fecc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 0d59ccb88b8a76de6e2f00453f185fec2f149873
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778776"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731565"
 ---
 # <a name="create-and-open-job-requisition"></a>Darba pieprasījuma izveide un atvēršana
 
@@ -39,7 +39,7 @@ Personāla atlases projekti jums palīdz pārvaldīt personāla atlases procesu.
 6. Sarakstā atrodiet un atlasiet savu ierakstu.
 7. Sarakstā atlasiet saiti atlasītajā rindā.
 8. Izvēlieties **Atlasīt**.
-9. Laukā Nodaļa noklikšķiniet atlasiet nolaižamā saraksta pogu, lai atvērtu uzmeklēšanu.
+9. Laukā **·** Nodaļa atlasiet nolaižamo pogu, lai atvērtu uzmeklēšanu.
 10. Sarakstā atlasiet saiti atlasītajā rindā.
 11. Laukā **Darbs** atlasiet nolaižamā saraksta pogu, lai atvērtu pārlūku.
 12. Sarakstā atrodiet un atlasiet savu ierakstu.
@@ -58,10 +58,10 @@ Personāla atlases projekti jums palīdz pārvaldīt personāla atlases procesu.
 25. Laukā **Beigu datums** ievadiet datumu.
 26. Atlasiet **Saglabāt**.
 27. Aizvērt lapu.
-28. Atlasiet darba sludinājumus.
+28. Atlasiet **darba sludinājumus**.
 29. Atlasiet **Saglabāt**.
 30. Aizvērt lapu.
-31. Atzīmējiet izvēles rūtiņu **Rādīt darbinieku patstāvīgi izmantojamajā pakalpojumā** vai noņemiet šīs rūtiņas atzīmi. Atlasiet izvēles rūtiņu **Rādīt darbinieku patstāvīgi izmantojamajā pakalpojumā**. Šī atlase padara personāla atlases projektu redzamu darbiniekiem viņu darbinieku pašapkalpošanās lapās.
+31. Atzīmējiet izvēles rūtiņu **Rādīt darbinieku patstāvīgi pakalpojumā vai** noņemiet atzīmi no izvēles rūtiņas Rādīt darbinieku patstāvīgi. Atzīmējiet **izvēles rūtiņu Rādīt darbinieku** pašapkalpošanās sadaļā. Atlase padara personāla atlases projektu redzamu darbiniekiem viņu **darbinieku pašapkalpošanās** lapā.
 32. Atlasiet **Personāla atlases projekta statuss**.
 33. Atlasiet **Sākt**. Statuss **Sākts** nozīmē, ka projekts ir gatavs saņemt pieteikumus.  
 34. Atlasiet **Labi**.

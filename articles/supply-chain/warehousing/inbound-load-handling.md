@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: c2d7f140c0199b4b81a7b42220d5800d427be680
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 464d49f4e096fdd4fe47f73efc253c97200f4de3
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577844"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778063"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Noliktavas apstrādes process ienākošajām slodzēm pirkšanas pasūtījumiem
 
@@ -54,7 +54,7 @@ Sekojošajā attēlā redzama parastā plūsma ienākošo slodžu apstrādei, ku
 
     Kad noslodzes daudzumi ir reģistrēti, tie ir kolīdz saņemti, šiem daudzumiem jābūt iegrāmatotiem uzņēmuma krājumu virsgrāmatā, lai reģistrētu fizisko krājumu pieaugumu. Lai iegūtu papildinformāciju, skatiet [Preču saņemšana no pirkšanas pasūtījumiem - preču saņemšana](../procurement/product-receipt-against-purchase-orders.md#product-receipt) — [Grāmatot reģistrētos produktu daudzumus pirkšanas pasūtījumos](#post-registered-quantities).
 
-## <a name="register-item-quantities-that-arrive-on-an-inbound-load"></a><a name="register-item-quantities-arriving"></a>Reģistrēt krājuma daudzumus, kas tiek saņemti ienākošajā noslodzē
+## <a name="register-item-quantities-that-arrive-on-an-inbound-load"></a><a name="register-item-quantities-arriving"></a> Reģistrēt krājuma daudzumus, kas tiek saņemti ienākošajā noslodzē
 
 Microsoft Dynamics 365 Supply Chain Management atbalsta vairākas darbības pieejas, lai reģistrētu pasūtāmo preču saņemšanu. Tāpēc sistēmu var konfigurēt, lai tā atbilstu jūsu konkrētajām biznesa prasībām. Šajā sadaļā ir aprakstīts, kā reģistrēt ienākošos krājumu daudzumus, izmantojot mobilo ierīci, kad sistēmā ir ieslēgta uzlabota noliktavas pārvaldība. Tomēr ir alternatīva plūsma, kas ir balstīta uz krājumu saņemšanas žurnāla, nevis mobilās ierīces izmantošanu. Papildinformāciju par šo plūsmu skatiet [Krājumu reģistrēšana uzlabotā noliktavā aktivizētam krājumam, izmantojot krājumu saņemšanas žurnālu](tasks/register-items-advanced-warehousing.md).
 
@@ -113,7 +113,7 @@ Noliktavas darbinieki var reģistrēt daļēju noslodzes daudzuma saņemšanas r
 
 Kad pienāk noslodze, ja krājumu daudzumi ir mazāki par noslodzes ierakstā norādītajiem daudzumiem, noliktavas saņemšanas personāls var tieši strādāt ar klientu, lai apliecinātu šo neatbilstību, samazinot noslodzes rindas daudzumu, lai tas atbilstu faktiskajam ievestajam un reģistrētajam daudzumam.
 
-#### <a name="load-over-receiving"></a><a name="load-over-receiving"></a>Noslodzes pārslodze
+#### <a name="load-over-receiving"></a><a name="load-over-receiving"></a> Noslodzes pārslodze
 
 Pārslodze notiek, kad pienāk noslodzes, un krājumu daudzums pārsniedz paredzamo noslodzes rindas daudzumu. Jūs varat kontrolēt, vai un cik lielā mērā pārslodze ir atļauta noslodzes reģistrācijas laikā.
 
@@ -147,7 +147,7 @@ Kad noliktavas darbinieks ir pabeidzis izvietošanas darbu, sistēma reģistrē 
 | Darba krājumu transakcijas, ar kurām saistītie daudzumi ir izvietoti | **Saņemšanas** un **Atrašanās vietas** lauki un citi atbilstošie lauki tiek atjaunināti, lai atspoguļotu pārvietošanu no saņemšanas vietas uz glabāšanas vietu. | Pirkšanas pasūtījuma krājumu transakcijas **saņemšanas stāvoklis** paliek _Reģistrēts_. |
 | Noliktavas izvietošana | **Darba statusa** vērtība ir mainīta uz _Slēgts_. | |
 
-## <a name="post-registered-product-quantities-against-purchase-orders"></a><a name="post-registered-quantities"></a>Nosūtīt reģistrētos preču daudzumus pret pirkuma pasūtījumiem
+## <a name="post-registered-product-quantities-against-purchase-orders"></a><a name="post-registered-quantities"></a> Nosūtīt reģistrētos preču daudzumus pret pirkuma pasūtījumiem
 
 Kad sistēmā tiek reģistrēti ienākošo preču daudzumi, tie kļūst pieejami rezervācijām saistībā ar pārdošanu un citām izejošām un iekšējām darbībām. Tomēr sistēma vēl nav atjauninājusi krājumu (pagaidu) kontus. Šis atjauninājums var notikt tikai tad, ja operāciju grupa iegrāmato reģistrētās preču saņemšanas.
 
@@ -267,7 +267,7 @@ Lai strādātu ar šajā sadaļā aprakstītajiem paraugu scenārijiem, vispirms
 
 1. Atveriet darbvietu **Funkcionalitātes pārvaldība**. (Pilnīgu informāciju par to, kā atrast un izmantot šo darbvietu, skatiet [Līdzekļu pārvaldības pārskats](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).)
 
-1. Ieslēdziet _Saistīt pirkšanas pasūtījuma krājumu transakcijas ar noslodzi_ līdzekli, kas norādītas sekojošā veidā:
+1. Pārliecinieties, vai _ir ieslēgta pirkšanas pasūtījuma krājumu_ transakciju saistīšana ar noslodzes līdzekli. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.21 šī funkcija ir obligāta, tāpēc tā ir ieslēgta pēc noklusējuma un to nevar atkal izslēgt. Tomēr šis līdzeklis joprojām ir [uzskaitīts Līdzekļu](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pārvaldībā šādā veidā:
 
     - **Modulis:** _Noliktavas vadība_
     - **Līdzekļa nosaukums:** _Saistīt pirkšanas pasūtījuma krājumu transakcijas ar kravu_

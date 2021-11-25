@@ -13,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: e3f14dd25a60f8d185f0e58a0612a322c5175ab2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 8b06164a81a18548cf9d98ea2f577b5783145100
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579884"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778261"
 ---
 # <a name="work-split"></a>Darba sadale
 
@@ -33,7 +33,7 @@ Darba sadales funkcionalitāte ļauj sadalīt lielus darba ID (proti, darba pas�
 
 Lai varētu izmantot darba sadales funkcionalitātiu, sistēmā ir jāieslēdz līdzeklis un tā priekšnosacījuma līdzeklis. Administratori var izmantot [līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļu statusu un tos ieslēgtu pēc vajadzības.
 
-Vispirms ieslēdziet priekšnosacījuma *Organizācijas mēroga darba aizturēšana* līdzekli, ja tas vēl nav ieslēgts. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
+Vispirms ieslēdziet priekšnosacījuma *Organizācijas mēroga darba aizturēšana* līdzekli, ja tas vēl nav ieslēgts. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.21 šī funkcija ir obligāta, tāpēc tā ir ieslēgta pēc noklusējuma un to nevar atkal izslēgt. Tomēr šis līdzeklis joprojām ir [uzskaitīts Līdzekļu](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pārvaldībā šādā veidā:
 
 - **Modulis:** *Noliktavas pārvaldība*
 - **Līdzekļa nosaukums:** *Organizācijas līmeņa darba aizturēšana*

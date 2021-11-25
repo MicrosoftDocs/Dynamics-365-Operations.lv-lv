@@ -1,8 +1,8 @@
 ---
 title: Atvaļinājuma pieprasījumu pārvaldība programmā Teams
 description: Šajā tēmā parādīts, kā pieprasīt prombūtni Dynamics 365 Human Resources programmā Microsoft Teams.
-author: andreabichsel
-ms.date: 07/16/2021
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 94fa4dca7ff8372d4cf1aeee225e821574f4104048db5ad8a816be2bce496de8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 10538c96a7637a95c60beef40a02fdb5432959ec
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725870"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771535"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Atvaļinājumu pieprasījumu pārvaldība programmā Teams
 
@@ -41,7 +41,7 @@ Dynamics 365 Human Resources programmu varat atrast Teams veikalā.
 Ja programma jūs automātiski nepieraksta, atlasiet cilni **Iestatījumi**, lai pierakstītos.
 
 > [!NOTE]
-> Ja nav redzams pierakstīšanās dialoglodziņš, pārbaudiet pārlūkprogrammas iestatījumus, lai atļautu uznirstošos elementus. 
+> Ja jūs neredzat pierakstīšanās dialoglodziņu, atjauniniet jūsu pārlūka iestatījumus, lai atļautu uznirstošos lodziņus. 
 
 Ja jums ir piekļuve vairāk nekā vienai Human Resources instancei, varat atlasīt, ar kuru vidi vēlaties veidot savienojumu, cilnē **Iestatījumi**.
 
@@ -53,13 +53,13 @@ Ja jums ir piekļuve vairāk nekā vienai Human Resources instancei, varat atlas
 Pēc programmas instalēšanas, tiek parādīts sveiciena ziņojums, informējot jūs par darbību veidiem, ko bots var veikt jūsu vārdā.
 
 > [!NOTE]
-> Pirmo reizi izmantojot botu, var būt nepieciešams pierakstīties. Ja nav redzams pierakstīšanās dialoglodziņš, pārbaudiet pārlūkprogrammas iestatījumus, lai atļautu uznirstošos elementus.
+> Kad jūs pirmo reizi sadarbojaties ar botu, jums varētu būt jāpiesakās. Ja jūs neredzat pierakstīšanās dialoglodziņu, atjauniniet jūsu pārlūka iestatījumus, lai atļautu uznirstošos lodziņus.
 
 Varat lūgt botam:
 
 - Skatīt jūsu pašreizējo atvaļinājumu bilances. Piemēram, nosūtiet ziņojumu, kas paziņo "Skatīt atvaļinājumu bilances."
 
-- Izveidot atvaļinājuma pieprasījumu. Piemēram, nosūtiet ziņojumu, kas paziņo "Paņemt atvaļinājumu" vai "Es vēlos paņemt atvaļinājuma laiku nākamajā ceturtdienā un piektdienā", lai konkrētāk veiktu pieprasījumu atvaļinājuma pieprasīšanas veidam. 
+- Izveidot atvaļinājuma pieprasījumu. Piemēram, nosūtiet ziņojumu, kas paziņo, "Paņemt atvaļinājumu" vai "Es vēlos paņemt atvaļinājuma laiku, kas aiziet nākamajā ceturtdienā un piektdienā", lai būtu precīzāks atvaļinājuma pieprasīšanas veidam. 
 
   ![Sākt atvaļinājuma pieprasījumu Teams tērzētavā.](./media/hr-teams-leave-app-initiate.png)
 
@@ -83,7 +83,7 @@ Cilne **Brīvais laiks** ļauj skatīt:
 
 - Gaidāmos atvaļinājuma pieprasījumus
 
-- Prombūtnes pieprasījumus
+- Brīvā laika pieprasījumi
 
 - Melnraksta atvaļinājuma pieprasījumus
  
@@ -113,11 +113,11 @@ Cilne **Brīvais laiks** ļauj skatīt:
    
 ### <a name="respond-to-teams-notifications"></a>Atbildēt uz programmas Teams paziņojumiem
 
-Kad jūs vai darbinieks, kuram jūs esat apstiprinātājs, iesniedz atvaļinājuma pieprasījumu, jums tiek nosūtīts paziņojums Teams risinājuma Human Resources programmā. Varat atlasīt paziņojumu, lai to skatītu. Paziņojumi tiek rādīti arī **Tērzēšanas** zonā.
+Kad jūs vai darbinieks, ko apstiprinātājs iesniedz atvaļinājuma pieprasījumam, personāla vadības programmā saņemsit paziņojumu brigādes programmā. Varat atlasīt paziņojumu, lai skatītu atvaļinājuma pieprasījumu. Paziņojumi tiek rādīti arī **Tērzēšanas** zonā.
 
 Ja esat apstiprinātājs, varat izvēlēties **Apstiprināt** vai **Atteikt** paziņojumā. Var arī norādīt neobligātu ziņojumu.
 
-## <a name="send-upcoming-time-off-information-to-your-coworkers"></a>Sūtīt gaidāmās prombūtnes informāciju saviem kolēģiem
+## <a name="send-upcoming-time-off-information-to-your-coworkers"></a>Sūtīt gaidāmo informāciju par prombūtnes laiku jūsu kolēģiem
 
 Pēc tam, kad esat instalējis Human Resources programmu Teams, varat vienkārši nosūtīt informāciju par jūsu gaidāmo prombūtni saviem kolēģiem grupās vai tērzēšanā.
 
@@ -167,7 +167,7 @@ Ja jums rodas problēmas, pierakstoties vai izmantojot Dynamics 365 Human Resour
 
 Ja nevarat pierakstīties lietojumprogrammā, iespējams, ka konts, kuru izmantojat, lai pierakstītos Microsoft Teams nav saistīts ar darbinieka ierakstu Dynamics 365 Human Resources. Sazinieties ar sistēmas administratoru, lai pārliecinātos, ka darbinieka ieraksts ir pareizi saistīts.
 
-### <a name="cant-find-the-dynamics-365-human-resources-environment-in-settings"></a>Iestatījumos nevar atrast Dynamics 365 Human Resources vidi
+### <a name="cant-find-the-dynamics-365-human-resources-environment-in-settings"></a>Iestatījumos nevar Dynamics 365 Human Resources atrast vidi.
 
 Ja nevarat atlasīt pareizo Dynamics 365 vidi, iespējams, lietotāja ieraksts nav pareizi sinhronizēts. Sazinieties ar sistēmas administratoru, lai atkārtoti izveidotu lietotāja ierakstu un saistītu to ar lietotāja akreditācijas datiem. Pēc tam pēc dažām minūtēm mēģiniet pieteikties Human Resources programmā Microsoft Teams.
 
@@ -199,7 +199,7 @@ Ja jūs saņemat kļūdu, mēģinot apstiprināt atvaļinājumu pieprasījumus l
 
 2. Pārliecinieties, vai lietotāji ir pierakstījušies cilnē **Tērzēšana** ar tiem pašiem akreditācijas datiem, ko tie izmanto atvaļinājumu pieprasījumu apstiprināšanai. Lietojiet ziņojumus "izrakstīties" un pēc tam "pieteikties", lai pieteiktos, izmantojot pareizos akreditācijas datus.
 
-3. Ja problēma joprojām pastāv, pārbaudiet biznesa notikumu sistēmas pakešuzdevuma statusu kā sistēmas administrators. Ja tas ir gaidīšanas vai izpildes posmā, pārbaudiet atpakaļ pēc dažām minūtēm. Ja statuss paliek nemainīgs, reģistrējiet atbalsta biļeti, lai mūsu komanda varētu palīdzēt atrisināt šo problēmu.
+3. Ja problēma joprojām pastāv, pārbaudiet biznesa notikumu **sistēmas pakešuzdevuma** statusu kā sistēmas administrators. Ja tas ir posmā Gaida **·** vai Notiek **·** izpilde, pārbaudiet vēlreiz pēc dažām minūtēm. Ja statuss paliek nemainīgs, reģistrē atbalsta biļeti, lai mūsu komanda varētu palīdzēt atrisināt šo problēmu.
 
 ## <a name="known-accessibility-issues"></a>Zināmās pieejamības problēmas
 
@@ -208,7 +208,7 @@ Personāla vadības programmā risinājumā Teams ir šādas pieejamības probl�
 | Izsniegt | Profilakse vai skaidrojums |
 | --- | --- |
 | Tālummaiņa līdz 400% darbvirsmā slēpj dažas darbības pogas no skata. | Mēs iesakām izmantot lupu, kamēr mēs varam atbalstīt šo tālummaiņas līmeni. |
-| Cilnē **Pārtraukums** aizkadra balss paziņo par pogas darbību, kamēr tiek lasīts pārtraukuma režģa virsraksts. | Galvene un elementi režģī tiek grupēti pēc gada, un tie ir saliekami. Aizkadra balss to interpretē kā rīcībā esošu krājumu, bet tā nav. |
+| Cilnē **Izslēgtais** laiks nolasa pogu darbību, nolasot laika režģa virsrakstu. | Virsraksts un elementi režģī ir grupēti pēc gada un tie ir saliekami. Nīstināšana izskaidro šo prezentāciju kā darbību derīgs elements, bet tas nav. |
 | Cilnē **Pārtraukums** ir papildu vilkšanas žests, navigējot uz **Iemesla kodu** jaunā pieprasījumā. | Nav nevienas slēptas kontroles, ko vilkšanas navigācija mēģina iegūt. |
 | Ja cilnē **Pārtraukums** veicat vilkšanas žestu, kamēr ir atvērts kalendārs, jūs nokļūsiet ārpus vadīklas, nevis jauna pieprasījuma sākumā vai pieprasījuma rediģēšanā. | Kad sasniedzat **Doties uz šodienu**, ņemiet vērā, ka tās ir vadīklas beigas, pavelciet uz pretējo pusi, lai atgrieztos augšā. |
 | Kad cilnē **Tērzēšana** ievadāt datumu, kamēr izmantojat atbalsta rīku vai tastatūras navigāciju, fokuss pārlec uz augšu. | Nospiediet cilni, līdz atkal tiek sasniegts ievades apgabals. |
@@ -217,19 +217,19 @@ Personāla vadības programmā risinājumā Teams ir šādas pieejamības probl�
 
 ### <a name="microsoft-language-understanding-intelligent-service-luis"></a>Microsoft valodu izpratnes intelektiskais pakalpojums (Microsoft Language Understanding Intelligent Service - LUIS)
 
-Ar Dynamics 365 Human Resources botu programmā Microsoft Teams lietotāja teksta ievades tiek analizētas, lai saprastu pamatā esošo vaicājumu/nolūku. Lietotāja ievade, piemēram, "Meklēt kontu Contoso", ir maršrutēta uz vienu no Microsoft Cognitive Service, kas saucas Language Understanding Intelligent Service (LUIS). Lasīt vairāk par LUIS [šeit](https://www.luis.ai/). LUIS pakalpojums izprot lietotāja ievades nolūku (šajā gadījumā nolūks ir meklēt informāciju) un mērķa elementu (šajā gadījumā paredzētā vienība ir konts ar nosaukumu Contoso). Pēc tam šī informācija tiek nodota Microsoft [Azure Bot Framework](https://azure.microsoft.com/services/bot-service/), kas mijiedarbojas ar datiem no Dynamics 365 Human Resources un izgūst vēlamo informāciju lietotāja vaicājumam. 
+Ar Dynamics 365 Human Resources Microsoft Teams botu, lietotāja teksta ievades tiek analizētas, lai saprastu pamatā esošo vaicājumu/līdz ar to. Lietotāja ievade, piemēram, "Meklēšanas konta Contoso", tiek maršrutēta uz vienu no Microsoft ko pie ko pie kotācijas pakalpojumiem, ko sauc par valodas zināšanas intelligent service (GUID). Lasīt vairāk par LUIS [šeit](https://www.luis.ai/). LUIS pakalpojums izprot lietotāja ievades nolūku (šajā gadījumā nolūks ir meklēt informāciju) un mērķa elementu (šajā gadījumā paredzētā vienība ir konts ar nosaukumu Contoso). Pēc tam šī informācija tiek nodota [Microsoft Azure bota struktūrā, kura mijiedarbojas ar datiem un izgūst lietotāja](https://azure.microsoft.com/services/bot-service/)Dynamics 365 Human Resources vaicājumam vēlamo informāciju. 
 
-Instalējot un ļaujot izmantot botu, jūs piekrītat, ka ļautat LUIS pakalpojumam un Azure bota struktūrai apstrādāt ievades nodomu, kas rada lielāku sarunvalodas lietotāja pieredzi. LUIS pakalpojums un Azure bota struktūrai var būt dažādi atbilstības līmeņi, salīdzinot ar Dynamics 365 Human Resources. Lai gan LUIS pakalpojums var piekļūt tikai lietotāju vaicājumiem un nav paredzēts pievienot lietotāja Dynamics 365 Human Resources datiem vai kontam, Dynamics 365 Human Resources bota lietotājs var brīvprātīgi ievadīt vaicājumu, kurā ir ietverti klienta dati, personas dati vai citi dati, un šāds vaicājuma saturs varētu tikt nosūtīts uz LUIS pakalpojumu un Azure bota struktūru. 
+Instalējot un ļaujot izmantot botu, jūs piekrītat, ka ļautat LUIS pakalpojumam un Azure bota struktūrai apstrādāt ievades nodomu, kas rada lielāku sarunvalodas lietotāja pieredzi. LUIS pakalpojums un Azure bota struktūrai var būt dažādi atbilstības līmeņi, salīdzinot ar Dynamics 365 Human Resources. Lai gan JUMS ir piekļuve tikai lietotāja vaicājumiem un nav izveidota, lai tas būtu paredzēts savienojumam ar lietotāja datiem vai kontu, bota lietotājs var ievadīt vaicājumu, kurā ir Klienta dati, Personas dati vai citi dati, kā arī šāda vaicājuma saturs var tikt nosūtīts uz BOT pakalpojumu un Dynamics 365 Human Resources Dynamics 365 Human Resources Azure bot struktūru. 
 
-Lietotāja vaicājumu un ziņojumu saturs tiek saglabāts LUIS sistēmā ne ilgāk kā 30 dienas, tiek šifrēts, un tas netiek izmantots apmācībās vai pakalpojumu uzlabošanā. Lasiet vairāk par Kognitīvajiem pakalpojumiem [šeit](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/). 
+Lietotāja vaicājumu un ziņojumu saturs tiek saglabāts UZ NE vairāk kā 30 dienām, bet netiek lietots apmācības vai pakalpojumu uzlabošanas sistēmā. Lasiet vairāk par Kognitīvajiem pakalpojumiem [šeit](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/). 
 
 Lai pārvaldītu programmas administrēšanas iestatījumus programmā Microsoft Teams, dodieties uz [Microsoft Teams administrēšanas centru](https://admin.teams.microsoft.com/).
 
 ### <a name="microsoft-teams-azure-event-grid-and-azure-cosmos-db"></a>Microsoft Teams, Azure Event Grid un Azure Cosmos DB
 
-Izmantojot programmu Dynamics 365 Human Resources risinājumā Microsoft Teams, noteikti klienta dati var ieplūst ārpus ģeogrāfiskā reģiona, kurā atrodas jūsu nomnieka Human Resources pakalpojums.
+Izmantojot programmu, noteikti debitora dati var plūst ārpus ģeogrāfiskā reģiona, kur Dynamics 365 Human Resources Microsoft Teams izvietots jūsu nomnieka Cilvēkresursu pakalpojums.
 
-Dynamics 365 Human Resources nosūta darbinieka atvaļinājuma pieprasījumu un darbplūsmas uzdevuma informāciju Microsoft Azure Event Grid un Microsoft Teams. Šos datus var uzglabāt Microsoft Azure Event Grid līdz 24 stundām un tie tiks apstrādāti Amerikas Savienotajās Valstīs, tie ir šifrēti tranzītā un bez tā, un Microsoft vai tās apakšprocesori tos neizmanto apmācības vai pakalpojumu uzlabošanai. Lai saprastu, kur dati tiek glabāti programmā Teams, lūdzu, skatiet sadaļu: [Datu atrašanās vieta Microsoft Teams](/microsoftteams/location-of-data-in-teams?preserve-view=true&view=o365-worldwide).
+Dynamics 365 Human Resources pārsūta darbinieka atvaļinājuma pieprasījumu un darbplūsmas uzdevuma detaļas uz Notikuma Microsoft Azure režģi Microsoft Teams un. Šos datus var uzglabāt Microsoft Azure Event Grid līdz 24 stundām un tie tiks apstrādāti Amerikas Savienotajās Valstīs, tie ir šifrēti tranzītā un bez tā, un Microsoft vai tās apakšprocesori tos neizmanto apmācības vai pakalpojumu uzlabošanai. Lai saprastu, kur dati tiek glabāti programmā Teams, lūdzu, skatiet sadaļu: [Datu atrašanās vieta Microsoft Teams](/microsoftteams/location-of-data-in-teams?preserve-view=true&view=o365-worldwide).
 
 Sarunājoties ar botu Human Resources programmā, sarunas saturs var tikt saglabāts Azure Cosmos DB un pārsūtīts uz Microsoft Teams. Šie dati var tikt glabāti Azure Cosmos DB līdz 24 stundām un tos var apstrādāt ārpus ģeogrāfiskā reģiona, kurā atrodas jūsu nomnieka Human Resources pakalpojums, tie ir šifrēti tranzītā un bez tā, un Microsoft vai tās apakšprocesori tos neizmanto apmācības vai pakalpojumu uzlabošanai. Lai saprastu, kur dati tiek glabāti programmā Teams, lūdzu, skatiet sadaļu: [Datu atrašanās vieta Microsoft Teams](/microsoftteams/location-of-data-in-teams?preserve-view=true&view=o365-worldwide).
  

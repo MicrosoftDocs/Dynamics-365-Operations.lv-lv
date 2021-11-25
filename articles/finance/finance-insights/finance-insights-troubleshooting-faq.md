@@ -2,7 +2,7 @@
 title: Finance Insights iestatījumu problēmu novēršana
 description: Šajā tēmā uzskaitītas problēmas, kas var rasties, kad izmantojat Finance Insights iespējas. Tajā arī skaidrots, kā atrisināt šos jautājumus.
 author: panolte
-ms.date: 08/20/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 7ff42ffc334147c1a4c6b6349c86580df7f1955b
-ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
+ms.openlocfilehash: f3cac30a66ff3a74a7f67c11dd9fa14af79d10af
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7512894"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752621"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Finance Insights iestatījumu problēmu novēršana
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Šajā tēmā uzskaitītas problēmas, kas var rasties, kad izmantojat Finance Insights iespējas. Tajā arī skaidrots, kā atrisināt šos jautājumus.
 
@@ -34,7 +35,7 @@ ms.locfileid: "7512894"
 
 ### <a name="resolution"></a>Novēršana
 
-Iespējams, ka agrākai versijai izmantojat veidni. Pirms versijas 10.0.17 izlaišanas priekšskatiet debitorus, kuri konfigurēja **Debitora maksājuma ieskatu rezultātus (CDS uz Fin un Ops)** Datu integrācijas (DI) veidni, izmantojot **Maksājumu prognozēšanas rezultātu (priekšskatījuma)** elementu. Pēc jaunināšanas uz 10.0.17 vai jaunāku versiju, ir jāizmanto **Debitoru maksājumu ieskatu rezultāti (CDS uz Fin un Ops 10.0.17 vai jaunāka versija)** DI veidne, lai pabeigtu kartēšanu. Iespējams, ka nevarēsit kartēt DI veidnes mērķa kolonnu, kamēr datu pārvaldības elementu saraksts nav atsvaidzināts un tajā tiek parādīts **Maksājumu prognozēšanas rezultāta** elements. Lai atsvaidzinātu elementu sarakstu un rādītu maksājumu prognozēšanas rezultātu, izpildīsiet gan Microsoft Dynamics 365 Finance, gan Dataverse (iepriekš zināmas kā Common Data Service \[CDS\] administratora portāls).
+Iespējams, ka agrākai versijai izmantojat veidni. Pirms versijas 10.0.17 izlaišanas priekšskatiet debitorus, kuri konfigurēja **Debitora maksājuma ieskatu rezultātus (CDS uz Fin un Ops)** Datu integrācijas (DI) veidni, izmantojot **Maksājumu prognozēšanas rezultātu (priekšskatījuma)** elementu. Pēc jaunināšanas uz 10.0.17 vai jaunāku versiju, ir jāizmanto **Debitoru maksājumu ieskatu rezultāti (CDS uz Fin un Ops 10.0.17 vai jaunāka versija)** DI veidne, lai pabeigtu kartēšanu. Iespējams, ka nevarēsit kartēt DI veidnes mērķa kolonnu, kamēr datu pārvaldības elementu saraksts nav atsvaidzināts un tajā tiek parādīts **Maksājumu prognozēšanas rezultāta** elements. Lai atsvaidzinātu elementu sarakstu un rādītu maksājumu prognozēšanas rezultātu, izpildīsiet gan Microsoft Dynamics 365 Finance, gan Dataverse (iepriekš zināmas kā Common Data Service \[ CDS\] administratora portāls).
 
 ### <a name="in-finance"></a>Finance
 
@@ -53,6 +54,12 @@ Izpildiet šīs darbības [Power Platform administrēšanas centrā](https://adm
 
 1. Ja izmantojat Finance Insights versiju, noņemiet DI projektu, kas ir saistīts ar **Debitoru maksājumu ieskatu rezultātiem (CDS uz Fin un Ops)** veidni.
 2. Izpildiet darbības sadaļā [Izveidot datu integrētātāja projektu](create-data-integrate-project.md). Izmantojiet **Debitora maksājuma ieskatu rezultātu (CDS uz Fin un Ops 10.0.17 vai jaunāku)** veidni.
+
+## <a name="symptom-when-i-try-to-open-ai-builder-by-using-the-links-on-the-customer-payment-predictions-setup-page-why-do-i-receive-the-following-error-message-sorry-theres-been-a-disconnect"></a>Simptoms: Kad es mēģinu atvērt AI Builder, izmantojot saites klientu maksājumu prognožu iestatīšanas lapā, kāpēc es saņemu šādu kļūdas ziņojumu: "Atvainojiet, ir notikusi atvienošana"?
+
+### <a name="resolution"></a>Novēršana
+
+Dynamics 365 Finance lietotājiem ir jābūt Microsoft Power Apps vides lietotāja kontam, un šim lietotāja kontam ir jābūt sistēmas pielāgotāja lomai. Microsoft Power Apps Sistēmas administrators var izveidot lietotāja kontu un piešķirt lomu. Pēc tam varat doties uz <https://make.preview.powerapps.com/>, pieteikties, izmantojot šo lietotāja kontu, un vēlreiz izmēģināt saites.
 
 ## <a name="symptom-why-doesnt-the-cash-forecast-tab-in-the-cash-flow-forecast-workspace-show-any-data"></a>Simptoms: kādēļ naudas plūsmas prognozes darbvietas cilne Naudas plūsmas prognoze nerāda nekādus datus?
 

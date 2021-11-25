@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 0df6aee6a5ec1ecc751713c19c659c5471cc4146
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 872a08241f3d0156d0ccf1f89443e3a894656404
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576044"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777606"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Numura zīmes saņemšana, izmantojot Warehouse Management mobile programmu
 
@@ -77,7 +77,7 @@ Kad šis līdzeklis ir ieslēgts, mobilās ierīces izvēlnes vienumi numura zī
 - **Rādīt detalizētu kopsavilkumu** — veicot numura zīmes saņemšanu, darbinieki redzēs papildu lapu, kas parāda pilnu ASN informāciju.
 - **Izlaist kopsavilkumu** — darbinieki neredzēs pilnu ASN informāciju. Noliktavas darbinieki arī saņemšanas procesa laikā nevarēs iestatīt izvietojuma kodu vai pievienot izņēmumus.
 
-Lai šo funkcionalitāti padarītu pieejamu jūsu sistēmā, ir jāaktivizē līdzeklis *Kontrolēt, vai ir jārāda saņemšanas kopsavilkuma lapa mobilajās ierīces* sadaļā [funkciju pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Lai padarītu šo funkcionalitāti pieejamu jūsu sistēmā, *līdzekļu pārvaldībā ir jāieslēdz vadīkla, vai mobilo ierīču līdzekļu pārvaldībā parādīt saņemšanas kopsavilkuma*[lapu](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). (No Piegādes ķēdes pārvaldības versijas 10.0.21, šī funkcija ir ieslēgta pēc noklusējuma.)
 
 ## <a name="prevent-transfer-ordershipped-license-plates-from-being-used-at-warehouses-other-than-the-destination-warehouse"></a>Nepieļaut nodošanas pasūtījuma nosūtīto numura zīmju izmantošanu noliktavās, kas nav galamērķa noliktava
 
@@ -89,7 +89,7 @@ Lai šo funkcionalitāti padarītu pieejamu jūsu sistēmā, ir jāieslēdz līd
 
 Lai pārvaldītu funkcionalitāti, kad šī funkcija ir pieejama, veiciet šādas darbības.
 
-1. Doties uz **Noliktavas vadība\> Iestatīšana \> Noliktavas vadības parametri**.
+1. Doties uz **Noliktavas vadība \> Iestatīšana \> Noliktavas vadības parametri**.
 1. Cilnē **Vispārīgi** kopsavilkuma cilnē **Numura zīmes**  iestatiet **Tranzīta noliktavas numura zīmes politikas** lauku uz vienu no šīm vērtībām:
 
     - **Atļaut nereģistrētas numura zīmes atkārtotu izmantošanu** — sistēma darbojas tādā pašā veidā, kā tas darbojas, kad līdzeklis *Nepieļaut nodošanas pasūtījuma nosūtīto numura zīmju izmantošanu citās noliktavās, kas nav galamērķa noliktava* nav pieejams. Šī vērtība ir noklusētais iestatījums, pirmoreiz aktivizējot līdzekli.

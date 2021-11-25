@@ -2,7 +2,7 @@
 title: Konfigurācijas noformēšana dokumentu ģenerēšanai Excel formātā
 description: Šī tēma sniedz informāciju par to, kā veidot elektronisko pārskatu (ER) formātu, lai aizpildītu Excel veidni un pēc tam ģenerētu izejošos Excel formāta dokumentus.
 author: NickSelin
-ms.date: 09/14/2021
+ms.date: 10/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd3171ad24f9c06f04372b30f2682b6da516bcb6
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
-ms.translationtype: HT
+ms.openlocfilehash: cfacc2232201b85a49068ee724b55e71b60eb2be
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488142"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731642"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Konfigurācijas noformēšana dokumentu ģenerēšanai Excel formātā
 
@@ -45,22 +45,22 @@ Lai konfigurētu konfigurācijas ER formāta komponentu, darbību rūtī atlasie
 
 ### <a name="manual-entry"></a>Manuāla ievade
 
-Jums ir jāpievieno **Excel\\Fails** komponents konfigurētajam ER formātam, lai ģenerētu izejošo dokumentu Excel formātā.
+Jums ir jāpievieno **Excel\\ Fails** komponents konfigurētajam ER formātam, lai ģenerētu izejošo dokumentu Excel formātā.
 
 ![Excel\Faila komponents.](./media/er-excel-format-add-file-component.png)
 
-Lai norādītu izejošā dokumenta izkārtojumu, pievienojiet Excel darbgrāmatu, kam ir paplašinājums .xlsx, **Excel\\Faila** komponentam kā veidni izejošajiem dokumentiem.
+Lai norādītu izejošā dokumenta izkārtojumu, pievienojiet Excel darbgrāmatu, kam ir paplašinājums .xlsx, **Excel\\ Faila** komponentam kā veidni izejošajiem dokumentiem.
 
 > [!NOTE]
 > Manuāli pievienojot veidni, jāizmanto [dokumenta veids](../../../fin-ops-core/fin-ops/organization-administration/configure-document-management.md#configure-document-types), kas ir konfigurēts šim nolūkam [ER parametros](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
 
 ![Pielikuma pievienošana Excel\Faila komponentam.](./media/er-excel-format-add-file-component2.png)
 
-Lai norādītu, kā pievienotā veidne tiks aizpildīta, palaižot konfigurēto ER formātu, ir jāpievieno ligzdotas **Lapas**, **Diapazona** un **Šūnas** komponenti **Excel\\Faila** komponentam. Katram ligzdotajam komponentam ir jābūt saistītam ar Excel nosaukto krājumu.
+Lai norādītu, kā pievienotā veidne tiks aizpildīta, palaižot konfigurēto ER formātu, ir jāpievieno ligzdotas **Lapas**, **Diapazona** un **Šūnas** komponenti **Excel\\ Faila** komponentam. Katram ligzdotajam komponentam ir jābūt saistītam ar Excel nosaukto krājumu.
 
 ### <a name="template-import"></a>Veidnes importēšana
 
-Varat atlasīt **Importēt no Excel** darbību rūts cilnē **Importēt**, lai importētu jaunu veidni tukšā ER formātā. Šajā piemērā **Excel\\Faila** komponents tiks izveidots automātiski, un importētā veidne tiks tai pievienota. Visi vajadzīgie ER komponenti arī tiks izveidoti automātiski, balstoties uz Excel nosaukto vienumu sarakstu.
+Varat atlasīt **Importēt no Excel** darbību rūts cilnē **Importēt**, lai importētu jaunu veidni tukšā ER formātā. Šajā piemērā **Excel\\ Faila** komponents tiks izveidots automātiski, un importētā veidne tiks tai pievienota. Visi vajadzīgie ER komponenti arī tiks izveidoti automātiski, balstoties uz Excel nosaukto vienumu sarakstu.
 
 ![Opcijas Importēt no Excel atlasīšana.](./media/er-excel-format-import-template.png)
 
@@ -85,6 +85,8 @@ ER operācijas veidotāja cilnē **Kartēšana** varat konfigurēt **Iespējoto*
 
 **Diapazona** komponents norāda Excel diapazons, kas ir jākontrolē šim ER komponentam. Diapazona nosaukums ir definēts šī komponenta **Excel diapazona** rekvizītā.
 
+### <a name="replication"></a>Replicēšana
+
 **Replicēšanas virziena** rekvizīts norāda, vai un kā diapazons tiks atkārtots ģenerētajā dokumentā:
 
 - Ja **Replicēšanas virziena** rekvizīts ir iestatīts uz **Bez replikācijas**, atbilstošais Excel diapazons netiks atkārtots ģenerētajā dokumentā.
@@ -92,6 +94,8 @@ ER operācijas veidotāja cilnē **Kartēšana** varat konfigurēt **Iespējoto*
 - Ja **Replicēšanas virziena** rekvizīts ir iestatīts uz **Horizontāls**, atbilstošais Excel diapazons tiks atkārtots ģenerētajā dokumentā. Katrs replicētais diapazons tiek ievietots pa labi no sākotnējā diapazona Excel veidnē. Atkārtojumu skaits tiek noteikts pēc ierakstu skaita **Ierakstu saraksta** tipa datu avotā, kas ir saistīts ar šo ER komponentu.
 
 Lai iegūtu vairāk informācijas par horizontālo replicēšanu, sekojiet soļiem sadaļā [Izmantot horizontāli paplašināmus diapazonus, lai dinamiski pievienotu kolonnas Excel pārskatos](tasks/er-horizontal-1.md).
+
+### <a name="nested-components"></a>Ligzdotie komponenti
 
 **Diapazona** komponentā var būt citi ligzdotie ER komponenti, kas tiek izmantoti, lai ievadītu vērtības atbilstošajos Excel nosauktajos diapazonos.
 
@@ -105,11 +109,40 @@ Lai iegūtu vairāk informācijas par horizontālo replicēšanu, sekojiet soļi
     > [!NOTE]
     > Izmantojiet šo modeli, lai iespējotu Excel programmu, lai formatētu ievadītās vērtības, pamatojoties uz vietējā datora lokalizāciju, kas atver izejošo dokumentu.
 
+### <a name="enabling"></a>Iespējo
+
 ER operācijas veidotāja cilnē **Kartēšana** varat konfigurēt **Iespējoto** rekvizītu **Diapazona** komponentam, lai norādītu, vai komponents ir jāievieto ģenerētajā dokumentā:
 
 - Ja **Iespējotā** rekvizīta izteiksme ir konfigurēta, lai atgrieztu opciju **Patiess** izpildlaikā, vai arī, ja neviena izteiksme nav konfigurēta vispār, izveidotajā dokumentā tiks aizpildīts diapazons.
 - Ja **Iespējotā** rekvizīta izteiksme ir konfigurēta, lai atgrieztu opciju **Aplams** izpildlaikā, un, ja šis diapazons nepārstāv visas rindas un kolonnas, izveidotajā dokumentā diapazons netiks aizpildīts.
 - Ja **Iespējotā** rekvizīta izteiksme ir konfigurēta, lai atgrieztu opciju **Aplams** izpildlaikā, un šis diapazons pārstāv visas rindas un kolonnas, izveidotajā dokumentā šīs rindas un kolonnas būs slēptas rindas un kolonnas.
+
+### <a name="resizing"></a>Izmēru maiņas
+
+Varat konfigurēt Excel veidni, lai lietotu šūnas, lai uzrādītu teksta datus. Lai nodrošinātu, ka viss teksts šūnā ir redzams ģenerētajā dokumentā, var konfigurēt, lai šūna automātiski ietītu tajā tekstu. Varat konfigurēt arī rindu, kas satur šo šūnu, lai automātiski pielāgotu tās augstumu, ja pievienotais teksts nav pilnībā redzams. Papildinformāciju skatiet sadaļas Satīt tekstu šūnā sadaļā Labot [datus, kas ir izgriezti šūnās](https://support.microsoft.com/office/fix-data-that-is-cut-off-in-cells-e996e213-6514-49d8-b82a-2721cef6144e).
+
+> [!NOTE]
+> Zināma Excel ierobežojuma dēļ, pat ja šūnas tiek konfigurētas teksta dzēšanai, un rindas, kurās šīs šūnas ir ietvertas, tiek konfigurētas tā, lai automātiski pielāgotu to augstumus atbilstoši ievietotajam tekstam, iespējams, nevarēsit sapludinātām šūnām un rindām, kurās tās ietvertas, izmantot līdzekļus [...](https://support.microsoft.com/topic/you-cannot-use-the-autofit-feature-for-rows-or-columns-that-contain-merged-cells-in-excel-34b54dd7-9bfc-6c8f-5ee3-2715d7db4353)**AutoFit** un Wrappe text **·** Excel. 
+
+Attiecībā uz versiju 10.0.23 var likt ER aprēķināt katras rindas augstumu, kas tika konfigurēts, lai automātiski ietilptu ligzdoto šūnu saturam, ja šī rinda satur vismaz vienu sapludinātu šūnu, kas bija konfigurēta teksta saglabāšanai Dynamics 365 Finance tajā. Aprēķinātais augstums tiek izmantots rindas izmēru maiņai, lai nodrošinātu, ka visas šūnas rindā ir redzamas ģenerētajā dokumentā. Lai sāktu izmantot šo funkcionalitāti, kad izpildiet visus ER formātus, kas tika konfigurēti, lai izmantotu Excel veidnes nosūtīšanas dokumentu ģenerēšanai, rīkojieties šādi.
+
+1. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
+2. Lapas **Lokalizācijas konfigurācijas** sadaļā **Saistītās saites** atlasiet **Elektronisko pārskatu veidošanas parametri**.
+3. Lapas **Elektronisko pārskatu parametri** cilnē **Izpildlaiks iestatiet opciju Automātiski** **ietilpināt rindu augstumu** **·** jā.
+
+Ja vēlaties mainīt šo kārtulu vienam ER formātam, atjauniniet šī formāta melnraksta versiju, veidojot šādas darbības.
+
+1. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
+2. Lapas **Lokalizācijas konfigurācijas** sadaļā **Konfigurācijas** atlasiet **Pārskatu veidošanas konfigurācijas**.
+3. Konfigurācijas lapā konfigurācijas koka kreisajā rūtī atlasiet ER konfigurāciju, kas izveidota, lai izmantotu Excel veidni izejošo **·** dokumentu ģenerēšanai.
+4. Kopsavilkuma cilnē **Versijas** atlasiet konfigurēto versiju, kuras statuss ir **Melnraksts**.
+5. Darbību rūtī atlasiet **Noformētājs**.
+6. Formāta **veidotāja lapas formāta kokā kreisajā rūtī atlasiet Excel komponentu, kas** ir saistīts ar Excel veidni.
+7. Cilnes Formāts laukā Pielāgot rindas augstumu atlasiet vērtību, lai norādītu, vai ER jābūt forsētam izpildlaikā, lai mainītu rindu augstumu izejošā dokumentā, ko ģenerējis rediģētais **·** **·** ER formāts:
+
+    - **·** Noklusējums – izmantojiet vispārējo iestatījumu, kas ir konfigurēts **laukā Automātiskais rindas augstums lapā Elektronisko pārskatu** **·** parametri.
+    - **Jā** – ignorē vispārējo iestatījumu un mainiet rindas augstumu izpildlaikā.
+    - **Nē** - ignorē vispārējo iestatījumu un nemainiet rindas augstumu izpildlaikā.
 
 ## <a name="cell-component"></a>Šūnas komponents
 
@@ -138,7 +171,7 @@ Papildinformāciju par attēlu un formu iegulšanu skatiet sadaļā [Attēlu un 
 
 **Lappuses pārtraukuma** komponents liek programmai Excel sākt jaunu lapu. Šis komponents nav nepieciešams, ja vēlaties izmantot programmas Excel noklusējuma lapošanu, bet to vajadzētu izmantot, ja vēlaties, lai Excel seko savam ER formātam struktūras lapošanai.
 
-## <a name="page-component"></a><a name="page-component"></a>Lapas komponents
+## <a name="page-component"></a><a name="page-component"></a> Lapas komponents
 
 ### <a name="overview"></a>Pārskats
 
@@ -146,7 +179,7 @@ Varat lietot komponentu **Lapa**, ja vēlaties, lai Excel ievēro jūsu ER form�
 
 Ģenerētais dokuments ir jāsadala vairākās sadaļās, katra ar atšķirīgu sadalījumu pa lapām, vairākus **Lappuses** komponentus varat konfigurēt katrā [Lapas](er-fillable-excel.md#sheet-component) komponentā.
 
-### <a name="structure"></a><a name="page-component-structure"></a>Struktūra
+### <a name="structure"></a><a name="page-component-structure"></a> Struktūra
 
 Pirmais komponents zem komponenta **Lappuse** ir [Diapazons](er-fillable-excel.md#range-component), kurā rekvizīts **Replicēšanas virziens** ir iestatīts uz vērtību **Bez replicēšanas**, šo diapazonu uzskata par lapas galveni sadalījumam pa lapām, kas ir balstīts pašreizējā **Lappuses** komponenta iestatījumos. Excel diapazons, kas tiek saistīts ar šo formāta komponentu, tiek atkārtots katras lappuses augšpusē, kuru ģenerē, izmantojot pašreizējo **Lappuses** komponentu.
 
@@ -167,7 +200,7 @@ Ja ligzdotā **Diapazona** komponentu kopa zem **Lappuses** komponent neatbilst 
 
 Ja vēlaties ar sadalījumu pa lapām saistītu summēšanu un skaitīšanu, lai aprēķinātu palaistās kopsummas un kopskaitu katrai lapai, iesakām konfigurēt vajadzīgos [Datu kolekcijas](er-data-collection-data-sources.md) datu avotus. Lai uzzinātu, kā lietot **Lappuses** komponentu, lai pa lapām sadalītu ģenerēto Excel dokumentu, izpildiet darbības, kas norādītas sadaļā [Noformēt ER formātu, lai pa lapām sadalītu Excel formātā ģenerētu dokumentu](er-paginate-excel-reports.md).
 
-### <a name="limitations"></a><a name="page-component-limitations"></a>Ierobežojumi
+### <a name="limitations"></a><a name="page-component-limitations"></a> Ierobežojumi
 
 Excel sadalījumam pa lapām lietojot **Lappuses** komponentu, jūs nezināsit lappušu gala skaitu ģenerētajā dokumentā, kamēr nav pabeigts sadalījums pa lapām. Tāpēc jūs nevar aprēķināt kopējo lappušu skaitu, izmantojot ER formulas, un drukāt ģenerētā dokumenta pareizo lappušu skaitu uz jebkuras lappuses pirms pēdējās lappuses.
 
@@ -206,7 +239,7 @@ Vienam komponentam **Lapa** var pievienot vairākus komponentus **Kājene**, no 
 > [!NOTE]
 > Pārliecinieties, ka katram komponentam **Kājene**, ko pievienojat vienam komponentam **Lapa**, ir atšķirīga vērtība rekvizītam **Galvenes/kājenes izskats**. Pretējā gadījumā rodas [validācijas kļūda](er-components-inspections.md#i16). Saņemtajā kļūdas ziņojumā ir informācija par nekonsekvenci.
 
-Zem pievienotā komponenta **Kājene** pievienojiet nepieciešamos **Teksts\\Virkne**, **Teksts\\DateTime** vai cita veida ligzdotos komponentus. Konfigurējiet šo komponentu saistījumus, lai norādītu, kā tiek aizpildīta lapas kājene.
+Zem pievienotā komponenta **Kājene** pievienojiet nepieciešamos **Teksts\\ Virkne**, **Teksts\\ DateTime** vai cita veida ligzdotos komponentus. Konfigurējiet šo komponentu saistījumus, lai norādītu, kā tiek aizpildīta lapas kājene.
 
 Lai pareizi formatētu ģenerētās kājenes saturu, varat izmantot arī īpašus [formatēšanas kodus](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers). Lai uzzinātu, kā izmantot šo pieeju, izpildiet darbības [1. piemērā](#example-1) tālāk šajā tēmā.
 
@@ -221,7 +254,7 @@ Komponents **Galvene** tiek izmantots, lai aizpildītu galvenes Excel darbgrāma
 
 ### <a name="update-a-template"></a>Veidnes atjaunināšana
 
-Varat atlasīt **Atjaunināt no Excel** darbību rūts cilnē **Importēt**, lai importētu atjauninātu veidni rediģējamā ER formātā. Šī procesa laikā atlasītā **Excel\\Faila** komponenta veidne tiks aizstāta ar jaunu veidni. Rediģējamā ER formāta saturs tiks sinhronizēts ar atjauninātās ER veidnes saturu.
+Varat atlasīt **Atjaunināt no Excel** darbību rūts cilnē **Importēt**, lai importētu atjauninātu veidni rediģējamā ER formātā. Šī procesa laikā atlasītā **Excel\\ Faila** komponenta veidne tiks aizstāta ar jaunu veidni. Rediģējamā ER formāta saturs tiks sinhronizēts ar atjauninātās ER veidnes saturu.
 
 - Jauns ER formāta komponents tiks automātiski izveidots katram Excel nosaukumam, ja ER formāta komponents nav atrasts rediģējamā formātā.
 - Katrs ER formāta komponents tiks dzēsts no rediģējamā ER formāta, ja tam nav atrasts atbilstošais Excel nosaukums.
@@ -256,7 +289,7 @@ Kad tiek ģenerēts izejošais dokuments Microsoft Excel darbgrāmatas formātā
     > Formulas pārrēķins tiek manuāli izpildīts piespiedu kārtā, kad izveidotais dokuments tiek atvērts priekšskatījumam, izmantojot Excel.
     > Neizmantojiet šo opciju, ja konfigurējat ER galamērķi, kas pieņem izveidotā dokumenta izmantošanu bez tā priekšskatījuma programmā Excel (PDF pārvēršana, nosūtīšana e-pasta utt.), jo izveidotajā dokumentā var nebūt vērtības šūnās, kas satur formulas.
 
-## <a name="example-1-format-footer-content"></a><a name="example-1"></a>1. piemērs: formāta kājenes saturs
+## <a name="example-1-format-footer-content"></a><a name="example-1"></a> 1. piemērs: formāta kājenes saturs
 
 1. Izmantojiet nodrošinātās ER konfigurācijas, lai [ģenerētu](er-generate-printable-fti-forms.md) drukājamu brīvā teksta rēķina (FTI) dokumentu.
 2. Pārskatiet ģenerētā dokumenta kājeni. Ievērojiet, ka tā satur informāciju par pašreizējās lapas numuru un kopējo lapu skaitu dokumentā.
@@ -291,7 +324,7 @@ Kad tiek ģenerēts izejošais dokuments Microsoft Excel darbgrāmatas formātā
 
         ![Kājenes ER formāta komponenta pārskatīšana lapā Formāta veidotājs.](./media/er-fillable-excel-footer-3.png)
 
-    4. [Aizpildiet](er-quick-start2-customize-report.md#CompleteDerivedFormat) atvasinātā **Brīvā teksta rēķina (Excel) pielāgotā** ER formāta melnraksta versiju.
+    4. [Aizpildiet](er-quick-start2-customize-report.md#CompleteDerivedFormat) atvasinātā Brīvā teksta rēķina (Excel) pielāgotā ER formāta melnraksta versiju.
 
 5. [Konfigurējiet](er-generate-printable-fti-forms.md#configure-print-management) drukas pārvaldību, lai izmantotu atvasināto **Brīvā teksta rēķina (Excel) pielāgoto** ER formātu, nevis ER parauga formātu.
 6. Ģenerējiet drukājamu FTI dokumentu un pārskatiet ģenerētā dokumenta kājeni.

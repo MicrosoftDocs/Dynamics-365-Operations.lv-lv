@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-06-24
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 45995ed6f051cdf6be2b2985ff0e2cb1decf4cf0
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
-ms.translationtype: HT
+ms.openlocfilehash: ea265166902f85c2c09cae08ee6de5cd7094e1b4
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7476967"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778406"
 ---
 # <a name="multiple-sku-option-doesnt-evaluate-multiple-location-directive-actions"></a>Vairāku SKU opcija neizvērtē vairāku atrašanās vietu direktīvu darbības
 
@@ -25,4 +25,4 @@ ms.locfileid: "7476967"
 
 ## <a name="resolution"></a>Novēršana
 
-Versijā 10.0.15 ir pievienots jauns līdzeklis *Novērtēt visas darbības vairāku SKU novietojuma direktīvām* (skatiet [KB 4579866](https://fix.lcs.dynamics.com/Issue/Details?kb=4579866&bugId=475946&dbType=3&qc=1bc41a56de7a3ee419fa76397a6bf282fce5be9b93e427c08a6d916d1dfa3091)). Šis līdzeklis novērtē visas darbības vairāku SKU novietojuma direktīvām. Ja jums ir nepieciešams šis līdzeklis, izmantojiet [funkciju pārvaldību](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview), lai to ieslēgtu.
+Versijā 10.0.15 ir pievienots jauns līdzeklis *Novērtēt visas darbības vairāku SKU novietojuma direktīvām* (skatiet [KB 4579866](https://fix.lcs.dynamics.com/Issue/Details?kb=4579866&bugId=475946&dbType=3&qc=1bc41a56de7a3ee419fa76397a6bf282fce5be9b93e427c08a6d916d1dfa3091)). Šis līdzeklis novērtē visas darbības vairāku SKU novietojuma direktīvām. No Piegādes ķēdes pārvaldības versijas 10.0.21 šī funkcija ir ieslēgta pēc noklusējuma. Administratori var izmantot [līdzekļu pārvaldības](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lapu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to iespējotu vai atspējotu.

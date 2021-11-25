@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: c2fbaa6945cf46b7ef09232e6004f09b487ea7c822e72225dc00d3d28ecb008e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 3612dd45a3f4b8c3597c81962a66c21ed14fb206
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780202"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7729031"
 ---
 # <a name="apply-filters-to-a-plan"></a>Izmantot filtrus plānam
 
@@ -43,7 +43,7 @@ Ir iestatīts plāna filtrs, kas ietver krājumus A, B un C. Vispārējā plāno
 - **Izpildlaika filtrs, kas ietver visus elementus (tukšs filtrs):** Krājumi A, B un C tiek iekļauti plānošanas darbībā, un iepriekšējā plānošanas izvade A un B tiek pārrakstīta.
 
 > [!NOTE]
-> Jums vajadzētu izvairīties no plāna filtra iestatīšanas plānā, kas ir izvēlēts kā **Pašreizējais dinamiskais vispārējais plāns** **Vispārējās plānošanas parametru** lapā. Pretējā gadījumā dinamiskā vispārējā plāna funkcionalitāte tiks ierobežota līdz filtrētajiem krājumiem. Piemēram, ja neto vajadzības tiek atjauninātas krājumam, kas nav daļa no plāna filtra, rezultāts netiks ģenerēts.
+> Ja iestatāt plāna filtru plānam, kas lapā Vispārējās plānošanas parametri ir atlasīts kā **Pašreizējais dinamiskais vispārējais** **·** plāns, dinamiskā vispārējā plāna funkcionalitāte tiks ierobežota ar filtrētajiem krājumiem. Piemēram, ja neto vajadzības tiek atjauninātas krājumam, kas nav daļa no plāna filtra, rezultāts netiks ģenerēts.
 
 ## <a name="related-resources"></a>Saistītie resursi
 

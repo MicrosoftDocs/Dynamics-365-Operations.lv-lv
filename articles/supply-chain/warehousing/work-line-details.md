@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 3a932e4443521d67edb5c08c2d8eb563c6feb555
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: f37d161bf3d27e15eaaf1230c05270f3769f9901
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568283"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778285"
 ---
 # <a name="work-line-details"></a>Detalizēta darba rindas informācija
 
@@ -28,9 +28,9 @@ Lapā **Detalizēta informācija par darba rindām** ir attēlots visaptverošs,
 
 ## <a name="turn-on-the-work-line-details-feature"></a>Līdzekļa Detalizēta informācija par darba rindu ieslēgšana
 
-Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu, ja nepieciešams. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
+No Piegādes ķēdes pārvaldības versijas 10.0.21 šī funkcija ir ieslēgta pēc noklusējuma. Administratori var izmantot Līdzekļu [pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lapu, lai pārbaudītu līdzekļu statusu un aktivizētu vai atspējotu to, ja nepieciešams. Šeit līdzeklis tiek norādīts kā:
 
-- **Modulis:** *Noliktavas vadība*
+- **Modulis:** *Noliktavas pārvaldība*
 - **Līdzekļa nosaukums:** *Detalizēta informācija par darba rindu*
 
 ## <a name="open-and-use-the-work-line-details-page"></a>Lapas Detalizēta informācija par darba rindu atvēršana un lietošana

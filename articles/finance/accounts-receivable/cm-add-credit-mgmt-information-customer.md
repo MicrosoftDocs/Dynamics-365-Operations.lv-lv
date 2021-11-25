@@ -1,7 +1,7 @@
 ---
 title: Kredīta pārvaldības informācijas pievienošana debitoriem
 description: Šajā tēmā ir aprakstīts, kā pievienot kredīta pārvaldības informāciju debitoram.
-author: mikefalkner
+author: JodiChristiansen
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 080b1c4a3887aa5f354743315dc11ffd9f089e73350429d5e08710927f6b2454
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 3c8584c33b4f77b6d1f5a4dc0d62208b76b3ffa3
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724067"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753974"
 ---
 # <a name="add-credit-management-information-for-customers"></a>Kredīta pārvaldības informācijas pievienošana debitoriem
 
@@ -86,7 +86,7 @@ Varat izveidot apdrošināšanas polises un garantijas visiem lapā **Visi debit
     - Polises vērtība (B) ir 50 000.
     - Procentuālā **Atjaunināt kredīta limitu** vērtība (C) ir 50,00.
     
-    Šādā gadījumā faktiskais kredīta limits ir 125 000 (= A + \[B × C\]).
+    Šādā gadījumā faktiskais kredīta limits ir 125 000 (= A + \[ B × C\]).
 
 11. Atzīmējiet izvēles rūtiņu **Iekļaut pieejamībā**, lai samazinātu kredīta limitu, kas tiek izmantots kredīta limita aprēķinos pēc pilnas polises vērtības. Ja šī izvēles rūtiņa ir atzīmēta, kredīta limita aprēķinos netiks izmantota vērtība **Atjaunināt kredīta limitu**, kas tiek aprēķināta, kad tiek norādīta atjaunināšanas kredīta limita procentuālā vērtība.
 
@@ -96,9 +96,9 @@ Varat izveidot apdrošināšanas polises un garantijas visiem lapā **Visi debit
     - Polises vērtība (B) ir 50 000.
     - Procentuālā **Atjaunināt kredīta limitu** vērtība (C) ir 50,00.
 
-    Šādā gadījumā faktiskais kredīta limits ir 125 000 (= A + \[B × C\]).
+    Šādā gadījumā faktiskais kredīta limits ir 125 000 (= A + \[ B × C\]).
     
-    Tomēr, ja atzīmējat izvēles rūtiņu **Iekļauts pieejamībā**, vērtība **Atjaunināt kredīta limitu** 50 000 (= 50,00 procenti no 100 000) tiek noņemta, un pieejamības vērtība ir 75 000 (= A + \[B × C\] – B).
+    Tomēr, ja atzīmējat izvēles rūtiņu **Iekļauts pieejamībā**, vērtība **Atjaunināt kredīta limitu** 50 000 (= 50,00 procenti no 100 000) tiek noņemta, un pieejamības vērtība ir 75 000 (= A + \[ B × C\] – B).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 19c4e3c6ad682f3814d334f88c0653c4e7a51d23
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 2fa82c721316fb21442e1cfc00ba00ff8cb2b750
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569291"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778235"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Reģistrējiet pabeigšanu, izmantojot darba kartes ierīci
 
@@ -218,7 +218,7 @@ Papildu noliktavas procesi var izmantot noliktavas unikālās vienības dimensij
 
 Lai izmantotu šajā sadaļā aprakstītos līdzekļus, jāizmanto [līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), lai ieslēgtu tālāk norādītos līdzekļus (minētajā secībā).
 
-1. Darbu kartes ierīcei ir pievienota unikālai noliktavas vienībai, lai ziņotu par pabeigšanu
+1. Numura zīme pabeigšanai, kas pievienota darba kartes ierīcei (No piegādes ķēdes pārvaldības versijas 10.0.21 šī funkcija ir ieslēgta pēc noklusējuma.)
 1. Iespējojiet unikāla noliktavas vienības identifikatora automātisku ģenerēšanu, kad darba kartes ierīcē norādīts pabeigts statuss
 1. Izdrukāt etiķeti no darba karšu ierīces
 

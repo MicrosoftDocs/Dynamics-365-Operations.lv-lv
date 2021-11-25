@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 7d1bd846dae767b47280310fc8d9ca5ee82337ad
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: fd73c515c653de9160301e069fb25d995db40741
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568859"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778309"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Krājumu žurnāla apstiprināšanas darbplūsmas
 
@@ -31,7 +31,7 @@ ms.locfileid: "7568859"
 
 ## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>Krājumu žurnāla apstiprināšanas darbplūsmas līdzekļa iespējošana
 
-Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
+No Piegādes ķēdes pārvaldības versijas 10.0.21 šī funkcija ir ieslēgta pēc noklusējuma. Administratori var izmantot Līdzekļu [pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lapu, lai pārbaudītu līdzekļu statusu un aktivizētu vai atspējotu to, ja nepieciešams. Šeit līdzeklis tiek norādīts kā:
 
 - **Modulis:** *Inventāra un noliktavas pārvaldība*
 - **Funkcionalitātes nosaukums:** *Inventāra žurnāla apstiprināšanas darbplūsma*
@@ -44,7 +44,7 @@ Darbplūsmas atbalsta versijas kontroli, un katrai darbplūsmai ir darbplūsmas 
 
 Lai izveidotu jūsu krājumu žurnāla apstiprināšanas darbplūsmas:
 
-1. Dodieties uz **Krājumu vadība \> Iestatīšana\> Krājumu pārvaldības darbplūsmas**.
+1. Dodieties uz **Krājumu vadība \> Iestatīšana \> Krājumu pārvaldības darbplūsmas**.
 1. Atlasiet **Jauns** darbību rūtī.
 1. Izvēlieties krājumu žurnāla tipu, kuram vēlaties iestatīt darbplūsmu:
     - **Krājumu etiķešu inventarizācijas žurnāls**

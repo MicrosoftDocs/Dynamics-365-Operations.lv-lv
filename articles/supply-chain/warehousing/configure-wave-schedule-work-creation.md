@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 358f5a87cdb42f0ff646948da8d38475cf49e3f2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 5e9dc9b7cf33f9393f408d8f8a458e9b0ea47639
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577916"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778381"
 ---
 # <a name="schedule-work-creation-during-wave"></a>Plānot darba izveidi kopuma laikā
 
@@ -33,7 +33,7 @@ Kad funkcionalitāte ir aktivizēta, plānotais darbs tiks izveidots automātisk
 
 Lai izmantotu šajā tēmā aprakstītos līdzekļus, tie sistēmai ir jāieslēdz. Izmantojiet [Līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lai iespējotu tālāk norādītos līdzekļus šādā secībā:
 
-1. **Organizācijas darba bloķēšana** - nepieciešama gan manuālai, gan automātiskai ieplānotā darba izveidošanai.
+1. **Organizācijas darba bloķēšana** - nepieciešama gan manuālai, gan automātiskai ieplānotā darba izveidošanai. (No Piegādes ķēdes pārvaldības versijas 10.0.21, šī funkcija ir obligāta, tāpēc tā ir ieslēgta pēc noklusējuma un to nevar atkal izslēgt.)
 1. **Plānošanas darba izveide** - nepieciešama gan manuālai, gan automātiskai ieplānotā darba izveidošanai.
 1. **Organizācijas darba "Plānošanas darba izveides" kopuma metode** - nepieciešama gan manuālai, gan automātiskai ieplānotā darba izveidošanai. Jums šī funkcija nav nepieciešama, ja izmantosit tikai manuālo konfigurāciju.
 

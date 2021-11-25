@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 78bea4ee2429323a6e087c6433a8e496b08f4cea
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 6ff9f133010ec4370a99c585259aece4e279f801
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576116"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778211"
 ---
 # <a name="replenishment-over-location-capacity"></a>Papildināšana, pārsniedzot vietas ietilpību
 
@@ -32,7 +32,7 @@ Funkcija ļauj izveidot papildu papildināšanas darbu, nekā tas ietilptu atra�
 
 Lai padarītu šo līdzekli pieejamu, aktivizējiet tālāk norādītos līdzekļus [līdzekļu pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (šādā secībā):
 
-1. Organizācijas mēroga darba aizturēšana
+1. Organizācijas līmeņa darba bloķēšana (Piegādes ķēdes pārvaldības versijas 10.0.21 versija, šī funkcija ir obligāta un pēc noklusējuma ir ieslēgta un to nevar atkal izslēgt.)
 1. Papildināšana, pārsniedzot vietas ietilpību
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>Iestatīt līdzekli piemēra scenārijam

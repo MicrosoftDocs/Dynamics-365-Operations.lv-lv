@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37d78e97a6c7f9152ab0b893a35a3ae70d5adabc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: d8a29e93b252c5d4ec68dfcd9ffe2f63ac1b6af2
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579644"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778037"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Manuāla bāzlīnijas prognozes korekciju veikšana
 
@@ -34,7 +34,7 @@ Pirms manuālu korekciju veikšanas ir jāizprot daži dažādu lapu principi.
 ## <a name="grid-on-the-adjusted-demand-forecast-page"></a>Lapas Koriģēta pieprasījuma apjoma prognoze režģis
 Lapā **Koriģēta pieprasījuma apjoma prognoze** ir iekļauts režģis, kam ir tālāk norādītā struktūra.
 
--   Pirmajā kolonnā ir redzami krājumi, krājumu sadalījuma principi, uzņēmumi un citi elementi, par kuriem ir ģenerēta prognoze. Lapas apakšvirsraksts norāda pašreizējo prognozes dimensiju, kas redzamas režģī, aprakstu. Piemēram, ja lapas apakšvirsraksts ir **Uzņēmums/Vieta/Krājumu sadalījuma princips** un kāda no rindu galvenēm režģī ir **USMF/1/\_Alloc**, šajā rindā ir redzama prognoze, kas attiecas uz uzņēmumu USMF, vietu Nr. 1 un krājumu sadalījuma principu **D\_Alloc**.
+-   Pirmajā kolonnā ir redzami krājumi, krājumu sadalījuma principi, uzņēmumi un citi elementi, par kuriem ir ģenerēta prognoze. Lapas apakšvirsraksts norāda pašreizējo prognozes dimensiju, kas redzamas režģī, aprakstu. Piemēram, ja lapas apakšvirsraksts ir **Uzņēmums/Vieta/Krājumu sadalījuma princips** un kāda no rindu galvenēm režģī ir **USMF/1/\_ Alloc**, šajā rindā ir redzama prognoze, kas attiecas uz uzņēmumu USMF, vietu Nr. 1 un krājumu sadalījuma principu **D\_ Alloc**.
 -   Nākamās kolonnas attiecas uz prognožu intervāliem, kuriem prognoze ir ģenerēta. Katras kolonnas galvene ir pirmais prognozes intervāla datums, kas ir redzams kolonnā.
 -   Vērtības šūnās norāda viena krājuma, krājumu sadalījuma principa un citu šī konkrētā prognozes intervāla elementu prognozi.
 
@@ -67,7 +67,7 @@ Lapā **Detalizēti pieprasījuma apjoma prognozes dati** grafiskā un tabulas f
 
 **Piezīmes.**
 
--   Ja iespējojat **Prognozes modeļa atlasi pēc pieprasījuma apjoma prognozes informācijas** no Funkciju pārvaldības, jūs varat atlasīt prognozes modeļus, kas jāiekļauj vēsturiskās prognozes lapā **Pieprasījuma apjoma prognoze**.
+-   Ja iespējojat **Prognozes modeļa atlasi pēc pieprasījuma apjoma prognozes informācijas** no Funkciju pārvaldības, jūs varat atlasīt prognozes modeļus, kas jāiekļauj vēsturiskās prognozes lapā **Pieprasījuma apjoma prognoze**. (No Piegādes ķēdes pārvaldības versijas 10.0.21, šī funkcija ir ieslēgta pēc noklusējuma.)
 -   Ticamības intervāls, kas ir redzams lapas sadaļā **Prognoze**, norāda starpību starp ticamības intervāla augšējo robežu un ticamības intervāla apakšējā robežu. Lai redzētu augšējās un apakšējās robežas vērtības, novietojiet kursoru virs diagrammas sadaļā **Grafisks vēsturiskā pieprasījuma un prognozes attēlojums**.
 -   Ja lietojat Microsoft Azure mašīnmācīšanās pakalpojumu pieprasījuma apjoma prognozei, varat norādīt ģenerētās prognozes ticamības līmeni procentos. Ticamības intervālu veido vairākas vērtības, kas darbojas kā labs pieprasījuma apjoma prognozes aprēķins. Ticamības līmenis 95 % norāda, ka pastāv 5 % risks, ka pieprasījuma apjoma prognoze nav ticamības intervāla diapazonā.
 

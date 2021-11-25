@@ -2,7 +2,7 @@
 title: Ārējo datu izmantošana naudas plūsmas prognozēs
 description: Šajā tēmā ir aprakstītas iestatīšanas darbības, kas jāveic, lai ārējos datus varētu ievadīt vai importēt naudas plūsmas prognozēs.
 author: rcarlson
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,30 +15,35 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 855f428ae8ce79f2b7ce9a6f3347cd454bad9566
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
-ms.translationtype: HT
+ms.openlocfilehash: dbfa04228cf63c0874a7d69af4e2b932544c0d7f
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386466"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7753006"
 ---
 # <a name="use-external-data-in-cash-flow-forecasts"></a>Ārējo datu izmantošana naudas plūsmas prognozēs
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Ārējos datus var ievadīt vai importēt naudas plūsmas prognozēs. Šajā tēmā ir aprakstītas iestatīšanas darbības, kas ir raksturīgas ārējo datu izmantošanai un kas ļauj ārējos datus iekļaut naudas plūsmas prognozē.
 
 ## <a name="external-data-setup"></a>Ārējo datu iestatīšana
 
-Lietojiet cilni **Ārējais avots** lapā **Skaidras naudas plūsmas prognozes iestatījumi** (**Skaidras naudas un bankas pārvaldība \> Skaidras naudas plūsmas prognozēšana**), lai ievadītu iestatījumus, kas atbalsta ārējo datu izmantošanu naudas plūsmas prognozēs.
+Izmantojiet cilni Ārējais avots lapā Naudas plūsmas prognozes iestatīšana (Naudas plūsmas un bankas pārvaldības naudas plūsmas prognozēšana) lai ievadītu iestatījumus, kas atbalsta ārējo datu izmantošanu **·** naudas plūsmas **·** **\>\>** prognozēs.
 
-Papildinformāciju par skaitītāju iestatīšanu skatiet sadaļā [Skaidras naudas plūsmas prognozēšana](../cash-bank-management/cash-flow-forecasting.md).
+Ārējos datus var ievadīt vai importēt naudas plūsmas prognozēs. Pirms ārējo datu ievadīšanas vai importēšanas, jāiestata ārējie avoti. Cilnē **Ārējais** avots iestatiet ārējās naudas plūsmas kategorijas. Kategorija var būt Izejošā **vai** **·** Ienākošā. **·** Kases/bankas grāmatojuma tips ir jāatlasa. Juridiskās **personas iestatījumu** režģī atlasiet juridiskās personas un atbilstošos galvenos kontus, uz kuriem attiecas ārējās naudas plūsmas kategorijas.
 
-Lai ievadītu ārējos datus naudas plūsmas prognozēm, varat izmantot Atvēršanas Excel programmā pieredzi, lai ievadītu mainītu ārējos datus. Atlasiet pogu **Ārējie dati** un pēc tam atlasiet opciju **Pievienot ārējos datus** vai **Rediģēt esošos ārējos datus**. Kad Microsoft Excel fails tiek atvērts, varat ievadīt informāciju šādos laukos:
+Papildinformāciju par to, kā iestatīt naudas plūsmas prognozes, skatiet sadaļā [Naudas plūsmas](../cash-bank-management/cash-flow-forecasting.md) prognozēšana.
 
-- **Ieraksta ID**
+## <a name="enter-external-data"></a>Ārējo datu ievadīšana
+
+Lai naudas plūsmas prognozēm ievadītu un modificētu ārējos datus, varat izmantot programmu **Atvērt programmas Excel** pieredzi. Izvēlieties pogu Ārējie dati naudas plūsmas prognozes iestatījuma lapā un pēc tam izvēlieties Pievienot ārējos datus **·** vai Rediģēt **·** **·** **esošos ārējos** datus. Kad Microsoft Excel fails tiek atvērts, varat ievadīt informāciju šādos laukos:
+
+- **Ieraksta ID** (unikāls)
 - **Apraksts** (nav obligāts)
-- **Ārējais avota nosaukums** — atlasiet vienu no vērtībām sarakstā, kuru definējāt, iestatot finanšu ieskatus.
+- **Ārējais avota** nosaukums – atlasiet vienu no vērtībām sarakstā, ko definējāt, kad iestatāt Finanšu ieskatus.
 - **Juridiska persona**
 - **Datums**
 - **Summa darījuma valūtā**

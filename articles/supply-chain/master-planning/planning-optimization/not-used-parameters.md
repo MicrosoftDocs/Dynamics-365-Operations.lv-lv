@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: eb7e1b4e6df2c514b55ec101c0edf22590041628
-ms.sourcegitcommit: fcb1aa39e933216dea9e586b552bce6057f416a6
-ms.translationtype: HT
+ms.openlocfilehash: 55b174b426b02e59f75d58e9a6cf32991089ca22
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "7645762"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728959"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Plānošanas optimizācijas neizmantotie parametri
 
@@ -60,7 +60,7 @@ Plānošanas optimizācijā netiek lietoti parametri vai opcijas lapā **Vajadz�
 
 - Kopsavilkuma cilne **Vispārīgi**.
 
-  - **Pozitīvās dienas** – gaida atbalstu *Pozitīvas dienas*.
+  - **Pozitīvās** dienas — netiek izmantota vērtība *·* Pozitīvās dienas. Ar plānošanas optimizāciju pozitīvās dienas tiek uzskatītas par neierobežots.
   - **Patērēt rīcībā esošos krājumus** - gaida atbalstu *Rīcībā esošo krājumu patēriņš*.
   - **Izmantojiet norādīto MK vai formulas versiju** – gaida atbalstu *Formulas versijas ar līdzproduktu/blakusproduktu*.
   - **Izmantojiet norādīto maršruta versiju** – gaida atbalstu *Pieprasījums ar noteiktām MK vai maršruta prasībām*.
@@ -156,10 +156,10 @@ Plānošanas optimizācijā netiek lietoti parametri vai opcijas lapā **Vispār
 - **Aprēķinātās aizkaves** kopsavilkuma cilne:
 
   - **Nodrošiniet, lai plānotie pasūtījumi nebūtu izveidoti pirms vispārējā plānošanas izpildes datuma** – gaida atbalstu *Aprēķinātās aizkaves*.
-  - **Pievienot aprēķināto aizkavi pieprasījuma datumam** (sadaļā **Plānotie pirkšanas pasūtījumi** ) – gaida atbalstu *Aprēķinātās aizkaves*.
-  - **Pievienot aprēķināto aizkavi pieprasījuma datumam** (sadaļā **Plānotie ražošanas pasūtījumi** ) – gaida atbalstu *Aprēķinātās aizkaves*.
-  - **Pievienot aprēķināto aizkavi pieprasījuma datumam** (sadaļā **Plānotā pārsūtīšana** ) – gaida atbalstu *Aprēķinātās aizkaves*.
-  - **Pievienot aprēķināto aizkavi pieprasījuma datumam** (sadaļā **Plānotais Kanban** ) – gaida atbalstu *Aprēķinātās aizkaves*.
+  - **Pievienot aprēķināto aizkavi pieprasījuma datumam** (sadaļā **Plānotie pirkšanas pasūtījumi**) – gaida atbalstu *Aprēķinātās aizkaves*.
+  - **Pievienot aprēķināto aizkavi pieprasījuma datumam** (sadaļā **Plānotie ražošanas pasūtījumi**) – gaida atbalstu *Aprēķinātās aizkaves*.
+  - **Pievienot aprēķināto aizkavi pieprasījuma datumam** (sadaļā **Plānotā pārsūtīšana**) – gaida atbalstu *Aprēķinātās aizkaves*.
+  - **Pievienot aprēķināto aizkavi pieprasījuma datumam** (sadaļā **Plānotais Kanban**) – gaida atbalstu *Aprēķinātās aizkaves*.
 
 - **Secība** kopsavilkuma cilne:
 

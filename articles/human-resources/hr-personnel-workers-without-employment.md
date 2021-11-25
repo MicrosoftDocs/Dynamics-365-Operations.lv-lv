@@ -1,8 +1,8 @@
 ---
 title: Nodarbinātie bez nodarbinātības
-description: Darbinieki, kuriem nav turpmākas, aktīvas vai vēsturiskas nodarbinātības jūsu organizācijā, parādās veidlapā Darbinieki bez nodarbinātības.
-author: andreabichsel
-ms.date: 04/06/2021
+description: Darbinieki, kuri nav turpmāk, aktīvi vai vēsturiski nodarbināti jūsu organizācijā, tiek rādīti lapā Darbinieki bez nodarbinātības.
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: ''
 ms.prod: ''
 ms.technology: ''
@@ -10,23 +10,23 @@ ms.search.form: HcmWorkerV2, HRMMassHireProject, HRMMassHireLine, HcmPersonnelMa
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2021-04-06
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 45841c35780960f524cc232dad16f94dbc8ec1c2df75fa2a5c2520e5522d4e3a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: d282c0fac00d6bc410717dd156aef9ffce352c6d
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724968"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771294"
 ---
 # <a name="workers-without-employment"></a>Nodarbinātie bez nodarbinātības
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Darbinieki, kuriem nav turpmākas, aktīvas vai vēsturiskas nodarbinātības jūsu organizācijā, parādās veidlapā **Darbinieki bez nodarbinātības**. Darbinieki ar šādu statusu var parādīties, ja importējat darbiniekus bez nodarbinātības ieraksta vai ja dzēšat darbinieka nodarbinātību, izmantojot **Darbinieki > Nodarbinātības vēsture**.
+Darbinieki, kuriem nav nākotnes, aktīvas vai vēsturiskas nodarbinātības jūsu organizācijā, tiek rādīti **lapā Darbinieki bez** nodarbinātības. Šī tipa darbinieki var tikt rādīti, ja importējat darbiniekus, kuriem nav nodarbinātības ieraksta, vai kad dzēšat darbinieka nodarbinātību, izmantojot **\> darbinieku nodarbinātības vēsturi**.
 
-Pēc noklusējuma veidlapa **Darbinieki bez nodarbinātības** ir pieejama ar šādām lomām:
+Pēc noklusējuma lapa **Darbinieki bez nodarbinātības ir pieejama šādām** lomām:
 
 - Personāla vadības asistents
 - Personāla vadības vadītājs
@@ -42,13 +42,13 @@ Sarakstā **Darbinieki bez nodarbinātības** varat dzēst uzskaitītās persona
 
 2. Cilnē **Privilēģijas** filtrējiet sarakstu **Privilēģijas** **Uzturēt darbiniekus**.
 
-   [![Filtrēt privilēģiju sarakstu.](./media/hr-personnel-workers-without-employment-filter.png)](./media/hr-personnel-workers-without-employment-filter.png)
+   [![ Filtrēt privilēģiju sarakstu.](./media/hr-personnel-workers-without-employment-filter.png)](./media/hr-personnel-workers-without-employment-filter.png)
 
 3. Kolonnā **Atsauces** atlasiet **Displeja izvēlnes elementi**.
 
 4. Kolonnā **Displeja izvēlnes vienumi** atlasiet **HcmWorkersWithoutEmployment**.
 
-   [![Atlasīt formu.](./media/hr-personnel-workers-without-employment-select.png)](./media/hr-personnel-workers-without-employment-select.png)
+   [![ Atlasīt formu.](./media/hr-personnel-workers-without-employment-select.png)](./media/hr-personnel-workers-without-employment-select.png)
 
 5. Iestatiet **Dzēšanas** atļauju uz **Piešķirt**.
 
@@ -56,6 +56,6 @@ Sarakstā **Darbinieki bez nodarbinātības** varat dzēst uzskaitītās persona
 
 7. Atlasiet **Publicēt visus**.
 
-   [![Publicēt izmaiņas.](./media/hr-personnel-workers-without-employment-publish.png)](./media/hr-personnel-workers-without-employment-publish.png)
+   [![ Publicēt izmaiņas.](./media/hr-personnel-workers-without-employment-publish.png)](./media/hr-personnel-workers-without-employment-publish.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -5,17 +5,17 @@ author: RamaKrishnamoorthy
 ms.date: 02/06/2020
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.custom: intro-internal
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 859bb270a0c1e37b6673413b1e8444a6e4b00e2d
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
-ms.translationtype: HT
+ms.openlocfilehash: 131c002000ee6ebed81a23f45ce17b7a7fff0b95
+ms.sourcegitcommit: 9f8da0ae3dcf3861e8ece2c2df4f693490563d5e
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7417035"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "7817365"
 ---
 # <a name="dual-write-overview"></a>Duālā ieraksta pārskats
 
@@ -68,11 +68,7 @@ Duālais ieraksts izveido kartēšanu starp koncepcijām Finance and Operations 
 + Iespēja meklēt rīcībā esošo krājumu pieejamību un detalizētu informāciju
 + "Projekta-naudas" pieredze
 + Iespēja apstrādāt vairākas adreses un lomas, izmantojot puses koncepciju
-+ Viena avota pārvaldība lietotājiem
-+ Integrētie kanāli mazumtirdzniecībai un mārketingam
-+ Ieskats akcijās un atlaidēs
-+ Pakalpojuma pieprasījuma funkcijas
-+ Racionalizētas pakalpojuma darbības
+
 
 ## <a name="top-reasons-to-use-dual-write"></a>Galvenie iemesli duālā ieraksta lietošanai
 
@@ -83,7 +79,7 @@ Duālais ieraksts nodrošina datu integrāciju Microsoft Dynamics 365 programmā
 + Duālā ieraksta infrastruktūrā tiek ievērots bezkoda/zemā koda princips. Ir nepieciešami minimāli tehniskie pūliņi, lai paplašinātu standarta "no tabulas līdz tabulai" kartes un iekļautu pielāgotas kartes.
 + Duālais ieraksts atbalsta gan tiešsaistes, gan bezsaistes režīmu. Microsoft ir vienīgais uzņēmums, kas piedāvā atbalstu tiešsaistes un bezsaistes režīmiem.
 
-## <a name="what-does-dual-write-mean-for-developers-and-architects-of-customer-engagement-apps"></a><a id="developer-architect"></a>Ko duālais ieraksts nozīmē Customer Engagement programmu izstrādātājiem un arhitektiem?
+## <a name="what-does-dual-write-mean-for-developers-and-architects-of-customer-engagement-apps"></a><a id="developer-architect"></a> Ko duālais ieraksts nozīmē Customer Engagement programmu izstrādātājiem un arhitektiem?
 
 Duālais ieraksts automatizē datu plūsmu starp Finance and Operations programmām un Customer Engagement programmām. Duālais ieraksts sastāv no diviem AppSource risinājumiem, kas ir instalēti risinājumā Dataverse. Risinājumi paplašina tabulu shēmu, spraudņus un darbplūsmas risinājumā Dataverse , lai tās varētu mērogot līdz ERP lielumam. Veiksmīgai īstenošanai Customer Engagement programma, izstrādātājiem un arhitektiem ir jāsaprot šīs izmaiņas un jāsadarbojas ar kolēģiem Finance and Operations lietojumprogrammās.
 

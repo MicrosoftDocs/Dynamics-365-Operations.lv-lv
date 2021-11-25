@@ -1,7 +1,7 @@
 ---
 title: Brīva teksta rēķina labošana
 description: Šajā rakstā ir paskaidrots, kā labot brīva teksta rēķinu, kas jau ir iegrāmatots, un kā to vēlreiz izsniegt kā labotu rēķinu.
-author: ShivamPandey-msft
+author: abruer
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0d4e40e46e23766983351871634280b2d951aa9551db97092a8872a25833721
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: cf4503e3d4b200219d6b444b69c866871d21787d
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763314"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753806"
 ---
 # <a name="correct-a-free-text-invoice"></a>Brīva teksta rēķina labošana
 
@@ -41,7 +41,7 @@ Pēc labotā rēķina grāmatošanas jums ir trīs rēķini:
 Atcelšanas un labošanas rēķinus varat identificēti divējādi:
 
 -   Lapā **Visi brīva teksta rēķini** ietver kolonnu **Labojums**, kur varat redzēt, kuri rēķini ir atcelšanas rēķini un labotie rēķini.
--   Brīva teksta rēķina virsrakstā ir redzams statuss **Atcelšanas rēķins '\[rēķina numurs\]'** vai **Labotais rēķins '\[rēķina numurs\]'**.
+-   Brīva teksta rēķina virsrakstā ir redzams statuss **Atcelšanas rēķins '\[ rēķina numurs\]'** vai **Labotais rēķins '\[ rēķina numurs\]'**.
 
 > [!NOTE]
 > Šis līdzeklis ir pieejams tikai tad, ja ir atlasīta konfigurācijas atslēga **Brīva teksta rēķina labojums**. Papildinformācijai par to, kā iespējot konfigurācijas atslēgas, skatiet tēmu Iespējot (vai atspējot) konfigurācijas atslēgas [Uzturēšanas režīms](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md). 

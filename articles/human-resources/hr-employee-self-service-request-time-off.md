@@ -1,8 +1,8 @@
 ---
 title: Brīvā laika pieprasīšana
 description: Brīvā laika pieprasīšana pakalpojumā Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 07/16/2021
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f8fead1105412e5fe967a19632e1875058f4026c722140eaed056c5412c6558f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 6e12ac21e80c46f5cb5f231aadab7272fc279194
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756104"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771416"
 ---
 # <a name="request-time-off"></a>Brīvā laika pieprasīšana
 
@@ -42,11 +42,11 @@ Varat iesniegt brīvā laika pieprasījumus, skatīt atvaļinājumu un prombūtn
 
 6. Atlasiet **Iesniegt**, kad esat gatavs iesniegt savu pieprasījumu. Pretējā gadījumā atlasiet **Saglabāt melnrakstu**.
 
-Darbinieki, kas iesniedz jaunu atvaļinājuma pieprasījumu, var atlasīt dažādus atvaļinājumu tipus, lai veidotu sava atvaļinājuma pieprasījumu. Tomēr visiem atvaļinājumu tipiem, kas atlasīti kā daļa no viena atvaļinājuma pieprasījuma, jābūt vienai atvaļinājuma vienībai. Darbinieki var skatīt atvaļinājuma vienību katram atvaļinājuma veidam veidlapā **Pieprasīt brīvo laiku**.
+Darbinieki, kas iesniedz jaunu atvaļinājuma pieprasījumu, var atlasīt dažādus atvaļinājumu tipus, lai veidotu sava atvaļinājuma pieprasījumu. Tomēr visiem atvaļinājumu tipiem, kas atlasīti kā daļa no viena atvaļinājuma pieprasījuma, jābūt vienai atvaļinājuma vienībai. Darbinieki var skatīt atvaļinājuma vienību katram atvaļinājuma tipam **lapā Pieprasījuma laiks** off.
 
 ## <a name="add-an-attachment-to-an-existing-request"></a>Pielikuma pievienošana esošam pieprasījumam
 
-Atjauninot esošo vienreizējo pieprasījumu, varat pievienot pielikumu. Varat arī skatīt visus saistītos pieprasījumus noteiktam datumam.
+Atjauninot esošo vienreizējo pieprasījumu, varat pievienot pielikumu. Jūs variet arī skatīt visus saistītos pieprasījumus noteiktam datumam.
 
 ## <a name="view-leave-balances"></a>Skatīt atvaļinājumu bilances
 
@@ -58,13 +58,13 @@ Atjauninot esošo vienreizējo pieprasījumu, varat pievienot pielikumu. Varat a
 
 1. Darbvietā **Darbinieku patstāvīgi izmantotie pakalpojumi** atlasiet opciju **Vairāk** (...) rūtī **Brīvā laika bilances**.
 
-2. Lai skatītu apstiprinātos brīvā laika pieprasījumus, izvēlieties **Apstiprinātais brīvais laiks**. Lai skatītu gaidošos brīvā laika pieprasījumus, atlasiet **Brīvā laika pieprasījumi**.
+2. Lai skatītu jūsu apstiprinātos pieprasījumus par izslēgto laiku, **atlasiet Apstiprināts laiks izslēgts**. Lai skatītu gaidošos pieprasījumus par izslēgtajiem laika pieprasījumiem, atlasiet **pieprasījumus, kas izslēdz laiku**.
 
-## <a name="cancel-time-off-requests"></a>Prombūtnes pieprasījumu atcelšana
+## <a name="cancel-time-off-requests"></a>Atcelt pieprasījumus par noikstāmo laiku
 
 1. Darbvietā **Darbinieku patstāvīgi izmantotie pakalpojumi** atlasiet opciju **Skatīt brīvo laiku** rūtī **Brīvā laika bilances**.
 
-2. Veidlapā **Brīvais laiks** atlasiet vienu vai vairākus atcelšanas pieprasījumus.
+2. Lapā **Izslēgto** laiku atlasiet vienu vai vairākus pieprasījumus atcelt.
 
 3. Atlasiet pogu **Atcelt**.
 

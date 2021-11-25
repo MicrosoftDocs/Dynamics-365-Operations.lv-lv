@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 08/11/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: da5ca16ed87108f8046348c831d37085f6f780d7
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
-ms.translationtype: HT
+ms.openlocfilehash: 127b4092ad3c5e8737aff43f503e0a8f36ff1ec8
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386689"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781348"
 ---
 # <a name="party-and-global-address-book"></a>Puse un globālā adrešu grāmata
 
@@ -26,18 +26,18 @@ ms.locfileid: "7386689"
 
 ## <a name="party"></a>Puse
 
-Puse ir persona vai organizācija, kas ir iesaistīta biznesā. Ja tiek izmantots puses jēdziens, personai vai organizācijai uzņēmumā var būt vairāk nekā viena loma (piemēram, darbinieks, klients, piegādātājs vai kontaktpersona). Lomas pamatā ir konteksts un mērķis. Lūk, daži lomu piemēri no diviem fiktīviem uzņēmumiem – Contoso un Fabrikam:
+Puse ir persona vai organizācija, kas ir iesaistīta biznesā. Ja tiek izmantots puses jēdziens, personai vai organizācijai uzņēmumā var būt vairāk nekā viena loma (piemēram, darbinieks, klients, piegādātājs vai kontaktpersona). Lomas pamatā ir konteksts un mērķis. Tālāk ir sniegti daži divu fiktīvu uzņēmumu Contoso un Fabrikam lomu piemēri.
 
 + **Nodarbinātais** - darbinieks. Piemērs ir Contoso darbinieks.
-+ **Kreditors** - piegādātāju organizācija vai vienīgais īpašnieks, kas piegādā preces vai sniedz pakalpojumus uzņēmumam. Piemēram, ja Fabrikam pārdod krājumus Contoso, Fabrikam ir Contoso kreditors.
-+ **Kontaktpersona** - persona, ar kuru jāsazinās. Piemēram, ja Contoso pērk krājumus no Fabrikam, Contoso darbinieki sazināsies ar kontaktpersonu Fabrikam.
-+ **Debitors** - persona vai uzņēmums, kas pērk lietas no uzņēmuma. Piemēram, ja Contoso pērk krājumus no Fabrikam, Contoso ir Fabrikam debitors.
++ **Kreditors** - piegādātāju organizācija vai vienīgais īpašnieks, kas piegādā preces vai sniedz pakalpojumus uzņēmumam. Piemēram, ja Fabrikam pārdod piegādes Contoso, Fabrikam ir Contoso piegādātājs.
++ **Kontaktpersona** - persona, ar kuru jāsazinās. Piemēram, ja Contoso pērk piegādes no rūpnīcas, Contoso darbinieki sazināsies ar kontaktpersonu Fabrikam.
++ **Debitors** - persona vai uzņēmums, kas pērk lietas no uzņēmuma. Piemēram, ja Contoso iepērk piegādes no rūpnīcas, Contoso ir Fabrikam klients.
 
 Puses modelis bieži tiek izmantots, lai pārstāvētu vidējas un sarežģītas attiecības starp organizācijām un cilvēkiem, jo īpaši, ja pusei ir vairāk nekā viena loma. Tālāk ir sniegti daži izplatīti piemēri.
 
-+ Puse var būt gan debitors, gan kreditors. Piemēram, Ziemeļamerikā Fabrikam pārdod elektriskos vadus Contoso un iepērk samontētus skaļruņus no Contoso. Eiropā Fabrikam pārdod detaļas Contoso, bet tas neko nepērk no Contoso.
++ Puse var būt gan debitors, gan kreditors. Piemēram, Ziemeļamerikā Fabrikam pārdod elektriskos vadus Contoso un pērk samontētus skaļruņus no Contoso. Eiropā Fabrikam pārdod detaļas Contoso, bet tas neko nepērk no Contoso.
 + Puse var būt gan darbinieks, gan debitors. Piemēram, Contoso darbinieks pērk elektroniku no Contoso personiskai lietošanai.
-+ Starp personu un organizāciju var būt attiecības daudzi pret daudziem (N:N). Piemēram, Fabrikam sniedz pakalpojumu speciālistus un nodarbina prakses koordinatoru. Norīkojuma koordinators atbilst servisa speciālistiem par vairāku Fabrikam klientu darba pieprasījumiem. Contoso ir viens no Fabrikam debitoriem. Kad Contoso ir nepieciešams pakalpojuma speciālists, tas sazinās ar norīkojuma koordinatoru, kurš pēc tam atvieglo pieprasījumu. Tā kā norīkojuma koordinators apstrādā pieprasījumus visiem debitoriem, ir iesaistītas N:N attiecības.
++ Starp personu un organizāciju var būt attiecības daudzi pret daudziem (N:N). Piemēram, Fabrikam sniedz pakalpojumu speciālistus un nodarbina prakses koordinatoru. Norīkojuma koordinators atbilst servisa speciālistiem par vairāku Fabrikam klientu darba pieprasījumiem. Contoso ir viens no Fabrikam klientiem. Ja Contoso ir nepieciešams servisa speciālists, tas sazinās ar izvietošanas koordinatoru, kurš pēc tam atvieglo pieprasījumu. Tā kā norīkojuma koordinators apstrādā pieprasījumus visiem debitoriem, ir iesaistītas N:N attiecības.
 
 Šajā attēlā redzams puses datu modelis.
 
@@ -271,25 +271,25 @@ Tabulas karšu vākšana darbojas kopā puses un globālās adrešu grāmatas mi
 
 | Finance and Operations programma | Customer engagement programma | Apraksts |
 |----------------------------|-------------------------|-------------|
-| [Kontaktpersonu amati](mapping-reference.md#223) | msdyn\_salescontactpersontitles |
+| [Kontaktpersonu amati](mapping-reference.md#223) | msdyn\_ salescontactpersontitles |
 | [Debitori V3](mapping-reference.md#101) | konti |
 | [Debitori V3](mapping-reference.md#116) | kontaktpersonas |
-| [CDS puses](mapping-reference.md#220) | msdyn\_parties |
-| [CDS puses pasta adreses vietas](mapping-reference.md#233) | msdyn\_partypostaladdresses |
-| [CDS pasta adreses vēsture V2](mapping-reference.md#235) | msdyn\_postaladdresses |
-| [CDS pasta adreses vietas](mapping-reference.md#234) | msdyn\_postaladdresscollections |
+| [CDS puses](mapping-reference.md#220) | msdyn\_ parties |
+| [CDS puses pasta adreses vietas](mapping-reference.md#233) | msdyn\_ partypostaladdresses |
+| [CDS pasta adreses vēsture V2](mapping-reference.md#235) | msdyn\_ postaladdresses |
+| [CDS pasta adreses vietas](mapping-reference.md#234) | msdyn\_ postaladdresscollections |
 | [CDS pārdošanas piedāvājuma virsraksts](mapping-reference.md#215) | piedāvājumi |
 | [CDS pārdošanas pasūtījumu virsraksti](mapping-reference.md#217) | salesorders |
-| [Noslēguma frāzes](mapping-reference.md#222) | msdyn\_complimentaryclosings |
-| [Kontaktpersonas V2](mapping-reference.md#221) | msdyn\_contactforparties |
-| [Lēmumu pieņemšanas lomas](mapping-reference.md#224) | msdyn\_decisionmakingroles |
-| [Nodarbinātības darbu funkcijas](mapping-reference.md#225) | msdyn\_employmentjobfunctions |
-| [Lojalitātes programmu līmeņi](mapping-reference.md#226) | msdyn\_loyaltylevels |
-| [Puses kontaktpersonas V3](mapping-reference.md#236) | msdyn\_partyelectronicaddresses |
-| [Personas rakstura veidi](mapping-reference.md#227) | msdyn\_personalcharactertypes |
+| [Noslēguma frāzes](mapping-reference.md#222) | msdyn\_ complimentaryclosings |
+| [Kontaktpersonas V2](mapping-reference.md#221) | msdyn\_ contactforparties |
+| [Lēmumu pieņemšanas lomas](mapping-reference.md#224) | msdyn\_ decisionmakingroles |
+| [Nodarbinātības darbu funkcijas](mapping-reference.md#225) | msdyn\_ employmentjobfunctions |
+| [Lojalitātes programmu līmeņi](mapping-reference.md#226) | msdyn\_ loyaltylevels |
+| [Puses kontaktpersonas V3](mapping-reference.md#236) | msdyn\_ partyelectronicaddresses |
+| [Personas rakstura veidi](mapping-reference.md#227) | msdyn\_ personalcharactertypes |
 | [Pārdošanas rēķinu galvenes V2](mapping-reference.md#118) | rēķini |
-| [Uzrunas](mapping-reference.md#228) | msdyn\_salutations |
-| [Kreditori V2](mapping-reference.md#202) | msdyn\_vendors |
+| [Uzrunas](mapping-reference.md#228) | msdyn\_ salutations |
+| [Kreditori V2](mapping-reference.md#202) | msdyn\_ vendors |
 
 Papildinformāciju skatiet sadaļā [Dubultā ieraksta kartēšanas atsauce](mapping-reference.md).
 

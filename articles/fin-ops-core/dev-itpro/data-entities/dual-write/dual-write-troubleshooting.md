@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: b4adc2d83667a05d14a26ace23e5bd8026df4b5f
-ms.sourcegitcommit: caa41c076f731f1e02586bc129b9bc15a278d280
-ms.translationtype: HT
+ms.openlocfilehash: bcedb9f6e8fb15210512ed6a376d4329759593e4
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7380216"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781178"
 ---
 # <a name="general-troubleshooting"></a>Vispārējā problēmu novēršana
 
@@ -27,7 +27,7 @@ ms.locfileid: "7380216"
 > [!IMPORTANT]
 > Dažas no problēmām, kas risinātas šajā tēmā, var būt nepieciešama vai nu sistēmas administratora loma, vai Microsoft Azure Active Directory (Azure AD) nomnieka administratora akreditācijas dati. Katras problēmas sadaļā ir paskaidrots, vai ir nepieciešama īpaša loma vai akreditācijas dati.
 
-## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Spraudņa trasēšanas žurnāla iespējošana un skatīšana Dataverse, lai skatītu kļūdas informāciju
+## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a> Spraudņa trasēšanas žurnāla iespējošana un skatīšana Dataverse, lai skatītu kļūdas informāciju
 
 **Nepieciešamā loma, lai ieslēgtu trasēšanas žurnālu un skatītu kļūdas:** sistēmas administrators
 
@@ -55,7 +55,7 @@ Dataverse radušās duālā ieraksta kļūdas var parādīties Finance and Opera
 3. Projektā iestatiet **IsDebugMode** uz **Jā**.
 4. Palaidiet scenāriju, kas ģenerē kļūdas.
 5. Izvērstie žurnāli ir pieejami tabulā **DualWriteErrorLog**.
-6. Lai uzmeklēt tabulas pārlūka datus, izmantojiet šādu saiti: `https://999aos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`, `999`aizvietošana.
+6. Lai uzmeklēt tabulas pārlūka datus, izmantojiet šādu saiti: `https://999aos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`, `999` aizvietošana.
 7. Atjauniniet vēlreiz pēc [KB 4595434](https://fix.lcs.dynamics.com/Issue/Details?kb=4595434&bugId=527820&dbType=3&qc=98e5dc124ac125c57ad633d885ac612aea3ddb8f4abf9d71ab3aa354f2e06cbe), kas ir pieejams platformas atjauninājumiem 37 vai jaunākai versijai. Ja šis labojums ir instalēts, atkļūdošanas režīms tvers vairāk žurnālu.  
 
 ## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Sinhronizācijas kļūdu pārbaude Finance and Operations programmas virtuālajā mašīnā

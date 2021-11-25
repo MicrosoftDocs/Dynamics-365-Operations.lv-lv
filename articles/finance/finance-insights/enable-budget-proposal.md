@@ -1,8 +1,8 @@
 ---
-title: Budžeta priekšlikumu iespējošana
+title: Iespējot budžeta priekšlikumu
 description: Šajā tēmā skaidrots, kā ieslēgt budžeta priekšlikuma līdzekli Finanšu ieskatos.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,31 +15,26 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ab65d1b0e366bfe6bdb07688f89d440662165063
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
-ms.translationtype: HT
+ms.openlocfilehash: 3ad610feccf88ac88475a463fd1f10f4336b9407
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386490"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752716"
 ---
-# <a name="enable-budget-proposals"></a>Budžeta priekšlikumu iespējošana
+# <a name="enable-budget-proposal"></a>Iespējot budžeta priekšlikumu
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Šajā tēmā skaidrots, kā ieslēgt budžeta priekšlikuma līdzekli Finanšu ieskatos.
 
-1. Izmantojiet informāciju no vides lapas Microsoft Dynamics Lifecycle Services (LCS), lai izveidotu savienojumu ar Azure SQL primāro instanci šai videi. Palaidiet tālāk norādīto Transact-SQL (T-SQL) komandu, lai ieslēgtu ierobežotos līdzekļus smilškastes videi. (Iespējams, būs LCS jāieslēdz piekļuve savai IP adresei pirms varēsiet izveidot attilināto savienojumu ar programmas objektu serveri \[AOS\].)
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('BudgetIntelligentBudgetRegisterProposalFeature', 1)`
-
-    > [!NOTE]
-    > Izlaidiet šo darbību, ja izmantojat versiju 10.0.20 vai jaunāku versiju, vai, ja izmantojat Service Fabric izvietojumu. Finanšu ieskatu grupai jau vajadzētu ieslēgt jums šo ierobežoto līdzekli. Ja neredzat līdzekli darbvietā **Līdzekļu pārvaldība** vai ja rodas problēmas, mēģinot to ieslēgt, sazinieties ar <fiap@microsoft.com>.
-
-2. Atveriet darbvietu **Līdzekļu pārvaldība** un veiciet tālāk norādītās darbības.
+1. Atveriet darbvietu **Līdzekļu pārvaldība** un veiciet tālāk norādītās darbības.
 
     1. Atlasiet **Pārbaudīt atjauninājumus**.
-    2. Sameklējiet **Budžeta priekšlikums** un ieslēdziet šo līdzekli.
+    2. Cilnē **Viss** meklējiet **budžeta priekšlikumu**. Ja šo līdzekli neatradīsiet, meklējiet **(priekšskatījuma) budžeta priekšlikumu**. 
+    3. Ieslēgt funkciju.
 
-3. Doties uz **Budžeta veidošana \> Iestatīšana \> Pamata budžeta veidošana \> Budžeta priekšlikums (priekšskatījums)** un atlasiet **Iespējot līdzekli**.
+2. Dodieties **uz budžeta plānošanas \>\> iestatīšanas pamata budžeta priekšlikumu un atlasiet \> Iespējot** **·** līdzekli.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

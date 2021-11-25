@@ -1,7 +1,7 @@
 ---
 title: Pasūtījuma izpildes iestatīšana veikaliem
 description: Šajā tēmā ir sniegts apskats par to, kā iestatīt veikala pasūtījuma izpildi.
-author: rubencdelgado
+author: BrianShook
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: josaw
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5fe93ef95d445c245168ad52d187a604bb5a85c62516e2df39b8038242b75468
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: ed709c2a15a2d9e1675da55fc87284127e64ba39
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714094"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779601"
 ---
 # <a name="set-up-order-fulfillment-for-stores"></a>Pasūtījuma izpildes iestatīšana veikaliem
 

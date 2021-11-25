@@ -2,7 +2,7 @@
 title: Momentuzņēmumu apskats
 description: Šī tēma apraksta momentzņēmumu līdzekli, kas ļauj ietaupīt naudas plūsmas prognozi analīzei vai salīdzinājumam ar faktiskajām vērtībām. Ģenerējot naudas plūsmas prognozi, varat saglabāt šo prognozi kā momentuzņēmumu. Pēc tam varat izmantot šos momentuzņēmumus, lai rediģētu tos kontus, kas tika iekļauti prognozē, vai salīdzinātu prognozi momentuzņēmumā uz faktiskajiem datiem.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: bcaaa9fe13e36bbe71e29d82c9f22a4fff9248ef
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
-ms.translationtype: HT
+ms.openlocfilehash: a91300ac17b36d890840e6c0c3104fad5fce68f0
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386567"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752771"
 ---
 # <a name="snapshots-overview"></a>Momentuzņēmumu apskats
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Momentuzņēmumi ļauj organizācijām rediģēt un saglabāt informāciju par savu finansiālo stāvokli un skaidras naudas prognozēm noteiktā laika posmā. Varat salīdzināt momentuzņēmumu ar faktisko finansiālo stāvokli, pārbaudīt novirzi un izmantot šo informāciju, lai laika gaitā uzlabotu naudas plūsmas prognozes. Momentuzņēmumus var izmantot šādi.
 
@@ -40,8 +41,6 @@ Varat izveidot momentuzņēmumu, atlasot **Jauns momentuzņēmums** cilnē **Ska
 
 Skaidras naudas ienākošās un izejošās plūsmas momentuzņēmumos var rediģēt jebkurā laikā. Kad tiek rediģēta ienākošās naudas plūsmas vai izejošās naudas plūsmas summa, atjauninātā summa tiek proporcionāli piešķirta likviditātes kontos, kas veica sākotnējo bilanci. Kad momentuzņēmumu rediģēšana ir pabeigta, atlasiet **Saglabāt**, lai saglabātu izmaiņas.
 
-Lai salīdzinātu vairākus momentuzņēmumus, atlasiet **Salīdzināt momentuzņēmumus**. Vienlaicīgi varat salīdzināt divus momentuzņēmumus. Atlasiet divus momentuzņēmumus, ko salīdzināt, un pēc tam atlasiet **Labi**. Lapā **Salīdzināt momentuzņēmumu** tiks parādīts atlasīto momentuzņēmumu salīdzinājums. Diagramma lapas augšdaļā parāda ienākošās naudas plūsmas, izejošās naudas plūsmas un bankas bilanču salīdzinājumu starp diviem momentuzņēmumiem pārklāšanos periodos. Režģī apakšējā sadaļā tiek parādīts detalizēts divu prognožu salīdzinājums katrai likviditātes summai. **Novirzes** kolonna režģī parāda starpību starp bilancēm periodā.
-
-Lai salīdzinātu faktiskos finanšu rezultātus ar prognozi, kas tika saglabāta kā momentuzņēmums, atlasiet **Salīdzināt ar faktiskajiem rādītājiem**. Lapā **Salīdzināt momentuzņēmumu** tiks parādīts faktisko summu un prognožu salīdzinājums. Diagramma lapas augšdaļā parāda ienākošās naudas plūsmas, izejošās naudas plūsmas un bankas bilanču salīdzinājumu starp diviem momentuzņēmumiem pārklāšanos periodos. Režģī apakšējā sadaļā tiek parādīts detalizēts faktisko bilanču katrā periodā un prognozētās bilances salīdzinājums katrai likviditātes summai. **Novirzes** kolonna režģī parāda starpību starp faktisko bilanci periodā un prognozēto bilanci.
+Lai salīdzinātu faktiskos finanšu rezultātus ar prognozi, kas tika saglabāta kā momentuzņēmums, atlasiet **Salīdzināt ar faktiskajiem rādītājiem**. Lapa **Salīdzināt ar** faktiskajām summām parāda faktisko summu un prognozes salīdzinājumu. Diagramma lapas augšdaļā parāda ienākošās naudas plūsmas, izejošās naudas plūsmas un bankas bilanču salīdzinājumu starp diviem momentuzņēmumiem pārklāšanos periodos. Režģī apakšējā sadaļā tiek parādīts detalizēts faktisko bilanču katrā periodā un prognozētās bilances salīdzinājums katrai likviditātes summai. **Novirzes** kolonna režģī parāda starpību starp faktisko bilanci periodā un prognozēto bilanci.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 59d246dd348bca6c00dc90b19353a382986841f2
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
-ms.translationtype: HT
+ms.openlocfilehash: 3111de1f9862cbf926e763f963c86059f4121fc0
+ms.sourcegitcommit: 4b7e9d074e368a08d2f75482b722dce0c69a4bbd
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471744"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7733443"
 ---
 # <a name="scale-units-in-a-distributed-hybrid-topology"></a>Mēroga vienības izdalītā hibrīda topoloģijā
 
@@ -32,8 +32,8 @@ Uzņēmumiem, kas strādā ar ražošanu un sadali, ir jābūt iespējai palaist
 
 Ar izdalītā hibrīda topoloģiju tiek ieviests *mēroga vienību* koncepts, kas ļauj veikala grīdas un noliktavas izpildes darba slodzes izdalīt dažādās vides. Šī funkcionalitāte var palīdzēt uzlabot veiktspēju, novērst pakalpojumu traucējumus un palielināt darbspējas laiku. Mēroga vienības tiek nodrošinātas ar šādām pievienojumprogrammām jūsu Supply Chain Management abonementam:
 
-- Mākoņa mēroga vienības pievienojumprogramma pakalpojumam Dynamics 365 Supply Chain Management (*pieejama 2021. gada aprīlī*)
-- Malas mēroga vienības pievienojumprogramma pakalpojumam Dynamics 365 Supply Chain Management (*drīz pieejama*)
+- Mākoņa mēroga vienības pievienojumprogramma programmai Dynamics 365 Supply Chain Management
+- Malas mēroga vienības pievienojumprogramma programmai Dynamics 365 Supply Chain Management
 
 Darba slodzes iespējas tiek pastāvīgi izlaistas, izmantojot inkrementālos uzlabojumus.
 
@@ -51,21 +51,12 @@ Varat konfigurēt centrmezgla vidi un mākoņveida skalas vienības atlasītajā
 
 ### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Īpašas noliktavas vadības darba slodzes iespējas mēroga vienībās
 
-Noliktavas pārvaldības darba slodze ir pirmā sadalītā darba slodze mēroga vienībām, kas ir nodotas izpildei vispārējai pieejamībai.
-
-Noliktavas pārvaldībai mēroga vienības nodrošina šādas iespējas:
-
-- Sistēma var apstrādāt atlasītās kopuma metodes pārdošanas pasūtījumiem un pieprasījuma papildināšanai.
-- Noliktavas darbinieki var palaist pārdošanas un pieprasījuma papildināšanas noliktavas darbu, izmantojot Warehouse Management mobile programmu.
-- Noliktavas darbinieki var uzzināt par rīcībā esošajiem krājumiem, izmantojot Warehouse Management mobile programmu.
-- Noliktavas darbinieki var izveidot un palaist krājumu kustības, izmantojot Warehouse Management mobile programmu.
-- Noliktavas darbinieki var reģistrēt pirkšanas pasūtījumus un veikt atlikšanu, izmantojot Warehouse Management mobile programmu.
-
+Noliktavas pārvaldības darba noslodze ļauj darbināt noliktavas vadības procesus izolētā izvietošanā.
 Plašāku informāciju skatiet rakstā [Mākoņa un malas mēroga vienības ražošanas izpilde](cloud-edge-workload-warehousing.md).
 
 ### <a name="dedicated-manufacturing-execution-workload-capabilities-in-a-scale-unit"></a>Īpašas ražošanas izpildes darba slodzes iespējas mēroga vienībās
 
-Ražošanas darba slodzes pirmais izlaidums pašlaik ir priekšskatījumā un nodrošina šādas iespējas:
+Ražošanas darba slodze nodrošina šādas iespējas:
 
 - Iekārtu operatori un ražotnes uzraudzības iestādes var piekļūt operāciju ražošanas plānam.
 - Iekārtu operatori var uzturēt plāna atjaunināšanu, izpildot diskrētus un procesa ražošanas darbus.
@@ -78,7 +69,7 @@ Plašāku informāciju skatiet rakstā [Mākoņa un malas mēroga vienības raž
 
 Iespējojot sadalīto hibrīdu topoloģiju, jūs pārslēdzat savu Supply Chain Management mākoņa vidi tā, lai tā darbotos kā centrmezgls. Varat arī saistīt papildu vides, kas mākonī vai malā ir konfigurētas kā mēroga vienības.
 
-### <a name="prerequisites-and-limitations-for-cloud-scale-units"></a><a name="cloud-scale-unit-prerequisites"></a>Mākoņskalas mērvienību priekšnosacījumi un ierobežojumi
+### <a name="prerequisites-and-limitations-for-cloud-scale-units"></a><a name="cloud-scale-unit-prerequisites"></a> Mākoņskalas mērvienību priekšnosacījumi un ierobežojumi
 
 Pašreizējā mēroga vienību izlaidumā dažas iespējas vēl nav pieejamas, bet tās var tikt pievienotas inkrementālām izlaidumiem laika gaitā.
 
@@ -123,7 +114,7 @@ Pārvaldības iespējas, kas var palīdzēt ar darba slodzi, ir ierobežotas. Da
 
 Rādītāji un mērvienības, kas var palīdzēt atlasīt labāko programmu mēroga vienībām, vēl nav pieejami. Strādājiet ar Microsoft kontaktpersonu vai ieviešanas partneri, lai izvēlētos izdevīgāko programmu.
 
-### <a name="data-processing-during-management-of-scale-units"></a><a name="data-processing-management"></a>Datu apstrāde mēroga vienību pārvaldības laikā
+### <a name="data-processing-during-management-of-scale-units"></a><a name="data-processing-management"></a> Datu apstrāde mēroga vienību pārvaldības laikā
 
 Iespējojot Dynamics 365 vidi, lai atbalstītu sadali, hibrīdu topoloģiju mākoņa un malas skalas vienībām, daži pārvaldības pakalpojumi tiek viesoti tikai Amerikas Savienotajās Valstīs līdzīgi kā LCS. Šī darbība ietekmē atsevišķas administratīvās un konfigurācijas informācijas pārsūtīšanu un uzglabāšanu, ko izmanto [Mēroga vienību pārvaldnieka portāls](https://sum.dynamics.com). Daži piemēri:
 
@@ -191,17 +182,33 @@ Korporācija Microsoft pārskatīs jūsu pieprasījumu un sniegs informāciju pa
 
 Kad pievienošana ir pabeigta, varat izmantot portu, lai konfigurētu mēroga vienības un darba slodzes.
 
-### <a name="manage-cloud-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a>Pārvaldīt mākoņa mēroga vienības un darba slodzes, izmantojot portālu Skale Unit Manager
+### <a name="manage-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a> Pārvaldīt mēroga vienības un darba slodzi, izmantojot portālu Mērvienību vadītājs
 
 Dodieties uz [portālu Skale Unit Manager](https://aka.ms/SCMSUM) un piesakieties, izmantojot savu nomnieka kontu. Lapā **Konfigurēt mēroga vienības** varat pievienot centrmezgla vidi, ja tā jau nav norādīta sarakstā. Pēc tam varat atlasīt centrmezglu, ko vēlaties konfigurēt ar mēroga vienībām un darba slodzēm.
 
-:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Mēroga vienības un darba slodzes pārvaldības pieredze.":::
+:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Mēroga vienību pārvaldnieka portāls, Konfigurējiet mēroga vienību lapu.":::
 
 Lai pievienotu vienu vai vairākas mēroga vienības, kas ir pieejamas jūsu abonementos, atlasiet **Pievienot mēroga vienības**.
 
 Lai pievienotu noliktavas pārvaldības darba slodzi kādai no jūsu mēroga vienībām, cilnē **Definētās darba slodzes** izmantojiet pogu **Izveidot darba slodzi**. Katrai darba slodzei jānorāda to procesu konteksts, kas piederēs šai darba slodzei. Noliktavas pārvaldības darba slodzei konteksts ir noteikta noliktava noteiktā vietā un juridiskajā personā.
 
-:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Darba slodzes izveide.":::
+:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Definējiet darba noslodzes dialogu.":::
+
+#### <a name="manage-workloads"></a>Pārvaldīt darba slodzi
+
+Kad ir iespējota viena vai vairākas darba noslodzes, izmantojiet opciju Pārvaldīt darba slodzi, lai sāktu un pārvaldītu procesus, piemēram, **tos, kas ir uzskaitīti šajā** tabulā.
+
+| Apstrādāšana | Apraksts |
+|---|---|
+| Pauzēt mēroga vienības sakarus | Pauzēt konveijera ziņojumus starp pārkraušanas vietu un mēroga vienību. Šis process apturēs sakarus un pāries datu konveijeru starp pārkraušanas punktu un mēroga vienībām. Šis process ir jāpalaiž pirms piegādes ķēdes pārvaldības apkalpošanas operācijas palaišanas pārkraušanas centrā vai mēroga vienībā, bet jūs to varat izmantot arī citās situācijās. |
+| CV apjoma vienības sakarus | Atsākt konveijera ziņojumus starp pārkraušanas vietu un mēroga vienību. Iespējams, ka jums būs jāizmanto šis process, piemēram, pēc piegādes ķēžu apkalpošanas operācijas palaišanas pārkraušanas centrā vai mēroga vienībā. |
+| Jaunināt darba noslodzes | Sinhronizēt jaunu funkcionalitāti starp pārkraušanas centra un mēroga vienības darba slodzēm. Iespējams, ka jums būs jāizmanto šis process, piemēram, kad apkalpošana ir radījusi datu apmaiņas vaicājumu maiņu un/vai ir pievienojusi jaunas tabulas vai laukus darba noslodzei. |
+| Pārsūtīt darba slodzi uz apjoma vienību | Plānojiet darba noslodzi, kas pašreiz darbojas pārkraušanas punktu, kas jāpārvieto uz mēroga vienību. Kad šis process ir palaists, datu sinhronizācija notiks, un gan pārkraušanas punktu, gan mēroga vienību tiks iestatīta mainīt darba noslodzes īpašumtiesības. |
+| Pārsūtīt mēroga vienību uz pārkraušanas centru | Plānojiet darba noslodzi, kas pašreiz darbojas mēroga vienībā, lai to pārceltu uz pārkraušanas punktu. Kad šis process ir palaists, datu sinhronizācija notiks, un gan pārkraušanas punktu, gan mēroga vienību tiks iestatīta mainīt darba noslodzes īpašumtiesības.
+| Ārkārtas pāreja uz pārkraušanas mezglu | <p>Nekavējoties pārsūtiet esošo darba noslodzi uz pārkraušanas centru. *Šis process mainīs īpašumtiesības tikai datiem, kas pašlaik ir pieejami pārkraušanas centrā.*</p><p><strong>Brīdinājums.</strong> Šis process var izraisīt datu zudumu nesinhronizētiem datiem un biznesa apstrādes kļūmi. Tāpēc tā ir jāizmanto tikai noslogotos gadījumos, kur biznesa procesi ir jāapstrādā pārkraušanas punktu, jo mēroga vienībai ir pārtraukums, ko pieņemamā laikā nevar samazināt.</p> |
+| Ideoloģija - izplatītā topoloģija | Noņemiet mēroga vienības izvietojumu un palaidiet tikai pārkraušanas centrā bez darba noslodzes apstrādes. |
+
+:::image type="content" source="media/sum-manage-workloads.png" alt-text="Mēroga vienības un darba slodzes pārvaldības pieredze.":::
 
 > [!TIP]
 > Laika gaitā inkrementāli uzlabojumi tiks pievienoti Mēroga vienību pārvaldnieka pieredzei, lai atvieglotu dzīves cikla pārvaldības operācijas. Pašreizējās versijas specifiskās iespējas ir dokumentētas pievienošanas rokasgrāmatā, kas ir pieejama klientiem, kuri ir pievienošanas procesā sadalītajai hibrīdu tipiloģijai pakalpojumam Supply Chain Management. <!-- KFM: Add a link to the handbook when it is published -->

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-08-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: f4a7ee091d73e2104571ac9134a9de9bab0a7074
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 210d92b9fd962708b141b79f3634f142cca9787a
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575468"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777771"
 ---
 # <a name="purchasing-cxml-enhancements"></a>cXML uzlabojumu iegāde
 
@@ -28,7 +28,7 @@ _cXML uzlabojumu iegādes_ līdzeklis tiek veidots uz [esošās ārējā katalog
 
 ## <a name="turn-on-the-purchasing-cxml-enhancements-feature"></a>cXML uzlabojumu iegādes līdzekļa ieslēgšana
 
-Lai ieslēgtu šo līdzekli, atveriet lapu **[līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** un meklējiet līdzekli ar nosaukumu *cXML uzlabojumu iegāde*. Atlasiet līdzekli un pēc tam atlasiet **Iespējot tūlīt**, lai to ieslēgtu.
+Lai ieslēgtu šo līdzekli, atveriet lapu **[līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** un meklējiet līdzekli ar nosaukumu *cXML uzlabojumu iegāde*. Atlasiet līdzekli un pēc tam atlasiet **Iespējot tūlīt**, lai to ieslēgtu. (No Piegādes ķēdes pārvaldības versijas 10.0.21, šī funkcija ir ieslēgta pēc noklusējuma.)
 
 Pēc līdzekļa ieslēgšanas ir jākonfigurē iestatījumi tālāk aprakstītajās jomās:
 
@@ -42,7 +42,7 @@ Pēc līdzekļa ieslēgšanas ir jākonfigurē iestatījumi tālāk aprakstītaj
 
 Turklāt ir jāiestata arī [Pirkšanas pasūtījuma pieprasījuma pakešuzdevums](#po-batch). Šis pakešuzdevums tiek izmantots apstiprināto pirkšanas pasūtījumu nosūtīšanai.
 
-## <a name="set-up-global-cxml-parameters"></a><a name="cxml-parameters"></a>cXML globālo parametru iestatīšana
+## <a name="set-up-global-cxml-parameters"></a><a name="cxml-parameters"></a> cXML globālo parametru iestatīšana
 
 Izmantojiet **cXML parametri** lapu, lai izveidotu dažus globālus iestatījumus, kas attiecas uz pirkšanas pasūtījumu nosūtīšanas funkcionalitāti.
 
@@ -60,7 +60,7 @@ Dodieties uz **Sagāde un avoti \> Iestatīšana \> cXML pārvaldība \> cXML pa
 - **Arhīva fails** — norādiet faila ceļu, kur vēlaties eksportēt un saglabāt arhivētos cXML dokumentus. Ceļš tiek izmantots, izpildot dzēšanas funkciju no lapas **Pirkšanas pasūtījuma pieprasījums**.
 - **Ielas rindas maksimālais rakstzīmju skaits** — ievadiet maksimālo rakstzīmju skaitu, ko var izmantot, adreses ielas laukā cXML dokumentā. Šis globālais parametrs ietekmē visus kreditorus, ja vien ārējā kataloga rekvizītos nav norādīts to ignorēt.
 
-## <a name="set-up-vendor-purchase-orders-to-use-cxml"></a><a name="vendor-setup"></a>Kreditora pirkšanas pasūtījumu iestatīšana, lai izmantotu cXML
+## <a name="set-up-vendor-purchase-orders-to-use-cxml"></a><a name="vendor-setup"></a> Kreditora pirkšanas pasūtījumu iestatīšana, lai izmantotu cXML
 
 Katru reizi, apstiprinot pirkšanas pasūtījumu, kurā opcija **Nosūtīt pirkšanas pasūtījumu, izmantojot cXML** ir iestatīta uz _Jā_, sistēma automātiski ģenerē cXML ziņojumu un piegādā to kreditoram, kas ir saistīts ar konkrēto pirkšanas pasūtījumu. Pirkšanas pasūtījumiem šo opciju var kontrolēt divos veidos:
 
@@ -69,7 +69,7 @@ Katru reizi, apstiprinot pirkšanas pasūtījumu, kurā opcija **Nosūtīt pirk�
 
 ![Kreditora pirkšanas pasūtījumu noklusējuma iestatījumi.](media/cxml-order-defaults.png "Kreditora pirkšanas pasūtījumu noklusējuma iestatījumi")
 
-## <a name="set-up-an-external-catalog-to-use-cxml"></a><a name="external-catalog-setup"></a>Ārēja kataloga iestatīšana, lai izmantotu cXML
+## <a name="set-up-an-external-catalog-to-use-cxml"></a><a name="external-catalog-setup"></a> Ārēja kataloga iestatīšana, lai izmantotu cXML
 
 Katram katalogam lapā **Ārējie katalogi** varat iestatīt PunchOut funkcionalitāti un pirkšanas pasūtījumu nosūtīšanas funkcionalitāti. Lai atrastu atbilstošos iestatījumus, dodieties uz **Sagāde un avoti \> Katalogi \> Ārējie katalogi**. Sāciet, [iestatot katru katalogu kā parasti](set-up-external-catalog-for-punchout.md). Šis process ietver kreditora piešķiršanu, kategoriju atlasi, kuras kreditors drīkst piegādāt, un kataloga aktivizēšanu. Pēc tam konfigurējiet papildu iestatījumus, kas aprakstīti šajā sadaļā.
 
@@ -84,7 +84,7 @@ Lapas **Ārējie katalogi** kopsavilkuma cilnē **Vispārīgi** iestatiet lauku 
 
 Ja funkcionalitātei PunchOut izmantojat arī katalogu, ir [jāiestata arī ziņojuma formāts](set-up-external-catalog-for-punchout.md). Ziņojuma formāts tiek izmantots, lai no pieprasījuma izveidotu savienojumu ar kreditoru PunchOut darījumā. Nosūtot pirkšanas pasūtījumu, tiks izmantoti pasūtījuma rekvizīti, lai izveidotu savienojumu ar kreditoru.
 
-### <a name="set-the-order-properties"></a><a name="set-order-properties"></a>Pasūtījuma rekvizītu iestatīšana
+### <a name="set-the-order-properties"></a><a name="set-order-properties"></a> Pasūtījuma rekvizītu iestatīšana
 
 _cXML uzlabojumu iegādes_ līdzeklis pievieno jaunus **Pasūtījuma rekvizītus** kopsavilkuma cilnes ārējiem katalogiem. Šī kopsavilkuma cilne nodrošina režģi, kurā var definēt pasūtījuma rekvizītus. Tajā ir iekļauta arī rīkjosla. Šajā rīkjoslā ir tālāk norādītās trīs pogas, ko var izmantot, lai pārvaldītu pasūtījumu rekvizītus:
 
@@ -96,36 +96,36 @@ Katru reizi, pievienojot režģim vienu vai vairākus rekvizītus, izmantojiet l
 
 Noklusējuma rekvizītus varat izmantot šādos veidos:
 
-- **BUYER\_COOKIE** — šo izsekošanas lauku var izmantot, lai norādītu ar jūsu uzņēmumu saistītu informāciju. Ja vien ar kreditoru nav noslēgts līgums par šī rekvizīta izmantošanu, tam nav lielas nozīmes, nosūtot pirkšanas pasūtījumu. Tādēļ to jāiestata uz vienkāršu vērtību.
+- **BUYER\_ COOKIE** — šo izsekošanas lauku var izmantot, lai norādītu ar jūsu uzņēmumu saistītu informāciju. Ja vien ar kreditoru nav noslēgts līgums par šī rekvizīta izmantošanu, tam nav lielas nozīmes, nosūtot pirkšanas pasūtījumu. Tādēļ to jāiestata uz vienkāršu vērtību.
 - **DELIVERTO** – kad piegādes adrese tiek ievadīta dokumentā no pirkšanas pasūtījuma, lauks **Brīdinājuma informācija** tiek izmantots, lai iestatītu lauku **DeliverTo** XML ziņojumā. Ja nepieciešams, lai šī vērtība būtu pieprasītāja nosaukums, un vēlaties pieprasītāja lauku iestatīt pirkšanas pasūtījuma galvenē, ievadiet šim rekvizītam vērtību _REQUESTER_, lai pieprasītāja nosaukums tiktu ievadīts laukā **DeliverTo** XML ziņojumā. Šādā gadījumā primārā e-pasta adrese un tālruņa numurs, kas tiek izmantots, būs pieprasītāja, nevis pasūtītāja.
 - **DEPLOYMENTMODE** – iestatiet šo rekvizītu, kā to pieprasa kreditors. Parasti vērtības ir _PRODUCTION_ vai _TEST_. Iestatiet vērtību, pamatojoties uz saziņu ar kreditoru. Parasti tai ir jāatbilst paredzētajai sistēmai, kas atrodas aiz **ORDERCHECKURL** vērtības, ko kreditors norāda kā pārbaudes vai ražošanas sistēmu.
 - **FIXEDBILLADDRESSID** – kad lauks **addressID** tiek iestatīts XML ziņojumā, tas izvēlas adresē norādīto atrašanās vietu. Ja ID vērtība, ko nosūtījāt kreditoram, kāda iemesla dēļ atšķiras no adreses atrašanās vietas vērtības, varat veikt pārlabošanu, norādot vērtību šeit. Pieņēmums ir tāds, ka kreditoram izmantosit tikai vienu adresi un ka adrese ir iestatīta kreditora sistēmā. Rēķina adrese ir primārā rēķina adrese, kas norādīta juridiskajai personai programmā Supply Chain Management.
 - **FIXEDSHIPADDRESSID** – kad lauks **addressID** tiek iestatīts XML ziņojumā, tas izvēlas adresē norādīto atrašanās vietu. Ja ID vērtība, ko nosūtījāt kreditoram, kāda iemesla dēļ atšķiras no adreses atrašanās vietas vērtības, varat veikt pārlabošanu, norādot vērtību šeit. Pieņēmums ir tāds, ka kreditoram izmantosit tikai vienu adresi un ka adrese ir iestatīta kreditora sistēmā. Piegādes adrese ir adrese, kas norādīta pirkšanas pasūtījuma galvenē. Vairums kreditoru pieņem tikai galvenes adreses, nevis rindu adreses. Lai arī XML ir lauki rindu adresēm, tie tiks iestatīti uz galvenes adresi.
-- **FROM\_DOMAIN** — ievadiet vērtību, kas tiek izmantota pirkšanas pasūtījuma dokumentu nosūtīšanai. Šo vērtību nodrošina jūsu kreditors.
-- **FROM\_IDENTITY** — ievadiet vērtību, kas tiek izmantota pirkšanas pasūtījuma dokumentu nosūtīšanai. Šo vērtību nodrošina jūsu kreditors.
+- **FROM\_ DOMAIN** — ievadiet vērtību, kas tiek izmantota pirkšanas pasūtījuma dokumentu nosūtīšanai. Šo vērtību nodrošina jūsu kreditors.
+- **FROM\_ IDENTITY** — ievadiet vērtību, kas tiek izmantota pirkšanas pasūtījuma dokumentu nosūtīšanai. Šo vērtību nodrošina jūsu kreditors.
 - **ORDERCHECKURL** — ievadiet URL, lai pārsūtītu pirkšanas pasūtījuma dokumentus. URL sākas ar `https://` un to nodrošina jūsu kreditors.
-- **PAYLOAD\_ID** — ievadiet lietderīgās slodzes ID prefiksa vērtību, kas nepieciešama pašreizējā kreditora biznesa procesiem.
-- **SENDER\_DOMAIN** — ievadiet vērtību, kas tiek izmantota pirkšanas pasūtījuma dokumentu nosūtīšanai. Šo vērtību nodrošina jūsu kreditors.
-- **SENDER\_IDENTITY** — ievadiet vērtību, kas tiek izmantota pirkšanas pasūtījuma dokumentu nosūtīšanai. Šo vērtību nodrošina jūsu kreditors.
-- **SHARED\_SECRET** — ievadiet vērtību, kas tiek izmantota pirkšanas pasūtījuma dokumentu nosūtīšanai. Šo vērtību nodrošina jūsu kreditors.
+- **PAYLOAD\_ ID** — ievadiet lietderīgās slodzes ID prefiksa vērtību, kas nepieciešama pašreizējā kreditora biznesa procesiem.
+- **SENDER\_ DOMAIN** — ievadiet vērtību, kas tiek izmantota pirkšanas pasūtījuma dokumentu nosūtīšanai. Šo vērtību nodrošina jūsu kreditors.
+- **SENDER\_ IDENTITY** — ievadiet vērtību, kas tiek izmantota pirkšanas pasūtījuma dokumentu nosūtīšanai. Šo vērtību nodrošina jūsu kreditors.
+- **SHARED\_ SECRET** — ievadiet vērtību, kas tiek izmantota pirkšanas pasūtījuma dokumentu nosūtīšanai. Šo vērtību nodrošina jūsu kreditors.
 - **STREETLENGTH** — ievadiet skaitli, kas norāda maksimālo rakstzīmju skaitu, ko kreditors pieņem kā ielas nosaukumu. Ja šeit ir ievadīta vērtība, tā pārlabo vērtību, kas ir norādīta lapā **cXML parametri**. Sistēma noņems rindiņu pārtraukumus un atstarpes, lai mēģinātu pielāgot standarta Supply Chain Management adresi šeit norādītajam rakstzīmju skaitam. Visas papildu rakstzīmes tiks aprautas.
-- **TO\_DOMAIN** — ievadiet vērtību, kas tiek izmantota pirkšanas pasūtījuma dokumentu nosūtīšanai. Šo vērtību nodrošina jūsu kreditors.
-- **TO\_IDENTITY** — ievadiet vērtību, kas tiek izmantota pirkšanas pasūtījuma dokumentu nosūtīšanai. Šo vērtību nodrošina jūsu kreditors.
+- **TO\_ DOMAIN** — ievadiet vērtību, kas tiek izmantota pirkšanas pasūtījuma dokumentu nosūtīšanai. Šo vērtību nodrošina jūsu kreditors.
+- **TO\_ IDENTITY** — ievadiet vērtību, kas tiek izmantota pirkšanas pasūtījuma dokumentu nosūtīšanai. Šo vērtību nodrošina jūsu kreditors.
 - **USERAGENT** — ievadiet vērtību, lai identificētu izmantoto sistēmu. Piemēram, ievadiet _Dynamics 365 Supply Chain Management_.
 - **VERSION** — ievadiet cXML versijas numuru, ja šo informāciju pieprasa kreditors. Noklusējuma versija ir *1.2.008*. Šī versija ir stabila un to pieņem vairums kreditoru.
 - **RESPONSETEXT** – ievadiet jebkādu pielāgotu tekstu, kas kreditoram ir jāatgriež cXML atbildes ziņojumā pēc pasūtījuma nosūtīšanas. Šādā veidā sistēma var atzīmēt ziņojumu kā _Apstiprināts_. Ja atbilde neatbilst standarta tekstam vai šeit ievadītajam debitora tekstam, pieprasījums tiks atzīmēts kā _Kļūda_.
 - **RESPONSETEXTSUB** – iestatiet šo rekvizītu uz _TRUE_, ja vēlaties meklēt kreditora atbildes tekstu vērtībām, kas norādītas laukā **RESPONSETEXT**. Piemēram, kreditors var atgriezt garu atbildes virkni, kas ietver “labi”. Šādā gadījumā var ievadīt _labi_ laukā **RESPONSETEXT** un iestatīt **RESPONSETESTSUB** uz _TRUE_, lai atbildē meklētu “labi”. Pēc tam pasūtījums var tikt iestatīts kā _Apstiprināts_.
 - **CONTENTTYPE** – tipiskā kataloga iestatījumā šis rekvizīts nav jāiestata. Ja, nosūtot pirkšanas pasūtījumu, no kreditora sistēmas saņemat servera 500 kļūdu, varat veikt pārbaudi, iestatot šo rekvizītu uz _FALSE_. Šī vērtība mainīs iestatījumu tīmekļa pieprasījumā un var iespējot ziņojumu nosūtīšanu dažām platformām.
-- **ENABLEHEADERS** – iestatiet šo rekvizītu uz _TRUE_, lai nosūtītu galvenes kopā ar pirkšanas pasūtījumu. Šis rekvizīts ir jāiestata tikai tad, ja kreditors to pieprasa. Ja šo rekvizītu iestatāt uz _TRUE_, pievienojiet papildu pielāgotus rekvizītus, kuru pamatā ir kreditoru sniegtie nosaukumi, un pievienojiet tiem prefiksu _H\__. Raksturīgākie piemēri ir **H\_USERID**, **H\_PASSWORD**, **H\_RECEIVERID** un **H\_ACTIONREQUEST**. Noklusējuma rekvizītos ir ietverti šādi pielāgotie rekvizīti:
+- **ENABLEHEADERS** – iestatiet šo rekvizītu uz _TRUE_, lai nosūtītu galvenes kopā ar pirkšanas pasūtījumu. Šis rekvizīts ir jāiestata tikai tad, ja kreditors to pieprasa. Ja šo rekvizītu iestatāt uz _TRUE_, pievienojiet papildu pielāgotus rekvizītus, kuru pamatā ir kreditoru sniegtie nosaukumi, un pievienojiet tiem prefiksu _H\__. Raksturīgākie piemēri ir **H\_ USERID**, **H\_ PASSWORD**, **H\_ RECEIVERID** un **H\_ ACTIONREQUEST**. Noklusējuma rekvizītos ir ietverti šādi pielāgotie rekvizīti:
 
-    - **H\_USERID** — ja tirdzniecības partnerim nepieciešams nosūtīt lietotāja ID kā daļu no URL, lai iesniegtu pirkšanas pasūtījumu, ievadiet šeit vērtību.
-    - **H\_PASSWORD** — ja tirdzniecības partnerim nepieciešams nosūtīt paroli kā daļu no URL, lai iesniegtu pirkšanas pasūtījumu, ievadiet šeit vērtību.
+    - **H\_ USERID** — ja tirdzniecības partnerim nepieciešams nosūtīt lietotāja ID kā daļu no URL, lai iesniegtu pirkšanas pasūtījumu, ievadiet šeit vērtību.
+    - **H\_ PASSWORD** — ja tirdzniecības partnerim nepieciešams nosūtīt paroli kā daļu no URL, lai iesniegtu pirkšanas pasūtījumu, ievadiet šeit vērtību.
 
 - **ENABLEMANUALPO** – ja šis rekvizīts ir iestatīts uz _TRUE_, kad lietotāji manuāli izveido pirkšanas pasūtījumus (tas ir, kad tie nesākas no pieprasījuma), šie pirkšanas pasūtījumi pārmantos opciju **Nosūtīt pirkšanas pasūtījumu, izmantojot cXML** no kreditora. Ja šis rekvizīts nav iestatīts vai arī tas ir iestatīts uz _FALSE_, tad manuāli izveidotiem pirkšanas pasūtījumiem opcija **Nosūtīt pirkšanas pasūtījumu, izmantojot cXML** netiks iestatīta pirkšanas pasūtījuma galvenē. Pirkšanas pasūtījumiem, kas tiek izveidoti no pieprasījuma, iestatījuma opcija **Nosūtīt pirkšanas pasūtījumu, izmantojot cXML** vienmēr tiek pārmantota no kreditora, neatkarīgi no šī rekvizīta iestatījuma. Papildinformāciju skatiet šīs tēmas iepriekšējā sadaļā [kreditora pirkšanas pasūtījumu iestatīšana, lai izmantotu cXML](#vendor-setup).
 - **PUNCHOUTPOONLY** – ja šis rekvizīts ir iestatīts uz _TRUE_, tikai pirkšanas pieprasījuma rindām, kas tiek veidotas, izmantojot PunchOut procesu, pirkšanas pasūtījuma galvenē tiks iestatīta opcija **Nosūtīt pirkšanas pasūtījumu, izmantojot cXML**. Turklāt pirkšanas pieprasījuma rindas veidam visām pirkšanas pasūtījuma rindām ir jābūt _Ārējā kataloga krājumam_. Pretējā gadījumā cXML pirkšanas pasūtījumu nevar izveidot.
 - **PUNCHOUTSHIPTO** – ja šis rekvizīts ir iestatīts uz _TRUE_, juridiskās personas noklusējuma adrese tiks pievienota PunchOut iestatīšanas pieprasījuma ziņojumam, kad lietotājs atvērs ārējo katalogu. Šī adrese tiek pievienota kā **ShipTo** adrese. Kreditori izmantos **ShipTo** adresi, lai parādītu izcenojumu, pamatojoties uz uzņēmuma atrašanās vietu.
 - **TRACEPUNCHOUT** – iestatiet šo rekvizītu uz _TRUE_, ja saņemat kļūdas ziņojumu, mēģinot pārlūkot ārēju katalogu no pieprasījuma. Izsekošanas informācija tiks aizpildīta **PunchOutSetupRequest** un **PunchOutResponse** ziņojumiem, kas tiek nosūtīti starp Supply Chain Management un kreditora vietni. Šo informāciju var skatīt lapā **cXML groza ziņojumu žurnāls**, kuru var atvērt no lapas **Ārējā kataloga iestatīšana** tam piegādātāju katalogam, ar kuru jums ir radušās problēmas. Šo rekvizītu vajadzētu iestatīt uz _TRUE_, ja veicat problēmu novēršanu, jo tas izveido lielu veiktspēju katrai PunchOut datu bāzei. Papildinformāciju skatiet šīs tēmas sadaļā [cXML groza ziņojumu žurnāla skatīšana ārējam katalogam PunchOut](#message-log).
-- **REPLACENEWLINE** – iestatiet šo rekvizītu uz _TRUE_, ja rodas problēma ar kreditora sistēmas sūtīto **PunchOutResponse** ziņojumu, kas ietver jaunās rindiņas rakstzīmes (\\n). Šī problēma var rasties, ja kreditora ziņojumi tiek parsēti, izmantojot starpprogrammatūru vai sagādes centrmezglu. Ja rodas problēma ar jaunu kreditora iestatījumu, iestatiet rekvizītu **TRACEPUNCHOUT** uz _TRUE_, lai skatītu **PunchOutResponse** ziņojumu un noteiktu, vai XML tagi ir sadalīti pēc jaunās rindiņas rakstzīmēm.
+- **REPLACENEWLINE** – iestatiet šo rekvizītu uz _TRUE_, ja rodas problēma ar kreditora sistēmas sūtīto **PunchOutResponse** ziņojumu, kas ietver jaunās rindiņas rakstzīmes (\\ n). Šī problēma var rasties, ja kreditora ziņojumi tiek parsēti, izmantojot starpprogrammatūru vai sagādes centrmezglu. Ja rodas problēma ar jaunu kreditora iestatījumu, iestatiet rekvizītu **TRACEPUNCHOUT** uz _TRUE_, lai skatītu **PunchOutResponse** ziņojumu un noteiktu, vai XML tagi ir sadalīti pēc jaunās rindiņas rakstzīmēm.
 - **POCOMMENTS** – iestatiet šo rekvizītu uz _TRUE_, ja vēlaties, lai cXML dokumentā tiktu ietvertas piezīmes, kas pievienotas pirkšanas pasūtījumam programmā Supply Chain Management. Pielikuma teksts tiek iekļauts pirkšanas pasūtījuma ziņojuma galvenes komentāros. Papildinformāciju par to, kā sistēma atlasa un apstrādā šos pielikumus, skatiet šīs tēmas sadaļā [Piezīmju pievienošana pirkšanas pasūtījumam](#attach-po-notes).
 - **VENDCOMMENTS** – iestatiet šo rekvizītu uz _TRUE_, ja vēlaties, lai cXML dokumentā tiktu ietvertas piezīmes, kas pievienotas pirkšanas pasūtījumam programmā Supply Chain Management. Pielikuma teksts tiek iekļauts pirkšanas pasūtījuma ziņojuma galvenes komentāros. Papildinformāciju par to, kā sistēma atlasa un apstrādā šos pielikumus, skatiet sadaļā [Piezīmju pievienošana pirkšanas pasūtījumam](#attach-po-notes).
 - **CLEANAMP** – iestatiet šo rekvizītu uz _TRUE_, ja saņemat kļūdas ziņojumu, mēģinot veikt PunchOut kreditoram, un kreditora atgriešanas URL ietver nepareizi kodētas zīmes (\&).
@@ -137,7 +137,7 @@ Noklusējuma rekvizītus varat izmantot šādos veidos:
 
 Pabeidzot visu rekvizītu iestatīšanu un citu ārējo katalogu iestatījumu konfigurēšanu, atgriezieties lapas **Ārējie katalogi** kopsavilkuma cilnē **Vispārīgi** un iestatiet opciju **Aktīvs** uz *Jā*.
 
-### <a name="attach-notes-to-a-purchase-order"></a><a name="attach-po-notes"></a>Piezīmju pievienošana pirkšanas pasūtījumam
+### <a name="attach-notes-to-a-purchase-order"></a><a name="attach-po-notes"></a> Piezīmju pievienošana pirkšanas pasūtījumam
 
 Kā jau tika minēts iepriekš sadaļā [Pasūtījuma rekvizītu iestatīšana](#set-order-properties), ja vēlaties, lai piegādātā cXML iekļautu tekstu no piezīmēm, kas pievienotas atbilstošajam pirkšanas pasūtījumam un/vai kreditora ierakstiem, varat iestatīt **POCOMMENTS** un/vai **VENDCOMMENTS** rekvizītu uz _TRUE_ ārējā kataloga iestatījumā. Šajā sadaļā ir sniegta detalizētāka informācija par to, kā sistēma atlasa un apstrādā šos pielikumus, ja tos izmantojat.
 
@@ -149,7 +149,7 @@ Pielikumi tiks iekļauti pirkšanas pasūtījumā tikai tad, ja to lauks **Veids
 
 ![Pievienotā piezīme, kas ir iestatīta nosūtīšanai kreditoram.](media/cxml-note-to-vendor.png "Pievienotā piezīme, kas ir iestatīta nosūtīšanai kreditoram")
 
-## <a name="view-the-cxml-cart-message-log-for-external-catalog-punchout"></a><a name="message-log"></a>cXML groza ziņojumu žurnāla skatīšana ārējam katalogam PunchOut
+## <a name="view-the-cxml-cart-message-log-for-external-catalog-punchout"></a><a name="message-log"></a> cXML groza ziņojumu žurnāla skatīšana ārējam katalogam PunchOut
 
 Iestatot lauku **Punchout protokols** uz _cXML_ ārējam katalogam, sistēma notvers tos groza žurnāla ziņojumus, kuri tiks atgriezti no kreditoriem. Šo žurnālu var izmantot problēmu novēršanai un citiem datu nolūkiem.
 
@@ -184,7 +184,7 @@ Lietotājs vai administrators neredzēs ārējos elementus, jo tie netiek pievie
 
 ![Ārējo elementu pievienošana XML.](media/cxml-extrinsics-xml.png "Ārējo elementu pievienošana XML")
 
-## <a name="create-and-process-a-purchase-order"></a><a name="create-po"></a>Pirkšanas pasūtījuma izveide un apstrāde
+## <a name="create-and-process-a-purchase-order"></a><a name="create-po"></a> Pirkšanas pasūtījuma izveide un apstrāde
 
 Izveidojot pirkšanas pasūtījumu kreditoram, tas mantos opcijas **Nosūtīt pirkšanas pasūtījumu, izmantojot cXML** iestatījumu no attiecīgā kreditora. Tomēr iestatījums ir pieejams kopsavilkuma cilnes **Iestatīšana** pirkšanas pasūtījuma skatā **Galvene**, lai to vēlāk varētu mainīt pēc nepieciešamības.
 
@@ -212,7 +212,7 @@ Ja pakešuzdevums ir iestatīts un palaists, dokuments tiks nosūtīts. Statusa 
 
 ![Statusa ziņojumi pirkšanas pasūtījuma pieprasījuma lapā.](media/cxml-po-request-2.png "Statusa ziņojumi pirkšanas pasūtījuma pieprasījuma lapā")
 
-## <a name="schedule-the-purchase-order-request-batch-job"></a><a name="po-batch"></a>Pirkšanas pasūtījuma pieprasījuma pakešuzdevuma ieplānošana
+## <a name="schedule-the-purchase-order-request-batch-job"></a><a name="po-batch"></a> Pirkšanas pasūtījuma pieprasījuma pakešuzdevuma ieplānošana
 
 Lai aktivizētu pakešuzdevumu pirkšanas pasūtījuma pieprasījumu nosūtīšanai, dodieties uz **Sagāde un avoti \> Iestatīšana \> cXML pārvaldība \> Pirkšanas pasūtījuma pieprasījums** un pēc tam darbību rūtī cilnē **Pirkšanas pasūtījuma pieprasījums**, kas atrodas **Pakešuzdevums** grupā, atlasiet **Iesniegt darbu**, lai atvērtu dialoglodziņu **Pirkšanas pieprasījuma sagatavošana un nosūtīšana**. Izmantojot šo dialoglodziņu, varat iestatīt atkārtošanu, tāpat kā to parasti darāt pakešuzdevumiem programmā Supply Chain Management. Atlasiet intervālu, pamatojoties uz pasūtījuma apjomu. Lai gan pakešuzdevumu var palaist katru minūti, tomēr ir ieteicams nosūtīt pakešuzdevumus visas darbadienas laikā, pamatojoties uz pasūtījumu saņemšanas logiem, kas atbilst kreditoru grafikiem.
 
@@ -220,7 +220,7 @@ Piemēram, kreditora politika nosaka, ka visi pasūtījumi, kas tiek saņemti l�
 
 Process meklēs pirkšanas pasūtījuma pieprasījuma dokumentus ar statusu *Gaida*. Ja jums ir pasūtījums, kas jānosūta kreditoram nekavējoties, varat atlasīt **Iesniegt darbu** un iestatīt opciju **Pakešapstrāde** uz *Nē*.
 
-## <a name="monitor-purchase-order-requests"></a><a name="monitor-po-requests"></a>Pirkšanas pasūtījumu pieprasījumu pārraudzīšana
+## <a name="monitor-purchase-order-requests"></a><a name="monitor-po-requests"></a> Pirkšanas pasūtījumu pieprasījumu pārraudzīšana
 
 ### <a name="view-the-status-of-a-purchase-order"></a>Skatīt pirkšanas pasūtījuma statusu
 

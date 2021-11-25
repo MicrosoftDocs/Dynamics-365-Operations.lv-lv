@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 08/19/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 73a226d10c951179fd9f3bc2aed4a70efcc7f020
-ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
-ms.translationtype: HT
+ms.openlocfilehash: 69667f8b64c048f5957168d1af21a6c858bc0bad
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/01/2021
-ms.locfileid: "7466248"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782583"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Tiešsaistes sinhronizācijas problēmu novēršana
 
@@ -63,7 +63,7 @@ Lai novērstu problēmu, ir jāiespējo trūkstošā privilēģija, kartēto Dyn
 
     ![Organizācijas kartēšana.](media/mapped_business_unit.png)
 
-2. Lietojumprogrammā Customer Engagement, pierakstieties vidē, ejiet uz **Iestatījumi\> Drošība** un atrodiet kartētās biznesa vienības darba grupu.
+2. Lietojumprogrammā Customer Engagement, pierakstieties vidē, ejiet uz **Iestatījumi \> Drošība** un atrodiet kartētās biznesa vienības darba grupu.
 
     ![Kartētās biznesa vienības grupa.](media/setting_security_page.png)
 
@@ -102,7 +102,7 @@ Lai novērstu šo problēmu, ir jāizpilda darbības gan pakalpojumā Dataverse,
 2. Pakalpojumā Dataverse izpildiet šīs darbības:
 
     1. Pierakstieties Dataverse vidē (piemēram, `https://*****.crm.dynamics.com/`).
-    2. Dodieties uz **Papildu iestatījumi**\>**Papildu meklēšana**.
+    2. Dodieties uz **Papildu iestatījumi** \> **Papildu meklēšana**.
     3. Atlasiet **Divkāršās rakstīšanas palaišanas laika konfigurēšana**.
     4. Atlasiet skatāmo kolonnu.
     5. Atlasiet **Rezultāti**, lai skatītu konfigurācijas.
@@ -224,7 +224,7 @@ Finance and Operations programmās ir atjauninājums uz kontaktieraksta adresi, 
 
 Līdzīga situācija var rasties dažās nestandarta sistēmās, piemēram, gadījumos, kad tabula, kura tiek pārveidota Finance and Operations lietojumprogrammās, netiek acīmredzami saistīta ar to saturošo entitīju. Piemēram, primārā adrese ir dati, kas aprēķināti entitījā **smmContactPersonCDSV2Entity**. Divkāršās rakstīšanas satvars mēģina noteikt, kā izmaiņas pakārtotajā tabulā tiek kartētas atpakaļ uz entitījām. Parasti šāda pieeja ir pietiekama. Taču dažos gadījumos saite ir tik sarežģīta, ka vajadzīgs konkretizēt. Ir jāpārliecinās, ka saistītās tabulas **RecId** ir tieši pieejams entitījā. Pēc tam jāpievieno statiskā metode, lai pārraudzītu tabulas izmaiņas.
 
-Piemēram, pārskatiet metodi **smmContactPersonCDSV2Entity::getEntityDataSourceToFieldMapping()**. Lai apstrādātu šo situāciju, ir pārveidotas entitījas **CustCustomerV3entity** un **VendVendorV2Entity**.
+Piemēram, pārskatiet metodi **smmContactPersonCDSV2Entity:: getEntityDataSourceToFieldMapping()**. Lai apstrādātu šo situāciju, ir pārveidotas entitījas **CustCustomerV3entity** un **VendVendorV2Entity**.
 
 Lai novērstu problēmu, izpildiet šīs darbības.
 

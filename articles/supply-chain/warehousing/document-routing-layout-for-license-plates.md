@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 03489629a74d33147ac77dd18b59efbfc9c9e4b5
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 5311c13154baafdc7225ee869b3ef524eecc0d00
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574669"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778357"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Dokumenta maršrutēšanas izkārtojums numura zīmes etiķetēm
 
@@ -53,7 +53,7 @@ Vairāki plaši pieejami etiķešu ģenerēšanas rīki var jums palīdzēt form
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Līdzekļa ieslēgšana sistēmā
 
-Ja sistēmā vēl nav ietverti šajā tēmā aprakstītie līdzekļi, pārejiet uz sadaļu [Līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) un iespējojiet līdzekli *Krājumu darbību arhīvs*.
+Ja sistēmā vēl nav ietverti šajā tēmā aprakstītie līdzekļi, pārejiet uz sadaļu [Līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) un iespējojiet līdzekli *Krājumu darbību arhīvs*. (No Piegādes ķēdes pārvaldības versijas 10.0.21, šī funkcija ir ieslēgta pēc noklusējuma.)
 
 ## <a name="custom-number-formats"></a>Pielāgoti skaitļu formāti
 

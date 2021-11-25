@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76ac50ba2606ffff5a5a90d29ca99c8d67e5f14cce2127f5de6225d1cd8224ef
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 2e03becf2572aeaf213e8c3a0e874405ed0d5613
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745180"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7753030"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Noņemtie vai novecojuši līdzekļi iepriekšējos laidienos
 
@@ -84,7 +84,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 | **Izvietošanas iespēja**              | Visus |
 | **Statuss**                         | Novecojis: līdz 2020. gada 1. oktobrim mēs plānojam vairs neatbalstīt **setUtcString()** metodi. Tā vietā izstrādātājiem ir jāizmanto metode **setUtcDateTime()**. |
 
-### <a name="blacklist-report-it--feature-reference-it-00001"></a>Melnā saraksta pārskats (IT) — Līdzekļa atsauce IT-00001
+### <a name="blocklist-report-it--feature-reference-it-00001"></a>Blokalista atskaite (IT) – līdzekļa atsauces IT-00001
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -848,8 +848,8 @@ Divi formāti maksājumu eksportēšanai ir pieejami Somijā. LM02 (FI) tiek izm
 
 |  &nbsp; |&nbsp;  |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Risinājumam Noliktavas vadība II (WMS II), kas bija pieejams modulī **Krājumu pārvaldība** , ir tāda pati funkcionalitāte kā modulim **Noliktavas vadība** , kas tika izlaists atjauninājumā Dynamics AX 2012 R3.                                                                         |
-| **Vai ir aizstāts ar citu līdzekli?**   | Modulis **Noliktavas vadība** , kas tika izlaists atjauninājumos AX 2012 R3, Dynamics AX 2012 R3 CU8 un Dynamics AX 2012 R3 CU9, aizstāj līdzekļa Noliktavas vadība II līdzekļus. Jaunajam modulim ir uzlabotāki līdzekļi un elastīgāki noliktavas vadības procesi nekā modulim Noliktavas vadība II. |
+| **Novecošanas/noņemšanas pamatojums** | Risinājumam Noliktavas vadība II (WMS II), kas bija pieejams modulī **Krājumu pārvaldība**, ir tāda pati funkcionalitāte kā modulim **Noliktavas vadība**, kas tika izlaists atjauninājumā Dynamics AX 2012 R3.                                                                         |
+| **Vai ir aizstāts ar citu līdzekli?**   | Modulis **Noliktavas vadība**, kas tika izlaists atjauninājumos AX 2012 R3, Dynamics AX 2012 R3 CU8 un Dynamics AX 2012 R3 CU9, aizstāj līdzekļa Noliktavas vadība II līdzekļus. Jaunajam modulim ir uzlabotāki līdzekļi un elastīgāki noliktavas vadības procesi nekā modulim Noliktavas vadība II. |
 | **Ietekmētie produkta apgabali**         | Krājumu vadība, Pārdošana un mārketings, Sagāde un avoti   |
 | **Statuss**                         | Noņemts, sākot ar Dynamics 365 for Operations versiju 1611.    |
 
@@ -1204,7 +1204,7 @@ Ir noņemtas atskaites, kas ietvēra šādus izvēlnes vienumus: **Kopsavilkuma 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Finanšu Microsoft SQL Server Reporting Services (SSRS) pārskati ir aizstāti ar Management Reporter iespējām un noklusējuma pārskatiem. |
-| **Vai aizstāts ar citu līdzekli?**   | Management Reporter (pašreizējā Dynamics AXversijā ar apzīmējumu **Finanšu pārskatu veidošana** )    |
+| **Vai aizstāts ar citu līdzekli?**   | Management Reporter (pašreizējā Dynamics AX versijā ar apzīmējumu **Finanšu pārskatu veidošana**)    |
 | **Ietekmētie produkta apgabali**         | Virsgrāmata   |
 | **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0.   |
 
@@ -1410,7 +1410,7 @@ Windows 8 planšetdatoru programma nodrošināja izdevumu ievades un apstiprin�
 | &nbsp;  | &nbsp; |
 |-------------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | <strong>Novecošanas/noņemšanas pamatojums</strong> |                         Šī funkcionalitāte ir aizstāta ar citu līdzekli.                         |
-|  <strong>Vai aizstāts ar citu līdzekli?</strong>  | Management Reporter (pašreizējā Dynamics AXversijā ar apzīmējumu <strong>Finanšu pārskatu veidošana</strong> ) |
+|  <strong>Vai aizstāts ar citu līdzekli?</strong>  | Management Reporter (pašreizējā Dynamics AX versijā ar apzīmējumu <strong>Finanšu pārskatu veidošana</strong> ) |
 |     <strong>Ietekmētie produkta apgabali</strong>     |                                              Virsgrāmata                                              |
 |             <strong>Statuss</strong>             |                                      Noņemts, sākot ar Dynamics AX 2012                                      |
 

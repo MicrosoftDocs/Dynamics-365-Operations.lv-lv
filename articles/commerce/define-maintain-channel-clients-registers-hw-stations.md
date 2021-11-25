@@ -1,7 +1,7 @@
 ---
 title: Perifērijas ierīču savienošana ar pārdošanas punktu (POS)
 description: Šajā tēmā ir izklāstīts, kā perifērijas ierīces savienot ar jūsu Retail POS.
-author: rubencdelgado
+author: BrianShook
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 92383
 ms.assetid: 83f31ea6-f0a2-4501-9d4d-a37b6eec2599
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5c9f38cc7874fa6c9188f87ca01e561d434092fadaddf2504c79e4bd6dc322ad
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 66912443c25adfae6fa11e6a25c4a97f63a438ba
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725342"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779522"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Perifērijas ierīču savienošana ar pārdošanas punktu (POS)
 
@@ -78,7 +78,7 @@ Kamēr pati aparatūra stacija tiek norādīta kanāla līmenī un ietver instan
 
 ### <a name="mpos-with-connected-peripheral-devices"></a>MPOS ar pievienotām perifērijas ierīcēm
 
-[![Tradicionāls, fiksēts pārdošanas punkts.](./media/traditional-300x279.png)](./media/traditional.png)
+[![ Tradicionāls, fiksēts pārdošanas punkts.](./media/traditional-300x279.png)](./media/traditional.png)
 
 Lai MPOS savienotu ar POS perifērijas ierīcēm tradicionāla, fiksēta POS scenārijā, vispirms pārejiet uz pašu reģistru un piešķiriet tam aparatūras profilu. POS reģistrus varat atrast sadaļā **Mazumtirdzniecība un komercija** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **Reģistri**. 
 
@@ -97,13 +97,13 @@ Visbeidzot pārdošanas punktā MPOS izmantojiet operāciju **Atlasīt aparatūr
 
 ### <a name="mpos-or-cloud-pos-with-a-stand-alone-hardware-station"></a>MPOS vai Cloud POS ar savrupu aparatūras staciju
 
-[![Kopīgas perifērijas ierīces.](./media/shared-300x254.png)](./media/shared.png)
+[![ Kopīgas perifērijas ierīces.](./media/shared-300x254.png)](./media/shared.png)
 
 Šādā scenārijā savrupu aparatūras staciju kopīgi lieto MPOS un Cloud POS klienti. Šim scenārijam ir nepieciešams, lai jūs izveidotu aparatūras stacijas profilu, lai norādītu lejupielādes pakotni, portu un aparatūras profilu, kurus šī aparatūras stacija izmanto. Aparatūras stacijas profilu varat atrast sadaļā **Mazumtirdzniecība un komercija** &gt; **Kanāla iestatīša** &gt; **POS iestatīšana** &gt; **POS profili** &gt; **Aparatūras stacijas profili**. 
 
 Kad esat izveidojis aparatūras stacijas profilu, pārejiet uz konkrēto kanālu (**Mazumtirdzniecība un komercija** &gt; **Kanāli** &gt; **Veikali** &gt; **Visi veikali**) un pievienojiet jaunu aparatūras staciju. Šo jauno aparatūras staciju kartējiet uz iepriekš izveidoto aparatūras stacijas profilu. 
 
-Pēc tam sniedziet aprakstu, kas kasierim palīdzēs identificēt šo aparatūras staciju. Laukā **Resursdatora nosaukums** ievadiet resursdatora vietrādi URL šādā formātā: `https://<MachineName:Port>/HardwareStation`. (Ierakstu **&lt;MachineName:Port&gt;** aizstājiet ar aparatūras stacijas faktisko iekārtas nosaukumu un portu, kas ir norādīts aparatūras stacijas profilā.) Savrupai aparatūras stacijai ir jānorāda arī elektronisko līdzekļu pārskaitījumu (electronic funds transfer — EFT) termināļa ID. Šī vērtība identificē EFT termināli, kas ir savienots ar aparatūras staciju, kad maksājumu savienotājs sazinās ar maksājuma nodrošinātāju. 
+Pēc tam sniedziet aprakstu, kas kasierim palīdzēs identificēt šo aparatūras staciju. Laukā **Resursdatora nosaukums** ievadiet resursdatora vietrādi URL šādā formātā: `https://<MachineName:Port>/HardwareStation`. (Ierakstu **&lt; MachineName:Port&gt;** aizstājiet ar aparatūras stacijas faktisko iekārtas nosaukumu un portu, kas ir norādīts aparatūras stacijas profilā.) Savrupai aparatūras stacijai ir jānorāda arī elektronisko līdzekļu pārskaitījumu (electronic funds transfer — EFT) termināļa ID. Šī vērtība identificē EFT termināli, kas ir savienots ar aparatūras staciju, kad maksājumu savienotājs sazinās ar maksājuma nodrošinātāju. 
 
 Pēc tam no faktiskās aparatūras stacijas iekārtas pārejiet uz kanālu un atlasiet aparatūras staciju. Pēc tam noklikšķiniet uz **Lejupielādēt** un instalējiet aparatūras staciju. 
 

@@ -2,7 +2,7 @@
 title: Naudas plūsmas prognozēšana
 description: Šajā tēmā ir sniegts pārskats par naudas plūsmas prognozēšanas procesu. Tajā ir arī paskaidrots, kā naudas plūsmas prognozēšana ir integrēta citos sistēmas moduļos.
 author: panolte
-ms.date: 09/23/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,16 +13,17 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 83f8e5b03a2222884758dc567688da2a756421da
-ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
-ms.translationtype: HT
+ms.openlocfilehash: 5ad3b2444f194f8324a309df32612a5377851995
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547959"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752908"
 ---
 # <a name="cash-flow-forecasting"></a>Naudas plūsmas prognozēšana
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Varat izmantot naudas plūsmas prognozēšanas rīkus gaidāmās naudas plūsmas un valūtas prasību analīzei, lai varētu noteikt uzņēmuma gaidāmās skaidras naudas vajadzības. Lai iegūtu naudas plūsmas prognozi, ir jāizpilda tālāk norādītie uzdevumi:
 
@@ -93,9 +94,12 @@ Budžeta reģistra ierakstus var ietvert naudas plūsmas prognozē individuāli,
 Naudas plūsmas prognozēs var ietvert krājumu piegādes apjoma un pieprasījuma apjoma prognozes. Lapas **Naudas plūsmas prognozes iestatīšana** cilnē **Krājumu vadība** atlasiet naudas plūsmas prognozē ietveramo budžeta modeli. Atsevišķās piegādes apjoma un pieprasījuma apjoma prognozes rindās var atcelt ietveršanu naudas plūsmas prognozēs.
 
 ### <a name="setting-up-dimensions-for-cash-flow-forecasting"></a>Skaidras naudas plūsmas prognozēšanas dimensiju iestatīšana
-Jauna cilne lapā **Skaidras naudas plūsmas prognozes iestatīšana** ļauj kontrolēt, kādas finanšu dimensijas izmantot filtrēšanai darbvietā **Skaidras naudas plūsmas prognozēšana**. Šī cilne parādīsies tikai tad, ja ir iespējots skaidras naudas plūsmas prognozēšanas līdzeklis. 
+Jauna cilne naudas plūsmas prognozēšanas iestatīšanas lapā ļauj jums kontrolēt, kuras finanšu dimensijas tiek izmantotas filtrēšanai naudas **·** plūsmas **prognozēšanas** darbvietā. Šī cilne tiek rādīta tikai tad, ja finanšu ieskatu līdzeklis Naudas plūsmas prognozēm ir iespējots. 
 
 Cilnē **Dimensijas** izvēlieties no dimensiju saraksta, ko izmantot filtrēšanai, un izmantojiet bulttaustiņus, lai pārvietotu tās uz kolonnu labajā pusē. Skaidras naudas plūsmas prognozēšanas datu filtrēšanai varat atlasīt tikai divas dimensijas. 
+
+### <a name="setting-up-external-source"></a>Ārējā avota iestatīšana
+Ārējos datus var ievadīt vai importēt naudas plūsmas prognozēs. Pirms ārējo datu ievadīšanas vai importēšanas, jāiestata ārējie avoti. Cilnē **Ārējais** avots iestatiet ārējās naudas plūsmas kategorijas. Kategorija var būt Izejošā **vai** **·** Ienākošā. **·** Kases/bankas grāmatojuma tips ir jāatlasa. Juridiskās **personas iestatījumu** režģī atlasiet juridiskās personas un atbilstošos galvenos kontus, uz kuriem attiecas ārējās naudas plūsmas kategorijas.
 
 ### <a name="project-management-and-accounting"></a>Projektu vadība un uzskaite
 

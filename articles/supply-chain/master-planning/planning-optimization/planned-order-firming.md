@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 966a878a7e5b0a92d6d53e67bea19c50274087a4416980859175b12c6fdfbcdc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: ec4265f0433fbbce1e00eda206c297b54f9b8df8
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764840"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778525"
 ---
 # <a name="firm-planned-orders"></a>Plānoto pasūtījumu apstiprināšana
 
@@ -31,7 +31,7 @@ Ir trīs plānoto pasūtījumu apstiprināšanas metodes:
 
 Šajā tēmā ir sīkāk aprakstīta katra metode.
 
-## <a name="enable-the-features-that-are-described-in-this-topic"></a><a name="enable-features"></a>Iespējot šajā tēmā aprakstītos līdzekļus
+## <a name="enable-the-features-that-are-described-in-this-topic"></a><a name="enable-features"></a> Iespējot šajā tēmā aprakstītos līdzekļus
 
 Visplānoto pasūtījumu līdzekļi ir pieejami visās standarta Microsoft Dynamics 365 Supply Chain Management instalācijās, kas izmanto plānošanas optimizāciju. Tomēr daži no šajā tēmā aprakstītajiem līdzekļiem pirms to izmantošanas ir jāieslēdz līdzekļu pārvaldībā.
 
@@ -39,7 +39,7 @@ Visplānoto pasūtījumu līdzekļi ir pieejami visās standarta Microsoft Dynam
 
 Paralēla apstiprināšana palīdz paātrināt apstiprināšanas procesu, to paralējot starp vairākiem pavedieniem. Šī pieeja var būt noderīga, kad daudzi plānotie pasūtījumi ir apstiprināti.
 
-Lai padarītu šo funkcionalitāti pieejamu jūsu sistēmā, dodieties uz sadaļu [Līdzekļu pārvaldība](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) un ieslēdziet līdzekli *Paralēlā plānoto pasūtījumu apstiprināšana*.
+Lai padarītu šo funkcionalitāti pieejamu jūsu sistēmā, dodieties uz sadaļu [Līdzekļu pārvaldība](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) un ieslēdziet līdzekli *Paralēlā plānoto pasūtījumu apstiprināšana*. (No Piegādes ķēdes pārvaldības versijas 10.0.21, šī funkcija ir ieslēgta pēc noklusējuma.)
 
 ### <a name="enable-planned-order-firming-with-filtering"></a>Iespējot plānoto pasūtījumu apstiprināšanas ar filtrēšanu
 
@@ -51,7 +51,7 @@ Lai padarītu šo funkcionalitāti pieejamu jūsu sistēmā, dodieties uz sadaļ
 
 Automātiskā apstiprināšana ļauj apstiprināt plānotos pasūtījumus kā daļu no vispārējās plānošanas procesa, laika periodā apstiprināšanai. Plānošanas programmā, kas ir veidota Supply Chain Management, vienmēr tiek atbalstīta automātiskā apstiprināšana. Tomēr, lai izmantotu to arī ar plānošanas optimizāciju, ir jāieslēdz līdzeklis.
 
-Lai padarītu šo funkcionalitāti pieejamu jūsu sistēmā, dodieties uz sadaļu [Līdzekļu pārvaldība](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) un ieslēdziet līdzekli *Automatiskā apstiprināšana plānošanas optimizācijai*.
+Lai padarītu šo funkcionalitāti pieejamu jūsu sistēmā, dodieties uz sadaļu [Līdzekļu pārvaldība](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) un ieslēdziet līdzekli *Automatiskā apstiprināšana plānošanas optimizācijai*. (No Piegādes ķēdes pārvaldības versijas 10.0.21, šī funkcija ir ieslēgta pēc noklusējuma.)
 
 ## <a name="manually-firm-planned-orders"></a>Manuāli apstiprināt plānotos pasūtījumus
 
@@ -78,8 +78,8 @@ Lai manuāli apstiprinātu plānotos pasūtījumus, atrodiet un atlasiet plānot
     - **Grupēt pēc kreditora** – iestatiet šo opciju kā *Jā*, lai grupētu plānotos pirkšanas pasūtījumus un apstiprināšanas laikā izveidotu vienu pirkšanas pasūtījumu kreditoram. Var arī izveidot vienu pirkšanas pasūtījumu ar vienu rindu katram plānotajam pasūtījumam.
     - **Grupēt pēc pircēja grupas** - iestatiet šo opciju uz *Jā*, lai sagrupētu plānotos pirkšanas pasūtījumus un izveidotu vienu pirkšanas pasūtījumu, kas apvieno kreditoru un pircēju grupu. Lai izmantotu šo opciju, iestatiet opciju **Grupēt pēc kreditora** uz *Jā*.
     - **Grupēt pēc pirkšanas līguma** – iestatiet šo opciju uz *Jā*, lai grupētu plānotos pirkšanas pasūtījumus, kuriem ir tāds pats kreditors kā esošiem pirkšanas līgumiem, un izveidotu vienu pirkšanas pasūtījumu katram pirkšanas līgumam. Ja ir aktivizēta opcija **Grupēt pēc kreditora**, šī opcija tiek aktivizēta automātiski. Lai izmantotu **Grupēt pēc pirkšanas līguma**, **Atrast pirkšanas līgumu** ir jāiestata uz *Jā* lapā **Vispārējās plānošanas parametri**.
-    - **Grupēt pēc perioda** (sadaļā **Pirkšanas pasūtījums** ) – atlasiet periodu, pēc kā grupēt plānotos pirkšanas pasūtījumus. Lai izmantotu šo opciju, atlasiet opciju **Grupēt pēc kreditora**.
-    - **Grupēt pēc perioda** (sadaļā **Transferi** ) – atlasiet periodu, pēc kā grupēt plānotos transfera pasūtījumus. Pasūtījumi tiks grupēti, pamatojoties uz vērtībām **No noliktavas** un **Uz noliktavu**.
+    - **Grupēt pēc perioda** (sadaļā **Pirkšanas pasūtījums**) – atlasiet periodu, pēc kā grupēt plānotos pirkšanas pasūtījumus. Lai izmantotu šo opciju, atlasiet opciju **Grupēt pēc kreditora**.
+    - **Grupēt pēc perioda** (sadaļā **Transferi**) – atlasiet periodu, pēc kā grupēt plānotos transfera pasūtījumus. Pasūtījumi tiks grupēti, pamatojoties uz vērtībām **No noliktavas** un **Uz noliktavu**.
 
     ![Dialoglodziņš Parametri dialoglodziņā Apstiprināšana.](./media/manual-firming.png "Dialoglodziņš Parametri dialoglodziņā Apstiprināšana")
 

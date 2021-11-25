@@ -2,7 +2,7 @@
 title: Finance Insights sākumlapa
 description: Finance Insights nodrošina konfigurējamus un paplašināmus modeļus, lai palīdzētu jums precīzi un inteliģenti prognozēt jūsu uzņēmuma naudas plūsmu, prognozēt, kad saņemsiet maksājumu par neapmaksātajiem ieņēmumiem, un ģenerēt budžeta priekšlikumu, kas var paātrināt budžeta procesu. Visi šie līdzekļi ir balstīti uz inteliģentiem algoritmiskās mācīšanās modeļiem.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,24 +17,22 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 4b77b7872ed163a94ab57e4efea8fe0fbca22156
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
-ms.translationtype: HT
+ms.openlocfilehash: dfc4d9cb5be4d8d287122fd33bf09b0570498169
+ms.sourcegitcommit: a46f0bf9f58f559bbb2fa3d713ad86875770ed59
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386390"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "7813751"
 ---
 # <a name="finance-insights-home-page"></a>Finance Insights sākumlapa
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-Finance Insights nodrošina konfigurējamus un paplašināmus modeļus, lai palīdzētu jums precīzi un inteliģenti prognozēt jūsu uzņēmuma naudas plūsmu, prognozēt, kad saņemsiet maksājumu par neapmaksātajiem ieņēmumiem, un ģenerēt budžeta priekšlikumu, kas var paātrināt budžeta procesu. Visi šie līdzekļi ir balstīti uz inteliģentiem algoritmiskās mācīšanās modeļiem. Kad šīs jaunās iespējas tiek apvienotas ar automatizāciju kreditoru maksājumos un kolekcijās, tās nodrošina bagātīgu un inteliģentu finanšu sistēmu, kas sekmē lēmumu pieņemšanu un palīdz jums rīkoties, lai efektīvi reaģētu uz pašreizējiem un paredzamajiem izaicinājumiem saistībā ar uzņēmējdarbību.
-
-> [!NOTE]
-> Finance Insights priekšskatījums ir pieejams izvietošanai Amerikas Savienotajās Valstīs, Kanādā, Lielbritānijā, Eiropā, Āzijas un Klusā okeāna reģionā, Austrālijā un Jaunzēlandē. Korporācija Microsoft pakāpeniski pievieno atbalstu citiem reģioniem. Lai iespējotu Finance Insights ražošanas vidēs, vispirms ražošanas vidē ir jāiespējo [Eksportēšana uz Data Lake](../../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md) iespējas.
+Finanšu ieskatījumi sniedz konfigurējamus un paplašināmus risinājumus, lai palīdzētu jums intelligently prognozēt uzņēmuma naudas plūsmu, prognozējot, kad saņemat maksājumus neapmaksātiem debitoriem, un ģenerēt budžeta priekšlikumu, kas var palīdzēt paātrināt budžeta procesu. Šīs funkcijas izmanto viedas mašīnas apmācību veidnes, lai veidotu modeļus, izmantojot jūsu nodrošinātos datus (tostarp datus no trešās personas, piemēram, biroja plaša patēriņa pārskata informāciju). Šīs inteliģentas iespējas informē par lēmumu pieņemšanu un palīdz veikt darbības, lai efektīvi atbildētu uz pašreizējiem un paredzamiem biznesa darījumiem. Jūs esat atbildīgs par visiem datiem, kas tiek izmantoti finanšu ieskatos vai to rezultāts.
 
 > [!NOTE]
-> Šī funkcionalitāte tiek piedāvāta kā priekšskatījuma līdzekļu kopa. Kā priekšskatījuma līdzekli nedrīkst izmantot izveidotos algoritmiskās mācīšanās modeļus, lai vadītu vai ietekmētu biznesa lēmumus vai budžeta priekšlikumus. Šī līdzekļa izmantošanu nosaka [Papildu lietošanas noteikumi](https://go.microsoft.com/fwlink/?linkid=2105274).
+> Finanšu ieskatu priekšskatījums ir pieejams izvietošanai Amerikas Savienotajās Valstīs, Kanādā, Apvienotajā Karalistē, Eiropā, Klusā okeāna, Japānas, Austrālijā un Jaunzēlande. Korporācija Microsoft pakāpeniski pievieno atbalstu citiem reģioniem.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
@@ -50,28 +48,15 @@ Lai priekšskatītu Finance Insights, ir nepieciešama 2. līmeņa vide (daudzlo
 
 ### <a name="version-requirements"></a>Versijas prasības
 
-Šis dokuments attiecas uz Finance and Operations programmu (platformas atjauninājums 35) versiju 10.0.11 un jaunākām versijām.
+Šī tēma attiecas uz Microsoft Dynamics 365 Finance versiju 10.0.21 vai jaunāku versiju.
 
 ### <a name="historical-data-requirements"></a>Vēsturiskās datu prasības
 
-Lai pareizi iemācītu algoritmiskās mācīšanās modeli, kas tiek izmantots debitoru maksājumu prognožu funkcijai, ir nepieciešami debitoru rēķini vismaz viena gada apjomā.
-
-### <a name="role-and-permission-requirements"></a>Lomu un atļauju prasības
-
-Tiks veiktas izmaiņas korporācijai Microsoft Dynamics 365 Finance, Microsoft Dynamics Lifecycle Services (LCS), Power Apps un Azure. Šajās vidēs ir nepieciešamas pareizās atļaujas. Tālāk ir minēti dažu veicamo izmaiņu piemēri.
-
-- Platformā Microsoft Power Platform tiks izveidota jauna vide.
-- Pakalpojumā Azure tiks izveidots krātuves konts, galvenā glabātava un programma.
-- Active Directory nomnieka administratoram būs jāautorizē programma AI Builder, lai piekļūtu datu ezeram.
-- Līdzeklis tiks ieslēgts programmā Dynamics 365.
-
-Zināšanas par resursu radīšanas un pārvaldīšanas procesu pakalpojumā Azure, Microsoft Dataverse un LCS būss noderīgas, pabeidzot šo procesu.
+Lai pareizi iemācītu algoritmiskās mācīšanās modeli, kas tiek izmantots debitoru maksājumu prognožu funkcijai, ir nepieciešami debitoru rēķini vismaz viena gada apjomā. Naudas plūsmas prognozēm ieteicams izmantot trīs vēsturisko datu gadus. Vēsturiskā budžeta un/vai faktisko budžetu trīs gadi ir ieteicami inteliģentam budžeta priekšlikumiem.
 
 ## <a name="configure-finance-insights"></a>Finance Insights konfigurēšana
 
-Lai varētu izmantot Finance Insights, ir jāpabeidz dažas konfigurēšanas darbības. Papildu informāciju par to, kā konfigurēt Finance Insights, skatiet:
-  - Versijām līdz 10.0.19: [Finance Insights konfigurācija (priekšskatījums) – versijām līdz 10.0.19](configure-for-fin-insites.md).
-  - Sākot ar versiju 10.0.20 un jaunākām: [Finance Insights konfigurācija (priekšskatījums) – versijai 10.0.20 un jaunākām](configure-for-fin-insites-PubPrvw.md).
+Konfigurācijas soļi ir jāveic pirms Finanšu ieskatu lietošanas. Lai iegūtu papildinformāciju par to, kā konfigurēt finanšu ieskatus, skatiet sadaļu [Finanšu ieskatu konfigurēšana](configure-for-fin-insites.md).
 
 ## <a name="create-a-data-integrator-project"></a>Datu integrētāja projekta izveide
 
@@ -84,7 +69,7 @@ Kad konfigurācijas darbības ir pabeigtas un ir iestatīti demonstrācijas dati
 ### <a name="enable-customer-payment-predictions"></a>Debitora maksājumu prognožu iespējošana
 Ja izmantojat demonstrācijas datus, lai pārbaudītu debitoru maksājumu prognozes, iespējams, būs jāimportē papildu demonstrācijas dati, lai veiksmīgi izveidotu AI modeli. 
 
-Lai iespējotu debitoru maksājumu prognozes, ir jāpabeidz darbības, lai izveidotu algoritmiskās mācīšanās modeli, kas izmanto jūsu organizācijas datus, lai ģenerētu prognozes par to, kad klienti varētu apmaksāt neapmaksātos rēķinus un kad noteikti rēķini, visticamāk, tiks apmaksāti. Plašāku informāciju un konkrētas veicamās darbības skatiet sadaļā [Debitoru maksājumu prognožu iespējošana](enable-cust-paymnt-prediction.md). 
+Lai iespējotu Debitoru maksājumu prognozes, jāveic soļu kopums, lai izveidotu iekārtu apmācības modeli, kas izmanto jūsu organizācijas datus, lai ģenerētu prognozes par to, kad debitori, iespējams, apmaksā neapmaksātu rēķinus un kad konkrēti rēķini, iespējams, tiks apmaksāti. Plašāku informāciju un konkrētas veicamās darbības skatiet sadaļā [Debitoru maksājumu prognožu iespējošana](enable-cust-paymnt-prediction.md). 
 
 ### <a name="enable-cash-flow-forecasting"></a>Naudas plūsmas prognozēšanas iespējošana
 Lai iespējotu naudas plūsmas prognozēšanu, ir jāpabeidz darbības, lai izveidotu algoritmiskās mācīšanās modeli, kas izmanto jūsu organizācijas datus, lai izveidotu naudas plūsmas prognozes. Plašāku informāciju un konkrētas veicamās darbības skatiet sadaļā [Naudas plūsmas prognozēšanas iespējošana](enable-cash-flow-forecasting.md).
@@ -97,17 +82,14 @@ Budžeta priekšlikumu līdzeklis izmanto algoritmiskās mācīšanās modeli ko
 
 ### <a name="using-customer-payment-predictions"></a>Debitora maksājumu prognožu izmantošana
 
-Inteliģentā naudas plūsmas prognozēšana tiek veidota, pamatojoties uz esošo naudas plūsmas prognozēšanas funkcionalitāti pakalpojumā Dynamics 365 Finance. Lai pārskatītu esošo iespēju, skatiet sadaļu [Skaidras naudas plūsmas prognozēšana](../cash-bank-management/cash-flow-forecasting.md).
-
-- Lai uzzinātu, kā debitoru maksājumu prognozes var sniegt informāciju, kas nepieciešama proaktīvām parādu piedziņas darbībām, skatiet sadaļu [Debitoru maksājumu prognožu izmantošana](use-customer-payment-predictions.md).
+- Lai uzzinātu, kā debitora maksājumu prognozes var sniegt informāciju, kas ir nepieciešama proaktīvi sākt kolekcijas aktivitātes, skatiet [Sadaļā Debitora maksājuma prognozēšana](use-customer-payment-predictions.md).
 - Lai iegūtu informāciju, kas var palīdzēt novērtēt prognozēšanas modeļa efektivitāti pēc tam, kad esat sācis izmantot līdzekli, skatiet sadaļu [Sākotnējā debitora maksājuma prognozēšanas modeļa izvērtēšana](evaluate-payment-prediction.md).
 - Lai iegūtu informāciju, kas var palīdzēt koriģēt datus, kuri tiek izmantoti prognozēšanas izveidei, un tādējādi var palīdzēt uzlabot tās efektivitāti, skatiet sadaļu [Prognozēšanas modeļa uzlabošana](improve-model.md).
-
-Lai uzzinātu vairāk par AI prognozēšanas modeļu rezultātiem, skatiet sadaļu [Algoritmiskās mācīšanās modeļu rezultāti](confusion-matrix.md).
+- Lai uzzinātu vairāk par AI prognozēšanas modeļu rezultātiem, skatiet sadaļu [Algoritmiskās mācīšanās modeļu rezultāti](confusion-matrix.md).
 
 ### <a name="using-cash-flow-forecasts"></a>Naudas plūsmas prognožu izmantošana
 
-Naudas plūsmas prognozēšanas spēja var palīdzēt precīzāk novērtēt jūsu finansiālo situāciju. 
+Naudas plūsmas prognozēšanas spēja var palīdzēt precīzāk novērtēt jūsu finansiālo situāciju. Intelligent naudas plūsmas prognozēšana ir veidota, virs esošās naudas plūsmas prognozēšanas funkcionalitātes sistēmā Dynamics 365 Finance. Lai pārskatītu esošo iespēju, skatiet sadaļu [Skaidras naudas plūsmas prognozēšana](../cash-bank-management/cash-flow-forecasting.md).
 
 - Lai uzzinātu par jaunajām naudas plūsmas prognožu iespējām, skatiet sadaļu [Naudas plūsmas prognozēšana](cash-flow-forecast-intro.md).
 - Lai iegūtu informāciju par ārējo datu importēšanu, lai iekļautu tos savā naudas plūsmas prognozē, skatiet sadaļu [Ārēju datu izmantošana naudas plūsmas prognozēs](external-data-in-cash-flow.md). 
@@ -120,6 +102,6 @@ Informāciju par budžeta izveides paātrināšanu skatiet sadaļā [Budžeta pr
 
 ## <a name="feedback-and-support"></a>Atsauksmes un atbalsts
 
-Lūdzu, sūtiet e-pastu [klientu maksājumu ieskatiem (priekšskatījums)](mailto:fiap@microsoft.com), ja vēlaties sniegt atsauksmes vai ir nepieciešams atbalsts.
+Ja interesējaties par atsauksmju sniegšana vai ja nepieciešams atbalsts, sūtiet e-pasta ziņojumu uz [Finanšu ieskatiem](mailto:fiap@microsoft.com).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

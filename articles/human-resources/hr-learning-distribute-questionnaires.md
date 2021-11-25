@@ -1,8 +1,8 @@
 ---
 title: Anketu izplatīšana un plānošana
-description: Šajā rakstā ir skaidrots, kā jūsu izveidotās anketas izplatīt tā, lai tās būtu pieejamas tai personai vai personu grupai, kas anketas aizpildīs.
-author: andreabichsel
-ms.date: 04/04/2017
+description: Šajā tēmā ir skaidrots, kā jūsu izveidotās anketas izplatīt tā, lai tās būtu pieejamas tai personai vai personu grupai, kas anketas aizpildīs.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,25 +12,25 @@ ms.search.scope: Human Resources
 ms.custom: 17424
 ms.assetid: fd8d867a-2446-400a-b91f-ad4085427470
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 60354a3e7fed5403321d5ec4440cece84b13233bef80fcd5c5f61d72e5e3aa85
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: a13f699c8c0951b32f7826e8cfe8d7dcf02a7f55
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755519"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7729007"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>Anketu izplatīšana un plānošana
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šajā rakstā ir skaidrots, kā jūsu izveidotās anketas izplatīt tā, lai tās būtu pieejamas tai personai vai personu grupai, kas anketas aizpildīs. 
+Šajā tēmā ir skaidrots, kā jūsu izveidotās anketas izplatīt tā, lai tās būtu pieejamas tai personai vai personu grupai, kas anketas aizpildīs. 
 
 Anketu var izplatīt vairākos veidos:
 
--   Atzīmējiet anketu kā aktīvu. Pēc tam anketa ir pieejama visiem darbiniekiem, ja vien nav iestatīta anketu grupa, kas tai ierobežotu piekļuvi.
+-   Atzīmējiet anketu kā **aktīvu**. Pēc tam anketa ir pieejama visiem darbiniekiem, ja vien nav iestatīta anketu grupa, kas tai ierobežotu piekļuvi.
 -   Piešķiriet tiesības anketu grupai. Pēc tam anketa ir pieejama visiem atlasītās grupas dalībniekiem.
 -   Izveidojiet plānotas atbilžu sesijas. Pēc tam anketa ir pieejama tikai noteiktai personai.
 -   Izveidojiet grafiku. Pēc tam anketa var būt pieejama vairākām personām.
@@ -108,10 +108,10 @@ Ja izmantojat plānoto atbilžu sesiju, jums persona ir jāinformē tieši, piem
 
 ### <a name="notifying-respondents-about-a-scheduling"></a>Respondentu informēšana par plānošanu
 
-Izmantojiet lapu **Anketu grafiki**, lai sagatavotu un nosūtītu e-pasta ziņojumus visiem anketai piešķirtajiem respondentiem. Ievadiet e-pasta ziņojuma tekstu cilnē **E-pasta ziņojums, ko sūtīt uz darbinieku pašapkalpošanos**. Kad grafiks ir sācies, noklikšķiniet uz **Funkcijas** &gt; **Nosūtīt e-pastu**, lai ģenerētu un respondentiem nosūtītu e-pasta ziņojumu. Pēc tam respondenti var pierakstīties vietnē un aizpildīt anketu. 
+Izmantojiet lapu **Anketu grafiki**, lai sagatavotu un nosūtītu e-pasta ziņojumus visiem anketai piešķirtajiem respondentiem. Ievadiet e-pasta tekstu **cilnē Darbinieku pašapkalpošanās e-pasts.** Kad grafiks ir startēts, noklikšķiniet uz Funkcijas Sūtīt e-pastu, lai **·** &gt; **izveidotu un** nosūtītu e-pastu respondentiem. Pēc tam respondenti var pierakstīties vietnē un aizpildīt anketu. 
 
 > [!NOTE]
-> Lai varētu izmantot e-pasta funkcionalitāti, IT administratoram ir jāievada e-pasta iestatījumi lapā **E-pasta parametri**.
+> Pirms varat izmantot e-pasta funkcionalitāti, jūsu IT administratoram ir jāievada e-pasta iestatījumi lapā **E-pasta** parametri.
 
 ## <a name="ending-a-scheduled-questionnaire"></a>Plānotas anketas beigšana
 

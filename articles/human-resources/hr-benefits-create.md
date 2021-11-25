@@ -1,8 +1,8 @@
 ---
 title: Izveidot jaunu atvieglojumu
 description: Šajā uzdevumā jums tiek parādīts, kā izveidot atvieglojumu elementus, kas tiks izmantoti, veidojot jaunus atvieglojumus.
-author: andreabichsel
-ms.date: 02/03/2020
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HcmBenefitElementSetup, HcmBenefit, HcmBenefitNewBenefit, HcmBen
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 6296a7b3bfd802230ccf2fc8166c46be9e5227d93ae8dac77f75b09b15507e26
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 0d180ecd9b2f199e8bd85fb5e1e88ce550458bc0
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764936"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771463"
 ---
 # <a name="create-a-new-benefit"></a>Izveidot jaunu atvieglojumu
 
@@ -28,30 +28,30 @@ ms.locfileid: "6764936"
 
 
 ## <a name="create-benefit-elements"></a>Izveidot atvieglojumu elementus
-1. Dodieties uz Personāla vadība > Atvieglojumi > Iestatījumu > Atvieglojumu elementi.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Tips ierakstiet nosaukumu tam atvieglojumu tipam, kuru veidojat.
-4. Apraksta laukā ierakstiet vērtību.
-5. Laukā Vienlaicīga reģistrācija atlasiet kādu opciju.
-    * Lai ierobežotu darbinieku spēju reģistrēties vairākos medicīniskajos plānos, atlasiet Viena reģistrācija uz tipu.  
-6. Laukā Algu kategorija atlasiet kādu opciju.
-7. Noklikšķiniet uz cilnes Plāni.
-8. Klikšķiniet Jauns.
-9. Laukā Plāns ierakstiet kādu vērtību.
-10. Apraksta laukā ierakstiet vērtību.
-11. Laukā Veids ievadiet vai atlasiet vērtību.
-12. Laukā Algas ietekme atlasiet kādu opciju.
-13. Noklikšķiniet uz Saglabāt.
+
+1. Pārejiet uz **sadaļu Personāla \> vadības atvieglojumu \>\> iestatīšanas atvieglojumu elementi**.
+2. Atlasiet **Jauna**.
+3. Laukā **·** Tips ievadiet nosaukumu atvieglojumu tipam, kuru veidojat.
+4. Laukā **Apraksts** ievadiet kādu vērtību.
+5. Laukā **Vienlaicīga** reģistrācija atlasiet opciju.
+
+    Lai ierobežotu darbinieku spēju reģistrēties vairākiem medicīniskām plāniem, **atlasiet vienu reģistrāciju vienam** tipam.
+
+6. Laukā **Algu** kategorija atlasiet opciju.
+7. Cilnē **Plāni** atlasiet **·** Jauns.
+8. Laukā **Plāns** ievadiet vērtību.
+9. Laukā **Apraksts** ievadiet kādu vērtību.
+10. Laukā **·** Tips ievadiet vai atlasiet vērtību.
+11. Laukā **Algas** ietekme atlasiet opciju.
+12. Atlasiet **Saglabāt**.
 
 ## <a name="create-a-benefit"></a>Atvieglojuma izveide
-1. Aizvērt lapu.
-2. Pārejiet uz sadaļu Personāla vadība > Atvieglojumi > Atvieglojumi.
-3. Noklikšķiniet uz Jauns, lai atvērtu nolaižamo dialoglodziņu.
-4. Laukā Plāns ievadiet vai atlasiet kādu vērtību.
-5. Laukā Opcija ievadiet vai atlasiet kādu vērtību.
-6. Laukā Stājas spēkā ievadiet kādu datumu un laiku.
-7. Noklikšķiniet Izveidot atvieglojumu.
 
-
+1. Dodieties uz **Cilvēkresursu \> ieguvumu \> priekšrocības**.
+2. Atlasiet **Jauna**.
+3. Nolaižamā dialoglodziņa laukā Plāns **ievadiet** vai atlasiet vērtību.
+4. Laukā **·** Opcija ievadiet vai atlasiet vērtību.
+5. Laukā **·** Spēkā stāšanās ievadiet datumu un laiku.
+6. Atlasiet **Izveidot** atvieglojumu.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

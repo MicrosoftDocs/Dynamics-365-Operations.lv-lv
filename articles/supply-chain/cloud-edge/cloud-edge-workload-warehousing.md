@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 2c2d2604dc1948d067311a12d00422ef074ac61a
-ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
-ms.translationtype: HT
+ms.openlocfilehash: 081b6968575a8a057903d96de2833a98552ed123
+ms.sourcegitcommit: a46f0bf9f58f559bbb2fa3d713ad86875770ed59
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "7641164"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "7813727"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Noliktavas pārvaldības darba slodzes mākoņa un malas mēroga vienībām
 
@@ -222,13 +222,13 @@ Sekojošajā tabulā ir parādīts, kuri ienākošie līdzekļi tiek atbalstīti
 
 | Apstrādāšana                                                          | Centrmezgls | Noliktavas izpildes darba slodze mēroga vienībā<BR>*(Krājumi ar atzīmi "Jā" attiecas tikai uz noliktavas pasūtījumiem)* |
 |------------------------------------------------------------------|-----|----------------------------------------------------------------------------------|
-| Pirm&nbsp;dokumenta&nbsp;apstrāde                             | Jā | Nē |
+| Pirm&nbsp; dokumenta&nbsp; apstrāde                             | Jā | Nē |
 | Apstrāde kravas un transportēšanas pārvaldības ietvaros                    | Jā | Nē |
 | Kopējās izmaksas un tranzīta kravu saņemšana                       | Jā | Nē |
 | Ienākošā sūtījuma apstiprinājums                                    | Jā | Nē |
 | Pirkšanas pasūtījuma nodošana noliktavā (noliktavas pasūtījuma apstrāde) | Jā | Nr. |
 | Noliktavas pasūtījuma rindu atcelšana<p>Ņemiet vērā, ka tas tiek atbalstīts tikai tad, ja pret rindu nav notikusi reģistrēšana</p> | Jā | Nr. |
-| Pirkšanas pasūtījuma krājuma saņemšana un izvietošana                       | <p>Jā,&nbsp;ja&nbsp;nav&nbsp;noliktavas pasūtījuma</p><p>Nē, ja ir noliktavas pasūtījums</p> | <p>Jā, ja pirkšanas pasūtījums nav daļa no <i>noslodzes</i></p> |
+| Pirkšanas pasūtījuma krājuma saņemšana un izvietošana                       | <p>Jā,&nbsp; ja&nbsp; nav&nbsp; noliktavas pasūtījuma</p><p>Nē, ja ir noliktavas pasūtījums</p> | <p>Jā, ja pirkšanas pasūtījums nav daļa no <i>noslodzes</i></p> |
 | Pirkšanas pasūtījuma rindas saņemšana un izvietošana                       | <p>Jā, ja nav noliktavas pasūtījuma</p><p>Nē, ja ir noliktavas pasūtījums</p> | <p>Jā, ja pirkšanas pasūtījums nav daļa no <i>noslodzes</i></p></p> |
 | Atgriešanas pasūtījuma saņemšana un izvietošana                              | Jā | Nr. |
 | Jaukto noliktavas vienību saņemšana un izvietošana                       | <p>Jā, ja nav noliktavas pasūtījuma</p><p>Nē, ja ir noliktavas pasūtījums</p> | Jā |
@@ -290,7 +290,8 @@ Sekojošajā tabulā ir parādīts, kuri noliktavas darbību un izņēmumu nodo�
 |---------|-----|------------------------------|
 | Reģistrēt pabeigšanu un izvietot pabeigtās preces | Jā | Jā |
 | Līdzproduktu un blakusproduktu izvietošana | Jā | Jā |
-| <p>Visi pārējie noliktavas pārvaldības procesi, kas saistīti ar ražošanu, tostarp:</p><li>Izlaist uz noliktavu</li><li>Apstrāde kopuma ietvaros</li><li>Izejmateriālu izdošana</li><li>Kanban izvietošana</li><li>Kanban izdošana</li><li>Sākt ražošanas pasūtījumu</li><li>Ražošanas brāķis</li><li>Ražošanas pēdējā palete</li><li>Reģistrēt materiālu patēriņu</li><li>Tukšs Kanban</li></ul> | Jā | Nr. |
+| Sākt ražošanas pasūtījumu | Jā | Jā |
+| <p>Visi pārējie noliktavas pārvaldības procesi, kas saistīti ar ražošanu, tostarp:</p><li>Izlaist uz noliktavu</li><li>Apstrāde kopuma ietvaros</li><li>Izejmateriālu izdošana</li><li>Kanban izvietošana</li><li>Kanban izdošana</li><li>Ražošanas brāķis</li><li>Ražošanas pēdējā palete</li><li>Reģistrēt materiālu patēriņu</li><li>Tukšs Kanban</li></ul> | Jā | Nr. |
 | Izejmateriālu papildināšana | Nr. | Nr. |
 
 ## <a name="maintaining-scale-units-for-warehouse-execution"></a>Mēroga vienības saglabāšana noliktavas izpildei

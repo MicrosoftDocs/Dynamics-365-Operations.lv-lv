@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 6b75dcb7d56648f3be291cb1c09ec57a53477ec0
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
-ms.translationtype: HT
+ms.openlocfilehash: 59c4c100275917f3f9bf489c7d64b276275f1872
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344178"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778087"
 ---
 # <a name="wave-label-printing"></a>Kopuma etiķešu drukāšana
 
@@ -53,7 +53,7 @@ Kopuma etiķešu drukāšana piedāvā šādus uzlabojumus:
 
 ## <a name="turn-on-the-wave-label-printing-feature"></a>Ieslēgt līdzekli Kopuma etiķešu drukāšana
 
-Lai varētu izmantot līdzekli *Kopuma etiķešu drukāšana*, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [Līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Tur šī iespēja ir uzskaitīta tālāk minētajā veidā:
+Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.21 šī funkcija ir obligāta, tāpēc tā ir ieslēgta pēc noklusējuma un to nevar atkal izslēgt. Tomēr šis līdzeklis joprojām ir [uzskaitīts Līdzekļu](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pārvaldībā šādā veidā:
 
 - **Modulis:** *Noliktavas pārvaldība*
 - **Līdzekļa nosaukums:** *Kopuma etiķešu drukāšana*
@@ -197,7 +197,7 @@ Etiķešu izkārtojums kontrolē, kāda informācija tiek drukāta uz etiķetes 
     ```
 
     > [!NOTE]
-    > Šajā iestatījumā tiks drukāts viens katras etiķetes eksemplārs. Ja ir nepieciešamas vairākas kopijas (piemēram, viena kopija katrai paletes pusei), iestatiet **n** vērtību sekcijai **\^PQn** kājenē līdz nepieciešamajam kopiju skaitam. Piemēram, lai izdrukātu katras etiķetes četras kopijas, norādiet **\^PQ4**.
+    > Šajā iestatījumā tiks drukāts viens katras etiķetes eksemplārs. Ja ir nepieciešamas vairākas kopijas (piemēram, viena kopija katrai paletes pusei), iestatiet **n** vērtību sekcijai **\^ PQn** kājenē līdz nepieciešamajam kopiju skaitam. Piemēram, lai izdrukātu katras etiķetes četras kopijas, norādiet **\^ PQ4**.
 
 Tagad etiķete ir gatava lietošanai.
 
@@ -420,7 +420,7 @@ Kopuma veidnes ļauj saistīt noteiktas kopuma metodes ar atbilstošo kopuma eti
     ```
 
     > [!NOTE]
-    > Šajā iestatījumā tiks drukāts viens katras etiķetes eksemplārs. Ja ir nepieciešamas vairākas kopijas (piemēram, viena kopija katrai paletes pusei), iestatiet **n** vērtību sekcijai **\^PQn** kājenē līdz nepieciešamajam kopiju skaitam. Piemēram, lai izdrukātu katras etiķetes četras kopijas, norādiet **\^PQ4**.
+    > Šajā iestatījumā tiks drukāts viens katras etiķetes eksemplārs. Ja ir nepieciešamas vairākas kopijas (piemēram, viena kopija katrai paletes pusei), iestatiet **n** vērtību sekcijai **\^ PQn** kājenē līdz nepieciešamajam kopiju skaitam. Piemēram, lai izdrukātu katras etiķetes četras kopijas, norādiet **\^ PQ4**.
 
 Tagad etiķete ir gatava lietošanai.
 
@@ -647,7 +647,7 @@ Lai sekotu šim scenārijam, ir jābūt instalētiem demonstrācijas datiem, un 
     ```
 
     > [!NOTE]
-    > Šajā iestatījumā tiks drukāts viens katras etiķetes eksemplārs. Ja ir nepieciešamas vairākas kopijas (piemēram, viena kopija katrai paletes pusei), iestatiet **n** vērtību sekcijai **\^PQn** kājenē līdz nepieciešamajam kopiju skaitam. Piemēram, lai izdrukātu katras etiķetes četras kopijas, norādiet **\^PQ4**.
+    > Šajā iestatījumā tiks drukāts viens katras etiķetes eksemplārs. Ja ir nepieciešamas vairākas kopijas (piemēram, viena kopija katrai paletes pusei), iestatiet **n** vērtību sekcijai **\^ PQn** kājenē līdz nepieciešamajam kopiju skaitam. Piemēram, lai izdrukātu katras etiķetes četras kopijas, norādiet **\^ PQ4**.
 
 1. Pirmā etiķete tagad ir gatava lietošanai.
 1. Izveidojiet otru izkārtojuma ierakstu, kam ir turpmāk aprakstītie iestatījumi:
@@ -721,7 +721,7 @@ Lai sekotu šim scenārijam, ir jābūt instalētiem demonstrācijas datiem, un 
     ```
 
     > [!NOTE]
-    > Šajā iestatījumā tiks drukāts viens katras etiķetes eksemplārs. Ja ir nepieciešamas vairākas kopijas (piemēram, viena kopija katrai paletes pusei), iestatiet **n** vērtību sekcijai **\^PQn** kājenē līdz nepieciešamajam kopiju skaitam. Piemēram, lai izdrukātu katras etiķetes četras kopijas, norādiet **\^PQ4**.
+    > Šajā iestatījumā tiks drukāts viens katras etiķetes eksemplārs. Ja ir nepieciešamas vairākas kopijas (piemēram, viena kopija katrai paletes pusei), iestatiet **n** vērtību sekcijai **\^ PQn** kājenē līdz nepieciešamajam kopiju skaitam. Piemēram, lai izdrukātu katras etiķetes četras kopijas, norādiet **\^ PQ4**.
 
 1. Otrā etiķete tagad ir gatava lietošanai.
 1. Izveidojiet trešo izkārtojuma ierakstu, kam ir turpmāk aprakstītie iestatījumi:

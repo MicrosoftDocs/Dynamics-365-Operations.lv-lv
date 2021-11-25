@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SysHelpSetup
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.custom: 25391
 ms.assetid: 59bf39f8-1464-441e-8b23-9a856c73471b
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2b21fdb5e09684a23e52333fcb74d3d43ad325ba0eae5294cacf61ac06d9b1e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: d137b5dbde52423d0e040c3012fb4f1eee2368d4
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740223"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781236"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Dokumentācijas vai apmācības izveide ar uzdevuma reģistrētāju
 
@@ -62,21 +62,21 @@ Gan veidojot jaunu uzdevumu ierakstu, gan sava ieraksta pamatā izmantojot Micro
 
 Šī ir rediģēšanas rūts, kuru redzat, kad ieraksta veidošanas laikā pievienojat anotācijas. Ievadiet virsraksta anotāciju lodziņā **Virsraksts**. 
 
-[![Rediģēšanas rūts ar virsraksta anotāciju.](./media/screen1.png)](./media/screen1.png) 
+[![ Rediģēšanas rūts ar virsraksta anotāciju.](./media/screen1.png)](./media/screen1.png) 
 
 Šādi virsraksta anotācija izskatās uzdevuma ceļveža “burbulī”. 
 
-[![Virsraksta anotācijas izskats uzdevumu rokasgrāmatā.](./media/screen2.png)](./media/screen2.png)
+[![ Virsraksta anotācijas izskats uzdevumu rokasgrāmatā.](./media/screen2.png)](./media/screen2.png)
 
 -   **Piezīmes.** Piezīmju anotācija ir redzama pēc darbības teksta, ko uzdevumu ierakstītājs ģenerē automātiski. Uzdevuma ceļvedī tā ir redzama tikai tad, ja uzdevuma ceļveža burbulī lietotājs noklikšķina uz saites **Rādīt vairāk**. Šī tipa anotāciju varat lietot, lai aprakstītu jebko, kas lietotājam būtu jāzina, izpildot attiecīgo darbību.
 
 Šī ir rediģēšanas rūts, kuru redzat, kad ieraksta veidošanas laikā pievienojat anotācijas. Ievadiet piezīmju anotāciju lodziņā **Piezīmes**. 
 
-[![Rediģēšanas rūts ar anotāciju piezīmju lodziņā.](./media/screen3.png)](./media/screen3.png) 
+[![ Rediģēšanas rūts ar anotāciju piezīmju lodziņā.](./media/screen3.png)](./media/screen3.png) 
 
 Šādi piezīmju anotācija izskatās uzdevuma ceļveža “burbulī”.
 
-[![Piezīmju anotācijas izskats uzdevumu rokasgrāmatā.](./media/screen4.png)](./media/screen4.png)
+[![ Piezīmju anotācijas izskats uzdevumu rokasgrāmatā.](./media/screen4.png)](./media/screen4.png)
 
 -   **Informācijas darbība**: Šāda tipa anotācijas tiek izveidotas, ar peles labo pogu noklikšķinot uz vadīklas vai jebkurā vietā formā &lt; **Uzdevumu reģistrētājs** &lt; **Pievienot informācijas darbību.** Informācijas darbības tiek parādītas kā numurētas darbības jebkurā vietā, kur tās ievietojat, pat ja UI netika ierakstīta nekāda darbība. Varat pievienot formas līmeņa informācijas darbību vai ar vadīklu saistītu informācijas darbību. Ja informācijas darbība ir saistīta ar kādu formu, uzdevumu ceļveža atskaņošanas laikā uzdevumu ceļveža “burbulis” kļūst redzams kaut kur šajā formā, bez rādītāja. Ja informācijas darbība ir saistīta ar kādu vadīklu, uzdevuma ceļveža atskaņošanas laikā uzdevuma ceļveža “burbulis” norāda uz attiecīgo vadīklu. Palīdzības rūtī informācijas darbības anotācija tiek rādīta kā numurēta darbība ar jebkādu jūsu ievadīto tekstu. Informācijas darbības varat izmantot, lai lietotāju sagatavotu nākamajām darbībām, lai aprakstītu darbības, ko nepieciešams izpildīt ārpus programmas, vai lai atsauktos uz citiem ierakstiem (lai gan anotācijās nevar izveidot hipersaites).
 

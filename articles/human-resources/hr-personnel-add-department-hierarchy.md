@@ -1,8 +1,8 @@
 ---
 title: Nodaļu izveide un ietveršana nodaļu hierarhijā
-description: Nodaļa ir pārvaldības struktūrvienība, kas pārstāv organizācijas kategoriju vai funkcionālo apgabalu. Nodaļa ir atbildīga par noteiktu organizācijas jomu, piemēram, pārdošanu, uzskaiti vai personāla vadību. Nodaļas var izmantot, lai ziņotu par funkcionālām jomām. Nodaļām var būt peļņas un zaudējumu atbildība.
-author: andreabichsel
-ms.date: 06/20/2017
+description: Nodaļa ir pārvaldības struktūrvienība, kas pārstāv organizācijas kategoriju vai funkcionālo apgabalu. Nodaļa ir atbildīga par noteiktu organizācijas jomu, piemēram, pārdošanu, uzskaiti vai personāla vadību.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 63213
 ms.assetid: 5dbc62fc-0184-4c0e-9856-e735fc68799e
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1fa6d2b18a1b92236a153e453560430cc0d4c1c6e2cde0431c1e1cc68128bd0f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 2caa4f1e7be4be54766921a9e38c97d22b8200c7
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727021"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731616"
 ---
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>Nodaļu izveide un ietveršana nodaļu hierarhijā
 
@@ -32,15 +32,15 @@ Nodaļu var ietvert izmaksu centru grupā. Pozīcijas var piešķirt nodaļām. 
 
 | Lauks               | Apraksts                                                                                                                                                                                                       |
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nosaukums                | Ievadiet struktūrvienības nosaukumu.                                                                                                                                                                                  |
-| Nodaļas numurs   | Noklusējuma vērtība var tikt automātiski ģenerēta, ja numuru sērijas kods ir piešķirts atsaucei **Organizācijas numurs** lapā **Numuru sērijas**.                                                 |
-| Meklēšanas nosaukums         | Ievadiet nosaukumu vai akronīmu, ko var izmantot nodaļas meklēšanai.                                                                                                                                            |
-| Atgādne                | Ievadiet papildinformāciju šeit.                                                                                                                                                                            |
-| Hierarhijā        | Atzīmētā izvēles rūtiņa nozīmē, ka nodaļa ir iekļauta nodaļu hierarhijā. Informāciju par to, kā pievienot nodaļu nodaļu hierarhijai, skatiet tālāk šajā rakstā. |
-| Universālās datu numerācijas sistēmas (DUNS) numurs         | DUNS nozīmē universālo datu numerācijas sistēmu. Tas ir deviņu ciparu numurs, ko piešķir Dun & Bradstreet.                                                                                                     |
-| Vadītājs             | Ievadiet personu, kas pārvalda nodaļu.                                                                                                                                                                    |
-| Adreses           | Pievienojiet nodaļai adreses informāciju. Piemēram, pievienojiet pasta adresi ēkai, kas atrodas struktūrvienība.                                                                          |
-| Kontaktinformācija | Pievienojiet nodaļai kontaktinformāciju. Piemēram, pievienojiet struktūrvienības informācijas nodaļas tālruņa numuru.                                                                                           |
+| **Nosaukums**                | Ievadiet struktūrvienības nosaukumu.                                                                                                                                                                                  |
+| **Nodaļas numurs**   | Noklusējuma vērtība var tikt automātiski ģenerēta, ja numuru sērijas kods ir piešķirts atsaucei **Organizācijas numurs** lapā **Numuru sērijas**.                                                 |
+| **Meklēšanas nosaukums**         | Ievadiet nosaukumu vai akronīmu, ko var izmantot nodaļas meklēšanai.                                                                                                                                            |
+| **Atgādne**                | Ievadiet papildinformāciju šeit.                                                                                                                                                                            |
+| **Hierarhijā**        | Atzīmētā izvēles rūtiņa nozīmē, ka nodaļa ir iekļauta nodaļu hierarhijā. Informāciju par to, kā pievienot nodaļu nodaļu hierarhijai, skatiet tālāk šajā rakstā. |
+| **DUNS numurs**         | DUNS nozīmē universālo datu numerācijas sistēmu. Tas ir deviņu ciparu numurs, ko piešķir Dun & Bradstreet.                                                                                                     |
+| **Vadītājs**             | Ievadiet personu, kas pārvalda nodaļu.                                                                                                                                                                    |
+| **Adreses**           | Pievienojiet nodaļai adreses informāciju. Piemēram, pievienojiet pasta adresi ēkai, kas atrodas struktūrvienība.                                                                          |
+| **Kontaktinformācija** | Pievienojiet nodaļai kontaktinformāciju. Piemēram, pievienojiet struktūrvienības informācijas nodaļas tālruņa numuru.                                                                                           |
 
 Lai pievienotu nodaļu nodaļu hierarhijai, rīkojieties šādi.
 

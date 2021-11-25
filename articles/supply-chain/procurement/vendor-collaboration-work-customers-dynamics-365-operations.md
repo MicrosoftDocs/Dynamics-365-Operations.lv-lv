@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 024bbaad45f320b8c82b20a52ced05322371e337
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 9ad7f116f979d571a5e34eee67beb7218a271522
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575391"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777625"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Kreditoru sadarbība ar debitoriem
 
@@ -102,7 +102,7 @@ Personas, kas strādā publiskajā sektorā, var redzēt publiski pieejamos atv�
 
     Ja esat uzaicināts izteikt piedāvājumu, to pašu piedāvājuma pieprasījumu varat atrast lapā **Jauni aicinājumi izteikt piedāvājumus**. Reizēm, iespējams, vēlaties izteikt piedāvājumu par kādu atvērtu piedāvājuma pieprasījumu, bet neesat uzaicināts izteikt piedāvājumus par to. Tādā gadījumā, iespējams, varat uzaicināt pats sevi, ja vien debitors šī piedāvājuma pieprasījuma gadījumā ir aktivizējis pašuzaicināšanu.
 
-    Uzlabojiet saites **Atvērtie publicētie piedāvājumu pieprasījumi** pieejamību, ieslēdzot līdzekli **Parādīt saiti "Atvērtie publicētie piedāvājuma pieprasījumi" kā elementu**. Šis līdzeklis konvertē saiti uz elementu un novieto to redzamā vietā, lai to varētu to viegli atrast.
+    Uzlabojiet saites **Atvērtie publicētie piedāvājumu pieprasījumi** pieejamību, ieslēdzot līdzekli **Parādīt saiti "Atvērtie publicētie piedāvājuma pieprasījumi" kā elementu**. Šis līdzeklis konvertē saiti uz elementu un novieto to redzamā vietā, lai to varētu to viegli atrast. (No Piegādes ķēdes pārvaldības versijas 10.0.21, šī funkcija ir ieslēgta pēc noklusējuma.)
 
 - Atlasiet saiti **Slēgtie publicētie piedāvājumu pieprasījumi**, lai redzētu sarakstu ar slēgtajiem piedāvājumu pieprasījumiem, kas ir publiski pieejami. Slēgts piedāvājuma pieprasījums ir piedāvājuma pieprasījums, kas ir beidzies. Piedāvājuma pieprasījuma beigu datums un laiks ir atrodami piedāvājuma pieprasījuma virsrakstā.
 

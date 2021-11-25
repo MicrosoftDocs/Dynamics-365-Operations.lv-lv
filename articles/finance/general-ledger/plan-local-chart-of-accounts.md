@@ -1,7 +1,7 @@
 ---
 title: Sava vietējā kontu plāna plānošana
 description: Šajā tēmā sniegta informācija, kas palīdzēs jums plānot kontu plānu, kad jūsu organizācijai ir prasības pret likumā noteiktajām/lokālajām prasībām.
-author: veneva
+author: VeselinaE
 ms.date: 10/07/2021
 ms.topic: article
 ms.prod: ''
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: veneva
 ms.search.validFrom: 10/07/2021
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a99e4ef3355188f574930c1d885e53fcb3134ad1
-ms.sourcegitcommit: c4500b626667185643b3a2e7fc3a004d42198d07
-ms.translationtype: HT
+ms.openlocfilehash: e224a2e24b4ba293c953c6c883307038128e2f04
+ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7725179"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798300"
 ---
 # <a name="plan-your-local-chart-of-accounts"></a>Sava vietējā kontu plāna plānošana
 
@@ -54,7 +54,7 @@ Ja jūsu organizācijai nepieciešams, lai juridiska persona izmantotu vietējo 
 
 Organizācijas struktūra un pārskata struktūra nosaka izmantoto opciju.
 
-[![Diagramma, kas parāda, kā organizācijas struktūra nosaka, vai izmantot globālo vai lokālo kontu plānu](./media/local-chart-of-accounts-diagram.png)](./media/local-chart-of-accounts-diagram.png)
+[![ Diagramma, kas parāda, kā organizācijas struktūra nosaka, vai izmantot globālo vai lokālo kontu plānu](./media/local-chart-of-accounts-diagram.png)](./media/local-chart-of-accounts-diagram.png)
 
 Ja juridiskajai personai ir piešķirts globālais kontu plāns, lai nodrošinātu vietējo pārskatu sniegšanas prasību izpildi, ir pieejamas šādas opcijas:
 

@@ -2,7 +2,7 @@
 title: ER izteiksmju noformēšana programmas klases metožu izsaukšanai
 description: Šajā tēmā sniegta informācija par to, kā atkārtoti izmantot esošo programmas loģiku elektronisko pārskatu veidošanas (ER) konfigurācijās, izsaucot nepieciešamās programmas klašu metodes ER izteiksmēs.
 author: NickSelin
-ms.date: 12/12/2017
+ms.date: 11/02/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -12,149 +12,180 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 78e7596760c4707578e2458a93631b571a7bfec86b9c51d877502ba04ed843a2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 81fae8d3603677afd7dd4b09b9073805f73582b4
+ms.sourcegitcommit: e6b4844a71fbb9faa826852196197c65c5a0396f
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726289"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7751710"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>ER izteiksmju noformēšana programmas klases metožu izsaukšanai
 
 [!include [banner](../../includes/banner.md)]
 
-Šajos norādījumos sniegta informācija par to, kā atkārtoti izmantot esošo programmas loģiku elektronisko pārskatu veidošanas (ER) konfigurācijās, izsaucot nepieciešamās programmas klašu metodes ER izteiksmēs. Izsaukšanas klašu argumentu vērtības var definēt dinamiski izpildlaikā: piemēram, pamatojoties uz informāciju parsēšanas dokumentā, lai nodrošinātu tās pareizību. Šajā rokasgrāmatā jūs izveidosiet nepieciešamās ER konfigurācijas parauga uzņēmumam “Litware, Inc.”. Šī procedūra ir paredzēta lietotājiem, kuriem ir piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma. 
+Šajā tēmā aprakstīts, kā atkārtoti izmantot esošo programmas loģiku Elektronisko pārskatu (ER) konfigurācijās, izsaucot nepieciešamās programmas klašu [...](../general-electronic-reporting.md) metodes ER izteiksmēs. Klašu izsaukšanas argumentu vērtības var dinamiski definēt izpildlaikā. Piemēram, vērtības var būt balstītas uz informāciju parsēšanas dokumentā, lai nodrošinātu tās pareizību.
 
-Šīs darbības var veikt, izmantojot jebkuru datu kopu. Ir jāveic arī tālāk norādītā faila lokāla lejupielāde un saglabāšana: (https://go.microsoft.com/fwlink/?linkid=862266): SampleIncomingMessage.txt.
+Šajā tēmā jūs izstrādāsiet procesu, kas parsē ienākošos bankas izrakstus pieteikuma datu atjaunināšanai. Ienākošos bankas izrakstus saņemsit kā teksta (.txt) failus, kuros ir starptautiskais bankas konta numura (IBAN) kods. Kā daļu no bankas izrakstu importēšanas procesa, jums ir jāapstiprina IBAN koda pareizību, izmantojot jau pieejamo loģiku.
 
-Lai izpildītu tālāk norādītās darbības, vispirms ir jāizpilda darbības, kas aprakstītas procedūrā "ER Konfigurācijas nodrošinātāja izveide un atzīmēšana par aktīvu".
+## <a name="prerequisites"></a>Priekšnosacījumi
 
-1. Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.
-    * Pārliecinieties, ka konfigurācijas nodrošinātājs parauga uzņēmumam “Litware, Inc.” ir pieejams un ir atzīmēts kā aktīvs. Ja neredzat šo konfigurācijas nodrošinātāju, jums vispirms ir jāizpilda darbības, kas aprakstītas procedūrā "Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu".   
-    * Jūs veidojat procesu ienākošo bankas izrakstu parsēšanai pieteikumu datu atjaunināšanai. Jūs saņemsit ienākošos bankas izrakstus kā TXT failus, kas satur IBAN kodus. Bankas izrakstu importēšanas procesa ietvaros ir jāpārbauda šo IBAN kodu pareizība, izmantojot loģiku, kas jau ir pieejama.   
+Procedūras šajā tēmā ir paredzētas lietotājiem, kuriem ir piešķirta Sistēmas administratora **vai Elektronisko** pārskatu **izstrādātāja** loma.
+
+Procedūras var veikt, izmantojot jebkādu datu kopu.
+
+Lai tos pabeigtu, lejupielādējiet un saglabājiet šādu failu: [SampleIncomingMessage.txt](https://download.microsoft.com/download/8/0/a/80adbc89-f23c-46d9-9241-e0f19125c04b/SampleIncomingMessage.txt).
+
+Šajā tēmā izveidojat nepieciešamās ER konfigurācijas uzņēmumam Litware, Inc. sample. Tāpēc pirms šīs tēmas procedūru veikšanas ir jāveic šie soļi.
+
+1. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
+2. Lapā **Lokalizācijas konfigurācijas** pārbaudiet, vai Litware, Inc. parauga uzņēmuma konfigurācijas nodrošinātājs ir pieejams un atzīmēts **·** kā aktīvs. Ja šī konfigurācijas nodrošinātāja nav redzams, vispirms ir jāveic darbības, kas jāveic, izveidojot konfigurācijas [nodrošinātājus, un jāatzīmē tie kā](er-configuration-provider-mark-it-active-2016-11.md) aktīvi.
 
 ## <a name="import-a-new-er-model-configuration"></a>Importēt jaunu ER modeļa konfigurāciju
-1. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-    * Atlasiet elementu Microsoft nodrošinātājs.  
-2. Noklikšķiniet uz Repozitoriji.
-3. Noklikšķiniet uz Rādīt filtrus.
-4. Pievienojiet filtra lauku 'Veida nosaukums'. Laukā Nosaukums ievadiet vērtību "resursi", atlasiet filtra operatoru "satur" un pēc tam noklikšķiniet uz Lietot.
-5. Noklikšķiniet uz Atvērt.
-6. Koka struktūrā atlasiet “Maksājuma modelis”.
-    * Ja poga Importēt kopsavilkuma cilnē Versijas nav iespējota, ER konfigurācijas 'Maksājuma modelis' 1. versija jau ir importēta. Pārējās šī apakšuzdevuma darbības var izlaist.   
-7. Noklikšķiniet uz Importēt.
-8. Noklikšķiniet uz Jā.
-9. Aizvērt lapu.
-10. Aizvērt lapu.
+
+1. Lapā **Lokalizācijas konfigurācijas** sadaļā Konfigurācijas **nodrošinātāji atlasiet Microsoft konfigurācijas** nodrošinātāja **·** elementu.
+2. Atlasiet **Repozitoriji**.
+3. Lapā **Lokalizācijas repozitoriju iestatījumi** atlasiet Rādīt **·** filtrus.
+4. Lai atlasītu globālo repozitorija ierakstu, pievienojiet **nosaukuma** filtra lauku.
+5. Laukā **Nosaukums** ievadiet **·** Globāls. Pēc tam atlasiet **ietver** filtra operatoru.
+6. Atlasiet **Lietot**.
+7. Atlasiet **[Atvērt,](../er-download-configurations-global-repo.md#open-configurations-repository)** lai atlasītajā repozitorijā pārskatītu ER konfigurāciju sarakstu.
+8. Konfigurācijas **·** repozitorija lapas konfigurācijas kokā izvēlieties **Maksājuma** modelis.
+9. Ja kopsavilkuma **cilnē Versijas ir pieejama poga** **·** Importēt, atlasiet to un pēc tam atlasiet **·** Jā.
+
+    Ja **poga** Importēt nav pieejama, jūs jau esat importējis atlasīto maksājumu modeļa **·** ER konfigurācijas versiju.
+
+10. Aizveriet konfigurācijas **·** repozitorija lapu un pēc tam **aizveriet lapu Lokalizācijas atkārtotas** darbības.
 
 ## <a name="add-a-new-er-format-configuration"></a>Jaunas ER formāta konfigurācijas pievienošana
-1. Noklikšķiniet uz Pārskatu veidošanas konfigurācijas.
-    * Pievienojiet jaunu ER formātu, lai parsētu ienākošos bankas izrakstus TXT formātā.  
-2. Koka struktūrā atlasiet “Maksājuma modelis”.
-3. Noklikšķiniet uz Izveidot konfigurāciju, lai atvērtu dialoglodziņa izvēlni.
-4. Laukā Jauns ievadiet "Formāts pamatojoties uz datu modeli PaymentModel".
-5. Laukā Nosaukums ierakstiet “Bankas izraksta importa formāts (paraugs)”.
-    * Bankas izraksta importa formāts (paraugs)  
-6. Laukā Atbalsta datu importēšanu atlasiet vērtību Jā.
-7. Klikšķiniet Izveidot konfigurāciju.
 
-## <a name="design-the-er-format-configuration---format"></a>Noformēt ER formāta konfigurāciju — formāts
-1. Noklikšķiniet uz Veidotājs.
-    * Izveidotais formāts pārstāv paredzamo ārējā faila struktūru TXT formātā.  
-2. Noklikšķiniet uz Pievienot sakni, lai atvērtu dialoglodziņa izvēlni.
-3. Koka struktūrā atlasiet 'Text\Sequence'.
-4. Laukā Nosaukums ierakstiet 'Sakne'.
-    * Sakne  
-5. Laukā Īpašas rakstzīmes atlasiet 'New line - Windows (CR LF)'.
-    * Laukā 'Īpašas rakstzīmes' ir atlasīta opcija 'Jauna rinda — Windows (CR LF)'. Pamatojoties uz šo iestatījumu, katra rinda parsēšanas failā tiek uzskatīta par atsevišķu ierakstu.  
-6. Noklikšķiniet uz OK.
-7. Noklikšķiniet uz Pievienot, lai atvērtu nolaižamo dialoglodziņu.
-8. Koka struktūrā atlasiet 'Text\Sequence'.
-9. Laukā Nosaukums ierakstiet “Rindas”.
-    * Rindas  
-10. Laukā Daudzkārtīgums atlasiet "One many".
-    * Laukā 'Daudzkārtīgums' ir atlasīta opcija 'Viens — daudzi'. Pamatojoties uz šo iestatījumu, ir paredzams, ka parsēšanas failā būs norādīta vismaz viena rinda.  
-11. Noklikšķiniet uz OK.
-12. Kokā atlasiet “Sakne\Rindas”.
-13. Noklikšķiniet uz Pievienot secību.
-14. Laukā Nosaukums ierakstiet “Lauki”.
-    * Lauki  
-15. Laukā Daudzkārtīgums atlasiet "Exactly one".
-16. Noklikšķiniet uz OK.
-17. Kokā atlasiet “Sakne\Rindas\Lauki”.
-18. Noklikšķiniet uz Pievienot, lai atvērtu nolaižamo dialoglodziņu.
-19. Kokā atlasiet elementu “Teksts\Virkne”.
-20. Laukā Nosaukums ierakstiet "IBAN".
-    * IBAN  
-21. Noklikšķiniet uz OK.
-    * Tas ir konfigurēts, lai katra rinda parsēšanas failā saturētu vienīgo IBAN kodu.  
-22. Noklikšķiniet uz Saglabāt.
+Pievienojiet jaunu ER formātu, lai parsētu ienākošos bankas izrakstus TXT formātā.
 
-## <a name="design-the-er-format-configuration--mapping-to-data-model"></a>Noformēt ER formāta konfigurāciju — kartēšana uz datu modeli
-1. Noklikšķiniet uz Kartēt formātu uz modeli.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Definīcija ierakstiet “BankToCustomerDebitCreditNotificationInitiation”.
-    * BankToCustomerDebitCreditNotificationInitiation  
-4. ResolveChanges vienumam Definīcija.
-5. Laukā Nosaukums ierakstiet “Kartēšana uz datu modeli”.
-    * Kartēšana uz datu modeli  
-6. Noklikšķiniet uz Saglabāt.
-7. Noklikšķiniet uz Veidotājs.
-8. Koka struktūrā atlasiet 'Dynamics 365 for Operations\Klase.
-9. Noklikšķiniet uz Pievienot sakni.
-    * Pievienojiet jaunu datu avotu, lai izsauktu esošo programmas loģiku IBAN kodu pārbaudei.  
-10. Laukā Nosaukums ierakstiet “check_codes”.
-    * check_codes  
-11. Laukā Klase ierakstiet “ISO7064”.
-    * ISO7064  
-12. Noklikšķiniet uz OK.
-13. Kokā izvērsiet "format".
-14. Kokā izvērsiet “formāts\Sakne: Secība(Sakne)”.
-15. Kokā atlasiet “formāts\Sakne: Secība(Sakne)\Rindas: Secība 1..* (Rindas)”.
-16. Noklikšķiniet uz Saistīt.
-17. Kokā izvērsiet “formāts\Sakne: Secība(Sakne)\Rindas: Secība 1..* (Rindas)”.
-18. Kokā izvērsiet “formāts\Sakne: Secība(Sakne)\Rindas: Secība 1..* (Rindas)\Lauki: Secība 1..1 (Lauki)”.
-19. Kokā atlasiet “formāts\Sakne: Secība(Sakne)\Rindas: Secība 1..* (Rindas)\Lauki: Secība 1..1 (Lauki)\IBAN: String(IBAN)”.
-20. Kokā izvērsiet “Maksājumi = format.Root.Rows”.
-21. Kokā izvērsiet “Maksājumi = format.Root.Rows\Kreditora konts(CreditorAccount)“.
-22. Kokā izvērsiet “Maksājumi = format.Root.Rows\Kreditora konts(CreditorAccount)\Identifikācija“.
-23. Kokā atlasiet “Maksājumi = format.Root.Rows\Kreditora konts(CreditorAccount)\Identifikācija\IBAN“.
-24. Noklikšķiniet uz Saistīt.
-25. Noklikšķiniet uz cilnes Validācijas.
-26. Noklikšķiniet uz Jauns.
-    * Pievienot jaunu pārbaudes kārtulu, kas parāda kļūdu jebkurai parsēšanas faila rindai, kurā ir nederīgs IBAN kods.  
-27. Noklikšķiniet uz Rediģēt nosacījumu.
-28. Kokā izvērsiet "check_codes".
-29. Kokā atlasiet “check_codes\verifyMOD1271_36”.
-30. Noklikšķiniet uz Pievienot datu avotu.
-31. Laukā Formula ievadiet “check_codes.verifyMOD1271_36(”.
-    * check_codes.verifyMOD1271_36(  
-32. Kokā izvērsiet "format".
-33. Kokā izvērsiet “formāts\Sakne: Secība(Sakne)”.
-34. Kokā izvērsiet “formāts\Sakne: Secība(Sakne)\Rindas: Secība 1..* (Rindas)”.
-35. Kokā izvērsiet “formāts\Sakne: Secība(Sakne)\Rindas: Secība 1..* (Rindas)\Lauki: Secība 1..1 (Lauki)”.
-36. Kokā atlasiet “formāts\Sakne: Secība(Sakne)\Rindas: Secība 1..* (Rindas)\Lauki: Secība 1..1 (Lauki)\IBAN: String(IBAN)”.
-37. Noklikšķiniet uz Pievienot datu avotu.
-38. Laukā Formula ievadiet “check_codes.verifyMOD1271_36(format.Root.Rows.Fields.IBAN)”.
-    * check_codes.verifyMOD1271_36(format.Root.Rows.Fields.IBAN)  
-39. Noklikšķiniet uz Saglabāt.
-40. Aizvērt lapu.
-    * Pārbaudes nosacījums ir konfigurēts, lai atgrieztu vērtību FALSE jebkuram nederīgam IBAN kodam, izsaucot programmas klases 'ISO7064' esošo metodi 'verifyMOD1271_36'. Ņemiet vērā, ka IBAN koda vērtība tiek definēta dinamiski izpildlaikā kā izsaukšanas metodes arguments, pamatojoties uz parsēšanas TXT faila saturu.   
-41. Noklikšķiniet uz Rediģēt ziņojumu.
-42. Laukā Formula ievadiet “CONCATENATE("Invalid IBAN code has been found: ", format.Root.Rows.Fields.IBAN)”.
-    * CONCATENATE("Invalid IBAN code has been found: ", format.Root.Rows.Fields.IBAN)”.  
-43. Noklikšķiniet uz Saglabāt.
-44. Aizvērt lapu.
-45. Noklikšķiniet uz Saglabāt.
-46. Aizvērt lapu.
+1. Lapā **Lokalizācijas** konfigurācijas atlasiet elementu Pārskatu **·** konfigurācijas.
+2. Konfigurācijas **lapas** konfigurācijas kokā kreisajā rūtī atlasiet **Maksājumu** modelis.
+3. Atlasiet **Izveidot konfigurāciju**. 
+4. Nolaižamajā dialoglodziņā veiciet tālāk norādītās darbības.
+
+    1. Laukā **Jauns** ievadiet **Format based on data model PaymentModel**.
+    2. Laukā **Nosaukums** ievadiet bankas **izraksta importa formātu (paraugs).**
+    3. Laukā **Atbalsta datu** importēšanu atlasiet **·** Jā.
+    4. Atlasiet **Izveidot** konfigurāciju, lai pabeigtu konfigurācijas izveidi.
+
+## <a name="design-the-er-format-configuration--format"></a>ER formāta konfigurācijas dizains — formāts
+
+Veidot ER formātu, kas parāda ārējā faila paredzamo struktūru TXT formātā.
+
+1. Pievienotajā **bankas izraksta importa formāta** (parauga) formāta konfigurācijā atlasiet **·** Veidotājs.
+2. Formāta **veidotāja** lapas formāta struktūras kokā kreisajā rūtī atlasiet Pievienot **·** sakni.
+3. Nolaižamajā dialoglodziņā veiciet tālāk norādītās darbības:
+
+    1. Koka struktūrā atlasiet teksta secību, **\\ lai pievienotu** **secības formāta** komponentu.
+    2. Laukā **Nosaukums** ievadiet **·** Sakne.
+    3. Laukā **Īpašās** rakstzīmes atlasiet Jauna rinda - Windows **(CR LF)**. Pamatojoties uz šo iestatījumu, katra parsēšanas faila rinda tiks uzskatīta par atsevišķu ierakstu.
+    4. Atlasiet **Labi**.
+
+4. Atlasiet **Pievienot**.
+5. Nolaižamajā dialoglodziņā veiciet tālāk norādītās darbības:
+
+    1. Koka struktūrā atlasiet **teksta \\** secību.
+    2. Laukā **·** Nosaukums ievadiet **Rindas**.
+    3. Laukā **Daudzkārtīgums** atlasiet **One many**. Pamatojoties uz šo iestatījumu, vismaz viena rinda tiks gaidīta parsēšanas failā.
+    4. Atlasiet **Labi**.
+
+6. Koka struktūrā atlasiet saknes **rindas un pēc tam atlasiet Pievienot \\** **secību**.
+7. Nolaižamajā dialoglodziņā veiciet tālāk norādītās darbības:
+
+    1. Laukā **Nosaukums** ievadiet **·** Lauki.
+    2. Laukā **·** Daudzkārtība atlasiet Tieši **·** vienu.
+    3. Atlasiet **Labi**.
+
+8. Kokā atlasiet Saknes **rindu lauki un pēc tam atlasiet \\\\** **·** Pievienot.
+9. Nolaižamajā dialoglodziņā veiciet tālāk norādītās darbības:
+
+    1. Koka struktūrā atlasiet **teksta \\** virkni.
+    2. Laukā **·** Nosaukums ievadiet **·** IBAN.
+    3. Atlasiet **Labi**.
+
+10. Atlasiet **Saglabāt**.
+
+Konfigurācija tagad ir iestatīta tā, lai katra rinda parsēšanas failā satur tikai IBAN kodu.
+
+![Bankas izraksta importa formāta (parauga) formāta konfigurācija formāta veidotāja lapā.](../media/design-expressions-app-class-er-01.png)
+
+## <a name="design-the-er-format-configuration--mapping-to-a-data-model"></a>ER formāta konfigurācijas dizains — kartēšana uz datu modeli
+
+Izstrādā ER formāta kartēšanu, kas izmanto informāciju no parsēšanas faila, lai aizpildītu datu modeli.
+
+1. Formāta **veidotāja** lapā Darbību rūtī atlasiet Kartēt formātu **·** modelim.
+2. Lapas **Modelis datu avota** kartēšanai darbību rūtī atlasiet **·** Jauns.
+3. Laukā **Definīcija** atlasiet **BankToCustomerDebitCreditNotificationInitiation.**
+4. Laukā **Nosaukums** ievadiet **Kartēšana uz datu** modeli.
+5. Atlasiet **Saglabāt**.
+6. Atlasiet **Noformētājs**.
+7. Modeļu **kartēšanas** veidotāja lapā datu **avota tipu** kokā atlasiet **Dynamics 365 for Operations\\** Klase.
+8. Sadaļā Datu avoti atlasiet Pievienot sakni, lai pievienotu datu avotu, kas izsauc esošo programmas **·** **·** loģiku IBAN kodu validēšanai.
+9. Nolaižamajā dialoglodziņā veiciet tālāk norādītās darbības:
+
+    1. Laukā **Nosaukums** ievadiet Čeku **\_** kodus.
+    2. Laukā **·** Klase ievadiet vai atlasiet **ISO7064.**
+    3. Atlasiet **Labi**.
+
+10. Datu **avota tipu** kokā rīkojieties šādi:
+
+    1. Izvērsiet **formāta** datu avotu.
+    2. Izvērst **formāta \\ sakni:** Sequence(Root).
+    3. Izvērst formāta \\ sakni: \\ Secības(saknes) rindas: 1. secība \* (rindas)
+    4. Izvērst **formāta \\ sakni: Secības(saknes) \\ rindas: 1. \* secības (rindas) \\ lauki: 1..1. secība (lauki)**
+
+11. Datu **modeļa** kokā rīkojieties šādi:
+
+    1. Izvērsiet **datu** modeļa lauku Maksājumi.
+    2. Izvērsiet **maksājumu kreditora kontu \\ (CreditorAccount)**.
+    3. Izvērsiet **maksājumu kreditora konta \\ (CreditorAccount) \\** identifikāciju.
+    4. Izvērsiet **maksājumu kreditora konta \\ (CreditorAccount) \\ identifikācijas \\** IBAN.
+
+12. Sekojiet šiem soļiem, lai saistītu konfigurētā formāta komponentus datu modeļa laukos:
+
+    1. Izvēlieties formāta \\ sakni: Sequence(Root) \\ rindas: 1. secība \* (rindas) .
+    2. Atlasiet **·** maksājumus.
+    3. Atlasiet **Saistīt**. Pamatojoties uz šo iestatījumu, katra parsēšanas faila rinda tiks uzskatīta par vienu maksājumu.
+    4. Atlasiet **formāta \\ sakni: Secības(saknes) \\ rindas: \* 1. secības (rindas) \\ lauki: 1. secība..1 (lauki) \\ IBAN: String(IBAN)**.
+    5. Atlasiet **maksājumu saņēmēja konta \\ (CreditorAccount) \\ identifikācijas \\** IBAN.
+    6. Atlasiet **Saistīt**. Pamatojoties uz šo iestatījumu, **datu modeļa IBAN** lauks tiks aizpildīts ar vērtību no parsēšanas faila.
+
+    ![Formāta komponentu saistīšana ar datu modeļa laukiem modeļu kartēšanas veidotāja lapā.](../media/design-expressions-app-class-er-02.png)
+
+13. Cilnē Pārbaudes izpildiet šos soļus, lai pievienotu apstiprināšanas noteikumu, kas parāda kļūdas ziņojumu jebkurai rindai parsēšanas failā, kas satur **·**[...](../general-electronic-reporting-formula-designer.md#Validation) nederīgu IBAN kodu:
+
+    1. Atlasiet **Jauns un pēc tam atlasiet Rediģēt** **·** nosacījumu.
+    2. Formulas veidotāja lapā datu avota kokā izvērsiet pārbaudes kodu datu avotu, kas pārstāv **·** **·** **\_** **ISO7064 programmas klasi,** lai skatītu šīs klases pieejamās metodes.
+    3. Atlasiet **čeku \_\\ kodus verifyMOD1271 \_ 36.**
+    4. Atlasiet **Pievienot datu avotu**.
+    5. Formulas **·** laukā ievadiet šādu [...](../general-electronic-reporting-formula-designer.md#Binding) izteiksmi: **Pārbaudiet \_ kodus.verifyMOD1271 \_ 36(formāts. Root.Rows.Fields.IBAN).**
+    6. Atlasiet **Saglabāt** un pēc tam aizveriet lapu.
+    7. Atlasiet **Labot** ziņojumu.
+    8. Formulas veidotāja lapas laukā Formula ievadiet **·** **·** **CONCATENATE("Atrasts nederīgs IBAN kods: &nbsp; ", formāts. Root.Rows.Fields.IBAN).**
+    9. Atlasiet **Saglabāt** un pēc tam aizveriet lapu.
+
+    Pamatojoties uz šiem iestatījumiem, pārbaudes nosacījums atgriezīs FALSE par jebkuru nederīgu IBAN kodu, izsaucot *[...](../er-formula-supported-data-types-primitive.md#boolean)* esošo **\_** **ISO7064 programmas klases metodi VerifyMOD1271** 36. Ievērojiet, ka IBAN koda vērtība izpildlaikā ir dinamiski definēta kā izsaukšanas metodes arguments, balstoties uz parsēšanas teksta faila saturu.
+
+    ![Pārbaudes noteikums Modeļu kartēšanas veidotāja lapā.](../media/design-expressions-app-class-er-03.png)
+
+14. Atlasiet **Saglabāt**.
+15. Aizveriet modeļu **kartēšanas veidotāja** lapu un pēc tam aizveriet lapu Modelis ar datu avota **·** kartēšanu.
 
 ## <a name="run-the-format-mapping"></a>Formāta kartēšanas palaišana
-Testēšanas nolūkos izpildiet formāta kartēšanu, izmantojot lejupielādēto failu SampleIncomingMessage.txt. Ģenerētajā izvadē ir ietverti dati, kuri tiks importēti no atlasītā TXT faila un reālās importēšanas laikā aizpildīti pielāgotajā datu modelī.   
-1. Noklikšķiniet uz Palaist.
-    * Noklikšķiniet uz Pārlūkot un dodieties uz iepriekš lejupielādēto failu SampleIncomingMessage.txt.  
-2. Noklikšķiniet uz OK.
-    * Pārskatiet izvadi XML formātā, kas parāda no atlasītā faila importētos un uz datu modeli pārnestos datus. Ņemiet vērā, ka tika apstrādātas tikai 3 importētā TXT faila rindas. IBAN kods 4. rindā, kas nav derīgs, tika izlaists, un informācijas žurnālā ir reģistrēts kļūdas ziņojums.  
 
+Testēšanas nolūkos palaidiet formāta kartēšanu, izmantojot iepriekš lejupielādēto SampleIncomingMessage.txt failu. Ģenerētais rezultāts ietvers datus, kas tiek importēti no atlasītā teksta faila un ieejot pielāgotajā datu modelī reālā importa laikā.
 
+1. Lapā Modelis **datu avota** kartēšanai atlasiet **·** Palaist.
+2. Lapā Elektroniskā pārskata parametri atlasiet Pārlūkot, pārlūkojiet **·** **·** **SampleIncomingMessage.txt failu, kuru** lejupielādējāt, un atlasiet to.
+3. Atlasiet **Labi**.
+4. Ņemiet **vērā, ka modelis datu avota** kartēšanas lapā parāda kļūdas ziņojumu par nederīgu IBAN kodu.
+
+    ![Formāta kartēšanas rezultāts lapā Modelis un Datu avota kartēšana.](../media/design-expressions-app-class-er-04.png)
+
+5. Pārskatiet izvadi XML formātā, kas parāda no atlasītā faila importētos un uz datu modeli pārnestos datus. Ņemiet vērā, ka tikai trīs importētā teksta faila rindas tika apstrādātas bez kļūdām. IBAN kods tiešsaistē 4 nav derīgs un tika izlaists.
+
+    ![XML izvade.](../media/design-expressions-app-class-er-05.png)
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

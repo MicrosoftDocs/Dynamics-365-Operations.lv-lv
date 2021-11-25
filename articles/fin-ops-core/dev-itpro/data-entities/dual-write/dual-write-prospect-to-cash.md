@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 01/07/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 03bfb5f97b332abb7f34e179d7b294ed2228ab474825a76271f42cc60971a645
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 7c53bcd1084d89b59d0f6b2674a85d7c3481a9bf
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716098"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781795"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Potenciālā klienta-naudas duālais ieraksts
 
@@ -96,7 +96,7 @@ Ja sinhronizējat no Supply Chain Management uz Sales tiek iegūts šāds rezult
 Tabulai **Pasūtījums** ir pievienotas jaunas kolonnas, kas tiek rādītas lapā. Lielākā daļa šo kolonnu parādās programmas Sales cilnē **Integrēšana**. Lai uzzinātu vairāk par to, kā statusa kolonnas tiek kartētas, skatiet [Kartēšanas iestatīšana pārdošanas pasūtījuma statusa kolonnām](sales-status-map.md).
 
 + Pogas **Izveidot rēķinu** un **Atcelt pasūtījumu** lapā **Pārdošanas pasūtījumā** ir slēptas programmā Sales.
-+ Vērtība **Pārdošanas pasūtījuma statuss** joprojām būs **Aktīvs**, lai nodrošinātu, ka Supply Chain Management var nodot veiktās izmaiņas uz pārdošanas pasūtījumu programmā Sales. Lai kontrolētu šo darbību, iestatiet lauka **Statecode \[statuss\]** noklusējuma vērtību **Aktīvs**.
++ Vērtība **Pārdošanas pasūtījuma statuss** joprojām būs **Aktīvs**, lai nodrošinātu, ka Supply Chain Management var nodot veiktās izmaiņas uz pārdošanas pasūtījumu programmā Sales. Lai kontrolētu šo darbību, iestatiet lauka **Statecode \[ statuss\]** noklusējuma vērtību **Aktīvs**.
 
 ## <a name="invoices"></a>Rēķini
 
