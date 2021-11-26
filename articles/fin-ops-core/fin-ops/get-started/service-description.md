@@ -333,9 +333,9 @@ Microsoft piedāvā Finance and Operations klientiem trīs atbalsta plānus: Pre
 | Neierobežots pārtraukuma/labojuma incidenta iesniegšana | Jā | Jā | Jā |
 | 24/7 piekļuve, izmantojot LCS | Jā | Jā | Jā |
 | Incidenta atbildes laiks | Mazāk nekā viena stunda | Mazāk nekā viena stunda | Nākamā darba diena |
-| Konsultāciju stundas | Kopas tiek iegādātas saskaņā ar līgumu. | Nr. | Nr. |
-| Atvēlētais atbalsta konta pārvaldnieks | Jā | Nr. | Nr. |
-| Atvēlētais atbalsta inženieris | Uz kā attiecas atsevišķs līgums | Nr. | Nr. |
+| Konsultāciju stundas | Kopas tiek iegādātas saskaņā ar līgumu. | Nē | Nē |
+| Atvēlētais atbalsta konta pārvaldnieks | Jā | Nē | Nē |
+| Atvēlētais atbalsta inženieris | Uz kā attiecas atsevišķs līgums | Nē | Nē |
 
 Papildinformāciju skatiet tēmā [Pārskats par atbalstu](/power-platform/admin/support-overview).
 

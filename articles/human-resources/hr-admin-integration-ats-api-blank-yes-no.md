@@ -15,7 +15,7 @@ ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: b8c9f9cbc63141a979cfc55ec9ffa2aff15007d69691f1a175e5e79ed5f645a6
 ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 08/05/2021
 ms.locfileid: "6764960"
@@ -34,7 +34,7 @@ Fiziskais nosaukums: mshr_hrmblankyesno
 | --- | --- | --- |
 | 200000000 | Tukšs | Nav atlasīta vērtība. |
 | 200000001 | Jā | Jā. |
-| 200000002 | Nr. | Nr.p.k. |
+| 200000002 | Nē | Nē. |
 
 ## <a name="see-also"></a>Skatiet arī
 

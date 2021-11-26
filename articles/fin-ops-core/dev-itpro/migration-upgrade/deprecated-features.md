@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e03becf2572aeaf213e8c3a0e874405ed0d5613
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
-ms.translationtype: MT
+ms.openlocfilehash: 76ac50ba2606ffff5a5a90d29ca99c8d67e5f14cce2127f5de6225d1cd8224ef
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7753030"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745180"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Noņemtie vai novecojuši līdzekļi iepriekšējos laidienos
 
@@ -84,7 +84,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 | **Izvietošanas iespēja**              | Visus |
 | **Statuss**                         | Novecojis: līdz 2020. gada 1. oktobrim mēs plānojam vairs neatbalstīt **setUtcString()** metodi. Tā vietā izstrādātājiem ir jāizmanto metode **setUtcDateTime()**. |
 
-### <a name="blocklist-report-it--feature-reference-it-00001"></a>Blokalista atskaite (IT) – līdzekļa atsauces IT-00001
+### <a name="blacklist-report-it--feature-reference-it-00001"></a>Melnā saraksta pārskats (IT) — Līdzekļa atsauce IT-00001
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -216,7 +216,7 @@ Atbalsts no projekta atkarīgu pārdošanas pasūtījumu izveidei, ja projekta l
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Funkcionalitāte vienmēr būs iespējota pēc parametra noņemšanas. |
-| **Vai ir aizstāts ar citu līdzekli?**   | Nr.p.k. Funkcionalitāte, kas nodrošina atbalstu no projekta atkarīgiem pārdošanas pasūtījumiem ar vairākiem finansējuma avotiem, vienmēr būs iespējota.   |
+| **Vai ir aizstāts ar citu līdzekli?**   | Nē. Funkcionalitāte, kas nodrošina atbalstu no projekta atkarīgiem pārdošanas pasūtījumiem ar vairākiem finansējuma avotiem, vienmēr būs iespējota.   |
 | **Ietekmētie produkta apgabali**         |Parametrs **Atļaut pārdošanas pasūtījumus projektiem ar vairākiem finansējuma avotiem** tiks noņemts. Pēc parametra noņemšanas tiks mainītas šādas metodes: **ctrlSalesOrderTable** metode **ProjStatusType** klasē, **validate** metode **ProjId** laukā un **run** metode **SalescreateOrder** formā. Pēc parametra noņemšanas būs novecojušas šādas metodes: **IsSalesOrderAllowedForMultipleFundingSources** metode **ProjTable** tabulas failā, **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** metode **ProjTable** tabulas failā, **AllowSalesOrdersForMultipleFundingSources** datu lauks **ProjParameters** formā un **ProjParameterEntity** failos, **IsAssociatedToMultipleFundingSourcesContract** privātā metode **ProjTable** tabulas failā. |
 | **Izvietošanas iespēja**              | Visus  |
 | **Statuss**                         | Atbalsta pārtraukšana ir paredzēta 2020. gada aprīļa laidienu kopumā. |
@@ -262,7 +262,7 @@ Atbalsts no projekta atkarīgu pārdošanas pasūtījumu izveidei, ja projekta l
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Izmantojot funkciju **Pārdēvēt primāro atslēgu**, lai izmainītu izlaistās preces ItemId, tiek atjauninātas tikai tiešās ārējās atslēgas atsauces. Vecais ItemId tiks saglabāts jebkādās citās atsaucēs par izlaisto preci, piemēram, ražošanas pasūtījumos. Rezultātā var rasties neatbilstīgi dati, kas pēc tam bloķē biznesa procesu. |
-| **Vai ir aizstāts ar citu līdzekli?**   | Nr.p.k. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Nē. |
 | **Ietekmētie produkta apgabali**         | Preču informācijas pārvaldība |
 | **Izvietošanas iespēja**              | Visu  |
 | **Statuss**                         | Noņemts, sākot ar Finance and Operations 10.0.0 ar 24. platformas atjauninājumu.|
@@ -360,7 +360,7 @@ Līdzeklis jaunu peļņas nodokļa reģistru veidņu izveidei. Šis līdzeklis r
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Līdzeklis nav saderīgs ar Finance and Operations paplašināšanas modeli. |
-| **Vai aizstāts ar citu līdzekli?**   | Nav |
+| **Vai aizstāts ar citu līdzekli?**   | Nē |
 | **Ietekmētie produkta apgabali**         | Nodoklis |
 | **Izvietošanas iespēja**              | Visu |
 | **Statuss**                         | Noņemts, sākot ar Finance and Operations 8.1 ar 20. platformas atjauninājumu. |
@@ -371,7 +371,7 @@ Krievijas valstij raksturīgs modulis personāla administrēšanas informācijas
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Algu saraksts nav iekļauts Dynamics 365 portfeļa globālajā stratēģiskajā fokusā. Partneri un ISV ir vislabāk pozicionēti, lai nodrošinātu algu saraksta funkcionalitāti, kas atbilst vietējiem noteikumiem un nodokļu atjauninājumiem.|
-| **Vai ir aizstāts ar citu līdzekli?**   | Nr.|
+| **Vai ir aizstāts ar citu līdzekli?**   | Nē|
 | **Ietekmētie produkta apgabali**         | Krievijas algu un cilvēkresursu pārvaldība |
 | **Izvietošanas iespēja**              | Visu |
 | **Statuss**                         | Novecojis: funkcionalitātes noņemšanas mērķa laikposms ir versijas 10.0 nākotnes atjauninājums. |
@@ -848,8 +848,8 @@ Divi formāti maksājumu eksportēšanai ir pieejami Somijā. LM02 (FI) tiek izm
 
 |  &nbsp; |&nbsp;  |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Risinājumam Noliktavas vadība II (WMS II), kas bija pieejams modulī **Krājumu pārvaldība**, ir tāda pati funkcionalitāte kā modulim **Noliktavas vadība**, kas tika izlaists atjauninājumā Dynamics AX 2012 R3.                                                                         |
-| **Vai ir aizstāts ar citu līdzekli?**   | Modulis **Noliktavas vadība**, kas tika izlaists atjauninājumos AX 2012 R3, Dynamics AX 2012 R3 CU8 un Dynamics AX 2012 R3 CU9, aizstāj līdzekļa Noliktavas vadība II līdzekļus. Jaunajam modulim ir uzlabotāki līdzekļi un elastīgāki noliktavas vadības procesi nekā modulim Noliktavas vadība II. |
+| **Novecošanas/noņemšanas pamatojums** | Risinājumam Noliktavas vadība II (WMS II), kas bija pieejams modulī **Krājumu pārvaldība** , ir tāda pati funkcionalitāte kā modulim **Noliktavas vadība** , kas tika izlaists atjauninājumā Dynamics AX 2012 R3.                                                                         |
+| **Vai ir aizstāts ar citu līdzekli?**   | Modulis **Noliktavas vadība** , kas tika izlaists atjauninājumos AX 2012 R3, Dynamics AX 2012 R3 CU8 un Dynamics AX 2012 R3 CU9, aizstāj līdzekļa Noliktavas vadība II līdzekļus. Jaunajam modulim ir uzlabotāki līdzekļi un elastīgāki noliktavas vadības procesi nekā modulim Noliktavas vadība II. |
 | **Ietekmētie produkta apgabali**         | Krājumu vadība, Pārdošana un mārketings, Sagāde un avoti   |
 | **Statuss**                         | Noņemts, sākot ar Dynamics 365 for Operations versiju 1611.    |
 
@@ -1410,7 +1410,7 @@ Windows 8 planšetdatoru programma nodrošināja izdevumu ievades un apstiprin�
 | &nbsp;  | &nbsp; |
 |-------------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | <strong>Novecošanas/noņemšanas pamatojums</strong> |                         Šī funkcionalitāte ir aizstāta ar citu līdzekli.                         |
-|  <strong>Vai aizstāts ar citu līdzekli?</strong>  | Management Reporter (pašreizējā Dynamics AX versijā ar apzīmējumu <strong>Finanšu pārskatu veidošana</strong> ) |
+|  <strong>Vai aizstāts ar citu līdzekli?</strong>  | Management Reporter (pašreizējā Dynamics AX versijā ar apzīmējumu <strong>Finanšu pārskatu veidošana</strong>) |
 |     <strong>Ietekmētie produkta apgabali</strong>     |                                              Virsgrāmata                                              |
 |             <strong>Statuss</strong>             |                                      Noņemts, sākot ar Dynamics AX 2012                                      |
 

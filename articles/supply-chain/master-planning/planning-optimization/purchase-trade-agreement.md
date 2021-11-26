@@ -18,7 +18,7 @@ ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
 ms.openlocfilehash: 10b4f9f45899b808bd0baa73974a173cf120aa6c3fd33e10d0d79a59614f1f70
 ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 08/05/2021
 ms.locfileid: "6757762"
@@ -75,14 +75,14 @@ Tabulā zemāk ir sniegti piemēri, kas parāda, kā dažādi tirdzniecībā izl
 
 | Tirdzniecībā izlaistā prece: kreditors | Noklusējuma kārtības iestatījumi: izpildes laiks | Krājumu vajadzība: ignorēt kreditoru | Krājumu vajadzība: ignorēt izpildes laiku | Tirdzniecības līgums: kreditors | Tirdzniecības līgums: izpildes laiks | Tirdzniecības līgums: ignorēt izpildes laiku | Iegūtais kreditors | Iegūtais izpildes laiks |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ***US001** _ | _*_1_*_ | Nr. | Nr. | US003 | 3 | Nr. | _ *US001** | **1** |
-| US001 | 1 | ***Jā: US002** _ | _*_Jā: 2_*_ | US003 | 3 | Nr. | _ *US002** | **2** |
-| *(Tukšs)* | 1 | Nr. | Nr. | ***US003** _ | _*_3_*_ | Nr. | _ *US003** | **3** |
-| *(Tukšs)* | ***1** _ | Nr. | Nr. | _*_US003_*_ | 3 | Jā | _ *US003** | **1** |
-| *(Tukšs)* | ***1** _ | _*_Jā US002_*_ | Nr. | US003 | 3 | Nr. | _ *US002** | **1** |
-| *(Tukšs)* | ***1** _ | _*_Jā US002_*_ | Nr. | US003 | 3 | Nr. | _ *US002** | **1** |
-| *(Tukšs)* | 1 | Nr. | Jā: 2 | ***US003** _ | _*_3_*_ | Nr. | _ *US003** | **3** |
-| *(Tukšs)* | 1 | Nr. | ***Jā: 2** _ | _*_US003_*_ | 3 | Jā | _ *US003** | **2** |
+| ***US001** _ | _*_1_*_ | Nē | Nē | US003 | 3 | Nē | _ *US001** | **1** |
+| US001 | 1 | ***Jā: US002** _ | _*_Jā: 2_*_ | US003 | 3 | Nē | _ *US002** | **2** |
+| *(Tukšs)* | 1 | Nē | Nē | ***US003** _ | _*_3_*_ | Nē | _ *US003** | **3** |
+| *(Tukšs)* | ***1** _ | Nē | Nē | _*_US003_*_ | 3 | Jā | _ *US003** | **1** |
+| *(Tukšs)* | ***1** _ | _*_Jā US002_*_ | Nē | US003 | 3 | Nē | _ *US002** | **1** |
+| *(Tukšs)* | ***1** _ | _*_Jā US002_*_ | Nē | US003 | 3 | Nē | _ *US002** | **1** |
+| *(Tukšs)* | 1 | Nē | Jā: 2 | ***US003** _ | _*_3_*_ | Nē | _ *US003** | **3** |
+| *(Tukšs)* | 1 | Nē | ***Jā: 2** _ | _*_US003_*_ | 3 | Jā | _ *US003** | **2** |
 
 ## <a name="additional-resources"></a>Papildu resursi
 

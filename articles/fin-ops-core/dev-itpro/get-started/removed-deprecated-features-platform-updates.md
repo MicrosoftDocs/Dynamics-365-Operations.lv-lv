@@ -178,7 +178,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Ar Dynamics AX 2012 uzņēmuma portālu (EP) saistītie metadatu artefakti ir novecojuši, jo EP nekad netiek atbalstīts programmās Finance and Operations. |
-| **Vai ir aizstāts ar citu līdzekli?**   | Nr. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Nē |
 | **Ietekmētie produkta apgabali**         | Tīmekļa klients |
 | **Izvietošanas iespēja**              | Visu |
 | **Statuss**                         | Novecojis: visi EP kodi ir ieplānoti izņemšanai no 2021. gada oktobra. |
@@ -335,7 +335,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Pakalpojuma sniegto dokumentu iegultās navigācijas URL var saturēt sensitīvus biznesa datus. Mēs noņemam atbalstu iegultām urbšanas saitēm dokumentos kā drošības piesardzības līdzekli, lai turpmāk aizsargātu klienta datus. Lietotāji arī gūs labumu no uzlabotas veiktspējas, vienlaikus interaktīvi veidojot dokumentus šo izmaiņu dēļ.  |
-| **Vai ir aizstāts ar citu līdzekli?**   | Nr. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Nē |
 | **Ietekmētie produkta apgabali**         | Pārskatu veidošana |
 | **Izvietošanas iespēja**              | Visu |
 | **Statuss**                         | Šis līdzeklis tiek noņemts no pakalpojuma.<br><br>Mūsdienu klients piedāvā daudzas opcijas tādu skatu izveidei, kas ietver automātiski ģenerētās saites, lai palīdzētu programmas pārskatīšanai. Ar pakalpojumu sniegtie, numurētie dokumenti ir ieteicami ārējiem sakariem, kas tiek sūtīti pa e-pastu, arhivēti un izdrukāti adresātiem. Mēs esam uzlabojuši pieredzi dokumentu priekšskatīšanai tieši pārlūkprogrammā, kas piedāvā tiešu piekļuvi lokālajiem printeriem. Papildinformāciju skatiet šeit [PDF dokumentu priekšskatījums ar iegultu skatītāju](../analytics/preview-pdf-documents.md). |

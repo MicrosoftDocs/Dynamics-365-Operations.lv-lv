@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: f61ae7a6657eaad3510833c17f342b7266be247aec2a9bfe80b97172f662ae0a
 ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 08/05/2021
 ms.locfileid: "6774381"
@@ -128,7 +128,7 @@ Vairums avota sistēmu var sniegt datus, kas atbilst vienam vai vairākiem datu 
 |---|---|---|---|
 | Izmaksu elementu dimensiju elementi  |  Jā | Jā  | Jā  |
 |  Izmaksu objekta dimensiju elementi |  Jā | Jā  | Jā  |
-|  Statiski dimensiju elementi | Jā  | Nav  | Nav  |
+|  Statiski dimensiju elementi | Jā  | Nē  | Nē  |
 |  Virsgrāmata | Jā  | Jā  | Jā  |
 |  Budžeta ieraksti  | Jā  | Jā  | Jā  |
 |  Statistiskie mēri | Jā  | Jā  | Jā  |

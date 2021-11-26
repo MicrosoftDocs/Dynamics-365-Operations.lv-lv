@@ -14,7 +14,7 @@ ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
 ms.openlocfilehash: b582b8b95fcf2ad45aa1bb49eb5594d30874e0f4
 ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 09/28/2021
 ms.locfileid: "7559563"
@@ -101,7 +101,7 @@ POS paplašinājuma izstrāde, izmantojot ModernPos.sln, CloudPOs.sln, POS. Exte
 |  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Sākot ar šo laidienu, Dynamics 365 Headquarters veidlapas **Commerce plānotāja parametri** lauks **Pilns datu kopas ģenerēšanas intervāls dienās** ir novecojis. Sākot ar šo laidienu, lauks tiks vizuāli noņemts, lai vērtību nevarētu rediģēt. Tas paliek kā **0** vērtība. |
-| **Vai ir aizstāts ar citu līdzekli?**   | Nr. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Nē |
 | **Ietekmētie produkta apgabali**         | Dynamics 365 Commerce |
 | **Izvietošanas iespēja**              | Visu|
 | **Statuss**                         | Novecojis. Neizmantojiet šo lauku vai nemainiet tajā esošo vērtību.|

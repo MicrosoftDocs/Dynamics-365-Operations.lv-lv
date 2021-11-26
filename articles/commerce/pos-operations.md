@@ -17,7 +17,7 @@ ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: dc4835258c7a1968c51e4d1a3a4d0eb33aaf2cddf31efd965adff0ac80aa4ec1
 ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 08/05/2021
 ms.locfileid: "6745288"
@@ -64,7 +64,7 @@ Tālāk norādītajās kolonnās ir norādītas vietas, kur var izsaukt operāci
 | 642 | Iznest visas preces | Iestatīt visām rindām piegādes veidu **Iznešana**. | Jā | Jā | Nē | Jā\* | Nē |
 | 641 | Iznest atlasītas preces | Iestatīt atlasītajām rindām piegādes veidu **Iznešana**. | Jā | Jā | Nē | Jā\* | Nē |
 | 647 | Mainīt piegādes veidu | Mainiet iepriekš konfigurēto nosūtīšanas pārdošanas rindu piegādes veidu. | Jā | Jā | Nē | Nē| Nē |
-| 1215 | Mainīt paroli | Šī operācija sniedz POS lietotājam iespēju mainīt savu paroli. | Jā | Jā | Jā | Nr. | Nr. |
+| 1215 | Mainīt paroli | Šī operācija sniedz POS lietotājam iespēju mainīt savu paroli. | Jā | Jā | Jā | Nē | Nē |
 | 123 | Mainīt mērvienību | Mainīt atlasītā rindas vienuma mērvienību. | Jā | Jā | Nē | Jā | Nē |
 | 639 | Notīrīt noklusējuma darījuma pārdošanas pārstāvi | Noņemt no transakcijas komisijas pārdošanas grupu (pārdošanas pārst.). | Jā | Jā | Nē | Jā | Nē |
 | 106 | Nodzēst daudzumu | Atiestatīt pašlaik atlasītās rindas daudzumu uz **1**. | Jā | Jā | Nē | Jā | Nē |
@@ -194,8 +194,8 @@ Tālāk norādītajās kolonnās ir norādītas vietas, kur var izsaukt operāci
 | 500 | Anulēt darījumu | Anulēt pašreizējo transakciju. | Jā | Jā | Nē | Jā | Nē |
 | 916 | Windows darbplūsmas pamats | Šī operācija netiek atbalstīta. | Nav attiecināms | Nav attiecināms | Nav attiecināms | Nav attiecināms | Nē |
 | 924 | X pārskats bankas kartēm | Šī operācija netiek atbalstīta. | Nav attiecināms | Nav attiecināms | Nav attiecināms | Nav attiecināms | Jā |
-| 311 | Noņemt sistēmas atlaides no darījumiem | Noņemiet no darbības visas sistēmas piemērotās atlaides, ieskaitot uz kuponu balstītās atlaides. Tādējādi netiek noņemtas manuālās atlaides. | Jā | Jā | Jā | Jā | Nr. |
-| 312 | Atkārtoti izmantot sistēmas atlaides | Atkārtoti izmantot sistēmas atlaides darījumam, ja tās ir noņemtas, izmantojot operāciju **Noņemt sistēmas atlaides no darījuma**. | Jā | Jā | Jā | Jā | Nr. |
+| 311 | Noņemt sistēmas atlaides no darījumiem | Noņemiet no darbības visas sistēmas piemērotās atlaides, ieskaitot uz kuponu balstītās atlaides. Tādējādi netiek noņemtas manuālās atlaides. | Jā | Jā | Jā | Jā | Nē |
+| 312 | Atkārtoti izmantot sistēmas atlaides | Atkārtoti izmantot sistēmas atlaides darījumam, ja tās ir noņemtas, izmantojot operāciju **Noņemt sistēmas atlaides no darījuma**. | Jā | Jā | Jā | Jā | Nē |
 
 \* Operācija ir pieejama bezsaistes režīmā tikai tad, ja tiek izveidots debitora pasūtījums vai pārdošanas piedāvājums un ja POS funkcionalitātes profilā ir konfigurēta debitoru rēķinu un pārdošanas piedāvājumu izveide bezsaistes režīmā. Operāciju nevar veikt, ja pasūtījumi tiek veidoti, izmantojot reāllaika pakalpojumu, vai ja pasūtījumi tiek atsaukti vai rediģēti.
 

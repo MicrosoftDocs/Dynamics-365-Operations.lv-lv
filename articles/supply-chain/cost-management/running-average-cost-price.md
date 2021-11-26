@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ab90c8e57d831fbbfe0b4a6f6814ca0ab5182a7ccc0436ca5a11526b72f9da30
 ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 08/05/2021
 ms.locfileid: "6781589"
@@ -38,9 +38,9 @@ Tālāk esošajā tabulā ir norādīts, kādos gadījumos sistēmā tiek iegrā
 
 | Nosacījums                                               | Sistēmā tiek izmantota aprēķinātā faktiskā vidējo izmaksu cena | Sistēmā tiek izmantota izmaksu cena, kas ir definēta krājuma šablonā |
 |---------------------------------------------------------|----------------------------------------------------------|-------------------------------------------------------------------|
-| Gan skaitītājs\*, gan saucējs\*\* ir pozitīvs skaitlis.  | Jā                                                      | Nav                                                                |
-| Gan skaitītājs\*, gan saucējs\*\* ir negatīvi skaitļi. | Nav                                                       | Jā                                                               |
-| Saucējs ir\*\* 0 (nulle).                        | Nav                                                       | Jā                                                               |
+| Gan skaitītājs\*, gan saucējs\*\* ir pozitīvs skaitlis.  | Jā                                                      | Nē                                                                |
+| Gan skaitītājs\*, gan saucējs\*\* ir negatīvi skaitļi. | Nē                                                       | Jā                                                               |
+| Saucējs ir\*\* 0 (nulle).                        | Nē                                                       | Jā                                                               |
 
 \* Skaitītājs = (Fiziskā summa + Finansiālā summa) \*\* Saucējs = (Fiziskais daudzums + Finansiālais daudzums) 
 

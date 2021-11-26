@@ -18,7 +18,7 @@ ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
 ms.openlocfilehash: b3960f0877bdf68dd2f511ad283961b2a92db6a60078e84be55f071a00eae927
 ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 08/05/2021
 ms.locfileid: "6727658"
@@ -43,7 +43,7 @@ Piemēram, parastam televizoram var būt tālāk minētie atribūti.
 |            | Kompozītie ievadi         | 0–10                        | 2             |
 |            | Komponentās ievades         | 0–10                        | 1             |
 | LCD        | 3D gatavs                 | Jā vai Nē                   | Jā           |
-|            | 3D iespējots               | Jā vai Nē                   | Nav            |
+|            | 3D iespējots               | Jā vai Nē                   | Nē            |
 | Plazmas     | Ekspluatācijas temperatūra no      | 32–110 grādiem              | 32            |
 |            | Ekspluatācijas temperatūra līdz        | 32–110 grādiem              | 100           |
 | Projekcijas | Kineskopa garantija | 6, 12, vai 18 mēneši         | 12.            |

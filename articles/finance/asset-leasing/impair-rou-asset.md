@@ -17,7 +17,7 @@ ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: 816f65cff77339ef8684c0449ed2e5f0762b17a2e22174412d5ea9f2a1a62069
 ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 08/05/2021
 ms.locfileid: "6723827"
@@ -92,8 +92,8 @@ Tabulās ir parādītas vērtības, kas ir iestatītas cilnēs **Vispārīgi** u
     | Darījuma datums       | 1.1.2022. |
     | Atlikušie periodi      | 84       |
     | Amats                   | Jā      |
-    | Priekšskatīt pirms grāmatošanas | Nr.       |
-    | Slēgt grāmatu             | Nr.       |
+    | Priekšskatīt pirms grāmatošanas | Nē       |
+    | Slēgt grāmatu             | Nē       |
 
 6. Ir izveidots un grāmatots vērtības samazinājuma izdevumu žurnāla ieraksts. Lai to skatītu, dodieties uz līdzekļa nomas žurnālu nomas grāmatā. Ievērojiet, ka vērtības samazinājuma summa tika debetēta vērtības samazināšanās izdevumu grāmatošanas kontā, un LLT grāmatošanas konts tika kreditēts.
 7. Lai skatītu vērtības samazinājuma tīro ietekmi, dodieties uz saistību un līdzekļu darījumu tabulām. Ievērojiet, ka vērtības samazināšanās izdevumi ir samazinājuši LLT, bet nomas saistības uzskaites summa nav mainījusies.

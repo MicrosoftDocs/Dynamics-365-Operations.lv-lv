@@ -1,6 +1,6 @@
 ---
 title: 'LinkedIn integrācija: bieži uzdotie jautājumi'
-description: Šajā tēmā sniegtas atbildes uz jautājumiem, kādi jums varētu rasties par integrāciju starp LinkedIn un Microsoft Dynamics 365 Talent - Attract.
+description: Šajā tēmā sniegtas atbildes uz jautājumiem, kādi jums varētu rasties par integrāciju starp LinkedIn un Microsoft Microsoft Dynamics 365 Talent - Attract.
 author: hasrivas
 manager: AnnBe
 ms.date: 07/08/2019
@@ -117,6 +117,3 @@ LinkedIn apstrādā darba sludinājumus partijā, izmantojot sistēmu Attract, r
 [Kandidātu piesaistīšana ar LinkedIn Recruiter programmā Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md)
 
 [Integrācijas problēmu novēršana ar LinkedIn un Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

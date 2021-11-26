@@ -16,7 +16,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 4dc6cb7c0d6c04371ada611626415d87e9f149f0
 ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 08/24/2021
 ms.locfileid: "7416309"
@@ -89,16 +89,16 @@ Tālāk esošajā salīdzinājuma diagrammā tiks parādītas atšķirības star
 
 | Funkcija                                                   | Financial Reporting                                               | Finanšu analīze |
 |----------------------------------------------------------|-------------------------------------------------------------------|--------------------|
-| **Rediģēt noklusējuma pārskatus**                                 | Jā                                                               | Nr. |
-| **Izveidot jaunus pārskatus**                                   | Jā                                                               | Nr. |
-| **Drukāt pārskatus**                                        | Jā                                                               | Nav |
+| **Rediģēt noklusējuma pārskatus**                                 | Jā                                                               | Nē |
+| **Izveidot jaunus pārskatus**                                   | Jā                                                               | Nē |
+| **Drukāt pārskatus**                                        | Jā                                                               | Nē |
 | **Eksportēt programmā Excel**                                      | Jā                                                               | Ierobežoti Eksportē neapstrādātos datus uz programmu Excel, nav formatēts pārskats |
-| **Atbalsts pārskatu veidošanas hierarhijai/organizācijas hierarhijai**   | Jā                                                               | Nav |
+| **Atbalsts pārskatu veidošanas hierarhijai/organizācijas hierarhijai**   | Jā                                                               | Nē |
 | **Pārskats par apakšgrāmatu datiem**                             | Jā Ierobežoti Tikai kreditoram un debitoram                              | Jā Kreditors, debitors, kreditoru/debitoru grupas, kreditoru/debitoru adreses u. c. |
 | **Pārskata valūta**                                   | Jā Uzskaites valūta un pārvēršana pārskata valūtā       | Nē Tikai uzskaites valūta |
 | **Drošība**                                             | Jā Atbilstoši Finanšu pārskatu veidošanas koka drošībai | Ierobežoti Skatiet pārskatus par visiem uzņēmumiem (neatkarīgi no Finance and Operations drošības) vai tikai aktīvo uzņēmumu |
-| **Atbalsts atšķirīgiem kontu plāniem un finanšu gadiem** | Jā                                                               | Nav |
-| **Pārskats par ārējiem datiem**                              | Nav                                                                | Nav |
+| **Atbalsts atšķirīgiem kontu plāniem un finanšu gadiem** | Jā                                                               | Nē |
+| **Pārskats par ārējiem datiem**                              | Nē                                                                | Nē |
 | **Atbalsta konsolidācijas**                               | Jā                                                               | Ierobežoti Var izveidot pārskatu par vairākiem uzņēmumiem, taču izmanto tikai uzskaites valūtu |
 
 Ir pieejami tālāk norādītie finanšu pārskati.
@@ -189,7 +189,7 @@ Pakalpojumā Power BI ir pieejama arī poga, kas sniedz iespēju pāriet uz nāk
 
 ![Apgrozījuma bilances detalizētas izpētes atpakaļgaitas poga.](./media/trial-balance5.png)
 
-Lai skatītu detalizētu informāciju par transakcijām apkopotajās bilancēs, varat atlasīt dažas summas, lai veiktu detalizēto rādīšanu programmā Finance and Operations.
+Lai skatītu detalizētu informāciju par transakcijām apkopotajās bilancēs, varat atlasīt dažas summas, lai veiktu detalizēto rādīšanu programmā Financial and Operations.
 
 Veicot detalizēto rādīšanu no finanšu pārskatiem, jūs tiekat novirzīts uz uzskaites avota pārlūku (ASE — Accounting Source Explorer), nevis dokumentu transakcijām. ASE nerāda tikai uzskaites ierakstus virsgrāmatā. Šis pārlūks parāda detalizētu informāciju par apakšgrāmatas transakciju. Tādējādi jūs iegūstat daudz detalizētāku informāciju par sākotnējo transakciju un varat izmantot to analīzei. Piemēram, varat redzēt, kurš bija kreditors vai debitors, ko debitors iegādājās vai kreditors pārdeva un pat to, kāds projekts bija transakcijā.
 

@@ -201,7 +201,7 @@ Iestatījumus šajā sadaļā veic juridiska persona. Jums tas jākonfigurē kat
 3. Cilnē **Aprēķins** definējiet juridiskās personas paredzamo noapaļošanas kārtulu. Papildinformāciju par noapaļošanas loģiku skatiet sadaļā [Nodokļu aprēķina noapaļošanas noteikumi](https://go.microsoft.com/fwlink/?linkid=2166988).
 4. Cilnē **Kļūdu apstrāde** definējiet juridiskās personas paredzamo kļūdu apstrādes metodi. Ir pieejamas trīs opcijas:
 
-    - Nr.
+    - Nē
     - Brīdinājums
     - Kļūda
 

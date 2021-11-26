@@ -16,7 +16,7 @@ ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
 ms.openlocfilehash: e6b178704fde18036d526e7a645cb9b4f8bd66c7
 ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 09/29/2021
 ms.locfileid: "7579068"
@@ -50,8 +50,8 @@ Tālāk sniegtajā tabulā ir norādīti daži tipiski atlaižu samazināšanas 
 | Atlikts | Samazināt atlaidi | Jā | Abi | Nē |
 | Exclreb | Izslēgt atlaidi | Jā | Atlaide | Jā |
 | Vairāki | Vairākas atlaides | Jā | Abi | Jā |
-| Neviens | Tikai noteikumi un atlaide | Nr. | Abi | Jā |
-| Noteikums | Tikai noteikums | Jā | Noteikums | Nr. |
+| Neviens | Tikai noteikumi un atlaide | Nē | Abi | Jā |
+| Noteikums | Tikai noteikums | Jā | Noteikums | Nē |
 | Atlaide | Tikai atlaide | Jā | Atlaide | Jā |
 
 ## <a name="examples-of-rebate-reduction-principle-calculations"></a>Atlaides samazināšanas principa aprēķinu piemēri

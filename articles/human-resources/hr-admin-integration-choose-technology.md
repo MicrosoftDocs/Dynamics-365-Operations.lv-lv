@@ -17,7 +17,7 @@ ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: d58a42236b07bf177e09aee50a207ffdf2ed1435
 ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 08/24/2021
 ms.locfileid: "7414718"
@@ -143,7 +143,7 @@ Kad pieejamas tik daudzas integrācijas tehnoloģijas, dažreiz var būt sarež�
 | BYOD                   | Jā, ieplāno Human Resources administrators        | Asinhrons, pakete                                | Nē<sup>3</sup>                                    | Augsts (simtiem tūkstošu ierakstu)                    | Atbalsta visus DMF elementus           |
 | OData iespējotie elementi | Jā, izmantojot starpprogrammatūru                    | Sinhronizēt                                        | Jā, izmantojot Human Resources datu pakalpojumu (OData)  | Mainās atkarībā no izmantošanas gadījuma (atbalsta lapošana interaktīvai lietošanai) | Augsta                                |
 | Excel pievienojumprogramma           | Nē                                       | Sinhronizēt                                        | Nē                                        | Vidējs (desmitiem tūkstošu ierakstu)                      | Atbalsta visus OData iespējotos elementus |
-| Datu integrētājs        | Jā, ieplānots datu integrētājā        | Asinhrons, pakete                                | Nr.                                        | Mainās atkarībā no izmantošanas gadījuma                                       | Atbalsta visas Dataverse tabulas           |
+| Datu integrētājs        | Jā, ieplānots datu integrētājā        | Asinhrons, pakete                                | Nē                                        | Mainās atkarībā no izmantošanas gadījuma                                       | Atbalsta visas Dataverse tabulas           |
 
 <sup>2</sup>Microsoft veic lielus ieguldījumus, palielinot datu pārklājumu Dataverse tabulām. Mēs iesakām izmantot Dataverse, kad pārklājums ir pieejams. Pašlaik Dataverse datu segums ir zems salīdzinājumā ar DMF un OData iespējotiem elementiem.
 

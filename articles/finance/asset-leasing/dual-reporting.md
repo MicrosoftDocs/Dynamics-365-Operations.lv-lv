@@ -17,7 +17,7 @@ ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: 406fbb53fc4cd17a7c257b5f5463227118c9051f44d81db000fbe87dca142efe
 ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 08/05/2021
 ms.locfileid: "6767060"
@@ -47,7 +47,7 @@ IFRS 16 grāmata ir iestatīta tā, lai tā atbilstu IFRS 16 uzskaites standarta
 | Pašreizējās vērtības / līdzekļa patiesās vērtības iestatīšana | 0.00           |
 | Īstermiņa slieksnis                    | 12.             |
 | Nelielas vērtības slieksnis                     | 5,000.00       |
-| Maksāt kreditoram                           | Nr.             |
+| Maksāt kreditoram                           | Nē             |
 
 **Obligātā grāmata**
 
@@ -64,7 +64,7 @@ Obligātā grāmata ir skaidras naudas bāzes grāmata, kurā uzņēmums uzskait
 | Pašreizējās vērtības / līdzekļa patiesās vērtības iestatīšana | 0.00        |
 | Īstermiņa slieksnis                    | 0           |
 | Nelielas vērtības slieksnis                     | 0           |
-| Maksāt kreditoram                           | Nr.          |
+| Maksāt kreditoram                           | Nē          |
 
 **Obligātā anulēšanas grāmata**
 
@@ -81,7 +81,7 @@ Obligātā anulēšanas grāmata ir iestatīta tādā pašā veidā kā obligāt
 | Pašreizējās vērtības / līdzekļa patiesās vērtības iestatīšana | 0.00                           |
 | Īstermiņa slieksnis                    | 0                              |
 | Nelielas vērtības slieksnis                     | 0                              |
-| Maksāt kreditoram                           | Nr.                             |
+| Maksāt kreditoram                           | Nē                             |
 
 Šim piemēram ir izveidota noma, kam ir tālāk norādītie iestatījumi cilnēs **Vispārīgi** un **Maksājuma grafika rindas**.
 

@@ -14,7 +14,7 @@ ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
 ms.openlocfilehash: 448f315b888b63eba74dcb8b47a9b238e371bb2b
 ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 09/29/2021
 ms.locfileid: "7573493"
@@ -88,9 +88,9 @@ Tabulā zemāk ir parādīts, kurus pārdošanas pasūtījumus lietotāji katrā
 
 | Pārdošanas pasūtījums | Administrators | Klienta pārstāvis debitoram&nbsp;X | Autorizēts lietotājs: Jane | Autorizēts lietotājs: Sam | Neautorizēts lietotājs: May |
 |---|---|---|---|---|---|
-| Debitors&nbsp;X Pasūtītājs:&nbsp;Jane | Jā | Jā | Jā | Nr. | Nr. |
-| Debitors&nbsp;X Pasūtītājs:&nbsp;Sam | Jā | Jā | Nr. | Jā | Nr. |
-| Debitors&nbsp;Y Pasūtītājs:&nbsp;May | Jā | Nr. | Nr. | Nr. | Nr. |
+| Debitors&nbsp;X Pasūtītājs:&nbsp;Jane | Jā | Jā | Jā | Nē | Nē |
+| Debitors&nbsp;X Pasūtītājs:&nbsp;Sam | Jā | Jā | Nē | Jā | Nē |
+| Debitors&nbsp;Y Pasūtītājs:&nbsp;May | Jā | Nē | Nē | Nē | Nē |
 
 > [!NOTE]
 > Kaut gan Sam un Jane ir kontaktpersonas, kas strādā debitoram X, viņi var skatīt tikai tos pasūtījumus, kurus viņi paši ir ievietojuši, un neko citu. Lai gan May sistēmā ir pasūtījums, viņa nevar redzēt šo pasūtījumu Debitoru portālā, jo viņa ir neautorizēts lietotājs. (Turklāt viņa ir ievietojusi pasūtījumu, izmantojot kādu citu kanālu, nevis Debitoru portālu.)

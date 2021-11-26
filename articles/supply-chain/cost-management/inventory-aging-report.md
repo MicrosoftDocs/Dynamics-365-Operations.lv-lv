@@ -18,7 +18,7 @@ ms.search.validFrom: 2020-5-29
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 59c1740f6e07be08ad9379d4ccb6aeca29220d557aceb38bf6faef946e16fee7
 ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 08/05/2021
 ms.locfileid: "6752782"
@@ -42,7 +42,7 @@ Piemēra sistēmā ir ietverti šādi glabāšanas dimensiju iestatījumi.
 | Vārds/nosaukums      | Aktīva | Fizisks krājums | Finanšu krājumi |
 |-----------|--------|--------------------|---------------------|
 | Vietne      | Jā    | Jā                | Jā                 |
-| Noliktava | Jā    | Jā                | Nr.                  |
+| Noliktava | Jā    | Jā                | Nē                  |
 
 ### <a name="inventory-model"></a>Krājumu modelis
 

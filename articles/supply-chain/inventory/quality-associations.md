@@ -18,7 +18,7 @@ ms.search.validFrom: 2020-06-18
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 28984730e5660414eec1ba087eb5de1eba4cbbb8
 ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 09/29/2021
 ms.locfileid: "7571933"
@@ -323,8 +323,8 @@ Ražošanā, ja iestatāt lauku **Notikuma veids** uz *Norādīts kā pabeigts* 
 <td>Procentuālā attiecība: 10 %</td>
 <td>Jā</td>
 <td>
-<p>Paketes numurs: Nr.</p>
-<p>Sērijas numurs: Nr.</p>
+<p>Paketes numurs: Nē</p>
+<p>Sērijas numurs: Nē</p>
 </td>
 <td>
 <p>Pasūtījuma daudzums: 100</p>
@@ -344,10 +344,10 @@ Ražošanā, ja iestatāt lauku **Notikuma veids** uz *Norādīts kā pabeigts* 
 </tr>
 <tr>
 <td>Fiksēts daudzums: 1</td>
-<td>Nr.</td>
+<td>Nē</td>
 <td>
-<p>Paketes numurs: Nr.</p>
-<p>Sērijas numurs: Nr.</p>
+<p>Paketes numurs: Nē</p>
+<p>Sērijas numurs: Nē</p>
 </td>
 <td>Pasūtījuma daudzums: 100
 <ol>
@@ -399,7 +399,7 @@ Ražošanā, ja iestatāt lauku **Notikuma veids** uz *Norādīts kā pabeigts* 
 </tr>
 <tr>
 <td>Fiksēts daudzums: 2</td>
-<td>Nr.</td>
+<td>Nē</td>
 <td>
 <p>Partijas numurs: Jā</p>
 <p>Sērijas numurs: Jā</p>
