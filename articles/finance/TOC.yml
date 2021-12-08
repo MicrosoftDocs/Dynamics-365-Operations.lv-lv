@@ -62,10 +62,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Noliktavas konfigurēšana lokālajiem izvietojumiem
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
-                - name: Finance and Operations programmu darbību nodrošina 21Vianet Ķīnā
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/finance/toc.json
-                - name: Finance and Operations programmas Francijā
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/finance/toc.json
             - name: Jaunumi un izmaiņas
               items:
                 - name: Jaunumi un izmaiņas Finance and Operations programmās
@@ -500,6 +496,8 @@
               href: accounts-receivable/customer-aging-snapshot.md
             - name: Debitoru vecumstruktūra
               href: accounts-receivable/customer-aging.md
+            - name: Klientu vecumstruktūras datu krātuve
+              href: accounts-receivable/customer-aging-data-storage.md
             - name: Debitora norakstīšanas žurnāla izveide
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: Papildu piezīmju pārvaldība
@@ -1476,6 +1474,10 @@
                           items:
                             - name: PVN deklarācija
                               href: localizations/emea-fra-VAT-declaration-preview-France.md
+                        - name: Vācijas pārskati
+                          items:
+                            - name: PVN deklarācija
+                              href: /localizations/emea-deu-vat-declaration-germany.md
                         - name: Nīderlandes pārskatu veidošana
                           items:
                             - name: PVN deklarācija
@@ -2160,11 +2162,13 @@
                       href: localizations/emea-deu-gdpdu-data-filtering.md
                 - name: Nolietojuma korekcijas papildus iegādēm otrajā gadā
                   href: localizations/tasks/de-00002-depreciation.md
+                - name: PVN deklarācija
+                  href: localizations/emea-deu-vat-declaration-germany.md
                 - name: PVN deklarācijas elektroniskā pārsūtīšana (ELSTER)
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: Vācijas Intrastat
                   href: localizations/emea-deu-intrastat.md
-                - name: PVN deklarācija Vācijai
+                - name: PVN deklarācija
                   href: localizations/emea-de-vat-declaration.md
                 - name: Klientu elektronisko rēķinu pārskats
                   href: localizations/emea-deu-e-invoices.md

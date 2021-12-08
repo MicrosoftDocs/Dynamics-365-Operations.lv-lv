@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 15b0ad9faf2bcac25dec01a7ab44f804ad2345cd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: c3947c8a51facfb02012cc8e9a3ffd5887073bd9
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567227"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860617"
 ---
 # <a name="define-coverage-rules-for-items"></a>Krājumu vajadzības kārtulu definēšana
 
@@ -113,6 +113,7 @@ Izveidojiet krājuma vajadzības kārtulas, rīkojoties šādi:
 1. Laukā **Pirkšanas laiks** ievadiet “5”.
 1. Atlasiet **Saglabāt**.
 
-
+> [!NOTE]
+> Ražotajiem krājumiem tiek **izmantots ražošanas** izpildes laiks, ja krājumam nav maršruta. Ja aktīvs maršruts ir saistīts ar krājumu, tad vispārējais plāns plāno pasūtījumu un aprēķina tā datumus, ņemot vērā maršruta laikus un resursu noslodzi (ja piemērojams).
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

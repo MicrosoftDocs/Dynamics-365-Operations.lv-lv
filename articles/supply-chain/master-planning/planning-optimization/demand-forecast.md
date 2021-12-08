@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 0f322dd63cb2dee6a9048e6ed086dc075cc0e1b9
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
-ms.translationtype: HT
+ms.openlocfilehash: cbac68b79b2a10f05e0e442d4f0aa716e5a04634
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474848"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867251"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Vispārējā plānošana ar pieprasījuma apjoma prognozēm
 
@@ -86,9 +86,9 @@ Ja prognoze tiek iekļauta vispārējā plānā, var atlasīt veidu, kā samazin
 
 Lai iekļautu prognozi vispārējā plānā un atlasītu metodi, kuru izmanto prognozes vajadzību samazināšanai, dodieties uz sadaļu **Vispārējā plānošana \> Iestatījumi \> Plāni \> Vispārējie plāni**. Laukā **Prognozes modelis** atlasiet prognozes modeli. Laukā **Prognozes vajadzību samazināšanai izmantotā metode** atlasiet metodi. Pieejamas šādas opcijas
 
-- None
+- Nav
 - Procenti — samazināšanas princips
-- Darījumi – samazināšanas princips (vēl nav atbalstīts ar plānošanas optimizāciju)
+- Transakcijas — samazināšanas princips
 - Transakcijas — dinamiskais periods
 
 Nākamajās sadaļās ir sniegta plašāka informācija par katru opciju.

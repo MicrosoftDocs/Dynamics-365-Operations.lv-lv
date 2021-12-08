@@ -2,19 +2,19 @@
 title: Pakalpojuma apraksts Finance and Operations programmām
 description: Šajā tēmā ir sniegts pakalpojuma apraksts Finance and Operations programmām.
 author: tomhig
-ms.date: 09/29/2021
+ms.date: 11/17/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: a1547f0cc6c6f705cd0e2ff6e5be751cb97b946a
-ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
+ms.openlocfilehash: 262cf00bdca63876c284be40954ca5de559b993a
+ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "7581820"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "7825404"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Pakalpojuma apraksts Finance and Operations programmām
 
@@ -50,7 +50,7 @@ Lietojumprogrammu Finance and Operations pārvaldības modelis nosaka specifiska
 
 ### <a name="customer-activities"></a>Debitoru darbības
 
-Klienti strādā ar savu partneri un [Microsoft FastTrack](/dynamics365/fasttrack/) , izmantojot [Success by Design](/dynamics365/fasttrack/success-by-design-overview) rīkus un labākās prakses veidnes, kas sniegtas [Lifecycle Services](../../dev-itpro/lifecycle-services/lcs.md), lai ieviestu savu risinājumu. Parastās aktivitātes ietver:
+Klienti strādā ar savu partneri un [Microsoft FastTrack](/dynamics365/fasttrack/) pēc [Dynamics 365 ieviešanas rokasgrāmatas](https://community.dynamics.com/365/dynamics-365-fasttrack/p/dynamics365implementationguide), struktūras un rīkiem un labākās prakses veidnēm, kas sniegtas...[Success by Design](/dynamics365/fasttrack/success-by-design-overview)[Lifecycle Services](../../dev-itpro/lifecycle-services/lcs.md), lai ieviestu savu risinājumu. Parastās aktivitātes ietver:
 
 - Lietotāju identitātes un drošības pārvaldība
 - Biznesa procesu definēšana, izstrādāšana un pārvaldība
@@ -66,7 +66,7 @@ Microsoft pārvalda Finance and Operations pakalpojumu, aktīvi pārraugot un p�
 **Infrastruktūras pārvaldība**
 - Drošība un izolēšana
 - Operētājsistēmas un virtualizācija
-- Serveri, uzglabāšana un transportēšana
+- Serveri, uzglabāšana un noliktava
 - Datu centra jauda, tīklošana, dzesēšana
 
 **Programmas platformas pārvaldība**

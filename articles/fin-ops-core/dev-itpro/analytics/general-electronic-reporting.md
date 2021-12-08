@@ -2,7 +2,7 @@
 title: Elektroniskie pārskati (ER)
 description: Šajā tēmā ir sniegts elektronisko atskaišu veidošanas (ER) rīka pārskats. Tajā ir aprakstītas galvenās koncepcijas, atbalstītie scenāriji un formāti, kas ir daļa no risinājuma.
 author: NickSelin
-ms.date: 09/20/2021
+ms.date: 11/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0fd83c787be4d9de151d2727384d07bc209e33f
-ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
-ms.translationtype: HT
+ms.openlocfilehash: 0b772acd4a8d0849803cefa8fc14ae3dd6e18831
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7562180"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867301"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektronisko pārskatu veidošanas (ER) apskats
 
@@ -30,11 +30,37 @@ ms.locfileid: "7562180"
 
 Šajā tēmā ir sniegts elektronisko atskaišu veidošanas (ER) rīka apskats. Tajā ir ietverta informācija par galvenajiem jēdzieniem, ER atbalstītajiem scenārijiem, kā arī saraksts ar formātiem, kas ir izstrādāti un izlaisti kā daļa no šī risinājuma.
 
-ER ir rīks, kuru varat izmantot, lai konfigurētu gan ienākošo, gan izejošo elektronisko dokumentu formātus saskaņā ar dažādu valstu/reģionu juridiskajām prasībām. ER jums ļauj pārvaldīt šos formātus to lietošanas cikla laikā. Varat, piemēram, pieņemt jaunas normatīvās prasības un varat ģenerēt biznesa dokumentus nepieciešamajā formātā, lai elektroniski apmainītos ar informāciju ar valsts institūcijām, bankām un citām pusēm.
+ER ir konfigurējams rīks, kas palīdz izveidot un uzturēt regulēšanas elektroniskos pārskatus un maksājumus. Tā ir balstīta uz šādiem trim koncepcijām:
+
+- Konfigurācija kodēšanas vietā:
+
+    - Konfigurāciju var veikt biznesa lietotājs, un tai nav nepieciešams izstrādātājs.
+    - Datu modelis ir definēts biznesa nosacījumos.
+    - Visual redaktori tiek izmantoti, lai izveidotu visus ER konfigurācijas komponentus.
+    - Datu pārvēršanai izmantotā valoda ir līdzīga valodai, kurā tiek lietota Microsoft Excel.
+
+- Viena konfigurācija vairākiem Dynamics 365 Finance laidieniem:
+
+    - Pārvaldiet vienu domēnam raksturīgu datu modeli, kas ir definēts biznesa nosacījumos.
+    - Izolēt programmas izlaišanas detaļas no izpildei atkarīgā datu modeļa kartēšanā.
+    - Uzturiet viena formāta konfigurāciju vairākiem pašreizējās versijas laidieniem, pamatojoties uz datu modeli.
+
+- Viegls vai automātisks jauninājums:
+
+    - Ir atbalstīta ER konfigurāciju versija.
+    - Lifecycle Services (LCS) līdzekļu bibliotēku var izmantot kā ER konfigurāciju repozitoriju Microsoft Dynamics versiju apmaiņai.
+    - Lokalizācijas, kuru pamatā ir sākotnējās ER konfigurācijas, var tikt ieviestas kā pakārtotās versijas.
+    - ER konfigurācijas koks ir nodrošināts kā rīks, kas palīdz kontrolēt versiju atkarības.
+    - Atšķirības lokalizācijā vai delta konfigurācijā tiek ierakstītas, lai iespējotu automātisku jaunināšanu uz jaunu sākotnējās ER konfigurācijas versiju.
+    - Ir viegli manuāli atrisināt konfliktus, kas ir atklātas lokalizācijas versiju automātiskās jaunināšanas laikā.
+
+ER ļauj definēt elektroniskā formāta struktūras un pēc tam aprakstīt, kā struktūras jāaizpilda, izmantojot datus un algoritmus. Varat izmantot formulas valodu, kas datu pārvēršanai ir līdzīga Excel valodai. Lai datu bāzu kartēšanu uz formātu padarītu pārvaldāmu, atkārtoti pielāgojamu un neatkarīgi no formāta izmaiņām, tiek ieviesta starpposma datu modeļa koncepcija. Šī koncepcija iespējo ieviešanas detaļu paslēpšanu formāta kartēšanā un ļauj atkārtoti izmantot vienu datu modeli vairāku formātu kartējumiem.
+
+Varat izmantot ER, lai konfigurētu formātus gan ienākošajiem, gan izejošajiem elektroniskajiem dokumentiem saskaņā ar dažādu valstu un reģionu juridiskajām prasībām. ER jums ļauj pārvaldīt šos formātus to lietošanas cikla laikā. Varat, piemēram, pieņemt jaunas normatīvās prasības un varat ģenerēt biznesa dokumentus nepieciešamajā formātā, lai elektroniski apmainītos ar informāciju ar valsts institūcijām, bankām un citām pusēm.
 
 ER programma ir vērsta uz biznesa lietotājiem, nevis izstrādātājiem. Tā kā jūs konfigurējat formātus, nevis kodu, tad elektronisko dokumentu formātu izveidošanas un pielāgošanas process ir ātrāks un ērtāks.
 
-Pašlaik modulis ER atbalsta šādus darblapu formātus: TEXT, XML, Microsoft Word dokuments, un OPENXML Taču paplašinājumu interfeiss sniedz atbalstu papildu formātiem.
+ER pašlaik atbalsta teksta, XML, JSON, Microsoft Word PDF, Microsoft Excel un OPENXML darblapas formātus.
 
 ## <a name="capabilities"></a>Spējas
 
@@ -48,6 +74,10 @@ ER programmai ir šādas iespējas:
 
 ## <a name="key-concepts"></a>Galvenie principi
 
+### <a name="main-data-flow"></a>Galvenā datu plūsma
+
+[![ER galvenā datu plūsma.](./media/ger-main-data-flow.jpg)](./media/ger-main-data-flow.jpg)
+
 ### <a name="components"></a>Komponenti
 
 Elektroniskie pārskati (ER) atbalsta šādus komponentu tipus:
@@ -59,74 +89,6 @@ Elektroniskie pārskati (ER) atbalsta šādus komponentu tipus:
 
 Papildinf. sk. tēmā [Elektronisko pārskatu veidošanas komponenti](er-overview-components.md).
 
-#### <a name="data-model-and-model-mapping-components"></a>Datu modeļa un modeļa kartēšanas komponenti
-
-Datu modeļa komponents ir abstrakts datu struktūras atainojums. Tas tiek izmantots kāda specifiska biznesa domēna apgabala aprakstīšanai pietiekami detalizēti, lai nodrošinātu šī domēna pārskatu veidošanas prasības. Datu modeļa komponents sastāv no šādām daļām:
-
-- <a name="DataModelComponent"></a>Datu modelis kā domēnam raksturīgo biznesa elementu kopa, un hierarhiski strukturēta šo elementu attiecību definīcija.
-- <a name="ModelMappingComponent"></a>Modeļa kartēšana, kas atlasīto programmas datu avotu saista ar atsevišķiem datu modeļa elementiem, kuri izpildes laikā norāda datu plūsmu un kārtulas biznesa datu aizpildīšanai datu modeļa komponentā.
-
-Datu modeļa biznesa elements tiek attēlots kā konteiners (ieraksts). Biznesa vienuma rekvizīti tiek attēloti kā datu elementi (lauki). Katram datu vienumam ir unikāls nosaukums, etiķete, apraksts un vērtība. Katra datu vienuma vērtība var būt izveidota tā, lai tā tiktu atpazīta kā virkne, vesels skaitlis, reāls skaitlis, datums, uzskaitījums, Būla vērtība un citi datu tipi. Turklāt tā var būt cits ieraksts kādā ierakstu sarakstā.
-
-Viens datu modeļa komponents var ietvert vairākas domēnam specifisko uzņēmējdarbības elementu hierarhijas. Tāpat tas var ietvert modeļa kartējumus, kas izpildes laikā atbalsta no pārskata atkarīgu datu plūsmu. Hierarhijas tiek atšķirtas pēc viena ieraksta, kas tika atlasīts kā modeļa kartēšanas sakne. Piemēram, maksājumu domēna apgabala datu modelis varētu atbalstīt šādus kartējumus:
-
-- Uzņēmums \> kreditors \> parādu kreditoriem domēna maksājumu transakcijas
-- Debitors \> uzņēmums \> debitoru parādu domēna maksājumu transakcijas
-
-Ņemiet vērā, ka biznesa elementi, piemēram, uzņēmums un maksājumu transakcijas, tiek izveidoti vienreiz. Pēc tam dažādi kartējumi tos lieto atkārtoti.
-
-Modeļa kartējumam, kas atbalsta izejošos elektroniskos dokumentus, ir tālāk norādītās iespējas.
-
-- Kā datu avotus kādam datu modelim tā var izmantot dažādus datu tipus. Piemēram, tā var izmantot tabulas, datu elementus, metodes vai uzskaitījumus.
-- Tā atbalsta lietotāja ievades parametrus, kurus var definēt kā datu modeļa datu avotus, kur izpildes laikā ir jānorāda kādi dati.
-- Tas atbalsta datu pārveidošanu nepieciešamajās grupās. Turklāt tas sniedz iespēju filtrēt, kārtot un summēt datus, kā arī pievienot loģiski aprēķinātos laukus, kuri ir izveidoti, izmantojot formulas, kas līdzinās Microsoft Excel formulām. Papildinformāciju skatiet tēmā [Formulas veidotājs elektronisko pārskatu (EP) veidošanā](general-electronic-reporting-formula-designer.md)).
-
-Modeļa kartējumam, kas atbalsta ienākošos elektroniskos dokumentus, ir tālāk norādītās iespējas.
-
-- Tas var kā mērķus izmantot dažādus atjaunināmos datu elementus. Šo datu elementu klāstā ietilpst tabulas, datu elementi un skati. Datus var atjaunināt, izmantojot datus no ienākošiem elektroniskajiem dokumentiem. Vienā modeļa kartēšanā var izmantot vairākus mērķus.
-- Tā atbalsta lietotāja ievades parametrus, kurus var definēt kā datu modeļa datu avotus, kur izpildes laikā ir jānorāda kādi dati.
-
-Datu modeļa komponents tiek izveidots katram biznesa domēnam, kurš ir jāizmanto kā vienots datu avots tādai pārskatu veidošanai, kas atdala pārskatus no datu avotu fiziskās ieviešanas. Tas pārstāv domēnam specifiskās biznesa koncepcijas un funkcionalitātes tādā formā, kas pārskata formāta sākotnējo noformējumu un turpmāko uzturēšanu padara efektīvāku.
-
-#### <a name="format-components-for-outgoing-electronic-documents"></a><a name="FormatComponentOutbound"></a>Formāta komponenti izejošiem elektroniskajiem dokumentiem
-
-Formāta komponents ir atskaišu veidošanas izvades shēma, kas tiks ģenerēta izpildes laikā. Shēma sastāv no šādiem elementiem:
-
-- Formāts, kas nosaka izpildes laikā ģenerētā izejošā elektroniskā dokumenta struktūru un saturu.
-- Datu avoti kā lietotāja ievades parametru kopa un domēnam specifisku datu modelis, kas izmanto atlasīto modeļa kartēšanu.
-- Formāta kartēšana kā formāta datu avotu saistījumu kopa, kuriem ir atsevišķi formāta elementi, kas izpildes laikā norāda datu plūsmu un kārtulas formāta izvades ģenerēšanai.
-- Formāta validēšana kā konfigurējamu kārtulu kopa, kas izpildes laikā regulē pārskata ģenerēšanu atkarībā no izpildes konteksta. Var būt, piemēram, kārtula, kas aptur kreditoru maksājumu izvades ģenerēšanu un parāda izņēmumu, ja trūkst atlasītā kreditora specifisku atribūtu, piemēram, bankas konta numura.
-
-Formāta komponents atbalsta tālāk aprakstītās funkcijas.
-
-- Pārskatu izveides izvade, izveidojot atsevišķus dažādu formātu, piemēram, teksta, XML, Microsoft Word dokumenta vai darblapas, failus.
-- Vairāku failu izveidošana atsevišķi un šo failu iekapsulēšana .zip failos.
-
-Formāta komponents jums ļauj pievienot noteiktus failus, kurus var izmantot pārskatu izvadē tālāk aprakstītajos veidos.
-
-- Excel darbgrāmatas, kas ietver darblapu, kuru var izmantot kā veidni izvadei OPENXML darblapas formātā
-- Word faili, kuros ir ietverts dokumentu, kuru var izmantot kā veidni izvadei Microsoft Word dokumenta formātā
-- Citi faili, kurus var iekļaut formāta izvadē kā iepriekš definētus failus
-
-Nākamajā attēlā ir parādīts, kā šiem formātiem notiek datu plūsmas.
-
-[![Datu plūsma izejošo formātu komponentiem.](./media/ER-overview-02.png)](./media/ER-overview-02.png)
-
-Lai palaistu atsevišķi ER formāta konfigurāciju un ģenerētu izejošu elektronisko dokumentu, ir nepieciešams identificēt formāta konfigurācijas kartējumu.
-
-#### <a name="format-components-for-incoming-electronic-documents"></a><a name="FormatComponentInbound"></a>Formāta komponenti ienākošiem elektroniskajiem dokumentiem
-
-Formāta komponents ir ienākošā dokumenta shēma, kas tiek importēta izpildes laikā. Shēma sastāv no šādiem elementiem:
-
-- Formāts, kas definē izpildes laikā importētā ienākošā un datus ietverošā elektroniskā dokumenta struktūru un saturu. Formāta komponents tiek izmantots, lai ienākošu dokumentu parsētu dažādos formātos, piemēram, kā tekstu un XML.
-- Formāta kartēšanu, kas atsevišķus formāta elementus saista ar domēnam specifiskiem datu modeļa elementiem. Izpildlaikā elementi datu modelī norāda datu plūsmu un kārtulas, kas jāizmanto datu importēšanai no ienākoša dokumenta, un pēc tam šos datus saglabā datu modelī.
-- Formāta validēšana kā konfigurējamu kārtulu kopa, kas izpildes laikā regulē datu importēšanu atkarībā no izpildes konteksta. Var būt, piemēram, kārtula, kas aptur kreditoru datu importēšanu tādam bankas izrakstam, kurā ir kreditora maksājumi, un parāda izņēmumu, ja trūkst kādu specifisku kreditora atribūtu, piemēram, kreditora identifikācijas koda.
-
-Nākamajā attēlā ir parādīts, kā šiem formātiem notiek datu plūsmas.
-
-[![Datu plūsma ienākošo formātu komponentiem.](./media/ER-overview-03.png)](./media/ER-overview-03.png)
-
-Lai palaistu atsevišķu ER formāta konfigurāciju un importētu datus no ienākoša elektroniskā dokumenta, ir nepieciešams identificēt formāta konfigurācijas vēlamo kartējumu, kā arī modeļa kartējuma integrācijas punktu. Vienu un to pašu modeļa kartējumu un mērķus varat izmantot kopā ar dažādiem formātiem, kas paredzēti dažāda tipa ienākošajiem dokumentiem.
 
 #### <a name="component-versioning"></a>Komponenta versiju izveide
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 792245e7821fe2ecb147e2b4756f3178fcdb17d1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 1a311b4a304984044a1c3bd3924c129821afbbb9
+ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569677"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "7825379"
 ---
 # <a name="product-identifiers"></a>Preču identifikatori
 
@@ -39,7 +39,7 @@ Programmā Dynamics 365 Supply Chain Management preces galvenais identifikators 
 
 Bieži vien preces numurs nav sākotnēji izveidots programmā Dynamics 365 Supply Chain Management. Tā vietā tas ir saistīts ar preci preču dzīves cikla pārvaldības (product lifecycle management — PLM) sistēmā vai preču datu pārvaldības (product data management — PDM) sistēmā. Šādā gadījumā jūs izmantojat datu elementus, lai importētu preces un preču variantus. Pēc tam Supply Chain Management izmanto visu operāciju numurus.
 
-Ieviešot Supply Chain Management, ir īpaši jāapsver preču numerācijas metode. Efektīva numerācijas sistēma uzlabo loģistikas plūsmas un palīdz nepieļaut kļūdas. Labā preces identifikatorā ir ne vairāk kā 15 rakstzīmes. Ideālā gadījumā tajā ir ne vairāk kā 10 rakstzīmes un ne vairāk kā piecas klasifikācijas rakstzīmes. Varat arī izmantot saīsinātos nosaukumus, lai nodrošinātu ātru meklēšanu. Meklēšanas nosaukums ir papildu nosaukums, kas atspoguļo produkta iedalījumus.
+Ieviešot Supply Chain Management, ir īpaši jāapsver preču numerācijas metode. Efektīva numerācijas sistēma uzlabo loģistikas plūsmas un palīdz nepieļaut kļūdas. Labiem preces identifikatoriem parasti ir jābūt 20 vai mazāk rakstzīmēm, bet ieteicams izmantot mazāk par 10 rakstzīmēm, iekļaujot ne vairāk kā 5 klasifikācijas rakstzīmes. Varat arī izmantot saīsinātos nosaukumus, lai nodrošinātu ātru meklēšanu. Meklēšanas nosaukums ir papildu nosaukums, kas atspoguļo produkta iedalījumus.
 
 Izmantojot Microsoft Dataverse, preču numurs Supply Chain Management ir arī Microsoft Dataverse preces numurs. Preču varianti tiek sinhronizēti ar pakalpojumu Dataverse kā atšķirīgas preces.
 

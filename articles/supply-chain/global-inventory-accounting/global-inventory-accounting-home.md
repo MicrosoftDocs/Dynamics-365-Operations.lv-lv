@@ -10,17 +10,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 954a3bcdf6ad163afd2596227ce2c8548fe37027
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: 268ee58583306bdd99e5d5cd5bb436a328a5648b
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678499"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860487"
 ---
 # <a name="global-inventory-accounting-home-page"></a>Globālās krājumu uzskaites sākumlapa
 
 [!INCLUDE [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!--KFM: Preview until 4/30/2022 -->
 
 Starptautiskām organizācijām tiek palielināta iestāžu atbilstība vietējiem un globālajiem grāmatvedības standartiem. Krājumu novērtēšanai ir būtiska nozīme atbilstības nodrošināšanā. The Microsoft Dynamics 365 Supply Chain Management Globālās krājumu uzskaites pievienojumprogramma nodrošina vispārēju risinājumu, kas uzņēmumiem (it īpaši starptautiskām organizācijām) ļauj izmantot vairākas izmaksu aprēķināšanas Virsgrāmatas krājumu uzskaitei. Tāpēc šīs organizācijas var atbilst vairākiem grāmatvedības standartiem un iekšējai vadības uzskaitei vienlaicīgi.
 

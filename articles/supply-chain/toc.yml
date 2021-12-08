@@ -62,10 +62,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Noliktavas konfigurēšana lokālajiem izvietojumiem
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Finance and Operations programmu darbību nodrošina 21Vianet Ķīnā
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Finance and Operations programmas Francijā
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
             - name: Jaunumi un izmaiņas
               items:
                 - name: Jaunumi un izmaiņas Finance and Operations programmās
@@ -2147,7 +2143,7 @@
               items:
                 - name: Projekta resursu informācijas iestatīšana
                   href: procurement/tasks/set-up-project-resource-information.md
-                - name: Projekta budžeta iesniegšana un apstiprināšana
+                - name: Izveidot un iesniegt projekta budžeta darbplūsmu
                   href: procurement/tasks/submit-approve-project-budget.md
                 - name: Projekta budžeta pārskatīšanas iesniegšana un apstiprināšana
                   href: procurement/tasks/submit-approve-project-budget-revision.md

@@ -458,6 +458,16 @@
                   href: help/language-locale.md
                 - name: Sadarbība pie palīdzības satura paplašināšanas un pielāgošanas
                   href: help/contributor-guide.md
+            - name: Izvietošanas apsvērumi
+              items:
+                - name: Suverēnas un lokālās mākoņa izvietošanas opcijas Dynamics 365 Finance un Dynamics 365 Supply Chain Management
+                  href: deployment/deployment-options-geo.md
+                - name: Finance un Supply Chain Management ASV Government Community Cloud (GCC)
+                  href: deployment/us-gcc-deployment.md
+                - name: Finance un Supply Chain Management darbību nodrošina 21Vianet Ķīnā
+                  href: deployment/china-local-deployment.md
+                - name: Finance and Operations programmas Francijā
+                  href: deployment/france-local-deployment.md
         - name: Izstrāde un pielāgošana
           items:
             - name: Izstrādes un pielāgošanas sākumlapa
@@ -1118,6 +1128,8 @@
                       href: data-entities/dual-write/party-gab-portal.md
                     - name: Jaunināšana uz pušu un globālās adrešu grāmatas modeli
                       href: data-entities/dual-write/upgrade-party-gab.md
+                    - name: Skatīt puses datus
+                      href: data-entities/dual-write/view-party.md
                     - name: Piezīmju integrācija
                       href: data-entities/dual-write/notes-integration.md
                     - name: Kartēšanas atsauce
@@ -1582,9 +1594,9 @@
                   href: sysadmin/batch-processing-overview.md
                 - name: Pakešapstrāde un partiju serveri
                   href: sysadmin/batch-server-overview.md
-                - name: Pakešuzdevumu izveide
+                - name: Izveidot pakešuzdevumus
                   href: sysadmin/tasks/create-batch-job.md
-                - name: Pakešuzdevumu automātisko atkārtoto mēģinājumu iespējošana
+                - name: Iespējot partiju mēģinājumus
                   href: sysadmin/retryable-batch.md
                 - name: Pakešuzdevuma kopēšana
                   href: sysadmin/copy-batch-job.md

@@ -1,8 +1,8 @@
 ---
-title: Finance ieskatu konfigurācija
+title: Finanšu ieskatu konfigurācija
 description: Šajā tēmā ir izskaidrotas konfigurācijas darbības, kas ļaus jūsu sistēmai izmantot iespējas, kas pieejamas Finance Insights.
 author: ShivamPandey-msft
-ms.date: 1/03/2021
+ms.date: 11/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,73 +15,93 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 5668d3ddff777645b4f1c6608f025d0c5a63208a
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
-ms.translationtype: HT
+ms.openlocfilehash: 6183e8a7500e9deff0ebf6b5dec8842ad4ca94cb
+ms.sourcegitcommit: 6a9f068b59b62c95a507d1cc18b23f9fd80a859b
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752982"
+ms.lasthandoff: 11/20/2021
+ms.locfileid: "7827032"
 ---
-# <a name="configuration-for-finance-insights"></a>Finance ieskatu konfigurācija
+# <a name="configuration-for-finance-insights"></a>Finanšu ieskatu konfigurācija
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Finance Insights apvieno Microsoft Dynamics 365 Finance funkcionalitāti ar Dataverse, Azure un AI Builder, lai nodrošinātu jaudīgus prognozēšanas rīkus jūsu organizācijai. Šajā tēmā ir izskaidrotas konfigurācijas darbības, kas ļaus jūsu sistēmai izmantot iespējas, kas pieejamas Finance Insights. Lai veiksmīgi pabeigtu šajā tēmā dotās procedūras, jums ir nepieciešama sistēmas administratora un sistēmas pielāgotāja piekļuve [Power Portal administrēšanas centrā, Sistēmas administratora piekļuve programmā un piekļuve vides izveidei dzīves cikla](https://admin.powerplatform.microsoft.com/)Dynamics 365 Finance Microsoft Dynamics pakalpojumos (LCS).
+Finance Insights apvieno Microsoft Dynamics 365 Finance funkcionalitāti ar Dataverse, Azure un AI Builder, lai nodrošinātu jaudīgus prognozēšanas rīkus jūsu organizācijai. Šajā tēmā ir izskaidrotas konfigurācijas darbības, kas ļaus jūsu sistēmai izmantot iespējas, kas pieejamas Finance Insights. Lai veiksmīgi pabeigtu šīs tēmas procedūras, jums jābūt sistēmas administratoram un sistēmas pielāgotāja piekļuvei [Power Portal administrēšanas centrā ](https://admin.powerplatform.microsoft.com/), sistēmas administratora piekļuvei un piekļuvei, lai izveidotu videsDynamics 365 Finance pakalpojumos Microsoft Dynamics Lifecycle Services (LCS).
 
 > [!NOTE]
-> Tālāk norādītās finanšu ieskatu iestatīšanas procedūras ir derīgas Dynamics 365 Finance versijas 10.0.21 versijām un jaunākām versijām.
+> Tālāk norādītās procedūras Finanšu ieskatu iestatīšanai ir derīgas versijā Dynamics 365 Finance 10.0.21 vai jaunākās versijās.
 
 ## <a name="deploy-dynamics-365-finance"></a>Dynamics 365 Finance izvietošana
 
 Lai izvietotu vides, veiciet tālāk norādītās darbības.
 
-1. LCS izveidojiet vai atjauniniet Dynamics 365 Finance vidi. Videi ir nepieciešama lietotnes versija 10.0.21 vai jaunāka versija.
+1. LCS izveidojiet vai atjauniniet Dynamics 365 Finance vidi. Videi nepieciešama programmas versija 10.0.21 vai jaunāka.
 
     > [!NOTE]
-    > Videi jābūt augstas pieejamības (HA) videi. (Šis vides veids ir pazīstams arī kā 2. līmeņa vide.) Lai iegūtu papildu informāciju, skatiet [Vides plānošana](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
+    > Videi jābūt augsta pieejamības (MAKS) videi. (Šis vides veids ir pazīstams arī kā 2. līmeņa vide.) Lai iegūtu papildu informāciju, skatiet [Vides plānošana](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
 
-2. Ja konfigurējat Finance ieskatus smilškastes vidē, iespējams, ražošanas dati ir jākopē šajā vidē, pirms darbosies prognozes. Prognozēšanas modelī tiek izmantoti vairāki datu gadi, lai izveidotu prognozes. Contoso demonstrācijas datos nav pietiekami daudz vēsturisko datu, lai atbilstoši apmācītu prognozēšanas modeli. 
+2. Ja finanšu ieskatu konfigurēšana tiek konfigurēta kastu vidē, iespējams, ražošanas dati jākopē šajā vidē pirms prognozēšanas darbosies. Prognozēšanas modelī tiek izmantoti vairāki datu gadi, lai izveidotu prognozes. Contoso demonstrācijas dati neietver pietiekamus vēsturiskos datus, lai nodrošinātu to, ka prognozēšanas modelis tiek sagatavots. 
 
+## <a name="configure-your-azure-ad-tenant"></a>Konfigurēt savu Azure AD nomnieku
+
+Azure Active Directory() Azure AD jābūt konfigurētam tā, lai to varētu izmantot kopā ar Dataverse lietojumprogrammu un Microsoft Power Platform lietojumprogrammām. Šai konfigurācijai ir nepieciešams, lai **lietotājam** **·** **LCS** laukā Projekta drošības loma būtu piešķirta loma Projekta īpašnieks vai Vides vadītājs.
+
+Pārbaudiet, vai ir pabeigta šāda iestatīšana:
+
+- Biznesa portāla **administratora centrā jums ir piekļuve Sistēmas** **administratoram** un Sistēmas pielāgotājam.
+- Vai Dynamics 365 Finance ekvivalenta licence tiek lietota lietotājam, kurš instalē Finanšu ieskatu pievienojumprogrammu.
+
+Tālāk norādītās Azure AD programmas ir Azure AD reģistrētas.
+
+|  Pieteikums                             | Programmas ID                               |
+|------------------------------------------|--------------------------------------|
+| Microsoft Dynamics ERP apakšpakalpojumi CDS | 703e2651-d3fc-48f5-942c-74274233dba8 |
+    
 ## <a name="configure-dataverse"></a>Dataverse konfigurēšana
 
 Sekojiet tālāk norādītajām darbībām, lai konfigurētu Dataverse programmai Finance Insights.
 
 - Atveriet vides lapu LCS un pārbaudīt, vai sadaļa **Power Platform integrācija** jau ir instalēta.
 
-    - Ja tā jau ir iestatīta, jāuzskaita ar Finance vidi saistītais Dataverse vides nosaukums.
-    - Ja tas vēl nav iestatīts, atlasiet **Uzstādīšana**. Vides iestatīšana Dataverse var ilgt līdz pat stundai. Kad iestatīšana ir veiksmīgi pabeigta, Dataverse jānorāda vides nosaukums, kas saistīts ar finanšu vidi.
+    - Ja Dataverse tas jau ir iestatīts, ir Dataverse jāuzskaita ar Finanšu vidi saistītais vides nosaukums.
+    - Ja Dataverse vēl nav iestatīts, atlasiet **Iestatījumi**. Vides Dataverse iestatījums var ilgt stundu. Kad uzstādīšana ir veiksmīgi pabeigta, ir jāuzskaita vides nosaukums, kas Dataverse saistīts ar Finanšu vidi.
+    - Ja šī integrācija tika iestatīta ar esošu vidi, sazinieties ar savu administratoru, lai pārliecinātos, vai saistītā vide Microsoft Power Platform nav atspējotā stāvoklī.
+
+        Papildinformāciju skatiet sadaļā [Integrācijas Power Platform](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md) iespējošana. 
+
+        Lai piekļūtu Microsoft Power Platform administratora vietnei, dodieties <https://admin.powerplatform.microsoft.com/environments> uz.
 
 ## <a name="configure-the-finance-insights-add-in"></a>Finance Insights pievienojumprogrammas konfigurēšana
 
-Ja iepriekš instalējāt finance ieskatu pievienojumprogrammu, atinstalējiet to pirms šīs darbības pabeigšanas.
+Ja iepriekš instalējāt pievienojumprogrammu Finanšu ieskati, atinstalējiet to pirms tālāk norādītās procedūras pabeigšanas.
 
 > [!NOTE]
-> Ja jau esat instalējis datu ezera pievienojumprogrammu LCS, Finance ieskati to izmantos, lai saglabātu datus, kas nepieciešami prognozēm. Ja vēl neesat instalējis datu ezera pievienojumprogrammu LCS, pievienojumprogramma Finance insights izveidos jums pārvaldītu datu ezeru.
+> Ja datu pievienojumprogramma LCS jau ir instalēta, finanšu ieskati to izmantos, lai saglabātu prognozēm nepieciešamos datus. Ja vēl neesat instalējis datu in in LCS pievienojumprogrammu, Finanšu ieskatu pievienojumprogramma izveidos pārvaldītu datu summu jūsu vietā.
 
 Izpildiet šīs darbības, lai instalētu Finance Insights pievienojumprogrammu.
 
 1. Pierakstieties LCS un pēc tam pie vides nosaukuma lapas labajā pusē atlasiet **Pilna informācija**.
 2. Sadaļā **Vides pievienojumprogrammas** atlasiet **Instalēt jaunu pievienojumprogrammu**.
 3. Atlasiet pievienojumprogrammu **Finance Insights**.
-4. Piekrītu noteikumiem un nosacījumiem un pēc tam atlasiet **Instalēt**.
+4. Piekrītiet noteikumiem un nosacījumiem un pēc tam atlasiet **Instalēt**.
 
 Pievienojumprogrammas instalēšana var ilgt vairākas minūtes.
 
-## <a name="one-last-thing"></a>Vēl viena lieta...
+## <a name="one-last-thing"></a>Viena pēdējā iespēja...
 
-Kad pievienojumprogramma ir veiksmīgi instalēta, var paiet līdz pat stundai, līdz programmā var iespējot Finance Insights līdzekļus **līdzekļu pārvaldības** Dynamics 365 Finance darbvietā. Ja nevēlaties tik ilgi gaidīt, varat manuāli palaist **ieskatu nodrošināšanas statusa pārbaudes** procesu. 
+Pēc pievienojumprogrammas veiksmīgas instalēšanas tā var ilgt kādu stundu, pirms finanšu ieskatu līdzekļus var iespējot programmas **Līdzekļu pārvaldības** Dynamics 365 Finance darbvietā. Ja nevēlaties gaidīt šo ilgu laiku, varat manuāli palaist ieskatu **nodrošinājuma statusa pārbaudes** procesu. 
 
-1. Sadaļā Dynamics 365 Finance dodieties uz **Sistēmas administrēšanas \>\> iestatīšanas procesa automatizācija**.
-2. Cilnē **Fona procesi** atrodiet **ieskatu nodrošināšanas statusa pārbaudi un** atlasiet Rediģēt **·**.
-3. Iestatiet **lauku Nākamā izpilde** 30 minūtes pirms pašreizējā laika.
+1. Dodieties Dynamics 365 Finance uz Sistēmas **administrēšanas iestatīšanas \> procesa \> automatizāciju.**
+2. Cilnē Fona **procesi** atrodiet **ieskatu nodrošinājuma statusa pārbaudi un atlasiet** **Rediģēt**.
+3. Iestatiet lauku **Nākamā** izpilde 30 minūtes pirms pašreizējā laika.
 
-   Šīm izmaiņām vajadzētu likt **nekavējoties palaist ieskatu nodrošināšanas statusa pārbaudes** procesu.
+   Šai izmaiņai ir **jāpārtrauc uzkrājumu nodrošinājuma statusa** pārbaudes process.
 
-   Kad **ieskatu nodrošināšanas statusa pārbaudes** process ir veiksmīgi palaists, līdzekļu pārvaldības darbvietā varat iespējot Finance insights **·** līdzekļus.
+   Kad **ieskatu nodrošinājuma statusa pārbaudes process ir veiksmīgi palaists, finanšu ieskatu līdzekļus var** iespējot līdzekļu **pārvaldības** darbvietā.
 
 ## <a name="feedback-and-support"></a>Atsauksmes un atbalsts
 
-Ja vēlaties sniegt atsauksmes vai ja jums ir nepieciešams atbalsts, sūtiet e-pasta [ziņojumus Finance insights (Preview)](mailto:fiap@microsoft.com).
+Ja interesējaties par atsauksmju sniegšanu vai ja nepieciešams atbalsts, sūtiet e-pasta ziņojumu uz [Finanšu ieskati (priekšskatījums)](mailto:fiap@microsoft.com).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

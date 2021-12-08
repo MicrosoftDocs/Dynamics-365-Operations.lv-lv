@@ -2,7 +2,7 @@
 title: Elektronisko ziņojumu iestatīšana
 description: Šajā tēmā ir sniegta informācija, kā iestatīt elektronisko ziņojumu (EM) funkcionalitāti.
 author: liza-golub
-ms.date: 07/07/2021
+ms.date: 11/18/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2021-06-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 2b62efabfae26a6cc004604e687a49bce992d78a30f0d441aa74fa5cde70e063
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: a9d623c712de34afd1b38dbc6a8738ebf9613d49
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752179"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860562"
 ---
 # <a name="set-up-electronic-messages"></a>Elektronisko ziņojumu iestatīšana
 
@@ -34,6 +34,7 @@ Ja neimportējat datu elementu pakotni, varat manuāli iestatīt EM funkcionalit
 - [Papildlauki](#additional)
 - [Izpildāmās klases darbības](#executable)
 - [Ierakstu aizpildīšanas darbības](#populate)
+- [Aizpildīt ierakstus no vairākiem uzņēmumiem](#multiple-companies-populate)
 - [Tīmekļa lietojumprogrammas](#applications)
 - [Tīmekļa pakalpojuma iestatījumi](#settings)
 - [Ziņojuma apstrādes darbības](#actions)
@@ -139,6 +140,38 @@ Cilnē **Datu avotu iestatīšana** pievienojiet rindu katram datu avotam, kas t
 | Uzņēmums                | Šis lauks ir pieejams, ja darbvietā **Līdzekļa pārvaldība** ir ieslēgti līdzeklim **Starpuzņēmumu vaicājumi aizpildīto ierakstu darbībām**. Izmantojiet šo funkciju, lai iestatītu starpuzņēmumu datu avotus aizpildīto ierakstu darbībām. Datus var ienest no vairākiem uzņēmumiem. |
 | Lietotāja vaicājums             | <p>Ja iestatāt vaicājumu, virs režģa atlasot darbvietā **Labot vaicājumu** un norādot kritērijus, kas jāpiemēro atlasītajai vispārējai tabulai, kurā tiek ievadīti dati, šī izvēles rūtiņa tiek atzīmēta automātiski. Pretējā gadījumā visi ieraksti tiek aizpildīti no atlasītā galvēnās tabulas avota.</p><p>Ja līdzeklis **Starpuzņēmumu vaicājumi par aizpildīto ierakstu darbībām** ir ieslēgts darbvietā **Līdzekļu pārvaldība**, un ieraksti ir jāievāc no vairākiem uzņēmumiem, pievienojiet rindu katrai papildu juridiskajai personai, kas jāiekļauj pārskatos. Katrai jaunai rindai atlasiet **Labot vaicājumu** un norādiet saistīto kritēriju, kas ir specifisks juridiskajai personai, kas ir norādīta rindas laukā **Uzņēmums**. Kad režģis **Datu avota iestatījums** būs pabeigts, tas saturēs rindas visām juridiskajām personām, kas jāiekļauj pārskatā.</p> |
 
+## <a name="populate-records-from-multiple-companies"></a><a id="multiple-companies-populate"></a> Aizpildīt ierakstus no vairākiem uzņēmumiem
+
+Ja jūsu uzņēmumam ir jāsniedz pārskats no vairākām juridiskajām personām vienā finanšu datu bāzē, iestatiet aizpildīto ierakstu darbības visām juridiskajām personām, no kurām dati jāiekļauj [pārskatā](#populate).
+
+Lai iespējotu šo spēju finanšu vidē, sekojiet šiem soļiem. 
+
+1. Pārejiet uz **sadaļu** \> **Darbalauku līdzekļu** pārvaldība.
+2. Atrodiet un atlasiet **starpuzņēmumu vaicājumus aizpildīto ierakstu darbību** līdzeklim sarakstā.
+3. Atlasiet **Iespējot tagad**. 
+
+Lai iestatītu [aizpildīto ierakstu darbības](#populate) vairākiem uzņēmumiem, no kuriem dati jāiekļauj pārskatā, sekojiet šiem soļiem.
+
+1. Doties uz **nodokļu** \> **iestatīšanas** \> **·** \> **elektroniskajiem ziņojumiem Aizpildīt ierakstu** darbības.
+
+    Ja starpuzņēmumu vaicājumi aizpildīto ierakstu darbību funkcijai ir iespējoti, datu avotu iestatīšanas režģis darbību lapā Aizpildītie ieraksti **ietver** lauku **·** **·** **Uzņēmums**. Esošiem ierakstiem, kas tika izveidoti aizpildīto ierakstu darbību vispārīgās iestatīšanas laikā, šis lauks [rāda](#populate) pašreizējās juridiskās personas identifikatoru.
+
+2. Datu avotu iestatījumu režģī pievienojiet rindu katrai juridiskajai personai, kas jāiekļauj pārskatā, un iestatiet **šādus** laukus.
+
+    | Lauka nosaukums             | Vērtība |
+    |------------------------|-------|
+    | Nosaukums                   | Ievadiet teksta vērtību, kas palīdzēs saprast, no kurienes ir šis ieraksts. Piemēram, ievadiet **Datu avota nosaukumu - 1.** filiāle. |
+    | Ziņojuma krājuma veids      | Atlasiet ziņojuma krājuma tipu, kas nepieciešams jūsu EM apstrādei. |
+    | Konta veids           | Norādiet konta tipu, kas nepieciešams jūsu EM apstrādei. Ja EM apstrādei nav specifisku kontu tipu, atlasiet **Visi**. |
+    | Galvenās tabulas nosaukums      | Norādiet galvenās tabulas nosaukumu, kas nepieciešams jūsu EM apstrādei. |
+    | Dokumenta numura lauks  | Norādiet lauku, kas satur dokumenta numuru jūsu EM apstrādes ierakstos. |
+    | Dokumenta datuma lauks    | Norādiet lauku, kas satur dokumenta datumu jūsu EM apstrādes ierakstos. |
+    | Dokumenta konta lauks | Norādiet lauku, kas satur dokumenta kontu jūsu EM apstrādes ierakstos. |
+    | Uzņēmums                | Atlasiet filiāles juridiskās personas ID. |
+    | Lietotāja vaicājums             | Šī izvēles rūtiņa tiek automātiski atzīmēta, kad definējat kritērijus, atlasot **Vaicājumu** Labot. |
+
+3. Katrai jaunai rindai atlasiet Vaicājumu Rediģēt un norādiet juridiskās personas saistītos kritērijus, kas **ir** norādīti rindas **laukā** Uzņēmums.
+
 ## <a name="web-applications"></a><a id="applications"></a>Tīmekļa lietojumprogrammas
 
 Tīmekļa programmas iestatījumus izmanto, lai iestatītu tīmekļa programmu, lai tā atbalstītu Open Authorization (OAuth) 2.0. OAuth ir atvērts standarts, kas ļauj lietotājam piešķirt “drošu deleģēto piekļuvi” programmai lietotāju vārdā, nenorādot lietotāju piekļuves akreditācijas datus. Varat arī izpildīt autorizēšanas procesu, iegūstot autorizācijas kodu un piekļuves marķieri. Tīmekļa programmas iestatījumus varat iestatīt, dodoties uz **Nodoklis** \> **Iestatījumi** \> **Elektroniskie ziņojumi** \> **Tīmekļa programmas**.
@@ -185,7 +218,7 @@ Nākamajā tabulā ir aprakstīti lauki lapā **Tīmekļa pakalpojumu iestatīju
 |--------------------------------|-------------|
 | Tīmekļa pakalpojums                    | Ievadiet tīmekļa pak. nosaukumu. |
 | apraksts                    | Ievadiet tīmekļa pakalpojuma aprakstu. |
-| Interneta adrese               | <p>Ievadiet tīm. pakalpojuma interneta adresi. Ja tīmekļa programma tīmekļa pakalpojumam ir norādīta un ja tīmekļa pakalpojuma interneta adresei jābūt tādai pašai, kāda ir definēta attiecīgajai tīmekļa programmai, atlasiet vienumu **Kopēt pamata URL**. Tīmekļa lietojumprogrammas pamata URL pēc tam tiek kopēts šajā laukā.</p><p>**Brīdinājums:** Trešās puses pakalpojumiem vai citiem pakalpojumiem, ko šeit konfigurējat, nav nepieciešama sertifikācija, un tie var neatbilst Microsoft konfidencialitātes standartiem. Lai iegūtu plašāku informāciju par šī pakalpojuma nodrošināto saskaņotības līmeni, jums jāpārskata katra pakalpojuma konfidencialitātes dokumentācija un jādarbojas kopā ar katru pakalpojumu sniedzēju. Esat atbildīgs par to, lai šie pakalpojumi atbilstu jūsu drošības, konfidencialitātes un juridiskajiem standartiem. Jūs uzņematies pakalpojumu izmantošanas risku. Korporācija Microsoft nesniedz tiešās garantijas, apliecinājumus vai nosacījumus. Stingri ieteicams izmantot tikai pakalpojumus, kas nodrošina drošus un autorizētus savienojumus, piemēram, HTTPS.</p> |
+| Interneta adrese               | <p>Ievadiet tīm. pakalpojuma interneta adresi. Ja tīmekļa programma tīmekļa pakalpojumam ir norādīta un ja tīmekļa pakalpojuma interneta adresei jābūt tādai pašai, kāda ir definēta attiecīgajai tīmekļa programmai, atlasiet vienumu **Kopēt pamata URL**. Tīmekļa lietojumprogrammas pamata URL pēc tam tiek kopēts šajā laukā.</p><p>**Brīdinājums:** Trešās puses pakalpojumiem vai citiem pakalpojumiem, ko šeit konfigurējat, nav nepieciešama sertifikācija, un tie var neatbilst Microsoft konfidencialitātes standartiem. Lai iegūtu plašāku informāciju par šī pakalpojuma nodrošināto saskaņotības līmeni, jums jāpārskata katra pakalpojuma konfidencialitātes dokumentācija un jādarbojas kopā ar katru pakalpojumu sniedzēju. Esat atbildīgs par to, lai šie pakalpojumi atbilstu jūsu drošības, konfidencialitātes un juridiskajiem standartiem. Jūs uzņematies pakalpojumu izmantošanas risku. Korporācija Microsoft nesniedz tiešas garantijas, garantijas vai nosacījumus. Stingri ieteicams izmantot tikai pakalpojumus, kas nodrošina drošus un autorizētus savienojumus, piemēram, HTTPS.</p> |
 | Sertifikāts                    | Atlasiet Azure Key Vault sertifikātu, kas iestatīts iepriekš. |
 | Tīmekļa programma                | Atlasiet tīmekļa programmu, kas iestatīta iepriekš. |
 | Atbildes veids — XML        | Iestatiet šai opcijai **Jā**, ja atbildes tips ir XML. |
@@ -214,6 +247,7 @@ Tabulā ir aprakstīti lapā **Ziņojumu apstrādes darbības** esošie lauki.
 | Izpildāmā klase                          | Atlasiet esošu izpildāmās klases iestatījumu. Šis lauks ir pieejams tikai darbību tipiem **Ziņojuma vienuma izpildes līmenis** un **Ziņojuma vienuma izpildes līmenis**. |
 | Ierakstu aizpildīšanas darbība                   | Atlasiet esošu aizpildītu ierakstu darbību. Šis lauks ir pieejams tikai darbību tipam **Aizpildīt ierakstus**. |
 | Tīmekļa pakalpojums                               | Atlasiet esošu tīmekļa pakalpojumu. Šis lauks ir pieejams tikai darbību tipam **Tīmekļa pakalpojums**. |
+| Sūtāmā faila nosaukums                         | Ievadiet nosaukumu pielikumam elektroniskajam ziņojumam, kas jānosūta šai darbībai. Ja vairākiem pielikumiem ir vienāds oriģinālais faila nosaukums, tiks nosūtīts jaunākais. Ja netiek atrasts neviens pielikums ar norādīto sākotnējā faila nosaukumu, pieprasījums tiks nosūtīts bez satura. Šis lauks ir pieejams tikai darbību tipam **Tīmekļa pakalpojums**. |
 | Faila nosaukums                                 | Norādiet faila nosaukumu, kurš būs darbības rezultāts. Šis fails var būt atbilde no tīmekļa servera vai ģenerētais pārskats. Šis lauks ir pieejams tikai darbību tipiem **Tīmekļa pakalpojums** un **Elektroniskā pārskata veidošanas eksporta ziņojums**. |
 | Pievienot failus avota dokumentiem          | Atzīmējiet šo izvēles rūtiņu, lai pievienotu ģenerētos failus ierakstiem EM krājumu atsauces galvenajā tabulā. Šis lauks ir pieejams tikai darbību tipiem **Elektronisko ziņojumu eksportēšana** un **Tīmekļa pakalpojums**. |
 | Pievienot vienumiem failus no izvades arhīva | Atzīmējiet šo izvēles rūtiņu, lai izvilktu atsevišķus XML failus no izvades arhīva faila un pievienotu tos atbilstošajiem elektroniskā ziņojuma vienumiem. Šis lauks ir pieejams tikai darbību tipam **Elektroniskā pārskata veidošanas eksports**. |

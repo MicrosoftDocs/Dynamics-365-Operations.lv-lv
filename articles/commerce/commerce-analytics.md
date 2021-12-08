@@ -1,386 +1,534 @@
 ---
 title: Commerce Analytics (priekšskatījums)
-description: Šajā tēmā sniegta detalizēta informācija par analīzes iespējas instalēšanu un lietošanu Dynamics 365 Commerce.
+description: Šajā tēmā skaidrots, kā instalēt un izmantot analīzes iespējas sadaļā Microsoft Dynamics 365 Commerce.
 author: AamirAllaq
-ms.date: 11/15/2021
+ms.date: 11/23/2021
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: aamiral
 ms.search.validFrom: 2021-11-12
-ms.openlocfilehash: 7f3e51cc3f7314bd33bca9e598bd0b1c9118caef
-ms.sourcegitcommit: 9f8da0ae3dcf3861e8ece2c2df4f693490563d5e
-ms.translationtype: HT
+ms.openlocfilehash: 8cfe2af756315b5be3eb22d99376a96166fffc52
+ms.sourcegitcommit: f9fca3d55b47e615e5ef64669dab184e057ec234
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "7817457"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7862777"
 ---
 # <a name="commerce-analytics-preview"></a>Commerce Analytics (priekšskatījums)
 
 [!include [banner](includes/banner.md)]
 
-Commerce Analytics ir funkcionālās analīzes iespēja, kas iekļauta Dynamics 365 Commerce. Šajā tēmā sīkāk aprakstīta Commerce Analytics informācija un skaidrots, kā to instalēt. 
+Šajā tēmā skaidrots, kā instalēt Commerce Analytics (priekšskatījums), funkcionālo analīzes spēju, kas ir iekļauta Microsoft Dynamics 365 Commerce.
 
-## <a name="system-architecture"></a>Sistēmas arhitektūra
+## <a name="commerce-analytics-preview-live-demo"></a>Commerce Analytics (priekšskatījums) tiešais demonstrācija
+
+Varat mēģināt kādu live [demonstrāciju pakalpojumā Commerce Analytics (preview)](https://aka.ms/CommerceAnalyticsDemo).
+
+![Commerce Analytics (Preview) Kopsavilkums](media/CommerceAnalytics_Summary.png)
+![Commerce Analytics (priekšskatījums) Maksājumi](media/CommerceAnalytics_Payments.png)
+![Commerce Analytics (priekšskatījums) web aktivitāte](media/CommerceAnalytics_WebActivity.png)
+
+
+## <a name="commerce-analytics-preview-system-architecture"></a>Commerce Analytics (Preview) sistēmas arhitektūra
+
 ### <a name="key-components"></a>Galvenie komponenti
-Commerce Analytics sastāv no šādiem galvenajiem komponentiem:
-- Gatavs izmantot interaktīvus Power BI pārskatus
+
+Commerce Analytics (Preview) sastāv no šādiem galvenajiem komponentiem:
+
+- Lietošanai gatavie interaktīvie Power BI pārskati
 - SQL skati Azure Synapse analīzes pakalpojumā
 - Elementa un ontoloģijas dati Azure datu līdzās
-- Neapstrādātie dati Azure datu pārsūtīšanai
+- Neapstrādātie dati Uzr.
 
-![Sistēmas arhitektūra Commerce Analytics](media/CommerceAnalytics.png)
+![Commerce Analytics sistēmas arhitektūras galvenie komponenti](media/CommerceAnalyticsArchitecture_v2.png)
 
 ### <a name="data-flow"></a>Datu plūsmas
+
 #### <a name="step-1-data-generation"></a>1. darbība: datu ģenerēšana
+
 Dati rodas kā darbību dati vai uzvedības dati no viena no šiem avotiem:
-- Zvanu centra piesaiste, izmantojot Commerce HQ klientu, lai apstrādātu pārdošanas pasūtījumus
-- Kasieris pārdošanas punktā (POS), kas apstrādā pārdošanas darbības
-- Pārdošana, kas izveidota pielāgotās programmās, izmantojot bezatdošanas commerce (Commerce Scale Unit)
-- E-commerce shopper pārlūkošana jūsu e-commerce vietnē 
-- E-komercijas veikalā, kas ievieto pasūtījumu jūsu e-komercijas vietnē
-- Citu sistēmu saražotie dati, piemēram, Dynamics 365 Connected Spaces
+
+- Zvanu centra piesaiste izmanto Commerce HQ klientu, lai apstrādātu pārdošanas pasūtījumus.
+- Kasieris pārdošanas punktā (POS) apstrādā pārdošanas darbības.
+- Pārdošana tiek veidota pielāgotās programmās, izmantojot bezatgriezīgu commerce (Commerce Scale Unit).
+- E-komercijas veikalā tiek pārlūkota jūsu e-komercijas vietne.
+- E-komercijas veikalā jūsu e-komercijas vietnē tiek pasūtīts pasūtījums.
+- Datus sagatavo citas sistēmas, Dynamics 365 Connected Spaces piemēram, .
 
 #### <a name="step-2-ingestion-and-pre-processing"></a>2. solis. Iesācīšana un pirmapstrāde
-Transakciju dati ievada Commerce HQ tieši (pasūtījumus, kas ir notverti tieši Commerce HQ klientā) vai Commerce Scale Unit (pasūtījumi, kas notverti POS, e-komercijai, vai pielāgotos klientus, izmantojot Bezatgriezuma Commerce). 
 
-Tad transakciju dati tiek pārkopti uz jūsu Azure datu Pārsūtīšanas kā neapstrādātie dati ar funkciju Eksportēt uz datu Par sakopošanu, un dati tiek glabāti **·** mapē "Tabulas". E-komercijas tīmekļa aktivitātes dati tiek sūtīti tieši uz datu darbību.
+Transakciju dati tiek iet uz Commerce HQ tieši (pasūtījumu gadījumā, kas tiek notverti tieši Commerce HQ klientā) vai caur Commerce Scale Unit (ja pasūtījumi ir notverti POS, e-komercijas ietvaros vai pielāgotos klientos, kas izmanto bezgalīgo tirdzniecību).
 
-Citu sistēmu izveidotie dati, Dynamics 365 Connected Spaces piemēram, arī tiek nosūtīti tieši uz datu darbību.
+Pēc tam funkcija Eksportēt uz datu Konta tiek izmantota, lai kopētu darbības datus uz jūsu datiem kā neapstrādātus datus. Neapstrādātie dati saglabāts mapē Tabulas.
+
+E-komercijas tīmekļa aktivitātes dati tiek sūtīti tieši uz datu darbību. Datus, ko sagatavo citas sistēmas, Dynamics 365 Connected Spaces piemēram, tos, nosūta tieši uz šo sistēmu datiem.
 
 #### <a name="step-3-transformation-and-aggregation"></a>3. darbība: pārvēršana un apkopošana
-Kad neapstrādātie dati ir datu reģistrācijā, Commerce Analytics Service nolasa datus, pārveido, uzkopē tos un ieraksta tos atpakaļ datu ierakstītājā loģisko entītiju formā mapē "Entītijas" un apkopotos rādītājus mapē "Ontoloģijas". 
+
+Kad neapstrādātie dati ir jūsu datu struktūrā, Commerce Analytics pakalpojums to nolasa, pārveido, uzkopē un ieraksta atpakaļ datu ierakstītājā loģisko entītiju formā (entītiju mapē) un uzkrātos rādītājus (ontoloģijas mapē).
 
 #### <a name="step-4-querying"></a>4. darbība: vaicājums
-Dati, kas atrodas uz vietas, tiek vaicāti, izmantojot T-SQL interfeisu, Azure Synapse izmantojot Analīzes. Interfeiss ietver SQL skatījumus, kas ļauj izmantot pārsūtīšanas datu ārējo vaicājumu, vai nu tieši izmantojot T-SQL klientu ekspromta analīzei, vai izmantojot vizualizēšanas rīku, Power BI piemēram, .
+
+Azure Synapse Analītisko analīzi izmanto, lai vaicātu par datiem datu veidā, izmantojot Transact-SQL (T-SQL) interfeisu. Šis interfeiss ietver SQL skatus. SQL skati iespējo datu ārējas vaicāšanas datu pakalpojumā, vai nu tieši, izmantojot T-SQL klientu (ekspromtanai) vai vizualizēšanas Power BI rīku, piemēram.
 
 #### <a name="step-5-modeling-and-serving"></a>5. solis. Modelēšana un apkalpošana
-Pēc tam Analīzes Azure Synapse vaicājumā šie dati tiek Power BI aizķerti ar semantisko modeli. Atkarībā no datu tipa tie tiek importēti atmiņā periodiski vai tieši vaicājumā Power BI izpildes laikā. 
 
-Pēdējais posms ir dati, kas tiks atveidoti vizuāli, Power BI lai lietotāji varētu skatīt un mijiedarboties. 
+Dati, uz kuriem attiecas Azure Synapse Analīzes Power BI vaicājums, ir uz semantisko modeli. Atkarībā no datu tipa tie ir periodiski importēti atmiņā vai tieši vaicājumā Power BI izpildlaikā.
 
-## <a name="commerce-analytics-functional-overview"></a>Commerce Analytics funkcionālā pārskata apskats
-### <a name="1-summary"></a>1. Kopsavilkums
-#### <a name="top-level-filters"></a>Augstākā līmeņa filtri
-1.  Datuma iestatījumi
-    1. Gads
-    2. Ceturksnis    
-    3. mēnesis;    
-    4. Nedēļa    
-    5. diena;
-2. Kanāla iestatījumi
-    1. Juridiska persona    
-    2. Kanāla veids    
-    3. Debitora veids    
-    4. Pārdošanas tips    
-    5. Kanāls    
-    6. Organizācijas hierarhija
-3. Preces iestatījumi
-    1. Kategoriju hierarhija    
-    2. Kategorija
+Visbeidzot dati tiek atveidoti Power BI vizuāli, lai lietotāji varētu tos apskatīt un mijiedarboties.
 
-#### <a name="a-product"></a>a. Prece
-1. Pārdošana
-2. Peļņa
-3. Atgriešanas darbības
+## <a name="commerce-analytics-preview-functional-overview"></a>Commerce Analytics (Preview) funkcionālā apskats
 
-#### <a name="b-customer"></a>b. Debitors
-1. Pārdošana
-2. Peļņa
-3. Atgriešanas darbības
+### <a name="summary"></a>Kopsavilkums
 
-#### <a name="c-channel"></a>c. Kanāls
-1. Pārdošana
-2. Peļņa
-3. Atgriešanas darbības
+Commerce Analytics veidnes programmā ir ietvertas šādas galvenās pārskatu lapas:
 
-### <a name="2-sales"></a>2. Pārdošana
-1. Pēc piegādes vietas
-2. Pēc kanāla/veikala/termināļa
-3. Pa darbiniekiem
-4. Pēc datuma
-5. Pa stundām
-6. Pēc preču kategorijas
+1. [Augstākā līmeņa filtri](#TopLevelFilters)
+2. [Produkti](#ProductsPage)
+3. [Debitori](#CustomersPage)
+4. [Kanāli](#ChannelsPage)
+5. [Pārdošana](#SalesPage)
+6. [Robežas](#MarginsPage)
+7. [Atgriešanas darbības](#ReturnsPage)
+8. [Atlaides](#DiscountsPage)
+9. [Maksājumi](#PaymentsPage)
+10. [Debitori](#CustomersPage)
+11. [Salīdzinājums](#ComparisonPage)
+12. [Aktivitāte tīmeklī](#WebActivityPage)
+13. [Web aktivitāte — augstākā līmeņa filtrs](#WebActivityTopLevelFilters)
 
-### <a name="3-margin"></a>3. Peļņa
-1. Pēc piegādes vietas
-2. Blakusprodukts
-3. Pēc datuma
+####  <a name="top-level-filters"></a><a name="TopLevelFilters"></a> Augstākā līmeņa filtri
 
-### <a name="4-return"></a>4. Atgriešana
-1. Atgriešana pēc summas
-    1. Pēc veikala    
-    2. Blakusprodukts    
-    3. Pēc datuma
-2. Atgriešana pēc darbības
-    1. Pēc veikala    
-    2. Blakusprodukts    
-    3. Pēc datuma
+- Datuma iestatījumi
 
-### <a name="5-discount"></a>5. Atlaide
-1. Pēc veikala
-2. Blakusprodukts
-3. Pēc datuma
-4. Dekompozīcija
-    1. Juridiska persona    
-    2. Veikals    
-    3. Atlaides veids    
-    4. Atlaides nosaukums    
-    5. Prece
+    - Gads
+    - Ceturksnis
+    - mēnesis;
+    - Nedēļa
+    - diena;
 
-### <a name="6-payment"></a>6. Maksājums
-1. Pēc kanāla/termināļa
-2. Pēc maksāšanas metodes/tipa
-3. Pēc datuma
-4. Dekompozīcija
-    1. Juridiska persona    
-    2. Kanāla veids    
-    3. Veikals    
-    4. Terminālis    
-    5. Maksāšanas veids
+- Kanāla iestatījumi
 
-### <a name="7-customer"></a>7. Debitors
-1. Kalpošanas laika vērtība (LTV): kalpošanas laika vērtība tiek aprēķināta, pamatojoties uz kopējo summu, ko debitors izmanto visos Commerce Pārdošanas kanālos (POS, e-komercija un zvanu centrā).
-2. Recency: recency tiek aprēķināts, ņemot vērā dienu skaitu, kopš debitora pēdējās transakciju saistības ar organizāciju. Recency neietver darījumu piesaistes signālus, piemēram, e-komercijas pārlūkošanas aktivitāti.
-3. Biežums: biežums tiek aprēķināts, ņemot vērā debitora darbības saistībām ar organizāciju. Biežums neietver darījumu piesaistes signālus, piemēram, e-komercijas pārlūkošanas aktivitāti.
-4. Attiecību garums. Attiecību garums tiek aprēķināts, pamatojoties uz dienu skaitu, kopš sistēmā tika izveidots debitora ieraksts. 
-5. Transakciju skaits
+    - Juridiska persona
+    - Kanāla veids
+    - Debitora veids
+    - Pārdošanas tips
+    - Kanāls
+    - Organizācijas hierarhija
 
-### <a name="8-comparison"></a>8. Salīdzinājums
-1. Preču salīdzinājums pēc laika perioda
-    1. Pārdošanas un pārdošanas starpība
-    2. Uzcenojuma un uzcenojuma starpība
-2. Debitors pēc laika perioda
-    1. Pārdošanas un pārdošanas starpība
-    2. Uzcenojuma un uzcenojuma starpība
+- Preces iestatījumi
 
-### <a name="9-web-activity"></a>9. Tīmekļa aktivitāte
+    - Kategoriju hierarhija
+    - Kategorija
 
-#### <a name="top-level-filters"></a>Augstākā līmeņa filtri
-1. Datumu diapazons
-2. Kanāla veids
-3. Kanāls
-4. Kategoriju hierarhija
+####  <a name="products"></a><a name="ProductsPage"></a> Produktiem
 
-#### <a name="a-acquisition"></a>a. Iegāde
-1. Lapas skati
-    1. Pēc valsts/reģiona    
-    2. Blakusprodukts    
-    3. Kad lietotājs ir pierakstījies statusā    
-    4. Pēc datuma
-2. E-komercijas pasūtījumi
-3. Konvertēšanas maiņas kurss
-    1. Pēc datuma
-4. Konversijasnels
-    1. Lapas skats pēc lapas veida (mājas lapa, kategorijas lapa, lapa ar detalizētu informāciju par preci)  
-    2. Pievienot grozam    
-    3. Norēķināšanās   
-    4. Pirkšana
+- Pārdošana
+- Peļņa
+- Atgriešanas darbības
 
-#### <a name="b-session"></a>b. Sesija
-Sesija ir definēta kā lietotāja apmeklējums jūsu e-komercijas vietnē. Sesija tiek uzskatīta par pabeigtu pēc 30 neaktivitātes minūtēm vai pēc 24 aktīvas lietošanas stundām.
-1. Pēc valsts/reģiona
-2. Pēc izcelsmes (ārējs atsauces lietotājs)
-3. Kad lietotājs ir pierakstījies statusā
-4. Sesiju skaits
-    1. Pēc datuma    
-    2. Pēc ierakstu lapas
-5. Pasūtījums pa sesijām
-    1. Pēc datuma
-6. Sesijas sesija sesija: sesijas sesija ir definēta kā sesija, kurā lietotājs nekavējoties pamet pēc jūsu e-komercijas vietnes apmeklējuma. 
-7. Klikšķi pa sesijām
+####  <a name="customers"></a><a name="CustomersPage"></a> Klientiem
 
-#### <a name="c-visitor"></a>c. Apmeklētājs
-Jūsu e-komercijas vietnē anonīms identifikators ir noteikts, pamatojoties uz unikālu identifikatoru šajā noteiktajā ierīcē noteiktā pārlūkprogrammā. Commerce Analytics neizseko anonīmos lietotājus dažādās pārlūkprogrammās vai ierīcēs. Anonīms lietotājs, kas izmanto vienu pārlūkprogrammu vienā datorā, ir unikāli identificēts vairākās lietotāja sesijās, līdz pārlūka kešatmiņas dati tiek notīrīti vai parasti līdz 12 mēnešu periodam atkarībā no tā, kas ir pirmais.
+- Pārdošana
+- Peļņa
+- Atgriešanas darbības
 
-Commerce Analytics var sniegt papildu informāciju par to, kas pārlūkot jūsu e-komercijas vietni, kad esat pierakstījies. Informācija ir balstīta uz jūsu esošajām saistībām ar šiem lietotājiem, tostarp pirkšana, ko lietotāji ir veikti no jūsu organizācijas visos Commerce pārdošanas kanālos (POS, zvanu centrā un e-komercija) un ietver recency, attiecību garumu, darbmūžu vērtību un biežumu.
+#### <a name="channels"></a><a name="ChannelsPage"></a> Kanālus
 
-1. Seguma summa
-2. Vidējā pasūtījumu vērtība
-3. Vidējā pārdošanas vērtība
-4. E-komercijas skaits
-    1. Pēc datuma
-    2. Pēc atrašanās vietas: Commerce Analytics var nodrošināt granularitāti tikai valsts/reģiona līmenī, lai varētu gūt priekšstatu par e-komercijas vietu.     
-    3. Pēc recency: recency tiek aprēķināts, ņemot vērā dienu skaitu, kopš debitora pēdējās transakciju saistības ar organizāciju. Recency neietver darījumu piesaistes signālus, piemēram, e-komercijas pārlūkošanas aktivitāti.    
-    4. Pēc attiecību ilguma: attiecību garums tiek aprēķināts, pamatojoties uz dienu skaitu, kopš sistēmā tika izveidots debitora ieraksts.     
-    5. Pēc darbmūžs vērtības (LTV): kalpošanas laika vērtība tiek aprēķināta, pamatojoties uz kopējo summu, ko debitors izmanto visos Commerce Pārdošanas kanālos (POS, e-komercija un zvanu centrā).
-    6. Pēc biežuma: biežums tiek aprēķināts, ņemot vērā debitora darbību saistībām ar organizāciju. Biežums neietver darījumu piesaistes signālus, piemēram, e-komercijas pārlūkošanas aktivitāti.
+- Pārdošana
+- Peļņa
+- Atgriešanas darbības
 
-#### <a name="d-impression"></a>d. Iespaidu
-Iespaids ir definēts kā katrs preces vizuālais skatījums, ko veic e-komercijas uzņēmums. Piemēram, ja e-commerce commerce naviģē uz jūsu vietnes sākumlapu un skata matētu preci augšējā pārdošanas saraksta modulī, kā arī skaita to pašu mato preci saraksta moduļa izvēles ietvaros, šīs mijiedarbības tiek skaitītas kā divi produktu skatījumi. Skatījumi izseko preču skatus šādās virsmas:
-1. Saraksti (piemēram, rekomendēts, augšējais pārdošanas, izdošanas jums, tendences)
-2. Groza modulis
-3. Meklēšanas rezultāta konteiners
-4. Kategorijas meklēšanas rezultāta konteiners
-    
-Preces, kas ir atveidotas karuseļa modulī vai pielāgotos vizuļos, netiek skaitītas metriskajā mērījumā.
+### <a name="sales"></a>Pārdošanas<a name="SalesPage"></a>
+
+- Pēc piegādes vietas
+- Pēc kanāla/veikala/termināļa
+- Pa darbiniekiem
+- Pēc datuma
+- Pa stundām
+- Pēc preču kategorijas
+
+### <a name="margins"></a><a name="MarginsPage"></a> Piemales
+
+- Pēc piegādes vietas
+- Blakusprodukts
+- Pēc datuma
+
+### <a name="returns"></a><a name="ReturnsPage"></a> Atgriež
+
+- Atgriešana pēc summas
+
+    - Pēc veikala
+    - Blakusprodukts
+    - Pēc datuma
+
+- Atgriešana pēc darbības
+
+    - Pēc veikala
+    - Blakusprodukts
+    - Pēc datuma
+
+### <a name="discounts"></a><a name="DiscountsPage"></a> Atlaides
+
+- Pēc veikala
+- Blakusprodukts
+- Pēc datuma
+- Dekompozīcija
+
+    - Juridiska persona
+    - Veikals
+    - Atlaides veids
+    - Atlaides nosaukums
+    - Prece
+
+### <a name="payments"></a><a name="PaymentsPage"></a> Maksājumus
+
+- Pēc kanāla/termināļa
+- Pēc maksāšanas metodes/tipa
+- Pēc datuma
+- Dekompozīcija
+
+    - Juridiska persona
+    - Kanāla veids
+    - Veikals
+    - Terminālis
+    - Maksāšanas veids
+
+### <a name="customers"></a><a name="CustomersPage"></a> Klientiem
+
+- Darbmūžs vērtība (LTV)
+
+    LTV tiek aprēķināts, ņemot vērā kopējo summu, kādu debitors tērē visos Dynamics 365 Commerce pārdošanas kanālos (tostarp POS, e-komercija un zvanu centrā).
+
+- Recency
+
+    Recency tiek aprēķināts, ņemot vērā dienu skaitu, kopš debitora pēdējās darbību saistības ar organizāciju. Pašlaik recency neaplūko ar transakcijām nesaistīšanos signālus, piemēram, e-komercijas pārlūkošanas aktivitāti.
+
+- Biežums
+
+    Biežums tiek aprēķināts, ņemot vērā debitora darbību saistībām ar organizāciju. Šobrīd biežums neietver darījumu piesaistes signālus, piemēram, e-komercijas pārlūkošanas aktivitāti.
+
+- Attiecību garums
+
+    Attiecību garums tiek aprēķināts, ņemot vērā dienu skaitu, kopš sistēmā tika izveidots debitora ieraksts.
+
+- Transakciju skaits
+
+### <a name="comparison"></a><a name="ComparisonPage"></a> Salīdzinājums
+
+- Preču salīdzinājums pēc laika perioda
+
+    - Pārdošanas un pārdošanas starpība
+    - Uzcenojuma un uzcenojuma starpība
+
+- Debitors pēc laika perioda
+
+    - Pārdošanas un pārdošanas starpība
+    - Uzcenojuma un uzcenojuma starpība
+
+### <a name="web-activity"></a><a name="WebActivityPage"></a> Tīmekļa aktivitāte
+
+#### <a name="top-level-filters"></a><a name="WebActivityTopLevelFilters"></a> Augstākā līmeņa filtri
+
+- Datumu diapazons
+- Kanāla veids
+- Kanāls
+- Kategoriju hierarhija
+
+#### <a name="acquisitions"></a>Iegādes
+
+- Lapas skati
+
+    - Pēc valsts vai reģiona
+    - Blakusprodukts
+    - Kad lietotājs ir pierakstījies statusā
+    - Pēc datuma
+
+- E-komercijas pasūtījumi
+- Konvertēšanas maiņas kurss
+
+    - Pēc datuma
+
+- Konversijasnels
+
+    - Lapas skats pēc lapas tipa (mājas lapa, kategorijas lapa vai lapa ar detalizētu informāciju par preci)
+    - Pievienot grozam
+    - Norēķināšanās
+    - Pirkšana
+
+#### <a name="sessions"></a>Sesijas
+
+Sesija ir lietotāja apmeklējums jūsu e-komercijas vietnē. Sesija tiek uzskatīta par pabeigtu pēc 30 neaktivitātes minūtēm vai 24 aktīvas lietošanas stundām.
+
+- Pēc valsts vai reģiona
+- Pēc izcelsmes (ārējs atsauces lietotājs)
+- Kad lietotājs ir pierakstījies statusā
+- Sesiju skaits
+
+    - Pēc datuma
+    - Pēc ierakstu lapas
+
+- Pasūtījums pa sesijām
+
+    - Pēc datuma
+
+- Sesijas sesija sesija
+
+    Sesijas sesija ir sesija, kurā lietotājs pamet tūlīt pēc jūsu e-komercijas vietnes apmeklējuma. Papildinformāciju skatiet Sadaļā [Vaidu likme](https://en.wikipedia.org/wiki/Bounce_rate).
+
+- Klikšķi pa sesijām
+
+#### <a name="visitors"></a>Apmeklētāji
+
+Anonīms konta numurs jūsu e-komercijas vietnē ir unikāli identificēts, balstoties uz noteiktu pārlūkprogrammu un specifisku ierīci, ko lieto lietotājs. Commerce Analytics neizseko anonīmos darījumos dažādās pārlūkprogrammās vai ierīcēs. Anonīms lietotājs, kurš izmanto to pašu pārlūkprogrammu vienā un tajā pašā ierīcē, ir unikāli identificēts vairākās lietotāja sesijās, līdz pārlūkprogrammas kešatmiņā saglabātie dati ir notīrīti vai arī periods (parasti 12 mēneši) tiek nokārtots atkarībā no tā, kas notiek vispirms.
+
+Ja jūsu e-komercijas vietne tiek pārlūkota, kamēr tā ir reģistrēta, Commerce Analytics var sniegt papildinformāciju par to. Šī informācija ir balstīta uz esošajām attiecībām, kas jūsu organizācijai ir ar aizturēto informāciju, ko rada to iepriekšējie pirkumi visos pārdošanas kanālos Dynamics 365 Commerce (tostarp POS, e-komercija un zvanu centrs). Papildu informācija ietver recency, attiecību garumu, darbmūžu vērtību un biežuma datus.
+
+- Seguma summa
+- Vidējā pasūtījumu vērtība
+- Vidējā pārdošanas vērtība
+- E-komercijas skaits
+
+    - Pēc datuma
+    - Pēc novietojuma
+
+        Commerce Analytics sniedz tikai valsts/reģiona līmeņa granularitātei vietas ieskatījumā e-komercijai.
+
+    - Pēc recency
+
+        Recency tiek aprēķināts, ņemot vērā dienu skaitu, kopš debitora pēdējās darbību saistības ar organizāciju. Pašlaik recency neaplūko ar transakcijām nesaistīšanos signālus, piemēram, e-komercijas pārlūkošanas aktivitāti.
+
+    - Pēc attiecību garuma
+
+        Attiecību garums tiek aprēķināts, ņemot vērā dienu skaitu, kopš sistēmā tika izveidots debitora ieraksts.
+
+    - Pēc darbmūžs vērtības (LTV)
+
+        LTV tiek aprēķināts, ņemot vērā kopējo summu, kādu debitors tērē visos Dynamics 365 Commerce pārdošanas kanālos (tostarp POS, e-komercija un zvanu centrā).
+
+    - Pēc biežuma
+
+        Biežums tiek aprēķināts, ņemot vērā debitora darbību saistībām ar organizāciju. Šobrīd biežums neietver darījumu piesaistes signālus, piemēram, e-komercijas pārlūkošanas aktivitāti.
+
+#### <a name="impressions"></a>Iespaidi
+
+Iespaids ir atsevišķs e-komercijas uzņēmuma skatījums par preci, kas ir vizuāla. Piemēram, e-komercijas apskats tiek atvērts uz jūsu e-komercijas vietnes sākumlapu un skatiem kādu no lietojumprogrammas lietojumprogrammu lapām **augšējā pārdošanas** saraksta modulī. Skatījums šeit skata to pašu mat preci **saraksta modulī** Izdotais. Šajā gadījumā ir divi preces iespaidi. 
+
+Pašlaik iespaidi tiek izsekoti šādās virsmas:
+
+- Saraksti (piemēram, **Ieteicamais**, **Augšējais** pārdošanas, **Izdošanas jums un** **Tendences**)
+- Groza modulis
+- Meklēšanas rezultāta konteiners
+- Kategorijas meklēšanas rezultāta konteiners
+
+Pašlaik preces, kas ir atveidotas karuseļa modulī vai pielāgotā vizuālajās attiecībās, nav skaitītas ar attēlu saistītajos metrikās.
 
 Pārskatā **par pārskatu par pārskatu ir iekļauti šādi** rādītāji:
-1. Iespaida skaits
-    1. Pēc lapas tipa un moduļa: lapas veids ir vispārīgs lapas veids, kas katrā e-komercijas vietnes lapā ir definēts katrai lapai. Moduļa tips nosaka e-commerce vizuālā moduļa tipu, kurā tiek rādīta prece. Lai apskatītu rādīšanas pēc moduļa, iespējams, būs nepieciešams detalizēti apskatīt lapu un moduli.    
-    2. Blakusprodukts    
-    3. Kad lietotājs ir pierakstījies statusā    
-    4. Pēc datuma
-2. Iespaida klikšķa skaits: klikšķināšana uz e-komercijas ir definēta kā e-komercija, kas klikšķināt uz preces vizuāla, kas parasti pārvieto lietotājus uz šīs preces informācijas lapu.     
-3. Iespaida likmi par klikšķa ir norādīta kā kopējais klikšķa skaits, kas dalīts ar sadalāmo tieksmju kopskaitu.
 
-## <a name="install-commerce-analytics"></a>Instalēt Commerce Analytics
+- Iespaida skaits
+
+    - Pēc lapas tipa un moduļa
+
+        Lapas tips ir vispārīgs lapas tips, kas tiek definēts katrai lapai jūsu e-komercijas vietnē. Moduļa tips ir e-commerce vizuālā moduļa tips, kurā tiek rādīta prece.
+
+        Lai skatītu iespaidus pēc moduļa, iespējams, būs detalizēti jāskata lapas un moduļa vizualizēs.
+
+    - Blakusprodukts
+    - Kad lietotājs ir pierakstījies statusā
+    - Pēc datuma
+
+- Iespaida klikšķa skaits
+
+    Noklikšķiniet uz iespaida, kas notiek, kad e-komercijas laikā tiek atlasīts preces vizuāls vienums. Parasti precei pēc tam tiek paņemta preču informācijas lapa.
+
+- Iespaids par klikšķināšanas koeficientu (KTR)
+
+    CTR tiek aprēķināts, kā kopējais skatījumu skaits, kas tiek dalīts ar skatījumu kopējo skaitu.
+
+## <a name="commerce-analytics-preview-installation"></a>Commerce Analytics (Preview) instalēšana
 
 > [!NOTE]
-> Commerce Analytics ir priekšskatījuma fāzē Amerikas Savienotajās Valstīs, Kanādā, Apvienotajā Karalistē, Eiropā, Dienvidāzijā, Austrumāzijā, Austrālijā, Austrālijā un Japānas reģionos. Ja jūsu vide atrodas jebkurā no šiem reģioniem, varat iespējot Commerce Analytics jūsu vidē ar Microsoft Dynamics Lifecycle Services (LCS). Pirms Commerce Analytics lietošanas skatiet sadaļu [Eksporta konfigurēšana uz Azure data Nosūtīšana](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md).
+> Commerce Analytics (Preview) ir priekšskatījumā Amerikas Savienotajās Valstīs, Kanādā, Apvienotajā Karalistē, Eiropā, Dienvidāzijā, Austrumāzijā, Austrālijā un Japānas reģionos. Ja vide atrodas jebkurā no šiem reģioniem, šo funkciju var iespējot jūsu Finance and Operations vidē, izmantojot pakalpojumu Microsoft Dynamics Lifecycle Services (LCS). Pirms šo funkciju varat izmantot, skatiet [sadaļu Eksporta konfigurēšana uz Azure data](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md) Nosūtīšana.
 
-### <a name="enable-and-configure-commerce-analytics"></a>Iespējot un konfigurēt Commerce Analytics
-Lai instalētu Commerce Analytics, jums ir nepieciešamas atļaujas, lai izveidotu resursus Azure abonementā un atļaujas programmu instalēšanai LCS. Veiciet tālāk aprakstītos soļus, lai iespējotu un konfigurētu Commerce Analytics.
-1. [Iesniegt Priekšskatījuma īso formu Commerce Analytics (Preview)](#submit-the-preview-intake-form-for-commerce-analytics).
-2. [Iespējojiet un konfigurējiet eksportēšanu uz datu Failu](#enable-and-configure-export-to-data-lake).
-3. [Iespējojiet un konfigurējiet Commerce Analytics (Preview) pievienojumprogrammu](#enable-and-configure-commerce-analytics-add-in).
-4. [Ģenerēt glabāšanas konta SAS](#generate-storage-account-sas-token) marķieri
-5. [Lejupielādēt izvietošanas skriptus Azure Synapse](#download-deployment-scripts-for-azure-synapse-views) skatiem.
-6. [Instalējiet un konfigurējiet Azure Synapse](#install-and-configure-azure-synapse-workspace) darbvietu.
-7. [Instalējiet Power BI veidnes](#install-power-bi-template-app) programmu. 
+### <a name="enable-and-configure-commerce-analytics-preview"></a><a name="enableCommerceAnalytics"></a> Iespējot un konfigurēt Commerce Analytics (Priekšskatījums)
 
-### <a name="submit-the-preview-intake-form-for-commerce-analytics"></a>Iesniegt Priekšskatījuma veidlapas Commerce Analytics laukā
-Pabeidziet un iesniedziet [Commerce Analytics (Preview)](https://forms.office.com/r/vW5VLJGXZ2) veidlapas. Lūdzu, uzgaidiet līdz trim darba dienām pieprasījuma apstrādei. Kad forma ir apstrādāta, uz e-pasta adresi, kas norādīta formā, tiks nosūtīts apstiprinājuma e-pasta ziņojums.
+Lai instalētu Commerce Analytics (priekšskatījumu), jums ir nepieciešamas atļaujas izveidot resursus Azure abonementā. Jums ir arī jābūt atļaujām instalēt pievienojumprogrammas LCS. Šeit sniegts darbību apskats:
 
-### <a name="enable-and-configure-export-to-data-lake"></a>Iespējot un konfigurēt eksportu uz datu failu
-Commerce Analytics balstās uz līdzekli Eksportēt uz datu To Data Līdz, lai commerce HQ datus eksportētu uz **Azure Data Analytics un** paturētu datus jaunu. Pirms Commerce Analytics konfigurēšanas iespējojiet un konfigurējiet Eksportēšanu uz datu galapunktu, izpildot darbības, kas izklāstītas sadaļā **Eksporta konfigurēšana uz Azure Data**[...](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md) Nosūtīšana. Konfigurējot funkciju **Eksportēt uz datu** Lei, ņemiet vērā šādu informāciju. Šī informācija būs jāievada sekojošās darbībās.
-1. Atslēgas Dns nosaukums un slepenie nosaukumi, kur glabā programmas ID un programmas noslēpumu. Papildinformāciju skatiet sadaļā [Noslēpumu pievienošana](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md#addsecrets) atslēgai.
-2. Azure datu pārsūtīšanas instances glabāšanas konta nosaukums. Papildinformāciju skatiet [abonementā izveidojiet datu Lei Storage (Gen2)](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md#createsubscription) kontu.
+1. [Iesniedziet Commerce Analytics (Preview) formu Preview.](#joinPreview)
+2. [Iespējojiet un konfigurējiet eksportēšanu uz datu](#enableExportToDataLake) failu...
+3. [Iespējojiet un konfigurējiet Commerce Analytics (Preview)](#enableCommerceAnalyticsAddin) pievienojumprogrammu.
+4. [Ģenerējiet koplietoto piekļuves parakstu (SAS) marķieri jūsu glabāšanas](#getSASToken) kontam.
+5. [Lejupielādējiet izvietošanas skriptus Azure Synapse](#downloadSynapseDeploymentScripts) skatiem.
+6. [Instalējiet un konfigurējiet Azure Synapse](#configureAzureSynapse) darbvietu.
+7. [Instalējiet veidnes Power BI](#powerbi) programmu.
 
-### <a name="enable-and-configure-commerce-analytics-add-in"></a>Commerce Analytics pievienojumprogrammas iespējošana un konfigurēšana
-Lai instalētu Commerce Analytics pievienojumprogrammu LCS, jums ir jābūt vides administratoram LCS vidē, ko plānojat izmantot.
+### <a name="submit-the-preview-intake-form-for-commerce-analytics-preview"></a><a name="joinPreview"></a> Iesniegt Priekšskatījuma veidlapas Commerce Analytics (Priekšskatījums)
 
-Lai konfigurētu Commerce Analytics pievienojumprogrammu, ir nepieciešama šāda informācija. 
+Iesniedziet [Commerce Analytics (Preview) formu Preview.](https://forms.office.com/r/vW5VLJGXZ2) Līdz trīs darba dienām laika posmu, kad forma tiks apstrādāta. Pēc apstrādes uz e-pasta adresi, ko nosūtījāt formā, tiks nosūtīts apstiprinājuma e-pasta ziņojums.
 
-|Lauks | Informācijas avots| Paraugs|
-|----|----|----|
-|Azure AD Nomnieka ID jūsu videi| Jūsu Azure AD nomnieka ID Azure portālā. Pieteikties Azure **portālā** un atvērt **Azure Active Directory** pakalpojumu. Atvērt **rekvizītu** lapu un kopēt vērtību **laukā Direktorija** ID.| 72f988, kas-0000-0000-00000-2d7cd011db47|
-|Jūsu atslēgas DNS nosaukums|Ievadiet [jūsu](#enable-and-configure-export-to-data-lake) atslēgas, piemēram, DNS nosaukumu.| `https://contosod365datafeedpoc.vault.azure.net/`|
-|Noslēpums, kas satur pieteikuma ID| Ievadiet [slepeno](#enable-and-configure-export-to-data-lake) vārdu, kurā tiek glabāts programmas ID. Šī ir tā pati vērtība, ko izmantojat, **instalējot pievienojumprogrammu Eksportēt** uz datu Neitu.|app-id|
-|Noslēpums, kas satur pieteikuma noslēpumu| Ievadiet [slepeno](#enable-and-configure-export-to-data-lake) vārdu, kas glabā pieteikuma noslēpumu. Šī ir tā pati vērtība, ko izmantojat, **instalējot pievienojumprogrammu Eksportēt** uz datu Neitu.| app-secret|
+### <a name="enable-and-configure-export-to-data-lake"></a><a name="enableExportToDataLake"></a> Iespējot un konfigurēt eksportu uz datu failu
 
-1. Piesakieties [pakalpojumos Lifecycle Services](https://lcs.dynamics.com/) un dodieties uz vidi.
-2. Lapā **Vide** atlasiet cilni Vides **·** pievienojumprogrammas.
-3. Atlasiet **Instalēt jaunu pievienojumprogrammu un dialoglodziņā atlasiet Commerce** Analytics **(Priekšskatījums).** Ja **Commerce Analytics (Preview)** nav uzskaitīts, pārliecinieties, ka esat pievienojis Insider Programmu.
-4. Dialoglodziņā **Iestatīšanas pievienojumprogramma** ievadiet nepieciešamo informāciju, kā aprakstīts augstāk esošajā tabulā.
-5. Akceptējiet piedāvājuma noteikumus, atzīmējot izvēles rūtiņu un pēc tam atlasiet **·** Instalēt.
+Commerce Analytics (Priekšskatījums) balstās uz iespēju Eksportēt uz datuKursi, lai eksportētu Commerce HQ datus uz Datu Diena un paturētu šos datus jaunu. Pirms Commerce Analytics (priekšskatījums) konfigurēšanas iespējojiet un konfigurējiet eksportēšanu uz datu [plkst](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md).
 
-Sistēma instalē un konfigurē Commerce Analytics (Preview) videi. Operācija var ilgt dažas minūtes. Kad instalēšana un konfigurācija ir pabeigta, **Commerce analytics** (Priekšskatījums) ir uzskaitīts **vides lapā un statuss ir** **Instalēts**.
+Konfigurējot eksportēšanu uz datu To ir, atzīmējiet tālāk norādīto informāciju, jo tas būs jāievada vēlāk:
 
-### <a name="generate-storage-account-sas-token"></a>Ģenerēt glabāšanas konta SAS marķieri
+- <a name="keyVault"></a> Atslēgas Kases sistēmas Domēna nosaukumu (DNS) nosaukums un slepenie vārdi, kuros glabā lietojumprogrammas ID un programmas noslēpumu. Papildinformāciju skatiet sadaļā [Noslēpumu pievienošana](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md#addsecrets) atslēgai.
+- <a name="storageAccount"></a> Datu Pārsūtīšanas konta nosaukums datu Līdzinstancim. Papildinformāciju skatiet [abonementā izveidojiet datu Lei Storage (Gen2) kontu](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md#createsubscription).
+
+### <a name="enable-and-configure-the-commerce-analytics-preview-add-in"></a><a name="enableCommerceAnalyticsAddin"></a> Iespējot un konfigurēt Commerce Analytics (Preview) pievienojumprogrammu
+
+Lai instalētu Commerce Analytics (Preview) pievienojumprogrammu LCS, jums ir jābūt vides administratoram LCS vidē, ko plānojat izmantot.
+
+Lai instalētu un konfigurētu Commerce Analytics (Preview) pievienojumprogrammu, veiciet šos soļus.
+
+1. Pieteikties [LCS](https://lcs.dynamics.com/) un doties uz vidi.
+2. Vides lapas cilnē **Vides** **pievienojumprogrammas** atlasiet Instalēt **jaunu** pievienojumprogrammu.
+3. Dialoglodziņā atlasiet Commerce **Analytics (Priekšskatījums).**
+
+    Ja **Commerce Analytics (Preview)** nav uzskaitīts, pārliecinieties, ka esat pievienojis Insider Programmu.
+
+4. Dialoglodziņā **Iestatīšanas** pievienojumprogramma ievadiet šādu informāciju.
+
+    | Informācija | Modulis | Vērtības piemērs |
+    |---|---|---|
+    | Azure AD Nomnieka ID jūsu videi | Pieteikties Azure [portālā](https://portal.azure.com/) un atvērt **Azure Active Directory** pakalpojumu. Pēc tam atveriet **rekvizītu** lapu un kopējiet vērtību **laukā Direktorija** ID. | 72f988, kas-0000-0000-00000-2d7cd011db47 |
+    | Jūsu atslēgas DNS nosaukums | Ievadiet [jūsu](#keyVault) atslēgas, piemēram, DNS nosaukumu. Iepriekšējā sadaļā esat veicis šīs vērtības piezīmi. | `https://contosod365datafeedpoc.vault.azure.net/` |
+    | Noslēpums, kas satur pieteikuma ID | Ievadiet [slepeno vārdu, kurā tiek glabāts programmas](#keyVault) ID. Iepriekšējā sadaļā esat veicis šīs vērtības piezīmi. | app-id |
+    | Noslēpums, kas satur pieteikuma noslēpumu | Ievadiet [slepeno vārdu, kas glabā pieteikuma](#keyVault) noslēpumu. Iepriekšējā sadaļā esat veicis šīs vērtības piezīmi. | app-secret |
+
+5. Akceptējiet piedāvājuma noteikumus, atzīmējot šo izvēles rūtiņu, un pēc tam atlasiet **Instalēt**.
+
+    Sistēma instalē un konfigurē Commerce Analytics (Preview) pievienojumprogrammu videi. Šis process var ilgt dažas minūtes. Kad komercijas analīze (priekšskatījums) ir jāuzskaita vides lapā un statusam **ir** jābūt **·** **Instalēts**.
+
+### <a name="generate-a-sas-token-for-your-storage-account"></a><a name="getSASToken"></a> Ģenerēt SAS marķieri jūsu glabāšanas kontam
+
+SAS marķieris ļauj ārējām entītijām piekļūt jūsu glabāšanas kontam un izmantot noteiktu privilēģiju kopu noteiktam laika daudzumam. Azure Synapse izmantos SAS pilnvara, lai piekļūtu pamatdatiem Datu Programmā.
+
 > [!NOTE]
-> Zināms Commerce Analytics (Preview) ierobežojums ir tāds, ka instance zaudēs piekļuvi datiem, kad Azure Synapse SAS marķieris beidzas. Jums ir jāiestata maksimālais beigu datums, ko atļauj jūsu organizācijas drošības politikas, kad ģenerējiet koplietojamās piekļuves paraksta (SAS) marķieri.
+> Zināmā Commerce Analytics (Preview) ierobežojuma dēļ instance zaudēs piekļuvi datiem, kad Azure Synapse SAS marķieris beidzas. Tāpēc, ģenerējot SAS marķieri, ir jāiestata maksimālais beigu datums, ko atļauj jūsu organizācijas drošības politika.
 
-SAS marķieris ļauj ārējām entītijām piekļūt jūsu glabāšanas kontam ar noteiktu privilēģiju kopu noteiktam laika daudzumam. Azure Synapse tiks izmantots SAS marķieris, lai piekļūtu Azure datu Krātuvē pamatdatiem. Lai ģenerētu SAS marķieri, veiciet tālāk aprakstītās darbības.
-1. Dodieties uz glabāšanas kontu Azure portālā, ko izveidojāt, konfigurējot eksportēšanu uz **datu Krājumu...**[...](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md#createsubscription)
-2. Cilnes **Opcijas** kreisajā pusē zem glabāšanas konta atlasiet Koplietotās **piekļuves** paraksts.
-3. SaS opciju lapā atlasiet šādas opcijas:
+Lai ģenerētu SAS marķieri, sekojiet šiem soļiem.
 
-    | Opcijas nosaukums | Opcijas vērtība |
-    |-------------|--------------|
-    | Atļautie pakalpojumi | Atlasiet **·** BLOB. |
-    | Atļautie resursu tipi | Atlasīt **·** pakalpojumu, **konteineru** un **·** objektu.|
-    | Atļautās atļaujas | Atlasiet **·** Lasīt, **·** Rakstīt, **·** **·** Dzēst, **·** Saraksts, Pievienot un **·** Izveidot. |
+1. Azure portālā dodieties uz glabāšanas kontu, [ko](#storageAccount) izveidojāt, konfigurējot eksportēt uz datu failu.
+2. Kreisās puses rūtī zem glabāšanas konta atlasiet **Koplietotās piekļuves** paraksts.
+3. **SAS opciju** lapā iestatiet sekojošos laukus.
+
+    | Lauks | Vērtība |
+    |---|---|
+    | Atļautie pakalpojumi | Atlasiet **BLOB**. |
+    | Atļautie resursu tipi | Pakalpojuma, **konteinera** un **objekta** **atlase**. |
+    | Atļautās atļaujas | Atlasiet **Lasīt**, **Rakstīt**, **·** **Dzēst**, **Saraksts**, Pievienot un **Izveidot**. |
     | BLOB versijas atļaujas | Atlasiet **Iespējo versiju** dzēšanu. |
-    | Sākuma un beigu datums/laiks | Atbilstoši iestatiet SAS marķiera beigu datumu un laiku. |
-    | Atļautās IP adreses | Atstāt tukšu. |
+    | Sākuma un beigu datums/laiks | Iestatīt SAS marķiera sākuma un beigu datumu un laiku pēc vajadzības. |
+    | Atļautās IP adreses | Atstājiet šo lauku tukšu. |
     | Atļautie protokols | Atlasiet **tikai** HTTPS. |
     | Vēlamā maršrutēšanas pakāpe | Atlasiet **Pamata (noklusējums).** |
-    | Parakstīšanas atslēga | Ja **nepieciešams,** atlasiet taustiņu **key1 vai key2.** |
+    | Parakstīšanas atslēga | Ja **nepieciešams**, atlasiet **taustiņu 1 vai** taustiņu2. |
 
 4. Atlasiet **ģenerēt SAS un savienojuma** virkni.
-5. Kopējiet vērtību no **SAS marķiera** teksta lodziņa teksta redaktorā, piemēram, Notepad.
+5. Kopējiet vērtību **SAS marķiera** laukā un ielīmējiet to teksta redaktorā, piemēram, Notepad.
 
-### <a name="download-deployment-scripts-for-azure-synapse-views"></a>Lejupielādēt izvietošanas skriptus Azure Synapse skatiem
-Lai izveidotu un publicētu nepieciešamos Azure Synapse skatus darbvietā, jums jālejupielādē un jāizpilda skriptu kopa. Izpildiet tālāk aprakstītās darbības, lai lejupielādētu skriptus.
-1. Dodieties uz [microsoft/Dynamics365Commerce.Solutions](https://github.com/microsoft/Dynamics365Commerce.Solutions) GitHub repo. Skripti ir pieejami repo.
-2. Lai lejupielādētu skriptus lokālajā datorā, varat šo atkārtošanu vai lejupielādēt repo kā zip failu.
+### <a name="download-the-deployment-scripts-for-azure-synapse-views"></a><a name="downloadSynapseDeploymentScripts"></a> Lejupielādēt skatu izvietošanas Azure Synapse skriptus
 
-### <a name="install-and-configure-azure-synapse-workspace"></a>Instalēt un konfigurēt Azure Synapse darbalauku
-Lai instalētu un konfigurētu Azure Synapse darbvietu, veiciet tālāk aprakstītās darbības.
-1. Instalējiet Azure Synapse Darbalauku jūsu Azure abonementā, izpildot Ātrās startēšanas [darbības: Darbalauku izveide.](/azure/synapse-analytics/quickstart-create-workspace)
-2. Atveriet failu SetupS notepadapse.sql programmā Notepad no lokālā datora mapes, kur tika uzstādīts vai lejupielādēts Dynamics365Commerce.Solutions repo. Papildinformāciju skatiet [sadaļā Lejupielādes izvietošanas skripti Azure Synapse](#download-deployment-scripts-for-azure-synapse-views) skatiem. Skripta fails atrodas mapē "/Pipeline/CommerceAnalyticsSemanapse/". Rediģējiet skriptu, lai aizstātu viettura tekstu ar vērtībām zemāk.
+Lai izveidotu un publicētu pieprasītos Azure Synapse skatus darbvietā, jāpalaiž skriptu kopa. Izpildiet šīs darbības, lai lejupielādētu skriptus.
 
-   | Viettura teksts | Aizstāšanas vērtība |
-   |------------------|-------------------|
-   | placeholder_storageaccount | Aizstājiet ar nosaukumu glabāšanas kontam, ko izveidojāt, konfigurējot Eksportēšanu uz datu Krājumu... kā aprakstīts abonementa kontā Izveidot **·** datu Noliktavas [(Ģn.2).](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md#createsubscription) |
-   | <a name="phContainer"></a> placeholder_container | Aizstājiet ar tā glabāšanas konteinera nosaukumu, kas tika izveidots Jūsu Azure data Azure Data Azure instancē pēc tam, kad instalējāt eksportēšanu uz **Datu Mapi** pievienojumprogramma LCS. Lai saņemtu konteinera nosaukumu, ir jāizmanto Storage Explorer Azure portālā, lai pārlūkotu glabāšanas kontu. |
-   | placeholder_sastoken | Aizstāt ar SAS marķieri, kas tika kopēts [datu glabāšanas konta SAS](#generate-storage-account-sas-token) marķierim. Noteikti noņemiet **·** "?" SAS marķiera vērtības sākumā. |
-   | <a name="phUserPwd"></a> placeholder_password | Aizstāt ar drošu paroli pēc savas izvēles. Izveidojiet paroles piezīmi. Parole tiks iestatīta kā parole jaunajam kontam 'reportreadonlyuser', kas tiks izveidota ar skriptu. **·** NEIESTATIET 'sqladminuser' konta paroli šeit.  |
+1. GitHub dodieties uz [microsoft/Dynamics365Commerce.Solutions](https://github.com/microsoft/Dynamics365Commerce.Solutions) repozitoriju (repo).
+2. Lejupielādējiet skriptus lokālajā datorā, nometot repo vai lejupielādējot to kā zip failu.
 
-3. Dodieties uz jauno Azure Synapse darbalauku Azure portālā. Atlasiet **opciju Atvērt Arapse Studio** pārskata **·** lapā.
-4. Kopējiet tā satura `SetupSynapse.sql` informāciju, kuru atjauninājāties iepriekš 2. darbībā. Azure portālā No sieto,izvēlieties Jauns **> SQL** skripts. Ielīmēt saturu SQL skriptu redaktorā, kas atrodas Atsegtā Studio.
-5. Pārbaudiet, vai **izmantot datu bāzi ir iestatīta uz** **·** Šablons. Atlasiet **·** Palaist, lai izpildītu skriptu.
-6. Uzgaidiet, līdz skripts ir pabeigts. Skripts izveidos datu bāzi commerce analytics, akreditācijas datus, lai piekļūtu Azure datu pardošanas kontam, un tikai lasāmu lietotāja kontu, kas tiks izmantots, lai izveidotu savienojumu ar Power BI Azure Synapse instanci.
-7. Lokālajā datorā atveriet PowerShell administratora režīmā. Dodieties uz mapi "/Pipeline/CommerceAnalyticsScaurapse/" mapē, kur tika izcelta vai lejupielādēta Dynamics365Commerce.Solutions repo, kā aprakstīts Lejupielādes izvietošanas skriptos [Azure Synapse](#download-deployment-scripts-for-azure-synapse-views) skatiem.
-8. Iestatiet PowerShell izpildes politiku, izpildot šādu komandu PowerShell logā:
+### <a name="install-and-configure-an-azure-synapse-workspace"></a><a name="configureAzureSynapse"></a> Darbvietas instalēšana un Azure Synapse konfigurācija
 
-   ```powershell
-   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-   ```
-   
-9. Instalējiet SQL Server PowerShell moduli, izpildot norādīto komandu PowerShell logā:
+Lai instalētu un konfigurētu Azure Synapse darbvietu, veiciet šādas darbības.
 
-   ```powershell
-   Install-Module sqlserver
-   ```
-   
-   > [!NOTE]
-   > Ja SQL servera modulis jau ir instalēts, šo darbību varat izlaist. Šī moduļa instalēšanas laikā, iespējams, tiks piedāvāts instalēt NuGet nodrošinātāju. Lai **turpinātu** nodrošinātāja instalēšanu, nospiediet NuGet Y. Varat arī saņemt ziņojumu, ka instalējat moduļus no ne jau iepriekš ne uzrietās repozitorija. Nospiediet **·** Y, lai turpinātu instalēšanu. Pēc izvēles jūs varat darbināt cmdlet, lai `Set-PSRepository` uzticētos repozitorijam. `PSGallery`
-   
-10. PowerShell Azure Synapse logā publicējiet skatus, izpildot šādu komandu:
+1. Instalējiet Azure Synapse darbvietu savā Azure abonementā. Papildinformāciju skatiet Sadaļā [Ātrā startēšana: Darbalauku izveidošana par Darbalauku](/azure/synapse-analytics/quickstart-create-workspace).
+2. Programmā Notepad vai citā teksta redaktorā atveriet SetupScaurapse.sql skripta failu no mapes lokālajā datorā, kuru esat lejupielādējis vai lejupielādējis **Dynamics365Commerce**.Solutions repo iepriekšējā sadaļā. Skripta fails atrodas mapē /Pipeline/CommerceAnalyticsShuapse/. Skriptā aizstājiet viettura tekstu ar vērtībām, kā parādīts šajā tabulā.
+
+    | Viettura teksts | Aizstāšanas vērtība |
+    |---|---|
+    | placeholder_storageaccount | Tā glabāšanas konta [nosaukums, kuru](#storageAccount) izveidojāt, konfigurējot eksportēšanu uz datu noliktavu. |
+    | <a name="phContainer"></a> placeholder_container | Tā glabāšanas konteinera nosaukums, kas tika izveidots datu Pārsūtīšanas instancē pēc tam, kad veiksmīgi instalējāt eksportēšanu uz datu Mapi ar pievienojumprogrammu LCS. Lai saņemtu konteinera nosaukumu, azure portālā ir jāizmanto storage Explorer, lai pārlūkotu glabāšanas kontu. |
+    | placeholder_sastoken | Jūsu [ģenerētais SAS](#getSASToken) marķieris Noteikti noņemiet jautājuma **zīmi** (?) no SAS marķiera vērtības sākuma. |
+    | <a name="phUserPwd"></a> placeholder_password | Stipra parole pēc savas izvēles. Atzīmējiet šo paroli. Tas tiks iestatīts kā parole jaunajam **reportreadonlyuser** kontam, ko izveido skripts. **Neiestatiet** **SQLAdminuser konta** paroli. |
+
+3. Kopējiet skripta faila atjaunināto saturu.
+4. Azure portālā dodieties uz jauno Azure Synapse darbalauku. Pārskata **lapā** atlasiet Atvērt **Nekartes** studiju.
+5. Objektā No Srakses Studio atlasiet Jauns SQL skripts un ielīmējiet skripta **\> faila saturu SQL** skripta redaktorā.
+6. Pārliecinieties, vai lauks **Izmantot datu bāzes ir** iestatīts kā **šablons**.
+7. Atlasiet **Palaist** un gaidiet, kamēr skripts tiks pabeigts. Veiksmīga skripta izpilde izveidos Commerce Analytics datu bāzi, akreditācijas datus, lai piekļūtu datu failā, un tikai lasāmu lietotāja kontu, kas tiks izmantots savienojumam Power BI ar Azure Synapse instanci.
+8. Lokālajā datorā atveriet Windows PowerShell administratora režīmā un dodieties uz mapi /Pipeline/CommerceAnalyticsS pirkšanasapse/mapē, kurā jūs esat to lejupielādējis vai esiet lejupielādējis Dynamics365Commerce.Solutions repo.
+9. Iestatiet Windows PowerShell izpildes politiku, palaižot tālāk norādīto komandu.
+
+    ```powershell
+    Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+    ```
+
+10. Ja SQL Server PowerShell modulis vēl nav instalēts, instalējiet to, izpildot tālāk norādīto komandu.
+
+    ```powershell
+    Install-Module sqlserver
+    ```
+
+    > [!NOTE]
+    > Šī moduļa instalēšanas laikā, iespējams, tiks piedāvāts instalēt NuGet nodrošinātāju. Šajā gadījumā atlasiet **Y, lai** instalētu NuGet nodrošinātāju. Iespējams, tiksiet aicināts apstiprināt, ka moduļi tiek atkārtoti instalēti no ne jau pārinstalēta repozitorija. Šajā gadījumā atlasiet **Y,** lai turpinātu instalēšanu. Pēc izvēles varat darbināt **Set-PSRepository** cmdlet, lai uzticētos **PS Repository** repozitorijam.
+
+11. Publicējiet Azure Synapse skatījumus, palaižot šādu komandu.
 
     ```powershell
     .\PublishSynapseViews.ps1 -serverName SERVER_NAME -password PASSWORD -storageAccount STORAGE_ACCOUNT -containerName CONTAINER_NAME -datarootpath DATA_ROOT_PATH
     ```
-    
-    Aizstāt viettura vērtības komandā šādi:
-    
+
+    Izpildot šo komandu, aizstājiet viettura vērtības kā parādīts šajā tabulā.
+
     | Viettura vērtība | Aizstāšanas vērtība |
-    |-------------------|-------------------|
-    | SERVER_NAME | Aizstāt ar bezservera Azure Synapse SQL galapunkta nosaukumu. Šo vērtību varat iegūt no Azure Synapse darbvietas pārskata **lapas Azure** portālā. |
-    | PAROLI | Aizstāt ar SQLAdminuser paroli. |
-    | STORAGE_ACCOUNT | Aizstāt ar Azure Data Pārsūtīšana glabāšanas konta nosaukumu. |
-    | CONTAINER_NAME | Aizstājiet ar tā konteinera nosaukumu, ko izveidojis eksporta **uz datuMM.** Nosaukums ir tam pašam konteineram, kuru norādījāt vērtību [placeholder_container](#install-and-configure-azure-synapse-workspace) vērtībai. |
-    | DATA_ROOT_PATH | Aizstāt ar mapes nosaukumu konteinerā, kurā ir visi dati. |
+    |---|---|
+    | SERVER_NAME | Bezservera Azure Synapse SQL galapunkta nosaukums. Šo vērtību varat iegūt no **Darbvietas** Pārskata lapas Azure Synapse Azure portālā. |
+    | PAROLI | **SQLAdminuser konta** parole. |
+    | STORAGE_ACCOUNT | Datu Pārsūtīšanas konta nosaukums. |
+    | CONTAINER_NAME | Tā konteinera nosaukums, ko izveidoja funkcija Eksportēt uz datu Tajām. Šis konteiners ir tas pats konteiners, ko [norādījāt kā placeholder_container vērtība](#phContainer) 2. darbībā. |
+    | DATA_ROOT_PATH | Mapes nosaukums konteinerā, kurā ir visi dati. |
 
     > [!NOTE]
-    > Izmantojot Azure glabāšanas pārlūkprogrammu un azure datu glabāšanas kontu, varat atrast glabāšanas konta nosaukumu, konteinera nosaukumu un datu saknes ceļu no Azure portāla.
+    > Varat atrast glabāšanas konta nosaukumu, konteinera nosaukumu un datu saknes ceļu, azure portālā izmantojot Azure glabāšanas pārlūkprogrammu un savu datu krātuves kontu.
 
-11. Uzgaidiet, līdz skripts ir pabeigts. Skripts izveidos SQL skatus Azure Synapse bezservera SQL instancē.
+12. Uzgaidiet, kamēr skripts tiks pabeigts. Veiksmīga skripta izpilde izveidos SQL skatus Azure Synapse Bezservera SQL instancē.
 
-### <a name="install-power-bi-template-app"></a>Veidnes Power BI programmas instalēšana
-Lai instalētu Power BI Commerce Analytics veidnes programmu, veiciet tālāk aprakstītās darbības.
-1. Pieteikties [Power BI portālā,](https://powerbi.microsoft.com/) izmantojot jūsu organizācijas ID.
-2. Instalējiet Commerce Analytics Power BI veidnes programmu, ejot [https://aka.ms/cdireport-installapp](https://aka.ms/cdireport-installapp) uz. Varat saņemt brīdinājumu par to, ka programma nav AppSource uzskaitīta. Atlasiet **Instalēt**.
-3. Ja šī ir pirmā reize, kad instalējat programmu, pārejiet pie 5. soļa. Ja šī programma jau ir instalēta, jums tiks sniegtas tālāk norādītās opcijas, lai atjauninātu programmu.
-   1. Atjauniniet darbvietu un programmu: šī opcija atjaunina esošo veidnes programmu un pārraksta programmas iestatījumus, piemēram, programmas instances nosaukumu un atļauju konfigurācijas.
-   2. Atjauniniet darbvietas saturu, neatjauninot programmu: šī opcija atjaunina esošo veidnes programmu un saglabā programmas iestatījumus. Šī ir **programmas** atjaunināšanas ieteicamā opcija.
-   3. Instalējiet citu programmas kopiju jaunā darbvietā: šī opcija izveido jaunu programmas kopiju jaunā darbalaukā, kas tiks jums izveidots. Esošā darbvieta netiek neskarta.      
-4. Atlasiet vienu no iepriekšminētajām opcijām un pēc tam atlasiet **·** Instalēt.
-5. Atveriet instalēto programmu, kreisajā **·** rūtī atlasot izvēlnes vienumu Programmas un pēc tam atlasot programmu.
-6. Savienojiet programmu ar datu avotu, atlasot **·** Pievienot. Ja šī nav pirmā programmas instalēšana, atlasiet Pievienot **datus** dzeltenajā informācijas joslā.
-7. Ievadiet šādas parametru vērtības:
+### <a name="install-the-power-bi-template-app"></a><a name="powerbi"></a> Instalējiet Power BI veidnes programmu
 
-   | Parametra nosaukums | Vērtība |
-   |----------------|-------|
-   | Serveris       | Ievadiet tā bezservera Azure Synapse SQL galapunkta nosaukumu, ko izveidojāt sadaļā [Darbvietas instalēšana Azure Synapse un](#install-and-configure-azure-synapse-workspace) konfigurēšana. Šo vērtību varat atrast Azure Azure Synapse portāla **·** darbvietas pārskata lapā. |
-   | Datu bāze | Ievadiet vērtību "CommerceAnalytics".
-   | Valoda | Atlasiet vērtību no nolaižamā saraksta. Šis iestatījums tiek izmantots lokalizētiem preču un kategoriju nosaukumiem. Vērtība ir reģistrjutīga. |
-   | Datumu diapazons | Atlasiet vērtību no nolaižamā saraksta. Dati par atlasītajiem mēnešiem tiks importēti Power BI uz datu kopu. Datu kopas lielums un sinhronizēšanai nepieciešamais laiks ir atkarīgs no atlasītās vērtības. |
+Lai instalētu Power BI Commerce Analytics veidnes programmu (Priekšskatījums), izpildiet šīs darbības.
 
-8. Atlasiet **Nākamais**. Jums tiks piedāvāts ievadīt akreditācijas datus savienojumam ar Azure Synapse SQL datu bāzi. Ievadiet šādas vērtības:
+1. Piesakieties [Power BI](https://powerbi.microsoft.com/) portālā, izmantojot organizācijas ID.
+2. Instalējiet Commerce Analytics (Preview) Power BI veidnes programmu, ejot uz [https://aka.ms/cdireport-installapp](https://aka.ms/cdireport-installapp). Varat saņemt brīdinājumu, ka programma nav uzskaitīta AppSource. Atlasiet **Instalēt**.
+3. Ja programmu atkārtoti instalējot pirmo reizi, pārejiet pie 5. soļa. Ja iepriekš instalējāt šo programmu, tiek rādītas tālāk norādītās programmas atjaunināšanas opcijas.
 
-   | Parametra nosaukums | Vērtība |
-   |----------------|-------|
-   |Autentifikācijas metode|Atlasiet **·** Pamata.|
-   |Lietotājvārds| Ievadiet "reportreadonlyuser".|
-   |Parole|Ievadiet vērtību, kuru izmantojāt, lai placeholder_password un vērtību skriptā [...](#install-and-configure-azure-synapse-workspace) SetupSfiskapse.sql. Šī ir reportreadonlyuser konta parole.| 
+    - **Atjauniniet darbvietu un programmu — atjauniniet esošo veidnes programmu un pārrakstiet esošos programmas** iestatījumus, piemēram, programmas instances nosaukumu un atļauju konfigurācijas.
+    - **Atjaunināt tikai darbvietas saturu,** neatjauninot programmu — atjaunināt esošo veidnes programmu, bet paturēt esošos programmas iestatījumus. *Šī opcija ir ieteicamā programmu atjaunināšanas opcija.*
+    - **Instalējiet citu programmas kopiju jaunā darbvietā — izveidojiet jaunu darbalauku un pēc tam izveidojiet tajā** esošās veidnes programmas kopiju. Esošā darbvieta netiks neskarta.
+
+4. Atlasiet vienu no atjaunināšanas opcijām un pēc tam atlasiet **Instalēt**.
+5. Atveriet instalēto programmu, kreisajā **rūtī** atlasot Programmas un pēc tam atlasot programmu.
+6. Savienojiet programmu ar datu avotu, atlasot **Pievienot**. Ja programmu instalējāt iepriekš, dzelteno ziņojumu joslā atlasiet datu **saiti** Savienot ar datiem.
+7. Iestatiet tālāk minētos laukus.
+
+    | Lauks | Vērtība |
+    |---|---|
+    | Serveris | Ievadiet iepriekšējā sadaļā Azure Synapse izveidotā Bezservera SQL galapunkta nosaukumu. Šo vērtību varat iegūt no **Darbvietas** Pārskata lapas Azure Synapse Azure portālā. |
+    | Datu bāze | Ievadiet **CommerceAnalytics.** |
+    | Valoda | Atlasiet sarakstā vērtību. Šis lauks tiek izmantots lokalizētiem preču un kategoriju nosaukumiem. Vērtība ir reģistrjutīga. |
+    | Datumu diapazons | Atlasiet sarakstā vērtību. Dati par atlasītajiem mēnešiem tiks importēti Power BI datu kopā. Atlasītā vērtība ietekmē datu kopas lielumu un sinhronizācijai nepieciešamo laiku. |
+
+8. Atlasiet **Nākamais**. Tiek piedāvāts ievadīt akreditācijas datus, lai varētu izveidot savienojumu ar Azure Synapse SQL datu bāzi. Iestatiet laukus tā, kā parādīts šajā tabulā.
+
+    | Lauks | Vērtība |
+    |---|---|
+    | Autentifikācijas metode | Atlasiet **Pamata**. |
+    | Lietotājvārds | Ievadiet **reportreadonlyuser.** |
+    | Parole | Ievadiet vērtību, kuru aizstājāt [placeholder_password](#phUserPwd) vietturim skriptā SetupSfiskapse.sql. Šī ir **reportreadonlyuser konta** parole. |
 
 9. Atlasiet **pieteiksies un izveidojiet** savienojumu.
-10. Uzgaidiet, līdz datu kopa tiek atsvaidzināta. Pēc tam dodieties uz programmas darbvietu, **atlasot ikonu** Rediģēt programmu. Varat pārbaudīt darbvietas datu kopas atsvaidzināšanas statusu. Varat arī iestatīt automātiskās atsvaidzināšanas grafikus datu kopai, pārvaldīt atļaujas un pārdēvēt programmas instanci.
+10. Uzgaidiet, līdz datu kopa tiks sekmīgi atjaunināta. Pēc tam atlasiet **pogu** Rediģēt programmu, lai atvērtu programmas darbvietu, kur varat skatīt datu kopas atjauninājuma statusu. Programmas darbvietā pēc izvēles varat arī iestatīt automātiskās atjaunināšanas grafikus datu kopai, pārvaldīt atļaujas un pārdēvēt programmas instanci.
 
-### <a name="privacy"></a>Konfidencialitāte
-Mums ir svarīga jūsu konfidencialitāte. Lai uzzinātu vairāk par konfidencialitāti, izlasiet mūsu [paziņojumu par](https://go.microsoft.com/fwlink/?LinkId=521839) konfidencialitāti.
+### <a name="privacy"></a><a name="privacy"></a>Konfidencialitāte
+
+Mums ir svarīga jūsu konfidencialitāte. Lai uzzinātu vairāk, izlasiet mūsu [Paziņojumu par konfidencialitāti](https://go.microsoft.com/fwlink/?LinkId=521839).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

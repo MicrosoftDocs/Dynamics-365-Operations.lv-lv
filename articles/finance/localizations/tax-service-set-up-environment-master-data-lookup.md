@@ -2,7 +2,7 @@
 title: Iespējot pamatdatu uzmeklēšanu nodokļu aprēķina konfigurācijai
 description: Šajā tēmā skaidrots, kā iestatīt un iespējot nodokļu aprēķināšanas pamatdatu uzmeklēšanas funkcionalitāti.
 author: kai-cloud
-ms.date: 11/03/2021
+ms.date: 11/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: dafeac01aaff62cbbd5ce6ecb0af0ef111f513b2
-ms.sourcegitcommit: 76fe020f9c5f4e5cc2e93f5ccb3b040f12b0363e
+ms.openlocfilehash: 455e8becfdfa910a3733719653e1a91557b2f59a
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "7749514"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867356"
 ---
 # <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Iespējot pamatdatu uzmeklēšanu nodokļu aprēķina konfigurācijai 
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidrots, kā iestatīt un iespējot nodokļu aprēķināšanas pamatdatu uzmeklēšanas funkcionalitāti. Nolaižamais saraksts ir pieejams vērtību atlasei nodokļu aprēķina konfigurācijā tādiem laukiem kā Kreditora **·** konts, **Krājuma kods un** Piegādes **termiņš**. Šīs vērtības ir no savienotās Microsoft Dynamics 365 Finance vides, izmantojot Microsoft Dataverse datu avotu.
+Šajā tēmā skaidrots, kā iestatīt un iespējot nodokļu aprēķināšanas pamatdatu uzmeklēšanas funkcionalitāti. Nolaižamajā sarakstā ir iespējams atlasīt vērtības nodokļu aprēķina konfigurācijā tādiem laukiem kā Juridiska persona, Kreditora konts, Krājuma **kods** un **Piegādes** **·** **termiņš**. Šīs vērtības ir no savienotās Microsoft Dynamics 365 Finance vides, izmantojot Microsoft Dataverse datu avotu.
+
+> [!NOTE] 
+> Nodokļu aprēķina pamatdatu uzmeklēšanas funkcionalitāte ir izvēles funkcionalitāte. Ja atspējot nodokļu pakalpojuma datu avotu atbalsta līdzekli regulēšanas konfigurācijas pakalpojumā **Dataverse (RCS), varat izlaist tālāk norādītās** darbības. Tomēr šādā gadījumā nolaižamais saraksts nebūs pieejams nodokļu aprēķina konfigurācijā.
 
 1. Iestatīt Microsoft Power Platform integrāciju pakalpojumos Microsoft Dynamics Lifecycle Services (LCS). Papildinformāciju skatiet sadaļā [Microsoft Power Platform integrācija - Pievienojumprogrammas pārskats](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). Kad būsiet pabeidzis šo soli, Microsoft Power Platform vides nosaukums parādīsies **Power Platform Integrācijas** sadaļā.
 2. Dodieties uz [Microsoft Power Platform administrēšanas centru](https://admin.powerplatform.microsoft.com/environments) un atlasiet vides nosaukumu. Vides URL nav norādīts.
@@ -66,16 +69,16 @@ ms.locfileid: "7749514"
 
 9. Atlasiet **Pārbaudīt savienojumu** un pabeidziet savienojuma izveidi. 
 
-    [![ Pārbaudīt savienojuma pogu.](./media/tax-service-setup-environment-for-mater-date-pic1.png)](./media/tax-service-setup-environment-for-mater-date-pic1.png)
+    [![Pārbaudīt savienojuma pogu.](./media/tax-service-setup-environment-for-mater-date-pic1.png)](./media/tax-service-setup-environment-for-mater-date-pic1.png)
 
 10. Dodieties uz **Elektronisko pārskatu izrakstīšana** > **Nodokļa konfigurācijas** un importējiet nodokļu konfigurācijas no [Nodokļu konfigurācijām](https://go.microsoft.com/fwlink/?linkid=2158352).
 
-    [![ Nodokļu konfigurācijas lapa, nodokļu datu modeļa koks.](./media/tax-service-setup-environment-for-mater-date-pic2.png)](./media/tax-service-setup-environment-for-mater-date-pic2.png)
+    [![Nodokļu konfigurācijas lapa, nodokļu datu modeļa koks.](./media/tax-service-setup-environment-for-mater-date-pic2.png)](./media/tax-service-setup-environment-for-mater-date-pic2.png)
 
 11. Ja izmantojat Microsoft konfigurāciju, dodieties uz **Ar nodokli apliekamo dokumentu modeļu kartēšanu** vai **Dataverse modeļu kartēšanu**, un laukā **Saistītais pieteikums** atlasiet ierakstu, ko izveidojāt 7. darbībā.
 12. Iestatiet **Noklusējums modeļu kartēšanai** kā **Jā**.
 
-    [![ Modeļu kartēšanas lapa.](./media/tax-service-setup-environment-for-mater-date-pic3.png)](./media/tax-service-setup-environment-for-mater-date-pic3.png)
+    [![Modeļu kartēšanas lapa.](./media/tax-service-setup-environment-for-mater-date-pic3.png)](./media/tax-service-setup-environment-for-mater-date-pic3.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

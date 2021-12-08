@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: f3cac30a66ff3a74a7f67c11dd9fa14af79d10af
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
-ms.translationtype: HT
+ms.openlocfilehash: 68115d484abcdc3c37357ae441e9f9ccb5212659
+ms.sourcegitcommit: 6a9f068b59b62c95a507d1cc18b23f9fd80a859b
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752621"
+ms.lasthandoff: 11/20/2021
+ms.locfileid: "7827057"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Finance Insights iestatījumu problēmu novēršana
 
@@ -35,7 +35,7 @@ ms.locfileid: "7752621"
 
 ### <a name="resolution"></a>Novēršana
 
-Iespējams, ka agrākai versijai izmantojat veidni. Pirms versijas 10.0.17 izlaišanas priekšskatiet debitorus, kuri konfigurēja **Debitora maksājuma ieskatu rezultātus (CDS uz Fin un Ops)** Datu integrācijas (DI) veidni, izmantojot **Maksājumu prognozēšanas rezultātu (priekšskatījuma)** elementu. Pēc jaunināšanas uz 10.0.17 vai jaunāku versiju, ir jāizmanto **Debitoru maksājumu ieskatu rezultāti (CDS uz Fin un Ops 10.0.17 vai jaunāka versija)** DI veidne, lai pabeigtu kartēšanu. Iespējams, ka nevarēsit kartēt DI veidnes mērķa kolonnu, kamēr datu pārvaldības elementu saraksts nav atsvaidzināts un tajā tiek parādīts **Maksājumu prognozēšanas rezultāta** elements. Lai atsvaidzinātu elementu sarakstu un rādītu maksājumu prognozēšanas rezultātu, izpildīsiet gan Microsoft Dynamics 365 Finance, gan Dataverse (iepriekš zināmas kā Common Data Service \[ CDS\] administratora portāls).
+Iespējams, ka agrākai versijai izmantojat veidni. Pirms versijas 10.0.17 izlaišanas priekšskatiet debitorus, kuri konfigurēja **Debitora maksājuma ieskatu rezultātus (CDS uz Fin un Ops)** Datu integrācijas (DI) veidni, izmantojot **Maksājumu prognozēšanas rezultātu (priekšskatījuma)** elementu. Pēc jaunināšanas uz 10.0.17 vai jaunāku versiju, ir jāizmanto **Debitoru maksājumu ieskatu rezultāti (CDS uz Fin un Ops 10.0.17 vai jaunāka versija)** DI veidne, lai pabeigtu kartēšanu. Iespējams, ka nevarēsit kartēt DI veidnes mērķa kolonnu, kamēr datu pārvaldības elementu saraksts nav atsvaidzināts un tajā tiek parādīts **Maksājumu prognozēšanas rezultāta** elements. Lai atsvaidzinātu elementu sarakstu un rādītu maksājumu prognozēšanas rezultātu, izpildīsiet gan Microsoft Dynamics 365 Finance, gan Dataverse (iepriekš zināmas kā Common Data Service \[CDS\] administratora portāls).
 
 ### <a name="in-finance"></a>Finance
 
@@ -55,11 +55,11 @@ Izpildiet šīs darbības [Power Platform administrēšanas centrā](https://adm
 1. Ja izmantojat Finance Insights versiju, noņemiet DI projektu, kas ir saistīts ar **Debitoru maksājumu ieskatu rezultātiem (CDS uz Fin un Ops)** veidni.
 2. Izpildiet darbības sadaļā [Izveidot datu integrētātāja projektu](create-data-integrate-project.md). Izmantojiet **Debitora maksājuma ieskatu rezultātu (CDS uz Fin un Ops 10.0.17 vai jaunāku)** veidni.
 
-## <a name="symptom-when-i-try-to-open-ai-builder-by-using-the-links-on-the-customer-payment-predictions-setup-page-why-do-i-receive-the-following-error-message-sorry-theres-been-a-disconnect"></a>Simptoms: Kad es mēģinu atvērt AI Builder, izmantojot saites klientu maksājumu prognožu iestatīšanas lapā, kāpēc es saņemu šādu kļūdas ziņojumu: "Atvainojiet, ir notikusi atvienošana"?
+## <a name="symptom-when-i-try-to-open-ai-builder-by-using-the-links-on-the-customer-payment-predictions-setup-page-why-do-i-receive-the-following-error-message-sorry-theres-been-a-disconnect"></a>Simptoms: Kad mēģinu atvērt AI Builder, izmantojot saites debitora maksājumu prognozēšanas iestatījumu lapā, kāpēc es saņemu šādu kļūdas ziņojumu: "Diemžēl ir bijis atvienošanās"?
 
 ### <a name="resolution"></a>Novēršana
 
-Dynamics 365 Finance lietotājiem ir jābūt Microsoft Power Apps vides lietotāja kontam, un šim lietotāja kontam ir jābūt sistēmas pielāgotāja lomai. Microsoft Power Apps Sistēmas administrators var izveidot lietotāja kontu un piešķirt lomu. Pēc tam varat doties uz <https://make.preview.powerapps.com/>, pieteikties, izmantojot šo lietotāja kontu, un vēlreiz izmēģināt saites.
+Dynamics 365 Finance Lietotāja kontam jābūt vides lietotāja kontam un šim lietotāja Microsoft Power Apps kontam jābūt sistēmas pielāgotāja lomai. Sistēmas Microsoft Power Apps administrators var izveidot lietotāja kontu un piešķirt lomu. Pēc tam varat doties <https://make.preview.powerapps.com/> uz, pieteikties, izmantojot šo lietotāja kontu, un vēlreiz mēģināt saites.
 
 ## <a name="symptom-why-doesnt-the-cash-forecast-tab-in-the-cash-flow-forecast-workspace-show-any-data"></a>Simptoms: kādēļ naudas plūsmas prognozes darbvietas cilne Naudas plūsmas prognoze nerāda nekādus datus?
 
@@ -70,3 +70,26 @@ Naudas plūsmas prognozēšanas funkcija naudas plūsmas un banku pārvaldībā 
 Vispirms iestatiet un aktivizējiet naudas plūsmas prognozes un likviditātes kontus. Papildinformāciju skatiet sadaļā [Naudas plūsmas prognozes](../cash-bank-management/cash-flow-forecasting.md). Ja šis iestatījums ir pabeigts, bet nevarat redzēt sagaidāmos rezultātus, papildinformāciju skatiet sadaļā [Problēmu novēršanas naudas plūsmas prognozēšanas](../cash-bank-management/cash-flow-forecasting-tsg.md) iestatījumi.
 
 Pēc tam apstipriniet, ka naudas plūsmas prognožu funkcija Finance Insights (**Naudas un bankas pārvaldība \> Iestatījumi \> Finance Insights \> Naudas plūsmas prognozes**) ir iespējota un ka AI modeļa apmācība ir pabeigta. Ja apmācība nav pabeigta, atlasiet **Prognoze tagad**, lai sāktu modeļu apmācību procesu.
+
+## <a name="symptom-why-isnt-the-install-a-new-add-in-button-visible-in-microsoft-dynamics-lifecycle-services"></a>Simptoms: kādēļ programmā Lifecycle Services nav redzama jauna Microsoft Dynamics pievienojumprogrammas poga?
+
+### <a name="resolution"></a>Novēršana
+
+Vispirms pārbaudiet, vai vides pārvaldnieka vai projekta īpašnieka loma ir piešķirta lietotājam, kurš ir pierakstījies, laukā Projekta drošības loma **pakalpojumā** **·** **·** Microsoft Dynamics Lifecycle Services (LCS). Jaunu pievienojumprogrammu instalācijai ir nepieciešama viena no šīm projekta drošības lomām.
+
+Ja jums ir piešķirta pareizā projekta drošības loma, iespējams, būs jāatsvaidzina pārlūka logs, lai skatītu pogu Instalēt **jaunu** pievienojumprogrammu.
+
+## <a name="symptom-the-finance-insights-add-in-doesnt-seem-to-be-installing-why-is-that"></a>Simptoms: Nešķist instalēt finanšu ieskatu pievienojumprogrammu. Kādēļ tas ir?
+
+### <a name="resolution"></a>Novēršana
+
+Šādiem soļiem jābūt pabeigtiem.
+
+- Pārbaudiet, vai jums **ir sistēmas administratora un sistēmas** **pielāgotāja** piekļuve Power Portal administratora centrā.
+- Pārbaudiet, vai Dynamics 365 Finance vai vai vai licences numurs attiecas uz lietotāju, kurš instalē pievienojumprogrammu.
+- Pārbaudiet, vai Azure AD šī programma ir Azure AD reģistrēta: 
+
+  | Pieteikums                  | Programmas ID           |
+  | ---------------------------- | ---------------- |
+  | Microsoft Dynamics ERP apakšpakalpojumi CDS | 703e2651-d3fc-48f5-942c-74274233dba8 | 
+  
