@@ -2,7 +2,7 @@
 title: Ieņēmumu atzīšanas iestatīšana
 description: Šajā tēmā ir aprakstītas ieņēmumu atzīšanas iestatīšanas opcijas un to izmantošana.
 author: kweekley
-ms.date: 08/24/2018
+ms.date: 11/24/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: b5ffd86d736cb7b6b5c270663c2b774e14556a6b
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: e8e29ec1ca5a02db67bb4baf522da96ec23c740f
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675182"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867224"
 ---
 # <a name="revenue-recognition-setup"></a>Ieņēmumu atzīšanas iestatīšana
 [!include [banner](../includes/banner.md)]
@@ -61,7 +61,7 @@ Pirmais scenārijs iestājas pēc visu līgumsaistību izpildes, kad atliktie ie
 
 Otrais scenārijs iestājas, kad pēc atkārtotas sadales tiek izveidots žurnāls. Atkārtota sadale notiek, kad pārdošanas pasūtījuma rinda tiek pievienota iepriekš rēķinā iekļautam pārdošanas pasūtījumam vai kad tiek izveidots jauns pārdošanas pasūtījums, kas ietver rindu, kura ir daļa no sākotnējā līguma. Ja rēķins tika grāmatots pirms jaunas pārdošanas pasūtījuma rindas pievienošanas, grāmatotajam debitora rēķinam ir jāizveido labošanas uzskaites ieraksts.
 
-Žurnāls ir iestatīts lapā **Žurnālu nosaukumi** (**Ieņēmumu atzīšana \> Iestatīšana \> Žurnālu nosaukumi**). Žurnāla veidam ir jāiestata vērtība **Ieņēmumu atzīšana**. Ieņēmumu atzīšanas žurnāls ļauj atlasīt grāmatošanas līmeni, kurā grāmatot.
+Žurnāls ir iestatīts lapā **Žurnālu nosaukumi** (**Ieņēmumu atzīšana \> Iestatīšana \> Žurnālu nosaukumi**). Žurnāla veidam ir jāiestata vērtība **Ieņēmumu atzīšana**. 
 
 ## <a name="parameters-for-revenue-recognition"></a>Ieņēmumu atzīšanas parametri
 

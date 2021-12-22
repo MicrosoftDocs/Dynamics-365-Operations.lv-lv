@@ -2,7 +2,7 @@
 title: Īsinājumtaustiņi
 description: Šī tēma sniedz apskatu par īsinājumtaustiņu kombinācijām, kuras varat izmantot, strādājot ar Finance and Operations programmām.
 author: jasongre
-ms.date: 11/12/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 969cd6aaf2d7c4cee7bb95029f19741372f915eb
-ms.sourcegitcommit: ab32fc90ea498ce3b629384f78cbe1aee747f157
+ms.openlocfilehash: 6e6f6faf75bb9dc2b11b3a27a886b1674cc7b339
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/12/2021
-ms.locfileid: "7800197"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913522"
 ---
 # <a name="keyboard-shortcuts"></a>Īsinājumtaustiņi
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Tālāk norādītie īsinājumtaustiņi palīdz ātri un efektīvi ievadīt datus Finance and Operations programmās.
 
@@ -73,7 +72,7 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 | Atvērt papildinformācijas rūti (vai aktivizēt papildinformācijas rūti, ja tās jau ir atvērta) | Alt+M,B vai Ctrl+F2                        |
 | Aizvērt papildinformācijas rūti (kad papildinformācijas rūts ir aktivizēta)                         | Esc                                       |
 | Pāriet uz nākamo/iepriekšējo papildinformācijas rūti (kad papildinformācijas rūts ir aktivizēta)              | Alt+Shift+bultiņa uz leju/Alt+Shift+bultiņa uz augšu |
-| Pāriet uz papildinformācijas rūti Nr. &lt; n&gt;(kad papildinformācijas rūts ir aktivizēta)                | Alt+&lt; n&gt; (&lt; n&gt; = 1–9)           |
+| Pāriet uz papildinformācijas rūti Nr. &lt;n&gt;(kad papildinformācijas rūts ir aktivizēta)                | Alt+&lt;n&gt; (&lt;n&gt; = 1–9)           |
 | Izvērst papildinformācijas rūti (kad papildinformācijas rūts ir aktivizēta)                             | Atstarpes taustiņš vai Enter                            |
 | Sakļaut pašreizējo papildinformācijas rūti                                                    | Alt+0                                     |
 
@@ -114,11 +113,11 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 |-----------------------------------------------------|----------------------------------------------|
 | Pāriet uz nākamo/iepriekšējo lauku                     | Tab/Shift+Tab                              |
 | Pāriet uz nākamo/iepriekšējo cilni                       | Alt+Shift+bultiņa pa labi/Alt+Shift+bultiņa pa kreisi |
-| Pāriet uz cilni Nr. &lt; n&gt;                         | Alt+Shift+&lt; n&gt; (&lt; n&gt; = 1–9)        |
+| Pāriet uz cilni Nr. &lt;n&gt;                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1–9)        |
 | Pāriet uz nākamo/iepriekšējo kopsavilkuma cilni                   | Alt+Shift+bultiņa uz leju/Alt+Shift+bultiņa uz augšu    |
-| Pāriet uz kopsavilkuma cilni Nr. &lt; n&gt;                     | Alt+&lt; n&gt; (&lt; n&gt; = 1–9)              |
+| Pāriet uz kopsavilkuma cilni Nr. &lt;n&gt;                     | Alt+&lt;n&gt; (&lt;n&gt; = 1–9)              |
 | Pāriet uz nākamo/iepriekšējo paneli (vertikālo cilni)      | Alt+Shift+bultiņa pa labi/Alt+Shift+bultiņa pa kreisi |
-| Pāriet uz &lt; n&gt;-to paneli (vertikālo cilni)        | Alt+Shift+&lt; n&gt; (&lt; n&gt; = 1–9)        |
+| Pāriet uz &lt;n&gt;-to paneli (vertikālo cilni)        | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1–9)        |
 | Izvērst kopsavilkuma cilni (kad kopsavilkuma cilne ir aktivizēta) | Atstarpes taustiņš vai Enter                               |
 | Sakļaut pašreizējo kopsavilkuma cilni                        | Alt+0                                        |
 | Aktivizēt režģa skatu                                 | Ctrl+Shift+G                                 |
@@ -150,6 +149,7 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 | Režģī izpildīt noklusējuma darbību<blockquote>[!NOTE] Šī saīsne ir iespējota, kad ir fokusēta šūna, kurā ir hipersaite, un visās attiecīgās kolonnas šūnās ir hipersaites.</blockquote> | Enter                           |
 | Pārslēgt fokusu no atlasītās rindas uz virsraksta rindu vai otrādi                                                               | Alt+Shift+H                     |
 | Pašreizējo kolonnu padarīt lielāku/mazāku (kamēr fokuss ir virsraksta rindā)                                                  | Bultiņa pa labi/bultiņa pa kreisi        |
+| Pārvietot pašreizējo kolonnu uz nākamo/iepriekšējo pozīciju (ar fokusu galvenes rindā)                                   | Ctrl+Shift+labā bultiņa / Ctrl+Shift+kreisā bultiņa |
 | Atvērt režģa filtrēšanu pašreizējai kolonnai (kamēr fokuss ir virsraksta rindā)                                              | Ievadīt                           |
 | Mainīt pašreizējās kolonnas izmēru, lai ietilptu saturs (ar fokusu virsraksta rindā)                                           | A (vai veiciet dubultklikšķi uz kolonnas izmēru maiņas tura) |
 

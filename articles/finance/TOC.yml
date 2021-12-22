@@ -70,12 +70,12 @@
                   items:
                     - name: Jaunumi un izmaiņas programmas Finance sākumlapā
                       href: get-started/whats-new-home-page.md
-                    - name: Finance 10.0.23
+                    - name: Finance 10.0.24 (februāris)
+                      href: get-started/whats-new-changed-10-0-24.md
+                    - name: Finance 10.0.23 (janvāris)
                       href: get-started/whats-new-changed-10-0-23.md
                     - name: "Finance 10.0.22 (2021.\_gada novembris)"
                       href: get-started/whats-new-changed-10-0-22.md
-                    - name: "Finance 10.0.21 (2021.\_gada oktobris)"
-                      href: get-started/whats-new-changed-10-0-21.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
                 - name: Noņemtie vai novecojušie līdzekļi sākumlapā
@@ -518,6 +518,8 @@
               href: budgeting/budget-control-overview-configuration.md
             - name: Budžeta veidošanas pārskats
               href: budgeting/basic-budgeting-overview-configuration.md
+            - name: Pieejamie budžeta līdzekļi
+              href: budgeting/budget-funds-available.md
             - name: Pozīciju prognozēšana
               href: budgeting/position-forecasting.md
             - name: Budžeta plānošanas attaisnojuma dokumenti
@@ -1434,6 +1436,8 @@
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: Elektronisko rēķinu izveides iestatīšana
                           href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
+                        - name: Power Platform spraudņa administratora atsauce
+                          href: localizations/e-invoicing-power-platform-plug-in.md
                     - name: Bieži uzdotie jautājumi par elektronisko rēķinu izveidi
                       href: localizations/e-invoicing-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Nodokļu aprēķins
@@ -1444,6 +1448,14 @@
                       items:
                         - name: Darba sākšana ar nodokļu aprēķinu
                           href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
+                        - name: Nodokļu kodu iestatīšana
+                          href: localizations/set-up-tax-codes.md
+                        - name: Nodokļu grupu iestatīšana
+                          href: localizations/set-up-tax-groups.md
+                        - name: Krājumu nodokļu grupu iestatīšana
+                          href: localizations/set-up-item-tax-groups.md
+                        - name: Importa un eksporta nodokļu aprēķini
+                          href: localizations/tax-calculation-import-export-feature.md
                         - name: Pamatdatu uzmeklēšanas vides iestatīšana
                           href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
                     - name: Noteikšana
@@ -2594,6 +2606,8 @@
               items:
                 - name: Indonēzijas pārskats
                   href: localizations/indonesia.md
+                - name: Nodokļu rēķinu numerācija un rēķinu izrakstīšana
+                  href: localizations/apac-idn-invoicing.md
                 - name: PVN deklarācija Indonēzijai
                   href: localizations/apac-idn-ppn-declaration.md
             - name: Itālija
@@ -2662,6 +2676,8 @@
                   href: localizations/emea-ita-exil-tax-plafond.md
                 - name: Klientu elektroniskie rēķini
                   href: localizations/emea-ita-e-invoices.md
+                - name: Kreditoru elektroniskie rēķini
+                  href: localizations/emea-ita-vend-e-invoices.md
                 - name: Ikgadējā nodokļu komunikācija
                   href: localizations/emea-ita-yearly-tax-communication.md
                 - name: Maksājumu izsekošana
@@ -2964,6 +2980,20 @@
                   href: localizations/emea-nor-nets-import-format.md
                 - name: PVN deklarācija
                   href: localizations/emea-nor-sales-tax-payment-report.md
+                - name: PVN atgriešana ar tiešo iesniegšanu Altinn
+                  items:
+                    - name: PVN atgriešanas ar tiešo iesniegšanu Altinn pārskats
+                      href: localizations/emea-nor-vat-return.md
+                    - name: Integrācijas punkta reģistrēšana ID-porten tīmekļa portālā
+                      href: localizations/emea-nor-vat-return-integration-point.md
+                    - name: 'Savas vides sagatavošana, lai nodrošinātu sadarbspēju ar ID-porten un Altinn tīmekļa pakalpojumiem'
+                      href: localizations/emea-nor-vat-return-setup.md
+                    - name: Kontrolsaraksts elektronisko ziņojumu iestatīšanai PVN atgriešanai
+                      href: localizations/emea-nor-vat-return-checklist.md
+                    - name: Savas Finance vides autorizēšana sadarbspējai ar ID-Porten un Altinn tīmekļa pakalpojumiem
+                      href: localizations/emea-nor-vat-return-authorization.md
+                    - name: PVN deklarācijas iesniegšana Altinn tīmekļa pakalpojumā
+                      href: localizations/emea-nor-vat-return-submission.md
                 - name: Standarta audita fails nodoklim (SAF-T) Norvēģijā
                   href: localizations/emea-nor-satndard-audit-file-for-tax.md
                 - name: Klientu elektroniskie rēķini Norvēģijā
@@ -3400,7 +3430,7 @@
                       href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
                     - name: Sadarbspējas ar MTD PVN smilškasti pārbaude
                       href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
-                    - name: 'Autorizējiet savu Finance vidi, lai nodrošinātu sadarbspēju ar HMRC MTD tīmekļa pakalpojumu'
+                    - name: Savas Finance vides autorizēšana sadarbspējai ar HMRC MTD tīmekļa pakalpojumu
                       href: localizations/emea-gbr-mtd-vat-integration-authorization.md
                     - name: PVN deklarācijas iesniegšana HMRC MTD tīmekļa pakalpojumā
                       href: localizations/emea-gbr-mtd-vat-integration-submission.md
@@ -3831,7 +3861,9 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/finance/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/finance/toc.json
-                    - name: Saraksts
+                        - name: WeekNum
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/finance/toc.json
+                    - name: List
                       items:
                         - name: Saraksta funkcijas
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/finance/toc.json

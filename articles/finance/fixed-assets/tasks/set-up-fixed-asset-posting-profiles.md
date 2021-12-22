@@ -1,7 +1,7 @@
 ---
 title: Pamatlīdzekļa grāmatošanas profilu iestatīšana
-description: Šajā uzdevuma ceļvedī tiks iestatītas pamatlīdzekļu grāmatošanas metodes.
-author: saraschi2
+description: Šajā procedūrā ir parādīts, kā iestatīt pamatlīdzekļu grāmatošanas metodes.
+author: moaamer
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,21 +10,21 @@ ms.search.form: AssetPosting
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a2708997848352205cab2e425c9ae1fb531b8a566ba86a65ba2cbeb7e0b5c2b8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: ee0006c9588a22d720687e7aceb49acc756b83e1
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767627"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883772"
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>Pamatlīdzekļa grāmatošanas profilu iestatīšana
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā uzdevuma ceļvedī tiks iestatītas pamatlīdzekļu grāmatošanas metodes.  Tas izmanto grāmatveža lomu un demonstrācijas datus USMF juridiskajai personai.  Uzdevuma ceļvedī sniegti piemēri pamata grāmatošanas metodei, lai gan grāmatošanas metodes ir jāizveido jūsu konkrētajam kontu plānam un finanšu atskaišu prasībām.
+Šajā procedūrā ir parādīts, kā iestatīt pamatlīdzekļu grāmatošanas metodes. Šajā tēmā minētie piemēri ir pamatgrāmatošanas metodei, tomēr grāmatošanas metodes ir jāizveido specifiskam kontu plānam un finanšu pārskatu prasībām.
 
 1. Navigācijas rūtī pārejiet uz sadaļu **Moduļi > Pamatlīdzekļi > Iestatīšana > Pamatlīdzekļu grāmatošanas metodes**.
 2. Klikšķiniet **Jauns**.

@@ -2,7 +2,7 @@
 title: Attēlu augšupielāde
 description: Šajā tēmā aprakstīts, kā augšupielādēt attēlus Microsoft Dynamics 365 Commerce vietnes veidotājā.
 author: psimolin
-ms.date: 08/25/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a5607fa70f5d5d28d10bcbd50da11bb96cbf75de
-ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
-ms.translationtype: HT
+ms.openlocfilehash: 3b99aeff7eafd788c19204e22dbfc61f45b25408
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7423259"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891526"
 ---
 # <a name="upload-images"></a>Attēlu augšupielāde
 
@@ -41,7 +41,8 @@ Augšupielādējot attēlu, var norādīt šādu informāciju.
 - **Publicēt līdzekļus pēc augšupielādes**: kad šī izvēles rūtiņa ir atzīmēta, attēls vai attēli tiek publicēti uzreiz pēc augšupielādes.
 
 > [!NOTE]
-> Attēlu līdzekļi ar piešķirtu kategoriju tiek arī automātiski atzīmēti ar kategoriju kā atslēgvārdu, lai palīdzētu meklēt konkrētas kategorijas līdzekļus.
+> - Attēlu līdzekļi ar piešķirtu kategoriju tiek arī automātiski atzīmēti ar kategoriju kā atslēgvārdu, lai palīdzētu meklēt konkrētas kategorijas līdzekļus.
+> - Preces detaļu lapas dinamiski ģenerē Alternatīvo tekstu, izmantojot preces nosaukumu, tāpēc preces attēla alternatīvā teksta maiņa **neietekmēs** **atveidoto** attēlu.
 
 ### <a name="naming-conventions-for-omni-channel-images"></a>Nosaukšanas nosacījumi daudzkanālu attēliem 
 
@@ -62,7 +63,7 @@ Noklusējuma nosaukšanas nosacījumi atšķiras atkarībā no kategorijas:
 > [!NOTE]
 > Ja dimensijas vērtība ir tukša, preces variantu attēliem ir jābūt divām baltstarpām starp kastēm faila nosaukumā.
 
-Iepriekšminētajos piemēros tiek izmantota noklusējuma konfigurācija. Atdalītāja rakstzīme un dimensijas ir konfigurējamas, un precīza nepieciešamā nosaukumdošana var atšķirties starp izvietošanām. Viena metode, lai noteiktu precīzu  nosaukumu piešķiršanas metodi, ir izmantot pārlūkprogrammas izstrādātāja konsole, lai pārbaudītu preces varianta attēlu pieprasījumus, kamēr maināt preces dimensijas Storefront preču informācijas lapā (PDP).
+Iepriekšminētajos piemēros tiek izmantota noklusējuma konfigurācija. Atdalītāja rakstzīme un dimensijas ir konfigurējamas, un precīza nepieciešamā nosaukumdošana var atšķirties starp izvietošanām. Viena metode, lai noteiktu precīzu nosaukumu piešķiršanas metodi, ir izmantot pārlūkprogrammas izstrādātāja konsole, lai pārbaudītu preces varianta attēlu pieprasījumus, kamēr maināt preces dimensijas Storefront preču informācijas lapā (PDP).
 
 ## <a name="upload-an-image"></a>Augšupielādēt attēlu
 

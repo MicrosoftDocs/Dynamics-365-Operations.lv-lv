@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 8681ef80166f7d5f108c9424b53fa5c6f5324467
-ms.sourcegitcommit: fcb1aa39e933216dea9e586b552bce6057f416a6
+ms.openlocfilehash: 8e6328902cec840b98b401fe8dd46c2a6f18cb54
+ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "7645786"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902563"
 ---
 # <a name="get-started-with-planning-optimization"></a>Darba sākšana ar plānošanas optimizāciju
 
@@ -40,7 +40,7 @@ Pirms plānošanas optimizācijas ieslēgšanas iesakām novērtēt plānošanas
 
 ## <a name="availability"></a>Pieejamība
 
-Plānošanas optimizācija pašlaik ir pieejama šādās Azure ģeogrāfiskās vietās: Amerikas Savienotās Valstis, Kanāda, Eiropa, Apvienotā Karaliste, Austrālija, Āzijas Klusā okeāna daļa un Japāna. Ja mēģināsit instalēt pievienojumprogrammu no cita ģeogrāfiskā reģiona, tad LCS rādīs ziņojumu, ka šī ģeogrāfiskā vērtība netiek atbalstīta. Papildinformāciju par Azure ģeogrāfiskām vietām un saistītiem reģioniem skatiet sadaļā [Azure ģeogrāfiskās vietas](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
+Optimizācijas plānošana pašlaik ir pieejama tālāk redzamajā Azure ģeogrāfiskā grafikā: AMERIKAS Savienotās Valstis, Kanāda, Eiropa, Apvienotā Karaliste, Austrālija, Klusā okeāna, Japānas un Indija. Ja mēģināsit instalēt pievienojumprogrammu no cita ģeogrāfiskā reģiona, tad LCS rādīs ziņojumu, ka šī ģeogrāfiskā vērtība netiek atbalstīta. Papildinformāciju par Azure ģeogrāfiskām vietām un saistītiem reģioniem skatiet sadaļā [Azure ģeogrāfiskās vietas](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
 
 Ņemiet vērā, ka plānošanas optimizācija neatbalsta Dynamics 365 Supply Chain Management lokālās izvietošanas.
 

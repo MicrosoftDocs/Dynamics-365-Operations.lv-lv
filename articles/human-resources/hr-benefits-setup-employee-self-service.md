@@ -1,8 +1,8 @@
 ---
-title: Konfigurēt darbinieku patstāvīgi izmantojamo pakalpojumu
+title: Konfigurēt darbinieku pašapkalpošanos
 description: Microsoft Dynamics 365 Human Resources varat konfigurēt darbinieku patstāvīgi izmantojamā pakalpojuma augšējā līmeņa navigācijas elementus.
 author: twheeloc
-ms.date: 08/24/2021
+ms.date: 12/06/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 92a788dd436f4efc16946a47731c9dbce36ab0e9
-ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
-ms.translationtype: HT
+ms.openlocfilehash: 1e0c59eb8db5a97405e87922cc65f3eb74bee48e
+ms.sourcegitcommit: b101c21f972fdad2667431f712222e040cd69d43
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7423322"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "7898444"
 ---
 # <a name="configure-employee-self-service"></a>Konfigurēt darbinieku patstāvīgi izmantojamo pakalpojumu
 
@@ -38,15 +38,12 @@ Microsoft Dynamics 365 Human Resources varat konfigurēt **Darbinieku patstāvī
 
    | Lauks | Apraksts |
    | --- | --- |
+   | **Plāna veida kods** | Plāna tips, kas tiek parādīts, ja šis elements ir atlasīts **opcijā Benefits pašapkalpošanās**. |
    | **Elementa ID** | Elementa unikālais identifikators. |
-   | **Elementa etiķetes teksts** | Teksts, kas būs redzams rūtī **Darbinieku pašapkalpošanās**. |
+   | **Elementa etiķetes teksts** | Teksts, kas tiks parādīts elementam **Benefits pašapkalpošanās**. |
    | **Apraksts** | Elementa apraksts. |
-   | **Interneta adrese** | Ievadiet URL uz **Darbinieku pašapkalpošanās** lapu. |
-   | **Elementa lielums** | Elementa lielums: mazs, vidējs vai liels. |
-   | **Adresāts** | Norāda, vai lapa ir jāatver jaunā logā vai esošajā logā. |
    | **Elementa fona attēls** | Elementam izmantojamā attēla URL (nav obligāts). |
-   | **Sākšana** | Elementa pieejamības sākuma datums un laiks. |
-   | **End** | Elementa pieejamības beigu datums un laiks. |
+   | **Izsekot atvērto reģistrāciju** | Atlasiet šo opciju, lai izsekotu atvērtās reģistrācijas norisi šim plāna tipam. Piemēram, jums var būt izveidoti plāni, kur **plāna tips = Citi**. Šie plāni var būt izvēles plāni, kuriem nevēlaties izsekot reģistrācijas progresu. Ja neatlasīsit šo plāna tipu, šāda tipa plāns tiks ignorēts, izsekojot reģistrācijas norisi vai reģistrācijas pabeigšanu **cilnē Atvērta** reģistrācija. Šis iestatījums attiecas uz plāna tipu, kas atlasīts visiem periodiem un juridiskām personām. |
 
 4. Atlasiet **Saglabāt**.
 
@@ -60,15 +57,12 @@ Microsoft Dynamics 365 Human Resources varat konfigurēt **Darbinieku patstāvī
 
    | Lauks | Apraksts |
    | --- | --- |
+   | **Atvieglojumu kredīta ID** | Brīvā režīma kredīta programmu plāni, kas tiks parādīti, kad šis elements ir atlasīts **opciju pašapkalpošanās programmā Priekšrocības**. |
    | **Elementa ID** | Elementa unikālais identifikators. |
-   | **Elementa etiķetes teksts** | Teksts, kas būs redzams rūtī **Darbinieku pašapkalpošanās**. |
+   | **Elementa etiķetes teksts** | Teksts, kas tiks parādīts elementam **Benefits pašapkalpošanās**. |
    | **Apraksts** | Elementa apraksts. |
-   | **Interneta adrese** | Ievadiet URL uz **Darbinieku pašapkalpošanās** lapu. |
-   | **Elementa lielums** | Elementa lielums: mazs, vidējs vai liels. |
-   | **Adresāts** | Norāda, vai lapa ir jāatver jaunā logā vai esošajā logā. |
    | **Elementa fona attēls** | Elementam izmantojamā attēla URL (nav obligāts). |
-   | **Sākšana** | Elementa pieejamības sākuma datums un laiks. |
-   | **End** | Elementa pieejamības beigu datums un laiks. |
+   | **Izsekot atvērto reģistrāciju** | Atlasiet šo opciju, lai izsekotu atvērtās reģistrācijas norisi šim plāna tipam. Piemēram, jums var būt izveidoti plāni, kur **plāna tips = Citi**. Šie plāni var būt izvēles plāni, kuriem nevēlaties izsekot reģistrācijas progresu. Ja neatlasīsit šo plāna tipu, šāda tipa plāns tiks ignorēts, izsekojot reģistrācijas norisi vai reģistrācijas pabeigšanu **cilnē Atvērta** reģistrācija. Šis iestatījums attiecas uz plāna tipu, kas atlasīts visiem periodiem un juridiskām personām. |
 
 4. Atlasiet **Saglabāt**.
 

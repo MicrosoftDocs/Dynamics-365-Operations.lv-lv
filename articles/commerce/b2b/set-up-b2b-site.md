@@ -2,7 +2,7 @@
 title: B2B e-komercijas vietnes iestatīšana
 description: Šajā tēmā aprakstīts, kā iestatīt uzņēmums-uzņēmums (B2B) e-komercijas vietni programmā Microsoft Dynamics 365 Commerce.
 author: josaw1
-ms.date: 04/23/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c630580dd75a86085746b36726e9ee55a9db2af5
-ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
+ms.openlocfilehash: 171e518258e9600bd7526cf52e3e456d272e6bce
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7713752"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891389"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>B2B e-komercijas vietnes iestatīšana
 
 [!include [banner](../../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Uzņēmums-uzņēmums (B2B) e-komercijas vietnes nodrošina dažas galvenās iespējas, kas optimizē darbplūsmu B2B lietotājam. Šajā tēmā aprakstīts, kā iestatīt B2B e-komercijas vietni programmā Microsoft Dynamics 365 Commerce. Tajā aplūkoti moduļi un vietas iestatījumi, kas jākonfigurē, lai iespējotu B2B raksturīgos scenārijus.
 
@@ -306,6 +307,30 @@ Lai pievienotu ātrās pievienošanas moduli groza lapai programmā Commerce vie
 
 > [!NOTE] 
 > Ātrās pievienošanas modulis ir pieejams Commerce versijas 10.0.17 laidienā. Ja veicat atjaunināšanu no vecākas Commerce versijas, ir manuāli jāatjaunina fails appsettings.json. Instrukcijas skatiet [SDK un moduļu bibliotēkas atjauninājumi](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
+
+## <a name="add-a-bulk-purchase-module-to-a-product-details-page"></a>Lielapjoma pirkšanas moduļa pievienošana detalizētai produkta informācijas lapai
+
+Lielapjoma pirkšanas modulis produkta informācijas lapā (PDP) nodrošina uz matricu balstītu pieredzi, kas ļauj pircējam ātri pievienot grozam vairākus produkta variantus. Ja vietnes lietotājam ir jāpasūta vairāki viena produkta varianti, šī pieredze novērš nepieciešamību atlasīt preču dimensiju kombināciju, definēt daudzumu, pievienot variantu grozam un pēc tam atkārtot procesu citām preču dimensiju kombinācijām.
+
+Lai pievienotu lielapjoma pirkšanas moduli PDP programmā Commerce vietņu veidotājs, rīkojieties šādi.
+
+1. Dodieties uz **Veidnes** un atlasiet savas vietnes PDP veidni.
+1. Atlasiet **Rediģēt**.
+1. Moduļa **Noklusējuma lapa** slotā **Galvenais** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
+1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Konteiners** un pēc tam atlasiet **Labi**.
+1. Slotā **Konteiners** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
+1. **Dialoglodziņā Moduļa pievienošana** atlasiet **Lielapjoma pirkšanas** moduli un pēc tam atlasiet **Labi**.
+1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu veidnē, un pēc tam atlasiet **Publicēt**, lai publicētu to.
+1. Dodieties uz **Lapas** un atlasiet savas vietnes PDP.
+1. Moduļa **Noklusējuma lapa** slotā **Galvenais** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
+1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Konteiners** un pēc tam atlasiet **Labi**.
+1. Konteinera moduļa rekvizītu rūts **sadaļā** **Platums** atlasiet **Aizpildījuma konteiners**.
+1. Slotā **Konteiners** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
+1. **Dialoglodziņā Moduļa pievienošana** atlasiet **Lielapjoma pirkšanas** moduli un pēc tam atlasiet **Labi**.
+1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt**, lai publicētu to.
+
+> [!NOTE] 
+> Lielapjoma pirkšanas modulis ir pieejams no Commerce versijas 10.0.24 laidiena. Ja veicat atjaunināšanu no vecākas Commerce versijas, ir manuāli jāatjaunina fails appsettings.json. Instrukcijas skatiet [SDK un moduļu bibliotēkas atjauninājumi](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
 ## <a name="additional-resources"></a>Papildu resursi
 

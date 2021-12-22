@@ -2,7 +2,7 @@
 title: Dynamics 365 Commerce novērtēšanas vides konfigurēšana
 description: Šajā tēmā paskaidrots, kā konfigurēt Microsoft Dynamics 365 Commerce novērtējuma vidi pēc tās nodrošināšanas.
 author: psimolin
-ms.date: 08/24/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2e98ea9e98380ee63f6cc1eb6dfc7b84d38c7dbb
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
-ms.translationtype: HT
+ms.openlocfilehash: 5883a6e68628d706fa19d7d23b68f17007c32890
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416483"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913731"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce novērtēšanas vides konfigurēšana
 
@@ -39,6 +39,7 @@ Kad jūsu Commerce novērtējuma vide ir pilnībā nodrošināta, ir jāpabeidz 
 1. No saraksta atlasiet savu vidi.
 1. Vides informācijas labajā pusē atlasiet **Pieteikties vidē**. Jūs tiksiet nosūtīts uz Commerce galveno biroju.
 1. Pārliecinieties, ka ir atlasīta **USRT** juridiskā persona (augšējā labajā stūrī).
+2. Dodieties uz **Commerce parametri > Konfigurācijas parametri un** pārliecinieties, vai **productSearch.UseAzureSearch** ir iestatīts kā **patiess**. Ja šī ieraksta nav, varat pievienot šo ierakstu un palaist **kanālu datu bāzes > pilnu** sinhronizāciju ar jūsu e-komercijas vietni saistītajai Commerce Scale vienībai.
 
 Pēc nodrošināšanas darbību laikā Commerce Headquarters, pārliecinieties, ka **USRT** juridiskā persona vienmēr ir atlasīta.
 
@@ -105,6 +106,12 @@ Lai iespējotu darbus pakalpojumā Commerce, izpildiet tālāk aprakstītās dar
     1. Atlasiet ierakstu.
     1. Darbību rūtī noklikšķiniet uz cilnes **Pakešuzdevums**, pēc tam atlasiet **Mainīt statusu**.
     1. Atlasiet **Atcelt** un pēc tam atlasiet **Labi**.
+
+1. Ja darba statuss ir **Ieturēts**, rīkojieties šādi:
+
+    1. Atlasiet ierakstu.
+    1. Darbību rūtī noklikšķiniet uz cilnes **Pakešuzdevums**, pēc tam atlasiet **Mainīt statusu**.
+    1. Atlasiet **Gaida** un pēc tam atlasiet **Labi**.
 
 Pēc izvēles var arī iestatīt atkārtošanās intervālu uz vienu (1) minūti šādiem darbiem:
 

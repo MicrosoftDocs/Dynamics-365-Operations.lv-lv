@@ -2,7 +2,7 @@
 title: Nomas žurnālu nosaukumu iestatīšana
 description: Šajā tēmā skaidrots, kā definēt nomas žurnāla nosaukumus. Nomas žurnāla nosaukumi norāda žurnālus, kuros tiek grāmatoti ieraksti, kas radušies līdzekļu nomā.
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1ea35ec40ddd459e1a9e7641557147e23fe45d3e
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
-ms.translationtype: HT
+ms.openlocfilehash: b9d8136ae4f960a586b9526751fc8bf6e7675c8d
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343218"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890754"
 ---
 # <a name="set-up-lease-journal-names"></a>Nomas žurnālu nosaukumu iestatīšana
 
@@ -33,12 +33,13 @@ Nomas žurnāla nosaukumi norāda žurnālus, kuros tiek grāmatoti līdzekļu n
 Sistēma bloķē noteiktus finanšu laukus, lai novērstu novirzes starp darbībām un grafikiem. Dažos bloķētos laukos ir iekļauts: **Konts**, **Summa**, **Finanšu dimensijas**, **Valūta** un **Darbības tips**. Turklāt nevarēsit pievienot vai dzēst žurnāla ierakstu rindas jebkurās Pamatlīdzekļu izlaižot žurnāla ierakstos, jo tas var izraisīt novirzes starp grafikiem un darbībām.
 
 
-Lai konfigurētu nomas žurnālu nosaukumus, rīkojieties šādi.
+Lai konfigurētu nomas žurnālu nosaukumus, veiciet sekojošos soļus.
 
 1. Dodieties uz **Līdzekļu noma \> Iestatījumi \> Līdzekļu nomas parametri**.
 2. Cilnes **Vispārīgi** laukā **Sākotnējais atzīšanas žurnāla nosaukums** atlasiet žurnālu. Visi sākotnējās atzīšanas žurnāla ieraksti tiks grāmatoti šajā žurnāla nosaukumā.
 3. Laukā **Rēķina žurnāla nosaukums** atlasiet žurnālu. Ja opcija **Maksāt kreditoram** ir iestatīta uz **Jā** nomas grāmatai, nomas un izdevumu maksājumu rēķini tiks grāmatoti šajā žurnāla nosaukumā.
 4. Laukā **Nomas žurnāla nosaukums** atlasiet žurnālu. Visi nolietojuma, procentu un īstermiņa pārklasificēšanas ieraksti tiks grāmatoti šajā žurnāla nosaukumā. Ja opcija **Maksāt kreditoram** ir iestatīta uz **Nē** nomas grāmatai, nomas maksājumu un izdevumu ieraksti arī tiks grāmatoti šajā žurnāla nosaukumā.
+5. Laukā **Nomas modifikāciju** žurnāla nosaukums atlasiet žurnālu. Nomas pielāgošanas, darba attiecību pārtraukšanas un pasliktināšanās darbības tiks grāmatotas šim žurnāla nosaukumam. Jūsu atlasītam žurnāla nosaukumam nedrīkst būt piešķirta darbplūsma vai apstiprinājums. Ja nomas modifikāciju žurnāla nosaukums nav definēts, nomas pielāgojuma, darba attiecību pārtraukšanas un pasliktināšanās darbības tiks grāmatotas žurnāla nosaukumā, kas ir atlasīts laukā Nomas **žurnāla** nosaukums. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

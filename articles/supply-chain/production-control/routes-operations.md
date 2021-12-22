@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b31f949304dfc9cf8723c29c1354c35ff41dbe17
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: ab825227e7cd8848dbad58c58f5c6d7afc338f9c
+ms.sourcegitcommit: 7cbd53617af179a0de74aae30c149edc95e86684
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566699"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7891957"
 ---
 # <a name="routes-and-operations"></a>Maršruti un operācijas
 
@@ -223,7 +223,7 @@ Ja lietojat šo pieeju, izpildes laika un citu rekvizītu uzturēšanai galvenok
 Ja operācijas resursu vajadzību ietvaros nenorādāt operācijas resursu vai resursu grupu, var atšķirties lietojamo resursu darbības ātrums. Tāpēc var atšķirties operācijas izpildei nepieciešamais laiks. Lai novērstu šo problēmu, varat izmantot operācijas saites lauku **Formula**, lai norādītu izpildes laika aprēķināšanas veidu. Pieejamas šādas opcijas
 
 - **Standarta** — (noklusējuma opcija) aprēķinam tiek izmantoti tikai operācijas saites lauki un norādītais izpildes laiks tiek reizināts ar pasūtījuma daudzumu.
-- **Noslodze** — aprēķinā tiek ietverts operācijas resursa lauks **Noslodze**. Tāpēc laiks ir atkarīgs no resursa. Operācijas resursam norādītā vērtība ir noslodze stundā. **Izpildes laiks** tiek aprēķināts kā **Pasūtījuma daudzums** dalīts ar **Noslodzi**.
+- **Noslodze** — aprēķinā tiek ietverts operācijas resursa lauks **Noslodze**. Tāpēc laiks ir atkarīgs no resursa. Operācijas resursam norādītā vērtība ir noslodze stundā. **Izpildes laiks** tiek aprēķināts kā **Pasūtījuma daudzums** dalīts ar **Noslodzi**. Noslodzes vērtība nav specifiska noteiktai mērvienībai, tāpēc tā netiek konvertēta, pamatojoties uz **lauku Ražīguma** vienība, kas ir tikai aprakstošs lauks, kas netiek izmantots aprēķinos.
 - **Partija** — izmantojot informāciju no operācijas saites, tiek aprēķināta partijas noslodze. Pēc tam, pamatojoties uz pasūtījuma daudzumu, var aprēķināt partiju skaitu un līdz ar to arī izpildes laiku.
 - **Resursu partija** — šī opcija ir gandrīz tāda pati kā opcija **Partija**. Taču aprēķinā tiek ietverts operācijas resursa lauks **Paketes noslodze**. Tāpēc laiks ir atkarīgs no resursa.
 

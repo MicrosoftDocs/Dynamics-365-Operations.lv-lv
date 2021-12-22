@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-8-03
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: fc413f8230849653aef8c2951f1749823edded6e
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
-ms.translationtype: HT
+ms.openlocfilehash: 0f1f49a7da2f015d90987587fc251a36cfe82d49
+ms.sourcegitcommit: cd7f1c63f48542a8ebcace7b3d512eb810d4b56e
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605433"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "7903254"
 ---
 # <a name="journal-posting-failure-because-of-imbalance"></a>Žurnāla grāmatošanas kļūme neatbilstības dēļ
 
@@ -52,13 +52,13 @@ Vienā atbalstītajā scenārijā dokumentam var būt vairākas darījuma valūt
 
 Ja visām dokumenta rindām ir viena un tā pati darījuma valūta un ja darījuma valūtas summas ir sabalansētas, sistēma pārbauda, vai uzskaites valūtas summas ir sabalansētas. Ja dokuments ir ievadīts ārzemju valūtā, maiņas kurss dokumenta rindās tiek izmantots, lai darījuma valūtas summas pārveidotu uzskaites valūtā. Vispirms katra dokumenta rinda tiek tulkota un noapaļota līdz divām decimālzīmēm aiz komata. Pēc tam rindas tiek summētas, lai noteiktu kopējos debetus un kredītus. Tā kā katra rinda tiek tulkota, debetu un kredītu kopsumma var nebūt līdzsvarota. Tomēr, ja starpības absolūtā vērtība ir **Maksimālās sīknaudas starpības** vērtībā, kas definēta **Virsgrāmatas parametru** lapā, dokuments tiks grāmatots un starpība automātiski tiks grāmatota Sīknaudas starpības kontā.
 
-Ja dokumentam ir vairāk nekā viena darījuma valūta, katra dokumenta rinda tiek tulkota uzskaites valūtā un noapaļota līdz divām decimālzīmēm aiz komata, un pēc tam rindas tiek summētas, lai noteiktu kopējos debetus un kopējos kredītus. Lai tie tiktu uzskatīti par sabalansētiem, debetiem un kredītiem jābūt sabalansētiem vai nu kā tulkojumiem, vai arī, kad tiek iekļauta uzskaites valūtas sīknaudas noapaļošanas starpība.
+Ja dokumentam ir vairāk nekā viena darījuma valūta, katra dokumenta rinda tiek tulkota uzskaites valūtā un noapaļota līdz divām decimālzīmēm aiz komata, un pēc tam rindas tiek summētas, lai noteiktu kopējos debetus un kopējos kredītus. Lai tiktu uzskatīts par līdzsvarotu, debetiem un kredītiem ir jābūt līdzsvarotiem uzskaites valūtā.  Sīknaudas starpības konts nekad nav pievienots dokumentam uzskaites valūtā, lai debeti un kredīti pārvērstu bilancē. 
 
 ### <a name="reporting-currency"></a>Pārskata valūta
 
 Ja visām dokumenta rindām ir viena un tā pati darījuma valūta un ja darījuma valūtas summas ir sabalansētas, sistēma pārbauda, vai uzskaites valūtas summas ir sabalansētas. Ja dokuments ir ievadīts ārzemju valūtā, maiņas kurss dokumenta rindās tiek izmantots, lai darījuma valūtas summas pārveidotu uzskaites valūtā. Vispirms katra dokumenta rinda tiek tulkota un noapaļota līdz divām decimālzīmēm aiz komata. Pēc tam rindas tiek summētas, lai noteiktu kopējos debetus un kredītus. Tā kā katra rinda tiek tulkota, debetu un kredītu kopsumma var nebūt sabalansētas. Tomēr, ja starpība ir **Maksimālās sīknaudas starpības** vērtībā, kas definēta **Virsgrāmatas parametru** lapā, dokuments tiks grāmatots un starpība automātiski tiks grāmatota Sīknaudas starpības kontā.
 
-Ja dokumentam ir vairāk nekā viena darījuma valūta, katra dokumenta rinda tiek tulkota pārskata valūtā un noapaļota līdz divām decimālzīmēm aiz komata, un pēc tam rindas tiek summētas, lai noteiktu kopējos debetus un kopējos kredītus. Lai tie tiktu uzskatīti par sabalansētiem, debetiem un kredītiem jābūt sabalansētiem vai nu kā tulkojumiem, vai arī, kad tiek iekļauta pārskata valūtas sīknaudas noapaļošanas starpība.
+Ja dokumentam ir vairāk nekā viena darījuma valūta, katra dokumenta rinda tiek tulkota pārskata valūtā un noapaļota līdz divām decimālzīmēm aiz komata, un pēc tam rindas tiek summētas, lai noteiktu kopējos debetus un kopējos kredītus. Lai tiktu uzskatīts par līdzsvarotu, debetiem un kredītiem ir jābūt līdzsvarotiem pārskata valūtā.  Sīknaudas starpības konts nekad nav pievienots dokumentam pārskata valūtā, lai debeti un kredīti pārvērstu bilancē.
 
 ### <a name="example-for-an-accounting-currency-imbalance"></a>Piemērs, kad uzskaites valūtas neatbilst
 

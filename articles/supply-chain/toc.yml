@@ -70,7 +70,9 @@
                   items:
                     - name: Jaunumi un izmaiņas programmas Supply Chain Management sākumlapā
                       href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Management 10.0.23
+                    - name: "Supply Chain Management 10.0.24 (2022.\_gada februāris)"
+                      href: get-started/whats-new-scm-10-0-24.md
+                    - name: "Supply Chain Management 10.0.23 (2022.\_gada janvāris)"
                       href: get-started/whats-new-scm-10-0-23.md
                     - name: "Supply Chain Management\_10.0.22 (2021.\_gada novembris)"
                       href: get-started/whats-new-scm-10-0-22.md
@@ -947,7 +949,9 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Saraksts
+                        - name: WeekNum
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: List
                       items:
                         - name: Saraksta funkcijas
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/supply-chain/toc.json
@@ -3753,7 +3757,7 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Noliktavas pārvaldība
               items:
-                - name: Warehouse Mobile App
+                - name: Warehouse mobile app
                   items:
                     - name: 'Iestatot programmas savienojumu, nav atrasts sertifikācijas ceļa uzticamības enkurs'
                       href: troubleshooting/warehousing/certification-path-app-connection-error.md

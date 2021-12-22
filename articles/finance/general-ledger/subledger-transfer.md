@@ -2,7 +2,7 @@
 title: Pārsūtīt apakšgrāmatu uz Virsgrāmatu
 description: Šajā tēmā ir aprakstītas iespējas, kas saistītas ar apakšgrāmatas pārvirzīšanu Virsgrāmatā.
 author: rcarlson
-ms.date: 07/20/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 03c04a5eb8b544b582019ddd204382900b162d952842c901f69ed4a853bd8183
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 213bbc2541c614aa26b0c830431818fb99c7682d
+ms.sourcegitcommit: f5885999e008a49fe072d95f15e239905c24918a
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716649"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "7900734"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>Pārsūtīt apakšgrāmatu uz Virsgrāmatu
 
@@ -39,7 +39,7 @@ Versijā 10.0.8 tika veikti uzlabojumi, lai uzlabotu opcijas **Asinhrons** veikt
 
 Apakšgrāmatas partiju asinhronās pārsūtīšanas funkcionalitāte palīdz uzlabot datu pārsūtīšanu no apakšgrāmatas uz Virsgrāmatu. Grupējot mazāku darbību kopas un pārsūtot darbības grupās, funkcionalitāte efektīvāk apstrādā darbības. Ja darbības tiek grupētas, pakešapstrādes servera resursi tiek izmantoti efektīvāk.
 
-Apakšgrāmatas partiju asinhronai pārsūtīšanai nepieciešams, lai partijas serveris būtu iestatīts, pieejams tiešsaistē un darbotos. Pretējā gadījumā pārsūtīšanas opcija **Asinhrons** nedarbosies.
+Apakšsaskaites pakešu asinhronai pārsūtīšanai ir nepieciešams, lai pakešu serveris tiktu iestatīts tiešsaistē un darbotos, jo pakešveida uzdevumi tiek izveidoti tūlītējai izpildei pakešserverī. Ja **ir iespējota apakšgrāmatas pārsūtīšana uz Virsgrāmatas veiktspējas optimizācijas** līdzekli, **ir jāiespējo arī procesu automatizācijas** sistēmas pakešuzdevums ar nosaukumu Procesu **automatizācijas aptaujas sistēmas** uzdevums. Plašāku informāciju skatiet tēmā [Procesa automatizācija](../../fin-ops-core/dev-itpro/sysadmin/process-automation.md).
 
 Efektivitātes maiņa pakešuzdevumu līmenī izmanto vienu periodisku pakešuzdevumu visām sistēmas juridiskajām personām. Izpildlaikā tiek izveidots jauns pakešuzdevums, lai apstrādātu nepieciešamos ierakstus, kas vēl nav pārsūtīti. Vairāk iestatījumu var kontrolēt no sistēmas administrēšanas lapas **Procesa automatizācija**. Šajā lapā varat modificēt fona procesu, mainīt biežumu un definēt vides periodu.
 

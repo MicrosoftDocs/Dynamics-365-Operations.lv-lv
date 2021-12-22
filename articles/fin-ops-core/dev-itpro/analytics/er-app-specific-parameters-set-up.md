@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 9b57c6165e5de4a115818a135ed1455e3b05e3f0
-ms.sourcegitcommit: 4b7e9d074e368a08d2f75482b722dce0c69a4bbd
-ms.translationtype: MT
+ms.openlocfilehash: 130487c41d8021692968141eca1a16d298a809e1
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7733467"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913655"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Iestatīt ER formāta parametrus juridiskai personai
 
 [!include[banner](../includes/banner.md)]
-
-[!include[banner](../includes/preview-banner.md)]
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
@@ -118,7 +116,7 @@ Varat izmantot ER struktūru, lai iestatītu programmai specifiskus parametrus E
 
 15. Atlasiet **Pievienot**, tad veiciet šādas darbības:
 
-    1. Laukā **Kods** atlasiet opciju **\* Nav tukšs\***.
+    1. Laukā **Kods** atlasiet opciju **\*Nav tukšs\***.
     2. Laukā **Uzmeklēšanas rezultāts** atlasiet vērtību **Cita**.
 
     Pievienojot šo pēdējo ierakstu, tiek definēta šāda kārtula: Vienmēr, kad nodokļa kods, kas tiek nodots kā arguments, neizpilda nevienu no iepriekšējām kārtulām, uzmeklēšanas datu avots atgriezīs **Citu** kā pieprasīto taksācijas līmeni.
@@ -170,7 +168,7 @@ Lai iestatītu parametrus USMF uzņēmumam, izpildiet šādas darbības:
 8. Atlasiet nodokļa kodu **EXEMPT**.
 9. Jaunā ieraksta laukā **Uzmeklēšanas rezultāts** atlasiet vērtību **Nav aplikšanas ar nodokli**.
 10. Atlasiet **Pievienot**.
-11. Jaunā ieraksta **Kods** atlasiet opciju **\* Nav tukšs\***.
+11. Jaunā ieraksta **Kods** atlasiet opciju **\*Nav tukšs\***.
 12. Jaunā ieraksta laukā **Uzmeklēšanas rezultāts** atlasiet vērtību **Regulāra taksācija**.
 13. Laukā **Statuss** atlasiet **Pabeigts**.
 14. Atlasiet **Saglabāt**.

@@ -14,12 +14,12 @@
               items:
                 - name: Jaunumi un izmaiņas Platform atjauninājumu sākumlapā
                   href: get-started/whats-new-home-page.md
-                - name: "Platform atjauninājumi versijai\_10.0.23"
+                - name: "Platform atjauninājumi versijai\_10.0.24 (2022.\_gada februāris)"
+                  href: get-started/whats-new-platform-updates-10-0-24.md
+                - name: "Platform atjauninājumi versijai\_10.0.23 (2022.\_gada janvāris)"
                   href: get-started/whats-new-platform-updates-10-0-23.md
                 - name: "Platform atjauninājumi versijai\_10.0.22 (2021.\_gada novembris)"
                   href: get-started/whats-new-platform-updates-10-0-22.md
-                - name: "Platform atjauninājumi versijai\_10.0.21 (2021.\_gada oktobris)"
-                  href: get-started/whats-new-platform-updates-10-0-21.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
                 - name: Noņemtie vai novecojušie līdzekļi sākumlapā
@@ -232,9 +232,9 @@
               href: data-entities/dm-error-descriptions.md
         - name: Azure Data Lake
           items:
-            - name: Azure Data Lake pārskats
-              href: data-entities/azure-data-lake-overview.md
-            - name: Konfigurēt eksportēšanu uz Azure Data Lake
+            - name: Eksportēšanas uz Azure Data Lake pārskats
+              href: data-entities/Azure-Data-Lake-GA-version-overview.md
+            - name: Eksportēšanas uz Azure Data Lake pievienojumprogrammas instalēšana
               href: data-entities/configure-export-data-lake.md
             - name: Finance and Operations programmas pakalpojumā Azure Data Lake
               href: data-entities/finance-data-azure-data-lake.md
@@ -406,6 +406,8 @@
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: Vienas un tās pašas AD FS instances atkārtota izmantošana vairākās vidēs
                       href: deployment/onprem-reuseadfs.md
+                    - name: Microsoft Dynamics 365 Finance + Operations (on-premises) vides SQL servera instances jaunināšana
+                      href: deployment/onprem-upgrade-sqlserver.md
                 - name: Vietējais aģents
                   items:
                     - name: "AD FS Microsoft\_365 saderība"
@@ -1012,7 +1014,7 @@
                   href: lifecycle-services/use-translation-service-tm.md
         - name: Microsoft Power Platform integrācija
           items:
-            - name: Microsoft Power Platform integrācija ar Finance and Operations
+            - name: Pārskats
               href: power-platform/overview.md
             - name: Power Platform integrācijas iespējošana
               href: power-platform/enable-power-platform-integration.md

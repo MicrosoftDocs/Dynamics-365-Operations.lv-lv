@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 706331eaadf602aba46463fdcfc0d38f1fc94e08
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 0a0322e5490474e21ad91076ecc486f38a776e32
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647267"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890781"
 ---
 # <a name="list-of-er-functions-in-the-date-and-time-category"></a>ER funkciju saraksts datuma un laika kategorijā
 
@@ -37,8 +37,8 @@ Elektroniskā pārskata (ER) datuma un laika funkcijas var izmantot, lai iegūtu
 | [DateTimeFormat](er-functions-datetime-datetimeformat.md) | Šī funkcija atgriež *Virknes* vērtību, kas norādīto datuma/laika vērtību uzrāda kā tekstu norādītajā formātā un pēc izvēles norādītajā kultūrā. |
 | [DateTimeValue](er-functions-datetime-datetimevalue.md) | Šī funkcija atgriež *DateTime* vērtību, kas tiek konvertēta no dotās teksta vērtības norādītajā formātā un pēc izvēles norādītajā kultūrā datuma/laika vērtībai. |
 | [DateToDateTime](er-functions-datetime-datetodatetime.md) | Šī funkcija atgriež *DateTime* vērtību, kas tiek konvertēta no konkrētā datuma vērtības uz datuma/laika vērtību pēc universālā koordinētā laika (Griničas laika \[GMT\]). |
-| [DateValue:](er-functions-datetime-datevalue.md) | Šī funkcija atgriež *Datuma* vērtību, kas tiek konvertēta no dotās teksta vērtības norādītajā formātā un pēc izvēles norādītajā kultūrā datuma/laika vērtībai. |
-| [DayOfYear](er-functions-datetime-dayofyear.md) | Šī funkcija atgriež *Vesela skaitļa* vērtību, kas reprezentē dienu skaitu no 1. janvāra līdz norādītajam datumam. |
+| [DateValue:](er-functions-datetime-datevalue.md) | Šī funkcija atgriež *[datuma](er-formula-supported-data-types-primitive.md#date)* vērtību, kas no norādītās teksta vērtības norādītajā formātā un pēc izvēles norādītajā kultūrā tiek konvertēta uz datuma vērtību. |
+| [DayOfYear](er-functions-datetime-dayofyear.md) | Šī funkcija atgriež *[Integer](er-formula-supported-data-types-primitive.md#integer)* vērtību, kas norāda dienu skaitu no 1. janvāra līdz norādītajam datumam. |
 | [Dienas](er-functions-datetime-days.md) | Šī funkcija atgriež *Vesela skaitļa* vērtību, kas reprezentē dienu skaitu no viena norādītā datuma līdz otram norādītajam datumam. |
 | [Now](er-functions-datetime-now.md) | Šī funkcija atgriež *DateTime* vērtību, kas apzīmē pašreizējo lietojumprogrammu servera datumu un laiku. |
 | [NullDate](er-functions-datetime-nulldate.md) | Šī funkcija atgriež *Datuma* vērtību, kas apzīmē **nulles** datumu (1900. gada 1. janvāris). |
@@ -46,6 +46,7 @@ Elektroniskā pārskata (ER) datuma un laika funkcijas var izmantot, lai iegūtu
 | [SessionNow](er-functions-datetime-sessionnow.md) | Šī funkcija atgriež *DateTime* vērtību, kas apzīmē pašreizējo lietojumprogrammu sesijas datumu un laiku. |
 | [SessionToday](er-functions-datetime-sessiontoday.md) | Šī funkcija atgriež *Datuma* vērtību, kas apzīmē pašreizējo lietojumprogrammu sesijas datumu. |
 | [Šodien](er-functions-datetime-today.md) | Šī funkcija atgriež *Datuma* vērtību, kas apzīmē pašreizējo lietojumprogrammu servera datumu. |
+| [WeekNum](er-functions-datetime-weeknum.md) | Šī funkcija atgriež *Integer* vērtību, kas apzīmē gada nedēļu. |
 
 ## <a name="additional-resources"></a>Papildu resursi
 

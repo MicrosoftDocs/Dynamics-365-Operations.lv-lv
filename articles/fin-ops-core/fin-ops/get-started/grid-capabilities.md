@@ -2,7 +2,7 @@
 title: Režģa iespējas
 description: Šajā tēmā ir aprakstīti vairāki ietekmīgi režģa kontroles līdzekļi. Lai piekļūtu šīm iespējām, ir jābūt iespējotam jaunajam režģa līdzeklim.
 author: jasongre
-ms.date: 10/25/2021
+ms.date: 12/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a21a41399b5884fda9cce214f99851ffa93bbc43
-ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.openlocfilehash: ba3640cf13fecc54f4cc58cd8996e434cd16cf60
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "7700141"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890873"
 ---
 # <a name="grid-capabilities"></a>Režģa iespējas
 
@@ -119,6 +119,9 @@ Tāpat kā visas režģa rindas var atlasīt (vai noņemt atlasi), atzīmējot i
 
 ### <a name="hiding-column-names"></a>Kolonnu nosaukumu paslēpšana
 Grupējot datus, noklusējuma darbība ir parādīt kolonnas nosaukumu grupas galvenes rindā. Varat izvēlēties neiekļaut kolonnas nosaukumu grupu galvenes rindās, atlasot **Režģa opcijas** > **Paslēpt grupas kolonnas nosaukumu**.
+
+### <a name="grouping-on-date-and-time-columns"></a>Grupēšana datumu un laika slejās
+Sākot ar versiju 10.0.24, laukiem Date vai DateTime opcija ir pievienota grupai pēc gada, mēneša vai dienas. Grupa "vērtība" atbilstošajā galvenes rindā atbildīs formātam no šī lauka. Turklāt laukiem DateTime un Time var grupēt pēc stundas, minūtes vai sekundes.    
 
 ## <a name="freezing-columns"></a>Iesaldēšanas kolonnas
 Dažas kolonnas režģī var būt pietiekoši nozīmīgas kontekstam, ko nevēlaties ritināt ārpus skata. Tā vietā varbūt vēlaties, lai vērtības šajās kolonnās vienmēr būtu redzamas. Funkcija **Iesaldēt kolonnas režģa elementus** nodrošina lietotājiem šādu elastīgumu. 

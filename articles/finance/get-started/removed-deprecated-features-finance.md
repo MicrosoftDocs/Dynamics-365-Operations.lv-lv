@@ -2,7 +2,7 @@
 title: Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Finance
 description: Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt no Dynamics 365 Finance.
 author: roschlom
-ms.date: 04/14/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7ce7353de5795fd82e53bb1b7919c95dae4fe0ab6b8f536361613a7bcae19101
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad3df2ee9c10972dac8258b6ee41ae0a6eabfbea
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781205"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890957"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Finance
 
@@ -32,6 +32,58 @@ ms.locfileid: "6781205"
 
 > [!NOTE]
 > Detalizēta informācija par Finance and Operations programmu objektiem ir pieejama tēmā [Tehniskās atsauces pārskati](/dynamics/s-e/global/axtechrefrep_61). Varat salīdzināt dažādās šo pārskatu versijas, lai noskaidrotu, kuri objekti ir mainīti vai noņemti katrā Finance and Operations programmu versijā.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10024-release"></a>Noņemtie vai novecojuši līdzekļi programmas Finance 10.0.24 laidienā
+
+### <a name="sales-tax-report-for-sweden-design-based-on-reporting-codes"></a>PVN pārskats Zviedrijai (dizains, pamatojoties uz pārskata kodiem)
+
+[Zviedrijas PVN pārskats](../localizations/emea-swe-sales-tax-payment-report-sweden.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Aizstāts ar jaunu PVN deklarācijas dizainu, [Zviedrijas PVN deklarāciju](../localizations/emea-swe-vat-declaration-sweden.md) |
+| **Vai ir aizstāts ar citu līdzekli?**   | Jā |
+| **Ietekmētie produkta apgabali**         | Pieteikums |
+| **Izvietošanas iespēja**              | Visi |
+| **Statuss**                         | Novecojis: līdz 2022. gada 1. decembrim mēs vairs neatbalstām PVN pārskatu Zviedrijai (Zviedrijas pārskata izkārtojums). Atbilstoši nodokļu deklarācijas modelim tiek ieviesti jauni PVN deklarācijas XML (SE) un PVN deklarācijas Excel (SE) elektronisko **pārskatu** **·** (ER) **formāti**. |
+
+### <a name="vat-statement-for-austria-design-based-on-reporting-codes"></a>PVN deklarācija Austrijai (dizains, kas veidots, pamatojoties uz pārskata kodiem)
+
+[PVN deklarācijas informācija Austrijai](../localizations/emea-aut-vat-statement-details.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Aizstāts ar jaunu PVN deklarācijas dizainu, [PVN deklarācija Austrijai](../localizations/emea-aut-vat-declaration-austria.md) |
+| **Vai ir aizstāts ar citu līdzekli?**   | Jā |
+| **Ietekmētie produkta apgabali**         | Pieteikums |
+| **Izvietošanas iespēja**              | Visi |
+| **Statuss**                         | Novecojis: līdz 2022. gada 1. decembrim mēs plānojam vairs neatbalstīs PVN deklarācijas (AT) elektronisko **pārskatu** (ER) formātu PVN deklarācijas **modelī**. Atbilstoši **nodokļu deklarācijas modelim tiek ieviesti jauni** PVN deklarācijas XML (AT) un PVN deklarācijas Excel **(AT)** **formāti**. |
+
+### <a name="elster-declaration-for-germany-design-based-on-reporting-codes"></a>ELSTER deklarācija Vācijai (dizains, pamatojoties uz pārskata kodiem)
+
+[PVN deklarācija](../localizations/emea-de-vat-declaration.md)</br>
+[Iestatīt Vācijas elektronisko nodokļu deklarāciju](../../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md)</br>
+[PVN deklarācijas elektroniskā pārsūtīšana (ELSTER)](../localizations/tasks/de-00003-electronic-transmission-elster.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Aizstāts ar jaunu PVN deklarācijas dizainu un [PVN deklarāciju Vācijai](../localizations/emea-deu-vat-declaration-germany.md) |
+| **Vai ir aizstāts ar citu līdzekli?**   | Jā |
+| **Ietekmētie produkta apgabali**         | Pieteikums |
+| **Izvietošanas iespēja**              | Visi |
+| **Statuss**                         | Novecojis: Līdz 2022. gada 1. decembrim mēs vairs neatbalstām Elster (DE) un Elster modeļa elektronisko **pārskatu** **·** (ER) formātus. Atbilstoši nodokļu deklarācijas modelim tiek ieviesti jauni PVN deklarācijas XML (DE) un PVN deklarācijas **Excel** **(DE)** **formāti**. |
+
+### <a name="ob-declaration-for-netherlands-design-based-on-reporting-codes"></a>Nīderlandes OB deklarācija (dizains, kas balstīts uz pārskata kodiem)
+
+[OB deklarācija](../localizations/emea-nl-vat-declaration.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Aizstāts ar jaunu PVN deklarācijas dizainu- [NĪDERLANDES PVN deklarāciju](../localizations/emea-nl-vat-declaration-netherlands.md) |
+| **Vai ir aizstāts ar citu līdzekli?**   | Jā |
+| **Ietekmētie produkta apgabali**         | Pieteikums |
+| **Izvietošanas iespēja**              | Visi |
+| **Statuss**                         | Novecojis: līdz 2022. gada 1. decembrim mēs vairs neatbalstām OB deklarācijas (NL) un OB deklarācijas modeļa elektronisko **pārskatu** **·** (ER) formātus. Atbilstoši **nodokļu deklarācijas modelim tiek ieviesti jauni PVN deklarācijas XML (NL) un PVN deklarācijas Excel** **(NL)** **formāti**. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>Noņemtie vai novecojuši līdzekļi programmas Finance 10.0.20 laidienā
 

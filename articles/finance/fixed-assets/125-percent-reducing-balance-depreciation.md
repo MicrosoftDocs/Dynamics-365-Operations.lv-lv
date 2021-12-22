@@ -1,7 +1,7 @@
 ---
 title: 125 procentu atlikuma bilances aprēķināšanas metode
-description: Šajā rakstā ir sniegts pārskats par 125 procentu degresīvās nolietojuma aprēķināšanas metodi.
-author: saraschi2
+description: Šajā tēmā sniegts pārskats par 125 procentu atlikumu bilances metodi.
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 13871
 ms.assetid: 3abc263e-59d6-4f1a-986d-1be388948bd3
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 68afee1840707a74ca3a0ac9643c2a23761da8da6d2e85e6b79d48bee4aad27c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 605f9fd3dea02e01c2c49b8e1a6cc52310132304
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744993"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883522"
 ---
 # <a name="125-percent-reducing-balance-depreciation"></a>125 procentu atlikuma bilances aprēķināšanas metode
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir sniegts pārskats par 125 procentu degresīvās nolietojuma aprēķināšanas metodi.
+Šajā tēmā sniegts pārskats par 125 procentu atlikumu bilances metodi.
 
 Iestatot pamatlīdzekļa nolietojuma tabulu un atlasot **125% atlikumu bilance** laukā **Metode**, lapā **Nolietojuma tabulas**, nolietojuma tabulai piešķirtā pamatlīdzekļa nolietojuma procenti ir vienādi visos nolietojuma periodos. Šī procentu likme tiek aprēķināta, pamatojoties uz pamatlīdzekļa lietošanas ilgumu. Piemēram, ja pamatlīdzekļa lietošanas ilgums ir pieci gadi, tiks aprēķināta procentu likme 25 procenti (125% ÷ 5).
 

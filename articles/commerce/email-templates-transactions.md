@@ -2,7 +2,7 @@
 title: E-pasta ziņojumu veidņu izveide transakciju notikumiem
 description: Šajā tēmā ir aprakstīts, kā izveidot, augšupielādēt un konfigurēt e-pasta veidnes darbību notikumiem programmā Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
-ms.date: 10/26/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 69ba8821cde6788d6e0accb37288f92acdfc776c
-ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
-ms.translationtype: MT
+ms.openlocfilehash: 25d7fcb803645f50ee4f5c608f5b6e789dfe3c31
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7713801"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913756"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>E-pasta ziņojumu veidņu izveide transakciju notikumiem
 
@@ -136,7 +136,7 @@ B2B potenciālo klientu apstiprināšanas paziņojuma veids atbalsta šādus pap
 | `storename`        | Kanāla nosaukums, kurā tika izveidots paredzamais klients. |
 | `storeurl`         | Tukšs pēc noklusējuma. Lai lietotu šo vietturi, jāizveido pielāgots paplašinājums. |
 
-### <a name="b2b-prospect-approved"></a>B2B potenciālais klients ir apstiprināts
+### <a name="b2b-prospect-rejected"></a>B2B potenciālais klients ir noraidīts
 
 *B2B potenciālā klients noraidīts* paziņojuma tips tiek parādīts, kad potenciālā klienta pieprasījums tiek noraidīts programmā Commerce Headquarters. Papildinformāciju par B2B potenciālo klientu apstiprināšanu vai noraidīšanu skatiet sadaļā [Administratora lietotāja iestatīšana jaunam biznesa partnerim](b2b/manage-b2b-users.md#set-up-the-administrator-user-for-a-new-business-partner). 
 

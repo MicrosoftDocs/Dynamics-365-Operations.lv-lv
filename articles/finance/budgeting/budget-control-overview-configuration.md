@@ -2,7 +2,7 @@
 title: Budžeta kontroles pārskats
 description: Šajā tēmā ir ieviests budžeta kontroles līdzeklis un sniegta informācija, lai palīdzētu jums konfigurēt budžeta kontroli, lai optimizētu jūsu organizācijas finanšu resursu pārvaldību.
 author: panolte
-ms.date: 06/25/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0c8e7a08796a7f1c537978e406f53531e0f0682e6b5a769ced9d771063c30d5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 21277361a3d05c57be7aeaa05348723e23873ef6
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772883"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890729"
 ---
 # <a name="budget-control-overview"></a>Budžeta kontroles pārskats
 
@@ -78,9 +78,7 @@ Pēc tam cilnē **Budžeta sliekšņa pārsniegšanas atļaujas** varat norādī
 Pēc tam cilnē **Pieejamie budžeta līdzekļi** varat definēt formulu, kas tiek izmantota, lai aprēķinātu pieejamos budžeta līdzekļus. Atkarībā no tā, cik konservatīvi organizācija pārvalda savus finanšu resursus, vai atkarībā no noteikumiem vai nozares prasībām, šis aprēķins var ietvert dokumentu melnrakstus vai neiegrāmatotus dokumentus. 
 
 > [!NOTE]
-> Ja aprēķins tiek modificēts budžeta cikla laikā, tad veiktās izmaiņas neietekmēs nevienu dokumentu, kam budžeta kontroles pārbaudes tika veiktas iepriekš un kas tika iegrāmatots vai pabeigts. Pieteikuma 10.0.17 laidienā jaunais līdzeklis **Izsekot summas tikai pieejamo budžeta līdzekļu aprēķinā** kļuva pieejams ierobežotiem klientiem. Šis līdzeklis ļauj jums mainīt datus, kas tiek izsekoti BudgetSourceTracking tabulās. Ja ir ieslēgts šis līdzeklis, summas tiek glabātas tikai tad, ja tās ir atlasītas lietošanai pieejamo budžeta līdzekļu aprēķinā. Lai pieprasītu iespējot līdzekli **Izsekot summas tikai pieejamo budžeta līdzekļu aprēķinā**, sazinieties ar atbalsta dienestu. 
-
-### <a name="documents-and-journals"></a>Dokumenti un žurnāli
+> Ja budžeta cikla laikā tiek modificēts aprēķins, izmaiņas neietekmēs dokumentus, kas iepriekš tika izpildīti budžeta kontroles pārbaudes un tika grāmatoti vai pabeigti. Funkcija ar nosaukumu Tikai atsekot summas pieejamos budžeta fondos ļauj jums mainīt datus, kas **tiek** izsekoti tabulās BudgetSourceTracking. Ja ir ieslēgts šis līdzeklis, summas tiek glabātas tikai tad, ja tās ir atlasītas lietošanai pieejamo budžeta līdzekļu aprēķinā. Papildinformāciju skatiet sadaļā [Pieejamie budžeta līdzekļi](budget-funds-available.md).
 
 Pēc tam cilnē **Dokumenti un žurnāli** varat atlasīt, kuriem pirmdokumentiem un žurnāliem veikt budžeta kontroles pārbaudes un vai šīs pārbaudes notiks rindas ieraksta vai visa dokumenta līmenī. 
 

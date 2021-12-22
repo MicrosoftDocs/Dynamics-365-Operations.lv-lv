@@ -4,6 +4,8 @@
     - name: Jaunumi
       items:
         - name: Jaunumi un izmaiņas programmā Human Resources
+          href: hr-whats-new-2021-11-29.md
+        - name: "2021.\_gada 29.\_novembris"
           href: hr-admin-whats-new.md
         - name: "2021.\_gada 5.\_oktobris"
           href: hr-whats-new-2021-10-04.md
@@ -793,6 +795,8 @@
                       href: hr-benefits-process-life-event-eligibility.md
                     - name: Apstrādāt likmju izmaiņas
                       href: hr-benefits-process-rate-changes.md
+                - name: Darbinieka atvieglojumu atlase
+                  href: employee-select-benefits-ess.md
                 - name: ACA pārskats
                   href: hr-benefits-management-aca-reports.md
                 - name: Atvieglojumu pārskats

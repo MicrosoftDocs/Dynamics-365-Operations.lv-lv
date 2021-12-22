@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjInvoiceCashFlow, ProjInvoiceControl, ProjInvoiceListPage, ProjInvoiceProposalDetail, ProjInvoiceProposalListPage
 audience: Application User, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: zezhangzhao
 ms.custom: 23111
 ms.assetid: 1812d6f2-8b34-4258-8f5f-dcf12281547f
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-07-06
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: d8f0e027761a42871f9fc543319ba47fe457f23b8b7f937b8f847cc16922610e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 82de9c8ff1b3eeb1811332316522e541b2a405ff
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737263"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883572"
 ---
 # <a name="project-invoicing"></a>Projekta rēķinu izrakstīšana
 
@@ -58,7 +58,7 @@ Rēķinu priekšlikumus varat izveidot tālāk uzskaitītajām transakcijām.
 
 Rēķina priekšlikumā varat izveidot papildmaksu transakcijas. Varat arī modificēt pārdošanas cenu par stundu, izdevumiem, krājumu un maksas darījumiem. Kad grāmatojat rēķina priekšlikumu, atjauninātās cenas un transakcijas tiek pievienotas projekta atskaitēm un transakciju vēsturei. 
 
-Lai projektam izveidotu vairākus debitora rēķinus, ir jāizveido rēķina priekšlikums katram rēķinam. Varat izveidot rēķinus, piemēram, atkarībā no darījuma tipa. Lai vienā debitora rēķinā norādītu stundu skaitu, bet citā rēķinā norādītu krājumus, ir jāizveido atsevišķi rēķinu priekšlikumi stundu transakcijām un papildmaksas transakcijām. 
+Lai projektam izveidotu vairākus debitora rēķinus, ir jāizveido rēķina priekšlikums katram rēķinam. Varat izveidot rēķinus, piemēram, atkarībā no darījuma tipa. Lai norādītu stundas vienā debitora rēķinā un krājumus citā rēķinā, jāizveido atsevišķi rēķina priekšlikumi stundu darbībām un apmaksas darbībām. 
 
 Ja projektam ir vairāki finansējuma avoti, varat izveidot atsevišķu rēķina priekšlikumu katram finansējuma avotam. Lapā **Finansējuma nosacījumu sadalījumi** varat definēt, kādu procentuālo daudzumu no transakcijas summas piešķirt katram finansējuma avotam, kā arī avotu noapaļošanas atšķirību grāmatošanai.
 

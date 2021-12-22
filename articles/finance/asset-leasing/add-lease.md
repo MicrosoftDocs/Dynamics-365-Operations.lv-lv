@@ -2,7 +2,7 @@
 title: Nomas pievienošana vai kopēšana (priekšskatījums)
 description: Šajā tēmā aprakstīts, kā izveidot jaunu nomu, ievadot informāciju par to Līdzekļa nomā vai kopējot informāciju no esošas nomas.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 12/06/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2f2e6837819158688f3fd6bc28909a106a05a098ca917cab9032a2d0044042fc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ee4803c4653b8c2df2cb731652456b1ce2796cd0
+ms.sourcegitcommit: e77d72fde17a43bd1780c265702254011af7407c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761330"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "7893649"
 ---
 # <a name="add-or-copy-leases-preview"></a>Nomas pievienošana vai kopēšana (priekšskatījums)
 
@@ -35,6 +35,8 @@ Veiciet tālāk norādītās darbības, lai izveidotu nomu Līdzekļu nomā.
 1. Lapā **Nomas kopsavilkums** darbību rūtī atlasiet **Jauns**.
 2. Ievadiet informāciju par nomu. Obligāti aizpildāmajiem laukiem ir sarkana apmale.
 
+> Līzinga maksājuma sākuma datums nevar būt agrāks par līzinga sākuma datumu. Ja ievadīsiet sākuma datumu nomas maksai, kas ir agrāka par nomas sākuma datumu, tiks parādīts kļūdas ziņojums.
+  
 ## <a name="create-a-lease-schedule"></a>Nomas grafika izveide
 
 Pēc tam, kad esat pabeidzis ievadīt informāciju par nomu, veiciet tālāk norādītās darbības, lai izveidotu nomas grafiku.

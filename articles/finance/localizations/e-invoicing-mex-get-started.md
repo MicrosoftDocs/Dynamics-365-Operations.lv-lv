@@ -2,7 +2,7 @@
 title: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Meksikā
 description: Šajā tēmā ir sniegta informācija, kas palīdzēs sākt darbu ar elektronisko rēķinu izveidi lietošanai Meksikā.
 author: gionoder
-ms.date: 09/22/2020
+ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 4266d7bca163b1d6aa1261e086f10a4f0f5d7e360051db169fbcab34363c81c3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: f512a6208bc85cd5796ce9515d2bc440f92ea79f
+ms.sourcegitcommit: 385fc4e9c641b43734ddb030893904489361af7d
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742157"
+ms.lasthandoff: 12/02/2021
+ms.locfileid: "7881595"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Darba sākšana ar elektronisko rēķinu izveidi lietošanai Meksikā
 
@@ -35,7 +35,15 @@ ms.locfileid: "6742157"
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
-Pirms šajā tēmā aprakstīto darbību veikšanas ir jāpabeidz darbības sadaļā [Sākt darbu ar elektronisko rēķinu izrakstīšanu](e-invoicing-get-started.md).
+Pirms šīs tēmas darbību veikšanas ir jāveic soļi sadaļā Sākt darbu ar elektronisko rēķinu izrakstīšanas pakalpojumu administrāciju un sāciet darbu ar elektronisko [rēķinu](e-invoicing-get-started-service-administration.md) [izrakstīšanu](e-invoicing-get-started.md).
+
+## <a name="set-up-the-cadena-xslt"></a>Iestatīt Cadena XSLT
+
+Lai CFDI apstrādes globalizācijas līdzeklim pievienotu Cadena XSLT shēmu, veiciet šādus soļus:
+
+1. Lejupielādējiet shēmu no [SAT vietnes](http://www.sat.gob.mx/sitio_internet/cfd/3/cadenaoriginal_3_3/cadenaoriginal_3_3.xslt).
+2. Saspiediet shēmu uz ZIP failu.
+3. Saglabājiet xslt failu Azure glabāšanas kontā, kas ir iestatīts jaunā konteinera pakalpojumu vidē.
 
 ## <a name="rcs-setup"></a>RCS iestatījumi
 
@@ -127,6 +135,17 @@ Lai iesniegtu CFDI rēķina atcelšanu, ir jānorāda līdzekļu **Atcelšana** 
 
 > [!NOTE]
 > Izmantojiet tās pašas darbības, lai atjauninātu vietrādi URL darbībai **Izsaukt Meksikas PAC pakalpojumu** līdzekļu **Atcelt** un **Atcelšanas pieprasījums** iestatījumiem.
+
+### <a name="set-up-the-path-for-the-cadena-xlst-schema"></a>Iestatīt Cadena XLST shēmas ceļu
+
+1. Līdzekļu **versijas iestatījuma** lapā Cilnē **Mainīgie atlasiet mainīgā nosaukumu** **DigitalSign fontsXSLT.**
+2. Laukā **Vērtības** ievadiet: { "containerUrl":" https://&lt; AccountStorageName &gt; .blob.core.windows.net/ &lt; ContainerName &gt; ","path":" &lt;&gt; RelativePath"}
+   
+    kur: <RelativePath> = mapes mapes faila nosaukums ar \\ dubultās slīpsvītras, ContainerName ir jānorāda pakalpojumam \\ izmantotais konteiners.
+   
+    Mainīgā piemērs būtu:
+    
+    {"ceļš":"x xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx\\ dev \\ cadena_xslt","containerUrl":https://yyyyyyyyyy.blob.core.windows.net/containername}
 
 ## <a name="assign-the-draft-version-to-an-e-invoicing-environment"></a>Piešķirt melnraksta versiju elektroniskajai rēķinu izrakstīšanas videi
 

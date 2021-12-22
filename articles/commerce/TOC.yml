@@ -92,7 +92,9 @@
                   items:
                     - name: Jaunumi un izmaiņas Commerce sākumlapā
                       href: get-started/whats-new-home-page.md
-                    - name: Commerce 10.0.23
+                    - name: "Commerce 10.0.24 (2022.\_februāris)"
+                      href: get-started/whats-new-commerce-10-0-24.md
+                    - name: "Commerce 10.0.23 (2022.\_gada janvāris)"
                       href: get-started/whats-new-commerce-10-0-23.md
                     - name: "Commerce\_10.0.22 (2021.\_gada novembris)"
                       href: get-started/whats-new-commerce-10-0-22.md
@@ -544,9 +546,11 @@
                       href: duplicate-payment-protection.md
                     - name: Pārskats par universālā kanāla maksājumiem
                       href: omni-channel-payments.md
+                    - name: Vairākas pieejamās maksājuma metodes savākšanai veikalā
+                      href: dev-itpro/multiple-payments-pickup.md
                     - name: Universālā kanāla Commerce pasūtījumu maksājumi
                       href: dev-itpro/commerce-payments.md
-                    - name: Arhivēt kredītkaršu darbību datus
+                    - name: Kredītkaršu darbību datu arhivēšana
                       href: dev-itpro/archive-cc-data.md
                     - name: Kredītkaršu apstrāde bez aparatūras stacijas
                       href: dev-itpro/cnp-pos.md
@@ -814,6 +818,10 @@
           items:
             - name: Debitoru pārvaldība veikalos
               href: customer-mgmt-stores.md
+            - name: Asinhronā debitora izveides režīms
+              href: async-customer-mode.md
+            - name: Asinhrono debitoru pārvēršana par sinhroniem debitoriem
+              href: convert-async-to-sync.md
             - name: Attiecības ar klientiem
               items:
                 - name: Pārskats par attiecību veidošanu ar klientiem
@@ -1330,6 +1338,8 @@
                   href: localizations/latam-bra-nfce-contingency-mode.md
                 - name: 'Brazīlijas finanšu dokumentu grāmatošana, izmantojot mazumtirdzniecības pārskatus komponentā Commerce Headquarters'
                   href: localizations/latam-bra-retail-statements.md
+                - name: "CF-e finanšu dokumenta un integrācijas ar SAT funkcionalitāte pakalpojumā Commerce\_POS Brazīlijai"
+                  href: localizations/latam-bra-cf-e-sat.md
                 - name: "Dynamics\_365 Payment Connector pakalpojumam Adyen pakalpojumā Commerce\_POS Brazīlijai"
                   href: localizations/latam-bra-adyen.md
             - name: Austrumeiropa
@@ -1378,8 +1388,10 @@
                   href: localizations/apac-ind-loc-deployment-guidelines.md
                 - name: Atbalsts jaunināšanai un N-1 Indijai
                   href: localizations/apac-ind-n-1-for-india.md
-                - name: Ģenerēt QR kodus un drukāt tos kvītīs
+                - name: QR kodu ģenerēšana un drukāšana kvītīs Indijai
                   href: localizations/ind-generate-qr-code-print-receipt.md
+                - name: Preču un pakalpojumu nodokļa (GST) integrācija e-komercijas vietnēm
+                  href: localizations/apac-ind-e-commerce.md
             - name: Itālija
               items:
                 - name: Fiskālā printera integrācijas piemērs Itālijai
@@ -1616,7 +1628,9 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/commerce/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/commerce/toc.json
-                    - name: Saraksts
+                        - name: WeekNum
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/commerce/toc.json
+                    - name: List
                       items:
                         - name: Saraksta funkcijas
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/commerce/toc.json

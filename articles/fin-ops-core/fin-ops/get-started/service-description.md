@@ -2,19 +2,19 @@
 title: Pakalpojuma apraksts Finance and Operations programmām
 description: Šajā tēmā ir sniegts pakalpojuma apraksts Finance and Operations programmām.
 author: tomhig
-ms.date: 11/17/2021
+ms.date: 12/07/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 262cf00bdca63876c284be40954ca5de559b993a
-ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
-ms.translationtype: HT
+ms.openlocfilehash: f7ce73018fda79156cc7ef3d4e1faa3fedf966f8
+ms.sourcegitcommit: b101c21f972fdad2667431f712222e040cd69d43
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/18/2021
-ms.locfileid: "7825404"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "7898393"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Pakalpojuma apraksts Finance and Operations programmām
 
@@ -50,10 +50,10 @@ Lietojumprogrammu Finance and Operations pārvaldības modelis nosaka specifiska
 
 ### <a name="customer-activities"></a>Debitoru darbības
 
-Klienti strādā ar savu partneri un [Microsoft FastTrack](/dynamics365/fasttrack/) pēc [Dynamics 365 ieviešanas rokasgrāmatas](https://community.dynamics.com/365/dynamics-365-fasttrack/p/dynamics365implementationguide), struktūras un rīkiem un labākās prakses veidnēm, kas sniegtas...[Success by Design](/dynamics365/fasttrack/success-by-design-overview)[Lifecycle Services](../../dev-itpro/lifecycle-services/lcs.md), lai ieviestu savu risinājumu. Parastās aktivitātes ietver:
+Klienti sadarbojas ar savu partneri un [Microsoft FastTrack,](/dynamics365/fasttrack/) ievērojot Dynamics [365 ieviešanas rokasgrāmatu](https://community.dynamics.com/365/dynamics-365-fasttrack/p/dynamics365implementationguide), [Success by Design](/dynamics365/fasttrack/success-by-design-overview) struktūru, kā arī rīkus un paraugprakses veidnes, kas tiek [nodrošinātas lifecycle](../../dev-itpro/lifecycle-services/lcs.md) services, lai ieviestu savu risinājumu. Parastās aktivitātes ietver:
 
 - Lietotāju identitātes un drošības pārvaldība
-- Biznesa procesu definēšana, izstrādāšana un pārvaldība
+- Definēt, attīstīt un vadīt biznesa procesus
 - Definēt, izstrādāt, pārbaudīt un pārvaldīt paplašinājumus
 - Pārraudzīt un pārvaldīt ar ražošanu nesaistītās izvietošanas
 - Pārvaldīt programmu atjauninājumus un pārbaudīt paplašinājumus
@@ -66,7 +66,7 @@ Microsoft pārvalda Finance and Operations pakalpojumu, aktīvi pārraugot un p�
 **Infrastruktūras pārvaldība**
 - Drošība un izolēšana
 - Operētājsistēmas un virtualizācija
-- Serveri, uzglabāšana un noliktava
+- Serveri, krātuve un tīklošana
 - Datu centra jauda, tīklošana, dzesēšana
 
 **Programmas platformas pārvaldība**
@@ -314,9 +314,9 @@ Microsoft parādu atgūšanas plāni un procedūras tiek regulāri pārbaudīti,
 | Korporācija Microsoft uzkrājumi ir sekundārā vide Azure datu centrā, kad tiek izvietota primārā ražošanas instance. Papildinformāciju skatiet sadaļā [Biznesa nepārtrauktība un ārkārtas atgūšana (BCDR): Azure Paired Regions](/azure/best-practices-availability-paired-regions). | Neviens |
 | Ja tiek izvietota primārā ražošanas instance, korporācija Microsoft iespējo Azure SQL un Azure Blob Storage ģeoreformaņu atlaišanu. | Neviens |
 | Microsoft iespējo automātisku dublējumu Azure SQL datu bāzēs. | Neviens |
-| <p>Ja rodas pārstākums, Microsoft nosaka, vai debitoram ir jāveic pārslēgšana un vai datu zudums būs. Datu zudums var būt līdz piecām sekundēm. Papildinformāciju skatiet [Azure SQL datu bāzes ģeogrāfiskā atjaunošanā](https://azure.microsoft.com/blog/azure-sql-database-geo-restore).</p><p>Datu zudums gadījumā Microsoft pieprasīs debitoram izrakstīties no kļūmes.</p> | Datu zudums gadījumā debitoram, iespējams, ir jānodrošina norakstīta pierakstīšanās, lai izraisītu atteici. |
+| <p>Ja rodas pārstākums, Microsoft nosaka, vai debitoram ir jāveic pārslēgšana un vai datu zudums būs. Atkarībā no pārtraukuma veida un laika klienti var saskarties ar datu zudumu līdz 15 minūtēm. | Datu zuduma gadījumā klientam var nākties iesniegt rakstisku apliecinājumu, lai izraisītu kļūmi. |
 | Ja rodas kļūme, piemērojamais pakalpojums darbojas ierobežotā režīmā. Atjaunināšanas uzturēšanu nevar izraisīt kļūmes pārslēgšanas režīmā. | Debitors nevar pieprasīt pakotnes izvietošanu vai citus regulārus uzturēšanas pieprasījumus kļūmes režīmā. |
-| Kad datu centrs kļūst par darbību, Microsoft neizdodas atgriezties ražošanas instancē primārajā Azure reģionā. Tiek atsākta parastā darbība. | Iespējams, ka debitoram ir jāpiereģistrējas ražošanas instances kļūmei primārajā Azure reģionā. |
+| Kad datu centrs kļūst par darbību, Microsoft neizdodas atgriezties ražošanas instancē primārajā Azure reģionā. Tiek atsākta parastā darbība. | Klientam var nākties izrakstīties par ražošanas instanci primārajā Azure reģionā. |
 
 ## <a name="finance-and-operations-support-offerings"></a>Finance and Operations atbalsta piedāvājumi
 

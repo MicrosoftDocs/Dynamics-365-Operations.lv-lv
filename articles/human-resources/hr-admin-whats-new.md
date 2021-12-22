@@ -2,7 +2,7 @@
 title: Jaunumi un izmaiņas programmā Human Resources
 description: Katras divas nedēļas mēs nodrošinām jaunu Microsoft Dynamics 365 Human Resources laidienu. Šīs sadaļas tēmās ir detalizēta informācija par katru nedēļu izdarītajām izmaiņām.
 author: twheeloc
-ms.date: 04/21/2021
+ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e30267ca95bdcaa8b42cfb7e606a0a8eda8c1da4
-ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
-ms.translationtype: HT
+ms.openlocfilehash: 15a46c73da664f9133ce45149f1e2dd5e7b94fbc
+ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "7641190"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902537"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Jaunumi un izmaiņas programmā Human Resources
 
@@ -40,6 +40,7 @@ Lai iegūtu papildinformāciju par gaidāmajiem līdzekļiem vai atjaunināšana
 
 Lai uzzinātu, kas jauns vai mainīts katrā Personāla vadības laidienā divreiz nedēļā, skatiet šādas tēmas:
 
+[2021. gada 29. novembris](hr-whats-new-2021-11-29.md)<br>
 [2021. gada 5. oktobris](hr-whats-new-2021-10-04.md)</br>
 [2021. gada 20. septembris](hr-whats-new-2021-09-20.md)</br>
 [2021. gada 6. septembris](hr-whats-new-2021-09-06.md)</br>

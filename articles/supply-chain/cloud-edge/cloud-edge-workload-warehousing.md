@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 2c2d2604dc1948d067311a12d00422ef074ac61a
-ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
-ms.translationtype: HT
+ms.openlocfilehash: ae8e9791b590a32581b66853f55ea11bc389bb19
+ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "7641164"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "7891756"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Noliktavas pārvaldības darba slodzes mākoņa un malas mēroga vienībām
 
@@ -50,6 +50,11 @@ Atkarībā no biznesa procesiem vienam un tam pašam datu ierakstam var mainīti
 > Dažus datus var izveidot gan centrmezglā, gan mēroga vienībā. Piemēri: **Numuru zīmes** un **Partiju numuri**. Īpaša konfliktu risināšana tiek nodrošināta gadījumā, ja viens un tas pats unikālais ieraksts tiek izveidots gan centrmezglā, gan mēroga vienībā viena un tā paša sinhronizācijas cikla laikā. Kad tas notiek, nākamā sinhnronizācija neizdosies un jums būs jādodas uz **Sistēmas pārvaldība > Vaicājumi > Darba slodzes vaicājumi > Ierakstu dublēšana**, kur varēsit skatīt un sapludināt datus.
 
 ## <a name="outbound-process-flow"></a>Izejošā procesa plūsma
+
+Pirms noliktavas pārvaldības darba slodzes izvietošanas mākoņa vai malu mēroga vienībā pārliecinieties, vai *uzņēmuma* centrmezglā ir iespējots mēroga vienības atbalsts izejošo pasūtījumu izlaišanai noliktavā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu, ja nepieciešams. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
+
+- **Modulis:** *Noliktavas pārvaldība*
+- **Līdzekļa nosaukums:** *Mēroga vienības atbalsts izejošo pasūtījumu izlaišanai noliktavā*
 
 Izejošo datu īpašumtiesību process ir atkarīgs no tā, vai jūs lietojat slodzes plānošanas procesu. Visos gadījumos centrmezglam pieder *avota dokumenti*, piemēram, pārdošanas pasūtījumi un pārsūtīšanas pasūtījumi, kā arī pasūtījumu sadalīšanas process un saistītie pasūtījuma transakcijas dati. Taču, ja lietojat slodzes plānošanas procesu, slodzes tiks izveidotas mezglā un tāpēc tās sākotnēji piederēs centrmezglam. *Izlaišanas uz noliktavu* procesa ietvaros slodzes datu īpašumtiesības tiek pārvirzītas uz īpašu mēroga vienības izvietojumu, kas kļūst par tālākā *sūtījuma kopuma apstrādes* (piemēram, darba piešķires, papildināšanas darba un pieprasījuma darba izveidnes) īpašnieku. Tāpēc noliktavas darbinieki var apstrādāt tikai izejošo pārdošanas un pārsūtīšanas pasūtījuma darbu, izmantojot Warehouse Management mobilo lietojumprogrammu, kas ir savienota ar izvietojumu, kas palaiž konkrēto mēroga vienības darba slodzi.
 
@@ -202,7 +207,7 @@ Sekojošajā tabulā ir parādīts, kuri izejošie līdzekļi tiek atbalstīti u
 | Ar noslodzi saistīto dokumentu drukāšana                           | Jā | Jā|
 | Preču transporta pavadzīmes un IPPN ģenerēšana                            | Nē  | Jā|
 | Sūtījuma apstiprinājums                                             | Nē  | Jā|
-| Sūtījuma apstiprinājums ar "Apstiprināt un pārsūtīt"            | Nē  | Nē |
+| Sūtījuma apstiprinājums ar "Apstiprināt un pārsūtīt"            | Nē  | Jā|
 | Pavadzīmju un rēķinu izrakstīšanas apstrāde                        | Jā | Nē |
 | Īsa izdošana (pārdošanas un pārsūtīšanas pasūtījumi)                    | Nē  | Jā, nenoņemot avotdokumentu rezervācijas|
 | Īsa izdošana (pārdošanas un pārsūtīšanas pasūtījumi)                     | Nē  | Jā|
@@ -212,8 +217,8 @@ Sekojošajā tabulā ir parādīts, kuri izejošie līdzekļi tiek atbalstīti u
 | Kopuma etiķete                                                   | Nē  | Jā|
 | Darba sadale                                                   | Nē  | Jā|
 | Darba apstrāde — novirzīts pēc "Transportēšanas ielāde"            | Nē  | Nē |
-| Samazināt izdoto daudzumu                                       | Nē  | Nē |
-| Atsaukt darbu                                                 | Nē  | Nē |
+| Samazināt izdoto daudzumu                                       | Nē  | Jā|
+| Atsaukt darbu                                                 | Nē  | Jā|
 | Atsaukt sūtījuma apstiprinājumu                                | Nē  | Jā|
 
 ### <a name="inbound"></a>Saņemšana
@@ -227,7 +232,7 @@ Sekojošajā tabulā ir parādīts, kuri ienākošie līdzekļi tiek atbalstīti
 | Kopējās izmaksas un tranzīta kravu saņemšana                       | Jā | Nē |
 | Ienākošā sūtījuma apstiprinājums                                    | Jā | Nē |
 | Pirkšanas pasūtījuma nodošana noliktavā (noliktavas pasūtījuma apstrāde) | Jā | Nē |
-| Noliktavas pasūtījuma rindu atcelšana<p>Ņemiet vērā, ka tas tiek atbalstīts tikai tad, ja pret rindu nav notikusi reģistrēšana</p> | Jā | Nē |
+| Noliktavas pasūtījuma rindu atcelšana<p>Ņemiet vērā, ka tas tiek atbalstīts tikai tad, ja, apstrādājot *pieprasījumu atcelt operāciju, pret rindu nav notikusi reģistrācija*</p> | Jā | Nē |
 | Pirkšanas pasūtījuma krājuma saņemšana un izvietošana                       | <p>Jā,&nbsp;ja&nbsp;nav&nbsp;noliktavas pasūtījuma</p><p>Nē, ja ir noliktavas pasūtījums</p> | <p>Jā, ja pirkšanas pasūtījums nav daļa no <i>noslodzes</i></p> |
 | Pirkšanas pasūtījuma rindas saņemšana un izvietošana                       | <p>Jā, ja nav noliktavas pasūtījuma</p><p>Nē, ja ir noliktavas pasūtījums</p> | <p>Jā, ja pirkšanas pasūtījums nav daļa no <i>noslodzes</i></p></p> |
 | Atgriešanas pasūtījuma saņemšana un izvietošana                              | Jā | Nē |
@@ -246,7 +251,7 @@ Sekojošajā tabulā ir parādīts, kuri ienākošie līdzekļi tiek atbalstīti
 | *Kvalitātes pārbaudes kvalitātes* izveidošana ar saņemšanu       | <p>Jā, ja nav noliktavas pasūtījuma</p><p>Nē, ja ir noliktavas pasūtījums</p> | Nē |
 | Kvalitātes pasūtījuma izveidošana ar saņemšanu                            | <p>Jā, ja nav noliktavas pasūtījuma</p><p>Nē, ja ir noliktavas pasūtījums</p> | Nē |
 | Darba apstrāde — novirzīts pēc *Klastera izvietošanas*                 | Jā | Nē |
-| Darba apstrāde ar *Īso savākšanu*                               | Jā | Nē |
+| Darba apstrāde ar *Īso savākšanu*                               | Jā | Jā |
 | Numura zīmes ielāde                                           | Jā | Jā |
 
 ### <a name="warehouse-operations-and-exception-handing"></a>Noliktavas darbības un izņēmumu nodošana
@@ -290,7 +295,8 @@ Sekojošajā tabulā ir parādīts, kuri noliktavas darbību un izņēmumu nodo�
 |---------|-----|------------------------------|
 | Reģistrēt pabeigšanu un izvietot pabeigtās preces | Jā | Jā |
 | Līdzproduktu un blakusproduktu izvietošana | Jā | Jā |
-| <p>Visi pārējie noliktavas pārvaldības procesi, kas saistīti ar ražošanu, tostarp:</p><li>Izlaist uz noliktavu</li><li>Apstrāde kopuma ietvaros</li><li>Izejmateriālu izdošana</li><li>Kanban izvietošana</li><li>Kanban izdošana</li><li>Sākt ražošanas pasūtījumu</li><li>Ražošanas brāķis</li><li>Ražošanas pēdējā palete</li><li>Reģistrēt materiālu patēriņu</li><li>Tukšs Kanban</li></ul> | Jā | Nē |
+| Sākt ražošanas pasūtījumu | Jā | Jā |
+| <p>Visi pārējie noliktavas pārvaldības procesi, kas saistīti ar ražošanu, tostarp:</p><li>Izlaist uz noliktavu</li><li>Apstrāde kopuma ietvaros</li><li>Izejmateriālu izdošana</li><li>Kanban izvietošana</li><li>Kanban izdošana</li><li>Ražošanas brāķis</li><li>Ražošanas pēdējā palete</li><li>Reģistrēt materiālu patēriņu</li><li>Tukšs Kanban</li></ul> | Jā | Nē |
 | Izejmateriālu papildināšana | Nē | Nē |
 
 ## <a name="maintaining-scale-units-for-warehouse-execution"></a>Mēroga vienības saglabāšana noliktavas izpildei

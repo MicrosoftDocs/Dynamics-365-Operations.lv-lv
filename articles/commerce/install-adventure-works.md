@@ -2,7 +2,7 @@
 title: Adventure Works tēmas instalēšana
 description: Šajā tēmā aprakstīts, kā instalēt Adventure Works tēmu Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 07/21/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ad704c6c3b95abcfd52e449a0ffbb4b82b236498ae8d2775c4e65811de3ef503
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: d9d0d04c1a698c765b5effcca88624e6fb99da64
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763840"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913706"
 ---
 # <a name="install-the-adventure-works-theme"></a>Adventure Works tēmas instalēšana
 
@@ -32,7 +32,7 @@ ms.locfileid: "6763840"
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
-Pirms Adventure Works tēmas instalēšanas ir nepieciešama Dynamics 365 Commerce vide (Commerce versija 10.0.20 vai jaunāka), kas iekļauj Retail Cloud Scale Unit (RCSU), Commerce tiešsaistes programmatūras izstrādes komplektu (SDK) un Commerce moduļu bibliotēku. Informāciju par To, kā instalēt Commerce SDK un moduļu bibliotēku, skatiet [SDK un moduļa bibliotēkas atjauninājumus](e-commerce-extensibility/sdk-updates.md). 
+Pirms Adventure Works tēmas instalēšanas ir nepieciešama Dynamics 365 Commerce vide (Commerce versija 10.0.20 vai jaunāka), kas iekļauj Retail Cloud Scale Unit (RCSU), Commerce tiešsaistes programmatūras izstrādes komplektu (SDK) un Commerce moduļu bibliotēku. Informāciju par To, kā instalēt Commerce SDK un moduļu bibliotēku, [skatiet izstrādes vides](e-commerce-extensibility/setup-dev-environment.md) iestatīšana. 
 
 ## <a name="installation-steps"></a>Instalēšanas darbības
 
@@ -48,11 +48,19 @@ Adventure Works tēmu pakotne ir pieejama plūsmā **dynamics365-commerce**, kā
 
     `"@msdyn365-commerce-theme:registry" "https://pkgs.dev.azure.com/commerce-partner/Registry/_packaging/dynamics365-commerce/npm/registry/"`  
     
-Lai instalētu pakotni vietējā vidē, komandu uzvednē izpildiet tālāk norādīto komandu. Šī komanda automātiski atjaunina package.json failu, lai tas ietver atkarību.
+Lai instalētu pakotni vietējā vidē, palaidiet komandu no komandu uzvednes, kur THEME_PACKAGE ir tēmu pakotne `yarn add THEME_PACKAGE@VERSION`**·** (@msdyn365-commerce-theme/adventureworks-theme-kit) un VERSIJA ir izmantotās moduļa bibliotēkas versijas **numurs**. Ir svarīgi, lai tēmas pakotnes versijas un moduļu bibliotēka saskan. Lai atrastu pareizo izmantojamais moduļa bibliotēkas versijas numuru, atveriet package.json failu un nosakiet sākuma pakotnes vērtību **zem** **atkarības** sadaļas. Šajā piemērā package.json fails izmanto moduļa bibliotēkas versiju 9.32, kas kartē uz versiju Dynamics 365 Commerce 10.0.22 izlaidi.  
 
-`yarn add @msdyn365-commerce-theme/adventureworks-theme-kit`
+```json
+"dependencies": {
+    "@msdyn365-commerce-modules/starter-pack": "9.32",
+}
+```
 
-Failā **package.json** atjauniniet tēmas versiju uz noteiktu versiju.
+Šajā piemērā parādīts, kā izpildīt `yarn add` komandu, lai pievienotu Adventure Works tēmas versiju 9.32. Komanda automātiski atjaunina package.json failu, lai tas ietver atkarību.
+
+`yarn add @msdyn365-commerce-theme/adventureworks-theme-kit@9.32`
+
+Papildinformāciju par moduļu bibliotēkas versijas atjaunināšanu skatiet [SDK un moduļu bibliotēkas atjauninājumos.](e-commerce-extensibility/sdk-updates.md) 
 
 > [!IMPORTANT]
 > - Tēmas versijai jāatbilst moduļa bibliotēkas versijai, lai nodrošinātu, ka visi līdzekļi darbojas, kā paredzēts. 

@@ -2,7 +2,7 @@
 title: Pamatlīdzekļu nolietojums
 description: Šajā tēmā ir sniegts pārskats par pamatlīdzekļu nolietojumu.
 author: moaamer
-ms.date: 10/30/2017
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,20 +15,23 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54da35a39791a9e528896f3decd10476ad5af2d9
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 2442830766ef1dccc109db5569bfbbbc8182f027
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675004"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890984"
 ---
 # <a name="fixed-asset-depreciation"></a>Pamatlīdzekļu nolietojums
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Šajā tēmā ir sniegts pārskats par pamatlīdzekļu nolietojumu.
 
 Nolietojums ir periodiska darbība, kas parasti samazina pamatlīdzekļa vērtību bilancē un tiek maksāta kā izdevumi peļņas un zaudējumu kontā. Tāpēc galvenais konts parasti tiek izmantots, lai kreditētu periodisko nolietojumu bilancē. Korespondējošais konts ir konts kontu plāna peļņas un zaudējumu daļā.
+
+Sākot ar versiju 10.0.24, **lapā Grāmatas opcija Aprēķināt pozitīvu nolietojuma aktīvu grāmatas konfigurāciju ļauj** **nolietojumam** debetēt pamatlīdzekli, kas iegādāts ar negatīvu uzskaites vērtību (kredītu).
 
 ## <a name="depreciation-adjustment"></a>Nolietojuma korekcijas
 Parasti tikai jau grāmatotas nolietojuma darbības korekcija tiek grāmatota kā nolietojuma korekcija. Tāpēc gan galvenais konts, gan korespondējošais konts tiek iestatīts tāpat kā nolietojuma konts. Nolietojuma korekcija var būt gan pozitīva summa, gan negatīva summa, taču galvenā konta (kā bilances konta) funkcionalitāte un korespondējošā konta (parasti kā peļņas un zaudējumu konta) funkcionalitāte paliek tā pati.
