@@ -2,7 +2,7 @@
 title: Krājumu uztveramības pievienojumprogrammas publiskais API
 description: Šajā tēmā aprakstīti publiskie API, kas tiek nodrošināti ar Krājumu redzamību.
 author: yufeihuang
-ms.date: 09/30/2021
+ms.date: 12/09/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 1899969ddbbccafde3f7bb06a897ea7c0f2d656b
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: d676191f921d74a5a0ced934f3692dacbe7cd7b4
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678791"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920122"
 ---
 # <a name="inventory-visibility-public-apis"></a>Krājumu uztveramības pievienojumprogrammas publiskais API
 
@@ -41,8 +41,8 @@ Tālāk esošajā tabulā ir norādītas pieejamās API:
 | /api/vide/{environmentId}/rīcībā esošs/{inventorySystem}/lielapjoma | Amats | [Iestatīt/ignorēt rīcībā esošos daudzumus](#set-onhand-quantities) |
 | /api/vide/{environmentId}/rīcībā esošs/rezervēt | Amats | [Izveidot vienu rezervācijas notikumu](#create-one-reservation-event) |
 | /api/vide/{environmentId}/rīcībā esošs/rezervēt/lielapjoma | Amats | [Izveidot vairākus rezervēšanas notikumus](#create-multiple-reservation-events) |
-| /api/vide/{environmentId}/rīcībā esošs/indeksa vaicājums | Iegūt | [Vaicājums, izmantojot grāmatošanas metodi](#query-with-post-method) |
-| /api/vide/{environmentId}/rīcībā esošs/indeksa vaicājums | Amats | [Vaicājums, izmantojot iegūšanas metodi](#query-with-get-method) |
+| /api/vide/{environmentId}/rīcībā esošs/indeksa vaicājums | Amats | [Vaicājums, izmantojot grāmatošanas metodi](#query-with-post-method) |
+| /api/vide/{environmentId}/rīcībā esošs | Iegūt | [Vaicājums, izmantojot iegūšanas metodi](#query-with-get-method) |
 
 Microsoft ir nodrošinājusi standarta *Pastnieka* pieprasījuma kolekciju. Jūs variet importēt šo kolekciju savā *Pastnieka* programmatūrā, izmantojot šādu koplietojamu saiti: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
 
@@ -476,7 +476,7 @@ Body:
 
 ## <a name="query-on-hand"></a>Rīcībā esošie vaicājumi
 
-_Rīcībā esošo krājumu_ API tiek izmantots, lai paņemtu pašreizējos rīcībā esošos krājumu datus par precēm.
+Izmantojiet rīcībā _esošo vaicājumu_ API, lai ienestu pašreizējos rīcībā esošos krājumu datus saviem produktiem. API pašlaik atbalsta vaicājumu līdz 100 atsevišķiem krājumiem pēc `ProductID` vērtības. Katrs `SiteID``LocationID` vaicājumā var norādīt vairākas vērtības. Maksimālais ierobežojums ir definēts kā `NumOf(SiteID) * NumOf(LocationID) <= 100`.
 
 ### <a name="query-by-using-the-post-method"></a><a name="query-with-post-method"></a>Vaicājums, izmantojot grāmatošanas metodi
 
@@ -551,7 +551,7 @@ Body:
 
 ```txt
 Path:
-    /api/environment/{environmentId}/onhand/indexquery
+    /api/environment/{environmentId}/onhand
 Method:
     Get
 Headers:
@@ -568,7 +568,7 @@ Query(Url Parameters):
 Šeit ir paraugs iegūt vietrādi URL. Šis saņemšanas pieprasījums ir tieši tāds pats kā iepriekš sniegtais grāmatošanas paraugs.
 
 ```txt
-/api/environment/{environmentId}/onhand/indexquery?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
+/api/environment/{environmentId}/onhand?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
 ```
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

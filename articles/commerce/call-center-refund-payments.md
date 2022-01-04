@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 93eff7a54f9d3851c59b83a28d3aa61a8de7bc41f2a845be21c8bf4d1c6401d4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 8d5bcf3a0d36e323ee96c1f37829a95b60f529bc
+ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731035"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7944717"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>Atmaksas apstrāde zvanu centros
 
@@ -33,11 +33,14 @@ Zvanu centra loģika nosaka maksājuma metodi atmaksas maksājuma rindai, pamato
 
 Zvanu centrs izmanto oriģinālā pasūtījuma maksājuma metodi, lai noteiktu maksājuma metodi, kas jālieto atgriešanas pasūtījumam. Šeit aprakstīts, kā šis process darbojas šādām oriģinālajām maksāšanas metodēm:
 
-- **Parasts** (skaidras naudas) vai **Čeks** - Kad izveidotais atgriešanas pasūtījums atsaucas uz sākotnējo pasūtījumu, par kuru tika samaksāts, izmantojot parasto (skaidras naudas) vai čeka maksājuma veidu, zvanu centra lietojumprogramma atsaucas uz konfigurācijām **Zvanu centra atmaksas metožu** lapā. Šī lapa iespējo organizācijas pēc pasūtījuma valūtas definēt, kā atmaksas tiek izsniegtas klientiem par pasūtījumiem, kas sākotnēji tika apmaksāti, izmantojot parasto vai čeku maksājuma tipu. **Zvanu centra atmaksas metožu** lapa arī ļauj organizācijām atlasīt, vai klientam tiek nosūtīts sistēmas ģenerēts atmaksas čeks vai arī klienta konta kredīts ir izveidots attiecībā pret iekšējo klienta konta bilanci. Šajos scenārijos zvanu centra loģikai ir atsauce uz atgriešanas pasūtījuma valūtu, un pēc tam izmanto **Mazumtirdzniecības maksājuma metodes** vērtību noteiktai valūtai, lai izveidotu atmaksas maksājuma rindu atgriešanas pasūtījumam. Vēlāk klienta parādu (AR) maksājumu žurnāls, kas izmanto kartēto AR maksājumu metodi, ir saistīts ar valūtu.
+- **Parasts** (skaidras naudas) vai **Čeks** - Kad izveidotais atgriešanas pasūtījums atsaucas uz sākotnējo pasūtījumu, par kuru tika samaksāts, izmantojot parasto (skaidras naudas) vai čeka maksājuma veidu, zvanu centra lietojumprogramma atsaucas uz konfigurācijām **Zvanu centra atmaksas metožu** lapā. Šī lapa iespējo organizācijas pēc pasūtījuma valūtas definēt, kā atmaksas tiek izsniegtas klientiem par pasūtījumiem, kas sākotnēji tika apmaksāti, izmantojot parasto vai čeku maksājuma tipu. Zvanu centra atmaksas metožu lapa arī ļauj organizācijām atlasīt, ja debitoram jānosūta sistēmas **ģenerēts** atmaksas identifikators. Šajos scenārijos zvanu centra loģikai ir atsauce uz atgriešanas pasūtījuma valūtu, un pēc tam izmanto **Mazumtirdzniecības maksājuma metodes** vērtību noteiktai valūtai, lai izveidotu atmaksas maksājuma rindu atgriešanas pasūtījumam. Vēlāk klienta parādu (AR) maksājumu žurnāls, kas izmanto kartēto AR maksājumu metodi, ir saistīts ar valūtu.
 
     Šajā attēlā redzama scenārija konfigurācija, kurā klients atgriež preces no pārdošanas pasūtījuma, kas ir saistīts ar USD valūtu un kas sākotnēji tika apmaksāts, izmantojot parasto vai čeka maksājuma tipu. Šajā scenārijā klientam tiks izsniegta atmaksa, izmantojot sistēmas ģenerētu atmaksas čeku. **REF-CHK** AR maksājuma metode ir konfigurēta kā atmaksas čeka maksājuma tips.
 
     ![Zvanu centra atmaksas metožu konfigurācija parastajiem un čeka sākotnējiem maksājumiem.](media/callcenterrefundmethods.png)
+
+    > [!NOTE]
+    > Debitora konts nav atbalstīta atmaksas metode skaidras naudas vai čeku maksājumiem.
 
 - **Kredītkarte** - kad izveidotais atgriešanas pasūtījums atsaucas uz sākotnējo pasūtījumu, kas tika apmaksāts, izmantojot kredītkarti, zvanu centra loģika atmaksas maksājumiem piemēro to pašu sākotnējo kredītkarti atgriešanas pasūtījumam.
 - **Lojalitātes karte** - kad izveidotais atgriešanas pasūtījums atsaucas uz sākotnējo pasūtījumu, kas tika apmaksāts, izmantojot klienta lojalitātes karti, zvanu centra loģika atmaksas maksājumiem piemēro atmaksu tai pašai lojalitātes kartei.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e84df8aa4f3e4079cf97d35b0d67a75d68dbb4b2
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: e872600222ad23bf3de62c0f2d6cda74942d5b55
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860537"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920652"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Kā darbinieki izmanto ražotnes izpildes interfeisu
 
@@ -110,9 +110,6 @@ Kad darbinieks pabeidz vai daļēji pabeidz darbu, viņš var ziņot par preču 
 ![Dialoglodziņš Ziņot par norisi.](media/pfei-report-progress-dialog.png "Dialoglodziņš Ziņot par norisi")
 
 ## <a name="reporting-good-quantities-on-batch-orders-that-have-co-products-and-by-products"></a>Pārskats par preču daudzumiem partijas pasūtījumos, kuros ir līdzprodukti un blakusprodukti
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)] 
-<!--KFM: Preview until GA with 10.0.23 -->
 
 Darbinieki var izmantot ražošanas izpildes interfeisu, lai ziņotu par partijas pasūtījumu progresu. Šis pārskats iekļauj pārskatus par līdzproduktiem un blakusproduktiem.
 

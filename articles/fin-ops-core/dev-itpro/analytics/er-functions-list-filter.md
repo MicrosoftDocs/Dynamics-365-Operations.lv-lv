@@ -2,7 +2,7 @@
 title: FILTER ER funkcija
 description: Šajā tēmā ir sniegta informācija par to, kā tiek izmantota FILTER elektroniskā pārskata (ER) funkcija.
 author: NickSelin
-ms.date: 12/12/2019
+ms.date: 12/14/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c601babd3ea7122bc9ddf7bf101751d4c032016fb33c3d4101f588789491e817
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: e857306574dda7bad5dd25fc7708514997d8e86f
+ms.sourcegitcommit: b1c758ec4abfcf3bf9e50f18c1102d4a9c1316d0
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760030"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922427"
 ---
 # <a name="filter-er-function"></a>FILTER ER funkcija
 
@@ -49,11 +49,17 @@ Derīga nosacījuma izteiksme, ko izmanto, lai filtrētu norādītā saraksta ie
 
 Iegūtais ierakstu saraksts.
 
-## <a name="usage-notes"></a>Lietošanas piezīmes
+## <a name="usage-notes"></a><a name="usage-notes"></a>Lietošanas piezīmes
 
 Šī funkcija atšķiras no funkcijas [WHERE](er-functions-list-where.md), jo norādītais nosacījums tiek lietots datu bāzes līmenī visiem elektronisko pārskatu (ER) datu avotiem ar tipu *Tabulas ieraksti*. Sarakstu un nosacījumu var definēt, izmantojot tabulas un relācijas.
 
 Ja viens vai abi argumenti, kas ir konfigurēts šai funkcijai (`list` un `condition`) neļauj šo pieprasījumu tulkot uz tiešo SQL zvanu, noformēšanas laikā tiek rādīts izņēmums. Šis izņēmums informē lietotāju, ka `list` vai `condition` nevar izmantot vaicājuma veikšanai datu bāzē.
+
+> [!NOTE]
+> Funkcija `FILTER` atbilst funkcijai, kas atšķiras `WHERE` no funkcijas, kad tiek lietota [`VALUEIN`](er-functions-logical-valuein.md) funkcija, kas norāda atlases kritērijus.
+> 
+> - Ja funkcija tiek izmantota funkcijas tvērumā un otrais arguments attiecas uz datu avotu, kas atgriež nekādus ierakstus, tiek apsvērta `VALUEIN``WHERE``VALUEIN` Būla *[Vērtība Aplams, kas](er-formula-supported-data-types-primitive.md#boolean)*`VALUEIN` atgriež. Tādējādi izteiksme `WHERE(Vendors, VALUEIN(Vendors.VendGroup, VendGroups, VendGroups.VendGroup))` neatgriež kreditoru ierakstus, ja **VendGroups** datu avots neatgriež kreditoru grupas ierakstus.
+> - Ja funkcija tiek izmantota funkcijas tvērumā un otrais arguments attiecas uz datu avotu, kas atgriež bez `VALUEIN``FILTER``VALUEIN` ierakstiem, Būla Vērtība False, kas atgriež, *[...](er-formula-supported-data-types-primitive.md#boolean)* tiek `VALUEIN` ignorēta. Tāpēc izteiksme atgriež visus kreditoru datu avota kreditoru ierakstus, pat ja `FILTER(Vendors, VALUEIN(Vendors.VendGroup, VendGroups, VendGroups.VendGroup))`**·** **VendGroups** datu avots neatgriež kreditoru grupas ierakstus.
 
 ## <a name="example-1"></a>1. piemērs
 

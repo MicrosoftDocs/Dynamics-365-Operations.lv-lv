@@ -2,7 +2,7 @@
 title: Kredīta pārvaldības parametru iestatīšana
 description: Šajā tēmā aprakstītas opcijas, kuras var izmantot, lai konfigurētu kredīta pārvaldību atbilstoši jūsu biznesa vajadzībām.
 author: JodiChristiansen
-ms.date: 08/03/2020
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 768fb5121ae6be513c4a533a20027cf784640b2a
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 745a51617f8c87c0f757aee0304ec3efb55d0f98
+ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753469"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921219"
 ---
 # <a name="credit-management-parameters-setup"></a>Kredīta pārvaldības parametru iestatīšana
 
@@ -31,7 +31,7 @@ Sadaļā **Kredīts** ir četras kopsavilkuma cilnes, kurās varat mainīt param
 
 ### <a name="credit-holds"></a>Kredītu aiztures
 
-- Iestatiet opciju **Atļaut rediģēt pārdošanas pasūtījumus pēc pasūtījuma aizturēšanas palaišanas** uz **Nē**, lai pieprasītu, ka grāmatošanas kārtulas atkal tiek pārbaudīti, ja pārdošanas pasūtījuma vērtība (pilna cena) ir palielināta kopš pārdošanas pasūtījuma palaišanas no aizturēšanas saraksta. .
+- Iestatiet opciju **Atļaut rediģēt pārdošanas pasūtījumus pēc pasūtījuma aizturēšanas palaišanas** uz **Nē**, lai pieprasītu, ka grāmatošanas kārtulas atkal tiek pārbaudīti, ja pārdošanas pasūtījuma vērtība (pilna cena) ir palielināta kopš pārdošanas pasūtījuma palaišanas no aizturēšanas saraksta.
 - Laukā **Atcelto pasūtījumu iemesli** atlasiet palaišanas iemeslu, kas tiks izmantots pēc noklusējuma, kad pārdošanas pasūtījums, kas bija kredīta pārvaldības aizturēšanā, tiks atcelts.
 - Lai pārbaudītu debitora kredīta grupas kredīta limitu, kad pārdošanas pasūtījuma debitors pieder debitoru kredīta grupai, iestatiet opciju **Pārbaudīt debitora kredīta grupas kredīta līmeni** uz **Jā**. Tiek pārbaudīts grupas kredīta limits un pēc tam, ja tas ir pietiekams, tiks pārbaudīts debitora kredīta limits.
 - Iestatiet opciju **Pārbaudīt kredīta limitu, kad ir palielināti apmaksas nosacījumi** uz **Jā**, lai pārbaudītu apmaksas nosacījumu klasifikāciju, lai noteiktu, vai maksājuma nosacījumi pārdošanas pasūtījumā atšķiras no noklusējuma apmaksas nosacījumiem klientiem. Ja jaunajiem apmaksas nosacījumiem ir augstāks rangs nekā sākotnējiem apmaksas nosacījumiem, pasūtījums tiek nodots kredīta pārvaldības aizturēšanai.
@@ -72,6 +72,10 @@ Vairāki kredīta pārvaldības statistikas dati ir iekļauti papildinformācija
 
 - Kredīta pārvaldībā debitora kredīta limits tiek norādīts debitora valūtā. Ir jādefinē valūtas maiņas kursa tips kredīta limitam debitora valūtā. Laukā **Kredīta limita maiņas kursa tips** atlasiet valūtas maiņas kursa tipu, kas jāizmanto, lai konvertētu primāro kredīta limitu uz debitora kredīta limitu.
 - Iestatiet opciju **Atļaut manuālu kredīta limitu rediģēšanu** uz **Nē**, lai neļautu lietotājiem rediģēt kredīta limitus lapā **Debitors**. Ja šī opcija ir iestatīta uz **Nē**, debitora kredīta limita izmaiņas var veikt, grāmatojot kredīta limita korekcijas darbības.
+- Iestatiet opciju **Apiet krājumu rezervācijas** uz **Jā,** lai ignorētu krājumu rezervācijas, ja ir pārbaudīti kredīta pārvaldības bloķēšanas noteikumi. Šajā gadījumā sistēma pārbauda visus rindu daudzumus un iespējo kontrolpunkta pagarinājuma periodus neatkarīgi no krājumu rezervēšanas daudzuma.
+- Kad kredīta pārvaldība ir aktivizēta, iestatījums Ziņojums, kad tiek pārsniegts **kredīta limita lauks, tiek izmantots tikai brīvā teksta rēķinu** apstrādājumam. Kaut arī ziņojumi joprojām tiek pievienoti pārdošanas pasūtījumiem, ja debitori ir pārsnieguši kredīta limitu, šo ziņojumu klātbūtne nebloķē apstiprinājumu, izdošanas sarakstu un pavadzīmju drukāšanu vai rēķinu grāmatošanu.
+
+    Kredīta pārvaldība tiek aktivizēta pēc noklusējuma, bet jūs variet to deaktivizēt. Ja šī opcija ir iespējota, tiek izmantots kredīta pārvaldības bloķēšanas noteikumi un kontrolpunkti, lai noteiktu, kad debitori ir pārsnieguši kredīta limitu. Ja tā ir deaktivizēta, ziņojumi, kas tiek pievienoti pārdošanas pasūtījumiem, balstoties uz ziņojuma iestatījumu, pārsniedzot kredīta limita lauku, var palīdzēt identificēt, kad debitori ir pārsnieguši **kredīta** limitu.
 
 ### <a name="number-sequences-and-shared-number-sequence-parameters"></a>Numuru secības un koplietojamie numuru secības parametri
 

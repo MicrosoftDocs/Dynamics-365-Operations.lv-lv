@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: fd874f3c6c1f4d25b3257d6465686dcb8e95b933
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 541e6c42ae1fa7d803b5becc1b52e34860777594
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576020"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920602"
 ---
 # <a name="wave-allocation"></a>Kopumu sadalījums
 
@@ -77,7 +77,7 @@ Lai izmantotu paralēlo apstrādi, kopumam ir jādarbojas partijā. Tāpēc jūs
 
 Ja nepieciešams, varat atsaukt katru iestatījumu, kas tika veikts pēc noklusējuma, kad instancei automātiski aktivizēta funkcionalitāte *Kopuma paralēlošana kopuma dalīšanas metodei*. Lai izpildītu šo darbību:
 
-- Dodieties uz **Noliktavas pārvaldība \> Iestatījumi \> Noliktavas pārvaldības parametri**. Cilnē **Kopuma apstrāde** lietojiet vēlamās vērtības **Kopuma apstrādei partijā** un **Gaidīt bloķēšanu (ms)**.
+- Doties uz **Noliktavas vadība \> Iestatīšana \> Noliktavas vadības parametri**. Cilnē **Kopuma apstrāde** lietojiet vēlamās vērtības **Kopuma apstrādei partijā** un **Gaidīt bloķēšanu (ms)**.
 - Dodieties uz **Noliktavas pārvaldība \> Iestatīšana \> Kopumi \> Kopuma procesa metodes**. Atlasiet `allocateWave` metodi. Darbību rūtī atlasiet **Uzdevuma konfigurāciju**, lai atvērtu lapu ar katras noliktavas sarakstu, kur metode iestatīta paralēlai palaišanai. Ja nepieciešams, modificējiet vai dzēsiet pakešuzdevumu skaitu un katrai uzskaitītai noliktavai piešķirto kopuma grupu.
 
 ## <a name="troubleshooting"></a>Problēmu novēršana

@@ -1,8 +1,8 @@
 ---
 title: Datu bāzu reģistrācijas konfigurēšana un pārvaldība
 description: Jūs variet reģistrēt izmaiņas tabulās un laukos Dynamics 365 Human Resources ar datu bāzes reģistrēšanu.
-author: andreabichsel
-ms.date: 06/10/2020
+author: twheeloc
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4fd0f69df4a141e509c8c250f767cbbc3a20ef4ab7ac3dcec2bc6faa15eababb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 10591abee7890d54d721c9324101a4b4bd0a74d2
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781661"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924824"
 ---
 # <a name="configure-and-manage-database-logging"></a>Datu bāzu reģistrācijas konfigurēšana un pārvaldība
 
@@ -93,14 +93,14 @@ Varat izdzēst visu vai daļu no datu bāzes žurnāliem, izmantojot šādas opc
 Lai iestatītu datu bāzes žurnāla tīrīšanu, rīkojieties šādi: 
 
 1. Dodieties uz **Sistēmas administrēšana > Saites > Datu bāzes > Datu bāzes žurnāls**. Atlasiet **Tīrīt žurnālu**.
-
-2. Izvēlieties metodi, kā atlasīt žurnālus dzēšanai, ievadot vienu no šīm opcijām:
+2. Zem **Ieraksti, kas jāiekļauj** virsrakstā, atlasiet **Filtrēt**.
+3. Izvēlieties metodi, kas tiks izmantota dzēšamā žurnāla atlasei. Ievadiet vienu no šīm opcijām:
 
    - Tabulas ID
    - Žurnāla tips
-   - Izveidotais datums un laiks
+   - Izveidošanas datums un laiks
 
-3. Izmantojiet cilni **Datu bāzes žurnāla tīrīšana**, lai noteiktu, kad palaist žurnāla tīrīšanas uzdevumu. Pēc noklusējuma datu bāzes žurnāli ir pieejami 30 dienas.
+4. Izmantojiet cilni **Datu bāzes žurnāla tīrīšana**, lai noteiktu, kad palaist žurnāla tīrīšanas uzdevumu. Pēc noklusējuma datu bāzes žurnāli ir pieejami 30 dienas.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

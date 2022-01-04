@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 1b2de9d6a7b1b7793b6bb753dd580d052d3c2841
-ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
-ms.translationtype: HT
+ms.openlocfilehash: 610f0d4e0448dd21d10765400f25cd89e3c7a84b
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "7891772"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920277"
 ---
-# <a name="saleshistorycleanupperformanceimprovements"></a>Pārdošanas vēstures tīrīšanas veiktspējas uzlabojumi
+# <a name="sales-history-cleanup-performance-improvements"></a>Pārdošanas vēstures tīrīšanas veiktspējas uzlabojumi
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
@@ -34,7 +34,7 @@ Līdzeklis uzlabo esošo tīrīšanas darbu šādos veidos:
 
 Pēc līdzekļa iespējošanas **Pārdošanas atjauninājumu vēstures tīrīšanas** pakešuzdevums (**Pārdošana un mārketings \> Periodu uzdevumi \> Tīrīšana \> Pārdošanas atjauninājumu vēstures tīrīšana**) tiks palaists kā iepriekš, bet ar labāku veiktspēju un maksimums uz divām stundām. Tas nozīmē, ka līdzekli var būt nepieciešams palaist vairākas reizes, lai notīrītu visus datus noteiktā glabāšanas laika posmā.
 
-## <a name="turn-on-the-saleshistorycleanupperformanceimprovements-feature"></a>Pārdošanas vēstures tīrīšanas veiktspējas uzlabojumu līdzekļa iespējošana
+## <a name="turn-on-the-sales-history-cleanup-performance-improvements-feature"></a>Ieslēgt pārdošanas vēstures tīrīšanas veiktspējas uzlabojumu līdzekli
 
 Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f5e15854b125c0d2d697484cc6e4b22458de491b
-ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
-ms.translationtype: HT
+ms.openlocfilehash: b21fba6fbfd4fe2a645efd56fb3592252c2a3fe0
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "7891828"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920627"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management
 
@@ -31,8 +31,8 @@ Lai redzētu, kas jauns vai mainīts katrā Dynamics 365 Supply Chain Management
 
 | Versija | Procesa numurs | Automātiskā atjauninājuma pieejamība | Papildinformācija |
 |---|---|---|---|
-| 10.0.24 | 10.0.1084 | 2022. februāris | [Jaunumi un izmaiņas risinājumā Dynamics 365 Supply Chain Management 10.0.24](whats-new-scm-10-0-24.md) |
-| 10.0.23 | 10.0.1037 | 2022. janvāris | [Priekšskatījums Dynamics 365 Supply Chain Management 10.0.23](whats-new-scm-10-0-23.md) |
+| 10.0.24 | 10.0.1084 | 2022. februāris | [Priekšskatījums Dynamics 365 Supply Chain Management 10.0.24](whats-new-scm-10-0-24.md) |
+| 10.0.23 | 10.0.1037 | 2022. janvāris | [Jaunumi un izmaiņas risinājumā Dynamics 365 Supply Chain Management 10.0.23](whats-new-scm-10-0-23.md) |
 | 10.0.22 | 10.0.995 | 2021. gada novembris | [Jaunumi un izmaiņas risinājumā Dynamics 365 Supply Chain Management 10.0.22](whats-new-scm-10-0-22.md) |
 | 10.0.21 | 10.0.960 | 2021. oktobris | [Jaunumi un izmaiņas risinājumā Dynamics 365 Supply Chain Management 10.0.21](whats-new-scm-10-0-21.md) |
 | 10.0.20 | 10.0.886 | 2021. gada augusts | [Jaunumi un izmaiņas programmas Dynamics 365 Supply Chain Management versijā 10.0.20](whats-new-scm-10-0-20.md) |

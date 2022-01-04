@@ -2,7 +2,7 @@
 title: Programma Human Resources programmā Teams
 description: Šī tēma iepazīstina jūs ar programmu Microsoft Dynamics 365 Human Resources sadaļā Microsoft Teams.
 author: twheeloc
-ms.date: 12/09/2021
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8eebe154a19dd8476f6e9d75ebfd69fdc5b9e2b7
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
-ms.translationtype: HT
+ms.openlocfilehash: 9274ab345616561deddd322ebad0d6e0b834d1d4
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913493"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924726"
 ---
 # <a name="human-resources-app-in-teams"></a>Programma Human Resources programmā Teams
 
@@ -41,6 +41,21 @@ Dynamics 365 Human Resources programmu varat atrast Teams veikalā. Informāciju
 Lai iegūtu informāciju par programmu atļauju pārvaldību programmā Teams, skatiet sadaļu [Programmu atļauju ierobežojumu pārvaldība sistēmā Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies).
 
 Ja vēlaties, lai lietotāji programmā skatītu atvaļinājumu un prombūtnes kalendāru, funkcionalitātes pārvaldībā aktivizējiet kalendāru **Atvaļinājums un kavējumi darba komandās**. Lai iegūtu papildinformāciju par priekšskatījuma līdzekļu iespējošanu, skatiet sadaļu [Līdzekļu pārvaldība](hr-admin-manage-features.md).
+
+## <a name="update-app"></a>Atjaunināt programmu
+>[!NOTE]
+> Sākot no 2021. gada 20. decembra, Human Resources App bot pakalpojumi, kas tiek viesoti Microsoft nomniekā, tiks uzdāvināti. Nepastāv ietekmes uz jaunāko paplašinājumu (versijas 1.1.5), kas ir pieejams instalēšanai. Galvenā ietekme tiks veikta uz novecojušu paplašinājumu (versijas 1.1.4). Šīs versijas tērzēšanas bots pārtrauks darboties. Cilne **Izslēgtie** no laika turpināsies un darbosies abos paplašinājumos.
+
+Versijā 1.1.4 tērzētavas bots pārstāj atbildēs uz jebkuru ziņojumu. Piemēram, **piesakieties,** **skatiet bilances un skatiet** **taimautu**. Programma ir manuāli jāatjaunina uz jaunāko versiju. Papildinformāciju skatiet sadaļā [Programmu atjaunināšana Microsoft Teams](/MicrosoftTeams/apps-update-experience) sadaļā.
+
+Lai atjauninātu versiju 1.1.5, veiciet šādas darbības:
+1. , Microsoft Teams dodieties uz **Programmas**.
+2. Atrast **programmu Personāla** vadība.
+3. Atlasiet **Jaunināšana**.
+
+Personāla vadības programmas versiju varat pārbaudīt, vai nu doties uz cilni **Par**, vai noklikšķinot uz sadaļu **Personāla** programma. 
+
+![Cilvēkresursi **Par** cilni.](./media/HR-teams-about.png)
 
 ## <a name="enable-notifications-for-the-human-resources-app-in-teams"></a>Iespējot paziņojumus programmai Human Resources programmā Teams
 
@@ -113,7 +128,7 @@ Turpmākajiem laidieniem ir noslīdētas šādas darba vienības:
 Ja lietotājam rodas problēmas, pierakstoties vai izmantojot personāla vadības lietojumprogrammu Teams, izmēģiniet šīs problēmu novēršanas instrukcijas. Ja pēc problēmu novēršanas problēmas joprojām pastāv, sazinieties ar atbalsta dienestu. Lai iegūtu papildinformāciju, skatiet [Iegūt atbalstu](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
 
 ### <a name="ensure-the-teams-human-resources-application-is-up-to-date"></a>Nodrošināt, ka grupas Personāla vadības programma ir atjaunināta
-Ja rodas problēmas ar darba grupu personāla vadības programmu, jāapstiprina, ka esat palaidis jaunāko versiju. Minimālā atbalstītā versija ir 1.1.5. Instrukcijas par to, kā atjaunināt Teams programmu, skatiet [Brigādes dokumentācijā](/MicrosoftTeams/apps-update-experience).
+Ja rodas problēmas ar darba grupu personāla vadības programmu, jāapstiprina, ka esat palaidis jaunāko versiju. Minimālā atbalstītā versija ir 1.1.5. Instrukcijas par to, kā atjaunināt Teams programmu, skatiet [Brigādes](/MicrosoftTeams/apps-update-experience) dokumentācijā.
 
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Nevar pierakstīties personāla vadības lietojumprogrammā Teams
 
@@ -139,7 +154,7 @@ Ja lietotājs saņem kļūdu, mēģinot apstiprināt atvaļinājumu pieprasījum
 
 ### <a name="microsoft-language-understanding-intelligent-service-luis"></a>Microsoft valodu izpratnes intelektiskais pakalpojums (Microsoft Language Understanding Intelligent Service - LUIS)
 
-Ar Dynamics 365 Human Resources Microsoft Teams botu, lietotāja teksta ievades tiek analizētas, lai saprastu pamatā esošo vaicājumu/līdz ar to. Lietotāja ievade, piemēram, "Meklēšanas konta Contoso", tiek maršrutēta uz vienu no Microsoft ko pie ko pie kotācijas pakalpojumiem, ko sauc par valodas zināšanas intelligent service (GUID). Lasīt vairāk par LUIS [šeit](https://www.luis.ai/). LUIS pakalpojums izprot lietotāja ievades nolūku (šajā gadījumā nolūks ir meklēt informāciju) un mērķa elementu (šajā gadījumā paredzētā vienība ir konts ar nosaukumu Contoso). Pēc tam šī informācija tiek nodota Microsoft [Azure bota struktūrā](https://azure.microsoft.com/services/bot-service/), kura mijiedarbojas ar datiem un izgūst lietotāja Dynamics 365 Human Resources vaicājumam vēlamo informāciju.
+Ar Dynamics 365 Human Resources Microsoft Teams botu, lietotāja teksta ievades tiek analizētas, lai saprastu pamatā esošo vaicājumu/līdz ar to. Lietotāja ievade, piemēram, "Meklēšanas konta Contoso", tiek maršrutēta uz vienu no Microsoft ko pie ko pie kotācijas pakalpojumiem, ko sauc par valodas zināšanas intelligent service (GUID). Lasīt vairāk par LUIS [šeit](https://www.luis.ai/). LUIS pakalpojums izprot lietotāja ievades nolūku (šajā gadījumā nolūks ir meklēt informāciju) un mērķa elementu (šajā gadījumā paredzētā vienība ir konts ar nosaukumu Contoso). Pēc tam šī informācija tiek nodota Microsoft  [Azure bota struktūrā](https://azure.microsoft.com/services/bot-service/), kura mijiedarbojas ar Dynamics 365 Human Resources datiem un izgūst lietotāja vaicājumam vēlamo informāciju.
 
 Instalējot un ļaujot izmantot botu, jūs piekrītat, ka ļautat LUIS pakalpojumam un Azure bota struktūrai apstrādāt ievades nodomu, kas rada lielāku sarunvalodas lietotāja pieredzi. LUIS pakalpojums un Azure bota struktūrai var būt dažādi atbilstības līmeņi, salīdzinot ar Dynamics 365 Human Resources. Lai gan JUMS ir piekļuve tikai lietotāja vaicājumiem un nav izveidota, lai tas būtu paredzēts savienojumam ar lietotāja datiem vai kontu, bota lietotājs var ievadīt vaicājumu, kurā ir Klienta dati, Personas dati vai citi dati, kā arī šāda vaicājuma saturs var tikt nosūtīts uz BOT pakalpojumu un Dynamics 365 Human Resources Dynamics 365 Human Resources Azure bot struktūru. 
 

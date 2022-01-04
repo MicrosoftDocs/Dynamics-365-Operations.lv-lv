@@ -1,22 +1,22 @@
 ---
 title: Plānot kopuma etiķešu drukāšanu kopuma laikā
 description: Šajā tēmā ir aprakstīts, kā iestatīt un izmantot funkcionalitāti uz uzdevumu balstītai kopuma etiķešu drukāšanai.
-author: MSFTGarm
+author: perlynne
 ms.date: 06/09/2021
 ms.topic: article
 ms.search.form: WHSPostMethod, WHSWavePostMethodTaskConfig, WHSWaveTemplateTable, WHSParameters, WHSWaveTableListPage, WHSWorkTableListPage, WHSWorkTable, BatchJobEnhanced, WHSPlannedWorkOrder
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: v-obaranov
+ms.author: perlynne
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 4883f8a548645436e17b933d87d4ee6330570d48
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 1323538765308ec3dd366456e31f5e08b08ce5ab
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777869"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920153"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>Plānot kopuma etiķešu drukāšanu kopuma laikā
 
@@ -40,7 +40,7 @@ Lai izmantotu šajā tēmā aprakstītos līdzekļus, tie sistēmai ir jāieslē
 
 Vispirms izveidojiet jaunu kopuma darbības metodi un iespējojiet to paralēlā, asinhronā uzdevuma apstrādē.
 
-1. Dodieties uz **Noliktavas pārvaldība \> Iestatīšana \> Kopumi \> Kopuma procesa metodes**.
+1. Dodieties uz **Noliktavas pārvaldība \> Iestatīšana \> Kopumi \> Kopuma procesa metodes**.
 1. Darbību rūtī atlasiet **Atkārtoti ģenerēt metodi**. Ievērojiet, ka *waveLabelPrinting* ir pievienots kopuma procesa metožu sarakstam, ko varat izmantot nosūtīšanas kopuma veidnēs.
 1. Atlasiet ierakstu, kur lauks **Metodes nosaukums** ir iestatīts uz *waveLabelPrinting*, un pēc tam Darbību rūtī atlasiet **Uzdevuma konfigurācija**.
 1. Lai režģim pievienotu rindu, darbību rūtī atlasiet **Jauns**. Jaunajā rindā iestatiet šādus laukus:
@@ -51,7 +51,7 @@ Vispirms izveidojiet jaunu kopuma darbības metodi un iespējojiet to paralēlā
 
 Tagad varat atjaunināt esošu kopuma veidni, lai tā izmanto kopuma apstrādes metodi *Kopuma etiķetes drukāšana*. Alternatīvi varat izveidot jaunu kopuma veidni, kas to izmanto.
 
-1. Dodieties uz **Noliktavas pārvaldība \> Iestatīšana \> Kopumi \> Kopuma veidnes**.
+1. Dodieties uz **Noliktavas pārvaldība \> Iestatījumi \> Kopumi \> Kopuma veidnes**.
 1. Darbību rūtī atlasiet **Rediģēt**.
 1. Saraksta rūtī atlasiet kopuma veidni, kas jāatjauno. (Ja testēšanas nolūkos izmantojat demonstrācijas datus, varat atlasīt *24 Piegādes noklusējums*.)
 1. Kopsavilkuma cilnē **Metodes** kolonnā **Atlikušās metodes**, atlasiet rindu, kur lauks **Nosaukums** ir iestatīts uz *waveLabelPrinting*.

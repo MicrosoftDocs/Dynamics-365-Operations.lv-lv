@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ff9d4d0c1d72d3002f84f895f67d3c9cb347f1e8
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
-ms.translationtype: HT
+ms.openlocfilehash: a11455c4e3f59ef52d9a1e3d2e6a10c57a070a79
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402229"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920427"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-administrators"></a>Mācību katalogs Dynamics 365 Supply Chain Management administratoriem
 
@@ -68,7 +68,7 @@ Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem dom�
 
 | Saturs | Apraksts | Formāts | Ilgums |
 |---------|-------------|--------|--------|
-| [Tehnisko izmaiņu pārvaldība: bieži uzdotie jautājumi Dynamics 365 Supply Chain Management](/learn/paths/set-up-engineering-change-management/) | Šodienas ražotājiem ir nepieciešama spēcīga preču datu pārvaldība, versiju kontrole un tehnikas izmaiņu pārvaldība, lai izdotos pasaulē nemitīgi samazināt preču dzīves ciklus, paaugstinātu kvalitātes un uzticamības prasības un paaugstinātu koncentrēšanos uz preču drošību. Uzziniet, kā iestatīt inženierzinātnes izmaiņu pārvaldību šajā mācību ceļā. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 4 stundas |
+| [Tehnisko izmaiņu pārvaldība: bieži uzdotie jautājumi Dynamics 365 Supply Chain Management](/learn/paths/set-up-engineering-change-management/) | Šodienas ražotājiem nepieciešama stingrā preču datu pārvaldība, versiju kontrole un inženiertehnisko izmaiņu pārvaldība, lai veiksmīgi izdotos preču dzīves ciklu pasaulē, palielinātu kvalitātes un uzticamības prasību līmeni, kā arī palielinātu produkta drošības fokusu. Uzziniet, kā iestatīt inženierzinātnes izmaiņu pārvaldību šajā mācību ceļā. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 4 stundas |
 
 ## <a name="servicing"></a>Apkalpošana<a name="servicing"></a>
 

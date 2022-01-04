@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 00e3da7767b80e16f9351f59b109765bffc0128fe149cefafc1edda3a6cbcb96
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: bc74c5748950b1f0f001fd89acb2e023640065ee
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781349"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920054"
 ---
 # <a name="quantity-exceeds-over-delivery-percentage-during-packing-slip-generation"></a>Daudzums pārsniedz pasūtījuma pārsnieguma procentus pavadzīmju ģenerēšanas laikā
 
@@ -50,10 +50,10 @@ Izmantojiet šo procedūru, lai pielāgotu kravas rindas daudzumu.
 
 1. Dodieties uz **Noliktavas pārvaldība \> Noslodzes \> Visas noslodzes**.
 1. Atlasiet kravu, kurai nevar ģenerēt pavadzīmi.
-1. Darbību rūts cilnē **Nosūtīt un saņemt** grupā **Atsaukt** atlasiet **Atsaukt kravas apstiprinājumu**.
-1. Cilnē **Kravas rindas** atlasiet kravas rindu krājumam, kas pārsniedz pasūtījuma pārsnieguma procentuālo vērtību.
+1. Darbību rūts cilnē Nosūtīt **un saņemt** apgrieztajā grupā atlasiet Atsaukt **kravas** **apstiprinājumu**.
+1. Cilnē **Kravas rindas** atlasiet kravas rindu krājumam, kas pārsniedz papildu piegādes procentus.
 1. Atlasiet **Samazināt izdoto daudzumu**, lai koriģētu izdoto daudzumu.
-1. Cilnē  **Rindu detāļas** atlasiet **Pasūtījums**, lai pievienotu rindu.
+1. Cilnē **Detalizēta informācija par** rindu atlasiet **Pasūtījums**.
 1. Iestatiet lauku **Daudzums** uz izdoto daudzumu (t.i., uz lauka **Darba izveidotā daudzuma** vērtību), lai varētu turpināt pavadzīmes ģenerēšanu.
 
 ### <a name="adjust-the-over-delivery-percentage"></a>Pielāgojiet pārsnieguma procentuālo vērtību
@@ -62,8 +62,8 @@ Izmantojiet šo procedūru, lai pielāgotu pārsnieguma procentuālo vērtību.
 
 1. Doties uz **Debitoru parādi \> Pasūtījumi \> Visi pasūtījumi**.
 1. Atlasiet pārdošanas pasūtījumu, kuram nevar grāmatot kravas pavadzīmi.
-1. Cilnē **Pārdošanas pasūtījuma rindas** atlasiet pārdošanas pasūtījuma rindu krājumam, kas pārsniedz pasūtījuma pārsnieguma procentuālo vērtību.
-1. Cilnē  **Rindu detāļas** atlasiet **Piegāde**, lai pievienotu rindu.
+1. Cilnē Pārdošanas **pasūtījuma rindas atlasiet pārdošanas pasūtījuma rindu** krājumam, kas pārsniedz pārsniegtā pasūtījuma apjoma procentuālo vērtību.
+1. Cilnē **Detalizēta informācija par** rindu atlasiet **Piegāde**.
 1. Iestatiet lauku **Pasūtījuma pārsniegšana** uz lielāku procentuālo vērtību, kas atbilst izdotajam daudzumam attiecībā pret kravas daudzumu, lai varētu turpināt pavadzīmes ģenerēšanu.
 
 ### <a name="reverse-and-make-adjustments"></a>Atsaukt un veikt korekcijas
@@ -73,14 +73,14 @@ Atsauciet visu, kas tika iegrāmatots kravai (piemēram, pavadzīmi, kravas apst
 Izmantojiet šo procedūru, lai atceltu pavadzīmi.
 
 1. Dodieties uz **Noliktavas pārvaldība \> Noslodzes \> Visas noslodzes**.
-1. Darbību rūts cilnē **Nosūtīt un saņemt** grupā **Atsaukt** atlasiet **Atcelt pavadzīmes**.
+1. Darbību rūts cilnes Nosūtīt un saņemt grupā Atcelt pavadzīmes atlasiet **Atcelt** **·** **pavadzīmes**.
 
 Izmantojiet sekojošo procedūru, lai atsauktu sūtījuma apstiprinājumu.
 
 1. Dodieties uz **Noliktavas pārvaldība \> Noslodzes \> Visas noslodzes**.
-1. Darbību rūts cilnē **Nosūtīt un saņemt** grupā **Atsaukt** atlasiet **Atsaukt kravas apstiprinājumu**.
+1. Darbību rūts cilnē Nosūtīt **un saņemt** apgrieztajā grupā atlasiet Atsaukt **kravas** **apstiprinājumu**.
 
 Lai atsauktu darbu, izmantojiet šādu procedūru.
 
 1. Dodieties uz **Noliktavas pārvaldība \> Noslodzes \> Visas noslodzes**.
-1. Darbību rūts cilnē **Kravas** grupā **Darbs** atlasiet **Atsaukt darbu**.
+1. Darbību rūts cilnes **Noslodzes** sadaļā Darba grupa atlasiet **Atsaukt** **darbu**.

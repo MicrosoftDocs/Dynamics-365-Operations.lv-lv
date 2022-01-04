@@ -1,8 +1,8 @@
 ---
 title: Atgādinājuma vēstules secības izveide
 description: Izmantojiet šo procedūru, lai izveidotu atgādinājuma vēstuļu sēriju.
-author: abruer
-ms.date: 07/22/2019
+author: JodiChristiansen
+ms.date: 12/07/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bfc5bd0b1228ef28631da8746b2eb60e4cf488c1
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: adeae6e20a799165e086df28b92a1357e8f2f0d3
+ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753590"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921203"
 ---
 # <a name="create-a-collection-letter-sequence"></a>Atgādinājuma vēstules secības izveide
 
@@ -31,10 +31,10 @@ Izmantojiet šo procedūru, lai izveidotu atgādinājuma vēstuļu sēriju. Šaj
 3. Laukā **Atgādinājuma vēstuļu sērija** ievadiet sērijas ID, kas pārstāvēs sēriju. Tas tiks izmantots, kad iestatīsit grāmatošanas metodi.
 4. Laukā **Apraksts** ierakstiet kādu vērtību.  Maksāšanas nosacījumi nav obligāti. Ja ievadāt vērtību šeit, atgādinājuma vēstules papildmaksas rēķinā tiks izmantoti šie maksāšanas nosacījumi, nevis debitoram saglabātie maksāšanas nosacījumi.  
 5. Laukā **Atgādinājuma vēstules kods** atlasiet kodu pirmajai atgādinājuma vēstulei, ko vēlaties nosūtīt. Pirmā atgādinājuma vēstule tiek izveidota atbilstoši rēķina apmaksas termiņam, vērtībai, ko šai rindai ievadāt pagarinājuma periodam laukā Dienas, un atbilstoši citai informācijai, ko ievadāt šai rindai.  
-6. Laukā **Apraksts** ierakstiet kādu vērtību. Papildmaksas valūta pēc noklusējuma tiek ņemta no debitora valūtas norādes. Šis valūtas kods var atšķirties no rēķina valūtas.  
-7. Noklikšķiniet uz **Pievienot**, lai pievienotu nākamo atgādinājuma vēstuli, kas tiks nosūtīta šajā sērijā. Daudzos gadījumos pirmā atgādinājuma vēstule ir tikai brīdinājums. Varat pievienot papildmaksas, ja tādas nepieciešamas.  
-8. Laukā Atgādinājuma vēstules kods atlasiet nākamo atgādinājuma vēstuli, kura tiks nosūtīta šajā sērijā.
-9. Laukā **Apraksts** ierakstiet kādu vērtību.
+6. Laukā **Apraksts** ierakstiet kādu vērtību. 
+7. Papildmaksas noklusētā valūta ir juridiskas personas valūta. Šis valūtas kods var atšķirties no rēķina valūtas.   
+8. Noklikšķiniet uz **Pievienot**, lai pievienotu nākamo atgādinājuma vēstuli, kas tiks nosūtīta šajā sērijā. Daudzos gadījumos pirmā atgādinājuma vēstule ir tikai brīdinājums. Varat pievienot papildmaksas, ja tādas nepieciešamas.  
+9. Laukā **Atgādinājuma vēstules kods** atlasiet nākamo atgādinājuma vēstuli, kura tiks nosūtīta šajā sērijā.
 10. Laukā **Galvenais konts** atlasiet ieņēmumu kontu, kas tiks izmantots papildmaksām.
 11. Ievadiet papildmaksu, kas jāattiecina, grāmatojot šo atgādinājuma vēstuli.
 12. Laukā **Krājumu PVN grupa** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu. Atlasiet krājuma PVN grupu, ja papildmaksai jāaprēķina PVN.  

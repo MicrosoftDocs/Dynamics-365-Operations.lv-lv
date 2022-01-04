@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5e9dc9b7cf33f9393f408d8f8a458e9b0ea47639
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 5b1e798ac0558e7c5b0bbe4b6a732cbdcf5729a1
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778381"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920117"
 ---
 # <a name="schedule-work-creation-during-wave"></a>Plānot darba izveidi kopuma laikā
 
@@ -54,7 +54,7 @@ Esošās uzdevumu un kopuma apstrādes konfigurācijas tiks paturētas arī vis�
 Ja nepieciešams, varat manuāli atgriezt jebkurus vai visus iestatījumus, kas tika veikti automātiski, kad iespējojāt *Organizācijas grafika darba izveides kopuma metodes* līdzekli, tālāk rīkojoties šādi:
 
 - Kopumu veidnes atradīsiet, dodoties uz **Noliktavas pārvaldība \> Iestatījumi \> Kopumi \> Kopuma veidnes**. Aizstāt *Darba plānošanas izveides* metodi ar *Izveidot darbu*.
-- Noliktavu parametrus atradīsiet, dodoties uz **Navigācijas rūts \> Iestatījumi \> Noliktavas vadības parametri**. Cilnē **Kopuma apstrāde** lietojiet vēlamās vērtības **Kopuma apstrādei partijā** un **Gaidīt bloķēšanu (ms)**.
+- Noliktavas parametriem atveriet noliktavas pārvaldības **iestatījuma \> noliktavas pārvaldības \> parametrus**. Cilnē **Kopuma apstrāde** lietojiet vēlamās vērtības **Kopuma apstrādei partijā** un **Gaidīt bloķēšanu (ms)**.
 - Kopumu metodes atradīsiet, dodoties uz **Noliktavas pārvaldība \> Iestatījumi \> Kopumi \> Kopuma procesa metodes**. Atlasiet `WHSScheduleWorkCreationWaveStepMethod` un darbību rūtī atlasiet **Uzdevuma konfigurācija**. Ja nepieciešams, modificējiet vai dzēsiet pakešuzdevumu skaitu un katrai uzskaitītai noliktavai piešķirto kopuma grupu.
 
 ## <a name="manually-configure-scheduled-work-creation"></a>Manuāli konfigurēt ieplānota darba izveidi
@@ -65,7 +65,7 @@ Ja neiespējosit [*Organizācijas "Plānot darba izveidi" kopuma metodes* līdze
 
 Lai izmantotu paralēlās asinhronās metodes priekšrocības noliktavas darba izveidošanai, kopuma procesam ir jādarbojas paketē. Lai to iestatītu:
 
-1. Dodieties uz  **Noliktavas vadība \> Iestatīšana \> Noliktavas pārvaldības parametri**.
+1. Doties uz **Noliktavas vadība \> Iestatīšana \> Noliktavas vadības parametri**.
 1. Cilnē **Vispārīgi** iestatiet opciju **Veikt kopumiem pakešveida apstrādi** uz *Jā*. Varat arī atlasīt atvēlēto **Kopuma apstrādes pakešuzdevumu grupu**, lai novērstu pakešuzdevumu rindas apstrādes darbību vienlaicīgi ar citiem procesiem.
 1. Iestatiet **Gaidīt bloķēšanas (ms) laiku**, kas tiek lietots, ja sistēma apstrādā vairākus kopumus vienlaicīgi. Lielākajai daļai ražošanas procesu ieteicams izmantot vērtību *60000*.
 
@@ -73,8 +73,8 @@ Lai izmantotu paralēlās asinhronās metodes priekšrocības noliktavas darba i
 
 Sākt, izveidojot jaunu kopuma darbības metodi un iespējojot to paralēlā asinhronā uzdevuma apstrādē.
 
-1. Dodieties uz  **Noliktavas pārvaldība \> Iestatīšana \> Kopumi \> Kopuma procesa metodes**.
-1. Atlasiet  **Reģenerēšanas metodi** un ievērojiet, ka *WHSScheduleWorkCreationWaveStepMethod* ir pievienots kopuma apstrādes metožu sarakstam, ko varat izmantot nosūtīšanas kopuma veidnēs.
+1. Dodieties uz **Noliktavas pārvaldība \> Iestatīšana \> Kopumi \> Kopuma procesa metodes**.
+1. Atlasiet reģenerēšanas metodi un ievērojiet, ka **·** *WHSScheduleWorkCreationWaveStepMethod ir pievienots kopuma apstrādes metožu sarakstam, ko varat izmantot nosūtīšanas* kopuma veidnēs.
 1. Atlasiet ierakstu ar **Metodes nosaukumu** *WHSScheduleWorkCreationWaveStepMethod* un atlasiet **Uzdevuma konfigurāciju**.
 1. Darbību rūtī atlasiet **Jauns**, lai pievienotu rindu režģim, un pēc tam atlasiet šos iestatījumus:
 
@@ -84,7 +84,7 @@ Sākt, izveidojot jaunu kopuma darbības metodi un iespējojot to paralēlā asi
 
 Tagad varat atjaunināt esošu kopuma veidni (vai izveidot jaunu), lai izmantotu *Darba izveides grafika* kopuma apstrādes metodi.
 
-1. Dodieties uz  **Noliktavas pārvaldība \> Iestatīšana \> Kopumi \> Kopuma veidnes**.
+1. Dodieties uz **Noliktavas pārvaldība \> Iestatījumi \> Kopumi \> Kopuma veidnes**.
 1. Darbību rūtī atlasiet **Rediģēt**.
 1. Saraksta rūtī atlasiet kopuma veidni, kuru vēlaties atjaunināt (ja pārbaudes izmantojat demonstrācijas datus, tad varat izmantot *24 nosūtīšanas noklusējumu*).
 1. Izvērsiet kopsavilkuma cilni **Metodes** un atlasiet rindu ar **Nosaukumu** *Darba izveides grafiku* režģī **Atlikušās metodes**.

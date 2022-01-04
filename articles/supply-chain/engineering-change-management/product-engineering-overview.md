@@ -1,5 +1,5 @@
 ---
-title: Tehnoloģisko izmaiņu pārvaldības pārskats
+title: Inženierzinātnes izmaiņu pārvaldības apskats (satur video)
 description: Šajā tēmā sniegts pārskats par tehnoloģisko izmaiņu pārvaldību, kas palīdz plānot un pārvaldīt preču versiju izveidi un pārvaldīt produktu dzīves ciklus un tehnikas izmaiņas.
 author: t-benebo
 ms.date: 08/26/2021
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 89a3eb584275e52910726ca5a9ed53f744f10b8d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: e9dc692061cec830f487e01a79075eda835bac23
+ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574693"
+ms.lasthandoff: 12/18/2021
+ms.locfileid: "7937664"
 ---
 # <a name="engineering-change-management-overview"></a>Tehnoloģisko izmaiņu pārvaldības pārskats
 
@@ -26,9 +26,9 @@ ms.locfileid: "7574693"
 
 ## <a name="feature-summary"></a>Līdzekļa kopsavilkums
 
-Šodienas ražotājiem ir nepieciešama spēcīga preču datu pārvaldība, versiju kontrole un tehnikas izmaiņu pārvaldība, lai izdotos pasaulē nemitīgi samazināt preču dzīves ciklus, paaugstinātu kvalitātes un uzticamības prasības un paaugstinātu koncentrēšanos uz preču drošību.
+Šodienas ražotājiem ir nepieciešama stingra preču datu pārvaldība, versiju kontrole un inženiertehnisko izmaiņu pārvaldība, lai izdotos veiksmīgai preču dzīves cikla sašaurināšanai, paaugstinātām kvalitātes un drošības prasībām un lielākai uzmanībai par preču drošību.
 
-Tehnikas izmaiņu vadība nodrošina preču datu pārvaldības procesa struktūru un disciplīnu un ļauj definēt, izlaist un pārskatīt preces, ko atbalsta darbplūsmas. Izmantojot preču versijas un tehnikas izmaiņu pārvaldību, varat dokumentēt, novērtēt un piemērot tehnikas izmaiņas visā preces dzīves ciklā.
+Inženierzinātnes izmaiņu pārvaldība preču datu pārvaldības procesam atved struktūru un nozari, kā arī sniedz iespēju precēm definēt, izlaist un pārskatīt kontrolētā veidā, ko atbalsta darbplūsmas. Izmantojot preču versijas un inženierzinātnes izmaiņu pārvaldību, varat dokumentēt, novērtēt produkta ietekmi un pielietot inženierzinātnes izmaiņas visā produkta dzīves ciklā.
 
 Tehnikas izmaiņu pārvaldība, kas palīdz plānot un pārvaldīt preču versiju izveidi un pārvaldīt produktu dzīves ciklus un tehnikas izmaiņas. Šeit ir saraksts ar tās galvenajām iezīmēm:
 

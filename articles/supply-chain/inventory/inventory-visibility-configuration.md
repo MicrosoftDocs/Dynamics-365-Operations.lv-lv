@@ -2,7 +2,7 @@
 title: Krājumu redzamības konfigurēšana
 description: Šajā tēmā ir aprakstīts, kā izmantot Krājumu redzamības programmu.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 12/09/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 53cc457c788d24adfe3c523719ccffc6d445fb61
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: fcbace2bd28a843fca8aa2f4f998c08f238c29d6
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678475"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920302"
 ---
 # <a name="configure-inventory-visibility"></a>Krājumu redzamības konfigurēšana
 
@@ -61,7 +61,7 @@ Pēc konfigurācijas pabeigšanas pārliecinieties, ka programmā atlasiet opcij
 Katrs datu avots atspoguļo sistēmu, no kuras nāk dati. Datu avotu nosaukumu piemēri: `fno` (jeb "Dynamics 365 Finance and Operations lietojumprogrammas") un `pos` (jeb "pārdošanas punkts"). Pēc noklusējuma Krājumu redzamības programma Supply Chain Management ir iestatīta kā noklusējuma datu avots (`fno`).
 
 > [!NOTE]
-> Datu avots `fno` ir rezervēts Dynamics 365 Supply Chain Management.
+> Datu `fno` avots ir rezervēts Piegādes ķēžu pārvaldībai. Ja krājumu redzamības pievienojumprogramma ir integrēta Piegādes ķēdes pārvaldības vidē, mēs iesakām nedzēšam konfigurācijas, kas saistītas `fno` ar datu avotu.
 
 Lai izveidotu datu avotu, veiciet tālāk aprakstītās darbības.
 
@@ -273,17 +273,17 @@ Izmantojot šo aprēķināšanas formulu, jaunais vaicājuma rezultāts ietvers 
 
 ## <a name="partition-configuration"></a><a name="partition-configuration"></a>Nodalījuma konfigurācija
 
-Nodalījuma konfigurācija sastāv no pamatdimensiju kombinācijas. Tas nosaka datu sadales modeli. Datu operācijas vienā nodalījumā atbalsta augstu veiktspēju un ne pārāk daudz izmaksu. Tāpēc labie nodalījuma raksti var sniegt nozīmīgus atvieglojumus.
-
-Krājumu redzamība nodrošina šādu noklusējuma nodalījuma konfigurāciju.
+Pašlaik nodalījuma konfigurācija sastāv no divām pamatdimensijām `SiteId``LocationId` (un), kas norāda, kā dati tiek sadalīti. Operācijas vienā un tajā pašā nodalījumā var piegādāt lielāku veiktspēju par zemākām izmaksām. Šajā tabulā ir parādīta noklusējuma nodalījuma konfigurācija, kas paredzēta krājumu redzamības pievienojumprogrammai.
 
 | Pamata dimensija | Hierarhija |
 |---|---|
 | `SiteId` | 1 |
 | `LocationId` | 2 |
 
-> [!NOTE]
-> Noklusējuma nodalījuma konfigurācija ir tikai atsaucei. Tie nav jādefinē Krājumu redzamībā. Pašlaik nodalījuma konfigurācijas jauninājums netiek atbalstīts.
+Risinājums ietver šo nodalījuma konfigurāciju pēc noklusējuma. Tādēļ *jums tas nav jādefinē pats*.
+
+> [!IMPORTANT]
+> Ne pielāgojiet noklusējuma nodalījuma konfigurāciju. Ja to dzēšat vai maināt, iespējams, radusies negaidīta kļūda.
 
 ## <a name="product-index-hierarchy-configuration"></a><a name="index-configuration"></a>Preču indeksa hierarhijas konfigurācija
 

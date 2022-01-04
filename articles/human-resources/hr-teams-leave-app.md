@@ -2,7 +2,7 @@
 title: Atvaļinājuma pieprasījumu pārvaldība programmā Teams
 description: Šajā tēmā parādīts, kā pieprasīt prombūtni Dynamics 365 Human Resources programmā Microsoft Teams.
 author: twheeloc
-ms.date: 11/03/2021
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 10538c96a7637a95c60beef40a02fdb5432959ec
-ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.openlocfilehash: d004e33d01dbd171626d7e23f93df081bc0210a9
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7771535"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924751"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Atvaļinājumu pieprasījumu pārvaldība programmā Teams
 
@@ -35,6 +35,9 @@ Dynamics 365 Human Resources programmu varat atrast Teams veikalā.
 1. Programmā Microsoft Teams pārejiet uz programmu sarakstu.
  
 2. Meklējiet Dynamics 365 Human Resources un pēc tam atlasiet elementu **Personāla vadība**.
+
+> [!NOTE]
+> Sākot no 2021. gada 20. decembra, Human Resources App bot pakalpojumi (versija 1.1.4) viesos Microsoft nomniekā, tiks uzstāsts. Jaunākais paplašinājums (versijas versija 1.1.5) ir pieejams instalēšanai. Papildinformāciju skatiet atvaļinājumu [pieprasījumu pārvaldīšana komandās](hr-admin-teams-leave-app.md#update-app).
 
 3. Atlasiet pogu **Pievienot**, lai instalētu programmu.
 
@@ -199,7 +202,7 @@ Ja jūs saņemat kļūdu, mēģinot apstiprināt atvaļinājumu pieprasījumus l
 
 2. Pārliecinieties, vai lietotāji ir pierakstījušies cilnē **Tērzēšana** ar tiem pašiem akreditācijas datiem, ko tie izmanto atvaļinājumu pieprasījumu apstiprināšanai. Lietojiet ziņojumus "izrakstīties" un pēc tam "pieteikties", lai pieteiktos, izmantojot pareizos akreditācijas datus.
 
-3. Ja problēma joprojām pastāv, pārbaudiet biznesa notikumu **sistēmas pakešuzdevuma** statusu kā sistēmas administrators. Ja tas ir posmā Gaida **·** vai Notiek **·** izpilde, pārbaudiet vēlreiz pēc dažām minūtēm. Ja statuss paliek nemainīgs, reģistrē atbalsta biļeti, lai mūsu komanda varētu palīdzēt atrisināt šo problēmu.
+3. Ja problēma joprojām pastāv, pārbaudiet biznesa notikumu **sistēmas pakešuzdevuma** statusu kā sistēmas administrators. Ja tas ir posmā Gaida **vai** Notiek **izpilde**, pārbaudiet vēlreiz pēc dažām minūtēm. Ja statuss paliek nemainīgs, reģistrē atbalsta biļeti, lai mūsu komanda varētu palīdzēt atrisināt šo problēmu.
 
 ## <a name="known-accessibility-issues"></a>Zināmās pieejamības problēmas
 
@@ -217,7 +220,7 @@ Personāla vadības programmā risinājumā Teams ir šādas pieejamības probl�
 
 ### <a name="microsoft-language-understanding-intelligent-service-luis"></a>Microsoft valodu izpratnes intelektiskais pakalpojums (Microsoft Language Understanding Intelligent Service - LUIS)
 
-Ar Dynamics 365 Human Resources Microsoft Teams botu, lietotāja teksta ievades tiek analizētas, lai saprastu pamatā esošo vaicājumu/līdz ar to. Lietotāja ievade, piemēram, "Meklēšanas konta Contoso", tiek maršrutēta uz vienu no Microsoft ko pie ko pie kotācijas pakalpojumiem, ko sauc par valodas zināšanas intelligent service (GUID). Lasīt vairāk par LUIS [šeit](https://www.luis.ai/). LUIS pakalpojums izprot lietotāja ievades nolūku (šajā gadījumā nolūks ir meklēt informāciju) un mērķa elementu (šajā gadījumā paredzētā vienība ir konts ar nosaukumu Contoso). Pēc tam šī informācija tiek nodota [Microsoft Azure bota struktūrā, kura mijiedarbojas ar datiem un izgūst lietotāja](https://azure.microsoft.com/services/bot-service/)Dynamics 365 Human Resources vaicājumam vēlamo informāciju. 
+Ar Dynamics 365 Human Resources Microsoft Teams botu, lietotāja teksta ievades tiek analizētas, lai saprastu pamatā esošo vaicājumu/līdz ar to. Lietotāja ievade, piemēram, "Meklēšanas konta Contoso", tiek maršrutēta uz vienu no Microsoft ko pie ko pie kotācijas pakalpojumiem, ko sauc par valodas zināšanas intelligent service (GUID). Lasīt vairāk par LUIS [šeit](https://www.luis.ai/). LUIS pakalpojums izprot lietotāja ievades nolūku (šajā gadījumā nolūks ir meklēt informāciju) un mērķa elementu (šajā gadījumā paredzētā vienība ir konts ar nosaukumu Contoso). Pēc tam šī informācija tiek nodota Microsoft  [Azure bota struktūrā](https://azure.microsoft.com/services/bot-service/), kura mijiedarbojas ar Dynamics 365 Human Resources datiem un izgūst lietotāja vaicājumam vēlamo informāciju. 
 
 Instalējot un ļaujot izmantot botu, jūs piekrītat, ka ļautat LUIS pakalpojumam un Azure bota struktūrai apstrādāt ievades nodomu, kas rada lielāku sarunvalodas lietotāja pieredzi. LUIS pakalpojums un Azure bota struktūrai var būt dažādi atbilstības līmeņi, salīdzinot ar Dynamics 365 Human Resources. Lai gan JUMS ir piekļuve tikai lietotāja vaicājumiem un nav izveidota, lai tas būtu paredzēts savienojumam ar lietotāja datiem vai kontu, bota lietotājs var ievadīt vaicājumu, kurā ir Klienta dati, Personas dati vai citi dati, kā arī šāda vaicājuma saturs var tikt nosūtīts uz BOT pakalpojumu un Dynamics 365 Human Resources Dynamics 365 Human Resources Azure bot struktūru. 
 

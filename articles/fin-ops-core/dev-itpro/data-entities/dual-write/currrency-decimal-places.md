@@ -2,19 +2,19 @@
 title: Valūtas datu tipa migrācija duālajai rakstīšanai
 description: Šajā tēmā aprakstīts, kā mainīt decimāldaļu skaitu, ko duālā rakstīšana atbalsta valūtai.
 author: RamaKrishnamoorthy
-ms.date: 04/06/2020
+ms.date: 12/08/2021
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: eaf0cd931e763f31faa334d5353ae6950ed7ee4f
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: bce58631ecd54bb90993bd552d529d3b379de1b1
+ms.sourcegitcommit: 6762a674a552353d9f53587923c9acba9b43cb56
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782811"
+ms.lasthandoff: 12/13/2021
+ms.locfileid: "7917734"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Valūtas datu tipa migrācija duālajai rakstīšanai
 
@@ -83,9 +83,20 @@ Ja vēlaties, lai konkrētas valūtas precizitātes atšķirtos no valūtas prec
 
 ![Noteiktas lokalizācijas valūtu iestatījumi.](media/specific-currency.png)
 
-### <a name="tables-currency-column"></a>tabulas: valūtas lauks
+### <a name="tables-currency-column"></a>Tabulas: kolonna Valūta
 
 Decimāldaļu skaits, ko var konfigurēt noteiktiem valūtas laukiem, ir ierobežots līdz četriem.
 
+### <a name="default-currency-decimal-precision"></a>Noklusējuma valūtas decimāldaļas precizitāte
+Lai nodrošinātu noklusējuma valūtas decimālās precizitātes uzvedību migrācijas un nemigrēšanas scenārijos, skatiet šo tabulu. 
+
+| Izveides datums  | Valūtas decimāldaļskaitļu lauks    | Esošā org (valūtas lauks nav migrēts) | Esošā vienība (migrēts valūtas lauks) | Jauna org izveidoja grāmatošanas būvējuma 9.2.21062.00134 |
+|---------------------------------------------------------|-------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|------------------------------------------------|
+| Valūtas lauks, kas izveidots pirms būvējuma 9.2.21111.00146  |     |  |       |
+|    | Maksimālā precizitāte, kas redzama LIETOTĀJA interfeisā   | 4 cipari    | 10 cipari    | Nav piemērojams    |
+| | Maksimālā precizitāte, kas redzama datu bāzes un DB vaicājuma rezultātos UI         | 4 cipari   | 10 cipari   | Nav piemērojams    |
+| Valūtas lauks izveidots pēc būvējuma 9.2.21111.00146 |    |  |     |   |
+|   | Interfeisā redzama maksimālā decimāldaļas precizitāte     | 4 cipari   | 10 cipari   | 10 cipari     |
+|          | Maksimālā decimālā precizitāte, kas redzama datu bāzē un DB vaicājuma rezultātos UI | 10 cipari. Tomēr tikai 4 ir svarīgas ar visām nullēm virs 4 decimālzīmēm. Tas iespējo vienkāršāku un ātrāku organizācijas migrāciju, ja nepieciešams. | 10 cipari      | 10 cipari     |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

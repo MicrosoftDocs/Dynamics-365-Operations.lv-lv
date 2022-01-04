@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ee4803c4653b8c2df2cb731652456b1ce2796cd0
-ms.sourcegitcommit: e77d72fde17a43bd1780c265702254011af7407c
-ms.translationtype: HT
+ms.openlocfilehash: e6f47e7bccdfa5205209a290b2ce0d37f2e5a534
+ms.sourcegitcommit: c42d047cb866f7988f1879ac84cd45284a03abf8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "7893649"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7931985"
 ---
 # <a name="add-or-copy-leases-preview"></a>Nomas pievienošana vai kopēšana (priekšskatījums)
 
@@ -35,7 +35,7 @@ Veiciet tālāk norādītās darbības, lai izveidotu nomu Līdzekļu nomā.
 1. Lapā **Nomas kopsavilkums** darbību rūtī atlasiet **Jauns**.
 2. Ievadiet informāciju par nomu. Obligāti aizpildāmajiem laukiem ir sarkana apmale.
 
-> Līzinga maksājuma sākuma datums nevar būt agrāks par līzinga sākuma datumu. Ja ievadīsiet sākuma datumu nomas maksai, kas ir agrāka par nomas sākuma datumu, tiks parādīts kļūdas ziņojums.
+> Nomas maksājuma sākuma datums nevar būt agrāks par nomas sākuma datumu. Ja ievadāt nomas maksājuma sākuma datumu, kas ir pirms nomas sākuma datuma, tiks parādīts kļūdas ziņojums.
   
 ## <a name="create-a-lease-schedule"></a>Nomas grafika izveide
 
@@ -50,6 +50,9 @@ Pēc tam, kad esat pabeidzis ievadīt informāciju par nomu, veiciet tālāk nor
     Lapā **Grāmatas detalizēta informācija** ir parādīts, kā noma tiek uzskaitīta tai piešķirtajās grāmatās. No šejienes varat skatīt nomas grafikus.
 
     Maksājumu grafiks satur ievades no cilnes **Maksājumu grafika rindas**, kas atrodas lapā **Pievienot nomu**. Joprojām varat mainīt katra maksājuma summu un mainīgās izmaksas. Nomas saistības tiek aprēķinātas, pamatojoties uz modificēto maksājumu grafiku.
+    
+> [!NOTE]
+> Nomas maksājuma sākuma datumam ir jābūt vienādam vai vēlākam par nomas sākuma datumu. Ja maksājuma sākuma datums ir agrāks par nomas sākuma datumu, tiks parādīts kļūdas ziņojums. 
 
 4. Kad esat beidzis maksājumu grafika pārskatīšanu, atlasiet **Apstiprināt grafiku**. Pēc grafika apstiprināšanas noma vairs nav pieejama labošanai.
 

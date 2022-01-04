@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 187363db3030ee0741f0c7e7746295b88320162c156120112332bb78593bb673
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: d767fdce861ccb481a3fe289480a51a7534dc207
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744658"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920228"
 ---
 # <a name="physical-remaining-quantity-in-the-unit-must-not-be-zero"></a>Vienības fiziskais atlikušais daudzums nedrīkst būt nulle
 
@@ -63,10 +63,10 @@ Izmantojiet šo procedūru, lai pārskatītu kravas rindas un veiciet pielāgoju
 
 1. Dodieties uz **Noliktavas pārvaldība \> Noslodzes \> Visas noslodzes**.
 1. Atlasiet kravu, kurai nevar ģenerēt pavadzīmi.
-1. Darbību rūts cilnē **Nosūtīt un saņemt** grupā **Atsaukt** atlasiet **Atsaukt kravas apstiprinājumu**.
-1. Cilnē **Kravas rindas** atlasiet kravas rindu krājumam, kas pārsniedz pasūtījuma pārsniegumu.
+1. Darbību rūts cilnē Nosūtīt **un saņemt** apgrieztajā grupā atlasiet Atsaukt **kravas** **apstiprinājumu**.
+1. Cilnē **Kravas rindas** atlasiet kravas rindu krājumam, kas pārsniedz papildu piegādi.
 1. Atlasiet **Samazināt izdoto daudzumu**, lai koriģētu izdoto daudzumu.
-1. Cilnē  **Rindu detāļas** atlasiet **Pasūtījums**, lai pievienotu rindu.
+1. Cilnē **Detalizēta informācija par** rindu atlasiet **Pasūtījums**.
 1. Iestatiet lauku **Daudzums** uz izdoto daudzumu (t.i., uz lauka **Darba izveidotā daudzuma** vērtību), lai varētu turpināt pavadzīmes ģenerēšanu.
 
 ### <a name="review-your-load-lines-and-make-adjustments-to-ensure-that-the-unit-and-quantity-are-aligned-with-the-decimal-precision-of-the-unit"></a>Pārskatiet kravas rindas un veiciet pielāgojumus, lai nodrošinātu, ka vienība un daudzums ir saskaņoti ar vienības decimālo precizitāti

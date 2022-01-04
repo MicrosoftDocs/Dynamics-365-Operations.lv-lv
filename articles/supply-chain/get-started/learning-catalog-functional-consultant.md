@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7271436bd155918dfdac792486c89966e7adb18c
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
-ms.translationtype: HT
+ms.openlocfilehash: a028de4bd37b965d55783dad4b39378d6400bf4b
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402646"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920752"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-functional-consultants"></a>Dynamics 365 Supply Chain Management funkcionālo konsultantu apmācības katalogs
 
@@ -113,7 +113,7 @@ Funkcionāliem konsultantiem mūsu darba uzdevuma analīzes pētījumi parādīj
 | [Konfigurēt līdzekļu pārvaldību Dynamics 365 Supply Chain Management](/learn/paths/configure-asset-management-dyn365-supply-chain-mgmt/) | Līdzekļu pārvaldība ir pievienojumprogramma Dynamics 365 Supply Chain Management, kas tiek izmantota, lai pārvaldītu līdzekļus, kas tiek izmantoti uzņēmuma ikdienas darbībā. Daži šāda veida līdzekļu piemēri ir mašīnas, ražošanas iekārtas un pacēlāji. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 7 stundas |
 | [Darbs ar Līdzekļu pārvaldību Dynamics 365 Supply Chain Management](/learn/paths/work-asset-management-dyn365-supply-chain-mgmt/) | Līdzekļu pārvaldība ir pievienojumprogramma Dynamics 365 Supply Chain Management, kas tiek izmantota, lai pārvaldītu līdzekļus, kas tiek izmantoti uzņēmuma ikdienas darbībā. Daži šāda veida līdzekļu piemēri ir mašīnas, ražošanas iekārtas un pacēlāji. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 12.5 stundas |
 | [Pārvaldīt produkta versijas informāciju programmā Dynamics 365 Supply Chain Management](/learn/paths/manage-product-version-engineering-change-management/) | Tehnisko izmaiņu pārvaldības pievienojumprogramma Dynamics 365 Supply Chain Management nodrošina strukturētu procesu produktu versijas informācijas pārvaldībai inženierzinātnes produkta dzīves ciklā. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 4 stundas |
-| [Tehnisko izmaiņu pārvaldība: bieži uzdotie jautājumi Dynamics 365 Supply Chain Management](/learn/paths/set-up-engineering-change-management/) | Šodienas ražotājiem ir nepieciešama spēcīga preču datu pārvaldība, versiju kontrole un tehnikas izmaiņu pārvaldība, lai izdotos pasaulē nemitīgi samazināt preču dzīves ciklus, paaugstinātu kvalitātes un uzticamības prasības un paaugstinātu koncentrēšanos uz preču drošību. Uzziniet, kā iestatīt inženierzinātnes izmaiņu pārvaldību šajā mācību ceļā. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 4 stundas |
+| [Tehnisko izmaiņu pārvaldība: bieži uzdotie jautājumi Dynamics 365 Supply Chain Management](/learn/paths/set-up-engineering-change-management/) | Šodienas ražotājiem nepieciešama stingrā preču datu pārvaldība, versiju kontrole un inženiertehnisko izmaiņu pārvaldība, lai veiksmīgi izdotos preču dzīves ciklu pasaulē, palielinātu kvalitātes un uzticamības prasību līmeni, kā arī palielinātu produkta drošības fokusu. Uzziniet, kā iestatīt inženierzinātnes izmaiņu pārvaldību šajā mācību ceļā. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 4 stundas |
 | [Microsoft apstiprināts: Dynamics 365 for Finance and Operations, Supply Chain Management funkcionālā konsultanta partneris](https://www.microsoft.com/learning/d365-functional-consultant-supply-chain-management.aspx) | Microsoft Apsiprināts: Dynamics 365 for Finance and Operations, Supply Chain Management funkcionālie konsultanti racionalizē izmaksu uzskaiti, krājumu pārvaldību, vispārējo plānošanu un noliktavas vadību saviem klientiem. | Sertificēšana, izmaksas var mainīties atkarībā no reģiona | |
 
 ## <a name="exams"></a>Eksāmeni<a name="exams"></a>

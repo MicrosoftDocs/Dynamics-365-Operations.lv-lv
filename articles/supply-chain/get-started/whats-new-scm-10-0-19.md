@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 2c14101099473025f88632245553da0bf50d4622
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 03ed2d52f44bd38910b01ffbd3767f750da2cbf8
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647219"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920577"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Jaunumi un izmaiņas programmas Dynamics 365 Supply Chain Management versijā 10.0.19 (2021. gada jūnijs)
 
@@ -50,7 +50,7 @@ Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvald
 
 | Modulis | Līdzekļa&nbsp;nosaukums&nbsp;līdzekļu&nbsp;pārvaldībā | Papildinformācija |
 |---|---|---|
-| Pārdošana un mārketings | Pārdošanas vēstures tīrīšanas veiktspējas uzlabojumi | Pārdošanas vēstures tīrīšana var aizņemt ilgu laiku, ja retos gadījumos tiek palaista vidēs ar augstu pārdošanas atjauninājumu daudzumu. Lai samazinātu ilgumu un uzlabotu uzticamību, šis līdzeklis sadala tīrīšanu partijās, kas tiek palaistas uz ierobežotu laiku. Ja iespējams, datu bāzes iespējas tiks līdzsvarotas, lai samazinātu bloķēšanu un izvairītos no darbību tabulu pievienošanas tīrīšanas laikā. Papildinformāciju skatiet sadaļā [Pārdošanas vēstures tīrīšanas veiktspējas uzlabojumi](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
+| Pārdošana un mārketings | Pārdošanas vēstures tīrīšanas veiktspējas uzlabojumi | Pārdošanas vēstures tīrīšana var aizņemt ilgu laiku, ja retos gadījumos tiek palaista vidēs ar augstu pārdošanas atjauninājumu daudzumu. Lai samazinātu ilgumu un uzlabotu uzticamību, šis līdzeklis sadala tīrīšanu partijās, kas tiek palaistas uz ierobežotu laiku. Ja iespējams, datu bāzes iespējas tiks līdzsvarotas, lai samazinātu bloķēšanu un izvairītos no darbību tabulu pievienošanas tīrīšanas laikā. Papildinformāciju skatiet pārdošanas [vēstures tīrīšanas veiktspējas uzlabojumi](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
 | Pārdošana un mārketings | Atjaunināt pieprasīto saņemšanas datumu ar starpuzņēmumu pasūtījumu apstiprināto datumu | Šī funkcija ļauj kontrolēt, kas notiks ar pārdošanas un pirkšanas datuma lauka vērtībām, izmantojot starpuzņēmumu tiešo piegādi. Varat izvēlēties, vai sistēma atjauninās pieprasītos datumus vai izlaidīs to atjaunināšanu. Ja izlaižat atjaunināšanu, pieprasītie datumi atainos debitora pieprasīto informāciju. Ja iespējojat atjaunināšanu, pieprasītie datumi (izmantojot piegādes datuma kontroli) sākotnēji parāda, ko debitors pieprasa. Piegādes datuma kontrole, ja tā atšķiras no *Neviena*, ignorēs sākotnējo pieprasīto informāciju. Šo opciju var iestatīt, izmantojot jauno iestatījumu **Atjaunināt pieprasīto rēķina datumu ar apstiprinātu datumu** starpuzņēmumu kreditora vai debitora iestatījumos.<br><br>Ja līdzeklis ir deaktivizēts, sistēma pārrakstīs pieprasīto rēķina datumu sākotnējos pārdošanas pasūtījumos, pamatojoties uz piegādes datuma kontroles nosacījumiem, bet pieprasītais nosūtīšanas datums paliks tāds pats. |
 | Noliktavas pārvaldība | Pēc izlaišanas uz noliktavu daudzumus noapaļot līdz tuvākajai pārdošanas vienībai | Šī funkcija pievieno opciju, kas var ierobežot pasūtījuma daudzumu, kad tiek izlaista nosūtīšana uz noliktavu. Ja aktivizēta, pasūtījuma daudzumi tiek noapaļoti uz leju līdz tuvākajai veselai pārdošanas vienībai, un pasūtījumi, kuros iekļauti daudzumi mazāk nekā vienai pārdošanas vienībai, tiks noraidīti izlaišanai. |
 | Noliktavas pārvaldība | Organizācijas mēroga kopuma metode “Ieplānot darba izveidi” | *Plānošanas darba izveides* kopuma metode tiks konfigurēta tā, lai tā darbotos paralēli visām juridiskajām personām. Tiks ietekmēti arī vairāki papildu iestatījumi. Lai iegūtu pilnu informāciju, skatiet [Darba izveides plānošana kopuma laikā](../warehousing/configure-wave-schedule-work-creation.md). |

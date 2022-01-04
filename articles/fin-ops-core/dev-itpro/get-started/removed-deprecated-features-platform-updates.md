@@ -2,7 +2,7 @@
 title: Noņemtie vai novecojušie platformas līdzekļi
 description: Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt no Finance and Operations programmu platformu atjauninājumiem.
 author: sericks007
-ms.date: 10/28/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0065f5c101237de49ae362ecd3378ec5046dbf4b
-ms.sourcegitcommit: c4500b626667185643b3a2e7fc3a004d42198d07
+ms.openlocfilehash: 4ac68cfdd8f8b2c65993fbd91587e52cce56a437
+ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7725053"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7927483"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Noņemtie vai novecojušie platformas līdzekļi
 
@@ -74,7 +74,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Nav vadīklas, ko izmantot šī notikuma izpildei. |
-| **Vai ir aizstāts ar citu līdzekli?**   | Jā, pārvietojiet esošās metodes, abonēta **OnDBSynchronzie** notikums uz SysSetup paplašināto klasi. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Jā, pārvietojiet esošās metodes, **abonētais OnDBSynchronize** notikums uz SysSetup paplašināto klasi. |
 | **Ietekmētie produkta apgabali**         | Datu bāzes sinhronizēšana |
 | **Izvietošanas iespēja**              | Visi |
 | **Statuss**                         | Novecojis. Plānotais noņemšanas datums ir 2022. gada oktobris. |
