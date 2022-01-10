@@ -1,8 +1,8 @@
 ---
-title: Pakāpeniskas plūsmas pasūtījumu izveide mazumtirdzniecības veikala darījumiem
+title: Pakāpeniskas plūsmas pasūtījumu izveide mazumtirdzniecības veikala transakcijām
 description: Šajā tēmā ir aprakstīta pakāpeniskas plūsmas pasūtījumu izveide veikala transakcijām risinājumā Microsoft Dynamics 365 Commerce.
-author: josaw1
-ms.date: 09/04/2020
+author: analpert
+ms.date: 12/14/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,43 +15,49 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 900480c926df58cc1eaca052903384ceeadcccbdc3a0ede8a35f4b2a8ff87556
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3a7fd8698d7123403cf9092a4a4bf810595d795b
+ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719445"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921249"
 ---
-# <a name="trickle-feed-based-order-creation-for-retail-store-transactions"></a>Pakāpeniskas plūsmas pasūtījumu izveide mazumtirdzniecības veikala darījumiem
+# <a name="trickle-feed-based-order-creation-for-retail-store-transactions"></a>Pakāpeniskas plūsmas pasūtījumu izveide mazumtirdzniecības veikala transakcijām
 
 [!include [banner](includes/banner.md)]
 
-Dynamics 365 Retail versijā 10.0.4 un vecākās versijās pārskatu grāmatošana ir dienas beigās veicama operācija. Dienas beigās visas transakcijas tiek grāmatotas grāmatās. Apjomīgas transakcijas ir jāapstrādā ierobežotā laika posmā, kas dažkārt rada ievērojamu noslodzi un pārskatu grāmatošanas kļūmes. Mazumtirgotāji nevar arī atpazīt dienas ieņēmumus un maksājumus savās grāmatās.
+Produkta Microsoft Dynamics 365 Commerce versijā 10.0.5 un jaunākās versijās iesakām visus izrakstu grāmatošanas procesus pārvērst par pakāpeniskas plūsmas grāmatošanas procesiem. Nozīmīgas veiktspējas un biznesa priekšrocības ir saistītas ar pakāpeniskas plūsmas funkcionalitāti. Pārdošanas transakcijas tiek apstrādātas dienas laikā. Norēķinu un skaidras naudas pārvaldības transakcijas tiek apstrādātas finanšu pārskatā dienas beigās. Pakāpeniskas plūsmas funkcionalitāte nodrošina nepārtrauktu pārdošanas pasūtījumu, rēķinu un maksājumu apstrādi. Tāpēc krājumus, ieņēmumus un maksājumus var atjaunināt un atpazīt gandrīz reāllaikā.
 
-Izmantojot pakāpeniskas plūsmas pasūtījumu izveidi, kas ieviesta Retail versijā 10.0.5, transakcijas tiek apstrādātas visas dienas garumā, un dienas beigās tiek veikta tikai norēķinu un citu skaidras naudas pārvaldības transakciju finanšu saskaņošana. Šī funkcionalitāte sadala pārdošanas pasūtījumu, rēķinu un maksājumu izveides noslodzi visas dienas garumā, nodrošinot labāku veiktspēju un spēju atpazīt ieņēmumus un maksājumus grāmatās gandrīz reālajā laikā. 
+## <a name="use-trickle-feed-based-posting"></a>Pakāpeniskas plūsmas grāmatošanas izmantošana
 
+> [!IMPORTANT]
+> Pirms iespējot pakāpeniskas plūsmas grāmatošanu, nodrošiniet, lai nebūtu aprēķinātu un neiegrāmatotu pārskatu. Pirms iespējot šo funkciju, iegrāmatojiet visus pārskatus. Varat pārbaudīt, vai nav atvērtu pārskatu darbvietā **Veikala finanses**.
 
-## <a name="how-to-use-trickle-feed-based-posting"></a>Pakāpeniskas plūsmas grāmatošanas izmantošana
-  
-1. Lai iespējotu mazumtirdzniecības transakciju pakāpeniskas plūsmas grāmatošanu, iespējojiet līdzekli **Mazumtirdzniecības pārskati - pakāpeniska plūsma**, izmantojot līdzekļu pārvaldību.
+Lai iespējotu mazumtirdzniecības transakciju pakāpeniskas plūsmas grāmatošanu, iespējojiet līdzekli **Mazumtirdzniecības pārskati - Pakāpeniska plūsma** darbvietā **Līdzekļu pārvaldība**. Pārskati tiks sadalīti divos veidos: transakciju pārskati un finanšu pārskati.
 
-    > [!IMPORTANT]
-    > Pirms iespējojat šo līdzekli, pārliecinieties, vai nav pārskatu, kuri gaida grāmatošanu.
+### <a name="transactional-statements"></a>Transakciju pārskati
 
-2. Pašreizējais pārskata dokuments tiks sadalīts divos veidos: transakciju pārskats un finanšu pārskats.
+Transakciju pārskatu apstrāde tiks izpildīta bieži dienas liekā, lai tiktu izveidoti dokumenti, kad transakcijas tiek augšupielādētas komponentā Commerce Headquarters. Transakcijas no veikaliem tiek ielādētas komponentā Commerce Headquarters, izpildot **P darbu**. Izpildiet darbu **Veikala transakciju apstiprināšana**, lai apstiprinātu transakcijas un tās tiktu iekļautas transakciju pārskatā.
 
-      - Transakciju pārskatā tiks iekļautas visas negrāmatotās un apstiprinātās transakcijas, kā arī tiks izveidoti pārdošanas pasūtījumi, pārdošanas rēķini, maksājumu un atlaižu žurnāli un ieņēmumu un izdevumu transakcijas atbilstoši jūsu konfigurētam ritmam. Šim procesam jākonfigurē bieža izpilde, lai dokumenti tiktu izveidoti, kad transakcijas tiek augšupielādētas komponentā Headquarters, izmantojot P-darbu. Ar transakciju pārskatu, kurā jau ir izveidoti pārdošanas pasūtījumi un pārdošanas rēķini, nav nepieciešamības konfigurēt pakešuzdevumu **Grāmatot krājumus**. Tomēr to joprojām var izmantot specifiskām uzņēmējdarbības prasībām.  
-      
-     - Finanšu pārskats ir izstrādāts izveidei dienas beigās, un tas atbalsta tikai slēgšanas metodi **Maiņa**. Šis pārskats būs ierobežots līdz finanšu saskaņošanai, un tiks izveidoti tikai žurnāli attiecībā uz starpību starp dažādu norēķinu aprēķināto summu un transakcijas summu kopā ar žurnāliem attiecībā uz citām naudas pārvaldības transakcijām.   
+Ieplānojiet tālāk minēto darbu izpildi ar lielu biežumu:
 
-3. Lai aprēķinātu transakciju pārskatu, dodieties uz **Retail un Commerce > Retail un Commerce IT > POS grāmatošana > Aprēķināt transakciju pārskatus partijā**. Lai grāmatotu transakciju pārskatus partijā, dodieties uz **Retail un Commerce > Retail un Commerce IT > POS grāmatošana > Grāmatot transakciju pārskatus partijā**.
+- Lai aprēķinātu transakciju pārskatu, izpildiet darbu **Aprēķināt transakciju pārskatus partijā** (**Retail un Commerce \> Retail un Commerce IT \> POS grāmatošana \> Aprēķināt transakciju pārskatus partijā**). Šī darba izpildes laikā visas neiegrāmatotās un apstiprinātās transakcijas tiks pievienotas jaunajam transakciju pārskatam.
+- Lai iegrāmatotu transakciju pārskatus partijā, izpildiet darbu **Grāmatot transakciju pārskatus partijā** (**Retail un Commerce \> Retail un Commerce IT \> POS grāmatošana \> Grāmatot transakciju pārskatus partijā**). Šis darbs izpildīs grāmatošanas procesu un izveidos pārdošanas pasūtījumus, pārdošanas rēķinus, maksājumu žurnālus, atlaižu žurnālus un ienākumu-izdevumu transakcijas negrāmatotiem pārskatiem, kuros nav kļūdu. 
 
-4. Lai aprēķinātu finanšu pārskatu, dodieties uz **Retail un Commerce > Retail un Commerce IT > POS grāmatošana > Aprēķināt finanšu pārskatus partijā**. Lai grāmatotu finanšu pārskatus partijā, dodieties uz **Retail un Commerce > Retail un Commerce IT > POS grāmatošana > Grāmatot finanšu pārskatus partijā**.
+### <a name="financial-statements"></a>Finanšu pārskati
 
-> [!NOTE]
-> Izvēlnes elementi **Retail un Commerce > Retail un Commerce IT > POS grāmatošana > Aprēķināt pārskatus partijā** un **Retail un Commerce > Retail un Commerce IT > POS grāmatošana > Grāmatot pārskatus partijā** ir noņemti ar šo jauno līdzekli.
+Finanšu pārskata apstrāde ir paredzēta kā darba dienas beigu process. Šī tipa pārskatu apstrāde atbalsta tikai **maiņas** slēgšanas metodi un iegrāmatos tikai slēgtās maiņas. Pārskati ir ierobežoti ar finanšu saskaņošanu. Tiks izveidoti tikai žurnāli attiecībā uz starpību starp dažādu norēķinu aprēķināto summu un transakcijas summu, kā arī žurnāli attiecībā uz citām naudas pārvaldības transakcijām.
 
-Transakciju un finanšu pārskatu veidus var izveidot arī manuāli. Dodieties uz **Retail un Commerce > Kanāli > Veikali** un noklikšķiniet uz **Pārskati**. Noklikšķiniet uz **Jauns** un pēc tam izvēlieties pārskata veidu, ko vēlaties izveidot. Laukos lapā **Pārskati** un darbībās zem lapas **Pārskatu grupa** tiks rādīti atbilstošie dati un darbības, pamatojoties uz atlasīto pārskata veidu.
+Plānojiet norādīto finanšu pārskata darbu sākuma un beigu laikus, pamatojoties uz paredzētajām dienas beigām:
 
+- Lai aprēķinātu finanšu pārskatu, izpildiet darbu **Aprēķināt finanšu pārskatus partijā** (**Retail un Commerce \> Retail un Commerce IT \> POS grāmatošana \> Aprēķināt finanšu pārskatus partijā**). Šis darbs apkopos visas neiegrāmatotās finanšu transakcijas un pievienos tās jaunajam finanšu pārskatam.
+- Lai iegrāmatotu finanšu pārskatus partijā, izpildiet darbu **Grāmatot finanšu pārskatus partijā** (**Retail un Commerce \> Retail un Commerce IT \> POS grāmatošana \> Grāmatot finanšu pārskatus partijā**).
+
+### <a name="manually-create-statements"></a>Manuāla pārskatu izveide
+
+Transakciju un finanšu pārskatu veidus var izveidot arī manuāli. 
+
+1. Dodieties uz **Retail un Commerce \> Kanāli \> Veikali** un atlasiet **Pārskati**. 
+2. Atlasiet **Jauns** un pēc tam atlasiet izveidojamā pārskata veidu. Laukos lapā **Pārskati** un tiks rādīti atbilstošie dati, kas attiecas uz atlasīto pārskata veidu, un darbībās sadaļā **Pārskatu grupa** būs redzamas attiecīgās darbības.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
