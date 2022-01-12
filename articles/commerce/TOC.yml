@@ -98,8 +98,6 @@
                       href: get-started/whats-new-commerce-10-0-23.md
                     - name: "Commerce\_10.0.22 (2021.\_gada novembris)"
                       href: get-started/whats-new-commerce-10-0-22.md
-                    - name: "Commerce\_10.0.21 (2021.\_gada oktobris)"
-                      href: get-started/whats-new-commerce-10-0-21.md
                 - name: Noņemtie vai novecojušie līdzekļi
                   items:
                     - name: Noņemtie vai novecojušie līdzekļi sākumlapā
@@ -840,9 +838,9 @@
                   href: tasks/process-loyalty-reward-point-adjustments.md
         - name: Finanšu pārvaldība
           items:
-            - name: Pārskatu apskats
+            - name: Deklarāciju pārskats
               href: retail-statements.md
-            - name: Transakciju konsekvences pārbaudītājs
+            - name: Veikala transakciju apstiprināšana pārskata aprēķinam
               href: valid-checker.md
             - name: Kārtulu atspējošana mazumtirdzniecības darījumu konsekvences pārbaudītājā
               href: disable-consistency-check-rule.md
@@ -858,7 +856,7 @@
                   href: create-excel-edit.md
                 - name: 'Lauku pievienošana Excel darbgrāmatai, lai rediģētu mazumtirdzniecības darījumus'
                   href: add-fields-excel.md
-            - name: Pakāpeniskas plūsmas pasūtījumu izveide mazumtirdzniecības veikala darījumiem
+            - name: Pakāpeniskas plūsmas pasūtījumu izveide mazumtirdzniecības veikala transakcijām
               href: trickle-feed.md
             - name: 'Mazumtirdzniecības veikala pārskatu izveidošana, aprēķināšana un grāmatošana'
               href: tasks/create-calculate-post-statement-retail-store.md
@@ -1286,9 +1284,11 @@
               href: localizations/fiscal-integration-for-retail-channel.md
             - name: Commerce kanāla fiskālās integrācijas iestatīšana
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
+            - name: Fiskālās integrācijas parauga būvējuma konveijera iestatīšana
+              href: localizations/fiscal-integration-sample-build-pipeline.md
             - name: Lietotāja definēti sertifikātu profili mazumtirdzniecības veikaliem
               href: localizations/certificate-profiles-for-retail-stores.md
-            - name: Regulatory configuration service (RCS)
+            - name: Regulatory Configuration Service (RCS)
               items:
                 - name: Regulatory configuration service (RCS) pārskats
                   href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/commerce/toc.json
@@ -1322,6 +1322,8 @@
               items:
                 - name: Fiskālās reģistrācijas pakalpojuma integrācijas paraugs Austrijai
                   href: localizations/emea-aut-fi-sample.md
+                - name: Fiskālās integrācijas parauga izvietošanas vadlīnijas Austrijai (mantojums)
+                  href: localizations/emea-aut-fi-sample-sdk.md
             - name: Brazīlija
               items:
                 - name: Commerce lokalizācija Brazīlijai
@@ -1358,12 +1360,16 @@
                   items:
                     - name: Fiskālās reģistrācijas pakalpojuma integrācijas paraugs Čehijas Republikai
                       href: localizations/emea-cze-fi-sample.md
+                    - name: Fiskālās integrācijas parauga izvietošanas vadlīnijas Čehijas Republikai (mantojums)
+                      href: localizations/emea-cze-fi-sample-sdk.md
                 - name: Polija
                   items:
                     - name: Fiskālā printera integrācijas paraugs Polijai
                       href: localizations/emea-pol-fpi-sample.md
                     - name: Klientu informācijas pārvaldība Polijai
                       href: localizations/emea-pol-customer-information.md
+                    - name: Fiskālās integrācijas parauga izvietošanas vadlīnijas Polijai (mantojums)
+                      href: localizations/emea-pol-fpi-sample-sdk.md
             - name: Francija
               items:
                 - name: Kases sistēmas funkcionalitāte
@@ -1380,6 +1386,8 @@
               items:
                 - name: Fiskālās reģistrācijas pakalpojuma integrācijas paraugs Vācijai
                   href: localizations/emea-deu-fi-sample.md
+                - name: Fiskālās integrācijas parauga izvietošanas vadlīnijas Vācijai (mantojums)
+                  href: localizations/emea-deu-fi-sample-sdk.md
             - name: Indija
               items:
                 - name: Preču un pakalpojumu nodokļa (GST) integrācija kases sistēmām
@@ -1398,6 +1406,8 @@
                   href: localizations/emea-ita-fpi-sample.md
                 - name: Klientu informācijas pārvaldība Itālijai
                   href: localizations/emea-ita-customer-information.md
+                - name: Fiskālās integrācijas parauga izvietošanas vadlīnijas Itālijai (mantojums)
+                  href: localizations/emea-ita-fpi-sample-sdk.md
             - name: Meksika
               items:
                 - name: Global CFDI e-rēķini Meksikai
@@ -1407,6 +1417,8 @@
                 - name: Kases sistēmas funkcionalitāte
                   href: localizations/emea-nor-cash-registers.md
                 - name: Izvietošanas vadlīnijas kases sistēmām
+                  href: localizations/emea-nor-fi-deployment.md
+                - name: Izvietošanas vadlīnijas kases sistēmām (mantojums)
                   href: localizations/emea-nor-loc-deployment-guidelines.md
             - name: Krievija
               items:
@@ -1432,7 +1444,9 @@
                   href: localizations/emea-swe-cash-registers.md
                 - name: Vadības ierīces integrācijas paraugs izmantošanai Zviedrijā
                   href: localizations/emea-swe-fi-sample.md
-                - name: Paraugs Retail POS integrācijai ar vadības ierīcēm (mantojuma)
+                - name: Vadības ierīces integrācijas parauga izvietošanas vadlīnijas Zviedrijai (mantojums)
+                  href: localizations/emea-swe-fi-sample-sdk.md
+                - name: Paraugs Retail POS integrācijai ar vadības ierīcēm (mantojums)
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: Pārskatu veidošana un Power BI integrācija
           items:
@@ -2466,6 +2480,8 @@
                       href: e-commerce-extensibility/set-up-key-vault.md
                     - name: Pieprasījuma izveide konveijera spraudņa āķim
                       href: e-commerce-extensibility/request-pipeline-hook.md
+                    - name: Attēla komponenti
+                      href: e-commerce-extensibility/image-component.md
                 - name: Datu darbību izstrāde
                   items:
                     - name: Datu darbību pārskats
@@ -2574,6 +2590,8 @@
                   href: dev-itpro/retail-sdk/SDK-build-pipeline.md
                 - name: Paraugu un pakotņu lejupielāde no GitHub un NuGet
                   href: dev-itpro/retail-sdk/sdk-github.md
+                - name: Visual Studio 2017 būvējuma aģenta iestatīšana Modern POS būvējumam
+                  href: dev-itpro/retail-sdk/mpos-build-agent.md
                 - name: Bieži uzdotie jautājumi par Retail SDK
                   href: dev-itpro/retail-sdk/sdk-faq.md
             - name: Pārdošanas punktu (POS) paplašināmība

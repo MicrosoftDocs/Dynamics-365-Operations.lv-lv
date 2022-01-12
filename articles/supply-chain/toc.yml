@@ -4,6 +4,34 @@
       items:
         - name: Dynamics 365 Supply Chain Management sākumlapa
           href: index.md
+        - name: Jaunumi un izmaiņas
+          items:
+            - name: Jaunumi un izmaiņas Finance and Operations programmās
+              href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Jaunumi un izmaiņas programmā Supply Chain Management
+              items:
+                - name: Jaunumi un izmaiņas programmas Supply Chain Management sākumlapā
+                  href: get-started/whats-new-home-page.md
+                - name: "Supply Chain Management 10.0.24 (2022.\_gada februāris)"
+                  href: get-started/whats-new-scm-10-0-24.md
+                - name: "Supply Chain Management 10.0.23 (2022.\_gada janvāris)"
+                  href: get-started/whats-new-scm-10-0-23.md
+                - name: "Supply Chain Management\_10.0.22 (2021.\_gada novembris)"
+                  href: get-started/whats-new-scm-10-0-22.md
+                - name: "Supply Chain Management\_10.0.21 (2021.\_gada oktobris)"
+                  href: get-started/whats-new-scm-10-0-21.md
+            - name: Noņemtie vai novecojušie līdzekļi
+              items:
+                - name: Noņemtie vai novecojušie līdzekļi sākumlapā
+                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Supply Chain Management
+                  href: get-started/removed-deprecated-features-scm-updates.md
+                - name: Noņemtie vai novecojuši līdzekļi iepriekšējos laidienos
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
+            - name: 'AX 2012 līdzekļi, kas tika atlikti'
+              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Galvenā atbalsta beigas versijai Microsoft Dynamics AX 2009 un 2012
+              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
         - name: Darba sākšana
           items:
             - name: Pakalpojuma apraksts
@@ -62,34 +90,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Noliktavas konfigurēšana lokālajiem izvietojumiem
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Jaunumi un izmaiņas
-              items:
-                - name: Jaunumi un izmaiņas Finance and Operations programmās
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Jaunumi un izmaiņas programmā Supply Chain Management
-                  items:
-                    - name: Jaunumi un izmaiņas programmas Supply Chain Management sākumlapā
-                      href: get-started/whats-new-home-page.md
-                    - name: "Supply Chain Management 10.0.24 (2022.\_gada februāris)"
-                      href: get-started/whats-new-scm-10-0-24.md
-                    - name: "Supply Chain Management 10.0.23 (2022.\_gada janvāris)"
-                      href: get-started/whats-new-scm-10-0-23.md
-                    - name: "Supply Chain Management\_10.0.22 (2021.\_gada novembris)"
-                      href: get-started/whats-new-scm-10-0-22.md
-                    - name: "Supply Chain Management\_10.0.21 (2021.\_gada oktobris)"
-                      href: get-started/whats-new-scm-10-0-21.md
-                - name: Noņemtie vai novecojušie līdzekļi
-                  items:
-                    - name: Noņemtie vai novecojušie līdzekļi sākumlapā
-                      href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Supply Chain Management
-                      href: get-started/removed-deprecated-features-scm-updates.md
-                    - name: Noņemtie vai novecojuši līdzekļi iepriekšējos laidienos
-                      href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 'AX 2012 līdzekļi, kas tika atlikti'
-                  href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Galvenā atbalsta beigas versijai Microsoft Dynamics AX 2009 un 2012
-                  href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
             - name: Dokumentācijas resursi
               items:
                 - name: Palīdzības sistēma
@@ -1617,6 +1617,8 @@
                   href: inventory/inventory-visibility-reservations.md
                 - name: Krājumu redzamības publiskais API
                   href: inventory/inventory-visibility-api.md
+                - name: Krājumu redzamības padomi
+                  href: inventory/inventory-visibility-tips.md
         - name: IoT informācija
           items:
             - name: IoT informācijas sākumlapa
@@ -3573,6 +3575,8 @@
                   href: troubleshooting/inventory/while-splitting-the.md
             - name: Vispārējā plānošana
               items:
+                - name: 'Sistēma nevar atrast plānotu pasūtījumu, strādājot ar vairākiem pasūtījumiem'
+                  href: troubleshooting/planning/planned-order-not-exist.md
                 - name: MK izvēršana rīkojas atšķirīgi apstiprinātiem un novērtētiem ražošanas pasūtījumiem
                   href: troubleshooting/planning/bom-explosion-works-differently.md
                 - name: 'Kavējuma vērtība netiek atjaunināta, pārplānojot plānoto pasūtījumu'

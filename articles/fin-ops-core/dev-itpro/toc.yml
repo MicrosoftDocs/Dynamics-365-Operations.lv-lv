@@ -1012,6 +1012,8 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: Tulkošanas atmiņas faili
                   href: lifecycle-services/use-translation-service-tm.md
+                - name: Azure DevOps paplašinājums (publiskais priekšskatījums)
+                  href: lifecycle-services/dts-devops-extension.md
         - name: Microsoft Power Platform integrācija
           items:
             - name: Pārskats
@@ -1600,8 +1602,10 @@
                   href: sysadmin/tasks/create-batch-job.md
                 - name: Iespējot partiju mēģinājumus
                   href: sysadmin/retryable-batch.md
-                - name: Pakešuzdevuma kopēšana
+                - name: Kopēt pakešuzdevumu
                   href: sysadmin/copy-batch-job.md
+                - name: Uz prioritāti balstīta pakešuzdevumu plānošana
+                  href: sysadmin/priority-based-batch-scheduling.md
                 - name: Aktīvie pakešuzdevumu periodi
                   href: sysadmin/activeperiod.md
                 - name: Vasaras laika atbalsts aktīvajiem pakešuzdevumu periodiem
