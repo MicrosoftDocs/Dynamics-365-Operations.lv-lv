@@ -1,6 +1,6 @@
 ---
 title: Integrācija ar trešās puses ražošanas izpildes sistēmām
-description: Šajā tēmā ir paskaidrots, kā varat integrēt Microsoft Dynamics 365 Supply Chain Management ar trešās puses ražošanas izpildes sistēmu (MES).
+description: Šajā tēmā skaidrots, kā jūs varat Dynamics 365 Supply Chain Management integrēt Microsoft ar trešās puses ražošanas izpildes sistēmu (MES).
 author: t-benebo
 ms.date: 10/01/2021
 ms.topic: article
@@ -11,61 +11,68 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 43814023474d44b8c95bae087c7b6a4d52d21471
-ms.sourcegitcommit: 7cbd53617af179a0de74aae30c149edc95e86684
+ms.openlocfilehash: ea39a1fc9092aaa4622c7193f7538acc85aa0f46
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "7891930"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952681"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Integrācija ar trešās puses ražošanas izpildes sistēmām
 
 [!include [banner](../includes/banner.md)]
 
-Dažas ražošanas organizācijas, kas izmanto Dynamics 365 Supply Chain Management Microsoft, izmanto dynamics 365 vietējo funkcionalitāti, lai kontrolētu iekārtu, iekārtu un personāla ražošanas darbības. Tomēr citas ražošanas organizācijas, jo īpaši tās, kurām ir uzlabotas ražošanas prasības, tā vietā izmanto trešās puses ražošanas izpildes sistēmu (MES). Organizācijas var izvēlēties trešās puses MES risinājumu, jo, piemēram, tas ir īpaši pielāgots to vertikālajai nozarei.
+Dažas ražošanas organizācijas, kas izmanto Microsoft vietējo funkcionalitāti sistēmā Dynamics 365, lai kontrolētu savas ražošanas darbības Dynamics 365 Supply Chain Management mašīnām, aprīkojumam un personālam. Tomēr citas ražošanas organizācijas, it īpaši tās, kurām ir papildu ražošanas vajadzības, tās vietā izmantojiet trešās puses ražošanas izpildes sistēmu (MES). Organizācijas var izvēlēties trešās puses MES risinājumu, jo, piemēram, tas ir īpaši pielāgots vertikālajai nozarei.
 
-Integrētajā risinājumā datu apmaiņa ir pilnībā automatizēta un notiek gandrīz reālā laikā. Tāpēc dati tiek uzturēti aktuāli abās sistēmās, un manuāla datu ievade nav nepieciešama. Piemēram, ja materiālu patēriņš ir reģistrēts TES, integrācija nodrošina, ka tāds pats patēriņš tiek reģistrēts arī Dynamics 365. Tāpēc atjauninātie krājumu ieraksti ir pieejami citiem svarīgiem procesiem, piemēram, plānošanai un pārdošanai.
+Integrētajā risinājumā datu apmaiņa ir pilnībā automatizēta un notiek tuvu reālam laikam. Tāpēc dati tiek saglabāti abās sistēmās un nav nepieciešama manuāla datu ievade. Piemēram, kad materiālu patēriņš ir reģistrēts MES, integrācija nodrošina, ka tāds pats patēriņš tiek reģistrēts arī Dynamics 365. Tāpēc līdz šim krājuma ieraksti ir pieejami citiem svarīgiem procesiem, piemēram, plānošanai un pārdošanai.
 
-Risinājums piegādes ķēdes pārvaldības lietotājiem nodrošina ātrāku, vienkāršāku un lētāku integrāciju ar trešo pušu TES. Tā piedāvā šādas funkcijas:
+Risinājums atvieglo un ātrāku Piegādes ķēžu pārvaldības lietotāju integrāciju ar trešās puses MES. Tā piedāvā šādas funkcijas:
 
-- Biznesa notikumi un saskarnes, kas atbalsta [galvenos ražošanas izpildes procesus](#processes-available-for-mes-integration)
-- Centralizēts informācijas panelis, kurā var izsekot notikumu apstrādes vēsturei un novērst un novērst neizdoties procesus
+- Biznesa notikumi un interfeisi, kas [atbalsta galvenos ražošanas izpildes procesus](#processes-available-for-mes-integration)
+- Centralizēts informācijas panelis, kur var izsekot notikumu apstrādes vēsturi un novērst problēmu un labot procesus, kas neizdodas
 
-Tālāk redzamajā attēlā ir parādīta tipiska biznesa notikumu, procesu un ziņojumu kolekcija, ar kuriem apmainās integrētā risinājumā.
+Šajā ilustrācijā parādīts tipisks biznesa notikumu, procesu un ziņojumu apkopojums, kas tiek apmainīts integrētā risinājumā.
 
 ![Tipisks integrācijas scenārijs.](media/3p-mes-scenario.png "Tipisks integrācijas scenārijs.")
 
-## <a name="turn-on-the-mes-integration-feature"></a>TES integrācijas līdzekļa ieslēgšana
+## <a name="turn-on-the-mes-integration-feature"></a>Ieslēgt MES integrācijas līdzekli
 
-Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
+Pirms šo funkciju iespējams izmantot, administratoram tas jāslēdz jūsu sistēmā kā aprakstīts šajā procedūrā.
 
-- **Modulis:** *Ražošanas kontrole*
-- **Funkcijas nosaukums:** *Ražošanas izpildes sistēmas integrācija*
+1. Dodieties uz **Sistēmas administrēšana \> Iestatījumi \> Licences konfigurācija**.
+1. Pārliecinieties, vai **laika un apmeklētības** licences atslēga ir iespējota (parāda atzīmi). Šī licences atslēga ir nepieciešama, jo tā kontrolē ražošanas izpildes sistēmas funkcionalitāti un datus. Ja tā nav iespējota, veiciet šādas darbības:
+    1. Ielieciet savu sistēmu uzturēšanas režīmā, kā aprakstīts sadaļā [Uzturēšanas režīms](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+    1. Licences **konfigurācijas lapā** atzīmējiet izvēles **rūtiņu Laiks un** apmeklētība.
+    1. Izslēgt uzturēšanas režīmu, kā aprakstīts [uzturēšanas režīmā](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)
+1. Dodieties uz **sistēmas \> administrēšanas darbalauku \> līdzekļu** pārvaldību.
+1. Slēdziet funkciju, kas ir uzskaitīta šādā veidā (skatiet arī Līdzekļu [pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pārskatu):
+    - **Modulis:** *Ražošanas kontrole*
+    - **Funkcionalitātes nosaukums:** *ražošanas izpildes sistēmas integrācija*
 
-## <a name="processes-available-for-mes-integration"></a>TES integrācijai pieejamie procesi
+## <a name="processes-available-for-mes-integration"></a>MES integrācijai pieejamie procesi
 
-Integrācijai var iespējot jebkuru vai visus tālāk norādītos procesus.
+Integrācijai jūs varat iespējot jebkurus vai visus tālāk norādītos procesus.
 
 | Procesa Nosaukums | Apraksts |
 |---|---|
-| Nodot izpildei ražošanas pasūtījumus un ražošanas pasūtījuma statusu mainīt biznesa notikumus | Šis process nodrošina biznesa notikumu, ko TES var klausīties, lai iegūtu informāciju par ražošanas pasūtījumiem, kas būtu jāsagatavo. Atsauces datus, kas saistīti ar ražošanas pasūtījumu, paredzēts kopīgot no piegādes ķēdes pārvaldības uz TES, izmantojot atvērto datu protokolu (OData) vai datu entītijas. |
-| Sākt ražošanas pasūtījumu | Šis process sniedz piegādes ķēdes pārvaldībai informāciju par ražošanas pasūtījumiem, kas tiek uzsākti, izmantojot TES. Tas nodrošina, ka abām sistēmām ir atjaunināts priekšstats par visām ražošanas darbībām. |
-| Saražotais vai norakstītais daudzums | Šis process sniedz piegādes ķēdes vadībai informāciju par labajiem un kļūdu daudzumiem, kas tiek paziņoti ražošanas darbā, izmantojot TES. Tas nodrošina, ka ražotnes uzraugiem ir atjaunināts priekšstats par ražošanas plāna progresu. |
-| Ziņot par materiālu patēriņu | Šis process sniedz piegādes ķēdes vadībai informāciju no TES par patērēto materiālu daudzumu. Tas padara atjauninātus krājumu ierakstus pieejamus citiem svarīgiem procesiem, piemēram, plānošanai un pārdošanai. |
-| Pārskata laiks, kas patērēts operācijai | Šis process sniedz piegādes ķēdes pārvaldībai informāciju par laiku, kas tiek izmantots konkrētai operācijai. |
-| Pārtraukt ražošanas pasūtījumu | Šis process informē piegādes ķēdes vadību, ka TES ir atjauninājusi ražošanas pasūtījumu līdz tā galīgajam statusam *Pabeigts*. Šis statuss norāda, ka ražošanas pasūtījumā vairs netiks saražoti daudzumi. |
+| Nodot izpildei ražošanas pasūtījumus un ražošanas pasūtījuma statusa maiņas biznesa notikumus | Šis process nodrošina biznesa notikumu, ko MES var noklausīties, lai iegūtu informāciju par ražojamajiem ražošanas pasūtījumiem. Atsauces datus, kas ir saistīti ar ražošanas pasūtījumu, paredzēts koplietot no Piegādes ķēžu pārvaldības uz MES, izmantojot Atvērto datu protokolu (OData) vai datu elementus. |
+| Sākt ražošanas pasūtījumu | Šis process nodrošina Piegādes ķēdes pārvaldību ar informāciju par ražošanas pasūtījumiem, kas tiek uzsākti, izmantojot MES. Tas nodrošina, ka abām sistēmām tiek atjauninātas visas ražošanas darbības. |
+| Ziņot par saražoto vai norakstīto daudzumu | Šis process nodrošina Piegādes ķēdes pārvaldību ar informāciju par labiem un kļūdu daudzumiem, par kuriem ziņots par ražošanas darbu, izmantojot MES. Tas nodrošina, ka ražotnes supervizoriem ir ražošanas plāna progresa atjaunināta skatījums. |
+| Ziņot par materiālu patēriņu | Šis process nodrošina Piegādes ķēdes pārvaldību ar informāciju no MES par patērēto materiālu daudzumu. Tas veido līdz šim pieejamos krājumu ierakstus citiem svarīgiem procesiem, piemēram, plānošanai un pārdošanai. |
+| Operācijai patērētais pārskata laiks | Šis process nodrošina Piegādes ķēdes pārvaldību ar informāciju par laiku, kas tiek izmantots noteiktai operācijai. |
+| Pārtraukt ražošanas pasūtījumu | Šis process informē Piegādes ķēdes pārvaldību, ka MES ir atjauninājis ražošanas pasūtījumu uz tā gala *statusu* Pabeigts. Šis statuss norāda, ka ražošanas pasūtījumā vairs netiks ražoti daudzumi. |
 
-## <a name="monitor-incoming-messages"></a>Ienākošo ziņojumu pārraudzība
+## <a name="monitor-incoming-messages"></a>Ienākošo ziņojumu pārraudzīšana
 
-Lai pārraudzītu sistēmā ienākošos ziņojumus, atveriet **ražošanas izpildes sistēmu integrācijas** lapu. Tur varat skatīt, apstrādāt un novērst problēmas.
+Lai uzraudzītu ienākošos ziņojumus sistēmai, atveriet lapu **Ražošanas izpildes sistēmu** integrācija. Tur varat skatīt, apstrādāt un novērst problēmas.
 
-## <a name="call-the-api"></a>Izsauciet API
+## <a name="call-the-api"></a>Izsaukt API
 
 Lai izsauktu MES integrācijas API, nosūtiet `POST` pieprasījumu uz šādu galapunkta URL:
 
 `/api/services/SysMessageServices/SysMessageService/SendMessage`
 
-Jūsu nosūtītā pieprasījuma pamattekstam vajadzētu līdzināties šim piemēram. Nomainiet `_companyId` vērtības `_messageType`, un pēc `_messageContent` vajadzības. Informāciju par dažādiem API atbalstītajiem ziņojumu tipiem un to satura noformēšanu skatiet nākamajā sadaļā.
+Jūsu sūtītā pieprasījuma pamatteksts ir līdzīgs šim piemēram. Nomainiet vērtības `_companyId` uz un pēc `_messageType``_messageContent` vajadzības. Lai iegūtu informāciju par dažādiem ziņojumu tipiem, ko API atbalsta un kā projektēt to saturu, skatiet nākamo sadaļu.
 
 ```json
 {
@@ -79,45 +86,45 @@ Jūsu nosūtītā pieprasījuma pamattekstam vajadzētu līdzināties šim piem�
 
 ## <a name="api-message-types-and-content"></a>API ziņojumu tipi un saturs
 
-Šajā sadaļā ir aprakstīts katrs ziņojuma veids, ar kuru var apmainīties, izmantojot MES integrācijas API.
+Šajā sadaļā ir aprakstīts katra tipa ziņojums, ar kuru var veikt apmaiņu, izmantojot MES integrācijas API.
 
 ### <a name="start-production-order-message"></a>Sākt ražošanas pasūtījuma ziņojumu
 
-Sākuma *ražošanas pasūtījuma* ziņojumam `_messageType` vērtība ir `ProdProductionOrderStart`. Šajā tabulā ir parādīti lauki, kurus šis ziņojums atbalsta.
+Sāktam *ražošanas pasūtījuma ziņojumam ir*`_messageType``ProdProductionOrderStart` vērtība. Šajā tabulā redzami lauki, kurus šis ziņojums atbalsta.
 
 | Lauka nosaukums | Statuss | Veids |
 |---|---|---|
 | `ProductionOrderNumber` | Obligāts | Virkne |
 | `StartedQuantity` | Neobligāti | Reāls |
 | `StartedDate` | Neobligāti | Datums |
-| `AutomaticBOMConsumptionRule` | Neobligāti | Uzskaitījums (FlushingPrincip \| always \| Never) |
+| `AutomaticBOMConsumptionRule` | Neobligāti | Uzskaitījums (FlushingPrincip \|\| vienmēr) |
 
-### <a name="report-as-finished-message"></a>Ziņot kā pabeigtu ziņojumu
+### <a name="report-as-finished-message"></a>Ziņojums par pabeigšanu
 
-Pabeigtajam *ziņojumam vērtība ir*`_messageType``ProdProductionOrderReportFinished`. Šajā tabulā ir parādīti lauki, kurus šis ziņojums atbalsta.
+*Pabeidzamā* ziņojuma vērtība `_messageType``ProdProductionOrderReportFinished` ir. Šajā tabulā redzami lauki, kurus šis ziņojums atbalsta.
 
 | Lauka nosaukums | Statuss | Veids |
 |---|---|---|
 | `ProductionOrderNumber` | Obligāts | Virkne |
-| `ReportFinishedLines` | Obligāts | Rindu saraksts (vismaz viena), no kurām katrā ir nākamajā tabulā aprakstītā lietderīgā slodze |
+| `ReportFinishedLines` | Obligāts | Rindu saraksts (vismaz viens), no kurām viena satur nākamajā tabulā aprakstīto lietderīgo slodzi |
 
-Šajā tabulā ir parādīti lauki, kurus atbalsta katra `ReportFinishedLines` ziņojuma sadaļas `ProdProductionOrderReportFinished` rinda.
+Šajā tabulā ir parādīti lauki, kurus katra rinda `ReportFinishedLines` ziņojuma `ProdProductionOrderReportFinished` sadaļā atbalsta.
 
 | Lauka nosaukums | Statuss | Veids |
 |---|---|---|
 | `LineNumber` | Neobligāti | Reāls |
 | `ItemNumber` | Neobligāti | Virkne|
-| `ProductionType` | Neobligāti | Uzskaitījums (MainItem \| formula BOM Co_Product By_Product \|\|\|\| None), paplašināms |
+| `ProductionType` | Neobligāti | Uzskaitījums (MainItem \|\|\| formulas MK Co_Product \| By_Product \| nav), paplašināms |
 | `ReportedErrorQuantity` | Neobligāti | Reāls|
 | `ReportedGoodQuantity` | Neobligāti | Reāls|
 | `ReportedErrorCatchWeightQuantity` | Neobligāti | Reāls |
 | `ReportedGoodCatchWeightQuantity` | Neobligāti | Reāls |
 | `AcceptError` | Neobligāti |Būla |
-| `ErrorCause` | Neobligāti | Uzskaitījums (None \| Material \| Machine \| OperatingStaff), paplašināms |
+| `ErrorCause` | Neobligāti | Uzskaitījums (Nav \|\| materiālu iekārtas \| OperatingStaff), paplašināms |
 | `ExecutedDateTime` | Neobligāti | Datums un laiks |
 | `ReportAsFinishedDate` | Neobligāti | Datums |
-| `AutomaticBOMConsumptionRule` | Neobligāti | Uzskaitījums (FlushingPrincip \| always \| Never) |
-| `AutomaticRouteConsumptionRule` | Neobligāti |Uzskaitījums (RouteDependent \| Always \| Never) |
+| `AutomaticBOMConsumptionRule` | Neobligāti | Uzskaitījums (FlushingPrincip \|\| vienmēr) |
+| `AutomaticRouteConsumptionRule` | Neobligāti |Uzskaitījums (RouteDependent \|\| Never) |
 | `RespectFlushingPrincipleDuringOverproduction` | Neobligāti | Būla |
 | `ProductionJournalNameId` | Neobligāti | Virkne |
 | `PickingListProductionJournalNameId` | Neobligāti | Virkne|
@@ -145,19 +152,19 @@ Pabeigtajam *ziņojumam vērtība ir*`_messageType``ProdProductionOrderReportFin
 | `ProductionWarehouseLocationId` | Neobligāti | Virkne |
 | `InventoryDimension1` līdz `InventoryDimension12` | Neobligāti | Virkne |
 
-12 paplašināmās dimensijas (`InventoryDimension1` līdz `InventoryDimension12`) ir jāpielāgo, un tās ne vienmēr tiek izmantotas. Plašāku informāciju par tiem skatiet [Add jaunu inventory dimensions through extension](../../fin-ops-core/dev-itpro/extensibility/inventory-dimensions.md).
+12 paplašināmām dimensijām `InventoryDimension1``InventoryDimension12` (izmantojot) nepieciešama pielāgošana, un tās vienmēr netiek izmantotas. Papildinformāciju par tām skatiet sadaļā [Jaunu krājumu dimensiju pievienošana, izmantojot paplašinājumu](../../fin-ops-core/dev-itpro/extensibility/inventory-dimensions.md).
 
 ### <a name="material-consumption-picking-list-message"></a>Materiālu patēriņa (izdošanas saraksta) ziņojums
 
-Materiālu *patēriņa (izdošanas saraksta)* ziņojumam vērtība ir `_messageType``ProdProductionOrderPickingList`. Šajā tabulā ir parādīti lauki, kurus šis ziņojums atbalsta.
+Materiālu *patēriņa (izdošanas saraksta)* ziņojumam vērtība `_messageType` ir `ProdProductionOrderPickingList`. Šajā tabulā redzami lauki, kurus šis ziņojums atbalsta.
 
 | Lauka nosaukums | Statuss | Veids |
 |---|---|---|
 | `ProductionOrderNumber` | Obligāts | Virkne |
 | `JournalNameId` | Neobligāti | Virkne |
-| `PickingListLines` | Obligāts | Rindu saraksts (vismaz viena), no kurām katrā ir nākamajā tabulā aprakstītā lietderīgā slodze |
+| `PickingListLines` | Obligāts | Rindu saraksts (vismaz viens), no kurām viena satur nākamajā tabulā aprakstīto lietderīgo slodzi |
 
-Šajā tabulā ir parādīti lauki, kurus atbalsta katra `PickingListLines` ziņojuma sadaļas `ProdProductionOrderPickingList` rinda.
+Šajā tabulā ir parādīti lauki, kurus katra rinda `PickingListLines` ziņojuma `ProdProductionOrderPickingList` sadaļā atbalsta.
 
 | Lauka nosaukums | Statuss | Veids |
 |---|---|---|
@@ -175,24 +182,24 @@ Materiālu *patēriņa (izdošanas saraksta)* ziņojumam vērtība ir `_messageT
 | `LineNumber` | Neobligāti | Reāls |
 | `PositionNumber` | Neobligāti | Virkne |
 | `IsConsumptionEnded` | Neobligāti | Būla |
-| `ErrorCause` | Neobligāti | Uzskaitījums (None \| Material \| Machine \| OperatingStaff), paplašināms |
+| `ErrorCause` | Neobligāti | Uzskaitījums (Nav \|\| materiālu iekārtas \| OperatingStaff), paplašināms |
 
-### <a name="time-used-for-operation-route-card-message"></a>Operācijas (maršruta kartes) ziņojumam izmantotais laiks
+### <a name="time-used-for-operation-route-card-message"></a>Operācijas (maršruta kartes) ziņojuma laiks
 
-Operācijas *(maršruta kartes) ziņojumam izmantotajam laikam*`_messageType` vērtība ir `ProdProductionOrderRouteCard`. Šajā tabulā ir parādīti lauki, kurus šis ziņojums atbalsta.
+Operācijas *(maršruta kartes) ziņojumam* izmantotais laiks ir `_messageType``ProdProductionOrderRouteCard` vērtība. Šajā tabulā redzami lauki, kurus šis ziņojums atbalsta.
 
 | Lauka nosaukums | Statuss | Veids |
 |---|---|---|
 | `ProductionOrderNumber` | Obligāts | Virkne |
 | `JournalNameId` | Neobligāti | Virkne |
-| `RouteCardLines` | Obligāts | Rindu saraksts (vismaz viena), no kurām katrā ir nākamajā tabulā aprakstītā lietderīgā slodze |
+| `RouteCardLines` | Obligāts | Rindu saraksts (vismaz viens), no kurām viena satur nākamajā tabulā aprakstīto lietderīgo slodzi |
 
-Šajā tabulā ir parādīti lauki, kurus atbalsta katra `RouteCardLines` ziņojuma sadaļas `ProdProductionOrderRouteCard` rinda.
+Šajā tabulā ir parādīti lauki, kurus katra rinda `RouteCardLines` ziņojuma `ProdProductionOrderRouteCard` sadaļā atbalsta.
 
 | Lauka nosaukums | Statuss | Veids |
 |---|---|---|
 | `OperationNumber` | Obligāts | Vesels skaitlis |
-| `OperationPriority` | Neobligāti | Uzskaitījums (Primary \| Secondary1 \| Secondary2 \| ... \| Sekundārais20) |
+| `OperationPriority` | Neobligāti | Uzskaitījums (primārais \| Secondary1 \| Secondary2 \| ... \| Sekundārais20) |
 | `OperationId` | Neobligāti | Virkne |
 | `OperationsResourceId` | Neobligāti | Virkne |
 | `Worker` | Neobligāti | Virkne |
@@ -207,15 +214,15 @@ Operācijas *(maršruta kartes) ziņojumam izmantotajam laikam*`_messageType` v�
 | `QuantityPrice` | Neobligāti | Reāls |
 | `ProcessingPercentage` | Neobligāti | Reāls |
 | `ConsumptionDate` | Neobligāti | Datums |
-| `TaskType` | Neobligāti | Uzskaitījums (QueueBefore \| setup process overlap transport \|\|\|\| queuePēc \| sloga) |
-| `ErrorCause` | Neobligāti | Uzskaitījums (None \| Material \| Machine \| OperatingStaff), paplašināms |
+| `TaskType` | Neobligāti | Uzskaitījums (QueueBefore \| Iestatīšanas \| procesa \| pārklāšanās \| transports \| QueueAfter \| slogs) |
+| `ErrorCause` | Neobligāti | Uzskaitījums (Nav \|\| materiālu iekārtas \| OperatingStaff), paplašināms |
 | `OperationCompleted` | Neobligāti | Būla |
 | `BOMConsumption` | Neobligāti | Būla |
 | `ReportAsFinished` | Neobligāti | Būla |
 
-### <a name="end-production-order-message"></a>Beigt ražošanas pasūtījuma ziņojumu
+### <a name="end-production-order-message"></a>Pārtraukt ražošanas pasūtījuma ziņojumu
 
-Beigu *ražošanas pasūtījuma* ziņojumam `_messageType` vērtība ir `ProdProductionOrderEnd`. Šajā tabulā ir parādīti lauki, kurus šis ziņojums atbalsta.
+Beigu *ražošanas pasūtījuma* ziņojumam ir `_messageType``ProdProductionOrderEnd` vērtība. Šajā tabulā redzami lauki, kurus šis ziņojums atbalsta.
 
 | Lauka nosaukums | Statuss | Veids |
 |---|---|---|
@@ -226,21 +233,21 @@ Beigu *ražošanas pasūtījuma* ziņojumam `_messageType` vērtība ir `ProdPro
 | `AutoReportAsFinished` | Neobligāti | Būla |
 | `AutoUpdate` | Neobligāti | Būla |
 
-## <a name="receive-feedback-about-the-state-of-a-message"></a>Atsauksmju saņemšana par ziņojuma stāvokli
+## <a name="receive-feedback-about-the-state-of-a-message"></a>Saņemt atsauksmi par ziņojuma stāvokli
 
-Pēc tam, kad TES ir nosūtījusi ziņojumu piegādes ķēdes pārvaldībai, piegādes ķēdes pārvaldībai varētu būt svarīgi atgriezt atsauksmes par ziņojuma stāvokli. Tālāk ir sniegti daži piemēri gadījumiem, kad šī darbība varētu būt svarīga.
+Kad MES ir nosūtījis ziņojumu Piegādes ķēžu pārvaldībai, iespējams, ka tas būs svarīgi Piegādes ķēžu pārvaldībai, lai atgrieztu atsauksmes par ziņojuma stāvokli. Šeit sniegti daži piemēri par gadījumiem, kad šī uzvedība var būt svarīga:
 
-- Nav nevienas personas, kas būtu atbildīga par PASTĀVĪGU TES integrācijas uzraudzību.
-- Persona, kas ir atbildīga par TES integrācijas uzraudzību, vēlas saņemt paziņojumu pa e-pastu, ja ziņojums neizdodas, lai tā zinātu, ka tai ir jārīkojas.
-- MES ir jāparāda kļūdas ziņojums, lai informētu ražotnes operatoru vai kādu no IT nodaļas darbinieku, ka viņiem ir jārīkojas.
-- TES ir jāpārrēķina pasūtījumu grafiks pēc tam, kad tas ir saņēmis kļūmes ziņojumu (piemēram, tāpēc, ka neizdevās startēt ražošanas pasūtījumu).
+- Nav personas, kura būtu atbildīga par MES integrācijas pārzēšanu.
+- Persona, kura ir atbildīga par MES integrācijas pārzinēšanu, vēlas tikt informēts ar e-pasta ziņojumu, ja ziņojums neizdodas, lai viņi zinātu, ka viņiem jāveic darbības.
+- MES jārāda kļūdas ziņojums, lai informētu ražotnes operatoru vai paziņotu IT nodaļai, ka viņiem jārīkojas.
+- MES jāpārrēķina pasūtījuma grafiks pēc tam, kad tas saņem kļūmes ziņojumu (piemēram, tāpēc, ka ražošanas pasūtījumu nevarēja startēt).
 
-Šādos gadījumos jūs varat izmantot standarta brīdinājuma funkciju piegādes ķēdes pārvaldībā. Informāciju par to, kā darbojas standarta brīdinājumi, skatiet šādos resursos:
+Šādos gadījumos varat izmantot standarta brīdinājuma funkcijas priekšrocības Piegādes ķēžu pārvaldībā. Papildinformāciju par to, kā darbojas standarta brīdinājumi, skatiet šādos resursos:
 
-- Palīdzības tēma: [Brīdinājumu pārskats](../../fin-ops-core/fin-ops/get-started/alerts-overview.md)
-- Video: [brīdinājuma noteikumu opcijas Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=cpzimwOjicM&ab_channel=MicrosoftDynamics365)
+- Palīdzības tēma: [brīdinājumu apskats](../../fin-ops-core/fin-ops/get-started/alerts-overview.md)
+- Video: [brīdinājumu noteikumu opcijas šeit: Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=cpzimwOjicM&ab_channel=MicrosoftDynamics365)
 
-Piemēram, varat iestatīt šādus brīdinājumus, lai sniegtu atsauksmes par ziņojuma stāvokli:
+Piemēram, varat iestatīt šādus brīdinājumus, lai sniegtu atsauksmi par ziņojuma stāvokli:
 
-- Izveidojiet biznesa notikumu ("Sūtīt ārēji"), kas tiek izmantots, ja ziņojums nav *izdevies*.
-- Nosūtiet paziņojumu un e-pastu IT administratoram vai ražošanas stāvu pārvaldniekam.
+- Izveidojiet biznesa notikumu ("Sūtīt ārēju"), kas tiek izmantots, ja ziņojums nav *izdevies*.
+- Nosūtiet paziņojumu un e-pasta ziņojumu IT administratoram vai ražošanas stāvu pārvaldniekam.

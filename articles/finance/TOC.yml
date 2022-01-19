@@ -1212,6 +1212,8 @@
                   href: finance-insights/enable-cust-paymnt-prediction.md
                 - name: Naudas plūsmas prognozēšanas iespējošana
                   href: finance-insights/enable-cash-flow-forecasting.md
+                - name: Ārējie dati naudas plūsmas prognozēs
+                  href: finance-insights/external-data-in-cash-flow.md
                 - name: Budžeta priekšlikumu iespējošana
                   href: finance-insights/enable-budget-proposal.md
                 - name: Datu integrētāja projekta izveide
@@ -1232,10 +1234,8 @@
                   href: finance-insights/budget-proposals.md
                 - name: Finansiālais stāvoklis
                   href: finance-insights/cash-position.md
-                - name: Naudas plūsmas prognoze
+                - name: Naudas prognoze
                   href: finance-insights/cash-flow-forecast-intro.md
-                - name: Ārējo datu izmantošana naudas plūsmas prognozēs
-                  href: finance-insights/external-data-in-cash-flow.md
                 - name: Debitoru maksājumu prognozes
                   href: finance-insights/payment-insights-overview.md
                 - name: Debitoru maksājumu prognožu izmantošana
@@ -1432,6 +1432,8 @@
                           href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Saūda Arābijā
                           href: localizations/e-invoicing-sa-get-started.md
+                        - name: Italian FatturaPA tiešas integrācijas ar SDI iestatīšana
+                          href: localizations/e-invoicing-ita-fatturapa-get-started.md
                         - name: 'Elektronisko rēķinu izveides pakalpojuma izveide, lai importētu kreditoru rēķinus'
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: Elektronisko rēķinu izveides iestatīšana
@@ -1512,6 +1514,10 @@
                           items:
                             - name: PVN deklarācija
                               href: localizations/emea-gbr-vat-declaration.md
+                        - name: Norvēģijas pārskati
+                          items:
+                            - name: PVN deklarācija
+                              href: localizations/emea-nor-vat-declaration.md
                     - name: Nodokļa aprēķinu iespējošana pārsūtīšanas pasūtījumam
                       items:
                         - name: Nodokļu līdzekļu atbalsts pārsūtīšanas pasūtījumiem
@@ -1557,7 +1563,7 @@
                 - name: PVN deklarācija
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: Pārrobežu pakalpojumu pārskats
-                  href: localizations/emea-aut-vat-statement-details.md
+                  href: localizations/emea-aut-cross-border-services-report.md
                 - name: Austrijas Intrastat
                   href: localizations/emea-aut-intrastat.md
                 - name: Pirkšanas nodokļi
@@ -1824,7 +1830,7 @@
                   href: localizations/tasks/golden-tax-integration-export-setup.md
                 - name: Pamatlīdzekļu nolietojuma metodes
                   href: localizations/apac-chn-depreciation-methods-fixed-assets.md
-                - name: Datu elementa “Ķīnas zelta nodokļi” importēšana
+                - name: “Ķīnas zelta nodokļu” failu importēšana
                   href: localizations/apac-chn-import-golden-tax-data-entity.md
                 - name: Mēneša vidējo izmaksu modelis
                   href: localizations/apac-chn-monthly-average-cost-model.md
@@ -2088,6 +2094,8 @@
                   href: localizations/finland.md
                 - name: Somijas PVN maksājumu pārskats
                   href: localizations/emea-fin-sales-tax-payment-report-finland.md
+                - name: Somu Intrastat
+                  href: localizations/emea-fin-intrastat.md
             - name: Francija
               items:
                 - name: Francijas pārskats
@@ -2610,6 +2618,8 @@
                   href: localizations/apac-idn-invoicing.md
                 - name: PVN deklarācija Indonēzijai
                   href: localizations/apac-idn-ppn-declaration.md
+                - name: Ieturētā nodokļa pārskats Indonēzijai
+                  href: localizations/apac-idn-wht-declaration.md
             - name: Itālija
               items:
                 - name: Itālijas pārskats

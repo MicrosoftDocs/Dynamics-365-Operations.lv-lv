@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: d676191f921d74a5a0ced934f3692dacbe7cd7b4
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 92c427d3063c34f263d5bc449be6fac695b5912d
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920122"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952631"
 ---
 # <a name="inventory-visibility-public-apis"></a>Krājumu uztveramības pievienojumprogrammas publiskais API
 
@@ -48,6 +48,8 @@ Microsoft ir nodrošinājusi standarta *Pastnieka* pieprasījuma kolekciju. Jūs
 
 > [!NOTE]
 > Ceļa {environmentId} daļa ir vides ID Microsoft Dynamics pakalpojumā Lifecycle Services (LCS).
+> 
+> Lielapjoma API var atgriezt maksimāli 512 ierakstus katram pieprasījumam.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Atrast galapunktu atbilstoši Lifecycle Services videi
 
@@ -249,7 +251,7 @@ Body:
 
 ### <a name="create-multiple-change-events"></a><a name="create-multiple-onhand-change-events"></a>Izveidot vairākus izmaiņu notikumus
 
-Šis API var izveidot vairākus ierakstus vienlaicīgi. Vienīgās atšķirības starp šo API un [viena notikuma API](#create-one-onhand-change-event) ir `Path` un `Body` vērtības. Šim API `Body` sniedz ierakstu masīvu.
+Šis API var izveidot vairākus ierakstus vienlaicīgi. Vienīgās atšķirības starp šo API un [viena notikuma API](#create-one-onhand-change-event) ir `Path` un `Body` vērtības. Šim API `Body` sniedz ierakstu masīvu. Maksimālais ierakstu skaits ir 512, kas nozīmē, ka rīcībā esošo krājumu izmaiņas API vienlaikus var atbalstīt līdz 512 izmaiņu notikumiem.
 
 ```txt
 Path:
@@ -476,7 +478,7 @@ Body:
 
 ## <a name="query-on-hand"></a>Rīcībā esošie vaicājumi
 
-Izmantojiet rīcībā _esošo vaicājumu_ API, lai ienestu pašreizējos rīcībā esošos krājumu datus saviem produktiem. API pašlaik atbalsta vaicājumu līdz 100 atsevišķiem krājumiem pēc `ProductID` vērtības. Katrs `SiteID``LocationID` vaicājumā var norādīt vairākas vērtības. Maksimālais ierobežojums ir definēts kā `NumOf(SiteID) * NumOf(LocationID) <= 100`.
+Izmantojiet rīcībā _esošo vaicājumu_ API, lai ienestu pašreizējos rīcībā esošos krājumu datus saviem produktiem. API pašlaik atbalsta vaicājumu līdz 100 atsevišķiem krājumiem pēc `ProductID` vērtības. Katrs `SiteID``LocationID` vaicājumā var norādīt vairākas vērtības. Maksimālais ierobežojums ir definēts `NumOf(SiteID) * NumOf(LocationID) <= 100` kā.
 
 ### <a name="query-by-using-the-post-method"></a><a name="query-with-post-method"></a>Vaicājums, izmantojot grāmatošanas metodi
 

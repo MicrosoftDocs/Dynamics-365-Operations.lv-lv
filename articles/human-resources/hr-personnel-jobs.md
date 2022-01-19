@@ -15,18 +15,18 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0b3d56b3d19bd671d0015e87eefdf8ae62f4cee0
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: a4aa7369c84836154b8217a5b70267021f4028b1
+ms.sourcegitcommit: 4f84540e6121ca3d5ae52ee07e414116d423cefa
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731544"
+ms.lasthandoff: 01/03/2022
+ms.locfileid: "7948479"
 ---
 # <a name="set-up-the-components-of-a-job"></a>Darba komponentu iestatīšana
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šajā rakstā ir aprakstīti konceptuālie elementi, kas var būt iekļauti darbā, un sniegti piemēri par to, kā šos elementus varat lietot savā organizācijā. 
+Šajā tēmā ir aprakstīti konceptuālie elementi, kas var būt iekļauti darbā, un sniegti piemēri par to, kā šos elementus varat lietot savā organizācijā. 
 
 Pirms izveidojat darbus, ir jāiestata noteikta atsauces informācija. Varat izveidot darbu, kam ir tikai nosaukums. Taču, ja iekļaujat papildinformāciju, piemēram, darba amatu, tad šim darbam piešķirtajiem amatiem varat nodrošināt noklusējuma vērtības. Turklāt noteiktu ievadīto informāciju var izmantot atlīdzības plānu filtrēšanai konkrētiem darbiem. Ja vēlaties iestatīt piemērotību, kuru varat lietot, lai atlīdzības plānus filtrētu konkrētam darbam, tad pirms darbu iestatīšanas ir jāiestata darbu funkcijas un darbu tipi. Ja ir pieejamas šīs noklusējuma vērtības, jūs ietaupāt laiku, kad darbam pievienojat amatus. 
 
@@ -81,8 +81,8 @@ Darba uzdevumi apraksta pamata uzdevumus, kuri ir jāveic darbiniekam, kas ieņe
 <tr class="odd">
 <td>Pārdošanas daļas vadītājs</td>
 <td><ul>
-<li><strong>Izpildes novērtēšana</strong> — novērtēt katra pārdevēja&#39; darba izpildi.</li>
-<li><strong>Kavējumu izskatīšana</strong> — apstiprināt vai noraidīt katra pārdevēja&#39; kavējumu pieprasījumus vai reģistrācijas.</li>
+<li><strong>Izpildes novērtēšana</strong> — novērtēt katra pārdevēja&#39;darba izpildi.</li>
+<li><strong>Kavējumu izskatīšana</strong> — apstiprināt vai noraidīt katra pārdevēja&#39;kavējumu pieprasījumus vai reģistrācijas.</li>
 </ul></td>
 </tr>
 <tr class="even">

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: fd79880dc8aa77eea8c16f350c0853013c6ad17b
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: b104cec399a368ada64a73688c42476e6fbd9e52
+ms.sourcegitcommit: 304a482dfcc31dcb61849f710ae73432324ddef3
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890834"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "7947344"
 ---
 # <a name="impair-right-of-use-assets"></a>Līdzekļa lietošanas tiesību mazināšana
 
@@ -44,6 +44,8 @@ LLT līdzekļa atlikums tiks amortizēts atlikušajam periodu skaitam neatkarīg
 
     > [!NOTE]
     > Pēc pasliktināšanās darbības grāmatošanas tiek izveidota jauna grāmatas versija.
+
+    > Ja noma ir klasificēta kā operācijas noma, ikmēneša nolietojums pēc pasliktināšanās tiks aprēķināts, izmantojot lineāro nolietojumu.
 
 9. Lai skatītu atsveramu pamatlīdzekļa nolietojuma grafiku, atveriet nomas grāmatas līdzekļu nolietojuma grafiku. Tagad līdzeklim tiks aprēķināts nolietojums pēc lineārā principa, salīdzinot ar mēnešu skaitu, ko ievadījāt laukā **Atlikušie periodi**.
 10. Lai skatītu vērtības samazinājuma izdevumu žurnāla ierakstu, nomas ar vērtības samazinājumu darbību rūtī atlasiet **Līdzekļu nomāšanas žurnāls**. Sistēma izveido žurnāla ierakstu, kas debetē vērtības samazinājuma izdevumu grāmatošanas kontu un kreditē nomas līdzekļu grāmatošanas kontu. 
@@ -100,6 +102,7 @@ Tabulās ir parādītas vērtības, kas ir iestatītas cilnēs **Vispārīgi** u
     | Slēgt grāmatu             | Nē       |
 
 6. Ir izveidots un grāmatots vērtības samazinājuma izdevumu žurnāla ieraksts. Lai to skatītu, dodieties uz līdzekļa nomas žurnālu nomas grāmatā. Ievērojiet, ka vērtības samazinājuma summa tika debetēta vērtības samazināšanās izdevumu grāmatošanas kontā, un LLT grāmatošanas konts tika kreditēts.
+
 7. Lai skatītu vērtības samazinājuma tīro ietekmi, dodieties uz saistību un līdzekļu darījumu tabulām. Ievērojiet, ka vērtības samazināšanās izdevumi ir samazinājuši LLT, bet nomas saistības uzskaites summa nav mainījusies.
 
 Vērtības samazinājumam ir viens cits efekts, kas jāņem vērā. Tā kā LLT summa tagad ir daudz mazāka par nomas saistībām, summai jābūt izlietotai citādi nekā pirms tam. Proti, līdzeklis tagad tiek nolietots lineārā veidā visu atlikušo nomas 84 mēnešu laikā, sākot no darījuma datuma.

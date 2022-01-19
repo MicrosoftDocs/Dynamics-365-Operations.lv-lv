@@ -2478,8 +2478,6 @@
                       href: e-commerce-extensibility/globalize-modules.md
                     - name: Azure Key Vault iestatīšana drošai atslēgu pārvaldībai
                       href: e-commerce-extensibility/set-up-key-vault.md
-                    - name: Pieprasījuma izveide konveijera spraudņa āķim
-                      href: e-commerce-extensibility/request-pipeline-hook.md
                     - name: Attēla komponenti
                       href: e-commerce-extensibility/image-component.md
                 - name: Datu darbību izstrāde

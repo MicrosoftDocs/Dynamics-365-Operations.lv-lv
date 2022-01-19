@@ -2,19 +2,19 @@
 title: Pakalpojuma apraksts Finance and Operations programmām
 description: Šajā tēmā ir sniegts pakalpojuma apraksts Finance and Operations programmām.
 author: tomhig
-ms.date: 12/07/2021
+ms.date: 01/05/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: f7ce73018fda79156cc7ef3d4e1faa3fedf966f8
-ms.sourcegitcommit: b101c21f972fdad2667431f712222e040cd69d43
+ms.openlocfilehash: 85f82a863f0bde4c0414760fa2477651242538f2
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "7898393"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952370"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Pakalpojuma apraksts Finance and Operations programmām
 
@@ -50,10 +50,10 @@ Lietojumprogrammu Finance and Operations pārvaldības modelis nosaka specifiska
 
 ### <a name="customer-activities"></a>Debitoru darbības
 
-Klienti sadarbojas ar savu partneri un [Microsoft FastTrack,](/dynamics365/fasttrack/) ievērojot Dynamics [365 ieviešanas rokasgrāmatu](https://community.dynamics.com/365/dynamics-365-fasttrack/p/dynamics365implementationguide), [Success by Design](/dynamics365/fasttrack/success-by-design-overview) struktūru, kā arī rīkus un paraugprakses veidnes, kas tiek [nodrošinātas lifecycle](../../dev-itpro/lifecycle-services/lcs.md) services, lai ieviestu savu risinājumu. Parastās aktivitātes ietver:
+Klienti strādā ar savu partneri un Microsoft FastTrack pēc Dynamics 365 ieviešanas rokasgrāmatas, struktūras un rīkiem un labākās prakses veidnēm, kas [sniegtas](/dynamics365/fasttrack/)[...](https://community.dynamics.com/365/dynamics-365-fasttrack/p/dynamics365implementationguide)[Success by Design](/dynamics365/fasttrack/success-by-design-overview)[Lifecycle Services, lai](../../dev-itpro/lifecycle-services/lcs.md) ieviestu savu risinājumu. Parastās aktivitātes ietver:
 
 - Lietotāju identitātes un drošības pārvaldība
-- Definēt, attīstīt un vadīt biznesa procesus
+- Biznesa procesu definēšana, izstrādāšana un pārvaldība
 - Definēt, izstrādāt, pārbaudīt un pārvaldīt paplašinājumus
 - Pārraudzīt un pārvaldīt ar ražošanu nesaistītās izvietošanas
 - Pārvaldīt programmu atjauninājumus un pārbaudīt paplašinājumus
@@ -66,7 +66,7 @@ Microsoft pārvalda Finance and Operations pakalpojumu, aktīvi pārraugot un p�
 **Infrastruktūras pārvaldība**
 - Drošība un izolēšana
 - Operētājsistēmas un virtualizācija
-- Serveri, krātuve un tīklošana
+- Serveri, uzglabāšana un noliktava
 - Datu centra jauda, tīklošana, dzesēšana
 
 **Programmas platformas pārvaldība**
@@ -117,7 +117,7 @@ Finance and Operations programmas ir apsniegtas no vairākiem Azure reģioniem v
 ### <a name="countryregion-specific-considerations"></a>Valstij/reģionam specifiski apsvērumi
 
 - Debitoriem regulētās rūpniecības vai komercorganizācijās, kas veic darījumus ar uzņēmumiem Francijā, kuriem nepieciešama lokālā datu rezidence, jāpārskata [Finance and Operations Francijā](../../dev-itpro/deployment/france-local-deployment.md).
-- Debitoriem, kuriem ir operācijas Ķīnā, jāpārskata [Finance and Operations, kas darbojas ar 21Vianet Ķīnā](../../dev-itpro/deployment/china-local-deployment.md).
+- Debitoriem, kuriem ir operācijas Ķīnā, ir jāpārskata Azure Ķīnas tiešsaistes grāmata [un](/azure/china/)[Finance and Operations jādarbina ar 21Vianet Ķīnā](../../dev-itpro/deployment/china-local-deployment.md) lietoto.
 - Debitoriem, kuriem ir operācijas Krievijā, jāpārskata [Krievijas personas datu lokalizācijas likums](/business-applications-release-notes/october18/dynamics365-finance-operations/russian-regulations-on-prem#when-will-the-cloud-deployment-option-of-dynamics-365-for-finance-and-operations-be-generally-available-for-russia).
 
 ### <a name="general-data-protection-regulation-gdpr"></a>Vispārīgā datu aizsardzības regula (VDAR)
@@ -314,9 +314,9 @@ Microsoft parādu atgūšanas plāni un procedūras tiek regulāri pārbaudīti,
 | Korporācija Microsoft uzkrājumi ir sekundārā vide Azure datu centrā, kad tiek izvietota primārā ražošanas instance. Papildinformāciju skatiet sadaļā [Biznesa nepārtrauktība un ārkārtas atgūšana (BCDR): Azure Paired Regions](/azure/best-practices-availability-paired-regions). | Neviens |
 | Ja tiek izvietota primārā ražošanas instance, korporācija Microsoft iespējo Azure SQL un Azure Blob Storage ģeoreformaņu atlaišanu. | Neviens |
 | Microsoft iespējo automātisku dublējumu Azure SQL datu bāzēs. | Neviens |
-| <p>Ja rodas pārstākums, Microsoft nosaka, vai debitoram ir jāveic pārslēgšana un vai datu zudums būs. Atkarībā no pārtraukuma veida un laika klienti var saskarties ar datu zudumu līdz 15 minūtēm. | Datu zuduma gadījumā klientam var nākties iesniegt rakstisku apliecinājumu, lai izraisītu kļūmi. |
+| <p>Ja rodas pārstākums, Microsoft nosaka, vai debitoram ir jāveic pārslēgšana un vai datu zudums būs. Atkarībā no pārtraukuma rakstura un laika, debitori var gūt līdz 15 minūtēm datu zudumu. | Datu zudums gadījumā debitoram, iespējams, ir jāsniedz rakstiska zīme, lai izraisītu atteici. |
 | Ja rodas kļūme, piemērojamais pakalpojums darbojas ierobežotā režīmā. Atjaunināšanas uzturēšanu nevar izraisīt kļūmes pārslēgšanas režīmā. | Debitors nevar pieprasīt pakotnes izvietošanu vai citus regulārus uzturēšanas pieprasījumus kļūmes režīmā. |
-| Kad datu centrs kļūst par darbību, Microsoft neizdodas atgriezties ražošanas instancē primārajā Azure reģionā. Tiek atsākta parastā darbība. | Klientam var nākties izrakstīties par ražošanas instanci primārajā Azure reģionā. |
+| Kad datu centrs kļūst par darbību, Microsoft neizdodas atgriezties ražošanas instancē primārajā Azure reģionā. Tiek atsākta parastā darbība. | Iespējams, ka debitoram ir izrakstīties par kļūmes ražošanas instanci primārajā Azure reģionā. |
 
 ## <a name="finance-and-operations-support-offerings"></a>Finance and Operations atbalsta piedāvājumi
 
@@ -356,6 +356,7 @@ Korporācija Microsoft ir apņēmusies izmantot pakalpojuma pieejamības koefici
 - **[Licencēšanas rokasgrāmata](https://www.microsoft.com/licensing/docs/view/Microsoft-Dynamics-365)** – izmantojiet šo rokasgrāmatu, lai uzzinātu vairāk par to, kā licencēt sistēmu Dynamics 365.
 - **[Klientu atbalsts](https://dynamics.microsoft.com/support/)** – iegūstiet nozares galveno atbalstu jūsu Dynamics 365 programmām.
 - **[Dynamics Lifecycle Services](https://lcs.dynamics.com/)** — pārvaldiet programmas dzīves ciklu un pārvietojieties uz paredzamu, atkārtojamu, augstas kvalitātes ieviešanai.
+- **[Dynamics 365 ieviešanas rokasgrāmata — Dynamics 365 ieviešanas rokasgrāmatas dokumentu laika pārbaudes principi un sniedz iepriekšējus norādījumus arhitektam, veidot, pārbaudīt un izvietot](https://aka.ms/D365ImplementationGuideFlip)** Success by Design Dynamics 365 risinājumus.
 
 ## <a name="definitions"></a>Definīcijas
 
@@ -428,6 +429,10 @@ SLA attiecas uz Microsoft tiešsaistes pakalpojumiem. Plašāku informāciju ska
 ### <a name="service-update"></a>Pakalpojuma atjauninājums
 
 Microsoft pakalpojumu Finance and Operations vides, balstoties uz pakalpojumu atjauninājumiem, ir konsekventas. Debitori iestata savu pakalpojuma atjaunināšanas kalendāru, ņemot vērā viņu biznesa vajadzības. Papildinformāciju skatiet sadaļā [Vienas versijas pakalpojuma atjauninājumi](../../dev-itpro/lifecycle-services/oneversion-overview.md).
+
+### <a name="success-by-design"></a>[Success by Design](/dynamics365/fasttrack/success-by-design-overview)
+
+Struktūra, kas sistemātiski vada ieviešanu caur novērtēšanas sērijām kritiskos posmos, lai nodrošinātu optimālu arhitektūru, drošību, veiktspēju un lietotāja pieredzi Dynamics 365 risinājumam.
 
 ### <a name="user"></a>Lietotājs
 

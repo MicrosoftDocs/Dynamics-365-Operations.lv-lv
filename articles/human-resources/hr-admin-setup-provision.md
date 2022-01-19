@@ -2,7 +2,7 @@
 title: Human Resources nodrošināšana
 description: Šajā tēmā ir izskaidrota jaunas ražošanas vides nodrošināšana programmai Microsoft Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 08/11/2021
+ms.date: 01/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c84fdb3c5c61598dfd0934e769f4a7262ce74052
-ms.sourcegitcommit: 8439ce2d4ad5ee5c1ec870640b52b5d2e947a671
-ms.translationtype: HT
+ms.openlocfilehash: b5ea27c6650df0b94284902eb37e2169ea36261a
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "7644531"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952706"
 ---
 # <a name="provision-human-resources"></a>Human Resources nodrošināšana
 
@@ -44,7 +44,7 @@ Pirms pirmās smilškastes vai ražošanas vides nodrošināšanas, iespējams, 
 
 Izmēǵinājuma vides ļauj novērtēt cilvēkresursu funkciju personām, kurām vēl nav piekļuves Human Resources videi. Ja nodrošināt izmēģinājuma vidi un autentificētajam lietotājam jau ir piekļuve vienai vai vairākām esošām Human Resources vidēm, lietotājs tiks pārvirzīts uz esošo vidi vai vižu sarakstu.
 
-Izmēģinājuma vides vides nav paredzētas izmantošanai kā ražošanas vides. Tās ir ierobežotas līdz 60 dienu pārbaudes periodam. Kad beidzas izmēģinājuma periods, vide un visi dati tiek dzēsti un nevar tikt atgūti. Vidi nevar pārvērst par smilškastes vai ražošanas vidi. Pēc esošās vides termiņa beigām jūs varat pieteikties jaunai izmēģinājuma videi.
+Izmēģinājuma vides vides nav paredzētas izmantošanai kā ražošanas vides. Tās ir ierobežotas līdz 30 dienu pārbaudes periodam. Kad beidzas izmēģinājuma periods, vide un visi dati tiek dzēsti un nevar tikt atgūti. Vidi nevar pārvērst par smilškastes vai ražošanas vidi. Pēc esošās vides termiņa beigām jūs varat pieteikties jaunai izmēģinājuma videi.
 
 Izveidojot Human Resources izmēģinājuma vidi, nomniekam tiek izveidota arī Power Apps izmēģinājuma vide un saistīta ar Human Resources vidi. Power Apps videi, kas tiek nodēvēta par "TestDrive", ir tāds pats izmēģinājuma periods kā Human Resources videi.
 

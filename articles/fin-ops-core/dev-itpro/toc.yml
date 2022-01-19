@@ -512,6 +512,8 @@
                   href: dev-tools/pipeline-deploy-asset.md
                 - name: Lifecycle Services (LCS) savienojuma izveide pakalpojumā Azure Pipelines
                   href: dev-tools/pipeline-lcs-connection.md
+                - name: LCS savienojuma autentifikācijas uzdevumu atjaunināšana uz Azure Pipelines MSAL
+                  href: dev-tools/pipeline-lcs-connection-update.md
                 - name: Viesotā Azure Pipeline atjaunināšana jaunām NuGet pakotnēm
                   href: dev-tools/pipeline-nuget-split.md
                 - name: Mantotā konveijera atjaunināšana pakalpojumā Azure Pipelines
@@ -1484,6 +1486,8 @@
               href: perf-test/rsat/rsat-best-practices.md
             - name: 'Datu diagnostikas testēšana, izmantojot Regression Suite Automation Tool'
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
+            - name: Rīka Regression Suite Automation Tool (RSAT) palaišana ar paralēlu izpildi
+              href: perf-test/rsat/rsat-parallel-execution.md
             - name: Problēmu novēršana
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: 'Risinājumu izlaišana, izmantojot Lifecycle Services'

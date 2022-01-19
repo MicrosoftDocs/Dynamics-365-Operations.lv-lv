@@ -2,7 +2,7 @@
 title: Konfigurācijas noformēšana dokumentu ģenerēšanai Excel formātā
 description: Šī tēma sniedz informāciju par to, kā veidot elektronisko pārskatu (ER) formātu, lai aizpildītu Excel veidni un pēc tam ģenerētu izejošos Excel formāta dokumentus.
 author: NickSelin
-ms.date: 12/15/2021
+ms.date: 01/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 87d5929557e5120a5339ee46eac655fd399679d1
-ms.sourcegitcommit: f51e74ee9162fe2b63c6ce236e514840795acfe1
+ms.openlocfilehash: 9b1c83894d93789a270ed4521ba7f80da70285ac
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7943616"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952656"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Konfigurācijas noformēšana dokumentu ģenerēšanai Excel formātā
 
@@ -122,7 +122,7 @@ ER operācijas veidotāja cilnē **Kartēšana** varat konfigurēt **Iespējoto*
 Varat konfigurēt Excel veidni, lai lietotu šūnas, lai uzrādītu teksta datus. Lai nodrošinātu, ka viss teksts šūnā ir redzams ģenerētajā dokumentā, var konfigurēt, lai šūna automātiski ietītu tajā tekstu. Varat konfigurēt arī rindu, kas satur šo šūnu, lai automātiski pielāgotu tās augstumu, ja pievienotais teksts nav pilnībā redzams. Papildinformāciju skatiet sadaļas Satīt tekstu šūnā sadaļā Labot [datus, kas ir izgriezti šūnās](https://support.microsoft.com/office/fix-data-that-is-cut-off-in-cells-e996e213-6514-49d8-b82a-2721cef6144e).
 
 > [!NOTE]
-> Zināma [Excel ierobežojuma](https://support.microsoft.com/topic/you-cannot-use-the-autofit-feature-for-rows-or-columns-that-contain-merged-cells-in-excel-34b54dd7-9bfc-6c8f-5ee3-2715d7db4353) dēļ, pat ja šūnas tiek konfigurētas teksta dzēšanai, un rindas, kurās šīs šūnas ir ietvertas, tiek konfigurētas tā, lai automātiski pielāgotu to augstumus atbilstoši ievietotajam tekstam, iespējams, nevarēsit sapludinātām šūnām un rindām, kurās tās ietvertas, izmantot līdzekļus **AutoFit** un **Wrap text** Excel. 
+> Zināma Excel ierobežojuma dēļ, pat ja šūnas tiek konfigurētas teksta dzēšanai, un rindas, kurās šīs šūnas ir ietvertas, tiek konfigurētas tā, lai automātiski pielāgotu to augstumus atbilstoši ievietotajam tekstam, iespējams, nevarēsit sapludinātām šūnām un rindām, kurās tās ietvertas, izmantot [līdzekļus](https://support.microsoft.com/topic/you-cannot-use-the-autofit-feature-for-rows-or-columns-that-contain-merged-cells-in-excel-34b54dd7-9bfc-6c8f-5ee3-2715d7db4353)**AutoFit** un Wrappe text **Excel**. 
 
 Attiecībā uz versiju 10.0.23 var likt ER aprēķināt katras rindas augstumu, kas tika konfigurēts, lai automātiski ietilptu ligzdoto šūnu saturam, ja šī rinda satur vismaz vienu sapludinātu šūnu, kas bija konfigurēta teksta saglabāšanai Dynamics 365 Finance tajā. Aprēķinātais augstums tiek izmantots rindas izmēru maiņai, lai nodrošinātu, ka visas šūnas rindā ir redzamas ģenerētajā dokumentā. Lai sāktu izmantot šo funkcionalitāti, kad izpildiet visus ER formātus, kas tika konfigurēti, lai izmantotu Excel veidnes nosūtīšanas dokumentu ģenerēšanai, rīkojieties šādi.
 
@@ -379,7 +379,7 @@ Ja kāda no veidnēm ietver PivotTable, kas ir balstīta uz modeli, kas attiecas
     2. Izmantojiet ER, lai no Finanšu programmas ģenerētu otru Excel darbgrāmatu (darbgrāmatu B), kurā ir nepieciešamie dati. 
     3. Atsaucieties uz B darbgrāmatu A, tiklīdz tiek ģenerēta darbgrāmata B.
 
-- Lai izslēgtu funkciju, lietojiet citu opciju, nevis EPPlus. 
+- Izslēdziet šo līdzekli. Lai izmantotu opciju, kas nav **EPPlus, aktivizējiet** EPPlus bibliotēkas lietošanu elektronisko pārskatu struktūrā. 
 
 ## <a name="additional-resources"></a>Papildu resursi
 

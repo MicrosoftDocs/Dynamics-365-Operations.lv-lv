@@ -2,7 +2,7 @@
 title: Darba sākšana ar nodokļu aprēķinu
 description: Šajā tēmā paskaidrots, kā iestatīt Nodokļu aprēķinu.
 author: wangchen
-ms.date: 10/15/2021
+ms.date: 01/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,31 +15,74 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 2f26f8e5eafe29e88c26d3fb6cfa950466ec6be9
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: ae2c20fe79c2f8fd8d102740441230ae443f16a3
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647438"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952525"
 ---
 # <a name="get-started-with-tax-calculation"></a>Darba sākšana ar nodokļu aprēķinu
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par to, kā sākt darbu ar Nodokļu aprēķinu. Vispirms tas palīdz veikt konfigurācijas darbības programmās Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS) un Dynamics 365 Finance, un Dynamics 365 Supply Chain Management. Pēc tam tā pārskata kopējo procesu, kas saistīts ar Nodokļu aprēķina iespēju izmantošanu Finance un Supply Chain Management transakcijās.
+Šajā tēmā ir sniegta informācija par to, kā sākt darbu ar Nodokļu aprēķinu. Šīs tēmas sadaļās ir vadītas augsta līmeņa dizaina un konfigurācijas darbības Microsoft Dynamics pakalpojumā Lifecycle Services (LCS), regulatory configuration Service (RCS) un Dynamics 365 Finance Dynamics 365 Supply Chain Management. 
 
-Iestatījums sastāv no četrām galvenām darbībam:
+Uzstādīšana sastāv no trim galvenajiem soļiem.
 
 1. Sistēmā LCS instalējiet nodokļu aprēķina pievienojumprogrammu.
 2. Sistēmā RCS iestatiet Nodokļu aprēķina līdzekli. Šis iestatījums nav specifisks juridiskajai personai. To var koplietot visas Finance un Supply Chain Management juridiskās personas.
 3. Finance un Supply Chain Management iestatiet Nodokļu aprēķina parametrus pēc juridiskās personas.
-4. Finance un Supply Chain Management izveidojiet tādus darījumus kā pārdošanas pasūtījumi un izmantojiet Nodokļu aprēķinu, lai noteiktu un aprēķinātu nodokļus.
+
+## <a name="high-level-design"></a>Augsta līmeņa dizains
+
+### <a name="runtime-design"></a>Izpildlaika dizains
+
+Šajā ilustrācijā parādīts augsta līmeņa nodokļu aprēķina izpildlaika dizains. Tā kā nodokļu aprēķinu var integrēt vairākās Dynamics 365 programmās, ilustrācija kā piemēru izmanto integrāciju ar Finansēm.
+
+1. Darbība, piemēram, pārdošanas pasūtījums vai pirkšanas pasūtījums, ir izveidota finansēs.
+2. Finanses automātiski izmanto PVN grupas un krājumu PVN grupas noklusējuma vērtības.
+3. Ja **darbībai** ir atlasīta PVN poga, tiek parādīts nodokļu aprēķins. Finanses pēc tam nosūta lietderīgo slodzi uz nodokļu aprēķina pakalpojumu.
+4. Nodokļu aprēķina pakalpojums saskaņo lietderīgo slodzi ar iepriekš definētiem noteikumiem nodokļu funkcijai, lai atrastu precīzāku PVN grupu un krājumu PVN grupu vienlaicīgi.
+
+    - Ja lietderīgo slodzi var saskaņot ar matricu Nodokļu grupas piemērojamība, tā ignorē PVN grupas vērtību ar piemēroto nodokļu grupas vērtību **piemērojamības** noteikumā. Pretējā gadījumā tas turpinās izmantot Finanšu PVN grupas vērtību.
+    - Ja lietderīgo slodzi var saskaņot ar matricu Krājumu nodokļu grupa piemērojamība, piemērojamības kārtulā tiek ignorēta krājumu PVN grupas vērtība ar atbilstošo krājumu nodokļu **grupas** vērtību. Pretējā gadījumā tas turpinās izmantot krājumu PVN grupas vērtību no Finanšu.
+
+5. Nodokļu aprēķinu pakalpojums nosaka gala nodokļu kodus, izmantojot PVN grupas un krājumu PVN grupas krustpunktu.
+6. Nodokļu aprēķināšanas pakalpojums aprēķina nodokli, balstoties uz nodokļu beigu kodiem, ko tas noteicis.
+7. Nodokļu aprēķināšanas pakalpojums atgriež nodokļu aprēķina rezultātu finansēm.
+
+![Nodokļu aprēķina izpildlaika dizains.](media/tax-calculation-runtime-logic.png)
+
+### <a name="high-level-configuration"></a>Augsta līmeņa konfigurācija
+
+Šajās darbībās sniegts augsta līmeņa pārskats par konfigurācijas procesu nodokļu aprēķināšanas pakalpojumam.
+
+1. LCS instalē **nodokļu** aprēķina pievienojumprogrammu savā LCS projektā.
+2. RCS izveidojiet nodokļu **aprēķina** līdzekli.
+3. RCS iestatiet Nodokļu **aprēķina** līdzekli:
+
+    1. Atlasiet nodokļu konfigurācijas versiju.
+    2. Veidojiet nodokļu kodus.
+    3. Izveidojiet PVN grupu.
+    4. Izveidojiet krājumu PVN grupu.
+    5. Nav obligāti: izveidot nodokļu grupas piemērojamību, ja vēlaties ignorēt noklusēto PVN grupu, kas tiek ievadīta no debitora vai kreditora pamatdatiem.
+    6. Nav obligāti: izveidot krājumu grupas piemērojamību, ja vēlaties ignorēt noklusēto krājumu PVN grupu, kas ievadīta no krājumu pamatdatiem.
+
+4. RCS izpildiet un publicējiet **nodokļu aprēķina** līdzekli.
+5. Finanšu sadaļā atlasiet publicēto **nodokļu aprēķina** līdzekli.
+
+Kad šīs darbības pabeigtas, šie iestatījumi no RCS tiek automātiski sinhronizēti finansēs.
+
+- PVN kodi
+- PVN grupas
+- Krājumu PVN grupas
+
+Pārējās šīs tēmas sadaļas sniedz detalizētāku konfigurācijas soļus.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
-Pirms varat pabeigt šajā tēmā norādītās procedūras, katram vides veidam ir jāievieš priekšnosacījumi.
-
-Ir jāizpilda šādi priekšnosacījumi:
+Pirms varat izpildīt atlikušās procedūras šajā tēmā, jābūt izpildītiem šādiem priekšnosacījumi:<!--TO HERE-->
 
 - Jums jābūt piekļuvei LCS kontam un jābūt izvietotam LCS projektam ar 2. vai augstākas pakāpes vidi, kurā darbojas Dynamics 365 versija 10.0.21 vai jaunāka.
 - Jums ir jāizveido RCS vide jūsu organizācijai, un jums ir jābūt piekļuvei savam kontam. Papildinformāciju par to, kā izveidot RCS vidi, skatiet šeit: [Regulatory Configuration Service pārskats](rcs-overview.md).
@@ -72,15 +115,7 @@ Ir jāizpilda šādi priekšnosacījumi:
 5. Laukā **Tips** atlasiet **Globāls**.
 6. Atlasiet **Atvērt**.
 7. Dodieties uz **Nodokļu datu modelis**, izvērsiet failu koku un pēc tam atlasiet **Nodokļu konfigurācija**.
-8. Atlasiet pareizo nodokļu konfigurācijas versiju, pamatojoties uz savu Finance versiju, un pēc tam atlasiet **Importēt**.
-
-    | Partijas versija | Nodokļu konfigurācija                       |
-    | --------------- | --------------------------------------- |
-    | 10.0.18         | Nodokļu konfigurācija — Eiropa 30.12.82     |
-    | 10.0.19         | Nodokļu aprēķina konfigurācija 36.38.193 |
-    | 10.0.20         | Nodokļu aprēķina konfigurācija 40.43.208 |
-    | 10.0.21         | Nodokļu aprēķina konfigurācija 40.48.215 |
-
+8. Atlasiet pareizu nodokļu [konfigurācijas](global-tax-calcuation-service-overview.md#versions) versiju, pamatojoties uz finanšu versiju, un pēc tam atlasiet **Importēt**.
 9. Darbvietā **Globalizācijas līdzekļi**, atlasiet **Līdzekļi**, atlasiet elementu **Nodokļu aprēķins** un pēc tam atlasiet **Pievienot**.
 10. Atlasiet vienu no šiem līdzekļu tipiem:
 
@@ -209,42 +244,3 @@ Iestatījumus šajā sadaļā veic juridiska persona. Jums tas jākonfigurē kat
 
 5. Cilnē **Vairākas PVN reģistrācijas** varat atsevišķi ieslēgt PVN deklarāciju, ES pārdošanas sarakstu un Intrastat, lai strādātu vairāku PVN reģistrāciju scenārijā. Plašāku informāciju par nodokļu pārskatu veidošanu vairākām PVN reģistrācijām skatiet sadaļā [Pārskatu sniegšana vairākām PVN reģistrācijām](emea-reporting-for-multiple-vat-registrations.md).
 6. Saglabājiet iestatījumus un atkārtojiet iepriekšējās darbības katrai papildu juridiskajai personai. Kad tiek publicēta jauna versija un vēlaties to lietot, iestatiet lauku **Līdzekļu iestatīšana** lapas **Nodokļu aprēķina parametri** cilnē **Vispārīgi** (skat. 2. darbību).
-
-## <a name="transaction-processing"></a>Darbību apstrāde
-
-Kad esat pabeidzis visas iestatīšanas procedūras, varat izmantot Nodokļu aprēķinu, lai noteiktu un aprēķinātu nodokli programmā Finance. Darījumu apstrādes darbības paliek tās pašas. Finance versijā 10.0.21 tiek atbalstītas šādi darījumi:
-
-- Pārdošanas process
-
-    - Pārdošanas piedāvājums
-    - Pārdošanas pasūtījums
-    - Apstiprināšana
-    - Izdošanas saraksts
-    - Pavadzīme
-    - Pārdošanas rēķins
-    - Kredīta piezīme
-    - Atgriešanas pasūtījums
-    - Galvenā maksa
-    - Rindas maksa
-
-- Pirkšanas process
-
-    - Pirkuma pasūtījums
-    - Apstiprināšana
-    - Saņemšanas saraksts
-    - Produktu ieejas plūsma
-    - Pirkšanas rēķins
-    - Galvenā maksa
-    - Rindas maksa
-    - Kredīta piezīme
-    - Atgriešanas pasūtījums
-    - Pirkšanas pieprasījums
-    - Pirkšanas pieprasījuma rindas maksa
-    - Piedāvājuma pieprasījums
-    - Piedāvājuma pieprasījuma virsraksta maksa
-    - Piedāvājuma pieprasījuma rindas maksa
-
-- Krājumu process
-
-    - Pārvietošanas pasūtījums – nosūtīšana
-    - Pārsūtīšanas pasūtījums - saņemšana

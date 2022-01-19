@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d6f58eab38d1aee97a5d39704255bf06a168b36c
-ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
-ms.translationtype: HT
+ms.openlocfilehash: 26f8820fe707b8a2dff0dcc1a24884ef02e5616f
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "7581869"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952500"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>Inventory Visibility instalēšana un iestatīšana
 
@@ -71,6 +71,9 @@ Pēc pieteikuma reģistrēšanas un klienta noslēpuma pievienošanas Azure AD i
 1. Piekrist noteikumiem un nosacījumam, atlasot izvēles rūtiņu **Noteikumi un nosacījumi**.
 1. Atlasiet **Instalēt**. Pievienojumprogrammas statuss tiks rādīts kā **Instalē**. Pēc tam, kad instalēšana ir pabeigta, atsvaidziniet lapu. Statusam ir jāmainās uz **Instalēts**.
 1. Programmas Dataverse kreisās navigācijas rūtī izvēlieties sadaļu **Programmas** un pārbaudiet, vai **Krājumu redzamība** ir veiksmīgi instalēta Power Apps. Ja nav sadaļas **Programmas**, sazinieties ar Krājumu redzamības preču grupu [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
+
+> [!TIP]
+> Ieteicams pievienoties lietotāju grupai Krājumu redzamība– pievienojumprogramma, kurā varat atrast noderīgas ceļvežus, iegūt visjaunākos atjauninājumus un grāmatot visus jautājumus, kas jums varētu rasties par krājumu redzamības redzamību. Lai pievienoties, lūdzu, nosūtiet e-pastu krājumu redzamības produktu [komandai inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) un ietveriet jūsu Piegādes ķēdes pārvaldības vides ID.
 
 > [!IMPORTANT]
 > Ja jums ir vairāk nekā viena LCS vide, izveidojiet katrai videi atšķirīgu Azure AD lietojumprogrammu. Ja lietojat vienu lietojumprogrammas ID un nomnieka ID, lai instalētu Inventory Visibility lietojumprogrammu atšķirīgām vidēm, vecākām vidēm tiks rādīta marķiera problēma. Tikai pēdējā instalētā vide būs derīga.

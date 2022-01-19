@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 88dea2724f574383298c5deac9b76b4cd1d802b5427c8ec2a59a9d1ab0de4e0c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: ab125f963b8f2e00c8d937c6eea091970feaef65
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741588"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952550"
 ---
 # <a name="cost-accounting-home-page"></a>Izmaksu uzskaites sākumlapa
 
@@ -38,7 +38,7 @@ Nākamajā mācību kartē ir parādītas galvenās koncepcijas un uzdevumi, kur
 
 | &nbsp; | &nbsp;  |
 |------|---|
-|  [Bāzes elementu konfigurēšana (elektroniskās mācības)](https://mbspartner.microsoft.com/Home) (nepieciešams CustomerSource konts)  |[Izmaksu elementu dimensijas](cost-elements.md)  |
+|  [Sākt ar izmaksu uzskaiti (uzziniet)](https://docs.microsoft.com/learn/modules/get-started-cost-accounting-dyn365-finance/)  |[Izmaksu elementu dimensijas](cost-elements.md)  |
 |  [Dimensiju hierarhija](dimension-hierarchy.md)  |[Izmaksu vadības ierīču definēšana](./tasks/define-cost-control-units.md)| 
 | [Sadalījuma pamati](allocation-bases.md)|[Izmaksu sadalījuma politikas izveide un piešķiršana izmaksu vadības ierīcei](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
 | [Izmaksu uzskaites virsgrāmatas datu avota pārvaldība](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [Avota datu apstrāde un izsekošana](./tasks/process-trace-source-data.md)     | 
