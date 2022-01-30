@@ -2,7 +2,7 @@
 title: Pakāpeniskas plūsmas pasūtījumu izveide mazumtirdzniecības veikala transakcijām
 description: Šajā tēmā ir aprakstīta pakāpeniskas plūsmas pasūtījumu izveide veikala transakcijām risinājumā Microsoft Dynamics 365 Commerce.
 author: analpert
-ms.date: 12/14/2021
+ms.date: 01/11/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3a7fd8698d7123403cf9092a4a4bf810595d795b
-ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
+ms.openlocfilehash: 67b66cd4bf2a77f3ab7f33f691156e38cc13770a
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7921249"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964633"
 ---
 # <a name="trickle-feed-based-order-creation-for-retail-store-transactions"></a>Pakāpeniskas plūsmas pasūtījumu izveide mazumtirdzniecības veikala transakcijām
 
 [!include [banner](includes/banner.md)]
 
-Produkta Microsoft Dynamics 365 Commerce versijā 10.0.5 un jaunākās versijās iesakām visus izrakstu grāmatošanas procesus pārvērst par pakāpeniskas plūsmas grāmatošanas procesiem. Nozīmīgas veiktspējas un biznesa priekšrocības ir saistītas ar pakāpeniskas plūsmas funkcionalitāti. Pārdošanas transakcijas tiek apstrādātas dienas laikā. Norēķinu un skaidras naudas pārvaldības transakcijas tiek apstrādātas finanšu pārskatā dienas beigās. Pakāpeniskas plūsmas funkcionalitāte nodrošina nepārtrauktu pārdošanas pasūtījumu, rēķinu un maksājumu apstrādi. Tāpēc krājumus, ieņēmumus un maksājumus var atjaunināt un atpazīt gandrīz reāllaikā.
+Produkta Microsoft Dynamics 365 Commerce versijā 10.0.5 un jaunākās versijās iesakām visus izrakstu grāmatošanas procesus pārvērst par pakāpeniskas plūsmas grāmatošanas procesiem. Nozīmīgas veiktspējas un biznesa priekšrocības ir saistītas ar pakāpeniskas plūsmas funkcionalitāti. Pārdošanas transakcijas tiek apstrādātas dienas laikā. Norēķinu un skaidras naudas pārvaldības transakcijas tiek apstrādātas finanšu pārskatā dienas beigās. Pakāpeniskas plūsmas funkcionalitāte nodrošina nepārtrauktu pārdošanas pasūtījumu, rēķinu un maksājumu apstrādi. Tāpēc krājumi, ieņēmumi un maksājumi tiek atjaunināti un atzīti gandrīz reāllaikā.
 
 ## <a name="use-trickle-feed-based-posting"></a>Pakāpeniskas plūsmas grāmatošanas izmantošana
 
@@ -37,7 +37,7 @@ Lai iespējotu mazumtirdzniecības transakciju pakāpeniskas plūsmas grāmatoš
 
 ### <a name="transactional-statements"></a>Transakciju pārskati
 
-Transakciju pārskatu apstrāde tiks izpildīta bieži dienas liekā, lai tiktu izveidoti dokumenti, kad transakcijas tiek augšupielādētas komponentā Commerce Headquarters. Transakcijas no veikaliem tiek ielādētas komponentā Commerce Headquarters, izpildot **P darbu**. Izpildiet darbu **Veikala transakciju apstiprināšana**, lai apstiprinātu transakcijas un tās tiktu iekļautas transakciju pārskatā.
+Darbību pārskatu apstrādi ir paredzēts izpildīt bieži visas dienas liekā, lai, transakcijas augšupielādējot komponentā Commerce Headquarters, tiktu izveidoti dokumenti. Transakcijas no veikaliem tiek ielādētas komponentā Commerce Headquarters, izpildot **P darbu**. Izpildiet darbu **Veikala transakciju apstiprināšana**, lai apstiprinātu transakcijas un tās tiktu iekļautas transakciju pārskatā.
 
 Ieplānojiet tālāk minēto darbu izpildi ar lielu biežumu:
 
@@ -47,6 +47,10 @@ Ieplānojiet tālāk minēto darbu izpildi ar lielu biežumu:
 ### <a name="financial-statements"></a>Finanšu pārskati
 
 Finanšu pārskata apstrāde ir paredzēta kā darba dienas beigu process. Šī tipa pārskatu apstrāde atbalsta tikai **maiņas** slēgšanas metodi un iegrāmatos tikai slēgtās maiņas. Pārskati ir ierobežoti ar finanšu saskaņošanu. Tiks izveidoti tikai žurnāli attiecībā uz starpību starp dažādu norēķinu aprēķināto summu un transakcijas summu, kā arī žurnāli attiecībā uz citām naudas pārvaldības transakcijām.
+
+Finanšu pārskati sniedz arī iespēju pārskatīt šādas darbības: norēķinu deklarācijas darbības, maksājumu darbības, banku norēķinu darbības un drošus norēķinu darījumus. Norēķinu detalizētas informācijas lapa ir redzama tikai tad, ja ir atlasīts kāds finanšu pārskats.
+
+![Attēls, kas rāda iegrāmatoto pārskatu veidlapas norēķinu detalizētas informācijas sadaļu tikai tad, ja ir atlasīts kāds finanšu pārskats.](./media/Trickle-feed-posted-statements-transaction-view.png)
 
 Plānojiet norādīto finanšu pārskata darbu sākuma un beigu laikus, pamatojoties uz paredzētajām dienas beigām:
 
