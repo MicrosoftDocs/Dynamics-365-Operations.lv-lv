@@ -2,7 +2,7 @@
 title: Iestatiet itālijas FatturaPA tiešo integrāciju ar SDI
 description: Šajā tēmā sniegta informācija, kas palīdzēs jums uzsākt elektronisko rēķinu izrakstīšanu Itālijai un iestatīt tiešu Itālijas FatturaPA integrāciju ar Apmaiņas sistēmu (SDI).
 author: abaryshnikov
-ms.date: 12/14/2021
+ms.date: 01/15/2022
 ms.topic: article
 audience: Application User, Developer
 ms.reviewer: kfend
@@ -10,18 +10,16 @@ ms.search.region: Global
 ms.author: abaryshnikov
 ms.search.validFrom: 2021-10-18
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 0ccc9f04e42e748b4531622a1c90559d4ca17196
-ms.sourcegitcommit: b1c758ec4abfcf3bf9e50f18c1102d4a9c1316d0
+ms.openlocfilehash: 73cb08c880d7b3459201acfc7aeaa8d0dee1674f
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "7922464"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984807"
 ---
 # <a name="set-up-direct-integration-of-italian-fatturapa-with-sdi"></a>Iestatiet itālijas FatturaPA tiešo integrāciju ar SDI
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 > [!IMPORTANT]
 > Elektronisko rēķinu izrakstīšana Itālija, iespējams, pašlaik neatbalsta visas funkcijas, kas ir pieejamas elektroniskajiem rēķiniem Microsoft Dynamics 365 Finance un Dynamics 365 Supply Chain Management.
@@ -60,7 +58,7 @@ Pirms programmatūras izvietošanas pievienotajā Finanšu vai piegādes ķēžu
 6. Pievienojiet katrai sistēmā definētai apakškategorijai specifiskus nosacījumus un pēc tam saglabājiet izmaiņas.
 
     > [!NOTE]
-    > Kolonnā Nosaukums noteiktas vērtības vietā varat atlasīt vērtību \*\* \* Tukšs vai Nav \* tukšs vietturis.
+    > Kolonnā **Nosaukums** noteiktas vērtības vietā varat atlasīt vērtību **\*Tukšs\*** vai **\*Nav\*** tukšs vietturis.
 
 ### <a name="configure-a-processing-pipeline-for-export"></a>Konfigurēt eksporta apstrādes konveijeru
 
@@ -302,7 +300,7 @@ Veiciet šīs darbības datorā, kur tiek viesots starpniekservera pakalpojums.
 
 7. Atlasiet un turiet (vai noklikšķiniet ar peles labo pogu) **vietnes un pēc tam atlasiet Pievienot** **vietni**.
 8. Dialoglodziņa **Pievienot** vietni laukā **Vietnes nosaukums** ievadiet vietnes nosaukumu.
-9. Laukā **Fiziskais** ceļš norādiet uz mapi **src \\** FattureService.
+9. Laukā **Fiziskais** ceļš norādiet uz mapi **src \\FattureService**.
 10. Laukā **Saistīšanas** tips atlasiet **https**.
 11. Laukā **Resursdatora** nosaukums norādiet resursdatora nosaukumu.
 12. Atstājiet **IP adreses un porta** **laukus** iestatīt uz noklusējuma vērtībām.

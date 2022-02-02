@@ -3,25 +3,24 @@ title: Optimizācijas padomnieka pārskats
 description: Šajā tēmā ir aprakstīts, kā varat izmantot optimizācijas padomnieku, lai palīdzētu nodrošināt optimālu Finance and Operations konfigurāciju.
 author: roxanadiaconu
 ms.date: 07/23/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: fb076882e20e7c94bf0a95f3a5365b5fe8c25cedd431fb07d6e0dc5950ebb688
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 8039ff51dfb07bbdf5d6a102de1ff4ddbfd907a5
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728995"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984106"
 ---
 # <a name="optimization-advisor-overview"></a>Optimizācijas padomnieka pārskats
 
@@ -29,7 +28,7 @@ ms.locfileid: "6728995"
 
 Šajā tēmā ir aprakstīts, kā varat izmantot optimizācijas padomnieku, lai palīdzētu nodrošināt optimālu Finance and Operations konfigurāciju.
 
-## <a name="overview"></a>Pārskats
+## <a name="overview"></a>Kopsavilkums
 
 Nepareiza moduļa konfigurācija iestatījumi var negatīvi ietekmēt līdzekļu pieejamību, sistēmas veiktspēju un biznesa procesu sekmīgu norisi. Biznesa datu kvalitāte (piemēram, pareizību, pilnīgumu un datu precizitāti) ietekmē arī sistēmas veiktspēju, kā arī organizācijas lēmumu pieņemšanas iespējas, produktivitāti u. c. faktorus.
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7ac91dd1d3dfffbf98733bbd8fe8beda538250da
-ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
-ms.translationtype: HT
+ms.openlocfilehash: e3f9ff4b0654ec5fa7548ac62e16ae64f44383e7
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7473553"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968106"
 ---
 # <a name="configure-ratings-and-reviews"></a>Vērtējumu un atsauksmju konfigurēšana
 
@@ -87,9 +87,17 @@ Informāciju par vērtējumu un apskatu konfigurēšanu preču detalizētas info
 
 [Vērtējumu un atsauksmju pārvaldība](manage-reviews.md)
 
-[Konfigurējiet vērtējumu un pārskata moduļus preces detalizētas informācijas lapās](ratings-reviews-modules.md)
-
 [Preču vērtējumu sinhronizācija Dynamics 365 Retail](sync-product-ratings.md)
+
+[Iespējojiet moderatora manuālo vērtējumu un atsauksmju publicēšanu](manual-publish-rating-reviews.md)
+
+[Importēt un eksportēt vērtējumus un pārskatus](import-export-reviews.md)
+
+[Konfigurēt pakalpojumu-pakalpojuma autentifikāciju](service-to-service-auth.md)
+
+[BUJ par vērtējumiem un atsauksmēm](ratings-reviews-faq.md)
+
+[Vērtējumu un apskatu moduļi](ratings-reviews-modules.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

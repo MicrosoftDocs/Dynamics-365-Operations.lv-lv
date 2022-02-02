@@ -2,25 +2,25 @@
 title: Nomas parametru konfigurēšana (priekšskatījums)
 description: Šajā tēmā ir aprakstīti konfigurācijas iestatījumi Līdzekļu nomai, piemēram, drošības informācija un uzskaites iestatījumi.
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 01/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetLeasePostingAccounts
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e5f0aeddfa9d3f27500b033d4b4fb0fb1731105a28be4a6934b2328d62df6ec1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 2a644b3c9d9ed4fc86a816af1ab338b96b1aa7ad
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779042"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968081"
 ---
 # <a name="configure-lease-parameters"></a>Nomas parametru konfigurēšana
 
@@ -33,16 +33,17 @@ Vairāki konfigurācijas iestatījumi ietekmē Līdzekļu nomas darbību. Šie i
 
     Parametrs **Atļaut manuālās klasifikācijas pārlabošanu** nosaka, vai nomas klasifikāciju var pārlabot pirms maksājumu grafika apstiprināšanas.
 
-    Parametrs **Partija no dažādiem elementiem** nosaka, vai varat grāmatot citās juridiskajās personās no esošās juridiskās personas. Ja šis parametrs ir ieslēgts, varat izveidot žurnāla ierakstus juridiskām personām, kurām jums ir piekļuve.
+    Starpuzņēmumu **partijas** parametrs nosaka, vai varat grāmatot citām juridiskām personām no pašreizējās juridiskās personas. Ja šis parametrs ir ieslēgts, varat izveidot žurnāla ierakstus juridiskām personām, kurām jums ir piekļuve.
 
-3. Iestatiet opciju **Atļaut dzēst apstiprinātās nomas** uz **Jā**, lai atļautu dzēst nomas, kam ir apstiprināti maksājumu grafiki. Nomu nevar dzēst, ja ar tām ir saistītas grāmatoti vai negrāmatoti darījumi, neatkarīgi no šīs opcijas iestatījuma. Nav iespējams atjaunot nomas ierakstu pēc tā dzēšanas. Ja augšupielādējiet jebkādus ierakstus par dzēstu nomu vai nu manuāli, vai izmantojot datu entītijas, augšupielādētā informācija tiek uzskatīta par jaunu, nevis esošas nomas atjauninājumu.
+3. Iestatiet opciju Atļaut dzēst apstiprināto nomas maksu uz Jā, lai atļautu dzēst nomas **maksājumu** **grafikus**, kas ir apstiprinājuši maksājumu grafikus. Nomu nevar dzēst, ja ar tām ir saistītas grāmatoti vai negrāmatoti darījumi, neatkarīgi no šīs opcijas iestatījuma. Nav iespējams atjaunot nomas ierakstu pēc tā dzēšanas. Ja augšupielādējiet jebkādus ierakstus par dzēstu nomu vai nu manuāli, vai izmantojot datu entītijas, augšupielādētā informācija tiek uzskatīta par jaunu, nevis esošas nomas atjauninājumu.
 
     Iestatot šo opciju kā **Jā** un grāmatas pārejas veidu kā **Kumulatīvās izlīdzināšanas opcija A vai B**, sistēma iestata lauku **Salīdzināmā aizņēmuma procentu likme** uz lauka **Salīdzināmā aizņēmuma procentu likme pārejas laikā** vērtību lapā **Grāmatas iestatījumi**. Ja šī opcija ir iestatīta uz **Nē**, neatkarīgi no grāmatas pārejas veida galvenās nomas likme ir iestatīta uz vērtību laukā **Salīdzināmā aizņēmuma procentu likme** lapā **Detalizēta informācija par grāmatu**.
 
-4. Iestatiet opciju **Atļaut nolietojuma anulēšanu slēgtā grāmatas versijā** uz **Jā**, atļautu nolietojuma izdevumu darījumu anulēšanu. Izdevumu darījumus var anulēt pat tad, ja grāmatas versija ir slēgta.
+4. Lai atļautu nolietojuma izdevumu darbību atgriešanu, iestatiet opciju Atļaut nolietojuma **atgriešanu** **slēgtajā** grāmatā kā Jā. Izdevumu darījumus var anulēt pat tad, ja grāmatas versija ir slēgta.
 
     > [!NOTE]
     > Ieteicams saglabāt šo opciju iestatītu uz **Nē**. Šīs opcijas iestatījums tiek izmantots kā validācija un kontrole, lai novērstu, ka slēgtas grāmatas versijā nolietojums tiek piemērots nejauši. Saglabājot opciju iestatītu uz **Nē**, varat nodrošināt precīzu atlikušo vērtību un nākotnes nolietojuma aprēķinus.
 
+5. Lai atļautu maksājumu summu sadalījumu lapas Maksājumu grafika rindu kopsavilkuma cilnē, iestatiet opciju Atļaut maksājuma summas sadalījumu **kā** **·** **·** **Jā**. Maksājuma sadalījuma tipi ir noteikti zem **Iestatījuma** lapā **Maksājumu summu** tipi. 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

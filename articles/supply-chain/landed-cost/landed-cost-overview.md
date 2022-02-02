@@ -3,23 +3,22 @@ title: Kopējo izmaksu modulis
 description: Kopējo izmaksu modulis palīdz uzņēmumiem racionalizēt ienākošās kravas nosūtīšanas darbības, sniedzot lietotājiem pilnīgu finanšu un nepilnu kontroli pār importēto kravu no ražotāja uz noliktavu.
 author: sherry-zheng
 ms.date: 12/07/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 384649ada36496e8f0bf5709e7f2ab53730aca1a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: e4861c0e8b3680f3cd3229facf059b671a4fc765
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565859"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983421"
 ---
 # <a name="landed-cost-module"></a>Kopējo izmaksu modulis
 

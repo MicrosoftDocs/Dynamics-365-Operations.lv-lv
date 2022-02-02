@@ -1,24 +1,23 @@
 ---
 title: Latvijas pārskats
 description: Šajā tēmā ir sniegtas saites uz Latvijai paredzētajiem Microsoft Dynamics 365 Finance dokumentācijas resursiem.
-author: ShylaThompson
-ms.date: 07/25/2019
-ms.topic: article
+author: kfend
+ms.date: 01/18/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
 ms.search.region: Latvia
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a69fcf97cb1423053d98ddadc703354caa65ccc1dbe4b987042c4cacb4ef24fa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 43e0110e537939b4d8ed8528162c295a7d498e95
+ms.sourcegitcommit: 9638d3a2bd592dc28f5952bda4af7dcf06edfaa4
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782212"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8007559"
 ---
 # <a name="latvia-overview"></a>Latvijas pārskats
 
@@ -31,6 +30,7 @@ ms.locfileid: "6782212"
 - [Rēķinu un pavadzīmju numerācija](emea-invoices-packing-slips-numbering.md)
 - [Dabas resursu nodokļa pārskats](emea-lva-tax-natural-resources.md)
 - [PVN deklarācijas informācija](emea-lva-vat-statement-details.md)
+- [Latvijas Intrastat](emea-lva-intrastat.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

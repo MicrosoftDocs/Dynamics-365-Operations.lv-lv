@@ -2,23 +2,22 @@
 title: Inženierzinātnes izmaiņu pārvaldības apskats (satur video)
 description: Šajā tēmā sniegts pārskats par tehnoloģisko izmaiņu pārvaldību, kas palīdz plānot un pārvaldīt preču versiju izveidi un pārvaldīt produktu dzīves ciklus un tehnikas izmaiņas.
 author: t-benebo
-ms.date: 08/26/2021
-ms.topic: article
+ms.date: 01/11/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d667aef827addcf7c34075b08afffffe3fd71935
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
-ms.translationtype: HT
+ms.openlocfilehash: 8c200796d587d77c0f4d2344524a890ba964ab39
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952602"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985216"
 ---
 # <a name="engineering-change-management-overview"></a>Tehnoloģisko izmaiņu pārvaldības pārskats
 
@@ -39,9 +38,9 @@ Tehnikas izmaiņu pārvaldība, kas palīdz plānot un pārvaldīt preču versij
 - Tehnikas izmaiņu pieprasījumi, ko atbalsta darbplūsmas
 - Tehnikas izmaiņu pasūtījumi, ko atbalsta darbplūsmas
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4HE6B]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HE6B]
 
-Iepriekšējais video ([Izmaiņu pārvaldības iespējas sistēmā Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) ir iekļauts [Finance and Operations atskaņošanas sarakstā](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), kas pieejams YouTube.
+Iepriekšējais video [(mainīt pārvaldības Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc) iespējas) ir iekļauts finanšu un [operāciju iespējas, kas](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) pieejamas YouTube.
 
 ## <a name="turn-on-the-engineering-change-management-features-for-your-system"></a>Inženiertehnisko izmaiņu pārvaldības līdzekļu iespējošana sistēmā
 
@@ -71,7 +70,9 @@ Tad ieslēdziet konfigurācijas atslēgas, veicot šādas darbības.
 
 1. Ja arī vēlaties izmantot versijas dimensiju, atzīmējiet izvēles rūtiņu **Preces dimensija – versija**. (Šī izvēles rūtiņa atrodas tālāk sarakstā, nevis ligzdota zem **Inženiertehnisko izmaiņu pārvaldība** zara.)
 1. Izslēdziet uzturēšanas režīmu, kā aprakstīts sadaļā [Uzturēšanas režīms](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-1. Palaidiet datu bāzes sinhronizāciju, lai nodrošinātu, ka konfigurācijas atslēgas ir pareizi iespējotas.
+1. Lai nodrošinātu pareizu konfigurācijas atslēgu aktivizēšanu, datu bāze ir jāsinhronizē. Atkarībā no tā, pie kāda tipa vides jūs strādājat, veiciet vienu no tālāk minētajiem soļiem:
+    - **1. pakāpes (izstrādes) vidēm: atveriet projektu programmā Microsoft un pēc** Visual Studio tam atlasiet Dynamics **365 \> Sinhronizēt datu bāzes \>** sinhronizāciju.
+    - **2. pakāpes (un augstākām) vidēm: datu bāze automātiski tiek sinhronizēta pēc vides izvietošanas uzturēšanas režīmā un ārpus tā, tādēļ varat** izlaist šo darbību.
 
 > [!IMPORTANT]
 > Sākot no 2022. gada aprīļa, licences atslēgas gan **Inženierzinātnes izmaiņu pārvaldībai**, gan **Preces dimensijai - versija** tiks aktivizētas pēc noklusējuma visām jaunajām instalācijām, bet, ja nepieciešams, tās joprojām būs iespējams deaktivizēt.

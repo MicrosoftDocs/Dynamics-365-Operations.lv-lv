@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 06c28e078a09cfadda6cbb0565bcaf8564681efaae8f57817922afb07ff4e6b9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: d118c90dc16be964bb22aa6f170fe2d2f009b3e9
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725438"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964558"
 ---
 # <a name="add-languages-to-your-site"></a>Valodu pievienošana vietnei
 
@@ -164,8 +164,6 @@ Pievienotā valoda tagad būs pieejama. Varat konfigurēt savu vietni, lai to iz
 [Darbs ar CSS ignorēšanas failiem](css-override-files.md)
 
 [Izlases ikonas pievienošana](add-favicon.md)
-
-[Sveiciena ziņojuma pievienošana](add-welcome-message.md)
 
 [Autortiesību paziņojuma pievienošana](add-copyright-notice.md)
 

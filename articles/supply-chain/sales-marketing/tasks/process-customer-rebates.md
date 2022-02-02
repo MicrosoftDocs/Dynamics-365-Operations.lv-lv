@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 355ca6b8a06b15b68e0fd6236999b4e64a83bf2a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: a85c027571a6d77ed61cd874bb9d97221b099967
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573349"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7969091"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Debitora atlaižu ģenerēšana un apstrāde
 
@@ -69,7 +69,7 @@ ms.locfileid: "7573349"
 2. Noklikšķiniet uz **Uzkrāt**.
 3. Laukā **Debitors** ievadiet vai atlasiet kādu vērtību.
 4. Laukā **Sākuma datums** atlasiet šodienas datumu.
-5. Noklikšķiniet uz **Labi**. Funkcijas **Uzkrāt** lietošanas rezultātā novērtētā prasību summa tikusi koriģēta, lai ņemtu vērā faktu, ka debitora kopējais pārdošanas apjoms attiecīgajā periodā ir augstāks nekā pirmās atlaides ģenerēšanas brīdī. Precīzāk sakot, tā kā kopējais nopirktais daudzums ir sasniedzis 100 vienības, debitoram tagad ir tiesības uz 40 USD uz vienību (atbilstoši līguma otrajam daudzuma pārtraukumam) vai kopējo atlaides summu 400 USD apmērā. Starpība ir ierakstīta kā jauna prasības "korekcija" papildu 800 USD. Atlaides prasību, kas tika iekļautas funkcijā Uzkrāt atjauninājumu, statuss tagad ir iestatīts uz Aprēķināts. 
+5. Noklikšķiniet uz **Labi**. Funkcijas **Uzkrāt** lietošanas rezultātā novērtētā prasību summa tikusi koriģēta, lai ņemtu vērā faktu, ka debitora kopējais pārdošanas apjoms attiecīgajā periodā ir augstāks nekā pirmās atlaides ģenerēšanas brīdī. Precīzāk sakot, tā kā kopējais nopirktais daudzums ir sasniedzis 100 vienības, debitoram tagad ir tiesības uz 40 USD uz vienību (atbilstoši līguma otrajam daudzuma pārtraukumam) vai kopējo atlaides summu 4,000 USD apmērā. Starpība ir ierakstīta kā jauna prasības "korekcija" papildu 800 USD. Atlaides prasību, kas tika iekļautas funkcijā Uzkrāt atjauninājumu, statuss tagad ir iestatīts uz Aprēķināts. 
 6. Sarakstā atzīmējiet visas rindas.
 7. Noklikšķiniet uz **Apstiprināt**.
 8. Noklikšķiniet uz **Apstrādāt**.

@@ -3,7 +3,7 @@ title: Pārskats par pieprasījuma prognozēšanu
 description: Pieprasījuma prognozēšanas tiek izmantota, lai prognozētu debitoru pasūtījumu neatkarīgu pieprasījumu pēc pārdošanas pasūtījumiem un atkarīgos pieprasījums jebkurā atsaistīšanas punktā. Uzlabotās pieprasījuma apjoma prognozes samazināšanas kārtulas nodrošina lielisku lielapjoma pielāgošanas risinājumu.
 author: ChristianRytt
 ms.date: 07/07/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 980001dda67e96ab3f428ad60cb7951dd5de4d0c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 34a8cd4b17a5a75a5e817e6a1f982d75eefbb717
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571021"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983074"
 ---
 # <a name="demand-forecasting-overview"></a>Pārskats par pieprasījuma prognozēšanu
 
@@ -56,7 +56,7 @@ Pieprasījuma prognozēšanā ir ieviestas trīs tālāk norādītās galvenās 
 - **Modularitāte** — pieprasījuma prognozēšanas ir modulārs un viegli konfigurējams process. Šo funkciju var ieslēgt un izslēgt, mainot konfigurācijas atslēgu sadaļā **Tirdzniecība** &gt; **Krājumu prognoze** &gt; **Pieprasījuma prognozēšana**.
 - **Atkārtota Microsoft Stack izmantošana** – algoritmiskā mācīšanās, kas ir daļa no platformas Microsoft Cortana Analytics Suite, sniedz iespēju ātri vienkārši izveidot prognozējošas analīzes eksperimentus, piemēram, pieprasījuma novērtēšanas eksperimentus, izmantojot R algoritmus vai Python programmēšanas valodas un vienkāršu vilkšanas un nomešanas interfeisu.
   - Pieprasījuma prognozēšanas eksperimentus var lejupielādēt, tos var mainīt, lai tie atbilstu uzņēmējdarbības prasībām, publicēt kā tīmekļa pakalpojumu Azure vietnē un izmantot tos, lai ģenerētu pieprasījuma apjoma prognozes. Eksperimentus var lejupielādēt, ja Supply Chain Management ražošanas plānotāja abonementu esat iegādājies kā uzņēmuma līmeņa lietotājs.
-  - Visi pašlaik pieejamie pieprasījuma apjoma prognozes eksperimenti ir pieejami lejupielādei sadaļā [Cortana Analytics galerija](https://gallery.cortanaanalytics.com/). Lai gan Pieprasījuma prognozēšanas eksperimenti tiek automātiski integrēti programmatūrā Supply Chain Management, klientiem un partneriem ir jāveic to eksperimentu integrēšana, ko viņi lejupielādē no [Cortana Analytics galerijas](https://gallery.cortanaanalytics.com/). Līdz ar to sadaļā [Cortana analīzes galerijā](https://gallery.cortanaanalytics.com/) pieejamos eksperimentus nevar vienkārši izmantot kā Finance and Operations prognozēšanas eksperimentus. Eksperimentu kods ir jāmaina tā, lai tiek izmantots lietojumprogrammas Finance and Operations programmēšanas interfeiss (API).
+  - Visi pašlaik pieejamie pieprasījuma apjoma prognozes eksperimenti ir pieejami lejupielādei sadaļā [Cortana Analytics galerija](https://gallery.cortanaanalytics.com/). Lai gan Pieprasījuma prognozēšanas eksperimenti tiek automātiski integrēti programmatūrā Supply Chain Management, klientiem un partneriem ir jāveic to eksperimentu integrēšana, ko viņi lejupielādē no [Cortana Analytics galerijas](https://gallery.cortanaanalytics.com/). Tāpēc no [Cortana Analytics galerijas](https://gallery.cortanaanalytics.com/) lejupielādēto eksperimentu lietošana ir sarežģītāka nekā Finance and Operations pieprasījuma prognozēšanas eksperimentu lietošana. Eksperimentu kodu ir nepieciešams modificēt tā, lai eksperimentiem tiktu izmantots Finance and Operations programmēšanas interfeiss (API).
   - Varat izveidot savus eksperimentus pakalpojumā Microsoft Azure Machine Learning Studio (klasiskā), publicēt tos kā pakalpojumus platformā Azure un izmantot tos pieprasījuma apjoma prognožu ģenerēšanai.
   - Ja nav nepieciešama augsta veiktspēja vai ja nav jāapstrādā liels datu apjoms, var izmantot pakalpojuma Machine Learning bezmaksas līmeni. Mēs iesakām sākt darbu, izmantojot šo līmeni īpaši ieviešanas un testēšanas fāzes laikā. Ja ir nepieciešama augstāka veiktspēja un papildu krātuves vieta, var izmantot pakalpojuma Machine Learning standarta līmeni. Lai varētu izmantot šo līmeni, ir nepieciešams Azure abonements un jārēķinās ar papildu izmaksām. Plašāku informāciju par algoritmiskās mācīšanās izcenojumu skatiet tēmā [Machine Learning Studio izcenojums](https://aka.ms/machine-learning-price-info).
 - **Budžeta samazinājums jebkurā atsaistīšanas punktā** — Pieprasījuma prognozēšana ir atkarīga no šīs funkcionalitātes, kas ļauj prognozēt gan atkarīgo, gan neatkarīgo pieprasījumu jebkurā atsaistīšanas punktā.

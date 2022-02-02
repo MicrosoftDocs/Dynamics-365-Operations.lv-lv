@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 16ccd7f2e11f0b46aaa646de272e668d29ccc0c0
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 5002fc79842bef150892347a7ff4702b07cfe5be
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752932"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968891"
 ---
 # <a name="enable-customer-payment-predictions"></a>Debitora maksājumu prognožu iespējošana
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Šajā tēmā paskaidrots, kā ieslēgt un konfigurēt debitora maksājumu prognozēšanas līdzekli Finanšu ieskatos. Jūs ieslēdzat līdzekli līdzekļu pārvaldības **·** darbvietā un ievadāt konfigurācijas iestatījumus **finanšu ieskatu konfigurācijas** lapā. Šajā tēmā iekļauta arī informācija, kas var palīdzēt efektīvi izmantot līdzekli.
+Šajā tēmā paskaidrots, kā ieslēgt un konfigurēt debitora maksājumu prognozēšanas līdzekli Finanšu ieskatos. Jūs ieslēdzat līdzekli līdzekļu pārvaldības **darbvietā** un ievadāt konfigurācijas iestatījumus **finanšu ieskatu konfigurācijas** lapā. Šajā tēmā iekļauta arī informācija, kas var palīdzēt efektīvi izmantot līdzekli.
 
 > [!NOTE]
 > Pirms veicat tālāk norādītās darbības, pārliecinieties, vai ir paveiktas priekšnosacījumu darbības tēmā [Finanšu ieskatu konfigurēšana](configure-for-fin-insites.md).
@@ -44,9 +43,9 @@ ms.locfileid: "7752932"
 2. Konfigurējiet debitora maksājumu ieskatu līdzekli:
 
     1. Dodieties uz **Kredīta un kolekcijas \> Iestatīšanas finanšu \> ieskatu debitoru maksājumu \>** prognozes.
-    2. Finanšu ieskatu konfigurācijas lapā cilnē Debitoru maksājumu prognozes atlasiet Skatīt datu laukus, kas tiek izmantoti prognozēšanas modelī, lai atvērtu datu **·** **laukus** **·** **prognozēšanas modeļa** lapai. Tur varat apskatīt noklusējuma sarakstu ar laukiem, kas tiek izmantoti, lai izveidotu mākslīgā intelekta prognozēšanas modeli debitora maksājumu prognozēm.
+    2. Finanšu ieskatu konfigurācijas lapā cilnē Debitoru maksājumu prognozes atlasiet Skatīt datu laukus, kas tiek izmantoti prognozēšanas modelī, lai atvērtu **datu** **laukus** **·** **prognozēšanas modeļa** lapai. Tur varat apskatīt noklusējuma sarakstu ar laukiem, kas tiek izmantoti, lai izveidotu mākslīgā intelekta prognozēšanas modeli debitora maksājumu prognozēm.
 
-        Lai izmantotu noklusējuma lauku sarakstu, lai izveidotu prognozēšanas modeli, aizveriet datu laukus prognozēšanas modeļa lapai un pēc tam finanšu ieskatu konfigurācijas lapā iestatiet opciju Iespējot uz **·** **·** **·** **·** Jā.
+        Lai izmantotu noklusējuma lauku sarakstu, lai izveidotu prognozēšanas modeli, aizveriet datu laukus prognozēšanas modeļa lapai un pēc tam finanšu ieskatu konfigurācijas lapā iestatiet opciju Iespējot **uz** **·** **·** **Jā**.
 
     3. Nosakiet darījumu periodu "ļoti novēloti", lai definētu, ko jūsu biznesam nozīmē prognozēšanas grozs **Ļoti novēloti**.
 
@@ -66,6 +65,6 @@ ms.locfileid: "7752932"
 
     Līdzeklis tagad ir konfigurēts un ir gatavs lietošanai.
 
-Pēc tam, kad funkcija ir ieslēgta un konfigurēta, un prognozēšanas modelis ir izveidots un darbojas, finanšu ieskatu parametru lapas prognozēšanas modelis parāda modeļa **·** **·** precizitāti.
+Pēc tam, kad funkcija ir ieslēgta un konfigurēta, un prognozēšanas modelis ir izveidots un darbojas, finanšu ieskatu parametru lapas prognozēšanas modelis parāda **modeļa** **precizitāti**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

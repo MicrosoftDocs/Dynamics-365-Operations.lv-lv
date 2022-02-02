@@ -3,7 +3,7 @@ title: Klienta maksājumu ieskati (priekšskatījums)
 description: Šī tēma apraksta maksājuma ieskatu iespēju, kas var palīdzēt uzlabot izpratni par atsevišķu debitoru parasto maksājumu praksi. Šis līdzeklis var arī palīdzēt identificēt apstākļus, kas attaisno iekasēšanas procesu sākšanu agrāk, nekā to varētu sākt citādi.
 author: ShivamPandey-msft
 ms.date: 11/06/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: ecd368237f949b6cbfbbb7293f6ddc5b1199d6fc0aef7e0bf44f4a2a808a6ccb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: d359e3ceef0fb7213d52aeb265da2e75120ae223
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737777"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984006"
 ---
 # <a name="customer-payment-insights-preview"></a>Klienta maksājumu ieskati (priekšskatījums)
 
@@ -61,7 +61,7 @@ Ar debitoru maksājumu ieskatu (priekšskatījums), organizācijas var būt akt�
 
 ## <a name="methodology"></a>Metodoloģija
 
-AI risinājuma izstrāde un izvietošana ir grūta. Ir nepieciešama datu zinātnieku grupa, mācību priekšmetu eksperti un inženieri, kas strādā ilgāku laika periodu, lai formulētu, attīstītu, izvietotu un uzturētu izmantojamu AI risinājumu. Mēs atvieglojam AI risinājumu izvietošanu un izmantošanu programmā Finance. Mēs esam ievietojuši AI risinājumus programmā Finance, kas ir iebūvēti papildus Microsoft AI Builder. Gala lietotājs ar vienu pogas klikšķi var izvietot AI risinājumu un sākt izmantot inteliģento prognožu iespējas. Ja organizācija nav apmierināta ar prognožu precizitāti, prasmīgs lietotājs, atkal izmantojot vienu klikšķi, var ievadīt AI builder paplašināšanas pieredzi un pēc tam atlasīt vai noņemt laukus, ko izmanto prognožu ģenerēšanai. Kad tas ir sagatavots, tie var apmācīt un publicēt izmaiņas, un jaunais modelis tiks automātiski ievākts prognozēm programmā Finance.
+AI risinājuma izstrāde un izvietošana ir grūta. Ir nepieciešama datu zinātnieku grupa, mācību priekšmetu eksperti un inženieri, kas strādā ilgāku laika periodu, lai formulētu, attīstītu, izvietotu un uzturētu izmantojamu AI risinājumu. Mēs atvieglojam AI risinājumu izvietošanu un izmantošanu programmā Finance. Mēs esam prepackaging AI risinājumi Finansēs, kas ir veidotas uz Microsoft bāzes AI Builder. Gala lietotājs ar vienu pogas klikšķi var izvietot AI risinājumu un sākt izmantot inteliģento prognožu iespējas. Ja organizācija nav apmierināta ar prognožu precizitāti, prasmīgs lietotājs, atkal izmantojot vienu klikšķi, var ievadīt AI builder paplašināšanas pieredzi un pēc tam atlasīt vai noņemt laukus, ko izmanto prognožu ģenerēšanai. Kad tas ir sagatavots, tie var apmācīt un publicēt izmaiņas, un jaunais modelis tiks automātiski ievākts prognozēm programmā Finance.
 
 ## <a name="how-to-get-customer-payment-insights-preview"></a>Kā iegūt debitoru maksājumu ieskatus (priekšskatījums)?
 
@@ -69,7 +69,7 @@ Nosūtiet e-pasta ziņojumu uz [Debitoru maksājumu ieskati (priekšskatījums)]
 
 ## <a name="privacy-notice"></a>Paziņojums par konfidencialitāti
 
-Priekšskatījumiem (1) var tikt izmantots mazāk konfidencialitātes un drošības pasākumu nekā pakalpojumam Dynamics 365 Finance and Operations, (2) tie nav ietverti pakalpojuma līmeņa līgumā par šo pakalpojumu, (3) tos nedrīkst izmantot personas datu vai citu tādu datu apstrādei, uz kuriem attiecas juridiskās vai normatīvās prasības, un (4) tiem tiek nodrošināts ierobežots atbalsts.
+Priekšskatījumi (1) var izmantot mazāk konfidencialitātes un drošības pasākumus nekā and Operāciju pakalpojums, (2) nav iekļauti šī pakalpojuma līmeņa līgumā(3), (3) nedrīkst izmantot, lai apstrādātu personas datus vai citus datus, uz kuriem attiecas juridiskās vai regulēšanas saskaņotības prasības, un (4) ir ierobežots Dynamics 365 Finance atbalsts.
 
 
 

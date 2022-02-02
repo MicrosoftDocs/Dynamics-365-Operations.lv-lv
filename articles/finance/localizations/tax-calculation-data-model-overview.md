@@ -3,7 +3,7 @@ title: Nodokļu aprēķina datu modelis
 description: Šajā tēmā ir sniegta informācija par nodokļu datu modeli un to, kā katra datu modeļa lauka vērtības tiek noteiktas nodokļu aprēķina darbību kontekstā.
 author: kailiang
 ms.date: 10/15/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4b9b3e28b9435e9614b06d4fa2855b31d0e38b41
-ms.sourcegitcommit: 93cc9823016c9f2fd568ada0b670a52c8c3bfa33
+ms.openlocfilehash: 2773efaed9ee30ccb27b35f5aa00515ebba1c84a
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7864264"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985970"
 ---
 # <a name="tax-calculation-data-model"></a>Nodokļu aprēķina datu modelis
 
 Šajā tēmā ir sniegta informācija par to, kā katra nodokļu datu modeļa lauka vērtības tiek noteiktas nodokļu aprēķina darbībās.
 
-Lauks *nodokļu datu modelis* tiek veidots no laukiem, kas nepieciešami nodokļu aprēķiniem. Microsoft nodrošina *nodokļu aprēķina datu modeli*, kas ietver programmu Finance and Operations darbību dokumentu galvenes laukus un rindu laukus. Nodokļu aprēķina datu modelī definētie lauki ir pieejamas nodokļu aprēķina funkcijas konfigurācijas piemērojamības nosacījumu tabulu kolonnas.
+Lauks *nodokļu datu modelis* tiek veidots no laukiem, kas nepieciešami nodokļu aprēķiniem. Microsoft nodrošina nodokļu *aprēķina datu* modeli, kas ietver galvenes laukus un darbību dokumentu rindu laukus Finanšu un operāciju programmās. Nodokļu aprēķina datu modelī definētie lauki ir pieejamas nodokļu aprēķina funkcijas konfigurācijas piemērojamības nosacījumu tabulu kolonnas.
 
 > [!NOTE] 
 > Daži zari, kas definēti datu modelī, piemēram, **Ieraksta ID** un **Tabulas ID**, ir tehniskajiem nolūkiem. Tām nav pieejamo kolonnu nodokļu aprēķina līdzekļa konfigurācijā.
@@ -55,7 +55,7 @@ Varat arī skatīt nodokļu aprēķina datu modeli un pieejamās kolonnas piemē
 
     [![Pārvaldīt kolonnas.](./media/tax-calculation-model-mapping-3.png)](./media/tax-calculation-model-mapping-3.png)
 
-Nodokļu aprēķina datu modelis ir integrēts ar Finance and Operations programmām. Katrā darbībā, kas attiecas uz nodokļu aprēķināšanu, piemērojamības nosacījumu tabulās definēto lauku vērtības tiek apkopotas un nosūtītas nodokļu aprēķina pakalpojumam aprēķinam. Versijā 40.46 ir pieejami 57 iepriekš definēti datu modeļi šādiem darbību tipiem: pirkšanas pasūtījumi, pārdošanas pasūtījumi, pārsūtīšanas pasūtījumi, pirkšanas pieprasījumi, piedāvājuma pieprasījumi un pārdošanas piedāvājumi.
+Nodokļu aprēķina datu modelis ir integrēts ar Finanšu un operāciju programmām. Katrā darbībā, kas attiecas uz nodokļu aprēķināšanu, piemērojamības nosacījumu tabulās definēto lauku vērtības tiek apkopotas un nosūtītas nodokļu aprēķina pakalpojumam aprēķinam. Versijā 40.46 ir pieejami 57 iepriekš definēti datu modeļi šādiem darbību tipiem: pirkšanas pasūtījumi, pārdošanas pasūtījumi, pārsūtīšanas pasūtījumi, pirkšanas pieprasījumi, piedāvājuma pieprasījumi un pārdošanas piedāvājumi.
 
 Viens datu modelis var tikt iekļauts kā lauks darbības galvenē. Tomēr ne visi lauki ir attiecināmi uz visiem darbību tipiem. Šajā tabulā parādīts, kuri galvenes lauki ir pieejami specifiskiem darbību tipiem. Dažos gadījumos lauku kartēšanai ir jābūt noteiktai ar iepriekš definētu loģiku. Ja piemērojams, tiek nodrošināta loģika.
 

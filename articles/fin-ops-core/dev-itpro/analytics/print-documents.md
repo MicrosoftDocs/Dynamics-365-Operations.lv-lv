@@ -3,7 +3,7 @@ title: Dokumentu drukāšanas pārskats
 description: Varat drukāt dokumentus, izmantojot lokālu printeri vai tīklam pievienotu ierīci. Šajā rakstā ir sniegts apskats par to, kā tiek drukāti dokumenti.
 author: RichdiMSFT
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: IT Pro, Application User
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d5a0d26836043ea225b9a6d3e62980ada2dc49b0a01a6dacec739b50f28e17bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 8b9105ef39e411ac33043f1941d4e1dd32b758e5
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728242"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984912"
 ---
 # <a name="document-printing-overview"></a>Dokumentu drukāšanas pārskats
 
@@ -51,7 +51,7 @@ Nākamajā tabulā ir aprakstīti trīs primārie drukāšanas scenāriji.
 Tā kā atkarībā no scenārija risinājumi ir dažādi, programmas nodrošina tālāk aprakstītos iebūvētos pakalpojumus un rīkus, lai palīdzētu lietotājiem sasniegt savus mērķus.
 
 - **1. scenārijs** tiek atbalstīts pārlūkprogrammas HTML5 klienta renderēšanā.
-- **2. scenārijs** izmanto klienta programmas un Microsoft 365 pakalpojumus.
+- **2. scenārija** ietvaros tiks izmantotas klienta lietojumprogrammas un Microsoft 365 pakalpojumi.
 - **3. scenārijam** ir nepieciešams pakalpojumā Microsoft Azure viesoto pakalpojumu un klienta lietojumprogrammu atbalsts.
 
 Papildus platformai, kas tiek izvietota Azure abonementā, Finance and Operations programmas debitoriem nodrošina integrētu, pirmās puses Azure programmu, kas viņiem palīdz dokumentu drukāšanai vienkāršāk izmantot domēnā viesotas ierīces.

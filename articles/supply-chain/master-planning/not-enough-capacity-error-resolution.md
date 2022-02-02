@@ -1,5 +1,5 @@
 ---
-title: Plānošanas rīka kļūdas "Nav atrasts pietiekami daudz kapacitātes" novēršana
+title: Labot plānošanas programmas kļūdu un ierobežoto noslodzi
 description: Šajā tēmā sniegta informācija par iemesliem un risinājumiem tam, kāpēc Ražošanas pasūtījumu %1 nav iespējams plānot. Plānošanas rīka kļūda "Nav atrasts pietiekami daudz kapacitātes".
 author: ChristianRytt
 ms.date: 7/29/2021
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 16626a7ee74e89bd129d8435a17d16b41a5e0387
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: becd537d37a8ba8931f2598dccbae8554a4d168e
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565763"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985034"
 ---
 # <a name="fix-the-not-enough-capacity-could-be-found-scheduling-engine-error"></a>Plānošanas rīka kļūdas "Nav atrasts pietiekami daudz kapacitātes" novēršana
 
@@ -105,5 +105,11 @@ Lai pārskatītu pieejamo resursu grupas noslodzi, izpildiet šīs darbības.
 
 1. Dodieties uz **Organizācijas pārvaldība \> Resursi \> Resursu grupas** un atlasiet resursu grupu, kas ir piemērojama pasūtījumam, kuru nevar ieplānot.
 1. Darbību rūts cilnes **Resursu grupa** grupā **Skatīt** atlasiet opciju **Noslodze** vai **Noslodze grafiski** un pārliecinieties, ka ir pieejama noslodze.
+
+## <a name="master-planning-books-a-resource-when-the-resource-calendar-is-closed"></a>Vispārējās plānošanas grāmatas resursam, kad resursu kalendārs ir slēgts
+
+Izmantojot operāciju plānošanu, vispārējā plānošana plānos noslodzi saskaņā ar primārās resursu grupas kalendāru. Tā grāmatu par sekundāro operāciju vienlaicīgi ar primāro operāciju un neņemiet vērā sekundārās operācijas kalendārus vai noslodzi. Tā rezultātā ražošanas pasūtījums var tikt plānots slēgtā kalendārā vai laikā, kad sekundārā operācija nav pieejama (kalendārs slēgts, nav noslodzes).
+
+Izmantojot darbu plānošanu, vispārējā plānošanā, plānojot pasūtījumu, tiek ņemta vērā gan primārās, gan sekundārās operācijas noslodze un kalendārs. Lai pasūtījumu ieplānotu, kalendārus abu operāciju resursiem ir jābūt atvērtiem un tiem ir pieejama noslodze.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

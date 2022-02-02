@@ -9,20 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom:
-- "97423"
-- intro-internal
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ebef9cf97f7a91e0a2fd45f5e0e0fc620070b42a
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: ba9f6ca08af0647f4519726894b1c9dfcc9cce24
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779698"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983875"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>Darba sākšana ar elektroniskās rēķinu izveidi
 
@@ -58,9 +56,9 @@ Pirms pabeidzat šajā tēmā norādītās procedūras, ir jāievieš šādi pri
 Atkarībā no valsts vai reģiona elektronisko rēķinu izrakstīšanas funkcijai var būt nepieciešama specifiska konfigurācija. 
 
 > [!NOTE]
-> Iespējojot elektroniskās rēķinu izrakstīšanas līdzekli Somijai, programmai specifiskie parametri pārlūkos netiek atbalstīti. Lai novērstu šo problēmu, Elektronisko **pārskatu** modulī pārskatiet pārdošanas rēķina un projekta rēķinu formātu konfigurācijas. Manuāli iestatiet aprēķināto lauku kartējumam $PaymentMethodSubstitution un pēc tam saistiet šo lauku **·** ar Lauku **AtmaksaMeansCode no pārdošanas rēķina un** projekta rēķinu formātiem.
+> Iespējojot elektroniskās rēķinu izrakstīšanas līdzekli Somijai, programmai specifiskie parametri pārlūkos netiek atbalstīti. Lai novērstu šo problēmu, Elektronisko **pārskatu** modulī pārskatiet pārdošanas rēķina un projekta rēķinu formātu konfigurācijas. Manuāli iestatiet aprēķināto lauku kartējumam $PaymentMethodSubstitution un pēc tam saistiet šo lauku **ar** **laukuBalstītsPaymentMeansCode no pārdošanas rēķina un** projekta rēķinu formātiem.
 >
-> Iespējojot Funkcionalitāti Elektronisko rēķinu izrakstīšana Itālijai, programmā specifiskie parametri pārlūkos netiek atbalstīti. Lai novērstu šo problēmu, Elektronisko pārskatu modulī manuāli iestatiet aprēķināto **·** lauku $NaturaReverseCharge **·** kartēšanai.
+> Iespējojot Funkcionalitāti Elektronisko rēķinu izrakstīšana Itālijai, programmā specifiskie parametri pārlūkos netiek atbalstīti. Lai novērstu šo problēmu, Elektronisko pārskatu modulī manuāli iestatiet aprēķināto **lauku** $NaturaReverseCharge **kartēšanai**.
 >
 > Īpašiem soļiem, kas ir saistīti ar citām atrašanās vietām, skatiet dokumentāciju "Sākt darbu", kas ir pieejama jūsu valstij vai reģionam.
 
@@ -250,10 +248,10 @@ Atkarībā no valsts vai reģiona Programmas iestātījumam var būt nepiecieša
 
 1. Dodieties uz **Organizācijas administrēšana** \> **Periodiskais** \> **Elektroniskie dokumenti** \> **Elektronisko dokumentu iesniegšanas žurnāls**.
 2. Laukā **Dokumentu tips** izvēlieties tabulu, kurā ir rēķini.
-3. Atlasiet režģī dokumentu un pēc tam atlasiet **Elektronisko dokumentu lejupielādes** \> **·** fails. Arhīvs, kas satur elektronisko dokumenta failu, tiks ieteikts lejupielādei.
+3. Atlasiet režģī dokumentu un pēc tam atlasiet **Elektronisko dokumentu lejupielādes** \> **fails**. Arhīvs, kas satur elektronisko dokumenta failu, tiks ieteikts lejupielādei.
 
 > [!NOTE]
-> Pirms failu lejupielādes RCS iestatījumos elektronisko rēķinu izrakstīšanas līdzekļa iestatījumos ir jābūt ieslēgtai opcijai Eksportēt **·** rezultātu.
+> Pirms failu lejupielādes RCS iestatījumos elektronisko rēķinu izrakstīšanas līdzekļa iestatījumos ir jābūt ieslēgtai opcijai Eksportēt **rezultātu**.
 
 ## <a name="related-topics"></a>Saistītās tēmas
 

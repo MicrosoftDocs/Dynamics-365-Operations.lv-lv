@@ -2,8 +2,8 @@
 title: Organizāciju un organizāciju hierarhiju pārskats
 description: Organizācijas hierarhijas pārstāv attiecības starp organizācijām, kas veido jūsu uzņēmumu.
 author: sericks007
-ms.date: 11/10/2021
-ms.topic: article
+ms.date: 01/03/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: OMHierarchyManager, OMOperatingUnit,
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f0388b6e7c22c339d26b82c35f1bbb1ef54cdb5
-ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
+ms.openlocfilehash: c8e8f2c2004582f42c3f464fedf9f3d049b5278f
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798350"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7991738"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>Organizāciju un organizāciju hierarhiju pārskats
 
@@ -54,7 +54,7 @@ Ir pieejami šādi pārvaldības struktūrvienību veidi: izmaksu centri, biznes
 | Biznesa vienība       | Pusautonoma pārvaldības struktūrvienība, kura tiek izveidot, lai izpildītu stratēģiskus biznesa mērķus. | Tiek izmantots finanšu pārskatiem, pamatojoties uz nozari vai preču rindu, kurus organizācija sastāda neatkarīgi no juridiskām personām. |
 | Vērtību plūsma        | Pārvaldības struktūrvienība, kas kontrolē vienu vai vairākas ražošanas plūsmas. | Parasti tiek izmantots lean manufacturing, lai kontrolētu aktivitātes un plūsmas, kuras ir nepieciešamas, lai piegādātu preces vai pakalpojumus patērētājiem. |
 | Nodaļa          | Pārvaldības struktūrvienība, kas pārstāv organizācijas kategoriju vai funkcionālo daļu, kas veic noteiktu uzdevumu, piemēram, pārdošanu vai uzskaiti. | Tiek izmantots, lai ziņotu par funkcionālajām jomām. Nodaļa var būt atbildīga par peļņu un zaudējumiem un var sastāvēt no izmaksu centru grupas. |
-| Commerce kanāls      | Pārvaldības struktūrvienība, kas pārstāv veikalu ēkā, tiešsaistes veikalu vai tiešsaistes tirgu. | Tiek izmantot viena vai vairāku veikalu pārvaldībai un darbības kontrolei vienā vai vairākās juridiskās personās. |
+| Mazumtirdzniecības kanāls      | Pārvaldības struktūrvienība, kas pārstāv biznesa un biznesa veikalu, tiešsaistes veikalu vai zvanu centru. | Tiek izmantot viena vai vairāku veikalu pārvaldībai un darbības kontrolei vienā vai vairākās juridiskās personās. |
 
 ### <a name="teams"></a>Grupas
 

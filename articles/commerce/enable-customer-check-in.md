@@ -15,17 +15,16 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 320e9d73ca98bf4ed22ac9bdff2fc34ae83223ec
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.openlocfilehash: 95b4e3a1750cf072db919492f7445e87654701da
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891416"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983165"
 ---
 # <a name="enable-customer-check-in-notifications-in-point-of-sale-pos"></a>Iespējot debitora atdošanas paziņojumus pārdošanas punktā (POS)
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Šajā tēmā ir aprakstīts, kā iespējot debitoru atdošanas paziņojumus Microsoft Dynamics 365 Commerce pārdošanas punktā (POS).
 
@@ -51,7 +50,7 @@ Jūsu e-komercijas vietnē jums ir jāizveido jauna lapa, kas kalpos kā pārbau
 
 Šeit ir jāpievieno **Esmu šeit** saite vai poga veidnei, kas ir pieejama transakciju e-pasta ziņojumā, ko debitori saņem, kad viņu pasūtījums ir gatavs saņemšanai. Debitori izmantos šo saiti vai pogu, lai paziņotu veikalam, ka ir atnākuši saņemt pasūtījumu. 
 
-Pievienojiet saiti vai pogu veidnei, kas ir kartēta uz paziņojuma veidu **Iepakošanas pabeigšana** un piegādes veidu, ko izmantojat, lai novērstu pasūtījuma izpildi. Veidnē izveidojiet HTML saiti vai pogu, kas norāda uz jūsu izveidotās reģistrēšanās apstiprinājuma lapas URL un kas ietver parametru nosaukumus un vērtības, kā parādīts nākamajā piemērā.
+Pievienojiet saiti vai pogu veidnei, kas ir kartēta uz paziņojuma veidu **Iepakošanas pabeigšana** un piegādes veidu, ko izmantojat, lai novērstu pasūtījuma izpildi. Veidnē izveidojiet HTML saiti vai pogu, kas norāda uz url jūsu izveidotajā pārbaudes apstiprinājuma lapā, kas ietver parametru nosaukumus un vērtības, kā parādīts šajā piemērā.
 
 `<a href="https://[YOUR_SITE_DOMAIN]/[CHECK-IN_CONFIRMATION_PAGE]?channelReferenceId=%confirmationid%&channelId=%channelid%&packingSlipId=%packingslipid%" target="_blank">I am here!</a>`
 
@@ -59,35 +58,35 @@ Papildinformāciju par e-pasta veidņu konfigurēšanu skatiet sadaļā [Transak
 
 ## <a name="a-check-in-confirmation-task-is-created-in-pos"></a>POS ir izveidots pārbaudes apstiprināšanas uzdevums
 
-Pēc tam, kad klients ir paziņos veikalam, ka atrodas uz paņemšanu, reģistrēšanās lapā tiek parādīts apstiprinājuma ziņojums un neobligāts QR kods, kas satur klienta pasūtījuma apstiprinājuma ID. Tajā pašā laikā uzdevums tiek izveidots POS uzdevumu sarakstā veikalam, kurā klients paņem pasūtījumu. Šis uzdevums satur visu klienta un pasūtījuma informāciju, kas nepieciešama pasūtījuma izpildei. Uzdevuma instrukciju laukā ir norādīta visa informācija, kas iegūta no klienta, izmantojot papildinformācijas veidlapu.
+Kad debitors informē veikalu, ka tas ir klātesošs savākšanai, atdīšanas lapa rāda apstiprinājuma ziņojumu un neobligātu QR kodu, kas ietver debitora pasūtījuma apstiprinājuma ID. Tajā pašā laikā uzdevums tiek izveidots POS uzdevumu sarakstā veikalam, kur debitors izdod pasūtījumu. Šis uzdevums ietver visu debitora un pasūtījuma informāciju, kas nepieciešama pasūtījuma izpildei. Uzdevuma instrukciju laukā ir parādīta jebkura informācija, kas apkopota no debitora, izmantojot papildinformācijas formu.
 
-## <a name="end-to-end-testing"></a>Testēšana no gala līdz galam
+## <a name="end-to-end-testing"></a>Beigu testēšana
 
-Lai reģistrētos klients, noteikti parametri un vērtības ir jānodod reģistrēšanās lapai un pēc tam klientu reģistrēšanās API. Tāpēc vienkāršākā pieeja ir pārbaudīt funkciju vidē, kurā var izveidot un iepakot testa pasūtījumu. Tādā veidā var ģenerēt e-pasta ziņojumu "pasūtījums gatavs savākšanai", kura URL satur nepieciešamos parametru nosaukumus un vērtības.
+Debitora reģistrēšanās pieprasa, lai noteikti parametri un vērtības tiktu nodotas atdēšanas lapai un pēc tam debitora reģistrēšanās API. Tāpēc visvieglāk izmantotā pieeja ir pārbaudīt funkciju vidē, kurā var izveidot un iepakot testa pasūtījumu. Šādā veidā var tikt izveidots e-pasta ziņojums "Pasūtījums gatavs savākšanai", kam ir vietrādis URL, kurā ir ietverti nepieciešamie parametru nosaukumi un vērtības.
 
-Lai pārbaudītu klienta reģistrēšanās līdzekli, rīkojieties šādi.
+Lai pārbaudītu debitora reģistrēšanās līdzekli, sekojiet šiem soļiem.
 
-1. Izveidojiet debitora reģistrēšanās lapu un pēc tam pievienojiet un konfigurējiet debitoru reģistrēšanās moduli. Plašāku informāciju skatiet [Check-in for pickup module](check-in-pickup-module.md). 
-1. Atdetiet lapu, bet nepublicējiet to.
-1. Pievienojiet šo saiti e-pasta veidnei, uz kuru savākšanas veidam tiek izsaukts pilns iepakojuma paziņojuma tips. Papildinformāciju skatiet rakstā [E-pasta veidņu izveide darījumu notikumiem](email-templates-transactions.md).
+1. Izveidojiet debitora atdlapas lapu un tad pievienojiet un konfigurējiet debitora atdlapas moduli. Papildinformāciju skatiet [savākšanas moduļa atdākšanas modulī](check-in-pickup-module.md). 
+1. Atdot lapā, bet nepublicēt to.
+1. Pievienojiet tālāk norādīto saiti e-pasta veidnei, kas tiek izsaukta, izmantojot iepakojuma pabeigšanas paziņojuma veidu piegādes savākšanas režīmam. Papildinformāciju skatiet sadaļā [E-pasta veidņu izveide transakciju notikumiem](email-templates-transactions.md).
 
-    - **Pirmsražošanas (UAT) vidēm:** pievienojiet koda fragmentu no [sadaļas Konfigurēt transakciju e-pasta veidni](#configure-the-transactional-email-template) šīs tēmas sākumā.
-    - **Ražošanas vidēm:** pievienojiet šādu komentētu kodu, lai netiktu ietekmēti esošie klienti.
+    - **Pirms-ražošanas (UAT) vidēm: pievienojiet koda fragmentu no iepriekš šīs tēmas sadaļas Darbības e-pasta**[veidnes](#configure-the-transactional-email-template) konfigurēšana.
+    - **Ražošanas vidēm: pievienojiet** šādu komentāra kodu, lai esošie debitori nebūtu ietekmēti.
 
         `<!-- https://[DOMAIN]/[CHECK_IN_PAGE]?channelReferenceId=%confirmationid%&channelId=%pickupchannelid%&packingSlipId=%packingslipid%&preview=inprogress -->`
 
-1. Izveidojiet pasūtījumu, kurā ir norādīts saņemšanas veids.
-1. Kad saņemat e-pasta ziņojumu, ko aktivizē iepakojuma pilns paziņojuma veids, pārbaudiet reģistrēšanās plūsmu, atverot reģistrēšanās lapu, kurai ir iepriekš pievienotais URL. Tā kā vietrādī URL ir `&preview=inprogress` iekļauts karodziņš, pirms lapas skatīšanas jums tiks piedāvāts autentificēties.
-1. Ievadiet papildu informāciju, kas nepieciešama moduļa konfigurēšanai.
-1. Pārbaudiet, vai reģistrēšanās apstiprinājuma skats ir parādīts pareizi.
-1. Atveriet POS termināli veikalam, kurā tiks paņemts pasūtījums.
-1. Atlasiet **elementu Pasūtījumi, lai paņemtu,** un pārbaudiet, vai pasūtījums tiek parādīts.
-1. Pārbaudiet, vai detalizētas informācijas rūtī tiek parādīta papildu informācija, kas tika konfigurēta reģistrēšanās modulī.
+1. Izveidojiet pasūtījumu, kur norādīts piegādes izdošanas režīms.
+1. Kad saņemat e-pasta ziņojumu, kas ir izraisīts, izmantojot iepakojuma pabeigšanas paziņojuma veidu, pārbaudiet atdošanas plūsmu, atverot atdošanas lapu, kam iepriekš tika pievienots URL. Tā kā URL ietver karodziņu, pirms lapas skatīšanas jums tiks parādīta uzvedne `&preview=inprogress` autentifikācijai.
+1. Ievadiet jebkādu papildinformāciju, kas nepieciešama moduļa konfigurēšanai.
+1. Pārbaudiet, vai atd apstiprināšanas skats tiek rādīts pareizi.
+1. Atveriet POS termināli veikalam, kur tiks saņemts pasūtījums.
+1. Atlasiet **pasūtījumus elementa** izvēlei un pārbaudiet, vai pasūtījums parādās.
+1. Apstipriniet, ka detalizētas informācijas rūtī parādās jebkāda papildinformācija, kas tika konfigurēta atdotajā modulī.
 
-Kad esat pārliecinājies, ka klientu reģistrēšanās līdzeklis darbojas no beigām līdz beigām, veiciet tālāk norādītās darbības.
+Pēc tam, kad esat pārbaudījis, ka debitora reģistrēšanās līdzeklis darbojas no beigu datuma līdz beigām, sekojiet šiem soļiem.
 
-1. Publicēt reģistrēšanās lapu.
-1. Ja testējat ražošanas vidē, atvienojiet URL e-pasta veidnē "Pasūtīt gatavs savākšanai", lai **tiktu parādīta saite Vai poga Es esmu** šeit. Pēc tam atkārtoti ielādējiet veidni.
+1. Publicēt atdlapu.
+1. Ja testēsiet ražošanas vidē, noņemiet URL e-pasta veidnē "Pasūtījums gatavs savākšanai", lai tiek parādīta saite vai **poga**. Pēc tam atkārtoti ielādēt veidni.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

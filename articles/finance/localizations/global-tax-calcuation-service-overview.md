@@ -3,24 +3,23 @@ title: Nodokļu aprēķina pārskats
 description: Šajā tēmā ir izskaidrots nodokļu aprēķina iespēju vispārējais tvērums un iezīmes.
 author: wangchen
 ms.date: 11/17/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxIntegrationTaxServiceParameters
 audience: Application user
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 28b14eba7dd870e80a83f8d31671525b593a09c9
-ms.sourcegitcommit: e06b7d4de6d5ee7ae491d437d6c0365608a5380b
+ms.openlocfilehash: b5f9f41bdadc76064aa9aee92e27e6b504baf461
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "7892428"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986020"
 ---
 # <a name="tax-calculation-overview"></a>Nodokļu aprēķina pārskats
 
@@ -66,7 +65,7 @@ Nodokļu aprēķins ir izvietots tālāk redzamajās Azure ģeogrāfiskās lapā
 > Nodokļu aprēķins neatbalsta agrāku Dynamics 365 versiju, piemēram, Dynamics AX 2012 vai Dynamics 365 lokālu izvietošanu.
 
 ## <a name="versions"></a>Versijas
-Ieteicams importēt un iestatīt nodokļu aprēķina konfigurāciju ar versiju, kas atbilst jūsu finanšu vai piegādes ķēdes pārvaldības versijai.
+Mēs iesakām jums importēt un iestatīt nodokļu aprēķina konfigurāciju ar versiju, kas atbilst finanšu vai piegādes ķēdes pārvaldības versijai.
 
 | Finanšu vai piegādes ķēdes pārvaldības versija | Nodokļu konfigurācijas versija               |
 | --------------- | --------------------------------------- |
@@ -81,7 +80,7 @@ Ieteicams importēt un iestatīt nodokļu aprēķina konfigurāciju ar versiju, 
 
 ## <a name="data-flow"></a>Datu plūsmas
 
-Šeit ir datu plūsmas procesa struktūra nodokļu aprēķināšanai. 
+Šeit ir datu plūsmas procesa ieskicēšana nodokļu aprēķināšanai. 
 
 1. RCS skatiet un importējiet ar nodokli apliekamā dokumenta modeļa konfigurācijas un modeļa kartēšanas konfigurācijas. Ja paplašināta scenārija gadījumā konfigurācijas ir jāpaplašina, skatiet sadaļu [Datu lauku pievienošana nodokļu konfigurācijās](tax-service-add-data-fields-tax-configurations.md).
 2. RCS izveidojiet vai uzturiet nodokļu līdzekļus. Lai uzturētu nodokļu likmes un nodokļu piemērojamības noteikumus, varat izmantot nodokļu līdzekļus.

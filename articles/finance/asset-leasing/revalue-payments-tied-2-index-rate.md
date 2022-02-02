@@ -2,25 +2,25 @@
 title: Ar indeksa likmi saistīto nomas maksājumu pārvērtēšana
 description: Šī tēma apraksta korekciju, kas veikta, lai nomātu LLT līdzekli, kad mainīgie nomas maksājumi mainas mainās indeksa likmes izmaiņu dēļ.
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 01/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetLeaseIndexRevaluation
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1b3eed28ba6fc5af02c1bbf430cc9779426084f0eaf4e027141bbdd18a70dde4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 5abd1f5d265c6e8b53903e6df5c52a06b3468880
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734590"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968060"
 ---
 # <a name="revalue-lease-payments-that-are-linked-to-an-index-rate"></a>Ar indeksa likmi saistīto nomas maksājumu pārvērtēšana
 
@@ -43,7 +43,7 @@ Ar indeksa likmi saistīto nomas maksājumu pārvērtēšanai veiciet tālāk no
 4. Atlasiet filtrus, lai atlasītu nomas, kas jāiekļauj fona apstrādē, un pēc tam atlasiet **Labi**.
 
     Tiek parādīts dialoglodziņš **Indeksa likmes pārvērtēšanas priekšskatījums**, kurā ir parādītas nomas, kas tiks pārvērtētas. Tas parāda arī līdzekļu un saistību korekcijas vai mainīgo maksājumu korekcijas.
-    
+
 5. Lai novērstu iespēju, ka noma tiktu pārvērtēta, atlasiet nomas, kas **ir** jāpārvērtē. Ja neatlasāt nevienu nomu, visas nomas tiks pārvērtētas. Kad esat pabeidzis, atlasiet **Labi**, lai pārvērtētu nomas maksājumus.
 6. Lai skatītu darījumus, kas tika izveidoti noteiktam indeksa pārvērtēšanas procesam, atlasiet procesa ID un pēc tam atlasiet **Darījumi**.
 
@@ -54,7 +54,7 @@ Ar indeksa likmi saistīto nomas maksājumu pārvērtēšanai veiciet tālāk no
 
 ## <a name="asc-842-leases--index-revaluation"></a>ASC 842 nomas — indeksa pārvērtēšana
 
-Lai skatītu nomas pārvērtēšanas procesa ietekmi uz ASC 842 nomām, atveriet maksājumu grafiku nomai. Lapā tiek rādīti tikai tie mainīgie maksājumi, kas veikti pārvērtēšanas datumā vai pēc tā, tika mainīti indeksa pārvērtēšanas dēļ. Amortizācijas un nolietojuma grafiki paliek nemainīgi. Kad izveidojat rēķinu ar mainīgu maksājumu, mainīgais maksājums tiek debitēts mainīgā maksājuma grāmatošanas kontā. Arī mainīgā maksājuma summa tiek pievienota kredīta ierakstam, kas ir iegrāmatots tieši kreditoram vai iegrāmatots parādzīmju apmaksājamajā kontā atkarībā no nomas grāmatas iestatījumiem.
+Lai skatītu nomas pārvērtēšanas procesa ietekmi uz ASC 842 nomām, atveriet maksājumu grafiku nomai. Lapā tiek rādīti tikai tie mainīgie maksājumi, kas veikti pārvērtēšanas datumā vai pēc tā, tika mainīti indeksa pārvērtēšanas dēļ. Amortizācijas un nolietojuma grafiki paliek nemainīgi. Kad izveidojat rēķinu ar mainīgu maksājumu, mainīgais maksājums tiek debitēts mainīgā maksājuma grāmatošanas kontā. Arī mainīgā maksājuma summa tiek pievienota kredīta ierakstam, kas ir grāmatots tieši kreditoram, vai grāmatots maksājamo notu kontā atkarībā no nomas grāmatas iestatījuma.
 
 Maksājumu grafika rindas nomas informācijas lapā tiek automātiski atjauninātas ar jaunu rindu, kas norāda jauno indeksa likmi. Turklāt kolonna rāda, vai rinda ir izveidota manuāli vai izmantojot indeksa pārvērtēšanas procesu.
 
@@ -66,5 +66,7 @@ Varat skatīt tikko izveidoto maksājumu grafiku, kas sākas pārvērtēšanas d
 
 Žurnāla ieraksts automātiski iegrāmatoja korekcijas žurnāla ierakstu kontā izmaiņām nomas maksājumos, kas saistīti ar indeksa pārvērtēšanu.
 
+> [!NOTE]
+> Ja detalizētās informācijas par nomu lapas kopsavilkuma cilnē Vispārīgi ir iespējota opcija Sadalījuma maksājuma summa un saistītā grāmata **ir** **·** **IFRS** 16, **indeksa pārvērtēšanas process automātiski pievienos ierakstu dialoglodziņā Maksājuma summas** sadalījumam. Šī summa atspoguļos izmaiņas, kas tika veiktas maksājumam indeksa pārvērtēšanas dēļ. Ieraksts tiks atzīmēts kā **Lietots IRFS 16 indeksa** pārvērtēšanai.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
