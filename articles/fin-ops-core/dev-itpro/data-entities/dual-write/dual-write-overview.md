@@ -1,21 +1,20 @@
 ---
 title: Duālā ieraksta pārskats
-description: Duālais ieraksts ir standarta infrastruktūra, kas nodrošina gandrīz reāllaika mijiedarbību starp Customer Engagement programmām un Finance and Operations programmām.
+description: Šajā tēmā sniegts apskats par dubulto rakstiet, kas nodrošina tuvu reāllaika mijiedarbībai starp debitoru iesaisību programmām un finanšu un operāciju programmām.
 author: RamaKrishnamoorthy
 ms.date: 02/06/2020
-ms.topic: article
+ms.topic: overview
 audience: Application User, IT Pro
 ms.reviewer: tfehr
-ms.custom: intro-internal
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 131c002000ee6ebed81a23f45ce17b7a7fff0b95
-ms.sourcegitcommit: 9f8da0ae3dcf3861e8ece2c2df4f693490563d5e
-ms.translationtype: MT
+ms.openlocfilehash: e71d1496da24b21949259e8f43a32cd4ff60249c
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "7817365"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984145"
 ---
 # <a name="dual-write-overview"></a>Duālā ieraksta pārskats
 
@@ -27,9 +26,9 @@ ms.locfileid: "7817365"
 
 ## <a name="what-is-dual-write"></a>Kas ir duālais ieraksts?
 
-Duālais ieraksts ir standarta infrastruktūra, kas nodrošina gandrīz reāllaika mijiedarbību starp Customer Engagement programmām un Finance and Operations programmām. Kad dati par debitoriem, precēm, cilvēkiem un operācijām pārsniedz programmas robežas, tiek nodrošinātas visas organizācijas struktūrvienības.
+Duālā rakstīšana ir infrastruktūra, kas atrodas ārpus kastes, kas nodrošina tuvu reāllaika mijiedarbību starp debitoru iesaisību programmām un finanšu un operāciju programmām. Kad dati par debitoriem, precēm, cilvēkiem un operācijām pārsniedz programmas robežas, tiek nodrošinātas visas organizācijas struktūrvienības.
 
-Duālais ieraksts nodrošina cieši saistītu divvirzienu integrāciju starp Finance and Operations programmām un Dataverse. Visas Finance and Operations programmas datu izmaiņas izraisa Dataverse ierakstus, un jebkuras datu izmaiņas, kas rodas Dataverse rada ierakstus Finance and Operations programmām. Šī automatizētā datu plūsma nodrošina integrētu lietotāja pieredzi programmās.
+Dubultā rakstīšana nodrošina cieši saistītas, divvirzienu integrāciju starp Finanšu un operāciju programmām un Dataverse. Jebkuras datu izmaiņas Finanšu un operāciju programmās izraisa rakstīšanas, un jebkuras datu izmaiņas izraisa Dataverse Dataverse rakstīšanas iemeslus Finanšu un operāciju programmās. Šī automatizētā datu plūsma nodrošina integrētu lietotāja pieredzi programmās.
 
 ![Datu relācija starp programmām.](media/dual-write-overview.jpg)
 
@@ -52,7 +51,7 @@ Duālā ieraksta infrastruktūra ir paplašināma un uzticama, un tajā ir iekļ
 
 ### <a name="application"></a>Pieteikums
 
-Duālais ieraksts izveido kartēšanu starp koncepcijām Finance and Operations programmās un koncepcijās, kas iekļautas Customer Engagement programmās. Šī integrācija atbalsta šādus scenārijus:
+Duālā rakstīšana izveido kartējumu starp koncepcijām finanšu un operāciju programmās un koncepcijām debitoru lietojumprogrammu lietojumprogrammās. Šī integrācija atbalsta šādus scenārijus:
 
 + Integrētie debitoru pamatdati
 + Piekļuve klientu lojalitātes programmas kartēm un atlīdzības punktiem
@@ -79,17 +78,17 @@ Duālais ieraksts nodrošina datu integrāciju Microsoft Dynamics 365 programmā
 + Duālā ieraksta infrastruktūrā tiek ievērots bezkoda/zemā koda princips. Ir nepieciešami minimāli tehniskie pūliņi, lai paplašinātu standarta "no tabulas līdz tabulai" kartes un iekļautu pielāgotas kartes.
 + Duālais ieraksts atbalsta gan tiešsaistes, gan bezsaistes režīmu. Microsoft ir vienīgais uzņēmums, kas piedāvā atbalstu tiešsaistes un bezsaistes režīmiem.
 
-## <a name="what-does-dual-write-mean-for-developers-and-architects-of-customer-engagement-apps"></a><a id="developer-architect"></a> Ko duālais ieraksts nozīmē Customer Engagement programmu izstrādātājiem un arhitektiem?
+## <a name="what-does-dual-write-mean-for-developers-and-architects-of-customer-engagement-apps"></a><a id="developer-architect"></a>Ko duālais ieraksts nozīmē Customer Engagement programmu izstrādātājiem un arhitektiem?
 
-Duālais ieraksts automatizē datu plūsmu starp Finance and Operations programmām un Customer Engagement programmām. Duālais ieraksts sastāv no diviem AppSource risinājumiem, kas ir instalēti risinājumā Dataverse. Risinājumi paplašina tabulu shēmu, spraudņus un darbplūsmas risinājumā Dataverse , lai tās varētu mērogot līdz ERP lielumam. Veiksmīgai īstenošanai Customer Engagement programma, izstrādātājiem un arhitektiem ir jāsaprot šīs izmaiņas un jāsadarbojas ar kolēģiem Finance and Operations lietojumprogrammās.
+Duālā rakstīšana automatizē datu plūsmu starp finanšu un operāciju programmām un debitoru biedrību programmām. Duālais ieraksts sastāv no diviem AppSource risinājumiem, kas ir instalēti risinājumā Dataverse. Risinājumi paplašina tabulu shēmu, spraudņus un darbplūsmas risinājumā Dataverse , lai tās varētu mērogot līdz ERP lielumam. Lai ieviestu veiksmīgi, debitoru lietojumprogrammu izstrādātājiem un arhitektiem ir jāsaprot šīs izmaiņas un jāsadarbojas ar to citiem Finanšu un operāciju programmām.
 
-Lai izveidotu paritāti ar Finance and Operations pieteikumiem, duālais ieraksts veic dažas būtiskas izmaiņas Dataverse shēmā. Ja jūs saprotat plānu, varat izvairīties no daļas no dizaina un attīstības pārstrādāšanas nākotnē.
+Lai izveidotu pārību ar finanšu un operāciju programmām, dubultā rakstīšana veic dažas izšķirošas izmaiņas Dataverse shēmā. Ja jūs saprotat plānu, varat izvairīties no daļas no dizaina un attīstības pārstrādāšanas nākotnē.
 
-+ Kad duālā ieraksta AppSource pakotne ir instalēta, risinājumam Dataverse būs jauni jēdzieni, piemēram, uzņēmums un puse. Šie jēdzieni palīdz lietojumprogrammām iebūvēt Dataverse, ieskaitot Dynamics 365 Sales, Dynamics 365 Marketing, Dynamics 365 Customer Service, un Dynamics 365 Field Service, lai mijiedarbotos ar Finance and Operations programmām.
++ Kad duālā ieraksta AppSource pakotne ir instalēta, risinājumam Dataverse būs jauni jēdzieni, piemēram, uzņēmums un puse. Šīs koncepcijas palīdz programmām, kas veidotas, ietverot Dataverse Dynamics 365 Sales, Dynamics 365 Marketing, Dynamics 365 Customer Service un, lai efektīvi mijiedarbotos ar Dynamics 365 Field Service Finanšu un operāciju programmām.
 
 + Aktivitātes un piezīmes ir vienotas un paplašinātas, lai atbalstītu gan C1 (sistēmas lietotājus), gan C2 (sistēmas klientus).
 
-+ Lai izvairītos no datu zuduma valūtas pārraidīšanas laikā starp Finance and Operations programmām un Dataverse, jūs varēsiet paplašināt decimāldaļas vietu skaitu Customer Engagement programmu valūtas datu veidā. Līdzeklis pārtulko esošas rindas jaunajā paplašinātajā stāvoklī metadatu slānī. Šī procesa laikā valūtas vērtība tiek pārrēķināta uz decimālajiem datiem, nevis naudas datiem, un valūtas vērtība atbalsta 10 decimāldaļu vietas. Šis līdzeklis ir izvēles iespēja, un organizācijām, kurām nav nepieciešams vairāk par 4 decimāldaļas cipariem, nav jāpiesakās. Lai iegūtu papildu informāciju, skatiet [Valūtas datu veida migrācija duālajam ierakstam](currrency-decimal-places.md).
++ Lai novērstu datu zudumus valūtas pārsūtīšanas laikā starp finanšu un operāciju programmām un programmu, ir iespējams paplašināt decimāldaļu skaitu debitoru lietojumprogrammu Dataverse valūtas datu tipa. Līdzeklis pārtulko esošas rindas jaunajā paplašinātajā stāvoklī metadatu slānī. Šī procesa laikā valūtas vērtība tiek pārrēķināta uz decimālajiem datiem, nevis naudas datiem, un valūtas vērtība atbalsta 10 decimāldaļu vietas. Šis līdzeklis ir izvēles iespēja, un organizācijām, kurām nav nepieciešams vairāk par 4 decimāldaļas cipariem, nav jāpiesakās. Lai iegūtu papildu informāciju, skatiet [Valūtas datu veida migrācija duālajam ierakstam](currrency-decimal-places.md).
 
 + [Datuma efektivitāte](../../dev-tools/date-effectivity.md) tiks pievienota Dataverse. Tā atbalstīs pagātnes, tagadnes un nākotnes datus vienā tabulā.
 

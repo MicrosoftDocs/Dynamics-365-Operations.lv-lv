@@ -1,48 +1,47 @@
 ---
 title: Kandidāta pieņemšana darbā, izmantojot personāla atlasi
 description: Šī procedūra ļauj personāla atlases darbiniekam pieņemt darbā kandidātu, kurš iesniedzis pieteikumu, izmantojot noteiktu personāla atlases projektu.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 01/10/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMApplication, HcmWorkerNewWorker, HcmPositionLookup, HcmWorker, HcmPosition, HcmPositionDateManager,  DefaultDashboard
 audience: Application User
-ms.reviewer: anbichse
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1edee858b0b37b497b6b5b006185315c2f9d074e46de1aca80b20b2685a2c837
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 07f89a41cca7b3ff66404305d31cf1b8a67bfe47
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743895"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964965"
 ---
 # <a name="hiring-candidate-through-recruiting"></a>Kandidāta pieņemšana darbā, izmantojot personāla atlasi
 
 [!include [banner](../../includes/banner.md)]
 
-Šī procedūra ļauj personāla atlases darbiniekam pieņemt darbā kandidātu, kurš iesniedzis pieteikumu, izmantojot noteiktu personāla atlases projektu. Kad nolīgstat kandidātu, izmantojot personāla atlases projektu, tiks izveidots jauns darbinieka ieraksts un kandidāta ieraksta statuss būs Nodarbināts. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF. Lai pabeigtu šo procedūru, pārejiet uz Personāla vadība > Personāla atlase > Pieteikumi > Pieteikumi 
+Šī procedūra ļauj personāla atlases darbiniekam pieņemt darbā kandidātu, kurš iesniedzis pieteikumu, izmantojot noteiktu personāla atlases projektu. Nolīgjot kandidātu ar darbā pieņemšanas projekta palīdzību, tiek izveidots jauns darbinieka ieraksts un kandidāta ieraksta statuss ir **Nodarbināts**. **USMF** demonstrācijas datu uzņēmums tika izmantots šīs procedūras veidojiet.
 
-1. Atlasiet ārējā kandidāta pieteikumu
-2. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-3. Noklikšķiniet uz Pieteikuma statuss.
-4. Noklikšķiniet uz Pieņemt darbā jaunu darbinieku.
-5. Laukā Nodarbinātības sākuma datums ievadiet datumu un laiku.
-6. Laukā Amats noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-7. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-8. Ievadiet datumu un laiku laukā Norīkojuma sākums.
-9. Noklikšķiniet uz Pieņemt darbā jaunu darbinieku.
-10. Izvērsiet nodarbinātības vēstures papildinformāciju.
-11. Izvērsiet pašreizējo amatu papildinformāciju.
-12. Izvērsiet nodarbinātības vēstures papildinformāciju.
-13. Izvērsiet pašreizējo amatu papildinformāciju.
-14. Izvērsiet vai sakļaujiet sadaļu Adreses.
-15. Izvērsiet vai sakļaujiet sadaļu Kontaktinformācija.
-16. Izvērsiet vai sakļaujiet sadaļu Personiskā informācija.
-
-
+1. Dodieties uz **personāla vadības personāla \>\> atlases pieteikumu \> pieteikumiem**. 
+2. Atlasiet pieteikumu ārējam kandidātam.
+3. Sarakstā atlasiet saiti atlasītajā rindā.
+4. Atlasiet **Programmas statusu**.
+5. Atlasiet **Pieņemt darbā jaunu** darbinieku.
+6. Laukā **Nodarbinātības sākuma datums** ievadiet datumu un laiku.
+7. Laukā **Pozīcija** atlasiet nolaižamo bultiņu, lai atvērtu uzmeklēšanu.
+8. Sarakstā atlasiet saiti atlasītajā rindā.
+9. Laukā **Norīkojuma** sākums ievadiet datumu un laiku.
+10. Atlasiet **Pieņemt darbā jaunu** darbinieku.
+11. Izvērsiet nodarbinātības **vēstures** papildinformāciju.
+12. Izvērsiet pašreizējo **pozīciju** papildinformāciju.
+13. Izvērsiet nodarbinātības **vēstures** papildinformāciju.
+14. Izvērsiet pašreizējo **pozīciju** papildinformāciju.
+15. Izvērsiet vai **sakļaujiet sadaļu** Adreses.
+16. Izvērsiet vai sakļaujiet **sadaļu** Kontaktinformācija.
+17. Izvērsiet vai sakļaujiet **sadaļu Personiskā** informācija.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

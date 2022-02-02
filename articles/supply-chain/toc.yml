@@ -6,7 +6,7 @@
           href: index.md
         - name: Jaunumi un izmaiņas
           items:
-            - name: Jaunumi un izmaiņas Finance and Operations programmās
+            - name: Jaunumi un izmaiņas programmā Finance and Operations
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
             - name: Jaunumi un izmaiņas programmā Supply Chain Management
               items:
@@ -16,10 +16,6 @@
                   href: get-started/whats-new-scm-10-0-24.md
                 - name: "Supply Chain Management 10.0.23 (2022.\_gada janvāris)"
                   href: get-started/whats-new-scm-10-0-23.md
-                - name: "Supply Chain Management\_10.0.22 (2021.\_gada novembris)"
-                  href: get-started/whats-new-scm-10-0-22.md
-                - name: "Supply Chain Management\_10.0.21 (2021.\_gada oktobris)"
-                  href: get-started/whats-new-scm-10-0-21.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
                 - name: Noņemtie vai novecojušie līdzekļi sākumlapā
@@ -178,7 +174,7 @@
               items:
                 - name: Ieviešanas dzīves cikla pārvaldības sākumlapa
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Finance and Operations programmu arhitektūra
+                - name: "Finance and\_Operations programmu arhitektūra"
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Microsoft FastTrack
                   href: /dynamics365/fasttrack/
@@ -3513,7 +3509,7 @@
                       href: warehousing/transfer-orders-warehouse.md
                 - name: Jaunināšana un migrēšana
                   items:
-                    - name: "Noliktavas pārvaldības procesu jaunināšana no Microsoft Dynamics AX\_2012 uz Finance and Operations"
+                    - name: "Noliktavas vadības procesu jaunināšana no Microsoft Dynamics AX\_2012 uz Finance and Operations"
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
         - name: Supply Chain Management izstrāde
           items:

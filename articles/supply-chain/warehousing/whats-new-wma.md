@@ -2,7 +2,7 @@
 title: Kas jauns vai mainīts mobilajā programmā Warehouse Management
 description: Šajā tēmā ir uzskaitīti jaunie un mainītie līdzekļi katrai Microsoft Dynamics 365 Supply Chain Management Warehouse Management mobilās programmas izlaistajai versijai.
 author: Mirzaab
-ms.date: 09/09/2021
+ms.date: 01/18/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,51 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 9d50c1380418365f7c51d6b96051e9ea68a5f104
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
-ms.translationtype: MT
+ms.openlocfilehash: 6f45cacd7f43c8caf836fd1ea24d354e4bcf5853
+ms.sourcegitcommit: 9638d3a2bd592dc28f5952bda4af7dcf06edfaa4
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901892"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8007578"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Kas jauns vai mainīts mobilajā programmā Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir uzskaitīti jaunie līdzekļi, labojumi, uzlabojumi un zināmas problēmas katrai Microsoft Dynamics 365 Supply Chain Management Warehouse Management mobilās programmas izlaistajai versijai.
+
+## <a name="version-20140"></a>Versija 2.0.14.0
+
+Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
+
+- Fiksētā problēma, kas deaktivē noklusēto pogu Iesniegt.
+
+## <a name="version-20130"></a>Versija 2.0.13.0
+
+Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
+ 
+- Uzlabota ritināšana starp lapām ar gludāku priekšskatījumu.
+- Fiksētā skaitītāja atbildes, lai lasītu kustības un laiku pa laikam ekrānam iesaldētas.
+- Uzlabots tumšā režīma teksts un fona krāsu kombinācijas, lai uzlabotu lasāmību.
+- Fiksēta problēma, kad, mainot programmas loga izmēru, daži teksti varētu kļūt ļoti mazi.
+- Fiksētā problēma, kas reizēm var izraisīt programmas avārijas, skenējot svītrkodus.
+- Pievienota iespēja aizstāt maksājumu ar pogu.
+- Fiksētā problēma, kas varētu radīt to, ka programma parāda kļūdas ziņojumu "AADSTS7000215: ir nodrošināts nederīgs klienta noslēpums."
+- Nofiksēja atgādinājuma sveicienu, kas parāda, kā aizvērt lapu, izmantojot sākuma vērtību.
+- Pievienota iespēja aizvērt lapu, izmantojot flick-down sveicienu.
+- Fiksētā problēma, kas netika rādīta lietotāja iestatījumu lapā nolaižamo **sarakstu** nosaukumiem.
+- Fiksētu lokalizācijas problēmu, kad programma neatpazīst komatu (,) kā decimāldaļu atdalītāju.
+- Uzlabota pieejamība.
+- Fiksēt navigāciju lapā Jauns **savienojums**, lai nodrošinātu uzlabotu pieejamību.
+- Fiksētu problēmu, kad vieglā (uz ekrāna) tastatūras nebūtu, atlasot ievades lauku.
+- Fiksēts problēma, kas var izraisīt programmas avārijas, ja lietotāji ātri maina loga lielumu.
+- Fiksēts problēma, kad ātrais taustiņa nospiešana tika interpretēta kā garš taustiņš.
+- Fiksētā problēma, kad programmas izkārtojums var kļūt bojāts lauka pielāgošanas dēļ, kas veikta Piegādes ķēžu pārvaldībā.
+- Fiksētā problēma, kad krājumu atrašanās vietas netika pareizi rādītas.
+- Fiksētā problēma, kas saistīta ar preces varianta darbplūsmas īso izdošanu.
+- Noņemta nevajadzīgā pārbaude laukiem ar izveidotām noklusējuma vērtībām.
+- Uzlabota veiktspēja;
+- Pievienots jauns iestatījums, kas ļauj lietotājiem izvēlēties, kā lauki tiek filtrēti un pasūtīti kartes lapā.
 
 ## <a name="version-20110"></a>Versija 2.0.11.0
 

@@ -3,24 +3,23 @@ title: Atvieglojumu pārvaldības pārskats
 description: Šajā tēmā ir sniegts apskats par Atvieglojumu pārvaldības līdzekli programmā Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 12/06/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
 ms.search.scope: Human Resources
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dc06fd2ef4992b4ef2e20ace4f5c6bcc0bffb9d2
-ms.sourcegitcommit: e06b7d4de6d5ee7ae491d437d6c0365608a5380b
-ms.translationtype: MT
+ms.openlocfilehash: 4cbe79a7e64477eaaefd2a5df2ca2ee34ef29f26
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "7892506"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982769"
 ---
 # <a name="benefits-management-overview"></a>Atvieglojumu pārvaldības pārskats
 
@@ -111,27 +110,27 @@ Varat izmantot brīvā režīma kredīta programmas, lai reģistrētu darbinieku
 
 Pirms varat reģistrēt darbiniekus atvieglojumos, jānorāda viņiem vajadzīgā informācija. 
 
-Darbiniekam ir jābūt **piešķirtam** amatam. **Amatu** darbiniekam var piešķirt **lapās Darbinieks** vai **Amats**, atjauninot darbinieka **piešķiri**. 
+Darbiniekam jābūt **piešķirtam** amatam. Amatu **var** piešķirt darbiniekam lapā **Darbinieks vai** **Amats**, atjauninot Darbinieka **piešķiri**. 
 
-Pēc tam darbiniekiem ir jābūt reģistrētiem fiksētas atlīdzības plānā sākuma datumā vai arī viņiem ir jābūt **gada pabalstu algas** summai. Pirms fiksētas atlīdzības piešķiršanas **darbiniekam ir jāpiešķir** **amats**. 
+Pēc tam darbiniekiem jābūt reģistrētiem fiksētās atlīdzības plānā to sākuma datumā vai jābūt ikgadējā atvieglojumu **algas** summai. Pirms fiksētās **atlīdzības** piešķiršanas darbiniekam ir **jāpiešķir** amats. 
 
 > [!NOTE] 
-> **Fiksētās atlīdzības sākuma datums** nevar būt pirms pozīcijas piešķiršanas **datuma**.
+> Fiksētās **atlīdzības sākuma** datums nedrīkst būt agrāks par pozīcijas piešķiršanas **datumu**.
 
-Vai arī, ja jums ir darbinieks, kurš saņem papildu atlīdzību, piemēram, komisijas, varat pievienot **Pabalstu gada algas summu no darbinieka** ieraksta. Cilvēkresursi **izmantos Pabalstu gada algas** summu, nosakot seguma summas, nevis **fiksētās kompensācijas gada** summu. Lauks **Atvieglojumi gada algai** ir jābūt derīgam no darbinieka sākuma datuma vai atvieglojumu perioda sākuma, atkarībā no tā, kurš ir vēlāks. Tomēr amats nav nepieciešams, lai piešķirtu **Pabalstu gada algu**. Lai iespējotu **pabalstu gada algas** funkciju, dodieties **uz lapu Personāla vadības koplietojamie parametri** cilnē Priekšrocību **pārvaldība**. Šis līdzeklis pēc noklusējuma ir izslēgts.
+Vai arī, ja ir darbinieks, kurš saņem papildu atlīdzību kā komisijas, varat pievienot darbinieka ieraksta atvieglojumu ikgadējās **algas** summu. Personāla vadība izmantos atvieglojumu **gada algas** summu, kad tiek noteiktas seguma summas, nevis Fiksētās **atlīdzības gada** summa. Lauks **Atvieglojumi gada algai** ir jābūt derīgam no darbinieka sākuma datuma vai atvieglojumu perioda sākuma, atkarībā no tā, kurš ir vēlāks. Tomēr amatam nav jāpiešķir atvieglojumu gada **alga**. Lai iespējotu **atvieglojumu ikgadējās** algas līdzekli, dodieties uz **lapu Personāla vadības** kopīgie parametri, kas **atrodas cilnē Atvieglojumu** pārvaldība. Šī funkcija pēc noklusējuma ir izslēgta.
 
 > [!IMPORTANT]
-> Ja darbiniekam tiek ievadīta gan **fiksētā** atlīdzība, gan **Pabalstu gada algas** summa, pabalstu gada alga **tiks izmantota seguma summu** noteikšanai. Lapas **Darbinieka sadaļā Detalizēta informācija par nodarbinātību** **ir** jāatlasa vērtība **laukā Atvieglojumu apmaksas** biežums.
+> Ja darbiniekam tiek ievadīta gan fiksētā atlīdzība, gan atvieglojumu gada algas summa, atvieglojumu gada alga **tiks** **·** **izmantota**, lai noteiktu nodrošinājuma summas. Lapas **Darbinieks** sadaļā Detalizēta informācija par **nodarbinātību jums ir jāatlasa vērtība** **laukā Atvieglojumu algas** biežums.
 
 ## <a name="configure-optional-employee-information"></a>Konfigurējiet neobligāto darbinieka informāciju
 Kad izveidojat atvieglojumu plānu, kas izmanto likmes, kas balstītas uz dzimumu vai vecumu, jums jāievada darbinieka dzimšanas datums un dzimums, lai aprēķinātu atvieglojumu izmaksas.
 
 ## <a name="process-employees-to-determine-eligibility"></a>Apstrādā darbiniekus, lai noteiktu piemērotību
-Pirms darbiniekus var reģistrēt plānos, tiesību tikt izvēlētam, lai noteiktu, kuriem plāniem viņi ir piemēroti. Atbilstības procesa rezultātus var skatīt **procesu rezultātu skatītājā**. Plašāku informāciju skatiet tēmā [Procesa uzņemšanas atbilstība](hr-benefits-process-enrollment-eligibility.md).
+Pirms darbiniekus var reģistrēt plānos, tiesību tikt izvēlētam, lai noteiktu, kuriem plāniem viņi ir piemēroti. Jūs varat skatīt atbilstības procesa rezultātus Procesa rezultātu **skatītājā**. Plašāku informāciju skatiet tēmā [Procesa uzņemšanas atbilstība](hr-benefits-process-enrollment-eligibility.md).
 
-## <a name="employees-select-plans-using-employee-self-service-optional"></a>Darbinieki atlasa plānus, izmantojot **darbinieku pašapkalpošanos** (neobligāti)
+## <a name="employees-select-plans-using-employee-self-service-optional"></a>Darbinieki izvēlas plānus, **izmantojot Darbinieku pašapkalpošanās** pakalpojumu (pēc izvēles)
 
-Kad notiek atvērta reģistrācija, darbinieki tiek tikko pieņemti darbā vai notiek dzīves notikums, darbinieki var atlasīt vai atjaunināt savas priekšrocības, izmantojot **darbinieka pašapkalpošanos**. Plašāku informāciju skatiet [Konfigurējiet darbinieku pašapkalpošanos](hr-benefits-setup-employee-self-service.md).
+Kad notiek atvērta reģistrācija, darbinieki tiek nesen nolīgti vai notiek dzīves notikums, darbinieki var atlasīt vai atjaunināt savus atvieglojumus, izmantojot **Darbinieku** pašapkalpošanās. Plašāku informāciju skatiet [Konfigurējiet darbinieku pašapkalpošanos](hr-benefits-setup-employee-self-service.md).
 
 ## <a name="confirm-employee-plan-selections"></a>Apstipriniet darbinieka plāna atlases
 

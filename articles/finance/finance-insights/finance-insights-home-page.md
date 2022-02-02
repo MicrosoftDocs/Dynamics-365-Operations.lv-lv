@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "14151"
 - intro-internal
@@ -17,22 +17,21 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: dfc4d9cb5be4d8d287122fd33bf09b0570498169
-ms.sourcegitcommit: a46f0bf9f58f559bbb2fa3d713ad86875770ed59
-ms.translationtype: MT
+ms.openlocfilehash: 8cc7b2d733cdcf1adef2885b7900ea312a10d98c
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "7813751"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968814"
 ---
 # <a name="finance-insights-home-page"></a>Finance Insights sākumlapa
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Finanšu ieskatījumi sniedz konfigurējamus un paplašināmus risinājumus, lai palīdzētu jums intelligently prognozēt uzņēmuma naudas plūsmu, prognozējot, kad saņemat maksājumus neapmaksātiem debitoriem, un ģenerēt budžeta priekšlikumu, kas var palīdzēt paātrināt budžeta procesu. Šīs funkcijas izmanto viedas mašīnas apmācību veidnes, lai veidotu modeļus, izmantojot jūsu nodrošinātos datus (tostarp datus no trešās personas, piemēram, biroja plaša patēriņa pārskata informāciju). Šīs inteliģentas iespējas informē par lēmumu pieņemšanu un palīdz veikt darbības, lai efektīvi atbildētu uz pašreizējiem un paredzamiem biznesa darījumiem. Jūs esat atbildīgs par visiem datiem, kas tiek izmantoti finanšu ieskatos vai to rezultāts.
 
 > [!NOTE]
-> Finanšu ieskatu priekšskatījums ir pieejams izvietošanai Amerikas Savienotajās Valstīs, Kanādā, Apvienotajā Karalistē, Eiropā, Klusā okeāna, Japānas, Austrālijā un Jaunzēlande. Korporācija Microsoft pakāpeniski pievieno atbalstu citiem reģioniem.
+> Finanšu ieskati ir pieejami izvietošanai Amerikas Savienotajās Valstīs, Kanādā, Apvienotajā Karalistē, Eiropā, Klusā okeāna, Japānas, Austrālijā un Jaunzēlande. Korporācija Microsoft pakāpeniski pievieno atbalstu citiem reģioniem.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
@@ -76,7 +75,7 @@ Lai iespējotu naudas plūsmas prognozēšanu, ir jāpabeidz darbības, lai izve
 
 ### <a name="enable-budget-proposals"></a>Budžeta priekšlikumu iespējošana
 
-Budžeta priekšlikumu līdzeklis izmanto algoritmiskās mācīšanās modeli kopā ar organizācijas vēsturiskajiem datiem, lai ģenerētu budžeta priekšlikumu. Ģenerētais priekšlikums var palīdzēt sākt budžeta izveides procesu, kas ir efektīvāks par manuālu procesu. Konkrētas šī līdzekļa iespējošanas darbības skatiet sadaļā  [Budžeta priekšlikumu iespējošana](enable-budget-proposal.md). 
+Budžeta priekšlikumu līdzeklis izmanto algoritmiskās mācīšanās modeli kopā ar organizācijas vēsturiskajiem datiem, lai ģenerētu budžeta priekšlikumu. Ģenerētais priekšlikums var palīdzēt sākt budžeta izveides procesu, kas ir efektīvāks par manuālu procesu. Informāciju par specifiskajiem soļiem, lai iespējotu šo līdzekli, [skatiet Iespējot budžeta priekšlikumus](enable-budget-proposal.md). 
 
 ## <a name="using-finance-insights-features"></a>Finance Insights līdzekļu izmantošana
 
@@ -91,7 +90,7 @@ Budžeta priekšlikumu līdzeklis izmanto algoritmiskās mācīšanās modeli ko
 
 Naudas plūsmas prognozēšanas spēja var palīdzēt precīzāk novērtēt jūsu finansiālo situāciju. Intelligent naudas plūsmas prognozēšana ir veidota, virs esošās naudas plūsmas prognozēšanas funkcionalitātes sistēmā Dynamics 365 Finance. Lai pārskatītu esošo iespēju, skatiet sadaļu [Skaidras naudas plūsmas prognozēšana](../cash-bank-management/cash-flow-forecasting.md).
 
-- Lai uzzinātu par jaunajām naudas plūsmas prognožu iespējām, skatiet sadaļu [Naudas plūsmas prognozēšana](cash-flow-forecast-intro.md).
+- Lai uzzinātu par jaunajām iespējām naudas plūsmas prognozēs, skatiet naudas [plūsmas prognozi](cash-flow-forecast-intro.md).
 - Lai iegūtu informāciju par ārējo datu importēšanu, lai iekļautu tos savā naudas plūsmas prognozē, skatiet sadaļu [Ārēju datu izmantošana naudas plūsmas prognozēs](external-data-in-cash-flow.md). 
 - Informāciju par to, kā izmantot mākslīgā intelekta modeli, lai projicētu naudas plūsmu tuvākajā laikā, skatiet sadaļu [Finansiālais stāvoklis](cash-position.md).
 - Lai iegūtu informāciju par naudas plūsmas pozīciju un naudas plūsmas prognožu saglabāšanu momentuzņēmumos, kā arī lai salīdzinātu momentuzņēmumus ar faktiskajiem datiem, skatiet sadaļu [Momentuzņēmumu apskats](payment-snapshots.md).
@@ -102,6 +101,6 @@ Informāciju par budžeta izveides paātrināšanu skatiet sadaļā [Budžeta pr
 
 ## <a name="feedback-and-support"></a>Atsauksmes un atbalsts
 
-Ja interesējaties par atsauksmju sniegšana vai ja nepieciešams atbalsts, sūtiet e-pasta ziņojumu uz [Finanšu ieskatiem](mailto:fiap@microsoft.com).
+Ja interesējaties par atsauksmju sniegšanu vai ja nepieciešams atbalsts, sūtiet e-pasta ziņojumu uz [Finanšu](mailto:fiap@microsoft.com) ieskatiem.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: Personāla atlases procesu pārvaldība
-description: Šajā rakstā ir aprakstīta koncepcija, ko personāla atlases veicēji var izmantot, lai sekotu darbībām personāla atlases procesā.
+description: Šajā tēmā aprakstīta koncepcija, ko personāla atlases var izmantot, lai izsekotu soļus personāla atlases procesā.
 author: andreabichsel
-ms.date: 06/20/2017
+ms.date: 01/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adf873a58900fa86d068d9ebc75f4f389e7d8359cc685d4635e083437c55ae56
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9a5e89e700858ed9e625fbdee630fa14ebea26e
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752994"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7965068"
 ---
 # <a name="manage-recruiting-processes"></a>Personāla atlases procesu pārvaldība
 
@@ -42,7 +42,7 @@ Personāla atlases projekti sniedz personāla atlases speciālistiem iespēju iz
 - Pieteikuma iesniegšanas beigu termiņš
 - Plānotais darba sākšanas datums
 
-Personāla atlases projektā ir iekļauta opcija **Darba sludinājums**, ko izmanto **darbinieku pašapkalpošanas sistēmā**, lai publicētu informāciju par vakanci. Lai darbinieki varētu redzēt informāciju par vakanci, personāla atlases projektā ir jāiekļauj opcija **Darba sludinājums**, lauks **Parādīt darbinieku pašapkalpošanas sistēmā** jāiestata ar vērtību Jā, opcijai **Pieteikuma iesniegšanas beigu termiņš** jāiestata nākotnes datums un personāla atlases projekta opcija **Projekta statuss** jāiestata ar vērtību Sākts. Tālāk esošajā tabulā ir norādīti iespējamie personāla atlases projekta statusi un to apraksti.
+Personāla atlases projektā **ir ietverta** darba reklāmas vērtība, kas tiek izmantota lapā **Darbinieku** pašapkalpošanās, lai reklamētu šo atvēršanu. Atvēršana darbiniekiem var tikt parādīta tikai tad, ja personāla atlases projektam ir darba sludinājuma vērtība, lauks Rādīt darbinieka pašapkalpošanās ir iestatīts uz Jā, pieteikuma termiņa lauks ir iestatīts uz nākotnes datumu, un personāla atlases projektam ir projekta statusa **vērtība** **·** **·** **·** **·** **Sākts**. Tālāk esošajā tabulā ir norādīti iespējamie personāla atlases projekta statusi un to apraksti.
 
 | Statuss    | Norāda, ka...                                                                         |
 |-----------|-----------------------------------------------------------------------------------------|
@@ -55,7 +55,7 @@ Personāla atlases speciālisti var reģistrēt sadaļā **Masu mēdiji** opcija
 
 ## <a name="applicants"></a>Kandidāti
 
-Kandidāts ir persona, kura piesakās amatam jūsu uzņēmumā. Kandidāti ir pieejami visām juridiskajām personām jūsu organizācijā, tāpēc varat meklēt piemērotāko no plaša speciālistu klāsta. Varat saglabāt informāciju par kandidātu zināšanām, atsauksmes, izmitināšanas vēlmes, kā arī personisko informāciju par kandidātiem. Kad ir izveidots kandidāta ieraksts, globālajā adrešu grāmatā tiek izveidots šī kandidāta personiskais ieraksts. Lai atjauninātu tālāk norādītos kandidējošo personu globālās adrešu grāmatas datus, var izmantot lapu **Kandidāts**.
+Kandidāts ir persona, kura piesakās amatam jūsu uzņēmumā. Kandidāti tiek koplietoti starp visām juridiskajām personām jūsu organizācijā. Tāpēc jums ir liels talantu kopa, kurā meklēt. Varat saglabāt informāciju par kandidātu zināšanām, atsauksmes, izmitināšanas vēlmes, kā arī personisko informāciju par kandidātiem. Kad ir izveidots kandidāta ieraksts, globālajā adrešu grāmatā tiek izveidots šī kandidāta personiskais ieraksts. Lai atjauninātu tālāk norādītos kandidējošo personu globālās adrešu grāmatas datus, var izmantot lapu **Kandidāts**.
 
 - Adreses informācija
 - Kontaktinformācija
@@ -84,7 +84,7 @@ Pieteikuma statuss norāda, kurā līmenī pieteikums atrodas personāla atlases
 
 ### <a name="correspondence-actions"></a>Saziņas darbības
 
-Laukā **Pieteikums** norādītās saziņas darbības nosaka dokumenta vai e-pasta ziņojumu veidni, kura izmantojama saziņai ar kandidātu, kas ir iesniedzis pieteikumu. Varat saistīt saziņas darbības **pieteikumu grāmatzīmēm**, lai saziņai ar kandidātiem varētu izmantot vērtības no lapām Pieteikums, Kandidāts, Intervija un Personāla atlases projekts. Saziņas darbībām var izveidot **pieteikuma e-pasta veidnes**, lai varētu ātri nosūtīt e-pasta ziņojumus kandidātiem, kuru pieteikumam ir iestatīta noteikta statusa un saziņas darbības kombinācija. Piemēram, varat nosūtīt apstiprinājuma e-pasta ziņojumu visiem kandidātiem, kuriem parametra **Statuss** vērtība ir Saņemts un parametra **Saziņas darbība** vērtība ir Saņemts. Pēc e-pasta ziņojuma nosūtīšanas varat izvēlēties automātiski atjaunināt pieteikumu statusu.
+Pieteikuma saziņas darbība nosaka dokumentu vai e-pasta veidni, ko izmantojat, lai sazinātos ar kandidātu, kurš iesniedzis pieteikumu. Saistot pieteikumu grāmatzīmes ar korespondējošām darbībām, saziņā ar kandidātiem var lietot vērtības no pieteikumu, kandidātu, interviju un personāla **atlases** **projektu** **·** **·** **lapām**. Izveidojot pieteikumu **e-pasta veidnes korespondences darbībām, varat ātri nosūtīt e-pasta ziņojumus kandidātiem, kuru pieteikumiem ir konkrēta statusa un saziņas** darbības kombinācija. Piemēram, varat nosūtīt apstiprinājuma e-pastu visiem pieteikumiem, kuru statusa vērtība ir **Saņemts** **un** **Atbilstošās** darbības vērtība **Saņemts**. Pēc e-pasta ziņojuma nosūtīšanas jums ir opcija automātiski atjaunināt pieteikumu statusu.
 
 ## <a name="application-routing"></a>Pieteikuma maršrutēšana
 
@@ -101,6 +101,5 @@ Lai noskaidrotu vakancei iespējami piemērotos kandidātus, var izmantot opciju
 ## <a name="hiring-applicants"></a>Kandidātu pieņemšana darbā
 
 Lai pieņemtu kandidātu darbā, izmantojiet lapu **Pieteikumi**. Pieņemot kandidātu darbā, pieteikuma ierakstam tiek piemērots statuss **Pieņemts darbā**, un kandidāta personiskais ieraksts globālajā adrešu grāmatā tiek saistīts ar jaunā darbinieka ierakstu. Jaunā darbinieka datu izmaiņas globālajā adrešu grāmatā arī tiek parādītas pieteikuma ierakstā. Tas var palīdzēt samazināt ievadāmo datu apjomu, ja jaunais nodarbinātais vēlāk piesakās citam amatam jūsu uzņēmumā. Lai pieņemtu esošu nodarbināto jaunā amatā, nolaižamajā sarakstā **Pieteikuma statuss** noklikšķiniet uz **Mainīt pozīciju**, tādējādi uzsākot amata maiņas procesu.
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

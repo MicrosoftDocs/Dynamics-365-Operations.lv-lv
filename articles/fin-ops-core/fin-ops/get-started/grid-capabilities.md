@@ -13,18 +13,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ba3640cf13fecc54f4cc58cd8996e434cd16cf60
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
-ms.translationtype: MT
+ms.openlocfilehash: 37484ce022085dfac66edba31b7adf9af4095df8
+ms.sourcegitcommit: bbe8ab054ad7cc00a63c63e02dc90bfa8ede15bb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890873"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7974385"
 ---
 # <a name="grid-capabilities"></a>Režģa iespējas
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
-
 
 Jaunā režģa kontrole piedāvā daudzas noderīgas un jaudīgas iespējas, ko var izmantot, lai uzlabotu lietotāju produktivitāti, izveidotu vairāk interesantu jūsu datu skatu un iegūtu izsmeļošu ieskatu datos. Šajā rakstā ir apskatītas tālāk norādītās iespējas 
 
@@ -37,10 +35,10 @@ Jaunā režģa kontrole piedāvā daudzas noderīgas un jaudīgas iespējas, ko 
 -  Izstiepjamas kolonnas
 
 ## <a name="calculating-totals"></a>Aprēķina kopsummu
-Programmatūrā Finance and Operations lietotājiem ir iespēja redzēt kopsummas režģos ciparu kolonnu lejasdaļā. Šīs kopsummas tiek rādītas kājenes sadaļā režģa apakšdaļā. 
+Finanšu un operāciju programmās lietotāji var redzēt kopsummas režģu skaitlisko kolonnu apakšdaļā. Šīs kopsummas tiek rādītas kājenes sadaļā režģa apakšdaļā. 
 
 ### <a name="showing-the-grid-footer"></a>Režģa kājenes parādīšana
-Katra Finance and Operations programmas tabulārā režģa apakšējā daļā ir kājenes apgabals. Kājenē var tikt parādīta vērtīga informācija, kas saistīta ar datiem, kas parādās režģī. Tālāk ir sniegti daži šādas informācijas piemēri:
+Katras finanšu un operāciju programmu tabulas režģa apakšā ir kājenes apgabals. Kājenē var tikt parādīta vērtīga informācija, kas saistīta ar datiem, kas parādās režģī. Tālāk ir sniegti daži šādas informācijas piemēri:
 
 - Atlasīto rindu skaits tabulā (ja ir atlasīts vairāk nekā viens ieraksts)
 - Kopsummas, kas atrodas konfigurēto skaitlisko kolonnu lejasdaļā
@@ -85,7 +83,7 @@ Lai atbalstītu šo jauno uzvedību, rindas statusam ir pievienota jauna kolonna
 Kad lietotāji ievada datus pirms servera apstrādes vietas, tie var sagaidīt dažas datu ievades pieredzes pasliktinājumus, piemēram, informācijas trūkumu, kontroles līmeņa pārbaudi un noklusējuma vērtību ievadi. Lietotāji, kuriem nepieciešams nolaižamais saraksts, lai atrastu vērtību, tiek mudināti sagaidīt, kad serveris nokļūs pašreizējā rindā. Kontroles līmeņa validācija un noklusēto vērtību ievade arī notiks, kad serveris apstrādā šo rindu.   
 
 ### <a name="pasting-from-excel"></a>Ielīmēšana no Excel
-Lietotāji vienmēr ir spējuši eksportēt datus no režģiem Finance and Operations programmās uz Microsoft Excel, izmantojot **Eksportēt uz Excel** mehānismu. Tomēr spēja ievadīt datus pirms sistēmas iespējo jauno režģi, lai atbalstītu tabulu kopēšanu no Excel un ielīmētu tās tieši režģos Finance and Operations lietojumprogrammās. Režģa šūna, no kuras tiek sākta ielīmēšanas darbība, nosaka, kur kopēto tabulu sāk ielīmēt. Režģa saturs tiek pārrakstīts ar kopētās tabulas saturu, izņemot divos gadījumos:
+Lietotāji vienmēr ir spēt eksportēt datus no finanšu un operāciju programmu režģiem, izmantojot mehānismu Microsoft Excel **Eksportēt uz** Excel. Tomēr iespēja ievadīt datus pirms sistēmas ļauj jaunajam režģim atbalstīt tabulu kopēšanu no Excel un to tiešo ielīmēt režģī Finanšu un operāciju programmās. Režģa šūna, no kuras tiek sākta ielīmēšanas darbība, nosaka, kur kopēto tabulu sāk ielīmēt. Režģa saturs tiek pārrakstīts ar kopētās tabulas saturu, izņemot divos gadījumos:
 
 - Ja kolonnu skaits kopētajā tabulā pārsniedz kolonnu skaitu, kas paliek režģī, sākot no ielīmēšanas vietas, lietotājam tiek paziņots, ka papildu kolonnas ir ignorētas. 
 - Ja rindu skaits kopētajā tabulā pārsniedz rindu skaitu režģī, sākot no ielīmēšanas vietas, esošās šūnas tiek pārrakstītas ar ielīmēto saturu, un visas papildu rindas no kopētās tabulas tiek iespraustas kā jaunas rindas režģa apakšā. 
@@ -96,7 +94,7 @@ Produktivitātes veicināšanai lietotāji režģa ciparu šūnās var ievadīt 
 Lai sistēma atpazītu vērtību kā izteiksmi, sāciet vērtību ar vienādības zīmi (**=**). Papildinformāciju par atbalstītajiem operatoriem un sintaksi skatiet [Atbalstītie matemātiskie simboli](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
 ## <a name="grouping-tabular-data"></a>Tabulas datu grupēšana
-Biznesa lietotājiem bieži jāveic datu ekspromtanalīze. Lai gan to var izdarīt, eksportējot datus uz Microsoft Excel un izmantojot pivot tabulas, **Grupēšanas režģos** līdzeklis, kas ir atkarīgs no jaunā režģa kontroles līdzekļa, režģī ļauj lietotājiem programmās Finance and Operations organizēt savus tabulāros datus interesantākos veidos. Tā kā šis līdzeklis paplašina līdzekli **Kopsumma**, līdzeklis **Grupēšana** ļauj iegūt izsmeļošu ieskatu datos, sniedzot apakšsummas grupas līmenī.
+Biznesa lietotājiem bieži jāveic datu ekspromtanalīze. Lai gan to var izdarīt, eksportējot datus uz un izmantojot koptabulas, grupēšanas režģu funkcija, kas ir atkarīga no jaunās režģa kontroles funkcijas, ļauj lietotājiem organizēt savus tabulas datus ļoti svarīgiem veidiem Finanšu un operāciju Microsoft Excel **programmās**. Tā kā šis līdzeklis paplašina līdzekli **Kopsumma**, līdzeklis **Grupēšana** ļauj iegūt izsmeļošu ieskatu datos, sniedzot apakšsummas grupas līmenī.
 
 Lai izmantotu šo funkciju, ar peles labo pogu noklikšķiniet uz kolonnas, pēc kuras vēlaties grupēt, un atlasiet **Grupēt pēc šīs kolonnas**. Veicot šo darbību, dati tiks šķiroti pēc atlasītās kolonnas, režģa sākumā tiks pievienota jauna kolonna **Grupēt pēc** un katras grupas sākumā tiks ievietotas “galvenes rindas”. Šīs virsraksta rindas sniedz tālak norādīto informāciju par katru grupu. 
 -  Grupas datu vērtība 
@@ -120,8 +118,8 @@ Tāpat kā visas režģa rindas var atlasīt (vai noņemt atlasi), atzīmējot i
 ### <a name="hiding-column-names"></a>Kolonnu nosaukumu paslēpšana
 Grupējot datus, noklusējuma darbība ir parādīt kolonnas nosaukumu grupas galvenes rindā. Varat izvēlēties neiekļaut kolonnas nosaukumu grupu galvenes rindās, atlasot **Režģa opcijas** > **Paslēpt grupas kolonnas nosaukumu**.
 
-### <a name="grouping-on-date-and-time-columns"></a>Grupēšana datumu un laika slejās
-Sākot ar versiju 10.0.24, laukiem Date vai DateTime opcija ir pievienota grupai pēc gada, mēneša vai dienas. Grupa "vērtība" atbilstošajā galvenes rindā atbildīs formātam no šī lauka. Turklāt laukiem DateTime un Time var grupēt pēc stundas, minūtes vai sekundes.    
+### <a name="grouping-on-date-and-time-columns"></a>Grupēšana datumu un laika kolonnās
+Sākot ar versiju 10.0.24 laukiem Datums vai Datums un laiks, šī opcija ir pievienota grupēšanai pēc gada, mēneša vai dienas. Grupa "vērtība" atbilstošajā virsraksta rindā saskanēs ar formātu no šī lauka. Turklāt laukiem DateTime un Laiks varat grupēt pēc stundas, minūtes vai otrā.    
 
 ## <a name="freezing-columns"></a>Iesaldēšanas kolonnas
 Dažas kolonnas režģī var būt pietiekoši nozīmīgas kontekstam, ko nevēlaties ritināt ārpus skata. Tā vietā varbūt vēlaties, lai vērtības šajās kolonnās vienmēr būtu redzamas. Funkcija **Iesaldēt kolonnas režģa elementus** nodrošina lietotājiem šādu elastīgumu. 

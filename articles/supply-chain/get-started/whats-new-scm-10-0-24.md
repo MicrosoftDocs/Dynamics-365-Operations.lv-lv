@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.24 priekšskatījums (2022. gada februāris)
+title: Jaunumi vai izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.24. (2022. gada februāris)
 description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Supply Chain Management 10.0.24.
 author: kamaybac
 ms.date: 12/03/2021
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: f6402d7f9f433ca621c475bd62553529943dbe62
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
-ms.translationtype: MT
+ms.openlocfilehash: d7dd3bbb0d1aa701757ad7fa525aba04fe9419c9
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920552"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986307"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10024-february-2022"></a>Dynamics 365 Supply Chain Management 10.0.24 priekšskatījums (2022. gada februāris)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10024-february-2022"></a>Jaunumi vai izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.24. (2022. gada februāris)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Šajā tēmā uzskaitīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti Microsoft Dynamics 365 Supply Chain Management versijas 10.0.24 priekšskatījumā. Šai versijai ir būvējuma numurs 10.0.1084, un tas ir pieejams šeit:
+Šī tēma uzskaita līdzekļus, kas ir vai nu jauni, vai kas ir mainīti programmas Microsoft Dynamics 365 Supply Chain Management versijā 10.0.24. Šai versijai ir būvējuma numurs 10.0.1084, un tas ir pieejams šeit:
 
 - **Izlaides priekšskatījums:** 2021. gada decembris
 - **Vispārēja laidiena (paša veikts atjauninājums) pieejamība:** 2022. gada janvāris
@@ -47,7 +46,7 @@ Ja vēlaties ieslēgt vai izslēgt jebkuru no šīm funkcijām, tas jādara līd
 |---|---|---|
 | Ražošanas kontrole | Ražošanas pasūtījumu materiālu pieejamības pārbaude pēc pieprasījuma | Ar šo funkciju tiek ātrāk atvērta lapa Ražošanas pasūtījumi, kas ir **pieejama** ražošanas pārvaldības **darbvietā**. Bez šīs funkcijas sistēma automātiski pārbauda, vai materiāli ir pieejami visiem norādītajiem ražošanas pasūtījumiem, tiklīdz atverat lapu, kas var aizņemt nozīmīgu laiku, ja ir liels pasūtījumu skaits. Kad šī funkcija ir iespējota, sistēma tā vietā nodrošina rīkjoslas pogu, kuru varat izmantot, lai sāktu materiālu pārbaudi tikai atlasītajiem pasūtījumiem un, kad nepieciešams. |
 | Ražošanas kontrole | (Priekšskatījums) Materiālu patēriņa reģistrācija ražotnes izpildes saskarnē (bez WMS) | Šī funkcija ļauj darbiniekiem izmantot ražošanas izpildes interfeisu, lai reģistrētu materiālu patēriņu, partijas numurus un sērijas numurus. Šī funkcija atbalsta tikai tos krājumus, kas nav iespējoti papildu noliktavas procesu (WMS) izmantošanai. Atbalsts WMS iespējotiem krājumiem ir ieplānots turpmākajos laidienos.<p>Dažiem ražotājiem, it īpaši tiem, kas ietilpst procesa nozarēs, ir skaidri jāreģistrē par katru partiju vai ražošanas pasūtījumu patērēto materiālu daudzums. Piemēram, darbinieki var izmantot skalu, lai, sverot patērēto materiālu daudzumu, kad tie strādā. Lai nodrošinātu pilnīgu materiālu izsekošanu, šīm organizācijām jāreģistrē arī tie partijas numuri, kas patērēti, ražojot katru preci. |
-| Ražošanas kontrole | Pabeigt noliktavas pārvaldības darba noslodzi mākoņa un malas skalas vienībai | Izmantojot šo līdzekli, darbinieki izmanto mobilo programmu Noliktavas pārvaldība, lai ziņotu par ražošanas vai partijas pasūtījuma pabeigšanu, ja programma darbojas attiecībā pret noliktavas pārvaldības darba slodzi mākonī vai malas mēroga vienībā. Papildinformāciju skatiet [sadaļā "Ziņot, kā pabeigts" un "putaway" uz svaru](../cloud-edge/cloud-edge-workload-manufacturing.md#RAF) vienības. |
+| Ražošanas kontrole | Ziņot kā par pabeigtu noliktavas pārvaldības darba slodzē mākoņa un malas mēroga vienībai | Izmantojot šo līdzekli, darbinieki izmanto mobilo programmu Noliktavas pārvaldība, lai ziņotu par ražošanas vai partijas pasūtījuma pabeigšanu, ja programma darbojas attiecībā pret noliktavas pārvaldības darba slodzi mākonī vai malas mēroga vienībā. Papildinformāciju skatiet [sadaļā "Ziņot, kā pabeigts" un "putaway" uz svaru](../cloud-edge/cloud-edge-workload-manufacturing.md#RAF) vienības. |
 | Ražošanas kontrole | Sākt noliktavas pārvaldības darba noslodzi noliktavas pārvaldības darba noslodzei, kas ir paredzēts mākoņa un malas mēroga vienībai | Izmantojot šo līdzekli, darbinieki var izmantot mobilo programmu Noliktavas pārvaldība, lai sāktu ražošanas vai partijas pasūtījumu, ja programma darbojas attiecībā pret noliktavas pārvaldības darba slodzi mākonī vai malas mēroga vienībā. |
 | Noliktavas vadība | Jaunas noslodzes plānošanas darba lapas | Iespējo divas jaunas noslodzes plānošanas darba lapas: ienākošās noslodzes plānošanas līdzeklis **un** **izejošās noslodzes plānošanas** līdzeklis. |
 
@@ -69,9 +68,9 @@ Nesen ir pievienotas vai ievērojami atjauninātas tālāk norādītās palīdz�
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformas atjauninājumi Finance and Operations programmām
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformas atjauninājumi finanšu un operāciju programmām
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.24 ietver platformas atjauninājumus. Lai iegūtu papildinformāciju, skatiet [Platformas atjauninājumi Finance and Operations programmu versijai 10.0.24 (2021. gada novembris)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.24 ietver platformas atjauninājumus. Lai uzzinātu vairāk, skatiet Informāciju par Platformas atjauninājumiem finanšu un operāciju programmu versijā [10.0.24 (2021. gada](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md) novembrī).
 
 ### <a name="bug-fixes"></a>Kļūdu labojumi
 

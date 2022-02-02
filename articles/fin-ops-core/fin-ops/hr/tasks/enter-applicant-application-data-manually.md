@@ -1,8 +1,8 @@
 ---
 title: Kandidāta un pieteikuma datu manuāla ievade
 description: Šajā procedūrā parādīts, kā manuāli uzturēt informāciju par kandidātiem un viņu pieteikumiem.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 01/10/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,52 +13,61 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 52805c56ed5be13c9e940cf887ece55487060539c0cae97ae5a1bcecd491fbcb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5305ded440dce0cf057e5fbe4df72635ce0e7b6b
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712513"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964710"
 ---
 # <a name="enter-applicant-and-application-data-manually"></a>Kandidāta un pieteikuma datu manuāla ievade
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā procedūrā parādīts, kā manuāli uzturēt informāciju par kandidātiem un viņu pieteikumiem.   Varat ievadīt un uzturēt kandidātu personisko informāciju, interviju datumus un laikus, atsauksmes, zināšanas un naktsmītnes pieprasījumus. Varat arī atjaunināt kandidātu darba pieteikumu statusu un izveidot vēstules vai e-pasta ziņojumus, lai sazinātos ar kandidātiem. Kad izveidojat kandidāta ierakstu, globālajā adrešu grāmatā tiek izveidots šī kandidāta personas ieraksts.       Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
-
+Šajā procedūrā parādīts, kā manuāli uzturēt informāciju par kandidātiem un viņu pieteikumiem. Varat ievadīt un uzturēt kandidātu personisko informāciju, interviju datumus un laikus, atsauksmes, zināšanas un naktsmītnes pieprasījumus. Var arī atjaunināt nodarbinātības pieteikumu statusu un izveidot vēstules vai e-pasta ziņojumus, lai sazinātos ar kandidātiem. Kad izveidojat kandidāta ierakstu, globālajā adrešu grāmatā tiek izveidots šī kandidāta personas ieraksts. **USMF** demonstrācijas datu uzņēmums tika izmantots šīs procedūras veidojiet.
 
 ## <a name="create-a-new-applicant-record"></a>Jaunu pieteikuma ieraksta izveide
-1. Pārejiet uz sadaļu Personāla vadība > Personāla atlase > Kandidāti > Kandidāti.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Vārds ierakstiet kādu vērtību.
-4. Laukā Uzvārds ierakstiet kādu vērtību.
-    * Varat ievadīt papildu informāciju par kandidātu, ja tā ir pieejama. Informāciju var iekļaut, piemēram, kandidāta specializācijas pakāpi, pašreizējo darba amatu vai iepriekšējo darba devēju.  
-5. Pārslēdziet sadaļas Kontaktinformācija paplašināšanu.
-6. Noklikšķiniet uz Pievienot.
-7. Laukā Apraksts ierakstiet Saziņas e-pasta adrese.
-8. Atlasiet opciju laukā Tips.
-9. Ierakstiet vērtību laukā Kontaktpersonas tālrunis/adrese.
-    * Šī e-pasta adrese tiks lietota, lai ģenerētu e-pasta ziņojumus saziņai ar kandidātu.  
-10. Noklikšķiniet uz Pievienot.
-11. Apraksta laukā ierakstiet vērtību.
-12. Ierakstiet vērtību laukā Kontaktpersonas tālrunis/adrese.
-    * Kandidāta personiskā informācija.  
-    * Ja nepieciešams, varat ievadīt papildu personisko informāciju par kandidātu. Tas var iekļaut, piemēram, dzimšanas datumu, etnisko izcelsmi, dzimumu vai ģimenes stāvokli.  
-13. Darbību rūtī noklikšķiniet uz Zināšanas.
-    * Varat ievadīt kandidāta kompetences profilu, norādot prasmes, profesionālo pieredzi, izglītību, testus vai sertifikātus.  
-    * Šo informāciju varat izmantot, lai kartētu kandidāta prasmes attiecībā uz prasmēm, kas saistītas ar jūsu uzņēmuma datos definētajiem darbiem.   
+
+1. Dodieties uz **personāla vadības personāla \>\> atlases \> kandidātiem**.
+2. Atlasiet **Jauna**.
+3. Laukā **Vārds** ievadiet vērtību.
+4. Laukā **Uzvārds** ievadiet vērtību.
+
+    Varat ievadīt papildu informāciju par kandidātu, ja tā ir pieejama. Piemēram, šajā informācijā var iekļaut kandidāta augstāko pakāpi, pašreizējo darba nosaukumu vai iepriekšējo darba devēju.
+
+5. Izvērsiet sadaļu **Kontaktinformācija**.
+6. Atlasiet **Pievienot**.
+7. Laukā Apraksts **ievadiet** Saziņas **e-pasta** adrese.
+8. Atlasiet opciju laukā **Tips**.
+9. Laukā **Kontaktpersonas** numurs/adrese ievadiet vērtību.
+
+    Šī e-pasta adrese tiks lietota, lai ģenerētu e-pasta ziņojumus saziņai ar kandidātu.
+
+10. Atlasiet **Pievienot**.
+11. Laukā **Apraksts** ievadiet kādu vērtību.
+12. Laukā **Kontaktpersonas** numurs/adrese ievadiet vērtību.
+
+    Lietojiet šo lauku, lai pēc vajadzības ievadītu papildu personisko informāciju par kandidātu. Piemēram, šajā informācijā var būt iekļauts kandidāta dzimšanas datums, etniskā izcelsme, dzimums vai ģimenes stāvoklis.
+
+13. Darbību rūtī atlasiet **zināšanas**.
+
+    Varat ievadīt kandidāta kompetences profilu, norādot prasmes, profesionālo pieredzi, izglītību, testus vai sertifikātus. Šo informāciju var izmantot, lai kartētu kandidāta prasmes uz prasmēm, kas saistītas ar uzņēmuma datos darbiem.
 
 ## <a name="create-an-application-for-the-applicant"></a>Kandidāta pieteikuma izveide
-1. Noklikšķiniet uz Pieteikumi.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Personāla atlases projekts noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-    * Atlasot personāla atlases projektu, kandidāts tiks sasaistīts ar noteiktu atvērtu amatu, kas iekļauts personāla atlases projektā.  
+
+1. Atlasiet **programmas**.
+2. Atlasiet **Jauna**.
+3. Laukā **Personāla** atlases projekts atlasiet nolaižamo bultiņu, lai atvērtu uzmeklēšanu.
+
+    Atlasot personāla atlases projektu, jūs nodrošināt, ka kandidāts tiks saistīts ar konkrētu atvēršanu, kas ir iekļauta šajā personāla atlases projektā.
+
 4. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-5. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-    * Pēc noklusējuma darbs un nodaļa tiek iegūti no atlasītā personāla atlases projekta.  
-6. Noklikšķiniet uz Saglabāt.
-    * Pēc pieteikuma saglabāšanas varat tam pievienot dokumentus, tai skaitā kandidāta pieredzi un apbalvojumus apliecinošus dokumentus un pavadvēstuli.  
+5. Sarakstā atlasiet saiti atlasītajā rindā.
 
+    Pēc noklusējuma darbs un nodaļa tiek iegūti no atlasītā personāla atlases projekta.
 
+6. Atlasiet **Saglabāt**.
+
+    Pēc pieteikuma saglabāšanas tam var pievienot dokumentus. Šie dokumenti var ietvert kandidāta pieredzi, piemaksas un pavadvēstuli.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

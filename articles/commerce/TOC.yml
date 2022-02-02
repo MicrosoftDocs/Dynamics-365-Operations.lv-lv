@@ -86,7 +86,7 @@
                   href: dev-itpro/RetailSDK-update.md
             - name: Jaunumi un izmaiņas
               items:
-                - name: Jaunumi un izmaiņas Finance and Operations programmās
+                - name: Jaunumi un izmaiņas programmā Finance and Operations
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/commerce/toc.json
                 - name: Jaunumi un izmaiņas programmā Commerce
                   items:
@@ -96,13 +96,11 @@
                       href: get-started/whats-new-commerce-10-0-24.md
                     - name: "Commerce 10.0.23 (2022.\_gada janvāris)"
                       href: get-started/whats-new-commerce-10-0-23.md
-                    - name: "Commerce\_10.0.22 (2021.\_gada novembris)"
-                      href: get-started/whats-new-commerce-10-0-22.md
                 - name: Noņemtie vai novecojušie līdzekļi
                   items:
                     - name: Noņemtie vai novecojušie līdzekļi sākumlapā
                       href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/commerce/toc.json
-                    - name: Noņemtie vai novecojušie līdzekļi programmā Finance and Operations
+                    - name: Noņemtie vai novecojuši līdzekļi programmā Finance and Operations
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json
                     - name: Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Commerce
                       href: get-started/removed-deprecated-features-commerce.md
@@ -196,7 +194,7 @@
               items:
                 - name: Ieviešanas dzīves cikla pārvaldības sākumlapa
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/commerce/toc.json
-                - name: Finance and Operations programmu arhitektūra
+                - name: "Finance and\_Operations programmu arhitektūra"
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Microsoft FastTrack
                   href: 'https://docs.microsoft.com/dynamics365/fasttrack/'
@@ -222,7 +220,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
                 - name: Vairāki LCS projekti un ražošanas vides vienā Azure AD nomniekā
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
-                - name: Ieviest Finance and Operations Commerce projektus
+                - name: Finance and Operations Commerce projektu ieviešana
                   href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
                 - name: 'Jaunas vides, Azure DevOps un zaru iestatīšana projektiem'
                   href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
@@ -712,6 +710,10 @@
                   href: sync-product-ratings.md
                 - name: Regulētāja vērtējumu un pārskatīšanas manuālas publicēšanas iespējošana
                   href: manual-publish-rating-reviews.md
+                - name: Novērtējumu un pārskatu importēšana un eksportēšana
+                  href: import-export-reviews.md
+                - name: Autentifikācijas starp pakalpojumiem konfigurēšana
+                  href: service-to-service-auth.md
                 - name: Bieži uzdotie jautājumi par vērtējumiem un atsauksmēm
                   href: ratings-reviews-faq.md
             - name: Krājumu pārvaldība
@@ -998,8 +1000,6 @@
                       href: style-presets.md
                     - name: Izlases ikonas pievienošana
                       href: add-favicon.md
-                    - name: Sveiciena ziņojuma pievienošana
-                      href: add-welcome-message.md
                     - name: Autortiesību paziņojuma pievienošana
                       href: add-copyright-notice.md
                     - name: Valodu pievienošana
@@ -2758,7 +2758,7 @@
                   href: payment-connector-data-fields.md
                 - name: Maksājumu dublikātu aizsardzības iespējošana maksājumu savienotājam
                   href: dev-itpro/duplicate-payments-protection.md
-                - name: Commerce maksājumu pakotnes izvietošana programmai Finance and Operations
+                - name: Commerce maksājumu pakotnes izveide programmas Finance and Operations izvietošanai
                   href: dev-itpro/payment-connector-package.md
             - name: Trešās puses e-komercijas paplašināmība
               items:
@@ -2818,7 +2818,7 @@
                   href: troubleshoot/hide-ratings-refiner.md
             - name: SDK problēmu novēršana
               items:
-                - name: 'Iestatīt e-komercijas izstrādes vidi, lai atkļūdotu 1. pakāpes Retail Server virtuālo mašīnu'
+                - name: 'Iestatīt e-komercijas izstrādes vidi, lai atkļūdotu 1. pakāpes Retail Server VM'
                   href: troubleshoot/set-up-dev-environment-debugging.md
     - name: Finance and Operations programmu izstrāde un administrēšana
       href: ../fin-ops-core/dev-itpro/index.md

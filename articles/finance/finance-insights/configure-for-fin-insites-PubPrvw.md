@@ -1,6 +1,6 @@
 ---
-title: Finance Insights konfigurācija publiskam priekšskatījumam (priekšskatījums) – versija 10.0.20 un jaunākas
-description: Šajā tēmā ir izskaidrots, kā konfigurēt sistēmu, lai izmantotu iespējas, kas pieejamas Finance Insights publiskam priekšskatījumam versijā 10.0.20 un jaunākās.
+title: Finanšu ieskatu konfigurācija — versija 10.0.20 vai jaunāka
+description: Šajā tēmā skaidrots, kā konfigurēt sistēmu, lai izmantotu iespējas, kas ir pieejamas Finanšu ieskatījumā versijā 10.0.20 vai jaunākā versijā.
 author: ShivamPandey-msft
 ms.date: 06/16/2021
 ms.topic: article
@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 7e5752b8deffbd2694193494652a0ff808ecbfb0
-ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
-ms.translationtype: MT
+ms.openlocfilehash: 8ff20334445fba1db435d7005c4ca9ba18f97f72
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7927408"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968966"
 ---
-# <a name="configuration-for-finance-insights-for-public-preview-preview---version-10020-and-later"></a>Finance Insights konfigurācija publiskam priekšskatījumam (priekšskatījums) – versija 10.0.20 un jaunākas
+# <a name="configuration-for-finance-insights---version-10020-and-later"></a>Finanšu ieskatu konfigurācija — versija 10.0.20 vai jaunāka
 
 [!include [banner](../includes/banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Finance Insights apvieno Microsoft Dynamics 365 Finance funkcionalitāti ar Dataverse, Azure un AI Builder, lai nodrošinātu jaudīgus prognozēšanas rīkus jūsu organizācijai. Šajā tēmā ir izskaidrots, kā konfigurēt Dynamics 365 Finance versiju 10.0.20, lai sistēma varētu izmantotu iespējas, kas ir pieejamas Finance Insights publiskam priekšskatījumam.
+Finanšu ieskati apvieno Microsoft funkcionalitāti, izmantojot pakalpojumu Azure, un nodrošina Dynamics 365 Finance DataverseAI Builder efektīvus prognozēšanas rīkus jūsu organizācijai. Šajā tēmā skaidrots, kā konfigurēt versiju 10.0.20, lai sistēma varētu izmantot iespējas, kas Dynamics 365 Finance ir pieejamas Finanšu ieskatījumā.
 
 > [!NOTE]
 > Šajā tēmā aprakstītās konfigurācijas darbības attiecas tikai uz Finance versiju 10.0.20 un jaunāku. 'Lai iestatītu Finance Insights versijai 10.0.19 vai jaunākai, skatiet [Finance Insights konfigurācija – versijām līdz 10.0.19](configure-for-fin-insites.md).
@@ -38,7 +38,7 @@ Finance Insights apvieno Microsoft Dynamics 365 Finance funkcionalitāti ar Data
 
 Lai izvietotu vides, veiciet tālāk norādītās darbības.
 
-1. Programmā Microsoft Dynamics Lifecycle Services (LCS) izveidojiet vai atjauniniet Finance vidi. Videi nepieciešama Finance and Operations programmas versija 10.0.20 vai jaunāka.
+1. Programmā Microsoft Dynamics Lifecycle Services (LCS) izveidojiet vai atjauniniet Finance vidi. Videi nepieciešama programmas versija 10.0.20 vai jaunāka finanšu un operāciju programmu versija.
 2. Videi ir jābūt augstas pieejamības (AP) videi smilškastē. (Šis vides veids ir pazīstams arī kā 2. līmeņa vide.) Lai iegūtu papildu informāciju, skatiet [Vides plānošana](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
 3. Konfigurējot Finance Insights, izmantojot smilškastes vidi, jums vajadzēs kopēt ražošanas datus uz šo vidi, lai varētu prognozēt darbu. Prognozēšanas modelī tiek izmantoti vairāki datu gadi, lai izveidotu prognozes. Contoso demonstrācijas dati neietver pietiekamus vēsturiskos datus, lai nodrošinātu prognozēšanas modeļa tālumu. 
 
@@ -94,7 +94,7 @@ Izpildiet tālāk norādītās darbības, lai konfigurējot Azure tiktu izmantot
     |------------------------------------------|--------------------------------------|
     | Microsoft Dynamics ERP apakšpakalpojumi     | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
     | Microsoft Dynamics ERP apakšpakalpojumi CDS | 703e2651-d3fc-48f5-942c-74274233dba8 |
-    | AI Builder autorizācijas pakalpojums         | ad40333e-9910-4b61-b281-e3aeeb8c3ef3 |
+    | AI Builder Autorizācijas pakalpojums         | ad40333e-9910-4b61-b281-e3aeeb8c3ef3 |
 
 Ja nevarat atrast nevienu no iepriekšējiem pieteikumiem, izmēģiniet tālāk norādītās darbības.
 
@@ -126,7 +126,7 @@ Ja nevarat atrast nevienu no iepriekšējiem pieteikumiem, izmēģiniet tālāk 
         - **Veiktspēja** — ieteicams atlasīt **Standarta**.
         - **Konta veids** — jāatlasa **StorageV2**.
 
-    3. Dialoglodziņā **Papildu opcijas** opcijā **Data Lake Storage Gen2** atlasiet **Iespējot** līdzeklī **Hierarhiskās nosaukumvietas**. Ja šis līdzeklis netiks iespējots, nevarēsit patērēt datus, ko Finance and Operations programmas raksta, izmantojot tādus pakalpojumus kā Power BI datu plūsmas.
+    3. Dialoglodziņā **Papildu opcijas** opcijā **Data Lake Storage Gen2** atlasiet **Iespējot** līdzeklī **Hierarhiskās nosaukumvietas**. Ja neiespējoat šo līdzekli, nevar patērēt datus, ko finanšu un operāciju programmas rakstīt, izmantojot tādus pakalpojumus kā Power BI datu plūsmas.
     4. Atlasiet **Pārskatīt un izveidot**. Kad izvietošana ir pabeigta, jaunais resurss tiks parādīts Azure portālā.
     5. Dodieties uz izveidoto krātuves kontu.
     6. Kreisās puses izvēlnē atlasiet **Piekļuves galvenie akreditācijas dati**.
@@ -214,7 +214,7 @@ Ja nevarat atrast nevienu no iepriekšējiem pieteikumiem, izmēģiniet tālāk 
         | Parādāmais nosaukums jaunajā izveidotajā pieteikumā | Līdzstrādnieks                 |
         | Parādāmais nosaukums jaunajā izveidotajā pieteikumā | Krātuves konta līdzstrādnieks |
         | Parādāmais nosaukums jaunajā izveidotajā pieteikumā | Krātuves BLOB datu īpašnieks     |
-        | **AI Builder autorizācijas pakalpojums**                     | Krātuves BLOB datu lasītājs    |
+        | **AI Builder Autorizācijas pakalpojums**                     | Krātuves BLOB datu lasītājs    |
 
 # <a name="azure-cli"></a>[Azure CLI](#tab/azure-azure-cli)
 
@@ -752,6 +752,6 @@ Pievienojumprogrammas instalēšana var ilgt vairākas minūtes.
 
 ## <a name="feedback-and-support"></a>Atsauksmes un atbalsts
 
-Ja vēlaties sniegt atsauksmes vai jums nepieciešams atbalsts, sūtiet e-pastu uz [Finance Insights (priekšskatījums)](mailto:fiap@microsoft.com).
+Ja interesējaties par atsauksmju sniegšanu vai vēlaties atbalstīt, sūtiet e-pasta ziņojumu uz [finanšu](mailto:fiap@microsoft.com) ieskatiem.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

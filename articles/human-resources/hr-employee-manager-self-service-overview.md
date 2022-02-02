@@ -3,7 +3,7 @@ title: Darbinieka un vadītāja patstāvīgi izmantojama pakalpojuma pārskats
 description: Šajā rakstā sniegts Darbinieku un pārvaldītāju pašapkalpošanās darbvietas pārskats.
 author: twheeloc
 ms.date: 08/26/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMParameters, EssWorkspace
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cea92092701f960f12aa74efe4c82c379a2b2c6d
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: 2a356aae6590c2bce289c8d180324027efc76983
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431215"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7991744"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>Darbinieka un vadītāja patstāvīgi izmantojama pakalpojuma pārskats
 
@@ -93,7 +93,7 @@ Skatiet un pārvaldiet dokumentus ar elementu **Pielikumi**. Varat pārvaldīt v
 
 Šajā sadaļā sniegtas saites uz citām **Darbinieka pašapkalpošanās** zonām, līdzīgi kā sadaļā **Manas karjeras informācija**.
 
-Parakstieties atvieglojumiem, izmantojot saiti **Atvieglojumi**. Papildinformāciju par atvieglojumu pārvaldību skatiet sadaļā [Atvieglojumu pārskats](hr-benefits-management-overview.md)
+Parakstieties atvieglojumiem, izmantojot saiti **Atvieglojumi**. Papildinformāciju par atvieglojumu pārvaldību skatiet atvieglojumu [pārskatā](hr-benefits-management-overview.md).
 
 Sadaļā **Veiktspēja** varat atlasīt **Veiktspējas žurnālu**, lai izveidotu veiktspējas žurnālu ierakstus, kurus lietot gan attiecībā uz veiktspējas mērķiem un pārskatiem. Varat atlasīt **Sūtīt atsauksmes**, lai sniegtu atsauksmes par citiem darbiniekiem savā organizācijā. Atkarībā no jūsu organizācijas iestatījumiem, saņēmējam, sūtītājam un vadītājiem var tikt sūtīti e-pasta ziņojumi. Varat nosūtīt atsauksmes visiem darbiniekiem organizācijā. Uzņēmums neierobežo atsauksmes.
 

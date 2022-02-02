@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 68115d484abcdc3c37357ae441e9f9ccb5212659
-ms.sourcegitcommit: 6a9f068b59b62c95a507d1cc18b23f9fd80a859b
-ms.translationtype: MT
+ms.openlocfilehash: c1bbdbec2bc0273a73ffc13a4cce024543af5a13
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/20/2021
-ms.locfileid: "7827057"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968840"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Finance Insights iestatījumu problēmu novēršana
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Šajā tēmā uzskaitītas problēmas, kas var rasties, kad izmantojat Finance Insights iespējas. Tajā arī skaidrots, kā atrisināt šos jautājumus.
 
@@ -55,7 +54,7 @@ Izpildiet šīs darbības [Power Platform administrēšanas centrā](https://adm
 1. Ja izmantojat Finance Insights versiju, noņemiet DI projektu, kas ir saistīts ar **Debitoru maksājumu ieskatu rezultātiem (CDS uz Fin un Ops)** veidni.
 2. Izpildiet darbības sadaļā [Izveidot datu integrētātāja projektu](create-data-integrate-project.md). Izmantojiet **Debitora maksājuma ieskatu rezultātu (CDS uz Fin un Ops 10.0.17 vai jaunāku)** veidni.
 
-## <a name="symptom-when-i-try-to-open-ai-builder-by-using-the-links-on-the-customer-payment-predictions-setup-page-why-do-i-receive-the-following-error-message-sorry-theres-been-a-disconnect"></a>Simptoms: Kad mēģinu atvērt AI Builder, izmantojot saites debitora maksājumu prognozēšanas iestatījumu lapā, kāpēc es saņemu šādu kļūdas ziņojumu: "Diemžēl ir bijis atvienošanās"?
+## <a name="symptom-when-i-try-to-open-ai-builder-by-using-the-links-on-the-customer-payment-predictions-setup-page-why-do-i-receive-the-following-error-message-sorry-theres-been-a-disconnect"></a>Simptoms: Kad mēģinu atvērt, izmantojot saites debitora maksājumu prognozēšanas iestatījumu lapā, kāpēc es saņemu šādu kļūdas ziņojumu: "Diemžēl ir bijis AI Builder atvienošanās"?
 
 ### <a name="resolution"></a>Novēršana
 

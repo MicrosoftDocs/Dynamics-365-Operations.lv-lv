@@ -4,6 +4,30 @@
       items:
         - name: Dynamics 365 Finance sākumlapa
           href: index.md
+        - name: Jaunumi un izmaiņas
+          items:
+            - name: Jaunumi un izmaiņas programmā Finance and Operations
+              href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
+            - name: Jaunumi un izmaiņas programmā Finance
+              items:
+                - name: Jaunumi un izmaiņas programmas Finance sākumlapā
+                  href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.24 (februāris)
+                  href: get-started/whats-new-changed-10-0-24.md
+                - name: Finance 10.0.23 (janvāris)
+                  href: get-started/whats-new-changed-10-0-23.md
+            - name: Noņemtie vai novecojušie līdzekļi
+              items:
+                - name: Noņemtie vai novecojušie līdzekļi sākumlapā
+                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
+                - name: Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Finance
+                  href: get-started/removed-deprecated-features-finance.md
+                - name: Noņemtie vai novecojuši līdzekļi iepriekšējos laidienos
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
+            - name: 'AX 2012 līdzekļi, kas tika atlikti'
+              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/finance/toc.json
+            - name: Galvenā atbalsta beigas versijai Microsoft Dynamics AX 2009 un 2012
+              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/finance/toc.json
         - name: Darba sākšana
           items:
             - name: Pakalpojuma apraksts
@@ -62,32 +86,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Noliktavas konfigurēšana lokālajiem izvietojumiem
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
-            - name: Jaunumi un izmaiņas
-              items:
-                - name: Jaunumi un izmaiņas Finance and Operations programmās
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
-                - name: Jaunumi un izmaiņas programmā Finance
-                  items:
-                    - name: Jaunumi un izmaiņas programmas Finance sākumlapā
-                      href: get-started/whats-new-home-page.md
-                    - name: Finance 10.0.24 (februāris)
-                      href: get-started/whats-new-changed-10-0-24.md
-                    - name: Finance 10.0.23 (janvāris)
-                      href: get-started/whats-new-changed-10-0-23.md
-                    - name: "Finance 10.0.22 (2021.\_gada novembris)"
-                      href: get-started/whats-new-changed-10-0-22.md
-            - name: Noņemtie vai novecojušie līdzekļi
-              items:
-                - name: Noņemtie vai novecojušie līdzekļi sākumlapā
-                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
-                - name: Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Finance
-                  href: get-started/removed-deprecated-features-finance.md
-                - name: Noņemtie vai novecojuši līdzekļi iepriekšējos laidienos
-                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
-            - name: 'AX 2012 līdzekļi, kas tika atlikti'
-              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/finance/toc.json
-            - name: Galvenā atbalsta beigas versijai Microsoft Dynamics AX 2009 un 2012
-              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/finance/toc.json
             - name: Dokumentācijas resursi
               items:
                 - name: Palīdzības sistēma
@@ -174,7 +172,7 @@
               items:
                 - name: Ieviešanas dzīves cikla pārvaldības sākumlapa
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/finance/toc.json
-                - name: Finance and Operations programmu arhitektūra
+                - name: "Finance and\_Operations programmu arhitektūra"
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Microsoft FastTrack
                   href: /dynamics365/fasttrack/index
@@ -836,6 +834,8 @@
                   href: asset-leasing/set-up-lease-books.md
                 - name: Nomas grupas izveide
                   href: asset-leasing/create-lease-group.md
+                - name: Maksājuma summas veids
+                  href: asset-leasing/Payment-amount-type.md
                 - name: Indeksu likmju iestatīšana
                   href: asset-leasing/set-up-index-rate-types.md
                 - name: Izdevumu veidu iestatīšana
@@ -1460,6 +1460,8 @@
                           href: localizations/tax-calculation-import-export-feature.md
                         - name: Pamatdatu uzmeklēšanas vides iestatīšana
                           href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
+                        - name: Nodokļu iestatījumu sinhronizēšana no nodokļu aprēķināšanas pakalpojuma uz programmu Finance
+                          href: localizations/global-master-data-sync-tax-calculation-service-finance.md
                     - name: Noteikšana
                       items:
                         - name: Nodokļu aprēķina datu modelis
@@ -1491,7 +1493,7 @@
                         - name: Vācijas pārskati
                           items:
                             - name: PVN deklarācija
-                              href: /localizations/emea-deu-vat-declaration-germany.md
+                              href: localizations/emea-deu-vat-declaration-germany.md
                         - name: Nīderlandes pārskatu veidošana
                           items:
                             - name: PVN deklarācija
@@ -1502,6 +1504,8 @@
                           items:
                             - name: 'Tūlītēja informācijas piegāde par PVN (Suministro Inmediato de Información del IVA, SII)'
                               href: localizations/emea-esp-sii-spain.md
+                            - name: PVN deklarācija
+                              href: localizations/emea-esp-vat-declaration-spain.md
                         - name: Zviedrijas pārskatu veidošana
                           items:
                             - name: PVN deklarācija
@@ -1536,6 +1540,8 @@
                       href: localizations/global-tax-calcuation-service-faq.md?toc=/dynamics365/finance/toc.json
             - name: Normatīvie atjauninājumi
               href: localizations/regulatory-updates.md
+            - name: Normatīvo atjauninājumu meklēšana
+              href: localizations/search-for-regulatory-updates.md
             - name: Austrālija
               items:
                 - name: Austrālijas pārskats
@@ -1754,6 +1760,8 @@
                   href: localizations/tasks/br-00066-1-set-up-interest-fines-customer-payments.md
                 - name: Debitoru maksājumu procentu un soda naudas aprēķins
                   href: localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
+                - name: Bankas kontu numuru iestatīšana Brazīlijai
+                  href: localizations/latam-bra-bank-account-number-setup-brazil-localization.md
                 - name: Nodokļi
                   items:
                     - name: Brazīlijas nodokļu pārskats
@@ -1782,6 +1790,8 @@
                       href: localizations/tasks/br-10001-2-set-up-adjustment-codes-icms-taxes-fiscal-documents.md
                     - name: 'ICMS-ST papildināšanas un atlīdzināšanas process un deklarācija RS, SC un SP stāvokļiem'
                       href: localizations/latam-bra-complement-restitution.md
+                    - name: Bāzes izmaiņas ICMS-DIF nodokļa aprēķinos precēm no piegādātājiem citās valstīs
+                      href: localizations/latam-brazil-basis-change-ICMS-DIF-tax-calculation-products-suppliers-other-states.md
                     - name: "IPI\_nodokļu korekcijas kodu iestatīšana"
                       href: localizations/tasks/br-10004-1-set-up-adjustment-codes-ipi-taxes.md
                     - name: PIS un COFINS pamatlīdzekļi
@@ -1884,6 +1894,8 @@
                   href: localizations/emea-cze-vat-statement-details.md
                 - name: "PVN\_deklarācija (Čehijas Republika)"
                   href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
+                - name: Čehijas Intrastat
+                  href: localizations/emea-cze-intrastat.md
                 - name: Bankas kontu bankas simboli
                   href: localizations/emea-cze-specify-bank-symbols-for-bank-accounts.md
                 - name: EK iekšējais PVN
@@ -1916,6 +1928,8 @@
                   href: localizations/tasks/set-up-oioubl-electronic-invoicing.md
                 - name: Maksājumu kvīts formāta iestatīšana
                   href: localizations/tasks/set-up-payment-slip-format.md
+                - name: Dānijas Intrastat
+                  href: localizations/emea-dnk-intrastat.md
             - name: Ēģipte
               items:
                 - name: Ēģiptes pārskats
@@ -1938,6 +1952,8 @@
                   href: localizations/emea-est-personal-info.md
                 - name: PVN deklarācija
                   href: localizations/emea-est-vat-statement-details.md
+                - name: Igaunijas Intrastat
+                  href: localizations/emea-est-intrastat.md
             - name: Eiropa
               items:
                 - name: Eiropas pārskats
@@ -2084,6 +2100,8 @@
                       href: localizations/emea-vat-reporting.md
                     - name: PVN pārskata izveide un iesniegšana
                       href: localizations/tasks/create-submit-vat-report.md
+                    - name: Kreditora PVN reģistra datums
+                      href: localizations/emea-date-vendor-vat-register.md
                 - name: Segšanas transakciju skatīšana
                   href: localizations/emea-transactions-settlement-form.md
                 - name: Finanšu pamatojums
@@ -2872,6 +2890,8 @@
                   href: localizations/emea-lva-tax-natural-resources.md
                 - name: PVN deklarācijas informācija
                   href: localizations/emea-lva-vat-statement-details.md
+                - name: Latvijas Intrastat
+                  href: localizations/emea-lva-intrastat.md
             - name: Lietuva
               items:
                 - name: Lietuvas pārskats
@@ -3060,6 +3080,8 @@
                       href: localizations/emea-pol-vdek-reporting.md
                     - name: Detalizēta informācija par konkrētiem biznesa scenārijiem JPK-V7M pārskatā
                       href: localizations/emea-pol-vdek-scenarios.md
+                - name: Maksājumu nosacījumi tirdzniecības darbību pārskatā
+                  href: localizations/emea-pol-payment-terms-report.md
             - name: Katara
               items:
                 - name: Kataras pārskats
@@ -3356,6 +3378,8 @@
                   href: localizations/emea-esp-report-340.md
                 - name: 347. deklarācijas pārskats
                   href: localizations/emea-esp-declaration-347-report.md
+                - name: "PVN\_deklarācija\_303"
+                  href: localizations/emea-esp-vat-declaration-spain.md
                 - name: Pārdošanas un pirkšanas cikli
                   href: localizations/emea-esp-sales-purchase-cycle.md
                 - name: Īpašie ieraksti un sākuma lapas
@@ -3466,6 +3490,8 @@
           items:
             - name: Human Resources pārskats
               href: ../fin-ops-core/fin-ops/hr/hr-landing-page.md
+            - name: Infrastruktūras izlaide 10.0.25
+              href: ../human-resources/hr-infrastructure.md?toc=/dynamics365/finance/toc.json
             - name: Human Resources iestatīšana
               items:
                 - name: Human Resources parametru konfigurēšana
@@ -3473,7 +3499,7 @@
                 - name: Konfigurēt Human Resources koplietotos parametrus
                   href: ../human-resources/hr-setup-shared-parameters.md?toc=/dynamics365/finance/toc.json
                 - name: Iestatīt personāla vadības darbplūsmas
-                  href: /dynamics365/finance/hr-workflow-manage-employee-information?toc=%2fdynamics365%2ffinance%2ftoc.json
+                  href: ../human-resources/hr-workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
                 - name: Informācija par datuma un laika laukiem
                   href: ../human-resources/hr-setup-date-time-fields.md?toc=/dynamics365/finance/toc.json
             - name: Pārvaldīt personālu

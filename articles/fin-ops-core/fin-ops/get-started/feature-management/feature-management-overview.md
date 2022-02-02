@@ -1,27 +1,26 @@
 ---
 title: Līdzekļu pārvaldības pārskats
-description: Šajā tēmā ir aprakstīts līdzeklis Līdzekļu pārvaldība un tā lietošanas iespējas.
+description: Šajā tēmā aprakstīta Funkciju pārvaldība un informācija, kā to var lietot.
 author: Peakerbl
-ms.date: 09/13/2021
-ms.topic: article
+ms.date: 01/10/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: FeatureManagementWorkspace
 audience: IT Pro, Application user
 ms.reviewer: sericks
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 1318093d66cfc30a04815311cce332df010d4b69
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 6605fe68576ce80726438b60c1f1fbf3782d0934
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488182"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984463"
 ---
 # <a name="feature-management-overview"></a>Līdzekļu pārvaldības pārskats
 
@@ -75,9 +74,9 @@ Līdzekļi, kas atjaunināti **Pēc noklusējuma** ir ieslēgti pēc noklusējum
 > [!NOTE]
 > Tā kā šīs funkcijas tiks aktivizētas automātiski, ir svarīgi noteikt, vai organizācija ir gatava izmantot šīs funkcijas vai arī nepieciešams vairāk laika. Ja nepieciešams vairāk laika, var būt nepieciešams uz laiku deaktivizēt šīs funkcijas. Ievērojiet, ka funkcijas pāreja uz **Pēc noklusējuma** parasti tiek veikta galvenajā laidienā, pirms līdzeklis ir paredzēts, lai kļūtu par **Obligātu**. Šajā brīdī jums nebūs opcijas atspējot šo līdzekli. 
 
-### <a name="released-features-mandatory"></a>Izpildei nodotās funkcijas (obligātas)
+### <a name="mandatory"></a>Obligāts
 
-**Nodots izpildei** ir pēdējais līdzekļu stāvoklis. Tas norāda, ka līdzekļi ir ieslēgti un tos nevar deaktivizēt, nesazinoties ar korporāciju Microsoft. Pēc diviem galvenajiem laidieniem izvēles funkcijas ir sagaidāmas kā obligātas. Kritiskās funkcijas izņēmuma gadījumā var tikt ieviestas kā obligātas.
+**Obligāts** ir paredzamais funkciju beigu stāvoklis. Tas norāda, ka līdzekļi ir ieslēgti un tos nevar deaktivizēt, nesazinoties ar korporāciju Microsoft. Pēc diviem galvenajiem laidieniem izvēles funkcijas ir sagaidāmas kā obligātas. Kritiskās funkcijas izņēmuma gadījumā var tikt ieviestas kā obligātas.
 
 ## <a name="example-of-expected-feature-lifecycles"></a>Prognozēto līdzekļu dzīves cikla piemērs
 
