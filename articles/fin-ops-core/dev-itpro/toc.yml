@@ -10,13 +10,15 @@
           items:
             - name: Jaunumi un izmaiņas programmā Finance and Operations
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: Jaunumi un izmaiņas Platform atjauninājumos
+            - name: Jaunumi un izmaiņas platformas atjauninājumos
               items:
-                - name: Jaunumi un izmaiņas Platform atjauninājumu sākumlapā
+                - name: Jaunumi un izmaiņas platformas atjauninājumu sākumlapā
                   href: get-started/whats-new-home-page.md
-                - name: "Platform atjauninājumi versijai\_10.0.24 (2022.\_gada februāris)"
+                - name: "Platformas atjauninājumi versijai\_10.0.25 (2022.\_gada aprīlis)"
+                  href: get-started/whats-new-platform-updates-10-0-25.md
+                - name: "Platformas atjauninājumi versijai\_10.0.24 (2022.\_gada februāris)"
                   href: get-started/whats-new-platform-updates-10-0-24.md
-                - name: "Platform atjauninājumi versijai\_10.0.23 (2022.\_gada janvāris)"
+                - name: "Platformas atjauninājumi versijai\_10.0.23 (2022.\_gada janvāris)"
                   href: get-started/whats-new-platform-updates-10-0-23.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
@@ -370,7 +372,7 @@
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
                     - name: "Lokālas vides iestatīšana un izvietošana (41.\_Platform atjauninājums un jaunākas versijas)"
                       href: deployment/setup-deploy-on-premises-pu41.md
-                    - name: "Lokālas vides iestatīšana un izvietošana (12.–40.\_Platform atjauninājums)"
+                    - name: "Lokālas vides iestatīšana un izvietošana (12.–40.\_platformas atjauninājums)"
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: Retail kanāla komponentu instalēšanas darbības lokālā vidē
                       href: deployment/deploy-retail-onprem.md
@@ -430,6 +432,8 @@
                   href: deployment/install-deployable-package.md
                 - name: Pakotnes atinstalēšana
                   href: deployment/uninstall-deployable-package.md
+                - name: Pielāgotu X++ skriptu palaišana ar nulles dīkstāves laiku
+                  href: deployment/run-custom-scripts.md
                 - name: Pakotnes lietojuma problēmu novēršana
                   href: deployment/deployable-package-troubleshooting.md
             - name: Pielāgotās palīdzības izvietošana
@@ -854,6 +858,8 @@
                   href: perf-test/continuous-build-test-automation.md
                 - name: 'SysTest filtrēšana, izmantojot klašu un metožu atribūtus'
                   href: perf-test/systest-filtering.md
+                - name: SysTestRow atribūts vairāku vērtību testēšanai
+                  href: perf-test/systest-row.md
                 - name: Pieņemšanas testu bibliotēka
                   items:
                     - name: Pieņemšanas testu bibliotēkas resursi

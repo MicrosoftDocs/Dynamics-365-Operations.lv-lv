@@ -1,6 +1,6 @@
 ---
-title: Finance and Operations programmas dokumentācija
-description: Dokumentācija Finance and Operations programmām.
+title: Finance and Operations programmu dokumentācija
+description: Dokumentācija Finance and Operations programmām.
 author: tonyafehr
 ms.date: 04/13/2021
 ms.topic: index-page
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe029d6a3eb2555e0d77035b089c7cb3e710ee85
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: cf2278cbf47c5fd2937e7da55c8777709ab7d356
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782136"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075401"
 ---
-# <a name="finance-and-operations-application-documentation"></a>Finance and Operations programmas dokumentācija
+# <a name="finance-and-operations-application-documentation"></a>Finance and Operations programmu dokumentācija
 
 [!include [banner](includes/banner.md)]
 
@@ -41,7 +41,7 @@ Liela daļa šī satura attiecas arī uz saistītajiem produktiem: Dynamics 365 
 <h3><a href="get-started/before-you-buy.md">Pirms iegādes</a></h3>
 <p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">Reģistrēšanās priekšskatījuma abonementam</a></p>
  <p><a href="../dev-itpro/deployment/choose-deployment-type.md">Izvietošanas opcijas izvēle</a></p>
- <p><a href="get-started/purchase-on-premises.md">Iegādāties Finance and Operations (lokāli)</a></p>
+ <p><a href="get-started/purchase-on-premises.md">Finance and Operations (on-premises) iegāde</a></p>
 
 <h3><a href="imp-lifecycle/implementation-lifecycle.md">Ieviešanas dzīves cikls</a></h3>
 <p><a href="/dynamics365/fasttrack/">FastTrack for Dynamics 365</a></p>
@@ -80,12 +80,14 @@ Liela daļa šī satura attiecas arī uz saistītajiem produktiem: Dynamics 365 
 <p><a href="../../finance/public-sector/public-sector-functionality.md">Publiskais sektors</a></p>
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Reģionālie regulēšanas līdzekļi</a></p>
 
-<h3><a href="hr/hr-landing-page.md">Personāla vadība</a></h3>
+<h3><a href="hr/hr-landing-page.md">Personālresursi</a></h3>
+<p><a href="../../human-resources/hr-employee-manager-self-service-overview.md">Darbinieku patstāvīgi izmantojamais pakalpojums</a></p>
+<p><a href="../../human-resources/hr-personnel-departments-jobs-positions.md">Personāla pārvaldība</a></p>
+<p><a href="../../human-resources/hr-leave-and-absence-overview.md">Atvaļinājumi un kavējumi</a></p>
 <p><a href="../../human-resources/hr-benefits-manage-program.md">Atvieglojumi</a></p>
-<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Darbinieku izaugsme un apmācība</a></p>
-<p><a href="../../human-resources/hr-learning-questionnaires.md">Anketas</a></p>
-<p><a href="hr/manage-recruiting-process.md">Personāla atlase</a></p>
-<p><a href="hr/localizations/noam-usa-payroll.md">ASV alga</a></p>
+<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Darbinieku attīstība</a></p>
+<p><a href="../../human-resources/hr-learning-courses.md">Mācības</a></p>
+ <p><a href="hr/localizations/noam-usa-payroll.md">ASV alga</a></p>
 
 </td>
 <td>
@@ -131,11 +133,6 @@ Liela daļa šī satura attiecas arī uz saistītajiem produktiem: Dynamics 365 
 <p><a href="../../commerce/define-maintain-retail-channels.md">Kanāla iestatīšana un pārvaldība</p>
 <p><a href="../../commerce/retail-peripherals-overview.md">MPOS un Cloud POS</p>
 <p><a href="../../commerce/dev-itpro/dev-retail-home-page.md">Commerce izstrādātājs un administrācija</p>
-
-<h4><a href="/dynamics365/human-resources/">Dynamics 365 Human Resources</a></h4>
-<p><a href="../../human-resources/hr-admin-overview.md">Administratora rokasgrāmata</a></p>
-<p><a href="../../human-resources/hr-developer-overview.md">Izstrādātāja rokasgrāmata</a></p>
-<p><a href="../../human-resources/hr-hrpro-overview.md">Lietotāja rokasgrāmata</a></p>
 
 
 </td>

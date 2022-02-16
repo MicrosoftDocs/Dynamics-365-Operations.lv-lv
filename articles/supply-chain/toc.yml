@@ -12,6 +12,8 @@
               items:
                 - name: Jaunumi un izmaiņas programmas Supply Chain Management sākumlapā
                   href: get-started/whats-new-home-page.md
+                - name: "Supply Chain Management 10.0.25 (2022.\_gada aprīlis)"
+                  href: get-started/whats-new-scm-10-0-25.md
                 - name: "Supply Chain Management 10.0.24 (2022.\_gada februāris)"
                   href: get-started/whats-new-scm-10-0-24.md
                 - name: "Supply Chain Management 10.0.23 (2022.\_gada janvāris)"
@@ -102,8 +104,6 @@
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Videoklipi
                   href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Skaidrojošā vārdnīca
-                  href: ../fin-ops-core/fin-ops/get-started/glossary.md?toc=/dynamics365/supply-chain/toc.json
             - name: Apmācību katalogs
               items:
                 - name: Apmācību kataloga mājas lapa
@@ -184,7 +184,7 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Sagatavošanās ekspluatācijai
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Bieži uzdotie jautājumi par ekspluatāciju
+                - name: Bieži uzdotie jautājumi par palaišanu
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Pakalpojuma pieprasījuma iesniegšana
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/supply-chain/toc.json
@@ -308,6 +308,8 @@
               href: cloud-edge/cloud-edge-workload-manufacturing.md
             - name: Noliktavas pārvaldības darba slodzes mākoņa un malas mēroga vienībām
               href: cloud-edge/cloud-edge-workload-warehousing.md
+            - name: Warehouse Management mobilās lietotnes konfigurēšana mākoņa un malas mēroga vienībām
+              href: cloud-edge/cloud-edge-workload-setup-warehouse-app.md
             - name: Noliktavas pasūtījumi mākoņa un malas mēroga vienībām
               href: cloud-edge/cloud-edge-warehouse-order.md
             - name: Noliktavas krājumu korekcija
@@ -1233,6 +1235,8 @@
                   items:
                     - name: 'Konfigurāciju izveide, lai importētu datus no ārēja XML faila'
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Datu importēšana no manuāli atlasītiem failiem pakešveida režīmā
+                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-batch.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Datu importēšana pakešveida režīmā no platformā SharePoint izvietotiem failiem
                   href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Failu importēšana XML formātā
@@ -1451,16 +1455,20 @@
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/supply-chain/toc.json
                 - name: API izmaiņas
                   items:
-                    - name: "Application Update\_7.3"
+                    - name: "Programmatūras atjauninājums\_7.3"
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: "Application Update\_10.0.11"
+                    - name: "Programmatūras atjauninājums\_10.0.11"
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: "Application Update\_10.0.17"
+                    - name: "Programmatūras atjauninājums\_10.0.17"
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: "Application Update\_10.0.19"
+                    - name: "Programmatūras atjauninājums\_10.0.19"
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: "Application Update\_10.0.21"
+                    - name: "Programmatūras atjauninājums\_10.0.21"
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: "Programmatūras atjauninājums\_10.0.23"
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: "Programmatūras atjauninājums\_10.0.25"
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-25.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Pielāgotas glabāšanas vietas norādīšana ģenerētajiem dokumentiem
                   items:
                     - name: 'Notikuma abonēšana, lai pieprasītu atbildi no abonēšanas apstrādātāja'
@@ -1473,7 +1481,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 'Mainīt kodu, lai dotu lietotājiem iespēju konfigurēt un izmantot nosauktos ER adresātus'
                   href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/finance/toc.json
-        - name: Krājumu vadība
+        - name: Krājumu pārvaldība
           items:
             - name: Krājumu pārvaldības pārskats
               href: inventory/inventory-home-page.md
@@ -1691,12 +1699,16 @@
                   href: master-planning/planning-optimization/approved-planned-order.md
                 - name: Plānoto pasūtījumu apstiprināšana
                   href: master-planning/planning-optimization/planned-order-firming.md
+                - name: Plānotie pasūtījumi vienkāršoti
+                  href: master-planning/planning-optimization/planned-orders-simplified.md
                 - name: Plānošana ar negatīviem rīcībā esošajiem daudzumiem
                   href: master-planning/planning-optimization/negative-on-hand.md
                 - name: Plāna vēstures un plānošanas žurnālu skatīšana
                   href: master-planning/planning-optimization/plan-history-logs.md
                 - name: Plānošanas darba atcelšana
                   href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: Optimizācijas priekšlikumi
+                  href: master-planning/action-messages.md
                 - name: Plānošanas optimizācijas problēmu novēršana
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
                 - name: Plānošanas optimizācijas paplašināmība
@@ -1729,8 +1741,6 @@
                   href: master-planning/cancel-master-planning-job.md
                 - name: Izsekošanas izmantošana izvēršanai
                   href: master-planning/trace-explosion.md
-                - name: Darbību ziņojumi
-                  href: master-planning/action-messages.md
                 - name: Vispārējās plānošanas izpildes pārraudzība
                   href: master-planning/tasks/monitor-master-planning-run.md
                 - name: Grafika izveide vietai
@@ -3541,7 +3551,7 @@
                   href: troubleshooting/costing/purchase-orders-rece.md
                 - name: Lapas Krājuma cena cilnē Aktīvās cenas nav sākuma datuma
                   href: troubleshooting/costing/there-is-no-from-dat.md
-            - name: Krājumu vadība
+            - name: Krājumu pārvaldība
               items:
                 - name: Nevar atrast nolaižamo dialoglodziņu Darbplūsma krājumu žurnāliem
                   href: troubleshooting/inventory/cant-find-workflow-dropdown.md
@@ -3761,8 +3771,10 @@
                   items:
                     - name: 'Iestatot programmas savienojumu, nav atrasts sertifikācijas ceļa uzticamības enkurs'
                       href: troubleshooting/warehousing/certification-path-app-connection-error.md
-                    - name: 'Veicot atjaunināšanu un migrēšanu uz NPS, nav atrasts sertifikācijas ceļa uzticamības enkurs'
+                    - name: 'Veicot atjaunināšanu un migrēšanu uz noliktavas pārraudzības sistēmu, nav atrasts sertifikācijas ceļa uzticamības enkurs'
                       href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
+                - name: Apstrādes problēmas rodas pēc mēroga vienības noliktavas darba noslodzes instalēšanas
+                  href: troubleshooting/warehousing/Scale-unit-warehouse-workload-installation-issues.md
                 - name: 'Tiek parādīta automātiska partijas numura rezervēšanas uzvedne pat tad, ja ir pieejami krājumi'
                   href: troubleshooting/warehousing/auto-reservation-prompt-shown.md
                 - name: Nepabeigtā papildināšanas darba dēļ izdošanas darbu nevar atbloķēt
@@ -3901,9 +3913,11 @@
                   href: troubleshooting/warehousing/work-remains-blocked.md
                 - name: Nevar atcelt lietotājam izveidotu darbu
                   href: troubleshooting/warehousing/you-cannot-cancel-wo.md
-    - name: Finance and Operations programmu izstrāde un administrēšana
+    - name: Finanšu un darbības programmu izstrāde un administrēšana
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md
     - name: Dynamics 365 Commerce
       href: ../commerce/index.md
+    - name: Dynamics 365 Human Resources
+      href: ../human-resources/index.md
