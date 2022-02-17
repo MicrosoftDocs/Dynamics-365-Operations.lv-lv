@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 23f720db57bf60c81182ed8ae4bdac965676741ce2a2e53bc699c2bd49325b74
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: cb4693f3c856e7abcc39cbd658183d01ec98a066
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754141"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063751"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2020. gada 14. maijs)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Human Resources. Izmaiņas attiecas uz būvējuma numuru 8.1.3244. Dažos virsrakstos redzamie numuri iekavās attiecas uz atbalsta atsauces numuriem portālā Lifecycle Services (LCS).
 
 ## <a name="platform-changes"></a>Platformas izmaiņas
 
-Platformas izmaiņas iekļautas šīs nedēļas laidienā. Papildinformāciju skatiet [Platformas atjauninājumi Finance and Operations programmu versijai 10.0.10 (2020. gada maijs)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md). Šajā laidienā ir ietverti kļūdu labojumi un izmaiņas saglabātajos skatos.
+Platformas izmaiņas iekļautas šīs nedēļas laidienā. Papildinformāciju skatiet [Platformas atjauninājumi programmas Finance and Operations versijai 10.0.10 (2020. gada maijs)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md). Šajā laidienā ir ietverti kļūdu labojumi un izmaiņas saglabātajos skatos.
  
 ## <a name="ensure-dataverse-picklists-are-consistent-with-leave-enums-436343"></a>Nodrošināts, lai Dataverse salasīšanas saraksti atbilst Atvaļinājumu uzskaitījumiem (436343)
 

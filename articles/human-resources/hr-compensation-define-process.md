@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 883948c6e3f7b205d7e0f1f2b6adef1173616dc1
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
-ms.translationtype: HT
+ms.openlocfilehash: 188a87f580c274e073710601ef306139f723c797
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431129"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071726"
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>Atlīdzības procesa definēšana un rezultātu aprēķināšana
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -40,13 +43,13 @@ Kompensācijas procesi tiek izmantoti, lai noteiktu jaunas atlīdzības summas u
     * Darbības aktīvais datums ir datums, kurā jāstājas spēkā janajām atlīdzības likmēm. Daudzi uzņēmumi ietver dažus mēnešus starp cikla beigām un laiku, kad stājas spēkā jaunās atlīdzības likmes. Papildu laiks tiek izmantots jaunās atlīdzības apstrādei un pārskatīšanai.  
 8. Laukā **Transakcijas aktīvais datums** ievadiet datumu.
     * Algas datums tiek izmantots mainīgās atlīdzības plāniem, kuri nosaka darbinieka piemaksas summu, balstoties uz to atlīdzības likmēm attiecīgajā brīdī.  
-    * Fiksētās maksas likmes nolīgšanas datums tiek izmantots ar fiksētās atlīdzības plāniem, ja nolīgšanas kārtulas vērtība ir Procenti.  Darbinieki, kuri ir pieņemti darbā starp cikla sākuma datumu un fiksētās maksas likmes nolīgšanas datumu, saņems 100 % no aprēķinātā atlīdzības pieauguma, nevis proporcionāli sadalīto procentuālo vērtību.  
+    * Fiksētās algas proporcionālais nomas datums tiek izmantots fiksētas atlīdzības plāniem ar nomas noteikumu **Procenti**. Darbinieki, kuri ir pieņemti darbā starp cikla sākuma datumu un fiksētās maksas likmes nolīgšanas datumu, saņems 100 % no aprēķinātā atlīdzības pieauguma, nevis proporcionāli sadalīto procentuālo vērtību.  
 9. Laukā **Fiksētā samaksa uz nominālo līgšanas datumu** ievadiet datumu.
     * Pārskatīšanas termiņš ir datums, līdz kuram ir jāpārskata visi procesa rezultāti, lai tos varētu ielādēt darbinieka atlīdzības ierakstā pirms darbības aktīvā datuma. Šim laukam ir tikai informatīvs raksturs.  
 10. Laukā **Pārskata termiņš** ievadiet datumu.
 11. Noklikšķiniet uz **Saglabāt**.
 
-## <a name="setup-the-compensation-plans-and-actions-for-a-compensation-process"></a>Atlīdzības plānu un darbību atlīdzības procesam iestatīšana
+## <a name="set-up-the-compensation-plans-and-actions-for-a-compensation-process"></a>Izveidojiet kompensācijas plānus un darbības kompensācijas procesam
 1. Noklišķiniet uz **Iestatījumi**.
     * Lapu **Iestatījumi** izmanto, lai atlasītu, kurus plānus apstrādāt kā daļu no šī atlīdzību procesa, kā arī kuras darbības vajadzētu veikt saistībā ar katru plānu.  
 2. Laukā **Plāns** ievadiet vai atlasiet kādu vērtību.
@@ -56,7 +59,7 @@ Kompensācijas procesi tiek izmantoti, lai noteiktu jaunas atlīdzības summas u
 6. Noklikšķiniet uz **Pievienot**.
 7. Laukā **Darbība** atlasiet darbības veidu **Palielinājums par nopelniem**.
     * Atlīdzību darbības var savienot kopā, izmantojot lauku **Izmantot iepriekšējo rezultātu**, lai norādītu, vai atlasītājai darbībai vajadzētu izmanto darbinieku bāzes samaksu vai iepriekšējās darbības rezultātu kā šīs darbības aprēķina sākumpunktu.  
-8. Laukā "Lietot iepriekšējo rezultātu" atlasiet **Jā**.
+8. Izvēlieties **Jā** iekš **Izmantojiet iepriekšējo rezultātu** lauks.
 9. Noklikšķiniet uz **Pievienot**.
 10. Laukā **Darbība** atlasiet darbības veidu **Vispārīgi**.
     * Dažādi atlīdzības darbību tipi iespējo dažādus laukus. Darbības tipam Vispārīgi var norādīt palielinājuma procentus vai palielinājuma summu.  
@@ -85,7 +88,7 @@ Kompensācijas procesi tiek izmantoti, lai noteiktu jaunas atlīdzības summas u
 1. Noklikšķiniet uz **Procesa rezultāti**.
 2. Noklikšķiniet uz **Darbinieka rezultāti**.
 3. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-4. Izvērsiet sadaļu Fiksēta atlīdzība.
+4. Paplašiniet **Fiksēta kompensācija** sadaļā.
     * Izvērsiet kopsavilkuma cilnes, lai skatītu procesa rezultātus. Ja opcija **Iespējot ieteikumus** tika atzīmēta atlīdzību darbībai, šai darbībai tiks iespējoti **Ieteikumu** lauki.  
 5. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
     * Viena darbinieka rezultātus var skatīt, noklikšķinot uz pogas **Skatīt rezultātus**.  

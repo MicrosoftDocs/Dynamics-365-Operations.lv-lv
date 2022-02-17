@@ -2,7 +2,7 @@
 title: Darbs ar fragmentiem
 description: Šajā tēmā aprakstīts, kāpēc, kad un kā izmantot fragmentus programmā Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-ms.date: 10/16/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 35a19f064b63ce476252064253032d35697bd69c84c4c93db1d0349a57527c2a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 98cb1fba158ea99427d2068ca49b257cb5290de3
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776198"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090748"
 ---
 # <a name="work-with-fragments"></a>Darbs ar fragmentiem 
 
@@ -121,6 +121,20 @@ Lai rediģētu fragmentu Commerce vietņu veidotājā, izpildiet tālāk norād�
 1. Rediģējiet fragmenta moduļa rekvizītus un struktūru, kā nepieciešams. Šis process līdzinās moduļu rediģēšanas procesam, kas tiek veikts lapas redaktora skatā.
 
 Fragmentu var arī rediģēt, atlasot to lapā, veidnē vai pamata fragmentā un pēc tam labajā pusē rekvizītu rūtī atlasot opciju **Rediģēt fragmentu**.
+
+### <a name="rename-a-fragment"></a>Pārdēvējiet fragmentu
+
+Lai vietņu veidotājā pārdēvētu esošu fragmentu, veiciet šīs darbības.
+
+1. Kreisajā navigācijas rūtī atlasiet **Fragmenti**.
+1. Atlasiet tā fragmenta nosaukumu, kuru vēlaties pārdēvēt.
+1. Izvēlieties **Rediģēt** lai sāktu fragmenta rediģēšanu. Ņemiet vērā, ka jūs nevarat rediģēt fragmentu, ja kāds cits jau rediģē fragmentu.
+1. Fragmenta rekvizītu rūtī atlasiet pildspalvas simbolu blakus fragmenta nosaukumam.
+1. Rediģējiet fragmenta nosaukumu pēc vajadzības.
+1. Atlasiet atzīmi, lai apstiprinātu vārda maiņu.
+1. Atlasiet **Beigt rediģēšanu**.
+
+Varat pārdēvēt fragmentu pēc tā izveides, to rediģējot un pēc tam rekvizītu rūtī blakus fragmenta nosaukumam atlasot pildspalvas simbolu.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

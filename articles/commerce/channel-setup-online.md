@@ -2,7 +2,7 @@
 title: Tiešsaistes kanāla iestatīšana
 description: Šajā tēmā aprakstīts, kā izveidot jaunu tiešsaistes kanālu risinājumā Microsoft Dynamics 365 Commerce.
 author: samjarawan
-ms.date: 07/02/2020
+ms.date: 02/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,21 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 11796d27a6071b180ad58c46ba2a521ecc238c6091517dbdc3a4f153b3d81749
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: f32872fcc27e2e74300c4f18dfa08d666e4ad8a8
+ms.sourcegitcommit: fefe93f3f44d8aa0b7e6d54cc4a3e5eca6e64feb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714715"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8092116"
 ---
 # <a name="set-up-an-online-channel"></a>Tiešsaistes kanāla iestatīšana
-
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā aprakstīts, kā izveidot jaunu tiešsaistes kanālu risinājumā Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
 
 Dynamics 365 Commerce atbalsta vairākus mazumtirdzniecības kanālus. Šie mazumtirdzniecības kanāli ietver tiešsaistes veikalus, zvanu centrus un mazumtirdzniecības veikalus (zināmi arī kā fiziskie veikali). Tiešsaistes veikali dod klientiem iespēju papildus mazumtirdzniecības veikaliem iegādāties produktus arī no mazumtirgotāja tiešsaistes veikala.
 
@@ -61,9 +58,13 @@ Tālāk redzamajā attēlā ir parādīts tiešsaistes kanāla piemērs.
 
 ![Tiešsaistes kanāla piemērs.](media/channel-setup-online-2.png)
 
+## <a name="assign-the-channel-to-a-commerce-scale-unit"></a>Piešķiriet kanālu komercdarbības mēroga vienībai
+
+Jūsu jaunais kanāls ir jāpiešķir tirdzniecības mēroga vienībai. Norādījumus sk [Konfigurējiet kanālus, lai izmantotu Commerce Scale Unit](../fin-ops-core/dev-itpro/deployment/initialize-retail-channels.md#configure-channels-to-use-commerce-scale-unit).
+
 ## <a name="set-up-languages"></a>Valodu iestatīšana
 
-Ja e-Commerce vietne atbalstīs vairākas valodas, izvērsiet sadaļu **Valodas** un pievienojiet papildu valodas pēc nepieciešamības.
+Ja jūsu e-komercijas vietne atbalstīs vairākas valodas, izvērsiet **Valodas** sadaļu un pēc vajadzības pievienojiet papildu valodas.
 
 ## <a name="set-up-payment-account"></a>Maksājuma konta iestatīšana
 

@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 92c427d3063c34f263d5bc449be6fac695b5912d
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: f74bb4bd4ed66520c04261bd9f82faad7775817e
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952631"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062115"
 ---
 # <a name="inventory-visibility-public-apis"></a>Krājumu uztveramības pievienojumprogrammas publiskais API
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 Šajā tēmā aprakstīti publiskie API, kas tiek nodrošināti ar Krājumu redzamību.
 
@@ -49,7 +49,7 @@ Microsoft ir nodrošinājusi standarta *Pastnieka* pieprasījuma kolekciju. Jūs
 > [!NOTE]
 > Ceļa {environmentId} daļa ir vides ID Microsoft Dynamics pakalpojumā Lifecycle Services (LCS).
 > 
-> Lielapjoma API var atgriezt maksimāli 512 ierakstus katram pieprasījumam.
+> Lielapjoma API katram pieprasījumam var atgriezt ne vairāk kā 512 ierakstus.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Atrast galapunktu atbilstoši Lifecycle Services videi
 
@@ -251,7 +251,7 @@ Body:
 
 ### <a name="create-multiple-change-events"></a><a name="create-multiple-onhand-change-events"></a>Izveidot vairākus izmaiņu notikumus
 
-Šis API var izveidot vairākus ierakstus vienlaicīgi. Vienīgās atšķirības starp šo API un [viena notikuma API](#create-one-onhand-change-event) ir `Path` un `Body` vērtības. Šim API `Body` sniedz ierakstu masīvu. Maksimālais ierakstu skaits ir 512, kas nozīmē, ka rīcībā esošo krājumu izmaiņas API vienlaikus var atbalstīt līdz 512 izmaiņu notikumiem.
+Šis API var izveidot vairākus ierakstus vienlaicīgi. Vienīgās atšķirības starp šo API un [viena notikuma API](#create-one-onhand-change-event) ir `Path` un `Body` vērtības. Šim API `Body` sniedz ierakstu masīvu. Maksimālais ierakstu skaits ir 512, kas nozīmē, ka esošais lielapjoma izmaiņu API vienlaikus var atbalstīt līdz 512 izmaiņu notikumiem.
 
 ```txt
 Path:
@@ -478,7 +478,7 @@ Body:
 
 ## <a name="query-on-hand"></a>Rīcībā esošie vaicājumi
 
-Izmantojiet rīcībā _esošo vaicājumu_ API, lai ienestu pašreizējos rīcībā esošos krājumu datus saviem produktiem. API pašlaik atbalsta vaicājumu līdz 100 atsevišķiem krājumiem pēc `ProductID` vērtības. Katrs `SiteID``LocationID` vaicājumā var norādīt vairākas vērtības. Maksimālais ierobežojums ir definēts `NumOf(SiteID) * NumOf(LocationID) <= 100` kā.
+Izmantojiet _Vaicājums uz rokas_ API, lai iegūtu pašreizējos krājumu datus par jūsu produktiem. API pašlaik atbalsta vaicājumu līdz 100 atsevišķiem vienumiem, izmantojot`ProductID` vērtību. Vairāki`SiteID` un`LocationID` vērtības var norādīt arī katrā vaicājumā. Maksimālais ierobežojums ir definēts kā `NumOf(SiteID) * NumOf(LocationID) <= 100`.
 
 ### <a name="query-by-using-the-post-method"></a><a name="query-with-post-method"></a>Vaicājums, izmantojot grāmatošanas metodi
 

@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 26f8820fe707b8a2dff0dcc1a24884ef02e5616f
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: a49f35211f30cdb76104cc5be78f5b114320a228
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952500"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062654"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>Inventory Visibility instalēšana un iestatīšana
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 Šajā tēmā ir aprakstīts, kā instalēt Krājumu redzamības pievienojumprogrammu programmā Microsoft Dynamics 365 Supply Chain Management.
 
@@ -73,7 +73,7 @@ Pēc pieteikuma reģistrēšanas un klienta noslēpuma pievienošanas Azure AD i
 1. Programmas Dataverse kreisās navigācijas rūtī izvēlieties sadaļu **Programmas** un pārbaudiet, vai **Krājumu redzamība** ir veiksmīgi instalēta Power Apps. Ja nav sadaļas **Programmas**, sazinieties ar Krājumu redzamības preču grupu [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
 
 > [!TIP]
-> Ieteicams pievienoties lietotāju grupai Krājumu redzamība– pievienojumprogramma, kurā varat atrast noderīgas ceļvežus, iegūt visjaunākos atjauninājumus un grāmatot visus jautājumus, kas jums varētu rasties par krājumu redzamības redzamību. Lai pievienoties, lūdzu, nosūtiet e-pastu krājumu redzamības produktu [komandai inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) un ietveriet jūsu Piegādes ķēdes pārvaldības vides ID.
+> Mēs iesakām pievienoties krājumu redzamības pievienojumprogrammas lietotāju grupai, kurā varat atrast noderīgas rokasgrāmatas, saņemt mūsu jaunākos atjauninājumus un publicēt visus jautājumus par krājumu redzamības izmantošanu. Lai pievienotos, lūdzu, nosūtiet e-pasta ziņojumu krājumu redzamības produktu komandai uz e-pastu [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) un iekļaujiet savu Supply Chain Management vides ID.
 
 > [!IMPORTANT]
 > Ja jums ir vairāk nekā viena LCS vide, izveidojiet katrai videi atšķirīgu Azure AD lietojumprogrammu. Ja lietojat vienu lietojumprogrammas ID un nomnieka ID, lai instalētu Inventory Visibility lietojumprogrammu atšķirīgām vidēm, vecākām vidēm tiks rādīta marķiera problēma. Tikai pēdējā instalētā vide būs derīga.

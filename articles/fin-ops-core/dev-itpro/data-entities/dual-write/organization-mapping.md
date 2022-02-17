@@ -1,6 +1,6 @@
 ---
 title: Organizācijas hierarhija Dataverse
-description: Šajā tēmā ir aprakstīta organizācijas datu integrācija starp programmām Finance and Operations un Dataverse
+description: Šajā tēmā ir aprakstīta organizācijas datu integrācija starp programmām Finance and Operations un Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: c7ef3a11817d60343503c80d89493262711524b1
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: afc1b5996667835c460f467526493380aa2d6403
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782312"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062090"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Organizācijas hierarhija Dataverse
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Tā kā Dynamics 365 Finance ir finanšu sistēma *organizācija* ir pamatkoncepts un sistēmas iestatīšana sākas ar organizācijas hierarhijas konfigurāciju. Pēc tam biznesa finanses var izsekot organizācijas līmenī, kā arī jebkurā līmenī organizācijas hierarhijā.
 
@@ -32,7 +32,7 @@ Biznesa ekosistēmai, kas sastāv no programmām Finance and Operations un Datav
 
 ![Arhitektūras attēls.](media/dual-write-data-flow.png)
 
-Organizācijas hierarhijas tabulu kartes ir pieejamas datu vienvirziena sinhronizācijai no programmas Finance and Operations programmām uz Dataverse.
+Organizācijas hierarhijas tabulu kartes ir pieejamas vienvirziena datu sinhronizācijai no Finance and Operations programmām uz Dataverse.
 
 ## <a name="templates"></a>Veidnes
 

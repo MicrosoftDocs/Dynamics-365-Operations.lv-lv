@@ -1,6 +1,6 @@
 ---
 title: Ražošanas izpildes interfeisa pielāgošana
-description: Šajā tēmā ir paskaidrots, kā paplašināt pašreizējās veidlapas vai izveidot jaunas veidlapas un pogas ražošanas grīdas izpildes interfeisam.
+description: Šajā tēmā ir paskaidrots, kā paplašināt pašreizējās veidlapas vai izveidot jaunas veidlapas un pogas ražošanas grīdas izpildes saskarnei.
 author: johanhoffmann
 ms.date: 11/08/2021
 ms.topic: article
@@ -12,52 +12,52 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-11-08
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 414fe5d6e16ad125bc2b9bb7ed427e5db5180ec9
-ms.sourcegitcommit: bc9e75c38e192664cde226ed3a94df5a0b304369
+ms.openlocfilehash: 67fb381cbef6f1673afcaa834666b4a859bdf4e6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7790982"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066550"
 ---
 # <a name="customize-the-production-floor-execution-interface"></a>Ražošanas izpildes interfeisa pielāgošana
 
 [!include [banner](../includes/banner.md)]
 
-Izstrādātāji var paplašināt pašreizējās veidlapas vai izveidot savas formas un pogas ražošanas grīdas izpildes saskarnei. Pēc šo jauno elementu koda pievienošanas administratori vai ražotnes vadītāji tos var viegli pievienot interfeisam, izmantojot standarta konfigurācijas vadīklas.
+Izstrādātāji var paplašināt pašreizējās veidlapas vai izveidot savas veidlapas un pogas ražošanas grīdas izpildes saskarnei. Kad esat pievienojis šo jauno elementu kodu, administratori vai veikalu vadītāji var tos viegli pievienot saskarnei, izmantojot standarta konfigurācijas vadīklas.
 
-Piemēram, šeit ir daži no iespējamiem risinājumiem, ja galvenajā formā ir nepieciešamas jaunas kolonnas:
+Piemēram, šeit ir daži no iespējamiem risinājumiem, ja ir nepieciešamas jaunas kolonnas galvenajā formā:
 
-- Paplašiniet `JmgProductionFloorExecutionMainGrid` veidlapu un pievienojiet vēlamos laukus.
+- Pagariniet`JmgProductionFloorExecutionMainGrid` veidlapu un pievienojiet vajadzīgos laukus.
 - Izveidojiet jaunu veidlapu un pievienojiet to kā jaunu galveno skatu (cilni).
 
 ## <a name="add-a-new-button-action"></a>Pievienot jaunu pogu (darbība)
 
-Lai pievienotu jaunu pogu (darbību), veiciet tālāk norādītās darbības, lai izveidotu klasi, kas īsteno jūsu pielāgoto darbību.
+Lai pievienotu jaunu pogu (darbību), veiciet šīs darbības, lai izveidotu klasi, kas ievieš jūsu pielāgoto darbību.
 
-1. Izveidojiet jaunu klasi ar nosaukumu `<ExtensionPrefix>_JmgProductionFloorExecution<ActionName>Action`, kur:
+1. Izveidojiet jaunu klasi ar nosaukumu`<ExtensionPrefix>_JmgProductionFloorExecution<ActionName>Action`, kur:
 
-    - `<ExtensionPrefix>` unikāli identificē jūsu risinājumu, parasti izmantojot uzņēmuma nosaukumu.
-    - `<ActionName>` ir unikāls klases nosaukums. Tas parasti identificē darbības veidu.
+    - `<ExtensionPrefix>` unikāli identificē jūsu risinājumu, parasti izmantojot jūsu uzņēmuma nosaukumu.
+    - `<ActionName>` ir unikāls klases nosaukums. Tas parasti norāda darbības veidu.
 
-1. Jaunajai klasei jāpaplašina `JmgProductionFloorExecutionAction` klase.
+1. Jaunajai klasei ir jāpaplašina`JmgProductionFloorExecutionAction` klasē.
 1. Ignorēt visas nepieciešamās metodes.
 
-Piemēram, skatiet kodu šādām klasēm:
+Lai iegūtu piemērus, skatiet tālāk norādīto klašu kodu:
 
 - `JmgProductionFloorExecutionBreakAction`– Klase vienkāršai darbībai, kurai nav nepieciešami nekādi ieraksti.
 - `JmgProductionFloorExecutionReportFeedbackAction`– Klase, kas nodrošina sarežģītāku funkcionalitāti.
 
-Kad esat pabeidzis, jaunā poga (darbība) tiks automātiski norādīta **·** Microsoft cilnēs Noformējums. Dynamics 365 Supply Chain Management Tur jūs (vai administrators vai grīdas pārvaldnieks) varat to viegli pievienot primārajai vai sekundārajai rīkjoslai, tāpat kā varat pievienot standarta pogas. Norādījumus skatiet [Design the production floor execution interface](production-floor-execution-tabs.md).
+Kad esat pabeidzis, jaunā poga (darbība) automātiski tiks parādīta sarakstā **Dizaina cilnes** lapa Microsoft Dynamics 365 Supply Chain Management. Tur jūs (vai administrators vai grīdas pārvaldnieks) varat to viegli pievienot primārajai vai sekundārajai rīkjoslai, tāpat kā varat pievienot standarta pogas. Norādījumus sk [Izstrādājiet ražošanas grīdas izpildes saskarni](production-floor-execution-tabs.md).
 
-## <a name="add-a-new-main-view"></a>Jauna galvenā skata pievienošana
+## <a name="add-a-new-main-view"></a>Pievienojiet jaunu galveno skatu
 
-1. Izveidojiet jaunu formu, kurā ir vēlamie elementi un funkcionalitāte. Ņemiet vērā, ka šī veidlapa ir jauna veidlapa, nevis paplašinājums. Piešķiriet veidlapai nosaukumu `<ExtensionPrefix>_JmgProductionFloorExecution<FormName>`, kur:
+1. Izveidojiet jaunu veidlapu, kurai ir vēlamie elementi un funkcionalitāte. Ņemiet vērā, ka šī veidlapa ir jauna veidlapa, nevis paplašinājums. Nosauciet formu`<ExtensionPrefix>_JmgProductionFloorExecution<FormName>`, kur:
 
-    - `<ExtensionPrefix>` unikāli identificē jūsu risinājumu, parasti izmantojot uzņēmuma nosaukumu.
+    - `<ExtensionPrefix>` unikāli identificē jūsu risinājumu, parasti izmantojot jūsu uzņēmuma nosaukumu.
     - `<FormName>` ir unikāls veidlapas nosaukums.
 
-1. Izveidojiet izvēlnes elementu ar nosaukumu `<ExtensionPrefix>_JmgProductionFloorExecution<FormName>`.
-1. Izveidojiet paplašinājumu ar nosaukumu `<ExtensionPrefix>_JmgProductionFloorExecution<FormName>_Extension`, kur metode tiek `getMainMenuItemsList` paplašināta, sarakstam pievienojot jauno izvēlnes elementu. Šajā kodā ir parādīts piemērs.
+1. Izveidojiet izvēlnes vienumu ar nosaukumu `<ExtensionPrefix>_JmgProductionFloorExecution<FormName>`.
+1. Izveidojiet paplašinājumu ar nosaukumu`<ExtensionPrefix>_JmgProductionFloorExecution<FormName>_Extension`, kur`getMainMenuItemsList` metode tiek paplašināta, sarakstam pievienojot jaunu izvēlnes vienumu. Šis kods parāda piemēru.
 
     ```xpp
     [ExtensionOf(classStr(JmgProductionFloorExecutionForm))]
@@ -70,25 +70,25 @@ Kad esat pabeidzis, jaunā poga (darbība) tiks automātiski norādīta **·** M
         }
     ```
 
-Kad esat pabeidzis, jaunais galvenais skats tiks automātiski norādīts **piegādes ķēdes pārvaldības cilnes lapas** Noformējums galvenajā skata kombinētajā **·** lodziņā. Tur jūs (vai administrators vai grīdas pārvaldnieks) varat to viegli pievienot jaunām vai esošām cilnēm, tāpat kā varat pievienot standarta galvenos skatus. Norādījumus skatiet [Design the production floor execution interface](production-floor-execution-tabs.md).
+Kad esat pabeidzis, jaunais galvenais skats automātiski tiks parādīts sarakstā **Galvenais skats** kombinētais lodziņš uz **Dizaina cilnes** lapu piegādes ķēdes pārvaldībā. Tur jūs (vai administrators vai grīdas pārvaldnieks) varat to viegli pievienot jaunām vai esošām cilnēm, tāpat kā varat pievienot standarta galvenos skatus. Norādījumus sk [Izstrādājiet ražošanas grīdas izpildes saskarni](production-floor-execution-tabs.md).
 
-## <a name="add-a-details-view"></a>Detalizētas informācijas skata pievienošana
+## <a name="add-a-details-view"></a>Pievienojiet detalizētas informācijas skatu
 
-1. Izveidojiet jaunu formu, kurā ir vēlamie elementi un funkcionalitāte. Ņemiet vērā, ka šī veidlapa ir jauna, nevis paplašinājums. Piešķiriet veidlapai nosaukumu `<ExtensionPrefix>_JmgProductionFloorExecution<FormName>Detail`, kur: 
+1. Izveidojiet jaunu veidlapu, kurai ir vēlamie elementi un funkcionalitāte. Ņemiet vērā, ka šī veidlapa ir jauna, nevis paplašinājums. Nosauciet formu`<ExtensionPrefix>_JmgProductionFloorExecution<FormName>Detail`, kur: 
 
-    - `<ExtensionPrefix>` unikāli identificē jūsu risinājumu, parasti izmantojot uzņēmuma nosaukumu.
+    - `<ExtensionPrefix>` unikāli identificē jūsu risinājumu, parasti izmantojot jūsu uzņēmuma nosaukumu.
     - `<FormName>` ir unikāls veidlapas nosaukums.
 
-1. Izveidojiet izvēlnes elementu ar nosaukumu `<ExtensionPrefix>_JmgProductionFloorExecution<FormName>Detail`.
-1. Izveidojiet paplašinājumu ar nosaukumu `<ExtensionPrefix>_JmgProductionFloorExecution<FormName>_Extension`, kur metode tiek `getDetailsMenuItemList` paplašināta, sarakstam pievienojot jauno izvēlnes elementu.
+1. Izveidojiet izvēlnes vienumu ar nosaukumu `<ExtensionPrefix>_JmgProductionFloorExecution<FormName>Detail`.
+1. Izveidojiet paplašinājumu ar nosaukumu`<ExtensionPrefix>_JmgProductionFloorExecution<FormName>_Extension`, kur`getDetailsMenuItemList` metode tiek paplašināta, sarakstam pievienojot jaunu izvēlnes vienumu.
 
-Kad esat pabeidzis, jaunais detalizētas informācijas skats tiks automātiski norādīts **piegādes ķēdes pārvaldības cilnes lapas Cilnes** Noformējums kombinētā lodziņā Detalizēta **·** informācija. Tur jūs (vai administrators vai grīdas pārvaldnieks) varat to viegli pievienot jaunām vai esošām cilnēm, tāpat kā varat pievienot standarta informācijas skatus. Norādījumus skatiet [Design the production floor execution interface](production-floor-execution-tabs.md).
+Kad esat pabeidzis, jaunais detalizētās informācijas skats automātiski tiks parādīts sarakstā **Detaļas skats** kombinētais lodziņš uz **Dizaina cilnes** lapu piegādes ķēdes pārvaldībā. Tur jūs (vai administrators vai stāva pārvaldnieks) varat to viegli pievienot jaunām vai esošām cilnēm, tāpat kā varat pievienot standarta detalizētās informācijas skatus. Norādījumus sk [Izstrādājiet ražošanas grīdas izpildes saskarni](production-floor-execution-tabs.md).
 
-## <a name="add-a-numeric-keypad-to-a-form-or-dialog"></a>Ciparu tastatūras pievienošana formai vai dialogam
+## <a name="add-a-numeric-keypad-to-a-form-or-dialog"></a>Pievienojiet veidlapai vai dialogam ciparu tastatūru
 
-Šajā piemērā parādīts, kā veidlapai pievienot ciparu tastatūras.
+Nākamajā piemērā ir parādīts, kā veidlapai pievienot ciparu tastatūras.
 
-1. Katrā formā esošo ciparu tastatūras kontrolleru skaitam ir jābūt vienādam ar ciparu tastatūru skaitu šajā formā.
+1. Katrā veidlapā ietverto ciparu tastatūras kontrolleru skaitam ir jābūt vienādam ar ciparu tastatūru skaitu šajā veidlapā.
 
     ```xpp
     private JmgProductionFloorExecutionNumpadController   numpadController1;
@@ -96,7 +96,7 @@ Kad esat pabeidzis, jaunais detalizētas informācijas skats tiks automātiski n
     private JmgProductionFloorExecutionNumpadController   numpadController3;
     ```
 
-1. Iestatiet katra ciparu tastatūras kontrollera darbību un savienojiet katru ciparu tastatūras kontrolleri ar ciparu tastatūru.
+1. Iestatiet katra ciparu tastatūras kontrollera darbību un savienojiet katru ciparu tastatūras kontrolleri ar ciparu tastatūras formas daļu.
 
     ```xpp
     /// <summary>
@@ -116,9 +116,9 @@ Kad esat pabeidzis, jaunais detalizētas informācijas skats tiks automātiski n
     }
     ```
 
-## <a name="use-a-numeric-keypad-as-a-pop-up-dialog"></a>Ciparu tastatūras izmantošana uznirstošajā dialogā
+## <a name="use-a-numeric-keypad-as-a-pop-up-dialog"></a>Izmantojiet ciparu tastatūru kā uznirstošo dialoglodziņu
 
-Šajā piemērā ir parādīts viens veids, kā uznirstošajam dialogam iestatīt ciparu tastatūras kontrolleri.
+Nākamajā piemērā ir parādīts viens veids, kā iestatīt ciparu tastatūras kontrolleri uznirstošajam dialogam.
 
 ```xpp
 private void setupNumpadController()
@@ -129,7 +129,7 @@ private void setupNumpadController()
 }
 ```
 
-Šajā piemērā ir parādīts viens veids, kā izsaukt cipartastatūras uznirstošo dialogu.
+Nākamajā piemērā parādīts viens veids, kā izsaukt ciparu tastatūras uznirstošo dialoglodziņu.
 
 ```xpp
 Args args = new Args();

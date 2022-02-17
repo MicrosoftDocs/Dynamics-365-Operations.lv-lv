@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-15
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c30df23debed9e2ab90745e6ea9d0e6b8a05b6d5
-ms.sourcegitcommit: 4d11061f5de0ddba1f968bd5c3fd694a8b104ccc
-ms.translationtype: HT
+ms.openlocfilehash: f2f057fb0f492efd08674b3bbeef9f3fec3d7be0
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7429271"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068463"
 ---
 # <a name="payroll-variable-compensation-plan"></a>Algu aprēķina mainīgās atlīdzības plāns
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -51,7 +54,7 @@ Fiziskais nosaukums: mshr_payrollvariablecompensationawardentity.
 
 ## <a name="relations"></a>Saites 
 
-|Rekvizīta vērtība | Saistītā entītija | Navigācijas rekvizīts | Kolekcijas veids |
+|Rekvizīta vērtība | Saistītais elements | Navigācijas rekvizīts | Kolekcijas veids |
 | --- | --- | --- | --- |
 | _mshr_fk_employee_id_value | [mshr_payrollemployeeentity](hr-admin-integration-payroll-api-payroll-employee.md) | mshr_FK_Employee_id | mshr_FK_PayrollEmployeeEntity_VariableCompAward |
 | _mshr_fk_fixedcomp_id_value | [mshr_payrollfixedcompensationplanentity](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md) | mshr_FK_FixedComp_id | mshr_FK_PayrollFixedCompensationPlanEntity_VariableCompAward |

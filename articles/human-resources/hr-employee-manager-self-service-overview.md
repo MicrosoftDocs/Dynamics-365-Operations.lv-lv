@@ -17,14 +17,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2a356aae6590c2bce289c8d180324027efc76983
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: HT
+ms.openlocfilehash: 28bf4ff4e456505efda3777a4f820c54f270c74b
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7991744"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068948"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>Darbinieka un vadītāja patstāvīgi izmantojama pakalpojuma pārskats
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -93,7 +96,7 @@ Skatiet un pārvaldiet dokumentus ar elementu **Pielikumi**. Varat pārvaldīt v
 
 Šajā sadaļā sniegtas saites uz citām **Darbinieka pašapkalpošanās** zonām, līdzīgi kā sadaļā **Manas karjeras informācija**.
 
-Parakstieties atvieglojumiem, izmantojot saiti **Atvieglojumi**. Papildinformāciju par atvieglojumu pārvaldību skatiet atvieglojumu [pārskatā](hr-benefits-management-overview.md).
+Parakstieties atvieglojumiem, izmantojot saiti **Atvieglojumi**. Papildinformāciju par pabalstu pārvaldību skatiet [Priekšrocību pārskats](hr-benefits-management-overview.md).
 
 Sadaļā **Veiktspēja** varat atlasīt **Veiktspējas žurnālu**, lai izveidotu veiktspējas žurnālu ierakstus, kurus lietot gan attiecībā uz veiktspējas mērķiem un pārskatiem. Varat atlasīt **Sūtīt atsauksmes**, lai sniegtu atsauksmes par citiem darbiniekiem savā organizācijā. Atkarībā no jūsu organizācijas iestatījumiem, saņēmējam, sūtītājam un vadītājiem var tikt sūtīti e-pasta ziņojumi. Varat nosūtīt atsauksmes visiem darbiniekiem organizācijā. Uzņēmums neierobežo atsauksmes.
 

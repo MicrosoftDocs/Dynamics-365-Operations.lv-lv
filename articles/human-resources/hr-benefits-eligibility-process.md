@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: db8dd3e9c3401129ea5474d47f5401c552cab72b
-ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.openlocfilehash: 16a866cb35aacb3b6bece0d6adde6bb5978bd4fc
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7771386"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066022"
 ---
 # <a name="benefit-eligibility-process"></a>Atvieglojumu piemērojamības apstrāde
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -30,27 +33,27 @@ ms.locfileid: "7771386"
 2. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
 3. Sarakstā atlasiet saiti atlasītajā rindā.
 4. Atlasiet **Rediģēt**.
-5. Laukā **Piemērotība** atlasiet **Uz kārtulām balstīts**.
-6. Laukā **Kārtulas tips** atlasiet atvieglojumu ierobežojuma kārtulu, kas jālieto atvieglojumam.
-7. Darbību rūtī atlasiet **Atvieglojums**.
-8. Atlasiet **Izveidot piemērojamības notikumu**.
-9. Nolaižamā dialoglodziņa **·** laukā Notikums ievadiet vērtību.
+5. Iekš **Atbilstība** laukā atlasiet **Pamatojoties uz noteikumiem**.
+6. Iekš **Noteikumu veids** laukā atlasiet pabalstu politikas noteikumu, ko piemērot pabalstam.
+7. Darbību rūtī atlasiet **Ieguvums**.
+8. Izvēlieties **Izveidojiet atbilstības notikumu**.
+9. Nolaižamajā dialoglodziņā sadaļā **Pasākums** laukā ievadiet vērtību.
 10. Laukā **Apraksts** ievadiet kādu vērtību.
-11. Laukā **Notikuma tips** atlasiet Atvērt reģistrāciju **·**.
-12. Laukā **Vajadzības sākuma datums** ievadiet datumu un laiku.
-13. Laukā **Reģistrācijas perioda sākuma datums** ievadiet datumu un laiku.
-14. Laukā **Reģistrācijas dienas** ievadiet numuru.
-15. Atlasiet **Izveidot notikumu**.
-16. Kopsavilkuma **cilnē Darbinieki** atlasiet **Pievienot**.
-17. Laukā **Rādīt pēc tipa** atlasiet Darbinieki **·**.
-18. Laukā **Rādīt pēc juridiskās personas** atlasiet Pašreizējā juridiskā persona **·**.
+11. Iekš **Pasākuma veids** laukā atlasiet **Atvērt pieteikšanos**.
+12. Iekš **Pārklājuma sākuma datums** laukā ievadiet datumu un laiku.
+13. Iekš **Reģistrācijas perioda sākuma datums** laukā ievadiet datumu un laiku.
+14. Iekš **Dienas, lai reģistrētos** laukā ievadiet numuru.
+15. Izvēlieties **Izveidot notikumu**.
+16. Uz **Strādnieki** FastTab, atlasiet **Pievienot**.
+17. Iekš **Rādīt pēc veida** laukā atlasiet **Darbinieki**.
+18. Iekš **Rādīt pēc juridiskās personas** laukā atlasiet **Pašreizējā juridiskā persona**.
 19. Sarakstā atzīmējiet visas rindas vai noņemiet tām atzīmi.
 20. Atlasiet **Labi**.
-21. Atlasiet **Process**.
+21. Izvēlieties **Process**.
 22. Atlasiet **Labi**.
 23. Atsvaidziniet lapu.
-24. Atlasiet **Rādīt rezultātus**.
-25. Atveriet **·** kolonnu Statusu filtru.
-26. Kārtot kolonnu no A līdz Z.
+24. Izvēlieties **Rādīt rezultātus**.
+25. Atveriet **Statuss** kolonnu filtrs.
+26. Kārtojiet kolonnu no A līdz Z.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

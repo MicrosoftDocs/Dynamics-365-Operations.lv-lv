@@ -2,7 +2,7 @@
 title: Veidot daudzvalodu pārskatus Elektroniskajos pārskatos
 description: Šajā tēmā skaidrots, kā varat izmantot Elektronisko pārskatu (ER) etiķetes, lai veidotu un izveidotu daudzvalodu pārskatus.
 author: NickSelin
-ms.date: 09/03/2021
+ms.date: 11/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf02e8f90fb83acd8448339f411489851742af18
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
-ms.translationtype: MT
+ms.openlocfilehash: e5c6b28dc115719922e418cb7a6156032d994d39
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674433"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074946"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Veidot daudzvalodu pārskatus Elektroniskajos pārskatos
 
@@ -28,9 +28,9 @@ ms.locfileid: "7674433"
 
 ## <a name="overview"></a>Pārskats
 
-Kā biznesa lietotājs jūs varat izmantot [Elektronisko pārskatu (ER)](general-electronic-reporting.md) struktūru, lai konfigurētu izejošo dokumentu formātus, kas jums jāģenerē saskaņā ar dažādu valstu vai reģionu juridiskajām prasībām. Ja šīs prasības prasa, lai izejošie dokumenti tiktu ģenerēti dažādās valodās dažādām valstīm vai reģioniem, varat konfigurēt vienu ER [formātu](general-electronic-reporting.md#FormatComponentOutbound), kas satur no valodas atkarīgus resursus. Šādā veidā varat atkārtoti izmantot formātu, lai ģenerētu izejošos dokumentus dažādām valstīm vai reģioniem. Varat arī izmantot vienu ER formātu, lai ģenerētu izejošo dokumentu dažādās valodās attiecīgiem klientiem, kreditoriem, filiālēm vai jebkurai citai pusei.
+Kā biznesa lietotājs jūs varat izmantot [Elektronisko pārskatu (ER)](general-electronic-reporting.md) struktūru, lai konfigurētu izejošo dokumentu formātus, kas jums jāģenerē saskaņā ar dažādu valstu vai reģionu juridiskajām prasībām. Ja šīs prasības prasa, lai izejošie dokumenti tiktu ģenerēti dažādās valodās dažādām valstīm vai reģioniem, varat konfigurēt vienu ER formātu, kas satur no valodas atkarīgus resursus. Šādā veidā varat atkārtoti izmantot formātu, lai ģenerētu izejošos dokumentus dažādām valstīm vai reģioniem. Varat arī izmantot vienu ER formātu, lai ģenerētu izejošo dokumentu dažādās valodās attiecīgiem klientiem, kreditoriem, filiālēm vai jebkurai citai pusei.
 
-Varat konfigurēt ER datu modeļus un modeļu kartējumus kā datu avotus, kas ir konfigurēti, lai definētu datu plūsmu, kas norāda, kādi programmas dati tiek ievietoti ģenerētajos dokumentos. Kā ER konfigurācijas [nodrošinātājs](general-electronic-reporting.md#Provider) jūs varat [publicēt](tasks/er-upload-configuration-into-lifecycle-services.md#upload-a-configuration-into-lcs) konfigurētos [datu modeļus](general-electronic-reporting.md#data-model-and-model-mapping-components), [modeļu kartējumus](general-electronic-reporting.md#data-model-and-model-mapping-components)un [formātus](general-electronic-reporting.md#FormatComponentOutbound) kā detaļas, kas ļauj izveidot specifiskus izejošos dokumentus. Varat arī atļaut klientiem [augšupielādēt](general-electronic-reporting-manage-configuration-lifecycle.md) publicēto ER risinājumu, lai to varētu izmantot un pielāgot. Ja domājat, ka klienti var runāt citās valodās, varat konfigurēt ER komponentus, lai tajos būtu no valodas atkarīgi resursi. Šādā veidā rediģējamā ER komponenta saturu var sniegt klienta lietotāja vēlamajā valodā izstrādes laikā.
+Varat konfigurēt ER datu modeļus un modeļu kartējumus kā datu avotus, kas ir konfigurēti, lai definētu datu plūsmu, kas norāda, kādi programmas dati tiek ievietoti ģenerētajos dokumentos. Kā ER konfigurācija [pakalpojumu sniedzējs](general-electronic-reporting.md#Provider), tu vari [publicēt](tasks/er-upload-configuration-into-lifecycle-services.md#upload-a-configuration-into-lcs) konfigurēts [datu modeļi](general-electronic-reporting.md#data-model-and-model-mapping-components),[modeļu kartējumi](general-electronic-reporting.md#data-model-and-model-mapping-components) un formātus kā ER risinājuma sastāvdaļas, lai ģenerētu konkrētus izejošos dokumentus. Varat arī atļaut klientiem [augšupielādēt](general-electronic-reporting-manage-configuration-lifecycle.md) publicēto ER risinājumu, lai to varētu izmantot un pielāgot. Ja domājat, ka klienti var runāt citās valodās, varat konfigurēt ER komponentus, lai tajos būtu no valodas atkarīgi resursi. Šādā veidā rediģējamā ER komponenta saturu var sniegt klienta lietotāja vēlamajā valodā izstrādes laikā.
 
 No valodas atkarīgus resursus varat konfigurēt kā ER etiķetes. Šīs etiķetes var izmantot, lai konfigurētu ER komponentus šādiem nolūkiem:
 
@@ -232,6 +232,19 @@ Kā aprakstīts iepriekš šajā tēmā, katra [modeļa](#LinkModelEnum) vai [fo
 ## <a name="performance"></a><a name=performance></a>Veiktspēja
 
 Konfigurējot ER formāta komponentu, lai ģenerētu atskaiti vēlamajā [valodā](#language) vai, lai importētu ienākošo dokumentu, kura saturu parsē vēlamā valoda, iesakām iespējot līdzekli **Pašreizējā lietotāja vēlamās valodas kešdarba ER palaišanai** darbvietā [Līdzekļu pārvaldība](../../fin-ops/get-started/feature-management/feature-management-overview.md). Šis līdzeklis palīdz uzlabot veiktspēju, īpaši tiem ER formāta komponentiem, kuri satur vairākas atsauces uz marķējumu ER formulās un saistījumos un daudzas [validācijas](general-electronic-reporting-formula-designer.md#TestFormula) kārtulas, lai ģenerētu lietotāja ziņojumus jums vēlamajā valodā.
+
+Kad maināt ER konfigurācijas versijas statusu no **Melnraksts** uz **Pabeigts**, ja konfigurācijas versijā ir ER etiķetes, šīs etiķetes tiek saglabātas lietojumprogrammu datu bāzē. Uzglabāšanas shēma ir atkarīga no ierīces stāvokļa **Paātriniet ER etiķešu glabāšanu** iezīme:
+
+- Ja funkcija nav iespējota, visas etiķetes tiek saglabātas mapē **LABELXML** jomā **EROLŪCIJAS VERSIJAS TABULA** tabulu kā vienu XML fragmentu.
+- Ja funkcija ir iespējota, katrai valodai tiek izveidots atsevišķs ieraksts **ERSOLUTIONVERSIONLABELSTABLE** tabula. The **SATURS** šīs tabulas laukā tiek saglabātas etiķetes katrā valodā kā saspiests XML fragments.
+
+Mēs iesakām iespējot **Paātriniet ER etiķešu glabāšanu** funkcija sadaļā **Funkciju pārvaldība** darba vieta. Šis līdzeklis palīdz uzlabot tīkla joslas platuma izmantošanu un vispārējo sistēmas veiktspēju, jo vairumā gadījumu, strādājot ar vienu ER konfigurāciju, tiek izmantotas vienas valodas ER etiķetes.
+
+Lai lietotu atlasīto krātuves shēmu visu ER konfigurāciju iezīmju saglabāšanai pašreizējā Finance instancē, veiciet tālāk norādītās darbības.
+
+1. Iet uz **Organizācijas administrēšana** > **Periodiski** > **Lietojiet atlasītās etiķešu glabāšanas shēmu visām ER konfigurācijām**.
+2. Atlasiet **Labi**.
+
 
 ## <a name="additional-resources"></a>Papildu resursi
 

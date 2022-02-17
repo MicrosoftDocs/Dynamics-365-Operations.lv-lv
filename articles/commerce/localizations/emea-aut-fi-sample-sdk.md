@@ -1,6 +1,6 @@
 ---
-title: Finanšu reģistrācijas pakalpojuma integrācijas parauga izvietošanas vadlīnijas Austrijai (mantojuma)
-description: Šajā tēmā ir sniegtas vadlīnijas austrijas finanšu integrācijas parauga izvietošanai no Microsoft Dynamics 365 Commerce mazumtirdzniecības programmatūras izstrādes komplekta (SDK).
+title: Izvēršanas vadlīnijas nodokļu reģistrācijas pakalpojuma integrācijas paraugam Austrijai (mantots)
+description: Šajā tēmā ir sniegtas vadlīnijas Austrijas fiskālās integrācijas parauga izvietošanai no Microsoft Dynamics 365 Commerce Mazumtirdzniecības programmatūras izstrādes komplekts (SDK).
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,44 +9,44 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: c038773dc7c1c475f5852f0f0272b59516140593
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 6238b67a35a303a03c51bbd261dd24d1b2acf041
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944667"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8077119"
 ---
-# <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-austria-legacy"></a>Finanšu reģistrācijas pakalpojuma integrācijas parauga izvietošanas vadlīnijas Austrijai (mantojuma)
+# <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-austria-legacy"></a>Izvēršanas vadlīnijas nodokļu reģistrācijas pakalpojuma integrācijas paraugam Austrijai (mantots)
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā sniegtas vadlīnijas finanšu reģistrācijas pakalpojumu integrācijas parauga izvietošanai Austrijā no Mazumtirdzniecības programmatūras izstrādes komplekta (SDK) izstrādātāja virtuālās mašīnas Microsoft Dynamics 365 Commerce (VM) Microsoft Dynamics pakalpojumā Lifecycle Services (LCS). Papildinformāciju par šo finanšu integrācijas paraugu skatiet [Austrijas finanšu reģistrācijas pakalpojuma integrācijas paraugs](emea-aut-fi-sample.md). 
+Šajā tēmā ir sniegtas vadlīnijas nodokļu reģistrācijas pakalpojuma integrācijas parauga izvietošanai Austrijai no Microsoft Dynamics 365 Commerce Mazumtirdzniecības programmatūras izstrādes komplekts (SDK) izstrādātāja virtuālajā mašīnā (VM).Microsoft Dynamics Dzīves cikla pakalpojumi (LCS). Papildinformāciju par šo fiskālās integrācijas paraugu skatiet [Fiskālās reģistrācijas pakalpojuma integrācijas paraugs Austrijai](emea-aut-fi-sample.md). 
 
-Austrijas finanšu integrācijas paraugs ir daļa no sdk Retail. Informāciju par TO, kā instalēt un izmantot SDK, skatiet [mazumtirdzniecības programmatūras izstrādes komplekta (SDK) arhitektūru](../dev-itpro/retail-sdk/retail-sdk-overview.md). Finanšu integrācijas paraugs sastāv no Commerce Runtime (), Aparatūras stacijas un pārdošanas punkta CRT (POS) paplašinājumiem. Lai palaistu šo paraugu, ir jāmodificē un jāizveido CRT aparatūras stacijas un POS projekti. Ieteicams izmantot nemodificētu komplektu Retail SDK, lai veiktu šajā tēmā aprakstītās izmaiņas. Iesakām izmantot arī avota kontroles sistēmu, piemēram, Azure DevOps tādu failu, kas vēl nav mainīti.
+Austrijas nodokļu integrācijas paraugs ir daļa no mazumtirdzniecības SDK. Informāciju par SDK instalēšanu un lietošanu skatiet sadaļā [Mazumtirdzniecības programmatūras izstrādes komplekta (SDK) arhitektūra](../dev-itpro/retail-sdk/retail-sdk-overview.md). Fiskālās integrācijas paraugs sastāv no Commerce izpildlaika paplašinājumiem (CRT), Aparatūras stacija un tirdzniecības vieta (POS). Lai palaistu šo paraugu, jums ir jāmaina un jāveido CRT, Aparatūras stacija un POS projekti. Lai veiktu šajā tēmā aprakstītās izmaiņas, ieteicams izmantot nepārveidotu mazumtirdzniecības SDK. Mēs arī iesakām izmantot avota kontroles sistēmu, piemēram,Azure DevOps kur neviens fails vēl nav mainīts.
 
 ## <a name="development-environment"></a>Izstrādes vide
 
-Izpildiet šīs darbības, lai iestatītu izstrādes vidi, tādējādi jūs variet pārbaudīt un pagarināt paraugu.
+Veiciet šīs darbības, lai iestatītu izstrādes vidi, lai varētu pārbaudīt un paplašināt paraugu.
 
 ### <a name="enable-commerce-runtime-extensions"></a>Iespējot Commerce izpildlaika paplašinājumus
 
-Paplašinājuma CRT komponenti tiek iekļauti CRT paraugos. Lai izpildītu tālāk norādītās procedūras, atveriet **CommerceRuntimeSamples.sln risinājumu zem** **RetailSdk \\ SampleExtensions \\ CommerceRuntime.**
+The CRT paplašinājuma komponenti ir iekļauti CRT paraugi. Lai pabeigtu tālāk norādītās procedūras, atveriet **CommerceRuntimeSamples.sln** risinājums zem **RetailSdk\\ Extensions paraugi\\ CommerceRuntime**.
 
 #### <a name="documentproviderefrsample-component"></a>DocumentProvider.EFRSample komponents
 
-1. Atrast **Runtime.Extensions.DocumentProvider.EFRSample** projektu un veidot to.
-2. Mapē **Runtime.Extensions.DocumentProvider.EFRSample \\ bin \\ Debug atrodiet** **contoso.Commerce.Runtime.DocumentProvider.EFRSample.dll montāžas** failu.
-3. Kopēt montāžas failu CRT uz paplašinājumu mapi:
+1. Atrodi **Runtime.Extensions.DocumentProvider.EFRSample** projektu un uzbūvēt to.
+2. Iekš **Runtime.Extensions.DocumentProvider.EFRSample\\ atkritumu tvertne\\ Atkļūdošana** mapi, atrodiet **Contoso.Commerce.Runtime.DocumentProvider.EFRSample.dll** montāžas fails.
+3. Kopējiet montāžas failu uz CRT paplašinājumu mape:
 
-    - **Commerce Scale Unit: kopējiet failu uz mapi bin ext, kas atrodas Interneta informācijas** **\\ pakalpojumu \\** (IIS) Commerce Scale Unit atrašanās vietā.
-    - **Lokāls CRT vai Modern POS:** kopējiet failu uz ārējo mapi lokālā **\\ klienta** CRT starpnieka atrašanās vietā.
+    - **Tirdzniecības mēroga vienība:** Kopējiet failu uz **\\ atkritumu tvertne\\ ext** mapē Interneta informācijas pakalpojumu (IIS) Commerce Scale Unit vietnes atrašanās vietā.
+    - **Vietējais CRT Mūsdienu POS:** Kopējiet failu uz **\\ ext** mape zem vietējā CRT klienta brokera atrašanās vieta.
 
-4. Meklēt paplašinājuma konfigurācijas failu CRT šim:
+4. Atrodiet paplašinājuma konfigurācijas failu CRT:
 
-    - **Commerce Scale Unit: faila nosaukums ir** **commerceruntime.ext.config, un tā atrodas** **IIS Commerce Scale \\ Unit vietas nodalījuma ārējā** mapē.
-    - **Modern POS lokāls: faila nosaukums ir CRT** **CommerceRuntime.MPOSOffline.Ext.config, un tas atrodas vietējā klienta** CRT starpnieka atrašanās vietā.
+    - **Tirdzniecības mēroga vienība:** Fails ir nosaukts **commerceruntime.ext.config**, un tas atrodas **atkritumu tvertne\\ ext** mapi zem IIS Commerce Scale Unit vietnes atrašanās vietas.
+    - **Vietējais CRT Mūsdienu POS:** Fails ir nosaukts **CommerceRuntime.MPOSOffline.Ext.config**, un tas ir zem vietējā CRT klienta brokera atrašanās vieta.
 
-5. Reģistrēt CRT izmaiņas paplašinājuma konfigurācijas failā.
+5. Reģistrējieties CRT izmaiņas paplašinājuma konfigurācijas failā.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.EFRSample" />
@@ -54,19 +54,19 @@ Paplašinājuma CRT komponenti tiek iekļauti CRT paraugos. Lai izpildītu tāl�
 
 #### <a name="documentproviderdatamodelefr-component"></a>DocumentProvider.DataModelEFR komponents
 
-1. Atrast **Runtime.Extensions.DocumentProvider.DataModelEFR** projektu un izveidojiet to.
-2. Mapē **Runtime.Extensions.DocumentProvider.DataModelEFR bin Atkļūdošanas atrast \\\\** **Contoso.Commerce.Runtime.DocumentProvider.DataModelEFR.dll** montāžas failu.
-3. Kopēt montāžas failu CRT uz paplašinājumu mapi:
+1. Atrodi **Runtime.Extensions.DocumentProvider.DataModelEFR** projektu un uzbūvēt to.
+2. Iekš **Runtime.Extensions.DocumentProvider.DataModelEFR\\ atkritumu tvertne\\ Atkļūdošana** mapi, atrodiet **Contoso.Commerce.Runtime.DocumentProvider.DataModelEFR.dll** montāžas fails.
+3. Kopējiet montāžas failu uz CRT paplašinājumu mape:
 
-    - **Commerce Scale Unit:** kopējiet failu uz **\\ mapi bin \\** ext, kas atrodas IIS Commerce Scale Unit vietas atrašanās vietā.
-    - **Lokāls CRT vai Modern POS:** kopējiet failu uz ārējo mapi lokālā **\\ klienta** CRT starpnieka atrašanās vietā.
+    - **Commerce Scale Unit (Commerce Scale Unit):** kopējiet failu **\\bin\\ext** mapē, kas atrodas IIS Commerce mēroga vienības vietnes atrašanās vietā.
+    - **Vietējais CRT Mūsdienu POS:** Kopējiet failu uz **\\ ext** mape zem vietējā CRT klienta brokera atrašanās vieta.
 
-4. Meklēt paplašinājuma konfigurācijas failu CRT šim:
+4. Atrodiet paplašinājuma konfigurācijas failu CRT:
 
-    - **Commerce Scale Unit: faila nosaukums ir** **commerceruntime.ext.config, un tā atrodas** **IIS Commerce Scale \\ Unit vietas nodalījuma ārējā** mapē.
-    - **Modern POS lokāls: faila nosaukums ir CRT** **CommerceRuntime.MPOSOffline.Ext.config, un tas atrodas vietējā klienta** CRT starpnieka atrašanās vietā.
+    - **Tirdzniecības mēroga vienība:** Fails ir nosaukts **commerceruntime.ext.config**, un tas atrodas **atkritumu tvertne\\ ext** mapi zem IIS Commerce Scale Unit vietnes atrašanās vietas.
+    - **Vietējais CRT Mūsdienu POS:** Fails ir nosaukts **CommerceRuntime.MPOSOffline.Ext.config**, un tas ir zem vietējā CRT klienta brokera atrašanās vieta.
 
-5. Reģistrēt CRT izmaiņas paplašinājuma konfigurācijas failā.
+5. Reģistrējieties CRT izmaiņas paplašinājuma konfigurācijas failā.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.DataModelEFR" />
@@ -74,12 +74,12 @@ Paplašinājuma CRT komponenti tiek iekļauti CRT paraugos. Lai izpildītu tāl�
 
 #### <a name="extension-configuration-file"></a>Paplašinājuma konfigurācijas fails
 
-1. Meklēt paplašinājuma konfigurācijas failu CRT šim:
+1. Atrodiet paplašinājuma konfigurācijas failu CRT:
 
-    - **Commerce Scale Unit: faila nosaukums ir** **commerceruntime.ext.config, un tā atrodas** **IIS Commerce Scale \\ Unit vietas nodalījuma ārējā** mapē.
-    - **Modern POS lokāls: faila nosaukums ir CRT** **CommerceRuntime.MPOSOffline.Ext.config, un tas atrodas vietējā klienta** CRT starpnieka atrašanās vietā.
+    - **Tirdzniecības mēroga vienība:** Fails ir nosaukts **commerceruntime.ext.config**, un tas atrodas **atkritumu tvertne\\ ext** mapi zem IIS Commerce Scale Unit vietnes atrašanās vietas.
+    - **Vietējais CRT Mūsdienu POS:** Fails ir nosaukts **CommerceRuntime.MPOSOffline.Ext.config**, un tas ir zem vietējā CRT klienta brokera atrašanās vieta.
 
-2. Reģistrēt CRT izmaiņas paplašinājuma konfigurācijas failā.
+2. Reģistrējieties CRT izmaiņas paplašinājuma konfigurācijas failā.
 
     ``` xml
     <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.ReceiptsAustria" />
@@ -87,42 +87,42 @@ Paplašinājuma CRT komponenti tiek iekļauti CRT paraugos. Lai izpildītu tāl�
     <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.XZReportsAustria" />
     ```
 
-### <a name="enable-hardware-station-extensions"></a>Iespējot aparatūras stacijas paplašinājumus
+### <a name="enable-hardware-station-extensions"></a>Iespējot aparatūras staciju paplašinājumus
 
-Aparatūras stacijas paplašinājuma komponenti ir ietverti aparatūras stacijas paraugos. Lai izpildītu tālāk norādītās procedūras, atveriet **HardwareStationSamples.sln risinājumu zem** **RetailSdk \\ SampleExtensions \\** HardwareStation.
+Aparatūras stacijas paplašinājuma komponenti ir iekļauti aparatūras stacijas paraugos. Lai pabeigtu tālāk norādītās procedūras, atveriet **HardwareStationSamples.sln** risinājums zem **RetailSdk\\ Extensions paraugi\\ HardwareStation**.
 
-#### <a name="efrsample-component"></a>EFRSample komponents
+#### <a name="efrsample-component"></a>EFRSparauga komponents
 
-1. Atrast **HardwareStation.Extension.EFRSample** projektu un veidot to.
-2. **Paplašinājuma.EFRSample \\ nodalījuma \\ atkļūdošanas** mapē atrodiet šādus montāžas failus:
+1. Atrodi **HardwareStation.Extension.EFRSample** projektu un uzbūvēt to.
+2. Iekš **Paplašinājums.EFRSample\\ atkritumu tvertne\\ Atkļūdošana** mapē atrodiet šādus montāžas failus:
 
     - Contoso.Commerce.HardwareStation.EFRSample.dll
     - Contoso.Commerce.Runtime.DocumentProvider.DataModelEFR.dll
 
-3. Kopēt komplektācijas failus aparatūras stacijas paplašinājumu mapē:
+3. Kopējiet montāžas failus mapē Aparatūras stacijas paplašinājumi:
 
-    - **Koplietojamā aparatūras stacija:** kopējiet failus nodalījuma **mapē** IIS aparatūras stacijas vietnes atrašanās vietā.
-    - **Dedicated aparatūras stacija Modern POS:** kopējiet failus Modern POS klienta starpnieka atrašanās vietā.
+    - **Koplietojama aparatūras stacija:** Kopējiet failus uz **atkritumu tvertne** mapi zem IIS aparatūras stacijas vietnes atrašanās vietas.
+    - **Īpaša aparatūras stacija modernajā POS:** Kopējiet failus uz Modern POS klienta brokera atrašanās vietu.
 
-4. Atrodiet aparatūras stacijas paplašinājumu konfigurācijas failu. Faila nosaukums ir **HardwareStation.Extension.config.**
+4. Atrodiet aparatūras stacijas paplašinājumu konfigurācijas failu. Faila nosaukums **ir HardwareStation.Extension.config**.
 
-    - **Koplietojamā aparatūras stacija:** fails atrodas IIS aparatūras stacijas vietnes atrašanās vietā.
-    - **Dedicated aparatūras stacija Modern POS:** fails atrodas Modern POS klienta starpnieka atrašanās vietā.
+    - **Koplietojama aparatūras stacija:** Fails atrodas zem IIS aparatūras stacijas vietnes atrašanās vietas.
+    - **Īpaša aparatūras stacija modernajā POS:** Fails atrodas Modern POS klienta brokera atrašanās vietā.
 
-5. Pievienojiet konfigurācijas faila **sastāva** sadaļai šādu rindu.
+5. Pievienojiet konfigurācijas faila kompozīcijas **sadaļai** šādu rindu.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.EFRSample.dll" />
     ```
 
-### <a name="enable-modern-pos-extension-components"></a>Iespējot Modern POS paplašinājuma komponentus
+### <a name="enable-modern-pos-extension-components"></a>Iespējot modernos POS paplašinājuma komponentus
 
-1. Atveriet **ModernPOS.sln risinājumu zem RetailSdk POS un pārliecinieties, ka to** var **\\** kompilēt bez kļūdām. Turklāt pārliecinieties, vai moderno POS var Visual Studio palaist, izmantojot **komandu** Palaist.
+1. **Atveriet ModernPOS.sln** risinājumu sadaļā **RetailSdk\\POS** un pārliecinieties, ka to var apkopot bez kļūdām. Turklāt pārliecinieties, vai modern pos Visual Studio var palaist, **izmantojot komandu Palaist**.
 
     > [!NOTE]
-    > Modern POS nevar pielāgot. Ir jāiespējo lietotāja konta kontrole (UAC), un jums pēc vajadzības jāatinstalē iepriekš instalētās Modern POS instances.
+    > Modern POS nedrīkst pielāgot. Ir jāiespējo lietotāja konta kontrole (User Account Control — UAC), un pēc vajadzības ir jāatinstalē iepriekš instalētie modern POS gadījumi.
 
-2. Iespējojiet paplašinājumu ielādēšanu, pievienojot **paplašinājumiem.json failā tālāk norādītās** rindas.
+2. Iespējojiet paplašinājumu ielādi, pievienojot tālāk norādītās rindiņas **extensions.json** failu.
 
     ``` json
     {
@@ -135,15 +135,15 @@ Aparatūras stacijas paplašinājuma komponenti ir ietverti aparatūras stacijas
     ```
 
     > [!NOTE]
-    > Papildinformāciju par paraugi, kas parāda, kā iekļaut pirmkoda mapes un iespējot ielādēšanai paplašinājumus, skatiet instrukcijas readme.md **pos.Extensions** projektā.
+    > Papildinformāciju un paraugus, kas parāda, kā iekļaut pirmkoda mapes un iespējot paplašinājumu ielādi, skatiet projekta Pos.Extensions **faila** readme.md norādījumus.
 
-3. Atjaunot risinājumu.
-4. Atkļūdotāja izpildiet Modern POS un pārbaudiet funkcionalitāti.
+3. Pārbūvējiet risinājumu.
+4. Atkļūdošanā palaidiet Modern POS un pārbaudiet funkcionalitāti.
 
-### <a name="enable-cloud-pos-extension-components"></a>Iespējot Cloud POS paplašinājuma komponentus
+### <a name="enable-cloud-pos-extension-components"></a>Mākoņa POS paplašinājuma komponentu iespējošana
 
-1. Atveriet **CloudPOS.sln risinājumu sistēmā RetailSdk POS un pārliecinieties, ka to** var **\\** kompilēt bez kļūdām.
-2. Iespējojiet paplašinājumu ielādēšanu, pievienojot **paplašinājumiem.json failā tālāk norādītās** rindas.
+1. **Atveriet CloudPOS.sln** risinājumu sadaļā **RetailSdk\\POS** un pārliecinieties, vai to var kompilēt bez kļūdām.
+2. Iespējojiet paplašinājumu ielādi, pievienojot tālāk norādītās rindiņas **extensions.json** failu.
 
     ``` json
     {
@@ -156,18 +156,18 @@ Aparatūras stacijas paplašinājuma komponenti ir ietverti aparatūras stacijas
     ```
 
     > [!NOTE]
-    > Papildinformāciju par paraugi, kas parāda, kā iekļaut pirmkoda mapes un iespējot ielādēšanai paplašinājumus, skatiet instrukcijas readme.md **pos.Extensions** projektā.
+    > Papildinformāciju un paraugus, kas parāda, kā iekļaut pirmkoda mapes un iespējot paplašinājumu ielādi, skatiet projekta Pos.Extensions **faila** readme.md norādījumus.
 
-3. Atjaunot risinājumu.
-4. Palaidiet risinājumu, izmantojot komandu **Palaist** un izpildiet Retail SDK rokasgrāmatā norādītās darbības.
+3. Pārbūvējiet risinājumu.
+4. Palaidiet risinājumu, **izmantojot komandu Palaist** un sperot mazumtirdzniecības SDK rokasgrāmatā norādītās darbības.
 
 ## <a name="production-environment"></a>Ražošanas vide
 
-Iepriekšējā procedūra iespējo paplašinājumus, kas ir fiskālās reģistrācijas pakalpojuma integrācijas parauga komponenti. Turklāt šīs darbības ir jāveic, lai izveidotu izvietojamas pakotnes, kurās ir Commerce komponenti, un lai piemērotu šīs pakotnes ražošanas vidē.
+Iepriekšējā procedūra iespējo paplašinājumus, kas ir fiskālās reģistrācijas pakalpojuma integrācijas parauga sastāvdaļas. Turklāt ir jāveic šīs darbības, lai izveidotu izvietojamas pakotnes, kurās ir Commerce komponenti, un lietotu šīs pakotnes ražošanas vidē.
 
-1. Mapē **RetailSdk Assets pakotnes konfigurācijas failos veiciet \\ tālāk norādītās** izmaiņas.
+1. Veiciet tālāk norādītās izmaiņas pakotnes konfigurācijas failos **RetailSdk\\Assets**:
 
-    - **Commerceruntime.ext.config un** **CommerceRuntime.MPOSOffline.Ext.config konfigurācijas failos pievienojiet šim sastāva** **sadaļai šādas** rindas.
+    - Konfigurācijas failos commerceruntime.ext.config **un** CommerceRuntime.MPOSOffline.Ext.config **kompozīcijas** sadaļai pievienojiet šādas rindas **.**
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.EFRSample" />
@@ -177,91 +177,91 @@ Iepriekšējā procedūra iespējo paplašinājumus, kas ir fiskālās reģistr�
         <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.XZReportsAustria" />
         ```
 
-    - Konfigurācijas failā **HardwareStation.Extension.config** pievienojiet sastāva sadaļai **šādu** rindu.
+    - Konfigurācijas failā **HardwareStation.Extension.config** kompozīcijas **sadaļai** pievienojiet šādu rindu.
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.HardwareStation.EFRSample" />
         <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.DataModelEFR" />
         ```
 
-2. Mapē **BuildTools veiciet šādas** izmaiņas pielāgošanas.iestatījumu pakotnes **pielāgošanas konfigurācijas** failā:
+2. Mapē BuildTools veiciet šādas izmaiņas **pielāgošanas.settings** pakotnes pielāgošanas konfigurācijas **failā**:
 
-    - Pievienojiet tālāk norādītās rindas, lai CRT ietvertu paplašinājumus izvietojamās pakotnēs.
+    - Pievienojiet šādas rindas, lai iekļautu CRT paplašinājumus izvietojamās pakotnēs.
 
         ``` xml
         <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.Runtime.DocumentProvider.EFRSample.dll" />
         <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.Runtime.DocumentProvider.DataModelEFR.dll" />
         ```
 
-    - Pievienojiet tālāk norādīto rindu, lai ietvertu aparatūras stacijas paplašinājumu izvietojamās pakotnēs.
+    - Pievienojiet šo rindiņu, lai izvietojamās pakotnēs iekļautu aparatūras stacijas paplašinājumu.
 
         ``` xml
         <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.EFRSample.dll" />
         <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.Runtime.DocumentProvider.DataModelEFR.dll" />
         ```
 
-3. Startējiet utilītai MSBuild komandu uzvedni un palaidiet Visual Studio **msbuild mapē** Retail SDK, lai izveidotu izvietojamas pakotnes.
-4. Piemērot iepakojumus, izmantojot LCS vai manuāli. Papildinformāciju skatiet sadaļā [Izvietojamu pakotņu](../dev-itpro/retail-sdk/retail-sdk-packaging.md) izveide.
-5. Pabeidziet visus nepieciešamos iestatīšanas uzdevumus, kas aprakstīti [sadaļā Iestatīt Commerce for](emea-aut-fi-sample.md#set-up-commerce-for-austria) Austria.
+3. Startējiet MSBuild komandu uzvedni utilītai Visual Studio un palaidiet **msbuild** zem mapes Retail SDK, lai izveidotu izvietojamas pakotnes.
+4. Uzklājiet iepakojumus, izmantojot LCS vai manuāli. Papildinformāciju skatiet rakstā [Izvietojamo pakotņu](../dev-itpro/retail-sdk/retail-sdk-packaging.md) izveide.
+5. Pabeidziet visus nepieciešamos iestatīšanas uzdevumus, kas aprakstīti [Iestatiet Commerce Austrijai](emea-aut-fi-sample.md#set-up-commerce-for-austria).
 
-## <a name="design-of-extensions"></a>Paplašinājumu dizains
+## <a name="design-of-extensions"></a>Paplašinājumu projektēšana
 
-Finanšu reģistrācijas pakalpojuma integrācijas paraugs Austrijai ir balstīts uz finanšu [integrācijas](fiscal-integration-for-retail-channel.md) funkcionalitāti. Papildinformāciju par fiskālās integrācijas risinājuma dizainu skatiet [finanšu integrācijas parauga dizaina](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices) apskatā.
+Fiskālās reģistrācijas pakalpojuma integrācijas paraugs Austrijai ir balstīts uz [fiskālās integrācijas funkcionalitāte](fiscal-integration-for-retail-channel.md). Papildinformāciju par fiskālās integrācijas risinājuma izstrādi skatiet rakstā [pārskats par fiskālās integrācijas parauga dizainu](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
 
-### <a name="commerce-runtime-extension-design"></a>Commerce runtime paplašinājuma dizains
+### <a name="commerce-runtime-extension-design"></a>Tirdzniecības izpildlaika paplašinājuma dizains
 
-Paplašinājuma, kas ir fiskālā dokumenta nodrošinātājs, nolūks ir izveidot pakalpojumiem raksturīgus dokumentus un apstrādāt atbildes no fiskālās reģistrācijas pakalpojuma.
+Paplašinājuma, kas ir fiskālo dokumentu nodrošinātājs, mērķis ir ģenerēt pakalpojumam specifiskus dokumentus un apstrādāt atbildes no fiskālā reģistrācijas pakalpojuma.
 
-Paplašinājums CRT ir **Runtime.Extensions.DocumentProvider.EFRSample.**
+The CRT pagarinājums ir **Runtime.Extensions.DocumentProvider.EFRSample**.
 
-#### <a name="request-handler"></a>Pieprasījumu apdarinātājs
+#### <a name="request-handler"></a>Pieprasījumu apstrādātājs
 
-Dokumentu nodrošinātājiem ir divi pieprasījumu apdarinātāji:
+Dokumentu nodrošinātājiem ir divi pieprasījumu apstrādātāji:
 
-- **DocumentProviderEFRFiscalAUT — šis apdarinātājs tiek izmantots, lai** ģenerētu finanšu dokumentus finanšu reģistrācijas pakalpojumam.
-- **DocumentProviderEFRNonFiscalAUT — šis apdarinātājs tiek izmantots, lai finanšu reģistrācijas pakalpojumam ģenerētu dokumentus, kas** nav finanšu dokumenti.
+- **DocumentProviderEFRFiscalAUT** – Šis apdarinātājs tiek izmantots, lai ģenerētu fiskālos dokumentus fiskālās reģistrācijas pakalpojumam.
+- **DocumentProviderEFRNonFiscalAUT** – Šis apstrādātājs tiek izmantots, lai ģenerētu nefiskālos dokumentus nodokļu reģistrācijas pakalpojumam.
 
-Šie apdarinātāji ir pārmantoti no **INamedRequestHandler** interfeisa. Metode **HandlerName** ir atbildīga par apdarinātāja nosaukuma atgriešanu. Apdarinātāja nosaukumam ir jāatbilst savienotāja dokumentu nodrošinātāja nosaukumam, kas norādīts programmā Commerce Headquarters.
+Šie apstrādātāji ir mantoti no **INamedRequestHandler** saskarne. The **Apdarinātāja vārds** metode ir atbildīga par apstrādātāja vārda atgriešanu. Apdarinātāja nosaukumam ir jāatbilst savienotāja dokumenta nodrošinātāja nosaukumam, kas norādīts Commerce galvenajā mītnē.
 
 Savienotājs atbalsta šādus pieprasījumus:
 
-- **GetFiscalDocumentDocumentProviderRequest — šajā pieprasījumā ir ietverta** informācija par to, kurš dokuments ir jāģenerē. Tas atgriež pakalpojumam raksturīgu dokumentu, kas jāreģistrē finanšu reģistrācijas pakalpojumā.
-- **GetNonFiscalDocumentDocumentProviderRequest – šajā pieprasījumā ir ietverta informācija par to, kas ir jāģenerē ar fiskālo** dokumentu. Tas atgriež pakalpojumam raksturīgu dokumentu, kas jāreģistrē finanšu reģistrācijas pakalpojumā.
-- **GetSupportedRegistrableEventsDocumentProviderRequest - šis pieprasījums atgriež notikumu sarakstu,** uz kuriem ir jāabonē. Pašlaik tiek atbalstīti šādi notikumi: pārdošana, X pārskata drukāšana, Z pārskata drukāšana, debitoru kontu depozīti, debitoru pasūtījumu depozīti, audita notikumi un darbības, kas nav pārdošanas darbības.
-- **GetFiscalRegisterResponseToSaveDocumentProviderRequest - šis pieprasījums atgriež atbildi** no finanšu reģistrācijas pakalpojuma. Šī atbilde ir serializēta, lai veidotu virkni tā, lai tā būtu gatava saglabāt.
+- **GetFiscalDocumentDocumentProviderRequest** – Šis pieprasījums satur informāciju par to, kāds dokuments ir jāģenerē. Tas atgriež pakalpojumam raksturīgu dokumentu, kas jāreģistrē fiskālās reģistrācijas pakalpojumā.
+- **GetNonFiscalDocumentDocumentProviderRequest** – Šis pieprasījums satur informāciju par to, kāds nefiskālais dokuments ir jāģenerē. Tas atgriež pakalpojumam raksturīgu dokumentu, kas jāreģistrē fiskālās reģistrācijas pakalpojumā.
+- **GetSupportedRegistrableEventsDocumentProviderRequest** – Šis pieprasījums atgriež abonējamo notikumu sarakstu. Pašlaik tiek atbalstīti šādi notikumi: pārdošana, X pārskata drukāšana, Z pārskata drukāšana, klientu konta depozīti, klientu pasūtījumu noguldījumi, audita pasākumi un ar pārdošanu nesaistīti darījumi.
+- **GetFiscalRegisterResponseToSaveDocumentProviderRequest** – Šis pieprasījums atgriež atbildi no fiskālās reģistrācijas dienesta. Šī atbilde tiek serializēta, lai izveidotu virkni, lai tā būtu gatava saglabāšanai.
 
 #### <a name="configuration"></a>Konfigurācija
 
-Konfigurācijas faili atrodas **paplašinājuma** projekta konfigurācijas mapē:
+Konfigurācijas faili atrodas mapē **Konfigurācija** paplašinājuma projekta mape:
 
-- **DocumentProviderFiscalEFRSampleAustria** — finanšu dokumentiem.
-- **DocumentProviderNonFiscalEFRSampleAustria** – ar finanšu dokumentiem nesaistītiem dokumentiem.
+- **DocumentProviderFiscalEFRSampleAustria** – fiskālajiem dokumentiem.
+- **DocumentProviderNonFiscalEFRSampleAustria** – Nefiskāliem dokumentiem.
 
-Šo failu mērķis ir iespējot iestatījumus dokumentu nodrošinātājam, lai tos konfigurētu no programmas Commerce Headquarters. Faila formāts ir saskaņots ar finanšu integrācijas konfigurācijas prasībām. Tiek pievienots šāds iestatījums:
+Šo failu mērķis ir iespējot iestatījumus dokumentu nodrošinātājam, ko konfigurē Commerce galvenajā mītnē. Faila formāts ir saskaņots ar fiskālās integrācijas konfigurācijas prasībām. Tiek pievienots šāds iestatījums:
 
 - PVN likmju kartējums
 
 ### <a name="hardware-station-extension-design"></a>Aparatūras stacijas paplašinājuma dizains
 
-Paplašinājuma, kas ir fiskālais savienotājs, mērķis ir sazināties ar finanšu reģistrācijas pakalpojumu.
+Paplašinājuma, kas ir fiskālais savienotājs, mērķis ir sazināties ar fiskālās reģistrācijas pakalpojumu.
 
-Aparatūras stacijas paplašinājums **ir HardwareStation.Extension.EFRSample.** Tas izmanto HTTP protokolu, lai iesniegtu CRT dokumentus, ko paplašinājums ģenerē finanšu reģistrācijas pakalpojumam. Tas apstrādā arī atbildes, kas saņemtas no fiskālās reģistrācijas pakalpojuma.
+Aparatūras stacijas paplašinājums ir **HardwareStation.Extension.EFRSample**. Tas izmanto HTTP protokolu, lai iesniegtu dokumentus, kas CRT paplašinājums ģenerē fiskālās reģistrācijas pakalpojumam. Tas arī apstrādā atbildes, kas tiek saņemtas no fiskālās reģistrācijas dienesta.
 
-#### <a name="request-handler"></a>Pieprasījumu apdarinātājs
+#### <a name="request-handler"></a>Pieprasījumu apstrādātājs
 
-**EFRHandler** pieprasījumu apdarinātājs ir ieejas punkts finanšu reģistrācijas pakalpojuma pieprasījumu apstrādei.
+The **EFRHandler** pieprasījumu apstrādātājs ir piekļuves punkts, lai apstrādātu pieprasījumus nodokļu reģistrācijas dienestam.
 
-Apdarinātājs ir pārmantots **no INamedRequestHandler** interfeisa. Metode **HandlerName** ir atbildīga par apdarinātāja nosaukuma atgriešanu. Apdarinātāja nosaukumam ir jāatbilst programmā Commerce Headquarters norādītajam finanšu savienotāja nosaukumam.
+Apdarinātājs ir mantots no **INamedRequestHandler** saskarne. The **Apdarinātāja vārds** metode ir atbildīga par apstrādātāja vārda atgriešanu. Apdarinātāja nosaukumam ir jāatbilst fiskālā savienotāja nosaukumam, kas norādīts Commerce galvenajā mītnē.
 
 Savienotājs atbalsta šādus pieprasījumus:
 
-- **SubmitDocumentFiscalDeviceRequest – šis pieprasījums nosūta dokumentus finanšu reģistrācijas pakalpojumam un** atgriež atbildi no tā.
-- **IsReadyFiscalDeviceRequest – šis pieprasījums tiek izmantots fiskālās reģistrācijas** pakalpojuma veselības pārbaudei.
-- **InitializeFiscalDeviceRequest** - šis pieprasījums tiek izmantots, lai inicializētu finanšu reģistrācijas pakalpojumu.
+- **SubmitDocumentFiscalDeviceRequest** – Šis pieprasījums nosūta dokumentus fiskālās reģistrācijas dienestam un atgriež no tā atbildi.
+- **IsReadyFiscalDeviceRequest** – Šis pieprasījums tiek izmantots fiskālās reģistrācijas dienesta veselības pārbaudei.
+- **InitializeFiscalDeviceRequest** – Šis pieprasījums tiek izmantots, lai inicializētu fiskālās reģistrācijas pakalpojumu.
 
 #### <a name="configuration"></a>Konfigurācija
 
-Konfigurācijas fails atrodas **paplašinājuma** projekta konfigurācijas mapē. Faila mērķis ir iespējot iestatījumus finanšu savienotājam, lai tos konfigurētu no programmas Commerce Headquarters. Faila formāts ir saskaņots ar finanšu integrācijas konfigurācijas prasībām. Ir pievienoti šādi iestatījumi:
+Konfigurācijas fails atrodas mapē **Konfigurācija** paplašinājuma projekta mapi. Faila mērķis ir iespējot finanšu savienotāja iestatījumus, kas jākonfigurē no Commerce headquarters. Faila formāts ir saskaņots ar fiskālās integrācijas konfigurācijas prasībām. Tiek pievienoti šādi iestatījumi:
 
-- **Galapunkta** adrese – finanšu reģistrācijas pakalpojuma URL.
-- **Noildze** – laiks milisekundēs, ko autovadītājs gaidīs uz finanšu reģistrācijas pakalpojuma atbildi.
+- **Galapunkta adrese** – Fiskālās reģistrācijas pakalpojuma URL.
+- **Pārtraukums** – Laiks milisekundēs, cik ilgi vadītājs gaidīs atbildi no fiskālās reģistrācijas dienesta.

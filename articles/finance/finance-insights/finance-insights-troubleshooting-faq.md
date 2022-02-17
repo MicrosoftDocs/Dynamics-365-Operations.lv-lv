@@ -2,7 +2,7 @@
 title: Finance Insights iestatījumu problēmu novēršana
 description: Šajā tēmā uzskaitītas problēmas, kas var rasties, kad izmantojat Finance Insights iespējas. Tajā arī skaidrots, kā atrisināt šos jautājumus.
 author: panolte
-ms.date: 11/03/2021
+ms.date: 01/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: c1bbdbec2bc0273a73ffc13a4cce024543af5a13
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: f77cddfdab22bef8af7f62d49723e330c4f13261
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968840"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8064870"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Finance Insights iestatījumu problēmu novēršana
 
@@ -54,11 +54,11 @@ Izpildiet šīs darbības [Power Platform administrēšanas centrā](https://adm
 1. Ja izmantojat Finance Insights versiju, noņemiet DI projektu, kas ir saistīts ar **Debitoru maksājumu ieskatu rezultātiem (CDS uz Fin un Ops)** veidni.
 2. Izpildiet darbības sadaļā [Izveidot datu integrētātāja projektu](create-data-integrate-project.md). Izmantojiet **Debitora maksājuma ieskatu rezultātu (CDS uz Fin un Ops 10.0.17 vai jaunāku)** veidni.
 
-## <a name="symptom-when-i-try-to-open-ai-builder-by-using-the-links-on-the-customer-payment-predictions-setup-page-why-do-i-receive-the-following-error-message-sorry-theres-been-a-disconnect"></a>Simptoms: Kad mēģinu atvērt, izmantojot saites debitora maksājumu prognozēšanas iestatījumu lapā, kāpēc es saņemu šādu kļūdas ziņojumu: "Diemžēl ir bijis AI Builder atvienošanās"?
+## <a name="symptom-when-i-try-to-open-ai-builder-by-using-the-links-on-the-customer-payment-predictions-setup-page-why-do-i-receive-the-following-error-message-sorry-theres-been-a-disconnect"></a>Simptoms: mēģinot atvērt AI Builder izmantojot saites Klientu maksājumu prognožu iestatīšanas lapā, kāpēc tiek parādīts šāds kļūdas ziņojums: "Atvainojiet, ir noticis atvienojums"?
 
 ### <a name="resolution"></a>Novēršana
 
-Dynamics 365 Finance Lietotāja kontam jābūt vides lietotāja kontam un šim lietotāja Microsoft Power Apps kontam jābūt sistēmas pielāgotāja lomai. Sistēmas Microsoft Power Apps administrators var izveidot lietotāja kontu un piešķirt lomu. Pēc tam varat doties <https://make.preview.powerapps.com/> uz, pieteikties, izmantojot šo lietotāja kontu, un vēlreiz mēģināt saites.
+Dynamics 365 Finance lietotājiem ir jābūt a Microsoft Power Apps lietotāja konts videi, un šim lietotāja kontam ir jābūt sistēmas pielāgotāja lomai. The Microsoft Power Apps sistēmas administrators var izveidot lietotāja kontu un piešķirt lomu. Pēc tam varat doties uz<https://make.preview.powerapps.com/>, piesakieties, izmantojot šo lietotāja kontu, un vēlreiz mēģiniet izveidot saites.
 
 ## <a name="symptom-why-doesnt-the-cash-forecast-tab-in-the-cash-flow-forecast-workspace-show-any-data"></a>Simptoms: kādēļ naudas plūsmas prognozes darbvietas cilne Naudas plūsmas prognoze nerāda nekādus datus?
 
@@ -70,25 +70,47 @@ Vispirms iestatiet un aktivizējiet naudas plūsmas prognozes un likviditātes k
 
 Pēc tam apstipriniet, ka naudas plūsmas prognožu funkcija Finance Insights (**Naudas un bankas pārvaldība \> Iestatījumi \> Finance Insights \> Naudas plūsmas prognozes**) ir iespējota un ka AI modeļa apmācība ir pabeigta. Ja apmācība nav pabeigta, atlasiet **Prognoze tagad**, lai sāktu modeļu apmācību procesu.
 
-## <a name="symptom-why-isnt-the-install-a-new-add-in-button-visible-in-microsoft-dynamics-lifecycle-services"></a>Simptoms: kādēļ programmā Lifecycle Services nav redzama jauna Microsoft Dynamics pievienojumprogrammas poga?
+## <a name="symptom-why-isnt-the-install-a-new-add-in-button-visible-in-microsoft-dynamics-lifecycle-services"></a>Simptoms: kāpēc nav redzama poga Instalēt jaunu pievienojumprogrammu Microsoft Dynamics Dzīves cikla pakalpojumi?
 
 ### <a name="resolution"></a>Novēršana
 
-Vispirms pārbaudiet, vai vides pārvaldnieka vai projekta īpašnieka loma ir piešķirta lietotājam, kurš ir pierakstījies, laukā Projekta drošības loma **pakalpojumā** **·** **·** Microsoft Dynamics Lifecycle Services (LCS). Jaunu pievienojumprogrammu instalācijai ir nepieciešama viena no šīm projekta drošības lomām.
+Vispirms pārbaudiet, vai **Vides vadītājs** vai **Projekta īpašnieks** loma ir piešķirta lietotājam, kas ir pierakstījies **Projekta drošības loma** lauks iekšā Microsoft Dynamics Dzīves cikla pakalpojumi (LCS). Jauno pievienojumprogrammu instalēšanai ir nepieciešama viena no šīm projekta drošības lomām.
 
-Ja jums ir piešķirta pareizā projekta drošības loma, iespējams, būs jāatsvaidzina pārlūka logs, lai skatītu pogu Instalēt **jaunu** pievienojumprogrammu.
+Ja jums ir piešķirta pareizā projekta drošības loma, iespējams, būs jāatsvaidzina pārlūkprogrammas logs, lai redzētu **Instalējiet jaunu pievienojumprogrammu** pogu.
 
-## <a name="symptom-the-finance-insights-add-in-doesnt-seem-to-be-installing-why-is-that"></a>Simptoms: Nešķist instalēt finanšu ieskatu pievienojumprogrammu. Kādēļ tas ir?
+## <a name="symptom-the-finance-insights-add-in-doesnt-seem-to-be-installing-why-is-that"></a>Simptoms: šķiet, ka finanšu ieskatu pievienojumprogramma netiek instalēta. Kāpēc ir tā, ka?
 
 ### <a name="resolution"></a>Novēršana
 
-Šādiem soļiem jābūt pabeigtiem.
+Tālāk norādītās darbības bija jāpabeidz.
 
-- Pārbaudiet, vai jums **ir sistēmas administratora un sistēmas** **pielāgotāja** piekļuve Power Portal administratora centrā.
-- Pārbaudiet, vai Dynamics 365 Finance vai vai vai licences numurs attiecas uz lietotāju, kurš instalē pievienojumprogrammu.
-- Pārbaudiet, vai Azure AD šī programma ir Azure AD reģistrēta: 
+- Pārbaudiet, vai jums ir **Sistēmas administrators** un **Sistēmas pielāgotājs** piekļūt Power Portal administrēšanas centrā.
+- Pārbaudiet, vai a Dynamics 365 Finance vai līdzvērtīga licence tiek piemērota lietotājam, kurš instalē pievienojumprogrammu.
+- Pārbaudiet, vai tālāk norādītais Azure AD lietotne ir reģistrēta Azure AD: 
 
   | Pieteikums                  | Programmas ID           |
   | ---------------------------- | ---------------- |
   | Microsoft Dynamics ERP apakšpakalpojumi CDS | 703e2651-d3fc-48f5-942c-74274233dba8 | 
   
+## <a name="symptom-error-we-didnt-find-any-data-for-the-selected-filter-range-please-select-a-different-filter-range-and-try-again"></a>Simptoms: Kļūda: “Mēs neatradām nekādus datus atlasītajam filtra diapazonam. Lūdzu, atlasiet citu filtra diapazonu un mēģiniet vēlreiz. 
+
+### <a name="resolution"></a>Novēršana
+
+Pārbaudiet datu integratora iestatījumus, lai pārbaudītu, vai tas darbojas, kā paredzēts, un pārveido datus no AI Builder atpakaļ uz finansēm.  
+Papildinformāciju skatiet [Izveidojiet datu integrācijas projektu](../finance-insights/create-data-integrate-project.md).
+
+## <a name="symptom-customer-payment-prediction-training-failed-and-the-ai-builder-error-states-prediction-should-have-only-2-distinct-outcome-values-to-train-the-model-map-to-two-outcomes-and-retrain-training-report-issue-isnotminrequireddistinctnonnullvalues"></a>Simptoms: klientu maksājumu prognozēšanas apmācība neizdevās, un AI Builder kļūdu stāvokļi: "Lai apmācītu modeli, prognozēšanai ir jābūt tikai 2 atšķirīgām iznākuma vērtībām. Kartējiet ar diviem rezultātiem un pārkvalificējiet", "Apmācības ziņojuma problēma: IsNotMinRequiredDistinctNonNullValues".
+
+### <a name="resolution"></a>Novēršana
+
+Šī kļūda norāda, ka pēdējā gadā nav pietiekami daudz vēsturisku darījumu, kas atbilst katrai kategorijā aprakstītajai kategorijai **Laikā**, **·**, un **Ļoti vēlu** kategorijām. Lai novērstu šo kļūdu, pielāgojiet **Ļoti vēlu** darījuma periods. Ja regulējat **Ļoti vēlu** darījuma periods neizlabo kļūdu, **Klientu maksājumu prognozes** nav labākais risinājums, jo tam ir nepieciešami dati katrā kategorijā apmācības nolūkos.
+
+Lai iegūtu papildinformāciju par to, kā pielāgot **Laikā**, **·**, un **Ļoti vēlu** kategorijas, sk [Iespējot klientu maksājumu prognozes](../finance-insights/enable-cust-paymnt-prediction.md).
+
+## <a name="symptom-model-training-failed"></a>Simptoms: modeļa apmācība neizdevās
+
+### <a name="resolution"></a>Novēršana
+
+The **Naudas plūsmas prognoze** modeļu apmācībai ir nepieciešami dati, kas aptver vairāk nekā vienu gadu un satur vairāk nekā 100 darījumus. Šiem darījumiem ir jāietekmē likviditātes konti, kas ir iekļauti naudas plūsmas prognozes iestatījumos.
+
+The **Klientu maksājumu prognozes** Lai izveidotu prognozes, pēdējo sešu līdz deviņu mēnešu laikā ir nepieciešami vismaz 100 klienta rēķini un maksājumu darījumi.  

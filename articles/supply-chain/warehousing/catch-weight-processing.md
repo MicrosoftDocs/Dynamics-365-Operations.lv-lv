@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 8e56688aac445b84d5a9c0df289d48ffefd5767f673f2329f69582e820c27820
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 830e05db47e2e2d3bb5970869bc395cfa73ad603
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738153"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087374"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Pieļaujamā svara preču apstrāde noliktavas pārvaldības ietvaros
 
@@ -138,7 +138,6 @@ Dažas darbplūsmas neatbalsta pieļaujamā svara preču apstrādi noliktavas p�
 - Pieļaujamā svara preces, kam ir iespējoti varianti, nevar izmantot kopā ar variantu mērvienību pārveidošanas funkcionalitāti.
 - Pieļaujamā svara preces nevar atzīmēt kā komercijas preču komplektu.
 - Pieļaujamā svara preces var izmantot tikai kopā ar vienību secību grupu, kurā ir ietvertas pieļaujamā svara apstrādes vienības un pieļaujamā svara vienībai ir zemākajā pozīcijā sērijā.
-- Pieļaujamā svara precēm pārveidošanu no krājumu vienībām uz pieļaujamā svara vienībām var veikt tikai tad, ja pārveidošanas rezultāts ir nominālais daudzums, kas ir lielāks nekā 1.
 - Pieļaujamā svara preču svītrkodu iestatīšanas laikā netiek neatbalsta mainīga svara iestatīšana.
 
 ### <a name="order-processing"></a>Pasūtījuma apstrādāšana

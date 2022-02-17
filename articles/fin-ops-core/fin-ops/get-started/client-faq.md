@@ -1,6 +1,6 @@
 ---
 title: Biežāk uzdotie jautājumi par klientu
-description: Šajā rakstā ir sniegtas atbildes uz biežāk uzdotajiem jautājumiem par Finance and Operations klientu.
+description: Šajā rakstā ir sniegtas atbildes uz bieži uzdotajiem jautājumiem par Finance and Operations klientu.
 author: jasongre
 ms.date: 09/11/2019
 ms.topic: article
@@ -14,18 +14,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05ebc55b55a40b09c825d2c93e10bb7ff38185473204b9bc7d130e81f6c419a5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: e64fb2453f17760b17ca2a7d3f593ac34cde0cc9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750514"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071037"
 ---
-# <a name="client-faq"></a>Biežāk uzdotie jautājumi par klientu
+# <a name="client-faq"></a>Bieži uzdotie jautājumi par klientu
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir sniegtas atbildes uz biežāk uzdotajiem jautājumiem par Finance and Operations klientu.
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
+Šajā rakstā ir sniegtas atbildes uz bieži uzdotajiem jautājumiem par Finance and Operations klientu.
 
 ## <a name="why-arent-symbols-loaded"></a>Kāpēc netiek ielādēti simboli?
 

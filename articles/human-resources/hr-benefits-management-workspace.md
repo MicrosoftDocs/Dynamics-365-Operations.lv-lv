@@ -2,7 +2,7 @@
 title: Atvieglojumu pārvaldības darbvieta
 description: Šajā tēmā ir aprakstīta Atvieglojumu pārvaldības darbvieta programmā Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 09/21/2021
+ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e6cc1432e108c74706dea124a62024272e65b6c1
-ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
-ms.translationtype: HT
+ms.openlocfilehash: 424f4a2098e05b4f7dc6fa84df133dda81cc59f0
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7512478"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071730"
 ---
 # <a name="benefits-management-workspace"></a>Atvieglojumu pārvaldības darbvieta
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [applies to](../includes/applies-to-hr.md)]
 
@@ -94,7 +97,7 @@ Lai skatītu citu atvieglojumu periodu, atlasiet to no nolaižamā saraksta **Pe
 Darbību elementus varat skatīt, atlasot elementu vai cilni. Atlasot cilni, var skatīt un atlasīt darbiniekus tieši darbvietas lapā.
 Cilne **Atvērt reģistrēšanu** nodrošina galvenos rādītājus atvērtam reģistrācijas procesam. 
 
-Informācija par atvērto reģistrāciju tiks parādīta 30 dienas pirms **Reģistrācijas sākuma datuma**. Tas ir definēts **Periodu** iestatījumu **Atvieglojumu pārvaldība** > **Saites** > **Periodi** laukā **Reģistrācijas sākuma datums**.  Lai mainītu šo iestatījumu, dodieties uz sadaļu **Cilvēkresursu kopīgie parametri** > **Atvieglojumu pārvaldība** > **Atvērt reģistrācijas opcijas** un atjauniniet lauku **Skaits**.  
+Informācija par atvērto reģistrāciju tiks parādīta 30 dienas pirms **Reģistrācijas sākuma datuma**. Tas ir definēts **Periodu** iestatījumu **Atvieglojumu pārvaldība** > **Saites** > **Periodi** laukā **Reģistrācijas sākuma datums**.  Lai mainītu šo iestatījumu, dodieties uz **Cilvēkresursu kopīgie parametri** > **Pabalstu pārvaldība** > **Atveriet reģistrācijas iespējas** un atjauniniet **Skaits** lauks.  
 
 Cilnē **Atvērt reģistrāciju** ir pieejama šāda informācija:
  - Darbinieki, kas nav sākuši atvērtās reģistrācijas procesu
@@ -109,11 +112,11 @@ Cilnē **Atvērt reģistrāciju** ir pieejama šāda informācija:
   > [!NOTE]
   > Ja nevēlaties izsekot **Plāna veidam** atvērto reģistrācijas norisi, varat to izslēgt, atverot **Atvieglojumu pārvaldība** > **Saites** > **Darbinieku pašapkalpošanās parametri** > **Atvieglojumu plānu iestatījumi** un atjauninot lauku **Izsekot atvērtās reģistrācijas progresu**.  Piemēram, var izveidot plānus, kur **Plāna tips** = **Cits**. Šie plāni var būt izvēles plāni, kuriem nevēlaties izsekot reģistrācijas progresu. Ja neatlasot šo plāna tipu, šo tipu plāni tiks ignorēti, izsekojot reģistrācijas norisi vai pabeidzot to cilnē **Atvērt reģistrāciju**. Šis iestatījums attiecas uz plāna tipu, kas atlasīts visiem periodiem un juridiskajām personām.
 
-- **Notiek** – elements **Notiek** sniedz darbinieku skaitu, kuri ir procesā. Elements **Notiek** ir filtrēts saraksts, kurā ir redzami tikai darbinieki, kuriem ir vismaz viens plāns, kas ir atcelts vai atlasīts. Obligātie plāni tiek ignorēti un nav iekļauti, jo tie pēc noklusējuma ir atlasīti darbiniekam. Varat rakties no šī elementa, lai skatītu atlasītos un atceltos plānus lapā **Darbinieku atvieglojumu plānu lielapjoma atjaunināšana**.
+- **Notiek** – elements **Notiek** sniedz darbinieku skaitu, kuri ir procesā. Elements **Notiek** ir filtrēts saraksts, kurā ir redzami tikai darbinieki, kuriem ir vismaz viens plāns, kas ir atcelts vai atlasīts. Obligātie plāni tiek ignorēti un nav iekļauti, jo tie pēc noklusējuma ir atlasīti darbiniekam. Varat skatīt šo elementu, lai skatītu atlasītos un atceltos plānus **Darba ņēmēju pabalstu plānu lielapjoma atjaunināšana** lappuse.
 
 - **Reģistrēts atvieglojumos** – elements **Reģistrēts atvieglojumos** sniedz to darbinieku skaitu, kas ir pilnībā reģistrēti atvieglojumiem. Elements **Reģistrēts atvieglojumos** ir filtrēts saraksts, kurā ir redzami darbinieki, kuri ir atlasījuši vai atcēluši visus plānus. Vaicājums izslēdz plānus, kas netiek izsekoti atvērtajai reģistrācijai **Darbinieku pašapkalpošanās parametru** lapā. Varat rakties no šī elementa, lai skatītu darbinieku sarakstu lapā **Darbinieku atvieglojumu plāni**.
 
-- **Neapstiprinātas atlases** — elements **Neapstiprinātas atlases** parāda to darbinieku skaitu, kuriem ir atlasīti vai atcelti plāni, kas ir jāapstiprina. Varat rakties no šī elementa, lai skatītu darbinieku sarakstu lapā **Darbinieku atvieglojumu plāni**.
+- **Neapstiprinātas atlases** — elements **Neapstiprinātas atlases** parāda to darbinieku skaitu, kuriem ir atlasīti vai atcelti plāni, kas ir jāapstiprina. Varat urbt atpakaļ no šīs flīzes, lai parādītu **Darba ņēmēju pabalstu plānu lielapjoma atjaunināšana** lappuse.
 
 **Aktivitāte**
 

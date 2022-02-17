@@ -1,6 +1,6 @@
 ---
 title: Personāla atlases procesu pārvaldība
-description: Šajā tēmā aprakstīta koncepcija, ko personāla atlases var izmantot, lai izsekotu soļus personāla atlases procesā.
+description: Šajā tēmā ir aprakstīts jēdziens, ko personāla atlases darbinieki var izmantot, lai izsekotu personāla atlases procesa soļiem.
 author: andreabichsel
 ms.date: 01/10/2022
 ms.topic: article
@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9a5e89e700858ed9e625fbdee630fa14ebea26e
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
-ms.translationtype: HT
+ms.openlocfilehash: 7fa1d5201fcc52d49b9d954356f1ca39b7619cd2
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7965068"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075479"
 ---
 # <a name="manage-recruiting-processes"></a>Personāla atlases procesu pārvaldība
 
-[!include [banner](../includes/banner.md)]
+> [!IMPORTANT]
+> Šajā tēmā atzīmētā funkcionalitāte šobrīd ir pieejama Personāla klientiem finanšu infrastruktūrā.  
+
 
 Šajā tēmā ir aprakstīta metode, ko personāla atlases speciālisti var izmantot, lai izsekotu personāla atlases procesa darbības, tostarp vakanču izsludināšanu un kandidātu piesaisti, informācijas par kandidātu un pieteikumu izsekošanu, kandidātu intervēšanu un viena vai vairāku kandidātu atlasi izsludināto vakanču aizpildīšanai organizācijā.
 
@@ -42,7 +44,7 @@ Personāla atlases projekti sniedz personāla atlases speciālistiem iespēju iz
 - Pieteikuma iesniegšanas beigu termiņš
 - Plānotais darba sākšanas datums
 
-Personāla atlases projektā **ir ietverta** darba reklāmas vērtība, kas tiek izmantota lapā **Darbinieku** pašapkalpošanās, lai reklamētu šo atvēršanu. Atvēršana darbiniekiem var tikt parādīta tikai tad, ja personāla atlases projektam ir darba sludinājuma vērtība, lauks Rādīt darbinieka pašapkalpošanās ir iestatīts uz Jā, pieteikuma termiņa lauks ir iestatīts uz nākotnes datumu, un personāla atlases projektam ir projekta statusa **vērtība** **·** **·** **·** **·** **Sākts**. Tālāk esošajā tabulā ir norādīti iespējamie personāla atlases projekta statusi un to apraksti.
+Personāla atlases projekts satur **Darba sludinājums** vērtība, kas tiek izmantota **Darbinieku pašapkalpošanās** lapa, lai reklamētu atklāšanu. Atvērumu darbiniekiem var parādīt tikai tad, ja personāla atlases projektā ir a **Darba sludinājums** vērtība, **Displejs uz darbinieku pašapkalpošanās** lauks ir iestatīts uz **Jā**, **termiņš** laukā ir iestatīts datums nākotnē, un personāla atlases projektam ir a **Projekta statuss** vērtība **Sākts**. Tālāk esošajā tabulā ir norādīti iespējamie personāla atlases projekta statusi un to apraksti.
 
 | Statuss    | Norāda, ka...                                                                         |
 |-----------|-----------------------------------------------------------------------------------------|
@@ -55,7 +57,7 @@ Personāla atlases speciālisti var reģistrēt sadaļā **Masu mēdiji** opcija
 
 ## <a name="applicants"></a>Kandidāti
 
-Kandidāts ir persona, kura piesakās amatam jūsu uzņēmumā. Kandidāti tiek koplietoti starp visām juridiskajām personām jūsu organizācijā. Tāpēc jums ir liels talantu kopa, kurā meklēt. Varat saglabāt informāciju par kandidātu zināšanām, atsauksmes, izmitināšanas vēlmes, kā arī personisko informāciju par kandidātiem. Kad ir izveidots kandidāta ieraksts, globālajā adrešu grāmatā tiek izveidots šī kandidāta personiskais ieraksts. Lai atjauninātu tālāk norādītos kandidējošo personu globālās adrešu grāmatas datus, var izmantot lapu **Kandidāts**.
+Kandidāts ir persona, kura piesakās amatam jūsu uzņēmumā. Pretendenti ir sadalīti starp visām juridiskām personām jūsu organizācijā. Tāpēc jums ir liels talantu kopums, kurā meklēt. Varat saglabāt informāciju par kandidātu zināšanām, atsauksmes, izmitināšanas vēlmes, kā arī personisko informāciju par kandidātiem. Kad ir izveidots kandidāta ieraksts, globālajā adrešu grāmatā tiek izveidots šī kandidāta personiskais ieraksts. Lai atjauninātu tālāk norādītos kandidējošo personu globālās adrešu grāmatas datus, var izmantot lapu **Kandidāts**.
 
 - Adreses informācija
 - Kontaktinformācija
@@ -84,7 +86,7 @@ Pieteikuma statuss norāda, kurā līmenī pieteikums atrodas personāla atlases
 
 ### <a name="correspondence-actions"></a>Saziņas darbības
 
-Pieteikuma saziņas darbība nosaka dokumentu vai e-pasta veidni, ko izmantojat, lai sazinātos ar kandidātu, kurš iesniedzis pieteikumu. Saistot pieteikumu grāmatzīmes ar korespondējošām darbībām, saziņā ar kandidātiem var lietot vērtības no pieteikumu, kandidātu, interviju un personāla **atlases** **projektu** **·** **·** **lapām**. Izveidojot pieteikumu **e-pasta veidnes korespondences darbībām, varat ātri nosūtīt e-pasta ziņojumus kandidātiem, kuru pieteikumiem ir konkrēta statusa un saziņas** darbības kombinācija. Piemēram, varat nosūtīt apstiprinājuma e-pastu visiem pieteikumiem, kuru statusa vērtība ir **Saņemts** **un** **Atbilstošās** darbības vērtība **Saņemts**. Pēc e-pasta ziņojuma nosūtīšanas jums ir opcija automātiski atjaunināt pieteikumu statusu.
+Pieteikuma sarakstes darbība nosaka dokumenta vai e-pasta veidni, ko izmantojat, lai sazinātos ar pieteikuma iesniedzēju, kurš iesniedzis pieteikumu. Asociējoties **lietojumprogrammu grāmatzīmes** ar korespondences darbībām varat izmantot vērtības no **Pieteikums**, **iesniedzējs**, **·**, un **Personāla atlases projekts** lapas jūsu saziņā ar pretendentiem. Radot **lietojumprogrammu e-pasta veidnes** korespondences darbībām varat ātri nosūtīt e-pastus pretendentiem, kuru pieteikumiem ir noteikta statusa un sarakstes darbības kombinācija. Piemēram, varat nosūtīt apstiprinājuma e-pasta ziņojumu visām lietojumprogrammām, kurām ir a **Statuss** vērtība **Saņemts** un a **Korespondences darbība** vērtība **Saņemts**. Pēc e-pasta nosūtīšanas jums ir iespēja automātiski atjaunināt lietojumprogrammu statusu.
 
 ## <a name="application-routing"></a>Pieteikuma maršrutēšana
 

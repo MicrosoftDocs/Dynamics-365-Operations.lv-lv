@@ -1,6 +1,6 @@
 ---
 title: Fiskālās reģistrācijas pakalpojuma integrācijas paraugs Vācijai
-description: Šajā tēmā sniegts pārskats par Vācijas finanšu integrācijas paraugu Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā ir sniegts pārskats par Vācijas fiskālās integrācijas paraugu Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,98 +9,98 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-5-29
-ms.openlocfilehash: ca747215a8dfb85237365880ad5bdd49e57ec949
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 128c94407a283bf45e5626de060cee82430f087b
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944692"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8076866"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-germany"></a>Fiskālās reģistrācijas pakalpojuma integrācijas paraugs Vācijai
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā sniegts pārskats par Vācijas finanšu integrācijas paraugu Microsoft Dynamics 365 Commerce.
+Šajā tēmā ir sniegts pārskats par Vācijas fiskālās integrācijas paraugu Microsoft Dynamics 365 Commerce.
 
-Lai atbilstu lokāliem finanšu nosacījumiem kases reģistriem Vācijā, Vācijas funkcionalitāte ietver pārdošanas punkta (POS) parauga integrāciju ar Microsoft Dynamics 365 Commerce ārēju finanšu reģistrācijas pakalpojumu. Paraugs paplašina finanšu [integrācijas funkcionalitāti](fiscal-integration-for-retail-channel.md). Tas ir balstīts uz [EFR (Elektronisko finanšu reģistru)](https://www.efsta.eu/de/fiskalloesungen/deutschland) risinājumu no [EFSTA](https://www.efsta.eu/de/) un nodrošina sakarus ar EFR pakalpojumu, izmantojot HTTPS protokolu. EFR pakalpojums ir jā vieso Retail aparatūras stacijā vai atsevišķā datorā, kurā var izveidot savienojumu no aparatūras stacijas. Paraugs ir nodrošināts avota koda formā un ir daļa no mazumtirdzniecības programmatūras izstrādes komplekta (SDK).
+Lai izpildītu vietējās fiskālās prasības kases aparātiem Vācijā,Microsoft Dynamics 365 Commerce Vācijas funkcionalitāte ietver tirdzniecības vietas (POS) integrācijas paraugu ar ārēju nodokļu reģistrācijas pakalpojumu. Paraugs paplašina [fiskālās integrācijas funkcionalitāte](fiscal-integration-for-retail-channel.md). Tas ir balstīts uz [EFR (elektroniskais fiskālais reģistrs)](https://www.efsta.eu/de/fiskalloesungen/deutschland) risinājums no [EFSTA](https://www.efsta.eu/de/) un nodrošina saziņu ar EFR pakalpojumu, izmantojot HTTPS protokolu. EFR pakalpojumam jābūt mitinātam mazumtirdzniecības aparatūras stacijā vai atsevišķā datorā, ar kuru var izveidot savienojumu no aparatūras stacijas. Paraugs tiek nodrošināts avota koda veidā un ir daļa no mazumtirdzniecības programmatūras izstrādes komplekta (SDK).
 
-Korporācija Microsoft neizlaiž nevienu aparatūru, programmatūru vai dokumentāciju no EFSTA. Lai iegūtu informāciju par to, kā iegūt EFR risinājumu un to izmantot, sazinieties ar [EFSTA](https://www.efsta.eu/de/kontakt/kontakt).
+Microsoft neizlaiž nekādu aparatūru, programmatūru vai dokumentāciju no EFSTA. Lai iegūtu informāciju par to, kā iegūt EFR risinājumu un to izmantot, sazinieties ar [EFSTA](https://www.efsta.eu/de/kontakt/kontakt).
 
 ## <a name="scenarios"></a>Scenāriji
 
-Tālāk minētajiem scenārijiem ir ietverti Vācijas finanšu reģistrācijas pakalpojumu integrācijas paraugs.
+Vācijai paredzētā fiskālā reģistrācijas pakalpojuma integrācijas paraugā ir ietverti šādi scenāriji.
 
 ### <a name="sales-operations"></a>Pārdošanas operācijas
 
-- **Kases un pārnestās pārdošanas un ieņēmumu reģistrācija finanšu reģistrācijas pakalpojumā:**
+- **Skaidras naudas pārdošanas un atgriešanas reģistrācija fiskālā reģistrācijas pakalpojumā:**
 
-    Pārdošanas operāciju reģistrācija ietver sekojošos soļus:
+    Pārdošanas operāciju reģistrācija ietver šādas darbības:
 
-    1. Darbības sākuma reģistrācija
+    1. Darījuma sākuma reģistrācija
 
-        Katras darbības sākums ir reģistrēts tehniskajā drošības elementā (LF), kas savienots ar EFR pakalpojumu. Reģistrācijas rezultātā UZR piešķir darbības ID (TID).
+        Katra darījuma sākums tiek reģistrēts tehniskās drošības elementā (TSE), kas ir savienots ar EFR pakalpojumu. Reģistrācijas rezultātā TSE piešķir darījuma ID (TID).
 
-    2. Darbības beigu reģistrācija
+    2. Darījuma beigu reģistrācija
 
-        Kad DARBĪBA ir pabeigta POS, tā ir reģistrēta, izmantojot to pašu TID, kas piešķirts darbības sākuma reģistrācijas laikā. Tajā laikā detalizētie darbības dati tiek nosūtīti uz finanšu reģistrācijas pakalpojumu. Šie dati ietver pārdošanas rindas informāciju un informāciju par atlaidēm, maksājumiem un nodokļiem.
+        Noslēdzot darījumu POS, tas tiek reģistrēts, izmantojot to pašu TID, kas tika piešķirts darījuma sākuma reģistrācijas laikā. Tajā brīdī detalizēti darījumu dati tiek nosūtīti fiskālās reģistrācijas dienestam. Šie dati ietver informāciju par pārdošanas līniju, kā arī informāciju par atlaidēm, maksājumiem un nodokļiem.
 
-    3. Atbildes iegūšana no finanšu reģistrācijas pakalpojuma
+    3. Atbildes tveršana no fiskālās reģistrācijas dienesta
 
-        Drošības dati ir saņemti no UZMK kā daļa no atbildes un saglabāti darbības kanāla datu bāzē. Drošības dati sastāv no šādas informācijas:
+        Drošības dati tiek saņemti no TSE kā atbildes daļa un tiek saglabāti darījumā kanāla datubāzē. Drošības dati sastāv no šādas informācijas:
 
-        - TID (SID)
+        - TID
         - Darījuma sākuma datums un laiks
         - Darījuma beigu datums un laiks
         - Parakstu skaitītājs
-        - Pārbaudīt vērtību
-        - NUMERĀCIJas sērijas numurs
+        - Pārbaudiet vērtību
+        - TSE sērijas numurs
 
-- **Debitora pasūtījumu reģistrācija finanšu reģistrācijas pakalpojumā: reģistrācijas process ir tāds pats kā pārdošanas un atgriešanas process, kas tiek veikts skaidrā** naudā un ņemot vērā atgriešanu.
-- **Operāciju, kurās ir iesaistītas dāvanu kartes un depozītus, reģistrācija: reģistrācijas process ir vienāds ar pārdošanas un atgriešanu skaidrā** naudā procesu.
+- **Klientu pasūtījumu reģistrācija fiskālās reģistrācijas pakalpojumā:** Reģistrācijas process ir tāds pats kā skaidras naudas pārdošanas un atgriešanas process.
+- **Dāvanu karšu un depozītu operāciju reģistrācija:** Reģistrācijas process ir tāds pats kā skaidras naudas pārdošanas un atgriešanas process.
 
-#### <a name="notifying-users-about-fiscal-registration-failures"></a>Tiek paziņots lietotājiem par finanšu reģistrācijas kļūmēm
+#### <a name="notifying-users-about-fiscal-registration-failures"></a>Lietotāju informēšana par fiskālās reģistrācijas kļūmēm
 
-Ir divi veidi, kā finanšu reģistrācijas pakalpojums var paziņot lietotājiem par finanšu reģistrācijas laikā notikušiem defektiem:
+Ir divi veidi, kā fiskālās reģistrācijas pakalpojums var informēt lietotājus par kļūmēm, kas radušās fiskālās reģistrācijas laikā:
 
-- Izdrukājiet papildu informāciju no atbildes informācijas **ziņojuma** laukā kvītīs.
-- Rādīt finanšu pakalpojuma paziņojumus POS kā lietotāja ziņojumus.
+- Izdrukājiet papildu informāciju no atbildes **Informācijas ziņa** lauks uz čekiem.
+- Rādīt paziņojumus no fiskālā pakalpojuma kā lietotāja ziņojumus POS.
 
     > [!NOTE]
-    > Šim paziņojumu mehānismam ir nepieciešams, lai Connector tehnisko profilu lapā tiktu ieslēgts parametrs **Rādīt** finanšu reģistrācijas **paziņojumus**.
+    > Šis paziņošanas mehānisms pieprasa, lai **Rādīt nodokļu reģistrācijas paziņojumus** parametrs uz **Savienotāju tehniskie profili** lapa ir ieslēgta.
 
 #### <a name="printing-receipts"></a>Kvīšu drukāšana
 
-Kvīšu drukāšana ir obligāta Vācijā. Visās kvītīs ir jābūt vismaz šādai informācijai:
+Kvīts druka Vācijā ir obligāta. Visās kvītīs jāietver vismaz šāda informācija:
 
 - Uzņēmuma nosaukums un adrese
-- Informācija par precēm, tostarp to cenām un daudzumiem
+- Informācija par precēm, ieskaitot to cenas un daudzumus
 - Informācija par saņemtajiem maksājumiem
-- Informācija par nodokļiem, iekļaujot kopsummas pēc nodokļu likmes
+- Informācija par nodokļiem, ieskaitot kopējās summas par nodokļu likmi
 - Drošības dati:
 
-    - TID (SID)
+    - TID
     - Darījuma sākuma datums un laiks
     - Darījuma beigu datums un laiks
     - Parakstu skaitītājs
-    - Pārbaudīt vērtību
-    - NUMERĀCIJas sērijas numurs
+    - Pārbaudiet vērtību
+    - TSE sērijas numurs
 
 - Informatīvs ziņojums
 
 > [!NOTE]
-> QR kodu var drukāt arī uz kvīts. Lai arī QR kods ir neobligāts, tas ir ļoti ieteicams. Papildinformāciju par to, kā iegūt QR kodu kā daļu no finanšu reģistrācijas pakalpojuma atbildes, skatiet "EFR rokasgrāmata DE" dokumentu, kas ir publicēts \[\][EFSTA dokumentācijas](https://public.efsta.net/efr/) vietnē.
+> QR kodu var izdrukāt arī uz čekiem. Lai gan QR kods nav obligāts, tas ir ļoti ieteicams. Lai iegūtu papildinformāciju par to, kā saņemt QR kodu kā daļu no atbildes no fiskālās reģistrācijas dienesta, skatiet "EFR rokasgrāmatu\[ DE\] " dokuments, kas publicēts [EFSTA dokumentācija](https://public.efsta.net/efr/) vietne.
 >
-> Kvīšu **informācijas ziņojuma lauks rāda paziņojumu no finanšu reģistrācijas** pakalpojuma. Piemēram, ja paraksta ierīce tiek bojāta, uz kvīts var drukāt īpašu tekstu.
+> The **Informācijas ziņa** kvīšu laukā ir redzams paziņojums no fiskālās reģistrācijas dienesta. Piemēram, ja ir bojāta paraksta ierīce, kvītī var izdrukāt īpašu tekstu.
 
-#### <a name="voided-suspended-and-recalled-transactions"></a>Anulētās, aizturētās un atsauktās darbības
+#### <a name="voided-suspended-and-recalled-transactions"></a>Anulēti, apturēti un atsaukti darījumi
 
-- Anulētā darbība tiek reģistrēta kā pieprasījums pārtraukt darbību finanšu reģistrācijas pakalpojumā.
-- Aizturēta darbība tiek reģistrēta kā pieprasījums pārtraukt darbību finanšu reģistrācijas pakalpojumā.
-- Bloķētās darbības atsaukšana ir reģistrēta kā jaunas darbības sākums finanšu reģistrācijas pakalpojumā.
+- Anulēts darījums tiek reģistrēts kā lūgums izbeigt darījumu fiskālās reģistrācijas dienestā.
+- Apturēts darījums tiek reģistrēts kā lūgums izbeigt darījumu fiskālās reģistrācijas dienestā.
+- Apturēta darījuma atsaukšana fiskālās reģistrācijas dienestā tiek reģistrēta kā jauna darījuma sākums.
 
-### <a name="non-sales-transactions-and-shift-closing"></a>Darbības, kas nav pārdošanas un maiņas slēgšana
+### <a name="non-sales-transactions-and-shift-closing"></a>Ar pārdošanu nesaistīti darījumi un maiņas slēgšana
 
-Izmantojot NFS tagu, tālāk norādītās ar pārdošanu nesaistītās darbības tiek reģistrētas kā ar finanšu operāciju saistītas finanšu **reģistrācijas** pakalpojumā:
+Kā nefiskālas operācijas fiskālās reģistrācijas pakalpojumā tiek reģistrēti šādi ar pārdošanu nesaistīti darījumi, izmantojot **NFS** tags:
 
 - Deklarēt sākuma summu
 - Mainīgais ieraksts
@@ -110,209 +110,209 @@ Izmantojot NFS tagu, tālāk norādītās ar pārdošanu nesaistītās darbības
 - Ieņēmumu konti
 - Izdevumu konti
 
-Darbība Slēgt maiņu arī tiek reģistrēta kā finanšu reģistrācijas pakalpojumā operācija, kas nav finanšu **operācija**, izmantojot **tagu** NFS.
+The **Aizvērt maiņu** darbība tiek reģistrēta arī kā nefiskāla operācija fiskālās reģistrācijas pakalpojumā, izmantojot **NFS** tagu.
 
 ### <a name="data-export-and-audit"></a>Datu eksports un audits
 
-Visām darbībām jābūt parakstītām AR UZZ, lai nodrošinātu to integritāti, precizitāti un pabeigtību un palīdzētu novērst ierakstīto datu manipulāciju.
+Visi darījumi ir jāparaksta TSE, lai nodrošinātu to integritāti, autentiskumu un pilnīgumu un palīdzētu novērst manipulācijas ar reģistrētajiem datiem.
 
 > [!WARNING]
-> Var lietot tikai sertificētu CER INFORMĀCIJU. Informāciju par TO TSE veidiem un modeļiem, kas tiek atbalstīti EFR risinājumā, skatiet "EFR rokasgrāmata DE" dokumentu, kas ir publicēts \[\][EFSTA dokumentācijas](https://public.efsta.net/efr/) vietnē. Lai iegūtu informāciju par to, kā izvēlēties un iegūt DARBAUB, sazinieties ar [EFSTA](https://www.efsta.eu/at/kontakt).
+> Var izmantot tikai sertificētu TSE. Informāciju par TSE veidiem un modeļiem, kas tiek atbalstīti EFR risinājumā, skatiet "EFR rokasgrāmatā\[ DE\] " dokuments, kas publicēts [EFSTA dokumentācija](https://public.efsta.net/efr/) vietne. Lai iegūtu informāciju par to, kā izvēlēties un iegūt TSE, sazinieties ar [EFSTA](https://www.efsta.eu/at/kontakt).
 
-Noteikumiem Vācijā nepieciešams atbalsts DSFinV-K eksportam. EFR risinājumā var tikt izraisīts DSFinV-K eksports. Papildinformāciju par DSFinV-K eksportēšanu skatiet "EFR rokasgrāmataS DE" dokumentā, kas ir publicēts \[\][EFSTA dokumentācijas](https://public.efsta.net/efr/) vietnē.
+Saskaņā ar noteikumiem Vācijā ir nepieciešams atbalsts DSFinV-K eksportam. DSFinV-K eksportu var aktivizēt EFR risinājumā. Papildinformāciju par DSFinV-K eksportēšanu skatiet "EFR rokasgrāmatā\[ DE\] " dokuments, kas publicēts [EFSTA dokumentācija](https://public.efsta.net/efr/) vietne.
 
-### <a name="limitations-of-the-sample"></a>Parauga ierobežojumi
+### <a name="limitations-of-the-sample"></a>Izlases ierobežojumi
 
-Finanšu reģistrācijas pakalpojums atbalsta tikai scenārijus, kuros PVN ir iekļauts cenās. Tāpēc gan **veikaliem,** gan debitoriem opcijai Cenās ir **jāiestata** PVN opcija Jā.
+Fiskālās reģistrācijas pakalpojums atbalsta tikai scenārijus, kuros cenās ir iekļauts tirdzniecības nodoklis. Tāpēc, **Cenās iekļauts pārdošanas nodoklis** opcija ir jāiestata uz **Jā** gan veikaliem, gan klientiem.
 
-Finanšu pakalpojums neatbalsta situācijas, kad vienai darbības rindai tiek lietoti vairāki PVN kodi.
+Fiskālais pakalpojums neatbalsta situācijas, kad vienai transakcijas rindai tiek lietots vairāk nekā viens tirdzniecības nodokļa kods.
 
-Finanšu integrācijas struktūra neatbalsta pārdošanas piedāvājumus. Tāpēc šīs operācijas nav reģistrētas finanšu pakalpojumā.
+Fiskālās integrācijas sistēma neatbalsta pārdošanas kotācijas. Tāpēc šīs darbības nav reģistrētas fiskālā dienestā.
 
-## <a name="set-up-commerce-for-germany"></a>Iestatīt Commerce For Vācijai
+## <a name="set-up-commerce-for-germany"></a>Iestatiet Commerce for Germany
 
-Šajā sadaļā aprakstīti Commerce iestatījumi, kas ir specifiski un ieteicami Vācijai. Plašāku informāciju par iestatīšanu skatiet [Commerce mājas](../index.md) lapā.
+Šajā sadaļā ir aprakstīti tirdzniecības iestatījumi, kas ir īpaši un ieteicami Vācijai. Papildinformāciju par iestatīšanu skatiet [Tirdzniecības mājas lapa](../index.md).
 
-Lai lietotu Funkcionalitāti, kas ir raksturīga Vācijai, ir jānorāda šādi iestatījumi.
+Lai izmantotu Vācijai raksturīgo funkcionalitāti, ir jānorāda šādi iestatījumi.
 
-- Juridiskas personas primārajā adresē iestatiet lauku **Valsts/reģions** uz **DEU** (Vācija).
-- Katra Vācijas veikalā izvietotā veikala POS funkcionalitātes profilā iestatiet ISO koda lauku **uz** DE **·** (Vācija).
+- Juridiskās personas primārajā adresē lauku Valsts/reģions **iestatiet** uz **DEU** (Vācija).
+- Katra Vācijā izvietotā veikala POS funkcionalitātes profilā iestatiet **ISO koda** lauku uz **DE** (Vācija).
 
-Jānorāda arī sekojošos iestatījumus Vācijai. Pēc iestatīšanas pabeigšanas noteikti palaidiet atbilstošus sadales darbus.
+Jānorāda arī šādi Vācijas iestatījumi. Pēc uzstādīšanas pabeigšanas noteikti palaidiet atbilstošus sadales darbus.
 
-### <a name="set-up-vat-per-german-requirements"></a>Iestatīt PVN vācijas prasībām
+### <a name="set-up-vat-per-german-requirements"></a>Iestatīt PVN pēc Vācijas prasībām
 
-Veidojiet PVN kodus, PVN grupas un krājumu PVN grupas. Ir jāiestata arī PVN informācija par produktiem un pakalpojumiem. Papildinformāciju par TO, kā iestatīt un izmantot PVN līdzekļus, skatiet [PVN](../../finance/general-ledger/indirect-taxes-overview.md) pārskatā.
+Ir jāizveido PVN kodi, PVN grupas un krājumu PVN grupas. Ir arī jāiestata PVN informācija precēm un pakalpojumiem. Plašāku informāciju par PVN līdzekļu iestata un lietošanu skatiet [PVN pārskatā](../../finance/general-ledger/indirect-taxes-overview.md).
 
-Pārdošanas kvītīs var drukāt saīsinātu PVN koda kodu (piemēram, "A" vai "B"). Lai padarītu šo funkcionalitāti **pieejamu, iestatiet kodu** drukāšanai lauku **PVN kodu** lapā.
+Pārdošanas kvītīs var izdrukāt saīsinātu kodu PVN kodam (piemēram, "A" vai "B"). Lai padarītu šo funkcionalitāti pieejamu, lapā PVN kodi iestatiet **lauku** Kods **drukāšanai**.
 
-### <a name="set-up-stores"></a>Veikalu iestatīšana
+### <a name="set-up-stores"></a>Iestatīt veikalus
 
-Lapā **Visi veikali** atjauniniet veikala informāciju. Iestatiet arī šādus parametrus:
+**Lapā Visi veikali** atjauniniet veikala informāciju. Konkrēti, iestatiet šādus parametrus:
 
-- Laukā **PVN grupa norādiet PVN** grupu, kas jāizmanto pārdošanai noklusējuma debitoram.
-- Iestatiet opciju **Cenās PVN iekļaut** vērtību **Jā**.
-- Uzņēmuma **nosaukumam** laukā iestatiet nosaukumu. Šīs izmaiņas palīdz pārliecināties, vai uzņēmuma nosaukums ir redzams pārdošanas kvītī. Alternatīvi pārdošanas kvīts izkārtojumam var pievienot uzņēmuma nosaukumu kā brīvas formas tekstu.
-- Iestatiet **nodokļa identifikācijas koda** (NIK) lauku uzņēmuma identifikācijas numuram. Šīs izmaiņas palīdz pārliecināties, vai uzņēmuma identifikācijas numurs ir redzams pārdošanas kvītī. Alternatīvi uzņēmuma identifikācijas numuru var pievienot pārdošanas kvīts izkārtojumam kā brīvas formas tekstu.
+- Laukā **PVN grupa** norādiet PVN grupu, kas jāizmanto pārdošanai noklusētajam debitoram.
+- Iestatiet opciju **Cenas iekļaut PVN** uz **Jā**.
+- Iestatiet **lauku Nosaukums** uz uzņēmuma nosaukumu. Šīs izmaiņas palīdz nodrošināt, ka uzņēmuma nosaukums tiek parādīts pārdošanas kvītī. Varat arī pievienot uzņēmuma nosaukumu pārdošanas kvīts izkārtojumam kā brīvas formas tekstu.
+- Iestatiet **lauku Nodokļu identifikācijas numurs (NMIN)** uz uzņēmuma identifikācijas numuru. Šīs izmaiņas palīdz nodrošināt, ka uzņēmuma identifikācijas numurs tiek parādīts pārdošanas kvītī. Varat arī pievienot uzņēmuma identifikācijas numuru pārdošanas ieejas plūsmas izkārtojumam kā brīvas formas tekstu.
 
-### <a name="set-up-functionality-profiles"></a>Funkcionalitātes profilu iestatīšana
+### <a name="set-up-functionality-profiles"></a>Iestatīt funkcionalitātes profilus
 
-Iestatiet POS funkcionalitātes profilus. Kopsavilkuma cilnē Kvīšu numerācija iestatiet kvīšu numerāciju, izveidojot vai atjauninot pārdošanas, pārdošanas pasūtījuma un atgriešanas **saņemšanas** darbību **tipu** **·** **ierakstus**.
+Iestatiet POS funkcionalitātes profilus. **Kopsavilkuma cilnē Saņemšanas pavadzīmes numerācija** iestatiet saņemšanas pavadzīmes numerēšanu, izveidojot vai atjauninot ierakstus **pārdošanas**, **pārdošanas pasūtījuma** un **atgriezto preču** saņemšanas darbību tipiem.
 
-### <a name="configure-custom-fields-so-that-they-can-be-used-in-receipt-formats-for-sales-receipts"></a>Konfigurēt pielāgotos laukus, lai tos varētu izmantot pārdošanas ieejas plūsmu saņemšanas formātiem
+### <a name="configure-custom-fields-so-that-they-can-be-used-in-receipt-formats-for-sales-receipts"></a>Konfigurēt pielāgotus laukus, lai tos varētu izmantot ieejas plūsmas formātos pārdošanas ieejas plūsmām
 
-Varat konfigurēt valodas tekstu un pielāgotos laukus, kas tiek izmantoti POS ieejas plūsmas formātos. Tā lietotāja noklusējuma uzņēmumam, kurš izveido saņemšanas iestatījumus, jābūt tai pašai juridiskajai personai, kurai tiek veidoti valodas teksta iestatījumi. Alternatīvi vienādi valodas teksti ir jāizveido gan lietotāja noklusējuma uzņēmumā, gan veikala juridiskajā personām, kam ir izveidots iestatījums.
+Var konfigurēt valodas tekstu un pielāgotos laukus, kas tiek izmantoti POS saņemšanas formātos. Tā lietotāja noklusējuma uzņēmumam, kurš izveido ieejas plūsmas iestatījumus, jābūt tai pašai juridiskajai personai, kurā tiek izveidots valodas teksta iestatījums. Alternatīvi, gan lietotāja noklusējuma uzņēmumā, gan veikala juridiskajā personā, kurai ir izveidots iestatījums, ir jāizveido vieni un tie paši valodas teksti.
 
-Lapā **Valodas teksts** pievienojiet šādus ierakstus kvīts izkārtojumiem pielāgoto lauku etiķetēm. **Ievērojiet, ka tabulā** **parādītās valodas ID, teksta ID un teksta vērtības ir tikai** **piemēri**. Jūs varat mainīt tos tā, lai tie atbilstu jūsu prasībām. Taču jūsu izmantotajām teksta ID vērtībām ir jābūt unikālām un vienādām ar vai **lielākam** 900001.
+**Lapā Teksts** valodā pievienojiet šādus ierakstus ieejas plūsmu izkārtojumu pielāgoto lauku etiķetēm. Ņemiet vērā, **ka** tabulā norādītās vērtības Valodas ID **, Teksta ID** un **Teksts** ir tikai piemēri. Varat tos mainīt, lai tie atbilstu jūsu prasībām. Tomēr izmantotajām **teksta ID** vērtībām jābūt unikālām, un tām jābūt vienādām ar vai lielākām par 900001.
 
-Pievienojiet tālāk norādītās POS etiķetes **lapas Valodas teksts POS** **sadaļai**.
+Pievienojiet šādas POS etiķetes **valodas teksta** lapas POS **sadaļai**.
 
 | Valodas kods | Teksta ID | Teksts                                  |
 |-------------|---------|---------------------------------------|
-| en-ASV       | 900001  | QR kods                               |
-| en-ASV       | 900002  | Darbības ID                        |
-| en-ASV       | 900003  | Nodokļu mazumtirdzniecības drukāšanas kods                 |
-| en-ASV       | 900004  | Nodokļu summa (pārdošana)                    |
-| en-ASV       | 900005  | Nodokļu bāze (pārdošana)                     |
-| en-ASV       | 900006  | Transakcijas sākuma datums un laiks           |
-| en-ASV       | 900007  | Transakcijas beigu datums un laiks             |
-| en-ASV       | 900008  | Drošības elementa sērijas numurs |
-| en-ASV       | 900009  | Parakstu skaitītājs                     |
-| en-ASV       | 900010  | Pārbaudīt vērtību                           |
-| en-ASV       | 900011  | Informācijas ziņojums                          |
+| en-US       | 900001  | QR kods                               |
+| en-US       | 900002  | Darbības ID                        |
+| en-US       | 900003  | Nodokļu mazumtirdzniecības drukas kods                 |
+| en-US       | 900004  | Nodokļa summa (pārdošana)                    |
+| en-US       | 900005  | Nodokļa bāze (pārdošana)                     |
+| en-US       | 900006  | Transakcijas sākuma datums un laiks           |
+| en-US       | 900007  | Transakcijas beigu datums un laiks             |
+| en-US       | 900008  | Drošības elementa sērijas numurs |
+| en-US       | 900009  | Parakstu skaitītājs                     |
+| en-US       | 900010  | Pārbaudiet vērtību                           |
+| en-US       | 900011  | Informācijas ziņojums                          |
 
-Pielāgoto **lauku lapā pievienojiet šiem ierakstiem kvīts izkārtojumu** pielāgotajiem laukiem. Ievērojiet, **ka** uzraksta teksta ID vērtībām ir jāatbilst teksta ID **vērtībām**, kuras norādījāt **teksta lapā** Valoda.
+**Lapā Pielāgotie lauki** pievienojiet šādus ierakstus pielāgotajiem laukiem saņemšanas shēmu izkārtojumiem. Ņemiet vērā, **ka paraksta teksta ID** vērtībām jāatbilst **teksta ID** vērtībām, kas norādītas **lapā Valodas teksts**.
 
 | Nosaukums                            | Veids    | Uzraksta teksta ID |
 |---------------------------------|---------|-----------------|
-| QRCODE \_ DE                      | Saņemšana | 900001          |
-| TRANSACTIONID \_ DE               | Saņemšana | 900002          |
-| RETAILPRINTCODE \_ DE             | Saņemšana | 900003          |
-| SALESTAXAMOUNT \_ DE              | Saņemšana | 900004          |
-| SALESTAXBASIS \_ DE               | Saņemšana | 900005          |
-| TRANSACTIONSTARTDATETIME \_ DE    | Saņemšana | 900006          |
-| TRANSACTIONENDDATETIME \_ DE      | Saņemšana | 900007          |
-| SECURITYELEMENTSERIALNUMBER \_ DE | Saņemšana | 900008          |
-| SIGNCOUNTER \_ DE                 | Saņemšana | 900009          |
-| PARAKSTĪT \_ DE                        | Saņemšana | 900010          |
-| INFOMESSAGE \_ DE                 | Saņemšana | 900011          |
+| QRCODEDE\_                      | Saņemšana | 900001          |
+| TRANSACTIONIDDE\_               | Saņemšana | 900002          |
+| RETAILPRINTCODEDE\_             | Saņemšana | 900003          |
+| SALESTAXAMOUNTDE\_              | Saņemšana | 900004          |
+| SALESTAXBASISDE\_               | Saņemšana | 900005          |
+| TRANSACTIONSTARTDATETIMEDE\_    | Saņemšana | 900006          |
+| TRANSACTIONENDDATETIMEDE\_      | Saņemšana | 900007          |
+| SECURITYELEMENTSERIALNUMBERDE\_ | Saņemšana | 900008          |
+| SIGNCOUNTERDE\_                 | Saņemšana | 900009          |
+| SIGNDE\_                        | Saņemšana | 900010          |
+| INFOMESSAGEDE\_                 | Saņemšana | 900011          |
 
 > [!NOTE]
-> Ir svarīgi norādīt pareizos pielāgotos lauku nosaukumus, kā norādīts iepriekšējā tabulā. Nepareizs pielāgotā lauka nosaukums izraisīs ieejas plūsmās trūkstošo datu.
+> Ir svarīgi norādīt pareizus pielāgoto lauku nosaukumus, kā norādīts iepriekšējā tabulā. Nepareizs pielāgotā lauka nosaukums izraisīs trūkstošus datus kvītīs.
 
-### <a name="configure-receipt-formats"></a>Konfigurēt ieejas plūsmas formātus
+### <a name="configure-receipt-formats"></a>Konfigurēt kvīšu formātus
 
-Katram pieprasītam kvīts formātam mainiet lauka Drukāšanas režīms **vērtību uz** Vienmēr **drukāt**.
+Katram nepieciešamajam ieejas plūsmas formātam mainiet lauka Drukas izturēšanās **vērtību** uz **Vienmēr drukāt**.
 
-Pievienojiet atbilstošajām saņemšanas sadaļām šādus pielāgotos laukus kvīts formāta veidotājā. Ievērojiet, ka lauku nosaukumi atbilst valodas tekstiem, kas definēti iepriekšējā sadaļā.
+Saņemšanas formāta noformētājā atbilstošajām saņemšanas sadaļām pievienojiet šādus pielāgotus laukus. Ievērojiet, ka lauku nosaukumi atbilst iepriekšējā sadaļā definētajiem valodu tekstiem.
 
-- **Virsraksts:** pievienojiet šādus laukus:
+- **Galvene:** Pievienojiet šādus laukus:
 
-    - **Veikala nosaukuma un nodokļa identifikācijas koda lauki, kas tiek izmantoti uzņēmuma nosaukuma un identifikācijas numura** **drukāšanai** kvītīs. Vai arī varat pievienot uzņēmuma nosaukumu un identifikācijas numuru izkārtojumam kā brīvas formas tekstu.
-    - **Veikala** adreses, **datuma**, **laika 24** h, **kvīts** numura un reģistra **numura** lauki.
+    - **Laukos Veikala nosaukums** un **Nodokļu identifikācijas numurs**, kas tiek izmantoti, lai drukātu uzņēmuma nosaukumu un identifikācijas numuru kvītīs. Varat arī pievienot uzņēmuma nosaukumu un identifikācijas numuru izkārtojumam kā brīvas formas tekstu.
+    - **Veikala adrese**, **Datums**, **Laiks 24H**, **Kvīts numurs** un **Reģistrēt numuru** laukus.
 
-- **Rindas:** pievienojiet šādus laukus:
+- **Rindas:** Pievienojiet šādus laukus:
 
-    - **Preces nosaukuma** lauks
-    - **Daudzuma** lauks
-    - **Kopējā cena ar nodokļa** lauku
-    - **Lauks Nodokļu mazumtirdzniecības drukāšanas kods, kas tiek izmantots, lai izdrukātu saīsināto kodu, kas atbilst precei** piemērotajam PVN kodam
+    - **Krājuma nosaukuma** lauks
+    - **Lauks Daudzums**
+    - **Kopējā cena ar nodokļu** lauku
+    - **Lauks Nodokļu mazumtirdzniecības drukas kods**, ko izmanto, lai drukātu saīsināto kodu, kas atbilst krājumam kodam
 
 - **Kājene:** pievienojiet šādus laukus:
 
-    - Maksājuma lauki, tādējādi maksājuma summas katrai maksājuma metodei tiek izdrukātas. Piemēram, pievienojiet **laukus Norēķinu** nosaukums un Norēķinu summa vienai izkārtojuma **rindai**.
-    - Lauki lauku **grupā Nodokļu** nodalīšana. Visi šīs grupas lauki jādrukā uz vienas atsevišķas rindas.
+    - Maksājumu lauki, lai tiktu izdrukātas katra maksājuma veida maksājuma summas. Piemēram, pievienojiet **laukus Norēķinu nosaukums** un **Norēķinu summa** vienai izkārtojuma rindai.
+    - **Lauki lauku grupā Nodokļu sadalīšana**. Visi šīs lauku grupas lauki jādrukā vienā atsevišķā rindā.
 
-        - **Nodokļa ID lauks, kas ir standarta lauks, kas ļauj drukāt PVN kopsavilkumu** katram PVN kodam. Lauks jāpievieno jaunai rindai.
-        - **Lauks** Nodokļa procenti, kas ir standarta lauks, ko lieto, lai drukātu PVN koda efektīvo nodokļu likmi.
-        - **Nodokļu bāzes (pārdošanas) lauks, kuru izmanto, lai drukātu saņemšanas kopējo skaidras naudas pārdošanas summu** PVN kodam. Priekšapmaksas un dāvanu karšu operācijas nav iekļautas.
-        - **Pvn summas (pārdošanas) lauks, kas tiek lietots, lai drukātu kvīts nodokļu summu par pārdošanu skaidrā naudā** PVN kodam.
-        - **Lauks Nodokļu mazumtirdzniecības drukāšanas kods, kas tiek izmantots, lai** izdrukātu saīsināto kodu, kas atbilst PVN kodam.
+        - **Lauks PVN ID**, kas ir standarta lauks, kas ļauj drukāt PVN kopsavilkumu katram PVN kodam. Lauks jāpievieno jaunai rindai.
+        - **Lauks Nodokļa procenti**, kas ir standarta lauks, kuru izmanto, lai drukātu PVN koda efektīvo nodokļa likmi.
+        - **lauks PVN bāze (pārdošana),** kas tiek izmantots, lai drukātu PVN koda kopējo kases pārdošanas summu. Priekšapmaksa un dāvanu karšu operācijas nav iekļautas.
+        - **PVN summa (PVN)** summa, kas tiek izmantota, lai drukātu PVN koda kases pārdošanas ieejas nodokļa summu.
+        - **Lauks Nodokļu mazumtirdzniecības drukas kods**, kas tiek izmantots, lai drukātu saīsināto kodu, kas atbilst PVN kodam.
 
-    - Lauki, kuros ir iekļauti droši darbību dati, ko atgriezis finanšu reģistrācijas pakalpojums:
+    - Lauki, kuros ir droši darbības dati, kurus atgriež finanšu reģistrācijas pakalpojums:
 
-        - **Darbības ID** lauks, kas norāda kases darbības numuru finanšu reģistrācijas pakalpojumā
-        - **Transakcijas sākuma datuma un laika** lauks
-        - **Transakcijas beigu datuma laika** lauks
-        - **Drošības elementa lauka sērijas** numurs
+        - **Darbības ID**, kas identificē kases darbības numuru finanšu reģistrācijas pakalpojumā
+        - **Darbības sākuma datuma laika** lauks
+        - **Darbības beigu datuma laika** lauks
+        - **Drošības elementa** lauka sērijas numurs
         - **Paraksta skaitītāja** lauks
         - **Pārbaudīt vērtības** lauku
-        - **QR koda** lauks, ko lieto, lai drukātu atsauci uz reģistrēto kases darbību QR koda formā
+        - **QR koda** lauks, ko izmanto, lai drukātu atsauci uz reģistrēto kases darījumu QR koda veidā
 
         > [!NOTE]
-        > **QR koda** vērtība tiek izgūta no finanšu reģistra atbildes. EFR atgriež QR kodu tā atbildē tikai tad, ja atribūtu lauka vērtība EFR konfigurācijā **ir** aprakstīta EFSTA dokumentācijā. QR koda formāts Atribūtu **laukā EFR konfigurācijā** jāiestata uz **BMP**.
+        > **QR koda** vērtība tiek izgūta no finanšu reģistra atbildes. EFR atgriež QR kodu savā atbildē tikai tad, ja efsta dokumentācijā ir aprakstīta EFR konfigurācijas lauka Atribūti **vērtība**. QR koda formātam **EFR konfigurācijas laukā Atribūti** jābūt iestatītam uz **BMP**.
 
-    - **Informācijas ziņojuma** lauks, lai paziņojumus no fiskālās reģistrācijas pakalpojuma varētu parādīt kvītīs. Piemēram, ja paraksta ierīce tiek bojāta, uz kvīts var drukāt īpašu tekstu.
+    - **Informācijas ziņojuma** lauks, lai saņemšanas pavadzīmēs varētu parādīt paziņojumu ziņojumus no finanšu reģistrācijas pakalpojuma. Piemēram, ja ir bojāta paraksta ierīce, kvītī var izdrukāt īpašu tekstu.
 
-Papildinformāciju par to, kā strādāt ar kvīšu formātiem, [skatiet sadaļā Kvīšu formātu iestatīšana un](../receipt-templates-printing.md) noformēšana.
+Papildinformāciju par to, kā strādāt ar kvīšu formātiem, skatiet [set up and design receipt formats](../receipt-templates-printing.md).
 
-## <a name="set-up-fiscal-integration-for-germany"></a>Iestatīt Fiskālo integrāciju Vācijai
+## <a name="set-up-fiscal-integration-for-germany"></a>Iestatīt vācijas finanšu integrāciju
 
-Fiskālo reģistrācijas pakalpojumu integrācijas paraugs Vācijai ir balstīts uz [fiskālās integrācijas](fiscal-integration-for-retail-channel.md) funkcionalitāti un ir daļa no Retail SDK. Paraugs atrodas Solutions repository mapē **src \\ FiscalIntegration \\ Efr**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (piemēram, [paraugs release/9.33).](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr) Paraugs sastāv no fiskālā dokumenta nodrošinātāja, kas ir Commerce Runtime () paplašinājums () un finanšu savienotājs, kas ir [Commerce](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices) Hardware Station CRT paplašinājums. Papildinformāciju par to, kā izmantot retail SDK, skatiet [mazumtirdzniecības SDK arhitektūrā](../dev-itpro/retail-sdk/retail-sdk-overview.md) un [būvējuma konveijera iestatīšana neatkarīgam iepakojuma SDK](../dev-itpro/build-pipeline.md).
+Vācijas finanšu reģistrācijas pakalpojumu integrācijas izlase ir balstīta uz fiskālās [integrācijas funkcionalitāti](fiscal-integration-for-retail-channel.md) un ir daļa no mazumtirdzniecības SDK. Paraugs atrodas **risinājumu\\ repozitorija mapē \\ srcFiscalIntegrationEfr**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (piemēram, [paraugs laidienā/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr)). Paraugs [sastāv](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskālo dokumentu nodrošinātāja, kas ir Commerce izpildlaika paplašinājums (CRT), un fiskālais savienotājs, kas ir Commerce Hardware Station paplašinājums. Papildinformāciju par to, kā izmantot mazumtirdzniecības SDK, skatiet [Mazumtirdzniecības SDK arhitektūra](../dev-itpro/retail-sdk/retail-sdk-overview.md) un [Iestatiet neatkarīgā iepakojuma SDK izveides konveijeru](../dev-itpro/build-pipeline.md).
 
 > [!WARNING]
-> Jaunā neatkarīgā iepakojuma un paplašinājuma modeļa ierobežojumu dēļ to [pašlaik nevar izmantot šim](../dev-itpro/build-pipeline.md) fiskālās integrācijas parauga modelim. Jums ir jāizmanto iepriekšējā Retail SDK versija izstrādātāja virtuālajā datorā (VM) pakalpojumos Microsoft Dynamics Lifecycle Services (LCS). Papildinformāciju skatiet Vācijas [finanšu integrācijas parauga izvietošanas vadlīnijās (mantojuma)](emea-deu-fi-sample-sdk.md).
+> Ierobežojumu dēļ [jauns neatkarīgs iepakojuma un pagarinājuma modelis](../dev-itpro/build-pipeline.md), to pašlaik nevar izmantot šim fiskālās integrācijas paraugam. Izstrādātāja virtuālajā mašīnā (VM) ir jāizmanto iepriekšējā mazumtirdzniecības SDK versija Microsoft Dynamics Dzīves cikla pakalpojumi (LCS). Plašāku informāciju skatiet [Guidelines for the Fiscal Integration sample for Germany (legacy)](emea-deu-fi-sample-sdk.md).
 >
-> Atbalsts jaunajam neatkarīgajam iepakojuma un paplašinājuma modelim finanšu integrācijas paraugos tiek plānots turpmākajām versijām.
+> Atbalsts jaunajam neatkarīgajam iepakojuma un paplašināšanas modelim fiskālās integrācijas paraugiem ir plānots vēlākās versijās.
 
-Izpildiet finanšu integrācijas iestatīšanas soļus, kā [aprakstīts Commerce kanālu finanšu integrācijas iestatīšanai:](setting-up-fiscal-integration-for-retail-channel.md)
+Izpildiet finanšu integrācijas iestatīšanas soļus, kā aprakstīts sadaļā [Iestatīt finanšu integrāciju Commerce kanāliem](setting-up-fiscal-integration-for-retail-channel.md):
 
-1. [Iestatīt finanšu reģistrācijas](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process) procesu. Atzīmējiet arī fiskālās reģistrācijas procesa iestatījumus, kas ir [raksturīgi šim fiskālās reģistrācijas pakalpojuma integrācijas](#set-up-the-registration-process) paraugam.
-1. [Iestatīt kļūdu apstrādes](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings) iestatījumus.
+1. [Iestatiet finanšu reģistrācijas procesu](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process). Ņemiet vērā arī šīs finanšu reģistrācijas pakalpojuma integrācijas izlasei [raksturīgos](#set-up-the-registration-process) fiskālās reģistrācijas procesa iestatījumus.
+1. [Iestatiet kļūdu apstrādes iestatījumus](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 
     > [!WARNING]
-    > Finanšu integrācijas struktūras kļūdu apstrādes iespējas, iespējams, nav pilnībā saskaņotas ar vietējiem finanšu noteikumiem.
+    > Iespējams, ka fiskālās integrācijas sistēmas kļūdu apstrādes iespējas nav pilnībā saskaņotas ar vietējiem finanšu noteikumiem.
     >
-    > - Ieteicams atstāt finanšu reģistrācijas procesa lapā opciju Turpināt par kļūdu ir izslēgta, jo visām darbībām ir jābūt pareizi reģistrētam pat tad, ja pirmais fiskālās reģistrācijas **mēģinājums** **neizdevās**.
-    > - Pirms slēdzat fiskālās reģistrācijas procesa lapā opciju Izlaist vai Iezīmēt kā reģistrētu, šīs fiskālās reģistrācijas procesa izmaiņas ir apspriediet ar savu nodokļu konsultantu vai **vietējo** nodokļu **·** **biroju**.
+    > - Ieteicams lapā Fiskālās reģistrācijas process **atstāt opciju** **Turpināt kļūdu** izslēgt, jo visām darbībām jābūt pareizi reģistrētām, pat ja pirmais fiskālās reģistrācijas mēģinājums nav izdevies.
+    > - **Pirms izvēles Izvēles Izlaist** vai **Atzīmēt kā reģistrētu** **lapā Fiskālās reģistrācijas process**, šīs izmaiņas finanšu reģistrācijas procesā ir jāapspriež ar savu nodokļu konsultantu vai vietējo nodokļu iestādi.
 
-1. [Aktivizējiet atliktās finanšu reģistrācijas manuālu](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration) izpildi.
-1. [Konfigurējiet kanāla](#configure-channel-components) komponentus.
+1. [Iespējot atliktās finanšu reģistrācijas](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration) manuālu izpildi.
+1. [Konfigurējiet kanāla komponentus](#configure-channel-components).
 
 ### <a name="set-up-the-registration-process"></a>Iestatīt reģistrācijas procesu
 
-Lai iespējotu reģistrācijas procesu, izpildiet šīs darbības, lai iestatītu programmu Commerce Headquarters. Papildinformāciju skatiet [sadaļā Komercijas kanālu finanšu integrācijas](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process) iestatīšana.
+Lai iespējotu reģistrācijas procesu, veiciet šīs darbības, lai iestatītu Commerce headquarters. Plašāku informāciju skatiet [Set up the fiscal integration for Commerce channels](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
 
-1. Lejupielādēt konfigurācijas failus finanšu dokumentu nodrošinātājam un finanšu savienotājam:
+1. Lejupielādēt finanšu dokumentu nodrošinātāja un finanšu savienotāja konfigurācijas failus:
 
-    1. Atveriet risinājumu [Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) repozitoriju.
-    1. Atlasiet pareizu versijas izlaidi atbilstoši SDK/programmas versijai (piemēram, **[izlaidums/9,33).](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33)**
-    1. Atvērt **src \> FiscalIntegration \>** efr.
-    1. Lejupielādējiet finanšu dokumenta nodrošinātāja konfigurācijas failu **konfigurācijā \> DocumentProviders \> DocumentProviderFiscalEFRSampleGermany.xml** (piemēram, fails laidienam/9,33). [...](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/Efr/Configurations/DocumentProviders/DocumentProviderFiscalEFRSampleGermany.xml)
-    1. Lejupielādējiet finanšu savienotāja konfigurācijas failu **Konfigurācijas \> savienotājos \> ConnectorEFRSample.xml** (piemēram, fails [laidienam/9,33).](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/Efr/Configurations/Connectors/ConnectorEFRSample.xml)
+    1. [Dynamics 365 Commerce Atveriet risinājumu](https://github.com/microsoft/Dynamics365Commerce.Solutions/) repozitoriju.
+    1. Atlasiet pareizu laidiena filiāles versiju atbilstoši SDK/lietojumprogrammas versijai (piemēram, **[laidiens/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33)**).
+    1. Atveriet **src \> FiscalIntegration \> Efr**.
+    1. Lejupielādējiet fiskālā dokumenta nodrošinātāja konfigurācijas failu vietnē **Konfigurācijas \> Dokumentu nodrošinātāji \> DocumentProviderFiscalEFRSampleGermany.xml** (piemēram, [izlaišanas fails/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/Efr/Configurations/DocumentProviders/DocumentProviderFiscalEFRSampleGermany.xml)).
+    1. Lejupielādējiet fiskālā savienotāja konfigurācijas failu vietnē **Konfigurācijas \> Savienotāji \> SavienotājsEFRSample.xml** (piemēram, [izlaišanas fails/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/Efr/Configurations/Connectors/ConnectorEFRSample.xml)).
 
     > [!WARNING]
-    > Jaunā neatkarīgā iepakojuma un paplašinājuma modeļa ierobežojumu dēļ to [pašlaik nevar izmantot šim](../dev-itpro/build-pipeline.md) fiskālās integrācijas parauga modelim. Jums ir jāizmanto iepriekšējā Retail SDK versija izstrādātājam VM LCS. Šī fiskālās integrācijas parauga konfigurācijas faili atrodas tālākmintās Retail SDK mapēs LCS izstrādātāja VM:
+    > Ierobežojumu dēļ [jauns neatkarīgs iepakojuma un pagarinājuma modelis](../dev-itpro/build-pipeline.md), to pašlaik nevar izmantot šim fiskālās integrācijas paraugam. Iepriekšējā mazumtirdzniecības SDK versija ir jāizmanto izstrādātāja VM LCS. Šī fiskālās integrācijas parauga konfigurācijas faili atrodas šādās mazumtirdzniecības SDK mapēs izstrādātāja VM LCS:
     >
-    > - **Finanšu dokumentu nodrošinātāja konfigurācijas fails:** RetailSdk \\ SampleExtensions \\ CommerceRuntime \\ Extensions.DocumentProvider.EFRSample \\ konfigurācijas \\ documentProviderFiscalEFRSampleGermany.xml
-    > - **Finanšu savienotāja konfigurācijas fails:** RetailSdk \\ SampleExtensions \\ HardwareStation \\ Extension.EFRSample \\ Konfigurācijas \\ ConnectorEFRSample.xml
+    > - **Fiskālo dokumentu nodrošinātāja konfigurācijas fails:** RetailSdk\\ Extensions paraugi\\ CommerceRuntime\\ Extensions.DocumentProvider.EFRSample\\ Konfigurācija\\ DocumentProviderFiscalEFRSampleGermany.xml
+    > - **Fiskālā savienotāja konfigurācijas fails:** RetailSdk\\ Extensions paraugi\\ HardwareStation\\ Paplašinājums.EFRSample\\ Konfigurācija\\ SavienotājsEFRSample.xml
     > 
-    > Atbalsts jaunajam neatkarīgajam iepakojuma un paplašinājuma modelim finanšu integrācijas paraugos tiek plānots turpmākajām versijām.
+    > Atbalsts jaunajam neatkarīgajam iepakojuma un paplašināšanas modelim fiskālās integrācijas paraugiem ir plānots vēlākās versijās.
 
-1. Dodieties uz **Mazumtirdzniecība un tirdzniecība \> Headquarters iestatīšana \> Parametri \> Commerce koplietotie parametri**. Cilnē **Vispārīgi** iestatiet opciju Aktivizēt fiskālo integrāciju **kā** **Jā**.
-1. Dodieties uz **Retail un Commerce Channel \> iestatīšanas finanšu integrācijas finanšu dokumentu nodrošinātājiem un \>\>** ielādējiet iepriekš lejupielādēto fiskālā dokumenta nodrošinātāja konfigurācijas failu.
-1. Dodieties uz **mazumtirdzniecības un commerce kanālu iestatīšanas finanšu integrācijas finanšu savienotājiem un \>\>\>** ielādējiet agrāk lejupielādēto fiskālā savienotāja konfigurācijas failu.
-1. Pārejiet uz **Sadaļu Mazumtirdzniecības \> un Commerce Channel Setup Finanšu integrācijas \>\> savienotāja funkcionālie** profili. Izveidojiet jaunu savienotāja funkcionalitātes profilu. Atlasiet dokumentu nodrošinātāju un iepriekš ielādēto savienotāju. Pēc vajadzības [atjauniniet datu](#default-data-mapping) kartēšanas iestatījumus.
-1. Pārejiet uz **Retail un Commerce Channel setup Fiscal integration Connector \>\>\> tehniskajiem** profiliem. Izveidojiet jaunu savienotāja tehnisko profilu un atlasiet iepriekš ielādēto finanšu savienotāju. Pēc vajadzības [atjauniniet](#fiscal-connector-settings) savienotāja iestatījumus.
-1. Pārejiet uz **sadaļu \> Mazumtirdzniecības un Commerce kanālu \> iestatīšanas finanšu integrācijas finanšu \> savienotāja** grupas. Izveidojiet jaunu finanšu savienotāja grupu iepriekš izveidotajā savienotāja funkcionālajā profilā.
-1. Pārejiet uz **mazumtirdzniecības un Commerce \> channel \> iestatīšanas finanšu integrācijas \> finanšu reģistrācijas** procesiem. Izveidojiet jaunu fiskālās reģistrācijas procesu un fiskālās reģistrācijas procesa soli un atlasiet iepriekš izveidoto finanšu savienotāja grupu.
-1. Dodieties uz sadaļu **Retail un Commerce \> Kanāla iestatīšana \> POS iestatīšana \> POS profili \> Funkcionalitātes profili**. Atlasiet funkcionalitātes profilu, kas ir saistīts ar veikalu, kurā ir jāaktivizē reģistrācijas process. Kopsavilkuma **cilnē Finanšu reģistrācijas process** atlasiet iepriekš izveidoto finanšu reģistrācijas procesu.
-1. Pārejiet uz sadaļu **Mazumtirdzniecība un komercija \> Kanāla iestatīšana \> POS iestatīšana \> POS profili \> Aparatūras profili**. Atlasiet aparatūras profilu, kas ir saistīts ar aparatūras staciju, ar kuru tiks pievienots fiskālais printeris. Kopsavilkuma cilnē **Finanšu** perifērijas ierīces atlasiet iepriekš izveidoto savienotāja tehnisko profilu.
-1. Atveriet sadales grafiku (Mazumtirdzniecības un Commerce Retail un Commerce IT sadales grafiks) un atlasiet darbus **\>\>** **1070 un** **1090,** lai pārsūtītu datus uz kanāla datu bāzi.
+1. Dodieties uz **Mazumtirdzniecība un tirdzniecība \> Headquarters iestatīšana \> Parametri \> Commerce koplietotie parametri**. Cilnē **Vispārīgi** iestatiet opciju **Iespējot finanšu integrāciju** uz **Jā**.
+1. Dodieties uz **Mazumtirdzniecības un tirdzniecības \> kanāla iestatījumu \> Finanšu integrācija \> Finanšu dokumentu nodrošinātāji** un ielādējiet iepriekš lejupielādēto finanšu dokumentu nodrošinātāja konfigurācijas failu.
+1. Dodieties uz **Retail and Commerce \> Channel setup \> Fiscal integration \> Fiscal connectors un ielādējiet iepriekš lejupielādēto finanšu savienotāja konfigurācijas** failu.
+1. Dodieties uz **Retail and Commerce \> Channel setup \> Fiscal integration \> Connector funkcionālie profili**. Izveidojiet jaunu savienotāja funkcionālo profilu. Atlasiet dokumentu nodrošinātāju un savienotāju, ko ielādējāt iepriekš. Pēc vajadzības atjauniniet [datu kartēšanas iestatījumus](#default-data-mapping).
+1. Dodieties uz **Retail and Commerce \> Channel setup \> Fiscal integration \> Connector technical profiles**. Izveidojiet jaunu savienotāja tehnisko profilu un atlasiet iepriekš ielādēto finanšu savienotāju. Atjauniniet [savienotāja iestatījumi](#fiscal-connector-settings) kā prasīts.
+1. Iet uz **Mazumtirdzniecība un tirdzniecība \> Kanāla iestatīšana \> Fiskālā integrācija \> Fiskālo savienotāju grupas**. Izveidojiet jaunu fiskālo savienotāju grupu savienotāja funkcionālajam profilam, ko izveidojāt iepriekš.
+1. Iet uz **Mazumtirdzniecība un tirdzniecība \> Kanāla iestatīšana \> Fiskālā integrācija \> Fiskālās reģistrācijas procesi**. Izveidojiet jaunu fiskālās reģistrācijas procesu un fiskālā reģistrācijas procesa darbību un atlasiet iepriekš izveidoto fiskālo savienotāju grupu.
+1. Dodieties uz sadaļu **Retail un Commerce \> Kanāla iestatīšana \> POS iestatīšana \> POS profili \> Funkcionalitātes profili**. Izvēlieties funkcionalitātes profilu, kas ir saistīts ar veikalu, kurā jāaktivizē reģistrācijas process. Uz **Fiskālās reģistrācijas process** FastTab atlasiet fiskālās reģistrācijas procesu, ko izveidojāt iepriekš.
+1. Pārejiet uz sadaļu **Mazumtirdzniecība un komercija \> Kanāla iestatīšana \> POS iestatīšana \> POS profili \> Aparatūras profili**. Atlasiet aparatūras profilu, kas ir saistīts ar aparatūras staciju, kurai tiks pievienots fiskālais printeris. Uz **Fiskālās perifērijas ierīces** FastTab atlasiet savienotāja tehnisko profilu, ko izveidojāt iepriekš.
+1. Atveriet izplatīšanas grafiku (**Mazumtirdzniecība un tirdzniecība \> Mazumtirdzniecības un tirdzniecības IT \> Izplatīšanas grafiks**) un atlasiet darbus **1070** un **1090** lai pārsūtītu datus uz kanālu datu bāzi.
 
 #### <a name="default-data-mapping"></a>Noklusējuma datu kartēšana
 
-Tālāk redzamais noklusējuma datu kartējums ir ietverts finanšu dokumenta nodrošinātāja konfigurācijā, kas ir nodrošināta kā daļa no fiskālās integrācijas parauga:
+Fiskālā dokumenta nodrošinātāja konfigurācijā, kas tiek nodrošināta kā daļa no fiskālās integrācijas parauga, ir iekļauta šāda noklusējuma datu kartēšana:
 
-- **Norēķinu veida kartēšana — maksājuma metožu kartēšana uz** PayG (maksājumu grupas) atribūta vērtībām pieprasījumos, **kas tiek nosūtīti finanšu** pakalpojumam. Šeit ir noklusējuma kartēšana:
+- **Konkursa veidu kartēšana** – Maksājumu metožu kartēšana ar vērtībām **PayG** (maksājumu grupa) atribūts pieprasījumos, kas tiek nosūtīti fiskālajam dienestam. Šeit ir noklusējuma kartēšana:
 
     ```
     1: 0; 2: 1; 3: 3; 4: 8; 5: 2; 6: 0; 7: 7; 8: 6; 9: 0; 10: 8; 11: 1
     ```
 
-    Pirmais komponents katrā pārī attiecas uz veikalam iestatīto maksāšanas metodi. Otrais komponents parāda atbilstošo maksājumu grupu, ko atbalsta EFR finanšu reģistrācijas pakalpojums. Plašāku informāciju par maksājumu grupām, ko EFR atbalsta Vācijai, skatiet [EFR](https://public.efsta.net/efr/) atsauci.
+    Pirmais komponents katrā pārī apzīmē veikalam iestatīto maksājuma veidu. Otrais komponents apzīmē atbilstošo maksājumu grupu, kuru atbalsta EFR fiskālās reģistrācijas pakalpojums. Papildinformāciju par maksājumu grupām, kuras EFR atbalsta Vācijā, skatiet vietnē [EFR atsauce](https://public.efsta.net/efr/).
 
-    Maksājuma metožu parauga kartējums atbilst standarta demonstrācijas datos konfigurētajām maksāšanas metodēm.
+    Maksājumu metožu kartējuma paraugs atbilst veikala maksājumu metodēm, kas ir konfigurētas standarta demonstrācijas datos.
 
     | Maksāšanas veids | Maksāšanas metodes nosaukums |
     |----------------|---------------------|
@@ -326,80 +326,80 @@ Tālāk redzamais noklusējuma datu kartējums ir ietverts finanšu dokumenta no
     | 8              | Dāvanu karte           |
     | 9              | Norēķina noņemšana/mainīšana |
     | 10.             | Lojalitātes programmas kartes       |
-    | 11             | Nevietālas pārbaudes    |
+    | 11             | Nevietējās pārbaudes    |
 
-    Tāpēc parauga kartējums ir jāpārveidojiet saskaņā ar maksājumu metodēm, kas ir konfigurētas programmā.
+    Tāpēc jums ir jāmaina kartējuma paraugs atbilstoši jūsu lietojumprogrammā konfigurētajām maksājumu metodēm.
 
-- **Iekļaut debitora datus - ja šis parametrs ir ieslēgts, fiskālā pakalpojuma pieprasījumos būs iekļauta debitora informācija, piemēram, nosaukumi un adreses, gadījumos, kad debitoram tiek** pievienots darbība.
-- **Pievienotās vērtības nodokļa (PVN) likmju kartēšana - to nodokļu procentu vērtību kartēšana, kas iestatīti PVN kodiem, uz** **vērtībām TaxG (nodokļu grupa) atribūtu pieprasījumos, kas tiek sūtīti finanšu** pakalpojumiem. Šeit ir noklusējuma kartēšana:
+- **Iekļaujiet klienta datus** – Ja šis parametrs ir ieslēgts, fiskālā dienesta pieprasījumos būs ietverta klienta informācija, piemēram, vārdi un adreses, gadījumos, kad darījumam tiek pievienots klients.
+- **Pievienotās vērtības nodokļa (PVN) likmju kartēšana** – Tirdzniecības nodokļa kodiem iestatīto nodokļu procentu vērtību kartēšana ar vērtībām **NodoklisG** (nodokļu grupa) atribūts pieprasījumos, kas tiek nosūtīti fiskālajam dienestam. Šeit ir noklusējuma kartēšana:
 
     ```
     A: 19.00; B: 7.00; C: 10.70; D: 5.50; E: 0.00
     ```
 
-    Pirmais komponents katrā pārī norāda PVN nodokļu grupu, ko atbalsta EFR finanšu reģistrācijas pakalpojums. Otra sastāvdaļa norāda atbilstošo PVN likmi. Plašāku informāciju par PVN nodokļu grupām, ko EFR atbalsta Vācijai, skatiet [EFR](https://public.efsta.net/efr/) atsauci.
+    Katra pāra pirmā sastāvdaļa ir PVN nodokļu grupa, kuru atbalsta EFR fiskālās reģistrācijas pakalpojums. Otrā sastāvdaļa atspoguļo atbilstošo PVN likmi. Papildinformāciju par PVN nodokļu grupām, kuras EFR atbalsta Vācijā, skatiet vietnē [EFR atsauce](https://public.efsta.net/efr/).
 
-- **Dāvanu karšu un depozītu nodokļu grupa – TaxG atribūta vērtība pieprasījumos, kas tiek sūtīti finanšu pakalpojumiem, balstoties uz operācijām, kurās ir iesaistītas dāvanu kartes** **vai** depozītus. Šeit ir noklusējuma kartēšana:
+- **Nodokļu grupa dāvanu kartēm un noguldījumiem** – vērtība **NodoklisG** atribūts pieprasījumos, kas tiek nosūtīti fiskālajam dienestam, pamatojoties uz darbībām, kas saistītas ar dāvanu kartēm vai noguldījumiem. Šeit ir noklusējuma kartēšana:
 
     ```
     G
     ```
 
-- **Nodokļu grupa neapliekamiem PVN – TaxG atribūta vērtība pieprasījumos, kas tiek nosūtīti finanšu pakalpojumiem, pamatojoties uz darbībām, kas ir atbrīvotas** **no nodokļu** saistībām. Šeit ir noklusējuma kartēšana:
+- **Nodokļu grupa bez PVN** – vērtība **NodoklisG** atribūts pieprasījumos, kas tiek nosūtīti fiskālajam dienestam, pamatojoties uz darbībām, kas ir atbrīvotas no nodokļu saistībām. Šeit ir noklusējuma kartēšana:
 
     ```
     F
     ```
 
 > [!NOTE]
-> Nodokļu iestatījumi noklusējuma datu kartēšanā ir atbildīgi par nodokļu iestatījumu atbilstību sistēmai un nodokļu grupām EFR pakalpojumā. PVN grupas var drukāt kvītīs tikai tad, ja **PVN kodu lapā ir** iestatīts **drukāšanas lauka** kods.
+> Noklusējuma datu kartēšanas nodokļu iestatījumi ir atbildīgi par nodokļu iestatījumu saskaņošanu sistēmā un nodokļu grupām EFR pakalpojumā. Nodokļu grupas var drukāt uz čekiem tikai tad, ja **Kods drukāšanai** lauks ir iestatīts uz **Pārdošanas nodokļa kodi** lappuse.
 
-#### <a name="fiscal-connector-settings"></a>Finanšu savienotāja iestatījumi
+#### <a name="fiscal-connector-settings"></a>Fiskālā savienotāja iestatījumi
 
-Šādi iestatījumi ir iekļauti finanšu savienotāja konfigurācijā, kas tiek nodrošināta kā daļa no fiskālās integrācijas parauga:
+Tālāk norādītie iestatījumi ir iekļauti fiskālā savienotāja konfigurācijā, kas tiek nodrošināta kā daļa no fiskālās integrācijas parauga.
 
-- **Galapunkta** adrese – finanšu reģistrācijas pakalpojuma URL.
-- **Taimauts** – laika daudzums milisekundēs, ko finanšu savienotājs gaidīs uz finanšu reģistrācijas pakalpojuma atbildi.
-- **Rādīt finanšu reģistrācijas paziņojumus – šis karodziņš kontrolē, vai tiek rādīti fiskālās reģistrācijas** pakalpojuma atgriešanas paziņojumi operatoram.
+- **Galapunkta adrese** – Fiskālās reģistrācijas pakalpojuma URL.
+- **Pārtraukums** — Laiks milisekundēs, cik ilgi fiskālais savienotājs gaidīs atbildi no fiskālās reģistrācijas pakalpojuma.
+- **Rādīt nodokļu reģistrācijas paziņojumus** – Šis karodziņš nosaka, vai operatoram ir jāparāda paziņojumi, ko nosūta nodokļu reģistrācijas pakalpojums.
 
-### <a name="configure-channel-components"></a>Konfigurēt kanāla komponentus
+### <a name="configure-channel-components"></a>Konfigurējiet kanāla komponentus
 
 > [!WARNING]
-> Jaunā neatkarīgā iepakojuma un paplašinājuma modeļa ierobežojumu dēļ to [pašlaik nevar izmantot šim](../dev-itpro/build-pipeline.md) fiskālās integrācijas parauga modelim. Jums ir jāizmanto iepriekšējā Retail SDK versija izstrādātājam VM LCS. Papildinformāciju skatiet Vācijas [finanšu integrācijas parauga izvietošanas vadlīnijās (mantojuma)](emea-deu-fi-sample-sdk.md).
+> Ierobežojumu dēļ [jauns neatkarīgs iepakojuma un pagarinājuma modelis](../dev-itpro/build-pipeline.md), to pašlaik nevar izmantot šim fiskālās integrācijas paraugam. Iepriekšējā mazumtirdzniecības SDK versija ir jāizmanto izstrādātāja VM LCS. Plašāku informāciju skatiet [Guidelines for the Fiscal Integration sample for Germany (legacy)](emea-deu-fi-sample-sdk.md).
 >
-> Atbalsts jaunajam neatkarīgajam iepakojuma un paplašinājuma modelim finanšu integrācijas paraugos tiek plānots turpmākajām versijām.
+> Atbalsts jaunajam neatkarīgajam iepakojuma un paplašināšanas modelim fiskālās integrācijas paraugiem ir plānots vēlākās versijās.
 
-#### <a name="set-up-the-development-environment"></a>Iestatīt izstrādes vidi
+#### <a name="set-up-the-development-environment"></a>Iestatiet izstrādes vidi
 
-Lai iestatītu izstrādes vidi un paplašinātu paraugu ņemšanas, veiciet šādus soļus.
+Lai iestatītu izstrādes vidi, lai pārbaudītu un paplašinātu paraugu, veiciet šīs darbības.
 
-1. Lejupielādējiet Solutions [Dynamics 365 Commerce repozitoriju vai](https://github.com/microsoft/Dynamics365Commerce.Solutions) lejupielādējiet to. Atlasiet pareizu filiāles versiju atbilstoši SDK/programmas versijai. Papildinformāciju skatiet lejupielādes [Retail SDK paraugos un atsauces pakotnēs no GitHub un NuGet](../dev-itpro/retail-sdk/sdk-github.md).
-1. Atveriet EFR risinājumu **dynamics365Commerce.Solutions \\ FiscalIntegration \\\\ Efr EFR.sln** un izveidojiet to.
-1. Instalēt Commerce Runtime paplašinājumus:
+1. Klonējiet vai lejupielādējiet [Dynamics 365 Commerce Risinājumi](https://github.com/microsoft/Dynamics365Commerce.Solutions) krātuve. Atlasiet pareizo laidiena filiāles versiju atbilstoši savai SDK/lietojumprogrammas versijai. Papildinformāciju skatiet [Lejupielādējiet mazumtirdzniecības SDK paraugus un atsauces pakotnes no GitHub un NuGet](../dev-itpro/retail-sdk/sdk-github.md).
+1. Atveriet EFR risinājumu plkst **Dynamics365Commerce.Solutions\\ Fiskālā integrācija\\ Efr\\ EFR.sln**, un izveidojiet to.
+1. Instalējiet Commerce izpildlaika paplašinājumus:
 
-    1. Atrast CRT paplašinājuma instalētāju:
+    1. Atrodi CRT paplašinājumu instalētājs:
 
-        - **Commerce Scale Unit:** **mapē Efr \\ ScaleUnit \\ ScaleUnit.EFR.Installer \\ bin \\ Atkļūdošanas \\ net461 atrodiet mapi** **ScaleUnit.EFR.Installer** installer.
-        - **Modern CRT POS lokāls:** **Efr \\ ModernPOS \\ ModernPOS.EFR.Installer bin atkļūdošanas net461 mapē atrodiet \\\\\\** **ModernPOS.EFR.Installer** instalētāju.
+        - **Tirdzniecības mēroga vienība:** Iekš **Efr\\ Mērvienība\\ ScaleUnit.EFR.Installer\\ atkritumu tvertne\\ Atkļūdošana\\ net461** mapi, atrodiet **ScaleUnit.EFR.Installer** uzstādītājs.
+        - **Vietējais CRT Mūsdienu POS:** Iekš **Efr\\ Modern POS\\ ModernPOS.EFR.Instalētājs\\ atkritumu tvertne\\ Atkļūdošana\\ net461** mapi, atrodiet **ModernPOS.EFR.Instalētājs** uzstādītājs.
 
-    1. Startējiet CRT paplašinājuma instalētāju no komandrindas:
+    1. Sāciet CRT paplašinājuma instalētājs no komandrindas:
 
-        - **Commerce Scale vienība:**
+        - **Tirdzniecības mēroga vienība:**
 
             ```Console
             ScaleUnit.EFR.Installer.exe install --verbosity 0
             ```
 
-        - **Lokāls CRT modernajā POS:**
+        - **Vietējais CRT Mūsdienu POS:**
 
             ```Console
             ModernPOS.EFR.Installer.exe install --verbosity 0
             ```
 
-1. Instalēt aparatūras stacijas paplašinājumus:
+1. Instalējiet aparatūras stacijas paplašinājumus:
 
-    - Mapē **Efr \\ HardwareStation \\ HardwareStation.EFR.Installer \\ bin \\\\ Atkļūdošana net461** atrodiet **HardwareStation.EFR.Installer** instalētāju.
-    - Startējiet paplašinājuma instalētāju no komandrindas:
+    - Iekš **Efr\\ HardwareStation\\ HardwareStation.EFR.Installer\\ atkritumu tvertne\\ Atkļūdošana\\ net461** mapi, atrodiet **HardwareStation.EFR.Installer** uzstādītājs.
+    - Sāciet paplašinājuma instalētāju no komandrindas:
 
         ```Console
         HardwareStation.EFR.Installer.exe install --verbosity 0
@@ -407,50 +407,50 @@ Lai iestatītu izstrādes vidi un paplašinātu paraugu ņemšanas, veiciet šā
 
 #### <a name="production-environment"></a>Ražošanas vide
 
-Izpildiet darbības, kas sadaļā Konveijers ir jāiestata fiskālās integrācijas parauga būvējuma konveijers, lai ģenerētu un izlaistu mākoņa mēroga vienību un pašapkalpošanās izvietojamos [iepakojumus](fiscal-integration-sample-build-pipeline.md) fiskālās integrācijas parauga iepakojumam. **EFR būvējuma pipeline.yml veidnesPOZITOML fails var tikt atrasts Risinājumu** **\\ repozitorija YAML_Files**[Dynamics 365 Commerce konveijera](https://github.com/microsoft/Dynamics365Commerce.Solutions) sarakstā.
+Izpildiet norādījumus [Fiskālās integrācijas parauga izveides konveijera iestatīšana](fiscal-integration-sample-build-pipeline.md) lai ģenerētu un atbrīvotu Cloud Scale Unit un pašapkalpošanās izvietojamās pakotnes fiskālās integrācijas paraugam. The **EFR build-pipeline.yml** veidnes YAML failu var atrast **Cauruļvads\\ YAML_Files** mape [Dynamics 365 Commerce Risinājumi](https://github.com/microsoft/Dynamics365Commerce.Solutions) krātuve.
 
-## <a name="design-of-extensions"></a>Paplašinājumu dizains
+## <a name="design-of-extensions"></a>Paplašinājumu projektēšana
 
-Fiskālo reģistrācijas pakalpojumu integrācijas paraugs Vācijai ir balstīts uz [fiskālās integrācijas](fiscal-integration-for-retail-channel.md) funkcionalitāti un ir daļa no Retail SDK. Paraugs atrodas Solutions repository mapē **src \\ FiscalIntegration \\ Efr**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (piemēram, [paraugs release/9.33).](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr) Paraugs [sastāv](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices) no fiskālā dokumenta nodrošinātāja, kas ir CRT Commerce Hardware Station paplašinājums un fiskālais savienotājs. Papildinformāciju par to, kā izmantot retail SDK, skatiet [mazumtirdzniecības SDK arhitektūrā](../dev-itpro/retail-sdk/retail-sdk-overview.md) un [būvējuma konveijera iestatīšananeatkarīgam iepakojuma SDK](../dev-itpro/build-pipeline.md).
+Vācijas finanšu reģistrācijas pakalpojumu integrācijas izlase ir balstīta uz fiskālās [integrācijas funkcionalitāti](fiscal-integration-for-retail-channel.md) un ir daļa no mazumtirdzniecības SDK. Paraugs atrodas **risinājumu\\ repozitorija mapē \\ srcFiscalIntegrationEfr**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (piemēram, [paraugs laidienā/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr)). Paraugs [sastāv](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskālo dokumentu nodrošinātāja, kas ir paplašinājums CRT, un fiskālais savienotājs, kas ir Commerce Hardware Station paplašinājums. Papildinformāciju par to, kā izmantot mazumtirdzniecības SDK, skatiet [Mazumtirdzniecības SDK arhitektūra](../dev-itpro/retail-sdk/retail-sdk-overview.md) un [Iestatiet neatkarīgā iepakojuma SDK izveides konveijeru](../dev-itpro/build-pipeline.md).
 
 > [!WARNING]
-> Jaunā neatkarīgā iepakojuma un paplašinājuma modeļa ierobežojumu dēļ to [pašlaik nevar izmantot šim](../dev-itpro/build-pipeline.md) fiskālās integrācijas parauga modelim. Jums ir jāizmanto iepriekšējā Retail SDK versija izstrādātājam VM LCS. Papildinformāciju skatiet Vācijas [finanšu integrācijas parauga izvietošanas vadlīnijās (mantojuma)](emea-deu-fi-sample-sdk.md). Atbalsts jaunajam neatkarīgajam iepakojuma un paplašinājuma modelim finanšu integrācijas paraugos tiek plānots turpmākajām versijām.
+> Ierobežojumu dēļ [jauns neatkarīgs iepakojuma un pagarinājuma modelis](../dev-itpro/build-pipeline.md), to pašlaik nevar izmantot šim fiskālās integrācijas paraugam. Iepriekšējā mazumtirdzniecības SDK versija ir jāizmanto izstrādātāja VM LCS. Plašāku informāciju skatiet [Guidelines for the Fiscal Integration sample for Germany (legacy)](emea-deu-fi-sample-sdk.md). Atbalsts jaunajam neatkarīgajam iepakojuma un paplašināšanas modelim fiskālās integrācijas paraugiem ir plānots vēlākās versijās.
 
-### <a name="crt-extension-design"></a>CRT paplašinājuma dizains
+### <a name="crt-extension-design"></a>CRT pagarinājuma dizains
 
-Paplašinājuma, kas ir fiskālā dokumenta nodrošinātājs, nolūks ir izveidot pakalpojumiem raksturīgus dokumentus un apstrādāt atbildes no fiskālās reģistrācijas pakalpojuma.
+Paplašinājuma, kas ir fiskālo dokumentu nodrošinātājs, mērķis ir ģenerēt pakalpojumam specifiskus dokumentus un apstrādāt atbildes no fiskālā reģistrācijas pakalpojuma.
 
-#### <a name="request-handler"></a>Pieprasījumu apdarinātājs
+#### <a name="request-handler"></a>Pieprasījumu apstrādātājs
 
-Dokumentu nodrošinātājam **DocumentProviderEFRFiscalDEU ir viens pieprasījumu apdarinātājs.** Šis apdarinātājs tiek lietots finanšu dokumentu ģenerēšanai finanšu reģistrācijas pakalpojumam. Tas ir pārmantots no **INamedRequestHandler** interfeisa. Metode **HandlerName** ir atbildīga par apdarinātāja nosaukuma atgriešanu. Apdarinātāja nosaukumam ir jāatbilst savienotāja dokumentu nodrošinātāja nosaukumam, kas norādīts programmā Commerce Headquarters.
+Dokumentu nodrošinātājam ir viens pieprasījumu apstrādātājs, **DocumentProviderEFRFiscalDEU**. Šis apstrādātājs tiek izmantots, lai ģenerētu fiskālos dokumentus fiskālās reģistrācijas pakalpojumam. Tas ir mantots no **INamedRequestHandler** saskarne. The **Apdarinātāja vārds** metode ir atbildīga par apstrādātāja vārda atgriešanu. Apdarinātāja nosaukumam ir jāatbilst savienotāja dokumenta nodrošinātāja nosaukumam, kas norādīts Commerce galvenajā mītnē.
 
 Savienotājs atbalsta šādus pieprasījumus:
 
-- **GetFiscalDocumentDocumentProviderRequest — šajā pieprasījumā ir ietverta** informācija par to, kurš dokuments ir jāģenerē. Tas atgriež pakalpojumam raksturīgu dokumentu, kas jāreģistrē finanšu reģistrācijas pakalpojumā.
-- **GetFiscalTransactionExtendedDataDocumentProviderRequest - šis pieprasījums atgriež atbildi** kopā ar paplašinātiem datiem.
+- **GetFiscalDocumentDocumentProviderRequest** – Šis pieprasījums satur informāciju par to, kāds dokuments ir jāģenerē. Tas atgriež pakalpojumam raksturīgu dokumentu, kas jāreģistrē fiskālās reģistrācijas pakalpojumā.
+- **GetFiscalTransactionExtendedDataDocumentProviderRequest** – Šis pieprasījums atgriež atbildi kopā ar paplašinātajiem datiem.
 
 #### <a name="configuration"></a>Konfigurācija
 
-Finanšu dokumentu nodrošinātāja konfigurācijas fails atrodas **src \\ FiscalIntegration \\ Efr \\ Configurations \\ DocumentProviders \\ DocumentProviderFiscalEFRSampleGermany.xml**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) risinājumu repozitorijā. Faila mērķis ir iespējot finanšu dokumentu nodrošinātāja iestatījumus, lai tos konfigurētu no programmas Commerce Headquarters. Faila formāts ir saskaņots ar finanšu integrācijas konfigurācijas prasībām.
+Fiskālā dokumenta nodrošinātāja konfigurācijas fails atrodas vietnē **src\\ Fiskālā integrācija\\ Efr\\ Konfigurācijas\\ Dokumentu nodrošinātāji\\ DocumentProviderFiscalEFRSampleGermany.xml** iekš [Dynamics 365 Commerce Risinājumi](https://github.com/microsoft/Dynamics365Commerce.Solutions/) krātuve. Faila mērķis ir iespējot fiskālo dokumentu nodrošinātāja iestatījumu konfigurēšanu no Commerce galvenās mītnes. Faila formāts ir saskaņots ar fiskālās integrācijas konfigurācijas prasībām.
 
 ### <a name="hardware-station-extension-design"></a>Aparatūras stacijas paplašinājuma dizains
 
-Paplašinājuma, kas ir fiskālais savienotājs, mērķis ir sazināties ar finanšu reģistrācijas pakalpojumu.
+Paplašinājuma, kas ir fiskālais savienotājs, mērķis ir sazināties ar fiskālās reģistrācijas pakalpojumu.
 
-Aparatūras stacijas paplašinājums **ir HardwareStation.Extension.EFRSample.** Tas izmanto HTTP protokolu, lai iesniegtu CRT dokumentus, ko paplašinājums ģenerē finanšu reģistrācijas pakalpojumam. Tas apstrādā arī atbildes, kas saņemtas no fiskālās reģistrācijas pakalpojuma.
+Aparatūras stacijas paplašinājums ir **HardwareStation.Extension.EFRSample**. Tas izmanto HTTP protokolu, lai iesniegtu dokumentus, kas CRT paplašinājums ģenerē fiskālās reģistrācijas pakalpojumam. Tas arī apstrādā atbildes, kas tiek saņemtas no fiskālās reģistrācijas dienesta.
 
-#### <a name="request-handler"></a>Pieprasījumu apdarinātājs
+#### <a name="request-handler"></a>Pieprasījumu apstrādātājs
 
-**EFRHandler** pieprasījumu apdarinātājs ir ieejas punkts finanšu reģistrācijas pakalpojuma pieprasījumu apstrādei. Šis apdarinātājs ir pārmantots **no INamedRequestHandler** interfeisa. Metode **HandlerName** ir atbildīga par apdarinātāja nosaukuma atgriešanu. Apdarinātāja nosaukumam ir jāatbilst programmā Commerce Headquarters norādītajam finanšu savienotāja nosaukumam.
+The **EFRHandler** pieprasījumu apstrādātājs ir piekļuves punkts, lai apstrādātu pieprasījumus nodokļu reģistrācijas dienestam. Šis apstrādātājs ir mantots no **INamedRequestHandler** saskarne. The **Apdarinātāja vārds** metode ir atbildīga par apstrādātāja vārda atgriešanu. Apdarinātāja nosaukumam ir jāatbilst fiskālā savienotāja nosaukumam, kas norādīts Commerce galvenajā mītnē.
 
 Savienotājs atbalsta šādus pieprasījumus:
 
-- **SubmitDocumentFiscalDeviceRequest – šis pieprasījums nosūta dokumentus finanšu reģistrācijas pakalpojumam un** atgriež atbildi no tā.
-- **IsReadyFiscalDeviceRequest – šis pieprasījums tiek izmantots fiskālās reģistrācijas** pakalpojuma veselības pārbaudei.
-- **InitializeFiscalDeviceRequest** - šis pieprasījums tiek izmantots, lai inicializētu finanšu reģistrācijas pakalpojumu.
+- **SubmitDocumentFiscalDeviceRequest** – Šis pieprasījums nosūta dokumentus fiskālās reģistrācijas dienestam un atgriež no tā atbildi.
+- **IsReadyFiscalDeviceRequest** – Šis pieprasījums tiek izmantots fiskālās reģistrācijas dienesta veselības pārbaudei.
+- **InitializeFiscalDeviceRequest** – Šis pieprasījums tiek izmantots, lai inicializētu fiskālās reģistrācijas pakalpojumu.
 
 #### <a name="configuration"></a>Konfigurācija
 
-Finanšu savienotāja konfigurācijas fails atrodas **src \\ FiscalIntegration \\ Efr \\\\ Configurations Connectors \\ ConnectorEFRSample.xml** risinājumu [Dynamics 365 Commerce repozitorijā.](https://github.com/microsoft/Dynamics365Commerce.Solutions/) Faila mērķis ir iespējot finanšu savienotāja iestatījumus, kas jākonfigurē no programmas Commerce Headquarters. Faila formāts ir saskaņots ar finanšu integrācijas konfigurācijas prasībām.
+Fiskālā savienotāja konfigurācijas fails atrodas vietnē **src\\ Fiskālā integrācija\\ Efr\\ Konfigurācijas\\ Savienotāji\\ SavienotājsEFRSample.xml** iekš [Dynamics 365 Commerce Risinājumi](https://github.com/microsoft/Dynamics365Commerce.Solutions/) krātuve. Faila mērķis ir iespējot fiskālā savienotāja iestatījumu konfigurēšanu no Commerce galvenās mītnes. Faila formāts ir saskaņots ar fiskālās integrācijas konfigurācijas prasībām.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

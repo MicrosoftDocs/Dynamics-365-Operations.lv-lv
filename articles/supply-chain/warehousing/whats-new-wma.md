@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6f45cacd7f43c8caf836fd1ea24d354e4bcf5853
-ms.sourcegitcommit: 9638d3a2bd592dc28f5952bda4af7dcf06edfaa4
-ms.translationtype: HT
+ms.openlocfilehash: ceb327599bb2651a37ac51c3e0fdffc39d20c7f6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8007578"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067255"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Kas jauns vai mainīts mobilajā programmā Warehouse Management
 
@@ -23,38 +23,45 @@ ms.locfileid: "8007578"
 
 Šajā tēmā ir uzskaitīti jaunie līdzekļi, labojumi, uzlabojumi un zināmas problēmas katrai Microsoft Dynamics 365 Supply Chain Management Warehouse Management mobilās programmas izlaistajai versijai.
 
+## <a name="version-20150"></a>Versija 2.0.15.0
+
+Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
+
+- Uzlabota veiktspēja, novēršot atmiņas noplūdes problēmu.
+- Novērsta problēma, kuras dēļ dažas lauku vērtības netika pareizi atjauninātas, kad tās tika atlasītas detalizētās informācijas lapā.
+
 ## <a name="version-20140"></a>Versija 2.0.14.0
 
 Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
 
-- Fiksētā problēma, kas deaktivē noklusēto pogu Iesniegt.
+- Novērsta problēma, kas atspējoja noklusējuma pogu Iesniegt.
 
 ## <a name="version-20130"></a>Versija 2.0.13.0
 
 Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
  
-- Uzlabota ritināšana starp lapām ar gludāku priekšskatījumu.
-- Fiksētā skaitītāja atbildes, lai lasītu kustības un laiku pa laikam ekrānam iesaldētas.
-- Uzlabots tumšā režīma teksts un fona krāsu kombinācijas, lai uzlabotu lasāmību.
-- Fiksēta problēma, kad, mainot programmas loga izmēru, daži teksti varētu kļūt ļoti mazi.
-- Fiksētā problēma, kas reizēm var izraisīt programmas avārijas, skenējot svītrkodus.
-- Pievienota iespēja aizstāt maksājumu ar pogu.
-- Fiksētā problēma, kas varētu radīt to, ka programma parāda kļūdas ziņojumu "AADSTS7000215: ir nodrošināts nederīgs klienta noslēpums."
-- Nofiksēja atgādinājuma sveicienu, kas parāda, kā aizvērt lapu, izmantojot sākuma vērtību.
-- Pievienota iespēja aizvērt lapu, izmantojot flick-down sveicienu.
-- Fiksētā problēma, kas netika rādīta lietotāja iestatījumu lapā nolaižamo **sarakstu** nosaukumiem.
-- Fiksētu lokalizācijas problēmu, kad programma neatpazīst komatu (,) kā decimāldaļu atdalītāju.
+- Uzlabota ritināšana starp lapām ar vienmērīgāku animāciju.
+- Fiksētas neintuitīvas reakcijas uz vilkšanas kustībām un neregulāru ekrāna sastingšanu.
+- Uzlabotas tumšā režīma teksta un fona krāsu kombinācijas labākai lasāmībai.
+- Novērsta problēma, kuras dēļ daļa teksta var kļūt ļoti maza, mainot lietotnes loga izmēru.
+- Novērsta problēma, kas dažkārt var izraisīt programmas avāriju, skenējot svītrkodus.
+- Pievienota iespēja slīdni aizstāt ar pogu.
+- Novērsta problēma, kuras dēļ lietotne varēja parādīt kļūdas ziņojumu "AADSTS7000215: ir norādīts nederīgs klienta noslēpums".
+- Izlabota mājienu animācija, kas parāda, kā aizvērt lapu, izmantojot vilkšanas uz leju žestu.
+- Pievienota iespēja aizvērt lapu, izmantojot švīkāšanas žestu.
+- Novērsta problēma, kuras dēļ nolaižamā saraksta virsraksti netika rādīti **Lietotāja iestatījumi** lappuse.
+- Novērsta lokalizācijas problēma, kuras dēļ lietotne neatpazina komatu (,) kā decimāldaļu atdalītāju.
 - Uzlabota pieejamība.
-- Fiksēt navigāciju lapā Jauns **savienojums**, lai nodrošinātu uzlabotu pieejamību.
-- Fiksētu problēmu, kad vieglā (uz ekrāna) tastatūras nebūtu, atlasot ievades lauku.
-- Fiksēts problēma, kas var izraisīt programmas avārijas, ja lietotāji ātri maina loga lielumu.
-- Fiksēts problēma, kad ātrais taustiņa nospiešana tika interpretēta kā garš taustiņš.
-- Fiksētā problēma, kad programmas izkārtojums var kļūt bojāts lauka pielāgošanas dēļ, kas veikta Piegādes ķēžu pārvaldībā.
-- Fiksētā problēma, kad krājumu atrašanās vietas netika pareizi rādītas.
-- Fiksētā problēma, kas saistīta ar preces varianta darbplūsmas īso izdošanu.
-- Noņemta nevajadzīgā pārbaude laukiem ar izveidotām noklusējuma vērtībām.
-- Uzlabota veiktspēja;
-- Pievienots jauns iestatījums, kas ļauj lietotājiem izvēlēties, kā lauki tiek filtrēti un pasūtīti kartes lapā.
+- Izlabota navigācija uz **Jauns savienojums** lapu, lai nodrošinātu uzlabotu pieejamību.
+- Novērsta problēma, kuras dēļ, atlasot ievades lauku, netika parādīta mīkstā (ekrāna) tastatūra.
+- Novērsta problēma, kas var izraisīt lietotnes avāriju, ja lietotāji ātri mainīs tās loga izmērus.
+- Novērsta problēma, kuras dēļ ātra taustiņu nospiešana dažkārt tika interpretēta kā ilgstoša nospiešana.
+- Novērsta problēma, kuras dēļ lietojumprogrammā Supply Chain Management veiktie lauka pielāgojumi var tikt bojāti lietotnes izkārtojumā.
+- Novērsta problēma, kuras dēļ vienumu atrašanās vietas netika parādītas pareizi.
+- Novērsta problēma, kas saistīta ar īsu atlasi produkta varianta darbplūsmai.
+- Noņemta nevajadzīgā to lauku validācija, kas satur iepriekš iestatītas noklusējuma vērtības.
+- Uzlabota veiktspēja.
+- Pievienots jauns iestatījums, kas ļauj lietotājiem izvēlēties, kā kartītes lapā tiek filtrēti un sakārtoti lauki.
 
 ## <a name="version-20110"></a>Versija 2.0.11.0
 

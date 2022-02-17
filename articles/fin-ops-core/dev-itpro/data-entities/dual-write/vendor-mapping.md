@@ -1,6 +1,6 @@
 ---
-title: Integrētie kreditoru pamatdati
-description: Šajā tēmā aprakstīta kreditoru datu integrācija starp programmām Finance and Operations un Dataverse.
+title: Integrētie kreditora pamatdati
+description: Šajā tēmā ir aprakstīta kreditora datu integrācija starp Finance and Operations programmām un Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: fce5e072d39533fa5d54fe34e90c7aca9d01d67e
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 7794f33aed7364b76a7d5ffd08a068342887e468
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782481"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063166"
 ---
 # <a name="integrated-vendor-master"></a>Integrētie kreditoru pamatdati
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Termins *kreditors* attiecas uz piegādātāju organizāciju vai vienīgo īpašnieku, kas piegādā preces vai sniedz pakalpojumus uzņēmumam. Kaut arī *kreditors* ir reģistrēts koncepts Microsoft Dynamics 365 Supply Chain Management programmās, neviens cits kreditora koncepts nepastāv Customer Engagement programmās. Tomēr jūs varat pārslogot **Konta/Kontaktpersonas** tabulu, lai glabātu informāciju par kreditoru. Integrētais kreditora šablons iepazīstina ar skaidri izteiktu kreditoru koncepciju Customer Engagement programmās. Varat vai nu izmantot jauno kreditora noformējumu, vai glabāt kreditora datus tabulā **Konts/Kontaktpersona**. Duālais ieraksts atbalsta abas pieejas.
 
@@ -37,7 +37,7 @@ Ja nevēlaties turpināt glabāt kreditora datus tabulā **Konts/Kontaktpersona*
 ![Kreditora paplašinātā datu plūsma.](media/dual-write-vendor-detail.jpg)
 
 > [!TIP]
-> Ja izmantojat Power Apps portālus pašapkalpošanās kreditoriem, kreditora informācija var plūst tieši uz Finance and Operations programmām.
+> Ja izmantojat Power Apps portālus pašapkalpošanās piegādātājiem, informācija par piegādātājiem var plūst tieši uz Finance and Operations programmām.
 
 ## <a name="templates"></a>Veidnes
 

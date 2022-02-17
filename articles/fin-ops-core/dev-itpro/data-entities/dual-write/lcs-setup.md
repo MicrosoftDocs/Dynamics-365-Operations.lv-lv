@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 1fd15b5d664fead10949750678a2d3eab967af22
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 825d6a4b3462077d0f4b3f4275792ea0fe5152df
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781396"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063676"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Duālā ieraksta iestatīšana no Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Šajā tēmā skaidrots, kā iespējot duālo rakstīšanu no Microsoft Dynamics pakalpojumiem Lifecycle Services (LCS).
 
@@ -53,18 +53,18 @@ Veiciet šos soļus, lai iestatītu duālo rakstīšanu no LCS **Vides informāc
 
     :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Saite uz Power Platform vidi.":::
 
-8. Kad saistīšana ir pabeigta, tiek parādīta hipersaite. Izmantojiet saiti, lai pieteiktos duālās rakstīšanas administrācijas apgabalā Finance and Operations vidē. No turienes varat iestatīt elementu kartējumus.
+8. Kad saistīšana ir pabeigta, tiek parādīta hipersaite. Izmantojiet saiti, lai pieteiktos divējādas rakstīšanas administrēšanas apgabalā finanšu un operāciju vidē. No turienes varat iestatīt elementu kartējumus.
 
 ## <a name="set-up-dual-write-for-an-existing-dataverse-environment"></a>Iestatīt duālo rakstīšanu jau esošai Dataverse videi
 
 Lai esošajai Dataverse videi iestatītu duālo rakstīšanu, ir jāizveido Microsoft [atbalsta biļete](../../lifecycle-services/lcs-support.md). Biļetē ir jāietver:
 
-+ Jūsu Finance and Operations vides ID.
++ Jūsu finanšu un operāciju vides ID.
 + Jūsu vides nosaukums no Lifecycle Services.
 + Dataverse organizācijas ID vai Power Platform vides ID no Power Platform administrēšanas centra. Jūsu biļetē pieprasiet, lai ID tiktu izmantots Power Platform integrācijai.
 
 > [!NOTE]
-> Jūs nevarat atsaistīt vides, izmantojot portālu LCS. Lai noņemtu saiti videi, atveriet **Datu integrācijas** darbvietu Finance and Operations vidē un pēc tam atlasiet **Noņemt saiti**.
+> Jūs nevarat atsaistīt vides, izmantojot portālu LCS. Lai atsaistītu vidi, atveriet **datu integrācijas** darbvietu vidē Finanses un operācijas un pēc tam atlasiet **Atsaistīt**.
 
 ## <a name="linking-mismatch"></a>Saistīšanas neatbilstība
 

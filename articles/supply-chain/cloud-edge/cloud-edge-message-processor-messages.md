@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 685c8951b7c0d8524091cf06306388736d894f58
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
-ms.translationtype: HT
+ms.openlocfilehash: 68db4c6561f2cc3fcfd64b49da59a4cc164685f2
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471648"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069433"
 ---
 # <a name="message-processor-messages"></a>Ziņojumu apstrādātāja ziņojumi
 
@@ -29,7 +29,7 @@ ms.locfileid: "7471648"
 
 Ziņojumu procesora ziņojumi tiek izmantoti, palaižot mākoņa un malas skalas vienības [ražošanas darba noslodzei](cloud-edge-workload-manufacturing.md) un [noliktavas pārvaldības darba noslodzei](cloud-edge-workload-warehousing.md).
 
-Liela apjoma datu apmaiņa notiek starp centrmezgla un mēroga vienības izvietošanas vidi, lai tos sinhronizētu, bet *ziņojumu procesors* apstrādās tikai dažus no šiem datu apmaiņas veidiem.. Ziņojumu procesora apstrādātos ziņojumus varat skatīt, noklikšķinot uz **Sistēmas administrēšana > Ziņojumu procesors > Ziņojumu procesora ziņojumi**.
+Centrmezgla un mēroga vienības izvietošanas vides apmainās ar lielu datu apjomu, lai saglabātu sinhronizāciju. Daži no apmainītajiem datiem izraisīs papildu loģiku *ziņojumu procesors*. Varat skatīt ziņojumus, kurus ir apstrādājis ziņojumu procesors, dodoties uz **Sistēmas administrēšana > Ziņojumu procesors > Ziņojumu procesora ziņojumi**.
 
 ## <a name="message-grid-columns-and-filters"></a>Ziņojumu režģa kolonnas un filtri
 

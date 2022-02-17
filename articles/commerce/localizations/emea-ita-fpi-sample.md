@@ -1,6 +1,6 @@
 ---
 title: Fiskālā printera integrācijas piemērs Itālijai
-description: Šajā tēmā sniegts pārskats par Itālijas finanšu integrācijas paraugu Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā ir sniegts pārskats par fiskālās integrācijas paraugu Itālijai Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,149 +9,149 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2018-11-1
-ms.openlocfilehash: 592cecff5b6179e7afd1bacb25beda277dfb8fa3
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 02226fd9f2c92db2518ca48baefb680a3d2f0ac1
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944638"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8076907"
 ---
 # <a name="fiscal-printer-integration-sample-for-italy"></a>Fiskālā printera integrācijas piemērs Itālijai
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā sniegts pārskats par Itālijas finanšu integrācijas paraugu Microsoft Dynamics 365 Commerce.
+Šajā tēmā ir sniegts pārskats par fiskālās integrācijas paraugu Itālijai Microsoft Dynamics 365 Commerce.
 
-Itālijas Commerce funkcionalitāte ietver pārdošanas punkta (POS) parauga integrāciju ar fiskālo printeri. Paraugs paplašina fiskālās integrācijas funkcionalitāti tā, lai tas darbojas ar [Epson](fiscal-integration-for-retail-channel.md) FP-90III sērijas printeriem no Epson, un tas ļauj sazināties ar fiskālo printeri tīmekļa servera režīmā, [izmantojot Web pakalpojumu](https://www.epson.it/products/sd/pos-printer/epson-fp-90iii-series) EpsonFPMate, izmantojot finanšu ePOS-Print API. Paraugs atbalsta tikai režīmu Registratore Telematico (RT). Paraugs ir nodrošināts avota koda formā un ir daļa no mazumtirdzniecības programmatūras izstrādes komplekta (SDK).
+Itālijai paredzētajā Commerce funkcionalitātē ietilpst tirdzniecības vietas (POS) integrācijas paraugs ar fiskālo printeri. Paraugs paplašina [fiskālās integrācijas funkcionalitāte](fiscal-integration-for-retail-channel.md) lai tas darbotos ar [Epson FP-90III sērija](https://www.epson.it/products/sd/pos-printer/epson-fp-90iii-series) printeriem no Epson, un tas nodrošina saziņu ar fiskālo printeri tīmekļa servera režīmā, izmantojot EpsonFPMate tīmekļa pakalpojumu, izmantojot Fiscal ePOS-Print API. Paraugs atbalsta tikai Registratore Telematico (RT) režīmu. Paraugs tiek nodrošināts avota koda veidā un ir daļa no mazumtirdzniecības programmatūras izstrādes komplekta (SDK).
 
-Korporācija Microsoft neatlaiž nevienu aparatūru, programmatūru vai dokumentāciju no Epson. Lai iegūtu informāciju par to, kā iegūt fiskālo printeri un darbināt to, sazinieties ar [Epson Epson S.p.A](https://www.epson.it).
+Microsoft neizlaiž no Epson nekādu aparatūru, programmatūru vai dokumentāciju. Lai iegūtu informāciju par fiskālā printera iegūšanu un lietošanu, sazinieties ar [Epson Italia SpA](https://www.epson.it)
 
 ## <a name="scenarios"></a>Scenāriji
 
-Šos scenārijus iekļauj Itālijas fiskālā printera integrācijas paraugs:
+Itālijas fiskālā printera integrācijas paraugā ir ietverti šādi scenāriji.
 
 - Pārdošanas scenāriji:
 
-    - Drukājiet finanšu dokumentu par pārdošanu un atgriešanu, kas ir jāveic skaidrā naudā.
-    - Notvert atbildi no fiskālā printera un saglabāt to kanāla datu bāzē.
+    - Izdrukājiet fiskālo kvīti par skaidras naudas pārdošanu un atgriešanu.
+    - Uztveriet atbildi no fiskālā printera un saglabājiet to kanālu datu bāzē.
     - Nodokļi:
 
-        - Kartēt uz fiskālā printera nodokļu kodiem (nodaļas).
-        - Pārsūtīt kartētos nodokļu datus uz fiskālo printeri.
-        - Drukāt nodokļus finanšu kvītī.
+        - Karte ar fiskālā printera nodokļu kodiem (nodaļām).
+        - Pārsūtiet kartētos nodokļu datus uz fiskālo printeri.
+        - Drukājiet nodokļus fiskālā kvītī.
 
-    - Maksājumus:
+    - Maksājumi:
 
-        - Kartēt uz fiskālā printera maksāšanas metodēm.
-        - Drukāt maksājumus finanšu dokumentu
-        - Drukājiet izmaiņu informāciju.
+        - Karte ar fiskālā printera maksāšanas metodēm.
+        - Izdrukājiet maksājumus fiskālā kvītī.
+        - Drukāt informāciju par izmaiņām.
 
-    - Drukāt rindu atlaides.
+    - Drukas līniju atlaides.
     - Dāvanu kartes:
 
-        - No finanšu dokumenta par pārdošanu izslēdziet izsniegtās/atkārtoti iekasētās dāvanu kartes rindu.
-        - Izdrukājiet maksājumu, kas izmanto dāvanu karti kā regulāru maksājuma metodi.
+        - Izslēdziet izsniegtu/pārlādētu dāvanu karšu līniju no pārdošanas fiskālā kvīts.
+        - Izdrukājiet maksājumu, kurā kā parastais maksāšanas veids tiek izmantota dāvanu karte.
 
-    - Drukāt finanšu ieejas plūsmas debitoru pasūtījumu operācijām:
+    - Drukājiet fiskālos čekus klientu pasūtījuma operācijām:
 
-        - Debitora pasūtījuma depozīta finanšu dokuments nav izdrukāts.
-        - Drukājiet finanšu dokumentu e-debitora pasūtījuma pārnešanas rindām.
-        - Drukājiet finanšu dokumentu debitora pasūtījuma saņemšanas darbībai.
-        - Drukājiet finanšu dokumentu atgriešanas pasūtījumam.
+        - Par klienta pasūtījuma depozītu netiek drukāta fiskālā kvīts.
+        - Drukājiet fiskālo kvīti par klientu hibrīda pasūtījuma izpildes rindām.
+        - Izdrukājiet fiskālo kvīti klienta pasūtījuma saņemšanas operācijai.
+        - Izdrukājiet atgriešanas pasūtījuma fiskālo kvīti.
 
-    - Drukājiet dokumenta numura svītrkodu finanšu dokumenta kvītī.
-    - Izdrukājiet [debitora](emea-ita-customer-information.md) informāciju, kas finanšu dokumenta pārdošanas darbībai ir norādīta. Šīs informācijas piemērs ir debitora loteriju kods. 
+    - Izdrukājiet fiskālā kvītī kvīts numura svītrkodu.
+    - Izdrukājiet [Klienta informācija](emea-ita-customer-information.md) kas norādīts pārdošanas darījumam fiskālā kvītī. Šīs informācijas piemērs ir klienta loterijas kods. 
 
-- Darba dienas beigu pārskati (finanšu X un finanšu Z pārskati).
+- Dienas beigu pārskati (fiskālie X un fiskālie Z pārskati).
 - Kļūdu apstrāde, piemēram, šādas opcijas:
 
-    - Mēģiniet vēlreiz veikt finanšu reģistrāciju, ja iespējams atkārtot, piemēram, ja fiskālais printeris nav savienots, nav gatavs vai nav atbildes, printeris ir ārpus papīra vai ir iesprūdis papīrs.
-    - Atlikt finanšu reģistrāciju.
-    - Izlaidiet fiskālo reģistrāciju vai atzīmējiet darbību kā reģistrētu un ietveriet infokodus, lai iegūtu kļūmes iemeslu un papildinformāciju.
-    - Pirms jaunas pārdošanas darbības atvēršanas vai pārdošanas darbības veikšanas pārbaudiet fiskālā printera pieejamību.
+    - Atkārtoti mēģiniet veikt fiskālo reģistrāciju, ja ir iespējams atkārtots mēģinājums, piemēram, ja fiskālais printeris nav pievienots, nav gatavs vai nereaģē, printerī ir beidzies papīrs vai ir iestrēdzis papīrs.
+    - Atlikt fiskālo reģistrāciju.
+    - Izlaidiet fiskālo reģistrāciju vai atzīmējiet darījumu kā reģistrētu un iekļaujiet informācijas kodus, lai fiksētu kļūmes iemeslu un papildu informāciju.
+    - Pirms jauna pārdošanas darījuma atvēršanas vai pārdošanas darījuma pabeigšanas pārbaudiet fiskālā printera pieejamību.
 
 ### <a name="gift-cards"></a>Dāvanu kartes
 
-Fiskālā printera integrācijas paraugs ievieš tālāk norādītos ar dāvanu kartēm saistītos noteikumus.
+Fiskālā printera integrācijas paraugā ir ieviesti šādi noteikumi, kas saistīti ar dāvanu kartēm:
 
-- No finanšu dokumenta izslēdziet pārdošanas rindas, kas ir saistītas ar dāvanu kartes izdošanu *un pievienot dāvanu karšu* *operācijām*.
-- Nedrukāt finanšu dokumentu, ja tas sastāv tikai no dāvanu kartes rindām.
-- No finanšu dokumenta maksājumu rindām atņemiet no naudas plūsmas kopsummas, kas ir izsniegtas vai atkārtoti iekasētas.
-- Saglabāt aprēķinātos maksājumu rindu pielāgojumus kanāla datu bāzē ar atsauci uz atbilstošu finanšu darbību.
-- Maksājums ar dāvanu karti tiek uzskatīts par regulāru maksājumu.
+- Izslēdziet pārdošanas rindas, kas ir saistītas ar *Izsniegt dāvanu karti* un *Pievienot dāvanu kartei* operācijas no fiskālā kvīts.
+- Nedrukājiet fiskālo kvīti, ja tajā ir tikai dāvanu kartes rindas.
+- Atņemiet kopējo dāvanu karšu summu, kas izsniegtas vai atkārtoti iekasētas darījumā no fiskālā čeka maksājumu rindām.
+- Saglabājiet aprēķinātās maksājumu rindu korekcijas kanālu datu bāzē ar atsauci uz atbilstošu fiskālo darījumu.
+- Apmaksa ar dāvanu karti tiek uzskatīta par regulāru maksājumu.
 
-### <a name="customer-deposits-and-customer-order-deposits"></a>Debitora depozīti un debitora pasūtījuma depozīti
+### <a name="customer-deposits-and-customer-order-deposits"></a>Klientu noguldījumi un klientu pasūtījumu noguldījumi
 
-Fiskālā printera integrēšanas paraugs ievieš tālāk norādītos noteikumus, kas ir saistīti ar debitora depozītiem un debitora pasūtījuma depozītiem:
+Fiskālā printera integrācijas paraugā ir ieviesti šādi noteikumi, kas ir saistīti ar klientu noguldījumiem un klientu pasūtījumu noguldījumiem:
 
-- Nedrukāt finanšu dokumentu, ja darbība ir debitora depozīts.
-- Nedrukāt finanšu dokumentu, ja darījums ietver tikai debitora pasūtījuma depozītu vai debitora pasūtījuma depozīta atmaksu.
-- Drukājiet debitora pasūtījuma saņemšanas operācijas iepriekš apmaksātā deponēījuma summu finanšu kvītī.
-- Ieturēt debitora pasūtījuma depozīta summu no maksājuma rindām, kad ir izveidots debitora pasūtījums.
-- Saglabāt aprēķinātos maksājumu rindu pielāgojumus kanāla datu bāzē, lai izveidotu atsauci uz debitora pasūtījuma finanšu darbību.
+- Nedrukājiet fiskālo kvīti, ja darījums ir klienta depozīts.
+- Nedrukājiet fiskālo kvīti, ja darījums ietver tikai klienta pasūtījuma depozītu vai klienta pasūtījuma depozīta atmaksu.
+- Drukājiet iepriekš iemaksātās depozīta summu fiskālā kvītī par klienta pasūtījuma saņemšanas operāciju.
+- Kad tiek izveidots hibrīda klienta pasūtījums, atņemiet klienta pasūtījuma depozīta summu no maksājumu rindām.
+- Saglabājiet aprēķinātās maksājumu rindu korekcijas kanālu datu bāzē ar atsauci uz fiskālo darījumu klienta hibrīda pasūtījumam.
 
-### <a name="limitations-of-the-sample"></a>Parauga ierobežojumi
+### <a name="limitations-of-the-sample"></a>Izlases ierobežojumi
 
-- Fiskālais printeris atbalsta tikai scenārijus, kuros PVN ir iekļauts cenā. Tāpēc gan **veikaliem, gan debitoriem opcijai Cena iekļaut PVN** ir jābūt **iestatītai** uz Jā.
-- Ikdienas pārskati (finanšu X un finanšu Z) tiek drukāti, izmantojot formātu, kas ir iegults fiskālā printera formā.
-- Fiskālais printeris neatbalsta jauktas darbības. POS **funkcionalitātes profilos opcijas Aizliegt jaukšanu un** atgriešanu vienā kvītī **iestatījumam** ir jābūt Jā.
-- Paraugs atbalsta integrāciju tikai ar fiskālo printeri, kas darbojas režīmā Registratore Telematico (RT).
+- Fiskālais printeris atbalsta tikai scenārijus, kuru cenā ir iekļauts tirdzniecības nodoklis. Tāpēc, **Cenā iekļauts pārdošanas nodoklis** opcija ir jāiestata uz **Jā** gan veikaliem, gan klientiem.
+- Ikdienas pārskati (fiskālie X un fiskālie Z) tiek drukāti, izmantojot formātu, kas ir iegults fiskālā printera programmaparatūrā.
+- Fiskālais printeris neatbalsta jauktus darījumus. The **Aizliegt vienā kvītī sajaukt pārdošanu un atgriešanu** opcija ir jāiestata uz **Jā** POS funkcionalitātes profilos.
+- Paraugs atbalsta integrāciju tikai ar fiskālo printeri, kas darbojas Reģistratore Telematico (RT)) režīmā.
 
-## <a name="set-up-fiscal-integration-for-italy"></a>Iestatīt Itālijas fiskālo integrāciju
+## <a name="set-up-fiscal-integration-for-italy"></a>Izveidot fiskālo integrāciju Itālijai
 
-Itālijas fiskālā printera integrācijas paraugs ir balstīts uz [fiskālās integrācijas](fiscal-integration-for-retail-channel.md) funkcionalitāti un ir daļa no retail SDK. Paraugs atrodas **src \\ FiscalIntegration \\ EpsonFP90IISample mapē Solutions repository (piemēram, paraugs ir**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/)[izlaišanas/9,33).](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/EpsonFP90IIISample) Paraugs sastāv no fiskālā dokumenta nodrošinātāja, kas ir Commerce Runtime () paplašinājums () un finanšu savienotājs, kas ir [Commerce](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices) Hardware Station CRT paplašinājums. Papildinformāciju par to, kā izmantot retail SDK, skatiet [mazumtirdzniecības SDK arhitektūrā](../dev-itpro/retail-sdk/retail-sdk-overview.md) un [būvējuma konveijera iestatīšana neatkarīgam iepakojuma SDK](../dev-itpro/build-pipeline.md).
+Fiskālā printera integrācijas paraugs Itālijai ir balstīts uz [fiskālās integrācijas funkcionalitāte](fiscal-integration-for-retail-channel.md) un ir daļa no mazumtirdzniecības SDK. Paraugs atrodas **src\\ Fiskālā integrācija\\ EpsonFP90IIISample** mape [Dynamics 365 Commerce Risinājumi](https://github.com/microsoft/Dynamics365Commerce.Solutions/) repozitorijs (piemēram, [paraugs izlaidumā/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/EpsonFP90IIISample)). Paraugs [sastāv](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskālo dokumentu nodrošinātāja, kas ir Commerce izpildlaika paplašinājums (CRT), un fiskālais savienotājs, kas ir Commerce Hardware Station paplašinājums. Papildinformāciju par to, kā izmantot mazumtirdzniecības SDK, skatiet [Mazumtirdzniecības SDK arhitektūra](../dev-itpro/retail-sdk/retail-sdk-overview.md) un [Iestatiet neatkarīgā iepakojuma SDK izveides konveijeru](../dev-itpro/build-pipeline.md).
 
 > [!WARNING]
-> Jaunā neatkarīgā iepakojuma un paplašinājuma modeļa ierobežojumu dēļ to [pašlaik nevar izmantot šim](../dev-itpro/build-pipeline.md) fiskālās integrācijas parauga modelim. Jums ir jāizmanto iepriekšējā Retail SDK versija izstrādātāja virtuālajā datorā (VM) pakalpojumos Microsoft Dynamics Lifecycle Services (LCS). Papildinformāciju skatiet Itālijas [fiskālā printera integrācijas parauga izvietošanas vadlīnijās (mantojuma).](emea-ita-fpi-sample-sdk.md)
+> Ierobežojumu dēļ [jauns neatkarīgs iepakojuma un pagarinājuma modelis](../dev-itpro/build-pipeline.md), to pašlaik nevar izmantot šim fiskālās integrācijas paraugam. Izstrādātāja virtuālajā mašīnā (VM) ir jāizmanto iepriekšējā mazumtirdzniecības SDK versija Microsoft Dynamics Dzīves cikla pakalpojumi (LCS). Papildinformāciju skatiet [Izvēršanas vadlīnijas fiskālā printera integrācijas paraugam Itālijai (mantots)](emea-ita-fpi-sample-sdk.md).
 >
-> Atbalsts jaunajam neatkarīgajam iepakojuma un paplašinājuma modelim finanšu integrācijas paraugos tiek plānots turpmākajām versijām.
+> Atbalsts jaunajam neatkarīgajam iepakojuma un paplašināšanas modelim fiskālās integrācijas paraugiem ir plānots vēlākās versijās.
 
-Izpildiet finanšu integrācijas iestatīšanas soļus, kā [aprakstīts Commerce kanālu finanšu integrācijas iestatīšanai.](setting-up-fiscal-integration-for-retail-channel.md)
+Pabeidziet finanšu integrācijas iestatīšanas soļus, kā aprakstīts sadaļā [Iestatīt finanšu integrāciju commerce kanāliem](setting-up-fiscal-integration-for-retail-channel.md).
 
-1. [Iestatīt finanšu reģistrācijas](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process) procesu. Atzīmējiet arī fiskālās reģistrācijas procesa iestatījumus, kas ir [raksturīgi šim fiskālā printera integrācijas paraugam.](#set-up-the-registration-process)
-1. [Iestatiet fiskālos tekstus](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-texts-for-discounts) atlaidēm.
-1. [Iestatīt kļūdu apstrādes](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings) iestatījumus.
-1. [Iestatiet POS finanšu X/Z](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-xz-reports-from-the-pos) pārskatus.
-1. [Aktivizējiet atliktās finanšu reģistrācijas manuālu](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration) izpildi.
-1. [Iestatiet debitoru informācijas pārvaldības funkcionalitāti sistēmā](emea-ita-customer-information.md#setup) POS.
-1. [Konfigurējiet kanāla](#configure-channel-components) komponentus.
+1. [Iestatiet finanšu reģistrācijas procesu](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process). Ņemiet vērā arī fiskālās reģistrācijas procesa iestatījumus, kas ir [raksturīgi šim finanšu printera integrācijas paraugam](#set-up-the-registration-process).
+1. [Iestatiet fiskālos tekstus atlaidēm](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-texts-for-discounts).
+1. [Iestatiet kļūdu apstrādes iestatījumus](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+1. [Iestatiet finanšu X/Z pārskatus no POS](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-xz-reports-from-the-pos).
+1. [Iespējot atliktās finanšu reģistrācijas](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration) manuālu izpildi.
+1. [Iestatiet funkcionalitāti klientu informācijas pārvaldībai POS](emea-ita-customer-information.md#setup).
+1. [Konfigurējiet kanāla komponentus](#configure-channel-components).
 
 ### <a name="set-up-the-registration-process"></a>Iestatīt reģistrācijas procesu
 
-Lai iespējotu reģistrācijas procesu, izpildiet šīs darbības, lai iestatītu programmu Commerce Headquarters. Papildinformāciju skatiet [sadaļā Komercijas kanālu finanšu integrācijas](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process) iestatīšana.
+Lai iespējotu reģistrācijas procesu, veiciet šīs darbības, lai iestatītu Commerce headquarters. Plašāku informāciju skatiet [Set up the fiscal integration for Commerce channels](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
 
-1. Lejupielādēt konfigurācijas failus finanšu dokumentu nodrošinātājam un finanšu savienotājam:
+1. Lejupielādēt finanšu dokumentu nodrošinātāja un finanšu savienotāja konfigurācijas failus:
 
-    1. Atveriet risinājumu [Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) repozitoriju.
-    1. Atlasiet pareizu versijas izlaidi atbilstoši SDK/programmas versijai (piemēram, **[izlaidums/9,33).](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33)**
-    1. Atveriet **src \> FiscalIntegration \> EpsonFP90IISample.**
-    1. Lejupielādējiet finanšu dokumentu nodrošinātāja konfigurācijas failu **commerceRuntime \> DocumentProvider.EpsonFP90IISample \> konfigurācijas \> DocumentProviderEpsonF90IISample.xml** (piemēram, fails laidienam/9,33). [...](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/EpsonFP90IIISample/CommerceRuntime/DocumentProvider.EpsonFP90IIISample/Configuration/DocumentProviderEpsonFP90IIISample.xml)
-    1. Lejupielādējiet fiskālā savienotāja konfigurācijas failu **HardwareStation \> EpsonFP90IIFiscalDeviceSample \> konfigurācijas \> ConnectorEpsonFP90ISample.xml** (piemēram, fails laidienam/9,33. [...](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/EpsonFP90IIISample/HardwareStation/EpsonFP90IIIFiscalDeviceSample/Configuration/ConnectorEpsonFP90IIISample.xml)
+    1. [Dynamics 365 Commerce Atveriet risinājumu](https://github.com/microsoft/Dynamics365Commerce.Solutions/) repozitoriju.
+    1. Atlasiet pareizu laidiena filiāles versiju atbilstoši SDK/lietojumprogrammas versijai (piemēram, **[laidiens/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33)**).
+    1. Atvērt **src \> Fiskālā integrācija \> EpsonFP90IIISample**.
+    1. Lejupielādējiet fiskālo dokumentu nodrošinātāja konfigurācijas failu vietnē **CommerceRuntime \> DocumentProvider.EpsonFP90IIIParaugs \> Konfigurācija \> DocumentProviderEpsonFP90IIISample.xml** (piemēram, [izlaišanas fails/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/EpsonFP90IIISample/CommerceRuntime/DocumentProvider.EpsonFP90IIISample/Configuration/DocumentProviderEpsonFP90IIISample.xml)).
+    1. Lejupielādējiet fiskālā savienotāja konfigurācijas failu vietnē **HardwareStation \> EpsonFP90IIIFiscalDeviceSample \> Konfigurācija \> ConnectorEpsonFP90IIISample.xml** (piemēram, [izlaišanas fails/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/EpsonFP90IIISample/HardwareStation/EpsonFP90IIIFiscalDeviceSample/Configuration/ConnectorEpsonFP90IIISample.xml).
 
     > [!WARNING]
-    > Jaunā neatkarīgā iepakojuma un paplašinājuma modeļa ierobežojumu dēļ to [pašlaik nevar izmantot šim](../dev-itpro/build-pipeline.md) fiskālās integrācijas parauga modelim. Jums ir jāizmanto iepriekšējā Retail SDK versija izstrādātājam VM LCS. Šī fiskālās integrācijas parauga konfigurācijas faili atrodas tālākmintās Retail SDK mapēs LCS izstrādātāja VM:
+    > Ierobežojumu dēļ [jauns neatkarīgs iepakojuma un pagarinājuma modelis](../dev-itpro/build-pipeline.md), to pašlaik nevar izmantot šim fiskālās integrācijas paraugam. Iepriekšējā mazumtirdzniecības SDK versija ir jāizmanto izstrādātāja VM LCS. Šī fiskālās integrācijas parauga konfigurācijas faili atrodas šādās mazumtirdzniecības SDK mapēs izstrādātāja VM LCS:
     >
-    > - **Finanšu dokumentu nodrošinātāja konfigurācijas fails:** RetailSdk \\ SampleExtensions \\ CommerceRuntime \\ Extension.DocumentProvider.EpsonFP90IISample \\ konfigurācijas \\ DocumentProviderEpsonF90IISample.xml
-    > - **Finanšu savienotāja konfigurācijas fails:** RetailSdk \\ SampleExtensions \\ HardwareStation \\ Extension.EpsonFP90IIFiscalDeviceSample \\ konfigurācijas \\ ConnectorEpsonFP90IISample.xml
+    > - **Fiskālo dokumentu nodrošinātāja konfigurācijas fails:** RetailSdk\\ Extensions paraugi\\ CommerceRuntime\\ Extension.DocumentProvider.EpsonFP90IIISample\\ Konfigurācija\\ DocumentProviderEpsonFP90IIISample.xml
+    > - **Fiskālā savienotāja konfigurācijas fails:** RetailSdk\\ Extensions paraugi\\ HardwareStation\\ Paplašinājums.EpsonFP90IIIFiscalDeviceSample\\ Konfigurācija\\ ConnectorEpsonFP90IIISample.xml
     > 
-    > Atbalsts jaunajam neatkarīgajam iepakojuma un paplašinājuma modelim finanšu integrācijas paraugos tiek plānots turpmākajām versijām.
+    > Atbalsts jaunajam neatkarīgajam iepakojuma un paplašināšanas modelim fiskālās integrācijas paraugiem ir plānots vēlākās versijās.
 
-1. Dodieties uz **Mazumtirdzniecība un tirdzniecība \> Headquarters iestatīšana \> Parametri \> Commerce koplietotie parametri**. Cilnē **Vispārīgi** iestatiet opciju Aktivizēt fiskālo integrāciju **kā** **Jā**.
-1. Dodieties uz **Retail un Commerce Channel \> iestatīšanas finanšu integrācijas finanšu dokumentu nodrošinātājiem un \>\>** ielādējiet iepriekš lejupielādēto fiskālā dokumenta nodrošinātāja konfigurācijas failu.
-1. Dodieties uz **mazumtirdzniecības un commerce kanālu iestatīšanas finanšu integrācijas finanšu savienotājiem un \>\>\>** ielādējiet agrāk lejupielādēto fiskālā savienotāja konfigurācijas failu.
-1. Pārejiet uz **Sadaļu Mazumtirdzniecības \> un Commerce Channel Setup Finanšu integrācijas \>\> savienotāja funkcionālie** profili. Izveidojiet jaunu savienotāja funkcionalitātes profilu. Atlasiet dokumentu nodrošinātāju un iepriekš ielādēto savienotāju. Pēc vajadzības [atjauniniet datu](#default-data-mapping) kartēšanas iestatījumus.
-1. Pārejiet uz **Retail un Commerce Channel setup Fiscal integration Connector \>\>\> tehniskajiem** profiliem. Izveidojiet jaunu savienotāja tehnisko profilu un atlasiet iepriekš ielādēto finanšu savienotāju. Pēc vajadzības [atjauniniet](#fiscal-connector-settings) savienotāja iestatījumus.
-6. Pārejiet uz **sadaļu \> Mazumtirdzniecības un Commerce kanālu \> iestatīšanas finanšu integrācijas finanšu \> savienotāja** grupas. Izveidojiet jaunu finanšu savienotāja grupu iepriekš izveidotajā savienotāja funkcionālajā profilā.
-7. Pārejiet uz **mazumtirdzniecības un Commerce \> channel \> iestatīšanas finanšu integrācijas \> finanšu reģistrācijas** procesiem. Izveidojiet jaunu fiskālās reģistrācijas procesu un fiskālās reģistrācijas procesa soli un atlasiet iepriekš izveidoto finanšu savienotāja grupu.
-8. Dodieties uz sadaļu **Retail un Commerce \> Kanāla iestatīšana \> POS iestatīšana \> POS profili \> Funkcionalitātes profili**. Atlasiet funkcionalitātes profilu, kas ir saistīts ar veikalu, kurā ir jāaktivizē reģistrācijas process. Kopsavilkuma **cilnē Finanšu reģistrācijas process** atlasiet iepriekš izveidoto finanšu reģistrācijas procesu.
-9. Pārejiet uz sadaļu **Mazumtirdzniecība un komercija \> Kanāla iestatīšana \> POS iestatīšana \> POS profili \> Aparatūras profili**. Atlasiet aparatūras profilu, kas ir saistīts ar aparatūras staciju, ar kuru tiks pievienots fiskālais printeris. Kopsavilkuma cilnē **Finanšu** perifērijas ierīces atlasiet iepriekš izveidoto savienotāja tehnisko profilu.
-10. Atveriet sadales grafiku (Mazumtirdzniecības un Commerce Retail un Commerce IT sadales grafiks) un atlasiet darbus **\>\>** **1070 un** **1090,** lai pārsūtītu datus uz kanāla datu bāzi.
+1. Dodieties uz **Mazumtirdzniecība un tirdzniecība \> Headquarters iestatīšana \> Parametri \> Commerce koplietotie parametri**. Cilnē **Vispārīgi** iestatiet opciju **Iespējot finanšu integrāciju** uz **Jā**.
+1. Dodieties uz **Mazumtirdzniecības un tirdzniecības \> kanāla iestatījumu \> Finanšu integrācija \> Finanšu dokumentu nodrošinātāji** un ielādējiet iepriekš lejupielādēto finanšu dokumentu nodrošinātāja konfigurācijas failu.
+1. Dodieties uz **Retail and Commerce \> Channel setup \> Fiscal integration \> Fiscal connectors un ielādējiet iepriekš lejupielādēto finanšu savienotāja konfigurācijas** failu.
+1. Dodieties uz **Retail and Commerce \> Channel setup \> Fiscal integration \> Connector funkcionālie profili**. Izveidojiet jaunu savienotāja funkcionālo profilu. Atlasiet dokumentu nodrošinātāju un savienotāju, ko ielādējāt iepriekš. Pēc vajadzības atjauniniet [datu kartēšanas iestatījumus](#default-data-mapping).
+1. Dodieties uz **Retail and Commerce \> Channel setup \> Fiscal integration \> Connector technical profiles**. Izveidojiet jaunu savienotāja tehnisko profilu un atlasiet iepriekš ielādēto finanšu savienotāju. Atjauniniet [savienotāja iestatījumi](#fiscal-connector-settings) kā prasīts.
+6. Iet uz **Mazumtirdzniecība un tirdzniecība \> Kanāla iestatīšana \> Fiskālā integrācija \> Fiskālo savienotāju grupas**. Izveidojiet jaunu fiskālo savienotāju grupu savienotāja funkcionālajam profilam, ko izveidojāt iepriekš.
+7. Iet uz **Mazumtirdzniecība un tirdzniecība \> Kanāla iestatīšana \> Fiskālā integrācija \> Fiskālās reģistrācijas procesi**. Izveidojiet jaunu fiskālās reģistrācijas procesu un fiskālā reģistrācijas procesa darbību un atlasiet iepriekš izveidoto fiskālo savienotāju grupu.
+8. Dodieties uz sadaļu **Retail un Commerce \> Kanāla iestatīšana \> POS iestatīšana \> POS profili \> Funkcionalitātes profili**. Izvēlieties funkcionalitātes profilu, kas ir saistīts ar veikalu, kurā jāaktivizē reģistrācijas process. Uz **Fiskālās reģistrācijas process** FastTab atlasiet fiskālās reģistrācijas procesu, ko izveidojāt iepriekš.
+9. Pārejiet uz sadaļu **Mazumtirdzniecība un komercija \> Kanāla iestatīšana \> POS iestatīšana \> POS profili \> Aparatūras profili**. Atlasiet aparatūras profilu, kas ir saistīts ar aparatūras staciju, kurai tiks pievienots fiskālais printeris. Uz **Fiskālās perifērijas ierīces** FastTab atlasiet savienotāja tehnisko profilu, ko izveidojāt iepriekš.
+10. Atveriet izplatīšanas grafiku (**Mazumtirdzniecība un tirdzniecība \> Mazumtirdzniecības un tirdzniecības IT \> Izplatīšanas grafiks**) un atlasiet darbus **1070** un **1090** lai pārsūtītu datus uz kanālu datu bāzi.
 
 #### <a name="default-data-mapping"></a>Noklusējuma datu kartēšana
 
-Tālāk redzamais noklusējuma datu kartējums ir ietverts finanšu dokumenta nodrošinātāja konfigurācijā, kas ir nodrošināta kā daļa no fiskālās integrācijas parauga:
+Fiskālā dokumenta nodrošinātāja konfigurācijā, kas tiek nodrošināta kā daļa no fiskālās integrācijas parauga, ir iekļauta šāda noklusējuma datu kartēšana:
 
-- **Norēķinu veidu** kartēšana — to maksāšanas metožu kartēšana, kas ir konfigurētas veikalam, ar fiskāla printera atbalstītajiem maksājumu tipiem. Šajā piemērā parādīts noklusējuma kartējums.
+- **Konkursa veidu kartēšana** – Veikalam konfigurēto maksājumu metožu kartēšana ar maksājumu veidiem, ko atbalsta fiskālais printeris. Nākamajā piemērā ir parādīta noklusējuma kartēšana.
 
     ```JSON
     {"PaymentMethods": [
@@ -164,13 +164,13 @@ Tālāk redzamais noklusējuma datu kartējums ir ietverts finanšu dokumenta no
         "DepositPaymentMethod": {"PrinterPaymentType":"2", "PrinterPaymentIndex":"00"}}
     ```
 
-    Šajā kartēšanā ir skaidrojums par atribūtiem:
+    Šeit ir šīs kartēšanas atribūtu skaidrojums:
 
-    - **StorePaymentMethod ir maksāšanas metode, kas ir iestatīta veikalam** mazumtirdzniecības **un commerce kanālu \> iestatīšanas maksāšanas \>\>** metodēs.
-    - **PrinterPaymentType** un PrinterPaymentIndex ir atbilstošs maksājuma tips un indekss, **kas ir definēts Epson fiskālā** printera dokumentācijā.
-    - **DepositPaymentMethod tiek izmantots, lai norādītu printera maksājuma tipu un indeksu debitora pasūtījuma saņemšanas summas daļai, kas ir segta ar debitora pasūtījuma** depozītu.
+    - **Veikala Maksājuma metode** ir maksājuma veids, kas ir iestatīts veikalam plkst **Mazumtirdzniecība un tirdzniecība \> Kanāla iestatīšana \> Maksājuma metodes \> Maksājuma metodes**.
+    - **Printera maksājuma veids** un **PrinterPaymentIndex** ir atbilstošais maksājuma veids un indekss, kas definēts Epson fiskālā printera dokumentācijā.
+    - **Depozīta apmaksas metode** tiek izmantots, lai norādītu printera maksājuma veidu un indeksu tai daļai no klienta pasūtījuma saņemšanas summas, kas tiek norēķināta ar klienta pasūtījuma depozītu.
 
-    Tabulā ir parādīts, kā maksājuma metožu parauga kartēšana atbilst standarta demonstrācijas datos konfigurētajām maksājuma metodēm.
+    Šajā tabulā parādīts, kā maksājumu metožu izlases kartēšana atbilst krātuves maksāšanas metodēm, kas ir konfigurētas standarta demonstrācijas datos.
 
     | Maksāšanas veids | Maksāšanas metodes nosaukums |
     |----------------|---------------------|
@@ -180,11 +180,11 @@ Tālāk redzamais noklusējuma datu kartējums ir ietverts finanšu dokumenta no
     | 6              | Valūta            |
     | 8              | Dāvanu karte           |
 
-    Parauga kartējums ir jāmodificē atbilstoši maksājumu metodēm, kas ir konfigurētas programmā.
+    Jums ir jāmaina kartējuma paraugs atbilstoši jūsu lietojumprogrammā konfigurētajām maksājumu metodēm.
 
-- **Svītrkoda tips kvīts** numuram — svītrkoda veids, kas tiek izmantots dokumenta numuram finanšu ieejas plūsmā. Noklusējuma kartējums ir **CODE128**.
-- **Drukāt fiskālos datus kvīts virsrakstā — ja šis parametrs ir ieslēgts, veikala** informācija tiks drukāta finanšu dokumentā. Šajā informācijā ir iekļauts veikala nosaukums, adrese, nodokļu identifikācijas numurs un kasiera vārds.
-- **Fiskālā printera nodaļas kartēšana – fiskālā printera departamentu kartēšana ar pievienotās vērtības nodokļa (PVN) likmēm, PVN reģistrācijas rakstura likmēm** un preču tipiem. Šajā piemērā parādīts noklusējuma kartējums.
+- **Ieejas plūsmas numura** svītrkoda tips – svītrkoda tips, kas tiek izmantots, lai finanšu kvītī parādītu ieejas plūsmas numuru. Noklusējuma kartējums ir **CODE128**.
+- **Drukāt fiskālos datus saņemšanas virsrakstam** – ja šis parametrs ir ieslēgts, uz finanšu ieejas plūsmas tiks drukāta veikala informācija. Šī informācija ietver veikala nosaukumu, adresi un nodokļu maksātāja identifikācijas numuru, kā arī kasiera vārdu.
+- **Fiskālo printeru nodaļas kartēšana** – fiskālā printera nodaļu kartēšana uz pievienotās vērtības nodokļa (PVN) likmēm, no PVN atbrīvotajiem raksturs un produktu veidiem. Nākamajā piemērā ir parādīta noklusējuma kartēšana.
 
     ```JSON
     {"Departments": [
@@ -201,32 +201,32 @@ Tālāk redzamais noklusējuma datu kartējums ir ietverts finanšu dokumenta no
         {"VATRate":"0000", "VATExemptNature":"NS", "ProductType":"0", "DepartmentNumber":"99"}]}
     ```
 
-    Šajā kartēšanā ir skaidrojums par atribūtiem:
+    Šeit ir šīs kartēšanas atribūtu skaidrojums:
 
-    - **VATRate** ir atbalstīta PVN likme, kas ir konfigurēta kā PVN kods. Kartēšanas vērtībai ir divas decimāldaļas vietas, bet decimāldaļu atdalītājs nav atdalītājs. Piemēram, **2200** attēlo 22 procentus, **un 1000** attēlo 10 procentus.
-    - **VATExemptNature ir piemērojams tikai gadījumos, kad PVN likme ir 0 (nulle), ieskaitot gadījumus,** kad nav nodokļa. Pašlaik VATExemptNature tiek atbalstīts tikai dāvanu kartēm, un kartēšanas vērtībai ir **jāatbilst** **VATExemptNatureForGiftCard rekvizīta vērtībai** XML konfigurācijas failā.
-    - **ProductType** ir preces veids. Vērtība **0 attēlo** preces, un vērtība **1** attēlo pakalpojumus.
-    - **DepartmentNumber** ir nodaļas numurs, kas ir konfigurēts printerī un kas atbilst iepriekšējiem trim atribūtiem.
+    - **PVN likme** ir atbalstīta PVN likme, kas ir konfigurēta kā PVN kods. Kartējuma vērtībai ir divas decimāldaļas, bet nav decimāldaļu atdalītāja. Piemēram, **2200** ir 22 procenti, bet **1000** — 10 procenti.
+    - **PVNExemptNature** ir piemērojams tikai gadījumos, kad PVN likme ir 0 (nulle), ieskaitot gadījumus, kad nav nodokļa. **Pašlaik VATExemptNature** tiek atbalstīts tikai dāvanu kartēm, un kartēšanas vērtībai jāatbilst XML konfigurācijas faila rekvizīta VATExemptNatureForGiftCard **vērtībai**.
+    - **ProductType** ir produkta tips. Vērtība **0** apzīmē preces, un vērtība **1** atspoguļo pakalpojumus.
+    - **DepartmentNumber** ir nodaļā konfigurētās nodaļas numurs, kas atbilst iepriekšējiem trim atribūtiem.
 
-    Parauga kartējums ir jāmodificē atbilstīgi PVN likmēm, kas ir konfigurētas jūsu programmā, un atbilstošajām nodaļām, kas ir konfigurētas fiskālajā printerī.
+    Parauga kartējums ir jāmodificē atbilstoši lietojumprogrammā konfigurētajām PVN likmēm un atbilstošajām nodaļām, kas ir konfigurētas jūsu finanšu printerī.
 
-- **AR PVN neapliekams dāvanu kartes veids – PVN reģ. reģ. veids, kas ir jāpiemēro, kad dāvanu** karte tiek izsniegta vai atkārtoti piepildīta. Vērtībai ir jāatbilst kādai finanšu printera nodaļas kartēšanas ievadnei. Noklusējuma kartējums ir **NS**.
-- **Aktivizējiet brīvās maksas krājumus – ja šis parametrs ir ieslēgts, tiek aktivizēts īpašais apmaksas atlaides korekcijas tips krājumiem, kuriem ir** *100* procentu atlaide.
-- **Informācijas kods atgriešanas izcelsmei - informācijas kods, kas tiek izmantots, lai iegūtu atgriešanas darbības** izcelsmi, ja netiek sniegta sākotnējā pārdošanas kvīts. Šis parametrs tiek izmantots kopā ar oriģinālā pārdošanas datuma informācijas kodu un parametru Atgriešanas izcelsmes kartējums, lai finanšu ieejas plūsmā ģenerētu pareizu ziņojumu par atgriešanas darbības izcelsmi, ja nepastāv sākotnējā **pārdošanas** **darbība**. 
+- **No PVN atbrīvotā daba dāvanu kartei** – No PVN atbrīvots raksturs, kas jāpiemēro, izsniedzot vai uzpildot dāvanu karti. Vērtībai jāatbilst kādam ierakstam fiskālā printeru nodaļas kartējumā. Noklusējuma kartējums ir **NS**.
+- **Iespējot bez maksas preces** – ja šis parametrs ir ieslēgts, ir iespējots īpašais *omaggio* atlaides korekcijas tips precēm ar 100 procentu atlaidi.
+- **Atgriešanas izcelsmes** informācijas kods — informācijas kods, kas tiek izmantots, lai fiksētu atgriešanas transakcijas izcelsmi, ja nav norādīta sākotnējā pārdošanas kvīts. Šis parametrs tiek izmantots kopā ar **informācijas kodu sākotnējam pārdošanas datumam** un **Atgriešanas izcelsmes kartēšanas** parametriem, lai finanšu kvītī ģenerētu pareizu ziņojumu par atgriešanas darbības izcelsmi, ja nav oriģinālas pārdošanas darbības. 
 
-    Šis informācijas kods ir jākonfigurē, lai lietotājs varētu atlasīt vai ievadīt vienu no iespējamām atgriešanu izcelsmes jūsu veikalos. Piemēram, to var konfigurēt kā apakškodu sarakstu (piemēram, Atgriešana no vietas **vai** Atgriešana no **vietas**). Pēc **tam** atgriešanas izcelsmes kartēšanas parametrs tiek izmantots, lai translētu informācijas koda vērtību komandā fiskālajam printerim.
+    Šis informācijas kods ir jākonfigurē tā, lai lietotājs varētu atlasīt vai ievadīt kādu no iespējamajām preču atgriešanas pirmsākumiem jūsu veikalos. Piemēram, to var konfigurēt kā apakškodu sarakstu (piemēram **, Atgriezties no vietnes** vai **Atgriezt no kioska**). Pēc tam atgriešanas **izcelsmes kartēšanas** parametrs tiek izmantots, lai informācijas koda vērtību pārvērstu par fiskālā printera komandu.
 
-    Informācijas kods, kas tiek atlasīts atgriešanas izcelsmes informācijas kodam, jākonfigurē kā obligāts informācijas kods, kas katrā pārdošanas darbībā **tiek** atlaists vienu reizi. POS funkcionalitātes profilā tas jāpiešķir kā atgriešanas preces informācijas kods, lai tas tiktu atlaists, kad tiek palaista operācija **Atgriezt** **preci**.
+    Informācijas kods, kas atlasīts atgriešanas **izcelsmes** informācijas kodam, jākonfigurē kā obligāts informācijas kods, kas tiek atlaists vienu reizi pārdošanas darījumā. Tas ir jāpiešķir kā atgriešanas **produkta** informācijas kods POS funkcionalitātes profilā, lai tas tiktu atlaists, kad **tiek palaista atgriešanas produkta** operācija.
 
-    Šim kartējumam nav norādīta noklusējuma vērtība. Jāatlasa informācijas kods, kas ir konfigurēts jūsu programmā.
+    Šim kartējumam nav norādīta noklusējuma vērtība. Jāatlasa lietojumprogrammā konfigurēts informācijas kods.
 
-- **Informācijas kods oriģinālajam pārdošanas datumam — informācijas kods, kas tiek izmantots, lai iegūtu atgriezto darbību sākotnējo pārdošanas datumu, ja netiek nodrošināta sākotnējā** pārdošanas kvīts. Šis parametrs tiek izmantots kopā ar informācijas kodu atgriešanas izcelsmes un Atgriešanas izcelsmes kartēšanas parametriem, lai finanšu kvītī izveidotu pareizu ziņojumu par atgriešanas darbības izcelsmi, ja nepastāv sākotnējā **pārdošanas** **darbība**.
+- **Sākotnējā pārdošanas datuma** informācijas kods — informācijas kods, kas tiek izmantots, lai fiksētu atgriešanas transakcijas sākotnējo pārdošanas datumu, ja nav norādīta sākotnējā pārdošanas kvīts. Šis parametrs tiek izmantots kopā ar **informācijas kodu atgriešanas izcelsmei** un **Atgriešanas izcelsmes kartēšanas** parametriem, lai finanšu kvītī ģenerētu pareizu ziņojumu par atgriešanas darbības izcelsmi, ja nav oriģinālas pārdošanas darbības.
 
-    Informācijas kodam jābūt konfigurētam tā, lai **ievades tipa** lauks būtu iestatīts uz **datumu**. Tas ir jākonfigurē kā obligāts informācijas kods, kas pārdošanas darbībai tiek atlaists vienu reizi. Tā ir jāpiešķir arī kā saistītais informācijas kods informācijas kodam, kas ir atlasīts atgriešanas izcelsmes parametra informācijas kodam, lai šie divi informācijas kodi tiktu atlaisti **vienu** pēc **otra**.
+    Informācijas kods jākonfigurē tā, lai lauks Ievades **tips** būtu iestatīts uz **Datums**. Tas jākonfigurē kā obligāts informācijas kods, kas tiek atlaists vienu reizi katrā pārdošanas darījumā. Tas jāpiešķir arī kā **saistītās informācijas kods** informācijas kodam, kas atlasīts parametram **Return Origin** Info kods, lai abi informācijas kodi tiktu atlaisti cits pēc otra.
 
-    Šim kartējumam nav norādīta noklusējuma vērtība. Jāatlasa informācijas kods, kas ir konfigurēts jūsu programmā.
+    Šim kartējumam nav norādīta noklusējuma vērtība. Jāatlasa lietojumprogrammā konfigurēts informācijas kods.
 
-- **Atgriešanas izcelsmes kartējums – atgriešanas izcelsmes kartējums, kas tiek izmantots, lai izdrukātu atgriešanas darbības** izcelsmi, ja nav sniegta sākotnējā pārdošanas ieejas plūsma. Šis parametrs tiek izmantots kopā ar atgriešanas izcelsmes informācijas kodu un informācijas kodu oriģināla pārdošanas datuma parametriem, lai finanšu ieejas plūsmā ģenerētu pareizu ziņojumu par atgriešanas darbības izcelsmi, ja sākotnējā pārdošanas **darbība** **nepastāv**. Šajā piemērā parādīts noklusējuma kartējums.
+- **Atgriešanas izcelsmes kartējums** — atgriešanas izcelsmes kartējums, kas tiek izmantots atgriešanas darbības izcelsmes drukāšanai, ja nav norādīta sākotnējā pārdošanas ieejas plūsma. Šis parametrs tiek izmantots kopā ar **atgriezto preču izcelsmes** informācijas kodu un **informācijas kodu sākotnējiem pārdošanas datuma** parametriem, lai finanšu kvītī ģenerētu pareizu ziņojumu par atgriešanas darbības izcelsmi, ja nav oriģinālas pārdošanas darbības. Nākamajā piemērā ir parādīta noklusējuma kartēšana.
 
     ```JSON
     {"ReturnOrigins": [
@@ -236,62 +236,62 @@ Tālāk redzamais noklusējuma datu kartējums ir ietverts finanšu dokumenta no
         "PrinterReturnOriginWithoutFiscalData":"POS"}
     ```
 
-    Šajā kartēšanā ir skaidrojums par atribūtiem:
+    Šeit ir šīs kartēšanas atribūtu skaidrojums:
 
-    - **ReturnOrigin** ir viena no iespējamām atgriešanas izcelsmei jūsu veikalos. Vērtībai jāatbilst atgriešanas izcelsmes **parametra informācijas koda** vērtībai.
-    - **PrinterReturnOrigin ir viena no atgriešanas izcelsmes, ko pieņem** fiskālais **printeris** **·** (POS, POZ, **ND**).
-    - **PrinterReturnOriginWithoutFiscalData ir atgriešanas izcelsme, ko fiskālais printeris pieņem un kas atbilst atgriešanas darbībai, kas ir saistīta ar oriģinālo pārdošanas transakciju, kam nav saistītu finanšu datu, jo tā netika reģistrēta, izmantojot** fiskālo printeri. Šajā gadījumā sākotnējais pārdošanas datums tiek identificēts kā sākotnējās pārdošanas darbības datums.
+    - **ReturnOrigin** ir viena no iespējamām atgriešanās pirmsākumiem jūsu veikalos. Vērtībai jāatbilst parametra Return Origin **informācijas koda vērtībai**.
+    - **PrinterReturnOrigin** ir viena no atgriešanas pirmsākumiem, ko akceptē finanšu printeris (**POS**, **VR** vai **ND**).
+    - **PrinterReturnOriginWithoutFiscalData** ir atgriešanas izcelsme, ko pieņem finanšu printeris un kas atbilst atgriešanas darbībai, kura ir saistīta ar sākotnējo pārdošanas transakciju, kurai nav saistītu finanšu datu, jo tā nav reģistrēta, izmantojot fiskālo printeri. Šajā gadījumā sākotnējais pārdošanas datums tiek identificēts kā sākotnējās pārdošanas darbības datums.
 
-Šie noklusējuma datu kartējumi ir novecojuši un tiek saglabāti tikai atpakaļsaderība:
+Šādi noklusējuma datu kartējumi ir novecojuši un tiek glabāti tikai atpakaļsaderībai:
 
 - Pievienotās vērtības nodokļa (PVN) kodu kartēšana
 - Depozīta maksājuma veids
 
-#### <a name="fiscal-connector-settings"></a>Finanšu savienotāja iestatījumi
+#### <a name="fiscal-connector-settings"></a>Fiskālā savienotāja iestatījumi
 
-Šādi iestatījumi ir iekļauti finanšu savienotāja konfigurācijā, kas tiek nodrošināta kā daļa no fiskālās integrācijas parauga:
+Tālāk norādītie iestatījumi ir iekļauti fiskālā savienotāja konfigurācijā, kas tiek nodrošināta kā daļa no fiskālās integrācijas parauga.
 
-- **Galapunkta** adrese – printera URL.
-- **Datuma un laika sinhronizācija – vērtība, kas norāda, vai printera datums un laiks ir jāsinhronizē** ar pievienoto aparatūras staciju.
+- **Galapunkta adrese** – Printera URL.
+- **Datuma un laika sinhronizācija** – Vērtība, kas norāda, vai printera datums un laiks ir jāsinhronizē ar pievienoto aparatūras staciju.
 
-### <a name="configure-channel-components"></a>Konfigurēt kanāla komponentus
+### <a name="configure-channel-components"></a>Konfigurējiet kanāla komponentus
 
 > [!WARNING]
-> Jaunā neatkarīgā iepakojuma un paplašinājuma modeļa ierobežojumu dēļ to [pašlaik nevar izmantot šim](../dev-itpro/build-pipeline.md) fiskālās integrācijas parauga modelim. Jums ir jāizmanto iepriekšējā Retail SDK versija izstrādātājam VM LCS. Papildinformāciju skatiet Itālijas [fiskālā printera integrācijas parauga izvietošanas vadlīnijās (mantojuma).](emea-ita-fpi-sample-sdk.md)
+> Ierobežojumu dēļ [jauns neatkarīgs iepakojuma un pagarinājuma modelis](../dev-itpro/build-pipeline.md), to pašlaik nevar izmantot šim fiskālās integrācijas paraugam. Iepriekšējā mazumtirdzniecības SDK versija ir jāizmanto izstrādātāja VM LCS. Papildinformāciju skatiet [Izvēršanas vadlīnijas fiskālā printera integrācijas paraugam Itālijai (mantots)](emea-ita-fpi-sample-sdk.md).
 >
-> Atbalsts jaunajam neatkarīgajam iepakojuma un paplašinājuma modelim finanšu integrācijas paraugos tiek plānots turpmākajām versijām.
+> Atbalsts jaunajam neatkarīgajam iepakojuma un paplašināšanas modelim fiskālās integrācijas paraugiem ir plānots vēlākās versijās.
 
-#### <a name="set-up-the-development-environment"></a>Iestatīt izstrādes vidi
+#### <a name="set-up-the-development-environment"></a>Iestatiet izstrādes vidi
 
-Lai iestatītu izstrādes vidi un paplašinātu paraugu ņemšanas, veiciet šādus soļus.
+Lai iestatītu izstrādes vidi, lai pārbaudītu un paplašinātu paraugu, veiciet šīs darbības.
 
-1. Lejupielādējiet Solutions [Dynamics 365 Commerce repozitoriju vai](https://github.com/microsoft/Dynamics365Commerce.Solutions) lejupielādējiet to. Atlasiet pareizu filiāles versiju atbilstoši SDK/programmas versijai. Papildinformāciju skatiet lejupielādes [Retail SDK paraugos un atsauces pakotnēs no GitHub un NuGet](../dev-itpro/retail-sdk/sdk-github.md).
-1. Atveriet fiskālā printera integrācijas risinājumu **pie Dynamics365Commerce.Solutions \\ FiscalIntegration \\ EpsonFP90IISample \\ EpsonFP90IISample.sln un izveidojiet** to.
-1. Instalēt CRT paplašinājumus:
+1. Klonējiet vai lejupielādējiet [Dynamics 365 Commerce Risinājumi](https://github.com/microsoft/Dynamics365Commerce.Solutions) krātuve. Atlasiet pareizo laidiena filiāles versiju atbilstoši savai SDK/lietojumprogrammas versijai. Papildinformāciju skatiet [Lejupielādējiet mazumtirdzniecības SDK paraugus un atsauces pakotnes no GitHub un NuGet](../dev-itpro/retail-sdk/sdk-github.md).
+1. Atveriet finanšu printera integrācijas risinājumu **Dynamics365Commerce.Solutions\\FiscalIntegration\\EpsonFP90IIISample\\EpsonFP90IIISample.sln** un izveidojiet to.
+1. Uzstādīt CRT paplašinājumi:
 
-    1. Atrast CRT paplašinājuma instalētāju:
+    1. Atrodi CRT paplašinājumu instalētājs:
 
-        - **Commerce Scale Unit:** **Mapē EpsonFP90IISample \\ ScaleUnit \\ ScaleUnit.EpsonFP90III.Installer \\ bin \\ Atbug \\ net461 atrodiet** mapi **ScaleUnit.EpsonFP90III.Installer** installer.
-        - **CRT Modern POS lokāls: Mapē** **EpsonFP90IISample \\\\ ModernPOS.EpsonFP90III.Installer \\ bin \\ Atkļūdošanas \\ net461** atrodiet **ModernPOS.EpsonFP90III.Installer** installer.
+        - **Commerce Scale Unit:** mapē **EpsonFP90IIISample\\ScaleUnit\\ScaleUnit.EpsonFP90III.Installer\\bin\\Debug\\net461** atrodiet mapiUnit.EpsonFP90III.Installer **instalētāju.**
+        - **Lokālais CRT vietnē Modern POS:** **EpsonFP90IIISample\\ModernPOS\\ModernPOS.EpsonFP90III.Installer\\bin\\Debug\\net461** atrodiet **modernPOS.EpsonFP90III.Installer** instalētāju.
 
-    1. Startējiet CRT paplašinājuma instalētāju no komandrindas:
+    1. Sāciet CRT paplašinājuma instalētājs no komandrindas:
 
-        - **Commerce Scale vienība:**
+        - **Tirdzniecības mēroga vienība:**
 
             ```Console
             ScaleUnit.EpsonFP90III.Installer.exe install --verbosity 0
             ```
 
-        - **Lokāls CRT modernajā POS:**
+        - **Vietējais CRT Mūsdienu POS:**
 
             ```Console
             ModernPOS.EpsonFP90III.Installer.exe install --verbosity 0
             ```
 
-1. Instalēt aparatūras stacijas paplašinājumus:
+1. Instalējiet aparatūras stacijas paplašinājumus:
 
-    1. Mapē **EpsonFP90IISample \\\\ HardwareStation HardwareStation.EpsonFP90iii.Installer \\ bin \\ Atkļūdošana \\ net461** atrodiet **hardwareStation.EpsonFP90III.Installer** instalētājs.
-    1. Startējiet paplašinājuma instalētāju no komandrindas:
+    1. **EpsonFP90IIISample\\HardwareStation\\HardwareStation.EpsonFP90III.Installer\\bin\\Debug\\net461** atrodiet **HardwareStation.EpsonFP90III.Installer** instalētāju.
+    1. Sāciet paplašinājuma instalētāju no komandrindas:
 
         ```Console
         HardwareStation.EpsonFP90III.Installer.exe install --verbosity 0
@@ -299,52 +299,52 @@ Lai iestatītu izstrādes vidi un paplašinātu paraugu ņemšanas, veiciet šā
 
 #### <a name="production-environment"></a>Ražošanas vide
 
-Izpildiet darbības, kas sadaļā Konveijers ir jāiestata fiskālās integrācijas parauga būvējuma konveijers, lai ģenerētu un izlaistu mākoņa mēroga vienību un pašapkalpošanās izvietojamos [iepakojumus](fiscal-integration-sample-build-pipeline.md) fiskālās integrācijas parauga iepakojumam. **Fails EpsonFP90II Build-pipeline.yml ir atrodams Solutions repozitorija** **YAML_Files \\**[Dynamics 365 Commerce konveijera](https://github.com/microsoft/Dynamics365Commerce.Solutions) mapē.
+Izpildiet norādījumus [Fiskālās integrācijas parauga izveides konveijera iestatīšana](fiscal-integration-sample-build-pipeline.md) lai ģenerētu un atbrīvotu Cloud Scale Unit un pašapkalpošanās izvietojamās pakotnes fiskālās integrācijas paraugam. **EpsonFP90III build-pipeline.yml** veidnes YAML failu var atrast **risinājumu\\ repozitorija mapē** Pipeline [Dynamics 365 Commerce YAML_Files](https://github.com/microsoft/Dynamics365Commerce.Solutions).
 
-## <a name="design-of-extensions"></a>Paplašinājumu dizains
+## <a name="design-of-extensions"></a>Paplašinājumu projektēšana
 
-Itālijas fiskālā printera integrācijas paraugs ir balstīts uz [fiskālās integrācijas](fiscal-integration-for-retail-channel.md) funkcionalitāti un ir daļa no retail SDK. Paraugs atrodas **src \\ FiscalIntegration \\ EpsonFP90IISample mapē Solutions repository (piemēram, paraugs ir**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/)[izlaišanas/9,33).](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/EpsonFP90IIISample) Paraugs [sastāv](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices) no fiskālā dokumenta nodrošinātāja, kas ir CRT Commerce Hardware Station paplašinājums un fiskālais savienotājs. Papildinformāciju par to, kā izmantot retail SDK, skatiet [mazumtirdzniecības SDK arhitektūrā](../dev-itpro/retail-sdk/retail-sdk-overview.md) un [būvējuma konveijera iestatīšana neatkarīgam iepakojuma SDK](../dev-itpro/build-pipeline.md).
+Fiskālā printera integrācijas paraugs Itālijai ir balstīts uz [fiskālās integrācijas funkcionalitāte](fiscal-integration-for-retail-channel.md) un ir daļa no mazumtirdzniecības SDK. Paraugs atrodas **src\\ Fiskālā integrācija\\ EpsonFP90IIISample** mape [Dynamics 365 Commerce Risinājumi](https://github.com/microsoft/Dynamics365Commerce.Solutions/) repozitorijs (piemēram, [paraugs izlaidumā/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/EpsonFP90IIISample)). Paraugs [sastāv](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskālo dokumentu nodrošinātāja, kas ir paplašinājums CRT, un fiskālais savienotājs, kas ir Commerce Hardware Station paplašinājums. Papildinformāciju par to, kā izmantot mazumtirdzniecības SDK, skatiet [Mazumtirdzniecības SDK arhitektūra](../dev-itpro/retail-sdk/retail-sdk-overview.md) un [Iestatiet neatkarīgā iepakojuma SDK izveides konveijeru](../dev-itpro/build-pipeline.md).
 
 > [!WARNING]
-> Jaunā neatkarīgā iepakojuma un paplašinājuma modeļa ierobežojumu dēļ to [pašlaik nevar izmantot šim](../dev-itpro/build-pipeline.md) fiskālās integrācijas parauga modelim. Jums ir jāizmanto iepriekšējā Retail SDK versija izstrādātājam VM LCS. Papildinformāciju skatiet Itālijas [fiskālā printera integrācijas parauga izvietošanas vadlīnijās (mantojuma).](emea-ita-fpi-sample-sdk.md) Atbalsts jaunajam neatkarīgajam iepakojuma un paplašinājuma modelim finanšu integrācijas paraugos tiek plānots turpmākajām versijām.
+> Ierobežojumu dēļ [jauns neatkarīgs iepakojuma un pagarinājuma modelis](../dev-itpro/build-pipeline.md), to pašlaik nevar izmantot šim fiskālās integrācijas paraugam. Iepriekšējā mazumtirdzniecības SDK versija ir jāizmanto izstrādātāja VM LCS. Papildinformāciju skatiet [Izvēršanas vadlīnijas fiskālā printera integrācijas paraugam Itālijai (mantots)](emea-ita-fpi-sample-sdk.md). Atbalsts jaunajam neatkarīgajam iepakojuma un paplašināšanas modelim fiskālās integrācijas paraugiem ir plānots vēlākās versijās.
 
-### <a name="commerce-runtime-extension-design"></a>Commerce runtime paplašinājuma dizains
+### <a name="commerce-runtime-extension-design"></a>Tirdzniecības izpildlaika paplašinājuma dizains
 
-Nolūks paplašinājumam, kas ir fiskālā dokumenta nodrošinātājs, ir izveidot printerim raksturīgus dokumentus un apstrādāt atbildes no fiskālā printera.
+Paplašinājuma, kas ir fiskālo dokumentu nodrošinātājs, mērķis ir ģenerēt printerim specifiskus dokumentus un apstrādāt atbildes no fiskālā printera.
 
-#### <a name="request-handler"></a>Pieprasījumu apdarinātājs
+#### <a name="request-handler"></a>Pieprasījumu apstrādātājs
 
-Pieprasījumu **apdarinātājs DocumentProviderEpsonFP90III ir ieejas punkts pieprasījumam** ģenerēt dokumentus no fiskālā printera.
+The **DocumentProviderEpsonFP90III** pieprasījumu apstrādātājs ir ieejas punkts pieprasījumam ģenerēt dokumentus no fiskālā printera.
 
-Apdarinātājs ir pārmantots **no INamedRequestHandler** interfeisa. Metode **HandlerName** ir atbildīga par apdarinātāja nosaukuma atgriešanu. Apdarinātāja nosaukumam ir jāatbilst savienotāja dokumentu nodrošinātāja nosaukumam, kas norādīts programmā Commerce Headquarters.
+Apdarinātājs ir mantots no **INamedRequestHandler** saskarne. The **Apdarinātāja vārds** metode ir atbildīga par apstrādātāja vārda atgriešanu. Apdarinātāja nosaukumam ir jāatbilst savienotāja dokumenta nodrošinātāja nosaukumam, kas norādīts Commerce galvenajā mītnē.
 
 Savienotājs atbalsta šādus pieprasījumus:
 
-- **GetFiscalDocumentDocumentProviderRequest — šajā pieprasījumā ir ietverta** informācija par to, kurš dokuments ir jāģenerē. Tas atgriež printerim raksturīgu dokumentu, kas jāreģistrē fiskālajā printerī.
-- **GetSupportedRegistrableEventsDocumentProviderRequest - šis pieprasījums atgriež notikumu sarakstu,** uz kuriem ir jāabonē. Pašlaik tiek atbalstīti šādi notikumi: pārdošana, X pārskata drukāšana un Z pārskata drukāšana.
+- **GetFiscalDocumentDocumentProviderRequest** – Šis pieprasījums satur informāciju par to, kāds dokuments ir jāģenerē. Tas atgriež printerim raksturīgu dokumentu, kas jāreģistrē fiskālā printerī.
+- **GetSupportedRegistrableEventsDocumentProviderRequest** – Šis pieprasījums atgriež abonējamo notikumu sarakstu. Pašlaik tiek atbalstīti šādi pasākumi: pārdošana, X pārskata drukāšana un Z pārskata drukāšana.
 
 #### <a name="configuration"></a>Konfigurācija
 
-Finanšu dokumentu nodrošinātāja konfigurācijas fails atrodas **src \\ FiscalIntegration \\ EpsonFP90IISample \\ CommerceRuntime \\ DocumentProvider.EpsonFP90IISample \\ Configuration \\ DocumentProviderEpsonF90IISample.xml** risinājumu repozitorijā. [Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) Faila mērķis ir iespējot iestatījumus dokumentu nodrošinātājam, lai tos konfigurētu no programmas Commerce Headquarters. Faila formāts ir saskaņots ar finanšu integrācijas konfigurācijas prasībām.
+Finanšu dokumentu nodrošinātāja konfigurācijas fails atrodas **src\\FiscalIntegration\\EpsonFP90IIISample\\CommerceRuntime\\DocumentProvider.EpsonFP90IIISample\\Configuration\\DocumentProviderEpsonFP90IIISample.xml** [Dynamics 365 Commerce risinājumu](https://github.com/microsoft/Dynamics365Commerce.Solutions/) repozitorijā. Faila mērķis ir iespējot iestatījumus dokumentu nodrošinātājam, ko konfigurē Commerce galvenajā mītnē. Faila formāts ir saskaņots ar fiskālās integrācijas konfigurācijas prasībām.
 
 ### <a name="hardware-station-extension-design"></a>Aparatūras stacijas paplašinājuma dizains
 
-Paplašinājuma, kas ir fiskālais savienotājs, nolūks ir sazināties ar fiskālo printeri. Šis paplašinājums izmanto HTTP protokolu, lai iesniegtu CRT dokumentus, ko paplašinājums ģenerē fiskālam printerim. Tā apstrādā arī atbildes, kas saņemtas no fiskālā printera.
+Paplašinājuma, kas ir fiskālais savienotājs, mērķis ir sazināties ar fiskālo printeri. Šis paplašinājums izmanto HTTP protokolu, lai iesniegtu dokumentus, kas CRT paplašinājums tiek ģenerēts fiskālajam printerim. Tas arī apstrādā atbildes, kas tiek saņemtas no fiskālā printera.
 
-#### <a name="request-handler"></a>Pieprasījumu apdarinātājs
+#### <a name="request-handler"></a>Pieprasījumu apstrādātājs
 
-**EpsonFP90IISample pieprasījuma apdarinātājs ir ieejas punkts pieprasījumu apstrādei finanšu** perifērijas ierīcē.
+**EpsonFP90IIISample** pieprasījumu apdarinātājs ir ieejas punkts pieprasījuma apstrādei finanšu perifērijas ierīcē.
 
-Apdarinātājs ir pārmantots **no INamedRequestHandler** interfeisa. Metode **HandlerName** ir atbildīga par apdarinātāja nosaukuma atgriešanu. Apdarinātāja nosaukumam ir jāatbilst programmā Commerce Headquarters norādītajam finanšu savienotāja nosaukumam.
+Apdarinātājs ir mantots no **INamedRequestHandler** saskarne. The **Apdarinātāja vārds** metode ir atbildīga par apstrādātāja vārda atgriešanu. Apdarinātāja nosaukumam ir jāatbilst fiskālā savienotāja nosaukumam, kas norādīts Commerce galvenajā mītnē.
 
 Savienotājs atbalsta šādus pieprasījumus:
 
-- **SubmitDocumentFiscalDeviceRequest – šis pieprasījums sūta dokumentus printeriem un atgriež** atbildi no fiskālā printera.
-- **IsReadyFiscalDeviceRequest** – šis pieprasījums tiek izmantots ierīces veselības pārbaudei.
-- **InitializeFiscalDeviceRequest** - šis pieprasījums tiek izmantots printera inicializēšanai.
+- **SubmitDocumentFiscalDeviceRequest** – Šis pieprasījums nosūta dokumentus uz printeriem un atgriež atbildi no fiskālā printera.
+- **IsReadyFiscalDeviceRequest** – Šis pieprasījums tiek izmantots ierīces veselības pārbaudei.
+- **InitializeFiscalDeviceRequest** – Šis pieprasījums tiek izmantots printera inicializēšanai.
 
 #### <a name="configuration"></a>Konfigurācija
 
-Finanšu savienotāja konfigurācijas fails atrodas **\\ src FiscalIntegration \\ EpsonFP90IISample \\ HardwareStation \\ EpsonFP90IIFiscalDeviceSample \\ konfigurācijas \\ ConnectorEpsonFP90IISample.xml** solutions [Dynamics 365 Commerce repozitorijā.](https://github.com/microsoft/Dynamics365Commerce.Solutions/) Faila mērķis ir iespējot iestatījumus savienotājam, kas tiks konfigurēts no programmas Commerce Headquarters. Faila formāts ir saskaņots ar finanšu integrācijas konfigurācijas prasībām.
+Finanšu savienotāja konfigurācijas fails atrodas **src\\FiscalIntegration\\EpsonFP90IIISample\\HardwareStation\\EpsonFP90IIIFiscalDeviceSample\\Configuration\\ConnectorEpsonFP90IIISample.xml** [Dynamics 365 Commerce risinājumu](https://github.com/microsoft/Dynamics365Commerce.Solutions/) repozitorijā. Faila mērķis ir iespējot savienotāja iestatījumus, kas jākonfigurē no Commerce galvenās mītnes. Faila formāts ir saskaņots ar fiskālās integrācijas konfigurācijas prasībām.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

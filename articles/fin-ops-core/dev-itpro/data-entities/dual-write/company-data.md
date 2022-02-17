@@ -1,6 +1,6 @@
 ---
 title: Uzņēmuma koncepts Dataverse
-description: Šajā tēmā aprakstīta uzņēmuma datu integrācija starp programmām Finance and Operations un Dataverse.
+description: Šajā tēmā ir aprakstīta uzņēmuma datu integrācija starp Finance and Operations un Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 08/04/2020
 ms.topic: article
@@ -9,28 +9,28 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 25bd2cc0df4940f02313b3a61f69b2273e835639
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 3657e41363ca6c1ce8eabfeaf3ba6da9b93f5e2a
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782089"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061030"
 ---
 # <a name="company-concept-in-dataverse"></a>Uzņēmuma koncepts Dataverse
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 
 Programmā Finance and Operations koncepts *uzņēmums* ir gan juridiska konstrukcija, gan biznesa konstrukcija. Tā ir arī datu drošības un redzamības robeža. Lietotāji vienmēr strādā viena uzņēmuma kontekstā, un lielāko daļu datu izslēdz uzņēmums.
 
 Dataverse nav līdzvērtīga koncepta. Tuvākais koncepts ir *biznesa vienība*, kas galvenokārt ir lietotāja datu drošības un redzamības robeža. Šim konceptam nav tādas pašas juridiskās vai biznesa ietekmes kā uzņēmuma konceptam.
 
-Tā kā biznesa vienība un uzņēmums nav līdzvērtīgi koncepti, nav iespējams piespiest vienu pret vienu (1:1) kartēšanu starp tiem Dataverse integrācijas nolūkā. Tomēr, tā kā lietotājiem pēc noklusējuma ir jābūt iespējai skatīt tās pašas rindas programmā un Dataverse, Microsoft ir ieviesis jaunu tabulu Dataverse ar nosaukumu cdm\_ Uzņēmums. Šī tabula ir līdzvērtīga uzņēmuma tabulai programmā. Lai palīdzētu garantēt, ka rindu redzamība ir līdzvērtīga starp programmu un Dataverse standarta komplektācijā, mēs iesakām šādu iestatīšanu datiem Dataverse:
+Tā kā biznesa vienība un uzņēmums nav līdzvērtīgi koncepti, nav iespējams piespiest vienu pret vienu (1:1) kartēšanu starp tiem Dataverse integrācijas nolūkā. Tomēr, tā kā lietotājiem pēc noklusējuma ir jābūt iespējai skatīt tās pašas rindas programmā un Dataverse, Microsoft ir ieviesis jaunu tabulu Dataverse ar nosaukumu cdm\_Uzņēmums. Šī tabula ir līdzvērtīga uzņēmuma tabulai programmā. Lai palīdzētu garantēt, ka rindu redzamība ir līdzvērtīga starp programmu un Dataverse standarta komplektācijā, mēs iesakām šādu iestatīšanu datiem Dataverse:
 
-+ Katrai Finance and Operations uzņēmuma rindai, kas ir iespējota duālajam ierakstam, tiek izveidota saistīta cmd\_ uzņēmums rinda.
-+ Kad CDM\_ Uzņēmums rinda ir izveidota un ir iespējota duālajam ierakstam, tiek izveidota noklusējuma biznesa vienība ar tādu pašu nosaukumu. Lai gan noklusējuma grupa šim biznesa vienībai tiek izveidota automātiski, biznesa vienība netiek izmantota.
++ Katrai Finance and Operations Company rindai, kurā ir iespējota dubultā rakstīšana, saistītais CDM\_ Tiek izveidota uzņēmuma rinda.
++ Kad CDM\_Uzņēmums rinda ir izveidota un ir iespējota duālajam ierakstam, tiek izveidota noklusējuma biznesa vienība ar tādu pašu nosaukumu. Lai gan noklusējuma grupa šim biznesa vienībai tiek izveidota automātiski, biznesa vienība netiek izmantota.
 + Tiek izveidota atsevišķa īpašnieka grupa ar tādu pašu nosaukumu. Arī tā ir saistīta ar biznesa vienību.
 + Pēc noklusējuma jebkuras rindas, kas tiek izveidota un duāli ierakstīta Dataverse, īpašnieks tiek iestatīts uz grupu "DW Owner", kas ir saistīta ar attiecīgo biznesa vienību.
 
@@ -43,23 +43,23 @@ Nākamajos attēlos ir parādīts šīs datu iestatīšanas piemērs Dataverse.
 + "Pārdošanas vadītāja" loma ir piešķirta "USMF pārdošanas" grupas dalībniekiem.
 + Lietotāji, kuriem ir "Pārdošanas vadītāja" loma, var piekļūt visām konta rindām, kas ir tās pašas biznesa vienības dalībnieki, kuras dalībnieki ir šie lietotāji.
 + "USMF pārdošanas" grupa ir saistīta ar iepriekš minēto USMF biznesa vienību.
-+ Tādēļ "USMF pārdošanas" grupas dalībnieki var redzēt jebkuru kontu, kas pieder "USMF DW" lietotājam, kurš nācis no USMF uzņēmuma tabulas programmā Finance and Operations.
++ Tāpēc "USMF Sales" komandas dalībnieki var redzēt jebkuru "USMF DW" lietotājam piederošo kontu, kas būtu nācis no USMF Company tabulas sadaļā Finance and Operations.
 
 ![Kā grupas var tikt izmantotas.](media/dual-write-company-2.png)
 
 Kā redzams iepriekšējā attēlā, šī 1:1 kartēšana starp biznesa vienību, uzņēmumu un grupu ir tikai sākumpunkts. Šajā piemērā jaunā "Eiropas" biznesa vienība tiek izveidota manuāli Dataverse kā DEMF un ESMF vecākelements. Šī jaunā saknes biznesa vienība nav saistīta ar duālo ierakstu. Taču to var izmantot, lai grupas "EUR Sales" dalībniekiem piešķirtu piekļuvi konta datiem gan DEMF, gan ESMF, saistītajā drošības lomā iestatot datu redzamību uz **Vecākelementa/Pakārtotā elementa BU**.
 
-Pēdējā tēma, kas jāapspriež, ir tas, kā duālais ieraksts nosaka, kurai īpašnieka grupai būtu jāpiešķir rindas. Šo uzvedību kontrolē kolonna **Noklusējuma atbildīgā darba grupa** CDM\_ Uzņēmums rindā. Kad cdm\_ Uzņēmums rinda ir iespējota duālam ierakstam, spraudnis automātiski izveido saistīto biznesa vienību un īpašnieka grupu (ja tādas vēl nav) un iestata kolonnu **Noklusējuma atbildīgā darba grupa**. Administrators var mainīt šo kolonnu uz citu vērtību. Tomēr administrators nevar notīrīt kolonnu, kamēr tabula ir iespējota duālajam ierakstam.
+Pēdējā tēma, kas jāapspriež, ir tas, kā duālais ieraksts nosaka, kurai īpašnieka grupai būtu jāpiešķir rindas. Šo uzvedību kontrolē kolonna **Noklusējuma atbildīgā darba grupa** CDM\_Uzņēmums rindā. Kad cdm\_Uzņēmums rinda ir iespējota duālam ierakstam, spraudnis automātiski izveido saistīto biznesa vienību un īpašnieka grupu (ja tādas vēl nav) un iestata kolonnu **Noklusējuma atbildīgā darba grupa**. Administrators var mainīt šo kolonnu uz citu vērtību. Tomēr administrators nevar notīrīt kolonnu, kamēr tabula ir iespējota duālajam ierakstam.
 
 > [!div class="mx-imgBorder"]
-![ Noklusējuma atbildīgās darba grupas kolonna.](media/dual-write-default-owning-team.jpg)
+![Noklusējuma atbildīgās darba grupas kolonna.](media/dual-write-default-owning-team.jpg)
 
 ## <a name="company-striping-and-bootstrapping"></a>Uzņēmuma svītrošana un sāknēšana
 
-Dataverse integrācija rada uzņēmuma paritāti, izmantojot uzņēmuma identifikatoru datu svītrošanai. Kā redzams nākamajā attēlā, visas uzņēmumam specifiskās tabulas tiek izvērstas tā, lai tām būtu relācija daudzi pret vienu (N:1) ar cdm\_ Uzņēmuma tabulu.
+Dataverse integrācija rada uzņēmuma paritāti, izmantojot uzņēmuma identifikatoru datu svītrošanai. Kā redzams nākamajā attēlā, visas uzņēmumam specifiskās tabulas tiek izvērstas tā, lai tām būtu relācija daudzi pret vienu (N:1) ar cdm\_Uzņēmuma tabulu.
 
 > [!div class="mx-imgBorder"]
-![ N:1 relācija starp uzņēmumam specifisko tabulu un cdm_Uzņēmuma tabula.](media/dual-write-bootstrapping.png)
+![N:1 relācija starp uzņēmumam specifisko tabulu un cdm_Uzņēmuma tabula.](media/dual-write-bootstrapping.png)
 
 + Pēc tam, kad uzņēmums ir pievienots un saglabāts, rindu vērtība kļūst tikai lasāma. Tādēļ lietotājiem jāpārliecinās, ka tie atlasa pareizo uzņēmumu.
 + Tikai rindas, kurās ir uzņēmuma dati, ir piemērotas duālajiem ierakstiem starp programmu un Dataverse.

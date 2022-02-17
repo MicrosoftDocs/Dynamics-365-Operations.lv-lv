@@ -4,18 +4,19 @@ description: Šajā tēmā ir sniegta informācija par mākoņa un malas mēroga
 author: cabeln
 ms.date: 04/22/2021
 ms.topic: article
+ms.search.form: ScaleUnitWorkloadsWorkspace
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 3111de1f9862cbf926e763f963c86059f4121fc0
-ms.sourcegitcommit: 4b7e9d074e368a08d2f75482b722dce0c69a4bbd
-ms.translationtype: MT
+ms.openlocfilehash: 593331a3f1073edb6a50c9bfc66e0723d222832a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7733443"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065768"
 ---
 # <a name="scale-units-in-a-distributed-hybrid-topology"></a>Mēroga vienības izdalītā hibrīda topoloģijā
 
@@ -51,8 +52,7 @@ Varat konfigurēt centrmezgla vidi un mākoņveida skalas vienības atlasītajā
 
 ### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Īpašas noliktavas vadības darba slodzes iespējas mēroga vienībās
 
-Noliktavas pārvaldības darba noslodze ļauj darbināt noliktavas vadības procesus izolētā izvietošanā.
-Plašāku informāciju skatiet rakstā [Mākoņa un malas mēroga vienības ražošanas izpilde](cloud-edge-workload-warehousing.md).
+Noliktavas pārvaldības darba slodze ir pirmā sadalītā darba slodze mēroga vienībām, kas tiek izlaistas vispārējai pieejamībai. Tas ļauj jūsu noliktavas darbības mērogot un darboties elastīgā vidē, izmantojot izolētus apkopes logus. Noliktavas pārvaldības darba slodze atbalsta lielāko daļu uzņēmuma centrmezgla noliktavas pārvaldības procesu. Plašāku informāciju skatiet rakstā [Mākoņa un malas mēroga vienības ražošanas izpilde](cloud-edge-workload-warehousing.md).
 
 ### <a name="dedicated-manufacturing-execution-workload-capabilities-in-a-scale-unit"></a>Īpašas ražošanas izpildes darba slodzes iespējas mēroga vienībās
 
@@ -69,7 +69,7 @@ Plašāku informāciju skatiet rakstā [Mākoņa un malas mēroga vienības raž
 
 Iespējojot sadalīto hibrīdu topoloģiju, jūs pārslēdzat savu Supply Chain Management mākoņa vidi tā, lai tā darbotos kā centrmezgls. Varat arī saistīt papildu vides, kas mākonī vai malā ir konfigurētas kā mēroga vienības.
 
-### <a name="prerequisites-and-limitations-for-cloud-scale-units"></a><a name="cloud-scale-unit-prerequisites"></a> Mākoņskalas mērvienību priekšnosacījumi un ierobežojumi
+### <a name="prerequisites-and-limitations-for-cloud-scale-units"></a><a name="cloud-scale-unit-prerequisites"></a>Mākoņskalas mērvienību priekšnosacījumi un ierobežojumi
 
 Pašreizējā mēroga vienību izlaidumā dažas iespējas vēl nav pieejamas, bet tās var tikt pievienotas inkrementālām izlaidumiem laika gaitā.
 
@@ -114,7 +114,7 @@ Pārvaldības iespējas, kas var palīdzēt ar darba slodzi, ir ierobežotas. Da
 
 Rādītāji un mērvienības, kas var palīdzēt atlasīt labāko programmu mēroga vienībām, vēl nav pieejami. Strādājiet ar Microsoft kontaktpersonu vai ieviešanas partneri, lai izvēlētos izdevīgāko programmu.
 
-### <a name="data-processing-during-management-of-scale-units"></a><a name="data-processing-management"></a> Datu apstrāde mēroga vienību pārvaldības laikā
+### <a name="data-processing-during-management-of-scale-units"></a><a name="data-processing-management"></a>Datu apstrāde mēroga vienību pārvaldības laikā
 
 Iespējojot Dynamics 365 vidi, lai atbalstītu sadali, hibrīdu topoloģiju mākoņa un malas skalas vienībām, daži pārvaldības pakalpojumi tiek viesoti tikai Amerikas Savienotajās Valstīs līdzīgi kā LCS. Šī darbība ietekmē atsevišķas administratīvās un konfigurācijas informācijas pārsūtīšanu un uzglabāšanu, ko izmanto [Mēroga vienību pārvaldnieka portāls](https://sum.dynamics.com). Daži piemēri:
 
@@ -182,31 +182,31 @@ Korporācija Microsoft pārskatīs jūsu pieprasījumu un sniegs informāciju pa
 
 Kad pievienošana ir pabeigta, varat izmantot portu, lai konfigurētu mēroga vienības un darba slodzes.
 
-### <a name="manage-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a> Pārvaldīt mēroga vienības un darba slodzi, izmantojot portālu Mērvienību vadītājs
+### <a name="manage-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a> Pārvaldiet mēroga vienības un darba slodzes, izmantojot portālu Scale Unit Manager
 
 Dodieties uz [portālu Skale Unit Manager](https://aka.ms/SCMSUM) un piesakieties, izmantojot savu nomnieka kontu. Lapā **Konfigurēt mēroga vienības** varat pievienot centrmezgla vidi, ja tā jau nav norādīta sarakstā. Pēc tam varat atlasīt centrmezglu, ko vēlaties konfigurēt ar mēroga vienībām un darba slodzēm.
 
-:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Mēroga vienību pārvaldnieka portāls, Konfigurējiet mēroga vienību lapu.":::
+:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Mēroga vienību pārvaldnieka portāls, Mēroga vienību konfigurēšanas lapa.":::
 
 Lai pievienotu vienu vai vairākas mēroga vienības, kas ir pieejamas jūsu abonementos, atlasiet **Pievienot mēroga vienības**.
 
 Lai pievienotu noliktavas pārvaldības darba slodzi kādai no jūsu mēroga vienībām, cilnē **Definētās darba slodzes** izmantojiet pogu **Izveidot darba slodzi**. Katrai darba slodzei jānorāda to procesu konteksts, kas piederēs šai darba slodzei. Noliktavas pārvaldības darba slodzei konteksts ir noteikta noliktava noteiktā vietā un juridiskajā personā.
 
-:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Definējiet darba noslodzes dialogu.":::
+:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Definējiet darba slodzes dialoglodziņu.":::
 
 #### <a name="manage-workloads"></a>Pārvaldīt darba slodzi
 
-Kad ir iespējota viena vai vairākas darba noslodzes, izmantojiet opciju Pārvaldīt darba slodzi, lai sāktu un pārvaldītu procesus, piemēram, **tos, kas ir uzskaitīti šajā** tabulā.
+Kad ir iespējota viena vai vairākas darba slodzes, izmantojiet **Pārvaldīt darba slodzi** iespēja uzsākt un pārvaldīt procesus, piemēram, tos, kas uzskaitīti nākamajā tabulā.
 
 | Apstrādāšana | Apraksts |
 |---|---|
-| Pauzēt mēroga vienības sakarus | Pauzēt konveijera ziņojumus starp pārkraušanas vietu un mēroga vienību. Šis process apturēs sakarus un pāries datu konveijeru starp pārkraušanas punktu un mēroga vienībām. Šis process ir jāpalaiž pirms piegādes ķēdes pārvaldības apkalpošanas operācijas palaišanas pārkraušanas centrā vai mēroga vienībā, bet jūs to varat izmantot arī citās situācijās. |
-| CV apjoma vienības sakarus | Atsākt konveijera ziņojumus starp pārkraušanas vietu un mēroga vienību. Iespējams, ka jums būs jāizmanto šis process, piemēram, pēc piegādes ķēžu apkalpošanas operācijas palaišanas pārkraušanas centrā vai mēroga vienībā. |
-| Jaunināt darba noslodzes | Sinhronizēt jaunu funkcionalitāti starp pārkraušanas centra un mēroga vienības darba slodzēm. Iespējams, ka jums būs jāizmanto šis process, piemēram, kad apkalpošana ir radījusi datu apmaiņas vaicājumu maiņu un/vai ir pievienojusi jaunas tabulas vai laukus darba noslodzei. |
-| Pārsūtīt darba slodzi uz apjoma vienību | Plānojiet darba noslodzi, kas pašreiz darbojas pārkraušanas punktu, kas jāpārvieto uz mēroga vienību. Kad šis process ir palaists, datu sinhronizācija notiks, un gan pārkraušanas punktu, gan mēroga vienību tiks iestatīta mainīt darba noslodzes īpašumtiesības. |
-| Pārsūtīt mēroga vienību uz pārkraušanas centru | Plānojiet darba noslodzi, kas pašreiz darbojas mēroga vienībā, lai to pārceltu uz pārkraušanas punktu. Kad šis process ir palaists, datu sinhronizācija notiks, un gan pārkraušanas punktu, gan mēroga vienību tiks iestatīta mainīt darba noslodzes īpašumtiesības.
-| Ārkārtas pāreja uz pārkraušanas mezglu | <p>Nekavējoties pārsūtiet esošo darba noslodzi uz pārkraušanas centru. *Šis process mainīs īpašumtiesības tikai datiem, kas pašlaik ir pieejami pārkraušanas centrā.*</p><p><strong>Brīdinājums.</strong> Šis process var izraisīt datu zudumu nesinhronizētiem datiem un biznesa apstrādes kļūmi. Tāpēc tā ir jāizmanto tikai noslogotos gadījumos, kur biznesa procesi ir jāapstrādā pārkraušanas punktu, jo mēroga vienībai ir pārtraukums, ko pieņemamā laikā nevar samazināt.</p> |
-| Ideoloģija - izplatītā topoloģija | Noņemiet mēroga vienības izvietojumu un palaidiet tikai pārkraušanas centrā bez darba noslodzes apstrādes. |
+| Apturēt skalas vienības saziņu | Apturiet cauruļvada ziņojumu sūtīšanu starp centrmezglu un mēroga vienību. Šis process pārtrauks saziņu un iztukšo datu cauruļvadu starp centrmezglu un mēroga vienībām. Šis process ir jāpalaiž, pirms veicat piegādes ķēdes pārvaldības apkalpošanas darbību centrmezglā vai skalas blokā, taču varat to izmantot arī citās situācijās. |
+| Atsākt mēroga vienības saziņu | Atsākt konveijera ziņojumus starp centrmezglu un mēroga vienību. Iespējams, jums būs jāizmanto šis process, piemēram, pēc piegādes ķēdes pārvaldības apkalpošanas darbības izpildes centrmezglā vai skalas vienībā. |
+| Uzlabojiet darba slodzi | Sinhronizējiet jaunu funkcionalitāti starp centrmezgla un mēroga vienības darba slodzi. Iespējams, jums būs jāizmanto šis process, piemēram, ja apkopes dēļ ir mainījušies datu apmaiņas vaicājumi un/vai darba slodzei ir pievienotas jaunas tabulas vai lauki. |
+| Pārnesiet darba slodzes uz mēroga vienību | Ieplānojiet darba slodzi, kas pašlaik darbojas centrmezglā, lai to pārvietotu uz mēroga vienību. Kad šis process tiks izpildīts, tiks veikta datu sinhronizācija, un gan centrmezgls, gan mēroga vienība tiks iestatīta, lai mainītu darba slodzes īpašumtiesības. |
+| Pārnesiet skalas vienību uz rumbu | Ieplānojiet darba slodzi, kas pašlaik darbojas mēroga vienībā, lai to pārvietotu uz centrmezglu. Kad šis process tiks izpildīts, tiks veikta datu sinhronizācija, un gan centrmezgls, gan mēroga vienība tiks iestatīta, lai mainītu darba slodzes īpašumtiesības.
+| Ārkārtas pāreja uz centrmezglu | <p>Nekavējoties pārsūtiet esošo darba slodzi uz centrmezglu. *Šis process mainīs īpašumtiesības tikai tiem datiem, kas pašlaik ir pieejami centrmezglā.*</p><p><strong>Brīdinājums:</strong> Šis process var izraisīt datu zudumu nesinhronizētiem datiem un biznesa apstrādes kļūmi. Tāpēc to vajadzētu izmantot tikai ārkārtas situācijās, kad biznesa procesi ir jāapstrādā centrmezglā, jo mēroga vienībā ir pārtraukums, ko nevar novērst saprātīgā laikā.</p> |
+| Pārtraukšanas sadalītā topoloģija | Noņemiet mēroga vienības izvietošanu un palaidiet tikai centrmezglā, bez darba slodzes apstrādes. |
 
 :::image type="content" source="media/sum-manage-workloads.png" alt-text="Mēroga vienības un darba slodzes pārvaldības pieredze.":::
 

@@ -9,40 +9,44 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 49bb7bea167674eb81fd6d1144c6c302a7c29391
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
-ms.translationtype: HT
+ms.openlocfilehash: 9e7343a485ae4779b075eeb48dabc39467e1a176
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964912"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074917"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>Esošu darbinieku pieņemšana darbā, izmantojot personāla atlasi
 
 [!include [banner](../../includes/banner.md)]
 
-Dažreiz atvērtie amati var tikt aizpildīti ar kandidātiem, kas jau ir darbinieki jūsu organizācijā. Šajā procedūrā parādīts, kā veikt darbā pieņemšanas procesu esošajam darbiniekam. Šajā procedūrā personāla atlases projekts jau ir iestatīts, un pašreizējais darbinieks jau ir iesniedzis pieteikumu personāla atlases projektam. **USMF** demonstrācijas datu uzņēmums tika izmantots šīs procedūras veidojiet.
+> [!IMPORTANT]
+> Šajā tēmā atzīmētā funkcionalitāte šobrīd ir pieejama Personāla klientiem finanšu infrastruktūrā.  
 
-1. Dodieties uz **personāla vadības personāla \>\> atlases pieteikumu \> pieteikumiem**.
-2. Sarakstā atrodiet pieteikumu darbiniekam, kuru vēlaties pieņemt darbā. Piemēram, atlasiet **00002 Džona Emory**.
-3. Atlasiet **Programmas statusu**.
 
-    Pieteikuma statuss norāda, kurā līmenī pieteikums atrodas personāla atlases procesā. Katrs solis nav obligāts. Parasti pieteikums pārvietojas caur statusiem šādā secībā: **·** **Saņemts,** Apstiprināts un **Intervēts**. Pēc intervijas procesa tiks pieņemts darbā pieņemšanas lēmums.
+Dažkārt atvērtās amata vietas var aizpildīt kandidāti, kuri jau ir jūsu organizācijas darbinieki. Šajā procedūrā parādīts, kā veikt darbā pieņemšanas procesu esošajam darbiniekam. Šajā procedūrā personāla atlases projekts jau ir iestatīts, un pašreizējais darbinieks jau ir iesniedzis pieteikumu personāla atlases projektam. The **USMF** lai izveidotu šo procedūru, tika izmantots demonstrācijas datu uzņēmums.
 
-4. Atlasiet **Mainīt** pozīciju.
-5. Atlasiet amatu, kam nolīgat darbinieku.
-6. Laukā **Jaunas norīkojuma** sākuma datums ievadiet datumu, kad darbinieks sāks darbu jaunajā amatā.
-7. Laukā **Norīkojuma beigu** datums ievadiet datumu, kad darbinieks pārtrauks strādāt savā pašreizējā amatā.
+1. Iet uz **Cilvēku resursi \> Rekrutēšana \> Lietojumprogrammas \> Lietojumprogrammas**.
+2. Sarakstā atrodiet tā darbinieka pieteikumu, kuru vēlaties pieņemt darbā. Piemēram, atlasiet **00002 Džons Emorijs**.
+3. Izvēlieties **Pieteikuma statuss**.
 
-    Jaunās pozīcijas sākuma datums un vecās pozīcijas beigu datums var pārklāties. Šī pārklāšanās var notikt tad, kad persona veic pienākumus abiem amatiem pārejas periodā.
+    Pieteikuma statuss norāda, kurā līmenī pieteikums atrodas personāla atlases procesā. Katrs solis nav obligāts. Parasti lietojumprogramma pārvietojas pa statusiem šādā secībā: **Saņemts**, **·**, un **Intervēts**. Pēc intervijas procesa tiks pieņemts lēmums par pieņemšanu darbā.
 
-8. Nav obligāti: atlasiet pamatojuma kodu. Piemēram, atlasiet **Reorganizācija**.
-9. Atlasiet **Mainīt** pozīciju.
+4. Izvēlieties **Mainiet pozīciju**.
+5. Izvēlieties amatu, kurā pieņemat darbinieku.
+6. Iekš **Jaunā uzdevuma sākuma datums** laukā ievadiet datumu, kad darbinieks sāks strādāt jaunajā amatā.
+7. Iekš **Uzdevuma beigu datums** laukā ievadiet datumu, kad darbinieks pārtrauks strādāt pašreizējā amatā.
 
-    Šajā laikā varat arī mainīt atlīdzību. Ja tā nav, to vēlāk varat mainīt, atlasot **Fiksēts** plāns cilnes Atlīdzība **lapā** **Darbinieks**.
+    Jaunās pozīcijas sākuma datums un vecās pozīcijas beigu datums var pārklāties. Šāda pārklāšanās var rasties, ja persona pārejas periodā pilda pienākumus abos amatos.
 
-    Kad esat **atlasīts Mainīt** pozīciju, pieteikuma statuss tiek atjaunināts uz **Nodarbināts**.
+8. Neobligāti: atlasiet iemesla kodu. Piemēram, atlasiet **Reorganizācija**.
+9. Izvēlieties **Mainiet pozīciju**.
+
+    Šobrīd jūs varat arī mainīt kompensāciju. Ja tā nav, varat to mainīt vēlāk, atlasot **Fiksēts plāns** uz **Kompensācija** cilne **Strādnieks** lappuse.
+
+    Pēc tam, kad esat atlasījis **Mainiet pozīciju**, statuss lietojumprogrammā tiek atjaunināts uz **Nodarbināts**.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

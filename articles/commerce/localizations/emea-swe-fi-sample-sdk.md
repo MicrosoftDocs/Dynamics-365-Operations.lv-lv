@@ -1,6 +1,6 @@
 ---
-title: Izvietošanas vadlīnijas kontroles vienības integrācijas paraugs Zviedrijai (mantotais)
-description: Šajā tēmā ir sniegtas vadlīnijas zviedrijas kontroles vienību integrācijas parauga izvietošanai no Retail SDK
+title: Izvēršanas vadlīnijas vadības bloku integrācijas paraugam Zviedrijai (mantots)
+description: Šajā tēmā ir sniegtas vadlīnijas vadības bloka integrācijas parauga izvietošanai Zviedrijai no mazumtirdzniecības SDK
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,44 +9,44 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: c0e301305fb0d99ab2f8c811f9f560bc5008e02b
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: b8d60f32d986dec6bb26d78ebdfe8cee3a6b688a
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944894"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8077042"
 ---
-# <a name="deployment-guidelines-for-the-control-unit-integration-sample-for-sweden-legacy"></a>Izvietošanas vadlīnijas kontroles vienības integrācijas paraugs Zviedrijai (mantotais)
+# <a name="deployment-guidelines-for-the-control-unit-integration-sample-for-sweden-legacy"></a>Izvēršanas vadlīnijas vadības bloku integrācijas paraugam Zviedrijai (mantots)
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā sniegtas vadlīnijas par kontroles vienības integrācijas parauga izvietošanu Zviedrijā no mazumtirdzniecības programmatūras izstrādes komplekta (SDK) izstrādātāja virtuālās mašīnas (VM) Microsoft Dynamics lifecycle Services (LCS). Papildinformāciju par šo finanšu integrācijas paraugu skatiet [Zviedrijas kontroles vienību integrācijas paraugs](emea-swe-fi-sample.md). 
+Šajā tēmā ir sniegtas vadlīnijas vadības bloka integrācijas parauga izvietošanai Zviedrijai no mazumtirdzniecības programmatūras izstrādes komplekta (SDK) izstrādātāja virtuālajā mašīnā (VM)Microsoft Dynamics Dzīves cikla pakalpojumi (LCS). Papildinformāciju par šo fiskālās integrācijas paraugu skatiet [Vadības bloka integrācijas paraugs Zviedrijai](emea-swe-fi-sample.md). 
 
-Zviedrijas finanšu integrācijas paraugs ir daļa no sdk Retail. Informāciju par TO, kā instalēt un izmantot SDK, skatiet [mazumtirdzniecības programmatūras izstrādes komplekta (SDK) arhitektūru](../dev-itpro/retail-sdk/retail-sdk-overview.md). Šis paraugs sastāv no Commerce Runtime (), Aparatūras stacijas un pārdošanas punkta CRT (POS) paplašinājumiem. Lai palaistu šo paraugu, ir jāmodificē un jāizveido CRT aparatūras stacijas un POS projekti. Ieteicams izmantot nemodificētu komplektu Retail SDK, lai veiktu šajā tēmā aprakstītās izmaiņas. Iesakām izmantot arī avota kontroles sistēmu, piemēram, Azure DevOps tādu failu, kas vēl nav mainīti.
+Zviedrijas fiskālās integrācijas paraugs ir daļa no mazumtirdzniecības SDK. Informāciju par SDK instalēšanu un lietošanu skatiet sadaļā [Mazumtirdzniecības programmatūras izstrādes komplekta (SDK) arhitektūra](../dev-itpro/retail-sdk/retail-sdk-overview.md). Šis paraugs sastāv no Commerce izpildlaika paplašinājumiem (CRT), Aparatūras stacija un tirdzniecības vieta (POS). Lai palaistu šo paraugu, jums ir jāmaina un jāveido CRT, Aparatūras stacija un POS projekti. Lai veiktu šajā tēmā aprakstītās izmaiņas, ieteicams izmantot nepārveidotu mazumtirdzniecības SDK. Mēs arī iesakām izmantot avota kontroles sistēmu, piemēram,Azure DevOps kur neviens fails vēl nav mainīts.
 
 ## <a name="development-environment"></a>Izstrādes vide
 
-Izpildiet šīs darbības, lai iestatītu izstrādes vidi, tādējādi jūs variet pārbaudīt un pagarināt paraugu.
+Veiciet šīs darbības, lai iestatītu izstrādes vidi, lai varētu pārbaudīt un paplašināt paraugu.
 
-### <a name="enable-crt-extensions"></a>Iespējot CRT paplašinājumus
+### <a name="enable-crt-extensions"></a>Iespējot CRT paplašinājumi
 
-Paplašinājuma CRT komponenti tiek iekļauti CRT paraugos. Lai izpildītu tālāk norādītās procedūras, atveriet **CommerceRuntimeSamples.sln risinājumu zem** **RetailSdk \\ SampleExtensions \\ CommerceRuntime.**
+The CRT paplašinājuma komponenti ir iekļauti CRT paraugi. Lai pabeigtu tālāk norādītās procedūras, atveriet **CommerceRuntimeSamples.sln** risinājums zem **RetailSdk\\ Extensions paraugi\\ CommerceRuntime**.
 
 #### <a name="documentprovidercleancashsample-component"></a>DocumentProvider.CleanCashSample komponents
 
-1. Atrast **Runtime.Extensions.DocumentProvider.CleanCashSample** projektu un veidot to.
-2. Mapē **Runtime.Extensions.DocumentProvider.CleanCashSample bin Debug atrodiet montāžas failu \\\\** **Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample.dll.**
-3. Kopēt montāžas failu CRT uz paplašinājumu mapi:
+1. Atrodi **Runtime.Extensions.DocumentProvider.CleanCashSample** projektu un uzbūvēt to.
+2. Iekš **Runtime.Extensions.DocumentProvider.CleanCashSample\\ atkritumu tvertne\\ Atkļūdošana** mapi, atrodiet **Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample.dll** montāžas fails.
+3. Kopējiet montāžas failu uz CRT paplašinājumu mape:
 
-    - **Commerce Scale Unit: kopējiet failu uz mapi bin ext, kas atrodas Interneta informācijas** **\\ pakalpojumu \\** (IIS) Commerce Scale Unit atrašanās vietā.
-    - **Lokāls CRT vai Modern POS:** kopējiet failu uz ārējo mapi lokālā **\\ klienta** CRT starpnieka atrašanās vietā.
+    - **Tirdzniecības mēroga vienība:** Kopējiet failu uz **\\ atkritumu tvertne\\ ext** mapē Interneta informācijas pakalpojumu (IIS) Commerce Scale Unit vietnes atrašanās vietā.
+    - **Vietējais CRT Mūsdienu POS:** Kopējiet failu uz **\\ ext** mape zem vietējā CRT klienta brokera atrašanās vieta.
 
-4. Meklēt paplašinājuma konfigurācijas failu CRT šim:
+4. Atrodiet paplašinājuma konfigurācijas failu CRT:
 
-    - **Commerce Scale Unit: faila nosaukums ir** **commerceruntime.ext.config, un tā atrodas** **IIS Commerce Scale \\ Unit vietas nodalījuma ārējā** mapē.
-    - **Modern POS lokāls: faila nosaukums ir CRT** **CommerceRuntime.MPOSOffline.Ext.config, un tas atrodas vietējā klienta** CRT starpnieka atrašanās vietā.
+    - **Tirdzniecības mēroga vienība:** Fails ir nosaukts **commerceruntime.ext.config**, un tas atrodas **atkritumu tvertne\\ ext** mapi zem IIS Commerce Scale Unit vietnes atrašanās vietas.
+    - **Vietējais CRT Mūsdienu POS:** Fails ir nosaukts **CommerceRuntime.MPOSOffline.Ext.config**, un tas ir zem vietējā CRT klienta brokera atrašanās vieta.
 
-5. Reģistrēt CRT izmaiņas paplašinājuma konfigurācijas failā.
+5. Reģistrējieties CRT izmaiņas paplašinājuma konfigurācijas failā.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample" />
@@ -54,49 +54,49 @@ Paplašinājuma CRT komponenti tiek iekļauti CRT paraugos. Lai izpildītu tāl�
 
 #### <a name="extension-configuration-file"></a>Paplašinājuma konfigurācijas fails
 
-1. Meklēt paplašinājuma konfigurācijas failu CRT šim:
+1. Atrodiet paplašinājuma konfigurācijas failu CRT:
 
-    - **Commerce Scale Unit: faila nosaukums ir** **commerceruntime.ext.config, un tā atrodas** **IIS Commerce Scale \\ Unit vietas nodalījuma ārējā** mapē.
-    - **Modern POS lokāls: faila nosaukums ir CRT** **CommerceRuntime.MPOSOffline.Ext.config, un tas atrodas vietējā klienta** CRT starpnieka atrašanās vietā.
+    - **Tirdzniecības mēroga vienība:** Fails ir nosaukts **commerceruntime.ext.config**, un tas atrodas **atkritumu tvertne\\ ext** mapi zem IIS Commerce Scale Unit vietnes atrašanās vietas.
+    - **Vietējais CRT Mūsdienu POS:** Fails ir nosaukts **CommerceRuntime.MPOSOffline.Ext.config**, un tas ir zem vietējā CRT klienta brokera atrašanās vieta.
 
-2. Reģistrēt CRT izmaiņas paplašinājuma konfigurācijas failā.
+2. Reģistrējieties CRT izmaiņas paplašinājuma konfigurācijas failā.
 
     ``` xml
     <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.ReceiptsSweden" />
     ```
 
-### <a name="enable-hardware-station-extensions"></a>Iespējot aparatūras stacijas paplašinājumus
+### <a name="enable-hardware-station-extensions"></a>Iespējot aparatūras staciju paplašinājumus
 
-Aparatūras stacijas paplašinājuma komponenti ir ietverti aparatūras stacijas paraugos. Lai izpildītu tālāk norādītās procedūras, atveriet **HardwareStationSamples.sln risinājumu zem** **RetailSdk \\ SampleExtensions \\** HardwareStation.
+Aparatūras stacijas paplašinājuma komponenti ir iekļauti aparatūras stacijas paraugos. Lai pabeigtu tālāk norādītās procedūras, atveriet **HardwareStationSamples.sln** risinājums zem **RetailSdk\\ Extensions paraugi\\ HardwareStation**.
 
 #### <a name="cleancash-component"></a>CleanCash komponents
 
-1. Atrast **project HardwareStation.Extension.CleanCashSample** un veidot to.
-2. Mapē **Extension.CleanCashSample \\ bin \\ Debug atrodiet** **Contoso.Commerce.HardwareStation.CleanCashSample.dll** un **Interop.CleanCash \_\_ 1 1.dll** montāžas failus.
-3. Kopēt komplektācijas failus aparatūras stacijas paplašinājumu mapē:
+1. Atrodi **HardwareStation.Extension.CleanCashSample** projektu un uzbūvēt to.
+2. Iekš **Extension.CleanCashSample\\ atkritumu tvertne\\ Atkļūdošana** mapi, atrodiet **Contoso.Commerce.HardwareStation.CleanCashSample.dll** un **Interop.CleanCash\_ 1\_ 1.dll** montāžas faili.
+3. Kopējiet montāžas failus mapē Aparatūras stacijas paplašinājumi:
 
-    - **Koplietojamā aparatūras stacija:** kopējiet failus nodalījuma **mapē** IIS aparatūras stacijas vietnes atrašanās vietā.
-    - **Dedicated aparatūras stacija Modern POS:** kopējiet failus Modern POS klienta starpnieka atrašanās vietā.
+    - **Koplietojama aparatūras stacija:** Kopējiet failus uz **atkritumu tvertne** mapi zem IIS aparatūras stacijas vietnes atrašanās vietas.
+    - **Īpaša aparatūras stacija modernajā POS:** Kopējiet failus uz Modern POS klienta brokera atrašanās vietu.
 
-4. Atrodiet aparatūras stacijas paplašinājumu konfigurācijas failu. Faila nosaukums ir **HardwareStation.Extension.config.**
+4. Atrodiet aparatūras stacijas paplašinājumu konfigurācijas failu. Faila nosaukums **ir HardwareStation.Extension.config**.
 
-    - **Koplietojamā aparatūras stacija:** fails atrodas IIS aparatūras stacijas vietnes atrašanās vietā.
-    - **Dedicated aparatūras stacija Modern POS:** fails ir Modern POS klienta starpnieka atrašanās vietā.
+    - **Koplietojama aparatūras stacija:** fails atrodas IIS aparatūras stacijas atrašanās vietā.
+    - **Īpaša aparatūras stacija modern pos:** fails atrodas Modern POS klienta brokera atrašanās vietā.
 
-5. Pievienojiet konfigurācijas faila **sastāva** sadaļai šādu rindu.
+5. Pievienojiet konfigurācijas faila kompozīcijas **sadaļai** šādu rindu.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.CleanCashSample" />
     ```
 
-### <a name="enable-modern-pos-extension-components"></a>Iespējot Modern POS paplašinājuma komponentus
+### <a name="enable-modern-pos-extension-components"></a>Iespējot modernos POS paplašinājuma komponentus
 
-1. Atveriet **ModernPOS.sln risinājumu zem RetailSdk POS un pārliecinieties, ka to** var **\\** kompilēt bez kļūdām. Turklāt pārliecinieties, vai moderno POS var Visual Studio palaist, izmantojot **komandu** Palaist.
+1. **Atveriet ModernPOS.sln** risinājumu sadaļā **RetailSdk\\POS** un pārliecinieties, ka to var apkopot bez kļūdām. Turklāt pārliecinieties, vai modern pos Visual Studio var palaist, **izmantojot komandu Palaist**.
 
     > [!NOTE]
-    > Modern POS nevar pielāgot. Ir jāiespējo lietotāja konta kontrole (UAC), un jums pēc vajadzības jāatinstalē iepriekš instalētās Modern POS instances.
+    > Modern POS nedrīkst pielāgot. Ir jāiespējo lietotāja konta kontrole (User Account Control — UAC), un pēc vajadzības ir jāatinstalē iepriekš instalētie modern POS gadījumi.
 
-2. Iespējojiet paplašinājumus, kas ir jāielādē, pievienojot **paplašinājumiem.json failam tālāk norādītās** rindas.
+2. Iespējojiet ielādējamos paplašinājumus, failā **extensions.json** pievienojot šādas rindas.
 
     ``` json
     {
@@ -109,15 +109,15 @@ Aparatūras stacijas paplašinājuma komponenti ir ietverti aparatūras stacijas
     ```
 
     > [!NOTE]
-    > Papildinformāciju par paraugi, kas parāda, kā iekļaut pirmkoda mapes un iespējot ielādēšanai paplašinājumus, skatiet instrukcijas readme.md **pos.Extensions** projektā.
+    > Papildinformāciju un paraugus, kas parāda, kā iekļaut pirmkoda mapes un iespējot paplašinājumu ielādi, skatiet projekta Pos.Extensions **faila** readme.md norādījumus.
 
-3. Atjaunot risinājumu.
-4. Atkļūdotāja izpildiet Modern POS un pārbaudiet funkcionalitāti.
+3. Pārbūvējiet risinājumu.
+4. Atkļūdošanā palaidiet Modern POS un pārbaudiet funkcionalitāti.
 
-### <a name="enable-cloud-pos-extension-components"></a>Iespējot Cloud POS paplašinājuma komponentus
+### <a name="enable-cloud-pos-extension-components"></a>Mākoņa POS paplašinājuma komponentu iespējošana
 
-1. Atveriet **CloudPOS.sln risinājumu sistēmā RetailSdk POS un pārliecinieties, ka to** var **\\** kompilēt bez kļūdām.
-2. Iespējojiet paplašinājumus, kas ir jāielādē, pievienojot **paplašinājumiem.json failam tālāk norādītās** rindas.
+1. **Atveriet CloudPOS.sln** risinājumu sadaļā **RetailSdk\\POS** un pārliecinieties, vai to var kompilēt bez kļūdām.
+2. Iespējojiet ielādējamos paplašinājumus, failā **extensions.json** pievienojot šādas rindas.
 
     ``` json
     {
@@ -130,46 +130,46 @@ Aparatūras stacijas paplašinājuma komponenti ir ietverti aparatūras stacijas
     ```
 
     > [!NOTE]
-    > Papildinformāciju par paraugi, kas parāda, kā iekļaut pirmkoda mapes un iespējot ielādēšanai paplašinājumus, skatiet instrukcijas readme.md **pos.Extensions** projektā.
+    > Papildinformāciju un paraugus, kas parāda, kā iekļaut pirmkoda mapes un iespējot paplašinājumu ielādi, skatiet projekta Pos.Extensions **faila** readme.md norādījumus.
 
-3. Atjaunot risinājumu.
-4. Palaidiet risinājumu, izmantojot komandu **Palaist** un izpildiet Retail SDK rokasgrāmatā norādītās darbības.
+3. Pārbūvējiet risinājumu.
+4. Palaidiet risinājumu, **izmantojot komandu Palaist** un sperot mazumtirdzniecības SDK rokasgrāmatā norādītās darbības.
 
 ## <a name="production-environment"></a>Ražošanas vide
 
-Iepriekšējā procedūra iespējo paplašinājumus, kas ir kontroles vienības integrācijas parauga komponenti. Turklāt šīs darbības ir jāveic, lai izveidotu izvietojamas pakotnes, kurās ir Commerce komponenti, un lai piemērotu šīs pakotnes ražošanas vidē.
+Iepriekšējā procedūra ļauj paplašinājumus, kas ir vadības bloka integrācijas parauga komponenti. Turklāt ir jāveic šīs darbības, lai izveidotu izvietojamas pakotnes, kurās ir Commerce komponenti, un lietotu šīs pakotnes ražošanas vidē.
 
-1. Mapē **RetailSdk Assets pakotnes konfigurācijas failos veiciet \\ tālāk norādītās** izmaiņas.
+1. Veiciet tālāk norādītās izmaiņas pakotnes konfigurācijas failos **RetailSdk\\Assets**:
 
-    - **Commerceruntime.ext.config un** **CommerceRuntime.MPOSOffline.Ext.config konfigurācijas failos pievienojiet šim sastāva** **sadaļai šādas** rindas.
+    - Konfigurācijas failos commerceruntime.ext.config **un** CommerceRuntime.MPOSOffline.Ext.config **kompozīcijas** sadaļai pievienojiet šādas rindas **.**
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample" />
         <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.ReceiptsSweden" />
         ```
 
-    - Konfigurācijas failā **HardwareStation.Extension.config** pievienojiet sastāva sadaļai **šādu** rindu.
+    - Konfigurācijas failā **HardwareStation.Extension.config** kompozīcijas **sadaļai** pievienojiet šādu rindu.
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.HardwareStation.CleanCashSample" />
         ```
 
-2. Mapē **BuildTools veiciet šādas** izmaiņas pielāgošanas.iestatījumu pakotnes **pielāgošanas konfigurācijas** failā:
+2. Mapē BuildTools veiciet šādas izmaiņas **pielāgošanas.settings** pakotnes pielāgošanas konfigurācijas **failā**:
 
-    - Pievienojiet tālāk norādīto rindu, lai CRT ietvertu paplašinājumus izvietojamās pakotnēs.
+    - Pievienojiet šo rindu, lai paplašinājumus iekļautu CRT izvietojamās pakotnēm.
 
         ``` xml
         <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample.dll" />
         ```
 
-    - Pievienojiet tālāk norādītās rindas, lai ietvertu aparatūras stacijas paplašinājumu izvietojamās pakotnēs.
+    - Pievienojiet šādas rindas, lai izvietojamās pakās iekļautu aparatūras stacijas paplašinājumu.
 
         ``` xml
         <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.CleanCashSample.dll" />
         <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Interop.CleanCash_1_1.dll" />
         ```
 
-3. Iespējojiet POS paplašinājumu, pievienojot tālāk norādītās rindas **failā extensions.json** zem mapes **RetailSDK \\ POS \\** paplašinājumi.
+3. Iespējojiet POS paplašinājumu, pievienojot šādas rindas failā extensions.json **mapē** **RetailSDK\\POS\\Extensions**.
 
     ``` json
     {
@@ -181,113 +181,113 @@ Iepriekšējā procedūra iespējo paplašinājumus, kas ir kontroles vienības 
     }
     ```
 
-4. Startējiet utilītai MSBuild komandu uzvedni un palaidiet Visual Studio **msbuild mapē** Retail SDK, lai izveidotu izvietojamas pakotnes.
-5. Piemērot iepakojumus, izmantojot LCS vai manuāli. Papildinformāciju skatiet sadaļā [Izvietojamu pakotņu](../dev-itpro/retail-sdk/retail-sdk-packaging.md) izveide.
-6. Veiciet visus nepieciešamos iestatīšanas uzdevumus, kas aprakstīti [sadaļā Integrācijas iestatīšana ar kontroles](emea-swe-fi-sample.md#setting-up-the-integration-with-control-units) vienībām.
+4. Startējiet MSBuild komandu uzvedni utilītai Visual Studio un palaidiet **msbuild** zem mapes Retail SDK, lai izveidotu izvietojamas pakotnes.
+5. Uzklājiet iepakojumus, izmantojot LCS vai manuāli. Papildinformāciju skatiet rakstā [Izvietojamo pakotņu](../dev-itpro/retail-sdk/retail-sdk-packaging.md) izveide.
+6. Pabeidziet visus nepieciešamos iestatīšanas uzdevumus, kas aprakstīti sadaļā [Integrācijas iestatīšana ar vadības blokiem](emea-swe-fi-sample.md#setting-up-the-integration-with-control-units).
 
 ## <a name="design-of-the-extensions"></a>Paplašinājumu dizains
 
-### <a name="crt-extension-design"></a>CRT paplašinājuma dizains
+### <a name="crt-extension-design"></a>CRT pagarinājuma dizains
 
-Paplašinājuma, kas ir fiskālā dokumenta nodrošinātājs, nolūks ir izveidot pakalpojumiem raksturīgus dokumentus un apstrādāt atbildes no kontroles vienības.
+Paplašinājuma, kas ir finanšu dokumentu nodrošinātājs, mērķis ir ģenerēt pakalpojumam specifiskus dokumentus un apstrādāt vadības bloka atbildes.
 
-Paplašinājums CRT ir **Runtime.Extensions.DocumentProvider.CleanCashSample.**
+Paplašinājums CRT ir **Runtime.Extensions.DocumentProvider.CleanCashSample**.
 
-Papildinformāciju par fiskālās integrācijas risinājuma dizainu skatiet finanšu [reģistrācijas procesā un finanšu integrācijas paraugos finanšu ierīcēm.](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices)
+Papildinformāciju par fiskālās integrācijas risinājuma izstrādi skatiet [fiscal registration process and fiscal integration samples for fiscal devices and services](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
 
-#### <a name="request-handler"></a>Pieprasījumu apdarinātājs
+#### <a name="request-handler"></a>Pieprasījumu apstrādātājs
 
-Dokumentu nodrošinātājam ir **atsevišķs DocumentProviderCleanCash** pieprasījumu apdarinātājs. Šis apdarinātājs tiek izmantots, lai ģenerētu kontroles vienībai finanšu dokumentus.
+Dokumentu nodrošinātājam ir vienots **DocumentProviderCleanCash** pieprasījumu apdarinātājs. Šo apdarinātāju izmanto, lai ģenerētu vadības bloka finanšu dokumentus.
 
-Šis apdarinātājs ir pārmantots **no INamedRequestHandler** interfeisa. Metode **HandlerName** ir atbildīga par apdarinātāja nosaukuma atgriešanu. Apdarinātāja nosaukumam ir jāatbilst savienotāja dokumentu nodrošinātāja nosaukumam, kas norādīts programmā Commerce Headquarters.
+Šis apstrādātājs ir mantots no **INamedRequestHandler** saskarne. The **Apdarinātāja vārds** metode ir atbildīga par apstrādātāja vārda atgriešanu. Apdarinātāja nosaukumam ir jāatbilst savienotāja dokumenta nodrošinātāja nosaukumam, kas norādīts Commerce galvenajā mītnē.
 
 Savienotājs atbalsta šādus pieprasījumus:
 
-- **GetFiscalDocumentDocumentProviderRequest — šajā pieprasījumā ir ietverta** informācija par to, kurš dokuments ir jāģenerē. Tas atgriež pakalpojumam raksturīgu dokumentu, kas jāreģistrē kontroles vienībā.
-- **GetSupportedRegistrableEventsDocumentProviderRequest - šis pieprasījums atgriež notikumu sarakstu,** uz kuriem ir jāabonē. Pašlaik tiek atbalstīti pārdošanas notikumi un audita notikumi.
+- **GetFiscalDocumentDocumentProviderRequest** – Šis pieprasījums satur informāciju par to, kāds dokuments ir jāģenerē. Tas atgriež servisam raksturīgu dokumentu, kas jāreģistrē vadības blokā.
+- **GetSupportedRegistrableEventsDocumentProviderRequest** – Šis pieprasījums atgriež abonējamo notikumu sarakstu. Pašlaik tiek atbalstīti pārdošanas notikumi un audita notikumi.
 
 #### <a name="configuration"></a>Konfigurācija
 
-Konfigurācijas **fails DocumentProviderFiscalCleanCashSample atrodas** **paplašinājuma** projekta konfigurācijas mapē. Šī faila mērķis ir iespējot iestatījumus dokumentu nodrošinātājam, lai tos konfigurētu no programmas Commerce Headquarters. Faila formāts ir saskaņots ar finanšu integrācijas konfigurācijas prasībām. Ir pievienoti šādi iestatījumi:
+Konfigurācijas **fails DocumentProviderFiscalCleanCashSample** atrodas **paplašinājuma projekta konfigurācijas** mapē. Šī faila mērķis ir iespējot iestatījumus dokumentu nodrošinātāja konfigurēšanai no Commerce headquarters. Faila formāts ir saskaņots ar fiskālās integrācijas konfigurācijas prasībām. Tiek pievienoti šādi iestatījumi:
 
 - PVN kodu kartējums
 
 ### <a name="hardware-station-extension-design"></a>Aparatūras stacijas paplašinājuma dizains
 
-Paplašinājuma, kas ir fiskālais savienotājs, nolūks ir sazināties ar kontroles vienību.
+Paplašinājuma, kas ir finanšu savienotājs, mērķis ir sazināties ar vadības bloku.
 
-Aparatūras stacijas paplašinājums **ir HardwareStation.Extension.CleanCashSample.** Tas izmanto HTTP protokolu, lai iesniegtu CRT dokumentus, ko paplašinājums ģenerē kontroles vienībai. Tā apstrādā arī atbildes, kas saņemtas no kontroles vienības.
+Aparatūras stacijas paplašinājums ir **HardwareStation.Extension.CleanCashSample**. Tas izmanto HTTP protokolu, lai vadības blokam iesniegtu dokumentus, ko CRT paplašinājums ģenerē. Tā arī apstrādā atbildes, kas saņemtas no vadības bloka.
 
-#### <a name="request-handler"></a>Pieprasījumu apdarinātājs
+#### <a name="request-handler"></a>Pieprasījumu apstrādātājs
 
-**CleanCashHandler** pieprasījumu apdarinātājs ir ieejas punkts vadības vienības pieprasījumu apstrādei.
+**CleanCashHandler** pieprasījumu apdarinātājs ir ieejas punkts pieprasījumu apstrādei vadības blokā.
 
-Apdarinātājs ir pārmantots **no INamedRequestHandler** interfeisa. Metode **HandlerName** ir atbildīga par apdarinātāja nosaukuma atgriešanu. Apdarinātāja nosaukumam ir jāatbilst programmā Commerce Headquarters norādītajam finanšu savienotāja nosaukumam.
+Apdarinātājs ir mantots no **INamedRequestHandler** saskarne. The **Apdarinātāja vārds** metode ir atbildīga par apstrādātāja vārda atgriešanu. Apdarinātāja nosaukumam ir jāatbilst fiskālā savienotāja nosaukumam, kas norādīts Commerce galvenajā mītnē.
 
 Savienotājs atbalsta šādus pieprasījumus:
 
-- **SubmitDocumentFiscalDeviceRequest – šis pieprasījums sūta dokumentus kontroles vienībai un** atgriež atbildi no tās.
-- **IsReadyFiscalDeviceRequest** – šis pieprasījums tiek izmantots kontroles vienības veselības pārbaudei.
-- **InitializeFiscalDeviceRequest** – šis pieprasījums tiek izmantots, lai inicializētu kontroles vienību.
+- **SubmitDocumentFiscalDeviceRequest** — šis pieprasījums nosūta dokumentus vadības blokam un atgriež no tā atbildi.
+- **IsReadyFiscalDeviceRequest** — šis pieprasījums tiek izmantots vadības bloka veselības pārbaudei.
+- **InicializētfiscalDeviceRequest** — šis pieprasījums tiek izmantots, lai inicializētu vadības bloku.
 
 #### <a name="configuration"></a>Konfigurācija
 
-Konfigurācijas fails atrodas **paplašinājuma** projekta konfigurācijas mapē. Faila mērķis ir iespējot iestatījumus finanšu savienotājam, lai tos konfigurētu no programmas Commerce Headquarters. Faila formāts ir saskaņots ar finanšu integrācijas konfigurācijas prasībām. Ir pievienoti šādi iestatījumi:
+Konfigurācijas fails atrodas paplašinājuma **projekta konfigurācijas** mapē. Faila mērķis ir iespējot finanšu savienotāja iestatījumus, kas jākonfigurē no Commerce headquarters. Faila formāts ir saskaņots ar fiskālās integrācijas konfigurācijas prasībām. Tiek pievienoti šādi iestatījumi:
 
-- **Savienojumu virkne** – vadības vienības savienojuma iestatījumi.
-- **Noildze** – laiks milisekundēs, ko autovadītājs gaidīs uz kontroles vienības atbildi.
+- **Savienojumu virkne** — vadības bloka savienojuma iestatījumi.
+- **Taimauts** - laiks milisekundēs, ka vadītājs gaidīs atbildi no vadības bloka.
 
-## <a name="migrating-from-the-earlier-integration-sample"></a>Migrē no agrākā integrācijas parauga
+## <a name="migrating-from-the-earlier-integration-sample"></a>Migrēšana no iepriekšējās integrācijas izlases
 
-Ja agrāko paraugu izmantojat POS integrācijai ar Zviedrijas kontroles vienībām, iespējams, jums ir jāmigrē [no tā uz pašreizējo integrācijas](retail-sdk-control-unit-sample.md) paraugu. Lai uzstāt izmaiņas un saņemtu laicīgus atjauninājumus zviedrijas līdzekļiem nākotnē, iespējams, būs jāveic papildkods un jāveic konfigurācijas pielāgojumi paplašinājumos, kas tiek veidoti, un no jauna jāveido risinājumi. Izveidotā paplašinājuma loģikā nav nepieciešamas galvenās izmaiņas. Agrākais integrācijas paraugs un pielāgojumi turpinās darboties, ja no savas puses nav veiktas izmaiņas. Tāpēc varat plānot, sagatavoties un uzņemšanu jūsu vidē.
+Ja izmantojat iepriekšējo [paraugu POS integrācijai ar Zviedrijas](retail-sdk-control-unit-sample.md) vadības blokiem, iespējams, no tā būs jāpāriet uz pašreizējo integrācijas paraugu. Lai ieviestu izmaiņas un saņemtu savlaicīgus atjauninājumus zviedrijas funkcijām nākotnē, iespējams, būs jāveic nelieli koda un konfigurācijas pielāgojumi jūsu veidotajos paplašinājumos un jāatjauno risinājumi. Izveidotajā paplašinājuma loģikā būtiskas izmaiņas nav nepieciešamas. Iepriekšējais integrācijas paraugs un pielāgojumi turpinās darboties, ja no jūsu puses netiks veiktas izmaiņas. Tāpēc jūs varat plānot, sagatavoties un veikt vides uzņemšanu.
 
 ### <a name="migration-process"></a>Migrācijas process
 
-Migrācijai no agrākā integrācijas parauga uz pašreizējo kontroles vienības integrācijas paraugu ir jābūt balstītai uz atjaunināšanas koncepcijas. Citiem vārdiem sakot, pirms POS un aparatūras stacijas komponentu atjaunināšanas ir jau jābūt atjauninātiem visiem Commerce Headquarters un Commerce Scale Unit komponentiem.
+Pārejai no iepriekšējās integrācijas izlases uz pašreizējo kontroles bloka integrācijas izlasi būtu jābalstās uz pakāpeniskas atjaunināšanas koncepciju. Citiem vārdiem sakot, visi Commerce headquarters un Commerce Scale Unit komponenti jau ir jāatjaunina, pirms sākat atjaunināt POS un aparatūras stacijas komponentus.
 
-Lai palīdzētu novērst situāciju, kad notikums vai darbība ir parakstīta divreiz (t. i., to parakstīja gan agrākais paplašinājums, gan pašreizējais paplašinājums) vai gadījumos, kad notikumu vai transakciju nevar parakstīt trūkstošās konfigurācijas dēļ, ieteicams izslēgt visas POS un aparatūras stacijas ierīces, kas izmanto agrāko paraugu. un pēc tam atjauniniet tos vienlaicīgi. Šo vienlaicīgu atjaunināšanu var veikt, piemēram, veikalā pa veikalam atjauninot veikala funkcionalitātes profilu un Aparatūras stacijas aparatūras profilu.
+Lai novērstu situāciju, kad notikums vai darījums ir parakstīts divreiz (t.i., to paraksta gan iepriekšējais paplašinājums, gan pašreizējais paplašinājums) vai ja notikumu vai darījumu nevar parakstīt trūkstošās konfigurācijas dēļ, ieteicams izslēgt visas POS un aparatūras stacijas ierīces, kas izmanto iepriekšējo paraugu, un pēc tam tos vienlaikus atjaunināt. Šo vienlaicīgo atjaunināšanu var veikt, piemēram, pa veikaliem, atjauninot veikala funkcionalitātes profilu un aparatūras stacijas aparatūras profilu.
 
-Migrācijas procesā ir jāietver šādi soļi.
+Migrācijas procesam būtu jāietver šādas darbības.
 
-1. Atjaunināt Commerce Headquarters komponentus.
+1. Atjauniniet Commerce headquarters komponentus.
 1. Atjauniniet Commerce Scale Unit komponentus un iespējojiet pašreizējā parauga paplašinājumus.
-1. Pārliecinieties, vai visas bezsaistes darbības ir sinhronizētas no bezsaistes iespējotām MPOS ierīcēm.
-1. Izslēdziet visas ierīces, kas izmanto iepriekšējā parauga komponentus.
-1. Veiciet visus nepieciešamos iestatīšanas uzdevumus, kas aprakstīti [sadaļā Integrācijas iestatīšana ar kontroles](emea-swe-fi-sample.md#setting-up-the-integration-with-control-units) vienībām.
-1. Atjauniniet POS un aparatūras stacijas komponentus, atspējojiet paplašinājumus, kas ir agrāka parauga daļa, un iespējojiet pašreizējā parauga paplašinājumus.
+1. Pārliecinieties, vai visas bezsaistes transakcijas ir sinhronizētas no mpos ierīcēm, kurās iespējota bezsaiste.
+1. Izslēdziet visas ierīces, kas izmanto vecākā parauga komponentus.
+1. Pabeidziet visus nepieciešamos iestatīšanas uzdevumus, kas aprakstīti sadaļā [Integrācijas iestatīšana ar vadības blokiem](emea-swe-fi-sample.md#setting-up-the-integration-with-control-units).
+1. Atjauniniet POS un aparatūras stacijas komponentus, atspējojiet paplašinājumus, kas ir vecākā parauga daļas, un iespējojiet pašreizējā parauga paplašinājumus.
 
     > [!NOTE]
-    > Atkarībā no vides tipa, jūs varat atrast tehnisko informāciju par migrācijas procesu vai nu migrācijas sadaļā Attīstības vides, vai Migrācija šīs tēmas ražošanas [vides](#migration-in-a-development-environment) [sadaļā](#migration-in-a-production-environment).
+    > Atkarībā no vides veida plašāku informāciju par migrācijas procesu [varat atrast sadaļā Migrācija izstrādes vidē](#migration-in-a-development-environment) vai [šīs tēmas sadaļā Migrācija ražošanas vidē](#migration-in-a-production-environment).
 
-### <a name="migration-in-a-development-environment"></a>Migrācija izstrādes vidē
+### <a name="migration-in-a-development-environment"></a>Migrācija attīstības vidē
 
 #### <a name="update-crt"></a>Labot CRT
 
-1. Atrast **Runtime.Extensions.DocumentProvider.CleanCashSample** projektu un veidot to.
-2. Mapē **Runtime.Extensions.DocumentProvider.CleanCashSample bin Debug atrodiet montāžas failu \\\\** **Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample.dll.**
-3. Kopēt montāžas failu CRT uz paplašinājumu mapi:
+1. Atrodi **Runtime.Extensions.DocumentProvider.CleanCashSample** projektu un uzbūvēt to.
+2. Iekš **Runtime.Extensions.DocumentProvider.CleanCashSample\\ atkritumu tvertne\\ Atkļūdošana** mapi, atrodiet **Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample.dll** montāžas fails.
+3. Kopējiet montāžas failu uz CRT paplašinājumu mape:
 
-    - **Commerce Scale Unit:** kopējiet failu uz **\\ mapi bin \\** ext, kas atrodas IIS Commerce Scale Unit vietas atrašanās vietā.
-    - **Lokāls CRT vai Modern POS:** kopējiet failu uz ārējo mapi lokālā **\\ klienta** CRT starpnieka atrašanās vietā.
+    - **Commerce Scale Unit (Commerce Scale Unit):** kopējiet failu **\\bin\\ext** mapē, kas atrodas IIS Commerce mēroga vienības vietnes atrašanās vietā.
+    - **Vietējais CRT Mūsdienu POS:** Kopējiet failu uz **\\ ext** mape zem vietējā CRT klienta brokera atrašanās vieta.
 
-4. Meklēt paplašinājuma konfigurācijas failu CRT šim:
+4. Atrodiet paplašinājuma konfigurācijas failu CRT:
 
-    - **Commerce Scale Unit: faila nosaukums ir** **CommerceRuntime.ext.config, un tā atrodas** **IIS Commerce Scale \\ Unit vietas nodalījuma ārējā** mapē.
-    - **Modern POS lokāls: faila nosaukums ir CRT** **CommerceRuntime.MPOSOffline.Ext.config, un tā ir nodalījuma ārējā mapē zem lokālā klienta starpnieka** **\\** CRT atrašanās vietas.
+    - **Commerce Scale Unit:** faila nosaukums **ir CommerceRuntime.ext.config**, un tas atrodas **bin\\ext**, kas atrodas IIS Commerce Scale Unit vietnes atrašanās vietā.
+    - **Lokālais CRT vietnē Modern POS:** faila nosaukums **ir CommerceRuntime.MPOSOffline.Ext.config**, un tas atrodas **bin\\ext** mapē zem lokālā CRT klienta brokera atrašanās vietas.
 
     > [!WARNING]
-    > **Nerediģēt** failus CommerceRuntime.config un CommerceRuntime.MPOSOffline.config. Šie faili nav paredzēti pielāgošanai.
+    > Nerediģējiet **failus** CommerceRuntime.config un CommerceRuntime.MPOSOffline.config. Šie faili nav paredzēti nekādiem pielāgojumiem.
 
-5. Atrodiet un noņemiet CRT agrāko paplašinājumu no paplašinājuma konfigurācijas faila.
+5. Atrodiet un noņemiet iepriekšējo CRT paplašinājumu no paplašinājuma konfigurācijas faila.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.Runtime.FiscalRegisterReceiptSample" />
     ```
 
     > [!WARNING]
-    > Šī darbība nav jāveic līdz brīdim, kad atjaunināsiet visas POS ierīces, kas darbojas ar šo CRT instanci.
+    > Nepabeidziet šo darbību, kamēr neatjaunināsit visas POS ierīces, kas darbojas ar šo CRT gadījumu.
 
-6. Reģistrējiet CRT pašreizējos parauga paplašinājumus paplašinājuma konfigurācijas failā, pievienojot šādas rindas.
+6. Reģistrēt pašreizējos parauga CRT paplašinājumus paplašinājuma konfigurācijas failā, pievienojot šādas rindas.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample" />
@@ -296,52 +296,52 @@ Migrācijas procesā ir jāietver šādi soļi.
 
 #### <a name="update-hardware-station"></a>Atjaunināt aparatūras staciju
 
-1. Atrast **project HardwareStation.Extension.CleanCashSample** un veidot to.
-2. Mapē **Extension.CleanCashSample \\ bin \\ Debug atrodiet** **Contoso.Commerce.HardwareStation.CleanCashSample.dll** un **Interop.CleanCash \_\_ 1 1.dll** montāžas failus.
-3. Kopēt komplektācijas failus aparatūras stacijas paplašinājumu mapē:
+1. Atrodi **HardwareStation.Extension.CleanCashSample** projektu un uzbūvēt to.
+2. Iekš **Extension.CleanCashSample\\ atkritumu tvertne\\ Atkļūdošana** mapi, atrodiet **Contoso.Commerce.HardwareStation.CleanCashSample.dll** un **Interop.CleanCash\_ 1\_ 1.dll** montāžas faili.
+3. Kopējiet montāžas failus mapē Aparatūras stacijas paplašinājumi:
 
-    - **Koplietojamā aparatūras stacija:** kopējiet failus nodalījuma **mapē** IIS aparatūras stacijas vietnes atrašanās vietā.
-    - **Dedicated aparatūras stacija Modern POS:** kopējiet failus Modern POS klienta starpnieka atrašanās vietā.
+    - **Koplietojama aparatūras stacija:** Kopējiet failus uz **atkritumu tvertne** mapi zem IIS aparatūras stacijas vietnes atrašanās vietas.
+    - **Īpaša aparatūras stacija modernajā POS:** Kopējiet failus uz Modern POS klienta brokera atrašanās vietu.
 
-4. Atrast **HardwareStation.Extension.config** paplašinājuma konfigurācijas failu:
+4. **Atrodiet HardwareStation.Extension.config** paplašinājuma konfigurācijas failu:
 
-    - **Attālās aparatūras stacija:** fails atrodas IIS aparatūras stacijas vietnes atrašanās vietā.
-    - **Lokālā aparatūras stacija Modern POS:** fails ir Modern POS klienta starpnieka atrašanās vietā.
+    - **Attālās aparatūras stacija:** fails atrodas IIS aparatūras stacijas atrašanās vietā.
+    - **Lokālā aparatūras stacija modern pos:** fails atrodas modern pos klienta brokera atrašanās vietā.
 
     > [!WARNING]
-    > **Nerediģēt** failus CommerceRuntime.config un CommerceRuntime.MPOSOffline.config. Šie faili nav paredzēti pielāgošanai.
+    > Nerediģējiet **failus** CommerceRuntime.config un CommerceRuntime.MPOSOffline.config. Šie faili nav paredzēti nekādiem pielāgojumiem.
 
-5. Atrodiet un noņemiet agrāko aparatūras stacijas paplašinājumu no paplašinājuma konfigurācijas faila.
+5. Atrodiet un noņemiet iepriekšējo aparatūras stacijas paplašinājumu no paplašinājuma konfigurācijas faila.
 
-    # <a name="retail-73-and-earlier"></a>[Mazumtirdzniecība 7.3 un agrāka](#tab/retail-7-3)
-
-    ``` xml
-    <add source="assembly" value="Contoso.Commerce.HardwareStation.Extension.FiscalRegisterSample" />
-    ```
-
-    # <a name="retail-731-and-later"></a>[Retail 7.3.1 vai jaunāka versija](#tab/retail-7-3-1)
+    # <a name="retail-73-and-earlier"></a>[Mazumtirdzniecība 7.3 un vecākas versijas](#tab/retail-7-3)
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.Extension.FiscalRegisterSample" />
     ```
 
-    # <a name="retail-100-and-later"></a>[Mazumtirdzniecība 10.0 un jaunāka versija](#tab/retail-10-0)
+    # <a name="retail-731-and-later"></a>[Mazumtirdzniecība 7.3.1 un jaunākas versijas](#tab/retail-7-3-1)
+
+    ``` xml
+    <add source="assembly" value="Contoso.Commerce.HardwareStation.Extension.FiscalRegisterSample" />
+    ```
+
+    # <a name="retail-100-and-later"></a>[Mazumtirdzniecība 10.0 un jaunākas versijas](#tab/retail-10-0)
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.FiscalRegisterSample" />
     ```
     ---
 
-6. Pievienojiet šādu rindu **paplašinājuma** konfigurācijas faila sastāva sadaļai.
+6. Pievienojiet šādu rindu paplašinājuma **konfigurācijas faila kompozīcijas** sadaļai.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.CleanCashSample" />
     ```
 
-#### <a name="update-modern-pos"></a>Atjaunināt Modern POS
+#### <a name="update-modern-pos"></a>Atjaunināt moderno POS
 
-1. Atveriet **CloudPOS.sln** risinājumu sistēmā **RetailSdk \\** POS.
-2. Atspējojiet agrāko POS paplašinājumu, noņemot tālāk norādītās rindas no **faila extensions.json.**
+1. **Atveriet CloudPOS.sln** risinājumu sadaļā **RetailSdk\\POS**.
+2. Atspējojiet iepriekšējo POS paplašinājumu, noņemot **no faila extensions.json** šādas rindas.
 
     ``` json
     {
@@ -349,7 +349,7 @@ Migrācijas procesā ir jāietver šādi soļi.
     }
     ```
 
-2. Iespējojiet pašreizējo POS paplašinājuma paraugu, **paplašinājumu.json failā pievienojot tālāk norādītās** rindas.
+2. Iespējojiet pašreizējo POS paplašinājuma paraugu, pievienojot šādas rindas failā **extensions.json**.
 
     ``` json
     {
@@ -361,10 +361,10 @@ Migrācijas procesā ir jāietver šādi soļi.
     }
     ```
 
-#### <a name="update-cloud-pos"></a>Atjaunināt Cloud POS
+#### <a name="update-cloud-pos"></a>Atjaunināt mākoņa POS
 
-1. Atveriet **ModernPOS.sln** risinājumu zem **RetailSdk \\** POS.
-2. Atspējojiet agrāko POS paplašinājumu, noņemot tālāk norādītās rindas no **faila extensions.json.**
+1. Atveriet **ModernPOS.sln** risinājums zem **RetailSdk\\ POS**.
+2. Atspējojiet iepriekšējo POS paplašinājumu, noņemot **no faila extensions.json** šādas rindas.
 
     ``` json
     {
@@ -372,7 +372,7 @@ Migrācijas procesā ir jāietver šādi soļi.
     }
     ```
 
-2. Iespējojiet pašreizējo POS paplašinājuma paraugu, **paplašinājumu.json failā pievienojot tālāk norādītās** rindas.
+2. Iespējojiet pašreizējo POS paplašinājuma paraugu, pievienojot šādas rindas failā **extensions.json**.
 
     ``` json
     {
@@ -388,23 +388,23 @@ Migrācijas procesā ir jāietver šādi soļi.
 
 #### <a name="update-crt"></a>Labot CRT
 
-1. Noņemiet agrāko paplašinājumu no CRT **commerceRuntime.ext.config** un **CommerceRuntime.MPOSOffline.Ext.config konfigurācijas failiem zem** mapes **RetailSdk \\** Assets.
+1. Noņemiet iepriekšējo CRT paplašinājums no **CommerceRuntime.ext.config** un **CommerceRuntime.MPOSOffline.Ext.config** konfigurācijas faili zem **RetailSdk\\ Aktīvi** mapi.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.Runtime.FiscalRegisterReceiptSample" />
     ```
 
     > [!WARNING]
-    > Šī darbība nav jāveic līdz brīdim, kad atjaunināsiet visas POS ierīces, kas darbojas ar šo CRT instanci.
+    > Nepabeidziet šo darbību, kamēr neatjaunināsit visas POS ierīces, kas darbojas ar šo CRT gadījumu.
 
-2. Iespējojiet pašreizējos parauga paplašinājumus, veicot tālāk norādītās izmaiņas CRT **commerceRuntime.ext.config un** **CommerceRuntime.MPOSOffline.Ext.config konfigurācijas failos, kas atrodas mapē** **RetailSdk \\** Assets.
+2. Iespējot pašreizējo paraugu CRT paplašinājumiem, veicot tālāk norādītās izmaiņas **CommerceRuntime.ext.config** un **CommerceRuntime.MPOSOffline.Ext.config** konfigurācijas faili zem **RetailSdk\\ Aktīvi** mapi.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample" />
     <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.ReceiptsSweden" />
     ```
 
-3. Pielāgojumu.iestatījumu pakotnes pielāgošanas konfigurācijas failā zem mapes BuildTools pievienojiet tālāk norādīto rindu, lai ietvertu pašreizējo parauga **paplašinājumu** **izvietojamās** CRT pakotnēs.
+3. Iekš **Customization.settings** pakotnes pielāgošanas konfigurācijas fails zem **BuildTools** mapē, pievienojiet šo rindiņu, lai iekļautu pašreizējo paraugu CRT paplašinājums izvietojamās pakotnēs.
 
     ``` xml
     <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample.dll" />
@@ -412,61 +412,61 @@ Migrācijas procesā ir jāietver šādi soļi.
 
 #### <a name="update-hardware-station"></a>Atjaunināt aparatūras staciju
 
-1. Noņemiet agrāko aparatūras stacijas paplašinājumu, modificējot **konfigurācijas failu HardwareStation.Extension.config.**
+1. Noņemiet iepriekšējo aparatūras stacijas paplašinājumu, modificējot **HardwareStation.Extension.config** konfigurācijas fails.
 
-    # <a name="retail-73-and-earlier"></a>[Mazumtirdzniecība 7.3 un agrāka](#tab/retail-7-3)
+    # <a name="retail-73-and-earlier"></a>[Mazumtirdzniecība 7.3 un vecākas versijas](#tab/retail-7-3)
 
-    Noņemiet šo sadaļu no **HardwareStation.Shared.config** un **HardwareStation.Dedicated.config** konfigurācijas failiem.
-
-    ``` xml
-    <add source="assembly" value="Contoso.Commerce.HardwareStation.Extension.FiscalRegisterSample" />
-    ```
-
-    # <a name="retail-731-and-later"></a>[Retail 7.3.1 vai jaunāka versija](#tab/retail-7-3-1)
-
-    Noņemiet šo sadaļu no **HardwareStation.Extension.config** konfigurācijas faila.
+    Noņemiet nākamo sadaļu no **HardwareStation.Shared.config** un **HardwareStation.Dedicated.config** konfigurācijas faili.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.Extension.FiscalRegisterSample" />
     ```
 
-    # <a name="retail-100-and-later"></a>[Mazumtirdzniecība 10.0 un jaunāka versija](#tab/retail-10-0)
+    # <a name="retail-731-and-later"></a>[Mazumtirdzniecība 7.3.1 un jaunākas versijas](#tab/retail-7-3-1)
 
-    Noņemiet šo sadaļu no **HardwareStation.Extension.config** konfigurācijas faila.
+    Noņemiet nākamo sadaļu no **HardwareStation.Extension.config** konfigurācijas fails.
+
+    ``` xml
+    <add source="assembly" value="Contoso.Commerce.HardwareStation.Extension.FiscalRegisterSample" />
+    ```
+
+    # <a name="retail-100-and-later"></a>[Mazumtirdzniecība 10.0 un jaunākas versijas](#tab/retail-10-0)
+
+    Noņemiet nākamo sadaļu no **HardwareStation.Extension.config** konfigurācijas fails.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.FiscalRegisterSample" />
     ```
     ---
 
-2. Iespējojiet pašreizējo aparatūras stacijas paplašinājuma paraugu, pievienojot **konfigurācijas** **failam HardwareStation.Extension.config sastāvam** šādu rindu.
+2. Iespējojiet pašreizējo parauga aparatūras stacijas paplašinājumu, pievienojot šādu rindiņu **sastāvu** sadaļā **HardwareStation.Extension.config** konfigurācijas fails.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.CleanCashSample" />
     ```
 
-3. Mapē **BuildTools veiciet šādas** izmaiņas pielāgošanas.iestatījumu pakotnes **pielāgošanas konfigurācijas** failā:
+3. Mapē BuildTools veiciet šādas izmaiņas **pielāgošanas.settings** pakotnes pielāgošanas konfigurācijas **failā**:
 
-    - Noņemiet tālāk norādīto rindu, lai izslēgtu agrāko aparatūras stacijas paplašinājumu no izvietojamām pakotnēm.
+    - Noņemiet šo rindiņu, lai izslēgtu iepriekšējo aparatūras stacijas paplašinājumu no izvietojamām pakotnēm.
 
         ``` xml
         <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.Extension.FiscalRegisterSample.dll" />
         ```
 
-    - Pievienojiet tālāk norādītās rindas, lai ietvertu pašreizējo aparatūras stacijas paplašinājuma paraugu izvietojamās pakotnēs.
+    - Pievienojiet šīs rindas, lai izvietojamās pakotnēs iekļautu pašreizējo aparatūras stacijas paplašinājuma paraugu.
 
         ``` xml
         <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.CleanCashSample.dll" />
         <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Interop.CleanCash_1_1.dll" />
         ```
 
-#### <a name="update-modern-pos"></a>Atjaunināt Modern POS
+#### <a name="update-modern-pos"></a>Atjaunināt moderno POS
 
-1. Atveriet **CloudPOS.sln** risinājumu sistēmā **RetailSdk \\** POS.
-2. Atspējot agrāko POS paplašinājumu:
+1. Atveriet **CloudPOS.sln** risinājums plkst **RetailSdk\\ POS**.
+2. Atspējojiet iepriekšējo POS paplašinājumu:
 
-    - Failā **tsconfig.json izslēgšanas sarakstam pievienojiet mapi** **FiscalRegisterSample.**
-    - Noņemiet tālāk norādītās rindas **no paplašinājumiem.json** faila mapē **RetailSDK \\ POS \\** paplašinājumi.
+    - Iekš **tsconfig.json** failu, pievienojiet **FiscalRegisterSample** mapi izslēgšanas sarakstā.
+    - Noņemiet šādas rindas no **extensions.json** failu zem **RetailSDK\\ POS\\ Paplašinājumi** mapi.
 
         ``` json
         {
@@ -474,7 +474,7 @@ Migrācijas procesā ir jāietver šādi soļi.
         }
         ```
 
-3. Iespējojiet pašreizējo PARAUGA POS paplašinājumu, pievienojot tālāk norādītās rindas **paplašinājumiem.json failā zem mapes** **RetailSDK \\ POS \\** paplašinājumi.
+3. Iespējojiet pašreizējo POS paplašinājuma paraugu, pievienojot tālāk norādītās rindiņas **extensions.json** failu zem **RetailSDK\\ POS\\ Paplašinājumi** mapi.
 
     ``` json
     {
@@ -486,13 +486,13 @@ Migrācijas procesā ir jāietver šādi soļi.
     }
     ```
 
-#### <a name="update-cloud-pos"></a>Atjaunināt Cloud POS
+#### <a name="update-cloud-pos"></a>Atjaunināt mākoņa POS
 
-1. Atveriet **ModernPOS.sln** risinājumu zem **RetailSdk \\** POS.
-2. Atspējot agrāko POS paplašinājumu:
+1. Atveriet **ModernPOS.sln** risinājums zem **RetailSdk\\ POS**.
+2. Atspējojiet iepriekšējo POS paplašinājumu:
 
-    - Failā **tsconfig.json izslēgšanas sarakstam pievienojiet mapi** **FiscalRegisterSample.**
-    - Noņemiet tālāk norādītās rindas **no paplašinājumiem.json** faila mapē **RetailSDK \\ POS \\** paplašinājumi.
+    - Iekš **tsconfig.json** failu, pievienojiet **FiscalRegisterSample** mapi izslēgšanas sarakstā.
+    - Noņemiet šādas rindas no **extensions.json** failu zem **RetailSDK\\ POS\\ Paplašinājumi** mapi.
 
         ``` json
         {
@@ -500,7 +500,7 @@ Migrācijas procesā ir jāietver šādi soļi.
         }
         ```
 
-3. Iespējojiet pašreizējo PARAUGA POS paplašinājumu, pievienojot tālāk norādītās rindas **paplašinājumiem.json failā zem mapes** **RetailSDK \\ POS \\** paplašinājumi.
+3. Iespējojiet pašreizējo POS paplašinājuma paraugu, pievienojot tālāk norādītās rindiņas **extensions.json** failu zem **RetailSDK\\ POS\\ Paplašinājumi** mapi.
 
     ``` json
     {
@@ -514,4 +514,4 @@ Migrācijas procesā ir jāietver šādi soļi.
 
 #### <a name="create-deployable-packages"></a>Izvietojamu pakotņu izveide
 
-Palaidiet **msbuild** visam Retail SDK, lai izveidotu izvietojamas pakotnes. Piemērot iepakojumus, izmantojot LCS vai manuāli. Papildinformāciju skatiet [mazumtirdzniecības SDK pakotņu](../dev-itpro/retail-sdk/retail-sdk-packaging.md) sadaļā.
+Skrien **msbuild** visam mazumtirdzniecības SDK, lai izveidotu izvietojamas pakotnes. Uzklājiet iepakojumus, izmantojot LCS vai manuāli. Plašāku informāciju skatiet [Mazumtirdzniecības SDK iepakojums](../dev-itpro/retail-sdk/retail-sdk-packaging.md).

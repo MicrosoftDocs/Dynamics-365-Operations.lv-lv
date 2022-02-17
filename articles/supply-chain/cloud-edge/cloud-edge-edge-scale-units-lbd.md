@@ -2,7 +2,7 @@
 title: Malas mēroga vienību izvietošana pielāgotajā aparatūrā, izmantojot LBD
 description: Šajā tēmā skaidrots, kā nodrošināt lokālās malas skalas vienības, izmantojot pielāgotu aparatūru un izvietošanu, kas ir balstīta uz vietējiem uzņēmuma datiem (LBD).
 author: cabeln
-ms.date: 11/29/2021
+ms.date: 01/24/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2407d4e3c6adaf5df2e8f5440ee8336f86012caf
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 1204b65e76c107c29a94a61c321064a87c7571fb
+ms.sourcegitcommit: 948978183a1da949e35585b28b8e85a63b6c12b1
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920677"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "8024546"
 ---
 # <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd"></a>Malas mēroga vienību izvietošana pielāgotajā aparatūrā, izmantojot LBD
 
@@ -27,6 +27,13 @@ Malu skalas vienības var izvietot, izveidojot vietējos biznesa datus (LBD) [lo
 
 Šajā tēmā ir aprakstīts, kā iestatīt lokālas LBD vidi kā malas skalas vienību un pēc tam saistīt to ar pārkraušanas punktu.
 
+## <a name="infrastructure-considerations"></a>Infrastruktūras apsvērumi
+
+Malu mēroga vienības darbojas lokālas vidēs, tāpēc infrastruktūras prasības ir diezgan līdzīgas. Tomēr ir dažas atšķirības, kas jāatzīmē:
+
+- Edge mēroga vienības neizmanto Finanšu pārskatus, tāpēc tām nav nepieciešami Finanšu pārskatu mezgli.
+- Ražošanas un noliktavu noslodze nav skaitļošanas intensīva, tāpēc apsveriet iespēju attiecīgi pielāgot skaitļošanas jaudu AOS mezgliem.
+
 ## <a name="deployment-overview"></a>Izvietošanas pārskats
 
 Tālāk ir sniegts pārskats par izvietošanas darbībām.
@@ -35,7 +42,7 @@ Tālāk ir sniegts pārskats par izvietošanas darbībām.
 
 1. **Iestatiet un izvietojiet LBD vidi ar *tukšu* datu bāzi.**
 
-    Izmantojiet LCS, lai izvietotu LBD vidi ar jaunāko topoloģiju un tukšu datu bāzi. Papildinformāciju skatiet tālāk šīs tēmas sadaļā sadaļā Iestatījumi un [izvietojiet LBD vidi ar tukšu datu bāzes sadaļu](#set-up-deploy). Jums jāizmanto Piegādes ķēdes pārvaldības versija 10.0.21 vai jaunāka tās versija pārkraušanas punkta un mēroga vienības vidēs.
+    Izmantojiet LCS, lai izvietotu LBD vidi ar jaunāko topoloģiju un tukšu datu bāzi. Papildinformāciju skatiet tālāk šīs tēmas sadaļā sadaļā Iestatījumi un [izvietojiet LBD vidi ar tukšu datu bāzes sadaļu](#set-up-deploy). Piegādes ķēdes pārvaldības versija 10.0.21 vai jaunāka ir jāizmanto centrmezgla un mēroga vienību vidēs.
 
 1. **Augšupielādēt mērķa pakotnes LBD projekta aktīvos LCS.**
 
@@ -55,7 +62,7 @@ Atlikušajās šīs tēmas sadaļās ir sniegta plašāka informāciju par katru
 
 Šis solis izveido funkcionālu LBD vidi. Tomēr videi nav nepieciešama tāda pati lietojumprogrammas un platformas versija kā pārkraušanas mezgla videi. Turklāt tam joprojām trūkst pielāgojumu, un tie vēl nav iespējoti darbam kā mēroga vienība.
 
-1. Sekojiet instrukcijām [Iestatījumi un lokālo vižu izvietošana (Platformas atjauninājums 41 vai jaunāks)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md). Jums jāizmanto Piegādes ķēdes pārvaldības versija 10.0.21 vai jaunāka tās versija pārkraušanas punkta un mēroga vienības vidēs. Turklāt infrastruktūras skriptiem jālieto versija 2.12.0 vai jaunāka. 
+1. Sekojiet instrukcijām [Iestatījumi un lokālo vižu izvietošana (Platformas atjauninājums 41 vai jaunāks)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md). Piegādes ķēdes pārvaldības versija 10.0.21 vai jaunāka ir jāizmanto centrmezgla un mēroga vienību vidēs. Turklāt jāizmanto infrastruktūras skriptu versija 2.12.0 vai jaunāka versija. 
 
     > [!IMPORTANT]
     > **Pirms** izpildāt šajā tēmā aprakstītās darbības, izlasiet pārējās šīs sadaļas darbības.
@@ -70,10 +77,10 @@ Atlikušajās šīs tēmas sadaļās ir sniegta plašāka informāciju par katru
     > Šajā skriptā tiks noņemta konfigurācija, kas nav nepieciešama malu skalas vienību izvietošanai.
 
 1. Iestatiet datu bāzi, kas satur tukšus datus, kā aprakstīts sadaļā [Datu bāzu konfigurēšana](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb). Izmantojiet šo darbību tukšā datus.bak failā.
-1. Pēc datu bāzu konfigurēšanas soļa izpildes izpildiet tālāk norādīto skriptu, lai konfigurētu Mēroga vienības [Instrument](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb) Instrumenttor datu bāzi.
+1. Kad esat pabeidzis datu bāzu [konfigurēšanas](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb) darbību, palaidiet šo skriptu, lai konfigurētu skalas vienības Alm Orchestrator datu bāzi.
 
     > [!NOTE]
-    > Konfigurējiet finanšu pārskatu datu bāzi datu bāzes [konfigurēšanas darbības](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb) laikā.
+    > Nekonfigurējiet finanšu pārskatu datu bāzi datu bāzu [konfigurēšanas](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb) soļa laikā.
 
     ```powershell
     .\Initialize-Database.ps1 -ConfigurationFilePath .\ConfigTemplate.xml -ComponentName EdgeScaleUnit
@@ -82,23 +89,23 @@ Atlikušajās šīs tēmas sadaļās ir sniegta plašāka informāciju par katru
     Skripts Initialize-Database.ps1 veic šādas darbības:
 
     1. Izveidojiet tukšu datu bāzi ar nosaukumu **ScaleUnitAlmDb**.
-    2. Kartējiet lietotājus uz datu bāzes lomām, pamatojoties uz norādīto tabulu.
+    2. Kartējiet lietotājus uz datu bāzes lomām, pamatojoties uz šo tabulu.
 
         | Lietotājs            | Veids | Datu bāzes loma |
         |-----------------|------|---------------|
-        | svc-LocalAgent$ | gMSA (datu) | Db \_ īpašnieks     |
+        | svc-LocalAgent$ | gMSA | dbowner\_     |
 
-1. Turpiniet sekot instrukcijām [iestatīšanas un lokālas vides izvietošanā (platformas atjaunināšana 41 vai jaunāka)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md).
-1. Pēc TAM, kad esat [pabeidzis AD FS konfigurēšanas](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb) darbību, sekojiet šiem soļiem:
+1. Turpiniet ievērot uzstādīšanas un lokālās vides izvietošanas norādījumus [(41. un jaunāka versija)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md).
+1. Kad esat pabeidzis AD FS [konfigurēšanas](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb) darbību, rīkojieties šādi:
 
-    1. Izveidojiet jaunu Active Directory federācijas pakalpojumu (AD FS) programmu, kas iespējos Neplānotās instrumentācijas pakalpojumu komunicēt ar savu Application Object Server (AOS).
+    1. Izveidojiet jaunu Active Directory federācijas pakalpojumu (AD FS) lietojumprogrammu, kas ļaus Alm orķestrācijas pakalpojumam sazināties ar jūsu application object server (AOS).
 
         ```powershell
         # Host URL is your DNS record\host name for accessing the AOS
         .\Create-ADFSServerApplicationForEdgeScaleUnits.ps1 -ConfigurationFilePath .\ConfigTemplate.xml -HostUrl 'https://ax.d365ffo.onprem.contoso.com'
         ```
 
-    1. Izveidot jaunu Azure Active Directory ( ) Azure AD programmu, kas iespējos Neplānotās instrumentācijas pakalpojumu komunicēt ar Mēroga vienību pārvaldības pakalpojumu.
+    1. Izveidojiet jaunu Azure Active Directory (Azure AD) lietojumprogrammu, kas ļaus Alm orķestrācijas pakalpojumam sazināties ar mēroga vienību pārvaldības pakalpojumu.
 
         ```powershell
         # Example .\Create-SumAADApplication.ps1 -ConfigurationFilePath ..\ConfigTemplate.xml -TenantId '6240a19e-86f1-41af-91ab-dbe29dbcfb95' -ApplicationDisplayName 'EdgeAgent-SUMCommunication-EN01'
@@ -107,13 +114,13 @@ Atlikušajās šīs tēmas sadaļās ir sniegta plašāka informāciju par katru
                                        -ApplicationDisplayName '<Whichever name you want the Azure AD app to have>'
         ```
 
-1. Turpiniet sekot instrukcijām [iestatīšanas un lokālas vides izvietošanā (platformas atjaunināšana 41 vai jaunāka)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md). Kad ir jāievada lokālā aģenta konfigurācija, pārliecinieties, ka iespējojat malas skalas vienības līdzekļus un nodrošināt visus nepieciešamos parametrus.
+1. Turpiniet ievērot uzstādīšanas un lokālās vides izvietošanas norādījumus [(41. un jaunāka versija)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md). Ievadot vietējā aģenta konfigurāciju, pārliecinieties, vai iespējojat edge mēroga vienības funkcijas un norādiet visus nepieciešamos parametrus.
 
-    ![Malas skalas vienības līdzekļu iespējošana.](media/EnableEdgeScaleUnitFeatures.png "Malas skalas vienības līdzekļu iespējošana.")
+    ![Edge Scale vienības līdzekļu iespējošana.](media/EnableEdgeScaleUnitFeatures.png "Edge Scale vienības līdzekļu iespējošana.")
 
-1. Pirms vides izvietošanas no LCS iestatiet pirmsizvēršanas skriptu. Papildinformācija: [Vietējā aģenta pirmsizvietošanas un pēcizvietošanas skripti](../../fin-ops-core/dev-itpro/lifecycle-services/pre-post-scripts.md).
+1. Pirms vides izvietošanas no LCS iestatiet pirms izvietošanas skriptu. Papildinformācija: [Vietējā aģenta pirmsizvietošanas un pēcizvietošanas skripti](../../fin-ops-core/dev-itpro/lifecycle-services/pre-post-scripts.md).
 
-    1. Kopējiet skriptu Configure-CloudAndEdge.ps1 no mapes ScaleUnit infrastruktūras skriptos uz mapi Skripti aģenta failu glabāšanas koplietojumā, kas tika **iestatīts** **·** **vidē**. Tipisks ceļš ir \\\\lbdiscsi01\\aģents\\Skripti.
+    1. Kopējiet skriptu Configure-CloudAndEdge.ps1 no **infrastruktūras skriptu** mapes **ScaleUnit** uz **vidē iestatītās aģenta failu krātuves koplietojuma mapi Skripti**. Tipisks ceļš ir \\\\lbdiscsi01\\aģents\\Skripti.
     2. Izveidojiet skriptu **PreDeployment.ps1**, kas izsauks skriptus, izmantojot nepieciešamos parametrus. Pirmsizvēršanas skripts ir jāizvieto **Skriptu** mapē aģenta faila glabāšanas koplietojumā. Pretējā gadījumā to nevar palaist. Tipisks ceļš ir \\\\lbdiscsi01\\aģents\\Skripti\\PreDeployment.ps1.
 
         Skripta PreDeployment.ps1 saturs būs līdzīgs šim piemēram.
@@ -137,9 +144,9 @@ Atlikušajās šīs tēmas sadaļās ir sniegta plašāka informāciju par katru
         >   - @#
 
 1. Izvietojiet vidi, izmantojot jaunāko pieejamo pamata topoloģiju.
-1. Pēc vides izvietošanas izpildiet tālāk minētās darbības.
+1. Pēc vides izvietošanas veiciet tālāk norādītās darbības.
 
-    1. Izpildiet šādas SQL komandas savā biznesa datu bāzē (AXDB).
+    1. Biznesa datu bāzē (AXDB) palaidiet šādas SQL komandas.
 
         ```sql
         ALTER TABLE dbo.NUMBERSEQUENCETABLE ENABLE CHANGE_TRACKING WITH (TRACK_COLUMNS_UPDATED = ON)
@@ -151,24 +158,24 @@ Atlikušajās šīs tēmas sadaļās ir sniegta plašāka informāciju par katru
         delete from SysFeatureStateV0
         ```
 
-    1. Palielināt vienlaicīgu maksimālo partijas sesiju par vērtību, kas ir lielāka par 4.
+    1. Palieliniet vienlaicīgu maksimālo pakešsēni līdz vērtībai, kas ir lielāka par 4.
 
         ```sql
         Update batchserverconfig set maxbatchsessions = '<Replace with number of concurrent batch tasks you want>'
         ```
 
-    1. Pārbaudiet, vai izmaiņu izsekošana ir iespējota jūsu biznesa datu bāzē (AXDB).
+    1. Pārbaudiet, vai jūsu uzņēmuma datu bāzē (AXDB) ir iespējota izmaiņu reģistrēšana.
 
         1. Atveriet SQL Server Management Studio (SSMS).
-        1. Atlasiet un turiet (vai noklikšķiniet ar peles labo pogu) savu biznesa datu bāzi (AXDB) un pēc tam atlasiet **Rekvizīti**.
-        1. Redzamajā logā atlasiet Izmaiņu izsekošana **un pēc tam iestatiet šādas** vērtības:
+        1. Atlasiet un turiet nospiestu (vai noklikšķiniet ar peles labo pogu) savu biznesa datu bāzi (AXDB) un pēc tam atlasiet **Rekvizīti**.
+        1. Logā, kas tiek parādīts, atlasiet **Mainīt izsekošanu** un pēc tam iestatiet šādas vērtības:
 
             - **Izmaiņu izsekošana:** *Patiess*
             - **Saglabāšanas periods:** *7*
             - **Ieturējumu vienības:** *Dienas*
             - **Automātiskā tīrīšana:** *Patiess*
 
-    1. Pievienojiet iepriekš izveidoto AD FS programmas ID (izmantojot skriptu Create-ADFSServerApplicationForEdgeScaleUnits.ps1) apjoma mērvienību lietojumprogrammu Azure AD tabulai. Šo darbību var manuāli pabeigt, izmantojot lietotāja interfeisu (UI). Alternatīvi to var pabeigt, izmantojot datu bāzi, izmantojot šādu skriptu.
+    1. Pievienojiet iepriekš izveidoto AD FS lietojumprogrammas ID (izmantojot skriptu Create-ADFSServerApplicationForEdgeScaleUnits.ps1) Azure AD lietojumprogrammu tabulai savā skalas vienībā. Šo darbību var veikt manuāli, izmantojot lietotāja interfeisu (UI). Varat arī to pabeigt, izmantojot datu bāzi, izmantojot šādu skriptu.
 
         ```sql
         DECLARE @ALMOrchestratorId NVARCHAR(76) = '<Replace with the ADFS Application ID created in a previous step>';
@@ -180,9 +187,9 @@ Atlikušajās šīs tēmas sadaļās ir sniegta plašāka informāciju par katru
         END
         ```
 
-## <a name="set-up-an-azure-key-vault-and-an-azure-ad-application-to-enable-communication-between-scale-units"></a><a name="set-up-keyvault"></a> Iestatīt Azure atslēgu Windows un Azure AD programmu, lai iespējotu sakarus starp mēroga vienībām
+## <a name="set-up-an-azure-key-vault-and-an-azure-ad-application-to-enable-communication-between-scale-units"></a><a name="set-up-keyvault"></a> Azure atslēgas velves un lietojumprogrammas Azure AD iestatīšana, lai iespējotu saziņu starp mēroga vienībām
 
-1. Pēc vides izvietošanas izveidojiet papildu programmu, lai iespējotu uzticamus sakarus Azure AD starp pārkraušanas punktu un mēroga vienību.
+1. Kad vide ir izvietota, izveidojiet papildu Azure AD lietojumprogrammu, lai iespējotu uzticamu saziņu starp centrmezglu un mēroga vienību.
 
     ```powershell
     .\Create-SpokeToHubAADApplication.ps1 -ConfigurationFilePath '<Path of the ConfigTemplate.xml file>' `
@@ -190,7 +197,7 @@ Atlikušajās šīs tēmas sadaļās ir sniegta plašāka informāciju par katru
                                           -ApplicationDisplayName '<Whichever name you want the Azure AD app to have>'
     ```
 
-1. Pēc programmas izveides ir jāizveido klienta noslēpums un jāsaglabā informācija Azure atslēgā. Turklāt jums ir jāpiešķir piekļuve izveidotajām programmai, lai varētu izgūt Azure AD noslēpumus, kas tiek glabāti atslēgas krātuvē. Jūsu ērtību gadījumā šis skripts automātiski izpildīs visas nepieciešamās darbības.
+1. Pēc lietojumprogrammas izveides ir jāizveido klienta noslēpums un jāsaglabā informācija Azure atslēgu glabātuvē. Turklāt jums ir jāpiešķir piekļuve izveidotajai Azure AD lietojumprogrammai, lai tā varētu izgūt atslēgas seifā glabātos noslēpumus. Jūsu ērtībai nākamais skripts automātiski veiks visas nepieciešamās darbības.
 
     ```powershell
     .\Create-SpokeToHubAADAppSecrets.ps1 -ConfigurationFilePath '<Path of the ConfigTemplate.xml file>' `
@@ -203,9 +210,9 @@ Atlikušajās šīs tēmas sadaļās ir sniegta plašāka informāciju par katru
     ```
 
     > [!NOTE]
-    > Ja nav atslēgas, kam ir **norādītā KeyVaultName** vērtība, skripts automātiski izveido jaunu.
+    > Ja nav nevienas atslēgas velves, kurai ir norādītā **KeyVaultName** vērtība, skripts to automātiski izveido.
 
-1. Pievienojiet tikko Azure AD izveidoto programmas ID (izmantojot skriptu Create-PpabAADApplication.ps1) programmu tabulai jūsu Azure AD pārkraušanas punktā. Šo darbību varat manuāli pabeigt, izmantojot UI.
+1. Azure AD Pievienojiet tikko izveidoto lietojumprogrammas ID (izmantojot skriptu Create-SpokeToHubAADApplication.ps1) Azure AD centrmezgla lietojumprogrammu tabulai. Šo darbību var manuāli pabeigt, izmantojot lietotāja interfeisu.
 
 ## <a name="upload-target-packages-into-lbd-project-assets-in-lcs"></a><a name="upload-packages"></a>Augšupielādēt mērķa pakotnes LBD projekta aktīvos LCS
 
@@ -221,13 +228,13 @@ Atlikušajās šīs tēmas sadaļās ir sniegta plašāka informāciju par katru
 1. Pakalpojumu LBD vidē ar kombinēto lietojumprogrammu/platformu pakotni, ko augšupielādējat iepriekšējā darbībā.
 1. Pakalpojumu LBD vidē ar kombinēto lietojumprogrammu/platformu pakotni, ko augšupielādējat iepriekšējā darbībā.
 
-    ![Piemēro atjauninājumus LCS.](media/cloud_edge-LBD-LCS-ServiceLBDEnv1.png "Piemēro atjauninājumus LCS")
+    ![Atjauninājumu lietošana LKS.](media/cloud_edge-LBD-LCS-ServiceLBDEnv1.png "Atjauninājumu lietošana LCS")
 
     ![Pielāgošanas pakotnes atlasīšana.](media/cloud_edge-LBD-LCS-ServiceLBDEnv2.png "Pielāgošanas pakotnes atlasīšana")
 
 ## <a name="assign-your-lbd-edge-scale-unit-to-a-hub"></a><a name="assign-edge-to-hub"></a>LBD malas skalas vienības piešķiršana pārkraušanas centram
 
-Jūs konfigurējat un pārvaldāt savu malu skalas vienību, izmantojot Mēroga vienību pārvaldības portālu. Papildinformāciju skatiet mēroga [vienību un darba noslodzi pārvaldība, izmantojot mēroga vienību pārvaldnieka](./cloud-edge-landing-page.md#scale-unit-manager-portal) portālu.
+Jūs konfigurējat un pārvaldāt savu malu skalas vienību, izmantojot mēroga vienību pārvaldības portālu. Papildinformāciju skatiet [skalu vienību un darba slodžu pārvaldība, izmantojot mēroga vienību pārvaldnieka portālu](./cloud-edge-landing-page.md#scale-unit-manager-portal).
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

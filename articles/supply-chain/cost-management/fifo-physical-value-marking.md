@@ -2,137 +2,140 @@
 title: FIFO ar fizisko vērtību un iezīmēšanu
 description: Pirmie iekšā, pirmie ārā (FIFO) ir krājumu modelis, kur pirmie saņemtie krājumi tiek arī pirmie izdoti. Finansiāli apstrādātie izdotie krājumi tiek nosegti ar pirmajiem finansiāli apstrādātajiem saņemtajiem krājumiem saskaņā ar krājumu darbību finansiālo datumu.
 author: AndersGirke
-ms.date: 06/15/2020
+ms.date: 02/02/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 54682
-ms.assetid: dc0e2855-83a0-41a7-a398-3c7852597d1a
 ms.search.region: Global
-ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b9be0881a1f37d1478ea6302576aa5c348d94714
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 5280498a23df26873dda1f380f686796f5e1055f
+ms.sourcegitcommit: fefe93f3f44d8aa0b7e6d54cc4a3e5eca6e64feb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574045"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8092144"
 ---
 # <a name="fifo-with-physical-value-and-marking"></a>FIFO ar fizisko vērtību un iezīmēšanu
 
 [!include [banner](../includes/banner.md)]
 
-Pirmie iekšā, pirmie ārā (FIFO) ir krājumu modelis, kur pirmie saņemtie krājumi tiek arī pirmie izdoti. Finansiāli apstrādātie izdotie krājumi tiek nosegti ar pirmajiem finansiāli apstrādātajiem saņemtajiem krājumiem saskaņā ar krājumu darbību finansiālo datumu. 
 
-Lietojot FIFO metodi, varat izvēlēties neizmantot FIFO noteikumus. Tā vietā, varat atzīmēt krājuma darbības tā, lai atsevišķa saņemšanas darbība tiktu segta ar atsevišķu izdošanas darbību. Ja lietojat FIFO krājumu modeli, ieteicam periodiski veikt krājumu slēgšanu. Tālākie piemēri parāda FIFO ietekmi, to lietojot trīs dažādos konfigurācijas veidos:
+Pirmais iekšā, pirmais ārā (FIFO) ir krājumu pārvaldības un novērtēšanas metode, kurā vispirms tiek pārdoti, izmantoti vai iznīcināti krājumi, kas ir saražoti vai iegūti vispirms. Inventāra aizvēršanas procesa laikā Microsoft Dynamics 365 Supply Chain Management, sistēma izveidos norēķinus, kuros pirmā kvīts tiek saskaņota ar pirmo izdevumu utt.
 
--   FIFO bez opcijas **Iekļaut fizisko vērtību**
--   FIFO ar opciju **Iekļaut fizisko vērtību**
--   FIFO ar iezīmēšanu
+Norēķinu un saskaņošanas princips ir balstīts uz inventarizācijas darījumu finanšu datumu. Norēķinu un korekciju provizorisku novērtējumu var veikt, palaižot krājumu pārrēķina procesu.
+
+Varat ignorēt FIFO principu, atzīmējot krājumu transakcijas, lai konkrētas preces saņemšana tiktu dzēsta pret konkrētu problēmu. Periodiska krājumu slēgšana ir nepieciešama, ja izmantojat FIFO uzskaites modeli, lai izveidotu norēķinus un pielāgotu emisiju vērtību saskaņā ar FIFO principu. Kamēr palaižat krājumu aizvēršanas procesu, izdošanas transakcijas tiek novērtētas pēc vidējās vērtības, kad tika veikti fiziskie un finanšu atjauninājumi. Ja vien neizmantojat atzīmēšanu, vidējais rādītājs tiek aprēķināts, veicot fizisko vai finansiālo atjauninājumu. Tālākie piemēri parāda FIFO ietekmi, to lietojot trīs dažādos konfigurācijas veidos:
+
+- FIFO bez opcijas **Iekļaut fizisko vērtību**
+- FIFO ar opciju **Iekļaut fizisko vērtību**
+- FIFO ar iezīmēšanu
 
 ## <a name="fifo-without-the-include-physical-value-option"></a>FIFO bez opcijas Iekļaut fizisko vērtību
-Šajā FIFO piemērā krājumu modeļa grupa nav marķēta fizisko vērtību iekļaušanai. Sekojošajā ilustrācijā tiek parādītas šīs darbības:
 
--   1.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 10,00 par katru.
--   1.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 10,00 katrs.
--   2.a Krājumu fiziska saņemšana daudzumam 2 pie cenas USD 10,00 par katru.
--   2.b Krājuma finansiāla saņemšana par daudzumu 2 par summu USD 10,00 katrs.
--   3.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 25,00 par katru.
--   4.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 30,00 par katru.
--   4.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 30,00 katrs.
--   5.a Krājumu fiziskā izdošana daudzumam 1, kur katra izmaksu cena ir USD 20,00 (darbinot finansiāli atjaunināto darbību vidējo rādītāju).
--   5.b Krājumu finansiālā izdošana daudzumam 1, kur katra izmaksu cena ir USD 15,00 (darbinot finansiāli atjaunināto darbību vidējo rādītāju).
--   6. Tiek veikta krājumu slēgšana. Balstoties uz FIFO metodi, pirmā finansiāli apstrādātā izdošana tiks nosegta ar pirmo finansiāli apstrādāto saņemšanu. Šīs izdošanas darbībai tiks veikts USD –5,00 pārrēķins.
+Šajā piemērā **Iekļaujiet fizisko vērtību** Izlaistā produkta preču modeļu grupā ir notīrīta izvēles rūtiņa. Tālāk esošajā ilustrācijā ir redzamas tālāk norādītās transakcijas:
 
-Jaunā aprēķinātā vidēja izmaksu cena ietekmē finansiāli atjaunoto darījumu vidējo rādītāju. Sekojošās ilustrācijas parāda FIFO krājumu modeļa ietekmi uz šo darbību sēriju, kad opcija **Iekļaut fizisko vērtību** netiek izmantota. 
+- 1.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 10,00 par katru.
+- 1.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 10,00 katrs.
+- 2.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 20,00 par katru.
+- 2.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 22,00 katrs.
+- 3.a Krājumu fiziska problēma daudzumam 1 par izmaksu cenu USD 16.00 (finansiāli reģistrēto darījumu vidējais rādītājs).
+- 3.b Krājumu finanšu problēma daudzumam 1 par izmaksu cenu USD 16.00 (finansiāli reģistrēto darījumu vidējais rādītājs).
+- 4.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 25,00 par katru.
+- 5.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 30,00 par katru.
+- 5.b Krājumu finansiāla saņemšana daudzumam 1 pie cenas USD 30,00 par katru.
+- 6.a Krājumu fiziska problēma daudzumam 1 par izmaksu cenu USD 23.00 (finansiāli reģistrēto darījumu vidējais rādītājs)
+- 7\. Tiek veikta krājumu slēgšana. Pamatojoties uz FIFO metodi, pirmais finansiāli atjauninātais jautājums tiks apmaksāts ar pirmo finansiāli atjaunināto kvīti utt. Šajā piemērā starp 1b un 3b tiek izveidota viena apdzīvota vieta. 3b tiks veikta korekcija USD 6,00 apmērā, un rezultātā galīgās izmaksas būs USD 10.00.
 
-![FIFO bez fizisko vērtību iekļaušanas.](./media/fifowithoutincludephysicalvalue.gif) 
+Jaunā aprēķinātā vidēja izmaksu cena ietekmē finansiāli atjaunoto darījumu vidējo rādītāju. Sekojošās ilustrācijas parāda FIFO krājumu modeļa ietekmi uz šo darbību sēriju, kad opcija **Iekļaut fizisko vērtību** netiek izmantota.
+
+![FIFO bez opcijas Iekļaut fizisko vērtību.](./media/fifo-without-include-physical-value.png)
 
 **Diagrammas atslēga**
 
 - Krājuma darbības ir atzīmētas ar vertikālām bultām.
+- Fiziskos darījumus attēlo īsākas gaiši pelēkas bultiņas.
+- Finanšu darījumus attēlo garākas melnas bultiņas.
 - Krājuma saņemšana ir atzīmēta ar vertikālām bultām virs laika skalas.
 - Krājuma izdošana ir atzīmēta ar vertikālām bultām zem laika skalas.
-- Virs (vai zem) katras vertikālas bultas ir norādīta krājuma darbības vērtība, lietojot formātu Quantity@Unitprice.
-- Krājuma darbības vērtība iekavās norāda, ka krājuma darbība tika iegrāmatota krājumā fiziski.
-- Krājuma darbības vērtība iekavās norāda, ka krājuma darbība netika iegrāmatota krājumā finansiāli.
 - Katra jauna krājuma saņemšanas vai izdošanas darbība tiek atzīmēta ar jaunu etiķeti.
 - Katra vertikāla bulta ir atzīmēta ar secības identifikatoru, piemēram, *1a*. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
-- Krājuma slēgšanas, kas atzīmētas ar sarkanu vertikālu punktlīniju un etiķeti *Krājuma slēgšana*.
+- Katrs datums diagrammā ir atdalīts ar plānu melnu vertikālu līniju. Datums ir norādīts diagrammas apakšā.
+- Krājumu slēgšana ir attēlota ar sarkanu vertikālu pārtrauktu līniju.
 - Segšanas, kas ir veiktas, noslēdzot krājumus, un atzīmētas ar sarkanām diagonālām punktlīnijas bultām, kas savieno saņemšanu un izdošanu.
 
 ## <a name="fifo-with-the-include-physical-value-option"></a>FIFO ar fizisko vērtību iekļaušanas opciju
-Ja krājumam lapā **Krājumu modeļu grupa** ir atzīmēta izvēles rūtiņa **Iekļaut fizisko vērtību**, sistēmā faktiskās vidējās izmaksu cenas aprēķinam tiek izmantotas gan fiziskās, gan finansiālās ieejas plūsmas transakcijas. Kur nepieciešams, sistēma veic korekcijas arī fiziski apstrādātajām izdošanas darbībām. Ja izvēles rūtiņa **Iekļaut fizisko vērtību** nav atlasīta, tad krājumu slēgšanas ar FIFO krājumu modeli veiks nosegšanu tikai finansiāli apstrādātiem darījumiem. Tālāk esošajā ilustrācijā ir redzamas tālāk norādītās transakcijas.
 
--   1.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 10,00 par katru.
--   1.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 10,00 katrs.
--   2.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 20,00 par katru.
--   2.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 20,00 katrs.
--   3.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 25,00 par katru.
--   4.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 30,00 par katru.
--   4.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 30,00 katrs.
--   5.a Krājuma fiziska izdošana par daudzumu 1 par izmaksu cenu USD 21,25 katrs (aprēķinot finansiāli un fiziski atjaunināto darbību vidējo).
--   5.b Krājuma finansiālā izdošana par daudzumu 1 par izmaksu cenu USD 21,25 katrs (aprēķinot finansiāli un fiziski atjaunināto darbību vidējo).
--   6.a Krājuma fiziska saņemšana par daudzumu 1 par summu USD 21,25 katrs.
--   7. Tiek veikta krājumu slēgšana. Balstoties uz FIFO metodi, pirmais finansiālais izdošanas darījums tiks pielāgots vai nosegts ar pirmo apstrādāto saņemšanas darbību, finansiālu vai fizisku.
+Ja **Iekļaujiet fizisko vērtību** izvēles rūtiņa ir atlasīta vienumam vietnē **Preču modeļu grupa** lapā, sistēma izmanto gan fizisko, gan finanšu ieņēmumu darījumus, lai aprēķinātu tekošo vidējo pašizmaksu. Attiecīgā gadījumā sistēma pielāgo arī fiziski atjaunināto emisijas darījumu. Krājumu slēgšana, kas izmanto FIFO krājumu modeli, veic norēķinus tikai par darījumiem, kas ir finansiāli atjaunināti. Tālāk esošajā ilustrācijā ir redzamas tālāk norādītās transakcijas.
 
-Ar darījumu 5b tiks nosegta saņemšanas darbība 1b. Šai izdošanas darbībai būs korekcija USD –11,25 apjomā. Jauna spēkā esošā vidējā izmaksu cena attēlo finansiāli vai fiziski atjaunināto darbību vidējo par summu USD 27,50. Sekojošā ilustrācija parāda FIFO krājumu modeļa ietekmi uz šo darbību sēriju, kad tiek izmantota opcija **Iekļaut fizisko vērtību**. 
+- 1.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 10,00 par katru.
+- 1.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 10,00 katrs.
+- 2.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 20,00 par katru.
+- 2.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 22,00 katrs.
+- 3.a Krājumu fiziska problēma daudzumam 1 par izmaksu cenu USD 16.00 (fiziski un finansiāli reģistrēto darījumu vidējā vērtība).
+- 3.b Krājumu finanšu problēma daudzumam 1 par izmaksu cenu USD 16.00 (fiziski un finansiāli reģistrēto darījumu vidējais rādītājs).
+- 4.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 25,00 par katru.
+- 5.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 30,00 par katru.
+- 5.b Krājumu finansiāla saņemšana daudzumam 1 pie cenas USD 30,00 par katru.
+- 6.a Krājumu fiziska problēma daudzumam 1 par izmaksu cenu USD 23.67 (fiziski un finansiāli reģistrēto darījumu vidējā vērtība).
+- 7\. Tiek veikta krājumu slēgšana. Pamatojoties uz FIFO metodi, pirmais finansiāli atjauninātais jautājums tiks apmaksāts ar pirmo finansiāli atjaunināto kvīti utt. Šajā piemērā starp 1b un 3b tiek izveidota viena apdzīvota vieta. 3b tiks veikta korekcija USD 6,00 apmērā, un rezultātā galīgās izmaksas būs USD 10.00. Turklāt darījums 6.a tiks pielāgots kvīts darījuma izmaksām 2b. Sistēmā šīs transakcijas netiek segtas, jo saņemšana tiek atjaunināta fiziski, bet ne finansiāli. Tā vietā fiziskās emisijas darījumam tiks publicēta tikai korekcija USD 1,67 apmērā, un rezultātā koriģētās izmaksas būs USD 22.00.
 
-![FIFO ar fizisko vērtību iekļaušanu.](./media/fifowithincludephysicalvalue.gif) 
+![FIFO ar opciju Iekļaut fizisko vērtību.](./media/fifo-with-include-physical-value.png)
+
+Ņemiet vērā, ka krājumu aizvēršanas procesa izpildes rezultāts ir vienāds neatkarīgi no tā, vai atlasāt **Iekļaujiet fizisko vērtību** opcija uz **Preču modeļu grupa** lappuse. The **Iekļaujiet fizisko vērtību** opcija ietekmē tikai vidējo rādītāju.
 
 **Diagrammas atslēga**
 
 - Krājuma darbības ir atzīmētas ar vertikālām bultām.
+- Fiziskos darījumus attēlo īsākas gaiši pelēkas bultiņas.
+- Finanšu darījumus attēlo garākas melnas bultiņas.
 - Krājuma saņemšana ir atzīmēta ar vertikālām bultām virs laika skalas.
 - Krājuma izdošana ir atzīmēta ar vertikālām bultām zem laika skalas.
-- Virs (vai zem) katras vertikālas bultas ir norādīta krājuma darbības vērtība, lietojot formātu Quantity@Unitprice.
-- Krājuma darbības vērtība iekavās norāda, ka krājuma darbība tika iegrāmatota krājumā fiziski.
-- Krājuma darbības vērtība iekavās norāda, ka krājuma darbība netika iegrāmatota krājumā finansiāli.
 - Katra jauna krājuma saņemšanas vai izdošanas darbība tiek atzīmēta ar jaunu etiķeti.
 - Katra vertikāla bulta ir atzīmēta ar secības identifikatoru, piemēram, *1a*. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
-- Krājuma slēgšanas, kas atzīmētas ar sarkanu vertikālu punktlīniju un etiķeti *Krājuma slēgšana*.
+- Katrs datums diagrammā ir atdalīts ar plānu melnu vertikālu līniju. Datums ir norādīts diagrammas apakšā.
+- Krājumu slēgšana ir attēlota ar sarkanu vertikālu pārtrauktu līniju.
 - Segšanas, kas ir veiktas, noslēdzot krājumus, un atzīmētas ar sarkanām diagonālām punktlīnijas bultām, kas savieno saņemšanu un izdošanu.
 
 ## <a name="fifo-with-marking"></a>FIFO ar iezīmēšanu
-Atzīmēšana ir process, kas sniedz iespēju izdošanas transakciju saistīt jeb atzīmēt ar ieejas plūsmas transakciju. Atzīmēšana var parādīties gan pirms, gan pēc darbības grāmatošanas. Kā arī varat lietot iezīmēšanu, ja vēlaties pārbaudīt precīzas krājuma izmaksas pēc darbības iegrāmatošanas vai pēc krājumu slēgšanas. Piemēram, jūsu Klientu apkalpošanas nodaļa saņēma steidzamu pasūtījumu no svarīga klienta. Tā kā tas ir steidzams pasūtījums, lai izpildītu debitora lūgumu, par šo krājumu jāmaksā vairāk. Jāpārbauda, vai krājuma vienības cena šajā pārdošanas pasūtījuma rēķinā tiek iekļauta peļņas aprēķinā vai pārdoto preču pašizmaksā (COGS). Iegrāmatojot pirkšanas pasūtījumu, tiek saņemts krājums ar vērtību USD 120,00. Ja šis pārdošanas dokuments ir atzīmēts kā pirkšanas pasūtījums pirms pavadzīmes vai rēķina iegrāmatošanas, tad COGS būs USD 120,00, nevis pašreizējas krājuma vidējas izmaksas. Ja pārdošanas pasūtījuma pavadzīme vai rēķins tiek iegrāmatots pirms iezīmēšanas, COGS būs norādītas kā pašreizējo krājuma vidējo izmaksu cena. Pirms krājumu slēgšanas šīs darbības var būt savstarpēji iezīmētas. Kad ieejas plūsmas transakcija atbilst izejas plūsmas transakcijai, tad tiek ignorēta krājumu modeļu grupai definētā novērtēšanas metode un sistēma savstarpēji sedz šīs transakcijas. Varat atzīmēt saņemšanas darbībai paredzēto izdošanas darbību pirms darbība tiek grāmatota. To var paveikt no pārdošanas pasūtījuma rindas, lapā **Pārdošanas pasūtījuma informācija**. Jūs varat skatīt atvērtās saņemšanas darbības lapā **Iezīmēšana**. Varat arī iezīmējot saistīt izejas plūsmas transakciju ar ieejas plūsmas transakciju pēc transakcijas grāmatošanas. Varat saskaņot vai iezīmējot saistīt inventarizēta krājuma izejas plūsmas transakciju ar atvērtu ieejas plūsmas transakciju, izmantojot grāmatoto krājumu korekciju žurnālu. Sekojošajā ilustrācijā tiek parādītas šīs darbības:
 
--   1.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 10,00 par katru.
--   1.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 10,00 katrs.
--   2.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 20,00 par katru.
--   2.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 20,00 katrs.
--   3.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 25,00 par katru.
--   4.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 30,00 par katru.
--   4.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 30,00 katrs.
--   5.a Krājuma fiziska izdošana par daudzumu 1 par izmaksu cenu USD 21,25 katrs (aprēķinot finansiāli un fiziski atjaunināto darbību vidējo).
--   5.b Krājumu finansiāla izdošana ar daudzumu 1 tiek nozīmēta krājumu saņemšanas darbībai 2.b pirms darbība tiek iegrāmatota. Šī darbība tiek iegrāmatota ar izmaksu cenu USD 20,00.
--   6.a Krājuma fiziska saņemšana par daudzumu 1 par summu USD 21,25 katrs.
--   7. Tiek veikta krājumu slēgšana. Tādēļ, ka finansiāli apstrādātā FIFO darbība tiek nozīmēta esošajai saņemšanai, tad šīs darbības tiek nosegtas viena ar otru un netiek veiktas nekādas korekcijas.
+Atzīmēšana ir process, kas sniedz iespēju izdošanas transakciju saistīt jeb atzīmēt ar ieejas plūsmas transakciju. Atzīmēšana var parādīties gan pirms, gan pēc darbības grāmatošanas. Kā arī varat lietot iezīmēšanu, ja vēlaties pārbaudīt precīzas krājuma izmaksas pēc darbības iegrāmatošanas vai pēc krājumu slēgšanas.
 
-Jauna spēkā esošā vidējā izmaksu cena attēlo finansiāli vai fiziski atjaunināto darbību vidējo par summu USD 27,50. Sekojošajā ilustrācijā redzama šī darījumu sērija ar ietekmi, ko rada FIFO krājumu modeļa izvēle ar nozīmēšanu starp izsniegšanas un saņemšanas darījumiem. 
+Piemēram, jūsu Klientu apkalpošanas nodaļa saņēma steidzamu pasūtījumu no svarīga klienta. Tā kā šis pasūtījums ir steidzams pasūtījums, jums ir jāmaksā vairāk par šo preci, lai izpildītu klienta pieprasījumu. Jums ir jāpārliecinās, ka krājuma preces izmaksas ir atspoguļotas pārdošanas pasūtījuma rēķina maržā jeb pārdoto preču izmaksās (COGS). Iegrāmatojot pirkšanas pasūtījumu, tiek saņemts krājums ar vērtību USD 120,00. Ja pārdošanas pasūtījuma dokuments ir atzīmēts pirkuma pasūtījumā pirms iepakojuma pavadzīmes vai rēķina grāmatošanas, COGS būs USD 120.00, nevis preces pašreizējās tekošās vidējās izmaksas. Ja pārdošanas pasūtījuma pavadzīme vai rēķins tiek iegrāmatots pirms iezīmēšanas, COGS būs norādītas kā pašreizējo krājuma vidējo izmaksu cena. Pirms krājumu slēgšanas šīs darbības var būt savstarpēji iezīmētas.
 
-![FIFO ar apzīmējumu.](./media/fifowithmarking.gif) 
+Kad saņemšanas transakcija ir atzīmēta kā izdošanas transakcija, preču modeļu grupā definētā vērtēšanas metode netiek ņemta vērā, un sistēma šos darījumus veic savā starpā. Varat manuāli atzīmēt darījumu ar pārdošanas pasūtījuma rindu **Pārdošanas pasūtījuma informācija** lapu, atlasot **Inventārs \> Marķēšana** uz **Pārdošanas pasūtījumu rindas** FastTab. Varat skatīt atvērtās ieejas plūsmas transakcijas lapā **Iezīmēšana**. Varat saskaņot vai atzīmēt izdošanas darījumu ar atvērtu saņemšanas transakciju inventāra precei no iegrāmatotā krājumu korekcijas žurnāla. Sekojošajā ilustrācijā tiek parādītas šīs darbības:
+
+- 1.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 10,00 par katru.
+- 1.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 10,00 katrs.
+- 2.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 20,00 par katru.
+- 2.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 22,00 katrs.
+- 3.a Krājumu fiziska problēma daudzumam 1 par izmaksu cenu USD 16.00 (finansiāli reģistrēto darījumu vidējais rādītājs).
+- 3.b Krājumu finanšu problēma daudzumam 1 par izmaksu cenu USD 16.00 (finansiāli reģistrēto darījumu vidējais rādītājs).
+- 3c. Krājumu finanšu emisija 3.b ir atzīmēta kā krājumu finanšu problēma 2.b.
+- 4.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 25,00 par katru.
+- 5.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 30,00 par katru.
+- 5.b Krājumu finansiāla saņemšana daudzumam 1 pie cenas USD 30,00 par katru.
+- 6.a Krājumu fiziska problēma daudzumam 1 par izmaksu cenu USD 23.00 (finansiāli reģistrēto darījumu vidējais rādītājs)
+- 7\. Tiek veikta krājumu slēgšana. Pamatojoties uz marķēšanas principu, kurā tiek izmantota FIFO metode, atzīmētie darījumi tiek norēķināti viens pret otru. Šajā piemērā 3b tiek izlīdzināts pret 2b, un USD 6.00 korekcija tiek ievietota 3b, lai vērtību iegūtu USD 22.00. Šajā piemērā papildu norēķini netiek veikti, jo slēgšana veido norēķinus tikai par finansiāli atjauninātiem darījumiem.
+
+Sekojošajā ilustrācijā redzama šī darījumu sērija ar ietekmi, ko rada FIFO krājumu modeļa izvēle ar nozīmēšanu starp izsniegšanas un saņemšanas darījumiem.
+
+![FIFO ar marķējumu.](./media/fifo-with-marking.png)
 
 **Diagrammas atslēga**
 
 - Krājuma darbības ir atzīmētas ar vertikālām bultām.
+- Fiziskos darījumus attēlo īsākas gaiši pelēkas bultiņas.
+- Finanšu darījumus attēlo garākas melnas bultiņas.
 - Krājuma saņemšana ir atzīmēta ar vertikālām bultām virs laika skalas.
 - Krājuma izdošana ir atzīmēta ar vertikālām bultām zem laika skalas.
-- Virs (vai zem) katras vertikālas bultas ir norādīta krājuma darbības vērtība, lietojot formātu Quantity@Unitprice.
-- Krājuma darbības vērtība iekavās norāda, ka krājuma darbība tika iegrāmatota krājumā fiziski.
-- Krājuma darbības vērtība iekavās norāda, ka krājuma darbība netika iegrāmatota krājumā finansiāli.
 - Katra jauna krājuma saņemšanas vai izdošanas darbība tiek atzīmēta ar jaunu etiķeti.
 - Katra vertikāla bulta ir atzīmēta ar secības identifikatoru, piemēram, *1a*. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
-- Krājuma slēgšanas, kas atzīmētas ar sarkanu vertikālu punktlīniju un etiķeti *Krājuma slēgšana*.
-- Segšanas, kas ir veiktas, noslēdzot krājumus, un atzīmētas ar sarkanām diagonālām punktlīnijas bultām, kas savieno saņemšanu un izdošanu.
-
-
-
-
-
+- Katrs datums diagrammā ir atdalīts ar plānu melnu vertikālu līniju. Datums ir norādīts diagrammas apakšā.
+- Krājumu slēgšana ir attēlota ar sarkanu vertikālu pārtrauktu līniju.
+- Norēķini un marķējumi, kas tiek veikti, aizverot krājumus, ir attēloti ar sarkanām diagonālām punktētām bultiņām, kas pāriet no kvīts uz izdevumu.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

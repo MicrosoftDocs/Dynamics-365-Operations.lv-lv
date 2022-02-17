@@ -16,18 +16,21 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4332be972ab3dc81e7e4f3cc297a91cd247e721e
-ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.openlocfilehash: 7a83dea308e3e2eec1edebd5d619f9455e1a2268
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7771342"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066579"
 ---
 # <a name="personnel-management-workspace"></a>Personāla pārvaldības darbvieta
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Darbvietā **Personāla vadība** ir iekļauts liels satura daudzums. Tajā ir ietvertas darbinieku kustības, tiek izsekotas darbinieku izmaiņas, atvērtie amati, adreses maiņas, beigšanās ieraksti un analīze, kā arī nodrošina saites uz specifisku informāciju. Šajā tēmā ir sniegta detalizēta informācija par katru darbvietas daļu.
+Darbvietā **Personāla vadība** ir iekļauts liels satura daudzums. Tajā ir ietvertas personāla kustības, izseko darbinieku izmaiņas, atvērtās pozīcijas, adreses izmaiņas, ierakstus, kuru derīguma termiņš beidzas, un analīzi, kā arī nodrošina saites uz konkrētu informāciju. Šajā tēmā ir sniegta detalizēta informācija par katru darbvietas daļu.
 
 ## <a name="activity-tab"></a>Cilne Aktivitātes
 
@@ -65,7 +68,7 @@ Sadaļā **Sāksies drīz** ir uzskaitīti darbinieki, kuru sākuma datums ir n�
 Ja vadītājs uz kartes neparādās, darbiniekam nav piešķirts amats.
 
 > [!NOTE] 
-> Pirms kontrolsaraksta lietošanas ieteicams darbiniekam piešķirt amatu. Dažreiz darbā pieņemšanas uzdevumi tiek piešķirti jauna nolīgšanas darbinieka vadītājam. Tomēr, ja amats nav piešķirts, jaunā darbinieka vadītāju nevar noteikt. Tādā gadījumā kontrolsaraksta īpašniekam tiks piešķirti visi uzņēmuma uzdevumi, kas ir paredzēti vadītājam.
+> Pirms kontrolsaraksta piemērošanas iesakām piešķirt amatu darbiniekam. Dažreiz iekļaušanas uzdevumi tiek uzticēti nesen pieņemtā darbinieka vadītājam. Tomēr, ja amats nav piešķirts, jaunā darbinieka vadītāju nevar noteikt. Tādā gadījumā kontrolsaraksta īpašniekam tiks piešķirti visi uzņēmuma uzdevumi, kas ir paredzēti vadītājam.
 
 Kad darbinieki parādās sadaļā **Sāksies drīz**, viņiem ir pieejamas šādas darbības:
 
@@ -85,7 +88,7 @@ Sadaļā **Jaunākie darbinieki** ir uzskaitīti darbinieki, kuriem pēdējā la
 Pēc noklusējuma sarakstā ir norādīti darbinieki, kuri nolīgti pēdējo septiņu dienu laikā. Lai mainītu šo iestatījumu, lapā **Cilvēkresursu parametri** cilnē **Vispārīgi** definējiet laika posmu **Jaunākiem darbiniekiem**. Datus sadaļā **Jaunākie darbinieki** var rādīt konkrētam dienu, mēnešu vai gadu skaitam. Piemēram, lai skatītu to darbinieku sarakstu, kas nolīgti pēdējās 14 dienās, iestatiet lauku **Periods** uz **14** un lauku **Vienība** uz **Dienas**.
 
 > [!NOTE]
-> Lapā **Personāla vadības parametri** iestatījumi attiecas tikai uz uzņēmumu. Tāpēc laika posms, kurā jūs skatāt pēdējās nolīgšanas par var atšķirties pēc uzņēmuma. Piemēram, USMF uzņēmumā, iespējams, vēlēsieties skatīt visas jaunās nolīgšanas no pēdējām septiņām dienām. Tomēr USSI uzņēmumā, iespējams, vēlēsieties skatīt visas jaunās nolīgšanas no pēdējām 14 dienām. Šajā gadījumā atveriet lapu Personāla vadības **parametri katrā uzņēmumā un iestatiet** parametrus, kā nepieciešams.
+> Lapā **Personāla vadības parametri** iestatījumi attiecas tikai uz uzņēmumu. Tāpēc laika posms, kurā jūs skatāt pēdējās nolīgšanas par var atšķirties pēc uzņēmuma. Piemēram, USMF uzņēmumā, iespējams, vēlēsieties skatīt visas jaunās nolīgšanas no pēdējām septiņām dienām. Tomēr USSI uzņēmumā jūs varētu vēlēties skatīt visus jaunos darbiniekus pēdējo 14 dienu laikā. Šādā gadījumā atveriet **Cilvēkresursu parametri** lapā katrā uzņēmumā, un pēc vajadzības iestatiet parametrus.
 
 Ja vadītājs uz kartes neparādās, darbiniekam nav piešķirts amats.
 

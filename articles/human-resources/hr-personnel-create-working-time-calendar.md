@@ -13,17 +13,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4c1d299a77c5a02c531838aae0750dea87e89e34
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: d56e38edc00780ad16aaafdb501b8f5df49020f2
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731678"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075253"
 ---
 # <a name="create-calendars-and-generate-working-times"></a>Kalendāra izveide un darba laiku ģenerēšana
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
+> [!IMPORTANT]
+> Šajā tēmā atzīmētā funkcionalitāte šobrīd ir pieejama Personāla klientiem finanšu infrastruktūrā.  
 
 
 Kalendāros ir norādīta operāciju resursu noslodze un darba laiki. Šajā tēmā ir paskaidrots, kā izveidot darba kalendāru, pamatojoties uz darba laika veidni. Šo procedūru var izmēģināt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus.
@@ -32,9 +34,9 @@ Kalendāros ir norādīta operāciju resursu noslodze un darba laiki. Šajā tē
 2. Atlasiet **Kalendāri**.
 3. Atlasiet **Jauns**.
 4. Laukā **Kalendārs** klasificējiet kalendāru. Tas ir kalendāra ID, kas tiek izmantots kā atsauce, piešķirot kalendārus, piemēram, operācijas resursiem vai resursu grupai.  
-5. Laukā **·** Nosaukums ievadiet kalendāra nosaukumu.
+5. Laukā **Nosaukums** ievadiet kalendāra nosaukumu.
 6. Ievadiet skaitli laukā **Standarta darba dienas ilgums stundās**.
-7. Pārliecinieties, vai rinda ir atlasīta, **un pēc tam darbību rūtī atlasiet Darba** **laiki**.
+7. Pārliecinieties, vai rinda ir atlasīta, pēc tam darbību rūtī atlasiet **Darba laiki** **·**.
 8. Atlasiet **Darba laiku definēšana**. Ģenerējiet darba stundas katrai dienai periodā, kurā vēlaties plānot darbu. Laika gaitā jūs varat ģenerēt darba laikus papildu periodiem.  
 9. Ievadiet datumu laukā **No datuma**. Tā ir pirmā diena, kad šim kalendāram ir jābūt atvērtam.  
 10. Ievadiet datumu laukā **Līdz datumam**. Tā ir pēdējā diena, kad šis kalendārs ir atvērts.  

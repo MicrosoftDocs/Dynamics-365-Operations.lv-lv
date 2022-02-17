@@ -14,18 +14,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-08-07
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ed7ddb192b338f6373e8b53be710c961d918921f
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: bd7180c8f53687d561c429456387e0fe999dd508
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7728837"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070179"
 ---
 # <a name="view-and-manage-address-changes"></a>Skatīt un pārvaldīt adreses izmaiņas
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šajā tēmā skaidrots, kā var skatīt un pārvaldīt adrešu izmaiņas lapā Rediģēt personas datus (kuru atverat no darbinieku pašapkalpošanās darbvietas) vai darbinieku informācijas **·** **·** **·** lapā Dynamics 365 Human Resources.
+Šajā tēmā ir paskaidrots, kā vietnē varat skatīt un pārvaldīt adreses izmaiņas **Rediģēt personas datus** lapa (kuru atverat no **Darbinieku pašapkalpošanās** darbvieta) vai **Strādnieks** detalizētas informācijas lapa Dynamics 365 Human Resources.
 
 Daudzas organizācijas vēlas, lai darbinieki varētu pārvaldīt savu personīgo informāciju, izmantojot pašapkalpošanās pieredzi. Varat ļaut lietotājiem atjaunināt savu adresi **Darbinieku pašapkalpošanās** darbvietā. Pēc tam varat pārraudzīt šīs izmaiņas **Personāla vadības** darbvietā. Lai izmantotu šo funkciju, ir jānorāda dienu skaits, cik ilgi vēlaties skatīt izmaiņas **Personāla vadības parametru** lapā.
 
@@ -43,7 +46,7 @@ Lai konfigurētu dienu skaitu, kurā vēlaties, lai adreses izmaiņas tiktu rād
 
 Lietotāji var atjaunināt paši savu adresi **Darbinieku pašapkalpošanās** darbvietā. Izpildiet tālāk aprakstītās darbības, lai izveidotu vai mainītu adresi:
 
-1. Atlasiet **darbinieku pašapkalpošanās** elementu **mājas** lapā.
+1. Izvēlieties **Darbinieku pašapkalpošanās** flīzes uz **Mājas** lappuse.
 2. Atlasiet **Rediģēt personas informāciju**.
 3. Lai pievienotu adresi, atlasiet **Pievienot**. Lai atjauninātu esošu adresi, izvēlieties adresi no saraksta un pēc tam atlasiet **Rediģēt**.
 4. Ievadiet **Nosaukumu vai aprakstu**.
@@ -87,7 +90,7 @@ Dažos gadījumos, iespējams, vēlēsities atjaunināt adresi, lai to mainītu 
 
 ## <a name="view-and-monitor-address-changes"></a>Skatīt un uzraudzīt adreses izmaiņas
 
-HR personāls var skatīt un pārraudzīt adreses izmaiņas no **Personāla vadības** darbvietas. Lai skatītu adreses izmaiņas, mājas **lapā atlasiet personāla vadības** **·** elementu. Adreses izmaiņas parādās elementam augšējā labajā stūrī. Numurs virs **adreses izmaiņām parāda, cik adreses izmaiņas radās dienu skaitu, kas norādīts** personāla vadības parametru **·** lapā. 
+HR personāls var skatīt un pārraudzīt adreses izmaiņas no **Personāla vadības** darbvietas. Lai skatītu adreses izmaiņas, atlasiet **Personāla vadība** flīzes uz **Mājas** lappuse. Adreses izmaiņas tiek parādītas flīzes augšējā labajā stūrī. Augšējais skaitlis **Adreses izmaiņas** parāda, cik adreses izmaiņu ir notikušas dienā, kas norādīta uz **Cilvēkresursu parametri** lappuse. 
 
 Kad atlasāt **Adreses izmaiņas** elementu, jauna lapa parāda detalizētu informāciju par visām adreses izmaiņām. Pēc izvēles var atlasīt **Iekļaut turpmākās adreses izmaiņas** augšējā labajā stūrī, lai parādītu adreses izmaiņas ar nākotnes datumu.
 

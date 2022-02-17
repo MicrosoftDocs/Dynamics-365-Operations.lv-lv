@@ -1,6 +1,6 @@
 ---
-title: Izvietošanas vadlīnijas fiskālā printera integrācijas paraugs Polijai (mantotais)
-description: Šajā tēmā sniegtas vadlīnijas fiskālā printera integrācijas parauga izvietošanai Polijai no Microsoft Dynamics 365 Commerce mazumtirdzniecības programmatūras izstrādes komplekta (SDK).
+title: Polijas fiskālā printera integrācijas parauga izvietošanas vadlīnijas (mantots)
+description: Šajā tēmā ir sniegtas vadlīnijas fiskālā printera integrācijas parauga izvietošanai Polijai no Microsoft Dynamics 365 Commerce Mazumtirdzniecības programmatūras izstrādes komplekts (SDK).
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,67 +9,67 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: bff3a6ad74d50e7b706d4df92b17a4a3af36521b
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 45cae498df8157b9561c54e9859daadcaedd7823
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944819"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8076992"
 ---
-# <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-poland-legacy"></a>Izvietošanas vadlīnijas fiskālā printera integrācijas paraugs Polijai (mantotais)
+# <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-poland-legacy"></a>Polijas fiskālā printera integrācijas parauga izvietošanas vadlīnijas (mantots)
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā sniegtas vadlīnijas par finanšu printera integrēšanas parauga izvietošanu Polijai no Mazumtirdzniecības programmatūras izstrādes komplekta (SDK) izstrādātāja virtuālās mašīnas Microsoft Dynamics 365 Commerce (VM) Microsoft Dynamics lifecycle Services (LCS). Papildinformāciju par šo finanšu integrācijas paraugu skatiet [Polijas fiskālās printera integrācijas paraugs](emea-pol-fpi-sample.md). 
+Šajā tēmā ir sniegtas vadlīnijas fiskālā printera integrācijas parauga izvietošanai Polijai no Microsoft Dynamics 365 Commerce Mazumtirdzniecības programmatūras izstrādes komplekts (SDK) izstrādātāja virtuālajā mašīnā (VM).Microsoft Dynamics Dzīves cikla pakalpojumi (LCS). Papildinformāciju par šo fiskālās integrācijas paraugu skatiet [Polijas fiskālā printera integrācijas paraugs](emea-pol-fpi-sample.md). 
 
-Polijas finanšu integrācijas paraugs ir daļa no sdk Retail. Informāciju par TO, kā instalēt un izmantot SDK, skatiet [mazumtirdzniecības programmatūras izstrādes komplekta (SDK) arhitektūru](../dev-itpro/retail-sdk/retail-sdk-overview.md). Šis paraugs sastāv no Commerce Runtime () un CRT aparatūras stacijas paplašinājumiem. Lai palaistu šo paraugu, ir jāmodificē un jāveido CRT aparatūras stacijas projekti. Ieteicams izmantot nemodificētu komplektu Retail SDK, lai veiktu šajā tēmā aprakstītās izmaiņas. Iesakām izmantot arī avota kontroles sistēmu, piemēram, Azure DevOps tādu failu, kas vēl nav mainīti.
+Polijas fiskālās integrācijas paraugs ir daļa no mazumtirdzniecības SDK. Informāciju par SDK instalēšanu un lietošanu skatiet sadaļā [Mazumtirdzniecības programmatūras izstrādes komplekta (SDK) arhitektūra](../dev-itpro/retail-sdk/retail-sdk-overview.md). Šis paraugs sastāv no Commerce izpildlaika paplašinājumiem (CRT) un aparatūras stacija. Lai palaistu šo paraugu, jums ir jāmaina un jāveido CRT un Aparatūras staciju projekti. Lai veiktu šajā tēmā aprakstītās izmaiņas, ieteicams izmantot nepārveidotu mazumtirdzniecības SDK. Mēs arī iesakām izmantot avota kontroles sistēmu, piemēram,Azure DevOps kur neviens fails vēl nav mainīts.
 
 ## <a name="development-environment"></a>Izstrādes vide
 
-Izpildiet šīs darbības, lai iestatītu izstrādes vidi, tādējādi jūs variet pārbaudīt un pagarināt paraugu.
+Veiciet šīs darbības, lai iestatītu izstrādes vidi, lai varētu pārbaudīt un paplašināt paraugu.
 
-### <a name="commerce-runtime-extension-components"></a>Commerce runtime paplašinājuma komponenti
+### <a name="commerce-runtime-extension-components"></a>Tirdzniecības izpildlaika paplašinājuma komponenti
 
-Paplašinājuma CRT komponenti ir ietverti Retail SDK. Lai izpildītu tālāk norādītās procedūras, atveriet **CommerceRuntimeSamples.sln risinājumu zem** **RetailSdk \\ SampleExtensions \\ CommerceRuntime.**
+The CRT paplašinājuma komponenti ir iekļauti mazumtirdzniecības SDK. Lai pabeigtu tālāk norādītās procedūras, atveriet **CommerceRuntimeSamples.sln** risinājums zem **RetailSdk\\ Extensions paraugi\\ CommerceRuntime**.
 
-1. Atrast **Runtime.Extensions.DocumentProvider.PosnetSample** projektu un veidot to.
-2. Mapē **Extensions.DocumentProvider.PosnetSample \\ bin \\ Debug atrodiet** **Contoso.Commerce.Runtime.Extensions.DocumentProvider.PosnetSample.dll montāžas** failu.
-3. Kopēt montāžas failu uz CRT paplašinājuma mapi:
+1. Atrodi **Runtime.Extensions.DocumentProvider.PosnetSample** projektu un uzbūvēt to.
+2. Iekš **Extensions.DocumentProvider.PosnetSample\\ atkritumu tvertne\\ Atkļūdošana** mapi, atrodiet **Contoso.Commerce.Runtime.Extensions.DocumentProvider.PosnetSample.dll** montāžas fails.
+3. Kopējiet montāžas failu uz CRT paplašinājuma mape:
 
-    - **Commerce Scale Unit: kopējiet failu uz mapi bin ext, kas atrodas Interneta informācijas** **\\ pakalpojumu \\** (IIS) Commerce Scale Unit atrašanās vietā.
-    - **Lokāls CRT vai Modern POS:** kopējiet failu uz ārējo mapi lokālā **\\ klienta** CRT starpnieka atrašanās vietā.
+    - **Tirdzniecības mēroga vienība:** Kopējiet failu uz **\\ atkritumu tvertne\\ ext** mapē Interneta informācijas pakalpojumu (IIS) Commerce Scale Unit vietnes atrašanās vietā.
+    - **Vietējais CRT Mūsdienu POS:** Kopējiet failu uz **\\ ext** mape zem vietējā CRT klienta brokera atrašanās vieta.
 
-4. Meklēt paplašinājuma konfigurācijas failu CRT šim:
+4. Atrodiet paplašinājuma konfigurācijas failu CRT:
 
-    - **Commerce Scale Unit: faila nosaukums ir** **commerceruntime.ext.config, un tā atrodas** **IIS Commerce Scale \\ Unit vietas nodalījuma ārējā** mapē.
-    - **Modern POS lokāls: faila nosaukums ir CRT** **CommerceRuntime.MPOSOffline.Ext.config, un tas atrodas vietējā klienta** CRT starpnieka atrašanās vietā.
+    - **Tirdzniecības mēroga vienība:** Fails ir nosaukts **commerceruntime.ext.config**, un tas atrodas **atkritumu tvertne\\ ext** mapi zem IIS Commerce Scale Unit vietnes atrašanās vietas.
+    - **Vietējais CRT Mūsdienu POS:** Fails ir nosaukts **CommerceRuntime.MPOSOffline.Ext.config**, un tas ir zem vietējā CRT klienta brokera atrašanās vieta.
 
-5. Reģistrēt CRT izmaiņas paplašinājuma konfigurācijas failā.
+5. Reģistrējieties CRT izmaiņas paplašinājuma konfigurācijas failā.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.Runtime.Extensions.DocumentProvider.PosnetSample" />
     ```
 
-6. Restartējiet Commerce Service:
+6. Restartējiet pakalpojumu Commerce:
 
-    - **Commerce Scale Vienība:** restartējiet Commerce Service vietni no IIS pārvaldnieka.
-    - **Klienta** starpnieks: beigt **dllhost.exe** procesu uzdevumu pārvaldniekā un pēc tam restartēt Modern POS.
+    - **Tirdzniecības mēroga vienība:** Restartējiet Commerce pakalpojuma vietni no IIS pārvaldnieka.
+    - **Klientu brokeris:** Beidziet **dllhost.exe** procesu uzdevumu pārvaldniekā un pēc tam restartējiet Modern POS.
 
-### <a name="hardware-station-extension-components"></a>Aparatūras stacijas paplašinājuma komponenti
+### <a name="hardware-station-extension-components"></a>Aparatūras stacijas paplašinājuma sastāvdaļas
 
-Aparatūras stacijas paplašinājuma komponenti ir iekļauti Retail SDK. Lai izpildītu tālāk norādītās procedūras, atveriet **HardwareStationSamples.sln risinājumu zem** **RetailSdk \\ SampleExtensions \\** HardwareStation.
+Aparatūras stacijas paplašinājuma komponenti ir iekļauti mazumtirdzniecības SDK. Lai pabeigtu tālāk norādītās procedūras, atveriet **HardwareStationSamples.sln** risinājums zem **RetailSdk\\ Extensions paraugi\\ HardwareStation**.
 
-1. Atrast **hardwareStation.Extension.PosnetThermalFVFiscalPrinterSample** projektu un veidot to.
-2. Mapē **Extension.Posnet.ContosoFVFiscalPrinterSample bin Atkļūdošana atrodiet \\\\** **contoso.Commerce.HardwareStation.PosnetThermalFVFiscalPrinterSample.dll montāžas** failu.
-3. Kopējiet montāžas failu izvietotā aparatūras stacijas datorā:
+1. Atrodi **HardwareStation.Extension.PosnetThermalFVFiscalPrinterSample** projektu un uzbūvēt to.
+2. Iekš **Extension.Posnet.ThermalFVFiscalPrinterSample\\ atkritumu tvertne\\ Atkļūdošana** mapi, atrodiet **Contoso.Commerce.HardwareStation.PosnetThermalFVFiscalPrinterSample.dll** montāžas fails.
+3. Kopējiet montāžas failu izvietotajā aparatūras stacijas mašīnā:
 
-    - **Attālās aparatūras** stacija: kopējiet failu uz **nodalījuma mapi** IIS aparatūras stacijas vietnes atrašanās vietā. Kopējiet printera draivera bibliotēkas **(libposcmbth.dll,** **libcmbth \_ serial.dll un** **cmbth \_ pl.lng).**
+    - **Attālā aparatūras stacija:** Kopējiet failu uz **atkritumu tvertne** mapi zem IIS aparatūras stacijas vietnes atrašanās vietas. Kopējiet printera draivera bibliotēkas (**libposcmbth.dll**, **\_ serial.dll**, un **cmbth\_ pl.lng**).
 
-4. Atrast aparatūras stacijas paplašinājumu konfigurācijas failu. Faila nosaukums ir **HardwareStation.Extension.config:**
+4. Atrodiet aparatūras stacijas paplašinājumu konfigurācijas failu. Fails ir nosaukts **HardwareStation.Extension.config**:
 
-    - **Attālās aparatūras stacija:** fails atrodas IIS aparatūras stacijas vietnes atrašanās vietā.
+    - **Attālā aparatūras stacija:** Fails atrodas zem IIS aparatūras stacijas vietnes atrašanās vietas.
 
-5. Pievienojiet konfigurācijas faila **sastāva** sadaļai šādu rindu.
+5. Pievienojiet konfigurācijas faila kompozīcijas **sadaļai** šādu rindu.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.PosnetThermalFVFiscalPrinterSample" />
@@ -77,69 +77,69 @@ Aparatūras stacijas paplašinājuma komponenti ir iekļauti Retail SDK. Lai izp
 
 6. Restartējiet aparatūras stacijas pakalpojumu:
 
-    - **Attālā aparatūras stacija:** restartējiet aparatūras stacijas vietni no IIS pārvaldnieka.
+    - **Attālā aparatūras stacija:** Restartējiet aparatūras stacijas vietni no IIS pārvaldnieka.
 
 ## <a name="production-environment"></a>Ražošanas vide
 
-Iepriekšējā procedūrā ir iespējoti paplašinājumi, kas ir fiskālās reģistrācijas pakalpojuma integrācijas parauga komponenti. Turklāt šīs darbības ir jāveic, lai izveidotu izvietojamas pakotnes, kurās ir Commerce komponenti, un lai piemērotu šīs pakotnes ražošanas vidē.
+Iepriekšējā procedūrā jūs iespējojāt paplašinājumus, kas ir fiskālās reģistrācijas pakalpojuma integrācijas parauga sastāvdaļas. Turklāt ir jāveic šīs darbības, lai izveidotu izvietojamas pakotnes, kurās ir Commerce komponenti, un lietotu šīs pakotnes ražošanas vidē.
 
-1. Mapē **RetailSdk Assets pakotnes konfigurācijas failos veiciet \\ tālāk norādītās** izmaiņas.
+1. Veiciet tālāk norādītās izmaiņas pakotnes konfigurācijas failos **RetailSdk\\Assets**:
 
-    - **Commerceruntime.ext.config un** **CommerceRuntime.MPOSOffline.Ext.config konfigurācijas failos pievienojiet šim sastāva** **sadaļai šādu** rindu.
+    - Iekš **commerceruntime.ext.config** un **CommerceRuntime.MPOSOffline.Ext.config** konfigurācijas failus, pievienojiet šādu rindiņu **sastāvu** sadaļā.
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.Runtime.Extensions.DocumentProvider.PosnetSample" />
         ```
 
-    - Konfigurācijas failā **HardwareStation.Extension.config** pievienojiet sastāva sadaļai **šādu** rindu.
+    - Konfigurācijas failā **HardwareStation.Extension.config** kompozīcijas **sadaļai** pievienojiet šādu rindu.
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.HardwareStation.PosnetThermalFVFiscalPrinterSample" />
         ```
 
-1. Mapē **BuildTools veiciet šādas** izmaiņas pielāgošanas.iestatījumu pakotnes **pielāgošanas konfigurācijas** failā:
+1. Mapē BuildTools veiciet šādas izmaiņas **pielāgošanas.settings** pakotnes pielāgošanas konfigurācijas **failā**:
 
-    - Pievienojiet tālāk norādīto rindu, lai CRT ietvertu paplašinājumu izvietojamās pakotnēs.
+    - Pievienojiet šo rindiņu, lai iekļautu CRT paplašinājums izvietojamās pakotnēs.
 
         ``` xml
         <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.Runtime.Extensions.DocumentProvider.PosnetSample.dll"/>
         ```
 
-    - Pievienojiet tālāk norādīto rindu, lai ietvertu aparatūras stacijas paplašinājumu izvietojamās pakotnēs.
+    - Pievienojiet šo rindiņu, lai izvietojamās pakotnēs iekļautu aparatūras stacijas paplašinājumu.
 
         ``` xml
         <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.PosnetThermalFVFiscalPrinterSample.dll"/>
         ```
 
-1. Startējiet utilītai MSBuild komandu uzvedni un palaidiet Visual Studio **msbuild mapē** Retail SDK, lai izveidotu izvietojamas pakotnes.
-1. Piemērot iepakojumus, izmantojot LCS vai manuāli. Papildinformāciju skatiet sadaļā [Izvietojamu pakotņu](../dev-itpro/retail-sdk/retail-sdk-packaging.md) izveide.
+1. Startējiet MSBuild komandu uzvedni utilītai Visual Studio un palaidiet **msbuild** zem mapes Retail SDK, lai izveidotu izvietojamas pakotnes.
+1. Uzklājiet iepakojumus, izmantojot LCS vai manuāli. Papildinformāciju skatiet rakstā [Izvietojamo pakotņu](../dev-itpro/retail-sdk/retail-sdk-packaging.md) izveide.
 
-## <a name="design-of-extensions"></a>Paplašinājumu dizains
+## <a name="design-of-extensions"></a>Paplašinājumu projektēšana
 
-Fiskālā printera integrācijas paraugs Polijai ir balstīts uz [finanšu integrācijas](fiscal-integration-for-retail-channel.md) funkcionalitāti. Papildinformāciju par fiskālās integrācijas risinājuma dizainu skatiet [finanšu integrācijas parauga dizaina](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices) apskatā.
+Polijas fiskālā printera integrācijas paraugs ir balstīts uz [fiskālās integrācijas funkcionalitāte](fiscal-integration-for-retail-channel.md). Papildinformāciju par fiskālās integrācijas risinājuma izstrādi skatiet rakstā [pārskats par fiskālās integrācijas parauga dizainu](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
 
-### <a name="commerce-runtime-extension-design"></a>Commerce runtime paplašinājuma dizains
+### <a name="commerce-runtime-extension-design"></a>Tirdzniecības izpildlaika paplašinājuma dizains
 
-Nolūks paplašinājumam, kas ir fiskālā dokumenta nodrošinātājs, ir izveidot printerim raksturīgus dokumentus un apstrādāt atbildes no fiskālā printera.
+Paplašinājuma, kas ir fiskālo dokumentu nodrošinātājs, mērķis ir ģenerēt printerim specifiskus dokumentus un apstrādāt atbildes no fiskālā printera.
 
-Paplašinājums CRT ir **Runtime.Extensions.DocumentProvider.PosnetSample.** Šis paplašinājums izveido specifisku printera komandu kopu JavaScript objekta notācijas (JSON) formātā, kas definētas ar POSNET specifikāciju 19-3678.
+The CRT pagarinājums ir **Runtime.Extensions.DocumentProvider.PosnetSample**. Šis paplašinājums ģenerē printerim raksturīgu komandu kopu JavaScript Object Notation (JSON) formātā, kas noteiktas POSNET specifikācijā 19-3678.
 
-Papildinformāciju par fiskālās integrācijas risinājuma dizainu skatiet finanšu [reģistrācijas procesā un finanšu integrācijas paraugos finanšu ierīcēm.](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices)
+Papildinformāciju par fiskālās integrācijas risinājuma izstrādi skatiet [fiscal registration process and fiscal integration samples for fiscal devices and services](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
 
-#### <a name="request-handler"></a>Pieprasījumu apdarinātājs
+#### <a name="request-handler"></a>Pieprasījumu apstrādātājs
 
-**DocumentProviderPosnetProtocol pieprasījuma apdarinātājs ir ieejas punkts pieprasījumam** ģenerēt dokumentus no fiskālā printera.
+The **DocumentProviderPosnetProtocol** pieprasījumu apstrādātājs ir ieejas punkts pieprasījumam ģenerēt dokumentus no fiskālā printera.
 
-Apdarinātājs ir pārmantots **no INamedRequestHandler** interfeisa. Metode **HandlerName** ir atbildīga par apdarinātāja nosaukuma atgriešanu. Apdarinātāja nosaukumam ir jāatbilst savienotāja dokumentu nodrošinātāja nosaukumam, kas norādīts programmā Commerce Headquarters.
+Apdarinātājs ir mantots no **INamedRequestHandler** saskarne. The **Apdarinātāja vārds** metode ir atbildīga par apstrādātāja vārda atgriešanu. Apdarinātāja nosaukumam ir jāatbilst savienotāja dokumenta nodrošinātāja nosaukumam, kas norādīts Commerce galvenajā mītnē.
 
 Savienotājs atbalsta šādus pieprasījumus:
 
-- **GetFiscalDocumentDocumentProviderRequest — šajā pieprasījumā ir ietverta** informācija par to, kurš dokuments ir jāģenerē. Tas atgriež printerim raksturīgu dokumentu, kas jāreģistrē fiskālajā printerī.
-- **GetSupportedRegistrableEventsDocumentProviderRequest - šis pieprasījums atgriež notikumu sarakstu,** uz kuriem ir jāabonē. Pašlaik tiek atbalstīti šādi notikumi: pārdošana, X pārskata drukāšana un Z pārskata drukāšana.
+- **GetFiscalDocumentDocumentProviderRequest** – Šis pieprasījums satur informāciju par to, kāds dokuments ir jāģenerē. Tas atgriež printerim raksturīgu dokumentu, kas jāreģistrē fiskālā printerī.
+- **GetSupportedRegistrableEventsDocumentProviderRequest** – Šis pieprasījums atgriež abonējamo notikumu sarakstu. Pašlaik tiek atbalstīti šādi pasākumi: pārdošana, X pārskata drukāšana un Z pārskata drukāšana.
 
 #### <a name="configuration"></a>Konfigurācija
 
-Konfigurācijas fails ir **atrodams** paplašinājuma projekta konfigurācijas mapē. Faila mērķis ir iespējot iestatījumus dokumentu nodrošinātājam, lai tos konfigurētu no programmas Commerce Headquarters. Faila formāts ir saskaņots ar finanšu integrācijas konfigurācijas prasībām. Ir pievienoti šādi iestatījumi:
+Konfigurācijas fails ir atrodams mapē **Konfigurācija** paplašinājuma projekta mapi. Faila mērķis ir iespējot iestatījumus dokumentu nodrošinātājam, ko konfigurē Commerce galvenajā mītnē. Faila formāts ir saskaņots ar fiskālās integrācijas konfigurācijas prasībām. Tiek pievienoti šādi iestatījumi:
 
 - PVN likmju kartējums
 - Norēķinu veida kartējums
@@ -147,26 +147,26 @@ Konfigurācijas fails ir **atrodams** paplašinājuma projekta konfigurācijas m
 
 ### <a name="hardware-station-extension-design"></a>Aparatūras stacijas paplašinājuma dizains
 
-Paplašinājuma, kas ir fiskālais savienotājs, nolūks ir sazināties ar fiskālo printeri.
+Paplašinājuma, kas ir fiskālais savienotājs, mērķis ir sazināties ar fiskālo printeri.
 
-Aparatūras stacijas paplašinājums **ir HardwareStation.Extension.PosnetThermalFVFiscalPrinterSample.** Šis paplašinājums izsauc POSNET draivera funkcijas, lai iesniegtu komandas, kuras CRT paplašinājums ģenerē fiskālam printerim. Tiek apstrādāts arī ierīces kļūdas.
+Aparatūras stacijas paplašinājums ir **HardwareStation.Extension.PosnetThermalFVFiscalPrinterSample**. Šis paplašinājums izsauc POSNET draivera funkcijas, lai iesniegtu komandas, kuras CRT paplašinājums tiek ģenerēts fiskālajam printerim. Tas arī apstrādā ierīces kļūdas.
 
-#### <a name="request-handler"></a>Pieprasījumu apdarinātājs
+#### <a name="request-handler"></a>Pieprasījumu apstrādātājs
 
-**FiscalPrinterHandler pieprasījumu** apdarinātājs ir ieejas punkts pieprasījuma apstrādei finanšu perifērijas ierīcē.
+The **FiscalPrinterHandler** pieprasījumu apstrādātājs ir ieejas punkts, lai apstrādātu pieprasījumu uz fiskālo perifērijas ierīci.
 
-Apdarinātājs ir pārmantots **no INamedRequestHandler** interfeisa. Metode **HandlerName** ir atbildīga par apdarinātāja nosaukuma atgriešanu. Apdarinātāja nosaukumam ir jāatbilst programmā Commerce Headquarters norādītajam finanšu savienotāja nosaukumam.
+Apdarinātājs ir mantots no **INamedRequestHandler** saskarne. The **Apdarinātāja vārds** metode ir atbildīga par apstrādātāja vārda atgriešanu. Apdarinātāja nosaukumam ir jāatbilst fiskālā savienotāja nosaukumam, kas norādīts Commerce galvenajā mītnē.
 
 Savienotājs atbalsta šādus pieprasījumus:
 
-- **SubmitDocumentFiscalDeviceRequest – šis pieprasījums sūta dokumentus printeriem un atgriež** atbildi no fiskālā printera.
-- **IsReadyFiscalDeviceRequest** – šis pieprasījums tiek izmantots ierīces veselības pārbaudei.
-- **InitializeFiscalDeviceRequest** - šis pieprasījums tiek izmantots printera inicializēšanai.
+- **SubmitDocumentFiscalDeviceRequest** – Šis pieprasījums nosūta dokumentus uz printeriem un atgriež atbildi no fiskālā printera.
+- **IsReadyFiscalDeviceRequest** – Šis pieprasījums tiek izmantots ierīces veselības pārbaudei.
+- **InitializeFiscalDeviceRequest** – Šis pieprasījums tiek izmantots printera inicializēšanai.
 
 #### <a name="configuration"></a>Konfigurācija
 
-Konfigurācijas fails atrodas **paplašinājuma** projekta konfigurācijas mapē. Faila mērķis ir iespējot iestatījumus savienotājam, kas tiks konfigurēts no programmas Commerce Headquarters. Faila formāts ir saskaņots ar finanšu integrācijas konfigurācijas prasībām. Ir pievienoti šādi iestatījumi:
+Konfigurācijas fails atrodas mapē **Konfigurācija** paplašinājuma projekta mapi. Faila mērķis ir iespējot savienotāja iestatījumus, kas jākonfigurē no Commerce galvenās mītnes. Faila formāts ir saskaņots ar fiskālās integrācijas konfigurācijas prasībām. Tiek pievienoti šādi iestatījumi:
 
-- **Savienojuma virkne – virkne, kas apraksta detalizētu informāciju par savienojumu ar** ierīci draivera atbalstītajā formātā. Papildinformāciju skatiet POSNET draivera dokumentācijā.
-- **Datuma un laika sinhronizācija – vērtība, kas norāda, vai printera datums un laiks ir jāsinhronizē** ar pievienoto aparatūras staciju.
-- **Ierīces taimauts** – laiks milisekundēs, ko autovadītājs gaidīs no ierīces atbildes. Papildinformāciju skatiet POSNET draivera dokumentācijā.
+- **Savienojuma virkne** – Virkne, kas apraksta detalizētu informāciju par savienojumu ar ierīci formātā, ko atbalsta draiveris. Papildinformāciju skatiet POSNET draivera dokumentācijā.
+- **Datuma un laika sinhronizācija** – Vērtība, kas norāda, vai printera datums un laiks ir jāsinhronizē ar pievienoto aparatūras staciju.
+- **Ierīces taimauts** – Laiks milisekundēs, cik ilgi draiveris gaidīs atbildi no ierīces. Papildinformāciju skatiet POSNET draivera dokumentācijā.

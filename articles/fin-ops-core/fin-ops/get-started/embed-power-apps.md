@@ -13,18 +13,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 32bf477bb42657b06f22f7677dcb580b38f0a55c
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
-ms.translationtype: HT
+ms.openlocfilehash: c2f7b660d364be6e62d484e67908201027190a8a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488058"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065123"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>Iegult pamatnes programmas no Power Apps
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Power Apps ir pakalpojums, kas sniedz iespējas izstrādātājiem un ar tehniku nesaistītiem lietotājiem būvēt pielāgotas biznesa programmas mobilajām ierīcēm, planšetdatoriem un tīmeklim bez nepieciešamības rakstīt kodu. Finance and Operations programmas atbalsta integrāciju ar Power Apps. Jūsu, jūsu organizācijas vai plašākas ekosistēmas izstrādātās pamatnes programma var iegult Finance and Operations programmās klientā produkta funkcionalitātes atbalstam. Piemēram, varat izveidot pamatnes programmu no Power Apps, lai papildinātu programmu Finance and Operations ar informāciju, kura tiek izgūta no citas sistēmas.
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
+Microsoft Power Apps ir pakalpojums, kas sniedz iespējas izstrādātājiem un ar tehniku nesaistītiem lietotājiem būvēt pielāgotas biznesa programmas mobilajām ierīcēm, planšetdatoriem un tīmeklim bez nepieciešamības rakstīt kodu. Programmas Finance and Operations atbalsta integrāciju ar Power Apps. Kanvas lietotnes, ko izstrādājat jūs, jūsu organizācija vai plašāka ekosistēma, var iegult Finance and Operations programmās, lai uzlabotu produkta funkcionalitāti. Piemēram, varat izveidot kanvas lietotni no Power Apps lai papildinātu programmu Finance and Operations ar informāciju, kas tiek izgūta no citas sistēmas.
 
 Lai uzzinātu vairāk par pamatnes programmu iegulšanu, noskatieties īso video [Pamatnes programmu iegulšana](https://www.youtube.com/watch?v=x3qyA1bH-NY).
 
@@ -32,7 +35,7 @@ Lai uzzinātu vairāk par pamatnes programmu iegulšanu, noskatieties īso video
 
 Pirms pamatnes programma iegulšanas no Power Apps klientā vispirms ir jāatrod vai jāizveido pakalpojums, kas ietver vēlamo vizuālo informāciju vai funkcionalitāti. Šajā tēmā nav ietverta detalizēta informācija par programmu veidošanas procesu. Ja pirmo reizi izmantojat Power Apps, skatiet [Power Apps dokumentācija](/powerapps/).
 
-Ir trīs veidi, kā iegult pamatnes programmu programmā Finance and Operations. Varat izmantot pieeju, kas vislabāk atbilst jūsu scenārijam. 
+Ir trīs veidi, kā iegult kanvas lietotni Finance and Operations programmā. Varat izmantot pieeju, kas vislabāk atbilst jūsu scenārijam. 
 
 - Iegulstiet pamatnes programmu pogā **Power Apps** standarta darbību rūtī lapā. Programmas, ko pievienojat šādā veidā, tiek parādītas kā izvēlnes pogas **Power Apps** vienumi, un programmas tiek atvērtas sānu rūtīs. 
 - Iegulstiet pamatnes programmu tieši esošajā lapā kā jaunu cilnes lapu (koptabulu, kopsavilkuma cilni, failu vai darbvietas sadaļu).
@@ -65,7 +68,7 @@ Konfigurējot iegulto pamatnes programmu, var atlasīt vienu lauku, kuru vēlati
 
 ### <a name="embedding-a-canvas-app-as-a-full-page-experience-from-the-dashboard"></a>Pamatnes programmas iegulšana kā pilnas lapas pieredze no informācijas paneļa
 
-Ieteicams iegult pamatnes programmu no informācijas paneļa, ja programma nav saistīta ar esošu lapu vai ja vēlaties, lai programmai būtu pilnas lapas pieredze programmā Finance and Operations.
+Iespējams, vēlēsities iegult audekla lietotni no informācijas paneļa, ja lietotne nav saistīta ar esošu lapu vai ja vēlaties vienkārši parādīt lietotni kā visas lapas pieredzi programmā Finance and Operations.
 
 > [!NOTE]
 > Lai padarītu šo iespēju pieejamu, līdzekļa pārvaldībā ir jāieslēdz līdzeklis **Pilnas lapas programmas**. 
@@ -83,7 +86,7 @@ Iegulstot pamatnes programmu, ir jāiestata tālāk minētie parametri.
 
 - **Nosaukums** — ievadiet tekstu, kas jāparāda pogai vai cilnei, kas satur iegulto programmu. Iespējams, ka pakalpojuma nosaukums šajā laukā ir jāatkārto bieži.
 - **Programmas ID** — norādiet vispārēji unikālu identifikatoru (globally unique identifier - GUID) pamatnes programmai, ko vēlaties iegult. Lai izgūtu šo vērtību, atrodiet pakalpojumu lapā [make.powerapps.com](https://make.powerapps.com) un pēc tam skatiet sadaļas **Detalizēta informācija** lauku **Programmas ID**.
-- **Programmas ievades konteksts** — varat atlasīt lauku, kas ietver datus, kurus vēlaties nosūtīt uz programmu kā ievadi. Informāciju par to, kā programma var piekļūt datiem, kas tiek sūtīti no Finance and Operations programmām, skatiet šo sadaļu tālāk šajā tēmā ar nosaukumu [Tādas programmas izveide, kas piesaista datus, kas nosūtīti no Finance and Operations programmām](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps).
+- **Programmas ievades konteksts** — varat atlasīt lauku, kas ietver datus, kurus vēlaties nosūtīt uz programmu kā ievadi. Informāciju par to, kā lietotne var piekļūt datiem, kas tiek sūtīti no Finance and Operations programmām, skatiet [Programmas izveide, kas izmanto datus, kas nosūtīti no Finance and Operations lietotnēm](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps) sadaļu vēlāk šajā tēmā.
 
     Sākot ar versiju 10.0.19, pašreizējā juridiskā persona arī tiks pārsūtīta kā konteksts pamatnes programmā, izmantojot **cmp** URL parametru. Šī darbība neietekmēs mērķa pamatnes programmu, kamēr šī programma izmanto šo informāciju.
 
@@ -104,15 +107,15 @@ Kad pamatnes programma lapā ir iegulta un ir apstiprināts, ka tā darbojas par
     - Ja līdzeklis **Saglabātie skati** ir izslēgts, sistēmas administrators var piešķirt personalizēšanu, kas ietver pamatnes programmu atbilstošajai lietotāju kopai, izmantojot lapu **Personalizēšana**. Varat arī eksportēt lapas personalizācijas un nosūtīt tās vienam vai vairākiem lietotājiem. Pēc tam katrs no šiem lietotājiem var importēt personalizāciju. Personalizēšanas rīkjoslā ir pieejamas pogas, kas ļauj eksportēt un importēt personalizācijas.
 
 > [!NOTE]
-> Ja pamatnes programma ir koplietota ar ārējiem lietotājiem, šie lietotāji nevar izmantot iegulto programmu Finance and Operations programmās. Tomēr viņi var piekļūt programmai tieši pakalpojumā Power Apps. Ārējie lietotāji iekļauj viesus un lietotājus, kuri nepieder Microsoft 365 Azure direktorijam, kurā ir izvietota Finance and Operations lietojumprogramma.
+> Ja kanvas lietotne ir kopīgota ar ārējiem lietotājiem, šie lietotāji nevar izmantot iegulto lietotni programmās Finance and Operations. Tomēr viņi var piekļūt programmai tieši pakalpojumā Power Apps. Ārējie lietotāji ir viesi un lietotāji, kas nepieder Microsoft 365 Azure direktorijs, kurā ir izvietota programma Finance and Operations.
 
 Lai iegūtu sīkāku informāciju par personalizēšanas iespējām produktā un kā tās izmantot, skatiet tēmu [Lietotāja pieredzes personalizēšana](personalize-user-experience.md) .
 
-## <a name="building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps"></a>Pamatnes programmas izveide, kas izmanto no programmām Finance and Operations nosūtītos datus
+## <a name="building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps"></a>Audekla lietotnes izveide, kas izmanto datus, kas tiek sūtīti no Finance and Operations lietotnēm
 
-Kad izveidojat pamatnes programmu, kas tiks iegulta Finance and Operations lietojumprogrammā, viena svarīga procesa daļa ir izmantot ievades datus no šīs Finance and Operations programmas. Pakalpojuma Power Apps izstrādes pieredze rāda, ka Finance and Operations programmas nodotajiem ievades datiem var piekļūt, izmantojot mainīgo vērtību **Param("Entityld")**. Turklāt, sākot ar versiju 10.0.19, pašreizējā juridiskā persona arī tiks pārsūtīta pamatnes programmā, izmantojot **Param("cmp")** mainīgo. 
+Kad veidojat audekla lietotni, kas tiks iegulta programmā Finance and Operations, viena svarīga procesa daļa ir šīs programmas Finance and Operations ievades datu izmantošana. No Power Apps izstrādes pieredzi, ievades datiem, kas tiek nodoti no programmas Finance and Operations, var piekļūt, izmantojot **Parametrs ("EntityId")** mainīgs. Turklāt, sākot ar versiju 10.0.19, pašreizējā juridiskā persona arī tiks pārsūtīta pamatnes programmā, izmantojot **Param("cmp")** mainīgo. 
 
-FPiemēram, pakalpojuma funkcijā OnStart var iestatīt programmu Finance and Operations ievades datus kā mainīgo vērtību, kā norādīts tālāk.
+Piemēram, lietotnes funkcijā OnStart varat iestatīt ievades datus no programmām Finance and Operations uz šādu mainīgo:
 
 ``` Power Apps
 If(!IsBlank(Param("EntityId")), Set(FinOpsInput, Param("EntityId")), Set(FinOpsInput, ""));
@@ -122,7 +125,7 @@ If(!IsBlank(Param("cmp")), Set(FinOpsLegalEntity, Param("cmp")), Set(FinOpsLegal
 
 ## <a name="viewing-a-canvas-app"></a>Pamatnes programmas skatīšana
 
-Lai skatītu iegulto pamatnes programmu lapā programmās Finance and Operations, vienkārši atveriet lapu, kurā ir iegulta programma. Atcerieties, ka programmām var piekļūt, izmantojot **Power Apps** pogu standarta darbības rūtī. Vai arī tie var parādīties tieši lapā kā jauna cilne, kopsavilkuma cilne vai panelis, vai kā jauna darbvietas sadaļa. Kad lietotāji pirmo reizi mēģinās ielādēt programmu lapā, viņiem tiks piedāvāts pieteikties. Šī darbība nodrošina, ka lietotājiem ir attiecīgās atļaujas, lai lietotu programmu.
+Lai skatītu iegulto audekla lietotni kādā programmā Finance and Operations, dodieties uz lapu, kurā ir iegulta lietotne. Atcerieties, ka programmām var piekļūt, izmantojot **Power Apps** pogu standarta darbības rūtī. Vai arī tie var parādīties tieši lapā kā jauna cilne, kopsavilkuma cilne vai panelis, vai kā jauna darbvietas sadaļa. Kad lietotāji pirmo reizi mēģinās ielādēt programmu lapā, viņiem tiks piedāvāts pieteikties. Šī darbība nodrošina, ka lietotājiem ir attiecīgās atļaujas, lai lietotu programmu.
 
 ## <a name="editing-an-embedded-app"></a>Iegultā pakalpojuma rediģēšana
 

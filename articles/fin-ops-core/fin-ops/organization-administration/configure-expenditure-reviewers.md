@@ -9,15 +9,18 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2021-06-24
-ms.openlocfilehash: ceb0a60ccf3d1c989d8663e933faaa5e430d314695e20990c9086cd1b8325ff1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: ad980889247e0239ad743078cb013c1c5839f676
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773731"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070150"
 ---
 # <a name="configure-expenditure-reviewers"></a>Konfigurēt izdevumu pārskatītājus
 [!include[banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Dinamisko izdevumu pārskatītājus varat iestatīt izdevumu maršrutēšanai, lai veiktu pārskatīšanu, pamatojoties vai nu uz lietotāju, kurš ir nozīmēts projekta lomai vai finanšu dimensijai, kurā šie izdevumi tiek iekasēti. Darbplūsmas process izmanto norādīto projekta lomu vai finanšu dimensijas īpašnieku, lai noteiktu, kam maršrutēt izdevumus.
 
@@ -49,7 +52,7 @@ Finanšu dimensijas kontrolē kontu struktūras katrā juridiskajā persona. Kat
 
 ## <a name="example-1-expenditure-reviewers-based-on-organization-distributions"></a>1. piemērs: izdevumu pārskatītājs, pamatojoties uz organizāciju sadalēm
 
-Jūs strādājat Contoso Appliances, un jūsu organizācijai ir seši departamenti un 10 izmaksu centri. Kad tiek iesniegts jauns pirkšanas pieprasījums, vispirms jāapstiprina no nodaļas vadītāja un pēc tam no izmaksu centra pārvaldnieka.
+Jūs strādājat uzņēmumā Contoso Appliances, un jūsu organizācijā ir seši departamenti un 10 izmaksu centri. Kad tiek iesniegts jauns pirkšanas pieprasījums, vispirms jāapstiprina no nodaļas vadītāja un pēc tam no izmaksu centra pārvaldnieka.
 
 Šim piemēram jūs konfigurējat divus *pirkšanas pieprasījumu izdevumu pārskatītājus*:
 
@@ -62,7 +65,7 @@ Kad pirkšanas pieprasījums ir izveidots, pirkšanas pieprasījuma rindām tiek
 
 ## <a name="example-2-expenditure-reviewers-based-on-project-distributions"></a>2. piemērs: izdevumu pārskatītājs, pamatojoties uz projektu sadalēm
 
-Jūs strādājat Contoso Appliances servisa nodaļā. Organizācijai nepieciešams, lai projektu vadītājam katram pirkšanas pasūtījumam būtu jāapstiprina izdevumi. Turklāt projekta izmaksu centra vadītājam tas ir jāapstiprina. Apstiprinājumus var veikt vienlaicīgi. Jebkurā gadījumā abiem lietotājiem ir jāapstiprina pirkšanas pasūtījums, pirms darbplūsma var turpināties.
+Jūs strādājat Contoso Appliances pakalpojumu nodaļā. Organizācijai nepieciešams, lai projektu vadītājam katram pirkšanas pasūtījumam būtu jāapstiprina izdevumi. Turklāt projekta izmaksu centra vadītājam tas ir jāapstiprina. Apstiprinājumus var veikt vienlaicīgi. Jebkurā gadījumā abiem lietotājiem ir jāapstiprina pirkšanas pasūtījums, pirms darbplūsma var turpināties.
 
 Šajā piemērā jūs izveidojat vienu *pirkšanas pasūtījuma izdevumu pārskatītāju*, kura nosaukums ir **PM un Izmaksu centrs**. Atzīmējiet izvēles rūtiņu **Projekta vadītājs** un iestatiet opciju **Izmaksu centra dimensija** uz **Jā** cilnē **Projekta sadales** lapā **Pirkšanas pasūtījuma izdevumu pārskatītājs**. Kā konfigurācijas daļa jums ir jānodrošina, lai lauks **Projekta vadītājs** būtu iestatīts visiem projektiem un ka īpašnieks ir noteikts visiem izmaksu centriem lapā **Finanšu dimensijas vērtības**.
 

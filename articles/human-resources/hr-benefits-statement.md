@@ -14,14 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 46f7358684502a4bf05854fbcb5cca9a1eb2c87c
-ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
-ms.translationtype: HT
+ms.openlocfilehash: 65bf91faba049b3fed4d80e020d77b82e48cceb6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7548059"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068999"
 ---
 # <a name="benefit-statement"></a>Paziņojums par atvieglojumiem
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 **Atvieglojumu pārskata** pārskats izskaidro darbiniekam pašlaik reģistrētos atvieglojumus. Pārskatam var piekļūt darbinieks tieši vai atvieglojumu administrators. **Atvieglojumu pārskats** sniedz sarakstu ar darbinieka reģistrētajiem atvieglojumiem, vajadzības opcijām, izmaksām un visiem reģistrētajiem apgādājamajiem vai saņēmējiem. Pārskatu var drukāt vienam vai vairākiem darbiniekiem.
 

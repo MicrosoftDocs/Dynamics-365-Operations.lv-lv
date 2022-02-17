@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a13f699c8c0951b32f7826e8cfe8d7dcf02a7f55
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: dbb069110b46c38a994a7be6276137360b14397a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7729007"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069533"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>Anketu izplatīšana un plānošana
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -30,7 +33,7 @@ ms.locfileid: "7729007"
 
 Anketu var izplatīt vairākos veidos:
 
--   Atzīmējiet anketu kā **aktīvu**. Pēc tam anketa ir pieejama visiem darbiniekiem, ja vien nav iestatīta anketu grupa, kas tai ierobežotu piekļuvi.
+-   Atzīmējiet anketu kā **Aktīvs**. Pēc tam anketa ir pieejama visiem darbiniekiem, ja vien nav iestatīta anketu grupa, kas tai ierobežotu piekļuvi.
 -   Piešķiriet tiesības anketu grupai. Pēc tam anketa ir pieejama visiem atlasītās grupas dalībniekiem.
 -   Izveidojiet plānotas atbilžu sesijas. Pēc tam anketa ir pieejama tikai noteiktai personai.
 -   Izveidojiet grafiku. Pēc tam anketa var būt pieejama vairākām personām.
@@ -108,10 +111,10 @@ Ja izmantojat plānoto atbilžu sesiju, jums persona ir jāinformē tieši, piem
 
 ### <a name="notifying-respondents-about-a-scheduling"></a>Respondentu informēšana par plānošanu
 
-Izmantojiet lapu **Anketu grafiki**, lai sagatavotu un nosūtītu e-pasta ziņojumus visiem anketai piešķirtajiem respondentiem. Ievadiet e-pasta tekstu **cilnē Darbinieku pašapkalpošanās e-pasts.** Kad grafiks ir startēts, noklikšķiniet uz Funkcijas Sūtīt e-pastu, lai **·** &gt; **izveidotu un** nosūtītu e-pastu respondentiem. Pēc tam respondenti var pierakstīties vietnē un aizpildīt anketu. 
+Izmantojiet lapu **Anketu grafiki**, lai sagatavotu un nosūtītu e-pasta ziņojumus visiem anketai piešķirtajiem respondentiem. Ievadiet e-pasta tekstu uz **E-pasts darbinieku pašapkalpošanās dienestam** cilne. Kad grafiks ir sākts, noklikšķiniet uz **Funkcijas** &gt; **Sūtīt e-pastu** ģenerēt un nosūtīt e-pastu respondentiem. Pēc tam respondenti var pierakstīties vietnē un aizpildīt anketu. 
 
 > [!NOTE]
-> Pirms varat izmantot e-pasta funkcionalitāti, jūsu IT administratoram ir jāievada e-pasta iestatījumi lapā **E-pasta** parametri.
+> Lai varētu izmantot e-pasta funkcionalitāti, jūsu IT administratoram ir jāievada e-pasta iestatījumi **E-pasta parametri** lappuse.
 
 ## <a name="ending-a-scheduled-questionnaire"></a>Plānotas anketas beigšana
 

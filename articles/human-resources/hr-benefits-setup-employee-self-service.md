@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1e0c59eb8db5a97405e87922cc65f3eb74bee48e
-ms.sourcegitcommit: b101c21f972fdad2667431f712222e040cd69d43
+ms.openlocfilehash: 83718856a864123d7941b21c078bcdb96a62cca8
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "7898444"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067583"
 ---
 # <a name="configure-employee-self-service"></a>Konfigurēt darbinieku patstāvīgi izmantojamo pakalpojumu
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -38,12 +41,12 @@ Microsoft Dynamics 365 Human Resources varat konfigurēt **Darbinieku patstāvī
 
    | Lauks | Apraksts |
    | --- | --- |
-   | **Plāna veida kods** | Plāna tips, kas tiek parādīts, ja šis elements ir atlasīts **opcijā Benefits pašapkalpošanās**. |
+   | **Plāna veida kods** | Plāna tips, kas tiek parādīts, ja šis elements ir atlasīts opcijā Benefits **pašapkalpošanās**. |
    | **Elementa ID** | Elementa unikālais identifikators. |
-   | **Elementa etiķetes teksts** | Teksts, kas tiks parādīts elementam **Benefits pašapkalpošanās**. |
+   | **Elementa etiķetes teksts** | Teksts, kas tiks parādīts elementam Benefits **pašapkalpošanās**. |
    | **Apraksts** | Elementa apraksts. |
    | **Elementa fona attēls** | Elementam izmantojamā attēla URL (nav obligāts). |
-   | **Izsekot atvērto reģistrāciju** | Atlasiet šo opciju, lai izsekotu atvērtās reģistrācijas norisi šim plāna tipam. Piemēram, jums var būt izveidoti plāni, kur **plāna tips = Citi**. Šie plāni var būt izvēles plāni, kuriem nevēlaties izsekot reģistrācijas progresu. Ja neatlasīsit šo plāna tipu, šāda tipa plāns tiks ignorēts, izsekojot reģistrācijas norisi vai reģistrācijas pabeigšanu **cilnē Atvērta** reģistrācija. Šis iestatījums attiecas uz plāna tipu, kas atlasīts visiem periodiem un juridiskām personām. |
+   | **Izsekot atvērto reģistrāciju** | Atlasiet šo opciju, lai izsekotu atvērtās reģistrācijas norisi šim plāna tipam. Piemēram, jums var būt izveidoti plāni, kur **plāna tips = Citi**. Šie plāni var būt izvēles plāni, kuriem nevēlaties izsekot reģistrācijas progresu. Ja neatlasīsit šo plāna tipu, šāda tipa plāns tiks ignorēts, izsekojot reģistrācijas norisi vai reģistrācijas pabeigšanu **cilnē Atvērta reģistrācija** . Šis iestatījums attiecas uz plāna tipu, kas atlasīts visiem periodiem un juridiskām personām. |
 
 4. Atlasiet **Saglabāt**.
 
@@ -57,12 +60,12 @@ Microsoft Dynamics 365 Human Resources varat konfigurēt **Darbinieku patstāvī
 
    | Lauks | Apraksts |
    | --- | --- |
-   | **Atvieglojumu kredīta ID** | Brīvā režīma kredīta programmu plāni, kas tiks parādīti, kad šis elements ir atlasīts **opciju pašapkalpošanās programmā Priekšrocības**. |
+   | **Atvieglojumu kredīta ID** | Brīvā režīma kredīta programmas plāni, kas tiks parādīti, kad šis elements ir atlasīts opciju pašapkalpošanās programmā **Priekšrocības**. |
    | **Elementa ID** | Elementa unikālais identifikators. |
-   | **Elementa etiķetes teksts** | Teksts, kas tiks parādīts elementam **Benefits pašapkalpošanās**. |
+   | **Elementa etiķetes teksts** | Teksts, kas tiks parādīts elementam Benefits **pašapkalpošanās**. |
    | **Apraksts** | Elementa apraksts. |
    | **Elementa fona attēls** | Elementam izmantojamā attēla URL (nav obligāts). |
-   | **Izsekot atvērto reģistrāciju** | Atlasiet šo opciju, lai izsekotu atvērtās reģistrācijas norisi šim plāna tipam. Piemēram, jums var būt izveidoti plāni, kur **plāna tips = Citi**. Šie plāni var būt izvēles plāni, kuriem nevēlaties izsekot reģistrācijas progresu. Ja neatlasīsit šo plāna tipu, šāda tipa plāns tiks ignorēts, izsekojot reģistrācijas norisi vai reģistrācijas pabeigšanu **cilnē Atvērta** reģistrācija. Šis iestatījums attiecas uz plāna tipu, kas atlasīts visiem periodiem un juridiskām personām. |
+   | **Izsekot atvērto reģistrāciju** | Atlasiet šo opciju, lai izsekotu atvērtās reģistrācijas norisi šim plāna tipam. Piemēram, jums var būt izveidoti plāni, kur **plāna tips = Citi**. Šie plāni var būt izvēles plāni, kuriem nevēlaties izsekot reģistrācijas progresu. Ja neatlasīsit šo plāna tipu, šāda tipa plāns tiks ignorēts, izsekojot reģistrācijas norisi vai reģistrācijas pabeigšanu **cilnē Atvērta reģistrācija** . Šis iestatījums attiecas uz plāna tipu, kas atlasīts visiem periodiem un juridiskām personām. |
 
 4. Atlasiet **Saglabāt**.
 

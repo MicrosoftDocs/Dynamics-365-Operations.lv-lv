@@ -1,6 +1,6 @@
 ---
 title: Īsinājumtaustiņi
-description: Šī tēma sniedz apskatu par īsinājumtaustiņu kombinācijām, kuras varat izmantot, strādājot ar Finance and Operations programmām.
+description: Šajā tēmā ir sniegts pārskats par īsinājumtaustiņu kombinācijām, kuras varat izmantot, strādājot ar programmām Finance and Operations.
 author: jasongre
 ms.date: 12/10/2021
 ms.topic: article
@@ -14,18 +14,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e6f6faf75bb9dc2b11b3a27a886b1674cc7b339
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
-ms.translationtype: MT
+ms.openlocfilehash: 0ecf745337c15270290f02496cc6ce4ccac86861
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913522"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070987"
 ---
 # <a name="keyboard-shortcuts"></a>Īsinājumtaustiņi
 
 [!include [banner](../includes/banner.md)]
 
-Tālāk norādītie īsinājumtaustiņi palīdz ātri un efektīvi ievadīt datus Finance and Operations programmās.
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
+Tālāk norādītie īsinājumtaustiņi var palīdzēt ātri un efektīvi ievadīt datus programmās Finance and Operations.
 
 > [!NOTE]
 > Šeit aprakstītie īsinājumtaustiņi attiecas uz ASV tastatūras izkārtojumu. Citos tastatūras izkārtojumos taustiņi var precīzi neatbilst taustiņiem ASV tastatūras izkārtojumā.
@@ -129,7 +132,7 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 
 | Darbība                                                                                                             | Nospiests:                           |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
-| Vertikāla ritināšana                                                                                                     | Peles ritenis                     |
+| Vertikālā ritināšana                                                                                                     | Peles ritenis                     |
 | Horizontālā ritināšana                                                                                                   | Shift + peles ritenis             |
 | Pāriet uz nākamo/iepriekšējo kolonnu                                                                                       | Tab/Shift+Tab                 |
 | Pāriet uz nākamo/iepriekšējo rindu                                                                                          | Bultiņa uz leju/bultiņa uz augšu           |
@@ -151,7 +154,7 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 | Pašreizējo kolonnu padarīt lielāku/mazāku (kamēr fokuss ir virsraksta rindā)                                                  | Bultiņa pa labi/bultiņa pa kreisi        |
 | Pārvietot pašreizējo kolonnu uz nākamo/iepriekšējo pozīciju (ar fokusu galvenes rindā)                                   | Ctrl+Shift+labā bultiņa / Ctrl+Shift+kreisā bultiņa |
 | Atvērt režģa filtrēšanu pašreizējai kolonnai (kamēr fokuss ir virsraksta rindā)                                              | Ievadīt                           |
-| Mainīt pašreizējās kolonnas izmēru, lai ietilptu saturs (ar fokusu virsraksta rindā)                                           | A (vai veiciet dubultklikšķi uz kolonnas izmēru maiņas tura) |
+| Mainīt pašreizējās kolonnas izmēru, lai ietilptu saturs (ar fokusu virsraksta rindā)                                           | A (vai veiciet dubultklikšķi uz kolonnas lieluma noteikšanas roktura) |
 
 ## <a name="input-control-shortcuts"></a>Ievades kontroles saīsnes
 

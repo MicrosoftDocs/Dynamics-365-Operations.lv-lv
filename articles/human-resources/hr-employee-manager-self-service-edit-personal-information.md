@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bb827e17dcfc63031d0edcb5f447e70f03e8ac3c
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
-ms.translationtype: HT
+ms.openlocfilehash: e798646263b9939445f49a3866532cd229c668cd
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431466"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071721"
 ---
 # <a name="edit-personal-information"></a>Rediģēt personas informāciju
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -69,7 +72,7 @@ Parametri, kas iestatīti lapā **Globālās adrešu grāmatas parametri**, nosa
     - Lai pievienotu identifikācijas numuru, atlasiet **Jauns**. Pēc nepieciešamības aizpildiet laukus un atlasiet **Saglabāt**.
     - Lai rediģētu numuru, atlasiet **Rediģēt**. Pēc nepieciešamības rediģējiet laukus un atlasiet **Saglabāt**.
 
-7. Lai mainītu metodes, ar kurām jums samaksā, atlasiet cilni **Mana maksājuma informācija** . Šī cilne ir pieejama tikai tad, ja maksājuma metodes ir iespējotas veidlapā **Human Resources parametri**. HR var iespējot opcijas **Bankas čeks**, **Skaidrā naudā**, **Čeks**, **Elektronisks maksājums** vai **Cits**. HR var arī deaktivizēt elektronisko maksājumu validāciju (izmanto izmaksai ASV) un bankas kontu un maršrutēšanas numura pārbaudi.
+7. Lai mainītu maksāšanas veidus, atlasiet **cilni Mana maksājuma informācija** . Šī cilne ir pieejama tikai tad, ja maksājumu metodes ir iespējotas **lapā Personāla vadības parametri**. HR var iespējot opcijas **Bankas čeks**, **Skaidrā naudā**, **Čeks**, **Elektronisks maksājums** vai **Cits**. HR var arī deaktivizēt elektronisko maksājumu validāciju (izmanto izmaksai ASV) un bankas kontu un maršrutēšanas numura pārbaudi.
 
 8. Lai mainītu attēlu, kas tiek parādīts Human Resources profilā, atlasiet cilni **Attēls**. Atkarībā no organizācijas iestatījumiem, iespējams, attēli tiks maršrutēti apstiprināšanai.
 

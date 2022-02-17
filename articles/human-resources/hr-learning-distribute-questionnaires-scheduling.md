@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a2336cafe7e2c914c2592c91c888b1e0ae1bc608
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: 4885c11f0cb508edb8ebf3aef14748e819113264
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7728680"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067406"
 ---
 # <a name="distribute-questionnaires-using-scheduling"></a>Aptauju sadalīšana, izmantojot plānošanu
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -28,17 +31,17 @@ Izmantojot anketēšanas plānošanu, var plānot un sadalīt anketas vairākiem
 
 ## <a name="create-a-questionnaire-schedule"></a>Izveidot anketas grafiku
 
-1. Dodieties uz **·** > **anketu** > **sadales grafikiem**.
+1. Iet uz **Anketa** > **Izplatīt** > **Anketu grafiki**.
 
 2. Klikšķiniet **Jauns**.
 
-3. **Laukā** Plānošana ierakstiet vērtību.
+3. Iekš **Plānošana** laukā ierakstiet vērtību.
 
 4. Laukā **Apraksts** ierakstiet kādu vērtību.
-    * Iestatiet grafiku uz **·** Anonīms, ja atbildes ir jāieraksta bez nosaukumiem, kas saistīti ar atbildi.  
+    * Iestatiet grafiku uz **Anonīms** ja atbildes būtu jāreģistrē bez nosaukumiem, kas saistīti ar atbildi.  
     * Lai iespējotu anonīmus rezultātus, vispirms ir jāiestata personāla vadības parametrus.  
 
-5. Laukā **·** Tips atlasiet plānošanas tipu.  Šajā piemērā mēs izmantosim **apmierinājuma** tipu.
+5. Iekš **Tips** laukā atlasiet plānošanas veidu.  Šajā piemērā mēs izmantosim **Apmierinātība** veids.
 
 6. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
 
@@ -46,13 +49,13 @@ Izmantojot anketēšanas plānošanu, var plānot un sadalīt anketas vairākiem
 
 8. Laukā **Datums** ievadiet datumu.
 
-9. Izvērsiet **sadaļu E-pasts darbinieku** pašapkalpošanās pakalpojumam.
+9. Paplašiniet **E-pasts darbinieku pašapkalpošanās dienestam** sadaļā.
 
 10. Laukā **Temats** ievadiet vērtību.
 
     * Piemērs: Anketa pieejama  
 
-11. Laukā **·** Teksts ierakstiet e-pasta ziņojuma pamattekstu. Ņemiet vērā, ka mainīgais var tikt izmantots, lai aizstātu vērtības sistēmā.
+11. Iekš **Teksts** laukā ierakstiet e-pasta ziņojuma pamattekstu. Ņemiet vērā, ka mainīgais var tikt izmantots, lai aizstātu vērtības sistēmā.
 
     * Piemērs: Cien. %P%! Lūdzu, piesakieties darbinieku pašapkalpes pakalpojumā, lai aizpildītu darbaspēka veselības novērtējuma anketu.  Contoso  
 
@@ -60,17 +63,17 @@ Izmantojot anketēšanas plānošanu, var plānot un sadalīt anketas vairākiem
 
 ## <a name="use-the-setup-details-to-select-the-questionnaires-to-be-answered-as-well-as-any-queries-to-use-to-select-respondents"></a>Izmantojiet detalizētu informācija par Iestatīšanu, lai atlasītu anketu(as), kura(s) jāatbild, kā arī vaicājumus, kas ir jāizmanto respondentu atlasei.
 
-1. Noklikšķiniet uz **Detalizēta informācija par** iestatījumu.
+1. Klikšķis **Iestatīšanas informācija**.
 
 2. Sarakstā atlasiet vaicājumu, ko izmantot, lai veiktu anketas respondentu meklēšanu sistēmā.
 
     * Piemērs: Darbinieki  
 
-3. Noklikšķiniet **uz skatīt vai modificēt vaicājumu, lai atlasītu** noteiktus cilvēkus vai pielāgotu vaicājumu, lai atrastu personas, kas atbilst konkrētiem kritērijiem.
+3. Klikšķis **Skatiet vai mainiet vaicājumu** lai atlasītu konkrētas personas vai pielāgotu vaicājumu, lai atrastu cilvēkus, kas atbilst noteiktiem kritērijiem.
 
     * Ņemiet vērā, ka visiem respondentiem ir jābūt arī sistēmas lietotājiem.  
 
-4. Sarakstā atzīmējiet personu rindu.
+4. Sarakstā atzīmējiet rindu Personai.
 
 5. Ievadiet vai atlasiet vērtību laukā **Kritēriji**.
 
@@ -80,17 +83,17 @@ Izmantojot anketēšanas plānošanu, var plānot un sadalīt anketas vairākiem
 
 7. Noklikšķiniet uz **Labi**.
 
-8. Noklikšķiniet uz **cilnes** Anketas.
+8. Noklikšķiniet uz **Anketas** cilne.
 
-9. Koka struktūrā izvērsiet anketas tipa Apmierinātības aptauja **·** zaru.
+9. Kokā izvērsiet anketas veida mezglu **Apmierinātības aptauja**.
 
 10. Kokā pārbaudiet 'Darbaspēka veselības novērtējums'.
 
 11. Noklikšķiniet uz **Labi**.
 
-12. Noklikšķiniet **uz Plānotā atbilžu** sesija.
+12. Klikšķis **Plānotā atbilžu sesija**.
 
-    * **Ievērojiet, ka plānotās** atbilžu sesijas ir izveidotas katram atlasītajam/vaicājuma lietotājam.  
+    * Pieraksti to **Plānotās atbilžu sesijas** ir izveidoti katram atlasītajam/vaicātajam lietotājam.  
 
 13. Aizvērt lapu.
 
@@ -106,13 +109,13 @@ Izmantojot anketēšanas plānošanu, var plānot un sadalīt anketas vairākiem
 
 1. Noklikšķiniet uz **Funkcijas**.
 
-2. Noklikšķiniet uz **Sūtīt e-pastu.**
+2. Klikšķis **Sūtīt e-pastu**.
 
 3. Noklikšķiniet uz **Atcelt**.
 
 ## <a name="use-planned-answer-sessions-to-monitor-who-needs-to-complete-the-questionnaire"></a>Izmantojiet plānotās atbilžu sesijas, lai pārraudzītu, kam ir jāaizpilda anketa.
 
-1. Noklikšķiniet **uz Plānotā atbilžu** sesija.
+1. Klikšķis **Plānotā atbilžu sesija**.
 
     * Dzēsiet visas atlikušās plānotās atbilžu sesijas, kad viss ir sagatavots plānotās sesijas pabeigšanai.  
 
@@ -125,7 +128,7 @@ Izmantojot anketēšanas plānošanu, var plānot un sadalīt anketas vairākiem
 ## <a name="end-the-schedule-when-all-respondents-have-completed-the-questionnaire-andor-all-remaining-planned-answer-sessions-have-been-deleted"></a>Kad visi respondenti ir aizpildījuši anketu, varat plānošanu beigt, un/vai visas atlikušās plānotās atbilžu sesijas ir dzēstas.
 
 1. Noklikšķiniet uz **Funkcijas**.
-2. Noklikšķiniet **uz** Beigt.
+2. Klikšķis **Beigas**.
 3. Noklikšķiniet uz **Labi**.
 
 

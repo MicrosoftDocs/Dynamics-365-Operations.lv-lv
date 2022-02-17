@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 434d1a432cc4b8cfd31198f8f668aef6e04a51fa
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 6de449b14bcdd82336e3e255bf62ad069d3daaf5
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782607"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061608"
 ---
 # <a name="guidance-for-dual-write-setup"></a>Norādījumi par duālā ieraksta iestatīšanu
 
@@ -22,11 +22,11 @@ ms.locfileid: "7782607"
 
 [!include [preview-banner](../../includes/preview-banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Varat iestatīt duālā ieraksta savienojumu starp Finance and Operations vidi un Dataverse vidi.
 
-+ **Finance and Operations vide** nodrošina **Finance and Operations programmu** (piemēram, Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce un Dynamics 365 Human Resources) pamata platformu.
+Var iestatīt divējādas rakstīšanas savienojumu starp finanšu un operāciju vidi un Dataverse vidi.
+
++ Finanšu **un operāciju vide** nodrošina finanšu un operāciju programmu **pamatā esošo platformu**(piemēram, Microsoft Dynamics 365 Finance Dynamics 365 Supply Chain Management,, Dynamics 365 Commerce un Dynamics 365 Human Resources).
 + **Dataverse vide** nodrošina pamata platformu **Customer Engagement programmās** (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 column Service, Dynamics 365 Marketing un Dynamics 365 Project Service Automation).
 
 > [!IMPORTANT]
@@ -34,92 +34,92 @@ Varat iestatīt duālā ieraksta savienojumu starp Finance and Operations vidi u
 
 Iestatīšanas mehānisms mainās atkarībā no jūsu abonementa un vides.
 
-+ Jaunajām Finance and Operations programmu instancēm duālā ieraksta savienojuma iestatījums sākas portālā Microsoft Dynamics Lifecycle Services (LCS). Ja jums ir Microsoft Power Platform licence, jūs saņemsit jaunu Dataverse vidi, ja jūsu nomniekam tādas nav.
-+ Esošajām instancēm Finance and Operations programmās, duālā ieraksta savienojuma iestatīšana sākas Finance and Operations vidē.
++ Jauniem Finance and Operations programmu gadījumiem divu rakstu savienojuma iestatīšana sākas dzīves cikla pakalpojumos Microsoft Dynamics (LCS). Ja jums ir Microsoft Power Platform licence, jūs saņemsit jaunu Dataverse vidi, ja jūsu nomniekam tādas nav.
++ Esošajām instanču Finance and Operations programmām divu rakstu savienojuma iestatīšana sākas vidē Finanses un operācijas.
 
-Pirms sākat duālo rakstīšanu elementā, varat palaist sākotnējo sinhronizāciju, lai apstrādātu esošos datus abās pusēs: Finance and Operations programmas un klientu iesaistīšanas programmās. Varat izlaist sākotnējo sinhronizāciju, ja nav vajadzības sinhronizēt datus starp abām vidēm.
+Pirms sākat dubultrakstot entītijā, varat veikt sākotnējo sinhronizāciju, lai apstrādātu esošos datus abās pusēs: Finance and Operations programmas un klientu piesaistes programmas. Varat izlaist sākotnējo sinhronizāciju, ja nav vajadzības sinhronizēt datus starp abām vidēm.
 
 Veicot sākotnējo sinhronizāciju, varat kopēt esošos datus no vienas programmas uz citu divvirzienu formā. Ir vairāki dažādi iestatīšanas scenāriji atkarībā no tā, kādas vides jums jau ir un kāda veida dati tajās ir.
 
 Tālāk ir norādīti atbalstītie iestatīšanas scenāriji:
 
-+ [Jauna Finance and Operations programmas instance un jauna klientu iesaistīšanas programmas instance](#new-new)
-+ [Jauna Finance and Operations programmas instance un esoša klientu iesaistīšanas programmas instance](#new-existing)
-+ [Jauna Finance and Operations programmas instance, kurai ir dati, un jauna klientu iesaistīšanas programmas instance](#new-data-new)
-+ [Jauna Finance and Operations programmas instance, kurai ir dati, un esoša klientu iesaistīšanas programmas instance](#new-data-existing)
-+ [Esoša Finance and Operations programmas instance un jauna klientu iesaistīšanas programmas instance](#existing-new)
-+ [Esoša Finance and Operations programmas instance un esoša klientu iesaistīšanas programmas instance](#existing-existing)
++ [Jauna Finance and Operations lietojumprogrammas instance un jauna klientu piesaistes lietotnes instance](#new-new)
++ [Jauna Finance and Operations lietojumprogrammas instance un esoša klientu piesaistes lietojumprogrammas instance](#new-existing)
++ [Jauna Finanšu un operāciju lietojumprogrammas instance, kurai ir dati un jauna klientu piesaistes lietojumprogrammas instance](#new-data-new)
++ [Jauna Finance and Operations lietojumprogrammas instance, kurai ir dati un esoša klientu piesaistes lietojumprogrammas instance](#new-data-existing)
++ [Esoša Finance and Operations lietojumprogrammas instance un jauna klientu piesaistes lietojumprogrammas instance](#existing-new)
++ [Esoša Finance and Operations lietojumprogrammas instance un esoša klientu piesaistes lietojumprogrammas instance](#existing-existing)
 
-## <a name="a-new-finance-and-operations-app-instance-and-a-new-customer-engagement-app-instance"></a><a id="new-new"></a> Jauna Finance and Operations programmas instance un jauna klientu iesaistīšanas programmas instance
+## <a name="a-new-finance-and-operations-app-instance-and-a-new-customer-engagement-app-instance"></a><a id="new-new"></a> Jauna Finance and Operations lietojumprogrammas instance un jauna klientu piesaistes lietotnes instance
 
-Lai iestatītu duālā ieraksta savienojumu starp jaunu Finance and Operations programmas instanci, kurai nav datu, un jaunu klientu iesaistīšanas programmas instanci, veiciet darbības, kas aprakstītas rakstā [Duālā ieraksta iestatīšana no Lifecycle Services](lcs-setup.md). Kad savienojuma iestatīšana ir pabeigta, automātiski tiek veiktas tālāk norādītās darbības.
+Lai iestatītu divējādas rakstīšanas savienojumu starp jaunu finanšu un operāciju lietojumprogrammas gadījumu, kurā nav datu, un jaunu klientu piesaistes lietotnes gadījumu, izpildiet darbības, kas norādītas divu rakstīšanas iestatījumos [no dzīves cikla pakalpojumiem](lcs-setup.md). Kad savienojuma iestatīšana ir pabeigta, automātiski tiek veiktas tālāk norādītās darbības.
 
-- Tiek nodrošināta jauna, tukša Finance and Operations vide.
+- Tiek nodrošināta jauna, tukša finanšu un operāciju vide.
 - Tiek nodrošināta jauna, tukša klientu iesaistīšanas programmas instance, kurā ir instalēts CRM galvenais risinājums.
 - Tiek izveidots duālā ieraksta savienojums DAT uzņēmuma datiem.
 - Tabulas kartes ir iespējotas tiešsaistes sinhronizācijai.
 
 Abas vides pēc tam ir gatavas tiešsaistes datu sinhronizācijai.
 
-## <a name="a-new-finance-and-operations-app-instance-and-an-existing-customer-engagement-app-instance"></a><a id="new-existing"></a> Jauna Finance and Operations programmas instance un esoša klientu iesaistīšanas programmas instance
+## <a name="a-new-finance-and-operations-app-instance-and-an-existing-customer-engagement-app-instance"></a><a id="new-existing"></a> Jauna Finance and Operations lietojumprogrammas instance un esoša klientu piesaistes lietojumprogrammas instance
 
-Lai iestatītu duālā ieraksta savienojumu starp jaunu Finance and Operations programmas instanci, kurai nav datu, un esošu klientu iesaistīšanas programmas instanci pakalpojumā Dynamics 365, veiciet darbības, kas aprakstītas rakstā [Duālā ieraksta iestatīšana no Lifecycle Services](lcs-setup.md). Kad savienojuma iestatīšana ir pabeigta, automātiski tiek veiktas tālāk norādītās darbības.
+Lai iestatītu divējādas rakstīšanas savienojumu starp jaunu Finanšu un operāciju lietojumprogrammas gadījumu, kurā nav datu, un esošu klientu piesaistes lietotnes gadījumu, izpildiet darbības, kas [norādītas sadaļā Divu rakstīšanas iestatīšana no dzīves cikla pakalpojumiem](lcs-setup.md). Kad savienojuma iestatīšana ir pabeigta, automātiski tiek veiktas tālāk norādītās darbības.
 
-- Tiek nodrošināta jauna, tukša Finance and Operations vide.
+- Tiek nodrošināta jauna, tukša finanšu un operāciju vide.
 - Tiek izveidots duālā ieraksta savienojums DAT uzņēmuma datiem.
 - Tabulas kartes ir iespējotas tiešsaistes sinhronizācijai.
 
 Abas vides pēc tam ir gatavas tiešsaistes datu sinhronizācijai.
 
-Lai sinhronizētu esošos Dataverse datus uz Finance and Operations programmu, rīkojieties šādi.
+Lai sinhronizētu esošos Dataverse datus ar programmu Finanses un operācijas, rīkojieties šādi.
 
-1. Izveidojiet jaunu uzņēmumu Finance and Operations programmā.
+1. Izveidojiet jaunu uzņēmumu programmā Finanses un operācijas.
 2. Pievienojiet uzņēmumu duālā ieraksta savienojuma iestatījumiem.
 3. [Palaidiet](bootstrap-company-data.md) datus Dataverse, izmantojot trīs burtu Starptautiskās Standartizācijas organizācijas (ISO) uzņēmuma kodu.
 4. Palaidiet funkciju **Sākotnējās sinhronizācijas** tabulām, kam vēlaties sinhronizēt datus.
 
 Lai skatītu saites uz piemēru un alternatīvu pieeju, skatiet sadaļu [Piemērs](#example) tālāk šajā tēmā.
 
-## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-a-new-customer-engagement-app-instance"></a><a id="new-data-new"></a> Jauna Finance and Operations programmas instance, kurai ir dati, un jauna klientu iesaistīšanas programmas instance
+## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-a-new-customer-engagement-app-instance"></a><a id="new-data-new"></a> Jauna Finanšu un operāciju lietojumprogrammas instance, kurai ir dati un jauna klientu piesaistes lietojumprogrammas instance
 
-Lai iestatītu duālā ieraksta savienojumu starp jaunu Finance and Operations programmas instanci, kurā ir demonstrācijas dati, un jaunu klientu iesaistīšanas programmas instanci pakalpojumā Dynamics 365, izpildiet darbības, kas aprakstītas sadaļā [Jauna Finance and Operations programmas instance un jauna klientu iesaistīšanas programmas instance](#new-new) iepriekš šajā tēmā. Kad savienojuma iestatīšana ir pabeigta, ja vēlaties sinhronizēt demonstrācijas datus uz klientu iesaistīšanas programmu, veiciet šādas darbības.
+Lai iestatītu divējādas rakstīšanas savienojumu starp jaunu Finanšu un operāciju lietojumprogrammas gadījumu, kurā ir dati, un jaunu klientu piesaistes lietojumprogrammas gadījumu, izpildiet darbības, kas [norādītas šīs tēmas sadaļā Jauna finanšu un operāciju lietojumprogramma un jauna klientu piesaistes lietojumprogrammas instance](#new-new). Kad savienojuma iestatīšana ir pabeigta, ja vēlaties sinhronizēt demonstrācijas datus uz klientu iesaistīšanas programmu, veiciet šādas darbības.
 
-1. LCS lapā atveriet Finance and Operations programmu, piesakieties un pēc tam atveriet **Datu pārvaldība \> Duālais ieraksts**.
+1. Atveriet programmu Finanses un operācijas no LCS lapas, piesakieties un pēc tam dodieties uz **Datu pārvaldības \> divrakstīšana**.
 2. Palaidiet funkciju **Sākotnējās sinhronizācijas** tabulām, kam vēlaties sinhronizēt datus.
 
 Lai skatītu saites uz piemēru un alternatīvu pieeju, skatiet sadaļu [Piemērs](#example).
 
-## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-an-existing-customer-engagement-app-instance"></a><a id="new-data-existing"></a> Jauna Finance and Operations programmas instance, kurai ir dati, un esoša klientu iesaistīšanas programmas instance
+## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-an-existing-customer-engagement-app-instance"></a><a id="new-data-existing"></a> Jauna Finance and Operations lietojumprogrammas instance, kurai ir dati un esoša klientu piesaistes lietojumprogrammas instance
 
-Lai iestatītu duālā ieraksta savienojumu starp jaunu Finance and Operations programmas instanci, kurā ir demonstrācijas dati, un esošu klientu iesaistīšanas programmas instanci pakalpojumā Dynamics 365, izpildiet darbības, kas aprakstītas sadaļā [Jauna Finance and Operations programmas instance un esoša klientu iesaistīšanas programmas instance](#new-existing) iepriekš šajā tēmā. Kad savienojuma iestatīšana ir pabeigta, ja vēlaties sinhronizēt demonstrācijas datus uz klientu iesaistīšanas programmu, veiciet šādas darbības.
+Lai iestatītu divējādas rakstīšanas savienojumu starp jaunu Finanšu un operāciju lietojumprogrammas gadījumu, kurā ir dati, un esošu klientu iesaistes lietojumprogrammas gadījumu, izpildiet darbības, kas [norādītas šīs tēmas sadaļā Jauna finanšu un operāciju lietojumprogramma un esoša klientu iesaistes lietojumprogrammas instance](#new-existing). Kad savienojuma iestatīšana ir pabeigta, ja vēlaties sinhronizēt demonstrācijas datus uz klientu iesaistīšanas programmu, veiciet šādas darbības.
 
-1. LCS lapā atveriet Finance and Operations programmu, piesakieties un pēc tam atveriet **Datu pārvaldība \> Duālais ieraksts**.
+1. Atveriet programmu Finanses un operācijas no LCS lapas, piesakieties un pēc tam dodieties uz **Datu pārvaldības \> divrakstīšana**.
 2. Palaidiet funkciju **Sākotnējās sinhronizācijas** tabulām, kam vēlaties sinhronizēt datus.
 
-Lai sinhronizētu esošos Dataverse datus uz Finance and Operations programmu, rīkojieties šādi.
+Lai sinhronizētu esošos Dataverse datus ar programmu Finanses un operācijas, rīkojieties šādi.
 
-1. Izveidojiet jaunu uzņēmumu Finance and Operations programmā.
+1. Izveidojiet jaunu uzņēmumu programmā Finanses un operācijas.
 2. Pievienojiet uzņēmumu duālā ieraksta savienojuma iestatījumiem.
 3. [Palaidiet](bootstrap-company-data.md) Dataverse datus, izmantojot trīs burtu Starptautiskās Standartizācijas organizācijas (ISO) uzņēmuma kodu.
 4. Palaidiet funkciju **Sākotnējās sinhronizācijas** tabulām, kam vēlaties sinhronizēt datus.
 
 Lai skatītu saites uz piemēru un alternatīvu pieeju, skatiet sadaļu [Piemērs](#example).
 
-## <a name="an-existing-finance-and-operations-app-instance-and-a-new-customer-engagement-app-instance"></a><a id="existing-new"></a> Esoša Finance and Operations programmas instance un jauna klientu iesaistīšanas programmas instance
+## <a name="an-existing-finance-and-operations-app-instance-and-a-new-customer-engagement-app-instance"></a><a id="existing-new"></a> Esoša Finance and Operations lietojumprogrammas instance un jauna klientu piesaistes lietojumprogrammas instance
 
-Duālā ieraksta savienojuma iestatīšana starp esošo Finance and Operations programmas instanci un jaunu vai esošu klientu iesaistīšanās programmas instanci notiek Finance and Operation vidē.
+Divu rakstu savienojuma iestatīšana starp esošu finanšu un operāciju lietojumprogrammas gadījumu un jaunu klientu piesaistes lietojumprogrammas gadījumu notiek finanšu un operācijas vidē.
 
-1. [Iestatiet savienojumu no Finance and Operations programmas](enable-dual-write.md).
+1. [Iestatiet savienojumu no programmas](enable-dual-write.md) Finanses un operācijas.
 2. Palaidiet funkciju **Sākotnējās sinhronizācijas** tabulām, kam vēlaties sinhronizēt datus.
 
 Lai skatītu saites uz piemēru un alternatīvu pieeju, skatiet sadaļu [Piemērs](#example).
 
-## <a name="an-existing-finance-and-operations-app-instance-and-an-existing-customer-engagement-app-instance"></a><a id="existing-existing"></a> Esoša Finance and Operations programmas instance un esoša klientu iesaistīšanas programmas instance
+## <a name="an-existing-finance-and-operations-app-instance-and-an-existing-customer-engagement-app-instance"></a><a id="existing-existing"></a> Esoša Finance and Operations lietojumprogrammas instance un esoša klientu piesaistes lietojumprogrammas instance
 
-Duālā ieraksta savienojuma iestatīšana starp esošo Finance and Operations programmas instanci un esošu klientu iesaistīšanās programmas instanci pakalpojumu notiek Finance and Operation vidē.
+Divu rakstu savienojuma iestatīšana starp esošu Finanšu un operāciju lietojumprogrammas gadījumu un esošu klientu iesaistes lietojumprogrammas gadījumu notiek vidē Finanses un operācija.
 
-1. [Iestatiet savienojumu no Finance and Operations programmas](enable-dual-write.md).
-2. Lai sinhronizētu esošos Dataverse datus uz programmu Finance and Operations, [palaidiet](bootstrap-company-data.md) Dataverse datus, izmantojot trīs burtu ISO uzņēmuma kodu.
+1. [Iestatiet savienojumu no programmas](enable-dual-write.md) Finanses un operācijas.
+2. Lai sinhronizētu esošos Dataverse datus ar programmu Finanses un operācijas, sāknēšanas dati tiek [kodēti](bootstrap-company-data.md), Dataverse izmantojot trīs burtu ISO uzņēmuma kodu.
 3. Palaidiet funkciju **Sākotnējās sinhronizācijas** tabulām, kam vēlaties sinhronizēt datus.
 
 Lai skatītu saites uz piemēru un alternatīvu pieeju, skatiet sadaļu [Piemērs](#example).

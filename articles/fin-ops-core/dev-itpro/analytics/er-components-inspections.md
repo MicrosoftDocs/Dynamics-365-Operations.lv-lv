@@ -2,7 +2,7 @@
 title: Konfigurēto ER komponentu pārbaude, lai novērstu izpildlaika problēmas
 description: Šajā tēmā paskaidrots, kā pārbaudīt konfigurētos Elektronisko pārskatu (ER) komponentus, lai novērstu izpildlaika problēmas, kas varētu rasties.
 author: NickSelin
-ms.date: 08/26/2021
+ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a855619ebd1c41dc3ca583912f758ed8a8f9ceef
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
-ms.translationtype: HT
+ms.openlocfilehash: c63ffc6316d21d36bb2aad57194b8aa1c477607e
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488118"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074795"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Konfigurēto ER komponentu pārbaude, lai novērstu izpildlaika problēmas
 
 [!include[banner](../includes/banner.md)]
 
-Katru konfigurēto [Elektroniskā pārskata (ER)](general-electronic-reporting.md) [formāta](general-electronic-reporting.md#FormatComponentOutbound) un [modeļa kartēšanas](general-electronic-reporting.md#data-model-and-model-mapping-components) komponentu var [validēt](er-fillable-excel.md#validate-an-er-format) izstrādes laikā. Šīs validācijas laikā tiek veikta konsekvences pārbaude, lai palīdzētu novērst izpildlaika problēmas, kas var rasties, piemēram, izpildes kļūdas un veiktspējas kritums. Katrai atrastajai problēmai ir norādīts problemātiskā elementa ceļš. Dažām problēmām ir pieejams automātisks labojums.
+Katru konfigurēto [Elektroniskā pārskata (ER)](general-electronic-reporting.md) [formāta](er-overview-components.md#format-components-for-outgoing-electronic-documents) un [modeļa kartēšanas](er-overview-components.md#model-mapping-component) komponentu var [validēt](er-fillable-excel.md#validate-an-er-format) izstrādes laikā. Šīs validācijas laikā tiek veikta konsekvences pārbaude, lai palīdzētu novērst izpildlaika problēmas, kas var rasties, piemēram, izpildes kļūdas un veiktspējas kritums. Katrai atrastajai problēmai ir norādīts problemātiskā elementa ceļš. Dažām problēmām ir pieejams automātisks labojums.
 
 Pēc noklusējuma validācija tiek automātiski pielietota tālāk norādītajos ER konfigurācijas gadījumos, kas satur iepriekš minētos ER komponentus.
 
@@ -236,6 +236,15 @@ Tālāk redzamajā tabulā ir sniegts pārskats par ER sniegtajām pārbaudēm. 
 <td>Kļūda</td>
 <td>Ir vairāk nekā divi diapazonu komponenti bez replicēšanas. Lūdzu, noņemiet nevajadzīgos komponentus.</td>
 </tr>
+<tr>
+<td><a href='#i18'>Izteiksmes izpildāmība ar funkciju ORDERBY</a></td>
+<td>Izpildāmība</td>
+<td>Kļūda</td>
+<td>
+<p>Funkcijas ORDERBY saraksta izteiksmei nevar izpildīt vaicājumu.</p>
+<p><b>Izpildlaika kļūda:</b> Šķirošana netiek atbalstīta. Validējiet konfigurāciju, lai iegūtu plašāku informāciju par šo.</p>
+</td>
+</tr>
 </tbody>
 </table>
 
@@ -365,7 +374,7 @@ Tālāk norādītajās darbībās parādīts, kā šī problēma varētu rasties
 8. Piešķiriet jaunajam ligzdotajam laukam nosaukumu **$AccNumber** un konfigurējiet to, lai tas ietvertu izteiksmi `TRIM(Vendor.AccountNum)`.
 9. Atlasiet **Validēt**, lai pārbaudītu rediģējamo modeļa kartēšanas komponentu lapā **Modeļa kartēšanas veidotājs**, un pārbaudiet, vai var iesniegt vaicājumu izteiksmei `FILTER(Vendor, Vendor.AccountNum="US-101")` datu avotā **Kreditors**.
 
-    ![Pārbaude, vai izteiksmei var iesniegt vaicājumu lapā Modeļa kartēšanas veidotājs.](./media/er-components-inspections-04.gif)
+    ![Pārbaude, vai izteiksmei, kurai ir funkcija FILTER, var uzdot vaicājumu modeļa kartēšanas noformētāja lapā.](./media/er-components-inspections-04.gif)
 
 10. Ņemiet vērā, ka validācijas kļūda rodas, jo datu avots **Kreditors** satur **Aprēķinātais lauks** veida ligzdoto lauku, kas neļauj **FilteredVendor** datu avota izteiksmi pārveidot par tiešu SQL norādīšanu.
 
@@ -671,19 +680,19 @@ Tālāk redzamajā attēlā parādīta izpildlaika kļūda, kas rodas, ja ignor�
 
 ![Izpildlaika kļūda, kas rodas, palaižot formāta kartēšanu lapā Formāta veidotājs.](./media/er-components-inspections-10b.png)
 
-### <a name="automatic-resolution&quot;></a>Automātisks risinājums
+### <a name="automatic-resolution"></a>Automātisks risinājums
 
 Nav pieejama opcija automātiski novērst šo problēmu.
 
-### <a name=&quot;manual-resolution&quot;></a>Manuāls risinājums
+### <a name="manual-resolution"></a>Manuāls risinājums
 
-#### <a name=&quot;option-1&quot;></a>1. opcija
+#### <a name="option-1"></a>1. opcija
 
 Noņemiet karodziņu **Kešatmiņa** no datu avota **Kreditors**. Tad datu avots **FilteredVendor** kļūs izpildāms, bet datu avotam **Kreditors**, uz kuru dota atsauce tabulā VendTable, tiks veikta piekļuve katru reizi, kad tiek izsaukts datu avots **FilteredVendor**.
 
-#### <a name=&quot;option-2&quot;></a>2. opcija
+#### <a name="option-2"></a>2. opcija
 
-Mainiet datu avota **FilteredVendor** izteiksmi no `FILTER(Vendor, Vendor.AccountNum=&quot;US-101")` uz `WHERE(Vendor, Vendor.AccountNum="US-101")`. Šādā gadījumā datu avotam **Kreditors**, uz kuru dota atsauce tabulā VendTable, tiks veikta piekļuve tikai, pirmo reizi izsaucot datu avotu **Kreditors**. Tomēr ierakstu atlase tiks veikta atmiņā. Tāpēc šī pieeja var izraisīt sliktu veiktspēju.
+Mainiet datu avota **FilteredVendor** izteiksmi no `FILTER(Vendor, Vendor.AccountNum="US-101")` uz `WHERE(Vendor, Vendor.AccountNum="US-101")`. Šādā gadījumā datu avotam **Kreditors**, uz kuru dota atsauce tabulā VendTable, tiks veikta piekļuve tikai, pirmo reizi izsaucot datu avotu **Kreditors**. Tomēr ierakstu atlase tiks veikta atmiņā. Tāpēc šī pieeja var izraisīt sliktu veiktspēju.
 
 ## <a name="missing-binding"></a><a id="i11"></a>Trūkst saistījuma
 
@@ -873,7 +882,7 @@ Modificējiet konfigurēto formātu, dzēšot vienu no neatbilstošajiem kompone
 
 Modificējiet rekvizīta **Galvenes/kājenes izskats** vērtību vienam no neatbilstošajiem komponentiem **Excel\\Galvene** vai **Excel\\Kājene**.
 
-## <a name="inconsistent-setting-of-page-component"></a><a id="i17">Nesaskaņots Lapas komponenta iestatījums</a>
+## <a name="inconsistent-setting-of-page-component"></a><a id="i17"></a>Nesaskaņots Lapas komponenta iestatījums
 
 Kad [konfigurējat](er-fillable-excel.md) ER formāta komponentu, lai izmantotu Excel veidni izejošā dokumenta ģenerēšanai, varat pievienot komponentu **Excel\\Lapa**, lai izdalītu pa lapām ģenerēto dokumentu, izmantojot ER formulas. Katram **Excel\\Lapas** komponentam, ko pievienojat, varat pievienot daudzus ligzdotos [Diapazona](er-fillable-excel.md#range-component) komponentus un joprojām nodrošināt atbilstību šādai [struktūrai](er-fillable-excel.md#page-component-structure):
 
@@ -892,6 +901,47 @@ Nav pieejama opcija automātiski novērst šo problēmu.
 #### <a name="option-1"></a>1. opcija
 
 Pārveidojiet konfigurēto formātu, mainot rekvizītu **Replicēšanas virziens** visām nepastāvīgajām **Excel\\Diapazona** komponentēm.
+
+## <a name="executability-of-an-expression-with-orderby-function"></a><a id="i18"></a> Izteiksmes izpildāmība ar funkciju ORDERBY
+
+Iebūvētais [SAKĀRTOT PĒC](er-functions-list-orderby.md) ER funkcija tiek izmantota, lai kārtotu ER datu avota ierakstus **[Ierakstu saraksts](er-formula-supported-data-types-composite.md#record-list)** tips, kas norādīts kā funkcijas arguments.
+
+Argumenti par`ORDERBY` funkcija var būt [norādīts](er-functions-list-orderby.md#syntax-2) lai kārtotu lietojumprogrammu tabulu, skatu vai datu entītiju ierakstus, veicot vienu datu bāzes izsaukumu, lai iegūtu sakārtotos datus kā ierakstu sarakstu. Datu avots **Ierakstu saraksts** tips tiek izmantots kā funkcijas arguments un norāda izsaukuma lietojumprogrammas avotu.
+
+ER pārbauda, vai var izveidot tiešu datu bāzes vaicājumu datu avotam, uz kuru ir atsauce`ORDERBY` funkcija. Ja tiešo vaicājumu nevar izveidot, ER modeļa kartēšanas veidotājā rodas validācijas kļūda. Ziņojumā, ko saņemat, norādīts, ka ER izteiksmi, kas ietver funkciju `ORDERBY`, nevar palaist izpildlaikā.
+
+Tālāk norādītajās darbībās parādīts, kā šī problēma varētu rasties.
+
+1. Sāciet konfigurēt ER modeļa kartēšanas komponentu.
+2. Pievienojiet **Dynamics 365 for Operations \\ Tabulas ieraksti** veida datu avotu.
+3. Piešķiriet jaunajam datu avotam nosaukumu **Kreditors**. Iekš **Tabula** laukā atlasiet **VendTable** lai norādītu, ka šis datu avots pieprasīs **VendTable** tabula.
+4. Pievienojiet **Aprēķinātais lauks** veida datu avotu.
+5. Nosauciet jauno datu avotu **PasūtītiPārdevēji**, un konfigurējiet to tā, lai tajā būtu ietverta izteiksme `ORDERBY("Query", Vendor, Vendor.AccountNum)`.
+ 
+    ![Datu avotu konfigurēšana lapā Modeļu kartēšanas noformētājs.](./media/er-components-inspections-18-1.png)
+
+6. Izvēlieties **Apstiprināt** lai pārbaudītu rediģējamo modeļa kartēšanas komponentu **Modeļu kartēšanas dizainers** lapu un pārbaudiet, vai izteiksmē **PasūtītiPārdevēji** datu avotu var jautāt.
+7. Modificējiet datu avotu **Kreditors**, pievienojot **Aprēķinātais lauks** veida ligzdoto lauku, lai iegūtu apgrieztu kreditora konta numuru.
+8. Piešķiriet jaunajam ligzdotajam laukam nosaukumu **$AccNumber** un konfigurējiet to, lai tas ietvertu izteiksmi `TRIM(Vendor.AccountNum)`.
+9. Izvēlieties **Apstiprināt** lai pārbaudītu rediģējamo modeļa kartēšanas komponentu **Modeļu kartēšanas dizainers** lapu un pārbaudiet, vai izteiksmē **Pārdevējs** datu avotu var jautāt.
+
+    ![Pārbaude, vai modeļa kartēšanas noformētāja lapā var uzdot vaicājumu par izteiksmi piegādātāja datu avotā.](./media/er-components-inspections-18-2.png)
+
+10. Ievērojiet, ka rodas validācijas kļūda, jo **Pārdevējs** datu avotā ir ligzdots lauks **Aprēķināts lauks** veids, kas neļauj izteikt **PasūtītiPārdevēji** datu avots, kas jātulko tiešajā datu bāzes paziņojumā. Tāda pati kļūda rodas izpildes laikā, ja ignorējat validācijas kļūdu un atlasāt **Skrien** lai palaistu šo modeļa kartēšanu.
+
+### <a name="automatic-resolution"></a>Automātisks risinājums
+
+Nav pieejama opcija automātiski novērst šo problēmu.
+
+### <a name="manual-resolution"></a>Manuāls risinājums
+
+#### <a name="option-1"></a>1. opcija
+
+Tā vietā, lai pievienotu ligzdotu lauku **Aprēķināts lauks** ierakstiet uz **Pārdevējs** datu avotu, pievienojiet **$AccNumber** ligzdots lauks uz **FiltrētiVendors** datu avotu un konfigurējiet lauku tā, lai tajā būtu ietverta izteiksme `TRIM(FilteredVendor.AccountNum)`. Tādā veidā,`ORDERBY("Query", Vendor, Vendor.AccountNum)` izteiksmi var palaist datu bāzes līmenī, un aprēķinu **$AccNumber** ligzdoto lauku var veikt pēc.
+
+#### <a name="option-2"></a>2. opcija
+
+Mainiet izteiksmi **FilteredVendors** datu avots no`ORDERBY("Query", Vendor, Vendor.AccountNum)` uz `ORDERBY("InMemory", Vendor, Vendor.AccountNum)`. Mēs neiesakām mainīt izteiksmi tabulai, kurā ir liels datu apjoms (transakciju tabula), jo visi ieraksti tiks ielādēti un nepieciešamo ierakstu secība tiks veikta atmiņā. Tāpēc šī pieeja var izraisīt sliktu veiktspēju.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

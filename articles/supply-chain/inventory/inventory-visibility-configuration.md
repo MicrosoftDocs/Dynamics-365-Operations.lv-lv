@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: fcbace2bd28a843fca8aa2f4f998c08f238c29d6
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 8ba478fef424a6c4688191ed4e5375bbce52de0c
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920302"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061005"
 ---
 # <a name="configure-inventory-visibility"></a>Krājumu redzamības konfigurēšana
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 Šajā tēmā aprakstīts, kā konfigurēt krājuma redzamību, izmantojot Inventory Visibility programmu pakalpojumā Power Apps.
 
@@ -58,10 +58,10 @@ Pēc konfigurācijas pabeigšanas pārliecinieties, ka programmā atlasiet opcij
 
 ## <a name="data-source-configuration"></a>Datu avota konfigurācija
 
-Katrs datu avots atspoguļo sistēmu, no kuras nāk dati. Datu avotu nosaukumu piemēri: `fno` (jeb "Dynamics 365 Finance and Operations lietojumprogrammas") un `pos` (jeb "pārdošanas punkts"). Pēc noklusējuma Krājumu redzamības programma Supply Chain Management ir iestatīta kā noklusējuma datu avots (`fno`).
+Katrs datu avots atspoguļo sistēmu, no kuras nāk dati. Datu avotu nosaukumu piemēri ietver`fno` (kas nozīmē "Dynamics 365 Finance un operāciju lietotnes") un`pos` (kas nozīmē "tirdzniecības vieta"). Pēc noklusējuma Krājumu redzamības programma Supply Chain Management ir iestatīta kā noklusējuma datu avots (`fno`).
 
 > [!NOTE]
-> Datu `fno` avots ir rezervēts Piegādes ķēžu pārvaldībai. Ja krājumu redzamības pievienojumprogramma ir integrēta Piegādes ķēdes pārvaldības vidē, mēs iesakām nedzēšam konfigurācijas, kas saistītas `fno` ar datu avotu.
+> The`fno` datu avots ir rezervēts piegādes ķēdes pārvaldībai. Ja jūsu krājumu redzamības pievienojumprogramma ir integrēta piegādes ķēdes pārvaldības vidē, mēs iesakām nedzēst konfigurācijas, kas ir saistītas ar`fno` datu avotā.
 
 Lai izveidotu datu avotu, veiciet tālāk aprakstītās darbības.
 
@@ -273,17 +273,17 @@ Izmantojot šo aprēķināšanas formulu, jaunais vaicājuma rezultāts ietvers 
 
 ## <a name="partition-configuration"></a><a name="partition-configuration"></a>Nodalījuma konfigurācija
 
-Pašlaik nodalījuma konfigurācija sastāv no divām pamatdimensijām `SiteId``LocationId` (un), kas norāda, kā dati tiek sadalīti. Operācijas vienā un tajā pašā nodalījumā var piegādāt lielāku veiktspēju par zemākām izmaksām. Šajā tabulā ir parādīta noklusējuma nodalījuma konfigurācija, kas paredzēta krājumu redzamības pievienojumprogrammai.
+Pašlaik nodalījuma konfigurācija sastāv no diviem bāzes izmēriem (`SiteId` un`LocationId`), kas norāda, kā dati tiek izplatīti. Darbības vienā nodalījumā var nodrošināt augstāku veiktspēju par zemākām izmaksām. Šajā tabulā ir parādīta noklusējuma nodalījuma konfigurācija, ko nodrošina krājumu redzamības pievienojumprogramma.
 
 | Pamata dimensija | Hierarhija |
 |---|---|
 | `SiteId` | 1 |
 | `LocationId` | 2 |
 
-Risinājums ietver šo nodalījuma konfigurāciju pēc noklusējuma. Tādēļ *jums tas nav jādefinē pats*.
+Risinājums ietver šo nodalījuma konfigurāciju pēc noklusējuma. Tāpēc *jums tas nav jādefinē pašam*.
 
 > [!IMPORTANT]
-> Ne pielāgojiet noklusējuma nodalījuma konfigurāciju. Ja to dzēšat vai maināt, iespējams, radusies negaidīta kļūda.
+> Nepielāgojiet noklusējuma nodalījuma konfigurāciju. Ja to izdzēsīsit vai mainīsit, visticamāk, radīsies neparedzēta kļūda.
 
 ## <a name="product-index-hierarchy-configuration"></a><a name="index-configuration"></a>Preču indeksa hierarhijas konfigurācija
 

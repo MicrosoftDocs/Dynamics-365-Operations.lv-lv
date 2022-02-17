@@ -17,76 +17,37 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a86995691cab3050d0ec44c1f4d1c3bed6c18fdb
-ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.openlocfilehash: 8674c228a1e624a79ae210dc6ad5c0f80741570f
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7771268"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075050"
 ---
 # <a name="human-resources-home-page"></a>Personāla vadības sākumlapa
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Human Resources sniedz darbaspēka ieskatus, kas ir nepieciešami, lai veidotu uz datiem balstītu darbinieku pieredzi vairākās jomās, tostarp:
 
-- Kompensācija
-- Priekšrocības
-- Atvaļinājumi un kavējumi
-- Atbilstība
-- Algas integrēšana
-- Veiktspējas atsauksmes
-- Apmācība un sertifikācija
-- Patstāvīgi izmantojamo pakalpojumu programmas
+Šajā tēmā ir sniegts saraksts ar palīdzības tēmām un citiem resursiem programmā Dynamics 365 Cilvēkresursi. 
+
+Atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.
+
+- [Darbinieku patstāvīgi izmantojamais pakalpojums](hr-employee-manager-self-service-overview.md)
+- [Personāla pārvaldība](hr-personnel-departments-jobs-positions.md)
+- [Uzdevumu pārvaldība](hr-task-mgmt.md)
+- [Atvaļinājumi un kavējumi](hr-leave-and-absence-overview.md)
+- [Atvieglojumi](hr-benefits-manage-program.md)
+- [Atvieglojumu pārvaldība](hr-benefits-management-overview.md)
+- [Kompensāciju pārvaldība](hr-compensation-overview.md)
+- [Darbinieku attīstība](hr-develop-performance-management-overview.md)
+- [Mācības](hr-learning-courses.md)
+- [Darbplūsmas sistēma]( ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json)
 
 Human Resources savieno cilvēkus un operāciju datus, lai palīdzētu jums optimizēt darbaspēka izmaksas un rūpēties par saviem darbiniekiem.
 
-## <a name="whats-new"></a>Jaunumi
+## <a name="dynamics-365-finance"></a>Dynamics 365 Finance
 
-[Jaunumi un izmaiņas Human Resources](hr-admin-whats-new.md)
-
-## <a name="administrator-guide"></a>Administratora pamācība
-
-- [Pārskats](hr-admin-overview.md)</br>
-- [Sistēmas prasības](hr-admin-system-requirements.md)</br>
-- [Instanču iestatīšana un pārvaldība](hr-admin-setup-provision.md)</br>
-- [Datu integrācijas iestatīšana](hr-admin-integration-choose-technology.md)</br>
-- [Datu pārvaldības konfigurēšana](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?toc=/dynamics365/human-resources/toc.json)</br>
-- [Līdzekļu pārvaldība](hr-admin-manage-features.md)</br>
-- [Lietotāja interfeisa izpēte](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)</br>
-- [Programma Human Resources programmā Teams](hr-admin-teams-leave-app.md)</br>
-- [Sagatavošanās līdzeklim Go Live](hr-admin-go-live-prepare.md)</br>
-- [Bieži uzdotie jautājumi par Go Live](hr-admin-go-live-faq.md)</br>
-- [Dokumentācijas resursi](../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json)</br>
-- [Human Resources problēmu novēršana](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)
-
-## <a name="developer-guide"></a>Izstrādātāja rokasgrāmata
-
-- [Pārskats](hr-developer-overview.md)</br>
-- [Paplašināšana ar Power Apps un Power Automate](hr-developer-power-apps.md)</br>
-- [Human Resources elementi programmā Dataverse](hr-developer-entities.md)</br>
-- [Pielāgotie lauki](hr-developer-custom-fields.md)</br>
-- [Dataverse tabulas](hr-developer-entities.md)</br>
-- [Datu integrācijas iestatīšana](hr-admin-integration-choose-technology.md)</br>
-- [Izstrādes problēmu novēršana, izmantojot Dataverse virtuālās tabulas](hr-developer-optimize-virtual-table-queries.md)</br>
-- [Elementa API atsauce](hr-developer-api-authentication.md)</br>
-- [ATS integrācijas API](hr-admin-integration-ats-api-introduction.md)</br>
-- [Algu aprēķina integrācijas API](hr-admin-integration-payroll-api-introduction.md)
-
-## <a name="user-guide"></a>Lietotāja rokasgrāmata
-
-- [Pārskats](hr-hrpro-overview.md)</br>
-- [Lietotāja interfeisa izpēte](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)</br>
-- [Human Resources iestatīšana](hr-setup-parameters.md)</br>
-- [Konfigurējiet organizācijas iestatījumus](../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/human-resources/toc.json)</br>
-- [Pārvaldiet personālu](hr-personnel-departments-jobs-positions.md)</br>
-- [Atlīdzības plānu iestatīšana](hr-compensation-overview.md)</br>
-- [Pārvaldīt atvieglojumus](hr-benefits-management-overview.md)</br>
-- [Atvaļinājumu un kavējumu pārvaldība](hr-leave-and-absence-overview.md)</br>
-- [Atvaļinājumu pieprasījumu pārvaldība programmā Teams](hr-teams-leave-app.md)</br>
-- [Darbinieku prasmju attīstīšana](hr-develop-performance-management-overview.md)</br>
-- [Izveidojiet kursus](hr-learning-courses.md)</br>
-- [Darbinieka un vadītāja patstāvīgi izmantojama pakalpojuma iestatīšana](hr-employee-manager-self-service-overview.md)
+Informāciju par Dynamics 365 Finance, ko skatiet [Finance sākumlapā](../finance/index.md).
 
 ## <a name="additional-resources"></a>Papildu resursi
 

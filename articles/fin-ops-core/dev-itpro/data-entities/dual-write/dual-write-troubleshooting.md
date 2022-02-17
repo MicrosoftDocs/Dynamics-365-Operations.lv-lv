@@ -1,6 +1,6 @@
 ---
 title: Vispārējā problēmu novēršana
-description: Šajā rakstā ir sniegta informācija par vispārējo problēmu novēršanu duālā ieraksta integrācijai starp Finance and Operations programmām un Dataverse.
+description: Šajā tēmā ir sniegta vispārīga problēmu novēršanas informācija par duālās rakstīšanas integrāciju starp programmām Finance and Operations un Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,25 +9,25 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: bcedb9f6e8fb15210512ed6a376d4329759593e4
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: f6f5b9f26990e2f4db9bf69040a6c4be31400b40
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781178"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062342"
 ---
 # <a name="general-troubleshooting"></a>Vispārējā problēmu novēršana
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Šajā rakstā ir sniegta informācija par vispārējo problēmu novēršanu duālā ieraksta integrācijai starp Finance and Operations programmām un Dataverse.
+
+Šajā tēmā ir sniegta vispārīga problēmu novēršanas informācija par duālās rakstīšanas integrāciju starp programmām Finance and Operations un Dataverse.
 
 > [!IMPORTANT]
 > Dažas no problēmām, kas risinātas šajā tēmā, var būt nepieciešama vai nu sistēmas administratora loma, vai Microsoft Azure Active Directory (Azure AD) nomnieka administratora akreditācijas dati. Katras problēmas sadaļā ir paskaidrots, vai ir nepieciešama īpaša loma vai akreditācijas dati.
 
-## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a> Spraudņa trasēšanas žurnāla iespējošana un skatīšana Dataverse, lai skatītu kļūdas informāciju
+## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Spraudņa trasēšanas žurnāla iespējošana un skatīšana Dataverse, lai skatītu kļūdas informāciju
 
 **Nepieciešamā loma, lai ieslēgtu trasēšanas žurnālu un skatītu kļūdas:** sistēmas administrators
 
@@ -44,37 +44,37 @@ Lai skatītu trasēšanas žurnālu, veiciet tālāk minētās darbības.
 2. Atrodiet trasēšanas žurnālus, kur lauks **Veida nosaukums** ir iestatīts uz **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. Veiciet dubultklikšķi uz elementa, lai apskatītu pilno žurnālu, un pēc tam kopsavilkuma cilnē **Izpilde** pārskatiet **Ziņojuma bloka** tekstu.
 
-## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Atkļūdošanas režīma iespējošana, lai novērstu tiešsaistes sinhronizācijas problēmas Finance and Operations programmās
+## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Iespējojiet atkļūdošanas režīmu, lai novērstu tiešsaistes sinhronizācijas problēmas programmās Finance and Operations
 
 **Kļūdu skatīšanai nepieciešamā loma:** Sistēmas administrators
 
-Dataverse radušās duālā ieraksta kļūdas var parādīties Finance and Operations programmā. Lai iespējotu izvērsto kļūdu reģistrēšanu, izpildiet tālāk minētās darbības.
+Divkāršās rakstīšanas kļūdas, kas rodas no Dataverse var parādīties programmā Finance and Operations. Lai iespējotu izvērsto kļūdu reģistrēšanu, izpildiet tālāk minētās darbības.
 
-1. Visām projekta konfigurācijām programmā Finance and Operations ir karodziņš **IsDebugMode** tabulā **DualWriteProjectConfiguration**.
-2. Atveriet elementu **DualWriteProjectConfiguration**, izmantojot Excel pievienojumprogrammu. Lai izmantotu pievienojumprogrammu, iespējojiet dizaina režīmu Finance and Operations Excel pievienojumprogrammā un pievienojiet lapai **DualWriteProjectConfiguration**. Papildinformāciju skatiet sadaļā [Elementa datu skatīšana un atjaunināšana programmā Excel](../../office-integration/use-excel-add-in.md).
+1. Visām projektu konfigurācijām programmā Finance and Operations ir karogs **IsDebugMode** uz **DualWriteProjectConfiguration** tabula.
+2. Atveriet elementu **DualWriteProjectConfiguration**, izmantojot Excel pievienojumprogrammu. Lai izmantotu pievienojumprogrammu, Excel pievienojumprogrammā Finance and Operations iespējojiet noformēšanas režīmu un pievienojiet **DualWriteProjectConfiguration** uz palagu. Papildinformāciju skatiet sadaļā [Elementa datu skatīšana un atjaunināšana programmā Excel](../../office-integration/use-excel-add-in.md).
 3. Projektā iestatiet **IsDebugMode** uz **Jā**.
 4. Palaidiet scenāriju, kas ģenerē kļūdas.
 5. Izvērstie žurnāli ir pieejami tabulā **DualWriteErrorLog**.
-6. Lai uzmeklēt tabulas pārlūka datus, izmantojiet šādu saiti: `https://999aos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`, `999` aizvietošana.
+6. Lai uzmeklēt tabulas pārlūka datus, izmantojiet šādu saiti: `https://999aos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`, `999`aizvietošana.
 7. Atjauniniet vēlreiz pēc [KB 4595434](https://fix.lcs.dynamics.com/Issue/Details?kb=4595434&bugId=527820&dbType=3&qc=98e5dc124ac125c57ad633d885ac612aea3ddb8f4abf9d71ab3aa354f2e06cbe), kas ir pieejams platformas atjauninājumiem 37 vai jaunākai versijai. Ja šis labojums ir instalēts, atkļūdošanas režīms tvers vairāk žurnālu.  
 
-## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Sinhronizācijas kļūdu pārbaude Finance and Operations programmas virtuālajā mašīnā
+## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Pārbaudiet programmas Finance and Operations sinhronizācijas kļūdas virtuālajā mašīnā
 
 **Kļūdu skatīšanai nepieciešamā loma:** Sistēmas administrators
 
 1. Pierakstieties portālā Microsoft Dynamics Lifecycle Services (LCS).
 2. Atveriet LCS projektu, kuram izvēlējāties veikt duālā ieraksta pārbaudi.
 3. Atlasiet elementu **Mākoņvides**.
-4. Izmantojiet attālo darbvirsmu, lai pieteiktos Finance and Operations programmas virtuālajā mašīnā (VM). Izmantojiet lokālo kontu, kas tiek parādīts LCS.
+4. Izmantojiet attālo darbvirsmu, lai pieteiktos programmas Finance and Operations virtuālajā mašīnā (VM). Izmantojiet lokālo kontu, kas tiek parādīts LCS.
 5. Atveriet Notikumu skatītāju,
 6. Atlasiet **Lietojumprogrammu un pakalpojumu žurnāli \> Microsoft \> Dynamics \> AX-DualWriteSync \> Darbību**.
 7. Pārskatiet neseno kļūdu sarakstu.
 
-## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Atsaistīt un saistīt citu Dataverse vidi no Finance and Operations programmas
+## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Atsaistīt un piesaistīt citu Dataverse vide no programmas Finance and Operations
 
-**Nepieciešamā loma, lai atsaistītu vidi:** sistēmas administrators vai nu Finance and Operations programmai, vai Dataverse.
+**Nepieciešamā loma, lai atsaistītu vidi:** Sistēmas administrators programmai Finance and Operations vai Dataverse.
 
-1. Piesakieties Finance and Operations programmā.
+1. Piesakieties lietotnē Finance and Operations.
 2. Dodieties uz **Darbvietas \> Datu pārvaldība** un atlasiet elementu **Duālais ieraksts**.
 3. Atlasiet visus darbojošos kartējumus, pēc tam atlasiet **Apturēt**.
 4. Atlasiet **Atsaistīt vidi**.

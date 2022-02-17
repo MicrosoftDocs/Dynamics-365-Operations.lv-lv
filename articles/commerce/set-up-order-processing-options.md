@@ -2,7 +2,7 @@
 title: Zvanu centra kanālu iestatīšana
 description: Šajā tēmā ir sniegta informācija par to, kā apstrādāt zvanu centru pasūtījumus, izmantojot Dynamics 365 Commerce.
 author: josaw1
-ms.date: 01/06/2020
+ms.date: 02/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5f9afd1b67d6b164facc4dd15a8680866fe8c5b4e4b491d969cda6554eebb1de
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 64669c5bf71a4f1673f5ad2c46db7d3a2eaf2a97
+ms.sourcegitcommit: 39f1455215e0363cd1449bbc6bdff489097f9ded
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750652"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8092436"
 ---
 # <a name="set-up-call-center-channels"></a>Zvanu centra kanālu iestatīšana
 
@@ -56,6 +56,9 @@ Ja zvanu centra kanālam ir ieslēgts iestatījums **Iespējot pasūtījuma pabe
 Turklāt, ja ir ieslēgts iestatījums **Iespējot pasūtījuma pabeigšanu**, kad lietotāji izveido pārdošanas pasūtījumus un ir atvēruši rindas vienuma ievadīšanas režīmu, galvenajā pārdošanas pasūtījuma virsrakstā ir pieejams lauks **Avots**. Lauks **Avots** tiek izmantots, lai tvertu [kataloga pirmkodu](/dynamics365/unified-operations/retail/call-center-catalogs) tiešā mārketinga pārdošanas scenārijā. Pēc tam šis kods var vadīt īpašas cenas un reklāmas akcijas.
 
 Pat tad, ja iestatījums **Iespējot pasūtījuma pabeigšanu** ir izslēgts, lietotāji pārdošanas pasūtījumam joprojām var lietot pirmkodu. Taču viņiem vispirms ir jāatver pārdošanas pasūtījuma virsraksta detalizētā informācija, lai piekļūtu laukam **Avots**. Citiem vārdiem sakot, ir jāveic daži papildu klikšķi. Tāda pati uzvedība attiecas uz tādiem līdzekļiem kā nosūtīšanas pabeigšana un paātrinātās izpildes pasūtījumi. Šie līdzekļi ir pieejami visiem pasūtījumiem, kas ir izveidoti šajā zvanu centrā. Taču, kad ir ieslēgts iestatījums **Iespējot pasūtījuma pabeigšanu**, lietotāji var redzēt šo līdzekļu konfigurāciju pārdošanas virsrakstā, kamēr ir ieslēgts rindas ieraksta skats. Viņiem nav nepieciešams detalizēti meklēt pārdošanas pasūtījuma virsraksta informācijā, lai atrastu atbilstošos iestatījumus un laukus.
+
+> [!NOTE]
+> Kad **Daudzkanālu tirdzniecības pasūtījumu maksājumi** funkcija ir iespējota, zvanu centrs **Iespējot pasūtījuma pabeigšanu** poga tiks paslēpta galvenajā mītnē uz **Ģenerālis** Jūsu kanāla FastTab vietnē **Mazumtirdzniecība un tirdzniecība \> Kanāli \> Zvanu centri**.
 
 ### <a name="enable-direct-selling"></a>Iespējot tiešo pārdošanu
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: b1687b24f499f4d226406a0035f8ea70b6046167
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
-ms.translationtype: MT
+ms.openlocfilehash: 54962b48dee05b2cd62fd3ea8814e4c965ba7818
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901993"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069383"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Instalējiet un savienojiet lietotni Warehouse Management mobile
 
@@ -143,6 +143,10 @@ Autentifikācija ar Azure AD nodrošina drošu veidu, kā pievienot mobilo ierī
 Sertifikātus var izmantot kā noslēpumus, lai pierādītu lietojumprogrammas identitāti, kad tiek pieprasīta pilnvara. Sertifikāta publiskā daļa tiek augšupielādēta programmu reģistrācijā Azure portālā, savukārt pilnais sertifikāts ir jāizvieto katrā ierīcē, kurā ir lietotne Warehouse Management mobile. Jūsu organizācija ir atbildīga par sertifikāta pārvaldību attiecībā uz rotāciju un tā tālāk. Varat izmantot pašparakstītus sertifikātus, bet vienmēr izmantojiet neeksportējamus sertifikātus.
 
 Sertifikātam ir jābūt lokāli pieejamam katrā ierīcē, kurā tiek palaista lietotne Warehouse Management mobile. Papildinformāciju par to, kā pārvaldīt Intune kontrolēto ierīču sertifikātus, ja lietojat Intune, skatiet sadaļā [Sertifikātu izmantošana autentifikācijai programmā Microsoft Intune](/mem/intune/protect/certificates-configure).
+
+## <a name="configure-the-warehouse-management-mobile-app-for-cloud-and-edge-scale-units"></a>Konfigurējiet mobilo lietotni Warehouse Management mākoņa un malu mēroga vienībām
+
+Ja plānojat palaist mobilo lietotni Warehouse Management pret mākoņa vai malas mēroga vienību, ir jāveic dažas papildu darbības. Norādījumus sk [Konfigurējiet mobilo lietotni Warehouse Management mākoņa un malu mēroga vienībām](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Konfigurējiet lietojumprogrammu, importējot savienojuma iestatījumus
 
@@ -306,5 +310,6 @@ Ja ierīce ir nozaudēta vai apdraudēta, ir jāliedz šīs ierīces piekļuve p
 
 - [Mobilās ierīces lietotāja iestatījumi](mobile-device-user-settings.md)
 - [Darbību ikonu un nosaukumu piešķiršana Warehouse Management mobilajai programmai](step-icons-titles.md)
+- [Konfigurējiet mobilo lietotni Warehouse Management mākoņa un malu mēroga vienībām](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: bce58631ecd54bb90993bd552d529d3b379de1b1
-ms.sourcegitcommit: 6762a674a552353d9f53587923c9acba9b43cb56
+ms.openlocfilehash: e9dc3e6c5fbec9636370b64a9bbdcf8a5834d332
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/13/2021
-ms.locfileid: "7917734"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061840"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Valūtas datu tipa migrācija duālajai rakstīšanai
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Varat palielināt decimāldaļu skaitu, kas tiek atbalstītas ne vairāk kā 10 valūtas vērtībām. Noklusējuma ierobežojums ir četras decimāldaļas. Palielinot decimāldaļu skaitu, jūs palīdzēsiet novērst datu zudumu, kad izmantojat duālo rakstīšanu, lai sinhronizētu datus. Decimāldaļu skaita pieaugums ir izvēles izmaiņa. Lai to īstenotu, jums ir jāpieprasa palīdzība no Microsoft.
 
@@ -29,7 +29,7 @@ Decimāldaļu skaita maiņas procesam ir divi soļi:
 1. Pieprasīt migrāciju no Microsoft.
 2. Mainīt decimāldaļu skaitu Dataverse.
 
-Finance and Operations programmai un Dataverse ir jāatbalsta tas pats decimāldaļu skaits valūtas vērtībās. Pretējā gadījumā datu zudums var rasties gadījumā, kad šī informācija tiek sinhronizēta starp programmām. Migrācijas process pārkonfigurē valūtas un maiņas kursa vērtību saglabāšanas veidu, bet nemaina nekādus datus. Kad migrācija ir pabeigta, valūtas kodu un izcenojumu decimāldaļu skaits var tikt palielināts, un datiem, ko lietotāji ievada un skata, var būt vairāk decimāldaļas precizitātes.
+Programma Finance and Operations un Dataverse jāatbalsta vienāds skaits zīmju aiz komata valūtas vērtībās. Pretējā gadījumā datu zudums var rasties gadījumā, kad šī informācija tiek sinhronizēta starp programmām. Migrācijas process pārkonfigurē valūtas un maiņas kursa vērtību saglabāšanas veidu, bet nemaina nekādus datus. Kad migrācija ir pabeigta, valūtas kodu un izcenojumu decimāldaļu skaits var tikt palielināts, un datiem, ko lietotāji ievada un skata, var būt vairāk decimāldaļas precizitātes.
 
 Migrācija nav obligāta. Ja jums varētu būt noderīgs atbalsts vairāk decimāldaļām, mēs iesakām jums apsvērt migrāciju. Organizācijas, kurām nav nepieciešamas vērtības, kurām ir vairāk nekā četras decimāldaļas, nav jāmigrē.
 
@@ -37,7 +37,7 @@ Migrācija nav obligāta. Ja jums varētu būt noderīgs atbalsts vairāk decim�
 
 Esošo valūtas lauku glabāšana programmā Dataverse nevar atbalstīt vairāk par četrām decimāldaļām. Tāpēc migrācijas procesa laikā valūtas vērtības tiek pārkopētas uz jaunajiem iekšējiem laukiem datu bāzē. Šis process notiek nepārtraukti, līdz visi dati ir migrēti. Iekšēji migrācijas beigās jaunie glabāšanas tipi aizvieto vecos glabāšanas tipus, bet datu vērtības netiek mainītas. Valūtas lauki var atbalstīt līdz 10 decimāldaļām. Migrācijas procesa laikā Dataverse var turpināt tikt izmantots bez pārtraukumiem.
 
-Tajā pašā laikā valūtas maiņas kursi tiek modificēti tā, lai tie atbalstītu līdz 12 decimāldaļām pašreizējo 10 vietā. Šī izmaiņa ir nepieciešama, lai abās programmās ir vienāds decimāldaļu skaits gan Finance and Operations programmā, gan Dataverse.
+Tajā pašā laikā valūtas maiņas kursi tiek modificēti tā, lai tie atbalstītu līdz 12 decimāldaļām pašreizējo 10 vietā. Šīs izmaiņas ir nepieciešamas, lai ciparu aiz komata skaits būtu vienāds gan programmā Finance and Operations, gan Dataverse.
 
 Migrācija nemaina nekādus datus. Kad valūtas un maiņas kursu lauki ir pārveidoti, administratori var konfigurēt sistēmu, lai izmantotu līdz 10 decimāldaļām valūtas laukiem, norādot katras darījuma valūtas un cenu decimāldaļu skaitu.
 
@@ -88,15 +88,15 @@ Ja vēlaties, lai konkrētas valūtas precizitātes atšķirtos no valūtas prec
 Decimāldaļu skaits, ko var konfigurēt noteiktiem valūtas laukiem, ir ierobežots līdz četriem.
 
 ### <a name="default-currency-decimal-precision"></a>Noklusējuma valūtas decimāldaļas precizitāte
-Lai nodrošinātu noklusējuma valūtas decimālās precizitātes uzvedību migrācijas un nemigrēšanas scenārijos, skatiet šo tabulu. 
+Lai iegūtu informāciju par paredzamo noklusējuma valūtas decimāldaļas precizitātes darbību migrēšanas un nemigrācijas scenārijos, skatiet šo tabulu. 
 
-| Izveides datums  | Valūtas decimāldaļskaitļu lauks    | Esošā org (valūtas lauks nav migrēts) | Esošā vienība (migrēts valūtas lauks) | Jauna org izveidoja grāmatošanas būvējuma 9.2.21062.00134 |
+| Izveides datums  | Valūtas decimālais lauks    | Esošā organizācija (Valūtas lauks nav migrēts) | Esošā organizācija (valūtas lauks migrēts) | Jauna organizācija izveidoja ziņas būvējumu 9.2.21062.00134 |
 |---------------------------------------------------------|-------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|------------------------------------------------|
-| Valūtas lauks, kas izveidots pirms būvējuma 9.2.21111.00146  |     |  |       |
-|    | Maksimālā precizitāte, kas redzama LIETOTĀJA interfeisā   | 4 cipari    | 10 cipari    | Nav piemērojams    |
-| | Maksimālā precizitāte, kas redzama datu bāzes un DB vaicājuma rezultātos UI         | 4 cipari   | 10 cipari   | Nav piemērojams    |
-| Valūtas lauks izveidots pēc būvējuma 9.2.21111.00146 |    |  |     |   |
-|   | Interfeisā redzama maksimālā decimāldaļas precizitāte     | 4 cipari   | 10 cipari   | 10 cipari     |
-|          | Maksimālā decimālā precizitāte, kas redzama datu bāzē un DB vaicājuma rezultātos UI | 10 cipari. Tomēr tikai 4 ir svarīgas ar visām nullēm virs 4 decimālzīmēm. Tas iespējo vienkāršāku un ātrāku organizācijas migrāciju, ja nepieciešams. | 10 cipari      | 10 cipari     |
+| Valūtas lauks izveidots pirms izveides 9.2.21111.00146  |     |  |       |
+|    | Maksimālā precizitāte, kas redzama lietotāja interfeisā   | 4 cipari    | 10 cipari    | Nav piemērojams    |
+| | Maksimālā precizitāte, kas redzama datubāzē un DB vaicājuma rezultātu lietotāja saskarnē         | 4 cipari   | 10 cipari   | Nav piemērojams    |
+| Valūtas lauks izveidots pēc 9.2.21111.00146 izveides |    |  |     |   |
+|   | Maksimālā decimāldaļas precizitāte, kas redzama lietotāja interfeisā     | 4 cipari   | 10 cipari   | 10 cipari     |
+|          | Maksimālā decimālā precizitāte, kas redzama datubāzes un DB vaicājuma rezultātu lietotāja saskarnē | 10 cipari. Tomēr tikai 4 ir nozīmīgi, ja visas nulles pārsniedz 4 ciparus aiz komata. Tas nodrošina vienkāršāku un ātrāku organizācijas migrāciju, ja nepieciešams. | 10 cipari      | 10 cipari     |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

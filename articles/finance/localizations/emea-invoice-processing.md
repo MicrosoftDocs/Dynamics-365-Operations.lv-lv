@@ -2,7 +2,7 @@
 title: Rēķina apstrāde
 description: Šajā tēmā ir sniegta informācija par rēķinu apstrādāšanu Austrumeiropas valstīm.
 author: EvgenyPopovMBS
-ms.date: 10/19/2020
+ms.date: 02/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: epopov
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: fdefc1dbf58a147c9380aacad9ca1afc253dbe766f7d8ed214753b07466841c3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 9eb4f3ace8c6295e82ba9ab44ef49baa0d10e96b
+ms.sourcegitcommit: 2aca3a95d42403c7f5d80dcd5e3ee958dca5c894
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774223"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "8087818"
 ---
 # <a name="invoice-processing"></a>Rēķina apstrāde
 
@@ -69,7 +69,8 @@ ms.locfileid: "6774223"
 <td>
 <p>Likumdošana paredz atšķirīgus noteikumus komercdarbības transakciju derīgu valūtas maiņas kursu atlasīšanai. Laukā <strong>Maiņas kursa datums</strong> lapā <strong>Debitoru parādu parametri</strong> un <strong>Parādu kreditoriem parametri</strong> varat atlasīt datumu, kas pirkumu un pārdošanas dokumentiem ir jāizmanto summām uzskaites valūtas aprēķinā. Datu ievadīšanas laikā sistēma izgūst transakcijas valūtas maiņas kursu, pamatojoties uz šo parametru.</p>
 <blockquote>[!NOTE]<br>Itālijai šī funkcionalitāte attiecas tikai uz Kreditoru moduli. Kreditoru parametros lietotājs var atlasīt <strong>Grāmatošanas datums</strong> vai <strong>Dokumenta datums</strong> laukā <strong>Maiņas kursa datums</strong>.   </blockquote>
-<blockquote>[!NOTE]<br>Ja lauku <strong>Maiņas kursa datums</strong> iestatāt uz <strong>Dokumenta datums (tikai ES tirdzniecība)</strong>, tad sistēma izmanto PVN grupu. PVN grupai cilnē <strong>Vispārīgi</strong> pastāv parametrs <strong>ES tirdzniecība</strong>. Ja opcija <strong>ES tirdzniecība</strong> PVN grupai ir pārslēgta uz <strong>Jā</strong> un ja šī PVN grupa pastāv dokumenta virsrakstā, tad valūtas maiņas kursu sistēma izgūst, pamatojoties uz dokumenta datumu. Ja opcija <strong>ES tirdzniecība</strong> šai PVN grupai ir iestatīta uz <strong>Nē</strong>, tad valūtas maiņas kursu sistēma izgūst, pamatojoties uz dokumenta grāmatošanas datumu.</blockquote>
+<blockquote><br>Ja lauku <strong>Maiņas kursa datums</strong> iestatāt uz <strong>Dokumenta datums (tikai ES tirdzniecība)</strong>, tad sistēma izmanto PVN grupu. PVN grupai cilnē <strong>Vispārīgi</strong> pastāv parametrs <strong>ES tirdzniecība</strong>. Ja opcija <strong>ES tirdzniecība</strong> PVN grupai ir pārslēgta uz <strong>Jā</strong> un ja šī PVN grupa pastāv dokumenta virsrakstā, tad valūtas maiņas kursu sistēma izgūst, pamatojoties uz dokumenta datumu. Ja opcija <strong>ES tirdzniecība</strong> šai PVN grupai ir iestatīta uz <strong>Nē</strong>, tad valūtas maiņas kursu sistēma izgūst, pamatojoties uz dokumenta grāmatošanas datumu.</blockquote>
+  <blockquote><br>Polijai, in<strong>Debitoru parādi</strong> modulis, papildu<strong>Automātiska datuma noteikšana</strong> šī parametra vērtība ir pieejama. Kad tas ir atlasīts, sistēma automātiski atlasa agrāko datumu no rēķina grāmatošanas datuma, pārdošanas datuma un maksājuma datumiem.</blockquote>
 </td>
 </tr>
 <tr>

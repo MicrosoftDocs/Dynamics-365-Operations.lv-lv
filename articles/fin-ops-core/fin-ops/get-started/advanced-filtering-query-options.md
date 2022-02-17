@@ -15,16 +15,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d8bbecf85a13056225b0d35023d759456cade40fe10ca1978058abd8e47693ec
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: c0fefac5a7a2b299ba606a854824ee456c572487
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740912"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070013"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Papildu filtrēšanas un vaicājumu sintakse
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Šajā tēmā ir aprakstītas filtrēšanas un vaicājumu opcijas, kas ir pieejamas, ja rūts Filtrēšana dialoglodziņā Detalizētā filtrēšana/kārtošana vai režģa kolonnas filtros izmantojat operatoru **atbilst**.
 
@@ -119,9 +122,9 @@ ms.locfileid: "6740912"
 <td>Divas secīgas dubultās pēdiņas (<strong>""</strong>) atrod rindas, kurām pašreizējai kolonnai nav vērtības.</td>
 </tr>
 <tr>
-<td>(<span class="code">Finance and Operations vaicājums</span>) (Finance and Operations vaicājums starp iekavām)</td>
+<td>(<span class="code">Vaicājums</span> Finanses un operācijas) (vaicājums par finansēm un operācijām starp iekavām)</td>
 <td>Atbilst definētajam vaicājumam.</td>
-<td>Ievadiet vaicājumu kā SQL izrakstu iekavās, izmantojot Finance and Operations vaicājuma valodu.</td>
+<td>Ierakstiet vaicājumu kā SQL priekšrakstu starp iekavām, izmantojot vaicājuma valodu Finanses un operācijas.</td>
   <td><strong><span class="code">((AccountNum kā "US *") & & (DirPartyTable.Name piemēram, "* CONT"))</span></strong><br><br> 
        piemērs sintaksei filtra nosacījumam laukā no saknes datu avota, kā arī laukā no cita datu avota (visu klientu lapai)</td>
 </tr>

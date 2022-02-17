@@ -1,6 +1,6 @@
 ---
 title: Izveidot atvaļinājumu un prombūtnes plānu
-description: Šajā tēmā aprakstīts, kā izveidot atvaļinājumu Dynamics 365 Human Resources plānus dažādiem atvaļinājumu tipiem.
+description: Šajā tēmā ir aprakstīts, kā izveidot atvaļinājumu plānus Dynamics 365 Human Resources dažādiem atvaļinājuma veidiem.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 253ca72b14c2460f8f0aaad687992b873eb11518
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: 9267b4d4025ef0e5cec2d3e995785a6291c850e5
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7728983"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070254"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Izveidot atvaļinājumu un prombūtnes plānu
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

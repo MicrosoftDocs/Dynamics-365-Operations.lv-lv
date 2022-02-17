@@ -1,6 +1,6 @@
 ---
-title: Izvietošanas vadlīnijas kases reģistriem Norvēģijai
-description: Šajā tēmā sniegti norādījumi par kases sistēmas funkcionalitātes iespējošanu Microsoft Dynamics 365 Commerce Norvēģijas lokalizācijai.
+title: Norvēģijas kases aparātu izvietošanas vadlīnijas
+description: Šajā tēmā ir sniegti norādījumi par to, kā iespējot kases aparāta funkcionalitāti Microsoft Dynamics 365 Commerce lokalizācija Norvēģijai.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,118 +9,118 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: c7e64dbfe6a300c097b5b3711ac4310f3386df11
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: f0744b18ed59c692ae336c92e488d339ae158368
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944744"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8077144"
 ---
-# <a name="deployment-guidelines-for-cash-registers-for-norway"></a>Izvietošanas vadlīnijas kases reģistriem Norvēģijai
+# <a name="deployment-guidelines-for-cash-registers-for-norway"></a>Norvēģijas kases aparātu izvietošanas vadlīnijas
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā sniegti norādījumi par kases sistēmas funkcionalitātes iespējošanu Microsoft Dynamics 365 Commerce Norvēģijas lokalizācijai. Lokalizācija sastāv no vairākiem komponentu paplašinājumiem. Šie paplašinājumi ļauj veikt tādas darbības kā pielāgoto lauku drukāšanu kvītīs, papildu audita notikumu, pārdošanas darbību un maksājumu darbību drukāšanu pārdošanas punktā (POS), digitāli parakstīšanas pārdošanas darbības un pārskatu drukāšanu lokālos formātos. Papildinformāciju par Norvēģijas lokalizāciju skatiet [Kases sistēmas funkcionalitāti Norvēģijai](./emea-nor-cash-registers.md). Papildinformāciju par To, kā konfigurēt Commerce for Norway, [skatiet Sadaļā "Iestatīt Norvēģijas tirdzniecību"](./emea-nor-cash-registers.md#setting-up-commerce-for-norway).
+Šajā tēmā ir sniegti norādījumi par to, kā iespējot kases aparāta funkcionalitāti Microsoft Dynamics 365 Commerce lokalizācija Norvēģijai. Lokalizācija sastāv no vairākiem komponentu paplašinājumiem. Šie paplašinājumi ļauj veikt tādas darbības kā pielāgotu lauku drukāšana kvītīs, papildu audita notikumu, pārdošanas darījumu un maksājumu darījumu reģistrēšana tirdzniecības vietā (POS), pārdošanas darījumu digitālā parakstīšana un pārskatu drukāšana vietējos formātos. Papildinformāciju par Norvēģijas lokalizāciju skatiet [Kases aparāta funkcionalitāte Norvēģijai](./emea-nor-cash-registers.md). Papildinformāciju par to, kā konfigurēt Commerce Norvēģijai, skatiet [Iestatiet komerciju Norvēģijai](./emea-nor-cash-registers.md#setting-up-commerce-for-norway).
 
 > [!WARNING]
-> Jaunā neatkarīgā iepakojuma un paplašinājuma modeļa ierobežojumu dēļ to [pašlaik nevar izmantot šai](../dev-itpro/build-pipeline.md) lokalizācijas funkcionalitātei. Microsoft Dynamics Pakalpojumā Lifecycle Services (LCS) iepriekšējā mazumtirdzniecības programmatūras izstrādes komplekta (SDK) versijā jums ir jāizmanto norvēģijas digitāla parakstīšanas parauga versija, kas instalēta izstrādātāja virtuālajā datorā (VM). Papildinformāciju skatiet šeit: [Norvēģijas kases reģistru izvietošanas vadlīnijas](./emea-nor-loc-deployment-guidelines.md) (mantojuma).
+> Ierobežojumu dēļ [jauns neatkarīgs iepakojuma un pagarinājuma modelis](../dev-itpro/build-pipeline.md), to pašlaik nevar izmantot šai lokalizācijas funkcionalitātei. Jums ir jāizmanto Norvēģijai paredzētā digitālā paraksta parauga versija mazumtirdzniecības programmatūras izstrādes komplekta (SDK) iepriekšējā versijā izstrādātāja virtuālajā mašīnā (VM)Microsoft Dynamics Dzīves cikla pakalpojumi (LCS). Papildinformāciju skatiet [Norvēģijas kases aparātu izvietošanas vadlīnijas (mantots)](./emea-nor-loc-deployment-guidelines.md).
 >
-> Atbalsts jaunajam neatkarīgajam iepakojuma un paplašinājuma modelim finanšu integrācijas paraugos tiek plānots turpmākajām versijām.
+> Atbalsts jaunajam neatkarīgajam iepakojuma un paplašināšanas modelim fiskālās integrācijas paraugiem ir plānots vēlākās versijās.
 
-## <a name="set-up-fiscal-registration-for-norway"></a>Iestatīt Norvēģijas finanšu reģistrāciju
+## <a name="set-up-fiscal-registration-for-norway"></a>Iestatiet Norvēģijas fiskālo reģistrāciju
 
-Norvēģijas finanšu reģistrācijas paraugs ir balstīts uz [finanšu integrācijas](fiscal-integration-for-retail-channel.md) funkcionalitāti un ir daļa no Retail SDK. Paraugs atrodas Solutions repository mapē **src \\ FiscalIntegration \\ SequentialSign repositoryNorway**[Dynamics 365 Commerce (piemēram, paraugs](https://github.com/microsoft/Dynamics365Commerce.Solutions/)[release/9.34).](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.34/src/FiscalIntegration/SequentialSignatureNorway) Paraugs sastāv [no](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices) fiskālā dokumenta nodrošinātāja un fiskālā savienotāja, kas ir Commerce Runtime paplašinājumi CRT (). Papildinformāciju par to, kā izmantot retail SDK, skatiet [mazumtirdzniecības SDK arhitektūrā](../dev-itpro/retail-sdk/retail-sdk-overview.md) un [būvējuma konveijera iestatīšana neatkarīgam iepakojuma SDK](../dev-itpro/build-pipeline.md).
+Norvēģijas fiskālās reģistrācijas paraugs ir balstīts uz [fiskālās integrācijas funkcionalitāte](fiscal-integration-for-retail-channel.md) un ir daļa no mazumtirdzniecības SDK. Paraugs atrodas **src\\ Fiskālā integrācija\\ SequentialSignatureNorvēģija** mape [Dynamics 365 Commerce Risinājumi](https://github.com/microsoft/Dynamics365Commerce.Solutions/) repozitorijs (piemēram, [paraugs izlaidumā/9.34](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.34/src/FiscalIntegration/SequentialSignatureNorway)). Paraugs [sastāv](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskālo dokumentu nodrošinātāju un fiskālo savienotāju, kas ir Commerce izpildlaika paplašinājumi (CRT). Papildinformāciju par to, kā izmantot mazumtirdzniecības SDK, skatiet [Mazumtirdzniecības SDK arhitektūra](../dev-itpro/retail-sdk/retail-sdk-overview.md) un [Iestatiet neatkarīgā iepakojuma SDK izveides konveijeru](../dev-itpro/build-pipeline.md).
 
-Izpildiet finanšu reģistrācijas iestatīšanas soļus, kas [ir aprakstīti sadaļā Tirdzniecības kanālu finanšu integrācijas](./setting-up-fiscal-integration-for-retail-channel.md) iestatīšana:
+Pabeidziet fiskālās reģistrācijas iestatīšanas darbības, kas aprakstītas rakstā [Iestatiet fiskālo integrāciju tirdzniecības kanāliem](./setting-up-fiscal-integration-for-retail-channel.md):
 
-1. [Iestatīt finanšu reģistrācijas](./setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process) procesu. Noteikti atzīmējiet finanšu reģistrācijas procesa iestatījumus, kas ir specifiski [Norvēģijai](#configure-the-fiscal-registration-process).
-1. [Iestatīt kļūdu apstrādes](./setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings) iestatījumus.
-1. [Aktivizējiet atliktās finanšu reģistrācijas manuālu](./setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration) izpildi.
-1. [Konfigurējiet kanāla](#configure-channel-components) komponentus.
+1. [Iestatiet fiskālās reģistrācijas procesu](./setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process). Noteikti pierakstiet fiskālās reģistrācijas procesa iestatījumus [specifiski Norvēģijai](#configure-the-fiscal-registration-process).
+1. [Iestatiet kļūdu apstrādes iestatījumus](./setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+1. [Iespējot atliktās fiskālās reģistrācijas manuālu izpildi](./setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+1. [Konfigurējiet kanāla komponentus](#configure-channel-components).
 
-### <a name="configure-the-fiscal-registration-process"></a>Konfigurēt finanšu reģistrācijas procesu
+### <a name="configure-the-fiscal-registration-process"></a>Konfigurējiet fiskālās reģistrācijas procesu
 
-Ievērojiet šos soļus, lai iespējotu finanšu reģistrācijas procesu Norvēģijai commerce headquarters.
+Veiciet šīs darbības, lai iespējotu Norvēģijas fiskālās reģistrācijas procesu Commerce galvenajā mītnē.
 
-1. Lejupielādējiet konfigurācijas failus fiskālā dokumenta sniedzējam un fiskālajam savienotājam no Commerce SDK:
+1. Lejupielādējiet fiskālo dokumentu nodrošinātāja un fiskālā savienotāja konfigurācijas failus no Commerce SDK:
 
-    1. Atveriet risinājumu [Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) repozitoriju.
-    1. Atveriet pēdējo pieejamo filiāles izlaidi (piemēram, **[izlaidiet/9,34).](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.34)**
-    1. Atveriet **src \> FiscalIntegration \> SequentialSignairNorway \> CommerceRuntime.**
-    1. Lejupielādējiet finanšu dokumentu nodrošinātāja konfigurācijas failu **pie DocumentProvider.SequentialSignNorway \> Configuration \> DocumentProviderSequentialSign atnorwaySample.xml** (piemēram, fails izlaišanai/9,34). [...](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.34/src/FiscalIntegration/SequentialSignatureNorway/CommerceRuntime/DocumentProvider.SequentialSignNorway/Configuration/DocumentProviderSequentialSignatureNorwaySample.xml)
-    1. Lejupielādējiet finanšu savienotāja konfigurācijas failu pie **Connector.SequentialSignNorway \> Configuration \> ConnectorSequentialSign izdarbošanāsSample.xml** (piemēram, fails laidienam/9,34). [...](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.34/src/FiscalIntegration/SequentialSignatureNorway/CommerceRuntime/Connector.SequentialSignNorway/Configuration/ConnectorSequentialSignatureNorwaySample.xml)
+    1. [Dynamics 365 Commerce Atveriet risinājumu](https://github.com/microsoft/Dynamics365Commerce.Solutions/) repozitoriju.
+    1. Atveriet pēdējo pieejamo laidiena filiāli (piemēram, **[izlaidums/9.34](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.34)**).
+    1. Atvērt **src \> Fiskālā integrācija \> SequentialSignatureNorvēģija \> CommerceRuntime**.
+    1. Lejupielādējiet fiskālo dokumentu nodrošinātāja konfigurācijas failu vietnē **DocumentProvider.SequentialSignNorway \> Konfigurācija \> DocumentProviderSequentialSignatureNorwaySample.xml** (piemēram, [izlaišanas fails/9.34](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.34/src/FiscalIntegration/SequentialSignatureNorway/CommerceRuntime/DocumentProvider.SequentialSignNorway/Configuration/DocumentProviderSequentialSignatureNorwaySample.xml)).
+    1. Lejupielādējiet fiskālā savienotāja konfigurācijas failu vietnē **Connector.SequentialSignNorway \> Konfigurācija \> ConnectorSequentialSignatureNorwaySample.xml** (piemēram, [izlaišanas fails/9.34](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.34/src/FiscalIntegration/SequentialSignatureNorway/CommerceRuntime/Connector.SequentialSignNorway/Configuration/ConnectorSequentialSignatureNorwaySample.xml)).
 
-1. Pārejiet uz **sadaļu Mazumtirdzniecības un Commerce \> Headquarters \> iestatīšanas parametri \> koplietotie** parametri. Cilnē **Vispārīgi** iestatiet opciju Aktivizēt fiskālo integrāciju **kā** **Jā**.
-1. Dodieties uz **mazumtirdzniecības un commerce kanālu iestatīšanas finanšu integrācijas finanšu savienotājiem un \>\>\>** ielādējiet agrāk lejupielādēto fiskālā savienotāja konfigurācijas failu.
-1. Dodieties uz **Retail un Commerce Channel \> iestatīšanas finanšu integrācijas finanšu dokumentu nodrošinātājiem un \>\>** ielādējiet iepriekš lejupielādēto fiskālā dokumenta nodrošinātāja konfigurācijas failu.
-1. Pārejiet uz **Sadaļu Mazumtirdzniecības \> un Commerce Channel Setup Finanšu integrācijas \>\> savienotāja funkcionālie** profili. Izveidojiet jaunu savienotāja darbības profilu un atlasiet dokumenta nodrošinātāju un iepriekš ielādēto savienotāju.
-1. Pārejiet uz **Retail un Commerce Channel setup Fiscal integration Connector \>\>\> tehniskajiem** profiliem. Izveidojiet jaunu savienotāja tehnisko profilu un atlasiet iepriekš ielādēto savienotāju. Iestatiet savienotāja tipu uz **Iekšējais**.
-1. Dodieties uz mazumtirdzniecības un commerce kanāla iestatīšanas fiskālās integrācijas fiskālā savienotāja grupām un izveidojiet jaunu fiskālā savienotāja grupu iepriekš **\>\>\>** izveidotjam savienotāja funkcionalitātes profilam.
-1. Pārejiet uz **mazumtirdzniecības un Commerce \> channel \> iestatīšanas finanšu integrācijas \> finanšu reģistrācijas** procesiem. Izveidojiet jaunu fiskālās reģistrācijas procesu un fiskālās reģistrācijas procesa soli un atlasiet iepriekš izveidoto finanšu savienotāja grupu.
-1. Dodieties uz sadaļu **Retail un Commerce \> Kanāla iestatīšana \> POS iestatīšana \> POS profili \> Funkcionalitātes profili**. Atlasiet funkcionalitātes profilu, kas ir saistīts ar veikalu, kurā ir jāaktivizē reģistrācijas process. Kopsavilkuma **cilnē Finanšu reģistrācijas process** atlasiet iepriekš izveidoto finanšu reģistrācijas procesu. Kopsavilkuma cilnē **Finanšu** pakalpojumi atlasiet savienotāja tehnisko profilu, kuru izveidojāt agrāk. 
-1. Pārejiet uz **Mazumtirdzniecība un komercija \> Mazumtirdzniecības un komercijas IT \> Sadales grafiks**. Atveriet sadales grafiku un atlasiet darbus **1070** un **1090,** lai pārsūtītu datus uz kanāla datu bāzi.
+1. Iet uz **Mazumtirdzniecība un tirdzniecība \> Galvenās mītnes iestatīšana \> Parametri \> Kopīgie parametri**. Cilnē **Vispārīgi** iestatiet opciju **Iespējot finanšu integrāciju** uz **Jā**.
+1. Dodieties uz **Retail and Commerce \> Channel setup \> Fiscal integration \> Fiscal connectors un ielādējiet iepriekš lejupielādēto finanšu savienotāja konfigurācijas** failu.
+1. Dodieties uz **Mazumtirdzniecības un tirdzniecības \> kanāla iestatījumu \> Finanšu integrācija \> Finanšu dokumentu nodrošinātāji** un ielādējiet iepriekš lejupielādēto finanšu dokumentu nodrošinātāja konfigurācijas failu.
+1. Dodieties uz **Retail and Commerce \> Channel setup \> Fiscal integration \> Connector funkcionālie profili**. Izveidojiet jaunu savienotāja funkcionālo profilu un atlasiet dokumentu nodrošinātāju un savienotāju, ko ielādējāt iepriekš.
+1. Dodieties uz **Retail and Commerce \> Channel setup \> Fiscal integration \> Connector technical profiles**. Izveidojiet jaunu savienotāja tehnisko profilu un atlasiet savienotāju, kuru ielādējāt iepriekš. Iestatiet savienotāja veidu uz **Iekšējais**.
+1. Iet uz **Mazumtirdzniecība un tirdzniecība \> Kanāla iestatīšana \> Fiskālā integrācija \> Fiskālo savienotāju grupas** un izveidojiet jaunu fiskālo savienotāju grupu savienotāja funkcionālajam profilam, ko izveidojāt iepriekš.
+1. Iet uz **Mazumtirdzniecība un tirdzniecība \> Kanāla iestatīšana \> Fiskālā integrācija \> Fiskālās reģistrācijas procesi**. Izveidojiet jaunu fiskālās reģistrācijas procesu un fiskālā reģistrācijas procesa darbību un atlasiet iepriekš izveidoto fiskālo savienotāju grupu.
+1. Dodieties uz sadaļu **Retail un Commerce \> Kanāla iestatīšana \> POS iestatīšana \> POS profili \> Funkcionalitātes profili**. Izvēlieties funkcionalitātes profilu, kas ir saistīts ar veikalu, kurā jāaktivizē reģistrācijas process. Uz **Fiskālās reģistrācijas process** FastTab atlasiet fiskālās reģistrācijas procesu, ko izveidojāt iepriekš. Uz **Fiskālie pakalpojumi** FastTab atlasiet savienotāja tehnisko profilu, ko izveidojāt iepriekš. 
+1. Pārejiet uz **Mazumtirdzniecība un komercija \> Mazumtirdzniecības un komercijas IT \> Sadales grafiks**. Atveriet izplatīšanas grafiku un atlasiet darbus **1070** un **1090** lai pārsūtītu datus uz kanālu datu bāzi.
 
-### <a name="configure-the-digital-signature-parameters"></a>Konfigurēt ciparparaksta parametrus
+### <a name="configure-the-digital-signature-parameters"></a>Konfigurējiet digitālā paraksta parametrus
 
-Ir jākonfigurē sertifikāti, kas tiks izmantoti pārdošanas darbību ciparparakstam veikalā. Parakstīšanas laikā tiek izmantots ciparsertifikāts, kas ir saglabāts Azure atslēgas līdz ar to. Modern POS bezsaistes režīmam parakstīšanu var veikt, arī izmantojot ciparsertifikātu, kas tiek saglabāts datora, kurā ir instalēts Modern POS, lokālā krātuvē.
+Jums ir jākonfigurē sertifikāti, kas tiks izmantoti pārdošanas darījumu ciparparakstīšanai veikalā. Parakstīšanai tiek izmantots digitālais sertifikāts, kas tiek glabāts Azure Key Vault. Modernās POS bezsaistes režīmā parakstīšanu var veikt arī, izmantojot digitālo sertifikātu, kas tiek saglabāts tās iekārtas lokālajā krātuvē, kurā ir instalēta Modern POS.
 
-Lai varētu izmantot ciparsertifikātu, kas tiek glabāts Atslēgas Informācijas krātuvē, ir jāveic tālāk minētās darbības.
+Lai varētu izmantot ciparu sertifikātu, kas tiek glabāts Key Vault krātuvē, ir jāveic šādas darbības.
 
-1. Ir jābūt izveidotai atslēgas Noliktavas drošības atslēgai. Ieteicams izvietot noliktavu tādā pašā ģeogrāfiskā reģionā kā Commerce Scale Unit.
-1. Sertifikāts ir jāielādē atslēgas to krātuvē Atslēgas krātuvē kā base64 virknes noslēpums.
-1. Programmai Application Object Server (AOS) ir jābūt pilnvarotai lasīt atslēgas noliktavas slepenos datus.
+1. Jāizveido Key Vault krātuve. Mēs iesakām izvietot krātuvi tajā pašā ģeogrāfiskajā reģionā, kur atrodas Commerce Scale Unit.
+1. Sertifikāts ir jāaugšupielādē Key Vault krātuvē kā base64 virknes noslēpums.
+1. Lietojumprogrammu objektu servera (AOS) lietojumprogrammai jābūt pilnvarotai nolasīt noslēpumus no Key Vault krātuves.
 
-Papildinformāciju par to, kā strādāt ar atslēgas lomas laikā, skatiet [sadaļā Sākt darbu ar Azure atslēgas lomas](/azure/key-vault/key-vault-get-started).
+Papildinformāciju par to, kā strādāt ar Key Vault, skatiet sadaļā [Sāciet darbu ar Azure Key Vault](/azure/key-vault/key-vault-get-started).
 
-Pēc tam lapā **Atslēgas Lietotāja parametri jānorāda parametri, lai** piekļūtu atslēgas glabāšanas atslēgai:
+Tālāk, uz **Key Vault parametri** lapā, jums jānorāda parametri, lai piekļūtu Key Vault krātuvei:
 
-- **Nosaukums** un apraksts – **Atslēgas** Kases glabāšanas nosaukums un apraksts.
-- **Atslēgas Url** — Atslēgas Darba glabātavas URL.
-- **AtslēgasFaila klients – interaktīvā klienta ID programmā, kas ir** Azure Active Directory saistīta ar atslēgu Azure AD e-pasta krātuvi autentifikācijas nolūkiem. Šim klientam ir jābūt piekļuvei, lai nolasītu noslēpumus no glabāšanas.
-- **Atslēga Klienta noslēpuma atslēga – slepenā atslēga, kas ir saistīta ar lietojumprogrammu, kas tiek** Azure AD izmantota autentifikācijai Atslēgas Toka krātuvē.
-- **Vārds,** **apraksts un** **slepenā** atsauce – sertifikāta vārds, apraksts un slepenā atsauce.
+- **Vārds** un **Apraksts** – Key Vault krātuves nosaukums un apraksts.
+- **Key Vault URL** — Key Vault krātuves URL.
+- **Key Vault klients** – interaktīvs klienta ID Azure Active Directory (Azure AD) lietojumprogramma, kas autentifikācijas nolūkos ir saistīta ar Key Vault krātuvi. Šim klientam ir jābūt piekļuvei krātuves noslēpumu lasīšanai.
+- **Key Vault slepenā atslēga** - Slepenā atslēga, kas ir saistīta ar Azure AD lietojumprogramma, kas tiek izmantota autentifikācijai Key Vault krātuvē.
+- **Vārds**, **·**, un **Slepenā atsauce** – Sertifikāta nosaukums, apraksts un slepenā atsauce.
 
-Pēc tam ir jākonfigurē savienotājs saviem sertifikātiem, kas tiek glabāti atslēgas Loma vai lokālā sertifikātu krātuvē. Šis savienotājs tiek izmantots parakstīšanai kanāla pusē.
+Pēc tam jums ir jākonfigurē savienotājs saviem sertifikātiem, kas tiek glabāti Key Vault vai vietējā sertifikātu krātuvē. Šis savienotājs tiek izmantots parakstīšanai kanāla pusē.
 
-1. Pārejiet uz **Retail un Commerce Channel setup Fiscal integration Connector \>\>\> tehniskajiem** profiliem.
-1. Kopsavilkuma **cilnē** Iestatījumi norādiet šādus ciparparakstu parametrus:
+1. Dodieties uz **Retail and Commerce \> Channel setup \> Fiscal integration \> Connector technical profiles**.
+1. Uz **Iestatījumi** FastTab, norādiet šādus ciparparakstu parametrus:
 
-    - **Slepenais** vārds – izvēlieties slepeno vārdu, ko iepriekš konfigurējāt **Key Svarīgie parametri** lapā.
-    - **Lokālā sertifikāta** īssavilkums — norādiet lokāli saglabātā sertifikāta īssavilkumu.
-    - **Jaukšanas** algoritms – norādiet vienu no kriptogrāfiskajiem jaukšanas algoritmiem, kurus Microsoft .NET atbalsta, piemēram, **SHA1**.
-    - **Sertifikātu krātuves nosaukums** — šis lauks nav obligāts. Izmantojiet to, lai norādītu noklusējuma veikala nosaukumu, kas jāizmanto lokālo sertifikātu meklēšanai.
-    - **Sertifikātu krātuves vieta** — šis lauks nav obligāts. Izmantojiet to, lai norādītu noklusējuma veikala atrašanās vietu, kas jāizmanto lokālo sertifikātu meklēšanai.
-    - **Vispirms mēģiniet veikt lokālā sertifikāta lietošanu — atlasiet šo opciju, lai parakstīšanas datiem pēc noklusējuma lietotu lokālās krātuves sertifikātu, nevis sertifikātu** no atslēgas Informācijas.
-    - **Veselības pārbaudes aktivizēšana** - Papildinformāciju par veselības pārbaudes funkciju skatiet finanšu [reģistrācijas veselības pārbaudes](./fiscal-integration-for-retail-channel.md#fiscal-registration-health-check) sadaļā.
+    - **Slepenais vārds** – Atlasiet slepeno nosaukumu, ko iepriekš konfigurējāt **Key Vault parametri** lappuse.
+    - **Vietējā sertifikāta īkšķa nospiedums** – Nodrošiniet īkšķa nospiedumu sertifikātam, kas tiek glabāts lokāli.
+    - **Hash algoritms** – Norādiet vienu no atbalstītajiem kriptogrāfijas jaukšanas algoritmiem Microsoft .NET, piemēram, **SHA1**.
+    - **Sertifikātu veikala nosaukums** – Šis lauks nav obligāts. Izmantojiet to, lai norādītu noklusējuma veikala nosaukumu, kas jāizmanto lokālo sertifikātu meklēšanai.
+    - **Sertifikātu veikala atrašanās vieta** – Šis lauks nav obligāts. Izmantojiet to, lai norādītu noklusējuma veikala atrašanās vietu, kas jāizmanto lokālo sertifikātu meklēšanai.
+    - **Vispirms izmēģiniet vietējo sertifikātu** – Atlasiet šo opciju, lai pēc noklusējuma datu parakstīšanai izmantotu sertifikātu no vietējā veikala, nevis sertifikātu no Key Vault.
+    - **Aktivizējiet veselības pārbaudi** – Papildinformāciju par veselības pārbaudes funkciju sk [Fiskālās reģistrācijas veselības pārbaude](./fiscal-integration-for-retail-channel.md#fiscal-registration-health-check).
 
 > [!NOTE]
-> - Norvēģijai **pašlaik pieņemams tikai SHA1** kriptogrāfiskais jaukšanas algoritms.
-> - Noklusējuma krātuves nosaukums un veikala atrašanās vieta tiek pievienota, lai atvieglotu lokālo sertifikātu meklēšanas CRT procesu. X509StoreProvider satur sarakstu ar mapēm, kur tiek glabāti sertifikāti. Ja noklusējuma veikala nosaukums un noklusējuma krātuves atrašanās vieta nav norādītas, X509StoreProvider mēģina atrast sertifikātu visās tā saraksta mapēs.
+> - Tikai **SHA1** kriptogrāfiskais jaukšanas algoritms pašlaik ir pieņemams Norvēģijā.
+> - Noklusējuma veikala nosaukums un veikala atrašanās vieta ir pievienoti, lai vienkāršotu vietējo sertifikātu meklēšanas procesu CRT. X509StoreProvider satur sarakstu ar mapēm, kur tiek glabāti sertifikāti. Ja noklusējuma veikala nosaukums un noklusējuma veikala atrašanās vieta nav norādīts, X509StoreProvider mēģina atrast sertifikātu visās tā sarakstā esošajās mapēs.
 
-### <a name="configure-channel-components"></a>Konfigurēt kanāla komponentus
+### <a name="configure-channel-components"></a>Konfigurējiet kanāla komponentus
 
 ### <a name="development-environment"></a>Izstrādes vide
 
-Izpildiet šīs darbības, lai iestatītu izstrādes vidi, tādējādi jūs variet pārbaudīt un pagarināt paraugu.
+Veiciet šīs darbības, lai iestatītu izstrādes vidi, lai varētu pārbaudīt un paplašināt paraugu.
 
-1. Lejupielādējiet Solutions [Dynamics 365 Commerce repozitoriju vai](https://github.com/microsoft/Dynamics365Commerce.Solutions) lejupielādējiet to. Atlasiet pareizu filiāles versiju atbilstoši SDK/programmas versijai. Papildinformāciju skatiet lejupielādes [Retail SDK paraugos un atsauces pakotnēs no GitHub un NuGet](../dev-itpro/retail-sdk/sdk-github.md).
-1. Atveriet **risinājumu SequentialSign saskaņā arNorway.sln** **zem Dynamics365Commerce.Solutions \\ FiscalIntegration \\ SequentialSignmaksājotNorway** un izveidojiet to.
-1. Instalēt CRT paplašinājumus:
+1. Klonējiet vai lejupielādējiet [Dynamics 365 Commerce Risinājumi](https://github.com/microsoft/Dynamics365Commerce.Solutions) krātuve. Atlasiet pareizo laidiena filiāles versiju atbilstoši savai SDK/lietojumprogrammas versijai. Papildinformāciju skatiet [Lejupielādējiet mazumtirdzniecības SDK paraugus un atsauces pakotnes no GitHub un NuGet](../dev-itpro/retail-sdk/sdk-github.md).
+1. Atveriet **SequentialSignatureNorway.sln** risinājums zem **Dynamics365Commerce.Solutions\\ Fiskālā integrācija\\ SequentialSignatureNorvēģija**, un izveidojiet to.
+1. Uzstādīt CRT paplašinājumi:
 
-    1. Atrast CRT paplašinājuma instalētāju:
+    1. Atrodi CRT paplašinājumu instalētājs:
 
-        - **Commerce Scale Unit: mapē** **SequentialSignranNorway \\\\ ScaleUnit ScaleUnit.SequentialSignNorway.Installer \\ bin \\ Debug \\ net461 atrodiet mapi** **ScaleUnit.SequentialSignNorway.Installer** installer.
-        - **CRT Modern POS lokāls: mapē** **SequentialSignllaNorway \\\\ ModernPOS ModernPos.SequentialSignNorway.Installer \\ bin \\ Debug \\ net461 atrodiet** mapi **ModernPos.SequentialSignNorway.Installer** installer.
+        - **Tirdzniecības mēroga vienība:** Iekš **SequentialSignatureNorvēģija\\ Mērvienība\\ ScaleUnit.SequentialSignNorway.Installer\\ atkritumu tvertne\\ Atkļūdošana\\ net461** mapi, atrodiet **ScaleUnit.SequentialSignNorway.Installer** uzstādītājs.
+        - **Vietējais CRT Mūsdienu POS:** Iekš **SequentialSignatureNorvēģija\\ Modern POS\\ ModernPos.SequentialSignNorvēģija.Instalētājs\\ atkritumu tvertne\\ Atkļūdošana\\ net461** mapi, atrodiet **ModernPos.SequentialSignNorvēģija.Instalētājs** uzstādītājs.
 
-    1. Startējiet CRT paplašinājuma instalētāju no komandrindas:
+    1. Sāciet CRT paplašinājuma instalētājs no komandrindas:
 
-        - **Commerce Scale vienība:**
+        - **Tirdzniecības mēroga vienība:**
 
             ```Console
             ScaleUnit.SequentialSignNorway.Installer.exe install --verbosity 0
             ```
 
-        - **Lokāls CRT modernajā POS:**
+        - **Vietējais CRT Mūsdienu POS:**
 
             ```Console
             ModernPOS.SequentialSignNorway.Installer.exe install --verbosity 0
@@ -128,16 +128,16 @@ Izpildiet šīs darbības, lai iestatītu izstrādes vidi, tādējādi jūs vari
 
 ### <a name="production-environment"></a>Ražošanas vide
 
-Izpildiet darbības, kas sadaļā Konveijers ir jāiestata fiskālās integrācijas parauga būvējuma konveijers, lai ģenerētu un izlaistu mākoņa mēroga vienību un pašapkalpošanās izvietojamos [iepakojumus](fiscal-integration-sample-build-pipeline.md) fiskālās integrācijas parauga iepakojumam. **Failu SequentialSignoraNorway build-build.buildml template UZML var atrast Risinājumu** repozitorija YAML_Files **\\ pipeline**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions) YAML_Files.
+Izpildiet norādījumus [Fiskālās integrācijas parauga izveides konveijera iestatīšana](fiscal-integration-sample-build-pipeline.md) lai ģenerētu un atbrīvotu Cloud Scale Unit un pašapkalpošanās izvietojamās pakotnes fiskālās integrācijas paraugam. **SequentialSignatureNorway build-pipeline.yaml** veidnes YAML failu var atrast **risinājumu\\ repozitorija mapē** Pipeline [Dynamics 365 Commerce YAML_Files](https://github.com/microsoft/Dynamics365Commerce.Solutions).
 
-### <a name="enable-the-digital-signature-in-offline-mode-for-modern-pos"></a>Iespējojiet ciparparakstu Modern POS bezsaistes režīmā
+### <a name="enable-the-digital-signature-in-offline-mode-for-modern-pos"></a>Digitālā paraksta iespējošana bezsaistes režīmā modern pos
 
-Lai iespējotu ciparparakstu Modern POS bezsaistes režīmā, pēc Modern POS aktivizēšanas jaunā ierīcē veiciet šīs darbības.
+Lai iespējotu ciparparakstu modern pos bezsaistes režīmā, pēc modern POS aktivizēšanas jaunā ierīcē ir jāveic šīs darbības.
 
 1. Pierakstieties POS.
-1. Datu **bāzes savienojuma statusa** lapā pārliecinieties, ka bezsaistes datu bāze ir pilnībā sinhronizēta. Ja lauka Gaidošie **lejupielādes vērtība** ir **0** (nulle), datu bāze ir pilnībā sinhronizēta.
-1. Izrakstīties no POS.
-1. Gaidiet, kamēr bezsaistes datu bāze tiks pilnībā sinhronizēta.
+1. **Lapā Datu bāzes savienojuma statuss** pārliecinieties, vai bezsaistes datu bāze ir pilnībā sinhronizēta. Ja lauka Gaida lejupielādes **vērtība** ir **0** (nulle), datu bāze ir pilnībā sinhronizēta.
+1. Izrakstieties no POS.
+1. Pagaidiet, līdz bezsaistes datu bāze tiek pilnībā sinhronizēta.
 1. Pierakstieties POS.
-1. Datu **bāzes savienojuma statusa** lapā pārliecinieties, ka bezsaistes datu bāze ir pilnībā sinhronizēta. Ja gaidošo darbību **vērtība bezsaistes datu bāzes** laukā ir **0** (nulle), datu bāze ir pilnībā sinhronizēta.
-1. Atkārtoti atveriet Modern POS.
+1. **Lapā Datu bāzes savienojuma statuss** pārliecinieties, vai bezsaistes datu bāze ir pilnībā sinhronizēta. Ja nepabeigto **transakciju vērtība bezsaistes datu bāzes** laukā ir **0** (nulle), datu bāze ir pilnībā sinhronizēta.
+1. Atkārtoti atveriet moderno POS.

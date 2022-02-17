@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 52740246f745272f238ec3dcf8e53f7310e4b24271da4a5d6388a1b9c4706521
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 7eb5128f3a337bd728cfe8e6d8d3deb0b6b5ef88
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774853"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074971"
 ---
 # <a name="safety-margins"></a>Drošības rezerves
 
@@ -61,9 +61,6 @@ Ievērojiet, ka ieejas plūsmas rezerve nemaina piegādes *vajadzības datumu*. 
 
 ### <a name="reorder-margin"></a>Pasūtījuma rezerve
 
-> [!NOTE]
-> **Drīzumā:** Šis līdzeklis vēl nav atbalstīts Plānošanas optimizācijai. Kamēr tas netiek atbalstīts, visas vērtības, kas ir ievadītas **Pasūtījuma rezervei, kas pievienota krājumu izpildes laikam** tiks traktētas kā *0* (nulle).
-
 Sekojošajā attēlā ir parādīta pasūtījuma rezerve.
 
 ![Pasūtījuma rezerve.](media/safety-margins-3.png)
@@ -71,9 +68,6 @@ Sekojošajā attēlā ir parādīta pasūtījuma rezerve.
 Pasūtījuma rezerve tiek pievienota pirms krājuma izpildes laika visiem plānotajiem pasūtījumiem vispārējās plānošanas laikā. Tāpēc tā nodrošina papildu laiku piegādes pasūtījuma ievietošanai. Šī rezerve parasti tiek izmantota kā buferis, lai nodrošinātu laiku apstiprināšanas procesiem vai citiem iekšējiem procesiem, kas ir nepieciešami piegādes pasūtījumu izveides laikā. Pasūtījuma rezerve tiek novietota starp piegādes *pasūtījuma datumam* un *sākuma datumam*.
 
 ### <a name="issue-margin"></a>Izejas plūsmas rezerve
-
-> [!NOTE]
-> **Drīzumā:** Šis līdzeklis vēl nav atbalstīts Plānošanas optimizācijai. Kamēr tā netiek atbalstīta, visas vērtības, kas ir ievadītas **Izejas plūsmas rezervei, kas atskaitīta no vajadzības datuma** tiks traktētas kā *0* (nulle).
 
 Sekojošajā attēlā ir parādīta izejas plūsmas rezerve.
 

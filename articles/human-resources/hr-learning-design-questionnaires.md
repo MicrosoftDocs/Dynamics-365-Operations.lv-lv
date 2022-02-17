@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 08c8015e8729a4ca33f3fb3c48f654e489f32f3f
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: 90dd59b605c21abd03d2e0d64a89dc787850c26e
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7729055"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065205"
 ---
 # <a name="create-questionnaires"></a>Anketu izveide
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -63,7 +66,7 @@ Lai varētu izveidot anketas, atbildes un jautājumus, ir nepieciešami noteikti
 
 ### <a name="questionnaire-types"></a>Anketu tipi
 
-**Anketu** tipi ir nepieciešami, un tie jāpiešķir, veidojot anketu. **Anketu** tipi palīdz pārvaldīt un klasificēt anketas vieglāk. Lietojiet anketu tipus, lai klasificētu anketas un atšķirtu tās vienu no otras. Piemēram, ja jums ir vairākas anketas, no kurām izvēlēties, varat tās filtrēt pēc tipa, lai vienkāršotu konkrētas anketas atrašanu. Šeit ir norādīti daži anketu tipu piemēri:
+**Anketu veidi** ir nepieciešami, un tie ir jāpiešķir, veidojot anketu. **Anketu veidi** palīdz vieglāk pārvaldīt un klasificēt anketas. Lietojiet anketu tipus, lai klasificētu anketas un atšķirtu tās vienu no otras. Piemēram, ja jums ir vairākas anketas, no kurām izvēlēties, varat tās filtrēt pēc tipa, lai vienkāršotu konkrētas anketas atrašanu. Šeit ir norādīti daži anketu tipu piemēri:
 
 -   Cilvēkresursu attīstība
 -   Debitoru aptaujas
@@ -71,9 +74,9 @@ Lai varētu izveidot anketas, atbildes un jautājumus, ir nepieciešami noteikti
 
 ### <a name="question-types"></a>Jautājumu tipi
 
-**Jautājumu tipi** ir nepieciešami, un tie jāpiešķir, veidojot jautājumu. 
+**Jautājumu veidi** ir nepieciešami, un tie ir jāpiešķir, veidojot jautājumu. 
 
-Izmantojiet **jautājumu tipus,** lai iedalītu kategorijās jautājumus pārskatiem. **Jautājumu** tipi atvieglo arī jautājumu aišanu, jo jautājumu lapā varat lietot tipus **kā** filtrus. Šeit ir norādīti daži jautājumu tipu piemēri:
+Izmantot **Jautājumu veidi** lai klasificētu jautājumus ziņošanai. **Jautājumu veidi** atvieglo arī jautājumu atrašanu, jo varat izmantot veidus kā filtrus **Jautājumi** lappuse. Šeit ir norādīti daži jautājumu tipu piemēri:
 
 -   Personāla vadība
 -   Biznesa pārvaldība
@@ -92,7 +95,7 @@ Lai varētu izveidot savus datus, jums ir jādefinē visi parametri. Anketas par
 ## <a name="questionnaire-components"></a>Anketas komponenti
 Anketas ietver trīs galvenos elementus: atbilžu grupas, kas ietver atbildes uz jautājumiem ar atbilžu variantiem, jautājumus un pašu anketu. Pēc izvēles varat grupēt aptaujas jautājumus rezultātu grupās. Rezultātu grupas jums ļauj jautājumus dalīt kategorijās un sniegt papildu analīzi par anketu. 
 
-[![ QuestionnaireComponents.](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
+[![QuestionnaireComponents.](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
 ### <a name="answer-groups-and-answers"></a>Atbilžu grupas un atbildes
 
@@ -105,7 +108,7 @@ Lai nodrošinātu sarakstu ar iespējamajām atbildēm uz slēgtajiem jautājumi
 
 Atbilžu grupas un atbildes ir komponenti, kas veido informācijas pamatu, no kā tiek veidoti jautājumi. Kad izveidojat atbilžu grupu, šo atbilžu grupu varat saistīt ar kādu jautājumu laukā **Atbilžu grupa**, lapā **Jautājumi**. 
 
-Atbilžu grupu var izmantot vairāk nekā vienam jautājumam tajā pašā anketā, un to **var izmantot arī vairāk nekā vienā** anketā. 
+An **Atbilžu grupa** var izmantot vairāk nekā vienam jautājumam vienā un tajā pašā anketā, kā arī var izmantot vairāk nekā vienā anketā. 
 
 > [!NOTE]
 > Ja modificējat atbildes tekstu atbilžu grupās, kas jau ir izmantotas aizpildītās anketās, šo datu novērtēšana var kļūt apgrūtināta un anketu rezultāti var kļūt nederīgi. Ja ir nepieciešams mainīt kādu atbilžu grupu, apsveriet iespēju izveidot jaunu atbilžu grupu, nevis mainīt jau esošo. Nevar dzēst atbilžu grupas, kas ir pievienotas jautājumam vai atbildei vai kas ir atbildētas.
@@ -171,7 +174,7 @@ Anketā nevar dzēst šādu tipu jautājumus:
 
 ### <a name="result-groups"></a>Rezultātu grupas
 
-**Rezultātu grupas** nav obligātas, ja anketai tiek piesaistīti jautājumi. 
+**Rezultātu grupas** nav obligāti, ja anketai pievienojat jautājumus. 
 
 Rezultātu grupa tiek lietota, lai aprēķinātu punktu skaitu un anketas rezultātus sadalītu kategorijās. Ja izmantojat rezultātu grupas, varat veikt šādus uzdevumus:
 

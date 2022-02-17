@@ -1,6 +1,6 @@
 ---
 title: Palīdzības sistēma (satur video)
-description: Šajā tēmā sniegts pārskats par Palīdzības sistēmu Finanšu un operāciju programmām.
+description: Šajā tēmā ir sniegts pārskats par palīdzības sistēmu finanšu un operāciju programmām.
 author: edupont04
 ms.date: 07/20/2021
 ms.topic: overview
@@ -17,16 +17,19 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67f2fe493c57cd004b1003c1d95734bd455fde8c
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: HT
+ms.openlocfilehash: dd34addc2ffa5e437691cb1e3e8b33246053ccc7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984438"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070505"
 ---
 # <a name="help-system"></a>Palīdzības sistēma
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Šo programmu lietotāji var piekļūt kontekstjutīgai palīdzībai un citam saturam, kas ir balstīts uz to pašu palīdzības sistēmu:
 
@@ -50,7 +53,7 @@ Jūs varat atrast saturu docs.microsoft.com, izmantojot jebkuru meklētājprogra
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>Saņemt paziņojumus par izmaiņām, izmantojot RSS plūsmu
 
-Lai abonētu visu finanšu un operāciju programmu saturam docs.microsoft.com ESAT veicis VISU atjauninājumu PLŪSMU, izmantojiet šādu saiti:
+Lai abonētu RSS plūsmu ar visiem atjauninājumiem, kas veikti docs.microsoft.com saturu finanšu un operāciju programmās, izmantojiet šo saiti:
 
 [RSS plūsma](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 

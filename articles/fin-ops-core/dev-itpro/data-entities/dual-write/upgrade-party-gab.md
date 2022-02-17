@@ -9,47 +9,47 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: eaafe8d98049cb8838317396f28e9d6ca720a677
-ms.sourcegitcommit: 08dcbc85e372d4e4fb3ba64389f6d5051212c212
-ms.translationtype: HT
+ms.openlocfilehash: 579a7d19ee7196d3242c78bd9915df24ec479c31
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "8015719"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060489"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Jaunināšana uz pušu un globālās adrešu grāmatas modeli
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Datu fabrikas veidnes palīdz jaunināt šādus esošos datus dubultās rakstīšanas puses un globālās adrešu grāmatas modelī: datus konta, kontaktu un kreditoru tabulās, pasta un [Microsoft Azure](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema) elektroniskās **·** **·** **adreses**.
 
-Ir pieejamas trīs tālāk norādītās datu fabrikas veidnes. Tie palīdz saskaņot datus no finanšu un operāciju programmām un debitoru lietojumprogrammām.
+Datu rūpnīcas [Microsoft Azure veidnes](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema) palīdz jaunināt šādus esošos datus divrakstotā uz pušu un globālo adrešu grāmatas modeli: dati **tabulās Konts**, **Kontaktpersona** un **Piegādātājs**, kā arī pasta un elektroniskās adreses.
 
-- **[Puses veidne (Jauniniet datus uz dubultās rakstīšanas](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/arm_template.json) Puses-GAB shēmu/arm_template.json) – šī veidne palīdz jaunināt pušu un kontaktpersonu datus, kas ir saistīti ar kontu, kontaktpersonu** **un kreditora** **·** **·** **·** **datiem**.
-- **[Puses pasta adreses veidne (Jauniniet datus uz dubultās rakstīšanas Puses-GAG shēmu/jauniniet uz puses pasta adresi](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/Upgrade%20to%20Party%20Postal%20Address%20-%20GAB/arm_template.json) - GAG/arm_template.json) – šī veidne palīdz atjaunināt pasta adreses, kas saistītas ar kontu, kontaktpersonu un kreditora** **·** **·** **datiem**.
-- **[Puses elektroniskās adreses veidne (Jauniniet datus uz dubultās rakstīšanas Puses-GAG shēmu/jauniniet uz puses elektronisko adresi](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/Upgrade%20to%20Party%20Electronic%20Address%20-%20GAB/arm_template.json) - GAG/arm_template.json) – šī veidne palīdz atjaunināt elektroniskās adreses, kas ir saistītas ar kontu, kontaktpersonu un kreditora** **·** **·** **datiem**.
+Tiek nodrošinātas šādas trīs datu fabrikas veidnes. Tie palīdz saskaņot datus gan no Finance, gan Operations programmām un klientu iesaistes programmām.
 
-Procesa beigās tiek ģenerēti šādi komatatdalīto vērtību (.csv) faili.
+- **[Puses veidne](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/arm_template.json) (Jaunināt datus uz divrakstīšu Party-GAB shēmu/arm_template.json)** — šī veidne palīdz jaunināt **pušu** un **kontaktpersonu** datus, kas ir saistīti ar **uzņēmuma**, **kontaktpersonas** un **piegādātāja** datiem.
+- **[Puses pasta adreses veidne](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/Upgrade%20to%20Party%20Postal%20Address%20-%20GAB/arm_template.json) (Jaunināt datus uz divrakstīšu Party-GAB shēmu/Jaunināt uz puses pasta adresi - GAB/arm_template.json)** — šī veidne palīdz jaunināt pasta adreses, kas ir saistītas ar **konta**, **kontaktpersonas** un **piegādātāja** datiem.
+- **[Puses elektroniskās adreses veidne](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/Upgrade%20to%20Party%20Electronic%20Address%20-%20GAB/arm_template.json) (Jaunināt datus uz divrakstīšu Party-GAB shēmu/ Jaunināt uz puses elektronisko adresi - GAB / arm_template.json)** - Šī veidne palīdz jaunināt elektroniskās adreses, kas ir saistītas ar **konta**, **kontaktpersonas** un **piegādātāja** datiem.
+
+Procesa beigās tiek ģenerēti šādi ar komatiem atdalīti vērtību (.csv) faili.
 
 | Faila nosaukums | Nolūks |
 |---|---|
-| FONewParty.csv | Šis fails palīdz izveidot jaunus **Puses ierakstus programmā Finanses un** operācijas. |
-| ImportFONewPostalAddressLocation.csv | Šis fails palīdz izveidot jaunus **pasta adrešu** atrašanās vietas ierakstus programmā Finanses un operācijas. |
-| ImportFONewPartyPostalAddress.csv | Šis fails palīdz izveidot jaunus **puses pasta adrešu ierakstus programmā Finanses un** operācijas. |
-| ImportFONewPostalAddress.csv | Šis fails palīdz izveidot jaunus **pasta adrešu ierakstus programmā Finanses un** operācijas. |
-| ImportFONewElectronicAddress.csv | Šis fails palīdz izveidot jaunus **elektroniskās adreses ierakstus programmā Finanses un** operācijas. |
+| FONewParty.csv | Šis fails palīdz izveidot jaunus **pušu** ierakstus programmā Finanses un operācijas. |
+| ImportFONewPostalAddressLocation.csv | Šis fails palīdz izveidot jaunus **pasta adreses atrašanās vietas** ierakstus programmā Finanses un operācijas. |
+| ImportFONewPartyPostalAddress.csv | Šis fails palīdz izveidot jaunus **pušu pasta adrešu** ierakstus programmā Finanses un operācijas. |
+| ImportFONewPostalAddress.csv | Šis fails palīdz izveidot jaunus **pasta adreses** ierakstus programmā Finanses un operācijas. |
+| ImportFONewElektroniskāAddress.csv | Šis fails palīdz izveidot jaunus **elektroniskās adreses** ierakstus programmā Finanses un operācijas. |
 
-Šajā tēmā skaidrots, kā izmantot datu fabrikas veidnes un jaunināt savus datus. Ja pielāgojumu nav, tās varat izmantot pēc to pielāgošanas. Tomēr, ja ir pielāgojumi **konta, kontaktpersonas un kreditora datiem, veidnes ir** **·** **jāmodificē**, kā aprakstīts šajā tēmā.
+Šajā tēmā ir paskaidrots, kā izmantot datu fabrikas veidnes un jaunināt datus. Ja jums nav pielāgojumu, varat izmantot veidnes tādas, kādas tās ir. Tomēr, ja jums ir konta, kontaktpersonas **un** **piegādātāja** datu pielāgojumi, veidnes ir jāmodificē, kā aprakstīts šajā tēmā. **·**
 
 > [!IMPORTANT]
-> Ir īpašas instrukcijas puses pasta adreses un Puses elektroniskās adreses veidņu izpildē. Vispirms jāpalaiž Puses veidne, tad Puses pasta adreses veidne un pēc tam Puses elektroniskās adreses veidne. Katra veidne ir veidota, lai importētu atsevišķā datu ražotnē.
+> Ir īpaši norādījumi par Puses pasta adreses un pušu elektronisko adrešu veidņu vadīšanu. Vispirms ir jāpalaiž puses veidne, pēc tam puses pasta adreses veidne un pēc tam puses elektroniskās adreses veidne. Katra veidne ir paredzēta importēšanai atsevišķā datu rūpnīcā.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
-Lai varētu jaunināt uz puses un globālās adrešu grāmatas modeli, ir jābūt šādiem priekšnosacījumi:
+Lai varētu jaunināt uz pušu un globālās adrešu grāmatas modeli, ir jābūt ieviestiem šādiem priekšnosacījumiem:
 
-+ Jums ir jābūt [Azure](https://portal.azure.com/) abonementam.
++ Jums ir [nepieciešams Azure abonements](https://portal.azure.com/).
 + Jums ir jābūt piekļuvei [veidnēm](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema).
 + Jums jābūt jau esošam duālās rakstīšanas debitoram.
 
@@ -57,11 +57,11 @@ Lai varētu jaunināt uz puses un globālās adrešu grāmatas modeli, ir jābū
 
 Jaunināšanai ir nepieciešama šāda sagatavošana:
 
-+ **Pilna sinhronizācija: gan finanšu, gan operāciju vide un debitoru tiesīgizību vide ir pilnībā sinhronizētā konta** **(Customer)**, Contact un Vendor **tabulu** **stāvoklī**.
-+ **Integrācijas atslēgas:** konts (Debitors), kontakts un kreditors tabulas debitoru ieslēgšanas programmās izmanto **box integrācijas** **·** **atslēgas**. Pielāgojot integrācijas atslēgas, veidne ir jāpielāgo.
-+ **Puses numurs:** visiem **konta (Debitors), kontakta un** kreditora **·** **ierakstiem**, kas tiks jaunināti, ir puses numurs. Ieraksti, kuriem nav puses numura, tiks ignorēti. Ja vēlaties jaunināt šos ierakstus, pirms jaunināšanas procesa sākšanas pievienojiet tiem puses numuru.
-+ **Sistēmas nobraukums: jaunināšanas procesa laikā bezsaistē jālieto gan Finanšu un** operāciju vide, gan debitoru iesaistīšanos vide.
-+ **Momentuzņēmums**: izveidot momentuzņēmumu gan Finanšu un operāciju programmām, gan debitoru ieslēgšanas programmām. Pēc tam var izmantot momentuzņēmumus, lai atjaunotu iepriekšējo stāvokli, ja tas nepieciešams.
++ **Pilnīga sinhronizācija:** gan finanšu un operāciju vide, gan klientu piesaistes vide ir pilnībā sinhronizēta tabulām **Konts (klients),** **Kontaktpersona** un **Piegādātājs**.
++ **Integrācijas atslēgas:** klientu iesaistes programmu tabulās **Konts (klients)** **, Kontaktpersona** un **Piegādātājs** tiek izmantota iebūvētās integrācijas atslēgas. Pielāgojot integrācijas atslēgas, veidne ir jāpielāgo.
++ **Puses numurs:** visiem **jauninātajiem konta (klienta)**, **kontaktpersonas** un **piegādātāja** ierakstiem ir puses numurs. Ieraksti, kuriem nav puses numura, tiks ignorēti. Ja vēlaties jaunināt šos ierakstus, pievienojiet tiem puses numuru pirms jaunināšanas procesa sākšanas.
++ **Sistēmas darbības pārtraukums:** jaunināšanas procesa laikā jums būs jāņem gan finanšu un darbības vide, gan klientu piesaistes vide bezsaistē.
++ **Momentuzņēmums:** uzņemiet momentuzņēmumu gan finanšu un operāciju lietotnēs, gan klientu iesaistes lietotnēs. Pēc tam momentuzņēmumus var izmantot, lai atjaunotu iepriekšējo stāvokli, ja tas ir nepieciešams.
 
 ## <a name="deployment"></a>Izvietojums
 
@@ -69,25 +69,25 @@ Jaunināšanai ir nepieciešama šāda sagatavošana:
 2. Pierakstieties [Azure portālā](https://portal.azure.com/).
 3. Izveidojiet [resursu grupu](/azure/azure-resource-manager/management/manage-resource-groups-portal).
 4. Izveidojiet [glabāšanas kontu](/azure/storage/common/storage-account-create?tabs=azure-portal) izveidoto resursu grupā.
-5. Izveidojiet [datu rūpnīcā jūsu](/azure/data-factory/quickstart-create-data-factory-portal) izveidoto resursu grupā.
-6. Atveriet datu rūpnīcā un atlasiet elementu **Autors** &Pārraudzīt.
+5. [Izveidot datu rūpnīcu](/azure/data-factory/quickstart-create-data-factory-portal) izveidotajā resursu grupā.
+6. Atveriet datu rūpnīcu un atlasiet **elementu Autors un pārraugs**.
 7. Cilnē **Pārvaldīt** atlasiet **ARM veidne**.
-8. Atlasiet **Importēt ARM veidni,** lai **importētu puses** veidni.
+8. Atlasiet **Importēt ARM veidni**, lai importētu **puses** veidni.
 9. Importējiet veidni datu fabrikā. Ievadiet tālāk norādītās vērtības **Projekta detalizēta informācija** un **Instances detalizēta informācija**.
 
     | Lauks | Vērtība |
     |---|---|
     | Abonements | Azure abonements |
-    | Resursa grupa | Nodrošiniet tos pašus resursus, kuros ir izveidots glabāšanas konts. |
+    | Resursa grupa | Norādiet to pašu resursu, saskaņā ar kuru tiek izveidots krātuves konts. |
     | Reģions | Reģions |
-    | Fabrikas nosaukums | Fabrikas nosaukums |
-    | FO saistīta Pakalpojums_pakalpojums galvenā atslēga | Programmas atslēga |
-    | Azure Blob krātuves_savienojuma virknes | Azure BLOB glabāšanas savienojuma virkne |
-    | Dynamics CRM saistīta Pakalpojuma_parole | Parole lietotāja kontam, kuru norādāt kā lietotājvārdu |
+    | Fabrikas nosaukums | Rūpnīcas nosaukums |
+    | FO saistīta Pakalpojums_pakalpojums galvenā atslēga | Lietojumprogrammas atslēga |
+    | Azure Blob krātuves_savienojuma virknes | Azure BLOB krātuves savienojuma virkne |
+    | Dynamics CRM saistīta Pakalpojuma_parole | Tā lietotāja konta parole, kuru norādāt kā lietotājvārdu |
     | FO saistīts Pakalpojuma_rekvizītu_veids Rekvizītu_url | `https://sampledynamics.sandbox-operationsdynamics.com/data` |
-    | FO saistīts Pakalpojuma_rekvizītu_veids Rekvizītu_nomnieks | Informācija (domēna vārds vai nomnieka ID) par nomnieku, kurā atrodas jūsu programma |
+    | FO saistīts Pakalpojuma_rekvizītu_veids Rekvizītu_nomnieks | Informācija (domēna vārds vai nomnieka ID) par nomnieku, uz kuru atrodas jūsu pieteikums |
     | FO saistīts Pakalpojuma_rekvizītu_veids Rekvizītu_aad Resursa ID | `https://sampledynamics.sandboxoperationsdynamics.com` |
-    | FO saistīts Pakalpojuma_rekvizītu_veids Rekvizītu_pakalpojums Galvenā ID | Programmas klienta ID |
+    | FO saistīts Pakalpojuma_rekvizītu_veids Rekvizītu_pakalpojums Galvenā ID | Lietojumprogrammas klienta ID |
     | Dynamics CRM saistīts Pakalpojuma_rekvizītu_veids Rekvizītu_lietotājvārds | Lietotājvārds, kas tiek izmantots, lai izveidotu savienojumu ar Dynamics 365 |
 
     Papildinformāciju skatiet tālāk norādītajās tēmās.
@@ -100,7 +100,7 @@ Jaunināšanai ir nepieciešama šāda sagatavošana:
 
     ![Datu kopas, datu plūsma un saistītais pakalpojums.](media/data-factory-validate.png)
 
-11. Dodieties uz **Pārvaldīt**. Sadaļā **Savienojumi** atlasiet **Saistītais pakalpojums**. Pēc tam **atlasiet DynamicsCrmLinkedService.** Dialoglodziņā **Rediģēt saistīto pakalpojumu Dynamics CRM ()** ievadiet šādas vērtības.
+11. Dodieties uz **Pārvaldīt**. Sadaļā **Savienojumi** atlasiet **Saistītais pakalpojums**. Pēc tam atlasiet **DynamicsCrmLinkedService**. Dialoglodziņā **Saistītā pakalpojuma (Dynamics CRM)** rediģēšana ievadiet šādas vērtības.
 
     | Lauks | Vērtība |
     |---|---|
@@ -114,44 +114,44 @@ Jaunināšanai ir nepieciešama šāda sagatavošana:
     | Parole vai Azure Key Vault | Parole |
     | Parole | |
 
-## <a name="prepare-to-run-the-data-factory-templates"></a>Sagatavošanās datu fabrikas veidņu palaišanai
+## <a name="prepare-to-run-the-data-factory-templates"></a>Sagatavošanās datu rūpnīcas veidņu palaišanai
 
-Šajā sadaļā aprakstīti iestatījumi, kas ir nepieciešami pirms Puses pasta adreses un Puses elektroniskās adreses datu fabrikas veidņu palaišanas.
+Šajā sadaļā ir aprakstīti iestatījumi, kas nepieciešami pirms pušu pasta adreses un pušu elektroniskās adreses datu rūpnīcas veidņu palaišanas.
 
-### <a name="setup-to-run-the-party-postal-address-template"></a>Puses pasta adreses veidnes palaišanas iestatīšana
+### <a name="setup-to-run-the-party-postal-address-template"></a>Iestatījumi puses pasta adreses veidnes palaišanai
 
-1. Piesakieties debitoru piesaistes programmās un dodieties uz **iestatījumu** \> **personalizēšanas** iestatījumiem. Pēc tam cilnē **Vispārīgi** konfigurējiet laika joslas iestatījumu sistēmas administratora kontam. Lai atjauninātu pasta adrešu no Finanšu un operāciju programmām datumus "derīgs no" un "derīgs līdz", laika joslai ir jābūt universālajā koordinētajā laikā (UTC).
+1. Piesakieties klientu iesaistes lietotnēs un dodieties uz **Iestatījumu** \> **personalizēšanas iestatījumi.** Pēc tam **cilnē Vispārīgi** konfigurējiet sistēmas administratora konta laika joslas iestatījumu. Laika joslai jābūt universālajā koordinētajā laikā (UTC), lai atjauninātu pasta adrešu datumus "derīgs no" un "derīgs līdz", izmantojot Finance and Operations lietotnes.
 
-    ![Laika joslas iestatīšana sistēmas administratora kontam.](media/ADF-1.png)
+    ![Laika joslas iestatījums sistēmas administratora kontam.](media/ADF-1.png)
 
-2. Datu fabrikas cilnē Pārvaldīt **zem** Globālie parametri **izveidojiet** šādu globālo parametru.
-
-    | Numurs | Nosaukums | Veids | Vērtība |
-    |---|---|---|---|
-    | 1 | PostalAddressIdPrefix | virkne | Šis parametrs pievieno sērijas numuru tikko izveidotajām pasta adresēm kā prefiksu. Noteikti norādiet virkni, kas nav pretrunā ar pasta adresēm finanšu un operāciju programmās un debitoru iesaistes programmās. Piemēram, izmantojiet **ADF-PAD-.** |
-
-    ![Cilnē Pārvaldīt izveidots globālais PostalAddressIdPrefix parametrs.](media/ADF-2.png)
-
-3. Kad esat beidzis, atlasiet **Publicēt** visu.
-
-    ![Publicēt visu pogu.](media/ADF-3.png)
-
-### <a name="setup-to-run-the-party-electronic-address-template"></a>Iestatīt puses elektroniskās adreses veidnes palaišanai
-
-1. Datu fabrikas cilnē Pārvaldīt **zem** Globālie parametri **izveidojiet** šādus globālos parametrus.
+2. Datu fabrikas **cilnes Pārvaldība** sadaļā **Globālie parametri** izveidojiet šādu globālo parametru.
 
     | Numurs | Nosaukums | Veids | Vērtība |
     |---|---|---|---|
-    | 1 | IsFO avots | Būla (Bool) | Šis parametrs nosaka, kuras primārās sistēmas adreses tiek aizvietotas konfliktu gadījumā. Ja vērtība ir **patiesa**, primārās adreses Finanšu un operāciju programmās aizstās primārās adreses debitoru lietojumprogrammās. Ja vērtība ir **nepatiesa**, primārās adreses debitoru piesaistes programmās aizstās primārās adreses Finanšu un operāciju programmās. |
-    | 2 | ElectronicAddressIdPrefix (elektroniskaisaddressIdPrefix) | virkne | Šis parametrs pievieno sērijas numuru tikko izveidotajām elektroniskajām adresēm kā prefiksu. Noteikti norādiet virkni, kas nav pretrunā ar elektroniskajām adresēm Finanšu un operāciju programmās un debitoru iesaistes programmās. Piemēram, izmantojiet **ADF-EAD-.** |
+    | 1 | PostalAddressIdPrefix | virkne | Šis parametrs jaunizveidotajām pasta adresēm pievieno sērijas numuru kā prefiksu. Noteikti norādiet virkni, kas nav pretrunā pasta adresēm Finance and Operations programmās un klientu iesaistes programmās. Piemēram, izmantojiet **ADF-PAD-**. |
 
-    ![IsFOSource un ElectronicAddressIdPrefix globālie parametri, kas izveidoti cilnē Pārvaldīt.](media/ADF-4.png)
+    ![PastaAddressIdPrefix globālais parametrs, kas izveidots cilnē Pārvaldība.](media/ADF-2.png)
 
-2. Kad esat beidzis, atlasiet **Publicēt** visu.
+3. Kad esat pabeidzis, atlasiet **Publicēt visu**.
+
+    ![Poga Publicēt visu.](media/ADF-3.png)
+
+### <a name="setup-to-run-the-party-electronic-address-template"></a>Iestatījumi puses elektroniskās adreses veidnes palaišanai
+
+1. Datu fabrikas **cilnes Pārvaldība** sadaļā **Globālie parametri** izveidojiet šādus globālos parametrus.
+
+    | Numurs | Nosaukums | Veids | Vērtība |
+    |---|---|---|---|
+    | 1 | IsFOSource | bool | Šis parametrs nosaka, kuras primārās sistēmas adreses tiek aizstātas konfliktu gadījumā. Ja vērtība ir **patiesa**, primārās adreses Finance and Operations lietojumprogrammās aizstās primārās adreses klientu iesaistes programmās. Ja vērtība ir **aplama**, primārās adreses klientu iesaistes programmās aizstās primārās adreses Finance and Operations lietojumprogrammās. |
+    | 2 | ElectronicAddressIdPrefix | virkne | Šis parametrs jaunizveidotajām elektroniskajām adresēm pievieno sērijas numuru kā prefiksu. Noteikti nodrošiniet virkni, kas nav pretrunā ar elektroniskajām adresēm Finance and Operations programmās un klientu iesaistes programmās. Piemēram, izmantojiet **ADF-EAD-**. |
+
+    ![Cilnē Manage ir izveidots ISFOSource un ElectronicAddressIdPrefix globālie parametri.](media/ADF-4.png)
+
+2. Kad esat pabeidzis, atlasiet **Publicēt visu**.
 
 ## <a name="run-the-templates"></a>Veidņu palaišana
 
-1. Apturiet **šo** konta, **kontakta** un kreditora **duālās** rakstīšanas kartes, kas izmanto programmu Finanses un operācijas:
+1. Apturiet šādas **konta**, **kontaktpersonas** un **piegādātāja** divrakstīšu kartes, kas izmanto programmu Finanses un operācijas:
 
     + Debitori V3 (konti)
     + Debitori V3 (kontaktpersonas)
@@ -159,9 +159,9 @@ Jaunināšanai ir nepieciešama šāda sagatavošana:
     + CDS kontaktpersonas V2 (kontaktpersonas)
     + Kreditors V2 (msdyn_vendor)
 
-2. Pārliecinieties, ka kartes tika noņemtas no **msdy_dualwriteruntimeconfig** Dataverse tabulas.
+2. Pārliecinieties, vai kartes ir noņemtas **no tabulas msdy_dualwriteruntimeconfig** programmā Dataverse.
 3. Instalējiet [Dubultās rakstīšanas puses un globālās adrešu grāmatas risinājumus](https://aka.ms/dual-write-gab) no AppSource.
-4. Finanšu un operāciju programmā palaidiet sākotnējo **sinhronizāciju tālāk** redzamajās tabulās, ja tajās ir dati:
+4. Programmā Finanses un operācijas palaidiet **Sākotnējo sinhronizāciju** šādām tabulām, ja tajās ir dati:
 
     + Uzrunas
     + Personas rakstura veidi
@@ -170,7 +170,7 @@ Jaunināšanai ir nepieciešama šāda sagatavošana:
     + Lēmumu pieņemšanas lomas
     + Lojalitātes programmu līmeņi
 
-5. Debitoru summu programmā atspējojiet šādus spraudņa soļus:
+5. Klientu piesaistes lietotnē atspējojiet šādas spraudņa darbības:
 
     + Konta atjaunināšana
 
@@ -190,58 +190,58 @@ Jaunināšanai ir nepieciešama šāda sagatavošana:
 
         + Microsoft.Dynamics.GABExtended.Plugins.UpdatePartyAttributesFromVendorEntity: msdyn_vendor atjaunināšana
 
-    + Debitora adrese
+    + Customeraddress
 
         + Izveidot
 
-            + Microsoft.Dynamics.GABExtended.Pirkšana.CreatePartyAddress: debitora adreses izveide
+            + Microsoft.Dynamics.GABExtended.Plugins.CreatePartyAddress: Customeraddress izveide
 
         + Atjaunināšana
 
-            + Microsoft.Dynamics.GABExtended.Pirkšanas pasūtījumi.CreatePartyAddress: customeraddress atjauninājums
+            + Microsoft.Dynamics.GABExtended.Plugins.CreatePartyAddress: Customeraddress atjaunināšana
 
         + Dzēst
 
-            + Microsoft.Dynamics.GABExtended.Failus DeleteCustomerAddress: debitoraaddress dzēšana
+            + Microsoft.Dynamics.GABExtended.Plugins.DeleteCustomerAddress: Customeraddress dzēšana
 
     + msdyn_partypostaladdress
 
         + Izveidot
 
-            + Microsoft.Dynamics.GABExtended.Pirkšana.CreateCustomerAddress: izveide msdyn_partypostaladdress
-            + Microsoft.Dynamics.GABExtended.Gabs.PartyPostalAddress: izveidojiet msdyn_partypostaladdress
+            + Microsoft.Dynamics.GABExtended.Plugins.CreateCustomerAddress: msdyn_partypostaladdress izveide
+            + Microsoft.Dynamics.GABPaplašinātie.plugins.PartyPostalAddress: msdyn_partypostaladdress
 
         + Atjaunināšana
 
-            + Microsoft.Dynamics.GABExtended.Pirkšana.CreateCustomerAddress: atjaunināšana msdyn_partypostaladdress
-            + Microsoft.Dynamics.GABExtended.Gabs.PartyPostalAddress: atjaunināšana msdyn_partypostaladdress
+            + Microsoft.Dynamics.GABExtended.Plugins.CreateCustomerAddress: msdyn_partypostaladdress atjaunināšana
+            + Microsoft.Dynamics.GABExtended.Plugins.PartyPostalAddress: msdyn_partypostaladdress atjauninājums
 
     + msdyn_postaladdress
 
         + Izveidot
 
-            + Microsoft.Dynamics.GABExtended.Nomiz.PostalAddress: izveidojiet msdyn_postaladdress
-            + Microsoft.Dynamics.GABExtended.Wps.PostalAddressPostCreate: izveido msdyn_postaladdress
-            + Microsoft.Dynamics.GABExtended.Pirkšana.UpdateCustomerAddress: izveide msdyn_postaladdress
+            + Microsoft.Dynamics.GABPaplašinātie.Plugins.PostalAddress: msdyn_postaladdress
+            + Microsoft.Dynamics.GABExtended.Plugins.PostalAddressPostCreate: msdyn_postaladdress izveide
+            + Microsoft.Dynamics.GABExtended.Plugins.UpdateCustomerAddress: msdyn_postaladdress
 
         + Atjaunināšana
 
-            + Microsoft.Dynamics.GABExtended.Grips.PostalAddressUpdate: atjaunināšana msdyn_postaladdress
-            + Microsoft.Dynamics.GABExtended.Tora.UpdateCustomerAddress: atjaunināšana msdyn_postaladdress
+            + Microsoft.Dynamics.GABPaplašinātie.plugins.PostalAddressUpdate: msdyn_postaladdress atjaunināšana
+            + Microsoft.Dynamics.GABExtended.Plugins.UpdateCustomerAddress: msdyn_postaladdress atjaunināšana
 
     + msdyn_partyelectronicaddress
 
         + Izveidot
 
-            + Microsoft.Dynamics.GABExtended.Wps.PartyElectronicAddressSync: izveidojiet msdyn_partyelectronicaddress
+            + Microsoft.Dynamics.GABExtended.Plugins.PartyElectronicAddressSync: msdyn_partyelectronicaddress izveide
 
         + Atjaunināšana
 
-            + Microsoft.Dynamics.GABExtended.Gabs.PartyElectronicAddressSync: atjaunināšana msdyn_partyelectronicaddress
+            + Microsoft.Dynamics.GABExtended.Plugins.PartyElectronicAddressSync: msdyn_partyelectronicaddress atjaunināšana
 
         + Dzēst
 
-            + Microsoft.Dynamics.GABExtended.Failus DeletePartyElectronicAddressSync: msdyn_partyelectronicaddress
+            + Microsoft.Dynamics.GABExtended.Plugins.DeletePartyElectronicAddressSync: msdyn_partyelectronicaddress
 
 6. Customer Engagement programmā deaktivizējiet tālāk norādītas darba plūsmas.
 
@@ -254,32 +254,32 @@ Jaunināšanai ir nepieciešama šāda sagatavošana:
     + Atjaunināt kreditorus ar veidu Persona kontaktpersonu tabulā
     + Atjaunināt kreditorus ar veidu Persona kreditoru tabulā
 
-7. Datu rūpnīcā palaidiet veidni, atlasot **Trigeri** tagad, kā parādīts šajā ilustrācijā. Šis process var aizņemt dažas stundas, atkarībā no datu apjoma.
+7. Datu rūpnīcā palaidiet veidni, atlasot **Trigeris tūlīt**, kā parādīts nākamajā attēlā. Atkarībā no datu apjoma šī procesa pabeigšana var ilgt dažas stundas.
 
-    ![Veidnes atstāšana.](media/data-factory-trigger.png)
+    ![Veidnes palaišana.](media/data-factory-trigger.png)
 
     > [!NOTE]
-    > Ja ir pielāgojumi **konta**, **kontaktpersonas** un **kreditoram**, veidne ir jāmodificē.
+    > Ja jums ir pielāgojumi **Konts**, **·**, un **Pārdevējs**, jums ir jāmaina veidne.
 
-8. Importēt **jaunos** Puses ierakstus Finanšu un operāciju programmā.
+8. Importējiet jauno **Ballīte** ierakstus lietotnē Finance and Operations.
 
-    1. Lejupielādējiet **FONewParty.csv** failu no Azure BLOB krātuves. Ceļš ir **partybootstrapping/output/FONewParty.csv.**
-    2. Konvertējiet **FONewParty.csv failu par Excel failu un** importējiet Excel failu finanšu un operāciju programmā. Vai arī, ja CSV imports darbojas jūsu darbiem, jūs varat tieši importēt .csv failu. Šī darbība var aizņemt dažas stundas, atkarībā no datu apjoma. Papildinformāciju skatiet [Datu importēšanas un eksportēšanas darbu apskats](../data-import-export-job.md).
+    1. Lejupielādēt **FONewParty.csv** failu no Azure Blob krātuves. Ceļš ir **partybootstrapping/output/FONewParty.csv**.
+    2. Konvertēt **FONewParty.csv** failu Excel failā un importējiet Excel failu programmā Finance and Operations. Vai arī, ja CSV importēšana darbojas jūsu labā, varat importēt .csv failu tieši. Atkarībā no datu apjoma šī darbība var ilgt dažas stundas. Papildinformāciju skatiet [Datu importēšanas un eksportēšanas darbu apskats](../data-import-export-job.md).
 
-    ![Notiek puses Dataverse ierakstu importēšana.](media/data-factory-import-party.png)
+    ![Importējot Dataverse Partiju rekordi.](media/data-factory-import-party.png)
 
-9. Datu rūpnīcas izpildiet Puses pasta adreses un Puses elektroniskās adreses veidnes vienu pēc otras.
+9. Datu rūpnīcā vienu pēc otras palaidiet partijas pasta adreses un partijas elektroniskās adreses veidnes.
 
-    + Puses pasta adreses veidne upsert visus pasta adrešu ierakstus debitoru piesaistes programmā un saista tos ar atbilstošajiem konta, kontaktpersonas **un** kreditora **·** **ierakstiem**. Tas ģenerē arī trīs .csv failus: ImportFONewPostalAddressLocation.csv, ImportFONewPartyPostalAddress.csv un ImportFONewPostalAddress.csv.
-    + Puses elektroniskās adreses veidne upsert visas elektroniskās adreses debitoru piesaistes programmā un saista tās ar atbilstošajiem konta, kontaktpersonas **un** kreditora **·** **ierakstiem**. Tas ģenerē arī vienu .csv failu: ImportFONewElectronicAddress.csv.
+    + Puses pasta adreses veidne atceļ visus pasta adrešu ierakstus klientu iesaistīšanas lietotnē un saista tos ar atbilstošo **Konts**, **·**, un **Pārdevējs** ieraksti. Tas arī ģenerē trīs .csv failus: ImportFONewPostalAddressLocation.csv, ImportFONewPartyPostalAddress.csv un ImportFONewPostalAddress.csv.
+    + Puses elektroniskās adreses veidne pievieno visas elektroniskās adreses klientu iesaistīšanas lietotnē un saista tās ar atbilstošām **Konts**, **·**, un **Pārdevējs** ieraksti. Tas arī ģenerē vienu .csv failu: ImportFONewElectronicAddress.csv.
 
-    ![Notiek Puses pasta adreses un Puses elektronisko adrešu veidņu izpildšana.](media/ADF-7.png)
+    ![Partijas pasta adreses un partijas elektroniskās adreses veidņu palaišana.](media/ADF-7.png)
 
-10. Lai atjauninātu programmu Finanses un operācijas ar šie datiem, .csv faili jākonvertē excel darbgrāmatā un jāimportē [tos programmā Finanses un operācijas.](/data-entities/data-import-export-job) Vai arī, ja CSV imports darbojas jūsu darbiem, jūs varat tieši importēt .csv failus. Šī darbība var aizņemt dažas stundas, atkarībā no apjoma.
+10. Lai atjauninātu programmu Finance and Operations ar šiem datiem, jums ir jāpārveido .csv faili Excel darbgrāmatā un [importējiet to programmā Finance and Operations](/data-entities/data-import-export-job). Vai arī, ja CSV importēšana darbojas jūsu labā, varat importēt .csv failus tieši. Atkarībā no skaļuma šī darbība var ilgt dažas stundas.
 
-    ![Veiksmīgi importēts.](media/ADF-8.png)
+    ![Veiksmīga importēšana.](media/ADF-8.png)
 
-11. Debitoru ieslēgšanu programmā iespējojiet šādas spraudņa darbības:
+11. Klientu iesaistīšanas lietotnē iespējojiet tālāk norādītās spraudņa darbības.
 
     + Konta atjaunināšana
 
@@ -303,42 +303,42 @@ Jaunināšanai ir nepieciešama šāda sagatavošana:
 
         + Izveidot
 
-            + Microsoft.Dynamics.GABExtended.Pirkšana.CreateCustomerAddress: izveide msdyn_partypostaladdress
-            + Microsoft.Dynamics.GABExtended.Gabs.PartyPostalAddress: izveidojiet msdyn_partypostaladdress
+            + Microsoft.Dynamics.GABExtended.Plugins.CreateCustomerAddress: msdyn_partypostaladdress izveide
+            + Microsoft.Dynamics.GABPaplašinātie.plugins.PartyPostalAddress: msdyn_partypostaladdress
 
         + Atjaunināšana
 
-            + Microsoft.Dynamics.GABExtended.Pirkšana.CreateCustomerAddress: atjaunināšana msdyn_partypostaladdress
-            + Microsoft.Dynamics.GABExtended.Gabs.PartyPostalAddress: atjaunināšana msdyn_partypostaladdress
+            + Microsoft.Dynamics.GABExtended.Plugins.CreateCustomerAddress: msdyn_partypostaladdress atjaunināšana
+            + Microsoft.Dynamics.GABExtended.Plugins.PartyPostalAddress: msdyn_partypostaladdress atjauninājums
 
     + msdyn_postaladdress
 
         + Izveidot
 
-            + Microsoft.Dynamics.GABExtended.Nomiz.PostalAddress: izveidojiet msdyn_postaladdress
-            + Microsoft.Dynamics.GABExtended.Wps.PostalAddressPostCreate: izveido msdyn_postaladdress
-            + Microsoft.Dynamics.GABExtended.Pirkšana.UpdateCustomerAddress: izveide msdyn_postaladdress
+            + Microsoft.Dynamics.GABPaplašinātie.Plugins.PostalAddress: msdyn_postaladdress
+            + Microsoft.Dynamics.GABExtended.Plugins.PostalAddressPostCreate: msdyn_postaladdress izveide
+            + Microsoft.Dynamics.GABExtended.Plugins.UpdateCustomerAddress: msdyn_postaladdress
 
         + Atjaunināšana
 
-            + Microsoft.Dynamics.GABExtended.Grips.PostalAddressUpdate: atjaunināšana msdyn_postaladdress
-            + Microsoft.Dynamics.GABExtended.Tora.UpdateCustomerAddress: atjaunināšana msdyn_postaladdress
+            + Microsoft.Dynamics.GABPaplašinātie.plugins.PostalAddressUpdate: msdyn_postaladdress atjaunināšana
+            + Microsoft.Dynamics.GABExtended.Plugins.UpdateCustomerAddress: msdyn_postaladdress atjaunināšana
  
     + msdyn_partyelectronicaddress
 
         + Izveidot
 
-            + Microsoft.Dynamics.GABExtended.Wps.PartyElectronicAddressSync: izveidojiet msdyn_partyelectronicaddress
+            + Microsoft.Dynamics.GABExtended.Plugins.PartyElectronicAddressSync: msdyn_partyelectronicaddress izveide
 
         + Atjaunināšana
 
-            + Microsoft.Dynamics.GABExtended.Gabs.PartyElectronicAddressSync: atjaunināšana msdyn_partyelectronicaddress
+            + Microsoft.Dynamics.GABExtended.Plugins.PartyElectronicAddressSync: msdyn_partyelectronicaddress atjaunināšana
 
         + Dzēst
 
-            + Microsoft.Dynamics.GABExtended.Failus DeletePartyElectronicAddressSync: msdyn_partyelectronicaddress
+            + Microsoft.Dynamics.GABExtended.Plugins.DeletePartyElectronicAddressSync: msdyn_partyelectronicaddress
 
-12. Ja iepriekš esat tās dezaktivējat, programmā Debitoru saistības aktivizējiet šādas darbplūsmas:
+12. Klientu iesaistīšanas lietotnē aktivizējiet tālāk norādītās darbplūsmas, ja tās iepriekš esat deaktivizējis.
 
     + Kreditoru izveide kontu tabulā
     + Kreditoru izveide kontu tabulā
@@ -349,73 +349,73 @@ Jaunināšanai ir nepieciešama šāda sagatavošana:
     + Atjaunināt kreditorus ar veidu Persona kontaktpersonu tabulā
     + Atjaunināt kreditorus ar veidu Persona kreditoru tabulā
 
-13. Palaidiet ar **pusi** saistīto karti, kā tas ir aprakstīts Puses [un globālajā adrešu](party-gab.md) grāmatā.
+13. Palaidiet **Ballīte** ar ierakstiem saistītas kartes, kā aprakstīts [Partiju un globālā adrešu grāmata](party-gab.md).
 
 ## <a name="explanation-of-the-data-factory-templates"></a>Datu fabrikas veidņu skaidrojums
 
-Šajā sadaļā ir jāveic soļi katrā datu fabrikas veidnē.
+Šajā sadaļā ir aprakstītas darbības katrā Data Factory veidnē.
 
-### <a name="steps-in-the-party-template"></a>Soļi puses veidnē
+### <a name="steps-in-the-party-template"></a>Darbības ballītes veidnē
 
-1. 1. līdz 6. darbībā ir identificēti uzņēmumi, kas ir iespējoti duālai rakstīšanai, un tiem tiek veidots filtra klauzula.
-2. No 7. līdz 7.09. darbībai ir izgūti dati gan no programmas Finanses un operācijas, gan no debitoru piesaistes programmas, kā arī no stadijas, kurā tiek jaunināti dati.
-3. No 8. līdz 9. darbībai ir jāsalīdzina konta, kontaktpersonas un kreditora ierakstu puses numurs starp programmu Finanses un operācijas **un** debitoru **·** **piesaistes** programmu. Visi ieraksti, kam nav puses numura, tiek izlaisti.
-4. 10. darbība ģenerē divus .csv failu pušu ierakstiem, kas ir jāizveido debitoru ieslēgšanas programmā un programmā Finanses un operācijas.
+1. 1.–6. darbībā tiek identificēti uzņēmumi, kuriem ir iespējota dubultā rakstīšana, un tiem tiek izveidota filtra klauzula.
+2. Veicot 7.-1. līdz 7.-9. darbību, tiek izgūti dati gan no lietotnes Finance and Operations, gan no klientu iesaistīšanas lietotnes, un tiek sagatavoti šie dati jaunināšanai.
+3. 8.–9. darbībā salīdziniet partijas numuru **Konts**, **·**, un **Pārdevējs** ieraksti starp lietotni Finance and Operations un klientu piesaistes lietotni. Visi ieraksti, kuriem nav partijas numura, tiek izlaisti.
+4. 10. darbībā tiek ģenerēti divi .csv faili puses ierakstiem, kas jāizveido klientu iesaistīšanas lietotnē un programmā Finance and Operations.
 
-    - **FOCDSParty.csv – šis fails ietver visus abu sistēmu pušu ierakstus, neatkarīgi no tā, vai uzņēmums ir** iespējots duālā rakstīšanai.
-    - **FONewParty.csv – šis fails satur to pušu ierakstu apakškopu, kas ir informēti** Dataverse par (piemēram, potenciālā **klienta tipa** kontiem).
+    - **FOCDSParty.csv** – Šajā failā ir visi abu sistēmu pušu ieraksti neatkarīgi no tā, vai uzņēmumam ir iespējota dubultā rakstīšana.
+    - **FONewParty.csv** – Šajā failā ir ietverta partijas ierakstu apakškopa, kas Dataverse ir informēts par (piemēram, kontiem par **Izredzes** veids).
 
-5. 11. darbība izveido puses debitoru piesaistes programmā.
-6. 12. darbībā tiek izgūti pušu globāli unikālie identifikatori (GUID) no debitoru ieslēgšanas programmas un tā, lai vēlākos soļos tos varētu saistīt ar kontu, kontaktpersonu un **kreditoru** **·** **ierakstiem**.
-7. 13. darbība **saista** **konta**, kontaktpersonas **un kreditora ierakstus ar puses** GUID.
-8. No 14. līdz 14.-3. solim tiek atjaunināti konta, kontaktpersonas un kreditora ieraksti **debitoru** **·** **piesaistes** programmā ar puses GUID.
-9. Darbības 15-1 līdz 15-3 sagatavojiet kontaktpersonu puses **ierakstiem** **·** **kontam**, kontaktpersonai un **kreditora** ierakstiem.
-10. No 16. līdz 16.07. darbībām tiek izgūti atsauces dati, piemēram, uzrunas un personisko rakstzīmju tipi, un tie tiek asociēti ar kontaktpersonu **puses** ierakstiem.
-11. 17. darbībā tiek **apvienota** konta, kontaktpersonas **un kreditora ierakstu puses ierakstu** **·** **kontaktpersona**.
-12. 18. darbība importē **Kontaktpersonu puses ierakstiem debitoru** tiesīgņu programmā.
+5. 11. darbībā tiek izveidotas puses klientu iesaistīšanas lietotnē.
+6. 12. darbībā tiek izgūti pušu globāli unikālie identifikatori (GUID) no klientu iesaistīšanas lietotnes un sakārtoti tie, lai tos varētu saistīt ar **Konts**, **·**, un **Pārdevējs** ierakstus turpmākajās darbībās.
+7. 13. darbība ir saistīta ar **Konts**, **·**, un **Pārdevējs** ieraksti ar partiju GUID.
+8. Darbības 14-1 līdz 14-3 atjauniniet **Konts**, **·**, un **Pārdevējs** ieraksti klientu iesaistīšanas lietotnē ar pušu GUID.
+9. Sagatavojiet 15.-1. līdz 15.-3. darbību **Sazinieties ar ballīti** ieraksti par **Konts**, **·**, un **Pārdevējs** ieraksti.
+10. No 16-1. līdz 16.-7. darbībai izgūstiet atsauces datus, piemēram, sveicienus un personīgo rakstzīmju tipus, un saistiet tos ar **Sazinieties ar ballīti** ieraksti.
+11. 17. darbība apvieno **Sazinieties ar ballīti** ieraksti par **Konts**, **·**, un **Pārdevējs** ieraksti.
+12. 18. darbība importē **Sazinieties ar ballīti** ierakstus klientu iesaistīšanas lietotnē.
 
-### <a name="steps-in-the-party-postal-address-template"></a>Soļi Puses pasta adreses veidnē
+### <a name="steps-in-the-party-postal-address-template"></a>Darbības partijas pasta adreses veidnē
 
-1. No 1. darbības 1 līdz 1–10 izgūst datus gan no programmas Finanses un operācijas, gan no debitoru piesaistes programmas, kā arī no stadijas, kurā tiek jaunināti dati.
-2. 2. solī pasta adrešu dati tiek normalizēti finanšu un operāciju programmā, pievienojot pasta adresi un puses pasta adresi.
-3. 3. darbībā tiek noņemti konta, kontaktpersonas un kreditora adreses datu dublikāti un sapludināšana no debitoru ieslēgšanu programmas.
-4. 4. darbība izveido .csv failus programmai Finanses un operācijas, lai izveidotu jaunus adrešu datus, kas ir balstīti uz kontu, kontaktpersonu un kreditoru adresēm.
-5. 5. darbība - 1. darbība izveido .csv failus debitoru tiesīgņu programmai, lai izveidotu visus adrešu datus, pamatojoties gan uz programmu Finanses un operācijas, gan uz debitoru piesaistes programmu.
-6. No 5. līdz 2. solim .csv faili tiek pārveidoti Finanšu un operāciju importa formātā manuālai importēšanai.
+1. No 1. līdz 1. darbībai līdz 1. līdz 10. darbībai tiek izgūti dati gan no lietotnes Finance and Operations, gan no klientu iesaistīšanas lietotnes un pakāpeniski šie dati tiek atjaunināti.
+2. 2. darbībā tiek denormalizēti pasta adreses dati lietotnē Finance and Operations, savienojot pasta adresi un partijas pasta adresi.
+3. 3. darbībā tiek noņemti un apvienoti konta, kontaktpersonas un piegādātāja adreses dati no klientu iesaistīšanas lietotnes.
+4. 4. darbībā tiek izveidoti .csv faili programmai Finance and Operations, lai izveidotu jaunus adrešu datus, kuru pamatā ir konta, kontaktpersonas un piegādātāja adreses.
+5. 1. darbībā tiek izveidoti .csv faili klientu iesaistīšanas lietotnei, lai izveidotu visus adrešu datus, pamatojoties gan uz programmu Finance and Operations, gan uz klientu piesaistes lietotni.
+6. 5-2. darbība pārvērš .csv failus Finance and Operations importēšanas formātā manuālai importēšanai.
 
     - ImportFONewPostalAddressLocation.csv
     - ImportFONewPartyPostalAddress.csv
     - ImportFONewPostalAddress.csv
 
-7. 6. darbība importē pasta adrešu kolekcijas datus debitoru piesaistes programmā.
-8. 7. darbības izgūst pasta adrešu kolekcijas datus no debitoru piesaistes programmas.
-9. 8. darbība izveido debitora adreses datus un saista pasta adrešu kolekcijas ID.
-10. No 9. soļiem 9-1 līdz 9-2 ir asociēta puse un pasta adrešu kolekcijas D ar pasta adresēm un pušu pasta adresēm.
-11. No 10. līdz 10.03. solim debitoru adrešu, pasta adrešu un pušu pasta adrešu importēšana debitoru piesaistes programmā.
+7. 6. darbībā pasta adrešu apkopošanas dati tiek importēti klientu iesaistīšanas lietotnē.
+8. Veicot 7. darbību, tiek izgūti pasta adrešu apkopošanas dati no klientu iesaistīšanas lietotnes.
+9. 8. darbībā tiek izveidoti klienta adreses dati un tiek piesaistīts pasta adrešu vākšanas ID.
+10. Darbība 9-1 līdz 9-2 saistīto pušu un pasta adrešu vākšanas ID ar pasta adresēm un partijas pasta adresēm.
+11. No 1. līdz 3. darbībai importējiet klientu adreses, pasta adreses un pušu pasta adreses klientu iesaistīšanas lietotnē.
 
-### <a name="steps-in-the-party-electronic-address-template"></a>Soļi Puses elektroniskās adreses veidnē
+### <a name="steps-in-the-party-electronic-address-template"></a>Darbības partijas elektroniskās adreses veidnē
 
-1. No 1. līdz 1.,5. darbībai ir izgūti dati gan no programmas Finanses un operācijas, gan no debitoru piesaistes programmas, kā arī no stadijas, kurā tiek jaunināti dati.
-2. 2. darbība konsolidē elektroniskās adreses debitoru iesaistījumtņu programmā no konta, kontaktpersonas un kreditora entītijām.
-3. 3. darbībā tiek apvienoti primārās elektroniskās adreses dati no debitoru piesaistes programmas un programmas Finanses un operācijas.
-4. 4. darbība izveido .csv failus.
+1. No 1.–1. līdz 1.–5. darbībai tiek izgūti dati gan no lietotnes Finance and Operations, gan no klientu iesaistīšanas lietotnes, un pakāpeniski sagatavojiet šos datus jaunināšanai.
+2. 2. darbībā tiek konsolidētas elektroniskās adreses klientu iesaistīšanas lietotnē no konta, kontaktpersonas un piegādātāja entītijām.
+3. 3. darbībā tiek apvienoti primārie elektroniskās adreses dati no klientu iesaistīšanas lietotnes un programmas Finance and Operations.
+4. 4. darbībā tiek izveidoti .csv faili.
 
-    - Izveidojiet jaunus elektroniskās adreses datus finanšu un operāciju programmai, pamatojoties uz kontu, kontaktpersonu un kreditoru adresēm.
-    - Izveidojiet jaunus elektroniskās adreses datus debitoru runāšanai programmā, balstoties uz elektronisko adresi, kontu, kontaktpersonu un kreditoru adresēm programmā Finanses un Operācijas.
+    - Izveidojiet jaunus elektroniskās adreses datus programmai Finance and Operations, pamatojoties uz kontu, kontaktpersonu un piegādātāju adresēm.
+    - Izveidojiet jaunus elektroniskās adreses datus klientu piesaistes lietotnei, pamatojoties uz elektroniskās adreses, konta, kontaktpersonas un piegādātāja adresēm programmā Finance and Operations.
 
-5. 5.-1. darbība importē elektroniskās adreses debitoru piesaistes programmā.
-6. 5.-2. darbība izveido .csv failus, lai atjauninātu primārās adreses kontiem un kontaktpersonām debitoru runāšanas programmā.
-7. No 6. līdz 6.2. solim importējiet kontus un sazinieties ar primārajām adresēm klientu runāšanas programmā.
+5. 5-1. darbība importē elektroniskās adreses klientu iesaistīšanas lietotnē.
+6. 5.–2. darbībā tiek izveidoti .csv faili, lai klientu iesaistīšanas lietotnē atjauninātu kontu un kontaktpersonu primārās adreses.
+7. 6.-1. līdz 6.-2. darbība. Importējiet kontus un sazinieties ar primārajām adresēm klientu iesaistīšanas lietotnē.
 
 ## <a name="troubleshooting"></a>Problēmu novēršana
 
-1. Ja process neizdodas, atkārtoti palaidiet datu ražotni. Sāciet no neizdevušās aktivitātes.
-2. Daži datu fabrikas ģenerētie faili var tikt izmantoti datu validēšanai.
-3. Datu fabrika darbojas, balstoties uz .csv failiem. Tāpēc, ja komats ir iekļauts jebkurā lauka vērtībā, tas var atbilst rezultātiem. Visu komatu noņemšana no lauku vērtībām.
-4. Cilne **Pārraudzība** sniedz informāciju par visiem soļiem un datiem, kas ir apstrādāti. Atlasiet noteiktu darbību, lai to atkļūdotu.
+1. Ja process neizdodas, atkārtoti palaidiet datu rūpnīcu. Sāciet no neveiksmīgās darbības.
+2. Datu validācijai var izmantot dažus datu rūpnīcas ģenerētos failus.
+3. Datu rūpnīca darbojas, pamatojoties uz .csv failiem. Tāpēc, ja kādā lauka vērtībā ir iekļauts komats, tas var traucēt rezultātiem. No lauka vērtībām ir jānoņem visi komats.
+4. The **Uzraudzība** cilne sniedz informāciju par visām darbībām un datiem, kas ir apstrādāti. Atlasiet noteiktu darbību, lai to atkļūdotu.
 
     ![Cilne Pārraudzība.](media/data-factory-monitor.png)
 
 ## <a name="learn-more-about-the-template"></a>Uzziniet vairāk par veidni
 
-Papildinformāciju par veidni skatiet sadaļā [Komentāri par Azure datu fabrikas veidnes readme](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/readme.md).
+Papildinformāciju par veidni skatiet [Komentāri par Azure Data Factory veidni readme](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/readme.md).

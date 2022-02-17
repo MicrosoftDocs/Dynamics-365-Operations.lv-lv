@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bd9c39bb3b5e221694fe20a8085c9099040cb422
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
-ms.translationtype: HT
+ms.openlocfilehash: b7c2423faa4a0c50d9d319a9e6f489e2946c36a7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431097"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071764"
 ---
 # <a name="enroll-an-employee-in-a-fixed-compensation-plan"></a>Darbinieka reģistrēšana fiksētās atlīdzības plānā
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -31,8 +34,8 @@ Lai pārvaldītu darbinieku pamata algas, atlīdzību un atvieglojumu vadītājs
 3. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
 4. Laukā **Amats** noklikšķiniet nolaižamā saraksta pogu, lai atvērtu uzmeklēšanu.
 5. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-    * Līmenis, kas tiek parādīts, ir nolasīts no mainīgā Atlīdzības līmenis, kas atbilst pozīcijas darbam. Pirms darbiniekam būs iespējams piešķirt atlīdzību, ir jāiestata uz darbu attiecināmais līmenis.  
-6. Laukā **Plāns** atlasiet darbinieka fiksēto kompensāciju plānu. Plāna meklēšana tiek filtrēta, lai parādītu tikai tos plānus, uz kuriem darbinieks ir tiesīgs, pamatojoties uz iestatījumiem sadaļā Piemērotības noteikumi.
+    * Parādītais līmenis ir no **kopsavilkuma cilnes Kompensācija** > **līmenis no** amatam **piešķirtā darba lauka >** līmenis **·**. Pirms darbiniekam būs iespējams piešķirt atlīdzību, ir jāiestata uz darbu attiecināmais līmenis.  
+6. Laukā **Plāns** atlasiet darbinieka fiksēto kompensāciju plānu. Plāna **uzmeklēšana** tiek filtrēta, lai parādītu tikai tos plānus, kuriem darbinieks ir piemērots, pamatojoties uz **atbilstības noteikumiem**.
 7. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
     * **Spēkā stāšanās** un **Derīguma termiņu beigu** datumi kompensācijai pēc noklusējuma tiek iegūti no darbinieka amata piešķires sākuma un beigu datumiem. Šos datumus varat mainīt pēc vajadzības.  
     * Ja mainīgā Fiksētās atlīdzības plāns vērtība ir soļu plāns, atlasiet soli, kas satur darbiniekam atbilstošu algas likmi. Ja mainīgā Fiksētās atlīdzības plāns vērtība ir pakāpenisks vai indeksēts plāns, atlasiet darbiniekam atbilstošu algas likmi. Algas likme tiks validēta pēc plāna tolerances iestatījumiem, kā arī darba atlīdzības līmeņa minimālo un maksimālo atsauces punktu.  

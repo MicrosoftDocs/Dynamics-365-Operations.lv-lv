@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9e26a2fb65564cb4a1d2f9ba4b0d621177207545
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
-ms.translationtype: HT
+ms.openlocfilehash: f7ffe522f0f17a21280e53728c6efc2823743733
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414668"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069150"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Dataverse virtuālo tabulu konfigurēšana
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dynamics 365 Human Resources ir virtuālais datu avots platformā Microsoft Dataverse. Tas nodrošina pilnīgas izveides, lasīšanas, atjaunināšanas un dzēšanas (CRUD) operācijas no Dataverse un Microsoft Power Platform. Dati virtuālajām tabulām netiek saglabāti Dataverse, bet gan programmas datu bāzē.
 
@@ -119,10 +122,10 @@ Nākamais solis ir konfigurēt virtuālās tabulas datu avotu Power Apps vidē.
 
 4. **Risinājumu darbspējas centrmezglā** atlasiet ikonu **Detalizētā atrašana** lietojumprogrammas lapas augšējā labajā stūrī.
 
-5. Lapā **Detalizētā atrašana**, nolaižamajā sarakstā **Meklēt** atlasiet **Finance and Operations virtuālo datu avotu konfigurācijas**.
+5. **Lapas** Detalizētā atrašana **nolaižamajā sarakstā Meklēt** atlasiet **Finanšu un operāciju virtuālo datu avotu konfigurācijas**.
 
    > [!NOTE]
-   > Virtuālās tabulas programmas instalēšana no iepriekšējās iestatīšanas darbības var ilgt dažas minūtes. Ja **Finance and Operations virtuālās datu avota konfigurācijas** nav pieejamas sarakstā, uzgaidiet kādu minūti un atsvaidziniet sarakstu.
+   > Virtuālās tabulas programmas instalēšana no iepriekšējās iestatīšanas darbības var ilgt dažas minūtes. Ja **sarakstā nav pieejamas finanšu un operāciju virtuālo datu avotu konfigurācijas**, pagaidiet minūti un atsvaidziniet sarakstu.
 
 6. Atlasiet **Rezultāti**.
 

@@ -1,6 +1,6 @@
 ---
 title: Personāla atlases kandidāti
-description: Šajā tēmā aprakstīts, kā pieņemt kandidātus Dynamics 365 Human Resources.
+description: Šajā tēmā ir aprakstīts, kā pieņemt darbā kandidātus Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c613586302b4d03972c7558b6b63cd1be018d3b3
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: 77d37cba84fcd6fb8f93da79b10db2db91d91db0
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7729175"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066604"
 ---
 # <a name="recruit-job-candidates"></a>Personāla atlases kandidāti
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -45,20 +48,20 @@ Ja vēlaties iesniegt darbā pieņemšanas pieprasījumus Personāla vadībā, v
 
 1. Darbvietā **Personāla vadība** atlasiet **Saites**.
 2. Sadaļā **Iestatījumi** atlasiet **Personāla vadības kopīgotie parametri**.
-3. Cilnes Personāla **atlase sadaļā Personāla atlase iestatiet Iespējot personāla** **·** **atlases pieprasījumus** uz **Jā**.
+3. Uz **Rekrutēšana** cilne, zem **Rekrutēšana**, komplekts **Iespējot personāla atlases pieprasījumus** uz **Jā**.
 
 ## <a name="add-a-recruiting-request-location"></a>Pievienot personāla atlases pieprasījuma vietu
 
 Ja jūsu uzņēmuma ir vairākas atrašanās vietas, varat pievienot tās, lai pieprasītāji varētu izvēlēties vietu, kur jaunais darbinieks strādās. Atrašanās vieta tiks iekļauta darba sludinājumā.
 
-1. Meklēšanas joslā ievadiet personāla **atlases pieprasījuma atrašanās** vietu.
+1. Meklēšanas joslā ievadiet **Personāla atlases pieprasījuma vieta**.
 2. Atlasiet **Jauna**.
 3. Laukā **Personāla atlases pieprasījuma vieta** ievadiet atrašanās vietas nosaukumu.
 
     ![Pievienot personāla atlases pieprasījuma vietu.](./media/hr-recruit-0a-add-location.png)
 
 4. Laukā **Apraksts** ievadiet atrašanās vietas aprakstu.
-5. Sadaļā **Atrašanās vieta** atlasiet **Pievienot**. Ja **tiek** atvērts dialoglodziņš Jauna adrese, ievadiet atrašanās vietas adresi.
+5. Sadaļā **Atrašanās vieta** atlasiet **Pievienot**. Ja **Jauna adrese** tiek parādīts dialoglodziņš, ievadiet atrašanās vietas adresi.
 
     ![Ievadiet adresi.](./media/hr-recruit-0b-address.png)
 
@@ -71,7 +74,7 @@ Vadītāji var iesniegt personāla atlases pieprasījumus Personāla vadībā. J
 
 1. Atlasiet **Darbinieku pašapkalpošanās pakalpojums**.
 2. Atlasiet cilni **Mana komanda**.
-3. Atlasīt **pieprasījumu personāla** atlasei.
+3. Izvēlieties **Pieprasījums pieņemt darbā**.
 
     ![Sākt personāla atlases pieprasījumu.](./media/hr-recruit-1-request-to-recruit.png)
 
@@ -158,11 +161,11 @@ Ja jūsu uzņēmums ir integrēts ar citu programmu, lai pārvaldītu personāla
 
 Kad esat gatavs pieņemt darbā kandidātu, ievērojiet šo procedūru, lai nomainītu kandidātu uz darbinieku.
 
-1. Lapā **Kandidāts** atlasiet Pieņemt **·** darbā.
+1. Uz **Kandidāts** lapu, atlasiet **Nomāt**.
 
     ![Pieņemt darbā kandidātu.](./media/hr-recruit-11-hire.png)
 
-2. Lapā **Pieņemt darbā jaunu** darbinieku, zem **Detalizētas informācijas** aizpildiet visus laukus.
+2. Uz **Pieņem darbā jaunu darbinieku** lapa, zem **Sīkāka informācija**, aizpildiet visus laukus.
 
     ![Ievadīt jaunā darbinieka informāciju.](./media/hr-recruit-12-hire-new-worker.png)
 
@@ -177,7 +180,7 @@ Kad esat gatavs pieņemt darbā kandidātu, ievērojiet šo procedūru, lai noma
 
 Ja izlemjat nepieņemt kandidātu, sekojiet šai procedūrai, lai noņemtu to no pārbaudes procesa. 
 
-1. Lapā **Kandidāts** atlasiet Nav **nolīgšanas.**
+1. Uz **Kandidāts** lapu, atlasiet **Neņem darbā**.
 
     ![Nepieņemt darbā kandidātu.](./media/hr-recruit-13-do-not-hire.png)
 
@@ -188,7 +191,7 @@ Ja izlemjat nepieņemt kandidātu, sekojiet šai procedūrai, lai noņemtu to no
 
 Ja nepieciešams, varat noraidīt kandidātu pēc pieņemšanas darbā. Piemēram, kandidāts var noraidīt jūsu piedāvājumu vai neierasties darbā pirmajā dienā.
 
-- Lapā **Kandidāts** atlasiet Noraidīt **·** kandidātu.
+- Uz **Kandidāts** lapu, atlasiet **Atlaist kandidātu**.
 
     ![Noraidīt kandidātu.](./media/hr-recruit-14-dismiss-candidate.png)
 

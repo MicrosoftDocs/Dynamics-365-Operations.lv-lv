@@ -1,5 +1,5 @@
 ---
-title: Konfigurēt Palīdzības pieredzi Finance and Operations programmām
+title: Finanšu un operāciju lietojumprogrammu palīdzības iespējas konfigurēšana
 description: Šajā tēmā ir sniegta informācija par palīdzības sistēmas komponentiem dažām Microsoft Dynamics 365 programmām.
 author: margoc
 ms.date: 08/11/2021
@@ -15,22 +15,25 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a6c37822e84ba08fa0720ed2b3912cbec1448e3
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
-ms.translationtype: HT
+ms.openlocfilehash: bac06e258a96bb50bb6de7957e3e5ed07e966127
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594861"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071012"
 ---
-# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Konfigurēt Palīdzības pieredzi Finance and Operations programmām
+# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Finanšu un operāciju lietojumprogrammu palīdzības iespējas konfigurēšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā atradīsit pārskatu par programmas palīdzības sistēmas komponentiem Finance and Operations, piemēram, Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce un Dynamics 365 Human Resources. Šī tēma arī izskaidro, kā savienot šos komponentus, un sniedz kopsavilkumu par procesu pielāgotas palīdzības izveidei.
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
+Šajā tēmā ir sniegts pārskats par palīdzības sistēmas finanšu un operāciju programmām, piemēram, Microsoft Dynamics 365 Finance Dynamics 365 Supply Chain Management, Dynamics 365 Commerce un Dynamics 365 Human Resources. Šī tēma arī izskaidro, kā savienot šos komponentus, un sniedz kopsavilkumu par procesu pielāgotas palīdzības izveidei.
 
 ## <a name="help-architecture"></a>Palīdzības arhitektūra
 
-Finance and Operations programmas ietver konceptuālus apskatus un citas tēmas, kas publicētas [Microsoft Dynamics 365 documentation](/dynamics365/) vietnē. Šim saturam var piekļūt no preces **Palīdzības** rūts. Nākamajā attēlā ir parādītas daļas no palīdzības sistēmas.
+Finance and Operations programmas ietver konceptuālus pārskatus un citas tēmas, kas tiek publicētas [Microsoft Dynamics 365 dokumentācijas](/dynamics365/) vietnē. Šim saturam var piekļūt no preces **Palīdzības** rūts. Nākamajā attēlā ir parādītas daļas no palīdzības sistēmas.
 
 [![Palīdzības sistēmas arhitektūra.](./media/help-architecture.png)](./media/help-architecture.png)
 
@@ -60,7 +63,7 @@ Lai konfigurētu risinājuma uzdevumu ceļvežus, veiciet šīs darbības lapā 
 2. Atlasiet BPM bibliotēkas (atlasītajā projektā), no kurām izgūt uzdevumu ierakstus.
 3. Iestatiet BPM bibliotēku attēlošanas secību. Displejs nosaka secību, kādā uzdevumu ieraksti no bibliotēkām tiks rādīti rūtī **Palīdzība**.
 
-Kad esat izpildījis šīs darbības, varat atvērt rūti **Palīdzība** un atlasiet cilni **Uzdevumu ceļveži**. Tagad tiek rādīti uzdevumu ceļveži, kas attiecas uz Finance and Operations programmās pašlaik atvērto lapu. Ja netiek atrasts neviens uzdevuma ceļvedis, varat ievadīt atslēgvārdus, lai precizētu meklēšanu.
+Pēc šo darbību veikšanas varat atvērt **palīdzības** rūti un atlasīt **cilni Norādījumi** . Tagad būs redzami uzdevumu ceļveži, kas attiecas uz lapu, kurā pašlaik atrodaties Finance and Operations programmās. Ja netiek atrasts neviens uzdevuma ceļvedis, varat ievadīt atslēgvārdus, lai precizētu meklēšanu.
 
 ### <a name="showing-translated-task-guides"></a>Tulkotu uzdevumu ceļvežu parādīšana
 
@@ -84,7 +87,7 @@ Ja esat partneris un pārveidojat bibliotēku par korporatīvo bibliotēku, un i
 
 ### <a name="connect-a-custom-help-site"></a>Savienojuma izveide ar pielāgotu palīdzības vietni
 
-Finance and Operations lietojumprogrammas reti tiek lietotas ārpus kastes veidlapā. Tā vietā risinājums ir pielāgots un paplašināts, lai atbilstu organizācijas vajadzībām. Varat arī pielāgot un paplašināt palīdzības pieredzi. Piemēram, varat pievienot pielāgotu palīdzību preces **Palīdzības** rūtij.
+Finance and Operations programmas reti tiek izmantotas to rīcībā. Tā vietā risinājums ir pielāgots un paplašināts, lai atbilstu organizācijas vajadzībām. Varat arī pielāgot un paplašināt palīdzības pieredzi. Piemēram, varat pievienot pielāgotu palīdzību preces **Palīdzības** rūtij.
 
 Korporācija Microsoft ir nodrošinājusi rīku komplektu, lai palīdzētu jums izvietot un savienot pielāgotu palīdzību **Palīdzības** rūtī. Lai iegūtu informāciju par to, kā varat iestatīt pielāgotu palīdzības risinājumu, kas ir saistīts ar **Palīdzības** rūti, skatiet [Pielāgotās palīdzības pārskatu](../../dev-itpro/help/custom-help-overview.md).
 

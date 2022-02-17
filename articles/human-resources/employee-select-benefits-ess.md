@@ -1,6 +1,6 @@
 ---
-title: Darbinieki izvēlas plānus, izmantojot Darbinieku pašapkalpošanās pakalpojumu (pēc izvēles)
-description: Šajā tēmā ir aprakstīts, kā darbinieki var atlasīt vai atjaunināt savus atvieglojumus.
+title: Darbinieki izvēlas plānus, izmantojot darbinieku pašapkalpošanos (pēc izvēles)
+description: Šajā tēmā ir aprakstīts, kā darbinieki var izvēlēties vai atjaunināt savus ieguvumus.
 author: twheeloc
 ms.date: 12/06/2021
 ms.topic: article
@@ -14,42 +14,45 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 39083c8f907b05c646cbc465c883e29c62b0f423
-ms.sourcegitcommit: cd7f1c63f48542a8ebcace7b3d512eb810d4b56e
+ms.openlocfilehash: 190eb7e437af7edd8eee97b8f2b7601254cbd240
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903585"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066422"
 ---
-# <a name="employees-select-plans-by-using-employee-self-service-optional"></a>Darbinieki izvēlas plānus, izmantojot Darbinieku pašapkalpošanās pakalpojumu (pēc izvēles)
+# <a name="employees-select-plans-by-using-employee-self-service-optional"></a>Darbinieki izvēlas plānus, izmantojot darbinieku pašapkalpošanos (pēc izvēles)
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Kad tiek pieņemts darbā jauns darbinieks vai notiek dzīves notikums, darbinieks var izmantot darbinieku pašapkalpošanos, lai atlasītu vai atjauninātu savus **atvieglojumus** atvērtās reģistrācijas laikā.
+Kad tiek pieņemts darbā jauns darbinieks vai notiek dzīves notikums, darbinieks var izmantot **Darbinieku pašapkalpošanās** lai atlasītu vai atjauninātu savas priekšrocības atklātās reģistrācijas laikā.
 
-Lai piekļūtu saviem reģistrācijas atvieglojumiem, darbinieks pāriet uz darbinieku pašapkalpošanos un pēc tam elementam Atvieglojumi atlasa **atvieglojumu** **·** **pašapkalpošanos**.
+Lai piekļūtu saviem ieguvumiem par uzņemšanu, darbinieks dodas uz **Darbinieku pašapkalpošanās** un pēc tam atlasa **Pašapkalpošanās priekšrocības** uz **Ieguvumi** flīzes.
 
-Lapā **Atvieglojumu pašapkalpošanās** atvieglojumu plāni tiek grupēti pēc plāna tipa. Lai skatītu atvieglojumu plānus plāna tipam, darbinieks atlasa elementu darbinieku **atvieglojumu** lapā. Darbinieks redzēs tikai tos atvieglojumus, kuriem viņi ir piemēroti.
-
-> [!IMPORTANT]
-> Pirms plāna tipu var parādīt darbinieku **patstāvīgi lietotajā** pakalpojumā, tas ir jākonfigurē. Papildinformāciju skatiet sadaļā [Darbinieku pašapkalpošanās](/hr-benefits-setup-employee-self-service.md) konfigurēšana.
-
-Atkarībā no plāna tipa reģistrēšanai var atlasīt vienu vai vairākus atvieglojumus. Piemēram, vajadzētu konfigurēt medicīniskā plāna tipu, lai ierobežotu darbinieku ar vienu medicīniskā plāna. Apdrošināšanas plāna tips var ļaut darbiniekam atlasīt vairākus apdrošināšanas plānus.
-
-Kad darbinieks ir nolēmis, kurā plānā reģistrēties, viņiem var būt nepieciešams atlasīt apgādājamos. Ja darbinieks ir atlasījis vajadzības opciju, kas ir **Darbinieks +1, Darbinieks + pakārtotie** **vai** **Ģimenes**, ir jāatlasa apgādājamie. Papildinformāciju par vajadzības opcijām skatiet [sadaļā Vajadzību opciju](/hr-benefits-setup-coverage-options.md) izveide.
-
-Lai atlasītu atvieglojumu plānu, darbinieks atlasa daudzpunktes **pogu** (...) vai Pievienot **grozam**. Kad darbinieks ir beidzis pievienot grozam visas atvieglojumu atlases, viņi atlasa **Skatīt** grozu. Pēc tam darbinieks tiek paņemts uz **lapu** Plāni, kur viņi var skatīt savus atlasītos un atceltos atvieglojumu plānus.
-
-Darbiniekam ir jāatlasa **opcija** Es piekrītu, pirms darbinieks var atlasīt **pogu** Paņemiet. Pārskatu, kas parādās labajā pusē es piekrītu, var pielāgot cilnes Atvieglojumu pārvaldība lapā **Cilvēkresursu** **·** **kopīgie** parametri.
-
-Kad darbinieks apstiprina savas atvieglojumu plāna atlases, izmantojot darbinieku pašapkalpošanos, šīs atlases tiek ierakstītas un rādītas Darbinieku atvieglojumu plānos un Darbinieku atvieglojumu **plānos** **·** **lielapjoma atjaunināšanas** lapās.
-
-Kad darbinieks ir atlasījis plānus, atvieglojumu statuss tiek parādīts kā **Atlasīts**. Kad darbinieks **atlasot** paņemiet no **atvieglojumu pašapkalpošanās** lapas, tiks atlasīta opcija **Paņemts**.
+Uz **Pašapkalpošanās priekšrocības** lapā, pabalstu plāni ir sagrupēti pēc plāna veida. Lai skatītu pabalstu plānus plāna veidā, darbinieks atlasa elementu **Darbinieku pabalsti** lappuse. Darbinieks redzēs tikai tos pabalstus, uz kuriem viņam ir tiesības.
 
 > [!IMPORTANT]
-> Lai pabeigtu reģistrāciju, atvieglojumu administratoram ir jāatlasa **Apstiprināt** katram atlasītajam darbinieka atvieglojumam. Apstiprinājumu var pabeigt darbinieka atvieglojumu plāna **vai darbinieka atvieglojumu plāna** **lielapjoma atjaunināšanas** lapā.
+> Pirms var parādīt plāna veidu **Darbinieku pašapkalpošanās**, tas ir jākonfigurē. Papildinformāciju skatiet [Konfigurējiet darbinieku pašapkalpošanos](/hr-benefits-setup-employee-self-service.md).
+
+Atkarībā no plāna veida reģistrācijai var izvēlēties vienu vai vairākas priekšrocības. Piemēram, medicīniskā plāna veidu var konfigurēt, lai ierobežotu darbinieku līdz vienam medicīniskajam plānam. Dzīvības apdrošināšanas plāna veids var ļaut darbiniekam izvēlēties vairākus dzīvības apdrošināšanas plānus.
+
+Kad darbinieks ir izlēmis, kurā plānā reģistrēties, viņam, iespējams, būs jāizvēlas apgādājamie. Ja darbinieks ir izvēlējies seguma iespēju, kas ir **Darbinieks +1**, **+ bērni**, vai **Ģimene**, ir jāizvēlas apgādājamie. Papildinformāciju par pārklājuma iespējām skatiet [Izveidojiet pārklājuma iespējas](/hr-benefits-setup-coverage-options.md).
+
+Lai izvēlētos pabalstu plānu, darbinieks atlasa vai nu elipses pogu (**...**) vai **Pievienot grozam**. Kad darbinieks ir pabeidzis grozam pievienot visas priekšrocības, viņš izvēlas **Skatīt grozu**. Pēc tam darbinieks tiek nogādāts uz **Plāni** lapa, kurā viņi var apskatīt savus izvēlētos un atcelto pabalstu plānus.
+
+Darbiniekam ir jāizvēlas **ES piekrītu** opciju, pirms viņi var atlasīt **Izrakstīties** pogu. Paziņojums, kas parādās pa labi no **ES piekrītu** opciju var pielāgot uz **Ieguvumu vadība** cilne **Cilvēkresursu koplietotie parametri** lappuse.
+
+Kad darbinieks apstiprina savas pabalstu plānu izvēles, izmantojot **Darbinieku pašapkalpošanās**, šīs atlases tiek ierakstītas un parādītas uz **Darba ņēmēju pabalstu plāni** un **Darba ņēmēju pabalstu plānu lielapjoma atjaunināšana** lapas.
+
+Kad darbinieks ir izvēlējies savus plānus, pabalstu statuss tiek parādīts kā **Atlasīts**. Kad darbinieks izvēlas **Pārbaudiet** uz **Pašapkalpošanās priekšrocības** lapa, **Izrakstīts** opcija tiks atlasīta.
+
+> [!IMPORTANT]
+> Lai pabeigtu reģistrāciju, pabalstu administratoram ir jāizvēlas **Apstiprināt** par katru izvēlēto darbinieka pabalstu. Apstiprināšanu var pabeigt uz **Darba ņēmēju pabalstu plāns** vai **Darba ņēmēju pabalstu plānu lielapjoma atjaunināšana** lappuse.
 >
 
-Darbiniekiem nav nepieciešams atlasīt atvieglojumus, izmantojot **darbinieku pašapkalpošanās** pakalpojumu. Atvieglojumus var atlasīt darbinieka vārdā darbinieka atvieglojumu plānā vai darbinieka atvieglojumu **plāna** **lielapjoma atjaunināšanas** lapā. Darbinieks nav reģistrējis šos atvieglojumus, kamēr nav to apstiprinājis atvieglojumu administrators.
+Darbiniekiem nav jāizvēlas pabalsti, izmantojot **Darbinieku pašapkalpošanās**. Pabalstus var izvēlēties darbinieka vārdā **Darba ņēmēju pabalstu plāns** vai **Darba ņēmēju pabalstu plānu lielapjoma atjaunināšana** lappuse. Darbinieks netiks reģistrēts šajos pabalstos, kamēr pabalstu administrators tos neapstiprinās.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Integrētās vietas un noliktavas
-description: Šajā tēmā ir aprakstīta vietas un noliktavas datu integrācija starp programmām Finance and Operations un Dataverse
+description: Šajā tēmā ir aprakstīta vietas un noliktavas datu integrācija starp programmām Finance and Operations un Dataverse.
 author: t-benebo
 ms.date: 10/09/2019
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: benebotg
 ms.search.validFrom: 2019-08-15
-ms.openlocfilehash: f0c477d869e0bc1e0c3f58a722c140284fbcffca
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 66c5962933387831bbc3f17b9f29128ceaaf750b
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782263"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063216"
 ---
 # <a name="integrated-sites-and-warehouses"></a>Integrētās vietas un noliktavas
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Šajā tēmā ir aprakstīta vietas un noliktavas datu integrācija starp programmām Finance and Operations un Dataverse Darbības vietas un noliktavas ir bieži lietotie jēdzieni Supply Chain Management programmā. Tie ir izmantoti, lai izveidotu jūsu uzņēmuma piegādes ķēdes modeli.
+
+Šajā tēmā ir aprakstīta vietas un noliktavas datu integrācija starp programmām Finance and Operations un Dataverse. Darbības vietas un noliktavas ir bieži lietotie jēdzieni Supply Chain Management programmā. Tie ir izmantoti, lai izveidotu jūsu uzņēmuma piegādes ķēdes modeli.
 
 ## <a name="templates"></a>Veidnes
 

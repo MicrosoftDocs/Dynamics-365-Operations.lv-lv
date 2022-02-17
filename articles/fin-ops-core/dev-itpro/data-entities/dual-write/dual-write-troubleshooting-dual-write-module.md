@@ -1,6 +1,6 @@
 ---
-title: Problēmu novēršana saistībā ar duālā ieraksta moduli Finance and Operations programmās
-description: Šajā tēmā sniegta informācija par problēmu novēršanu, kas var palīdzēt novērst problēmas ar duālā ieraksta moduli Finance and Operations lietojumprogrammās.
+title: Duālā ieraksta problēmu novēršana Finance and Operations programmās
+description: Šajā tēmā ir sniegta problēmu novēršanas informācija, kas var palīdzēt novērst problēmas ar divu rakstīšanas moduli finance and operations programmās.
 author: RamaKrishnamoorthy
 ms.date: 08/10/2021
 ms.topic: article
@@ -9,25 +9,25 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 3caf3f18718fd6bee20232a0200d421b9c9ef22c
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: db49c6a4555f39800362a5b248f9757b07ee5481
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781202"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061814"
 ---
-# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Problēmu novēršana saistībā ar duālā ieraksta moduli Finance and Operations programmās
+# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Duālā ieraksta problēmu novēršana Finance and Operations programmās
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Šajā rakstā ir sniegta informācija par problēmu novēršanu duālā ieraksta integrācijai starp Finance and Operations programmām un Dataverse. Konkrēti, šajā tēmā sniegta informācija par problēmu novēršanu, kas var palīdzēt novērst problēmas ar moduli **Duālais ieraksts** Finance and Operations lietojumprogrammās.
+
+Šajā tēmā ir sniegta problēmu novēršanas informācija divu rakstu integrācijai starp Finance and Operations programmām un Dataverse. Konkrēti, tas sniedz informāciju, kas var palīdzēt novērst problēmas ar **divu rakstīšanas** moduli Finance and Operations programmās.
 
 > [!IMPORTANT]
 > Dažas no problēmām, kas risinātas šajā tēmā, var būt nepieciešama vai nu sistēmas administratora loma, vai Microsoft Azure Active Directory (Azure AD) nomnieka administratora akreditācijas dati. Katras problēmas sadaļā ir paskaidrots, vai ir nepieciešama īpaša loma vai akreditācijas dati.
 
-## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>Nevar ielādēt duālā ieraksta moduli Finance and Operations lietojumprogrammā
+## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>Divu rakstīšanas moduli nevar ielādēt programmā Finanses un operācijas
 
 Ja nevarat atvērt lapu **Duālais ieraksts**, atlasot elementu **Duālais ieraksts** darbvietā **Datu pārvaldība**, visticamāk nedarbojas datu integrācijas pakalpojums. Izveidojiet atbalsta biļeti, lai pieprasītu datu integrācijas pakalpojuma restartēšanu.
 
@@ -49,7 +49,7 @@ Lai labotu problēmu, piesakieties, izmantojot InPrivate logu pakalpojumā Micro
 
 ## <a name="error-when-you-link-the-environment-for-dual-write-or-add-a-new-table-mapping"></a>Kļūda, saistot vidi divējādai rakstīšanai vai pievienot jaunu tabulas kartēšanu
 
-**Nepieciešamās lomas, lai labotu problēmu:** sistēmas administrators abās Finance and Operations lietojumprogrammās un Dataverse.
+**Nepieciešamā loma problēmas novēršanai:** sistēmas administrators gan Finance, gan Operations lietojumprogrammās un Dataverse.
 
 Sasaistot vai veidojot kartes, var rasties šādas kļūdas:
 
@@ -59,13 +59,13 @@ Session ID: \<your session id\>
 Root activity ID: \<your root activity\> id
 ```
 
-Šī kļūda var rasties, ja jums nav nepieciešamo atļauju, lai saistītu duālo ierakstu vai izveidotu kartes. Šī kļūda var parādīties arī tad, ja Dataverse vide ir atiestatīta, nesaistot duālo rakstīšanu. Ikviens lietotājs ar sistēmas administratora lomu abās Finance and Operations lietojumprogrammās un Dataverse var saistīt vides. Tikai lietotājs, kas iestatījis duālās rakstīšanas savienojumu, var pievienot jaunas tabulas kartes. Pēc iestatīšanas jebkurš lietotājs ar sistēmas administratora lomu var pārraudzīt statusu un rediģēt kartēšanas.
+Šī kļūda var rasties, ja jums nav nepieciešamo atļauju, lai saistītu duālo ierakstu vai izveidotu kartes. Šī kļūda var parādīties arī tad, ja Dataverse vide ir atiestatīta, nesaistot duālo rakstīšanu. Jebkurš lietotājs ar sistēmas administratora lomu gan Finance, gan Operations programmās un Dataverse var saistīt vidi. Tikai lietotājs, kas iestatījis duālās rakstīšanas savienojumu, var pievienot jaunas tabulas kartes. Pēc iestatīšanas jebkurš lietotājs ar sistēmas administratora lomu var pārraudzīt statusu un rediģēt kartēšanas.
 
 ## <a name="error-when-you-stop-the-table-mapping"></a>Kļūda, apturot tabulas kartēšanu
 
 Mēģinot apturēt tabulas kartēšanu, jūs varētu saņemt šādu kļūdas ziņojumu:
 
-*\[ Aizliegts\], \[{"statuss": 403, "avots": ","ziņojums":"Kļūda no marķiera maiņas: lietotājam nav atļauts piekļūt savienojumam dynamicscrmonline/xxxxxx-xxxx-xxxx-xxxxxxxx"}\], Attālais serveris atgrieza kļūdu: (403) Aizliegts.*
+*\[Aizliegts\], \[{"statuss": 403, "avots": ","ziņojums":"Kļūda no marķiera maiņas: lietotājam nav atļauts piekļūt savienojumam dynamicscrmonline/xxxxxx-xxxx-xxxx-xxxxxxxx"}\], Attālais serveris atgrieza kļūdu: (403) Aizliegts.*
 
 Šī kļūda rodas, ja nav pieejama saistītā Dataverse vide.
 
@@ -82,13 +82,13 @@ Mēģinot palaist sākotnējo sinhronizēšanu, jūs varētu saņemt šādu kļ�
 Mēģinot iestatīt šo kartēšanas stāvokli uz **Darbojas**, var tikt parādīta šāda kļūda: Šīs kļūdas labojums ir atkarīgs no kļūdas cēloņa:
 
 + Ja kartēšanai ir atkarīgi kartējumi, pārliecinieties, ka iespējojat šīs tabulas kartēšanas atkarīgos kartējumus.
-+ Kartēšanai var trūkt avota vai mērķa kolonnu. Ja trūkst kolonnas programmā Finance and Operations, izpildiet sekojošos soļus sadaļā [Tabulu kolonnu trūkums kartēs](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Ja trūkst lauks programmā Dataverse, noklikšķiniet uz pogas **Atsvaidzināt tabulas** kartēšanā, lai kolonnas tiktu automātiski novirzītas atpakaļ kartēšanā.
++ Kartēšanai var trūkt avota vai mērķa kolonnu. Ja lietojumprogrammā Finance and Operations trūkst kolonnas, veiciet darbības sadaļā [Trūkst tabulas kolonnu problēmas kartēs](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Ja trūkst lauks programmā Dataverse, noklikšķiniet uz pogas **Atsvaidzināt tabulas** kartēšanā, lai kolonnas tiktu automātiski novirzītas atpakaļ kartēšanā.
 
 ### <a name="version-mismatch-error-and-upgrading-dual-write-solutions"></a>Versiju neatbilstības kļūda un duālo rakstīšanas risinājumu jaunināšana
 
 Mēģinot apturēt tabulas kartēšanu, jūs varētu saņemt šādus kļūdas ziņojumus:
 
-+ *Debitoru grupas (msdyn_customergroups) : duālā rakstīšanas kļūme — Dynamics 365 for Sales risinājumam 'Dynamics365Company' ir versiju neatbilstība. Versija: '2.0.2.10' Nepieciešamā versija: '2.0.133'*
++ *Debitoru grupas (msdyn_customergroups): duālā rakstīšanas kļūme — Dynamics 365 for Sales risinājumam 'Dynamics365Company' ir versiju neatbilstība. Versija: '2.0.2.10' Nepieciešamā versija: '2.0.133'*
 + *Dynamics 365 for Sales risinājumam 'Dynamics365FinanceExtended' ir versijas neatbilstība. Versija: '1.0.0.0' Nepieciešamā versija: '2.0.227'*
 + *Dynamics 365 for Sales risinājumam 'Dynamics365FinanceAndOperationsCommon'  ir versijas neatbilstība. Versija: '1.0.0.0' Nepieciešamā versija: '2.0.133'*
 + *Dynamics 365 for Sales risinājumam 'CurrencyExchangeRates' ir versijas neatbilstība. Versija: '1.0.0.0' Nepieciešamā versija: '2.0.133'*

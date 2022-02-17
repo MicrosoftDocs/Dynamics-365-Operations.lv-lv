@@ -9,25 +9,25 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 241277ada768cc6497035cc377d0e158646a42d6
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 030e565ffff561f6c1efbdd0de9928f70c7c46c0
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781118"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063062"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Problēmu novēršana sākotnējās sinhronizēšanas laikā
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Šajā rakstā ir sniegta informācija par problēmu novēršanu duālā ieraksta integrācijai starp Finance and Operations programmām un Dataverse. Konkrēti, tajā sniegta informācija par problēmu novēršanu, kas var palīdzēt novērst problēmas, var rasties sākotnējās sinhronizēšanas laikā.
+
+Šajā tēmā ir sniegta problēmu novēršanas informācija divu rakstu integrācijai starp Finance and Operations programmām un Dataverse. Konkrēti, tajā sniegta informācija par problēmu novēršanu, kas var palīdzēt novērst problēmas, var rasties sākotnējās sinhronizēšanas laikā.
 
 > [!IMPORTANT]
 > Dažas no problēmām, kas risinātas šajā tēmā, var būt nepieciešama vai nu sistēmas administratora loma, vai Microsoft Azure Active Directory (Azure AD) nomnieka administratora akreditācijas dati. Katras problēmas sadaļā ir paskaidrots, vai ir nepieciešama īpaša loma vai akreditācijas dati.
 
-## <a name="check-for-initial-synchronization-errors-in-a-finance-and-operations-app"></a>Sākotnējās sinhronizācijas kļūdu pārbaude Finance and Operations programmā
+## <a name="check-for-initial-synchronization-errors-in-a-finance-and-operations-app"></a>Programmā Finance and Operations pārbaudiet sākotnējās sinhronizācijas kļūdas
 
 Kad iespējojat kartēšanas veidnes, karšu statusam jābūt **Palaists**. Ja statuss ir **Nav palaists**, sākotnējās sinhronizācijas laikā radušās kļūdas. Lai skatītu kļūdas, lapā **Duālais ieraksts** atlasiet cilni **Sākotnējās sinhronizācijas informācija**.
 
@@ -39,7 +39,7 @@ Kad iespējojat kartēšanas veidnes, karšu statusam jābūt **Palaists**. Ja s
 
 Mēģinot palaist kartēšanu un sākotnējo sinhronizēšanu, jūs varētu saņemt šādu kļūdas ziņojumu:
 
-*(\[ Nederīgs pieprasījums\], attālais serveris atgrieza kļūdu: (400) nederīgs pieprasījums.), AX eksportējot radās kļūda.*
+*(\[Nederīgs pieprasījums\], attālais serveris atgrieza kļūdu: (400) nederīgs pieprasījums.), AX eksportējot radās kļūda.*
 
 Tālāk ir sniegts tabulas pilnā kļūdas ziņojuma piemērs.
 
@@ -71,11 +71,11 @@ Ja šī kļūda rodas konsekventi un nevar pabeigt sākotnējo sinhronizāciju, 
 
 Sākotnējās sinhronizācijas laikā, iespējams, saņemsit šādu kļūdas ziņojumu:
 
-*(\[ Aizliegts\], Attālinātais serveris atgrieza kļūdu: (403) Aizliegts.), AX eksportējot radās kļūda*
+*(\[Aizliegts\], Attālinātais serveris atgrieza kļūdu: (403) Aizliegts.), AX eksportējot radās kļūda*
 
 Lai novērstu problēmu, izpildiet šīs darbības.
 
-1. Piesakieties Finance and Operations programmā.
+1. Piesakieties lietotnē Finance and Operations.
 2. Lapā **Azure Active Directory programma** izdzēsiet klientu **DtAppID** un pēc tam pievienojiet to vēlreiz.
 
 ![DtAppID klients Azure AD programmu sarakstā.](media/aad_applications.png)
@@ -87,9 +87,9 @@ Var tikt parādīts kļūdas ziņojums, ja kādam no kartējumiem ir pašatsauce
 - [Kļūdas Kreditori V2-uz-msdyn_vendors tabulas kartēšanā](#error-vendor-map)
 - [Kļūdas Debitori V3-uz-kontiem tabulas kartēšanā](#error-customer-map)
 
-## <a name="resolve-errors-in-the-vendors-v2tomsdyn_vendors-table-mapping"></a><a id="error-vendor-map"></a> Atrisināt kļūdas Kreditori V2-uz-msdyn_vendors tabulas kartēšanā
+## <a name="resolve-errors-in-the-vendors-v2tomsdyn_vendors-table-mapping"></a><a id="error-vendor-map"></a>Atrisināt kļūdas Kreditori V2-uz-msdyn_vendors tabulas kartēšanā
 
-Jums var rasties sinhronizācijas kļūdas kartēšanā **Kreditori V2** uz **msdyn\_ vendors**, ja tabulās ir esošas rindas ar vērtībām laukos **PrimaryContactPersonId** un **InvoiceVendorAccountNumber**. Šīs kļūdas notiek tādēļ, ka **InvoiceVendorAccountNumber** ir pašatsauces kolonna un **PrimaryContactPersonId** ir riņķveida atsauce kreditora kartēšanā.
+Jums var rasties sinhronizācijas kļūdas kartēšanā **Kreditori V2** uz **msdyn\_vendors**, ja tabulās ir esošas rindas ar vērtībām laukos **PrimaryContactPersonId** un **InvoiceVendorAccountNumber**. Šīs kļūdas notiek tādēļ, ka **InvoiceVendorAccountNumber** ir pašatsauces kolonna un **PrimaryContactPersonId** ir riņķveida atsauce kreditora kartēšanā.
 
 Saņemtajiem kļūdu ziņojumiem būs šāda forma.
 
@@ -97,14 +97,14 @@ Saņemtajiem kļūdu ziņojumiem būs šāda forma.
 
 Daži piemēri:
 
-- *Nevarēja atrisināt lauka GUID: msdyn\_ vendorprimarycontactperson.msdyn\_ contactpersonid. Uzmeklēšana netika atrasta: 000056. Izmēģiniet šos vietrāžus URL, lai pārbaudītu, vai atsauces dati pastāv: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
-- *Nevarēja atrisināt lauka GUID: msdyn\_ invoicevendoraccountnumber.msdyn\_ vendoraccountnumber. Uzmeklēšana netika atrasta: V24-1. Izmēģiniet šos vietrāžus URL, lai pārbaudītu, vai atsauces dati pastāv: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/msdn_vendors?$select=msdyn_vendoraccountnumber,msdyn_vendorid&$filter=msdyn_vendoraccountnumber eq 'V24-1'`*
+- *Nevarēja atrisināt lauka GUID: msdyn\_vendorprimarycontactperson.msdyn\_contactpersonid. Uzmeklēšana netika atrasta: 000056. Izmēģiniet šos vietrāžus URL, lai pārbaudītu, vai atsauces dati pastāv: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
+- *Nevarēja atrisināt lauka GUID: msdyn\_invoicevendoraccountnumber.msdyn\_vendoraccountnumber. Uzmeklēšana netika atrasta: V24-1. Izmēģiniet šos vietrāžus URL, lai pārbaudītu, vai atsauces dati pastāv: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/msdn_vendors?$select=msdyn_vendoraccountnumber,msdyn_vendorid&$filter=msdyn_vendoraccountnumber eq 'V24-1'`*
 
 Ja jebkādām rindām kreditora elementā ir vērtības kolonnās **PrimaryContactPersonId** un **InvoiceVendorAccountNumber**, izpildiet tālāk minētās darbības, lai sekmīgi pabeigtu sākotnējo sinhronizāciju.
 
-1. Programmā Finance and Operations izdzēsiet kolonnas **PrimaryContactPersonId** un **InvoiceVendorAccountNumber** kartējumā un tad saglabājiet kartējumu.
+1. Programmā Finance and Operations izdzēsiet **PrimaryContactPersonId** un **InvoiceVendorAccountNumber** kolonnas no kartēšanas un pēc tam saglabājiet kartējumu.
 
-    1. Duālā ieraksta kartēšanas lapā **Kreditori V2 (msdyn\_ vendors)** cilnē **Tabulas kartējumi**, kreisajā filtrā atlasiet **Finance and Operations apps.Vendors V2**. Labajā filtrā atlasiet **Pārdošana. Kreditors**.
+    1. Divkāršās rakstīšanas kartēšanas lapā **Pārdevēji V2 (msdyn\_ pārdevēji)**, uz **Tabulu kartējumi** cilnē kreisajā filtrā atlasiet **Finance and Operations progr. Vendors V2**. Labajā filtrā atlasiet **Pārdošana. Kreditors**.
     2. Meklējiet **primarycontactperson**, lai atrastu avota kolonnu **PrimaryContactPersonId**.
     3. Atlasiet **Darbības** un pēc tam atlasiet **Dzēst**.
 
@@ -128,13 +128,13 @@ Ja jebkādām rindām kreditora elementā ir vērtības kolonnās **PrimaryConta
 
         ![Atspējot izmaiņu izsekošanu atlasīšana.](media/selfref_tracking.png)
 
-3. Palaidiet sākotnējo kartēšanas sinhronizāciju attiecībā uz **Kreditori V2 (msdyn\_ vendors)**. Sākotnējā sinhronizācija ir sekmīgi jāizpilda bez kļūdām.
+3. Palaidiet sākotnējo kartēšanas sinhronizāciju attiecībā uz **Kreditori V2 (msdyn\_vendors)**. Sākotnējā sinhronizācija ir sekmīgi jāizpilda bez kļūdām.
 4. Palaidiet sākotnējo sinhronizāciju **CDS kontaktpersonas V2 (kontaktpersonas)** kartēšanai. Jums ir jāsinhronizē šis kartējums, ja vēlaties sinhronizēt primāro kontaktpersonu kolonnu kreditoru tabulā, tāpēc ka sākotnējā sinhronizācija jāveic arī kontaktu rindām.
-5. Pievienojiet **PrimaryContactPersonId** un **InvoiceVendorAccountNumber** kolonnas atpakaļ kartēšanai **Kreditori V2 (msdyn\_ vendors)** un tad saglabājiet kartējumu.
-6. Vēlreiz palaidiet sākotnējo kartēšanas sinhronizāciju attiecībā uz **Kreditori V2 (msdyn\_ vendors)**. Visas rindas tiks sinhronizētas, jo izmaiņu izsekošana ir atspējota.
+5. Pievienojiet **PrimaryContactPersonId** un **InvoiceVendorAccountNumber** kolonnas atpakaļ kartēšanai **Kreditori V2 (msdyn\_vendors)** un tad saglabājiet kartējumu.
+6. Vēlreiz palaidiet sākotnējo kartēšanas sinhronizāciju attiecībā uz **Kreditori V2 (msdyn\_vendors)**. Visas rindas tiks sinhronizētas, jo izmaiņu izsekošana ir atspējota.
 7. Vēlreiz ieslēdziet izmaiņu izsekošanu tabulai **Kreditors V2**.
 
-## <a name="resolve-errors-in-the-customers-v3toaccounts-table-mapping"></a><a id="error-customer-map"></a> Novērst kļūdas rindas Debitori V3-uz-kontiem kartēšanā
+## <a name="resolve-errors-in-the-customers-v3toaccounts-table-mapping"></a><a id="error-customer-map"></a>Novērst kļūdas rindas Debitori V3-uz-kontiem kartēšanā
 
 Jums var rasties sinhronizācijas kļūdas kartēšanā **Debitori V3** uz **Konti**, ja tabulās ir esošas rindas ar vērtībām kolonnās **ContactPersonID** un **InvoiceAccount**. Šīs kļūdas notiek tādēļ, ka **InvoiceAccount** ir pašatsauces kolonna un **ContactPersonID** ir riņķveida atsauce kreditora kartēšanā.
 
@@ -144,14 +144,14 @@ Saņemtajiem kļūdu ziņojumiem būs šāda forma.
 
 Daži piemēri:
 
-- *Nevarēja atrisināt lauka GUID: primarycontactid.msdyn\_ contactpersonid. Uzmeklēšana netika atrasta: 000056. Izmēģiniet šos vietrāžus URL, lai pārbaudītu, vai atsauces dati pastāv: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
-- *Nevarēja atrisināt lauka GUID: msdyn\_ billingaccount.accountnumber. Uzmeklēšana netika atrasta: 1206-1. Izmēģiniet šos vietrāžus URL, lai pārbaudītu, vai atsauces dati pastāv: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/accounts?$select=accountnumber.account&$filter=accountnumber eq '1206-1'`*
+- *Nevarēja atrisināt lauka GUID: primarycontactid.msdyn\_contactpersonid. Uzmeklēšana netika atrasta: 000056. Izmēģiniet šos vietrāžus URL, lai pārbaudītu, vai atsauces dati pastāv: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
+- *Nevarēja atrisināt lauka GUID: msdyn\_billingaccount.accountnumber. Uzmeklēšana netika atrasta: 1206-1. Izmēģiniet šos vietrāžus URL, lai pārbaudītu, vai atsauces dati pastāv: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/accounts?$select=accountnumber.account&$filter=accountnumber eq '1206-1'`*
 
 Ja jebkādām rindām debitora tabulā ir vērtības kolonnās **ContactPersonID** un **InvoiceAccount**, izpildiet tālāk minētās darbības, lai sekmīgi pabeigtu sākotnējo sinhronizāciju. Varat izmantot šo pieeju jebkurām iebūvētajām tabulām, piemēram, **Uzņēmumi** un **Kontaktpersonas**.
 
-1. Programmā Finance and Operations izdzēsiet kolonnas **ContactPersonID** un **InvoiceAccount** no **Debitori V3 (konti)** kartēšanas un tad saglabājiet kartējumu.
+1. Programmā Finance and Operations izdzēsiet **Kontaktpersonas ID** un **InvoiceAccount** kolonnas no **Klienti V3 (konti)** kartēšanu un pēc tam saglabājiet kartējumu.
 
-    1. Duālā ieraksta kartēšanas lapā **Debitori V3 (konti)**, cilnē **Tabulas kartējumi**, kreisajā filtrā atlasiet **Finance and Operations app.Customers V3**. Labajā filtrā atlasiet **Dataverse.konts**.
+    1. Divkāršās rakstīšanas kartēšanas lapā **Klienti V3 (konti)**, uz **Tabulu kartējumi** cilnē kreisajā filtrā atlasiet **Programma Finance and Operations.Customers V3**. Labajā filtrā atlasiet **Dataverse.konts**.
     2. Meklējiet **kontaktpersonu**, lai atrastu avota kolonnu **ContactPersonID**.
     3. Atlasiet **Darbības** un pēc tam atlasiet **Dzēst**.
 
@@ -179,29 +179,29 @@ Ja jebkādām rindām debitora tabulā ir vērtības kolonnās **ContactPersonID
 4. Palaidiet sākotnējo sinhronizāciju **CDS kontaktpersonas V2 (kontaktpersonas)** kartēšanai.
 
     > [!NOTE]
-    > Ir divas kartes, kurām ir vienāds nosaukums. Pārliecinieties, ka izvēlaties karti ar sekojošu aprakstu cilnē **Detaļas**: **Duālā ieraksta veidne sinhronizācijai starp FO.CDS kreditora V2 kontaktpersonām un CDS.Contacts. Nepieciešama jauna pakotne \[ Dynamics365SupplyChainExtended\].**
+    > Ir divas kartes, kurām ir vienāds nosaukums. Pārliecinieties, ka izvēlaties karti ar sekojošu aprakstu cilnē **Detaļas**: **Duālā ieraksta veidne sinhronizācijai starp FO.CDS kreditora V2 kontaktpersonām un CDS.Contacts. Nepieciešama jauna pakotne \[Dynamics365SupplyChainExtended\].**
 
 5. Pievienojiet kolonnas **InvoiceAccount** un **ContactPersonId** atpakaļ kartējumam **Debitori V3 (konti)** un tad saglabājiet kartējumu. Abas kolonnas **InvoiceAccount** un **ContactPersonId** atkal ir daļa no tiešsaistes sinhronizācijas režīma. Nākamajā darbībā veiciet sākotnējo sinhronizāciju šīm kolonnām.
-6. Vēlreiz palaidiet sākotnējo sinhronizāciju **Debitori V3 (konti)** kartēšanai. Tā kā izmaiņu izsekošana ir izslēgta, tiks sinhronizēti dati **InvoiceAccount** un **ContactPersonId** no Finance and Operations programmas uz Dataverse.
-7. Lai sinhronizētu datus **InvoiceAccount** un **ContactPersonId** no Dataverse uz Finance and Operations programmu, izmantojiet datu integrācijas projektu.
+6. Vēlreiz palaidiet sākotnējo sinhronizāciju **Debitori V3 (konti)** kartēšanai. Tā kā izmaiņu izsekošana ir izslēgta, dati par **InvoiceAccount** un **Kontaktpersonas ID** tiks sinhronizēts no programmas Finance and Operations uz Dataverse.
+7. Lai sinhronizētu datus par **InvoiceAccount** un **Kontaktpersonas ID** no Dataverse uz programmu Finance and Operations, jums ir jāizmanto datu integrācijas projekts.
 
-    1. Power Apps izveidojiet datu integrācijas projektu starp **Pārdošana.Konts** un **Finance and Operations apps.Customers V3** tabulām. Datu virzienam jābūt no Dataverse uz programmu Finance and Operations. Tā kā **InvoiceAccount** ir jauns atribūts duālajā ierakstā, iespējams, vēlēsities izlaist sākotnējo sinhronizāciju tam. Papildinformāciju skatiet [Datu integrēšana pakalpojumā Dataverse](/power-platform/admin/data-integrator).
+    1. In Power Apps, izveidojiet datu integrācijas projektu starp **Pārdošana. Konts** un **Finance and Operations progr.Customers V3** tabulas. Datu virzienam jābūt no Dataverse uz programmu Finance and Operations. Tā kā **InvoiceAccount** ir jauns atribūts duālajā ierakstā, iespējams, vēlēsities izlaist sākotnējo sinhronizāciju tam. Papildinformāciju skatiet [Datu integrēšana pakalpojumā Dataverse](/power-platform/admin/data-integrator).
 
         Šajā attēlā ir parādīts projekts, kas atjaunina **CustomerAccount** un **ContactPersonId**.
 
         ![Datu integrācijas projekts, lai atjauninātu CustomerAccount un ContactPersonId.](media/cust_selfref6.png)
 
-    2. Pievienojiet uzņēmuma kritērijus filtram Dataverse pusē, lai tiktu atjauninātas tikai tās rindas, kas atbilst filtra kritērijiem programmā Finance and Operations. Lai pievienotu filtru, atlasiet filtra pogu. Tad dialoglodziņā **Rediģēt vaicājumu** varat pievienot filtra vaicājumu, piemēram, **\_ msdyn\_ company\_ value eq '\<guid\>'**.
+    2. Pievienojiet uzņēmuma kritērijus filtrā uz Dataverse pusē, lai programmā Finance and Operations tiktu atjauninātas tikai rindas, kas atbilst filtra kritērijiem. Lai pievienotu filtru, atlasiet filtra pogu. Tad dialoglodziņā **Rediģēt vaicājumu** varat pievienot filtra vaicājumu, piemēram, **\_msdyn\_company\_value eq '\<guid\>'**.
 
         > [PIEZĪME] Ja filtra poga nav atrodama, izveidojiet atbalsta biļeti, lai lūgtu datu integrācijas grupai iespējot filtra iespēju jūsu nomniekam.
 
-        Ja neievadāt filtra vaicājumu **\_ msdyn\_ company\_ value**, visas rindas tiks sinhronizētas.
+        Ja neievadāt filtra vaicājumu **\_msdyn\_company\_value**, visas rindas tiks sinhronizētas.
 
         ![Filtra vaicājuma pievienošana.](media/cust_selfref7.png)
 
     Rindu sākotnējā sinhronizācija tagad ir pabeigta.
 
-8. Programmā Finance and Operations vēlreiz iespējojiet izmaiņu izsekošanu tabulā **Debitori V3**.
+8. Programmā Finance and Operations atkal ieslēdziet izmaiņu izsekošanu **Klienti V3** tabula.
 
 ## <a name="initial-sync-failures-on-maps-with-more-than-10-lookup-fields"></a>Sākotnējās sinhronizācijas kļūmes kartēs ar vairāk nekā 10 uzmeklēšanas laukiem
 
@@ -227,9 +227,9 @@ Mēģinot palaist puses pasta adrešu un puses elektronisko adrešu sākotnējo 
 
 *Puses numurs nav atrasts pakalpojumā Dataverse.*
 
-**DirPartyCDSEntity** Finance and Operations programmās ir ietatīts diapazons, kas filtrē puses pēc veida **Persona** un **Organizācija**. Tāpēc sākotnējā sinhronizācija **CDS puses – msdyn_parties** kartēšanā nesinhronizēs citu veidu puses, tostarp **Juridiska persona** un **Pārvaldības struktūrvienība**. Ja sākotnējā sinhronizācija tiek palaista **CDS pušu pasta adresēm (msdyn_partypostaladdresses)** vai **pušu kontaktinformācijai V3 (msdyn_partyelectronicaddresses)**, iespējams, tiks saņemts kļūdas ziņojums.
+Ir iestatīts diapazons **DirPartyCDSEntity** Programmā Finance and Operations, kas filtrē partijas **Persona** un **Organizācija**. Tāpēc sākotnējā sinhronizācija **CDS puses – msdyn_parties** kartēšanā nesinhronizēs citu veidu puses, tostarp **Juridiska persona** un **Pārvaldības struktūrvienība**. Ja sākotnējā sinhronizācija tiek palaista **CDS pušu pasta adresēm (msdyn_partypostaladdresses)** vai **pušu kontaktinformācijai V3 (msdyn_partyelectronicaddresses)**, iespējams, tiks saņemts kļūdas ziņojums.
 
-Mēs strādājam pie labojuma, lai noņemtu puses veida diapazonu Finance and Operations entītijā un puses ar visiem tipiem varētu veiksmīgi sinhronizēt ar Dataverse.
+Mēs strādājam pie labojuma, lai noņemtu partiju veidu diapazonu no entītijas Finance and Operations, lai visu veidu puses varētu sinhronizēt ar Dataverse veiksmīgi.
 
 ## <a name="are-there-any-performance-issues-while-running-initial-sync-for-customers-or-contacts-data"></a>Vai, izpildot sākotnējo sinhronizāciju debitoriem vai kontaktpersonu datiem, ir veiktspējas problēmas?
 

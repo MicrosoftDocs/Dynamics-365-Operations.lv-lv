@@ -16,16 +16,16 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 1a311b4a304984044a1c3bd3924c129821afbbb9
-ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
+ms.openlocfilehash: 638b5c3b0c83f67f3d99331b6456efd1b8f5225a
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/18/2021
-ms.locfileid: "7825379"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063345"
 ---
 # <a name="product-identifiers"></a>Preču identifikatori
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 [!include [banner](../includes/banner.md)]
 
@@ -39,7 +39,7 @@ Programmā Dynamics 365 Supply Chain Management preces galvenais identifikators 
 
 Bieži vien preces numurs nav sākotnēji izveidots programmā Dynamics 365 Supply Chain Management. Tā vietā tas ir saistīts ar preci preču dzīves cikla pārvaldības (product lifecycle management — PLM) sistēmā vai preču datu pārvaldības (product data management — PDM) sistēmā. Šādā gadījumā jūs izmantojat datu elementus, lai importētu preces un preču variantus. Pēc tam Supply Chain Management izmanto visu operāciju numurus.
 
-Ieviešot Supply Chain Management, ir īpaši jāapsver preču numerācijas metode. Efektīva numerācijas sistēma uzlabo loģistikas plūsmas un palīdz nepieļaut kļūdas. Labiem preces identifikatoriem parasti ir jābūt 20 vai mazāk rakstzīmēm, bet ieteicams izmantot mazāk par 10 rakstzīmēm, iekļaujot ne vairāk kā 5 klasifikācijas rakstzīmes. Varat arī izmantot saīsinātos nosaukumus, lai nodrošinātu ātru meklēšanu. Meklēšanas nosaukums ir papildu nosaukums, kas atspoguļo produkta iedalījumus.
+Ieviešot Supply Chain Management, ir īpaši jāapsver preču numerācijas metode. Efektīva numerācijas sistēma uzlabo loģistikas plūsmas un palīdz nepieļaut kļūdas. Labam produkta identifikatoram parasti jābūt 20 vai mazāk rakstzīmēm, bet parasti mēs iesakām izmantot mazāk nekā 10 rakstzīmes, ieskaitot ne vairāk kā 5 klasificēšanas rakstzīmes. Varat arī izmantot saīsinātos nosaukumus, lai nodrošinātu ātru meklēšanu. Meklēšanas nosaukums ir papildu nosaukums, kas atspoguļo produkta iedalījumus.
 
 Izmantojot Microsoft Dataverse, preču numurs Supply Chain Management ir arī Microsoft Dataverse preces numurs. Preču varianti tiek sinhronizēti ar pakalpojumu Dataverse kā atšķirīgas preces.
 

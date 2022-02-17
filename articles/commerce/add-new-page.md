@@ -2,7 +2,7 @@
 title: Jaunas vietnes lapas pievienošana
 description: Šajā tēmā aprakstīts, kā pievienot jaunu vietnes lapu risinājumā Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 04/14/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4b031431499eba0e109ac04dc46ec187250eba694284864bf78bb1f90265d788
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: e0c2a73ae9e85cb299e7cb6fc70562659cdfadc5
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725390"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090723"
 ---
 # <a name="add-a-new-site-page"></a>Jaunas vietnes lapas pievienošana
 
@@ -33,11 +33,11 @@ Pēc tam, kad esat izveidojis veidnes un fragmentus jūsu vietnei, nākamais sol
 
 Jaunajai lapai varat izmantot veidni vai izkārtojumu. Papildinformāciju skatiet tēmā [Veidņu un izkārtojumu apskats](templates-layouts-overview.md).
 
-## <a name="page-name"></a>Lapas nosaukums
+## <a name="specify-the-page-name"></a>Norādiet lapas nosaukumu
 
-Lapas nosaukumam ir jābūt unikālam jūsu lapā. Tam jābūt aprakstošam, lai to viegli varētu atrast un citiem cilvēkiem būtu skaidrs, kam paredzēta šī lapa. Uzmanīgi izvēlieties lapas nosaukumu, jo to vēlāk nevar mainīt.
+Lapas nosaukumam ir jābūt unikālam jūsu vietnei, un tam ir jābūt aprakstošam, lai jūs to varētu viegli atrast un citi cilvēki zinātu, kam lapa ir paredzēta. Varat pārdēvēt savu lapu vēlāk, to rediģējot un pēc tam rekvizītu rūtī blakus lapas nosaukumam atlasot pildspalvas simbolu.
 
-## <a name="page-url"></a>Lapas URL
+## <a name="specify-the-page-url"></a>Norādiet lapas URL
 
 Jums var būt opcija ievadīt vietrādi URL savai jaunai lapai. Veidojot lapu, varat ievadīt virkni, kas tiks izmantota pilnīga vietrāža URL izveidei. Šī virkne ir zināma kā relatīvais vietrādis URL vai URL rinda. Tiek ģenerēts pilnīgs vietrādis URL, pamatojoties uz URL rindu, un tam ir piešķirta jaunā lapa. Varat vēlāk mainīt URL rindu pirms lapas publicēšanas. Papildinformāciju skatiet tēmā [Lapas vietrāža URL izveide](create-page-URL.md).
 

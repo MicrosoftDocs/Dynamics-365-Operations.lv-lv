@@ -13,29 +13,32 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c7929a89d1f503fa42b214dc1f1019a2c26e607b
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: abb45fe6f398de71565732dce6249daa0c39fce2
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731592"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069458"
 ---
 # <a name="enter-worker-information"></a>Nodarbinātā informācijas ievade
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
-Kad personāla atlases darbinieks ir izveidojis masveida darbā pieņemšanas projektu un ģenerējis amatus, nākamais solis ir ievadīt darbinieka informāciju par cilvēkiem, kas pieņemti darbā. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF. Demonstrācijas dati ietver atvērtu masveida darbā pieņemšanas projektu. Lai sāktu šo procedūru, dodieties uz **Cilvēkresursu personāla atlases masveida pieņemšanas** > **·** > **projektiem**.
+Kad personāla atlases darbinieks ir izveidojis masveida darbā pieņemšanas projektu un ģenerējis amatus, nākamais solis ir ievadīt darbinieka informāciju par cilvēkiem, kas pieņemti darbā. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF. Demonstrācijas dati ietver atvērtu masveida darbā pieņemšanas projektu. Lai sāktu šo procedūru, dodieties uz **Personālais** > **pieņemšanaMass** > **nolīgt projektus**.
 
 1. Sarakstā atzīmējiet atlasīto rindu.
-2. Noklikšķiniet uz **Detalizēta informācija par pozīciju**.
-    * Rediģējiet **darbinieka sākuma** datumu.  
-    * Rediģējiet **darbinieka beigu** datumu.  
-    * Ja nepieciešams, mainiet **·** darbinieka tipu.  
-3. Laukā **·** Vārds ierakstiet vērtību.
-4. Laukā **Otrais** vārds ierakstiet vērtību.
-5. Laukā **·** Uzvārds ierakstiet vērtību.
+2. Klikšķis **Sīkāka informācija par pozīciju**.
+    * Rediģēt **Sākuma datums** strādniekam.  
+    * Rediģēt **Beigu datums** strādniekam.  
+    * Nomaini **Strādnieka tips** strādniekam, ja nepieciešams.  
+3. Iekš **Vārds** laukā ierakstiet vērtību.
+4. Iekš **Otrais vārds** laukā ierakstiet vērtību.
+5. Iekš **Uzvārds** laukā ierakstiet vērtību.
     * Mainiet darbinieka darbu, ja nepieciešams.  
     * Mainiet darbinieka nodaļu, ja nepieciešams.  
     * Mainiet darbinieka pilnas slodzes ekvivalenta statusu, ja nepieciešams.  

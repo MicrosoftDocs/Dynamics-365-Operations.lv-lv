@@ -1,26 +1,26 @@
 ---
 title: Izveidot debitora rēķinu
-description: '**Debitora rēķins par pārdošanas pasūtījumu** ir rēķins, kas ir saistīts ar pārdošanu un ko uzņēmums izsniedz debitoram.'
+description: Debitora rēķins par pārdošanas pasūtījumu ir rēķins, kas ir saistīts ar pārdošanu un ko uzņēmums izsniedz debitoram.
 author: ShivamPandey-msft
-ms.date: 01/12/2018
+ms.date: 02/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 77772
 ms.assetid: 00b4b40c-1576-4098-9aed-ac376fdeb8c5
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 369f0737ee4026c32ffbae6b11b5815c5548d83d564aebf2eae4b1c246e73508
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: d408ca5265802cf17a53dd5cb004f707f6f7855b
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723875"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087427"
 ---
 # <a name="create-a-customer-invoice"></a>Izveidot debitora rēķinu
 
@@ -42,6 +42,23 @@ Papildinformāciju skatiet šeit:
 
 
 **Pro forma rēķins** ir rēķins, kas tiek sagatavots kā faktisko rēķina summu novērtējums pirms rēķina grāmatošanas. Pro forma rēķinu varat drukāt debitora rēķinam par pārdošanas pasūtījumu vai brīva teksta rēķinam.
+
+## <a name="using-sales-order-customer-invoice-data-entities"></a>Pārdošanas pasūtījuma klientu rēķinu datu entītiju izmantošana
+Varat izmantot datu entītijas, lai importētu un eksportētu informāciju par klienta rēķinu pārdošanas pasūtījumam. Informācijai par pārdošanas rēķina galveni un pārdošanas rēķina rindām ir dažādas entītijas.
+
+Informācijai pārdošanas rēķina galvenē ir pieejamas šādas entītijas:
+
+- **Pārdošanas rēķinu žurnāla galvene** entītija (SalesInvoiceJournalHeaderEntity)
+- **Pārdošanas rēķinu galvenes V2** entītija (SalesInvoiceHeaderV2Entity)
+
+Mēs iesakām izmantot **Pārdošanas rēķinu žurnāla galvene** entītija, jo tā nodrošina efektīvāku pieredzi pārdošanas galvenes importēšanai un eksportēšanai. Šī entītija nesatur **Pārdošanas nodokļa summa** (INVOICEHEADERTAXAMOUNT) kolonna, kas atspoguļo pārdošanas nodokļa vērtību pārdošanas rēķina galvenē. Ja jūsu biznesa scenārijā šī informācija ir nepieciešama, izmantojiet **Pārdošanas rēķinu galvenes V2** entītija, lai importētu un eksportētu pārdošanas rēķina galvenes informāciju.
+
+Informācijai par pārdošanas rēķinu rindām ir pieejamas šādas entītijas:
+
+- **Klientu rēķinu rindas** entītija (BusinessDocumentSalesInvoiceLineItemEntity)
+- **Pārdošanas rēķina rindas V3** entītija (SalesInvoiceLineV3Entity)
+
+Nosakot, kuru rindas entītiju izmantot eksportēšanai, apsveriet, vai tiks izmantota pilna vai pakāpeniska nosūtīšana. Turklāt apsveriet datu sastāvu. The **Pārdošanas rēķina rindas V3** entītija atbalsta sarežģītākus scenārijus (piemēram, kartēšanu uz krājumu laukiem). Tas atbalsta arī pilna apjoma eksporta scenārijus. Pakāpeniskiem grūdieniem mēs iesakām izmantot **Klientu rēķinu rindas** entītija. Šī entītija satur daudz vienkāršāku datu sastāvu nekā **Pārdošanas rēķina rindas V3** entītija un ir vēlama, it īpaši, ja krājumu lauka integrācija nav nepieciešama. Tā kā līnijas entītiju kartēšanas atbalsts ir atšķirīgs, **Klientu rēķinu rindas** entītijai parasti ir ātrāka veiktspēja nekā **Pārdošanas rēķina rindas V3** entītija.
 
 ## <a name="post-and-print-individual-customer-invoices-that-are-based-on-sales-orders"></a>Atsevišķu, uz pārdošanas pasūtījumiem balstītu debitoru rēķinu grāmatošana un drukāšana
 Izmantojiet šo procesu, lai izveidotu rēķinu, kas ir balstīts uz pārdošanas pasūtījumu. To varat darīt, ja izlemjat debitoram rēķinu izrakstīt pirms preču vai pakalpojumu piegādes. 

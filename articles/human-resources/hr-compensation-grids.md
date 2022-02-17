@@ -2,7 +2,7 @@
 title: Atlīdzību režģu iestatīšana
 description: Atlīdzības režģi tiek izmantoti, lai definētu un uzturētu algu struktūras fiksētās atlīdzības plāniem.
 author: twheeloc
-ms.date: 08/25/2021
+ms.date: 01/03/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e6aabf5c05b2a7a5d2b37b43c9a7e93ea6e9bbb
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
-ms.translationtype: HT
+ms.openlocfilehash: 51b98320eac539e49787d352f32683efadc11f41
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483821"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071722"
 ---
 # <a name="set-up-compensation-grids"></a>Atlīdzību režģu iestatīšana
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -67,28 +70,16 @@ Atlīdzības režģi tiek izmantoti, lai definētu un uzturētu algu struktūras
 7. Laukā **Korekcijas veids** atlasiet opciju.
 8. Laukā **Korekcijas summa** ievadiet kādu skaitli.
 9. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-10. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-11. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-12. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-13. Noklikšķiniet uz **Piemērot režģim**.
-14. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-15. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-16. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-17. Noklikšķiniet uz **Piemērot režģim**.
-18. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-19. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-20. Noklikšķiniet uz **Piemērot režģim**.
-21. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-22. Noklikšķiniet uz Lietot režģim.
+10. Noklikšķiniet uz **Piemērot režģim**.
     * Tagad izmantosim masveida izmaiņu funkciju, lai koriģētu minimālo un maksimālo atsauces punktu katram līmenim. Šajā piemērā tiks izmantota 50 % izplatība, tādējādi minimālais atsauces punkts tiks koriģēts par –20 % un maksimālais atsauces punkts tiks koriģēts pa +20 %.  
-23. Laukā **Korekcijas summa** ievadiet kādu skaitli.
-24. Ievadiet vai atlasiet vērtību laukā **Atsauces punkts**.
-25. Sarakstā atzīmējiet visas rindas vai noņemiet tām atzīmi.
-26. Noklikšķiniet uz **Piemērot režģim**.
-27. Laukā **Korekcijas summa** ievadiet kādu skaitli.
-28. Ievadiet vai atlasiet vērtību laukā **Atsauces punkts**.
-29. Sarakstā atzīmējiet visas rindas vai noņemiet tām atzīmi.
-30. Noklikšķiniet uz **Piemērot režģim**.
+11. Laukā **Korekcijas summa** ievadiet kādu skaitli.
+12. Ievadiet vai atlasiet vērtību laukā **Atsauces punkts**.
+13. Sarakstā atzīmējiet visas rindas vai noņemiet tām atzīmi.
+14. Noklikšķiniet uz **Piemērot režģim**.
+15. Laukā **Korekcijas summa** ievadiet kādu skaitli.
+16. Ievadiet vai atlasiet vērtību laukā **Atsauces punkts**.
+17. Sarakstā atzīmējiet visas rindas vai noņemiet tām atzīmi.
+18. Noklikšķiniet uz **Piemērot režģim**.
 
 
 

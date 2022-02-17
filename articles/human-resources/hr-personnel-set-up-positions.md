@@ -1,6 +1,6 @@
 ---
 title: Amatu iestatīšana
-description: Šajā tēmā aprakstīts, kā amati ir svarīga organizācijas hierarhijas zemākā līmeņa elements.
+description: Šajā tēmā ir aprakstīts, kā amati ir svarīgs organizācijas hierarhijas zemākā līmeņa elements.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: business-process
@@ -13,70 +13,72 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f4b9f09db8465cc55c9b0c4dc403c2c7a3647d7e
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: 67682b6ea949183c2697b658bb77925a791e7da1
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7728722"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071767"
 ---
 # <a name="set-up-positions"></a>Amatu iestatīšana
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
-Amats ir nozīmīgs organizācijas hierarhijas zemāko līmeņu elements. Pozīcija ir atsevišķa darba instance. Piemēram, amats "Pārdošanas vadītājs (Austrumu)," ir viens no amatiem, kas ir saistīti ar darbu "Pārdošanas vadītājs". Amats pastāv nodaļā, un ar to var būt saistīts tikai viens darbinieks. Šajā uzdevumā mēs izklāstīsim darbības, kas ir jāizpilda, lai izveidotu amatu. Šī procedūra ir paredzēta personāla vadības speciālistam.
+Amats ir nozīmīgs organizācijas hierarhijas zemāko līmeņu elements. Pozīcija ir atsevišķa darba instance. Piemēram, amats "Pārdošanas menedžeris (austrumi)" ir viens no amatiem, kas saistīts ar darbu "Pārdošanas vadītājs". Amats pastāv nodaļā, un ar to var būt saistīts tikai viens darbinieks. Šajā uzdevumā mēs izklāstīsim darbības, kas ir jāizpilda, lai izveidotu amatu. Šī procedūra ir paredzēta personāla vadības speciālistam.
 
-1. Atlasiet **darbaspēka pārvaldību**.
-2. Atlasiet **Atvērtās pozīcijas**.
-3. Atlasiet **·** Jauns, lai atvērtu nolaižamo dialoglodziņu.
-4. Laukā **·** Darbs ievadiet vai atlasiet vērtību.
+1. Atlasiet **Darbaspēka pārvaldība**.
+2. Atlasiet **Atvērt pozīcijas**.
+3. Atlasiet **Jauns**, lai atvērtu nolaižamo dialoglodziņu.
+4. Laukā **Darbs** ievadiet vai atlasiet vērtību.
 
-    Darba **·** apraksta, amata **un** pilnas laika ekvivalenta nodarbinātības koeficienta lauki tiek **·** automātiski kopēti no atlasītā darba uz amatu.
+    Lauki **Darba apraksts**, **Nosaukums** un **Pilna laika ekvivalentais nodarbinātības faktors** tiek automātiski kopēti no atlasītā darba amatā.
 
-5. ResolveChanges vienumam Darbs.
-6. Atlasiet **Izveidot** amatu.
-7. Laukā **·** Nodaļa ievadiet vai atlasiet vērtību.
-8. Laukā **Pozīcijas** tips ievadiet vai atlasiet vērtību.
-9. Laukā **·** Atlīdzības reģions ievadiet vai atlasiet vērtību.
+5. Atlasiet **Izveidot amatu**.
+6. Laukā **Nodaļa** ievadiet vai atlasiet vērtību.
+7. Laukā **Pozīcijas tips** ievadiet vai atlasiet vērtību.
+8. Laukā **Atlīdzības reģions** ievadiet vai atlasiet vērtību.
 
-    Lauks **·** Atlīdzības reģions nosaka atlīdzības piemērotības nosacījumus un fiksētā pieauguma budžetus, kas attiecas uz darbinieku šajā amatā.
+    Lauks **Atlīdzības reģions** nosaka atlīdzības piemērojamības noteikumus un fiksētos budžeta palielinājumus, kas attiecas uz šajā amatā esošo darbinieku.
 
-10. Laukā **Pieejams** piešķirei ievadiet datumu un laiku.
-11. Izvērsiet **sadaļu Amata** ilgums.
+9. Laukā **Pieejams piešķiršanai** ievadiet datumu un laiku.
+10. Izvērsiet **sadaļu Pozīcijas ilgums**.
 
-    Amata ie ilgums tiek ievadīts pēc noklusējuma, pamatojoties uz iepriekš ievadītiem aktivizēšanas un aiziešanas pensijā datumiem.
+    Pozīcijas ilgums tiek ievadīts pēc noklusējuma, pamatojoties uz aktivizēšanas un pensionēšanās datumiem, kas ievadīti iepriekš.
 
-12. Izvērsiet **sadaļu Pārskati** līdz pozīcijai.
+11. Izvērsiet **sadaļu Atskaites, lai novietotu**.
 
     Kad darbinieku piešķirat kādam amatam, kas ir pakļauts citam amatam, jūs izveidojat tiešas pakļautības attiecības starp darbiniekiem, kuri ir piešķirti šiem abiem amatiem.
 
-13. Atlasiet **·** Jauns, lai atvērtu nolaižamo dialoglodziņu.
-14. Laukā **·** Pārskati, kas jāievada vai atlasiet vērtību.
-15. Atlasiet **Izveidot**.
-16. Izvērsiet **sadaļu Darbinieka** piešķire.
-17. Izvērsiet **sadaļu** Attiecības.
+12. Atlasiet **Jauns, lai** atvērtu nolaižamo dialoglodziņu.
+13. Laukā **Atskaites, kas jā** ievadītas vai atlasiet vērtību.
+14. Atlasiet **Izveidot**.
+15. Izvērsiet **sadaļu Darbinieka piešķiršana**.
+16. Izvērsiet **sadaļu Relācijas**.
 
     Ja jūsu organizācija izmanto matricas hierarhiju vai citu pielāgotu hierarhiju, varat iestatīt amatu hierarhijas tipus un pēc tam pievienot katra iestatītā hierarhijas tipa matiem pakļautības attiecības.
 
-18. Atlasiet **Pievienot**.
-19. Sarakstā atzīmējiet atlasīto rindu.
-20. Laukā **Hierarhijas** nosaukums ievadiet vai atlasiet vērtību.
-21. Laukā **Pārskati par pozīciju** ievadiet vai atlasiet vērtību.
-22. Izvērsiet **sadaļu** Alga.
-23. Laukā **Apmaksas** cikls ievadiet vai atlasiet vērtību.
-24. Laukā **Apmaksāts** ar ievadiet vai atlasiet vērtību.
-25. Laukā **Ikgadējās** regulārās stundas ievadiet skaitli.
+17. Atlasiet **Pievienot**.
+18. Sarakstā atzīmējiet atlasīto rindu.
+19. Laukā **Hierarhijas nosaukums** ievadiet vai atlasiet vērtību.
+20. Laukā **Pārskati par pozīciju** ievadiet vai atlasiet vērtību.
+21. Izvērsiet **sadaļu Algas**.
+22. Laukā **Apmaksas cikls** ievadiet vai atlasiet vērtību.
+23. Laukā **Apmaksāts pēc** ievadiet vai atlasiet vērtību.
+24. Laukā **Gada parastais darba laiks** ievadiet skaitli.
 
-    Ievadītā vērtība ir regulāri apmaksāto stundu skaits, cik ilgi darbiniekam šajā amatā ir paredzēts strādāt katru gadu.
+    Ievadītā vērtība ir regulāri apmaksāto stundu skaits, ko šajā amatā darbiniekam ir jāstrādā katru gadu.
 
-26. Izvērsiet **sadaļu** Arodbiedrība.
-27. **Sakļaut arodbiedrības** sadaļu.
-28. Izvērsiet **sadaļu Finanšu** dimensijas.
-29. Laukā **Sadale** veidne ievadiet vai atlasiet vērtību.
-30. Laukā **·** Nodaļa ievadiet vai atlasiet vērtību.
-31. Atlasiet **Saglabāt**.
+25. Izvērsiet **sadaļu Arodbiedrība**.
+26. Sakļaut **sadaļu** Arodbiedrība.
+27. Izvērsiet **sadaļu Finanšu dimensijas**.
+28. Laukā **Sadales veidne** ievadiet vai atlasiet vērtību.
+29. Laukā **Nodaļa** ievadiet vai atlasiet vērtību.
+30. Atlasiet **Saglabāt**.
 
 
 

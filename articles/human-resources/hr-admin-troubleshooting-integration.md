@@ -14,18 +14,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8c368f916a199c7472f6f886d143048487a38ecc
-ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
-ms.translationtype: HT
+ms.openlocfilehash: 308e2a538666522edf4a76be13b93c82c3f3a774
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "7413415"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071114"
 ---
 # <a name="integration-with-finance-faq"></a>Integrācija ar Finance bieži uzdotajiem jautājumiem
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Šajā tēmā ir sniegtas atbildes uz bieži uzdotiem jautājumiem par to, kādi dati tiek sinhronizēti, integrējot Dynamics 365 Human Resources ar Dynamics 365 Finance.
 
@@ -86,7 +89,7 @@ Izņēmumu apstrādei nav nepieciešama īpaša iestatīšana. Datu integrētāj
 
 ## <a name="can-i-set-up-bi-directional-integration"></a>Vai var iestatīt divvirzienu integrāciju?
 
-Nē, integrācija pašlaik ir vienvirziena (no Human Resources uz Finance and Operations). Tomēr ir pieejama noklusējuma veidne datu sūtīšanai no Human Resources uz Finance.
+Nē, integrācija pašlaik ir vienvirziena (cilvēkresursi uz finansēm un darbībām). Tomēr ir pieejama noklusējuma veidne datu sūtīšanai no Human Resources uz Finance.
 
 ## <a name="can-i-allow-record-deletion-as-part-of-my-integration"></a>Vai var atļaut ieraksta dzēšanu integrācijas ietvaros?
 
@@ -116,7 +119,7 @@ Minētajai kļūdai var būt šādi iemesli:
 
 - Datu pārsūtīšanas dēļ avotā (Dataverse) tika izgūti dublēti ieraksti.
 
-- Datu pārsūtīšanai ir nulles vērtības laukiem, kas ir nepieciešami Finance and Operations. Pārbaudiet datus, kas atrodas Dataverse un atbilst Finance and Operations prasībām.
+- Datu pārsūtīšanai ir nulles vērtības laukiem, kas ir nepieciešami risinājumā Finance and Operations. Pārbaudiet, vai dati, kas atrodas pakalpojumā Dataverse, atbilst Finance and Operations prasībām.
 
 ## <a name="if-there-are-execution-errors-and-the-employee-id-didnt-sync-how-do-i-find-the-history-job-which-has-the-failed-employee-record"></a>Ja radušās izpildes kļūdas un darbinieka ID netika sinhronizēts, kā atrast vēsturē darbu, kurā ir nesekmīgi apstrādātais darbinieka ieraksts?
 

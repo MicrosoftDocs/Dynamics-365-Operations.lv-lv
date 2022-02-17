@@ -9,20 +9,20 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 127b4092ad3c5e8737aff43f503e0a8f36ff1ec8
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 601c49e21c3a97d2da225705ddbb386e491d4d25
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781348"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060336"
 ---
 # <a name="party-and-global-address-book"></a>Puse un globālā adrešu grāmata
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-*Puse* un *globālā adrešu grāmata* ir jēdzieni Finance and Operations lietojumprogrammās. Puse var būt organizācija vai persona. Ir ērti globāli glabāt un pārvaldīt puses rekvizītus, piemēram, nosaukumu, valodu, kontaktpersonas un adreses. Tad, ja īpašuma vērtība mainās vienā vietā, izmaiņas atspoguļojas visās vietās, kur puse ir iesaistīta.
+
+*Pušu* un *globālā adrešu grāmata* ir jēdzieni Finanšu un operāciju lietojumprogrammās. Puse var būt organizācija vai persona. Ir ērti globāli glabāt un pārvaldīt puses rekvizītus, piemēram, nosaukumu, valodu, kontaktpersonas un adreses. Tad, ja īpašuma vērtība mainās vienā vietā, izmaiņas atspoguļojas visās vietās, kur puse ir iesaistīta.
 
 ## <a name="party"></a>Puse
 
@@ -46,7 +46,7 @@ Puses modelis bieži tiek izmantots, lai pārstāvētu vidējas un sarežģītas
 > [!TIP]
 > Mēģinot izveidot jaunu konta ierakstu, izmantojiet lauku **Puse**, lai meklētu ierakstu pēc nosaukuma. Šādā veidā, ja atrodat ierakstu, tas ir tikai jāatlasa. Tad sistēma automātiski aizpilda visus datus no puses. Nav manuāli jāiestāta visi nepieciešamie lauki. Šo darbību var atrast ārpus saraksta lapas **Konts**, **Kontaktpersona** un **Kreditors**.
 
-Dubultrakstīšana neatbalsta visas puses Finance and Operations programmu lomas. Pilnu pušu lomu sarakstu skatiet rakstā [Globālās adrešu grāmatas pārskats](../../../fin-ops/organization-administration/overview-global-address-book.md).
+Divrakstot neatbalsta visas Finanšu un operāciju programmu pušu lomas. Pilnu pušu lomu sarakstu skatiet rakstā [Globālās adrešu grāmatas pārskats](../../../fin-ops/organization-administration/overview-global-address-book.md).
 
 ### <a name="global-address-book"></a>Globālā adrešu grāmata
 
@@ -75,7 +75,7 @@ Tabulā **Kontaktpersona** tabulā var saglabāt šādu veidu rindas.
 |----------|-------------|
 | Persona, kas ir klients (piemēram, pārdodama kontaktpersona vai B2C klients) | Svītrots kontaktpersonas ieraksts, kurā lauks **Uzņēmums** nav tukšs un lauks **Ir klients** ir iestatīts uz **Jā**. |
 | Persona, kas ir kreditors (piemēram, individuālais īpašnieks, tāds kā kreditors) | Svītrots kontaktpersonas ieraksts, kurā lauks **Uzņēmums** nav tukšs un lauks **Ir kreditors** ir iestatīts uz **Jā**. |
-| Persona, kas ir gan debitors, gan kreditors | Svītrots kontaktpersonas ieraksts, kurā lauks **Uzņēmums** nav tukšs, lauks **Ir klients** ir iestatīts uz **Jā** un lauks **Ir kreditors** ir iestatīts uz **Jā**. Perosona var būt gan viena produkta ražotājs, gan cita produkta patērētājs. Gan Finance and Operations programmas, gan duālā rakstīšana atbalsta šīs attiecības. |
+| Persona, kas ir gan debitors, gan kreditors | Svītrots kontaktpersonas ieraksts, kurā lauks **Uzņēmums** nav tukšs, lauks **Ir klients** ir iestatīts uz **Jā** un lauks **Ir kreditors** ir iestatīts uz **Jā**. Perosona var būt gan viena produkta ražotājs, gan cita produkta patērētājs. Gan Finance, gan Operations lietotnes un divējāda rakstīšana atbalsta šīs attiecības. |
 | Persona, kas ir organizācijas kontaktpersona, bet nav klients vai kreditors | Nesvītrots kontaktpersonas ieraksts, kurā lauks **Uzņēmums** ir tukšs, lauks **Ir klients** ir iestatīts uz **Nē** un lauks **Ir kreditors** ir iestatīts uz **Nē**. |
 
 ## <a name="contact-for-party-table"></a>Puses kontaktpersonas tabula
@@ -142,9 +142,9 @@ Varat izmantot pogu **Jauna elektroniskā adrese** virs režģa, lai izveidotu p
 Elektroniskās adreses ir pieejamas tikai šajā režģī. Turpmākajos laidienos visi pasta adrešu un elektronisko adrešu lauki tiks noņemti no citām cilnēm, piemēram, **Kopsavilkums** un **Detalizēta informācija**. Cilnē **Detalizēta informācija** rādītā kontaktinformācija ir tikai primārās elektroniskās adreses kopijas, piemēram, primārais tālrunis, primārais e-pasts, primārais fakss un primārais Twitter ID. Potenciālā klienta kvalifikācijas procesa laikā varat norādīt gan biznesa tālruņa numuru, gan mobilā tālruņa numuru. Biznesa tālruņa numurs tiek uzskatīts par primāro tālruņa numuru, ja **IsMobile=Nē** un mobilā tālruņa numurs tiek uzskatīts par sekundāro tālruni, ja **IsMobile=Jā**.
 
 > [!TIP]
-> Lai pārvaldītu pasta un elektroniskās adreses, lietojiet **Konta** un **Kontaktu** veidlapas **Adreses** **Elektroniskās adreses** . Tas nodrošina, ka adrešu dati tiek sinhronizēti ar Finance and Operations programmām.
+> Lai pārvaldītu pasta un elektroniskās adreses, lietojiet **Konta** un **Kontaktu** veidlapas **Adreses** **Elektroniskās adreses** . Tas nodrošina adrešu datu sinhronizāciju ar Finance and Operations programmām.
 
-## <a name="setup"></a>Iestatīt
+## <a name="setup"></a>Iestatīšana
 
 1. Atveriet savu Customer Engagement programmas vidi.
 
@@ -230,7 +230,7 @@ Elektroniskās adreses ir pieejamas tikai šajā režģī. Turpmākajos laidieno
 
 12. Palaidiet kartes šādā secībā. Ja rodas kļūda, kas norāda, ka "Projekta apstiprināšana neizdevās. Trūkst mērķa lauka...", tad atveriet karti un atlasiet **Atsvaidzināt tabulas**. Pēc tam palaidiet karti.
 
-    Finance and Operations programma | Customer engagement programma  
+    Finanšu un operāciju programma | Customer engagement programma  
     ----------------------------|------------------------
     [CDS puses](mapping-reference.md#220) | msdyn_parties
     [CDS pasta adreses vietas](mapping-reference.md#234) | msdyn_postaladdresscollections
@@ -269,36 +269,36 @@ Elektroniskās adreses ir pieejamas tikai šajā režģī. Turpmākajos laidieno
 
 Tabulas karšu vākšana darbojas kopā puses un globālās adrešu grāmatas mijiedarbībai, kā redzams nākamajā tabulā.
 
-| Finance and Operations programma | Customer engagement programma | Apraksts |
+| Finanšu un operāciju programma | Customer engagement programma | Apraksts |
 |----------------------------|-------------------------|-------------|
-| [Kontaktpersonu amati](mapping-reference.md#223) | msdyn\_ salescontactpersontitles |
+| [Kontaktpersonu amati](mapping-reference.md#223) | msdyn\_salescontactpersontitles |
 | [Debitori V3](mapping-reference.md#101) | konti |
 | [Debitori V3](mapping-reference.md#116) | kontaktpersonas |
-| [CDS puses](mapping-reference.md#220) | msdyn\_ parties |
-| [CDS puses pasta adreses vietas](mapping-reference.md#233) | msdyn\_ partypostaladdresses |
-| [CDS pasta adreses vēsture V2](mapping-reference.md#235) | msdyn\_ postaladdresses |
-| [CDS pasta adreses vietas](mapping-reference.md#234) | msdyn\_ postaladdresscollections |
+| [CDS puses](mapping-reference.md#220) | msdyn\_parties |
+| [CDS puses pasta adreses vietas](mapping-reference.md#233) | msdyn\_partypostaladdresses |
+| [CDS pasta adreses vēsture V2](mapping-reference.md#235) | msdyn\_postaladdresses |
+| [CDS pasta adreses vietas](mapping-reference.md#234) | msdyn\_postaladdresscollections |
 | [CDS pārdošanas piedāvājuma virsraksts](mapping-reference.md#215) | piedāvājumi |
 | [CDS pārdošanas pasūtījumu virsraksti](mapping-reference.md#217) | salesorders |
-| [Noslēguma frāzes](mapping-reference.md#222) | msdyn\_ complimentaryclosings |
-| [Kontaktpersonas V2](mapping-reference.md#221) | msdyn\_ contactforparties |
-| [Lēmumu pieņemšanas lomas](mapping-reference.md#224) | msdyn\_ decisionmakingroles |
-| [Nodarbinātības darbu funkcijas](mapping-reference.md#225) | msdyn\_ employmentjobfunctions |
-| [Lojalitātes programmu līmeņi](mapping-reference.md#226) | msdyn\_ loyaltylevels |
-| [Puses kontaktpersonas V3](mapping-reference.md#236) | msdyn\_ partyelectronicaddresses |
-| [Personas rakstura veidi](mapping-reference.md#227) | msdyn\_ personalcharactertypes |
+| [Noslēguma frāzes](mapping-reference.md#222) | msdyn\_complimentaryclosings |
+| [Kontaktpersonas V2](mapping-reference.md#221) | msdyn\_contactforparties |
+| [Lēmumu pieņemšanas lomas](mapping-reference.md#224) | msdyn\_decisionmakingroles |
+| [Nodarbinātības darbu funkcijas](mapping-reference.md#225) | msdyn\_employmentjobfunctions |
+| [Lojalitātes programmu līmeņi](mapping-reference.md#226) | msdyn\_loyaltylevels |
+| [Puses kontaktpersonas V3](mapping-reference.md#236) | msdyn\_partyelectronicaddresses |
+| [Personas rakstura veidi](mapping-reference.md#227) | msdyn\_personalcharactertypes |
 | [Pārdošanas rēķinu galvenes V2](mapping-reference.md#118) | rēķini |
-| [Uzrunas](mapping-reference.md#228) | msdyn\_ salutations |
-| [Kreditori V2](mapping-reference.md#202) | msdyn\_ vendors |
+| [Uzrunas](mapping-reference.md#228) | msdyn\_salutations |
+| [Kreditori V2](mapping-reference.md#202) | msdyn\_vendors |
 
 Papildinformāciju skatiet sadaļā [Dubultā ieraksta kartēšanas atsauce](mapping-reference.md).
 
 ## <a name="known-issues-and-limitations"></a>Zināmās problēmas un ierobežojumi
 
-+ Programmās Finance and Operations, kad izveidojat debitoru kopā ar adresi un saglabājat to, adrese var nesinhronizēties uz tabulu **Adreses**. Tas ir tāpēc, ka pastāv dubultrakstīšanas platformu secības problēma. Vispirms izveidojiet debitoru un saglabājiet to. Pēc tam pievienojiet adresi.
-+ Programmās Finance and Operations, kad debitora ierakstam ir primārā adrese un jūs šim debitoram izveidojat jaunu kontaktpersonu, tad kontaktpersonas ieraksts manto primāro adresi no saistītā debitora ieraksta. Tas notiek arī attiecībā uz kreditora kontaktpersonu. Dataverse neatbalsta šo uzvedību. Ja ir aktivizēta duālā rakstīšana, debitoru kontaktpersonas, kas ir mantotas ar primāro adresi no programmas Finance and Operations, tiek sinhronizētas Dataverse kopā ar tās adresi.
++ Finanšu un operāciju programmās, veidojot klientu kopā ar adresi un saglabājot to, adrese var neti noteikt sinhronizāciju **ar tabulu Adrese**. Tas ir tāpēc, ka pastāv dubultrakstīšanas platformu secības problēma. Vispirms izveidojiet debitoru un saglabājiet to. Pēc tam pievienojiet adresi.
++ Lietojumprogrammās Finanses un operācijas, ja klienta ierakstam ir primārā adrese un šim klientam tiek izveidota jauna kontaktpersona, kontaktpersonas ieraksts pārmanto primāro adresi no saistītā klienta ieraksta. Tas notiek arī attiecībā uz kreditora kontaktpersonu. Dataverse neatbalsta šo uzvedību. Ja ir iespējota dubultā rakstīšana, klienta kontaktpersonas, kas ir pārmantotas ar primāro adresi no programmas Finance and Operations, Dataverse tiek sinhronizētas kopā ar tās adresi.
 + Elektroniskās adreses, kas iestatītas elektroniskās adreses veidlapu **Konts**, **Kontaktpersona** un **Kreditors** cilnē, nāk no `msdyn_partyelectronicaddress` tabulas. Šī informācija neplūst uz tās saistītajām darījumiem, piemēram, pārdošanas pasūtījumu, piedāvājumu un pirkšanas pasūtījumu. Mēs plānojam risināt šo problēmu inkrementālā izlaidē. Esošie dati konta elektroniskās adreses laukos un kontaktpersonu ierakstos turpinās strādāt ar darījumiem, piemēram, pārdošanas pasūtījumu, piedāvājumu un pirkšanas pasūtījumu.
-+ Lietojumprogrammās Finance and Operations var izveidot kontaktpersonas ierakstu no veidlapas **Pievienot kontaktpersonu**. Ja mēģināt izveidot jaunu kontaktpersonu no veidlapas **Skatīt kontaktpersonu**, darbība neizdodas. Šī ir zināma problēma.
++ Lietojumprogrammās Finance and Operations varat izveidot kontaktpersonas ierakstu **no formas Pievienot kontaktpersonu**. Ja mēģināt izveidot jaunu kontaktpersonu no veidlapas **Skatīt kontaktpersonu**, darbība neizdodas. Šī ir zināma problēma.
 
     ![Zināmā problēma ar Pievienot kontaktpersonu.](media/party-gab-contact-issue.png)
 
@@ -307,4 +307,4 @@ Papildinformāciju skatiet sadaļā [Dubultā ieraksta kartēšanas atsauce](map
 
     ![Zināmā problēma ar Adresi.](media/party-gab-address-issue.png)
 
-+ Nevar ievadīt ar nākotnes datumu datētu pasta adresi, izmantojot programmu Finance and Operations ar dubultās rakstīšanas funkciju, jo Dataverse neatbalsta spēkā stāšanās datumu. Ja ievadāt ar nākotnes datumu datētu pasta adresi, izmantojot programmu Finance and Operations, tā tiek pilnībā sinhronizēta ar Dataverse un jūs uzreiz redzēsiet adresi lietotāja interfeisā. Jebkura šī ieraksta atjaunināšanas rezultātā rodas kļūda, jo tā ir datēta ar nākotnes datumu un nav aktuāls Finance and Operations programmā.
++ Jūs nevarat ievadīt tālparakstu pasta adresi, izmantojot programmu Finance and Operations ar divkāršu rakstīšanas darbību, jo Dataverse neatbalsta datuma efektivitāti. Ja ievadāt pasta adresi ar nākotnes datumu, izmantojot finance and operations lietotni, tā tiek pilnībā sinhronizēta Dataverse, un adresi lietotāja interfeisā redzēsiet nekavējoties. Visi šī ieraksta atjauninājumi radīs kļūdu, jo tas ir datēts ar nākotnes līgumu un nav aktuāls programmā Finanses un operācijas.
