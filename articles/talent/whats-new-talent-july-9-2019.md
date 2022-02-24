@@ -115,6 +115,3 @@ Pielāgotajiem laukiem tiks iespējoti tālāk norādītie elementi Common Data 
 - **Atvaļinājuma tips**
 - **Nodarbinātā bankas konts**
 - **Darba kalendārs**
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: Papildu filtrēšanas un vaicājumu sintakse
-description: Šajā tēmā aprakstītas filtrēšanas un vaicājumu opcijas dialoglodziņā Papildu filtrēšana/kārtošana un atbilstības operators filtrēšanas rūtī vai režģa kolonnas galvenes filtros.
+description: Šajā tēmā ir aprakstītas filtrēšanas un vaicājumu opcijas, kas ir pieejamas, ja rūts Filtrēšana dialoglodziņā Detalizētā filtrēšana/kārtošana vai režģa kolonnas filtros izmantojat operatoru atbilst.
 author: jasongre
+manager: AnnBe
 ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysQueryForm
 audience: Application User
@@ -15,19 +17,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0fefac5a7a2b299ba606a854824ee456c572487
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 650f1c209b1797973634c788645a4659bff28f13
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070013"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798675"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Papildu filtrēšanas un vaicājumu sintakse
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Šajā tēmā ir aprakstītas filtrēšanas un vaicājumu opcijas, kas ir pieejamas, ja rūts Filtrēšana dialoglodziņā Detalizētā filtrēšana/kārtošana vai režģa kolonnas filtros izmantojat operatoru **atbilst**.
 
@@ -122,9 +121,9 @@ ms.locfileid: "8070013"
 <td>Divas secīgas dubultās pēdiņas (<strong>""</strong>) atrod rindas, kurām pašreizējai kolonnai nav vērtības.</td>
 </tr>
 <tr>
-<td>(<span class="code">Vaicājums</span> Finanses un operācijas) (vaicājums par finansēm un operācijām starp iekavām)</td>
+<td>(<span class="code">Finance and Operations vaicājums</span>) (Finance and Operations vaicājums starp iekavām)</td>
 <td>Atbilst definētajam vaicājumam.</td>
-<td>Ierakstiet vaicājumu kā SQL priekšrakstu starp iekavām, izmantojot vaicājuma valodu Finanses un operācijas.</td>
+<td>Ievadiet vaicājumu kā SQL izrakstu iekavās, izmantojot Finance and Operations vaicājuma valodu.</td>
   <td><strong><span class="code">((AccountNum kā "US *") & & (DirPartyTable.Name piemēram, "* CONT"))</span></strong><br><br> 
        piemērs sintaksei filtra nosacījumam laukā no saknes datu avota, kā arī laukā no cita datu avota (visu klientu lapai)</td>
 </tr>
@@ -169,9 +168,9 @@ Papildinformāciju, kā arī vairākus piemērus par <strong>SysQueryRangeUtil</
 <td>Atrodiet datumu, kas atbilst sesijas datumam. Pozitīvās vērtības norāda turpmākos datumus, bet negatīvas vērtības norāda iepriekšējos datumus.</td>
 <td>
 <ul>
-<li><strong>Rīt</strong> — ievadiet <strong>(Day(1))</strong>.</li>
-<li><strong>Šodien</strong> — ievadiet <strong>(Day(0))</strong>.</li>
-<li><strong>Vakar</strong> — ievadiet <strong>(Day(-1))</strong>.</li>
+<li><strong>Rīt</strong> — ievadiet <strong>(Day(1))</strong>.</li>
+<li><strong>Šodien</strong> — ievadiet <strong>(Day(0))</strong>.</li>
+<li><strong>Vakar</strong> — ievadiet <strong>(Day(-1))</strong>.</li>
 </ul>
 </td>
 </tr>
@@ -180,8 +179,8 @@ Papildinformāciju, kā arī vairākus piemērus par <strong>SysQueryRangeUtil</
 <td>Atrodiet datumu diapazonu, kas atbilst sesijas datumam. Pozitīvās vērtības norāda turpmākos datumus, bet negatīvas vērtības norāda iepriekšējos datumus.</td>
 <td>
 <ul>
-<li><strong>Pēdējās 30 dienas</strong> — ievadiet <strong>(DayRange(-30,0))</strong>.</li>
-<li><strong>Iepriekšējās 30 dienas un nākamās 30 dienas</strong> — ievadiet <strong>(DayRange(-30,30))</strong>.</li>
+<li><strong>Pēdējās 30 dienas</strong> — ievadiet <strong>(DayRange(-30,0))</strong>.</li>
+<li><strong>Iepriekšējās 30 dienas un nākamās 30 dienas</strong> — ievadiet <strong>(DayRange(-30,30))</strong>.</li>
 </ul>
 </td>
 </tr>
@@ -190,7 +189,7 @@ Papildinformāciju, kā arī vairākus piemērus par <strong>SysQueryRangeUtil</
 <td>Atrast visus datumus pēc norādītā atbilstošā datuma.</td>
 <td>
 <ul>
-<li><strong>Vairāk nekā 30 dienas no šodienas</strong> — ievadiet <strong>(GreaterThanDate(30))</strong>.</li>
+<li><strong>Vairāk nekā 30 dienas no šodienas</strong> — ievadiet <strong>(GreaterThanDate(30))</strong>.</li>
 </ul>
 </td>
 </tr>
@@ -199,7 +198,7 @@ Papildinformāciju, kā arī vairākus piemērus par <strong>SysQueryRangeUtil</
 <td>Atrodiet visus datumu/laika ierakstus pēc pašreizējā laika.</td>
 <td>
 <ul>
-<li><strong>Visi turpmākie datumi/laiki</strong> — ievadiet <strong>(GreaterThanUtcNow())</strong>.</li>
+<li><strong>Visi turpmākie datumi/laiki</strong> — ievadiet <strong>(GreaterThanUtcNow())</strong>.</li>
 </ul>
 </td>
 </tr>
@@ -208,7 +207,7 @@ Papildinformāciju, kā arī vairākus piemērus par <strong>SysQueryRangeUtil</
 <td>Atrodiet visus datumus pirms norādītā atbilstošā datuma.</td>
 <td>
 <ul>
-<li><strong>Mazāk nekā septiņas dienas no šodienas</strong> — ievadiet <strong>(LessThanDate(7))</strong>.</li>
+<li><strong>Mazāk nekā septiņas dienas no šodienas</strong> — ievadiet <strong>(LessThanDate(7))</strong>.</li>
 </ul>
 </td>
 </tr>
@@ -217,7 +216,7 @@ Papildinformāciju, kā arī vairākus piemērus par <strong>SysQueryRangeUtil</
 <td>Atrodiet visus datumu/laika ierakstus pirms pašreizējā laika.</td>
 <td>
 <ul>
-<li><strong>Vis iepriekšējie datumi/laiki</strong> — ievadiet <strong>(LessThanUtcNow())</strong>.</li>
+<li><strong>Vis iepriekšējie datumi/laiki</strong> — ievadiet <strong>(LessThanUtcNow())</strong>.</li>
 </ul>
 </td>
 </tr>
@@ -226,8 +225,8 @@ Papildinformāciju, kā arī vairākus piemērus par <strong>SysQueryRangeUtil</
 <td>Atrodiet pašreizējo mēnesi datumu diapazonā, kurā norādīti mēneši.</td>
 <td>
 <ul>
-<li><strong>Iepriekšējie divi mēneši</strong> — ievadiet <strong>(MonthRange(-2,0))</strong>.</li>
-<li><strong>Nākamie trīs mēneši</strong> — ievadiet <strong>(MonthRange(0,3))</strong>.</li>
+<li><strong>Iepriekšējie divi mēneši</strong> — ievadiet <strong>(MonthRange(-2,0))</strong>.</li>
+<li><strong>Nākamie trīs mēneši</strong> — ievadiet <strong>(MonthRange(0,3))</strong>.</li>
 </ul>
 </td>
 </tr>
@@ -236,13 +235,10 @@ Papildinformāciju, kā arī vairākus piemērus par <strong>SysQueryRangeUtil</
 <td>Atrodiet pašreizējo gadu datumu diapazonā, kurā norādīti gadi.</td>
 <td>
 <ul>
-<li><strong>Nākamais gads</strong> — ievadiet <strong>(YearRange(0, 1))</strong>.</li>
-<li><strong>Iepriekšējais gads</strong> — ievadiet <strong>(YearRange(-1,0))</strong>.</li>
+<li><strong>Nākamais gads</strong> — ievadiet <strong>(YearRange(0, 1))</strong>.</li>
+<li><strong>Iepriekšējais gads</strong> — ievadiet <strong>(YearRange(-1,0))</strong>.</li>
 </ul>
 </td>
 </tr>
 </tbody>
 </table>
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

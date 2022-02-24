@@ -62,6 +62,3 @@ Ar šo atjaun. atlaistie darb., kas pieņemti atkārt., parādās aizgājušo da
 
 - **Problēma**: kad nodarbinātajam tiek pievienots jauns pielikums, poga **Jauns** un **Rediģēt** ir pelēkotas. 
 - **Risinājums:** pirms pielikuma lapas atvēršanas ir jāpārliecinās, vai papildinformācijas lodziņi lapā **Nodarbinātais** ir aizvērti. Ja, ielādējot lapu **Nodarbinātais**, papildinformācija ir aizvērta, pielikumu pogas tiek iespējotas. (Šī problēma tiks novērsta nākamajā platformas atjauninājumā.)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

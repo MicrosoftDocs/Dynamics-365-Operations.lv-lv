@@ -2,9 +2,11 @@
 title: Bieži uzdotie jautājumi par adrešu grāmatām
 description: Šajā tēmā ir sniegtas atbildes uz bieži uzdotajiem jautājumiem saistībā ar adrešu grāmatām.
 author: msftbrking
-ms.date: 02/03/2021
+manager: AnnBe
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DirPartyCheckDuplicate, DirPartyTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d429639f52c745a737567419b6012884ab20d43d
-ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
+ms.openlocfilehash: 922900b20b878dd8b479158d47a9f7792caa684d
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463630"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796902"
 ---
 # <a name="address-books-faq"></a>Bieži uzdotie jautājumi par adrešu grāmatām
 
@@ -65,13 +67,3 @@ Pušu ierakstus varat ievadīt globālajā adrešu grāmatā vai atbilstošajā 
 ## <a name="can-i-translate-address-information-for-party-records"></a>Vai varu tulkot adreses informāciju pušu ierakstiem?
 
 Varat iestatīt adreses informācijas tulkojumus tā, lai jūsu programmā informācija tiktu rādīta jūsu lietotāja valodā (sistēmas valodā), bet dokumentos, piemēram, pārdošanas pasūtījumos, tā tiktu rādīta citā valodā. Varat ievadīt tulkojumus valstu/reģionu nosaukumiem, adreses nolūkiem un nosaukumu/vārdu secībām. Piemēram, jūsu sistēmas valoda ir Dāņu, un jūs izveidojat pārdošanas pasūtījumu kādam debitoram Francijā. Šajā gadījumā programmā debitora ierakstu varat skatīt dāņu valodā, adreses informāciju drukātajā pārdošanas pasūtījumā varat rādīt franču valodā. Kad iestatāt tulkojumus, tulkojums jums ir jāievada katram vienumam sarakstā. Katrs vienums, kam neievadāt tulkojumu, tiks rādīts sistēmas valodā. Piemēram, jūsu sistēmas valoda ir Dāņu, un jūs sūtāt dokumentu debitoram Spānijā. Ja adreses informācijai neesat ievadījis tulkojumus Spāņu (ESP), šī informācija tiks rādīta dāņu valodā gan programmā, gan izdrukātajā dokumentā.
-
-## <a name="after-i-import-addresses-why-cant-i-edit-the-records"></a>Kāpēc pēc adrešu importēšanas nevaru rediģēt ierakstus?
-
-Importējot adreses ir lauks ar nosaukumu **IsLocationOwner**. Šajā laukā norādīts, vai puse, kura ir saistīta ar atrašanās vietu (adresi) ir adreses īpašnieks. Ja puse ir adreses īpašnieks, adresi var rediģēt, kad puse tiek izmantot globālajā adrešu grāmatā vai no galvenās ierakstu lapas (piemēram, klients, piegādātājs vai darbinieks). Ja puse nav adreses īpašnieks, ierakstu nevar rediģēt. 
-
-Importējot adreses lauku **IsLocationOwner** vajadzētu iestatīt uz opciju **Jā**, ja vēlaties, lai adresi var rediģēt, izmantojot saistīto pusi. Ja šis lauks ir importēts nepareizi, atrašanās vietas īpašnieku var atjaunināt vispārīgajā adrešu grāmatā.
-
-Papildu informāciju par to, kā mainīt importētas adreses vietas īpašnieku skatiet rakstā [Atrašanās vietu īpašnieku pārvaldība](./global-address-book-location-owner.md).
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

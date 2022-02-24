@@ -2,24 +2,27 @@
 title: Norēķināšanās modulis
 description: Šajā tēmā ir aprakstīts, kā pievienot norēķināšanas moduli lapā un iestatīt nepieciešamos rekvizītus.
 author: anupamar-ms
+manager: annbe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 031c70181e0dff9bc81450d2454f21e1dbaf1285d41b38ff6f7df6045923c27c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 28d58caba71ea98ccf163e756e879587aa254bb3
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715510"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4414208"
 ---
 # <a name="checkout-module"></a>Norēķināšanās modulis
 
@@ -27,13 +30,15 @@ ms.locfileid: "6715510"
 
 Šajā tēmā ir aprakstīts, kā pievienot norēķināšanas moduli lapā un iestatīt nepieciešamos rekvizītus.
 
+## <a name="overview"></a>Pārskats
+
 Norēķināšanās modulis ir īpašs konteiners, kas vieso visus moduļus, kuri nepieciešami pasūtījuma izveidei. Tas sniedz pakāpenisku plūsmu, ko klients izmanto, lai ievadītu visu atbilstošo informāciju pirkuma veikšanai. Tiek fiksēta piegādes adrese, nosūtīšanas metode un norēķinu informācija. Tas sniedz arī pasūtījuma kopsavilkumu un citu informāciju, kas saistīta ar klienta pasūtījumu.
 
 Izrakstīšanās modulis atveido datus, pamatojoties uz groza ID. Šis groza ID tiek saglabāts kā pārlūkprogrammas sīkfails. Groza ID ir nepieciešams, lai atveidotu informāciju norēķināšanās modulī, piemēram, pasūtījumā norādītās preces, kopējo summu un atlaides. 
 
 Attēlā zemāk redzams Fabrikam norēķināšanās moduļa piemērs norēķināšanās lapā.
 
-![Norēķināšanās moduļa piemērs.](./media/Checkout.PNG)
+![Norēķināšanās moduļa piemērs](./media/Checkout.PNG)
 
 ## <a name="checkout-module-properties"></a>Norēķināšanās moduļa rekvizīti
 
@@ -52,13 +57,13 @@ Norēķinu modulī tiek rādīts pasūtījuma kopsavilkums, un tā nodrošina fu
 
     Attēlā zemāk redzams Fabrikam piegādes adreses moduļa piemērs norēķināšanās lapā.
 
-    ![Piegādes adreses moduļa piemērs.](./media/ecommerce-shippingaddress.PNG)
+    ![Piegādes adreses moduļa piemērs](./media/ecommerce-shippingaddress.PNG)
 
 - **Piegādes opcijas** — šis modulis ļauj klientam izvēlēties pasūtījuma piegādes veidu. Plašāku informāciju par šo moduli skatiet [Piegādes opciju modulis](delivery-options-module.md).
 
     Attēlā zemāk redzams piegādes opciju moduļa piemērs norēķināšanās lapā.
  
-    ![Piegādes opciju moduļa piemērs.](./media/ecommerce-deliveryoptions.PNG)
+    ![Piegādes opciju moduļa piemērs](./media/ecommerce-deliveryoptions.PNG)
 
 - **Norēķināšanās sadaļas konteiners** — šis modulis ir konteiners, kurā varat ievietot vairākus moduļus, lai izveidotu sadaļu norēķināšanās plūsmā. Piemēram, visus ar maksājumiem saistītos moduļus var ievietot šajā konteinerā, lai tos varētu parādīt kā vienu sadaļu. Šis modulis ietekmē tikai plūsmas izkārtojumu.
 
@@ -70,7 +75,7 @@ Norēķinu modulī tiek rādīts pasūtījuma kopsavilkums, un tā nodrošina fu
 
     Attēlā zemāk ir parādīts dāvanu karšu, lojalitātes programmas punktu, maksājumu moduļu piemērs norēķināšanās lapā.
 
-    ![Dāvanu karšu, lojalitātes programmas punktu, maksājumu moduļu piemērs norēķināšanās lapā.](./media/ecommerce-payments.PNG)
+    ![Dāvanu karšu, lojalitātes programmas punktu, maksājumu moduļu piemērs norēķināšanās lapā](./media/ecommerce-payments.PNG)
 
 - **Kontaktinformācija** — šis modulis ļauj klientam pievienot vai mainīt kontaktpersonas informāciju (e-pasta adresi) pasūtījumam.
 
@@ -80,7 +85,7 @@ Norēķinu modulī tiek rādīts pasūtījuma kopsavilkums, un tā nodrošina fu
 
     Attēlā zemāk redzams noteikumu un nosacījumu piemērs norēķināšanās lapā.
 
-    ![Norēķinu lapas noteikumu un nosacījumu piemērs.](./media/ecommerce-checkout-terms.PNG)
+    ![Norēķinu lapas noteikumu un nosacījumu piemērs](./media/ecommerce-checkout-terms.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Commerce Scale Unit mijiedarbība
 
@@ -122,6 +127,3 @@ Lai pievienotu norēķināšanās moduli jaunā lapā un iestatītu nepieciešam
 [Pasūtījumu informācijas modulis](order-confirmation-module.md)
 
 [Dāvanu kartes modulis](add-giftcard.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

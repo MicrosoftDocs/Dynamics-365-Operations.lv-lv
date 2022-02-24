@@ -1,35 +1,33 @@
 ---
 title: Dzīves notikumu apstrāde
 description: Darbinieku dzīves cikla laikā Microsoft Dynamics 365 Human Resources katrs darbinieks var sastapties ar dažādām dzīves notikumu izmaiņām.
-author: twheeloc
-ms.date: 08/23/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart, BenefitLifeEventTypes, BenefitEligibilityProcessResultViewer
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9155795edf657d6589539e58d4c1536f7e9d64c3
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: ada986888a22afe83885985a694cd00ff94c9217
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069659"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419495"
 ---
 # <a name="process-life-events"></a>Dzīves notikumu apstrāde
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Darbinieku dzīves cikla laikā Microsoft Dynamics 365 Human Resources katrs darbinieks var sastapties ar dažādām dzīves notikumu izmaiņām. Piemēram, laulība, izmaiņas nodarbinātībā vai apgādājamā/saņēmēja maiņa. Lai izmantotu dzīves notikumus, **Atvieglojumu parametru** lapā ir jāiespējo dzīves notikumi, jāiestata dzīves notikumu veidi un dzīves notikumu opcijas plānu veidiem.
+Darbinieku dzīves cikla laikā Microsoft Dynamics 365 Human Resources katrs darbinieks var sastapties ar dažādām dzīves notikumu izmaiņām. Piemēram, laulība, izmaiņas nodarbinātībā vai apgādājamā/saņēmēja maiņa. Lai izmantotu dzīves notikumus, atvieglojumu parametru veidlapā ir jāiespējo dzīves notikumi, jāiestata dzīves notikumu veidi un dzīves notikumu opcijas plānu veidiem.
 
 Lai varētu apstrādāt dzīves notikumus, vismaz vienu reizi darbā pieņemšanas laika periodā ir jābūt jau izpildītai atvērtai reģistrācijai. Savienotajās Valstīs atvērta reģistrācija parasti notiek reizi gadā. Ārpus Savienotajām Valstīm atvērto reģistrāciju var izpildīt darbā pieņemšanas laikā. Nodarbinātajam nav jāatlasa atvieglojumu plāns, lai varētu apstrādāt dzīves notikumus, bet tie ir jāiekļauj atvērtajā reģistrācijas apstrādē. 
 
@@ -39,7 +37,7 @@ Piemēram, ja šodien ir 1. februāris un 14. februārī nodarbinātajam Jānim 
 
 1. Darbvietā **Atvieglojumu pārvaldība** sadaļā **Apstrāde** atlasiet **Dzīves notikumu apstrāde**.
 
-2. Dialoglodziņā **Izpildīt dzīves notikumu apstrādi** norādiet vērtības tālāk minētajiem laukiem:
+2. Dialoglodziņā **Izpildīt dzīves notikumu apstrādi** norādiet vērtības tālāk minētajiem laukiem.
 
    | Lauks | Apraksts |
    | --- | --- |
@@ -59,6 +57,3 @@ Piemēram, ja šodien ir 1. februāris un 14. februārī nodarbinātajam Jānim 
    4. Atlasiet **Labi**. Apstrāde tiks izpildīta ar iestatītajiem parametriem.
 
 4. Atlasiet **Labi**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Pārvaldības struktūrvienības izveide
 description: Pārvaldības struktūrvienība ir organizācija, kas tiek lietota, lai sadalītu ekonomisko resursu un operatīvo procesu kontroli biznesā.
 author: sericks007
+manager: AnnBe
 ms.date: 08/14/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMOperatingUnit, OMInternalOrganizationSelector
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dcfcd64ae24297c8e11f36629490ebe7cd063de53c717559e1b73743ccc61664
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 70a57741340df2aec5c20dc576672b6acc8343dd
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758997"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796734"
 ---
 # <a name="create-an-operating-unit"></a>Pārvaldības struktūrvienības izveide
 
@@ -39,6 +41,3 @@ Pārvaldības struktūrvienība ir organizācija, kas tiek lietota, lai sadalīt
     + Ierakstiet informāciju par komunikācijas veidiem, piemēram, e-pasta adreses, URL un tālruņa numurus. Lai ievadītu jaunu saziņas ierakstu, noklikšķiniet uz Jauns. Lai modificētu esošo sakaru ierakstu, noklikšķiniet uz **Vairāk opciju > Detalizēti**.   
 6. Ir arī iespēja mainīt **Operatīvās struktūrvienības numuru** pēc vajadzības. Ņemiet vērā, ka šis numurs ir unikāls identifikators atbilstīgajam **Puses** ierakstam un nevar būt tāds pats kā cita operatīva struktūrvienība.
 7. Atlasiet **Saglabāt**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

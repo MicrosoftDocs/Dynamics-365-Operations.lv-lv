@@ -2,9 +2,11 @@
 title: Lietotāja definēti sertifikātu profili mazumtirdzniecības veikaliem
 description: Šajā tēmā sniegts pārskats par to, kā sertifikāti tiek izmantoti mazumtirdzniecības veikalos.
 author: josaw
+manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailFormLayout, RetailParameters
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9cb82a6d6336bb69fe818fb33e04ad621382b383055b24a4e79eee5ddff217ac
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 81fa3770a137471e3d7f8cab3c7d7f37febe64fa
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719934"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018872"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>Lietotāja definēti sertifikātu profili mazumtirdzniecības veikaliem
 
@@ -28,7 +30,7 @@ ms.locfileid: "6719934"
 
 ## <a name="overview"></a>Pārskats
 
-Šajā tēmā sniegts pārskats par sertifikātu profiliem, kuri ir pieejami Microsoft Dynamics 365 Commerce. Šī funkcionalitāte paplašina līdzekli [Mazumtirdzniecības kanālu noslēpumu pārvaldība](../dev-itpro/manage-secrets.md), pievienojot atbalstu lokālajiem sertifikātiem.
+Šajā tēmā sniegts pārskats par sertifikātu profiliem, kas ir pieejami Microsoft Dynamics 365 Commerce. Šī funkcionalitāte paplašina līdzekli [Mazumtirdzniecības kanālu noslēpumu pārvaldība](../dev-itpro/manage-secrets.md), pievienojot atbalstu lokālajiem sertifikātiem.
 
 Lai gan pārdošanas punkts (POS) darbojas bezsaistes režīmā, tas nevar piekļūt sertifikātiem, kas tiek glabāti galvenajā glabātuvē. Tā vietā ir jāizmanto lokāls sertifikāts. Tālāk ir norādītas atbalstītās iespējas:
 
@@ -79,7 +81,7 @@ Kad lapā **Sertifikāta profila iestatījumi** pievienojat jaunu rindu, iestati
 - **Key Vault sertifikāts** – šis lauks ir obligāts, ja lauks **Atrašanās vietas tips** tiek iestatīts uz **Key Vault**. Izmantojiet to, lai norādītu Key Vault sertifikāta noslēpumu.
 
     > [!NOTE]
-    > Pirms sertifikātu profilos izmantot Key Vault sertifikātu, pārliecinieties, vai esat augšupielādējis sertifikātu galvenās glabātuves krātuvē, un izpildiet norādījumus sadaļā [Azure Key Vault klienta iestatīšana](../../finance/localizations/setting-up-azure-key-vault-client.md).
+    > Pirms sertifikātu profilos izmantot Key Vault sertifikātu, pārliecinieties, vai esat augšupielādējis sertifikātu galvenās glabātuves krātuvē, un izpildiet norādījumus sadaļā [Azure Key Vault klienta iestatīšana](https://docs.microsoft.com/dynamics365/finance/localizations/setting-up-azure-key-vault-client).
 
 - **Veikala nosaukums** – šis lauks ir neobligāts, un tas ir pieejams tikai iestatot lauku **Atrašanās vietas tips** uz **Lokāls sertifikāts**. Izmantojiet to, lai norādītu noklusējuma veikala nosaukumu, kas jāizmanto lokālo sertifikātu meklēšanai.
 - **Veikala atrašanās vieta** – šis lauks ir neobligāts, un tas ir pieejams tikai iestatot lauku **Atrašanās vietas tips** uz **Lokāls sertifikāts**. Izmantojiet to, lai norādītu noklusējuma veikala atrašanās vietu, kas jāizmanto lokālo sertifikātu meklēšanai.
@@ -119,6 +121,3 @@ Ja tiek ieviesta jauna sertifikāta versija, ko nevar atjaunināt visos veikalos
 
 > [!NOTE]
 > Vispirms jaunā sertifikāta versija tiks izsaukta Commerce Runtime. Ja sertifikāts vēl nav atjaunināts noteiktā veikalā vai noteiktā terminālī, tiks izsaukta iepriekšējā versija.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

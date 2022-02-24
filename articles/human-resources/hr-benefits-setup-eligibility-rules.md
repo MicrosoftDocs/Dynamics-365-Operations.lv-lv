@@ -1,42 +1,33 @@
 ---
 title: Piemērotības kārtulu un opciju konfigurēšana
-description: Šajā rakstā aprakstīts, kā iestatīt piemērotības kārtulas un opcijas sadaļā Atvieglojumu pārvaldība programmā Microsoft Dynamics 365 Human Resources.
-author: twheeloc
-ms.date: 08/24/2021
+description: Iestatiet piemērotības kārtulas un opcijas atvieglojumu pārvaldībā Microsoft Dynamics 365 Human Resources.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e87bef8994fe1eac0089764c8d4f9b18289c13ea
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 70054acafc3aec35fd985c0ca81e928519ddd0a3
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069634"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419498"
 ---
-# <a name="configure-eligibility-rules-and-options"></a>Piemērotības kārtulu un opciju konfigurēšana 
+# <a name="configure-eligibility-rules-and-options"></a>Piemērotības kārtulu un opciju konfigurēšana
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Pēc nepieciešamo parametrus konfigurēšanas atvieglojumu pārvaldībā varat izveidot piemērotības noteikumus, komplektus, periodus un programmas, ko saistīsiet ar saviem atvieglojumu plāniem.
-
-Piemērotības nosacījumus izmanto, lai noteiktu, vai darbinieki ir piemēroti plānam. Darbiniekiem ir jāatbilst vismaz vienas kārtulas nosacījumam, lai to uzskatītu par atbilstošu atvieglojumam. Piemēram, plānā ir divas kārtulas. Pirmā kārtula (1. rinda) norāda, ka darbinieka tipam jābūt **Darbinieks**. Otrā kārtula (2. rinda) norāda, ka darbinieka jābūt darbiniekam jābūt nodarbinātam uz pilnu slodzi. Tāpēc darbinieki, kuri atbilst 1. kārtulai, ir piemēroti pat tad, ja tie ir nodarbināti tikai nepilna laika.
-
-Tomēr varat iestatīt vienu noteikumu, kuram ir vairāki nosacījumi. Šajā gadījumā darbiniekiem jāatbilst visiem kārtulas nosacījumiem, lai viņus uzskatītu par tiesīgiem uz atvieglojumu. Piemēram, ir noteikums ar nosaukumu **Darbinieks pilna laika**. Šis noteikums norāda, ka darbinieka tipam jābūt **Darbinieks** *un* darbiniekam jābūt nodarbinātam uz pilnu slodzi. Tādējādi, lai darbinieki varētu būt piemēroti, darbiniekiem ir jāatbilst abiem noteikuma nosacījumiem.
-
-> [!IMPORTANT]
-> Vismaz vienam piemērotības nosacījumam jābūt saistītam ar katru atvieglojumu plānu. Varat saistīt vairākus noteikumus ar atvieglojumu.
+Pēc nepieciešamo parametrus konfigurēšanas atvieglojumu pārvaldībā Microsoft Dynamics 365 Human Resources varat izveidot piemērotības noteikumus, komplektus, periodus un programmas, ko saistīsiet ar saviem atvieglojumu plāniem.
 
 ## <a name="create-an-eligibility-rule"></a>Piemērotības kārtulas izveide
 
@@ -82,7 +73,7 @@ Atvērtās reģistrācijas laikā darbinieki var atlasīt atvieglojumu plānus. 
    | **Piemērots amata veids** | Norāda amata veidu vai veidus, lai izpildītu piemērotības kārtulu. Piemēram, pilna laika. |
    | **Piemērotais stāvoklis** | Norāda administratīvās teritorijas, lai izpildītu piemērotības kārtulu. Piemēram, Ziemeļdakota, ASV vai Britu Kolumbija, Kanāda. |
    | **Piemēroti nodarbinātības noteikumi** | Norāda nodarbinātības noteikumus, lai izpildītu piemērotības kārtulu. Piemēram, brīvs līgums vai koplīgums. |
-   | **Piemērotā arodbiedrība** | Norāda dalību arodbiedrībā, lai izpildītu piemērotības kārtulu. Piemēram, Amerikas autoiekrāvēju vadītāji.</br></br>Izmantojot uz arodbiedrību balstītu piemērotības kārtulu, nodarbinātā arodbiedrības ierakstam jāaizpilda beigu datums. To nevar atstāt tukšu. |
+   | **Piemērotā arodbiedrība** | Norāda dalību arodbiedrībā, lai izpildītu piemērotības kārtulu. Piemēram, Amerikas autoiekrāvēju vadītāji. </br></br>Izmantojot uz arodbiedrību balstītu piemērotības kārtulu, nodarbinātā arodbiedrības ierakstam jāaizpilda beigu datums. To nevar atstāt tukšu. |
    | **Piemērojamais pasta indekss** | Norāda pasta indeksus, lai izpildītu piemērotības kārtulu. Piemēram, 58104. |
 
 5. Sadaļā **Papildinformācija** varat apskatīt tālāk minēto papildinformāciju.
@@ -96,72 +87,6 @@ Atvērtās reģistrācijas laikā darbinieki var atlasīt atvieglojumu plānus. 
 
 6. Atlasiet **Saglabāt**.
 
-## <a name="using-custom-fields-in-eligibility-rules"></a>Pielāgoto lauku izmantošana piemērotības kārtulās
-
-[Pielāgotos laukus](hr-developer-custom-fields.md) var izveidot Personāla vadībā, lai izsekotu papildinformāciju. Šos laukus var pievienot tieši lietotāja interfeisam, un kolonna tiek dinamiski pievienota pakārtotai tabulai.  
-
-Pielāgotos laukus var izmantot piemērotības procesā. Piemērotības nosacījumi var izmantot vienu vai vairākas pielāgoto lauku vērtības, lai noteiktu darbinieka atbilstību.  Lai esošajai kārtulai pievienotu pielāgotu lauku vai izveidotu jaunu kārtulu, pārejiet uz **Atvieglojumu pārvaldība > Saites > Iestatījumi > Piemērotības kārtulas > Pielāgotā lauka piemērotība**. Šajā lapā varat izveidot kārtulu, kas izmanto vienu vai vairākus pielāgotos laukus, un varat definēt vairākas vērtības katram pielāgotajam laukam, lai noteiktu piemērotību.
-
-Tālāk norādītās tabulas atbalsta pielāgotos laukus, kurus var izmantot piemērotības apstrādē:
-
-- Darbinieks (HcmWorker)  
-- Darbs (HcmJob)  
-- Pozīcija (HcmPosition)  
-- Pozīcijas detalizēta informācija (HcmPositionDetail)  
-- Amatā nodarbinātā piešķire  
-- Nodarbinātība (HcmEmployment)  
-- EmploymentDetails (HcmEmploymentDetails)  
-- Detalizēta informācija par darbu (HcmJobDetails)  
-
-Tālāk norādītie pielāgoto lauku tipi tiek atbalstīti piemērotības apstrādē:
-
-- Teksts  
-- Salasīšanas saraksts  
-- Skaits  
-- Decimāldaļskaitlis  
-- Izvēles rūtiņa  
-
-Tabulā ir parādīta pielāgota lauka piemērotības formas lauka informācija.
-
-| Lauks  | Apraksts |
-|--------|-------------|
-| Nosaukums/vārds, uzvārds | Izveidotā kritērija nosaukums. |
-| Tabulas nosaukums | Tabulas nosaukums, kas satur pielāgoto lauku, kas tiek izmantots piemērotības nosacījumam. |
-| Lauka nosaukums | Lauks, kas tiks izmantots piemērotības kārtulai. |
-| Operatora tips | Parāda operatoru, kas tiek izmantots pielāgotā lauka piemērotības konfigurācijā. |
-| Vērtība | Parāda vērtību, kas tiek izmantota pielāgotā lauka piemērotības konfigurācijā. |
-
-## <a name="eligibility-logic"></a>Piemērotības loģika
-
-Šajās sadaļās aprakstīts, kā tiek apstrādāta atvieglojumu atbilstība.
-
-### <a name="rules-assigned-to-a-plan"></a>Plānam piešķirtās kārtulas 
-Kad atvieglojumu plānam ir piešķirti vairāki piemērotības nosacījumi, darbiniekam jāatbilst vismaz vienai kārtulai, lai būtu piemērots reģistrācijai atvieglojumu plānā.  Tālākajā piemērā darbiniekam ir jāatbilst vai nu kārtulas **Darba tips**, vai arī kārtulas **Aktīvie darbinieki** prasībām.
-
-![Darbiniekam ir jāatbilst vai nu kārtulas Darba tips, vai arī kārtulas Aktīvie darbinieki prasībām.](media/RulesAssignedToAPlan.png)
- 
-### <a name="criteria-within-an-eligibility-rule"></a>Kritēriji piemērotības kārtulai 
-Kārtulā definējiet kritērijus, kas veido kārtulu. Iepriekšminētajā piemērā **Darba tipa** kārtulas kritērijs ir tas, kur Darba tips = Vadītāji. Tādēļ darbiniekam jābūt vadītājam, lai viņš būtu piemērots darbinieks. Šī ir kārtula, kurā ir tikai viens kritērijs.
-
-Varat definēt kārtulas, kurās ir vairāki kritēriji. Kad definējat vairākus kritērijus piemērotības kārtulā, darbiniekam ir jāatbilst visiem kārtulas kritērijiem, lai būtu piemērots atvieglojumu plānam. 
-
-Piemēram, **Aktīvo darbinieku** kārtula tiek veidota no šādiem kritērijiem. Lai darbinieks būtu piemērots, pamatojoties uz **Aktīvo darbinieku** kārtulu, darbiniekam jābūt nodarbinātam juridiskajā amatā USMF *un* jābūt pilnas laika amata tipam.  
-
-![Kritēriji piemērotības kārtulai.](media/CriteriaWithinAnEligibilityRule.png) 
- 
-### <a name="multiple-conditions-within-criteria"></a>Vairāki nosacījumi kritērijos
-
-Kārtulas var papildus izvērst, lai vienā kritērijā izmantotu vairākus nosacījumus. Darbiniekam ir jāatbilst vismaz vienam nosacījumam, lai varētu tikt piemērots. Lai izveidotu iepriekšminētajā piemērā, **Aktīvo darbinieku** kārtulu var papildus paplašināt, lai iekļautu darbiniekus, kas arī ir nepilna laika darbinieki. Tā rezultātā darbiniekam jābūt darbiniekam USMF *un* vai nu pilnas laika, vai nepilnas laika darbiniekam.  
-
-![Vairāki nosacījumi kritērijos.](media/MultipleConditionsWithinCriteria.png) 
- 
-### <a name="eligibility-conditions-within-a-custom-field-criterion"></a>Piemērotības nosacījumi pielāgotā lauka kritērijā 
-Līdzīgi iepriekš pielāgotos laukus var izmantot, veidojot piemērotības nosacījumus un strādāt vienādā veidā. Piemēram, varat piedāvāt interneta kompensāciju Fargo vai Kopenhāgenas darbiniekiem, kas strādā no mājām, jo šajās vietās interneta izmaksas ir augstākas. Lai to izdarītu, izveidojiet divus pielāgotos laukus: **Biroja atrašanās vieta** (izdošanas veidlapa) un **Darbs no mājām** (izvēles rūtiņa). Pēc tam izveidojiet kārtulu ar nosaukumu **WFH darbinieki**. Kārtulas kritērijs ir vieta, kur **Biroja atrašanās vieta = Fargo** vai **Kopenhāgena** *un*, kur **Darbs no mājām = Jā**.
-
-Pielāgotās piemērotības kārtulas būtu jāiestata, kā norādīts šajā attēlā. 
-
-![Piemērotības nosacījumi pielāgotā lauka kritērijā.](media/EligibilityConditionsWithinACustomFieldCriterion.png) 
- 
 ## <a name="configure-bundles"></a>Pakešu konfigurācija
 
 Komplekti ir saistītu atvieglojumu plānu kopa. Varat izmantot atvieglojumu komplektus, lai grupētu atvieglojumu plānus, kas darbiniekam jāizvēlas, lai reģistrētos noteiktos atvieglojumu plānos, kas var būt atkarīgi no reģistrācijas citos atvieglojumu plānos. Tālāk minēti piemēri, kad, iespējams, vēlēsieties izmantot komplektu.
@@ -178,7 +103,7 @@ Komplekti ir saistītu atvieglojumu plānu kopa. Varat izmantot atvieglojumu kom
 
    | Lauks | Apraksts |
    | --- | --- |
-   | **Saišķis** | Komplekta unikālais identifikators. |
+   | **Komplekts** | Komplekta unikālais identifikators. |
    | **Apraksts** | Komplekta apraksts. |
    | **Šablons** | Norāda, vai viens no komplekta plāniem ir jāatzīmē kā galvenais plāns. Galveno plānu ir jāatlasa atvērtās reģistrācijas laikā kā daļu no komplekta, pirms atvieglojumu administrators var apstiprināt darbinieka atvieglojumu izvēli. |
    | **Derīguma sākuma datums un laiks** | Datums un laiks, kad komplekts kļūst aktīvs. |
@@ -220,13 +145,13 @@ Varat izmantot brīvā režīma kredīta programmas, lai reģistrētu darbinieku
 
    | Lauks | Apraksts |
    | --- | --- |
-   | **Atvieglojumu kredīta ID** | Brīvā režīma kredīta programmas unikālais identifikators. |
-   | **Apraksts** | Brīvā režīma kredīta programmas apraksts. | 
-   | **No datuma** | Datums, kad brīvā režīma kredīta programma kļūst aktīva. |
-   | **Līdz datumam** | Datums, kad brīvā režīma kredīta programma beidz darboties. Varat atstāt noklusēto vērtību (12/31/2154), lai norādītu, ka brīvā režīma kredīta programmai nav ieplānota beigu termiņa. |
-   | **Kopējā kredīta vērtība** | Kredītpunktu skaits, kas katram darbiniekam jāizmanto saviem atvieglojumiem. |
-   | **Proporcionālas sadalīšanas kārtula** | Kārtula, ko izmanto, lai proporcionāli sadalītu brīvā režīma kredītus, ja darbinieks tiek nolīgts brīvā režīma kredīta perioda vidū. </br></br><ul><li>**Nav** — darbinieks nesaņem brīvā režīma kredītus, ja tas tiek pieņemti darbā pēc brīvā režīma kredīta programmas perioda sākuma.</li><li>**Pilns kredīts** — darbinieks saņem pilnu brīvā režīma kredītu summu, neatkarīgi no tā, kad tiek pieņemts darbā.</li><li>**Proporcionāla sadale** — darbinieks saņem proporcionālu brīvā režīma kredītu summu, pamatojoties uz pieņemšanas datumu.</li></ul> |
-   | **Brīvā režīma kredīta proporcionālas sadales formula** | Kārtula, ko izmanto, lai proporcionāli sadalītu brīvā režīma kredītus darbiniekiem, kuri pieņemti darbā brīvā režīma kredīta atvieglojumu perioda vidū. Šīs proporcijas pamatā ir nodarbinātības sākuma datums. Šis lauks tiek izmantots tikai tad, ja laukā **Proporcionālās sadalīšanas kārtula** atlasāt **Proporcionāli sadalīt**. </br></br><ul><li>**Katru dienu** — proporcionāli sadala brīvā režīma kredītu skaitu, ko darbinieks saņem katru dienu. Kopējais brīvā režīma kredītu skaits tiek dalīts ar dienu skaitu periodā. Piemēram, ja atvieglojumu periods ir 400 dienas, sistēma kopējo brīvā režīma kredītu skaitu izdalīs ar 400, lai aprēķinātu brīvā režīma kredītpunktu skaitu, ko darbinieki saņems katru dienu.</li><li>**Pašreizējā mēnesī** — proporcionāli sadala brīvā režīma kredītu skaitu, ko darbinieks saņem katru mēnesi, noapaļojot līdz pašreizējam mēnesim. Kopējais brīvā režīma kredītu skaits tiek dalīts ar mēnešu skaitu periodā. Piemēram, ja atvieglojumu periods ir 15 mēneši, sistēma kopējo brīvā režīma kredītu skaitu izdalīs ar 15, lai aprēķinātu brīvā režīma kredītpunktu skaitu, ko darbinieki saņems katru mēnesi.</li><li>**Nākamajā mēnesī** — proporcionāli sadala brīvā režīma kredītu skaitu, ko darbinieks saņem katru mēnesi, noapaļojot līdz nākamajam mēnesim. Kopējais brīvā režīma kredītu skaits tiek dalīts ar mēnešu skaitu periodā. Piemēram, ja atvieglojumu periods ir 15 mēneši, sistēma kopējo brīvā režīma kredītu skaitu izdala ar 15, lai aprēķinātu brīvā režīma kredītpunktu skaitu, ko darbinieki saņems katru mēnesi.</li></ul> |
+   | Atvieglojumu kredīta ID | Brīvā režīma kredīta programmas unikālais identifikators. |
+   | Apraksts | Brīvā režīma kredīta programmas apraksts. | 
+   | No datuma | Datums, kad brīvā režīma kredīta programma kļūst aktīva. |
+   | Līdz datumam | Datums, kad brīvā režīma kredīta programma beidz darboties. Varat atstāt noklusēto vērtību (12/31/2154), lai norādītu, ka brīvā režīma kredīta programmai nav ieplānota beigu termiņa. |
+   | Kopējā kredīta vērtība | Kredītpunktu skaits, kas katram darbiniekam jāizmanto saviem atvieglojumiem. |
+   | Proporcionālas sadalīšanas kārtula | Kārtula, ko izmanto, lai proporcionāli sadalītu brīvā režīma kredītus, ja darbinieks tiek nolīgts brīvā režīma kredīta perioda vidū. </br></br><ul><li>**Nav** — darbinieks nesaņem brīvā režīma kredītus, ja tas tiek pieņemti darbā pēc brīvā režīma kredīta programmas perioda sākuma.</li><li>**Pilns kredīts** — darbinieks saņem pilnu brīvā režīma kredītu summu, neatkarīgi no tā, kad tiek pieņemts darbā.</li><li>**Proporcionāla sadale** — darbinieks saņem proporcionālu brīvā režīma kredītu summu, pamatojoties uz pieņemšanas datumu.</li></ul> |
+   | Brīvā režīma kredīta proporcionālas sadales formula | Kārtula, ko izmanto, lai proporcionāli sadalītu brīvā režīma kredītus darbiniekiem, kuri pieņemti darbā brīvā režīma kredīta atvieglojumu perioda vidū. Šīs proporcijas pamatā ir nodarbinātības sākuma datums. Šis lauks tiek izmantots tikai tad, ja laukā **Proporcionālās sadalīšanas kārtula** atlasāt **Proporcionāli sadalīt**. </br></br><ul><li>**Katru dienu** — proporcionāli sadala brīvā režīma kredītu skaitu, ko darbinieks saņem katru dienu. Kopējais brīvā režīma kredītu skaits tiek dalīts ar dienu skaitu periodā. Piemēram, ja atvieglojumu periods ir 400 dienas, sistēma kopējo brīvā režīma kredītu skaitu izdalīs ar 400, lai aprēķinātu brīvā režīma kredītpunktu skaitu, ko darbinieki saņems katru dienu.</li><li>**Pašreizējā mēnesī** — proporcionāli sadala brīvā režīma kredītu skaitu, ko darbinieks saņem katru mēnesi, noapaļojot līdz pašreizējam mēnesim. Kopējais brīvā režīma kredītu skaits tiek dalīts ar mēnešu skaitu periodā. Piemēram, ja atvieglojumu periods ir 15 mēneši, sistēma kopējo brīvā režīma kredītu skaitu izdalīs ar 15, lai aprēķinātu brīvā režīma kredītpunktu skaitu, ko darbinieki saņems katru mēnesi.</li><li>**Nākamajā mēnesī** — proporcionāli sadala brīvā režīma kredītu skaitu, ko darbinieks saņem katru mēnesi, noapaļojot līdz nākamajam mēnesim. Kopējais brīvā režīma kredītu skaits tiek dalīts ar mēnešu skaitu periodā. Piemēram, ja atvieglojumu periods ir 15 mēneši, sistēma kopējo brīvā režīma kredītu skaitu izdala ar 15, lai aprēķinātu brīvā režīma kredītpunktu skaitu, ko darbinieki saņems katru mēnesi.</li></ul> |
    
    Pārliecinieties, ka katrs atvieglojumu plāns tiek reģistrēts tikai vienā brīvā režīma kredīta programmā katram atvieglojumu periodam. Pretējā gadījumā sistēma nezinās, kuru brīvā režīma kredīta programmu izmantot, lai piešķirtu brīvā režīma kredītus, un radīsies problēmas. 
 
@@ -242,7 +167,7 @@ Programmas ir atvieglojumu plānu kopa, kam ir kopīga piemērotības kārtulu k
 
    | Lauks | Apraksts |
    | --- | --- |
-   | **Aplikācija** | Programmas unikālais identifikators. |
+   | **Programma** | Programmas unikālais identifikators. |
    | **Apraksts** | Programmas apraksts. | 
    | **Derīguma sākuma datums un laiks** | Datums un laiks, kad programma kļūst aktīva. |
    | **Derīguma beigu datums un laiks** | Datums un laiks, kad beidzas programmas termiņš. Pēc noklusējuma tas ir 12/31/2154, kas nozīmē "nekad". |
@@ -251,6 +176,3 @@ Programmas ir atvieglojumu plānu kopa, kam ir kopīga piemērotības kārtulu k
    | **Piemērojamības kārtulas** | Atlasiet piemērotības kārtulas, ko piemērot atvieglojumu programmai. Nosakiet piemērotības kārtulas šīs lapas cilnē **Piemērotības kārtulas**. |
    
 4. Atlasiet **Saglabāt**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

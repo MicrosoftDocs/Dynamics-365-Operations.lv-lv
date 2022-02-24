@@ -2,22 +2,25 @@
 title: PVN/GST shēmas apgrieztās maksāšanas mehānisms
 description: Šajā tēmā ir paskaidrots, kā iestatīt apgriezto pievienotās vērtības nodokli (PVN) Eiropas valstīs, Saūda Arābijā un Singapūrā.
 author: epodkolz
+manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Saudi Arabia, Spain, Sweden, United Kingdom, Singapore, Bahrain, Kuwait, Oman, Qatar
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 326a74d0f962cf0455033b04950ded7ca26bfc77
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 247bc64bf0b90a641ead8a21971a6043691762fa
+ms.sourcegitcommit: f12ce34cc08cf1fa205c67f48669ea9a6566b526
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594721"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4515053"
 ---
 # <a name="reverse-charge-mechanism-for-vatgst-scheme"></a>PVN/GST shēmas apgrieztās maksāšanas mehānisms
 
@@ -45,6 +48,7 @@ Lai lietotu atgriezto maksāšanu, ir jāveic tālāk norādītie iestatījumi.
 Ir ieteicams pārdošanas un pirkšanas operācijām izmantot atsevišķus PVN kodus.
 
 <table>
+<body>
 <tr>
 <td><strong>Pārdošanas PVN kods</strong></td>
 <td>Izveidojiet PVN kodu apgrieztās maksāšanas pārdošanas operācijām (<strong>Nodokļi</strong> &gt; <strong>Netiešie nodokļi</strong> &gt; <strong>PVN</strong> &gt; <strong>PVN kodi</strong>).
@@ -61,6 +65,7 @@ Ir ieteicams pārdošanas un pirkšanas operācijām izmantot atsevišķus PVN 
 <p>Papildinformāciju skatiet nākamajā sadaļā &quot;PVN grupu un krājumu PVN grupu iestatīšana&quot;.</p>
 </td>
 </tr>
+</tbody>
 </table>
 
 ## <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a><a name="sales-tax-item-sales-tax-groups"></a>PVN grupu un krājumu PVN grupu iestatīšana
@@ -119,7 +124,7 @@ Kad tiek grāmatots pirkšanas rēķins, kurā ir ietverta apgrieztā maksāšan
 
 Tālāk redzamajā ekrānuzņēmumā vienai transakcijai ir virziens **Saņemtais PVN** un otrai transakcijai — virziens **Maksājamais PVN**. 
 
-![Grāmatotais PVN.](media/apac-sau-posted-sales-tax.png)
+![Grāmatotais PVN](media/apac-sau-posted-sales-tax.png)
 
 ## <a name="enable-reverse-charge-mechanism-for-vatgst-scheme-feature"></a><a name="enable-reverse-charge"></a>PVN/GST shēmas apgrieztās maksāšanas mehānisma līdzekļa iespējošana
 Darbvietā **Līdzekļa pārvaldība** atrodiet līdzekli un atlasiet **Iespējot**.
@@ -128,10 +133,7 @@ Pēc līdzekļa iespējošanas cilne **Apgrieztā maksāšana** ir pieejama vis�
 
 Būs pieejamas tālāk norādītās lapas un izvēlnes vienumi, kas saistīti ar līdzekļa iestatīšanu.
  - **Apgrieztās maksāšanas krājuma grupas** (**Nodoklis** > **Iestatījumi** > **PVN** > **Apgrieztās maksāšanas krājuma grupas**). Plašāku informāciju skatiet sadaļā [Apgrieztās maksāšanas krājuma grupas iestatīšana](#reverse-charge-item-group).
- - **Apgrieztās maksāšanas kārtulas**  (**Nodoklis** > **Iestatījumi** > **PVN** > **Apgrieztās maksāšanas kārtulas**). Skatiet [Apgrieztās maksāšanas kārtulu iestatīšana](#reverse-charge-rules).
+ - **Apgrieztās maksāšanas kārtulas** (**Nodoklis** > **Iestatījumi** > **PVN** > **Apgrieztās maksāšanas kārtulas**). Skatiet [Apgrieztās maksāšanas kārtulu iestatīšana](#reverse-charge-rules).
  - **Ārējās tirdzniecības parametri** (**Nodoklis** > **Iestatījumi** > **PVN** > **Ārējā tirdzniecība** > **Ārējās tirdzniecības parametri**). Skatiet [Valsts/reģiona rekvizītu iestatīšana](#Set-up-Country/region-properties).
 
 Izvēles rūtiņa **Apgrieztā maksāšana** būs pieejama lapās **PVN grupa** un **Grāmatotais PVN**. Lai iegūtu papildu informāciju, skatiet sadaļas [PVN grupu un krājumu PVN grupu iestatīšana](#sales-tax-item-sales-tax-groups), [Apgrieztā maksāšana pārdošanas rēķinā](#reverse-charge-sale) un [Apgrieztā maksāšana pirkšanas rēķinā](#reverse-charge-purchase).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

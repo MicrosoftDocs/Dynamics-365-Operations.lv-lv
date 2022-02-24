@@ -2,36 +2,41 @@
 title: Kājenes modulis
 description: Šajā tēmā ir aprakstīti kājenes moduļi un kā tos autorēt programmā Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0fdf183afe0df71e43a05b65fba06126f75f85b981b78afc4a543fb9310c6906
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 42a71ea9498461febca80952acc3158517918332
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719990"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414030"
 ---
 # <a name="footer-module"></a>Kājenes modulis  
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aplūkoti kājenes moduļi un aprakstīta to izveide risinājumā Microsoft Dynamics 365 Commerce.
+Šajā tēmā ir ietverti kājenes moduļi un ir aprakstīts, kā tos izveidot programmā Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Pārskats
 
 Kājenes modulis ir īpašs konteiners, kas tiek izmantots, lai viesotu moduļus, kas parādās lapas kājenē. Piemēram, tas var ietvert saites uz dažādām lapām visā vietnē, piemēram, lapu **Sazinieties ar mums** un **Veikala politikas**.
 
 Attēlā zemāk redzams kājenes moduļa piemērs vietas lapā.
 
-![Kājenes moduļa piemērs.](./media/ecommerce-footer.PNG)
+![Kājenes moduļa piemērs](./media/ecommerce-footer.PNG)
 
 ## <a name="footer-module-properties"></a>Kājenes moduļa rekvizīti 
 
@@ -82,6 +87,3 @@ Pievienojot fragmentu lapu veidnēm, jūs palīdzēsiet nodrošināt, ka kājene
 [Galvenes modulis](author-header-module.md)
 
 [Kājenes modulis](author-footer-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: Informācijas meklēšana, izmantojot uzmeklēšanu
-description: Šajā tēmā jūs uzzināsiet par uzmeklēšanas līdzekļiem un saņemsiet noderīgus padomus par optimālu uzmeklēšanas lietojumu sistēmā.
+description: Daudziem laukiem ir uzmeklēšana, kas jums palīdz ērti atrast pareizo vai vēlamo vērtību. Uzmeklēšanai ir pievienoti vairāki uzlabojumi, vadīklas padarot ērtāk lietojamas un lietotāju darbu — vēl produktīvāku. Šajā tēmā jūs uzzināsiet par šiem jaunajiem uzmeklēšanas līdzekļiem un saņemsiet noderīgus padomus par optimālu uzmeklēšanas lietojumu sistēmā.
 author: jasongre
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7135487e5d87564163c643d1315c51231fa66de
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: d75e66e8fb9f1a227c9dd15f92ca5db433c0db4a
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069302"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798147"
 ---
 # <a name="find-information-by-using-lookups"></a>Informācijas meklēšana, izmantojot uzmeklēšanu
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Daudziem laukiem ir uzmeklēšana, kas jums palīdz ērti atrast pareizo vai vēlamo vērtību. Uzmeklēšanai ir pievienoti vairāki uzlabojumi, vadīklas padarot ērtāk lietojamas un lietotāju darbu — vēl produktīvāku. Šajā tēmā jūs uzzināsiet par šiem jaunajiem uzmeklēšanas līdzekļiem un saņemsiet noderīgus padomus par optimālu uzmeklēšanas lietojumu sistēmā.
 
@@ -47,15 +46,15 @@ Piemēram, jūs izmantojat uzmeklēšanas lauku ar nosaukumu **Pilsēta**.
 
 Kad fokusu pārslēdzat uz lauku **Pilsēta**, varat sākt meklēt nepieciešamo pilsētu, ierakstot dažus burtus, piemēram, “col”. Kad pārtraucat rakstīt, uzmeklēšana tiek atvērta automātiski, un tā ir filtrēta uz pilsētām, kas sākas ar “col”.
 
-[![typeaheadLookupExample.](./media/typeaheadlookupexample.png)](./media/typeaheadlookupexample.png)
+[![typeaheadLookupExample](./media/typeaheadlookupexample.png)](./media/typeaheadlookupexample.png)
 
 Pašlaik kursors joprojām ir uzmeklēšanas laukā. Ja turpināt rakstīt un šī vērtība kļūst par “column”, tad uzmeklēšanas saturs automātiski pielāgojas, lai vadīklā rādītu visjaunāko vērtību.
 
-![updateFilterLookupExample.](./media/updatefilterlookupexample.png)
+![updateFilterLookupExample](./media/updatefilterlookupexample.png)
 
 Lai gan fokuss joprojām atrodas uzmeklēšanas vadīklā, varat arī izmantot taustiņus **Bultiņa uz augšu** vai **Bultiņa uz leju**, lai izceltu rindu, kuru vēlaties atlasīt. Ja nospiežat taustiņu **Enter**, izceltā rinda no uzmeklēšanas tiek atlasīta un vadīklas vērtība tiek atjaunināta.
 
-![changingSelectionLookup.](./media/changingselectionlookup.png)
+![changingSelectionLookup](./media/changingselectionlookup.png)
 
 ## <a name="typing-in-more-than-ids"></a>Vairāku ID ierakstīšana
 
@@ -65,25 +64,22 @@ Piemēram, apsveriet lauka **Debitora konts** iespējas pārdošanas pasūtījum
 
 Ja lietotājs uzmeklēšanas vadīklā sāk ievadīt vērtību **Konta ID**, automātiski tiek atvērta nolaižamā izvēlne, kā aprakstīts iepriekšējā sadaļā, un lietotājs redz tālāk norādīto uzmeklēšanu.
 
-[![Kontekstuāla uzmeklēšana, kad ir ievadīts debitora konta ID.](./media/howtocontextuallookups-1.png)](./media/howtocontextuallookups-1.png)
+[![Kontekstuāla uzmeklēšana, kad ir ievadīts debitora konta ID](./media/howtocontextuallookups-1.png)](./media/howtocontextuallookups-1.png)
 
 Taču tagad lietotājs var ievadīt arī vērtības **Konta nosaukums** sākumu. Ja tas tiek noteikts, tad lietotājam tiek parādīta tālāk norādītā uzmeklēšana. Ievērojiet, kā kolonna **Nosaukums** uzmeklēšanā ir pārvietota uz pirmo kolonnu, un kā uzmeklēšana ir sakārtota un filtrēta, pamatojoties uz kolonnu **Nosaukums**.
 
-[![Kontekstuāla uzmeklēšana, kad ir ievadīts debitora nosaukums.](./media/howtocontextuallookups-2.png)](./media/howtocontextuallookups-2.png)
+[![Kontekstuāla uzmeklēšana, kad ir ievadīts debitora nosaukums](./media/howtocontextuallookups-2.png)](./media/howtocontextuallookups-2.png)
 
 ## <a name="using-grid-column-headers-for-more-advanced-filtering-and-sorting"></a>Režģa kolonnu virsrakstu lietošana detalizētai filtrēšanai un kārtošanai
 
 Iepriekšējās divās sadaļās aprakstītie uzmeklēšanas uzlabojumi ievērojami uzlabo lietotāja spējas pārvietotie pa uzmeklēšanas rindām, uzmeklēšanā pamatojoties uz meklēšanu “sākas ar” laukā **ID** vai **Nosaukums**. Taču reizēm pareizās rindas atrašanai ir nepieciešama detalizētāka filtrēšana (vai kārtošana). Šādos gadījums lietotājam ir jāizmanto filtrēšanas un kārtošanas opcijas, kuras uzmeklēšanā ir ietvertas režģa kolonnu virsrakstos. Piemēram, pieņemsim, ka darbinieks ievada pārdošanas pasūtījuma rindu, un kā prece šim darbiniekam ir jāatrod pareizais “kabelis”. Nepietiek ar uzraksta “kabelis” ierakstīšanu vadīklā **Krājuma kods**, jo nav tādu preču nosaukumu, kas sāktos ar “kabelis”.
 
-![emptyitemlookup.](./media/emptyitemlookup.png)
+![emptyitemlookup](./media/emptyitemlookup.png)
 
 Tā vietā lietotājam ir jānotīra uzmeklēšanas vadīklas vērtība, jāatver uzmeklēšanas nolaižamā izvēlne un jāfiltrē šī nolaižamā izvēlne, izmantojot režģa kolonnas virsrakstu, kā parādīts tālāk. Peles (vai skārienvadības) lietotājs var vienkārši noklikšķināt uz jebkuras kolonnas (vai pieskarties jebkurai kolonnai), lai piekļūtu šīs kolonnas filtrēšanas un kārtošanas opcijām. Tastatūras lietotājam ir vienkārši ir vēlreiz jānospiež taustiņu kombinācija **Alt**+**Bultiņa** **uz leju**, lai kursoru pārvietotu uz nolaižamo izvēlni, pēc tam ar tabulēšanas taustiņu ir jāpāriet uz nākamo kolonnu un tad jānospiež taustiņu kombinācija **Ctrl**+**G**, lai atvērtu režģa kolonnu virsrakstu nolaižamo izvēlni.
 
-[![gridfilteritemlookup.](./media/gridfilteritemlookup.png)](./media/gridfilteritemlookup.png)
+[![gridfilteritemlookup](./media/gridfilteritemlookup.png)](./media/gridfilteritemlookup.png)
 
 Pēc filtra lietošanas (skatiet nākamo attēlu) lietotājs var atrast un atlasīt rindu kā parasti.
 
-![filtereditemlookup.](./media/filtereditemlookup.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+![filtereditemlookup](./media/filtereditemlookup.png)

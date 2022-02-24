@@ -91,6 +91,3 @@ Cilne **Amati** galvenajā darbinieku lapā sniedz pilnīgu skatījumu par visie
 
 [![Amati](./media/Worker-position-history.png)](./media/Worker-position-history.png)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,33 +1,31 @@
 ---
-title: Procesa reģistrācijas piemērojamība
+title: Reģistrācijas piemērotības apstrāde
 description: Šajā rakstā ir paskaidrots, kā izpildīt reģistrācijas piemērotības apstrādi.
-author: twheeloc
-ms.date: 08/23/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e8997cf24bf24097e46a05acffef8b3839056c57
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: dfb7f13dce48f33c111af491918702763f7e3b8a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067633"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419499"
 ---
-# <a name="process-enrollment-eligibility"></a>Procesa reģistrācijas piemērojamība
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+# <a name="process-enrollment-eligibility"></a>Reģistrācijas piemērotības apstrāde
 
 Šajā rakstā ir paskaidrots, kā izpildīt reģistrācijas piemērotības apstrādi.
 
@@ -56,13 +54,13 @@ ms.locfileid: "8067633"
 
 ## <a name="view-process-results"></a>Skatīt procesa rezultātus
 
-Šajā rakstā ir paskaidrots, kā skatīt piemērotības procesa rezultātus.
+Šajā rakstā ir paskaidrots, kā skatīt reģistrācijas piemērotības rezultātus.
 
 1.  Darbvietā **Atvieglojumu pārvaldība** sadaļā **Apstrāde** atlasiet **Procesa rezultāti**.
 
-2.  Lapā **Procesa rezultāti** ir norādīti šādi lauki:
+2.  Veidlapā **Procesa rezultāti** ir norādīti šādi lauki:
 
-   | Lauks | Apraksts |
+   | Lauks | apraksts |
    | --- | --- |
    | **Procesa ID** | Unikālais ID darbinieku, juridisko personu un procesa izpildes kombinācijai. |
    | **Procesu tips** | Tas identificē procesu, kas tika palaists. Piemēram: Uzņemšana. |
@@ -74,6 +72,3 @@ ms.locfileid: "8067633"
    | **Rezultāta statuss** | Tas būs atbilstīgs vai neatbilstīgs. Rezultāta statuss būs neatbilstīgs, ja darbinieks neatbilst piemērojamības nosacījumu kritērijam, ja darbiniekam trūkst nepieciešamās informācijas, piemēram, atalgojuma biežums vai fiksēta kompensācija, vai ja atvieglojumu plānā trūkst informācijas, kas liedz darbiniekiem tikt iesaistītam. |
    | **Rezultāta ziņojums** | Norāda, kāpēc darbiniekam nav tiesību saņemt atvieglojumu plānu vai ja piemērojamības kārtula ir pieņemta. |
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

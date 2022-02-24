@@ -85,6 +85,3 @@ Ir vairāki iemesli, kādēļ nav redzami visi Attract līdzekļi, kurus redz j�
 
 - Jūsu kolēģis strādā ar izmēģinājumversiju vai Attract ar visaptverošo darbā pieņemšanas papildinājumu, savukārt jūs strādājat ar Attract pamatversiju.
 - Jums ir Attract ar visaptverošo darbā pieņemšanas papildinājumu, bet jums nav piešķirtas pareizās lomas, lai izmantotu visus līdzekļus. Papildinformāciju skatiet tēmā [Drošība un lomu pārvaldība programmā Attract](security-attract.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

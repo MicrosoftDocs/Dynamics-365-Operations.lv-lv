@@ -1,32 +1,34 @@
 ---
 title: Globalizācijas resursi
 description: Šajā tēmā ir saraksts ar resursiem, kas jums var noderēt, lai uzzinātu papildinformāciju par valstij/reģionam specifisko funkcionalitāti un piedāvājumiem.
-author: kfend
-ms.date: 02/19/2021
+author: ShylaThompson
+manager: AnnBe
+ms.date: 10/02/2019
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: sericks
 ms.custom: 104173
 ms.search.region: Global
-ms.author: kfend
+ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 822f00c21715b928027a7656f299a693686bf5dfc01f1f5a1738d5eb8d4bf124
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8ee422b2bdc8b94c2a465d0e48f5da983a410674
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747519"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685057"
 ---
 # <a name="globalization-resources"></a>Globalizācijas resursi
 
 ## <a name="local-and-regional-deployments"></a>Vietējā un reģionālā izvietošana
 Ja jūsu valdības noteikumi nosaka citādu datu glabāšanu vai apkalpošanu nekā tas nepieciešams citām valstīm/reģioniem, iespējams, pastāv valsts/reģiona prasības, kas jāņem vērā izvietošanas laikā. Izskatiet tālāk norādītos resursus, kas var attiekties uz jums.
 
-[Finance and Operations programmu darbību nodrošina 21Vianet Ķīnā](../deployment/china-local-deployment.md)
+[Finance and Operations programmu darbību nodrošina 21Vianet Ķīnā](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
 
 ## <a name="localization-and-regulatory-features"></a>Lokalizācijas un normatīvie līdzekļi
 
@@ -53,6 +55,7 @@ Tālāk norādītajos resursos ir sniegta informācija par plānotajiem un jauna
 
 #### <a name="regulatory-updates"></a>Normatīvie atjauninājumi
 -   [Normatīvie atjauninājumi](../../../finance/localizations/regulatory-updates.md)
+-   [Lokalizācijas portāls](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (tiek atjaunināts katru nedēļu)
 -   [Problēmu meklētājs portālā Lifecycle Services (LCS)](../lifecycle-services/issue-search-lcs.md) (tiek atjaunināts katru dienu)
 
 #### <a name="communication-and-alerts"></a>Saziņa un brīdinājumi
@@ -60,7 +63,7 @@ Tālāk norādītajos resursos ir sniegta informācija par plānotajiem un jauna
 -   [Brīdinājumu iesniegšana par valstij/reģionam specifiskiem normatīviem līdzekļiem](submit-localization-alerts.md)
 
 #### <a name="dynamics-365-release-plans"></a>Dynamics 365 laidiena plāni
-[Dynamics 365 laidiena plāni](/business-applications-release-notes/) apraksta jaunas un uzlabotas iespējas, kas paredzētas Dynamics 365 biznesa programmām un programmu platformām. 
+[Dynamics 365 laidiena plāni](https://docs.microsoft.com/business-applications-release-notes/) apraksta jaunas un uzlabotas iespējas, kas paredzētas Dynamics 365 biznesa programmām un programmu platformām. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>Finance and Operations lietojumprogrammu jaunumi
 Risinājuma [Finance and Operations jaunumu vai izmaiņu sākumlapā](../../fin-ops/get-started/whats-new-changed.md) uzskaitīti Finance and Operations lietojumprogrammu konkrētajos laidienos iekļautie līdzekļi.
@@ -130,6 +133,3 @@ Lai uzzinātu vairāk, skatiet [Palīdzības sistēma](../../fin-ops/get-started
 
 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

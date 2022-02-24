@@ -2,9 +2,11 @@
 title: Atkļūdot izpildītā ER formāta datu avotus, lai analizētu datu plūsmu un transformāciju
 description: Šajā tēmā izskaidrots, kā atkļūdot izpildītā ER formāta datu avotus, lai labāk saprastu konfigurēto datu plūsmu un transformāciju.
 author: NickSelin
+manager: AnnBe
 ms.date: 04/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, EROperationDesigner
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: ba8f20e7b4ca6579016fa60d0bbf69f7b4e9c7d3
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 3a486800f37dda7829aeeaa56a30285a92a61b9d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605385"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680786"
 ---
 # <a name="debug-data-sources-of-an-executed-er-format-to-analyze-data-flow-and-transformation"></a>Atkļūdot izpildītā ER formāta datu avotus, lai analizētu datu plūsmu un transformāciju
 
@@ -64,7 +66,7 @@ Datu avota atkļūdotāju var izmantot, lai piekļūtu datu avotu datiem, kas ti
 
 1. Izpildiet šīs tēmas [3. papildinājumā](#appendix3) norādītās darbības, lai apstrādātu kreditoru maksājumus.
 
-    ![Kreditora maksājumu apstrāde notiek.](./media/er-data-debugger-process-payment.png)
+    ![Kreditora maksājumu apstrāde notiek](./media/er-data-debugger-process-payment.png)
 
 2. Lejupielādējiet un saglabājiet zip failu vietējā datorā.
 3. Izvelciet **ISO20022 Credit transfer.xml** maksājuma failu no zip faila.
@@ -72,7 +74,7 @@ Datu avota atkļūdotāju var izmantot, lai piekļūtu datu avotu datiem, kas ti
 
     Maksājuma failā bankas konta starptautiskais bankas konta numurs (IBAN) nesatur atstarpes. Tāpēc tas atšķiras no vērtības, kas tika [ievadīta](#enteredIBANcode) lapā **Bankas konti**.
 
-    ![IBAN kods bez atstarpēm.](./media/er-data-debugger-payment-file.png)
+    ![IBAN kods bez atstarpēm](./media/er-data-debugger-payment-file.png)
 
     Jūs varat izmantot ER datu avota atkļūdotāju, lai uzzinātu, kurš ER risinājuma komponents tiek izmantots, lai saīsinātu atstarpes IBAN kodā.
 
@@ -85,14 +87,14 @@ Datu avota atkļūdotāju var izmantot, lai piekļūtu datu avotu datiem, kas ti
     > [!NOTE]
     > Šis parametrs ir lietotājam raksturīgs un uzņēmumam raksturīgs.
 
-    ![Lietotāja parametru dialoglodziņš.](./media/er-data-debugger-user-parameters.png)
+    ![Lietotāja parametru dialoglodziņš](./media/er-data-debugger-user-parameters.png)
 
 ## <a name="process-a-vendor-payment-for-debugging"></a>Apstrādāt kreditora maksājumu atkļūdošanai
 
 1. Izpildiet šīs tēmas [3. papildinājumā](#appendix3) norādītās darbības, lai apstrādātu kreditoru maksājumus.
 2. Ziņojuma lodziņā atlasiet **Jā**, lai apstiprinātu, ka vēlaties pārtraukt kreditora maksājumu apstrādi, un tā vietā startējiet datu avota atkļūdošanu lapā **Atkļūdot datu avotus**.
 
-    ![Apstiprinājuma ziņojuma lodziņš.](./media/er-data-debugger-start-debugging.png)
+    ![Apstiprinājuma ziņojuma lodziņš](./media/er-data-debugger-start-debugging.png)
 
 ## <a name="debug-data-sources-that-are-used-in-payment-processing"></a>Atkļūdot datu avotus, kas tiek izmantoti maksājuma apstrādei
 
@@ -115,7 +117,7 @@ Datu avota atkļūdotāju var izmantot, lai piekļūtu datu avotu datiem, kas ti
 
 7. Atlasiet **Izvērst visas**.
 
-    ![IBAN lauka vērtība modeļa kartēšanā.](./media/er-data-debugger-debugging-model-mapping.png)
+    ![IBAN lauka vērtība modeļa kartēšanā](./media/er-data-debugger-debugging-model-mapping.png)
 
     Kā redzat, modeļa kartēšana nav atbildīga par saīsinātajām atstarpēm, jo IBAN kods, ko tā atgriež kreditora bankas kontam, ietver atstarpes. Tāpēc ir jāturpina datu avota atkļūdošana.
 
@@ -130,19 +132,19 @@ Datu avota atkļūdotāju var izmantot, lai piekļūtu datu avotu datiem, kas ti
 7. Atlasiet **Iegūt vērtību**.
 8. Atlasiet **Izvērst visas**.
 
-    ![IBAN lauka vērtība formāta kartēšanā.](./media/er-data-debugger-debugging-format-mapping.png)
+    ![IBAN lauka vērtība formāta kartēšanā](./media/er-data-debugger-debugging-format-mapping.png)
 
     Kā redzat, formāta kartēšanas datu avoti nav atbildīgi par saīsinātajām atstarpēm, jo IBAN kods, ko tie atgriež kreditora bankas kontam, ietver atstarpes. Tāpēc ir jāturpina datu avota atkļūdošana.
 
 ### <a name="debug-the-format"></a>Formāta atkļūdošana
 
 1. Lapā **Atkļūdošanas datu avoti**, kas atrodas darbības rūtī, atlasiet **Formāts**, lai turpinātu atkļūdot no šī ER komponenta.
-2. Izvērsiet formāta elementus, lai atlasītu **ISO20022CTReports** \> **XMLHeader** \> **Dokuments** \> **CstmrCdtTrfInitn** \> **PmtInf** un pēc tam atlasiet **Lasīt visus ierakstus**.
+2. Izvērsiet formāta elementus, lai atlasītu **ISO20022CTReports**\> **XMLHeader**\> **Dokuments**\>**CstmrCdtTrfInitn**\> **PmtInf** un pēc tam atlasiet **Lasīt visus ierakstus**.
 3. Izvērsiet formāta elementus, lai atlasītu **ISO20022CTReports** \> **XMLHeader** \> **Dokuments** \> **CstmrCdtTrfInitn** \> **PmtInf** \> **CdtTrfTxInf** un tad atlasiet **Lasīt visus ierakstus**.
 4. Izvērsiet formāta elementus, lai atlasītu **ISO20022CTReports** \> **XMLHeader** \> **Dokuments** \> **CstmrCdtTrfInitn** \> **PmtInf** \> **CdtTrfTxInf** \> **CdtrAcct** \> **Id** \> **IBAN** \> **BankIBAN** un tad atlasiet **Iegūt vērtību**.
 5. Atlasiet **Izvērst visas**.
 
-    ![IBAN lauka vērtība formātā.](./media/er-data-debugger-debugging-format.png)
+    ![IBAN lauka vērtība formātā](./media/er-data-debugger-debugging-format.png)
 
    Kā redzat, formāta saistīšana nav atbildīga par saīsinātajām atstarpēm, jo IBAN kods, ko tā atgriež kreditora bankas kontam, ietver atstarpes. Tāpēc **BankIBAN** elements ir konfigurēts tā, lai izmantotu formāta transformāciju, kas saīsina atstarpes.
 
@@ -154,13 +156,13 @@ Datu avota atkļūdotāju var izmantot, lai piekļūtu datu avotu datiem, kas ti
 2. Lapā **Konfigurācijas** atlasiet **Maksājuma modelis** \> **ISO20022 kredīta pārskaitījums**.
 3. Atlasiet **Noformētājs** un tad izvērsiet elementus, lai atlasītu **Dokuments** \> **CstmrCdtTrfInitn** \> **PmtInf** \> **CdtTrfTxInf** \> **CdtrAcct** \> **Id** \> **IBAN** \> **BankIBAN**.
 
-    ![BankIBAN elements lapā Formāta veidotājs.](./media/er-data-debugger-referred-transformation.png)
+    ![BankIBAN elements lapā Formāta veidotājs](./media/er-data-debugger-referred-transformation.png)
 
     Kā redzat, **BankIBAN** elements ir konfigurēts, lai izmantotu **noņemt, kas nav burtcipari** transformāciju.
 
 4. Atlasiet cilni **Transformācijas**.
 
-    ![BankIBAN elementa transformāciju cilne.](./media/er-data-debugger-transformation.png)
+    ![BankIBAN elementa transformāciju cilne](./media/er-data-debugger-transformation.png)
 
     Kā redzat, **noņemt, kas nav burtcipari** transformācija ir konfigurēta, lai izmantotu izteiksmi, kas saīsina atstarpes no nodrošinātās teksta virknes.
 
@@ -168,7 +170,7 @@ Datu avota atkļūdotāju var izmantot, lai piekļūtu datu avotu datiem, kas ti
 
 Konfigurējot ER formāta melnraksta versiju, ko var palaist tieši no Operāciju noformētāja, varat piekļūt datu avota atkļūdotājam, darbības rūtī atlasot **Sākt atkļūdošanu**.
 
-![Sākt atkļūdošanu poga lapā Formāta veidotājs.](./media/er-data-debugger-run-from-designer.png)
+![Sākt atkļūdošanu poga lapā Formāta veidotājs](./media/er-data-debugger-run-from-designer.png)
 
 Atkļūdošanai ir pieejami rediģējamā ER formāta kartēšanas un formāta komponenti.
 
@@ -176,7 +178,7 @@ Atkļūdošanai ir pieejami rediģējamā ER formāta kartēšanas un formāta k
 
 Konfigurējot ER modeļa kartēšanu, ko var palaist tieši no **Modeļa kartēšanas** lapas, varat piekļūt datu avota atkļūdotājam, darbības rūtī atlasot **Sākt atkļūdošanu**.
 
-![Sākt atkļūdošanu poga noformētāja lapā Modeļa kartēšana.](./media/er-data-debugger-run-from-designer-mapping.png)
+![Sākt atkļūdošanu poga noformētāja lapā Modeļa kartēšana](./media/er-data-debugger-run-from-designer-mapping.png)
 
 Rediģējamā ER kartēšanas komponenta modeļa komponents ir pieejams atkļūdošanai.
 
@@ -186,7 +188,7 @@ Rediģējamā ER kartēšanas komponenta modeļa komponents ir pieejams atkļūd
 
 Ja vēlaties izmantot ER risinājumu, lai ģenerētu elektronisko maksājumu failu kreditora maksājumam, kas tiek apstrādāts, jūs varat [lejupielādēt](download-electronic-reporting-configuration-lcs.md) **ISO20022 kredīta pārvedumu** ER maksājuma formātu, kas ir pieejams no koplietojamo līdzekļu bibliotēkas Microsoft Dynamics Lifecycle Services (LCS) pakalpojumos vai no Globālās krātuves.
 
-![ER maksājuma formātu importēšana lapā Konfigurācijas krātuve.](./media/er-data-debugger-import-from-repo.png)
+![ER maksājuma formātu importēšana lapā Konfigurācijas krātuve](./media/er-data-debugger-import-from-repo.png)
 
 Papildus atlasītajam ER formātam sekojošajām [konfigurācijām](general-electronic-reporting.md#Configuration) ir jābūt automātiski importētām jūsu Microsoft Dynamics 365 Finance instancē kā daļai no **ISO20022 kredīta pārveduma** ER risinājuma:
 
@@ -197,7 +199,7 @@ Papildus atlasītajam ER formātam sekojošajām [konfigurācijām](general-elec
 
 Šīs konfigurācijas ir iespējams atrast ER struktūras lapā **Konfigurācijas** (**Organizācijas administrēšana** \> **Elektroniskā ziņošana** \> **Konfigurācijas**).
 
-![Importētās konfigurācijas Konfigurāciju lapā.](./media/er-data-debugger-configurations.png)
+![Importētās konfigurācijas Konfigurāciju lapā](./media/er-data-debugger-configurations.png)
 
 Ja konfigurācijas kokā trūkst kādas no iepriekš uzskaitītajām konfigurācijām, tās ir manuāli jālejupielādē no koplietojamā līdzekļa bibliotēkas tādā pašā veidā, kā lejupielādējat ER maksājuma formātu **ISO20022 kredīta pārvedums**.
 
@@ -213,7 +215,7 @@ Ja konfigurācijas kokā trūkst kādas no iepriekš uzskaitītajām konfigurāc
 
     Ievērojiet, ka datu modeļa **Maksājumu** lauks ir saistīts ar **\$notSentTransactions** datu avotu, kas atgriež to kreditoru maksājumu rindu sarakstu, kuras tiek apstrādātas.
 
-    ![Maksājumu lauks Modeļa kartēšanas noformētāja lapā.](./media/er-data-debugger-model-mapping.png)
+    ![Maksājumu lauks Modeļa kartēšanas noformētāja lapā](./media/er-data-debugger-model-mapping.png)
 
 #### <a name="review-the-format-mapping"></a>Pārskatīt formāta kartēšanu
 
@@ -222,9 +224,9 @@ Ja konfigurācijas kokā trūkst kādas no iepriekš uzskaitītajām konfigurāc
 3. Atlasiet **Noformētājs**.
 4. Cilnē **Kartēšana** pārskatiet atvērto formāta kartēšanu.
 
-    Ievērojiet, ka **Dokuments** \> **CstmrCdtTrfInitn** \> **PmtInf** elements failam **ISO20022CTReports** \> **XMLHeader** ir piesaistīts **\$PaymentByDebtor** datu avotam, kas ir konfigurēts datu modeļa **Maksājumu** lauka ierakstu grupēšanai.
+    Ievērojiet, ka **Dokuments** \> **CstmrCdtTrfInitn** \> **PmtInf** elements failam **ISO20022CTReports** \> **XMLHeader** ir piesaistīts  **\$PaymentByDebtor** datu avotam, kas ir konfigurēts datu modeļa **Maksājumu** lauka ierakstu grupēšanai.
 
-    ![PmtInf elements lapā Formāta veidotājs.](./media/er-data-debugger-format-mapping.png)
+    ![PmtInf elements lapā Formāta veidotājs](./media/er-data-debugger-format-mapping.png)
 
 #### <a name="review-the-format"></a>Pārskatīt formātu
 
@@ -234,7 +236,7 @@ Ja konfigurācijas kokā trūkst kādas no iepriekš uzskaitītajām konfigurāc
 
     Ievērojiet, ka formāta elements sadaļā **Dokuments** \> **CstmrCdtTrfInitn** \> **PmtInf** \> **CdtTrfTxInf** \> **CdtrAcct** \> **Id** \> **IBAN** \> **BankIBAN** ir konfigurēts, lai maksājuma failā ievadītu kreditora konta IBAN kodu.
 
-    ![BankIBAN formāta elements lapā Formāta veidotājs.](./media/er-data-debugger-format.png)
+    ![BankIBAN elements lapā Formāta veidotājs](./media/er-data-debugger-format.png)
 
 ## <a name="appendix-2-configure-accounts-payable"></a><a name="appendix2"></a>2.papildinājums: Konfigurēt kreditorus
 
@@ -245,7 +247,7 @@ Ja konfigurācijas kokā trūkst kādas no iepriekš uzskaitītajām konfigurāc
 3. Kopsavilkuma cilnē **Identifikācija** laukā **IBAN** <a name="enteredIBANcode"></a>ievadiet **GB33 BUKB 2020 1555 5555 55**.
 4. Atlasiet **Saglabāt**.
 
-![IBAN lauks uzstādīts lapā Kreditora bankas konti.](./media/er-data-debugger-iban.png)
+![IBAN lauks uzstādīts lapā Kreditora bankas konti](./media/er-data-debugger-iban.png)
 
 ### <a name="set-up-a-method-of-payment"></a>Maksāšanas metodes iestatīšana
 
@@ -255,7 +257,7 @@ Ja konfigurācijas kokā trūkst kādas no iepriekš uzskaitītajām konfigurāc
 4. Laukā **Eksporta formāta konfigurācija** atlasiet **ISO20022 kredīta pārveduma** ER formātu.
 5. Atlasiet **Saglabāt**.
 
-![Faila formāta iestatījumi lapā Maksājuma metodes.](./media/er-data-debugger-payment-method.png)
+![Faila formāta iestatījumi lapā Maksājuma metodes](./media/er-data-debugger-payment-method.png)
 
 ### <a name="add-a-vendor-payment"></a>Kreditora maksājuma pievienošana
 
@@ -267,7 +269,7 @@ Ja konfigurācijas kokā trūkst kādas no iepriekš uzskaitītajām konfigurāc
 6. Laukā **Maksājuma metode** atlasiet **SEPA CT**.
 7. Atlasiet **Saglabāt**.
 
-![Kreditora maksājums ir pievienots lapā Kreditora maksājumi.](./media/er-data-debugger-payment-journal.png)
+![Kreditora maksājums ir pievienots lapā Kreditora maksājumi](./media/er-data-debugger-payment-journal.png)
 
 ## <a name="appendix-3-process-a-vendor-payment"></a><a name="appendix3"></a>3. papildinājums: Kreditora maksājumu apstrāde
 
@@ -279,6 +281,3 @@ Ja konfigurācijas kokā trūkst kādas no iepriekš uzskaitītajām konfigurāc
 6. Laukā **Bankas konts** atlasiet **DEMF OPER**.
 7. Dialoglodziņā **Ģenerēt maksājumus** atlasiet **Labi**.
 8. Dialoglodziņā **Elektroniskā pārskata parametri** atlasiet **Labi**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

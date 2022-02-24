@@ -1,10 +1,12 @@
 ---
 title: ER Izveidot nepieciešamās konfigurācijas, lai importētu datus no ārēja faila
-description: Šajā tēmā aprakstīts, kā izveidot elektronisko pārskatu konfigurācijas datu importēšanai programmā Microsoft Dynamics 365 Finance no ārējā faila.
+description: Tālāk sniegtajā darbību aprakstā ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektroniskā pārskata izstrādātājs var izstrādāt elektronisko pārskatu izveides (Electronic reporting — ER) konfigurācijas, lai importētu datus lietojumprogrammā Microsoft Dynamics 365 Finance no ārēja faila.
 author: NickSelin
-ms.date: 03/24/2021
+manager: AnnBe
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERSolutionCreateDropDialog, EROperationDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula, Tax1099Summary, VendSettlementTax1099
 audience: Application User
@@ -13,25 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7eaa35baae8e030d8a8b7ce903554c4876c874b48cfd72d6ac278cf4c0e8a6e8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d9b26f4963f32be34ae1d954a3f363be7ea28d41
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720860"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684286"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER Izveidot nepieciešamās konfigurācijas, lai importētu datus no ārēja faila
 
 [!include [banner](../../includes/banner.md)]
 
-Tālāk sniegtajā darbību aprakstā ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektroniskā pārskata izstrādātājs var izstrādāt elektronisko pārskatu izveides (Electronic reporting — ER) konfigurācijas, lai importētu datus lietojumprogrammā no ārēja faila. Šajā piemērā jūs izveidosiet nepieciešamās ER konfigurācijas konfigurācijas parauga uzņēmumam Litware, Inc. Lai izpildītu šīs darbības, vispirms ir jāizpilda uzdevuma ceļvedī "ER Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu" aprakstītās darbības. Šīs darbības var veikt, izmantojot USMF datu kopu. Nepieciešams arī lejupielādēt un saglabāt tālāk norādītos failus lokāli: 
-
-| Satura apraksts                       | Faila nosaukums                                     |
-|-------------------------------------------|-----------------------------------------------|
-| ER datu modeļa konfigurācija - 1099 | [1099model,xml](https://download.microsoft.com/download/b/d/9/bd9e8373-d558-4ab8-aa9b-31981adc97ea/1099model.xml)                  |
-| ER formāta konfigurācija - 1099    | [1099format.xml](https://download.microsoft.com/download/e/8/7/e87154b0-b53f-431f-8e1e-0b7f7c9805a9/1099format.xml)                  |
-| Ienākošā dokumenta XML formātā paraugs                          | [1099entries.xml](https://download.microsoft.com/download/4/0/3/403a4958-df24-476a-b8b0-6843a9fa7f89/1099entries.xml)        |
-| Darbgrāmatas piemērs ienākoša dokumenta datu pārvaldīšanai                          | [1099entries.xlsx](https://download.microsoft.com/download/6/0/0/6001abab-a331-48db-a939-41851fb0f5d0/1099entries.xlsx) |
+Tālāk sniegtajā darbību aprakstā ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektroniskā pārskata izstrādātājs var izstrādāt elektronisko pārskatu izveides (Electronic reporting — ER) konfigurācijas, lai importētu datus lietojumprogrammā no ārēja faila. Šajā piemērā jūs izveidosiet nepieciešamās ER konfigurācijas konfigurācijas parauga uzņēmumam Litware, Inc. Lai izpildītu šīs darbības, vispirms ir jāizpilda uzdevuma ceļvedī "ER Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu" aprakstītās darbības. Šīs darbības var veikt, izmantojot USMF datu kopu. Ir nepieciešams arī lejupielādēt un lokāli saglabāt failus, kuri norādīti tālāk tēmā Elektronisko atskaišu veidošanas pārskats (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
 
 ER biznesa lietotājiem sniedz iespēju konfigurēt procesu, kādā ārējo datu faili tabulās tiek importēti formātā .XML vai formātā .TXT. Vispirms ir jāizveido abstrakts datu modelis un ER datu modeļa konfigurācija, kas pārstāv importējamos datus. Pēc tam ir jādefinē importējamā faila struktūra un metode, ko izmantosiet, lai datus no faila pārnestu uz abstrakto datu modeli. Abstraktajam datu modelim ir jāizveido ER formāta konfigurācija, kas kartē uz izveidoto datu modeli. Pēc tam datu modeļa konfigurācija ir jāpaplašina ar kartējumu, kas apraksta veidu, kādā importētie dati tiek saglabāti kā abstrakta datu modeļa dati un kā tie tiek lietoti, lai atjauninātu tabulas .  ER datu modeļa konfigurācijai ir jāpievieno jauns modeļa kartējums, kas apraksta datu modeļa saistījumu ar programmas galamērķiem.  
 
@@ -241,7 +236,7 @@ Testēšanas nolūkos izpildiet šo formāta kartēšanu. Lietojiet iepriekš le
 19. Aizvērt lapu.
 20. Noklikšķiniet uz Rediģēt.
 
-    Ja ir instalēts labojumfails “KB 4012871 GER modeļu kartējumu atbalsts atdalītās konfigurācijās ar iespēju norādīt atšķirīgus priekšnosacījumu veidus to izvietošanai dažādās Dynamics 365 Financeversijās” ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)), izpildiet nākamo darbību “Karodziņa Noklusējums modeļu kartēšanai ieslēgšana” ar ievadīto formāta konfigurāciju. Pretējā gadījumā izlaidiet nākamo darbību.  
+    Ja ir instalēts labojumfails “KB 4012871 GER modeļu kartējumu atbalsts atdalītās konfigurācijās ar iespēju norādīt atšķirīgus priekšnosacījumu veidus to izvietošanai dažādās Dynamics 365 Finance versijās” ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)), izpildiet nākamo darbību “Karodziņa Noklusējums modeļu kartēšanai ieslēgšana” ar ievadīto formāta konfigurāciju. Pretējā gadījumā izlaidiet nākamo darbību.  
 
 21. Modeļu kartējuma laukā Noklusējums atlasiet vērtību Jā.
 22. Koka struktūrā atlasiet zaru “1099 Maksājumu modelis”.
@@ -259,6 +254,3 @@ Testēšanas nolūkos izpildiet šo formāta kartēšanu. Lietojiet iepriekš le
 27. Aizvērt lapu.
 28. Aizvērt lapu.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,22 +2,25 @@
 title: Preču klāsta pārvaldība
 description: Šajā tēmā ir paskaidroti pamata jēdzieni, kas tiek izmantoti preču klāsta pārvaldībai programmā Dynamics 365 Commerce, un ir sniegti jūsu projekta ieviešanas apsvērumi.
 author: jblucher
+manager: AnnBe
 ms.date: 03/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
+ms.search.scope: Retail, Operations
 ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: 1ff4929e8789748433f4e9386397431e174a85f81518d2e0a1d8f9ea68211fa6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e1b177989065740eef0bd917a7ce1e0a2c79088b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717775"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413976"
 ---
 # <a name="assortment-management"></a>Preču klāsta pārvaldība
 
@@ -35,27 +38,27 @@ Kanāla kopējo preču kombināciju nosaka publicētie preču klāsti, kas pieš
 
 Šajā piemērā katrā veikalā tiek konfigurēts unikāls preču klāsts. Šajā gadījumā 1. veikalā ir pieejama tikai 1. prece, bet 2. veikalā ir pieejama tikai 2. prece.
 
-![Katra prece ir pieejama vienā veikalā.](./media/Managing-assortments-figure1.png)
+![Katra prece ir pieejama vienā veikalā](./media/Managing-assortments-figure1.png)
 
 Lai 2. prece būtu pieejama 1. veikalā, varat pievienot preci 1. preču klāstam.
 
-![2. prece pievienota 1. klāstam.](./media/Managing-assortments-figure2.png)
+![2. prece pievienota 1. klāstam](./media/Managing-assortments-figure2.png)
 
 Varat arī pievienot 2. preču klāstam 1. veikalu.
 
-![1. veikals pievienots 2. klāstam.](./media/Managing-assortments-figure3.png)
+![1. veikals pievienots 2. klāstam](./media/Managing-assortments-figure3.png)
 
 ### <a name="organization-hierarchies"></a>Organizācijas hierarhijas
 
 Ja vairākos kanālos ir vienāds preču klāsts, varat konfigurēt preču klāstu, izmantojot Commerce preču klāsta organizācijas hierarhiju. Pievienojot mezglus no šīs hierarhijas, tiks iekļauti visi šī mezgla un tā apakšmezglu kanāli.
 
-![Organizācijas hierarhija.](./media/Managing-assortments-figure4.png)
+![Organizācijas hierarhija](./media/Managing-assortments-figure4.png)
 
 ### <a name="product-categories"></a>Preces kategorijas
 
 Līdzīgi var rīkoties arī ar precēm: var ietvert preču grupas, izmantojot preču kategoriju hierarhijas. Varat konfigurēt preču klāstus, iekļaujot vienu vai vairākus kategoriju hierarhijas mezglus. Tādā gadījumā preču klāstā tiks iekļautas visas kategorijas mezglā un tā apakšmezglos esošās preces.
 
-![Preces kategorijas.](./media/Managing-assortments-figure5.png)
+![Preces kategorijas](./media/Managing-assortments-figure5.png)
 
 ### <a name="excluded-products-or-categories"></a>Izslēgtās preces vai kategorijas
 
@@ -64,7 +67,7 @@ Papildus preču un kategoriju iekļaušanai preču klāstos varat izmantot opcij
 > [!NOTE]
 > Ja saskaņā ar definīciju prece ir gan iekļauta vienā vai vairākos preču klāstos, gan izslēgta no tiem, prece vienmēr tiks uzskatīta kā izslēgta.
 
-![Izslēgta prece.](./media/Managing-assortments-figure6.png)
+![Izslēgta prece](./media/Managing-assortments-figure6.png)
 
 ### <a name="global-and-released-products"></a>Globālas un realizētas preces
 
@@ -104,6 +107,3 @@ Commerce implementēšanas nolūkā plānojot un pārvadot preču klāstus, ņem
 - **Preču klāstā neesošu preču pārdošana un ieņēmumi no tām** — šī iespēja palīdz mazumtirgotājiem efektīvi pārvaldīt preču klāstus, ļaujot ierobežot pieejamo preču skaitu līdz precēm, kas pieder pie veikala pamata preču komplekta. Šī iespēja arī palīdz mazumtirgotājiem rīkoties situācijās, kad prece kļūdaini tiek izlaista preču klāstā vai kad prece tiek atgriezta ārpus preču klāsta derīguma termiņiem.
 
 Ja kanāla datu bāzē preces dati nepastāv, POS veic reālā laika zvanu galvenajam birojam, lai izgūtu nepieciešamo informāciju, lai preci varētu pārdot, atgriezt vai ietvert debitora pasūtījumā. Šādā veidā izgūta preces informācija ir pieejama tikai šīs transakcijas ietvaros. Prece netiek pievienota preču klāsta definīcijai. Tādēļ nepieciešamības gadījumā tiks veikti turpmāki reāllaika zvani.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

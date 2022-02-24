@@ -44,5 +44,3 @@ ms.locfileid: "4461848"
 - Pārlūkprogrammas atbalsta atjauninājums (no 2020. gada 1. jūlija LinkedIn vairs neatbalsta Internet Explorer 11)
 
 Papildinformāciju skatiet rakstā [Kandidātu piesaistīšana ar LinkedIn Recruiter pakalpojumā Attract](attract-linkedin-recruiter.md).
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

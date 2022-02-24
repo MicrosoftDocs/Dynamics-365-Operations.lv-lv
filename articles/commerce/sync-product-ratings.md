@@ -2,12 +2,15 @@
 title: Preču vērtējumu sinhronizācija pakalpojumā Dynamics 365 Commerce
 description: Šajā tēmā ir aprakstīts, kā sinhronizēt preču vērtējumus risinājumā Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3ceac78e6dbc6f83ed4968f76672367e79bdd968
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
-ms.translationtype: MT
+ms.openlocfilehash: dec87b548f3a218e1f833b752305f373e893b14c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7967954"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414117"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>Preču vērtējumu sinhronizācija pakalpojumā Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā ir aprakstīts, kā sinhronizēt preču vērtējumus risinājumā Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Pārskats
 
 Lai izmantotu preču vērtējumus vairākos kanālos, piemēram, pārdošanas punktā (POS) un zvanu centros, preču novērtējumi no vērtējumu un pārskatu pakalpojuma ir jāimportē Commerce kanāla datu bāzē. Kad preču vērtējumi ir pieejami vairākos kanālos, tie var netieši palīdzēt klientiem to mijiedarbības laikā ar pārdošanas partneriem.
 
@@ -57,7 +62,7 @@ Lai pārbaudītu, vai **RetailProductRating** apakšdarbs pastāv, rīkojieties,
 
 Tālāk redzamajā attēlā ir parādīts Commerce apakšdarba detalizētas informācijas piemērs.
 
-![Detalizēta informācija par RetailProductRating apakšdarbu.](media/rnr-hq-ratings-sub-job.png)
+![Detalizēta informācija par RetailProductRating apakšdarbu](media/rnr-hq-ratings-sub-job.png)
 
 > [!NOTE]
 > Ja neatrodat **RetailProductRating** apakšdarbu, iespējams, jau esat palaidis darbu **Sinhronizēt preču vērtējumus** darbu un darbu **1040 CDX** pirms Commerce plānotāja inicializēšanas. Šādā gadījumā veiciet šīs darbības, lai palaistu darbu **Pilnīga datu sinhronizācija**.
@@ -81,7 +86,7 @@ Lai importētu preču vērtējumus Commerce no vērtējumu un pārskatu pakalpoj
 
 Tālāk redzamajā attēlā ir parādīta pakešuzdevuma konfigurācija programmā Commerce.
 
-![Pakešuzdevumu preču vērtējuma sinhronizēšanas konfigurācija.](media/rnr-hq-batchjob-recurrence.png)
+![Pakešuzdevumu preču vērtējuma sinhronizēšanas konfigurācija](media/rnr-hq-batchjob-recurrence.png)
 
 ## <a name="verify-that-the-batch-job-for-product-rating-synchronization-was-successful"></a>Pārbaudīt, vai pakešuzdevumu preču vērtējuma sinhronizēšana bija veiksmīga
 
@@ -93,7 +98,7 @@ Lai pārbaudītu, vai pakešuzdevums **Sinhronizēt preces vērtējumu** bija ve
 
 Tālāk esošajā attēlā parādīts piemērs ar pakešuzdevuma detalizētu informāciju programmā Commerce, kad pakešuzdevums tiek plānots izpildei divu stundu intervālos.
 
-![.Pakešuzdevumu preču vērtējuma sinhronizēšanas detalizēta informācija.](media/rnr-hq-batchjob-status-checking.png)
+![Pakešuzdevumu preču vērtējuma sinhronizēšanas detalizēta informācija](media/rnr-hq-batchjob-status-checking.png)
 
 ## <a name="make-product-ratings-available-at-the-pos"></a>Padarīt preces vērtējumus pieejamus POS
 
@@ -111,15 +116,15 @@ Lai ieslēgtu preču vērtējumus POS, veiciet tālāk minētās darbības.
 
 Tālāk esošajā attēlā parādīts piemērs par Commerce parametru konfigurāciju, lai POS sistēmā ieslēgtu preces vērtējumus.
 
-![Commerce parametru konfigurācija preču vērtējumiem POS sistēmā.](media/rnr-hq-enable-ratings-in-pos.png)
+![Commerce parametru konfigurācija preču vērtējumiem POS sistēmā](media/rnr-hq-enable-ratings-in-pos.png)
 
 Nākamajā attēlā ir parādīts piemērs ar preces vērtējumiem POS sistēmā.
 
-![Preču vērtējumi POS sistēmā.](media/rnr-pos-catalog-ratings.png)
+![Preču vērtējumi POS sistēmā](media/rnr-pos-catalog-ratings.png)
 
 Nākamajā attēlā ir parādīts piemērs ar preces vērtējumiem zvanu centra kanālos.
 
-![Preču vērtējumi zvanu centra kanālā.](media/rnr-call-center-ratings.png)
+![Preču vērtējumi zvanu centra kanālā](media/rnr-call-center-ratings.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
@@ -130,16 +135,3 @@ Nākamajā attēlā ir parādīts piemērs ar preces vērtējumiem zvanu centra 
 [Vērtējumu un atsauksmju pārvaldība](manage-reviews.md)
 
 [Vērtējumu un atsauksmju konfigurēšana](configure-ratings-reviews.md)
-
-[Preču vērtējumu sinhronizācija](sync-product-ratings.md)
-
-[Iespējojiet moderatora manuālo vērtējumu un atsauksmju publicēšanu](manual-publish-rating-reviews.md)
-
-[Importēt un eksportēt vērtējumus un pārskatus](import-export-reviews.md)
-
-[Konfigurēt pakalpojumu-pakalpojuma autentifikāciju](service-to-service-auth.md)
-
-[BUJ par vērtējumiem un atsauksmēm](ratings-reviews-faq.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

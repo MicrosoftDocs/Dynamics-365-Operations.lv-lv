@@ -1,27 +1,29 @@
 ---
-title: Finance and Operations programmu dokumentācija
-description: Dokumentācija Finance and Operations programmām.
-author: tonyafehr
-ms.date: 04/13/2021
+title: Finance and Operations programmas dokumentācija
+description: Dokumentācija Finance and Operations programmām.
+author: robinarh
+manager: AnnBe
+ms.date: 07/25/2019
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
-ms.reviewer: tfehr
-ms.custom: intro-internal
+ms.reviewer: rhaertle
+ms.custom: 62303
 ms.search.region: Global
-ms.author: tfehr
+ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf2278cbf47c5fd2937e7da55c8777709ab7d356
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: a44324a14a78174ad4d68e6686c523c49d7aa3bd
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075401"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694390"
 ---
-# <a name="finance-and-operations-application-documentation"></a>Finance and Operations programmu dokumentācija
+# <a name="finance-and-operations-application-documentation"></a>Finance and Operations programmas dokumentācija
 
 [!include [banner](includes/banner.md)]
 
@@ -41,14 +43,14 @@ Liela daļa šī satura attiecas arī uz saistītajiem produktiem: Dynamics 365 
 <h3><a href="get-started/before-you-buy.md">Pirms iegādes</a></h3>
 <p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">Reģistrēšanās priekšskatījuma abonementam</a></p>
  <p><a href="../dev-itpro/deployment/choose-deployment-type.md">Izvietošanas opcijas izvēle</a></p>
- <p><a href="get-started/purchase-on-premises.md">Finance and Operations (on-premises) iegāde</a></p>
+ <p><a href="get-started/purchase-on-premises.md">Iegādāties Finance and Operations (lokāli)</a></p>
 
 <h3><a href="imp-lifecycle/implementation-lifecycle.md">Ieviešanas dzīves cikls</a></h3>
-<p><a href="/dynamics365/fasttrack/">FastTrack for Dynamics 365</a></p>
+<p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
 <p><a href="imp-lifecycle/onboard.md">Projekta pievienošana</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">Sagatavošana palaišanai</a></p>
 
-<h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">One Version pakalpojuma atjauninājumi</a></h3>
+<h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">Vienas versijas pakalpojuma atjauninājumi</a></h3>
 <p><a href="get-started/one-version.md">Bieži uzdotie jautājumi par vienas versijas pakalpojuma atjauninājumiem</a></p>
 <p><a href="../dev-itpro/migration-upgrade/versions-update-policy.md">Programmatūras dzīves cikla politika: mākonī</a></p>
 <p><a href="../dev-itpro/migration-upgrade/on-prem-version-update-policy.md">Programmatūras dzīves cikla politika: lokāli</a></p>
@@ -76,18 +78,16 @@ Liela daļa šī satura attiecas arī uz saistītajiem produktiem: Dynamics 365 
 <p><a href="../../finance/cost-accounting/cost-accounting-home-page.md">Izmaksu uzskaite</a></p>
 <p><a href="../../finance/fixed-assets/fixed-assets.md">Pamatlīdzekļi</a></p>
 <p><a href="../../finance/general-ledger/general-ledger.md">Virsgrāmata</a></p>
-<p><a href="/dynamics365/project-operations/prod-pma/overview-project-management-accounting">Projektu pārvaldība</a></p>
+<p><a href="../../finance/project-management/overview-project-management-accounting.md">Projektu pārvaldība</a></p>
 <p><a href="../../finance/public-sector/public-sector-functionality.md">Publiskais sektors</a></p>
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Reģionālie regulēšanas līdzekļi</a></p>
 
-<h3><a href="hr/hr-landing-page.md">Personālresursi</a></h3>
-<p><a href="../../human-resources/hr-employee-manager-self-service-overview.md">Darbinieku patstāvīgi izmantojamais pakalpojums</a></p>
-<p><a href="../../human-resources/hr-personnel-departments-jobs-positions.md">Personāla pārvaldība</a></p>
-<p><a href="../../human-resources/hr-leave-and-absence-overview.md">Atvaļinājumi un kavējumi</a></p>
+<h3><a href="hr/hr-landing-page.md">Personāla vadība</a></h3>
 <p><a href="../../human-resources/hr-benefits-manage-program.md">Atvieglojumi</a></p>
-<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Darbinieku attīstība</a></p>
-<p><a href="../../human-resources/hr-learning-courses.md">Mācības</a></p>
- <p><a href="hr/localizations/noam-usa-payroll.md">ASV alga</a></p>
+<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Darbinieku izaugsme un apmācība</a></p>
+<p><a href="../../human-resources/hr-learning-questionnaires.md">Anketas</a></p>
+<p><a href="hr/manage-recruiting-process.md">Personāla atlase</a></p>
+<p><a href="hr/localizations/noam-usa-payroll.md">ASV alga</a></p>
 
 </td>
 <td>
@@ -128,11 +128,16 @@ Liela daļa šī satura attiecas arī uz saistītajiem produktiem: Dynamics 365 
 </td>
 <td>
 <h3>Saistītie produkti</h3>
-<h4><a href="/dynamics365/commerce/">Dynamics 365 Commerce</a></h4>
-<p><a href="../../commerce/call-center-functionality.md">Zvanu centrs</p>
-<p><a href="../../commerce/define-maintain-retail-channels.md">Kanāla iestatīšana un pārvaldība</p>
-<p><a href="../../commerce/retail-peripherals-overview.md">MPOS un Cloud POS</p>
-<p><a href="../../commerce/dev-itpro/dev-retail-home-page.md">Commerce izstrādātājs un administrācija</p>
+<h4><a href="../../retail/index.md">Dynamics 365 Commerce</a></h4>
+<p><a href="../../retail/call-center-functionality.md">Zvanu centrs</p>
+<p><a href="../../retail/define-maintain-retail-channels.md">Kanāla iestatīšana un pārvaldība</p>
+<p><a href="../../retail/retail-peripherals-overview.md">MPOS un Cloud POS</p>
+<p><a href="../../retail/dev-itpro/dev-retail-home-page.md">Commerce izstrādātājs un administrācija</p>
+
+<h4><a href="../../human-resources/hr-welcome.md">Dynamics 365 Human Resources</a></h4>
+<p><a href="../../human-resources/hr-admin-overview.md">Administratora rokasgrāmata</a></p>
+<p><a href="../../human-resources/hr-developer-overview.md">Izstrādātāja rokasgrāmata</a></p>
+<p><a href="../../human-resources/hr-hrpro-overview.md">Lietotāja rokasgrāmata</a></p>
 
 
 </td>
@@ -140,6 +145,3 @@ Liela daļa šī satura attiecas arī uz saistītajiem produktiem: Dynamics 365 
 
 </tbody>
 </table>
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

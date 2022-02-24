@@ -2,9 +2,11 @@
 title: Power BI satura pakotne Organizācijas apmācība
 description: Šajā tēmā ir aprakstīts Finance and Operations organizācijas apmācību Power BI saturs.
 author: jcart1106
+manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cd48c12ea3ea31904c437f678888a51e5381cfcfbeef0e1c709858b0c6cb857d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bbbb3069ffc43062e456721e189f671398514cfd
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763552"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685839"
 ---
 # <a name="organizational-training-power-bi-content"></a>Power BI satura pakotne Organizācijas apmācība
 
@@ -28,7 +30,7 @@ ms.locfileid: "6763552"
 Šajā tēmā ir aprakstīts Finance and Operations organizācijas apmācību Power BI saturs.
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Satura pakotnē iekļautie pārskati
-Kad ir izveidots satura pakotnes savienojums ar jūsu datiem, pārskatos tiek rādīti jūsu organizācijas dati. Ja nekad neesat lietojis Microsoft Power BI, varat par to vairāk uzzināt rakstā [Vadītās mācīšanās lapa Power BI](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData). Satura pakotnē iekļautajos pārskatos ir gan diagrammas, gan tabulas, kas satur papildinformāciju. Tabulā ir sniegts pārskatu apraksts.
+Kad ir izveidots satura pakotnes savienojums ar jūsu datiem, pārskatos tiek rādīti jūsu organizācijas dati. Ja iepriekš neesat lietojis Microsoft Power BI, papildinformāciju par to varat saņemt lapā [Power BI vadītā apmācība](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData). Satura pakotnē iekļautajos pārskatos ir gan diagrammas, gan tabulas, kas satur papildinformāciju. Tabulā ir sniegts pārskatu apraksts.
 
 | Pārskats          | Saturs                                                                    |
 |-----------------|-----------------------------------------------------------------------------|
@@ -55,6 +57,3 @@ Satura pakotnes Organizācijas apmācība pārskatu aizpildīšanai tiek izmanto
 | Training\_Position        | Pozīcija, amats un pilnas slodzes ekvivalents (FTE)                  | Training\_CourseAgenda, Training\_CourseAttendees |
 | Training\_WorkerName      | Vārds, uzvārds un pilnais vārds                             | Training\_CourseAttendees |
 | Training\_WorkerTitle     | Nosaukums un darba stāža datums                                         | Training\_CourseAttendees |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

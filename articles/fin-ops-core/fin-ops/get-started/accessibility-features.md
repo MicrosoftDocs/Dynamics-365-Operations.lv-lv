@@ -2,9 +2,11 @@
 title: Pieejamības līdzekļi
 description: Šajā tēmā ir aprakstīta funkcionalitāte, kas ir izveidota, lai palīdzētu lietotājiem ar īpašām vajadzībām.
 author: TLeforMicrosoft
+manager: AnnBe
 ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -12,19 +14,16 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 022c51f7050d11caf5ce67c5df8f9f9040a54b98
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 2d0dd3ebf4b50f43f9fb1893081ede2a93428c72
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071062"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798699"
 ---
 # <a name="accessibility-features"></a>Pieejamības līdzekļi
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Šajā tēmā ir aprakstīta funkcionalitāte, kas ir izveidota, lai palīdzētu lietotājiem ar īpašām vajadzībām izmantot šo programmu. Piemēram, pastāv līdzekļi personām, kas izmanto redzes palīgtehnoloģijas, piemēram, Microsoft Windows diktoru.
 
@@ -55,13 +54,13 @@ Katrai lapā nodrošinātajai darbībai var piekļūt no tastatūras, izmantojot
 
 Vēlaties palaist darbību **E-pasta paziņojumu žurnāls**, kas ir redzama darbību rūts cilnes **Pārdošanas pasūtījums** grupā **E-pasta paziņojums**.
 
-![E-pasta paziņojuma žurnāla darbība darbību rūtī.](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "'E-pasta paziņojuma žurnāla' darbība darbību rūtī")
+![E-pasta paziņojuma žurnāla darbība darbību rūtī](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "'E-pasta paziņojuma žurnāla' darbība darbību rūtī")
 
 Viena iespēja ir izmantot tastatūru. Nospiediet taustiņu kombināciju Ctrl+F6, lai fokusu pārvietotu uz darbību rūti, un pēc tam atkārtoti spiediet taustiņu Tab, lai pārvietotos pa cilnēm un darbībām, līdz fokuss ir vērsts uz darbību **E-pasta paziņojumu žurnāls**.
 
 Taču šo darbību varat palaist arī tiešāka veidā. No jebkuras vietas lapā nospiediet taustiņu kombināciju Ctrl+apostrofs ('), lai parādītu meklēšanas lodziņu darbībām.
 
-![Meklēšanas lodziņš darbībām.](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Meklēšanas lodziņš darbībām")
+![Meklēšanas lodziņš darbībām](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Meklēšanas lodziņš darbībām")
 
 Meklēšanas lodziņā ierakstiet vārdus, kas apraksta attiecīgo darbību. Darbība jums kļūst pieejama, un varat to palaist tiešā veidā. Piemēram, ierakstot **e-pasts**, **paziņ** (daļēju vārdu) vai **žurnāls**, varat “pārlēkt” uz funkcionalitāti E-pasta paziņojumu žurnāls.
 
@@ -98,6 +97,3 @@ Viedtālruņos un citos mazos ekrānos vadīklas un veidlapas izkārtojums tiks 
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>Norādījumi par to, kā palīdzēt izstrādātājiem un klientiem savos pielāgojumos iekļaut pieejamu domāšanu
 
 Papildinformāciju par Microsoft labākajām praksēm attiecībā uz pieejamības iespējošanu skatiet šeit: [Pieejamība veidlapās, produktos un vadīklās](../../dev-itpro/user-interface/enable-accessibility.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Sistēmas noteikta darbu secība
 description: Šajā tēmā ir sniegta informācija par sistēmas noteiktu darbu secību. Šī funkcija sniedz iespēju kārtot un filtrēt darba pasūtījumus, kurus sistēma sniedz lietotājiem izpildei. Tas noder scenārijos, kad ir nepieciešami papildu kritēriji, lai virzītu noliktavas izdošanas procesu.
 author: Mirzaab
+manager: tfehr
 ms.date: 07/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFSystemDirectedWorkSequenceQuery, WHSLocDirTable
 audience: Application User
@@ -12,13 +14,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
-ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: b433787f330de3634c59f7b1b2babfe07e3bdf09
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.7
+ms.openlocfilehash: 3811486a31d079cac7f7c27ea6323f16de4478d5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577820"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970210"
 ---
 # <a name="system-directed-work-sequencing"></a>Sistēmas noteikta darbu secība
 
@@ -37,7 +39,7 @@ Tāpēc šī funkcionalitāte ļauj veikt tālāku noliktavas izdošanas procesu
 
 Lai varētu izmantot līdzekli Sistēmas noteikta darba secība, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [Līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Tur šī iespēja ir uzskaitīta tālāk minētajā veidā:
 
-- **Modulis:** *Noliktavas pārvaldība*
+- **Modulis:** *Noliktavas vadība*
 - **Līdzekļa nosaukums:** *Organizācijas līmeņa sistēmas noteikta darba secība*
 
 ## <a name="setup"></a>Iestatīt
@@ -142,7 +144,7 @@ Lai strādātu ar scenāriju, izmantojot šajā tēmā norādītās vērtības, 
 
 Ja izmantojat noklusējuma Contoso datus, novietojuma direktīvas darbības vaicājumam nebūs nepieciešamas izmaiņas. Tomēr, lai būtu drošs, ka novietojuma direktīvas nolasa pārdošanas pasūtījumos ietvertos vienumus, kad lietojat līdzekli vidē, kas nav Contoso, izveidojiet jaunu vietas direktīvu. Lai demonstrācijas vidē pārbaudītu iestatījumus, veiciet tālāk norādītās darbības.
 
-1. Dodieties uz **Noliktavas pārvaldība** \> **Iestatīšana** \> **Novietojuma direktīvas**.
+1. Dodieties uz **Noliktavas vadība** \> **Iestatīšana** \> **Novietojuma direktīvas**.
 1. Laukā **Darba pasūtījuma veids** atlasiet *Pārdošanas pasūtījumi*.
 1. Atlasiet novietojuma direktīvu ar nosaukumu *51. izdošana*.
 1. Kopsavilkuma cilnē **Novietojuma direktīvas darbības** darbībai **Izdošana** atlasiet jaunu rindu.
@@ -253,7 +255,7 @@ Pēc tam izlaidiet noliktavā katru pārdošanas pasūtījumu, lai izveidotu ize
 ### <a name="get-work-ids-for-the-work-that-was-created"></a>Darba ID iegūšana izveidotajam darbam
 
 1. Dodieties uz **Noliktavas pārvaldība \> Darbs \> Darba informācija**.
-1. Laukā **Noliktava** veiciet filtrēšanu tā, lai darbs tiktu rādīts tikai noliktavai nr. *51*.
+1. Laukā **Noliktava** veiciet filtrēšanu tā, lai darbs tiktu rādīts tikai noliktavai nr. *51*.
 1. Ir jābūt izveidotiem četriem darba ID: Pierakstiet katra pārdošanas pasūtījuma darba ID.
 
     | Pārdošanas pasūtījuma ID | Darba ID | Darba daudzums |
@@ -263,10 +265,10 @@ Pēc tam izlaidiet noliktavā katru pārdošanas pasūtījumu, lai izveidotu ize
     | 3. pārdošanas pasūtījums | 3. darba ID | 15 ea (abu rindu summa) |
     | 4. pārdošanas pasūtījums | 4. darba ID | 35 ea (abu rindu summa) |
 
-Pirms plūsmas izpildes mobilajā ierīcē pārliecinieties, vai tikko izveidotā darba noliktavas nr. *51* un darba pasūtījuma tipa *Pārdošanas pasūtījums* statuss ir *Atvērts*. Pretējā gadījumā testa rezultāti var atšķirties, jo sistēmas tiešajā izdošanā tiks iekļauts viss piemērotais darbs.
+Pirms plūsmas izpildes mobilajā ierīcē pārliecinieties, vai tikko izveidotā darba noliktavas nr. *51* un darba pasūtījuma tipa *Pārdošanas pasūtījums* statuss ir *Atvērts*. Pretējā gadījumā testa rezultāti var atšķirties, jo sistēmas tiešajā izdošanā tiks iekļauts viss piemērotais darbs.
 
 1. Atveriet **Noliktavas pārvaldība \> Darbs \> Izejošs \> Atvērts pārdošanas darbs**.
-1. Režģī **Atvērts pārdošanas darbs** laukā **Noliktava** veiciet filtrēšanu tā, lai darbs tiktu rādīts tikai noliktavai nr. *51*.
+1. Režģī **Atvērts pārdošanas darbs** laukā **Noliktava** veiciet filtrēšanu tā, lai darbs tiktu rādīts tikai noliktavai nr. *51*.
 1. Pārliecinieties, vai tiek rādīti tikai iepriekš izveidotie četri darba ID.
 1. Aizveriet lapu **Darbs**.
 
@@ -281,27 +283,24 @@ Pirms plūsmas izpildes mobilajā ierīcē pārliecinieties, vai tikko izveidot�
 1. Pierakstieties noliktavas programmā kā lietotājs noliktavā *51*.
 1. Atveriet **Izejošs \> Pārdošanas izdošana – Sistēma**.
 
-    Tiek rādīts *4.* darba ID izdošanas solis. Šis darba ID tiek rādīts vispirms sistēmas noteikta vaicājuma pasūtījuma iestatīšanas dēļ, kur jūs norādījāt, ka darba secība ir jāveido, ņemot vērā darba rindu daudzumu dilstošā secībā.
+    Tiek rādīts *4.*  darba ID izdošanas solis. Šis darba ID tiek rādīts vispirms sistēmas noteikta vaicājuma pasūtījuma iestatīšanas dēļ, kur jūs norādījāt, ka darba secība ir jāveido, ņemot vērā darba rindu daudzumu dilstošā secībā.
 
 1. Pabeidziet nepieciešamo izdošanu un novietojiet, lai aizvērtu darba ID.
 
-    Pēc tam tiek rādīts *3.* darba ID. Viena no tā darba rindām ir nākamā secībā, ņemot vērā darba rindas daudzumu.
+    Pēc tam tiek rādīts *3.*  darba ID. Viena no tā darba rindām ir nākamā secībā, ņemot vērā darba rindas daudzumu.
 
 1. Pabeidziet izdošanu un novietojiet, lai aizvērtu darba ID.
 
-    Pēc tam tiek rādīts *2.* darba ID. Šī darba izdošanas rinda ir nākamā secībā.
+    Pēc tam tiek rādīts *2.*  darba ID. Šī darba izdošanas rinda ir nākamā secībā.
 
 1. Pabeidziet izdošanu un novietojiet, lai aizvērtu darba ID.
 
-    Cits darbs jums vairs netiks rādīts. *1.* darba ID šim mobilās ierīces izvēlnes vienumam nav piemērots, jo vaicājumā ir norādīts, ka darba galvenes tiek ņemtas vērā tikai tad, ja darba rindu daudzums ir mazāks par 20 ea.
+    Cits darbs jums vairs netiks rādīts. *1.*  darba ID šim mobilās ierīces izvēlnes vienumam nav piemērots, jo vaicājumā ir norādīts, ka darba galvenes tiek ņemtas vērā tikai tad, ja darba rindu daudzums ir mazāks par 20 ea.
 
 ## <a name="tips"></a>Padomi
 
 Sistēmas norādītie darbu secības vaicājumi ir *iekļauti*. Šo faktu ir svarīgi atcerēties dažiem iestatījumiem. Piemēram, jūs vēlaties, lai konkrēts izvēlnes vienums apstrādā tikai to darbu, kur darba vienība ir *ea*, un jūs šo ierobežojumu norādāt vaicājuma cilnē **Diapazons**. Šajā gadījumā darbiniekam tiks parādīts viss darbs, kur vismaz vienā darba rindā kādai darba vienībai būs iestatīts *ea*. Tāpēc šajā darbā var būt ietverts arī darbs, kurā darba rindām būs cits darba vienības iestatījums, nevis *ea* (piemēram, *kaste* vai *palete*). Vaicājums izslēgs tikai to darbu, kur nevienai darba rindai nebūs darba vienības ar iestatījumu *ea*.
 
-Tāpēc šī scenārija piemērā vaicājumā bija iekļauts arī *4.* darba ID. Pēc tā izveidošanas tika pievienotas divas rindas: viena iestatījumam 25 ea un otra — 10 ea. Darbs vienalga tika rādīts darbiniekam, jo vismaz vienā darba rindā iekļautais daudzums bija mazāks par 20 ea.
+Tāpēc šī scenārija piemērā vaicājumā bija iekļauts arī *4.*  darba ID. Pēc tā izveidošanas tika pievienotas divas rindas: viena iestatījumam 25 ea un otra — 10 ea. Darbs vienalga tika rādīts darbiniekam, jo vismaz vienā darba rindā iekļautais daudzums bija mazāks par 20 ea.
 
 Atkarībā no scenārija varat novērst šādu norisi, izmantojot darba pārtraukumus.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

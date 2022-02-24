@@ -1,10 +1,12 @@
 ---
 title: Līdzekļu veidi
 description: Šajā tēmā ir paskaidrots, kā Līdzekļu pārvaldībā izveidot līdzekļu veidus. Tajā ir aprakstīti arī elementi, kas ir saistīti ar līdzekļu veidiem.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectJobType, EntAssetObjectType, EntAssetObjectTypeDefaultSparePart, EntAssetObjectTypeDefaultSparePartApprove, EntAssetObjectTypeDefaultCreateCombinations, EntAssetObjectTypeDefault, EntAssetObjectTypeDefaultCopy
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fc1a8d98e9a8853e2e72bfcc7415ddb9a0a3b7758504621d6fccff00a08a36be
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 295840c12f89bc6c6a4d53023985259ac761d6b2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730375"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017421"
 ---
 # <a name="asset-types"></a>Līdzekļu veidi
 
@@ -45,9 +47,9 @@ Vispirms iestatiet nepieciešamos līdzekļu veidus. Pēc tam izveidojiet līdze
 7. Atlasiet **Saglabāt**.
 8. Kopsavilkuma cilnē **Uzturēšanas darbu veidi** atlasiet uzturēšanas darbu veidus, kurus vajadzētu saistīt ar līdzekļu veidu.
 
-    - Lai atlasītu uzturēšanas darba veidu, laukā **Atlikušie uzturēšanas darba veidi** un pēc tam atlasiet bultiņas pa labi pogu ![Bultiņas pa labi poga.](media/29-setup-for-objects.png) Lai pārvietotu to uz sadaļu **Atlasītie uzturēšanas darba tipi**.
-    - Lai atlasītu visus pieejamos uzturēšanas darba veidus, atlasiet pogu ![Bultiņa Pārsūtīt visu.](media/30-setup-for-objects.png) poga. Visi uzturēšanas darba veidi tiek pārsūtīti no lauka **Atlikušie uzturēšanas darba veidi** uz lauku **Atlasītie uzturēšanas darba veidi**.
-    - Lai atceltu uzturēšanas darba veida atlasi, laukā **Atlasītie uzturēšanas darba veidi** un pēc tam atlasiet bultiņas pa kreisi pogu ![Bultiņas pa kreisi poga.](media/31-setup-for-objects.png) Lai pārvietotu to uz lauku **Atlikušie uzturēšanas darba tipi**.
+    - Lai atlasītu uzturēšanas darba veidu, laukā **Atlikušie uzturēšanas darba veidi** un pēc tam atlasiet bultiņas pa labi pogu ![Bultiņas pa labi poga](media/29-setup-for-objects.png), lai pārvietotu to uz sadaļu **Atlasītie uzturēšanas darba veidi**.
+    - Lai atlasītu visus pieejamos uzturēšanas darba veidus, atlasiet pogu ![Bultiņa Pārsūtīt visu](media/30-setup-for-objects.png). Visi uzturēšanas darba veidi tiek pārsūtīti no lauka **Atlikušie uzturēšanas darba veidi** uz lauku **Atlasītie uzturēšanas darba veidi**.
+    - Lai atceltu uzturēšanas darba veida atlasi, atlasiet to laukā **Atlasītie uzturēšanas darba veidi** un pēc tam atlasiet bultiņas pa kreisi pogu ![Bultiņas pa kreisi poga](media/31-setup-for-objects.png), lai pārvietotu to uz lauku **Atlikušie uzturēšanas darba veidi**.
 
 9. Varat arī atlasīt skaitītājus, kam jābūt saistītiem ar līdzekļa veidu. Kopsavilkuma cilnē **Skaitītāji** veiciet atlasi, izmantojot metodes, kas 8. darbībā aprakstītās uzturēšanas darba veidiem. Papildinformāciju par skaitītāju iestatīšanu, skatiet [Skaitītāji](counters.md).
 10. Varat arī atlasīt atribūtu veidus, kam jābūt saistītiem ar līdzekļa veidu. Kopsavilkuma cilnē **Atribūtu veidi** veiciet atlasi, izmantojot metodes, kas 8. darbībā aprakstītās uzturēšanas darba veidiem. Pēc tam, lai izveidotu vēlamo atribūtu veidu secību, atlasiet atribūta veidu laukā **Atlasītie atribūtu veidi** un izmantojiet augšupvērstās un lejupvērstās bultiņas pogas, lai to pārvietotu. Atribūtu veidu secība tiks parādīta līdzekļiem, kas izmanto šo līdzekļa veidu. Plašāku informāciju par līdzekļu atribūtiem skatiet sadaļā [Uzturēšanas atribūtu veidi](../setup-for-functional-locations/specification-types.md).
@@ -94,6 +96,3 @@ Lapā **Rezerves daļas** varat arī izveidot jaunas rezerves daļas esošajām 
 
 Lai skatītu, vai rezerves daļa atlasītajā rindā tiek izmantota jebkurā vietā Līdzekļu pārvaldībā (piemēram, saistībā ar līdzekļiem un darba pasūtījumiem), atlasiet rezerves daļas rindu un pēc tam atlasiet **Kur vienība izmantota**, lai atvērtu lapu **Kur vienība izmantota**. 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

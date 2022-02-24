@@ -1,31 +1,34 @@
 ---
 title: Domēni programmā Dynamics 365 Commerce
-description: Šajā tēmā aprakstīts, kā domēni tiek apstrādāti pakalpojumā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā aprakstīts, kā domēni tiek apstrādāti programmā Microsoft Dynamics 365 Commerce.
 author: BrShoo
-ms.date: 03/17/2021
+manager: AnnBe
+ms.date: 09/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: bf96c47b8f5e940ffdd9241c3bdda4162a3101c42004c58c431f135f11c39d14
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb2b003168d32d05387bd45796d313736b11a41f
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733995"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517359"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domēni programmā Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aprakstīts, kā domēni tiek apstrādāti pakalpojumā Microsoft Dynamics 365 Commerce.
+Šajā tēmā aprakstīts, kā domēni tiek apstrādāti programmā Microsoft Dynamics 365 Commerce.
 
 Domēni ir tīmekļa adreses, ko izmanto, lai naviģētu uz Dynamics 365 Commerce vietnēm tīmekļa pārlūkā. Jūs kontrolējat sava domēna pārvaldību ar izvēlēto domēna nosaukuma servera (Domain Name Server - DNS) nodrošinātāju. Domēniem ir atsauces visā Dynamics 365 Commerce vietnes veidotājā, lai koordinētu, kā vietnei varēs piekļūt pēc publicēšanas. Šajā tēmā ir aplūkots, kā tiek apstrādāti domēni un kā uz tiem tiek sniegtas atsauces visā Commerce vietnes izstrādes un palaišanas cikla laikā.
 
@@ -38,7 +41,7 @@ Nodrošinot e-komercijas vidi [Microsoft Dynamics Lifecycle Services (LCS)](http
 
 Sekojošajā attēlā redzams LCS e-komercijas nodrošināšanas ekrāns ar iezīmētu lodziņu **Atbalstītie resursdatora nosaukumi**. 
 
-![LCS e-komercijas nodrošināšanas ekrāns ar izceltu lodziņu **Atbalstītie resursdatora nosaukumi**.](./media/Domains_ProvisioningeCommerceScreen_publish.png)
+![LCS e-komercijas nodrošināšanas ekrāns ar izceltu lodziņu **Atbalstītie resursdatora nosaukumi**](./media/Domains_ProvisioningeCommerceScreen.png)
 
 Varat izveidot pakalpojuma pieprasījumu, lai videi pievienotu papildu domēnus, ja nodrošināšana jau ir notikusi. Lai izveidotu pakalpojuma pieprasījumu LCS, jūsu vidē atveriet **Atbalsts \> Atbalsta jautājumi** un atlasiet **Iesniegt incidentu**.
 
@@ -56,7 +59,7 @@ Pirmoreiz iestatot vietni vietnes veidotājā, tiks atvērts dialoglodziņš **V
 
 Sekojošajā attēlā ir parādīts dialoglodziņš **Vietnes iestatīšana** vietnei ar nosaukumu "noklusējums", kad piekļūstat vietnei pirmo reizi vietnes veidotājā.
 
-![Dialoglodziņš **Vietnes iestatīšana**.](./media/Domains_SetupyoursiteScreen.png)
+![Dialoglodziņš **Vietnes iestatīšana**](./media/Domains_SetupyoursiteScreen.png)
 
 Lodziņš **Atlasīt domēnu** ļauj saistīt vienu no atbalstītajiem resursdatora nosaukumiem, kas tiek nodrošināti jūsu vietnei LCS, jūsu vietnei vietnes veidotājā.
 
@@ -79,11 +82,11 @@ Pēc tam, kad jūsu vietne ir iestatīta ar ceļu, visi vietrāži URL, kas sais
 
 Sekojošajā attēlā redzams dialoglodziņš **Jauns vietrādis URL** vietnes veidotājā ar URL ceļa piemēru. 
 
-![Dialoglodziņš **Jauns vietrādis URL** vietnes veidotājā.](./media/Domains_PageSetup2a.png)
+![Dialoglodziņš **Jauns vietrādis URL** vietnes veidotājā](./media/Domains_PageSetup2a.png)
 
 Sekojošajā attēlā redzama lapa **Vietrāži URL** vietnes veidotājā ar URL piemēru, kas ir izcelts sarakstā.
 
-![Izpildīt lietotāja plūsmas opciju politikas plūsmā.](./media/Domains_URLsInSiteBuilder2a.png)
+![Izpildīt lietotāja plūsmas opciju politikas plūsmā](./media/Domains_URLsInSiteBuilder2a.png)
 
 ## <a name="domains-in-site-builder"></a>Domēni vietnes veidotājā
 
@@ -151,7 +154,7 @@ Commerce nodrošinātā Azure Front Door instance neatbalsta apeksa domēnus (sa
 
   [Jauna e-tirdzniecības nomnieka izvietošana](deploy-ecommerce-site.md)
 
-  [Tiešsaistes veikala kanāla iestatīšana](./channel-setup-online.md)
+  [Tiešsaistes veikala kanāla iestatīšana](online-stores.md)
 
   [E-komercijas vietnes izveide](create-ecommerce-site.md)
 
@@ -170,6 +173,3 @@ Commerce nodrošinātā Azure Front Door instance neatbalsta apeksa domēnus (sa
   [Atbalsta pievienošana satura piegādes tīklam (CDN)](add-cdn-support.md)
 
   [Veikala noteikšanas iespējošana pēc atrašanās vietas](enable-store-detection.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

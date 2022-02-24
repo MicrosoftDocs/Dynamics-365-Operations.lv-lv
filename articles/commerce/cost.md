@@ -2,12 +2,15 @@
 title: Izmaksu konfigurācija sadalīto pasūtījumu pārvaldībai (DOM)
 description: Šajā tēmā ir aprakstīta Dynamics 365 Commerce izmaksu konfigurācijas sadalīto pasūtījumu pārvaldības (distributed order management — DOM) funkcionalitāte.
 author: josaw1
+manager: AnnBe
 ms.date: 12/05/2018
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -15,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-12-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ba4e24052599d431de88d00236a4a99899ca413c136f4627e69c8937541dac03
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7644cb9800a418fd123b32a0257b787277fcb19f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730987"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4459446"
 ---
 # <a name="cost-configuration-for-distributed-order-management-dom"></a>Izmaksu konfigurācija sadalīto pasūtījumu pārvaldībai (DOM)
 
@@ -169,6 +172,3 @@ Izmaksu komponenta veida **Cits** un cita izmaksu veida **Vieta** kombinācija t
 
 > [!IMPORTANT]
 > Lai DOM palaišanas laikā šīs izmaksas tiktu ņemtas vērā, izmaksu faktors ir jāpievieno attiecīgajam izpildes profilam.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

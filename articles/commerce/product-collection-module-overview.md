@@ -2,29 +2,36 @@
 title: Preču kolekcijas moduļi
 description: Šajā tēmā sniegts pārskats par preču kolekcijas moduļiem Microsoft Dynamics 365 Commerce.
 author: v-chgri
-ms.date: 01/28/2021
-ms.topic: overview
+manager: annbe
+ms.date: 09/15/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7bc76aa8d5728005711ee8f9758532a989e3568c
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 2d19cac142b870d8ecc677665443602b0a8837d2
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984548"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413921"
 ---
 # <a name="product-collection-modules"></a>Preču kolekcijas moduļi
+
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā sniegts pārskats par preču kolekcijas moduļiem Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Pārskats
 
 Preču atklāšana ir primārais rīks, ko mazumtirgotāji izmanto, lai piesaistītu klientu uzmanību e-tirdzniecības tīmekļa lapā. Preces kolekcijas moduļi palīdz mazumtirgotājiem veidot pārliecinošu iepirkšanās pieredzi, nodrošinot intuitīvu vizuālo interfeisu, ko var izmantot, lai ātri autorētu preču kolekcijas.
 
@@ -39,7 +46,7 @@ Preču kolekciju avoti var būt tālāk minēto četru veidu saraksti:
 
 Tālāk redzamajā attēlā parādīti dažādi preču kolekciju veidi, kas tiek izmantoti e-tirdzniecības vietnē.
 
-![Dažāda veida preču kolekciju piemērs e-tirdzniecības vietnē.](./media/ProductCollectionsAcrossTheSiteUseProductPlacement.png)
+![Dažāda veida preču kolekciju piemērs e-tirdzniecības vietnē](./media/ProductCollectionsAcrossTheSiteUseProductPlacement.png)
 
 > [!NOTE]
 > Vienmēr izmantojiet preču kolekcijas moduļus, lai parādītu līdzīga veida preču grupu.
@@ -60,10 +67,6 @@ Tālāk redzamajā tabulā aprakstīti dažādi preču kolekcijas moduļu veidi 
 | Bieži iegādāti kopā | Mākslīgais intelekts / mašīnmācība | Šis modulis izmanto mašīnmācību, lai analizētu patērētāju iepirkšanās veidu un ieteiktu saistītās preces, kas tiek bieži iegādātas kopā ar norādīto preci. Šajā sarakstā var parādīt lietotāja, kas ir pierakstījies, personalizētus rezultātus, ja vietnes autors izvēlas šo opciju. |
 | Cilvēkiem patīk arī           | Mākslīgais intelekts / mašīnmācība | Šis modulis izmanto mašīnmācību, lai analizētu patērētāju iepirkšanās veidu un ieteiktu preces, kas ir saistītas ar norādīto preci. Šajā sarakstā var parādīt lietotāja, kas ir pierakstījies, personalizētus rezultātus, ja vietnes autors izvēlas šo opciju. |
 | Ieteikumi              | Mākslīgais intelekts / mašīnmācība | Šis modulis izmanto mašīnmācīšanos, lai analizētu pierakstītā lietotāja pirkuma modeļus un sniegtu personalizētus ieteikumus, kas balstīti uz šiem pirkumu modeļiem. Lietotājam-viesim šis saraksts tiks sakļauts. |
-
-## <a name="supported-modules"></a>Atbalstītie moduļi 
-
-Preču kolekcijas modulis atbalsta [ātro skatu moduli](quick-view-module.md), kas ļauj lietotājiem skatīt preces informāciju un pievienot vienumus grozam no preču kolekcijas lapas.
 
 ## <a name="add-a-product-collection-module-to-a-category-page"></a>Preču kolekcijas moduļa pievienošana kategorijas lapai
 
@@ -106,8 +109,3 @@ Tālāk redzamā tabula parāda sarakstu veidus, kas ir pieejami atlasei dialogl
 [Pirkšanas lodziņa modulis](add-buy-box.md)
 
 [Preču ieteikumu apskats](product-recommendations.md)
-
-[Ātrā skata modulis](quick-view-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

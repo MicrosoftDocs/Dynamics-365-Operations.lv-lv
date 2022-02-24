@@ -1,31 +1,37 @@
 ---
 title: Autorēšanas lapas pārskats
-description: Šajā tēmā sniegts pārskats par autorēšanas lapu risinājumā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā ir sniegts apskats par autorēšanas lapu programmā Microsoft Dynamics 365 Commerce.
 author: brendans
+manager: annbe
 ms.date: 10/31/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application USer
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brendans
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 68487c899edccaeff9c339d746d21b1d27b498aa
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 95908c3a8b6c5231f2f5b283fa05f07c4e91b5d7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984625"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414029"
 ---
 # <a name="authoring-page-overview"></a>Autorēšanas lapas pārskats
 
   
  [!include [banner](includes/banner.md)]
 
-Šajā tēmā sniegts pārskats par autorēšanas lapu risinājumā Microsoft Dynamics 365 Commerce.
+Šajā tēmā ir sniegts apskats par autorēšanas lapu programmā Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Pārskats
 
 Tīmekļa vietnes var izveidot, lai atbalstītu dažādas biznesa vajadzības. Tās var pārstāvēt visu uzņēmumu, piedāvāt vienu biznesa kanālu vai mērķēt uz noteiktu auditoriju vai auditorijas segmentu. Piemēram, apģērbu ražotājam varētu būt tīmekļa vietne, kas parāda visus tam piederošus zīmolus. Vienam un tam pašam apģērbu ražotājam varētu būt atsevišķa tīmekļa vietne katram no šiem zīmoliem, kā arī tīmekļa vietņu kopa ar luksusa modi, ārpustelpu modi un bērnu modi.
 
@@ -39,7 +45,7 @@ Pašlaik autorēšanas lapa sastāv no šādām sadaļām.
 
 Nākamajā attēlā ir redzama autorēšanas lapa.
 
-![Dynamics 365 Commerce autorēšanas lapa.](../commerce/media/authoring_tools_01.png)
+![Dynamics 365 Commerce autorēšanas lapa](../commerce/media/authoring_tools_01.png)
 
 ## <a name="use-the-home-button-to-select-a-tool"></a>Pogas Sākums izmantošana rīka atlasei
 
@@ -116,6 +122,3 @@ Pēc autorizēšanas rīka ielādes varat atlasīt **Sākums**, lai atgrieztos p
 [Meklētājprogrammas optimizēšanas (SEO) apsvērumi jūsu vietnei](search-engine-optimization-considerations.md)
 
 [Satura drošības politikas (CSP) pārvaldība](manage-csp.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

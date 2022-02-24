@@ -1,54 +1,55 @@
 ---
 title: Jaunumi un izmaiņas risinājumā Dynamics 365 Human Resources (2020. gada 06. augusts)
 description: Šajā tēmā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Human Resources uz 2020. gada 06. augustu.
-author: andreabichsel
-ms.date: 08/06/2020
+author: darinkramer
+manager: AnnBe
+ms.date: 8/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-08-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dbcf854330b7c5ba6ca812a5aed384584c05ce8d
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.openlocfilehash: 94ec9b44e21715363116427839badacd14a3d6f8
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062190"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528429"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-06-2020"></a>Jaunumi un izmaiņas risinājumā Dynamics 365 Human Resources (2020. gada 06. augusts)
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Human Resources. Izmaiņas attiecas uz būvējuma numuru 8.1.3444. Dažos virsrakstos redzamie numuri iekavās attiecas uz LCS atbalsta numuriem atsaucei.
 
 ## <a name="platform-update-1001236-is-now-available"></a>Platform update 10.0.12(36) tagad ir pieejams
 
-Papildinformāciju skatiet sadaļā [Finanšu un operāciju programmu versijas 10.0.12 (2020. gada augusts) platformas atjauninājumi](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12.md).
+Papildinformāciju skatiet [Platformas atjauninājumi Finance and Operations programmu versijai 10.0.12 (2020. gada augusts)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12).
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>Datu pārvaldības struktūras (DMF) elementi atvieglojumu pārvaldībai
  
 Tiek izlaisti atvieglojumu pārvaldības elementi. DMF elementi ļauj jums importēt un eksportēt datus, lai viegli konfigurētu atvieglojumu pārvaldību. Lai pārvietotu datus, būs pieejama atvieglojumu pārvaldības veidne. Veidne eksportē un importē datus secīgi, lai ievērotu datu atkarības. Plašāku informāciju skatiet:
 
-- [DMF elementa atbalsts](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/dmf-entity-support) Dynamics 365 2020. gada izlaiduma 1. laidiena plānā
-- [Datu pārvaldības pārskats](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md)
+- [DMF elementa atbalsts](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/dmf-entity-support) Dynamics 365 2020. gada izlaiduma 1. laidiena plānā
+- [Datu pārvaldības pārskats](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages)
 
 
 ## <a name="claire-creates-a-workflow-for-buying-and-selling-leave-requests-446557"></a>Klēra izveido darbplūsmu pirkšanas un pārdošanas atvaļinājumu pieprasījumiem (446557)
 
 Plašāku informāciju skatiet:
 
-- [Atļaut darbiniekiem pirkt un pārdot atvaļinājumu](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) Dynamics 365 2020. gada izlaiduma 2. laidiena plānā
-- [Atvaļinājuma iegādes un pārdošanas politiku pārvaldība](./hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
-- [Atvaļinājuma iegāde un pārdošana](./hr-employee-self-service-buy-sell-leave.md)
+- [Atļaut darbiniekiem pirkt un pārdot atvaļinājumu](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) Dynamics 365 2020. gada izlaiduma 2. laidiena plānā
+- [Atvaļinājuma iegādes un pārdošanas politiku pārvaldība](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-buy-and-sell-leave-policies)
+- [Atvaļinājuma iegāde un pārdošana](https://docs.microsoft.com/dynamics365/human-resources/hr-employee-self-service-buy-sell-leave)
 
 
 ## <a name="worker-postal-addresses-v2-entity-has-access-across-legal-entities-with-restricted-access-459126"></a>Darbinieka pasta adreses v2 elementam ir piekļuve starp juridiskām personām ar ierobežotām piekļuves tiesībām (459126)
@@ -61,7 +62,7 @@ Kad izmantojat vietturi, lai pārskata darbplūsmā atvērtu veiktspējas pārsk
 
 ## <a name="new-entities-for-buying-and-selling-leave-473180"></a>Jaunas vienības atvaļinājuma pirkšanai un pārdošanai (473180)
 
-Datu pārvaldības struktūras elementi tagad ir pieejami atvaļinājumu pirkšanai un pārdošanai. Papildinformāciju skatiet [Datu pārvaldības pārskatā](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
+Datu pārvaldības struktūras elementi tagad ir pieejami atvaļinājumu pirkšanai un pārdošanai. Papildinformāciju skatiet [Datu pārvaldības pārskatā](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages).
 
 ## <a name="when-viewing-record-information-and-using-advanced-filters-a-user-could-gain-access-to-other-employees-records-472490"></a>Apskatot ieraksta informāciju un izmantojot papildu filtrus, lietotājs var piekļūt citu darbinieku ierakstiem (472490)
 
@@ -95,9 +96,9 @@ Ar šo izmaiņu pozīcijas hierarhijas riņķveida atsauces noteikšana ir tikai
 
 Dažas organizācijas sniedz atvieglojumus, kas ļauj darbiniekiem pirkt vai pārdot atvaļinājumu. Šo procesu bieži pārvalda manuāli. Šis līdzeklis automatizē personāla vadības departamenta politikas un pieprasījumu pārvaldību. Tas vienkāršo atvaļinājumu pārvaldības procesu un palīdz likvidēt kļūdas. Plašāku informāciju skatiet:
 
-- [Atļaut darbiniekiem pirkt un pārdot atvaļinājumu](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) Dynamics 365 2020. gada izlaiduma 2. laidiena plānā
-- [Atvaļinājuma iegādes un pārdošanas politiku pārvaldība](./hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
-- [Atvaļinājuma iegāde un pārdošana](./hr-employee-self-service-buy-sell-leave.md)
+- [Atļaut darbiniekiem pirkt un pārdot atvaļinājumu](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) Dynamics 365 2020. gada izlaiduma 2. laidiena plānā
+- [Atvaļinājuma iegādes un pārdošanas politiku pārvaldība](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-buy-and-sell-leave-policies)
+- [Atvaļinājuma iegāde un pārdošana](https://docs.microsoft.com/dynamics365/human-resources/hr-employee-self-service-buy-sell-leave)
 
 ## <a name="leave-accrual-for-a-single-company-or-single-plan"></a>Atstāt uzkrājumu vienam uzņēmumam vai atsevišķam plānam
 
@@ -125,15 +126,15 @@ Jūs varat izveidot kārtulu, kas aptur atvaļinājumu uzkrājumus darbiniekiem 
 
 Ir iespējams padarīt laukus obligātus, izmantojot Personāla vadības personalizēšanas iespējas. Šim līdzeklim nepieciešami **Saglabātie skati**. Papildinformāciju par saglabātajiem skatiem skatiet sadaļā:
 
-- [Saglabātie skati — vispārīga pieejamība](/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) Dynamics 365 2020. gada izlaiduma 2. laidiena plāns
-- [Būvējuma formas, kas pilnībā izmanto saglabātos skatus](../fin-ops-core/dev-itpro/user-interface/understanding-saved-views.md)
+- [Saglabātie skati — vispārīga pieejamība](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) Dynamics 365 2020. gada izlaiduma 2. laidiena plāns
+- [Būvējuma formas, kas pilnībā izmanto saglabātos skatus](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/user-interface/understanding-saved-views)
 
 ### <a name="human-resources-application-in-teams"></a>Programma Human Resources programmā Teams
 
 Darbinieki var skatīt un pieprasīt prombūtnes laiku sistēmā Microsoft Teams. Tās var mijiedarboties ar robotu, lai izveidotu atvaļinājumu pieprasījumus. Plašāku informāciju skatiet:
 
-- [Darbinieka atvaļinājuma un kavējumu pieredze Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) Dynamics 365 2020. gada izlaiduma 1. laidiena plānā
-- [Programma Human Resources programmā Teams](./hr-admin-teams-leave-app.md)
+- [Darbinieka atvaļinājuma un kavējumu pieredze Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) Dynamics 365 2020. gada izlaiduma 1. laidiena plānā
+- [Programma Human Resources programmā Teams](https://go.microsoft.com/fwlink/?linkid=2127841)
 
 ### <a name="dmf-entity-available-for-accrual-suspensions"></a>DMF elements ir pieejams uzkrājumu atlikšanai
 
@@ -141,9 +142,9 @@ DMF elements tagad ir pieejams uzkrājumu atlikšanai.
 
 ## <a name="coming-soon"></a>Drīzumā
 
-## <a name="checklist-entities-included-in-dataverse"></a>Kontrolsaraksta entītijas iekļautas Dataverse
+## <a name="checklist-entities-included-in-common-data-service"></a>Kontrolsaraksta entītijas iekļautas Common Data Service
 
-Kontrolsaraksta elementi Pievienošana, Noņemšana, Pārsūtīšana un Biznesa procesi drīz būs pieejami Dataverse.
+Kontrolsaraksta elementi Pievienošana, Noņemšana, Pārsūtīšana un Biznesa procesi drīz būs pieejami Common Data Service.
 
 ## <a name="known-issues"></a>Zināmās problēmas
 
@@ -171,9 +172,6 @@ Kontrolsaraksta elementi Pievienošana, Noņemšana, Pārsūtīšana un Biznesa 
 ## <a name="see-also"></a>Skatiet arī
 
 [Jaunumi un izmaiņas programmā Human Resources](hr-admin-whats-new.md)</br>
-[Pārskats par Dynamics 365 Human Resources 2019. gada laidiena 2. kopumu](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Pārskats par Dynamics 365 Human Resources 2019. gada laidiena 2. kopumu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Procesa atjaunināšana](hr-admin-setup-update-process.md)</br>
 [Līdzekļu pārvaldība](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,35 +1,38 @@
 ---
 title: BOPIS konfigurācija Dynamics 365 Commerce novērtējuma vidē
-description: Šajā tēmā paskaidrots, kā konfigurēt "pērc tiešsaistē, izņem veikalā" (BOPIS) Microsoft Dynamics 365 Commerce novērtējuma vidē pēc tās nodrošināšanas.
-author: BrianShook
+description: Šajā tēmā skaidrots, kā konfigurēt iespēju Pirkt tiešsaistē, saņemt veikalā (BOPIS) Microsoft Dynamics 365 Commerce novērtējuma vidē pēc tās nodrošināšanas.
+author: rubendel
+manager: annbe
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: brshoo
+ms.author: rubendel
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1e0aabec196aa1ffd2e4d2f2691c03cf11326ee8
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
-ms.translationtype: MT
+ms.openlocfilehash: 62dabaa2610341cc8ad8e85812a317ac3123fcb1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779798"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413947"
 ---
-# <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>BOPIS konfigurēšana Dynamics 365 Commerce novērtēšanas vidē
+# <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>BOPIS konfigurācija Dynamics 365 Commerce novērtējuma vidē
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā paskaidrots, kā konfigurēt "pērc tiešsaistē, izņem veikalā" (BOPIS) Microsoft Dynamics 365 Commerce novērtējuma vidē pēc tās nodrošināšanas.
+Šajā tēmā skaidrots, kā konfigurēt iespēju Pirkt tiešsaistē, saņemt veikalā (BOPIS) Microsoft Dynamics 365 Commerce novērtējuma vidē pēc vides nodrošināšanas.
 
 ## <a name="prerequisite"></a>Priekšnoteikumi
 
-Šajā tēmā minētās procedūras veiciet tikai pēc tam, kad ir nodrošināta un konfigurēta Commerce novērtējuma vide. Informāciju par to, kā nodrošināt un konfigurēt jūsu vidi, skatiet [Nodrošināt Dynamics 365 Commerce novērtējuma vidi](provisioning-guide.md) un [Konfigurēt Dynamics 365 Commerce novērtējuma vidi](./cpe-post-provisioning.md).
+Šajā tēmā minētās procedūras veiciet tikai pēc tam, kad ir nodrošināta un konfigurēta Commerce novērtējuma vide. Informāciju par to, kā nodrošināt un konfigurēt jūsu vidi, skatiet [Nodrošināt Dynamics 365 Commerce novērtējuma vidi](provisioning-guide.md) un [Konfigurēt Dynamics 365 Commerce novērtējuma vidi](https://docs.microsoft.com/dynamics365/commerce/cpe-post-provisioning).
 
 Pēc tam, kad jūsu Komercijas vide ir nodrošināta un konfigurēta, varat izmantot šo tēmu, lai iespējotu BOPIS scenārijus.
 
@@ -37,7 +40,7 @@ Pēc tam, kad jūsu Komercijas vide ir nodrošināta un konfigurēta, varat izma
 
 ### <a name="configure-modern-pos"></a>Modern POS konfigurēšana
 
-BOPIS scenārijiem, kas ietver kredītkartes maksājumu, ir nepieciešama aparatūras stacija. Aparatūras stacija ir iebūvēta Modern POS operētājsistēmas Windows un Android klientiem. Ja izmantojat mākoni POS vai Modern POS sistēmai iOS, pārdošanas punkts (POS) klientam ir jāsavieno pārī ar koplietojamo aparatūras staciju. Šajā tēmā skaidrots, kā konfigurēt BOPIS sistēmas Windows un Android klientiem. Papildinformāciju par to, kā uzstādīt koplietojamo aparatūras staciju, skatiet [Retail aparatūras stacijas konfigurēšana un instalēšana](./retail-hardware-station-configuration-installation.md).
+BOPIS scenārijiem, kas ietver kredītkartes maksājumu, ir nepieciešama aparatūras stacija. Aparatūras stacija ir iebūvēta Modern POS operētājsistēmas Windows un Android klientiem. Ja izmantojat mākoni POS vai Modern POS sistēmai iOS, pārdošanas punkts (POS) klientam ir jāsavieno pārī ar koplietojamo aparatūras staciju. Šajā tēmā skaidrots, kā konfigurēt BOPIS sistēmas Windows un Android klientiem. Papildinformāciju par to, kā uzstādīt koplietojamo aparatūras staciju, skatiet [Retail aparatūras stacijas konfigurēšana un instalēšana](https://docs.microsoft.com/dynamics365/commerce/retail-hardware-station-configuration-installation).
 
 1. Dodieties uz **Mazumtirdzniecība un Komercija \> Kanāla iestatīšana \> POS iestatīšana \> Reģistri**.
 2. Atlasiet reģistru **SANFRAN-5** un pēc tam atlasiet **Rediģēt**.
@@ -54,7 +57,7 @@ BOPIS scenārijiem, kas ietver kredītkartes maksājumu, ir nepieciešama aparat
 4. Atlasiet **Lejupielādēt** un pēc tam atlasiet **Retail Modern POS**. 
 5. Kad **ModernPOSSetup.exe** faila lejupielāde ir pabeigta, atlasiet **Atvērt failu**.
 
-    ![Atvērt failu.](./dev-itpro/media/PAYMENTS/openfile.png)
+    ![Atvērt failu](./dev-itpro/media/PAYMENTS/openfile.png)
 
 6. Atlasiet **Tālāk**, lai varētu iziet caur instalēšanas procesam. Kad instalēšana ir pabeigta, atlasiet **Aizvērt**.
 
@@ -87,7 +90,7 @@ BOPIS scenārijiem, kas ietver kredītkartes maksājumu, ir nepieciešama aparat
 
 ### <a name="create-a-storefront-order-for-in-store-pickup"></a>Izveidot veikala pasūtījumu savākšanai veikalā
 
-1. Dodieties uz vietrādi URL, kas norādīts, [Inicializēt e-Commerce](./provisioning-guide.md#initialize-e-commerce) darbībā vides konfigurācijas laikā.
+1. Dodieties uz vietrādi URL, kas norādīts, [Inicializēt e-Commerce](https://docs.microsoft.com/dynamics365/commerce/provisioning-guide#initialize-e-commerce) darbībā vides konfigurācijas laikā.
 2. Atlasiet krājumu un izvēlieties **Pievienot grozam**.
 3. Iepirkumu groza lapā atlasiet opciju **Paņemt šo** pasūtījuma rindai, kuru tikko pievienojāt.
 4. Dialoglodziņā **Atlasīt veikalu** ievadiet **Sanfrancisko** un pēc tam atlasiet pogu **Meklēt**.
@@ -112,7 +115,7 @@ BOPIS scenārijiem, kas ietver kredītkartes maksājumu, ir nepieciešama aparat
 
 ### <a name="synchronize-online-orders-to-the-back-office"></a>Sinhronizēt tiešsaistes pasūtījumus uz atbalsta biroju
 
-Lai iegūtu informāciju par to, kā sinhronizēt tiešsaistes pasūtījumus, skatiet [Tiešsaistes pārdošanas un maksājumu grāmatošana](./tasks/posting-online-sales-payments.md).
+Lai iegūtu informāciju par to, kā sinhronizēt tiešsaistes pasūtījumus, skatiet [Tiešsaistes pārdošanas un maksājumu grāmatošana](https://docs.microsoft.com/dynamics365/commerce/tasks/posting-online-sales-payments).
 
 ### <a name="pick-up-an-order-in-the-store"></a>Pasūtīšana tiešsaistē un saņemšana veikalā
 
@@ -148,19 +151,16 @@ Par visiem vispārējiem jautājumiem kā pirmo darbību vienmēr ir jākonsult�
 
 [Dynamics 365 Commerce novērtējuma vide - bieži uzdotie jautājumi](cpe-faq.md)
 
-[Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Microsoft Azure portāls](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce tīmekļa vietne](https://aka.ms/Dynamics365CommerceWebsite)
 
-[Adyen maksājumu savienotājs](./dev-itpro/adyen-connector.md?tabs=8-1-3)
+[Adyen maksājumu savienotājs](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
 
-[Tiešsaistes maksājumu instrumentu saglabāšana, izmantojot savienotāju Adyen](./dev-itpro/adyen-connector-listpi.md)
+[Tiešsaistes maksājumu instrumentu saglabāšana, izmantojot savienotāju Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector-listpi)
 
-[Pārskats par Omni kanāla maksājumiem](./omni-channel-payments.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Pārskats par Omni kanāla maksājumiem](https://docs.microsoft.com/dynamics365/commerce/omni-channel-payments)

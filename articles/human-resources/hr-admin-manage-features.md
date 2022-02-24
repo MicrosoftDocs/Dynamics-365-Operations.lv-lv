@@ -1,39 +1,37 @@
 ---
-title: Līdzekļu pārvaldība programmā Human Resources
-description: Šajā tēmā ir aprakstīts līdzeklis Līdzekļu pārvaldība un tā lietošanas iespējas.
-author: twheeloc
-ms.date: 08/19/2021
+title: Līdzekļu pārvaldība
+description: Uzziniet, kā Dynamics 365 Human Resources ieslēgt vai izslēgt jaunos līdzekļus.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: FeatureManagementWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2d5a27c02df841dfbb17a9375aaf75f93d05cd8e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 9176e9519c3bf65ef7a4f1b5ae43dbeb411750f5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069711"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419585"
 ---
-# <a name="manage-features-in-human-resources"></a>Līdzekļu pārvaldība programmā Human Resources
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+# <a name="manage-features"></a>Līdzekļu pārvaldība
 
 Microsoft Dynamics 365 Human Resources mēs pastāvīgi ieviešam jaunas iespējas, un vēlamies, lai klienti šos jaunos līdzekļus varētu izbaudīt pēc iespējas ātrāk. Mēs nodrošinām priekšskatījuma līdzekļus, kas ir gandrīz gatavi vispārīgai pieejamībai un ir tikuši plaši testēti. Mums vēl tikai ir jāpabeidz pēdējais posms — klientu atsauksmju un validāciju saņemšana —, pirms šie līdzekļi kļūst vispārēji pieejami.
 
-Papildinformāciju par Human Resources jaunajiem līdzekļiem skatiet [Human Resources jaunumi](hr-admin-whats-new.md) un [Dynamics 365 un Power Platform laidiena plāns](/dynamics365/release-plans/?panel=products1#pivot=products).
+Papildinformāciju par Human Resources jaunajiem līdzekļiem skatiet [Human Resources jaunumi](hr-admin-whats-new.md) un [Dynamics 365 un Power Platform laidiena plāns](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1).
 
-**Funkciju pārvaldības** darbvieta sniedz katrā laidienā piegādāto līdzekļu sarakstu. Pēc noklusējuma jaunie līdzekļi ir izslēgti. Varat izmantot darbvietu, lai tos ieslēgtu un skatītu ar tiem saistīto dokumentāciju. Papildinformāciju par Līdzekļu pārvaldību skatiet [Pārskats par līdzekļu pārvaldību](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+**Funkciju pārvaldības** darbvieta sniedz katrā laidienā piegādāto līdzekļu sarakstu. Pēc noklusējuma jaunie līdzekļi ir izslēgti. Varat izmantot darbvietu, lai tos ieslēgtu un skatītu ar tiem saistīto dokumentāciju. Papildinformāciju par Līdzekļu pārvaldību skatiet [Pārskats par līdzekļu pārvaldību](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
 
 Visi jaunie līdzekļi paliek priekšskatījumā vismaz 30 dienas, un parasti 30-60 dienas. Galvenās funkcijas parasti ir pieejamas katra gada oktobrī un aprīlī pēc priekšskatījuma perioda. Tiklīdz jūs redzat jaunas iespējas **Līdzekļu pārvaldības** darbvietā, varat tās ieslēgt. Daži līdzekļi var būt ieslēgti pēc noklusējuma.
 
@@ -72,7 +70,7 @@ Atvieglojumu pārvaldība aizvieto funkcionalitāti darbvietā **Atvieglojumi**.
 - **Atvieglojumu piemērojamības politikas**
 - **Piemērojamības notikumi**
 
-Informāciju šajās lapās varat skatīt tikai lasīšanas režīmā. Ja vēlaties rediģēt informāciju, vispirms ir jāatspējo Atvieglojumu pārvaldība (piemērojams tikai **Smilškastes** vidēm).
+Informāciju šajās veidlapās varat skatīt tikai lasīšanas režīmā. Ja vēlaties rediģēt informāciju, vispirms ir jāatspējo Atvieglojumu pārvaldība (piemērojams tikai **Smilškastes** vidēm).
 
 ## <a name="enable-or-disable-leave-and-absence"></a>Iespējot vai atspējot Atvaļinājumu un prombūtni
 
@@ -95,6 +93,4 @@ Iesniegtajās atsauksmēs vai produkta apskatos, lūdzu, neiekļaujiet personas 
 ## <a name="see-also"></a>Skatiet arī
 
 - [Human Resources jaunumi](hr-admin-whats-new.md)
-- [Dynamics 365 un Power Platform laidiena plāns](/dynamics365/release-plans/?panel=products1#pivot=products)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+- [Dynamics 365 un Power Platform laidiena plāns](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)

@@ -1,35 +1,33 @@
 ---
-title: Konfigurēt darbinieku pašapkalpošanos
+title: Konfigurēt darbinieku patstāvīgi izmantojamo pakalpojumu
 description: Microsoft Dynamics 365 Human Resources varat konfigurēt darbinieku patstāvīgi izmantojamā pakalpojuma augšējā līmeņa navigācijas elementus.
-author: twheeloc
-ms.date: 12/06/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 83718856a864123d7941b21c078bcdb96a62cca8
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: d1534e37e83e22dd9860de54165c062935db3798
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067583"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419596"
 ---
 # <a name="configure-employee-self-service"></a>Konfigurēt darbinieku patstāvīgi izmantojamo pakalpojumu
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Microsoft Dynamics 365 Human Resources varat konfigurēt **Darbinieku patstāvīgi izmantojamā pakalpojuma** augšējā līmeņa navigācijas elementus. Atvieglojumu plāna elementi novirza lietotājus uz atvieglojumu plāniem, kuros tie ir tiesīgi reģistrēties.
+Microsoft Dynamics 365 Human Resources varat konfigurēt darbinieku patstāvīgi izmantojamā pakalpojuma augšējā līmeņa navigācijas elementus. Atvieglojumu plāna elementi novirza lietotājus uz atvieglojumu plāniem, kuros tie ir tiesīgi reģistrēties.
 
 ## <a name="set-up-a-benefit-plans-tile"></a>Atvieglojumu plānu elementa iestatīšana
 
@@ -41,12 +39,15 @@ Microsoft Dynamics 365 Human Resources varat konfigurēt **Darbinieku patstāvī
 
    | Lauks | Apraksts |
    | --- | --- |
-   | **Plāna veida kods** | Plāna tips, kas tiek parādīts, ja šis elements ir atlasīts opcijā Benefits **pašapkalpošanās**. |
    | **Elementa ID** | Elementa unikālais identifikators. |
-   | **Elementa etiķetes teksts** | Teksts, kas tiks parādīts elementam Benefits **pašapkalpošanās**. |
+   | **Elementa etiķetes teksts** | Teksts, kas būs redzams patstāvīgi izmantojamā pakalpojuma elementā. |
    | **Apraksts** | Elementa apraksts. |
+   | **Interneta adrese** | Ievadiet URL uz darbinieku patstāvīgi izmantojamo pakalpojumu. |
+   | **Elementa lielums** | Elementa lielums: mazs, vidējs vai liels. |
+   | **Adresāts** | Norāda, vai lapa ir jāatver jaunā logā vai esošajā logā. |
    | **Elementa fona attēls** | Elementam izmantojamā attēla URL (nav obligāts). |
-   | **Izsekot atvērto reģistrāciju** | Atlasiet šo opciju, lai izsekotu atvērtās reģistrācijas norisi šim plāna tipam. Piemēram, jums var būt izveidoti plāni, kur **plāna tips = Citi**. Šie plāni var būt izvēles plāni, kuriem nevēlaties izsekot reģistrācijas progresu. Ja neatlasīsit šo plāna tipu, šāda tipa plāns tiks ignorēts, izsekojot reģistrācijas norisi vai reģistrācijas pabeigšanu **cilnē Atvērta reģistrācija** . Šis iestatījums attiecas uz plāna tipu, kas atlasīts visiem periodiem un juridiskām personām. |
+   | **Sākšana** | Elementa pieejamības sākuma datums un laiks. |
+   | **End** | Elementa pieejamības beigu datums un laiks. |
 
 4. Atlasiet **Saglabāt**.
 
@@ -60,14 +61,14 @@ Microsoft Dynamics 365 Human Resources varat konfigurēt **Darbinieku patstāvī
 
    | Lauks | Apraksts |
    | --- | --- |
-   | **Atvieglojumu kredīta ID** | Brīvā režīma kredīta programmas plāni, kas tiks parādīti, kad šis elements ir atlasīts opciju pašapkalpošanās programmā **Priekšrocības**. |
    | **Elementa ID** | Elementa unikālais identifikators. |
-   | **Elementa etiķetes teksts** | Teksts, kas tiks parādīts elementam Benefits **pašapkalpošanās**. |
+   | **Elementa etiķetes teksts** | Teksts, kas būs redzams patstāvīgi izmantojamā pakalpojuma elementā. |
    | **Apraksts** | Elementa apraksts. |
+   | **Interneta adrese** | Ievadiet URL uz darbinieku patstāvīgi izmantojamo pakalpojumu. |
+   | **Elementa lielums** | Elementa lielums: mazs, vidējs vai liels. |
+   | **Adresāts** | Norāda, vai lapa ir jāatver jaunā logā vai esošajā logā. |
    | **Elementa fona attēls** | Elementam izmantojamā attēla URL (nav obligāts). |
-   | **Izsekot atvērto reģistrāciju** | Atlasiet šo opciju, lai izsekotu atvērtās reģistrācijas norisi šim plāna tipam. Piemēram, jums var būt izveidoti plāni, kur **plāna tips = Citi**. Šie plāni var būt izvēles plāni, kuriem nevēlaties izsekot reģistrācijas progresu. Ja neatlasīsit šo plāna tipu, šāda tipa plāns tiks ignorēts, izsekojot reģistrācijas norisi vai reģistrācijas pabeigšanu **cilnē Atvērta reģistrācija** . Šis iestatījums attiecas uz plāna tipu, kas atlasīts visiem periodiem un juridiskām personām. |
+   | **Sākšana** | Elementa pieejamības sākuma datums un laiks. |
+   | **End** | Elementa pieejamības beigu datums un laiks. |
 
 4. Atlasiet **Saglabāt**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

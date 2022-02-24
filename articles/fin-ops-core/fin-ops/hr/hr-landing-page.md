@@ -1,28 +1,28 @@
 ---
-title: Human Resources pārskats
-description: Cilvēku resursi racionalizē rutīnas uzskaites uzdevumus, automatizē procesus, kas saistīti ar jūsu uzņēmuma personālu, un nodrošina cilvēku resursu personāla struktūru, lai pārvaldītu uzraudzībā esošās jomas.
+title: Cilvēkresursu pārskats
+description: Personāla vadība racionalizē daudzus ikdienas lietvedības uzdevumus un automatizē vairākus ar jūsu organizācijas personālu saistītus procesus. Personāla vadības darbiniekiem tā nodrošina arī struktūru uzraudzības jomu pārvaldīšanai. Šajās jomās ietilpst darbinieku pieņemšana darbā, kā arī ieturējumu un atvieglojumu administrēšana, apmācība, darba izpildes novērtējumi un izmaiņu pārvaldība.
 author: andreabichsel
+manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.custom:
-- "20931"
-- intro-internal
+ms.custom: 20931
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9cd7ce1268dd1aeae142e85fdd3ea2d9faa0a659
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: b2c23cda87060ecb129befcc67c5b54f2f062bb3
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983133"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797821"
 ---
-# <a name="human-resources-overview"></a>Human Resources pārskats
+# <a name="human-resources-overview"></a>Cilvēkresursu pārskats
 
 [!include [banner](../includes/banner.md)]
 
@@ -44,38 +44,38 @@ Personāla vadību varat izmantot tālāk uzskaitīto uzdevumu izpildīšanai.
 
 Strādājot ar personāla vadību, jums ir jāizlemj, kā strukturēt savu organizāciju, izmantojot tādus elementus kā nodaļas, darbi un amati. Tie ir vieni no galvenajiem pamatelementiem, kas jums personāla vadībā ir jākonfigurē. Atsevišķi darbinieki tiek piešķirti amatiem, kuri ir saistīti ar darbiem.
 
-- [Darbaspēka organizēšana, izmantojot nodaļas, darbus un amatus](../../../human-resources/hr-personnel-departments-jobs-positions.md)
-- [Uzņēmumam raksturīgu personāla vadības (HR) parametru iestatīšana](../../../human-resources/hr-setup-parameters.md)
-- [Personāla vadības (HR) parametru iestatīšana dažādās juridiskajās personās](../../../human-resources/hr-setup-shared-parameters.md)
+- [Darbaspēka organizēšana, izmantojot nodaļas, darbus un amatus](../../../talent/departments-jobs-positions.md)
+- [Uzņēmumam raksturīgu personāla vadības (HR) parametru iestatīšana](../../../talent/set-up-company-specific-hr-parameters.md)
+- [Personāla vadības (HR) parametru iestatīšana dažādās juridiskajās personās](../../../talent/set-up-hr-parameters-across-legal-entities.md)
 
 ## <a name="recruit-hire-and-motivate-employees"></a>Veikt personāla atlasi, pieņemt darbā un motivēt darbiniekus
 
 Personāla atlases projekti pārvalda saturu, kas tiek izmantots vakanto amatu sludinājumos, un tas jums var palīdzēt pārvaldīt pieteikumus uz vakancēm. Tos varat izmantot, lai sekotu līdzi atbildēm uz darba sludinājumiem noteiktiem personāla atlases projektiem vai konkrētiem kandidātiem, un atjauninātu vakanto amatu statusu. Varat arī nolīgt atsevišķus kandidātus vai pārvaldīt “projektus ar masveida pieņemšanu darbā”, kas atvieglo vairāku darbinieku pieņemšanu darbā, piemēram, lai nodrošinātu sezonālas vajadzības.
 
 - [Personāla atlases procesu pārvaldība](manage-recruiting-process.md)
-- [Masveida darbā pieņemšanas projekti](../../../human-resources/hr-personnel-mass-hire-projects.md) 
+- [Masveida darbā pieņemšanas projekti](mass-hire-projects.md) 
 
 Pēc personāla pieņemšanas darbā varat iestatīt plānus, lai efektīvi un taisnīgi pārvaldītu atlīdzības, kā arī pārvaldītu krājumus, piemēram, datorus un tālruņus, kurus jūsu organizācija aizdod saviem darbiniekiem. Varat izveidot fiksētās un mainīgās atlīdzības plānus, kā arī definēt kārtulas, kas attiecas uz atlīdzības plānu, lai atbilstu šī plāna kritērijiem.
 
-- [Atlīdzības plāni](../../../human-resources/hr-compensation-overview.md)
-- [Izveidot fiksētās atlīdzības plānus](../../../human-resources/hr-compensation-fixed-plans.md)
-- [Izveidot mainīgās atlīdzības plānus](../../../human-resources/hr-compensation-variable-plans.md)
+- [Atlīdzības plāni](../../../talent/compensation-plans.md)
+- [Izveidot fiksētās atlīdzības plānus](../../../talent/create-fixed-compensation-plans.md)
+- [Izveidot mainīgās atlīdzības plānus](../../../talent/create-variable-compensation-plans.md)
 
 ## <a name="develop-and-train-employees"></a>Veicināt darbinieku attīstību un apmācīt darbiniekus
 
 Lai palīdzētu darbiniekiem sasniegt viņu karjeras mērķus, vienlaikus izpildot svarīgās uzņēmuma vajadzības, varat iestatīt mērķus, izveidot veiktspējas pārskatus un izsekot atsauksmes. Lai palīdzētu darbiniekiem attīstīt nepieciešamās prasmes, varat iestatīt arī instruktorus, kursu veidus, kursus, kursu aprakstus, dienas kārtības, izsekošanu un sesijas, pirms piešķirat kursam instruktoru vai reģistrējat kursam dalībnieku. Instruktoriem jau ir jāpastāv kā darbiniekiem, kandidātiem vai kontaktpersonām.
 
-- [Veiktspējas pārvaldība](../../../human-resources/hr-develop-performance-management-overview.md)
-- [Darbaspēka prasmju saskaņošana ar biznesa vajadzībām](../../../human-resources/hr-develop-skills.md)
-- [Apmācību kursu iestatīšana](../../../human-resources/hr-learning-courses.md)
+- [Veiktspējas pārvaldība](../../../talent/performance-management-overview.md)
+- [Darbaspēka prasmju saskaņošana ar biznesa vajadzībām](../../../talent/skills.md)
+- [Apmācību kursu iestatīšana](../../../talent/courses.md)
 
 ## <a name="create-and-maintain-benefits"></a>Atvieglojumu izveidošana un uzturēšana
 
 Papildus tam, ka darbiniekiem atlīdzināt, izmantojot samaksu par darbu, algas un prēmijas, varat izstrādāt atvieglojumu programmas, piemēram, veselības apdrošināšanu un pensiju plānus. Varat arī pārvaldīt tādus atvieglojumus kā aizdevumu programmas, kurās jūsu uzņēmums saviem darbiniekiem kaut ko aizdod, piemēram, datorus vai tālruņus.
 
-- [Atvieglojumu programmas definēšana un pārvaldība](../../../human-resources/hr-benefits-management-overview.md)
-- [Atvieglojumu piemērojamības politikas](../../../human-resources/hr-benefits-eligibility-policies.md)
-- [Nodarbinātajiem aizdotu priekšmetu pārvaldīšana](../../../human-resources/hr-personnel-loan-items.md)
+- [Atvieglojumu programmas definēšana un pārvaldība](../../../talent/manage-benefit-program.md)
+- [Atvieglojumu piemērojamības politikas](../../../talent/benefit-eligibility-policies.md)
+- [Nodarbinātajiem aizdotu priekšmetu pārvaldīšana](../../../talent/loan-items.md)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Darbvietas drošības un atbilstības uzturēšana
 
@@ -89,10 +89,7 @@ Programma Microsoft Dynamics AX var palīdzēt uzturēt drošu darba vidi, kas a
 
 Varat izstrādāt un administrēt anketas, lai vāktu dažādiem nolūkiem izmantojamu informāciju. Līdzeklis Anketa jums ļauj projektēt un veidot anketas. Kad anketa ir gatava, varat to lūgt aizpildīt plašai publikai vai tikai noteiktai respondentu kopai. Kad respondenti ir snieguši savas atbildes, varat pārskatīt un analizēt rezultātus.
 
-- [Anketas](../../../human-resources/hr-learning-questionnaires.md)
-- [Anketu projektēšana](../../../human-resources/hr-learning-design-questionnaires.md)
-- [Anketu izplatīšana un plānošana](../../../human-resources/hr-learning-distribute-questionnaires.md)
-- [Anketu rezultātu skatīšana un novērtēšana](../../../human-resources/hr-learning-evaluate-questionnaire-results.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+- [Anketas](../../../talent/questionnaires.md)
+- [Anketu projektēšana](../../../talent/design-questionnaires.md)
+- [Anketu izplatīšana un plānošana](../../../talent/distribute-questionnaires.md)
+- [Anketu rezultātu skatīšana un novērtēšana](../../../talent/evaluate-questionnaire-results.md)

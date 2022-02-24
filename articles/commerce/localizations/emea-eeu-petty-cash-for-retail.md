@@ -2,9 +2,11 @@
 title: Mazo kases posteņu pārvaldība programmai Commerce Austrumeiropā
 description: Šajā tēmā ir aprakstīts, kā iestatīt un izmantot kases pārvaldības līdzekļus programmā Commerce Austrumeiropā.
 author: epopov
+manager: annbe
 ms.date: 10/03/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
@@ -13,12 +15,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7a4c2e404b42a10a8d5f8b57135c56ae479a9efc3f5a8cef30831d02a3e53fe6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 91a3e35c973405f3b0eefb42d83847f5dd3fc60c
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719913"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017230"
 ---
 # <a name="petty-cash-management-for-commerce-for-eastern-europe"></a>Mazo kases posteņu pārvaldība programmai Commerce Austrumeiropā
 
@@ -26,7 +28,7 @@ ms.locfileid: "6719913"
 
 Šajā rakstā ir informācija par komercnozarei raksturīgo Austrumeiropas lokalizāciju.
 
-Atbilstoši Austrumeiropas valstu grāmatvedības prasībām ir iespējams iestatīt operācijas skaidras naudas kontiem, lai automatizētu procesus ieņēmumiem, skaidras naudas dokumentiem un skaidras naudas pārskatiem. Plašāku informāciju skatiet šeit: [(EEUR) Parametru iestatīšana kases pārvaldībai](/dynamicsax-2012/appuser-itpro/eeur-set-up-parameters-for-cash-management).
+Atbilstoši Austrumeiropas valstu grāmatvedības prasībām ir iespējams iestatīt operācijas skaidras naudas kontiem, lai automatizētu procesus ieņēmumiem, skaidras naudas dokumentiem un skaidras naudas pārskatiem. Plašāku informāciju skatiet šeit: [(EEUR) Parametru iestatīšana kases pārvaldībai](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/eeur-set-up-parameters-for-cash-management).
 
 Mazumtirgotāji var pieņemt dažāda veida maksājumus apmaiņā pret pārdotajām precēm un pakalpojumiem. Kaut gan skaidra nauda ir visizplatītākais maksājumu veids, mazumtirgotāji var arī saņemt maksājumus čeku, karšu vai dokumentu formā. Mazumtirdzniecības punktā (POS), skaidra nauda, kredītkaršu kvītis un citi maksājumi tiek apstrādāti, izmantojot kasi.
 
@@ -36,18 +38,18 @@ To var izdarīt, programmā Commerce izmantojot līdzekli Kases pārvaldība.
 - Lai grāmatotu skaidras naudas transakcijas un debitoru maksājumus, kas tiek saņemti mazumtirdzniecības POS, izmantojiet kases žurnālus.
 - Kad grāmatojat pārskatu, apkopojiet transakcijas pārskata rindā. Varat apkopot noguldījumus seifā, noguldījumus bankā, dokumentu transakcijas, noņemt norēķinu darījumus, mainīgo ierakstu transakcijas, ienākumu transakcijas, izdevumu transakcijas, debitoru maksājumus, pārdošanas transakcijas un atgriešanas transakcijas.
 
-Visas transakcijas, kas notiek POS tiek grāmatotas, izmantojot Virsgrāmatas žurnālu. Pārskatu izveidei un grāmatošanai var izmantot skaidras naudas maksājumu žurnālus, debitoru maksājumu žurnālus un Virsgrāmatas žurnālus. Plašāku informāciju skatiet šeit: [Mazumtirdzniecības veikala izrakstu izveidošana, aprēķināšana un grāmatošana](/dynamics365/unified-operations/retail/tasks/create-calculate-post-statement-retail-store).
+Visas transakcijas, kas notiek POS tiek grāmatotas, izmantojot Virsgrāmatas žurnālu. Pārskatu izveidei un grāmatošanai var izmantot skaidras naudas maksājumu žurnālus, debitoru maksājumu žurnālus un Virsgrāmatas žurnālus. Plašāku informāciju skatiet šeit: [Mazumtirdzniecības veikala izrakstu izveidošana, aprēķināšana un grāmatošana](https://docs.microsoft.com/dynamics365/unified-operations/retail/tasks/create-calculate-post-statement-retail-store).
 
 Lapā **Grāmatotie izraksti**, darbību rūtī varat izpildīt tālāk aprakstītās darbības.
 
-- Dodieties uz **Uzziņas \> Žurnāls maksājumiem skaidrā naudā**, lai piekļūtu ar šo izrakstu saistītajiem skaidras naudas maksājumu žurnāliem.
-- Dodieties uz **Uzziņas \> Virsgrāmatas žurnāls**, lai piekļūtu ar šo izrakstu saistītajiem virsgrāmatas žurnāliem, kas nav debitoru maksājumu un skaidras naudas maksājumu žurnāli.
+- Dodieties uz **Uzziņas \> Žurnāls maksājumiem skaidrā naudā**, lai piekļūtu ar šo izrakstu saistītajiem skaidras naudas maksājumu žurnāliem.
+- Dodieties uz **Uzziņas \> Virsgrāmatas žurnāls**, lai piekļūtu ar šo izrakstu saistītajiem virsgrāmatas žurnāliem, kas nav debitoru maksājumu un skaidras naudas maksājumu žurnāli.
 
 ## <a name="set-up-for-cash-management-for-pos"></a>POS kases pārvaldības iestatīšana
 
 Pirms kases pārvaldības izmantošanas ir jāveic tālāk aprakstītā iestatīšanas procedūra.
 
-- Lapā **Maksāšanas metodes** iestatiet maksāšanas metodi katram mazumtirgotāja akceptētajam maksājuma tipam. Transakciju grāmatošanai programmā POS varat izmantot dažādas maksāšanas metodes. Plašāku informāciju par maksāšanas metodēm skatiet [Maksāšanas metodes](/dynamics365/unified-operations/retail/payment-methods).
+- Lapā **Maksāšanas metodes** iestatiet maksāšanas metodi katram mazumtirgotāja akceptētajam maksājuma tipam. Transakciju grāmatošanai programmā POS varat izmantot dažādas maksāšanas metodes. Plašāku informāciju par maksāšanas metodēm skatiet [Maksāšanas metodes](https://docs.microsoft.com/dynamics365/unified-operations/retail/payment-methods).
 - Iestatiet parametrus skaidras naudas operācijām.
 - Iestatiet maksāšanas metodi maksājumiem veikalā skaidrā naudā.
 
@@ -90,6 +92,3 @@ Izmantojiet šādu procedūru, lai iestatītu maksājuma metodi maksājumiem vei
 
 > [!NOTE]
 > Korespondējošie konti veikalam ir jāiestata gan kases norēķinu maksāšanas metodei, gan norēķinu noņemšanas vai mainīšanas ierakstu maksāšanas metodei. Šādi norēķinu noņemšanas vai mainīšanas ierakstu transakcijām tiek izveidoti līdzsvaroti virsgrāmatas ieraksti.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

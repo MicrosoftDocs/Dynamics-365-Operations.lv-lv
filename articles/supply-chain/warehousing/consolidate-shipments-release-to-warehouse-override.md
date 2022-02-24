@@ -1,26 +1,28 @@
 ---
-title: Konsolidēt sūtījumus, ja piegādes konsolidācijas politika tiek ignorēta
+title: Konsolidēt sūtījumus, ja sūtījuma konsolidācijas politika tiek ignorēta lapā “Pārvietot uz noliktavu”
 description: Šī tēma piedāvā scenāriju, kur viena vai vairākas pārdošanas rindas ir manuāli jāpārvieto uz noliktavu no lapas Pārvietot uz noliktavu, un sistēmas definētā sūtījumu konsolidācijas politika ir jāignorē pirms pārvietošanas.
 author: GarmMSFT
+manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSFilterGroupTable, WHSShipConsolidationSetShipment, WHSShipmentConsolidation, WHSFilterGenerallyAvail, WHSReleaseToWarehouse
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 606f370277b67a65612d81916f4fcc93ca47224e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 4aaaa7949d988607b38dd6e38a3c3497f227b8af
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574189"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963340"
 ---
-# <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden"></a>Konsolidēt sūtījumus, ja piegādes konsolidācijas politika tiek ignorēta
+# <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden-from-the-release-to-warehouse-page"></a>Konsolidēt sūtījumus, ja sūtījuma konsolidācijas politika tiek ignorēta lapā “Pārvietot uz noliktavu”
 
 [!include [banner](../includes/banner.md)]
 
@@ -81,6 +83,3 @@ Sekojiet šiem soļiem, lai pārskatītu izveidotos sūtījumus.
 
 - [Sūtījumu konsolidācijas politikas](about-shipment-consolidation-policies.md)
 - [Sūtījumu konsolidācijas politiku konfigurēšana](configure-shipment-consolidation-policies.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

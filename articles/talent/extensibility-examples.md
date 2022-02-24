@@ -79,6 +79,3 @@ Lai lejupielādētu **Atsauces programmu**, dodieties uz [Dynamics 365 Talent pa
 
 [Pakalpojums Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
 [Programmu migrēšana starp nomniekiem un vidēm](https://docs.microsoft.com/power-platform/admin/environment-and-tenant-migration)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

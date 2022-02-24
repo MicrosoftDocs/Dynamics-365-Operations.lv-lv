@@ -1,10 +1,12 @@
 ---
-title: Uzlabot ģenerēto ER pārskatu rezultātu izsekošanu, lai salīdzinātu ar bāzlīnijas vērtībām
-description: Šajā tēmā ir aprakstīti ER bāzlīnijas funkcionalitātes uzlabojumi Microsoft Dynamics 365 for Finance and Operations versijā 10.0.3 (2019. gada jūnijs).
+title: Ģenerēto ER pārskatu rezultātu izsekošanas un to salīdzināšanas ar bāzlīnijas vērtībām uzlabojumi
+description: Šajā tēmā ir sniegta informācija par ER bāzlīnijas līdzekļa uzlabojumiem Microsoft Dynamics 365 for Finance and Operations versijā 10.0.3 (2019. jūnijs).
 author: NickSelin
+manager: AnnBe
 ms.date: 06/19/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -14,14 +16,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: b6e8299dd57730486c731cd38578bd5ff6b8a1754f145432e300c1217c6dd640
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 55e821b27f80383d8a8dc7a2d46f87e17c554078
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760754"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682851"
 ---
-# <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>Uzlabot ģenerēto ER pārskatu rezultātu izsekošanu, lai salīdzinātu ar bāzlīnijas vērtībām
+# <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>Ģenerēto ER pārskatu rezultātu izsekošanas un to salīdzināšanas ar bāzlīnijas vērtībām uzlabojumi
 
 [!include[banner](../includes/banner.md)]
 
@@ -57,7 +59,7 @@ Lai izpildītu šajā piemērā norādītās darbības, vispirms ir jāizpilda d
 
 Bāzlīnija tika pievienota atlasītajam formātam **Formāts ER bāzlīniju apgūšanai**, bet šai bāzlīnijai vēl nav pievienotas bāzlīnijas kārtulas.
 
-![Elektroniskā pārskata formāta bāzlīniju lapa, pagaidām bez kārtulām.](media/GER-BaselineSample-AddBaseline2.PNG "Elektronisko pārskatu formāta bāzlīniju lapu konfigurāciju ekrānuzņēmums")
+![Elektroniskā pārskata formāta bāzlīniju lapa](media/GER-BaselineSample-AddBaseline2.PNG "Elektronisko pārskatu formāta bāzlīniju lapu konfigurāciju ekrānuzņēmums")
 
 ### <a name="make-a-new-baseline-rule"></a>Jaunas bāzlīnijas kārtulas izveide
 
@@ -70,7 +72,7 @@ Bāzlīnija tika pievienota atlasītajam formātam **Formāts ER bāzlīniju apg
 7. Atlasiet **Labi**.
 8. Atlasiet **Bāzlīnijas**.
 
-    ![Elektronisko pārskatu formāta bāzlīniju lapa ar atlasītām bāzlīnijām.](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Elektronisko pārskatu formāta bāzlīniju lapu konfigurāciju ekrānuzņēmums")
+    ![Elektroniskā pārskata formāta bāzlīniju lapa](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Elektronisko pārskatu formāta bāzlīniju lapu konfigurāciju ekrānuzņēmums")
 
     Ģenerētais izejošais fails tiek automātiski pievienots izpildītā ER formāta bāzlīnijai. Bāzlīnijas kārtula tiek automātiski pievienota šai bāzlīnijai un arī satur atsauci uz pievienoto failu.
 
@@ -110,14 +112,14 @@ Lai izpildītu šajā piemērā norādītās darbības, vispirms ir jāizpilda d
 13. Atlasiet **Saglabāt** un pēc tam **Testēt**.
 14. Lai testētu konfigurēto izteiksmi atkārtoti, vēlreiz atlasiet **Testēt**.
 
-    ![Formulas veidotāja lapa.](media/GER-BaselineSample-DefineProcessingDTExpression.PNG "Formulas veidotāja lapas ekrānuzņēmums")
+    ![Formulas veidotāja lapa](media/GER-BaselineSample-DefineProcessingDTExpression.PNG "Formulas veidotāja lapas ekrānuzņēmums")
 
     > [!NOTE]
     > Cilnē **Testa rezultāts** tiek parādīts, ka katru reizi, kad konfigurētā izteiksme tiek izsaukta, tā atgriež citu datuma un laika vērtību.
 
 15. Atlasiet lapu **Formulas veidotājs** un pēc tam atlasiet **Saglabāt**.
 
-    ![Formāta veidotāja lapa.](media/GER-BaselineSample-FormatMappingDesign2.PNG "Formāta veidotāja lapas ekrānuzņēmums")
+    ![Formāta veidotāja lapa](media/GER-BaselineSample-FormatMappingDesign2.PNG "Formāta veidotāja lapas ekrānuzņēmums")
 
 16. Aizveriet lapu **Formāta veidotājs**.
 
@@ -128,7 +130,7 @@ Lai izpildītu šajā piemērā norādītās darbības, vispirms ir jāizpilda d
 3. Bāzlīniju sarakstā atlasiet bāzlīniju, kas konfigurēta formātam **Formāts ER bāzlīniju apgūšanai**.
 4. Kopsavilkuma cilnē **Bāzlīnijas** atlasiet **Dzēst**, lai noņemtu iepriekš konfigurēto bāzlīnijas kārtulu.
 
-![Elektroniskā pārskata formāta bāzlīniju lapa, dzēsta.](media/GER-BaselineSample-AddBaseline3.PNG "Elektronisko pārskatu formāta bāzlīniju lapu konfigurāciju ekrānuzņēmums")
+![Elektroniskā pārskata formāta bāzlīniju lapa](media/GER-BaselineSample-AddBaseline3.PNG "Elektronisko pārskatu formāta bāzlīniju lapu konfigurāciju ekrānuzņēmums")
 
 ### <a name="define-replacements-for-bindings-of-designed-er-format"></a>Izveidotā ER formāta saistījumu aizstājēju definēšana
 
@@ -136,7 +138,7 @@ Lai izpildītu šajā piemērā norādītās darbības, vispirms ir jāizpilda d
 2. Formāta komponentu kokā izvērsiet **Izvade**, izvērsiet **Izvade\\Dokuments** un pēc tam atlasiet vienuma **Izvade\\Dokuments\\ProcessingDateTime** izvēles rūtiņu.
 3. Atlasiet **Labi**.
 
-![Elektroniskā pārskata formāta bāzlīniju lapa, elementi.](media/GER-BaselineSample-AddBaseline4.PNG "Elektronisko pārskatu formāta bāzlīniju lapu konfigurāciju ekrānuzņēmums")
+![Elektroniskā pārskata formāta bāzlīniju lapa](media/GER-BaselineSample-AddBaseline4.PNG "Elektronisko pārskatu formāta bāzlīniju lapu konfigurāciju ekrānuzņēmums")
 
 Atlasītais ER formāta komponents ir pievienots komponentu sarakstam kopsavilkuma cilnē **Aizstājēji**. Kad pamata ER formāts tiek palaists atkļūdošanas režīmā, katra komponenta saistījums formātā tiek aizstāts ar saistījumu, kas redzams kolonnā **Saistīšana**. Lai mainītu komponenta noklusējuma saistījumu, kas uzskaitīts kopsavilkuma cilnē **Aizstājēji**, atlasiet **Rediģēt**.
 
@@ -144,7 +146,7 @@ Atlasītais ER formāta komponents ir pievienots komponentu sarakstam kopsavilku
 
 Izpildiet darbības, kas aprakstītas šīs tēmas sadaļā “Piemērs: bāzlīnijas kārtulu iestatīšanas automatizācija”. Paziņojums brīdina, ka izejošais fails ir ģenerēts, izmantojot bāzlīnijas iestatījumus, un ir notikusi formāta saistījumu piespiedu aizstāšana.
 
-![Paziņojums lapā Konfigurācijas.](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "Lapas Konfigurācijas paziņojuma ekrānuzņēmums")
+![Paziņojums lapā Konfigurācijas](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "Lapas Konfigurācijas paziņojuma ekrānuzņēmums")
 
 ### <a name="suppress-warnings-about-the-replacement-of-format-bindings"></a>Brīdinājumu par formāta saistījumu aizstāšanu izlaišana
 
@@ -192,11 +194,11 @@ Eksportētos bāzlīnijas iestatījumus var importēt citā vidē. Vide vispirms
 
 Lai importētu bāzlīnijas iestatījumus no lokāli saglabāta XML faila, lapā **Elektronisko pārskatu veidošanas formāta bāzlīnijas** atlasiet **Importēt** un pēc tam atlasiet **Pārlūkot**, lai atlasītu XML failu.
 
-![Importēt bāzlīnijas iestatījumu dialoglodziņu.](media/GER-BaselineSample-ImportBaseline1.PNG "Dialoglodziņa Importēt bāzlīnijas iestatījumus ekrānuzņēmums")
+![Importēt bāzlīnijas iestatījumu dialoglodziņu](media/GER-BaselineSample-ImportBaseline1.PNG "Dialoglodziņa Importēt bāzlīnijas iestatījumus ekrānuzņēmums")
 
 Lai importētu bāzlīnijas iestatījumus no XML faila, kas saglabāts Microsoft SharePoint serverī, balstoties uz pašreizējiem dokumentu pārvaldības iestatījumiem un atlasītā dokumenta veida, lapā **Elektronisko pārskatu veidošanas formāta bāzlīnijas** atlasiet **Importēt no avota**. Pēc tam atlasiet dokumenta veidu un XML failu. Dokumenta tips, kas nepieciešams, lai piekļūtu SharePoint mapei, ir jākonfigurē iepriekš.
 
-![Dialoglodziņš Importēt no avota.](media/GER-BaselineSample-ImportBaseline2.PNG "Dialoglodziņa Importēt no avota ekrānuzņēmums")
+![Dialoglodziņš Importēt no avota](media/GER-BaselineSample-ImportBaseline2.PNG "Dialoglodziņa Importēt no avota ekrānuzņēmums")
 
 > [!NOTE]
 > Varat izmantot uzdevumu ierakstītāju, lai reģistrētu darbības, kas jāveic nepieciešamā dokumenta veida un faila nosaukuma atlasīšanai dialoglodziņā **Importēt no avota**. Šādā veidā varat saglabāt nepieciešamos bāzlīnijas iestatījumus SharePoint serverī un pēc tam automātiski importēt tos, atskaņojot uzdevuma ierakstu, kad palaižat automātiskos testus ar Regression Suite Automation Tool.
@@ -205,6 +207,3 @@ Lai importētu bāzlīnijas iestatījumus no XML faila, kas saglabāts Microsoft
 
 - [Ģenerēto pārskatu rezultātu izsekošana un to salīdzināšana ar bāzlīnijas vērtībām](er-trace-reports-compare-baseline.md)
 - [Uzdevuma reģistrētāja resursi](../user-interface/task-recorder.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

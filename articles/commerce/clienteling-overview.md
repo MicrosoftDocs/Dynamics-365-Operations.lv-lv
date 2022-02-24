@@ -2,28 +2,29 @@
 title: Attiecību ar klientiem pārskats
 description: Šajā tēmā ir sniegts pārskats par jaunām attiecību ar klientiem iespējām, kas ir pieejamas veikala programmā.
 author: bebeale
-ms.date: 02/01/2021
-ms.topic: overview
+manager: AnnBe
+ms.date: 06/15/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom:
-- "260624"
-- intro-internal
+ms.search.scope: Core, Operations, Retail
+ms.custom: 260624
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: b1e1b7a67141ffec01d926b7f917ebd4e1f24741
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: d76668fa16a7634e7fbd953afaa6c89eed5457a2
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984600"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414045"
 ---
 # <a name="clienteling-overview"></a>Pārskats par attiecību veidošanu ar klientiem
 
@@ -34,7 +35,7 @@ Daudzi mazumtirgotāji, īpaši augstas klases specializētie mazumtirgotāji, v
 
 ## <a name="client-book"></a>Klienta grāmata
 
-Risinājumā Microsoft Dynamics 365 Commerce mazumtirgotāji var izmantot klienta grāmatas funkcionalitāti, lai palīdzētu pārdošanas asistentiem veidot ilgtermiņa attiecības ar galvenajiem klientiem.
+Programmā Microsoft Dynamics 365 Commerce mazumtirgotāji var izmantot klienta grāmatas funkcionalitāti, lai palīdzētu veikala partneriem veidot ilgtermiņa attiecības ar galvenajiem klientiem.
 
 Klienta grāmata ietver klienta kartes, kas rāda katra klienta kontaktinformāciju, kopā ar trim papildu rekvizītiem, kurus definē mazumtirgotājs un kuri tiek konfigurēti programmā Headquarters. Mazumtirgotāji var izlemt trīs svarīgākās lietas, kas pārdošanas partneriem būtu jāzina par klientiem. Piemēram, juvelierizstrādājumu mazumtirgotājs var vēlēties iekļaut svarīgus datumus, piemēram, jubilejas vai dzimšanas dienas, jo šajos datumos cilvēki varētu iegādāties vairāk juvelierizstrādājumu. Līdzīgi, modes mazumtirgotājs var vēlēties iekļaut klienta dominējošās iepirkšanās intereses un zīmolus.
 
@@ -62,7 +63,7 @@ Pārdošanas partneri var arī izmantot piezīmes, lai iegūtu vispārīgu klien
 
 ## <a name="integration-with-dynamics-365-customer-insights"></a>Integrācija ar Dynamics 365 Customer Insights
 
-Izmantojot programmu Dynamics 365 Customer Insights, mazumtirgotāji var apkopot datus no dažādām sistēmām, ko klienti izmanto, lai mijiedarbotos ar mazumtirgotāja zīmolu. Tie var izmantot šos datus, lai izveidotu visaptverošu skatījumu par klientu un no tā gūtu priekšstatus. Programmu Customer Insights un Commerce integrēšana ļauj mazumtirgotājiem atlasīt vienu vai vairākus pasākumus, kas būtu jāparāda klienta kartē klienta grāmatā. Piemēram, mazumtirgotāji var izmantot datus programmā Customer Insights, lai aprēķinātu "atsijāšanas iespējamību" klientam un definētu "nākamo labāko darbību". Ja šīs vērtības ir definētas kā mērījumi, tās var tikt rādītas klienta kartē un var sniegt būtisku informāciju pārdošanas partneriem. Lai iegūtu plašāku informāciju par Customer Insights, skatiet [Dynamics 365 Customer Insights](/dynamics365/ai/customer-insights/overview) dokumentāciju. Plašāku informāciju par mērījumiem skatiet sadaļā [Mērījumi](/dynamics365/ai/customer-insights/pm-measures).
+Izmantojot programmu Dynamics 365 Customer Insights, mazumtirgotāji var apkopot datus no dažādām sistēmām, ko klienti izmanto, lai mijiedarbotos ar mazumtirgotāja zīmolu. Tie var izmantot šos datus, lai izveidotu visaptverošu skatījumu par klientu un no tā gūtu priekšstatus. Programmu Customer Insights un Commerce integrēšana ļauj mazumtirgotājiem atlasīt vienu vai vairākus pasākumus, kas būtu jāparāda klienta kartē klienta grāmatā. Piemēram, mazumtirgotāji var izmantot datus programmā Customer Insights, lai aprēķinātu "atsijāšanas iespējamību" klientam un definētu "nākamo labāko darbību". Ja šīs vērtības ir definētas kā mērījumi, tās var tikt rādītas klienta kartē un var sniegt būtisku informāciju pārdošanas partneriem. Lai iegūtu plašāku informāciju par Customer Insights, skatiet [Dynamics 365 Customer Insights](https://docs.microsoft.com/dynamics365/ai/customer-insights/overview) dokumentāciju. Plašāku informāciju par mērījumiem skatiet sadaļā [Mērījumi](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-measures).
 
 ## <a name="set-up-clienteling"></a>Attiecību ar klientiem iestatīšana
 
@@ -70,12 +71,12 @@ Lai ieslēgtu attiecību ar klientiem funkcionalitāti jūsu vidē, veiciet tāl
 
 1. Darbvietā **Līdzekļu pārvaldība** filtrējiet līdzekļus pēc moduļa **Mazumtirdzniecība un komercija**.
 
-    ![Attiecības ar klientiem Commerce moduļa funkciju sarakstā.](./media/Enable_clienteling.png "Attiecības ar klientiem Retail un Commerce moduļa funkciju sarakstā")
+    ![Attiecības ar klientiem Commerce moduļa funkciju sarakstā](./media/Enable_clienteling.png "Attiecības ar klientiem Retail un Commerce moduļa funkciju sarakstā")
 
 2. Ieslēdziet līdzekli **Attiecības ar klientiem**, atlasot vienumu **Iespējot tūlīt**.
 3. Lapas **Commerce parametri** cilnē **Numuru sērija** atlasiet rindu **Klienta grāmatas identifikators**. Pēc tam laukā **Numuru sērijas kods** atlasiet numuru sēriju. Sistēma izmantos šo numuru sēriju, lai piešķirtu ID klienta grāmatām.
 4. Atlasiet **Saglabāt**.
-5. Izveidojiet jaunu atribūtu grupu, kas satur atribūtus, kurus vēlaties tvert klientiem, kas tiek pārvaldīti klienta grāmatās. Norādījumus skatiet sadaļā [Atribūti un atribūtu grupas](./attribute-attributegroups-lifecycle.md).
+5. Izveidojiet jaunu atribūtu grupu, kas satur atribūtus, kurus vēlaties tvert klientiem, kas tiek pārvaldīti klienta grāmatās. Norādījumus skatiet sadaļā [Atribūti un atribūtu grupas](https://docs.microsoft.com/dynamics365/retail/attribute-attributegroups-lifecycle).
 
     - Definējiet vajadzīgos atribūtus kā **Var precizēt**. Pēc tam pārdošanas partneri var izmantot šos atribūtus, lai filtrētu savu klientu grāmatu.
     - Iestatiet šo atribūtu rādīšanas secību. Šī rādījumu secība nosaka, kuri atribūti jāparāda klienta kartē klienta grāmatā. 1. parādīšanas secība tiek uzskatīta par augstāku nekā 2. rādīšanas secība. Tāpēc atribūts, kam parādīšanas secība ir 1, tiks rādīts pirms atribūta, kam ir 2. parādīšanas secība.
@@ -85,7 +86,7 @@ Lai ieslēgtu attiecību ar klientiem funkcionalitāti jūsu vidē, veiciet tāl
 
 6. Lapas **Commerce parametri** cilnes **Attiecības ar klientiem** laukā **Klienta grāmatas atribūtu grupa** atlasiet atribūtu grupu, kuru tikko izveidojāt.
 
-    ![Atlasītā klientu grāmatas atribūtu grupa.](./media/Client%20book%20attributes.png "Atlasītā klientu grāmatas atribūtu grupa")
+    ![Atlasītā klientu grāmatas atribūtu grupa](./media/Client%20book%20attributes.png "Atlasītā klientu grāmatas atribūtu grupa")
 
 7. Lai tvertu aktivitātes, kas notiek POS, definējiet aktivitāšu veidus lapā **Aktivitāšu veidi** (**Retail un Commerce \> Klienti \> Aktivitāšu veidi**).
 
@@ -97,7 +98,7 @@ Lai ieslēgtu attiecību ar klientiem funkcionalitāti jūsu vidē, veiciet tāl
 
 Kad esat pabeidzis šo procedūru, pārdošanas partneri POS var atvērt lapu Detalizēta informācija par klientu un pievienot klientus klienta grāmatai, skatīt un tvert klientu aktivitātes un piezīmes, un orientēties uz klientiem, izmantojot debitoru un klientu grāmatas atribūtus, lai filtrētu klienta grāmatu. Nākamajā attēlā parādīts klienta grāmatas piemērs.
 
-![Klienta grāmatas piemērs.](./media/client_book.png "Klienta grāmatas piemērs")
+![Klienta grāmatas piemērs](./media/client_book.png "Klienta grāmatas piemērs")
 
 ## <a name="turn-on-the-integration-of-customer-insights-with-commerce"></a>Ieslēgt Customer Insights integrāciju ar Commerce
 
@@ -105,33 +106,21 @@ Lai ieslēgtu Customer Insights integrāciju ar Commerce, jums jāpārliecinās,
 
 Lai iestatītu integrāciju, veiciet tālāk norādītās darbības.
 
-1. Azure portālā reģistrējiet jaunu programmu un atzīmējiet lietojumprogrammas nosaukumu, lietojumprogrammas ID un noslēpumu. Šī informācija tiks izmantota pakalpojuma autentifikācijai starp Commerce un Customer Insights. Kārtīgi piefiksējiet noslēpumu, jo tas būs nepieciešams, lai saglabātu to atslēgas krātuvē. Šajā piemērā izmantojiet CI_Access_name, CI_Access_AppID, CI_Access_Secret attiecīgi programmas nosaukumam, pieteikuma ID un noslēpumam. Papildu informāciju skatiet sadaļā [Īsa pamācība: reģistrēt pieteikumu platformā Microsoft Identity](/azure/active-directory/develop/quickstart-register-app).
+1. Azure portālā reģistrējiet pieteikumu. Šis pieteikums tiks izmantots autentifikācijai ar Customer Insights. Norādījumus skatiet sadaļā [Īsa pamācība: reģistrēt pieteikumu platformā Microsoft Identity](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
+2. Izveidojiet pieteikumam noslēpumu. Pierakstiet noslēpumu un glabājiet to drošā vietā, jo vēlāk tas būs nepieciešams. Atlasiet arī noslēpuma termiņa beigas.
 
     > [!IMPORTANT]
     > Veiciet darbības, lai pirms derīguma termiņa beigām noslēpumu mainītu. Pretējā gadījumā negaidīti tiks pārtraukta integrēšana.
 
-2. Dodieties uz Customer Insights instanci un meklējiet iepriekš izveidotās lietojumprogrammas nosaukumu (šajā piemērā "CI_Access_name").
-3. Izveidojiet Azure atslēgu, kā arī pierakstiet nosaukumu un vietrādi URL (šajā piemērā - "KeyVaultName", "KeyVaultURL"). Norādījumus skatiet sadaļā [Īsa pamācība: iestatīt un izgūt noslēpumu no Azure atslēgu akreditācijas datu komplekta, izmantojot Azure portālu](/azure/key-vault/quick-create-portal).
-4. Saglabājiet noslēpumu (šajā piemērā "CI_Access_Secret") jūsu krātuvē. Kad šis noslēpums tiek saglabāts krātuvē, noslēpums saņem vārdu. Ievērojiet slepeno vārdu (šajā piemērā 'SecretName").
-5. Lai piekļūtu noslēpumam no Azure atslēgas krātuves, ir jāizveido cita programma ar programmas ID un noslēpumu (šajā piemērā, "KeyVault_Access_AppID" un "KeyVault_Access_Secret"). Ievērojiet noslēpumu droši, jo tas netiks atkal rādīts.
-6. Pēc tam piešķiriet programmai atļaujas, lai varētu piekļūt atslēgas krātuvei no Commerce, izmantojot API. Dodieties uz lietojumprogrammas lapu Azure portālā. Sadaļā **Pārvaldīt** atlasiet **API atļaujas**. Pievienojiet atļauju, lai piekļūtu **Azure atslēgas krātuvei**. Šai atļaujai atlasiet **Piekļūt politikai**. Atlasiet veidni kā **Slepenā pārvaldība** un atlasiet opcijas **Iegūt**, **Uzskaitīt**, **Atšifrēt** un **Šifrēt**. 
-5. Programmā Commerce Headquarters pārejiet uz **Sistēmas administrēšana \> Iestatīšana \> Key Vault parametri** un ievadiet nepieciešamo informāciju par atslēgu akreditācijas datu komplektu. Pēc tam laukā **Key Vault klients** ievadiet pieteikuma ID, kuru izmantojāt 4. darbībā, lai Commerce varētu piekļūt noslēpumiem atslēgu akreditācijas datu komplektā.
-6. Lai pievienotu pieteikumu, ko izveidojāt 1. darbībā, drošo pieteikumu sarakstam (dažreiz saukts par drošo sarakstu), pārejiet uz Customer Insights un atlasiet pieteikumam piekļuvi **Skatīt**. Norādījumus skatiet sadaļā [Atļaujas](/dynamics365/ai/customer-insights/pm-permissions).
-7. Lapā **Sistēmas administrēšana > Iestatīšana > Atslēgas krātuves parametri** Commerce HQ atjauniniet laukus, kā aprakstīts tālāk: 
+3. Izveidojiet Azure key vault un saglabājiet pieteikuma noslēpumu. Norādījumus skatiet sadaļā [Īsa pamācība: iestatīt un izgūt noslēpumu no Azure atslēgu akreditācijas datu komplekta, izmantojot Azure portālu](https://docs.microsoft.com/azure/key-vault/quick-create-portal).
+4. Ieslēdziet piekļuvi Azure Key Vault no Commerce. Lai veiktu šo darbību, jums ir nepieciešams pieteikuma ID un noslēpums. Pieteikums var būt tas pats pieteikums, ko izveidojāt 1. darbībā, vai arī tas var būt jauns pieteikums. (Citiem vārdiem sakot, varat izmantot pieteikumu, ko izveidojāt 1. darbībā gan pamatdatu piekļuvei, gan pakalpojuma Customer Insights piekļuvei, vai arī varat izveidot unikālu pieteikumu katram piekļuves veidam.) Norādījumus skatiet sadaļā [Store Service galvenie akreditācijas dati Azure Stack Key Vault](https://docs.microsoft.com/azure-stack/user/azure-stack-key-vault-store-credentials?view=azs-1908#create-a-service-principal).
+5. Programmā Headquarters pārejiet uz **Sistēmas administrēšana \> Iestatīšana \> Key Vault parametri** un ievadiet nepieciešamo informāciju par atslēgu akreditācijas datu komplektu. Pēc tam laukā **Key Vault klients** ievadiet pieteikuma ID, kuru izmantojāt 4. darbībā, lai Commerce varētu piekļūt noslēpumiem atslēgu akreditācijas datu komplektā.
+6. Lai pievienotu pieteikumu, ko izveidojāt 1. darbībā, drošo pieteikumu sarakstam (dažreiz saukts par drošo sarakstu), pārejiet uz Customer Insights un nodrošiniet pieteikumam piekļuvi **Skatīt**. Norādījumus skatiet sadaļā [Atļaujas](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions).
+7. Programmas Commerce lapas **Commerce parametri** cilnes **Attiecības ar klientiem** kopsavilkuma cilnē **Dynamics 365 Customer Insights** izpildiet tālāk norādītās darbības.
 
-- **Atslēgas krātuves URL**: "KeyVaultURL" (no 3. soļa iepriekš).
-- **Atslēgas krātuves klients**: "KeyVault_Access_AppID" (no 5. soļa iepriekš).
-- **Atslēgas krātuves slepenā atslēga**: "KeyVault_Access_Secret" (no 5. soļa iepriekš).
-- Sadaļā **Noslēpumi**:
-    - **Nosaukums**: jebkurš nosaukums, piemēram, "CISecret".
-    - **Apraksts**: jebkura vērtība.
-    - **Slepenā informācija**: **seifs**:`//<Name of key vault>/<name of secret>>` Šajā piemērā tas būs `vault://KeyVaultName/SecretName`.
-
-Pēc lauku atjaunināšanas atlasiet **Pārbaudīt**, lai nodrošinātu, ka noslēpumam var piekļūt Commerce programma.
-
-8. Sadaļā Commerce lapā **Commerce parametri** cilnē **Klientu piesaiste** kopsavilkuma cilnē **Dynamics 365 Customer Insights** iestatiet **Lietojumprogrammas ID** "CI_Access_AppID" (no 1. soļa iepriekš). **Slepenajam vārdam** izvēlieties slepeno vārdu, kas ievadīts iepriekš 7. darbībā ("CISecret"). Atlasiet opcijai **Iespējot Customer Insights** iestatījumu **Jā**. Ja iestatīšana kāda iemesla dēļ neizdosies, tiks parādīts kļūdas ziņojums, un šī opcija tiks iestatīta uz **Nē**. 
-
-Customer Insights var būt vairākas vides, piemēram, testa un ražošanas vides. Laukā **Vides instances ID** ievadiet atbilstošo vidi. Laukā **Alternatīvā klienta ID** ievadiet to rekvizītu programmā Customer Insights, kas ir kartēts ar klienta konta numuru. (Commerce klienta konta numurs ir klienta ID.) Atlikušie trīs rekvizīti ir pasākumi, kas tiks parādīti klienta kartē klientu grāmatā. Varat atlasīt līdz trim mērījumiem, kas jāparāda klienta kartē. Tomēr nav nepieciešams atlasīt nekādus pasākumus. Kā iepriekš norādīts, sistēma vispirms parāda šīs vērtības, un tad tā parāda klientu grāmatas atribūtu grupas vērtības.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+    1. Laukā **Pieteikuma ID** ievadiet pieteikuma ID, ko izmantojāt 1. darbībā.
+    2. Laukā **Noslēpuma nosaukums** ievadiet Key Vault noslēpuma nosaukumu, ko izveidojāt 5. darbībā.
+    3. Atlasiet opcijai **Iespējot Customer Insights** iestatījumu **Jā**. Ja iestatīšana kāda iemesla dēļ neizdosies, saņemsit kļūdas ziņojumu, un šī opcija tiks iestatīta uz **Nē**.
+    4. Customer Insights var būt vairākas vides, piemēram, testa un ražošanas vides. Laukā **Vides instances ID** ievadiet atbilstošo vidi.
+    5. Laukā **Alternatīvā klienta ID** ievadiet to rekvizītu programmā Customer Insights, kas ir kartēts ar klienta konta numuru. (Commerce klienta konta numurs ir klienta ID.)
+    6. Atlikušie trīs rekvizīti ir mērījumi, kas tiks parādīti klienta kartē klienta grāmatā. Varat atlasīt līdz trim mērījumiem, kas jāparāda klienta kartē. (Tomēr nav jāatlasa neviens no mērījumiem.) Kā jau tika minēts iepriekš, sistēma šīs vērtības rāda vispirms, un pēc tam tā parāda klienta grāmatas atribūtu grupas vērtības.

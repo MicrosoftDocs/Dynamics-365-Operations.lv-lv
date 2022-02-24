@@ -2,9 +2,11 @@
 title: ER veidņu dublējumkopijas
 description: Šajā tēmā skaidrots, kā izmantot elektronisko pārskatu (ER) dublējuma krātuvi veidņu atkopšanai.
 author: NickSelin
+manager: AnnBe
 ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b5de8b9dc06cf10bda1932d5f4ee4484cdae591564fdcd5dd28c5036b82abc66
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 136a81e661590d7af879e816c1142de85fb72e06
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767881"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681404"
 ---
 # <a name="backup-storage-of-er-templates"></a>ER veidņu dublējumkopijas
 
@@ -65,19 +67,19 @@ Lai iestatītu parametru **Automātiski izpildīt procedūru, lai atjaunotu boj�
 > [!NOTE]
 > Šis parametrs ir definēts kā lietojumprogrammas lietotājs un reģistrēts uzņēmums.
 
-![ER konfigurāciju lapa.](./media/GER-BackupTemplates-1.png)
+![ER konfigurāciju lapa](./media/GER-BackupTemplates-1.png)
 
 Sekojošajā attēlā ir parādīts ziņojuma piemērs, kas parādās, parametrs **Automātiski izpildīt procedūru, kas tiek veikta, atjaunojot bojātas veidnes partijas** ir iestatīts uz **Ieslēgts**.
 
-![Kreditora maksājumu žurnāla rinda.](./media/GER-BackupTemplates-2.png)
+![Kreditora maksājumu žurnāla rinda](./media/GER-BackupTemplates-2.png)
 
 Sekojošajā attēlā ir parādīts pakešveida apstrādes process **Atjaunot bojātās veidnes no iekšējās datu bāzes dublēšanas** lapā **Pakešuzdevums**.
 
-![Lapa Pakešuzdevumi.](./media/GER-BackupTemplates-3.png)
+![Lapa Pakešuzdevumi](./media/GER-BackupTemplates-3.png)
 
 Izpildes žurnāls pabeigtajām **atjaunošanas sarautajām veidnēm, kas atrodas iekšējās** datu bāzes dublēšanas pakešuzdevuma procesā, ietver informāciju par veidnēm, kas atjaunotas no dublējuma glabāšanas vietas uz primāro krātuves vietu.
 
-![Pakešuzdevumu vēstures lapa.](./media/GER-BackupTemplates-4.png)
+![Pakešuzdevumu vēstures lapa](./media/GER-BackupTemplates-4.png)
 
 Pēc noklusējuma automātiski tiek izveidotas to veidņu dublējumkopijas, kas atrodas ER formāta konfigurācijās. Lai beigtu izveidot veidņu dublējumkopijas, iestatiet opciju **Pārtraukt veidot veidnes dublējumkopijas** uz **Jā** lapas **Elektroniskie pārskatu parametri** cilnē **Pielikumi**. Šo lapu varat atvērt, izmantojot darba vidi **Elektroniskais pārskats**.
 
@@ -85,11 +87,11 @@ Ja iestatāt opciju **Pārtraukt veidot veidņu dublējumkopijas** uz **Jā** un
 
 Ja jauninājāt savu vidi uz Finance and Operations versijas 10.0.5 (2019. gada oktobris) un vēlaties migrēt uz jaunu vidi, kas ietver ER formāta konfigurācijas, ko var palaist, pirms migrācijas atlasiet **Aizpildīt rezerves krātuvi** lapā **Elektronisko pārskatu parametri**. Šī poga sāk visu pieejamo veidņu dublējumkopijas izveidošanas procesu, lai tos varētu uzglabāt ar ER dublējuma glabāšanas vietu veidnēm.
 
-![Elektronisko pārskatu veidošanas parametru lapa.](./media/GER-BackupTemplates-5.png)
+![Elektronisko pārskatu veidošanas parametru lapa](./media/GER-BackupTemplates-5.png)
 
 ## <a name="manual-recovery"></a>Manuāla atkopšanās
 
-Dodieties uz **Organizācijas administrēšana** \> **Elektroniskie pārskati** \> **Atjaunot bojātās veidnes**, lai manuāli iniciētu iespēju atjaunot ER veidnes no dublējuma glabāšanas vietas uz primāro glabāšanas vietu. Pirms sākat šo procesu, lapā **Atjaunot bojātās veidnes** varat norādīt, vai tā tiks veikta interaktīvi, vai arī tiks plānota pakešveida apstrāde.
+Dodieties uz **Organizācijas administrēšana**\> **Elektroniskie pārskati**\> **Atjaunot bojātās veidnes**, lai manuāli iniciētu iespēju atjaunot ER veidnes no dublējuma glabāšanas vietas uz primāro glabāšanas vietu. Pirms sākat šo procesu, lapā **Atjaunot bojātās veidnes** varat norādīt, vai tā tiks veikta interaktīvi, vai arī tiks plānota pakešveida apstrāde.
 
 ## <a name="supported-deployments"></a>Atbalstītie izvietojumi
 
@@ -100,6 +102,3 @@ Finance and Operations versijā 10.0.5 ER veidņu dublējumkopiju glabāšanas l
 [Elektronisko ziņojumu (ER) pārskats](general-electronic-reporting.md)
 
 [Elektronisko pārskatu (EP) veidošanas struktūras konfigurēšana](electronic-reporting-er-configure-parameters.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

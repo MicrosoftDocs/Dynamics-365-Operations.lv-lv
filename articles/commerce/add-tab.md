@@ -1,13 +1,16 @@
 ---
 title: Cilnes modulis
-description: Šajā tēmā aplūkoti cilnes moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
+description: Šī tēma ietver cilnes moduļus un apraksta, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9062e584d159e0f1986c46140d535f06f5d2817af048f30e812f9049bd52d4f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9d897113442f14b95539efb9fec9482be96447a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723291"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413994"
 ---
 # <a name="tab-module"></a>Cilnes modulis
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aplūkoti cilnes moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
+Šī tēma ietver cilnes moduļus un apraksta, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Pārskats
 
 Cilnes moduļi ir konteineram līdzīgi moduļi, kas tiek izmantoti, lai organizētu informāciju vietnes lapā cilnēs. Tos var izmantot visās lapās, kurās informācija ir jāsniedz cilnēs.
 
@@ -34,11 +39,11 @@ Katrā cilnes modulī var pievienot vienu vai vairākus cilnes krājumu moduļus
 
 Attēlā zemāk redzams cilnes moduļa piemērs vietas lapā. Šajā piemērā ir atlasīta cilne **Piegāde**.
 
-![Cilnes moduļa piemērs.](./media/ecommerce-tab.PNG)
+![Cilnes moduļa piemērs](./media/ecommerce-tab.PNG)
 
 ## <a name="tab-module-properties"></a>Cilnes moduļa rekvizīti
 
-| Rekvizīta nosaukums | Vērtības | Apraksts |
+| Rekvizīta nosaukums | Vērtības | apraksts |
 |---------------|--------|-------------|
 | Virsraksts | Teksts | Šis rekvizīts norāda neobligātu teksta virsrakstu cilnes modulim. |
 | Aktīvās cilnes indekss | Skaits | Šis rekvizīts norāda cilni, kas pēc noklusējuma ir jāaktivizē, kad tiek ielādēta lapa. Ja nav norādīta vērtība, pēc noklusējuma ir aktīvs ir pirmais cilnes elements. |
@@ -79,6 +84,3 @@ Lai pievienotu cilnes moduli lapai un iestatītu rekvizītus, veiciet šādas da
 [Akordeona modulis](add-accordion.md)
 
 [Teksta bloka modulis](add-content-rich-block.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

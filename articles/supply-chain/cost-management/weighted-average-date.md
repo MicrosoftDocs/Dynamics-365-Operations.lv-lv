@@ -2,9 +2,11 @@
 title: Vidējā svērtā uz datumu
 description: Svērtais vidējais datums ir krājumu modelis, kas balstīts uz svērto vidējo principu, kur izsniegšanas no krājumiem tiek vērtētas pie vidējās krājumu vērtības, kas inventarizācijā saņemta katrai atsevišķai dienai krājumu slēgšanas periodā.
 author: AndersGirke
+manager: tfehr
 ms.date: 10/25/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: aevengir
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce056a661130d30426ccfa4c288a0ce5b62ff959
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5df497a8590c6d60a5f0bc39469cf048c3448572
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572029"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963742"
 ---
 # <a name="weighted-average-date"></a>Vidējā svērtā uz datumu
 
@@ -39,7 +41,7 @@ Svērtais vidējais = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (Q
 
 Krājumu slēgšanas laikā aprēķins tiek veikts katru dienu visā slēgšanas perioda laikā, kā parādīts nākamajā attēlā. 
 
-![Vidējā svērtā datuma ikdienas aprēķina modelis.](./media/weightedaveragedatedailycalculationmodel.gif) 
+![Vidējā svērtā datuma ikdienas aprēķina modelis](./media/weightedaveragedatedailycalculationmodel.gif) 
 
 Krājumu izejas plūsmas transakcijas, piemēram, pārdošanas pasūtījumi, krājumu žurnāli un ražošanas pasūtījumi, tiek veiktas, izmantojot novērtēto izmaksu cenu grāmatošanas datumā. Šī novērtēto izmaksu cena tiek saukta arī par kārtējo vidējo izmaksu cenu. Krājumu slēgšanas dienā sistēmā tiek analizētas krājumu transakcijas par iepriekšējiem periodiem, iepriekšējām dienām un pašreizējo dienu. Šī analīze tiek izmantota, lai noteiktu, kurš no tālāk norādītajiem slēgšanas principiem ir jāizmanto.
 
@@ -72,7 +74,7 @@ Tālāk aprakstītajā scenārijā ir iegrāmatotas finansiāli atjauninātas ie
 -   2.b Tiek atjaunināta krājumu finanšu izejas plūsma — daudzums: 2, vienības cena: USD 10,00.
 -   3. Tiek veikta krājumu slēgšana, izmantojot tiešās segšanas metodi, lai segtu krājumu finanšu ieejas plūsmu ar krājumu finanšu izejas plūsmu.
 
-![Novērtētā vidējā datuma tiešā nosegšana bez Iekļaut fizisko vērtību iespējas.](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
+![Novērtētā vidējā datuma tiešā nosegšana bez Iekļaut fizisko vērtību iespējas](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Attēla apzīmējumi:**
 
@@ -126,7 +128,7 @@ Sistēmā tiek ģenerētas un grāmatotas apkopotās krājumu pārsūtīšanas t
 
 Tālāk esošajā ilustrācijā ir attēlotas šīs transakcijas, kā arī ietekme, ko rada svērtā vidējā krājumu modeļa un apkopotās segšanas principa izmantošana, ja netiek izmantota opcija **Iekļaut fizisko vērtību**. 
 
-![Novērtētā vidējā datuma kopsavilkuma nosegšana bez Iekļaut fizisko vērtību opcijas.](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![Novērtētā vidējā datuma kopsavilkuma nosegšana bez Iekļaut fizisko vērtību opcijas](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Attēla apzīmējumi**
 
@@ -175,7 +177,7 @@ Varat atzīmēt saņemšanas darbībai paredzēto izdošanas darbību pirms darb
 
 Jauna pašreizēja vidējā izmaksu cena attēlo finansiāli vai fiziski atjaunināto darbību vidējo par summu USD 27,50. Tālāk esošajā ilustrācijā ir attēlotas šīs transakcijas, kā arī ietekme, ko rada svērtā vidējā uz datumu krājumu modeļa un iezīmēšanas izmantošana.
 
-![Novērtētais vidējais datums ar iezīmēšanu.](./media/weightedaveragedatewithmarking.gif) 
+![Novērtētais vidējais datums ar iezīmēšanu](./media/weightedaveragedatewithmarking.gif) 
 
 **Attēla apzīmējumi:**
 
@@ -193,6 +195,3 @@ Jauna pašreizēja vidējā izmaksu cena attēlo finansiāli vai fiziski atjauni
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

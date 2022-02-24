@@ -1,10 +1,12 @@
 ---
 title: Pakalpojumu līgumu izveide
 description: Šajā tēmā ir aprakstīts, kā lietot līdzekļus moduļos Pakalpojumu pārvaldība un Projektu pārvaldība un uzskaite, lai izveidotu pakalpojumu līgumus.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 02/19/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9a5d580b0bb146bf5d445823b37f607e507f7eb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ef5ca8cc9c80581b9f7ef69bd8c4403d3d0296e8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569147"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965973"
 ---
 # <a name="create-service-agreements"></a>Pakalpojumu līgumu izveide
 
@@ -32,7 +34,7 @@ ms.locfileid: "7569147"
 
 1. Pārejiet uz **Pakalpojumu vadība**.
 2. Noklikšķiniet uz **Pakalpojumu līgumi**, lai izveidotu jaunu pakalpojumu līguma rindu lapas galvenē. 
-3. Atlasiet **Jauns**. Ievadiet aprakstu, atlasiet atsauci uz projektu laukā **Projekta ID** un aizpildiet atlikušos laukus un rindas pakalpojumu līgumam. Atlasiet **Saglabāt**.
+3. Klikšķiniet **Jauns**. Ievadiet aprakstu, atlasiet atsauci uz projektu laukā **Projekta ID** un aizpildiet atlikušos laukus un rindas pakalpojumu līgumam. Noklikšķiniet uz **Saglabāt**.
 4. Cilnē **Relācijas** atlasiet **Pakalpojumu objekti** vai **Pakalpojumu uzdevumi**, lai izveidotu pakalpojumu objektu relācijas vai pakalpojumu uzdevumu relācijas pakalpojumu līgumam. Pakalpojuma objekti un uzdevumi ar izveidotām saistībām var tikt pievienoti pakalpojumu līguma rindām.
 5. Lapas apakšējā pusē izveidojiet pakalpojumu līguma rindas nokopējot rindas no pakalpojuma veidnes vai arī pašrocīgi izveidojot pakalpojumu līguma rindas.
 
@@ -43,14 +45,14 @@ ms.locfileid: "7569147"
 
 1. Lapā **Pakalpojumu līgumi** rindu režģī pievienojiet pakalpojumu līguma rindu. 
 2. Ievadiet attiecīgu informāciju par pakalpojumu līgumu rindu. 
-3. Atlasiet **Saglabāt**, lai saglabātu rindu, tad aizveriet lapu.
+3. Lai saglabātu rindu un aizvērtu lapu, nospiediet taustiņu kombināciju **CTRL+S**.
 
 ## <a name="create-a-service-agreement-from-project"></a>Pakalpojumu līguma izveide no formas Projekts
 
-1. Atlasiet **Projektu pārvaldība un uzskaite**.
-2. Atlasiet **Visi projekti**.
+1. Noklikšķiniet uz **Projektu pārvaldība un uzskaite**.
+2. Noklikšķiniet uz **Visi projekti**.
 3. Atlasiet projektu no saraksta.
-4. **Darbību rūtī** atlasiet **Pārvaldīt**. Darbību grupā **Jauns** atlasiet **Pakalpojums** un atlasiet **Pakalpojuma līgums**.
+4. **Darbību rūtī** noklikšķiniet uz **Pārvaldīt**. **Jaunajā** darbību grupā noklikšķiniet uz **Pakalpojums** un atlasiet **Pakalpojuma līgums**.
 5. Lai ievadītu projekta atsauci, izpildiet sadaļā **Pakalpojumu līguma izveidošana** sniegtos norādījumus, kā tika aprakstīts iepriekš šajā tēmā.
 
 
@@ -59,6 +61,3 @@ ms.locfileid: "7569147"
 [Izstrādes un veidošanas pakalpojumu līgumu pārskats](service-agreements.md)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

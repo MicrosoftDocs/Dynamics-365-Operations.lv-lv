@@ -2,9 +2,11 @@
 title: Pielāgotas glabāšanas vietas norādīšana ģenerētajiem dokumentiem
 description: Šajā tēmā izskaidrots, kā paplašināt elektronisko pārskatu veidošanas (Electronic Reporting — ER) formātu ģenerēto dokumentu glabāšanas vietu sarakstu.
 author: NickSelin
+manager: AnnBe
 ms.date: 02/22/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 61a1e46497d650e2c063a5fe7537d17cf7aa1828a5a4504bb781e84aeb88f04a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5e9afad936a353c8db3c316ad45c4ce28d33b129
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718505"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680810"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Pielāgotas glabāšanas vietas norādīšana ģenerētajiem dokumentiem
 
@@ -27,7 +29,7 @@ Elektronisko pārskatu veidošanas (ER) struktūras lietojumprogrammas interfei
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
-Jums jāizvieto topoloģija, kas atbalsta pastāvīgu būvēšanu. (Papildinformāciju skatiet tēmā [Tādu topoloģiju izvietošana, kuras atbalsta pastāvīgu būvēšanu un testu automatizēšanu](/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation).) Jums jābūt piekļuvei šai topoloģijai kādā no tālāk minētajām lomām:
+Jums jāizvieto topoloģija, kas atbalsta pastāvīgu būvēšanu. (Papildinformāciju skatiet tēmā [Tādu topoloģiju izvietošana, kuras atbalsta pastāvīgu būvēšanu un testu automatizēšanu](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation).) Jums jābūt piekļuvei šai topoloģijai kādā no tālāk minētajām lomām:
 
 - Elektroniskā pārskata izstrādātājs
 - Elektronisko pārskatu veidošanas funkcionālais konsultants
@@ -39,7 +41,7 @@ Jums jābūt arī piekļuvei šīs topoloģijas izstrādes videi.
 
 Pašreizējā topoloģijā [izveidojiet jaunu ER formātu](tasks/er-format-configuration-2016-11.md), lai ģenerētu dokumentus, kuriem plānojat pievienot pielāgotu glabāšanas vietu. Vai arī [importējiet šajā topoloģijā jau izveidotu ER formātu](general-electronic-reporting-manage-configuration-lifecycle.md).
 
-![Formāta veidotāja lapa.](media/er-extend-file-storages-format.png)
+![Formāta veidotāja lapa](media/er-extend-file-storages-format.png)
 
 > [!IMPORTANT]
 > ER formātā, ko izveidojat vai importējat, jābūt vismaz vienam no šādiem formāta elementiem:
@@ -53,12 +55,12 @@ Pašreizējā topoloģijā [izveidojiet jaunu ER formātu](tasks/er-format-conf
 
 Lai norādītu, kā tiek maršrutēti EP formāta ģenerētie dokumenti, jums ir jākonfigurē [Elektronisko paziņojumu (EP) galamērķi](electronic-reporting-destinations.md). Katram ER galamērķim, kas ir konfigurēts tā, lai ģenerētos dokumentus saglabātu kā failus, jums ir jānorāda dokumentu pārvaldības struktūras dokumenta veids. Lai maršrutētu dokumentus, ko ģenerē dažādi ER formāti, var lietot dažādus dokumentu veidus.
 
-1. Pievienojiet jaunu [dokumenta veidu](../../fin-ops/organization-administration/configure-document-management.md) ER formātam, ko iepriekš izveidojāt vai importējāt. Nākamajā ilustrācijā dokumenta veids ir **FileX**.
+1. Pievienojiet jaunu [dokumenta veidu](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) ER formātam, ko iepriekš izveidojāt vai importējāt. Nākamajā ilustrācijā dokumenta veids ir **FileX**.
 2. Lai atšķirtu šo dokumenta veidu no citiem dokumentu veidiem, iekļaujiet konkrētu atslēgvārdu tā nosaukumā. Piemēram, nākamajā ilustrācijā nosaukums ir **(LOCAL) folder** ((LOKĀLA) mape).
 3. Laukā **Klase** norādiet **Pievienot failu**.
 4. Laukā **Grupa** norādiet **Fails**.
 
-![Lapa Dokumentu tipi.](media/er-extend-file-storages-document-type.png)
+![Dokumentu veidu lapa](media/er-extend-file-storages-document-type.png)
 
 > [!NOTE]
 > Dokumentu veidi ir atkarīgi no uzņēmuma. Lai izmantotu ER formātu ar konfigurēto galamērķi vairākos uzņēmumos, jums ir jākonfigurē atsevišķs dokumenta veids katram uzņēmumam.
@@ -110,21 +112,21 @@ public DocuRef insertFile(
 
 Notikums **AttachingFile()** tiek parādīts, kad tiek apstrādāti tālāk norādītie ER galamērķi.
 
-- **Arhīvs** — ja tiek izmantots šis galamērķis, tabulā ERFormatMappingRunJobTable tiek izveidots jauns ieraksts par izpildīto ER formātu. Lauks **Arhivēts** šajā ierakstā ir iestatīts uz **Aplams**. Ja ER formāts ir veiksmīgi izpildīts, ģenerētais dokuments tiek pievienots šim ierakstam, un tiek parādīts notikums **AttachingFile()**. Dokumenta veids, kas atlasīts šajā ER galamērķī, nosaka pievienotā faila glabāšanas vietu (Microsoft Azure krātuve vai Microsoft SharePoint mape).
-- **Darbu arhīvs** — ja tiek izmantots šis galamērķis, tabulā ERFormatMappingRunJobTable tiek izveidots jauns ieraksts par izpildīto ER formātu. Lauks **Arhivēts** šajā ierakstā ir iestatīts uz **Pareizs**. Ja ER formāts ir veiksmīgi izpildīts, ģenerētais dokuments tiek pievienots šim ierakstam, un tiek parādīts notikums **AttachingFile()**. Dokumenta veids, kas ir konfigurēts ER parametros, nosaka pievienotā faila glabāšanas vietu (Azure krātuve vai SharePoint mape).
+- **Arhīvs** — ja tiek izmantots šis galamērķis, tabulā ERFormatMappingRunJobTable tiek izveidots jauns ieraksts par izpildīto ER formātu. Lauks **Arhivēts** šajā ierakstā ir iestatīts uz **Aplams**. Ja ER formāts ir veiksmīgi izpildīts, ģenerētais dokuments tiek pievienots šim ierakstam, un tiek parādīts notikums **AttachingFile()**. Dokumenta veids, kas atlasīts šajā ER galamērķī, nosaka pievienotā faila glabāšanas vietu (Microsoft Azure krātuve vai Microsoft SharePoint mape).
+- **Darbu arhīvs** — ja tiek izmantots šis galamērķis, tabulā ERFormatMappingRunJobTable tiek izveidots jauns ieraksts par izpildīto ER formātu. Lauks **Arhivēts** šajā ierakstā ir iestatīts uz **Pareizs**. Ja ER formāts ir veiksmīgi izpildīts, ģenerētais dokuments tiek pievienots šim ierakstam, un tiek parādīts notikums **AttachingFile()**. Dokumenta veids, kas ir konfigurēts ER parametros, nosaka pievienotā faila glabāšanas vietu (Azure krātuve vai SharePoint mape).
 
-![Elektronisko pārskatu veidošanas parametru lapa.](media/er-extend-file-storages-parameters.png)
+![Elektronisko pārskatu veidošanas parametru lapa](media/er-extend-file-storages-parameters.png)
 
 ## <a name="configure-an-er-destination"></a>ER galamērķa konfigurēšana
 
-1. Konfigurējiet arhivēto galamērķi vienam no iepriekš minētajiem izveidotā vai importētā ER formāta elementiem (fails, mape, apvienotājs vai pielikums). Norādes skatiet tēmā [ER galamērķu konfigurēšana](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11).
+1. Konfigurējiet arhivēto galamērķi vienam no iepriekš minētajiem izveidotā vai importētā ER formāta elementiem (fails, mape, apvienotājs vai pielikums). Norādes skatiet tēmā [ER galamērķu konfigurēšana](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11).
 2. Izmantojiet dokumenta veidu, kuru iepriekš pievienojāt konfigurētajam galamērķim. (Piemēram, šajā tēmā dokumenta veids ir **FileX**.)
 
-![Dialoglodziņš Galamērķu iestatījumi.](media/er-extend-file-storages-destination.png)
+![Dialoglodziņš Galamērķu iestatījumi](media/er-extend-file-storages-destination.png)
 
 ## <a name="modify-source-code"></a>Pirmkoda modificēšana
 
-1. Pievienojiet jaunu klasi savam Microsoft Visual Studio projektam un ievadiet kodu, lai abonētu notikumu **AttachingFile()**, kas tika minēts iepriekš. (Papildinformāciju par izmantoto paplašināmības modeli skatiet tēmā [Atbildēšana, izmantojot EventHandlerResult](/dynamics365/unified-operations/dev-itpro/extensibility/respond-event-handler-result).) Piemēram, jaunai klasei ievadiet kodu, kas veic tālāk norādītās darbības.
+1. Pievienojiet jaunu klasi savam Microsoft Visual Studio projektam un ievadiet kodu, lai abonētu notikumu **AttachingFile()**, kas tika minēts iepriekš. (Papildinformāciju par izmantoto paplašināmības modeli skatiet tēmā [Atbildēšana, izmantojot EventHandlerResult](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/extensibility/respond-event-handler-result).) Piemēram, jaunai klasei ievadiet kodu, kas veic tālāk norādītās darbības.
 
     1. Saglabājiet ģenerētos failus vietējās failu sistēmas mapē serverī, kurā darbojas pakalpojums Application Object Server (AOS).
     2. Saglabājiet šos ģenerētos failus tikai tad, ja tiek izmantots jaunais dokumenta veids (piemēram, veids **FileX**, kura nosaukumā ir atslēgvārds “(LOCAL)”), kamēr fails tiek pievienots ierakstam ER izpildes darbu žurnālā.
@@ -166,13 +168,10 @@ Notikums **AttachingFile()** tiek parādīts, kad tiek apstrādāti tālāk nor�
 ## <a name="run-the-er-format-that-you-created-or-imported"></a>Izveidotā vai importētā ER formāta palaišana
 
 1. Izpildiet izveidoto vai importēto ER formātu.
-2. Dodieties uz **Organizācijas administrēšana \> Elektronisko pārskatu veidošana \> Elektronisko pārskatu veidošanas darbi**. Atrodiet ierakstu, kas bija izveidots šim izpildes darbam un kuram ir pievienots ģenerētais fails.
+2. Dodieties uz **Organizācijas administrēšana \> Elektronisko pārskatu veidošana \> Elektronisko pārskatu veidošanas darbi**. Atrodiet ierakstu, kas bija izveidots šim izpildes darbam un kuram ir pievienots ģenerētais fails.
 3. Izpētiet vietējo mapi **c:\\0**, lai atrastu pašu ģenerēto failu.
 
 ## <a name="additional-resources"></a>Papildu resursi
 
 - [Elektronisko pārskatu (ER) galamērķi](electronic-reporting-destinations.md)
 - [Lietojumprogrammas Paplašināmība sākumlapa](../extensibility/extensibility-home-page.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -66,6 +66,3 @@ Ir pieejamas šādas atvaļinājuma un prombūtnes laika pārvaldības funkcijas
 - **Prombūtnes pieprasījumu iesniegšana.**
 
     Darbinieki var iesniegt prombūtnes laika pieprasījumus atbilstoši pieejamām stundām. Pieprasījumi var būt vienkārši vienas dienas pieprasījumi vai vairāku dienu pieprasījumi, tostarp vairāki atvaļinājumu un prombūtnes laika veidi. Ja nav iespējota darbplūsma, pieprasījumi tiek automātiski apstiprināti. Ja ir iespējota darbplūsma, apstiprinājumi var tikt apstiprināti automātiskai vai arī var tikt pieprasīta parakstīšana, atkarībā no darbplūsmas konfigurācijas.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

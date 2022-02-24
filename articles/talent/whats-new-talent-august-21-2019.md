@@ -70,6 +70,3 @@ Jauna opcija ļaus vadītājiem apskatīt gan savas tiešās veiktspējas atskai
 #### <a name="platform-update-29-for-finance-and-operations"></a>Platform update 29 for Finance and Operations
 
 Papildinformāciju par atjauninājumu Platform update 29 for Finance and Operations, skatiet [Priekšskatījuma līdzekļi programmā Dynamics 365 Finance and Operations Platform update 29 (2019. gada oktobris)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: Uzturēšanas cikls
 description: Šajā tēmā ir uzturēšanas cikli programmā Asset Management.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRoundTable
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dc0d8ec546e7455187a87ac124c5e56a93f5bafd2270bf275af950991fc4b87e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a3a64593a2155d35e78b0d854c7367fa65d1c5c8
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740723"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018550"
 ---
 # <a name="maintenance-rounds"></a>Uzturēšanas cikls
 
@@ -28,7 +30,7 @@ ms.locfileid: "6740723"
 
  
 
-**Līdzekļu pārvaldībā** jūs varat izveidot uzturēšanas ciklus dažādiem līdzekļiem, kuriem jums ir regulāros intervālos jāveic līdzīgs uzdevums. Piemēram, ieeļļošanas darbus vai drošības pārbaudes darbus, kuri ir jāveic vairākām iekārtām vienādos intervālos. Pirmā darbībā ir uzturēšanas cikla izveide, ieskaitot līdzekļus, kuriem ir nepieciešams viena un tāda paša veida uzturēšanas darbs. Pēc tam jūs ieplānojat uzturēšanas ciklus. Kad esat aizpildījis uzturēšanas ciklu grafiku, jūs varat redzēt visus darba ierakstus, kas saistīti ar raundu sadaļās **Visi uzturēšanas grafiki** un **Atvērt uzturēšanas saraksta rindas**.
+Programmā **Asset Management** jūs varat izveidot uzturēšanas ciklus dažādiem līdzekļiem, kuriem jums ir regulāros intervālos jāveic līdzīgs uzdevums. Piemēram, ieeļļošanas darbus vai drošības pārbaudes darbus, kuri ir jāveic vairākām iekārtām vienādos intervālos. Pirmā darbībā ir uzturēšanas cikla izveide, ieskaitot līdzekļus, kuriem ir nepieciešams viena un tāda paša veida uzturēšanas darbs. Pēc tam jūs ieplānojat uzturēšanas ciklus. Kad esat aizpildījis uzturēšanas ciklu grafiku, jūs varat redzēt visus darba ierakstus, kas saistīti ar raundu sadaļās **Visi uzturēšanas grafiki** un **Atvērt uzturēšanas saraksta rindas**.
 
 >[!NOTE]
 >Uzturēšanas ciklus var arī uzstādīt funkcionālajam novietojumam, kurš ir jāpabeidz līdzekļos, kuri instalēti funkcionālajā novietojumā ciklā bāzēta darba pasūtījuma izveidošanas laikā. Skatiet [Izveidot funkcionālo novietojumu](../functional-locations/create-functional-locations.md), lai iegūtu vairāk informācijas par uzturēšanas ciklu uzstādīšanu funkcionālajā novietojumā.
@@ -80,7 +82,7 @@ ms.locfileid: "6740723"
 
 Nākamajā ilustrācijā ir redzams piemērs uzturēšanas ciklam, kurā ietilpst trīs līdzekļi.
 
-![1. attēls.](media/13-preventive-maintenance.png)
+![1. attēls](media/13-preventive-maintenance.png)
 
 
 ## <a name="schedule-maintenance-rounds"></a>Plānot uzturēšanas ciklus
@@ -106,14 +108,11 @@ Kad esat uzstādījis uzturēšanas ciklu, jūs palaižat grafika darbu, lai iep
 
 Divās nākamajās ilustrācijās ir parādīts darba grafiks dialoglodziņā **Plānot uzturēšanas ciklus** un uzturēšanas grafika rindas, kas izveidotas **Visos uzturēšanas grafikos**, pamatojoties uz šo plānoto darbu.
 
-![2. attēls.](media/14-preventive-maintenance.png)
+![2. attēls](media/14-preventive-maintenance.png)
 
-![3. attēls.](media/15-preventive-maintenance.png)
+![3. attēls](media/15-preventive-maintenance.png)
 
 - Kad darba pasūtījums tiek manuāli izveidots līdzekļiem, uz kuriem attiecas piegādātāja garantija, tiek parādīts dialoglodziņš, lai informētu lietotāju par garantiju. Pēc tam darba pasūtījuma izveidi var atcelt. Garantijas saistības pārbaude tiek izlaista tiem darba pasūtījumiem, kuri ir izveidoti automātiski.  
 - Ātrajā cilnē **Palaist fonā** jūs uzstādīt pakešuzdevumu, lai ieplānotu ciklus regulāros intervālos.  
 - Ja cikls ir ietvers vairākās darba pasūtījumu kopās (skatīt [Darba pasūtījumu kopas](../work-orders/work-order-pools.md)), katrai kopai tiek uzrādīts viens ieraksts opcijā **Atvērt uzturēšanas grafiku kopas**. Tas tiek darīts, lai optimizētu filtrēšanas opcijas darba pasūtījumu kopām.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

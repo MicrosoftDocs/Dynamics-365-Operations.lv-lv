@@ -2,9 +2,11 @@
 title: Organizācijas hierarhijas plānošana
 description: Pirms iestatāt organizācijas un organizāciju hierarhijas, ir jāpārliecinās, vai saprotat, kā vislabāk modelēt savu uzņēmumu.
 author: sericks007
-ms.date: 02/19/2021
+manager: AnnBe
+ms.date: 08/28/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef906c0d60639da763f2a9c1e1adf508b0849b8978dff17cd0e7b3936fc4779e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 986d8986375aac9454483d89c46c1b2b6f52e68e
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771876"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694693"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Organizācijas hierarhijas plānošana
 
@@ -164,7 +166,7 @@ Pārvaldības struktūrvienības izmanto mātes juridiskās personas valsts kont
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Ja organizācija ir modelēta kā juridiska persona
 
-Valstīm/reģioniem, kas tiek atbalstītas, var izveidot lielāko daļu likumā noteikto pārskatu. 
+Valstīm/reģioniem, kas tiek atbalstītas, var izveidot lielāko daļu likumā noteikto pārskatu. Informāciju par to, kuri pārskati ir pieejami katrā valstī/reģionā, skatiet [Microsoft Dynamics lokalizācijas portālā](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC). (Ir nepieciešami CustomerSource pieteikšanās dati.)
 
 > [!NOTE]
 > Grāmatošanas līmenis virsgrāmatā ļauj veikt pielāgošanas ierakstus mātes uzņēmumā, kas izmanto citu uzskaites standartu nekā meitas uzņēmums. Piemēram, uzņēmumam, kas izmanto Apvienotās Karalistes vispārpieņemtos grāmatvedības principus (UK GAAP), varat veikt pielāgošanas ierakstus grāmatošanas līmeni. Šos ierakstus var konsolidēt mātes uzņēmumā, kas izmanto Amerikas Savienoto Valstu vispārpieņemtos grāmatvedības principus (GAAP). Pielāgošanas ieraksti neietekmē UK GAAP pārskatu.
@@ -239,6 +241,3 @@ Ieviešot organizācijas hierarhiju, ņemiet vērā šādu labāko praksi:
 - Pirms modelējat nopietnus restrukturizācijas scenārijus, izmantojiet hierarhijas derīguma datumus, lai veiktu ietekmes analīzi un apstiprināšanas pārbaudi.
 - Izmantojiet melnraksta režīmu, lai mainītu hierarhiju, pirms publicējat jaunu versiju ražošanas vidē.
 - Ierobežojiet cilvēku skaitu, kam ir atļaujas pievienot vai noņemt organizācijas no hierarhijas ražošanas vidē. Mazāks skaits samazina iespēju, ka var rasties dārgas kļūdas un ir jāveic labojumi.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

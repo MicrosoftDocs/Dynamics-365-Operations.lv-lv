@@ -1,23 +1,26 @@
 ---
-title: Inženierzinātnes izmaiņu pārvaldības apskats (satur video)
+title: Tehnoloģisko izmaiņu pārvaldības pārskats
 description: Šajā tēmā sniegts pārskats par tehnoloģisko izmaiņu pārvaldību, kas palīdz plānot un pārvaldīt preču versiju izveidi un pārvaldīt produktu dzīves ciklus un tehnikas izmaiņas.
 author: t-benebo
-ms.date: 01/11/2022
-ms.topic: overview
+manager: tfehr
+ms.date: 11/11/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8c200796d587d77c0f4d2344524a890ba964ab39
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: f1aa04b472eaef7ed398f08a05d46bac2d589561
+ms.sourcegitcommit: 9f32389715b226c11e74c53547527e0a8b51e300
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985216"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4514354"
 ---
 # <a name="engineering-change-management-overview"></a>Tehnoloģisko izmaiņu pārvaldības pārskats
 
@@ -25,9 +28,9 @@ ms.locfileid: "7985216"
 
 ## <a name="feature-summary"></a>Līdzekļa kopsavilkums
 
-Šodienas ražotājiem ir nepieciešama stingra preču datu pārvaldība, versiju kontrole un inženiertehnisko izmaiņu pārvaldība, lai izdotos veiksmīgai preču dzīves cikla sašaurināšanai, paaugstinātām kvalitātes un drošības prasībām un lielākai uzmanībai par preču drošību.
+Šodienas ražotājiem ir nepieciešama spēcīga preču datu pārvaldība, versiju kontrole un tehnikas izmaiņu pārvaldība, lai izdotos pasaulē nemitīgi samazināt preču dzīves ciklus, paaugstinātu kvalitātes un uzticamības prasības un paaugstinātu koncentrēšanos uz preču drošību.
 
-Inženierzinātnes izmaiņu pārvaldība preču datu pārvaldības procesam atved struktūru un nozari, kā arī sniedz iespēju precēm definēt, izlaist un pārskatīt kontrolētā veidā, ko atbalsta darbplūsmas. Izmantojot preču versijas un inženierzinātnes izmaiņu pārvaldību, varat dokumentēt, novērtēt produkta ietekmi un pielietot inženierzinātnes izmaiņas visā produkta dzīves ciklā.
+Tehnikas izmaiņu vadība nodrošina preču datu pārvaldības procesa struktūru un disciplīnu un ļauj definēt, izlaist un pārskatīt preces, ko atbalsta darbplūsmas.Izmantojot preču versijas un tehnikas izmaiņu pārvaldību, varat dokumentēt, novērtēt un piemērot tehnikas izmaiņas visā preces dzīves ciklā.
 
 Tehnikas izmaiņu pārvaldība, kas palīdz plānot un pārvaldīt preču versiju izveidi un pārvaldīt produktu dzīves ciklus un tehnikas izmaiņas. Šeit ir saraksts ar tās galvenajām iezīmēm:
 
@@ -38,56 +41,21 @@ Tehnikas izmaiņu pārvaldība, kas palīdz plānot un pārvaldīt preču versij
 - Tehnikas izmaiņu pieprasījumi, ko atbalsta darbplūsmas
 - Tehnikas izmaiņu pasūtījumi, ko atbalsta darbplūsmas
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HE6B]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4HE6B]
 
-Iepriekšējais video [(mainīt pārvaldības Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc) iespējas) ir iekļauts finanšu un [operāciju iespējas, kas](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) pieejamas YouTube.
+Iepriekšējais video ([Izmaiņu pārvaldības iespējas sistēmā Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) ir iekļauts [Finance and Operations atskaņošanas sarakstā](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), kas pieejams YouTube.
 
-## <a name="turn-on-the-engineering-change-management-features-for-your-system"></a>Inženiertehnisko izmaiņu pārvaldības līdzekļu iespējošana sistēmā
+## <a name="turn-on-engineering-change-management-for-your-system"></a>Ieslēgt tehnikas izmaiņu pārvaldību jūsu sistēmai
 
-Pirms izmantot inženierzinātnes izmaiņu pārvaldības funkciju un tā konfigurācijas atslēgu, kā aprakstīts *Inženierzinātnes izmaiņu pārvaldības* inženierzinātnes izmaiņu pārvaldības funkciju un tā konfigurācijas atslēgu. Ja vēlaties arī izsekot versiju dimensijai produktiem transakcijās (neobligāti), ir arī jāiespējo gan līdzeklis *Produkta versiju dimensija*, gan tā konfigurēšanas atslēga. Pēc tam, kad šie priekšnosacījumi ir pēc vajadzības iestatīti, varēsit arī iespējot neobligātos līdzekļus inženiertehnisko izmaiņu pārvaldībai.
+Vispirms ieslēdziet tehnikas izmaiņu pārvaldību, veicot šādas darbības.
 
-### <a name="turn-on-the-basic-engineering-change-management-features"></a>Pamata inženiertehnisko izmaiņu pārvaldības līdzekļu iespējošana sistēmā
-
-Vispirms, ieslēdziet šīs funkcijas, veicot šādas darbības.
-
-1. Atvēriet darbvietu [Līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+1. Dodieties uz [Līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 1. Pārbaudīt, vai nav atjauninājumu.
-1. Ieslēdziet līdzekli, kura nosaukums ir *Tehnikas izmaiņu pārvaldība*.
-1. Pēc tam, ja vēlaties to izmantot, iespējojiet arī funkciju ar nosaukumu *Preces dimensijas versija*.
+1. Ieslēdziet līdzekli, kura nosaukums ir **Tehnikas izmaiņu pārvaldība**.
 
-### <a name="turn-on-the-required-configuration-keys"></a>Vajadzīgo konfigurācijas atslēgu iespējošana
-
-Tad ieslēdziet konfigurācijas atslēgas, veicot šādas darbības.
+Pēc tam ieslēdziet **Tehnikas izmaiņu pārvaldība** konfigurācijas atslēgu, veicot šādas darbības.
 
 1. Ielieciet savu sistēmu uzturēšanas režīmā, kā aprakstīts sadaļā [Uzturēšanas režīms](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 1. Dodieties uz **Sistēmas administrēšana \> Iestatījumi \> Licences konfigurācija**.
-1. Izvērst zaru **Tirdzniecība**.
-1. Iespējojiet galvenos līdzekļu konfigurācijas atslēgu, atzīmējot izvēles rūtiņu **Inženiertehnisko izmaiņu pārvaldība**.
-1. Izvērsiet **Inženiertehnisko izmaiņu pārvaldība** zaru un atzīmējiet vai notīriet šādas izvēles rūtiņas pēc vajadzības (atkarībā no funkcijām, ko vēlaties izmantot):
-
-    - **Atribūtu meklēšana** - atzīmējiet šo izvēles rūtiņu, lai iespējotu [atribūtu meklēšanas līdzekli](engineering-attributes-and-search.md). Ieteicams iespējot šo funkciju, taču, ja to neizmantosit, to var notīrīt.
-    - **Izmaiņu pārvaldība procesa ražošanai** - atzīmējiet šo izvēles rūtiņu, ja vēlaties izmantot Inženiertehnisko izmaiņu pārvaldības līdzekļus, lai pārvaldītu izmaiņas procesa ražošanas formulās. Ja formulas nav jāpārvalda, šo izvēles rūtiņu var notīrīt. Papildinformāciju skatiet [pPrvaldīt izmaiņas formulās un to sastāvdaļās](manage-formula-changes.md).
-
-1. Ja arī vēlaties izmantot versijas dimensiju, atzīmējiet izvēles rūtiņu **Preces dimensija – versija**. (Šī izvēles rūtiņa atrodas tālāk sarakstā, nevis ligzdota zem **Inženiertehnisko izmaiņu pārvaldība** zara.)
+1. Paplašiniet **Tirdzniecības** mezglu un atzīmējiet izvēles rūtiņu **Tehnikas izmaiņu pārvaldība**.
 1. Izslēdziet uzturēšanas režīmu, kā aprakstīts sadaļā [Uzturēšanas režīms](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-1. Lai nodrošinātu pareizu konfigurācijas atslēgu aktivizēšanu, datu bāze ir jāsinhronizē. Atkarībā no tā, pie kāda tipa vides jūs strādājat, veiciet vienu no tālāk minētajiem soļiem:
-    - **1. pakāpes (izstrādes) vidēm: atveriet projektu programmā Microsoft un pēc** Visual Studio tam atlasiet Dynamics **365 \> Sinhronizēt datu bāzes \>** sinhronizāciju.
-    - **2. pakāpes (un augstākām) vidēm: datu bāze automātiski tiek sinhronizēta pēc vides izvietošanas uzturēšanas režīmā un ārpus tā, tādēļ varat** izlaist šo darbību.
-
-> [!IMPORTANT]
-> Sākot no 2022. gada aprīļa, licences atslēgas gan **Inženierzinātnes izmaiņu pārvaldībai**, gan **Preces dimensijai - versija** tiks aktivizētas pēc noklusējuma visām jaunajām instalācijām, bet, ja nepieciešams, tās joprojām būs iespējams deaktivizēt.
-
-### <a name="turn-on-additional-engineering-change-management-features"></a>Papildu inženiertehnisko izmaiņu pārvaldības līdzekļu iespējošana sistēmā
-
-Pēc pamata inženiertehnisko izmaiņu pārvaldības līdzekļu iespējošanas un to konfigurācijas atslēgu iespējošanas, līdzekļa pārvaldībai tiek pievienotas dažas papildu neobligātas inženiertehnisko izmaiņu pārvaldības iespējas. Katrs no šiem līdzekļiem ir uzskaitīts modulī **Inženiertehnisko izmaiņu pārvaldība**. Tālāk sniegtajā tabulā ir aprakstīti visi neobligātie līdzekļi un saites uz papildinformāciju.
-
-| Līdzekļa nosaukums līdzekļu pārvaldībā | Apraksts |
-|---|---|
-| Izmaiņu pārvaldības iespējošana esošajām precēm | <p>Šis līdzeklis ļauj konvertēt esošās preces inženiertehniskajās precēs, lai varat sākt to pārvaldību, izmantojot inženiertehnisko izmaiņu pārvaldību.</p><p>Papildinformācija: [Izmaiņu pārvaldības iespējošana esošām precēm](change-management-existing-products.md).</p> |
-| Tehniskie paziņojumi ražotājiem | <p>Kad tiek nomainīta preces inženiertehnika, ir svarīgi par šīm izmaiņām informēt ražošanas daļu. Tādējādi ražošanas darbinieki var veikt atbilstošo darbību, piemēram, aizstāt komponenti, mainīt pavadzīmi (BOM) vai maršrutu. Šis līdzeklis ļauj ziņot ražošanas daļai par izmaiņām ražotajos produktos.</p><p>Plašāku informāciju skatiet rakstā [Pārvaldīt izmaiņas tehniskajām precēm](engineering-change-management.md).</p> |
-| Uzlabota atribūtu pārmantošana tehnisko izmaiņu pārvaldībai | <p>Šis līdzeklis vienkāršo pabeigto preču vai starpproduktu atribūtus. Kad šis līdzeklis ir iespējots, ir vieglāk identificēt visus atribūtus, kuri ietilpst elementā, un varat atlasīt tos atribūtus, kurus vajadzētu izplatīt no šī elementa uz tā vecākelementu. Šis līdzeklis noder, ja, piemēram, viens pabeigtā produkta komponents ir trausls, toksisks vai uzliesmojošs, jo jūs varat viegli identificēt trauslo, toksisko vai uzliesmojošo atribūtu un izplatīt to uz pabeigto preci.</p><p>Papildinformāciju skatiet rakstā [Inženiertehniskie atribūti un inženiertehnisko atribūtu meklēšana](engineering-attributes-and-search.md).</p> |
-| Preces gatavības pārbaudes | <p>Šis līdzeklis ļauj iestatīt gatavības pārbaudes standarta (ne-tehniskajām) precēm. Lietojiet preču gatavības pārbaudes, lai pārliecinātos, ka katra prece ir pilnībā definēta un ka visas vajadzīgās politikas tiek konfigurētas, pirms prece ir padarīta pieejama un izmantota transakcijās. Atspējojot šo līdzekli pēc tā lietošanas kādu laiku, tiks dzēstas visas esošās standarta preču gatavības pārbaudes.</p><p>Papildinformāciju skatiet sadaļā [Produktu gatavība](product-readiness.md).</p> |
-| Pārvaldīt izmaiņas formulās un to komponentos | <p>Šis līdzeklis ļauj izsekot izmaiņām formulu sastāvdaļās, līdzproduktos un blakusproduktos.</p><p>Papildinformāciju skatiet [pPrvaldīt izmaiņas formulās un to sastāvdaļās](manage-formula-changes.md).</p> |
-| Tehnisko preču variantu ģenerēšana | <p>Šis līdzeklis ļauj ģenerēt tehnisko produktu variantus, pamatojoties pieejamajās dimensiju vērtībās.</p><p>Papildu informāciju skatiet rakstā [Variantu ģenerēšana inženierijas precēm](engineering-variants.md).</p> |
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,45 +1,58 @@
 ---
-title: Izveidot un iesniegt projekta budžeta darbplūsmu
+title: Projekta budžeta iesniegšana un apstiprināšana
 description: Šajā procedūrā ir parādīts, kā projektam izveidot un iesniegt budžetu.
-author: Henrikan
-ms.date: 11/22/2021
-ms.topic: article
+author: RichardLuan
+manager: tfehr
+ms.date: 08/13/2019
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
 ms.search.form: ProjProjectsListPage, ProjTable, ProjBudget, WorkflowSubmitDialog
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.search.industry: Service industries
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f410d824be717537e6dfb5dbd8b71ff7d992e0a
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
-ms.translationtype: MT
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: b871a3fef3515d3a79fb4b55406a93fc16d02faa
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860413"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018732"
 ---
-# <a name="create-and-submit-a-project-budget-workflow"></a>Izveidot un iesniegt projekta budžeta darbplūsmu
+# <a name="submit-and-approve-project-budget"></a>Projekta budžeta iesniegšana un apstiprināšana
 
 [!include [banner](../../includes/banner.md)]
 
-Veidojot projekta budžetu, varat ievadīt projekta paredzamos ieņēmumus un izmaksas un izmantot vērtības, lai kontrolētu faktiskās projekta darbības. Projekta budžeta plānam nepieciešami visi sākotnējie budžeti un pārskatījumi, lai ietu caur projekta darbplūsmu apstiprināšanai. Darbplūsma palielina budžeta plānošanas kontroli un izveido izmaiņu vēstures ierakstu. Pēc projekta [izveides izmantojiet](/dynamicsax-2012/appuser-itpro/create-a-project) šo procedūru, lai izveidotu un iesniegtu budžetu.
+Šajā procedūrā ir parādīts, kā projektam izveidot un iesniegt budžetu. 
 
-1. Dodieties **uz** > **moduļiem Projektu vadības un** > **uzskaites projekti** > **visi projekti**.
-1. Projektu sarakstā izvēlieties projektu.
-1. Projekta detalizētas informācijas lapā atlasiet cilni **Plāns**.
-1. Zem budžeta **grupas** atlasiet Projekta **budžets**.
-1. Kopsavilkuma cilnē **Vispārīgi** ievadiet tālāk norādīto informāciju.
-   - Lodziņā **Apraksts** ierakstiet vērtību.
-   - Atlasiet sākotnējā **budžeta** opciju.
-   - Atlasiet opciju **atlikušajam** budžetam.
-1. Izvērsiet kopsavilkuma **cilni Izmaksas un atlasiet** **Jauns**. Pēc tam iestatiet šādus iestatījumus:
-   - Atlasiet darbības tipa **opciju**.
-   - Atlasiet atbilstošu **kategoriju**.
-   - Ievadiet vērtību sākotnējā **budžetā**.
-1. Izvērsiet kopsavilkuma **cilni Ieņēmumi un atlasiet** **Jauns**. Pēc tam iestatiet šādus iestatījumus:
-   - Atlasiet darbības tipa **opciju**.
-   - Atlasiet **kategoriju**.
-   - Ievadiet sākotnējā **budžeta** vērtību.
-1. Atlasiet **Saglabāt**.
-1. Atlasiet **darbplūsmas \>** iesniegšanu.
-1. Lapā Pārskatīt **sākotnējo budžeta darbplūsmu —** iesniegt lapu, **ievadiet komentāru un atlasiet** **Iesniegt**.
+Kad veidojat projekta budžetu, varat ievadīt projektam prognozētos ieņēmumus un izmaksas un pēc tam tos izmantot, lai kontrolētu projekta faktiskās transakcijas. Projekta budžeta veidošanā visi sākotnējie budžeti un pārskatījumi ir jānosūta uz projekta darbplūsmu apstiprināšanai. Darbplūsma jums sniedz lielāku kontroli pār procesu un izveido izmaiņu vēstures ierakstu.
+
+Šis uzdevums tika izveidots, izmantojot uzņēmuma USSI datu kopu.
+
+1. **Navigācijas rūtī** atveriet **Moduļi > Projektu pārvaldība un uzskaite > Projekti > Visiem projekti**.
+2. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
+3. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
+4. **Darbību rūtī** noklikšķiniet uz **Plāns**.
+5. Noklikšķiniet uz **Projekta budžets**.
+6. Laukā **Apraksts** ierakstiet kādu vērtību.
+7. Izvērsiet kopsavilkuma cilni **Izmaksas**.
+8. Klikšķiniet **Jauns**.
+9. Laukā **Transakcijas veids** atlasiet kādu opciju.
+10. Laukā **Kategorija** ievadiet vai atlasiet vērtību.
+11. Laukā **Sākotnējais budžets** ievadiet kādu skaitli.
+12. Izvērsiet kopsavilkuma cilni **Ieņēmumi**.
+13. Klikšķiniet **Jauns**.
+14. Sarakstā atzīmējiet atlasīto rindu.
+15. Laukā **Transakcijas veids** atlasiet kādu opciju.
+16. Laukā **Kategorija** ievadiet vai atlasiet vērtību.
+17. Laukā **Sākotnējais budžets** ievadiet kādu skaitli.
+18. Noklikšķiniet uz **Saglabāt**.
+19. Noklikšķiniet uz **Darbplūsma**.
+20. Noklikšķiniet uz **Iesniegt**.
+21. Laukā **Komentārs** ierakstiet vērtību.
+22. Noklikšķiniet uz **Iesniegt**.
+

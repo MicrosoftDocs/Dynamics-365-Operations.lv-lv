@@ -1,31 +1,35 @@
 ---
 title: Darījumu e-pasta ziņojumu pielāgošana pēc piegādes veida
-description: Šajā tēmā aprakstīts, kā iestatīt pielāgotas e-pasta veidnes konkrētiem paziņojumu veidiem un piegādes veidiem risinājumā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā ir aprakstīts, kā iestatīt pielāgotas e-pasta veidnes noteiktiem paziņojuma tipiem un piegādes veidiem programmā Microsoft Dynamics 365 Commerce.
 author: stuharg
+manager: annbe
 ms.date: 11/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Commerce, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: d15e7c5c7050ad373cb45da72de59416e85a5f2034f7a11b007d497b2e2b98bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: faf5fba70bf9297727464e6046806696ab725001
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749911"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594981"
 ---
-# <a name="customize-transactional-emails-by-mode-of-delivery"></a>Darbību e-pasta ziņojumu pielāgošana pēc piegādes veida
+# <a name="customize-transactional-emails-by-mode-of-delivery"></a>Darījumu e-pasta ziņojumu pielāgošana pēc piegādes veida
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
-Šajā tēmā aprakstīts, kā iestatīt pielāgotas e-pasta veidnes konkrētiem paziņojumu veidiem un piegādes veidiem risinājumā Microsoft Dynamics 365 Commerce.
+Šajā tēmā ir aprakstīts, kā iestatīt pielāgotas e-pasta veidnes noteiktiem paziņojuma tipiem un piegādes veidiem programmā Microsoft Dynamics 365 Commerce.
 
 Transakciju e-pasta vēstules tagad var tikt pielāgotas kombinācijai no paziņojuma veida (piemēram, **Pasūtījums izveidots**, **Pasūtījums iepakots** vai **Pasūtījumam ir izrakstīts rēķins**) un piegādes veida (piemēram, pa nakti, savākšana no veikala vai savākšana ietves malā). Pielāgoti transakciju e-pasta ziņojumi ļauj mazumtirgotājiem nodrošināt saviem klientiem pasūtījumu izpildi, kas ir pielāgota pasūtījuma piegādes veidam. Piemēram, "pasūtījums iepakots" notikums var tikt pielāgots, lai tas nodrošinātu saņemšanas ietves malā instrukcijas debitoriem, kuri izvēlas savākšanu ietves malā. Tā var arī sniegt informāciju par pārvadājumu pārvadātāju un piegādi klientiem, kuri izvēlas nosūtīt pasūtījumu.
 
@@ -69,6 +73,3 @@ Lai konfigurētu e-pasta veidnes noteiktiem piegādes veidiem programmā Commerc
 [Zvanu centra pasūtījumu izveide](tasks/create-call-center-orders.md)
 
 [Piegādes veida mainīšana programmā POS](pos-change-delivery-mode.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

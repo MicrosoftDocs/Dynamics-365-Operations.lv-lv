@@ -1,26 +1,29 @@
 ---
 title: Veselības pārbaude POS perifērijas ierīcēm un pakalpojumiem
 description: Šajā tēmā sniegts pārskats par veselības pārbaudes darbību pārdošanas punktā (POS).
-author: BrianShook
+author: rubendel
+manager: AnnBe
 ms.date: 03/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Operations, Retail
 ms.custom: 141393
 ms.assetid: e23e944c-15de-459d-bcc5-ea03615ebf4c
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: brshoo
+ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: cd4e97b8dbfc4faf336d4ea927342fd4fa3cc7cd
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
-ms.translationtype: MT
+ms.openlocfilehash: 86f0964b6d929d0434a8bf04aaefc173bee21c6f
+ms.sourcegitcommit: d77e902b1ab436e5ff3e78c496f5a70ef38e737c
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779876"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4414174"
 ---
 # <a name="health-check-for-pos-peripherals-and-services"></a>Veselības pārbaude POS perifērijas ierīcēm un pakalpojumiem
 
@@ -32,7 +35,7 @@ ms.locfileid: "7779876"
 
 Mazumtirdzniecības veikali var būt sarežģītas vides, kur tiek izmantotas daudzas lietojumprogrammas un ierīces. Pieaugot operācijām, var būt sarežģīti nodrošināt darbību raitu norisi, piemēram, atkarībā no perifērijas ierīcēm, kas var pārtraukt vai netīši kļūt atvienotas dienas gaitā. Problēmu novēršana, kas saistītas ar ierīcēm un pakalpojumiem, var dārgi izmaksāt lielākiem komersantiem un tikpat apgrūtinoša mazākām darbībām.
 
-Programmas Microsoft Dynamics 365 Commerce versijas 10.0.10 un jaunākas ietver veselības pārbaudes operāciju, kas var palīdzēt novērst daļu no šīm izmaksām un aiztaupīt satraukumu. Šī operācija nodrošina ierīču testēšanas metodi tieši no POS ārpus parastajām operācijām. Tādēļ tas var palīdzēt mazumtirgotājiem noteikt problēmas pirms to rašanās.
+Microsoft Dynamics 365 Commerce versijas 10.0.10 un jaunākas ietver veselības pārbaudes operāciju, kas var palīdzēt novērst daļu no šīm izmaksām un aiztaupīt satraukumu. Šī operācija nodrošina ierīču testēšanas metodi tieši no POS ārpus parastajām operācijām. Tādēļ tas var palīdzēt mazumtirgotājiem noteikt problēmas pirms to rašanās.
 
 ## <a name="key-terms"></a>Galvenie termini
 
@@ -80,6 +83,3 @@ Pielāgotas veselības pārbaudes var izveidot arī, lai testētu ierīces, kas 
 ## <a name="related-articles"></a>Saistītie raksti
 
 [Mūsdienu POS trigeri un drukāšana](dev-itpro/pos-trigger-printing.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

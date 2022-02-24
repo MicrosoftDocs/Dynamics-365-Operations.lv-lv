@@ -1,82 +1,92 @@
 ---
-title: Duālā ieraksta iestatīšana no Lifecycle Services
-description: Šajā tēmā skaidrots, kā iestatīt duālo rakstīšanas savienojumu no Microsoft Dynamics pakalpojumiem Lifecycle Services (LCS).
-author: laneswenka
-ms.date: 08/03/2021
+title: Duālās rakstīšanas iestatījums no Lifecycle Services
+description: Šajā tēmā skaidrots, kā iestatīt divu rakstīšanas savienojumu starp jaunu Finance and Operations vidi un jaunu Dataverse vidi no Microsoft Dynamics Lifecycle Services (LCS).
+author: RamaKrishnamoorthy
+manager: AnnBe
+ms.date: 01/06/2020
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: ramasri
+ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 825d6a4b3462077d0f4b3f4275792ea0fe5152df
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.openlocfilehash: 25db9c58c3d09e44dcf11b48cae1a9eda4241c35
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063676"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683529"
 ---
-# <a name="dual-write-setup-from-lifecycle-services"></a>Duālā ieraksta iestatīšana no Lifecycle Services
+# <a name="dual-write-setup-from-lifecycle-services"></a>Duālās rakstīšanas iestatījums no Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [preview-banner](../../includes/preview-banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Šajā tēmā skaidrots, kā iespējot duālo rakstīšanu no Microsoft Dynamics pakalpojumiem Lifecycle Services (LCS).
+Šajā tēmā skaidrots, kā iestatīt divu rakstīšanas savienojumu starp jaunu Finance and Operations vidi un jaunu Dataverse vidi no Microsoft Dynamics Lifecycle Services (LCS).
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
-Jums jāpabeidz Power Platform integrēšana atbilstoši aprakstam šādās tēmās:
+Jums ir jābūt administratoram, lai iestatītu duālās rakstīšanas savienojumu.
 
-+ [Power Platform integrācija - Iespējot vides izvietošanas laikā](../../power-platform/enable-power-platform-integration.md#enable-during-deploy)
-+ [Power Platform integrācija - Iespējot pēc vides izvietošanas](../../power-platform/enable-power-platform-integration.md#enable-after-deploy)
++ Jums ir nepieciešama piekļuve nomniekam.
++ Jums ir jābūt administratoram gan Finance and Operations, gan Dataverse vidēs.
 
-## <a name="set-up-dual-write-for-new-dataverse-environments"></a>Iestatīt duālo rakstīšanu jaunajām Dataverse vidēm
+## <a name="set-up-a-dual-write-connection"></a>Izveidot duālās rakstīšanas savienojumu
 
-Veiciet šos soļus, lai iestatītu duālo rakstīšanu no LCS **Vides informācijas** lapas:
+Sekojiet šīm darbībām, lai iestatītu duālās rakstīšanas savienojumu.
 
-1. Lapā **Vides informācija** izvērsiet **Power Platform integrācijas** sadaļu.
+1. Dodieties uz savu projektu portālā LCS.
+2. Atlasiet **Konfigurēt**, lai izvietotu jaunu vidi.
+3. Atlasiet versiju. 
+4. Atlasiet topoloģiju. Ja ir pieejama tikai viena topoloģija, tā tiek automātiski atlasīta.
+5. Pabeidziet pirmās darbības **Izvietošanas iestatījumu** vednī.
+6. **Dataverse** cilnē sekojiet šīm darbībām:
 
-2. Atlasiet **Duālās rakstīšanas programmas** pogu.
+    - Ja Dataverse vide jau ir nodrošināta jūsu nomniekam, varat to atlasīt.
 
-    ![Power Platform integrēšana.](media/powerplat_integration_step2.png)
+        1. Iestatiet **Konfigurēt Dataverse** opciju uz **Jā**.
+        2. Laukā **Pieejamās vides** atlasiet vidi, ko integrēt ar jūsu Finance and Operations datiem. Saraksts ietver visas vides, kurās ir administratora privilēģijas.
+        3. Atzīmējiet izvēles rūtiņu **Piekrītu**, lai norādītu, ka piekrītat noteikumiem un nosacījumiem.
 
-3. Pārskatiet noteikumus un nosacījumus un atzīmējiet **Konfigurēt**.
+        ![Dataverse cilne, kad Dataverse vide jau ir nodrošināta jūsu nomniekam](../dual-write/media/lcs_setup_1.png)
 
-4. Lai turpinātu, atlasiet **Labi**.
+    - Ja nomniekam vēl nav Dataverse vide, tiks nodrošināta jauna vide.
 
-5. Jūs varat pārraudzīt progresu, periodiski atsvaidzinot vides informācijas lapu. Uzstādīšanai parasti nepieciešamas 30 minūtes vai mazāk.  
+        1. Iestatiet **Konfigurēt Dataverse** opciju uz **Jā**.
+        2. Ievadiet Dataverse vides nosaukumu.
+        3. Atlasiet reģionu, kurā izvietot vidi.
+        4. Atlasiet noklusējuma valodu un valūtu videi.
 
-6. Kad uzstādīšana ir pabeigta, ziņojums jūs informēs, vai process bija veiksmīgs vai ja tajā radās kļūme. Ja iestatīšana neizdevās, tiek parādīts saistītais kļūdas ziņojums. Kļūdas jālabo pirms pārcelšanās uz nākamo darbību.
+            > [!NOTE]
+            > Vēlāk nevarēs mainīt valodu un valūtu.
 
-7. Atlasiet **Saite uz Power Platform vidi**, lai izveidotu saiti starp Dataverse un pašreizējās vides datu bāzēm. Tas parasti aizņem mazāk kā 5 minūtes.
+        5. Atzīmējiet izvēles rūtiņu **Piekrītu**, lai norādītu, ka piekrītat noteikumiem un nosacījumiem.
 
-    :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Saite uz Power Platform vidi.":::
+        ![Dataverse cilne, kad jūsu nomniekam vēl nav Dataverse vides](../dual-write/media/lcs_setup_2.png)
 
-8. Kad saistīšana ir pabeigta, tiek parādīta hipersaite. Izmantojiet saiti, lai pieteiktos divējādas rakstīšanas administrēšanas apgabalā finanšu un operāciju vidē. No turienes varat iestatīt elementu kartējumus.
+7. Pabeidziet atlikušās darbības **Izvietošanas iestatījumu** vednī.
+8. Pēc tam, kad vides statuss ir **Izvietots**, atveriet vides informācijas lapu. **Dataverse vides informācijas** sadaļā ir redzami saistīto Finance and Operations vides un Dataverse vides nosaukumi.
 
-## <a name="set-up-dual-write-for-an-existing-dataverse-environment"></a>Iestatīt duālo rakstīšanu jau esošai Dataverse videi
+    ![Dataverse vides informācijas sadaļa](../dual-write/media/lcs_setup_3.png)
 
-Lai esošajai Dataverse videi iestatītu duālo rakstīšanu, ir jāizveido Microsoft [atbalsta biļete](../../lifecycle-services/lcs-support.md). Biļetē ir jāietver:
+9. Finance and Operations vides administratoram ir jāpiesakās portālā LCS un jāatlasa **Saite uz kompaktdiskiem lietojumprogrammām**, lai izveidotu saites. Vides informācijas lapa rāda administratora kontaktinformāciju.
 
-+ Jūsu finanšu un operāciju vides ID.
-+ Jūsu vides nosaukums no Lifecycle Services.
-+ Dataverse organizācijas ID vai Power Platform vides ID no Power Platform administrēšanas centra. Jūsu biļetē pieprasiet, lai ID tiktu izmantots Power Platform integrācijai.
+    Pēc tam, kad saite ir pabeigta, statuss tiek atjaunināts uz **Vides saistīšana ir veiksmīgi pabeigta**.
+
+10. Lai atvērtu **Datu integrācijas** darbvietu Finance and Operations vidē un kontrolētu pieejamās veidnes, izvēlieties **Saistīt ar kompaktdiskiem lietojumprogrammās**.
+
+    ![¨Saite uz kompaktdiskiem lietojumprogrammām¨ poga Dataverse vides informācijas sadaļā](../dual-write/media/lcs_setup_4.png)
 
 > [!NOTE]
-> Jūs nevarat atsaistīt vides, izmantojot portālu LCS. Lai atsaistītu vidi, atveriet **datu integrācijas** darbvietu vidē Finanses un operācijas un pēc tam atlasiet **Atsaistīt**.
-
-## <a name="linking-mismatch"></a>Saistīšanas neatbilstība
-
-Ir iespējams, ka jūsu LCS vide ir saistīta ar vienu Dataverse instanci, kamēr duālās rakstīšanas vide ir saistīta ar citu Dataverse instanci. Šī saistīšanas neatbilstība var izraisīt neparedzētu uzvedību, un tā var beigt datu nosūtīšanu uz nepareizo vidi. Ieteicamā vide, kas tiek izmantota duālajā rakstībā, ir tā, kas ir izveidota kā daļa no Power Platform integrācijas, un ilgtermiņa, tas būs vienīgais veids, kā izveidot saiti starp vidēm.
-
-Ja jūsu videi ir saistīšanas neatbilstība, LCS parāda brīdinājumu jūsu vides informācijas lapā, kas ir līdzīga "Microsoft ir noteikusi, ka jūsu vide ir saistīta, izmantojot duālo rakstiet ar citu adresātu, nevis to, kas ir norādīts Power Platform integrācijā, kas nav ieteicama":
-
-:::image type="content" source="media/powerplat_integration_mismatchLink.png" alt-text="Power Platform integrācijas saite ir neatbilstoša.":::
-
-Ja saskaraties ar šo kļūdu, pastāv divas opcijas, kas pamatotas uz jūsu vajadzībām:
-
-+ [Atsaistīt un atkārtoti saistīt dubultās rakstīšanas vides (Atiestatīt vai mainīt saistīšanu)](relink-environments.md#scenario-reset-or-change-linking), kā norādīts LCS vides informācijas lapā. Šī ir ideālā opcija, jo to varat palaist bez Microsoft atbalsta.  
-+ Ja vēlaties saglabāt saiti duālās rakstīšanas ierakstā, varat lūgt Microsoft Atbalsta dienestu palīdzību mainīt Power Platform integrāciju, lai izmantotu esošo Dataverse vidi, kā dokumentēts iepriekšējā sadaļā.  
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+> Jūs nevarat atsaistīt vides, izmantojot portālu LCS. Lai noņemtu saiti videi, atveriet **Datu integrācijas** darbvietu Finance and Operations vidē un pēc tam atlasiet **Noņemt saiti**.

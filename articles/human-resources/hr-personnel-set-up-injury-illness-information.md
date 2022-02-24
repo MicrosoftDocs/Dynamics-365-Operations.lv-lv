@@ -1,66 +1,67 @@
 ---
 title: Iestatīt savainojumu un slimību informāciju
 description: Darba devējiem ir jāzina, kad darbinieki tiek ievainoti vai saslimst, notiekot nelaimes gadījumam darbavietā.
-author: twheeloc
-ms.date: 10/28/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMInjurySetup, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 680f4cc529b6818d763730f253811a6edbe0dd76
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 117ae1d690221dbbe0cf4287a3f986cdb3606623
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070581"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419560"
 ---
 # <a name="set-up-injury-and-illness-information"></a>Iestatīt savainojumu un slimību informāciju
 
 
-[!INCLUDE [PEAP](../includes/peap-1.md)]
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+Darba devējiem ir jāzina, kad darbinieki tiek ievainoti vai saslimst, notiekot nelaimes gadījumam darbavietā. Lietojiet ievainojumu un slimību lapu, lai iestatītu informāciju, kas sekmē ziņošanai par traumām vai saslimšanu darba vietā. Varat iestatīt dažādus traumu un saslimšanu veidus, tostarp ārstēšanās, izmaksu un rezultātu veidus. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 
+1. Dodieties uz Personāla vadība > Darbinieki > Trauma un slimība > Traumu un slimību iestatīšana.
+2. Noklikšķiniet uz Jauns.
+3. Laukā Traumas vai slimības tips ievadiet kādu vērtību.
+    * Piemērs: Lūzums  
+4. Apraksta laukā ierakstiet vērtību.
+    * Piemērs: Kaula lūzums  
+5. Noklikšķiniet uz cilnes Ķermeņa daļas.
+6. Noklikšķiniet uz Jauns.
+7. Laukā Ķermeņa daļa ierakstiet kādu vērtību.
+    * Piemērs: Plaukstas locītava  
+8. Apraksta laukā ierakstiet vērtību.
+    * Piemērs: Plaukstas locītava  
+9. Noklikšķiniet uz cilnes Ārstēšanas tipi.
+10. Noklikšķiniet uz Jauns.
+11. Laukā Ārstēšanas tips ierakstiet kādu vērtību.
+    * Piemērs: Šina  
+12. Apraksta laukā ierakstiet vērtību.
+    * Piemērs: Uzlikt šinu  
+13. Noklikšķiniet uz cilnes Izmaksu tipi.
+14. Noklikšķiniet uz Jauns.
+15. Laukā Izmaksu tips ierakstiet kādu vērtību.
+    * Piemērs: Rentgenogrāfija  
+16. Apraksta laukā ierakstiet vērtību.
+    * Piemērs: Rentgenogrāfija  
+17. Noklikšķiniet uz cilnes Rezultātu tipi.
+18. Noklikšķiniet uz Jauns.
+19. Laukā Rezultāta tips ierakstiet kādu vērtību.
+    * Piemērs: Ārstēšana  
+20. Apraksta laukā ierakstiet vērtību.
+    * Piemērs: Fizioterapija  
+21. Noklikšķiniet uz cilnes Nozīmīguma līmeņi.
+    * Var izveidot pielāgojamus nozīmīguma līmeņus. Piemērs: Nozīmīgums 1 var nozīmēt nelielu traumu, bet Nozīmīgums 3 var norādīt uz nopietnu traumu.  
+22. Noklikšķiniet uz cilnes Uzraudzības iestādes.
+    * Uzraudzības iestādes ir iestādes, kurām ir jāziņo par incidentu. Atzīmējiet noklusējuma izvēles rūtiņu tai iestādei, kurai pēc noklusējuma tiek ziņots par traumām un slimībām.  
+23. Noklikšķiniet uz Saglabāt.
 
-
-Darba devējiem ir jāzina, kad viņu darbinieki gūst ievainojumus vai slimības apdraudējuma dēļ darba vietā. Jūs varat izmantot **Traumas un slimības** lapu, lai iestatītu informāciju, kas atvieglo ziņošanu par traumām vai slimībām darba vietā. Varat iestatīt dažādus traumu un saslimšanu veidus, tostarp ārstēšanās, izmaksu un rezultātu veidus. The **USMF** lai izveidotu šo procedūru, tika izmantots demonstrācijas datu uzņēmums.
-
-1. Iet uz **Cilvēku resursi** \> **Strādnieki** \> **Traumas un slimības** \> **Traumu un slimību uzstādīšana**.
-2. Atlasiet **Jauna**.
-3. Iekš **Traumas vai slimības veids** laukā ievadiet vērtību (piemēram, **Lūzums**).
-4. Iekš **Apraksts** laukā ievadiet vērtību (piemēram, **Kaulu lūzums**).
-5. Izvēlieties **Ķermeņa daļas** cilne.
-6. Atlasiet **Jauna**.
-7. Iekš **Ķermeņa daļa** laukā ievadiet vērtību (piemēram, **Plaukstas locītava**).
-8. Iekš **Apraksts** laukā ievadiet vērtību (piemēram, **Plaukstas locītava**).
-9. Izvēlieties **Ārstēšanas veidi** cilne.
-10. Atlasiet **Jauna**.
-11. Iekš **Ārstēšanas veids** laukā ievadiet vērtību (piemēram, **Šina**).
-12. Iekš **Apraksts** laukā ievadiet vērtību (piemēram, **Uzvelc šinu**).
-13. Izvēlieties **Izmaksu veidi** cilne.
-14. Atlasiet **Jauna**.
-15. Iekš **Izmaksu veids** laukā ievadiet vērtību (piemēram, **rentgenstari**).
-16. Iekš **Apraksts** laukā ievadiet vērtību (piemēram, **rentgenstari**).
-17. Izvēlieties **Rezultātu veidi** cilne.
-18. Atlasiet **Jauna**.
-19. Iekš **Rezultāta veids** laukā ievadiet vērtību (piemēram, **Terapija**).
-20. Iekš **Apraksts** laukā ievadiet vērtību (piemēram, **Fizioterapija**).
-21. Izvēlieties **Smaguma pakāpes** cilne.
-
-    Var izveidot pielāgojamus nozīmīguma līmeņus. Piemēram, 1. smaguma pakāpe var norādīt uz vieglu ievainojumu, savukārt 3. smaguma pakāpe var liecināt par smagu traumu.
-
-22. Izvēlieties **Ziņojošās aģentūras** cilne.
-
-    Ziņojošās aģentūras ir aģentūras, kurām par incidentu jāziņo. Izvēlieties **Noklusējums** izvēles rūtiņa aģentūrai, kas ir noklusējuma aģentūra, kurai jāziņo par traumām un slimībām.
-
-23. Atlasiet **Saglabāt**.
-
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

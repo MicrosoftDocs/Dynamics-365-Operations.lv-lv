@@ -2,9 +2,11 @@
 title: Pielāgotas glabāšanas vietas norādīšana ģenerētajiem dokumentiem
 description: Šajā tēmā izskaidrots, kā paplašināt elektronisko pārskatu veidošanas (Electronic Reporting — ER) formātu ģenerēto dokumentu glabāšanas vietu sarakstu.
 author: NickSelin
+manager: AnnBe
 ms.date: 10/29/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 337e760f28161721d886c7bbec09b5ff8dbfad45
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 362ac7f10cc61e26be89dfbae0e84745d42588a3
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594913"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680762"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Pielāgotas glabāšanas vietas norādīšana ģenerētajiem dokumentiem
 
@@ -27,7 +29,7 @@ Elektronisko pārskatu veidošanas (ER) struktūras lietojumprogrammas interfei
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
-Izvietojiet topoloģiju, kas atbalsta pastāvīgu būvēšanu. Papildinformāciju skatiet tēmā [Tādu topoloģiju izvietošana, kuras atbalsta pastāvīgu būvēšanu un testu automatizēšanu](/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). Jums jābūt arī piekļuvei šai topoloģijai ar vienu no tālāk minētajām lomām.
+Izvietojiet topoloģiju, kas atbalsta pastāvīgu būvēšanu. Papildinformāciju skatiet tēmā [Tādu topoloģiju izvietošana, kuras atbalsta pastāvīgu būvēšanu un testu automatizēšanu](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). Jums jābūt arī piekļuvei šai topoloģijai ar vienu no tālāk minētajām lomām.
 
 - Elektroniskā pārskata izstrādātājs
 - Elektronisko pārskatu veidošanas funkcionālais konsultants
@@ -52,7 +54,7 @@ Lai ģenerētu dokumentus, kam plānojat pievienot pielāgotu glabāšanas vietu
 5. Laukā **Formāta kartēšana** atlasiet **Pamatlīdzekļu atjaunošana**.
 6. Atlasiet **Labi**.
 
-![Izpildlaika dialoglodziņš pamatlīdzekļu atjaunošanas pārskatam.](./media/er-custom-storage-generated-files-runtime-dialog.png)
+![Izpildlaika dialoglodziņš pamatlīdzekļu atjaunošanas pārskatam](./media/er-custom-storage-generated-files-runtime-dialog.png)
 
 Programmā Microsoft Excel pārskatiet izejošo dokumentu, kas ir izveidots un pieejams lejupielādei. Šī uzvedība ir [noklusējuma uzvedība](electronic-reporting-destinations.md#default-behavior) ER formātam, kam nav konfigurēts neviens [galamērķis](electronic-reporting-destinations.md) un kas darbojas interaktīvajā režīmā.
 
@@ -114,7 +116,7 @@ class AssetRollForwardService extends SysOperationServiceBase
 
 ## <a name="modify-the-source-code"></a>Pirmkoda modificēšana
 
-1. Savā Visual Studio projektā pievienojiet jaunu klasi (šajā piemērā tā ir`AssetRollForwardDestination` ) un ierakstiet kodu, lai ieviestu savu pielāgoto galamērķi izveidotajiem **pamatlīdzekļu atjaunošanas** pārskatiem.
+1. Savā Visual Studio projektā pievienojiet jaunu klasi (šajā piemērā tā ir `AssetRollForwardDestination`) un ierakstiet kodu, lai ieviestu savu pielāgoto galamērķi izveidotajiem **pamatlīdzekļu atjaunošanas** pārskatiem.
 
     - `new()` metode ir izstrādāta, lai iegūtu sākotnējo ER galamērķa objektu un programmas loģisko parametru, kas nosaka pielāgotu atrašanās vietu, kur jāsaglabā ģenerētie pārskati. Šajā piemērā pielāgotā atrašanās vieta ir servera lokālās failu sistēmas nosaukums, kas palaiž Application Object Server (AOS) pakalpojumu.
     - Metode `saveFile()` ir izstrādāta, lai saglabātu ģenerēto dokumentu tā servera lokālās failu sistēmas mapē, kurā darbojas AOS pakalpojums.
@@ -175,7 +177,7 @@ class AssetRollForwardService extends SysOperationServiceBase
     }
     ```
 
-2. Savā Visual Studio projektā pievienojiet jaunu klasi (šajā piemērā tā ir`AssetRollForwardDestinationFactory` ) un rakstiet kodu, lai iestatītu pielāgotu galamērķa rūpnīcu, kas deleģē galamērķa izveidi noklusējuma mērķa rūpnīcai un aplauž failu galamērķī ar jūsu galamērķi.
+2. Savā Visual Studio projektā pievienojiet jaunu klasi (šajā piemērā tā ir `AssetRollForwardDestinationFactory`) un rakstiet kodu, lai iestatītu pielāgotu galamērķa rūpnīcu, kas deleģē galamērķa izveidi noklusējuma mērķa rūpnīcai un aplauž failu galamērķī ar jūsu galamērķi.
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;
@@ -255,7 +257,7 @@ class AssetRollForwardService extends SysOperationServiceBase
 3. Mainiet esošo `AssetRollForwardService` klasi un rakstiet kodu, lai iestatītu pielāgotu galamērķa rūpnīcu pārskata izpildītajam. Ievērojiet, ka tad, kad tiek veidota pielāgota galamērķa rūpnīca, tiek nodots programmas darbināts parametrs, kas norāda galamērķa mapi. Šādā veidā šī galamērķa mape tiek izmantota, lai glabātu ģenerētos failus.
 
     > [!NOTE] 
-    > Pārliecinieties, ka norādītā mape (šajā piemērā **c:\\0** ) atrodas lokālajā failu sistēmā serverī, kas palaiž AOS pakalpojumu. Pretējā gadījumā izpildlaikā tiks izmests izņēmums [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception).
+    > Pārliecinieties, ka norādītā mape (šajā piemērā **c: \\0**) atrodas lokālajā failu sistēmā serverī, kas palaiž AOS pakalpojumu. Pretējā gadījumā izpildlaikā tiks izmests izņēmums [DirectoryNotFoundException](https://docs.microsoft.com/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1).
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;
@@ -333,12 +335,9 @@ class AssetRollForwardService extends SysOperationServiceBase
 7. Pārlūkojiet vietējo mapi **C:\\0**, lai atrastu ģenerēto failu.
 
 > [!NOTE]
-> Tā kā `originDestination` objekts šajā piemērā netiek lietots `AssetRollForwardDestination` objektā, ER formāta [galamērķu](electronic-reporting-destinations.md) konfigurācijas tiks ignorētas izpildlaikā.
+> Tā kā `originDestination` objekts šajā piemērā netiek lietots `AssetRollForwardDestination`objektā, ER formāta [galamērķu](electronic-reporting-destinations.md) konfigurācijas tiks ignorētas izpildlaikā.
 
 ## <a name="additional-resources"></a>Papildu resursi
 
 - [Elektroniskās pārskatu veidošanas (ER) adresāti](electronic-reporting-destinations.md)
 - [Lietojumprogrammas Paplašināmība sākumlapa](../extensibility/extensibility-home-page.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

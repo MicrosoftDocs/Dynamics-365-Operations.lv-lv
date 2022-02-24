@@ -1,10 +1,12 @@
 ---
 title: Konta pārvaldības lapu pārskats
-description: Šajā tēmā sniegts pārskats par konta pārvaldības lapām programmā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā sniegts pārskats par konta pārvaldības lapām Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,18 +16,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b21ae257ce84034f05fa22a93a2c622ee14c0a2b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: e194004476545fb142f71aa4bd889dbbc70c6ed4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984523"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969855"
 ---
 # <a name="account-management-pages-overview"></a>Konta pārvaldības lapu pārskats
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā sniegts pārskats par konta pārvaldības lapām programmā Microsoft Dynamics 365 Commerce.
+Šajā tēmā sniegts pārskats par konta pārvaldības lapām Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Pārskats
 
 Konta pārvaldības lapas ļauj klientiem skatīt informāciju, kas saistīta ar viņu kontu un pasūtījumiem. Konta pārvaldības lapās ir ietverta konta pārvaldības mērķlapa, lapas lietotāja profilam, adresēm, pasūtījuma vēsturei, detalizētai informācijai par pasūtījumu, lojalitātes punktiem un vēlmju sarakstam.
 
@@ -35,15 +39,15 @@ Kad klients pierakstās un atlasa **Mans konts**, tiek atvērta konta pārvaldī
 
 Tālāk redzamajā attēlā ir parādīts konta pārvaldības mērķlapas piemērs.
 
-![Konta pārvaldības mērķlapas piemērs.](./media/Account-Management.PNG)
+![Konta pārvaldības mērķlapas piemērs](./media/Account-Management.PNG)
 
 ### <a name="my-profile-page"></a>Mana profila lapa
 
-Lapā **Mans profils** ir redzama informācija par klienta kontu, piemēram, vārds un tālruņa numurs. Šajā lapā klients var atjaunināt savu profila informāciju. Šo lapu var pielāgot tā, lai tā iekļauj papildu klienta konta preferences, piemēram, iespēju piekrist saņemt mārketinga e-pastus.
+Lapā **Mans profils** ir redzama informācija par klienta kontu, piemēram, viņa vai viņas vārds un tālruņa numurs. Šajā lapā klients var atjaunināt savu profila informāciju. Šo lapu var pielāgot tā, lai tā iekļauj papildu klienta konta preferences, piemēram, iespēju piekrist saņemt mārketinga e-pastus.
 
 Tālāk redzamajā attēlā ir parādīts lapas **Mans profils** piemērs, kura izveidota, izmantojot moduļu bibliotēku.
 
-![Mana profila lapas piemērs.](./media/Account-Management-MyProfile.PNG)
+![Mana profila lapas piemērs](./media/Account-Management-MyProfile.PNG)
 
 ### <a name="addresses-page"></a>Adrešu lapa
 
@@ -51,7 +55,7 @@ Lapa **Adreses** lapa ļauj klientam pievienot adreses savam kontam. Tā parāda
 
 Tālāk redzamajā attēlā ir parādīts lapas **Adreses** piemērs.
 
-![Adrešu lapas piemērs.](./media/Account-Management-Address.png)
+![Adrešu lapas piemērs](./media/Account-Management-Address.png)
 
 ### <a name="order-history-and-order-details-pages"></a>Pasūtījumu vēstures un pasūtījuma detalizētas informācijas lapas
 
@@ -59,11 +63,11 @@ Lapā **Pasūtījumu vēsture** parādīts visu to pasūtījumu apkopojums, ko k
 
 Tālāk redzamajā attēlā ir parādīts lapas **Pasūtījumu vēsture** piemērs.
 
-![Pasūtījumu vēstures lapas piemērs.](./media/Account-Management-OrderHistory.PNG)
+![Pasūtījumu vēstures lapas piemērs](./media/Account-Management-OrderHistory.PNG)
 
 Tālāk redzamajā attēlā ir parādīts lapas **Pasūtījumu detalizēta informācija** piemērs.
 
-![Pasūtījumu detalizētas informācijas lapas piemērs.](./media/Account-Management-OrderDetails.PNG)
+![Pasūtījumu detalizētas informācijas lapas piemērs](./media/Account-Management-OrderDetails.PNG)
 
 ### <a name="loyalty-program-page"></a>Lojalitātes programmas lapa
 
@@ -71,7 +75,7 @@ Lapa **Lojalitātes programma** ļauj klientam kļūt par lojalitātes programma
 
 Tālāk redzamajā attēlā parādīts lapas **Lojalitātes programma** piemērs.
 
-![Lojalitātes programmas lapas piemērs.](./media/Account-Management-Loyalty.PNG)
+![Lojalitātes programmas lapas piemērs](./media/Account-Management-Loyalty.PNG)
 
 ### <a name="wishlist-page"></a>Vēlmju saraksta lapa
 
@@ -79,7 +83,7 @@ Lapa **Vēlmju saraksts** parāda sarakstu ar precēm, ko klients pievienojis sa
 
 Tālāk redzamajā attēlā parādīts lapas **Vēlmju saraksts** piemērs.
 
-![Vēlmju saraksta lapas piemērs.](./media/Account-Management-Wishlist.PNG)
+![Vēlmju saraksta lapas piemērs](./media/Account-Management-Wishlist.PNG)
 
 Lai iegūtu vairāk informācijas par konta pārvaldības moduļiem un to, kā tos autorēt, skatiet [Konta pārvaldība](account-management.md).
 
@@ -91,6 +95,3 @@ Lai iegūtu vairāk informācijas par konta pārvaldības moduļiem un to, kā t
 
 [Pārskats par grozu un norēķināšanās lapām](quick-tour-cart-checkout.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

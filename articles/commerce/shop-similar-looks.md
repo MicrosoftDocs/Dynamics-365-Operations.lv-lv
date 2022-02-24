@@ -2,13 +2,16 @@
 title: Iespējot "pirkt līdzīgas preces" rekomendācijas
 description: Šajā tēmā aprakstīts, kā iespējot "pirkt līdzīgas preces" preču ieteikumus programmā Microsoft Dynamics 365 Commerce.
 author: bebeale
+manager: AnnBe
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,18 +19,20 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: e70365be8484d71ef9e0e9823b0a4406b0fd2761439780cafc30e1284bda1f20
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: da957850072e233a41a042d5857f81ddbf178f7a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722004"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414123"
 ---
-# <a name="enable-shop-similar-looks-recommendations"></a>Ieteikumu “pirkt līdzīgus modeļus” iespējošana
+# <a name="enable-shop-similar-looks-recommendations"></a>Iespējot "pirkt līdzīgas preces" rekomendācijas
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā aprakstīts, kā iespējot "pirkt līdzīgas preces" preču ieteikumus programmā Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Pārskats
 
 "Pirkt līdzīgas preces" ieteikumu līdzeklis Dynamics 365 Commerce izmanto mākslīgā intelekta un mašīnu mācīšanās spēku (AI-ML), lai sniegtu rekomendācijas par vizuāli līdzīgiem produktiem klientiem. Veidojot "pirkt līdzīgas preces" ieteikumus pieejamus visiem mazumtirdzniecības kanāliem Commerce, mazumtirgotāji var palielināt klientu apmierinātību, palīdzot klientiem viegli atrast to, ko viņi vēlas.
 
@@ -68,7 +73,7 @@ Lai iespējotu "pirkt līdzīgas preces" ieteikumus programmā Commerce Headquar
 
 Sekojošajā attēlā ir parādīts līdzeklis **pirkt līdzīgas preces** lapā **Līdzekļu pārvaldība** programmā Commerce Headquarters.
 
-![Pirkt līdzīgas preces līdzeklis lapā Līdzekļu pārvaldība programmā Commerce Headquarters.](./media/enableshopsimilarlooks.png)
+![Pirkt līdzīgas preces līdzeklis lapā Līdzekļu pārvaldība programmā Commerce Headquarters](./media/enableshopsimilarlooks.png)
 
 Pēc tam, kad iepriekš norādītie uzdevumi ir pabeigti, POS termināļi tiek automātiski uzlaboti ar kontekstuālu **pirkt līdzīgas preces** paneli. Atlasot **Skatīt vairāk**, POS termināļa lietotājus var aizvest uz "pirkt līdzīgas preces" lapu, ko var filtrēt tālāk.
 
@@ -88,13 +93,13 @@ Lai pievienotu pogu **Pirkt līdzīgas preces** PDP, izmantojot Commerce Site Bu
 
 Sekojošajā attēlā ir parādīta izvēles rūtiņa **Iespējot Pirkt līdzīgas preces saiti** un **Pirkt līdzīgas preces**, piemēram, PDP vietnes veidotājā.
 
-![Iespējot Pirkt līdzīgas preces saiti un Pirkt līdzīgas preces PDP vietnes veidotājā.](./media/SSLecomtooling.png)
+![Iespējot Pirkt līdzīgas preces saiti un Pirkt līdzīgas preces PDP vietnes veidotājā](./media/SSLecomtooling.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Preču ieteikumu apskats](product-recommendations.md)
 
-[Iespējojiet Azure Data Lake Storage pakalpojuma Dynamics 365 Commerce vidē](enable-adls-environment.md)
+[Iespējojiet Azure Data Lake Storage vidē Dynamics 365 Commerce](enable-adls-environment.md)
 
 [Iespējot preču ieteikumus](enable-product-recommendations.md)
 
@@ -111,6 +116,3 @@ Sekojošajā attēlā ir parādīta izvēles rūtiņa **Iespējot Pirkt līdzīg
 [Izveidot ieteikumus ar demonstrācijas datiem](product-recommendations-demo-data.md)
 
 [Bieži uzdotie jautājumi par preču ieteikumiem](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

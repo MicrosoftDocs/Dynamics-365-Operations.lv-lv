@@ -2,61 +2,55 @@
 title: Nodarbinātības pārbaudes i9 pārbaude
 description: Saskaņā ar Imigrācijas reformu un kontroles aktu (Immigration Reform and Control Act — IRCA) darba devējiem ASV ir jāpārbauda katra jaunpieņemtā darbinieka piemērotības nodarbinātībai statusu.
 author: ShielaSogge
-ms.date: 01/10/2022
+manager: AnnBe
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorker, HcmPersonIdentificationNumber, Hcmi9Document
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b76102111a8506882f2301d76856ae1a34a7c704
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: ab03e28b3e42d02395da01024bc3bcf4dbcd5abf
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065685"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798098"
 ---
 # <a name="employment-verification-i9-verification"></a>Nodarbinātības pārbaudes i9 pārbaude
 
 [!include [banner](../../../includes/banner.md)]
 
-
-[!INCLUDE [PEAP](../../../../../includes/peap-1.md)]
-
 Saskaņā ar Imigrācijas reformu un kontroles aktu (Immigration Reform and Control Act — IRCA) darba devējiem ASV ir jāpārbauda katra jaunpieņemtā darbinieka piemērotības nodarbinātībai statusu. Šajā procedūrā aprakstīts, kā pierakstīt nepieciešamos dokumentus I-9 pārbaudei. Šai procedūrai izmantojiet USMF uzņēmumu.
 
-1. Iet uz **Cilvēku resursi \> Strādnieki \> Darbinieki**.
-2. Izmantojiet līdzekli Ātrais filtrs, lai atrastu ierakstus. Piemēram, filtrējiet pēc vērtības **Vince** priekš **Vārds** lauks.
-3. Atlasiet darbinieku. Piemēram, atlasiet **Vinss Prado**.
-4. Izvēlieties **Personīgā informācija** FastTab.
-5. Izvēlieties **Identifikācijas numuri**.
-6. Atlasiet **Jauna**.
-7. Atlasiet ierakstāmā identifikācijas veidu. Piemēram, atlasiet **Pase**.
-8. Iekš **Numurs** laukā ievadiet vērtību.
-9. Iekš **Primārs** laukā atlasiet **Jā**.
-10. Iekš **Apraksts** laukā ievadiet īsu identifikācijas ieraksta aprakstu.
-11. Iekš **Izdevēja aģentūra** laukā atlasiet aģentūru, kas izsniedza darbiniekam identifikācijas veidlapu. Piemēram, atlasiet **valdība**.
-12. Ievadiet datumu, kad izdevēja iestāde izsniedza darbiniekam identifikācijas veidlapu. Piemēram, ievadiet **15.02.2011** (2011. gada 15. februāris).
-13. Ievadiet datumu, kad beidzas identifikācijas formas derīguma termiņš. Piemēram, ievadiet **15.02.2021** (2021. gada 15. februāris).
-14. Atlasiet **Saglabāt**.
+1. Pārejiet uz sadaļu Personāla vadība > Darbinieki > Darbinieki.
+2. Izmantojiet līdzekli Ātrais filtrs, lai atrastu ierakstus. Piemēram, filtrējiet pēc lauka Nosaukums, izmantojot vērtību "Vinss".
+3. Atlasiet darbinieku. Piemērs: Vinss Prado
+4. Izvērsiet kopsavilkuma cilni Personiskā informācija.
+5. Noklikšķiniet uz Identifikācijas numuri.
+6. Klikšķiniet Jauns.
+7. Atlasiet ierakstāmo identifikācijas tipu. Piemērs: pase
+8. Laukā Numurs ierakstiet kādu vērtību.
+9. Laukā Primārais atlasiet vērtību Jā.
+10. Laukā Apraksts ievadiet identifikācijas ieraksta īsu aprakstu.
+11. Izdevējiestādē atlasiet iestādi, kas izsniedza darbiniekam šo identifikācijas formu. Piemērs: valdība
+12. Ievadiet datumu, kad izdevējiestāde izsniedza darbiniekam šo identifikācijas formu. Piemērs: 15.02.2011
+13. Ievadiet datumu, kad beidzas identifikācijas formas derīguma termiņš. Piemērs: 15.02.2021
+14. Noklikšķiniet uz Saglabāt.
 15. Aizvērt lapu.
-16. Izvēlieties **Nodarbinātība** cilne.
-17. Izvēlieties **I-9**.
-18. Atlasiet **Jauna**.
-19. Iekš **Atbilstība darbam** laukā atlasiet opciju.
+16. Noklikšķiniet uz cilnes Nodarbinātība.
+17. Noklikšķiniet uz I-9.
+18. Noklikšķiniet uz Jauns.
+19. Laukā Darba atbilstība atlasiet opciju.
+    * Ja darbinieks nav Savienoto Valstu pavalstnieks vai pilsonis, jums ir jāievada darbinieka ārzemju pavalstnieka vai atļaujas numurs.  
+20. Atlasiet opciju GroupListA.
+    * Saraksts, kuru atlasījāt, ir atkarīgs no darbinieka sniegtā identifikācijas tipa. Darbiniekam ir jāsniedz viens saraksta A dokuments vai viens dokuments no saraksta B un C. Piemēram, ja darbinieks ir uzrādījis pasi, var atlasīt sarakstu A. Tomēr, ja darbinieks ir uzrādījis tikai autovadītāja apliecību un sociālās nodrošināšanas karti, tad ir jāatlasa saraksts B un C.  
+21. Laukā I-9 dokumenta tips izvēlieties darbinieka iesniegtā dokumenta tipu.
+22. Laukā Dokumenta numurs ievadiet vai atlasiet kādu vērtību.
+23. Noklikšķiniet uz Saglabāt.
 
-    Ja darbinieks nav Amerikas Savienoto Valstu pilsonis vai valstspiederīgais, jums jāievada darbinieka rezidenta ārvalstnieka vai uzņemšanas numurs.
-
-20. Izvēlieties **GroupListA** opciju.
-
-    Jūsu atlasītais saraksts ir atkarīgs no darbinieka norādītā identifikācijas veida. Darba ņēmējam ir jāiesniedz vai nu viens dokuments no saraksta A vai viens dokuments gan no saraksta B, gan saraksta C. Piemēram, ja darbinieks iesniedza pasi, varat atlasīt A sarakstu. Tomēr, ja darbinieks ir iesniedzis tikai autovadītāja apliecību un sociālo apdrošināšanu. karti, jums ir jāizvēlas saraksts B un saraksts C.
-
-21. Iekš **I-9 dokumenta veids** laukā atlasiet darbinieka iesniegtā dokumenta veidu.
-22. Iekš **Dokumenta numurs** laukā ievadiet vai atlasiet vērtību.
-23. Atlasiet **Saglabāt**.
-
-[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

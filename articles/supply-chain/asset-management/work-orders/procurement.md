@@ -1,10 +1,12 @@
 ---
 title: Sagāde
 description: Šajā tēmā ir aprakstīta sagāde Līdzekļu pārvaldībā.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderPurchaseListPagePreviewPane, EntAssetWorkOrderPurchaseListPage, EntAssetWorkOrderPurchaseLineAmountInfoPart, EntAssetWorkOrderPurchReqListPage
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2b5e160beb4743db2530b91020f21b686d84237b17cfa7ff7f0cc1da97695d08
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fce60f6ac2ac0dabe1c0ecd804a1dec1e7e373a2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743654"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020208"
 ---
 # <a name="procurement"></a>Sagāde
 
@@ -36,10 +38,10 @@ Saraksta lapā **Darba pasūtījuma pirkšanas pieprasījums** (**Līdzekļu pā
 
 Attēlā tālāk ir parādīts sarakstu lapas **Darba pasūtījumu pirkšanas pieprasījums** piemērs.
 
-![1. attēls.](media/08-work-orders.png)
+![1. attēls](media/08-work-orders.png)
 
 
-Saraksta lapā **Darba pasūtījuma pirkšana** (**Līdzekļu pārvaldība** > **Vispārīgi** > **Sagāde** > **Darba pasūtījuma pirkšana**) tiek parādīti pirkšanas pieprasījumi, kas saistīti ar darba pasūtījumiem. Kad šajā lapā atlasāt darba pasūtījuma uzdevumu, varat izmantot pogas grupā **Rādīt** **Darba pasūtījuma pirkšana** darbības rūtī, lai veiktu dažādas darbības:
+Saraksta lapā **Darba pasūtījuma pirkšana** (**Līdzekļu pārvaldība**  > **Vispārīgi** > **Sagāde** > **Darba pasūtījuma pirkšana**) tiek parādīti pirkšanas pieprasījumi, kas saistīti ar darba pasūtījumiem. Kad šajā lapā atlasāt darba pasūtījuma uzdevumu, varat izmantot pogas grupā **Rādīt** **Darba pasūtījuma pirkšana** darbības rūtī, lai veiktu dažādas darbības:
 
 - Lai atvērtu saistīto pirkšanas pasūtījumu, atlasiet **Pirkšanas pasūtījums**. 
 - Lai atvērtu saistīto darba pasūtījumu, atlasiet **Darba pasūtījums**.
@@ -47,7 +49,7 @@ Saraksta lapā **Darba pasūtījuma pirkšana** (**Līdzekļu pārvaldība** > *
 
 Attēlā tālāk ir parādīts sarakstu lapas **Darba pasūtījumu pirkšanas** piemērs.
 
-![2. attēls.](media/09-work-orders.png)
+![2. attēls](media/09-work-orders.png)
 
 
 Gan **Darba pasūtījuma pirkšanas** saraksta lapā, gan **Darba pasūtījuma pirkšanas pieprasījuma** saraksta lapā, simbols, kas ir saistīts ar saņemšanas datuma kontroli, parādās katras rindas labajā pusē. Ja simbols ir izsaukuma zīme sarkanā aplī, saistītā pirkšanas pasūtījuma vai pirkšanas pieprasījuma piegāde var tikt kavēta.
@@ -93,10 +95,7 @@ Lai skatītu vai ievadītu aktivitātes numuru, kas saistīts ar pirkšanas pas�
 
 Ilustrācijā ir redzams **Pirkšanas pasūtījuma** lapas piemērs ar uzsvaru uz **Aktivitātes numuru**.
 
-![3. attēls.](media/10-work-orders.png)
+![3. attēls](media/10-work-orders.png)
 
 Lai skatītu vai ievadītu aktivitātes numuru, kas saistīts ar Darba pasūtījuma pirkšanas pieprasījuma rindu, saraksta lapā **Darba pasūtījuma pirkšanas pieprasījums** atlasiet pirkšanas pieprasījuma ierakstu un pēc tam kolonnā **Pirkšanas pieprasījums** atlasiet saiti pirkšanas pieprasījumam. Jūs varat atrast **Aktivitātes numuru** lauku cilnē **Projekts**, kas atrodas **Rindas detaļas** kopsavilkuma cilnē.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

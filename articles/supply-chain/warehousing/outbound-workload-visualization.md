@@ -2,22 +2,24 @@
 title: Izejošās darba slodzes vizualizācija
 description: Šajā tēmā ir sniegta informācija par izejošo darba slodzes vizualizāciju. Šī funkcionalitāte ļauj noliktavas pārvaldniekiem un uzraugiem izveidot pielāgotas darba slodzes diagrammas, ko var izmantot, lai pārraudzītu pašreizējā darba norisi un atlikušo daudzumu. Noliktavas pārvaldnieki var izveidot vairākus skatījumus un iestatīt automātisko atsvaidzināšanu pēc to nepieciešamības.
 author: Mirzaab
+manager: tfehr
 ms.date: 08/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
-ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 8416d43fe2b8b08e4d66434a1d95daa4b01a0fa4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: 2515a71297df7213f93a4c619f7eebf1c2411b39
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576164"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965556"
 ---
 # <a name="outbound-workload-visualization"></a>Izejošās darba slodzes vizualizācija
 
@@ -60,7 +62,7 @@ Lai iestatītu izejošās darba slodzes vizualizāciju, veiciet šīs darbības.
     - **Dienas, kuras iekļaut** - ievadiet to dienu skaitu pagātnē, kurām ir jāģenerē diagramma.
     - **Darba pasūtījuma veids** - atlasiet izejošās darba slodzes tipus, ko filtrēt.
 
-    ![Konfigurēt filtru lapu.](media/work-viz-filters-1.png "Konfigurēt filtru lapu")
+    ![Konfigurēt filtru lapu](media/work-viz-filters-1.png "Konfigurēt filtru lapu")
 
 1. Aizveriet lapu **Konfigurēt filtrus**, lai atgrieztos lapā **Izejošās darba slodzes vizualizācijas**.
 
@@ -70,11 +72,11 @@ Lai iestatītu izejošās darba slodzes vizualizāciju, veiciet šīs darbības.
     - **Pēdējoreiz atsvaidzināts** – šis lauks rāda datumu un laiku, kad informācija diagrammā tika pēdējoreiz atjaunināta.
     - **Novērtētais/faktiskais laiks** - ja sistēmā ir iestatīti darbaspēka standarti, iestatiet šo opciju uz *Jā*, lai parādītu uzkrātos paredzamos izdošanas laikus katras diagrammas kolonnas sākumā. Ja neizmantojat darba standartus, šī opcija nav pieejama.
 
-    ![Vizualizācijas piemērs.](media/work-viz-chart.png "Vizualizācijas piemērs")
+    ![Vizualizācijas piemērs](media/work-viz-chart.png "Vizualizācijas piemērs")
 
 1. Atlasiet jebkuru stabiņu diagrammā, lai skatītu saistīto informāciju par darbu rindu.
 
-    ![Detalizēta darba rindas informācija.](media/work-viz-work-details.png "Detalizēta darba rindas informācija")
+    ![Detalizēta darba rindas informācija](media/work-viz-work-details.png "Detalizēta darba rindas informācija")
 
 ## <a name="example-outbound-workload-visualization-for-zones"></a>Piemērs: Izejošās darba slodzes vizualizācija zonām
 
@@ -92,9 +94,6 @@ Lai iestatītu izejošās darba slodzes vizualizāciju, veiciet šīs darbības.
 
 Tālāk redzamajā attēlā ir parādīts iegūtās diagrammas piemērs.
 
-![Zona pret darba statusa vizualizāciju.](media/work-viz-chart.png "Zona pret darba statusa vizualizāciju")
+![Zona pret darba statusa vizualizāciju](media/work-viz-chart.png "Zona pret darba statusa vizualizāciju")
 
 Šajā diagrammā tiek rādītas divas zonas ar nosaukumu **GRĪDA** un **LIELAPJOMA**, kā arī zona ar nosaukumu **Tukšs**. **Tukšajā** zonā attēlotas visas darba rindas, kas nav nevienas zonas dalībnieki. Diagramma vienmēr parāda visus nesaistītos filtrētos datus kā **Tukšus**, lai nodrošinātu pēc iespējas lielāku redzamību. **GRĪDAS** zonā diagramma rāda trīs slēgtas rindas un četras atvērtās rindas. **LIELAPJOMA** zonā diagramma rāda četras slēgtas rindas, vienu atvērtu rindu un 24 atceltās rindas. Visbeidzot diagramma rāda astoņas slēgtas rindas, kas nav daļa no nevienas zonas, tāpēc ir uzskaitītas kā **Tukšas**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

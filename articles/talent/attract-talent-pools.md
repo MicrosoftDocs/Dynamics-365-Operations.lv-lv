@@ -149,6 +149,3 @@ Bieži vien vēlaties saglabāt iespēju sazināties ar piemērotiem kandidātie
 1. Pieteikuma lapā atlasiet **Pievienot potenciālo kandidātu kopai**. Tiek parādīts to potenciālo kandidātu kopu saraksts, kurām varat piekļūt.
 
 1. Atlasiet vai meklējiet potenciālo kandidātu kopu un pēc tam atlasiet **Pievienot**, lai pievienotu kandidātu konkrētajai potenciālo kandidātu kopai.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

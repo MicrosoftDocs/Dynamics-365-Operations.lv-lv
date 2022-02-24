@@ -1,33 +1,31 @@
 ---
 title: Atlīdzības organizācijas izstrāde
-description: Šajā tēmā aprakstīts, kā izveidot fiksētu atlīdzības plānu un reǵistrēt darbiniekus plānam, izmantojot piemērotības kārtulas.
-author: twheeloc
-ms.date: 08/25/2021
+description: Šajā rakstā aprakstīts, kā izveidot fiksētas atlīdzības plānu un pieteikt nodarbinātos plānā, izmantojot piemērotības kārtulas.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/10/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPart, HRMCompFixedPlanTable, HRMCompCreateGridDialog, HRCCompGridView, HRMCompEligibility,  HRCCompGrid
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2e35f4978cc4e8162c56ba05de28ab5b2366ccc7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 124d0f7f83feebabf622f00732c25bfa0f6eccdd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065290"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419574"
 ---
 # <a name="develop-a-compensation-structure"></a>Atlīdzības organizācijas izstrāde
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Šajā tēmā aprakstīts, kā izveidot fiksētu atlīdzības plānu un reǵistrēt darbiniekus plānam, izmantojot piemērotības kārtulas. Šajā rakstā tiek izmantoti USMF demonstrācijas dati, un tie attiecas uz atlīdzību un atvieglojumu pārvaldniekiem.
+Šajā rakstā aprakstīts, kā izveidot fiksētas atlīdzības plānu un pieteikt nodarbinātos plānā, izmantojot piemērotības kārtulas. Šajā rakstā tiek izmantoti USMF demonstrācijas dati, un tie attiecas uz kompensāciju un atvieglojumu pārvaldniekiem.
 
 ## <a name="create-a-fixed-compensation-plan"></a>Fiksētās atlīdzības plāna izveide
 
@@ -115,6 +113,3 @@ Varat piešķirt fiksētas atlīdzības plānu nodarbinātajam, līdz plānam ir
 
 8. Aizvērt lapu.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

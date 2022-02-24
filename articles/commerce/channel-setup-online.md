@@ -1,31 +1,37 @@
 ---
-title: Tiešsaistes kanāla iestatīšana
-description: Šajā tēmā aprakstīts, kā izveidot jaunu tiešsaistes kanālu risinājumā Microsoft Dynamics 365 Commerce.
+title: Tiešsaistes veikala iestatīšana
+description: Šajā tēmā aprakstīts, kā izveidot jaunu tiešsaistes kanālu programmā Microsoft Dynamics 365 Commerce.
 author: samjarawan
-ms.date: 02/04/2022
+manager: annbe
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f32872fcc27e2e74300c4f18dfa08d666e4ad8a8
-ms.sourcegitcommit: fefe93f3f44d8aa0b7e6d54cc4a3e5eca6e64feb
-ms.translationtype: MT
+ms.openlocfilehash: 07225d97af76ea665fa28362cc205c6e8dc4fdf4
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092116"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4414201"
 ---
-# <a name="set-up-an-online-channel"></a>Tiešsaistes kanāla iestatīšana
+# <a name="set-up-an-online-channel"></a>Tiešsaistes veikala iestatīšana
+
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aprakstīts, kā izveidot jaunu tiešsaistes kanālu risinājumā Microsoft Dynamics 365 Commerce.
+Šajā tēmā aprakstīts, kā izveidot jaunu tiešsaistes kanālu programmā Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Pārskats
 
 Dynamics 365 Commerce atbalsta vairākus mazumtirdzniecības kanālus. Šie mazumtirdzniecības kanāli ietver tiešsaistes veikalus, zvanu centrus un mazumtirdzniecības veikalus (zināmi arī kā fiziskie veikali). Tiešsaistes veikali dod klientiem iespēju papildus mazumtirdzniecības veikaliem iegādāties produktus arī no mazumtirgotāja tiešsaistes veikala.
 
@@ -52,23 +58,19 @@ Lai izveidotu un konfigurētu jaunu tiešsaistes kanālu, veiciet tālāk norād
 
 Tālāk redzamajā attēlā parādīta jauna tiešsaistes kanāla izveide.
 
-![Jauns tiešsaistes kanāls.](media/channel-setup-online-1.png)
+![Jauns tiešsaistes kanāls](media/channel-setup-online-1.png)
 
 Tālāk redzamajā attēlā ir parādīts tiešsaistes kanāla piemērs.
 
-![Tiešsaistes kanāla piemērs.](media/channel-setup-online-2.png)
-
-## <a name="assign-the-channel-to-a-commerce-scale-unit"></a>Piešķiriet kanālu komercdarbības mēroga vienībai
-
-Jūsu jaunais kanāls ir jāpiešķir tirdzniecības mēroga vienībai. Norādījumus sk [Konfigurējiet kanālus, lai izmantotu Commerce Scale Unit](../fin-ops-core/dev-itpro/deployment/initialize-retail-channels.md#configure-channels-to-use-commerce-scale-unit).
+![Tiešsaistes kanāla piemērs](media/channel-setup-online-2.png)
 
 ## <a name="set-up-languages"></a>Valodu iestatīšana
 
-Ja jūsu e-komercijas vietne atbalstīs vairākas valodas, izvērsiet **Valodas** sadaļu un pēc vajadzības pievienojiet papildu valodas.
+Ja e-Commerce vietne atbalstīs vairākas valodas, izvērsiet sadaļu **Valodas** un pievienojiet papildu valodas pēc nepieciešamības.
 
 ## <a name="set-up-payment-account"></a>Maksājuma konta iestatīšana
 
-Sadaļā **Maksājumu konts** varat pievienot trešās puses maksājuma nodrošinātāju. Papildinformāciju par Adyen maksājumu savienotāja iestatīšanu skatiet sadaļā [Dynamics 365 maksājumu savienotājs pakalpojumam Adyen](./dev-itpro/adyen-connector.md).
+Sadaļā **Maksājumu konts** varat pievienot trešās puses maksājuma nodrošinātāju. Papildinformāciju par Adyen maksājumu savienotāja iestatīšanu skatiet sadaļā [Dynamics 365 maksājumu savienotājs pakalpojumam Adyen](../retail/dev-itpro/adyen-connector.md).
 
 ## <a name="additional-channel-setup"></a>Papildu kanāla iestatīšana
 
@@ -76,7 +78,7 @@ Papildu uzdevumi, kas nepieciešami tiešsaistes kanāla iestatīšanai, ietver 
 
 Tālāk esošajā attēlā ir parādītas cilnes **Iestatīšana** iestatīšanas opcijas **Piegādes veidi**, **Maksāšanas metodes** un **Izpildes grupas piešķires**.
 
-![Papildu tiešsaistes kanāla iestatīšanas darbības.](media/channel-setup-online-3.png)
+![Papildu tiešsaistes kanāla iestatīšanas darbības](media/channel-setup-online-3.png)
 
 ### <a name="set-up-payment-methods"></a>Iestatīt maksājuma metodes
 
@@ -91,7 +93,7 @@ Lai iestatītu maksājuma metodes, katram šajā kanālā atbalstītajam maksāj
 
 Tālāk esošajā attēlā ir parādīts skaidras naudas maksājuma piemērs.
 
-![Maksājumu metožu piemērs.](media/channel-setup-retail-5.png)
+![Maksājumu metožu piemērs](media/channel-setup-retail-5.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Iestatiet piegādes veidus
 
@@ -105,7 +107,7 @@ Lai mainītu vai pievienotu piegādes veidu, rīkojieties, kā norādīts tālā
 
 Tālāk redzamajā attēlā parādīts piegādes režīma piemērs.
 
-![Iestatiet piegādes veidus.](media/channel-setup-retail-7.png)
+![Iestatiet piegādes veidus](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-a-fulfillment-group-assignment"></a>Izpildes grupas piešķires iestatīšana
 
@@ -119,19 +121,16 @@ Lai iestatītu izpildes grupas piešķiri, veiciet tālāk norādītās darbība
 
 Tālāk redzamajā attēlā parādīts izpildes grupas piešķires piemērs.
 
-![Izpildes grupas piešķires iestatīšana.](media/channel-setup-retail-9.png)
+![Izpildes grupas piešķires iestatīšana](media/channel-setup-retail-9.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Kanālu apskats](channels-overview.md)
 
-[Kanāla iestatīšanas priekšnosacījumi](channels-prerequisites.md)
+[Kanālu iestatīšanas priekšnosacījumi](channels-prerequisites.md)
 
 [Mazumtirdzniecības kanāla iestatīšana](channel-setup-retail.md)
 
 [Zvanu centra kanāla iestatīšana](channel-setup-callcenter.md)
 
-[Dynamics 365 maksājumu savienotājs pakalpojumam Adyen](./dev-itpro/adyen-connector.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Dynamics 365 maksājumu savienotājs pakalpojumam Adyen](../retail/dev-itpro/adyen-connector.md)

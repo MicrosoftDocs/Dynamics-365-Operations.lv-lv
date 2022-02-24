@@ -2,13 +2,16 @@
 title: Zvanu centra pasūtījumu aizturēšanas konfigurēšana un darbs ar to
 description: Šajā tēmā ir aprakstīts, kā strādāt ar pasūtījumu aizturēšanu, izmantojot Dynamics 365 Commerce.
 author: josaw1
+manager: AnnBe
 ms.date: 05/14/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: MCRHoldCodeTable, MCRSalesTableOrderHistory, MCRHoldCodeTrans, MCROrderEventSetup, MCROrderEventTable
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 79132
 ms.assetid: 7c00dc35-73e5-400a-8587-22f37ddfc0e0
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f474b5936f2ae154ad54185becd91865642e8efe3cf10e7dcdbb650c6c833b21
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b11dd48ac629910a82b4d5bfdf9889809b0d829d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762600"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414066"
 ---
 # <a name="configure-and-work-with-call-center-order-holds"></a>Zvanu centra pasūtījumu aizturēšanas konfigurēšana un darbs ar to
 
@@ -35,7 +38,7 @@ Lai izmantotu zvanu centra pasūtījumu aizturēšanas funkcijas, vispirms ir j�
 
 Lai norādītu, kāda tipa piezīme tiks saglabāta, kad lietotāji, kas aiztur pārdošanas pasūtījumu, ievada papildu piezīmes, dodieties uz **Debitoru parādi** \> **Iestatījumi** \> **Debitoru parādu parametri** un pēc tam kopsavilkuma cilnes **Pārdošanas iestatījumi** cilnē **Vispārīgi** iestatiet lauku **Piezīmes veids**. Izmantojiet lauku **Pārdošanas pasūtījuma statuss “Aizturēts”**, lai definētu krāsu, kas tiks izmantota, lai iezīmētu pārdošanas pasūtījumus, kas ir aizturēti, kad tie tiek aplūkoti lapā **Klientu apkalpošana**.
 
-Lai izveidotu aizturēšanas iemeslu kodu papildu kopu, dodieties uz **Mazumtirdzniecība un komercija** \> **Kanāla iestatīšana** \> **Informācijas kodi**. Šos informācijas kodus var izmantot kā sekundāro iemesla kodu, lai papildus definētu galveno aizturēšanas kodu. Atlasiet **Jauns**, lai izveidotu iemeslu kodu kopu, un pēc tam atlasiet **Apakškodi**, lai definētu papildu iemeslu sarakstu. Lai saistītu definētos informācijas kodus ar zvanu centra kanālu, dodieties uz **Retail un Commerce** \> **Kanāli** \> **Zvanu centri** \> **Visi zvanu centri**. Kopsavilkuma cilnē **Vispārīgi** iestatiet lauku **Aizturēšanas kods**.
+Lai izveidotu aizturēšanas iemeslu kodu papildu kopu, dodieties uz **Retail un Commerce** \> **Kanāla iestatīšana** \> **Informācijas kodi**. Šos informācijas kodus var izmantot kā sekundāro iemesla kodu, lai papildus definētu galveno aizturēšanas kodu. Atlasiet **Jauns**, lai izveidotu iemeslu kodu kopu, un pēc tam atlasiet **Apakškodi**, lai definētu papildu iemeslu sarakstu. Lai saistītu definētos informācijas kodus ar zvanu centra kanālu, dodieties uz **Retail un Commerce** \> **Kanāli** \> **Zvanu centri** \> **Visi zvanu centri**. Kopsavilkuma cilnē **Vispārīgi** iestatiet lauku **Aizturēšanas kods**.
 
 ## <a name="putting-orders-on-hold"></a>Pasūtījumu aizturēšana
 
@@ -53,7 +56,7 @@ Pēc tam, kad aizturēšanas informācija ir ievadīta un saglabāta, lietotājs
 
 Ja zvanu centra kanālā ir ieslēgts karodziņš **Iespējot pasūtījuma pabeigšanu**, pasūtījumam, kas ir aizturēts, nav jāpiemēro maksājums. Turpretim tāda pārdošanas pasūtījuma gadījumā, kas nav aizturēts, lietotāji nevar aizvērt pārdošanas pasūtījuma ievades lapu, līdz tiek piemērots maksājums. Maksājums būs nepieciešams, pirms pasūtījuma aizturēšanas noņemšanas.
 
-Turklāt zvanu centra lietotāji var noteikt manuālu aizturēšanu pārkāpuma dēļ pasūtījumiem, kas ir aizdomīgi kāda iemesla dēļ. Pasūtījumiem var arī noteikt aizturēšanu automātiski, ja tie atbilst aktīviem pārkāpuma kritērijiem un kārtulām. Plašāku informāciju par šāda veida pasūtījuma aizturēšanu skatiet sadaļā [Pārkāpumu brīdinājumu iestatīšana](/dynamics365/unified-operations/retail/set-up-fraud-alerts).
+Turklāt zvanu centra lietotāji var noteikt manuālu aizturēšanu pārkāpuma dēļ pasūtījumiem, kas ir aizdomīgi kāda iemesla dēļ. Pasūtījumiem var arī noteikt aizturēšanu automātiski, ja tie atbilst aktīviem pārkāpuma kritērijiem un kārtulām. Plašāku informāciju par šāda veida pasūtījuma aizturēšanu skatiet sadaļā [Pārkāpumu brīdinājumu iestatīšana](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-fraud-alerts).
 
 ## <a name="viewing-and-managing-orders-that-are-on-hold"></a>Aizturētu pasūtījumu skatīšana un pārvaldīšana
 
@@ -100,6 +103,3 @@ Ja lietotāji vēlas dzēst aizturi, bet veikt papildu izmaiņas pasūtījumā, 
 ## <a name="reporting-options"></a>Pārskatu veidošanas opcijas
 
 Dodieties uz **Retail un Commerce** \> **Pieprasījumi un pārskati** \> **Zvanu centra pārskati** \> **Pasūtījumu aizturēšanas pārskats**, lai veidotu pārskatu par aizturētiem pasūtījumiem pēc datumu diapazona, aizturēšanas koda vai citiem saistītajiem kritērijiem.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

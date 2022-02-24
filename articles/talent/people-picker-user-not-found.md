@@ -60,6 +60,3 @@ Pievērsiet uzmanību lietotāja rekvizītam **UserType**. Ja rekvizīts **UserT
 ```
 PS C:\>Set-AzureADUser -ObjectId "testUpn@tenant.com" -UserType Member
 ```
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

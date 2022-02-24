@@ -80,6 +80,3 @@ Daudzās organizācijās atlīdzības un atvieglojumu pārvaldnieki var piekļū
 
 ###  <a name="platform-update-24-for-finance-and-operations"></a>Platform update 24 for Finance and Operations
 Papildinformāciju par atjauninājumu Platform update 24 sistēmai Finance and Operations skatiet [Jaunumi un izmaiņas Finance and Operations Platform update 24 (2019. gada marts)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -52,6 +52,3 @@ Ir veiktas izmaiņas, lai brīdī, kad tiek beigta amata piešķire darbiniekam,
 
 ### <a name="new-entity-created-for-job-compensation-levels"></a>Jauna darba atlīdzības līmeņu elementa izveide
 Ir izveidots jauns datu pārvaldības struktūras (data management framework — DMF) elements. Šis elements sniedz iespēju izveidot un atjaunināt katra sistēmā definētā darba atlīdzības līmeņus, tirgus vērtības un aptauju informāciju.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

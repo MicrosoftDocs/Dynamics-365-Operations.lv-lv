@@ -2,12 +2,15 @@
 title: Bieži uzdotie jautājumi par palaišanu
 description: Šajā tēmā uzskaitīti bieži uzdotie jautājumi par to, kā sākt strādāt ar Dynamics 365 Human Resources ieviešanas projektu.
 author: rachel-profitt
+manager: tfehr
 ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -15,21 +18,16 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c449ae6eb84fb4150072c386d02b100ca3cca219
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: cbf00f7428c9b1852a5bf54fd7e30a3bddc1a31e
+ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067230"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4668949"
 ---
 # <a name="go-live-faq"></a>Bieži uzdotie jautājumi par palaišanu 
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šajā tēmā uzskaitīti bieži uzdotie jautājumi par to, kā sākt strādāt ar Dynamics 365 Human Resources ieviešanas projektu. 
 
@@ -46,11 +44,11 @@ Kad kvalificētie debitori ir šajā posmā, Microsoft FastTrack darba grupa str
 
 ## <a name="what-are-the-prerequisites-to-deploying-a-production-environment"></a>Kādi ir priekšnosacījumi ražošanas vides izvietošanai? 
 
-Priekšnosacījumu sarakstu skatiet tēmā [Sagatavošanās darba sākšanai](hr-admin-go-live-prepare.md). 
+Priekšnosacījumu sarakstu skatiet tēmā  [Sagatavošanās darba sākšanai](hr-admin-go-live-prepare.md). 
 
 ## <a name="what-is-a-go-live-assessment"></a>Kas ir darba sākšanas novērtējums?  
 
-Darba sākšanas novērtējums ir daļa no [Microsoft FastTrack programmas](/dynamics365/fasttrack/). Šīs pārskatīšanas laikā risinājuma arhitekts izvērtē, vai ieviešanas projekts ir gatavs veiksmīgai pārslēgšanai un darba sākšanai. Šī pārskatīšana ir obligāta katram ieviešanas projektam, pirms varat pieprasīt sākt darbu ražošanas vidē. 
+Darba sākšanas novērtējums ir daļa no  [Microsoft FastTrack programmas](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview). Šīs pārskatīšanas laikā risinājuma arhitekts izvērtē, vai ieviešanas projekts ir gatavs veiksmīgai pārslēgšanai un darba sākšanai. Šī pārskatīšana ir obligāta katram ieviešanas projektam, pirms varat pieprasīt sākt darbu ražošanas vidē. 
 
 ## <a name="our-sandbox-environments-are-deployed-in-the-central-us-datacenter-we-want-our-production-environments-to-be-deployed-in-the-west-us-datacenter-can-i-select-west-us-as-the-datacenter-in-my-production-configuration"></a>Mūsu smilškastes vides ir izvietotas centrālajā ASV datu centrā. Mēs vēlamies, lai mūsu ražošanas vides tiktu izvietotas ASV Rietumu datu centros. Vai es varu atlasīt ASV Rietumus kā datu centru savā ražošanas konfigurācijā? 
 
@@ -58,7 +56,7 @@ LCS neierobežo iespēju atlasīt citu datu centru, kad izvietojat Human Resourc
 
 Ja vēlaties, lai jūsu ražošanas vide būtu ASV Rietumu datu centrs, vispirms atkārtoti izvietojiet savas smilšu vides ASV Rietumu datu centrā, pārbaudiet tās un izrakstieties. 
 
-Informāciju par pareizā datu centra atlasīšanu skatiet tēmā [Tīkla prasības](../fin-ops-core/fin-ops/get-started/system-requirements.md#network-requirements). 
+Informāciju par pareizā datu centra atlasīšanu skatiet tēmā [Tīkla prasības](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/system-requirements#network-requirements). 
 
 ## <a name="what-level-of-access-do-i-have-to-the-azure-resources-for-my-human-resources-environments"></a>Kāda līmeņa piekļuve man ir Azure resursiem manās Human Resources vidēs?  
 
@@ -66,9 +64,9 @@ Piekļuve Human Resources vidēm ir ierobežota. Jūs nevarat piekļūt virtuāl
 
 Lai gan nevarat piekļūt saviem Azure resursiem vai Dynamics 365 Human Resources videi tieši, ir papildu līdzekļi, ko varat izmantot, lai piekļūtu saviem datiem:
 
-- Azure SQL datu bāzi varat izvietot savā Azure nomniekā un izmantot līdzekli Savas datu bāzes izmantošana (BYOD), lai sinhronizētu datus. Plašāku informāciju skatiet tēmā [Savas datu bāzes izmantošana (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md).
+- Azure SQL datu bāzi varat izvietot savā Azure nomniekā un izmantot līdzekli Savas datu bāzes izmantošana (BYOD), lai sinhronizētu datus. Plašāku informāciju skatiet tēmā [Savas datu bāzes izmantošana (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database).
 
-- Varat izmantot Dataverse integrāciju, lai sinhronizētu atlases elementus Dataverse datu bāzē. Papildinformāciju skatiet šeit: [Dataverse tabulas](hr-developer-entities.md). 
+- Varat izmantot Common Data Service integrāciju, lai sinhronizētu atlases elementus Common Data Service datu bāzē. Plašāku informāciju skatiet sadaļā [Common Data Service elementi](hr-developer-entities.md). 
 
 ## <a name="how-often-is-my-production-database-backed-up"></a>Cik bieži mana ražošanas datu bāze tiek dublēta? 
 
@@ -82,11 +80,11 @@ Datu bāzes tiek aizsargātas ar automātisko dublēšanu šādā biežumā:
 
 Microsoft saglabā pietiekamu dublēšanu, lai nodrošinātu punkta laikā atjaunošanu (PITR) pēdējo 14 dienu laikā. 
 
-Plašāku informāciju skatiet [Uzzināt par automātisko SQL datu bāzu dublēšanu](/azure/azure-sql/database/automated-backups-overview?tabs=single-database). 
+Plašāku informāciju skatiet  [Uzzināt par automātisko SQL datu bāzu dublēšanu](https://docs.microsoft.com/azure/azure-sql/database/automated-backups-overview?tabs=single-database). 
 
 ## <a name="can-i-request-a-copy-of-the-backup-of-my-production-database"></a>Vai varu pieprasīt manas ražošanas datu bāzes dublējuma kopiju? 
 
-Nr.p.k. Tomēr varat iesniegt datu bāzes atsvaidzināšanas pakalpojuma pieprasījumu, lai iekopētu ražošanas vidi savā smilškastes vidē. Azure SQL datu bāzi varat izvietot savā Azure nomniekā un izmantot līdzekli BYOD, lai sinhronizētu datus no savas ražošanas vides. Plašāku informāciju skatiet tēmā [Savas datu bāzes izmantošana (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md). 
+Nr.p.k. Tomēr varat iesniegt datu bāzes atsvaidzināšanas pakalpojuma pieprasījumu, lai iekopētu ražošanas vidi savā smilškastes vidē. Azure SQL datu bāzi varat izvietot savā Azure nomniekā un izmantot līdzekli BYOD, lai sinhronizētu datus no savas ražošanas vides. Plašāku informāciju skatiet tēmā [Savas datu bāzes izmantošana (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database). 
 
 ## <a name="how-do-i-move-my-sandbox-environment-to-production-for-go-live"></a>Kā es varu pārvietot savu smilškastes vidi uz ražošanu darba sākšanai? 
 
@@ -96,11 +94,8 @@ Mēs iesakām uzturēt skaidru to elementu sarakstu, kas konfigurēti jūsu smil
 
 ## <a name="what-should-i-do-if-my-production-environment-is-down"></a>Ko darīt, ja mana ražošanas vide nedarbojas? 
 
-Lai ziņotu par ražošanas pārtraukumu, izpildiet procesu, kas aprakstīts tēmā [Ziņošana par ražošanas pārtraukumu](../fin-ops-core/dev-itpro/lifecycle-services/report-production-outage.md). 
+Lai ziņotu par ražošanas pārtraukumu, izpildiet procesu, kas aprakstīts tēmā  [Ziņošana par ražošanas pārtraukumu](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/report-production-outage). 
 
  ## <a name="see-also"></a>Skatiet arī
 
  [Sagatavošana publicēšanai](hr-admin-go-live-prepare.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

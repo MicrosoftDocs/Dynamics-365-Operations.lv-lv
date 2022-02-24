@@ -1,8 +1,6 @@
-- name: Atbalsta sniegšanas pārtraukšana programmai Dynamics 365 Talent
-  href: ../human-resources/hr-talent-retire.md?toc=/dynamics365/talent/toc.json
+- name: Dynamics 365 for Talent
+  href: talent-welcome.md
   items:
-    - name: Dynamics 365 Talent sākumlapa
-      href: ./index.md
     - name: Darba sākšana
       items:
         - name: Darba sākšana ar Talent
@@ -153,7 +151,7 @@
         - name: Datu eksportēšana no Attract un Onboard
           href: attract-onboard-export-data.md
         - name: Power Apps pamatnes programmu iegulšana
-          href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json
+          href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Atbalsta saņemšana saistībā ar Talent
           href: talent-support.md
     - name: 'Organizācijas personāla pārvaldība, izmantojot Attract'

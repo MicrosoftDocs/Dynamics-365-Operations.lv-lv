@@ -1,33 +1,31 @@
 ---
 title: Atvieglojumu plāna izveide
-description: Šajā rakstā ir parādīts, kā iestatīt atvieglojumu plānus Dynamics 365 Human Resources.
-author: twheeloc
-ms.date: 08/23/2021
+description: Iestatiet atvieglojumu plānus Dynamics 365 Human Resources.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitPlanListPage, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7d3163bf30af9ed0eac2c753ed4aabb15d568ff4
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: bcbf4c1a7f136e5563bf1210b6c09228dad95dea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065330"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419500"
 ---
-# <a name="create-a-benefit-plan"></a>Izveidot atvieglojumu plānu
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+# <a name="create-a-benefits-plan"></a>Atvieglojumu plāna izveide
 
 Šajā rakstā ir parādīts, kā iestatīt atvieglojumu plānus Dynamics 365 Human Resources.
 
@@ -46,8 +44,9 @@ ms.locfileid: "8065330"
    | **Programma** | Norāda programmu, kam pēc izvēles piešķirt plānu. |
    | **Komplekts** | Norāda komplektu, kam pēc izvēles piešķirt plānu. |
    | **Šablons** | Norāda, vai plāns ir vispārējais plāns komplektā, kuram tas ir piešķirts. |
+   | **Statuss** | Norāda atvieglojumu plāna pašreizējo statusu. Noklusējuma vērtība ir Aktīvs. Ja maināt statusu uz Neaktīvs, plāns nebūs pieejams kā atlase reģistrācijas laikā. |
    | **Derīguma sākuma datums un laiks** | Datums un laiks, kurā plāns tik uzsākts. Noklusējuma vērtība ir pašreizējais sistēmas datums. |
-   | **Derīguma beigu datums un laiks** | Datums un laiks, kurā plāns tik pabaigts. Noklusējuma vērtība ir 12/31/2154, kas nozīmē nekad. |
+   | **Derīguma beigu datums un laiks** | Datums un laiks, kad plāns beidzas (statuss ir iestatīts uz Neaktīvs). Noklusējuma vērtība ir 12/31/2154, kas nozīmē nekad. |
 
 4. Atkarībā no izveidojamā plāna veida cilnē **Konfigurācija** nosakiet vērtības tālāk minētajiem laukiem.
 
@@ -55,18 +54,18 @@ ms.locfileid: "8065330"
    | --- | --- | --- |
    | Ārstniecības (ārstniecība, zobārstniecība, redze, HMO) | COBRA | Norāda, vai plāns ir piemērots Konsolidētajam vispārējā budžeta saskaņošanas likumam (Consolidated Omnibus Budget Reconciliation Act — COBRA). |
    | Ārstniecības (ārstniecība, zobārstniecība, redze, HMO) | HIPAA | Norāda, vai plāns ir piemērots Veselības apdrošināšanas pārnesamības un uzskaitāmības likumam (Health Insurance Portability and Accountability Act — HIPPA). |
-   | Ārstniecības (ārstniecība, zobārstniecība, redze, HMO)<br><br>Citi (PTO, Fitness)<br><br>Citas<br><br>Ilgstoša invaliditāte<br><br>ADD (pamata dzīvības apdrošināšana, brīvprātīgā dzīvības apdrošināšana)<br><br>Ietaupījumi (piemēram, 401(k))<br><br>FSA | Piemērots priekšnodoklis | Norāda, vai plāna var veikt iemaksas pirms nodokļu piemērošanas. |
-   | Ārstniecības (ārstniecība, zobārstniecība, redze, HMO)<br><br>Citi (PTO, Fitness)<br><br>Ilgstoša invaliditāte<br><br>ADD (pamata dzīvības apdrošināšana, brīvprātīgā dzīvības apdrošināšana)<br><br>Ietaupījumi (piemēram, 401(k))<br><br>FSA | Grāmatot piemērotu nodokli | Norāda, vai plāna var veikt iemaksas pēc nodokļu piemērošanas. |
-   | Ārstniecības (ārstniecība, zobārstniecība, redze, HMO)<br><br>Citi (PTO, Fitness)<br><br>Ilgstoša invaliditāte<br><br>ADD (pamata dzīvības apdrošināšana, brīvprātīgā dzīvības apdrošināšana)<br><br>Ietaupījumi (piemēram, 401(k))<br><br>FSA | Līdzstrādnieks | Norāda, kurš veic iemaksas plānā — darbinieks, darba devējs vai abi. |
-   | Ilgstoša invaliditāte<br><br>ADD (pamata dzīvības apdrošināšana, brīvprātīgā dzīvības apdrošināšana) | Minimālā vajadzība | Minimālā apdrošināšanas seguma summa, kas nepieciešama plānam. |
-   | Ilgstoša invaliditāte<br><br>ADD (pamata dzīvības apdrošināšana, brīvprātīgā dzīvības apdrošināšana) | Maksimālā vajadzība | Maksimālā apdrošināšanas seguma summa, kas nepieciešama plānam. |
-   | Ilgstoša invaliditāte<br><br>ADD (pamata dzīvības apdrošināšana, brīvprātīgā dzīvības apdrošināšana) | Izmantot vajadzību pieaugumu | Norāda, vai apstiprināt, ka seguma summa atbilst derīgai pieauguma soļa summai. |
-   | Ilgstoša invaliditāte<br><br>ADD (pamata dzīvības apdrošināšana, brīvprātīgā dzīvības apdrošināšana) | Inkrementālā summa | Plānam paredzētā apdrošināšanas seguma pieauguma soļa summa. Piemēram, ja pieauguma soļa summa ir 1000, darbiniekam nevar būt $ 200 500 vērta apdrošināšana, tā jānoapaļo uz augšu līdz $ 201 000 vai uz leju līdz $ 200 000. |
-   | Ilgstoša invaliditāte<br><br>ADD (pamata dzīvības apdrošināšana, brīvprātīgā dzīvības apdrošināšana) | Inkrementāls virziens | Norāda noapaļošanas virzienu — uz augšu vai uz leju, kad vajadzības summa neatbilst inkrementālās summas vērtībai. |
+   | <ul><li>Ārstniecības (ārstniecība, zobārstniecība, redze, HMO)</li><li>Citi (PTO, Fitness)</li><li>Citas</li><li>Ilgstoša invaliditāte</li><li>ADD (pamata dzīvības apdrošināšana, brīvprātīgā dzīvības apdrošināšana)</li><li>Ietaupījumi (piemēram, 401(k))</li><li>FSA</li></ul> | Piemērots priekšnodoklis | Norāda, vai plāna var veikt iemaksas pirms nodokļu piemērošanas. |
+   | <ul><li>Ārstniecības (ārstniecība, zobārstniecība, redze, HMO)</li><li>Citi (PTO, Fitness)</li><li>Ilgstoša invaliditāte</li><li>ADD (pamata dzīvības apdrošināšana, brīvprātīgā dzīvības apdrošināšana)</li><li>Ietaupījumi (piemēram, 401(k))</li><li>FSA</li></ul> | Grāmatot piemērotu nodokli | Norāda, vai plāna var veikt iemaksas pēc nodokļu piemērošanas. |
+   | <ul><li>Ārstniecības (ārstniecība, zobārstniecība, redze, HMO)</li><li>Citi (PTO, Fitness)</li><li>Ilgstoša invaliditāte</li><li>ADD (pamata dzīvības apdrošināšana, brīvprātīgā dzīvības apdrošināšana)</li><li>Ietaupījumi (piemēram, 401(k))</li><li>FSA</li></ul> | Līdzstrādnieks | Norāda, kurš veic iemaksas plānā — darbinieks, darba devējs vai abi. |
+   | <ul><li>Ilgstoša invaliditāte</li><li>ADD (pamata dzīvības apdrošināšana, brīvprātīgā dzīvības apdrošināšana)</li></ul> | Minimālā vajadzība | Minimālā apdrošināšanas seguma summa, kas nepieciešama plānam. |
+   | <ul><li>Ilgstoša invaliditāte</li><li>ADD (pamata dzīvības apdrošināšana, brīvprātīgā dzīvības apdrošināšana)</li></ul> | Maksimālā vajadzība | Maksimālā apdrošināšanas seguma summa, kas nepieciešama plānam. |
+   | <ul><li>Ilgstoša invaliditāte</li><li>ADD (pamata dzīvības apdrošināšana, brīvprātīgā dzīvības apdrošināšana)</li></ul> | Izmantot vajadzību pieaugumu | Norāda, vai apstiprināt, ka seguma summa atbilst derīgai pieauguma soļa summai. |
+   | <ul><li>Ilgstoša invaliditāte</li><li>ADD (pamata dzīvības apdrošināšana, brīvprātīgā dzīvības apdrošināšana)</li></ul> | Inkrementālā summa | Plānam paredzētā apdrošināšanas seguma pieauguma soļa summa. Piemēram, ja pieauguma soļa summa ir 1000, darbiniekam nevar būt $ 200 500 vērta apdrošināšana, tā jānoapaļo uz augšu līdz $ 201 000 vai uz leju līdz $ 200 000. |
+   | <ul><li>Ilgstoša invaliditāte</li><li>ADD (pamata dzīvības apdrošināšana, brīvprātīgā dzīvības apdrošināšana)</li></ul> | Inkrementāls virziens | Norāda noapaļošanas virzienu — uz augšu vai uz leju, kad vajadzības summa neatbilst inkrementālās summas vērtībai. |
    | ADD (pamata dzīvības apdrošināšana, brīvprātīgā dzīvības apdrošināšana) | Apdrošināšanas apliecinājums | Norāda, vai darbiniekam ir jāpierāda atbilstība apdrošināšanai. |
    | ADD (pamata dzīvības apdrošināšana, brīvprātīgā dzīvības apdrošināšana) | Apjoms | Uzskaites valūtas summa. Šis lauks ir aktīvs tikai tad, ja ir atlasīta izvēles rūtiņa Atbilstība apdrošināšanai. |
-   | Ietaupījumi (piemēram, 401(k))<br><br>FSA | Minimālais gada ieguldījums | Minimālā iemaksu summa, kas nepieciešama plānam. |
-   | Ietaupījumi (piemēram, 401(k))<br><br>FSA | Maksimālais gada ieguldījums | Maksimālā iemaksu summa, kas nepieciešama plānam. |
+   | <ul><li>Ietaupījumi (piemēram, 401(k))</li><li>FSA</li></ul> | Minimālais gada ieguldījums | Minimālā iemaksu summa, kas nepieciešama plānam. |
+   | <ul><li>Ietaupījumi (piemēram, 401(k))</li><li>FSA</li></ul> | Maksimālais gada ieguldījums | Maksimālā iemaksu summa, kas nepieciešama plānam. |
    | Ietaupījumi (piemēram, 401(k)) | Darba devēja maksimālā gada summa | Maksimālā summa, ko darba devējam atvieglojumu periodā ļauts iemaksāt darbinieka uzkrājumu plānā. Lai lietotu šo lauku, jāatzīmē izvēles rūtiņa Darba devēja atbilstība. |
    | Ietaupījumi (piemēram, 401(k)) | Darba devēja atbilstība | Norāda, vai darba devējs veic iemaksas darbinieka uzkrājumu plānā. |
    | Ietaupījumi (piemēram, 401(k)) | Darba devēja atbilstības procentuālā vērtība | Darbinieka iemaksu procentuālā vērtība, kam atbildīs darba devējs. |
@@ -121,7 +120,7 @@ Varat skatīt reģistrētos nodarbinātos, kas reģistrēti atlasītajiem atvieg
 
 1. Darbvietā **Atvieglojumu pārvaldība**, sadaļā **Plāni** atlasiet **Atvieglojumu plāni**.
 
-2. Navigācijas joslas cilnē **Priekšrocības** atlasiet **Reģistrētie darbinieki**.
+2. Atlasiet **Reģistrētie nodarbinātie**.
 
 ## <a name="attach-coverage-options"></a>Pievienot vajadzību opcijas
 
@@ -129,7 +128,7 @@ Atlasītajam atvieglojumu plānam varat pievienot seguma opcijas. Seguma opciju 
 
 1. Darbvietā **Atvieglojumu pārvaldība**, sadaļā **Plāni** atlasiet **Atvieglojumu plāni**.
 
-2. Navigācijas joslas cilnē **Priekšrocības** atlasiet **Pārklājuma opciju pievienošana**.
+2. Atlasiet **Pievienot seguma opcijas**.
 
 ## <a name="override-eligibility-rules"></a>Piemērotības kārtulas ignorēšana
 
@@ -137,7 +136,7 @@ Varat pievienot plānam nodarbinātos kā izņēmumu no piemērotības kārtulā
 
 1. Darbvietā **Atvieglojumu pārvaldība**, sadaļā **Plāni** atlasiet **Atvieglojumu plāni**.
 
-2. Navigācijas joslas cilnē **Priekšrocības** atlasiet **Piemērotības kārtulas pārlabošana**.
+2. Atlasiet **Piemērotības kārtulas ignorēšana**.
 
 ## <a name="view-attached-periods"></a>Pievienoto periodu skatīšana
 
@@ -145,21 +144,18 @@ Varat redzēt pieejamo atvieglojumu periodu sarakstu.
 
 1. Darbvietā **Atvieglojumu pārvaldība**, sadaļā **Plāni** atlasiet **Atvieglojumu plāni**.
 
-2. Atlasiet cilni **Periodi** navigācijas joslā.
+2. Atlasiet **Periodi**.
 
-## <a name="view-plan-description"></a>Skatiet plāna plaprakstu
+## <a name="view-plan-information"></a>Plāna informācijas skatīšana
 
-Varat norādīt plāna aprakstu, lai palīdzētu darbiniekiem izvēlēties atvieglojumus. Plāna apraksts, ko ievadāt šeit, tiek parādīta darbinieku pašapkalpošanās pakalpojumā, uzbīdot kursoru uz plāna seguma opciju sarakstā.
+Varat norādīt plāna aprakstu, lai palīdzētu darbiniekiem izvēlēties atvieglojumus. Plāna informācija, ko ievadāt šeit, tiek parādīta darbinieku pašapkalpošanās pakalpojumā, uzbīdot kursoru uz plāna seguma opciju sarakstā.
 
 1. Darbvietā **Atvieglojumu pārvaldība**, sadaļā **Plāni** atlasiet **Atvieglojumu plāni**.
 
-2. Navigācijas joslas cilnē **Priekšrocības** atlasiet **Plāna apraksts**.
+2. Atlasiet **Plāna informācija**.
 
 ## <a name="view-flex-credit-programs"></a>Skatīt brīvā režīma kredītu programmas
 
 1. Darbvietā **Atvieglojumu pārvaldība**, sadaļā **Plāni** atlasiet **Atvieglojumu plāni**.
 
-2. Navigācijas joslas cilnē **Priekšrocības** atlasiet **Brīvā režīma kredītprogrammas**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+2. Atlasiet **Brīvā režīma kredīta programmas**.

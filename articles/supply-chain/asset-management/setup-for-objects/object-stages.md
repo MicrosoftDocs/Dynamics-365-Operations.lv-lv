@@ -1,10 +1,12 @@
 ---
 title: Līdzekļu dzīves cikla stāvokļi
 description: Šajā tēmā ir paskaidroti līdzekļu dzīves cikla stāvokļi un dzīves cikla modeļi Līdzekļu pārvaldībā.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetLifecycleModelStateNext, EntAssetObjectLifecycleState, EntAssetLifecycleStateUpdate, EntAssetObjectLifecycleModel
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55139c6458e569b15518f0f11f1c12c3a26cae2f26c6a2046a7ebdc1277cb144
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dffedfafd9d75320accf0e27f072bab6fd51f135
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722467"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016556"
 ---
 # <a name="asset-lifecycle-states"></a>Līdzekļu dzīves cikla stāvokļi
 
@@ -61,12 +63,9 @@ Kad esat izveidojis nepieciešamos līdzekļa dzīves cikla stāvokļus, varat i
 
 5. Kopsavilkuma cilnē **Dzīves cikla stāvokļi** atlasiet līdzekļa dzīves cikla stāvokļus, kuri būtu jāiekļauj līdzekļa dzīves cikla modelī:
 
-    - Lai modelim izmantotu dzīves cikla stāvokli, atlasiet to sadaļā **Atlikušie dzīves cikla stāvokļi** un pēc tam atlasiet bultiņas pa labi pogu ![Bultiņa pa labi.](media/15-setup-for-objects.png) Lai pārvietotu to uz sadaļu **Atlasītie dzīves cikla stāvokļi**.
-    - Lai modelim izmantotu visus pieejamos dzīves cikla stāvokļus, atlasiet pogu **Visi pieejamie dzīves cikla stāvokļi** ![Visi pieejamie dzīves cikla stāvokļi.](media/20-setup-for-objects.png). Visi dzīves cikla stāvokļi tiek nosūtīti uz sadaļu **Atlasītie dzīves cikla stāvokļi**.
-    - Lai no modeļa noņemtu dzīves cikla stāvokli, atlasiet to sadaļā **atlasītie dzīves cikla stāvokļi** un pēc tam atlasiet bultiņas pa kreisi pogu ![Bultiņa pa kreisi.](media/16-setup-for-objects.png) Lai pārvietotu to uz sadaļu **Atlikušie dzīves cikla stāvokļi**.
+    - Lai modelim izmantotu dzīves cikla stāvokli, atlasiet to sadaļā **Atlikušie dzīves cikla stāvokļi** un pēc tam atlasiet bultiņas pa labi pogu ![Bultiņa pa labi](media/15-setup-for-objects.png), lai pārvietotu to uz sadaļu **Atlasītie dzīves cikla stāvokļi**.
+    - Lai modelim izmantotu visus pieejamos dzīves cikla stāvokļus, atlasiet pogu **Visi pieejamie dzīves cikla stāvokļi** ![Visi pieejamie dzīves cikla stāvokļi](media/20-setup-for-objects.png). Visi dzīves cikla stāvokļi tiek nosūtīti uz sadaļu **Atlasītie dzīves cikla stāvokļi**.
+    - Lai modelim noņemtu dzīves cikla stāvokli, atlasiet to sadaļā **Atlasītie dzīves cikla stāvokļi** un pēc tam atlasiet bultiņas pa kreisi pogui ![Bultiņa pa kreisi](media/16-setup-for-objects.png), lai pārvietotu to uz sadaļu **Atlikušie dzīves cikla stāvokļi**.
 
 6. Atlasiet **Dzīves cikla stāvokļa atjauninājumi**, lai definētu, kuri līdzekļa dzīves cikla stāvokļi var sekot atlasītajam dzīves cikla stāvoklim.
 7. Izmantojiet kopsavilkuma cilni **Līdzekļa stāvoklis**, ja apstrādat līdzekļus, kurus saņemat remontam. Sadaļā **Ienākošais/Izejošais** varat atlasīt līdzekļa dzīves cikla stāvokļus, lai norādītu remontam saņemtā līdzekļa darbplūsmu. Ja piedāvājat patapinājuma līdzekļus debitoriem vai nodaļām, sadaļā **Patapinājums** varat atlasīt dzīves cikla stāvokļus patapinājuma līdzekļiem.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

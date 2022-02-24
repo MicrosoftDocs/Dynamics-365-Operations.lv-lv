@@ -2,13 +2,16 @@
 title: Preču personalizētu ieteikumu iespējošana
 description: Šajā tēmā ir aprakstīts, kā padarīt personalizētus preču ieteikumus pieejamus klientiem risinājumā Microsoft Dynamics 365 Commerce.
 author: bebeale
+manager: AnnBe
 ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,18 +19,20 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 74bf2c96d744b8101151be9288a956d46ce3b6885f0cb593dc1b78728b018fb4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a61ef0720839d371701f2f0a1fdec7e85a5feb7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770961"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414021"
 ---
 # <a name="enable-personalized-recommendations"></a>Personalizētu ieteikumu iespējošana
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā ir aprakstīts, kā padarīt personalizētus preču ieteikumus pieejamus klientiem risinājumā Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Pārskats
 
 Sistēmā Dynamics 365 Commerce mazumtirgotāji var padarīt personalizētus produktu ieteikumus (sauktus arī par personalizēšanu) pieejamus. Šādā veidā personificētus ieteikumus var iekļaut klientu tiešsaistes pieredzē un pārdošanas punktā (POS). Kad personalizācijas funkcionalitāte ir ieslēgta, sistēma var saistīt lietotāja pirkuma un preces informāciju, lai ģenerētu individualizētus preces ieteikumus.
 
@@ -50,7 +55,7 @@ Lai aktivizētu personalizāciju, veiciet tālāk minētās darbības.
 1. Atlasiet līdzekli **Personalizēto preču ieteikumi**.
 1. **Personalizēto preču ieteikumi** rekvizītu rūtī atlasiet **Iespējot tagad**.
 
-![Personalizācijas aktivizēšana.](./media/FeatureManagement_Personalized.PNG)
+![Personalizācijas aktivizēšana](./media/FeatureManagement_Personalized.PNG)
 
 > [!NOTE]
 > Ieslēdzot personalizāciju, tiek sākts personalizētu preču ieteikumu saraksta ģenerēšanas process. Var tikt pieprasīta līdz vienai dienai, pirms šie saraksti ir pieejami un redzami tiešsaistē un POS.
@@ -73,7 +78,7 @@ Pirms "ieteikumu" sarakstu var parādīt jebkurā e-komercijas lapā, ir jāizpi
 
 Sekojošajā attēlā ir parādīts saraksts "ieteikumu" saraksts tiešsaistes veikala lapā.
 
-![Tiešsaistes "ieteikumu" saraksts.](./media/picksforyou.png)
+![Tiešsaistes "ieteikumu" saraksts](./media/picksforyou.png)
 
 ### <a name="recommended-for-customer-lists-at-the-pos"></a>"Klientu ieteikumu" saraksti POS
 
@@ -81,7 +86,7 @@ Lai uzlabotu savu klientu apkalpošanas pieredzi, mazumtirgotāji var personaliz
 
 Sekojošajā attēlā ir parādīts "klientu ieteikumu" saraksts POS terminālī.
 
-![Klientu ieteikumu saraksts POS.](./media/picksonpos.png)
+![Klientu ieteikumu saraksts POS](./media/picksonpos.png)
 
 ## <a name="apply-personalization-to-existing-recommendation-lists"></a>Lietot personalizāciju esošajiem ieteikumu sarakstiem
 
@@ -89,7 +94,7 @@ Mazumtirgotāji var piemērot personalizāciju esošajiem ieteikumu sarakstiem, 
 
 Piemēram, pierakstījies lietotājs jau ir iegādājies melnu rokaspulksteni un brūnus darba zābakus, kas parādās "populāri-noklusējuma" sarakstā nākamajā attēlā. Tāpēc lietotājs redzēs jaunas preces, nevis šīs preces, kā norādīts sarakstā "populāri — personalizēts".
 
-![Personalizācijas piemērošana.](./media/applypersonalization.png)
+![Personalizācijas piemērošana](./media/applypersonalization.png)
 
 Lai piemērotu personalizāciju esošam rekomendāciju sarakstam Commerce vietnes noformētājā, rīkojieties šādi.
 
@@ -99,7 +104,7 @@ Lai piemērotu personalizāciju esošam rekomendāciju sarakstam Commerce vietne
 1. Dialoglodziņā **Atlasīt preču saraksta konfigurāciju** sadaļā **Veids** atlasiet saraksta veidu.
 1. Atzīmējiet izvēles rūtiņu **Piemērot personalizāciju** un pēc tam atlasiet **Labi**.
 
-    ![Personalizācijas piemērošana populāru preču sarakstam.](./media/ApplyPersonalizationToTrending.PNG)
+    ![Personalizācijas piemērošana populāru preču sarakstam](./media/ApplyPersonalizationToTrending.PNG)
 
 1. Saglabājiet lapu, pabeidziet to rediģēt un publicējiet to. Kad lapa ir publicēta, pierakstītie lietotāji redzēs personalizētus populāru preču sarakstus.
 
@@ -107,7 +112,7 @@ Lai piemērotu personalizāciju esošam rekomendāciju sarakstam Commerce vietne
 
 [Preču ieteikumu apskats](product-recommendations.md)
 
-[Iespējojiet Azure Data Lake Storage pakalpojuma Dynamics 365 Commerce vidē](enable-adls-environment.md)
+[Iespējojiet Azure Data Lake Storage vidē Dynamics 365 Commerce](enable-adls-environment.md)
 
 [Iespējot preču ieteikumus](enable-product-recommendations.md)
 
@@ -126,6 +131,3 @@ Lai piemērotu personalizāciju esošam rekomendāciju sarakstam Commerce vietne
 [Izveidot ieteikumus ar demonstrācijas datiem](product-recommendations-demo-data.md)
 
 [Bieži uzdotie jautājumi par preču ieteikumiem](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

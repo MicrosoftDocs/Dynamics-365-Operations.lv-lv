@@ -2,9 +2,11 @@
 title: Statistisko dimensiju elementu un statistisko mēru nodrošinātāju veidnes
 description: Šajā tēmā ir sniegta informācija par statistisko dimensiju elementu un statistisko mēru nodrošinātāju veidnēm. Statistiskos dimensiju elementus var izmantot kā sadalījuma pamatu politikās, piemēram, izmaksu sadalē un izmaksu sadalījumā. Tos var izmantot arī, lai izveidotu izmaksu patēriņa pārskatu beznaudas vērtībām.
 author: AndersGirke
+manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate, CAMAXStatisticalMeasureProviderConfiguration, CAMStatisticalDimensionMember, CAMDataConnectorStatisticalMeasure, CAMImportedStatisticalMeasure, CAMImportedStatisticalMeasureProviderConfiguration
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c79451a5145a6e419ae0e332c67f06ca2df65996f959333a508dbf62dbf435ff
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 79e8bf0714871ffd342bb6053153e6e4d0f5c668
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767651"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969457"
 ---
 # <a name="provider-templates-for-statistical-dimension-members-and-measure-providers"></a>Statistisko dimensiju elementu un statistisko mēru nodrošinātāju veidnes
 
@@ -158,9 +160,9 @@ Pēc statistikas mērījumu avota datu apstrādes modulī Izmaksu uzskaite tiek 
 | 31.01.2017.      | 2,00      | FTE                | Pilnas slodzes darbinieki | CC002       |
 | 31.01.2017.      | 2,00      | FTE                | Pilnas slodzes darbinieki | CC003       |
 
-**Statistikas ieraksti**
+**Statistiskie ieraksti**
 
-| Izmaksu objekts |  Apraksts  | Uzskaites datums | Statisko dimensiju elements |  Apraksts        | Lielums |
+| Izmaksu objekts |    | Uzskaites datums | Statisko dimensiju elements |  Apraksts        | Lielums |
 |-------------|----|-----------------|------------------------------|---------------------|-----------|
 | CC001       | HR | 31.01.2017.      | FTE                         | Pilnas slodzes darbinieki | 1,00      |
 | CC002       | FI | 31.01.2017.      | FTE                         | Pilnas slodzes darbinieki | 2,00      |
@@ -326,7 +328,7 @@ Lai izveidot relāciju, dodieties uz **Izmaksu uzskaites virsgrāmata** \> **Fak
 
 **Statistikas ieraksti**
 
-| Izmaksu objekts | Apraksts | Uzskaites datums | Statisko dimensiju elements |      Apraksts                   | Lielums  |
+| Izmaksu objekts |    | Uzskaites datums | Statisko dimensiju elements |      Apraksts                   | Lielums  |
 |-------------|----|-----------------|------------------------------|-------------------------|------------|
 | CC001       | HR | 31.01.2017.      | Elektrība                  | Elektroenerģijas patēriņš | 2,450.00   |
 | CC002       | FI | 31.01.2017.      | Elektrība                  | Elektroenerģijas patēriņš | 4,100.00   |
@@ -334,15 +336,12 @@ Lai izveidot relāciju, dodieties uz **Izmaksu uzskaites virsgrāmata** \> **Fak
 
 Ja iepriekš definētais dimensijas elementa sadalījuma pamats Elektrība ir piešķirts kā sadalījuma pamats izmaksu sadales nosacījumā, izmaksas tiek sadalītas, izmantojot šādu sadalījuma koeficientu.
 
-| Izmaksu objekts | Apraksts   | Lielums | Sadalījuma koeficients          |
-|-------------|---------------|-----------|----------------------------|
-| CC001       | HR            | 2,450.00  | (2450 ÷ 21 550) × Summa  |
-| CC002       | FI            | 4,100.00  | (4100 ÷ 21 550) × Summa  |
-| CC003       | KrP            | 15,000.00 | (15 000 ÷ 21 550) × Summa |
+| Izmaksu objekts |    | Lielums | Sadalījuma koeficients          |
+|-------------|----|-----------|----------------------------|
+| CC001       | HR | 2,450.00  | (2450 ÷ 21 550) × Summa  |
+| CC002       | FI | 4,100.00  | (4100 ÷ 21 550) × Summa  |
+| CC003       | KrP | 15,000.00 | (15 000 ÷ 21 550) × Summa |
 
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Sadalījuma pamati](allocation-bases.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

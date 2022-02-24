@@ -2,29 +2,34 @@
 title: Uzdevumu pārvaldības konfigurēšana
 description: Šajā tēmā ir aprakstīts, kā konfigurēt uzdevumu pārvaldības līdzekļus sistēmā Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 0ae0f3bd58db587d9024beceedd790cc3d3e4ee990a2f4c727dfda96b2f0785c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9a4775c2dba2b9aa8e671ab6c246000303b3a37e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730807"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414115"
 ---
 # <a name="configure-task-management"></a>Uzdevumu pārvaldības konfigurēšana
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā ir aprakstīts, kā konfigurēt uzdevumu pārvaldības līdzekļus sistēmā Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Pārskats
 
 Pirms Dynamics 365 Commerce vadītāji un nodarbinātie var lietot uzdevumu pārvaldības līdzekļus pakalpojumā Commerce, ir jākonfigurē uzdevumu pārvaldība. Konfigurēšanas darbības ietver atļauju piešķiršanu vadītājiem un darbiniekiem, izplatot atļaujas pārdošanas punkta (POS) klientiem, iestatot POS paziņojumus un konfigurējot elementu **Uzdevumi** POS programmas sākumlapā.
 
@@ -44,7 +49,7 @@ Lai konfigurētu uzdevumu pārvaldības atļaujas veikala pārvaldniekiem, veici
 
 Šajā attēlā parādīts, kā konfigurēt uzdevumu pārvaldības atļaujas veikala pārvaldniekiem.
 
-![Uzdevumu pārvaldības atļauju konfigurēšana veikala vadītājiem.](media/HQ-POS-Tasks-Notifications-User-Permission.png)
+![Uzdevumu pārvaldības atļauju konfigurēšana veikala vadītājiem](media/HQ-POS-Tasks-Notifications-User-Permission.png)
 
 ## <a name="configure-permissions-for-employees"></a>Atļauju konfigurēšana nodarbinātajiem
 
@@ -78,7 +83,7 @@ Lai konfigurētu POS paziņojumus uzdevumiem, veiciet šīs darbības.
 
 Šajā attēlā redzama operācija **Uzdevumu pārvaldība** lapā **POS operācijas**.
 
-![Uzdevumu pārvaldības operācija POS operāciju lapā.](media/HQ-POS-Tasks-Notifications.png)
+![Uzdevumu pārvaldības operācija POS operāciju lapā](media/HQ-POS-Tasks-Notifications.png)
 
 Plašāku informāciju par to, kā konfigurēt POS paziņojumus, skatiet sadaļā [Pasūtījuma paziņojumu rādīšana pārdošanas punktā (POS)](notifications-pos.md).
 
@@ -95,7 +100,7 @@ Lai konfigurētu elementu **Uzdevumi** POS programmas sākumlapā, veiciet šīs
 
 Šajā attēlā parādīts elementa **Uzdevumi** piemērs POS sākumlapā.
 
-![Uzdevumu elements POS sākumlapā.](media/POS-home-screen-tasks-button-image.png)
+![Uzdevumu elements POS sākumlapā](media/POS-home-screen-tasks-button-image.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
@@ -106,6 +111,3 @@ Lai konfigurētu elementu **Uzdevumi** POS programmas sākumlapā, veiciet šīs
 [Uzdevumu sarakstu piešķiršana veikaliem vai darbiniekiem](task-mgmt-assign-lists.md)
 
 [Uzdevumu pārvaldība punktā POS](task-mgmt-POS.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

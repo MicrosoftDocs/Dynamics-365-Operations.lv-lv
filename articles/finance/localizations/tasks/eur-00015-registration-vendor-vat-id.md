@@ -2,23 +2,26 @@
 title: EUR-00015 Kreditora PVN ID reģistrēšana
 description: Šajā procedūrā parādīts, kā pievienot PVN reģistrācijas ID un nodokli, izņemot numuru kreditora kontam.
 author: v-oloski
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTable, LogisticsPostalAddress, RegNumTaxIdLookup
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f53cde5a8e976a1a01a5f6688c8a4f986d5317ab5acba98a47abb724982b6e8b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5126868038801091c7a9c17eee78e31db322cbb7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735430"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408277"
 ---
 # <a name="eur-00015-registration-of-vendor-vat-id"></a>EUR-00015 Kreditora PVN ID reģistrēšana
 
@@ -61,6 +64,3 @@ Lai veiktu šo procedūru, jums ir jāiestata PVN ID. Šī procedūra attiecas u
 25. Laukā PVN reģistrācijas numurs ievadiet vai atlasiet kādu vērtību.
 26. Noklikšķiniet uz Saglabāt.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

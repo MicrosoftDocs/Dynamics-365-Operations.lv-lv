@@ -1,31 +1,34 @@
 ---
 title: Ražošanas plūsmas modeļu definēšana
-description: Ražošanas plūsmas modeļi apraksta, kā tiek aprēķināta un uzturēta lean ražošanas procesa darba šūnu noslodze.
-author: johanhoffmann
+description: Ražošanas plūsmas modeļi apraksta, kā tiek aprēķināta un uzturēta lean manufacturing darba šūnu noslodze.
+author: cvocph
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlowModel
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6fb12be6f744cee8af3a845d6b278d1f1462ec5d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 511c466d6019cb182c9ada0b02172b8eeb3725e6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579140"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432479"
 ---
 # <a name="define-production-flow-models"></a>Ražošanas plūsmas modeļu definēšana
 
 [!include [banner](../../includes/banner.md)]
 
-Ražošanas plūsmas modeļi apraksta, kā tiek aprēķināta un uzturēta lean ražošanas procesa darba šūnu noslodze. Tādēļ ražošanas plūsmas modeļa definēšana ir darba šūnu definēšanas priekšnosacījums. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
+Ražošanas plūsmas modeļi apraksta, kā tiek aprēķināta un uzturēta lean manufacturing darba šūnu noslodze. Tādēļ ražošanas plūsmas modeļa definēšana ir darba šūnu definēšanas priekšnosacījums. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 
 
 ## <a name="define-a-production-flow-model"></a>Definējiet ražošanas plūsmas modeli. 
@@ -43,6 +46,3 @@ Ražošanas plūsmas modeļi apraksta, kā tiek aprēķināta un uzturēta lean 
 8. Laukā Noslodzes nepietiekamības sekas atlasiet kādu opciju.
     * Opcijas ir šādas: Atlikt — plānošanas notikuma viss pieprasījums tiek atlikts līdz nākamajai pieejamajai ražošanas dienai ar pieejamu caurlaidi. Atcelt — plānošanas notikuma automātiskā plānošana tiek pārtraukta un saistītie darbi tiek atstāti neplānoti.   Pievienot pieprasītajai dienai — pieprasītie darbi tiek plānoti pieprasītajā periodā. Tas rada šūnas pārslodzi attiecīgajai dienai, plānotājam ir jāveic pārskatīšana un ir nepieciešama manuāla iejaukšanās.   Sadalīt pieejamajos periodos — dažādi plānošanas notikuma darbi tiek sadalīti visās pieejamajās ražošanas dienās, sākot ar pirmo pieejamo dienu. Minimālais sadales daudzums ir Kanban darba daudzums. Sadalē tiek piešķirts minimālais plānošanas daudzums (Kanban daudzums) katrai dienai, kurā ir pieejama pietiekama caurlaide.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

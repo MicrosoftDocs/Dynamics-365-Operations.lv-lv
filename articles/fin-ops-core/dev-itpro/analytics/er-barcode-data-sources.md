@@ -2,9 +2,11 @@
 title: Svītrkodu attēlu ģenerēšanai izmantot svītrkodu datu avotus
 description: Šajā tēmā skaidrots, kā izmantot svītrkodu datu avotus, lai ģenerētu svītrkoda attēlus.
 author: NickSelin
+manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: 72c79c37ca5b5f98637ba5069e25465bb1391306
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 3fb754267de1120bc3c086d49cb7c63028183bda
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343267"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681428"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>Svītrkodu attēlu ģenerēšanai izmantot svītrkodu datu avotus
 
@@ -37,7 +39,7 @@ Tagad ER atbalsta **Svītrkoda** datu avota tipu. Tādējādi tagad varat ģener
 
 Šos vietturus var izmantot pārskata veidnēs, lai ievadītu svītrkoda attēlus:
 
-- [Attēla](/office/client-developer/word/content-controls-in-word) satura kontrole programmai Word
+- [Attēla](https://docs.microsoft.com/office/client-developer/word/content-controls-in-word) satura kontrole programmai Word
 - [Attēla](https://support.office.com/article/insert-pictures-3c51edf4-22e1-460a-b372-9329a8724344) objekts programmā Excel
 
 Izmantojot **Svītrkoda** tipa datu avotu, varat ģenerēt svītrkodus šādos formātos:
@@ -116,21 +118,21 @@ Ja vēl neesat izpildījis piemēru tēmā [Iegult attēlus un formas dokumentos
 
 | Satura apraksts         | Faila nosaukums                   |
 |-----------------------------|-----------------------------|
-| ER datu modeļa konfigurācija | [cheques.xml modelis](https://download.microsoft.com/download/6/e/a/6ea166fd-1382-4fdb-8dcb-0f13379f9c8e/Modelforcheques.xml)      |
-| ER formāta konfigurācija     | [Čeku drukāšanas formāts.xml](https://download.microsoft.com/download/1/7/c/17c301e3-c4ee-4886-ae75-440fcc002c8c/Chequesprintingformat.xml) |
+| ER datu modeļa konfigurācija | cheques.xml modelis       |
+| ER formāta konfigurācija     | Čeku drukāšanas formāts.xml |
 
 Turklāt lejupielādējiet šo Excel failu, kas satur modificēto veidni sniegtajam ER risinājumam.
 
 | Satura apraksts | Faila nosaukums                 |
 |---------------------|---------------------------|
-| Pārskata veidne     | [Pārbaudīt veidni Excel.xlsx](https://download.microsoft.com/download/3/b/d/3bd3b944-da8f-43b4-8533-3c1292a4c3ef/CheckTemplateExcel.xlsx) |
+| Pārskata veidne     | Pārbaudīt veidni Excel.xlsx |
 
 ### <a name="activate-a-configuration-provider"></a><a name="ExampleProvider"></a>Konfigurāciju nodrošinātāja aktivizēšana
 
 1. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
 2. Lapas **Lokalizācijas konfigurācijas** sadaļā **Konfigurācijas nodrošinātāji** pārliecinieties, vai ir uzskaitīts [konfigurācijas nodrošinātājs](general-electronic-reporting.md#Provider) parauga uzņēmumam **Litware, Inc.** un vai tas ir atzīmēts kā aktīvs. Ja tas nav uzskaitīts vai tas nav atzīmēts kā aktīvs, izpildiet darbības, kas aprakstītas tēmā [Konfigurācijas nodrošinātāja izveide un atzīmēšana par aktīvu](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-![Parauga uzņēmuma iestatīšana uz aktīvu lokalizācijas konfigurāciju lapā.](./media/er-barcode-data-source-active-provider.png)
+![Parauga uzņēmuma iestatīšana uz aktīvu lokalizācijas konfigurāciju lapā](./media/er-barcode-data-source-active-provider.png)
 
 ### <a name="import-the-provided-er-solution"></a><a name="ExampleImportSolution"></a>Importēt sniegto ER risinājumu
 
@@ -160,14 +162,14 @@ Turklāt lejupielādējiet šo Excel failu, kas satur modificēto veidni sniegta
 7. Darbību rūtī atlasiet **Drukāt testu**.
 8. Dialoglodziņā iestatiet **Apgrozāma čeka formāta** opciju uz **Jā** un pēc tam atlasiet **Labi**.
 
-    ![Čeka izkārtojums - drukāt testa dialoglodziņu.](./media/er-barcode-data-source-check-layout.png)
+    ![Čeka izkārtojums - drukāt testa dialoglodziņu](./media/er-barcode-data-source-check-layout.png)
 
 ### <a name="review-the-generated-payment-check"></a><a name="ExampleReviewGeneratedCheque"></a>Pārskatīt ģenerēto maksājumu čeku
 
 - Atveriet ģenerēto čeku programmā Excel.
 2. Pārskatiet ģenerēto XML čeku.
 
-    ![Ģenerētais maksājums programmā Excel.](./media/er-barcode-data-source-cheque1.png)
+    ![Ģenerētais maksājums programmā Excel](./media/er-barcode-data-source-cheque1.png)
 
 ### <a name="modify-the-format-of-the-provided-er-solution"></a><a name="ExampleModifyFormat"></a>Pārveidot sniegtā ER risinājuma formātu
 
@@ -175,7 +177,7 @@ Turklāt lejupielādējiet šo Excel failu, kas satur modificēto veidni sniegta
 
 Varat izmantot Excel darbvirsmas programmu, lai atvērtu **Čeka veidnes Excel.xlsx** failu, ko importējāt iepriekš. Ievērojiet, ka šī veidne atšķiras no veidnes, ko izmantojāt, lai ģenerētu maksājuma čeku sniegtajā ER risinājumā. Turklāt tajā ir ietverts **AmountBarcode** elements svītru koda attēlam.
 
-![AmountBarcode elements Excel veidnē.](./media/er-barcode-data-source-cheque2.png)
+![AmountBarcode elements Excel veidnē](./media/er-barcode-data-source-cheque2.png)
 
 Tagad jums ir jāmodificē ER risinājums un pēc tam [atkārtoti jāpiemēro](modify-electronic-reporting-format-reapply-excel-template.md) modificētā veidne.
 
@@ -186,7 +188,7 @@ Tagad jums ir jāmodificē ER risinājums un pēc tam [atkārtoti jāpiemēro](m
 5. ER operāciju veidotājā atlasiet cilni **Kartēšana** lapas labajā pusē, pēc tam kreisajā pusē esošajā formāta koka rūtī atlasiet **Izvērst/sakļaut**.
 6. Ievērojiet, ka visi šūnas formāta elementi ir saistīti ar atbilstošajiem datu avotiem.
 
-    ![Šūnas formāta elementu saistījums ar datu avotiem ER operāciju veidotājā.](./media/er-barcode-data-source-cells-bound.png)
+    ![Šūnas formāta elementu saistījums ar datu avotiem ER operāciju veidotājā](./media/er-barcode-data-source-cells-bound.png)
 
 7. Atlasiet cilni **Formāts** lapas labajā pusē.
 8. Darbības rūtī atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Importēt**.
@@ -195,7 +197,7 @@ Tagad jums ir jāmodificē ER risinājums un pēc tam [atkārtoti jāpiemēro](m
 11. Atlasiet cilni **Kartēšana** lapas labajā pusē, pēc tam kreisajā pusē esošajā formāta koka rūtī atlasiet **Izvērst/sakļaut**.
 12. Ievērojiet, ka **AmountBarcode** šūnas elements ir pievienots formātam. Šis elements ir saistīts ar **AmountBarcode** elementu, kas ir pievienots modificētajai Excel veidnei kā svītrkoda attēla vietturis.
 
-    ![AmountBarcode šūnas elements, kas pievienots formātam ER operāciju noformētājā.](./media/er-barcode-data-source-cell-added.png)
+    ![AmountBarcode šūnas elements, kas pievienots formātam ER operāciju noformētājā](./media/er-barcode-data-source-cell-added.png)
 
 #### <a name="add-a-new-barcode-data-source"></a><a name="ExampleModifyFormatAddDataSource"></a>Pievienot jaunu Svītrkoda datu avotu
 
@@ -204,14 +206,14 @@ Pēc tam ir jāpievieno jauns **Svītrkoda** tipa datu avots.
 1. ER operāciju noformētājā cilnē **Kartēšana** lapas labajā pusē atlasiet **drukāt** datu avotu.
 2. Atlasiet **Pievienot** un pēc tam grupā **Funkcijas** atlasiet **Svītrkoda** datu avota tipu.
 
-    ![Svītrkoda datu avota tipa atlasīšana.](./media/er-barcode-data-source-add.png)
+    ![Svītrkoda datu avota tipa atlasīšana](./media/er-barcode-data-source-add.png)
 
 3. Dialoglodziņa laukā **Nosaukums** ievadiet **svītrkodu**.
 4. Sadaļā **Svītrkoda formāts** atlasiet **Kods 128**.
 5. Laukā **Platums** ievadiet **500**.
 6. Atlasiet **Labi**.
 
-    ![Dialoglodziņš Datu avota rekvizīti.](./media/er-barcode-data-source-add2.png)
+    ![Dialoglodziņš Datu avota rekvizīti](./media/er-barcode-data-source-add2.png)
 
 #### <a name="bind-a-new-format-element"></a><a name="ExampleModifyFormatBindFormatElement"></a>Saistīt jaunu formāta elementu
 
@@ -222,7 +224,7 @@ Pēc tam jaunajam formāta elementam ir jāpiesaista tikko pievienotais datu avo
 3. Darbību rūtī atlasiet **Rādīt detaļas**.
 4. Ņemiet vērā, ka, tā kā **Svītrkoda** datu avots ir attēlots kā funkcija, kas ietver vienu parametru, saistītā formāta elementa nosaukums ir automātiski pieņemts kā šī parametra arguments.
 
-    ![Detalizēta informācija par Svītrkoda datu avotu ER operāciju noformētājā.](./media/er-barcode-data-source-bind1.png)
+    ![Detalizēta informācija par Svītrkoda datu avotu ER operāciju noformētājā](./media/er-barcode-data-source-bind1.png)
 
 5. Atlasiet **Rediģēt formulu**, lai koriģētu saistījumu.
 
@@ -232,7 +234,7 @@ Pēc tam jaunajam formāta elementam ir jāpiesaista tikko pievienotais datu avo
 7. Atlasiet **Saglabāt** un pēc tam aizveriet [ER formulu noformētāju](general-electronic-reporting-formula-designer.md).
 8. Ievērojiet, ka saistījums ir pielāgots.
 
-    ![Pielāgots saistījums ER operāciju noformētājā.](./media/er-barcode-data-source-bind2.png)
+    ![Pielāgots saistījums ER operāciju noformētājā](./media/er-barcode-data-source-bind2.png)
 
 9. Atlasiet **Saglabāt** un pēc tam aizveriet ER operāciju noformētāju.
 
@@ -277,7 +279,7 @@ Atlasītā formāta melnraksta versija ir atzīmēta kā pieejama, kad tiek pala
 6. Atlasiet **Labi**.
 7. Pārskatiet ģenerēto XML čeku. Ievērojiet, ka svītrkods ir ģenerēts, lai kodētu čeka izmaksājamo summu.
 
-    ![Ģenerētais maksājuma čeks ar svītrkodu programmā Excel.](./media/er-barcode-data-source-cheque3.png)
+    ![Ģenerētais maksājuma čeks ar svītrkodu programmā Excel](./media/er-barcode-data-source-cheque3.png)
 
 > [!IMPORTANT]
 > Izņēmums tiek izmests, ja **Svītrkoda** datu avota arguments neatbilst atbilstošajām prasībām, kas ir raksturīgas svītrkoda formātam. Piemēram, kad **Svītrkoda** datu avots ir izsaukts, lai ģenerētu [EAN-8](https://wikipedia.org/wiki/EAN-8) svītrkodu norādītajam tekstam, izņēmums tiek izmests, ja teksta garums pārsniedz septiņas rakstzīmes.
@@ -288,7 +290,7 @@ Kā aprakstīts tēmā [Ģenerēt drukājamas FTI formas](er-generate-printable-
 
 Tomēr, izmantojot **Svītrkoda** datu avotu, lai izveidotu svītrkodus, šo svītrkodu atveidošana nav atkarīga no fonta. Tāpēc varat viegli pārveidot dokumentus, kas satur svītrkodus, uz PDF formātu. Sekojošajā attēlā redzams ģenerētā maksājuma čeka priekšskatījums, kas tika [konvertēts](electronic-reporting-destinations.md#OutputConversionToPDF) PDF failā, pamatojoties uz konfigurētā ER [adresāta](electronic-reporting-destinations.md)  iestatījumu.
 
-![Maksājuma čeka PDF priekšskatījums.](./media/er-barcode-data-source-cheque4.png)
+![Maksājuma čeka PDF priekšskatījums](./media/er-barcode-data-source-cheque4.png)
 
 ## <a name="limitations"></a>Ierobežojumi
 
@@ -301,6 +303,3 @@ Tomēr, izmantojot **Svītrkoda** datu avotu, lai izveidotu svītrkodus, šo sv�
 - [Elektroniskā pārskatu veidošanas adresāti](electronic-reporting-destinations.md)
 - [Elektronisko atskaišu veidošanas formulas valoda](er-formula-language.md)
 - [NUMBERFORMAT funkcija](er-functions-text-numberformat.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

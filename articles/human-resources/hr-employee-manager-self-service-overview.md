@@ -1,37 +1,33 @@
 ---
-title: Darbinieka un vadītāja patstāvīgi izmantojama pakalpojuma pārskats
-description: Šajā rakstā sniegts Darbinieku un pārvaldītāju pašapkalpošanās darbvietas pārskats.
-author: twheeloc
-ms.date: 08/26/2021
-ms.topic: overview
+title: Darbinieka un vadītāja pašapkalpošanās apskats
+description: Šajā rakstā sniegts pārskats par darbinieku un vadītāju pašapkalpošanās darbvietu.
+author: andreabichsel
+manager: tfehr
+ms.date: 10/20/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HRMParameters, EssWorkspace
 audience: Application User
-ms.search.scope: Human Resources
-ms.custom:
-- "51941"
-- intro-internal
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
+ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 28bf4ff4e456505efda3777a4f820c54f270c74b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 116c85c53b0ec2fe1e1fd2d1fbc2738f5b6351fb
+ms.sourcegitcommit: 1fdca917e01470fbd5d3051adb85fd63e8624b47
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068948"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4419626"
 ---
-# <a name="employee-and-manager-self-service-overview"></a>Darbinieka un vadītāja patstāvīgi izmantojama pakalpojuma pārskats
+# <a name="employee-and-manager-self-service-overview"></a>Darbinieka un vadītāja pašapkalpošanās apskats
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Šajā rakstā sniegts Darbinieku un pārvaldītāju pašapkalpošanās darbvietas pārskats.
+Šajā rakstā sniegts pārskats par darbinieku un vadītāju pašapkalpošanās darbvietu.
 
 ## <a name="edit-personal-details"></a>Rediģēt personas datus
 
@@ -43,7 +39,7 @@ Ja neesat saistījis lietotāju ar **Darbinieka** ierakstu lapā **Lietotāji**,
 
 **Jūsu lietotāja ID nav saistīts ar darbinieka ierakstu sistēmā. Kamēr vienumi nav saistīti, nevarat skatīt vai atjaunināt savu informāciju. Sazinieties ar vadītāju vai atbalsta grupu, lai saņemtu palīdzību.**
 
-Lai saistītu lietotāju ar **Darbinieka** ierakstu, pārvietojieties uz **Lietotājiem** un atlasiet lietotāju. Atlasiet **Rediģēt**, pievienojiet atbilstošo darbinieku lapas laukā **Persona** un atlasiet opciju **Saglabāt**. Tagad jums vajadzētu būt piekļuvei **Darbinieku pašapkalpošanai**.
+Lai saistītu lietotāju ar **Darbinieka** ierakstu, pārvietojieties uz **Lietotājiem** un atlasiet lietotāju. Atlasiet **Rediģēt**, pievienojiet atbilstošo darbinieku laukā **Persona** un atlasiet **Saglabāt**. Tagad jums ir piekļuve Darbinieku patstāvīgi izmantojamajam pakalpojumam.
 
 ## <a name="security-requirements-for-employee-and-manager-self-service"></a>Darbinieka un Pārvaldnieka patstāvīgi izmantojamā pakalpojuma drošības prasības
 
@@ -58,7 +54,7 @@ Darbinieka un Pārvaldnieka patstāvīgi izmantojamais pakalpojums pieprasa diva
 
 ## <a name="employee-self-service"></a>Darbinieku patstāvīgi izmantojamais pakalpojums
 
-Cilnē **Mana informācija** tiek parādīta šāda **Darbinieku pašapkalpošanās** informācija.  
+Cilne **Mana informācija** rāda šādu informāciju attiecībā uz darbinieka pašapkalpošanos.  
 
 ### <a name="summary"></a>Kopsavilkums
 
@@ -66,39 +62,39 @@ Cilnē **Mana informācija** tiek parādīta šāda **Darbinieku pašapkalpošan
 
 **Man piešķirtās anketas** rāda visas plānotās anketas, kas tieši piešķirtas darbiniekam vai grupai.
 
-**Uzņēmuma direktorija** ļauj darbiniekiem meklēt informāciju, kas saistīta ar personām organizācijā. Publisko kontaktpersonu informācija ir pieejama visiem darbiniekiem. Uzņēmumu direktorijs ir ierobežots tikai uzņēmumam, kurā darbinieks ir reģistrējies.
+**Uzņēmuma direktorija** ļauj darbiniekiem meklēt informāciju, kas saistīta ar personām organizācijā. Publisko kontaktpersonu informācija ir pieejama visiem darbiniekiem. Uzņēmumu direktorijs attiecas tikai uz uzņēmumu, kurā darbinieks ir reģistrējies.
 
 **Grupas kalendārs** rāda grupas kalendāra informāciju. Papildinformāciju skatiet šeit [: grupas un uzņēmuma kalendāru](hr-employee-self-service-calendar.md)skatīšana.
 
 ### <a name="my-career-information"></a>Manas karjeras informācija
 
-**Darbinieku pašapkalpošanās** sadaļa **Manas karjeras informācija** parāda elementus, kuri ir saistīti ar Atvaļinājumu un prombūtni, Veiktspējas pārvaldību, Kompetencēm, Atvieglojumiem, Uzdevumiem un Pielikumiem.
+Darbinieka pašapkalpošanās sadaļa **Mana karjeras informācija** satur kartes, kas saistītas ar atvaļinājumiem un prombūtni, veiktspējas pārvaldību, prasmēm, atvieglojumiem, uzdevumiem un pielikumiem.
 
-Elementā **Brīvā laika bilances** parādītas citu reģistrēto plānu bilances. Šajā elementā tiek prognozēta jūsu bilance, pamatojoties jūsu uzkrāšanas metodē. Varat ievadīt un iesniegt brīvā laika pieprasījumus, kuri pēc tam izies cauri apstiprinājuma darbplūsmas procesam. Papildinformāciju par atvaļinājumu un kavējumu pārskatu skatiet tēmā [Atvaļinājumu un kavējumu pārskats](hr-leave-and-absence-overview.md).
+**Atlikumu bilances** karte parāda visu reģistrēto plānu bilances. Šī karte prognozē jūsu bilanci, pamatojoties uz jūsu uzkrājumu metodi. Varat ievadīt un iesniegt brīvā laika pieprasījumus, kuri tiks apstrādāti apstiprinājuma darbplūsmas procesā. Papildinformāciju par atvaļinājumu un kavējumu pārskatu skatiet tēmā [Atvaļinājumu un kavējumu pārskats](hr-leave-and-absence-overview.md).
 
-Elements **Uzdevumi** parāda uzdevumus, kuri ir piešķirti jums, un ļauj jums tos skatīt un pārvaldīt.
+Karte **Uzdevumi** parāda jums piešķirtos uzdevumus un ļauj tos skatīt un pārvaldīt.
 
-Elements **Nākamais reģistrētais kurss** rāda nākamo kursu, kuram esat reģistrējies. Dalībniekus var skatīt un reģistrēt visiem atvērtajiem kursiem. Visi kursi, kuriem ir atvērta pierakstīšanās, ir statuss **Uzsākts**, un tie ļauj darbiniekiem pašiem reģistrēties. Atkarībā no jūsu organizācijas iestatījumiem jūsu kursa reģistrācijai var būt nepieciešams apstiprināšanas process.
+**Nākamā reģistrētā kursa** karte parāda nākošo kursu, par kuru esat reģistrējies. Dalībniekus var skatīt un reģistrēt visiem atvērtajiem kursiem. Šajā kartē parādās visi kursi, kas ir atvērti reģistrācijai, kuriem ir statuss **Sākts** un kuriem ir atļauta darbinieku pašreģistrācija. Atkarībā no jūsu organizācijas iestatījumiem jūsu kursa reģistrācijai var būt nepieciešams apstiprināšanas process.
 
-Elements **Sertifikāti** rāda sertifikātu un sertifikāta derīguma beigu datumu, kurš ir vistuvākais pašreizējam datumam. Sertifikātus varat atjaunināt, pievienot vai noņemt. Atkarībā no jūsu organizācijas iestatījumiem sertifikāta atjauninājumiem var būt nepieciešams apstiprināšanas process.
+Karte **Sertifikāti** parāda sertifikātu un derīguma termiņu tam sertifikātam, kura derīgums beidzas vistuvāk pašreizējam datumam. Sertifikātus varat atjaunināt, pievienot vai noņemt. Atkarībā no jūsu organizācijas iestatījumiem sertifikāta atjauninājumiem var būt nepieciešams apstiprināšanas process.
 
-Elements **Nākamais plānotais pārskats** rāda jūsu nākamo snieguma pārskatu. No šī elementa varat sākt jaunu pārskatu. Pārskatus var uzsākt arī vadītājs vai personāldaļas pārstāvis. Atkarībā no jūsu organizācijas iestatījumiem jūs varat arī skatīt, atjaunināt un iesniegt izejas pārskatus.
+Karte **Nākamais plānotais pārskats** rāda nākamo veiktspējas pārskatu. Varat sākt jaunu recenziju no šīs kartes. Pārskatus var uzsākt arī vadītājs vai personāldaļas pārstāvis. Atkarībā no jūsu organizācijas iestatījumiem, iespējams, varat arī skatīt, atjaunināt un iesniegt pārskatus iziešanai no šīs kartes.
 
-Savus mērķus varat pārvaldīt ar elementu **Snieguma mērķi**. Šis elements parāda to mērķu skaitu, kurš jums ir katrā statusā (**Nav sākts**, **Tiek izsekots** un **Vajadzīgi uzlabojumi**). Varat izveidot, atjaunināt un noņemt mērķus atkarībā no piešķirtās, lomā balstītās drošības. Ja vēlaties, varat pievienot jaunus mērķus no grupām vai veidnēm. Arī vadītāji un personāldaļas pārstāvji var darbinieku vārdā izveidot mērķus un noteikt katra mērķa detalizētības pakāpi. Vadītāji un darbinieki var sadarboties, strādājot pie mērķiem un atjaunināšanas darbībām, mērījumiem un statusiem. Var arī iekļaut pielikumus.
+Varat pārvaldīt savus mērķus ar karti **Veiktspējas mērķi**. Šī karte parāda katra statusa mērķu skaitu (**Nav sākts**, **Izsekošanā** un **Nepieciešami uzlabojumi**). Varat izveidot, atjaunināt un noņemt mērķus atkarībā no piešķirtās, lomā balstītās drošības. Ja vēlaties, varat pievienot jaunus mērķus no grupām vai veidnēm. Arī vadītāji un personāldaļas pārstāvji var darbinieku vārdā izveidot mērķus un noteikt katra mērķa detalizētības pakāpi. Vadītāji un darbinieki var sadarboties, strādājot pie mērķiem un atjaunināšanas darbībām, mērījumiem un statusiem. Var arī iekļaut pielikumus.
 
-Esošās prasmes varat skatīt elementā **Kopējās prasmes**. Varat atjaunināt prasmes, pievienot jaunas vai noņemt tās, kas vairs nav būtiskas. Atkarībā no jūsu organizācijas iestatījumiem izmaiņām jūsu prasmēs var būt nepieciešams apstiprināšanas process.
+Karte **Prasmes** kartē var apskatīt esošās prasmes. Varat atjaunināt prasmes, pievienot jaunas vai noņemt tās, kas vairs nav būtiskas. Atkarībā no jūsu organizācijas iestatījumiem izmaiņām jūsu prasmēs var būt nepieciešams apstiprināšanas process.
 
-Pašreizējās kompensācijas varat skatīt elementā **Kompensācijas**. Atlasiet **Rādīt**, lai skatītu gada algu un pēdējo palielinājuma summu. Ja esat nodarbināts vairāk nekā vienā uzņēmumā, tiek parādīts katra ikgadējā summa. Lai skatītu detalizētu kompensāciju vēsturi, atlasiet summu **Ikgada atalgojums**, lai atvērtu lapu **Fiksēto un mainīgo kompensāciju vēsture**. Šajā lapā netiek rādītas nākotnes kompensācijas. Ja esat nodarbināts vairāk nekā vienā uzņēmumā, jūs varat pārslēgties starp uzņēmumiem Šajā lapā, lai skatītu kompensāciju vēsturi, nepiesakoties katrā uzņēmumā.
+Varat apskatīt pašreizējo atlīdzību, izmantojot karti **Kompensācija**. Atlasiet **Rādīt**, lai skatītu gada algu un pēdējo palielinājuma summu. Ja esat nodarbināts vairāk nekā vienā uzņēmumā, kartē tiek parādīta katra gada summa. Lai skatītu detalizētu atlīdzības vēsturi, izvēlieties gada algas summu, lai atvērtu **fiksētās un mainīgās** atlīdzības vēstures formu. Šajā veidlapā netiek rādītas turpmākas kompensācijas. Ja jums ir vairāk nekā viens darbs, šajā veidlapā varat pārslēgties starp uzņēmumiem, lai skatītu savu kompensāciju vēsturi, nepiesakoties katrā uzņēmumā.
 
-Skatiet un pārvaldiet dokumentus ar elementu **Pielikumi**. Varat pārvaldīt visus **Ārējos** pielikumus. Gan cilvēkresursu vadītāji, gan darbinieki var pievienot pielikumus, izmantojot lapu **Darbinieku pašapkalpošanās** vai **Darbinieks**. Pielikumi pēc noklusējuma tiek iestatīti kā **Ārēji**.
+Skatiet un pārvaldiet dokumentus, izmantojot **pielikumu** karti. Varat pārvaldīt visus **Ārējos** pielikumus. Gan personāldaļas pārstāvis, gan darbinieki var pievienot pielikumus, izmantojot darbinieka pašapkalpošanos vai veidlapu **Nodarbinātais**. Pielikumi pēc noklusējuma tiek iestatīti kā **Ārēji**.
 
 ### <a name="additional-information"></a>Papildinformācija
 
-Šajā sadaļā sniegtas saites uz citām **Darbinieka pašapkalpošanās** zonām, līdzīgi kā sadaļā **Manas karjeras informācija**.
+Šajā sadaļā ir sniegtas saites uz citām darbinieku pašapkalpošanās zonām, līdzīgi kā sadaļā **Mana karjeras informācija**.
 
-Parakstieties atvieglojumiem, izmantojot saiti **Atvieglojumi**. Papildinformāciju par pabalstu pārvaldību skatiet [Priekšrocību pārskats](hr-benefits-management-overview.md).
+Parakstieties atvieglojumiem, izmantojot saiti **Atvieglojumi**. Papildinformāciju par atvieglojumu pārvaldību skatiet sadaļā [Atvieglojumu pārskats](hr-benefits-management-overview.md)
 
-Sadaļā **Veiktspēja** varat atlasīt **Veiktspējas žurnālu**, lai izveidotu veiktspējas žurnālu ierakstus, kurus lietot gan attiecībā uz veiktspējas mērķiem un pārskatiem. Varat atlasīt **Sūtīt atsauksmes**, lai sniegtu atsauksmes par citiem darbiniekiem savā organizācijā. Atkarībā no jūsu organizācijas iestatījumiem, saņēmējam, sūtītājam un vadītājiem var tikt sūtīti e-pasta ziņojumi. Varat nosūtīt atsauksmes visiem darbiniekiem organizācijā. Uzņēmums neierobežo atsauksmes.
+Sadaļā **Veiktspēja** varat atlasīt **Veiktspējas žurnālus**, lai izveidotu veiktspējas žurnāla ierakstus, ko izmantot gan veiktspējas mērķiem, gan pārskatīšanai. Varat atlasīt **Sūtīt atsauksmes**, lai sniegtu atsauksmes par citiem darbiniekiem savā organizācijā. Atkarībā no jūsu organizācijas iestatījumiem, saņēmējam, sūtītājam un vadītājiem var tikt sūtīti e-pasta ziņojumi. Varat nosūtīt atsauksmes visiem darbiniekiem organizācijā. Uzņēmums neierobežo atsauksmes.
 
 Sadaļā **Prasmes** varat veikt izmaiņas **Kursos**, **Izglītībā**, **Atbildīgajos amatos** un **Darba pieredzē**. Atkarībā no jūsu organizācijas iestatījumiem šo prasmju atjauninājumiem var būt nepieciešams apstiprināšanas process.
 
@@ -106,13 +102,13 @@ Detalizētu darba informāciju varat skatīt sadaļā **Organizācija**. Darba i
 
 Sadaļā **Anketa** varat redzēt aizpildītās anketas. Var apskatīt arī uzņēmuma mēroga anketas, kas nav pabeigtas. Aizpildīt anketu varat izvēlēties aizpildīt jebkurā laikā. Anketas autors var noteikt laika intervālu un personas, uz kurām anketa attiecas.
 
-Lietotāju definētās saites varat konfigurēt sadaļā **Cilvēkresursu parametri**. Piemēram, varat definēt saites uz apmaksas pārskatiem, gada beigu dokumentāciju vai ārējiem risinājumiem. Šīs saites tiek rādītas šīs sadaļas apakšpusē, taču tās var pārvietot, izmantojot personalizāciju.
+Lietotāja definētās saites var konfigurēt sadaļā **Personāla vadības parametri**. Piemēram, varat definēt saites uz apmaksas pārskatiem, gada beigu dokumentāciju vai ārējiem risinājumiem. Šīs saites tiek rādītas šīs sadaļas apakšpusē, taču tās var pārvietot, izmantojot personalizāciju.
 
-Papildu cilnes varat arī izveidot, iegulstot Power Apps **Darbinieku pašapkalpošanās** darbvietā. Izmantojiet izvēlni **iestatījumi**, lai personalizētu lapu ar jebkuru Power Apps. Izvēlnē **Iestatījumi** varat izvēlēties pievienot Power App, aizpildīt informāciju un ievietot programmu. Pēc noklusējuma Power Apps tiek parādīta kā pirmā cilne secībā. Varat mainīt secību, izmantojot standarta personalizāciju.
+Varat arī izveidot papildu cilnes, iegulstot Power Apps darbinieku pašapkalpošanās darbvietā. Izmantojiet izvēlni **iestatījumi**, lai personalizētu lapu ar jebkuru Power Apps. Izvēlnē **Iestatījumi** varat izvēlēties pievienot Power App, aizpildīt informāciju un ievietot programmu. Pēc noklusējuma Power Apps tiek parādīta kā pirmā cilne secībā. Varat mainīt secību, izmantojot standarta personalizāciju.
 
 ## <a name="my-team"></a>Mana darba grupa
 
-Cilnē **Mana darba grupa** tiek parādīta šāda **Pārvaldnieku pašapkalpošanās** informācija. Tikai vadītāji var piekļūt cilnei **Mana grupa**.
+Cilne **Mana grupa** rāda šādu informāciju attiecībā uz vadītāja pašapkalpošanos. Tikai vadītāji var piekļūt cilnei **Mana grupa**.
 
 ### <a name="personnel-actions"></a>Personāla darbības
 
@@ -135,7 +131,7 @@ Varat arī konfigurēt šīs opcijas, lai veiktu neobligātu pārskatīšanas un
 
 ### <a name="summary"></a>Kopsavilkums
 
-Informācija sadaļā **Kopsavilkums** ir atkarīga no opcijām, kuras cilvēkresursu vadītājs ir atlasījis sadaļā **Cilvēkresursu parametri**. Lapas **Cilvēkresursu parametri** cilnē **Pārvaldnieku pašapkalpošanās** varat konfigurēt opcijas, lai rādītu ierakstus pēc derīguma termiņa un atvērtas pozīcijas. Šo opciju iespējošana nosaka, ko vadītāji var redzēt sadaļā **Kopsavilkums**.
+Informācija sadaļā **Kopsavilkums** ir atkarīga no opcijām, ko personāla vadība ir atlasījusi **Personāla vadības parametros**. Lapas **Human Resources parametri** cilnē **Vadītāja pašapkalpošanās** varat konfigurēt opcijas, lai rādītu ierakstus, kam beidzas termiņš, un atvērtos amatus. Šo opciju iespējošana nosaka, ko vadītāji var redzēt sadaļā **Kopsavilkums**.
 
 Vadītājiem varat konfigurēt šādus elementus:
 
@@ -163,11 +159,11 @@ Varat konfigurēt šādas opcijas vadītājiem, lai veiktu izmaiņas vai pievien
 
 ### <a name="my-team-information"></a>Manas grupas informācija
 
-**Mana darba grupa** ļauj pārvaldniekiem skatīt un atjaunināt tiešas un paplašinātas atskaites. Lai piekļūtu paplašinātām atskaitēm, atlasiet darbinieku, kuram ir tieši padotie un pēc tam elementā atlasiet **Skatīt darba grupu**. Uz tiešajiem pārskatiem attiecas tās pašas opcijas, kas attiecas uz paplašinātajiem pārskatiem. 
+Manas grupas informācija ļauj vadītājiem skatīt un atjaunināt tiešos un paplašinātos pārskatus. Lai piekļūtu paplašinātajiem pārskatiem, atlasiet darbinieku, kuram ir tiešie padotie, un pēc tam kartē izvēlieties **Skatīt komandu**. Uz tiešajiem pārskatiem attiecas tās pašas opcijas, kas attiecas uz paplašinātajiem pārskatiem. 
 
 #### <a name="summary-tab"></a>Kopsavilkuma cilne
 
-Cilne **Kopsavilkums** sniedz ātru skatu uz jūsu tiešajiem pārskatiem. Ja tiešajā pārskatā atskaitās arī darbinieki, karte augšējā sadaļā rāda tiešo pārskatu skaitu un pogu **Skatīt komandu**. Opcijas virs katra elementa attiecas uz atlasīto darbinieku. Piemēram, ja vēlaties sava darbinieka vārdā ievadīt atvaļinājuma pieprasījumu, ir jāatlasa darbinieks un pēc tam jāatlasa **Pieprasīt brīvo laiku**. 
+Cilne **Kopsavilkums** sniedz ātru skatu uz jūsu tiešajiem pārskatiem. Ja tiešajā pārskatā atskaitās arī darbinieki, karte augšējā sadaļā rāda tiešo pārskatu skaitu un pogu **Skatīt komandu**. Opcijas virs katras kartes attiecas uz atlasīto darbinieku. Piemēram, ja vēlaties ievadīt atvaļinājuma pieprasījumu darbinieka vārdā, atlasiet darbinieku un pēc tam virs kartēm izvēlieties **Pieprasīt brīvo laiku**. 
 
 Ja pēc darbinieka atlases atlasāt pogu **Detalizēta informācija**, displejā tiek rādītas šādas opcijas:
 
@@ -186,26 +182,26 @@ Atkarībā no jūsu organizācijas iestatījumiem, varat vai nu veikt izmaiņas 
 
 #### <a name="position-tab"></a>Amata cilne
 
-Cilnē **Amats** sniegt kopsavilkuma pārskats par darbiniekiem viņu primārajā amatā. Vārds, amats un nodaļa tiek rādīts katra elementa galvenes apgabalā. Šis elements ietver:
+Cilne **amati** sniedz kopsavilkuma skatu darbiniekiem savā primārajā amatā. Katras kartes virsraksta apgabalā tiek parādīts nosaukums, elements un nodaļa. Šī karte ietver:
 
-- **Darba stāža datums** — Tiek rādīts no lapas **Darbinieks** darbinieka kopsavilkuma sadaļas.
-- **Dienesta gadi** — Aprēķināti, pamatojoties darbinieku nodarbinātības sākuma datumā.
-- **Iepriekšējo amatu skaits** — Pamatojoties amatu vēsturē, atlasot šo skaitu, tiek atvērts detalizēts skats uz visiem iepriekš ieņemtajiem amatiem.
-- **Dzimšanas datums** — Darbinieka dzimšanas datuma mēnesis un diena.
+- **Darba stāža datums** — parādīts no darbinieka veidlapas darbinieka kopsavilkuma sadaļas
+- **Pakalpojumu sniegšanas gadi** – aprēķināti, pamatojoties uz darbinieka nodarbinātības sākuma datumu
+- **Iepriekšējo amatu skaits** - balstoties amatu vēsturē, atlasot šo skaitu, atveras detalizēts visu iepriekš ieņemto amatu skats
+- **Dzimšanas datums** — darbinieka dzimšanas datuma mēnesis un diena
 
 Varat skatīt amatu datus gan tiešajiem, gan paplašinātajiem pārskatiem.
 
 #### <a name="compensation-tab"></a>Kompensāciju cilne
 
-Cilnē **Atlīdzības** tiek rādīta darbinieka gada alga. Uzņēmuma identifikators tiek parādīts zem algas summas. Ja darbiniekam ir vairāk nekā viens darbs un tiek saņemts atalgojums no vairākām juridiskajām personām, darbiniekam būs vairāki atlīdzības plāni. Lai skatītu visus kompensāciju plānus pa visām juridiskajām personām, nepārslēdzoties starp uzņēmumiem, ir jāiespējo savstarpējā kompensēšana sadaļā **Cilvēkresursi > Kopīgotie parametri > Papildu piekļuve > Starpuzņēmumu kompensēšanas iespējošana**.
+Cilnē **Atlīdzības** tiek rādīta darbinieka gada alga. Uzņēmuma identifikators tiek parādīts zem algas summas. Ja darbiniekam ir vairāk nekā viens darbs un tiek saņemts atalgojums no vairākām juridiskajām personām, darbiniekam būs vairāki atlīdzības plāni. Lai skatītu visus atlīdzības plānus starp juridiskajām personām bez uzņēmumu pārslēgšanas, ir jāiespējo starpuzņēmumu atlīdzība sadaļā **Human Resources > Koplietojamie parametri > Papildu piekļuve > Iespējot starpuzņēmumu atlīdzību**.
 
-Lai skatītu detalizētu kompensāciju vēsturi, atlasiet opciju **Atalgojuma summa**, lai atvērtu lapu **Detalizēta informācija**. Lapā **Kompensācijas** tiek rādīti tikai pašreizējie un vēsturiskie fiksēto un mainīgo kompensāciju ieraksti. Ja darbiniekam ir vairāk par vienu darba devēju, varat pārslēgties starp uzņēmumiem, lai skatītu katra uzņēmuma kompensāciju vēsturi vai iespējotu starpuzņēmumu kompensāciju, sadaļā **Cilvēkresursu kopīgotie parametri**, lai skatītu visus kompensāciju plānus.
+Lai skatītu kompensāciju vēsturi, atlasiet algas summu, lai atvērtu veidlapu **Detalizēta informācija**. Veidlapā **Kompensācijas** parādās tikai pašreizējie un vēsturiskie fiksēto un mainīgo kompensāciju ieraksti. Ja darbinieks ir nodarbināts vairāk nekā vienā darbā, varat pārslēgties starp uzņēmumiem, lai skatītu atlīdzības vēsturi katrā uzņēmumā, vai iespējot starpuzņēmumu atlīdzību programmas Human Resources koplietojamajos parametros, lai skatītu visus atlīdzības plānus.
 
 Varat skatīt kompensācijas gan tiešajiem, gan paplašinātajiem pārskatiem.
 
 #### <a name="leave-and-absence-tab"></a>Atvaļinājumu un prombūtnes cilne
 
-Cilne **Atvaļinājumi un prombūtne** rāda augstākās bilances darbiniekiem ar aktivitāti. Lai veiktu darbību vai skatītu pilnu aktivitāšu sarakstu, atlasiet **Detalizēta informācija** un pēc tam atlasiet **Brīvais laiks**. Lapā **Brīvais laiks** varat skatīt bilances, pieprasījumus, apstiprinātu brīvo laiku un prognozes bilances, lai palīdzētu darbiniekiem labāk pārvaldīt laiku. Atkarībā no jūsu organizācijas iestatījumiem, varat arī pieprasīt brīvo laiku no saviem tiešajiem un paplašinātajiem pārskatiem.
+Cilne **Atvaļinājumi un prombūtne** rāda augstākās bilances darbiniekiem ar aktivitāti. Lai veiktu darbību vai skatītu pilnu aktivitāšu sarakstu, atlasiet **Detalizēta informācija** un pēc tam atlasiet **Brīvais laiks**. Veidlapā **Brīvais laiks** laiks varat aplūkot bilances, pieprasījumus, apstiprināto brīvo laiku un prognozēt bilances, lai palīdzētu darbiniekiem labāk pārvaldīt laiku. Atkarībā no jūsu organizācijas iestatījumiem, varat arī pieprasīt brīvo laiku no saviem tiešajiem un paplašinātajiem pārskatiem.
 
 #### <a name="performance-goals-tab"></a>Veiktspējas mērķu cilne
 
@@ -218,5 +214,3 @@ Vadītāji var redzēt visus savas grupas mērķus, izmantojot elementu **Grupas
 Cilnē **Pārskati** ir apkopoti pārskati, kuri darbiniekam ir katrā statusā: **Izpilde**, **Gatavs pārskatīšanai** un **Galīgais pārskats**. Lai piekļūtu darbinieka pārskatam, atlasiet pogu **Detalizēta informācija** un pēc tam atlasiet pārskatus, pie kuriem sadarboties. Pamatojoties uz to, kur pārskats atrodas darbplūsmas procesā, varat redzēt, vai pārskatam ir pieejams atjauninājums. 
 
 Varat redzēt visus grupas pārskatus, izmantojot elementu **Grupas veiktspējas pārskati** cilnes **Mana komanda** sadaļā **Kopsavilkums**.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

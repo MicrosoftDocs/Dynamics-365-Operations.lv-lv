@@ -1,10 +1,12 @@
 ---
 title: Līdzekļu uzstādīšana funkcionālajos novietojumos
 description: Šajā tēmā izskaidrots, kā uzstādīt līdzekļus funkcionālajos novietojumos Līdzekļu pārvaldībā.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetFunctionalLocationObjectChange, EntAssetFunctionalLocationObjectInstall, EntAssetFunctionalLocationObject
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc278564b02335b44a0b35d6a3a981125e6f456b08893be2b5886f0a55396d52
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5ea67e2392d8e25a2a5f3cb7e1ff5032322f2c48
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775751"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022034"
 ---
 # <a name="install-assets-on-functional-locations"></a>Līdzekļu uzstādīšana funkcionālajos novietojumos
 
@@ -80,6 +82,3 @@ Kad iestatīšanas dati ir pieejami, varat izveidot līdzekli.
 1. Lapā **Visi funkcionālie novietojumi** pārliecinieties, vai vēlamais funkcionālais novietojums, kurā līdzeklis tiks izveidots automātiski, izmanto šim nolūkam izveidoto funkcionālā novietojuma veidu.
 2. Sarakstā atlasiet funkcionālo novietojumu.
 3. Atlasiet **Atjaunināt funkcionālā novietojuma stāvokli** un pēc tam atlasiet dzīves cikla stāvokli, kuru izveidojāt šim nolūkam. Tagad funkcionālajā novietojumā tiek automātiski uzstādīts viens līdzeklis. Šim līdzeklim ir tāds pats nosaukums kā funkcionālajam novietojumam.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

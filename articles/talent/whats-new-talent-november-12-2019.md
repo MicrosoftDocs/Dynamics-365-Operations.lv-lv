@@ -60,6 +60,3 @@ Visi jaunie līdzekļi paliek priekšskatījumā vismaz 30 dienas, un parasti 30
 Reizēm šis līdzeklis būs ieslēgts pēc noklusējuma, un to nevar izslēgt (piemēram, **Līdzekļu pārvaldības** darbvieta).
  
 Kolīdz līdzeklis ir vispārīgi pieejams, to var ieslēgt vai izslēgt ražošanas vidēs. **Līdzekļu pārvaldības** darbvieta norāda, kad priekšskatījuma līdzeklis kļūs obligāts. Šis datums parasti ir 1. oktobris vai 1. aprīlis, lai to saskaņotu ar pusgada laidiena plāniem. Jūs nevarat izslēgt obligātos līdzekļus. Kamēr tas kļūst obligāts, varat ieslēgt vai izslēgt līdzekli visās vidēs.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

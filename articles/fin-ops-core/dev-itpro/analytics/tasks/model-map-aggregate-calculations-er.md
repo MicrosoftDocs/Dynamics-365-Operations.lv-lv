@@ -1,10 +1,12 @@
 ---
 title: Modeļa kartējumu konfigurāciju izmantošana apkopotajiem aprēķiniem datu bāzes līmenī
-description: Šajā tēmā aprakstīts, kā izveidot jaunu elektronisko pārskatu veidošanas (ER) modeļa kartējuma konfigurāciju un izmantot iebūvētās ER funkcijas, lai nodrošinātu apkopoto aprēķinu efektivitāti.
+description: Izmantot šo procedūru, varat iegūt informāciju par to, kā izveidot jaunu elektronisko pārskatu veidošanas (ER) modeļa kartējuma konfigurāciju un izmantot iebūvētās ER funkcijas, lai nodrošinātu apkopoto aprēķinu efektivitāti.
 author: NickSelin
+manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9f4ca926414e36e04e6e908a55eebeca8c24a696da4bca0c1c3a6f836373627d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f1c4ddf0fac5ba962c3dab545bfa7e0df4afa948
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745868"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684119"
 ---
 # <a name="use-model-mapping-configurations-for-aggregate-calculations-at-the-database-level"></a>Modeļa kartējumu konfigurāciju izmantošana apkopotajiem aprēķiniem datu bāzes līmenī
 
@@ -114,6 +116,3 @@ Izmantot šo procedūru, varat iegūt informāciju par to, kā izveidot jaunu el
 68. Klikšķiniet Saglabāt.
     * Ņemiet vērā, ka lauks 'Izpilde' norāda, ka šī grupēšana tiks veikta izpildes laikā atmiņā pat tad, ja nav definēts neviens apkopojums un atlasītais datu avots, kura tips ir 'Tabulas ieraksti', attiecas uz to pašu 'Intrastat' tabulu. Tas skaidrojams ar to, ka datu avots satur dažus aprēķinātus laukus, kurus vēl nevar transformēt SQL datu bāzes līmenī.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

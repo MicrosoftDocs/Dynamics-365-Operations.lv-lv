@@ -1,10 +1,12 @@
 ---
 title: Līdzekļu mēri
 description: Tēmā ir paskaidrots, kā Līdzekļu pārvaldībā izveidot līdzekļu mēru tipus.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectCounterPart, EntAssetObjectCounterLookup, EntAssetCounterType, EntAssetObjectCounterTotals
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fc515615afaa172e1832508d79e202b166f134a9171a0a35ea4f372f9d19b7e2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 37f47b3d9ba0344b96db5626359e2a99a1a40f9c
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723579"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018525"
 ---
 # <a name="counters"></a>Skaitītāji
 
@@ -62,8 +64,5 @@ Skaitītāju reģistrāciju var atjaunināt manuāli vai automātiski, pamatojot
 
 Kad līdzekļu veidi tiek pievienoti skaitītāja veidam **Skaitītājos**, šis skaitītājs tiek automātiski pievienots līdzekļu veidiem kopsavilkuma cilnē **Skaitītāji** [Līdzekļu veidi](../setup-for-objects/object-types.md).
 
-![1. attēls.](media/071-setup-for-objects.png)
+![1. attēls](media/071-setup-for-objects.png)
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

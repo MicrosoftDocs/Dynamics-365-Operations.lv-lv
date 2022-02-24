@@ -2,30 +2,35 @@
 title: Konfigurēt vairākus B2C nomniekus Commerce vidē
 description: Šajā tēmā aprakstīts, kad un kā iestatīt vairākus katra kanāla Microsoft Azure Active Directory (Azure AD) biznesa-patērētāja (B2C) nomniekus lietotāja autentifikācijai īpašā Dynamics 365 Commerce vidē.
 author: BrianShook
-ms.date: 03/17/2021
+manager: annbe
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a372561b8a6cdca8e1a3dc362009379884f1a3414330f3f056d4c3af7703a132
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: da27e3ed0a0e50126590609d09575befe17a7aa2
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736408"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517131"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Konfigurēt vairākus B2C nomniekus Commerce vidē
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā aprakstīts, kad un kā iestatīt vairākus katra kanāla Microsoft Azure Active Directory (Azure AD) biznesa-patērētāja (B2C) nomniekus lietotāja autentifikācijai īpašā Dynamics 365 Commerce vidē.
+
+## <a name="overview"></a>Pārskats
 
 Dynamics 365 Commerce izmanto Azure AD B2C mākoņa identitātes pakalpojumu, lai atbalstītu lietotāja akreditācijas datus un autentifikācijas plūsmas. Lietotāji var izmantot autentifikācijas plūsmas, lai pieteiktos, pierakstītos un atjaunotu savu paroli. Azure AD B2C saglabā lietotāja sensitīvo autentifikācijas informāciju, piemēram, lietotāja vārdu un paroli. Lietotāja ieraksts ir unikāls katram B2C nomniekam, un tas izmanto vai nu lietotājvārda (e-pasta adreses) akreditācijas datus vai sociālās identitātes nodrošinātāja akreditācijas datus.
 
@@ -49,9 +54,13 @@ Bieži vien, kad katrs kanāls vai vieta tiek uzskatīts par atsevišķu biznesu
 
 Šajā attēlā redzami vairāki B2C nomnieki Commerce vidē.
 
-![Vairāki B2C nomnieki Commerce vidē.](media/MultiB2C_In_Environment.png)
+![Vairāki B2C nomnieki Commerce vidē](media/MultiB2C_In_Environment.png)
 
 Ja izlemjat, ka jūsu uzņēmumam ir nepieciešams atsevišķs B2C nomnieks vienam kanālam vienā un tajā pašā Commerce vidē, izpildiet tālāk norādītās darbības, lai pieprasītu šo līdzekli.
+
+## <a name="request-that-b2c-per-channel-be-enabled-in-your-environment"></a>Pieprasīt, lai jūsu vidē tiktu iespējots B2C vienam kanālam
+
+Ja vēlaties, lai katram kanālam būtu pieejams atšķirīgs B2C nomnieks, ir jāiesniedz pieprasījums Dynamics 365 Commerce. Papildinformāciju skatiet šeit [Saņemiet atbalstu Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md) vai apspriediet šo problēmu ar savu Commerce risinājumu kontaktpersonu.
 
 ## <a name="configure-b2c-tenants-in-your-environment"></a>Konfigurēt B2C nomniekus jūsu vidē
 
@@ -73,11 +82,11 @@ Lai savai videi pievienotu Azure AD B2C nomnieku, veiciet tālāk norādītās d
     - **Klienta GUID**: ievadiet Azure AD B2C nomnieka ID, kāds tas parādās Azure portālā (nevis programmas ID B2C nomniekam).
     - **Rediģēt profila politikas ID**: ievadiet politikas ID (politikas nosaukumu Azure portālā).
 
-1. Kad esat pabeidzis šīs informācijas ievadīšanu, atlasiet **Labi**, lai saglabātu veiktās izmaiņas. Jūsu jaunajam Azure AD B2C nomniekam tagad ir jāparādās sarakstā sadaļā **Pārvaldīt B2C programmas**.
+1. Kad esat pabeidzis šīs informācijas ievadīšanu, atlasiet **Labi**, lai saglabātu veiktās izmaiņas.
 
 > [!NOTE]
 > Jums ir jāatstāj tādi lauki kā, piemēram, **Tvērums**, **Neinteraktīvas politikas ID**, **Neinteraktīva klienta ID**, **Pieteikšanās pielāgots domēns** un **Pieteikšanās politikas ID** tukši, ja vien Dynamics 365 Commerce grupa jums nesniedz norādījumus to iestatīšanai.
-
+Jūsu jaunajam Azure AD B2C nomniekam tagad ir jāparādās sarakstā sadaļā **Pārvaldīt B2C programmas**.
 
 ### <a name="manage-or-delete-an-azure-ad-b2c-tenant"></a>Azure AD B2C nomnieka pārvaldīšana vai dzēšana
 
@@ -91,7 +100,6 @@ Lai savai videi pievienotu Azure AD B2C nomnieku, veiciet tālāk norādītās d
 > Kad B2C nomnieks ir konfigurēts dzīvai/publicētai vietai, lietotāji, iespējams, ir reģistrējušies, izmantojot kontu, kas ir nomniekā. Ja izdzēšat konfigurētu nomnieku izvēlnē **Nomnieka iestatījumi \> B2C nomnieks**, jūs noņemat šī B2C nomnieka saistību no vietām, kas ir saistītas ar jebkuru nomnieka kanālu. Šādā gadījumā lietotāji, iespējams, vairs nevarēs pieteikties savos kontos. Tāpēc, dzēšot konfigurēto nomnieku, esiet ļoti piesardzīgi.
 >
 > Kad konfigurētais nomnieks tiek dzēsts, B2C nomnieks un ieraksti joprojām tiks uzturēti, bet šī nomnieka Commerce sistēmas konfigurācija tiks mainīta vai noņemta. Lietotāji, kuri mēģina pierakstīties vai pieteikties vietā, izveidos jaunu konta ierakstu noklusējuma vai nesen saistītajā B2C nomniekā, kas ir konfigurēts vietas kanālam.
-
 ## <a name="configure-your-channel-with-a-b2c-tenant"></a>Konfigurējiet savu kanālu ar B2C nomnieku
 
 1. Piesakieties Commerce vietas veidotājam savai videi kā sistēmas administrators. Lai konfigurētu Azure AD B2C nomniekus, jums ir jābūt Commerce vides sistēmas administratoram.
@@ -123,6 +131,3 @@ Lai savai videi pievienotu Azure AD B2C nomnieku, veiciet tālāk norādītās d
 [Atbalsta pievienošana satura piegādes tīklam (CDN)](add-cdn-support.md)
 
 [Veikala noteikšanas iespējošana pēc atrašanās vietas](enable-store-detection.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

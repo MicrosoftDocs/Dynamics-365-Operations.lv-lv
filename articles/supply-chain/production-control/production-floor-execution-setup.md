@@ -2,35 +2,37 @@
 title: Ierīces iestatīšana ražotnes izpildes interfeisa palaišanai
 description: Ražotnes izpildes interfeiss tiek iestatīts visām ierīcēm ražotnē. Uzņēmumi parasti iestata katru ierīci atšķirīgi atkarībā no mērķa, kādam ierīce ir paredzēta. Piemēram, uzņēmumā var būt viena ierīce pieņemšanas zonā, kur darbinieki ierodas un aiziet, bet otra ražotnē, kur darbinieki pārvalda savus darbus.
 author: johanhoffmann
+manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgProductionFloorExecution, HcmWorker, JmgProductionFloorExecutionDeviceConfiguration
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f0be79b54a279893f93d41981342e42c8880f059
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
-ms.translationtype: MT
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: d4529af21d9673512889b17aeb1e7fbd49969cdc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752836"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966283"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Ierīces iestatīšana ražotnes izpildes interfeisa palaišanai
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Ražotnes izpildes interfeiss tiek iestatīts visām ierīcēm ražotnē. Uzņēmumi parasti iestata katru ierīci atšķirīgi atkarībā no mērķa, kādam ierīce ir paredzēta. Piemēram, uzņēmumā var būt viena ierīce pieņemšanas zonā, kur darbinieki ierodas un aiziet, bet otra ražotnē, kur darbinieki pārvalda savus darbus.
 
 ## <a name="set-the-configuration-and-filters-for-a-specific-device"></a>Iestatīt konfigurāciju un filtrus noteiktai ierīcei
 
-Lai uzstādītu ierīces konfigurācijas un darbu filtrus, piesakieties lapā Ražošanas stāva izpilde, izmantojot kontu, kam ir drošības loma, kas ietver laika uzraudzības **·** pienākumu *·* uzturēšana. (No visām iebūvētajām drošības lomām šis pienākums ir tikai *Ražotnes uzraudzītājam*.) Pēc tam veiciet tālāk norādītās darbības.
+Lai iestatītu ierīces konfigurācijas un darba filtrus, pierakstieties lapā **Ražotnes izpilde**, izmantojot kontu, kam ir drošības loma, kura ietver pienākumu *Uzturēšanas laika uzraudzītājs*. (No visām iebūvētajām drošības lomām šis pienākums ir tikai *Ražotnes uzraudzītājam*.) Pēc tam veiciet tālāk norādītās darbības.
 
-1. Dodieties uz ierīci, ko vēlaties iestatīt, un pierakstieties programmā Microsoft Dynamics 365 Supply Chain Management kā ražotnes uzraudzītājs. (Izmantojiet kontu, kurā ietilpst *Uzturēt laika uzraudzības* pienākumu.)
+1. Dodieties uz ierīci, ko vēlaties iestatīt, un pierakstieties programmā Microsoft Dynamics 365 Supply Chain Management kā ražotnes uzraudzītājs. (Izmantojiet kontu, kas ietver pienākumu *Uzturēšanas laika uzraudzītājs*.)
 1. Pārliecinieties, ka konfigurācija ir pieejama ierīcei, kuru iestatāt. Ja konfigurācija jau pastāv, tiek nodrošināta noklusējuma konfigurācija. Papildinformāciju par to, kā iestatīt konfigurāciju, skatiet tēmā [Ražotnes izpildes interfeisa konfigurēšana](production-floor-execution-configure.md).
 1. Dodieties uz **Ražošanas kontrole \> Ražošanas izpilde \> Ražotnes izpilde**.
 
@@ -70,13 +72,10 @@ Bieži vien palaidīsit ražotnes izpildes interfeisu, izmantojot ierīci, kas t
 
 Attēla zemāk augšējā daļā ir parādīts, kā interfeiss izskatās pēc noklusējuma. Apakšējā daļā ir parādīts, kā tas izskatās pilnekrāna režīmā, kad navigācijas rūts ir paslēpta.
 
-![Standarta pret pilnekrāna interfeiss.](media/pfei-full-screen.png "Standarta pret pilnekrāna interfeiss")
+![Standarta pret pilnekrāna interfeiss](media/pfei-full-screen.png "Standarta pret pilnekrāna interfeiss")
 
 ## <a name="extend-the-session-past-12-hours"></a>Pagarināt sesijas pēdējās 12 stundas
 
 Pēc noklusējuma ražotnes interfeiss automātiski izrakstās, ja neviens to neizmanto 12 stundu laikā. Supply Chain Management lietotājam pēc tam ir jāpierakstās no jauna. Taču taimauta ierobežojumu var pagarināt līdz 90 dienām.
 
 Lai pagarinātu taimauta ierobežojumu, pierakstieties programmā Supply Chain Management un dodieties uz **Sistēmas administrēšana \> Lietotāji \> Sesijas paplašinājumi**. Norādiet Supply Chain Management lietotāja kontu, kas tiek izmantots, lai pierakstītos ierīcē, un stundu skaitu, cik ilgi sesijai jāpaliek aktīvai.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,32 +1,33 @@
 ---
 title: Noņemt instanci
-description: Šajā tēmā ir detalizēti aprakstīts, kā noņemt izmēģinājuma vai ražošanas vidi programmā Microsoft Dynamics 365 Human Resources.
-author: twheeloc
-ms.date: 08/11/2021
+description: Šajā rakstā ir detalizēti aprakstīts, kā noņemt izmēģinājuma vai ražošanas vidi Microsoft Dynamics 365 Human Resources.
+author: andreabichsel
+manager: AnnBe
+ms.date: 08/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e32058280d0cb1eab436bc25bd29bc3e39fabc92
-ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
+ms.openlocfilehash: 0a8eac74f0d840251ab56445dd5af4d19d3c0490
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7393501"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419581"
 ---
 # <a name="remove-an-instance"></a>Noņemt instanci
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Šajā tēmā ir detalizēti aprakstīts, kā noņemt izmēģinājuma vai ražošanas vidi programmā Microsoft Dynamics 365 Human Resources.
+Šajā rakstā ir detalizēti aprakstīts, kā noņemt izmēģinājuma vai ražošanas vidi Microsoft Dynamics 365 Human Resources.
 
 ## <a name="remove-a-test-drive-environment"></a>Izmēģinājuma vides noņemšana
 
@@ -41,7 +42,7 @@ Esošā izmēģinājuma vide tiek noņemta. Kad tā ir noņemta, jūs varat reģ
 
 ## <a name="remove-a-production-environment"></a>Ražošanas vides noņemšana
 
-Šajā tēmā tiek pieņemts, ka esat iegādājies Human Resources, noslēdzot mākoņpakalpojumu nodrošinātāja (Cloud Solution Provider — CSP) vai uzņēmuma arhitektūras (enterprise architecture — EA) līgumu. 
+Šajā rakstā tiek pieņemts, ka esat iegādājies Human Resources, noslēdzot mākoņpakalpojumu nodrošinātāja (Cloud Solution Provider — CSP) vai uzņēmuma arhitektūras (enterprise architecture — EA) līgumu. 
 
 Tā kā katra Human Resources vide ir ietverta atsevišķā Power Apps vidē, ir pieejamas divas iespējas. Pirmā iespēja ietver visas Power Apps vides noņemšanu, bet otrā iespēja ietver tikai Human Resources vides noņemšanu. Pirmo iespēju ir ieteicams izvēlēties gadījumā, ja esat izveidojis Power Apps vidi tikai Human Resources nodrošināšanai un esat tikko sācis ieviešanu vai vēl nav izveidota neviena integrācija. Otrā iespēja ir piemērota gadījumā, ja jums ir izveidota Power Apps vide ar bagātīgiem datiem, kas ir saistīti ar Power Apps un Power Automate.
 
@@ -55,7 +56,7 @@ Lai noņemtu visu Power Apps vidi, tostarp Human Resources vidi un saistītās p
 3. Atlasiet noņemamo vidi.
 4. Atlasiet **Dzēst** un apstipriniet dzēšanu. 
 5. Uzgaidiet, līdz ir pabeigta dzēšana.
-6. Pierakstieties [Lifecycle Services](https://lcs.dynamics.com/Logon/Index) (LCS), izmantojot kontu, ko izmantojāt, lai abonētu Human Resources. 
+6. Pierakstieties [Lifecycle Services](https://lcs.dynamics.com/Logon/Index) (LCS), izmantojot kontu, ko izmantojāt, lai abonētu Human Resources. 
 7. Atlasiet Human Resources projektu, kurā ir ietverta vide. 
 8. Savā LCS projektā atlasiet elementu **Human Resources programmas pārvaldība**. 
 9. Atlasiet noņemamo instanci. 
@@ -80,10 +81,7 @@ Lai atjaunotu vidi:
 
 1. Sekojiet norādījumiem sadaļā [Atjaunot Power Apps vidi](/power-platform/admin/recover-environment.md).
 
-2. Sazinieties ar atbalsta dienestu, lai atjaunotu Personāla vadības vidi. Lai iegūtu papildinformāciju, skatiet [Iegūt atbalstu](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
+2. Sazinieties ar atbalsta dienestu, lai atjaunotu Personāla vadības vidi. Lai iegūtu papildinformāciju, skatiet [Iegūt atbalstu](hr-admin-troubleshooting-support.md).
 
 > [!Warning]
 > Power Apps vides tiek saglabātas tikai septiņas dienas pēc to dzēšanas. Jums ir jāatjauno vide septiņu dienu laikā.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,37 +1,42 @@
 ---
-title: Sākumlapas pārskats
-description: Šajā tēmā ir sniegts pārskats par programmas Microsoft Dynamics 365 Commerce mājas lapu.
+title: Mājas lapas pārskats
+description: Šajā tēmā ir sniegts pārskats par Microsoft Dynamics 365 Commerce mājas lapu.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4c65d040696a72a42c89934533bad6a69c5923f5
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 3ebc8b4ebd3720815cdaaab708fbfdd8302cbea1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984498"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414157"
 ---
-# <a name="home-page-overview"></a>Sākumlapas pārskats
+# <a name="home-page-overview"></a>Mājas lapas pārskats
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir sniegts pārskats par programmas Microsoft Dynamics 365 Commerce mājas lapu.
+Šajā tēmā ir sniegts pārskats par Microsoft Dynamics 365 Commerce mājas lapu.
+
+## <a name="overview"></a>Pārskats
 
 Mājas lapa ir noklusējuma lapa, kur pircēji dodas, kad tie apmeklē e-tirdzniecības vietni. Parasti šī lapa parāda preces un veicināšanas pasākumus, izmantojot mārketinga moduļu kombināciju. Mājas lapai jābūt papildinātai ar attēliem un tekstu, lai iesaistītu pircējus.
 
 Tālāk redzamajā attēlā ir parādīts mājas lapas piemērs, kura izveidota, izmantojot moduļu bibliotēku un “Fabrikam” tēmu.
 
-![Mājas lapas piemērs.](./media/Homepage2.PNG)
+![Mājas lapas piemērs](./media/Homepage2.PNG)
 
 Mājas lapas augšpusē ir virsraksts, kas parāda visas preču kategorijas un citas lapas, kuras mazumtirgotājs vēlas, lai klienti pārlūkotu. Mājas lapas apakšpusē ir kājene, kas ietver ātras saites uz dažādām tēmām, kas varētu interesēt pircējus.
 
@@ -41,13 +46,13 @@ Mājas lapas galvenā sadaļa var izcelt preces, kategorijas vai veicināšanas 
 
     Tālāk redzamajā attēlā parādīts mājas lapas piemērs, kur pirmā prece galvenajā sadaļā ir satura bloka izkārtojuma hero modulis ar nosaukumu "Jaunumi".
 
-    ![Hero moduļa piemērs.](./media/Hero.PNG)
+    ![Hero moduļa piemērs](./media/Hero.PNG)
 
 - **Līdzeklis** — līdzekļa izkārtojums satura bloka modulim tiek izmantots, lai reklamētu preces vai veicināšanas pasākumus, izmantojot attēlu un teksta kombināciju. Līdzekļu izkārtojumus var izmantot neatkarīgi, vai arī tos var viesot karuseļa modulī.
 
     Tālāk esošajā attēlā redzams satura bloka moduļa līdzekļa izkārtojuma piemērs mājas lapā.
 
-    ![Līdzekļu moduļu piemēri.](./media/Feature.PNG)
+    ![Līdzekļu moduļu piemēri](./media/Feature.PNG)
 
 - **Elements** — satura bloka elementa izkārtojuma modulis tiek izmantots, lai parādītu vairākas preces vai preču kategorijas, izmantojot attēlu un teksta kombināciju daudzkolonnu izkārtojumā. Mājas lapas attēlā, kas parādīts iepriekš šajā tēmā, tiek lietots elementa izkārtojums modulis, kas tiek izmantots elementu **Iepirkties sievietēm**, **Iepirkties vīriešiem** un **Pirkt aksesuārus** trīs kolonnu atveidē.
 - **Video atskaņotājs** — video atskaņotāja modulis var tikt izmantots, lai mājas lapā parādītu video saturu. Mājas lapas ilustrācija, kas parādīta iepriekš šajā tēmā, ietver video atskaņotāja moduli.
@@ -56,7 +61,7 @@ Mājas lapas galvenā sadaļa var izcelt preces, kategorijas vai veicināšanas 
 
     Tālāk redzamajā attēlā parādīts preču ieteikuma moduļu piemērs mājas lapā.
 
-    ![Preču ieteikumu moduļu piemēri.](./media/Recommendations.PNG)
+    ![Preču ieteikumu moduļu piemēri](./media/Recommendations.PNG)
 
 > [!NOTE]
 > Visus šeit uzskaitītos moduļus var izmantot jebkurā vietnes lapā. Tomēr to izvietošana mājas lapā ir svarīga, jo šī lapa ir vieta, kur klienti pirmo reizi mijiedarbojas ar jūsu vietni.
@@ -68,6 +73,3 @@ Mājas lapas galvenā sadaļa var izcelt preces, kategorijas vai veicināšanas 
 [Pārskats par grozu un norēķināšanās lapām](quick-tour-cart-checkout.md)
 
 [Konta pārvaldības lapu pārskats](quick-tour-account-management.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

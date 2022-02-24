@@ -80,6 +80,3 @@ Ja rodas problēmas, publicējot darbus LinkedInt, skatiet sadaļu [Problēmu no
 [SKandidātu piesaiste, izmantojot LinkedIn Recruiter](./attract-linkedin-recruiter.md)
 
 [Integrācijas ar LinkedIn problēmu novēršana](./attract-troubleshoot-linkedin.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

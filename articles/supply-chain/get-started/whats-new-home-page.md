@@ -2,24 +2,26 @@
 title: Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management
 description: Šī tēma norāda uz tēmām, kas apraksta jaunos un mainītos līdzekļus katrā Dynamics 365 Supply Chain Management laidienā.
 author: kamaybac
+manager: tfehr
 ms.date: 12/08/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
-ms.custom: intro-internal
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 4c37a91a00aa6b7896bfbf9b57567a25c30d8b35
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
-ms.translationtype: MT
+ms.openlocfilehash: 3350afc5f9537a0bd97b9c5257a66039b9dcb55c
+ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075128"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5014562"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management
 
@@ -31,15 +33,6 @@ Lai redzētu, kas jauns vai mainīts katrā Dynamics 365 Supply Chain Management
 
 | Versija | Procesa numurs | Automātiskā atjauninājuma pieejamība | Papildinformācija |
 |---|---|---|---|
-| 10.0.25 | 10.0.1149 | 2022. aprīlis | [Priekšskatījums Dynamics 365 Supply Chain Management 10.0.25](whats-new-scm-10-0-25.md) |
-| 10.0.24 | 10.0.1084 | 2022. februāris | [Jaunumi un izmaiņas risinājumā Dynamics 365 Supply Chain Management 10.0.24](whats-new-scm-10-0-24.md) |
-| 10.0.23 | 10.0.1037 | 2022. janvāris | [Jaunumi un izmaiņas risinājumā Dynamics 365 Supply Chain Management 10.0.23](whats-new-scm-10-0-23.md) |
-| 10.0.22 | 10.0.995 | 2021. gada novembris | [Jaunumi un izmaiņas risinājumā Dynamics 365 Supply Chain Management 10.0.22](whats-new-scm-10-0-22.md) |
-| 10.0.21 | 10.0.960 | 2021. oktobris | [Jaunumi un izmaiņas risinājumā Dynamics 365 Supply Chain Management 10.0.21](whats-new-scm-10-0-21.md) |
-| 10.0.20 | 10.0.886 | 2021. gada augusts | [Jaunumi un izmaiņas programmas Dynamics 365 Supply Chain Management versijā 10.0.20](whats-new-scm-10-0-20.md) |
-| 10.0.19 | 10.0.837 | 2021. jūnijs | [Jaunumi un izmaiņas programmas Dynamics 365 Supply Chain Management versijā 10.0.19](whats-new-scm-10-0-19.md) |
-| 10.0.18 | 10.0.793 | 2021. maijs | [Jaunumi un izmaiņas programmas Dynamics 365 Supply Chain Management versijā 10.0.18](whats-new-scm-10-0-18.md) |
-| 10.0.17 | 10.0.761 | 2021. aprīlis | [Jaunumi un izmaiņas programmas Dynamics 365 Supply Chain Management versijā 10.0.17](whats-new-scm-10-0-17.md) |
 | 10.0.16 | 10.0.689 | 2021. februāris | [Jaunumi un izmaiņas programmas Dynamics 365 Supply Chain Management versijā 10.0.16](whats-new-scm-10-0-16.md) |
 | 10.0.15 | 10.0.644 | 2021. janvāris | [Jaunumi un izmaiņas programmas Dynamics 365 Supply Chain Management versijā 10.0.15](whats-new-scm-10-0-15.md) |
 | 10.0.14 | 10.0.605 | 2020. gada novembris | [Jaunumi un izmaiņas programmas Dynamics 365 Supply Chain Management versijā 10.0.14](whats-new-scm-10-0-14.md) |
@@ -63,7 +56,7 @@ Lai redzētu, kas jauns vai mainīts katrā programmas laidienā līdz 2019. gad
 | Microsoft Dynamics 365 for Finance and Operations                     | 10.0.3      | 10.0.107         | 2019. jūnijs        | [Jaunumi un izmaiņas programmas Dynamics 365 for Finance and Operations versijā 10.0.3 (2019. gada jūnijs)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-3.md)                    |
 | Microsoft Dynamics 365 for Finance and Operations                     | 10.0.2      | 10.0.80          | 2019. maijs         | [Jaunumi un izmaiņas programmas Dynamics 365 for Finance and Operations versijā 10.0.2 (2019. gada maijs)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-2.md)                     |
 | Microsoft Dynamics 365 for Finance and Operations                     | 10.0.1      | 10.0.51          | 2019. aprīlis       | [Jaunumi un izmaiņas programmas Dynamics 365 for Finance and Operations versijā 10.0.1 (2019. gada aprīlis)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-1.md)                   |
-| Microsoft Dynamics 365 for Finance and Operations                     | 10.0        | 10.0.8           | 2019. aprīlis       | [Jaunumi un izmaiņas Finance and Operations versijā 10.0 (2019. gada aprīlis) ](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-1.md)                                      |
+| Microsoft Dynamics 365 for Finance and Operations                     | 10.0        | 10.0.8           | 2019. aprīlis       | [Jaunumi un izmaiņas programmas Finance and Operations versijā 10.0 (2019. gada aprīlis)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-1.md)                                      |
 | Microsoft Dynamics 365 for Finance and Operations                     | 8.1.3       | 8.1.227          | 2019. gada janvāris     | [Jaunumi un izmaiņas programmas Dynamics 365 for Finance and Operations versijā 8.1.3 (2019. gada janvāris)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-8-1-3.md)                   |
 | Microsoft Dynamics 365 for Finance and Operations                     | 8.1.2       | 8.1.195          | 2018. decembris    | [Jaunumi un izmaiņas programmas Dynamics 365 for Finance and Operations versijā 8.1.2 (2018. gada decembris)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-8-1-2.md)                  |
 | Microsoft Dynamics 365 for Finance and Operations                     | 8.1.1       | 8.1.170          | 2018. oktobris     | [Jaunumi un izmaiņas programmas Dynamics 365 for Finance and Operations versijā 8.1.1 (2018. gada oktobris)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-8-1-1.md)                   |
@@ -74,6 +67,3 @@ Lai redzētu, kas jauns vai mainīts katrā programmas laidienā līdz 2019. gad
 | Microsoft Dynamics 365 for Operations                                 | 1611        | 7.1.1541.3036    | 2016. gada novembris    | [Jaunumi un izmaiņas programmas Dynamics 365 for Operations versijā 1611 (2016. gada novembris)](../../fin-ops-core/fin-ops/get-started/whats-new-dynamics-365-operations-1611.md)                |
 | Microsoft Dynamics AX                                                 | 7.0.1       | 7.0.1265.23014   | 2016. maijs         | [Jaunumi un izmaiņas Dynamics AX programmas versijā 7.0.1 (2016. gada maijs)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-application-version-7-0-1-may-2016.md)          |
 | Microsoft Dynamics AX                                                 | 7.0         | 7.0.1265.3015    | 2016. februāris    | [Jaunumi un izmaiņas programmā Dynamics AX 7.0 (2016. gada februāris)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-7-0-february-2016.md)                                            |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

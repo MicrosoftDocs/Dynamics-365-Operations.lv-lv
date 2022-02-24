@@ -2,9 +2,11 @@
 title: Darba sadale
 description: Šajā tēmā ir sniegta informācija par darba sadales funkcionalitāti. Šī funkcionalitāte ļauj sadalīt lielus darba pasūtījumus vairākos mazākos darba pasūtījumos, kurus pēc tam var piešķirt vairākiem noliktavas darbiniekiem. Tādējādi vienu un to pašu darbu var vienlaikus paņemt vairāki noliktavas darbinieki.
 author: mirzaab
+manager: tfehr
 ms.date: 10/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -12,17 +14,15 @@ ms.search.region: Global
 ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 8b06164a81a18548cf9d98ea2f577b5783145100
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
-ms.translationtype: MT
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: 8a530f3887c3c66295177d480a8c486dd0984153
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778261"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965531"
 ---
 # <a name="work-split"></a>Darba sadale
-
-[!include [banner](../includes/banner.md)]
 
 Darba sadales funkcionalitāte ļauj sadalīt lielus darba ID (proti, darba pasūtījumus, kuriem ir vairākas rindas) vairākos mazākos darba ID, kurus pēc tam var piešķirt vairākiem noliktavas darbiniekiem. Tādējādi vienu un to pašu darba izveides numuru var vienlaikus paņemt vairāki noliktavas darbinieki.
 
@@ -33,7 +33,7 @@ Darba sadales funkcionalitāte ļauj sadalīt lielus darba ID (proti, darba pas�
 
 Lai varētu izmantot darba sadales funkcionalitātiu, sistēmā ir jāieslēdz līdzeklis un tā priekšnosacījuma līdzeklis. Administratori var izmantot [līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļu statusu un tos ieslēgtu pēc vajadzības.
 
-Vispirms ieslēdziet priekšnosacījuma *Organizācijas mēroga darba aizturēšana* līdzekli, ja tas vēl nav ieslēgts. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.21 šī funkcija ir obligāta, tāpēc tā ir ieslēgta pēc noklusējuma un to nevar atkal izslēgt. Tomēr šis līdzeklis joprojām ir [uzskaitīts Līdzekļu](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pārvaldībā šādā veidā:
+Vispirms ieslēdziet priekšnosacījuma *Organizācijas mēroga darba aizturēšana* līdzekli, ja tas vēl nav ieslēgts. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
 
 - **Modulis:** *Noliktavas pārvaldība*
 - **Līdzekļa nosaukums:** *Organizācijas līmeņa darba aizturēšana*
@@ -53,7 +53,7 @@ Pēc tam ieslēdziet līdzeli *Darba sadale*, kas ir norādīts tālāk norādī
 - **Sadalīt darbu** – sadala pašreizējā darba ID vairākos mazākos darba ID, kurus var apstrādāt atsevišķi darbinieki.
 - **Atcelt darba sadales sesiju** — atceļ darba sadales sesiju un padara darbu pieejamu apstrādei.
 
-![Pogas Darba sadale un Atcelt darba sadales sesiju.](media/Work_split_buttons.png "Pogas Darba sadale un Atcelt darba sadales sesiju")
+![Pogas Darba sadale un Atcelt darba sadales sesiju](media/Work_split_buttons.png "Pogas Darba sadale un Atcelt darba sadales sesiju")
 
 > [!IMPORTANT]
 > Poga **Darba sadale** nav pieejama, ja ir izpildīts kāds no tālāk minētajiem nosacījumiem.
@@ -69,7 +69,7 @@ Pēc tam ieslēdziet līdzeli *Darba sadale*, kas ir norādīts tālāk norādī
 >
 > - Pašlaik darbu sadala cits lietotājs. Ja mēģināt atvērt sadalīšanas lapu darbam, ko jau ir sadalījis cits lietotājs, tiek parādīts šāds kļūdas ziņojums: "Darbs ar ID \#\#\#\# pašlaik tiek sadalīts. Pēc dažām minūtēm mēģiniet vēlreiz. Ja turpināt saņemt šādu paziņojumu, sazinieties ar vadītāju."
 
-Jauns darba aizturēšanas iemesls *Sadalīt darbu* norāda, kad darba ID atrodas sadalīšanas procesā. Tas ir redzams gan lapā **Sadalīt darbu**, gan Warehouse Management mobile programmā, ja lietotājs mēģina palaist darbu. Ja tiek izmantoti aizturēšanas iemesli, lauka nosaukums **Aizturēts kopums** no darba ID tiek mainīts uz **Aizturēts**.
+Jauns darba aizturēšanas iemesls *Sadalīt darbu* norāda, kad darba ID atrodas sadalīšanas procesā. Tas ir redzams gan lapā **Sadalīt darbu** lapā, gan noliktavas programmā, ja lietotājs mēģina palaist darbu. Ja tiek izmantoti aizturēšanas iemesli, lauka nosaukums **Aizturēts kopums** no darba ID tiek mainīts uz **Aizturēts**.
 
 ## <a name="initiate-a-work-split"></a>Sākt darba sadali
 
@@ -96,7 +96,7 @@ Lai sadalītu darbu, veiciet tālāk norādītās darbības.
 
     Lauks pašreizējam darbam **Darba aizturēšanas iemesls** tiks iestatīts uz *Sadalīt darbu*, un darbs tiks aizturēts.
 
-    ![Aizturēšanas iemesls.](media/Blocking_reason.png "Aizturēšanas iemesls")
+    ![Aizturēšanas iemesls](media/Blocking_reason.png "Aizturēšanas iemesls")
 
 1. Atlasiet rindas, kas jānoņem no pašreizējā darba ID un jāpievieno jaunā darba ID. Notiek tālāk aprakstītie notikumi:
 
@@ -147,13 +147,10 @@ Lai pabeigtu darba sadali, ir jānoņem *Sadalīt darbu* aizturēšanas iemesls.
 
 Kad *Sadalīt darbu* aizturēšanas iemesls ir noņemts, darbu var palaist mobilajā ierīcē, ar nosacījumu, ka stāvoklis **Aizturēts** darba ID ir iestatīts uz *Nē*.
 
-## <a name="user-blocking-on-the-warehouse-management-mobile-app"></a>Kustības bloķēšana Warehouse Management mobile programmā
+## <a name="user-blocking-on-the-warehouse-app"></a>Lietotāja aizturēšana noliktavas programmā
 
-Ja mēģināt izmantot Warehouse Management mobile programmu, lai palaistu saņemšanas darbu darba ID, kas jau ir sadalīts, saņemsit šādu kļūdas ziņojumu: "Darbs ar ID \#\#\#\# pašlaik tiek sadalīts." Ja saņemat šo ziņojumu, atlasiet **Atcelt**. Pēc tam varat turpināt apstrādāt citu darbu.
+Ja mēģināt izmantot noliktavas programmu, lai palaistu saņemšanas darbu darba ID, kas jau ir sadalīts, saņemsit šādu kļūdas ziņojumu: "Darbs ar ID \#\#\#\# pašlaik tiek sadalīts." Ja saņemat šo ziņojumu, atlasiet **Atcelt**. Pēc tam varat turpināt apstrādāt citu darbu.
 
 ## <a name="other-blocked-operations"></a>Citas aizturētās operācijas
 
 Visas operācijas, kas pārveido darba rindas, darba krājumu darbības vai papildināšanas saites, kas saistītas ar sadalāmo darbu, neizdosies, un tiks parādīts šāds kļūdas ziņojums: "Darbs ar ID \#\#\#\# pašlaik tiek sadalīts."
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

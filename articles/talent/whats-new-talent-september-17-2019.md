@@ -59,6 +59,3 @@ Ar šīs nedēļas atjauninājumu personāla vadības speciālisti varēs redzē
 Šī funkcionalitāte tagad ir pieejama smilškastes vidē. Lai ieslēgtu šo līdzekli, dodieties uz **Sistēmas administrēšana > Saites > Iestatīšana > Sistēmas parametri > Priekšskatījuma līdzekļi**. Atlasiet **Uzlabotā darbinieka veidlapa un navigācija**. Tas ļaus iespējot šīs izmaiņas visiem lietotājiem. Šo opciju varat izslēgt jebkurā laikā.
 
 Papildinformāciju skatiet rakstā [Racionalizēts darbinieka ieraksts un navigācija](./streamlined-employee-entry.md). Lai skatītu izmaiņas, noskatieties video [Dynamics 365 for Talent 2019 laidiena kopuma 2. pārskats](https://aka.ms/ROGT19RW2ROV).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

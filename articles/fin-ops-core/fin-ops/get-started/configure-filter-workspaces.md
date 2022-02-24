@@ -2,9 +2,11 @@
 title: Konfigurēt un filtrēt darbvietas
 description: Šajā rakstā ir sniegts pārskats par to, kā konfigurēt un filtrēt darbvietas.
 author: jasongre
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankTreasurerWorkspace, HcmBenefitWorkspace, BudgetPlanningWorkspace, BusinessProcessGenericWorkspace, RetailCatalogManagementWorkspace, RetailCategoryAndProductWorkspace, RetailChannelManagementWorkspace, HcmCompensationWorkspace, CAMCostAccountingLedgerAdminWorkspace, CostAdminWorkspace, CostAnalysisWorkspace, CAMCostControlWorkspace, CustomerCollectionManagerWorkspace, CustomerInvoiceWorkspace, CustPaymentWorkspace, DataManagementWorkspace, DataValidationWorkspace, ERWorkspace, LedgerPeriodCloseProjectWorkspace, AssetWorkspace, GeneralJournalEntryWorkspace, VendVendorPortalInvoiceWorkspace, BudgetTrackingWorkspace, ReqCreatePlanWorkspace, BusinessProcessGenericOwnerWorkspace, SelfHealingWorkspace, WHSOutboundWorkMonitoringWorkspace, WHSWavePlanningWorkspace, PayrollWorkspace, HcmWorkforceWorkspace, RetailDiscountPricingWorkspace, EcoResProductDiscreteManufacturingWorkspace, KanbanPrepareProductForLeanWorkspace, EcoResProductProcessManufacturingWorkspace, EcoResProductVariantMaintainWorkspace, JmgShopSupervisorWorkspace, ProjProjectManagementWorkspace, VendVendorPortalWorkspace, PurchOrderMaintainWorkspace, PurchOrderProcessReceiptsWorkspace, HcmRecruitmentWorkspace, EcoResProductMaintainWorkspace, FMClerkWorkspace, OpResLifecycleManagementWorkspace, RetailITWorkspace, RetailChannelOperationsWorkspace, RetailStoreManagementWorkspace, SalesOrderProcessingWorkspace, SalesReturnWorkspace, SystemAdministrationWorkspaceForm, VendVendorRequestForQuotationsWorkspace, VendVendorProfileManagementWorkspace, VendInvoiceWorkspace, VendPaymentWorkspace
 audience: Application User
@@ -15,19 +17,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e96b61457f222836d50a75ed15305c3c1267600c
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 10f7e790fdab3866958af1fa131d25735f69a58c
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068738"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798455"
 ---
 # <a name="configure-and-filter-workspaces"></a>Konfigurēt un filtrēt darbvietas
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Šajā rakstā ir sniegts pārskats par to, kā konfigurēt un filtrēt darbvietas.
 
@@ -35,11 +34,11 @@ ms.locfileid: "8068738"
 
 Dažām darbvietām varat mainīt izskatu un darbību, atjauninot iestatījumus, kuri attiecas uz visu darbvietu. Ja darbvietu var konfigurēt, darbību rūtī ir iekļauta poga, kas jums norāda, ka uz tās ir jānoklikšķina, lai veiktu konfigurācijas izmaiņas. Piemēram, nākamajā attēlā pogas nosaukums ir **Konfigurēt manu darbvietu**.
 
-[![configure-and-filter-workspaces.](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)
+[![configure-and-filter-workspaces](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)
 
 Kad noklikšķināt uz šīs pogas, tiek atvērts dialoglodziņš, kurā varat modificēt darbvietas iepriekš definētos iestatījumus. Konkrētie šajā dialoglodziņā redzamie iestatījumi ir atkarīgi no darbvietas, kā arī no konkrētajām darbvietā pieejamajām vadīklām un biznesa datiem.
 
-[![configure-my-workspace.](./media/configure-my-workspace.png)](./media/configure-my-workspace.png)
+[![configure-my-workspace](./media/configure-my-workspace.png)](./media/configure-my-workspace.png)
 
 ## <a name="filtering-a-workspace"></a>Darbvietas filtrēšana
 
@@ -49,11 +48,11 @@ Daudzas darbvietas jums ļauj filtrēt tajās rādīto saturu. Pieejamās vadīk
 
 Izmantojot darbvietas mēroga filtru, varat filtrēt visu darbvietu. Darbvietas mēroga filtrs tiek rādīts darbvietas kreisajā augšējā stūrī. Kad nolaižamajā sarakstā atlasāt kādu noteiktu vērtību, darbvietas saturs tiek filtrēts, pamatojoties uz šo atlasi.
 
-[![workspace-filter.](./media/workspace-filter.png)](./media/workspace-filter.png)
+[![workspace-filter](./media/workspace-filter.png)](./media/workspace-filter.png)
 
 Kad noklikšķināt, lai šo filtru atvērtu, jums tiek sniegtas vairākas opcijas.
 
-[![workspace-filter-expanded.](./media/workspace-filter-expanded.png)](./media/workspace-filter-expanded.png)
+[![workspace-filter-expanded](./media/workspace-filter-expanded.png)](./media/workspace-filter-expanded.png)
 
 Atlasiet kādu opciju, lai darbvietu filtrētu, pamatojoties uz šo opciju.
 
@@ -61,9 +60,6 @@ Atlasiet kādu opciju, lai darbvietu filtrētu, pamatojoties uz šo opciju.
 
 Ja atsevišķām darbvietas sadaļām ir filtri, katru sadaļu varat filtrēt atsevišķi. Nākamajā attēlā filtrs (lauks, kas satur tekstu “Filtrs”) ir brīvas formas teksta filtra piemērs.
 
-[![workspace-section-filters.](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)
+[![workspace-section-filters](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)
 
 Tāpat kā ar darbvietas mēroga filtru, laukā atlasiet vai ievadiet kādu vērtību, lai filtrētu sadaļas saturu.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

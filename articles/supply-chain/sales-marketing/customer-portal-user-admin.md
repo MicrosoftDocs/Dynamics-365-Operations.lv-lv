@@ -1,28 +1,30 @@
 ---
-title: Izveidot un pārvaldīt klientu portāla lietotājus (satur video)
+title: Debitoru portāla lietotāju izveide un pārvaldība
 description: Šajā tēmā ir izskaidrots, kā izveidot Debitoru portāla lietotāju kontus un iestatīt tiem atļaujas.
-author: Henrikan
+author: dasani-madipalli
+manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: henrikan
+ms.author: damadipa
 ms.search.validFrom: 2020-04-22
-ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 4615182e6c3341a376e8e55a1417480e3e3f5ea7
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: e2001d5c0b17ecadf4cb42529d9beb4b3b81805a
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062494"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528297"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Debitoru portāla lietotāju izveide un pārvaldība
 
-[!include [banner](../includes/banner.md)]
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Standarta ieviešanas gadījumā lietotājiem nav iespēju pašiem reģistrēties tīmekļa vietnēm, kas izveidotas, izmantojot Debitoru portālu. Lai pierakstītos tīmekļa vietnē un to izmantotu, administratoram lietotāji ir jāuzaicina. Korporācija Microsoft ar nolūku ir bloķējusi lietotāju pašu reģistrācijas iespēju.
 
@@ -33,38 +35,38 @@ Kad lietotāji pašreģistrējas, kontaktpersonu ieraksti tiek izveidoti automā
 ## <a name="video"></a>Video
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ADkI]
 
-The [Aiciniet klientus reģistrēties un izmantot jūsu klientu portālu](https://youtu.be/drGUYHX9QIQ) video (parādīts iepriekš) ir iekļauts [Finance and Operations atskaņošanas saraksts](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) pieejams YouTube.
+Video (parādīts iepriekš) [Aicināt klientus reģistrēties un izmantot jūsu klientu portālu](https://youtu.be/drGUYHX9QIQ) ir iekļauts [Finance and Operations atskaņošanas sarakstā](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), kas ir pieejams vietnē YouTube.
 
 ## <a name="prerequisite-setup"></a>Priekšnoteikumu iestatīšana
 
-Kontakti Power Apps portālos tiek saglabāti kā ieraksti tabulā **Kontaktpersonas** pakalpojumā Microsoft Dataverse. Pēc tam duālais ieraksts pēc vajadzības sinhronizē šos ierakstus ar Microsoft Dynamics 365 Supply Chain Management.
+Kontakti Power Apps portālos tiek saglabāti kā ieraksti elementā **Kontaktpersonas** pakalpojumā Common Data Service. Pēc tam duālais ieraksts pēc vajadzības sinhronizē šos ierakstus ar Microsoft Dynamics 365 Supply Chain Management.
 
-![Sistēmas diagramma Debitoru portāla kontaktpersonām.](media/customer-portal-contacts.png "Sistēmas diagramma Debitoru portāla kontaktpersonām")
+![Sistēmas diagramma Debitoru portāla kontaktpersonām](media/customer-portal-contacts.png "Sistēmas diagramma Debitoru portāla kontaktpersonām")
 
-Pirms sākat uzaicināt jaunus debitorus, pārliecinieties, ka esat iespējojis tabulas **Kontaktpersonas** kartēšanu duālajā ierakstā.
+Pirms sākat uzaicināt jaunus debitorus, pārliecinieties, ka esat iespējojis elementa **Kontaktpersonas** kartēšanu duālajā ierakstā.
 
 ## <a name="the-invitation-process"></a>Uzaicinājuma process
 
-Lai uzaicinātu esošo kontaktpersonu Debitoru portālā, izpildiet norādījumus sadaļā [Uzaicināt kontaktpersonas savos portālos](/powerapps/maker/portals/configure/invite-contacts) Power Apps portālu dokumentācijā.
+Lai uzaicinātu esošo kontaktpersonu Debitoru portālā, izpildiet norādījumus sadaļā [Uzaicināt kontaktpersonas savos portālos](https://docs.microsoft.com/powerapps/maker/portals/configure/invite-contacts) Power Apps portālu dokumentācijā.
 
-Pirmsuzaicināt debitoru pievienoties Debitoru portālam, pārliecinieties, ka debitora [kontaktinformācijas ieraksts](/powerapps/maker/portals/configure/configure-contacts) ir pieejams un ir iestatīts, kā norādīts zemāk.
+Pirmsuzaicināt debitoru pievienoties Debitoru portālam, pārliecinieties, ka debitora [kontaktinformācijas ieraksts](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) ir pieejams un ir iestatīts, kā norādīts zemāk.
 
 1. Iestatiet lauku **Uzņēmums** uz to juridisko personu, kurai vēlaties pievienot debitoru programmatūrā Supply Chain Management.
 2. Iestatiet lauku **Kontu skaits** uz to debitora kontu skaitu, kādu vēlaties lietotājam programmatūrā Supply Chain Management.
 
 Kad kontaktpersona ir izveidota, jūs varat to redzēt Supply Chain Management.
 
-Plašāku informāciju skatiet [Konfigurēt kontaktpersonu izmantošanai portālā](/powerapps/maker/portals/configure/configure-contacts) Power Apps portālu dokumentācijā.
+Plašāku informāciju skatiet [Konfigurēt kontaktpersonu izmantošanai portālā](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) Power Apps portālu dokumentācijā.
 
-## <a name="out-of-box-web-roles-and-table-permissions"></a>Standarta tīmekļa lapu lomas un tabulu atļaujas
+## <a name="out-of-box-web-roles-and-entity-permissions"></a>Standarta tīmekļa lapu lomas un elementu atļaujas
 
-Lietotāja lomas Power Apps portālos nosaka [tīmekļa lapas lomas](/powerapps/maker/portals/configure/create-web-roles) un [elementu atļaujas](/powerapps/maker/portals/configure/assign-entity-permissions). Dažas lomas ir definētas Debitora portālam standarta variantā. Varat izveidot jaunas lomas, un jūs varat modificēt vai noņemt esošās lomas.
+Lietotāja lomas Power Apps portālos nosaka [tīmekļa lapas lomas](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) un [elementu atļaujas](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions). Dažas lomas ir definētas Debitora portālam standarta variantā. Varat izveidot jaunas lomas, un jūs varat modificēt vai noņemt esošās lomas.
 
 ### <a name="out-of-box-web-roles"></a>Standarta tīmekļa lapu lomas
 
 Šajā sadaļā ir aprakstītas tīmekļa lomas, kas tiek piegādātas ar Debitoru portālu.
 
-Plašāku informāciju par to, kā modificēt standarta lietotāja lomas skatiet sadaļā [Tīmekļa lomu izveide portāliem](/powerapps/maker/portals/configure/create-web-roles) un [Uz ierakstu balstītas drošības pievienošana, izmantojot elementa atļaujas portāliem](/powerapps/maker/portals/configure/assign-entity-permissions) Power Apps portālu dokumentācijā.
+Plašāku informāciju par to, kā modificēt standarta lietotāja lomas skatiet sadaļā [Tīmekļa lomu izveide portāliem](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) un [Uz ierakstu balstītas drošības pievienošana, izmantojot elementa atļaujas portāliem](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) Power Apps portālu dokumentācijā.
 
 #### <a name="administrator"></a>Administrators
 
@@ -88,12 +90,9 @@ Tabulā zemāk ir parādīts, kurus pārdošanas pasūtījumus lietotāji katrā
 
 | Pārdošanas pasūtījums | Administrators | Klienta pārstāvis debitoram&nbsp;X | Autorizēts lietotājs: Jane | Autorizēts lietotājs: Sam | Neautorizēts lietotājs: May |
 |---|---|---|---|---|---|
-| Debitors&nbsp;X Pasūtītājs:&nbsp;Jane | Jā | Jā | Jā | Nē | Nē |
-| Debitors&nbsp;X Pasūtītājs:&nbsp;Sam | Jā | Jā | Nē | Jā | Nē |
-| Debitors&nbsp;Y Pasūtītājs:&nbsp;May | Jā | Nē | Nē | Nē | Nē |
+| Debitors&nbsp;X Pasūtītājs:&nbsp;Jane | Jā | Jā | Jā | Nr. | Nr. |
+| Debitors&nbsp;X Pasūtītājs:&nbsp;Sam | Jā | Jā | Nr. | Jā | Nr. |
+| Debitors&nbsp;Y Pasūtītājs:&nbsp;May | Jā | Nr. | Nr. | Nr. | Nr. |
 
 > [!NOTE]
 > Kaut gan Sam un Jane ir kontaktpersonas, kas strādā debitoram X, viņi var skatīt tikai tos pasūtījumus, kurus viņi paši ir ievietojuši, un neko citu. Lai gan May sistēmā ir pasūtījums, viņa nevar redzēt šo pasūtījumu Debitoru portālā, jo viņa ir neautorizēts lietotājs. (Turklāt viņa ir ievietojusi pasūtījumu, izmantojot kādu citu kanālu, nevis Debitoru portālu.)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

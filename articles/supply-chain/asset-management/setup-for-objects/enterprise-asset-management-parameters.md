@@ -1,10 +1,12 @@
 ---
 title: Līdzekļu pārvaldības parametri
 description: Līdzekļu pārvaldībā ir jāiestata vispārējie parametri, kas attiecas uz līdzekļiem, darba pasūtījumiem un darba pasūtījumu plānošanu.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetParameters
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e1deef00f01d83bc809a004265c386ba9d300df5fa4a1be245812ed5632059f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5e4b76ba90ab03cd35e72eff8acc89f780659fa5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751965"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020658"
 ---
 # <a name="asset-management-parameters"></a>Līdzekļu pārvaldības parametri
 
@@ -99,11 +101,8 @@ Zemāk redzamajā sarakstā aprakstītie lauki attiecas uz aprēķinātiem vērt
 
 ## <a name="the-document-types-tab"></a>Cilne Dokumentu veidi
 
-Atlasiet dokumentu veidus, kuriem jābūt pieejamiem, drukājot pielikumus, kas saistīti ar darba pasūtījuma pārskatu. Tas tiek darīts, atlasot dokumenta veidu sadaļā **Pieejams** un atlasot ![bultiņa uz priekšu.](media/15-setup-for-objects.png). Ja vēlaties noņemt atlasīto dokumenta veidu, atlasiet dokumenta veidu sadaļā **Atlasīts** un atlasot ![bultiņa atpakaļ](media/16-setup-for-objects.png).
+Atlasiet dokumentu veidus, kuriem jābūt pieejamiem, drukājot pielikumus, kas saistīti ar darba pasūtījuma pārskatu. Tas tiek darīts, atlasot dokumenta veidu sadaļā **Pieejams** un atlasot ![bultiņa uz priekšu](media/15-setup-for-objects.png). Ja vēlaties noņemt atlasīto dokumenta veidu, atlasiet dokumenta veidu sadaļā **Atlasīts** un atlasot ![bultiņa atpakaļ](media/16-setup-for-objects.png).
 
 ## <a name="the-number-sequences-tab"></a>Cilne Numuru secība
 
 Atlasiet šajā sadaļā nepieciešamās numuru sērijas. Līdzekļiem ir divas numuru sērijas: viena manuāli izveidotiem līdzekļiem, bet otra —līdzekļiem, kas izveidoti, izmantojot gaidošos līdzekļus.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

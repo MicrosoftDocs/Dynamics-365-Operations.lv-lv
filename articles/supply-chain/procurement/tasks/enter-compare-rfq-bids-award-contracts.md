@@ -1,24 +1,26 @@
 ---
 title: PP piedāvājumu ievade un salīdzināšana un līgumu piešķiršana
 description: Šajā tēmā ir paskaidrots, kā ievadīt atbildes uz piedāvājuma pieprasījumu (PP), noteikt punktu skaitu un salīdzināt piedāvājumus, un kā pēc tam piešķirt līgumu vienam no kreditoriem.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, PurchRFQCaseTable, PurchRFQReplyTable, PurchRFQCompare, PurchRFQEditLines, PurchRFQEditLinesParameters, PurchTable, PurchTablePart, PurchRFQCompareLinePrices, PurchRFQCompareRFQ
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8378a491e528c1e1166f0688e29f923a25f23eed
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 3f14b95a71397bf5879c97654620e1d4c22a1149
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579476"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016682"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>PP piedāvājumu ievade un salīdzināšana un līgumu piešķiršana
 
@@ -32,7 +34,7 @@ Varat ievadīt piedāvājumu vai nu kā kreditors, vai kā sagādes speciālists
 
 ## <a name="enter-a-reply-as-a-vendor"></a>Atbildes ievadīšana kreditora lomā
 
-1. Atvēriet **Kreditoru sadarbība \> Darbvietas \> Kreditora cenu noteikšana**.
+1. Informācijas panelī atlasiet **Piegādātāja piedāvājuma izteikšana**.
 2. Sarakstā **Jauni aicinājumi izteikt piedāvājumus** atrodiet nupat nosūtīto PP. Atlasiet PP, lai pārskatītu pieprasīto informāciju.
 3. Atlasiet **PP pielikumi**, lai pārskatītu pievienotos pielikumus.
 4. Atlasiet **Piedāvājums**, lai laukus padarītu rediģējamus. Ņemiet vērā, ka laukā **Piedāvājuma norise** ir iestatīta vērtība **Kreditors atjaunina**.
@@ -104,6 +106,3 @@ Varat ievadīt piedāvājumu vai nu kā kreditors, vai kā sagādes speciālists
 ## <a name="view-the-purchase-order-that-is-generated"></a>Skatīt ģenerēto pirkšanas pasūtījumu
 
 Darbību rūts cilnē **Vispārīgi** atlasiet **Pirkšanas pasūtījums**. Lapā, kas tiek parādīta, ir pirkšanas pasūtījums, kas tika ģenerēts, kad pieņēmāt piedāvājumu.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

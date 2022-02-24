@@ -2,9 +2,11 @@
 title: LIFO uz datums ar fizisko vērtību un iezīmēšanu
 description: Pēdējie iekšā, pirmie ārā uz datumu (LIFO uz datumu) ir krājumu modelis, kura pamatā ir LIFO princips. Izdotais krājums nosedz pirmo saņemto krājumu, ņemot vērā krājumu darbības veikšanas fizisko datumu. Izmantojot vienumu LIFO datums, ja pirms izdošanas nav nevienas saņemšanas, izdošana nosedz jebkuru saņemšu, kas rodas pēc izdošanas datuma. Vairākas izdošanas vienā un tajā pašā datumā ir jānosedz secībā – pēdējā izdošana, pēdējā saņemšana.
 author: AndersGirke
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 51592
 ms.assetid: d9f13274-3268-444f-85c8-b686fd39286d
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: aevengir
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72e1dab8bbbb830619629d1fb62a89413d388a7f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c2c06443532519ad5d6c36a6f4ed1f1c4d136664
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567563"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967637"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>LIFO uz datums ar fizisko vērtību un iezīmēšanu
 
@@ -55,9 +57,7 @@ Tālāk sniegtajos piemēros ir parādīta ietekme, ko rada LIFO uz datumu izman
 
 Jaunā aktīvā vidējā izmaksu cena ataino finansiāli atjaunināto darbību vidējo vērtību pie USD 15,00. 
 
-Tālāk redzamajā ilustrācija ir parāda ietekme, ko rada LIFO uz datumu krājumu modeļa izmantošana, ja netiek izmantota opcija **Iekļaut fizisko vērtību**. 
-
-![LIFO datums bez opcijas Fizisko vērtību iekļaušana.](./media/lifodatewithoutincludephysicalvalue.gif) 
+Tālāk redzamajā ilustrācija ir parāda ietekme, ko rada LIFO uz datumu krājumu modeļa izmantošana, ja netiek izmantota opcija **Iekļaut fizisko vērtību**. ![LIFO datums ar fizisko vērtību iekļaušanu](./media/lifodatewithoutincludephysicalvalue.gif) 
 
 **Diagrammas atslēga**
 
@@ -77,7 +77,7 @@ Varat atzīmēt krājuma izvēles rūtiņu **Iekļaut fizisko vērtību** lapā 
 
 Šajā piemērā krājumu modeļu grupai ir atzīmēta fiziskās vērtības iekļaušana. 
 
-Tālāk esošajā ilustrācijā ir redzamas tālāk norādītās transakcijas:
+Tālāk esošajā ilustrācijā ir redzamas tālāk norādītās transakcijas.
 
 -   1.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 10,00 par katru.
 -   1.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 10,00 katrs.
@@ -92,9 +92,7 @@ Tālāk esošajā ilustrācijā ir redzamas tālāk norādītās transakcijas:
 
 Jaunā aktīvā vidējā izmaksu cena ataino finansiāli atjaunināto darbību vidējo vērtību pie USD 20,00. 
 
-Tālāk redzamajā ilustrācija ir parāda ietekme, ko rada LIFO krājumu modeļa izmantošana, ja tiek izmantota opcija **Iekļaut fizisko vērtību**. 
-
-![LIFO datums ar opciju Fizisko vērtību iekļaušana.](./media/lifodatewithincludephysicalvalue.gif) 
+Tālāk redzamajā ilustrācija ir parāda ietekme, ko rada LIFO krājumu modeļa izmantošana, ja tiek izmantota opcija **Iekļaut fizisko vērtību**. ![LIFO datums ar fizisko vērtību iekļaušanu](./media/lifodatewithincludephysicalvalue.gif) 
 
 **Diagrammas atslēga**
 
@@ -140,7 +138,7 @@ Sekojošajā ilustrācijā tiek parādītas šīs darbības:
 
 Jauna pašreizēja vidējā izmaksu cena attēlo finansiāli vai fiziski atjaunināto darbību vidējo par summu USD 27,50. 
 
-Tālāk redzamajā ilustrācija ir parāda ietekme, ko rada LIFO krājumu modeļa izmantošana, ja tiek izmantota izejas un ieejas plūsmu saistīšana iezīmējot. ![LIFO datums ar apzīmējumu.](./media/lifodatewithmarking.gif) 
+Tālāk redzamajā ilustrācija ir parāda ietekme, ko rada LIFO krājumu modeļa izmantošana, ja tiek izmantota izejas un ieejas plūsmu saistīšana iezīmējot. ![LIFO datums ar apzīmējumu](./media/lifodatewithmarking.gif) 
 
 **Diagrammas atslēga**
 
@@ -158,6 +156,3 @@ Tālāk redzamajā ilustrācija ir parāda ietekme, ko rada LIFO krājumu modeļ
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

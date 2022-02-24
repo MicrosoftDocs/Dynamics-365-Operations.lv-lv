@@ -85,6 +85,3 @@ Priekšskatījuma līdzekļi ir pieejami tikai **Smilškastes** vidēs.
 
 Aplūkojiet [Drukāšanas veiktspējas pārskati](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-talent/print-performance-reviews) Dynamics 365: 2019. gada izlaiduma 2. laidiena plāns.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Konfigurēto ER komponentu pārbaude, lai novērstu izpildlaika problēmas
 description: Šajā tēmā paskaidrots, kā pārbaudīt konfigurētos Elektronisko pārskatu (ER) komponentus, lai novērstu izpildlaika problēmas, kas varētu rasties.
 author: NickSelin
-ms.date: 01/03/2022
+manager: AnnBe
+ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
@@ -15,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c63ffc6316d21d36bb2aad57194b8aa1c477607e
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
-ms.translationtype: MT
+ms.openlocfilehash: 4ba696fb7a8d9083d11cc29953cf1340a581afcf
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074795"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797345"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Konfigurēto ER komponentu pārbaude, lai novērstu izpildlaika problēmas
 
 [!include[banner](../includes/banner.md)]
 
-Katru konfigurēto [Elektroniskā pārskata (ER)](general-electronic-reporting.md) [formāta](er-overview-components.md#format-components-for-outgoing-electronic-documents) un [modeļa kartēšanas](er-overview-components.md#model-mapping-component) komponentu var [validēt](er-fillable-excel.md#validate-an-er-format) izstrādes laikā. Šīs validācijas laikā tiek veikta konsekvences pārbaude, lai palīdzētu novērst izpildlaika problēmas, kas var rasties, piemēram, izpildes kļūdas un veiktspējas kritums. Katrai atrastajai problēmai ir norādīts problemātiskā elementa ceļš. Dažām problēmām ir pieejams automātisks labojums.
+Katru konfigurēto [Elektroniskā pārskata (ER)](general-electronic-reporting.md) [formāta](general-electronic-reporting.md#FormatComponentOutbound) un [modeļa kartēšanas](general-electronic-reporting.md#data-model-and-model-mapping-components) komponentu var [validēt](er-fillable-excel.md#validate-an-er-format) izstrādes laikā. Šīs validācijas laikā tiek veikta konsekvences pārbaude, lai palīdzētu novērst izpildlaika problēmas, kas var rasties, piemēram, izpildes kļūdas un veiktspējas kritums. Katrai atrastajai problēmai ir norādīts problemātiskā elementa ceļš. Dažām problēmām ir pieejams automātisks labojums.
 
 Pēc noklusējuma validācija tiek automātiski pielietota tālāk norādītajos ER konfigurācijas gadījumos, kas satur iepriekš minētos ER komponentus.
 
@@ -203,48 +205,6 @@ Tālāk redzamajā tabulā ir sniegts pārskats par ER sniegtajām pārbaudēm. 
 <td>Brīdinājums</td>
 <td>Definētais nosaukums &lt;komponenta nosaukums&gt; nepastāv Excel lapā &lt;lapas nosaukumā&gt;</td>
 </tr>
-<tr>
-<td><a href='#i14'>Nav sinhronizēts formāts</a></td>
-<td>Datu integritāte</td>
-<td>Brīdinājums</td>
-<td>
-<p>&lt;Atzīmētā Word satura kontrole&gt; tags nepastāv Word veidnes failā</p>
-<p><b>Izpildlaika kļūda:</b> &lt;Atzīmētā Word satura kontrole&gt; tags nepastāv Word veidnes failā.</p>
-</td>
-</tr>
-<tr>
-<td><a href='#i15'>Nav noklusējuma kartējuma</a></td>
-<td>Datu integritāte</td>
-<td>Kļūda</td>
-<td>
-<p>Ir vairāk nekā viens modeļa kartējums &lt;modeļa nosaukumam (saknes aprakstītājam)&gt; datu modelim konfigurācijās &lt;konfigurāciju nosaukumi ir atdalīti ar komatu&gt;. Iestatiet vienu no konfigurācijām kā noklusējumu</p>
-<p><b>Izpildlaika kļūda:</b> Ir vairāk nekā viens modeļa kartējums &lt;modeļa nosaukumam (saknes aprakstītājam)&gt; datu modelim konfigurācijās &lt;konfigurāciju nosaukumi ir atdalīti ar komatu&gt;. Iestatiet vienu no konfigurācijām kā noklusējumu.</p>
-</td>
-</tr>
-<tr>
-<td><a href='#i16'>Nesaskaņoti galvenes vai kājenes komponentu iestatījumi</a></td>
-<td>Datu integritāte</td>
-<td>Kļūda</td>
-<td>
-<p>Galvenes/kājenes (&lt;komponenta veids: galvene vai kājene&gt;) nesakrīt</p>
-<p><b>Izpildlaiks:</b> pēdējais konfigurētais komponents tiek izmantots izpildlaikā, ja ir izpildīta konfigurētā ER formāta melnraksta versija.</p>
-</td>
-</tr>
-<tr>
-<td><a href='#i17'>Nesaskaņots Lapas komponenta iestatījums</a></td>
-<td>Datu integritāte</td>
-<td>Kļūda</td>
-<td>Ir vairāk nekā divi diapazonu komponenti bez replicēšanas. Lūdzu, noņemiet nevajadzīgos komponentus.</td>
-</tr>
-<tr>
-<td><a href='#i18'>Izteiksmes izpildāmība ar funkciju ORDERBY</a></td>
-<td>Izpildāmība</td>
-<td>Kļūda</td>
-<td>
-<p>Funkcijas ORDERBY saraksta izteiksmei nevar izpildīt vaicājumu.</p>
-<p><b>Izpildlaika kļūda:</b> Šķirošana netiek atbalstīta. Validējiet konfigurāciju, lai iegūtu plašāku informāciju par šo.</p>
-</td>
-</tr>
 </tbody>
 </table>
 
@@ -257,25 +217,25 @@ Tālāk norādītajās darbībās parādīts, kā šī problēma varētu rasties
 1. Sāciet vienlaicīgi konfigurēt ER datu modeli un ER modeļa kartēšanas komponentus.
 2. Datu modeļa kokā pievienojiet lauku ar nosaukumu **X** un kā datu veidu atlasiet **Vesels skaitlis**.
 
-    ![X lauks un vesela skaitļa datu veids tiek pievienots datu režīma kokam Datu modeļa lapā.](./media/er-components-inspections-01.png)
+    ![X lauks un vesela skaitļa datu veids tiek pievienots datu režīma kokam Datu modeļa lapā](./media/er-components-inspections-01.png)
 
-3. Modeļa kartēšanas veidotāja rūtī **Datu avoti** pievienojiet veida **Aprēķinātais lauks** datu avotu.
+3. Modeļa kartēšanas datu avota rūtī pievienojiet **Aprēķinātais lauks** veida datu avotu.
 4. Piešķiriet jaunajam datu avotam nosaukumu **Y** un konfigurējiet to, lai tas ietvertu izteiksmi `INTVALUE(100)`.
 5. Saistiet **X** ar **Y**.
 6. Datu modeļa veidotājā mainiet datu veidu laukam **X** no **Vesels skaitlis** uz **Int64**.
 7. Atlasiet **Validēt**, lai pārbaudītu rediģējamā modeļa kartēšanas komponentu lapā **Modeļa kartēšanas veidotājs**.
 
-    ![Rediģējamā modeļa kartēšanas komponenta validēšana lapā Modeļa kartēšanas veidotājs.](./media/er-components-inspections-01.gif)
+    ![rediģējamā modeļa kartēšanas komponenta validēšana lapā Modeļa kartēšanas veidotājs](./media/er-components-inspections-01.gif)
 
 8. Atlasiet **Validēt**, lai pārbaudītu atlasītās ER konfigurācijas modeļa kartēšanas komponentu lapā **Konfigurācijas**.
 
-    ![Pārbaudiet modeļa kartēšanas komponentu lapā Konfigurācijas.](./media/er-components-inspections-01a.png)
+    ![Validējiet, lai pārbaudītu modeļa kartēšanas komponentu lapā Konfigurācijas](./media/er-components-inspections-01a.png)
 
 9. Ņemiet vērā, ka rodas validācijas kļūda. Ziņojumā norādīts, ka **Vesels skaitlis** veida vērtība, ko atpakaļsūta `INTVALUE(100)` izteiksme no **Y** datu avota nevar tikt saglabāta **X** datu modeļa laukā ar **Int64** veidu.
 
 Tālāk redzamajā attēlā parādīta izpildlaika kļūda, kas rodas, ja ignorējat brīdinājumu un atlasāt **Palaist**, lai palaistu formātu, kas ir konfigurēts modeļa kartēšanas izmantošanai.
 
-![Izpildlaika kļūdas Formāta veidotāja lapā.](./media/er-components-inspections-01b.png)
+![Izpildlaika kļūdas Formāta veidotāja lapā](./media/er-components-inspections-01b.png)
 
 ### <a name="automatic-resolution"></a>Automātisks risinājums
 
@@ -305,7 +265,7 @@ Tālāk norādītajās darbībās parādīts, kā šī problēma varētu rasties
 6. Formāta struktūras kokā mainiet **Y** formāta elementa datu veidu no **Vesels skaitlis** uz **Int64**.
 7. Atlasiet **Validēt**, lai pārbaudītu rediģējamā formāta komponentu lapā **Formāta veidotājs**.
 
-    ![Vaida saderības validēšana lapā Formāta veidotājs.](./media/er-components-inspections-02.gif)
+    ![Vaida saderības validēšana lapā Formāta veidotājs](./media/er-components-inspections-02.gif)
 
 8. Ņemiet vērā, ka rodas validācijas kļūda. Ziņojumā norādīts, ka konfigurētā izteiksme var akceptēt tikai **Int64** vērtības. Tāpēc datu modeļa lauka **X** vērtību ar veidu **Vesels skaitlis** nevar ievadīt **Y** formāta elementā.
 
@@ -332,15 +292,15 @@ Tālāk norādītajās darbībās parādīts, kā šī problēma varētu rasties
 1. Sāciet vienlaicīgi konfigurēt ER datu modeli un ER modeļa kartēšanas komponentus.
 2. Datu modeļa kokā pievienojiet lauku ar nosaukumu **X** un kā datu veidu atlasiet **Vesels skaitlis**.
 
-    ![Datu modeļa koks ar X lauku un vesela skaitļa datu veidu Datu modeļa lapā.](./media/er-components-inspections-01.png)
+    ![Datu modeļa koks ar X lauku un vesela skaitļa datu veidu Datu modeļa lapā](./media/er-components-inspections-01.png)
 
-3. Modeļa kartēšanas veidotāja rūtī **Datu avoti** pievienojiet veida **Aprēķinātais lauks** datu avotu.
+3. Modeļa kartēšanas datu avota rūtī pievienojiet **Aprēķinātais lauks** veida datu avotu.
 4. Piešķiriet jaunajam datu avotam nosaukumu **Y** un konfigurējiet to, lai tas ietvertu izteiksmi `INTVALUE(100)`.
 5. Saistiet **X** ar **Y**.
-6. Modeļa kartēšanas veidotāja rūtī **Datu avoti** izdzēsiet datu avotu **Y**.
+6. Modeļa kartēšanas veidotāja datu avotu rūtī izdzēsiet datu avotu **Y**.
 7. Atlasiet **Validēt**, lai pārbaudītu rediģējamā modeļa kartēšanas komponentu lapā **Modeļa kartēšanas veidotājs**.
 
-    ![Pārbaudiet rediģējamā ER modeļa kartēšanas komponentu lapā Modeļa kartēšanas veidotājs.](./media/er-components-inspections-03.gif)
+    ![Pārbaudiet rediģējamā ER modeļa kartēšanas komponentu lapā Modeļa kartēšanas veidotājs](./media/er-components-inspections-03.gif)
 
 8. Ņemiet vērā, ka rodas validācijas kļūda. Ziņojumā norādīts, ka datu modeļa lauka **X** saistījums satur ceļu, kas atsaucas uz datu avotu **Y**, bet šis datu avots nav atrasts.
 
@@ -356,11 +316,11 @@ Atsaistiet datu modeļa lauku **X**, lai pārtrauktu atsaukšanos uz neesošu da
 
 #### <a name="option-2"></a>2. opcija
 
-Modeļa kartēšanas veidotāja rūtī **Datu avoti** no jauna pievienojiet datu avotu **Y**.
+ER modeļa kartēšanas veidotāja datu avotu rūtī no jauna pievienojiet datu avotu **Y**.
 
 ## <a name="executability-of-an-expression-with-filter-function"></a><a id="i4"></a>Izteiksmes ar FILTER funkciju izpildāmība
 
-Iebūvētā ER funkcija [FILTER](er-functions-list-filter.md) tiek izmantota, lai piekļūtu pieteikumu tabulām, skatiem vai datu entītijām, veicot vienu SQL izsaukumu, lai iegūtu vajadzīgos datus kā ierakstu sarakstu. **Ierakstu saraksts** veida datu avots tiek izmantots kā šīs funkcijas arguments un norāda izsaukuma pieteikuma avotu. ER pārbauda, vai var tikt izveidots tiešais SQL vaicājums uz datu avotu, kas ir norādīts funkcijā `FILTER`. Ja tiešo vaicājumu nevar izveidot, ER modeļa kartēšanas veidotājā rodas validācijas kļūda. Ziņojumā, ko saņemat, norādīts, ka ER izteiksmi, kas ietver funkciju `FILTER`, nevar palaist izpildlaikā.
+Iebūvētā ER funkcija [FILTER](er-functions-list-filter.md) tiek izmantota, lai piekļūtu pieteikumu tabulām, skatiem vai datu entītijām, veicot vienu SQL izsaukumu, lai iegūtu vajadzīgos datus kā ierakstu sarakstu. **Ierakstu saraksts** veida datu avots tiek izmantots kā šīs funkcijas arguments un norāda izsaukuma pieteikuma avotu. ER pārbauda, vai var tikt izveidots tiešais SQL vaicājums uz datu avotu, kas ir norādīts funkcijā `FILTER`. Ja tiešo vaicājumu nevar izveidot, ER modeļa kartēšanas veidotājā rodas validācijas kļūda. Ziņojumā, ko saņemat, norādīts, ka ER izteiksmi, kas ietver funkciju `FILTER`, nevar palaist izpildlaikā. 
 
 Tālāk norādītajās darbībās parādīts, kā šī problēma varētu rasties.
 
@@ -374,13 +334,13 @@ Tālāk norādītajās darbībās parādīts, kā šī problēma varētu rasties
 8. Piešķiriet jaunajam ligzdotajam laukam nosaukumu **$AccNumber** un konfigurējiet to, lai tas ietvertu izteiksmi `TRIM(Vendor.AccountNum)`.
 9. Atlasiet **Validēt**, lai pārbaudītu rediģējamo modeļa kartēšanas komponentu lapā **Modeļa kartēšanas veidotājs**, un pārbaudiet, vai var iesniegt vaicājumu izteiksmei `FILTER(Vendor, Vendor.AccountNum="US-101")` datu avotā **Kreditors**.
 
-    ![Pārbaude, vai izteiksmei, kurai ir funkcija FILTER, var uzdot vaicājumu modeļa kartēšanas noformētāja lapā.](./media/er-components-inspections-04.gif)
+    ![Pārbaude, vai izteiksmei var iesniegt vaicājumu lapā Modeļa kartēšanas veidotājs](./media/er-components-inspections-04.gif)
 
 10. Ņemiet vērā, ka validācijas kļūda rodas, jo datu avots **Kreditors** satur **Aprēķinātais lauks** veida ligzdoto lauku, kas neļauj **FilteredVendor** datu avota izteiksmi pārveidot par tiešu SQL norādīšanu.
 
 Tālāk redzamajā attēlā parādīta izpildlaika kļūda, kas rodas, ja ignorējat brīdinājumu un atlasāt **Palaist**, lai palaistu formātu, kas ir konfigurēts modeļa kartēšanas izmantošanai.
 
-![Izpildlaika kļūdas, kas rodas, palaižot rediģējamo formātu lapā Formāta veidotājs.](./media/er-components-inspections-04a.png)
+![Izpildlaika kļūdas, kas rodas, palaižot rediģējamo formātu lapā Formāta veidotājs](./media/er-components-inspections-04a.png)
 
 ### <a name="automatic-resolution"></a>Automātisks risinājums
 
@@ -411,23 +371,23 @@ Tālāk norādītajās darbībās parādīts, kā šī problēma varētu rasties
     - Atlasiet datu avotu **Trans** kā ierakstu avotu, kas jāgrupē.
     - Laukā **Izpildes vieta** atlasiet **Vaicājums**, lai norādītu, ka vēlaties palaist šo datu avotu datu bāzes līmenī.
 
-    ![Datu avotu konfigurēšana lapā Rediģēt parametrus "Grupēt pēc".](./media/er-components-inspections-05a.gif)
+    ![Datu avotu konfigurēšana lapā Rediģēt parametrus "Grupēt pēc"](./media/er-components-inspections-05a.gif)
 
-6. Atlasiet **Validēt**, lai pārbaudītu rediģējamo modeļa kartēšanas komponentu lapā **Modeļa kartēšanas veidotājs** un pārbaudiet, vai var iesniegt vaicājumu konfigurētajam datu avotam **GroupedTrans**.
+6. Atlasiet **Validēt**, lai pārbaudītu rediģējamo modeļa kartēšanas komponentu lapā **Modeļa kartēšanas veidotājs**, un pārbaudiet, vai var iesniegt vaicājumu konfigurētajam datu avotam **GroupedTrans**.
 7. Modificējiet datu avotu **Trans**, pievienojot **Aprēķinātais lauks** veida ligzdoto lauku, lai iegūtu apgrieztu kreditora konta numuru.
 8. Piešķiriet jaunajam datu avotam nosaukumu **$AccNumber** un konfigurējiet to, lai tas ietvertu izteiksmi `TRIM(Trans.AccountNum)`.
 
-    ![Datu avota konfigurēšana lapā Modeļa kartēšanas veidotājs.](./media/er-components-inspections-05a.png)
+    ![Datu avota konfigurēšana lapā Modeļa kartēšanas veidotājs](./media/er-components-inspections-05a.png)
 
-9. Atlasiet **Validēt**, lai pārbaudītu rediģējamo modeļa kartēšanas komponentu lapā **Modeļa kartēšanas veidotājs** un pārbaudiet, vai var iesniegt vaicājumu konfigurētajam datu avotam **GroupedTrans**.
+9. Atlasiet **Validēt**, lai pārbaudītu rediģējamo modeļa kartēšanas komponentu lapā **Modeļa kartēšanas veidotājs**, un pārbaudiet, vai var iesniegt vaicājumu konfigurētajam datu avotam **GroupedTrans**.
 
-    ![Validējiet ER modeļa kartēšanas komponentu un pārbaudiet, vai lapā Modeļa kartēšanas veidotājs var iesniegt vaicājumu datu avotam GroupedTrans.](./media/er-components-inspections-05b.png)
+    ![Validējiet ER modeļa kartēšanas komponentu un pārbaudiet, vai lapā Modeļa kartēšanas veidotājs var iesniegt vaicājumu konfigurētajam datu avotam GroupedTrans](./media/er-components-inspections-05b.png)
 
 10. Ņemiet vērā, ka validācijas kļūda rodas, jo datu avots **Trans** satur **Aprēķinātais lauks** veida ligzdoto lauku, kas neļauj **GroupedTrans** datu avota izteiksmes izsaukumu pārveidot par tiešu SQL norādīšanu.
 
 Tālāk redzamajā attēlā parādīta izpildlaika kļūda, kas rodas, ja ignorējat brīdinājumu un atlasāt **Palaist**, lai palaistu formātu, kas ir konfigurēts modeļa kartēšanas izmantošanai.
 
-![Izpildlaika kļūdas, kas rodas, ja tiek ignorēts brīdinājums lapā Formāta veidotājs.](./media/er-components-inspections-05c.png)
+![Izpildlaika kļūdas, kas rodas, ja tiek ignorēts brīdinājums lapā Formāta veidotājs](./media/er-components-inspections-05c.png)
 
 ### <a name="automatic-resolution"></a>Automātisks risinājums
 
@@ -463,21 +423,21 @@ Tālāk norādītajās darbībās parādīts, kā šī problēma varētu rasties
     2. Pievienojiet datu avotu **Vendor.FilteredTrans** kā otro savienojamo ierakstu kopu. Atlasiet **INNER** kā veidu.
     3. Laukā **Izpildīt** atlasiet **Vaicājums**, lai norādītu, ka vēlaties palaist šo datu avotu datu bāzes līmenī.
 
-    ![Datu avota konfigurēšana Savienošanas veidotāja lapā.](./media/er-components-inspections-06a.gif)
+    ![Datu avota konfigurēšana Savienošanas veidotāja lapā](./media/er-components-inspections-06a.gif)
 
 10. Atlasiet **Validēt**, lai pārbaudītu rediģējamo modeļa kartēšanas komponentu lapā **Modeļa kartēšanas veidotājs** un pārbaudiet, vai var iesniegt vaicājumu konfigurētajam datu avotam **JoinedList**.
 11. Mainiet datu avota **Vendor.FilteredTrans** izteiksmi no `FILTER(Trans, Trans.AccountNum=Vendor.AccountNum)` uz `WHERE(Trans, Trans.AccountNum=Vendor.AccountNum)`.
 12. Atlasiet **Validēt**, lai pārbaudītu rediģējamo modeļa kartēšanas komponentu lapā **Modeļa kartēšanas veidotājs** un pārbaudiet, vai var iesniegt vaicājumu konfigurētajam datu avotam **JoinedList**.
 
-    ![Rediģējamā modeļa kartēšanas komponenta validācija un pārbaude, vai lapā Modeļa kartēšanas veidotājs var iesniegt vaicājumu datu avotam JoinedList.](./media/er-components-inspections-06b.png)
+    ![Rediģējamā modeļa kartēšanas komponenta validācija un pārbaude, vai lapā Modeļa kartēšanas veidotājs var iesniegt vaicājumu datu avotam JoinedList](./media/er-components-inspections-06b.png)
 
 13. Ņemiet vērā, ka validācijas kļūda rodas, jo datu avota **Vendor.FilteredTrans** izteiksmi nevar pārveidot par tiešu SQL izsaukumu. Turklāt tiešais SQL izsaukums neļauj datu avota **JoinedList** izsaukumu pārveidot par tiešu SQL norādīšanu.
 
-    ![Izpildlaika kļūdas no neizdevušās JoinedList datu avota validācijas lapā Modeļa kartēšanas veidotājs.](./media/er-components-inspections-06c.png)
+    ![Izpildlaika kļūdas no neizdevušās JoinedList datu avota validācijas lapā Modeļa kartēšanas veidotājs](./media/er-components-inspections-06c.png)
 
 Tālāk redzamajā attēlā parādīta izpildlaika kļūda, kas rodas, ja ignorējat brīdinājumu un atlasāt **Palaist**, lai palaistu formātu, kas ir konfigurēts modeļa kartēšanas izmantošanai.
 
-![Rediģējamā formāta palaišana lapā Formāta veidotājs.](./media/er-components-inspections-06e.png)
+![Rediģējamā formāta palaišana lapā Formāta veidotājs](./media/er-components-inspections-06e.png)
 
 ### <a name="automatic-resolution"></a>Automātisks risinājums
 
@@ -489,7 +449,7 @@ Nav pieejama opcija automātiski novērst šo problēmu.
 
 Mainiet datu avota **Vendor.FilteredTrans** izteiksmi no `WHERE(Trans, Trans.AccountNum=Vendor.AccountNum)` atpakaļ uz `FILTER(Trans, Trans.AccountNum=Vendor.AccountNum)`, kā ieteikts brīdinājumā.
 
-![Atjaunināta datu avota izteiksme lapā Modeļa kartēšanas veidotājs.](./media/er-components-inspections-06d.png)
+![Atjaunināta datu avota izteiksme lapā Modeļa kartēšanas veidotājs](./media/er-components-inspections-06d.png)
 
 #### <a name="option-2"></a>2. opcija
 
@@ -512,11 +472,11 @@ Tālāk norādītajās darbībās parādīts, kā šī problēma varētu rasties
 9. Piešķiriet jaunajam datu avotam nosaukumu **FilteredVendor** un konfigurējiet to, lai tas ietvertu izteiksmi `WHERE(Vendor, Vendor.AccountNum="US-101")`.
 10. Atlasiet **Validēt**, lai pārbaudītu rediģējamā modeļa kartēšanas komponentu lapā **Modeļa kartēšanas veidotājs**.
 
-    ![Pārbaudiet rediģējamā modeļa kartēšanas komponentu lapā Modeļa kartēšanas veidotājs.](./media/er-components-inspections-07a.png)
+    ![Validēšana, lai pārbaudītu rediģējamā modeļa kartēšanas komponentu lapā Modeļa kartēšanas veidotājs](./media/er-components-inspections-07a.png)
 
 11. Ņemiet vērā, ka brīdinājumi par validāciju iesaka izmantot funkciju **FILTER**, nevis funkciju **WHERE** datu avotiem **FilteredVendor** un **FilteredTrans**.
 
-    ![Ieteikums izmantot FILTRA funkciju, nevis funkciju "KUR" lapā Modeļa kartēšanas veidotājs.](./media/er-components-inspections-07b.png)
+    ![Brīdinājumi par validāciju, kas iesaka filtra funkciju, nevis funkciju "kur" lapā Modeļa kartēšanas veidotājs](./media/er-components-inspections-07b.png)
 
 ### <a name="automatic-resolution"></a>Automātisks risinājums
 
@@ -524,7 +484,7 @@ Atlasiet **Labot**, lai automātiski aizstātu funkciju **WHERE** ar funkciju **
 
 Varat arī atlasīt rindu vienam brīdinājumam režģī un pēc tam atlasīt **Labot atlasīto**. Šādā gadījumā izteiksme automātiski tiek mainīta tikai datu avotā, kas ir minēts atlasītajā brīdinājumā.
 
-!["Labot" atlasīšana, lai automātiski aizstātu funkciju "KUR" ar FILTRA funkciju lapā Modeļa kartēšanas veidotājs.](./media/er-components-inspections-07c.png)
+!["Labot" atlasīšana, lai automātiski aizstātu funkciju "kur" ar filtra funkciju lapā Modeļa kartēšanas veidotājs](./media/er-components-inspections-07c.png)
 
 ### <a name="manual-resolution"></a>Manuāls risinājums
 
@@ -545,11 +505,11 @@ Tālāk norādītajās darbībās parādīts, kā šī problēma varētu rasties
 7. Piešķiriet jaunajam datu avotam nosaukumu **FilteredVendorTans** un konfigurējiet to, lai tas ietvertu izteiksmi `ALLITEMS(FilteredVendor.'<Relations'.'VendTrans.VendTable_AccountNum')`.
 8. Atlasiet **Validēt**, lai pārbaudītu rediģējamā modeļa kartēšanas komponentu lapā **Modeļa kartēšanas veidotājs**.
 
-    ![Pārbaudiet rediģējamā modeļa kartēšanas komponentu lapā Modeļa kartēšanas veidotājs.](./media/er-components-inspections-08a.png)
+    ![Validācijas poga lapā Modeļa kartēšanas veidotājs](./media/er-components-inspections-08a.png)
 
 9. Ņemiet vērā, ka notiek brīdinājums par validāciju. Ziņojumā ieteikts izmantot funkciju **ALLITEMSQUERY**, nevis funkciju **ALLITEMS** datu avotam **FilteredVendorTrans**.
 
-    ![Ieteikums izmantot ALLITEMSQUERY funkciju, nevis funkciju ALLITEMS lapā Modeļa kartēšanas veidotājs.](./media/er-components-inspections-08b.png)
+    ![Brīdinājums par validāciju ER modeļa kartēšanas komponentā lapā Modeļa kartēšanas veidotājs izmantot funkciju ALLITEMSQUERY, nevis funkciju ALLITEMS](./media/er-components-inspections-08b.png)
 
 ### <a name="automatic-resolution"></a>Automātisks risinājums
 
@@ -557,7 +517,7 @@ Atlasiet **Labot**, lai automātiski aizstātu funkciju **ALLITEMS** ar funkciju
 
 Varat arī atlasīt rindu vienam brīdinājumam režģī un pēc tam atlasīt **Labot atlasīto**. Šādā gadījumā izteiksme automātiski tiek mainīta tikai datu avotā, kas ir minēts atlasītajā brīdinājumā.
 
-!["Labot atlasītos" atlasīšana lapā Modeļa kartēšanas veidotājs.](./media/er-components-inspections-08c.png)
+!["Labot atlasītos" atlasīšana lapā Modeļa kartēšanas veidotājs](./media/er-components-inspections-08c.png)
 
 ### <a name="manual-resolution"></a>Manuāls risinājums
 
@@ -565,7 +525,7 @@ Varat manuāli koriģēt visu validācijas režģī minēto datu avotu izteiksme
 
 ## <a name="consideration-of-empty-list-cases"></a><a id="i9"></a>Tukšu sarakstu gadījumu apsvēršana
 
-Varat konfigurēt savu ER formāta vai modeļa kartēšanas komponentu, lai iegūtu **Ierakstu saraksts** veida datu avota lauka vērtību. ER pārbauda, vai izveidotais apskata gadījumu, kad izsauktais datu avots nesatur ierakstus (tas ir tukšs), lai novērstu izpildlaika kļūdas, kad vērtība tiek iegūta no neeksistējoša ieraksta lauka.
+Varat konfigurēt savu ER formāta vai modeļa kartēšanas komponentu, lai iegūtu **Ierakstu saraksta** veida datu avota lauka vērtību. ER pārbauda, vai izveidotais apskata gadījumu, kad izsauktais datu avots nesatur ierakstus (tas ir tukšs), lai novērstu izpildlaika kļūdas, kad vērtība tiek iegūta no neeksistējoša ieraksta lauka.
 
 Tālāk norādītajās darbībās parādīts, kā šī problēma varētu rasties.
 
@@ -578,9 +538,9 @@ Tālāk norādītajās darbībās parādīts, kā šī problēma varētu rasties
     - Pievienojiet **Virkne** veida ligzdoto lauku un piešķiriet tam nosaukumu **Nosaukums**.
     - Pievienojiet **Virkne** veida ligzdoto lauku un piešķiriet tam nosaukumu **AccountNumber**.
 
-    ![Ligzdoto lauku pievienošana lapā Datu modelis.](./media/er-components-inspections-09a.png)
+    ![Ligzdoto lauku pievienošana lapā Datu modelis](./media/er-components-inspections-09a.png)
 
-6. Modeļa kartēšanas veidotāja rūtī rūtī **Datu avoti** pievienojiet veida **Dynamics 365 for Operations \\ Tabulas ieraksti** datu avotu.
+6. Modeļa kartēšanas datu avota rūtī pievienojiet **Dynamics 365 for Operations \\ Tabulas ieraksti** veida datu avotu.
 7. Piešķiriet jaunajam datu avotam nosaukumu **Kreditors**. Laukā **Tabula** atlasiet **VendTable**, lai norādītu, ka šis datu avots pieprasīs VendTable tabulu.
 8. Pievienojiet **Vispārīgi \\ Lietotāja ievades parametrs** veida datu avotu, lai uzmeklētu kreditora kontu izpildlaika dialoglodziņā.
 9. Piešķiriet jaunajam datu avotam nosaukumu **RequestedAccountNum**. Laukā **Etiķete** ievadiet **Kreditora konta numurs**. Laukā **Operāciju datu veida nosaukums** atstājiet noklusējuma vērtību **Apraksts**.
@@ -592,7 +552,7 @@ Tālāk norādītajās darbībās parādīts, kā šī problēma varētu rasties
     - Saistiet **FilteredVendor.AccountNum** ar **Vendor. AccountNumber**.
     - Saistiet **FilteredVendor.'name()'** ar **Vendor.Name**.
 
-    ![Datu modeļa krājumu saistīšana lapā Modeļa kartēšanas veidotājs.](./media/er-components-inspections-09b.png)
+    ![Datu modeļa krājumu saistīšana lapā Modeļa kartēšanas veidotājs](./media/er-components-inspections-09b.png)
 
 13. Formāta struktūras kokā pievienojiet tālāk norādītos krājumus, lai ģenerētu izejošo dokumentu XML formātā, kas satur informāciju par kreditoru.
 
@@ -610,15 +570,15 @@ Tālāk norādītajās darbībās parādīts, kā šī problēma varētu rasties
 
 15. Atlasiet **Validēt**, lai pārbaudītu rediģējamā formāta komponentu lapā **Formāta veidotājs**.
 
-    ![Tādu formāta elementu validēšana, kas ir saistīti ar datu avotiem lapā Formāta veidotājs.](./media/er-components-inspections-09c.png)
+    ![Tādu formāta elementu validēšana, kas ir saistīti ar datu avotiem lapā Formāta veidotājs](./media/er-components-inspections-09c.png)
 
 16. Ņemiet vērā, ka rodas validācijas kļūda. Ziņojumā norādīts, ka iespējams izpildlaikā tiek parādītas kļūdas konfigurētajos formāta komponentos **Statement\\Party\\Name** un **Statement\\Party\\AccountNum**, ja saraksts `model.Vendor` ir tukšs.
 
-    ![Validācijas kļūdapar potenciālu kļūdu konfigurētajos formāta komponentos.](./media/er-components-inspections-09d.png)
+    ![Validācijas kļūda, kas paziņo par potenciālo kļūdu konfigurētajos formāta komponentos](./media/er-components-inspections-09d.png)
 
 Tālāk redzamajā attēlā parādīta izpildlaika kļūda, kas rodas, ja ignorējat brīdinājumu, atlasāt **Palaist**, lai palaistu formātu, un atlasāt neeksistējoša kreditora konta numuru. Tā kā pieprasītais kreditors nepastāv, saraksts `model.Vendor` būs tukšs (tajā nebūs ierakstu).
 
-![Izpildlaika kļūdas, kas radās formāta kartēšanas izpildes laikā.](./media/er-components-inspections-09e.png)
+![Izpildlaika kļūdas, jo tas radās formāta kartēšanas izpildes laikā](./media/er-components-inspections-09e.png)
 
 ### <a name="automatic-resolution"></a>Automātisks risinājums
 
@@ -630,7 +590,7 @@ Atlasītajai rindai cilnes **Brīdinājumi** režģī varat atlasīt **Atsaistī
 
 Varat saistīt formāta elementu **Statement\\Party\\Name** ar datu avota krājumu `model.Vendor`. Izpildlaikā šis saistījums vispirms izsauc datu avotu `model.Vendor`. Kad `model.Vendor` atpakaļsūta tukšu ierakstu sarakstu, ligzdotie formāta elementi netiek palaisti. Tāpēc šai formāta konfigurācijai nav neviena validācijas brīdinājuma.
 
-![Formāta element saistīšana ar datu avota krājumu lapā Formāta veidotājs.](./media/er-components-inspections-09e.gif)
+![Formāta element saistīšana ar datu avota krājumu lapā Formāta veidotājs](./media/er-components-inspections-09e.gif)
 
 #### <a name="option-2"></a>2. opcija
 
@@ -641,11 +601,11 @@ Mainiet saistījumu formāta elementā **Statement\\Party\\Name** no `model.Vend
 
 Tādējādi nav validācijas brīdinājumu par formāta elementu **Statement\\Party\\Name**, ja tas ir saistīts ar izteiksmi `FIRSTORNULL(model.Vendor).Name`.
 
-![Mainīts saistījums atrisina validācijas brīdinājumus lapā Formāta veidotājs.](./media/er-components-inspections-09f.gif)
+![Mainīts saistījums atrisina validācijas brīdinājumus lapā Formāta veidotājs](./media/er-components-inspections-09f.gif)
 
 #### <a name="option-3"></a>3. opcija
 
-Ja vēlaties skaidri norādīt datus, kas tiek ievadīti ģenerētajā dokumentā, ja datu avots `model.Vendor` ar veidu **Ierakstu saraksts** nenosūta atpakaļ nevienu ierakstu (šajā piemērā teksts **Nav pieejams** ), mainiet saistījumu formāta elementam **Statement\\Party\\Name** no `model.Vendor.Name` uz `IF(NOT(ISEMPTY(model.Vendor)), model.Vendor.Name, "Not available")`. Var izmantot arī izteiksmi `IF(COUNT(model.Vendor)=0, model.Vendor.Name, "Not available")`.
+Ja vēlaties skaidri norādīt datus, kas tiek ievadīti ģenerētajā dokumentā, ja datu avots `model.Vendor` ar veidu **Ierakstu saraksts** nenosūta atpakaļ nevienu ierakstu (šajā piemērā teksts **Nav pieejams**), mainiet saistījumu formāta elementam **Statement\\Party\\Name** no `model.Vendor.Name` uz `IF(NOT(ISEMPTY(model.Vendor)), model.Vendor.Name, "Not available")`. Var izmantot arī izteiksmi `IF(COUNT(model.Vendor)=0, model.Vendor.Name, "Not available")`.
 
 ### <a name="additional-consideration"></a><a id="i9a"></a>Papildu apsvērums
 
@@ -668,17 +628,17 @@ Tālāk norādītajās darbībās parādīts, kā šī problēma varētu rasties
 7. Piešķiriet jaunajam datu avotam nosaukumu **FilteredVendor** un konfigurējiet to, lai tas ietvertu izteiksmi `FILTER(Vendor, Vendor.AccountNum=RequestedAccountNum)`.
 8. Atzīmējiet konfigurēto datu avotu **Kreditors** kā saglabātu kešatmiņā.
 
-    ![Modeļa kartēšanas komponenta konfigurēšana lapā Modeļa kartēšanas veidotājs.](./media/er-components-inspections-10a.gif)
+    ![Modeļa kartēšanas komponenta konfigurēšana lapā Modeļa kartēšanas veidotājs](./media/er-components-inspections-10a.gif)
 
 9. Atlasiet **Validēt**, lai pārbaudītu rediģējamā modeļa kartēšanas komponentu lapā **Modeļa kartēšanas veidotājs**.
 
-    ![FILTRA funkcijas validēšana, kas tiek lietota kešatmiņā saglabātā kreditora datu avotam lapā modeļa kartēšanas veidotājs.](./media/er-components-inspections-10a.png)
+    ![Filtra funkcijas validēšana, kas tiek lietota kešatmiņas kreditora datu avotam lapā modeļa kartēšanas veidotājs](./media/er-components-inspections-10a.png)
 
 10. Ņemiet vērā, ka rodas validācijas kļūda. Ziņojumā norādīts, ka funkciju **FILTER** nevar lietot kešatmiņā saglabātajam datu avotam **Kreditors**.
 
 Tālāk redzamajā attēlā parādīta izpildlaika kļūda, kas rodas, ja ignorējat brīdinājumu un atlasāt **Palaist**, lai palaistu formātu.
 
-![Izpildlaika kļūda, kas rodas, palaižot formāta kartēšanu lapā Formāta veidotājs.](./media/er-components-inspections-10b.png)
+![Izpildlaika kļūda, kas rodas, palaižot Formāta kartēšanu lapā Formāta veidotājs](./media/er-components-inspections-10b.png)
 
 ### <a name="automatic-resolution"></a>Automātisks risinājums
 
@@ -709,12 +669,12 @@ Tālāk norādītajās darbībās parādīts, kā šī problēma varētu rasties
     - Pievienojiet **Virkne** veida ligzdoto lauku un piešķiriet tam nosaukumu **Nosaukums**.
     - Pievienojiet **Virkne** veida ligzdoto lauku un piešķiriet tam nosaukumu **AccountNumber**.
 
-    ![Ligzdoto lauku pievienošana kreditora krājumam lapā Datu modelis.](./media/er-components-inspections-11a.png)
+    ![Ligzdoto lauku pievienošana kreditora krājumam lapā Datu modelis](./media/er-components-inspections-11a.png)
 
-6. Modeļa kartēšanas veidotāja rūtī rūtī **Datu avoti** pievienojiet veida **Dynamics 365 for Operations \\ Tabulas ieraksti** datu avotu.
+6. Modeļa kartēšanas datu avota rūtī pievienojiet **Dynamics 365 for Operations \\ Tabulas ieraksti** veida datu avotu.
 7. Piešķiriet jaunajam datu avotam nosaukumu **Kreditors**. Laukā **Tabula** atlasiet **VendTable**, lai norādītu, ka šis datu avots pieprasīs VendTable tabulu.
 8. Pievienojiet **Vispārīgi \\ Lietotāja ievades parametrs** veida datu avotu, lai vaicātu par kreditora kontu izpildlaika dialoglodziņā.
-9. Piešķiriet jaunajam datu avotam nosaukumu **RequestedAccountNum**. Laukā **Etiķete** ievadiet **Kreditora konta numurs**. Laukā **Operāciju datu veida nosaukums** atstājiet noklusējuma vērtību **Apraksts**.
+9 Piešķiriet jaunajam datu avotam nosaukumu **RequestedAccountNum**. Laukā **Etiķete** ievadiet **Kreditora konta numurs**. Laukā **Operāciju datu veida nosaukums** atstājiet noklusējuma vērtību **Apraksts**.
 10. Pievienojiet **Aprēķinātais lauks** veida datu avotu, lai filtrētu kreditoru, par kuru veikts vaicājums.
 11. Piešķiriet jaunajam datu avotam nosaukumu **FilteredVendor** un konfigurējiet to, lai tas ietvertu izteiksmi `FILTER(Vendor, Vendor.AccountNum=RequestedAccountNum)`.
 12. Saistiet datu modeļa krājumus ar konfigurētajiem datu avotiem tālāk norādītajā veidā.
@@ -725,7 +685,7 @@ Tālāk norādītajās darbībās parādīts, kā šī problēma varētu rasties
     > [!NOTE]
     > Datu modeļa lauks **Vendor.Name** paliek nesaistīts.
 
-    ![Datu modeļa krājumi, kas saistīti ar konfigurētajiem datu avotiem un datu režīma krājumu, kas paliek nesaistīti lapā Modeļa kartēšanas veidotājs.](./media/er-components-inspections-11b.png)
+    ![Datu modeļa krājumi, kas saistīti ar konfigurētajiem datu avotiem un datu režīma krājumu, kas paliek lapā Modeļa kartēšanas veidotājs](./media/er-components-inspections-11b.png)
 
 13. Formāta struktūras kokā pievienojiet tālāk norādītos krājumus, lai ģenerētu izejošo dokumentu XML formātā, kas satur informāciju par kreditoriem, par kuriem veikts vaicājums.
 
@@ -744,15 +704,15 @@ Tālāk norādītajās darbībās parādīts, kā šī problēma varētu rasties
 
 15. Atlasiet **Validēt**, lai pārbaudītu rediģējamā formāta komponentu lapā **Formāta veidotājs**.
 
-    ![ER formāta komponenta validācija lapā Formāta veidotājs.](./media/er-components-inspections-11c.png)
+    ![ER formāta komponenta validācija lapā Formāta veidotājs](./media/er-components-inspections-11c.png)
 
 16. Ņemiet vērā, ka notiek brīdinājums par validāciju. Ziņojumā norādīts, ka datu avota lauks **model.Vendor.Name** nav saistīts ar nevienu datu avotu modeļa kartēšanā, kas konfigurēta izmantošanai formātā. Tādējādi formāta elements **Statement\\Party\\Name** var nebūt aizpildīts izpildlaikā, un var rasties izņēmums izpildlaikā.
 
-    ![ER formāta komponenta validācija lapā Formāta veidotājs.](./media/er-components-inspections-11d.png)
+    ![ER formāta komponenta validācija lapā Formāta veidotājs](./media/er-components-inspections-11d.png)
 
 Tālāk redzamajā attēlā parādīta izpildlaika kļūda, kas rodas, ja ignorējat brīdinājumu un atlasāt **Palaist**, lai palaistu formātu.
 
-![Rediģējamā formāta palaišana lapā Formāta veidotājs.](./media/er-components-inspections-11e.png)
+![Rediģējamā formāta palaišana lapā Formāta veidotājs](./media/er-components-inspections-11e.png)
 
 ### <a name="automatic-resolution"></a>Automātisks risinājums
 
@@ -781,9 +741,9 @@ Tālāk norādītajās darbībās parādīts, kā šī problēma varētu rasties
 5. Elementā **Excel\\Fails** atlasiet darbgrāmatas failu A.
 6. Atlasiet **Validēt**, lai pārbaudītu rediģējamā formāta komponentu lapā **Formāta veidotājs**.
 
-    ![Darbgrāmatas faila rediģējamā formāta komponenta validācija lapā Formāta veidotājs.](./media/er-components-inspections-12a.gif)
+    ![Darbgrāmatas faila rediģējamā formāta komponenta validācija lapā Formāta veidotājs](./media/er-components-inspections-12a.gif)
 
-7. Ņemiet vērā, ka notiek brīdinājums par validāciju. Ziņojumā norādīts, ka darbgrāmatas fails B. xlsx nav saistīts ar nevienu komponentu un ka tas tiks noņemts pēc konfigurācijas versijas statusa maiņas.
+7. Ņemiet vērā, ka notiek brīdinājums par validāciju. Ziņojumā norādīts, ka darbgrāmatas fails **B. xlsx** nav saistīts ar nevienu komponentu un ka tas tiks noņemts pēc konfigurācijas versijas statusa maiņas.
 
 ### <a name="automatic-resolution"></a>Automātisks risinājums
 
@@ -806,14 +766,14 @@ Tālāk norādītajās darbībās parādīts, kā šī problēma varētu rasties
     > [!IMPORTANT]
     > Pārliecinieties, vai pievienotajā Excel darbgrāmatā nav ietverts nosaukums **ReportTitle**.
 
-4. Pievienojiet **Excel\\Šūna** elementu **Virsraksts** kā elementa **Pārskats** ligzdoto elementu. Laukā **Excel diapazons** ievadiet **ReportTitle**.
+4. Pievienojiet tālāk norādīto **Excel\\Šūna** elementu **Virsraksts** kā elementa **Pārskats** ligzdoto elementu. Laukā **Excel diapazons** ievadiet **ReportTitle**.
 5. Atlasiet **Validēt**, lai pārbaudītu rediģējamā formāta komponentu lapā **Formāta veidotājs**.
 
-    ![Ligzdoto elementu un lauku validācija lapā Formāta veidotājs.](./media/er-components-inspections-13a.png)
+    ![Ligzdoto elementu un lauku validācija lapā Formāta veidotājs](./media/er-components-inspections-13a.png)
 
 6. Ņemiet vērā, ka notiek brīdinājums par validāciju. Ziņojumā norādīts, ka nosaukums **ReportTitle** nepastāv izmantotajā Excel veidnes lapā **Lapa1**.
 
-    ![Brīdinājums par validāciju, ka nosaukums ReportTitle nepastāv Excel veidnes Lapa1.](./media/er-components-inspections-13b.png)
+    ![Brīdinājums par validāciju, ka nosaukums ReportTitle nepastāv Excel veidnes Lapa1](./media/er-components-inspections-13b.png)
 
 ### <a name="automatic-resolution"></a>Automātisks risinājums
 
@@ -832,116 +792,6 @@ Modificējiet konfigurēto formātu, noņemot visus elementus, kas atsaucas uz E
 ### <a name="additional-consideration"></a>Papildu apsvērums
 
 Lai uzzinātu, kā formāta struktūru var sinhronizēt ar ER veidni [Biznesa dokumentu pārvaldnieka](er-business-document-management.md) veidņu redaktorā, skatiet [Biznesa dokumenta veidnes struktūras atjaunināšana](er-bdm-update-structure.md).
-
-## <a name="not-synced-with-a-word-template-format"></a><a id="i14"></a>Nav sinhronizēts ar Word veidnes formātu
-
-Ja [konfigurējat](er-fillable-excel.md) ER formāta komponentu, lai izmantotu Word veidni izejošā dokumenta ģenerēšanai, varat manuāli pievienot elementu **Excel\\Fails**, pievienot vajadzīgo Word veidni kā rediģējamā komponenta pielikumu un atlasīt šo pielikumu pievienotajā elementā **Excel\\Fails**.
-
-> [!NOTE]
-> Kad Word dokuments ir pievienots, ER formāta veidotājs piedāvā rediģējamu elementu kā **Word\\failu**.
-
-Šādā veidā norādīsiet, ka pievienotais elements aizpildīs atlasīto veidni izpildlaikā. Tā kā pievienotā Word veidne ir ārēji izstrādāta, rediģējamais ER formāts var saturēt atsauces uz Word satura vadīklām, kas nav iekļautas pievienotajā veidnē. ER formāta veidotājs brīdina par jebkādām neatbilstībām starp ER formāta elementu rekvizītiem, kas atsaucas uz satura vadīklām, kas nav iekļautas pievienotajā Word veidnē.
-
-Piemēru, kas parāda, kā šī problēma var notikt, skatiet sadaļā [Rediģējamā formāta konfigurēšana, lai likvidētu kopsavilkuma sadaļu](er-design-configuration-word-suppress-controls.md#configure-to-suppress-control).
-
-### <a name="automatic-resolution"></a>Automātisks risinājums
-
-Nav pieejama opcija automātiski novērst šo problēmu.
-
-### <a name="manual-resolution"></a>Manuāls risinājums
-
-#### <a name="option-1"></a>1. opcija
-
-Modificējiet konfigurēto formātu, dzēšot formulu **Noņemts** formāta elementā, kas ir minēts pārbaudes brīdinājumā.
-
-#### <a name="option-2"></a>2. opcija
-
-Modificējiet Word veidnes izmantošanu, [pievienojot](er-design-configuration-word-suppress-controls.md#tag-control) nepieciešamo tagu atbilstošajai Word satura vadīklai.
-
-## <a name="no-default-mapping"></a><a id="i15"></a>Nav noklusējuma kartējuma
-
-Kad ir veikta [trūkstošās saistīšanas](#i11) pārbaude, pārbaudītie formātu saistījumi tiek novērtēti attiecībā uz atbilstošo modeļa kartēšanas komponentu saistījumiem. Tā kā varat importēt [vairākas](./tasks/er-manage-model-mapping-configurations-july-2017.md) ER modeļa kartēšanas konfigurācijas uz jūsu Finance instanci, un katra konfigurācija var ietvert piemērojamo modeļa kartēšanas komponentu, viena konfigurācija ir jāatlasa kā noklusējuma konfigurācija. Pretējā gadījumā, mēģinot palaist, rediģēt vai validēt pārbaudīto ER formātu, rodas izņēmums, un saņemsit šādu ziņojumu: "Vairāk nekā viens modeļa kartējums pastāv \<model name (root descriptor)\> datu modelim konfigurācijās \<configuration names separated by comma\>. Iestatiet vienu no konfigurācijām kā noklusējumu."
-
-Piemēru, kas parāda, kā šī problēma var notikt un kā to var labot, skatiet sadaļā [Vairāku atvasināto kartējumu pārvaldība viena modeļa saknei](er-multiple-model-mappings.md).
-
-## <a name="inconsistent-setting-of-header-or-footer-components"></a><a id="i16"></a>Nesaskaņoti galvenes vai kājenes komponentu iestatījumi
-
-Kad [konfigurējat](er-fillable-excel.md) ER formāta komponentu, lai izmantotu Excel veidni izejošā dokumenta ģenerēšanai, varat pievienot komponentu **Excel\\Galvene**, lai darblapas augšā aizpildītu Excel darbgrāmatas virsrakstus. Varat arī pievienot komponentu **Excel\\Kājene**, lai aizpildītu kājenes darblapas apakšdaļā. Katram pievienotajam **Excel\\Galvene** vai **Excel\\Kājene** ir jāiestata rekvizīts **Galvenes/kājenes izskats**, lai precizētu lapas, kurām komponents tiek palaists. Tā kā varat konfigurēt vairākus komponentus **Excel\\Galvene** vai **Excel\\Kājene** vienam komponentam **Lapa** un varat ģenerēt dažādas galvenes vai kājenes dažādiem lapu veidiem Excel darblapā, ir jākonfigurē viens **Excel\\Galvene** vai **Excel\\Kājene** komponents rekvizīta **Galvene/kājenes izskats** specifiskai vērtībai. Ja vairāk nekā viens komponents **Excel\\Galvene** vai **Excel\\Kājene** ir konfigurēts noteiktai rekvizīta **Galvenes/kājenes izskats**, rodas validācijas kļūda un tiek parādīts šāds kļūdas ziņojums: "Galvenes/kājenes (&lt;komponenta veids: galvene vai kājene&gt;) nesakrīt."
-
-### <a name="automatic-resolution"></a>Automātisks risinājums
-
-Nav pieejama opcija automātiski novērst šo problēmu.
-
-### <a name="manual-resolution"></a>Manuāls risinājums
-
-#### <a name="option-1"></a>1. opcija
-
-Modificējiet konfigurēto formātu, dzēšot vienu no neatbilstošajiem komponentiem **Excel\\Galvene** vai **Excel\\Kājene**.
-
-#### <a name="option-2"></a>2. opcija
-
-Modificējiet rekvizīta **Galvenes/kājenes izskats** vērtību vienam no neatbilstošajiem komponentiem **Excel\\Galvene** vai **Excel\\Kājene**.
-
-## <a name="inconsistent-setting-of-page-component"></a><a id="i17"></a>Nesaskaņots Lapas komponenta iestatījums
-
-Kad [konfigurējat](er-fillable-excel.md) ER formāta komponentu, lai izmantotu Excel veidni izejošā dokumenta ģenerēšanai, varat pievienot komponentu **Excel\\Lapa**, lai izdalītu pa lapām ģenerēto dokumentu, izmantojot ER formulas. Katram **Excel\\Lapas** komponentam, ko pievienojat, varat pievienot daudzus ligzdotos [Diapazona](er-fillable-excel.md#range-component) komponentus un joprojām nodrošināt atbilstību šādai [struktūrai](er-fillable-excel.md#page-component-structure):
-
-- Pirmo ligzdoto **Diapazona** komponentu var iestatīt tā, lai līdzeklis **Replicēšanas virziens** būtu iestatīts uz **Bez replicēšanas**. Diapazons tiek izmantots, lai ģenerētajos dokumentos izveidotu lappušu galvenes.
-- Varat pievienot daudzus citus ligzdotos **Diapazona** komponentus, kur rekvizīts **Replicēšanas virziens** ir iestatīts uz vērtību **Vertikāls**. Šos diapazonus izmanto, lai aizpildītu ģenerētos dokumentus.
-- Pēdējo ligzdoto **Diapazona** komponentu var iestatīt tā, lai līdzeklis **Replicēšanas virziens** būtu iestatīts uz **Bez replicēšanas**. Diapazons tiek izmantots, lai ģenerētajos dokumentos izveidotu lappušu kājenes un lai pievienotu vajadzīgos lappušu pārtraukumus.
-
-Ja nesekojat šai ER formāta struktūrai ER formāta noformētājā noformēšanas laikā, tiek rādīta validācijas kļūda un jūs saņemsit šādu kļūdas ziņojumu: "Ir vairāk nekā divi diapazona komponenti bez replicēšanas. Lūdzu, noņemiet nevajadzīgos komponentus."
-
-### <a name="automatic-resolution"></a>Automātisks risinājums
-
-Nav pieejama opcija automātiski novērst šo problēmu.
-
-### <a name="manual-resolution"></a>Manuāls risinājums
-
-#### <a name="option-1"></a>1. opcija
-
-Pārveidojiet konfigurēto formātu, mainot rekvizītu **Replicēšanas virziens** visām nepastāvīgajām **Excel\\Diapazona** komponentēm.
-
-## <a name="executability-of-an-expression-with-orderby-function"></a><a id="i18"></a> Izteiksmes izpildāmība ar funkciju ORDERBY
-
-Iebūvētais [SAKĀRTOT PĒC](er-functions-list-orderby.md) ER funkcija tiek izmantota, lai kārtotu ER datu avota ierakstus **[Ierakstu saraksts](er-formula-supported-data-types-composite.md#record-list)** tips, kas norādīts kā funkcijas arguments.
-
-Argumenti par`ORDERBY` funkcija var būt [norādīts](er-functions-list-orderby.md#syntax-2) lai kārtotu lietojumprogrammu tabulu, skatu vai datu entītiju ierakstus, veicot vienu datu bāzes izsaukumu, lai iegūtu sakārtotos datus kā ierakstu sarakstu. Datu avots **Ierakstu saraksts** tips tiek izmantots kā funkcijas arguments un norāda izsaukuma lietojumprogrammas avotu.
-
-ER pārbauda, vai var izveidot tiešu datu bāzes vaicājumu datu avotam, uz kuru ir atsauce`ORDERBY` funkcija. Ja tiešo vaicājumu nevar izveidot, ER modeļa kartēšanas veidotājā rodas validācijas kļūda. Ziņojumā, ko saņemat, norādīts, ka ER izteiksmi, kas ietver funkciju `ORDERBY`, nevar palaist izpildlaikā.
-
-Tālāk norādītajās darbībās parādīts, kā šī problēma varētu rasties.
-
-1. Sāciet konfigurēt ER modeļa kartēšanas komponentu.
-2. Pievienojiet **Dynamics 365 for Operations \\ Tabulas ieraksti** veida datu avotu.
-3. Piešķiriet jaunajam datu avotam nosaukumu **Kreditors**. Iekš **Tabula** laukā atlasiet **VendTable** lai norādītu, ka šis datu avots pieprasīs **VendTable** tabula.
-4. Pievienojiet **Aprēķinātais lauks** veida datu avotu.
-5. Nosauciet jauno datu avotu **PasūtītiPārdevēji**, un konfigurējiet to tā, lai tajā būtu ietverta izteiksme `ORDERBY("Query", Vendor, Vendor.AccountNum)`.
- 
-    ![Datu avotu konfigurēšana lapā Modeļu kartēšanas noformētājs.](./media/er-components-inspections-18-1.png)
-
-6. Izvēlieties **Apstiprināt** lai pārbaudītu rediģējamo modeļa kartēšanas komponentu **Modeļu kartēšanas dizainers** lapu un pārbaudiet, vai izteiksmē **PasūtītiPārdevēji** datu avotu var jautāt.
-7. Modificējiet datu avotu **Kreditors**, pievienojot **Aprēķinātais lauks** veida ligzdoto lauku, lai iegūtu apgrieztu kreditora konta numuru.
-8. Piešķiriet jaunajam ligzdotajam laukam nosaukumu **$AccNumber** un konfigurējiet to, lai tas ietvertu izteiksmi `TRIM(Vendor.AccountNum)`.
-9. Izvēlieties **Apstiprināt** lai pārbaudītu rediģējamo modeļa kartēšanas komponentu **Modeļu kartēšanas dizainers** lapu un pārbaudiet, vai izteiksmē **Pārdevējs** datu avotu var jautāt.
-
-    ![Pārbaude, vai modeļa kartēšanas noformētāja lapā var uzdot vaicājumu par izteiksmi piegādātāja datu avotā.](./media/er-components-inspections-18-2.png)
-
-10. Ievērojiet, ka rodas validācijas kļūda, jo **Pārdevējs** datu avotā ir ligzdots lauks **Aprēķināts lauks** veids, kas neļauj izteikt **PasūtītiPārdevēji** datu avots, kas jātulko tiešajā datu bāzes paziņojumā. Tāda pati kļūda rodas izpildes laikā, ja ignorējat validācijas kļūdu un atlasāt **Skrien** lai palaistu šo modeļa kartēšanu.
-
-### <a name="automatic-resolution"></a>Automātisks risinājums
-
-Nav pieejama opcija automātiski novērst šo problēmu.
-
-### <a name="manual-resolution"></a>Manuāls risinājums
-
-#### <a name="option-1"></a>1. opcija
-
-Tā vietā, lai pievienotu ligzdotu lauku **Aprēķināts lauks** ierakstiet uz **Pārdevējs** datu avotu, pievienojiet **$AccNumber** ligzdots lauks uz **FiltrētiVendors** datu avotu un konfigurējiet lauku tā, lai tajā būtu ietverta izteiksme `TRIM(FilteredVendor.AccountNum)`. Tādā veidā,`ORDERBY("Query", Vendor, Vendor.AccountNum)` izteiksmi var palaist datu bāzes līmenī, un aprēķinu **$AccNumber** ligzdoto lauku var veikt pēc.
-
-#### <a name="option-2"></a>2. opcija
-
-Mainiet izteiksmi **FilteredVendors** datu avots no`ORDERBY("Query", Vendor, Vendor.AccountNum)` uz `ORDERBY("InMemory", Vendor, Vendor.AccountNum)`. Mēs neiesakām mainīt izteiksmi tabulai, kurā ir liels datu apjoms (transakciju tabula), jo visi ieraksti tiks ielādēti un nepieciešamo ierakstu secība tiks veikta atmiņā. Tāpēc šī pieeja var izraisīt sliktu veiktspēju.
 
 ## <a name="additional-resources"></a>Papildu resursi
 
@@ -962,10 +812,3 @@ Mainiet izteiksmi **FilteredVendors** datu avots no`ORDERBY("Query", Vendor, Ven
 [Elektronisko atskaišu veidošanas (ER) formāta failu izpildes uzraudzīšana, lai novērstu veiktspējas problēmas](trace-execution-er-troubleshoot-perf.md)
 
 [Biznesa dokumentu pārvaldības pārskats](er-business-document-management.md)
-
-[Word satura vadīklu likvidēšana ģenerētajos pārskatos](er-design-configuration-word-suppress-controls.md)
-
-[Vairāku atvasināto kartējumu pārvaldība viena modeļa saknei](er-multiple-model-mappings.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

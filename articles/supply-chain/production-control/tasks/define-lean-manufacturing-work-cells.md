@@ -1,31 +1,34 @@
 ---
-title: Lean ražošanas procesa darba šūnu definēšana
-description: Darba šūna ir specifiska resursu grupu forma, kuru var izmantot lean ražošanas procesa aktivitātēs.
-author: johanhoffmann
+title: Lean manufacturing darba šūnu definēšana
+description: Darba šūna ir specifiska resursu grupu forma, kuru var izmantot lean manufacturing procesa aktivitātēs.
+author: cvocph
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WrkCtrResourceGroup, InventLocationIdLookup, UnitOfMeasureLookup, DimensionLookup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f1144bd9f99fef44210c2a01f71a39488354ccf
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 4f460fb42be5cbeda55a82e536e2a83cd2f6b608
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576788"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432481"
 ---
-# <a name="define-lean-manufacturing-work-cells"></a>Lean ražošanas procesa darba šūnu definēšana
+# <a name="define-lean-manufacturing-work-cells"></a>Lean manufacturing darba šūnu definēšana
 
 [!include [banner](../../includes/banner.md)]
 
-Darba šūna ir specifiska resursu grupu forma, kuru var izmantot lean ražošanas procesa aktivitātēs. Darba šūnām ir ievades un izvades vietas un noslodzes definīcija, pamatojoties uz ražošanas plūsmas modeli. Lai uzzinātu vairāk par lean ražošanas procesa darba šūnu pamatkonceptiem un noslodzes aprēķiniem, skatiet tehniskos dokumentus par Lean ražošanas procesu. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF
+Darba šūna ir specifiska resursu grupu forma, kuru var izmantot lean manufacturing procesa aktivitātēs. Darba šūnām ir ievades un izvades vietas un noslodzes definīcija, pamatojoties uz ražošanas plūsmas modeli. Lai uzzinātu vairāk par lean manufacturing darba šūnu pamatkonceptiem un noslodzes aprēķiniem, skatiet tehniskos dokumentus par Lean manufacturing. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF
 
 
 ## <a name="create-a-work-cell"></a>Izveidojiet darba šūnu. 
@@ -97,6 +100,3 @@ Darba šūna ir specifiska resursu grupu forma, kuru var izmantot lean ražošan
 ## <a name="save"></a>Saglabāt
 1. Noklikšķiniet uz Saglabāt.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

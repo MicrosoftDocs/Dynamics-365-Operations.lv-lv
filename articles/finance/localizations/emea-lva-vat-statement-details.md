@@ -2,24 +2,27 @@
 title: PVN deklarācijas informācija Latvijai
 description: Šajā tēmā ir paskaidrots, kā iestatīt PVN deklarāciju juridiskajām personām Latvijā.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAuthority, TaxReportCollection, TaxReportVoucher, TaxTable
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 266864
 ms.search.region: Latvia
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 711385fc663b914e0fda15680d9df7572511ab8a76779775086e80de89965f82
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bed56c810792908b2521b6c44635d24261b5321a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774217"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408280"
 ---
 # <a name="vat-statement-details-for-latvia"></a>PVN deklarācijas informācija Latvijai
 
@@ -67,6 +70,3 @@ Lai ģenerētu PVN XML failu, lapā **PVN maksājumi** atlasiet vienu vai vairā
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

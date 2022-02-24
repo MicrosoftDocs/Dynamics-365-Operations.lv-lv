@@ -1,26 +1,29 @@
 ---
 title: Mazumtirdzniecības pārdošanas kuponu iestatīšana
-description: Šajā tēmā sniegts pārskats par kuponiem un izskaidrots, kā tos iestatīt programmā Dynamics 365 Commerce.
-author: josaw1
-ms.date: 10/05/2021
+description: Šajā tēmā sniegts pārskats par kuponiem un izskaidrots, kā tos iestatīt.
+author: scott-tucker
+manager: AnnBe
+ms.date: 06/04/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailCoupon, RetailParameters, RetailSharedParameters
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: josaw
+ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6a2ee38139f20b883bdfa5f0776951246f763f5f
-ms.sourcegitcommit: f699dbc21a06dbfb3fb299b789b428ea8d643868
+ms.openlocfilehash: a07bed244152327047efd68cfacb329a722c0049
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "7603127"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413979"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Mazumtirdzniecības pārdošanas kuponu iestatīšana
 
@@ -38,10 +41,6 @@ Lai izveidotu kuponu, atlaide un kupons ir jāizveido atsevišķi. Pēc tam tie 
 
 > [!NOTE]
 > Pēc tam, kad kupons ir saistīts ar atlaidi, vairāki lauki programmas Commerce atlaižu lapā kļūst tikai lasāmi, jo to pārvaldībai tiek izmantoti kupona iestatījumi. Šie lauki ietver statusa un standarta datumu diapazona laukus.
-> 
-> Izmantojot kuponu zvanu centra kanālā, ir jāatlasa poga **Pārrēķināt** **(cilne Pārdot > Aprēķināt > Pārrēķināt)**, lai saņemtu ar kuponu saistīto atlaidi. Šī papildu darbība tiks noņemta nākamajā laidienā.
-
-Lai lietotu kuponu pārdošanas darījumam pārdošanas punktā (POS), varat izmantot **Kupona kodu** vai **Kupona svītrkodu**. Lai izmantotu **Kupona kodu**, operācija **Pievienot kupona kodu** ir jākonfigurē POS **Transakcijas** [ekrāna izkārtojumā](pos-screen-layouts.md). Atlasiet **Pievienot kupona kodu** un ievadiet kupona kodu. Vai arī, lai izmantotu **Kupona svītrkodu**, skenējiet svītrkodu vai ievadiet svītrkodu, izmantojot ciparu tastatūru **Transakcijas** ekrānā.
 
 ### <a name="limited-use-coupons"></a>Kuponi ar izmantošanas ierobežojumiem
 
@@ -83,6 +82,3 @@ Kupona funkcionalitātē ir ietverti daudzi atšķirīgi līdzekļi. Commerce He
 - **HQ tiek daļēji atjaunināts, bet Commerce Scale Unit un POS — netiek atjaunināti.** HQ atjauninājumā tiek atjaunināts kupons un atlaižu lapas, un komercijas cenu noteikšanas programma arī tiek atjaunināta. Ja tiek atjaunināts tikai viens no šiem diviem komponentiem, dažas Commerce lapas neatbildīs cenu aprēķina datiem. Tāpēc atlaižu aprēķinu laikā var rasties neparedzēti atlaižu aprēķini var kļūdas.
 - **HQ tiek atjaunināts, bet Commerce Scale Unit un POS — netiek atjaunināti (N-1).** Ne visus veikalus var atjaunināt vienlaicīgi, tādēļ HQ ieteicams atjaunināt pirms veikalu atjaunināšanas. N-1 scenārijā jaunā funkcionalitāte, kas ir saistīta ar kuponiem, nebūs pieejama veikalos, kas vēl nav atjaunināti. Piemēram, kupona funkcionalitāte ievieš rindas “Izslēgt”. Ja atlaidei izmantojat rindu izslēgšanu, tās netiks piemērotas veikalā, kurā darbojas vecāka versija.
 - **HQ netiek atjaunināts, bet Commerce Scale Unit un POS — tiek atjaunināti (N+1).** Atjauninātā Commerce Scale Unit cenu noteikšanas programma var apstrādāt mantojuma atlaižu kodus cenu aprēķinu laikā, tādēļ šajā scenārijā atjauninājumam nevajadzētu ietekmēt darbību.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

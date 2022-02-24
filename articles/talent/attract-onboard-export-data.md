@@ -113,5 +113,3 @@ Lejupielāde ir.zip fails, kas satur tālāk norādīto.
 ## <a name="see-also"></a>Skatiet arī
 
 [Programmu Dynamics 365 Talent: Attract un Dynamics 365 Talent: Onboard darbības pārtraukšana](https://community.dynamics.com/365/talent/b/dynamics365fortalent/posts/retiring-dynamics-365-talent-attract-and-onboard-apps)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

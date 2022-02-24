@@ -1,13 +1,16 @@
 ---
 title: Brīvā laika pieprasīšana
 description: Brīvā laika pieprasīšana pakalpojumā Dynamics 365 Human Resources.
-author: twheeloc
-ms.date: 11/03/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: EssWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -15,19 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f7ca3fd03cda720187cb9c21b7f3ef3545c8901e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: b034f3bac7264ff96100396cbb45e5b869765ce8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066779"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419616"
 ---
 # <a name="request-time-off"></a>Brīvā laika pieprasīšana
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Varat iesniegt brīvā laika pieprasījumus, skatīt atvaļinājumu un prombūtnes bilances un skatīt savu atvaļinājumu pieprasījumu statusu pakalpojumā Dynamics 365 Human Resources.
 
@@ -45,11 +43,9 @@ Varat iesniegt brīvā laika pieprasījumus, skatīt atvaļinājumu un prombūtn
 
 6. Atlasiet **Iesniegt**, kad esat gatavs iesniegt savu pieprasījumu. Pretējā gadījumā atlasiet **Saglabāt melnrakstu**.
 
-Darbinieki, kas iesniedz jaunu atvaļinājuma pieprasījumu, var atlasīt dažādus atvaļinājumu tipus, lai veidotu sava atvaļinājuma pieprasījumu. Tomēr visiem atvaļinājumu tipiem, kas atlasīti kā daļa no viena atvaļinājuma pieprasījuma, jābūt vienai atvaļinājuma vienībai. Darbinieki var skatīt atvaļinājuma vienību katram atvaļinājuma veidam lapā Pieprasījuma **taimauts**.
-
 ## <a name="add-an-attachment-to-an-existing-request"></a>Pielikuma pievienošana esošam pieprasījumam
 
-Atjauninot esošo vienreizējo pieprasījumu, varat pievienot pielikumu. Varat arī skatīt visus saistītos pieprasījumus noteiktam datumam.
+Atjauninot esošo vienreizējo pieprasījumu, varat pievienot pielikumu. Varat arī skatīt visus saistītos pieprasījumus noteiktam datumam. 
 
 ## <a name="view-leave-balances"></a>Skatīt atvaļinājumu bilances
 
@@ -61,23 +57,8 @@ Atjauninot esošo vienreizējo pieprasījumu, varat pievienot pielikumu. Varat a
 
 1. Darbvietā **Darbinieku patstāvīgi izmantotie pakalpojumi** atlasiet opciju **Vairāk** (...) rūtī **Brīvā laika bilances**.
 
-2. Lai skatītu apstiprinātos taimauta pieprasījumus, atlasiet **Apstiprinātais brīvlaiks**. Lai skatītu gaidošos taimauta pieprasījumus, atlasiet **Brīvlaiks pieprasījumus**.
-
-## <a name="cancel-time-off-requests"></a>Atcelt taimauta pieprasījumus
-
-1. Darbvietā **Darbinieku patstāvīgi izmantotie pakalpojumi** atlasiet opciju **Skatīt brīvo laiku** rūtī **Brīvā laika bilances**.
-
-2. Lapā Brīvlaiks **atlasiet** vienu vai vairākas atcelšanas taimauta pieprasījumus.
-
-3. Atlasiet pogu **Atcelt**.
-
-4. Rūtī **Atcelšanas detaļas** ievadiet komentāru un pēc tam atlasiet **Iesniegt**.
-
-   ![Atcelt atvaļinājuma pieprasījumu.](media/hr-leave-and-absence-cancel.png)
+2. Lai skatītu apstiprinātos brīvā laika pieprasījumus, izvēlieties **Apstiprinātais brīvais laiks**. Lai skatītu gaidošos brīvā laika pieprasījumus, atlasiet **Brīvā laika pieprasījumi**.
 
 ## <a name="see-also"></a>Skatiet arī
 
 - [Atvaļinājumu un kavējumu apskats](hr-leave-and-absence-overview.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

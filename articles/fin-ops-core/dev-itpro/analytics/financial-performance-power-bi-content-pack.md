@@ -2,9 +2,11 @@
 title: PowerBI.com risinājums Finanšu veiktspēja
 description: Šajā tēmā ir aprakstīts PowerBI.com risinājums Finanšu veiktspēja.
 author: kweekley
+manager: AnnBe
 ms.date: 05/09/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ca8338473b2efd91b6570e140ee1def3fa93df14dcf57273f601efb7f548d08
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 34ebb9c6262defa5ccf520ad51101eb3bc613fef
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767807"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682749"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>PowerBI.com risinājums Finanšu veiktspēja
 
@@ -74,8 +76,8 @@ PowerBI.com risinājuma **Finanšu veiktspēja** pamatā tika izmantoti tālāk 
 
 **Apkopoto datu elementi**
 
-- **GeneralLedgerActivities** — šis elements apkopo virsgrāmatas bilances pēc kontu kategorijas.
-- **BudgetActivities** — šis elements apkopo budžeta bilances pēc kontu kategorijas.
+- **GeneralLedgerActivities** — šis elements apkopo virsgrāmatas bilances pēc kontu kategorijas.
+- **BudgetActivities** — šis elements apkopo budžeta bilances pēc kontu kategorijas.
 
 **Datu elementi**
 
@@ -85,7 +87,4 @@ PowerBI.com risinājuma **Finanšu veiktspēja** pamatā tika izmantoti tālāk 
 - Virsgrāmatas
 - ChartofAccounts
 
-Šie elementi tika izmantoti, lai datu modelī izveidotu aprēķinātus mērus. Šie aprēķinātie mēri tiek lietoti, lai aprēķinātu galvenos veiktspējas rādītājus (key performance indicators — KPI) un pārskatus, kas tiek izmantoti saturā. Pēc noklusējuma saturs apkopo datus par pēdējiem trīs gadiem un vienu turpmāko gadu. Lai iekļautu papildu aprēķinus pārskatos un informācijas panelī, varat modificēt [Microsoft Excel darbgrāmatu](/dynamics/s-e/). Šī darbgrāmata ir noklusējuma datu modelis, kas tika izmantots satura izveidošanai.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+Šie elementi tika izmantoti, lai datu modelī izveidotu aprēķinātus mērus. Šie aprēķinātie mēri tiek lietoti, lai aprēķinātu galvenos veiktspējas rādītājus (key performance indicators — KPI) un pārskatus, kas tiek izmantoti saturā. Pēc noklusējuma saturs apkopo datus par pēdējiem trīs gadiem un vienu turpmāko gadu. Lai iekļautu papildu aprēķinus pārskatos un informācijas panelī, varat modificēt [Microsoft Excel darbgrāmatu](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Šī darbgrāmata ir noklusējuma datu modelis, kas tika izmantots satura izveidošanai.

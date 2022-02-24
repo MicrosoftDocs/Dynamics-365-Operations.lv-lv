@@ -1,10 +1,12 @@
 ---
 title: Izveidot konfigurācijas nodrošinātājus un atzīmēt tos kā aktīvus
-description: Šajā tēmā ir paskaidrots, kā lietotājs, kuram ir piešķirta loma “Sistēmas administrators” vai “Elektronisko pārskatu izstrādātājs”, var izveidot konfigurācijas nodrošinātāju.
+description: Šajā tēmā ir paskaidrots, kā lietotājs, kuram ir piešķirta loma “Sistēmas administrators” vai “Elektronisko pārskatu izstrādātājs”, var izveidot konfigurācijas nodrošinātāju elektroniskajiem pārskatiem (Electronic reporting — ER).
 author: NickSelin
+manager: AnnBe
 ms.date: 07/02/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERVendorTable
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e5b429badcbcc0e9829d82785a6e1f1a2504f5ec9b9ac74d249032f272dea103
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7fb9f5be8571974237154ea704c93b8666c539a7
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747251"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682001"
 ---
 # <a name="create-configuration-providers-and-mark-them-as-active"></a>Izveidot konfigurācijas nodrošinātājus un atzīmēt tos kā aktīvus
 
@@ -41,7 +43,4 @@ ms.locfileid: "6747251"
 1. Atlasiet pakalpojumu sniedzēju Litware, Inc.
 2. Atlasiet **Iestatīt kā aktīvu**.
 
-![Elektronisko pārskatu darbvietas lapa.](../media/GER-Task-ActiveProvider-1.png)
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+![Elektronisko pārskatu darbvietas lapa](../media/GER-Task-ActiveProvider-1.png)

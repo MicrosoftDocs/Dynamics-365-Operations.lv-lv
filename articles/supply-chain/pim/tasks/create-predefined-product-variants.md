@@ -1,106 +1,73 @@
 ---
 title: Iepriekš definētu preces variantu izveide
 description: Šajā procedūrā ir aprakstīts, kā izveidot preces variantus preces šablonam, izmantojot preču dimensiju kombinācijas.
-author: t-benebo
-ms.date: 04/22/2021
+author: ShylaThompson
+manager: tfehr
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductMasterDimension, EcoResProductVariants, EcoResProductVariantSuggestions, EcoResProductVariantsPendingReleaseFormPart, EcoResProductVariantSuggestionsEnhanced
+ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductMasterDimension, EcoResProductVariants, EcoResProductVariantSuggestions, EcoResProductVariantsPendingReleaseFormPart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: a90e0eb469b823368c1140421fc9c92ccfe69a3b7bac73f762170c0da43e3eee
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: d07a090dbd41eb17e8d604887435bbb8b07e8d9e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747893"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966934"
 ---
-# <a name="predefined-product-variants"></a>Iepriekš definēts preces variants
+# <a name="create-predefined-product-variants"></a>Iepriekš definētu preces variantu izveide
 
 [!include [banner](../../includes/banner.md)]
 
-## <a name="example-scenario-create-predefined-product-variants"></a>Piemērs: Iepriekš definētu preces variantu izveide
+Šajā procedūrā ir aprakstīts, kā izveidot preces variantus preces šablonam, izmantojot preču dimensiju kombinācijas. Demonstrācijas uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 
-Šajā piemērā parādīts, kā izveidot preces variantus preces šablonam, izmantojot preču dimensiju kombinācijas.
 
-### <a name="make-demo-data-available"></a>Padarīt demonstrācijas datus pieejamus
+## <a name="create-a-product-master"></a>Preces šablona izveide
+1. Pārejiet uz sadaļu Preču informācijas pārvaldība > Preces > Preces šabloni.
+2. Noklikšķiniet uz Jauns.
+3. Laukā Preces numurs ierakstiet vērtību.
+    * Manuāla preces numura ievadīšana ir nepieciešama tikai tad, ja preces numura laukā nebija iestatīta numuru sērija. Citiem vārdiem sakot, izlaidiet šo soli, ja attiecīgajā laukā ir iestatīta numuru sērija.  
+4. Laukā Preces nosaukums ierakstiet kādu vērtību.
+5. Laukā Preces dimensijas grupa ievadiet vai atlasiet kādu vērtību.
+    * Atlasiet preces dimensijas grupu SizeCol (izmērs un krāsa).  
+6. Noklikšķiniet uz OK.
 
-Lai sekotu šim scenārijam, izmantojot šeit ieteiktās vērtības, ir jābūt instalētiem demonstrācijas datiem, un jums ir jāatlasa *USMF* juridiskā persona.
+## <a name="add-product-dimensions"></a>Pievienot preces dimensijas
+1. Noklikšķiniet uz Preces dimensijas.
+    * Šajā piemērā parādīts, kā manuāli ievadīt preču dimensijas. Jūs varat arī atlasīt izmēru, krāsu un stilu grupu, kurā ietilpst preces dimensiju vērtības, ko vēlaties izmantot.  
+2. Noklikšķiniet uz Jauns.
+3. Sarakstā atzīmējiet atlasīto rindu.
+4. Laukā Izmērs ievadiet vai atlasiet kādu vērtību.
+5. Laukā Nosaukums ierakstiet kādu vērtību.
+6. Klikšķiniet Jauns.
+7. Sarakstā atzīmējiet atlasīto rindu.
+8. Laukā Izmērs ievadiet vai atlasiet kādu vērtību.
+9. Laukā Nosaukums ierakstiet kādu vērtību.
+10. Noklikšķiniet uz cilnes Krāsas.
+11. Noklikšķiniet uz Jauns.
+12. Sarakstā atzīmējiet atlasīto rindu.
+13. Laukā Krāsa ievadiet vai atlasiet kādu vērtību.
+14. Laukā Nosaukums ierakstiet kādu vērtību.
+15. Klikšķiniet Jauns.
+16. Sarakstā atzīmējiet atlasīto rindu.
+17. Laukā Krāsa ievadiet vai atlasiet kādu vērtību.
+18. Laukā Nosaukums ierakstiet kādu vērtību.
+19. Noklikšķiniet uz Saglabāt.
+20. Aizvērt lapu.
 
-### <a name="step-1-create-a-product-master"></a>1. darbība: Preces šablona izveide
+## <a name="generate-product-variants"></a>Ģenerēt preces variantus
+1. Noklikšķiniet uz Preces varianti.
+2. Noklikšķiniet uz Variantu ieteikumi.
+3. Noklikšķiniet uz Atlasīt visu.
+    * Šajā piemērā ir atlasīti visi iespējamie varianti. Ja variantu izveidei tiks izmantota tikai iespējamo preces dimensiju kombināciju apakškopa, varat atlasīt atsevišķus ierakstus.  
+4. Noklikšķiniet uz Izveidot.
+    * Jūs varat ģenerēt aprakstus visiem variantiem, pamatojoties uz preču dimensiju vērtību kombināciju. Apraksti nav obligāti.  
+5. Noklikšķiniet uz Saglabāt.
 
-Lai izveidotu preces šablonu:
-
-1. Pārejiet uz sadaļu **Preču informācijas pārvaldība > Preces > Preces šabloni**.
-1. Atlasiet **Jauns**.
-1. Ja laukā **Preces numurs** nav norādīts skaitlis, tad ievadiet vērtību. Tas ir nepieciešams, ja šim laukam nav iestatīta numuru sērija.
-1. Ievadiet nosaukumu laukā **Preces nosaukums**.
-1. Laukā **Preces dimensijas grupa** atlasiet preces dimensiju grupu *SizeCol* (Izmērs un Krāsa).
-1. Atlasiet **Labi**, lai izveidotu un atvērtu jauno preces šablonu.
-
-### <a name="step-2-add-product-dimensions"></a>2. darbība: Pievienot preces dimensijas
-
-Šajā piemērā parādīts, kā manuāli ievadīt preču dimensijas. Jūs varat arī atlasīt izmēru, krāsu un stilu grupu, kurā ietilpst preces dimensiju vērtības, ko vēlaties izmantot.
-
-Lai pievienotu preces dimensijas:
-
-1. Kad jaunais preces šablons joprojām ir atvērts, darbību rūtī atlasiet **Preces dimensijas**.
-1. Atveriet cilni **Izmērs** un rīkjoslā atlasiet **Jauns**, lai režģim pievienotu rindu. Jaunajai rindai veiciet šādus iestatījumus:
-    - **Izmērs:** atlasiet lieluma vērtību.
-    - **Nosaukums:** ievadiet elementa izmēru.
-1. Rīkjoslā atlasiet **Jauns** un pievienojiet režģim otru izmēru ar jaunu **Izmēru** un **Nosaukumu**.
-1. Atveriet cilni **Krāsas** un rīkjoslā atlasiet **Jauns**, lai režģim pievienotu rindu. Jaunajai rindai veiciet šādus iestatījumus:
-    - **Krāsa:** atlasiet krāsas vērtību.
-    - **Nosaukums:** ievadiet elementa krāsu.
-1. Rīkjoslā atlasiet **Jauns** un pievienojiet režģim otru krāsu ar jaunu **Krāsu** un **Nosaukumu**.
-1. Atlasiet **Saglabāt**.
-1. Aizveriet lapu, lai atgrieztos pie jaunā preces šablona.
-
-### <a name="step-3-generate-product-variants"></a>3. darbība: Ģenerēt preces variantus
-
-> [!NOTE]
-> Šajā sadaļā ir aprakstīts, kā ģenerēt preču variantus, ja nav iespējots līdzeklis *Variantu ieteikumu lapas uzlabojumi*. Skatiet nākošo sadaļu, lai iegūtu detalizētu informāciju par to, kā izveidot preču variantus, kad šis līdzeklis ir pieejama.
-
-Lai ģenerētu preces variantus:
-
-1. Kad jaunais preces šablons joprojām ir atvērts, darbību rūtī atlasiet **Preču vavianti**.
-1. Darbību rūtī atlasiet **Variantu ieteikumi**.
-1. Sistēma izveido sarakstu ar visām iespējamām produkta lielumu un krāsu kombinācijām. Atlasiet **Atlasīt visu** rīkjoslā.
-    - Šajā piemērā atlasiet visus iespējamos variantus. Ja vēlaties izmantot tikai iespējamo preces dimensiju kombināciju apakškopu, atzīmējiet tikai nepieciešamās izvēles rūtiņas pēc nepieciešamības.  
-1. Atlasiet **Izveidot**.
-1. Atlasiet **Saglabāt**.
-
-## <a name="improved-variant-suggestions"></a>Uzlaboti variantu ieteikumi
-
-Līdzeklis *Variantu ieteikumu lapas uzlabojumi* uzlabo lapu **Variantu ieteikumi**, lai novērstu veiktspējas un lietojamības problēmas uzņēmumiem, kuriem ir liels preču dimensiju kombināciju skaits. Uzlabotais produktu dimensiju vērtību atlases process, kuram ģenerēt varianta ieteikumus, ļauj ātrāk un vieglāk identificēt un atbrīvot attiecīgos produkta variantus.
-
-Šim līdzeklim ir pievienoti šādi uzlabojumi:
-
-- **Variantu ieteikumu atliktā ģenerēšana:** atverot lapu **Variantu ieteikumi**, tajā vairs netiek rādīti ieteikumi. Tā vietā ir skaidri jāizvēlas, kuras vērtības būs nepieciešamas, un pēc tam jāatlasa poga **Ieteikt**, lai ģenerētu kombinācijas. Tas padara procesu redzamu un interaktīvu.
-- **Dimensiju vērtību atlase:** Ja jums ir daudz dimensiju vērtību, jūs parasti interesējaties par variantu ieteikumu ģenerēšanu, kas ietver tikai dažas no tām (piemēram, ieviešot jaunu krāsu vai stilu kopu). Ar uzlaboto dizainu varat atlasīt dimensiju vērtības, kurām vēlaties ģenerēt preču variantu ieteikumus. Tas lielā veidā palielina ieteikto variantu atbilstību un uzlabo gan sistēmas veiktspēju, gan lietotāja produktivitāti.
-
-### <a name="turn-on-the-variant-suggestions-page-improvements-feature"></a>Ieslēgt lapas Variantu ieteikumi uzlabojumu līdzekli
-
-Lai varētu izmantot līdzekli *Variantu ieteikumu lapas uzlabojumi*, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
-
-- **Modulis:** *Preču informācijas pārvaldība*
-- **Līdzekļa nosaukums:** *Variantu ieteikumu lapas uzlabojumi*
-
-### <a name="work-with-the-improved-variant-suggestions"></a>Darbs ar uzlabotajiem variantu ieteikumiem
-
-Lai ģenerētu preču variantu ieteikumus, ja ir iespējots līdzeklis *Variantu ieteikumu lapas uzlabojumi*:
-
-1. Atveriet vai izveidojiet preces šablonu un pievienojiet tam nepieciešamās preču dimensijas, kā aprakstīts iepriekšējā sadaļā.
-1. Kad preces šablons ir atvērts, darbību rūtī atlasiet **Preču vavianti**.
-1. Darbību rūtī atlasiet **Variantu ieteikumi**.
-1. Atlasiet vērtības, kuras vēlaties lietot katrai dimensijai.
-1. Augšējā rīkjoslā atlasiet **Ieteikt**.
-1. Sistēma izveido sarakstu ar visām iespējamām atlasīto izmēru un krāsu kombinācijām. Kopsavilkuma cilnē **Ieteiktie varianti** atzīmējiet izvēles rūtiņu katrai preces dimensijas kombinācijai, ko vēlaties izmantot, vai rīkjoslā atlasiet **Atlasīt visu**, lai atlasītu visus no tiem.  
-1. Atlasiet **Izveidot**, lai pašreizējam preces šablonam pievienotu variantus.
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,35 +1,33 @@
 ---
-title: Anketu izveide
-description: Šajā tēmā ir aprakstīts anketas izveidošanas process.
-author: twheeloc
-ms.date: 10/28/2021
+title: Anketu projektēšana
+description: Šajā rakstā ir aprakstīts anketas izveidošanas process. Pirmā darbība anketas plānošana. Kad plānojat anketu, jūs ne tikai rakstāt jautājumus un atbildes, bet arī izveidojat struktūru, kas atbildes ļauj ierakstīt uz sakārtot.
+author: andreabichsel
+manager: AnnBe
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KCMCollectionType, KMAnswerCollection, KMCollection, HcmLearningWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.custom: 17341
 ms.assetid: b27e2f12-c7a0-4a54-b8d8-17819f8a1c72
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 90dd59b605c21abd03d2e0d64a89dc787850c26e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: da4250b281438c29c82150af8db9cb8cca41c6c9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065205"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419609"
 ---
-# <a name="create-questionnaires"></a>Anketu izveide
+# <a name="design-questionnaires"></a>Anketu projektēšana
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Šajā tēmā ir aprakstīts anketas izveidošanas process. Pirmā darbība anketas plānošana. Kad plānojat anketu, jūs ne tikai rakstāt jautājumus un atbildes, bet arī izveidojat struktūru, kas atbildes ļauj ierakstīt uz sakārtot. 
+Šajā rakstā ir aprakstīts anketas izveidošanas process. Pirmā darbība anketas plānošana. Kad plānojat anketu, jūs ne tikai rakstāt jautājumus un atbildes, bet arī izveidojat struktūru, kas atbildes ļauj ierakstīt uz sakārtot. 
 
 Rūpīgi plānota anketa var palīdzēt paaugstināt iegūto datu kvalitāti. Veicot rūpīgu plānošanu, anketai varat labāk atlasīt atbilstošajā laikā atbilstošās opcijas. Nākamie punkti jums var palīdzēt plānot efektīvu anketu:
 
@@ -66,7 +64,7 @@ Lai varētu izveidot anketas, atbildes un jautājumus, ir nepieciešami noteikti
 
 ### <a name="questionnaire-types"></a>Anketu tipi
 
-**Anketu veidi** ir nepieciešami, un tie ir jāpiešķir, veidojot anketu. **Anketu veidi** palīdz vieglāk pārvaldīt un klasificēt anketas. Lietojiet anketu tipus, lai klasificētu anketas un atšķirtu tās vienu no otras. Piemēram, ja jums ir vairākas anketas, no kurām izvēlēties, varat tās filtrēt pēc tipa, lai vienkāršotu konkrētas anketas atrašanu. Šeit ir norādīti daži anketu tipu piemēri:
+Anketu tipi ir obligāti, un tie ir jāpiešķir, kad veidojat anketu. Anketu tipi jums palīdz vienkāršāk pārvaldīt anketas un klasificēt tās. Lietojiet anketu tipus, lai klasificētu anketas un atšķirtu tās vienu no otras. Piemēram, ja jums ir vairākas anketas, no kurām izvēlēties, varat tās filtrēt pēc tipa, lai vienkāršotu konkrētas anketas atrašanu. Šeit ir norādīti daži anketu tipu piemēri:
 
 -   Cilvēkresursu attīstība
 -   Debitoru aptaujas
@@ -74,9 +72,9 @@ Lai varētu izveidot anketas, atbildes un jautājumus, ir nepieciešami noteikti
 
 ### <a name="question-types"></a>Jautājumu tipi
 
-**Jautājumu veidi** ir nepieciešami, un tie ir jāpiešķir, veidojot jautājumu. 
+Jautājumu tipi ir obligāti, un tie ir jāpiešķir, kad veidojat jautājumu. 
 
-Izmantot **Jautājumu veidi** lai klasificētu jautājumus ziņošanai. **Jautājumu veidi** atvieglo arī jautājumu atrašanu, jo varat izmantot veidus kā filtrus **Jautājumi** lappuse. Šeit ir norādīti daži jautājumu tipu piemēri:
+Lietojiet jautājumu tipus, lai jautājumus dalītu kategorijās atskaišu nolūkiem. Jautājumu tipi vienkāršo arī jautājumu atrašanu, jo tipus varat izmantot kā filtrus lapā **Jautājumi**. Šeit ir norādīti daži jautājumu tipu piemēri:
 
 -   Personāla vadība
 -   Biznesa pārvaldība
@@ -93,9 +91,9 @@ Numuru sēriju kodi tiek izmantoti, lai kārtotu jautājumus un atbildes. Pamato
 Lai varētu izveidot savus datus, jums ir jādefinē visi parametri. Anketas parametru iestatījumus varat modificēt jebkurā laikā.
 
 ## <a name="questionnaire-components"></a>Anketas komponenti
-Anketas ietver trīs galvenos elementus: atbilžu grupas, kas ietver atbildes uz jautājumiem ar atbilžu variantiem, jautājumus un pašu anketu. Pēc izvēles varat grupēt aptaujas jautājumus rezultātu grupās. Rezultātu grupas jums ļauj jautājumus dalīt kategorijās un sniegt papildu analīzi par anketu. 
+Anketas ietver trīs galvenos elementus: atbilžu grupas, kas ietver atbildes uz jautājumiem ar atbilžu variantiem, jautājumus un pašu anketu.  Pēc izvēles varat grupēt aptaujas jautājumus rezultātu grupās. Rezultātu grupas jums ļauj jautājumus dalīt kategorijās un sniegt papildu analīzi par anketu. 
 
-[![QuestionnaireComponents.](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
+[![QuestionnaireComponents](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
 ### <a name="answer-groups-and-answers"></a>Atbilžu grupas un atbildes
 
@@ -108,7 +106,7 @@ Lai nodrošinātu sarakstu ar iespējamajām atbildēm uz slēgtajiem jautājumi
 
 Atbilžu grupas un atbildes ir komponenti, kas veido informācijas pamatu, no kā tiek veidoti jautājumi. Kad izveidojat atbilžu grupu, šo atbilžu grupu varat saistīt ar kādu jautājumu laukā **Atbilžu grupa**, lapā **Jautājumi**. 
 
-An **Atbilžu grupa** var izmantot vairāk nekā vienam jautājumam vienā un tajā pašā anketā, kā arī var izmantot vairāk nekā vienā anketā. 
+Atbilžu grupu var izmantot vairākiem jautājumiem tajā pašā aptaujā, kā arī vairākās aptaujās. 
 
 > [!NOTE]
 > Ja modificējat atbildes tekstu atbilžu grupās, kas jau ir izmantotas aizpildītās anketās, šo datu novērtēšana var kļūt apgrūtināta un anketu rezultāti var kļūt nederīgi. Ja ir nepieciešams mainīt kādu atbilžu grupu, apsveriet iespēju izveidot jaunu atbilžu grupu, nevis mainīt jau esošo. Nevar dzēst atbilžu grupas, kas ir pievienotas jautājumam vai atbildei vai kas ir atbildētas.
@@ -174,7 +172,7 @@ Anketā nevar dzēst šādu tipu jautājumus:
 
 ### <a name="result-groups"></a>Rezultātu grupas
 
-**Rezultātu grupas** nav obligāti, ja anketai pievienojat jautājumus. 
+Kad anketai pievienojat jautājumus, rezultātu grupas nav obligātas. 
 
 Rezultātu grupa tiek lietota, lai aprēķinātu punktu skaitu un anketas rezultātus sadalītu kategorijās. Ja izmantojat rezultātu grupas, varat veikt šādus uzdevumus:
 
@@ -238,5 +236,3 @@ Lai anketas jautājumu hierarhijas izveidošanai izmantotu nosacījuma jautājum
 Juridiskā persona saviem klientiem piedāvā gan preces, gan pakalpojumus. Kā parasti notiek šādos gadījumos, daži klienti iegādājas tikai preces, daži iegādājas tikai pakalpojumus, un daži iegādājas gan preces, gan pakalpojumus. Līdz ar to, kad juridiskā persona izplata klientu apmierinātības aptauju, tā anketai lieto nosacījuma struktūru, lai klientiem, kas iegādājas tikai pakalpojumus, nevajadzētu atbildēt uz jautājumiem par precēm. 
 
 Alternatīvi varat iestatīt anketu tā, lai gadījumā, ja respondents 1. jautājumam atlasa atbildi A, tad anketas secībā nākamais ir 2. jautājums. Taču, ja respondents 1. jautājumam atlasa atbildi B, nākamais tiek rādīts 5. jautājums.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

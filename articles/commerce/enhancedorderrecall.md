@@ -2,22 +2,25 @@
 title: Pasūtījuma operāciju atsaukšana punktā POS
 description: Šajā tēmā ir paskaidrotas līdzekļa iespējas, kas pieejamas uzlabotajām pasūtījuma atsaukuma lapām punktā POS.
 author: hhainesms
-ms.date: 03/12/2021
+manager: annbe
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 43d6b2e4e5d923b16b02337432fc5259f66c0bf1a8ba1dbf311fb76cb3f085e1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 42b11ff16757d633b868dfdf248341193a44378f
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737608"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665302"
 ---
 # <a name="recall-order-operation-in-pos"></a>Pasūtījuma operāciju atsaukšana punktā POS
 
@@ -29,11 +32,11 @@ Lai iespējotu šo funkcionalitāti ieslēdziet līdzekli **Uzlabota pasūtījum
 
 Operāciju pogas **Atsaukt pasūtījumu** konfigurēšana ļauj organizācijām izvietot operāciju ar iepriekš definētu displeju.
 
-![Pogu rindas konfigurēšana.](media/recallorderbuttongrid.png)
+![Pogu rindas konfigurēšana](media/recallorderbuttongrid.png)
 
 Displeja opcijas ir aprakstītas šeit.
 - **Nav** – šī opcija izvieto operāciju bez noteikta displeja. Kad lietotājs atver operāciju ar šo konfigurāciju, viņam tiks piedāvāts meklēt un atrast pasūtījumus vai izvēlēties no iepriekš definēta pasūtījumu filtra.
-- **Izpildāmie pasūtījumi** – lietotājam uzsākot operāciju, vaicājums tiks izpildīts automātiski, lai meklētu un parādītu lietotāja pašreizējā veikalā izpildāmo pasūtījumu sarakstu. Šie pasūtījumi ir konfigurēti saņemšanai veikalā vai veikala sūtījumiem, un šo pasūtījumu rindas vēl nav izdotas vai iepakotas.
+- **Izpildāmie pasūtījumi** – lietotājam uzsākot operāciju, vaicājums tiks izpildīts automātiski, lai meklētu un parādītu veikalā izpildāmo pasūtījumu sarakstu. Šie pasūtījumi ir konfigurēti saņemšanai veikalā vai veikala sūtījumiem, un šo pasūtījumu rindas vēl nav izdotas vai iepakotas.
 - **Izdodamie pasūtījumi** – lietotājam uzsākot operāciju, vaicājums tiks izpildīts automātiski, lai meklētu un parādītu sarakstu ar pasūtījumiem, kuri ir konfigurēti saņemšanai lietotāja pašreizējā veikalā.
 - **Nosūtāmie pasūtījumi** – lietotājam uzsākot operāciju, vaicājums tiks izpildīts automātiski, lai meklētu un parādītu sarakstu ar pasūtījumiem, kuri ir konfigurēti nosūtīšanai no lietotāja pašreizējā veikala.
 
@@ -42,28 +45,22 @@ Uzsākot **Atsaukt pasūtījumu** operāciju no punkta POS, ja displejs ir konfi
 - Lai izmantotu filtrēšanas mehānismu un atrastu pasūtījumus, kas atbilst filtrēšanas kritērijiem, atlasiet **Meklēt pasūtījumus** vai **Meklēt un filtrēt** ikonu, kas atrodas AppBar.
 - Nolaižamajā izvēlnē **Rādīt pasūtījumus** izvēlieties kādu no iepriekš definētajiem filtriem (izpildāmie pasūtījumi, izdodamie pasūtījumi vai nosūtāmie pasūtījumi).
 
-![RecallOrderMainMenu.](media/recallordermain.png)
+![RecallOrderMainMenu](media/recallordermain.png)
 
-Pēc meklēšanas kritēriju piemērošanas programmā tiks parādīts atbilstošo pārdošanas pasūtījumu saraksts. Ir svarīgi ņemt vērā, ka, izmantojot meklēšanas/filtra opcijas, izgūtajiem pasūtījumiem nav jābūt pasūtījumiem, kas saistīti ar lietotāja pašreizējo veikalu. Šis meklēšanas process izgūs un parādīs jebkuru debitora pasūtījumu, kas atbilst meklēšanas kritērijiem, pat ja pasūtījums tika izveidots vai iestatīts izpildei citā veikala/kanāla vai noliktavas vietā.
+Pēc meklēšanas kritēriju piemērošanas programmā tiks parādīts atbilstošo pārdošanas pasūtījumu saraksts.
 
-![RecallOrderDetail.](media/orderrecalldetail.png)
+![RecallOrderDetail](media/orderrecalldetail.png)
 
 Lietotājs sarakstā var atlasīt pasūtījumu, lai skatītu papildu informāciju. Informācijas panelī ekrāna labajā pusē tiek parādīta atlasītā pasūtījuma specifika, ieskaitot pasūtījuma rindas informāciju, piegādes informāciju un izpildes informāciju.
 
 Lietotājs var atlasīt operāciju no AppBar. Atkarībā no pasūtījuma statusa, atsevišķas operācijas var nebūt iespējotas.
 
-- **Atgriešana** — uzsāk atgriešanas procesu jebkuram no atlasītā debitora pasūtījumā iekļautajiem produktiem, par kuru ir izrakstīts rēķins.
+- **Atgriezt** – izpilda atgriešanu vienam vai vairākiem rēķiniem, kas saistīti ar atlasīto debitora pasūtījumu.
 
-- **Atcelt** – izpilda atlasītā pārdošanas pasūtījuma pilnīgu atcelšanu. Šī opcija nav pieejama pasūtījumiem, kas ir sākti, izmantojot zvanu centra kanālu, un to nevar izmantot, lai daļēji atceltu pasūtījumu.
+- **Atcelt** – izpilda atlasītā pārdošanas pasūtījuma pilnīgu atcelšanu.
 
 - **Izpildīt** – pārsūta lietotāju uz pasūtījuma izpildes lapu, kas tiks iepriekš filtrēta atlasītajam pasūtījumam. Tiks parādītas tikai tās pasūtījuma rindas, kas ir atvērtas, lai lietotāja veikals varētu izpildīt atlasīto pasūtījumu.
 
-- **Rediģēt** – ļauj lietotājiem veikt izmaiņas atlasītajā debitora pasūtījumā. Pasūtījumus var rediģēt tikai [noteiktos scenārijos](customer-orders-overview.md#edit-an-existing-customer-order).
+- **Rediģēt** – ļauj lietotājiem veikt izmaiņas atlasītajā debitora pasūtījumā.
 
-- **Savākšana** — šī opcija ir pieejama, ja pasūtījumam ir viena vai vairākas rindas, kas ir iestatītas savākšanai lietotāja pašreizējā veikalā. Šī darbība palaiž izdošanas plūsmu, kas ļauj lietotājam izvēlēties saņemamās preces un izveido izdošanas pārdošanas transakciju.
-
-## <a name="add-notifications-to-the-recall-order-operation"></a>Pievienot paziņojumus pasūtījuma atsaukšanas operācijai
-
-Versijā 10.0.18 un jaunākā versijā varat konfigurēt POS paziņojumus un tiešsaistes elementu brīdinājumus par operāciju **Pasūtījuma atsaukšana**, ja tas ir vēlams. Papildinformāciju skatiet sadaļā [Pasūtījumu paziņojumu rādīšana pārdošanas punktā (POS)](notifications-pos.md).  
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+- **Izdot** – uzsāk izdošanas plūsmu, kas ļauj lietotājam izvēlēties saņemamās preces un izveido izdošanas pārdošanas transakciju.

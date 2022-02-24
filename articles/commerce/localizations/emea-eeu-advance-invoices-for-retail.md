@@ -2,9 +2,11 @@
 title: Avansa rēķini programmai Commerce Austrumeiropā
 description: Šajā tēmā ir paskaidrots, kā iestatīt avansa paziņojumus programmai Commerce Austrumeiropā.
 author: epopov
+manager: annbe
 ms.date: 10/23/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
@@ -13,12 +15,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4433dfad61aacb41aba9cf233515460410c7260304e8e3d690b015b193ffe774
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d27eec5ad2ec12d1f2e617fc3e182e2bbefa39a9
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718690"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017245"
 ---
 # <a name="advance-invoices-for-commerce-for-eastern-europe"></a>Avansa rēķini programmai Commerce Austrumeiropā
 
@@ -30,7 +32,7 @@ Polijā, Ungārijā un Čehijas Republikā, saņemot priekšapmaksu no debitora 
 
 Kad tiek veikts galīgais pārdošanas pasūtījuma rēķina grāmatojums, galīgajā dokumentā jāietver avansa rēķins un ir jānorāda visas priekšapmaksas.
 
-Ja pārdošanas pasūtījumi tiek izveidoti no debitoru parādiem, ir manuāli jāizveido avansa rēķini, izmantojot procedūru, kas aprakstīta tēmā [Avansa rēķini Austrumeiropas valstīm](/dynamics365/unified-operations/financials/localizations/emea-advance-invoice). Ja pārdošanas pasūtījumi tiek izveidoti ar POS starpniecību, sistēma izveido un grāmato avansa rēķinus jūsu vietā.
+Ja pārdošanas pasūtījumi tiek izveidoti no debitoru parādiem, ir manuāli jāizveido avansa rēķini, izmantojot procedūru, kas aprakstīta tēmā [Avansa rēķini Austrumeiropas valstīm](https://docs.microsoft.com/dynamics365/unified-operations/financials/localizations/emea-advance-invoice). Ja pārdošanas pasūtījumi tiek izveidoti ar POS starpniecību, sistēma izveido un grāmato avansa rēķinus jūsu vietā.
 
 ## <a name="supported-scenarios"></a>Atbalstītie scenāriji
 
@@ -85,6 +87,3 @@ Veiciet šādas darbības, lai iespējotu dokumentu drukāšanu no POS, izmantoj
 
 4. Pārejiet uz **Mazumtirdzniecība un komercija \> Mazumtirdzniecības un komercijas IT \> Sadales grafiks**.
 5. Atlasiet darbu **1090** un pēc tam atlasiet **Izpildīt tūlīt**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

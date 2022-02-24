@@ -90,6 +90,3 @@ Papildinformāciju skatiet rakstā [Racionalizēts darbinieka ieraksts un navig�
 ### <a name="platform-update-29"></a>Platformas update 29
 
 Papildinformāciju par atjauninājumu Platform update 29 skatiet rakstā [Priekšskatījuma līdzekļi versijā Dynamics 365 for Finance and Operations Platform update 29 (2019. gada oktobris)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

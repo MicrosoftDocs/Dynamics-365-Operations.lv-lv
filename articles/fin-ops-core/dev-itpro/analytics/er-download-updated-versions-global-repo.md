@@ -2,9 +2,11 @@
 title: Atjaunināto ER konfigurāciju versiju importēšana
 description: Šajā tēmā ir paskaidrots, kā importēt atjauninātās elektronisko pārskatu (ER) konfigurāciju versijas no konfigurācijas pakalpojuma globālā repozitorija.
 author: NickSelin
+manager: AnnBe
 ms.date: 06/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionImport, ERWorkspace, ERSolutionRepositoryTable
 audience: Application User, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 712bccbd48775cadc069ef5e8a04f9aae3c9f223137bcd394ff1815a720393b5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 897663998c6c95ff6d7172de2abc4d4dd6ec5f12
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734892"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679514"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>Atjaunināto ER konfigurāciju versiju importēšana
 
@@ -28,7 +30,7 @@ ms.locfileid: "6734892"
 
 Elektroniskā pārskata (ER) [repozitoriji](general-electronic-reporting.md#Repository) tiek izmantoti, lai koplietotu [ER konfigurācijas](general-electronic-reporting.md#Configuration). Varat [importēt](download-electronic-reporting-configuration-lcs.md) ER konfigurācijas no dažādiem repozitorijiem savā Microsoft Dynamics 365 Finance instancē. Importējot ER konfigurācijas, [konfigurācijas nodrošinātāji](general-electronic-reporting.md#Provider) var publicēt jaunas [versijas](general-electronic-reporting.md#component-versioning) repozitorijus, lai tos varētu koplietot.
 
-Šajā tēmā ir paskaidrots, kā importēt atjauninātās ER konfigurāciju versijas no konfigurācijas pakalpojuma globālā repozitorija. Plašāku informāciju skatiet [Microsoft Dynamics 365 for Finance and Operations - Regulatory Services, konfigurācijas pakalpojums](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+Šajā tēmā ir paskaidrots, kā importēt atjauninātās ER konfigurāciju versijas no konfigurācijas pakalpojuma globālā repozitorija. Plašāku informāciju skatiet [Microsoft Dynamics 365 for Finance and Operations - Regulatory Services, konfigurācijas pakalpojums](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="review-the-available-updated-versions"></a>Pieejamo atjaunināto versiju pārskatīšana
 
@@ -41,11 +43,11 @@ Elektroniskā pārskata (ER) [repozitoriji](general-electronic-reporting.md#Repo
 2. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
 3. Lapas **Lokalizācijas konfigurācijas** sadaļā **Saistītās saites** atlasiet **Importēt konfigurāciju versiju atjauninājumus**.
 
-    ![Lokalizācijas konfigurāciju lapa.](./media/er-download-updated-versions-global-repo1.png)
+    ![Lokalizācijas konfigurāciju lapa](./media/er-download-updated-versions-global-repo1.png)
 
-4. Dialoglodziņa **Importēt elektronisko pārskatu konfigurāciju versiju atjauninājumus** laukā **Izpildes režīms** atlasiet **Tikai pieejamos atjauninājumus**. Pēc tam atlasiet **Labi**. 
+4. Dialoglodziņa **Importēt elektronisko pārskatu konfigurāciju versiju atjauninājumus** laukā **Izpildes režīms** atlasiet **Tikai pieejamos atjauninājumus**. Tad atl. **Labi**. 
 
-    ![Izpildes režīma lauks iestatīts uz Tikai pieejamos atjauninājumus.](./media/er-download-updated-versions-global-repo2.png)
+    ![Izpildes režīma lauks iestatīts uz Tikai pieejamos atjauninājumus](./media/er-download-updated-versions-global-repo2.png)
 
 5. Pārskatiet saņemtos ziņojumus. Šie ziņojumi sniedz tālāk norādīto informāciju par ER konfigurācijām pašreizējā Finance instancē un to, kā tās salīdzināt ar globālā repozitorija saturu:
 
@@ -72,14 +74,14 @@ Elektroniskā pārskata (ER) [repozitoriji](general-electronic-reporting.md#Repo
 4. Dialoglodziņa **Importēt elektronisko pārskatu konfigurāciju versiju atjauninājumus** laukā **Izpildes režīms** atlasiet **Importēt jaunākos atjauninājumus**, lai importētu ER konfigurācijas jaunākās versijas no globālā repozitorija pašreizējā Finance instancē.
 5. Lai ieplānotu pakešuzdevumu importēšanai, kopsavilkuma cilnē **Palaist fonā** iestatiet opciju **Pakešapstrāde** uz **Jā**. Importēšanu var atkārtot periodiski, konfigurējot nepieciešamo periodiskumu.
 
-    ![Izpildes režīma lauks iestatīts uz Importēt jaunākos atjauninājumus.](./media/er-download-updated-versions-global-repo5.png)
+    ![Izpildes režīma lauks iestatīts uz Importēt jaunākos atjauninājumus](./media/er-download-updated-versions-global-repo5.png)
 
 6. Atlasiet **Labi**.
 7. Lai uzzinātu, kādas konfigurāciju versijas ir importētas, veiciet vienu no šīm darbībām:
 
     - Ja importēšana tiek veikta interaktīvi, neizmantojot pakešuzdevumu, pārskatiet saņemtos ziņojumus.
 
-        ![Interaktīvās importēšanas laikā saņemtie ziņojumi.](./media/er-download-updated-versions-global-repo6.png)
+        ![Interaktīvās importēšanas laikā saņemtie ziņojumi](./media/er-download-updated-versions-global-repo6.png)
 
     - Ja importēšana tiek veikta pakešveida režīmā, rīkojieties šādi:
 
@@ -87,7 +89,7 @@ Elektroniskā pārskata (ER) [repozitoriji](general-electronic-reporting.md#Repo
         2. Meklējiet un atlasiet **Importēt elektronisko pārskatu konfigurāciju versiju atjauninājumus** darbu un pēc tam darbību rūts cilnē **Pakešuzdevums** atlasiet **Pakešuzdevumu vēsture**, lai skatītu darba vēsturi.
         3. Lapā **Pakešuzdevumu vēsture** atlasiet **Žurnāls**. Tad, saņemtajā ziņojumā atlasiet **Ziņojuma informācija**, lai skatītu darbu žurnālu.
 
-        ![Darbu žurnāls.](./media/er-download-updated-versions-global-repo7.png)
+        ![Darbu žurnāls](./media/er-download-updated-versions-global-repo7.png)
 
 > [!IMPORTANT]
 > Nav ieteicams ieplānot periodisku pakešuzdevumu, lai importētu atjauninātās ER konfigurāciju versijas tieši no globālā repozitorija ražošanas vidē, jo importētās versijas nekavējoties būs pieejamas lietošanai. Tā vietā izmantojiet iespēju ER konfigurāciju versijas izvietot smilškastes vidē. Pēc tam tos var novērtēt smilškastes vidē, pirms tie tiek izvietoti ražošanas vidē.
@@ -96,6 +98,3 @@ Elektroniskā pārskata (ER) [repozitoriji](general-electronic-reporting.md#Repo
 
 - [Elektronisko pārskatu veidošanas (ER) apskats](general-electronic-reporting.md)
 - [Elektronisko pārskatu (ER) konfigurāciju lejupielāde no konfigurācijas pakalpojuma globālā repozitorija](er-download-configurations-global-repo.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

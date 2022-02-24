@@ -141,6 +141,3 @@ Lai atjauninātu esošu vedni, veiciet tālāk norādītās darbības.
     9. Lapā **Kartējuma uzdevums** atlasiet jauno kolonnu, lai to izmantotu kā avotu cita HIERARCHYTYPENAME kartējuma izveidei.
 
         [![Kartēšana](./media/CDS-Mapping5.png)](./media/CDS-Mapping5.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

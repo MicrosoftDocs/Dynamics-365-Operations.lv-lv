@@ -49,6 +49,3 @@ Tiklīdz kandidāti tiek pievienots kādai vakancei, viņi saņem e-pasta ziņoj
 
 ## <a name="analytic-reports"></a>Analīzes pārskati
 Par pieņemšanu darbā atbildīgās grupas var skatīt atsevišķa darba galvenos darbā pieņemšanas rādītājus vai apkopotus rādītājus par visiem darbiem [analīzes pārskatos pakalpojumā Attract.](analytic-reports.md) Šis līdzeklis pašlaik ir [priekšskatījumā](access-preview-feature.md) debitoriem ar [Kura Microsoft Dynamics 365 Talent - Attract](attract-comprehensive-hiring.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

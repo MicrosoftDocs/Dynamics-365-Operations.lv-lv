@@ -2,13 +2,16 @@
 title: Izejošo krājumu operācija punktā POS
 description: Šajā tēmā ir aprakstītas pārdošanas punkta (POS) izejošo krājumu operāciju iespējas.
 author: hhaines
+manager: annbe
 ms.date: 07/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,19 +19,19 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3641e1974ffc277a690ca8b8d15399ac883b0132
-ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
+ms.openlocfilehash: 1f74df94b1647520880ff994581872b9d9f8e067
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581141"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413936"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Izejošo krājumu operācija punktā POS
 
 [!include [banner](includes/banner.md)]
 
 
-Programmas Microsoft Dynamics 365 Commerce versijā 10.0.10 un jaunākās versijā ienākošās un izejošās operācijas pārdošanas punktā (POS) aizvieto izdošanas un saņemšanas operāciju.
+Microsoft Dynamics 365 Commerce versijā 10.0.10 un jaunākās versijā ienākošās un izejošās operācijas pārdošanas punktā (POS) aizvieto izdošanas un saņemšanas operāciju.
 
 > [!NOTE]
 > Versijā 10.0.10 un jaunākās versijās visus jaunos līdzekļus POS lietojumprogrammā, kas ir saistīti ar veikala krājumu saņemšanu no pirkšanas pasūtījumiem un pārsūtīšanas pasūtījumiem, pievienos POS ienākošajai operācijai. Ja jūs pašlaik izmantojat izdošanas un saņemšanas operāciju POS, mēs iesakām jums izstrādāt stratēģiju, lai pārietu no šīs operācijas uz jaunajām ienākošajām un izejošajām operācijām. Lai gan izdošanas un saņemšanas operācija netiks noņemta no preces, vairs netiks veiktas investīcijas no funkcionālās vai veiktspējas perspektīvas pēc versijas 10.0.9.
@@ -71,7 +74,7 @@ Jūsu izveidotie pakešuzdevumi tiks izmantoti, lai apstrādātu dokumentus, kur
 
 ## <a name="prerequisite-add-outbound-operation-to-the-pos-screen-layout"></a>Priekšnoteikums: Pievienojiet izejošo operāciju POS ekrāna izkārtojumam
 
-Lai jūsu organizācija varētu izmantot izejošo operāciju funkcionalitāti, tai ir jākonfigurē POS operācija **Izejošā operācija** vienā vai vairākos [POS ekrāna izkārtojumos](/dynamics365/unified-operations/retail/pos-screen-layouts). Pirms jaunās operācijas izvietošanas ražošanas vidē, pārliecinieties, vai ka to rūpīgi pārbaudāt un apmācāt savus lietotājus tās lietošanā.
+Lai jūsu organizācija varētu izmantot izejošo operāciju funkcionalitāti, tai ir jākonfigurē POS operācija **Izejošā operācija** vienā vai vairākos [POS ekrāna izkārtojumos](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts). Pirms jaunās operācijas izvietošanas ražošanas vidē, pārliecinieties, vai ka to rūpīgi pārbaudāt un apmācāt savus lietotājus tās lietošanā.
 
 ## <a name="overview"></a>Pārskats
 
@@ -116,7 +119,7 @@ Skatā **Pilns pasūtījumu saraksts** varat manuāli atlasīt rindu sarakstā u
 
 ### <a name="over-delivery-shipping-validations"></a>Pasūtījuma apjoma pārsniegšanas nosūtīšanas validācijas
 
-Validācijas notiek dokumenta rindu saņemšanas procesā. Tās ietver validācijas pasūtījuma apjoma pārsniegšanai. Ja lietotājs mēģina nosūtīt vairāk krājumu, nekā bija pasūtīts uz pārsūtīšanas pasūtījumu, bet vai nu nav konfigurēta pasūtījuma apjoma pārsniegšana, vai nosūtītais daudzums pārsniedz pārsūtīšanas pasūtījuma rindai konfigurēto pasūtījuma apjoma pārsniegšanas toleranci, lietotājs saņem kļūdu, un lietotājam nav atļauts nosūtīt pārsniegto daudzumu.
+Validācijas notiek dokumenta rindu saņemšanas procesā. Tās ietver validācijas pasūtījuma apjoma pārsniegšanai. Ja lietotājs mēģina saņemt vairāk krājumu, nekā bija pasūtīts uz pirkšanas pasūtījumu, bet vai nu nav konfigurēta pasūtījuma apjoma pārsniegšana, vai saņemtais daudzums pārsniedz pirkšanas pasūtījuma rindai konfigurēto pasūtījuma apjoma pārsniegšanas toleranci, lietotājs saņem kļūdu, un lietotājam nav atļauts saņemt pārsniegto daudzumu.
 
 ### <a name="underdelivery-close-lines"></a>Nepilna pasūtījuma slēgšanas rindas
 
@@ -190,6 +193,3 @@ Pilnībā nosūtītie pārsūtīšanas pasūtījumi tiek pārvietoti uz cilni **
 ## <a name="related-topics"></a>Saistītās tēmas
 
 [Ienākošo krājumu operācija punktā POS](pos-inbound-inventory-operation.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

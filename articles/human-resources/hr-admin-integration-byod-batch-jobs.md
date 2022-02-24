@@ -2,37 +2,35 @@
 title: BYOD plānoto pakešuzdevumu optimizēšana
 description: Šajā tēmā ir izskaidrots, kā optimizēt veiktspēju, kad lietojat savu datu bāzes (BYOD) līdzekli, izmantojot Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
+manager: AnnBe
 ms.date: 08/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: Platform update 36
-ms.openlocfilehash: a2f110d105b8c04f07f219f7f11a57d24e00ce4a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: d08762ff40b4da8264bd5bc4a1c16fd2afc4d610
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067783"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419527"
 ---
 # <a name="optimize-byod-scheduled-batch-jobs"></a>BYOD plānoto pakešuzdevumu optimizēšana
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Šajā tēmā ir izskaidrots, kā optimizēt veiktspēju, kad lietojat savu datu bāzes (BYOD) līdzekli. Plašāku informāciju par BYOD skatiet [Lietot savu datu bāzi (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
+Šajā tēmā ir izskaidrots, kā optimizēt veiktspēju, kad lietojat savu datu bāzes (BYOD) līdzekli. Plašāku informāciju par BYOD skatiet [Lietot savu datu bāzi (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/human-resources/toc.json).
 
 ## <a name="performance-considerations-for-data-export"></a>Veiktspējas apsvērumi datu eksportam
 
-Kad entītijas ir publicētas mērķa datu bāzē, varat izmantot eksporta funkciju **Datu pārvaldības** darbvietā, lai pārvietotu datus. Eksporta funkcija ļauj definēt Datu kustības darbu, kas ietver vienu vai vairākas entītijas. Papildinformāciju par datu pārvaldību skatiet [Datu importēšanas un eksportēšanas darbu apskats](../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
+Kad entītijas ir publicētas mērķa datu bāzē, varat izmantot eksporta funkciju **Datu pārvaldības** darbvietā, lai pārvietotu datus. Eksporta funkcija ļauj definēt Datu kustības darbu, kas ietver vienu vai vairākas entītijas. Papildinformāciju par datu pārvaldību skatiet [Datu importēšanas un eksportēšanas darbu apskats](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job?toc=/dynamics365/human-resources/toc.json).
 
 Varat izmantot **Eksporta** lapu, lai eksportētu datus uz dažādiem mērķa datu formātiem, piemēram, komatatdalīto vērtību (CSV) failu. Šī lapa atbalsta arī SQL datu bāzes kā citu mērķi.
 
@@ -63,7 +61,7 @@ Lai iegūtu vislabākos rezultātus, vienmēr izmantojiet opciju **Eksportēt pa
 
 Kad pievienojat entītiju datu eksportam, varat darīt vai nu pakāpenisku (eksports), vai pilnu virzību. Pilna virzība dzēš visus esošos ierakstus no elementa BYOD datu bāzē. Pēc tam tā ievieto pašreizējo ierakstu kopu no Human Resources elementa.
 
-Lai veiktu pakāpenisko virzību, ir jāieslēdz izmaiņu izsekošana katram elementam **Elementu** lapā. Lai iegūtu papildu informāciju, skatiet [Iespējot izmaiņu izsekošanu entītijām](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
+Lai veiktu pakāpenisko virzību, ir jāieslēdz izmaiņu izsekošana katram elementam **Elementu** lapā. Lai iegūtu papildu informāciju, skatiet [Iespējot izmaiņu izsekošanu entītijām](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json).
 
 Ja izvēlaties pakāpenisko virzību, pirmā virzība vienmēr ir pilnā virzība. SQL izseko izmaiņas no šīs pirmās pilnās virzības. Kad tiek ievietots jauns ieraksts vai ieraksts tiek atjaunināts vai dzēsts, izmaiņas tiek atspoguļotas mērķa entītijā.
 
@@ -90,20 +88,11 @@ BYOD līdzeklim ir šādi ierobežojumi:
 
 **Problēma:** kad elements ir pilnībā novirzīts, jūs redzat lielu ierakstu kopu BYOD, kad izmantojat **Atlasīt** izrakstu. Tomēr, kad veicat pakāpenisko virzību, ir redzami tikai daži ieraksti BYOD. Šķiet, it kā pakāpeniskā virzība dzēsa visus ierakstus un pievienoja tikai mainītos ierakstus BYOD.
 
-**Risinājums:** SQL izmaiņu izsekošanas tabulas var nebūt paredzētajā stāvoklī. Šāda veida gadījumos iesakām izslēgt izmaiņu izsekošanu entītijai un pēc tam to atkal ieslēgt. Lai iegūtu papildu informāciju, skatiet [Iespējot izmaiņu izsekošanu entītijām](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
-
-### <a name="staging-tables-arent-clearing"></a>Izstādīšanas tabulas netiek tīrītas
-
-**Problēma:** izmantojot projekta izstādīšanu, izstādīšanas tabulas netiek pareizi notīrītas. Dati tabulās turpina pieaugt, radot veiktspējas problēmas.
-
-**Risinājums:** izstādīšanas tabulās saglabājas septiņas vēstures dienas. Vēsturiskie dati, kas vecāki par septiņām dienām, tiek automātiski notīrīti no izstādīšanas tabulām, izmantojot pakešuzdevumu **Importēšanas eksporta izstādīšanas tīrīšana**. Ja šis darbs iestrēgs, tabulas netiks pareizi notīrītas. Šī pakešuzdevuma restartēšana turpinās procesu, lai automātiski notīrītu izstādīšanas tabulas.
+**Risinājums:** SQL izmaiņu izsekošanas tabulas var nebūt paredzētajā stāvoklī. Šāda veida gadījumos iesakām izslēgt izmaiņu izsekošanu entītijai un pēc tam to atkal ieslēgt. Lai iegūtu papildu informāciju, skatiet [Iespējot izmaiņu izsekošanu entītijām](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json).
 
 ## <a name="see-also"></a>Skatiet arī
 
-[Datu pārvaldības pārskats](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
-[Savas datu bāzes izmantošana (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
-[Datu importēšanas un eksportēšanas darbu pārskats](../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
-[Izmaiņu izsekošanas iespējošana elementiem](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Datu pārvaldības pārskats](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages?toc=/dynamics365/human-resources/toc.json)<br>
+[Savas datu bāzes izmantošana (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/human-resources/toc.json)<br>
+[Datu importēšanas un eksportēšanas darbu pārskats](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job?toc=/dynamics365/human-resources/toc.json)<br>
+[Izmaiņu izsekošanas iespējošana elementiem](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json)

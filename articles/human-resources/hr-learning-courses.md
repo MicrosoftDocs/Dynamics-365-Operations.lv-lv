@@ -1,37 +1,36 @@
 ---
 title: Iestatīt apmācību kursus
 description: Personāla vadības administratori un vadītāji var izmantot šos kursu līdzekļus, lai uzturētu informāciju par darbiniekiem piedāvāto apmācību.
-author: twheeloc
-ms.date: 08/26/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmCourseType, HcmCourseTypeGroup, HRMCourseTable, HcmLearningWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.custom: 7532
 ms.assetid: a6950c29-8b3e-45b2-9084-ddfb1317ffaa
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: c66459a044419535d66875cddac7eb73af744ca7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 253f0d07679b6327a0ed1e3cc20ede66249750b8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066754"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419612"
 ---
 # <a name="set-up-training-courses"></a>Iestatīt apmācību kursus
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
 Personāla vadības administratori un vadītāji var izmantot šos kursu līdzekļus, lai uzturētu informāciju par darbiniekiem piedāvāto apmācību.
 
-##  <a name="set-up-prerequisites"></a>Priekšnoteikumu iestatīšana
+ <a name="set-up-prerequisites"></a>Priekšnoteikumu iestatīšana
+---------------------
 
 Pirms veidojat kursus, ir nepieciešama un ir jāiestata tālāk norādītā informācija.
 -   **Kursu tipi**
@@ -69,8 +68,8 @@ Tālāk esošajā tabulā uzskaitīti trīs kursu iestatījumu veidi. Iestatīju
 <td><strong>Darba kārtībā + sesija</strong></td>
 <td>Atlasiet šo veidu sarežģītākiem kursiem. Piemēram, kursu darba kārtību var sadalīt tēmās un sesijās.
 <ul>
-<li><strong>Tēma</strong> — tēmas ir kursu specifiskās jomas.</li>
-<li><strong>Sesijas</strong> — tēmas ir sīkāk sadalītas sesijās, un sesijas palīdz identificēt tēmai specifiskos procesus vai metodes.</li>
+<li><strong>Tēma</strong> — tēmas ir kursu specifiskās jomas.</li>
+<li><strong>Sesijas</strong> — tēmas ir sīkāk sadalītas sesijās, un sesijas palīdz identificēt tēmai specifiskos procesus vai metodes.</li>
 </ul></td>
 </tr>
 </tbody>
@@ -83,7 +82,7 @@ Katram kursam var izpildīt šādus uzdevumus.
 - Definēt minimālo un maksimālo dalībnieku skaitu
 - Piešķirt kursa atrašanās vietu un mācību telpu
 - Kursu dalībniekiem ieteikt viesnīcas
-- Izveidojiet kursa aprakstu, kuru pēc tam varat ieteikt sadaļā **Darbinieku pašapkalpošana**
+- Veidot kursa aprakstu, ko pēc tam varat reklamēt darbinieku pašapkalpošanās pakalpojumā
 
   >**Piezīme.** Kursu varat dzēst tikai tad, ja tam neviens nav reģistrējies. 
 
@@ -129,7 +128,8 @@ Tālāk esošajā tabulā uzskaitīti iespējamie kursu statusi un darbības, ku
 ## <a name="course-participants"></a>Kursu dalībnieki
 Kursu dalībnieki ir darbinieki, kuri piedalās apmācības kursos vai notikumā. Dalībniekus var reģistrēt tikai atvērtiem kursiem. Minimālais un maksimālais dalībnieku skaits, ko varat reģistrēt vienam kursam, ir noteikts kopsavilkuma cilnē **Vispārīgi**, lapā **Kursi**.
 
-## <a name="workflow"></a>Darbplūsma
+<a name="workflow"></a>Darbplūsma
+--------
 
 Darbinieki, kuri kursam ir reģistrējušies, izmantojot lapu **Darbinieku pašapkalpošanās**, savu reģistrāciju var maršrutēt apstiprināšanai caur darbplūsmu. Darbplūsmu kursam varat piešķirt kopsavilkuma cilnē **Vispārīgi**, lapā **Kursi**.
 
@@ -137,6 +137,3 @@ Darbinieki, kuri kursam ir reģistrējušies, izmantojot lapu **Darbinieku paša
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

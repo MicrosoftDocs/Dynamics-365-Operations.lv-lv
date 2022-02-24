@@ -62,6 +62,3 @@ Varat aizvērt darbu kā **Amats ir aizpildīts** pēc tam, kad vismaz viens pot
    > Varat aizvērt darbu kā **Amats ir aizpildīts** tikai tad, kad vismaz viens potenciālais kandidāts ir pabeidzis piedāvājuma stadiju. Ja darba pieteikumam nav atlasīts **Piedāvājums pieņemts** vai ja pieteikumā nav parādīts statuss **Pieņemts**, opcija **Amats ir aizpiepildīts** netiks parādīta nolaižamajā izvēlnē **Iemesls**.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

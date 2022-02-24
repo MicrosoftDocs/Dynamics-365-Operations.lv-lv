@@ -1,10 +1,12 @@
 ---
 title: Operāciju plānošana
 description: Šajā tēmā ir sniegta informācija par operāciju plānošanu. Operāciju plānošanu var lietot, lai sniegtu vispārēju ražošanas procesa novērtējumu laika periodam.
-author: johanhoffmann
+author: ChristianRytt
+manager: tfehr
 ms.date: 06/20/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdSchedule
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 198073
 ms.assetid: 12c28b11-80aa-4668-b15b-724cb24890bd
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3c380297b56f615a6b285ef7daf1ecbd7bb420f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: eb4e1a38c675a3c8d102741a027d54294e335ac1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574573"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966409"
 ---
 # <a name="operations-scheduling"></a>Operāciju plānošana
 
@@ -74,12 +76,10 @@ Izpildot operāciju plānošanu, var atcelt noteiktas maršruta daļas. Šīs da
 ## <a name="finite-materials"></a>Ierobežoti materiāli
 Ja strādājat ar ierobežotiem materiāliem, plānošana ir atkarīga arī no ražošanai nepieciešamo materiālu pieejamības. Ja nav pietiekami daudz pieejamo sastāvdaļu ražošanai, tā var aizkavēties. Varat balstīt plānošanu uz materiālu izmantošanu, norādot materiālus, kuriem ir jābūt pieejamiem ražošanai. Optimizējot pēc resursu noslodzes un materiālu pieejamības, ražošana tiek aprēķināta saskaņā ar šiem ierobežojumiem. Ražošanas pasūtījuma sākumu nevar plānot, kamēr noslodze un materiāli nav pieejami tajā pašā laikā un nepieciešamajā daudzumā.
 
-## <a name="additional-resources"></a>Papildu resursi
+<a name="additional-resources"></a>Papildu resursi
+--------
 
 [Operāciju plānošanas opcijas](operation-scheduling-options.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

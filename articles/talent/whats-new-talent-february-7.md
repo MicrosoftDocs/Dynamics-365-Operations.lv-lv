@@ -58,6 +58,3 @@ Tagad gadījumā, ja tiek mainīts amata darbs, tiek iestatīta parametra **Darb
 
 ### <a name="performance-improvements-when-rendering-workspaces"></a>Veiktspējas uzlabojumi darbvietu atveidošanas laikā
 Tagad darbvietās analīzes cilnes tiek ielādētas tikai tad, ja lietotājs piekļūst šīm lapām. Lapas sākotnējās atveidošanas laikā tās augšējā kreisajā stūrī tiek parādīts indikators.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,32 +1,34 @@
 ---
 title: Dokumenta stāvokļi un dzīves cikls
-description: Šajā tēmā aplūkoti dažādi lapas elementu dokumentu statusi risinājumā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā ir ietverti dažādi Microsoft Dynamics 365 Commerce lapas elementu dokumenta stāvokļi.
 author: phinneyridge
+manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.custom: intro-internal
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ad8547fe6b36caf75ce78cb09fb2caf901c63afe43fa4755bb9e5c69427829d4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8aad7ef8425e46182c669686710dfc178abc418f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727585"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414055"
 ---
 # <a name="document-states-and-lifecycle"></a>Dokumenta stāvokļi un dzīves cikls
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aplūkoti dažādi lapas elementu dokumentu statusi risinājumā Microsoft Dynamics 365 Commerce.
+Šajā tēmā ir ietverti dažādi Microsoft Dynamics 365 Commerce lapas elementu dokumenta stāvokļi.
 
 ## <a name="document-state-descriptions"></a>Dokumenta stāvokļa apraksti
 
@@ -59,6 +61,3 @@ Tālāk redzamā tabula parāda Commerce iespējamos lapas elementu dokumenta st
 [Pārskats par veidnēm un izkārtojumiem](templates-layouts-overview.md)
 
 [Vietnes navigācijas pielāgošana](customize-site-navigation.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

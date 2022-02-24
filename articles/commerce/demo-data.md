@@ -2,13 +2,16 @@
 title: Demonstrācijas datu ekrāna izkārtojumi programmā Modern POS (MPOS) un Cloud POS
 description: Šajā tēmā ir sniegta informācija par ekrāna izkārtojumiem, kas ir pieejami programmā Dynamics 365 Commerce kopā ar pārdošanas punkta (POS) lietošanas iespēju demonstrācijas datiem.
 author: josaw1
+manager: AnnBe
 ms.date: 10/05/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: c141325580d698cccc7d186496a0902913961d47764b93fa73c64c3eddf6e791
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 935e1a550160515e2c325c39eab86be3b9fa5394
+ms.sourcegitcommit: d82f319cf7dd26c93a3fd342de4fd537272fa8d2
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761666"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "4414206"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Demonstrācijas datu ekrāna izkārtojumi programmā Modern POS (MPOS) un Cloud POS
 
@@ -33,13 +36,13 @@ ms.locfileid: "6761666"
 
 Pieejamie programmas Commerce demonstrācijas datu ekrāna izkārtojumu paraugi nodrošina saturu, kas ir optimizēts dažādiem mazumtirdzniecības segmentiem, veikala darbinieku lomām un ierīcēm. Vienā izkārtojumā var būt ietverti vairāki izkārtojuma lieluma iestatījumi un pogu režģu kombinācijas, lai palīdzētu nodrošināt piemērotību dažādām ierīcēm un stacijām, ko izmanto veikala darbinieki. Šajā tēmā ir aprakstītas šo izkārtojumu atšķirības, kā arī to nodrošinātās darbības un vispārīgā funkcionalitāte.
 
-![Demonstrācijas datu izkārtojumi dažādām ierīcēm.](../commerce/media/demo-screen-layouts-fig-1-1.png)
+![Demonstrācijas datu izkārtojumi dažādām ierīcēm](../commerce/media/demo-screen-layouts-fig-1-1.png)
 
 ## <a name="anatomy-of-a-screen-layout-id"></a>Ekrāna izkārtojuma ID sastāvs
 
 Lai atrastu ekrāna izkārtojumus, pārejiet uz sadaļu **Mazumtirdzniecība un komercija** \> **Kanāla iestatīšana** \> **POS iestatīšana** \> **POS** \> **Ekrāna izkārtojumi**.
 
-![Ekrāna izkārtojumu lapa.](../commerce/media/demo-screen-layouts-fig-2-1.png)
+![Ekrāna izkārtojumu lapa](../commerce/media/demo-screen-layouts-fig-2-1.png)
 
 Ekrāna izkārojuma ID var būt ietvertas ne vairāk kā 10 rakstzīmes. ID ir virkne, kas sastāv no trim informācijas daļām tālāk norādītajā secībā.
 
@@ -53,11 +56,11 @@ Ekrāna izkārojuma ID var būt ietvertas ne vairāk kā 10 rakstzīmes. ID i
 |--------|-----------------|
 | A      | Adventure Works |
 | F      | Fabrikam        |
-| K      | Contoso         |
+| U      | Contoso         |
 
 ### <a name="layout-version"></a>Izkārtojuma versija
 
-| Versijas numurs | Apraksts                                                                                |
+| Versijas numurs | apraksts                                                                                |
 |----------------|--------------------------------------------------------------------------------------------|
 | 3              | Pamata versija, kas atbalsta vairākus ekrāna izmērus un ir piemērota dažādām ierīcēm un proporcijām |
 | 3.1            | Pamata versija ar papildu paneļa **Ieteiktās preces** atbalstu        |
@@ -108,7 +111,7 @@ Tālāk esošajā tabulā ir norādīti standarta ekrāna izšķirtspējām nodr
 > [!TIP]
 > POS sistēmā tiek automātiski atlasīts izkārtojuma lielums, izvēloties pašreizējās programmas loga ekrāna izšķirtspējai tuvāko pieejamo lielumu. Lai uzzinātu pašlaik izmantotā ekrāna izkārtojuma ID un izšķirtspēju, programmā Modern POS (MPOS) vai Retail Cloud POS (CPOS) atvariet lapu **Iestatījumi** un skatiet sadaļu **Sesijas informācija**. Varat arī skatīt pašreizējās programmas vai pārlūkprogrammas rāmja faktisko loga izšķirtspēju. Kad esat uzzinājis šo informāciju, varat skatīt izkārtojuma satura avotu, pārejot uz sadaļu **Kanāla iestatīšana** \> **POS iestatīšana** \> **POS** \> **Ekrāna izkārtojumi**.
 
-![Ekrāna izkārtojumi un izkārtojumu izšķirtspēja/lielums modulī Commerce un POS sistēmā.](../commerce/media/demo-screen-layouts-fig-3-1.png)
+![Ekrāna izkārtojumi un izkārtojumu izšķirtspēja/lielums modulī Commerce un POS sistēmā](../commerce/media/demo-screen-layouts-fig-3-1.png)
 
 ## <a name="companies-and-brands"></a>Uzņēmumi un zīmoli
 
@@ -123,25 +126,25 @@ Katrs fiktīvais uzņēmums ir paredzēts atšķirīgam mazumtirdzniecības segm
 | Contoso         | Bostona   | Elektropreces    | Sarkanā    | Tumšs  |
 
 > [!NOTE]
-> Adventure Works un Fabrikam ir divi vadošie zīmoli. Contoso ir pieejams, taču tam nav nodrošināti visi izkārtojumi.
+> Adventure Works un Fabrikam ir divi vadošie zīmoli. Ir pieejams arī uzņēmums Contoso, taču tam nav nodrošināti visi izkārtojumi.
 
 Tālāk esošajos attēlos ir redzamas trīs fiktīvo uzņēmumu sveiciena lapas un transakciju lapas.
 
 ### <a name="adventure-works"></a>Adventure Works
 
-![Uzņēmuma Adventure Works demonstrācijas datu sveiciena lapa.](../commerce/media/demo-screen-layouts-fig-4-1a.png)
+![Uzņēmuma Adventure Works demonstrācijas datu sveiciena lapa](../commerce/media/demo-screen-layouts-fig-4-1a.png)
 
-![Uzņēmuma Adventure Works demonstrācijas datu transakciju lapa.](../commerce/media/demo-screen-layouts-fig-4-1b.png)
+![Uzņēmuma Adventure Works demonstrācijas datu transakciju lapa](../commerce/media/demo-screen-layouts-fig-4-1b.png)
 
 ### <a name="fabrikam"></a>Fabrikam
 
-![Uzņēmuma Fabrikam demonstrācijas datu sveiciena lapa.](../commerce/media/demo-screen-layouts-fig-4-2a.png)
+![Uzņēmuma Fabrikam demonstrācijas datu sveiciena lapa](../commerce/media/demo-screen-layouts-fig-4-2a.png)
 
-![Uzņēmuma Fabrikam demonstrācijas datu transakciju lapa.](../commerce/media/demo-screen-layouts-fig-4-2b.png)
+![Uzņēmuma Fabrikam demonstrācijas datu transakciju lapa](../commerce/media/demo-screen-layouts-fig-4-2b.png)
 
 ### <a name="contoso"></a>Contoso
 
-![Uzņēmuma Contoso demonstrācijas datu izkārtojumi.](../commerce/media/demo-screen-layouts-fig-4-3.png)
+![Uzņēmuma Contoso demonstrācijas datu izkārtojumi](../commerce/media/demo-screen-layouts-fig-4-3.png)
 
 ## <a name="user-sign-in-matrix"></a>Lietotāju pieteikšanās tabula
 
@@ -168,11 +171,8 @@ Dažādajiem ekrāna izkārtojumiem ir nodrošināti lietotāji. Izmantojot tāl
 
 <!-- The screen layouts, button grids, and visual profiles were created using images and icons that can be found in **Retail and Commerce \> Channel setup \> POS setup \> POS \> Images**. -->
 
-<!-- ![Images in Dynamics 365 Commerce.](../commerce/media/demo-screen-layouts-fig-5-1.png) -->
+<!-- ![Images in Dynamics 365 Commerce](../commerce/media/demo-screen-layouts-fig-5-1.png) -->
 
 <!-- Use the [POS Icon and Image Mapping](../commerce/media/POS_Icon_and_Image_Mapping.xlsx) reference spreadsheet to locate operation icons, reference photos, swap logos, or provide new images of your own that can be referenced in custom designs. -->
 
 <!-- END HIDDEN CONTENT -->
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

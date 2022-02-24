@@ -1,41 +1,45 @@
 ---
-title: Pārskats par integrāciju ar Microsoft Dynamics 365 Field Service
+title: Integrēšanas ar programmu Microsoft Dynamics 365 Field Service pārskats
 description: Šajā tēmā ir sniegts apskats par integrāciju ar Microsoft Dynamics 365 Field Service.
-author: Henrikan
+author: ChristianRytt
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 9428308211d51e7de8c61fb9aadef6ce1fd9886f
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.openlocfilehash: 18eef310470cafd9d59bb1c848bbaeb8bf5b9fa1
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062679"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528903"
 ---
-# <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Pārskats par integrāciju ar Microsoft Dynamics 365 Field Service
+# <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Integrēšanas ar programmu Microsoft Dynamics 365 Field Service pārskats
 
 [!include[banner](../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-
-Supply Chain Management nodrošina biznesa procesu sinhronizāciju programmās Dynamics 365 Supply Chain Management un Dynamics 365 Field Service. Integrācijas scenāriji tiek konfigurēti, izmantojot paplašināmas datu integrētāja veidnes un Microsoft Dataverse , lai iespējotu biznesa procesu sinhronizāciju.
-Standarta veidnes var izmantot, lai izveidotu pielāgotus integrācijas projektus, kuros var kartēt papildu standarta un pielāgotas kolonnas, kā arī tabulas, lai pielāgotu integrāciju un nodrošinātu īpašu biznesa prasību izpildi. 
+Supply Chain Management nodrošina biznesa procesu sinhronizāciju programmās Dynamics 365 Supply Chain Management un Dynamics 365 Field Service. Integrācijas scenāriji tiek konfigurēti, izmantojot paplašināmas datu integrētāja veidnes un Common Data Service , lai iespējotu biznesa procesu sinhronizāciju.
+Standarta veidnes var izmantot, lai izveidotu pielāgotus integrācijas projektus, kuros var kartēt papildu standarta un pielāgotus laukus, kā arī entītijas, lai pielāgotu integrāciju un nodrošinātu īpašu biznesa prasību izpildi. 
 
 Papildus jau esošajai funkcionalitātei “No potenciālā klienta līdz skaidrai naudai” veidojas Field Service integrācija.
 
 ![Biznesa procesu sinhronizācija programmās Supply Chain Management un Field Service.](./media/field-service-integration.png)
 
-Pirmā integrācijas fāze risinājumos Field Service un Supply Chain Management attiecas uz to, lai darba pasūtījumus un līgumus risinājumā Field Service varētu iekļaut rēķinos risinājumā Supply Chain Management. Atbalstītā plūsma sākas risinājumā Field Service, kur informācija no darba pasūtījumiem tiek sinhronizēta risinājumā Supply Chain Management kā pārdošanas pasūtījumi. Supply Chain Management pārdošanas pasūtījumi tiek iekļauti rēķinā, lai ģenerētu rēķinu dokumentus. Turklāt informācija no Field Service līguma rēķiniem tiek sinhronizēta risinājumā Supply Chain Management. Microsoft Dynamics 365 datu integrētājs sinhronizē datus, izmantojot pielāgojamus projektus. Standarta veidnes var izmantot, lai izveidotu pielāgotus integrācijas projektus, kuros var kartēt papildu standarta un pielāgotas kolonnas, kā arī tabulas, lai pielāgotu integrāciju un nodrošinātu īpašu prasību izpildi.
+Pirmā integrācijas fāze risinājumos Field Service un Supply Chain Management attiecas uz to, lai darba pasūtījumus un līgumus risinājumā Field Service varētu iekļaut rēķinos risinājumā Supply Chain Management. Atbalstītā plūsma sākas risinājumā Field Service, kur informācija no darba pasūtījumiem tiek sinhronizēta risinājumā Supply Chain Management kā pārdošanas pasūtījumi. Supply Chain Management pārdošanas pasūtījumi tiek iekļauti rēķinā, lai ģenerētu rēķinu dokumentus. Turklāt informācija no Field Service līguma rēķiniem tiek sinhronizēta risinājumā Supply Chain Management. Microsoft Dynamics 365 datu integrētājs sinhronizē datus, izmantojot pielāgojamus projektus. Standarta veidnes var izmantot, lai izveidotu pielāgotus integrācijas projektus, kuros var kartēt papildu standarta un pielāgotus laukus, kā arī entītijas, lai pielāgotu integrāciju un nodrošinātu īpašu prasību izpildi.
 
 Pirmā integrācijas fāze risinājumos Field Service un Supply Chain Management ļauj sinhronizēt šādus vienumus:
 
@@ -57,7 +61,7 @@ Papildu funkcionalitātes pievienošana šajā otrajā posmā bija koncentrēta 
 - Supply Chain Management projekti, kas ir saistīti ar Dynamics 365 Field Service darba pasūtījumiem
 - Dynamics 365 Field Service darba pasūtījumi ar saiti uz Supply Chain Management projektiem — lietot šo projekta numuru pārdošanas pasūtījumam, lai iespējotu rēķinu izrakstīšanu projekta ietvaros. 
 
-![Biznesa procesu sinhronizācija starp Supply Chain Management un Field Service, tai skaitā inventāra un projekta informāciju.](./media/FSv2overview.png)
+![Biznesa procesu sinhronizācija programmās Supply Chain Management un Field Service.](./media/FSv2overview.png)
 
 ### <a name="the-second-phase-of-the-integration-between-field-service-and-supply-chain-management-enables-synchronization-with-the-following-templates"></a>Otrais integrācijas posms risinājumos Field Service un Supply Chain Management ļauj sinhronizēt šādas veidnes:
 - Noliktavas (Supply Chain Management uz Field Service) — Noliktavas no Supply Chain Management uz Field Service [Paplašinātais vaicājums] 
@@ -65,7 +69,7 @@ Papildu funkcionalitātes pievienošana šajā otrajā posmā bija koncentrēta 
 - Krājumu korekcija (Field Service uz Supply Chain Management) — Krājumu korekcijas no Field Service uz Supply Chain Management [Paplašinātais vaicājums] 
 - Krājumu pārsūtīšana (Field Service uz Supply Chain Management) — Krājumu pārsūtīšana no Field Service uz Supply Chain Management [Paplašinātais vaicājums] 
 - Projekti (Supply Chain Management uz Field Service) — Projektu saraksts no Supply Chain Management uz Field Service 
-- Darba pasūtījumi ar projektu (no Field Service uz Supply Chain Management) — darba pasūtījumi no Field Service uz Pārdošanas pasūtījumiem programmā Supply Chain Management ar atbalstu projektam [Paplašinātais vaicājums] 
+- Darba pasūtījumi ar projektu (no Field Service uz Supply Chain Management) — darba pasūtījumi no Field Service uz Supply Chain Management ar atbalstu projektam [Paplašinātais vaicājums] 
 - Field Service preces ar krājumu uzskaites vienību (no Supply Chain Management uz Sales) — Supply Chain Management 'Pārdodamo izlaisto preču' sinhronizācija ar Field Service pārdošanas precēm, ieskaitot krājuma uzskaites vienības 
 
 ## <a name="system-requirements"></a>Sistēmas prasības
@@ -81,6 +85,3 @@ Lai lietotu Field Service integrācijas risinājumu, ir jābūt instalētiem tā
 - Field Service (versija 8.2.0.286) vai jaunāka versija programmā Dynamics 365 9.1.x — izlaista 2018. gada novembrī
 - Risinājums “No potenciālā klienta līdz skaidrai naudai” (P2C) programmai Dynamics 365, versija 1.15.0.1 vai jaunāka. Risinājumu var lejupielādēt no pakalpojuma [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).
 - Risinājums “Field Service integrācija, projekts un krājumi” programmai Dynamics 365, versija 2.0.0.0 vai jaunāka. Risinājumu var lejupielādēt no pakalpojuma [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.p2cfieldserviceintegrationv2).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

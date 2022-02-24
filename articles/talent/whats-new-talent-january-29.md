@@ -41,6 +41,3 @@ Atvaļinājumiem un kavējumiem ir pievienotas jaunas opcijas (parametri **Perso
 
 ### <a name="worker-hire-actions-are-stuck-in-workflow-complete-state"></a>Nodarbināto darbā pieņemšanas darbības ir iestrēgušas statusā “Darbplūsma izpildīta“
 Ir veiktas izmaiņas, lai labotu problēmu, kad neliels skaits darbplūsmu tika pabeigts ar statusu “Darbplūsma izpildīta”. Tagad jaunajām darbplūsmām statusam būtu jāmainās uz “Pabeigts”, kad darbplūsma tiek pabeigta. Visām darbplūsmām, kuru statuss ir “Darbplūsma izpildīta”, tas tiks mainīts uz kļūdas statusu, lai to atjauninātu vai noņemtu nepieciešamības gadījumā. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

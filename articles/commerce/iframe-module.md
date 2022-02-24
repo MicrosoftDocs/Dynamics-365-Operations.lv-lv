@@ -2,12 +2,15 @@
 title: Iframe modulis
 description: Šajā tēmā tiek stāstīts par iframe moduli un aprakstīts, kā to pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 11/04/2021
+manager: annbe
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: bce6a50e8c145f8961bd0c839fe16c1f4d69e811
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
-ms.translationtype: MT
+ms.openlocfilehash: 4afd8f60938c99d1981be1625ef28f91d9e4bb4c
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7754018"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665400"
 ---
 # <a name="iframe-module"></a>Iframe modulis
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā tiek stāstīts par iframe moduli un aprakstīts, kā to pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Pārskats
 
 Iframe modulis nodrošina iframe (iekļauts kadrs), kas vieso ārējo saturu vietnē. Piemēram, to var izmantot, lai viesotu YouTube video vai PDF failu skatītāju jebkurā vietnes lapā. 
 
@@ -37,11 +42,11 @@ Iframe modulim nepieciešams mērķa URL. Tad tas vieso mērķa lapas saturu, ka
 
 Sekojošajā attēlā ir parādīti iframe moduļu piemēri, kas parāda ārējos videoklipus vietnes lapās.
 
-![Piemērs iframe moduļiem, kas izrāda ārējos video.](./media/ecommerce-iframe.PNG)
+![Piemērs iframe moduļiem, kas izrāda ārējos video](./media/ecommerce-iframe.PNG)
 
 ## <a name="iframe-module-properties"></a>Iframe moduļa rekvizīti
 
-| Rekvizīta nosaukums             | Vērtība                 | Apraksts |
+| Rekvizīta nosaukums             | Vērtība                 | apraksts |
 |---------------------------|-----------------------|-------------|
 | Virsraksts | Teksts | Moduļa virsraksts. |
 | Mērķa URL | Vietrādis URL | Modulī viesotais vietrādis URL. |
@@ -66,15 +71,9 @@ Lai lappusei pievienotu iframe moduli, lai parādītu ārējo videoklipu, rīkoj
 1. Pēc nepieciešamības iestatiet citus rekvizītus, kā **Virsraksts** un **Augstums**.
 1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt**, lai publicētu to.
 1. Dodieties uz vietnes mārketinga lapu. Jums vajadzētu redzēt, ka video tiek atveidots iframe modulī.
-
-> [!NOTE]
-> Tā kā iframe modulis vieso ārēju saturu, vietas autoriem ir jānodrošina, ka iframe modulī viesotais saturs nepārkāpj satura ierobežojumu politiku attiecīgajā tirgū. Ja lapā, kas izmanto iframe moduli, ir satura pārkāpums, vietas autors var noņemt iframe moduli, atverot lapu vietas veidotājā, atlasot Noņemt moduli iframe moduļa slotā un pēc tam saglabājot un atkārtoti publicējot **·** lapu.
-
+ 
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Moduļu bibliotēkas pārskats](starter-kit-overview.md)
 
 [Satura drošības politikas (CSP) pārvaldība](manage-csp.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

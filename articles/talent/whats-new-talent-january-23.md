@@ -53,6 +53,3 @@ Ar šīm izmaiņām lapā **Pārvaldīt izmaiņas** ir pievienoti lauki **Izmē�
 
 ### <a name="platform-update-23-for-finance-and-operations"></a>Platform update 23 for Finance and Operations
 Atjauninājumā Platform update 23 ir iekļauti nelieli kļūdu labojumi programmai Finance and Operations. Plašāku informāciju skatiet tēmā [Jaunumi un izmaiņas programmā Dynamics 365 Finance and Operations atjauninājumā Platform update 23 (2019. gada janvāris)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

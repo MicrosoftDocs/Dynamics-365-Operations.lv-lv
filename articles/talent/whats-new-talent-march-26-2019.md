@@ -97,6 +97,3 @@ Līdz ar platformas atjauninājumu 25 Finance and Operations ieviešanu lietot�
 
 ### <a name="duplicate-employee-checks-user-interface-changes"></a>Dublētu darbinieku pārbaudes: lietotāja interfeisa izmaiņas
 Līdz ar šīs izmaiņas ieviešanu dublikāti tiek noteikti, kad aizpildāt vārda/uzvārda/nosaukuma laukus, un statuss parāda atrasto dublikātu skaitu. Varat atlasīt norādīto saiti, lai atvērtu jaunu lapu, kur novērtēt, vai atrastā atbilstība ir jāizmanto. Lai izvairītos no datu ievades pārtraukšanas, dublikātu forma netiek atvērta automātiski.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

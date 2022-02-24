@@ -1,10 +1,12 @@
 ---
 title: Līdzekļu patapinājumi
 description: Šajā tēmā aprakstīts, kā reģistrēt patapinātos līdzekļus Līdzekļu pārvaldībā.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectLoanSend, EntAssetObjectLoanListPage, EntAssetObjectLoanReturn, EntAssetObjectLoanInfoPart
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 65809d9be39372412d5d6b419f7356fe2c9668a1a01ede32ef52cbd66753e6d7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 355e3d3e0e952db14a03810145528f9701804ca2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752854"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022336"
 ---
 # <a name="asset-loans"></a>Līdzekļu patapinājumi
 
@@ -44,7 +46,7 @@ Ja jūsu uzņēmums saņem līdzekļus remonta vai uzturēšanas darbiem no iek�
 
 Lai skatītu sarakstu ar visiem līdzekļiem, kurus esat patapinājis citai atrašanās vietai vai debitoriem, atlasiet **Līdzekļu pārvaldība** \> **Kopīgi** \> **Līdzekļa patapinājums** \> **Visi līdzekļu patapinājumi**. Ja līdzeklim ir atzīmēta izvēles rūtiņa **Pabeigts**, līdzeklis ir reģistrēts kā atgriezts jūsu uzņēmumam.
 
-![Uzturēšanas pieprasījumu pārvaldība.](media/06-manage-maintenance-requests.png)
+![Uzturēšanas pieprasījumu pārvaldība](media/06-manage-maintenance-requests.png)
 
 Lapā **Aktīvie līdzekļu patapinājumi** varat skatīt visu to patapinājuma līdzekļu sarakstu, kas vēl nav atgriezti jūsu uzņēmumam.
 
@@ -55,6 +57,3 @@ Lapā **Aktīvie līdzekļu patapinājumi** varat skatīt visu to patapinājuma 
 3. Laukā **Atgriezts** ievadiet datumu un laiku.
 4. Atlasiet **Labi**.
 5. Atsvaidziniet saraksta **Aktīvie līdzekļu patapinājumi** lapu un pievērsiet uzmanību, ka līdzekļa patapinājums vairs nav redzams sarakstā.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,24 +2,26 @@
 title: Mobilās programmas mājas lapa
 description: Šajā tēmā ir aprakstīta Finance and Operations (Dynamics 365) mobilā programma un ir sniegtas saites uz resursiem, kas var palīdzēt to ieviest organizācijā.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 01/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.custom: intro-internal
+ms.custom: 272853
 ms.assetid: c99f818f-27b3-4e45-92b4-74272dad0e17
 ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: 8a91f603b4dd058341110c59039a6d3c782e06ee768fbf0e7f94e9527a6354ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e4a9d6424e2d214624c148c0565c88ea4cf4ccf9
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729712"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683462"
 ---
 # <a name="mobile-app-home-page"></a>Mobilās programmas mājas lapa
 
@@ -27,7 +29,8 @@ ms.locfileid: "6729712"
 
 Šajā tēmā ir aprakstīta **Finance and Operations (Dynamics 365)** mobilā programma un ir sniegtas saites uz resursiem, kas var palīdzēt to ieviest organizācijā.
 
-## <a name="overview"></a>Kopsavilkums
+<a name="overview"></a>Kopsavilkums
+--------
 
 Šī mobilā programma jūsu organizācijai sniedz iespējas savus uzņēmējdarbības procesus padarīt pieejamus mobilajās ierīcēs. Kad IT administrators jūsu organizācijai ir iespējojis mobilās darbvietas, lietotāji var pierakstīties programmā un nekavējoties sākt biznesa procesu izpildi no savām mobilajām ierīcēm. Šī mobilā programma ietver tālāk norādītos līdzekļus, kas var palīdzēt uzlabot produktivitāti.
 
@@ -39,7 +42,7 @@ ms.locfileid: "6729712"
 ## <a name="elements-of-the-mobile-app"></a>Mobilās programmas elementi
 Navigāciju mobilajā programmā veido četri galvenie jēdzieni: informācijas panelis, darbvietas, lapas un darbības. 
 
-[![Navigācijas jēdzieni mobilajā programmā.](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
+[![Navigācijas jēdzieni mobilajā programmā](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
 
 1. Kad programmu startējat, jūs dodieties uz **informācijas paneli**.
 2. Informācijas panelī varat redzēt sarakstu ar **darbvietām**, kuras ir publicētas.
@@ -53,7 +56,7 @@ Navigāciju mobilajā programmā veido četri galvenie jēdzieni: informācijas 
 ## <a name="implementation-process"></a>Ieviešanas process
 Nākamajā attēlā ir parādīts ieviešanas process gan mobilajām darbvietām, ko nodrošina Microsoft, gan pielāgotajām mobilajām darbvietām. 
 
-[![Mobilo programmu ieviešanas process.](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
+[![Mobilo programmu ieviešanas process](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
 
 Nākamajā tabulā ir ietvertas saites uz resursiem, kas jums var palīdzēt ieviest gan mobilās darbvietas, ko nodrošina Microsoft, gan pielāgotās mobilās darbvietas. Numuri pirmajā kolonnā atbilst iepriekšējā attēlā uzskaitītajiem soļiem.
 
@@ -90,8 +93,8 @@ Nākamajā tabulā ir ietvertas saites uz resursiem, kas jums var palīdzēt iev
 <li><a href="../../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md">Rīcībā esošo krājumu mobilā darbvieta</a></li>
 <li><a href="../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md">Pārdošanas pasūtījumu mobilās darbvietas</a></li>
 <li><a href="../../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md">Kreditoru sadarbības mobilā darbvieta</a></li>
-<li><a href="/dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace">Projekta laika ieraksta mobilajām ierīcēm paredzēta darbvieta</a></li>
-<li><a href="/dynamics365/project-operations/prod-exp/expense-management-mobile-workspace">Izmaksu pārvaldības mobilā darbvieta</a></li>
+<li><a href="../../../finance/project-management/project-time-entry-mobile-workspace.md">Projekta laika ieraksta mobilajām ierīcēm paredzēta darbvieta</a></li>
+<li><a href="../../../finance/expense-management/expense-management-mobile-workspace.md">Izmaksu pārvaldības mobilā darbvieta</a></li>
 
 </ul></td>
 </tr>
@@ -131,7 +134,7 @@ Nākamajā tabulā ir ietvertas saites uz resursiem, kas jums var palīdzēt iev
 <td>Lietotājs</td>
 <td>Lejupielādējiet un instalējiet mobilo programmu.</td>
 <td>
-<a href="https://go.microsoft.com/fwlink/?linkid=850662">Finance and Operations programma programmatūrai Android</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850662"> Programma Finance and Operations programmatūrai Android</a><BR/>
 <a href="https://go.microsoft.com/fwlink/?linkid=850663">Finance and Operations programma programmatūrai iOS</a><BR/>
 (Windows Phone ierīces netiek atbalstītas)
 </td>
@@ -148,6 +151,3 @@ Nākamajā tabulā ir ietvertas saites uz resursiem, kas jums var palīdzēt iev
 
 ## <a name="troubleshooting"></a>Problēmu novēršana
 [Mobilās platformas resursi](platform/mobile-platform-home-page.md#troubleshooting-the-app)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

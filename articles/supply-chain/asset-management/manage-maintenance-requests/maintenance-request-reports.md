@@ -1,10 +1,12 @@
 ---
 title: Pārskati par uzturēšanas pieprasījumu
 description: Šajā tēmā paskaidrots, kā izveidot pārskatus par uzturēšanas pieprasījumu Līdzekļu pārvaldībā.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/31/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: cd0d50bacd43fe66628fec94aead3a2406e8d4e62c1e2e6c3d31afa9073baa6a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9c93697921e6199587da6e3f3a116e55d4b079e8
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773613"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019608"
 ---
 # <a name="maintenance-request-reports"></a>Pārskati par uzturēšanas pieprasījumu
 
@@ -41,7 +43,7 @@ Pārskatā **Detalizēta informācija par uzturēšanas pieprasījumu** ir parā
 
 Nākamajā attēlā ir parādīts pārskata **Detalizēta informācija par uzturēšanas pieprasījumu** piemērs.
 
-![Informācijas atskaite par uzturēšanas pieprasījumu.](media/09-manage-maintenance-requests.png)
+![Informācijas atskaite par uzturēšanas pieprasījumu](media/09-manage-maintenance-requests.png)
 
 ## <a name="create-a-maintenance-request-list-report"></a>Uzturēšanas pieprasījumu saraksta pārskata izveide
 
@@ -54,7 +56,4 @@ Pārskatā **Uzturēšanas pieprasījumu saraksts** tiek parādīts visu viena v
 
 Nākamajā attēlā ir parādīts **Uzturēšanas pieprasījumu saraksta** pārskata par visiem aktīvajiem uzturēšanas pieprasījumiem piemērs.
 
-![Uzturēšanas pieprasījumu saraksta pārskats.](media/10-manage-maintenance-requests.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+![Uzturēšanas pieprasījumu saraksta pārskats](media/10-manage-maintenance-requests.png)

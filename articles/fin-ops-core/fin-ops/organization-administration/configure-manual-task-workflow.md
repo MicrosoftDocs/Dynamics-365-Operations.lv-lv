@@ -2,9 +2,11 @@
 title: Manuālu uzdevumu konfigurēšana darbplūsmā
 description: Šajā tēmā ir paskaidrots, kā konfigurēt manuāla uzdevuma rekvizītus.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 726abcf20789fb3a7a9a3adbebf17249042910d1
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: f61e0f7ee16519767192fb379f20c1ed20b69caa
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066472"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798809"
 ---
 # <a name="configure-manual-tasks-in-a-workflow"></a>Manuālu uzdevumu konfigurēšana darbplūsmā
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Šajā tēmā ir paskaidrots, kā konfigurēt manuāla uzdevuma rekvizītus.
 
@@ -116,9 +115,9 @@ Veiciet šīs darbības, lai norādītu personu, kurai jāpiešķir manuālais u
     </ol>
     </li>
     <li>Cilnē <strong>Hierarhijas opcijas</strong> norādiet attiecīgajā diapazonā esošos lietotājus, kuriem uzdevums jāpiešķir: <ul>
-    <li><strong>Piešķirt visiem izgūtajiem lietotājiem</strong> — uzdevums tiek piešķirts visiem diapazonā esošajiem lietotājiem.</li>
-    <li><strong>Piešķirt tikai pēdējam izgūtajam lietotājam</strong> — uzdevums tiek piešķirts tikai pēdējam lietotājam diapazonā.</li>
-    <li><strong>Neiekļaut lietotājus, kuri atbilst šādiem nosacījumiem</strong> — uzdevums netiek piešķirts diapazonā esošajiem lietotājiem, kuri atbilst konkrētam nosacījumam. Lai norādītu nosacījumu, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>.</li>
+    <li><strong>Piešķirt visiem izgūtajiem lietotājiem</strong> — uzdevums tiek piešķirts visiem diapazonā esošajiem lietotājiem.</li>
+    <li><strong>Piešķirt tikai pēdējam izgūtajam lietotājam</strong> — uzdevums tiek piešķirts tikai pēdējam lietotājam diapazonā.</li>
+    <li><strong>Neiekļaut lietotājus, kuri atbilst šādiem nosacījumiem</strong> — uzdevums netiek piešķirts diapazonā esošajiem lietotājiem, kuri atbilst konkrētam nosacījumam. Lai norādītu nosacījumu, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>.</li>
     </ul>
     </li>
     </ol>
@@ -214,9 +213,9 @@ Ja lietotājs nepabeidz manuālo uzdevumu atvēlētajā laikā, uzdevums ir noka
     </ol>
     </li>
     <li>Cilnē <strong>Hierarhijas opcijas</strong> norādiet attiecīgajā diapazonā esošos lietotājus, kuriem uzdevums jāeskalē: <ul>
-    <li><strong>Piešķirt visiem izgūtajiem lietotājiem</strong> — uzdevums tiek eskalēts visiem diapazonā esošajiem lietotājiem.</li>
-    <li><strong>Piešķirt tikai pēdējam izgūtajam lietotājam</strong> — uzdevums tiek eskalēts tikai pēdējam lietotājam diapazonā.</li>
-    <li><strong>Neiekļaut lietotājus, kuri atbilst šādiem nosacījumiem</strong> — šis uzdevums netiek eskalēts diapazonā esošajiem lietotājiem, kuri atbilst konkrētam nosacījumam. Lai norādītu nosacījumu, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>.</li>
+    <li><strong>Piešķirt visiem izgūtajiem lietotājiem</strong> — uzdevums tiek eskalēts visiem diapazonā esošajiem lietotājiem.</li>
+    <li><strong>Piešķirt tikai pēdējam izgūtajam lietotājam</strong> — uzdevums tiek eskalēts tikai pēdējam lietotājam diapazonā.</li>
+    <li><strong>Neiekļaut lietotājus, kuri atbilst šādiem nosacījumiem</strong> — šis uzdevums netiek eskalēts diapazonā esošajiem lietotājiem, kuri atbilst konkrētam nosacījumam. Lai norādītu nosacījumu, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>.</li>
     </ul>
     </li>
     </ol>
@@ -360,8 +359,8 @@ Veiciet šīs darbības, ja manuālais uzdevums ir jāpabeidz noteiktā laikā.
 2. Atzīmējiet izvēles rūtiņu **Iestatīt darbplūsmas elementa laika ierobežojumu**.
 3. Laukā **Ilgums** norādiet, kad uzdevums ir jāpabeidz. Izvēlieties vienu no šīm opcijām:
 
-    - **Stundas** — ievadiet stundu skaitu, kuru laikā uzdevums ir jāpabeidz. Pēc tam atlasiet kalendāru, ko izmanto jūsu organizācija, un ievadiet informāciju par jūsu organizācijas darba nedēļu.
-    - **Dienas** — ievadiet dienu skaitu, kuru laikā uzdevums ir jāpabeidz. Pēc tam atlasiet kalendāru, ko izmanto jūsu organizācija, un ievadiet informāciju par jūsu organizācijas darba nedēļu.
+    - **Stundas** — ievadiet stundu skaitu, kuru laikā uzdevums ir jāpabeidz. Pēc tam atlasiet kalendāru, ko izmanto jūsu organizācija, un ievadiet informāciju par jūsu organizācijas darba nedēļu.
+    - **Dienas** — ievadiet dienu skaitu, kuru laikā uzdevums ir jāpabeidz. Pēc tam atlasiet kalendāru, ko izmanto jūsu organizācija, un ievadiet informāciju par jūsu organizācijas darba nedēļu.
     - **Nedēļas** — ievadiet nedēļu skaitu, kuru laikā uzdevums ir jāpabeidz.
     - **Mēneši** — izvēlieties dienu un nedēļu, līdz kurai ir jāpabeidz uzdevums. Piemēram, iespējams, vēlēsieties, lai uzdevums tiktu pabeigts līdz mēneša trešās nedēļas piektdienai.
     - **Gadi** — izvēlieties dienu, nedēļu un mēnesi, līdz kuram ir jāpabeidz uzdevums. Piemēram, iespējams, vēlēsieties, lai uzdevums tiktu pabeigts līdz decembra trešās nedēļas piektdienai.
@@ -382,6 +381,3 @@ Kad manuālais uzdevums ir piešķirts lietotājam, lietotājam ir jāveic darb�
 5. Atzīmējiet izvēles rūtiņu **Deleģēt**, lai lietotājs varētu piešķirt uzdevumu citam lietotājam.
 6. Atzīmējiet izvēles rūtiņu **Piešķirt no jauna**, lai lietotājs varētu piešķirt no jauna uzdevumu citam lietotājam darba vienumu rindā.
 7. Atzīmējiet izvēles rūtiņu **Nodot izpildei**, lai lietotājs varētu piešķirt no jauna uzdevumu darba vienumu rindā. Pēc tam uzdevumu var pabeigt cits lietotājs.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

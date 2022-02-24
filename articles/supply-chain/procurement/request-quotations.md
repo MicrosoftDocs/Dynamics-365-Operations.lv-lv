@@ -1,28 +1,28 @@
 ---
 title: Piedāvājuma pieprasījumu pārskats
 description: Šajā tēmā ir sniegts apskats par piedāvājumu pieprasījumiem (request for quotation — RFQ). Organizācijas izsniedz piedāvājumu pieprasījumus, kad tām ir jāiegādājas preces vai pakalpojumi un tādēļ tās vēlas saņemt konkurētspējīgus piedāvājumus no vairākiem kreditoriem.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 10/05/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage, BOMExpandPurchRFQ, PurchRFQReplyFollowupItem, PurchRFQCaseVend, PurchRFQReplyFollowup, PurchRFQCaseAmendmentInfo, PurchRFQReplyFollowupCase, PurchRFQReplyStatus, PurchRFQCaseReplyFields, PurchRFQAddQuestionnaire, PurchRFQAmendmentWizard, PurchRFQReplyTableStatus, PurchRFQReplyTableListPage, PurchRFQCancelWizard
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "2154"
-- intro-internal
+ms.custom: 2154
 ms.assetid: 3936996e-d943-46ca-8385-84c042990f1d
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7338897feb2c3a28350d366f26eecc56f8eeb3fb
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 5b3338e1837496605ce94a54eb57a32b1b83145b
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983396"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016935"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Piedāvājuma pieprasījumu pārskats
 
@@ -39,13 +39,13 @@ Piedāvājumu pieprasījumu procedūra sastāv no tālāk uzskaitītajiem uzdevu
 
 Nākamajā attēlā ir parādīts apskats par piedāvājuma pieprasījuma procesu.
 
-[![RFQ procesi.](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)
+[![RFQ procesi](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)
 
 Piedāvājuma pieprasījumu gadījumu varat izveidot no plānotiem pasūtījumiem, no pirkšanas pieprasījuma vai ar manuālu ievadīšanu. PP gadījums ir pamatdokuments, ko jūs izmantojat, lai izsniegtu PP katram kreditoram.
 
-Pēc piedāvājuma pieprasījuma sagatavošanas un kreditoru pievienošanas atlasiet **Sūtīt** (publiskajā sektorā tas ir **Sūtīt un publicēt** ) šim piedāvājuma pieprasījuma gadījumam. Tiek ģenerēts piedāvājuma pieprasījuma žurnāls katram kreditoram, kuram nosūtījāt šo piedāvājuma pieprasījumu. Sūtīšanas darbības drukāšanas opcijas varat konfigurēt tā, lai katra kreditora pārskats tiktu drukāts uz arhīvu vai lai pārskats tiktu sūtīts uz katra kreditora e-pasta adresi. Turklāt katra kreditora piedāvājuma pieprasījuma žurnālu varat izmantot, lai ģenerētu pārskatu, ko vēlāk varat nosūtīt vai atkārtoti nosūtīt šim kreditoram. Var arī konfigurēt sūtīšanas darbību tā, lai tā ģenerētu atbildes lapu, ko kreditors var aizpildīt.
+Pēc piedāvājuma pieprasījuma sagatavošanas un kreditoru pievienošanas atlasiet **Sūtīt** (publiskajā sektorā tas ir **Sūtīt un publicēt**) šim piedāvājuma pieprasījuma gadījumam. Tiek ģenerēts piedāvājuma pieprasījuma žurnāls katram kreditoram, kuram nosūtījāt šo piedāvājuma pieprasījumu. Sūtīšanas darbības drukāšanas opcijas varat konfigurēt tā, lai katra kreditora pārskats tiktu drukāts uz arhīvu vai lai pārskats tiktu sūtīts uz katra kreditora e-pasta adresi. Turklāt katra kreditora piedāvājuma pieprasījuma žurnālu varat izmantot, lai ģenerētu pārskatu, ko vēlāk varat nosūtīt vai atkārtoti nosūtīt šim kreditoram. Var arī konfigurēt sūtīšanas darbību tā, lai tā ģenerētu atbildes lapu, ko kreditors var aizpildīt.
 
-Šajā tēmā ir apskatīta procedūra piedāvājumu pieprasījumu apstrādāšanai, kad netiek izmantota kreditora sadarbība. Ja sistēma ir iestatīta kreditoru sadarbībai, kreditori var tieša veidā ievadīt piedāvājumus programmatūrā Supply Chain Management. Papildinformāciju skatiet rakstā [Kreditoru sadarbība ar debitoriem](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) un [Kreditoru sadarbība ar ārējiem kreditoriem](vendor-collaboration-work-external-vendors.md).
+Šajā tēmā ir apskatīta procedūra piedāvājumu pieprasījumu apstrādāšanai, kad netiek izmantota kreditora sadarbība. Ja sistēma ir iestatīta kreditoru sadarbībai, kreditori var tieša veidā ievadīt piedāvājumus programmatūrā Supply Chain Management. Papildinformāciju skatiet rakstā [Kreditoru sadarbība ar debitoriem](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) un [Kreditoru sadarbība ar ārējiem kreditoriem](vendor-collaboration-work-external-vendors.md).
 
 Ja jums jāveic PP grozījumus pēc nosūtīšanas, ir iespējams PP atkārtoti nosūtīt kreditoriem, kad pabeigsiet, izmantojot divas grozījuma darbības: izveidot un finalizēt.
 
@@ -80,23 +80,23 @@ Lapā **Sagādes un avotu parametri** varat atlasīt veidni, ko izmantot kredito
 - %Piedāvājuma atgriešanas iemesls%
 - %Grozījuma iemesls%
 - %Grozījumu sagatavoja%
-- %Company%
+- %Uzņēmums%
 - %Piedāvājuma pieprasījuma gadījuma nosaukums%
 - %Derīguma datums un laiks%
-- %Date%
+- %Datums%
 
-Marķieri %Piedāvājuma atgriešanas iemesls% un %Grozījuma iemesls% tiek aizstāti ar tekstu, ko sagādes speciālists var ievadīt, pabeidzot grozījumu vednī **Grozījums**. Marķieru %Grozījumu sagatavoja% un %Company% vērtības tiek automātiski iegūtas no RFQ. Marķieris %Date% tiek aizstāts ar pašreizējo datumu.
+Marķieri %Piedāvājuma atgriešanas iemesls% un %Grozījuma iemesls% tiek aizstāti ar tekstu, ko sagādes speciālists var ievadīt, pabeidzot grozījumu vednī **Grozījums**. Marķieru %Grozījumu sagatavoja% un %Uzņēmums% vērtības tiek automātiski iegūtas no PP. Marķieris %Datums% tiek aizstāts ar pašreizējo datumu.
 
 Ja kādu piedāvājuma pieprasījumu vēlaties atcelt pēc tam, kad tas ir nosūtīts, to var izdarīt no piedāvājuma pieprasījuma gadījuma. Lai atceltu, ir nepieciešama e-pasta veidne, lai nosūtītu kreditoru kontaktpersonām paziņojumu par atcelšanu. Veidnei ir jābūt atlasītai lapā **Sagādes un avotu parametri**. Kad tiek izveidota veidne, tajā var būt tālāk norādītie aizstāšanas marķieri.
 
 - %Atcelšanas iemesls%
 - %Piedāvājuma pieprasījuma gadījums%
 - %Piedāvājuma pieprasījumu atcēla%
-- %Company%
+- %Uzņēmums%
 - %Piedāvājuma pieprasījuma gadījuma nosaukums%
-- %Date%
+- %Datums%
 
-Marķieris %Atcelšanas iemesls% tiek aizstāts ar tekstu, ko sagādes speciālists var ievadīt vednī **Atcelšana**. Marķieris %Date% tiek aizstāts ar pašreizējo datumu.
+Marķieris %Atcelšanas iemesls% tiek aizstāts ar tekstu, ko sagādes speciālists var ievadīt vednī **Atcelšana**. Marķieris %Datums% tiek aizstāts ar pašreizējo datumu.
 
 Ja piedāvājumā vēlaties izmantot iemeslu kodus, lai norādītu, kāpēc tas tika atteikts vai pieņemts, jums ir jāiestata iemeslu kodi lapā **Kreditoru iemesli**.
 
@@ -167,7 +167,7 @@ Ja grozījuma procesu konfigurējat, uzstādot stingrākus ierobežojumus, lai m
 
 Ja grozījuma procesu konfigurējat, uzstādot mazāk stingrus ierobežojumus, nav nepieciešamības atlasīt **Izveidot**, lai varētu mainīt laukus jau nosūtītā piedāvājuma pieprasījuma gadījumā. Taču piedāvājuma pieprasījumam ir manuāli jāpievieno piezīme par grozījumu, un šis gadījums ir jānosūta vēlreiz. Ņemiet vērā, ka šo pieeju var lietot tikai tad, ja neviena no atbildēm (piedāvājumiem) nav rediģēta. Ja esat ievadījis kādu atbildi un tās statuss ir **Saņemts**, poga **Sūtīt** nav pieejama. Tādā gadījumā jums ir jāatlasa **Izveidot** un pēc tam — **Finalizēt**, tāpat kā procesos ar stingrākiem ierobežojumiem. Pēc tam atbilde tiek atiestatīta, lai atspoguļotu piedāvājuma pieprasījumā veiktās izmaiņas.
 
-Ja piedāvājumu ievadīšanai kreditori izmanto kreditoru sadarbības interfeisu, jums vienmēr ir jāizmanto grozījumu process, lai informētu kreditorus par piedāvājuma pieprasījuma gadījuma veiktajām izmaiņām. Šī procedūra palīdz novērst situācijas, kad kreditori izsaka piedāvājumu par novecojušu piedāvājuma pieprasījuma gadījumu, kamēr viņu piedāvājums tiek apstrādāts. Papildinformāciju par kreditoru sadarbību skatiet šeit: [Kreditoru sadarbība ar ārējiem kreditoriem](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
+Ja piedāvājumu ievadīšanai kreditori izmanto kreditoru sadarbības interfeisu, jums vienmēr ir jāizmanto grozījumu process, lai informētu kreditorus par piedāvājuma pieprasījuma gadījuma veiktajām izmaiņām. Šī procedūra palīdz novērst situācijas, kad kreditori izsaka piedāvājumu par novecojušu piedāvājuma pieprasījuma gadījumu, kamēr viņu piedāvājums tiek apstrādāts. Papildinformāciju par kreditoru sadarbību skatiet šeit: [Kreditoru sadarbība ar ārējiem kreditoriem](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
 
 Ja saistībā ar piedāvājuma izteikšanu vēlaties uzaicināt papildu kreditorus un ja piedāvājuma pieprasījuma gadījumam nav veiktas nekādas izmaiņas, varat izmantot pogu **Sūtīt**. Jūsu pievienotie kreditori būs redzami lapā **Sūtīt** un saņems e-pasta uzaicinājumu.
 
@@ -246,6 +246,3 @@ Nākamajā piemērā varat redzēt visaugstāko un viszemāko statusu piedāvāj
 | Pieņemiet vienu piedāvājumu. (vai vismaz vienu rindu) |                          Saņemts                           |                           Pieņemts                           |                    Saņemts                    |                    Pieņemts                     |                   Saņemts                   |                   Pieņemts                    |
 |           Atsakiet visus pārējos piedāvājumus.           |                          Atteikts                           |                           Pieņemts                           |                    Atteikts                    |                    Pieņemts                     |                   Atteikts                   |                   Pieņemts                    |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

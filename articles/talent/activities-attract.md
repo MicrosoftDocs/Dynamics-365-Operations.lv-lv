@@ -91,6 +91,3 @@ Darbā pieņemšanas procesa veidnei ir nepieciešama piedāvājuma aktivitāte.
 > Integrētā piedāvājumu pārvaldības programma ir pieejama tikai tad, ja jums ir visaptverošais darbā pieņemšanas papildinājums. Papildinformāciju skatiet rakstā [Kura Microsoft Dynamics 365 Talent versija - Attract](./attract-comprehensive-hiring.md).
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

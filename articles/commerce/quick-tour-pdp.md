@@ -1,37 +1,42 @@
 ---
 title: Preču papildinformācijas lapu pārskats
-description: Šajā tēmā sniegts pārskats par preču detalizētas informācijas (PDP) lapām programmā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā sniegts pārskats par preču detalizētas informācijas (PDP) lapām Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 01/23/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 48b4e5d66b86e0b1198bd6ff7ce1e7de33f8fde0
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: c53e74204fad2960dfba972a38c511df7d6672d8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986205"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414155"
 ---
 # <a name="product-details-pages-overview"></a>Preču papildinformācijas lapu pārskats
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā sniegts pārskats par preču detalizētas informācijas (PDP) lapām programmā Microsoft Dynamics 365 Commerce.
+Šajā tēmā sniegts pārskats par preču detalizētas informācijas (PDP) lapām Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Pārskats
 
 PDP sniedz detalizētu informāciju par preci, un ļaujiet klientiem izvēlēties preces opcijas, piemēram, izmēru, stilu un krāsu. PDP ir jāparāda visa preces informācija, kas klientam nepieciešama, lai pieņemtu lēmumu par pirkšanu.
 
 Tālāk redzamajā attēlā parādīts PDP piemērs.
 
-![Preces detalizētas informācijas lapas piemērs.](./media/pdp.PNG)
+![Preces detalizētas informācijas lapas piemērs](./media/pdp.PNG)
 
 ## <a name="header-and-footer-modules"></a>Galvenes un kājenes moduļi
 
@@ -83,6 +88,3 @@ Ja mārketinga saturs ir unikāls konkrētai precei, PDP var pievienot jebkuru m
 [Konta pārvaldības lapu pārskats](quick-tour-account-management.md)
 
 [Preces informācijas bagātināšanas lapa](enrich-product-page.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

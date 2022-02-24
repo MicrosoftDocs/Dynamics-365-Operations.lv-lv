@@ -56,6 +56,3 @@ Veiktspējas pārskatu drukāšana tagad ir pieejama visās vidēs. Lai iespējo
 ### <a name="current-balance-report-in-leave-pbi-doubles-employee-balance-385581"></a>Pašreizējais atvaļinājumu PBI bilances pārskats dublē darbinieka bilanci (385581)
 
 Šī izmaiņa labo pašreizējo bilances pārskatu šajā scenārijā.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

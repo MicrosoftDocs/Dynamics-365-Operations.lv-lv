@@ -1,10 +1,12 @@
 ---
 title: 125 procentu atlikuma bilances aprēķināšanas metode
-description: Šajā tēmā sniegts pārskats par 125 procentu atlikumu bilances metodi.
-author: moaamer
+description: Šajā rakstā ir sniegts pārskats par 125 procentu degresīvās nolietojuma aprēķināšanas metodi.
+author: saraschi2
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -12,21 +14,21 @@ ms.reviewer: roschlom
 ms.custom: 13871
 ms.assetid: 3abc263e-59d6-4f1a-986d-1be388948bd3
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 605f9fd3dea02e01c2c49b8e1a6cc52310132304
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
-ms.translationtype: MT
+ms.openlocfilehash: 9511917d72a1bb45daf2ce7e4b56d94c17825daf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883522"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969232"
 ---
 # <a name="125-percent-reducing-balance-depreciation"></a>125 procentu atlikuma bilances aprēķināšanas metode
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā sniegts pārskats par 125 procentu atlikumu bilances metodi.
+Šajā rakstā ir sniegts pārskats par 125 procentu degresīvās nolietojuma aprēķināšanas metodi.
 
 Iestatot pamatlīdzekļa nolietojuma tabulu un atlasot **125% atlikumu bilance** laukā **Metode**, lapā **Nolietojuma tabulas**, nolietojuma tabulai piešķirtā pamatlīdzekļa nolietojuma procenti ir vienādi visos nolietojuma periodos. Šī procentu likme tiek aprēķināta, pamatojoties uz pamatlīdzekļa lietošanas ilgumu. Piemēram, ja pamatlīdzekļa lietošanas ilgums ir pieci gadi, tiks aprēķināta procentu likme 25 procenti (125% ÷ 5).
 
@@ -64,7 +66,7 @@ Ja kā nolietojuma aprēķināšanas gadu atlasāt opciju **Finanšu**, tad lauk
 
 ## <a name="example-of-125-reducing-balance-depreciation"></a>125% atlikumu bilances piemērs
 
-| &nbsp;                         | &nbsp; |
+|                                |        |
 |--------------------------------|--------|
 | Iegādes vērtība               | 11 000 |
 | Lūžņu vērtība                  | 1000  |
@@ -85,6 +87,3 @@ Ja kā nolietojuma aprēķināšanas gadu atlasāt opciju **Finanšu**, tad lauk
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

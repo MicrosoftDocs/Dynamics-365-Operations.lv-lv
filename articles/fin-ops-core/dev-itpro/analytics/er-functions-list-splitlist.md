@@ -2,8 +2,11 @@
 title: SPLITLIST ER funkcija
 description: Šajā tēmā ir sniegta informācija par to, kā tiek izmantota SPLITLIST elektroniskā pārskata (ER) funkcija.
 author: NickSelin
-ms.date: 03/15/2021
+manager: kfend
+ms.date: 12/12/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef0b548173a01cc5a15fcfb743dfb29397c1349b3c2926fa6401399459d07026
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d0f527dcf313a6a5e3b6601cac9a0f6495f66833
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776126"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680343"
 ---
 # <a name="splitlist-er-function"></a>SPLITLIST ER funkcija
 
@@ -27,16 +30,10 @@ ms.locfileid: "6776126"
 
 `SPLITLIST` funkcija sadala norādīto sarakstu apakšsarakstos (jeb partijās), kuri katrs satur norādītu ierakstu skaitu. Pēc tam tā atgriež rezultātu kā jaunu *Ierakstu saraksta* vērtību, kas sastāv no partijām.
 
-## <a name="syntax-1"></a>Sintakse 1
+## <a name="syntax"></a>Sintakse
 
 ```vb
 SPLITLIST (list, number)
-```
-
-## <a name="syntax-2"></a>Sintakse 2
-
-```vb
-SPLITLIST (list, number, on-demand reading flag)
 ```
 
 ## <a name="arguments"></a>Argumenti
@@ -48,10 +45,6 @@ SPLITLIST (list, number, on-demand reading flag)
 `number`: *Vesels skaitlis*
 
 Maksimālais ierakstu skaits partijā.
-
-`on-demand reading flag`: *Būla*
-
-Vērtība *Būla*, kas norāda, vai pēc pieprasījuma jāģenerē apakšsarakstu elementi.
 
 ## <a name="return-values"></a>Atgrieztās vērtības
 
@@ -71,8 +64,6 @@ Atgriezts partiju saraksts satur šādus elementus:
 
     Pašreizējās partijas numurs atgrieztajā sarakstā.
 
-Ja lasīšanas karodziņš pēc pieprasījuma ir iestatīts uz **Patiess**, pēc pieprasījuma tiek ģenerēti apakšsaraksti, kas ļauj samazināt atmiņas patēriņu, bet var izraisīt veiktspējas samazināšanos, ja elementi netiek izmantoti secīgi.
-
 ## <a name="example"></a>Paraugs
 
 Tālāk esošajā attēlā redzamais datu avots **Rindas** tiek izveidots kā ierakstu saraksts, kuram ir trīs ieraksti. Šis saraksts tiek sadalīts divās partijās — katrā no partijām ir līdz diviem ierakstiem.
@@ -90,6 +81,3 @@ Tālāk esošajā attēlā parādīts rezultāts pēc izveidotā formāta palai�
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Saraksta funkcijas](er-functions-category-list.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

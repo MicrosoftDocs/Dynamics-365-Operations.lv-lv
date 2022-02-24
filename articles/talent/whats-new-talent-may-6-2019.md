@@ -93,6 +93,3 @@ Iespēja izsekot darbinieku brīvajam laikam un saprast, kā tiek aprēķināts 
 ### <a name="indicate-instance-type-when-provisioning-talent"></a>Instances tipa norādīšana, veicot nodrošināšanu programmā Talent
 
 Nodrošinot programmā Talent jaunu instanci, varēsit norādīt, vai instances tips ir **Ražošana** vai **Smilškaste**, kas ļauj veikt jaunu līdzekļu agrīnu testēšanu. Visas esošās programmas Talent instances tiks atjauninātas uz instances tipu Ražošana. Ja vēlaties, lai kāda no jūsu esošajām instancēm tiktu atjaunināta uz instances tipu Smilškaste, lūdzu, sazinieties ar atbalsta dienestu, lai sāktu izmaiņu pieprasījumu.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

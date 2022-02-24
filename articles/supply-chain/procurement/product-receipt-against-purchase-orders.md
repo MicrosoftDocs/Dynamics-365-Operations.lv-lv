@@ -1,10 +1,12 @@
 ---
 title: Produktu saņemšana pret pirkšanas pasūtījumiem
 description: Šajā tēmā ir aprakstītas dažādas opcijas, lai prod. reģistrētu kā saņemtus.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 11/15/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, VendPackingSlipJournalListPage, VendPackingSlipJournal
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 93113
 ms.assetid: d4ec3e86-fce2-4546-911b-e0acf64c8887
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c22b4f914dc7eba34f2f9a2657d21d66f38c019
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a07b6b05b8eb25b8c41a5eecbb71fb765a3e9d5f
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570518"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019683"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>Produktu saņemšana pret pirkšanas pasūtījumiem
 
@@ -53,7 +55,8 @@ Kad pirkšanas pasūtījumā ir apstrādāta produkta ieejas plūsma, pirkšanas
 
 Šai lapai varat piekļūt no darbību grupas **Ieejas plūsma** lapā **Pirkšanas pasūtījums**. Informācija šajos žurnālos ietver informāciju par daudzumiem, datumiem un dimensijām.
 
-## <a name="additional-resources"></a>Papildu resursi
+<a name="additional-resources"></a>Papildu resursi
+--------
 
 [Pirkšanas pasūtījumu apskats](purchase-order-overview.md)
 
@@ -61,10 +64,7 @@ Kad pirkšanas pasūtījumā ir apstrādāta produkta ieejas plūsma, pirkšanas
 
 [Pirkšanas pasūtījumu apstiprināšana un ratificēšana](purchase-order-approval-confirmation.md)
 
-[Apskats par kreditoru rēķiniem](../../finance/accounts-payable/vendor-invoices-overview.md)
+[Apskats par kreditoru rēķiniem](../../financials/accounts-payable/vendor-invoices-overview.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

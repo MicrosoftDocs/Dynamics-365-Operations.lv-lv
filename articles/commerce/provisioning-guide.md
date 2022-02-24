@@ -1,10 +1,12 @@
 ---
-title: Dynamics 365 Commerce novērtēšanas vides nodrošinājums
-description: Šajā tēmā ir paskaidrots, kā nodrošināt programmas Microsoft Dynamics 365 Commerce novērtējuma vidi.
+title: Dynamics 365 Commerce novērtējuma vides nodrošināšana
+description: Šajā tēmā ir paskaidrots, kā nodrošināt Microsoft Dynamics 365 Commerce novērtējuma vidi.
 author: psimolin
+manager: annbe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,23 +17,25 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c8241c31e82d124398189666c3a1709d25884b8acd9c8f3b1068529cbd216684
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8cda79a6be1aca7ad3826b9409e110524e6560e3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777504"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969905"
 ---
-# <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce novērtēšanas vides nodrošinājums
+# <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce novērtējuma vides nodrošināšana
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā nodrošināt programmas Microsoft Dynamics 365 Commerce novērtējuma vidi.
+Šajā tēmā ir paskaidrots, kā nodrošināt Microsoft Dynamics 365 Commerce novērtējuma vidi.
 
 Pirms sākat, iesakām ātri iziet caur šai tēmai, lai iegūtu priekšstatu par to, kas ir nepieciešams procesam.
 
 > [!NOTE]
 > Commerce novērtējuma vides nav vispārpieejamas, un tās tiek piešķirtas partneriem un klientiem pēc pieprasījuma. Lai iegūtu plašāku informāciju, sazinieties ar sava Microsoft partnera kontaktpersonu.
+
+## <a name="overview"></a>Pārskats
 
 Lai veiksmīgi nodrošinātu Commerce novērtējuma vidi, ir jāizveido projekts ar noteiktu preces nosaukumu un veidu. Videi un Commerce Scale Unit (CSU) arī ir daži specifiski parametri, kas jāizmanto, vēloties nodrošināt e-tirdzniecību. Šajā tēmā sniegtās instrukcijas apraksta visas nepieciešamās darbības, lai pabeigtu nodrošināšanu, un parametrus, kas jāizmanto.
 
@@ -76,7 +80,7 @@ Lai LCS izveidotu jaunu projektu, veiciet tālāk norādītās darbības.
 
 ### <a name="add-the-azure-connector"></a>Azure Connector pievienošana
 
-Lai Azure savienotāju pievienotu LCS projektam, veiciet darbības, kas norādītas sadaļā [Pabeigt Azure Resource Manager (ARM) pievienošanas procesu](../fin-ops-core/dev-itpro/deployment/arm-onboarding.md).
+Lai Azure savienotāju pievienotu LCS projektam, veiciet darbības, kas norādītas sadaļā [Pabeigt Azure Resource Manager (ARM) pievienošanas procesu](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/arm-onboarding).
 
 ### <a name="deploy-the-environment"></a>Vides izvietošana
 
@@ -90,16 +94,16 @@ Lai izvietotu vidi, veiciet tālāk norādītās darbības.
 1. Laukā **Programmas versija** atlasiet visjaunāko versiju. Ja jums ir īpaša nepieciešamība atlasīt programmas versiju, kas nav visjaunākā versija, neatlasiet versiju pirms **10.0.14**.
 1. Laukā **Platformas versija** izmantojiet platformas versiju, kas tiek automātiski izvēlēta jūsu izvēlētajai programmas versijai. 
 
-    ![Pieteikumu un platformu versiju atlasīšana.](./media/project1.png)
+    ![Pieteikumu un platformu versiju atlasīšana](./media/project1.png)
 
 1. Atlasiet **Nākamais**.
 1. Kā vides topoloģiju atlasiet **Demonstrācija**.
 
-    ![1. vides topoloģijas atlasīšana.](./media/project2.png)
+    ![1. vides topoloģijas atlasīšana](./media/project2.png)
 
 1. Lapā **Izvietot vidi** ievadiet vides nosaukumu. Atstājiet papildu iestatījumus, kādi tie ir.
 
-    ![Vides lapas izvietošana.](./media/project4.png)
+    ![Vides lapas izvietošana](./media/project4.png)
 
 1. Pielāgojiet VM lielumu pēc vajadzības. (Mēs iesakām VM noliktavas vienību \[SKU\] **D13 v2**.)
 1. Pārskatiet cenu noteikšanas un licencēšanas nosacījumus un pēc tam atzīmējiet izvēles rūtiņu, lai norādītu, ka piekrītat tiem.
@@ -172,21 +176,18 @@ Lai turpinātu nodrošināšanas procesu un konfigurētu Commerce novērtējuma 
 
 [Dynamics 365 Commerce novērtējuma vides pārskats](cpe-overview.md)
 
-[Konfigurēt Dynamics 365 Commerce novērtējuma vidi](cpe-post-provisioning.md)
+[Dynamics 365 Commerce novērtējuma vides konfigurācija](cpe-post-provisioning.md)
 
 [BOPIS konfigurācija Dynamics 365 Commerce novērtējuma videi](cpe-bopis.md)
 
 [Izvēles funkciju konfigurācija Dynamics 365 Commerce novērtējuma videi](cpe-optional-features.md)
 
-[Dynamics 365 Commerce novērtējuma vide Bieži uzdotie jautājumi](cpe-faq.md)
+[Bieži uzdotie jautājumi par Dynamics 365 Commerce novērtējuma vidi](cpe-faq.md)
 
-[Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Commerce Scale Unit (mākonis)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Commerce Scale Unit (mākonis)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Microsoft Azure portāls](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce tīmekļa vietne](https://aka.ms/Dynamics365CommerceWebsite)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

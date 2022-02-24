@@ -1,24 +1,26 @@
 ---
 title: Pasūtījumu sūtīšana kā tiešās piegādes
 description: Šajā tēmā ir parādīts, kā pārdošanas pasūtījumam izveidot tiešu piegādi.
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable, PurchTablePart, PurchEditLines, PurchTable, PurchTableReferences, MCRDropShipWorkbench, SalesShippingLine
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 94890b0915a49052c298090f124cf2b91c462de8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 0a8f214a56c6a5013cab8233d5b2e0126deb9220
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572445"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966109"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Pasūtījumu sūtīšana kā tiešās piegādes
 
@@ -79,6 +81,3 @@ ms.locfileid: "7572445"
     - Tiešās piegādes lapa darboja kā rīks, kas nodrošina pirkšanas aģentam pārskatu par visām pārdošanas pasūtījuma rindām, kam tiks veikta tieša piegāde, un tas ļauj izveidot attiecīgos pirkšanas pasūtījumus. Turklāt tie var skatīt atvērtās tiešās piegādes pasūtījumus un apstiprinātos pasūtījumus cilnēs Apstiprinājums un Piegāde.  
     - Kad esat izveidojis tiešās piegādes pasūtījumu, tas tiek automātiski pārvietots uz cilni Apstiprinājums. Varat izlemt pasūtījumu apstiprināt tieši no šīs lapas. Kad pirkums ir apstiprināts, tas tiek automātiski pārvietots uz cilni Piegāde, no kuras varat reģistrēt tā saņemšanu.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

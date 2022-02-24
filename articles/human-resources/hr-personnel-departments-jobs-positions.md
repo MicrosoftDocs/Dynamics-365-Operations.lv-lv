@@ -1,35 +1,33 @@
 ---
 title: Darbaspēka organizēšana, izmantojot nodaļas, darbus un amatus
-description: Šajā tēmā ir aprakstīta konceptuāla informācija par nodaļām, darbavietām un amatiem, kas ir organizācijas elementi, kas tiek uzturēti cilvēkresursos.
-author: twheeloc
-ms.date: 01/03/2022
+description: Nodaļas, amati un pozīcijas ir organizācijas elementi, kas tiek uzturēti personāla vadības procesā. Šajā rakstā ir sniegta konceptuāla informācija par šiem elementiem.
+author: andreabichsel
+manager: AnnBe
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmJob, HcmPosition, OMOperatingUnit, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources, Retail
 ms.custom: 87933
 ms.assetid: eb5dcacb-a5fe-451d-b30a-7ef14da65d81
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 2b4c1efac249b315de25348a104f00a613c32df9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 826de9e1e5d70ba1ec088b44254c871726b5c38e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071731"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419529"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Darbaspēka organizēšana, izmantojot nodaļas, darbus un amatus
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Nodaļas, amati un pozīcijas ir organizācijas elementi, kas tiek uzturēti personāla vadības procesā. Šajā tēmā ir sniegta konceptuāla informācija par šiem elementiem. 
+Nodaļas, amati un pozīcijas ir organizācijas elementi, kas tiek uzturēti personāla vadības procesā. Šajā rakstā ir sniegta konceptuāla informācija par šiem elementiem. 
 
 Tālāk sniegtais piemērs tiek izmantots, lai paskaidrotu šajā rakstā aprakstītās koncepcijas.
 
@@ -45,26 +43,42 @@ Tālāk sniegtais piemērs tiek izmantots, lai paskaidrotu šajā rakstā apraks
 |**Personāla vadība**|PV vadītājs (centrālais reģions)|PV vadītājs|
 
 
-##  <a name="departments"></a>Nodaļas
+ <a name="departments"></a>Nodaļas
+------------
 
 Nodaļa ir pārvaldības struktūrvienība, kas atbilst organizācijas kategorijai vai funkcionālajai jomai, kas ir atbildīga par noteiktu organizācijas darbības jomu, piemēram, pārdošanu vai uzskaiti. Nodaļa tiek izmantota, lai ziņotu par funkcionālajām jomām, un tā var būt atbildīga par peļņu un zaudējumiem. Turklāt nodaļa var ietvert izmaksu centru grupu. Organizācijā var būt tādas nodaļas kā, piemēram, pārdošanas, uzskaites un personāla vadības nodaļa.
 
-## <a name="jobs-and-positions"></a>Darbi un amati
+## <a name="jobs-and-positions"></a> Darbi un amati
 Darbs ir uzdevumu un atbildības jomu kopums, kas ir jāizpilda personai, kura veic darbu. Pozīcija ir atsevišķa darba instance. Darba veikšanai nepieciešamās atbildības jomas, darba uzdevumi, darba funkcijas, iemaņas, izglītības informācija un sertifikāti ir nepieciešami arī amatiem, kas ir saistīti ar šo darbu.
-
 ### <a name="job-tasks"></a>Darba uzdevumi
 
 Varat izveidot darba uzdevumus, kas atbilst pamata uzdevumiem, kuri ir jāveic darbiniekam, kas ieņem šī darba amatu. Vienu darba uzdevumu var pievienot vairākiem darbiem, un šī darba amati pārmanto šos darba uzdevumus. Tālāk esošajā tabulā ir norādīti darba uzdevumu piemēri.
 
-| Darbs           | Darba uzdevums                                                |
-|---------------|-------------------------------------------------------------|
-| Pārdošanas daļas vadītājs | Izpildes novērtēšana — novērtēt katra pārdevēja darba izpildi.    |
-| Grāmatvedis    | Kavējumu izskatīšana — apstiprināt vai noraidīt katra pārdevēja kavējumu pieprasījumus vai reģistrācijas. |
-
+<table>
+<thead>
+<tr class="header">
+<th>Darbs</th>
+<th>Darba uzdevums</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Pārdošanas daļas vadītājs</td>
+<td><ul>
+<li><span class="input">Izpildes novērtēšana</span> — novērtēt katra pārdevēja darba izpildi.</li>
+<li><span class="input">Kavējumu izskatīšana</span> — apstiprināt vai noraidīt katra pārdevēja kavējumu pieprasījumus vai reģistrācijas.</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Grāmatvedis</td>
+<td><span class="input">Finanšu pārskata sniegšana</span> — sniegt iknedēļas finanšu pārskatus finanšu direktoram.</td>
+</tr>
+</tbody>
+</table>
 
 ### <a name="job-functions"></a>Darba funkcijas
 
-Darba funkcijas līdzinās darba uzdevumiem. Darba funkcija apraksta vienu vai vairākus uzdevumus, pienākumus vai pienākumus, kas ir piešķirti darbam. Darba funkcijas var piešķirt darbiem un izmantot, lai iestatītu un ieviestu atlīdzības plānu piemērotības noteikumus. Nākamajā tabulā ir norādīti darba funkciju piemēri.
+Darba funkcijas līdzinās darba uzdevumiem. Darba funkcija atbilst vienam vai vairākiem uzdevumiem, pienākumiem vai atbildības jomām, kas ir piešķirti darbam. Darba funkcijas var piešķirt darbiem un izmantot, lai iestatītu un ieviestu atlīdzības plānu piemērotības noteikumus. Nākamajā tabulā ir norādīti darba funkciju piemēri.
 
 | Darbs           | Darba funkcija                                                |
 |---------------|-------------------------------------------------------------|
@@ -83,7 +97,8 @@ Izmantojiet darbu tipus, lai klasificētu līdzīgos darbus kategorijās. Darbu 
 
 Izmantojiet atbildības jomas, lai norādītu darba lomas, procesus un preces, par ko ir atbildīgs darbinieks, kurš ieņem šī darba amatu. Darbam “Grāmatvedis” var būt tādas atbildības jomas kā, piemēram, “Finanšu pārskatu izveide par preci A”.
 
-## <a name="positions"></a>Amati
+<a name="positions"></a>Amati
+----------
 
 Amats ir nozīmīgs organizācijas hierarhijas zemāko līmeņu elements. Pozīcija ir atsevišķa darba instance. Piemēram, amats “Pārdošanas daļas vadītājs (austrumu reģions)” ir tikai viens no amatiem, kas ir saistīti ar darbu “Pārdošanas daļas vadītājs”. Amati ir ietverti nodaļā un tiek piešķirti darbiniekiem.
 ### <a name="position-creation-and-maintenance"></a>Amata izveide un uzturēšana
@@ -94,21 +109,24 @@ Amats ir nozīmīgs organizācijas hierarhijas zemāko līmeņu elements. Pozīc
 -   Varat iestatīt darbplūsmas, lai amatu pievienošanai un izmaiņām būtu nepieciešams apstiprinājums.
 
 ### <a name="position-duration"></a>Amata ieņemšanas ilgums
+
 Katrs amats ir spēkā noteiktu laika periodu. Šis laika periods tiek saukts par ilgumu. Piemēram, vasaras amatu ieņemšanas ilgums var būt no 2015. gada 1. maija līdz 2015. gada 31. augustam.
 
 ### <a name="worker-assignments"></a>Nodarbināto piešķires
+
 Piešķirot darbinieku amatam, šis amats tiek aizņemts. Varat piešķirt darbiniekus vairākiem amatiem, taču vienam amatam vienlaikus var piešķirt tikai vienu darbinieku.
 
 ### <a name="reporting-relationships"></a>Pārskata sakarības
-Amati ir nozīmīgi organizācijas hierarhijas zemāko līmeņu elementi. Lapā **Pozīcija** varat norādīt amatu, kuram ir pakļauts šis amats. Kad piešķirat darbinieku amatam, kas ir pakļauts citam amatam, tiek izveidotas pakļautības attiecības starp darbiniekiem, kas ir piešķirti šiem diviem amatiem. Piemēram, amats “Grāmatvedis A” ir pakļauts amatam “Uzskaites supervizors”. Ana Boumena ir iecelta amatā "Grāmatvedības uzraugs", un Fēlikss Hendersons ir norīkots amatā "Accountant-A". Tas nozīmē, ka Fēlikss Hendersons atskaitās Anai Boumenei. 
 
-Ja jūsu organizācija izmanto matricas hierarhiju vai citu pielāgotu hierarhiju, varat iestatīt amatu hierarhijas tipus un pēc tam pievienot katra iestatītā hierarhijas tipa matiem pakļautības attiecības. Piemēram, Olīvija Vilsone ir Adventure Works galvenā menedžere un ir iecelta amatā "Ģenerāldirektore". Olīvija pārvalda izstrādājuma izstrādi, ko izmanto logrīku tīrīšanai. Olīvijai ir nepieciešams grāmatvedis, lai palīdzētu ar finansēm produkta izstrādei. Tāpēc viņa ir savervējusi Fēliksu Hendersonu par grāmatvedi. Fēlikss atskaitās tieši Anai Boumenei, bet arī strādā ar Olīviju Vilsoni pie viņa darba, kas saistīts ar finansēm logrīku tīrītāja izstrādei. 
+Amati ir nozīmīgi organizācijas hierarhijas zemāko līmeņu elementi. Veidlapā Amats varat norādīt amatu, kuram ir pakļauts šis amats. Kad piešķirat darbinieku amatam, kas ir pakļauts citam amatam, tiek izveidotas pakļautības attiecības starp darbiniekiem, kas ir piešķirti šiem diviem amatiem. Piemēram, amats “Grāmatvedis A” ir pakļauts amatam “Uzskaites supervizors”. Kims Akers ir piešķirts amatam “Uzskaites supervizors”, un Sandžejs Patels ir piešķirts amatam “Grāmatvedis A”. Tas nozīmē, ka Sandžejs Patels ir pakļauts Kimam Akeram. 
 
-Iepriekšējā piemērā jums jāveic šādi uzdevumi, lai izveidotu darba attiecības starp Fēliksu Hendersonu un Ana Boumenu:
+Ja jūsu organizācija izmanto matricas hierarhiju vai citu pielāgotu hierarhiju, varat iestatīt amatu hierarhijas tipus un pēc tam pievienot katra iestatītā hierarhijas tipa matiem pakļautības attiecības. Piemēram, Lorija Penora ir uzņēmuma Adventure Works ģenerāldirektore un ir piešķirta amatam “Ģenerāldirektors”. Lorija vada logrīku notīrīšanai paredzēta produkta izstrādi. Lorijai ir nepieciešams grāmatvedis, kas var viņai palīdzēt apstrādāt produkta izstrādes finanšu datus. Tāpēc viņa ir pieņēmusi Sandžeju Patelu kā grāmatvedi. Sandžejs ir tieši pakļauts Kimam Akeram, taču strādā arī kopā ar Loriju Penori, apstrādājot logrīku notīrīšanas produkta izstrādes finanšu datus. 
+
+Iepriekšējā piemērā aprakstītajā situācijā ir jāveic tālāk norādītie uzdevumi, lai iestatītu darba attiecības starp Sandžeju Patelu un Loriju Penori.
 1.  Izveidojiet pielāgotu amatu hierarhijas tipu “Logrīks”, lai izveidotu hierarhiju, kurā ir ietverti amati, kas ir saistīti ar logrīku notīrīšanas produkta izstrādi.
 2.  Norādiet, ka amats “Grāmatvedis A” ir pakļauts amatam “Ģenerāldirektors” hierarhijā “Logrīks”.
 
-Izmantojiet **Pozīciju hierarhija** lapu, lai skatītu pozīciju pārskatu struktūru. Ja jums ir vairākas pozīciju hierarhijas, varat skatīt katra hierarhijas tipa hierarhiju **Pozīciju hierarhija**. Varat arī meklēt amatu pēc amata ID vai tā darbinieka vārda, kurš ir piešķirts šim amatam. The **Pozīciju hierarhija** ir organizatoriskā hierarhija.
+Izmantojiet amatu hierarhiju, lai skatītu amatu pakļautības struktūru. Ja jums ir vairākas amatu hierarhijas, varat skatīt katra hierarhijas tipa hierarhiju amatu hierarhijā. Varat arī meklēt amatu pēc amata ID vai tā darbinieka vārda, kurš ir piešķirts šim amatam. Amatu hierarhija ir organizācijas hierarhija.
 
 ## <a name="date-effective-records"></a>Efektīvo ierakstu datums
 Dažiem ierakstiem varat norādīt turpmākās ierakstu izmaiņas. Tālāk norādītā informācija ir atkarīga no datuma.
@@ -141,4 +159,9 @@ Dažiem ierakstiem varat norādīt turpmākās ierakstu izmaiņas. Tālāk norā
 </tbody>
 </table>
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Varat modificēt iepriekš esošajā tabulā ietverto informāciju par amatu vai darbu un norādīt datumu, kas amata vai darba izmaiņām ir jāstājas spēkā. Piemēram, amatu var piešķirt tikai vienam darbiniekam, taču Sandžejs Patels, kurš ir piešķirts amatam “Grāmatvedis A”, aizies no darba pēc divām nedēļām. Pēc tam Sandžeja Patelu aizstās Džo Hīlijs. Lai gan Sandžejs joprojām ir piešķirts savam amatam, varat piešķirt šim amatam arī Džo Hīliju tā, lai šī piešķire stātos spēkā tikai pēc Sandžeja pēdējās darba dienas.
+
+
+
+
+

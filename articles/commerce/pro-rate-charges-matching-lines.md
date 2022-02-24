@@ -2,13 +2,16 @@
 title: Proporcionāla virsraksta maksu sadalīšana atbilstošajās pārdošanas rindās
 description: Šajā tēmā ir aprakstītas papildu iespējas automātisko maksu aprēķināšanai un piesaistīšanai Commerce kanāla pasūtījumiem, izmantojot papildu automātisko maksu līdzekli.
 author: hhaines
+manager: annbe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 0de29e1817840c172f9235f2ee48251c4878a0573d270a60fde5b42ba6f88d31
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 048885cac7a316e144b2df072da405d74096203f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774513"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413924"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Proporcionāla virsraksta maksu sadalīšana atbilstošajās pārdošanas rindās
 
@@ -30,7 +33,7 @@ ms.locfileid: "6774513"
 
 Šajā tēmā ir aprakstīta virsraksta līmeņa automātisko maksu grupēšanas un to proporcionālas sadalīšanas komercijas pārdošanas rindās funkcionalitāte. Šī funkcionalitāte ir pieejama transakcijām, kas ir izveidotas pārdošanas punktā (POS) Retail versijā 10.0.1, un pārdošanām, kas ir izveidotas zvanu centrā Retail versijā 10.0.2.
 
-Šī funkcionalitāte ir pieejama tikai tad, ja līdzeklis [papildu automātiskās maksas](/dynamics365/unified-operations/retail/omni-auto-charges) ir ieslēgts, izmantojot opciju lapā **Commerce parametri**. Turklāt, automātisko maksu uzlaboto aprēķinu metodi var izmantot tikai mazumtirdzniecības pārdošanas pasūtījumiem, kas ir izveidoti, izmantojot komercijas kanālus (POS, zvanu centru un Dynamics e-komercijas platformu).
+Šī funkcionalitāte ir pieejama tikai tad, ja līdzeklis [papildu automātiskās maksas](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges) ir ieslēgts, izmantojot opciju lapā **Commerce parametri**. Turklāt, automātisko maksu uzlaboto aprēķinu metodi var izmantot tikai mazumtirdzniecības pārdošanas pasūtījumiem, kas ir izveidoti, izmantojot komercijas kanālus (POS, zvanu centru un Dynamics e-komercijas platformu).
 
 Šī jaunā funkcionalitāte nodrošina organizācijām lielāku elastību tā, ka virsraksta līmenī automātiskās maksas tiek aprēķinātas un piesaistītas pārdošanas transakcijām.
 
@@ -38,7 +41,7 @@ Par programmas versiju 10.0.1 vecākās versijās virsraksta līmenī automātis
 
 Piemēram, virsraksta līmeņa automātiskās maksas ir definētas piegādes režīmam **99** un **11**. Pasūtījuma virsrakstā tiek izveidots pārdošanas pasūtījums un tiek definēts piegādes režīms **99**. Tomēr dažas pārdošanas rindas ir iestatītas tā, ka tie tiek nosūtīti, izmantojot piegādes režīmu **11**. Šajā gadījumā vērā tiek ņemtas tikai tās virsraksta līmeņa maksas, kas ir saistītas ar piegādes režīmu **99**, un tās tiek piesaistītas pārdošanas pasūtījumam.
 
-Programmā Commerce uz virsraksta līmeņa maksām attiecas papildu līdzeklis, kas ļauj definēt [diferencētas maksas konfigurāciju](/dynamics365/unified-operations/retail/configure-call-center-delivery), kas ir atkarīga no pasūtījuma vērtības. Piemēram, ja pasūtījuma vērtība ir no $50,00 līdz $200,00, organizācija var izvēlēties iekasēt transporta maksu $5,00. Tomēr, ja pasūtījuma vērtība ir no $200,01 līdz $500,00, kravas maksa var būt $4,00.
+Programmā Commerce uz virsraksta līmeņa maksām attiecas papildu līdzeklis, kas ļauj definēt [diferencētas maksas konfigurāciju](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery), kas ir atkarīga no pasūtījuma vērtības. Piemēram, ja pasūtījuma vērtība ir no $50,00 līdz $200,00, organizācija var izvēlēties iekasēt transporta maksu $5,00. Tomēr, ja pasūtījuma vērtība ir no $200,01 līdz $500,00, kravas maksa var būt $4,00.
 
 Dažas organizācijas vēlas iegūt diferencētas maksas aprēķināšanas priekšrocības, kas ir nodrošināts ar virsraksta līmeņa maksām. Tomēr gadījumos, kad ir iesaistīti jaukti piegādes režīmi, tās arī vēlas nodrošināties, ka aprēķinātās maksas ir atkarīgas no atbilstības ar piegādes režīmu, kas ir definēts katrai pārdošanas rindai.
 
@@ -56,9 +59,9 @@ Nākamajos divos piemēra gadījumos ir aprakstīts, kā šīs maksas tiek aprē
 
 Šajā gadījumā organizācija ir definējusi virsraksta līmeņa maksas piegādes relācijas režīmam **99** un **11**. Piegādes režīmam **21** nav konfigurētas automātiskās izmaksas.
 
-![Automātiskās izmaksas piegādes režīmam 99, ja atbilstošās rindas proporcionālā sadalīšana ir izslēgta.](media/99_disabled.png)
+![Automātiskās izmaksas piegādes režīmam 99, ja atbilstošās rindas proporcionālā sadalīšana ir izslēgta](media/99_disabled.png)
 
-![Automātiskās izmaksas piegādes režīmam 11, ja atbilstošās rindas proporcionālā sadalīšana ir izslēgta.](media/11_disabled.png)
+![Automātiskās izmaksas piegādes režīmam 11, ja atbilstošās rindas proporcionālā sadalīšana ir izslēgta](media/11_disabled.png)
 
 Zvanu centrā ir izveidots pārdošanas pasūtījums, un piegādes režīms ir iestatīts **99**. Šis pasūtījums satur piecus krājumus. Divas pasūtījuma rindas ir konfigurētas izmantot piegādes režīmu **99**, divas rindas ir konfigurēta izmantot piegādes režīmu **11** un viena rinda ir konfigurēta izmantot piegādes režīmu **21**, kā redzams nākamajā tabulā.
 
@@ -72,15 +75,15 @@ Zvanu centrā ir izveidots pārdošanas pasūtījums, un piegādes režīms ir i
 
 Šajā gadījumā viss pasūtījums tiek izvērtēts, salīdzinot ar piegādes režīma **99** automātiskās maksas tabulu. Visu pārdošanas rindu kopsummu izmanto, lai noteiktu automātiskās maksas konfigurācijas atbilstības pakāpi, un šī maksa tiek saistīta ar pasūtījuma virsraksta līmeni. Šajā piemērā pasūtījuma kopsummas ir $165,00, un $15,00 kravas maksa tiek saistīta ar pasūtījuma virsrakstu. Automātiskās maksas, kas ir konfigurētas piegādes režīmam **11**, netiek nekur norādītas vai piesaistītas.
 
-Šajā gadījumā, ja debitors atgriež dažus pasūtījumā iekļautos krājumus un ja [maksas kods ir konfigurēts tā, ka tas tiks atgriezts](/dynamics365/unified-operations/retail/omni-auto-charges#setup-and-configuration-2), kopējā virsraksta līmeņa maksa sistemātiski tiek saistīta ar atmaksu arī tad, ja atgriezti tiek tikai daži krājumi.
+Šajā gadījumā, ja debitors atgriež dažus pasūtījumā iekļautos krājumus un ja [maksas kods ir konfigurēts tā, ka tas tiks atgriezts](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges#setup-and-configuration-2), kopējā virsraksta līmeņa maksa sistemātiski tiek saistīta ar atmaksu arī tad, ja atgriezti tiek tikai daži krājumi.
 
 ### <a name="scenario-2"></a>2. scenārijs
 
 Šajā gadījumā virsraksta līmeņa maksas tiek definētas piegādes relācijas režīmam **99** un **11**. Tomēr šīm automātiskās maksas tabulām ir iestatīta opcijas **Proporcionāls aprēķins atbilstošajām pārdošanas rindām** vērtība **Jā**.
 
-![Automātiskās izmaksas piegādes režīmam 99, ja atbilstošās rindas proporcionālā sadalīšana ir ieslēgta.](media/99_enabled.png)
+![Automātiskās izmaksas piegādes režīmam 99, ja atbilstošās rindas proporcionālā sadalīšana ir ieslēgta](media/99_enabled.png)
 
-![Automātiskās izmaksas piegādes režīmam 11, ja atbilstošās rindas proporcionālā sadalīšana ir ieslēgta.](media/11_enabled.png)
+![Automātiskās izmaksas piegādes režīmam 11, ja atbilstošās rindas proporcionālā sadalīšana ir ieslēgta](media/11_enabled.png)
 
 Šajā gadījumā tiek izmantots tas pats pārdošanas pasūtījums, kas satur piecas rindas. Piegādes režīms pasūtījuma virsrakstā ir iestatīts **99**, bet katra krājuma piegādes režīms pārdošanas pasūtījumā ir konfigurēts tā, kā redzams nākamajā tabulā.
 
@@ -130,9 +133,9 @@ Tā kā automātiskās maksas konfigurācija ir iestatīta proporcionāli sadal�
     - Kopējā preces vērtība = $15
     - **Maksas vērtība = $0** (Šai debitora un piegādes režīma kombinācijai nav konfigurēta neviena automātiskā maksa.)
 
-    ![Piegādes režīma 11 maksas atbilst atzīmētajai pakāpei.](media/step2mode11.png)
+    ![Piegādes režīma 11 maksas atbilst atzīmētajai pakāpei](media/step2mode11.png)
 
-    ![Piegādes režīma 99 maksas atbilst atzīmētajai pakāpei.](media/step2mode99.png)
+    ![Piegādes režīma 99 maksas atbilst atzīmētajai pakāpei](media/step2mode99.png)
 
 3. Sistēma aprēķina maksas vērtību, kas jāsaista ar katru rindu, atkarībā no proporcionālās sadalīšanas loģiku, kas ņem vērā rindas proporcionālo vērtību saistībā ar grupas kopējo preču vērtību.
 
@@ -163,7 +166,7 @@ Tā kā automātiskās maksas konfigurācija ir iestatīta proporcionāli sadal�
 
 Līdz ar to šajā piemērā krājums 81334 tiks saistīts ar kravas maksu $5,62. Šīs izmaksas var skatīt pārdošanas rindas lapā **Uzturēt maksas**. Nākamajā attēlā ir redzams šīs izskats krājumam 81334.
 
-![Proporcionāli sadalītas maksas pārdošanas rindā krājumam 81334.](media/proratedlinecharge.png)
+![Proporcionāli sadalītas maksas pārdošanas rindā krājumam 81334](media/proratedlinecharge.png)
 
 Ja šī aprēķināšanas metode tiek izmantota daļējas atgriešanas gadījumā un ja maksas kods atbilst atgriešanai, tikai maksas daļa, kas ir piešķirta šai rindai, tiks atgriezta krājuma atgriešanas gadījumā.
 
@@ -172,6 +175,3 @@ Ja šī aprēķināšanas metode tiek izmantota daļējas atgriešanas gadījum�
 [Omni kanāla papildu automātiskās maksas](omni-auto-charges.md)
 
 [Automātisko maksu iespējošana un konfigurēšana katram kanālam](auto-charges-by-channel.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

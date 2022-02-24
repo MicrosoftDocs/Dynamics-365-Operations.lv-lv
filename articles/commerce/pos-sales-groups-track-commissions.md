@@ -2,12 +2,15 @@
 title: Pārdošanas punkta (POS) komisijas maksu izsekošana, izmantojot pārdošanas grupas
 description: Mazumtirdzniecībā bieži lietota prakse ir pārdošanas darbību izsekošana pēc darbinieka, kurš strādā ar debitoru, sniedzot palīdzību, veicot papildu pārdošanu un šķērspārdošanu un apstrādājot transakciju.
 author: jblucher
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 261234
 ms.assetid: 7cd68ecc-cc09-48ab-8cb8-48d5c304effa
 ms.search.region: global
@@ -15,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ca77ad5564cc93e9fcf335b5a49548f91c7c13face41fd73477ae4083f78be57
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: afbf69c072ae205e973203d97a5fbca7504ae04f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770913"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413935"
 ---
 # <a name="track-commissions-in-the-point-of-sale-pos-by-using-sales-groups"></a>Pārdošanas punkta (POS) komisijas maksu izsekošana, izmantojot pārdošanas grupas
 
@@ -69,7 +72,7 @@ Ir pieejami vairāki veikala funkcionalitātes profila iestatījumi, kas nosaka 
 
 ## <a name="displaying-the-sales-representative-information-on-the-pos-transactions-screen"></a>Tirdzniecības pārstāvja informācijas rādīšana POS transakciju ekrānā
 
-POS transakciju ekrāna izkārtojumu un saturu var konfigurēt, izmantojot ekrāna izkārtojuma dizaineru un veikaliem, kases sistēmām vai nodarbinātajiem piešķirtos ekrāna izkārtojumus. Kvīts rūts cilnē Rindas var pievienot lauku **Tirdzniecības pārstāvis**.  Tādējādi transakciju ekrānā tiek rādīts katrai rindai norādītās pārdošanas grupas ID.
+POS transakciju ekrāna izkārtojumu un saturu var konfigurēt, izmantojot ekrāna izkārtojuma dizaineru un veikaliem, kases sistēmām vai nodarbinātajiem piešķirtos ekrāna izkārtojumus. Rūts Kvīts cilnē Rindas var pievienot lauku **Tirdzniecības pārstāvis**.  Tādējādi transakciju ekrānā tiek rādīts katrai rindai norādītās pārdošanas grupas ID.
 
 ## <a name="adding-sales-representative-operations-to-pos-button-grids"></a>Tirdzniecības pārstāvja operāciju pievienošana POS pogu režģiem
 
@@ -77,14 +80,11 @@ POS sniedz lietotājiem iespēju konfigurēt pogu režģus, kas tiek ietverti ek
 
 | Operācija                                 | apraksts |
 |-------------------------------------------|-------------|
-| Iestatīt rindas pārdošanas pārstāvi          | Izmantojot šo POS operāciju, tiek parādīts veikalam pieejamo pārdošanas grupu saraksts (ID: nosaukums). Atlasot pārdošanas grupu šajā sarakstā, tiek iestatīta vērtība pašreizējā transakcijas rindā. |
+| Iestatīt rindas pārdošanas pārstāvi          | Izmantojot šo POS operāciju, tiek parādīts veikalam pieejamo pārdošanas grupu saraksts (ID: nosaukums). Atlasot pārdošanas grupu šajā sarakstā, tiek iestatīta vērtība pašreizējā transakcijas rindā. |
 | Notīrīt rindā norādīto tirdzniecības pārstāvi        | Izmantojot šo POS operāciju, var noņemt pašreizējo pārdošanas grupas vērtību no pašreizējās transakcijas rindas. |
-| Iestatīt transakcijas tirdzniecības pārstāvi   | Izmantojot šo POS operāciju, tiek parādīts veikalam pieejamo pārdošanas grupu saraksts (ID: nosaukums). Atlasot pārdošanas grupu šajā sarakstā, tiek iestatīta pašreizējās transakcijas noklusējuma vērtība. Tiek iestatītas visas esošās rindas, kam nav piešķirta pārdošanas grupa, kā arī visas vēlāk pievienotās rindas. |
+| Iestatīt transakcijas tirdzniecības pārstāvi   | Izmantojot šo POS operāciju, tiek parādīts veikalam pieejamo pārdošanas grupu saraksts (ID: nosaukums). Atlasot pārdošanas grupu šajā sarakstā, tiek iestatīta pašreizējās transakcijas noklusējuma vērtība. Tiek iestatītas visas esošās rindas, kam nav piešķirta pārdošanas grupa, kā arī visas vēlāk pievienotās rindas. |
 | Noņemt transakcijas pārdošanas pārstāvi | Izmantojot šo POS operāciju, tiek noņemta pašreizējās transakcijas pašreizējā noklusējuma pārdošanas grupas vērtība. Tas neietekmē nevienu jau esošo transakcijas rindu. |
 
 ## <a name="calculating-commissions"></a>Komisijas maksu aprēķins
 
-Norādītajā pārdošanas grupā ietverto darbinieku komisijas maksa tiek aprēķināta izraksta vai pārdošanas pasūtījuma grāmatošanas laikā. Komisijas maksas summa tiek noteikta, pamatojoties uz nodarbinātā komisijas daļu, kas ir definēta pārdošanas grupai, ar to saistītajiem debitora komisijas maksas aprēķina iestatījumiem un/vai transakcijā ietvertajām precēm.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Norādītajā pārdošanas grupā ietverto darbinieku komisijas maksa tiek aprēķināta izraksta vai pārdošanas pasūtījuma grāmatošanas laikā. Komisijas maksas summa tiek noteikta, pamatojoties uz nodarbinātā komisijas daļu, kas ir definēta pārdošanas grupai, ar to saistītajiem debitora komisijas maksas aprēķina iestatījumiem un/vai transakcijā ietvertajām precēm.

@@ -1,10 +1,12 @@
 ---
 title: Mobilā darbvieta Mana grupa
-description: Šajā tēmā ir sniegta informācija par mobilo darbvietu Mana grupa, kas vadītājiem ļauj skatīt viņu tiešos pārskatus un paplašinātos darbiniekus.
+description: Šajā tēmā ir sniegta informācija par mobilo darbvietu Mana grupa, kas vadītājiem ļauj skatīt viņu tiešos pārskatus un paplašinātos darbiniekus. Lietotāji var arī sūtīt uzslavas viņu pārskatu ķēdē ietvertajām personām.
 author: ShielaSogge
+manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 74abb4ce77b4fc13c614e8e1b734e1b9f5f24e0a728a10b79508e6be4faf3dca
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6ac3bf0a6ce20866f749b0c14030b70770e5589c
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767116"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680974"
 ---
 # <a name="my-team-mobile-workspace"></a>Mobilā darbvieta Mana grupa
 
@@ -74,11 +76,11 @@ Mobilās programmas Finance and Operations lejupielāde un instalēšana.
 
 ## <a name="sign-in-to-the-mobile-app"></a>Pierakstīšanās mobilajā programmā
 1.  Palaidiet programmu savā mobilajā ierīcē.
-2.  Ievadiet savu Microsoft Dynamics 365 vietrādi URL.
+2.  Ievadiet savu Microsoft Dynamics 365 vietrādi URL.
 3.  Pirmajā pierakstīšanās reizē tiek prasīts ievadīt lietotājvārdu un paroli. Ievadiet savus akreditācijas datus.
 4.  Pēc pierakstīšanās tiek parādītas jūsu uzņēmumam pieejamās darbvietas. Ņemiet vērā, ka gadījumā, ja sistēmas administrators vēlāk publicēs jaunu darbvietu, jums būs jāatsvaidzina mobilo darbvietu saraksts.
 
-[![Velciet, lai atsvaidzinātu.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Velciet, lai atsvaidzinātu](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-team-members-by-using-the-my-team-mobile-workspace"></a>Skatīt grupas dalībniekus, izmantojot mobilo darbvietu Mana grupa
 1.  Mobilajā programmā atlasiet darbvietu **Mana grupa**. Tiek parādīts grupas dalībnieku saraksts. Šajā sarakstā tiek rādīts arī katras grupas dalībnieka amats un visi tiešie pārskati, kas šim darbiniekam ir.
@@ -95,6 +97,3 @@ Mobilās programmas Finance and Operations lejupielāde un instalēšana.
 1.  Atlasiet vienumu **Sūtīt uzslavu**. 
 1. Ievadiet uzslavas tekstu, ko vēlaties nosūtīt. 
 1. Atlasiet **Gatavs**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

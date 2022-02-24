@@ -1,85 +1,69 @@
 ---
 title: Amatu iestatīšana
-description: Šajā tēmā ir aprakstīts, kā amati ir svarīgs organizācijas hierarhijas zemākā līmeņa elements.
-author: twheeloc
-ms.date: 10/28/2021
+description: Amats ir nozīmīgs organizācijas hierarhijas zemāko līmeņu elements.
+author: andreabichsel
+manager: AnnBe
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, HcmWorkforceWorkspace, HcmWorkerActivityChart, HcmAllWorkersListPart, HcmPosition, HcmPositionNewPosition, HcmJobLookup, HcmPositionReportsToDialog, HcmPositionLookup, FinancialDimensionDefaultTemplatesLookup, DimensionLookup, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 67682b6ea949183c2697b658bb77925a791e7da1
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 6c078060984169d14a0fb64cf54fc134e8f26ccb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071767"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419555"
 ---
 # <a name="set-up-positions"></a>Amatu iestatīšana
 
 
-[!INCLUDE [PEAP](../includes/peap-1.md)]
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+Amats ir nozīmīgs organizācijas hierarhijas zemāko līmeņu elements. Pozīcija ir atsevišķa darba instance. Piemēram, amats “Pārdošanas daļas vadītājs (austrumu reģions)” ir tikai viens no amatiem, kas ir saistīti ar darbu “Pārdošanas daļas vadītājs”. Amats pastāv nodaļā, un ar to var būt saistīts tikai viens darbinieks. Šajā uzdevumā mēs izklāstīsim darbības, kas ir jāizpilda, lai izveidotu amatu. Šī procedūra ir paredzēta personāla vadības speciālistam.
 
+1. Noklikšķiniet uz Darbaspēka pārvaldība.
+2. Noklikšķiniet uz Vakantie amati.
+3. Noklikšķiniet uz Jauns, lai atvērtu nolaižamo dialoglodziņu.
+4. Laukā Darbs ievadiet vai atlasiet kādu vērtību.
+    * Amatā no atlasītā darba automātiski tiek kopēts darba apraksts, amats un pilna darba laika ekvivalenta nodarbinātības koeficients.  
+5. ResolveChanges vienumam Darbs.
+6. Noklikšķiniet uz Izveidot amatu.
+7. Laukā Nodaļa ievadiet vai atlasiet kādu vērtību.
+8. Laukā Amata tips ievadiet vai atlasiet kādu vērtību.
+9. Laukā Atlīdzības reģions ievadiet vai atlasiet kādu vērtību.
+    * Lauks Atlīdzības reģions nosaka noteikumus par piemērotību atlīdzības saņemšanai un fiksētus pielikuma budžetus, kas attiecas uz darbinieku attiecīgajā amatā.  
+10. Laukā Pieejams piešķirei ievadiet datumu un laiku.
+11. Izvērsiet sadaļu Amata ieņemšanas ilgums.
+    * Amata ieņemšanas ilgums tiek ievadīts pēc noklusējuma, pamatojoties uz iepriekš ievadītajiem aktivizēšanas un pensionēšanās datumiem  
+12. Izvērsiet sadaļu Pakļautās personas amats.
+    * Kad darbinieku piešķirat kādam amatam, kas ir pakļauts citam amatam, jūs izveidojat tiešas pakļautības attiecības starp darbiniekiem, kuri ir piešķirti šiem abiem amatiem.  
+13. Noklikšķiniet uz Jauns, lai atvērtu nolaižamo dialoglodziņu.
+14. Laukā Pakļautība ievadiet vai atlasiet vērtību.
+15. Noklikšķiniet uz Izveidot.
+16. Izvērsiet sadaļu Darbinieka piešķire.
+17. Izvērsiet sadaļu Attiecības.
+    * Ja jūsu organizācija izmanto matricas hierarhiju vai citu pielāgotu hierarhiju, varat iestatīt amatu hierarhijas tipus un pēc tam pievienot katra iestatītā hierarhijas tipa matiem pakļautības attiecības.  
+18. Noklikšķiniet uz Pievienot.
+19. Sarakstā atzīmējiet atlasīto rindu.
+20. Laukā Hierarhijas nosaukums ievadiet vai atlasiet vērtību.
+21. Laukā Pakļautās personas amats ievadiet vai atlasiet vērtību.
+22. Izvērsiet sadaļu Alga.
+23. Laukā Apmaksas cikls ievadiet vai atlasiet kādu vērtību.
+24. Laukā Apmaksa pēc ievadiet vai atlasiet kādu vērtību.
+25. Laukā Gada parasto stundu skaits ievadiet kādu skaitli.
+    * Šis ir parasti apmaksāto stundu skaits, kādu šo amatu ieņemošam darbiniekam ir plānots nostrādāt katru gadu.  
+26. Izvērsiet sadaļu Arodbiedrība.
+27. Sakļaujiet sadaļu Arodbiedrība.
+28. Izvērsiet sadaļu Finanšu dimensijas.
+29. Laukā Sadales veidne ievadiet vai atlasiet kādu vērtību.
+30. Laukā Nodaļa ievadiet vai atlasiet kādu vērtību.
+31. Noklikšķiniet uz Saglabāt.
 
-
-Amats ir nozīmīgs organizācijas hierarhijas zemāko līmeņu elements. Pozīcija ir atsevišķa darba instance. Piemēram, amats "Pārdošanas menedžeris (austrumi)" ir viens no amatiem, kas saistīts ar darbu "Pārdošanas vadītājs". Amats pastāv nodaļā, un ar to var būt saistīts tikai viens darbinieks. Šajā uzdevumā mēs izklāstīsim darbības, kas ir jāizpilda, lai izveidotu amatu. Šī procedūra ir paredzēta personāla vadības speciālistam.
-
-1. Atlasiet **Darbaspēka pārvaldība**.
-2. Atlasiet **Atvērt pozīcijas**.
-3. Atlasiet **Jauns**, lai atvērtu nolaižamo dialoglodziņu.
-4. Laukā **Darbs** ievadiet vai atlasiet vērtību.
-
-    Lauki **Darba apraksts**, **Nosaukums** un **Pilna laika ekvivalentais nodarbinātības faktors** tiek automātiski kopēti no atlasītā darba amatā.
-
-5. Atlasiet **Izveidot amatu**.
-6. Laukā **Nodaļa** ievadiet vai atlasiet vērtību.
-7. Laukā **Pozīcijas tips** ievadiet vai atlasiet vērtību.
-8. Laukā **Atlīdzības reģions** ievadiet vai atlasiet vērtību.
-
-    Lauks **Atlīdzības reģions** nosaka atlīdzības piemērojamības noteikumus un fiksētos budžeta palielinājumus, kas attiecas uz šajā amatā esošo darbinieku.
-
-9. Laukā **Pieejams piešķiršanai** ievadiet datumu un laiku.
-10. Izvērsiet **sadaļu Pozīcijas ilgums**.
-
-    Pozīcijas ilgums tiek ievadīts pēc noklusējuma, pamatojoties uz aktivizēšanas un pensionēšanās datumiem, kas ievadīti iepriekš.
-
-11. Izvērsiet **sadaļu Atskaites, lai novietotu**.
-
-    Kad darbinieku piešķirat kādam amatam, kas ir pakļauts citam amatam, jūs izveidojat tiešas pakļautības attiecības starp darbiniekiem, kuri ir piešķirti šiem abiem amatiem.
-
-12. Atlasiet **Jauns, lai** atvērtu nolaižamo dialoglodziņu.
-13. Laukā **Atskaites, kas jā** ievadītas vai atlasiet vērtību.
-14. Atlasiet **Izveidot**.
-15. Izvērsiet **sadaļu Darbinieka piešķiršana**.
-16. Izvērsiet **sadaļu Relācijas**.
-
-    Ja jūsu organizācija izmanto matricas hierarhiju vai citu pielāgotu hierarhiju, varat iestatīt amatu hierarhijas tipus un pēc tam pievienot katra iestatītā hierarhijas tipa matiem pakļautības attiecības.
-
-17. Atlasiet **Pievienot**.
-18. Sarakstā atzīmējiet atlasīto rindu.
-19. Laukā **Hierarhijas nosaukums** ievadiet vai atlasiet vērtību.
-20. Laukā **Pārskati par pozīciju** ievadiet vai atlasiet vērtību.
-21. Izvērsiet **sadaļu Algas**.
-22. Laukā **Apmaksas cikls** ievadiet vai atlasiet vērtību.
-23. Laukā **Apmaksāts pēc** ievadiet vai atlasiet vērtību.
-24. Laukā **Gada parastais darba laiks** ievadiet skaitli.
-
-    Ievadītā vērtība ir regulāri apmaksāto stundu skaits, ko šajā amatā darbiniekam ir jāstrādā katru gadu.
-
-25. Izvērsiet **sadaļu Arodbiedrība**.
-26. Sakļaut **sadaļu** Arodbiedrība.
-27. Izvērsiet **sadaļu Finanšu dimensijas**.
-28. Laukā **Sadales veidne** ievadiet vai atlasiet vērtību.
-29. Laukā **Nodaļa** ievadiet vai atlasiet vērtību.
-30. Atlasiet **Saglabāt**.
-
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

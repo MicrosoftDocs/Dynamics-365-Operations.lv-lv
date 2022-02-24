@@ -2,9 +2,11 @@
 title: Navigācijas meklēšana
 description: Šajā tēmā ir paskaidrots, kā izmantot meklēšanas funkcionalitāti, lai pārietu uz lapām.
 author: aneesmsft
-ms.date: 08/11/2021
+manager: AnnBe
+ms.date: 04/27/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e689bef43930dbe364baefaa9f4d0231394ff4f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 43fa263bcbb6f5a6465af59ffb744aa865d66239
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069988"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4799109"
 ---
 # <a name="navigation-search"></a>Navigācijas meklēšana
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Šajā tēmā ir paskaidrots, kā izmantot meklēšanas funkcionalitāti, lai pārietu uz lapām.
 
@@ -37,7 +36,7 @@ Lai izmantotu šo līdzekli, noklikšķiniet uz ikonas **Meklēšana**, lai par�
 > [!NOTE]
 > Lodziņš **Meklēšana** palīdz atrast lapas un pāriet uz tām. Tas nepalīdzēs jums atrast specifiskus datus vai darbības.
 
-![meklēšanas lodziņš.](media/navigation-search.png "Meklēšanas lodziņš")
+[![meklēšanas lodziņš](media/navigation-search.png "Meklēšanas lodziņš")
 
 ## <a name="quickly-navigate-to-a-particular-page"></a>Ātri pārvietoties uz konkrētu lapu
 
@@ -63,6 +62,3 @@ Meklēšanas rezultātu sarakstā tiek parādīti ne vairāk kā 10 vienumi. Ja 
 ## <a name="development"></a>Izstrāde
 
 No izstrādes viedokļa navigācijas meklēšanas funkcionalitāte ir ļoti vienkārši izmantojama, jo izvēļņu vienumus meklēšanas rezultātos ir iespējams parādīt gandrīz uzreiz pēc to izvietošanas. Ja uz izvēļņu vienumiem ir izveidota saite no navigācijas rūts vai informācijas paneļa, tie automātiski kļūst meklējami.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

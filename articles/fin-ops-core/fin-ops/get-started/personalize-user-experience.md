@@ -2,9 +2,11 @@
 title: Lietotāja pieredzes personalizēšana
 description: Šajā tēmā ir paskaidrots, kā varat personalizēt programmu.
 author: jasongre
-ms.date: 01/28/2022
+manager: AnnBe
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserSetup, DefaultDashboard
 audience: Application User, IT Pro
@@ -15,20 +17,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 840a68d506664043c9affb67e801429e0594f0bd
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
-ms.translationtype: MT
+ms.openlocfilehash: 734f6499753d74b0bac8b2df1381ece4a7824142
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075426"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797494"
 ---
 # <a name="personalize-the-user-experience"></a>Lietotāja pieredzes personalizēšana
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Šajā tēmā izskaidrots, kā varat personalizēt programmu, un ir aptvertas šādas tēmas: 
 
@@ -89,7 +87,7 @@ Dažas no tipiskākajām un svarīgākajām izmaiņām, ko lapai var veikt, ir t
 
 Turklāt visparastākie personalizēšanas tipi ir pieejami, noklikšķinot ar peles labo pogu uz kāda elementa un pēc tam atlasot **Personalizēt**. (Ņemiet vērā, ka ne visus lapā esošos elementus var personalizēt.) Izmantojot šo personalizēšanas metodi, tiek parādīts elementa *rekvizītu logs*.
 
-![Elementa rekvizītu personalizēšana.](./media/cli-element-property-window.png)
+![Elementa rekvizītu personalizēšana](./media/cli-element-property-window.png)
 
 Rekvizītu logu varat izmantot, lai personalizētu kādu elementu tālāk norādītajos veidos.
 
@@ -102,7 +100,7 @@ Rekvizītu logu varat izmantot, lai personalizētu kādu elementu tālāk norād
 
 Atkarībā no elementa rekvizītu logā var būt citas personalizēšanas iespējas. Piemēram, elementa rekvizītu logā jums varētu būt iespējams attiecīgo elementu paaugstināt uz informācijas paneli, un šis rekvizītu logs noklusējuma informācijas paneļa elementiem varētu ļaut jums izveidot jaunu darbvietu.
 
-### <a name="personalization-toolbar"></a>Personalizēšanas rīkjosla
+### <a name="the-personalization-toolbar"></a>Personalizēšanas rīkjosla
 
 Ja vēlaties lapā veikt vairākas izmaiņas vai izmaiņas, kuras nevar veikt, izmantojot citus mehānismus (piemēram, ja vēlāties pārkārtot elementus), var izmantot rīkjoslu **Personalizēšana**. Lai atvērtu **Personalizēšana** rīkjoslu, veiciet vienu no šīm darbībām:
 
@@ -111,7 +109,7 @@ Ja vēlaties lapā veikt vairākas izmaiņas vai izmaiņas, kuras nevar veikt, i
 - Atlasiet **Personalizēt šo veidlapu** grupā **Personalizēt** cilnē **Opcijas** jebkuras lapas darbību panelī.
 - Navigācijas joslā atlasiet pogu **Iestatījumi** (zobrata simbols) un pēc tam atlasiet **Personalizēt.**
 
-[![Personalizēšanas rīkjosla.](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
+[![Personalizēšanas rīkjosla](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
 
 #### <a name="navigating-the-page"></a>Pārvietošanās lapā
 
@@ -123,10 +121,7 @@ Rīkjoslā **Personalizēšana** ir pieejami tālāk uzskaitītie rīki.
 
 - Izmantojiet rīku **Atlasīt**, lai atlasītu un mainītu elementa rekvizītus. Lai izmantotu šo rīku, rīkjoslā atlasiet pogu **Atlasīt** un pēc tam atlasiet vēlamo elementu. Elementa rekvizītu logs parādās, kur jūs varat mainīt jebkurus šī elementa rekvizītus. Šo procesu varat atkārtot citiem elementiem, kurus attiecīgajā lapā var personalizēt. Ņemiet vērā, ka daži personalizēšanas rekvizīti var nebūt pieejami dažos scenārijos. Piemēram, jūs nevarat bloķēt lauku, kas ir obligāts.
 - Izmantojiet rīku **Paslēpt**, lai slēptu kādu elementu šajā lapā. Lai izmantotu šo rīku, rīkjoslā atlasiet pogu **Paslēpt** un pēc tam atlasiet elementu, kuru vēlāties paslēpt. Kad izmantojiet rīku **Paslēpt**, visi pašlaik paslēptie elementi kļūst redzami, bet tie tiek rādīti ēnotā konteinerā. Pēc tam jūs varat padarīt elementu redzamu, atlasot to. Lai apskatītu, kā lapa izskatīsies, kad elementi ir paslēpti, pārslēdzieties uz citu personalizēšanas rīku vai aizveriet personalizēšanas rīkjoslu.
-- Pielietojiet rīku **Pievienot laukus**, lai pievienotu laukus savai lapai. Kad izmantojat šo rīku, varat pievienot tikai tādus laukus, kas ir daļa no lapas definīcijas. Informāciju par to, kā izveidot jaunus laukus, kuri nav daļa no pašreizējās lapas definīcijas, skatiet tēmā [Izveidot un strādāt ar pielāgotajiem laukiem](user-defined-fields.md). Kad uzdevumu joslā ir atlasīta poga **Pievienot laukus**, jums vispirms ir jāatlasa režģis vai sadaļa, kur vēlaties pievienot lauku. Dialoglodziņā tiek rādīts saraksts ar laukiem, kas saistīti ar atlasīto režģi vai sadaļu. Dialoglodziņā atlasiet vienu vai vairākus laukus, ko pievienot vai nu no saraksta **Ieteiktie lauki** vai **Visi lauki**. Pēc vēlamo lauku izvēles atlasiet **Atjaunināt**. Lai noņemtu kādu lauku, ko iepriekš pievienojāt, atkārtojiet šo procesu, bet dialoglodziņā noņemiet attiecīgā lauka atlasi.
-
-    Saraksts **Ieteicamie lauki** parāda laukus, kurus iepriekš ir pievienojis cits jūsu organizācijas lietotājs. Šis lauku saraksts tiek atjaunināts, pamatojoties uz **Rekomendāciju pakešuzdevuma** periodiskuma biežumu. Līdzīga pieredze pastāv, pievienojot jaunus filtra laukus, izmantojot lapas filtra rūti.
-
+- Pielietojiet rīku **Pievienot laukus**, lai pievienotu laukus savai lapai. Kad izmantojat šo rīku, varat pievienot tikai tādus laukus, kas ir daļa no lapas definīcijas. Informāciju par to, kā izveidot jaunus laukus, kuri nav daļa no pašreizējās lapas definīcijas, skatiet tēmā [Izveidot un strādāt ar pielāgotajiem laukiem](user-defined-fields.md). Kad uzdevumu joslā ir atlasīta poga **Pievienot laukus**, jums vispirms ir jāatlasa režģis vai sadaļa, kur vēlaties pievienot lauku. Dialoglodziņā tiek rādīts saraksts ar laukiem, kas saistīti ar atlasīto režģi vai sadaļu. Šajā dialoglodziņā atlasiet vienu vai vairākus laukus, ko pievienot, un pēc tam atlasiet **Atjaunināt**. Lai noņemtu kādu lauku, ko iepriekš pievienojāt, atkārtojiet šo procesu, bet dialoglodziņā noņemiet attiecīgā lauka atlasi.
 - Izmantojiet rīku **Pārvietot**, lai pārvietotu kādu elementu uz citu atrašanās vietu pašreizējā elementu grupā. Ņemiet vērā, ka jūs nevarat pārvietot elementu ārpus tā pamata grupas. Lai izmantotu šo rīku, rīkjoslā atlasiet pogu **Pārvietot** un pēc tam atlasiet elementu, kuru vēlāties pārvietot. Kad atlasāt kādu elementu, programma nosaka novietojumus, kur šo elementu var pārvietot. Šie novietojumi ir zināmi kā *nomešanas zonas*. Kad šo elementu velkat pa pašreizējo grupu, katra nomešanas zona tiek rādīta kā iekrāsota, trekna līnija blakus apgabalam, kur šo elementu var nomest.
 - Izmantojiet rīku **Izlaist**, lai izņemtu kādu elementu no lapas tastatūras tabulācijas secības. Kad uzdevumu joslā atlasāt pogu **Izlaist**, visi pašlaik izlaistie elementi tiek rādīti ēnotā konteinerā. Varat interaktīvi noņemt vai pievienot laukus ciļņu secībai.
 - Izmantojiet rīku **Rādīt galvenē**, kad vēlaties, lai lauks tiktu rādīts kopsavilkuma cilnes kopsavilkuma sadaļā. Kad uzdevumu joslā atlasāt pogu **Rādīt galvenē**, visi lauki, kas ir atlasīti kā kopsavilkuma lauki, tiek radīti ēnotā konteinerā. Atlasot laukus, varat interaktīvi pievienot laukus kopsavilkuma cilnes kopsavilkumam un noņemt laukus no kopsavilkuma.
@@ -154,14 +149,11 @@ Dažām lapām, kurās ir ietverti saraksti, personalizēšanas līdzeklis **Pie
 > [!NOTE]
 > Ja ir ieslēgts līdzeklis [Saglabātie skati](saved-views.md), saturs, ko virzāt uz darbvietu, ir tieši saistīts ar skatu. Skatījuma vaicājums tiek izmantots, lai atgūtu datus darbvietā, un atbilstošais elements vai saite darbvietā atver lapu šim skatam, lai tam tiktu piemērots skata vaicājums un personalizācijas. Ja skats tiek atjaunināts, atbilstošie darbvietas elementi tiks pielāgoti jaunajai skata definīcijai.
 
-[![Pievienot darbvietai.](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
+[![Pievienot darbvietai](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
 
 - Lai darbvietai pievienotu kādu sarakstu, vispirms kārtojiet vai filtrējiet lapā esošo sarakstu, lai informācija tajā tiktu rādīta tā, kā to vēlaties rādīt darbvietā. (Ja ir ieslēgts līdzeklis **Saglabātie skati**, nevar turpināt darbu, kamēr nav saglabāts skats, kam ir šie nosacījumi.) Pēc tam atlasiet **Pievienot darbvietai**. Atlasiet darbvietu un pēc tam laukā **Prezentācija** atlasiet **Saraksts**. Kad atlasāt vienumu **Konfigurēt**, tiek parādīts dialoglodziņš, kur varat atlasīt kolonnas, kuras ir jārāda šīs darbvietas sarakstā. Varat arī norādīt etiķeti, kas ir izmantota sarakstam šajā darbvietā.
 - Lai darbvietai pievienotu kādu elementu, vispirms filtrējiet lapā esošo sarakstu, lai tajā būtu redzami dati, kurus vajag apkopot vai kuriem vēlaties ātri piekļūt. (Ja ir ieslēgts līdzeklis **Saglabātie skati**, nevar turpināt darbu, kamēr nav saglabāts skats, kam ir šie nosacījumi.) Pēc tam atlasiet **Pievienot darbvietai**. Atlasiet darbvietu un pēc tam laukā **Prezentācija** atlasiet **Elements**. Kad ir atlasīts vienums **Konfigurēt**, tiek paradīts dialoglodziņš, kur varat norādīt etiķeti, kuru ir jāizmanto elementam šajā darbvietā. Var arī norādīt, vai elementam ir jārāda skaits. Pēc tam, kad elements ir pievienots darbvietai, varat to atlasīt, lai atvērtu pašreizējo lapu no darbvietas. Pēc tam varat apskatīt filtrēto sarakstu, kas ir saistīts ar elementu.
-- Lai pievienotu saiti uz darbvietu, vispirms filtrējiet lapā esošo sarakstu tā, lai tajā būtu redzami jums interesējošie dati. (Ja ir ieslēgts līdzeklis **Saglabātie skati**, nevar turpināt darbu, kamēr nav saglabāts skats, kam ir šie nosacījumi.) Pēc tam atlasiet **Pievienot darbvietai**. Atlasiet darbvietu un pēc tam laukā **Prezentācija** atlasiet **Saite**. Kad ir atlasīts vienums **Konfigurēt**, tiek paradīts dialoglodziņš, kur varat norādīt etiķeti, kuru ir jāizmanto šai saitei. Varat arī pēc izvēles norādīt etiķeti sadaļai, kurā var ievietot šo saiti. Ja šīs sadaļas nav, tiks izveidota jauna sadaļa.
-
-> [!NOTE]
-> Sākot ar versiju 10.0.25, konfigurējot sarakstu, elementu vai saiti, iespējams, būs jāatlasa arī darbvietas skati, kuriem vēlaties pievienot elementu, ja **(Priekšskatījums) Saglabāto skatu atbalsts darbvietām** funkcija ir iespējota. Pieejamie darbvietas skati tiks parādīti mapē **Darbvietas iespējas** katra sadaļa **Konfigurēt** dialoglodziņš. 
+- Lai pievienotu saiti uz darbvietu, vispirms filtrējiet lapā esošo sarakstu tā, lai tajā būtu redzami jums interesējošie dati. (Ja ir ieslēgts līdzeklis **Saglabātie skati**, nevar turpināt darbu, kamēr nav saglabāts skats, kam ir šie nosacījumi.) Pēc tam atlasiet **Pievienot darbvietai**. Atlasiet darbvietu un pēc tam laukā **Prezentācija** atlasiet **Saite**. Kad ir atlasīts vienums **Konfigurēt**, tiek paradīts dialoglodziņš, kur varat norādīt etiķeti, kuru ir jāizmanto šai saitei. Pēc izvēles varat arī norādīt etiķeti jaunai sadaļai, kurā ir šī saite.
 
 Kad jūs pievienojat sarakstu, elementu vai saiti darbvietai, varat atvērt šo darbvietu un mainīt tajā elementu secību, ja vēlaties.
 
@@ -179,97 +171,11 @@ Informācijas panelis bieži vien ir pirmā lapa, ko redzat, atverot programmu. 
 Viena unikāla personalizācijas iespēja, kas ir pieejama informācijas panelī, ir spēja pievienot elementus. 
 
 - Ja ir izslēgta **Pilnas lappuses programmu** funkcija, jūs pievienojat jaunu elementu, ar peles labo pogu noklikšķinot uz elementa informācijas panelī un pēc tam atlasot **Pievienot darbvietu**. Informācijas paneļa apakšā tiek izveidots jauns darbvietas elements. Šo jauno darbvietas elementu pēc vēlēšanās varat pārdēvēt. Sarakstus, elementus un saites darbvietai varat arī pievienot, kā aprakstīts šīs tēmas sadaļā [Sarakstu, elementu vai saišu pievienošana darbvietai](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace).
-- Ja ir ieslēgta **Pilnas lappuses programmu** funkcija, jūs pievienojat jaunu elementu, ar peles labo pogu noklikšķinot uz elementa informācijas panelī un pēc tam atlasot **Pievienot programmu**. Dialoglodziņā izvēlieties, vai vēlaties pievienot elementu jaunai darbvietai vai elementu, kurā ir saturs no Power Apps vai vietnes. Pēc tam veiciet norādītās darbības, lai konfigurētu izvēlēto opciju. Informācijas paneļa apakšā tiek izveidots jauns elements. Papildinformāciju par to, kā pievienot, rediģēt, dzēst un koplietot šīs iegultās lietojumprogrammas, skatiet sadaļā [Iegult pamatnes programmas no Power Apps](embed-power-apps.md) un [Iegult trešās puses programmas](embed-website.md).
+- Ja ir ieslēgta **Pilnas lappuses programmu** funkcija, jūs pievienojat jaunu elementu, ar peles labo pogu noklikšķinot uz elementa informācijas panelī un pēc tam atlasot **Pievienot programmu**. Dialoglodziņā izvēlieties, vai vēlaties pievienot elementu jaunai darbvietai vai elementu, kurā ir saturs no Power Apps vai vietnes. Pēc tam veiciet norādītās darbības, lai konfigurētu izvēlēto opciju. Informācijas paneļa apakšā tiek izveidots jauns elements. 
 
 ## <a name="sharing-personalizations"></a>Personalizāciju koplietošana
 
-Pēc lapas personalizēšanas ir dažas metodes, kuras var izmantot, lai kopīgotu personalizējumus ar citiem lietotājiem. Šajā sarakstā metodes ir sakārtotas secībā no visieteicamākās līdz vismazāk ieteicamajai.
-
-1. Publicēt skatus lietotājiem.
-2. Kopējiet skatus vai personalizēšanas lietotājiem.
-3. Eksportēt un importēt skatījumus vai personalizēšanas.
-
-### <a name="publish-views-to-users"></a>Publicēt skatus lietotājiem
-
-Ja līdzeklis [Saglabātie skati](saved-views.md) ir ieslēgts un ja lapa atbalsta skatus, labākais veids, kā kopīgot personalizēšanas ar citiem lietotājiem, ir publicēt šo skatu lietotājiem, kuriem ir viena vai vairākas drošības lomas. Papildinformāciju skatiet sadaļā [Skatu publicēšana](saved-views.md#publishing-views).
-
-### <a name="copy-views-or-personalizations-to-users"></a>Kopējiet skatus vai personalizēšanas lietotājiem
-
-Ja līdzeklis [Saglabātie skati](saved-views.md) ir izslēgts vai lapa neatbalsta skatus, ieteicamais personalizēšanas veids ir to kopēšana starp lietotājiem. Šī metode ir pieejama tikai priviliģētiem lietotājiem (piemēram, sistēmas administratoriem). Tomēr administratori var skatīt konkrētu lietotāja personalizēšanu sistēmā (ieskaitot lietotāja personisko skatu, ja ir iespējoti saglabātie skati) un kopēt konfigurāciju citiem lietotājiem.
-
-Ja ir iespējoti saglabātie skati, izpildiet šīs darbības, lai kopētu personalizēšanas.
-
-1. Dodieties uz **Sistēmas administrēšana \> Iestatījumi \> Personalizēšana**.
-2. Veiciet šīs darbības, lai kopētu personiskos skatus:
-
-    1. Atlasiet **Personiskos skatus**.
-    2. Izvēlieties sarakstā vajadzīgos skatus.
-    3. Atlasiet **Kopēt lietotājiem**.
-    4. Atlasiet lietotājus, kuriem izplatīt skatus.
-
-    Izpildiet šīs darbības, lai kopētu personalizēšanas lapās, kas neatbalsta skatus:
-
-    1. Atlasiet **Lietotāja iestatījumi**.
-    2. Atlasiet lietotāju, kuram ir personalizēšana, ko vēlaties izplatīt.
-    3. Atlasiet **Pārvaldīt visas personalizēšanas**.
-    4. Izvēlieties sarakstā nepieciešamās personalizācijas.
-    5. Atlasiet **Kopēt lietotājiem**.
-    6. Atlasiet lietotājus, kuriem izplatīt personalizācijas.
-
-Ja ir iespējoti saglabātie skati, izpildiet šīs darbības, lai kopētu personalizēšanu.
-
-1. Dodieties uz **Sistēmas administrēšana \> Iestatījumi \> Personalizēšana**.
-2. Atlasiet **Lietot**.
-3. Atlasiet lietotājus, kuriem izplatīt personalizāciju.
-4. Atlasiet **Atlasīt esošu personalizēšanu**.
-5. Atrodiet un atlasiet (vienreizējo) personalizāciju, kas jums interesē.
-6. Atlasiet **Labi**.
-
-### <a name="export-and-import-views-or-personalizations"></a>Eksportēt un importēt skatījumus vai personalizēšanas
-
-Cits veids, kā koplietot personalizēšanas, ir caur eksportu un importu. Atsevišķi lietotāji vai administrators, kas darbojas viņu vārdā, var izmantot šo metodi, lai eksportētu viņu personalizēšanas vai skatus, un tad piešķirt eksportēto failu citiem lietotājiem importēšanai. Alternatīvi lietotāji var sniegt eksportētās personalizēšanas lietotājam, kam ir administratora privilēģijas, un šis lietotājs var izmantot **Personalizēšanas** administrēšanas lapu, lai pielietotu personalizēšanas failu daudziem lietotājiem vienlaicīgi.
-
-> [!IMPORTANT]
-> Tā kā personalizācija saglabājas visos atjauninājumos, visu personalizāciju atkārtota importēšana pēc pakalpojuma atjaunināšanas vai jebkurā citā laikā ir nevajadzīga un ļoti nevēlama.
-
-#### <a name="export"></a>Eksports
-
-Vispārīgā gadījumā varat eksportēt vienu no saviem skatiem vai personalizācijām, atverot atbilstošo lapu, atverot personalizēšanas rīkjoslu **Personalizēšana** un pēc tam atlasot **Eksportēt**. Papildinformāciju par rīkjoslu skatiet šī temata iepriekšējā sadaļa [Personalizēšana](#personalization-toolbar). Alternatīvi, ja ir iespējoti [saglabātie skati](saved-views.md), varat atvērt **Iestatījums \> Lietotāja opcijas \> Personalizēšana**, lai apskatītu visu savu personalizēšanas sarakstu sistēmā. No turienes varat atlasīt eksportējamos skatus vai personalizēšanas un pēc tam atlasīt **Eksportēt**.
-
-Turklāt administratori var eksportēt citu lietotāju personalizēšanas, izpildot šādas darbības.
-
-1. Dodieties uz **Sistēmas administrēšana \> Iestatījumi \> Personalizēšana**.
-2. Cilnē **Lietotāji** atlasiet vajadzīgo lietotāju.
-3. Atrodiet un atlasiet skatu vai personalizāciju, kas jums interesē.
-4. Atlasiet **Eksportēt**.
-
-#### <a name="import"></a>Importēšana
-
-Lai importētu skatu vai personalizēšanu, varat tikai atvērt rīkjoslu **Personalizēšana** un atlasīt **Importēt**. Turklāt administratori var importēt failu un nekavējoties to piešķirt vienam vai vairākiem lietotājiem.
-
-Ja ir iespējoti saglabātie skati, izpildiet šīs darbības.
-
-1. Dodieties uz **Sistēmas administrēšana \> Iestatījumi \> Personalizēšana**.
-2. Darbību rūtī atlasiet **Importēt skatus \> Lietotāja skati**.
-3. Atlasiet importa režīmu:
-
-    - **Atlasīt noteiktus lietotājus** – piešķiriet skatījumu vai personalizēšanu atlasītajiem lietotājiem.
-    - **Importēt kā** - Importēt skatījumu vai personalizēšanu tam pašam lietotājam, kas to eksportēja.
-
-4. Atlasiet **Pārlūkot**, un atrodiet un atlasiet importējamo personalizēšanu.
-5. Atlasiet **Nākamais**.
-6. Ja 3. darbībā atlasījāt **Atlasīt noteiktus lietotājus**, atlasiet lietotājus, kuriem importēt personalizēšanu.
-7. Atlasiet **Importēt**.
-8. Pēc vajadzības atrisiniet konfliktus.
-
-Ja ir iespējoti saglabātie skati, izpildiet šīs darbības.
-
-1. Dodieties uz **Sistēmas administrēšana \> Iestatījumi \> Personalizēšana**.
-2. Atlasiet **Lietot**.
-3. Atlasiet lietotājus, kuriem izplatīt personalizāciju.
-4. Atlasiet **Importēt personalizēšanas no faila**.
-5. Atlasiet **Pārlūkot**, un atrodiet un atlasiet importējamo personalizēšanu.
-6. Atlasiet **Labi**.
+Pēc lapas personalizēšanas savas personalizācijas varat kopīgot ar citiem lietotājiem, eksportējot personalizēto lapu. Pēc tam varat lūgt citiem lietotājiem importēt personalizācijas failu. Vai arī savu personalizāciju failu varat iedot kādam lietotājam, kuram ir administratora privilēģijas. Pēc tam šis lietotājs var piemērot jūsu personalizēšanas failu vairākiem lietotājiem vienlaikus, izmantojot administrēšanas lapu **Personalizācija**.
 
 ## <a name="administration-of-personalizations"></a>Personalizāciju administrēšana
 
@@ -289,6 +195,3 @@ Klientiem, kuri vēl nav ieslēguši [Saglabāti skati](saved-views.md) līdzekl
 Kad personalizējat krājumu dimensiju iestatījumus lapā, ņemiet vērā iestatījumus, kas izveidoti, izmantojot opciju **Parādīt dimensijas**. Piemēram, jūs izmantojat personalizāciju, lai paslēptu kolonnu partijas numuru krājumu dimensijai, bet šī kolonna tiek rādīta nākamajā reizē, kad lapa tiek atvērta. Tā notiek, jo iestatījumi **Dimensiju rādīšana** kontrolē, kuras krājumu dimensiju kolonnas tiek rādītas. Iestatījumi **Dimensiju rādīšana** tiek lietoti visās lapās, un tiem ir prioritāte pār jebkādiem personalizētajiem krājumu dimensiju lauku iestatījumiem atsevišķās lapās.
 
 Tāpēc, tāpat kā iepriekšējā piemērā, ja nevēlaties, lai lapā tiek parādīta partijas numura krājumu dimensijas kolonna, ir jānoņem attiecīgās dimensijas atzīme konkrētās lapas opcijas **Parādīt dimensijas** ietvaros.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

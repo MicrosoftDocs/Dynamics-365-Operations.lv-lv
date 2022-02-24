@@ -1,30 +1,34 @@
 ---
-title: Algoritmiskās mācīšanās modeļu rezultāti
+title: Algoritmiskās mācīšanās modeļu rezultāti (priekšskatījums)
 description: Šajā tēmā ir apspriestas algoritmiskās mācīšanās (AM) modeļu neskaidrību matricas, klasifikācijas problēmas un precizitāte. Mērķis ir uzlabot izpratni par AM prognozēšanas rezultātu precizitāti.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+manager: AnnBe
+ms.date: 06/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 2545f7d043e139606c51bc559e3aacbe73abccfc
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 6a1620c33ee1e23a79ef5413afebdee332aa82b6
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386641"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645021"
 ---
-# <a name="results-of-machine-learning-models"></a>Algoritmiskās mācīšanās modeļu rezultāti
+# <a name="results-of-machine-learning-models-preview"></a>Algoritmiskās mācīšanās modeļu rezultāti (priekšskatījums)
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Šajā tēmā ir apspriestas algoritmiskās mācīšanās (AM) modeļu neskaidrību matricas, klasifikācijas problēmas un precizitāte. Mērķis ir uzlabot izpratni par AM prognozēšanas rezultātu precizitāti. Mērķauditorija ietver inženierus, analītiķus un vadītājus, kuri vēlas apgūt zināšanas un prasmes datu zinātnē.
 
@@ -33,7 +37,7 @@ Pēc tam, kad ir pārraudzīta AM problēma ir apmācīta, izmantojot vēsturisk
 
 Piemēram, jūsu mērķis ir prognozēt, vai mājdzīvnieks ir suns vai kaķis, pamatojoties uz dažām fiziskajām un uzvedības pazīmēm. Ja jums ir testa datu kopa, kas satur 30 suņus un 20 kaķus, neskaidrību matrica var izskatīties līdzīgi tālāk redzamajam attēlam.
 
-![Sugas prognozēšanas piemērs.](media/species-prediction-matrix.png)
+[![Sugas prognozēšanas piemērs](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
 
 Skaitļi zaļajās šūnās attēlo pareizās prognozes. Kā redzat, modelis pareizi prognozēja lielāku procentuālo daļu faktisko kaķu. Modeļa vispārējo precizitāti ir viegli aprēķināt. Šādā gadījumā tā ir 42 ÷ 50 vai 0,84.
 
@@ -43,7 +47,7 @@ Lielākā daļa diskusiju par neskaidrību matricu fokusēja uz binārajiem klas
 
 Pēc tam tiks apsvērta klasifikācijas problēma finanšu scenārijam, kam ir trīs stāvokļi. Modelis prognozē, vai debitora rēķins tiks apmaksāts savlaicīgi, novēloti vai ļoti novēloti. Piemēram, no 100 testa rēķiniem 50 tiek apmaksāti savlaicīgi, 35 tiek apmaksāti novēloti, un 15 tiek apmaksāti ļoti novēloti. Šādā gadījumā modelis var radīt neskaidrību matricu, kas līdzinās tālāk redzamajam attēlam.
 
-![1. modelis.](media/payment-prediction-matrix.png)]
+[![1. modelis](./media/payment-prediction-matrix.png)](payment-prediction-matrix.png) 1. modelis
 
 Neskaidrību matrica sniedz ievērojami vairāk informācijas, nekā vienkārša precizitātes metrika. Tomēr to joprojām ir samērā viegli saprast. Neskaidrību matrica norāda, vai jums ir sabalansēta datu kopa, kur izvades klasēm ir līdzīgs skaits. Vairāku klašu scenārijā tā norāda, cik tālu var atšķirties prognoze, ja izvades klases ir kārtas, kā iepriekšējā piemērā par debitoru maksājumiem.
 
@@ -54,7 +58,7 @@ Tā kā precizitāte ir vienkārša metrika, ko saprast, tā ir labs sākumpunkt
 
 Tomēr, lai iegūtu pilnīgāku izpratni, ir jāatzīmē vairākas problēmas, kas saistītas ar precizitāti. Metrikas lietderība ir atkarīga no problēmas konteksta. Saistībā ar modeļa veiktspēju bieži rodas jautājums: "Cik labs ir modelis?" Tomēr atbilde uz šo jautājumu ne vienmēr ir vienkārša. Aplūkojiet tālāk redzamo neskaidrību matricu (2. modelis).
 
-![Maksājuma prognozes piemērs ar lielāku paraugu.](media/payment-prediction-matrix-2.png)
+[![Maksājuma prognozes piemērs ar lielāku paraugu](./media/payment-prediction-matrix-2.png)](payment-prediction-matrix-2.png)
 
 Ātrs aprēķins parāda, ka šī modeļa precizitāte ir (70 + 10 + 3) ÷ 100 vai 0,83. Virspusēji šis rezultāts šķiet labāks, nekā iepriekšējā vairāku klašu modeļa (1. modeļa) rezultāts, kura precizitāte ir 0,73. Bet vai tas ir labāks?
 
@@ -62,8 +66,8 @@ Lai sāktu apskatīt šo jautājumu, apsveriet naiva minējuma precizitāti. Kla
 
 Ir vērts pieminēt vēl vienu aspektu. Apsveriet scenāriju, kur tiek izmantots medicīnisks tests, lai noteiktu pacienta slimību. Šī ir bināras klasifikācijas problēma, kad pozitīvs rezultāts norāda, ka pacientam ir slimība. Šajā scenārijā ir jādomā par tālāk norādīto kļūdu ietekmi.
 
-- Viltus pozitīvs, kad tests saka, ka pacientam ir slimība, bet patiesībā tā viņam nav.
-- Viltus negatīvs, kad tests saka, ka pacientam nav slimības, bet patiesībā tā viņam ir.
+- Viltus pozitīvs, kad tests saka, ka pacientam ir slimība, bet patiesībā viņa tam nav.
+- Viltus negatīvs, kad tests saka, ka pacientam nav slimības, bet patiesībā viņa tam ir.
 
 Protams, abi kļūdu veidi ir nevēlami, bet kurš ir sliktāks? Atkal, tas ir atkarīgs no apstākļiem. Gadījumos, kad dzīvībai bīstamai slimībai nepieciešama ātra ārstēšana, prioritāte ir viltus negatīvu rezultātu samazināšanai (kam, cerams, seko papildu testi). Citās, mazāk kritiskās situācijās modeļa veidotāji tā vietā varētu samazināt viltus pozitīvos testus. Jebkurā gadījumā saprātīgs secinājums ir tāds, ka efektīvai modeļa kvalitātes noteikšanai ir jābūt pieejamai vairāk informācijai, nekā sniedz precizitātes metrika.
 
@@ -86,7 +90,7 @@ Tālāk redzamajā tabulā ir apkopoti šīs tēmas neskaidrību matricu princip
 
 Pirms F1 precizitātes definēšanas, ir jāiepazīstas ar divām papildu metrikām: precizitāti un atsaukšanu. Precizitāte norāda, cik daudz no kopējā prognožu skaita, kas norādītas kā pozitīvas, ir piešķirtas pareizi. Šī metrika ir pazīstams arī kā pozitīvā prognozētā vērtība. Atsaukšana ir faktisko pozitīvo gadījumu kopskaits, kas tika prognozēti pareizi. Šī metrika ir pazīstama arī kā jutīgums.
 
-[![Patiesie rezultāti pret nepatiesiem rezultātiem.](./media/tn-fn.png)](./media/tn-fn.png)
+[![Patiesie rezultāti pret nepatiesiem rezultātiem](./media/tn-fn.png)](./media/tn-fn.png)
 
 Neskaidrību matricā iepriekšējā attēlā šīs metrikas ir aprēķinātas tālāk norādītajā veidā.
 
@@ -99,7 +103,7 @@ F1 mērs apvieno precizitāti un atsaukšanu. Rezultāts ir divu vērtību harmo
 
 Apskatīsim konkrētu piemēru. Iepriekš šajā tēmā bija piemērs ar modeli, kas prognozēja, vai dzīvnieks ir suns vai kaķis. Ilustrācija ir atkārtota šeit.
 
-[![Sugas prognozēšanas piemērs (atkārtots).](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
+[![Sugas prognozēšanas piemērs](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
 
 Šeit ir rezultāti, ja "suns" tiek izmantots kā pozitīva atbilde.
 
@@ -111,11 +115,11 @@ Kā redzat, F1 vērtība ir starp precizitātes un atsaukšanas vērtībām.
 
 Lai gan F1 precizitāte nav tik viegli saprotama, tā pievieno nianses pamata precizitātes skaitlim. Tas var palīdzēt arī ar nesabalansētām datu kopām, kā tiks parādīts tālākajā diskusijā.
 
-Šīs tēmas sadaļa [Modeļa precizitāte](#model-accuracy) salīdzināja divas tālāk norādītās neskaidrību matricas. Lai gan pirmajam modelim bija mazāka precizitāte, tas tika uzskatīts par noderīgāku, jo parādīja lielāku uzlabojumu, nekā noklusējuma minējums par savlaicīgo maksājumu.
+Šīs tēmas sadaļa [Modeļa precizitāte](#classify-machine-learning-accuracy) salīdzināja divas tālāk norādītās neskaidrību matricas. Lai gan pirmajam modelim bija mazāka precizitāte, tas tika uzskatīts par noderīgāku, jo parādīja lielāku uzlabojumu, nekā noklusējuma minējums par savlaicīgo maksājumu.
 
-![Maksājuma prognoze pret faktisko piemēru.](media/payment-prediction-matrix.png)
+[![Maksājuma prognoze pret faktisko piemēru](./media/payment-prediction-matrix.png)](payment-prediction-matrix.png)
 
-![Maksājuma prognozes piemērs ar lielāku paraugu (atkārtots).](media/payment-prediction-matrix-2.png)
+[![Maksājuma prognozes piemērs ar lielāku paraugu](./media/payment-prediction-matrix-2.png)](payment-prediction-matrix-2.png)
 
 Apskatīsim, kā šie divi modeļi ir salīdzināmi, ja tiek izmantots F1 rezultāts. F1 uzskaita precizitātes un atsaukšanas faktorus katram stāvoklim, un F1 makro aprēķins izrēķina vidējo aritmētisko F1 rezultātam starp stāvokļiem, lai noteiktu kopējo F1 rezultātu. Pastāv citi F1 varianti, bet vissvarīgāk ir apsvērt makro versiju, ņemot vērā vienādo apsvērumu, kas tiek dots visiem trim stāvokļiem.
 
@@ -128,7 +132,7 @@ Lai vienkāršotu aprēķinus, parauga datu masīvi tika veidoti, lai atbilstu f
 
 Lai iegūtu vairāk informācijas par to, kā šis aprēķins darbojas, šeit ir sklearn.metrics klasifikācijas pārskats 1. modelim. Trīs stāvokļi: "savlaicīgi", "novēloti" un "ļoti novēloti" ir attēloti ar rindām, kas attiecīgi ir apzīmētas ar 1, 2 un 3. Vidējā makro vērtība ir tikai vidējā vērtība kolonnā "f1-rezultāts".
 
-| &nbsp;    | precizitāte | atsaukšana   | f1-rezultāts |
+|           | precizitāte | atsaukšana   | f1-rezultāts |
 |-----------|-----------|----------|----------|
 | **1**     | 0.83      | 0.80     | 0.82     |
 | **2**     | 0.68      | 0.71     | 0.69     |
@@ -136,4 +140,5 @@ Lai iegūtu vairāk informācijas par to, kā šis aprēķins darbojas, šeit ir
 
 Kā liecina šie rezultāti, abiem modeļiem ir gandrīz identiski F1 makro precizitātes rādītāji. Šajā un daudzos citos gadījumos F1 precizitāte sniedz labāku modeļa iespēju indikatoru. Runājot par precizitāti, rezultātu interpretācijai nepieciešams izprast, ko ir vissvarīgāk ņemt vērā modelī.
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+#### <a name="privacy-notice"></a>Paziņojums par konfidencialitāti
+Priekšskatījumiem (1) var tikt izmantots mazāk konfidencialitātes un drošības pasākumu nekā pakalpojumam Dynamics 365 Finance and Operations, (2) tie nav ietverti pakalpojuma līmeņa līgumā par šo pakalpojumu, (3) tos nedrīkst izmantot personas datu vai citu tādu datu apstrādei, uz kuriem attiecas juridiskās vai normatīvās prasības, un (4) tiem tiek nodrošināts ierobežots atbalsts.

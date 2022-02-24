@@ -2,9 +2,11 @@
 title: Aparatūras lieluma maiņas prasības lokālām vidēm
 description: Šajā tēmā uzskaitītas aparatūras lieluma maiņas prasības lokālai videi.
 author: sericks007
-ms.date: 06/02/2021
+manager: AnnBe
+ms.date: 11/27/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 443b80e44a90a68610fbb2bb5a5f4b6b7d545fa7ad772edb3672972fa82f8cbd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9d4f2e59d4dd78d15d561ff0da47e4b9b1a2fce3
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763438"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798308"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Aparatūras lieluma maiņas prasības lokālām vidēm
 
@@ -36,14 +38,14 @@ Pēc dokumentācijas pārskatīšanas varat sākt novērtēt savu transakciju un
 
 Lieluma maiņu ietekmē visi tālāk esošajā attēlā parādītie faktori. Jo detalizētāka ir apkopotā informācija, jo precīzāk varat noteikt lieluma maiņu. Bez atbalstošiem datiem aparatūras lieluma maiņa, visticamāk, būs neprecīza. Nepieciešamo datu absolūtais minimums ir maksimālā transakciju rindu noslodze stundā.
 
-[![Aparatūras lieluma maiņa lokālām vidēm.](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
+[![Aparatūras lieluma maiņa lokālām vidēm](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
 
 Skatoties attēlā no kreisās uz labo pusi, pirmais un svarīgākais faktors, kas jāņem vērā precīzai lieluma maiņas novērtēšanai, ir transakciju profils jeb transakciju raksturojums. Ir svarīgi vienmēr noteikt maksimālo transakciju apjomu stundā. Ja ir vairāki maksimālās noslodzes periodi, šie periodi ir precīzi jādefinē.
 
 Tāpat kā apzināties noslodzi, kas ietekmē jūsu infrastruktūru, jums arī padziļinātāk jāizprot tālāk norādītie faktori.
 
-- **Transakcijas** — parasti transakcijām ir noteiktas noslodzes virsotnes dienā/nedēļā. Tas galvenokārt ir atkarīgs no transakcijas tipa. Laika un izdevumu ieraksti parasti sekmē maksimālo noslodzi vienreiz nedēļā, savukārt pārdošanas pasūtījumu ieraksti bieži sistēmā nonāk lielā apjomā, izmantojot integrāciju, vai tiek ievadīti pakāpeniski dienas laikā.
-- **Vienlaicīgo lietotāju skaits** — vienlaicīgo lietotāju skaits ir otrs svarīgākais lieluma maiņas faktors. Uzticamu lieluma maiņas novērtējumu nevar iegūt, pamatojoties uz vienlaicīgo lietotāju skaitu, tādēļ, ja šie ir vienīgie jums pieejami dati, aprēķiniet aptuveno skaitu un, kad jūsu rīcībā ir vairāk datu, atkārtoti pārskatiet šo informāciju. Precīza vienlaicīgo lietotāju definīcija ietver tālāk norādīto.
+- **Transakcijas** — parasti transakcijām ir noteiktas noslodzes virsotnes dienā/nedēļā. Tas galvenokārt ir atkarīgs no transakcijas tipa. Laika un izdevumu ieraksti parasti sekmē maksimālo noslodzi vienreiz nedēļā, savukārt pārdošanas pasūtījumu ieraksti bieži sistēmā nonāk lielā apjomā, izmantojot integrāciju, vai tiek ievadīti pakāpeniski dienas laikā.
+- **Vienlaicīgo lietotāju skaits** — vienlaicīgo lietotāju skaits ir otrs svarīgākais lieluma maiņas faktors. Uzticamu lieluma maiņas novērtējumu nevar iegūt, pamatojoties uz vienlaicīgo lietotāju skaitu, tādēļ, ja šie ir vienīgie jums pieejami dati, aprēķiniet aptuveno skaitu un, kad jūsu rīcībā ir vairāk datu, atkārtoti pārskatiet šo informāciju. Precīza vienlaicīgo lietotāju definīcija ietver tālāk norādīto.
 
     - Nosauktie lietotāji nav vienlaicīgi lietotāji.
     - Vienlaicīgie lietotāji vienmēr ir nosaukto lietotāju apakškopa. 
@@ -55,10 +57,10 @@ Tāpat kā apzināties noslodzi, kas ietekmē jūsu infrastruktūru, jums arī p
     - Darbs ar transakcijām/pieprasījumiem uzskaites laikā.
     - Sesija nav dīkstāves sesija.
 
-- **Datu salikums** — tas galvenokārt attiecas uz to, kā sistēma tiks iestatīta un konfigurēta. Piemēram, cik jums būs juridisko personu, krājumu, MK līmeņu un cik sarežģīti būs drošības iestatījumi. Katram no šiem faktoriem var būt neliela ietekme uz veiktspēju, tāpēc šos faktorus var neitralizēt, veicot gudras izvēles attiecībā uz infrastruktūru.
-- **Paplašinājumi** — pielāgojumi var būt vienkārši vai sarežģīti. Pielāgojumu skaitam un sarežģītības un lietojuma raksturam ir dažāda ietekme uz nepieciešamo infrastruktūras lielumu. Sarežģītiem pielāgojumiem ir ieteicams veikt veiktspējas novērtējumus, lai nodrošinātu ne tikai to efektivitātes pārbaudi, bet arī izpratni par infrastruktūras vajadzībām. Vēl būtiskāk tas ir gadījumos, kad paplašinājumi nav kodēti saskaņā ar labākajām praksēm veiktspējas un mērogojamības nodrošināšanai.
-- **Pārskatu veidošana un analīze** — šie faktori parasti ietver smagu vaicājumu palaišanu dažādām datu bāzēm sistēmā. Izprotot un samazinot dārgu pārskatu izpildes biežumu, varēsit labāk izprast to ietekmi.
-- **Trešo pušu risinājumi** — šiem risinājumiem, piemēram, ISV, ir tāda pati ietekme un ieteikumi kā paplašinājumiem.
+- **Datu salikums** — tas galvenokārt attiecas uz to, kā sistēma tiks iestatīta un konfigurēta. Piemēram, cik jums būs juridisko personu, krājumu, MK līmeņu un cik sarežģīti būs drošības iestatījumi. Katram no šiem faktoriem var būt neliela ietekme uz veiktspēju, tāpēc šos faktorus var neitralizēt, veicot gudras izvēles attiecībā uz infrastruktūru.
+- **Paplašinājumi** — pielāgojumi var būt vienkārši vai sarežģīti. Pielāgojumu skaitam un sarežģītības un lietojuma raksturam ir dažāda ietekme uz nepieciešamo infrastruktūras lielumu. Sarežģītiem pielāgojumiem ir ieteicams veikt veiktspējas novērtējumus, lai nodrošinātu ne tikai to efektivitātes pārbaudi, bet arī izpratni par infrastruktūras vajadzībām. Vēl būtiskāk tas ir gadījumos, kad paplašinājumi nav kodēti saskaņā ar labākajām praksēm veiktspējas un mērogojamības nodrošināšanai.
+- **Pārskatu veidošana un analīze** — šie faktori parasti ietver smagu vaicājumu palaišanu dažādām datu bāzēm sistēmā. Izprotot un samazinot dārgu pārskatu izpildes biežumu, varēsit labāk izprast to ietekmi.
+- **Trešo pušu risinājumi** — šiem risinājumiem, piemēram, ISV, ir tāda pati ietekme un ieteikumi kā paplašinājumiem.
 
 ## <a name="sizing-your-environment"></a>Mainīt vides izmērus
 
@@ -116,7 +118,7 @@ Instanču skaita plānošanai izvietojumā ir pieejama [lieluma maiņas izklājl
     - 1–4 partijas pavedieni katram kodolam
     - Lielums atbilstoši pakešizpildes loga raksturlielumiem
 
-- Ņemiet vērā, ka AOS, datu pārvaldībai un partijai platformā Service Fabric ir viena loma. Ir jāmaina lielums atbilstoši šīm trīs darba slodzēm kopā, nevis atsevišķi kā programmā Microsoft Dynamics AX 2012.
+- Ņemiet vērā, ka AOS, datu pārvaldībai un partijai platformā Service Fabric ir viena loma. Ir jāmaina lielums atbilstoši šīm trīs darba slodzēm kopā, nevis atsevišķi kā programmā Microsoft Dynamics AX 2012.
 - Ir spēkā tie paši SQL Server mainīguma faktori.
 
 ### <a name="high-availability"></a>Augsta pieejamība
@@ -132,15 +134,10 @@ Vairumā gadījumu, ja vien lietojums nav intensīvs, divi mezgli atbilstoši ie
 
 Vispārējas pieejamības laidienam var izvietot tikai vienu SSRS mezglu. Testēšanas laikā pārraugiet SSRS mezglu un pēc nepieciešamības palieliniet pakalpojumiem SSRS pieejamo kodolu skaitu. Pārliecinieties, vai iepriekš konfigurētais sekundārais mezgls pieejams no SSRS virtuālās mašīnas atšķirīgā virtuālajā resursdatorā. Tas ir svarīgi gadījumos, ja virtuālajai mašīnai, kas vieso SSRS, vai virtuālajam resursdatoram rodas kāda problēma. Šajā gadījumā tie ir jāaizstāj.
 
-Sākot ar versiju 10.0.17, ir iespējams konfigurēt papildu SSRS mezglus, lai nodrošinātu augstu pieejamību. Papildinformāciju skatiet sadaļā [Augstas pieejamības konfigurēšana SQL Server pārskatu izveides pakalpojumu (SSRS) mezgliem](../../dev-itpro/deployment/onprem-ssrsha.md).
-
 ## <a name="environment-orchestrator"></a>Vides vadības modulis
 
-Vadības moduļa pakalpojums ir pakalpojums, kas pārvalda jūsu izvietojumu un saistīto saziņu ar LCS. Šis pakalpojums ir izvietots kā primārais Service Fabric pakalpojums, un tam ir nepieciešamas vismaz trīs virtuālās mašīnas. Šis pakalpojums ir izvietots kopā ar Service Fabric vadības moduļa pakalpojumiem. Tā lielums ir jāpielāgo atbilstoši klastera maksimālajai noslodzei. Papildinformāciju par skatiet rakstā [Service Fabric atsevišķā klastera izvietošana](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
+Vadības moduļa pakalpojums ir pakalpojums, kas pārvalda jūsu izvietojumu un saistīto saziņu ar LCS. Šis pakalpojums ir izvietots kā primārais Service Fabric pakalpojums, un tam ir nepieciešamas vismaz trīs virtuālās mašīnas. Šis pakalpojums ir izvietots kopā ar Service Fabric vadības moduļa pakalpojumiem. Tā lielums ir jāpielāgo atbilstoši klastera maksimālajai noslodzei. Papildinformāciju par skatiet rakstā [Service Fabric atsevišķā klastera izvietošana](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
 
 ## <a name="virtualization-and-oversubscription"></a>Virtualizācija un pārabonēšana
 
 Tādi uzdevumam būtiski pakalpojumi kā AOS ir jāvieso virtuālajās mašīnās ar specializētiem resursiem — kodoliem, atmiņu un disku.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -46,6 +46,3 @@ Papildinform. skatiet sadaļas [Talent nodrošinājums](https://docs.microsoft.c
 **Ilgterm. risināj.**
 
 Microsoft apsver iespēju automāt. piešķirt atbilstošās tiesības programmām Onboard un Attract, pievienojot lietotāju Human Resources.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

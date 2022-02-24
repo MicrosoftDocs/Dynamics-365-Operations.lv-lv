@@ -2,9 +2,11 @@
 title: Elektroniskajos pārskatos ģenerētu dokumentu saspiešana
 description: Šajā tēmā ir paskaidrots, kā saspiest lielus dokumentus, kas tiek ģenerēti, izmantojot elektronisko pārskatu (ER) formātu.
 author: NickSelin
+manager: kfend
 ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner, ERFormatDestinationTable
 audience: Application User, IT Pro
@@ -15,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 7ef8f730f2e207a8fd28c2bf5167d14f57d6c607314bfc48d4358a59d3ef5c43
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 30de55f9e55911290750c148621fd3d4531686c2
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718603"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680858"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>Elektroniskajos pārskatos ģenerētu dokumentu saspiešana 
 
 [!include [banner](../includes/banner.md)]
 
-Varat izmantot [elektronisko pārskatu (ER) veidošanas struktūru](general-electronic-reporting.md), lai konfigurētu risinājumu, kas ienes transakciju datus, lai ģenerētu izejošo dokumentu. Ģenerētais dokuments var būt diezgan liels. Ģenerējot šī veida dokumentu, tiek izmantota [Lietojumprogrammas objektu servera (AOS)](../dev-tools/access-instances.md#location-of-packages-source-code-and-other-aos-configurations) atmiņa, lai to uzglabātu. Kādā brīdī pēc tam dokuments ir jālejupielādē no Microsoft Dynamics 365 Finance programmas. Pašlaik maksimālais viena elektroniskā pārskata ģenerēta dokumenta lielums ir ierobežots līdz 2 gigabaitiem (GB). Savukārt, Finance pašlaik [ierobežo](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3) lejupielādējamo failu lielumu līdz 1 GB. Tāpēc ir jākonfigurē elektronisko pārskatu risinājums, kas samazina iespējamību, ka šie ierobežojumi tiks pārsniegti un ka jūs saņemsit izņēmumu **Straume bija pārāk gara** vai **Pārpilde vai izzude aritmētiskajā operācijā**.
+Varat izmantot [elektronisko pārskatu (ER) veidošanas struktūru](general-electronic-reporting.md), lai konfigurētu risinājumu, kas ienes transakciju datus, lai ģenerētu izejošo dokumentu. Ģenerētais dokuments var būt diezgan liels. Ģenerējot šī veida dokumentu, tiek izmantota [Lietojumprogrammas objektu servera (AOS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/access-instances#location-of-packages-source-code-and-other-aos-configurations) atmiņa, lai to uzglabātu. Kādā brīdī pēc tam dokuments ir jālejupielādē no Microsoft Dynamics 365 Finance programmas. Pašlaik maksimālais viena elektroniskā pārskata ģenerēta dokumenta lielums ir ierobežots līdz 2 gigabaitiem (GB). Savukārt, Finance pašlaik [ierobežo](https://fix.lcs.dynamics.com/Issue/Details?bugId=489291) lejupielādējamo failu lielumu līdz 1 GB. Tāpēc ir jākonfigurē elektronisko pārskatu risinājums, kas samazina iespējamību, ka šie ierobežojumi tiks pārsniegti un ka jūs saņemsit izņēmumu **Straume bija pārāk gara** vai **Pārpilde vai izzude aritmētiskajā operācijā**.
 
 Konfigurējot risinājumu, varat pielāgot savu elektronisko pārskatu formātu operāciju noformētājā, pievienojot **Mapes** veida saknes elementu, lai saspiestu saturu, kas tiek ģenerēts ar to ligzdotajiem elementiem. Saspiešana darbojas “tieši laikā”, tādējādi samazinot maksimālo atmiņas izmantojumu un lejupielādējamā faila lielumu.
 
@@ -55,7 +57,7 @@ Lai varētu pabeigt procedūras šajā tēmā, ir jāveic tālāk norādītās d
 1. [Importētā formāta palaišana](er-defer-xml-element.md#run-the-imported-format).
 2. Ievērojiet, ka ģenerētā dokumenta lielums XML formātā ir 3 kilobaiti (KB).
 
-    ![Nesaspiestā izejošā dokumenta priekšskatījums.](./media/er-compress-outbound-files1.png)
+    ![Nesaspiestā izejošā dokumenta priekšskatījums](./media/er-compress-outbound-files1.png)
 
 ### <a name="modify-the-format-to-compress-the-generated-output"></a>Formāta modificēšana, lai saspiestu ģenerēto izvadi
 
@@ -80,10 +82,10 @@ Lai varētu pabeigt procedūras šajā tēmā, ir jāveic tālāk norādītās d
     > [!NOTE] 
     > Šajā zip failā esošā XML faila saspiešanas koeficients ir 87 procenti. Saspiešanas koeficients ir atkarīgs no saspiestajiem datiem.
 
-    ![Saspiestā izejošā dokumenta priekšskatījums.](./media/er-compress-outbound-files2.png)
+    ![Saspiestā izejošā dokumenta priekšskatījums](./media/er-compress-outbound-files2.png)
 
 > [!NOTE]
-> Ja elektronisko pārskatu [galamērķis](electronic-reporting-destinations.md) ir konfigurēts formāta elementam, kas ģenerē izvadi ( **Pārskata** elementam šajā piemērā), tad izvades saspiešana tiks apieta.
+> Ja elektronisko pārskatu [galamērķis](electronic-reporting-destinations.md) ir konfigurēts formāta elementam, kas ģenerē izvadi (**Pārskata** elementam šajā piemērā), tad izvades saspiešana tiks apieta.
 
 ## <a name="additional-resources"></a>Papildu resursi
 
@@ -92,6 +94,3 @@ Lai varētu pabeigt procedūras šajā tēmā, ir jāveic tālāk norādītās d
 [Elektroniskās pārskatu veidošanas (ER) adresāti](electronic-reporting-destinations.md)
 
 [XML elementu izpildes atlikšana elektronisko pārskatu formātos](er-defer-xml-element.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

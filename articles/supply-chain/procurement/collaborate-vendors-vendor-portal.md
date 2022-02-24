@@ -1,10 +1,12 @@
 ---
 title: Sadarbība ar kreditoriem, izmantojot kreditoru portālu
 description: Šajā tēmā ir aprakstīts, kā iepirkuma aģenti var izmantot kreditoru portālu, lai sadarbotos ar ārējiem kreditoriem pirkšanas pasūtījumu apstiprināšanas procesa laikā. Šī informācija attiecas tikai uz 2016. februāra &amp; un 2016. gada maija Dynamics AX versijām.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchVendorPortalRequests
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e691d0e2e4260e75b70e22d94486afdb779871f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 4aece4fd621be803abe5011e40785f6a3301924f
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568068"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019107"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Sadarboties ar kreditoriem, izmantojot kreditoru portālu
 
@@ -92,14 +94,12 @@ Tālāk redzamajā tabulā ir parādīts statusa un versijas izmaiņu piemērs, 
 |                           Jūs nosūtāt PP jauno versiju uz kreditoru portālu.                            |                                                                                                                                                                    Jaunā versija tiek reģistrēta kreditoru portālā, un statuss tiek mainīts uz <strong>Tiek pārskatīts ārēji</strong>.                                                                                                                                                                     |
 |                                Kreditors apstiprina PP jauno versiju.                                 |                                                                                                                                                     Statuss tiek mainīts uz <strong>Akceptēts</strong> automātiski vai saņemot atbildi no kreditora un pēc tam akceptējot PP.                                                                                                                                                     |
 
-## <a name="additional-resources"></a>Papildu resursi
+<a name="additional-resources"></a>Papildu resursi
+--------
 
 [Kreditoru portāla lietotāja drošība](configure-security-vendor-portal-users.md)
 
-[Kreditoru sadarbības rēķinu izveidošanas darbvieta](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md)
+[Kreditoru sadarbības rēķinu izveidošanas darbvieta](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

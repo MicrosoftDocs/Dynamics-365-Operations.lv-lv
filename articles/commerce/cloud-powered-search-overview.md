@@ -1,30 +1,37 @@
 ---
-title: Mākoņa darbinātas meklēšanas pārskats
-description: Šajā tēmā sniegts pārskats par mākoņu darbinātu meklēšanu risinājumā Microsoft Dynamics 365 Commerce.
+title: Mākoņa darbināts meklēšanas pārskats
+description: Šajā tēmā ir sniegts pārskats par mākoņa darbināto meklēšanu programmā Microsoft Dynamics 365 Commerce.
 author: ashishmsft
+manager: annbe
 ms.date: 06/29/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eb34780d5bdd41a128fff543fe0f1ef73cfead8b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 00a3de2515cea341f7529b8cb6cb2caae5e33d22
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983673"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413927"
 ---
-# <a name="cloud-powered-search-overview"></a>Mākoņa darbinātas meklēšanas pārskats
+# <a name="cloud-powered-search-overview"></a>Mākoņa darbināts meklēšanas pārskats
+
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā sniegts pārskats par mākoņu darbinātu meklēšanu risinājumā Microsoft Dynamics 365 Commerce.
+Šajā tēmā ir sniegts pārskats par mākoņa darbināto meklēšanu programmā Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Pārskats
 
 Preces atrodamība palīdz nodrošināt to, ka klienti var ātri un viegli atrast preces, pārlūkojot kategorijas, meklējot un filtrējot. Mazumtirgotāji uzskata preces pamanīšanu par primāro rīku mijiedarbībai ar klientiem visos kanālos.
 
@@ -40,7 +47,7 @@ Meklēšanas atbilstība un veiktspēja ir galvenie faktori daudzkanālu pieredz
 
 Sekojošajā attēlā parādīts tipisks pārlūkošanas un meklēšanas funkcionalitātes piemērs.
 
-![Ielādes lapas meklēšana.](./media/SearchLanding.png)
+![Ielādes lapas meklēšana](./media/SearchLanding.png)
 
 ## <a name="faceted-navigation-and-choice-summary"></a>Kategoriālās navigācijas un izvēļu kopsavilkums 
 
@@ -50,7 +57,7 @@ Izmantojot kategoriālo navigāciju, varat konfigurēt dažādus rafinētājus d
 
 Sekojošajā attēlā parādīts piemērs, kur meklēšanā tiek izmantota kategoriālā navigācija.
 
-![Izvēles kopsavilkums.](./media/ChoiceSummary.png)
+![Izvēles kopsavilkums](./media/ChoiceSummary.png)
 
 ## <a name="immersive-autosuggest"></a>Visaptveroša automātiskā piedāvāšana
 
@@ -60,7 +67,7 @@ Dynamics 365 Commerce arī atbalsta funkcionalitāti atslēgvārdu atbilstībai 
 
 Sekojošajā attēlā parādīts piemērs, kur tiek izmantota visaptveroša automātiskā piedāvāšana.
 
-![visaptveroša automātiskā piedāvāšana.](./media/ImmersiveAutoSuggestUX.png)
+![visaptveroša automātiskā piedāvāšana](./media/ImmersiveAutoSuggestUX.png)
 
 ## <a name="sort"></a>Kārtot
 
@@ -68,13 +75,10 @@ Izmantojot uzlabotu kārtošanu programmā Dynamics 365 Commerce, klienti var k�
 
 >[!NOTE]
 >Mākoņa darbinātas meklēšanas iespējas ir pieejamas, sākot ar versiju 10.0.8. Pārliecinieties, vai sadaļas **Commerce parametri > Konfigurācijas parametri** ievadne “ProductSearch.UseAzureSearch ir iestatīta kā “true””. 
-![Mākoņa darbinātas meklēšanas konfigurācijas parametri.](./media/CloudPoweredSearchConfigurationParameters.png)
+![Mākoņa darbinātas meklēšanas konfigurācijas parametri](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Noklusējuma kategorijas reklāmas mērķlapas un meklēšanas rezultātu lapas pārskats](category-search-page-overview.md)
+[Noklusējuma kategorijas ielādes lapas un meklēšanas rezultātu lapas pārskats](category-search-page-overview.md)
 
 [SEO metadatu pārvaldība](manage-seo-metadata.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

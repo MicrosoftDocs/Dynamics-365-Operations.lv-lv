@@ -72,5 +72,3 @@ Piešķiriet Talent lietotāja lomu Talent Relationship grupai.
 
    1. Ieejiet karjeras portālā no jauna pārlūka loga.
    2. Piesakieties darbam no karjeras portāla. 
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

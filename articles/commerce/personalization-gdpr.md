@@ -2,13 +2,16 @@
 title: Personalizētu ieteikumu izvēle
 description: Šajā tēmā izskaidrots, kā varat ļaut klientiem izvēlēties, vai saņemt personalizētus ieteikumus risinājumā Microsoft Dynamics 365 Commerce.
 author: bebeale
+manager: AnnBe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,18 +19,20 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f634e39fe8ca7ffecfd1952933cb82e1bfe7d5a8eec28a61e1d78d21847f95f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6a64b45e1326673dd84c3c705491c9c100cdd069
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772941"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414022"
 ---
-# <a name="opt-out-of-personalized-recommendations"></a>Atteikšanās no personalizētiem ieteikumiem
+# <a name="opt-out-of-personalized-recommendations"></a>Personalizētu ieteikumu izvēle
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā izskaidrots, kā varat ļaut klientiem izvēlēties, vai saņemt personalizētus ieteikumus risinājumā Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Pārskats
 
 Konta izveides laikā tiek automātiski iestatīts, ka jauni debitori saņems personalizētus ieteikumus. Tomēr Dynamics 365 Commerce piedāvā dažādus veidus, kā mazumtirgotāji ļauj lietotājiem izvēlēties nesaņemt šos ieteikumus un ierobežot savu personas datu apstrādi. Autentificēti lietotāji, kas atsakās saņemt personalizētus ieteikumus, nekavējoties beigs redzēt personalizētos sarakstus. Turklāt visi personiskie dati, kas tiek vākti personalizēšanai, tiks noņemti no personalizēto ieteikumu modeļiem.
 
@@ -44,11 +49,11 @@ Kontu pārvaldībā Commerce atbalsta birojā tirgotāji var atteikties lietotā
 1. Vadības sākumlapā meklējiet **visus debitorus**.
 1. Meklējiet un atlasiet debitoru un pēc tam atlasiet **mazumtirdzniecības** kopsavilkuma cilni.
 
-    ![Mazumtirdzniecības kopsavilkuma cilnes.](./media/Disablepersonalizationpart1.png)
+    ![Mazumtirdzniecības kopsavilkuma cilnes](./media/Disablepersonalizationpart1.png)
 
 1. Sadaļā **Konfidencialitāte** iestatiet opciju **Atspējot personalizāciju** uz **Jā**.
 
-    ![Konfidencialitātes iestatījumi.](./media/Disablepersonalizationpart2.png)
+    ![Konfidencialitātes iestatījumi](./media/Disablepersonalizationpart2.png)
 
 1. Atlasiet **Saglabāt** un aizveriet lapu.
 
@@ -80,7 +85,7 @@ Klienti var vēlēties iegūt savu personas datu digitālo kopiju un arī skatī
 
 [Preču ieteikumu apskats](product-recommendations.md)
 
-[Iespējojiet Azure Data Lake Storage pakalpojuma Dynamics 365 Commerce vidē](enable-adls-environment.md)
+[Iespējojiet Azure Data Lake Storage vidē Dynamics 365 Commerce](enable-adls-environment.md)
 
 [Iespējot preču ieteikumus](enable-product-recommendations.md)
 
@@ -99,6 +104,3 @@ Klienti var vēlēties iegūt savu personas datu digitālo kopiju un arī skatī
 [Izveidot ieteikumus ar demonstrācijas datiem](product-recommendations-demo-data.md)
 
 [Bieži uzdotie jautājumi par preču ieteikumiem](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

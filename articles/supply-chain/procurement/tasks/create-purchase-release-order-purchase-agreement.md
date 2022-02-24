@@ -1,61 +1,60 @@
 ---
-title: Pirkšanas līguma lietošana, veidojot pirkšanas pasūtījumu
+title: Pirkšanas izpildpasūtījumu izveide no pirkšanas līguma
 description: Šajā procedūrā parādīts, kā izmantot pirkšanas līgumu, veidojot pirkšanas pasūtījumu.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 08/09/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 130524dc8e0c8724e35bf13c6b250ab721383711
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 7c095eaf1a93d6f1a803c6c9618c930fb2eda2d2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570373"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021068"
 ---
-# <a name="apply-a-purchase-agreement-when-creating-a-purchase-order"></a>Pirkšanas līguma lietošana, veidojot pirkšanas pasūtījumu
+# <a name="create-a-purchase-release-order-from-a-purchase-agreement"></a>Pirkšanas izpildpasūtījumu izveide no pirkšanas līguma
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā procedūrā parādīts, kā izmantot pirkšanas līgumu, veidojot pirkšanas pasūtījumu. Pirkšanas līgums jālieto, veidojot pirkšanas pasūtījumu, jo pastāv vispārīgi nosacījumi, kas jāiekopē pirkšanas pasūtījuma virsrakstā. Šo uzdevumu parasti veic pirkšanas aģents. Kā šī ceļveža priekšnosacījums, jums jābūt spēkā pirkšanas līgumam ar uz preču daudzumu attiecināmam saistībām kreditoram un krājumiem. To pašu procedūru var izmantot, ja ir pirkšanas līgums ar cita veida saistībām.
+Šajā procedūrā parādīts, kā izmantot pirkšanas līgumu, veidojot pirkšanas pasūtījumu. Pirkšanas līgums jālieto, veidojot pirkšanas pasūtījumu, jo pastāv vispārīgi nosacījumi, kas jāiekopē pirkšanas pasūtījuma virsrakstā. Šo uzdevumu parasti veic pirkšanas aģents. Kā šī ceļveža priekšnosacījums, jums jābūt spēkā pirkšanas līgumam ar uz preču daudzumu attiecināmam saistībām kreditoram un krājumiem. To pašu procedūru var izmantot, ja ir pirkšanas līgums ar cita veida saistībām. Šo ceļvedi varat izpildīt paraugdatu uzņēmumā USMF. Ja jūs izmantojat USMF, vispirms var palaist ceļvedi "Pirkšanas līguma izveide", lai iestatītu šim ceļvedim vajadzīgos priekšnoteikumus.
+
 
 ## <a name="create-a-purchase-order"></a>Pirkšanas pasūtījuma izveide
+1. **Navigācijas rūtī** ejiet uz **Darbvietas > Pirkšanas pasūtījuma sagatavošana**. 
+2. Klikšķiniet uz **Jauns pirkšanas pasūtījums**.
+3. Laukā **Kreditora konts** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
+4. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
+5. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
+6. Izvērsiet kopsavilkuma cilni **Vispārīgi**.
+7. Laukā **Pirkuma līgums** noklikšķiniet uz nolaižamās pogas uzmeklēšanas atvēršanai. Visi pieejamie kreditora līgumi ir uzskaitīti šeit. Atrodiet efektīvo līgumu, kuru vēlaties izmantot.  
+8. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
+9. Noklikšķiniet uz pogas **Jā**.
+10. Noklikšķiniet uz **Labi**.
 
-1. Dodieties uz **Ražošana un avoti \> Darbvietas \> Pirkšanas pasūtījumu sagatavošana**.
-1. Darbību rūtī atlasiet **Jauns pirkšanas pasūtījums**.
-1. Atveras dialogs **Izveidot pirkšanas pasūtījumu**. Atlasiet **Kreditora konts**. Pēc nepieciešamības pārbaudiet un koriģējiet citus adreses laukus.
-1. Izvērsiet kopsavilkuma cilni **Vispārīgi**.
-1. Laukā **Pirkšanas līgums** atrodiet un atlasiet efektīvu līgumu, kuru vēlaties izmantot. Visi pieejamie kreditora līgumi ir uzskaitīti šeit.  
-1. Atlasiet **Jā**.
-1. Atlasiet **Labi**.
-
-## <a name="add-a-line"></a>Pievienot rindiņu
-
-1. Laukā **Krājuma kods** ierakstiet vērtību. Ja saistībās ir noteikta krājumu vai novietojuma dimensijas, lai izmantotu līgumu, tās pašas vērtības ir jāievada pirkšanas pasūtījuma rindā.
-1. Laukā **Vieta** atlasiet nolaižamā saraksta pogu, lai atvērtu uzmeklēšanas logu. Vieta var jau būt aizpildīta ar noklusēto vērtību no pasūtījuma vai kreditora. Ja tā notiek, izlaidiet šo darbību.  
-1. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-1. Sarakstā atlasiet saiti atlasītajā rindā.
-1. Laukā **Daudzums** ierakstiet kādu skaitli. Pārbaudiet, vai no saistībām tiek nokopēta cena.  
+## <a name="add-a-line"></a>Rindas pievienošana
+1. Laukā **Krājuma kods** ierakstiet vērtību. Ja saistībās ir noteikta krājumu vai novietojuma dimensijas, lai izmantotu līgumu, tās pašas vērtības ir jāievada pirkšanas pasūtījuma rindā.  
+2. Laukā **Vieta** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanas logu. Vieta var jau būt aizpildīta ar noklusēto vērtību no pasūtījuma vai kreditora. Ja tā notiek, izlaidiet šo darbību.  
+3. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
+4. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
+5. Laukā **Daudzums** ierakstiet kādu skaitli. Pārbaudiet, vai no saistībām tiek nokopēta cena.  
 
 ## <a name="look-up-the-commitment"></a>Saistību uzmeklēšana
-
-1. Atlasiet **Atjaunināt rindu**.
-1. Atlasiet **Pievienots**. Šeit var saņemt detalizētu informāciju par pirkšanas līgumu. Piemēram, jūs varat redzēt cenu un vai cena un atlaide ir fiksētas, kas nozīmē, ka, mainot cenu vai atlaidi pirkšanas pasūtījumā uz citu vērtību, nekā saistībās, sistēma noņems saiti, lai pirkšanas pasūtījuma rinda neizpildītu saistības. Varat apskatīt arī, vai ir atlasīta opcija Sasniegts maksimums, kas nozīmē, ka saistību daudzumu nevar pārsniegt, summējot visus pirkumus, kas izpilda saistības.  
-1. Aizvērt lapu.
+1. Noklikšķiniet uz **Atjaunināt rindu**.
+2. Noklikšķiniet uz **Pievienots**. Šeit var saņemt detalizētu informāciju par pirkšanas līgumu. Piemēram, jūs varat redzēt cenu un vai cena un atlaide ir fiksētas, kas nozīmē, ka, mainot cenu vai atlaidi pirkšanas pasūtījumā uz citu vērtību, nekā saistībās, sistēma noņems saiti, lai pirkšanas pasūtījuma rinda neizpildītu saistības. Varat apskatīt arī, vai ir atlasīta opcija Sasniegts maksimums, kas nozīmē, ka saistību daudzumu nevar pārsniegt, summējot visus pirkumus, kas izpilda saistības.  
+3. Aizvērt lapu.
 
 ## <a name="look-up-the-purchase-agreement"></a>Pirkšanas līguma uzmeklēšana
+1. **Darbību rūtī** noklikšķiniet uz **Vispārīgi**.
+2. Klikšķiniet uz **Pirkuma līgums**.
+3. Aizvērt lapu.
+4. Aizvērt lapu.
 
-1. **ADarbību rūtī** atlasiet **Vispārīgi**.
-1. Atlasiet **Pirkšanas līgums**.
-1. Aizvērt lapu.
-1. Aizvērt lapu.
-
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

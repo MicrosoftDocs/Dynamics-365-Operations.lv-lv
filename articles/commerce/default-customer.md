@@ -1,31 +1,37 @@
 ---
 title: Noklusējuma debitora izveide
-description: Šajā tēmā aprakstīts, kā izveidot noklusējuma klientu, kuru lietot, veidojot kanālu risinājumā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā aprakstīts, kā izveidot noklusējuma debitoru, ko izmantot, veidojot kanālu programmā Microsoft Dynamics 365 Commerce.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ff9e5665ffd82982e09f63e34b30ae6937666231855587ad2f27c5231ead8419
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ba1d10a897f349703737068d772423f7d0292944
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720963"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413964"
 ---
 # <a name="create-a-default-customer"></a>Noklusējuma debitora izveide
 
+
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aprakstīts, kā izveidot noklusējuma klientu, kuru lietot, veidojot kanālu risinājumā Microsoft Dynamics 365 Commerce.
+Šajā tēmā aprakstīts, kā izveidot noklusējuma debitoru, ko izmantot, veidojot kanālu programmā Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Pārskats
 
 Veidojot kanālu, būs jānorāda noklusējuma debitors. Noklusējuma debitoru var viegli izveidot, vispirms izveidojot debitoru grupu un debitoru adrešu grāmatu.
 
@@ -47,7 +53,7 @@ Lai izveidotu debitoru grupu, izpildiet tālāk aprakstītās darbības.
 
 Tālāk redzamajā attēlā ir parādītas vairākas konfigurētās debitoru grupas.
 
-![Debitoru grupas.](media/customer-groups.png)
+![Debitoru grupas](media/customer-groups.png)
 
 ## <a name="create-a-customer-address-book"></a>Jaunas debitoru adrešu grāmatas izveide
 
@@ -63,16 +69,16 @@ Lai izveidotu debitoru grupas adrešu grāmatu, izpildiet tālāk aprakstītās 
 
 Tālāk redzamajā attēlā ir parādīts adresu gramatas piemērs.
 
-![Adrešu grāmata.](media/address-book.png)
+![Adrešu grāmata](media/address-book.png)
 
-## <a name="create-a-default-customer&quot;></a>Noklusējuma debitora izveide
+## <a name="create-a-default-customer"></a>Noklusējuma debitora izveide
 
 Lai izveidotu noklusējuma debitoru, izpildiet tālāk aprakstītās darbības.
 
 1. Navigācijas rūtī pārejiet uz **Moduļi \> Mazumtirdzniecība un komercija \> Debitori \> Visi debitori**.
 1. Darbību rūtī atlasiet **Jauns**.
-1. Nolaižamajā sarakstā **Tips** atlasiet &quot;Persona&quot;.
-1. Nolaižamajā sarakstā **Debitora konts** atlasiet vai ievadiet konta numuru (piemēram, &quot;100001").
+1. Nolaižamajā sarakstā **Tips** atlasiet "Persona".
+1. Nolaižamajā sarakstā **Debitora konts** atlasiet vai ievadiet konta numuru (piemēram, "100001").
 1. Nolaižamajā sarakstā **Vārds** atlasiet vai ievadiet vārdu (piemēram, "Noklusējums").
 1. Nolaižamajā sarakstā **Otrais vārds** atlasiet vai ievadiet vārdu (piemēram, "Mazumtirdzniecība").
 1. Nolaižamajā sarakstā **Uzvārds** atlasiet vai ievadiet vārdu (piemēram, "Debitors").
@@ -86,11 +92,11 @@ Lai izveidotu noklusējuma debitoru, izpildiet tālāk aprakstītās darbības.
 
 Tālāk redzamajā attēlā parādīts debitoru izveides piemērs.
 
-![Noklusējuma debitora izveide.](media/default-customer-creation.png)
+![Noklusējuma debitora izveide](media/default-customer-creation.png)
 
 Tālāk redzamajā attēlā parādīta noklusējuma debitora konfigurācija.
 
-![Debitora konfigurācijas paraugs.](media/default-customer-configuration1.png)
+![Debitora konfigurācijas paraugs](media/default-customer-configuration1.png)
 
 Lielākā daļa noklusējuma vērtību debitora detalizētās informācijas ekrānā var palikt, bet ir divas vērtības ir jāmaina.
 
@@ -100,13 +106,10 @@ Lielākā daļa noklusējuma vērtību debitora detalizētās informācijas ekr�
 
 Tālāk redzamajā attēlā parādīts debitoru konfigurācijas piemērs.
 
-![Debitora konfigurācijas piemērs.](media/default-customer-configuration2.png)
+![Debitora konfigurācijas piemērs](media/default-customer-configuration2.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Kanālu apskats](channels-overview.md)
 
-[Kanāla iestatīšanas priekšnosacījumi](channels-prerequisites.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Uzstādīt kanālu priekšnosacījumus](channels-prerequisites.md)

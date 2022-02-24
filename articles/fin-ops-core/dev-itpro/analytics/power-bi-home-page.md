@@ -2,27 +2,27 @@
 title: Power BI satura sākumlapa
 description: Šajā tēmā ir uzskaitīti pieejamie PowerBI.com risinājumi, kā arī ir norādīti resursi, kur par attiecīgajiem risinājumiem varat uzzināt vairāk.
 author: sericks007
+manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: PowerBIPbixDeployForm
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "265694"
-- intro-internal
+ms.custom: 265694
 ms.assetid: 0095a7cf-8cc9-41f6-bf00-b59868fa6ea2
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5c56b6d8ae3c641aab86261f844ed60bd8579969ba6583bb90098436d84b2859
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ea5b4e6a4a82845bb973ffd6b16b3f83e8c7b0d8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753626"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685737"
 ---
 # <a name="power-bi-content-home-page"></a>Power BI satura mājas lapa
 
@@ -60,11 +60,8 @@ Tālāk minētie PowerBI.com risinājumi ir pieejami LCS koplietojamo līdzekļu
 Pakalpojumā [Microsoft AppSource](https://appsource.microsoft.com) ir pieejami tālāk norādītie PowerBI.com risinājumi.
 
 > [!NOTE]
-> Šie risinājumi ir novecojuši, kā tas ir dokumentēts rakstā [Power BI satura pakotnes pieejamās AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> Šie risinājumi ir novecojuši, kā tas ir dokumentēts rakstā [Vietnē AppSource pieejamās Power BI satura pakotnes](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 - Izmaksu pārvaldība
 - [Finanšu veiktspēja](financial-performance-power-bi-content-pack.md)
-- [Mazumtirdzniecības kanāla veiktspēja](retail-channel-performance-dashboard-power-bi-data.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+- [Mazumtirdzniecības kanāla veiktspēja ](retail-channel-performance-dashboard-power-bi-data.md)

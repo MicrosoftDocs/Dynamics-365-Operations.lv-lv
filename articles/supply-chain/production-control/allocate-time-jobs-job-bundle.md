@@ -2,9 +2,11 @@
 title: Piešķirt laiku darbu komplektā iekļautiem darbiem
 description: Lapā Ražošanas izpilde var veikt darbu komplektēšanu. Pēc tam lapā Darbu saraksts var sākt vairākus darbus vienlaicīgi.
 author: johanhoffmann
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgBundleSlize, JmgProdParameters, JmgRegistration
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fb0236f9f39afc67cb5c8cedecee5278a6555d03deefb859fc134a4a4160285b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 382cf8d12d9695c80c3b13497886d20f29f3680c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766611"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966584"
 ---
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Piešķirt laiku darbu komplektā iekļautiem darbiem
 
@@ -29,7 +31,7 @@ ms.locfileid: "6766611"
 
 Lapā Ražošanas izpilde var veikt darbu komplektēšanu. Pēc tam lapā Darbu saraksts var sākt vairākus darbus vienlaicīgi.
 
-Kārtojot darbus komplektā, jānosaka, kā katram darbam iedalīt kopumā visiem darbiem reģistrēto laiku. Lai noteiktu sadalījumu, atlasiet vienu no tālāk norādītajām opcijām lapas **Sadalījuma atslēgas** laukā **Komplekta veids**:
+Kārtojot darbus komplektā, jānosaka, kā katram darbam iedalīt kopumā visiem darbiem reģistrēto laiku. Lai noteiktu sadalījumu, atlasiet vienu no tālāk norādītajām opcijām lapas **Sadalījuma atslēgas** laukā **Komplekta veids**.
 
 -   **Aprēķins** — laiks tiek sadalīts starp darbiem atbilstoši darbiem aprēķinātajam laikam.
 -   **Darbi** — laiks tiek sadalīts atbilstoši visiem komplektā iekļautajiem darbiem un kopumā visu darbu pabeigšanai patērētajam laikam.
@@ -80,7 +82,7 @@ Nākamajā tabulā ir redzama iedalītā laika aprēķināšanas formula. Formul
 ## <a name="net-time-allocation-key"></a>Neto laika sadalījuma atslēga
 Nākamajā tabulā ir redzama iedalītā laika aprēķināšanas formula. Formula ir šāda: vienā pārskatā aprēķinātais laiks = komplekta laiks ÷ darbu skaits
 
-| Paraugs                       | 09:00–10:00 (1 stunda) | 10:00–11:00 (1 stunda) | 11:00–13:00 (2 stundas) | 13:00–15:00 (2 stundas) | Piešķirtais laiks |
+|                              | 09:00–10:00 (1 stunda) | 10:00–11:00 (1 stunda) | 11:00–13:00 (2 stundas) | 13:00–15:00 (2 stundas) | Piešķirtais laiks |
 |------------------------------|----------------------|----------------------|-----------------------|-----------------------|----------------|
 | Darbu skaits komplektā | 1                    | 3                    | 2                     | 1                     | Nav attiecināms |
 | 1. darbs                        | 1 ÷ 1 = 1 stunda       | 1 ÷ 3 = 0,33 stundas    | Nav attiecināms        | Nav attiecināms        | 1,33 stundas     |
@@ -108,6 +110,3 @@ Koriģētās vienas stundas izmaksas un darba laiks tiek iegrāmatots ražošana
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

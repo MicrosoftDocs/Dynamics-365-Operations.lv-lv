@@ -102,6 +102,3 @@ Lai nerastos negatīva ietekme uz lietotāja interfeisu (UI), nerediģējiet un
 - **Cits**
 
 Tā vietā varat paplašināt **TalentSource** uzskaitījumu, pievienojot citus avotu tipus.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
-title: Ražošanas izpildes darba slodzes mākoņa un malas mēroga vienībām
+title: Ražošanas izpildes darba slodzes mākoņas un malas mēroga vienībām
 description: Šajā tēmā aprakstīts, kā ražošanas izpildes darba slodzes darbojas ar mākoņa un malas mēroga vienībām.
 author: cabeln
+manager: ''
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,25 +18,22 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 633740ee1e26d2e4ed2ea7031ef298fb11c2ab58
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 08c46655d3966ad1433935318c5e60667dd10bb6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068848"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967771"
 ---
-# <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Ražošanas izpildes darba slodzes mākoņa un malas mēroga vienībām
+# <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Ražošanas izpildes darba slodzes mākoņas un malas mēroga vienībām
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-> [!IMPORTANT]
-> Ražošanas izpildes darba slodze pašlaik ir pieejama tikai priekšskatījumā.
->
+> [!WARNING]
 > Dažas biznesa funkcionalitātes netiek pilnībā atbalstītas publiskajā priekšskatījumā, kad darba slodzes mēroga vienības tiek izmantotas.
->
-> Priekšskatījuma ražošanas izpildes darba slodzi nevar palaist mēroga vienībā, kurā ir instalēta arī noliktavas izpildes darba slodze.
 
-Ražošanas izpildē mēroga vienības nodrošina šādas iespējas:
+Ražošanas izpildē, mākoņa un malas mēroga vienībām sniedz šādas iespējas pat tad, ja malas vienības nav saistītas ar centrmezglu:
 
 - Iekārtu operatori un ražotnes uzraudzības iestādes var piekļūt operāciju ražošanas plānam.
 - Iekārtu operatori var uzturēt plāna atjaunināšanu, izpildot diskrētus un procesa ražošanas darbus.
@@ -47,7 +46,7 @@ Ražošanas izpildē mēroga vienības nodrošina šādas iespējas:
 
 Kā parādīts sekojošajā attēlā, ražošanas cikls ir sadalīts trīs fāzēs: *Plānošana*, *Izpilde* un *Pabeigšana*.
 
-[![Ražošanas izpildes fāzes, kad tiek izmantota viena vide](media/mes-phases.png "Ražošanas izpildes fāzes, kad tiek izmantotas viena vide.")](media/mes-phases-large.png)
+[![Ražošanas izpildes fāzes, kad tiek izmantota viena vide](media/mes-phases.png "Ražošanas izpildes fāzes, kad tiek izmantotas viena vide")](media/mes-phases-large.png)
 
 Fāzē _Plānošana_ ietver produkta definīciju, plānošanu, pasūtījuma izveidi un plānošanu un izlaišanu. Izlaišanas darbība norāda pāreju no fāzes _Plānošana_ uz fāzi _Izpilde_. Kad ražošanas pasūtījums tiek izlaists, ražošanas pasūtījuma darbi būs redzami ražotnē un gatavi izpildei.
 
@@ -57,7 +56,7 @@ Kad ražošanas darbs ir atzīmēts kā pabeigts, tas tiek pārvietots no fāzes
 
 Kā redzams ilustrācijā, kad tiek izmantotas mēroga vienības, fāze _Izpilde_ tiek sadalīta kā atsevišķa darba slodze.
 
-[![Ražošanas izpildes fāzes, kad tiek izmantotas mēroga vienības](media/mes-phases-workloads.png "Ražošanas izpildes fāzes, kad tiek izmantotas mēroga vienības.")](media/mes-phases-workloads-large.png)
+[![Ražošanas izpildes fāzes, kad tiek izmantotas mēroga vienības](media/mes-phases-workloads.png "Ražošanas izpildes fāzes, kad tiek izmantotas mēroga vienības")](media/mes-phases-workloads-large.png)
 
 Tagad modelis pāriet no viena gadījuma instalācijas modeļa uz modeli, kura pamatā ir centrmezgls un mēroga vienības. Fāzes _Plānošana_ un _Pabeigšana_ tiek izpildītas kā biroja operācijas, un ražošanas izpildes darba slodze darbojas uz mēroga vienībām. Dati tiek pārsūtīti asinhroni starp centrmezglu un mēroga vienībām.
 
@@ -67,14 +66,13 @@ Kad ražošanas pasūtījums tiek izlaists centrmezglā, visi dati, kas nepiecie
 
 Tālāk norādītos ražošanas izpildes uzdevumus pašlaik var palaist darba noslodzēm, kad tiek izmantotas mēroga vienības:
 
-- Ierašanās, pieteikšanās, aiziešana un kavējums
+- Ierašanās, pieteikšanās, ierašanās un kavējums
 - Sākt darbu
 - Komplekta darbi
 - Pārskata norise
 - Ziņot par lūžņiem
 - Netiešā aktivitāte
 - Pārtraukums
-- Reģistrēt pabeigšanu un izvietot (nepieciešams, lai tiktu palaista arī noliktavas izpildes darba slodze jūsu mēroga vienībai, skatiet arī [Reģistrēt pabeigšanu un izvietot mēroga vienībā](#RAF))
 
 ## <a name="working-with-manufacturing-execution-workloads-on-the-hub"></a>Darbs ar ražošanas izpildes darba slodzēm centrmezglā
 
@@ -90,7 +88,7 @@ Lai gan darbs parasti tiek palaists automātiski, to var palaist manuāli jebkur
 
 Lai pārskatītu reģistrācijas apstrādes žurnālu, piesakieties centrmezglam un dodieties uz **Ražošanas kontrole \> Periodiskie uzdevumi \> Biroja darba slodzes pārvaldība \> Neapstrādāto reģistrāciju apstrādes žurnāls**. Lapa **Neapstrādāto reģistrāciju apstrādes žurnāls** rāda apstrādāto neapstrādāto reģistrāciju sarakstu un katras reģistrācijas statusu.
 
-![Neapstrādāto reģistrāciju apstrādes žurnāla lapa.](media/mes-processing-log.png "Neapstrādāto reģistrāciju apstrādes žurnāla lapa")
+![Neapstrādāto reģistrāciju apstrādes žurnāla lapa](media/mes-processing-log.png "Neapstrādāto reģistrāciju apstrādes žurnāla lapa")
 
 Jūs varat strādāt ar jebkuru reģistrāciju sarakstā, atlasot to un pēc tam atlasot vienu no šīm pogām darbības rūtī:
 
@@ -111,43 +109,3 @@ Lai pārskatītu to ražošanas darbu vēsturi, kas ir apstrādāti mēroga vien
 ### <a name="manufacturing-hub-to-scale-unit-message-processor-job"></a>Ražošanas centrmezgls mēroga vienības ziņojuma procesora darbām
 
 Darbs _Ražošanas centrmezgls mēroga vienības ziņojuma procesoram_ apstrādā datus no centrmezgla uz mēroga vienību. Šis darbs tiek automātiski sākts, kad tiek izvietota ražošanas izpildes darba slodze. Tomēr to var palaist manuāli jebkurā laikā, pārejot uz **Ražošanas kontrole \> Periodiskie uzdevumi \> Biroja darba slodzes pārvadība \> Ražošanas centrmezgls mēroga vienības ziņojuma procesoram**.
-
-<a name="RAF"></a>
-
-## <a name="report-as-finished-and-putaway-on-a-scale-unit"></a>Reģistrēt pabeigšanu un izvietot mēroga vienībā
-
-<!-- KFM: 
-This section describes how to enable the abilities to report as finished and then putaway finished items when you are using to a scale unit.
-
-### Enable and use report as finished and putaway on a scale unit -->
-
-Pašreizējā laidienā, reģistrējot pabeigšanu un izvietošanas operācijas, (pabeigtajām precēm, līdzproduktiem un blakusproduktiem) tiek atbalstītas [noliktavas izpildes darba slodzes](cloud-edge-workload-warehousing.md) (nevis ražošanas izpildes darba slodzes). Tāpēc, lai izmantotu šo funkcionalitāti, ja ir izveidots savienojums ar mēroga vienību, ir jāveic šādas darbības:
-
-- Instalējiet gan noliktavas izpildes darba noslodzi, gan ražošanas izpildes darba slodzi mēroga vienībai.
-- Izmantojiet mobilo programmu Warehouse Management, lai reģistrētu kā pabeigtu un apstrādātu izvietošanas darbu. Ražošanas izpildes interfeiss pašlaik neatbalsta šos procesus.
-
-<!-- KFM: API details needed
-
-### Customize report as finished and putaway functionality
-
- -->
-
-## <a name="enable-and-use-the-start-operation-on-a-scale-unit"></a>Iespējojiet un izmantojiet skalas vienības sākuma darbību
-
-Pašreizējā laidienā ražošanas un sērijveida pasūtījumu sākšanas darbību atbalsta [noliktavas izpildes slodze](cloud-edge-workload-warehousing.md) (nevis ražošanas izpildes slodze). Tāpēc, lai izmantotu šo funkcionalitāti, kad ir izveidots savienojums ar skalas ierīci, jums ir jāveic šādi uzdevumi:
-
-- Instalējiet gan noliktavas izpildes darba noslodzi, gan ražošanas izpildes darba slodzi mēroga vienībai.
-- Iespējot *Sāciet ražošanas pasūtījumu noliktavas pārvaldības darba slodzei mākoņa un malas mēroga vienībai* iezīme iekšā [Funkciju pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
-- Izmantojiet Noliktavas pārvaldības mobilo lietotni, lai sāktu ražošanu vai partijas pasūtījumu.
-
-## <a name="enable-and-use-material-consumption-on-a-scale-unit"></a>Iespējot un izmantot materiālu patēriņu uz skalas vienības
-
-Pašreizējā laidienā plūsma noliktavas pārvaldība mobilajā lietotnē materiālu patēriņa reģistrēšanai tiek atbalstīta ar [noliktavas izpildes slodze](cloud-edge-workload-warehousing.md) (nevis ražošanas izpildes slodze). Tāpēc, lai izmantotu šo funkcionalitāti, kad ir izveidots savienojums ar skalas ierīci, jums ir jāveic šādi uzdevumi:
-
-- Instalējiet gan noliktavas izpildes darba noslodzi, gan ražošanas izpildes darba slodzi mēroga vienībai.
-- Iespējot *Reģistrēt materiālu patēriņu mobilajā lietotnē uz skalas vienības* iezīme iekšā [Funkciju pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
-- Izmantojiet Noliktavas pārvaldības mobilo lietotni, lai reģistrētu materiālu patēriņu.
-
-[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

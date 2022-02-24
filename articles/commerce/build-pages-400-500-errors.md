@@ -1,31 +1,37 @@
 ---
 title: Pielāgotu atbilžu lapu izveide 4xx/5xx statusa koda kļūdām
-description: Šajā tēmā aprakstīts, kā veidot klientu atbildes lapas statusa koda kļūdām 4xx un 5xx, izmantojot autorēšanas rīkus risinājumā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā ir aprakstīts, kā izveidot pielāgotas atbilžu lapas 4xx un 5xx statusa koda kļūdām, izmantojot autorēšanas rīkus programmā Microsoft Dynamics 365 Commerce.
 author: v-chgri
+manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 16cd6c3dab5502826119b6a517414d23e168e79708e306897b04c7ba8c80404b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 060f5e5616624279711f61f582e6a898c7eb7785
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741145"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414019"
 ---
 # <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a>Pielāgotu atbilžu lapu izveide 4xx/5xx statusa koda kļūdām
 
+
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aprakstīts, kā veidot klientu atbildes lapas statusa koda kļūdām 4xx un 5xx, izmantojot autorēšanas rīkus risinājumā Microsoft Dynamics 365 Commerce.
+Šajā tēmā ir aprakstīts, kā izveidot pielāgotas atbilžu lapas 4xx un 5xx statusa koda kļūdām, izmantojot autorēšanas rīkus programmā Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Pārskats
 
 Ja pieprasījums ir neveiksmīgs, serveris izdod HTTP statusa koda kļūdas atbildes. 404 statusa kods tiek iegūts un atgriezts, ja lapa netiek atrasta, un 500 statusa kods tiek iegūts un atgriezts servera kļūdas gadījumā. Lietojumprogrammā Dynamics 365 Commerce lietotāji var izveidot pielāgotas statusa koda kļūdas atbilžu lapas, kas tiek rādītas lietotājiem saistībā ar šīm statusa koda kļūdām.
 
@@ -77,6 +83,3 @@ Lai iestatītu novirzīšanu statusa koda kļūdas atbildes lapai, veiciet tāl�
 [Jaunas vietnes lapas pievienošana](add-new-page.md)
 
 [Lapas vietrāža URL izveide](create-page-url.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

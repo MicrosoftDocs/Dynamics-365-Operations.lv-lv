@@ -2,12 +2,15 @@
 title: Atvaļinājuma pieprasījuma iesniegšana darbplūsmai
 description: Programmā Microsoft Dynamics 365 Human Resources, varat izmantot MyLeaveRequests iesniegt () lietojumprogrammu programmēšanas interfeiss (API), lai darbplūsmā iesniegtu atvaļinājuma pieprasījumu.
 author: andreabichsel
+manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -15,19 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f9ca716f37b90e22983b2dddc2c426a2b4e251ec
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 7552a4c921dc4a88034b5d2c87d5a9b47d699ae3
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067508"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419476"
 ---
 # <a name="submit-a-leave-request-to-workflow"></a>Atvaļinājuma pieprasījuma iesniegšana darbplūsmai
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Programmā Microsoft Dynamics 365 Human Resources, varat izmantot MyLeaveRequests iesniegt () lietojumprogrammu programmēšanas interfeiss (API), lai darbplūsmā iesniegtu atvaļinājuma pieprasījumu. Šis API ir parādīts kā darbība MyLeaveRequests OData elementā.
 
@@ -41,7 +39,7 @@ Lai izsauktu šo API, ir nepieciešama viena no šīm atļaujām. Plašāku info
 
 | Atļaujas veids                    | Atļaujas (no vismazāk priviliģētās uz priviliģētāko) |
 |------------------------------------|--------------------------------------------------------|
-| Deleģēta (darba vai skolas konts) | lietotāja\_personifikācija                                    |
+| Deleģēta (darba vai skolas konts) | lietotāja \_ personifikācija                                    |
 
 ## <a name="https-request"></a>HTTPS pieprasījums
 
@@ -98,7 +96,7 @@ POST https://aos-rts-sf-550e5c091f6-prod-westus2.hr.talent.dynamics.com/namespac
 
 API iesniedzamā zvana ietvaros Human Resources veic biznesa loģikas validāciju pirms iesniegšanas, kas nodrošina, ka atvaļinājuma pieprasījums ir iesniegšanai derīgā stāvoklī. Iespējamie kļūdu ziņojumi, ko var saņemt atbildē, ja pārbaudes neatbilst:
 
- - Pieprasījums iekļaus '{LeaveTypeId}' bilanci zem {date} minimālās atļautās bilances.
+ - Pieprasījums iekļaus {LeaveTypeId} bilanci zem {date} minimālās atļautās bilances.
  - Brīvā laika pieprasījumu pabeigtā stāvoklī nevar iesniegt.
  - Nevar iesniegt vai saglabāt pieprasījumu, jo nav izdarītas izmaiņas. Pievienojiet vai atjauniniet summu vai atvaļinājuma veidu un mēģiniet vēlreiz.
  - Ievadītais brīvā laika pieprasījums ietver vienu vai vairākas dienas ar vienādu datumu un atvaļinājuma veidu kā gaidīšanā jau esošu pieprasījumu. Lūdzu, atsauciet esošo pieprasījumu, lai veiktu izmaiņas.
@@ -110,5 +108,3 @@ API iesniedzamā zvana ietvaros Human Resources veic biznesa loģikas validācij
 
 - [MyLeaveRequests pārskats](hr-developer-api-myleaverequests-overview.md)
 - [Autentifikācija](hr-developer-api-authentication.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

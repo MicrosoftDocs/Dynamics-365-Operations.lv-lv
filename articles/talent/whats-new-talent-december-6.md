@@ -143,6 +143,3 @@ Atjauninātajiem kartējumiem jāizskatās šādi.
 
 ![Lauka Dzimums pārveidošana](./media/WorkerTransform.png)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

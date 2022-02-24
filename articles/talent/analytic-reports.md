@@ -88,6 +88,3 @@ Viena no Power BI izcilajām īpašībām ir visu pārskata lapā esošo vizuāl
 ## <a name="export-to-excel"></a>Eksportēt programmā Excel
 
 Lai skatītu pārskata datus programmā Excel, varat noklikšķināt uz izvēlnes opcijas (trīs punkti) uz vizuālā elementa un atlasīt opciju **Eksportēt pamata datus**. Eksportētie dati tiks eksportēti kā filtrēti, respektējot lietotāja atļaujas programmā Attract. Papildinformāciju skatiet sadaļā [Datu eksportēšana no vizualizācijas](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-export-data).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

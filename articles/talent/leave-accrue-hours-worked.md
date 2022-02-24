@@ -102,6 +102,3 @@ Uz vienu datumu var attiekties tikai viens ar to saistītais veids.
 | 000337                | 8/8/2018             | Regulārs               | 8                    |
 | 000337                | 8/7/2018             | Regulārs               | 8                    |
 | 000337                | 8/9/2018             | Regulārs               | 8                    |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

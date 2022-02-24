@@ -1,36 +1,35 @@
 ---
-title: Administrēšanas pārskats
-description: Šajā tēmā ir saraksts ar palīdzības tēmām un citiem resursiem programmas Dynamics 365 Human Resources iestatīšanai, pārvaldībai un problēmu novēršanai.
-author: twheeloc
-ms.date: 08/11/2021
-ms.topic: overview
+title: Pārskats
+description: Šī administratora ceļvedis palīdz iestatīt, pārvaldīt un novērst problēmas Dynamics 365 Human Resources.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
+ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a403390132443f29f12e11914b7a0f08faffa973
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 8008a7e78bb1d1568a79fab436194a04d1ff683c
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068413"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527865"
 ---
-# <a name="administration-overview"></a>Administrēšanas pārskats
+# <a name="overview"></a>Pārskats
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
-
-Šajā tēmā ir saraksts ar palīdzības tēmām un citiem resursiem programmas Dynamics 365 Human Resources iestatīšanai, pārvaldībai un problēmu novēršanai.
+Šī administratora ceļvedis palīdz iestatīt, pārvaldīt un novērst problēmas Dynamics 365 Human Resources.
 
 - [Sistēmas prasības](hr-admin-system-requirements.md)
 
@@ -42,15 +41,15 @@ ms.locfileid: "8068413"
 
 - Datu integrācijas iestatīšana
   - [Datu integrācijas tehnoloģijas izvēle](hr-admin-integration-choose-technology.md)
-  - [Pakalpojuma Dataverse integrācijas konfigurēšana](hr-admin-integration-common-data-service.md)
+  - [Common Data Service integrācijas konfigurēšana](hr-admin-integration-common-data-service.md)
   - [Integrācijas konfigurēšana ar Finance](hr-admin-integration-finance.md)
   - [Integrācijas konfigurēšana ar Dayforce](hr-admin-integration-dayforce.md)
   - [Periodiskas datu eksportēšanas programmas izveide](hr-admin-integration-recurring-data-export.md)
   - Integrācija ar Office
-    - [Office integrēšanas apmācība](../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
-    - [Elementa datu atjaunināšana programmā Excel](../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
-    - [Atvēršanas Excel programmā pieredzes izveide](../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
-    - [Office integrācijas problēmu novēršana](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Office integrēšanas apmācība](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Elementa datu atjaunināšana programmā Excel](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Atvēršanas Excel programmā pieredzes izveide](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Office integrācijas problēmu novēršana](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
 
 - [Līdzekļu pārvaldība](hr-admin-manage-features.md)
 
@@ -85,7 +84,7 @@ ms.locfileid: "8068413"
   - [Dokumentācijas vai apmācības izveide, izmantojot uzdevuma reģistrētāju](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
 
 - Human Resources problēmu novēršana
-  - [Atbalsta saņemšana](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)
+  - [Atbalsta saņemšana](hr-admin-troubleshooting-support.md)
   - [Veiktspējas optimizēšana ar automātiskās tīrīšanas uzdevumiem](hr-admin-troubleshooting-batch-history.md)
   - [Analīzes pārskati netiek atjaunināti](hr-admin-troubleshooting-analytic-reports.md)
   - [Nevar izveidot vidi Power Apps administrēšanas centrā](hr-admin-troubleshooting-power-apps.md)
@@ -94,23 +93,12 @@ ms.locfileid: "8068413"
   - [Atlīdzības procesa palaišana](hr-admin-troubleshooting-compensation.md)
   - [Uzdevuma ceļveža saglabāšana LCS](hr-admin-troubleshooting-task-guide.md)
   - [Piekļuve privātām adresēm atbilstoši drošības lomai](hr-admin-troubleshooting-private-addresses.md)
-  - [Human Resources netiek parādīta Dynamics 365 programmās](hr-admin-troubleshooting-not-in-apps.md)
+  - [Human Resources neparādās Dynamics 365 programmās](hr-admin-troubleshooting-not-in-apps.md)
   - [Pārskatu veidošanas opcijas](hr-admin-troubleshooting-reporting.md)
   - [Bieži uzdotie jautājumi par integrāciju](hr-admin-troubleshooting-integration.md)
 
-## <a name="additional-resources"></a>Papildu resursi
-
-### <a name="elearning-courses"></a>Elektronisko mācību kursi
-Informāciju par tiešsaistes kursiem un apmācību skatiet šeit: [Dynamics 365 Human Resources platformā Microsoft Learn](//learn/browse/?products=dynamics-human-resources&resource_type=learning%20path).
-
-### <a name="videos"></a>Videoklipi
-
-Apskatiet video pamācības, kas tagad ir pieejamas [Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
 ## <a name="see-also"></a>Skatiet arī
 
-- [Jaunumi un izmaiņas programmā Human Resources](hr-admin-whats-new.md)
-- [Izstrādātāja rokasgrāmata](hr-developer-overview.md)
+- [Jaunumi un izmaiņas Human Resources](hr-admin-whats-new.md)
+- [Izstrādātāja ceļvedis](hr-developer-overview.md)
 - [Lietotāja ceļvedis](hr-hrpro-overview.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -157,6 +157,3 @@ Kandidāti ir personas, kas ir pievienotas talantu kopai, bet nav saistītas ar 
 |-----------------------------|----------------------------------|----------------------------------|-------------|
 | Profils — informāciju par kandidātu | Izveidot, lasīt, atjaunināt un dzēst | Izveidot, lasīt, atjaunināt un dzēst | Nav piekļuves   |
 | Dokumenti                   | Izveidot, lasīt, atjaunināt un dzēst | Izveidot, lasīt, atjaunināt un dzēst | Nav piekļuves   |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

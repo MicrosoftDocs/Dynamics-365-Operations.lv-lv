@@ -1,36 +1,40 @@
 ---
-title: Finansiālais stāvoklis
+title: Skaidras naudas pozīcija (priekšskatījums)
 description: Šajā tēmā aprakstīts, kā skaidras naudas plūsmas prognozēšanas līdzeklis prognozē organizācijas skaidras naudas pozīciju noteiktam laikam. Tajā ir aprakstītas arī opcijas, kas pieejamas, lai parādītu prognozes dažādiem periodiem.
 author: ShivamPandey-msft
-ms.date: 12/21/2021
+manager: AnnBe
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 7d43657573ea8092f047615fc50a1a50ab97f094
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
-ms.translationtype: MT
+ms.openlocfilehash: 64b8dcd43024e5c26d33bf12c5fe198711adde56
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968991"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645894"
 ---
-# <a name="cash-position"></a>Finansiālais stāvoklis
+# <a name="cash-position-preview"></a>Skaidras naudas pozīcija (priekšskatījums)
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Skaidras naudas pozīcija ir skaidras naudas plūsmas prognoze tuvākajam termiņam. Tā ir balstīta uz skaidras naudas ieņēmumu prognozi no debitoriem, kuri maksā neapmaksātos rēķinus un pasūtījumus, kā arī uz skaidras naudas norēķinu prognozi, kurus kreditori maksā par pirkuma rēķiniem un pasūtījumiem.
 
 Kad sistēma prognozē debitoru maksājumus, tā izmanto maksājuma prognozes no debitora maksājumu prognozēšanas līdzekļa. Bez maksājumu prognozēm, vidējais laiks, kas nepieciešams, lai pārveidotu debitora rēķinu maksājumam katram debitoram, tiek izmantots maksājuma datuma aprēķināšanai. Atvērtajiem debitora pasūtījumiem sistēma aprēķina rēķina datumu, izmantojot vidējo dienu skaitu pasūtījuma rindām katram debitoram, kam tiks izrakstīts rēķins. Pēc tam tā izmanto rēķina datumu kā ievadi maksājuma prognozēšanas funkcionalitātei. Debitora maksājumu prognozēšanas funkcionalitāte aprēķina katra rindā esošā pasūtījuma apmaksas datumu. 
 
-Maksājuma datums nesamaksātajiem rēķiniem ir plānots no maksājuma prognozēm, izvēloties datumu, kas atbilst piecdesmit procentilēm no kumulatīvās sadales funkcijas, kas iegūta no prognozētā groza iespējamības.
+<*Nepieciešams teksts no Jareka vai Deiva par to, kā maksājumu prognozes tiek konvertētas uz datumu*> Maksājuma datums nesamaksātajiem rēķiniem ir aptuvens [*plānots*] no maksājuma prognozēm, izvēloties datumu, kas atbilst piecdesmit procentilēm no kumulatīvās sadales funkcijas, kas iegūta no prognozētā groza iespējamības.
 
 Līdzīgu pieeja tiek izmantota, lai prognozētu maksājumus kreditoriem. Katram kreditoram sistēma aprēķina vidējo laiku, kas nepieciešams, lai pārvērstu kreditora rēķinu par maksājumu. Šis dienu skaitu tad arī tiek izmantots, lai aprēķinātu maksāšanas datumu. Atvērtajiem kreditoru pasūtījumiem sistēma aprēķina rēķina datumu, ņemot vērā vidējo dienu skaitu, kas nepieciešams, lai pārvērstu pasūtījuma rindas par rēķinu katram kreditoram. Pēc tam sistēma aprēķina maksājuma datumu, izmantojot vidējo laiku, kas nepieciešams, lai pārvērstu kreditora rēķinu par maksājumu katram kreditoram.
 
@@ -45,16 +49,5 @@ Cilnes **Skaidras naudas pozīcija** apakšējā daļa parāda detalizētu infor
 
 Lai saglabātu un rediģētu skaidras naudas pozīciju, izveidojiet momentuzņēmumu. Lai iegūtu papildinformāciju par to, kā strādāt ar momentuzņēmumiem, skatiet [Pārskats par momentuzņēmumiem](payment-snapshots.md).
 
-## <a name="details-of-the-cash-position-capability"></a>Detalizēta informācija par skaidras naudas pozīcijas spēju 
-
-Funkcija Skaidras naudas pozīcija ietver šādu funkcionalitāti. 
-
-- Skaidras naudas pozīcijas funkcija parāda kases plūsmu, balstoties uz sistēmā esošajiem dokumentiem, kā arī naudas ieplūdes un aizplūšanas rindām, kas importētas no ārējām sistēmām.
-- Atvieglo skaidras naudas plūsmas datu integrēšanu no ārējām sistēmām uz Dynamics 365 Finance. Skaidras naudas pozīcija var izmantot arī datu importēšanas/eksportēšanas struktūru. Šī struktūra atvieglo integrāciju ar Excel OData. Jūs varat kombinēt arī datus no vairākiem avotiem, lai izveidotu vispārēju skaidras naudas pozīcijas risinājumu.
-- Iepazīstina ar programmējamo skaidras naudas pozīciju. Skaidras naudas pozīcija tiek izveidota, balstoties uz debitora maksājumu uzvedību, lai paredzētu, kad uzņēmums var gaidīt skaidras naudas pienākšanu kontos.
-- Debitoru pasūtījumiem un rēķiniem debitoru maksājumu prognozēšanas AI funkcionalitāte tiek izmantota, lai noteiktu vēsturisko debitora maksājumu uzvedību, kad tiks maksāts pasūtījums vai rēķins.
-- Kreditoru pasūtījumos un rēķinos tiek izmantots vidējais laiks starp nosūtīšanu un rēķinu un rēķina apmaksu katram kreditoram, lai noteiktu, kad kreditora pasūtījums vai rēķins tiks apmaksāts, veicot naudas izdevumu precīzāku.
-
-Tas izveido precīzāku naudas plūsmas skatu, balstoties uz kasiera vēsturisko maksājumu uzvedību. 
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+#### <a name="privacy-notice"></a>Paziņojums par konfidencialitāti
+Priekšskatījumiem (1) var tikt izmantots mazāk konfidencialitātes un drošības pasākumu nekā pakalpojumam Dynamics 365 Finance and Operations, (2) tie nav ietverti pakalpojuma līmeņa līgumā par šo pakalpojumu, (3) tos nedrīkst izmantot personas datu vai citu tādu datu apstrādei, uz kuriem attiecas juridiskās vai normatīvās prasības, un (4) tiem tiek nodrošināts ierobežots atbalsts.

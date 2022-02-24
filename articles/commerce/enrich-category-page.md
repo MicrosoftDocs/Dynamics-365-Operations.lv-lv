@@ -2,36 +2,42 @@
 title: Kategorijas ielādes lapas papildināšana
 description: Šajā tēma ir ietverta kategorijas lapu papildināšana Dynamics 365 Commerce.
 author: v-chgri
+manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5bb28c3b5fbb1133d32219b9c47dd1477ae2ac982ee035321dafd77c53dc910b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ca31ec7d2eee7d2b0c863506338341a870ff07ee
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771011"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414050"
 ---
 # <a name="enrich-a-category-landing-page"></a>Kategorijas ielādes lapas papildināšana
+
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēma ir ietverta kategorijas lapu papildināšana Dynamics 365 Commerce.
 
+## <a name="overview"></a>Pārskats
+
 Commerce nodrošina noklusējuma kategorijas mērķlapu, kas tiek izmantota, kad tiek parādīti kategorijas dati. Noklusējuma kategorijas lapa satur obligātos elementus, piemēram, uzlabotājus, kategorizētas preces izvietošanu, šķirošanas iespējas, izvēles kopsavilkumu un lappušu numerācijas vadīklas. 
 
 Tomēr, tā vietā, lai izmantotu noklusējuma kategorijas lapu, iespējams, vēlēsieties izmantot "papildinātu" kategorijas mērķlapu, kam ir vairāk satura un specifiskāki elementi. Parasta papildināšana var ietvert kategorijai specifiska mārketinga satura pievienošanu kategorijas lapai. Šis saturs var ietvert vairāku preces izvietošanu dažādās kategorijās papildu pārdošanas nolūkam, redakcijas sarakstus, attēlus, video un citu tekstu. Varat vai nu modificēt noklusējuma kategorijas lapu, vai definēt citu kategorijas lapu noteiktai kategorijai.
 
-![Bagātināta kategorijas ielādes lapa.](./media/CategoryLandingPages.png)
+![Bagātināta kategorijas ielādes lapa](./media/CategoryLandingPages.png)
 
 Commerce vietnes veidotājā lapa **Prece** ietver kategoriju sarakstu no kanāla, kas piešķirts vietnei. Ja kategorijas lapai atlasīts statuss **Papildināts**, šī kategorijas lapa ir tikusi papildināta. Pretējā gadījumā kategorijai tiek izmantota noklusējuma kategorijas lapa un saturs. Varat priekšskatīt gan papildinātas, gan nepapildinātas kategorijas lapas, atlasot kategorijas nosaukumu.
 
@@ -59,8 +65,3 @@ Lai papildinātu kategorijas lapu, veiciet tālāk minētās darbības.
 [Preces lapas papildināšana](enrich-product-page.md)
 
 [Lapas satura pieejamības pārbaude](verify-accessibility.md)
-
-[Dinamisko e-komercijas lapu izveidošana, pamatojoties uz URL parametriem](create-dynamic-pages.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

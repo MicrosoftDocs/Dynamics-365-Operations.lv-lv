@@ -1,10 +1,12 @@
 ---
 title: Darba pasūtījumu dīkstāve uzturēšanas dēļ
 description: Šajā tēmā aprakstīts, kā izveidot dīkstāve uzturēšanas dēļ reģistrācijas līdzeklī, kas ir atlasīts darba pasūtījumā.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 38c47a47fdf64c1d3601f6f3f7b84bf128823ec2ceb0c50e586822f6bdb97906
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 53487a0173453ef7a8f5ea818672d999fe71cb65
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753376"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020915"
 ---
 # <a name="maintenance-downtime-for-work-orders"></a>Darba pasūtījumu dīkstāve uzturēšanas dēļ
 
@@ -45,7 +47,7 @@ Jūs varat izveidot dīkstāve uzturēšanas dēļ reģistrācijas līdzeklī, k
 
 Šajā attēlā ir parādīts lapas **Dīkstāves uzturēšanas dēļ pamatojuma kodi** piemērs.
 
-![1. attēls.](media/15-work-orders.png)
+![1. attēls](media/15-work-orders.png)
 
 Pēc tam, kad esat izveidojis dīkstāves uzturēšanas dēļ iemeslu kodus, kurus vēlaties izmantot, jūs varat izveidot dīkstāves uzturēšanas dēļ reģistrācijas darba pasūtījumiem un līdzekļiem.
 
@@ -71,21 +73,18 @@ Pēc tam, kad esat izveidojis dīkstāves uzturēšanas dēļ iemeslu kodus, kur
 
 Attēlā tālāk parādīts dīkstāve uzturēšanas dēļ reģistrācijas piemērs.
 
-![2. attēls.](media/16-work-orders.png)
+![2. attēls](media/16-work-orders.png)
 
 Kalendārs, kuru izmanto, lai aprēķinātu dīkstāves uzturēšanas dēļ reģistrāciju, ir atkarīgs no jūsu līdzekļu un parametru uzstādījumu izvēles. Ja sadaļā **Resurss** kopsavilkuma cilnē **Fiksētais līdzeklis** lapā **Visi līdzekļi** ir atlasīts resurss, tiek izmantots kalendārs, kas ir uzstādīts saistītajai resursu grupai, kā parādīts šajā ilustrācijā.
 
-![3. attēls.](media/17-work-orders.png)
+![3. attēls](media/17-work-orders.png)
 
 Ja līdzeklim nav atlasīts neviens resurss, tiek izmantots standarta kalendārs, kas ir atlasīts lapā **Līdzekļu pārvaldības parametri**, kā uzrādīts šajā ilustrācijā.
 
-![4. attēls.](media/18-work-orders.png)
+![4. attēls](media/18-work-orders.png)
 
 Lai redzētu pārskatu par visām dīkstāves uzturēšanas dēļ reģistrācijām, noklikšķiniet uz **Līdzekļu pārvaldība** > **Pieprasījumi** > **Dīkstāve uzturēšanas dēļ**.
 
 >[!NOTE]
 >Visi kalendāri, izmantoti modulī **Līdzekļu pārvaldība**, tiek iestatīti **Organizācijas administrēšana** > **Uzstādīšana** > **Kalendāri** > **Kalendāri**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: Manuāli izveidoti darba pasūtījumi
-description: Šajā tēmā ir paskaidrots, kā manuāli izveidot darba pasūtījumus programmā Līdzekļu pārvaldība.
-author: johanhoffmann
+description: Šajā tēmā ir paskaidrots, kā manuāli izveidot darba pasūtījumus programmā Asset Management.
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderTableCreateRelated, EntAssetWorkOrderTableCreate, EntAssetWorkOrderTableCopy
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a755fa579d929056296c5512f976d15c4808c336b6688b891a4712051e15e9a1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8c787dbc9889139df76b9b102deb18fce567e382
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750104"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017872"
 ---
 # <a name="manually-created-work-orders"></a>Manuāli izveidotie darba pasūtījumi
 
@@ -111,7 +113,7 @@ Jūs varat izveidot darba pasūtījumu, kas ir saistīts ar esošo darba pasūt�
 
 Attēlā tālāk ir parādīts sarakstu dialoga **Izveidot saistīto darba pasūtījumu** piemērs.
 
-![1. attēls.](media/03-work-orders.png)
+![1. attēls](media/03-work-orders.png)
 
 >[!NOTE]
 >Ja iestatījāt saistītā darba pasūtījuma masku **Līdzekļa pārvaldības parametri** > **Darba pasūtījumi** cilne > **Saistīta darba pasūtījuma maska** lauks, darba pasūtījuma ID tiek izveidoti atbilstoši maskas uzstādījumam. Ja nav uzstādīta neviena saistīta darba pasūtījuma maska, saistītiem darba pasūtījumiem tiks izmantots nākamais pieejamais darba pasūtījuma ID
@@ -137,7 +139,7 @@ Jūs varat ātri izveidot jaunu darba pasūtījumu no esoša darba pasūtījuma.
 
 Attēlā zemāk ir parādīts dialoglodziņš **Kopēt darba pasūtījumu**.
 
-![2. attēls.](media/04-work-orders.png)
+![2. attēls](media/04-work-orders.png)
 
 
 ## <a name="create-a-work-order-based-on-a-maintenance-request"></a>Izveidojiet darba pasūtījumu balstītu uz uzturēšanas pieprasījumu
@@ -157,12 +159,9 @@ Attēlā zemāk ir parādīts dialoglodziņš **Kopēt darba pasūtījumu**.
 
 Attēlā zemāk ir parādīts dialoglodziņš **Izveidot darba pasūtījumu**.
 
-![3. attēls.](media/05-work-orders.png)
+![3. attēls](media/05-work-orders.png)
 
 
 >[!NOTE]
 >Ja jūs vēlāties, lai darba pasūtījumi izveidotos automātiski, jūs varat ieplānot uzturēšanas plāna darbus vai līdzeklī uzstādīt "Automātiskā izveide" [uzturēšanas plāni](../preventive-and-reactive-maintenance/maintenance-plans.md) vai [uzturēšanas cikli](../preventive-and-reactive-maintenance/maintenance-rounds.md). Darba pasūtījumiem, kas ir izveidoti no uzturēšanas pieprasījumiem sarakstu lapā **Viss uzturēšanas grafiks**, ir uzturēšanas darba veidi, kas ir atlasīti uzturēšanas pieprasījumos.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

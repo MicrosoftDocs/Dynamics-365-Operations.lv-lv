@@ -2,25 +2,27 @@
 title: Nomas pievienošana vai kopēšana (priekšskatījums)
 description: Šajā tēmā aprakstīts, kā izveidot jaunu nomu, ievadot informāciju par to Līdzekļa nomā vai kopējot informāciju no esošas nomas.
 author: moaamer
-ms.date: 01/11/2022
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b09a87c7d4f5ba076647218c3586d17a13e6c558
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
-ms.translationtype: MT
+ms.openlocfilehash: abbf04d009a4b347792cd8b317e334da2a4cbbee
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7967930"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969607"
 ---
 # <a name="add-or-copy-leases-preview"></a>Nomas pievienošana vai kopēšana (priekšskatījums)
 
@@ -35,19 +37,6 @@ Veiciet tālāk norādītās darbības, lai izveidotu nomu Līdzekļu nomā.
 1. Lapā **Nomas kopsavilkums** darbību rūtī atlasiet **Jauns**.
 2. Ievadiet informāciju par nomu. Obligāti aizpildāmajiem laukiem ir sarkana apmale.
 
-Nomas maksājuma sākuma datums nevar būt agrāks par nomas sākuma datumu. Ja ievadāt nomas maksājuma sākuma datumu, kas ir pirms nomas sākuma datuma, tiks parādīts kļūdas ziņojums.
-
-Pēc noklusējuma opcijas Sadalījuma maksājuma summa kopsavilkuma cilnē Vispārīgi, kas atrodas lapā Detalizēta informācija par nomu, tiek iestatīta uz Nē, ja opcija Atļaut maksājumu sadalījumu lapā Līdzekļu izlaižšanas parametri ir **iestatīta** **uz** **·** **·** **·** **·** **Jā**. 
-
-Ja opcija Sadalījuma maksājuma summa ir iestatīta uz Jā, lauks Maksājuma summa kopsavilkuma **cilnē Maksājumu grafiks ir** **·** **·** **bloķēts**. Tā tiks iestatīta uz maksājumu kopsummu, kas vēlāk ir ievadīta maksājumu **summas sadalījuma** katalogā.
-
-Atlasiet **maksājuma summas** sadalījumu, lai atvērtu lapu, kurā varat pievienot informāciju par maksājumu tipiem. Poga **Pievienot kopsummas maksājuma** summai pārvietos kopsummas uz **lauku Maksājuma** summa.
-
-> [!NOTE]
-> Ja pievienojat informāciju par maksājuma summu un pēc tam atlasāt taustiņu Esc, ievadītās summas netiks pievienotas laukam Maksājuma summa kopsavilkuma cilnē **Maksājumu** **·** **grafiks**. Tā vietā tie tiks glabāti **maksājuma summas sadalījuma** dialoglodziņā. Ja vēlaties, lai dialoglodziņš rādītu kopējo summu, atlasiet kolonnu Summa, atlasiet un turiet to (vai noklikšķiniet ar peles labo pogu) un pēc **tam atlasiet Kopsumma šajā** **kolonnā**. 
-
-Ar **pogu Kopēt rindu tiks** kopēts depozīts maksājuma sadalījums.
-
 ## <a name="create-a-lease-schedule"></a>Nomas grafika izveide
 
 Pēc tam, kad esat pabeidzis ievadīt informāciju par nomu, veiciet tālāk norādītās darbības, lai izveidotu nomas grafiku.
@@ -61,9 +50,6 @@ Pēc tam, kad esat pabeidzis ievadīt informāciju par nomu, veiciet tālāk nor
     Lapā **Grāmatas detalizēta informācija** ir parādīts, kā noma tiek uzskaitīta tai piešķirtajās grāmatās. No šejienes varat skatīt nomas grafikus.
 
     Maksājumu grafiks satur ievades no cilnes **Maksājumu grafika rindas**, kas atrodas lapā **Pievienot nomu**. Joprojām varat mainīt katra maksājuma summu un mainīgās izmaksas. Nomas saistības tiek aprēķinātas, pamatojoties uz modificēto maksājumu grafiku.
-
-    > [!NOTE]
-    > Nomas maksājuma sākuma datumam ir jābūt vienādam vai vēlākam par nomas sākuma datumu. Ja maksājuma sākuma datums ir agrāks par nomas sākuma datumu, tiks parādīts kļūdas ziņojums. 
 
 4. Kad esat beidzis maksājumu grafika pārskatīšanu, atlasiet **Apstiprināt grafiku**. Pēc grafika apstiprināšanas noma vairs nav pieejama labošanai.
 
@@ -102,6 +88,3 @@ Visi žurnāla ieraksti, kas ir izveidoti Līdzekļu nomā, ir ietverti Līdzek�
 
 > [!NOTE]
 > Līdzekļu nomas žurnālu nevar izveidot manuāli. Tas tiek izveidots automātiski, izveidojot nomas grafikus.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -209,6 +209,3 @@ Piedāvājuma veidošanas procesā ir vairākas daļas, kuras var konfigurēt At
 
 
 Plašāku informāciju par piedāvājuma izveidošanas procesu skatiet [Piedāvājumu izveide, apstiprināšana un parakstīšana](./creating-offers.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

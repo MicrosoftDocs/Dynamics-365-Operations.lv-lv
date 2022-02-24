@@ -2,28 +2,33 @@
 title: Izveidot un atjaunināt kanāla atgriešanas un atmaksas politiku
 description: Šajā tēmā izskaidrots, kā iestatīt atgriešanas un atmaksas politiku kanālam.
 author: ShalabhjainMSFT
-ms.date: 07/13/2021
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Operations, Retail
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 4346f9eefa04688c80ce2512a7972bfd4627942c
-ms.sourcegitcommit: 53fad4d4b5fb67aa75550956ec205f456a5be01d
+ms.openlocfilehash: c2a9325f09ffe43c3436b7e0ca2ab511e1f57f83
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "7388937"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414150"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Izveidot un atjaunināt kanāla atgriešanas un atmaksas politiku
 
 [!include [banner](includes/banner.md)]
+
+## <a name="overview"></a>Pārskats
 
 Kanāla atgriešanas politika Dynamics 365 Commerce ļauj mazumtirgotājiem iestatīt izpildi attiecībā uz to, kurus maksājumu norēķinus var izmantot atgriešanas apstrādei pārdošanas punkta (POS) ierīcē.  
 
@@ -34,14 +39,14 @@ Politikas darbības sfēra pašlaik ir ierobežota, nosakot maksājuma norēķin
 - Ja pirkums tika veikts, izmantojot dāvanu karti, veikala politika ir apstrādāt atmaksu tikai uz jaunu dāvanu karti vai sniegt veikala kredītu. 
 - Ja pārdošana ir veikta, izmantojot skaidru naudu, atmaksai atļautās opcijas ir skaidra nauda, dāvanu kartes un debitora konts, taču ne kredītkarte. 
 
+
 ## <a name="enable-return-policy"></a>Atgriešanas politikas iespējošana
 
-Lai iespējotu kanāla atgriešanas politikas funkcionalitāti programmā Commerce Headquarters, veiciet tālāk minētās darbības.
+Lai iespējotu kanāla atgriešanas politikas funkcionalitāti, rīkojieties šādi:
 
 1. Ejiet uz **Līdzekļu pārvaldības** darbtelpu pakalpojumā Dynamics 365 Commerce.
-1. Funkciju nosaukumu sarakstā meklējiet funkciju **iespējot kanāla atgriešanas politikas**.
-1. Atlasiet **Iespējot tagad**.
-1. Lapā **Sadales grafiks** palaidiet darbu **1110** (Globālā konfigurācija), lai sadalītu līdzekļa izmaiņas.
+2. Funkciju nosaukumu sarakstā meklējiet funkciju **iespējot kanāla atgriešanas politikas**.
+3. Atlasiet **Iespējot tagad**. 
 
 ## <a name="configure-return-policy"></a>Atgriešanas politikas konfigurēšana
 
@@ -49,56 +54,53 @@ Veiciet šīs darbības, lai konfigurētu atgriešanas politiku mazumtirdzniecī
 
 1. Dodieties uz **Retail un Commerce** \> **Kanāla iestatīšana** \> **Atgriešana** \> **Kanāla atgriešanas politika**.
 
-1. Atlasiet **Jauns**, lai izveidotu atgriešanas politikas veidni. Lai izmantotu esošu veidni, atlasiet veidni kreisajā rūtī. Jaunām veidnēm pievienojiet nosaukumu un aprakstu, kas palīdzēs identificēt politiku, kad tā tiek piemērota kanālam.
+2. Atlasiet **Jauns**, lai izveidotu atgriešanas politikas veidni. Lai izmantotu esošu veidni, atlasiet veidni kreisajā rūtī. Jaunām veidnēm pievienojiet nosaukumu un aprakstu, kas palīdzēs identificēt politiku, kad tā tiek piemērota kanālam.
 
-   ![Pievienot jaunu atgriešanas politiku.](media/Return-policy-page1.png)
+   ![Pievienot jaunu atgriešanas politiku](media/Return-policy-page1.png "Pievienot jaunu atgriešanas politiku")
      
    
-1. Sadaļā **Atļautās atmaksas maksājumu metodes** definējiet **atļautos** atgriešanas maksājumu norēķinus, kas ir specifiski katrai maksājuma metodei.
-   ![Iestatīt atļautās maksājuma metodes maksājuma veidam.](media/Return-policy-page2.png)
+3. Sadaļā **Atļautās atmaksas maksājumu metodes** definējiet **atļautos** atgriešanas maksājumu norēķinus, kas ir specifiski katrai maksājuma metodei.
+   ![Pievienot maksāšanas metodes](media/Return-policy-page2.PNG "Iestatīt atļautās maksājuma metodes maksājuma veidam")
    
     > [!IMPORTANT]
     > - Maksāšanas metodes tiek atvasinātas no organizācijai iestatītajām maksāšanas metodēm.
     > - Pievienojot atļauto atgriešanas norēķinu tipu katrai uzskaitītajai maksāšanas metodei, tiek nodrošināts, ka atgriešanu var veikt atļautajam atgriešanas norēķinu veidam.
     
-1. Saistiet atgriešanas politikas veidni ar veikaliem, kur tā tiks izmantota. Atlasiet **Pievienot** cilnē **Mazumtirdzniecības kanāli** un saistiet pieejamos kanālus. 
+4. Saistiet atgriešanas politikas veidni ar veikaliem, kur tā tiks izmantota. Atlasiet **Pievienot** cilnē **Mazumtirdzniecības kanāli** un saistiet pieejamos kanālus. 
 
     - Dialoglodziņā **Izvēlēties organizācijas mezglus**, atlasiet veikalus, reģionus un organizācijas, ar kurām veidne jāsaista.
     - Ar katru veikalu var saistīt tikai vienu atgriešanas politikas veidni.
     - Izmantojiet bulttaustiņus, lai atlasītu veikalus, reģionus vai organizācijas.
     - Politikas Spēkā stāšanās datumsir datums, kurā politika tiek piemērota kanāliem un tiek izpildīti kanāla darbi. 
 
-    ![Izvēlēties organizācijas zaru dialoglodziņu.](media/Return-policy-page3.png)
+    ![Izvēlēties organizācijas zaru dialoglodziņu](media/Return-policy-page3.PNG "Izvēlēties organizācijas zaru dialoglodziņu")
 
-1. Lapā **Sadales grafiks** palaidiet **1070** darbu, lai kanāla atgriešanas politika būtu pieejama POS.
+5. Lapā **Sadales grafiks** palaidiet **1070** darbu, lai kanāla atgriešanas politika būtu pieejama POS.
 
 ## <a name="preview-the-channel-return-policy-in-the-pos"></a>Priekšskatīt kanāla atgriešanas politiku POS
 
 Lai skatītu atļautos atgriešanas norēķinu tipus POS, veiciet kādā no nākamajiem piemēriem norādītās darbības.
 
 1. Piesakieties POS kā kasieris vai menedžeris.
-1. Sadaļā **Maiņa un atvilktne** atlasiet **Rādīt žurnālu.**
-1. Atlasiet transakciju, kas ir daļa no atgriešanas. 
-1. Atlasiet atgriežamos krājumus un izvēlieties maksājuma metodi.  
-    - Ja izvēlētais maksājuma norēķins ir atļauto atgriešanas norēķinu tipu sarakstā, kasieris var pabeigt darbību.
-    - Ja atlasītais maksājuma norēķins nav atļauts, tiek parādīts kļūdas ziņojums.
-    - Izvēlieties **Summa apmaksai**, lai parādītu sarakstu ar visiem atļautajiem atgriešanas norēķinu veidiem.
+2. Sadaļā **Maiņa un atvilktne** atlasiet **Rādīt žurnālu.**
+3. Atlasiet transakciju, kas ir daļa no atgriešanas. 
+4. Atlasiet atgriežamos krājumus un izvēlieties maksājuma metodi.  
+- Ja izvēlētais maksājuma norēķins ir atļauto atgriešanas norēķinu tipu sarakstā, kasieris var pabeigt darbību.
+- Ja atlasītais maksājuma norēķins nav atļauts, tiek parādīts kļūdas ziņojums.
+- Izvēlieties **Summa apmaksai**, lai parādītu sarakstu ar visiem atļautajiem atgriešanas norēķinu veidiem.
 
 - vai -
 
 1. Piesakieties POS kā kasieris vai menedžeris.
-1. Atlasiet **Atgriešanas transakcija** un ievadiet saņemšanas ID, izmantojot svītrkoda skenēšanu vai manuālu ievadi. 
-1. Atlasiet transakciju, kas ir daļa no atgriešanas. 
-1. Atlasiet atgriežamos krājumus un izvēlieties maksājuma metodi.  
-    - Ja izvēlētais maksājuma norēķins ir atļauto atgriešanas norēķinu tipu sarakstā, kasieris var pabeigt darbību.
-    - Ja atlasītais maksājuma norēķins nav atļauts, tiek parādīts kļūdas ziņojums.
-    - Izvēlieties **Summa apmaksai**, lai parādītu sarakstu ar visiem atļautajiem atgriešanas norēķinu veidiem.
+2. Atlasiet **Atgriešanas transakcija** un ievadiet saņemšanas ID, izmantojot svītrkoda skenēšanu vai manuālu ievadi. 
+3. Atlasiet transakciju, kas ir daļa no atgriešanas. 
+4. Atlasiet atgriežamos krājumus un izvēlieties maksājuma metodi.  
+- Ja izvēlētais maksājuma norēķins ir atļauto atgriešanas norēķinu tipu sarakstā, kasieris var pabeigt darbību.
+- Ja atlasītais maksājuma norēķins nav atļauts, tiek parādīts kļūdas ziņojums.
+- Izvēlieties **Summa apmaksai**, lai parādītu sarakstu ar visiem atļautajiem atgriešanas norēķinu veidiem.
 
-![Atmaksas veids nav atļauts.](media/Return-policy-page6.png)
-
-
-
-![Atļautie atmaksas veidi.](media/Return-policy-page5.png)
+![Atmaksa nav atļauta](media/Return-policy-page6.png "Atmaksas veids nav atļauts")
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+
+![Maksāšanas metožu saraksts](media/Return-policy-page5.PNG "Atļautie atmaksas veidi")

@@ -2,9 +2,11 @@
 title: Lauku aprakstu skatīšana un eksportēšana
 description: Šajā rakstā ir paskaidrots, ka skatīt lauku aprakstus un kā lietot lapu Lauku apraksti, lai eksportētu aprakstus.
 author: rschloma
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FieldDescriptions
 audience: Application User, Developer, IT Pro
@@ -15,19 +17,16 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea52c39ef1c7d7b62f20da9fe4d94103119ccc23
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 39dd9a86ffb04d18f61c75fb2c9634e441dc823b
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069277"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797903"
 ---
 # <a name="view-and-export-field-descriptions"></a>Lauku aprakstu skatīšana un eksportēšana
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Šajā rakstā ir paskaidrots, ka skatīt lauku aprakstus un kā lietot lapu Lauku apraksti, lai eksportētu aprakstus.
 
@@ -46,7 +45,7 @@ Lauku aprakstus varat apskatīt, virzot peles kursoru pār attiecīgo lauku. Ja 
 
 Nākamajā attēlā ir parādīts lauka apraksts, kas ir redzams, kad novietojat peles kursoru uz lauka **Bloķēt krājumus inventarizācijas laikā**.
 
-[![Lauka apraksta piemērs.](./media/field-description.png)](./media/field-description.png)
+[![Lauka apraksta piemērs](./media/field-description.png)](./media/field-description.png)
 
 ## <a name="use-the-field-descriptions-page-to-view-and-export-field-help"></a>Izmantot lapu Lauku apraksti, lai skatītu un eksportētu lauku palīdzību
 
@@ -108,6 +107,3 @@ Informāciju par dažādajiem veidiem, kā atrast lapas, skatiet agrākā šī r
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Lauku aprakstu pielāgošana](../../dev-itpro/user-interface/customize-field-help.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

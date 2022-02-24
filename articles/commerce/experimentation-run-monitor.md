@@ -2,9 +2,11 @@
 title: Eksperimenta izpildīšana un pārraudzīšana
 description: Šajā tēmā ir aprakstīts, kā izpildīt un pārraudzīt eksperimentu trešās puses pakalpojumos. Šeit ir aprakstīts arī, kā veikt izmaiņas variantiem pēc eksperimenta sākšanas.
 author: sushma-rao
+manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: cd8864caec23f6aca30badba1a79da31301a0ddb92a74bb4a6fe027214d0f8d6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ba6fb94033e227790e01676819308bb4f0cd6868
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777576"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965223"
 ---
 # <a name="run-and-monitor-an-experiment"></a>Eksperimenta izpildīšana un pārraudzīšana
 
@@ -28,7 +30,7 @@ ms.locfileid: "6777576"
 
 Tālāk esošajā diagrammā ir parādītas visas darbības, kas jāveic, lai iestatītu un izpildītu eksperimentu e-komercijas tīmekļa vietnē pakalpojumā Dynamics 365 Commerce. Papildu darbības ir apskatītas atsevišķās tēmās.
 
-[ ![Eksperimenta lietotāja maršruts – izpildīšana un pārraudzīšana.](./media/experimentation_run_monitor.svg) ](./media/experimentation_run_monitor.svg#lightbox)
+[ ![Eksperimenta lietotāja maršruts – izpildīšana un pārraudzīšana](./media/experimentation_run_monitor.svg) ](./media/experimentation_run_monitor.svg#lightbox)
 
 Pēc variantu publicēšanas, visas darbības, kas jāveic pakalpojumā Commerce, lai izpildītu eksperimentu, ir pabeigtas. Nākamā darbība ir noteikt, kādu variantu rādīt katram lietotājam, kad tie pieprasa lapu. To nosaka trešās puses pakalpojums, bet vispirms pakalpojumā ir jāaktivizē eksperiments. Tā kā eksperimenta aktivizēšanas darbības dažādos pakalpojumos atšķiras, jums ir jārīkojas saskaņā ar pakalpojuma vai nodrošinātāja instrukcijām. Ja eksperiments nav aktivizēts, lietotāji redzēs tikai lapas noklusējuma versiju (varianti netiks rādīti).
 
@@ -50,6 +52,3 @@ Ja kāda iemesla dēļ ir nepieciešams veikt izmaiņas variantos, veiciet tāl�
 
 ## <a name="next-step"></a>Nākošā darbība
 [Varianta publicēšana un eksperimenta pabeigšana](experimentation-review-complete.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,23 +1,25 @@
 ---
 title: Analīzes iespēju pievienošana darbvietām, izmantojot Power BI Embedded
 description: Šajā tēmā ir aprakstīts, kā iegult Power BI pārskatu darbvietas cilnē Analīze.
-author: RichdiMSFT
+author: tjvass
+manager: AnnBe
 ms.date: 06/21/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: richdi
+ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: ed562dca621acea24efa3f157f695257cb919cdda577cf9ae6dd0b0c942e1b70
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 53c9d6343422f64aed74ce436bafd2c8b2ce1c3e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760156"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680940"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analīzes iespēju pievienošana darbvietām, izmantojot Power BI Embedded
 
@@ -27,11 +29,11 @@ ms.locfileid: "6760156"
 > Šis līdzeklis tiek atbalstīts programmā Finance and Operations (7.2 un jaunākās versijās).
 
 ## <a name="introduction"></a>Ievads
-Šajā tēmā parādīts, kā iegult Microsoft Power BI atskaiti darbvietas cilnē **Analītika**. Šeit sniegtā piemēra ietvaros paplašināsim darbvietu **Rezervēšanas pārvaldība** autoparka pārvaldības programmā, lai cilnē **Analīze** iegultu analītisku darbvietu.
+Šajā tēmā ir aprakstīts, kā iegult Microsoft Power BI pārskatu darbvietas cilnē **Analīze**. Šeit sniegtā piemēra ietvaros paplašināsim darbvietu **Rezervēšanas pārvaldība** autoparka pārvaldības programmā, lai cilnē **Analīze** iegultu analītisku darbvietu.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 + Piekļuve izstrādātāju videi, kas darbina platformas 8. atjauninājumu vai jaunāku atjauninājumu.
-+ Analītiskā atskaite (.pbix fails), kas tika izveidota, izmantojot Microsoft Power BI Desktop un kuras datu modelis tiek iegūts no Entitīju veikalu datu bāzes.
++ Analītisks pārskats (.pbix formāta fails), kurš ir izveidots, izmantojot Microsoft Power BI Desktop, un kura datu modelis ir iegūts no elementu krātuves datu bāzes.
 
 ## <a name="overview"></a>Pārskats
 Neatkarīgi no tā, vai paplašināt esošu programmas darbvietu vai ieviešat jaunu darbvietu, varat izmantot iegultos analītiskos skatus, lai nodrošinātu visaptverošus un interaktīvus biznesa datu skatus. Analītiskās darbvietas cilnes pievienošanas procesā ir četras darbības.
@@ -54,11 +56,11 @@ Izpildiet tālāk norādītās darbības, lai pievienotu .pbix formāta failu k
 3. Dialoglodziņa **Pievienot jaunu vienumu** sadaļā **Operāciju artefakti** atlasiet veidni **Resurss**.
 4. Ievadiet nosaukumu, kas tiks izmantots kā atsauce uz pārskatu X++ metadatos, un pēc tam noklikšķiniet uz **Pievienot**.
 
-    ![Dialoglodziņš Pievienot jaunu vienumu.](media/analytical-workspace-add.png)
+    ![Dialoglodziņš Pievienot jaunu vienumu](media/analytical-workspace-add.png)
 
 5. Atrodiet .pbix failu, kas satur analītiskā pārskata definīciju, un pēc tam noklikšķiniet uz **Atvērt**.
 
-    ![Dialoglodziņš Atlasīt resursa failu.](media/analytical-workspace-select-resource.png)
+    ![Dialoglodziņš Atlasīt resursa failu](media/analytical-workspace-select-resource.png)
 
 Tagad, kad esat pievienojis .pbix failu kā Dynamics 365 resursu, varat iegult pārskatus darbvietās un pievienot tiešās saites, izmantojot izvēlnes elementus.
 
@@ -67,7 +69,7 @@ Tagad, kad esat pievienojis .pbix failu kā Dynamics 365 resursu, varat iegult 
 
 Tālāk esošajā attēlā ir parādīts, kā izskatās forma **FMClerkWorkspace** Microsoft Visual Studio noformētājā.
 
-![Forma FMClerkWorkspace pirms izmaiņām.](media/analytical-workspace-definition-before.png)
+![Forma FMClerkWorkspace pirms izmaiņām](media/analytical-workspace-definition-before.png)
 
 Veiciet tālāk norādītās darbības, lai paplašinātu formas definīciju darbvietai **Rezervēšanas pārvaldība**.
 
@@ -92,7 +94,7 @@ Veiciet tālāk norādītās darbības, lai paplašinātu formas definīciju dar
 
 Tālāk esošajā attēlā parādīts, kā noformējums izskatās pēc šo izmaiņu lietošanas.
 
-![FMClerkWorkspace pēc izmaiņām.](media/analytical-workspace-definition-after.png)
+![FMClerkWorkspace pēc izmaiņām](media/analytical-workspace-definition-after.png)
 
 Tagad, kad esat pievienojis formu vadīklas, kas tiks izmantotas darbvietas pārskata iegulšanai, jums ir jādefinē vecākobjekta vadīklas lielums tā, lai varētu izvietot izkārtojumu. Pēc noklusējuma pārskatā būs redzama gan lapa **Filtru rūts**, gan lapa **Cilne**. Tomēr šo vadīklu redzamību var mainīt pēc nepieciešamības pārskata mērķa patērētājam.
 
@@ -142,7 +144,7 @@ Izpildiet tālāk norādītās darbības, lai pievienotu biznesa loģiku, kas in
 
 Esat pabeidzis uzdevumu ar biznesa loģikas pievienošanu, kas inicializē iegulto pārskatu skatītāja vadīklu. Tālāk esošajā attēlā parādīts, kā darbvieta izskatās pēc šo izmaiņu lietošanas.
 
-![Pārskats iegults darbvietā.](media/analytical-workspace-final.png)
+![Pārskats iegults darbvietā](media/analytical-workspace-final.png)
 
 > [!NOTE]
 > Esošajam darbības skatam varat piekļūt, izmantojot darbvietas cilnes zem lapas virsraksta.
@@ -173,6 +175,3 @@ public static void initializeReportControl(
 | showFilterPane   | Būla vērtība, kas norāda, vai filtra rūts jārāda (**Patiess**) vai jāpaslēpj (**Aplams**).     |
 | showNavPane      | Būla vērtība, kas norāda, vai navigācijas rūts jārāda (**Patiess**) vai jāpaslēpj (**Aplams**). |
 | defaultFilters   | Power BI pārskata noklusējuma filtri.                                                                 |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

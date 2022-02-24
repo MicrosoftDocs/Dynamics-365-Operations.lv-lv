@@ -2,9 +2,11 @@
 title: Storno uzskaite
 description: Storno uzskaite ir prakse, kurā tiek izmantoti negatīvie skaitļi, lai apgrieztu sākotnējos žurnāla konta ierakstus.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: Czech Republic, Germany, Hungary, Latvia, Lithuania, Poland, R
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c8bea5d5ec8069e78f3ed5e7d1d6a74ee28ce2dea1891ad71e410d4c309a79c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 9ee59d879a0500b5addfd9540f35cd818d7126c5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764213"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968322"
 ---
 # <a name="storno-accounting"></a>Storno uzskaite
 
@@ -119,7 +121,7 @@ Finance īpašā veidā apstrādā negatīvās summas žurnālā. Vispārējais 
 <tbody>
 <tr class="row-2">
 <td class="column-1"> Debetkarte</td>
-<td class="column-2">Nē</td>
+<td class="column-2">Nav</td>
 <td class="column-3">&gt;0</td>
 <td class="column-4" align="right">Summa</td>
 <td class="column-5" align="right">Summa</td>
@@ -129,7 +131,7 @@ Finance īpašā veidā apstrādā negatīvās summas žurnālā. Vispārējais 
 </tr>
 <tr class="row-3">
 <td class="column-1"> Kredītkarte</td>
-<td class="column-2">Nē</td>
+<td class="column-2">Nav</td>
 <td class="column-3">&lt;0</td>
 <td class="column-4" align="right">-Summa</td>
 <td class="column-5" align="right">Summa</td>
@@ -162,11 +164,8 @@ Finance īpašā veidā apstrādā negatīvās summas žurnālā. Vispārējais 
 
 Varat pielāgot Storno attēlojumu formās, režģos, kolonnās un laukos. Piemēram, varat izslēgt zīmes rādīšanu vai mainīt atkāpi negatīvajām summām. Varat arī izmantot lauku **Labojums** ar visiem rādīšanas iestatījumiem; ja ir iestatīta lauka **Labojums** vērtība Jā, tas ir Storno ieraksts.
 
-![Žurnāla ieraksta Storno summas.](./media/journal-storno.png)
+![Žurnāla ieraksta Storno summas](./media/journal-storno.png)
 
 ## <a name="how-documents-create-storno"></a>Kā dokumenti izveido Storno
 Noteikti dokumenti izraisa atcelšanas transakciju izveidi. Piemēram, ārvalstu valūtas pārvērtēšanas virsgrāmatai, kreditoru un debitoru parādu dokumenti atceļ nerealizēto peļņu un zaudējumus. Papildinformāciju skatiet rakstā [Ārvalstu valūtas pārvērtēšana virsgrāmatai](../general-ledger/foreign-currency-revaluation-general-ledger.md) vai [Ārvalstu valūtas pārvērtēšana kreditoriem un debitoriem](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md). Pēc atcelšanas transakcijas izveides tiek izveidotas jaunas transakcijas ar nerealizēto peļņu un zaudējumiem. Atcelšanas transakcijas tiek izveidotas arī krājumiem. Papildinformāciju skatiet rakstā [Krājumu slēgšana](../../supply-chain/cost-management/inventory-close.md). Ir dokumenti, kas ļauj atcelt iepriekš grāmatotu dokumentu. Piemēram, lietotājs var izveidot kredīta notu, lai atceltu iepriekš izveidotu rēķinu. Dokumentos tiek izmantoti īpaši parametri, lai izveidotu reversīvās vai Storno transakcijas. Piemēram, ārvalstu valūtas pārvērtēšana izraisa reversīvas vai Storno transakcijas izveidi, pamatojoties uz Virsgrāmatas labojuma parametru. Debitora kredīta nota izveido reversīvas vai Storno transakcijas, pamatojoties uz debitoru parādu kredīta notas labojuma parametru.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

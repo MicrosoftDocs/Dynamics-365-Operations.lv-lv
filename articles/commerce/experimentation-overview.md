@@ -2,24 +2,28 @@
 title: Eksperimentēšana pakalpojumā Dynamics 365 Commerce
 description: Eksperimentēšana ļauj veidot, rediģēt un pārvaldīt lapu izkārtojumu un satura apstrādi vietnes veidotājā. E-komercijas lapām un lapas entītijām ir iespējots nepārtraukts eksperimentēšanas atbalsts.
 author: sushma-rao
+manager: AnnBe
 ms.date: 10/21/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 292a8934e735c76389e36603a708fd2a1bbf7691
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 85eb7a661cc66c42699797cca4fa6820941de7c0
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986545"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4414189"
 ---
 # <a name="experimentation-in-dynamics-365-commerce"></a>Eksperimentēšana pakalpojumā Dynamics 365 Commerce
 Izmantojiet eksperimentēšanu pakalpojumā Dynamics 365 Commerce, lai pārbaudītu hipotēzi par jūsu e-komercijas lapu efektivitāti un pieņemtu lēmumus, pamatojoties uz datiem. Commerce atbalsta A/B testēšanu lapās, moduļos un fragmentos un ļauj novērtēt piedāvāto izmaiņu ietekmi uz jūsu tīmekļa vietni.
@@ -38,7 +42,7 @@ Varat veidot, rediģēt un pārvaldīt lapu un satura apstrādi, ko sauc par **v
 ## <a name="experimentation-lifecycle"></a>Eksperimenta dzīves cikls
 Eksperimenta iestatīšana, variantu izveide un eksperimenta izpildīšana ir iteratīvs process. Tālāk redzamajā diagrammā parādīts eksperimenta dzīves cikls pakalpojumā Commerce un trešās puses pakalpojumā. 
 
-[ ![Eksperimenta dzīves cikls.](./media/experimentation_lifecycle.svg) ](./media/experimentation_lifecycle.svg#lightbox)
+[ ![Eksperimenta dzīves cikls](./media/experimentation_lifecycle.svg) ](./media/experimentation_lifecycle.svg#lightbox)
 
 Lai uzzinātu vairāk par katru eksperimenta procesa darbību, skatiet tālāk norādītās tēmas.
 - [Hipotēzes identificēšana un eksperimenta rādītāju noteikšana](experimentation-identify.md)
@@ -53,6 +57,3 @@ Lai uzzinātu vairāk par katru eksperimenta procesa darbību, skatiet tālāk n
 
 ## <a name="next-step"></a>Nākamā darbība
 [Hipotēzes identificēšana un eksperimenta panākumu rādītāju noteikšana](experimentation-identify.md) 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

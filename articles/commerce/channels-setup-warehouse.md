@@ -1,31 +1,37 @@
 ---
 title: Noliktavas iestatīšana
-description: Šajā tēmā aprakstīts, kā iestatīt noliktavu, kuru izmantot ar jauno kanālu risinājumā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā ir aprakstīts, kā iestatīt noliktavu, ko izmantot kopā ar jaunu kanālu programmā Microsoft Dynamics 365 Commerce.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6987263bfa83582f465e3b47c4f7b9d96cf087c814a1e002afd289852346975b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6da72ae612f0520965a2b11a21123d4642303ac3
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734023"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414042"
 ---
 # <a name="warehouse-set-up"></a>Noliktavas iestatīšana
 
+
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aprakstīts, kā iestatīt noliktavu, kuru izmantot ar jauno kanālu risinājumā Microsoft Dynamics 365 Commerce.
+Šajā tēmā ir aprakstīts, kā iestatīt noliktavu, ko izmantot kopā ar jaunu kanālu programmā Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Pārskats
 
 Katram Commerce kanālam ir nepieciešama konfigurēta noliktava, kas saistīta ar to. Šīs procedūras nodrošina minimālo konfigurāciju, kas nepieciešama, lai iestatītu noliktavu Commerce kanālam. Lai iegūtu vairāk informācijas par noliktavas iestatījumiem, lūdzu, skatiet sadaļu [Noliktavas pārvaldības pārskats](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json).
 
@@ -45,7 +51,7 @@ Lai konfigurētu noliktavas vietu, rīkojieties, kā norādīts tālāk.
 
 Tālāk redzamajā attēlā ir parādīts noliktavas vietas piemērs.
 
-![Noliktavas vietas piemērs.](media/warehouse-site.png)
+![Noliktavas vietas piemērs](media/warehouse-site.png)
 
 ## <a name="set-up-a-warehouse"></a>Noliktavas iestatīšana
 
@@ -98,7 +104,7 @@ Lai iestatītu noliktavas krājumu vietas standarta, bojātiem un atgrieztajiem 
     
 Tālāk esošajā attēlā redzams Sanfrancisko noliktavas krājumu vietas iestatījums.
 
-![Krājumu novietojuma iestatījumu piemērs.](media/warehouse-inventory-locations.png)
+![Krājumu novietojuma iestatījumu piemērs](media/warehouse-inventory-locations.png)
     
 ## <a name="complete-warehouse-setup"></a>Noliktavas iestatīšanas pabeigšana
 
@@ -121,7 +127,7 @@ Lai pabeigtu noliktavas iestatīšanu, rīkojieties, kā norādīts tālāk.
 
 Tālāk esošajā attēlā ir parādīta detalizēta informācija par konfigurēto noliktavu.
 
-![Konfigurētas noliktavas piemērs.](media/warehouse-sample.png)
+![Konfigurētas noliktavas piemērs](media/warehouse-sample.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
@@ -141,6 +147,3 @@ Tālāk esošajā attēlā ir parādīta detalizēta informācija par konfigurē
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

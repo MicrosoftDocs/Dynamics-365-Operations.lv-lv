@@ -1,31 +1,36 @@
 ---
-title: Konteinera modulis
-description: Šajā tēmā aplūkoti konteinera moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
+title: Container modulis
+description: Šajā tēmā tiek stāstīts par konteinera moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 752d0ddc6f666a5d96a2593c8c246a82dc7e1de2fd4bd2356a275222d7abec29
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9bb2c7d56184d009492b4aa839a3546160ad342f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715444"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413986"
 ---
-# <a name="container-module"></a>Konteinera modulis
+# <a name="container-module"></a>Container modulis
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aplūkoti konteinera moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
+Šajā tēmā tiek stāstīts par konteinera moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Pārskats
 
 Konteinera modulis ir modulis, kas vieso citus moduļus. Konteinera moduļa galvenais nolūks ir definēt, izmantojot tam iestatītos rekvizītus, iekšā esošo moduļu izkārtojumu. Piemēram, šie moduļi var parādīties blakus divu kolonnu, trīs kolonnu, četru kolonnu vai sešu kolonnu izkārtojumā. Tie var būt ierobežoti ar konteinera platumu vai arī var aizpildīt ekrānu. Virsrakstu var pievienot arī katram konteinera modulim.
 
@@ -42,11 +47,11 @@ Tiek atbalstīti trīs standarta konteineru moduļu tipi: konteiners, konteiners
 
 Sekojošajā attēlā ir parādīts konteinera moduļa piemērs, kurā atrodas karuseļa modulis Commerce vietņu veidotājā. Šajā piemērā konteinera moduļa rekvizīts **Platums** ir iestatīts uz **Aizpildīt ekrānu**.
 
-![Konteinera moduļa piemērs.](./media/ecommerce-container.PNG)
+![Konteinera moduļa piemērs](./media/ecommerce-container.PNG)
 
 ## <a name="container-module-properties"></a>Konteinera moduļa pievienošana
 
-| Rekvizīta nosaukums     | Vērtības | Apraksts |
+| Rekvizīta nosaukums     | Vērtības | apraksts |
 |-------------------|--------|-------------|
 | Virsraksts           | Virsraksta teksts un virsraksta etiķete (**H1**, **H2**, **H3**, **H4**, **H5** vai **H6**) | Pēc izvēles konteineram var nodrošināt virsrakstu. Pēc noklusējuma virsrakstam tiek izmantota **H2** virsraksta etiķete. Tomēr etiķeti var mainīt atbilstoši pieejamības prasībām. |
 | Platums             | **Ietilpināt konteinerā** vai **Pilnekrāna režīms** | Ja vērtība ir iestatīta uz **Ietilpināt konteinerā** (noklusējuma vērtība), elementi konteinerā ir ierobežoti ar konteinera platumu. Ja vērtība ir iestatīta uz **Aizpildīt ekrānu**, moduļi neaprobežojas ar konteinera platumu, bet var pāriet pilnekrāna režīmā. |
@@ -137,6 +142,3 @@ Lai pievienotu konteinera atskaņotāja moduli jaunā lapā un iestatītu nepiec
 [Galvenes modulis](author-header-module.md)
 
 [Kājenes modulis](author-footer-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

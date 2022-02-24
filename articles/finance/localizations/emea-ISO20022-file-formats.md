@@ -1,24 +1,27 @@
 ---
 title: ISO20022 failu importēšana
 description: Šajā tēmā ir paskaidrots, kā programmā Microsoft Dynamics 365 Finance importēt ISO 20022 camt.054 un pain.002 formāta maksājumu failus.
-author: anasyash
+author: neserovleo
+manager: AnnBe
 ms.date: 07/27/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPaymMode, CustBankAccounts, VendPaymMode, VendBankAccounts
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Italy, Latvia, Lithuania, Norway, Poland, Spain, Sweden, Switzerland, United Kingdom
-ms.author: anasyash
+ms.author: v-lenest
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 19b9e90ac42c496931c2fc936a25ee3b1b16ce58
-ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.openlocfilehash: b809ba8d92772d8f3f416d4854d4af322e6f954a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7592607"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408266"
 ---
 # <a name="import-iso20022-files"></a>ISO20022 failu importēšana
 
@@ -27,7 +30,7 @@ ms.locfileid: "7592607"
 Varat importēt maksājumu failus, kas ir tālāk norādītajos formātos.
 
  - **ISO20022 camt.054 kredīta izziņa** – importējiet ienākošos maksājumus no šī formāta faila debitoru maksājumu žurnālā.
- - **ISO20022 pain.002 atgrieztais statuss** un **ISO20022 camt.054 debeta izziņa** — importējiet atgriešanas failus šajos formātos kreditoru maksājumu pārsūtījumu žurnālā.
+ - **ISO20022 pain.002 atgrieztais statuss** un **ISO20022 camt.054 debeta izziņa** — importējiet atgriešanas failus šajos formātos kreditoru maksājumu pārsūtījumu žurnālā.
 
 ## <a name="prerequisites-for-importing-the-camt054-credit-advice-file"></a>Priekšnosacījumi camt.054 kredīta izziņas faila importēšanai
 Lai bankas paziņojumus camt.054.001.002 formātā varētu importēt debitoru maksājumu žurnālā, jums ir jāizpilda tālāk norādītie priekšnosacījumi.
@@ -94,11 +97,11 @@ Ja importējat pain.002 failu, tiek atjaunināts kreditora maksājumu rindu stat
 
 Ja importējat camt.054 failu, jums ir jānorāda tālāk norādītie papildu parametri.
 
-- **Maksas ID** — ievadiet maksas ID, kas definēs jaunās komisijas maksas rindas, kuras tiks izveidotas kreditoru maksājumu žurnāla rindā, ja camt.054 failā būs maksas summa.
-- **Jauna žurnāla nosaukums** un **Jauna žurnāla apraksts** — ievadiet tā žurnāla nosaukumu un aprakstu, uz kuru tiks pārsūtītas apstrādātās transakcijas. Pēc pārsūtīšanas jaunajā žurnālā ir jāpiešķir jauni dokumentu numuri.
-- **Importēt tiešā debeta transakcijas** — iestatiet šo opciju uz **Jā**, ja izejošie tiešie debeti ir jāimportē kreditoru maksājumu žurnālā.
-- **Žurnāla nosaukums** — definējiet jaunu žurnāla nosaukumu importētajām tiešā debeta transakcijām.
-- **Transakciju nosegšana** — iestatiet šo opciju uz **Jā**, ja importētie kreditoru maksājumi ir jānosedz ar rēķiniem, kas ir atrasti sistēmā.
+- **Maksas ID** — ievadiet maksas ID, kas definēs jaunās komisijas maksas rindas, kuras tiks izveidotas kreditoru maksājumu žurnāla rindā, ja camt.054 failā būs maksas summa.
+- **Jauna žurnāla nosaukums** un **Jauna žurnāla apraksts** — ievadiet tā žurnāla nosaukumu un aprakstu, uz kuru tiks pārsūtītas apstrādātās transakcijas. Pēc pārsūtīšanas jaunajā žurnālā ir jāpiešķir jauni dokumentu numuri.
+- **Importēt tiešā debeta transakcijas** — iestatiet šo opciju uz **Jā**, ja izejošie tiešie debeti ir jāimportē kreditoru maksājumu žurnālā.
+- **Žurnāla nosaukums** — definējiet jaunu žurnāla nosaukumu importētajām tiešā debeta transakcijām.
+- **Transakciju nosegšana** — iestatiet šo opciju uz **Jā**, ja importētie kreditoru maksājumi ir jānosedz ar rēķiniem, kas ir atrasti sistēmā.
 
 Importēto informāciju var skatīt lapā **Maksājumu pārsūtījumi**. 
 
@@ -107,14 +110,14 @@ Importēto informāciju var skatīt lapā **Maksājumu pārsūtījumi**.
 Importējot formāta konfigurāciju no LCS, tiek importēts viss konfigurācijas koks, un tas nozīmē, ka ir iekļauts modelis un modeļa kartēšana konfigurācijas. Sākot no 8. versijas, maksājumu modelī kartējumi atrodas risinājumu kokā atsevišķās ER konfigurācijās (maksājumu modeļa kartējums 1611, maksājumu modeļa kartējums līdz galamērķim ISO20022 utt.). Atsevišķā modelī ir daudz dažādu maksājuma formātu (maksājuma modelis), tādējādi kartējumu apstrāde ir galvenais nosacījums vienkāršai risinājuma uzturēšanai. Piemērs. Jūs izmantojat ISO20022 maksājumus, lai ģenerētu kredīta pārskaitījuma failus, un pēc tam importējat atbildes ziņojumus no bankas. Šādā scenārijā jums būtu jāizmanto šādas konfigurācijas:
 
  - **Maksājuma modelis**
- - **Maksājumu modeļa kartējums 1611** — šis kartējums tiks lietots, lai ģenerētu eksporta failu
- - **Maksājumu modeļa kartējums līdz galamērķim ISO20022** — šajā konfigurācijā ir iekļauti visi kartējumi, kas tiks izmantoti datu importēšanai (kartējuma virziens: "uz galamērķi")
- - **ISO20022 kredīta pārskaitījums** — šajā konfigurācijā ir iekļauts formāta komponents, kas ir atbildīgs par eksporta faila ģenerēšana (pain.001), pamatojoties uz maksājumu modeļa kartējumu 1611, kā arī formāta-modeļa kartējuma komponents, kas tiks izmantots kopā ar maksājumu modeļa kartējumu līdz galamērķim ISO20022, lai reģistrētu eksportētos maksājumus sistēmā turpmākas importēšanas vajadzībām (importēšana tehniskajā tabulā CustVendProcessedPayments)
+ - **Maksājumu modeļa kartējums 1611** — šis kartējums tiks lietots, lai ģenerētu eksporta failu
+ - **Maksājumu modeļa kartējums līdz galamērķim ISO20022** — šajā konfigurācijā ir iekļauti visi kartējumi, kas tiks izmantoti datu importēšanai (kartējuma virziens: "uz galamērķi")
+ - **ISO20022 kredīta pārskaitījums** — šajā konfigurācijā ir iekļauts formāta komponents, kas ir atbildīgs par eksporta faila ģenerēšana (pain.001), pamatojoties uz maksājumu modeļa kartējumu 1611, kā arī formāta-modeļa kartējuma komponents, kas tiks izmantots kopā ar maksājumu modeļa kartējumu līdz galamērķim ISO20022, lai reģistrētu eksportētos maksājumus sistēmā turpmākas importēšanas vajadzībām (importēšana tehniskajā tabulā CustVendProcessedPayments)
  - **ISO20022 pārskaitījums (CE)**, kur CE atbilst valsts paplašinājumam — ISO20022 kredīta pārskaitījuma atvasināts formāts ar tādu pašu struktūru un konkrētajai valstij raksturīgam atšķirībām
- - **Pain.002** — šis formāts tiks izmantots kopā ar maksājumu modeļa kartējumu līdz galamērķim ISO20022, lai importētu failu pain.002 kreditoru maksājumu pārskaitījumu žurnālu
- - **Camt.054** — šis formāts tiks izmantots kopā ar maksājumu modeļa kartējumu līdz galamērķim ISO20022, lai importētu failu camt.054 kreditoru maksājumu pārskaitījumu žurnālu. Tāda pati formātu konfigurācija tiks izmantota debitoru maksājumu importēšanas funkcionalitātē, tomēr atšķirīgs kartējums tiks izmantots maksājumu modeļa kartējumā līdz galamērķa ISO20022 konfigurācijai.
+ - **Pain.002** — šis formāts tiks izmantots kopā ar maksājumu modeļa kartējumu līdz galamērķim ISO20022, lai importētu failu pain.002 kreditoru maksājumu pārskaitījumu žurnālu
+ - **Camt.054** — šis formāts tiks izmantots kopā ar maksājumu modeļa kartējumu līdz galamērķim ISO20022, lai importētu failu camt.054 kreditoru maksājumu pārskaitījumu žurnālu. Tāda pati formātu konfigurācija tiks izmantota debitoru maksājumu importēšanas funkcionalitātē, tomēr atšķirīgs kartējums tiks izmantots maksājumu modeļa kartējumā līdz galamērķa ISO20022 konfigurācijai.
 
-Plašāku informāciju par elektronisko pārskatu veidošanu skatiet šeit: [Elektronisko pārskatu veidošanas apskats](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md).
+Plašāku informāciju par elektronisko pārskatu veidošanu skatiet šeit: [Elektronisko pārskatu veidošanas apskats](../../dev-itpro/analytics/general-electronic-reporting.md).
 
 ## <a name="additional-resources"></a>Papildu resursi
 - [Kreditoru maksājumu izveide un eksportēšana, izmantojot maksājumu formātu ISO20022](./tasks/create-export-vendor-payments-iso20022-payment-format.md)
@@ -126,6 +129,3 @@ Plašāku informāciju par elektronisko pārskatu veidošanu skatiet šeit: [Ele
 - [Maksājuma metodes iestatīšana ISO20022 pārvietošanai kredītā](./tasks/set-up-method-payment-iso20022-credit-transfer.md)
 - [Maksājumu metodes iestatīšana ISO20022 tiešajam debetam](./tasks/setup-method-payment-iso20022-direct-debit.md)
 - [Kreditoru un kreditoru bankas kontu iestatīšana ISO20022 kredīta pārsūtījumiem](./tasks/set-up-vendor-iso20022-credit-transfers.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

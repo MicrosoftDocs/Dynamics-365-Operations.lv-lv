@@ -1,10 +1,12 @@
 ---
 title: Kavējuma reģistrēšana sadaļā Laiks un apmeklētība
-description: Šajā tēmā ir paskaidrots, kā reģistrēt kavējumu sadaļā Laiks un apmeklējums.
+description: Šajā tēmā ir paskaidros, kā reģistrēt kavējumu sadaļā Laiks un apmeklējums.
 author: johanhoffmann
+manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JMGParameters, JmgAbsenceCalendar
 audience: Application User
@@ -14,24 +16,24 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 06adca12c172dffa241fe44a6b64bb30863bcb4a8f3867429ad10bc852efd7c3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 12a61f23ac5a16000275e53d3901c8aea202bab0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730230"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966634"
 ---
 # <a name="absence-registration-in-time-and-attendance"></a>Kavējuma reģistrēšana sadaļā Laiks un apmeklējums
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīti kavējuma jēdzieni un paskaidrots, kā reģistrēt kavējumu sadaļā Laiks un apmeklējums.
+Šajā tēmā ir aprakstīti kavējuma jēdzieni un ir paskaidrots, kā reģistrēt kavējumu sadaļā Laiks un apmeklējums.
 
 ## <a name="absence-that-is-based-on-regular-work-hours"></a>Kavējums, pamatojoties uz parasto darba laiku
 
 Par nodarbinātā kavējumu tiek uzskatīts viss laiks, ko nodarbinātais nestrādā savā parastajā darba laikā. Parastais darba laiks ir definēts nodarbinātā standarta laika profilā.
 
-Piemēram, nodarbinātais strādā atbilstoši dienas profilam ar ierašanās laiku plkst. 7.00 un aiziešanas laiku plkst. 15.00. Ja nodarbinātais ierodas plkst. 9.00, tiek uzskatīts, ka viņš šajā dienā ir kavējis darbu no plkst. 7.00 līdz plkst. 9.00.
+Piemēram, nodarbinātais strādā atbilstoši dienas profilam ar ierašanās laiku plkst. 7:00 un aiziešanas laiku plkst. 15:00. Ja nodarbinātais ierodas plkst. 9.00, tiek uzskatīts, ka viņš šajā dienā ir kavējis darbu no plkst. 7.00 līdz plkst. 9.00.
 
 Šādā gadījumā nodarbinātajiem tiek prasīts ievadīt kavējuma iemeslu. Viņi var norādīt iemeslu, atlasot kavējuma kodu.
 
@@ -81,7 +83,7 @@ Piemēros ir izmantots tālāk norādītais profils.
 
 | Ierašanās | Standarta laiks    | Pārtraukums             | Standarta laiks | Brīvais režīms-        | Aiziešana | Brīvais režīms +        |
 |----------|------------------|-------------------|---------------|--------------|-----------|--------------|
-| 8.00     | No 9.00 līdz 11.30 | No 11.30 līdz 12.00 | No 12.00 līdz 15.00 | No 15.00 līdz 16.00 | 16.00      | No 16.00 līdz 18.00 |
+| 8:00     | No 9.00 līdz 11.30 | No 11.30 līdz 12.00 | No 12.00 līdz 15.00 | No 15.00 līdz 16.00 | 16.00      | No 16.00 līdz 18.00 |
 
 ### <a name="example-1-signing-out-during-a-flex--period"></a>1. piemērs: izrakstīšanās brīvā režīma- periodā
 
@@ -101,11 +103,8 @@ Darbinieku laika reģistrācijas ir jāaprēķina un jāapstiprina, pirms tās v
 
 Apstiprinātājs var mainīt nodarbinātā laika reģistrācijas. Apstiprinātājs var pat mainīt jebkuru nodarbinātā reģistrēto kavējumu. Ja apstiprinātājs manuāli ievada laika periodu ar kavējuma kodu, šī perioda kavējuma kods netiek aizstāts ar noklusējuma apmeklējuma kodu, kas ir norādīts sadaļā Laika un apmeklētības parametri.
 
-Piemēram, nodarbinātais ierodas darbā plkst. 10.00 un atlasa kavējuma kodu, kas norāda, ka tas ir ieradies vēlu. Vēlāk darbinieks informē vadītāju, ka laikā no plkst. 8.00 līdz plkst. 10.00 viņš apmeklēja ārstu. Ārsta apmeklējums nedrīkst izraisīt nodarbinātās algas samazināšanu. Tāpēc šajā gadījumā vadītājs var pielāgot divas kavējuma stundas no plkst. 8.00 līdz plkst. 10.00, šīm divām stundām manuāli ievadot kavējuma kodu, kas norāda saslimšanu.
+Piemēram, nodarbinātā ierodas darbā plkst. 10.00 un atlasa kavējuma kodu, kas norāda, ka viņa ir ieradusies vēlu. Vēlāk darbiniece informē vadītāju, ka laikā no plkst. 8.00 līdz plkst. 10.00 viņa apmeklēja ārstu. Ārsta apmeklējums nedrīkst izraisīt nodarbinātās algas samazināšanu. Tāpēc šajā gadījumā vadītājs var pielāgot divas kavējuma stundas no plkst. 8.00 līdz plkst. 10.00, šīm divām stundām manuāli ievadot kavējuma kodu, kas norāda saslimšanu.
 
 ### <a name="calculate-and-approve-absence"></a>Kavējuma aprēķināšana un apstiprināšana
 
 - Atlasiet **Apmeklētības laiks** &gt; **Pārskatīt un apstiprināt** &gt; **Apstiprināt vai aprēķināt**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

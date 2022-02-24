@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: d74142a767a9284e7d61af29e24d5d2ee1347a8540d48c73e6a461cc34e0d759
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bc55820216402afeed98d5a3a18f7da9f882f5d7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773013"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4459467"
 ---
  [!IMPORTANT]
 > Šajā tēmā minētā funkcionalitāte ir pieejama noteiktiem lietotājiem kā daļa no privātā priekšskatījuma laidiena. Saturs un funkcionalitāte var tikt mainīti. 

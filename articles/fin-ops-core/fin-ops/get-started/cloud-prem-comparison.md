@@ -2,9 +2,11 @@
 title: Mākoņa un lokālās versijas līdzekļu salīdzinājums
 description: Šajā tēmā ir parādīts, kādi līdzekļi tiek atbalstīti mākoņa un lokālajā versijā.
 author: sericks007
+manager: AnnBe
 ms.date: 01/14/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 68082ad0ae264b76a852d8d12412af8c4ad917703441c41e67743d1b499a8d73
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 309131f0d7390288a46f84b1375bd87922407159
+ms.sourcegitcommit: a017fc0583a894382b959e22511231dd07d4254a
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736226"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4959898"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Mākoņa un lokālās versijas līdzekļu salīdzinājums
 
@@ -42,9 +44,9 @@ Nākamajās tabulās ir uzskaitīti programmu apgabali. Mākoņa un lokālās ve
 |---------------------|-----------------------------|-----------|-----------------|
 | Atbilstība un sertifikācijas        |                                                                                           | Jā       | Jā             |
 |                                      | SOC 1 1. tipa sertifikācija                                                                | Jā       | Nē              |
-| Datu pārvaldība un integrācija      |                                                                                           | Jā       | Jā             |
+| Datu pārvaldība un integrācija      |                                                                                           | Jā       | Jā             
 |                                      | Eksportēt datus uz jūsu pašu datu noliktavu                                                    | Jā       | Jā             |
-|                                      | Iespējot inkrementālo atjauninājumu eksportēšanu uz datu elementu                                 | Jā       | Jā             |
+|                                      | Iespējot inkrementālo atjauninājumu eksportēšanu uz datu elementu                                 | Jā       | Jā              |
 |                                      | Datu integrācijas                                                                         | Jā       | Jā             |
 | Dokumentu vadība                  |                                                                                           | Jā       | Jā             |
 | Finanšu pārvaldība                 |                                                                                           | Jā       | Jā             |
@@ -55,13 +57,13 @@ Nākamajās tabulās ir uzskaitīti programmu apgabali. Mākoņa un lokālās ve
 |                                      | ER: integrācija ar LCS                                                                  | Jā       | Nē              |
 |                                      | ER: integrācija ar SharePoint                                                           | Jā       | Nē              |
 |                                      | ER: integrācija ar Regulatory Configuration Services (RCS)                              | Jā       | Nē              |
-|                                      | ER: izmanto lokālo failu sistēmu kā ER konfigurāciju krātuvi, kurai var piekļūt caur ER repozitorijiem | Nē        | Jā             |
-|                                      | Integrācija pakalpojumā PowerBI.com                                                              | Jā       | Nē              |
-|                                      | Integrācija pakalpojuma PowerBI darbvirsmā                                                          | Nē        | Jā             |
-|                                      | Analītiskās darbvietas                                                                     | Jā       | Nē              |
-|                                      | Inteliģents biznesa process: ieteikumi                                             | Jā       | Nē              |
-|                                      | OData saturošu Power BI pārskatu izveide, izmantojot Power BI darbvirsmu vai Excel PowerQuery rīkus    | Jā       | Nē              |
-|                                      | SQL Server pārskatu izveides pakalpojumi (SSRS) atbalsta mērogošanu uz āru                                 | Jā       | Jā             |
+|                                      | ER: izmanto lokālo failu sistēmu kā ER konfigurāciju krātuvi, kurai var piekļūt caur ER repozitorijiem | Nr.        | Jā             |
+|                                      | Integrācija pakalpojumā PowerBI.com                                                              | Jā       | Nr.              |
+|                                      | Integrācija pakalpojuma PowerBI darbvirsmā                                                          | Nr.        | Jā             |
+|                                      | Analītiskās darbvietas                                                                     | Jā       | Nr.              |
+|                                      | Inteliģents biznesa process: ieteikumi                                             | Jā       | Nav              |
+|                                      | OData saturošu Power BI pārskatu izveide, izmantojot Power BI darbvirsmu vai Excel PowerQuery rīkus    | Jā       | Nav              |
+|                                      | SQL Server pārskatu izveides pakalpojumi (SSRS) atbalsta mērogošanu uz āru                                 | Jā       | Nē              |
 |                                      | Telemetrija tiek pārsūtīta uz mākoni                                                   | Jā       | Nē              |
 | Lifecycle Services                   |                                                                                           | Jā       | Jā             |
 |                                      | Konfigurējami biznesa procesi                                                           | Jā       | Nē              |
@@ -84,18 +86,18 @@ Nākamajās tabulās ir uzskaitīti programmu apgabali. Mākoņa un lokālās ve
 
 | **Zona**                | **Līdzeklis**             | **Mākonis** | **Darba telpās** |
 |-------------------------|-------------------|-----------|-----------------|
-| Līdzekļu pārvaldība                     |                                                                                           | Jā       | Jā             |
+| Līdzekļu pārvaldība                     |                                                                                           | Jā       | Nr. |
 | Atbilstība un sertifikācijas        |                                                                                           | Jā       | Jā             |
-|                                      | SOC 1 1. tipa sertifikācija                                                                | Jā       | Nē              |
+|                                      | SOC 1 1. tipa sertifikācija                                                                | Jā       | Nav              |
 | Izmaksu uzskaite                      |                                                                                           | Jā       | Jā             |
-|                                      | Power BI satura pakotne Izmaksu uzskaite                                                 | Jā       | Nē              |
-|                                      | Izmaksu uzskaites darbvieta mobilajai programmai                                                  | Jā       | Nē              |
+|                                      | Power BI satura pakotne Izmaksu uzskaite                                                 | Jā       | Nav              |
+|                                      | Izmaksu uzskaites darbvieta mobilajai programmai                                                  | Jā       | Nav              |
 | Izmaksu pārvaldība                      |                                                                                           | Jā       | Jā             |
-|                                      | Power BI satura pakotne Izmaksu pārvaldība                                                 | Jā       | Nē              |
+|                                      | Power BI satura pakotne Izmaksu pārvaldība                                                 | Jā       | Nav              |
 | Datu pārvaldība un integrācija      |                                                                                           | Jā       | Jā             |
-|                                      | Konfigurācijas vadīts paplašinājums                                                            | Jā       | Nē              |
+|                                      | Konfigurācijas vadīts paplašinājums                                                            | Jā       | Nav              |
 |                                      | Eksportēt datus uz jūsu pašu datu noliktavu                                                    | Jā       | Jā             |
-|                                      | Iespējot inkrementālo atjauninājumu eksportēšanu uz datu elementu                                 | Jā       | Jā             |
+|                                      | Iespējot inkrementālo atjauninājumu eksportēšanu uz datu elementu                                 | Jā       | Jā              |
 |                                      | Datu integrācijas                                                                         | Jā       | Jā             |
 | Dokumentu vadība                  |                                                                                           | Jā       | Jā             |
 | Palīdzība                                 |                                                                                           | Jā       | Nē              |
@@ -104,13 +106,13 @@ Nākamajās tabulās ir uzskaitīti programmu apgabali. Mākoņa un lokālās ve
 |                                      | ER: integrācija ar LCS                                                                  | Jā       | Nē              |
 |                                      | ER: integrācija ar SharePoint                                                           | Jā       | Nē              |
 |                                      | ER: integrācija ar Regulatory Configuration Services (RCS)                              | Jā       | Nē              |
-|                                      | ER: izmanto lokālo failu sistēmu kā ER konfigurāciju krātuvi, kurai var piekļūt caur ER repozitorijiem | Nē        | Jā             |
-|                                      | Integrācija pakalpojumā PowerBI.com                                                              | Jā       | Nē              |
-|                                      | Integrācija pakalpojuma PowerBI darbvirsmā                                                          | Nē        | Jā             |
-|                                      | Analītiskās darbvietas                                                                     | Jā       | Nē              |
-|                                      | Inteliģents biznesa process: ieteikumi                                             | Jā       | Nē              |
-|                                      | OData saturošu Power BI pārskatu izveide, izmantojot Power BI darbvirsmu vai Excel PowerQuery rīkus    | Jā       | Nē              |
-|                                      | SQL Server pārskatu izveides pakalpojumi (SSRS) atbalsta mērogošanu uz āru                                 | Jā       | Jā             |
+|                                      | ER: izmanto lokālo failu sistēmu kā ER konfigurāciju krātuvi, kurai var piekļūt caur ER repozitorijiem | Nr.        | Jā             |
+|                                      | Integrācija pakalpojumā PowerBI.com                                                              | Jā       | Nr.              |
+|                                      | Integrācija pakalpojuma PowerBI darbvirsmā                                                          | Nr.        | Jā             |
+|                                      | Analītiskās darbvietas                                                                     | Jā       | Nr.              |
+|                                      | Inteliģents biznesa process: ieteikumi                                             | Jā       | Nav              |
+|                                      | OData saturošu Power BI pārskatu izveide, izmantojot Power BI darbvirsmu vai Excel PowerQuery rīkus    | Jā       | Nav              |
+|                                      | SQL Server pārskatu izveides pakalpojumi (SSRS) atbalsta mērogošanu uz āru                                 | Jā       | Nē              |
 |                                      | Telemetrija tiek pārsūtīta uz mākoni                                                   | Jā       | Nē              |
 | Krājumu vadība                 |                                                                                           | Jā       | Jā             |
 | Lifecycle Services                   |                                                                                           | Jā       | Jā             |
@@ -118,28 +120,28 @@ Nākamajās tabulās ir uzskaitīti programmu apgabali. Mākoņa un lokālās ve
 | Lokalizācijas                        |                                                                                           | Jā       | Jā             |
 | Ražošana                        |                                                                                           | Jā       | Jā             |
 | Vispārējā plānošana un prognozēšana      |                                                                                           | Jā       | Jā             |
-| Plānošanas optimizācija                |                                                                                           | Jā       | Nē              |
+| Plānošanas optimizācija                |                                                                                           | Jā       | Nr.              |
 | Mobilā programma, darbvietas un platforma |                                                                                           | Jā       | Jā             |
 | Office integrācija                   |                                                                                           | Jā       | Jā             |
 | Organizācijas administrēšana          |                                                                                           | Jā       | Jā             |
 | Sagāde un avoti             |                                                                                           | Jā       | Jā             |
-|                                      | Darbalaika beigu atzīmēšana ārējā katalogā no pirkšanas pieprasījuma                                   | Jā       | Nē              |
-|                                      | Power BI satura pakotnes Pirkšanas tēriņu analīze pārskati                                                  | Jā       | Nē              |
+|                                      | Darbalaika beigu atzīmēšana ārējā katalogā no pirkšanas pieprasījuma                                   | Jā       | Nav              |
+|                                      | Power BI satura pakotnes Pirkšanas tēriņu analīze pārskati                                                  | Jā       | Nav              |
 | Preču informācijas pārvaldība       |                                                                                           | Jā       | Jā             |
 | Preces šablona dati                  |                                                                                           | Jā       | Jā             |
 | Ražošana                           |                                                                                           | Jā       | Jā             |
-|                                      | Power BI satura pakotnes Ražošanas veiktspēja pārskati                                                   | Jā       | Nē              |
+|                                      | Power BI satura pakotnes Ražošanas veiktspēja pārskati                                                   | Jā       | Nav              |
 | Projektu vadība un uzskaite    |                                                                                           | Jā       | Jā             |
 | Pārdošana                                |                                                                                           | Jā       | Jā             |
-|                                      | Power BI satura pakotnes Pārdošanas un ienesīguma veiktspēja pārskati                                      | Jā       | Nē              |
+|                                      | Power BI satura pakotnes Pārdošanas un ienesīguma veiktspēja pārskati                                      | Jā       | Nav              |
 | Drošība                             |                                                                                           | Jā       | Jā             |
 | Pakalpojumu pārvaldība                   |                                                                                           | Jā       | Jā             |
 | Piegādes ķēdes pārvaldība              |                                                                                           | Jā       | Jā             |
 | Transportēšanas pārvaldība            |                                                                                           | Jā       | Jā             |
-| Kreditoru sadarbība                 |                                                                                           | Jā       | Nē              |
+| Kreditoru sadarbība                 |                                                                                           | Jā       | Nav              |
 | Noliktavas vadība                 |                                                                                           | Jā       | Jā             |
 |                                      | Mobilā noliktavas programma                                                                      | Jā       | Jā             |
-|                                      | Power BI satura pakotnes Noliktavas pārskati                                                              | Jā       | Nē              |
+|                                      | Power BI satura pakotnes Noliktavas pārskati                                                              | Jā       | Nav              |
 | Tīmekļa klients                           |                                                                                           | Jā       | Jā             |
 |                                      | Uzdevumu ierakstītājs — Saglabāt vai ielādēt uzdevumu ierakstus no BPM bibliotēkas                         | Jā       | Nē              |
 | Atbalsts                              |                                                                                           | Jā       | Jā             |
@@ -147,7 +149,7 @@ Nākamajās tabulās ir uzskaitīti programmu apgabali. Mākoņa un lokālās ve
 
 ## <a name="dynamics-365-commerce"></a>Dynamics 365 Commerce 
 
-Lai apskatītu iespēju sarakstu, kuras ir pieejamas lokālajos izvietojumos, skatiet tēmu [Commerce iespējas, kas ir pieejamas lokālos izvietojumos](../../../commerce/retail-onprem.md).
+Lai apskatītu iespēju sarakstu, kuras ir pieejamas lokālajos izvietojumos, skatiet tēmu [Commerce iespējas, kas ir pieejamas lokālos izvietojumos](../../../retail/retail-onprem.md).
 
 ## <a name="dynamics-365-human-resources"></a>Dynamics 365 Human Resources 
 
@@ -164,16 +166,13 @@ Lai apskatītu iespēju sarakstu, kuras ir pieejamas lokālajos izvietojumos, sk
 | Pārraudzība un telemetrija   |                                           | Jā       | Jā             |
 | Platformas saderība     |                                           | Jā       | Jā             |
 | Apkalpošana                  |                                           | Jā       | Jā             |
-|                            | Vides atjaunināšana                    | Jā       | Nē              |
+|                            | Vides atjaunināšana                    | Jā       | Nr.              |
 | Trasēšanas parsētājs               |                                           | Jā       | Jā             |
 | PerfTimer                  |                                           | Jā       | Jā\*           |
 | Jaunināt                    |                                           | Jā       | Jā             |
-|                            | Jaunināt                                   | Jā       | Nē              |
-|                            | Jaunināšana un atbalsts iepriekšējām versijām | Jā       | Nē              |
+|                            | Jaunināt                                   | Jā       | Nr.              |
+|                            | Jaunināšana un atbalsts iepriekšējām versijām | Jā       | Nr.              |
 | Visual Studio izstrāde  |                                           | Jā       | Jā             |
 
-\* Lokālajās vidēs PerfTimer parāda tikai klienta rezultātus.
+\*Lokālajās vidēs PerfTimer parāda tikai klienta rezultātus.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

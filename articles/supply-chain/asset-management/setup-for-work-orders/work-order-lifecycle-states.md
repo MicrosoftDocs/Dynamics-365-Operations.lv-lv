@@ -1,10 +1,12 @@
 ---
 title: Darba pasūtījumu dzīves ciklu stāvokļi
-description: Šajā tēmā ir paskaidroti darba pasūtījuma dzīves cikla stāvokļi Līdzekļu pārvaldībā.
-author: johanhoffmann
+description: Šajā tēmā ir paskaidroti darba pasūtījuma dzīves cikla stāvokļi līdzekļu pārvaldībā.
+author: josaw1
+manager: tfehr
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderLifecycleState, EntAssetWorkOrderLifecycleModel
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fa0980438ec629ef7ae6bf711d5ae87efca131e6ab86dfcaa1f17d953725147a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2a8052942ff97c9e8033d5915723e82c42f964c8
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768670"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021583"
 ---
 # <a name="work-order-lifecycle-states"></a>Darba pasūtījumu dzīves ciklu stāvokļi
 
@@ -31,11 +33,11 @@ ms.locfileid: "6768670"
 
 Darba pasūtījuma dzīves cikla stāvokļi definē stāvokļus, kurus darba pasūtījums var iziet. Piemēri ietver tādus stāvokļus kā **Izveidots**, **Ieplānots**, **Notiek izpilde** un **Pabeigts**. Darba pasūtījuma dzīves cikla stāvokļus var manuāli atjaunināt darba pasūtījumā, kā arī tie var tikt atjaunināti automātiski (piemēram, darba pasūtījuma plānošanas laikā).
 
-Darba pasūtījuma dzīves cikla stāvokļi, kas nepieciešami jūsu darba pasūtījumiem, ir jāpievieno atbilstošajiem projekta posmiem lapā **Projekta pārvaldības un uzskaites parametri** (**Projekta pārvaldība un uzskaite** \> **Projekta pārvaldības un uzskaites parametri**). Vispirms jūs iestatāt projekta posmus lapā Projektu pārvaldība un uzskaite. Pēc tam Līdzekļu pārvaldībā jūs iestatāt darba pasūtījuma dzīves cikla stāvokļus un darba pasūtījuma dzīves cikla modeļus.
+Darba pasūtījuma dzīves cikla stāvokļi, kas nepieciešami jūsu darba pasūtījumiem, ir jāpievieno atbilstošajiem projekta posmiem lapā **Projekta pārvaldības un uzskaites parametri** (**Projekta pārvaldība un uzskaite** \> **Projekta pārvaldības un uzskaites parametri**). Vispirms jūs iestatāt projekta posmus lapā Projektu pārvaldība un uzskaite. Pēc tam līdzekļu pārvaldībā jūs iestatāt darba pasūtījuma dzīves cikla stāvokļus un darba pasūtījuma dzīves cikla modeļus.
 
 Tālāk esošajā tabulā ir aprakstītas opcijas, kas atrodas sadaļās **Darba pasūtījums** un **Grafiks**, kopsavilkuma cilnē **Vispārīgi**, lapā **Darba pasūtījuma dzīves cikla stāvoklis** (**Līdzekļa pārvaldība** \> **Iestatīšana** \> **Darba pasūtījumi** \> **Dzīves cikla stāvokļi**).
 
-![Darba pasūtījumu dzīves ciklu stāvokļu lapa.](media/09-setup-for-work-orders.png)
+![Darba pasūtījumu dzīves ciklu stāvokļu lapa](media/09-setup-for-work-orders.png)
 
 | Opcijas nosaukums                   | Apraksts |
 |-------------------------------|-------------|
@@ -47,7 +49,7 @@ Tālāk esošajā tabulā ir aprakstītas opcijas, kas atrodas sadaļās **Darba
 | Iestatīt faktisko sākumu              | Iestatiet šo opciju uz **Jā**, ja lietotājam ir nepieciešams piedāvāt atlasīt faktisko darba pasūtījuma sākuma datumu un laiku, kad tas ir atjaunināts šajā dzīves cikla stāvoklī. |
 | Iestatīt faktiskās beigas                | Iestatiet šo opciju uz **Jā**, ja lietotājam ir nepieciešams piedāvāt atlasīt faktisko darba pasūtījuma beigu datumu un laiku, kad tas ir atjaunināts šajā dzīves cikla stāvoklī. |
 | Grāmatot žurnālus                 | Iestatiet šo opciju uz **Jā**, ja ir nepieciešams automātiski publicēt darba pasūtījuma žurnālus, kad darba pasūtījums ir atjaunināts šajā dzīves cikla stāvoklī. Ja rodas kļūda žurnāla publicēšanas laikā, tiks parādīt ziņojums un darba pasūtījuma dzīves cikla stāvokļa atjauninājums tiks atcelts. Lai skatītu darba pasūtījuma žurnāla rindas, atlasiet **Līdzekļa pārvaldība** \> **Kopējs** \> **Darba pasūtījumi** \> **Visi darba pasūtījumi**, **Aktīvie darba pasūtījumi** vai **Mani aktīvie darba pasūtījumi**, atlasiet darba pasūtījumu sarakstā un tad atlasiet **Žurnāli**. Šī automātiskās darba pasūtījuma žurnāla publicēšanas iestatīšana noteiktā dzīves cikla stāvoklī ir tāda pati kā, ja atlasāt **Publicēt žurnālus** lapā **Darba pasūtījuma žurnāli**.<p>**Piezīme.** Ja iestatāt šo opciju uz **Jā**, žurnāli tiek automātiski publicēti, ja nav iestatīta apstiprināšanas darbplūsma. Ja jūsu uzņēmums izmanto žurnāla apstiprinājuma iestatīšanu, kas ir konfigurēta lapā **Žurnāla apstiprinājums** (**Projektu pārvaldība un uzskaite** \> **Iestatīšana** \> **Žurnāli** \> **Žurnāla apstiprinājums**), pārvaldniekam vai darbiniekam ir jāapstiprina un jāpublicē patēriņa reģistrācijas.</p> |
-| Apstrādāt uzturēšanas kontrolsarakstu | Iestatiet šo opciju uz **Jā**, ja ir jāapstrādā visi uzturēšanas kontrolsaraksti, kad darba pasūtījums tiek atjaunināts šajā dzīves cikla stāvoklī. Šīs apstrādes ietvaros tiek iegrāmatotas visas skaitītāja reģistrācijas, kas veiktas apkopes kontrolsarakstā, un tiek novērtēts visu apkopes kontrolsarakstu rezultāts. Tiek novērtētas uzturēšanas kontrolsaraksta rindas, kuru rezultāti ir **Sekmīgi** un **Nesekmīgi**, un, ja kaut vienas rindas rezultāts ir nesekmīgs, viss uzturēšanas kontrolsaraksts Līdzekļu pārvaldībā tiek atzīmēts kā **Nesekmīgs**. |
+| Apstrādāt uzturēšanas kontrolsarakstu | Iestatiet šo opciju uz **Jā**, ja ir jāapstrādā visi uzturēšanas kontrolsaraksti, kad darba pasūtījums tiek atjaunināts šajā dzīves cikla stāvoklī. Šīs apstrādes ietvaros tiek iegrāmatotas visas skaitītāja reģistrācijas, kas veiktas apkopes kontrolsarakstā, un tiek novērtēts visu apkopes kontrolsarakstu rezultāts. Tiek novērtētas uzturēšanas kontrolsaraksta rindas, kuru rezultāti ir **Sekmīgi** un **Nesekmīgi**, un, ja kaut vienas rindas rezultāts ir nesekmīgs, viss uzturēšanas kontrolsaraksts līdzekļu pārvaldībā tiek atzīmēts kā **Nesekmīgs**. |
 | Pabeigts                         | Iestatiet šo opciju uz **Jā**, ja darba pasūtījuma uzdevuma grafika statuss visiem darba pasūtījuma uzdevumiem, kas izveidoti darba pasūtījumā, automātiski ir jāatjaunina uz statusu **Gatavs**, kad darba pasūtījums tiek atjaunināts uz šo dzīves cikla stāvokli. |
 | Sākšana                         | Iestatiet šo opciju uz **Jā**, ja darba pasūtījuma uzdevuma grafika statuss visiem darba pasūtījuma uzdevumiem, kas izveidoti darba pasūtījumā, automātiski ir jāatjaunina uz statusu **Sākts**, kad darba pasūtījums tiek atjaunināts uz šo dzīves cikla stāvokli. |
 | Beigt                           | Iestatiet šo opciju uz **Jā**, ja darba pasūtījuma uzdevuma grafika statuss visiem darba pasūtījuma uzdevumiem, kas izveidoti darba pasūtījumā, automātiski ir jāatjaunina uz statusu **Pabeigts**, kad darba pasūtījums tiek atjaunināts uz šo dzīves cikla stāvokli. |
@@ -74,7 +76,7 @@ Tālāk esošajā tabulā ir aprakstītas opcijas, kas atrodas sadaļās **Darba
 10. Sadaļā **Projekts** iestatiet opciju **Slēgt darbības** uz **Jā** ja projekta darbības, kas saistītas ar katru darba pasūtījuma uzdevumu, ir nepieciešams automātiski slēgt, kad darba pasūtījums ir šajā dzīves cikla stāvoklī.
 
     > [!NOTE]
-    > Lai atrastu projekta darbības numuru, kas ir saistīts ar darba pasūtījuma uzdevumu, atlasiet **Līdzekļu pārvaldība** \> **Kopējs** \> **Darba pasūtījumi** \> **Visi darba pasūtījumi**, **Aktīvie darba pasūtījumi** vai **Mani aktīvie darba pasūtījumi**. Atveriet darba pasūtījumu un pēc tam atlasiet darba pasūtījuma uzdevumu. Darbības numurs ir redzams laukā **Darbības numurs**, kas atrodas sadaļā **Projekts** (cilnē **Vispārīgi**, kas atrodas kopsavilkuma cilnē **Detalizēta informācija par rindu** ).
+    > Lai atrastu projekta darbības numuru, kas ir saistīts ar darba pasūtījuma uzdevumu, atlasiet **Līdzekļu pārvaldība** \> **Kopējs** \> **Darba pasūtījumi** \> **Visi darba pasūtījumi**, **Aktīvie darba pasūtījumi** vai **Mani aktīvie darba pasūtījumi**. Atveriet darba pasūtījumu un pēc tam atlasiet darba pasūtījuma uzdevumu. Darbības numurs ir redzams laukā **Darbības numurs**, kas atrodas sadaļā **Projekts** (cilnē **Vispārīgi**, kas atrodas kopsavilkuma cilnē **Detalizēta informācija par rindu**).
 
 11. Sadaļā **Prognoze** iestatiet opcijas **Kopēt stundas prognozi**, **Kopēt krājuma prognozi** un/vai **Kopēt izdevumu prognozi** opciju uz **Jā**, ja darba pasūtījuma projekta prognozes ir nepieciešams automātiski kopēt darba pasūtījuma žurnālos, kad darba pasūtījums ir šajā dzīves cikla stāvoklī.
 12. Sadaļā **Grafiks** iestatiet vienu no opcijām uz **Jā**, ja darba pasūtījuma grafika statuss ir jāatjaunina, kad darba pasūtījums ir šajā dzīves cikla stāvoklī. Opciju **Gatavs**, **Sākt**, **Pabeigt** un **Dzēst grafika rindas** aprakstus skatiet tabulā, kas atrodama iepriekš šajā tēmā.
@@ -93,7 +95,7 @@ Tālāk esošajā tabulā ir aprakstītas opcijas, kas atrodas sadaļās **Darba
     - Ja opcija **Dīkstāve uzturēšanas dēļ** ir iestatīta uz **Jā**, kas attiecas uz dzīves cikla stāvokli, ar kuru tiek atjaunināts darba pasūtījums, uzturēšanas dīkstāves pārbaude tiek veikta ar darba pasūtījumu saistītajā līdzeklī. Ja uzturēšanas dīkstāves reģistrācija ir veikta, bet nav reģistrācija **Pabeigta**, kad darba pasūtījums tiek atjaunināts uz šo dzīves cikla stāvokli, tiek parādīts ziņojums.
     - Ja standarta projekta iestatīšana neietver visus posmus, kas nepieciešami līdzekļi pārvaldības iestatīšanai, varat iestatīt lietotāja definētus projekta posmus cilnē **Projekta posms** lapā **Projektu vadības un uzskaites parametri**. Tālāk esošajā attēlā redzama cilne **Projekta posms** lapā **Projektu vadības un uzskaites parametri**.
 
-    ![Dažādu projekta tipu projekta posmus iestatīšanas lapa.](media/10-setup-for-work-orders.png)
+    ![Dažādu projekta tipu projekta posmus iestatīšanas lapa](media/10-setup-for-work-orders.png)
 
 > [!NOTE]
 > Ja dzīves cikla stāvoklis, uz kuru atjaunināt darba pasūtījumu, ir neaktīvs, žurnāli, kas ir saistīti ar darba pasūtījumu, bet vēl nav grāmatoti, tiek automātiski dzēsti. Tas palīdz nodrošināt neizmantoto datu automātisku tīrīšanu. (Dzīves cikla stāvoklis ir neaktīvs, ja opcija **Aktīvs** tam ir iestatīta uz **Nē** kopsavilkuma cilnē **Vispārīgi**, kas atrodas lapā **Darba pasūtījuma dzīves cikla stāvoklis**.)
@@ -111,7 +113,7 @@ Veidu lietošanas pamatojums ir tāds, ka, ja veids ir definēts, piemēram, dar
 
 Tālāk esošajā attēlā redzama relācija starp darba pasūtījuma veidiem, dzīves cikla modeļiem un dzīves cikla stāvokļiem.
 
-![Darba pasūtījuma tipa lapa salīdzinājumā ar Darba pasūtījuma dzīves cikla modeļu lapu.](media/11-setup-for-work-orders.png)
+![Darba pasūtījuma tipa lapa salīdzinājumā ar Darba pasūtījuma dzīves cikla modeļu lapu](media/11-setup-for-work-orders.png)
 
 ## <a name="work-order-lifecycle-models"></a>Darba pasūtījuma dzīves cikla modeļi
 
@@ -126,16 +128,13 @@ Kad esat izveidojis darba pasūtījuma dzīves cikla stāvokļus, kas nepiecieš
 
 5. Kopsavilkuma cilnē **Dzīves cikla stāvokļi** atlasiet dzīves cikla stāvokļus, kuri būtu jāiekļauj dzīves cikla modelī:
 
-    - Lai dzīves cikla modelim pievienotu dzīves cikla stāvokli, atlasiet to sadaļā **Atlikušie dzīves cikla stāvokļi** un pēc tam atlasiet bultiņas pa labi pogu ![Bultiņa pa labi.](media/12-setup-for-work-orders.png) Lai pārvietotu to uz sadaļu **Atlasītie dzīves cikla stāvokļi**.
-    - Lai iekļautu visus pieejamos dzīves cikla stāvokļus dzīves cikla modelī, atlasiet pogu **Atlasīt visus pieejamos posmus** ![Atlasīt visus pieejamos posmus.](media/13-setup-for-work-orders.png). Visi dzīves cikla stāvokļi tiek pārvietoti uz sadaļu **Atlasītie dzīves cikla stāvokļi**.
-    - Lai no dzīves cikla modeļa noņemtu dzīves cikla stāvokli, atlasiet to sadaļā **Atlasītie dzīves cikla stāvokļi** un pēc tam atlasiet bultiņas pa kreisi pogu ![Bultiņa pa kreisi.](media/14-setup-for-work-orders.png) Lai pārvietotu to uz sadaļu **Atlikušie dzīves cikla stāvokļi**.
+    - Lai iekļautu dzīves cikla stāvokli dzīves cikla modelī, atlasiet to sadaļā **Atlikušie dzīves cikla stāvokļi** un pēc tam atlasiet bultiņas pa labi pogu ![Bultiņa pa labi](media/12-setup-for-work-orders.png), lai pārvietotu to uz sadaļu **Atlasītie dzīves cikla stāvokļi**.
+    - Lai iekļautu visus pieejamos dzīves cikla stāvokļus dzīves cikla modelī, atlasiet pogu **Atlasīt visus pieejamos posmus** ![Atlasīt visus pieejamos posmus](media/13-setup-for-work-orders.png). Visi dzīves cikla stāvokļi tiek pārvietoti uz sadaļu **Atlasītie dzīves cikla stāvokļi**.
+    - Lai dzīves cikla modelim noņemtu dzīves cikla stāvokli, atlasiet to sadaļā **Atlasītie dzīves cikla stāvokļi** un pēc tam atlasiet bultiņas pa kreisi pogui ![Bultiņa pa kreisi](media/14-setup-for-work-orders.png), lai pārvietotu to uz sadaļu **Atlikušie dzīves cikla stāvokļi**.
 
 6. Atlasiet **Dzīves cikla stāvokļa atjauninājumi**, lai definētu, kuri dzīves cikla stāvokļi var sekot atlasītajam dzīves cikla stāvoklim.
 7. Kopsavilkuma cilnes **Atjauninājumi** laukā **Ieplānotais stāvoklis** atlasiet dzīves cikla stāvokli, kas vienmēr jāatlasa darba pasūtījumam, kuram pabeigta darba pasūtījuma plānošana, neatkarīgi no iepriekšējā darba pasūtījuma dzīves cikla stāvokļa.
 8. Laukā **Neieplānotais dzīves cikla stāvoklis** atlasiet dzīves cikla stāvokli, kas vienmēr jāatlasa darba pasūtījumam, ja tiek dzēsta darba pasūtījuma plānošana.
 9. Saglabājiet darba pasūtījuma dzīves cikla modeli.
 
-![Darba pasūtījuma dzīves cikla modeļu lapa.](media/15-setup-for-work-orders.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+![Darba pasūtījuma dzīves cikla modeļu lapa](media/15-setup-for-work-orders.png)

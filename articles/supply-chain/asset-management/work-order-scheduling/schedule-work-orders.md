@@ -1,10 +1,12 @@
 ---
 title: Plānot darba pasūtījumus
 description: Šajā tēmā ir aprakstīts, kā plānot darba pasūtījumus Līdzekļu pārvaldībā.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderSchdulePreviewPart, EntAssetWorkOrderScheduleExclusively, EntAssetWorkOrderSchduleInfoPart, EntAssetWorkOrderScheduleListPage, EntAssetWorkOrderSchedule, EntAssetWorkOrderScheduleDelete
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: becd06c46afd92bf07d9a69147b7768e780aefa57f9045c11698c04154d6ddb8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7e7751e3e2f216abf46f02ee0644909c6894c5b2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718063"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020233"
 ---
 # <a name="schedule-work-orders"></a>Plānot darba pasūtījumus
 
@@ -56,7 +58,7 @@ Var ieplānot tikai tos darba pasūtījumus, kuriem ir tāds darba pasūtījuma 
 
 *Piemērs:* tālāk dotajā attēlā formula, kas ievietota laukā **Paredzētais sākums**, ģenerēs darba pasūtījumu plānošanu visiem darba pasūtījumiem ar paredzēto sākuma datumu nedēļu no šī brīža un vēlāk. Šī formula var būt noderīga, ja palaižat darba pasūtījumu plānošanu pastāvīgi, bet vēlaties pārliecināties, ka darba pasūtījumi, kas ieplānoti nākamajām 5–6 dienām, netiks pārplānoti.
 
-![1. attēls.](media/03-work-order-scheduling.png)
+![1. attēls](media/03-work-order-scheduling.png)
 
 Darba pasūtījuma tips, kas saistīts ar darba pasūtījumiem, var iestatīt plānošanu vienam uzturēšanas speciālistam (**Līdzekļu pārvaldība** > **Iestatīšana** > **Darba pasūtījumi** > **Darba pasūtījumu tipi** > **Viena uzturēšanas speciālists** pārslēgšanas pogai ir iestatīta uz “Jā”). Tas nozīmē, ka, ja darba pasūtījuma tips tiek izmantots darba pasūtījumā, pārslēgšanas poga **Viens uzturēšanas speciālists** automātiski tiek iestatīta uz “Jā” detalizētas informācijas lapā **Visi darba pasūtījumi** > skatā **Virsraksta** > kopsavilkuma cilnē **Ieplānot**. Darba pasūtījuma plānošanas laikā visi darba pasūtījuma uzdevumi, kas izveidoti darba pasūtījumā, pēc tam tiks ieplānoti vienam un tam pašam uzturēšanas speciālistam. Ja nepieciešams, varat rediģēt atlasi ar pārslēgšanas pogu **Viens uzturēšanas speciālists** sadaļā **Visi darba pasūtījumi**, lai atļautu vairāku vai vienu darbinieku ieplānošanu darba pasūtījuma uzdevumiem.
 
@@ -81,9 +83,9 @@ Tālāk norādītajos piemēros kritiskais rādītājs ir “2”, un pakalpojum
 
 | Darba pasūtījuma ID | Plānotais sākuma datums | Darba pasūtījuma kritiskums | Darba pasūtījuma pakalpojuma līmenis | Aprēķins               | Skaits      |
 |---------------|---------------------|------------------------|--------------------------|---------------------------|------------|
-| WO-00010816   | Rītdien            | 2.                      | 20              | (-1 \* 10) + (2 \* 2) + 5 / 20     | \- 5.75    |
-| WO-00010817   | Divas dienas no šodienas   | 2.                      | 20              | (-2 \* 10) + (2 \* 2) + 5 / 20     | \- 15.75   |
-| WO-00010818   | Divas dienas no šodienas   | 3.                      | 5               | (-2 \* 10) + (2 \* 3) + 5 / 5      | \- 13      |
+| WO-00010816   | Rītdien            | 2.                      | 20              | (-1 \* 10) + (2 \* 2) + 5 / 20     | \- 5.75    |
+| WO-00010817   | Divas dienas no šodienas   | 2.                      | 20              | (-2 \* 10) + (2 \* 2) + 5 / 20     | \- 15.75   |
+| WO-00010818   | Divas dienas no šodienas   | 3.                      | 5               | (-2 \* 10) + (2 \* 3) + 5 / 5      | \- 13      |
 
 Darba pasūtījumi tiks ieplānoti tālāk norādītajā secībā: WO-000108 **16**, WO-000108 **18**, WO-000108 **17**.
 
@@ -91,8 +93,8 @@ Darba pasūtījumi tiks ieplānoti tālāk norādītajā secībā: WO-000108 **1
 
 | Darba pasūtījuma ID | Plānotais sākuma datums | Darba pasūtījuma kritiskums | Darba pasūtījuma pakalpojuma līmenis | Aprēķins                 | Skaits    |
 |---------------|---------------------|------------------------|---------------------|----------------------------------|----------|
-| WO-00010816   | Rītdien            | 2.                      | 20                  | (-1 \* 10) + (2 \* 2) + 100 / 20 | \- 1     |
-| WO-00010817   | Divas dienas no šodienas   | 2.                      | 20                  | (-2 \* 10) + (2 \* 2) + 100 / 20 | \- 11    |
+| WO-00010816   | Rītdien            | 2.                      | 20                  | (-1 \* 10) + (2 \* 2) + 100 / 20 | \- 1     |
+| WO-00010817   | Divas dienas no šodienas   | 2.                      | 20                  | (-2 \* 10) + (2 \* 2) + 100 / 20 | \- 11    |
 | WO-00010818   | Divas dienas no šodienas   | 3.                      | 5                   | (-2 \* 10) + (2 \* 3) + 100 / 5  | 6        |
 
 Ja pakalpojuma līmeņa rādītājs tiek palielināts līdz “100”, nevis “5”, tad plānošanas kārtība būs: WO-000108 **18**, WO-000108 **16**, WO-000108 **17**.
@@ -135,6 +137,3 @@ Lai skatītu un strādātu ar Ganta diagrammu:
     - Lai pārplānotu parādīto darba pasūtījumu, atlasiet un pēc tam velciet to uz atbilstošo jauno datumu un laiku.
 
 1. Ja veicāt izmaiņas, darbības rūtī noklikšķiniet uz **Saglabāt**, lai tās saglabātu.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

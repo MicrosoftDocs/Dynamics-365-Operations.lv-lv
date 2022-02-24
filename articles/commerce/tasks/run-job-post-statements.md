@@ -2,24 +2,27 @@
 title: Konfigurēt un palaist darbu, lai grāmatotu pārskatus
 description: Šajā procedūrā ir aprakstīts, kā konfigurēt un izpildīt periodisku pakešuzdevumu, lai grāmatotu izrakstus atlasītajam veikalam vai veikalu grupai.
 author: josaw1
+manager: AnnBe
 ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailChannelOperationsWorkspace, RetailOperatingUnitPicker, SysRecurrence
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dfff9e4520659ac1a9d0f85dd0e091f9fa5e2528ff092b650296a47aef9ca7b5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f89203850b302b769b22920fa5c42d2b0b877684
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765860"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414082"
 ---
 # <a name="configure-and-run-job-to-post-statements"></a>Konfigurēt un palaist darbu, lai grāmatotu pārskatus
 
@@ -31,9 +34,9 @@ ms.locfileid: "6765860"
 2. Noklikšķiniet uz Grāmatot pārskatus partijā.
     * Atlasiet organizācijas hierarhiju un pēc tam organizācijas zaru kokā atlasiet atsevišķu veikalu vai zaru. Atlasiet zaru, lai izveidotu pakešuzdevumu veikalu grupai.  
     * Noklikšķiniet uz bultiņas, lai pievienotu atlasi.  
-3. Noklikšķiniet uz cilnes Palaist fonā. ![Palaist fonā.](../dev-itpro/media/runbackground.png "Palaist fonā") 
+3. Noklikšķiniet uz cilnes Palaist fonā. ![Palaist fonā](../dev-itpro/media/runbackground.png "Palaist fonā") 
 4. Atzīmējiet izvēles rūtiņu Pakešapstrāde vai noņemiet tās atzīmi.
-![Pakešveida apstrāde.](../dev-itpro/media/batchprocessing.png "Pakešveida apstrāde un periodiskums") 
+![Pakešveida apstrāde](../dev-itpro/media/batchprocessing.png "Pakešveida apstrāde un periodiskums") 
 5. Noklikšķiniet uz Periodiskums.
 6. Laukā Sākuma datums ievadiet kādu datumu.
 7. Laukā Sākuma laiks ievadiet laiku.
@@ -41,6 +44,3 @@ ms.locfileid: "6765860"
 8. Noklikšķiniet uz Labi.
 9. Noklikšķiniet uz Labi.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

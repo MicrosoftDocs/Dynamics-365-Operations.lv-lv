@@ -2,26 +2,29 @@
 title: Maiņu un naudas kastes pārvaldība
 description: Šajā tēmā ir paskaidrots, kā iestatīt un izmantot Commerce pārdošanas punkta (point of sale — POS) maiņas.
 author: jblucher
+manager: AnnBe
 ms.date: 05/10/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailHardwareProfile, RetailTerminalTable
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 105011
 ms.assetid: 49a0fcc9-d4db-45ad-8c4b-213ccaced82b
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: brshoo
+ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2ac42c92d38299c20bfcb293ac062aa9e4b1c628
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
-ms.translationtype: MT
+ms.openlocfilehash: 32b7be42509a2c857f1357eb64a6b488f9cd2269
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779748"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414124"
 ---
 # <a name="shift-and-cash-drawer-management"></a>Maiņu un naudas kastes pārvaldība
 
@@ -154,7 +157,4 @@ Dodieties uz **Retail un Commerce \> Kanāli \> Veikali \> Visi mazumtirdznie
 
 Šāds iestatījums nodrošinās, ka operāciju uzskaites daļas pārskati ietver tās pašas darbības, kas ietvertas POS maiņās, un dati tiek apkopoti pēc attiecīgās maiņas.
 
-Plašāku informāciju par izrakstu un slēgšanas metodēm skatiet tēmā [Veikalu konfigurācijas mazumtirdzniecības izrakstiem](/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Plašāku informāciju par izrakstu un slēgšanas metodēm skatiet tēmā [Veikalu konfigurācijas mazumtirdzniecības izrakstiem](https://docs.microsoft.com/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).

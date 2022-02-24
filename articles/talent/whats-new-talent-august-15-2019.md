@@ -61,6 +61,3 @@ Papildinformāciju par atjauninājumu Platform update 29 for Finance and Operat
 Izmaiņas darbinieka ierakstos reti stājas spēkā nekavējoties. Jums ir jāatjaunina dati no darbinieka sākuma datuma, kas bieži ir nākotnē, un jums ir arī jāatjaunina informācija pagātnē. Izmantojot šo racionalizēto navigācijas modeli, varēsit atjaunināt turpmākos un iepriekšējos datus bez naviģēšanas uz vairākām veidlapām vai datuma konteksta maiņas. Šīs izmaiņas arī dinamiski veicina un parāda svarīgāko informāciju darbinieka ieraksta augšējā reklāmkaroga apgabalā.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

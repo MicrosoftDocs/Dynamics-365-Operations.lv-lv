@@ -1,31 +1,36 @@
 ---
 title: Groza modulis
-description: Šajā tēmā aplūkoti Cart moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
+description: Šī tēma ietver groza moduļus un apraksta, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 12/15/2020
+manager: annbe
+ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f2db61cf23c217365274297c6e9878a4eb5679f8d9502cb70484372ae43f6b18
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 33db06ecfa2a8fa93cde3c4f1b31d6b30bfd0c34
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716888"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4414207"
 ---
 # <a name="cart-module"></a>Groza modulis
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aplūkoti Cart moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
+Šī tēma ietver groza moduļus un apraksta, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Pārskats
 
 Groza modulis parāda krājumus, kas ir pievienoti grozam, pirms debitors turpina ar norēķināšanos. Modulis arī parāda pasūtījuma kopsavilkumu un ļauj klientam piemērot vai noņemt veicināšanas kodus.
 
@@ -35,11 +40,11 @@ Groza modulis atveido datus, pamatojoties uz groza ID, kas ir visā vietnē piee
 
 Attēlā zemāk redzams groza lapas piemērs Fabrikam vietnē.
 
-![Groza moduļa piemērs Fabrikam vietnē.](./media/cart2.PNG)
+![Groza moduļa piemērs Fabrikam vietnē](./media/cart2.PNG)
 
 Attēlā zemāk redzams groza lapas piemērs Fabrikam vietnē. Šajā piemērā ir norādīta papildmaksa par rindas krājumu.
 
-![Groza moduļa piemērs ar apstrādes komisiju rindas krājumam.](./media/ecommerce-handling-fee.png)
+![Groza moduļa piemērs ar apstrādes komisiju rindas krājumam](./media/ecommerce-handling-fee.png)
 
 ## <a name="cart-module-properties-and-slots"></a>Groza moduļa rekvizīti un sloti
 
@@ -48,7 +53,6 @@ Attēlā zemāk redzams groza lapas piemērs Fabrikam vietnē. Šajā piemērā 
 | Virsraksts | Virsraksta teksts un virsraksta etiķete (**H1**, **H2**, **H3**, **H4**, **H5** vai **H6**) | Groza virsraksts, piemēram, "Iepirkumu soma", vai "Preces jūsu grozā". |
 | Rādīt “Nav krājumā” kļūdas | **Patiess** vai **Nepatiess** | Ja šis rekvizīts ir iestatīts kā **Patiess**, groza lapā būs redzamas ar krājumu saistītas kļūdas. Ieteicams iestatīt šo rekvizītu kā **Patiess**, ja vietnē tiek lietotas krājumu pārbaudes. |
 | Rādīt rindu vienību piegādes izmaksas | **Patiess** vai **Nepatiess** | Ja šis rekvizīts ir iestatīts kā **Patiess**, groza rindas krājumi rādīs piegādes izmaksas, ja šī informācija ir pieejama. Šis līdzeklis netiek atbalstīts Fabrikam tēmā, jo lietotāji atlasa piegādi tikai izrakstīšanās plūsmā. Tomēr šo līdzekli var ieslēgt citās darbplūsmās, ja tas ir piemērojams. |
-| Rādīt pieejamos veicināšanas pasākumus| **Patiess** vai **Nepatiess** | Ja šis rekvizīts ir iestatīts kā **Patiess**, grozs rāda pieejamos veicināšanas pasākumus, pamatojoties uz vienumiem grozā. Šī iespēja ir pieejama Dynamics 365 Commerce laidienā 10.0.16. |
 
 ## <a name="modules-that-can-be-used-in-a-cart-module"></a>Moduļi, ko var izmantot groza modulī
 
@@ -113,6 +117,3 @@ Lai pievienotu groza moduli jaunā lapā un iestatītu nepieciešamos rekvizītu
 [Krājumu pieejamības aprēķināšana mazumtirdzniecības kanāliem](calculated-inventory-retail-channels.md)
 
 [Izveidot tiešsaistes funkcionalitātes profilu](online-functionality-profile.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

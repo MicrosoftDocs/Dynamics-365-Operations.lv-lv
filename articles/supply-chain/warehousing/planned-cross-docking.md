@@ -2,9 +2,11 @@
 title: Plānotā pārkraušana sadales centrā
 description: Šajā tēmā ir aprakstīta uzlabota plānotā pārkraušana sadales centrā, kur pasūtījumam nepieciešamais krājumu daudzums ir novirzīts tieši no saņemšanas vai izveides uz pareizo nosūtīšanas doku vai sagatavošanas apgabalu. Visi atlikušie krājumi no saņemšanas avota tiek novirzīti uz pareizo glabāšanas vietu, izmantojot regulāro izvietošanas procesu.
 author: Mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate, WHSLoadPostMethod, WHSWorkClass, WHSWorkTemplateTable, WHSLocDirTable, WHSPlannedCrossDocking
 audience: Application User
@@ -12,13 +14,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: c28639a4a575f5f356bf947ba8e0aee6bcd256b4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.7
+ms.openlocfilehash: fb598b3ac7dd72e8c500f0c2eaf07462009c67f7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573037"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970310"
 ---
 # <a name="planned-cross-docking"></a>Plānotā pārkraušana sadales centrā
 
@@ -28,23 +30,21 @@ ms.locfileid: "7573037"
 
 Pārkraušana sadales centrā ļauj darbiniekiem izlaist ienākošo krājumu izvietošanu un izejošo krājumu izsniegšanu, kas jau ir atzīmēta izejošam pasūtījumam. Tāpēc, krājuma saskares reižu skaits tiek minimizēts iespēju robežās. Turklāt, ņemot vērā, ka ir mazāka mijiedarbība ar sistēmu, laika un vietas ietaupījums noliktavas ražotnē ir palielināts.
 
-Pirms var veikt pārkraušanu sadales centrā, ir jākonfigurē jauna nosūtīšanas nosūtīšanai paredzētā veidne, kurā ir norādīts piegādes avots un citas prasību kopas pārkraušanai sadales centrā. Kad izejošais pasūtījums ir izveidots, rinda ir jāatzīmē ar ienākošo pasūtījumu, kas ietver to pašu elementu. Varat izvēlēties direktīvas koda lauku veidnē Pārkraušana sadales centrā, kas ir līdzīgs tam, kā iestatījāt papildināšanas un pirkšanas pasūtījumus.
+Pirms var veikt pārkraušanu sadales centrā, lietotājam ir jākonfigurē jauna nosūtīšanas nosūtīšanai paredzētā veidne, kurā ir norādīts piegādes avots un citas prasību kopas pārkraušanai sadales centrā. Kad izejošais pasūtījums ir izveidots, rinda ir jāatzīmē ar ienākošo pasūtījumu, kas ietver to pašu elementu.
 
 Saņemšanas pasūtījuma saņemšanas laikā pārkraušanas sadales centrā iestatījums automātiski nosaka nepieciešamību veikt pārkraušanu sadales centrā un izveido vajadzīgā daudzuma kustības darbu, pamatojoties uz novietojuma direktīvas iestatījumiem.
 
 > [!NOTE]
-> Krājumu darbības *tiek* reģistrētas, atceļot pārkraušanas sadales centrā darbu, pat ja iestatījumi šai iespējai ir ieslēgti Noliktavas pārvaldības parametros.
+> Krājumu darbības **tiek** reģistrētas, atceļot pārkraušanas sadales centrā darbu, pat ja iestatījumi šai iespējai ir ieslēgti Noliktavas pārvaldības parametros.
 
-## <a name="turn-on-the-planned-cross-docking-features"></a>Iespējot plānotās pārkraušanas opcijas
+## <a name="turn-on-the-planned-cross-docking-feature"></a>Iespējot plānoto pārkraušanas opciju
 
-Ja sistēmā vēl nav ietverti šajā tēmā aprakstītie līdzekļi, pārejiet uz sadaļu [Līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) un iespējojiet tālāk norādītās funkcijas šādā secībā:
+Pirms izmantot uzlabotu plānoto pārkraušanu sadales centrā, funkcijai ir jābūt iespējotai sistēmā. Administratori var izmantot [Līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Tur šī iespēja ir uzskaitīta tālāk minētajā veidā:
 
-1. *Plānotā pārkraušana sadales centrā*
-1. *Pārkraušana sadales centrā — veidnes ar atrašanās vietas norādēm*
-    > [!NOTE]
-    > Šis līdzeklis ļauj lauku **Direktīvas kods** norādīt veidnē Pārkraušana sadales centrā līdzīgi tam, kā iestatījāt papildināšanas veidnes. Šī līdzekļa iespējošana neļauj galarezultātā pievienot direktīvas kodu darba veidnes Pārkraušana sadales centrā rindām pēdējai *Izvietojuma* rindai. Tas nodrošina, ka darba izveides laikā var noteikt pēdējo izvietošanas novietojumu, pirms tiek apsvērtas darba veidnes.
+- **Modulis:** *Noliktavas pārvaldība*
+- **Opcijas nosaukums:** *Plānotā pārkraušana sadales centrā*
 
-## <a name="setup"></a>Iestatīt
+## <a name="setup"></a>Iestatījumi
 
 ### <a name="regenerate-load-posting-methods"></a>Atkārtoti ģenerēt noslodzes grāmatošanas metodes
 
@@ -90,10 +90,6 @@ Plānotā pārkraušana sadales centrā tiek ieviesta kā noslodzes grāmatošan
 
         Šī opcija nosaka, vai, saņemot kvīti, ir atkārtoti jāapliecina piegāde. Ja šī opcija ir iestatīta uz *Jā*, ir jāpārbauda gan maksimālais laika logs, gan beigu dienu diapazons.
 
-    - **Direktīvas kods:** atstājiet šo lauku tukšu
-
-        Šo opciju aktivizē līdzeklis *Veidnes Pārkraušana sadales centrā ar novietojuma direktīvam*. Sistēma izmanto novietojuma direktīvas, lai palīdzētu noteikt labāko novietojumu, uz kuru pārvietot krājumus pārkraušanai sadales centrā. To var iestatīt, katrai atbilstošai veidnei pārkraušanai sadales centrā piešķirot direktīvas kodu. Ja direktīvas kods ir iestatīts, sistēma meklē vietas direktīvas pēc direktīvas koda, ģenerējot darbu. Šādā veidā var ierobežot novietojuma direktīvas, kas tiek izmantotas noteiktai veidnei Pārkraušana sadales centrā.
-
     - **Validēt maksimālo laika logu:** *Jā*
 
         Šī opcija nosaka, vai maksimālais laika logs ir jānovērtē, kad ir atlasīts piegādes avots. Ja šī opcija ir iestatīta uz *Jā*, ir pieejami lauki, kas saistīti ar maksimālo un minimālo laiku logiem.
@@ -117,9 +113,6 @@ Plānotā pārkraušana sadales centrā tiek ieviesta kā noslodzes grāmatošan
     - **Secības numurs:** *1*
     - **Piegādes avots:** *Pirkuma pasūtījums*
 
-> [!NOTE]
-> Vaicājumu var iestatīt, lai kontrolētu, ja tiek izmantota īpaša pārkraušana sadales centra veidne. Veidnēm pārkraušanas sadales centra vaicājumam ir tikai tabula *InventTable* (krājumi) un iekšējā *WHSInventTable* (WHS krājumi) tabula. Ja vaicājumam vēlaties pievienot citas tabulas, varat tās pievienot, izmantojot tikai *esošos savienojumus* vai *neesošos savienojumus*. Filtrējot savienotās tabulas, katram atbilstošam ierakstam savienotajā tabulā tiek izgūts galvenās tabulas ieraksts. Ja savienojuma tips ir *esošie savienojumi*, meklēšana beidzas pēc pirmās atbilstības meklēšanas. Piemēram, ja pievienojat pārdošanas pasūtījuma rindu tabulu krājumu tabulai, sistēma validē un atgriež krājumus, kuriem vismaz vienai pārdošanas pasūtījuma rindai ir definēts nosacījums. Būtībā dati tiek iegūti no primāras (vienumu) tabulas, nevis no pakārtotās (pārdošanas pasūtījuma rindas) tabulas. Tāpēc filtrēšanu pēc pirmdokumentiem, piemēram, pārdošanas pasūtījuma rindām vai debitoriem, nevar veikt uzreiz.
-
 ### <a name="create-a-work-class"></a>Darba klases izveide
 
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatījumi \> Darbs \> Darba klases**.
@@ -132,7 +125,7 @@ Plānotā pārkraušana sadales centrā tiek ieviesta kā noslodzes grāmatošan
 
 ### <a name="create-a-work-template"></a>Izveidojiet darba veidni
 
-1. Doties uz **Noliktavas pārvaldība \> Iestatīšana \> Darbs \> Darba veidnes**.
+1. Doties uz **Noliktavas vadība \> Iestatīšana \> Darbs \> Darba veidnes**.
 1. Laukā **Darba pasūtījuma veids** atlasiet *Pārkraušana sadales centrā*.
 1. Lai pievienotu rindu cilnē **Pārskats**, darbības rūtī atlasiet **Jauns**.
 1. Jaunajā rindā iestatiet šādas vērtības:
@@ -154,16 +147,13 @@ Plānotā pārkraušana sadales centrā tiek ieviesta kā noslodzes grāmatošan
     - **Darba klases ID:** *Pārkraušana sadales centrā*
 
 1. Atlasiet **Saglabāt** un apstipriniet, ka ir atlasīta rūtiņa **Derīgs** veidnei *51 Pārkraušana sadales centrā*.
-1. Nav obligāti: atlasiet **Rediģēt vaicājumu**, ja vēlaties iestatīt kritērijus, lai kontrolētu, kad un kur tiek izmantota darba veidne.
-
-    Vaicājumu var iestatīt, lai kontrolētu, kad tiek izmantota konkrētā darba veidne. Piemēram, varat norādīt, ka veidni var izmantot darbam tikai noteiktā vietā. Ja vēlaties, lai darba veidne pārkraušanai sadales centrā tiktu lietota noteiktā vietā, tās filtrēšana ir jāveic laukā **Sākuma novietojums**, nevis laukā **Novietojums**, jo saņemšanas procesu darba izveide (pirkšana, pārkraušana sadales centrā un papildināšana) sākas no izvietošanas rindas. Kad darbs ir izveidots, novietojuma direktīva iestata lauku **Novietojuma** uz izvietošanas novietojumu. Tomēr izdošanas vieta tiek glabāta laukā **Sākuma vieta**.
 
 > [!NOTE]
 > Darba klases ID *Izdošanas* un *Izvietošanas* darbu tipiem jābūt vienādiem.
 
 ### <a name="create-location-directives"></a>Novietojuma direktīvu izveide
 
-1. Dodieties uz **Noliktavas pārvaldība \> Iestatījumi \> Novietojuma direktīvas**.
+1. Dodieties uz **Noliktavas vadība \> Iestatījumi \> Novietojuma direktīvas**.
 1. Laukā **Darba pasūtījuma veids** atlasiet *Pārkraušana sadales centrā*.
 1. Darbību rūtī atlasiet **Jauns**, un pēc tam iestatiet šādas vērtības:
 
@@ -324,7 +314,4 @@ Patlaban abiem darba ID ir vienāda mērķa numura zīme. Lai veiktu nākamās d
 
 Sekojošajā attēlā ir parādīts, kā programmā Microsoft Dynamics 365 Supply Chain Management var tikt parādīts aizpildīts nosūtīšanas bez uzglabāšanas darbs.
 
-![Nosūtīšanas bez uzglabāšanas darbs ir pabeigts.](media/PlannedCrossDockingWork.png "Nosūtīšanas bez uzglabāšanas darbs ir pabeigts")
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+![Nosūtīšanas bez uzglabāšanas darbs ir pabeigts](media/PlannedCrossDockingWork.png "Nosūtīšanas bez uzglabāšanas darbs ir pabeigts")

@@ -94,6 +94,3 @@ Līdz ar šīs izmaiņas ieviešanu dublikāti tiek noteikti, kad aizpildāt vā
 Līdz ar platformas atjauninājumu 25 Finance and Operations ieviešanu lietotāji var izveidot brīdinājumu kārtulas, kas automātiski sūta e-pasta paziņojumus kontaktpersonām, ja kāds notikums tās aktivizē.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

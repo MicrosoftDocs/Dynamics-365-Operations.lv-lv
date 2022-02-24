@@ -2,9 +2,11 @@
 title: Datu agnostiskā testēšana, izmantojot Regression Suite Automation Tool
 description: Šajā tēmā aplūkoti ieteikumi datu agnostiskajai testēšanai, izmantojot Regression Suite Automation Tool.
 author: kfend
+manager: AnnBe
 ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2019-09-11
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: d9a5bce1cc56dfdf66b2ce58c2e740b7c4b3bdfc7f4e75396fe5dc7cb931b6d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2398bcbf0d148932e62ebe90aa8016acf0c79c28
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763414"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798205"
 ---
 # <a name="data-agnostic-testing-using-the-regression-suite-automation-tool"></a>Datu agnostiskā testēšana, izmantojot Regression Suite Automation Tool
 
@@ -30,9 +32,9 @@ Lai gan ERP lietojumprogrammas funkcionālā validācija nevar būt pilnībā da
 - ATL struktūra
 - Regression Suite Automation Tool (RSAT)
 
-[![Testa klasifikācijas piramīda.](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
+[![Testa klasifikācijas piramīda](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
 
-## <a name="overview"></a>Pārskats
+## <a name="overview"></a>Kopsavilkums
 -   **SysTest struktūra** — SysTest struktūra ir uzticama vienību testu rakstīšanai. Tā kā vienību testi parasti pārbauda metodi vai funkciju, tiem vienmēr ir jābūt datiem agnostiskiem, un tie ir atkarīgi tikai no ievadītajiem datiem, kas tiek sniegti kā daļa no testa.
 -   **ATL struktūra** -Microsoft ir ATL struktūra, kas ir SysTest struktūras abstrakcija un padara funkcionālu testu rakstīšanu daudz vienkāršāku un uzticamāku. Šī struktūra jāizmanto, lai rakstītu komponentu testus vai vienkāršus integrēšanas testus.
 -   **RSAT** – RSAT izmanto integrācijas testiem un biznesa cikla testiem. Biznesa cikla testi, ko sauc arī par regresijas validācijas testiem, ir atkarīgi no esošajiem datiem. Tomēr šie testi var kļūt par datu agnostiskiem, ja tiek ņemti vērā papildu faktori. 
@@ -42,11 +44,8 @@ Lai gan ERP lietojumprogrammas funkcionālā validācija nevar būt pilnībā da
     - Ievadiet unikālos identifikatorus, piemēram, rēķina numurus ar numuru sēriju vai izmantojot tādas Microsoft Excel funkcijas kā =TEXT(NOW(),"yyyymmddhhmm"). Šī funkcija nodrošinās unikālu numuru katru minūti, kas ļauj izsekot, kad darbība notikusi. To var izmantot mainīgajiem, piemēram, produktu ieejas plūsmas numuriem un piegādātāju rēķinu numuriem. Šie testi turpina nemainīgi strādāt ar to pašu datu bāzi bez nepieciešamības to atjaunot.
     - Vienmēr iestatiet vides **Rediģēšanas režīmu**, lai to varētu **Lasīt** vai **Rediģēt** kā pirmo pārbaudes gadījumu, jo noklusētā opcija ir **Automātiski**. Opcija **Automātiski** vienmēr izmanto iepriekšējos iestatījumus un var izraisīt neuzticamus testus. 
  
-    [![Iespēju lapa, veiktspējas cilne.](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
+    [![Iespēju lapa, veiktspējas cilne](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
  
     - Apstipriniet tikai pēc tam, kad izfiltrējat noteiktu darbību, nevis veicat vispārēju pārbaudi. Piemēram, ierakstu skaitam filtrējiet darbības numuru vai darbības datumu, lai validācija neiekļautu visas citas darbības. 
     - Ja pārbaudāt klientu bilanci vai budžetu, vispirms saglabājiet vērtību un pēc tam pievienojiet savu darbību vērtību, lai apsiprinātu gaidāmo rezultātu, nevis pārbaudītu fiksēto paredzamo vērtību. 
  
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -51,6 +51,3 @@ Jūs vēlaties, lai jūsu atvērtās pozīcijas redz iespējami daudz kvalificē
 
 > [!NOTE]
 > Microsoft un Attract nav iesaistīti šo vērtību izveidē un saglabāšanā. Jūsu pienākums ir tos atjaunināt pakalpojumā Attract un sadarboties ar Broadbean, lai atrisinātu jebkādas problēmas, kas ir saistītas ar jūsu akreditācijas datiem.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

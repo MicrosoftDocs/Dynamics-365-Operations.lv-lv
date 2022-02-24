@@ -2,23 +2,26 @@
 title: Uzlabota kravu plānošana kopuma laikā
 description: Šajā tēmā ir sniegta informācija par uzlabota kopuma kravu plānošanu, kas kopuma izpildes laikā automātiski piešķir sūtījumus esošajiem kopumiem. Tādējādi varat izveidot jēgpilnas kravas, kas atbilst kravas automašīnām, neizmantojot kravu plānošanas rīku.
 author: mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSPostMethod,WHSWaveTemplateTable,WHSLoadMixGroup,WHSLoadBuildTemplate, WHSWaveTableListPage, TMSLoadBuildTemplateApply, TMSLoadBuildTemplates, TMSLoadBuildTemplateCreate
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 08e44b4e37f28ec91eeb8e53930de5133607bd66
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.9
+ms.openlocfilehash: 7f51b3d65c8dd1e11296956c37ef9dfe568e5ec2
+ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574741"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654202"
 ---
 # <a name="advanced-load-building-during-wave"></a>Uzlabota kravu plānošana kopuma laikā
 
@@ -40,12 +43,12 @@ Lai varētu izmantot uzlabota kopuma kravu plānošanu, sistēmā ir jābūt ies
 
 - Kopuma kravu plānošanas līdzeklis:
 
-    - **Modulis:** *Noliktavas pārvaldība*
+    - **Modulis:** *Noliktavas vadība*
     - **Līdzekļa nosaukums:** *Kopuma kravu plānošanas līdzeklis*
 
 - Organizācijas līmeņa kopuma darbības kods:
 
-    - **Modulis:** *Noliktavas pārvaldība*
+    - **Modulis:** *Noliktavas vadība*
     - **Līdzekļa nosaukums:** *Organizācijas līmeņa kopuma darbības kods*
 
 ### <a name="make-sample-data-available"></a>Padarīt pieejamus datu paraugus
@@ -189,7 +192,7 @@ Varat iestatīt tik daudz kravas plānošanas veidnes, cik ir nepieciešams. Tom
 1. Lai režģim pievienotu rindu, darbību rūtī atlasiet **Jauns**.
 1. Jaunajā rindā iestatiet šādas vērtības.
 
-    | Lauks | Apraksts | USMF demonstrācijas datu vērtība |
+    | Lauks | apraksts | USMF demonstrācijas datu vērtība |
     |---|---|---|
     | Sērijas numurs | Secība, kādā tiks novērtētas veidnes. | *1* |
     | Noslodzes plānošanas veidnes nosaukums | Ievadiet unikālu kravas plānošanas veidnes identifikatoru. Jums ir jāievada tās veidnes nosaukums, kuru iepriekš izveidojāt vai atjauninājāt šajā iestatījumā. | *62 Sūtījums pēc noklusējuma* |
@@ -247,6 +250,3 @@ Scenārijā parādīts, kā šajā tēmā iepriekš aprakstītie iestatījumi ie
 1. Tikko izveidotajā pārdošanas pasūtījumā kopsavilkuma cilnē **Pārdošanas pasūtījuma rindas** atlasiet **Pievienot rindu**, lai pievienotu vēl vienu rindu.
 1. Jaunajā rindā iestatiet lauku **Krājuma numurs** uz *M9200* un lauku **Daudzums** uz *1*.
 1. Atkārtojiet darbības no 6 līdz 9, lai rezervētu rindu un izlaistu to noliktavā. Tā pat kā iepriekš, sistēma izveidos **jaunu** sūtījumu rindai, kuru pievienojāt. Tomēr, tā kā krājums ir no **CarAudio** krājuma grupas, tas **nespēj nodot ierobežojumus, ko iestatāt kravas komplekta grupai**. Tāpēc tas tiek **pievienots jaunai kravai**. Ja kravas plānošanas veidnē netika norādīta kravas komplekta grupa, tad sūtījums tika pievienots pirmajai kravai.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

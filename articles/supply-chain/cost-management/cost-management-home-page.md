@@ -2,26 +2,28 @@
 title: Izmaksu pārvaldības sākumlapa
 description: Izmantojot izmaksu pārvaldību, varat veikt izejmateriālu, daļēji pabeigto preču, nepabeigto preču, pabeigto preču un nepabeigtās ražošanas līdzekļu novērtēšanu un uzskaiti.
 author: AndersGirke
+manager: tfehr
 ms.date: 04/25/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 83881e6b3bb588dad61fd14aa4db28aa76305925aab3ee08e2ebe7e001f2aff2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dc146f8a3707e830ff574964c5a8865271e69b50
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739111"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967687"
 ---
 # <a name="cost-management-home-page"></a>Izmaksu pārvaldības sākumlapa
 
@@ -43,7 +45,7 @@ Krājumu uzskaitei un ražošanas uzskaitei varat piekļūt no darbvietām **Izm
 
 Izmantojot ražošanas uzskaiti, varat apstrādēt [darbu pasūtījuma cenu](production-order-cost-analysis.md) ražošanas pasūtījumos un partijas pasūtījumos, kā arī veikt [atgriezenisko izmaksu aprēķināšanu](backflush-costing.md) LEAN ražošanas procesā.
 
-[Pakalpojuma Power BI satura pakotne Izmaksu pārvaldība](../../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md) nodrošina pārvaldības ieskatus par krājumiem un nepabeigtās ražošanas (NP) krājumiem, kā arī par izmaksu plūsmu caur tiem pēc kategorijas laika gaitā. Šo informāciju var arī izmantot kā finanšu pārskata detalizētu papildinājumu.
+[Pakalpojuma Power BI satura pakotne Izmaksu pārvaldība](../../dev-itpro/analytics/cost-management-content-pack.md) nodrošina pārvaldības ieskatus par krājumiem un nepabeigtās ražošanas (NP) krājumiem, kā arī par izmaksu plūsmu caur tiem pēc kategorijas laika gaitā. Šo informāciju var arī izmantot kā finanšu pārskata detalizētu papildinājumu.
 
 ### <a name="additional-resources"></a>Papildu resursi
 
@@ -57,10 +59,8 @@ Tēmā [MK aprēķināšana, izmantojot izmaksu aprēķina lapu](https://www.mi
 
 #### <a name="blogs"></a>Emuāri
 
-Viedokļi, jaunumi un cita informācija par moduli Izmaksu pārvaldība ir pieejami [Dynamics AX ražošanas pētniecības un attīstības darba grupas emuārā](/archive/blogs/axmfg/) un [piegādes ķēdes pārvaldības programmā Dynamics AX pētniecības un attīstības darba grupas emuārā](https://blogs.msdn.microsoft.com/dynamicsaxscm). Lai gan daži no šiem rakstiem tika rakstīti iepriekšējai moduļa Izmaksu pārvaldība versijai, joprojām ir spēkā tie paši jēdzieni, un arī procedūras pašreizējā versijā ir līdzīgas.
+Viedokļi, jaunumi un cita informācija par moduli Izmaksu pārvaldība ir pieejami [Dynamics AX ražošanas pētniecības un attīstības darba grupas emuārā](https://blogs.msdn.microsoft.com/axmfg) un [piegādes ķēdes pārvaldības programmā Dynamics AX pētniecības un attīstības darba grupas emuārā](https://blogs.msdn.microsoft.com/dynamicsaxscm). Lai gan daži no šiem rakstiem tika rakstīti iepriekšējai moduļa Izmaksu pārvaldība versijai, joprojām ir spēkā tie paši jēdzieni, un arī procedūras pašreizējā versijā ir līdzīgas.
 
 #### <a name="task-guides"></a>Uzdevumu ceļveži
 
 Papildu palīdzība ir pieejama uzdevumu ceļvežu formā. Lai piekļūtu uzdevumu ceļvežiem, jebkurā lapā noklikšķiniet uz pogas Palīdzība.
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

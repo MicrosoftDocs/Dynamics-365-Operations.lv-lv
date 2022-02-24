@@ -1,64 +1,59 @@
 ---
 title: Kandidātu izvēles rīku noteikšana un ieviešana
 description: Var būt grūti atrast kvalificētu kandidātu kopu, lai aizpildītu vakances, it īpaši, ja amatam ir nepieciešama unikālu prasmju kopa.
-author: twheeloc
-ms.date: 01/10/2022
+author: andreabichsel
+manager: AnnBe
+ms.date: 11/20/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmSkillMapping, HcmJobLookup, HcmSkillMappingLine, HcmPersonCertificate, CCHTMLPrintPreview
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: anbichse
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2a9753e220e62794b157340c9f8e6f8a053e9ba7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 8015d4e32da2ba80230aa0ad48576948f2fd1678
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067987"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797754"
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>Kandidātu izvēles rīku noteikšana un ieviešana
 
 [!include [banner](../../includes/banner.md)]
 
+Var būt grūti atrast kvalificētu kandidātu kopu, lai aizpildītu vakances, it īpaši, ja amatam ir nepieciešama unikālu prasmju kopa.  Taču iespējams, ka kandidāti ar jums nepieciešamajam prasmēm jau strādā jūsu organizācijā. Noteiktu prasmju kopu varat meklēt starp esošajiem darbiniekiem vai jauniem kandidātiem. Šādi personāla atlases darbinieks var ātri apkopot un izskatīt datus par kandidātiem, kas vakantam amatam ir pieteikušies tagad vai iepriekš, vai atrastu potenciālos kandidātus starp jau esošajiem darbiniekiem. Izmantojiet šo uzdevuma ierakstu, lai uzzinātu, kā prasmju kartēšanas funkcionalitāte jums var palīdzēt atrast vakantajam amatam vispiemērotāko personu. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 
-[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
-
-Var būt grūti atrast kvalificētu kandidātu kopu, lai aizpildītu vakances, it īpaši, ja amatam ir nepieciešama unikālu prasmju kopa. Taču iespējams, ka kandidāti ar jums nepieciešamajam prasmēm jau strādā jūsu organizācijā. Noteiktu prasmju kopu varat meklēt starp esošajiem darbiniekiem vai jauniem kandidātiem. Šādi personāla atlases darbinieks var ātri apkopot un izskatīt datus par kandidātiem, kas vakantam amatam ir pieteikušies tagad vai iepriekš, vai atrastu potenciālos kandidātus starp jau esošajiem darbiniekiem. Veiciet šo procedūru, lai uzzinātu, kā prasmju kartēšanas funkcionalitāte var palīdzēt atrast pareizo personu atvērtai pozīcijai. The **USMF** lai izveidotu šo procedūru, tika izmantots demonstrācijas datu uzņēmums.
-
-1. Dodieties uz **Cilvēkresursu \> kompetences \> Prasmju analīze \> Prasmju kartēšanas profili**.
-2. Atlasiet **Jauna**.
-3. Laukā **Prasmju kartēšana** ievadiet savas prasmju kartēšanas nosaukumu. Piemēram, ievadiet **Grāmatvedis**.
-4. Laukā **Apraksts** ievadiet prasmju kartēšanas aprakstu.
-5. Laukā **Datums** ievadiet datumu.
-6. Atlasiet **Izgūt profilu**, lai piesaistītu atlasītās personas, darba vai kursa sertifikāta, prasmju un izglītības datus, lai to varētu izmantot par meklēšanas pamatu. Pēc tam varat pievienot vai noņemt kritērijus, norādīt, vai tie nav obligāti, un sarindot to svarīgumu.
-7. Atlasiet **Darbs**.
-8. Laukā **Darbs** ievadiet vai atlasiet vērtību.
-9. Atlasiet **Labi**.
-10. Kopsavilkuma cilnē **Diapazons** pievienojiet papildu informāciju, piemēram, nodaļu.
-11. Kopsavilkuma cilnē **Sertifikāti** skatiet vai rediģējiet sertifikātus.
-12. Kopsavilkuma cilnē **Prasmes** skatiet vai rediģējiet prasmes.
-13. Kopsavilkuma cilnē **Izglītība** skatiet vai rediģējiet izglītības kritērijus.
-14. Atlasiet **Izpildīt**.
-15. Atlasiet **Labi**.
-16. Atlasiet **Rezultāts**.
-17. Atlasiet **Rezultāts**.
-18. Atlasiet **Atsākt**.
-19. Atlasiet **Sertifikāti**.
-
-    Jūs varat sīkāk iedziļināties katrā sarakstā iekļautajā personā, lai skatītu detalizētu informāciju par viņu izglītību, prasmēm un profesionālo pieredzi.
-
+1. Pārejiet uz sadaļu Personāla vadība > Zināšanas > Prasmju analīze > Prasmju kartēšanas profili.
+2. Noklikšķiniet uz Jauns.
+3. Laukā Prasmju kartēšana ievadiet savas prasmju kartēšanas nosaukumu.  Piemērs: Grāmatvedis.
+4. Laukā Apraksts ievadiet prasmju kartējuma aprakstu.
+5. Laukā Datums ievadiet kādu datumu.
+6. Noklikšķiniet uz Iegūt profilu.
+    * Lietojiet vienumu Iegūt profilu, lai no atlasītās personas, darba vai kursa kā meklēšanas pamata iegūtu sertifikāta, prasmju un izglītības datus.   Pēc tam varat pievienot vai noņemt kritērijus, norādīt, vai kritēriji ir obligāti, kā arī kārtot kritērijus pēc to svarīguma.  
+7. Noklikšķiniet uz Darbs.
+8. Laukā Darbs ievadiet vai atlasiet kādu vērtību.
+9. Noklikšķiniet uz Labi.
+10. Izvērsiet diapazona kopsavilkuma cilni un pievienojiet visu nepieciešamo papildinformāciju, piemēram, nodaļu.
+11. Izvērst sertifikātu kopsavilkuma cilni, lai apskatītu vai rediģētu sertifikātus.
+12. Izvērst kopsavilkuma cilni Prasmes, lai apskatītu vai rediģētu prasmes.
+13. Izvērst kopsavilkuma cilni Izglītība, lai apskatītu vai rediģētu izglītības kritērijus.
+14. Noklikšķiniet uz Izpildīt.
+15. Noklikšķiniet uz Labi.
+16. Klikšķiniet Rezultāts.
+17. Klikšķiniet Rezultāts.
+18. Klikšķiniet Atsākt.
+19. Noklikšķiniet uz Sertifikāti.
+    * Varat rakties detalizētākos datos par katru uzskaitīto personu un skatīt sīkāku informāciju par šo personu izglītību, prasmēm, profesionālo pieredzi un citiem datiem.  
 20. Aizvērt lapu.
 21. Aizvērt lapu.
 22. Vēlreiz atlasiet rezultātu.
-23. Atlasiet **Pārskats**.
-
-    Labākās spēles tiks uzskaitītas atskaites augšdaļā. Jums vajadzētu redzēt, ka ir norādīts atstarpes elements. Šis elements norāda atšķirību starp prasmju kartēšanā norādīto līmeni un personai piešķirtās prasmes līmeni.
-
+23. Noklikšķiniet uz Atskaite.
+    * Atskaitē vislabākās atbilstības ir uzskaitītas atskaites augšpusē.  Varat redzēt, ka ir uzskaitīts starpības elements.  Šis vienums apzīmē atšķirību starp prasmju kartējumā uzskaitīto līmeni un attiecīgajai personai piešķirto prasmju līmeni.  
 24. Aizvērt lapu.
-25. Atlasiet **Saglabāt**.
+25. Noklikšķiniet uz Saglabāt.
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -55,6 +55,3 @@ Apstiprinājumi tiek rādīti informācijas paneļa sadaļā **Apstiprinājumi**
 ## <a name="changes-in-core-hr"></a>Izmaiņas programmā Core HR
 
 Šajā laidienā ir ietverti nelieli kļūdu labojumi programmā Dynamics 365 Talent: Core HR.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

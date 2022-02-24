@@ -1,33 +1,31 @@
 ---
 title: Masveida darbā pieņemšanas projekti
-description: Šajā tēmā ir aprakstīti masveida nomas projekti, kas ļauj cilvēkresursu speciālistiem izveidot vairākas amata vietas un efektīvi pieņemt darbā darbiniekus šajos amatos.
-author: twheeloc
-ms.date: 10/28/2021
+description: Masveida darbā pieņemšanas projekti ļauj personāla vadības speciālistiem izveidot vairākus amatus un efektīvi pieņemt uz šiem amatiem darbā darbiniekus.
+author: andreabichsel
+manager: AnnBe
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMMassHireProject, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations
 ms.custom: 7481
 ms.assetid: 5f5eb271-76eb-4305-bd1c-5d171dafccc9
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fcfc973dc9acea624336f059d68562fa5eb41353
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 9f33fb96e9a2331499a594689a758694c2291368
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070210"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419564"
 ---
 # <a name="mass-hire-projects"></a>Masveida darbā pieņemšanas projekti
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
@@ -46,19 +44,19 @@ Nolīgstot darbā vairākus darbiniekus uzreiz, piemēram, nolīgstat darbinieku
 
 Vasaras periodā parasti tiek pieņemti darbā 15–20 studenti uz nepilnu slodzi, kas jūsu uzņēmumā aizpilda prakses vietas. Šogad vēlaties pieņemt darbā piecus grāmatvežus, piecus pasūtījumu apstrādātājus un piecus kasierus. Jūs neveidojat katru pozīcijas un darbinieka ierakstu atsevišķi, bet izveidojat vienu masveida pieņemšanas darbā projektu ar nosaukumu “Vasaras praktikanti”. Projekta sākuma un beigu datumi atbilst masveida pieņemšanas darbā projektā izveidoto pozīciju pastāvēšanas perioda sākuma un beigu datumiem.
 
-Uz **Masveida nomas projekti** lapā atlasiet **Vasaras interni** projektu un pēc tam atlasiet **Atvērts projekts**. Atvērtajā lielapjoma nomas projektā atlasiet **Izveidojiet pozīcijas**, un ievadiet informāciju par grāmatveža amatu. Varat norādīt, ka jāizveido piecas grāmatveža amata vietas un katrai jāizmanto viena un tā pati informācija. Pēc tam atlasiet **Labi**. Atkārtojiet šo darbību, izveidojot pasūtījuma apstrādātāja un kasiera pozīciju.
+Lapā **Masveida pieņemšanas darbā projekti** atlasiet projektu “Vasaras praktikanti” un pēc tam noklikšķiniet uz **Atvērt projektu**. Atvērtajā masveida pieņemšanas darbā projektā noklikšķiniet uz **Izveidot pozīcijas** un ievadiet informāciju par grāmatveža pozīciju. Varat norādīt, ka ir jāizveido piecas grāmatveža pozīcijas, katrai pozīcijai izmantojot vienādu informāciju, un pēc tam noklikšķiniet uz Labi. Atkārtojiet šo darbību, izveidojot pasūtījuma apstrādātāja un kasiera pozīciju.
 
-Kad esat atlasījis studentus, kurus pieņemt darbā prakses pozīcijām, katra studenta informāciju ievadīsit tās amata amata detaļās, kurā viņus pieņemat darbā. Kad esat ievadījis visu informāciju par pozīciju, atlasiet pozīciju uz **Masveida nomas projekti** lapu un pēc tam atlasiet **Nomāt**. Katrai pozīcijai tiks izveidots amata ieraksts, un katrai darbā pieņemtajai personai tiks izveidots darbinieka ieraksts un piešķirts pareizajam amatam.
+Pēc tam, kad ir atlasīti studenti, kuri atbilst pieņemšanai darbā prakses pozīcijās, ievadiet katra studenta datus laukā **Pozīcijas dati** atbilstoši pozīcijai, kurā studentu pieņemat darbā. Kad visi pozīcijas dati ir ievadīti, atlasiet pozīciju lapā Masu darbā pieņemšanas projekti un noklikšķiniet uz **Pieņemt darbā**. Katrai pozīcijai tiek izveidots pozīcijas ieraksts, kā arī tiek izveidots darbinieka ieraksts, kas tiek piešķirts katras darba pieņemtās personas attiecīgai pozīcijai.
 
 ## <a name="mass-hire-project-statuses"></a>Masveida pieņemšanas darbā projekta statusi
 
 Masveida pieņemšanas darbā projektam var piešķirt tālāk norādītos statusus.
 
-- Izveidots
-- Atvēršana
+- Izveidota
+- Atvērta
 - Slēgts
 
-Uz **Masu nomas projekts** lapu, atlasiet **Atvērts projekts** vai **Aizvērt projektu** mainīt masveida nomas projekta statusu. Sekojošajā tabulā ir aprakstīts, ko varat darīt ar projektu, vadoties pēc tā statusa.
+Lai mainītu masveida pieņemšanas darbā projekta statusu, lapā **Masveida pieņemšanas darbā projekts** noklikšķiniet uz **Atvērt projektu** vai **Slēgt projektu**. Sekojošajā tabulā ir aprakstīts, ko varat darīt ar projektu, vadoties pēc tā statusa.
 
 <table>
 <thead>
@@ -78,12 +76,9 @@ Uz **Masu nomas projekts** lapu, atlasiet **Atvērts projekts** vai **Aizvērt p
 </tr>
 <tr>
 <td>Slēgts</td>
-<td><p>Jūs nevarat pievienot projektā pozīcijas. Lai pievienotu masveida pieņemšanas darbā projektā pozīcijas, atveriet vēlreiz projektu. Šis ir statuss pabeigtiem projektiem.</p>
-<p><strong>Piezīme:</strong> Lai varētu slēgt masveida nomas projektu, visām projekta pozīcijām ir jābūt statusam vienam no tiem<b>Izveidots</b> vai<b>Slēgts</b>.</p>
+<td>Jūs nevarat pievienot projektā pozīcijas. Lai pievienotu masveida pieņemšanas darbā projektā pozīcijas, atveriet vēlreiz projektu. Šis ir statuss pabeigtiem projektiem.
+<blockquote>[!NOTE] Pirms masveida pieņemšanas darbā projekta slēgšanas visām projekta pozīcijām jābūt piešķirtam statusam vai nu Izveidots, vai Slēgts.</blockquote>
 </td>
 </tr>
 </tbody>
 </table>
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

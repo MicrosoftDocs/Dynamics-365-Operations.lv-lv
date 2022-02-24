@@ -1,10 +1,12 @@
 ---
 title: Izveidot uzturēšanas pieprasījumus
 description: Šajā tēmā izskaidrots, kā izveidot uzturēšanas pieprasījumu Līdzekļu pārvaldībā.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRequestTableCreate
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4b48a0504b79d2edf7815296312c7839052092e7d6773b7ebd5d38cbb59c9428
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f45378405d9ea06ae847d93b7eacd9badf6d7e00
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714984"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019182"
 ---
 # <a name="create-maintenance-requests"></a>Izveidot uzturēšanas pieprasījumus
 
@@ -30,7 +32,7 @@ ms.locfileid: "6714984"
 
 Uzturēšanas pieprasījumus var izmantot, ja uzturēšanas darbinieki vai ražošanas darbinieki atklāj, ka aprīkojumam nepieciešams remonts, bet remonta darbus nevar veikt uzreiz.
 
-**Piemērs:** kamēr uzturēšanas darbinieks veic remontu, viņš atklāj, ka ir nepieciešama cita līdzekļa tajā pašā atrašanās vietā apkope. Taču uzturēšanas darbiniecei nav ne laika, ne nepieciešamo rezerves daļu, lai veiktu remonta darbus. Tāpēc viņš izveido uzturēšanas pieprasījumu līdzeklim un ievada īsu problēmas aprakstu.
+**Piemērs:** kamēr uzturēšanas darbiniece veic remontu, viņa atklāj, ka ir nepieciešama cita līdzekļa tajā pašā atrašanās vietā apkope. Taču uzturēšanas darbiniecei nav ne laika, ne nepieciešamo rezerves daļu, lai veiktu remonta darbus. Tāpēc viņa izveido uzturēšanas pieprasījumu līdzeklim un ievada īsu problēmas aprakstu.
 
 Sadaļa **Aktīvie uzturēšanas pieprasījumi** rūtī **Saistītā informācija**, kas atrodas lapas **Visi līdzekļi** vai **Aktīvie līdzekļi** labajā pusē (**Līdzekļu pārvaldība** \> **Kopīgi** \> **Līdzekļi** \> **Visi līdzekļi** vai **Aktīvie līdzekļi**) rāda aktīvos uzturēšanas pieprasījumus, kas ir pievienoti atlasītajam līdzeklim.
 
@@ -52,7 +54,7 @@ Sadaļa **Aktīvie uzturēšanas pieprasījumi** rūtī **Saistītā informācij
 11. Laukā **Piezīmes** ievadiet visas nepieciešamās papildu piezīmes.
 12. Atlasiet **Labi**.
 
-![Izveidot uzturēšanas pieprasījumu.](media/03-manage-maintenance-requests.png)
+![Izveidot uzturēšanas pieprasījumu](media/03-manage-maintenance-requests.png)
 
 ## <a name="subsequent-processing-of-maintenance-requests"></a>Turpmāka uzturēšanas pieprasījumu apstrāde
 
@@ -67,10 +69,7 @@ Detalizētas informācijas skatā varat atjaunināt dažādu informāciju. Daži
 - Atlasiet uzturēšanas darba veidu un, ja šī informācija ir būtiska, saistīto uzturēšanas darba variantu un darba tirdzniecību.
 - Laukos **Platums** un **Garums** ievadiet ģeogrāfiskās koordinātas. Visas koordinātas, kas tiek pievienotas uzturēšanas pieprasījumam, tiek automātiski pārsūtītas uz saistīto darba pasūtījumu. 
 
-![Uzturēšanas pieprasījuma atjaunināšana.](media/04-manage-maintenance-requests.png)
+![Uzturēšanas pieprasījuma atjaunināšana](media/04-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Ja atlasāt līdzekli, veidojot uzturēšanas pieprasījumu, varat līdzeklim pievienot vienu kļūmi. Pēc uzturēšanas pieprasījuma izveides varat pievienot vairāk kļūmju — kā nepieciešams. Lai pievienotu kļūmes, atlasiet **Līdzekļa kļūme** lapā **Visi uzturēšanas pieprasījumi**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

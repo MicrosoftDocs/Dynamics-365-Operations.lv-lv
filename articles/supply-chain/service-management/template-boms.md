@@ -1,10 +1,12 @@
 ---
 title: Veidnes MK
 description: Veidnes materiālu komplekti (MK) nodrošina standartizētu komponentu sarakstu tiem pakalpojumu objektiem, kas tiek apkalpoti regulāri.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 09/19/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMATemplateBOMTable
 audience: Application User
@@ -15,23 +17,25 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d34502d74590595f26ba5aae78158ed893a095df
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 01cd4cf03fb0ac1a3399673097895513f7180cf1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571311"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965784"
 ---
-# <a name="template-boms"></a>Veidnes MK
+# <a name="template-boms"></a>Veidnes MK    
 
 [!include [banner](../includes/banner.md)]
+
 
 Veidnes materiālu komplekti (MK) jums nodrošina standartizētu komponentu sarakstu tiem pakalpojumu objektiem, kas tiek apkalpoti regulāri. Komponenti, kas ir uzskaitīti veidnes MK, pārstāv pakalpojumu objekta atsevišķos apakškomponentus. Pakalpojumu objektam lietojot veidnes MK, varat reģistrēt apakškomponentus, kas ir aizstāti šim pakalpojumu objektam.
 
 Lai pielietotu veidnes MK pakalpojumu līgumam vai pakalpojumu pasūtījumam, pievienojiet to pakalpojumu objektu attiecībām.
 
+
 > [!NOTE]
-> Katram pakalpojumu objektam varat lietot tikai vienu veidnes MK.
+> <P>Katram pakalpojumu objektam varat lietot tikai vienu veidnes MK.</P>
 
 ## <a name="create-a-template-bom"></a>Veidnes MK izveidošana
 
@@ -39,8 +43,8 @@ Nākamajā tabulā ir informācija par dažādajām metodēm, kuras varat izmant
 
 <table>
 <colgroup>
-<col />
-<col />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -68,6 +72,7 @@ Nākamajā tabulā ir informācija par dažādajām metodēm, kuras varat izmant
 </tbody>
 </table>
 
+
 ## <a name="apply-the-template-bom-to-a-service-agreement-or-service-order"></a>Veidnes MK lietošana pakalpojumu līgumam vai pakalpojumu pasūtījumam
 
 Veidnes MK varat lietot kādam pakalpojumu līgumam, pakalpojumu pasūtījumam vai abiem. Pakalpojumu līgums parasti sedz ilgtermiņa attiecības ar klientu. Pakalpojumu materiālu komplektā (MK) ierakstītā aizvietojumu vēsture ir pakalpojumu līgumam noderīgi dati.
@@ -78,7 +83,7 @@ Veidnes materiālu komplektu (MK) varat lietot arī pakalpojumu pasūtījumam, 
 
 Pakalpojumu MK rindas vēsturi varat kopēt no viena pakalpojumu līguma uz citu pakalpojumu līgumu. Kopējot pakalpojumu vēsturi starp pakalpojumu līgumiem, varat saglabāt ierakstu par kāda krājuma aizvietošanu.
 
-### <a name="example"></a>Paraugs
+**Piemērs**
 
 Jūs esat iestatījis trīs gadu ilgu pakalpojumu līgumu klienta mašīnai. Šajā laikā klients pierod pie uzņēmuma sniegtajiem labajiem pakalpojumiem. Tādēļ pēc līguma beigām klients vēlas iestatīt jaunu. Tagad jūs varat vienoties par uzņēmumam izdevīgāku līgumu. Tā kā ieraksti par aizvietotajiem komponentiem var noderēt arī turpmāk, šī pakalpojumu MK vēsturi jūs kopējat uz jauno līgumu.
 
@@ -96,18 +101,26 @@ Varat mainīt veidu, kā visiem veidņu un pakalpojumu MK tiek rādīta MK rin
 
 Lai izmantotu veidņu MK, ir jāiestata divas numuru sērijas. Iestatiet vienu numuru sēriju veidnes materiālu komplektam (MK) un vienu — MK vēstures rindas numuram.
 
+
 > [!NOTE]
-> Numuru sērijas tiek izmantotas, lai piešķirtu identifikatorus ierakstiem, kam tie ir nepieciešami. Lai numuru sēriju varētu piešķirt veidnes MK vai MK vēstures rindas numuram, ir jāiestata numuru sēriju kodi.
+> <P>Numuru sērijas tiek izmantotas, lai piešķirtu identifikatorus ierakstiem, kam tie ir nepieciešami. Lai numuru sēriju varētu piešķirt veidnes MK vai MK vēstures rindas numuram, ir jāiestata numuru sēriju kodi.</P>
+
 
 ## <a name="set-up-number-sequences"></a>Numuru sēriju iestatīšana
 
-1. Saraksta lapā **Numuru sērijas** izveidojiet numuru sērijas veidņu materiālu komplektu (MK) un MK vēstures rindu numuram.
-1. Atlasiet **Pakalpojumu pārvaldība** \> **Iestatīšana** \> **Pakalpojumu pārvaldības parametri**.
-1. Atlasiet **Numuru sērijas** un pēc tam atlasiet kādu sērijas koda numuru numuru sēriju atsaucēm, kuras izveidojāt veidlapā **Numuru sērijas**.
-1. Aizveriet formu, lai saglabātu izmaiņas.
+1.  Saraksta lapā **Numuru sērijas** izveidojiet numuru sērijas veidņu materiālu komplektu (MK) un MK vēstures rindu numuram. 
+
+2.  Noklikšķiniet uz **Pakalpojumu pārvaldība** \> **Iestatīšana** \> **Pakalpojumu pārvaldības parametri**.
+
+3.  Noklikšķiniet uz **Numuru sērijas** un pēc tam atlasiet kādu numuru sērijas kodu numuru sēriju atsaucēm, kuras izveidojāt formā **Numuru sērijas**.
+
+4.  Aizveriet formu, lai saglabātu izmaiņas.
+
 
 > [!NOTE]
-> MK vēstures rindas numuru sistēma izmanto, lai transakcijas MK vēsturē saistītu ar pakalpojumu līgumu vai pakalpojumu pasūtījumu. Šis numurs netiek rādīts lietotāja interfeisā.
+> <P>MK vēstures rindas numuru sistēma izmanto, lai transakcijas MK vēsturē saistītu ar pakalpojumu līgumu vai pakalpojumu pasūtījumu. Šis numurs netiek rādīts lietotāja interfeisā.</P>
+
+
 
 ## <a name="see-also"></a>Skatiet arī
 
@@ -117,4 +130,6 @@ Lai izmantotu veidņu MK, ir jāiestata divas numuru sērijas. Iestatiet vienu 
 
 [Pakalpojuma MK modificēšana](modify-service-bom.md)
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+ 
+
+

@@ -1,10 +1,12 @@
 ---
 title: Līdzekļu dokumenti
 description: Šī tēma paskaidro līdzekļu dokumentus Līdzekļu pārvaldībā.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetObjectDocument
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 77b7265b1ba56dbd1cd955f5d90afea02f589ce2eebdd05a2fef3a7ddebc0ee1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0f8bcae99a96ccd83dc4543b1c56007a4263a19b
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722491"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021683"
 ---
 # <a name="asset-documents"></a>Līdzekļu dokumenti
 
@@ -34,7 +36,7 @@ Līdzekļu pārvaldībā varat iestatīt dokumentus tā, lai tie tiktu automāti
 
 **1. piemērs** : dokuments, kas saistīts ar darba veidu, var aprakstīt procedūru šim darba veidam.
 
-**2. piemērs:** dokuments, kas ir saistīts ar līdzekļa veida, ražotāja un modeļa kombināciju, var būt standarta rokasgrāmata atlasītajam līdzekļu ražotāja modelim.
+**2. piemērs** : dokuments, kas ir saistīts ar līdzekļa veida, ražotāja un modeļa kombināciju, var būt standarta rokasgrāmata atlasītajam līdzekļu ražotāja modelim.
 
 ## <a name="create-asset-document-relation"></a>Līdzekļa dokumentu attiecību izveide
 
@@ -47,6 +49,3 @@ Līdzekļu pārvaldībā varat iestatīt dokumentus tā, lai tie tiktu automāti
 
 4. Atlasiet **Pielikumi**. Tiek parādīta standarta lapa **Dokumentu apstrāde**.
 5. Iestatiet dokumentus vai piezīmes, kas jāpievieno līdzekļa dokumenta ierakstam. Pēc dokumentu pievienošanas lauks **Pielikumi** parāda ar ierakstu saistīto dokumentu skaitu.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

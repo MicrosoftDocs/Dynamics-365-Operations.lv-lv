@@ -2,12 +2,15 @@
 title: Sadalīto pasūtījumu pārvaldība (DOM)
 description: Šajā tēmā ir aprakstīta sadalīto pasūtījumu pārvaldības (distributed order management — DOM) funkcionalitāte programmā Dynamics 365 Commerce.
 author: josaw1
-ms.date: 01/08/2021
+manager: AnnBe
+ms.date: 05/22/2020
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -15,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 442a7449e0b28e1086d50ab68dbaf85370fce8ea6e178dd91ad972a2b47d7de3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3a83bd6e997110d107bac836abf237f99db78d99
+ms.sourcegitcommit: d77e902b1ab436e5ff3e78c496f5a70ef38e737c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717701"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4459508"
 ---
 # <a name="distributed-order-management-dom"></a>Sadalīto pasūtījumu pārvaldība (DOM)
 
@@ -34,9 +37,9 @@ DOM optimizē pasūtījumu izpildīšanu kompleksā sistēmu un procesu tīklā.
 
 Šajā attēlā parādīts pārdošanas pasūtījuma dzīves cikls DOM sistēmā.
 
-![Pārdošanas pasūtījuma dzīves cikls DOM kontekstā.](./media/flow.png "Pārdošanas pasūtījuma dzīves cikls DOM kontekstā")
+![Pārdošanas pasūtījuma dzīves cikls DOM kontekstā](./media/flow.png "Pārdošanas pasūtījuma dzīves cikls DOM kontekstā")
 
-## <a name="set-up-dom"></a>DOM iestatīšana
+## <a name="set-up-dom"></a>DOM iestatīšana
 
 1. Dodieties uz **Sistēmas administrēšana \> Iestatījumi \> Licences konfigurācija**.
 2. Cilnē **Konfigurācijas atslēgas** izvērsiet mezglu **Tirdzniecība** un pēc tam atzīmējiet izvēles rūtiņu **Sadalīto pasūtījumu pārvaldība**.
@@ -46,12 +49,8 @@ DOM optimizē pasūtījumu izpildīšanu kompleksā sistēmu un procesu tīklā.
     - **Iespējot sadalīto pasūtījumu pārvaldību** — iestatiet šai opcijai vienumu **Jā**.
     - **Apstiprināt Bing karšu lietojumu DOM** — iestatiet šai opcijai vienumu **Jā**.
 
-
         > [!NOTE]
         > Šai opcijai var iestatīt vienumu **Jā** tikai tad, ja opcijai **Iespējot Bing kartes** lapas **Tirdzniecības koplietojamie parametri** (**Retail un Commerce \> Headquarters iestatīšana \> Parametri \> Tirdzniecības koplietojamie parametri**) cilnē **Bing kartes** arī ir iestatīts vienums **Jā** un ja laukā **Bing karšu atslēga** ir ievadīta derīga atslēga.
-        >
-        > [Bing karšu izstrādātāju centra](https://www.bingmapsportal.com/) portāls ļauj ierobežot piekļuvi jūsu Bing karšu API atslēgām uz norādītu domēnu kopu. Ar šo funkciju debitori var definēt stingru atsauksmju vērtību vai IP adrešu diapazonu kopu, pret kuru atslēga tiks pārbaudīta. Pieprasījumi, kas nāk no jūsu atļauto vienumu saraksta, tiks apstrādāti, kā parasti, bet pieprasījumi ārpus jūsu saraksta atgriezīs liegtas piekļuves atbildi. Domēna drošības pievienošana jūsu API atslēgai ir izvēles iespēja, un atslēgas, kas atstātas tādas, kādas tās ir, turpinās darboties. Atslēgas atļauto vienumu saraksts ir neatkarīgs no visām pārējām atslēgām, ļaujot katrai atslēgai iestatīt atšķirīgus noteikumus. Sadalītā pasūtījumu pārvaldība neatbalsta tādu rekvizītu iestatīšanu, kas attiecas uz domēnu.
-
 
     - **Saglabāšanas perioda dienu skaits** — norādiet, cik ilgi izpildes plāni, kurus DOM ģenerē, tiek saglabāti sistēmā. Pakešuzdevums **DOM izpildes datu dzēšanas darba iestatīšana** izdzēsīs visus izpildes plānus, kas vecāki par šeit norādīto dienu skaitu.
     - **Noraidīšanas periods (dienās)** — norādiet, cik daudz laika jāpaiet, pirms noraidīto pasūtījuma rindu var piešķirt tai pašai vietai.
@@ -63,15 +62,14 @@ DOM optimizē pasūtījumu izpildīšanu kompleksā sistēmu un procesu tīklā.
     - **Risinātāja veids** — atlasiet vērtību. Ar Commerce tiek izlaisti divi risinātāja veidi: **ražošanas risinātājs** un **vienkāršotais risinātājs**. Visām iekārtām, kurās tiks darbināta DOM (t.i., visiem serveriem, kas ietilpst DOM pakešuzdevumu grupā), ir jāatlasa **ražošanas risinātājs**. Ražošanas risinātājam ir nepieciešama īpaša licences atslēga, kas pēc noklusējuma tiek licencēta un izvietota ražošanas vidēs. Vidēm, kas nav ražošanas vides, šī licences atslēga ir jāizvieto manuāli. Lai manuāli izvietotu licences atslēgu, izpildiet tālāk aprakstītos norādījumus.
 
         1. Portālā Microsoft Dynamics Lifecycle Services atveriet koplietojamo līdzekļu bibliotēku, kā līdzekļa veidu atlasiet **Modelis** un lejupielādējiet failu **DOM licence**.
-        1. Palaidiet Microsoft interneta informācijas pakalpojumu (IIS) pārvaldnieku, ar peles labo pogu noklikšķiniet uz vienuma **AOS pakalpojuma tīmekļa vietne** un pēc tam atlasiet **Pārlūkot**. Tiek atvērts Windows Explorer logs ar direktoriju **\<AOS service root\>\\webroot**. Pierakstiet \<AOS Service root\> ceļu, jo tas būs jāizmanto nākamajā darbībā.
-        1. Kopējiet konfigurācijas failu direktorijā **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\bin**.
-        1. Dodieties uz Headquarters klientu un atveriet lapu **DOM parametri**. Cilnes **Risinātājs** laukā **Risinātāja veids** atlasiet **Ražošanas risinātājs** un pārliecinieties, ka netiek rādīti kļūdu ziņojumi.
-
+        2. Palaidiet Microsoft interneta informācijas pakalpojumu (IIS) pārvaldnieku, ar peles labo pogu noklikšķiniet uz vienuma **AOS pakalpojuma tīmekļa vietne** un pēc tam atlasiet **Pārlūkot**. Tiek atvērts Windows Explorer logs ar direktoriju **\<AOS service root\>\\webroot**. Pierakstiet \<AOS Service root\> ceļu, jo tas būs jāizmanto nākamajā darbībā.
+        3. Kopējiet konfigurācijas failu direktorijā **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\bin**.
+        4. Dodieties uz Headquarters klientu un atveriet lapu **DOM parametri**. Cilnes **Risinātājs** laukā **Risinātāja veids** atlasiet **Ražošanas risinātājs** un pārliecinieties, ka netiek rādīti kļūdu ziņojumi.
 
         > [!NOTE]
         > Vienkāršotais risinātājs ir nodrošināts, lai mazumtirgotāji varētu izmēģināt DOM līdzekli, neizvietojot īpašo licenci. Organizācijām nevajadzētu izmantot vienkāršoto risinātāju ražošanas vidēs.
         >
-        > Ražošanas risinātājs uzlabo veiktspēju (piemēram, pasūtījumu un pasūtījuma rindu skaitu, kuras var apstrādāt izpildes laikā) un rezultātu konverģenci (jo dažos scenārijos pasūtījumu partijas, iespējams, nesniegs labāko rezultātu). Dažām kārtulām, piemēram, **daļējo pasūtījumu** kārtulai un **maksimālajam atrašanās vietu skaitam**, ir nepieciešams ražošanas risinātājs.
+        > Lai gan vienkāršotais risinātājs nodrošina tādu pašu iespēju kopumu kā ražošanas risinātājs, pastāv ierobežojumi attiecībā uz veiktspēju (pasūtījumu un pasūtījuma rindu skaits, kuras var apstrādāt izpildes laikā) un rezultātu konverģenci (dažos scenārijos pasūtījumu partijas, iespējams, nesniegs labāko rezultātu).
      
 6. Dodieties atpakaļ uz **Retail un Commerce \> Sadalīto pasūtījumu pārvaldība \> Iestatījumi \> DOM parametri**.
 7. Cilnē **Numuru sērijas** piešķiriet nepieciešamās numuru sērijas dažādiem DOM elementiem.
@@ -123,7 +121,7 @@ DOM optimizē pasūtījumu izpildīšanu kompleksā sistēmu un procesu tīklā.
         \* Ja opcijai **Izpildīt daļējos pasūtījumus** ir atlasīts iestatījums **Nē**, vienmēr tiek uzskatīts, ka opcijai **Izpildīt daļējās rindas** ir atlasīts iestatījums **Nē** neatkarīgi no tā, kāds ir faktiskais iestatījums.
 
         > [!NOTE]
-        > Retail versijā 10.0.5 parametrs **Izpildīt pasūtījumu tikai no vienas vietas** tika mainīts uz **Maksimālās izpildes vietas**. Tā vietā, lai ļautu lietotājam konfigurēt, vai pasūtījumus var izpildīt tikai no vienas vietas vai no tik vietām, cik tas ir iespējams, lietotāji tagad var norādīt, vai izpildi var veikt no noteikta vietu kopuma (līdz 5) vai no tik daudz vietām, cik tas ir iespējams. Tas nodrošina lielāku elastību saistībā ar vietu skaitu, no kurām var izpildīt pasūtījumu. Šī kārtula darbojas tikai ar ražošanas risinātāju. 
+        > Retail versijā 10.0.5 parametrs **Izpildīt pasūtījumu tikai no vienas vietas** tika mainīts uz **Maksimālās izpildes vietas**. Tā vietā, lai ļautu lietotājam konfigurēt, vai pasūtījumus var izpildīt tikai no vienas vietas vai no tik vietām, cik tas ir iespējams, lietotāji tagad var norādīt, vai izpildi var veikt no noteikta vietu kopuma (līdz 5) vai no tik daudz vietām, cik tas ir iespējams. Tas nodrošina lielāku elastību saistībā ar vietu skaitu, no kurām var izpildīt pasūtījumu.
 
    - **Bezsaistes izpildes vietas kārtula** — šī kārtula ļauj organizācijām norādīt, ka vieta vai vietu grupa ir bezsaistē vai nav pieejama DOM, lai šīm vietām nevarētu piešķirt pasūtījumus izpildei.
     - **Noraidīšanas maksimuma kārtula** — šī kārtula ļauj organizācijām noteikt noraidīšanas slieksni. Kad tiek sasniegts slieksnis, DOM procesors atzīmē pasūtījumu vai pasūtījuma rindu kā izņēmumu un izslēdz to no tālākas apstrādes.
@@ -200,7 +198,7 @@ Apstrādes laikā DOM ņem vērā pasūtījumu un pasūtījuma rindas, kā aprak
 
 Pēc kārtulu, krājumu ierobežojumu un optimizācijas lietošanas DOM izvēlas vietu, kas ir vistuvāk klienta piegādes adresei.
 
-![Pārdošanas pasūtījumu kritēriji.](./media/ordercriteria.png "Pārdošanas pasūtījumu kritēriji")
+![Pārdošanas pasūtījumu kritēriji](./media/ordercriteria.png "Pārdošanas pasūtījumu kritēriji")
 
 ## <a name="results-of-dom-runs"></a>DOM izpildes rezultāti
 
@@ -254,6 +252,3 @@ Tālāk minēti daži apsvērumi, kas jāņem vērā, izmantojot DOM līdzekli:
 - Pašlaik DOM ņem vērā tikai pasūtījumus, kas izveidoti no tirdzniecības kanāliem. Pārdošanas pasūtījumi tiek identificēti kā pārdošanas pasūtījumi, ja opcijai **Tirdzniecība** ir atlasīts iestatījums **Jā**.
 - Uzņēmums Microsoft nav pārbaudījis DOM ar papildu noliktavas pārvaldības funkcijām. Klientiem un partneriem ir jānosaka, vai DOM ir saderīga ar papildu noliktavas pārvaldības funkcijām un procesiem, kuri attiecas uz viņiem.
 - DOM ir pieejama tikai programmas Commerce mākoņa versijai. Tā netiek atbalstīta lokālos izvietojumos.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

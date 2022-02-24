@@ -1,10 +1,12 @@
 ---
 title: Elektronisko pārskatu veidošanas (ER) konfigurāciju dzīves cikla pārvaldība
-description: Šajā tēmā ir aprakstīts, kā pārvaldīt elektronisko pārskatu izveides (Electronic reporting — ER) konfigurāciju Dynamics 365 Finance.
+description: Šajā tēmā ir aprakstīts, kā pārvaldīt elektronisko pārskatu izveides (Electronic reporting — ER) konfigurāciju Microsoft Dynamics 365 Finance risinājumam.
 author: NickSelin
-ms.date: 07/23/2021
+manager: AnnBe
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
 audience: Application User, Developer, IT Pro
@@ -15,20 +17,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8b61082cf17707c952b6e07613769a671c349bb8fa92c21e3fe8524ef62dcb2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1a4741784103817c270c4c7f730753ba59a327d1
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767783"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682627"
 ---
-# <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Elektronisko pārskatu veidošanas (ER) konfigurācijas dzīves cikla pārvaldība
+# <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Elektronisko pārskatu veidošanas (ER) konfigurāciju dzīves cikla pārvaldība
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā pārvaldīt elektronisko pārskatu izveides (Electronic reporting — ER) konfigurāciju Dynamics 365 Finance.
+Šajā tēmā ir aprakstīts, kā pārvaldīt elektronisko pārskatu izveides (Electronic reporting — ER) konfigurāciju Microsoft Dynamics 365 Finance.
 
-## <a name="overview"></a>Pārskats
+## <a name="overview"></a>Kopsavilkums
 
 Elektronisko pārskatu izveide (ER) ir programma, kas nodrošina ar likumu noteikto un valstij raksturīgo elektronisko dokumentu atbalstu. Kopumā ER spēj veikt šādus uzdevumus attiecībā uz vienu elektronisko dokumentu. Papildinformāciju skatiet tēmā [Pārskats par elektronisko pārskatu (EP) veidošanu](general-electronic-reporting.md).
 
@@ -45,7 +47,7 @@ Elektronisko pārskatu izveide (ER) ir programma, kas nodrošina ar likumu note
 
 - Padarīt veidni pieejamu, lai to varētu izmantot citās instancēs:
 
-    - Pārveidot dokumenta veidni, kas izveidota programmā Dynamics AX, par ER konfigurāciju un eksportēt konfigurāciju no pašreizējās programmas instances kā XML pakotni, kuru var glabāt lokāli vai Lifecycle Services (LCS).
+    - Pārveidot dokumenta veidni, kas izveidota programmā Dynamics AX, par ER konfigurāciju un eksportēt konfigurāciju no pašreizējās programmas instances kā XML pakotni, kuru var glabāt lokāli vai LCS.
     - Pārveidot ER konfigurāciju par programmas dokumenta veidni.
     - Importēt XML pakotni, kas tiek glabāta lokāli vai LCS pašreizējā instancē.
 
@@ -78,38 +80,10 @@ Tālāk minēto ar ER saistīto apsvērumu dēļ ER konfigurācijas ir ieteicams
 - Lietotāji, kam ir loma **Elektronisko pārskatu izstrādātājs** vai **Elektronisko pārskatu veidošanas funkcionālais konsultants**, var rediģēt konfigurācijas un palaist tās testēšanas nolūkos. Šis scenārijs var izraisīt klašu un tabulu metožu izsaukumus, kas var kaitēt biznesa datiem un instances izmantošanas veiktspējai.
 - Klašu un tabulu metožu kā ER konfigurāciju ER datu avotu izsaukumus neierobežo ieejas punkti un reģistrēts uzņēmuma saturs. Tādēļ lietotāji, kuriem ir loma **Elektronisko pārskatu izstrādātājs** vai **Elektronisko pārskatu veidošanas funkcionālais konsultants**, var piekļūt konfidenciāliem uzņēmuma datiem.
 
-Izstrādes vidē izstrādātās ER konfigurācijas var [augšupielādēt](#data-persistence-consideration) testēšanas vidē konfigurācijas novērtēšanai (pareiza procesu integrācija, pareizi rezultāti un veiktspēja) un kvalitātes nodrošināšanai (pareizas lomu piekļuves tiesības un pienākumu sadale). Šim nolūkam var izmantot ER konfigurāciju apmaiņas līdzekļus. Apstiprinātās ER konfigurācijas var augšupielādēt LCS, lai tās koplietotu ar pakalpojumu abonentiem, vai tās var [importēt](#data-persistence-consideration) ražošanas vidē iekšējai izmantošanai.
+Izstrādes vidē izstrādātās ER konfigurācijas var augšupielādēt testēšanas vidē konfigurācijas novērtēšanai (pareiza procesu integrācija, pareizi rezultāti un veiktspēja) un kvalitātes nodrošināšanai (pareizas lomu piekļuves tiesības un pienākumu sadale). Šim nolūkam var izmantot ER konfigurāciju apmaiņas līdzekļus. Visbeidzot apstiprinātās ER konfigurācijas var augšupielādēt LCS, kur tās var koplietot ar pakalpojumu abonentiem, vai ražošanas vidē iekšējai lietošanai, kā tas ir redzams tālāk esošajā attēlā.
 
-![ER konfigurācijas dzīves cikls.](./media/ger-configuration-lifecycle.png)
-
-## <a name="data-persistence-consideration"></a>Datu noturības apsvērumi
-
-Dažādas ER [konfigurācijas](general-electronic-reporting.md#Configuration) [versijas](general-electronic-reporting.md#component-versioning) var [importēt](tasks/er-import-configuration-lifecycle-services.md) atsevišķi uz Finance instanci. Kad tiek importēta jauna ER konfigurācijas versija, sistēma kontrolē šīs konfigurācijas melnraksta versijas saturu:
-
-- Kad importētā versija ir zemāka nekā visaugstākā šīs konfigurācijas versija pašreizējā Finance instancē, šīs konfigurācijas melnraksta versijas saturs paliek nemainīgs.
-- Kad importētā versija ir augstāka nekā jebkura cita šīs konfigurācijas versija pašreizējā Finance instancē, importētās versijas saturs tiek kopēts šīs konfigurācijas melnraksta versijā, lai ļautu turpināt rediģēt pēdējo pabeigto versiju.
-
-Ja šī konfigurācija pieder pašlaik aktivizētām konfigurācijas [nodrošinātājam](general-electronic-reporting.md#Provider), šīs konfigurācijas melnraksta versija ir redzama lapas **Konfigurācijas** kopsavilkuma cilnē **Versijas** (**Organizācijas administrēšana** > **Elektronisko pārskatu veidošana** > **Konfigurācijas**). Varat atlasīt konfigurācijas melnraksta versiju un [modificēt](er-quick-start2-customize-report.md#ConfigureDerivedFormat) tās saturu, izmantojot atbilstīgo ER veidotāju. Kad esat rediģējis ER konfigurācijas melnraksta versiju, tās saturs vairs neatbilst šīs konfigurācijas augstākās versijas saturam pašreizējā Finance instancē. Lai novērstu jūsu izmaiņu zudumus, sistēma parādā kļūdu, ka imports nevar turpināties, jo šīs konfigurācijas versija ir augstāka par augstāko šīs konfigurācijas versiju pašreizējā Finance instancē. Kad tā notiek, piemēram, ar formāta konfigurāciju **X**, tiek rādīta kļūda **Formāta 'X' versija nav pabeigta**.
-
-Lai atsauktu melnraksta versijā ieviestās izmaiņas, atlasiet visaugstāko pabeigto vai koplietojamo jūsu ER konfigurācijas versiju pakalpojumā Finance, kopsavilkuma cilnē **Versijas** un pēc tam atlasiet opciju **Iegūt šo versiju**. Atlasītās versijas saturs tiek kopēts melnraksta versijā.
-
-## <a name="applicability-consideration"></a>Piemērojamības apsvērumi
-
-Veidojot jaunu ER konfigurācijas versiju, var definēt tās [atkarību](tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md) no citiem programmatūras komponentiem. Šis solis tiek uzskatīts par priekšnoteikumu, lai kontrolētu šīs konfigurācijas versijas lejupielādi no ER repozitorija vai ārēja XML faila un jebkādu turpmāku šīs versijas izmantošanu. Mēģinot importēt jaunu ER konfigurācijas versiju, sistēma izmanto konfigurētos priekšnosacījumus, lai kontrolētu, vai šo versiju var importēt.
-
-Dažos gadījumos var būt nepieciešams, lai sistēma ignorētu konfigurētos priekšnosacījumus, kad importējat jaunas ER konfigurāciju versijas. Lai importa laikā sistēma ignorētu priekšnosacījumus, veiciet šīs darbības.
-
-1. Dodieties uz **Organizācijas administrēšana** \> **Elektronisko pārskatu veidošana** \> **Konfigurācijas**.
-2. Lapas **Konfigurācijas** darbību rūtī, cilnē **Konfigurācijas**, grupā **Papildu iestatījumi** atlasiet vienumu **Lietotāja parametri**.
-3. Iestatiet **Izlaist produkta atjauninājumus un versijas priekšnosacījumu pārbaudi importēšanas laikā** uz **Jā**.
-
-    > [!NOTE]
-    > Šis parametrs ir lietotājam raksturīgs un uzņēmumam raksturīgs.
+![ER konfigurācijas dzīves cikls](./media/ger-configuration-lifecycle.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Elektronisko pārskatu veidošanas (ER) apskats](general-electronic-reporting.md)
-
-[Elektronisko pārskatu konfigurāciju atkarības no citiem komponentiem definēšana](tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md)
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[Elektronisko ziņojumu (ER) pārskats](general-electronic-reporting.md)

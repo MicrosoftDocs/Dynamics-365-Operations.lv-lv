@@ -1,31 +1,36 @@
 ---
 title: Teksta bloka modulis
-description: Šajā tēmā aplūkoti Text block moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā tiek stāstīts par teksta bloka moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9068c35eaeee68f97d81d168983d7281da09491cb0afd70cb8196010ce771b0d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c6527ad00e74fa105f3873036eb56557b98b05aa
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723315"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413985"
 ---
 # <a name="text-block-module"></a>Teksta bloka modulis
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aplūkoti Text block moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
+Šajā tēmā tiek stāstīts par teksta bloka moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Pārskats
 
 Teksta bloka modulis ir modulis, kas tiek izmantots teksta satura pievienošanai. Tas var būt gan informatīvs, gan reklāmas saturs.
 
@@ -42,11 +47,11 @@ Teksta bloka moduļus var izmantot šādi.
 
 Attēlā zemāk redzams piemērs teksta bloka modulim, kas tiek izmantots sākumlapā.
 
-![Teksta bloka moduļa piemērs.](./media/ecommerce-textblock.PNG)
+![Teksta bloka moduļa piemērs](./media/ecommerce-textblock.PNG)
 
 ## <a name="text-block-module-properties"></a>Teksta bloka moduļa rekvizīti
 
-| Rekvizīta nosaukums     | Vērtība                                            | Apraksts |
+| Rekvizīta nosaukums     | Vērtība                                            | apraksts |
 |-------------------|--------------------------------------------------|-------------|
 | Bagātināts teksts         | Bagātināts teksts                                        | Rindkopas teksts. Tiek atbalstītas dažas pamata bagātināta teksta iespējas, piemēram, treknraksts, pasvītrots un slīpraksta teksts. |
 | Pielāgotās klases nosaukums | Kaskadētās stila lapas (CSS) klases nosaukums        | Tās pielāgotās CSS klases nosaukums, ko izstrādātājs sniedz, lai formatētu šo moduli. Klases nosaukumam ir jābūt definētam dizaina pakotnē. |
@@ -84,6 +89,3 @@ Lai pievienotu teksta bloka moduli jaunā lapā un iestatītu nepieciešamos rek
 
 [Video atskaņotāja modulis](add-video-player.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

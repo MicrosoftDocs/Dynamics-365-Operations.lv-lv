@@ -1,49 +1,48 @@
 ---
 title: Veiktspējas pārvaldība
-description: Veiktspējas pārvaldības process darbiniekiem ļauj dokumentēt savu veiktspēju un apspriest to ar savu vadītāju.
-author: twheeloc
-ms.date: 08/26/2021
-ms.topic: overview
+description: Veiktspējas pārvaldības process darbiniekiem ļauj dokumentēt savu veiktspēju un apspriest to ar savu vadītāju. Savukārt vadītāji pēc tam darbiniekiem var sniegt atsauksmes un ieteikumus.
+author: andreabichsel
+manager: AnnBe
+ms.date: 07/28/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.search.scope: Human Resources
-ms.custom:
-- "221024"
-- intro-internal
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Talent
+ms.custom: 221024
 ms.assetid: d88e30ab-c6e9-4daf-b89d-f4386a299e22
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: fa4d90d568697526adeef52443a01c3251696bf4
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 7e2c7753da69f85307eccd22f6a315e9fd1e4bd6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984750"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419556"
 ---
 # <a name="performance-management"></a>Veiktspējas pārvaldība
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+Veiktspējas pārvaldības process darbiniekiem ļauj dokumentēt savu veiktspēju un apspriest to ar savu vadītāju. Savukārt vadītāji pēc tam darbiniekiem var sniegt atsauksmes un ieteikumus.  
 
-Veiktspējas pārvaldības process darbiniekiem ļauj dokumentēt savu veiktspēju un apspriest to ar savu vadītāju. Savukārt vadītāji var sniegt atsauksmes un norādījumus darbiniekiem.  
-
-Kā parādīts attēlā, procesa pārvaldībā tiek izmantotas trīs lapas:
+Kā redzams nākamajā diagrammā, pastāv trīs lapas, kas jums palīdz pārvaldīt procesu:
 
 -   Veiktspējas žurnāls
 -   Mērķi
 -   Veiktspējas pārskats
 
-Nākamajā diagrammā ir parādīts, kā veiktspējas pārvaldības galvenie komponenti ir savstarpēji saistīti. [![Pārskats par veiktspējas procesu.](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
+Nākamajā diagrammā ir parādīts, kā veiktspējas pārvaldības galvenie komponenti ir savstarpēji saistīti. [![Pārskats par veiktspējas procesu](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
 
 ## <a name="performance-journal"></a>Veiktspējas žurnāls
 
 Pirms jūs kā darbinieks pabeidzat savu pārskatu, jūs bieži vien apkopojat informāciju par aktivitātēm vai notikumiem, kuri papildina jūsu panākumu sarakstu attiecīgajā pārskata periodā. Veiktspējas žurnāls ir tā vieta, kur varat dokumentēt šīs aktivitātes un notikumus. Turklāt varat izveidot gaidāmās darbības, kas ir jāpaveic, lai palīdzētu jums sasniegt kādu mērķi, nodrošināt atbilstību attīstības plāna prasībām vai izpildīt veiktspējas saistības. Veiktspējas žurnāli nav obligāti, lai varētu izveidot mērķus vai veiktspējas pārskatus 
 
-Ir divas veiktspējas žurnāla versijas: darbinieku versija, kurai var piekļūt ar darbvietu **Darbinieku pašapkalpošanās** (**ESS**), un vadītāju versija, kurai var piekļūt ar darbvietu **Vadītāju pašapkalpošanās** (**MSS**). Darbinieki var veidot žurnālus par sevi un var izvēlēties tos kopīgot to savu vadītāju. Vadītāji var veidot žurnālus par savu darba grupu un var izvēlēties tos kopīgot to saviem darbiniekiem. 
+Pastāv divas versijas veiktspējas žurnāla versijas: darbinieku versija, kas ir pieejama no darbvietas **Darbinieku pašapkalpošanās** (**Employee Self-Service — ESS**), un vadītāju versija, kas ir pieejama no darbvietas **Vadītāja pašapkalpošanās** (**Manager Self-Service — MSS**). Darbinieki var veidot žurnālus par sevi un var izvēlēties tos kopīgot to savu vadītāju. Vadītāji var veidot žurnālus par savu darba grupu un var izvēlēties tos kopīgot to saviem darbiniekiem. 
 
-Ja **Veiktspējas žurnālam** piekļūst no **ESS** darbvietas, varat ievadīt šādu informāciju:
+Ja **veiktspējas žurnāla** lapai piekļūstat no darbvietas **ESS**, tad šajā lapā jums ir atļauts iegūt tālāk uzskaitīto informāciju.
 
 -   Aktivitātes nosaukums
 -   Aktivitātes apraksts, kas ietver detalizētu informāciju par šo aktivitāti
@@ -55,13 +54,13 @@ Ja **Veiktspējas žurnālam** piekļūst no **ESS** darbvietas, varat ievadīt 
 
 Veiktspējas žurnālu varat arī saistīt ar ārēju vietni, saglabājot šīs vietnes vietrādi URL. Ja žurnāls ir saistīts ar mērķiem vai veiktspējas pārskatiem, to ir iespējams arī saistīt ar vienu vai vairākiem šādiem elementiem. Ja veiktspējas žurnālam piekļūstat no lapas **MSS**, varat ievadīt to pašu informāciju, ko varat ievadīt darbinieka žurnālam. Papildus varat norādīt darbinieku, kam šis žurnāls tiek veidots. Varat izvēlēties, vai vadītāja žurnālu kopīgot ar jūsu darbinieku.
 
-### <a name="send-feedback"></a>Sūtīt atsauksmes
+### <a name="send-feedback"></a>Atsauksmju sūtīšana
 
-Veiktspējas žurnāls satur papildu līdzekli **Sūtīt atsauksmi**. Kad noklikšķināt uz **Sūtīt atsauksmes**, varat atlasīt darbinieku un pa e-pastu sniegt atsauksmes šim darbiniekam. Ziņojums tiek nosūtīts darbiniekam, kurš saņem atsauksmes, šī darbinieka vadītājam, darbiniekam, kurš sūta atsauksmes, jā arī šī darbinieka vadītājam. Katrai personai, kura saņem atsauksmju ziņojumu, tiek izveidots veiktspējas žurnāla ieraksts.
+Veiktspējas žurnālā ir ietverts papildu līdzeklis ar nosaukumu Atsauksmes. Kad noklikšķināt uz **Sūtīt atsauksmes**, varat atlasīt darbinieku un pa e-pastu sniegt atsauksmes šim darbiniekam. Ziņojums tiek nosūtīts darbiniekam, kurš saņem atsauksmes, šī darbinieka vadītājam, darbiniekam, kurš sūta atsauksmes, jā arī šī darbinieka vadītājam. Katrai personai, kura saņem atsauksmju ziņojumu, tiek izveidots veiktspējas žurnāla ieraksts.
 
 ## <a name="goals"></a>Mērķi
 
-Lapa **Veiktspējas mērķi** palīdz sekot mērķiem, kurus jūs un vadītājs esat jums uzstādījuši. Varat izveidot neierobežotu skaitu mērķu, un šos mērķus var izvietot dažādos periodos un veiktspējas pārskatos. Varat arī izveidot vienkāršus vai sarežģītus mērķus, atkarībā no informācijas apjoma, ko vēlaties ievadīt par mērķi. Veiktspējas pārskatos mērķi nav obligāti. 
+**Veiktspējas mērķu** lapa jums palīdz sekot līdzi mērķiem, kurus sev izveidojāt pats vai kurus jums izveidoja jūsu vadītājs. Varat izveidot neierobežotu skaitu mērķu, un šos mērķus var izvietot dažādos periodos un veiktspējas pārskatos. Varat arī izveidot vienkāršus vai sarežģītus mērķus, atkarībā no informācijas apjoma, ko vēlaties ievadīt par mērķi. Veiktspējas pārskatos mērķi nav obligāti. 
 
 Pamata mērķim ir jāiekļauj tālāk uzskaitītā informācija.
 
@@ -76,9 +75,9 @@ Ja jums ir detalizētākas instrukcijas par kādu mērķi, varat izveidot mērķ
 
 Bieži vien mērķiem ir izmērāmi rezultāti. Varat pievienot mērījumus, lai sekotu līdzi mērķa paredzētajiem rezultātiem un faktiskajiem rezultātiem. Ja mērījums ir ambiciozs mērķis, varat atzīmēt šo mērījumu, izmantojot opciju **Ambiciozais mērķis**. 
 
-Jūsu veiktspējas žurnāls ietvers aktivitātes, kas vadītājam sniedz papildinformāciju par to, kā jūs sasniedzāt savu mērķi. Ja ar šo mērķi esat saistījis kādu veiktspējas žurnālu, tas tiek rādīts attiecīgā mērķa sadaļā **Aktivitātes**. No lapas **Veiktspējas mērķi** varat arī pievienot jaunu veiktspējas žurnālu. Šis veiktspējas žurnāls automātiski tiks saistīts ar šo mērķi. 
+Jūsu veiktspējas žurnāls ietvers aktivitātes, kas vadītājam sniedz papildinformāciju par to, kā jūs sasniedzāt savu mērķi. Ja ar šo mērķi esat saistījis kādu veiktspējas žurnālu, tas tiek rādīts attiecīgā mērķa sadaļā **Aktivitātes**. No **veiktspējas mērķu** lapas varat arī pievienot jaunu veiktspējas žurnālu. Šis veiktspējas žurnāls automātiski tiks saistīts ar šo mērķi. 
 
-Ja vēlaties mērķim pievienot dokumentu, piemēram, izpildes sertifikātu, varat to pievienot lapas **Veiktspējas mērķi** sadaļa **Pielikumi**. Ir nodrošināts dokumentu skatītājs, lai jūs varētu ātri skatīt jebkura pievienotā dokumenta saturu. 
+Ja vēlaties mērķim pievienotu kādu dokumentu, piemēram, sertifikātu par pabeigšanu, to varat pievienot **veiktspējas mērķu** lapas sadaļā **Pielikumi**. Ir nodrošināts dokumentu skatītājs, lai jūs varētu ātri skatīt jebkura pievienotā dokumenta saturu. 
 
 No mērķa varat izveidot veidni un pēc tam šo veidni izmantot, lai izveidotu jaunus mērķus, kuri ir balstīti uz šo veidni. Kad no mērķa veidojat veidni, tiek saglabāts apraksts, tēmas un mērķa mērījumi. Taču visi faktiskie mērījumi, pabeigšanas datumi un tēmu komentāri tiek noņemti.
 
@@ -86,7 +85,7 @@ No mērķa varat izveidot veidni un pēc tam šo veidni izmantot, lai izveidotu 
 
 Veiktspējas pārskati oficiālāk tiek saukti par diskusijām. Tagad tie ir pietiekami elastīgi, lai atbalstītu pastāvīgu atsauksmju sniegšanu, attīstības plānus un formālākus pārskatus. Varat ātri izveidot mazu tikšanos divām personām, piemēram, sarunai viens-pret-vienu, vai varat veidot sarežģītāku pārskatu, kas atbilst jūsu uzņēmumā izmantotajam pārskatīšanas procesam. 
 
-Sanāksme, piemēram, tikšanās divām personām ir vienkāršspārskats, kuram vajadzīgs neliels nosaukums, garāks sanāksmes satura apraksts, sanāksmes datums un apspriestais pārskatīšanas periods. Vadītājiem būs redzams arī tās personas vārds, kurai attiecīgais pārskats it izveidots. 
+Tikšanās, piemēram, viens pret vienu, ir vienkāršs pārskats, un tai ir nepieciešams īss nosaukums, garāks apraksts par tikšanās saturu un tikšanās datums. Vienkāršs pārskats ietver to pašu informāciju, kā arī pārskata periodu, kurš tiek apspriests. Vadītājiem būs redzams arī tās personas vārds, kurai attiecīgais pārskats it izveidots. 
 
 Lai izmantotu detalizētākus pārskatus, varat ievilkt aktīvos un pabeigtos mērķus, kā arī ievadīt komentārus par tiem. Visas veiktspējas žurnāla aktivitātes un mērījumi, kas ir saistīti ar mērķi, tiks rādīti šajā pārskatā. Kad pārskats ir pabeigts, tiek saglabāts mērījumu momentuzņēmums, lai saglabātu šo elementu vēsturi pārskata laikā. 
 
@@ -94,7 +93,7 @@ Varat arī izmantot sadaļu **Zināšanas**, lai apspriestu, pārskatītu un nov
 
 Varat izveidot jaunus pārskatus, kuru pamatā ir jūsu izveidotas veidnes. Piemēram, jums var būt veidne, ko izmantot, tiekoties vienam pret vienu, attīstības plāniem vai periodiskiem pārskatiem. Veidni varat atlasīt, kad veidojat jaunu pārskatu.
 
-Lai drukātu atsauksmes, atlasiet pogu **Drukāt atsauksmi**. Ja neredzat pogu lapā **Atsauksme**, pārliecinieties, vai līdzeklis ir iespējots darbvietā **Līdzekļu pārvaldība.** Papildinformāciju par Līdzekļu pārvaldību skatiet [Pārskats par līdzekļu pārvaldību](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Lai drukātu atsauksmes, atlasiet pogu **Drukāt atsauksmi**. Ja neredzat pogu lapā **Atsauksme**, pārliecinieties, vai līdzeklis ir iespējots darbvietā **Līdzekļu pārvaldība.** Papildinformāciju par Līdzekļu pārvaldību skatiet [Pārskats par līdzekļu pārvaldību](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
 
 > [!NOTE]
 > Spēja drukāt veiktspējas pārskatus ir pieejama tikai Personāla vadībā. Tā nav pieejama Dynamics 365 Finance.
@@ -119,13 +118,13 @@ Varat rādīt veiktspējas žurnāla vienumus, kas ir saistīti ar šo pārskatu
 
 Vērtējumu varat lietot jebkuram mērķim vai zināšanām, kas ir iekļautas pārskatā. Katram pārskatam varat definēt vērtēšanas modeļus. Vērtējumu noklusējuma iestatījumi atrodas lapas **Personāla vadības kopīgie parametri** sadaļā **Veiktspēja.**
 
-### <a name="sign-offs"></a>Izrakstīšanās
+### <a name="sign-offs"></a>Izrakstīšanās gadījumi
 
-Darbinieks un/vai vadītājs pārskatā ir uzskaitīti, pamatojoties uz jūsu atlasītajiem pārskata parametriem. Pārskati var būt obligāti vai neobligāti. Kolīdz ir veiktas visas vajadzīgās izrakstīšanās, pārskats tiks atzīmēts ar statusu **Pabeigts**.
+Darbinieks un/vai vadītājs pārskatā ir uzskaitīti, pamatojoties uz jūsu atlasītajiem pārskata parametriem. Pārskati var būt obligāti vai neobligāti. Kad visa nepieciešamā izrakstīšanās ir veikta, pārskats tiek atzīmēts ar statusu Pabeigts.
 
 ### <a name="attachments"></a>Pielikumi
 
-Varat pārskatam pievienot dokumentu lapas **Pārskati** sadaļā **Pielikumi**. Ir nodrošināts dokumentu skatītājs, lai jūs varētu ātri skatīt jebkura pievienotā dokumenta saturu.
+Pārskatam varat pievienot dokumentu **pārskatu** lapas sadaļā **Pielikumi**. Ir nodrošināts dokumentu skatītājs, lai jūs varētu ātri skatīt jebkura pievienotā dokumenta saturu.
 
 ## <a name="workflow-for-performance-management"></a>Veiktspējas pārvaldības darbplūsma
 
@@ -141,7 +140,7 @@ Darbplūsmu Nodarbināto pārskats varat izmantot, lai kontrolētu pārskata aps
 
 5.  Vadītājs statusu maina uz **Gala pārskats**, lai gan vadītājs, gan darbinieks varētu redzēt šo pārskatu un apspriest to. Parametros varat norādīt, vai šajā brīdī pārskatu ir iespējams rediģēt. Šī darbība ir neobligāta arī tad, ja vadītājs vienkārši vēlas kopīgot pārskatu ar darbinieku un atzīmēt to kā **Pabeigts**, kad viņi ir beiguši.
 
-6.  Kad visas izrakstīšanās ir pabeigtas, statuss tiek mainīts uz **Pabeigta**. Šajā brīdī pārskatu nevar mainīt.
+6.  Kad izrakstīšanās ir pabeigtas, statuss tiek mainīts uz **Pabeigts**. Šajā brīdī pārskatu nevar mainīt.
 
 Darbplūsmai Nodarbinātā pārskats ir divi tālāk aprakstītie elementi.
 
@@ -149,20 +148,18 @@ Darbplūsmai Nodarbinātā pārskats ir divi tālāk aprakstītie elementi.
 
 2.  Gala pārskats. Pievienojiet šo elementu, lai kontrolētu statusa maiņu no **Gatavs pārskatīšanai** uz **Galīgā pārskatīšana**. Ja vēlaties, lai vadītājs apstiprinātu galīgo pārskatīšanu, mainiet piešķiri, lai izmantotu vadības hierarhiju, kur Employee.line manager level = 1. Mainiet piešķiri uz Darbplūsmas lietotājs, ja vēlaties, lai to apstiprina darbinieks. Ja vēlaties, lai to apstiprinātu gan vadītājs, gan darbinieks, tad darbplūsmai pievienojiet abas darbības un norādiet atbilstošo piešķiri katrai darbībai tādā secībā, kādā vēlaties izpildīt apstiprināšanu.
 
-## <a name="setup"></a>Iestatīt
+## <a name="setup"></a>Iestatīšana
 
-Ir trīs lapas, ar kurām var iestatīt informāciju, kura ir vajadzīga, lai noslēgtu veiktspējas procesu: **Mērījumi**, **Veiktspējas žurnāla avotu veidi** un **Pārskatīšanas veidi**.
+Pastāv trīs lapas, kas jums palīdz iestatīt veiktspējas procesa izpildei nepieciešamo informāciju: lapa **mērījumi**, lapa **veiktspējas žurnāla avota veidi** un lapa **pārskatu veidi**.
 
-### <a name="measurements"></a>Izmēri
+### <a name="measurements"></a>Mērījumi
 
-Lapā **Mērījumi** varat izveidot standarta mērījumus, kuri tiks izmantoti lapās **Veiktspējas mērķi** un **Pārskati**. Varat izveidot mērījumus, kas ir datumi, summas, daudzumi vai procenti, vai mērījumi, kuru pamatā ir vērtēšanas modelis.
+Mērījumu lapā varat izveidot standarta mērījumus, kas tiks izmantoti lapās **veiktspējas mērķi** un **pārskati**. Varat izveidot mērījumus, kas ir datumi, summas, daudzumi vai procenti, vai mērījumi, kuru pamatā ir vērtēšanas modelis.
 
 ### <a name="performance-journal-source-types"></a>Veiktspējas žurnāla avotu veidi
 
-**Veiktspējas žurnāla avotu veidos** ir aprakstīts, no kurienes nāk veiktspējas žurnāli. Varat redzēt, vai žurnāla elementu pēc noklusējuma varēs redzēt tikai vadītājs, tikai darbinieks, vai gan vadītājs, gan darbinieks. Pašlaik avota veidus nevar atspējot.
+Veiktspējas žurnāla avotu veidi apraksta, no kurienes veiktspējas žurnāls rodas. Varat redzēt, vai žurnāla elementu pēc noklusējuma varēs redzēt tikai vadītājs, tikai darbinieks, vai gan vadītājs, gan darbinieks. Pašlaik avota veidus nevar atspējot.
 
 ### <a name="review-types"></a>Pārskatīšanas tipi
 
-**Pārskatu veidos** tiek kontrolēta pārskata darbība. Varat iespējot vai atspējot darbplūsmu kādam pārskatam. Ja pārskatā netiek izmantota darbplūsma, varat definēt noklusējuma statusu, kas tiks izmantots, veidojot šo pārskatu. Varat arī izlemt, vai pārskata izrakstīšana ir jāveic darbiniekam, vadītājam, vai viņiem abiem.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Veiktspējas pārskatu tipi jums palīdzēt kontrolēt pārskata uzvedību. Varat iespējot vai atspējot darbplūsmu kādam pārskatam. Ja pārskatā netiek izmantota darbplūsma, varat definēt noklusējuma statusu, kas tiks izmantots, veidojot šo pārskatu. Varat arī izlemt, vai pārskata izrakstīšana ir jāveic darbiniekam, vadītājam, vai viņiem abiem.

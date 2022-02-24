@@ -1,31 +1,37 @@
 ---
 title: Darbs ar CSS pārlabošanas failiem
-description: Šajā tēmā aprakstīts, kāpēc, kad un kā lietot Stila lapu kaskadēšanas (CSS) labošanas failus risinājumā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā ir aprakstīts, kāpēc, kad un kā lietot stila lapas kaskadēšanas (CSS) pārlabošanas failus Microsoft pakalpojumā Dynamics 365 Commerce.
 author: phinneyridge
+manager: annbe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6788481936a54bff32096dba1d0424fc52c669e4
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
-ms.translationtype: MT
+ms.openlocfilehash: 3ec43b16b1df07400cffe597378ad4035e4d07e0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964608"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414053"
 ---
-# <a name="work-with-css-override-files"></a>Darbs ar CSS ignorēšanas failiem
+# <a name="work-with-css-override-files"></a>Darbs ar CSS pārlabošanas failiem
+
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aprakstīts, kāpēc, kad un kā lietot Stila lapu kaskadēšanas (CSS) labošanas failus risinājumā Microsoft Dynamics 365 Commerce.
+Šajā tēmā ir aprakstīts, kāpēc, kad un kā lietot stila lapas kaskadēšanas (CSS) pārlabošanas failus Microsoft pakalpojumā Dynamics 365 Commerce.
+
+## <a name="overview"></a>Pārskats
 
 Pastāvīgā vietā stili parasti būtu jāapstrādā, izmantojot vietnes tēmu. Tēmas nodrošina galvenos CSS un stila iestatījumus moduļiem jebkurā lapā jūsu vietnē. Tēmas tiek izveidotas, izmantojot Dynamics 365 Commerce tiešsaistes programmatūras izstrādes komplektu (SDK), un tās tiek izvietotas jūsu tīmekļa vietnēs, izmantojot Microsoft Dynamics Lifecycle Services (LCS). Tēmas atkļūdošanas iespējas un moduļa saskarnes konfigurācijas SDK palīdz vietnes izstrādātājiem izveidot pielāgojamas un vienotas vietņu noformējuma pakotnes. Kad šīs dizaina pakotnes ir izvietotas vietnē, vietnes autori var koncentrēties uz satura izveidi, rediģēšanu un publicēšanu, nevis vietnes izstrādi.
 
@@ -101,11 +107,10 @@ Lai deaktivizētu CSS pārlabošanas failu savā vietnē, veiciet tālāk norād
 
 [Izlases ikonas pievienošana](add-favicon.md)
 
+[Sveiciena ziņojuma pievienošana](add-welcome-message.md)
+
 [Autortiesību paziņojuma pievienošana](add-copyright-notice.md)
 
 [Valodu pievienošana vietnei](add-languages-to-site.md)
 
 [Skripta koda pievienošana vietnes lapām, lai atbalstītu telemetriju](add-telemetry.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -101,6 +101,3 @@ Iespēja izsekot darbinieku brīvajam laikam un saprast, kā tiek aprēķināts 
 ### <a name="email-support-for-alerts"></a>E-pasta atbalsts brīdinājumiem
 
 Līdz ar atjauninājuma Platform update 26 programmai Finance and Operations lietotāji var izveidot brīdinājumu kārtulas, kas automātiski sūta e-pasta paziņojumus kontaktpersonām, ja kāds notikums tās aktivizē.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

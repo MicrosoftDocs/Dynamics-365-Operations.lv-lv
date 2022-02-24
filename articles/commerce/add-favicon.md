@@ -2,30 +2,35 @@
 title: Izlases ikonas pievienošana
 description: Šajā tēmā ir paskaidrots, kā pievienot izlases ikonu jūsu vietnei.
 author: bicyclingfool
+manager: annbe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 080ef4da7313bd6b9d91e616f576b3ff774509d9
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
-ms.translationtype: MT
+ms.openlocfilehash: 262e478d426fd913130b21a3434331c7d27b54b2
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964736"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413984"
 ---
 # <a name="add-a-favicon"></a>Izlases ikonas pievienošana
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā ir paskaidrots, kā pievienot izlases ikonu jūsu vietnei.
+
+## <a name="overview"></a>Pārskats
 
 Izlases ikona ir neliels grafiskais fails, kas tiek attēlots tīmekļa pārlūkprogrammas cilnē, adreses joslā, pārlūkošanas vēsturē un grāmatzīmēs vai izlasē, kā arī citās vietās. Mēs iesakām jums pievienot izlases ikonu jūsu vietnei, jo tā pārstāv un nostiprina jūsu zīmolu, kā arī palīdz atšķirt jūsu vietni no citām jūsu klientu apmeklētajām vietnēm.
 
@@ -61,7 +66,7 @@ Lai izveidotu fragmentu, kas satur metatagu jūsu favicon, sekojiet šiem soļie
 1. Dialoglodziņā **Jauns fragments** atlasiet **Metatagi** kā moduli, uz kā balstās fragments.
 1. Ievadiet fragmenta nosaukumu un pēc tam atlasiet **Labi**.
 1. Fragmentu hierarhijas kokā atlasiet **Noklusējuma metatagi** elementu.
-1. Labajā rūtī zem sadaļas **Metatagi** atlasiet **Pievienot** un pēc tam ievadiet HTML virkni, ko iepriekš izveidojāt izlases ikonai. 
+1. Labajā rūtī zem sadaļas **Metatagi** atlasiet **Pievienot** un pēc tam ievadiet HTML virkni, ko iepriekš izveidojāt izlases ikonai. 
 1. Atlasiet **Pabeigt rediģēšanu** un pēc tam atlasiet **Publicēt**, lai publicētu fragmentu.
 
 ## <a name="add-the-metatag-fragment-to-the-html-head-section-of-your-pages"></a>Pievienot metataga fragmentu jūsu lapu HTML galvenei
@@ -86,12 +91,11 @@ Priekšskatot lapas, kas ir balstītas uz veidni, kurai pievienojāt metatagu fr
 
 [Darbs ar CSS ignorēšanas failiem](css-override-files.md)
 
+[Sveiciena ziņojuma pievienošana](add-welcome-message.md)
+
 [Autortiesību paziņojuma pievienošana](add-copyright-notice.md)
 
 [Valodu pievienošana vietnei](add-languages-to-site.md)
 
 [Skripta koda pievienošana vietnes lapām, lai atbalstītu telemetriju](add-telemetry.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

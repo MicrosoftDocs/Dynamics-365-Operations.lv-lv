@@ -2,26 +2,27 @@
 title: Finance mājas lapa
 description: Šajā tēmā ir saraksts ar palīdzības tēmām un citiem resursiem finanšu pārvaldības līdzekļiem programmā Microsoft Dynamics 365 Finance.
 author: roschlom
-ms.date: 11/04/2021
+manager: AnnBe
+ms.date: 06/20/2018
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "206434"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 206434
 ms.assetid: 8a6238bd-9d6f-48d9-8752-3966836364a4
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 13a5e12c7ea45ff343a5c7ae14b8ed5a030aabf5
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: c39d8ea92b5482b32e27d433b745151373553120
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753725"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4459497"
 ---
 # <a name="finance-home-page"></a>Finance mājas lapa
 
@@ -33,18 +34,18 @@ Atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.
 
 :::row:::
     :::column:::
-        - [Kreditoru parādi](accounts-payable/accounts-payable.md) 
+        - [Kreditori](accounts-payable/accounts-payable.md) 
         - [Debitori](accounts-receivable/accounts-receivable.md)
-        - [Līdzekļu noma](asset-leasing/asset-leasing-homepage.md)
         - [Budžeta veidošana](budgeting/budgeting-overview.md) 
         - [Kases un bankas vadība](cash-bank-management/cash-bank-management.md)
         - [Izmaksu uzskaite](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
     :::column:::
-        - [Finanšu pārskatu veidošana](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
+        - [Izdevumu pārvaldība](expense-management/expense-management.md)
+        - [Finanšu pārskatu veidošana](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
         - [Pamatlīdzekļi](fixed-assets/fixed-assets.md)
-        - [Finance Insights](finance-insights/finance-insights-home-page.md)
-        - [Virsgrāmata un finanšu pārskatu veidošana](general-ledger/general-ledger.md) 
+        - [Virsgrāmata un finanšu atskaišu veidošana](general-ledger/general-ledger.md) 
+        - [Projektu pārvaldība un uzskaite](project-management/overview-project-management-accounting.md)
         - [Publiskais sektors](public-sector/public-sector-functionality.md) 
     :::column-end:::
 :::row-end:::
@@ -58,28 +59,18 @@ Atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.
 - [Financials emuārs](https://community.dynamics.com/365/financeandoperations/b/financials) 
 - [Microsoft Dynamics Operations partneru kopienas emuārs](https://community.dynamics.com/partner/b/operationspartnercommunityblog)
 
+### <a name="task-guides"></a>Uzdevumu ceļveži
+Papildu palīdzībai programmā Finance and Operations ir pieejami uzdevumu ceļveži. Lai piekļūtu uzdevumu ceļvežiem, jebkurā lapā noklikšķiniet uz pogas Palīdzība.
+
 ### <a name="videos"></a>Videoklipi
 
 Apskatiet video pamācības, kas tagad ir pieejamas [Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 ### <a name="countryregion-functionality"></a>Valsts/reģiona funkcionalitāte
 
-Nodokļu iestatīšana un citas finanšu pārvaldības jomas ir atkarīgas no valsts/reģiona normatīvajiem aktiem. Lai uzzinātu par valsts/reģiona funkcionalitāti, skatiet sadaļu [Lokalizācija un regulēšanas līdzekļi](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json).
+Nodokļu iestatīšana un citas finanšu pārvaldības jomas ir atkarīgas no valsts/reģiona normatīvajiem aktiem. Skatiet palīdzības satura sadaļu [Lokalizācija un regulēšanas līdzekļi](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json), lai uzzinātu par valsts/reģiona funkcionalitāti.
 
 ### <a name="additional-content"></a>Papildu saturs
 
-Piegādes ķēdes pārvaldības funkcionalitātē ietilpst piegādes–apmaksas procesa daļas, kas ietver:
+Piegādes ķēdes pārvaldības funkcionalitātē ietilpst piegādes–apmaksas procesa daļas, kas ietver pieprasīšanu, pasūtīšanu, saņemšanu, rēķinu izrakstīšanu un apmaksu par precēm un pakalpojumiem, ko jūsu organizācija iegādājas. Skatiet [Supply Chain Management mājas lapu](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md), lai iegūtu informāciju par pirkumu, krājumu un ražošanas pārvaldības iespējām. 
 
-   - pieprasīšanu,
-   - pasūtīšanu, 
-   - saņemšanu,
-   - rēķinu izrakstīšanu,
-   - apmaksu par precēm un pakalpojumiem, ko jūsu organizācija iegādājas. 
-    
-Lai iegūtu informāciju par pirkumu, krājumu un ražošanas pārvaldības iespējām skatiet [Supply Chain Management sākumlapu](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md).
-
-## <a name="elearning-courses"></a>Elektronisko mācību kursi
-
-Informāciju par tiešsaistes kursiem un apmācību skatiet šeit: [Dynamics 365 Finance platformā Microsoft Learn](/learn/browse/?products=dynamics-finance&resource_type=learning+path).
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

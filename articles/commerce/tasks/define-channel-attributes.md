@@ -2,9 +2,11 @@
 title: Kanāla atribūtu definēšana
 description: Papildiniet kanālu, pievienojot kanāla un preces īpašības.
 author: jashanno
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailInternalOrganization, EcoResAttributeGroup, EcoResAttributeGroupAttribute, RetailAddChannelItems, RetailCatalogProductAttributeValue, RetailMedia
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e99c59eba133427dad6d6a27a96b64f06621c932924293e3978d7f540e86153e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f50e925689f11f67285c956aec1a7ece235cdb74
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726411"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964699"
 ---
 # <a name="define-channel-attributes"></a>Kanāla atribūtu definēšana
 
@@ -30,7 +32,7 @@ Papildiniet kanālu, pievienojot kanāla un preces īpašības. Lai definētu ī
 
 ## <a name="define-channel-product-attribute"></a>Definējiet kanāla preces īpašības.
 1. Dodieties uz Mazumtirdzniecība un komercija > Kanāla iestatīšana > Kanālu kategorijas un preču īpašības.
-2. Koka struktūrā atlasiet 'Contoso Retail\Fashion\Houston'.
+2. Koka struktūrā atlasiet Contoso Retail\Fashion\Houston.
 3. Noklikšķiniet uz Rediģēt.
 4. Laukā Kategoriju hierarhija ievadiet vai atlasiet vērtību.
     * Navigācijas hierarhija tiks izmantota preces pārlūkošanai kanālos.  
@@ -69,6 +71,3 @@ Papildiniet kanālu, pievienojot kanāla un preces īpašības. Lai definētu ī
 33. Noklikšķiniet uz OK.
 34. Noklikšķiniet uz Saglabāt.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

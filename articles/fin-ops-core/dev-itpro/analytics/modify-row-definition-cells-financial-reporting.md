@@ -2,9 +2,11 @@
 title: Rindu definīciju šūnu modificēšana
 description: Šajā tēmā ir izskaidrota informācija, kas ir nepieciešama katrai šūnai finanšu atskaites rindas definīcijā, un paskaidrots, kā šo informāciju ievadīt.
 author: ShylaThompson
-ms.date: 08/11/2021
+manager: AnnBe
+ms.date: 02/11/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 80df992ce14577ba78587648f8af2c35b382a589
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 92d03f08fc5e34402f10068ed770b1f724cfd3a8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344889"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685863"
 ---
 # <a name="modify-row-definition-cells"></a>Rindu definīciju šūnu modificēšana
 
@@ -174,7 +176,7 @@ Rindas definīcijas kolonnā **Formāta kods** formātu kodi **DES**, **LFT**, *
 
 Šajā piemērā lietotājs vēlas novērst virsrakstu un pasvītrojuma zīmju drukāšanu sava pārskata rindai **Kopsumma kasē**, jo nevienā no kases kontiem nebija aktivitātes. Tāpēc 220. rindas (kas saskaņā ar formāta kodu **---** ir formatēšanas rinda) šūnā **Saistītās formulas/rindas/vienības** lietotājs ievada **250**, kas ir tās summas rindas kods, kuru lietotājs vēlas likvidēt.
 
-[![RelatedRowsRowDefinition.](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
+[![RelatedRowsRowDefinition](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
 
 ## <a name="select-the-base-row-for-a-column-calculation"></a>Pamata rindas atlase kolonnas aprēķinam
 Relāciju pārskatā rindas definīcijai piešķiriet vienu vai vairākas pamata rindas, izmantojot formāta kodu **CBR** (pamata rindas maiņa). Pēc tam ar aprēķinu kolonnas definīcijā tiek izmantota atsauce uz pamata rindu. Tālāk minēti daži tipiski CBR aprēķinu piemēri.
@@ -275,7 +277,7 @@ Tālāk sniegtā piemēra ietvaros pārskata D kolonnas 160.–490. rindas vē
 
 Valūtas formatēšana attiecas naudas līdzekļu daudzumu un ietver valūtas simbolu. Ir pieejamas tālāk minētās opcijas.
 
-- **Valūtas simbols** — valūtas simbols, kas ir ietverams pārskatā. Šī vērtība ignorē uzņēmuma informācijas **Reģionālās opcijas** iestatījumu.
+- **Valūtas simbols** — valūtas simbols, kas ir ietverams pārskatā. Šī vērtība ignorē uzņēmuma informācijas **Reģionālās opcijas** iestatījumu.
 - **Negatīvi skaitļi** — negatīvie skaitļi var būt atzīmēti ar mīnusa zīmi (-), tie var parādīties iekavās vai tie var būt atzīmēti ar trīsstūri (∆).
 - **Decimāldaļas vietas** — ciparu skaits, ko rādīt pēc komata.
 - **Nulles vērtības ignorēšanas teksts** — teksts, kas jāiekļauj pārskatā, ja summa ir 0 (nulle). Šis teksts tiek rādīts apgabala **Paraugs** pēdējā rindā.
@@ -309,7 +311,7 @@ Procentuālā formatēšana ietver procenta simbolu (%). Ir pieejamas tālāk m
 
 Izmantojiet pielāgotu formatēšanas kategoriju, lai izveidotu pielāgoto formātu, kas aizstās esošo. Ir pieejamas tālāk minētās opcijas.
 
-- **Tips** — pielāgotais formāts.
+- **Tips** — pielāgotais formāts.
 - **Nulles vērtības ignorēšanas teksts** — teksts, kas jāiekļauj pārskatā, ja summa ir 0 (nulle). Šis teksts tiek rādīts apgabala **Paraugs** pēdējā rindā.
 
     > [!NOTE]
@@ -362,14 +364,14 @@ Kad atlasāt noteiktu kontu, atskaišu veidotājs parasti kombinē kontu un fina
 |------------------|-------------------------------------------------------------------------------------------|
 | /BB              | Konta sākuma bilance.                                                     |
 | /\#              | Bilance norādītajam periodam.                                                     |
-| /-\#             | Bilance periodam, kas ir \# periodus pirms pašreizējā perioda.                  |
-| /+\#             | Bilance periodam, kas ir \# periodus pēc pašreizējā perioda.                   |
+| /-\#             | Bilance periodam, kas ir \# periodus pirms pašreizējā perioda.                  |
+| /+\#             | Bilance periodam, kas ir \# periodus pēc pašreizējā perioda.                   |
 | /C               | Bilance pašreizējam periodam.                                                       |
-| /C-\#            | Bilance periodam, kas ir \# periodus pirms pašreizējā perioda.                  |
-| /C+\#            | Bilance periodam, kas ir \# periodus pēc pašreizējā perioda.                   |
+| /C-\#            | Bilance periodam, kas ir \# periodus pirms pašreizējā perioda.                  |
+| /C+\#            | Bilance periodam, kas ir \# periodus pēc pašreizējā perioda.                   |
 | /Y               | Līdzšinējā gada bilance līdz pašreizējam periodam.                                      |
-| /Y-\#            | Līdzšinējā gada bilance līdz periodam, kas ir \# periodus pirms pašreizējā perioda. |
-| /Y+\#            | Līdzšinējā gada bilance līdz periodam, kas ir \# periodus pēc pašreizējā perioda.  |
+| /Y-\#            | Līdzšinējā gada bilance līdz periodam, kas ir \# periodus pirms pašreizējā perioda. |
+| /Y+\#            | Līdzšinējā gada bilance līdz periodam, kas ir \# periodus pēc pašreizējā perioda.  |
 
 ### <a name="book-code-modifiers"></a>Grāmatas koda modifikatori
 
@@ -399,7 +401,7 @@ Noteiktas grāmatvedības sistēmas finanšu datos atbalsta kontu atribūtus un 
 2. Veiciet dubultklikšķi uz kolonnas **Saite uz finanšu dimensijām** šūnas.
 3. Dialoglodziņā **Dimensijas**, veiciet dubultklikšķi uz šūnas, kas redzama zem dimensijas nosaukuma.
 4. Dimensijas dialoglodziņā atlasiet **Individuāli vai diapazona**.
-5. Laukā **No** ievadiet sākuma dimensiju vai noklikšķiniet uz ![Pārlūkot.](media/browse.gif "Pārlūkot") lai meklētu pieejamās dimensijas. Lai ievadītu dimensiju diapazonu, ievadiet beigu dimensiju laukā **Uz**.
+5. Laukā **No** ievadiet sākuma dimensiju vai noklikšķiniet uz ![Pārlūkot](media/browse.gif "Pārlūkot"), lai meklētu pieejamās dimensijas. Lai ievadītu dimensiju diapazonu, ievadiet beigu dimensiju laukā **Uz**.
 6. Lai aizvērtu dimensijas dialoglodziņu, noklikšķiniet uz **Labi**. Dialoglodziņā **Dimensijas** attēlota atjauninātā dimensija vai diapazons.
 7. Lai aizvērtu dialoglodziņu **Dimensijas**, noklikšķiniet uz **Labi**.
 
@@ -427,7 +429,7 @@ Jūs varat norādīt segmentu vērtību vai dimensiju vērtību diapazonu. Norā
 
 ### <a name="multiple-segment-or-multiple-dimension-ranges"></a>Vairāku segmentu vai vairāku dimensiju diapazoni
 
-Ja ievadāt diapazonu, izmantojot vairāku dimensiju vērtību kombinācijas, diapazona salīdzināšana tiek veikta katrai dimensijai atsevišķi ..\\financial-dimensions\\dimension-by-dimension basis. Diapazona salīdzināšanu nevar veikt rakstzīmi pēc rakstzīmes vai daļēji balstoties uz segmentu. Piemēram, diapazons **+Konts=\[5000:6000\], Nodaļa=\[1000:2000\], Izmaksu centrs=\[00\]** ietver tikai tos kontus, kas atbilst katram segmentam. Šī scenārija ietvaros pirmajai dimensijai ir jābūt diapazonā no 5000 līdz 6000, otrajai dimensijai ir jābūt diapazonā no 1000 līdz 2000 un pēdējai dimensijai ir jābūt 00. Piemēram, diapazons **+Konts=\[5100\], Nodaļa=\[1100\], Izmaksu centrs=\[01\]** netiek ietverts pārskatā, jo pēdējais segments ir ārpus norādītā diapazona. Ja segmenta vērtībā ir atstarpes, iekļaujiet šo vērtību kvadrātiekavās (\[ \]). Četrzīmju segmentam ir derīgas šādas vērtības: **\[ 234\], \[123 \], \[1 34\]**. Dimensiju vērtības ir jāietver kvadrātiekavās (\[ \]), un pārskatu noformētājs šīs iekavas pievieno jūsu vietā. Ja vairāku segmentu vai vairāku dimensiju diapazonā ir ietvertas aizstājējzīmes (? vai \*), tiek noteikta visa vairāku segmentu vai vairāku dimensiju diapazona lielākā un mazākā robežvērtība un pēc tam tiek iekļautas šīs robežvērtības un visas starp tām esošās vērtības. Ja jums ir liels diapazons, piemēram, viss kontu diapazons no 40000 līdz 99999, vajadzētu norādīt derīgu sākuma kontu un beigu kontu, ja vien iespējams.
+Ja ievadāt diapazonu, izmantojot vairāku dimensiju vērtību kombinācijas, diapazona salīdzināšana tiek veikta katrai dimensijai atsevišķi ..\\financial-dimensions\\dimension-by-dimension basis. Diapazona salīdzināšanu nevar veikt rakstzīmi pēc rakstzīmes vai daļēji balstoties uz segmentu. Piemēram, diapazons **+Konts=\[5000:6000\], Nodaļa=\[1000:2000\], Izmaksu centrs=\[00\]** ietver tikai tos kontus, kas atbilst katram segmentam. Šī scenārija ietvaros pirmajai dimensijai ir jābūt diapazonā no 5000 līdz 6000, otrajai dimensijai ir jābūt diapazonā no 1000 līdz 2000 un pēdējai dimensijai ir jābūt 00. Piemēram, diapazons **+Konts=\[5100\], Nodaļa=\[1100\], Izmaksu centrs=\[01\]** netiek ietverts pārskatā, jo pēdējais segments ir ārpus norādītā diapazona. Ja segmenta vērtībā ir atstarpes, iekļaujiet šo vērtību kvadrātiekavās (\[ \]). Četrzīmju segmentam ir derīgas šādas vērtības: **\[ 234\], \[123 \], \[1 34\]**. Dimensiju vērtības ir jāietver kvadrātiekavās (\[ \]), un pārskatu noformētājs šīs iekavas pievieno jūsu vietā. Ja vairāku segmentu vai vairāku dimensiju diapazonā ir ietvertas aizstājējzīmes (? vai \*), tiek noteikta visa vairāku segmentu vai vairāku dimensiju diapazona lielākā un mazākā robežvērtība un pēc tam tiek iekļautas šīs robežvērtības un visas starp tām esošās vērtības. Ja jums ir liels diapazons, piemēram, viss kontu diapazons no 40000 līdz 99999, vajadzētu norādīt derīgu sākuma kontu un beigu kontu, ja vien iespējams.
 
 > [!NOTE] 
 > Pārskatu veidotājs nevar atlasīt Microsoft Dynamics ERP sistēmā esošos kontus, dimensijas vai laukus, kuros ir ietverta jebkura no šīm rezervētajām rakstzīmēm: &, \*, \[, \], { vai }. Varat pievienot & zīmi tikai tad, kad automātiski veidojat rindu definīcijas, izmantojot dialoglodziņu **Ievietot rindas no dimensijām**.
@@ -476,7 +478,7 @@ Tabulā ir aprakstīti dialoglodziņa **Dimensijas** lauki.
 
 | Vienums                | Apraksts |
 |---------------------|-------------|
-| Atsevišķi vai diapazons | Laukā **No** ievadiet konta nosaukumu vai noklikšķiniet uz pogas **Pārlūkot** ![Pārlūkot.](media/browse.gif "Pārlūkot") lai meklētu kontu. Lai atlasītu diapazonu, ievadiet vai uzmeklējiet vērtību laukā **Līdz**. |
+| Atsevišķi vai diapazons | Laukā **No** ievadiet konta nosaukumu vai noklikšķiniet uz pogas **Pārlūkot** ![Pārlūkot](media/browse.gif "Pārlūkot"), lai pārlūkotu līdz kontam. Lai atlasītu diapazonu, ievadiet vai uzmeklējiet vērtību laukā **Līdz**. |
 | Dimensijas vērtību kopa | Laukā **Nosaukums** ievadiet dimensijas vērtību kopas nosaukumu. Lai kopu izveidotu, modificētu, kopētu vai dzēstu, noklikšķiniet uz **Pārvaldīt dimensiju vērtību kopas**. Lauks **Formula** tiek aizpildīts ar formulu no šūnas **Saite uz finanšu dimensijām** šai dimensiju vērtību kopai rindas definīcijā. |
 | Kontu summēšana   | Laukā **Nosaukums** ievadiet vai uzmeklējiet dimensiju summēšanas kontiem. Lauks **Formula** šim summēšanas kontam pārskata definīcijā tiek aizpildīts ar formulu no šūnas **Saite uz finanšu dimensijām**. |
 
@@ -527,6 +529,3 @@ Dimensiju vērtību kopa ir dimensiju vērtību grupa, kurai piešķirts nosauku
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Finanšu pārskatu veidošana](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

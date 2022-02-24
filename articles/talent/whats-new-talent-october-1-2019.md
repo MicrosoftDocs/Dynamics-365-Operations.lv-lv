@@ -84,6 +84,3 @@ Ar šīm izmaiņām, pārtraukšanas pieprasījuma detaļas, kas tiek atjauninā
 ### <a name="print-performance-reviews"></a>Veiktspējas pārskatu drukāšana
 
 Darbinieki, pārvaldnieki un HR profesionāli varēs drukāt darbinieku veiktspējas pārskatu.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

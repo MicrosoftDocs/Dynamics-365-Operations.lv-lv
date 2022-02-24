@@ -2,23 +2,26 @@
 title: Atlikto ieņēmumu atzīšana
 description: Šajā tēmā ir sniegta informācija par to, kā atzīt ieņēmumus, izmantojot ieņēmumu atzīšanas līdzekli.
 author: kweekley
+manager: aolson
 ms.date: 08/24/2018
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: f6b221104d7012d82a0021b6d8f9cc10fe44cb7b8f3473ab8e7ae7a89be0a5e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ace1d00ec25a57b26b1858369c32d9134a380977
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726114"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4459485"
 ---
 # <a name="recognize-deferred-revenue"></a>Atlikto ieņēmumu atzīšana
 
@@ -36,7 +39,7 @@ Pastāv divi veidi, kā piekļūt detalizētai informācijai par ieņēmumu atz�
 - Varat atvērt ieņēmumu atzīšanas grafiku tieši no rēķinā norādītā pārdošanas pasūtījuma. Šādā gadījumā informācija ieņēmumu grafikā tiek filtrēta, lai rādītu detalizētu informāciju tikai atlasītajam pārdošanas pasūtījumam. Šī pieeja ir noderīga, ja validējat pārdošanas pasūtījuma grafika detalizēto informāciju.
 - Varat atvērt ieņēmumu atzīšanas grafiku no lapas **Ieņēmumu atzīšana \> Periodiskie uzdevumi**. Šo pieeju bieži izmanto, kad ieņēmumi tiek atzīti perioda beigās. Kad lapa tiek atvērta pirmo reizi, netiek rādīta nekāda informācija. Izmantojiet filtrus virs režģa, lai definētu kritērijus grafika detalizētajai informācijai, kas jāparāda. Varat filtrēt pēc rēķina datumiem, ievadot datumu diapazonu, pārdošanas pasūtījumu, debitoru, projekta ID vai stāvokli.
 
-[![Ieņēmumu grafiku lapas ilustrācija.](./media/revenue-recognition-schedule-page.png)](./media/revenue-recognition-schedule-page.png)
+[![Lapa Ieņēmumu grafiki](./media/revenue-recognition-rev-revenue-schedules.png)](./media/revenue-recognition-rev-revenue-schedules.png)
 
 Kopsavilkuma cilne **Finanšu dimensija** zem režģa parāda pārdošanas pasūtījuma rindas finanšu dimensijas. Šīs dimensijas tika ņemtas vērā, veicot grāmatošanu atliktajos ieņēmumos. Tās tiek ņemtas vērā arī tad, kad ieņēmumi tiek atzīti. Izmantotās dimensiju vērtības ir atkarīgas no konta struktūras, kas ir piešķirta ieņēmumu un atlikto ieņēmumu galvenajiem kontiem.
 
@@ -46,7 +49,7 @@ Atzīstiet ieņēmumus, palaižot procesu **Izveidot žurnālu** lapā **Ieņēm
 
 Lai definētu ieņēmumu atlases un grāmatošanas kritērijus, atlasiet **Izveidot žurnālu**, lai atvērtu dialoglodziņu **Izveidot žurnālu**.
 
-[![Žurnāla parametru opciju izveide.](./media/revenue-recognition-create-journal.png)](./media/revenue-recognition-create-journal.png)
+[![Žurnāla parametru opciju izveide](./media/revenue-recognition-create-journal.png)](./media/revenue-recognition-create-journal.png)
 
 Lai noteiktu grāmatošanas datumu, kas tiek izmantots ieņēmumu atzīšanas laikā, dialoglodziņā lietojiet lauku grupas **Apstrādes datums** opcijas. Atlasot **Atlasītais datums**, varat ievadīt grāmatošanas datumu laukā **Darījuma datums**. Atlasot **Ieņēmumu grafika datums**, transakcijas datums netiek izmantots. Tā vietā katras grafika rindas lauka **Atzīšanas datums** vērtība tiek izmantota kā grāmatošanas datums.
 
@@ -56,11 +59,11 @@ Pēc tam, kad esat beidzis definēt datumus, dialoglodziņā atlasiet **Labi**, 
 
 Pēc procesa izpildes grafika rindām, kas tika pārsūtītas uz žurnālu, tiek piešķirts statuss **Apstrādāts**. Karodziņš **Apstrādāts** norāda, ka rindas ir pārsūtītas uz žurnālu, bet tās var grāmatot vai negrāmatot. Kad ieņēmumu atzīšanas žurnāls ir iegrāmatots, karodziņš **Apstrādāts** saglabājas. Ja ieņēmumu atzīšanas žurnāls tiek izdzēsts vai arī ja rinda tiek izdzēsta, karodziņš **Apstrādāts** tiek noņemts. Šādā veidā rindu var atzīt, kad process **Izveidot žurnālu** tiek palaists vēlreiz.
 
-[![Lapa Ieņēmumu atzīšanas grafiki.](./media/revenue-recognition-rev-recog-schedule-02.png)](./media/revenue-recognition-rev-recog-schedule-02.png)
+[![Lapa Ieņēmumu atzīšanas grafiki](./media/revenue-recognition-rev-recog-schedule-02.png)](./media/revenue-recognition-rev-recog-schedule-02.png)
 
 Lapā **Ieņēmumu atzīšanas žurnāls** (**Ieņēmumu atzīšana \> Žurnāla ieraksti \> Ieņēmumu atzīšanas žurnāls**) atveriet **Rindas**, lai skatītu detalizētu informāciju par to, kas tiek atzīts. Katrai grafika rindai, kas tiek atzīta, vienmēr tiek izveidota atsevišķa transakcija pat tad, ja visas rindas ir iegrāmatotas tajā pašā datumā, izmantojot vienādus virsgrāmatas kontus.
 
-[![Lapa Žurnāla dokuments.](./media/revenue-recognition-journal-voucher.png)](./media/revenue-recognition-journal-voucher.png)
+[![Lapa Žurnāla dokuments](./media/revenue-recognition-journal-voucher.png)](./media/revenue-recognition-journal-voucher.png)
 
 Kolonnā **konts** ir parādīts atlikto ieņēmumu virsgrāmatas konts. Šo virsgrāmatas kontu nevar rediģēt. Šis ierobežojums palīdz garantēt, ka tiek atbrīvots pareizs atlikto ieņēmumu virsgrāmatas konts. Šis virsgrāmatas konts nav pārbaudīts attiecībā pret konta struktūru, jo tas, iespējams, ir mainīts kopš pēdējo reizi tika veikta grāmatošana uz atlikto ieņēmumu virsgrāmatas kontu.
 
@@ -82,7 +85,7 @@ Grafika rindās ir atļauts veikt dažus rediģējumus. Rindās var mainīt tāl
 
 - **Aizturēts** — šo karodziņu var iestatīt vai notīrīt pirms rindas apstrādes. Lai notīrītu karodziņu, atlasiet rindu un pēc tam atlasiet **Noņemt aizturēšanu**. Ieņēmumus nevar atzīt rindās, kas ir aizturētas. Rindas var aizturēt automātiski, ja ieņēmumu grafiks ir iestatīts automātiskai aizturēšanai.
 
-    [![Ieņēmumu grafiki — grafika rindu rediģēšana.](./media/revenue-recognition-rev-revenue-schedules.png)](./media/revenue-recognition-rev-revenue-schedules.png)
+    [![Ieņēmumu grafiki — grafika rindu rediģēšana](./media/revenue-recognition-rev-revenue-schedules.png)](./media/revenue-recognition-rev-revenue-schedules.png)
 
 - **Atzīšanas datums** — atzīšanas datumu var mainīt pirms rindas apstrādes. Izpildot procesu, kas izveido žurnālu ieņēmumu atzīšanai, laukā **Ieņēmumu atzīšana sākuma datumā** tiek ievadīts datums. Šis datums tiek salīdzināts ar datumu laukā **Atzīšanas datums**, lai noteiktu, kuras rindas jāatzīst.
 - **Izlaižamā summa** — summu, kas tiks izlaista, var mainīt pirms rindas apstrādes. Varat samazināt atzīstamo ieņēmumu summu, bet to nevar palielināt. Šis lauks ļauj organizācijai atzīt daļu no ieņēmumiem atzīšanas datumā. Ja summa tiek mainīta, summa laukā **Atlikusī summa** rāda, cik daudz ieņēmumu vēl joprojām ir jāatzīst.
@@ -94,18 +97,15 @@ Detalizēta informācija par ieņēmumu grafiku tiek veidota, pamatojoties uz ie
 
 Lai mainītu grafiku, atlasiet jebkuru grafika rindu krājumam, ko maināt. Tālāk esošajā ilustrācijā ir atlasīta rinda krājumam S0008, kas tika grāmatots, izmantojot 12 mēnešu ieņēmumu grafiku. Atlasot pogu **Atjaunināt līguma nosacījumus**, dialoglodziņā tiek parādīti līguma sākuma un beigu datumi un ieņēmumu grafiks.
 
-[![Līguma sākuma un beigu datumi.](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule.png)](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule.png)
+[![Līguma sākuma un beigu datumi](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule.png)](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule.png)
 
 Mainiet līguma sākuma un beigu datumus, lai tie atspoguļotu pareizo datumu diapazonu. Kad maināt datumu diapazonu, vērtībai laukā **Gadījumu skaits** jāatbilst sistēmā definētajam ieņēmumu grafikam. Šajā piemērā ir jāiestata 24 mēnešu ieņēmumu grafiks, jo līgums tika mainīts uz 24 mēnešu līgumu. Tā kā pastāv 24 mēnešu ieņēmumu grafiks, tas tiek ievadīts pēc noklusējuma, un līgumu var mainīt. Ja nepastāv ieņēmumu grafiks, kam ir atbilstošs gadījumu skaits, līgumu nevar mainīt. Kad esat pabeidzis līguma noteikumu un ieņēmumu grafika atjaunināšanu atbilstoši savām vajadzībām, dialoglodziņā atlasiet **Labi**, lai saglabātu veiktās izmaiņas.
 
-[![Atjaunināta līguma datumu diapazons.](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule-02.png)](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule-02.png)
+[![Atjaunināta līguma datumu diapazons](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule-02.png)](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule-02.png)
 
 Līguma izmaiņām ir tālāk izklāstītā ietekme uz detalizēto informāciju par ieņēmumu grafiku.
 
 - Ja precei nav atrasti nekādi ieņēmumi, visa iepriekšējā detalizētā informācija par grafiku tiek noņemta un aizstāta ar jauno detalizēto informāciju par ieņēmumu grafiku. Piemēram, krājumam S0008 sākotnēji bija 12 rindas detalizētajā informācijā par grafiku. Šīs 12 rindas tiek noņemtas un aizstātas ar 24 rindām, pamatojoties uz jauno ieņēmumu grafiku.
 - Ja ieņēmumi ir atzīti precei, daļa ieņēmumu tika atzīta nepareizi, jo atzīšana tika balstīta uz nepareizu ieņēmumu grafiku. Šīs rindas ir jāatsauc un jāatzīst vēlreiz, pamatojoties uz jauno grafiku. Šādā gadījumā tiek izveidotas jaunas ieņēmumu grafika rindas, kurām ir negatīvas summas sākotnējā atzīšanas datumā. Pēc tam tiek izveidotas jaunas rindas, lai atzītu summas, pamatojoties uz jauno ieņēmumu grafiku. Piemēram, 2019. gada 8. augustā jūs atzināt ieņēmumus 10,53 ASV dolāru apmērā. 2019. gada 8. septembrī jūs atzināt ieņēmumus 13,16 ASV dolāru apmērā. Tādēļ tajā pašā datumā tiek izveidotas divas jaunas rindas. Viena rinda ir paredzēta 10,53 ASV dolāriem un otra rinda — 13,16 ASV dolāriem. Pēc tam tiek izveidotas divdesmit četras jaunas rindas un kopējie atliktie ieņēmumi 160,61 ASV dolāru apmērā tiek tajās sadalīti. Varat grāmatot storno rindas, palaižot procesu **Izveidot žurnālu**.
 
-[![Ieņēmumu atzīšanas grafiks.](./media/revenue-recognition-rev-recog-schedule-03.png)](./media/revenue-recognition-rev-recog-schedule-03.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[![Ieņēmumu atzīšanas grafiks](./media/revenue-recognition-rev-recog-schedule-03.png)](./media/revenue-recognition-rev-recog-schedule-03.png)

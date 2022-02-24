@@ -89,6 +89,3 @@ Varat augšupielādēt sava uzņēmuma logotipa attēlu vai citu informāciju k�
     ![Saišu pievienošana uz uzņēmuma konfidencialitātes politiku un lietošanas nosacījumiem izmantošanai e-pasta kājenē](./media/attract-admin-email-footer.png)
 
 4. Atlasiet **Saglabāt**, lai saglabātu e-pasta veidnes iestatījumus.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
-title: Power BI satura pakotnes Izmaksu uzskaites analīze
-description: Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI satura pakotnē Izmaksu uzskaites analīze.
+title: Power BI satura pakotne Izmaksu uzskaites analīze
+description: Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI satura pakotnē Izmaksu uzskaites analīze. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
 author: AndersGirke
+manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -14,18 +16,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d3b8832e5a5612fd0311811f43454689d5b274c36404b4fb92b710411d45e573
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c15995edb5d65a00207fdb425447779d3a17d993
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747373"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683875"
 ---
-# <a name="cost-accounting-analysis-power-bi-content"></a>Power BI satura pakotnes Izmaksu uzskaites analīze
+# <a name="cost-accounting-analysis-power-bi-content"></a>Power BI satura pakotne Izmaksu uzskaites analīze
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā aprakstīts, kas tiek iekļauts Microsoft Power BI satura **Izmaksu uzskaites analīzē**. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
+Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI satura pakotnē **Izmaksu uzskaites analīze**. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
 
 ## <a name="overview"></a>Pārskats
 
@@ -40,7 +42,7 @@ Lai uzzinātu papildinformāciju par izmaksu uzskaiti, skatiet [izmaksu uzskaite
 Definējot piekļuves līmeņa drošību modulī Izmaksu uzskaite un apvienojot to ar rindas līmeņa drošību pakalpojumā Power BI, varat visiem izmaksu objektu īpašniekiem piešķirt tiesības piekļūt Power BI satura pakotnei **Izmaksu uzskaites analīze**. Pēc tam visi vizualizācijās esošie dati tiks filtrēti, pamatojoties uz piekļuves līmeni, kurš ir kontrolēts izmaksu uzskaitē. Lai uzzinātu vairāk par piekļuves līmeņa drošību un rindas līmeņa drošību, skatiet rakstu [Iestatīt drošību izmaksu uzskaites analīzes programmas Power BI saturam](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Piekļuve Power BI satura pakotnei
-Power BI satura pakotne **Izmaksu uzskaites analīze** ir pieejama Microsoft Dynamics Lifecycle Services (LCS) koplietojamo līdzekļu bibliotēkā. Papildinformāciju par to, kā lejupielādēt satura pakotni un ieviest to savā organizācijā, skatiet rakstā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners).
+Power BI satura pakotne **Izmaksu uzskaites analīze** ir pieejama Microsoft Dynamics Lifecycle Services (LCS) koplietojamo līdzekļu bibliotēkā. Papildinformāciju par to, kā lejupielādēt satura pakotni un ieviest to savā organizācijā, skatiet rakstā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
 
 Noteikti lejupielādējiet satura pakotni **Izmaksu uzskaites analīze**, kas ir paredzēta jūsu Microsoft Dynamics 365 versijai.
 
@@ -121,6 +123,3 @@ Tālāk norādītās galvenās dimensijas tiek lietotas kā filtri, lai apkopoš
 | Finanšu kalendāri                   | Kalendārs, Kalendāra apraksts                                                                                       |
 | Finanšu gadi                       | Kalendārais gads                                                                                                        |
 | Finanšu periodi                     | Kalendārā gada periods                                                                                                 |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

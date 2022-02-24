@@ -78,6 +78,3 @@ Jauna opcija ļaus vadītājiem apskatīt gan savas tiešās veiktspējas atskai
 Mēs priecājamies paziņot, ka Kanādas un Dienvidaustrumu Āzijas reģioni būs pieejami Talent 2019. gada 1. augustā. Ar šīm izmaiņām varat izveidot vides Kanādas un Āzijas reģionos, un visi programmas Talent dati tiks uzturēti tikai šajās vietās. Varat izveidot vidi šajos jaunajos reģionos, atlasot atrašanās vietu Jaunajā vides dialogā, un izmantot šo vidi, lai nodrošinātu programmu Talent pakalpojumā LCS, kā aprakstīts šeit [Programmas Talent nodrošināšana](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
 
 Esošo projektu datu migrācija no citiem reģioniem uz Kanādas un Āzijas reģioniem netiek atbalstīta. Šiem jaunajiem atbalstītajiem reģioniem var tikt nodrošināti tikai jauni projekti.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

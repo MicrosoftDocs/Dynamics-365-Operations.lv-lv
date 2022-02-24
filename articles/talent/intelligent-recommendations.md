@@ -56,6 +56,3 @@ Ieteikumi tiek parādīti kā kartītes cilnē **Potenciālie kandidāti** visie
 > Ja programmas Attract lietošanu uzsākāt nesen, pirms šīs iespējas izmantošanas ir nepieciešami vismaz 10 kandidāti, kuriem ir pilns profils vai CV.
 
 Lai izvairītos no iespējamas neobjektivitātes ieteikumos, programma Attract skenē kandidātu profilus tikai, lai iegūtu informāciju par prasmēm, kvalifikācijām un citiem atslēgvārdiem, kuri atbilst pienākumu aprakstam. Turklāt Attract pirms novērtēšanas noņem no kandidātu profiliem personas identifikācijas informāciju.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

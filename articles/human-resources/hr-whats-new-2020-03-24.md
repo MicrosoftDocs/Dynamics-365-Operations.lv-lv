@@ -1,32 +1,33 @@
 ---
 title: Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2020. gada 24. marts)
 description: Šajā rakstā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Human Resources uz 2020. gada 24. martu.
-author: andreabichsel
+author: Darinkramer
+manager: AnnBe
 ms.date: 03/24/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-03-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dec2f270f53968292ec25cca43c216f26cfc8087
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.openlocfilehash: 87b7ea660d94c6d564a8f09d4133b098e0ecedf9
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061415"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4526923"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-24-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2020. gada 24. marts)
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šajā rakstā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Human Resources. Izmaiņas attiecas uz būvējuma numuru 8.1.3073. Dažos virsrakstos redzamie numuri iekavās attiecas uz atbalsta atsauces numuriem portālā Lifecycle Services (LCS).
 
@@ -36,11 +37,11 @@ Ir mainīt limits vižu skaitam projektā pakalpojumos Lifecycle Services (LCS).
 
 ## <a name="platform-changes"></a>Platformas izmaiņas
 
-- Pilnas lapas lietojumprogrammas (priekšskatījums) - Šī priekšskatījuma funkcija, kas paredz saglabāto skatu funkcijas iespējošanu, ļauj Power Apps un trešo pušu programmas pievienot kā pilnas lapas programmas, izmantojot informācijas paneli.
+- Pilnas lapas lietojumprogrammas (priekšskatījums) - Šī priekšskatījuma funkcija, kas paredz saglabāto skatu funkcijas iespējošanu, ļauj Power Apps un trešo pušu programmas pievienot kā pilnas lapas programmas, izmantojot informācijas paneli. 
 
 - Saglabātie skati (priekšskatījums) — Šis priekšskatījuma līdzeklis iespējo saglabātos skatījumus, kas ir nozīmīgs personalizēšanas apakšsistēmas papildinājums. Šis līdzeklis ļauj lietotājiem iegūt vairākas nosauktas personalizācijas kopas uz lapu. Varat arī publicēt skatus uz drošības lomām.
 
-- Optimizēta ¨ir viens no¨ filtrēšanas iespēja - Šī funkcija ļauj optimizētu "ir viens no" filtrēšanas iespēju, kas atvieglo vairāku filtru vērtību ievadīšanu. Tai ir vienkāršāks individuālo vai visu filtru vērtību noņemšanas mehānisms, kā arī filtra vērtību vizualizācija ir kompaktāka un intuitīvāka.
+- Optimizēta ¨ir viens no¨ filtrēšanas iespēja - Šī funkcija ļauj optimizētu "ir viens no" filtrēšanas iespēju, kas atvieglo vairāku filtru vērtību ievadīšanu. Tai ir vienkāršāks individuālo vai visu filtru vērtību noņemšanas mehānisms, kā arī filtra vērtību vizualizācija ir kompaktāka un intuitīvāka. 
 
 - Ieteicamie lauki — Lietotājiem bieži ir jāpievieno lauki režģim vai lapai. Tas var būt sarežģīti ar tik daudziem pieejamiem laukiem. Tā vietā, lai meklētu pēc liela saraksta, šis līdzeklis ļauj sistēmai pāriet pāri ieteicamo lauku kopai, pamatojoties uz to, ko citi lietotāji visbiežāk pievieno līdzīgos scenārijos.
 
@@ -58,7 +59,7 @@ Tālāk norādītie priekšskatījuma līdzekļi kļuva pieejami 2020. gada 3. f
 
 - **Atvieglojumu pārvaldības priekšskatījums** — plašāku informāciju, ieskaitot zināmās problēmas, skatiet [Atvieglojumu pārvaldības apskatā](hr-benefits-management-overview.md).
 
-## <a name="dataverse-solution-is-now-available-with-the-following-changes"></a>Dataverse risinājums tagad ir pieejams ar šādām izmaiņām:
+## <a name="common-data-service-solution-is-now-available-with-the-following-changes"></a>Common Data Service risinājums tagad ir pieejams ar šādām izmaiņām:
 
 | apraksts | Labot |
 | --- | --- |
@@ -70,12 +71,12 @@ Tālāk norādītie priekšskatījuma līdzekļi kļuva pieejami 2020. gada 3. f
 | Jaunas mainīgās atlīdzības iestatījuma entitījas | <ul><li>**Atlīdzības mainīgā plāna tips**</li><li>**Atlīdzības mainīgā sistēma**</li><li>**Izmaksas noteikumi**</li><li>**Atlīdzības mainīgā plāna līmenis**</li></ul> |
 | Jauna **Darbinieka kalendāra nodarbinātības** entitīja | <ul><li>**Darba kalendāra elements** pievienots</li></ul> |
 | Jauna **Algas pozīcijas detalizētas informācijas** entitīja | <ul><li>**Algas pozīcijas detalizēta informācija** pievienota</li></ul> |
-| Jauna **Nosaukuma** entitīja | <ul><li>**Nosaukums** pievienots</li></ul>Jaunā **Nosaukuma** entītija ir iekļauta Dataverse, bet šajā laikā nav atsauces no **Darba amata** vai **Darba** vienībām. |
+| Jauna **Nosaukuma** entitīja | <ul><li>**Nosaukums** pievienots</li></ul>Jaunā **Nosaukuma** entītija ir iekļauta Common Data Service, bet šajā laikā nav atsauces no **Darba amata** vai **Darba** vienībām. |
 
 > [!NOTE]
-> Finanšu dimensijas abām pozīcijām un nodarbinātībai nodrošina viena virziena integrēšanu personāla vadības resursu atjauninājumiem Dataverse. Finanšu dimensiju atjauninājumi pašlaik nesinhronizējas no Dataverse uz personāla vadības resursiem.
+> Finanšu dimensijas abām pozīcijām un nodarbinātībai nodrošina viena virziena integrēšanu personāla vadības resursu atjauninājumiem Common Data Service. Finanšu dimensiju atjauninājumi pašlaik nesinhronizējas no Common Data Service uz personāla vadības resursiem.
 
-Nākamo dažu nedēļu laikā šīs elementa izmaiņas būs pieejamas visās vidēs. Lai manuāli instalētu jaunāko Dataverse risinājumu Personāla vadībai:
+Nākamo dažu nedēļu laikā šīs elementa izmaiņas būs pieejamas visās vidēs. Lai manuāli instalētu jaunāko Common Data Service risinājumu Personāla vadībai:
 
 1.  Dodieties uz [Power Platform Administrēšanas centru](https://admin.powerplatform.microsoft.com).
 
@@ -118,8 +119,6 @@ No aprīļa Personāla vadības laidienu ritms mainīsies no iknedēļas atjauni
 ## <a name="see-also"></a>Skatiet arī
 
 [Jaunumi un izmaiņas programmā Human Resources](hr-admin-whats-new.md)</br>
-[Pārskats par Dynamics 365 Human Resources 2019. gada laidiena 2. kopumu](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Pārskats par Dynamics 365 Human Resources 2019. gada laidiena 2. kopumu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Procesa atjaunināšana](hr-admin-setup-update-process.md)</br>
 [Līdzekļu pārvaldība](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

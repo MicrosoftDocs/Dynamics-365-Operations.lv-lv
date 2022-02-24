@@ -1,28 +1,28 @@
 ---
 title: Budžeta veidošanas sākumlapa
 description: Šajā tēmā ir sniegts apskats par budžeta veidošanas funkcionalitātes sastāvdaļām, budžeta veidošanas rīkiem, kā arī atskaišu veidošanas iespējām programmā Microsoft Dynamics 365 Finance.
-author: panolte
-ms.date: 04/29/2021
-ms.topic: overview
+author: ShylaThompson
+manager: AnnBe
+ms.date: 08/09/2017
+ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanningWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "106043"
-- intro-internal
+ms.custom: 106043
 ms.assetid: 702f692e-ad1c-4798-8d3e-c3cf8591d3fa
 ms.search.region: Global
-ms.author: panolte
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ad0d055702a3801bf9fe9ac3159eba7c297b6f0
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: af006a94d29781473c164d108fb48ca7d00d169d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983956"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962914"
 ---
 # <a name="budgeting-home-page"></a>Budžeta veidošanas sākumlapa
 
@@ -30,11 +30,12 @@ ms.locfileid: "7983956"
 
 Šajā tēmā ir sniegts apskats par budžeta veidošanas funkcionalitātes sastāvdaļām, budžeta veidošanas rīkiem, kā arī atskaišu veidošanas iespējām. 
 
-## <a name="components-of-budgeting-functionality"></a>Budžeta veidošanas funkcionalitātes komponenti
+<a name="components-of-budgeting-functionality"></a>Budžeta veidošanas funkcionalitātes komponenti
+-------------------------------------
 
 Resursu plānošanas cikls uzņēmumam parasti sastāv no plānošanas, budžeta veidošanas un prognozēšanas darbībām.
 
-[![Budžeta veidošanas funkcionalitātes komponenti.](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
+[![Budžeta veidošanas funkcionalitātes komponenti](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
 
 Izmantojot budžeta plāna dokumentu, tiek atbalstīti gan ilgtermiņa stratēģiskās plānošanas, gan gada budžeta plānošanas procesi. Budžeta plāna dokumenti ir cieši integrēti programmā Microsoft Excel. Lietotāji var konfigurēt neierobežotus naudas un daudzuma scenārijus, kā arī var definēt budžeta plānošanas organizācijas hierarhiju, lai atbalstītu budžeta veidošanu gan no augšas uz leju, gan no apakšas uz augšu. Kad budžets ir izveidots un apstiprināts programmā, jūs šo budžeta plānu pārveidojat par budžeta reģistra ierakstu. Budžeta reģistra ieraksti nodrošina rīkus budžeta uzturēšanai un summu izsekojamības saglabāšanai, izmantojot budžeta kodus. Budžeta reģistra ieraksti ļauj pārskatīt sākotnējos budžetus, veikt pārsūtījumus un pārnest budžeta summas no iepriekšējā gada. Pamatojoties uz izveidoto budžetu, uzņēmums var iespējot budžeta kontroli. Kontroles līmenis ir atkarīgs no organizācijas kultūras un organizācijas brieduma līmeņa. Organizācijas, kurām ir zems brieduma līmenis, var atstāt budžetu “tādu, kāds tas ir” un spēt labāk reaģēt, nevis darboties proaktīvi, ja budžets neatbilst gaidītajam. Citas organizācijas var iespējot budžeta kontroles politikas, kas neļauj lietotājiem veikt pirkšanu, ja nav pieejami budžeta līdzekļi.
 
@@ -48,7 +49,7 @@ Visbeidzot — ļoti nobriedušām organizācijām var būt izveidota organizā
 -   [Budžeta plānošanas veidnes programmai Excel](budget-planning-excel-templates.md)
 
 ## <a name="budgeting-tools"></a>Budžeta veidošanas rīki
-[![Budžeta veidošanas rīki.](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
+[![Budžeta veidošanas rīki](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
 
 Papildu plānošanas un budžeta veidošanas iespējas ir pieejamas un iestrādātas virsgrāmatas budžetos.
 
@@ -69,6 +70,3 @@ Piemēram, var definēt budžeta veidošanas veicēju, to, kam tiek veidots bud�
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

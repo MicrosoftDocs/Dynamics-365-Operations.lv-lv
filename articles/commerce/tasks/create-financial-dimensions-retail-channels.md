@@ -2,9 +2,11 @@
 title: Mazumtirdzniecības kanālu finanšu dimensiju izveide un dimensiju vērtību konfigurēšana veikalos
 description: Šajā procedūrā ir aprakstīts tirdzniecības kanāla dimensijas izveides process, izmantojot dimensijas vērtības, kā arī finanšu dimensijas vērtību konfigurēšanas process veikalos.
 author: jashanno
+manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -13,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b98c37ad7695e81dbbd9558217287c868e052d08415d6d5c5d6055b5f9755eac
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 86fc9c9a400bee1280b32f10b1e8f55e581e1984
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769347"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964749"
 ---
 # <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a>Mazumtirdzniecības kanālu finanšu dimensiju izveide un dimensiju vērtību konfigurēšana veikalos
 
@@ -37,7 +39,7 @@ ms.locfileid: "6769347"
 9. Aizvērt lapu.
 10. Klikšķiniet Saglabāt.
 11. Aizvērt lapu.
-12. Pārejiet uz Retail un Commerce > Kanāli > Veikali > Visi veikali.
+12. Parejiet uz Retail un Commerce > Kanāli > Veikali > Visi veikali.
 13. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
 14. Pārslēdziet sadaļas Finanšu dimensijas paplašinājumu.
 15. Noklikšķiniet uz Rediģēt.
@@ -52,6 +54,3 @@ ms.locfileid: "6769347"
 24. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
 25. Noklikšķiniet uz Saglabāt.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

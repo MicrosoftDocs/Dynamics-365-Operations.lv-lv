@@ -1,33 +1,31 @@
 ---
 title: Darba laika kalendāra izveide
 description: Definējiet darba laika kalendāru, brīvdienas un ārpusdarba laikus pakalpojumā Dynamics 365 Human Resources.
-author: twheeloc
-ms.date: 10/28/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 54aa85acb43c1e9a474bea9996c72c7e7017c245
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 2bedbe65f146c4159c2a809de8f683815fd4a01f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068923"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419526"
 ---
 # <a name="create-a-working-time-calendar"></a>Darba laika kalendāra izveide
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Darba laika kalendārs programmā Dynamics 365 Human Resources rāda dienas un stundas, kuras darbinieki strādā jūsu organizācijā. Kad darbinieks iesniedz brīvā laika pieprasījumu, viņiem nav jāraizējas par brīvdienām un slēgšanu.
 
@@ -67,7 +65,7 @@ Brīvdienas un slēgšanu var pievienot vai mainīt atsevišķi no darba laika k
 
 Nestrādājamo laiku var pievienot vai mainīt atsevišķi no darba laika kalendāra.
 
-1. **Lapā Organizācijas administrēšana** atlasiet **NEST TIME ( NON-WORK TIME)**.
+1. Lapā **Organizācijas administrēšana** atlasiet **Nestrādājamais laiks**.
 
 2. Atlasiet **Jauns** un ievadiet nestrādājamā laika nosaukumu un laika diapazonu.
 
@@ -77,6 +75,3 @@ Ja esat iespējojis atvaļinājumu un prombūtnes bankas brīvdienu labošanas p
 
 - [Atvaļinājumu un kavējumu apskats](hr-leave-and-absence-overview.md)
 - [Atvaļinājumu un prombūtnes veidu konfigurēšana](hr-leave-and-absence-types.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

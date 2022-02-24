@@ -1,33 +1,31 @@
 ---
 title: Atvaļinājumu un prombūtnes veidu konfigurēšana
 description: Iestatiet atvaļinājumu tipus, ko darbinieki var izņemt pakalpojumā Dynamics 365 Human Resources.
-author: twheeloc
-ms.date: 09/09/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 76b8661c4c6d8fe6cf0568be966f1652b95b5442
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 6e6ca7d04b86232ba48474fcbe288a18995661ae
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067331"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419519"
 ---
 # <a name="configure-leave-and-absence-types"></a>Atvaļinājumu un prombūtnes veidu konfigurēšana
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Atvaļinājumu veidi pakalpojumā Dynamics 365 Human Resources definē, kādu veidu prombūtnes laiku darbinieki var pieprasīt. Varat pielāgot atvaļinājumu veidus atbilstoši organizācijas vajadzībām. Atvaļinājumu veidu piemēri ietver:
 
@@ -68,53 +66,19 @@ Atvaļinājumu veidi pakalpojumā Dynamics 365 Human Resources definē, kādu ve
 
 1. Iestatiet noapaļošanas opcijas atvaļinājuma veidam. Opcijas ietver **Neviens**, **Uz augšu**, **Uz leju** un **Tuvākais**. Atvaļinājuma veidam var arī iestatīt noapaļošanas precizitāti.
 
-2. Iestatiet atvaļinājuma veida **Brīvdienu labojumu** Atlasot šo opciju, tiks izmantots to brīvdienu skaits, kuras iekrīt darba dienā, lai noteiktu, kā uzkrāt brīvo laiku atvaļinājuma veidam. Piemēram, ja Ziemassvētki ir pirmdienā, Human Resources, apstrādājot uzkrājumus, atņem vienu dienu no atvaļinājuma veida.
+2. Iestatiet atvaļinājuma veida **Brīvdienu labojumu** Atlasot šo opciju, Human Resources izmanto to brīvdienu skaitu, kuras iekrīt darba dienā, lai noteiktu, kā uzkrāt brīvo laiku atvaļinājuma veidam. Piemēram, ja Ziemassvētki ir pirmdienā, Human Resources, apstrādājot uzkrājumus, atņem vienu dienu no atvaļinājuma veida.
 
-   Brīvdienas varat iestatīt darba laika kalendārā. Papildinformāciju skatiet šeit šeit: [Darba laika kalendāra izveide](hr-leave-and-absence-working-time-calendar.md).
+   Brīvdienas varat iestatīt darba laika kalendārā. Papildinformāciju skatiet šeit šeit: [Darba laika kalendāra izveide](hr-leave-and-absence-working-time-calendar.md)
    
  3. Iestatiet atvaļinājuma veidam **Pārnesta atvaļinājuma veids**. Atlasot šo opciju, visas pārnešanas bilances tiks pārsūtītas uz norādīto atvaļinājumu veidu. Pārnestā atvaļinājuma veids ir jāiekļauj arī atvaļinājumu un prombūtnes plānā. 
  
-4. Definējiet atvaļinājuma veidam **Beigu nosacījumu noteikumus**. Konfigurējot šo opciju, varat izvēlēties dienu vai mēnešu vienību un iestatīt beigu termiņu. Derīguma termiņa spēkā stāšanās datumu izmanto, lai noteiktu, kad sākt palaist pakešuzdevumu, kas apstrādā atvaļinājuma beigu datumu, vai datumu, kad noteikums stājas spēkā. Termiņa beigas vienmēr būs uzkrāšanas perioda sākuma datumā. Piemēram, ja uzkrāšanas perioda sākuma datums ir 2021. gada 3. augusts un termiņa beigu noteikums ir iestatīts uz 6 mēnešiem, noteikums tiks apstrādāts, pamatojoties uz termiņa beigu korespondējošo kontu no uzkrāšanas perioda sākuma datuma, tādējādi tas būtu izpildīts 2022. gada 3. februārī. Visas atvaļinājuma bilances, kas pastāv beigu laikā, tiks atskaitītas no atvaļinājuma veida, un tās tiks atspoguļotas atvaļinājumu bilancē.
+ 4. Definējiet atvaļinājuma veidam **Beigu nosacījumu noteikumus**. Konfigurējot šo opciju, varat izvēlēties dienu vai mēnešu vienību un iestatīt beigu termiņu. Varat arī iestatīt termiņa beigu nosacījuma spēkā stāšanās datumu. Visas atvaļinājuma bilances, kas pastāv beigu laikā, tiks atskaitītas no atvaļinājuma veida, un tās tiks atspoguļotas atvaļinājumu bilancē. 
  
-## <a name="configure-the-required-attachment-per-leave-type"></a>Konfigurēt nepieciešamo pielikumu katram atvaļinājuma tipam
-
-> [!NOTE]
-> Lai izmantotu lauku **Nepieciešamais pielikums**, vispirms ieslēdziet līdzeklim **Konfigurēt nepieciešamo pielikumu atvaļinājumu pieprasījumiem** līdzekļu pārvaldībā. Lai iegūtu papildinformāciju par to, kā ieslēgt līdzekļus, skatiet sadaļu [Līdzekļu pārvaldība](hr-admin-manage-features.md).
-
-1. Lapas **Atvaļinājums un prombūtne** cilnē **Saites** zem **Iestatījumi** atlasiet **Atvaļinājuma un prombūtnes tipi**.
-
-2. Sarakstā atlasiet atvaļinājuma un prombūtnes tipu. Pēc tam sadaļā **Vispārīgi** izmantojiet lauku **Pielikums**, kas nepieciešams, lai norādītu, vai pielikums ir jāielādē, kad darbinieks iesniedz jaunu atvaļinājuma pieprasījumu atlasītajam atvaļinājuma tipam. 
-
-Darbiniekiem būs jāielādē pielikums, kad tie iesniedz jaunu atvaļinājuma pieprasījumu ar atvaļinājuma tipu, kur ir iespējots lauks **Nepieciešams pielikums**. Lai skatītu pielikumu, kas tika augšupielādēts kā daļa no atvaļinājuma pieprasījuma, atvaļinājuma pieprasījuma apstiprinātāji var izmantot opciju **Pielikumi** darba vienumiem, kas tiem piešķirti. Ja atvaļinājuma pieprasījumam var piekļūt, izmantojot programmu Human Resources Microsoft Teams, atvaļinājuma pieprasījuma opciju **Skatīt detalizētu informāciju** var izmantot, lai skatītu detalizētu informāciju par to un visus pielikumus.
-
-## <a name="configure-leave-units-hoursdays-per-leave-type"></a>Konfigurēt atvaļinājuma vienības (stundas/dienas) pa atvaļinājuma daļām
-
-> [!NOTE]
-> Lai lietotu atvaļinājuma vienības atvaļinājuma tipa funkcionalitātē, vispirms ir jāslēdz līdzekli **Konfigurēt atvaļinājuma vienības pa atvaļinājuma veidiem** Līdzekļu pārvaldība. Lai iegūtu papildinformāciju par to, kā ieslēgt līdzekļus, skatiet sadaļu [Līdzekļu pārvaldība](hr-admin-manage-features.md).
-
-> [!IMPORTANT]
-> Pēc noklusējuma atvaļinājumu tipi juridiskajās personas izmanto atvaļinājuma vienības no atvaļinājumu parametru konfigurācijas juridiskas personas līmenī.
-> 
-> Atvaļinājuma vienību un prombūtnes tipu var modificēt tikai tad, ja šim atvaļinājuma tipam nav atvaļinājuma darbību.
-> 
-> Līdzekli nevar izslēgt pēc tā ieslēgšanas.
-
-1. Lapas **Atvaļinājums un prombūtne** cilnē **Saites** zem **Iestatījumi** atlasiet **Atvaļinājuma un prombūtnes tipi**.
-
-2. Sarakstā atlasiet atvaļinājuma un prombūtnes tipu. Pēc tam sadaļā **Vispārīgi** laukā **Vienība** atlasiet atvaļinājuma vienību. Var atlasīt **Stundas** vai **Dienas**.
-
-3. Nav obligāti: ja laukā **Vienība** atlasījāt **Stundas**, varat izmantot lauku **Iespējot pusgada definīciju**, lai norādītu, vai darbinieki var atlasīt pirmo pusgadu vai otro brīvdienu, ja viņi pieprasa pusstundas atvaļinājumu.
-
-Darbinieki, kas iesniedz jaunu atvaļinājuma pieprasījumu, var atlasīt dažādus atvaļinājumu tipus, lai veidotu sava atvaļinājuma pieprasījumu. Tomēr visiem atvaļinājumu tipiem, kas atlasīti kā daļa no viena atvaļinājuma pieprasījuma, jābūt vienai atvaļinājuma vienībai. Darbinieki var skatīt atvaļinājuma vienību katram atvaļinājuma veidam veidlapā **Pieprasīt brīvo laiku**.
-
+ 
 ## <a name="see-also"></a>Skatiet arī
 
 - [Atvaļinājumu un kavējumu apskats](hr-leave-and-absence-overview.md)
 - [Izveidot atvaļinājumu un kavējuma plānu](hr-leave-and-absence-plans.md)
 - [Darba laika kalendāra izveide](hr-leave-and-absence-working-time-calendar.md)
 - [Pārtraukt atvaļinājumu](hr-leave-and-absence-suspend-leave.md)
-- [Atvaļinājuma pirkšanas un pārdošanas pieprasījuma darbplūsmas izveide](hr-leave-and-absence-buy-sell-workflow.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

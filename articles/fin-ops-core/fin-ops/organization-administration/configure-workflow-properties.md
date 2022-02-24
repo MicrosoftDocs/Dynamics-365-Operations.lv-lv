@@ -2,9 +2,11 @@
 title: Konfigurēt darbplūsmas rekvizītus
 description: Šajā tēmā ir paskaidrots, kā konfigurēt dažādus darbplūsmas rekvizītus.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 81f73f187f75e40297f1f8462e9fff58a309f7f0
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 8bd3c9bea010099f83d16dad70261bc2d46a1dac
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069252"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693286"
 ---
 # <a name="configure-workflow-properties"></a>Konfigurēt darbplūsmas rekvizītus
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Šajā tēmā ir paskaidrots, kā konfigurēt dažādus darbplūsmas rekvizītus.
 
@@ -74,9 +73,6 @@ Varat sniegt informāciju lietotājiem, kuri iesniedz dokumentus apstrādei un a
     4. Laukā **Tulkotais teksts** ievadiet tekstu.
     5. Lai personalizētu tekstu, var ievadīt vietturus. Instrukcijas par to, kā ievadīt vietturi, skatiet 3. darbībā.
     6. Noklikšķiniet uz **Aizvērt**.
-
-> [!NOTE]
-> Izmantojot kopēšanu un ielīmēt, nevar pievienot vietturus, jo mērķa informācija nav ielīmēta pareizi. Lai pievienotu vietturus, lietojiet interfeisu.
 
 ## <a name="specify-when-this-workflow-is-used-through-activation-conditions"></a>Norādiet, kad šī darbplūsma tiek izmantota aktivizēšanas nosacījumos
 
@@ -183,6 +179,3 @@ Lai ievadītu komentārus par izmaiņām, ko veicāt šajā darbplūsmā, rīkoj
 2. Laukā **Ievadīt komentārus par darbplūsmu** ievadiet savus komentārus.
 3. Pārskatiet savus komentārus. Pēc komentāru pievienošanas tos nevar pārveidot.
 4. Noklikšķiniet uz **Pievienot**, lai pievienotu jūsu komentārus apgabalā **Komentāru vēsture**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

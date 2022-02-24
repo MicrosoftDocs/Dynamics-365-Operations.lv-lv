@@ -98,6 +98,3 @@ Jauna opcija ļaus vadītājiem apskatīt gan savas tiešās veiktspējas atskai
 ### <a name="print-performance-reviews"></a>Veiktspējas pārskatu drukāšana
 
 Darbinieki, pārvaldnieki un HR darbinieki varēs drukāt darbinieku veiktspējas pārskatu.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
