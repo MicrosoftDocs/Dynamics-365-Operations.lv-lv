@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 0382e34664f20389c43e8dec4437f0078fa1f60a
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 4c7a9585d96a1e08790e0f3c972e704971f27dc0
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777744"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103442"
 ---
 # <a name="configure-job-card-for-devices"></a>Konfigurēt darbu karti ierīcēm
 
@@ -34,21 +34,19 @@ Daži šajā tēmā aprakstītie iestatījumi ir jāaktivizē jūsu sistēmā, p
 
 Lai padarītu šo līdzekli pieejamu, iespējojiet tālāk norādītos līdzekļus [līdzekļu pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (secībā):
 
-1. Numura zīme pabeigšanai, kas pievienota darba kartes ierīcei (No piegādes ķēdes pārvaldības versijas 10.0.21 šī funkcija ir ieslēgta pēc noklusējuma.)
-1. Iespējojiet unikāla noliktavas vienības identifikatora automātisku ģenerēšanu, kad darba kartes ierīcē norādīts pabeigts statuss
+1. *Darbu kartes ierīcei ir pievienota unikālai noliktavas vienībai, lai ziņotu par pabeigšanu*<br>(No Piegādes ķēdes pārvaldības versijas 10.0.21, šī funkcija ir ieslēgta pēc noklusējuma. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.25 šī funkcija ir obligāta.)
+1. *Iespējojiet unikāla noliktavas vienības identifikatora automātisku ģenerēšanu, kad darba kartes ierīcē norādīts pabeigts statuss*<br>(No Piegādes ķēdes pārvaldības versijas 10.0.25 šī funkcija ir obligāta.)
 
 ### <a name="print-label"></a>Drukāt etiķeti
 
 Lai padarītu šo līdzekli pieejamu, iespējojiet tālāk norādītos līdzekļus [līdzekļu pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (secībā):
 
-1. Numura zīme pabeigšanai, kas pievienota darba kartes ierīcei (No piegādes ķēdes pārvaldības versijas 10.0.21 šī funkcija ir ieslēgta pēc noklusējuma.)
-1. Izdrukāt etiķeti no darba karšu ierīces
+1. *Darbu kartes ierīcei ir pievienota unikālai noliktavas vienībai, lai ziņotu par pabeigšanu*<br>(No Piegādes ķēdes pārvaldības versijas 10.0.21, šī funkcija ir ieslēgta pēc noklusējuma. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.25 šī funkcija ir obligāta.)
+1. *Izdrukāt etiķeti no darba karšu ierīces*<br>(No Piegādes ķēdes pārvaldības versijas 10.0.25 šī funkcija ir obligāta.)
 
 ### <a name="allow-locking-of-touch-screen"></a>Atļaut skārienekrāna bloķēšanu
 
-No Piegādes ķēdes pārvaldības versijas 10.0.21 šī funkcija ir ieslēgta pēc noklusējuma. Ja vēlaties to izmantot, pārliecinieties, ka līdzekļu pārvaldībā ir ieslēgta [šāda](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) funkcija:
-
-- Līdzeklis darba kartes ierīces un darba kartes termināļa aizturēšanai, lai var veikt to tīrīšanu
+No Piegādes ķēdes pārvaldības versijas 10.0.21 šī funkcija ir ieslēgta pēc noklusējuma. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja jūs palaižat versiju, kas vecāka par 10.0.25, administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot līdzekli darba kartes ierīces un darba kartes termināļa bloķēšanai, lai *tos*[varētu](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) izmantot līdzekļa pārvaldības darbvietā.
 
 ## <a name="manage-your-device-configurations"></a>Jūsu ierīces konfigurāciju pārvaldība
 
@@ -67,7 +65,7 @@ Kopsavilkuma cilne **Vispārīgi** ļauj konfigurēt katru no dažādām opcijā
 - **Bloķēt darbinieku** — kad šī opcija ir iestatīta uz **Nē**, katrs darbinieks saņems atteikumu uzreiz pēc reģistrācijas (piemēram, jauna darba), un pēc tam ierīce atgriezīsies pierakstīšanās lapā. Ja šī opcija ir iestatīta uz **Jā**, katrs darbinieks paliks pierakstījies darba kartes ierīcē. Tomēr darbinieks joprojām varēs pieteikties manuāli, lai ļautu pieteikties citam darbiniekam, kamēr darba kartes ierīce joprojām darbojas vienā sistēmas lietotāja kontā. Plašāku informāciju par šiem tabulas kontu veidiem skatiet [Piešķirtie lietotāji](#assigned-users).
 - **Svītrkodu skeneris** — iestatiet to uz **Jā**, lai nodrošinātu opciju darba kartes ierīcei, kas ļauj darbiniekiem reģistrēt jauna darba sākumu, skenējot svītrkodu.
 - **Izmantot faktisko reģistrācijas laiku** — iestatiet to uz **Jā**, lai iestatītu laiku katrai jaunajai reģistrācijai tā, lai tas atbilstu precīzajam laikam, kad darbinieks iesniedzis reģistrāciju. Iestatiet uz **Nē**, lai tā vietā izmantotu pieteikšanās laiku. Parasti tas ir jāiestata uz **Jā**, ja esat iespējojis opcijas **Bloķēt darbinieku** un/vai **Viens darbinieks**, kuru gadījumā darbinieki bieži paliek pieteikušies ilgāku laiku.
-- **Viens darbinieks** — iestatiet šo opciju uz **Jā**, ja tikai viens darbinieks izmanto katru darba kartes ierīci, kurā šī konfigurācija ir aktīva. Kad ir atlasīta šī opcija, opcija **Bloķēt darbinieku** automātiski tiek iestatīta uz **Jā**. Turklāt šī opcija noņem darbiniekam prasību (un iespēju) pieteikties, izmantojot žetona ID (vai līdzīgu). Tā vietā darbinieks pierakstās Supply Chain Management, izmantojot sistēmas lietotāja vienlau kontu, kas ir saistīts ar *laikā reģistrēto darbinieku* (no tabulas *darbinieki*), un vienlaikus tiek pieteikts darba kartes ierīcē kā šis darbinieks.  Plašāku informāciju par šiem tabulas kontu veidiem skatiet [Piešķirtie lietotāji](#assigned-users).
+- **Viens darbinieks** — iestatiet šo opciju uz **Jā**, ja tikai viens darbinieks izmanto katru darba kartes ierīci, kurā šī konfigurācija ir aktīva. Kad ir atlasīta šī opcija, opcija **Bloķēt darbinieku** automātiski tiek iestatīta uz **Jā**. Turklāt šī opcija noņem darbiniekam prasību (un iespēju) pieteikties, izmantojot žetona ID (vai līdzīgu). Tā vietā darbinieks pierakstās Supply Chain Management, izmantojot sistēmas lietotāja vienlau kontu, kas ir saistīts ar *laikā reģistrēto darbinieku* (no tabulas *darbinieki* ), un vienlaikus tiek pieteikts darba kartes ierīcē kā šis darbinieks.  Plašāku informāciju par šiem tabulas kontu veidiem skatiet [Piešķirtie lietotāji](#assigned-users).
 - **Atļaut darbiniekiem iestatīt personīgos filtrus** — iestatiet šo opciju uz **Jā**, lai ļautu darbiniekiem filtrēt darbus, kas tiem ir redzami ierīcē. Darbinieks var modificēt vērtības jebkuram no trim filtra kritērijiem: **Ražošanas vienība**, **Resursu grupa** un **Resurss**. Ierīcē tiks parādīti tikai tie darbi, kas ir ieplānoti resursiem, kuri atbilst atlasītajiem filtra kritērijiem. Varat arī piešķirt noklusējuma vērtības vienam vai visiem šiem kritērijiem, un tie tiks piemēroti pat tad, ja šī opcija nav atlasīta.
 - **Atļaut skārienekrāna bloķēšanu** — iestatiet šo opciju uz **Jā**, lai ļautu darbiniekiem bloķēt darbu kartes ierīces skārienekrānu, lai varētu to tīrīt. Iespējojot šo opciju, ierīces pierakstīšanās lapā tiek pievienota cpoga **Bloķēt ekrānu tīrīšanai**. Kad darbinieks atlasa šo pogu, skārienekrāns uz laiku tiek bloķēts, lai novērstu netīšu ievadi, un ir redzams atpakaļskaitīšanas taimeris. Darbinieks tagad var droši tīrīt ierīci un ekrānu. Kad atpakaļskaitīšanas ir beigusies, skārienekrāns tiek automātiski atbloķēts.
 - **Ekrāna bloķēšanas ilgums** — kad opcija **Atļaut skārienekrāna bloķēšanu** ir iespējota, izmantojiet šo opciju, lai norādītu sekunžu skaitu, cik ilgi skārienekrānam ir jābūt bloķētam tīrīšanai. Ilgumam jābūt diapazonā no 5 līdz 120 sekundēm.

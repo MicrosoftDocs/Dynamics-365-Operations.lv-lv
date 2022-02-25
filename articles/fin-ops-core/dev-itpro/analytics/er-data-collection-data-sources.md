@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: f001734baf9aee59f0a61d21ca5a99af0c55b56f
-ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
-ms.translationtype: HT
+ms.openlocfilehash: 185fb9a33cb4cc655dfdf640b4c239d617426c64
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "7413606"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323905"
 ---
 # <a name="use-data-collection-data-sources-in-electronic-reporting-formats"></a>DATU APKOPOŠANAS datu avotu izmantošana Elektronisko pārskatu formātos
 
 [!include [banner](../includes/banner.md)]
 
-Varat izmantot [Elektroniskās ziņošanas (ER)](general-electronic-reporting.md) struktūras operāciju veidotāju, lai konfigurētu tādu ER risinājuma [formāta](general-electronic-reporting.md#FormatComponentOutbound) komponentu, kas tiek izmantots izejošo dokumentu ģenerēšanai dažādos formātos. Konfigurētā formāta komponenta hierarhisko struktūru veido dažādu tipu formātu elementi. Šos formāta elementus izmanto, lai izpildlaikā aizpildītu izveidotos dokumentus ar nepieciešamo informāciju. Pēc noklusējuma, palaižot ER formātu, formāta elementi tiek palaisti tādā pašā secībā, kādā tie atrodas formāta hierarhijā: pa vienam, no augšas uz leju.
+Elektronisko pārskatu ([ER)](general-electronic-reporting.md) struktūras operāciju veidotāju varat izmantot, lai konfigurētu ER risinājuma formāta komponentu, kas tiek izmantots izejošo dokumentu ģenerēšanai dažādos formātos. Konfigurētā formāta komponenta hierarhisko struktūru veido dažādu tipu formātu elementi. Šos formāta elementus izmanto, lai izpildlaikā aizpildītu izveidotos dokumentus ar nepieciešamo informāciju. Pēc noklusējuma, palaižot ER formātu, formāta elementi tiek palaisti tādā pašā secībā, kādā tie atrodas formāta hierarhijā: pa vienam, no augšas uz leju.
 
-Ja ER izpilda formāta elementu, kas ietver saistījumu, šī saistīšanas formula tiek izpildīta un formāta elements pievieno vērtību ģenerētam dokumentam. Piemēram, saistīšana var nodot [datu modeļa](general-electronic-reporting.md#data-model-and-model-mapping-components) lauka vērtību formāta elementam. DATU APKOPOŠANAS datu avotu var konfigurēt, lai apkopotu datu modeļa lauku vērtības izpildlaikā, veiktu vērtību summēšanu un aizpildītu ģenerēto dokumentu ar apkopotajām vērtībām. Lai izmantotu šo pieeju, mainiet sākotnējo saistīšanu tā, lai konfigurētais DATU APKOPOŠANAS datu avots tiek lietots, lai datu modeļa lauka vērtību nodotu formāta elementam. Nododot vērtības, izmantojot DATU APKOPOŠANAS datu avotu, varat apkopot nepieciešamo informāciju turpmākai lietošanai.
+Ja ER izpilda formāta elementu, kas ietver saistījumu, šī saistīšanas formula tiek izpildīta un formāta elements pievieno vērtību ģenerētam dokumentam. Piemēram, saistīšana var nodot datu modeļa lauka vērtību formāta elementam. DATU APKOPOŠANAS datu avotu var konfigurēt, lai apkopotu datu modeļa lauku vērtības izpildlaikā, veiktu vērtību summēšanu un aizpildītu ģenerēto dokumentu ar apkopotajām vērtībām. Lai izmantotu šo pieeju, mainiet sākotnējo saistīšanu tā, lai konfigurētais DATU APKOPOŠANAS datu avots tiek lietots, lai datu modeļa lauka vērtību nodotu formāta elementam. Nododot vērtības, izmantojot DATU APKOPOŠANAS datu avotu, varat apkopot nepieciešamo informāciju turpmākai lietošanai.
 
 Konfigurējot DATU APKOPOŠANAS datu avotu, norādiet vērtības veidu, kas tiks pārvaldīts datu avotā. Pašlaik vērtību apkopošanai tiek atbalstīti tālāk norādītie [datu veidi](er-formula-supported-data-types-primitive.md).
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: a709528b04e82c32f644073f79513b7ef11bb6bf
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 7e3a86e2aa0e7182f7f9e853b9e8667e677a8ad6
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920727"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102717"
 ---
 # <a name="firm-planned-orders"></a>Plānoto pasūtījumu apstiprināšana
 
@@ -35,17 +35,15 @@ Ir trīs plānoto pasūtījumu apstiprināšanas metodes:
 
 Visplānoto pasūtījumu līdzekļi ir pieejami visās standarta Microsoft Dynamics 365 Supply Chain Management instalācijās, kas izmanto plānošanas optimizāciju. Tomēr daži no šajā tēmā aprakstītajiem līdzekļiem pirms to izmantošanas ir jāieslēdz līdzekļu pārvaldībā.
 
-### <a name="enable-parallelized-firming-of-planned-orders"></a>Plānoto pasūtījumu paralēlas apstiprināšanas iespējošana
+### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>Ieslēgt vai izslēgt plānoto pasūtījumu paralēlo apstiprināšanas darbību
 
-Paralēla apstiprināšana palīdz paātrināt apstiprināšanas procesu, to paralējot starp vairākiem pavedieniem. Šī pieeja var būt noderīga, kad daudzi plānotie pasūtījumi ir apstiprināti.
-
-Lai padarītu šo funkcionalitāti pieejamu jūsu sistēmā, dodieties uz sadaļu [Līdzekļu pārvaldība](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) un ieslēdziet līdzekli *Paralēlā plānoto pasūtījumu apstiprināšana*. (No Piegādes ķēdes pārvaldības versijas 10.0.21, šī funkcija ir ieslēgta pēc noklusējuma.)
+Paralēla apstiprināšana palīdz paātrināt apstiprināšanas procesu, to paralējot starp vairākiem pavedieniem. Šī pieeja var būt noderīga, kad daudzi plānotie pasūtījumi ir apstiprināti. Lai lietotu šo funkcionalitāti, *sistēmai jābūt* ieslēgtai plānoto pasūtījumu paralēlai apstiprināšanas funkcijai. No Piegādes ķēdes pārvaldības versijas 10.0.21 šī funkcija ir ieslēgta pēc noklusējuma. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja lietojat versiju, kas vecāka par 10.0.25, šo funkcionalitāti var ieslēgt vai izslēgt, [...](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)*dodoties* uz funkciju pārvaldību un meklējot līdzekli Plānoto pasūtījumu paralēla apstiprināšana.
 
 ### <a name="enable-planned-order-firming-with-filtering"></a>Iespējot plānoto pasūtījumu apstiprināšanas ar filtrēšanu
 
 Plānotā pasūtījumu apstiprināšana ar filtrēšanu ļauj definēt loģiskos kritērijus, lai atlasītu, kurus plānotos pasūtījumus apstiprināt. Var arī priekšskatīt, kuri plānotie pasūtījumi tika atlasīti, palaist procesu fonā un/vai plānot kā pakešuzdevumu.
 
-Lai padarītu šo funkcionalitāti pieejamu jūsu sistēmā, dodieties uz sadaļu [Līdzekļu pārvaldība](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) un ieslēdziet līdzekli *Plānoto pasūtījumu apstiprināšana ar filtrešanu*.
+No Piegādes ķēdes pārvaldības versijas 10.0.25 šī funkcija ir ieslēgta pēc noklusējuma. Administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot Plānoto *pasūtījumu apstiprināšanas ar* filtrēšanas līdzekli līdzekļu pārvaldības [darbvietā](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="enable-auto-firming-for-planning-optimization"></a>Iespējot automātisko apstiprināšanu plānošanas optimizācijai
 

@@ -1,16 +1,13 @@
 ---
 title: Atpakaļceļa modulis
-description: Šajā tēmā tiek stāstīts par atpakaļceļa moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā aplūkoti Breadcrumb moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ec9f5c72b03d9fd76055369e24491db5c7633cdf
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
-ms.translationtype: HT
+ms.openlocfilehash: f387b6353e58ebb454b74568ddc17ae6d25d7e36
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517164"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109736"
 ---
 # <a name="breadcrumb-module"></a>Atpakaļceļa modulis
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā tiek stāstīts par atpakaļceļa moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
+Šajā tēmā aplūkoti Breadcrumb moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
 
 Atpakaļceļa moduļi tiek izmantoti, lai nodrošinātu sekundāro navigāciju vietas lapās. Parasti tie tiek parādīti lapas augšmalā zem virsraksta. Kaut arī atpakaļceļa moduļus var pievienot jebkurai lapai, tie visbiežāk tiek izmantoti produktu informācijas lapās (PDP), lai parādītu preču kategoriju hierarhiju un nodrošinātu ātru veidu, kā pārvietoties vietnē. Atpakaļceļa moduli var izmantot arī, lai parādītu saiti "Atgriezties pie rezultātiem", kad lietotāji atver PDP no meklēšanas vai saraksta lapas. Šādā veidā lietotāji var ātri atgriezties filtrētā saraksta lapā, lai turpinātu iepirkšanos.
 
@@ -42,7 +37,7 @@ Lapās, kurās ir preču kategorijas konteksts, piemēram, PDP un kategoriju lap
 
 Attēlā zemāk parādīts atpakaļceļa moduļa piemērs, kas parāda kategoriju hierarhiju PDP.
 
-![Atpakaļceļa moduļa piemērs](./media/ecommerce-breadcrumb.PNG)
+![Atpakaļceļa moduļa piemērs.](./media/ecommerce-breadcrumb.PNG)
 
 ## <a name="breadcrumb-module-settings"></a>Atpakaļceļa moduļa iestatījumi
 
@@ -86,7 +81,7 @@ Lai pievienotu atpakaļceļa moduli PDP un iestatītu nepieciešamos rekvizītus
 
 [Navigācijas izvēlnes modulis](nav-menu-module.md)
 
-[Vietņu atlasītāja modulis](site-selector.md)
+[Vietas izvēles modulis](site-selector.md)
 
 [Noklusējuma kategorijas ielādes lapas un meklēšanas rezultātu lapas apskats](category-search-page-overview.md)
 
@@ -95,3 +90,6 @@ Lai pievienotu atpakaļceļa moduli PDP un iestatītu nepieciešamos rekvizītus
 [Pirkšanas lodziņa modulis](add-buy-box.md)
 
 [SDK un moduļu bibliotēkas atjauninājumi](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

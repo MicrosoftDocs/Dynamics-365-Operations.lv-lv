@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0389db98c00f8ad98a9cf919a21110c31206949199f06328782d25e9c415b315
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 3d30dd5ba29ee34784921047627642644c0c4ab2
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762167"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182483"
 ---
 # <a name="generate-and-post-recurring-free-text-invoices"></a>Periodisku brīva teksta rēķinu ģenerēšana un grāmatošana
 
@@ -30,17 +30,17 @@ Periodiskie rēķini tiek izmantoti, lai klientiem regulāri izrakstītu rēķin
 ## <a name="generate-recurring-invoices"></a>Ģenerējiet periodiskos rēķinus
 
 ## <a name="post-recurring-invoices"></a>Grāmatojiet periodiskus rēķinus
-1. Pārejiet uz sadaļu Debitori > Rēķini > Periodiskie rēķini > Grāmatot periodiskos rēķinus.
+1. Pārejiet **uz debitoru > rēķinu > periodisko rēķinu > Grāmatojiet periodiskus rēķinus**.
     * Izmantojiet šo lapu, lai apskatītu un drukātu periodiskos rēķinus, kas jau ir ģenerēti.  
 2. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
     * Atlasiet periodisko rēķinu grupu.  
-3. Noklikšķiniet uz Kopsummas.
+3. Noklikšķiniet uz **Kopsummas**.
     * Pārbaudiet periodisko rēķinu grupas kopsummas.  
-4. Noklikšķiniet uz Aizvērt.
-    * Katra zemāk esošā rinda ir periodisks brīva teksta rēķins. Var atlasīt rindu un noklikšķināt uz pogas Informācija, lai apskatītu informāciju par brīvā teksta rēķinu.  
-5. Noklikšķiniet uz Pārbaudīt.
+4. Noklikšķiniet uz **Aizvērt**.
+    * Katra zemāk esošā rinda ir periodisks brīva teksta rēķins. Varat atlasīt rindu un noklikšķināt uz pogas Detalizēti **,** lai apskatītu detalizētu brīva teksta rēķina informāciju.  
+5. Noklikšķiniet uz **Validēt**.
     * Apstipriniet, ka atlasītajos rēķinos nav kļūdu, bet neiegrāmatojiet rēķinus.  
-6. Noklikšķiniet uz Grāmatot.
+6. Noklikšķiniet uz **Grāmatot**.
     * Iegrāmatojiet atlasītos rēķinus.  
 
 

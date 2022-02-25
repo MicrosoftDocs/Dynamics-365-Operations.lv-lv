@@ -2,7 +2,7 @@
 title: Ģenerēt finanšu pārskatus
 description: Šajā tēmā ir sniegta vispārīga informācija finanšu atskaites ģenerēšanu.
 author: jinniew
-ms.date: 03/08/2021
+ms.date: 02/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 101cf2b29bb6f91cec5a3dac0be30b53388905c96ecf481f5b7b3e90cda3f804
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 00a860089265800ca1a0058f222d5e85c360501c
+ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740267"
+ms.lasthandoff: 02/14/2022
+ms.locfileid: "8119531"
 ---
 # <a name="generate-financial-reports"></a>Ģenerēt finanšu pārskatus
 
@@ -28,14 +28,27 @@ ms.locfileid: "6740267"
 
 Šajā tēmā ir sniegta vispārīga informācija finanšu atskaites ģenerēšanu.
 
-Lai izveidotu pārskatu, atveriet pārskata definīciju un pēc tam rīkjoslā atlasiet pogu **Ģenerēt**. Tiks atvērta lapa **Pārskata rindas statuss**, kas norādīs jūsu pārskata atrašanās vietu rindā. Pēc noklusējuma ģenerētais pārskats tiks atvērts pakalpojumā Tīmekļa skatītājs.
+Lai ģenerētu pārskatu, atveriet pārskata definīciju un rīkjoslā atlasiet **Ģenerēt**. Tiek **atvērta lapa Pārskata** rindas statuss, kas norāda pārskata atrašanās vietu rindā.
 
-Pārskatu ģenerēšanai ir pieejamas tālāk norādītās opcijas.
+Pārskata ģenerēšanas gaitā šie pārskata rindas statusa rādītāji var būt redzami pārskata rindas **statusa** lapā.
+
+| Statuss          | Novads | Apraksts|
+|-----------------|--------|--------------------|
+| Rindas        | Pagaidu |Pārskata definīcija tiek pārbaudīta, pirms pārskats tiek ievietots ģenerēšanas rindā.                    |
+| Ievietots rindā          | Pagaidu | Pārskats ievada pārskata ģenerēšanas rindu un gaida apstrādi.                      |
+| Apstrāde      | Pagaidu | Šis statuss parasti seko rindā ievietotajam **statusam**, un parasti pāriet uz beigu **statusu**, kad apstrāde ir pabeigta.       |
+| Notiek pēcapstrāde | Pagaidu | Šis statuss seko statusam **Apstrāde** un norāda, ka tiek apkopoti visi pārskata dati, bet tiek veiktas arī citas darbības, piemēram, aprēķināšana un apkopojums.            |
+| Atcelšana      | Pagaidu | Pārskats tiek atcelts pēc lietotāja pieprasījuma. Šis stāvoklis rodas no lietotāja pieprasītās atcelšanas pārskatam rindā **ievietotajā vai** **apstrādes** stāvoklī. Sistēma mēģina ievietot pārskatu stāvoklī **Atcelts**, ja vien sistēma nav pārāk tālu un tai jā finalizēt citā stāvoklī. |
+| Atcelts        | Gala | Pārskata apstrāde ir pabeigta, bet netika pabeigta lietotāja pieprasītās apturēšanas dēļ.            |
+| Pabeigts       | Gala | Pārskats ir gatavs lietošanai.                      |
+| Neizdevās          | Gala | Pārskata apstrāde pabeigta, bet neizdevās, un to nevarēja izmantot. |
+
+Pēc noklusējuma ģenerētais pārskats tiks atvērts pakalpojumā Tīmekļa skatītājs. Pārskatu ģenerēšanai ir pieejamas tālāk norādītās opcijas.
 
 - Iestatiet grafiku, lai automātiski izveidotu pārskatu vai pārskatu grupu
 - Pārbaudīt trūkstošus kontus vai datus pārskatā, un apstipriniet pārskata precizitāti
 
-Kad veidojat atskaiti, tiek izmantotas opcijas, kuras jūs norādījāt cilnēs Atskaites definīcija .
+Ģenerējot pārskatu, tiek izmantotas opcijas, ko esat norādījuši pārskata definīciju cilnēs.
 
 ## <a name="generate-a-financial-report"></a>Ģenerēt finanšu pārskatu
 
@@ -61,9 +74,9 @@ Pārskatu grupas ir efektīvs veids, kā vienlaicīgi ģenerēt vairākus pārsk
 4. Saglabājiet pārskatu grupu.
 
 ## <a name="schedule-report-generation"></a>Pārskatu ģenerēšanas ieplānošana
-Daudziem uzņēmumiem ir izveidota pamata pārskatu kopa, kas tiek palaisti ieplānotajos intervālos atbilstošo uzņēmuma darbības procesiem. Jūs var ieplānot regulāru pārskatu izveidi, piemēram, katru dienu, katru nedēļu, katru mēnesi vai reizi gadā. Tādā veidā var palaist vienu pārskatu vai vairāku pārskatu grupu, tostarp, ietverot vairākus uzņēmumus. Savi akreditācijas dati ir jāievada visiem norādītajiem uzņēmumiem, piemēram, pārskatu koka definīcijā norādītajiem uzņēmumiem. Ja akreditācijas dati nav derīgi, pārskats parādīs tikai informāciju, kurai jums ir piekļuves tiesības, piemēram, uzņēmums, ko esat reģistrējuši. Vispirms izlasiet izvades informāciju no pārskata grupas, un pēc tam no atsevišķiem pārskatiem.
+Daudziem uzņēmumiem ir izveidota pamata pārskatu kopa, kas tiek palaisti ieplānotajos intervālos atbilstošo uzņēmuma darbības procesiem. Jūs var ieplānot regulāru pārskatu izveidi, piemēram, katru dienu, katru nedēļu, katru mēnesi vai reizi gadā. Tādā veidā var palaist vienu pārskatu vai vairāku pārskatu grupu, tostarp, ietverot vairākus uzņēmumus. Savi akreditācijas dati ir jāievada visiem norādītajiem uzņēmumiem, piemēram, pārskatu koka definīcijā norādītajiem uzņēmumiem. Ja akreditācijas dati nav derīgi, pārskats parādīs tikai to informāciju, kura jums ir atļauja piekļūt, piemēram, datu failu, kurā to laiku esat reģistrējies. Vispirms izlasiet izvades informāciju no pārskata grupas, un pēc tam no atsevišķiem pārskatiem.
 
-Kad pārskata grafiki tiek izveidoti un saglabāti, tie tiek parādīti navigācijas rūtī sadaļā Pārskatu grafiki. Lai kārtotu pārskatus, varat izveidot mapes. Ja viens grafikā ietvertais pārskats netiek palaists, visi citi šajā grafikā ietvertie pārskati tiks palaisti.
+Kad pārskatu grafiki ir izveidoti un saglabāti, tie tiek parādīti navigācijas rūtī zem Pārskata grafikiem. Lai kārtotu pārskatus, varat izveidot mapes. Ja viens grafikā ietvertais pārskats netiek palaists, visi citi šajā grafikā ietvertie pārskati tiks palaisti.
 
 > [!IMPORTANT]
 > Lai izveidotu, modificētu un dzēstu pārskatu grafikus, lietotājam jābūt izstrādātāja vai administratora lomai. Izpildot pārskatu, kura akreditācijas dati tika izmantoti, lai izveidotu grafiku, tiek izmantoti arī lai izveidotu pārskatu.
@@ -99,13 +112,13 @@ Lai dzēstu pārskata grafiku, jums ir jābūt atskaišu grafika īpašniekam, v
 
 1. Pārskata veidotāja navigācijas rūtī atlasiet **Pārskatu grafiki**.
 2. Atlasiet pārskata grafiku, kuru nepieciešams izdzēst, un pēc tam atlasiet **Dzēst** vai nospiediet pogu **Dzēst**.
-3. Dzēšanas apstiprināšanas dialoglodziņā atlasiet **Jā**, lai neatgriezeniski dzēstu pārskata grafiku. Ja jums nav atļaujas dzēst šo grafiku, tiks parādīts ziņojums un pārskats netiks dzēsts.
+3. Dzēšanas apstiprināšanas dialoglodziņā atlasiet **Jā**, lai neatgriezeniski dzēstu pārskata grafiku. Ja jums nav atļaujas dzēst grafiku, tiek parādīts ziņojums un pārskats netiek dzēsts.
 
 ### <a name="credentials-and-report-schedules"></a>Akreditācijas dati un pārskatu grafiki
 
 Neievadot akreditācijas datus, kas ir nepieciešami visiem uzņēmumiem, kas ir iekļauti pārskatos, saglabājot pārskata grafiku, tiek parādīts šāds ziņojums: "Ievadiet akreditācijas datus uzņēmumiem, kuri ir iekļauti šajā pārskata grafikā. Lai ievadītu savus akreditācijas datus, atlasiet pogu Atļaujas.”
 
-Piemēram, lietotājs pieteicās uzņēmumā A, izmantojot savu lietotājvārdu un paroli. Lietotājs izveido grafiku pārskatam, kas izmanto pārskata koka definīciju, lai apkopotu datus no vairākiem uzņēmumiem. Saglabājot pārskatu grafiku, lietotājam tiek parādīta uzvedne, kurā jāievada citu pārskatu koka definīcijā norādīto uzņēmumu akreditācijas dati. Kad jūsu akreditācijas datu derīguma termiņš beidzas, ietekmētie pārskati atskaišu grafikā netiek izveidoti līdz akreditācijas dati netiek atjaunināti. Pārskata rindā tiek parādīts ziņojums, lai norādītu, ka nepieciešams atjaunināt atļaujas. Pārskata grafiks neizdodas, ja notiek jebkurš no šiem scenārijiem (jo tiem ir nepieciešami akreditācijas dati):
+Piemēram, lietotājs pieteicās uzņēmumā A, izmantojot savu lietotājvārdu un paroli. Lietotājs izveido grafiku pārskatam, kas izmanto pārskata koka definīciju, lai apkopotu datus no vairākiem uzņēmumiem. Saglabājot pārskatu grafiku, lietotājam tiek parādīta uzvedne, kurā jāievada citu pārskatu koka definīcijā norādīto uzņēmumu akreditācijas dati. Kad akreditācijas dati beidzas, ietekmētie pārskati pārskata grafikā netiek ģenerēti līdz akreditācijas datu atjaunināšanai. Pārskata rindā tiek parādīts ziņojums, lai norādītu, ka nepieciešams atjaunināt atļaujas. Pārskata grafiks neizdodas, ja notiek jebkurš no šiem scenārijiem (jo tiem ir nepieciešami akreditācijas dati):
 
 - Pārskatu kokam tika pievienots jauns uzņēmums atsevišķam pārskatam.
 - Pārskatu grupā ietvertais pārskats tika modificēts.
@@ -116,12 +129,12 @@ Lai turpinātu, atlasiet pogu **Atļaujas** dialoglodziņā **Pārskatu plānoš
 ## <a name="missing-account-analysis-feature"></a>Trūkstošo kontu analīzes līdzeklis
 Jūs varat meklēt finanšu kontus un dimensijas, kas, iespējams, nav norādītas visās rindu definīcijās, pārskata koka definīcijās un pārskatu definīcijas veidošanas bloka grupā. Tas ir noderīgi, ja izveidojat vai atjaunināt vairākus kontus vai veidošanas blokus īsā laika periodā, un vēlaties pārbaudīt, vai visa jaunā informācija tiek iekļauta jūsu pārskatos.
 
-Trūkstošie konti tiek noteikti, izmantojot mazāko un lielāko vērtību no rindas definīcijas vai atskaites koka definīcijas, un pēc tam parāda sarakstu ar kontiem, kas nav rindas definīcijas vai atskaites koka definīcijā, bet kas atrodas finanšu datos. Ja trūkstošā konta vērtība ir lielāka vai mazāka par rindas definīcijā norādītajām vērtībām, šis konts netiek rādīts trūkstošo kontu sarakstā.
+Trūkstošos kontus nosaka, izmantojot zemākās un augstākās vērtības no rindas definīcijas vai pārskata koka definīcijas, un pēc tam parāda sarakstu ar kontiem, kas nav rindas definīcijā vai pārskata koka definīcijā, bet atrodas finanšu datos. Ja trūkstošais konts ir lielāks vai mazāks par rindas definīcijas vērtībām, šis konts nav iekļauts trūkstošo kontu sarakstā.
 
 > [!TIP]
 > Lai pārbaudītu datu pareizību, šo procesu ir ieteicams veikt ikreiz pirms mēneša pārskatu izveides, kā arī jaunu veidošanas bloku izveides laikā.
 
-Pārskatos, kuros ir vērtību diapazoni, ir mazāka trūkstošu kontu varbūtība. Kad iespējams, veidošanas blokos izmantojiet diapazonus, lai ietvertu jaunus kontus pēc to izveides. Ja pārskata definīcijā uzņēmuma iestatījums ir @ANY, varat pieteikties konkrēta uzņēmuma profilā un izpildīt trūkstošo kontu analīzi šajā uzņēmumā.
+Pārskatos, kuros ir vērtību diapazoni, ir mazāka trūkstošu kontu varbūtība. Ja iespējams, veidošanas blokā izmantojiet diapazonus, lai, veidojot jaunus kontus, iekļautu jaunus kontus. Ja pārskata definīcijā uzņēmuma iestatījums ir @ANY, varat pieteikties konkrēta uzņēmuma profilā un izpildīt trūkstošo kontu analīzi šajā uzņēmumā.
 
 > [!NOTE]
 > Ja tika pievienots jauns uzņēmums, jums šis jaunais uzņēmums ir jāpievieno atskaišu kokiem jebkurā esošā atskaitē, citādi šis uzņēmums netiks iekļauts trūkstošo kontu analīzē.
@@ -134,8 +147,8 @@ Pārskatos, kuros ir vērtību diapazoni, ir mazāka trūkstošu kontu varbūtī
 4. Laukā **Grupēt pēc** atlasiet opciju rezultātu kārtošanai. Rezultātus var kārtot pēc izmantotā veidošanas bloka, kā arī pēc dimensijas un vērtību kopas.
 5. Pārskatiet parādāmos rezultātus. Atlasot vienumu augšējā rūtī, apakšējā rūtī tiek rādīta papildu informācija par izņēmumu. Šajā informācijā ir ietverti dati par saistītajām dimensijām, vērtībām un pārskatiem.
 6. Lai atvērtu iesaistīto vienumu atlasiet saistīto ikonu, kas tiek parādīts saraksta rūtī vai ar peles labo pogu noklikšķiniet uz vienuma, un atlasiet **Atvērt**. Lai atlasītu vairākus vienumus, turiet nospiestu taustiņu **Ctrl**, atlasot vienumus apakšējā rūtī.
-7. Ja jebkuri vienumi, veidošanas bloki vai pārskati tiek atgriezti, jo tie nav jāiekļauj analīzē, noklikšķiniet ar peles labo pogu uz vienuma un atlasiet **Izslēgt**, vai atlasiet izvēles rūtiņu **Izslēgt** blakus vienumam, lai noņemtu to no saraksta. Neiekļautie vienumu netiek iekļauti sarakstā, kad tas tiek atsvaidzināts. Lai atlasītu vairākus vienumus, turiet nospiestu taustiņu **Ctrl**, atlasot vienumus apakšējā rūtī. Lai skatītu visus vienumus, tostarp rezultātus, ko iepriekš neiekļāvāt analīzē, atzīmējiet izvēles rūtiņu **Rādīt neiekļautos veidošanas blokus un vērtības** un vērtības un pēc tam atlasiet **Atsvaidzināt**.
-8. Atlasiet **Atsvaidzināt**, lai atsvaidzinātu izņēmumus, kas ir jārisina. Atlasiet **Jā**, lai pilnībā atsvaidzinātu visus rezultātus vai atlasiet **Nē**, lai veiktu risināmo vienumu daļēju atsvaidzināšanu.
+7. Ja tiek atgrieztas vērtības, veidošanas bloki vai pārskati, kas nav jāiekļauj analīzē, **ar** peles labo pogu noklikšķiniet uz krājuma un atlasiet Izslēgt vai atlasiet izvēles rūtiņu Izslēgt līdzās krājumam, **lai** noņemtu krājumu no saraksta. Neiekļautie krājumi nav iekļauti, kad saraksts tiek atjaunināts. Lai atlasītu vairākus vienumus, turiet nospiestu taustiņu **Ctrl**, atlasot vienumus apakšējā rūtī. Lai skatītu visus vienumus, tostarp rezultātus, ko iepriekš neiekļāvāt analīzē, atzīmējiet izvēles rūtiņu **Rādīt neiekļautos veidošanas blokus un vērtības** un vērtības un pēc tam atlasiet **Atsvaidzināt**.
+8. Atlasiet **Atsvaidzināt**, lai atsvaidzinātu izņēmumus, uz kuriem esat adresējis. Atlasiet **Jā**, lai pilnībā atsvaidzinātu visus rezultātus vai atlasiet **Nē**, lai veiktu risināmo vienumu daļēju atsvaidzināšanu.
 
     > [!NOTE]
     > Forma tiek automātiski atsvaidzināta atvēršanas brīdī, ja vien tā netika atvērta pēdējo 15 minūšu laika.

@@ -2,7 +2,7 @@
 title: Data mart atiestatīšanas BUJ
 description: Šī tēma sniedz atbildes uz dažiem bieži uzdotiem jautājumiem par data mart atiestatīšanu.
 author: jinniew
-ms.date: 07/16/2021
+ms.date: 02/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e5a40342306eb9888b456a865ab2220dccfe65f8ccecc67bf8fc16f907e06977
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 53f45f469c39f9e389763aa0daed658e5a62d377
+ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767759"
+ms.lasthandoff: 02/14/2022
+ms.locfileid: "8119516"
 ---
 # <a name="data-mart-resets-faq"></a>Data mart atiestatīšanas BUJ
 
@@ -35,8 +35,9 @@ Lai nodrošinātu, ka vecie dati netiek ievietoti, data mart atiestatīšanu var
 
 Ja uz jūsu situāciju attiecas viens vai vairāki no šiem priekšrakstiem, jūsu organizācija var gūt labumu no data mart atiestatīšanas:
 
-- Programmu datu bāze ir atjaunota.
-- Jūs esat atvēris atbalsta biļeti, un atbalsta inženieris ir norādījis, ka jūs atiestatīt data mart kā daļu no problēmu novēršanas soļa.
+- **Programmas datu bāze ir atjaunota**
+- **Jūs atvērāt atbalsta biļeti** - atbalsta inženieris instruēja jums atiestatīt datu martu kā daļu no problēmu novēršanas soļa.
+- **Liels novecojušu ierakstu procentuālais** daudzums — novecojuši ieraksti paši par sevi ne vienmēr var attaisnot datu martu atiestatīšanu. Novecojušu datu augstā procentuālā vērtība var mazināt vispārējā pārskata izveides un integrācijas veiktspēju un izraisīt papildu datu bāzes vietas izmantošanu. Ieteicams pabeigt datamart atiestatīšanu, lai noņemtu novecojušus datus, ja datu martā ir vairāk par 80% novecojuši dati.
  
 > [!NOTE]
 > Datu apstrādes atiestatīšanas procesu ietekmē virsgrāmatas un budžeta darbību skaits jūsu datu bāzē. Atkarībā no jūsu sistēmā veikto darbību skaita datu apstrādes atiestatīšanu var veikt ilgt no 15 minūtēm līdz pat četrām stundām. Tomēr, ja atiestatīšanas process ilgst vairāk nekā četras stundas, ieteicams sazināties ar atbalsta dienestu.
@@ -45,13 +46,12 @@ Ja uz jūsu situāciju attiecas viens vai vairāki no šiem priekšrakstiem, jū
 
 Tālāk ir norādīti daži apstākļi, kad nav ieteicams atiestatīt data mart:
 
-- Jūs saskaraties ar datu sinhronizāciju saistītās veiktspējas problēmām.
+- Jūs pašlaik saskaraties ar datu integrācijas veiktspējas jautājumiem.
 - Jums ir periodiska atiestatīšanas shēma šādu iemeslu dēļ:
 
-    - **Trūkst datu** – ja ievērojat, ka trūkst datu, atveriet atbalsta biļeti ar Microsoft, lai pārskatītu savu pārskata formātu un iespējamās datu sinhronizācijas problēmas.
+    - **Pārskatā trūkst datu vai tas ir** negaidīts – ja ievērojat, ka trūkst datu, atveriet atbalsta biļeti ar Microsoft, lai pārskatītu jūsu pārskata formātu un iespējamās datu sinhronizācijas problēmas.
     - **Iesprūdis integrācijas stāvoklis**
-    - **Novecojuši ieraksti** – novecojuši ieraksti paši par sevi neattaisno data mart atiestatīšanu. Ja ir iestatīta liela datu kopa, atiestatīšanas process var ilgt kādu laiku, bet maz ticams, ka tas novedīs pie kaut kādiem uzlabojumiem.
-
+   
 ## <a name="if-i-reset-the-data-mart-will-i-lose-reports-that-ive-already-designed"></a>Ja atiestatīšu datu mart, vai zaudēšu pārskatus, ko es jau esmu izveidojis?
 
 Nē. Jūsu pārskati tiek glabāti SQL tabulās, kuras neietekmē data mart atiestatīšana. Ja jums ir bažas par savu izstrādāto ziņojumu zaudēšanu, varat dublēt noformējumus, kurus nevēlaties zaudēt. Lai tos dublētu veidotājus, atveriet Pārskatu veidotāju un dodieties uz **Uzņēmums \> Uzņēmumi \> Veidošanas bloki \> Eksports**.

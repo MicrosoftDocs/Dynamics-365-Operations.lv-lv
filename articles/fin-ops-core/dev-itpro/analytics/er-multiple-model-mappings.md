@@ -2,11 +2,9 @@
 title: Pārvaldīt vairākus atvasinātos kartējumus viena modeļa saknei
 description: Šajā tēmā skaidrots, kā pārvaldīt vairākus atvasinātus kartējumus, kas tika konfigurēti atsevišķam modeļa saknei.
 author: NickSelin
-manager: AnnBe
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERModelMappingTable
 audience: Application User
@@ -15,20 +13,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3116fe98f499637b3bc7f243ed1b5094853caa7e
-ms.sourcegitcommit: 7cfe8931dd454e811a691f5118a4ecae7ba4b478
-ms.translationtype: HT
+ms.openlocfilehash: d71b05b3f2eda93a93f728926e675c040371781e
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "4826113"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8324116"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>Pārvaldīt vairākus atvasinātos kartējumus viena modeļa saknei
 
 [!include [banner](../includes/banner.md)]
 
-[Elektronisko pārskatu (ER)](general-electronic-reporting.md) datu [modeļa](general-electronic-reporting.md#data-model-and-model-mapping-components) komponents tiek izmantots katrā konfigurētajā ER [formāta](general-electronic-reporting.md#FormatComponentOutbound) komponentā kā datu avots izejošo dokumentu ģenerēšanai. Lai aprakstītu vienu biznesa domēnu, konfigurējiet datu modeļa komponentu, kam ir daudz saknes definīciju. 
+Elektronisko [pārskatu (ER) datu](general-electronic-reporting.md) modeļu komponents tiek izmantots katrā konfigurētajā ER formāta komponentā, kā datu avots izejošo dokumentu ģenerēšanai. Lai aprakstītu vienu biznesa domēnu, konfigurējiet datu modeļa komponentu, kam ir daudz saknes definīciju. 
 
-Katra saknes definīcija ļauj jums attēlot šī domēna datus tādā veidā, kas ir piemērots īpašiem pārskatu nolūkiem. Katrai saknes definīcijai jūs varat konfigurēt ER [modeļa kartēšanas](general-electronic-reporting.md#data-model-and-model-mapping-components) komponentu kā Microsoft Dynamics 365 Finance specifisku datu modeļa implementēšanu. Šādā veidā aprakstiet, kā izpildlaikā tiks aizpildīts datu modelis.
+Katra saknes definīcija ļauj jums attēlot šī domēna datus tādā veidā, kas ir piemērots īpašiem pārskatu nolūkiem. Katrai saknes definīcijai jūs varat konfigurēt ER modeļa kartēšanas komponentu kā Microsoft Dynamics 365 Finance raksturīgu datu modeļa implementēšanu. Šādā veidā aprakstiet, kā izpildlaikā tiks aizpildīts datu modelis.
 
 ER modeļa kartēšanas komponenti var atrasties ER datu modeļa [konfigurācijās](general-electronic-reporting.md#Configuration) un ER modeļa kartēšanas konfigurācijās. Viena ER konfigurācija var ietvert daudzus kartēšanas komponentus, katrs no tiem ir konfigurēts vienai saknes definīcijai. Viena ER konfigurācija var ietvert daudzus kartēšanas komponentus, katrs no tiem ir konfigurēts vienai saknes definīcijai.
 
@@ -57,7 +55,7 @@ Lai pievienotu standarta ER konfigurācijas savai pašreizējai Finance instance
 2. Lapas **Lokalizācijas konfigurācijas** sadaļā **Konfigurācijas** atlasiet elementu **Pārskatu veidošanas konfigurācijas**.
 3. Lapā **Konfigurācijas**, konfigurācijas koka skata kreisajā rūtī izvērsiet **Maksājuma modelis**.
 
-    ![Importētās konfigurācijas pārskatīšana Konfigurāciju lapā](./media/er-multiple-model-mappings-image1.png)
+    ![Importētās konfigurācijas pārskatīšana Konfigurāciju lapā.](./media/er-multiple-model-mappings-image1.png)
 
 4. Pārskatiet **Brīvā teksta rēķina (Excel)** formātu:
 
@@ -68,7 +66,7 @@ Lai pievienotu standarta ER konfigurācijas savai pašreizējai Finance instance
     
        Thecurrent ER formāts ir konfigurēts **Rēķina modeļa** saknes definīcijas **InvoiceCustomer** izmantošanai. Kad šis formāts tiek palaists un tiek izsaukts **Modeļa** datu avots, modeļa kartēšana, kas ir konfigurēta **InvoiceCustomer** saknes definīcijai, tiek izmantota, lai piekļūtu programmas datiem un aizpildītu datu modeli.
 
-        ![Datu avota pārskatīšana lapā Formāta noformētājs](./media/er-multiple-model-mappings-image2.png)
+        ![Datu avota pārskatīšana lapā Formāta noformētājs.](./media/er-multiple-model-mappings-image2.png)
 
     6. Aizveriet lapu **Formāta veidotājs**.
 
@@ -81,7 +79,7 @@ Lai pievienotu standarta ER konfigurācijas savai pašreizējai Finance instance
         + **Debitora rēķina** modeļa kartēšana ir konfigurēta **InvoiceCustomer** saknes **Rēķina modeļa** definīcijai. Tāpēc, kad darbojas **Brīvā teksta rēķina (Excel)** ER formāts, šīs ER konfigurācijas **Debitora rēķina** modeļa kartēšanu var izvēlēties, lai piekļūtu programmas datiem un aizpildītu datu modeli.
         + **Debitora rēķina** modeļa kartēšana ir konfigurēta **InvoiceCustomer** saknes **Rēķina modeļa** definīcijai. Tāpēc, kad darbojas **Brīvā teksta rēķina (Excel)** ER formāts, šīs ER konfigurācijas **Debitora rēķina** modeļa kartēšanu var izvēlēties, lai piekļūtu programmas datiem un aizpildītu datu modeli.
 
-        ![Rēkinu modeļa kartēšana Modeļa datu avotu kartēšanas lapā](./media/er-multiple-model-mappings-image3.png)
+        ![Rēkinu modeļa kartēšana Modeļa datu avotu kartēšanas lapā.](./media/er-multiple-model-mappings-image3.png)
 
     4. Aizveriet lapu **Datu avota kartējuma modelis**.
     5. Kopsavilkuma cilnē **Versijas** atlasiet **Dzēst**, lai dzēstu visas tās ER konfigurācijas versijas, kas ir jaunākas par versiju 240.175.
@@ -92,14 +90,14 @@ Lai pievienotu standarta ER konfigurācijas savai pašreizējai Finance instance
     2. Darbību rūtī atlasiet **Noformētājs**.
     3. Lapā **Modelis uz datu avotu kartēšanu** ievērojiet, ka pašreizējā ER modeļa kartēšanas konfigurācija ietver **InvoiceProject** modeļa kartējumu un ka šī modeļa kartēšana ir konfigurēta rēķina modeļa **InvoiceProject** saknes **InvoiceProject** definīcijai. Tāpēc, kad darbojas **Brīvā teksta rēķina (Excel)** ER formāts, atlasiet ER konfigurācijas **InvoiceProject** modeļa kartēšanu, lai piekļūtu programmas datiem un aizpildītu datu modeli.
 
-        ![Projektu rēķinu modeļa kartēšana Modeļa datu avotu kartēšanas lapā](./media/er-multiple-model-mappings-image4.png)
+        ![Projektu rēķinu modeļa kartēšana Modeļa datu avotu kartēšanas lapā.](./media/er-multiple-model-mappings-image4.png)
 
     4. Aizveriet lapu **Datu avota kartējuma modelis**.
     5. Kopsavilkuma cilnē **Versijas** atlasiet **Dzēst**, lai dzēstu visas tās ER konfigurācijas versijas, kas ir vēlākas par versiju 226.35.
 
 ## <a name="customize-the-imported-er-configurations"></a>Importēto ER konfigurāciju pielāgošana
 
-Šajā sadaļā skaidrots, kā [pielāgot](er-quick-start3-customize-report.md#customize-the-model-mapping-configuration)Microsoft nodrošinātos modeļu kartējumus. Piemēram, pielāgošanai var būt nepieciešams ieviest pielāgoto loģiku vai pievienot trūkstošos saistījumus.
+Šajā sadaļā skaidrots, kā [pielāgot](er-quick-start3-customize-report.md#customize-the-model-mapping-configuration) Microsoft nodrošinātos modeļu kartējumus. Piemēram, pielāgošanai var būt nepieciešams ieviest pielāgoto loģiku vai pievienot trūkstošos saistījumus.
 
 ### <a name="customize-the-invoice-model-mapping-configuration"></a>Rēķinu modeļa kartēšanas konfigurācijas pielāgošana
 
@@ -117,7 +115,7 @@ Lai pievienotu standarta ER konfigurācijas savai pašreizējai Finance instance
 
 7. Darbību rūtī atlasiet **Veidotājs**, lai pārskatītu šīs konfigurācijas modeļa kartējumus.
 
-    ![Projektu rēķinu modeļa kartēšanas pārskatīšana Modeļa datu avotu kartēšanas lapā](./media/er-multiple-model-mappings-image5.png)
+    ![Projektu rēķinu modeļa kartēšanas pārskatīšana Modeļa datu avotu kartēšanas lapā.](./media/er-multiple-model-mappings-image5.png)
 
     > [!TIP]
     > Tagad varat atvērt jebkuru no šī ER konfigurācijas ER modeļa kartēšanas komponentiem veidotājā, lai konfigurētu savu pielāgoto loģiku. Papildinformāciju skatiet modeļa [Kartēšanas konfigurācijas pielāgošana](er-quick-start3-customize-report.md#customize-the-model-mapping-configuration).
@@ -126,9 +124,9 @@ Lai pievienotu standarta ER konfigurācijas savai pašreizējai Finance instance
 
 Tagad ir **Rēķinu modeļu kartēšana** un **Rēķina modeļa kartēšanas Litware** konfigurācijas, kur katrai no tām ir modeļa kartēšana, kas ir konfigurēta **InvoiceCustomer** saknes definīcijai. Skaidri piešķiriet vienu no modeļa kartējumiem kā noklusējuma modeļa kartēšanu, ko izmanto kāds no ER formātiem, piemēram, **Brīva teksta rēķina (Excel)** formāts, kas ietver modeļa datu avotu, kam ir **InvoiceCustomer** saknes definīcija. Pretējā gadījumā, palaižot, rediģējot vai validējot kādu no ER formātiem, tiek parādīts šāds izņēmums, lai jūs paziņotu, ka neviens noklusējuma modeļa kartējums nav skaidri piešķirts:
  
-> Konfigurācijās datu modelim pastāv vairāk \<model name\>\<root descriptor\>nekā viens modeļa \<configuration names separated by commas\>kartējums. Iestatiet vienu no konfigurācijām kā noklusējumu.
+> Konfigurācijās datu modelim pastāv vairāk '\<model name\> (\<root descriptor\>)' nekā viens modeļa \<configuration names separated by commas\>kartējums. Iestatiet vienu no konfigurācijām kā noklusējumu.
 
-![Atver formātu rediģēšanai konfigurāciju lapā](./media/er-multiple-model-mappings-image6.gif)
+![Atver formātu rediģēšanai konfigurāciju lapā.](./media/er-multiple-model-mappings-image6.gif)
 
 ### <a name="customize-the-project-invoice-model-mapping-rdp-configuration"></a>Projekta rēķinu modeļa kartēšanas (RDP) konfigurācijas pielāgošana
 
@@ -140,7 +138,7 @@ Tagad ir **Rēķinu modeļu kartēšana** un **Rēķina modeļa kartēšanas Lit
 6. **Rēķina modeļa kartēšanas Litware** konfigurācijai, kas pašlaik ir atlasīta konfigurācijas kokā, iestatiet opciju **Palaist melnrakstu** uz **Jā**.
 7. Darbību rūtī atlasiet **Veidotājs**, lai pārskatītu šīs konfigurācijas modeļa kartējumus.
 
-    ![Projektu rēķinu modeļa kartēšanas pārskatīšana Modeļa datu avotu kartēšanas lapā](./media/er-multiple-model-mappings-image7.png)
+    ![Projektu rēķinu modeļa kartēšanas pārskatīšana Modeļa datu avotu kartēšanas lapā.](./media/er-multiple-model-mappings-image7.png)
 
 8. Aizveriet lapu **Datu avota kartējuma modelis**.
 
@@ -151,7 +149,7 @@ Tagad ir **Rēķina modeļa kartēšana**, **Projekta rēķina modeļa kartēša
 1. Lapā **Konfigurācijas** konfigurācijas koka skata kreisajā rūtī atlasiet **Rēķina modeļa kartēšana Litware**.
 2. Iestatiet opciju **Noklusējums modeļu kartēšanai** kā **Jā**.
 
-    ![Modeļa kartēšanas iestatīšana kā noklusējuma modeļa kartēšana lapā Konfigurācijas](./media/er-multiple-model-mappings-image8.png)
+    ![Modeļa kartēšanas iestatīšana kā noklusējuma modeļa kartēšana lapā Konfigurācijas.](./media/er-multiple-model-mappings-image8.png)
 
     Šī iestatījuma dēļ **Debitora rēķina kopijas** modeļa kartēšana tiek izmantota, palaižot **Brīvā teksta rēķinu (Excel)** vai labojot, vai validējot to. **Debitoru rēķina** modeļa kartēšana no **Debitora rēķina modeļa kartēšanas** tiek ignorēta.
 
@@ -169,7 +167,7 @@ Tagad ir **Rēķina modeļa kartēšana**, **Projekta rēķina modeļa kartēša
 5. Lapā **Modelis datu avota kartēšanai** atlasiet **Rediģēt**, lai padarītu lapu rediģējamu pēc nepieciešamības.
 6. Atlasiet **Projekta rēķina kopēšanas** modeļa kartējumu un pēc tam atzīmējiet izvēles rūtiņu **Dzēsts**.
 
-    ![Modeļa kartēšanas iestatīšana kā faktiski dzēsta Modeļa datu avota kartēšanas lapā](./media/er-multiple-model-mappings-image9.png)
+    ![Modeļa kartēšanas iestatīšana kā faktiski dzēsta Modeļa datu avota kartēšanas lapā.](./media/er-multiple-model-mappings-image9.png)
 
     Šī iestatījuma dēļ **Rēķina modeļa kartēšanas Litware** konfigurācija tiek apstrādāta, it kā tai nav modeļa kartēšanas **InvoiceProject** saknes definīcijai. **InvoiceProject kopijas** modeļa kartējums, kas izdots pēc noklusējuma. Konfigurācija **Rēķina modeļa kartēšanas Litware**, kas ietver noklusējuma modeļa kartējumus, ir atzīmēta kā noklusējuma konfigurācija. Tā kā šī vērtība ir atzīmēta kā noklusētā, tai ir augstāka prioritāte nekā **InvoiceProject** modeļa kartēšanai no **Projekta rēķina modeļa kartēšanas (RDP)** konfigurācijas.
 
@@ -182,3 +180,6 @@ Tagad ir **Rēķina modeļa kartēšana**, **Projekta rēķina modeļa kartēša
 - [Elektronisko pārskatu modeļa kartēšanas pārvaldība atsevišķās elektronisko pārskatu konfigurācijās](./tasks/er-manage-model-mapping-configurations-july-2017.md)
 - [No valsts konteksta atkarīgu elektronisko pārskatu modeļu kartējumu konfigurēšana](er-country-dependent-model-mapping.md)
 - [Elektronisko pārskatu veidošanas (ER) API izmaiņas](er-apis-app10-0-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b6169362c9e8cb3a9ace2f300dd9d80aa9cd085
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 606bc23f552b57d0f4e3fdad28d1144cdf43e5d5
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568883"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103542"
 ---
 # <a name="inventory-blocking"></a>Krājumu bloķēšana
 
@@ -96,13 +96,11 @@ Ja ir deaktivizēta funkcija **Rezervēt pasūtītos krājumus**, paredzamos ie�
 
 Šajos divos gadījumos ievērojiet darbības statusa un dimensiju starpību. Tāpēc ieteicams iespējot opciju **Rezervēt pasūtītos krājumus**.
 
-<!-- KFM: (Enable this section when the feature leaves private preview)
+### <a name="disable-expected-receipts-from-quality-orders-that-sample-blocked-inventory-feature"></a>Atspējot paredzamo ieejas plūsmu no kvalitātes pasūtījumiem, kuri atlasītajiem bloķēto krājumu līdzekļa uzdevumiem
 
-### Disable expected receipts from quality orders that sample blocked inventory feature
+Lai vienkāršotu krājumu darbības kvalitātes pasūtījumu gadījumā, kuri krājumu paraugs ir bloķēts kā krājumu statusa sekas, sistēma nodrošina funkciju, kas deaktivizē paredzamo saņemšanu no šādiem kvalitātes pasūtījumiem. Tā kā gaidāmā saņemšana nekavējoties tiek bloķēta ar krājuma statusa bloķēšanu, šo izmaiņu dēļ rīcībā esošo krājumu samazinājums netiek samazināts.
 
-To simplify the inventory transactions in the case of quality orders that sample inventory blocked as a consequence of inventory status, the system provides a feature that disables expected receipts from such quality orders. As the expected receipt is in any case immediately blocked by inventory status blocking, there is no reduction of on-hand inventory because of this change.
-
--->
+Šī funkcija pēc noklusējuma ir izslēgta. Administratori to var ieslēgt vai izslēgt *, meklējot opciju Atspējot sagaidāmās ieejas plūsmas no kvalitātes pasūtījumiem, kuru paraugs ir bloķēts* krājumu līdzeklis līdzekļu [pārvaldības darbvietā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="additional-resources"></a>Papildu resursi
 

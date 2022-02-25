@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 26810f6e21f9c8ba6e92621a8e1ddee17837b6048107b961afb0e428059051af
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: af3983db1a96116a88914411a26f1ac5d4857ae9
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752588"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103243"
 ---
 # <a name="wave-execution-notifications"></a>Kopuma izpildes paziņojumi
 
@@ -28,14 +28,11 @@ ms.locfileid: "6752588"
 
 Navigācijas joslas labajā pusē esošā poga **Rādīt ziņojumus** (zvana simbolu) norāda, kad pašreizējam lietotājam ir pieejams darbību centra ziņojums. Lietotājs var atlasīt pogu **Rādīt ziņojumus**, lai atvērtu darbību centru un pārskatītu ziņojumus.
 
-Biznesa notikumi rodas, kad tiek darbināti biznesa procesi. Biznesa procesus veido uzdevumi. Biznesa procesa laikā lietotāji, kas piedalās tajā, veic biznesa darbības, lai veiktu šos uzdevumus. Biznesa notikumi nodrošina mehānismu, kas ļauj ārējām sistēmām saņemt paziņojumus no Finance and Operations programmām. Šādā veidā sistēma var veikt biznesa darbības, atbildot uz biznesa notikumiem. Plašāku informāciju skatiet [Brīdinājumi kā biznesa notikumi](../../fin-ops-core/dev-itpro/business-events/home-page.md).
+Biznesa notikumi rodas, kad tiek darbināti biznesa procesi. Biznesa procesus veido uzdevumi. Biznesa procesa laikā lietotāji, kas piedalās tajā, veic biznesa darbības, lai veiktu šos uzdevumus. Biznesa notikumi nodrošina mehānismu, kas ļauj ārējām sistēmām saņemt paziņojumus no finanšu un operāciju programmām. Šādā veidā sistēma var veikt biznesa darbības, atbildot uz biznesa notikumiem. Plašāku informāciju skatiet [Brīdinājumi kā biznesa notikumi](../../fin-ops-core/dev-itpro/business-events/home-page.md).
 
-## <a name="turn-on-the-wave-execution-notifications-feature"></a>Līdzekļa Kopuma izpildes paziņojumu ieslēgšana
+## <a name="turn-the-wave-execution-notifications-feature-on-or-off"></a>Ieslēgt vai izslēgt kopuma izpildes paziņojumu līdzekli
 
-Lai varētu izmantot līdzekli *Kopuma izpildes paziņojumi*, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [Līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Tur šī iespēja ir uzskaitīta tālāk minētajā veidā:
-
-- **Modulis:** *Noliktavas pārvaldība*
-- **Līdzekļa nosaukums:** *Kopuma izpildes paziņojumi*
+No Piegādes ķēdes pārvaldības versijas 10.0.25 šī funkcija ir ieslēgta pēc noklusējuma. Administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot kopuma *izpildes paziņojumu līdzekli* līdzekļu [pārvaldības darbvietā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="scenario-send-wave-batch-execution-notifications-to-the-action-center"></a>Scenārijs: sūtīt kopuma partijas izpildes paziņojumus darbību centram
 

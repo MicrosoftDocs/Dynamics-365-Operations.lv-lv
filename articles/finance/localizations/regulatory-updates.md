@@ -1,26 +1,23 @@
 ---
 title: Regulēšanas atjauninājumi
 description: Šajā tēmā ir sniegts plānoto un izlaisto Microsoft Dynamics 365 Finance normatīvo atjauninājumu saraksts.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 11/13/2020
+author: VStamberg
+ms.date: 01/20/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
-ms.author: roschlom
+ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 46e9b3c3d47207715d0eee689913073d363f3af3
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
-ms.translationtype: HT
+ms.openlocfilehash: 663b7d3162af6d385bc9c445b1e98cf5f74a1471
+ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517504"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8105568"
 ---
 # <a name="regulatory-updates"></a>Regulēšanas atjauninājumi
 
@@ -28,7 +25,7 @@ ms.locfileid: "4517504"
 
 Šajā tēmā ir sniegts to normatīvi atjauninājumu saraksts, kas ir izlaisti Dynamics 365 Finance atbalstītajās lokalizācijās. Piegādes termiņi var tikt mainīti, un plānotā funkcionalitāte var būt atšķirīga vai netikt izlaista. Papildinformāciju lasiet [Microsoft politikā](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
-Normatīvie atjauninājumi ir līdzekļi, kas tiek ieviesti, lai atbalstītu jaunu vai izmainītu konkrētās valsts likumdošanu. Lai iegūtu papildinformāciju par plānotajiem un izlaistajiem līdzekļiem konkrētajai valstij, skatiet tālāk [Dynamics 365 un Power Platform turpmākos izlaišanas plānus](https://docs.microsoft.com/business-applications-release-notes/index).
+Normatīvie atjauninājumi ir līdzekļi, kas tiek ieviesti, lai atbalstītu jaunu vai izmainītu konkrētās valsts likumdošanu. Papildinformāciju par plānotajiem un izlaistajiem valstij specifiskajiem līdzekļiem skatiet Dynamics [365 un izlaišanas Power Platform plānos](/business-applications-release-notes/index).
 
 Microsoft cenšas ieviest jaunas normatīvās prasības iespējami drīz. Faktiskais nodrošināšanas datums ir atkarīgs no likuma izsludināšanas datuma, detalizētās informācijas par prasībām pieejamību no vietējām iestādēm, validācijas rīku pieejamības, kā arī no izmaiņu apjoma un sarežģītības.
 
@@ -41,49 +38,44 @@ Reglamentējošie atjauninājumi, kas tiek izlaisti kā daļa no mēneša atjaun
 Informāciju par jaunākajiem normatīvo atjauninājumu plāniem skatiet nākamajā tabulā.   
 
 |Valsts/reģions|Izpildes datums|Partijas versija|Normatīvais atjauninājums|
-|--------------------|---------------|-------|-------|
-|      Austrija         |   2020. septembris      | 10.0.15      |   PVN deklarācijas formāts U30 ir atjaunināts attiecībā uz 2020. gada pārskatu   |
-|      Bahreina         |   2020. jūnijs      | 10.0.13      |   Rēķina izsniegšanas termiņš (GCC)   |
-|      Bahreina         |   2020. septembris      | 10.0.13      |   Projekta rēķins Bahreinai   |
-|      Bahreina         |   2020. jūnijs      | 10.0.13      |   PVN deklarācija Bahreinai — darījuma apraksta iespējošana   |   
-|      Brazīlija         |   2020. gada augusts      | 10.0.14, 10.0.13      |   ADRCST deklarācija PR   |
-|      Brazīlija         |   2020. maijs      | 10.0.13      |   SPED ECF layout 6   |
-|      Brazīlija         |   2020. gada jūlijs      | 10.0.13      |   SPED fiskālā - ieraksts C176 - RS stāvoklis   |
-|      Brazīlija         |   2020. oktobris      | 10.0.16, 10.0.15HF, 10.0.14HF, 10.0.13HF      |   NF-e NT2019.001 v1.51 — validācijas noteikumu pieņemšana Distrito Federal atvieglojumu kodam   |
-|      Brazīlija         |   2020. oktobris      | 10.0.16      |   Fiskālais SPED — izkārtojums 015   |
-|      Brazīlija         |   2020. gada novembris      | 10.0.15HF      |   Fiskālā SPED ICMS/IPI ieraksts C176 atjauninājums RS stāvoklim   |
-|      Brazīlija         |   2020. oktobris      | 10.0.16      |   DRCST deklarācija SC — SED 262/2020   |
-|      Brazīlija         |   2020. oktobris      | 10.0.16      |   Fiskālā SPED ICMS/IPI ieraksts C176   |
-|      Čehijas Republika      |   2020. gada jūlijs      | 10.0.13      |   PVN kontroles pārskata izmaiņas XML shēmā (rēķinu saraksts)   |
-|      Čehijas Republika         |   2020. gada jūlijs      | 10.0.13      |   PVN deklarācija XML, PVN deklarācijas priekšskatījums programmā Excel un PVN kontroles pārskata XML formāti, kas balstīti uz nodokļu deklarācijas modeli   |
-|      Eiropa        |   2020. gada augusts       | 10.0.14      |   Pārsūtīt Partnera PVN ID uz Intrastat  |
-|      Somija         |   2020. gada jūlijs       | 10.0.13      |   Elektronisko rēķinu atbalsts Somijai  |
-|      Indija         |   2020. gada jūlijs      | 10.0.13      |   TCS par preču pārdošanu saskaņā ar 206C iedaļu (1H) - Robežvērtība saskaņā ar PAN darījumu uzkrāšanu.  |
-|      Indija         |   2020. gada augusts, 2020. gada jūnijs      | 10.0.13      |   Kredīta/debeta piezīme pret eksporta rēķinu  |
-|      Indija         |   2020. gada augusts      | 10.0.13      |   Elektroniskais rēķins zem GST  |
-|      Indija         |   2020. gada jūlijs      | 10.0.13      |   Jauns GSTR (ANX-1 & ANX-2) bezsaistes rīks (Beta versija)  |
-|      Indija         |   2020. oktobris      | 10.0.14HF, 10.0.13HF      |   E-rēķins saskaņā ar GST krājumu pārsūtīšanas pasūtījumā Indijai|
-|      Indija         |   2020. oktobris      | 10.0.14HF, 10.0.13HF      |   E-rēķins saskaņā ar GST Indijai ar vairākām GSTIN reģistrācijām|
-|      Indija         |   2020. septembris      | 10.0.13HF      |   Ieturētā nodokļa likme 3/5 decimāldaļu vietās|
-|      Indija         |   2020. septembris      | 10.0.14HF      |   Numuru secību grupa: GSTNSG, darbības veids: GST rēķins, kas jāiestata GST atsauces numuru secību grupai nodokļu informācijā 0073|
-|      Itālija         |   2020. gada jūlijs      | 10.0.13      |   Itālijas elektronisko rēķinu formāta izmaiņas — FatturaPA |
-|      Malaizija         |   2020. gada jūlijs      | 10.0.13      |   SST pārskats |
-|      Meksika         |   2020. septembris      | 10.0.13HF      |   CFDI URL shēmas atrašanās vieta atkarībā no Anexo 20 dokumenta |
-|      Nīderlande         |   2020. oktobris      | 10.0.16     |   Intrastat formāts tiek atjaunināts, sākot no 2021 |
-|      Norvēģija         |   2020. gada augusts      | 10.0.14     |   SAF-T — darījumu grupēšanas līmenis pēc dokumenta ir jāziņo darījumu elementa līmenī, nevis žurnāla elementa līmenī |
-|      Polija          |   2020. septembris     | 10.0.14     |   Polija: JPK-V7M (VDEK) Excel formāts — lai aizstātu SSRS pārskatu  |
-|      Polija          |   2020. gada jūlijs     | 10.0.15, 10.0.14HF, 10.0.13     |   Neobligātie dalītā maksājuma uzlabojumi |
-|      Polija          |   2020. oktobris     | 10.0.13HF     |   Obligātie dalītā maksājuma uzlabojumi |
-|      Polija          |   2020. gada novembris     | 10.0.16, 10.0.15, 10.0.14, 10.0.13     |   JPK-V7M (VDEK) — pārdošanas dokumenta tips FP un RO mazumtirdzniecības darījumiem |
-|      Polija          |   2020. septembris     | 10.0.15     |   Polija: JPK-V7M (VDEK) — atslēdziet iespēju izpildīt pārskata ģenerēšanu pa daļām |
-|      Polija          |   2020. oktobris     | 10.0.16     |   JPK-V7M (VDEK) pārskats — parametra Labprātīgi sadalīts maksājums ieviešana |
-|      Krievija          |   2020. gada augusts     | 10.0.14    |   Uzskaites pārskatu formāts mainās sākot no 2020. gada  |
-|      Krievija          |   2020. gada jūlijs     | 10.0.13    |   Nolietojuma aprēķins, pamatojoties uz sākotnējo vērtību un kapitālo remontu, nodokļu uzskaitē piemērojot papildnolietojumu  |
-|      Krievija          |   2020. gada novembris     | 10.0.16    |   PVN deklarācijas formāts ir atjaunināts uz versiju 5.07, sākot no pārskata par 2020. gada 4. ceturksni|
+|--------------------|---------------|-------|-------| 
+|      Austrija         |   2021. gada augusts      | 10.0.22      |   PVN deklarācija XML formātā un priekšskatījums programmā Excel   |
+|      Austrija         |   2021. septembris      | 10.0.22HF      |   Intrastat formāts tiek atjaunināts, sākot no 2022. gada – izcelsmes valsts un partnera PVN ID nosūtīšanai kļūst obligāts   |
+|      Beļģija        |   2021. oktobris      | 10.0.22HF     |   Intrastat darbību kodi mainīsies uz 2 cipariem, sākot no 2022. gada  |
+|      Brazīlija         |   2021. gada augusts      | 10.0.22      |   NF-e NT2020.006 – digitālās platformas starpnieka identifikācija (izkārtojuma un validācijas noteikumu atjaunināšana)   |
+|      Brazīlija         |   2021. decembris         | 10.0.22, 10.0.23, 10.0.24         |    SPED finanšu izkārtojums 2022  |
+|      Čehijas Republika         |   2021. oktobris         | 10.0.23HF         |     Intrastat formāts tiek atjaunināts, sākot no 2022. gada – izcelsmes valsts un partnera PVN ID nosūtīšanai kļūst obligāts  |
+|      Dānija         |   2021. decembris         | 10.0.22HF         |    Intrastat formāts tiek atjaunināts, sākot no 2022  |
+|      Igaunija         |   2021. decembris      | 10.0.22HF      |   Intrastat formāts tiek atjaunināts, sākot no 2022. gada – izcelsmes valsts un partnera PVN ID nosūtīšanai kļūst obligāts  |
+|      Somija         |   2021. gada novembris         | 10.0.22HF         |    Intrastat formāts ir atjaunināts, sākot ar 2022. gadu.  |
+|      Vācija        |   2021. gada augusts       | 10.0.22HF      |   Intrastat formāta INSTAT XML tiek atjaunināts, sākot ar 2022. gadu. Intrastat formāta TXT nav piemērojams 01.07.2021  |
+|      Vācija        |   2021. oktobris       | 10.0.23      |   PVN deklarāciju XML formātā un priekšskatījumu programmā Excel (jaunu dizainu ar summām nodokļa koda valūtā, kas tiek aizpildīts, izejot no lodziņa ar apgrieztās maksas līdzekli, var izpildīt personām, kas nav DE juridiskas personas, un tās var iekasēt nodokļu darbības no vairākām juridiskām personām)  |
+|      Itālija         |   2021. gada novembris         | 10.0.22HF, 10.0.23HF, 10.0.24         |    Elektroniskā rēķinu izrakstīšana pārrobežu darījumiem  |
+|      Meksika         |   2021. gada novembris      | 10.0.22      |   Carta de Pas. papildinājums CFDI dokumentos   |
+|      Meksika         |   2021. decembris      | 10.0.24      |   Carta de Nord papildu versija 2.0  |
+|      Nīderlande        |   2021. oktobris      | 10.0.22HF      |   2022. gada 2 ciparu darbības kodi Intrastat faila formātā  |
+|      Jaunzēlande         |   2021. gada augusts      | 10.0.22    |   GST deklarācijas forma GST101A  |
+|      Norvēģija        |   2021. gada novembris      | 10.0.24      |   PVN deklarācijas formāts 2022 ar tiešo iesniegšanu — Dynamics 365 Finance |
+|      Omāna         |   2021. gada augusts      | 10.0.22      |   PVN deklarācija - 1. versija |
+|      Polija          |   2021. oktobris     | 10.0.23, 10.0.24     |   JPK_V7M — jauna shēmas versija no 2022. gada janvāra |
+|      Polija          |   2021. gada novembris     | 10.0.24HF     |   Gada pārskats par maksājuma datumiem komerciālās darbībās |
+|      Polija          |   2021. oktobris     | 10.0.24     |   ES pārdošanas saraksta elektroniskais formāts (VAT-UE) |
+|      Krievija          |   2021. oktobris     | 10.0.22HF, 10.0.23, 10.0.24    |   Izmaiņas pārdošanas, pirkšanas grāmatu un faktūrrēķinu žurnālos|
+|      Krievija          |   2021. oktobris     | 10.0.24HF    |   Izmaiņas PVN deklarācijas formātos ar pielikumiem|
+|      Krievija          |   2021. gada novembris     | 10.0.24    |   Federālās grāmatvedības standarti 6/2020 (Pamatlīdzekļi)|
+|      Saūda Arābija          |   2021. gada novembris     | 10.0.22HF, 10.0.23    |   Elektronisko rēķinu izrakstīšanas ģenerēšana Saūda Arābija - 1. fāze|
+|      Saūda Arābija          |   2021. gada novembris     | 10.0.22HF, 10.0.23HF, 10.0.24    |   Mazumtirdzniecība — elektroniskie rēķini Saūda Arābija — 1. fāze|
+|      Spānija          |   2021. oktobris     | 10.0.23    |    PVN deklarācijas modelis 303 teksta formātā un priekšskatījums programmā Excel|
+|      Spānija          |   2021. septembris     | 10.0.22    |    Intrastat formāts tiks atjaunināts 2022. pārskatam - partnera PVN ID un izcelsmes valsts būs obligāta nosūtīšanai|
+|      Zviedrija          |   2021. oktobris     | 10.0.22HF    |    Intrastat formāts tiek atjaunināts, sākot no 2022. gada – izcelsmes valsts un partnera PVN ID nosūtīšanai kļūst obligāts. Tiks izmantoti 2 ciparu darbības kodi.|
+|      Apvienotā Karaliste          |   2021. gada augusts     | 10.0.22    |    Apvienotā Karaliste - MTD pārkāpumu novēršanas nodaļa 2021)|
 
 
 
 ## <a name="additional-resources"></a>Papildu resursi
-- Informācija par visiem plānotajiem un izlaistajiem normatīvajiem atjauninājumiem ir pieejama vietnē [Lifecycle Service — problēmu meklētājs](https://lcs.dynamics.com/Logon/Index) (ir nepieciešams pierakstīties).
+- Papildinformāciju par visiem plānotajiem un izlaistajiem valstij specifiskajiem uzraudzības atjauninājumiem skatiet [sadaļā Konkrētu valstu uzraudzības atjauninājumu meklēšana](search-for-regulatory-updates.md). (Pierakstīšanās ir nepieciešama.)
 - Atbalstīto programmas lokalizāciju sarakstu skatiet [Starptautiskās pieejamības rokasgrāmata](https://aka.ms/dynamics_365_international_availability_deck).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

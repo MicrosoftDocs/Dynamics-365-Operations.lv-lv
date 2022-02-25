@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 98d28c39b2923afecc851299a07aa3b93ef2edce
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 27e9e977193f9ff5c8188b780e8de955742c4ebe
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867298"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323879"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>(ER) konfigurāciju noformēšana, lai ģenerētu atskaites Word formātā
 
@@ -28,7 +28,7 @@ Lai pārskatus izveidotu kā Microsoft Word dokumentus, jāizveido pārskatu vei
 
 ![Kontroles pārskata parauga veidne Word darbvirsmas programmā.](./media/er-design-configuration-word-image1.png)
 
-Lai Word dokumentu izmantotu kā veidni pārskatiem Word formātā, jūs varat konfigurēt jaunu [elektronisko pārskatu (ER)](general-electronic-reporting.md) [risinājumu](er-quick-start1-new-solution.md). Šim risinājumam jāietver ER [konfigurācija](general-electronic-reporting.md#Configuration), kas satur ER [formāta](general-electronic-reporting.md#FormatComponentOutbound) komponentu.
+Lai Word dokumentu izmantotu kā veidni pārskatiem Word formātā, jūs varat konfigurēt jaunu [elektronisko pārskatu (ER)](general-electronic-reporting.md) [risinājumu](er-quick-start1-new-solution.md). Šim risinājumam jāietver ER konfigurācija [,](general-electronic-reporting.md#Configuration) kas satur ER formāta komponentu.
 
 > [!NOTE]
 > Veidojot jaunu ER formāta konfigurāciju, lai veidotu pārskatus Word formātā, jāatlasa **Word** kā formāta tips nolaižamajā dialoglodziņā **Izveidot konfigurāciju** vai arī jāatstāj lauks **Formāta tips** tukšs.

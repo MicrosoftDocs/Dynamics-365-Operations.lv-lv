@@ -2,11 +2,9 @@
 title: Noliktavas pārvaldības rīcībā esošo ierakstu tīrīšanas darbs
 description: Šajā tēmā ir aprakstīts rīcībā esošo ierakstu tīrīšanas darbs, kas palīdz uzlabot sistēmas veiktspēju, identificējot un dzēšot saistītus, bet nevajadzīgus ierakstus.
 author: perlynne
-manager: tfehr
 ms.date: 04/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
@@ -14,15 +12,17 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
-ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: f045b9686bbdfcf3e82f5158f0fd28860354b7d7
-ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.12
+ms.openlocfilehash: b2bdfb7fa0c9c4d9e1f630a41357dc405f0082bc
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5014487"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103867"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Noliktavas pārvaldības rīcībā esošo ierakstu tīrīšanas darbs
+
+[!include [banner](../includes/banner.md)]
 
 Vaicājumu, kas tiek izmantoti rīcībā esošo krājumu aprēķināšanai, veiktspēju ietekmē to ierakstu skaits, kas atrodas iesaistītajās tabulās. Viens no veiktspējas uzlabošanas veidiem ir samazināt to ierakstu skaitu, kuri datu bāzei ir jāņem vērā.
 
@@ -58,7 +58,7 @@ Tomēr veiktspējas uzlabojums, ko nodrošina tīrīšanas darbs, vajadzētu kom
 
 ## <a name="make-the-maximum-execution-time-setting-available"></a><a name="max-execution-time"></a>Maksimālā izpildes laika iestatījuma iespējošana
 
-Pēc noklusējuma iestatījums **Maksimālais izpildes laiks** nav pieejams. Ja vēlaties to lietot, ir jāizmanto [līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), lai ieslēgtu saistīto līdzekli jūsu sistēmā. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
+Maksimālais **izpildes laika iestatījums** ir pieejams tikai tad *, ja noliktavas pārvaldības rīcībā esošo ierakstu tīrīšanas* darba funkcijas maksimālais izpildes laiks ir ieslēgts. No Piegādes ķēdes pārvaldības versijas 10.0.25 šī funkcija ir ieslēgta pēc noklusējuma. Administratori var ieslēgt vai izslēgt *šo funkcionalitāti, meklējot maksimālo izpildes laiku noliktavas pārvaldības rīcībā esošo*[ierakstu tīrīšanas darba līdzeklim Līdzekļu pārvaldības darbvietā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-- **Modulis:** *Noliktavas pārvaldība*
-- **Līdzekļa nosaukums:** *Maksimālais izpildes laiks noliktavas pārvaldības rīcībā esošo ierakstu tīrīšanas darbam*
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

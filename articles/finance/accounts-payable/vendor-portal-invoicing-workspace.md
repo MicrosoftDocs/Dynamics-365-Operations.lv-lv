@@ -2,31 +2,31 @@
 title: Kreditora sadarbības rēķinu izveides darbvieta
 description: Šajā tēmā izskaidrots, kā jūs varat skatīt kreditora rēķinus un iesniegt rēķinus no kreditora sadarbības rēķinu izveides darbvietas.
 author: abruer
-ms.date: 08/22/2017
+ms.date: 02/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 221534
 ms.assetid: c4ed62f3-d351-41d7-a2ad-790576cde4ab
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 972edcafb415e272c224b6cce8878769de503b9a278c7de3d003327d5e0c451e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 1d9415b7118efb06099b775f68ce7ca9fb6673ed
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722747"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182633"
 ---
 # <a name="vendor-collaboration-invoicing-workspace"></a>Kreditora sadarbības rēķinu izveides darbvieta
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā izskaidrots, kā jūs varat skatīt kreditora rēķinus un iesniegt rēķinus no kreditora sadarbības rēķinu izveides darbvietas.
+Šajā tēmā skaidrots, kā var skatīt kreditoru rēķinus un iesniegt rēķinus no kreditoru **sadarbības rēķinu izrakstīšanas darbvietas**.
 
 Darbvietu **Kreditoru sadarbības rēķinu izveidošana** var izmantot, lai skatītu kreditoru rēķinu informāciju un lai iesniegtu rēķinus sistēmā, izmantojot darbplūsmas iespējas.
 
@@ -45,11 +45,11 @@ Noklikšķinot uz elementa tiks atvērts lapas **Rēķinu saraksts** filtrētais
 
 ### <a name="tabular-lists"></a>Tabulveida saraksti
 
-Sadaļā **Tabulveida saraksti** rēķinu izrakstīšanas stāvoklis tiek sadalīts līdzīgi kā kopsavilkuma elementi: Melnraksti un Iesniegti, neapstiprināti saraksti. Esot stāvoklī Melnraksts, rēķinu nevar iesniegt darbplūsmai vai dzēst. Rēķinu meklēšanai var izmantot pēdējo tabulveida sarakstu. Lai ātrāk iegūtu rezultātus, varat iestatīt dažādus filtrus.
+**Tabulas sarakstu sadaļā** rēķinu statuss tiek sadalīts līdzīgi kā kopsavilkuma veidā: **·** **Melnraksts un Iesniegts**, **Apstiprinājumu** saraksti. Melnraksta **stāvoklī** rēķinu var iesniegt darbplūsmā vai dzēst. Rēķinu meklēšanai var izmantot pēdējo tabulveida sarakstu. Lai ātrāk iegūtu rezultātus, varat iestatīt dažādus filtrus.
 
 ### <a name="all-vendor-invoices-list-page"></a>Visu kreditora rēķinu saraksta lapa
 
-Visus grāmatotos un negrāmatotos kreditora rēķinus varat skatīt saraksta lapā **Kreditora sadarbības rēķini**. Šo saraksta lapu varat izmantot, lai skatītu rēķinu maksājuma statusu. Maksājumu statusi ir Negrāmatots, Neapmaksāts, Daļēji apmaksāts un Pilnībā apmaksāts.
+Visus grāmatotos un negrāmatotos kreditora rēķinus varat skatīt saraksta lapā **Kreditora sadarbības rēķini**. Šo saraksta lapu varat izmantot, lai skatītu rēķinu maksājuma statusu. Maksājuma statusos ietilpst negrāmatots **, neapmaksāts** **·**, **daļēji apmaksāts** un pilnībā **apmaksāts.**
 Jauna kreditora rēķina izveide no pirkšanas pasūtījuma
 
 Jūs varat izveidot jaunu kreditora rēķinu, atlasot darbību **Jauns** **Kreditora sadarbības rēķinu izveides** darbvietā. Kreditoram jāsniedz pirkšanas pasūtījuma numurs un rēķina numurs. Pēc noklusējuma visas kreditora pirkšanas pasūtījuma rindas tiek iekļautas rēķinā. Daudzuma un izmaksu informāciju var rediģēt pirms kreditora rēķina iesniegšanas darbplūsmai. Pirms rēķina iesniegšanas jūs varat pievienot failus, piezīmes, attēlus un URL vietrāžus.

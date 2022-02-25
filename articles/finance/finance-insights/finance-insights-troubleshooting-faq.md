@@ -2,7 +2,7 @@
 title: Finance Insights iestatījumu problēmu novēršana
 description: Šajā tēmā uzskaitītas problēmas, kas var rasties, kad izmantojat Finance Insights iespējas. Tajā arī skaidrots, kā atrisināt šos jautājumus.
 author: panolte
-ms.date: 01/29/2022
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: f77cddfdab22bef8af7f62d49723e330c4f13261
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: HT
+ms.openlocfilehash: fc616e5fce6bbfeaa3b36ccc35f1b1cf407af4a6
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8064870"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109864"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Finance Insights iestatījumu problēmu novēršana
 
@@ -54,11 +54,11 @@ Izpildiet šīs darbības [Power Platform administrēšanas centrā](https://adm
 1. Ja izmantojat Finance Insights versiju, noņemiet DI projektu, kas ir saistīts ar **Debitoru maksājumu ieskatu rezultātiem (CDS uz Fin un Ops)** veidni.
 2. Izpildiet darbības sadaļā [Izveidot datu integrētātāja projektu](create-data-integrate-project.md). Izmantojiet **Debitora maksājuma ieskatu rezultātu (CDS uz Fin un Ops 10.0.17 vai jaunāku)** veidni.
 
-## <a name="symptom-when-i-try-to-open-ai-builder-by-using-the-links-on-the-customer-payment-predictions-setup-page-why-do-i-receive-the-following-error-message-sorry-theres-been-a-disconnect"></a>Simptoms: mēģinot atvērt AI Builder izmantojot saites Klientu maksājumu prognožu iestatīšanas lapā, kāpēc tiek parādīts šāds kļūdas ziņojums: "Atvainojiet, ir noticis atvienojums"?
+## <a name="symptom-when-i-try-to-open-ai-builder-by-using-the-links-on-the-customer-payment-predictions-setup-page-why-do-i-receive-the-following-error-message-sorry-theres-been-a-disconnect"></a>Simptoms: Kad mēģinu atvērt AI Builder, izmantojot saites debitora maksājumu prognozēšanas iestatījumu lapā, kāpēc es saņemu šādu kļūdas ziņojumu: "Diemžēl ir bijis atvienošanās"?
 
 ### <a name="resolution"></a>Novēršana
 
-Dynamics 365 Finance lietotājiem ir jābūt a Microsoft Power Apps lietotāja konts videi, un šim lietotāja kontam ir jābūt sistēmas pielāgotāja lomai. The Microsoft Power Apps sistēmas administrators var izveidot lietotāja kontu un piešķirt lomu. Pēc tam varat doties uz<https://make.preview.powerapps.com/>, piesakieties, izmantojot šo lietotāja kontu, un vēlreiz mēģiniet izveidot saites.
+Dynamics 365 Finance Lietotāja kontam jābūt vides Microsoft Power Apps lietotāja kontam un šim lietotāja kontam jābūt sistēmas pielāgotāja lomai. Sistēmas Microsoft Power Apps administrators var izveidot lietotāja kontu un piešķirt lomu. Pēc tam varat doties uz <https://make.preview.powerapps.com/>, pieteikties, izmantojot šo lietotāja kontu, un vēlreiz mēģināt saites.
 
 ## <a name="symptom-why-doesnt-the-cash-forecast-tab-in-the-cash-flow-forecast-workspace-show-any-data"></a>Simptoms: kādēļ naudas plūsmas prognozes darbvietas cilne Naudas plūsmas prognoze nerāda nekādus datus?
 
@@ -70,47 +70,55 @@ Vispirms iestatiet un aktivizējiet naudas plūsmas prognozes un likviditātes k
 
 Pēc tam apstipriniet, ka naudas plūsmas prognožu funkcija Finance Insights (**Naudas un bankas pārvaldība \> Iestatījumi \> Finance Insights \> Naudas plūsmas prognozes**) ir iespējota un ka AI modeļa apmācība ir pabeigta. Ja apmācība nav pabeigta, atlasiet **Prognoze tagad**, lai sāktu modeļu apmācību procesu.
 
-## <a name="symptom-why-isnt-the-install-a-new-add-in-button-visible-in-microsoft-dynamics-lifecycle-services"></a>Simptoms: kāpēc nav redzama poga Instalēt jaunu pievienojumprogrammu Microsoft Dynamics Dzīves cikla pakalpojumi?
+## <a name="symptom-why-isnt-the-install-a-new-add-in-button-visible-in-microsoft-dynamics-lifecycle-services"></a>Simptoms: kādēļ programmā Lifecycle Services nav Microsoft Dynamics redzama jauna pievienojumprogrammas poga?
 
 ### <a name="resolution"></a>Novēršana
 
-Vispirms pārbaudiet, vai **Vides vadītājs** vai **Projekta īpašnieks** loma ir piešķirta lietotājam, kas ir pierakstījies **Projekta drošības loma** lauks iekšā Microsoft Dynamics Dzīves cikla pakalpojumi (LCS). Jauno pievienojumprogrammu instalēšanai ir nepieciešama viena no šīm projekta drošības lomām.
+Vispirms pārbaudiet, vai **vides** **·** **pārvaldnieka** vai projekta īpašnieka loma ir piešķirta lietotājam, Microsoft Dynamics kurš ir pierakstījies, laukā Projekta drošības loma pakalpojumā Lifecycle Services (LCS). Jaunu pievienojumprogrammu instalācijai ir nepieciešama viena no šīm projekta drošības lomām.
 
-Ja jums ir piešķirta pareizā projekta drošības loma, iespējams, būs jāatsvaidzina pārlūkprogrammas logs, lai redzētu **Instalējiet jaunu pievienojumprogrammu** pogu.
+Ja jums ir piešķirta pareizā projekta drošības loma, iespējams, būs jāatsvaidzina pārlūka logs, lai skatītu **pogu Instalēt jaunu pievienojumprogrammu**.
 
-## <a name="symptom-the-finance-insights-add-in-doesnt-seem-to-be-installing-why-is-that"></a>Simptoms: šķiet, ka finanšu ieskatu pievienojumprogramma netiek instalēta. Kāpēc ir tā, ka?
+## <a name="symptom-the-finance-insights-add-in-doesnt-seem-to-be-installing-why-is-that"></a>Simptoms: Nešķist instalēt finanšu ieskatu pievienojumprogrammu. Kādēļ tas ir?
 
 ### <a name="resolution"></a>Novēršana
 
-Tālāk norādītās darbības bija jāpabeidz.
+Šādiem soļiem jābūt pabeigtiem.
 
-- Pārbaudiet, vai jums ir **Sistēmas administrators** un **Sistēmas pielāgotājs** piekļūt Power Portal administrēšanas centrā.
-- Pārbaudiet, vai a Dynamics 365 Finance vai līdzvērtīga licence tiek piemērota lietotājam, kurš instalē pievienojumprogrammu.
-- Pārbaudiet, vai tālāk norādītais Azure AD lietotne ir reģistrēta Azure AD: 
+- Pārbaudiet, vai jums ir **sistēmas administratora** un **sistēmas pielāgotāja** piekļuve Power Portal administratora centrā.
+- Pārbaudiet, vai Dynamics 365 Finance vai vai vai licences numurs attiecas uz lietotāju, kurš instalē pievienojumprogrammu.
+- Pārbaudiet, vai šī Azure AD programma ir reģistrēta Azure AD: 
 
   | Pieteikums                  | Programmas ID           |
   | ---------------------------- | ---------------- |
   | Microsoft Dynamics ERP apakšpakalpojumi CDS | 703e2651-d3fc-48f5-942c-74274233dba8 | 
   
-## <a name="symptom-error-we-didnt-find-any-data-for-the-selected-filter-range-please-select-a-different-filter-range-and-try-again"></a>Simptoms: Kļūda: “Mēs neatradām nekādus datus atlasītajam filtra diapazonam. Lūdzu, atlasiet citu filtra diapazonu un mēģiniet vēlreiz. 
+## <a name="symptom-error-we-didnt-find-any-data-for-the-selected-filter-range-please-select-a-different-filter-range-and-try-again"></a>Simptoms: kļūda: "Mēs neatradām datus atlasītajam filtra diapazonam. Lūdzu, atlasiet citu filtru diapazonu un mēģiniet vēlreiz." 
 
 ### <a name="resolution"></a>Novēršana
 
-Pārbaudiet datu integratora iestatījumus, lai pārbaudītu, vai tas darbojas, kā paredzēts, un pārveido datus no AI Builder atpakaļ uz finansēm.  
-Papildinformāciju skatiet [Izveidojiet datu integrācijas projektu](../finance-insights/create-data-integrate-project.md).
+Pārbaudiet datu integrētāja iestatījumus, lai apstiprinātu, ka tā darbojas, kā paredzēts, un apstiprinātu datus no atpakaļ AI Builder uz Finansēm.  
+Papildinformāciju skatiet sadaļā [Datu integrācijas projekta izveide](../finance-insights/create-data-integrate-project.md).
 
-## <a name="symptom-customer-payment-prediction-training-failed-and-the-ai-builder-error-states-prediction-should-have-only-2-distinct-outcome-values-to-train-the-model-map-to-two-outcomes-and-retrain-training-report-issue-isnotminrequireddistinctnonnullvalues"></a>Simptoms: klientu maksājumu prognozēšanas apmācība neizdevās, un AI Builder kļūdu stāvokļi: "Lai apmācītu modeli, prognozēšanai ir jābūt tikai 2 atšķirīgām iznākuma vērtībām. Kartējiet ar diviem rezultātiem un pārkvalificējiet", "Apmācības ziņojuma problēma: IsNotMinRequiredDistinctNonNullValues".
-
-### <a name="resolution"></a>Novēršana
-
-Šī kļūda norāda, ka pēdējā gadā nav pietiekami daudz vēsturisku darījumu, kas atbilst katrai kategorijā aprakstītajai kategorijai **Laikā**, **·**, un **Ļoti vēlu** kategorijām. Lai novērstu šo kļūdu, pielāgojiet **Ļoti vēlu** darījuma periods. Ja regulējat **Ļoti vēlu** darījuma periods neizlabo kļūdu, **Klientu maksājumu prognozes** nav labākais risinājums, jo tam ir nepieciešami dati katrā kategorijā apmācības nolūkos.
-
-Lai iegūtu papildinformāciju par to, kā pielāgot **Laikā**, **·**, un **Ļoti vēlu** kategorijas, sk [Iespējot klientu maksājumu prognozes](../finance-insights/enable-cust-paymnt-prediction.md).
-
-## <a name="symptom-model-training-failed"></a>Simptoms: modeļa apmācība neizdevās
+## <a name="symptom-customer-payment-prediction-training-failed-and-the-ai-builder-error-states-prediction-should-have-only-2-distinct-outcome-values-to-train-the-model-map-to-two-outcomes-and-retrain-training-report-issue-isnotminrequireddistinctnonnullvalues"></a>Simptoms: neizdevās debitora maksājuma prognozēšanas AI Builder apmācība, un kļūdas gadījumi: "Prognozēšana drīkst būt tikai 2 atšķirīgas rezultātu vērtības, lai varētu veikt modeļa apmācību. Kartēt uz diviem rezultātiem un pārdalīt", "Apmācību pārskata problēma: IsNotMinRequiredDistinctNonNullValues".
 
 ### <a name="resolution"></a>Novēršana
 
-The **Naudas plūsmas prognoze** modeļu apmācībai ir nepieciešami dati, kas aptver vairāk nekā vienu gadu un satur vairāk nekā 100 darījumus. Šiem darījumiem ir jāietekmē likviditātes konti, kas ir iekļauti naudas plūsmas prognozes iestatījumos.
+Šī kļūda norāda, ka pēdējā **gadā** nav pietiekami daudz vēsturisko darbību, kas norāda katru kategoriju, kas aprakstīta kategorijās Pēc laika, **Vēls** un **Ļoti vēlu**. Lai atrisinātu šo kļūdu, koriģējiet ļoti **vēlu** darbības periodu. Ja koriģējot ļoti **vēlu** darbības periodu, kļūdu nelabo, **debitora** maksājumu prognozes nav labākais risinājums, ko izmantot, jo apmācību nolūkiem tajā ir nepieciešami dati katrā kategorijā.
 
-The **Klientu maksājumu prognozes** Lai izveidotu prognozes, pēdējo sešu līdz deviņu mēnešu laikā ir nepieciešami vismaz 100 klienta rēķini un maksājumu darījumi.  
+Papildinformāciju par to, kā pielāgot laika **,** **nokavētas** un ļoti vēlu **kategorijas**, skatiet sadaļā Iespējot debitora [maksājumu prognozes](../finance-insights/enable-cust-paymnt-prediction.md).
+
+## <a name="symptom-model-training-failed"></a>Simptoms: Modeļu apmācība neizdevās
+
+### <a name="resolution"></a>Novēršana
+
+Naudas **plūsmas prognozes modeļa** apmācībai nepieciešami dati, kas satur 100 vai vairāk darbības, kas aptver vairāk par gadu. Ieteicams, lai jums būtu vismaz divi gadi datu ar vairāk nekā 1000 darbībām.
+
+Debitora **maksājuma prognozēšanas līdzeklim ir nepieciešamas vairāk nekā 100 darbības iepriekšējos** sešos līdz deviņiem mēnešiem. Darbībās var būt iekļauti brīvā teksta rēķini, pārdošanas pasūtījumi un debitoru maksājumi. Šie dati ir izplatīti pa konfigurācijas **lapā noteiktām** laic pieejamiem, **nokavētiem** **un** ļoti vēliem **iestatījumiem**.    
+
+Budžeta **priekšlikuma funkcijai** nepieciešami vismaz trīs budžeta gadi vai faktiskie dati. Šis risinājums izmanto trīs līdz desmit projekciju datu gadiem. Vairāk nekā trīs gadi dos labākus rezultātus. Pats dati darbojas vislabāk, ja vērtības ir variācijas. Ja datos ir visi nemainīgie dati, piemēram, nomas izdevumi, apmācība var neizdoties, jo, nepastāvot variācijām, AI nav jāprojektē summas.
+
+## <a name="symptom-error-message-states-that-the-table-with-name-msdyn_paypredpredictionresultentities-does-not-exist-the-remote-server-returned-an-error-404-not-found"></a>Simptoms: kļūdas ziņojums norāda, ka "Tabula ar nosaukumu" "msdyn_paypredpredictionresultentities" nepastāv. Attālais serveris atgrieza kļūdu: (404) Nav atrasts..."
+
+### <a name="resolution"></a>Novēršana
+
+Vide ir sasniegusi datu pārsūtīšanas pakalpojumu maksimālo tabulas ierobežojumu. Papildinformāciju par limitu skatiet **tēmas** sadaļā Iespējot reāllaika datu izmaiņu tuvu atrašanās vietu, pārskatu [Eksportēt uz Azure data Atkat.](../../fin-ops-core/dev-itpro/data-entities/Azure-Data-Lake-GA-version-overview.md)

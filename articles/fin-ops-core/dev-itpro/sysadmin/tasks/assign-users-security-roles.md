@@ -1,12 +1,10 @@
 ---
 title: Drošības lomu piešķiršana lietotājiem
-description: Lai piekļūtu Finance and Operations programmām, lietotājiem jābūt piešķirtām drošības lomām.
+description: Lai piekļūtu Finance and Operations programmām, lietotājiem jābūt piešķirtai drošības lomai.
 author: Peakerbl
-manager: AnnBe
-ms.date: 05/06/2020
+ms.date: 02/09/2022
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysSecRolesEditUsers, SysSecAssignmentQueryLookup, SysQueryForm, SysSecRoleExcludeUsers
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f78c24e8c2ffe5418ce119e19b7c0193f01f64b8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 36874b996cc5708f6fd7fbc45251f3066b5b1c97
+ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679868"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8105542"
 ---
-# <a name="assign-users-to-security-roles"></a>Drošības lomu piešķiršana lietotājiem
+# <a name="manage-users-and-security-roles"></a>Lietotāju un drošības lomu pārvaldība
 
 [!include [banner](../../includes/banner.md)]
 
-Lai izmantotu citas iespējas, kas nav kopīgas iespējas Finance and Operations programmās, lietotājiem jābūt piešķirtām drošības lomām. Jūs varat piešķirt lietotājus lomām automātiski, pamatojoties uz kārtulām un biznesa datiem, izslēgt lietotājus no automātiskās lomas piešķires vai pievienot lietotājus lomām manuāli.
+Lai finanšu un operāciju programmās izmantotu jebko citu, nevis parastās iespējas, lietotājiem ir jābūt piešķirtiem drošības lomām. Jūs varat piešķirt lietotājus lomām automātiski, pamatojoties uz kārtulām un biznesa datiem, izslēgt lietotājus no automātiskās lomas piešķires vai pievienot lietotājus lomām manuāli.
 
 ## <a name="automatically-assign-users-to-roles"></a>Automātiski piešķirt lietotājus lomām
 Šī procedūra skaidro kā sistēmas administratori var automātiski piešķirt lietotājiem lomas, pamatojoties uz biznesa datiem. 
@@ -42,6 +40,8 @@ Lai izmantotu citas iespējas, kas nav kopīgas iespējas Finance and Operations
 10. Pārskatiet dažādiem lietotājiem piešķirtās lomas, lai apstiprinātu, ka lomas piešķires vaicājums ir bijis pareizs. Pielāgojiet un vajadzības gadījumā palaidiet atkārtoti.
 
 ## <a name="exclude-users-from-automatic-role-assignment"></a>Izslēgt lietotājus no automātiskas lomu piešķiršanas
+Šajā procedūrā skaidrots, kā izslēgt lietotājus no automātiskas lomu piešķiršanas.
+
 1. Aizvērt lapu.
 2. Dodieties uz **Navigācijas rūts > Moduļi > Sistēmas administrēšana > Drošība > Piešķirt lomas lietotājiem**.
 3. Kokā atlasiet 'Uzskaites supervizors'. Atlasīt lomu. Šajā piemērā atlasiet Uzskaites supervizoru.  
@@ -57,3 +57,19 @@ Lietotājiem, kas manuāli ir piesaistīti drošības lomām, administratoram ar
 2. Shēmā atlasiet lomu un izvēlnē **Lomai piešķirtie lietotāji** atlasiet **Manuāli piešķirt/izslēgt lietotājus**.
 4. Sadaļā **Piešķirt lietotājus vai izslēgt lietotājus no lomas** lietotājiem, kuriem nav piešķirta loma, tiek uzskaitīti ar **Piešķires režīmu** iestatītu uz **Nav**. Atlasiet vienu vai vairākus lietotājus, kuriem jāpiešķir loma.
 5. Sadaļā **Darbību rūts** atlasiet **Piešķirt lomu**. **Piešķires režīms** tiek atjaunināts uz **Manuāli**, un lietotājiem tagad ir piešķirta jauna loma.
+
+## <a name="manually-remove-users-from-roles"></a>Manuāli noņemt lietotājus no lomām
+Lietotājiem, kas manuāli ir piesaistīti drošības lomām, administratoram arī jādzēš manuāli. Šie lietotāji netiek noņemti no lomām ar kārtulām automātiskai lomas piešķiršanai.
+
+1. Dodieties uz **Navigācijas rūts > Moduļi > Sistēmas administrēšana > Drošība > Piešķirt lomas lietotājiem**.
+2. Lai noņemtu vienu lietotāju, rīkojieties šādi:
+   1. Koka struktūrā atlasiet lomu. 
+   2. Lomas **apgabalā Lietotāji,** kas piešķirti, atlasiet lietotāju, kas ir jānoņem.
+   3. Atlasiet **Noņemt** un lietotājs ir noņemts no lomas.
+3. Lai noņemtu vairākus lietotājus, rīkojieties šādi:
+   1. Koka struktūrā atlasiet lomu. 
+   2. Lomai **piešķirtajiem lietotājiem** atlasiet Manuāli **piešķirt/izslēgt lietotājus**.
+   3. Lapā Piešķirt **lietotājus lomai vai izslēgt no** lomas lapas lietotājiem, kuriem nav piešķirta loma, **·** **kolonnā Piešķires režīms ir Nav.** Atlasiet lietotājus, kas ir jāizslēdz no lomas.
+   4. Sadaļā **Darbību rūts** atlasiet **Izslēgt no lomas**. Tagad **piešķires režīma** kolonna ir atjaunināta uz **Manuāli,** un lietotāji tagad ir izslēgti no lomas.
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

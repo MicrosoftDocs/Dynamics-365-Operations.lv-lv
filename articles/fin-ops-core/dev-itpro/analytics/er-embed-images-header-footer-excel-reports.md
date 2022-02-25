@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 20bcf26e1510634c5ee7043576a480ce15889923
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
-ms.translationtype: HT
+ms.openlocfilehash: 3f3f77a9e6104a31995c9ee398504982fe43ac9e
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344124"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323779"
 ---
 # <a name="design-an-er-format-to-generate-a-report-in-excel-format-with-embedded-images-in-page-headers-or-footers"></a>ER formāta izveide, lai ģenerētu pārskatu Excel formātā ar iegultiem attēliem lapas galvenēs vai kājenēs
 
@@ -153,9 +153,9 @@ Lai pievienotu standarta ER konfigurācijas savai pašreizējai Dynamics 365 Fin
 3. Lapā **Konfigurācijas**, konfigurācijas koka skata kreisajā rūtī izvērsiet **Maksājuma modelis**.
 4. Papildus atlasītajam **Brīva teksta rēķins (Excel)** ER formātam tika importētas arī citas nepieciešamās ER konfigurācijas. Pārliecinieties, vai konfigurācijas kokā ir pieejamas šādas ER konfigurācijas:
 
-    - **Rēķina modelis** — šajā konfigurācijā ir norādīts [datu modeļa](general-electronic-reporting.md#data-model-and-model-mapping-components) ER komponents, kas parāda rēķina izrakstīšanas biznesa domēna datu struktūru.
-    - **Rēķina modeļa kartēšana** — šajā konfigurācijā ir norādīta [modeļa kartēšana](general-electronic-reporting.md#data-model-and-model-mapping-components) ER komponentam, kas apraksta, kā datu modelis tiek aizpildīts ar programmas datiem izpildlaikā.
-    - **Brīva teksta rēķins (Excel)** – šī konfigurācija satur [formātu](general-electronic-reporting.md#FormatComponentOutbound) un formātu kartēšanas ER komponentus. Formāta komponents nosaka pārskata formātu, pamatojoties uz veidni Excel formātā. Formāta kartēšanas komponents satur modeļa datu avotu un norāda, kā šis datu avots tiek izmantots, lai aizpildītu atskaites izkārtojumu izpildlaikā.
+    - **Rēķina modelis** - šī konfigurācija satur datu modeļa ER komponentu, kas parāda rēķinu izrakstīšanas biznesa domēna datu struktūru.
+    - **Rēķina modeļa kartēšana** - šī konfigurācija ietver modeļa kartēšanas ER komponentu, kas apraksta, kā izpildlaikā datu modelis tiek aizpildīts ar programmas datiem.
+    - **Brīva teksta rēķins (Excel)** – šī konfigurācija satur formātu un formātu kartēšanas ER komponentus. Formāta komponents nosaka pārskata formātu, pamatojoties uz veidni Excel formātā. Formāta kartēšanas komponents satur modeļa datu avotu un norāda, kā šis datu avots tiek izmantots, lai aizpildītu atskaites izkārtojumu izpildlaikā.
 
 ![Konfigurāciju lapā importētās ER konfigurācijas.](./media/er-embed-images-header-footer-excel-reports-imported-solution.png)
 

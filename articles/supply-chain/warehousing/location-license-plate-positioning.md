@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: c19f8dcdb7d84b752e0eec56afdb1a1865cfe00b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: f87723ebd6684efba8464a7d64c7e1ea99f194eb
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567611"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102793"
 ---
 # <a name="location-license-plate-positioning"></a>Novietojuma noliktavas vienības pozīcija
 
@@ -30,14 +30,11 @@ Līdzeklis pievieno secības numuru katrai noliktavas vienībai, kas tiek ieviet
 
 Šī tēma iepazīstina ar scenāriju, kas parāda, kā iestatīt un izmantot līdzekli.
 
-## <a name="turn-on-the-location-license-plate-positioning-feature"></a>Novietojuma noliktavas vienības pozīcijas līdzekļa ieslēgšana
+## <a name="turn-the-location-license-plate-positioning-feature-on-or-off"></a>Ieslēgt vai izslēgt novietojuma numura zīmes novietošanas līdzekli
 
-Lai varētu izmantot noliktavas vienības novietojuma pozīciju, līdzeklim ir jābūt iespējotam sistēmā. Administratori var izmantot [Līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Tur šī iespēja ir uzskaitīta tālāk minētajā veidā:
+Lai izmantotu šajā tēmā aprakstīto funkcionalitāti, sistēmai *jābūt* ieslēgtai novietojuma numura zīmes novietojuma funkcijai. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja lietojat versiju, kas vecāka par 10.0.25, administratori šo funkcionalitāti var ieslēgt vai izslēgt, *meklējot novietojuma numura zīmes pozicionēšanas*[līdzekli līdzekļu pārvaldības darbvietā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-- **Modulis:** *Noliktavas pārvaldība*
-- **Līdzekļa nosaukums:** *Novietojuma noliktavas vienības pozīcija*
-
-## <a name="example-scenario"></a>Piemēra situācija
+## <a name="example-scenario"></a>Piemērs
 
 ### <a name="make-sample-data-available"></a>Padarīt pieejamus datu paraugus
 

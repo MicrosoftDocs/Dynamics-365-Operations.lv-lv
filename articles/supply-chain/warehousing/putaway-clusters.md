@@ -2,25 +2,22 @@
 title: Izvietošanas klasteri
 description: Izvietošanas klasteri piedāvā veidu, kā vienlaicīgi izvēlēties vairākas numura zīmes un pēc tam lietot tās izvietošanai dažādās atrašanās vietās. Tie var būt ļoti noderīgi mazumtirdzniecības uzņēmumiem, kur numura zīmes parasti nav pilnas noliktavas paletes.
 author: Mirzaab
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 6a330ddccbd17c92443232fc8488e36a59235773
-ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: d5aa579394a0e3bd4c27cd44c9ff98951b3bfe1c
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "4512334"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103667"
 ---
 # <a name="putaway-clusters"></a>Izvietošanas klasteri
 
@@ -28,12 +25,9 @@ ms.locfileid: "4512334"
 
 Izvietošanas klasteri piedāvā veidu, kā vienlaicīgi izvēlēties vairākas numura zīmes un pēc tam lietot tās izvietošanai dažādās atrašanās vietās. Šis process bieži tiek saukts par *nodošanas-saņemšanas maršrutu*. Izvietošanas klasteri var būt ļoti noderīgi mazumtirdzniecības uzņēmumiem, kur numura zīmes parasti nav pilnas noliktavas paletes. 
 
-## <a name="turn-on-the-cluster-putaway-feature"></a>Ieslēgt līdzekli klasteru izvietošana
+## <a name="turn-the-cluster-putaway-feature-on-or-off"></a>Ieslēgt vai izslēgt klastera izvietošanas līdzekli
 
-Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [Līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Tur šī iespēja ir uzskaitīta tālāk minētajā veidā:
-
-- **Modulis:** *Noliktavas pārvaldība*
-- **Līdzekļa nosaukums:** *Klasteru izvietošanas līdzeklis*
+Lai izmantotu šajā tēmā aprakstīto funkcionalitāti, jūsu *sistēmai* jābūt ieslēgtai līdzeklim Klastera putaway. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja jūs palaižat versiju, kas vecāka par 10.0.25, *tad administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot klastera*[izvietošanas līdzekli līdzekļu pārvaldības darbvietā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="setup-for-the-example-scenario"></a>Piemēra scenārija iestatījumi
 
@@ -231,7 +225,7 @@ Pievienojiet izvēlnes elementus, ko tikko izveidojāt mobilās programmas saņe
 
 #### <a name="receive-and-sort-the-inventory-into-a-cluster"></a>Saņemt un kārtot krājumus klasterī
 
-1. Pierakstieties noliktavas lietotnē kā lietotājs, kurš ir iespējots noliktavā *61*.
+1. Pierakstieties Warehouse Management mobile programmā kā lietotājs, kurš ir iespējots noliktavā *61*.
 1. Galvenajā izvēlnē atlasiet **Ienākošs**.
 1. Izvēlnē **Ienākošie** atlasiet **Saņemt un kārtot klasteri**.
 1. Laukā **Ponum** ievadiet savu pirkuma pasūtījuma numuru.
@@ -269,11 +263,11 @@ Pirms krājumu var izvietot klasterī, klasteris ir jāslēdz.
 1. Sadaļā **Darba klasteris** atlasiet klastera ID, ko ievadījāt iepriekš.
 1. Darbību rūtī atlasiet **Slēgt klasteri**.
 
-    Pēc klastera slēgšanas tas vairs netiek parādīts sadaļā **Darba klasteris** (ja vien nav atzīmētā izvēles rūtiņa **Parādīt slēgto darbu**).
+    Pēc klastera slēgšanas tas vairs netiek parādīts sadaļā **Darba klasteris** (ja vien nav atzīmētā izvēles rūtiņa **Parādīt slēgto darbu** ).
 
 #### <a name="put-the-cluster-away"></a>Klastera izvietošana
 
-1. Pierakstieties noliktavas lietotnē kā lietotājs, kurš ir iespējots noliktavā *61*.
+1. Pierakstieties Warehouse Management mobile programmā kā lietotājs, kurš ir iespējots noliktavā *61*.
 1. Galvenajā izvēlnē atlasiet **Ienākošs**.
 1. Izvēlnē **Ienākošie** atlasiet **Klastera izvietošana**.
 1. Atlasiet **Klastera ID** un ievadiet klastera ID, ko iepriekš ievadījāt slēgtajam klasterim.
@@ -287,7 +281,7 @@ Pirms krājumu var izvietot klasterī, klasteris ir jāslēdz.
 
     Ir standarta opcijas, lai ignorētu vai izpildītu šo darbību.
 
-    ![Klastera izvietošana: izvietot lapu](media/Cluster_putaway-Put.png "Klastera izvietošana: izvietot lapu")
+    ![Klastera izvietošana: izvietot lapu.](media/Cluster_putaway-Put.png "Klastera izvietošana: izvietot lapu")
 
 1. Atlasiet **Labi**, lai apstiprinātu klastera izvietošanu.
 
@@ -296,3 +290,6 @@ Pirms krājumu var izvietot klasterī, klasteris ir jāslēdz.
 ## <a name="notes-and-tips"></a>Piezīmes un padomi
 
 Gadījumos, kad klastera ID ir kļuvis par pamatnumura zīmi ligzdotai paletei, novietošanas pozīcija tiek norādīta automātiski, kad tiek skenēts klastera ID. Neviena papildu numura zīme nedrīkst tikt skenēta, pat ja numura zīmes ģenerēšana ir iestatīta uz manuālu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

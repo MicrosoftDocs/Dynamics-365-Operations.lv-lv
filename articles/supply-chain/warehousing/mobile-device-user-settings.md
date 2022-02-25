@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 13c99854224a6d220e73a43636d85ec1951f8149
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 4ea0fcfa7a165587567968f95549799859edaa60
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901876"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103717"
 ---
 # <a name="mobile-device-user-settings"></a>Mobilās ierīces lietotāja iestatījumi
 
@@ -39,12 +39,9 @@ Jaunajā noliktavas pārvaldības mobilajā programmā ir programmai raksturīgo
 > [!IMPORTANT]
 > *Mobilās ierīces lietotāja iestatījumu* funkcija attiecas tikai uz jauno Warehouse Management mobile programmu. Tas nefunkcionē ar veco noliktavas lietotni.
 
-## <a name="turn-on-the-mobile-device-user-settings-feature"></a>Ieslēgt mobilās ierīces lietotāja iestatījumu līdzekli
+## <a name="turn-the-mobile-device-user-settings-feature-on-or-off"></a>Mobilās ierīces lietotāja iestatījumu līdzekļa izslēgšana vai izslēgšana
 
-Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
-
-- **Modulis:** *Noliktavas pārvaldība*
-- **Līdzekļa nosaukums:** *Lietotāja iestatījumi, ikonas un darbību nosaukumi jaunajai noliktavas programmai*
+Lai izmantotu šajā tēmā aprakstīto funkcionalitāti, *jaunās noliktavas programmas funkcijas lietotāja iestatījumiem,* ikonām un darbību nosaukumiem ir jābūt ieslēgtiem jūsu sistēmai. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja lietojat versiju, kas vecāka par 10.0.25, administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot jaunās noliktavas programmas funkcijas Lietotāja iestatījumus, ikonas un soļu *nosaukumus*[līdzekļu](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pārvaldības darbvietā.
 
 ## <a name="create-and-manage-user-settings"></a>Izveidot un pārvaldīt lietotāja iestatījumus
 

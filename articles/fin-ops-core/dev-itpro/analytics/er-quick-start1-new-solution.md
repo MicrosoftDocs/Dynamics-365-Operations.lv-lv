@@ -2,27 +2,27 @@
 title: Izveidot jaunu ER risinājumu, lai izdrukātu pielāgotu pārskatu
 description: Šajā tēmā skaidrots, kā noformēt elektronisko pārskatu (ER) risinājumu, lai izdrukātu pielāgotu pārskatu.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
+ms.custom:
+- "220314"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7cd0d8e7aa9595e705416798772f52956ef609da
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 36998d299e166709778bfaa7bfd0d8980890d4fe
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680246"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323846"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Izveidot jaunu ER risinājumu, lai izdrukātu pielāgotu pārskatu
 
@@ -94,7 +94,7 @@ Tālāk aprakstītajās darbībās izskaidrots, kā lietotājs sistēmas adminis
         - [Pārskata kontrolētāja klases pievienošana](#ControllerClass)
         - [Izvēlnes elementa pievienošana](#MenuItem)
         - [Izvēlnes krājuma pievienošana izvēlnei](#Menu)
-        - [Visual Studio projekta izveide](#BuildVSProject)
+        - [Izveidot Visual Studio projektu](#BuildVSProject)
 
     - [Formāta palaišana no programmas](#RunFormatFromApp)
 
@@ -121,19 +121,19 @@ Tālāk aprakstītajās darbībās izskaidrots, kā lietotājs sistēmas adminis
 
 - [Papildu resursi](#References)
 
-Šajā piemērā tiks izveidots jauns ER risinājums [Anketas](https://docs.microsoft.com/dynamics365/human-resources/hr-learning-questionnaires) modulim. Šis jaunais ER risinājums sniedz iespēju izveidot pārskatu, izmantojot Microsoft Excel darblapu kā veidni. Pēc tam varat izveidot **Anketu** pārskatu Excel vai PDF formātā papildus esošo SQL Server pārskatu izveides pakalpojumu (SSRS) pārskata ģenerēšanai. Jauno pārskatu var arī modificēt vēlāk pēc pieprasījuma. Kodēšana nav nepieciešama.
+Šajā piemērā tiks izveidots jauns ER risinājums [Anketas](../../../human-resources/hr-learning-questionnaires.md) modulim. Šis jaunais ER risinājums sniedz iespēju izveidot pārskatu, izmantojot Microsoft Excel darblapu kā veidni. Pēc tam varat izveidot **Anketu** pārskatu Excel vai PDF formātā papildus esošo SQL Server pārskatu izveides pakalpojumu (SSRS) pārskata ģenerēšanai. Jauno pārskatu var arī modificēt vēlāk pēc pieprasījuma. Kodēšana nav nepieciešama.
 
 1. Lai palaistu esošo pārskatu, dodieties uz **Anketa** \> **Dizains** \> **Anketas pārskats**.
 
-    ![Atlasot Anketu pārskata izvēlnes krājumu Anketas modulī, lai palaistu esošo SSRS pārskatu](./media/er-quick-start1-application-menu-origin.png)
+    ![Atlasot Anketu pārskata izvēlnes krājumu Anketas modulī, lai palaistu esošo SSRS pārskatu.](./media/er-quick-start1-application-menu-origin.png)
 
 2. Dialoglodziņā **Anketu pārskats** norādiet atlases kritērijus. Lietojiet filtru, lai pārskats iekļautu tikai **SBCCrsExam** anketu.
 
-    ![Dialoglodziņā Anketu pārskats norādiet atlases kritērijus](./media/er-quick-start1-ssrs-report-dialog.png)
+    ![Dialoglodziņā Anketu pārskats norādiet atlases kritērijus.](./media/er-quick-start1-ssrs-report-dialog.png)
 
 Sekojošajā attēlā parādīta SSRS pārskata ģenerētā versija **SBCCrsExam** anketai.
 
-![Ģenerētais SSRS pārskats](./media/er-quick-start1-ssrs-report.png)
+![Ģenerētais SSRS pārskats.](./media/er-quick-start1-ssrs-report.png)
 
 ## <a name="configure-the-er-framework"></a><a name="ConfigureFramework"></a>ER struktūras konfigurēšana
 
@@ -181,13 +181,13 @@ Papildinformāciju par ER konfigurācijas nodrošinātājiem skatiet sadaļā [K
 
 ## <a name="design-a-domain-specific-data-model"></a><a name="DesignModel"></a>Domēnam specifiska datu modeļa izveide
 
-Ir jāizveido jauna ER konfigurācija, kas satur [datu modeļa](general-electronic-reporting.md#data-model-and-model-mapping-components) komponentu **Anketas** biznesa domēnam. Šis datu modelis vēlāk tiks izmantots kā datu avots, noformējot ER formātu, lai ģenerētu **Anketas** pārskatu.
+Jāizveido jauna ER konfigurācija, kas ietver datu modeļa komponentu anketas **biznesa** domēnam. Šis datu modelis vēlāk tiks izmantots kā datu avots, noformējot ER formātu, lai ģenerētu **Anketas** pārskatu.
 
 Veicot darbības, kas norādītas sadaļā [Importēt jaunu datu modeļa konfigurāciju](#ImportDataModel), jūs varat importēt nepieciešamo datu modeli no norādītā XML faila. Vai arī varat veikt darbības, kas aprakstītas sadaļā [Izveidot jaunu datu modeļa konfigurāciju](#DesignDataModel), lai izveidotu šo datu modeli no jauna.
 
 ### <a name="import-a-new-data-model-configuration"></a><a name="ImportDataModel"></a>Importēt jaunu datu modeļa konfigurāciju
 
-1. Lejupielādējiet [Anketu model.version.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) failu un saglabājiet to lokālajā datorā.
+1. Lejupielādējiet [Anketu model.version.1.xml](https://download.microsoft.com/download/b/6/3/b633bd34-d200-4422-96d9-8f62eb5218f8/Questionnaires_model.version.1.xml) failu un saglabājiet to lokālajā datorā.
 2. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
 3. Darbvietā **Elektroniskie pārskati** atlasiet **Pārskatu veidošanas konfigurācijas**.
 4. Darbību rūtī atlasiet **Mainīt** \> **Ielādēt no XML faila**.
@@ -273,7 +273,7 @@ Lai turpinātu, izlaidiet nākamo procedūru [Izveidot jaunu datu modeļa konfig
 
     Sekojošajā attēlā ir parādīts pabeigts rediģējamais datu modelis lapā **Datu modeļu noformētājs**.
 
-    ![Konfigurētais datu modelis ER datu modeļu noformētājā](./media/er-quick-start1-model2.png)
+    ![Konfigurētais datu modelis ER datu modeļu noformētājā.](./media/er-quick-start1-model2.png)
 
 7. Saglabājiet izmaiņas.
 8. Aizveriet lapu **Datu modeļa noformētājs**.
@@ -287,7 +287,7 @@ Lai turpinātu, izlaidiet nākamo procedūru [Izveidot jaunu datu modeļa konfig
 
 Šīs konfigurācijas 1. versijas statuss tiek mainīts no **Melnraksta** uz **Pabeigtu**. 1. versiju vairs nevar mainīt. Šī versija satur konfigurēto datu modeli, un to var izmantot kā pamatu citām ER konfigurācijām. Šīs konfigurācijas 2. versija ir izveidota un tās statuss ir **Melnraksts**. Varat rediģēt šo versiju, lai koriģētu **Anketas** datu modeli.
 
-![Rediģējamās ER konfigurācijas versijas Konfigurāciju lapā](./media/er-quick-start1-model-configuration.png)
+![Rediģējamās konfigurācijas versijas Konfigurāciju lapā.](./media/er-quick-start1-model-configuration.png)
 
 Lai iegūtu vairāk informācijas par versiju izveidi ER konfigurācijām, skatiet [Elektronisko pārskatu (ER) apskatu](general-electronic-reporting.md#component-versioning).
 
@@ -296,13 +296,13 @@ Lai iegūtu vairāk informācijas par versiju izveidi ER konfigurācijām, skati
 
 ## <a name="design-a-model-mapping-for-the-configured-data-model"></a><a name="DesignMapping"></a>Konfigurētā datu modeļa kartēšanas izveidošana
 
-Kā lietotājam Elektroniskajā pārskata izstrādātāja lomā, ir jāizveido jauna ER konfigurācija, kas ietver [modeļa kartēšanas](general-electronic-reporting.md#data-model-and-model-mapping-components) komponentu **Anketas** datu modelim. Tā kā šis komponents implementē konfigurēto datu modeli Finance, tas ir saistīts ar Finance. Ir jākonfigurē modeļa kartēšanas komponents, lai norādītu programmas objektus, kas jāizmanto, lai aizpildītu konfigurēto datu modeli ar programmas datiem izpildlaikā. Lai izpildītu šo uzdevumu, jums jāzina par biznesa domēna **Anketa** datu struktūras ieviešanas detaļām programmā Finance.
+Kā lietotājam elektronisko pārskatu izstrādātāja lomā jāizveido jauna ER konfigurācija, kas ietver modeļa kartēšanas komponentu anketas **datu** modelim. Tā kā šis komponents implementē konfigurēto datu modeli Finance, tas ir saistīts ar Finance. Ir jākonfigurē modeļa kartēšanas komponents, lai norādītu programmas objektus, kas jāizmanto, lai aizpildītu konfigurēto datu modeli ar programmas datiem izpildlaikā. Lai izpildītu šo uzdevumu, jums jāzina par biznesa domēna **Anketa** datu struktūras ieviešanas detaļām programmā Finance.
 
 Veicot darbības, kas norādītas sekojošajā sadaļā [Importēt jaunu modeļa kartēšanas konfigurāciju](#ImportModelMapping), jūs varat importēt nepieciešamā modeļa kartēšanas konfigurāciju no norādītā XML faila. Vai arī varat veikt darbības, kas aprakstītas sadaļā [Izveidot jaunu modeļa kartēšanas konfigurāciju](#CreateModelMapping), lai izveidotu šo modeļa kartēšanu no jauna.
 
 ### <a name="import-a-new-model-mapping-configuration"></a><a name="ImportModelMapping"></a>Jaunas modeļa kartēšanas konfigurācijas importēšana
 
-1. Lejupielādējiet [Anketu mapping.version.1.1.xm](https://go.microsoft.com/fwlink/?linkid=851448) failu un saglabājiet to lokālajā datorā.
+1. Lejupielādējiet [Anketu mapping.version.1.1.xm](https://download.microsoft.com/download/7/b/2/7b258e4e-4bd5-46a4-8114-27419ae4acd8/Questionnaires_mapping.version.1.1.xml) failu un saglabājiet to lokālajā datorā.
 2. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
 3. Darbvietā **Elektroniskie pārskati** atlasiet **Pārskatu veidošanas konfigurācijas**.
 4. Darbību rūtī atlasiet **Mainīt** \> **Ielādēt no XML faila**.
@@ -368,7 +368,7 @@ Datu avoti ir jākonfigurē, lai piekļūtu programmas tabulām, kas ietver info
     2. Atlasiet **Pievienot**.
     3. Dialoglodziņa laukā **Nosaukums** ievadiet **\$ResultGroup**.
     4. Atlasiet **Rediģēt formulu**.
-    5. [ER formulas redaktorā](general-electronic-reporting-formula-designer.md), laukā **Formula** ievadiet **FIRSTORNULL(\@.'\<Relations'.KMQuestionResultGroup)**, lai tiktu izmantots [ceļš](er-formula-language.md#paths) no vienas uz daudzām attiecībām starp KMCollection un KMQuestionResultGroup tabulām.
+    5. [ER formulas redaktorā](general-electronic-reporting-formula-designer.md), laukā **Formula** ievadiet **FIRSTORNULL(\@.'\<Relations'.KMQuestionResultGroup)**, lai tiktu izmantots [ceļš](er-formula-language.md#Paths) no vienas uz daudzām attiecībām starp KMCollection un KMQuestionResultGroup tabulām.
     6. Atlasiet **Saglabāt** un aizveriet formulas redaktoru.
     7. Atlasiet **Labi**, lai pievienotu jaunu aprēķināto lauku.
 
@@ -441,7 +441,7 @@ Varat pievienot ER etiķetes, lai konfigurētu dažus datu avotus, lai atgrieztu
 5. Aizveriet dialoglodziņu **Teksta tulkojums**.
 6. Atlasiet **Atcelt**.
 
-![Pievienot ER etiķetes rediģējamā modeļa kartēšanai](./media/er-quick-start1-adding-labels.png)
+![Pievienot ER etiķetes rediģējamā modeļa kartēšanai.](./media/er-quick-start1-adding-labels.png)
 
 Jūs esat ievadījis tikai noklusējuma valodas ER etiķetes. Lai iegūtu informāciju par to, kā ER etiķetes var tulkot citās valodās, skatiet rakstu [Vairākvalodu pārskati](er-design-multilingual-reports.md).
 
@@ -475,7 +475,7 @@ Tā kā ir jātransformē salīdzinājuma vērtību un teksta vērtību vairāku
     8. Atlasiet **Saglabāt** un aizveriet formulas redaktoru.
     9. Atlasiet **Labi**, lai pievienotu jaunu datu avotu.
 
-![Konfigurētā modeļa kartēšana ER modeļa kartēšanas noformētājā](./media/er-quick-start1-added-data-sources.png)
+![Konfigurētā modeļa kartēšana ER modeļa kartēšanas noformētājā.](./media/er-quick-start1-added-data-sources.png)
 
 #### <a name="bind-data-sources-to-data-model-fields"></a><a name="AddMmBindings1"></a>Datu avotu saistīšana uz datu modeļa laukiem
 
@@ -526,7 +526,7 @@ Konfigurētie datu avoti ir jāpiesaista datu modeļa laukiem, lai norādītu, k
 
     Sekojošajā attēlā redzama konfigurētā modeļa kartēšanas pēdējais stāvoklis **Modeļa kartēšanas veidotāja** lapā.
 
-    ![Pilnībā konfigurētā modeļa kartēšana ER modeļa kartēšanas noformētājā](./media/er-quick-start1-mapping2.png)
+    ![Pilnībā konfigurētā modeļa kartēšana ER modeļa kartēšanas noformētājā.](./media/er-quick-start1-mapping2.png)
 
 7. Saglabājiet izmaiņas.
 8. Aizveriet lapu **Modeļa kartējuma noformētājs**.
@@ -540,7 +540,7 @@ Konfigurētie datu avoti ir jāpiesaista datu modeļa laukiem, lai norādītu, k
 
 Šīs konfigurācijas 1.1. versijas statuss tiek mainīts no **Melnraksta** uz **Pabeigtu**. 1.1. versiju vairs nevar mainīt. Šī versija satur konfigurēto modeļa kartēšanu, un to var izmantot kā pamatu citām ER konfigurācijām. Šīs konfigurācijas 1.2. versija ir izveidota un tās statuss ir **Melnraksts**. Varat rediģēt šo versiju, lai koriģētu **Anketas kartēšanas** konfigurāciju.
 
-![Rediģējamās ER konfigurācijas versijas Konfigurāciju lapā](./media/er-quick-start1-mapping-configuration.png)
+![Rediģējamās ER konfigurācijas versijas Konfigurāciju lapā.](./media/er-quick-start1-mapping-configuration.png)
 
 > [!NOTE]
 > Konfigurētā modeļa kartēšana ir jūsu Finance specifiska abstraktā datu modeļa implementēšana, kas pārstāv **Anketas** biznesa domēnu.
@@ -549,32 +549,32 @@ Konfigurētie datu avoti ir jāpiesaista datu modeļa laukiem, lai norādītu, k
 
 EP struktūra izmanto iepriekš definētas veidnes, lai ģenerētu pārskatus Microsoft Office formātos (Excel darbgrāmatas vai Word dokumentus). Kamēr tiek ģenerēts pieprasītais pārskats, veidne tiek aizpildīta ar nepieciešamajiem datiem atbilstoši konfigurētajām darbplūsmas. Tāpēc vispirms ir jāizveido jūsu pielāgotā pārskata veidne. Šī veidne ir jāveido kā Excel darbgrāmata, kuras struktūra ir pielāgota pārskata izkārtojums. Jums jāpiešķir nosaukums katram Excel vienumam, ko plānojat aizpildīt ar nepieciešamajiem datiem.
 
-1. Lejupielādējiet [Anketu report template.xslx](https://go.microsoft.com/fwlink/?linkid=851448) failu un saglabājiet to lokālajā datorā.
+1. Lejupielādējiet [Anketu report template.xlsx](https://download.microsoft.com/download/3/8/2/382c3cf0-87bb-473f-b7bb-3015b4facb74/Questionnaires_report_template.xlsx) failu un saglabājiet to lokālajā datorā.
 2. Atveriet failu programmā Excel un pārskatiet darbgrāmatas struktūru.
 
 Kā redzams sekojošajā attēlā, lejupielādētā veidne ir izstrādāta, lai izdrukātu norādītās anketas, kas sniedz anketas jautājumus kopā ar atbilstošajām atbildēm.
 
-![Excel veidne, lai izdrukātu norādītās anketas](./media/er-quick-start1-template-layout.png)
+![Excel veidne, lai izdrukātu norādītās anketas.](./media/er-quick-start1-template-layout.png)
 
 Lai aizpildītu anketu detaļas, šai veidnei ir pievienoti Excel nosaukumi. Varat izmantot Nosaukumu pārvaldnieku, lai pārskatītu Excel nosaukumus.
 
-![Izmantot Nosaukumu pārvaldnieku, lai pārskatītu Excel nosaukumus norādītajā Excel veidnē](./media/er-quick-start1-template-names.png)
+![Izmantot Nosaukumu pārvaldnieku, lai pārskatītu Excel nosaukumus norādītajā Excel veidnē.](./media/er-quick-start1-template-names.png)
 
 Angļu valodas pārskata etiķetes ir pievienotas kā fiksēts teksts. Varat aizstāt pārskata etiķetes ar jaunajiem Excel nosaukumiem, kas aizpilda etiķetes ar no valodas atkarīgu tekstu, izmantojot ER formāta [etiķetes](#AddMmLabels), kā tas tika paveikts valodu pārdomātām izteiksmēm konfigurētajā modeļa kartēšanā. Šajā gadījumā ER etiķetes ir jāpievieno rediģējamā ER formātā.
 
 Kā redzams sekojošajā attēlā, pielāgotas atskaites galvene ir norādīta, lai iespējotu Excel veikt lapošanu.
 
-![Pielāgots pārskata virsraksts norādītajā Excel veidnē](./media/er-quick-start1-template-header.png)
+![Pielāgots pārskata virsraksts norādītajā Excel veidnē.](./media/er-quick-start1-template-header.png)
 
 ## <a name="design-a-format"></a><a name="DesignFormat"></a>Formāta veidošana
 
-Kā lietotājs Elektroniskās ziņošanas funkcionālā konsultanta lomā jums ir jāizveido jauna ER konfigurācija, kas ietver [formāta](general-electronic-reporting.md#FormatComponentOutbound) komponentu. Ir jākonfigurē formāta komponents, lai norādītu, kā pārskata veidne tiks aizpildīta ar nepieciešamajiem datiem izpildlaikā.
+Kā lietotājs Elektroniskās ziņošanas funkcionālā konsultanta lomā jums ir jāizveido jauna ER konfigurācija, kas ietver formāta komponentu. Ir jākonfigurē formāta komponents, lai norādītu, kā pārskata veidne tiks aizpildīta ar nepieciešamajiem datiem izpildlaikā.
 
 Veicot darbības, kas norādītas sadaļā [Importēt izveidotā formāta konfigurāciju](#FormatImport), jūs varat importēt nepieciešamo formātu no norādītā XML faila. Vai arī varat veikt darbības, kas aprakstītas sadaļā [Izveidot jaunu formāta konfigurāciju](#FormatCreate), lai izveidotu šo formātu no jauna.
 
 ### <a name="import-a-designed-format-configuration"></a><a name="FormatImport"></a>Izstrādātā formāta konfigurācijas importēšana
 
-1. Lejupielādējiet [Anketu format.version.1.1.xm](https://go.microsoft.com/fwlink/?linkid=851448) failu un saglabājiet to lokālajā datorā.
+1. Lejupielādējiet [Anketu format.version.1.1.xm](https://download.microsoft.com/download/1/b/a/1ba39ec2-257a-44d8-972f-25bf7d18fb41/Questionnaires_format.version.1.1.xml) failu un saglabājiet to lokālajā datorā.
 2. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
 3. Darbvietā **Elektroniskie pārskati** atlasiet **Pārskatu veidošanas konfigurācijas**.
 4. Darbību rūtī atlasiet **Mainīt** \> **Ielādēt no XML faila**.
@@ -614,11 +614,11 @@ Lai turpinātu, izlaidiet nākamo procedūru [Izveidot jaunu formāta konfigurā
     2. Meklējiet un atlasiet lokāli saglabāto **Anketu pārskata template.xslx** failu un pēc tam atlasiet **Atvērt**.
     3. Atlasiet **Labi**, lai importētu veidni.
 
-    ![Pārskata veidnes importēšana](./media/er-quick-start1-template-import.png)
+    ![Pārskata veidnes importēšana.](./media/er-quick-start1-template-import.png)
 
 **Excel\\File** formāta elements tiek automātiski pievienots rediģējamam formātam kā saknes elements. Turklāt **Excel\\Range** formāta elements vai **Excel\\Cell** formāta elements tiek automātiski pievienots katram importētās veidnes atpazītajam Excel nosaukumam. **Excel\\Header** formāts, kas ietver ligzdotu **Virknes** elementu, tiek automātiski pievienots, lai atspoguļotu importētās veidnes virsraksta iestatījumus.
 
-![Formatēt struktūru, kas ietver automātiski pievienotos elementus ER operāciju rīkā](./media/er-quick-start1-template-import2.png)
+![Formatēt struktūru, kas ietver automātiski pievienotos elementus ER operāciju rīkā.](./media/er-quick-start1-template-import2.png)
 
 #### <a name="configure-a-format"></a><a name="ConfigureFormat"></a>Formāta konfigurēšana
 
@@ -629,12 +629,12 @@ Lai turpinātu, izlaidiet nākamo procedūru [Izveidot jaunu formāta konfigurā
 
     Informāciju par to, kā noteikt valodas un kultūras kontekstu ER procesam, skatiet šeit: [Vairākvalodu pārskatu noformēšana](er-design-multilingual-reports.md).
 
-    ![Valodas un kultūras iestatījumu konfigurēšana plānotajam pārskatam ER operāciju veidotājā](./media/er-quick-start1-template-format-structure1.png)
+    ![Valodas un kultūras iestatījumu konfigurēšana plānotajam pārskatam ER operāciju veidotājā.](./media/er-quick-start1-template-format-structure1.png)
 
 5. Formatēšanas kokā izvērsiet saknes mezglu un pēc tam atlasiet **ResultsGroup**.
 6. Cilnē **Formāts** laukā **Replicēšanas virziens** atlasiet **Nav replikācijas**, jo nav paredzēts, ka vienai anketai ir vairākas rezultātu grupas.
 
-    ![Definēt replicēšanas virzienu diapazona formāta elementiem, kas atrodas ER operāciju veidotājā](./media/er-quick-start1-template-format-structure2.png)
+    ![Definēt replicēšanas virzienu diapazona formāta elementiem, kas atrodas ER operāciju veidotājā.](./media/er-quick-start1-template-format-structure2.png)
 
 7. Atlasiet **Saglabāt**.
 
@@ -654,7 +654,7 @@ Ir jānorāda datu saistījums formāta elementam, kas tiek izmantots, lai aizpi
 
 5. Aizveriet formulas redaktoru.
 
-    ![Saistījuma konfigurēšana, lai aizpildītu ģenerētā pārskata nosaukumu](./media/er-quick-start1-add-report-title-label.png)
+    ![Saistījuma konfigurēšana, lai aizpildītu ģenerētā pārskata nosaukumu.](./media/er-quick-start1-add-report-title-label.png)
 
 Varat izmantot šo metodi, lai visas pārējās pašreizējās veidnes etiķetes būtu atkarīgas no valodas. Lai iegūtu informāciju par to, kā vienas ER konfigurācijas pievienotās etiķetes var tulkot visās atbalstītajās valodās, skatiet rakstu [Daudzvalodu pārskatu izveide](er-design-multilingual-reports.md).
 
@@ -664,7 +664,7 @@ Varat izmantot šo metodi, lai visas pārējās pašreizējās veidnes etiķetes
 2. Atlasiet **Rediģēt**.
 3. Pārskatiet informāciju dialoglodziņā **Datu avota rekvizīti**. Šis datu avots pārstāv **Anketu** datu modeļa komponenta 1. versiju, kas atrodas **Anketu modeļa** ER konfigurācijā.
 
-![Rekvizīti par modeļa datu avotu ER operāciju noformētājā](./media/er-quick-start1-model-data-source.png)
+![Rekvizīti par modeļa datu avotu ER operāciju noformētājā.](./media/er-quick-start1-model-data-source.png)
 
 #### <a name="bind-format-elements-to-data-source-fields"></a><a name="BindFormatElements"></a>Formāta elementu saistīšana ar datu avotu laukiem
 
@@ -680,11 +680,11 @@ Lai norādītu, kā tiek aizpildīta veidne izpildlaikā, ir jāpiesaista katrs 
 
     **Anketas** diapazona formāta elements ir konfigurēts kā vertikāli replicēts. Kad tas ir piesaistīts datu avotam ar **Ierakstu saraksta** tipu, atbilstošais Excel veidnes **Anketu** diapazons tiek atkārtots katram saistītā datu avota ierakstam.
  
-    ![Anketu diapazona formāta elementu saistīšana ar atbilstošajiem Ierakstu saraksta datu avotiem ER operāciju veidotājā](./media/er-quick-start1-bindings1.png)
+    ![Anketu diapazona formāta elementu saistīšana ar atbilstošajiem Ierakstu saraksta datu avotiem ER operāciju veidotājā.](./media/er-quick-start1-bindings1.png)
 
     Tā kā Excel veidnes **Anketu** diapazons ir definēts no 5. līdz 14. rindai, šīs rindas tiek atkārtotas katrai pārskatā iekļautajai anketai.
 
-    ![Rindas Excel veidnē, kas tiks atkārtotas ģenerētajā pārskatā katram Ierakstu saraksta datu avotu ierakstam](./media/er-quick-start1-template-questionnaire-range.png)
+    ![Rindas Excel veidnē, kas tiks atkārtotas ģenerētajā pārskatā katram Ierakstu saraksta datu avotu ierakstam.](./media/er-quick-start1-template-questionnaire-range.png)
 
 8. Konfigurējiet līdzīgus saistījumus atlikušajiem formāta elementiem, kā aprakstīts šajā tabulā.
 
@@ -720,7 +720,7 @@ Lai norādītu, kā tiek aizpildīta veidne izpildlaikā, ir jāpiesaista katrs 
 
 Sekojošajā attēlā redzama konfigurētās datu saistīšanas pēdējais stāvoklis **Formāta veidotāja** lapā.
 
-![Konfigurētie datu saistījumi ER operāciju noformētājā](./media/er-quick-start1-bindings2.png)
+![Konfigurētie datu saistījumi ER operāciju noformētājā.](./media/er-quick-start1-bindings2.png)
 
 > [!IMPORTANT]
 > Visu norādīto datu avotu un saistījumu kolekcija attēlo konfigurētā formāta kartējuma komponentu. Šī formāta kartēšana tiek izsaukta, palaižot konfigurēto formātu pārskata ģenerēšanai.
@@ -763,7 +763,7 @@ Jautājumi nav pareizi sakārtoti ģenerētajā pārskatā. Varat mainīt secīb
 1. Lapā **Formāta veidotājs** atlasiet saknes krājumu **Pārskats**.
 2. Cilnē **Kartēšana** formatēšanas kokā izvērsiet **Pārskats\\Aptauja\\Jautājums**.
 
-    ![Diapazona tipa jautājuma formāta elements ER operāciju veidotājā](./media/er-quick-start1-bindings3.png)
+    ![Diapazona tipa jautājuma formāta elements ER operāciju veidotājā.](./media/er-quick-start1-bindings3.png)
 
 3. Cilnē **Kartēšana** atlasiet **model.Questionnaire**.
 4. Atlasiet **Pievienot** \> **Funkcijas\\Aprēķinātais lauks** un pēc tam laukā **Nosaukums** ievadiet **OrderedQuestions**.
@@ -776,7 +776,7 @@ Jautājumi nav pareizi sakārtoti ģenerētajā pārskatā. Varat mainīt secīb
 11. Atlasiet **Saistīt** un tad apstipriniet, ka pašreizējais **model.Questionnaire.Questions** ceļš ir aizstāts ar jauno **model.Questionnaire.OrderedQuestions** ceļu visos ligzdoto elementu saistījumos.
 12. Atlasiet **Saglabāt**.
 
-![Jautājuma formāta elementu saistīšana ar konfigurēto OrderedQuestions datu avotu, kas atrodas ER operāciju veidotājā](./media/er-quick-start1-bindings4.png)
+![Jautājuma formāta elementu saistīšana ar konfigurēto OrderedQuestions datu avotu, kas atrodas ER operāciju veidotājā.](./media/er-quick-start1-bindings4.png)
 
 ### <a name="run-a-modified-format-from-er"></a><a name="RunFormatFromER2"></a>Modificēto formātu palaišana no ER
 
@@ -790,7 +790,7 @@ Tagad varat izmantot modificēto formātu testēšanas nolūkiem no ER struktūr
 
 Sekojošajā attēlā redzams ģenerētais pārskats Excel formātā, kur jautājumi ir pareizi sakārtoti.
 
-![Ģenerētais pārskats Excel formātā, kur ir pareizi sakārtoti jautājumi](./media/er-quick-start1-report2.png)
+![Ģenerētais pārskats Excel formātā, kur ir pareizi sakārtoti jautājumi.](./media/er-quick-start1-report2.png)
 
 ### <a name="complete-the-format-design"></a><a name="CompleteFormat"></a>Formāta noformējuma pabeigšana
 
@@ -801,7 +801,7 @@ Sekojošajā attēlā redzams ģenerētais pārskats Excel formātā, kur jautā
 
 Šīs konfigurācijas 1.1. versijas statuss tiek mainīts no **Melnraksta** uz **Pabeigtu**. 1.1. versiju vairs nevar mainīt. Šajā versijā ir konfigurēts formāts, un to var izmantot, lai izdrukātu jūsu pielāgoto pārskatu. Šīs konfigurācijas 1.2. versija ir izveidota un tās statuss ir **Melnraksts**. Varat rediģēt šo versiju, lai koriģētu jūsu **Anketas** pārskata formātu.
 
-![Rediģējamās ER konfigurācijas versijas Konfigurāciju lapā](./media/er-quick-start1-format-configuration.png)
+![Rediģējamās ER konfigurācijas Konfigurāciju lapā.](./media/er-quick-start1-format-configuration.png)
 
 > [!NOTE]
 > Konfigurētais formāts ir jūsu **Anketas** pārskata noformējums, un tas nesatur attiecības ar Finance saistītiem artefaktiem.
@@ -1043,7 +1043,7 @@ Pievienojiet jūsu Visual Studio projektam jaunu **QuestionnairesErReport** izv�
 
 Pievienojiet projektam esošu **KM** izvēlni jūsu Visual Studio projektam. Šai izvēlnei ir jāpievieno jauns **Izejošā** tipa **QuestionnairesErReport** krājums izvēlnei. Šim krājumam ir jāattiecas uz **QuestionnairesErReport** izvēlnes elementu, kas aprakstīts iepriekšējā sadaļā.
 
-#### <a name="build-a-visual-studio-project"></a><a name="BuildVSProject"></a>Visual Studio projekta izveide
+#### <a name="build-a-visual-studio-project"></a><a name="BuildVSProject"></a>Izveidot Visual Studio projektu
 
 Izveidojiet savu projektu, lai jaunais izvēlnes elements būtu pieejams lietotājiem.
 
@@ -1051,7 +1051,7 @@ Izveidojiet savu projektu, lai jaunais izvēlnes elements būtu pieejams lietot�
 
 1. Dodieties uz **Aptauja** \> **Noformējums** \> **Aptauju pārskats (darbina ER)**.
 
-    ![Atlasot Anketu pārskata (darbina ER) izvēlnes krājumu Anketas modulī, lai palaistu konfigurēto ER formātu](./media/er-quick-start1-application-menu-modified.png)
+    ![Atlasot Anketu pārskata (darbina ER) izvēlnes krājumu Anketas modulī, lai palaistu konfigurēto ER formātu.](./media/er-quick-start1-application-menu-modified.png)
 
 2. Dialoglodziņā **Formāta kartēšana** atlasiet **Anketu pārskats**.
 3. Atlasiet **Labi**.
@@ -1059,7 +1059,7 @@ Izveidojiet savu projektu, lai jaunais izvēlnes elements būtu pieejams lietot�
 5. Lai apstiprinātu filtrēšanas opciju, atlasiet **Labi**.
 6. Atlasiet **Labi**, lai palaistu pārskatu.
 
-    ![Dialoglodziņā Elektroniskais pārskats norādiet atlases kritērijus](./media/er-quick-start1-report-run-dialog-page.png)
+    ![Dialoglodziņā Elektroniskais pārskats norādiet atlases kritērijus.](./media/er-quick-start1-report-run-dialog-page.png)
 
 7. Pārskatiet ģenerēto pārskatu.
 
@@ -1084,7 +1084,7 @@ Varat modificēt konfigurēto ER risinājumu tā, lai tas izmantotu datu nodroš
 
 Pievienotais datu avots sniedz informāciju par palaisto ER formāta kartēšanas ieraksta ID.
 
-![Pievienots datu avots ER modeļu kartēšanas veidotājā](./media/er-quick-start1-mapping3.png)
+![Pievienots datu avots ER modeļu kartēšanas veidotājā.](./media/er-quick-start1-mapping3.png)
 
 #### <a name="add-a-data-source-to-access-er-format-mapping-records"></a><a name="AddDataSource2"></a>Datu avota pievienošana, lai piekļūtu ER formāta kartēšanas ierakstiem
 
@@ -1119,7 +1119,7 @@ Turpiniet rediģēt atlasīto modeļa kartēšanu, lai datu modelī tiktu ievad�
 
 Tā kā jūs izmantojāt lauku **FormatName**, konfigurētā modeļa kartēšana tagad pakļauj ER formāta nosaukumu, kas izsauc šo modeļa kartēšanu izpildes laikā.
 
-![Datu modeļa lauku saistīšana ar pievienoto datu avota metodi ER modeļa kartēšanas veidotājā](./media/er-quick-start1-mapping4.png)
+![Datu modeļa lauku saistīšana ar pievienoto datu avota metodi ER modeļa kartēšanas veidotājā.](./media/er-quick-start1-mapping4.png)
 
 #### <a name="complete-the-design-of-the-model-mapping"></a><a name="CompleteModelMapping2"></a>Modeļa kartēšanas noformējuma pabeigšana
 
@@ -1156,7 +1156,7 @@ Varat modificēt konfigurēto ER formātu tā, lai tā nosaukums būtu redzams p
 
 Konfigurētais formāts tagad ir pārveidots tā, lai tā nosaukums tiktu ievadīts ģenerētā pārskata kājenē, izmantojot **Kājenes\\Virknes** elementu.
 
-![Kājenes formāta elementa pievienošana konfigurētajam formātam ER operāciju veidotājā](./media/er-quick-start1-template-format-structure3.png)
+![Kājenes formāta elementa pievienošana konfigurētajam formātam ER operāciju veidotājā.](./media/er-quick-start1-template-format-structure3.png)
 
 #### <a name="complete-the-format-design"></a><a name="CompleteFormat2"></a>Formāta noformējuma pabeigšana
 
@@ -1178,7 +1178,7 @@ Konfigurētais formāts tagad ir pārveidots tā, lai tā nosaukums tiktu ievad�
 
 Ievērojiet, ka ģenerētā pārskata kājenē ir norādīts tā ER formāta nosaukums, kas tika izmantots, lai to ģenerētu.
 
-![Ģenerētais fails Excel formātā](./media/er-quick-start1-report4.png)
+![Ģenerētais fails Excel formātā.](./media/er-quick-start1-report4.png)
 
 ### <a name="run-a-format-from-er"></a><a name="RunFormatFromER3"></a>Formāta palaišana no ER
 
@@ -1199,7 +1199,7 @@ Ievērojiet, ka ģenerētā pārskata kājenē nav ER formāta nosaukuma, kas ti
 3. Kopsavilkuma cilnē **Faila mērķis** iestatiet **Ekrāna** [mērķi](er-destination-type-screen.md) **Pārskata** formāta komponentam, kas ir [pievienots](#AddFormatRootElement) kā konfigurētā **Anketas pārskata** ER formāta saknes elements.
 4. Kopsavilkuma cilnē **PDF pārvēršanas iestatījumi** konfigurējiet mērķi, lai pārveidotu pārskatu [PDF formātā](electronic-reporting-destinations.md#OutputConversionToPDF), kas izmanto **Ainavas** lapas orientāciju.
 
-![Pielāgota ekrāna mērķa konfigurēšana ER formātam elektroniskās ziņošanas mērķa lapā](./media/er-quick-start1-destination.png)
+![Pielāgota ekrāna mērķa konfigurēšana ER formātam elektroniskās ziņošanas mērķa lapā.](./media/er-quick-start1-destination.png)
 
 ### <a name="run-a-format-from-the-application-to-preview-it-as-a-pdf-document"></a><a name="RunFormatFromApp3"></a>Formāta palaišana no programmas, lai to priekšskatītu kā PDF dokumentu
 
@@ -1211,17 +1211,17 @@ Ievērojiet, ka ģenerētā pārskata kājenē nav ER formāta nosaukuma, kas ti
 
     Kopsavilkuma cilnē **Galamērķi** ievērojiet, ka **Izvades** lauks ir iestatīts uz **Ekrāns**. Ja vēlaties mainīt konfigurēto mērķi, atlasiet **Mainīt**.
 
-    ![ER pārskata izpildlaika dialoglodziņš, kur varat mainīt konfigurēto mērķi](./media/er-quick-start1-run-settings.png)
+    ![ER pārskata izpildlaika dialoglodziņš, kur varat mainīt konfigurēto mērķi.](./media/er-quick-start1-run-settings.png)
 
 6. Atlasiet **Labi**, lai palaistu pārskatu.
 7. Pārskatiet ģenerēto failu PDF formātā.
 
-    ![Ģenerētā faila ekrāna priekšskatījums PDF formātā](./media/er-quick-start1-preview-PDF.png)
+    ![Ģenerētā faila ekrāna priekšskatījums PDF formātā.](./media/er-quick-start1-preview-PDF.png)
 
 ## <a name="additional-resources"></a><a name="References"></a>Papildu resursi
 
 - [Elektronisko pārskatu veidošanas apskats](general-electronic-reporting.md)
-- [Elektronisko atskaišu veidošanas formulas valoda](er-formula-language.md)
+- [Elektronisko pārskatu veidošanas formulu valoda](er-formula-language.md)
 - [Daudzvalodu pārskatu noformēšana](er-design-multilingual-reports.md)
 - [Elektronisko pārskatu struktūras API](er-apis-app73.md)
 - [CASE funkcija](er-functions-logical-case.md)
@@ -1233,3 +1233,6 @@ Ievērojiet, ka ģenerētā pārskata kājenē nav ER formāta nosaukuma, kas ti
 - [IF funkcija](er-functions-logical-if.md)
 - [ORDERBY funkcija](er-functions-list-orderby.md)
 - [SESSIONNOW funkcija](er-functions-datetime-sessionnow.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

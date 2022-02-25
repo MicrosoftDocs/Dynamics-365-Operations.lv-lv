@@ -2,7 +2,7 @@
 title: Iespējot Dynamics 365 Commerce un Microsoft Teams integrāciju
 description: Šajā tēmā ir aprakstīts, kā aktivizēt Microsoft Dynamics 365 Commerce un Microsoft Teams integrāciju.
 author: gvrmohanreddy
-ms.date: 03/31/2021
+ms.date: 02/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 9910ee48a0792c89a4e04ec8685fd02484e45575d70b06454dea56a89ee8c914
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 52b1a889a15cfe2e6e104e38b7d257f80762954f
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775342"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323434"
 ---
 # <a name="enable-dynamics-365-commerce-and-microsoft-teams-integration"></a>Iespējot Dynamics 365 Commerce un Microsoft Teams integrāciju
 
@@ -38,15 +38,23 @@ Lai iespējotu Microsoft Teams integrāciju ar commerce, jums Azure portālā ir
 Lai reģistrētu programmu Teams savam nomniekam Azure portālā, veiciet tālāk norādītās darbības.
 
 1. Veiciet norādītās darbības sadaļā [Ātrais starts: reģistrējiet programmu Microsoft identitātes platformā](/azure/active-directory/develop/quickstart-register-app), lai reģistrētu programmu Teams kopā ar nomnieku Azure portālā.
-1. Kopējiet **Programmas (klienta) ID** vērtību no reģistrētās programmas **Pārskata** lapas. Šī vērtība tiks izmantota, lai iespējotu Teams integrāciju programmā Commerce Headquarters.
-1. Kopējiet sertifikāta vērtību, kas tika ievadīta, kad [pievienojāt sertifikātu](/azure/active-directory/develop/quickstart-register-app#add-a-certificate) 1. solī. Sertifikāts tiek saukts arī par publisko atslēgu vai programmas atslēgu. Šī vērtība tiks izmantota, lai iespējotu Teams integrāciju programmā Commerce Headquarters.
+1. **Cilnē Programmas reģistrācija** atlasiet programmu, kuru izveidojāt iepriekšējā darbībā. Pēc tam cilnē **Autentifikācija** atlasiet Pievienot **platformu**.
+1. Dialoglodziņā atlasiet **Web**. Pēc tam laukā **Novirzīšanas** URL ievadiet VIETRĀDI URL formātā **\<HQUrl\>/oauth**. Aizstāt **\<HQUrl\>** ar commerce headquarters url (piemēram, `https://hxennugbjtweufmdeo385f47fadb6aa9a0aos.cloudax.int.dynamics.com/oauth`).
+1. **Reģistrētās programmas** pārskata lapā kopējiet Programmas **(klienta) ID** vērtību. Šī vērtība būs jānodrošina, lai nākamajā sadaļā iespējotu Teams integrāciju commerce headquarters.
+1. Lai pievienotu klienta noslēpumu [, sekojiet instrukcijām](/azure/active-directory/develop/quickstart-register-app#add-a-client-secret) sadaļā Klienta noslēpums. Pēc tam kopējiet **klienta** slepeno vērtību. Šī vērtība būs jānodrošina, lai nākamajā sadaļā iespējotu Teams integrāciju commerce headquarters.
+1. Atlasiet **API atļaujas** un pēc tam **atlasiet Pievienot atļauju**.
+1. Dialoglodziņā Pieprasīt **API atļaujas** atlasiet Microsoft grafiks **,** atlasiet Deleģētās atļaujas, **izvērsiet** Grupa, **·** **atlasiet Group.ReadWrite.All** un pēc tam atlasiet **Pievienot atļaujas**.
+1. Dialoglodziņā Pieprasīt **API atļaujas** atlasiet Pievienot atļauju, **atlasiet** Microsoft Graph **,** atlasiet Programmu atļaujas, **izvērsiet** Grupa, **·** **atlasiet Group.ReadWrite.All** **un pēc tam atlasiet Pievienot atļaujas.**
+1. **Dialoglodziņā Pieprasīt API** atļaujas atlasiet **Pievienot atļauju**. Cilnē API **mans uzņēmums izmanto,** meklējiet mazumtirdzniecības **Microsoft Teams pakalpojumu** un atlasiet to.
+1. Atlasiet **Deleģētās atļaujas**, izvērsiet **Uzdevumu publicēšana**, atlasiet **TaskPublising.ReadWrite.All** un pēc tam atlasiet **Pievienot atļaujas**. Papildinformāciju skatiet klienta [programmas konfigurēšana tīmekļa API piekļuvei](/azure/active-directory/develop/quickstart-configure-app-access-web-apis).
 
 Lai iespējotu Teams integrāciju Commerce Headquarters, veiciet tālāk norādītās darbības.
 
 1. Dodieties uz **Mazumtirdzniecība un komercija \> Kanāla iestatīšana \> Microsoft Teams integrācijas konfigurēšana**.
 1. Darbību rūtī atlasiet **Rediģēt**.
 1. Iestatiet opciju **Iespējot Microsoft Teams integrāciju** uz **Jā**.
-1. Laukos **Programmas ID** un **Programmas atslēga** ievadiet vērtības, ko ieguvāt, kad Azure portālā reģistrējāt programmu Teams.
+1. Laukā **Programmas ID** ievadiet lietojumprogrammas **(klienta) ID** vērtību, ko ieguvāt, kad Azure portālā reģistrēāt programmu Brigādes.
+1. Laukā **Programmas atslēga ievadiet** slepeno **vērtību,** ko ieguvāt, azure portālā pievienojiet klienta noslēpumu.
 1. Darbību rūtī atlasiet **Saglabāt**.
 
 Šajā attēlā parādīts Teams integration konfigurācijas piemērs Commerce Headquarters.

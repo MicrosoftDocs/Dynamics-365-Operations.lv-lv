@@ -1,12 +1,10 @@
 ---
 title: Līdzekļu pārvaldības parametri
 description: Līdzekļu pārvaldībā ir jāiestata vispārējie parametri, kas attiecas uz līdzekļiem, darba pasūtījumiem un darba pasūtījumu plānošanu.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetParameters
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5e4b76ba90ab03cd35e72eff8acc89f780659fa5
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 1659fd3b4c173ffe09f245631309d329bba5b1bd
+ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020658"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8105493"
 ---
 # <a name="asset-management-parameters"></a>Līdzekļu pārvaldības parametri
 
@@ -51,7 +49,7 @@ Cilne **Darba pasūtījumi** nodrošina šādus iestatījumus:
 - **Noklusējuma darba pasūtījuma veids** definē standarta iestatījumus, veidojot darba pasūtījumu.  
 - **Preventīvā darba pasūtījuma veids** definē darba pasūtījuma veidu, kas tiek izmantots, veidojot darba pasūtījumus no uzturēšanas plāniem. Ja šis lauks ir atstāts tukšs, tiek izmantots darba pasūtījuma veids laukā **Noklusējuma darba pasūtījuma veids**.  
 - Laukā **Saistītā darba pasūtījuma maska** varat definēt maksimālo darba pasūtījumu skaitu, kas var būt saistīts ar darba pasūtījumu. Piemēram, ## ļauj būt līdz 99 saistītajiem darba pasūtījumiem. Ja definējat masku, kā aprakstīts šeit, saistītie darba pasūtījumi tiks numurēti [darba pasūtījuma ID darba pasūtījumam, ar kuru ir saistīts darba pasūtījums]-01,-02,-03 un tā tālāk. Ja maska netiek definēta šajā laukā, saistītais darba pasūtījums saņems nākamā secīgā darba pasūtījuma ID.  
-- Atlasiet **Jā** pārslēgšanas pogai **Kopēt kļūmes**, ja vēlaties saistītajos uzturēšanas pieprasījumos automātiski kopēt kļūmes, kas reģistrētas par darba pasūtījumiem. 
+- Atlasiet **Jā**, lai **kopētu kļūmes**, ja vēlaties automātiski kopēt kļūmes, kas reģistrētas uzturēšanas pieprasījumos saistītajiem darba pasūtījumiem. 
 - Laukā **Līmenis** definējiet funkcionālā novietojuma līmeni, kas tiek automātiski ievietots darba pasūtījumā, ja visi saistītie darba pasūtījuma darbi attiecas uz to pašu funkcionālo novietojumu. Ja visi darba pasūtījuma darbi nav saistīti ar to pašu funkcionālo novietojumu definētajā līmenī, lauks **Funkcionālais novietojums** darba pasūtījumā tiek atstāts tukšs. Piemēram, ievietojot šajā laukā skaitli "1", tas ir augšējais līmenis funkcionālā novietojuma struktūrā. Ievietojot šajā laukā skaitli "0", netiek definēts konkrēts funkcionālā novietojuma līmenis, bet tikai tas, ka visiem darba pasūtījuma darbiem darba pasūtījumā jābūt saistītiem ar to pašu funkcionālo novietojumu, kas jāpievieno darba pasūtījumam.  
 - Žurnālus, ko izmanto, iegrāmatojot patēriņu darba pasūtījumā, var atlasīt kopsavilkuma cilnes **Vispārīgi** laukos **Stunda**, **Vienība** un **Izdevumi**.  
 - Laukā **Preces valodas avots** atlasiet valodu, ko izmantot preču nosaukumiem Līdzekļu pārvaldības pārskatos. Varat atlasīt valodu, kas iestatīta uzņēmuma kontā, vai valodu, kas iestatīta lietotājam, kurš pašlaik ir pieteicies.  
@@ -101,8 +99,11 @@ Zemāk redzamajā sarakstā aprakstītie lauki attiecas uz aprēķinātiem vērt
 
 ## <a name="the-document-types-tab"></a>Cilne Dokumentu veidi
 
-Atlasiet dokumentu veidus, kuriem jābūt pieejamiem, drukājot pielikumus, kas saistīti ar darba pasūtījuma pārskatu. Tas tiek darīts, atlasot dokumenta veidu sadaļā **Pieejams** un atlasot ![bultiņa uz priekšu](media/15-setup-for-objects.png). Ja vēlaties noņemt atlasīto dokumenta veidu, atlasiet dokumenta veidu sadaļā **Atlasīts** un atlasot ![bultiņa atpakaļ](media/16-setup-for-objects.png).
+Atlasiet dokumentu veidus, kuriem jābūt pieejamiem, drukājot pielikumus, kas saistīti ar darba pasūtījuma pārskatu. Tas tiek darīts, atlasot dokumenta veidu sadaļā **Pieejams** un atlasot ![bultiņa uz priekšu.](media/15-setup-for-objects.png). Ja vēlaties noņemt atlasīto dokumenta veidu, atlasiet dokumenta veidu sadaļā **Atlasīts** un atlasot ![bultiņa atpakaļ](media/16-setup-for-objects.png).
 
 ## <a name="the-number-sequences-tab"></a>Cilne Numuru secība
 
 Atlasiet šajā sadaļā nepieciešamās numuru sērijas. Līdzekļiem ir divas numuru sērijas: viena manuāli izveidotiem līdzekļiem, bet otra —līdzekļiem, kas izveidoti, izmantojot gaidošos līdzekļus.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

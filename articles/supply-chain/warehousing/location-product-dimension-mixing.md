@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 20085c51230d3ceca46c5119fecbc3cf3291ecd4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 031b92f827979c01dbf0208ba21ae827fb13920b
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578564"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103492"
 ---
 # <a name="location-product-dimension-mixing"></a>Novietojuma produkta dimensiju sajaukšana
 
@@ -26,14 +26,11 @@ ms.locfileid: "7578564"
 
 Novietojuma produkta dimensiju kombinēšana ir novietojuma profila funkcionalitāte, kas palīdz uzlabot novietojumu pārvaldību, izmantojot produkta variantus vai produktus ar dimensijām, piemēram, modes industrijā. Tas ļauj jums izlemt, vai konfigurācijas, krāsas, stilus un izmērus var kombinēt noteiktam novietojuma profilam, vai arī tikai vienu no šīm dimensijām, vai to kombināciju var pievienot tam pašam novietojumam.
 
-## <a name="turn-on-the-location-product-dimension-mixing-feature"></a>Ieslēdziet Novietojuma produkta dimensiju jaukšanas iespēju
+## <a name="turn-the-location-product-dimension-mixing-feature-on-or-off"></a>Ieslēgt vai izslēgt novietojuma preču dimensiju jaukšanas līdzekli
 
-Pirms izmantot novietojuma produktu dimensiju jaukšanu, funkcijai ir jābūt iespējotai sistēmā. Administratori var izmantot [Līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Tur šī iespēja ir uzskaitīta tālāk minētajā veidā:
+Lai izmantotu šajā tēmā aprakstīto funkcionalitāti, jūsu *sistēmai ir* jābūt ieslēgtai preces dimensijas jaukšanas funkcijai. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja jūs palaižat versiju, kas vecāka par 10.0.25, tad administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot Atrašanās *vietas preču dimensiju jaukšanas*[līdzekli Līdzekļu pārvaldības darbvietā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-- **Modulis:** *Noliktavas vadība*
-- **Funkcijas nosaukums:** *Novietojuma produktu dimensiju jaukšana*
-
-## <a name="setup"></a>Iestatījumi
+## <a name="setup"></a>Iestatīšana
 
 Katram novietojumam ir jābūt ar to saistītam novietojuma profilam noliktavā, kas apraksta novietojuma parametrus. Tāpēc visas vietas, kas izmanto vienu novietojuma profilu, pēc tā iestatīšanas varēs atļaut produktu dimensiju jaukšanu.
 

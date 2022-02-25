@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 419e2b3b6bc5636aa75cf3ecc26e32ad22260a7e
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: dca0aba081321dff5ae061ebe4bddcae0e42bc54
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778111"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102768"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Noklusējuma pasūtījumu iestatījumi dimensijām un preču variantiem
 
@@ -186,12 +186,9 @@ Varat izvēlēties, cik stingrai sistēmai jābūt, pārbaudot daudzumus, kas ie
 
 Stingrā pārbaude attiecas uz **Standarta pasūtījuma daudzuma** vērtībām, kas norādītas **Pirkšanas pasūtījumā**, **Krājumā** un **Pārdošanas pasūtījuma** kopsavilkuma cilnēs lapā **Noklusējuma pasūtījuma iestatījumi**. Katrai kopsavilkuma cilnei ir savi **Vairāki** iestatījumi, kas tiek izmantoti, lai apstiprinātu **Standarta pasūtījuma daudzuma** vērtību, kas norādīta šai kopsavilkuma cilnei.
 
-### <a name="enable-the-strict-validation-option"></a>Iespējot stingrās pārbaudes opciju
+### <a name="turn-the-strict-validation-option-on-or-off"></a>Ieslēgt vai izslēgt stingrās apstiprināšanas opciju
 
-No Piegādes ķēdes pārvaldības versijas 10.0.21 šī funkcija ir ieslēgta pēc noklusējuma. Administratori var izmantot Līdzekļu [pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lapu, lai pārbaudītu līdzekļu statusu un aktivizētu vai atspējotu to, ja nepieciešams. Šeit līdzeklis tiek norādīts kā:
-
-- **Modulis** - *Preču informācijas pārvaldība*
-- **Līdzekļa nosaukums** - *Stingrā pārbaude pēc noklusējuma pasūtījumu daudzumiem*
+Lai veiktu stingro apstiprināšanu *, sistēmai ir jābūt* ieslēgtai funkcijai Stingrā pārbaude noklusējuma pasūtījumu daudzumiem. No Piegādes ķēdes pārvaldības versijas 10.0.21 šī funkcija ir ieslēgta pēc noklusējuma. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja lietojat versiju, kas vecāka par 10.0.25, šo funkcionalitāti var ieslēgt vai izslēgt, [...](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)*dodoties* uz funkciju pārvaldību un meklējot funkciju Stingrā pārbaude noklusējuma pasūtījumu daudzumiem.
 
 ### <a name="set-the-validation-option"></a>Iestatiet pārbaudes opciju
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 6b8d663fa9743fae83654ed9938b4131e0fa08b9
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: a687c26cacc0dbdaf0091b2d26277864553ca1bf
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902196"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103317"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>Darbību ikonu un nosaukumu piešķiršana Warehouse Management mobilajai programmai
 
@@ -27,12 +27,9 @@ Nākamajās ilustrācijās ir parādīts, kā darbību ikonas un virsraksti tiek
 
 ![Darbību ikonas un virsraksta piemērs Warehouse Management mobilajā lietojumprogrammā.](media/step-icon-example.png "Darbību ikonas un virsraksta piemērs Warehouse Management mobilajā lietojumprogrammā")
 
-## <a name="turn-on-this-feature-in-your-system"></a>Šī līdzekļa ieslēgšana sistēmā
+## <a name="turn-this-feature-on-or-off"></a>Ieslēgt vai izslēgt šo līdzekli
 
-Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [Funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
-
-- **Modulis:** *Noliktavas pārvaldība*
-- **Līdzekļa nosaukums:** *Lietotāja iestatījumi, ikonas un darbību nosaukumi jaunajai noliktavas programmai*
+Lai izmantotu šajā tēmā aprakstīto funkcionalitāti, *jaunās noliktavas programmas funkcijas lietotāja iestatījumiem,* ikonām un darbību nosaukumiem ir jābūt ieslēgtiem jūsu sistēmai. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja lietojat versiju, kas vecāka par 10.0.25, administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot jaunās noliktavas programmas funkcijas Lietotāja iestatījumus, ikonas un soļu *nosaukumus*[līdzekļu](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pārvaldības darbvietā.
 
 ## <a name="standard-step-ids-classes-and-icons"></a>Standarta darbību ID, klases un ikonas
 

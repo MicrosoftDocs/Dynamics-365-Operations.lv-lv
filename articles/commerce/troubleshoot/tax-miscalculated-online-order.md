@@ -2,7 +2,7 @@
 title: Tiešsaistes pasūtījumu nodokļi nav pareizi aprēķināti
 description: Šajā tēmā ir sniegtas problēmu novēršanas norādes, kas var palīdzēt, ja tiešsaistes pasūtījumu nodokļi tiek nepareizi aprēķināti vai ja nodokļu grupa nav pareizi iestatīta pārdošanas rindā.
 author: Reza-Assadi
-ms.date: 03/11/2021
+ms.date: 02/16/2022
 ms.topic: Troubleshooting
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: e51ae789dad2c7b5118be2cf8a88f4e4090a8c74c8259b4eaaddad1a134af80a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 0e4361b436cc78eccaff29dfa2927d342e26072d
+ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715264"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8312035"
 ---
 # <a name="taxes-on-online-orders-are-incorrectly-calculated"></a>Tiešsaistes pasūtījumu nodokļi nav pareizi aprēķināti
 
@@ -33,6 +33,17 @@ ms.locfileid: "6715264"
 Kad tiek veikts e-komercijas pasūtījums, nodokļi ir nepareizi aprēķināti vai nodokļu grupa ir nepareizi iestatīta pārdošanas rindā.
 
 ## <a name="resolution"></a>Novēršana
+
+### <a name="configure-general-sales-tax-groups-in-commerce-headquarters"></a>Vispārīgo pārdošanas nodokļa grupu konfigurēšana programmā Commerce Headquarters
+
+Lai konfigurētu vispārīgas pārdošanas nodokļa grupas Commerce Headquarters, veiciet tālāk norādītās darbības.
+
+1. Dodieties uz **Nodokļi \> Netiešie nodokļi \> Pārdošanas nodoklis \> Pārdošanas nodokļa grupa**.
+1. Kreisās puses navigācijas rūtī atlasiet konfigurējamo NODOKĻU grupu.
+1. Kopsavilkuma cilnē **Mazumtirdzniecības mērķis, balstoties uz nodokli**, konfigurējiet pārdošanas nodokļa grupas nodokļus.
+
+> [!NOTE]
+> Piegādei, kas neietver PVN, kas ir noteikts pēc debitora adreses, rindas piegādes adrese un mērķa nodokļi, kas ir konfigurēti nodokļu grupai, nosaka nodokļu grupu. Lai iegūtu papildu informāciju, skatiet sadaļu [Nodokļu iestatīšana tiešsaistes veikaliem, kas balstīti uz mērķi](/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination).
 
 ### <a name="configure-the-sales-tax-for-a-retail-store-in-commerce-headquarters"></a>Pārdošanas nodokļa konfigurēšana mazumtirdzniecības veikalam programmā Commerce Headquarters
 
@@ -57,17 +68,6 @@ Lai konfigurētu pārdošanas nodokli debitora adresei programmā Commerce Headq
 
 > [!NOTE]
 > Nosūtīšanai, kas ietver pārdošanas nodokli debitora adresē, rindas piegādes adrese nosaka rindas nodokļu grupu. Ja debitors veic piegādi uz esošu adresi, kam jau ir konfigurēta nodokļu grupa, tiks izmantota esošā nodokļu grupa. Pēc noklusējuma adresēm, kad tās tiek izveidotas, nav nodokļu grupas.
-
-### <a name="configure-general-sales-tax-groups-in-commerce-headquarters"></a>Vispārīgo pārdošanas nodokļa grupu konfigurēšana programmā Commerce Headquarters
-
-Lai konfigurētu vispārīgas pārdošanas nodokļa grupas Commerce Headquarters, veiciet tālāk norādītās darbības.
-
-1. Dodieties uz **Nodokļi \> Netiešie nodokļi \> Pārdošanas nodoklis \> Pārdošanas nodokļa grupa**.
-1. Navigācijas kreisajā pusē atlasiet konfigurējamo nodokļu grupu.
-1. Kopsavilkuma cilnē **Mazumtirdzniecības mērķis, balstoties uz nodokli**, konfigurējiet pārdošanas nodokļa grupas nodokļus.
-
-> [!NOTE]
-> Piegādei, kas neietver pārdošanas nodokli debitora adresē, rindas piegādes adrese un mērķa nodokļi, kas ir konfigurēti nodokļu grupai, nosaka nodokļu grupu. Lai iegūtu papildu informāciju, skatiet sadaļu [Nodokļu iestatīšana tiešsaistes veikaliem, kas balstīti uz mērķi](/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination).
 
 ## <a name="additional-resources"></a>Papildu resursi
 

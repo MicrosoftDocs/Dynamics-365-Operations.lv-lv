@@ -1,12 +1,10 @@
 ---
 title: E-pasta ziņojuma ER adresāta tips
-description: Šajā tēmā ir paskaidrots, kā konfigurēt e-pasta ziņojuma galamērķi katram MAPES vai FAILA komponentam elektroniskās ziņošanas (ER) formātā, kas ir konfigurēts izejošo dokumentu ģenerēšanai.
+description: Šajā tēmā sniegta informācija par to, kā konfigurēt arhīva mērķi katrai MAPEI vai FAILA komponentam elektronisko pārskatu (ER) formātā.
 author: NickSelin
-manager: AnnBe
-ms.date: 12/03/2020
+ms.date: 08/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c6242ecb44a206aacc0e1b1b3c4f588eadd18882
-ms.sourcegitcommit: 53174ed4e7cc4e1ba07cdfc39207e7296ef87c1f
-ms.translationtype: HT
+ms.openlocfilehash: 2248b8a35b076eb778a50bbbc67d083380ceee62
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4690130"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8324012"
 ---
 # <a name="email-er-destination-type"></a>E-pasta ziņojuma ER adresāta tips
 
@@ -44,30 +42,61 @@ Var arī [grupēt](#grouping) vairākus komponentus **Mape** vai **Fails** kopā
 
 Vienai ER formāta konfigurācijai var konfigurēt vairākas komponentu grupas. Šādā veidā varat konfigurēt e-pasta ziņojuma galamērķi katrai komponentu grupai un e-pasta ziņojumu galamērķi katram komponentam.
 
+## <a name="enable-an-email-destination"></a>E-pasta ziņojuma galamērķa iespējošana
+
+Lai nosūtītu vienu vai vairākus izvades failus pa e-pastu, sekojiet šiem soļiem.
+
+1. Lapā **Elektronisko ziņojumu galamērķis**, kopsavilkuma cilnē **Faila galamērķis** atlasiet režgī komponentu vai komponentu grupu.
+2. Atlasiet **Iestatījumi**, dialoglodziņā **Galamērķa iestatījumi** cilnē **E-pasta ziņojums** iestatiet opciju **Iespējots** uz **Jā**.
+
+[![Opcijas Iespējots iestatīšana uz Jā e-pasta galamērķim.](./media/ER_Destinations-EnableSingleDestination.png)](./media/ER_Destinations-EnableSingleDestination.png)
+
 ## <a name="configure-an-email-destination"></a>E-pasta ziņojuma galamērķa konfigurēšana
 
-Lai nosūtītu izvades failu vai vairākus izvades failus pa e-pastu, lapas **Elektroniskās ziņošanas galamērķis** kopsavilkuma cilnē **Faila galamērķis** atlasiet komponentu vai komponentu grupu režģī un pēc tam atlasiet **Iestatījumi**. Parādītā dialoglodziņa **Galamērķa iestatījumi** cilnē **E-pasta ziņojums** iestatiet opciju **Iespējots** uz **Jā**. Pēc tam varat norādīt e-pasta ziņojumu adresātus, kā arī rediģēt tēmu un e-pasta ziņojuma pamattekstu. E-pasta ziņojuma tēmai un pamattekstam varat iestatīt konstantu tekstu, vai arī varat lietot ER- [formulas](er-formula-language.md), lai e-pasta tekstus izveidotu dinamiski.
+### <a name="email-content"></a>E-pasta ziņojuma saturs
+
+Varat rediģēt e-pasta ziņojuma tēmu un pamattekstu.
+
+Laukā **Tēma** ievadiet e-pasta tēmas tekstu, kam ir jāparādās izpildlaikā ģenerētā elektroniskā ziņojuma tēmas laukā. Laukā **Pamatteksts** ievadiet e-pasta pamatteksta tekstu, kam ir jāparādās elektroniskā ziņojuma pamatteksta laukā. E-pasta ziņojuma tēmai un pamattekstam varat iestatīt konstantus tekstus, vai arī varat lietot ER [formulas](er-formula-language.md), lai e-pasta tekstus izveidotu dinamiski izpildlaikā. Konfigurētai formulai ir jāatgriež [virknes](er-formula-supported-data-types-primitive.md#string) veida vērtība.
+
+Atkarībā no e-pasta klienta e-pasta ziņojuma pamatteksts ir TEKSTA vai HTML formātā. Jūs varat izmantot jebkuru izkārtojumu, stilu un zīmolu, ko HTML un iekļautās kaskadētās stila lapas (CSS) atļauj.
+
+> [!NOTE]
+> E-pasta klienti nosaka izkārtojuma un stila ierobežojumus, kas varētu prasīt labojumus HTML un CSS, ko izmantojat ziņojuma pamattekstam. Mēs iesakām jums iepazīties ar labāko praksi, lai izveidotu HTML, ko atbalstīs populārākie e-pasta klienti.
+>
+> Izmantojiet pareizu kodējumu, lai ieviestu rakstatgriezi, atkarībā no pamatteksta formatējuma. Lai iegūtu plašāku informāciju skatiet datu veida [Virkne](er-formula-supported-data-types-primitive.md#string) definīciju.
+
+### <a name="email-addresses"></a>E-pasta adreses
+
+Varat norādīt e-pasta sūtītāju un e-pasta saņēmējus. Pēc noklusējuma e-pasta ziņojums tiek sūtīts pašreizējā lietotāja vārdā. Lai norādītu citu e-pasta sūtītāju, ir jākonfigurē lauks **No**.
+
+> [!NOTE]
+> Kad e-pasta adresāts ir konfigurēts, lauks **No** ir redzams tikai lietotājiem, kuriem ir `ERFormatDestinationSenderEmailConfigure` drošības privilēģija, **Konfigurēt sūtītāja e-pasta adresi ER formāta adresātiem**.
+>
+> Kad e-pasta adresātu piedāvā mainīt [palaišanas laikā](electronic-reporting-destinations.md#security-considerations), lauks **No** ir redzams tikai lietotājiem, kuriem ir `ERFormatDestinationSenderEmailMaintain` drošības privilēģija, **Saglabāt sūtītāja e-pasta adresi ER formāta adresātiem**.
+>
+> Kad lauks **No** ir konfigurēts izmantot e-pasta adresi, kas nav pašreizējā lietotāja adrese, tiesības **Sūtīt kā** vai **Sūtīt vārdā** ir pareizi [jāiestata](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group) iepriekš. Pretējā gadījumā izpildlaikā tiek parādīts šāds izņēmums: "Nevar nosūtīt e-pastu kā \<from email account\> no \<current user account\> konta, lūdzu, pārbaudiet atļaujas Sūtīt kā šim \<from email account\> kontam."
+
+Varat konfigurēt lauku **No**, lai atgrieztu vairāk nekā vienu e-pasta adresi. Šajā gadījumā pirmā saraksta adrese tiek izmantota kā e-pasta sūtītāja adrese.
+
+Lai norādītu e-pasta saņēmējus, ir jākonfigurē lauki **Kam** un **Kopija** (neobligāti).
 
 E-pasta adreses lietošanai ar ER varat konfigurēt divos veidos. Konfigurāciju var pabeigt tādā pašā veidā, kā to pabeidz drukāšanas pārvaldības līdzeklis, vai arī varat atrisināt e-pasta adresi, izmantojot tiešu atsauci uz ER konfigurāciju ar formulas palīdzību.
 
-[![Opcijas Iespējots iestatīšana uz Jā e-pasta galamērķim](./media/ER_Destinations-EnableSingleDestination.png)](./media/ER_Destinations-EnableSingleDestination.png)
-
 ## <a name="email-address-types"></a>E-pasta adrešu tipi
 
-Ja atlasāt **Rediģēt** blakus laukam **Kam** vai **Kopija** dialoglodziņā **Galamērķa iestatījumi**, tiek parādīts dialoglodziņš **E-pasta ziņojuma adresāts**. Atlasiet **Pievienot** un pēc tam atlasiet izmantojamās e-pasta adreses tipu. Divi pašlaik atbalstītie tipi: **Drukāt pārvaldības e-pasta ziņojumu** un **Konfigurācijas e-pasta ziņojums**.
+Ja atlasāt **Rediģēt** blakus laukam **No**, **Kam** vai **Kopija** dialoglodziņā **Galamērķa iestatījumi**, tiek parādīts dialoglodziņš **E-pasta ziņojums no**, **E-pasta ziņojums kam**, **E-pasta ziņojuma kopija**. Tur varat konfigurēt e-pasta sūtītāju un e-pasta saņēmējus. Atlasiet **Pievienot** un pēc tam atlasiet izmantojamās e-pasta adreses tipu. Divi pašlaik atbalstītie tipi: **Drukāt pārvaldības e-pasta ziņojumu** un **Konfigurācijas e-pasta ziņojums**.
 
-[![E-pasta adreses tipa atlasīšana](./media/ER_Destinations-EmailSelectAddressType.png)](./media/ER_Destinations-EmailSelectAddressType.png)
+[![E-pasta adreses tipa atlasīšana.](./media/ER_Destinations-EmailSelectAddressType.png)](./media/ER_Destinations-EmailSelectAddressType.png)
 
 ### <a name="print-management-email"></a>Drukāt pārvaldības e-pasta ziņojumu
 
-Ja atlasāt **Drukāt pārvaldības e-pasta ziņojumu** kā e-pasta adreses tipu, varat ievadīt fiksētās e-pasta adreses dialoglodziņā **E-pasta ziņojuma adresāts**, iestatot tālāk minētos laukus.
+Ja atlasāt **Drukāt pārvaldības e-pasta ziņojumu** kā e-pasta adreses tipu, varat ievadīt fiksētās e-pasta adreses dialoglodziņā **E-pasta ziņojums no**, **E-pasta ziņojums kam** vai **E-pasta ziņojuma kopija**, iestatot šādus laukus:
 
 - Laukā **E-pasta avots** atlasiet **Nav**.
 - Laukā **Papildu e-pasta adreses, kas atdalītas ar “;”** ievadiet fiksētās e-pasta adreses.
 
-![Fiksēto e-pasta adrešu konfigurēšana](./media/er_destinations-emailfixedaddress.png)
-
-Varat arī saņemt e-pasta adreses no tās puses kontaktinformācijas, kurai ģenerējat izejošo dokumentu. Lai lietotu e-pasta adreses, kas nav fiksētas, laukā **E-pasta avots** atlasiet puses [lomu](../../fin-ops/organization-administration/overview-global-address-book.md#party-roles) faila galamērķim. Tālāk ir norādīti atbalstītās lomas.
+Varat arī saņemt e-pasta adreses no tās puses kontaktinformācijas, kurai ģenerējat izejošo dokumentu. Lai lietotu e-pasta adreses, kas nav fiksētas, laukā **E-pasta avots** atlasiet puses [lomu](../../fin-ops/organization-administration/overview-global-address-book.md#party-roles) faila galamērķim. Tālāk ir norādītas atbalstītās lomas:
 
 - Debitors
 - Kreditors
@@ -78,6 +107,7 @@ Varat arī saņemt e-pasta adreses no tās puses kontaktinformācijas, kurai ģe
 - Kandidāts
 - Potenciālais piegādātājs
 - Neatļauts piegādātājs
+- Juridiska persona
 
 Piemēram, lai konfigurētu e-pasta adresātu ER formātam, kas tiek izmantots, lai apstrādātu kreditoru maksājumus, atlasiet lomu **Kreditors**.
 
@@ -88,11 +118,9 @@ Pēc tam, kad ir atlasīta vajadzīgā loma, atlasiet pogu **Saistīt** (ķēdes
 
 Lapas **Formulas veidotājs** laukā **Formula** ievadiet dokumentam specifisku atsauci uz atbalstītu lomu. Tā vietā, lai rakstītu atsauci, rūtī **Datu avots** meklējiet un atlasiet datu avota zaru, kas attēlo konfigurētās lomas kontu, un pēc tam atlasiet **Pievienot datu avotu**, lai atjauninātu formulu. Piemēram, ja konfigurējat e-pasta adresātu konfigurācijai **ISO 20022 kredīta pārskaitījumu**, kas tiek izmantota kreditoru maksājumu apstrādei, zars, kas norāda kreditora kontu, ir `'$PaymentsForCoveringLetter'.Creditor.Identification.SourceID`.
 
-![E-pasta avota konta konfigurēšana](./media/er_destinations-emaildefineaddresssource.gif)
+![E-pasta avota konta konfigurēšana.](./media/er_destinations-emaildefineaddresssource.gif)
 
 Ja konfigurētās lomas kontu numuri ir unikāli visai Microsoft Dynamics 365 Finance instancei, dialoglodziņa **E-pasta ziņojuma adresāts** lauks **E-pasta ziņojuma avota uzņēmums** var palikt tukšs.
-
-![Tukšs lauks E-pasta avota uzņēmums](./media/er_destinations-emaildefineaddresssourceformula.png)
 
 Vai arī var būt situācija, kad dažādas puses [globālajā adrešu grāmatā](../../fin-ops/organization-administration/overview-global-address-book.md) ir reģistrētas dažādos uzņēmumos ([juridiskas personas](../../fin-ops/organization-administration/organizations-organizational-hierarchies.md#legal-entities)) tādā veidā, ka tās visas izmanto vienu konta numuru, lai aizpildītu konfigurēto lomu. Šādā gadījumā konfigurētās lomas kontu numuri nav unikāli visai finanšu instancei. Tāpēc, lai skaidri atlasītu pusi, nevar norādīt tikai konta numuru. Jānorāda arī uzņēmums, kam puse reģistrēta, lai aizpildītu konfigurēto lomu. Atlasiet pogu **Saistīt** (ķēdes simbols) blakus dialoglodziņa **E-pasta adresāts** laukam **E-pasta avota uzņēmums**, lai atvērtu lapu [Formulas veidotājs](general-electronic-reporting-formula-designer.md). Pēc tam varat izmantot šo lapu, lai konfigurētu formulu, kas izpildlaikā atgriež tā uzņēmuma kodu, kas ir atrodams vēlamajā avotā.
 
@@ -110,13 +138,11 @@ Lai norādītu, kāda tipa e-pasta adreses jāizmanto izpildlaikā, dialoglodzi�
 > [!NOTE]
 > Ja nolūki ir atlasīti laukā **Nolūks** un opcija **Primārā kontaktpersona** ir iestatīta uz **Jā** vienlaikus, katrs e-pastu ziņojums, kas atbilst vismaz vienam konfigurētajam kritērijam, tiks izmantots izpildlaikā.
 
-![E-pasta avota atribūtu konta konfigurēšana](./media/er_destinations-emaildefineaddresssourceattributes.png)
-
 ### <a name="configuration-email"></a>Konfigurācijas e-pasta ziņojums
 
-Atlasiet **Konfigurācijas e-pasta ziņojums** kā e-pasta adreses tipu, ja izmantojamā konfigurācija ir mezgls datu avotos, kas atgriež vienu e-pasta adresi vai vairākas e-pasta adreses, kuras ir atdalītas ar semikoliem (;). Varat izmantot [datu avotus](general-electronic-reporting.md#FormatComponentOutbound) un [funkcijas](er-formula-language.md#functions) formulas veidotājā, lai iegūtu pareizi formatētu e-pasta adresi vai pareizi formatētas e-pasta adreses, kas atdalītas ar semikoliem. Piemēram, ja izmantojat **ISO 20022 kredīta pārskaitījuma** konfigurāciju, mezgls, kas norāda kreditora primāro e-pasta adresi no kreditora kontaktinformācijas, uz kuru jānosūta pavadvēstule, ir `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email`.
+Atlasiet **Konfigurācijas e-pasta ziņojums** kā e-pasta adreses tipu, ja izmantojamā konfigurācija ir mezgls datu avotos, kas atgriež vienu e-pasta adresi vai vairākas e-pasta adreses, kuras ir atdalītas ar semikoliem (;). Varat izmantot datu avotus [un](er-formula-language.md#Functions) funkcijas formulas veidotājā, lai iegūtu pareizi formatētu e-pasta adresi vai pareizi formatētas e-pasta adreses, kas ir atdalītas ar semikoliem. Piemēram, ja izmantojat **ISO 20022 kredīta pārskaitījuma** konfigurāciju, mezgls, kas norāda kreditora primāro e-pasta adresi no kreditora kontaktinformācijas, uz kuru jānosūta pavadvēstule, ir `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email`.
 
-[![E-pasta adreses avota konfigurēšana](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
+[![E-pasta adreses avota konfigurēšana.](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
 
 ## <a name="group-format-components"></a><a id="grouping"></a>Formāta komponentu grupēšana
 
@@ -134,14 +160,17 @@ Lai atgrupētu formāta komponentus, kopsavilkuma cilnē **Faila galamērķis** 
 
 Tālāk atrodamajā attēlā redzama ER formāta struktūra, kas tika konfigurēta, lai izveidotu tilpsaspiesto izejošo failu, kas satur atgādinājuma vēstules piezīmi un piemērotus debitoru rēķinus PDF formātā.
 
-[![ER formāta struktūra, kas ģenerē izejošos dokumentus](./media/ER_Destinations-Email-Grouping1.png)](./media/ER_Destinations-Email-Grouping1.png)
+[![ER formāta struktūra, kas ģenerē izejošos dokumentus.](./media/ER_Destinations-Email-Grouping1.png)](./media/ER_Destinations-Email-Grouping1.png)
 
 Tālāk atrodamajā attēlā parādīts process (kā aprakstīts šajā tēmā) ar atsevišķu komponentu grupēšanu un jaunas grupas galamērķa **E-pasta ziņojums** iespējošanu, lai atgādinājuma vēstule tiktu nosūtīta kopā ar atbilstošiem debitoru rēķiniem kā e-pasta pielikumi.
 
-[![Atsevišķu komponentu grupēšana un e-pasta ziņojuma galamērķa iespējošana](./media/ER_Destinations-Email-Grouping2.gif)](./media/ER_Destinations-Email-Grouping2.gif)
+[![Atsevišķu komponentu grupēšana un e-pasta ziņojuma galamērķa iespējošana.](./media/ER_Destinations-Email-Grouping2.gif)](./media/ER_Destinations-Email-Grouping2.gif)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
 - [Elektronisko pārskatu veidošanas (ER) apskats](general-electronic-reporting.md)
 - [Elektroniskās pārskatu veidošanas (ER) adresāti](electronic-reporting-destinations.md)
 - [Formulas veidotājs elektronisko pārskatu veidošanā (ER)](general-electronic-reporting-formula-designer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

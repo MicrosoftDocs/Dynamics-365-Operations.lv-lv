@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f0fba0a9234e5b7cb055f7b97578bff72f1d06ac
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: e356ef8339f8f71965bf9313e14fed3d0810152d
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571981"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103617"
 ---
 # <a name="enable-change-management-on-existing-products"></a>Izmaiņu pārvaldības iespējošana esošajiem produktiem
 
@@ -27,12 +27,9 @@ ms.locfileid: "7571981"
 
 Kad iespējojat izmaiņu pārvaldību esošai precei, varat izveidot šīs preces versijas un izsekot izmaiņas, kas tai veiktas visā tās dzīves laikā. Tāpēc šīs izmaiņas var izsekot, izmantojot izmaiņu pasūtījumus. Lai iespējotu izmaiņu pārvaldību, atbilstošās preces ir jāpārvērš par *tehnoloģiju krājumiem* (sauktiem arī par inženierzinātnes produktiem). Inženierzinātnes preces ir preces, kas ir versija un tiek pārvaldītas, izmantojot izmaiņu pārvaldību. Vednis ir nodrošināts, lai tas vadītu jūs caur pārvēršanas procesu.
 
-## <a name="turn-on-the-feature-in-your-system"></a>Līdzekļa ieslēgšana sistēmā
+## <a name="turn-this-feature-on-or-off"></a>Ieslēgt vai izslēgt šo līdzekli
 
-Lai izmantotu šo iespēju, jums ir jāizpilda šādi uzdevumi:
-
-1. Iespējojiet inženierzinātnes izmaiņu pārvaldības funkciju un tā konfigurācijas atslēgu, kā aprakstīts [inženierzinātnes izmaiņu pārvaldības](product-engineering-overview.md) pārskatā.
-1. Līdzekļa pārvaldībā iespējojiet *Ieslēgt izmaiņu pārvaldību esošajām precēm*. Papildinformāciju skatiet [Līdzekļu pārvaldības pārskatā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Šajā tēmā aprakstītajai funkcionalitātei ir nepieciešams, lai *jūsu* *sistēmai* būtu ieslēgta gan inženierzinātnes izmaiņu pārvaldība, gan Iespējot esošo preču izmaiņu pārvaldību. Papildinformāciju par to, kā ieslēgt vai izslēgt šos līdzekļus, skatiet inženierzinātnes [izmaiņu pārvaldības pārskatā](product-engineering-overview.md).
 
 ## <a name="restrictions-and-limitations"></a>Aizliegumi un ierobežojumi
 

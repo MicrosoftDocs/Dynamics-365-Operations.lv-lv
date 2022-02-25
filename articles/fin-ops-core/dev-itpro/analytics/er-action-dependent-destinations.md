@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: d860c2b9fe01231e8e47b085f93c79c5a7dc449e
-ms.sourcegitcommit: d13ea8b6baf73601a8b57548232aac84ffaba717
+ms.openlocfilehash: e0c836d4a0be47b753d74dc9d6d40ea7d9197176
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7941248"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323983"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Konfigurēt no darbības atkarīgus ER adresātus
 
 [!include [banner](../includes/banner.md)]
 
-Varat konfigurēt [galamērķus](electronic-reporting-destinations.md) katram izvades komponentam (mapei vai failam) [elektroniskās ziņošanas (ER)](general-electronic-reporting.md) [formāta](general-electronic-reporting.md#FormatComponentOutbound) [konfigurācijā](general-electronic-reporting.md#Configuration), kas tiek izmantota izejošā dokumenta izveidei. Lietotāji, kas izmanto šī tipa ER formātu un kuriem ir atbilstošas piekļuves tiesības, izpildlaikā var mainīt arī konfigurētos adresāta iestatījumus.
+Jūs varat konfigurēt [adresātus katram elektroniskā pārskata (ER)](electronic-reporting-destinations.md) formāta konfigurācijas izvades [komponentam (mapei vai failam),](general-electronic-reporting.md)[kas](general-electronic-reporting.md#Configuration) tiek izmantots, lai ģenerētu izejošo dokumentu. Lietotāji, kas izmanto šī tipa ER formātu un kuriem ir atbilstošas piekļuves tiesības, izpildlaikā var mainīt arī konfigurētos adresāta iestatījumus.
 
 Microsoft Dynamics 365 Finance **10.0.17 un jaunākā versijā** ER formātu var palaist, [nodrošinot](er-apis-app10-0-17.md) darbības kodu, kuru lietotājs izpilda, palaižot šo ER formātu. Piemēram, **Debitoru parādu** modulī Drukas pārvaldības iestatījumos varat atlasīt ER formātu, kas ģenerē noteiktu biznesa dokumentu, piemēram, brīva teksta rēķinu. Pēc tam varat atlasīt **Skatīt**, lai priekšskatītu rēķinu, vai **Drukāt**, lai nosūtītu to uz printeri. Ja izpildlaikā lietotāja darbība ir izpildītā ER formātam, var konfigurēt dažādus ER adresātus dažādām lietotāja darbībām. Šajā tēmā skaidrots, kā konfigurēt ER adresātus šī tipa ER formātam.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 872a08241f3d0156d0ccf1f89443e3a894656404
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 6663188334c70035906f924c7850a0dc5002f306
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777606"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103067"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Numura zīmes saņemšana, izmantojot Warehouse Management mobile programmu
 
@@ -77,19 +77,17 @@ Kad šis līdzeklis ir ieslēgts, mobilās ierīces izvēlnes vienumi numura zī
 - **Rādīt detalizētu kopsavilkumu** — veicot numura zīmes saņemšanu, darbinieki redzēs papildu lapu, kas parāda pilnu ASN informāciju.
 - **Izlaist kopsavilkumu** — darbinieki neredzēs pilnu ASN informāciju. Noliktavas darbinieki arī saņemšanas procesa laikā nevarēs iestatīt izvietojuma kodu vai pievienot izņēmumus.
 
-Lai padarītu šo funkcionalitāti pieejamu jūsu sistēmā, *līdzekļu pārvaldībā ir jāieslēdz vadīkla, vai mobilo ierīču līdzekļu pārvaldībā parādīt saņemšanas kopsavilkuma*[lapu](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). (No Piegādes ķēdes pārvaldības versijas 10.0.21, šī funkcija ir ieslēgta pēc noklusējuma.)
+Lai izmantotu šo funkcionalitāti *, jābūt ieslēgtam kontroles tam, vai mobilo ierīču* funkcijai rādīt saņemšanas kopsavilkuma lapu. No Piegādes ķēdes pārvaldības versijas 10.0.21 šī funkcija ir ieslēgta pēc noklusējuma. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja jūs palaižat versiju, kas vecāka par 10.0.25, *·*[tad](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot kontroli, vai līdzekļu pārvaldības darbvietā mobilo ierīču līdzeklī rādīt saņemšanas kopsavilkuma lapu.
 
 ## <a name="prevent-transfer-ordershipped-license-plates-from-being-used-at-warehouses-other-than-the-destination-warehouse"></a>Nepieļaut nodošanas pasūtījuma nosūtīto numura zīmju izmantošanu noliktavās, kas nav galamērķa noliktava
 
 Nevar izmantot noliktavas vienības saņemšanas procesu, ja ASN ietver noliktavas vienības ID, kas jau eksistē un kam ir fiziski rīcībā esošie dati noliktavas atrašanās vietā, kas atšķiras no noliktavas atrašanās vietas, kur notiek noliktavas vienības reģistrācija.
 
-Pārsūtīšanas pasūtījumu scenārijiem, kuros tranzīta noliktava neseko numura zīmēm (un tāpēc arī neseko līdzi katras numura zīmes fiziskajam inventāram uz vietas), varat izmantot līdzekli *Nepieļaut nodošanas pasūtījuma nosūtīto numura zīmju izmantošanu noliktavās, kas nav galamērķa noliktava*, lai novērstu to, ka fiziskas rīcībā esošas numura zīmes ir pieejamas tranzītā.
-
-Lai šo funkcionalitāti padarītu pieejamu jūsu sistēmā, ir jāieslēdz līdzeklis *Neatļaut pārsūtīšanas pasūtījuma nosūtītās noliktavas vienības izmantot citās noliktavās, kas nav mērķa noliktava* [līdzekļu pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Pārsūtīšanas pasūtījumu scenārijiem, kuros tranzīta noliktava neseko numura zīmēm (un tāpēc arī neseko līdzi katras numura zīmes fiziskajam inventāram uz vietas), varat izmantot līdzekli *Nepieļaut nodošanas pasūtījuma nosūtīto numura zīmju izmantošanu noliktavās, kas nav galamērķa noliktava*, lai novērstu to, ka fiziskas rīcībā esošas numura zīmes ir pieejamas tranzītā. Lai padarītu šo funkcionalitāti pieejamu, *jūsu sistēmai jābūt ieslēgtai līdzeklim Neļaut pārsūtītā pasūtījuma nosūtītās numura zīmes izmantot citās noliktavās*, nevis mērķa noliktavas funkcija. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja jūs palaižat versiju, kas vecāka par 10.0.25, tad administratori šo līdzekli var ieslēgt vai izslēgt, [meklējot to Līdzekļu pārvaldības darbvietā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Lai pārvaldītu funkcionalitāti, kad šī funkcija ir pieejama, veiciet šādas darbības.
 
-1. Doties uz **Noliktavas vadība \> Iestatīšana \> Noliktavas vadības parametri**.
+1. Doties uz **Noliktavas vadība\> Iestatīšana \> Noliktavas vadības parametri**.
 1. Cilnē **Vispārīgi** kopsavilkuma cilnē **Numura zīmes**  iestatiet **Tranzīta noliktavas numura zīmes politikas** lauku uz vienu no šīm vērtībām:
 
     - **Atļaut nereģistrētas numura zīmes atkārtotu izmantošanu** — sistēma darbojas tādā pašā veidā, kā tas darbojas, kad līdzeklis *Nepieļaut nodošanas pasūtījuma nosūtīto numura zīmju izmantošanu citās noliktavās, kas nav galamērķa noliktava* nav pieejams. Šī vērtība ir noklusētais iestatījums, pirmoreiz aktivizējot līdzekli.

@@ -2,27 +2,27 @@
 title: Koriģēt ER formātu pielāgota elektroniskā dokumenta ģenerēšanai
 description: Šajā tēmā ir paskaidrots, kā koriģēt Microsoft nodrošināto elektronisko pārskatu (ER) formātu, lai tas ģenerētu pielāgotu elektronisko dokumentu.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
+ms.custom:
+- "220314"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 20e7a32ac5f6ab21f89ed3c11c64458286864c9d
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 14976aab474b6571c2a25907f04fd4d7ae053e74
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680174"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323821"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>Koriģēt ER formātu pielāgota elektroniskā dokumenta ģenerēšanai
 
@@ -156,11 +156,11 @@ Lai pievienotu standarta ER konfigurācijas savai pašreizējai Microsoft Dynami
 3. Lapā **Konfigurācijas**, konfigurācijas koka skata kreisajā rūtī izvērsiet **Maksājuma modelis**.
 4. Ņemiet vērā, ka papildus atlasītajam **BACS (UK)** ER formātam tika importētas arī citas nepieciešamās ER konfigurācijas. Pārliecinieties, vai konfigurācijas kokā ir pieejamas šādas ER konfigurācijas:
 
-    - **Maksājuma modelis** — šajā konfigurācijā ir norādīts [datu modeļa](general-electronic-reporting.md#data-model-and-model-mapping-components) ER komponents, kas parāda maksājuma biznesa domēna datu struktūru.
-    - **Maksājuma modeļa kartēšana 1611** — šajā konfigurācijā ir norādīta [modeļa kartēšana](general-electronic-reporting.md#data-model-and-model-mapping-components) ER komponentam, kas apraksta, kā datu modelis tiek aizpildīts ar programmas datiem izpildlaikā.
-    - **BACS (UK)** — šajā konfigurācijā ir norādīts [formāts](general-electronic-reporting.md#FormatComponentOutbound) un formāta kartēšanas ER komponenti. Formāta komponents norāda atskaites izkārtojumu. Formāta kartēšanas komponents satur modeļa datu avotu un norāda, kā atskaites izkārtojums tiek aizpildīts, izmantojot šo datu avotu izpildlaikā.
+    - **Maksājuma modelis** – šī konfigurācija satur datu modeļa ER komponentu, kas attēlo maksājumu biznesa domēna datu struktūru.
+    - **Maksājuma modeļa kartēšana 1611** – šī konfigurācija ietver modeļa kartēšanas ER komponentu, kas apraksta, kā datu modelis izpildlaikā tiek aizpildīts ar programmas datiem.
+    - **BAKS (UK)** – Šī konfigurācija satur formātu un formātu kartēšanas ER komponentus. Formāta komponents norāda atskaites izkārtojumu. Formāta kartēšanas komponents satur modeļa datu avotu un norāda, kā atskaites izkārtojums tiek aizpildīts, izmantojot šo datu avotu izpildlaikā.
 
-![Lapa Konfigurācijas](./media/er-quick-start2-imported-solution1.png)
+![Konfigurāciju lapa ar norādītām ER konfigurācijām, kas pieejamas koka skatā.](./media/er-quick-start2-imported-solution1.png)
 
 ## <a name="prepare-a-vendor-payment-for-processing"></a><a id="PrepareVendorPayment"></a>Kreditora maksājuma sagatavošana apstrādei
 
@@ -179,7 +179,7 @@ Kreditora kontam ir jāpievieno bankas informācija, kas vēlāk tiks norādīta
     5. Laukā **IBAN** ievadiet **GB33BUKB20201555555555**.
     6. Laukā **Reģistrācijas numurs** saglabājiet noklusējuma vērtību <a id="DefineRoutingNumber"></a>**123456**.
 
-    ![Lapa Kreditora banku konti](./media/er-quick-start2-bank-account.png)
+    ![Lapa Kreditora banku konti.](./media/er-quick-start2-bank-account.png)
 
 4. Atlasiet **Saglabāt**.
 5. Aizvērt lapu.
@@ -187,14 +187,14 @@ Kreditora kontam ir jāpievieno bankas informācija, kas vēlāk tiks norādīta
 7. Ja nepieciešams, lapā informācija par kreditoru atlasiet **Rediģēt**, lai lapu varētu rediģēt.
 8. Kopsavilkuma cilnē **Maksājums**, laukā **Bankas konts** atlasiet **GBP OPER**.
 
-    ![Lapa Informācija par kreditoru](./media/er-quick-start2-bank-account-reference.png)
+    ![Lapa Informācija par kreditoru.](./media/er-quick-start2-bank-account-reference.png)
 
 9. Atlasiet **Saglabāt**.
 10. Aizvērt lapu.
 
 ### <a name="enter-a-vendor-payment"></a><a id="EnterVendorPayment"></a>Kreditora maksājuma ievadīšana
 
-Ir nepieciešams ievadīt jaunu kreditora maksājumu, izmantojot [maksājuma priekšlikumu](https://docs.microsoft.com/dynamics365/finance/accounts-payable/create-vendor-payments-payment-proposal).
+Ir nepieciešams ievadīt jaunu kreditora maksājumu, izmantojot [maksājuma priekšlikumu](../../../finance/accounts-payable/create-vendor-payments-payment-proposal.md).
 
 1. Dodieties uz **Kreditori** \> **Maksājumi** \> **Kreditora maksājumu žurnāls**.
 2. Lapā **Kreditora maksājumu žurnāls** atlasiet **Jauns**.
@@ -204,11 +204,11 @@ Ir nepieciešams ievadīt jaunu kreditora maksājumu, izmantojot [maksājuma pri
 6. Dialoglodziņā **Kreditora maksājuma priekšlikums** konfigurējiet nosacījumus, lai filtrētu tikai **GB_SI_000001** kreditora konta ierakstus, un pēc tam atlasiet **Labi**.
 7. Atlasiet rindu rēķinam **00000007_Inv** un pēc tam atlasiet **Izveidot maksājumu**.
 
-    ![Kreditora maksājuma priekšlikuma dialoglodziņš](./media/er-quick-start2-payment-proposal.png)
+    ![Kreditora maksājuma priekšlikuma dialoglodziņš.](./media/er-quick-start2-payment-proposal.png)
 
 8. Pārbaudiet, vai ievadītais maksājums ir konfigurēts, lai izmantotu **elektroniska** maksājuma metodi.
 
-    ![Kreditora maksājumu lapa](./media/er-quick-start2-payment-line.png)
+    ![Kreditora maksājumu lapa.](./media/er-quick-start2-payment-line.png)
 
 ## <a name="process-a-vendor-payment-by-using-the-standard-er-format"></a><a id="ProcessVendorPayment1"></a>Kreditora maksājuma apstrādāšana, izmantojot standarta ER formātu
 
@@ -222,7 +222,7 @@ Elektroniskā maksājuma metode ir jākonfigurē, lai tā izmantotu importēto E
 4. Kopsavilkuma cilnē **Faila formāti** iestatiet opciju **Vispārīgs elektroniskās eksportēšanas formāts** uz **Jā**.
 5. Laukā **Eksporta formāta konfigurācija** atlasiet **BACS (UK)** formāta konfigurāciju.
 
-    ![Lapa Maksājuma metodes – kreditori](./media/er-quick-start2-method-of-payment1.png)
+    ![Maksāšanas metodes – kreditoru lapa, lai iestatītu elektroniskā maksājuma metodi kreditoru maksājumu apstrādei, izmantojot standarta formātu.](./media/er-quick-start2-method-of-payment1.png)
 
 6. Atlasiet **Saglabāt**.
 
@@ -239,7 +239,7 @@ Elektroniskā maksājuma metode ir jākonfigurē, lai tā izmantotu importēto E
 5. Atlasiet **Labi**.
 6. Dialoglodziņā **Elektronisko pārskatu parametri** iestatiet opciju **Drukāt kontroles pārskatu** uz **Jā** un pēc tam atlasiet **Labi**.
 
-    ![Elektronisko pārskatu parametru dialoga lapa](./media/er-quick-start2-payment-dialog1.png)
+    ![Elektronisko pārskatu parametru dialoga lapa.](./media/er-quick-start2-payment-dialog1.png)
 
     > [!NOTE]
     > Papildus maksājuma failam tagad varat ģenerēt arī kontroles pārskatu.
@@ -251,7 +251,7 @@ Elektroniskā maksājuma metode ir jākonfigurē, lai tā izmantotu importēto E
 
         Ņemiet vērā, ka saskaņā ar sniegtā ER formāta [struktūru](#PositionRoutingNumber) maksājuma rinda ģenerētajā failā sākas ar reģistrācijas numuru, kas [definēts](#DefineRoutingNumber) konfigurētajam bankas kontam.
 
-        ![Maksājuma fails TXT formāta](./media/er-quick-start2-payment-file1.png)
+        ![Maksājuma fails TXT formāta.](./media/er-quick-start2-payment-file1.png)
 
 ## <a name="customize-the-standard-er-format"></a><a id="CustomizeProvidedFormat"></a>Standarta ER formāta pielāgošana
 
@@ -267,13 +267,13 @@ Elektroniskā maksājuma metode ir jākonfigurē, lai tā izmantotu importēto E
 4. Lauka grupā **Jauns** atlasiet opciju **Atvasināt no nosaukuma: BACS (UK), Microsoft**.
 5. Laukā **Nosaukums** ievadiet **BACS (UK pielāgots)**.
 
-    ![Izveidot konfigurācijas nolaižamo dialoglodziņu](./media/er-quick-start2-add-derived-format.png)
+    ![Izveidot konfigurācijas nolaižamo dialoglodziņu.](./media/er-quick-start2-add-derived-format.png)
 
 6. Atlasiet **Izveidot konfigurāciju**.
 
 ER formāta konfigurācijas **BACS (UK pielāgots)** versija 1.1.1 ir izveidota. Šīs versijas [statuss](general-electronic-reporting.md#component-versioning) ir **Melnraksts** un to var rediģēt. Pielāgotā ER formāta pašreizējais saturs atbilst Microsoft nodrošinātā formāta saturam.
 
-![Lapa Konfigurācijas](./media/er-quick-start2-derived-format-configuration1.png)
+![Konfigurāciju lapa ar BACS (UK pielāgots) ER formāta konfigurācijas versiju 1.1.1.](./media/er-quick-start2-derived-format-configuration1.png)
 
 ### <a name="edit-a-custom-format"></a><a id="ConfigureDerivedFormat"></a>Pielāgota formāta rediģēšana
 
@@ -293,7 +293,7 @@ Jums ir jākonfigurē pielāgotais formāts, lai tas atbilstu bankas noteiktajā
 
 7. Atlasiet elementu **transakcija**.
 
-    ![Transakcijas elements ER operāciju veidotājā](./media/er-quick-start2-derived-format0.png)
+    ![Transakcijas elements ER operāciju veidotājā.](./media/er-quick-start2-derived-format0.png)
 
     > [!NOTE]
     > Nodrošinātais pārskats ir konfigurēts, lai <a id="PositionRoutingNumber"></a>katra maksājuma rinda sākas ar bankas reģistrācijas numuru. Šim nolūkam tiek izmantots **vendBankRouteNum** formāta elements. 
@@ -311,13 +311,13 @@ Jums ir jākonfigurē pielāgotais formāts, lai tas atbilstu bankas noteiktajā
 9. Formāta struktūras kokā atlasiet **vendBankSWIFT**.
 10. Atlasiet **Pārvietot uz augšu**, lai pārvietotu atlasīto formāta elementu par vienu līmeni uz augšu. Atkārtojiet šo darbību, līdz **vendBankSWIFT** elements ir <a id="PositionSWIFTCode"></a>pirmais elements zem pamatelementa **transakcija**.
 
-    ![VendBankSWIFT kā pirmais elements zem transakcijas ER operāciju veidotājā](./media/er-quick-start2-derived-format1.png)
+    ![VendBankSWIFT kā pirmais elements zem transakcijas ER operāciju veidotājā.](./media/er-quick-start2-derived-format1.png)
 
 11. Kamēr formāta struktūras kokā joprojām ir atlasīts **vendBankSWIFT**, atlasiet cilni **Kartēšana** un pēc tam izvērsiet **modeļa** datu avotu.
 12. Izvērsiet **model.Payment** \> **model.Payment.CreditorAgent** un atlasiet datu avota lauku **model.Payment.CreditorAgent.BICFI**. Šis datu avota lauks atklāj tā kreditora bankas SWIFT kodu, kam tiek piešķirta aģenta loma apstrādātā kreditora maksājumā.
 13. Atlasiet **Saistīt**. Formāta elements **vendBankSWIFT** tagad ir saistīts ar datu avota lauku **model.Payment.CreditorAgent.BICFI**, lai SWIFT kodi tiktu ievadīti ģenerētajos maksājuma failos.
 
-    ![Formāta elements vendBankSWIFT saistīts ar datu avota lauku model.Payment.CreditorAgent.BICFI ER operāciju veidotājā](./media/er-quick-start2-derived-format2.png)
+    ![Formāta elements vendBankSWIFT saistīts ar datu avota lauku model.Payment.CreditorAgent.BICFI ER operāciju veidotājā.](./media/er-quick-start2-derived-format2.png)
 
 14. Atlasiet **Saglabāt**.
 15. Aizveriet veidotāja lapu.
@@ -335,7 +335,7 @@ Lai izmantotu ER formāta melnraksta versiju, jums jāatzīmē ER formāts.
 5. Konfigurācijas koka skata kreisajā rūtī atlasiet **BACS (UK pielāgots)**.
 6. Iestatiet opciju **Palaist melnrakstu** uz **Jā**.
 
-    ![Melnraksta opcijas palaišana lapā konfigurācijas](./media/er-quick-start2-derived-format-configuration2.png)
+    ![Melnraksta opcijas palaišana lapā konfigurācijas.](./media/er-quick-start2-derived-format-configuration2.png)
 
 ## <a name="process-a-vendor-payment-by-using-the-custom-er-format"></a><a id="ProcessVendorPayment2"></a>Kreditora maksājuma apstrādāšana, izmantojot pielāgotu ER formātu
 
@@ -349,7 +349,7 @@ Elektroniskā maksājuma metode ir jākonfigurē, lai pielāgotais ER formāts t
 4. Kopsavilkuma cilnē **Faila formāts** iestatiet opciju **Vispārīgs elektroniskās eksportēšanas formāts** uz **Jā**.
 5. Laukā **Eksporta formāta konfigurācija** atlasiet **BACS (UK pielāgots)** formāta konfigurāciju.
 
-    ![Lapa Maksājuma metodes – kreditori](./media/er-quick-start2-method-of-payment2.png)
+    ![Maksāšanas metodes – kreditoru lapa, lai iestatītu elektroniskā maksājuma metodi kreditoru maksājumu apstrādei, izmantojot pielāgotu formātu.](./media/er-quick-start2-method-of-payment2.png)
 
 6. Atlasiet **Saglabāt**.
 
@@ -378,7 +378,7 @@ Elektroniskā maksājuma metode ir jākonfigurē, lai pielāgotais ER formāts t
 
         Ņemiet vērā, ka saskaņā ar pielāgotā ER formāta struktūru, maksājuma rinda ģenerētajā failā tagad [sākas](#PositionSWIFTCode) ar SWIFT kodu, kas tika [ievadīts](#DefineSWIFTCode) kreditora bankas kontam, kura maksājums ir apstrādāts.
 
-        ![Maksājuma fails TXT formāta](./media/er-quick-start2-payment-file2.png)
+        ![Maksājuma fails TXT formātā, ko izmanto kreditora maksājuma apstrādē.](./media/er-quick-start2-payment-file2.png)
 
 ## <a name="import-new-versions-of-the-standard-er-format-configurations"></a><a id="ImportERSolution2"></a>Jaunas standarta ER formāta konfigurācijas versijas importēšana
 
@@ -395,7 +395,7 @@ Lai ER konfigurācijas jaunās versijas pievienotu pašreizējai Finance instanc
 5. Kopsavilkuma cilnē **Versijas** izvēlieties atlasītās ER formāta konfigurācijas **3.3** versiju.
 6. Atlasiet **Importēt**, lai lejupielādētu atlasīto versiju no globālā repozitorija uz pašreizējo Finance instanci.
 
-![Konfigurācijas repozitorijas lapa.](./media/er-quick-start2-import-solution2.png)
+![Konfigurācijas repozitorija lapa, kopsavilkuma cilne Versijas, importēšanas poga.](./media/er-quick-start2-import-solution2.png)
 
 > [!TIP]
 > Ja rodas problēmas ar piekļuvi [globālajam repozitorijam](er-download-configurations-global-repo.md), tā vietā varat [lejupielādēt konfigurācijas](download-electronic-reporting-configuration-lcs.md) no LCS.
@@ -410,7 +410,7 @@ Lai ER konfigurācijas jaunās versijas pievienotu pašreizējai Finance instanc
 6. Lapā **Formāta veidotājs** izvērsiet formāta elementu **BACSReportsFolder**.
 7.  Ņemiet vērā, ka versija 3.3 ietver formāta elementu **PaymentAdviceReport**, kas tiek izmantots, lai ģenerētu maksājuma izziņas pārskatu, apstrādājot kreditora maksājumu.
 
-    ![PaymentAdviceReport formāta elements ER operāciju veidotājā](./media/er-quick-start2-imported-solution2.png)
+    ![PaymentAdviceReport formāta elements ER operāciju veidotājā.](./media/er-quick-start2-imported-solution2.png)
 
 8. Aizveriet veidotāja lapu.
 
@@ -436,14 +436,14 @@ Lai pielāgojumam sāktu izmantot jauno versijas 3.3 formāta funkcionalitāti *
 3. Kopsavilkuma cilnē **Versijas** atlasiet versiju **1.1.2** un pēc tam atlasiet **Pārveidot**.
 4. Dialoglodziņā **Pārveidošana** laukā **Mērķa versija** atlasiet bāzes konfigurācijas versiju **3.3**, lai to lietotu kā jauno bāzi, un izmantotu, lai atjauninātu konfigurāciju.
 
-    ![Dialoglodziņš Pārskatīt](./media/er-quick-start2-rebase1.png)
+    ![Dialoglodziņš Pārskatīt.](./media/er-quick-start2-rebase1.png)
 
 5. Atlasiet **Labi**.
 6. Ņemiet vērā, ka melnraksta versijas numurs ir mainīts no **1.1.2** uz **3.3.2**, lai atspoguļotu izmaiņas bāzes versijā.
 
     Sapludinot pielāgotu versiju un jaunu bāzes versiju, var tikt konstatēti konflikti formāta izmaiņu dēļ, ko nevar sapludināt automātiski.
 
-    ![Pārveidota konfigurācija ar konfliktiem lapā Konfigurācijas](./media/er-quick-start2-rebase2.png)
+    ![Pārveidota konfigurācija ar konfliktiem lapā Konfigurācijas.](./media/er-quick-start2-rebase2.png)
 
     Ja tiek konstatēti konflikti, tie ir manuāli jāatrisina formāta veidotājā.
 
@@ -451,13 +451,13 @@ Lai pielāgojumam sāktu izmantot jauno versijas 3.3 formāta funkcionalitāti *
 8. Atlasiet **Noformētājs**.
 9. Lapā **Formāta veidotājs** kopsavilkuma cilnē **Detalizēti** atlasiet pārveides konflikta ierakstu un pēc tam atlasiet **Lietot bāzes vērtību**.
 
-    ![Pārveides konflikta ieraksts ER operāciju veidotājā](./media/er-quick-start2-rebase3.png)
+    ![Pārveides konflikta ieraksts ER operāciju veidotājā.](./media/er-quick-start2-rebase3.png)
 
 10. Atlasiet **Saglabāt**.
 
     Pārveides konflikta ierakstam vairs nevajadzētu parādīties kopsavilkuma cilnē **Detalizēti**.
 
-    ![Konflikts atrisināts ER operāciju veidotājā](./media/er-quick-start2-rebase4.png)
+    ![Konflikts atrisināts ER operāciju veidotājā.](./media/er-quick-start2-rebase4.png)
 
     > [!NOTE]
     > Konflikts tika atrisināts, apstiprinot, ka bāzes modeļa 3. versija ir jālieto šajā ER formātā.
@@ -465,7 +465,7 @@ Lai pielāgojumam sāktu izmantot jauno versijas 3.3 formāta funkcionalitāti *
 11. Izvērsiet **BACSReportsFolder** \> **fails** \> **transakcijas** \> **transakcija**.
 12. Ņemiet vērā, ka cilnē **Kartēšana** jūsu pielāgotā ER formāta versija 3.3.2 ietver gan pielāgojumu (formāta elementu **vendBankSWIFT** un tā saistījumu), gan bāzes ER formāta versijas 3.3 jauno funkcionalitāti, ko nodrošina Microsoft (formāta elementu **PaymentAdviceReport** kopā ar tā ligzdotajiem elementiem un konfigurētajiem saistījumiem). Veicot dažus peles klikšķus, esat pieņēmis jaunas bāzes versijas modifikācijas, sapludinot tās ar pielāgojumu.
 
-    ![Sapludināts formāts ER operāciju veidotājā](./media/er-quick-start2-rebase5.png)
+    ![Sapludināts formāts ER operāciju veidotājā.](./media/er-quick-start2-rebase5.png)
 
 13. Aizveriet veidotāja lapu.
 
@@ -490,7 +490,7 @@ Lai pielāgojumam sāktu izmantot jauno versijas 3.3 formāta funkcionalitāti *
     - Iestatiet opciju **Drukāt kontroles pārskatu** uz **Jā**.
     - Iestatiet opciju **Drukāt maksājuma izziņu** uz **Jā**.
 
-    ![Dialoglodziņš Elektronisko pārskatu parametri](./media/er-quick-start2-payment-dialog2.png)
+    ![Dialoglodziņš Elektronisko pārskatu parametri.](./media/er-quick-start2-payment-dialog2.png)
 
     > [!NOTE]
     > Papildus maksājuma failam tagad varat ģenerēt gan kontroles pārskatu, gan maksājuma izziņas pārskatu.
@@ -501,16 +501,19 @@ Lai pielāgojumam sāktu izmantot jauno versijas 3.3 formāta funkcionalitāti *
     - Kontroles pārskats Excel formātā
     - Maksājuma izziņas pārskats Excel formātā
 
-        ![Maksājuma izziņas pārskats Excel formātā](./media/er-quick-start2-payment-advice-report.png)
+        ![Maksājuma izziņas pārskats Excel formātā.](./media/er-quick-start2-payment-advice-report.png)
 
     - Maksājuma fails TXT formāta
 
         Ņemiet vērā, ka maksājuma rinda ģenerētajā failā sākas ar SWIFT kodu, kas tika ievadīts kreditora bankas kontam, kura maksājums ir apstrādāts.
 
-        ![Maksājuma fails TXT formāta](./media/er-quick-start2-payment-file3.png)
+        ![Maksājuma fails TXT formātā, ko izmanto kreditora maksājuma apstrādē kopā ar pārveidotu ER formātu.](./media/er-quick-start2-payment-file3.png)
 
 ## <a name="additional-resources"></a><a id="References"></a>Papildu resursi
 
 - [Elektronisko pārskatu veidošanas apskats](general-electronic-reporting.md)
 - [ER konfigurāciju lejupielāde no Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
 - [ER konfigurāciju lejupielāde no konfigurācijas pakalpojuma globālā repozitorija](er-download-configurations-global-repo.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

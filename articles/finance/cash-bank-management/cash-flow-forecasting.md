@@ -1,33 +1,31 @@
 ---
 title: Naudas plūsmas prognozēšana
 description: Šajā tēmā ir sniegts pārskats par naudas plūsmas prognozēšanas procesu. Tajā ir arī paskaidrots, kā naudas plūsmas prognozēšana ir integrēta citos sistēmas moduļos.
-author: saraschi2
-manager: AnnBe
-ms.date: 08/03/2020
+author: panolte
+ms.date: 02/16/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerCovParameters
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 64d33212600a75900febbd6ec308e4bf5d4f16b7
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
-ms.translationtype: HT
+ms.openlocfilehash: 5a46946ff2c3569dab0ce8b53b3cddcf18318cbf
+ms.sourcegitcommit: 465c84eb5cdc211692e2ae09b45d1400f9a315ee
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645773"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8314727"
 ---
 # <a name="cash-flow-forecasting"></a>Naudas plūsmas prognozēšana
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-Varat izmantot naudas plūsmas prognozēšanas rīkus gaidāmās naudas plūsmas un valūtas prasību analīzei, lai varētu noteikt uzņēmuma gaidāmās skaidras naudas vajadzības. Lai iegūtu naudas plūsmas prognozi, ir jāizpilda tālāk norādītie uzdevumi.
+Varat izmantot naudas plūsmas prognozēšanas rīkus gaidāmās naudas plūsmas un valūtas prasību analīzei, lai varētu noteikt uzņēmuma gaidāmās skaidras naudas vajadzības. Lai iegūtu naudas plūsmas prognozi, ir jāizpilda tālāk norādītie uzdevumi:
 
 - Jāidentificē un uzskaita visi likviditātes konti. Likviditātes konti ir uzņēmuma konti, kas ir paredzēti skaidras naudas vai tās ekvivalentu transakcijām.
 - Jākonfigurē to transakciju darbību prognozes, kas ietekmē uzņēmuma likviditātes kontus.
@@ -38,16 +36,18 @@ Kad esat pabeidzis šos uzdevumus, varat aprēķināt un analizēt naudas plūsm
 
 Naudas plūsmas prognozēšanu var integrēt Virsgrāmatā un moduļos Parādi kreditoriem, Debitoru parādi, Budžeta veidošana un Krājumu vadība. Prognozēšanas procesam tiek izmantota sistēmā ievadītā transakciju informācija, un aprēķina procesā tiek iegūta katras transakcijas paredzamās skaidras naudas ietekmes prognoze. Aprēķinot naudas plūsmu, tiek ņemti vērā tālāk norādītie transakciju veidi.
 
-- **Pārdošanas pasūtījumi** — pārdošanas pasūtījumi, kas vēl nav iekļauti rēķinos un izraisa fizisku vai finansiālu pārdošanu.
-- **Pirkšanas pasūtījumi** — pirkšanas pasūtījumi, kas vēl nav iekļauti rēķinos un izraisa fizisku vai finansiālu pirkšanu.
-- **Debitoru parādi** — atvērtās debitoru transakcijas (vēl neapmaksātie rēķini).
-- **Parādi kreditoriem** — atvērtās kreditoru transakcijas (vēl neapmaksātie rēķini).
-- **Virsgrāmatas transakcijas** — transakcijas, kam ir norādīts, ka vēlāk tās tiks grāmatotas.
-- **Budžeta reģistra ieraksti** — budžeta reģistra ieraksti, kas ir atlasīti naudas plūsmas prognozēm.
-- **Pieprasījuma apjoma prognozes** — krājumu budžeta modeļu rindas, kas ir atlasītas naudas plūsmas prognozēm.
-- **Piegādes apjoma prognozes** — krājumu budžeta modeļu rindas, kas ir atlasītas naudas plūsmas prognozēm.
-
-Lai gan nav tiešas integrācijas modulī Projektu vadība un uzskaite, ir pieejami vairāki veidi, kā ietvert projekta transakcijas naudas plūsmas prognozē. Grāmatotie projekta rēķini tiek ietverti prognozē kā daļa no atvērtajām debitoru transakcijām. Projekta izraisītie pārdošanas un pirkšanas pasūtījumi tiek ietverti prognozē kā atvērti pasūtījumi, kad tie tiek ievadīti sistēmā. Varat arī pārsūtīt projekta prognozes uz Virsgrāmatas budžeta modeli. Pēc tam šis Virsgrāmatas budžeta modelis tiek ietverts naudas plūsmas prognozē kā daļa no budžeta reģistra ierakstiem.
+- **Pārdošanas pasūtījumi** — pārdošanas pasūtījumi, kas vēl nav iekļauti rēķinos un izraisa fizisku vai finansiālu pārdošanu.
+- **Brīvā teksta rēķini** – brīvā teksta rēķini, kas vēl nav grāmatoti un kuru rezultātā tiek iegūta finansiālā pārdošana. 
+- **Pirkšanas pasūtījumi** — pirkšanas pasūtījumi, kas vēl nav iekļauti rēķinos un izraisa fizisku vai finansiālu pirkšanu.
+- **Debitoru parādi** — atvērtās debitoru transakcijas (vēl neapmaksātie rēķini).
+- **Parādi kreditoriem** — atvērtās kreditoru transakcijas (vēl neapmaksātie rēķini).
+- **Virsgrāmatas transakcijas** — transakcijas, kam ir norādīts, ka vēlāk tās tiks grāmatotas.
+- **Budžeta reģistra ieraksti** — budžeta reģistra ieraksti, kas ir atlasīti naudas plūsmas prognozēm.
+- **Pieprasījuma apjoma prognozes** — krājumu budžeta modeļu rindas, kas ir atlasītas naudas plūsmas prognozēm.
+- **Piegādes apjoma prognozes** — krājumu budžeta modeļu rindas, kas ir atlasītas naudas plūsmas prognozēm.
+- **Ārējais datu** avots - ārējie dati, kas ir ievadīti vai importēti naudas plūsmas prognozēs, izmantojot izklājlapas veidnes.
+- **Projekta prognozes** - projektu pārvadības un uzskaites prognozes, izmantojot prognožu modeli.
+- **Naudas plūsmas PVN iestādes maksājumi** – prognozētās PVN iestādes maksājumu summas un laika noteikšana, kā rezultātā tiek veikti finanšu maksājumi. Iespējojiet iespēju Naudas plūsmas PVN iestādes maksājumi.
 
 ## <a name="configuration"></a>Konfigurācija
 
@@ -87,16 +87,36 @@ Varat aizstāt lauka **Likviditātes konts** noklusējuma iestatījumu noteiktie
 
 ### <a name="budgeting"></a>Budžeta veidošana
 
-Naudas plūsmas prognozēs var ietvert budžetus, kas ir izveidoti no budžeta modeļiem. Lapas **Naudas plūsmas prognozes iestatīšana** cilnē **Budžeta veidošana** atlasiet prognozē ietveramos budžeta modeļus. Pēc budžeta modeļa iespējošanas naudas plūsmas prognozēšanai jaunie budžeta reģistra ieraksti pēc noklusējuma tiek ietveri prognozēs. Atsevišķiem budžeta reģistra ierakstiem var atcelt ietveršanu naudas plūsmas prognozēs.
+Naudas plūsmas prognozēs var ietvert budžetus, kas ir izveidoti no budžeta modeļiem. Lapas **Naudas plūsmas prognozes iestatīšana** cilnē **Budžeta veidošana** atlasiet prognozē ietveramos budžeta modeļus. Pēc budžeta modeļa iespējošanas naudas plūsmas prognozēšanai jaunie budžeta reģistra ieraksti pēc noklusējuma tiek ietveri prognozēs.
+
+Budžeta reģistra ierakstus var ietvert naudas plūsmas prognozē individuāli, izmantojot personalizāciju. Kad pievienojat kolonnu **Iekļaut naudas plūsmas prognozēs** **Budžeta reģistra ierakstu** lapai, sistēma pārrakstīs iestatījumus naudas plūsmas prognozes iestatījuma lapā, lai prognozē iekļautu atsevišķu budžeta reģistra ierakstu.
+
 
 ### <a name="inventory-management"></a>Krājumu vadība
 
 Naudas plūsmas prognozēs var ietvert krājumu piegādes apjoma un pieprasījuma apjoma prognozes. Lapas **Naudas plūsmas prognozes iestatīšana** cilnē **Krājumu vadība** atlasiet naudas plūsmas prognozē ietveramo budžeta modeli. Atsevišķās piegādes apjoma un pieprasījuma apjoma prognozes rindās var atcelt ietveršanu naudas plūsmas prognozēs.
 
 ### <a name="setting-up-dimensions-for-cash-flow-forecasting"></a>Skaidras naudas plūsmas prognozēšanas dimensiju iestatīšana
-Jauna cilne lapā **Skaidras naudas plūsmas prognozes iestatīšana** ļauj kontrolēt, kādas finanšu dimensijas izmantot filtrēšanai darbvietā **Skaidras naudas plūsmas prognozēšana**. Šī cilne parādīsies tikai tad, ja ir iespējots skaidras naudas plūsmas prognozēšanas līdzeklis. 
+Jauna cilne iestatīšanas lapāCash **plūsmas**  **prognozēšana ļauj jums kontrolēt, kuras finanšu dimensijas tiks izmantotas filtrēšanaicash plūsmas prognozēšanasworkspace** . Šī cilne tiks parādīta tikai tad, ja naudas plūsmas prognozes funkcija būs aktivizēta.
 
 Cilnē **Dimensijas** izvēlieties no dimensiju saraksta, ko izmantot filtrēšanai, un izmantojiet bulttaustiņus, lai pārvietotu tās uz kolonnu labajā pusē. Skaidras naudas plūsmas prognozēšanas datu filtrēšanai varat atlasīt tikai divas dimensijas. 
+
+### <a name="setting-up-external-source"></a>Ārējā avota iestatīšana
+Ārējos datus var ievadīt vai importēt naudas plūsmas prognozēs, ja ir konfigurēti Finanšu ieskati. Pirms ārējo datu ievadīšanas vai importēšanas, jāiestata ārējie avoti. **Cilnē Ārējais avots** iestatiet ārējās naudas plūsmas kategorijas. Kategorija var būt Izejošais **vai** Ienākošais **·**. **Kases/** bankas grāmatojuma tips ir jāatlasa. Juridiskās **personas iestatījumu** režģī atlasiet juridiskās personas un atbilstošos galvenos kontus, uz kuriem attiecas ārējās naudas plūsmas kategorijas.
+
+Papildinformāciju skatiet ārējos [datus naudas plūsmas prognozēs](../../finance/finance-insights/external-data-in-cash-flow.md). 
+
+### <a name="project-management-and-accounting"></a>Projektu vadība un uzskaite
+
+Versijā 10.0.17 jauns līdzeklis ļauj veikt integrāciju ar projektu pārvaldības, uzskaites un naudas plūsmas prognozēšanu. Darbvietā **Līdzekļu pārvaldība** ieslēdziet līdzekli **Naudas plūsmas projekta prognoze**, lai naudas plūsmas prognozē iekļautu prognozētās izmaksas un ieņēmumus. Cilnē **Projektu pārvaldība un uzskaite** lapā **Naudas plūsmas prognozes iestatījums** atlasiet projektu tipus un transakciju tipus, kas jāiekļauj naudas plūsmas prognozē. Pēc tam atlasiet projekta prognozes modeli. Samazināšanas tipa apakšmodelis strādā vislabāk. Likviditātes konti, kas tika ievadīti Kontu parādu iestatījumos, tiek izmantoti kā noklusējuma likviditātes konti. Tāpēc, iestatot naudas plūsmas prognozi, nav jāievada noklusējuma likviditātes konti. Var izmantot arī budžeta modeli, bet projekta pārvaldībai un uzskaitei lapā **Naudas plūsmas prognozes iestatījums** var atlasīt tikai vienu tipu. Lietojot projekta vadību un uzskaiti vai Project Operations, budžeta modelis nodrošina lielāko elastīgumu.
+
+Pēc tam, kad ir ieslēgts naudas plūsmas projekta prognozes līdzeklis, naudas plūsmas prognozi var skatīt katram projektam lapā **Visi projekti**. Darbību rūts cilnē **Plāns** grupā **Prognoze** atlasiet **Naudas plūsmas prognoze**. Darbvietā **Skaidras naudas apskats** (skatiet sadaļu [Pārskati](#reporting) tālāk šajā tēmā), projekta budžeta darbības tips rāda ienākošās naudas plūsmas (projekta budžeta ieņēmumi) un izejošās naudas plūsmas (projekta budžeta izmaksas). Summas var iekļaut tikai tad, ja lauks **Projekta stadija** darbvietā **Skaidras naudas pārskats** ir iestatīts uz **Procesā**.
+
+Projekta darbības joprojām tiek iekļautas naudas plūsmas prognozē vairākos veidos, neatkarīgi no tā, vai ir ieslēgts līdzeklis **Naudas plūsmas projekta prognoze**. Grāmatotie projekta rēķini tiek ietverti prognozē kā daļa no atvērtajām debitoru transakcijām. Projekta izraisītie pārdošanas un pirkšanas pasūtījumi tiek ietverti prognozē kā atvērti pasūtījumi, kad tie tiek ievadīti sistēmā. Varat arī pārsūtīt projekta prognozes uz Virsgrāmatas budžeta modeli. Pēc tam šis Virsgrāmatas budžeta modelis tiek ietverts naudas plūsmas prognozē kā daļa no budžeta reģistra ierakstiem. Ja esat ieslēdzis līdzekli **Naudas plūsmas projekta prognoze**, nepārsūtiet projektu prognozes uz virsgrāmatas budžeta modeli, jo šāda rīcība liks projekta prognozes saskaitīt divas reizes.
+
+### <a name="sales-tax-authority-payments"></a>PVN iestādes maksājumi 
+
+Līdzeklis Naudas plūsmas PVN iestādes maksājumi prognozē PVN maksājumu naudas plūsmas ietekmi. Tā izmanto neapmaksātas PVN darbības, nodokļu apmaksas periodus un nodokļu perioda maksājuma termiņu, lai prognozētu naudas plūsmas maksājumu datumu un summu. 
 
 ### <a name="calculation"></a>Aprēķins
 
@@ -140,7 +160,7 @@ Darbvietā **Naudas pārskats — visi uzņēmumi** tiek rādīti naudas plūsm
 
 Darbvietā **Naudas pārskats — pašreizējais uzņēmums** tiek rādīti naudas plūsmas prognozēšanas analīzes dati uzņēmumam definētajā uzskaites valūtā. Analīzei izmantoto uzskaites valūtu var definēt lapā **Virsgrāmata**. Šajā darbvietā ir sniegts pārskats par pašreizējā uzņēmuma naudas plūsmas prognozēšanu un bankas kontu bilancēm. Skaidras naudas ieejas un izejas plūsmas diagramma sniedz pārskatu par gaidāmo naudas plūsmu un bilancēm uzskaites valūtā, kā arī detalizētu informāciju par prognozētajām transakcijām. Varat skatīt arī prognozētās bilances noteiktā valūtā.
 
-Papildinformāciju par naudas plūsmas prognozēšanas analīzi skatiet tēmā [Skaidras naudas Power BI saturs](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-overview-power-bi-content).
+Papildinformāciju par naudas plūsmas prognozēšanas analīzi skatiet tēmā [Skaidras naudas Power BI satura pārskats](Cash-Overview-Power-BI-content.md).
 
 Tālāk norādītajās lapās varat arī skatīt naudas plūsmas prognozēšanas datus par noteiktiem kontiem, pasūtījumiem un krājumiem.
 
@@ -150,3 +170,6 @@ Tālāk norādītajās lapās varat arī skatīt naudas plūsmas prognozēšanas
 - **Piegādes apjoma prognoze**: atlasiet opciju **Naudas plūsmas prognozes**, lai skatītu gaidāmās naudas plūsmas, kas ir saistītas ar atlasīto krājuma piegādes apjoma prognozi.
 - **Pieprasījuma apjoma prognoze**: atlasiet opciju **Naudas plūsmas prognozes**, lai skatītu gaidāmās naudas plūsmas, kas ir saistītas ar atlasīto krājuma pieprasījuma apjoma prognozi.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

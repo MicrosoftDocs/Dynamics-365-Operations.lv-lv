@@ -1,24 +1,24 @@
 ---
 title: Atlikuma nokārtošana
 description: Jūs varat apmaksāt atlikušo no norēķinu darbības, ieskaitot šo summu virsgrāmatas kontā.
-author: roschlom
-ms.date: 10/16/2018
+author: twheeloc
+ms.date: 02/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 216c5c1d7db72e5f5071f2cd03656df538a64e72
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 881b46774d3ca6a9b91d4dc06babb30c8677183a
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7754100"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182408"
 ---
 # <a name="settle-remainder"></a>Atlikuma nokārtošana
 
@@ -27,13 +27,13 @@ ms.locfileid: "7754100"
 Jūs varat apmaksāt atlikušo no norēķinu darbības, ieskaitot šo summu virsgrāmatas kontā vai citam debitoram. Jūs varat nokārtot atlikumu, kad sedzat žurnālā ievadītās summas, vai kad tikai sedzat atvērtās transakcijas.
 
 ## <a name="setting-up-defaults"></a>Noklusējumu iestatīšana 
-Pirms atlikuma nokārtošanas izmantošanas, ir jāiespējo atlikuma nokārtošanas līdzeklis un jāiestata noklusējuma iestatījumi.
+Pirms izmantot nosegt atlikumu **, ir** jāaktivizē funkcija Nosegt atlikumu un jāiestata noklusējuma **iestatījumi**.
 
 1)  Noklikšķiniet uz **Debitoru parādi > Parametri > Norēķini** vai **Kreditoru parādi > Parametri > Norēķini**.
-2)  Atlasiet cilni **Norēķini** un noklikšķiniet uz **Iespējot atlikuma nokārtošanu**.
+2)  Atlasiet cilni Nosegšana **un** noklikšķiniet uz Aktivizēt **nosegšanas atlikumu**.
 3)  Laukā **Noklusējuma iemesla kods** atlasiet noklusējuma iemesla kodu. Iemeslu kodiem jau ir jābūt iestatītiem sadaļā **Debitoru parādi > Iestatījumi > Debitoru norakstīšanas iemesla kodi** vai **Kreditoru parādi > Iestatījumi > Debitoru norakstīšanas iemesla kodi**. **Noklusējuma atlikuma nokārtošanas konts** pēc noklusējuma būs konts, kas piešķirts norakstīšanas iemesla kodam.
 3)  Atjauniniet parametra **Noklusējuma atlikuma nokārtošanas konts** informāciju pēc nepieciešamības.
-4)  Noklusētajā žurnāla nosaukumā atlasiet maksājumu žurnālu, kas tiks lietots, ja vēlaties izveidot maksājumu žurnālu, kad iestatīsit **·** tikai atvērtās darbības. Ja iespējojat atlikuma nokārtošanas līdzekli, ir jāpievieno noklusējuma žurnāla nosaukums.
+4)  Noklusētajā **žurnāla nosaukumā** atlasiet maksājumu žurnālu, kas tiks lietots, ja vēlaties izveidot maksājumu žurnālu, kad iestatīsit tikai atvērtās darbības. Ja iespējojat atlikuma nokārtošanas līdzekli, ir jāpievieno noklusējuma žurnāla nosaukums.
 
 ## <a name="settle-remainder-from-a-journal"></a>Atlikuma nokārtošana no žurnāla
 Ja neiespējojat līdzekli **Atlikuma nokārtošana**, jūs joprojām varat ievadīt transakciju žurnālā un pēc tam nokārtot transakcijas atbilstoši žurnālam, kā to darījāt iepriekš. Noklikšķinot uz pogas **OK**, atvērtā rēķina bilance tiek samazināta atbilstoši iemaksātajai summai. Ja iemaksātā summa pilnībā nenosedz rēķinu, rēķins paliek atvērts, un atlikumu var samaksāt vēlāk.
@@ -59,7 +59,7 @@ Jūs varat nokārtot atlikumu, arī sedzot atvērtās transakcijas bez žurnāla
 Lai nokārtotu atlikumu, veiciet tālāk norādītās darbības.
 
 1)  Lapā **Norēķini** atzīmējiet rēķinus vai transakcijas, kuras vēlaties nosegt.
-2)  Noklikšķiniet uz **Nokārtot atlikumu**.
+2)  Noklikšķiniet uz atlikuma **nokārtot**.
 3)  Parādīsies dialoglodziņš, kurā būs norādīta summa, kas tiks segta virsgrāmatas kontā, datums, kas tiks izmantots, lai nokārtotu atlikumu, noklusējuma iemesla kods no parametriem un noklusējuma konts no parametriem. 
 4)  Atlasiet jaunu norēķinu iemeslu, ja vēlaties mainīt noklusējuma iemeslu. Norēķinu konts tiks mainīts uz kontu, kas saistīts ar iemesla kodu.
 5)  Labojiet **norēķinu kontu**, ja vēlaties to mainīt.

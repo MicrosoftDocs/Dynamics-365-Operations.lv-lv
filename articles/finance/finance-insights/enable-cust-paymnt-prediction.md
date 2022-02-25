@@ -1,64 +1,55 @@
 ---
-title: Debitora maksājumu prognožu iespējošana (priekšskatījums)
+title: Debitora maksājumu prognožu iespējošana
 description: Šajā tēmā paskaidrots, kā ieslēgt un konfigurēt debitora maksājumu prognozēšanas līdzekli Finanšu ieskatos.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 05/27/2020
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: e10aa9342ec9f089ef8ecec5e1221a31c580fc87
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
-ms.translationtype: HT
+ms.openlocfilehash: b83d1230c94462ca722ad7ceb7b2185afd636aae
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644997"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109608"
 ---
-# <a name="enable-customer-payment-predictions-preview"></a>Debitora maksājumu prognožu iespējošana (priekšskatījums)
+# <a name="enable-customer-payment-predictions"></a>Debitora maksājumu prognožu iespējošana
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Šajā tēmā paskaidrots, kā ieslēgt un konfigurēt debitora maksājumu prognozēšanas līdzekli Finanšu ieskatos. Ieslēdziet līdzekli darbvietā **Līdzekļu pārvaldība** un ievadiet konfigurācijas iestatījumus lapā **Finanšu ieskatu parametri**. Šajā tēmā iekļauta arī informācija, kas var palīdzēt efektīvi izmantot līdzekli.
+Šajā tēmā paskaidrots, kā ieslēgt un konfigurēt debitora maksājumu prognozēšanas līdzekli Finanšu ieskatos. Jūs ieslēdzat līdzekli līdzekļu pārvaldības darbvietā **un** ievadāt konfigurācijas iestatījumus finanšu **ieskatu konfigurācijas** lapā. Šajā tēmā iekļauta arī informācija, kas var palīdzēt efektīvi izmantot līdzekli.
 
 > [!NOTE]
 > Pirms veicat tālāk norādītās darbības, pārliecinieties, vai ir paveiktas priekšnosacījumu darbības tēmā [Finanšu ieskatu konfigurēšana](configure-for-fin-insites.md).
 
-1. Izmantojiet informāciju no vides lapas Microsoft Dynamics Lifecycle Services (LCS), lai izveidotu savienojumu ar Azure SQL primāro instanci šai videi. Palaidiet tālāk norādīto Transact-SQL (T-SQL) komandu, lai ieslēgtu ierobežotos līdzekļus smilškastes videi. (Iespējams, būs LCS jāieslēdz piekļuve savai IP adresei pirms varēsiet izveidot attilināto savienojumu ar programmas objektu serveri \[AOS\].)
+1. Slēdziet debitoru maksājumu prognozēšanas līdzekli:
 
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED, PARTITION) VALUES ('PayPredEnableFeature', 1, 5637144576)`
+    1. Atveriet darbvietu **Funkcionalitātes pārvaldība**.
+    2. Atlasiet **Pārbaudīt atjauninājumus**.
+    3. Cilnē Viss **meklējiet** debitoru **maksājumu prognozes**. Ja neatradīsiet šo līdzekli, meklējiet **(priekšskatījums) debitora maksājuma prognozes**. 
+    4. Ieslēgt funkciju.
 
-    > [!NOTE]
-    > Ja jūsu Microsoft Dynamics 365 Finance izvietošana ir Service Fabric izvietošana, varat izlaist šo darbību. Finanšu ieskatu grupai jau vajadzētu ieslēgt jums šo ierobežoto līdzekli. Ja neredzat līdzekli darbvietā **Līdzekļu pārvaldība** vai ja rodas problēmas, mēģinot to ieslēgt, sazinieties ar <fiap@microsoft.com>.
+    Debitora maksājumu prognozēšanas līdzeklis ir ieslēgts un gatavs konfigurēšanai.
 
-2. Ieslēdziet debitora maksājumu ieskatu līdzekli:
+2. Konfigurējiet debitora maksājumu ieskatu līdzekli:
 
-    1. Dodieties uz **Sistēmas administrēšana \> Darbvietas \> Līdzekļu pārvaldība**.
-    2. Atrodiet līdzekli, kura nosaukums ir **Debitora maksājumu ieskati (priekšskatījums)**.
-    3. Atlasiet **Iespējot tagad**.
+    1. Dodieties uz **Kredīta un kolekcijas iestatīšanas \>\> finanšu ieskatu debitoru \> maksājumu prognozes**.
+    2. Finanšu ieskatu **konfigurācijas lapā** cilnē Debitoru maksājumu prognozes atlasiet Skatīt datu laukus, **kas tiek izmantoti prognozēšanas modelī,** **lai** atvērtu datu laukus **prognozēšanas modeļa lapai.** Tur varat apskatīt noklusējuma sarakstu ar laukiem, kas tiek izmantoti, lai izveidotu mākslīgā intelekta prognozēšanas modeli debitora maksājumu prognozēm.
 
-    Debitora maksājumu ieskatu līdzeklis tagad ir ieslēgts un gatavs konfigurēšanai.
-
-3. Konfigurējiet debitora maksājumu ieskatu līdzekli:
-
-    1. Doties uz **Kredīti un iekasēšana \> Iestatījumi \> Finanšu ieskati \> Finanšu ieskatu parametri**.
-
-        [![Finanšu ieskatu parametru lapa pirms līdzekļa konfigurēšanas](./media/finance-insights-parameters.png)](./media/finance-insights-parameters.png)
-
-    2. Lapā **Finanšu ieskatu parametri**, kas atrodas cilnē **Debitora maksājumu ieskati** atlasiet saiti **Skatīt datu laukus, kas izmantoti prognozēšanas modelī**, lai atvērtu lapu **Datu lauki prognozēšanas modelim**. Tur varat apskatīt noklusējuma sarakstu ar laukiem, kas tiek izmantoti, lai izveidotu mākslīgā intelekta prognozēšanas modeli debitora maksājumu prognozēm.
-
-        Lai izmantotu noklusējuma lauku sarakstu un izveidotu prognozēšanas modeli, aizveriet lapu **Datu lauki prognozēšanas modelim** un pēc tam lapā **Finanšu ieskatu parametri** iestatiet opciju **Iespējot līdzekli** uz **Jā**.
+        Lai izmantotu noklusējuma lauku sarakstu, lai izveidotu prognozēšanas modeli, **·** **aizveriet datu laukus** **·** **prognozēšanas modeļa lapai un pēc tam lapā Finanšu ieskatu konfigurācija iestatiet opciju Iespējot uz Jā.**
+        
+   > [!NOTE]
+   > Debitora **maksājuma prognozēšanas līdzeklim ir nepieciešamas vairāk nekā 100 darbības iepriekšējos** sešos līdz deviņiem mēnešiem. Darbībās var būt iekļauti brīvā teksta rēķini, pārdošanas pasūtījumi un debitoru maksājumi. Šie dati ir jāizplata starp iestatījumiem **On-time**, **Late** un **Very Late**.    
+     
 
     3. Nosakiet darījumu periodu "ļoti novēloti", lai definētu, ko jūsu biznesam nozīmē prognozēšanas grozs **Ļoti novēloti**.
 
@@ -71,23 +62,13 @@ ms.locfileid: "4644997"
         > [!NOTE]
         > Ja maināt darījumu periodu "ļoti novēloti" un atlasāt **Mainīt novēlošanas slieksni** pēc tam, kad ir izveidots mākslīgā intelekta modelis debitora maksājumiem, esošais prognozēšanas modelis tiek dzēsts, un tiek izveidots jauns modelis. Jaunais prognozēšanas modelis pārvietos darījumus uz periodu "ļoti novēloti", pamatojoties uz iestatījumiem, kas tika ievadīti, to definējot.
 
-    4. Pēc tam, kad esat pabeidzis definēt darījumu periodu "ļoti novēloti", atlasiet **Izveidot prognozēšanas modeli**, lai izveidotu prognozēšanas modeli. Sadaļa **Prognozēšanas modelis** lapā **Finanšu ieskatu parametri** parāda prognozēšanas modeļa statusu.
+    4. Pēc tam, kad esat pabeidzis definēt darījumu periodu "ļoti novēloti", atlasiet **Izveidot prognozēšanas modeli**, lai izveidotu prognozēšanas modeli. Prognozēšanas **modeļa** sadaļa finanšu **ieskatu konfigurācijas** lapā parāda prognozēšanas modeļa statusu.
 
         > [!NOTE]
         > Jebkurā laikā, kamēr tiek veidots prognozēšanas modelis, varat atlasīt **Atiestatīt modeļa izveidi**, lai atiestatītu procesu.
 
     Līdzeklis tagad ir konfigurēts un ir gatavs lietošanai.
 
-Pēc tam, kad līdzeklis ir ieslēgts un konfigurēts, un prognozēšanas modelis ir izveidots un darbojas, sadaļā **Prognozēšanas modelis** lapā **Finanšu ieskatu parametri** redzama modeļa precizitāte, kā parādīts tālāk redzamajā attēlā.
+Pēc tam, kad funkcija ir ieslēgta un konfigurēta, un prognozēšanas modelis ir izveidots un darbojas, **·** **finanšu** ieskatu parametru lapas prognozēšanas modelis parāda modeļa precizitāti.
 
-[![Prognozēšanas modeļa precizitāte finanšu ieskatu parametru lapā](./media/finance-insights-parameters-accuracy.png)](./media/finance-insights-parameters-accuracy.png)
-
-## <a name="release-details"></a>Informācija par izlaišanu
-
-Finanšu ieskatu publiskais priekšskatījums izmēģinājuma izvietošanai ir pieejams Amerikas Savienotajās Valstīs, Eiropā un Apvienotajā Karalistē. Korporācija Microsoft pakāpeniski pievieno atbalstu citiem reģioniem.
-
-Publiskā priekšskatījuma līdzekļus var un vajadzētu ieslēgt tikai 2. līmeņa smilškastes vidēs. Iestatīšanas un mākslīgā intelekta modeļus, kas izveidoti smilškastes vidē, nevar migrēt uz ražošanas vidi. Lai iegūtu papildu informāciju, skatiet rakstu [Microsoft Dynamics 365 Previews lietošanas papildu nosacījumi](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-terms).
-
-## <a name="privacy-notice"></a>Paziņojums par konfidencialitāti
-
-Priekšskatījumiem (1) var tikt izmantots mazāk konfidencialitātes un drošības pasākumu nekā pakalpojumam Dynamics 365 Finance and Operations, (2) tie nav ietverti pakalpojuma līmeņa līgumā par šo pakalpojumu, (3) tos nedrīkst izmantot personas datu vai citu tādu datu apstrādei, uz kuriem attiecas juridiskās vai normatīvās prasības, un (4) tiem tiek nodrošināts ierobežots atbalsts.
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 4b7c01a21dcbe7543332439ee6fd371b426851f4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: b89a13e72816bbf140986bd5450d037cf2510753
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579932"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103517"
 ---
 # <a name="wave-creation-and-processing"></a>Kopumu izveide un apstrāde
 
@@ -190,9 +190,9 @@ Ja nepieciešams, varat atcelt kopumu, kas ir apstrādāts. Lai atceltu kopumu u
 
 Izmantojiet **Kopuma pakešuzdevuma informācijas** lapu, lai pārbaudītu pakešuzdevumus un saistītos uzdevumus, kas saistīti ar jebkuru kopumu. Tas ir īpaši noderīgi, lai novērstu problēmas, kas saistītas ar neizdevušos kopumu. Bez šī līdzekļa tikai administratoriem parasti ir piekļuve detalizētai informācijai par pakešuzdevumu. Pakešuzdevuma **Informācijas par kopumu** lapu var padarīt pieejamu lietotājiem, kas nav administratori, un tā nodrošina tikai lasāmu pakešuzdevumu un saistīto uzdevumu skatu.
 
-### <a name="enable-the-wave-batch-job-details-page"></a>Iespējot pakešuzdevuma kopuma informācijas lapu
+### <a name="turn-the-wave-batch-job-details-page-on-or-off"></a>Ieslēgt vai izslēgt lapu Kopuma pakešuzdevums
 
-Ja sistēmā vēl nav iekļauta lapa **Kopuma pakešuzdevuma detalizēta informācija**, dodieties uz [Līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) un ieslēdziet *Kopuma pakešuzdevuma detalizētās informācijas* līdzekli.
+Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.25 pēc **noklusējuma** ir ieslēgta kopuma pakešuzdevuma detalizētas informācijas lapa. Administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot kopuma *pakešuzdevuma informācijas* līdzekli līdzekļu [pārvaldības darbvietā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="use-the-wave-batch-job-details-page"></a>Izmantot pakešuzdevuma kopuma informācijas lapu
 

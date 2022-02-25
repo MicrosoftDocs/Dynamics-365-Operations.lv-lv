@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 4af84383fe1d214849d5d05463bd0cbfad7d0536
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: f68dcfc0c1454ee5b095e186c52faa6c83bf8dc6
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778477"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103919"
 ---
 # <a name="confirm-outbound-shipments-from-batch-jobs"></a>Apstiprināt izejošos sūtījumus no pakešuzdevumiem
 
@@ -25,12 +25,9 @@ ms.locfileid: "7778477"
 
 Šajā tēmā aprakstīts, kā iestatīt pakešuzdevumu, kas automātiski apstiprina izejošos pārvedumu sūtījumus kravām, kas ir gatavas sūtīšanai. Šeit aprakstītais pakešuzdevums attiecas tikai uz pārvedumu sūtījumiem, nevis uz pārdošanas pasūtījumiem.
 
-## <a name="enable-the-confirm-outbound-shipments-from-batch-jobs-feature"></a>Iespējojiet funkciju Apstiprināt izejošos sūtījumus no pakešuzdevumiem
+## <a name="turn-the-confirm-outbound-shipments-from-batch-jobs-feature-on-or-off"></a>Ieslēgt vai izslēgt līdzekli Apstiprināt nosūtīšanas kravas no pakešuzdevumiem
 
-No Piegādes ķēdes pārvaldības versijas 10.0.21 šī funkcija ir ieslēgta pēc noklusējuma. Administratori var izmantot Līdzekļu [pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lapu, lai pārbaudītu līdzekļu statusu un aktivizētu vai atspējotu to, ja nepieciešams. Šeit līdzeklis tiek norādīts kā:
-
-- **Modulis** - *Noliktavas pārvaldība*
-- **Funkcijas nosaukums** - *Apstiprināt izejošos sūtījumus no pakešuzdevumiem*
+Lai izmantotu šajā tēmā aprakstīto funkcionalitāti, sistēmai *jābūt ieslēgtai funkcijai Apstiprināt izejošos sūtījumus* no pakešuzdevumiem. No Piegādes ķēdes pārvaldības versijas 10.0.21 šī funkcija ir ieslēgta pēc noklusējuma. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja lietojat versiju, kas vecāka par 10.0.25, administratori šo funkcionalitāti var ieslēgt vai izslēgt, meklējot līdzekli Apstiprināt izejošos *sūtījumus*[no](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pakešuzdevumiem līdzekļu pārvaldības darbvietā.
 
 ## <a name="process-outbound-shipments"></a>Apstrādāt izejošos sūtījumus
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: e24bceac9457212ecaafda876d19ba62df049371
-ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
-ms.translationtype: HT
+ms.openlocfilehash: 7921983a965af5557f54f608418c8ec922256ba6
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7471840"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103642"
 ---
 # <a name="generate-variants-for-engineering-products"></a>Ģenerēt variantus tehniskām precēm
 
@@ -23,15 +23,9 @@ ms.locfileid: "7471840"
 
 Šajā tēmā ir aprakstīts, kā ģenerēt variantus tehniskām precēm.
 
-## <a name="turn-on-variant-generation-for-engineering-products"></a>Variantu ģenerācijas iespējošana tehniskajām precēm
+## <a name="turn-variant-generation-for-engineering-products-on-or-off"></a>Variantu ģenerēšanas izslēgšana inženierzinātnes precēm
 
-Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
-
-- **Modulis:** *Inženiertehnisko izmaiņu pārvaldība*
-- **Līdzekļa nosaukums:** *Variantu ģenerēšana tehniskajām precēm*
-
-> [!IMPORTANT]
-> Līdzeklis *Variantu ģenerēšana tehniskajām precēm* būs redzams sistēmā vienīgi pēc tam, kad būs iespējota konfigurāciju atslēga *Inženiertehnisko izmaiņu pārvaldība*. Norādījumus skatiet sadaļā [Inženiertehnisko izmaiņu pārvaldības pārskats](product-engineering-overview.md).
+Šajā tēmā aprakstītajai funkcionalitātei ir nepieciešams, lai *jūsu* *sistēmai ieslēgtu* gan inženierzinātnes izmaiņu pārvaldību, gan variantu ģenerēšanu inženierzinātnes preču līdzekļiem. Papildinformāciju par to, kā ieslēgt vai izslēgt šos līdzekļus, skatiet inženierzinātnes [izmaiņu pārvaldības pārskatā](product-engineering-overview.md).
 
 ## <a name="generate-one-or-more-new-variants-of-an-engineering-product"></a>Ģenerēt vienu vai vairākus jaunus tehnikas preces variantus
 

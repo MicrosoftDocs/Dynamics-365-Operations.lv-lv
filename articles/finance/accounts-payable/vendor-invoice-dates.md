@@ -2,25 +2,25 @@
 title: Kreditora rēķinu datumi
 description: Šajā tēmā aprakstīti datumi, kas parādās kreditoru rēķinos. Tajā skaidrots arī, kā iestatīt sistēmu, lai tā automātiski koriģētu grāmatošanas datumu.
 author: sunfzam
-ms.date: 08/30/2021
+ms.date: 2/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: a066f828b47f297b8ad520b9eb0f4f311d49b111
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 064a125d448ebb3511db2d9b1f4228380805dc44
+ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647900"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8105468"
 ---
 # <a name="vendor-invoice-dates"></a>Kreditora rēķinu datumi
 
@@ -50,6 +50,9 @@ Izpildiet šīs darbības, lai ļautu sistēmai automātiski koriģēt grāmato�
     - **Vienmēr mainīt grāmatošanas datumu uz sistēmas datumu** – sistēma grāmatošanas laikā automātiski maina grāmatošanas datumu uz sistēmas datumu.
     - **Mainīt grāmatošanas datumu uz sistēmas datumu, kad grāmatošanas datuma periods ir slēgts vai aizturēts** – sistēma grāmatošanas laikā maina grāmatošanas datumu uz sistēmas datumu, bet tikai tad, ja atbilstošajam grāmatošanas datuma periodam ir statuss **Slēgts** vai **Aizturēts**.
     - **Mainīt grāmatošanas datumu uz pirmo jaunā perioda dienu, kad grāmatošanas datuma periods ir slēgts vai aizturēts** – sistēma grāmatošanas laikā maina grāmatošanas datumu uz pirmo jaunā atvērtā perioda datumu, bet tikai tad, ja atbilstošajam grāmatošanas datuma periodam ir statuss **Slēgts** vai **Aizturēts**.
+
+> [!NOTE]
+> Ja jaunais automātiski koriģētais grāmatošanas datums ir jaunajā finanšu gadā, rēķina grāmatošanas datums netiks atjaunināts. Lietotājs saņems kļūdu "Finanšu gads ir mainījies. Lūdzu, pārbaudiet un atkārtoti ievadiet grāmatošanas datumu." Lai varētu veikt grāmatošanu, rēķina grāmatošanas datums ir jāatjaunina uz jauno finanšu gada datumu.
 
 ## <a name="impact-of-posting-date-changes"></a>Grāmatošanas datuma izmaiņu ietekme
 

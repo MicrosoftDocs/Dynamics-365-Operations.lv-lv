@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 541e6c42ae1fa7d803b5becc1b52e34860777594
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 527bd24d7f2e9a05f6e617c222005186520f9968
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920602"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103793"
 ---
 # <a name="wave-allocation"></a>Kopumu sadalījums
 
@@ -67,7 +67,7 @@ Lai iestatītu paralēlo apstrādi:
 
 ## <a name="enable-or-disable-parallelization-across-all-legal-entities"></a>Iespējot vai atspējot paralēlošanu visām juridiskajām personām
 
-Ieteicams iestatīt `allocateWave` metodi paralēlai palaišanai visām juridiskajām personām, jo tas palīdz uzlabot kopuma apstrādes veiktspēju. Tiek sākta Supply Chain Management versija 10.0.17, visām jaunajām un atjauninātām instalācijām pēc noklusējuma tiek aktivizēta *Kopuma paralēlās izmantošanas kopuma sadalīšanas metode*, un to nevar atkal izslēgt. Pēc šīs funkcijas iespējošanas ir šādas darbības:
+Ieteicams iestatīt `allocateWave` metodi paralēlai palaišanai visām juridiskajām personām, jo tas palīdz uzlabot kopuma apstrādes veiktspēju. Tiek sākta piegādes ķēdes pārvaldības versija 10.0.17, *visām* jaunajām un atjauninātām instalācijām pēc noklusējuma ir ieslēgta kopuma paralēlošana, un to nevar atkal izslēgt. Pēc šīs funkcijas iespējošanas ir šādas darbības:
 
 - `allocateWave` metode tiek atjaunināta, lai ietvertu uzdevuma konfigurācijas iestatījumu, kas ļauj izmantot lapu **Kopuma apstrādes metodes**, lai definētu vienlaicīgi veicamo uzdevumu skaitu, kas ir vienāds ar paralēlo procesu skaitu. Tā rezultātā laiks, kas tiek izmantots iedalītā kopuma darbībā (kas parasti ir 30% līdz 60% no kopējā apstrādes laika) tiek samazināts par faktoru, kas aptuveni ir vienāds ar uzdevumu skaitu. Ir iespējams atlasīt arī to, kura pakete tiks piešķirta šo uzdevumu izpildei. Ir svarīgi atzīmēt, ka visas juridiskās personas tiks konfigurētas, lai paketes ietvaros apstrādātu kopumus. Noliktavām, kas jau ir konfigurētas, lai apstrādātu kopumus paketē, un noliktavām, kas jau ir konfigurētas `allocateWave` metodes izmantošanai paralēli, esošā konfigurācija tiks saglabāta.
 - Pēc noklusējuma visas jaunās juridiskās personas ir konfigurētas, lai apstrādātu kopumus partijā. Visām jaunajām noliktavām, kurām ir iespējota **Noliktavas pārvaldības procesu** opcija, būs konfigurēta `allocateWave` metode paralēlai palaišanai pēc noklusējuma.

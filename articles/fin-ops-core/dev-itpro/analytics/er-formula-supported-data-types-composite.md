@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72b97b2f7091883e445b2e8474ca140217bda004b0c4d8988411b9ed4209e254
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: bf7178888e39a5f26ae92e77df9c996374b76bf3
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758268"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323669"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>Elektronisko pārskatu veidotāja atbalstītie saliktie datu tipi
 
@@ -27,7 +27,7 @@ ms.locfileid: "6758268"
 
 Datu tips *class* attiecas uz publisku pieteikuma klasi. Rīkā ER to apzīmē kā [*record*](#record), kas ietver atsevišķu lauku katrai atsauču klases publiskai metodei. Ja metodes izsaukums ir parametrs, jums jānorāda arī nepieciešamie argumenti atbilstošiem tipiem ER izteiksmē, kas ir konfigurēta metodes izsaukšanai.
 
-ER [kartēšanas](general-electronic-reporting.md#data-model-and-model-mapping-components) un [formāta](general-electronic-reporting.md#FormatComponentOutbound) komponentos varat pievienot **klases** datu avotu, kas tiek rādīts kā datu avots un kas atgriež datu tipa *class* vērtību. Šis datu avots atklāj klases publiskās metodes, ko var izsaukt izpildlaikā.
+ER kartēšanas un formāta komponentos varat pievienot klases datu avotu, **kas** tiek rādīts kā datu avots un kas atgriež klases tipa *vērtību*. Šis datu avots atklāj klases publiskās metodes, ko var izsaukt izpildlaikā.
 
 > [!NOTE]
 > No ER izteiksmēm var izsaukt tikai metodes, kas atgriež vērtību.

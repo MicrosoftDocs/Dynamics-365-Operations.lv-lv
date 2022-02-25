@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: a23168b550bfa2bb6a51c8df5d0a558431c23ebb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 459c8fce892d9437c7466458b7e53743c71da38f
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574261"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102842"
 ---
 # <a name="cluster-position-full"></a>Klastera pozīcija pilna
 
@@ -28,14 +28,11 @@ Līdzeklis *Pilna klastera pozīcija* piedāvā alternatīvu stingrākai darba p
 
 Šis līdzeklis ievieš iespēju darbināt pogu **Pilns** uz vienas no klastera darba vienībām. Vecākās versijās šī opcija bija pieejama tikai regulārai pasūtījumu izdošanai, nevis klastera izdošanai. Tomēr šis līdzeklis atšķiras no standarta pogas **Pilns** , jo tas atceļ atlikušo darbu. Tas neliecina, ka lietotājs tam pašam klasterim pievieno vēl vienu nodalījumu, un tas automātiski nerada jaunu darbu.
 
-## <a name="turn-on-the-cluster-position-full-feature"></a>Ieslēgt līdzekli Pilna klastera pozīcija
+## <a name="turn-the-cluster-position-full-feature-on-or-off"></a>Ieslēgt vai izslēgt klastera pozīcijas pilnu funkciju
 
-Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
+Lai izmantotu šajā tēmā aprakstīto funkcionalitāti, *sistēmai jābūt* ieslēgtai pilnai klastera pozīcijai. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja jūs palaižat versiju, kas vecāka par 10.0.25, tad administratori šo funkcionalitāti var ieslēgt vai izslēgt, *·*[meklējot klastera pozīcijas pilnu funkciju līdzekļu pārvaldības darbvietā.](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
-- **Modulis:** *Noliktavas pārvaldība*
-- **Līdzekļa nosaukums:** *Pilna klastera pozīcija*
-
-## <a name="setup"></a>Iestatīt
+## <a name="setup"></a>Iestatīšana
 
 Šajā sadaļā ir sniegti norādījumi, un piemērs, kas parāda, kā iestatīt un izmantot līdzekli *Pilna klastera pozīcija* .
 

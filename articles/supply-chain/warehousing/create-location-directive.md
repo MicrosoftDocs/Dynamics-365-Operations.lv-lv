@@ -2,11 +2,9 @@
 title: Darbs ar novietojuma direktīvām
 description: Šajā tēmā ir aprakstīts, kā strādāt ar atrašanās vietas direktīvām. Novietojuma direktīvas ir lietotāja definēti nosacījumi, kas palīdz identificēt izdošanas un izvietošanas novietojumus krājumu kustībai.
 author: Mirzaab
-manager: tfehr
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocDirTable, WHSLocDirHint, WHSLocDirTableUOM, WHSLocDirFailure
 audience: Application User
@@ -14,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: b1b3bafb24ff6eb0c42d901fac3b6668cedf39ef
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 84ff0a466c037db05aecaff14aa2e17990ce8799
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963314"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103142"
 ---
 # <a name="work-with-location-directives"></a>Darbs ar novietojuma direktīvām
 
@@ -46,14 +44,14 @@ Pirms jūs varat izveidot novietojumu direktīvu, jums ir jāveic šādas darbī
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatījumi \> Noliktava \> Noliktavas**.
 1. Izveidojiet noliktavu.
 1. Kopsavilkuma cilnē **Noliktava** iestatiet **Izmantot noliktavas pārvaldības procesus** opciju uz *Jā*.
-1. Izveidojiet novietojumus, novietojumu veidus, novietojumu profilus un novietojumu formātus. Lai iegūtu papildu informāciju, skatiet [Konfigurēt novietojumus WMS iespējotā noliktavā](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse).
-1. Izveidojiet vietas, zonas un zonu grupas. Lai iegūtu papildu informāciju, skatiet [Noliktavu iestatīšana](https://docs.microsoft.com/dynamics365/commerce/channels-setup-warehouse) un [Konfigurēt novietojumus WMS iespējotā noliktavā](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse).
+1. Izveidojiet novietojumus, novietojumu veidus, novietojumu profilus un novietojumu formātus. Lai iegūtu papildu informāciju, skatiet [Konfigurēt novietojumus WMS iespējotā noliktavā](./tasks/configure-locations-wms-enabled-warehouse.md).
+1. Izveidojiet vietas, zonas un zonu grupas. Lai iegūtu papildu informāciju, skatiet [Noliktavu iestatīšana](../../commerce/channels-setup-warehouse.md) un [Konfigurēt novietojumus WMS iespējotā noliktavā](./tasks/configure-locations-wms-enabled-warehouse.md).
 
 ## <a name="work-order-types-for-location-directives"></a>Darba pasūtījumu veidi novietojuma direktīvām
 
 Daudzi lauki, ko var iestatīt novietojuma direktīvām, ir kopēji visiem darba pasūtījuma veidiem. Tomēr citi lauki ir specifiski noteiktiem darba pasūtījumu veidiem.
 
-![Atrašanās vietas direktīvu darba pasūtījumu veidi](media/Location_Directives_Work_Order_Types.png "Atrašanās vietas direktīvu darba pasūtījumu veidi")
+![Atrašanās vietas direktīvu darba pasūtījumu veidi.](media/Location_Directives_Work_Order_Types.png "Atrašanās vietas direktīvu darba pasūtījumu veidi")
 
 > [!NOTE]
 > Divi darba pasūtījumu veidi *Atceltie darbi* un *Cikla inventarizācija* tiek izmantoti tikai sistēmā. Šim darba pasūtījumu veidiem nevar izveidot novietojuma direktīvas.
@@ -145,14 +143,14 @@ Kopsavilkuma cilnes **Novietojuma direktīvas** lauki ir specifiski darba pasūt
 - **Deriktīvas kods** - Atlasiet direktīvas kodu, ko saistīt ar darba veidni vai papildināšanas veidni. Lapā **Direktīvas kods** varat izveidot jaunus kodus, ko var izmantot darba veidņu vai papildināšanas veidņu savienošanai ar atrašanās vietas direktīvām. Direktīvas kodus var izmantot arī, lai izveidotu saikni starp jebkuru darba veidnes rindu un atrašanās vietas direktīvu (piemēram, angāra durvis vai sagatavošanas vietas).
 
     > [!TIP]
-    > Ja ir iestatīts direktīvas kods, sistēma nemeklēs atrašanās vietas direktīvas pēc kārtas numura, kad darbs ir jāveido. Tā vietā tas meklēs pēc direktīvas koda. Šādā veidā varat precīzāk norādīt, kāda vietas veidne darba veidnē tiek izmantota noteiktai darbībai, piemēram, materiālu sagatavošana.
+    > Ja ir iestatīts direktīvas kods, sistēma nemeklēs atrašanās vietas direktīvas pēc kārtas numura, kad darbs ir jāveido. Tā vietā tas meklēs pēc direktīvas koda. Šādā veidā varat precīzāk norādīt, kāda vietas direktīvas darba veidnē tiek izmantota noteiktai darbībai, piemēram, materiālu sagatavošana.
 
 - **Vairāki SKU** - Iestatiet šo opciju uz *Jā*, lai atrašanās vietā varētu izmantot vairākas noliktavas vienības (SKU). Piemēram, ir jāiespējo vairākas SKU angāra durvju novietojumam. Ja iespējojat vairākas SKU, jūsu novietojums tiks norādīts darbā, kā paredzēts. Tomēr izvietošanas novietojums varēs apstrādāt tikai vairāku krājumu izvietošanu (ja darbs ietver dažādas SKU, kas ir jāsaņem un jānovieto). Tas nevarēs apstrādāt vienu SKU izvietošanu. Ja šī opcija ir iestatīta uz *Nē*, jūsu novietojums tiks norādīts tikai tad, ja jūsu izvietošanai ir tikai viena veida SKU.
 
     > [!IMPORTANT]
     > Lai varētu veikt gan vairāku vienumu, gan vienas SKU izvietošanu, ir jānorāda divas rindas ar vienādu struktūru un iestatījumiem, bet vienai rindai ir jāiestata opcija **Vairākas SKU** uz *Jā* vienai rindai un *Nē* citai. Tāpēc, lai veiktu izvietošanas operācijas, jums ir jābūt divām identiskām atrašanās vietas direktīvām, pat ja jums nav jāatšķir atsevišķas SKU un vairāki SKU uz darba ID. Bieži, ja nav iestatītas abas šīs atrašanās vietas direktīvas, neparedzētas biznesa procesu atrašanās vietas tiks iegūtas no izmantotās atrašanās vietas direktīvas. Ja nepieciešams apstrādāt pasūtījumus, kas ietver vairākas noliktavas vienības, ir jāizmanto līdzīgi iestatījumi novietojuma direktīvām, kurām ir *saņemt* no **Darba tips**.
 
-    Lietojiet opciju **Vairākas SKU** darba rindām, kas apstrādā vairāk nekā vienu krājuma numuru. (Krājuma kods darba informācijā būs tukšs, un tas tiks attēlots kā **Vairākas** noliktavas programmas apstrādes lapās.)
+    Lietojiet opciju **Vairākas SKU** darba rindām, kas apstrādā vairāk nekā vienu krājuma numuru. (Krājuma kods darba informācijā būs tukšs, un tas tiks attēlots kā **Vairāki** noliktavas programmas apstrādes lapās.)
 
     Tipiskā piemērā darba veidne ir iestatīta tā, lai tai būtu vairāk nekā viens saņemšanas/izvietošanas pāris. Šādā gadījumā, iespējams, vēlēsities meklēt noteiktu izstādīšanas atrašanās vietu, ko izmantot rindām ar *Izvietošana* no **Darba veids**.
 
@@ -166,12 +164,12 @@ Kopsavilkuma cilnes **Novietojuma direktīvas** lauki ir specifiski darba pasūt
     > [!NOTE]
     > Šis lauks ir pieejams tikai atlasītajiem darba pasūtījumu veidiem, kur ir atļauta papildināšana. Pilnīgu sarakstu skatiet sadaļā [Lauki, kas ir raksturīgi darbu pasūtījumu veidiem](#fields-specific-types) iepriekš šajā tēmā.
 
-- **Atrast pēc** – Norādiet, vai saņemtam daudzumam jābūt visam numura zīmes daudzumam, vai arī tam jābūt krājumam pēc krājuma. Lietojiet šo lauku, lai nodrošinātu, ka viss numura zīmes saturs tiek novietots vienā vietā un ka sistēma nepiedāvā sadalīt saturu vairākās vietās **IPPN** (numura zīmes saņemšanas), **Jauktas numura zīmes** saņemšanas un **Klasteru** saņemšanas procesiem. ( **Klasteru** saņemšanas procesam nepieciešams, lai būtu ieslēgts līdzeklis *Kastera saņemšanas līdzeklis* .) Atrašanās vietas direktīvas vaicājuma, rindu un novietojuma direktīvas darbības var atšķirties atkarībā no atlasītās vērtības. Kopsavilkuma cilne **Rindas** izmanto tikai tad, ja **Atrast** pēc ir iestatīts uz *Krājums*.
+- **Atrast pēc** – Norādiet, vai saņemtam daudzumam jābūt visam numura zīmes daudzumam, vai arī tam jābūt krājumam pēc krājuma. Lietojiet šo lauku, lai nodrošinātu, ka viss numura zīmes saturs tiek novietots vienā vietā un ka sistēma nepiedāvā sadalīt saturu vairākās vietās **IPPN** (numura zīmes saņemšanas), **Jauktas numura zīmes** saņemšanas un **Klasteru** saņemšanas procesiem. ( **Klasteru** saņemšanas procesam nepieciešams, lai būtu ieslēgts līdzeklis [Kastera saņemšanas līdzeklis](putaway-clusters.md) .) Atrašanās vietas direktīvas vaicājuma, rindu un novietojuma direktīvas darbības var atšķirties atkarībā no atlasītās vērtības. Kopsavilkuma cilne **Rindas** izmanto tikai tad, ja **Atrast** pēc ir iestatīts uz *Krājums*.
 
     > [!NOTE]
     > Šis lauks ir pieejams tikai atlasītajiem darba pasūtījumu veidiem, kur ir atļauta papildināšana. Pilnīgu sarakstu skatiet sadaļā [Lauki, kas ir raksturīgi darbu pasūtījumu veidiem](#fields-specific-types).
 
-- **Izvietojuma kods** — Šis lauks tiek izmantots novietojuma direktīvās, kurām ir darba pasūtījuma veidi *Pirkšanas pasūtījumi*, *Pabeigto produktu saņemšana* vai *Atgriešanas pasūtījumi* un darba veids *Izvietošana*. Izmantojiet to, lai vadītu plūsmu, izmantojot noteiktu novietojuma direktīvu, atkarībā no izvietojuma koda, ko darbinieks atlasīja noliktavas programmā. Piemēram, var nosūtīt atpakaļ atgrieztos produktus uz pārbaudes atrašanās vietu, pirms tie tiek atgriezti krājumos. Izvietojuma kodu var saistīt ar krājumu statusu. Šādā veidā to var izmantot, lai mainītu krājuma statusu kā saņemšanas procesa daļu. Piemēram, jums ir izvietojuma kods, *QA*, kas iestata krājuma statusu uz *QA*. Pēc tam varat izmantot atsevišķu atrašanās vietas direktīvu, lai pārvietotu šo krājumu uz karantīnas novietojumu.
+- **Izvietojuma kods** — Šis lauks tiek izmantots novietojuma direktīvās, kurām ir darba pasūtījuma veidi *Pirkšanas pasūtījumi*, *Pabeigto produktu saņemšana* vai *Atgriešanas pasūtījumi* un darba veids *Izvietošana*. Izmantojiet to, lai vadītu plūsmu, izmantojot noteiktu novietojuma direktīvu, atkarībā no izvietojuma koda, ko darbinieks atlasīja Warehouse Management mobile programmā. Piemēram, var nosūtīt atpakaļ atgrieztos produktus uz pārbaudes atrašanās vietu, pirms tie tiek atgriezti krājumos. Izvietojuma kodu var saistīt ar krājumu statusu. Šādā veidā to var izmantot, lai mainītu krājuma statusu kā saņemšanas procesa daļu. Piemēram, jums ir izvietojuma kods, *QA*, kas iestata krājuma statusu uz *QA*. Pēc tam varat izmantot atsevišķu atrašanās vietas direktīvu, lai pārvietotu šo krājumu uz karantīnas novietojumu.
 
     > [!NOTE]
     > Šis lauks ir pieejams tikai atlasītajiem darba pasūtījumu veidiem, kur ir atļauta papildināšana. Pilnīgu sarakstu skatiet sadaļā [Lauki, kas ir raksturīgi darbu pasūtījumu veidiem](#fields-specific-types).
@@ -239,7 +237,7 @@ Var definēt vairākas novietojuma direktīvas darbības katrai rindai. Un atkal
     - **Noapaļot līdz pilnai LP un FEFO partijai** — Šī stratēģija apvieno stratēģijas elementus *FEFO partijas rezervācija* un *Noapaļot līdz pilnam LP*. Tas ir derīgs tikai partijas iespējotiem krājumiem un novietojuma direktīvām, kurām ir *Saņemt* darba tips. Lai izmantotu stratēģiju *FEFO partijas rezervēšana*, rindai jābūt partijas iespējotai, un stratēģiju *Noapaļot līdz pilnam LP* var izmantot tikai papildināšanai. Ja šī stratēģija ir konfigurēta kopā ar atrašanās vietas uzkrājumu limitu, tas var izraisīt atlasītās ievietošanas darba vietas pārslogošanu un krājumu veidošanas ierobežojumu ignorēšanu.
     - **Noapaļot uz augšu līdz pilnai NV** - šī stratēģija tiek izmantota, lai noapaļotu krājumu daudzumu, lai tas atbilstu noliktavas vienību daudzumam, kas ir piešķirts izdodamajiem krājumiem. Šo stratēģiju var izmantot tikai *Saņemt* veida papildināšanas novietojuma direktīvām. Ja šī stratēģija ir konfigurēta kopā ar atrašanās vietas uzkrājumu limitu, tas var izraisīt atlasītās ievietošanas darba vietas pārslogošanu un krājumu veidošanas ierobežojumu ignorēšanu.
     - **Numura zīmes vadīšana** - Izmantojiet šo stratēģiju, izlaižot pasūtījumu nosūtīšanai uz noliktavu, lai izveidotu izdošanas un izvietošanas darbu, atrašanās vietas direktīvā tiek izmantota stratēģija. Šo pieeju var izmantot vairākām numura zīmēm. Šī stratēģija mēģinās rezervēt un izveidot izdošanas darbu novietojumos, kur tiek glabātas pieprasītās noliktavas vienības, kas ir saistītas ar pārsūtīšanas pasūtījuma rindām. Tomēr, ja šīs darbības nevar pabeigt, bet joprojām vēlaties izveidot izdošanas darbu, jums vajadzētu atgriezties pie citas atrašanās vietas direktīvas darbību stratēģijas. Atkarībā no jūsu biznesa procesu prasībām, iespējams, vēlēsities meklēt arī citā noliktavas apgabalā.
-    - **Tukša vieta bez ienākoša darba** - Izmantojiet šo stratēģiju, lai atrastu tukšas vietas. Novietojums tiek uzskatīts par tukšu, ja tam nav fizisku krājumu un nav gaidāms ienākošais darbs. Šo stratēģiju var izmantot tikai *Saņemt* darba veida novietojuma direktīvām.
+    - **Tukša vieta bez ienākoša darba** - Izmantojiet šo stratēģiju, lai atrastu tukšas vietas. Novietojums tiek uzskatīts par tukšu, ja tam nav fizisku krājumu un nav gaidāms ienākošais darbs. Šo stratēģiju var izmantot tikai *Nosūtīt* darba veida novietojuma direktīvām.
     - **Atrašanās vietas vecumstruktūras FIFO** - Izmantot FIFO (first in, first out) stratēģiju, lai nosūtītu gan partijas izsekotos krājumus, gan partijas neizsekotos krājumus, pamatojoties uz datumu, kad krājumi ievadīti noliktavā. Šī iespēja var būt īpaši noderīga partijas neizsekotajiem krājumiem, kuru beigu datums nav pieejams kārtošanai. FIFO stratēģija atrod novietojumu, kas ietver vecāko vecumstruktūras datumu, un tad piešķir izdošanu, pamatojoties uz šo vecumstruktūras datumu.
     - **Atrašanās vietas vecumstruktūras LIFO** - Izmantot LIFO (last in, last out) stratēģiju, lai nosūtītu gan partijas izsekotos krājumus, gan partijas neizsekotos krājumus, pamatojoties uz datumu, kad krājumi ievadīti noliktavā. Šī iespēja var būt īpaši noderīga partijas neizsekotajiem krājumiem, kuru beigu datums nav pieejams kārtošanai. LIFO stratēģija atrod novietojumu, kas ietver jaunāko vecumstruktūras datumu, un tad piešķir izdošanu, pamatojoties uz šo vecumstruktūras datumu.
 
@@ -251,9 +249,12 @@ Var definēt vairākas novietojuma direktīvas darbības katrai rindai. Un atkal
 
 ## <a name="next-step"></a>Nākošais solis
 
-Pēc novietojuma direktīvu izveides katru direktīvas kodu var saistīt ar darba izveides darba veidnes kodu. Papildinformāciju skatiet šeit: [Noliktavas darba kontrolēšana, izmantojot darbu veidnes un novietojuma direktīvas](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/control-warehouse-location-directives).
+Pēc novietojuma direktīvu izveides katru direktīvas kodu var saistīt ar darba izveides darba veidnes kodu. Papildinformāciju skatiet šeit: [Noliktavas darba kontrolēšana, izmantojot darbu veidnes un novietojuma direktīvas](./control-warehouse-location-directives.md).
 
 ## <a name="additional-resources"></a>Papildu resursi
 
 - Video: [Noliktavas pārvaldības konfigurācija Deep Dive](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - Palīdzības tēma: [Kontrolēt noliktavas darbu, izmantojot darbu veidnes un novietojuma direktīvas](control-warehouse-location-directives.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

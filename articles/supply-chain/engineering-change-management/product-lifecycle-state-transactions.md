@@ -2,7 +2,7 @@
 title: Preču dzīves cikla stāvokļi un darījumi
 description: Šajā tēmā ir paskaidrots, kā jūs varat kontrolēt, kuri darījumi ir atļauti katram dzīves cikla stāvoklim, jo ​​tehniskā prece iziet tā dzīves ciklu.
 author: t-benebo
-ms.date: 09/28/2020
+ms.date: 02/17/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 12f95feda887b5f1284624e5f072b498a78d00e1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 1e9b8a9f25edfa654a57e0ab4071cd93c8033d85
+ms.sourcegitcommit: d375ef4138e898621416754c40770d8ccca4d271
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574645"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8322748"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>Preču dzīves cikla stāvokļi un darījumi
 
@@ -93,5 +93,13 @@ Piemēram, pieņemsim, ka vēlaties pārdot tikai vienu konkrētās preces (t-kr
 - Piešķiriet precei dzīves cikla stāvokli, kas atļauj procesu. Piemēram, piešķiriet t-krekla precei piešķir *Pārdodams* dzīves cikla stāvokli, kas ļauj veikt *Pārdošanas pasūtījuma* procesu.
 - Piešķiriet pārdodamajam variantam dzīves cikla stāvokli, kas atļauj procesu. Piemēram, sarkanajam variantam piešķir arī dzīves cikla stāvokli *Pārdodams*.
 - Visiem citiem variantiem tiek piešķirts cits dzīves cikla stāvoklis, kur process ir bloķēts. Piemēram, piešķiriet baltu variantu (un visus citus variantus) dzīves cikla stāvokli *Nepārdodams*, kas bloķē *Pārdošanas pasūtījuma* biznesa procesu.
+
+## <a name="default-product-lifecycle-states"></a>Noklusējuma preces dzīves cikla valstu iestatījumi
+
+Noklusējuma dzīves cikla stāvoklis inženierzinātnes versijai ir norādīts tās inženierzinātnes kategorijā. Stāvoklis tiks iestatīts pēc noklusējuma, izveidojot jaunu tehnoloģiju versiju, iekļaujot pirmo jaunās preces versiju.
+
+Izveidojot jaunu preci vai tehnoloģiju preci, varat iestatīt arī noklusējuma dzīves cikla stāvokli, norādot to veidnē, kas piešķirta precei piešķirtajām izlaišanas politikām.
+
+Šādā gadījumā, veidojot jaunu tehnoloģiju preci, precei var būt citāds dzīves cikla stāvoklis nekā versijai.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

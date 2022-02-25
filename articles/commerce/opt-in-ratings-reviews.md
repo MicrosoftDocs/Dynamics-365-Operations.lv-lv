@@ -2,15 +2,12 @@
 title: Piekrišana izmantot vērtējumus un atsauksmes
 description: Šajā tēmā ir paskaidrots, kā piekrist izmantot vērtējumus un apskatus savā Microsoft Dynamics 365 Commerce vietnē.
 author: gvrmohanreddy
-manager: annbe
-ms.date: 01/30/2020
+ms.date: 02/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: cbdb69202ebec19f4442041cfb1f99857da36d2e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 19c3e8b32654f7c4b7803c547e9d5692f9fc461b
+ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414058"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8311933"
 ---
 # <a name="opt-in-to-use-ratings-and-reviews"></a>Piekrišana izmantot vērtējumus un atsauksmes
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā ir paskaidrots, kā piekrist izmantot vērtējumus un apskatus savā Microsoft Dynamics 365 Commerce vietnē.
-
-## <a name="overview"></a>Pārskats
 
 Vērtējumu un apskatu risinājums ir daudzkanālu risinājums, ko var padarīt pieejamu Dynamics 365 Commerce, izmantojot Microsoft Dynamics Lifecycle Services (LCS). LCS ir administrēšanas portāls, ko mazumtirgotāji izmanto, lai pārvaldītu savas vides no nodrošināšanas līdz ekspluatācijas pārtraukšanai.
 
@@ -44,9 +39,9 @@ Lai piekristu savā vietnē izmantot vērtējumus un apskatus, veiciet tālāk m
 1. Veiciet darbības, kas minētas [Izvietot jaunu e-komercijas vietni](deploy-ecommerce-site.md).
 1. Kamēr vēl esat LCS, dodieties uz **Mazumtirdzniecības izvietošanas iestatīšana \> Citi iestatījumi**.
 1. Iestatiet opciju **Iespējot vērtējumus un apskatus** uz **Jā**.
-1. Laukā **AAD drošības grupas moderators vērtējumiem un apskatiem (drošības grupas objekta ID)** ievadiet Microsoft Azure Active Directory (Azure AD) drošības grupas ID, kas ietver vērtējumu un apskatu moderatorus.
+1. **AAD drošības grupā novērtējumiem un pārskatiet regulētāja** lauku, ievadiet Microsoft Azure Active Directory (Azure AD) drošības grupas ID, kas ietver vērtējumus un pārskata starpniekus.
 
-    ![Piekrišana izmantot vērtējumus un atsauksmes](media/LCS_RnR_Preference.png)
+    ![Piekrišana izmantot vērtējumus un atsauksmes.](media/LCS_RnR_Preference_2.png)
 
 1. Pabeidziet e-komercijas inicializēšanas procesu.
 
@@ -63,4 +58,13 @@ Lai piekristu savā vietnē izmantot vērtējumus un apskatus, veiciet tālāk m
 
 [Preču vērtējumu sinhronizācija Dynamics 365 Commerce](sync-product-ratings.md)
 
+[Iespējojiet moderatora manuālo vērtējumu un atsauksmju publicēšanu](manual-publish-rating-reviews.md)
 
+[Novērtējumu un pārskatu importēšana un eksportēšana](import-export-reviews.md)
+
+[Autentifikācijas starp pakalpojumiem konfigurēšana](service-to-service-auth.md)
+
+[BUJ par vērtējumiem un atsauksmēm](ratings-reviews-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

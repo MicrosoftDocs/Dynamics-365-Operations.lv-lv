@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 959b8b85fe55ed5e0a93b5b614c3f6166bbd2bb6ef07e9d0f0f4c2b1ea3c4659
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: b12740e58b2bf8667bee8a2c51917d69771779f2
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721323"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103367"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Ignorēt noklusējuma rezervācijas principu ražošanā izmantotajiem materiāliem
 
@@ -31,12 +31,9 @@ Veidojot jaunu ražošanas pasūtījumu vai partijas pasūtījumu, tiek piedāv�
 
 Piemēram, ja ir izejmateriāli vai sastāvdaļas, kam nepieciešams izdošanas darbs, MK vai formulas rindas, kas izveidotas šiem produktiem, ir nepieciešama fiziska rezervācija, jo fiziska rezervācija ir priekšnoteikums noliktavas darba izveidošanai. Parasti, ja vēlaties, lai rezervācija notiktu automātiski, atlasiet vienu no šiem rezervēšanas principiem: *novērtējums*, *plānošana*, *izpilde* vai *sākums*. No otras puses, ja jums ir materiāli vai sastāvdaļas, kam nav nepieciešams izdošanas darbs, jo tie tiek patērēti tieši no atrašanās vietas, parasti atlasiet *manuālās* rezervēšanas principu, kas nepieprasa fiziskās rezervācijas vai ģenerē izdošanasdarbu.
 
-## <a name="turn-on-the-feature"></a>Līdzekļa iespējošana
+## <a name="turn-the-override-default-production-reservation-feature-on-or-off"></a>Ieslēgt vai izslēgt ignorēšanas noklusējuma ražošanas rezervēšanas līdzekli
 
-Lai varētu izmantot līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
-
-- **Modulis:** *Ražošanas kontrole*
-- **Līdzekļa nosaukums:** *Ignorēt noklusējuma ražošanas rezervāciju*
+No Piegādes ķēdes pārvaldības versijas 10.0.25 šī funkcija ir ieslēgta pēc noklusējuma. Administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot ignorēt *noklusējuma ražošanas rezervācijas līdzekli* līdzekļu [pārvaldības darbvietā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>Ražošanas rezervēšanas ierobežojuma piešķiršana krājumu modeļu grupai
 

@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 745a51617f8c87c0f757aee0304ec3efb55d0f98
-ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
+ms.openlocfilehash: d8bc4f0a981b75c1b65d51aa1d8fada9c2187e22
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7921219"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323414"
 ---
 # <a name="credit-management-parameters-setup"></a>Kredīta pārvaldības parametru iestatīšana
 
@@ -50,7 +50,8 @@ Varat arī norādīt pagarinājuma dienu skaitu pirms kredīta kārtulas tiek p�
 
 Ja nenorādāt pagarinājuma dienu skaitu, kredīta kārtulas tiks pārbaudītas visos grāmatošanas posmos, kas iestatīti kredīta pārvaldības kārtulu izpildei. Ja pārdošanas pasūtījums tiek nodots bez grāmatošanas un pēc tam tiek palaista tāda pati pasūtījuma apstrādes darbība, kredīta kārtulas tiks pārbaudītas vēlreiz. Piemēram, pasūtījums tiek aizturēts pēc apstiprinājuma, un tas tiek palaists ar vai bez grāmatošanas. Šādā gadījumā pasūtījums atkal tiks aizturēts, ja apstiprināsiet to vēlreiz. Izmantojiet pagarinājuma dienas, ja pasūtījumam ir jāpāriet uz nākamo apstrādes darbību, neveicot atkārtotu aizturēšanu.
 
-Dažiem grāmatošanas kontrolpunktiem nevar norādīt pagarinājuma dienas. Visi grāmatošanas kontrolpunkti ir jāiestata tā, lai tiem būtu pagarinājuma dienas, vai arī tie ir jāiestata tā, lai tiem nebūtu pagarinājuma dienu.
+> [!Note]
+> Ja vienam grāmatošanas kontrolpunktam ir ievadīta pagarinājuma diena, visiem kontrolpunktiem, kas atzīmēti grāmatošanai, nepieciešamas pagarinājuma dienas.
 
 - Atzīmējiet izvēles rūtiņu **Grāmatošana**, lai palaistu kredīta pārvaldības kārtulas, kad rindā parādās grāmatošanas kontrolpunkts. Ja neatzīmējat šo izvēles rūtiņu, kārtulas tiks pārbaudītas tikai vienreiz visā grāmatošanas procesā.
 - Ja atzīmējat izvēles rūtiņu **Grāmatošana**, norādiet pagarinājuma dienu skaitu, kam jāpaiet pirms aizturēšanas kārtulu atkārtotas pārbaudes. Pagarinājuma dienas nevar pievienot, ja nav notīrīta izvēles rūtiņa **Grāmatošana**.
@@ -72,10 +73,10 @@ Vairāki kredīta pārvaldības statistikas dati ir iekļauti papildinformācija
 
 - Kredīta pārvaldībā debitora kredīta limits tiek norādīts debitora valūtā. Ir jādefinē valūtas maiņas kursa tips kredīta limitam debitora valūtā. Laukā **Kredīta limita maiņas kursa tips** atlasiet valūtas maiņas kursa tipu, kas jāizmanto, lai konvertētu primāro kredīta limitu uz debitora kredīta limitu.
 - Iestatiet opciju **Atļaut manuālu kredīta limitu rediģēšanu** uz **Nē**, lai neļautu lietotājiem rediģēt kredīta limitus lapā **Debitors**. Ja šī opcija ir iestatīta uz **Nē**, debitora kredīta limita izmaiņas var veikt, grāmatojot kredīta limita korekcijas darbības.
-- Iestatiet opciju **Apiet krājumu rezervācijas** uz **Jā,** lai ignorētu krājumu rezervācijas, ja ir pārbaudīti kredīta pārvaldības bloķēšanas noteikumi. Šajā gadījumā sistēma pārbauda visus rindu daudzumus un iespējo kontrolpunkta pagarinājuma periodus neatkarīgi no krājumu rezervēšanas daudzuma.
-- Kad kredīta pārvaldība ir aktivizēta, iestatījums Ziņojums, kad tiek pārsniegts **kredīta limita lauks, tiek izmantots tikai brīvā teksta rēķinu** apstrādājumam. Kaut arī ziņojumi joprojām tiek pievienoti pārdošanas pasūtījumiem, ja debitori ir pārsnieguši kredīta limitu, šo ziņojumu klātbūtne nebloķē apstiprinājumu, izdošanas sarakstu un pavadzīmju drukāšanu vai rēķinu grāmatošanu.
+- Iestatiet opciju Apiet **krājumu rezervācijas uz** Jā **,** lai ignorētu krājumu rezervācijas, ja ir pārbaudīti kredīta pārvaldības bloķēšanas noteikumi. Šajā gadījumā sistēma pārbauda visus rindu daudzumus un iespējo kontrolpunkta pagarinājuma periodus neatkarīgi no krājumu rezervēšanas daudzuma.
+- Kad kredīta pārvaldība ir aktivizēta, iestatījums **Ziņojums, kad tiek pārsniegts kredīta limita** lauks, tiek izmantots tikai brīvā teksta rēķinu apstrādājumam. Kaut arī ziņojumi joprojām tiek pievienoti pārdošanas pasūtījumiem, ja debitori ir pārsnieguši kredīta limitu, šo ziņojumu klātbūtne nebloķē apstiprinājumu, izdošanas sarakstu un pavadzīmju drukāšanu vai rēķinu grāmatošanu.
 
-    Kredīta pārvaldība tiek aktivizēta pēc noklusējuma, bet jūs variet to deaktivizēt. Ja šī opcija ir iespējota, tiek izmantots kredīta pārvaldības bloķēšanas noteikumi un kontrolpunkti, lai noteiktu, kad debitori ir pārsnieguši kredīta limitu. Ja tā ir deaktivizēta, ziņojumi, kas tiek pievienoti pārdošanas pasūtījumiem, balstoties uz ziņojuma iestatījumu, pārsniedzot kredīta limita lauku, var palīdzēt identificēt, kad debitori ir pārsnieguši **kredīta** limitu.
+    Kredīta pārvaldība tiek aktivizēta pēc noklusējuma, bet jūs variet to deaktivizēt. Ja šī opcija ir iespējota, tiek izmantots kredīta pārvaldības bloķēšanas noteikumi un kontrolpunkti, lai noteiktu, kad debitori ir pārsnieguši kredīta limitu. Ja tā ir deaktivizēta, ziņojumi, kas tiek pievienoti pārdošanas pasūtījumiem, balstoties uz ziņojuma iestatījumu, **pārsniedzot** kredīta limita lauku, var palīdzēt identificēt, kad debitori ir pārsnieguši kredīta limitu.
 
 ### <a name="number-sequences-and-shared-number-sequence-parameters"></a>Numuru secības un koplietojamie numuru secības parametri
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 4c366d2f9091ee46ac3b1b6eff72e178932da18e
-ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
-ms.translationtype: HT
+ms.openlocfilehash: 7b487684980f60112d9af6bea02672f7e919c834
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7592632"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103593"
 ---
 # <a name="confirm-and-transfer"></a>Apstiprināt un pārsūtīt
 
@@ -53,12 +53,9 @@ Ir iespējams sadalīt tikai tās kravas, kas atbilst šādiem kritērijiem:
 >
 > Lietojiet līdzekli *Apstiprināt un pārsūtīt* gadījumos, kad kravas parasti tiek plānotas un izveidotas pirms laika, radot izņēmumus, kad krava neietilps pieejamajā transportā (piemēram, kravas automašīnā).
 
-## <a name="turn-on-confirm-and-transfer"></a>Ieslēgt apstiprināšanu un pārsūtīšanu
+## <a name="turn-the-confirm-and-transfer-feature-on-or-off"></a>Ieslēgt vai izslēgt apstiprināšanas un pārsūtīšanas līdzekli
 
-Lai varētu izmantot līdzekli *Apstiprināt un pārsūtīt*, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu, ja nepieciešams. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
-
-- **Modulis:** *Noliktavas vadība*
-- **Līdzekļa nosaukums:** *Apstiprināt un pārsūtīt*
+Lai izmantotu šajā tēmā aprakstīto funkcionalitāti, sistēmai *jābūt* ieslēgtai funkcijai Apstiprināt un pārsūtīt. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja lietojat versiju, kas vecāka par 10.0.25, administratori šo funkcionalitāti var ieslēgt vai izslēgt, *·*[meklējot līdzekli Apstiprināt un pārsūtīt līdzekļu pārvaldības darbvietā.](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="set-up-confirm-and-transfer"></a>Iestatīt apstiprināšanu un pārsūtīšanu
 

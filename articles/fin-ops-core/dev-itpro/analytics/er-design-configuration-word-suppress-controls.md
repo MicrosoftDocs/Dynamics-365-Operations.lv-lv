@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: cfabd6f544dca6f48448da4ef9ff8383c6583f8488a718a7c971ff7b39c1f2cb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: f8e74902e939355aba9bbadd8e7f8f8aa46fe5c5
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737979"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323929"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>Word satura vadīklu likvidēšana ģenerētajos pārskatos
 
 [!include [banner](../includes/banner.md)]
 
-Lai ģenerētu pārskatus kā Microsoft Word dokumentus, ir jāizveido veidne pārskatiem kā Word dokuments. Šajā veidnē jābūt Word satura vadīklām kā vietturiem datiem, kas tiks aizpildīti izpildlaikā. Lai izveidoto Word dokumentu izmantotu kā veidni jūsu pārskatiem, varat [konfigurēt](er-design-configuration-word.md) jaunu [elektronisko pārskatu sniegšanas (ER)](general-electronic-reporting.md) [risinājumu](er-quick-start1-new-solution.md). Risinājumam jāietver ER [konfigurācija](general-electronic-reporting.md#Configuration), kas satur ER [formāta](general-electronic-reporting.md#FormatComponentOutbound) komponentu. Šis ER formāts ir jākonfigurē, lai pārskata ģenerēšanai izmantotu izveidoto veidni.
+Lai ģenerētu pārskatus kā Microsoft Word dokumentus, ir jāizveido veidne pārskatiem kā Word dokuments. Šajā veidnē jābūt Word satura vadīklām kā vietturiem datiem, kas tiks aizpildīti izpildlaikā. Lai izveidoto Word dokumentu izmantotu kā veidni jūsu pārskatiem, varat [konfigurēt](er-design-configuration-word.md) jaunu [elektronisko pārskatu sniegšanas (ER)](general-electronic-reporting.md) [risinājumu](er-quick-start1-new-solution.md). Risinājumā ir jāietver ER [konfigurācija](general-electronic-reporting.md#Configuration), kas satur ER formāta komponentu. Šis ER formāts ir jākonfigurē, lai pārskata ģenerēšanai izmantotu izveidoto veidni.
 
 Programmas Dynamics 365 Finance versijā 10.0.6 un jaunākās versijās varat konfigurēt formulas savā ER formātā, lai likvidētu dažas Word satura vadīklas ģenerētajos dokumentos.
 

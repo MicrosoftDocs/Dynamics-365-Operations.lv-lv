@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: Mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f5c9ba7079895feeb0c171f2021479587aa13cc9
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 21dd01448fcf6c2b3ca90a5476fad061bb0f55e4
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777670"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102743"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>Atliktā manuālās krājumu kustības apstrāde
 
@@ -32,10 +32,10 @@ Fona apstrāde tiek sasniegta, izmantojot [līdzekli Procesa noliktavas programm
 
 Lai padarītu šo līdzekli pieejamu, ieslēdziet tālāk norādītos līdzekļus [līdzekļu pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md): Tās jāslēdz šādā secībā:
 
-1. Organizācijas līmeņa darba bloķēšana (Piegādes ķēdes pārvaldības versijas 10.0.21 versija, šī funkcija ir obligāta un pēc noklusējuma ir ieslēgta un to nevar atkal izslēgt.)
-1. Apstrādāt noliktavas programmas notikumus
-1. Atliktas izvietošanas operācijas
-1. Krājumu manuālas pārvietošanas operācijas atliktā apstrāde
+1. *Organizācijas mēroga darba aizturēšana*<br>(No Piegādes ķēdes pārvaldības versijas 10.0.21, šī funkcija ir obligāta, tāpēc tā ir ieslēgta pēc noklusējuma un to nevar atkal izslēgt.)
+1. *Apstrādāt noliktavas programmas notikumus*<br>(No Piegādes ķēdes pārvaldības versijas 10.0.25, šī funkcija ir ieslēgta pēc noklusējuma.)
+1. *Atliktas izvietošanas operācijas*
+1. *Krājumu manuālas pārvietošanas operācijas atliktā apstrāde*<br>(No Piegādes ķēdes pārvaldības versijas 10.0.25, šī funkcija ir obligāta, tāpēc tā ir ieslēgta pēc noklusējuma un to nevar atkal izslēgt.)
 
 ## <a name="configure-the-work-processing-policies"></a>Darba apstrādes politiku konfigurēšana
 

@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 4c83b96673fa717b034207a41c921a1b197e17ef3588e77b2304ec9e27fa93a6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 2c8adaad2afee3b735c69a501d7949a807f4e770
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738775"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323384"
 ---
 # <a name="set-product-quantity-limits-for-b2b-e-commerce-sites"></a>Preču daudzuma ierobežojumu iestatīšana B2B e-komercijas vietnēs
 
@@ -77,7 +77,7 @@ Lai ieslēgtu Commerce vietnes veidotāju B2B pasūtījuma daudzuma ierobežoša
 
 [B2B e-komercijas vietnes iestatīšana](set-up-b2b-site.md)
 
-[Organizāciju hierarhiju modelēšanas izveidošana B2B organizācijām](org-model.md)
+[Pārvaldīt B2B biznesa partnerus, izmantojot debitoru hierarhijas](partners-customer-hierarchies.md)
 
 [Biznesa partnera lietotāju pārvaldība B2B e-komercijas vietnēs](manage-b2b-users.md)
 

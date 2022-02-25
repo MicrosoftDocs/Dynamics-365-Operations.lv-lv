@@ -1,43 +1,39 @@
 ---
-title: Datu integrētāja projekta izveide (priekšskatījums)
-description: Šajā tēmā paskaidrots, kā izveidot datu integrētāja projektu.
+title: Datu integrācijas projekta izveide
+description: Šajā tēmā skaidrots, kā izveidot datu integrācijas projektu.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 07/24/2020
+ms.date: 02/09/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: kfend
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: fb17d5e82709a34ff088774d9e9034adb714b58c
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
-ms.translationtype: HT
+ms.openlocfilehash: 50f435f9d461667a1908baa529d73766085c183a
+ms.sourcegitcommit: 6526acd0300d9c5800d3d7675d54e23090d031df
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646257"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "8107291"
 ---
-# <a name="create-a-data-integrator-project-preview"></a>Datu integrētāja projekta izveide (priekšskatījums)
+# <a name="create-a-data-integration-project"></a>Datu integrācijas projekta izveide
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Šajā tēmā paskaidrots, kā izveidot datu integrētāja projektu.
+Šajā tēmā skaidrots, kā izveidot datu integrācijas projektu.
 
 1. Pierakstieties programmā Microsoft Dynamics 365 Finance.
 2. Dodieties uz **Darbvietas \> Datu pārvaldība** un atlasiet **Datu entītijas**. Pirms pārejat pie nākamās darbības, uzgaidiet, līdz visas datu entītijas ir atsvaidzinātas.
 3. Atveriet [Power Apps portālu](https://make.powerapps.com/) un veiciet tālāk norādītās darbības.
 
     1. Atlasiet atbilstošo vidi.
-    2. Kreisās puses navigācijas rūtī atlasiet **Dati \> Savienojumi**.
+    2. Navigācijas kreisajā rūtī atlasiet Savienojumi **Dataverse\>**.
     3. Izveidojiet savienojumu ar tālāk norādīto vienumu atbilstošajām instancēm.
 
         - Dynamics 365
@@ -45,7 +41,7 @@ ms.locfileid: "4646257"
 
 4. Atveriet [Power Apps vides](https://admin.powerapps.com/environments) un veiciet tālāk norādītās darbības.
 
-    1. Atlasiet **Datu integrētājs**.
+    1. Izvēlieties **Datu integrāciju**.
     2. Atlasiet **Savienojumu kopas**.
     3. Atlasiet **Jauna savienojumu kopa**.
     4. Ievadiet savienojuma nosaukumu.
@@ -61,15 +57,13 @@ ms.locfileid: "4646257"
 
     1. Izveidojiet datu integrācijas projektus tālāk norādītajām veidnēm, izmantojot savienojuma kopu, ko tikko izveidojāt.
 
-        - Debitora maksājumu ieskatu rezultāti (CDS uz Fin and Ops)
+        - Debitoru maksājumu ieskatu rezultāts (CDS uz Fin un Ops 10.0.17+)
         - Skaidras naudas plūsmas laika sērijas rezultāti (CDS uz Fin and Ops)
         - Budžeta laika sērijas rezultāti (CDS uz Fin and Ops)
 
     2. Katram projektam iestatiet atbilstošo grafiku.
 
 > [!NOTE]
-> Ja CDS neredzat obligātās entītijas, lūdzu, dodieties uz **Kredīti un iekasēšana > Iestatījumi > Finanšu ieskati > Finanšu ieskatu parametri**, iespējojiet debitoru maksājumu prognožu līdzekli un noklikšķiniet uz pogas **Izveidot prognozēšanas modeli**. Kad mākslīgā intelekta modeļa izvietošana ir pabeigta (veiksmīgi vai neveiksmīgi), CDS entītijas, kas nepieciešamas integrācijas izveidei, tiks izvietotas CDS.
+> Ja sadaļā Nepieciešamie elementi Dataverse nav redzams, **pārejiet uz sadaļu Kredīts** > **·** > **un kolekcijasSetupFinanceSetupFinancesFinancesfinances** > **·** **parametros**, iespējojiet līdzekli, **debitora maksājumu prognozes un pēc tam atlasiet Izveidot prognozēšanas modeli.** Kad AI modeļa izvietošana ir pabeigta, tiks Dataverse izvietoti elementi, kas nepieciešami integrācijas integrācijai.
 
-## <a name="privacy-notice"></a>Paziņojums par konfidencialitāti
-
-Priekšskatījumiem (1) var tikt izmantots mazāk konfidencialitātes un drošības pasākumu nekā pakalpojumam Dynamics 365 Finance and Operations, (2) tie nav ietverti pakalpojuma līmeņa līgumā par šo pakalpojumu, (3) tos nedrīkst izmantot personas datu vai citu tādu datu apstrādei, uz kuriem attiecas juridiskās vai normatīvās prasības, un (4) tiem tiek nodrošināts ierobežots atbalsts.
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 54962b48dee05b2cd62fd3ea8814e4c965ba7818
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: HT
+ms.openlocfilehash: 812dd30e0e444bc310fc81edd16958e0c0747885
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069383"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103417"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Instalējiet un savienojiet lietotni Warehouse Management mobile
 
@@ -39,12 +39,9 @@ Lietotne Warehouse Management mobile ir pieejama Windows un Google Android oper�
 - Windows 10 (universālā Windows platforma \[UWP\]) 2018. gada oktobra veidotāju atjauninājums 1809 (būvējums 10.0.17763) vai jaunāka versija
 - Android 4.4 vai jaunāka versija
 
-## <a name="turn-on-the-feature"></a>Līdzekļa iespējošana
+## <a name="turn-warehouse-management-mobile-app-features-or-or-off-in-supply-chain-management"></a>Piegādes ķēžu pārvaldībā vai izslēgt noliktavas pārvaldības mobilās programmas līdzekļus vai izslēgt
 
-Pirms izmantojat lietotni, jūsu sistēmā jābūt iespējotai saistītai funkcijai. Administratori var izmantot [Līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Tur šī iespēja ir uzskaitīta tālāk minētajā veidā:
-
-- **Modulis:** *Noliktavas pārvaldība*
-- **Līdzekļa nosaukums:** *Lietotāja iestatījumi, ikonas un darbību nosaukumi jaunajai noliktavas programmai*
+Lai izmantotu mobilo programmu Noliktavas pārvaldība, *sistēmā ir jābūt ieslēgtiem jaunās noliktavas programmas funkcijas lietotāja iestatījumiem,* ikonām un darbību nosaukumiem. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja lietojat versiju, kas vecāka par 10.0.25, administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot jaunās noliktavas programmas funkcijas Lietotāja iestatījumus, ikonas un soļu *nosaukumus*[līdzekļu](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pārvaldības darbvietā.
 
 ## <a name="get-the-warehouse-management-mobile-app"></a>Iegūt lietotni Warehouse Management mobile
 
@@ -144,9 +141,9 @@ Sertifikātus var izmantot kā noslēpumus, lai pierādītu lietojumprogrammas i
 
 Sertifikātam ir jābūt lokāli pieejamam katrā ierīcē, kurā tiek palaista lietotne Warehouse Management mobile. Papildinformāciju par to, kā pārvaldīt Intune kontrolēto ierīču sertifikātus, ja lietojat Intune, skatiet sadaļā [Sertifikātu izmantošana autentifikācijai programmā Microsoft Intune](/mem/intune/protect/certificates-configure).
 
-## <a name="configure-the-warehouse-management-mobile-app-for-cloud-and-edge-scale-units"></a>Konfigurējiet mobilo lietotni Warehouse Management mākoņa un malu mēroga vienībām
+## <a name="configure-the-warehouse-management-mobile-app-for-cloud-and-edge-scale-units"></a>Warehouse Management mobilās lietotnes konfigurēšana mākoņa un malas mēroga vienībām
 
-Ja plānojat palaist mobilo lietotni Warehouse Management pret mākoņa vai malas mēroga vienību, ir jāveic dažas papildu darbības. Norādījumus sk [Konfigurējiet mobilo lietotni Warehouse Management mākoņa un malu mēroga vienībām](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md).
+Ir jāveic daži papildu soļi, ja plānojat darbināt noliktavas pārvaldības mobilo programmu pret mākoņa vai malas skalas vienību. Norādījumus skatiet noliktavas pārvaldības mobilās [programmas konfigurēšana mākoņa un malas skalas vienībām](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Konfigurējiet lietojumprogrammu, importējot savienojuma iestatījumus
 
@@ -310,6 +307,6 @@ Ja ierīce ir nozaudēta vai apdraudēta, ir jāliedz šīs ierīces piekļuve p
 
 - [Mobilās ierīces lietotāja iestatījumi](mobile-device-user-settings.md)
 - [Darbību ikonu un nosaukumu piešķiršana Warehouse Management mobilajai programmai](step-icons-titles.md)
-- [Konfigurējiet mobilo lietotni Warehouse Management mākoņa un malu mēroga vienībām](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md)
+- [Warehouse Management mobilās lietotnes konfigurēšana mākoņa un malas mēroga vienībām](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

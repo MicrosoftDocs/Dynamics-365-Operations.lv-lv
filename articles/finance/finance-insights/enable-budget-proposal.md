@@ -1,50 +1,42 @@
 ---
-title: Budžeta priekšlikuma iespējošana (priekšskatījums)
+title: Iespējot budžeta priekšlikumu
 description: Šajā tēmā skaidrots, kā ieslēgt budžeta priekšlikuma līdzekli Finanšu ieskatos.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 07/24/2020
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: d8443c4e3e6f3d3a90acedc7c05b2846d6b68369
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
-ms.translationtype: HT
+ms.openlocfilehash: cd0ba4307f93148c241810759df9a95578592ba9
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646209"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109558"
 ---
-# <a name="enable-budget-proposals-preview"></a>Budžeta priekšlikuma iespējošana (priekšskatījums)
+# <a name="enable-budget-proposal"></a>Iespējot budžeta priekšlikumu
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Šajā tēmā skaidrots, kā ieslēgt budžeta priekšlikuma līdzekli Finanšu ieskatos.
 
-1. Izmantojiet informāciju no vides lapas Microsoft Dynamics Lifecycle Services (LCS), lai izveidotu savienojumu ar Azure SQL primāro instanci šai videi. Palaidiet tālāk norādīto Transact-SQL (T-SQL) komandu, lai ieslēgtu ierobežotos līdzekļus smilškastes videi. (Iespējams, būs LCS jāieslēdz piekļuve savai IP adresei pirms varēsiet izveidot attilināto savienojumu ar programmas objektu serveri \[AOS\].)
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('BudgetIntelligentBudgetRegisterProposalFeature', 1)`
-
-    > [!NOTE]
-    > Ja jūsu Microsoft Dynamics 365 Finance izvietošana ir Service Fabric izvietošana, varat izlaist šo darbību. Finanšu ieskatu grupai jau vajadzētu ieslēgt jums šo ierobežoto līdzekli. Ja neredzat šo līdzekli darbvietā **Līdzekļu pārvaldība** vai ja rodas problēmas, kad mēģināt to ieslēgt, nosūtiet e-pasta ziņojumu [Finanšu ieskatu programmas priekšskatījuma grupai](mailto:fiap@microsoft.com).
-
-2. Atveriet darbvietu **Līdzekļu pārvaldība** un veiciet tālāk norādītās darbības.
+1. Atveriet darbvietu **Līdzekļu pārvaldība** un veiciet tālāk norādītās darbības.
 
     1. Atlasiet **Pārbaudīt atjauninājumus**.
-    2. Sameklējiet **Budžeta priekšlikums** un ieslēdziet šo līdzekli.
+    2. **Cilnē Viss** meklējiet budžeta **priekšlikumu**. Ja šo līdzekli neatradīsiet, meklējiet **(priekšskatījuma) budžeta priekšlikumu**. 
+    3. Ieslēgt funkciju.
 
-3. Doties uz **Budžeta veidošana \> Iestatīšana \> Pamata budžeta veidošana \> Budžeta priekšlikums (priekšskatījums)** un atlasiet **Iespējot līdzekli**.
+2. Dodieties uz **budžeta plānošanas \> iestatīšanas \> pamata budžeta \> priekšlikumu un** atlasiet Iespējot **līdzekli**.
 
-#### <a name="privacy-notice"></a>Paziņojums par konfidencialitāti
-Priekšskatījumiem (1) var tikt izmantots mazāk konfidencialitātes un drošības pasākumu nekā pakalpojumam Dynamics 365 Finance and Operations, (2) tie nav ietverti pakalpojuma līmeņa līgumā par šo pakalpojumu, (3) tos nedrīkst izmantot personas datu vai citu tādu datu apstrādei, uz kuriem attiecas juridiskās vai normatīvās prasības, un (4) tiem tiek nodrošināts ierobežots atbalsts.
+> [!NOTE]
+> Budžeta **priekšlikuma funkcijai** nepieciešami vismaz trīs budžeta gadi vai faktiskie dati. Šī funkcija izmanto trīs līdz desmit projekciju datu gadiem. Vairāk nekā trīs datu gadi nodrošina labākus rezultātus. Pats dati darbojas vislabāk, ja vērtības ir variācijas. Ja datos ir visi nemainīgie dati, piemēram, nomas izdevumi, apmācība var neizdoties, jo, nepastāvot variācijām, AI nav jāprojektē summas.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

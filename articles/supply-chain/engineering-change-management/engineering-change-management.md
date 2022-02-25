@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f362aef527272781464d5c1a17f0a382cfb8cacc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 93f5c3e4951784a6c4925b8f9026816bfaf551ee
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568139"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102917"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Pārvaldīt tehnisko produktu izmaiņas
 
@@ -123,7 +123,7 @@ Lai pārskatītu ietekmētās darbības, bloķētu atlasītās darbības un nos�
     - **Apskatīt visus darījumus** – atveriet pilnu sarakstu ar visiem darījumiem, ne tikai atvērtajiem darījumiem.
 
 > [!IMPORTANT]
-> Poga **Ziņot par ražošanu** ir pieejama tikai tad, ja jūsu sistēmā ir iespējots līdzeklis *Inženiertehniskie paziņojumi par ražošanu*. Norādījumus skatiet sadaļā [Inženiertehnisko izmaiņu pārvaldības pārskats](product-engineering-overview.md).
+> Poga **Ziņot par** ražošanu ir pieejama tikai tad *, ja jūsu sistēmai ir* ieslēgti ražošanas funkcijas paziņojumi. Norādījumus, kā ieslēgt šo līdzekli un tā priekšnosacījumus ieslēgt vai izslēgt, skatiet inženierzinātnes [izmaiņu pārvaldības apskatu](product-engineering-overview.md).
 
 #### <a name="review-and-process-change-notifications-for-transactions"></a><a name="review-notifications"></a>Pārskatīt un apstrādāt darījumu izmaiņu paziņojumus
 
@@ -136,7 +136,7 @@ Jūs varat lasīt un apstrādāt saņemtos izmaiņu paziņojumus šādos veidos:
 Ja pārskata ražošanas pasūtījumu paziņojumus **Inženiertehnisko paziņojumu** lapā, jūs varat sekot saitēm uz saistītajiem izmaiņu pasūtījumiem vai ražošanas pasūtījumiem, atlasot kolonnu vērtības vai izmantojot saistītās komandas Darbību rūtī. Kad esat beidzis novērtēt izmaiņas un pēc tam, kad esat atcēlis vai modificējis ražošanas pasūtījumus pēc vajadzības, varat atzīmēt paziņojumu kā atrisinātu. Atlasiet paziņojumu un pēc tam Darbības rūtī atlasiet **Atrisināt**. Paziņojums ir noņemts no visu lietotāju skatiem.
 
 > [!IMPORTANT]
-> Iespēja nosūtīt paziņojumus ražošanas pasūtījumiem nozīmē, ka sistēmā ir jābūt iespējotam līdzeklim *Inženiertehniskie paziņojumi par ražošanu*. Norādījumus skatiet sadaļā [Inženiertehnisko izmaiņu pārvaldības pārskats](product-engineering-overview.md).
+> Spēja nosūtīt paziņojumus par ražošanas pasūtījumiem prasa, lai *jūsu sistēmai būtu* ieslēgti inženierzinātnes paziņojumi par ražošanas līdzekli. Norādījumus, kā ieslēgt šo līdzekli un tā priekšnosacījumus ieslēgt vai izslēgt, skatiet inženierzinātnes [izmaiņu pārvaldības apskatu](product-engineering-overview.md).
 
 ### <a name="create-a-change-order-from-a-change-request"></a>Izmaiņu pasūtījuma izveide no izmaiņu pieprasījuma
 

@@ -2,27 +2,24 @@
 title: ES pārdošanas saraksta pārskats
 description: Šajā rakstā ir sniegta informācija par Eiropas Savienības (ES) pārdošanas saraksta atskaišu veidošanu.
 author: EvgenyPopovMBS
-manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/17/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EUSalesList
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 12811
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 68cbd8d3495f8c10c57fa0751fabb03a6946c7dd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: af49817667999dd02a96a7a9bd5bb966be652d35
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408272"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323478"
 ---
 # <a name="eu-sales-list-reporting"></a>ES pārdošanas saraksta pārskats
 
@@ -30,8 +27,7 @@ ms.locfileid: "4408272"
 
 Šajā rakstā ir sniegta informācija par Eiropas Savienības (ES) pārdošanas saraksta atskaišu veidošanu.
 
-<a name="eu-sales-list-reporting"></a>ES pārdošanas saraksta pārskats
------------------------
+## <a name="eu-sales-list-reporting"></a>ES pārdošanas saraksta pārskats
 
 Kreditoram, kurš veic EK preču vai pakalpojumu piegādi uzņēmumiem, kas veic uzņēmējdarbību Eiropas Savienības (ES) ietvaros, ir jāiesniedz deklarācija par EK piegādēm (ES pārdošanas saraksts vai ESL). Parasti ESL ir jāiesniedz nodokļu iestādēm ne vēlāk kā ESL kalendārā perioda mēneša pēdējā dienā. Kreditoram ir jānorāda ESL tā pievienotās vērtības nodokļa maksātāja (PVN) reģistrācijas numuru, kā arī jānorāda, pēc debitora, šādu informāciju:
 
@@ -72,13 +68,19 @@ Tālāk esošajā tabulā ir norādīti priekšnoteikumi, kas ir jāizpilda pirm
 <td>Iestatiet PVN reģistrācijas identifikācijas parametrus lapā <strong>Valsts/reģiona parametri</strong> (noklikšķiniet uz <strong>Nodokļi</strong> &gt; <strong>Iestatīšana</strong> &gt; <strong>PVN</strong> &gt; <strong>Valsts/reģiona parametri</strong>). Katrai valstij/reģionam, kur jums ir darījumu partneri, izveidojiet ierakstu lapā un norādiet šādu informāciju:
 <ul>
 <li><strong>Valsts/reģions</strong> – atlasiet valsti/reģionu, ko saistīt ar PVN reģistrācijas identifikāciju.</li>
-<li><strong>PVN</strong> – ievadiet nodokļa reģistrācijas identifikācijas numuru (t.i., nodokļa reģistrācijas numura prefiksu) atlasītajai valstij/reģionam.</li>
+<li><strong>PVN –</strong> ievadiet atlasītās valsts/reģiona PVN reģistrācijas numuru (t.i., PVN reģistrācijas numuru vai PVN reģistrācijas numura prefiksu).</li>
 <li><strong>Pārbaudīt PVN reģistrācijas numuru</strong> – atlasiet šo izvēles rūtiņu, lai apstiprinātu PVN reģistrācijas identifikāciju atlasītajai valstij/reģionam.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Iestatīšana:</strong> PVN reģistrācijas numuri</td>
-<td>Izveidojiet PVN reģistrācijas numurus jūsu darījumu partneriem lapā <strong>PVN reģistrācijas numuri</strong> (noklikšķiniet uz <strong>Nodokļi</strong> &gt; <strong>Iestatīšana</strong> &gt; <strong>PVN</strong> &gt; <strong>PVN reģistrācijas numuri</strong>). Katram PVN reģistrācijas numuram, izveidojiet ierakstu lapā un norādiet šādu informāciju:
+<td><strong>Iestatījumi:</strong> PVN reģistrācijas numuri</td>
+<td>Izveidojiet PVN <strong>reģistrācijas numurus</strong> jūsu partneriem lapā Visi debitori (<strong></strong>&gt;<strong></strong>&gt;<strong></strong> dodieties uz Sadaļu Pārdošanas un mārketinga debitori visi debitori, <strong></strong>&gt;<strong>atlasiet debitora ierakstu un pēc tam atlasiet Debitoru reģistrācijas PVN)</strong><strong>vai kreditoru lapu (</strong><strong></strong>&gt;<strong></strong>&gt;<strong>dodieties uz lapu Sagāde un avotu kreditori, atlasiet kreditora ierakstu un</strong> pēc tam atlasiet Kreditori.<strong></strong>&gt;<strong>Reģistrācijas NUMURS</strong>( ID)). Kopsavilkuma cilnes <strong>Reģistrācijas ID</strong> cilnē Vispārīgi <strong></strong> izveidojiet ierakstu un norādiet šādu informāciju:
+<ul>
+<li><strong>Reģistrācijas tips</strong> – atlasiet reģistrācijas veidu, kas <strong>piešķirts PVN ID</strong> reģistrācijas kategorijai attiecībā uz valsti/reģionu, kurā atrodas darījumu partneris.</li>
+<li><strong>Reģistrācijas numurs</strong> – ievadiet citas puses PVN reģistrācijas numuru.</li>
+<li><strong>Spēkā</strong> – atlasiet PVN reģistrācijas numura izmantošanas perioda sākumu.</li>
+</ul>  
+Alternatīvi PVN reģistrācijas numurus saviem atdošanas darījumiem varat izveidot PVN reģ. numuru lapā (dodieties uz<strong></strong><strong></strong>&gt;<strong></strong> nodokļu iestatījumiem PVN &gt;<strong></strong> reģistrācijas numuri).&gt;<strong></strong> Katram PVN reģistrācijas numuram, izveidojiet ierakstu lapā un norādiet šādu informāciju:
 <ul>
 <li><strong>Valsts/reģions</strong> – atlasiet darījumu partnera PVN reģistrācijas valsti/reģionu.</li>
 <li><strong>PVN reģistrācijas numurs</strong> – ievadiet darījuma partnera PVN reģistrācijas numuru.</li>
@@ -87,7 +89,7 @@ Tālāk esošajā tabulā ir norādīti priekšnoteikumi, kas ir jāizpilda pirm
 </tr>
 <tr class="even">
 <td><strong>Iestatīšana:</strong> darījuma partneru nodokļu reģistrācija</td>
-<td>Iestatiet nodokļu reģistrācijas informāciju par jūsu darījumu partneriem lapā <strong>Visi debitori</strong> (noklikšķiniet uz <strong>Pārdošana un mārketings</strong> &gt; <strong>Debitori</strong> &gt; <strong>Visi debitori</strong>, atlasiet debitora ierakstu un pēc tam noklikšķiniet uz <strong>Opcijas</strong> &gt; <strong>Mainīt skatījumu</strong> &gt; <strong>Detalizētas informācijas skats</strong>) vai lapā <strong>Kreditori</strong> (noklikšķiniet uz <strong>Sagāde un avoti</strong> &gt; <strong>Kreditori</strong> &gt; <strong>Kreditori</strong>, atlasiet kreditora ierakstu un pēc tam noklikšķiniet uz <strong>Opcijas</strong> > &gt; <strong>Mainīt skatījumu</strong> &gt; <strong>Detalizētas informācijas skats</strong>). Kopsavilkuma cilnē <strong>Rēķins un piegāde</strong>, laukā <strong>PVN reģistrācijas numurs</strong>, atlasiet PVN reģistrācijas numuru.</td>
+<td>Iestatiet nodokļu reģistrācijas informāciju par jūsu darījumu partneriem lapā <strong>Visi debitori</strong> (noklikšķiniet uz <strong>Pārdošana un mārketings</strong> &gt; <strong>Debitori</strong> &gt; <strong>Visi debitori</strong>, atlasiet debitora ierakstu un pēc tam noklikšķiniet uz <strong>Opcijas</strong> &gt; <strong>Mainīt skatījumu</strong> &gt; <strong>Detalizētas informācijas skats</strong>) vai lapā <strong>Kreditori</strong> (noklikšķiniet uz <strong>Sagāde un avoti</strong> &gt; <strong>Kreditori</strong> &gt; <strong>Kreditori</strong>, atlasiet kreditora ierakstu un pēc tam noklikšķiniet uz <strong>Opcijas</strong> > &gt; <strong>Mainīt skatījumu</strong> &gt; <strong>Detalizētas informācijas skats</strong>). Kopsavilkuma cilnes <strong>Rēķins un</strong> piegāde laukā <strong>PVN reģistrācijas</strong> numurs atlasiet PVN reģistrācijas numuru.</td>
 </tr>
 <tr class="odd">
 <td><strong>Iestatīšana:</strong> PVN</td>
@@ -121,7 +123,7 @@ Tālāk esošajā tabulā ir norādīti priekšnoteikumi, kas ir jāizpilda pirm
 <li>Cilne <strong>Valsts/reģiona parametri</strong>: identificējiet ES dalībvalstīs. Katrai ES dalībvalstij, izveidojiet ierakstu lapā un norādiet šādu informāciju:
 <ul>
 <li><strong>Valsts/reģions</strong> – atlasiet valsti/reģionu.</li>
-<li><strong>Valsts/reģiona tips</strong> – ja vērtība <strong>Valsts/reģions</strong> ir valsts/reģions, kurā ir reģistrēts jūsu uzņēmums, atlasiet <strong>Iekšzemes</strong>. Ja vērtība <strong>Valsts/reģions</strong> ir cita ES dalībvalsts, nevis valsts/reģions, kurā ir reģistrēts jūsu uzņēmums, atlasiet <strong>ES</strong>. Ja lauka <strong>Valsts/reģions</strong> vērtība nav ES dalībvalsts, atlasiet vienumu <strong>Trešā valsts/reģions</strong>.</li>
+<li><strong>Valsts/reģiona tips</strong> – ja vērtība <strong>Valsts/reģions</strong> ir valsts/reģions, kurā ir reģistrēts jūsu uzņēmums, atlasiet <strong>Iekšzemes</strong>. Ja vērtība <strong>Valsts/reģions</strong> ir cita ES dalībvalsts, nevis valsts/reģions, kurā ir reģistrēts jūsu uzņēmums, atlasiet <strong>ES</strong>. Ja lauka <strong>Valsts/reģions</strong> vērtība nav&#39;ES dalībvalsts, atlasiet vienumu <strong>Trešā valsts/reģions</strong>.</li>
 </ul></li>
 <li>Cilne <strong>Numuru sērijas</strong>: rindā, kur vērtība <strong>Atsauce</strong> vērtība ir <strong>ES pārdošanas saraksts</strong>, atlasiet numuru sērijas kodu.</li>
 </ul></td>
@@ -156,7 +158,10 @@ Jūs varat izveidot pārskatu **ES pārdošanas saraksts**, izmantojot funkciju 
 
 ### <a name="closing-the-eu-sales-list-reporting-period"></a>ES pārdošanas saraksta pārskata perioda aizvēršana
 
-Kad esat pabeidzis pārskata sniegšanas procesu noteiktam laika periodam (piemēram, kad nodokļu iestādes ir pieņēmušas pārskatu **ES pārdošanas saraksts**), jūs varat atzīmēt ESL ierakstus, kas pārskatā tiek iekļauti periodam, iestatot vērtību **Pārskata statuss** kā **Slēgts**. Lai iestatītu šo statusu, izmantojiet funkciju **Atzīmēt kā slēgts**, lapā **ES pārdošanas saraksts**. Ja jūs atgriežat perioda slēgšanu, varat atzīmēt ESL ierakstus, iestatot vērtību **Pārskata statuss** kā **Iekļauts**. Šie ieraksti tad var vēlreiz tikt iekļauti pārskatā **ES pārdošanas saraksts**. Lai iestatītu šo statusu, izmantojiet funkciju **Atzīmēt kā** **iekļauti**, lapā **ES pārdošanas saraksts**.
+Kad esat pabeidzis pārskata sniegšanas procesu noteiktam laika periodam (piemēram, kad nodokļu iestādes ir pieņēmušas pārskatu **ES pārdošanas saraksts** ), jūs varat atzīmēt ESL ierakstus, kas pārskatā tiek iekļauti periodam, iestatot vērtību **Pārskata statuss** kā **Slēgts**. Lai iestatītu šo statusu, izmantojiet funkciju **Atzīmēt kā slēgts**, lapā **ES pārdošanas saraksts**. Ja jūs atgriežat perioda slēgšanu, varat atzīmēt ESL ierakstus, iestatot vērtību **Pārskata statuss** kā **Iekļauts**. Šie ieraksti tad var vēlreiz tikt iekļauti pārskatā **ES pārdošanas saraksts**. Lai iestatītu šo statusu, izmantojiet funkciju **Atzīmēt kā** **iekļauti**, lapā **ES pārdošanas saraksts**.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

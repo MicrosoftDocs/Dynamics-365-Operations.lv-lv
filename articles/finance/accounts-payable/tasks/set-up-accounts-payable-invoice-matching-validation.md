@@ -2,23 +2,23 @@
 title: Iestatīt kreditoru rēķinu salīdzināšanas pārbaudi
 description: Šajā tēma ir sniegta informācija par to, kā modulī “Parādi kreditoriem” iestatīt rēķinu salīdzināšanu.
 author: abruer
-ms.date: 06/26/2019
+ms.date: 02/14/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendParameters
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 017b0197563b9d7fd03f5fc927353be8d16586090f467cff792016431e0fafad
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 602666df4cf015791398939a3067a2cae85a12eb
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722867"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182559"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Iestatīt kreditoru rēķinu salīdzināšanas pārbaudi
 
@@ -54,7 +54,7 @@ Ir pieejami četri dažādi salīdzināšanas validācijas tipi.
 12. Laukā **Pirkšanas cenas kopsummas tolerance** ievadiet summu uzskaites valūtā. Šis lauks ir pieejams, ja laukā **Salīdzināt cenu kopsummas** ir iestatīta vērtība **Summa** vai **Procenti un summa**.
 13. Laukā **Rādīt cenu kopsummu salīdzināšanas ikonu** atlasiet, kad rādīt ikonu, ja rēķinu salīdzināšanas neatbilstība pārsniedz šo toleranci. Ikonu var parādīt, ja pozitīva neatbilstība pārsniedz toleranci vai arī pozitīva vai negatīva neatbilstība pārsniedz toleranci.
 Piemēram, tolerance ir 5 procenti un rindas cenas kopsumma pirkšanas pasūtījumā ir 10,00. Tādēļ, ja rindas cenas kopsumma rēķinā pārsniedz 10,50, tiek parādīta cenu saskaņošanas ikona. Ja atzīmējat opciju **Ja vērtība ir lielāka vai mazāka par toleranci**, tad ikona tiek rādīta, ja rēķina rindas cenas kopsumma ir mazāka par 9,50.
-13. Iestatiet Maksu salīdzināšana.
+13. Iestatiet maksu **atbilstību**.
 14. Lai faktiskās maksas salīdzinātu ar prognozētajām maksām, pamatojoties uz informāciju pirkšanas pasūtījumā, atzīmējiet izvēles rūtiņu **Salīdzināt maksas**.
 
 ## <a name="set-up-unit-price-tolerance-percentages"></a>Vienības cenas tolerances procentuālā daudzuma iestatīšana
@@ -75,7 +75,7 @@ Pēc noklusējuma var ievadīt negatīvu cenu neatbilstību. Tomēr nevar ievad�
 
 ## <a name="set-up-matching-policy-override"></a>Salīdzināšanas politikas pārrakstīšanas iestatīšana
 
-Lai definētu noklusējuma ierakstu laukam “Salīdzināšanas politika” vai rindām pirkšanas pasūtījuma formā, dodieties uz **Parādi kreditoriem > Iestatīšana > Rēķinu salīdzināšanas iestatīšana > Salīdzināšanas politika**. Šī iestatīšana nav obligāta. Izmantojiet šo formu, lai iestatītu divvirzienu salīdzināšanu vai trīsvirzienu salīdzināšanu krājumiem, kreditoriem vai krājumiem un kreditoru kombinācijām. Šie ieraksti ļauj jums definēt detalizētākas salīdzināšanas politikas par juridiskās personas salīdzināšanas politiku, kuru definējāt lapā **Kreditoru moduļa parametri**. Noklusējuma juridiskās personas rindas salīdzināšanas politika attiecas uz visiem krājumiem un kreditoriem, izņemot tos, kuriem šajā lapā ir norādīta cita rindas salīdzināšanas politika.
+Lai definētu **noklusējuma ierakstu > atbilstības ierobežojumiem lapā Pirkšanas pasūtījums, pārejiet uz sadaļu Kreditori un > >** **·** **rēķinu** salīdzināšanas iestatījumi. Šī iestatīšana nav obligāta. Lietojiet šo lapu, lai iestatītu divvirzienu atbilstību vai trīsvirzienu atbilstību krājumiem, kreditoriem vai krājumu un kreditoru kombinācijām. Šie ieraksti ļauj jums definēt detalizētākas salīdzināšanas politikas par juridiskās personas salīdzināšanas politiku, kuru definējāt lapā **Kreditoru moduļa parametri**. Noklusējuma juridiskās personas rindas salīdzināšanas politika attiecas uz visiem krājumiem un kreditoriem, izņemot tos, kuriem šajā lapā ir norādīta cita rindas salīdzināšanas politika.
 
 Šajā lapā atlasiet **Salīdzināšanas politikas līmenis**. Salīdzināšanas politiku hierarhijā atlasiet līmeni, kuram iestatīt rindu salīdzināšanas politikas.
 

@@ -13,12 +13,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 066655b58d4676bafb6e8ed8d80a95636c047444
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 9255b7d2eaf030592207b557b3b6567a1a5bda98
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566027"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102867"
 ---
 # <a name="change-work-pool-on-work"></a>Mainīt darba pūlu darbam
 
@@ -28,12 +28,9 @@ Darba pūlus var izmantot, lai organizētu darbu grupās. Piemēram, varat izvei
 
 Līdzeklis *Mainīt darba pūlu darbam* pievieno pogu **Mainīt darba pūlu**, kas atrodas darba vienumu darbību rūtī. Tāpēc noliktavu pārvaldnieki var viegli mainīt esošā darba pūlu. Šis līdzeklis ļauj pārvaldniekiem ātri reaģēt uz izmaiņām noliktavas ražotnē, palīdzot uzlabot spēju pielāgoties mainīgajām situācijām un nepieciešamībai pārsūtīt darbu uz citu darba pūlu.
 
-## <a name="turn-on-the-change-work-pool-on-work-feature"></a>Ieslēgt līdzekli Mainīt darba pūlu darbam
+## <a name="turn-the-change-work-pool-on-work-feature-on-or-off"></a>Ieslēgt vai izslēgt darba pūla mainīšanas līdzekli
 
-Pirms sākat iestatīt vai izmantot šo līdzekli, ir jāpārliecinās, vai tas ir pieejams jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu, ja nepieciešams. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
-
-- **Modulis:** *Noliktavas pārvaldība*
-- **Līdzekļa nosaukums:** *Mainīt darba pūlu darbam*
+Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja jūs palaižat versiju, kas vecāka par 10.0.25, *·*[tad](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot Darba līdzekļa Izmaiņu darba pūlu darba darbvietā.
 
 ## <a name="set-up-the-change-work-pool-on-work-feature"></a>Iestatīt līdzekli Mainīt darba pūlu darbam
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1438ed6bcec485ff9665ffd9659c938f5cac478
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 4db1173b35cd196ab39fae3cac3754439fab84d0
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778135"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103167"
 ---
 # <a name="monitor-a-master-planning-run"></a>Vispārējās plānošanas izpildes pārraudzība
 
@@ -28,23 +28,22 @@ ms.locfileid: "7778135"
 
 Lapā **Skatīt vispārējās plānošanas norisi** varat skatīt detalizētu informāciju par vēsturisko vispārējo plānošanu, kas tiek veikta kā Ganta diagramma. Šī funkcionalitāte var palīdzēt jums aprēķināt laiku, kas tiek pavadīts dažādos vispārējās plānošanas posmos. Pašreizējam aktīvajam plānošanas darbam lapu **Skatīt vispārējās plānošanas norisi** var izmantot, lai izsekotu norisei un skatītu prognozēto atlikušo laiku.
 
-### <a name="turn-on-and-use-the-master-plan-progress-visualization-feature"></a>Vispārējā plāna progresa vizualizācijas līdzekļa ieslēgšana un izmantošana
+### <a name="turn-the-master-plan-progress-visualization-feature-on-or-off"></a>Ieslēgt vai izslēgt vispārējā plāna norises vizualizēšanas līdzekli
 
-Lai izmantotu šo funkcionalitāti, izpildiet tālāk aprakstītās darbības.
+No Piegādes ķēdes pārvaldības versijas 10.0.21 šī funkcija ir ieslēgta pēc noklusējuma. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja jūs palaižat versiju, kas vecāka par 10.0.25, tad administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot Vispārējās plānošanas progresa *vizualizēšanas*[līdzekli Līdzekļu pārvaldības darbvietā](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-1. Darbvietā **Līdzekļu pārvaldība** cilnē **Jauns** atlasiet sarakstā **Vispārējās plānošanas norises vizualizācija**. Ja šī funkcija netiek parādīta cilnē **Jauns**, skatiet cilnēs **Neiespējotās** un **Visas**.
-1. Atlasiet **Iespējot tagad**. Pēc izvēles atlasiet **Grafiks** un pēc tam atlasiet laiku, kad vēlaties ieslēgt līdzekli. (No Piegādes ķēdes pārvaldības versijas 10.0.21, šī funkcija ir ieslēgta pēc noklusējuma.)
+### <a name="use-the-master-plan-progress-visualization-feature"></a>Vispārējā plāna norises vizualizēšanas līdzekļa izmantošana
 
 Lapā **Skatīt vispārējās plānošanas norisi** var apskatīt gan vēsturiskos, gan aktīvos plānošanas darbus. 
 
 Lai skatītu vēsturiskos plānošanas darbus, ir divas opcijas. 
 
-1. Dodieties uz **Vispārējā plānošana \> Iestatīšana \> Plāni \> Vispārējie plāni** un pēc tam darbību rūtī atlasiet **Vēsture**. Kad vēlamais darbs ir izvēlēts, atlasiet **Pieprasījumi** un pēc tam atlasiet **Skatīt norisi**.
-1. Dodieties uz **Vispārējā plānošana \> Darbvietas \> Vispārējā plānošana**, vispārējā plānošanā noklikšķiniet uz **Vēsture**. Kad vēlamais darbs ir izvēlēts, atlasiet **Pieprasījumi** un pēc tam atlasiet **Skatīt norisi**.
+1. Dodieties uz **Vispārējā plānošana \>Iestatīšana \>Plāni \>Vispārējie plāni** un pēc tam darbību rūtī atlasiet **Vēsture**. Kad vēlamais darbs ir izvēlēts, atlasiet **Pieprasījumi** un pēc tam atlasiet **Skatīt norisi**.
+1. Dodieties uz **Vispārējā plānošana \>Darbvietas \>Vispārējā plānošana**, vispārējā plānošanā noklikšķiniet uz **Vēsture**. Kad vēlamais darbs ir izvēlēts, atlasiet **Pieprasījumi** un pēc tam atlasiet **Skatīt norisi**.
 
 Lai skatītu aktīvos plānošanas darbus, ir divas opcijas. 
-1. Dodieties uz **Vispārējā plānošana \> Darbvietas \> Vispārējā plānošana**, darbību rūtī atlasiet **Nepabeigtais plānošanas process**. Kad vēlamais darbs ir izvēlēts, atlasiet **Pieprasījumi** un pēc tam atlasiet **Skatīt norisi**.
-1. Dodieties uz **Vispārējā plānošana \> Darbvietas \> Vispārējā plānošana**, vispārējā plānošanā noklikšķiniet uz **Skatīt norisi**. Kad vēlamais darbs ir izvēlēts, atlasiet **Pieprasījumi** un pēc tam atlasiet **Skatīt norisi**.
+1. Dodieties uz **Vispārējā plānošana \>Darbvietas \>Vispārējā plānošana**, darbību rūtī atlasiet **Nepabeigtais plānošanas process**. Kad vēlamais darbs ir izvēlēts, atlasiet **Pieprasījumi** un pēc tam atlasiet **Skatīt norisi**.
+1. Dodieties uz **Vispārējā plānošana \>Darbvietas \>Vispārējā plānošana**, vispārējā plānošanā noklikšķiniet uz **Skatīt norisi**. Kad vēlamais darbs ir izvēlēts, atlasiet **Pieprasījumi** un pēc tam atlasiet **Skatīt norisi**.
 
 Piezīme: aktīvos darbus var skatīt tikai tad, kad plānošanas darbs tiek apstrādāts.
 
