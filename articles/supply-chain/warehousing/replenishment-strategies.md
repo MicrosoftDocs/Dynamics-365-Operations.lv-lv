@@ -2,25 +2,22 @@
 title: Papildināšanas stratēģijas
 description: Šajā tēmā ir sniegta informācija par papildināšanas stratēģijām un izskaidrots, kā var izmantot Papildināšanas stratēģijas lauku, kas atrodas kopuma pieprasījuma papildināšanas veidnes rindās, lai izvēlētos, kā tiek veikta papildināšana.
 author: mirzaab
-manager: tfehr
 ms.date: 10/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-29
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 45b3b1a4d2e92a52ee69c17865634a6578181ac7
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 84c97bdbe00285d7992a25edbf5d42ffe9b58903
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646137"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814516"
 ---
 # <a name="replenishment-strategies"></a>Papildināšanas stratēģijas
 
@@ -115,3 +112,6 @@ Rezultāti atšķiras pieejamās informācijas dēļ darba izveides laikā. Ja o
 [![2. piemērs](media/ReplenTemp_example_2.png "2. piemērs")](media/ReplenTemp_example_2_large.png)
 
 Tāpēc, lai iegūtu maksimālo daudzumu uz papildinātajām atrašanās vietām, ir jāiestata opcija **Atļaut sadalīt** uz *Jā* novietojuma direktīvās papildināšanas izdošanai.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

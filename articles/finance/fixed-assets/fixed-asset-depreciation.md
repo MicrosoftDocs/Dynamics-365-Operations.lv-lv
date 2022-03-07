@@ -1,12 +1,10 @@
 ---
 title: Pamatlīdzekļu nolietojums
 description: Šajā tēmā ir sniegts pārskats par pamatlīdzekļu nolietojumu.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 10/30/2017
+author: moaamer
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBonus, AssetBookTable
 audience: Application User
@@ -14,23 +12,26 @@ ms.reviewer: roschlom
 ms.custom: 3121
 ms.assetid: 98ff891f-e0e2-4184-b618-28107a50851f
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b399ab3df9bddbce8b96752ef344bf93cb2563c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 2442830766ef1dccc109db5569bfbbbc8182f027
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969107"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890984"
 ---
 # <a name="fixed-asset-depreciation"></a>Pamatlīdzekļu nolietojums
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Šajā tēmā ir sniegts pārskats par pamatlīdzekļu nolietojumu.
 
 Nolietojums ir periodiska darbība, kas parasti samazina pamatlīdzekļa vērtību bilancē un tiek maksāta kā izdevumi peļņas un zaudējumu kontā. Tāpēc galvenais konts parasti tiek izmantots, lai kreditētu periodisko nolietojumu bilancē. Korespondējošais konts ir konts kontu plāna peļņas un zaudējumu daļā.
+
+Sākot ar versiju 10.0.24, **lapā Grāmatas opcija Aprēķināt pozitīvu nolietojuma aktīvu grāmatas konfigurāciju ļauj** **nolietojumam** debetēt pamatlīdzekli, kas iegādāts ar negatīvu uzskaites vērtību (kredītu).
 
 ## <a name="depreciation-adjustment"></a>Nolietojuma korekcijas
 Parasti tikai jau grāmatotas nolietojuma darbības korekcija tiek grāmatota kā nolietojuma korekcija. Tāpēc gan galvenais konts, gan korespondējošais konts tiek iestatīts tāpat kā nolietojuma konts. Nolietojuma korekcija var būt gan pozitīva summa, gan negatīva summa, taču galvenā konta (kā bilances konta) funkcionalitāte un korespondējošā konta (parasti kā peļņas un zaudējumu konta) funkcionalitāte paliek tā pati.
@@ -47,7 +48,7 @@ Var izveidot neierobežotu speciālā nolietojuma atļautā daudzuma ierakstu sk
 
 Speciālā nolietojuma atļautais daudzums tiek ievadīts kā procenti vai fiksēta summa. Grāmatojot nolietojuma priekšlikumus, speciālā nolietojuma atļautā daudzuma darbības tiek grāmatotas grāmatā kā darbības, kas ir atsevišķi no nolietojuma darbībām.
 
-## <a name="depreciation-calendars"></a> Nolietojuma kalendāri
+## <a name="depreciation-calendars"></a>Nolietojuma kalendāri
 Katrai grāmatai ir kalendārs, ko izmanto, aprēķinot pamatlīdzekļu nolietojumu. Pēc noklusējuma, ja nenorādīsiet kalendāru grāmatai, grāmata izmantos virsgrāmatas finanšu kalendāru. Nepieciešams atlasīt finanšu kalendāru grāmatai, ja ar grāmatu saistītais nolietojuma profils izmanto finanšu nolietojuma gadu. 
 
 Varat izveidot koplietojamu kalendāru, izmantojot sadaļas Virsgrāmata lapu **Finanšu kalendāri**.
@@ -56,3 +57,6 @@ Papildinformāciju skatiet rakstā [Nolietojuma metodes un konvencijas](deprecia
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

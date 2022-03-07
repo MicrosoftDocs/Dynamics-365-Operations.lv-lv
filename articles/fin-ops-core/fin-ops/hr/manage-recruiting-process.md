@@ -1,12 +1,10 @@
 ---
 title: Personāla atlases procesu pārvaldība
-description: Šajā tēmā ir aprakstīta metode, kuru personāla atlases speciālisti var izmantot, lai izsekotu personāla atlases procesā veicamajām darbībām, kas iekļauj sludinājumu par vakancēm publicēšanas pasākumus, informācijas par kandidātu un pieteikumu noskaidrošanu, kandidātu intervēšanu un viena vai vairāku kandidātu atlasi organizācijā izsludināto vakanču aizpildīšanai.
+description: Šajā rakstā ir aprakstīta koncepcija, ko personāla atlases veicēji var izmantot, lai sekotu darbībām personāla atlases procesā.
 author: andreabichsel
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMApplication, HRMRecruitingTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 71e30a30aee5edcea2e24b326b0f263612b6b897
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 74ff8b081f5c82a089eef47b5cc18bc498a34c21
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798047"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752082"
 ---
 # <a name="manage-recruiting-processes"></a>Personāla atlases procesu pārvaldība
 
@@ -103,3 +101,6 @@ Lai noskaidrotu vakancei iespējami piemērotos kandidātus, var izmantot opciju
 ## <a name="hiring-applicants"></a>Kandidātu pieņemšana darbā
 
 Lai pieņemtu kandidātu darbā, izmantojiet lapu **Pieteikumi**. Pieņemot kandidātu darbā, pieteikuma ierakstam tiek piemērots statuss **Pieņemts darbā**, un kandidāta personiskais ieraksts globālajā adrešu grāmatā tiek saistīts ar jaunā darbinieka ierakstu. Jaunā darbinieka datu izmaiņas globālajā adrešu grāmatā arī tiek parādītas pieteikuma ierakstā. Tas var palīdzēt samazināt ievadāmo datu apjomu, ja jaunais nodarbinātais vēlāk piesakās citam amatam jūsu uzņēmumā. Lai pieņemtu esošu nodarbināto jaunā amatā, nolaižamajā sarakstā **Pieteikuma statuss** noklikšķiniet uz **Mainīt pozīciju**, tādējādi uzsākot amata maiņas procesu.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

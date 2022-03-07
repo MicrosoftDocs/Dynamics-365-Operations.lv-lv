@@ -2,33 +2,34 @@
 title: Ražošanas plānošana
 description: Šajā tēmā ir aprakstīta ražošanas plānošana un skaidrots, kā modificēt plānotos ražošanas pasūtījumus, izmantojot plānošanas optimizāciju.
 author: ChristianRytt
-ms.date: 06/01/2021
+manager: tfehr
+ms.date: 12/15/2020
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
+ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 85167e3de5f586c341143a43412501377a6c689e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f9b5e4122fbd83ff76e0605b2f0816e10d2d9aab
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570901"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470837"
 ---
 # <a name="production-planning"></a>Ražošanas plānošana
 
-[!include [banner](../../includes/banner.md)]
-
-Optimizācijas plānošana atbalsta vairākus ražošanas scenārijus. Ja migrēsit no esošās iebūvētās vispārējās plānošanas programmas, ir svarīgi atcerēties kādu no mainītajiem scenārijiem.
+Optimizācijas plānošana atbalsta vairākus ražošanas scenārijus. Ja migrēsiet no esošās iebūvētās vispārējās plānošanas programmas, ir svarīgi atcerēties kādu no mainītajiem scenārijiem.
 
 Tālāk sniegtais video sniedz īsu ievadu dažiem šajā tēmā minētajiem koncepcijām: [Dynamics 365 Supply Chain Management: optimizācijas uzlabojumu plānošana](https://youtu.be/u1pcmZuZBTw).
-
-## <a name="turn-on-this-feature-for-your-system"></a>Līdzekļa ieslēgšana sistēmā
-
-Ja sistēmā vēl nav ietverti šajā tēmā aprakstītie līdzekļi, pārejiet uz sadaļu [Līdzekļu pārvaldība](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) un iespējojiet līdzekli *Plānotie ražošanas pasūtījumi Plānošanas optimizācijai*.
 
 ## <a name="planned-production-orders"></a>Plānotie ražošanas pasūtījumi
 
@@ -76,44 +77,11 @@ Jūs varat izmantot **Izvēršanas** lapu, lai analizētu pieprasījumu, kas nep
 
 ## <a name="filters"></a><a name="filters"></a>Filtri
 
-Lai nodrošinātu, ka plānošanas optimizācijai ir informācija, kas ir nepieciešama pareiza rezultāta aprēķināšanai, jums ir jāietver visas preces, kurām ir jebkāda saistība ar precēm visā plānotā pasūtījuma MK struktūrā. Plānošanas scenārijos, kuros ietilpst ražošana, mēs iesakām izvairīties palaist filtrētas vispārējās plānošanas.
+Plānošanas scenārijos, kuros ietilpst ražošana, mēs iesakām izvairīties no filtrētām vispārējās plānošanas palaišanas. Lai nodrošinātu, ka plānošanas optimizācijai ir informācija, kas ir nepieciešama pareizā rezultāta jāaprēķina, ir jāietver visas preces, kurām ir jebkādas saistības ar precēm visā plānotā pasūtījuma MK struktūrā.
 
-Lai arī pakārtotie atvasinātie krājumi tiek automātiski noteikti un ietverti vispārējā plānošanā, kad tiek izmantota iebūvētā vispārējās plānošanas programma, plānošanas optimizācija šobrīd neveic šo darbību.
+Lai arī pakārtotie pakārtotie krājumi tiek automātiski noteikti un ietverti vispārējā plānošanā, kad tiek izmantota iebūvētā vispārējās plānošanas programma, plānošanas optimizācija neveic šo darbību.
 
-Piemēram, ja MK struktūras preces A skrūve tiek izmantota arī preces B ražošanai, tad visas preces A un B preču MK struktūrā ir jāiekļauj filtrā. Tā kā ir sarežģīti nodrošināt visu preču ietveršanu filtrā, ieteicams izvairīties no filtrētas vispārējās plānošanas, kad ir iesaistīti ražošanas pasūtījumi. Pretējā gadījumā vispārējā plānošana sniegs nevēlamus rezultātus.
+Piemēram, ja viena produkta A MK struktūras skrūve tiek izmantota arī preces B ražošanai, tad visi produkti A un B preču MK struktūrā jāiekļauj filtrā. Tā kā tā var būt ļoti sarežģīta, lai nodrošinātu, ka visas preces ir daļa no filtra, ieteicams izvairīties no filtrētas vispārējās plānošanas, kad ir iesaistīti ražošanas pasūtījumi.
 
-### <a name="reasons-to-avoid-filtered-master-planning-runs"></a>Iemesli izvairīties palaist filtrētas vispārējās plānošanas
-
-Palaižot preces filtrētu vispārējo plānošanu, plānošanas optimizācija (atšķirībā no iebūvētās vispārējās plānošanas programmas) nenosaka visus šīs preces MK struktūras apakšproduktus un izejmateriālus un tāpēc neiekļauj tos vispārējā plānošanā. Kaut arī plānošanas optimizācija identificē pirmo līmeni preces MK struktūrā, no datu bāzes netiek ielādēti preču iestatījumi (piemēram, noklusējuma pasūtījuma veids vai krājuma nodrošinājums).
-
-Plānošanas optimizācijas gadījumā vispirms tiek ielādēti palaišanas dati un pielietoti filtri. Tas nozīmē, ka gadījumā, ja konkrētā precē iekļautais apakšprodukts vai izejmateriāls nav daļa no filtra, informācija par to nebūs ietverta palaišanā. Turklāt, ja apakšprodukts vai izejmateriāls ir iekļauts arī citā precē, tad filtrēta palaišana, kas ietver tikai oriģinālo preci un tās komponentus, noņems esošo plānoto pieprasījumu, kas tika izveidots citai precei.
-
-Šī loģika var izraisīt filtrētas vispārējās plānošanas palaišanas darbībām sniegt neatbalstītus rezultātus. Turpmākajās sadaļās sniegti piemēri, kas attēlo iespējamos neatbalstītos rezultātus.
-
-### <a name="example-1"></a>1. piemērs
-
-Saražotās preces *FG* sastāv no tālāk norādītajiem komponentiem:
-
-- Izejmateriāls *R*
-- Apakšprodukts *S1*, kas sastāv no apakšprodukta *S2*
-
-Krājumi ir pieejami izejmateriālam *R*, bet krājumos nav apakšprodukta *S1*.
-
-Veicot filtrētu vispārējo plānošanas palaišanu saražotajām precēm *FG*, iegūsit plānoto ražošanas pasūtījumu saražotajām precēm *FG*, plānoto pirkšanas pasūtījumu izejmateriālam *R* un plānoto pirkšanas pasūtījumu apakšproduktam *S1*. Tas ir nevēlams rezultāts, jo plānošanas optimizācija ir ignorējusi esošo izejmateriālu *R* piegādi un apakšproduktam *S1* ir jābūt ražotam, izmantojot *S2*, nevis tieši pasūtītam. Tas notika tāpēc, ka plānošanas optimizācijai ir tikai saražoto preču *FG* komponentu saraksts bez jebkādas saistītas informācijas, piemēram, ar esošo komponentu piegādi vai to noklusējuma pasūtījuma iestatījumiem.
-
-### <a name="example-2"></a>2. piemērs
-
-Balstoties uz iepriekšējo piemēru, papildus saražotajām precēm arī *FG2* izmanto apakšproduktu *S1*. Plānotais pasūtījums ir saražotajām precēm *FG2* un plānotais pieprasījums ir visiem komponentiem, tostarp *S1*.
-
-Jūs nolemjat labot filtrētās vispārējās plānošanas nevēlamos resultātus no iepriekšējā piemēra, pievienojot filtram visus MK struktūras apakšproduktus un izejmateriālus no saražotajām precēm *FG* un pēc tam veicot pilnu atkārtotu palaišanu.
-
-Veicot pilnu atkārtotu palaišanu, sistēma izdzēš visus esošos rezultātus visām iekļautajām precēm un pēc tam atkārtoti izveido rezultātus, pamatojoties uz jaunajiem aprēķiniem. Tas nozīmē, ka esošais plānotais pieprasījums precei *S1* tiek izdzēsts un pēc tam izveidots no jauna, ņemot vērā tikai saražoto preču *FG* prasības, bet saražotās preces *FG2* prasības netiek ņemtas vērā. Tas notiek, jo, palaižot plānošanas optimizāciju, netiek iekļauts citu plānoto ražošanas pasūtījumu plānotais pieprasījums&mdash;tiek izmantots tikai palaišanas laikā ģenerētais plānotais pieprasījums.
-
-> [!NOTE]
-> Ja esošais plānotais pasūtījums saražotajām precēm *FG2* ir ar statusu *Apstiprināts*, tad apstiprinātais plānotais pieprasījums tiks iekļauts pat tad, ja pamatprodukts netiks pievienots filtram.
-
-Tāpēc, ja nepievienosit visus saražoto preču *FG* komponentus, saražotās preces *FG2* un visus citus produktus, kas ir šo komponentu daļa (kopā ar to komponentiem), filtrētā vispārējās plānošanas palaišana nodrošinās nevēlamus rezultātus.
-
-Tā kā ir sarežģīti nodrošināt visu preču ietveršanu filtrā, ieteicams izvairīties no filtrētas vispārējās plānošanas, kad ir iesaistīti ražošanas pasūtījumi.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

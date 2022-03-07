@@ -1,17 +1,14 @@
 ---
 title: Kvīšu formātu iestatīšana un noformēšana
-description: Šajā rakstā ir aprakstīts, kā izveidot un modificēt formu izkārtojumus, lai kontrolētu to, kā tiek drukāti rēķini, kvītis un citi dokumenti. Programmā Dynamics 365 Commerce ir ietverts formas izkārtojuma veidotājs, ko varat izmantot, lai viegli izveidotu un izmainītu dažādu viedu formu izkārtojumus.
+description: Šajā rakstā ir aprakstīts, kā izveidot un modificēt formu izkārtojumus, lai kontrolētu to, kā tiek drukāti rēķini, kvītis un citi dokumenti. Programmā Dynamics 365 Commerce ir ietverts formas izkārtojuma noformētājs, ko varat izmantot, lai viegli izveidotu un izmainītu dažādu viedu formu izkārtojumus.
 author: rubencdelgado
-manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailFormLayout
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 57841
 ms.assetid: e530dd8e-95e2-4021-90bd-ce1235f9e250
 ms.search.region: global
@@ -19,18 +16,18 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ab6b01d6833850af8c04167d94b0a60c7312075c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a2107670cb5dbac3b8f28c4e3caa357102932291
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414154"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500174"
 ---
 # <a name="set-up-and-design-receipt-formats"></a>Kvīšu formātu iestatīšana un noformēšana
 
 [!include [banner](includes/banner.md)]
 
-Šajā rakstā ir aprakstīts, kā izveidot un modificēt formu izkārtojumus, lai kontrolētu to, kā tiek drukāti rēķini, kvītis un citi dokumenti. Dynamics 365 Commerce ir ietverts formas izkārtojuma veidotājs, kuru varat izmantot, lai ērtā un grafiskā veidā izveidotu un modificētu dažādus formu izkārtojumus.
+Šajā rakstā ir aprakstīts, kā izveidot un modificēt formu izkārtojumus, lai kontrolētu to, kā tiek drukāti rēķini, kvītis un citi dokumenti. Dynamics 365 Commerce ir ietverts formas izkārtojuma noformētājs, kuru varat izmantot, lai ērtā un grafiskā veidā izveidotu un modificētu dažādus formu izkārtojumus.
 
 > [!IMPORTANT]
 > Lai drukātu kvītis un citus dokumentus programmās Retail Modern POS un Cloud POS, ir jāiestata formu izkārtojumi un kvīšu profili. Kvīšu profilā var ietvert vairākus formu izkārtojumus. Pēc tam kvīts profilu var piešķirt printerim, modificējot aparatūras profilu.
@@ -47,16 +44,25 @@ ms.locfileid: "4414154"
     - **Parādīt lietotājam uzvedni** — lietotājam tiek parādīta uzvedne par kvīts drukāšanu.
     - **Kā nepieciešams** — šo opciju izmanto tikai dāvanu kvītīm. Ja ir nepieciešama dāvanu kvīts un šī opcija ir atlasīta, lietotājs var izdrukāt dāvanu kvīti, izmantojot lapu **Mainīt**.
 
+## <a name="print-images"></a>Attēlu drukāšana
+
+Kvīšu noformētājs ietver mainīgo **Logotips**. Šo mainīgo varat izmantot, lai konkretizētu attēlu, kuru vajadzētu drukāt uz kvītīm. Attēliem, kas tiek drukāti uz kvītīm, izmantojot **Logotipa** mainīgo, ir jābūt vienkrāsainiem bitkartes (.bmp) tipu failiem. Ja kvīšu noformētājā ir norādīts bitmap attēls, bet tas netiek drukāts, kad kvīts tiek nosūtīta uz printeri, problēmu var būt izraisījis viens no tālāk minētajiem iemesliem:
+
+- Fails ir pārāk liels vai attēla pikseļu izmēri neatbilst printerim. Šādā gadījumā mēģiniet samazināt attēla faila izšķirtspēju vai izmēru.
+- Daži objektu saistīšanas un iegulšanas pārdošanas punktā (OPOS) printeru draiveri neizmanto metodi **PrintMemoryBitmap**, kuru aparatūras stacijas izmanto logotipu attēlu drukāšanā. Šādā gadījumā mēģiniet jūsu privātās vai koplietotās aparatūras stacijas failam **HardwareStation.Extension.config** pievienot šādu karodziņu:
+
+    `<add name="HardwareStation.UsePrintBitmapMethod" value="true"/>`
+
 ## <a name="design-a-receipt-format"></a>Kvīts formāta noformēšana
 
 Izmantojiet formas izkārtojuma noformētāju, lai grafiski izveidotu formas dokumenta izkārtojumu. Lapā **Kvīts formāta dizains** ir trīs sadaļas: **Galvene**, **Rindas** un **Kājene**. Dažos formas izkārtojuma veidos tiek izmantoti elementi no visam trīs sadaļām, bet citos veidos tiek izmantoti tikai vienas vai divu sadaļu elementi. Lai redzētu katrā sadaļā pieejamos elementus, noklikšķiniet uz attiecīgās pogas navigācijas rūtī lapas kreisajā pusē.
 
 1. Noklikšķiniet uz **Retail un Commerce** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **POS** &gt; **Kvīšu formāti**.
-2. Lapā **Kvīts formāts** atlasiet formas izkārtojumu un pēc tam noklikšķiniet uz **Veidotājs**.
-3. Lai uzsāktu Commerce veidotāja resursdatora instalēšanu, noklikšķiniet uz **Palaist**.
-4. Internet Explorer loga apakšdaļā parādītajā paziņojumu joslā noklikšķiniet uz **Atvērt**, lai sāktu viena klikšķa veidotāja instalēšanu. (Citās pārlūkprogrammās paziņojumu josla var tikt rādīta citā vietā.) Norises indikators norāda instalēšanas procesa norisi.
-5. Kad instalēšana ir pabeigta, ievadiet savu Commerce lietotājvārdu un paroli un pēc tam noklikšķiniet uz **Pierakstīties**, lai palaistu veidotāju.
-6. Kad jūsu akreditācijas dati ir apstiprināti un veidotājs ir palaists, var sākt kvīts formāta veidošanu vai esošā formāta mainīšanu.
+2. Lapā **Kvīts formāts** atlasiet formas izkārtojumu un pēc tam noklikšķiniet uz **Noformētājs**.
+3. Lai uzsāktu Commerce noformētāja resursdatora instalēšanu, noklikšķiniet uz **Palaist**.
+4. Internet Explorer loga apakšdaļā parādītajā paziņojumu joslā noklikšķiniet uz **Atvērt**, lai sāktu viena klikšķa noformētāja instalēšanu. (Citās pārlūkprogrammās paziņojumu josla var tikt rādīta citā vietā.) Norises indikators norāda instalēšanas procesa norisi.
+5. Kad instalēšana ir pabeigta, ievadiet savu Commerce lietotājvārdu un paroli un pēc tam noklikšķiniet uz **Pierakstīties**, lai palaistu noformētāju.
+6. Kad jūsu akreditācijas dati ir apstiprināti un noformētājs ir palaists, var sākt kvīts formāta veidošanu vai esošā formāta mainīšanu.
 7. Lai izveidotu formas elementus, atlasiet sadaļu **Galvene**, **Rindas** vai **Kājene** un pēc tam velciet elementu no šīs sadaļas uz darbvietu. Vairums elementos ir iekļauti mainīgie, kas tiek automātiski aizpildīti ar datiem no datu bāzes. Citi elementi, piemēram, **Teksts**, ļauj jums kvītī drukāt pielāgotu tekstu.
 
     > [!NOTE]
@@ -82,3 +88,6 @@ Kvīšu profili tiek piešķirti tieši printeriem, izmantojot aparatūras profi
 
 > [!NOTE]
 > Ja tiek izmantoti divi printeri, vienu printeri var izmantot, lai izdrukātu standarta 40 sleju termodrukas kvītis. Otro printeri parasti izmanto, lai izdrukātu pilnas lapas kvītis veidus, kuros jāiekļauj papildu informācija. Šie kvīšu veidi iekļauj debitora pasūtījuma kvītis un debitora rēķinus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

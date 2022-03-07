@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: da835306e523129fb667153ff6a5fbe574f2769649639595c90af603f1258e4a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 248de8e12703a84482b67d0899857a6efb33531c
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758003"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6023414"
 ---
 # <a name="update-certificate-numbers-and-dates-for-tds-transactions"></a>TDS sertifikātu numurus un datumus atjaunināšana TDS darījumiem
 
@@ -33,7 +33,7 @@ Izpildiet šīs darbības, lai atjauninātu TDS darījumu sertifikātu numurus u
 
 1. Atveriet **Nodoklis \> Deklarācijas \> Ieturētais nodoklis \> Atjaunināt sertifikātu**.
 
-    [![Atjaunināt sertifikāta lapa.](./media/apac-ind-TDS-45.png)](./media/apac-ind-TDS-45.png)
+    [![Atjaunināt sertifikāta lapa](./media/apac-ind-TDS-45.png)](./media/apac-ind-TDS-45.png)
 
 2. Lapā **Atjaunināt sertifikātu**, sadaļā **Atlasīt**, laukā **Nodokļu tips** atlasiet **TDS**.
 3. Laukā **Sertifikāta numurs** atlasiet debitora vai kreditora TDS sertifikāta numuru.
@@ -60,4 +60,4 @@ Izpildiet šīs darbības, lai atjauninātu TDS darījumu sertifikātu numurus u
 8. Atlasiet **Atjaunināt**, lai apakšējā režģī atjauninātu **Sertifikāta numura** un **Sertifikāta datuma** laukus TDS darījumiem.
 10. Dodieties uz **Nodoklis \> Netiešie nodokļi \> Ieturētais nodoklis \> Atjaunojamais sertifikāts** un atlasiet **Vaicājums** lai skatītu atjauninātās darījumu rindas, kurām **Sertifikātu darījumu** lapā ir jauni sertifikātu numuri.
 
-    [![Sertifikāta darījumi lapa.](./media/apac-ind-TDS-46.png)](./media/apac-ind-TDS-46.png)
+    [![Sertifikāta darījumi lapa](./media/apac-ind-TDS-46.png)](./media/apac-ind-TDS-46.png)

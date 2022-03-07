@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: f151942555ac503338f0fd44aa8779e3c2970fb1
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 21516cb7ef6e95dcef27638ddb72520f492958a5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644637"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207331"
 ---
 # <a name="customer-payment-insights-preview"></a>Klienta maksājumu ieskati (priekšskatījums)
 
@@ -73,3 +72,6 @@ Nosūtiet e-pasta ziņojumu uz [Debitoru maksājumu ieskati (priekšskatījums)]
 Priekšskatījumiem (1) var tikt izmantots mazāk konfidencialitātes un drošības pasākumu nekā pakalpojumam Dynamics 365 Finance and Operations, (2) tie nav ietverti pakalpojuma līmeņa līgumā par šo pakalpojumu, (3) tos nedrīkst izmantot personas datu vai citu tādu datu apstrādei, uz kuriem attiecas juridiskās vai normatīvās prasības, un (4) tiem tiek nodrošināts ierobežots atbalsts.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

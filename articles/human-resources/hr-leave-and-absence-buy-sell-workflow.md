@@ -2,7 +2,7 @@
 title: Atvaļinājuma pirkšanas un pārdošanas pieprasījuma darbplūsmas izveide
 description: Izveidojiet atvaļinājumu pirkšanas un pārdošanas pieprasījumu darbplūsmu, lai konsekventi pārvaldītu pirkšanas un pārdošanas atvaļinājumu pieprasījumus sistēmā Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d490e0c36ea0e854c5d7afc5b3bf75f6b65e542c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 16260c66c2e92fb06664a8f20a5fc3ed4a964609
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419601"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5468135"
 ---
 # <a name="create-a-buy-and-sell-leave-request-workflow"></a>Atvaļinājuma pirkšanas un pārdošanas pieprasījuma darbplūsmas izveide
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Varat sistēmā Dynamics 365 Human Resources izveidot darbplūsmu, lai konsekventi pārvaldītu atvaļinājuma pirkšanas un pārdošanas pieprasījumus. **Atvaļinājuma pirkšanas un pārdošanas** darbplūsma ļauj:
 
@@ -81,3 +83,6 @@ Jūs varat izmantot tālāk norādītos datu elementus, lai izveidotu nosacījum
 [Atvaļinājumu un kavējumu apskats](hr-leave-and-absence-overview.md)<br>
 [Atvaļinājuma iegādes un pārdošanas politiku pārvaldība](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

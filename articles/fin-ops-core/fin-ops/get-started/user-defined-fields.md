@@ -2,11 +2,9 @@
 title: Pielāgotu lauku izveide un darbs ar tiem
 description: Šī tēma jums parāda, kā ar lietotāja interfeisu izveidot pielāgotus laukus un pielāgot programmu sava uzņēmuma vajadzībām.
 author: jasongre
-manager: AnnBe
-ms.date: 03/09/2020
+ms.date: 05/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SysCustomFieldManageFields
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: eee5b072f999aab7d4a5e72888abad3915e03d5b
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: c941fa30662ed54159e303bf2a944026900d8c04107bc800d109a80d9ef456a4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798122"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760714"
 ---
 # <a name="create-and-work-with-custom-fields"></a>Pielāgotu lauku izveide un darbs ar tiem
 
@@ -28,7 +26,7 @@ ms.locfileid: "4798122"
 
 Lai gan ir plaša lietošanai gatavu lauku kopa dažādu veidu biznesa procesu pārvaldībai, dažkārt uzņēmumam ir nepieciešams sistēmā izsekot papildu informāciju. Lai gan programmētājus var izmantot, lai šos laukus pievienotu kā paplašinājumus izstrādātāja rīkos, pielāgoto lauku līdzeklis atļauj laukus pievienot tieši no lietotāja interfeisa, tādējādi ļaujot jums pielāgot programmu, lai tā atbilstu jūsu biznesa vajadzībām, izmantojot Web pārlūkprogrammu.
 
-Pielāgotu lauku pievienošanas iespēja ir pieejama 13. platformas atjauninājumā un jaunākās tā versijās. Šim līdzeklim ir piekļuve tikai tiem lietotājiem, kuriem ir īpašas atļaujas.
+*Šim līdzeklim ir piekļuve tikai tiem lietotājiem, kuriem ir īpašas atļaujas.*
 
 Šajā video parādīts, cik viegli ir lapai pievienot pielāgotu lauku: [Pielāgotu lauku pievienošana](https://www.youtube.com/watch?v=gWSGZI9Vtnc).
 
@@ -48,8 +46,9 @@ Tālākajās darbībās aprakstīts process pielāgota lauka izveidei un šī la
     Ja neredzat pogu **Izveidot jaunu lauku**, jums nav nepieciešamo atļauju šī līdzekļa lietošanai.
 
 7. Dialoglodziņā **Izveidot jaunu lauku** ievadiet tālāk norādīto informāciju.
-
+   
     1. Atlasiet datu bāzes tabulu, kurai jāpievieno šis lauks. Ņemiet vērā, ka nolaižamajā sarakstā tiks parādītas tikai tabulas, kas atbalsta pielāgotos laukus. Tehnisko informāciju par atbalstītajām tabulām skatiet tālāk esošajā sadaļā.
+
     2. Atlasiet jaunā lauka datu tipu. Pieejamie datu tipi ir izvēles rūtiņa, datums, datums un laiks, decimāldaļskaitlis, skaitlis, salasīšanas saraksts un teksts.
 
         - Ja izvēlaties teksta datu tipu, var arī norādīt maksimālo šajā laukā ievadāmā teksta garumu.
@@ -62,11 +61,15 @@ Tālākajās darbībās aprakstīts process pielāgota lauka izveidei un šī la
 10. Lai atzīmētos laukus ievietotu atlasītajā formas reģionā, noklikšķiniet uz **Ievietot**.
 11. **Neobligāti:** iespējojiet personalizēšanas rīkjoslā režīmu **Pārvietot**, lai jaunos laukus pārvietotu uz vajadzīgo vietu atlasītajā reģionā. Papildinformāciju par to, kā izmantot dažādās personalizēšanas iespējas, lai formu optimāli pielāgotu personīgajam lietojumam, skatiet tēmā [Lietotāja pieredzes personalizēšana](personalize-user-experience.md).
 
+> [!WARNING]
+> Spēja ievadīt vērtības pielāgotā laukā, kas pievienots lapai, ir atkarīga no tā, vai ar pielāgoto lauku saistītā tabula ir rediģējama vai tikai lasāma. Kad saistītā tabula ir tikai lasāma, visi ar šo tabulu saistītie lauki, tostarp visi pielāgotie lauki, arī būs tikai lasāmi.
+
+
 ## <a name="sharing-custom-fields-with-other-users"></a>Pielāgoto lauku koplietošana ar citiem lietotājiem
 
-Kad esat izveidojis pielāgotu laiku un sniedzis to formā, iespējams, šo atjaunināto lapas skatu, kurā ietverts jaunais lauks, vēlaties nodrošināt citiem sistēmas lietotājiem. To var izdarīt divos dažādos veidos, izmantojot produkta personalizēšanas iespējas.
+Kad esat izveidojis pielāgotu laiku un sniedzis to lapā, iespējams, šo atjaunināto lapas skatu, kurā ietverts jaunais lauks, vēlaties nodrošināt citiem sistēmas lietotājiem. To var izdarīt divos dažādos veidos, izmantojot produkta personalizēšanas iespējas.
 
-- Ieteicamais veids ir caur sistēmas administratoru, kurš personalizāciju var aizgādāt visiem lietotajiem vai lietotāju apakškopai. Papildinformāciju skatiet tēmā [Lietotāja pieredzes personalizēšana](personalize-user-experience.md).
+- Ieteicamais maršruts ir **publicēt [saglabāto skatu](saved-views.md)** ar pielāgoto lauku, kas pievienots lapai atbilstošajai lietotāju kopai. Ja saglabāto skatu līdzeklis nav iespējots, sistēmas administrators var pielietot personalizēšanu vēlamajiem lietotājiem no personalizēšanas formas. Papildinformāciju skatiet [Lietotāja pieredzes personalizēšana](personalize-user-experience.md).
 - Vai arī varat eksportēt veiktās izmaiņas (dēvētas par *personalizācijām*), nosūtīt tās vienam vai vairākiem lietotājiem un likt katram no šiem lietotājiem importēt izmaiņas. Izmantojot personalizēšanas rīkjoslā esošo opciju **Pārvaldīt**, varat eksportēt un importēt personalizācijas.
 
 ## <a name="managing-custom-fields"></a>Pielāgoto lauku pārvaldība
@@ -137,6 +140,10 @@ Dažos retos gadījumos varat izlemt, ka pielāgotais lauks vairs nav vajadzīgs
 
 ## <a name="appendix"></a>Pielikums
 
+### <a name="why-cant-i-enter-a-value-in-my-custom-field"></a>Kāpēc pielāgotajā laukā nevar ievadīt vērtību? 
+
+Ja pielāgotajā laukā nevar ievadīt vērtību, kad lapa ir Rediģēšanas režīmā, iespējams, tabula, pie kuras lauks tika pievienots, pašlaik ir tikai lasāma. Visi tabulas lauki kļūst tikai lasīti tikai tad, ja dublēšanas tabula pašlaik ir konfigurēta, kā tikai lasāma lapā.   
+
 ### <a name="who-can-create-custom-fields"></a>Kas var izveidot pielāgotos laukus?
 
 Drošības apsvērumu dēļ pielāgotos laukus pēc noklusējuma var izveidot tikai sistēmas administratori. Taču prasmīgiem lietotājiem, kuriem pēc organizācijas ieskatiem tas ir nepieciešams, sistēmas administrators var piešķirt tiesības izveidot pielāgotos laukus, izmantojot drošības lomu **Prasmīgs izpildlaika pielāgošanas lietotājs**. Lietotāji bez šīs drošības lomas nevarēs izveidot pielāgotos laukus, taču joprojām varēs skatīt citu lietotāju sistēmā pievienotos pielāgotos laukus un mijiedarboties ar tiem.
@@ -162,3 +169,6 @@ Veiktspējas un tehnisku iemeslu dēļ pielāgotos laukus pašlaik var pievienot
 ### <a name="can-i-reference-custom-fields-from-the-developer-tools"></a>Vai es varu norādīt pielāgotus laukus no izstrādātāja rīkiem?  
 
 Pielāgotus laukus var pārvaldīt tikai ar lietotāja interfeisu, un tos nevar norādīt ar kodu. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

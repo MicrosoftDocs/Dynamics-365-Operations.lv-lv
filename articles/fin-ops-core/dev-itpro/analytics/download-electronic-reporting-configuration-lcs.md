@@ -2,11 +2,9 @@
 title: Elektronisko atskaišu veidošanas konfigurāciju lejupielāde no Lifecycle Services
 description: Šajā tēmā ir paskaidrots, kā lejupielādēt elektronisko pārskatu veidošanas (Electronic reporting — ER) konfigurācijas no portāla Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
-manager: AnnBe
 ms.date: 08/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionImport, ERWorkspace
 audience: Application User, IT Pro
@@ -17,18 +15,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 719b277fb828ea2085ea80bc4a36c2af3412f66b
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1e20528cd0af00c46f1376e02097bf3171100769
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683309"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358699"
 ---
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Elektronisko pārskatu veidošanas konfigurācijas lejupielāde no Lifecycle Services
 
 [!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir paskaidrots, kā lejupielādēt jaunāko [Elektroniskās ziņošanas (Electronic reporting - ER) konfigurācijas](general-electronic-reporting.md#Configuration) versiju no [Koplietojamo līdzekļu bibliotēka](../lifecycle-services/asset-library.md) programmā Microsoft Dynamics Lifecycle Services (LCS).
+
+> [!IMPORTANT]
+> LCS kā ER konfigurāciju glabāšanas repozitorija izmantošana ir [novecojusi](../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). Papildinformāciju skatiet [Regulatory Configuration Service (RCS) — Lifecycle Services (LCS) krātuves nolietojums](../../../finance/localizations/rcs-lcs-repo-dep-faq.md).
 
 1. Pierakstieties programmā, izmantojot vienu no šīm lomām:
 
@@ -40,7 +41,7 @@ ms.locfileid: "4683309"
 3. Sadaļā **Konfigurācijas nodrošinātāji** atlasiet elementu **Microsoft**.
 4. Elementā **Microsoft** atlasiet **Repozitoriji**.
 
-    [![Microsoft elements lokalizācijas konfigurāciju lapā](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
+    [![Microsoft elements lokalizācijas konfigurāciju lapā.](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
 
 5. Lapā **Konfigurācijas repozitoriji**, režģī atlasiet esošu repozitoriju ar tipu **LCS**. Ja šis repozitorijs netiek parādīts režģī, rīkojieties šādi:
 
@@ -54,7 +55,7 @@ ms.locfileid: "4683309"
 
 6. Atlasiet **Atvērt**, lai skatītu ER konfigurāciju sarakstu atlasītajam repozitorijam.
 
-    [![Repozitoriju lapas konfigurēšana](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
+    [![Repozitoriju lapas konfigurēšana.](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 
     > [!TIP]
     > Ja rodas problēmas, piekļūstot LCS repozitorijam, lai lejupielādētu konfigurāciju no koplietojamo līdzekļu bibliotēkas LCS, varat tai vietā lejupielādēt konfigurācijas no [Globālā krātuve](er-download-configurations-global-repo.md) .
@@ -76,3 +77,6 @@ ms.locfileid: "4683309"
 [Elektronisko pārskatu veidošanas (ER) apskats](general-electronic-reporting.md)
 
 [Elektronisko pārskatu (ER) konfigurāciju lejupielāde no konfigurācijas pakalpojuma globālā repozitorija](er-download-configurations-global-repo.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

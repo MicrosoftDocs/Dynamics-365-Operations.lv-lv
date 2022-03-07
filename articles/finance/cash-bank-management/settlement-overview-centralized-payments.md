@@ -3,26 +3,24 @@ title: Centralizētu maksājumu nosegšanas apskats
 description: Šajā tēmā ir aprakstīta centralizēto maksājumu nosegšana programmai Microsoft Dynamics 365 Finance.
 author: abruer
 ms.date: 08/02/2018
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CustOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "222414"
-- intro-internal
+ms.custom: 222414
 ms.assetid: 610f6858-0f37-4d0f-8c68-bab5a971ef4a
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4d00455d36b4350deffdd0bccb5529ce9e69a7cc
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: febe29500714e5cbe9e364a79f128a55b23defa8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982231"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834888"
 ---
 # <a name="settlement-overview-for-centralized-payments"></a>Centralizētu maksājumu nosegšanas apskats
 

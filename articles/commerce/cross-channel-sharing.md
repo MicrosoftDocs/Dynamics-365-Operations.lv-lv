@@ -1,36 +1,31 @@
 ---
 title: Starpkanālu koplietošanas iespējošana un izmantošana
-description: Šajā tēmā ir aprakstīts, kā iespējot un izmantot Microsoft Dynamics 365 Commerce vietņu veidotāja starpkanālu koplietošanas līdzekli.
+description: Šajā tēmā aprakstīts, kā iespējot un lietot starpkanālu kopīgošanas līdzekli Microsoft Dynamics 365 Commerce vietnes veidotājā.
 author: psimolin
-manager: annbe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 77284045bda193500117978102c0565c5f15ec6d
-ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
-ms.translationtype: HT
+ms.openlocfilehash: 05614b3ec14bfca9551242e5cf31aee0cb21c39a85150114af446a187fac998a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4414179"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742420"
 ---
-# <a name="enable-and-use-cross-channel-sharing"></a>Starpkanālu koplietošanas iespējošana un izmantošana
+# <a name="enable-and-use-cross-channel-sharing"></a>Koplietošana vairākos kanālos — iespējošana un izmantošana
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā iespējot un izmantot Microsoft Dynamics 365 Commerce vietņu veidotāja starpkanālu koplietošanas līdzekli.
-
-## <a name="overview"></a>Pārskats
+Šajā tēmā aprakstīts, kā iespējot un lietot starpkanālu kopīgošanas līdzekli Microsoft Dynamics 365 Commerce vietnes veidotājā.
 
 Starpkanālu koplietošana ļauj mazumtirgotājiem atkārtoti izmantot un kopīgot saturu starp vairākiem vietnes kanāliem. Šī iespēja noder, ja vietņu kanāliem ir saderīga pamatvaloda vai ja tiem ir daudz kopīgu satura vienību.
 
@@ -53,15 +48,15 @@ Lai iespējotu starpkanālu koplietošanu Commerce vietņu veidotājā, izpildie
 1. Dodieties uz **Vietnes iestatījumi \> Līdzekļi**.
 1. Iestatiet līdzekļa **Starpkanāls** opciju uz **Ieslēgts**.
 
-    ![Starpkanāls opcija Commerce vietņu veidotājā ir iestatīta uz Ieslēgts](./media/enabling-cross-channel-sharing.png)
+    ![Starpkanāls opcija Commerce vietņu veidotājā ir iestatīta uz Ieslēgts.](./media/enabling-cross-channel-sharing.png)
 
 Kad ir iespējota starpkanālu koplietošana, starpkanālu informācija tiks parādīta sadaļā **Kanāli**, kas atrodas **Vietnes iestatījumi \> Līdzekļi**, kā parādīts piemēra nākamajā attēlā.
 
-![Kanālu informācija, kas redzama pēc starpkanālu koplietošanas iespējošanas](./media/channels-cross-channel.png)
+![Kanālu informācija, kas redzama pēc starpkanālu koplietošanas iespējošanas.](./media/channels-cross-channel.png)
 
 Turklāt pēc starpkanālu koplietošanas iespējošanas Commerce vietņu veidotāja augšējā labajā pusē esošajā laukā **Kanāls** tiks iekļauta opcija **Starpkanālu tiešsaistes veikals**, ko var izmantot, lai pārvaldītu starpkanālu saturu, kā parādīts nākamajā attēlā.
 
-![Starpkanālu tiešsaistes veikala opcija laukā Kanāli pēc starpkanālu koplietošanas iespējošanas](./media/cross-channel-dropdown.png)
+![Starpkanālu tiešsaistes veikala opcija laukā Kanāli pēc starpkanālu koplietošanas iespējošanas.](./media/cross-channel-dropdown.png)
 
 ## <a name="create-and-use-cross-channel-content"></a>Starpkanālu satura izveidošana un izmantošana
 
@@ -137,3 +132,6 @@ Tagad, izmantojot kanāla bāzes URL un dodoties uz šīs vietnes starpkanālu l
 [Dokumenta stāvokļi un dzīves cikls](document-states-overview.md)
 
 [Darbs ar publicēšanas grupām](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

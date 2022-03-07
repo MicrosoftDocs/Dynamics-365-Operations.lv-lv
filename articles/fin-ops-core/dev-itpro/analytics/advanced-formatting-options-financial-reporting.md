@@ -1,12 +1,10 @@
 ---
 title: Papildu formatēšanas opcijas finanšu pārskatos
-description: Veidojot finanšu pārskatu, ir pieejamas papildu formatēšanas funkcijas, ieskaitot filtrus dimensijām, ierobežojumus kolonnām un pārskata vienībām, nedrukājamas rindas un IF/THEN/ELSE apgalvojumus aprēķinos.
-author: ryansandness
-manager: AnnBe
+description: Šajā tēmā aprakstītas papildu formatēšanas funkcijas, ieskaitot filtrus, ierobežojumus, nedrukājamas rindas un nosacījuma pārskatus aprēķinos.
+author: panolte
 ms.date: 04/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3508099dfa3c6671da8dddc9061f737a97e825ce
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: e15869fdd598aeec7ef616f6d54593c7551cb906ab53763a64f4202473bcd926
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683167"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760130"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Papildu formatēšanas opcijas finanšu pārskatos
 
@@ -38,7 +36,7 @@ Tabula paskaidro papildu formatēšanas funkcijas, kas ir pieejamas, veidojot p�
 | Pārskata vienības ierobežojums | Pārskata rindu var iestatīt tā, lai tā parāda tikai informāciju, kas ir saistīta ar konkrētu pārskata vienību. |
 | Nedrukājamas (NP) rindas     | Nedrukājamas rindas ir noderīgas daudzos pārskatos. Ja ir nepieciešami vairāki aprēķini, lai iegūtu vērtību, šie aprēķini var būt paslēpti drukātajā pārskatā. Nedrukājamās rindas tiek pielietotas arī problēmu novēršanas pārskatu dizainos, un papildu šūnu novietojumos. |
 | Kolonnas ierobežojums         | Kolonnu ierobežojums rindas definīcijā ir noderīgs vērtību paslēpšanai, kas attiecas tikai uz dažām pārskata rindām. Kad rindā tiek veikti procentu vērtību aprēķini, kolonnas ierobežojums neļauj kopsummas kolonnas vai citu kolonnu drukāšanu, ja šie numuri nav piemērojami. |
-| Kolonnas atkāpe               | Jūs varat pievienot kolonnu pārtraukumus rindas definīcijā, lai parādītu pārskata informāciju blakus. Jūs varat pievienot vairākus kolonnas pārtraukumus vienā rindas definīcijā, un kolonnas galvenes tiek atkārtotas katras kolonnas augšpusē pēc kolonnas pārtraukuma. Pārskata komentāri tiek rādīti starp kolonnu pārtraukumiem. |
+| Kolonnas pārtraukums               | Jūs varat pievienot kolonnu pārtraukumus rindas definīcijā, lai parādītu pārskata informāciju blakus. Jūs varat pievienot vairākus kolonnas pārtraukumus vienā rindas definīcijā, un kolonnas galvenes tiek atkārtotas katras kolonnas augšpusē pēc kolonnas pārtraukuma. Pārskata komentāri tiek rādīti starp kolonnu pārtraukumiem. |
 | IF/THEN/ELSE apgalvojumi     | Var modificēt aprēķinus rindas definīcijā vai kolonnas definīcijā. |
 | Izmantot vienpēdiņas /(/'/'/) un simbolu & kā dimensiju vērtības | Pārskata noformējumam varat izmantot dimensiju vērtības, tostarp simbolu &. |
 
@@ -85,16 +83,16 @@ Zemāk sniegtie piemēri parāda kā formatēt rindas definīciju un kolonnas de
 
 Šajā tabulā ir parādīts kolonnas definīcijas piemērs, kas kolonnā izmanto pamata forsēšanu.
 
-|           Formāts             | A   | mljrd.    | K        | D      | E      | F    |
+|           Formāts             | A   | B    | C        | D      | E      | F    |
 |------------------------------|-----|------|----------|--------|--------|------|
 | 1. galvene                     |     |      |          |        |        |      |
-| 2. galvene                     | A   | mljrd.    | K        | D      | E      | F    |
+| 2. galvene                     | A   | B    | C        | D      | E      | F    |
 | 3. galvene                     |     |      |          |        |        |      |
-| Kolonnas tips                  | ROW | DESC | FD       | FD     | FD     | APRĒK |
+| Kolonnas tips                  | ROW | DESC | FD       | FD     | FD     | CALC |
 | Uzskaites kods/atribūtu kategorija |     |      | FAKTISKAIS   | FAKTISKAIS | FAKTISKAIS |      |
 | Finanšu gads                  |     |      | PAMATA     | PAMATA   | PAMATA   |      |
 | Periods                       |     |      | PAMATA     | PAMATA   | PAMATA   |      |
-| Ietvertie periodi              |     |      | PERIODISKS | ŠG/BB | ŠG    |      |
+| Ietvertie periodi              |     |      | PERIODISKS | YTD/BB | YTD    |      |
 | Formula                      |     |      |          |        |        | E-D  |
 | Kolonnas platums                 | 5.   | 30   | 14.       | 14.     | 14.     | 14.   |
 
@@ -120,12 +118,12 @@ Zemāk sniegtie piemēri parāda kā formatēt rindas definīciju un kolonnas de
 
 Šajā tabulā ir parādīts kolonnas definīcijas piemērs, kas izmanto pamata forsēšanu statistikas pārskatam.
 
-|    Formāts                    | A   | mljrd.    | K      | D            | E     | F            |
+|    Formāts                    | A   | B    | C      | D            | E     | F            |
 |------------------------------|-----|------|--------|--------------|-------|--------------|
-| 1. galvene                     | A   | mljrd.    | K      | D            | E     | F            |
-| 2. galvene                     | -   | -    | ŠG    | Ikgadēja tirdzniecība | Darbinieks | $ Vienai personai |
+| 1. galvene                     | A   | B    | C      | D            | E     | F            |
+| 2. galvene                     | -   | -    | YTD    | Ikgadēja tirdzniecība | Darbinieks | $ Vienai personai |
 | Galvene 3                     |     |      |        |              |       |              |
-| Kolonnas tips                  | RINDA | DESC | FD     | CALC         | CALC  | CALC         |
+| Kolonnas tips                  | ROW | DESC | FD     | CALC         | CALC  | CALC         |
 | Uzskaites kods/atribūtu kategorija |     |      | FAKTISKAIS |              |       |              |
 | Finanšu gads                  |     |      | PAMATA   |              |       |              |
 | Periods                       |     |      | PAMATA   |              |       |              |
@@ -166,7 +164,7 @@ Drukāšanas vadības kodus katrai kolonnai var norādīt, izmantojot **Drukāš
 
 | Drukāšanas vadības kods | Drukāšanas vadības kodu atšifrējums         | Apraksts |
 |--------------------|--------------------------------------------------|-------------|
-| NP                 | Nedrukājama rinda                                 | Nepieļauj, ka tiek drukātas summas rindā, un izslēdz summas no aprēķiniem. Lai aprēķinā iekļautu nedrukājamu kolonnu, veidojiet atsauci uz kolonnu tieši aprēķina formulā. Piemēram, nedrukājama rinda 240 ir iekļauta šādā aprēķinā: **230+240+250**. Tomēr, nedrukājama rinda 240 netiek iekļauta šādā aprēķinā: **230:250**. |
+| NP                 | Nedrukājama rinda                                 | Nepieļauj, ka tiek drukātas summas rindā, un izslēdz summas no aprēķiniem. Lai aprēķinā iekļautu nedrukājamu kolonnu, veidojiet atsauci uz kolonnu tieši aprēķina formulā. Piemēram, nedrukājama rinda 240 ir iekļauta šādā aprēķinā: **230+240+250**. Tomēr nedrukājama rinda 240 netiek iekļauta šādā aprēķinā: **230:250**. |
 | CS                 | Valūtas simbols; lietot valūtas formātu šajā rindā | Iekļaut valūtas simbolu visās neprocentuālajās summās. Procentuālās vērtības nekad nesaņem valūtas simbolu. |
 | XD                 | Likvidēt rindu kontu detalizācijas pārskatā            | Likvidēt kontu parādīšanu konta detalizācijas pārskatos un darbību detalizācijas pārskatos. Šī drukāšanas vadība ir noderīga, kad rindā tiek iekļauti vairāki konti, kas nav jāuzskaita konta detalizācijas pārskatā vai darbības detalizācijas pārskatā. |
 | X0                 | Likvidēt rindu, ja visas vērtības ir nulle                        | Izslēdziet rindu no pārskata, ja visas šūnas rindā ir vai nu tukšas vai satur nulles. Šī drukāšanas vadība ir jēgpilna tikai tad, ja pārskata definīcijā nav atlasīta nulles bilances nerādīšanas opcija. |
@@ -283,10 +281,10 @@ Lai ierobežotu aprēķinu līdz pārskata vienībai koka pārskatā, lai iegūt
 > [!NOTE]
 > Lai lietotu šo funkciju, pārskata kokam jābūt saistītām ar rindas definīciju.
 
-Aprēķinu rinda var atsaukties uz aprēķinu rindu vai finanšu datu rindu. Aprēķins tiek ierakstīts rindas definīcijas un finanšu datu – tipa ierobežojuma šūnā **Saistītās Formulas/Rindas/Vienības**. Aprēķinā jāizmanto nosacījuma aprēķins, kas sākas ar konstrukciju **IF @Unit**. Piemērs: IF @Unit(SALES) THEN @100 ELSE 0 Šajā aprēķinā ir iekļauta summa no katras kolonnas rindas 100 pārskatā, bet tikai Pārdošanas vienībai. Ja vairākām vienībām ir nosaukums Pārdošana, summa tiek parādīta katrā no šīm vienībām. Turklāt rinda 100 var būt finanšu datu rinda, un var būt definēta kā nedrukājama. Šajā gadījumā summa netiek parāda visās vienībās kokā. Jūs varat arī ierobežot summu vienam kolonnas pārskatam, piemēram, kolonnai H, izmantojot kolonnu ierobežojumu, lai drukātu vērtību tikai šajā pārskata kolonnā. Jūs varat iekļaut **OR** kombinācijas apgalvojumā **IF**. Piemērs: IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100 Jūs varat norādīt vienību aprēķina tipa ierobežojumu vienā no šiem veidiem:
+Aprēķinu rinda var atsaukties uz aprēķinu rindu vai finanšu datu rindu. Aprēķins tiek ierakstīts rindas definīcijas un finanšu datu – tipa ierobežojuma šūnā **Saistītās Formulas/Rindas/Vienības**. Aprēķinā ir jāizmanto nosacījuma aprēķins, kas sākas ar konstrukciju **IF \@Unit**. Piemērs: IF @Unit(SALES) THEN @100 ELSE 0 Šajā aprēķinā ir iekļauta summa no katras kolonnas rindas 100 pārskatā, bet tikai Pārdošanas vienībai. Ja vairākām vienībām ir nosaukums Pārdošana, summa tiek parādīta katrā no šīm vienībām. Turklāt rinda 100 var būt finanšu datu rinda, un var būt definēta kā nedrukājama. Šajā gadījumā summa netiek parāda visās vienībās kokā. Jūs varat arī ierobežot summu vienam kolonnas pārskatam, piemēram, kolonnai H, izmantojot kolonnu ierobežojumu, lai drukātu vērtību tikai šajā pārskata kolonnā. Jūs varat iekļaut **OR** kombinācijas apgalvojumā **IF**. Piemērs: **IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100**. Vienību varat norādīt aprēķinu veidu ierobežojumā vienā no šiem veidiem:
 
-- Ievadiet vienības nosaukumu, lai iekļautu atbilstošas vienības. Piemēram, **IF @Unit(SALES)** iespējo aprēķinu vienībai, ar nosaukumu Pārdošanas, pat ja pārskata kokā pastāv vairākas Pārdošanas vienības.
-- Ievadiet uzņēmuma un vienības nosaukumu, lai ierobežotu aprēķinu līdz noteiktām vienībām noteiktā uzņēmumā. Piemēram, ievadiet **IF @Unit(ACME:SALES**), lai ierobežotu aprēķinu uz Pārdošanas vienībām ACME uzņēmumā.
+- Ievadiet vienības nosaukumu, lai iekļautu atbilstošas vienības. Piemēram, **IF \@Unit(SALES)** iespējo aprēķinu jebkurai vienībai ar nosaukumu SALES pat, ja pārskatu kokā ir vairākas vienības SALES.
+- Ievadiet uzņēmuma un vienības nosaukumu, lai ierobežotu aprēķinu līdz noteiktām vienībām noteiktā uzņēmumā. Piemēram, ievadiet **IF @Unit (ACME:SALES)**, lai ierobežotu aprēķinu līdz SALES vienībām ACME uzņēmumā.
 - Ievadiet pilnu hierarhijas kodu no pārskata koka, lai ierobežot aprēķinu līdz noteiktai mērvienībai. Piemēram, ievadiet **IF @Unit(SUMMARY^ACME^WEST COAST^SALES)**.
 
 > [!NOTE]
@@ -296,7 +294,7 @@ Aprēķinu rinda var atsaukties uz aprēķinu rindu vai finanšu datu rindu. Apr
 
 1. Pārskatu veidotājā noklikšķiniet uz **Rindas definīcijas** un pēc tam atveriet modificējamo rindas definīciju.
 2. Veiciet dubultklikšķi uz šūnas **Formāta kods**, un atlasiet **CAL**.
-3. Noklikšķiniet uz **Saistītās Formulas/Rindas/Vienības** šūnu, un pēc tam ievadiet nosacījuma aprēķinu, kas sākas ar konstrukciju **IF @Unit**.
+3. Noklikšķiniet uz šūnas **Saistītās formulas/rindas/vienības** un pēc tam ievadiet nosacījuma aprēķinu, kas sākas ar **IF \@Unit** konstrukciju.
 
 ### <a name="ifthenelse-statements-in-a-column-definition"></a>IF/THEN/ELSE apgalvojumi kolonnas definīcijā
 
@@ -310,3 +308,5 @@ Apgalvojums **IF/THEN/ELSE** ļauj jebkuram aprēķinam būt atkarīgam no citas
 Varat noformēt pārskatus, izmantojot dimensiju vērtības, kas ietver zīmi &.
 
 Jebkurā laukā **Saite uz finanšu dimensiju** varat ievadīt tādu vērtību kā **/'P&L/'**. Iekļaujot vienpēdiņas /(/' /'/) abās dimensijas vērtības pusēs, tiek norādīts, ka izmantojat literāļa vērtību, piemēram, ietverot zīmi &.
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

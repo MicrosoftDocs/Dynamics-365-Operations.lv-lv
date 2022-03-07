@@ -1,37 +1,31 @@
 ---
 title: Pieejamības līdzekļi un iespējas
-description: Šajā tēmā ir sniegta informācija par pieejamības funkcijām un iespējām pakalpojumā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā ir sniegta informācija par pieejamības līdzekļiem un iespējām programmā Microsoft Dynamics 365 Commerce.
 author: BrianShook
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6f6bca3589da4055eef000fc3b2c88b93eabb4d5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 77c5b2e40c3dd16b95afe421d4515c45af0e81358940c29a14c03754c39a076e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413971"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716280"
 ---
 # <a name="accessibility-features-and-capabilities"></a>Pieejamības līdzekļi un iespējas
 
-
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par pieejamības funkcijām un iespējām pakalpojumā Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
+Šajā tēmā ir sniegta informācija par pieejamības līdzekļiem un iespējām programmā Microsoft Dynamics 365 Commerce.
 
 Pieejamības funkcijas un iespējas nodrošina funkcionālus līdzekļus visiem lietotājiem, lai piekļūtu un veiktu darbības, lai viņi varētu sasniegt savus mērķus. Šim plašajam lietotāju lokam var būt nepieciešami dzirdes, redzes, mobilitātes vai neirodaudzveidības palīgrīki.
 
@@ -101,11 +95,11 @@ Lai uzstādītu atribūtu **Minimālais vecums** video līdzeklim, veiciet tāl�
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Pieejamība formās, produktos un vadīklās](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/user-interface/enable-accessibility)
+[Pieejamība formās, produktos un vadīklās](/dynamics365/unified-operations/dev-itpro/user-interface/enable-accessibility)
 
 [Microsoft pieejamības centrs](https://www.microsoft.com/accessibility)
 
-[Dynamics 365 pieejamības centrs](https://docs.microsoft.com/dynamics365/get-started/accessibility/index)
+[Dynamics 365 pieejamības centrs](/dynamics365/get-started/accessibility/index)
 
 [Atbilstības pārskats](compliance-overview.md)
 
@@ -114,3 +108,6 @@ Lai uzstādītu atribūtu **Minimālais vecums** video līdzeklim, veiciet tāl�
 [Konfidencialitātes politikas lapas pievienošana](add-privacy-page.md)
 
 [Aizstāt lietotāja ID, kas saistīti ar izsekotām satura izmaiņām](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

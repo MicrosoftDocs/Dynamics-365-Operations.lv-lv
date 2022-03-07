@@ -2,31 +2,32 @@
 title: Līdzekļa lietošanas tiesību nolietojuma reģistrēšana (priekšskatījums)
 description: Šajā tēmā skaidrots, kā izveidot žurnāla ierakstu amortizācijai, kas nepieciešama nomām, kuras tiek atzītas organizācijas bilancē.
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AssetLeaseAssetSchedule
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a766247e5482677429706a324c09cc9be4386c0b
-ms.sourcegitcommit: 304a482dfcc31dcb61849f710ae73432324ddef3
-ms.translationtype: MT
+ms.openlocfilehash: 0dd8308acb875affc96ca6d9ed856d74d4b2eb37
+ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/29/2021
-ms.locfileid: "7947319"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4445782"
 ---
 # <a name="record-right-of-use-asset-depreciation-preview"></a>Līdzekļa lietošanas tiesību nolietojuma reģistrēšana (priekšskatījums)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
-
 
 Nomām, kas tiek atzītas organizācijas bilancē, lietošanas tiesību LLT tiek amortizēts reizi mēnesī. Šajā tēmā skaidrots, kā izveidot žurnāla ierakstu amortizācijai. Amortizācija debetē izdevumu Virsgrāmatas kontu un kreditē uzkrātā nolietojuma Virsgrāmatas kontu, pamatojoties uz jūsu grāmatošanas profila iestatījumiem un nomas tipu. Šos ierakstus var izveidot katrai nomai, vai arī tos var izveidot vairākām nomām, izmantojot žurnāla pakešuzdevuma funkcionalitāti.
 
@@ -35,12 +36,9 @@ Nomām, kas tiek atzītas organizācijas bilancē, lietošanas tiesību LLT tiek
 1. Lapā **Nomas kopsavilkums** atlasiet nomu. Pēc tam atlasiet **Grāmatas \> Līdzekļa nolietojuma grafiks**, lai atvērtu lapu **Līdzekļu nolietojuma grafiks**.
 
     LLT nolietojuma izdevumu žurnāla ieraksts ir balstīts uz summu kolonnā **Nolietojuma izdevumi**. Piemēram, vadlīnijas par atbilstību uzskaites standartam skatiet šīs tēmas sadaļā [LLT amortizācijas izdevumu aprēķins finanšu nomām](#calculation-of-rou-asset-amortization-expense-for-finance-leases).
-    
+
 2. Atlasiet nolietojuma periodu un pēc tam atlasiet **Izveidot žurnālu**. Tiek parādīts ziņojums, ka tika izveidots žurnāls, kas tiks izmantots nolietojuma reģistrēšanai.
-3. Atlasiet **Žurnāli \> Līdzekļu nomas žurnāli**, lai atvērtu lapu **Līdzekļu nomas žurnāls**, kur varat skatīt izveidoto nolietojuma izdevumu žurnāla ierakstu.
-
-   Sistēma bloķē noteiktus finanšu laukus, lai novērstu novirzes starp darbībām un grafikiem. Dažos bloķētos laukos ir iekļauts: **Konts**, **Summa**, **Finanšu dimensijas**, **Valūta** un **Darbības tips**. Turklāt nevarēsit pievienot vai dzēst žurnāla ierakstu rindas jebkurās Pamatlīdzekļu izlaižot žurnāla ierakstos, jo tas var izraisīt novirzes starp grafikiem un darbībām.
-
+3. Atlasiet **Žurnāli \>Līdzekļu nomas žurnāli**, lai atvērtu lapu **Līdzekļu nomas žurnāls**, kur varat skatīt izveidoto nolietojuma izdevumu žurnāla ierakstu.
 4. Atlasiet žurnāla ierakstu un pēc tam atlasiet **Grāmatot**, lai ierakstītu nolietojuma ierakstu Virsgrāmatā.
 
 ## <a name="calculation-of-rou-asset-amortization-expense-for-operating-leases"></a>LLT amortizācijas izdevumu aprēķins operatīvajām nomām
@@ -71,8 +69,6 @@ Kā iepriekš minēts, taisnvirziena nomas izdevumus aprēķina kā visu maksāj
 > [!NOTE]
 > Saskaņā ar ASC 842, LLT nolietojums operatīvai nomai tiek klasificēts kā nomas izdevumi peļņas vai zaudējumu aprēķinā. Redzamībai tlīdzekļu noma apraksta ierakstu kā LLT nolietojumu. Tomēr debeta ieraksts ir jāpiešķir operatīvās nomas izdevumu kontam, un kredīta ieraksts ir jāpiešķir tieši operatīvas nomas LLT. Nomas parametros var norādīt, ka uzkrātā nolietojuma kontā LLT līdzekļiem ir jāizveido kredīta ieraksti.
 
-Ja noma ir klasificēta kā operācijas noma, ikmēneša nolietojums pēc pasliktināšanās tiks aprēķināts, izmantojot lineāro nolietojumu.
-
 ## <a name="calculation-of-rou-asset-amortization-expense-for-finance-leases"></a>LLT amortizācijas izdevumu aprēķins finanšu nomām
 
 Nomām, kam ir finanšu klasifikācija, sistēma aprēķina LLT nolietojumu, pamatojoties uz lineāro. Tāpēc nolietojuma izdevumi būs vienādi katram mēnesim.
@@ -90,6 +86,3 @@ Saskaņā ar starptautisko finanšu pārskatu standartu 16 (IFRS 16) un ASC 842,
 | 1                                    | 22 889,87 ÷ 24 = 953,74                 |
 | 2                                    | 22 889,87 ÷ 24 = 953,74                 |
 | 3                                    | 22 889,87 ÷ 24 = 953,74                 |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

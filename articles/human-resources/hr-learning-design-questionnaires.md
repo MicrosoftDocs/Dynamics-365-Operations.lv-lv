@@ -1,31 +1,30 @@
 ---
-title: Anketu projektēšana
+title: Anketu izveide
 description: Šajā rakstā ir aprakstīts anketas izveidošanas process. Pirmā darbība anketas plānošana. Kad plānojat anketu, jūs ne tikai rakstāt jautājumus un atbildes, bet arī izveidojat struktūru, kas atbildes ļauj ierakstīt uz sakārtot.
 author: andreabichsel
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KCMCollectionType, KMAnswerCollection, KMCollection, HcmLearningWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 17341
 ms.assetid: b27e2f12-c7a0-4a54-b8d8-17819f8a1c72
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: da4250b281438c29c82150af8db9cb8cca41c6c9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c2a8c156aa75b02b69da3ee70a1ee60ea9d73a8aa67c70babdaaad88d6eb81f4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419609"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755568"
 ---
-# <a name="design-questionnaires"></a>Anketu projektēšana
+# <a name="create-questionnaires"></a>Anketu izveide
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Šajā rakstā ir aprakstīts anketas izveidošanas process. Pirmā darbība anketas plānošana. Kad plānojat anketu, jūs ne tikai rakstāt jautājumus un atbildes, bet arī izveidojat struktūru, kas atbildes ļauj ierakstīt uz sakārtot. 
 
@@ -91,9 +90,9 @@ Numuru sēriju kodi tiek izmantoti, lai kārtotu jautājumus un atbildes. Pamato
 Lai varētu izveidot savus datus, jums ir jādefinē visi parametri. Anketas parametru iestatījumus varat modificēt jebkurā laikā.
 
 ## <a name="questionnaire-components"></a>Anketas komponenti
-Anketas ietver trīs galvenos elementus: atbilžu grupas, kas ietver atbildes uz jautājumiem ar atbilžu variantiem, jautājumus un pašu anketu.  Pēc izvēles varat grupēt aptaujas jautājumus rezultātu grupās. Rezultātu grupas jums ļauj jautājumus dalīt kategorijās un sniegt papildu analīzi par anketu. 
+Anketas ietver trīs galvenos elementus: atbilžu grupas, kas ietver atbildes uz jautājumiem ar atbilžu variantiem, jautājumus un pašu anketu. Pēc izvēles varat grupēt aptaujas jautājumus rezultātu grupās. Rezultātu grupas jums ļauj jautājumus dalīt kategorijās un sniegt papildu analīzi par anketu. 
 
-[![QuestionnaireComponents](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
+[![QuestionnaireComponents.](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
 ### <a name="answer-groups-and-answers"></a>Atbilžu grupas un atbildes
 
@@ -236,3 +235,5 @@ Lai anketas jautājumu hierarhijas izveidošanai izmantotu nosacījuma jautājum
 Juridiskā persona saviem klientiem piedāvā gan preces, gan pakalpojumus. Kā parasti notiek šādos gadījumos, daži klienti iegādājas tikai preces, daži iegādājas tikai pakalpojumus, un daži iegādājas gan preces, gan pakalpojumus. Līdz ar to, kad juridiskā persona izplata klientu apmierinātības aptauju, tā anketai lieto nosacījuma struktūru, lai klientiem, kas iegādājas tikai pakalpojumus, nevajadzētu atbildēt uz jautājumiem par precēm. 
 
 Alternatīvi varat iestatīt anketu tā, lai gadījumā, ja respondents 1. jautājumam atlasa atbildi A, tad anketas secībā nākamais ir 2. jautājums. Taču, ja respondents 1. jautājumam atlasa atbildi B, nākamais tiek rādīts 5. jautājums.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

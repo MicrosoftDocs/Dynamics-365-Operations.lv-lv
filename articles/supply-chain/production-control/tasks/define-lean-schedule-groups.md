@@ -1,28 +1,25 @@
 ---
 title: Racionālās plānošanas grupu definēšana
 description: Racionālās plānošanas grupas tiek definētas, lai grupētu un izšķirtu preces Kanban plānošanā.
-author: cvocph
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanScheduleGroup, GanttColorTableLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a9ad470d81d94a0af1c4c4dc6c5072354cfd96d2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c9d16c0d3192773c32c8dcc57a430607c6b60f97
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432480"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574453"
 ---
 # <a name="define-lean-schedule-groups"></a>Racionālās plānošanas grupu definēšana
 
@@ -56,3 +53,6 @@ Racionālās plānošanas grupas tiek definētas, lai grupētu un izšķirtu pre
 3. Laukā Krājumu sadalījuma princips noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
 4. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

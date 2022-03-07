@@ -1,6 +1,6 @@
 ---
 title: Attēlu fokusa punktu pielāgošana
-description: Šajā tēmā ir aprakstīts, kā pielāgot attēla fokusa punktus programmas Microsoft Dynamics 365 Commerce vietnes veidotājā.
+description: Šajā tēmā aprakstīts, kā pielāgot attēla fokusa punktus Microsoft Dynamics 365 Commerce vietnes veidotājā.
 author: psimolin
 manager: annbe
 ms.date: 04/14/2020
@@ -10,7 +10,6 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,18 +17,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b20fbc20f18243c712595795a0b16ae417e755e6
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: fca209c9827192f50c2f1a5bd9e78146214e1e0e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594336"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222565"
 ---
 # <a name="customize-image-focal-points"></a>Attēlu fokusa punktu pielāgošana
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā pielāgot attēla fokusa punktus programmas Microsoft Dynamics 365 Commerce vietnes veidotājā.
+Šajā tēmā aprakstīts, kā pielāgot attēla fokusa punktus Microsoft Dynamics 365 Commerce vietnes veidotājā.
 
 ## <a name="overview"></a>Pārskats
 
@@ -60,3 +59,6 @@ Lai definētu pielāgotu attēla fokusa punktu, veiciet šīs darbības.
 [Attēlu apgriešana](dam-crop-images.md)
 
 [Augšupielādēt un apkalpot statiskos failus](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

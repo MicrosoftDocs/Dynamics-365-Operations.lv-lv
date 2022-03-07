@@ -1,81 +1,119 @@
 ---
-title: Mazumtirdzniecības transakciju konsekvences pārbaudītājs
-description: Šajā tēmā ir aprakstīta transakciju konsekvences pārbaudītāja funkcionalitāte programmā Dynamics 365 Commerce.
-author: josaw1
-manager: AnnBe
-ms.date: 10/07/2020
+title: Veikala transakciju apstiprināšana pārskata aprēķinam
+description: Šajā tēmā ir aprakstīta veikala transakciju apstiprināšanas funkcionalitāte produktā Microsoft Dynamics 365 Commerce.
+author: analpert
+ms.date: 12/15/2021
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
+ms.reviewer: v-chgriffin
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: josaw
+ms.author: analpert
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 3c7ca41b9e8a4c3127c98c756348959530a87996
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 008368ae32aa92682d578b75b148e0587fcc94e0
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459445"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924775"
 ---
-# <a name="retail-transaction-consistency-checker"></a>Mazumtirdzniecības transakciju konsekvences pārbaudītājs
+# <a name="validate-store-transactions-for-statement-calculation"></a>Veikala transakciju apstiprināšana pārskata aprēķinam
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīta transakciju konsekvences pārbaudītāja funkcionalitāte programmā Microsoft Dynamics 365 Commerce. Konsekvences pārbaudītājs identificē un izolē nekonsekventas transakcijas, pirms tās ir uzņemtas pārskatu grāmatošanas procesā.
+Šajā tēmā ir aprakstīta veikala transakciju apstiprināšanas funkcionalitāte produktā Microsoft Dynamics 365 Commerce. Apstiprināšanas process identificē un atzīmē tās transakcijas, kas izraisīs grāmatošanas kļūdas, pirms šīs transakcijas izvēlas pārskata grāmatošanas process.
 
-Kad pārskats tiek grāmatots, grāmatošana var būt nesekmīga, jo tirdzniecības transakciju tabulās pastāv nekonsekventi dati. Šādu datu kļūmi var izraisīt neparedzētas problēmas pārdošanas punkta (point of sale — POS) programmā, kā arī tā var rasties tad, ja transakcijas tiek nepareizi importētas no trešās puses POS sistēmām. Tālāk ir uzskaitīti daži no šādas nekonsekvences potenciālās rašanās piemēriem. 
+Mēģinot grāmatot pārskatu, apstiprināšanas process var neizdoties nekonsekventu datu dēļ Commerce transakciju tabulās. Šeit sniegti daži faktoru piemēri, kas var izraisīt šādas nekonsekvences:
 
 - Transakcijas kopsumma virsraksta tabulā neatbilst transakcijas kopsummai rindās.
-- Rindu skaits virsraksta tabulā neatbilst rindu skaitam transakcijas tabulā.
+- Vienumu skaits, kas norādīts virsraksta tabulā, neatbilst vienumu skaitam transakcijas tabulā.
 - Nodokļi virsraksta tabulā neatbilst nodokļu summai rindās. 
 
-Kad pārskatu grāmatošanas process uzņem nekonsekventas transakcijas, tiek izveidoti nekonsekventi pārdošanas rēķini un maksājumu žurnāli, līdz ar to viss pārskata grāmatošanas process ir nesekmīgs. Lai atkoptu pārskatus no šāda stāvokļa, ir jāizmanto sarežģīti datu labojumi vairākās transakciju tabulās. Transakciju konsekvences pārbaudītājs neļauj šādu problēmu rašanos.
+Kad pārskatu grāmatošanas process uzņem nekonsekventas transakcijas, izveidotie pārdošanas rēķini un maksājumu žurnāli var izraisīt pārskata grāmatošanas neveiksmi. Process **Veikala transakciju apstiprināšana** novērš šīs problēmas, nodrošinot, ka tikai transakcijas, kas atbilst transakciju apstiprināšanas kārtulām, tiek pievienotas transakciju pārskata aprēķināšanas procesam.
 
-Nākamajā diagrammā ir parādīts grāmatošanas process ar transakciju konsekvences pārbaudītāju.
+Tālāk esošajā attēlā redzami periodiskie dienas laika procesi transakciju augšupielādei, transakciju apstiprināšanai un transakciju pārskatu aprēķināšanai un grāmatošanai, kā arī finanšu pārskata aprēķināšanas un grāmatošanas dienas beigu procesi.
 
-![Pārskatu grāmatošanas process ar darījumu konsistences pārbaudītāju](./media/validchecker.png "Pārskatu grāmatošanas process ar mazumtirdzniecības transakciju konsekvences pārbaudītāju")
+![Attēls, kurā redzami periodiskie dienas laika procesi transakciju augšupielādei, transakciju apstiprināšanai un transakciju pārskatu aprēķināšanai un grāmatošanai, kā arī finanšu pārskata aprēķināšanas un grāmatošanas dienas beigu procesi.](./media/valid-checker-statement-posting-flow.png)
 
-Pakešveida apstrādes process **Pārbaudīt veikala transakcijas** pārbauda tirdzniecības transakciju tabulu konsekvenci tālāk norādītajos scenārijos.
+## <a name="store-transaction-validation-rules"></a>Veikala transakciju apstiprināšanas kārtulas
 
-- **Debitora konts** — pārbauda, vai attiecīgais debitora konts pastāv galvenā birojā debitoru pamatfaila transakciju tabulās.
-- **Rindu skaits** — pārbauda, vai transakciju virsrakstu tabulā norādītais rindu skaits atbilst pārdošanas transakciju tabulu rindu skaitam.
-- **Cenā iekļauts nodoklis** — pārbauda, vai parametrs **Cenā iekļauts nodoklis** ir konsekvents transakciju rindās un cena pārdošanas rindā atbilst konfigurācijai par cenu, kurā iekļauts nodoklis, un nodokļu atvieglojumiem.
-- **Maksājuma summa** — pārbauda, vai maksājumu ieraksti atbilst maksājuma summai galvenē, ņemot vērā arī noapaļošanas konfigurāciju Virsgrāmatā.
-- **Bruto summa** — pārbauda, vai bruto summa galvenē ir rindu neto summu un nodokļu summa, ņemot vērā arī noapaļošanas konfigurāciju Virsgrāmatā.
-- **Neto summa** — pārbauda, vai neto summa galvenē ir rindu neto summa, ņemot vērā arī noapaļošanas konfigurāciju Virsgrāmatā.
-- **Nepilnīgs maksājums/pārmaksa** — pārbauda, vai galvenē iekļautās bruto summas un maksājuma summas starpība nepārsniedz maksimālo konfigurēto nepilnīga maksājuma/pārmaksas summu, ņemot vērā arī noapaļošanas konfigurāciju Virsgrāmatā.
-- **Atlaides summa** — pārbauda, vai atlaižu tabulās un mazumtirdzniecības transakciju rindu tabulās norādītās atlaides summas ir konsekventas un vai virsrakstā iekļautā atlaides summa un rindās iekļautās atlaižu summas ir konsekventas, ņemot vērā arī noapaļošanas konfigurāciju Virsgrāmatā.
-- **Rindas atlaide** — pārbauda, vai transakcijas rindas atlaides summa ir visu atlaižu tabulas rindu summa, kas atbilst transakcijas rindai.
-- **Dāvanu kartes krājums** — risinājumā Commerce netiek atbalstīta dāvanu karšu krājumu atgriešana. Tomēr dāvanu kartes atlikums var tikt izmaksāts skaidrā naudā. Visi tie dāvanu kartes krājumi, kas tiek apstrādāti kā atgriešanas rinda, nevis skaidras naudas izņemšanas rinda, netiek iekļauti grāmatošanas procesā. Palaižot dāvanu karšu krājumu pārbaudes procesu, tiek nodrošināts, ka transakciju tabulās tiek atgriezti tikai tie dāvanu karšu rindas krājumi, kuri ir dāvanu karšu skaidras naudas izmaksas rindas.
-- **Negatīva cena** — pārbauda, vai nav nevienas transakciju rindas ar negatīvu cenu.
-- **Krājums un variants** — pārbauda, vai transakcijas rindas krājumi un varianti pastāv krājumu un variantu pamatfailā.
-- **Nodokļu summa** — pārbauda nodokļu ierakstu atbilstību rindās norādītajām nodokļu summām.
-- **Sērijas numurs** — pārbauda, vai sērijas numurs atrodas transakciju rindās krājumiem, kas tiek kontrolēti pēc sērijas numura.
-- **Zīme** — pārbauda, vai daudzuma un neto summas zīme ir vienāda visās transakciju rindās.
-- **Darbadiena** — pārbauda, vai finanšu periodi visām transakciju darbadienām ir atvērti.
-- **Maksas** — pārbauda, vai maksas summa galvenē un rindā atbilst cenai, tostarp arī nodokļu un nodokļu atvieglojumu konfigurācijai.
-
-## <a name="set-up-the-consistency-checker"></a>Konsekvences pārbaudītāja iestatīšana
-
-Sadaļā **Retail un Commerce \> Retail un Commerce IT \> POS grāmatošana** konfigurējiet pakešveida apstrādes procesu “Validēt veikala transakcijas” tā, lai tas tiktu palaists regulāri. Pakešuzdevumu var plānot atkarībā no veikala organizācijas hierarhijas, līdzīgi kā tiek iestatīti procesi “Aprēķināt pārskatu partijā” un “Grāmatot pārskatu partijā”. Iesakām šo pakešuzdevumu konfigurēt tā, lai dienas laikā tas tiktu izpildīts vairākas reizes, un to ieplānot tā, lai tas tiktu izpildīts katras P darba izpildes beigās.
-
-## <a name="results-of-validation-process"></a>Validēšanas procesa rezultāti
-
-Šī pakešuzdevuma validēšanas pārbaudes rezultāti tiek atzīmēti atbilstošajā transakcijā. Lauks **Validācijas statuss** transakcijas ierakstā ir iestatīts uz **Sekmīgs** vai **Kļūda**, un pēdējās validēšanas izpildes datums ir redzams laukā **Pēdējās validēšanas laiks**.
-
-Lai redzētu aprakstošāku kļūdas tekstu saistībā ar validēšanas kļūmi, atlasiet attiecīgo veikala transakcijas ierakstu un noklikšķiniet uz pogas **Validācijas kļūdas**.
-
-Uz pārskatiem netiek nogādātas transakcijas, kam validācijas pārbaude ir nesekmīga, un transakcijas, kas vēl nav validētas. Procesa “Aprēķināt pārskatu” laikā lietotājiem tiek ziņots, vai pastāv transakcijas, kas varēja tikt ietvertas pārskatā, bet netika tajā ietvertas.
-
-Ja tiek atrasta kāda validācijas kļūda, vienīgais veids, kā šo kļūdu novērst, ir sazināties ar Microsoft atbalsta dienestu. Turpmākajos laidienos tiks pievienota iespēja lietotājiem izlabot nesekmīgos ierakstus, izmantojot lietotāja interfeisu. Kļūs pieejamas arī reģistrēšanas un auditēšanas iespējas, lai izsekotu modifikāciju vēsturi.
+Pakešveida apstrāde **Veikala transakciju apstiprināšana** pārbauda Commerce transakciju tabulu konsekvenci, pamatojoties uz šīm apstiprināšanas kārtulām.
 
 > [!NOTE]
-> Kādā no turpmākajiem laidieniem tiks pievienotas papildu validēšanas kārtulas, lai atbalstītu vairāk scenāriju.
+> Apstiprināšanas kārtulu pievienošana turpināsies nākamajos laidienos.
+
+### <a name="transaction-header-validation-rules"></a>Transakcijas virsraksta apstiprināšanas kārtulas
+
+Tālāk sniegtajā tabulā ir sniegtas transakcijas virsraksta apstiprināšanas kārtulas, kas ir pārbaudītas attiecībā pret mazumtirdzniecības transakciju virsrakstiem, pirms šīs transakcijas tiek pievienotas pārskata grāmatošanai.
+
+| Virsraksts | Apraksts |
+|-------|-------------|
+| Biznesa datums | Šī kārtula apstiprina, ka transakcijas biznesa datums virsgrāmatā ir saistīts ar atvērtu finanšu periodu. |
+| Valūtas noapaļošana | Šī kārtula apstiprina, vai transakcijas summas tiek noapaļotas atbilstoši valūtas noapaļošanas kārtulai. |
+| Debitora konts | Šī kārtula apstiprina, vai datu bāzē pastāv transakcijā izmantotais debitors. |
+| Atlaides summa | Šī kārtula apstiprina, vai virsrakstā iekļautā atlaides summa ir līdzvērtīga rindu atlaides summai. |
+| Finanšu dokumenta grāmatošanas statuss (Brazīlija) | Šī kārtula apstiprina, vai finanšu dokumentu var sekmīgi grāmatot. |
+| Bruto summa | Šī kārtula apstiprina, vai transakcijas virsrakstā iekļautā bruto summa atbilst transakcijas rindu neto summai ar nodokļiem, kam pieskaitītas izmaksas. |
+| Neto | Šī kārtula apstiprina, vai transakcijas virsrakstā iekļautā neto summa atbilst transakcijas rindu neto summai bez nodokļiem, kam pieskaitītas izmaksas. |
+| Neto + nodoklis | Šī kārtula apstiprina, vai transakcijas virsrakstā iekļautā bruto summa atbilst transakcijas rindu neto summai bez nodokļiem, kam pieskaitīti visi nodokļi un izmaksas. |
+| Vienumu skaits | Šī kārtula apstiprina, vai vienumu skaits, kas norādīts transakcijas galvenē, atbilst vienumu summai transakcijas rindās. |
+| Maksājuma summa | Šī kārtula apstiprina, ka maksājuma summa transakcijas virsrakstā atbilst visu maksājuma transakciju summai. |
+| Nodokļa atbrīvojuma aprēķināšana | Šī kārtula apstiprina, ka aprēķinātā daudzuma summa un no nodokļiem atbrīvotā maksas rindu summa ir vienāda ar sākotnēji aprēķināto summu. |
+| Izcenojumā iekļauts nodoklis | Šī kārtula apstiprina, vai **Nodoklis ir iekļauts cenā** karodziņš ir konsekvents visā transakcijas galvenē un nodokļu transakcijās. |
+| Transakcija nav tukša | Šī kārtula apstiprina, vai transakcija satur rindas un vismaz viena rinda nav tukša. |
+| Nepilnīgs maksājums/pārmaksa | Šī kārtula apstiprina, vai bruto summas un maksājuma summas starpība nepārsniedz maksimālo konfigurēto nepilnīga maksājuma/pārmaksas summu. |
+
+### <a name="transaction-line-validation-rules"></a>Transakcijas rindu apstiprināšanas kārtulas
+
+Tālāk sniegtajā tabulā ir sniegtas transakcijas rindas apstiprināšanas kārtulas, kas ir pārbaudītas attiecībā pret mazumtirdzniecības transakciju rindu informāciju, pirms šīs transakcijas tiek pievienotas pārskata grāmatošanai.
+
+| Virsraksts | Apraksts |
+|-------|-------------|
+| Svītrkods | Šī kārtula apstiprina, vai visi vienumu svītrkodi, kas tiek izmantoti transakciju rindās, pastāv datu bāzē. |
+| Maksu rindas | Šī kārtula apstiprina, ka aprēķinātā daudzuma summa un no nodokļiem atbrīvotā maksas rindu summa ir vienāda ar sākotnēji aprēķināto summu. |
+| Dāvanu kartes atgriešana | Šī kārtulā apstiprina, vai transakcijā nav dāvanu karšu atgriešanas. |
+| Vienuma variants | Šī kārtula apstiprina, vai visi vienumi un visi to varianti, kas tiek izmantoti transakciju rindās, pastāv datu bāzē. |
+| Rindas atlaide | Šī kārtula apstiprina, vai rindas atlaides summa atbilst atlaižu transakciju summai. |
+| Rindas nodoklis | Šī kārtula apstiprina, vai rindas nodokļa summa atbilst nodokļu transakciju summai. |
+| Negatīva cena | Šī kārtula apstiprina, vai transakciju rindās netiek izmantotas negatīvas cenas. |
+| Sērijas numura kontrole | Šī kārtula apstiprina, vai sērijas numurs atrodas transakcijas rindā tiem vienumiem, kas tiek kontrolēti pēc sērijas numura. |
+| Sērijas numura dimensija | Šī kārtula apstiprina, vai nav norādīts sērijas numurs, ja vienuma sērijas numura dimensija nav aktīva. |
+| Zīmju pretruna | Šī kārtula apstiprina, vai daudzuma un neto summas zīme ir vienāda visās transakciju rindās. |
+| Ar nodokli neapliekams | Šī kārtula apstiprina, ka rindas vienuma cenas summa un no nodokļiem atbrīvotā maksas rindu summa ir vienāda ar sākotnējo cenu. |
+| Nodokļu grupas piešķire | Šī kārtula apstiprina, ka pārdošanas nodokļu grupas un vienumu nodokļu grupas kombinācija rada derīgu nodokļu krustošanos. |
+| Mērvienības pārvēršana | Šī kārtula apstiprina, ka visu rindu mērvienības ir derīgas pārvēršanai vienumu mērvienībās. |
+
+## <a name="enable-the-store-transaction-validation-process"></a>Veikala transakciju apstiprināšanas procesa iespējošana
+
+Konfigurējiet darbu **Apstiprināt veikala transakcijas** periodiskai izpildei komponentā Commerce Headquarters (**Retail un Commerce \> Retail un Commerce IT \> POS grāmatošana**). Pakešuzdevums ir ieplānots, ņemot vērā veikala organizācijas hierarhiju. Mēs iesakām jums konfigurēt šo pakešveida apstrādi, lai tā tiktu izpildīta tikpat bieži kā jūsu **P-darba** un **Transakciju pārskata aprēķina** pakešuzdevumi.
+
+## <a name="results-of-the-validation-process"></a>Apstiprināšanas procesa rezultāti
+
+Katras **Veikala transakciju apstiprināšanas** pakešveida apstrādes rezultātus var skatīt par katru mazumtirdzniecības veikala transakciju. Lauks **Apstiprināšanas statuss** transakcijas ierakstā tiek iestatīts kā **Sekmīgs**, **Kļūda** vai **Nav**. Laukā **Pēdējās apstiprināšanas laiks** redzams pēdējās apstiprināšanas izpildes datums.
+
+Tālāk esošajā tabulā ir aprakstīts katrs apstiprināšanas statuss.
+
+| Apstiprināšanas statuss | Apraksts |
+|-------------------|-------------|
+| Sekmīgs | Izpildītas visas iespējotās apstiprināšanas kārtulas. |
+| Kļūda | Iespējota apstiprināšanas kārtula ir konstatējusi kļūdu. Plašāku informāciju par kļūdu var skatīt, darbību rūtī atlasot **Apstiprināšanas kļūdas**. |
+| Nav | Transakcijas veidam nav nepieciešams, lai tiktu lietotas apstiprināšanas kārtulas. |
+
+![Veikala transakciju lapa, kurā tiek rādīts lauks Apstiprināšanas statuss un poga Apstiprināšanas kļūdas.](./media/valid-checker-validation-status-errors.png)
+
+Transakciju pārskatos tiks iekļautas tikai tās transakcijas, kuru apstiprināšanas statuss ir **Sekmīgs**. Lai skatītu transakcijas ar statusu **Kļūda**, pārskatiet elementu **Skaidras naudas un pārvedumu apstiprināšanas kļūmes** darbvietā **Veikala finanses**.
+
+![Elementi darbvietā Veikala finanses.](./media/valid-checker-cash-carry-validation-failures.png)
+
+Papildinformāciju par to, kā novērst skaidras naudas un pārvedumu apstiprināšanas kļūmes, skatiet sadaļā [Transakciju, kas saistītas ar pārdošanu skaidrā naudā bez piegādes, un skaidras naudas pārvaldības darījumu rediģēšana un auditēšana](edit-cash-trans.md).
+
+## <a name="additional-resources"></a>Papildu resursi
+
+[Transakciju, kas saistītas ar pārdošanu skaidrā naudā bez piegādes, un skaidras naudas pārvaldības darījumu rediģēšana un auditēšana](edit-cash-trans.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

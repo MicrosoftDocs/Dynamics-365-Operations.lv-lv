@@ -1,12 +1,10 @@
 ---
 title: Mērķa elementi
 description: Šajā tēmā izskaidrots, kā iegūt pārskatu par mērķa elementiem līdzekļu pārvaldībā.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 09/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: eb22c5b604f9bc7aacad014385b036e78d9110e6
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: c2d08781ff75b2435e9b71531ce77a59dbee2d90e647087d7c2c58bb4b1227e1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017216"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772572"
 ---
 # <a name="target-entities"></a>Mērķa elementi
 
@@ -36,13 +34,13 @@ Darbvietā **Datu pārvaldība** varat apskatīt mērķa elementu kopsavilkumu, 
 
 2. Sadaļā **Importēt/eksportēt** klikšķiniet uz **Datu elementi**. 
 
-    ![1. attēls](media/01-data-management.png)
+    ![1. attēls.](media/01-data-management.png)
 
 3. Lapas **Mērķa elementi** filtrā meklējiet “līdzekļu pārvaldība” un nospiediet taustiņu Enter, lai skatītu ar līdzekļu pārvaldību saistīto elementu sarakstu.
 
     Attēlā redzama daļa no līdzekļu pārvaldības elementiem.
 
-   ![2. attēls](media/02-data-management.png)
+   ![2. attēls.](media/02-data-management.png)
 
 4. Atlasiet elementu un noklikšķiniet uz **Modificēt mērķa kartējumu**.
 
@@ -50,5 +48,8 @@ Darbvietā **Datu pārvaldība** varat apskatīt mērķa elementu kopsavilkumu, 
 
     Tālāk redzamajā attēlā tiek rādīta ar līdzekļu veidu elementu saistīto lauku vizualizācija.
 
-    ![3. attēls](media/03-data-management.png)
+    ![3. attēls.](media/03-data-management.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

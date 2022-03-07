@@ -2,22 +2,22 @@
 title: Kredīta pārvaldības iestatīšana
 description: Šajā tēmā aprakstīta iestatīšana, kas nepieciešams kredīta pārvaldībai.
 author: JodiChristiansen
-ms.date: 02/15/2022
+ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6977789b039c3e77e6d697e32bf4cac69c35a901
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
-ms.translationtype: MT
+ms.openlocfilehash: 9b9e756b678786d2c5a8c5bb9e890ce988090c09
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182458"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753672"
 ---
 # <a name="credit-management-setup"></a>Kredīta pārvaldības iestatīšana 
 
@@ -39,7 +39,7 @@ Varat aizturēt pārdošanas pasūtījumu, ja pasūtījumā norādītie apmaksas
 
 Ja apmaksas nosacījumu rangs ir aktīvs un pasūtījuma maksājuma nosacījumiem ir augstāks rangs nekā noklusējuma maksājuma nosacījumiem, pārdošanas pasūtījums tiks aizturēts.
 
-Lai iestatītu maksājuma nosacījumu rangu, dodieties uz Kredīta **un iekasēšanas Iestatījuma \>\> Kredīta vadības iestatījuma \> Ranga maksājumu nosacījumi**.  
+Lai iestatītu maksājuma nosacījumu rangus, dodieties uz lapu **Kredīts un iekasēšana \> Iestatījumi \> Kredīta pārvaldības iestatīšana \> Kārtot apmaksas nosacījumus**  
 
 ### <a name="ranking-settlement-discounts"></a>Norēķinu atlaižu kārtošanas pēc ranga
 
@@ -47,7 +47,7 @@ Varat aizturēt pārdošanas pasūtījumu, ja pasūtījumā norādītās norēķ
 
 Ja norēķinu atlaižu rangs ir aktīvs un ja norēķinu atlaidēm pasūtījumā ir augstāks rangs nekā debitora noklusējuma norēķinu atlaidēm, pārdošanas pasūtījums tiks aizturēts.
 
-Lai iestatītu maksājuma nosacījumu rangus, dodieties uz lapu **Kredīts un iekasēšana \> Iestatījumi \> Kredīta pārvaldības iestatīšana \>Kārtot apmaksas nosacījumus**  
+Lai iestatītu maksājuma nosacījumu rangus, dodieties uz lapu **Kredīts un iekasēšana \> Iestatījumi \> Kredīta pārvaldības iestatīšana \> Kārtot apmaksas nosacījumus**  
 
 ## <a name="reasons"></a>Iemesli
 
@@ -86,7 +86,7 @@ Jūs varat izveidot konta statusus lapā **Konta statusi** (**Kredīts un iekas�
 
 ## <a name="scoring-groups"></a>Vērtēšanas grupas
 
-Jūs variet iestatīt punktu **skaitīšanas grupas,** lai noteiktu riska faktorus un kritērijus, kas tiek izmantoti to mērīšanai. Kad informācija par debitoru tiek piemērota punktu skaitīšanas grupai, katram riska faktoram tiek aprēķināts rezultāts, un tas tiek izmantots, lai debitors tiktu pakļauts riska grupai. Riska grupu var izmantot, lai identificētu kredītspēju un automātiski aprēķinātu kredīta limitus.
+Varat iestatīt punktu skaitīšanas grupas, lai definētu riska faktorus un kritērijus, kas tiek izmantoti to novērtēšanai. Kad informācija par debitoru tiek piemērota punktu skaitīšanas grupai, katram riska faktoram tiek aprēķināts rezultāts, un tas tiek izmantots, lai debitors tiktu pakļauts riska grupai. Riska grupu var izmantot, lai identificētu kredītspēju un automātiski aprēķinātu kredīta limitus.
 
 Punktu skaitīšanas grupas varat izveidot lapā **Punktu skaitīšanas grupas** (**Kredīts un iekasēšana \> Iestatījumi \> Kredīta pārvaldības iestatījumi \> Risks \> Punktu skaitīšanas grupas**).
 

@@ -1,5 +1,5 @@
 ---
-title: Jaunumi vai izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.24. (2022. gada februāris)
+title: Dynamics 365 Supply Chain Management 10.0.24 priekšskatījums (2022. gada februāris)
 description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Supply Chain Management 10.0.24.
 author: kamaybac
 ms.date: 12/03/2021
@@ -10,20 +10,21 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: a254e20dd7fcc29ca520282b4bf9fcd903e4de58
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
-ms.translationtype: MT
+ms.openlocfilehash: 1b5742ddf7e5e2c5c32c446a0bde08f4964d6b95
+ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087554"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "7891866"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10024-february-2022"></a>Jaunumi vai izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.24. (2022. gada februāris)
+# <a name="preview-of-dynamics-365-supply-chain-management-10024-february-2022"></a>Dynamics 365 Supply Chain Management 10.0.24 priekšskatījums (2022. gada februāris)
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-Šī tēma uzskaita līdzekļus, kas ir vai nu jauni, vai kas ir mainīti programmas Microsoft Dynamics 365 Supply Chain Management versijā 10.0.24. Šai versijai ir būvējuma numurs 10.0.1084, un tas ir pieejams šeit:
+Šajā tēmā uzskaitīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti Microsoft Dynamics 365 Supply Chain Management versijas 10.0.24 priekšskatījumā. Šai versijai ir būvējuma numurs 10.0.1084, un tas ir pieejams šeit:
 
-- **Izlaiduma priekšskatījums:** 2021. gada decembris
+- **Izlaides priekšskatījums:** 2021. gada decembris
 - **Vispārēja laidiena (paša veikts atjauninājums) pieejamība:** 2022. gada janvāris
 - **Vispārēja laidiena (automātisks atjauninājums) pieejamība:** 2022. gada februāris
 
@@ -33,22 +34,22 @@ ms.locfileid: "8087554"
 
 | Līdzekļu apgabals | Funkcija | Papildinformācija | Iespējoja: |
 |---|---|---|---|
-| Dalītā hibrīda topoloģija | [Uzlabota noliktavas izpildes darba slodze uz mēroga vienībām](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/enhanced-warehouse-execution-workloads-scale-units) | [Noliktavas pārvaldības darba slodzes mākoņa un malas mēroga vienībām](../cloud-edge/cloud-edge-workload-warehousing.md) | Aktivizēts pēc noklusējuma. |
-| Dalītā hibrīda topoloģija | [Sāciet ražošanas pasūtījumu noliktavas pārvaldības darba slodzei mākoņa un malas mēroga vienībai](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/enhanced-manufacturing-execution-workloads-scale-units) | [Ražošanas izpildes darba slodzes mākoņa un malas mēroga vienībām](../cloud-edge/cloud-edge-workload-manufacturing.md) | Funkciju pārvaldība (*Sāciet ražošanas pasūtījumu noliktavas pārvaldības darba slodzei mākoņa un malas mēroga vienībai*)  |
-| Plānošana | [Plānošanas optimizācijas atbalsts atkārtotas pasūtījuma rezervei un izdošanas rezervei](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-reorder-margin-issue-margin) | [Drošības rezerves](../master-planning/planning-optimization/safety-margins.md) | Aktivizēts pēc noklusējuma. |
+| Dalītā hibrīda topoloģija | [Uzlabota noliktavas izpildes darba noslodze mēroga vienībās](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/enhanced-warehouse-execution-workloads-scale-units) | [Noliktavas pārvaldības darba slodzes mākoņa un malas mēroga vienībām](../cloud-edge/cloud-edge-workload-warehousing.md) | Aktivizēts pēc noklusējuma. |
+| Plānošana | [Plānošanas optimizācijas atbalsts atkārtota pasūtījuma uzcenojums un izejas plūsmas rezerve](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-reorder-margin-issue-margin) | [Drošības rezerves](../master-planning/planning-optimization/safety-margins.md) | Aktivizēts pēc noklusējuma. |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Šajā laidienā iekļautie līdzekļa uzlabojumi
 
 Šajā tabulā ir uzskaitīti šajā laidienā iekļautie līdzekļu uzlabojumi. Katrs no šiem papildinājumiem nodrošina inkrementālu uzlabojumu esošajai funkcijai. Tā kā tie ir tikai uzlabojumi, tie nav uzskaitīti [izlaišanas plānā](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features). Tomēr, lai nodrošinātu, ka šie uzlabojumi nenonāk pretrunā ar esošajiem pielāgojumiem vai preferencēm, katrs no tiem tiek izslēgts pēc noklusējuma (ja vien nav norādīts citādi).
 
-Ja vēlaties ieslēgt vai izslēgt kādu no šīm funkcijām, tas jādara iekšā [funkciju pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Ja vēlaties ieslēgt vai izslēgt jebkuru no šīm funkcijām, tas jādara līdzekļu [pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 | Modulis | Līdzekļa nosaukums līdzekļu pārvaldībā | Papildinformācija |
 |---|---|---|
-| Ražošanas kontrole | Ražošanas pasūtījumu materiālu pieejamības pārbaude pēc pieprasījuma | Šī funkcija ļauj ātrāk atvērt **Ražošanas pasūtījumi izlaišanai** lapa, kas ir pieejama no **Ražošanas grīdas vadība** darba vieta. Bez šīs funkcijas sistēma automātiski pārbauda, vai materiāli ir pieejami visiem uzskaitītajiem ražošanas pasūtījumiem, tiklīdz atverat lapu, kas var aizņemt ievērojamu laiku, ja jums ir liels pasūtījumu skaits. Kad šī funkcija ir iespējota, sistēma nodrošina rīkjoslas pogu, kuru varat izmantot, lai sāktu materiālu pārbaudi tikai atlasītajiem pasūtījumiem un vajadzības gadījumā. |
-| Ražošanas kontrole | (Priekšskatījums) Materiālu patēriņa reģistrācija ražotnes izpildes saskarnē (bez WMS) | Šī funkcija ļauj darbiniekiem izmantot ražošanas grīdas izpildes saskarni, lai reģistrētu materiālu patēriņu, partijas numurus un sērijas numurus. Šis līdzeklis atbalsta tikai preces, kurām nav iespējota uzlaboto noliktavas procesu (WMS) izmantošana. Nākotnē ir paredzēts atbalsts WMS iespējotiem vienumiem.<p>Dažiem ražotājiem, jo īpaši tiem, kas darbojas apstrādes rūpniecības nozarēs, ir skaidri jāreģistrē katrai partijai vai ražošanas pasūtījumam patērētā materiāla daudzums. Piemēram, darbinieki var izmantot svarus, lai nosvērtu darba laikā patērētā materiāla daudzumu. Lai nodrošinātu pilnīgu materiāla izsekojamību, šīm organizācijām arī jāreģistrē, kuri partijas numuri tika patērēti, ražojot katru produktu. |
-| Ražošanas kontrole | Ziņot kā par pabeigtu noliktavas pārvaldības darba slodzē mākoņa un malas mēroga vienībai | Šī funkcija ļaus darbiniekiem izmantot mobilo lietotni Noliktavas pārvaldība, lai ziņotu par ražošanas vai partijas pasūtījumu kā pabeigtu, kad lietotne darbojas saistībā ar noliktavas pārvaldības darba slodzi mākoņa vai malas mēroga vienībā. Papildinformāciju skatiet [Atskaitiet kā pabeigtu un novietojiet uz skalas vienības](../cloud-edge/cloud-edge-workload-manufacturing.md#RAF). |
-| Noliktavas vadība | Jaunas slodzes plānošanas darbgalda lapas | Iespējo divas jaunas slodzes plānošanas darbgalda lapas: **Ienākošās slodzes plānošanas darbgalds** un **Izejošās slodzes plānošanas darbgalds**. |
+| Ražošanas kontrole | Ražošanas pasūtījumu materiālu pieejamības pārbaude pēc pieprasījuma | Ar šo funkciju tiek ātrāk atvērta lapa Ražošanas pasūtījumi, kas ir **pieejama** ražošanas pārvaldības **darbvietā**. Bez šīs funkcijas sistēma automātiski pārbauda, vai materiāli ir pieejami visiem norādītajiem ražošanas pasūtījumiem, tiklīdz atverat lapu, kas var aizņemt nozīmīgu laiku, ja ir liels pasūtījumu skaits. Kad šī funkcija ir iespējota, sistēma tā vietā nodrošina rīkjoslas pogu, kuru varat izmantot, lai sāktu materiālu pārbaudi tikai atlasītajiem pasūtījumiem un, kad nepieciešams. |
+| Ražošanas kontrole | (Priekšskatījums) Materiālu patēriņa reģistrācija ražotnes izpildes saskarnē (bez WMS) | Šī funkcija ļauj darbiniekiem izmantot ražošanas izpildes interfeisu, lai reģistrētu materiālu patēriņu, partijas numurus un sērijas numurus. Šī funkcija atbalsta tikai tos krājumus, kas nav iespējoti papildu noliktavas procesu (WMS) izmantošanai. Atbalsts WMS iespējotiem krājumiem ir ieplānots turpmākajos laidienos.<p>Dažiem ražotājiem, it īpaši tiem, kas ietilpst procesa nozarēs, ir skaidri jāreģistrē par katru partiju vai ražošanas pasūtījumu patērēto materiālu daudzums. Piemēram, darbinieki var izmantot skalu, lai, sverot patērēto materiālu daudzumu, kad tie strādā. Lai nodrošinātu pilnīgu materiālu izsekošanu, šīm organizācijām jāreģistrē arī tie partijas numuri, kas patērēti, ražojot katru preci. |
+| Ražošanas kontrole | Pabeigt noliktavas pārvaldības darba noslodzi mākoņa un malas skalas vienībai | Izmantojot šo līdzekli, darbinieki izmanto mobilo programmu Noliktavas pārvaldība, lai ziņotu par ražošanas vai partijas pasūtījuma pabeigšanu, ja programma darbojas attiecībā pret noliktavas pārvaldības darba slodzi mākonī vai malas mēroga vienībā. Papildinformāciju skatiet [sadaļā "Ziņot, kā pabeigts" un "putaway" uz svaru](../cloud-edge/cloud-edge-workload-manufacturing.md#RAF) vienības. |
+| Ražošanas kontrole | Sākt noliktavas pārvaldības darba noslodzi noliktavas pārvaldības darba noslodzei, kas ir paredzēts mākoņa un malas mēroga vienībai | Izmantojot šo līdzekli, darbinieki var izmantot mobilo programmu Noliktavas pārvaldība, lai sāktu ražošanas vai partijas pasūtījumu, ja programma darbojas attiecībā pret noliktavas pārvaldības darba slodzi mākonī vai malas mēroga vienībā. |
+| Noliktavas vadība | Jaunas noslodzes plānošanas darba lapas | Iespējo divas jaunas noslodzes plānošanas darba lapas: ienākošās noslodzes plānošanas līdzeklis **un** **izejošās noslodzes plānošanas** līdzeklis. |
 
 ## <a name="new-and-updated-documentation-resources"></a>Jauni un atjaunināti dokumentācijas resursi
 
@@ -68,9 +69,9 @@ Nesen ir pievienotas vai ievērojami atjauninātas tālāk norādītās palīdz�
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Programmu Finance and Operations platformas atjauninājumi
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformas atjauninājumi Finance and Operations programmām
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.24 ietver platformas atjauninājumus. Lai uzzinātu vairāk, skatiet [Platformas atjauninājumi lietotņu Finance and Operations versijai 10.0.24 (2022. gada februāris)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.24 ietver platformas atjauninājumus. Lai iegūtu papildinformāciju, skatiet [Platformas atjauninājumi Finance and Operations programmu versijai 10.0.24 (2021. gada novembris)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md).
 
 ### <a name="bug-fixes"></a>Kļūdu labojumi
 

@@ -1,16 +1,14 @@
 ---
 title: Veikala atlasītāja modulis
-description: Šajā tēmā tiek stāstīts par veikala atlasītāja moduli un aprakstīts, kā to pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā aplūkots veikalu atlasītāja modulis un aprakstīts, kā to pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 09/15/2020
+ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,30 +16,49 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5400a2e743a78124dca4bf9be3ccaf7870ea8b7d
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
+ms.openlocfilehash: 22ec78c8e0545698f05f8f8ec261b5e927d698c7
+ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665276"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5853421"
 ---
-# <a name="store-selector-module"></a>Veikala atlasītāja modulis
+# <a name="store-selector-module"></a>Veikalu atlasītāja modulis
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā tiek stāstīts par veikala atlasītāja moduli un aprakstīts, kā to pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
+Šajā tēmā aplūkots veikalu atlasītāja modulis un aprakstīts, kā to pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 
 Klienti var izmantot veikala atlasītāja moduli, lai paņemtu preci atlasītajā veikalā pēc tiešsaistes pirkšanas. Commerce versijā 10.0.13 veikala atlasītāja modulis ietver arī papildu iespējas, kas var parādīt lapu **Atrast veikalu**, kurā redzami tuvumā esošie veikali.
 
 Veikala atlasītāja modulis ļauj lietotājiem meklēt veikalu rādiusu atrašanās vietu (pilsētu, rajonu, adresi utt.). Kad modulis tiek atvērts pirmo reizi, tas izmanto klienta pārlūka atrašanās vietu, lai atrastu veikalus (ja tiek nodrošināta atļauja).
 
-## <a name="store-selector-module-usage-in-e-commerce"></a>Veikala atlasītāja moduļa izmantošana e-komercijā
+## <a name="store-selector-module-usage"></a>Veikalu atlasītāja moduļa izmontošana
 
 - Veikala atlasītāja moduli var izmantot preču detalizētās informācijas lapā (PDP), lai atlasītu veikalu preces saņemšanai.
 - Veikala atlasītāja moduli var izmantot groza lapā, lai atlasītu veikalu preces saņemšanai.
 - Veikala atlasītāja moduli var izmantot savrupā lapā, kurā redzami visi pieejamie veikali.
+
+## <a name="fulfillment-group-setup-in-commerce-headquarters"></a>Izpildes grupas iestatīšana programmā Commerce Headquarters
+
+Lai veikala atlasītājs rādītu pieejamos veikalus, programmā Commerce Headquarters ir jāiestata izpildes grupa. Papildinformāciju skatiet tēmā [Izpildes grupu iestatīšana](customer-orders-overview.md#set-up-fulfillment-groups).
+
+Turklāt katram veikalam izpildes grupā galvenajā birojā ir jābūt definētam veikala atrašanās vietas platumam un garumam.
+
+Lai ievadītu veikala atrašanās vietas platumu un garumu programmā Commerce Headquarters, veiciet tālāk minētās darbības.
+
+1. Doties uz **Krājumu vadība \> Iestatījumi \> Noliktavu sadalījums**.
+1. Atlasiet noliktavas atrašanās vietu kreisajā rūtī.
+1. Kopsavilkuma cilnē **Adreses** atlasiet **Papildu**.
+
+    ![Veikala detalizētas informācijas piemērs galvenajā birojā](./media/Store-address.png)
+
+1. Darbību rūtī atlasiet **Rediģēt**.
+1. Kopsavilkuma cilnē **Vispārīgi** ievadiet vērtības **Platums** un **Garums**.
+
+    ![Veikala platuma un garuma iestatījuma piemērs galvenajā birojā](./media/Store-latitude-longitude.png)
+
+1. Darbību rūtī atlasiet **Saglabāt**. 
 
 ## <a name="bing-maps-integration"></a>Bing karšu integrācija
 
@@ -53,6 +70,7 @@ Automātiskā ieteikšanas REST API jums ir jānodrošina, ka ir atļauti šādi
 - **img-src** direktīvai pievienojiet **&#42;.virtualearth.net**.
 - **script-src** direktīvai **pievienojiet &#42;.bing.com, &#42;.virtualearth.net**.
 - **script style-src** direktīvai pievienojiet **&#42;.bing.com**.
+
  
 ## <a name="pickup-in-store-mode"></a>Saņemšana veikalā režīms
 
@@ -146,3 +164,6 @@ Lai konfigurētu veikala atlasītāja moduli, lai rādītu veikala atrašanās v
 [Bing karšu REST API](https://docs.microsoft.com/bingmaps/rest-services/)
 
 [Karšu modulis](map-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

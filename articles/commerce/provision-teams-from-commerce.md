@@ -2,9 +2,11 @@
 title: Microsoft Teams nodrošināšana no Dynamics 365 Commerce
 description: Šajā tēmā ir aprakstīts, kā nodrošināt Microsoft Teams, izmantojot organizācijas Dynamics 365 Commerce datus.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 03/31/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 715b18acb10edebafe60805393cbc16c5be513ef3605cf7a575ff98362443bb6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ba7c74942735b723d1015dc4da0068fbb631bc6b
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766437"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908908"
 ---
 # <a name="provision-microsoft-teams-from-dynamics-365-commerce"></a>Microsoft Teams nodrošināšana no Dynamics 365 Commerce
 
@@ -49,7 +51,7 @@ Lai nodrošinātu programmu Teams komponentā Commerce Headquarters, veiciet tā
 > [!TIP]
 > Ja neviens no jūsu reģionālajiem vadītājiem, veikalu vadītājiem un veikala darbiniekiem nav saistīts ar brigādes licenci, varat saņemt šādu kļūdas ziņojumu: "Neizdevās izgūt lietotājam atbildīgās sku kategorijas." Lai labotu problēmu, darbību rūtī atlasiet **Sinhronizēt grupas un dalībniekus**.
 
-<!-- ![Dynamics 365 Commerce - Teams integration configuration.](media/D365-Commerce-Microsoft-Teams-Configuration_with_disclaimer.png)-->
+<!-- ![Dynamics 365 Commerce - Teams integration configuration](media/D365-Commerce-Microsoft-Teams-Configuration_with_disclaimer.png)-->
 
 ## <a name="validate-teams-provisioning-in-the-teams-admin-center"></a>Pārbaudīt Teams nodrošinājumu Teams administrēšanas centrā
 
@@ -63,7 +65,7 @@ Lai apstiprinātu Microsoft Teams nodrošināšanu Microsoft Teams administrēš
 
 Šajā attēlā parādīts **Grupu pārvaldības** lapas piemērs Teams administrēšanas centrā.
 
-![Grupu pārvaldības lapas piemērs Grupu administrēšanas centrā.](media/Teams-FLW-Admin-Teams.png)
+![Grupu pārvaldības lapas piemērs Grupu administrēšanas centrā](media/Teams-FLW-Admin-Teams.png)
 
 ## <a name="upload-a-commerce-organizational-hierarchy-to-teams"></a>Augšupielādējiet organizācijas hierarhiju no Commerce uz Teams
     
@@ -73,9 +75,9 @@ Lai augšupielādētu Commerce organizācijas hierarhiju uz Teams, veiciet tāl�
     
 1. Dodieties uz **Mazumtirdzniecība un komercija \> Kanālu iestatījumi \> Microsoft Teams integrācijas konfigurācija**.
 1. Atlasiet **Lejupielādes mērķa hierarhija** un pēc tam atlasiet **Mazumtirdzniecības veikali pēc reģiona**, lai lejupielādētu komatatdalīto vērtību (CSV) failu organizācijas hierarhijā.
-1. Instalējiet Microsoft Teams PowerShell moduli, izpildot norādītās darbības sadaļā [Instalēt Microsoft Teams Power Shell](/microsoftteams/teams-powershell-install).
+1. Instalējiet Microsoft Teams PowerShell moduli, izpildot norādītās darbības sadaļā [Microsoft Teams Power Shell](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
 1. Kad tiek parādīta uzvedne Teams PowerShell logā, piesakieties, nomniekam izmantojot Azure AD administratora kontu.
-1. Sekojiet soļiem sadaļā [Iestatīt savas grupas mērķa hierarhiju](/microsoftteams/set-up-your-team-hierarchy), lai augšupielādētu CSV failu mērķa hierarhijai.
+1. Sekojiet soļiem sadaļā [Iestatīt savas grupas mērķa hierarhiju](https://docs.microsoft.com/microsoftteams/set-up-your-team-hierarchy), lai augšupielādētu CSV failu mērķa hierarhijai.
 
 ## <a name="verify-that-the-organizational-hierarchy-was-uploaded-to-teams"></a>Pārbaudiet, vai organizācijas hierarhija tika augšupielādēta Teams
 
@@ -86,7 +88,7 @@ Pārbaudiet, vai organizācijas hierarhija tika augšupielādēta Microsoft Team
 1. Cilnē **Publicētie saraksti** izveidojiet jaunu sarakstu, kam ir fiktīvs uzdevums.
 1. Atlasiet **Publicēt**. Organizācijas hierarhijai ir jābūt parādītai dialoglodziņā **Atlasīt, kas tiks publicēts**, kā parādīts piemērā šajā ilustrācijā.
 
-![Organizācijas hierarhijas piemērs dialoglodziņā Atlasīt, kas tiks publicēts.](media/Microsoft-teams-verify-org-hierarchy.png)
+![Organizācijas hierarhijas piemērs dialoglodziņā Atlasīt, kas tiks publicēts](media/Microsoft-teams-verify-org-hierarchy.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 

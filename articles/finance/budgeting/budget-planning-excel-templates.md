@@ -2,11 +2,9 @@
 title: Budžeta plānošanas veidnes programmai Excel
 description: Šajā tēmā ir aprakstīts, ka izveidot Microsoft Excel veidnes, ko var izmantot kopā ar budžeta plāniem.
 author: panolte
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanSetLayout
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 11c98768d08ef28d436bfc63812321e7c7787a72
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 9d4e901871267d4f11d9afefc873708663dbabd6
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019283"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190289"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Budžeta plānošanas veidnes programmai Excel
 
@@ -36,7 +34,7 @@ ms.locfileid: "5019283"
 
 Budžeta plāna dokumentus var skatīt un rediģēt, izmantojot vienu vai vairākus izkārtojumus. Ar katru izkārtojumu var būt saistīta budžeta plāna dokumenta veidne, lai šos budžeta plāna datus skatītu un rediģētu Excel darblapā. Šajā tēmā budžeta plāna dokumenta veidne tiks ģenerēta, izmantojot jau esošu izkārtojuma konfigurāciju. 
 
-1. Atveriet sadaļu **Budžeta plānu saraksts** (**Budžeta veidošana** &gt; **Budžeta plāni**). 
+1. Atveriet sadaļu **Budžeta plānu saraksts** (**Budžeta veidošana** &gt; **Budžeta plāni**). 
 2. Noklikšķiniet uz **Jauns**, lai izveidotu jaunu budžeta plāna dokumentu. 
 
    [![Budžeta plānu saraksts](./media/bpt11-1024x552.png)](./media/bpt11.png) 
@@ -68,8 +66,7 @@ Ar kursoru norādiet uz vēlamo vietu Excel failā. Noklikšķiniet uz **Pievien
 
 ## <a name="select-add-valuemediabpt7png"></a>[![Atlasīt Pievienot vērtību](./media/bpt7.png)](./media/bpt7.png)
 
-<a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Pievienot aprēķinātu kolonnu budžeta plāna dokumenta veidnes tabulai
---------------------------------------------------------------
+## <a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Pievienot aprēķinātu kolonnu budžeta plāna dokumenta veidnes tabulai
 
 Pēc tam ģenerētajai budžeta plāna dokumenta veidnei tiks pievienotas aprēķinātas kolonnas. Kolonna **Kopējais pieprasījums**, kurā ir kolonnu Pieprasījums Q1: Pieprasījums Q4 summa, un kolonna **Korekcija**, kas kolonnu **Kopējais pieprasījums** pārrēķina pēc sākotnēji definēta koeficienta.
 
@@ -86,7 +83,7 @@ Atlasītajā lauku grupā tiek rādītas veidnē pieejamās kolonnas. Noklikšķ
 
 Atkārtojiet šīs darbības, lai ievietotu kolonnu **Korekcija**. Šai kolonnai izmantojiet formulu = AxTable1\[Kopējais pieprasījums\]\*$I$1. Šādi šūnā I1 esošā vērtība tiks izmantota reizināšanai ar vērtībām kolonnā **Kopējais pieprasījums**, lai aprēķinātu korekcijas summas.
 
-Saglabājiet un aizveriet Excel failu. Sadaļā **Izkārtojumi** noklikšķiniet uz **Veidne &gt; Augšupielādēt**, lai saglabāto Excel veidni augšupielādētu lietošanai budžeta plānā. 
+Saglabājiet un aizveriet Excel failu. Sadaļā **Izkārtojumi** noklikšķiniet uz **Veidne &gt; Augšupielādēt**, lai saglabāto Excel veidni augšupielādētu lietošanai budžeta plānā. 
 
 [![Augšupielādēt Excel veidni](./media/bpt10-1024x352.png)](./media/bpt10.png) 
 
@@ -129,3 +126,6 @@ Varat arī izveidot un lietot rakurstabulas un diagrammas budžeta datu papildu 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

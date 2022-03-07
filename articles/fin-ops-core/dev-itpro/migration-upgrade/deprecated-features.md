@@ -2,11 +2,9 @@
 title: Noņemtie vai novecojuši līdzekļi iepriekšējos laidienos
 description: Šajā tēmā ir aprakstīti līdzekļi, kas ir noņemti vai kuri tika plānoti noņemšanai no Dynamics 365 for Finance and Operations un iepriekšējiem šīs preces laidieniem.
 author: sericks007
-manager: AnnBe
-ms.date: 09/21/2020
+ms.date: 02/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,21 +14,21 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ce6b3fb5217ad5d5228841a91d0b0406c305969
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 6dfe1cf9d3d67c6b65f64248d48a2e7420a47c93
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679960"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063241"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Noņemtie vai novecojuši līdzekļi iepriekšējos laidienos
 
 [!include [banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 > [!IMPORTANT]
-> Šī tēma vairs netiek atjaunināta. Lai skatītu pašreizējo to līdzekļu sarakstu, kuri ir noņemti vai novecojuši Finance and Operations programmās, meklējiet saturu **"Noņemti vai novecojuši līdzekļi"** saturu, kas attiecas uz izmantoto programmu.
+> Šī tēma vairs netiek atjaunināta. Lai skatītu pašreizējo to līdzekļu sarakstu, kas ir noņemti vai novecojuši no Finance and Operations programmām, meklējiet **saturu "Noņemtie vai novecojušie līdzekļi"**, kas attiecas uz jūsu izmantoto lietotni.
 
 Šajā tēmā ir aprakstīti līdzekļi, kas ir noņemti vai novecojuši programmā Dynamics 365 for Finance and Operations un iepriekšējos šīs preces laidienos.
 
@@ -39,7 +37,7 @@ ms.locfileid: "4679960"
 
 Šis saraksts ir izveidots, lai jūs savā plānošanā varētu ņemt vērā, kuri līdzekļi tiek noņemti un kļūst novecojuši. 
 
-Detalizēta informācija par Finance and Operations programmu objektiem ir pieejama tēmā [Tehniskās atsauces pārskati](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Varat salīdzināt dažādās šo pārskatu versijas, lai noskaidrotu, kuri objekti ir mainīti vai noņemti katrā Finance and Operations programmu versijā.
+Detalizētu informāciju par objektiem Finance and Operations lietojumprogrammās var atrast tehnisko uzziņu [atskaitēs](/dynamics/s-e/global/axtechrefrep_61). Varat salīdzināt šo atskaišu dažādās versijas, lai uzzinātu par objektiem, kas ir mainīti vai noņemti katrā Finance and Operations lietojumprogrammu versijā.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7 ar 31. platformas atjauninājumu
 
@@ -52,7 +50,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 | **Izvietošanas iespēja**              | Visus |
 | **Statuss**                         | Novecojis: līdz 2020. gada 1. decembrim mēs plānojam vairs neatbalstīt ķīniešu dokumentu tipu iestatīšanu bez kontu grupu atlases. Sīkāka informācija par jauna līdzekļa izstrādi pieejama sadaļā Jaunumi 10.0.7 |
 
-## <a name="finance-and-operations-1006-with-platform-update-30"></a>Finance and Operations 10.0.6 ar 30. platformas atjauninājumu
+## <a name="finance-and-operations-1006-with-platform-update-30"></a>Finance and Operations 10.0.6 ar platformas atjauninājumu 30
 
 
 ### <a name="dimensionhashgethashstr-_message"></a>DimensionHash.getHash(str _message)
@@ -86,7 +84,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 | **Izvietošanas iespēja**              | Visus |
 | **Statuss**                         | Novecojis: līdz 2020. gada 1. oktobrim mēs plānojam vairs neatbalstīt **setUtcString()** metodi. Tā vietā izstrādātājiem ir jāizmanto metode **setUtcDateTime()**. |
 
-### <a name="blacklist-report-it--feature-reference-it-00001"></a>Melnā saraksta pārskats (IT) — Līdzekļa atsauce IT-00001
+### <a name="blocklist-report-it--feature-reference-it-00001"></a>Blokalista atskaite (IT) – līdzekļa atsauces IT-00001
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -94,7 +92,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 | **Vai ir aizstāts ar citu līdzekli?**   | Nē |
 | **Ietekmētie produkta apgabali**         | Itāļu lokalizācija |
 | **Izvietošanas iespēja**              | Visus |
-| **Statuss**                         | Novecojis: līdz 2020. gada 1. oktobrim mēs plānojam vairs neatbalstīt **Melnā saraksta pārskatu (IT) – Līdzekļa atsauci IT-00001**. |
+| **Statuss**                         | Novecojis: līdz 2020. gada 1. oktobrim mēs plānojam vairs neatbalstīt šo pārskatu. |
 
 ### <a name="domestic-tax-report--feature-reference-it-00003"></a>Iekšzemes nodokļu pārskats — Līdzekļa atsauce IT-00003
 
@@ -106,8 +104,41 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 | **Izvietošanas iespēja**              | Visus |
 | **Statuss**                         | Novecojis: līdz 2020. gada 1. oktobrim mēs plānojam vairs neatbalstīt **Iekšzemes nodokļu pārskatu – Līdzekļa atsauci IT-00003**. |
 
+## <a name="october-2019-deprecation-announcement"></a>2019. gada oktobra paziņojums par nolietojumu
 
-## <a name="finance-and-operations-1005-with-platform-update-29"></a>Finance and Operations 10.0.5 ar 29. platformas atjauninājumu
+### <a name="flowchart-diagrams-in-business-process-modeler"></a>Blokshēmas diagrammas biznesa procesu modelētājā
+
+<table>
+<tbody>
+<tr>
+<td><strong>Novecošanas/noņemšanas pamatojums</strong></td>
+<td>Mēs pasludinām par novecojušām blokshēmu diagrammas biznesa procesu modelētāja (Business process modeler — BPM) komponentam, jo mantotais dizains bija par pamatu retai izmantošanai.</td>
+</tr>
+<tr>
+<td><strong>Vai aizstāts ar citu līdzekli?</strong></td>
+<td>Nē</td>
+</tr>
+<tr>
+<td><strong>Ietekmētās jomas</strong></td>
+<td>Biznesa procesu modelētājs</td>
+</tr>
+<tr>
+<td><strong>Statuss</strong></td>
+<td>Novecojis: BMP blokshēmas diagrammas komponentu ir paredzēts noņemt 2020. gadā. Tālāk minētā funkcionalitāte nav pieejama:
+<ul>
+<li>Visas blokshēmas būs tikai lasāmas un nebūs pieejamas rediģēšanai. Formas rekvizīti, kas ir saistīti ar blokshēmas aktivitātēm, arī nebūs pieejami. Šīs blokshēmas ietver gan noklusējuma blokshēmas, kas tiek ģenerētas automātiski, gan pielāgotas blokshēmas, kas tiek modificētas, pamatojoties uz šīm noklusējuma blokshēmām.</li>
+<li>Procesa soļi būs tikai lasāmi un nebūs pieejami rediģēšanai.</li>     
+<li>Mantotā piemērotība / atbilstību analīzes funkcija nebūs pieejama. Tādēļ neviens atbilstības saraksts netiks automātiski izveidots vai nebūs pieejams eksportam.
+<p><strong>Piezīme:</strong> šī funkcija iepriekš bija novecojusi un aizstāta ar Microsoft Azure DevOps integrācijām.</p>
+</li>
+<li>Blokshēmas versiju vēsture nebūs pieejama.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+## <a name="finance-and-operations-1005-with-platform-update-29"></a>Finance and Operations 10.0.5 ar platformas atjauninājumu 29
 
 ### <a name="us-payroll-tax-updates"></a>ASV algas nodokļa atjauninājumi
 
@@ -132,7 +163,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 | **Izvietošanas iespēja**              | Visus  |
 | **Statuss**                         | Novecojis: funkcionalitātes noņemšanas mērķa laikposms ir 2020. gada decembris. |
 
-## <a name="finance-and-operations-1004-with-platform-update-28"></a>Finance and Operations 10.0.4 ar 28. platformas atjauninājumu
+## <a name="finance-and-operations-1004-with-platform-update-28"></a>Finance and Operations 10.0.4 ar platformas atjauninājumu 28
 
 ### <a name="france-fec-accounting-data-export-in-xml"></a>Francija: FEC uzskaites datu eksports XML formātā
 
@@ -149,21 +180,21 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Galvenes līdzinājums ar citiem Dynamics un Office produktiem. Plašāku informāciju skatiet tēmā [Atjauninātā navigācijas josla, kas atrodas atbilstoši Office galvenei](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar).
+| **Novecošanas/noņemšanas pamatojums** | Galvenes līdzinājums ar citiem Dynamics un Office produktiem. Plašāku informāciju skatiet tēmā [Atjauninātā navigācijas josla, kas atrodas atbilstoši Office galvenei](/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar).
 | **Vai ir aizstāts ar citu līdzekli?**   | Sākot ar atjauninājumu Platform update 24, tika ieviesta pārveidota navigācijas josla ar meklēšanas iespējām. |
 | **Ietekmētie produkta apgabali**         | Tīmekļa klients |
 | **Izvietošanas iespēja**              | Visus |
 | **Statuss**                         | Novecojis: sākot ar 2020. aprīli, mantotā navigācijas josla vairs nebūs pieejama. Līdz tam brīdim klienti var atgriezties pie mantotās navigācijas joslas, izmantojot lapu **Klienta veiktspējas opcijas**. |
 
 
-## <a name="finance-and-operations-1002-with-platform-update-26"></a>Finance and Operations 10.0.2 ar 26. platformas atjauninājumu
+## <a name="finance-and-operations-1002-with-platform-update-26"></a>Finance and Operations 10.0.2 ar platformas atjauninājumu 26
 
 
 ### <a name="legacy-default-action-behavior"></a>Mantotā noklusējuma darbību uzvedība
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Noklusējuma darbību mantotās uzvedības rezultātā tiek izveidota neparedzēta kolonna ar noklusējuma darbības saiti pēc tam, kad tabulas kolonnas ir pārkārtotas, izmantojot personalizēšanu. Jaunais fiksēto noklusējuma darbību līdzeklis to koriģē. Papildinformāciju skatiet tēmā [Fiksētās noklusējuma darbības tabulās](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
+| **Novecošanas/noņemšanas pamatojums** | Noklusējuma darbību mantotās uzvedības rezultātā tiek izveidota neparedzēta kolonna ar noklusējuma darbības saiti pēc tam, kad tabulas kolonnas ir pārkārtotas, izmantojot personalizēšanu. Jaunais fiksēto noklusējuma darbību līdzeklis to koriģē. Papildinformāciju skatiet tēmā [Fiksētās noklusējuma darbības tabulās](/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
 | **Vai ir aizstāts ar citu līdzekli?**   | Sākot ar 21. platformas atjauninājumu, tika ieviests “fiksēto noklusējuma darbību” līdzeklis. Šo līdzekli var iespējot lapā **Klienta veiktspējas opcijas**. |
 | **Ietekmētie produkta apgabali**         | Tabulas tīmekļa klientā |
 | **Izvietošanas iespēja**              | Visus |
@@ -174,7 +205,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 |&nbsp;   | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Filtrēšanas darbība “ir viens no” tika pārstrādāta 22. platformas atjauninājumā, paredzot, ka nākotnē tā būs vienīgā filtrēšanas darbība “ir viens no”. |
-| **Vai ir aizstāts ar citu līdzekli?**   | Sākot ar 22. platformas atjauninājumu, uzlabota filtrēšanas darbība “ir viens no” kļuva pieejama lapā **Klienta veiktspējas opcijas**. Papildinformāciju skatiet sadaļā [Optimizēta filtra “ir viens no” izmantošana](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering). |
+| **Vai ir aizstāts ar citu līdzekli?**   | Sākot ar 22. platformas atjauninājumu, uzlabota filtrēšanas darbība “ir viens no” kļuva pieejama lapā **Klienta veiktspējas opcijas**. Papildinformāciju skatiet sadaļā [Optimizēta filtra “ir viens no” izmantošana](/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering). |
 | **Ietekmētie produkta apgabali**         | Tīmekļa klients |
 | **Izvietošanas iespēja**              | Visus |
 | **Statuss**                         | Novecojis: sākot ar 2020. gada aprīli, uzlabotā filtrēšanas darbība “ir viens no” būs noklusējuma darbība, un nebūs paredzēts mehānisms, lai atgrieztos pie mantotās uzvedības. |
@@ -185,7 +216,7 @@ Atbalsts no projekta atkarīgu pārdošanas pasūtījumu izveidei, ja projekta l
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Funkcionalitāte vienmēr būs iespējota pēc parametra noņemšanas. |
-| **Vai ir aizstāts ar citu līdzekli?**   | Nr.p.k. Funkcionalitāte, kas nodrošina atbalstu no projekta atkarīgiem pārdošanas pasūtījumiem ar vairākiem finansējuma avotiem, vienmēr būs iespējota.   |
+| **Vai ir aizstāts ar citu līdzekli?**   | Nē. Funkcionalitāte, kas nodrošina atbalstu no projekta atkarīgiem pārdošanas pasūtījumiem ar vairākiem finansējuma avotiem, vienmēr būs iespējota.   |
 | **Ietekmētie produkta apgabali**         |Parametrs **Atļaut pārdošanas pasūtījumus projektiem ar vairākiem finansējuma avotiem** tiks noņemts. Pēc parametra noņemšanas tiks mainītas šādas metodes: **ctrlSalesOrderTable** metode **ProjStatusType** klasē, **validate** metode **ProjId** laukā un **run** metode **SalescreateOrder** formā. Pēc parametra noņemšanas būs novecojušas šādas metodes: **IsSalesOrderAllowedForMultipleFundingSources** metode **ProjTable** tabulas failā, **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** metode **ProjTable** tabulas failā, **AllowSalesOrdersForMultipleFundingSources** datu lauks **ProjParameters** formā un **ProjParameterEntity** failos, **IsAssociatedToMultipleFundingSourcesContract** privātā metode **ProjTable** tabulas failā. |
 | **Izvietošanas iespēja**              | Visus  |
 | **Statuss**                         | Atbalsta pārtraukšana ir paredzēta 2020. gada aprīļa laidienu kopumā. |
@@ -200,7 +231,7 @@ Atbalsts no projekta atkarīgu pārdošanas pasūtījumu izveidei, ja projekta l
 | **Izvietošanas iespēja**              | Visus |
 | **Statuss**                         | Novecojis: funkcionalitātes noņemšanas mērķa laikposms ir 2020. gada aprīlis. |
 
-## <a name="finance-and-operations-1001-with-platform-update-25"></a>Finance and Operations 10.0.1 ar 25. platformas atjauninājumu
+## <a name="finance-and-operations-1001-with-platform-update-25"></a>Finance and Operations 10.0.1 ar platformas atjauninājumu 25
 
 ### <a name="deprecated-apis-and-potential-breaking-changes"></a>Novecojušie API un iespējamas traucējumus radošas izmaiņas
 
@@ -225,19 +256,19 @@ Atbalsts no projekta atkarīgu pārdošanas pasūtījumu izveidei, ja projekta l
 | **Izvietošanas iespēja**              | Visus |
 | **Statuss**                         | Novecojis: brīdinājums tiks aizstāts ar kompilēšanas kļūdu 26. platformas atjauninājumā. |
 
-## <a name="finance-and-operations-1000-with-platform-update-24"></a>Finance and Operations 10.0.0 ar 24. platformas atjauninājumu
+## <a name="finance-and-operations-1000-with-platform-update-24"></a>Finance and Operations 10.0.0 ar platformas atjauninājumu 24
 
 ### <a name="renaming-released-products"></a>Izlaisto preču pārdēvēšana 
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Izmantojot funkciju **Pārdēvēt primāro atslēgu**, lai izmainītu izlaistās preces ItemId, tiek atjauninātas tikai tiešās ārējās atslēgas atsauces. Vecais ItemId tiks saglabāts jebkādās citās atsaucēs par izlaisto preci, piemēram, ražošanas pasūtījumos. Rezultātā var rasties neatbilstīgi dati, kas pēc tam bloķē biznesa procesu. |
-| **Vai ir aizstāts ar citu līdzekli?**   | Nr.p.k. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Nē. |
 | **Ietekmētie produkta apgabali**         | Preču informācijas pārvaldība |
-| **Izvietošanas iespēja**              | Visu  |
-| **Statuss**                         | Noņemts, sākot ar Finance and Operations 10.0.0 ar 24. platformas atjauninājumu.|
+| **Izvietošanas iespēja**              | Visus  |
+| **Statuss**                         | Noņemts kā no Finance and Operations 10.0.0 ar platformas atjauninājumu 24.|
 
 
-## <a name="finance-and-operations-813-with-platform-update-23"></a>Finance and Operations 8.1.3 ar 23. platformas atjauninājumu
+## <a name="finance-and-operations-813-with-platform-update-23"></a>Finance and Operations 8.1.3 ar platformas atjauninājumu 23
 
 ### <a name="sql-server-reporting-services-reportviewer-control"></a>SQL Server pārskatu izveides pakalpojumu vadīkla ReportViewer
 Klienti var izmantot darbību **Eksportēt**, kas paredzēta iegultajā SQL Server pārskatu izveides pakalpojumu (SSRS) vadīklā ReportViewer, lai lejupielādētu dokumentus, kas izveidoti Finance and Operations programmās. Šis pārskata HTML noformējums nodrošina lietotājiem dokumenta priekšskatījumu bez lapdales.
@@ -271,12 +302,12 @@ Izstrādātājs var modificēt iegultos galvenos veiktspējas rādītājus (KPI)
 | **Vai ir aizstāts ar citu līdzekli?**   | Šis brīdinājums tiks aizstāts ar kompilācijas kļūdu turpmākajās versijās. |
 | **Ietekmētie produkta apgabali**         | Visual Studio izstrādes rīki |
 | **Izvietošanas iespēja**              | Visu |
-| **Statuss**                         | Novecojis: brīdinājums ir kompilācijas laika kļūda ar platformas atjauninājumiem Finance and Operations programmu 10.0.11 versijā. |
+| **Statuss**                         | Novecojis: brīdinājums ir kompilēšanas laika kļūda ar platformas atjauninājumiem Finance and Operations lietojumprogrammu versijai 10.0.11. |
 
 #### <a name="complete-list"></a>Pilnīgs saraksts
 Lai piekļūtu pilnīgam tādu API sarakstam, kuriem tiek pārtraukts atbalsts, skatiet tēmu [Atbalsta pārtraukšana metodēm un metadatu elementiem](deprecation-deletion-apis.md).
 
-## <a name="finance-and-operations-81-with-platform-update-20"></a>Finance and Operations 8.1 ar 20. platformas atjauninājumu
+## <a name="finance-and-operations-81-with-platform-update-20"></a>Finance and Operations 8.1 ar platformas atjauninājumu 20
 
 ### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a>Partijas pārnešanas noteikumi apakšgrāmatas žurnāla kontu ierakstiem
 Režīms Sinhronā pārnešana Virsgrāmatas parametros ir novecojis.  Šis režīms ir aizstāts tikai ar opciju Asinhroni un plānoto partiju, kas jau pastāv kā pārnešanas opcijas. Papildinformāciju skatiet emuārā [Virsgrāmatas parametri — partijas pārsūtīšanas kārtulas](https://community.dynamics.com/365/financeandoperations/b/financials/archive/2019/03/15/general-ledger-parameters-batch-transfer-rules).
@@ -297,8 +328,8 @@ Līdzeklis deklarāciju .txt un .xml failu formātu konfigurēšanai.
 | **Novecošanas/noņemšanas pamatojums** | Nomainīts ar elektronisku iesniegšanu. |
 | **Vai aizstāts ar citu līdzekli?**   | Jā. |
 | **Ietekmētie produkta apgabali**         | Virsgrāmata |
-| **Izvietošanas iespēja**              | Visu |
-| **Statuss**                         | Noņemts, sākot ar Finance and Operations 8.1 ar 20. platformas atjauninājumu. |
+| **Izvietošanas iespēja**              | Visus |
+| **Statuss**                         | Noņemts kā no Finance and Operations 8.1 ar platformas atjauninājumu 20. |
 
 ### <a name="financial-reports-generator-for-russia"></a>Finanšu pārskatu veidotājs Krievijai
 Rīks uzskaites un nodokļu pārskatu datu vākšanas iestatīšanai un datu uz XLS un DOC pārskatu veidnēm eksportēšanai. Funkcionālās daļas: datu eksportēšana uz XLS un DOC pārskata veidnēm, vaicājumi, fiksētie rekvizīti ir noņemti. 
@@ -308,8 +339,8 @@ Rīks uzskaites un nodokļu pārskatu datu vākšanas iestatīšanai un datu uz 
 | **Novecošanas/noņemšanas pamatojums** | Noņemtās daļas ir aizstātas ar elektroniskajiem pārskatiem. |
 | **Vai aizstāts ar citu līdzekli?**   | Jā. Finanšu pārskatu iestatīšanas lietotāja interfeiss ir jāizmanto, lai iestatītu datu apkopošanas kārtulas pēc Virsgrāmatas kontiem vai nodokļu reģistriem. Datu eksportēšana uz dažādu failu veidiem, fiksēti rekvizīti un vaicājumam līdzīgu datu apkopošanas kārtulas ir jākonfigurē elektronisko pārskatu sadaļā. |
 | **Ietekmētie produkta apgabali**         | Virsgrāmata. |
-| **Izvietošanas iespēja**              | Visu |
-| **Statuss**                         | Noņemts, sākot ar Finance and Operations 8.1 ar 20. platformas atjauninājumu. |
+| **Izvietošanas iespēja**              | Visus |
+| **Statuss**                         | Noņemts kā no Finance and Operations 8.1 ar platformas atjauninājumu 20. |
 
 ### <a name="integration-with-external-providers-for-sending-electronic-reporting-through-communication-channels-for-russia"></a>Integrācija ar ārējiem nodrošinātājiem elektronisko pārskatu sūtīšanai pa sakaru kanāliem Krievijai
 Līdzeklis izveidoto deklarācijas elektronisko failu eksportēšanai uz mapi tālākai nosūtīšanai oficiālajiem elektronisko pārskatu nodrošinātajiem, kā arī importēšanai atpakaļ valsts iestādēm.
@@ -319,8 +350,8 @@ Līdzeklis izveidoto deklarācijas elektronisko failu eksportēšanai uz mapi t�
 | **Novecošanas/noņemšanas pamatojums** | Aizstāts ar konfigurējamu elektronisko ziņojumu līdzekli. |
 | **Vai aizstāts ar citu līdzekli?**   | Jā.  |
 | **Ietekmētie produkta apgabali**         | Virsgrāmata, nodokļi |
-| **Izvietošanas iespēja**              | Visu |
-| **Statuss**                         | Noņemts, sākot ar Finance and Operations 8.1 ar 20. platformas atjauninājumu. |
+| **Izvietošanas iespēja**              | Visus |
+| **Statuss**                         | Noņemts kā no Finance and Operations 8.1 ar platformas atjauninājumu 20. |
 
 
 ### <a name="profit-tax-register-wizard"></a>Peļņas nod. reģ. vednis
@@ -329,16 +360,26 @@ Līdzeklis jaunu peļņas nodokļa reģistru veidņu izveidei. Šis līdzeklis r
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Līdzeklis nav saderīgs ar Finance and Operations paplašināšanas modeli. |
-| **Vai aizstāts ar citu līdzekli?**   | Nav |
-| **Ietekmētie produkta apgabali**         | Nodoklis |
+| **Vai ir aizstāts ar citu līdzekli?**   | Nē |
+| **Ietekmētie produkta apgabali**         | Nodokļi |
+| **Izvietošanas iespēja**              | Visus |
+| **Statuss**                         | Noņemts kā no Finance and Operations 8.1 ar platformas atjauninājumu 20. |
+
+### <a name="payroll-and-human-resources-for-russia"></a>Alga un cilvēkresursi Krievijai
+Krievijas valstij raksturīgs modulis personāla administrēšanas informācijas pārvaldībai, darbinieku darba laika uzskaitei, algu sarakstu un algas pārskatu izveidei. 
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Algu saraksts nav iekļauts Dynamics 365 portfeļa globālajā stratēģiskajā fokusā. Partneri un ISV ir vislabāk pozicionēti, lai nodrošinātu algu saraksta funkcionalitāti, kas atbilst vietējiem noteikumiem un nodokļu atjauninājumiem.|
+| **Vai ir aizstāts ar citu līdzekli?**   | Nē|
+| **Ietekmētie produkta apgabali**         | Krievijas algu un cilvēkresursu pārvaldība |
 | **Izvietošanas iespēja**              | Visu |
-| **Statuss**                         | Noņemts, sākot ar Finance and Operations 8.1 ar 20. platformas atjauninājumu. |
+| **Statuss**                         | Novecojis: funkcionalitātes noņemšanas mērķa laikposms ir versijas 10.0 nākotnes atjauninājums. |
 
-
-## <a name="finance-and-operations-80-with-platform-update-15"></a>Finance and Operations 8.0 ar 15. platformas atjauninājumu
+## <a name="finance-and-operations-80-with-platform-update-15"></a>Finance and Operations 8.0 ar platformas atjauninājumu 15
 Ar šo laidienu nav noņemts vai atzīts par novecojušu neviens līdzeklis. 15. platformas atjauninājums ir kumulatīvs un satur jaunus vai mainītus līdzekļus no 13. platformas atjauninājuma, 14. platformas atjauninājuma un 15. platformas atjauninājuma.
 
-## <a name="finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Finance and Operations Enterprise Edition 7.3 ar 12. platformas atjauninājumu
+## <a name="finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Finance and Operations, Enterprise edition 7.3 ar platformas atjauninājumu 12.
 
 ### <a name="personalized-product-recommendations"></a>Personalizēti preču ieteikumi 
 Sākot ar 2018. gada 15. februāri, mazumtirgotāji vairs nevarēs rādīt personalizētus preču ieteikumus pārdošanas punkta (POS) ierīcē. Papildinformāciju skatiet rakstā [Preču ieteikumu pārskats](../../../commerce/product-recommendations.md).  
@@ -360,7 +401,7 @@ Vairs netiek atbalstīta iespēja ieviest pielāgotas funkcijas, ko izmantot ER�
 | **Vai aizstāts ar citu līdzekli?**   | Nav. Katrreiz, kad ir nepieciešama jauna iebūvēta funkcija, ir nepieciešams adresēt jaunu paplašinājuma pieprasījumu ER struktūras darba grupai.<br><br>Kā pagaidu risinājumu, kamēr ER darba grupa izstrādā pieprasīto funkciju, nepieciešamo loģiku var ieprogrammēt kā pielāgotas programmas klases metodi. Šai metodei ER izteiksmē var piekļūt kā rekvizītam no pievienotā ER datu avota ar tipu **Programma\Klase**, kas attiecas uz šo pielāgoto programmas klasi.  |
 | **Ietekmētie produkta apgabali**         | Elektronisko pārskatu veidošanas struktūra                                                      |
 | **Izvietošanas iespēja**              | Visus                                                                                      |
-| **Statuss**                         | Noņemts, sākot ar Finance and Operations Enterprise Edition 7.3.    |
+| **Statuss**                         | Noņemts kā no Finance and Operations, Enterprise edition 7.3.    |
 
 ### <a name="inventory-by-item-group-and-inventory-by-inventory-dimension-aging-reports"></a>Pārskats “Krājumi pēc krājumu grupas” un “Krājumi pēc krājumu dimensijas vecumstruktūras”
 
@@ -375,12 +416,12 @@ Abi šie pārskati vairs netiek atbalstīti programmā Finance and Operations. L
 | **Statuss**                       | Novecojis: izvēlnes elementi šiem abiem pārskatiem ir noņemti versijā 7.3. Taču produktā joprojām atrodas šiem pārskatiem paredzētais kods. Šo kodu ir plānots noņemt turpmākajos laidienos. |
 
 ### <a name="power-bi-content-packs-available-on-appsource"></a>Vietnē AppSource pieejamās Power BI satura pakotnes
-Pakalpojumā Microsoft Power BI veikto produktu atjauninājumu dēļ satura pakotnes **Izmaksu pārvaldība**, **Finanšu veiktspēja** un **Mazumtirdzniecības kanāla veiktspēja**, kas ir pieejamas vietnē [Microsoft AppSource](https://appsource.microsoft.com), ir novecojušas. Programmā Finance and Operations kļūst novecojušas arī sistēmas administrēšanas veidlapas, kas tika izmantotas šo satura pakotņu izvietošanai vietnē PowerBI.com.
+Satura pakotnes **Izmaksu pārvaldība**, **Finanšu sniegums** un **Retail channel performance**, kas ir pieejamas [Microsoft AppSource](https://appsource.microsoft.com) vietnē ir novecojušas pēc produktu atjauninājumiem risinājumā Microsoft Power BI. Programmā Finance and Operations kļūst novecojušas arī administrēšanas formas, kas tika izmantotas šo satura pakotņu izvietošanai vietnē PowerBI.com.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Produktu atjauninājumi pakalpojumā Microsoft Power BI. |
-| **Vai aizstāts ar citu līdzekli?**   | Satura pakotnes **Izmaksu pārvaldība**, **Finanšu veiktspēja** un **Mazumtirdzniecības kanāla veiktspēja**, kas pieejamas vietnē [AppSource](https://appsource.microsoft.com), tiek aizstātas ar analītiskām lietojumprogrammām, kuras nodrošina risinājumu integrāciju datu bāzes līmenī. Papildinformāciju par analītiskām programmām skatiet rakstā [Darbvietās iegultais Power BI saturs](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
+| **Novecošanas/noņemšanas pamatojums** | Produktu atjauninājumi risinājumā Microsoft Power BI. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Satura pakotnes **Izmaksu pārvaldība**, **Finanšu veiktspēja** un **Mazumtirdzniecības kanāla veiktspēja**, kas pieejamas vietnē [AppSource](https://appsource.microsoft.com), tiek aizstātas ar analītiskām lietojumprogrammām, kuras nodrošina risinājumu integrāciju datu bāzes līmenī. Papildinformāciju par analītiskām programmām skatiet rakstā [Darbvietās iegultais Power BI saturs](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Ietekmētie produkta apgabali**         | Izmaksu pārvaldība, Finanses un Retail                                                                                               |
 | **Izvietošanas iespēja**              | Tikai mākonī (Integrācija ar PowerBI.com netiek atbalstīta lokālajos izvietojumos.)                                                                                                            |
 | **Statuss**                         | Novecojis: funkcionalitātes noņemšanas mērķa laikposms ir 2018. gada 2. ceturksnis.    |
@@ -457,7 +498,7 @@ Sākot ar 2018. gada 15. februāri, mazumtirgotāji vairs nevarēs rādīt per
 | **Statuss**                         |Noņemts kopš 2018. gada 15. februāra. Tas ietekmē debitorus, kas izmanto programmu Dynamics 365 for Retail 7.2 un jaunākas tās versijas. |
 
 
-## <a name="finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Finance and Operations Enterprise Edition 2017. gada jūlija izdevums ar 8. platformas atjauninājumu
+## <a name="finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Finance and Operations, Enterprise edition 2017. gada jūlijs ar platformas atjauninājumu 8.
 
 ### <a name="currency-conversion-for-accounting-and-reporting-currencies"></a>Valūtas konvertēšana uzskaites un pārskata valūtām
 
@@ -473,12 +514,12 @@ Valūtas konvertēšana uzskaites un pārskata valūtām tika ieviesta, kad tika
 
 ### <a name="warehouse-mobile-devices-portal"></a>Noliktavas mobilo ierīču portāls
 
-Noliktavas mobilo ierīču portāls (Warehouse mobile devices portal — WMDP) bija savrupa komponents, kas bija paredzēts lokālai lietotāja veiktai izvietošanai. Šis komponents vairs netiek atbalstīts pakalpojumā Finance and Operations. WMDP funkcionalitāte ir aizstāta ar iekšēju programmu, kas uzlabo lietotāju iespējas.
+Noliktavas mobilo ierīču portāls (Warehouse mobile devices portal — WMDP) bija savrupa komponents, kas bija paredzēts lokālai lietotāja veiktai izvietošanai. Šis komponents vairs netiek atbalstīts programmā Finance and Operations. WMDP funkcionalitāte ir aizstāta ar iekšēju programmu, kas uzlabo lietotāju iespējas.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Funkcionalitātes dublēšanās.       |
-| **Vai ir aizstāts ar citu līdzekli?**   | Jā. Šis līdzeklis ir aizstāts ar Finance and Operations - Warehousing. Papildinformāciju par iestatīšanu un priekšnoteikumiem skatiet rakstā [Programmas Noliktavas instalēšanas un konfigurēšanas pārskats](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
+| **Vai aizstāts ar citu līdzekli?**   | Jā. Šis līdzeklis ir aizstāts ar programmu Dynamics 365 for Finance and Operations — Noliktava. Papildinformāciju par iestatīšanu un priekšnoteikumiem skatiet rakstā [Programmas Noliktavas instalēšanas un konfigurēšanas pārskats](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
 | **Ietekmētie produkta apgabali**         | Noliktavas pārvaldība, Transportēšanas pārvaldība     |
 | **Izvietošanas iespēja**              | Noliktavas mobilo ierīču portāls (Warehouse mobile devices portal — WMDP) bija savrupa komponents, kas bija paredzēts lokālai lietotāja veiktai izvietošanai.               |
 | **Statuss**                         | Novecojis: funkcionalitātes noņemšanas mērķa laikposms ir 2019. gada 4. ceturksnis.   |
@@ -829,8 +870,8 @@ Darbplūsma darbinieku mērķu izveidošanas pārvaldībai ir viena no vairākā
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Programmā Finance and Operations ir pilnībā pārveidota veiktspējas pārvaldība.     |
-| **Vai aizstāts ar citu līdzekli?**   | Pārveidotais līdzeklis Veiktspējas pārvaldība sniedz lielāku kontroli pār mērķu saturu, mērījumiem, kas tiek izmantoti progresa izsekošanai, un pavaddokumentu piesaistīšanu. Mērķus var glabāt kā veidnes un pēc tam lietot atkārtoti. Šis līdzeklis jums var palīdzēt ātrāk iestatīt papildu mērķus saviem darbiniekiem. |
+| **Novecošanas/noņemšanas pamatojums** | Programmā Finance and Operations veiktspējas pārvaldība ir pilnīgi pārveidota.     |
+| **Vai ir aizstāts ar citu līdzekli?**   | Pārveidotais līdzeklis Veiktspējas pārvaldība sniedz lielāku kontroli pār mērķu saturu, mērījumiem, kas tiek izmantoti progresa izsekošanai, un pavaddokumentu piesaistīšanu. Mērķus var glabāt kā veidnes un pēc tam lietot atkārtoti. Šis līdzeklis jums var palīdzēt ātrāk iestatīt papildu mērķus saviem darbiniekiem. |
 | **Ietekmētie produkta apgabali**         | Cilvēkkapitāla pārvaldība                 |
 | **Statuss**                         | Noņemts, sākot ar Dynamics 365 for Operations versiju 1611. |
 
@@ -919,7 +960,7 @@ Federālā nodokļa izraksts ICMS nodokļiem
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šī funkcionalitāte ir aizstāta ar citu līdzekli.   |
-| **Vai aizstāts ar citu līdzekli?**   | Microsoft Power BI satura pakotnē Finanšu veiktspējas pārraudzība tiks ietverti galvenie finanšu rādītāji, kas iepriekš bija pieejami biznesa analizatorā. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Monitor finanšu snieguma satura pakotne risinājumam Microsoft Power BI irkļaus galveno finanšu metriku, kas bija iepriekš pieejama risinājumā Business Analyzer. |
 | **Ietekmētie produkta apgabali**         | Virsgrāmata      |
 | **Statuss**                         | Novecojis: biznesa analizatora lietošana ir novecojusi.    |
 
@@ -970,7 +1011,7 @@ Atbilstības centrs bija uzņēmuma portāla vietne dokumentācijas prasību pā
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šī funkcionalitāte ir aizstāta ar citu līdzekli. |
-| **Vai ir aizstāts ar citu līdzekli?**   | Common data service                                      |
+| **Vai ir aizstāts ar citu līdzekli?**   | Dataverse                                      |
 | **Ietekmētie produkta apgabali**         | Dynamics savienotājs                         |
 | **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0.                           |
 
@@ -1017,7 +1058,7 @@ Datu nodalījumi nodrošina loģisku datu nošķiršanu Dynamics AX datu bāzē.
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Datu nodalījumi tika ieviesti versijā Dynamics AX 2012 R2, lai nodrošinātu datu nošķiršanu. Tipiskā scenārijā uzņēmumam ir filiāles, un datiem no vienas filiāles nevajadzētu būt redzamiem citai filiālei, lai gan abas filiāles pārvalda tā pati IT nodaļa. Taču bija nepieciešami papildu skripti un pārvaldība visā programmā, lai izveidotu jaunus nodalījumus un aizpildītu tos ar datiem, kā arī lai veiktu nodalījuma datu dublējumus. Mākonī, kur var piekļūt platformas pakalpojuma (PaaS) datu bāzu pakalpojumiem (Microsoft Azure SQL datu bāzei), izmantot datu bāzi kā nošķiršanas konteineru ir daudz efektīvāk, nekā veikt nošķiršanu programmā. Neatkarīgi no tā, vai datu nodalījumu izmantošana ir nepieciešama filiālēm, vairākiem nomniekiem vai tikai mērogam, mēs uzskatām, ka ar scenārijiem daudz labāk var strādāt, izmantojot vairākas Finance and Operations instances. |
-| **Vai ir aizstāts ar citu līdzekli?**   | Debitoriem, kas izmanto datu nodalījumus, ir jāizmanto vairākas Finance and Operations instances, ja datu bāzes līmeņu atdalīšana ir būtisks jautājums.    |
+| **Vai aizstāts ar citu līdzekli?**   | Debitoriem, kas izmanto datu nodalījumus, ir jāizmanto vairākas Finance and Operations instances, ja datu bāzes līmeņu atdalīšana ir būtisks jautājums.    |
 | **Ietekmētie produkta apgabali**         | Visi moduļi  |
 | **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0.  |
 
@@ -1057,7 +1098,7 @@ Versijā Dynamics AX 2012 R3 programma Retail Modern POS varēja izveidot tieš
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Tiešajai datu bāzes savienojamībai bija nepieciešami zemākas drošības protokoli, un tā galvenokārt tika izmantota, lai sasniegtu augstāko veiktspējas līmeni. Programmatūras Finance and Operations veiktspējas un drošības uzlabojumu dēļ šī funkcionalitāte tagad rada vairāk problēmu, nekā tā atrisina. |
+| **Novecošanas/noņemšanas pamatojums** | Tiešajai datu bāzes savienojamībai bija nepieciešami zemākas drošības protokoli, un tā galvenokārt tika izmantota, lai sasniegtu augstāko veiktspējas līmeni. Programmatūras Dynamics 365 for Finance and Operations veiktspējas un drošības uzlabojumu dēļ šī funkcionalitāte tagad rada vairāk problēmu, nekā tā atrisina. |
 | **Vai ir aizstāts ar citu līdzekli?**   | Nē. Tagad tiek atbalstīti tikai standarta Retail Server sakari.  |
 | **Ietekmētie produkta apgabali**         | Kanāla DB/Retail Modern POS   |
 | **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0.  |
@@ -1163,7 +1204,7 @@ Ir noņemtas atskaites, kas ietvēra šādus izvēlnes vienumus: **Kopsavilkuma 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Finanšu Microsoft SQL Server Reporting Services (SSRS) pārskati ir aizstāti ar Management Reporter iespējām un noklusējuma pārskatiem. |
-| **Vai aizstāts ar citu līdzekli?**   | Management Reporter (pašreizējā Dynamics AXversijā ar apzīmējumu **Finanšu pārskatu veidošana** )    |
+| **Vai aizstāts ar citu līdzekli?**   | Management Reporter (pašreizējā Dynamics AX versijā ar apzīmējumu **Finanšu pārskatu veidošana**)    |
 | **Ietekmētie produkta apgabali**         | Virsgrāmata   |
 | **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0.   |
 
@@ -1335,7 +1376,7 @@ Pakalpojumi Sites Services jums ļauj veidot vietnes, kas jūsu biznesa procesus
 
 ### <a name="virtual-company-accounts"></a>Virtuālie datu faili
 
-Programmā Dynamics AX vairs netiek atbalstīts virtuālo datu failu līdzeklis. Virtuālo datu failu līdzeklis lietotājiem ļāva iestatīt tabulas, ko varēja kopīgot ar uzņēmumu kopu. Šī līdzekļa aprakstu varat skatīt šeit: [Datu faili un virtuālie datu faili](https://msdn.microsoft.com/library/aa834382(v=ax.10).aspx). Šis līdzeklis darbojas, grupējot tabulas kolekcijās, kuras tiek piešķirtas virtuāliem datu failiem, kas ir esošo “reālo” uzņēmumu grupas. Vaicājumi tiek veidoti tā, lai visi uzņēmumi virtuālajā datu failā varētu piekļūt saistīto tabulu kolekcijās iekļautajiem datiem.
+Programmā Dynamics AX vairs netiek atbalstīts virtuālo datu failu līdzeklis. Virtuālo datu failu līdzeklis lietotājiem ļāva iestatīt tabulas, ko varēja kopīgot ar uzņēmumu kopu. Šī līdzekļa aprakstu varat skatīt šeit: [Datu faili un virtuālie datu faili](../../fin-ops/get-started/ax4-content-retired.md). Šis līdzeklis darbojas, grupējot tabulas kolekcijās, kuras tiek piešķirtas virtuāliem datu failiem, kas ir esošo “reālo” uzņēmumu grupas. Vaicājumi tiek veidoti tā, lai visi uzņēmumi virtuālajā datu failā varētu piekļūt saistīto tabulu kolekcijās iekļautajiem datiem.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -1350,7 +1391,7 @@ Windows 8 planšetdatoru programma nodrošināja izdevumu ievades un apstiprin�
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Finance and Operations ir saderīga ar planšetdatoriem. Planšetdatoru programma vairs nav nepieciešama.    |
+| **Novecošanas/noņemšanas pamatojums** | Programmatūra Dynamics 365 for Finance and Operations ir saderīga ar planšetdatoriem. Planšetdatoru programma vairs nav nepieciešama.    |
 | **Vai aizstāts ar citu līdzekli?**   | Nē.          |
 | **Ietekmētie produkta apgabali**         | Izmaksu pārvaldība   |
 | **Statuss**                         | Noņemts: šī funkcionalitāte ir pieejama tikai versijā Dynamics AX 2012 R3. |
@@ -1369,7 +1410,10 @@ Windows 8 planšetdatoru programma nodrošināja izdevumu ievades un apstiprin�
 | &nbsp;  | &nbsp; |
 |-------------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | <strong>Novecošanas/noņemšanas pamatojums</strong> |                         Šī funkcionalitāte ir aizstāta ar citu līdzekli.                         |
-|  <strong>Vai aizstāts ar citu līdzekli?</strong>  | Management Reporter (pašreizējā Dynamics AXversijā ar apzīmējumu <strong>Finanšu pārskatu veidošana</strong> ) |
+|  <strong>Vai aizstāts ar citu līdzekli?</strong>  | Management Reporter (pašreizējā Dynamics AX versijā ar apzīmējumu <strong>Finanšu pārskatu veidošana</strong>) |
 |     <strong>Ietekmētie produkta apgabali</strong>     |                                              Virsgrāmata                                              |
 |             <strong>Statuss</strong>             |                                      Noņemts, sākot ar Dynamics AX 2012                                      |
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Jauni vai atjaunināti uzdevumu ceļveži (2017. gada decembris)
 description: Šajā tēmā ir norādīti jaunie vai atjauninātie uzdevumu ceļveži, kas ir izlaisti Microsoft APQC vienotajā bibliotēkā programmai Microsoft Dynamics 365 for Operations (2016. gada decembris — visas valodas). Netika izlaista neviena jauna darba sākšanas bibliotēka.
 author: josaw1
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,12 +12,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c24fed0027f1c1f6aeab823b22bc3b36b814f814
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: c4301c31a5152dce73497208f02efb1da4611e1c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4799066"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750332"
 ---
 # <a name="new-or-updated-task-guides-december-2017"></a>Jauni vai atjaunināti uzdevumu ceļveži (2017. gada decembris)
 
@@ -368,3 +366,6 @@ Kad tiek dzēsta kāda BPM rinda, tiek dzēsti arī visi uzdevumu ceļveži, kas
 **Dzēsta BPM rinda**
 
 - Plānoto Kanban darbu pārvietošana
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

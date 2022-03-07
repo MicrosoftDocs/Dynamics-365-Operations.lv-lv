@@ -1,7 +1,7 @@
 ---
 title: Datu veidnes ar vairākām darblapām
 description: Šajā tēmā ir aprakstīts, kā importēt datus programmā Finance and Operations, izmantojot Excel datu elementu veidnes.
-author: peakerbl
+author: Sunil-Garg
 ms.date: 01/01/2018
 ms.topic: article
 ms.prod: ''
@@ -11,22 +11,19 @@ ms.reviewer: sericks
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: cf3c423bdf06685a3c4025551927123773ae818a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 6205797ead0569eeeeae5deb47534c66eb030b0bfdd177dd3cc6d9fa5d326ecf
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070065"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737462"
 ---
 # <a name="data-templates-with-multiple-worksheets"></a>Datu veidnes ar vairākām darblapām
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Datu pārvaldība programmā atbalsta Microsoft Excel-datu elementu veidnes. Šajās veidnēs var būt viena vai vairākas darblapas. Veidnes ar vairākām darblapām bieži tiek izmantotas, kad ir vēlams datus pārvaldīt vienā failā un to importēt vairākos datu elementos. Kā piemēru varētu minēt vietas un noliktavas.
 

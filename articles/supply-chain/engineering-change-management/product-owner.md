@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 90f5596f9b5fc45e78cc49a3309c45864e07e70b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a1c3bc6f77fed83cfbbd502cdd469baa491fd81f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967337"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5266131"
 ---
 # <a name="product-owners"></a>Preces īpašnieki
 
@@ -60,3 +60,6 @@ Piemēram, prece X ir piešķirta *Dizaina skapju* preces īpašnieku grupai. Pr
 ## <a name="product-owners-and-approvals"></a>Preces īpašnieki un apstiprinājumi
 
 Tā kā preces īpašnieki zina, vai īpašas tehniskās izmaiņas dos labumu viņu precēm, bieži ir lietderīgi iekļaut tās kā apstiprināšanas procesa daļu tehnisko izmaiņu pārvaldībā. Varat īstenot šo pieeju, iestatot preces īpašniekus kā dalībnieku nodrošinātājus darbplūsmās, kas tiek izmantotas tehnisko izmaiņu pārvaldībai. Pēc tam sistēma piešķirs apstiprināšanas uzdevumus darbplūsmās, pamatojoties uz precēm, kas ir tehnisko izmaiņu pieprasījumos un tehnisko izmaiņu pasūtījumos. Plašāku informāciju skatiet rakstā [Pārvaldīt izmaiņas tehniskajām precēm](engineering-change-management.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

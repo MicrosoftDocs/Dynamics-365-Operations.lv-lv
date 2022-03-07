@@ -1,16 +1,13 @@
 ---
-title: Common Data Service elementi
-description: Microsoft Dynamics 365 Human Resources izmanto Common Data Service, lai iespējotu paplašināšanas un integrācijas scenārijus.
+title: Dataverse tabulas
+description: Microsoft Dynamics 365 Human Resources izmanto Dataverse, lai iespējotu paplašināšanas un integrācijas scenārijus.
 author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 01/25/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,26 +15,30 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 988fa0b6d39a49b973626a8a0abe83c546f42297
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
-ms.translationtype: HT
+ms.openlocfilehash: 6774fad3543d80d04faacf5960c8037f1734f084
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4530010"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066829"
 ---
-# <a name="common-data-service-entities"></a>Common Data Service elementi
+# <a name="dataverse-tables"></a>Dataverse tabulas
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Microsoft Dynamics 365 Human Resources izmanto Common Data Service, lai iespējotu paplašināšanas un integrācijas scenārijus.
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
-Plašāku informāciju par Common Data Service skatiet [Kas ir Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro).
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Common Data Service ir pieejami šādas cilvēkresursu entitījas.
+Microsoft Dynamics 365 Human Resources izmanto Dataverse, lai iespējotu paplašināšanas un integrācijas scenārijus.
 
-## <a name="benefit-entities"></a>Atvieglojumu elementi
+> [!NOTE]
+> Human Resources elementi atbilst Dataverse tabulām. Papildinformāciju par Dataverse (iepriekš Common Data Service) un terminoloģijas atjauninājumiem skatiet sadaļā [Kas ir Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)
 
-| Vārds/nosaukums | Elements |
+Šādas Dataverse tabulas ir pieejamas, pamatojoties uz Human Resources elementiem.
+
+## <a name="benefit-tables"></a>Atvieglojumu tabulas
+
+| Vārds, uzvārds | Tabula |
 | --- | --- |
 | Atvieglojumu aprēķina biežums | cdm_benefitcalculationfrequency |
 | Atvieglojumu aprēķina biežuma izmaksas periods | cdm_benefitcalculationfrequencypayperiod |
@@ -47,9 +48,9 @@ Common Data Service ir pieejami šādas cilvēkresursu entitījas.
 | Atvieglojumu plāns | cdm_benefitplan (nav iespējots pielāgoto lauku atbalsts) |
 | Atvieglojumu veids | cdm_benefittype |
 
-## <a name="business-process-tasks-entities"></a>Biznesa procesa uzdevumu entītijas
+## <a name="business-process-tasks-tables"></a>Biznesa procesa uzdevumu tabulas
 
-| Vārds/nosaukums | Elements |
+| Vārds, uzvārds | Tabula |
 | --- | --- |
 | Biznesa procesu kalendārs | cdm_businessprocesscalendar |
 | Biznesa procesu grupu piešķire | cdm_businessprocessgroupassignment |
@@ -58,9 +59,9 @@ Common Data Service ir pieejami šādas cilvēkresursu entitījas.
 | Kontrolsaraksta veidnes galvene | cdm_businessprocesstemplateheader |
 | Kontrolsaraksta veidnes uzdevums | cdm_businessprocesstemplatetask |
 
-## <a name="compensation-entities"></a>Atlīdzības entitījas
+## <a name="compensation-tables"></a>Kompensāciju tabulas
 
-| Vārds/nosaukums | Elements |
+| Vārds, uzvārds | Tabula |
 | --- | --- |
 | Atlīdzības fiksētais plāns | cdm_compensationfixedplan |
 | Atlīdzības režģis | cdm_compensationgrid |
@@ -77,9 +78,9 @@ Common Data Service ir pieejami šādas cilvēkresursu entitījas.
 | Izmaksu noteikums | cdm_vestingrule |
 | Nodarbinātā fiksētā atlīdzība | cdm_workerfixedcompensation |
 
-## <a name="organization-entities"></a>Organizācijas entītijas
+## <a name="organization-tables"></a>Organizācijas tabulas
 
-| Vārds/nosaukums | Elements |
+| Vārds, uzvārds | Tabula |
 | --- | --- |
 | Nodaļa | cdm_department |
 | Nodarbinātība | cdm_employment |
@@ -95,11 +96,11 @@ Common Data Service ir pieejami šādas cilvēkresursu entitījas.
 | Nosaukums | cdm_title |
 
 > [!NOTE]
-> Finanšu dimensijas **Amata veidam**, **Amata darbinieka piešķirei** un **Nodarbinātībai** pakalpojumam Common Data Service nodrošina vienvirziena integrāciju. Finanšu dimensiju atjauninājumi pašlaik nesinhronizējas no Common Data Service uz personāla vadības resursiem. 
+> Finanšu dimensijas **Amata veidam**, **Amata darbinieka piešķirei** un **Nodarbinātībai** pakalpojumam Dataverse nodrošina vienvirziena integrāciju. Finanšu dimensiju atjauninājumi pašlaik nesinhronizējas no Dataverse uz personāla vadības resursiem. 
 
-## <a name="leave-and-absence-entities"></a>Atvaļinājumu un kavējumu elementi
+## <a name="leave-and-absence-tables"></a>Atvaļinājumu un prombūtnes tabulas
 
-| Vārds/nosaukums | Elements |
+| Vārds, uzvārds | Tabula |
 | --- | --- |
 | Atvaļinājuma bankas transakcija | cdm_leavebanktransaction |
 | Atvaļinājuma reģistrācija | cdm_leaveenrollment |
@@ -109,21 +110,21 @@ Common Data Service ir pieejami šādas cilvēkresursu entitījas.
 | Atvaļinājuma tips | cdm_leavetype |
 | Atvaļinājuma veida iemesla kods | cdm_leavetypereasoncode |
 
-## <a name="payroll-entities"></a>Algas elementi
+## <a name="payroll-tables"></a>Algu tabulas
 
-| Vārds/nosaukums | Elements |
+| Vārds, uzvārds | Tabula |
 | --- | --- |
 | Apmaksas cikls | cdm_paycycle |
 | Apmaksas periods | cdm_payperiod |
-| Algas nopelnīšanas kods | cdm_payrollearningcode |
+| Algas ienākumu veida kods | cdm_payrollearningcode |
 | Bankas konta izdevumi | cdm_bankaccountdisbursement |
 | Nodokļu reģions | cdm_taxregion |
 
-## <a name="worker-entities"></a>Nodarbinātā elementi
+## <a name="worker-tables"></a>Darbinieku tabulas
 
-| Vārds/nosaukums | Elements |
+| Vārds, uzvārds | Tabula |
 | --- | --- |
-| Nodarbinātais | cdm_worker |
+| Darbinieks | cdm_worker |
 | Nodarbinātā adrese | cdm_workeraddress |
 | Nodarbinātā personas dati | cdm_workerpersonaldetail |
 | Nodarbinātās personas identifikācijas numurs | cdm_workerpersonidentificationnumber |
@@ -135,48 +136,55 @@ Common Data Service ir pieejami šādas cilvēkresursu entitījas.
 | Darba kalendāra laika intervāls | cdm_workcalendartimeinterval (nav iespējots pielāgoto lauku atbalsts) |
 | Nodarbinātā bankas konts | cdm_workerbankaccount |
 
-## <a name="worker-setup-entities"></a>Nodarbinātā iestatījumu entitījas
+## <a name="worker-setup-tables"></a>Darbinieka iestatījumu tabulas
 
-| Vārds/nosaukums | Elements |
+| Vārds, uzvārds | Tabula |
 | --- | --- |
 | Veterāna statuss | cdm_veteranstatus |
 | Etniskā izcelsme | cdm_ethnicorigin |
 | Iemesla kods | cdm_reasoncode |
-| Personas identifikācijas dokumenta izdevējiestāde | cdm_personidentificationissuingagency |
+| Personas identifikācijas izsniedzēja iestāde | cdm_personidentificationissuingagency |
 
-## <a name="competency-entities"></a>Kompetences entitījas
+## <a name="competency-tables"></a>Kompetenču tabulas
 
-| Vārds/nosaukums | Elements |
+| Vārds, uzvārds | Tabula |
 | --- | --- |
-| Prasmju veids | cdm_skilltype |
+| Prasmju tips | cdm_skilltype |
 
-## <a name="entity-relationship-models"></a>Entitījas attiecību modeļi
+## <a name="table-relationship-models"></a>Tabulas attiecību modeļi
 
-### <a name="worker"></a>Nodarbinātais
+### <a name="worker"></a>Darbinieks
 
 ![Nodarbinātais](./media/HCMCommon-worker-entity-diagram.png)
 
 ### <a name="job-and-job-position"></a>Darbs un amats
 
-![Darbs un amats](./media/HCMCommon-job-and-job-position-entity-diagram.png)
+![Darbs un amats.](./media/HCMCommon-job-and-job-position-entity-diagram.png)
 
-### <a name="benefits"></a>Priekšrocības
+### <a name="benefits"></a>Atvieglojumi
 
-![Priekšrocības](./media/HCMCommon-benefits-entity-diagram.png)
+![Atvieglojumi.](./media/HCMCommon-benefits-entity-diagram.png)
 
 ### <a name="compensation"></a>Kompensācija
 
-![Kompensācija](./media/HCMCommon-compensation-entity-diagram.png)
+![Kompensācija.](./media/HCMCommon-compensation-entity-diagram.png)
 
-### <a name="leave"></a>Pamest
+### <a name="leave"></a>Atvaļinājums
 
-![Pamest](./media/HCMCommon-leave-entity-diagram.png)
+![Atvaļinājums.](./media/HCMCommon-leave-entity-diagram.png)
 
 ### <a name="work-calendar"></a>Darba kalendārs
 
-![Darba kalendārs](./media/HCMCommon-work-calendar-entity-diagram.png)
+![Darba kalendārs.](./media/HCMCommon-work-calendar-entity-diagram.png)
 
 ## <a name="see-also"></a>Skatiet arī
 
-[Izvēlēties datu integrācijas tehnoloģiju](hr-admin-integration-choose-technology.md)</br>
-[Common Data Service integrācijas konfigurēšana](hr-admin-integration-common-data-service.md)
+[Datu integrācijas tehnoloģiju izvēle](hr-admin-integration-choose-technology.md)<br>
+[Pakalpojuma Dataverse integrācijas konfigurēšana](hr-admin-integration-common-data-service.md)<br>
+[Pakalpojuma Dataverse virtuālo tabulu konfigurēšana](hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[Human Resources virtuālās tabulas: Bieži uzdotie jautājumi](hr-admin-virtual-entity-faq.md)<br>
+[Kas ir Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)<br>
+[Terminoloģijas atjauninājumi](/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

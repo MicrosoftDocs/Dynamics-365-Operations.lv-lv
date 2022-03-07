@@ -2,28 +2,25 @@
 title: Pakalpojumu objektu pārskats
 description: Pakalpojumu objekti ir klienta līdzekļi un preces, kurām jūs varat veikt pakalpojumu.
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceObjectTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 29d2cf6a496fed8d9932d5c6d49f4560d7eabbbb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4a078b2573a08dfd4ac2232bb22f2d694cab090e
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432465"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6335872"
 ---
 # <a name="service-objects-overview"></a>Pakalpojumu objektu pārskats
 
@@ -47,3 +44,6 @@ Uzņēmums A uztur finanšu ierakstus vairākiem maziem uzņēmumiem. Viens no k
 
 [Pakalpojumu objektu izveide](create-service-objects.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

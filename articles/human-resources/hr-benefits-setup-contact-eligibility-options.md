@@ -1,33 +1,35 @@
 ---
-title: Personisko kontaktpersonu piemērotības opciju konfigurēšana
-description: Konfigurējiet personisko kontaktpersonu piemērotības opcijas Microsoft Dynamics 365 Human Resources. Personiskās kontaktpersonas var būt saņēmēji vai apgādājamie.
-author: andreabichsel
-manager: AnnBe
-ms.date: 04/06/2020
+title: Personīgās saziņas piemērotības opciju konfigurēšana
+description: Konfigurējiet personisko kontaktpersonu piemērotības opcijas programmā Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 68364b0cc1c579a3ee9813474c9d3f6e4df1c05d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: ad9dc9d12bcc419c3925b0f78566d9f3eb0a1e35
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419567"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070354"
 ---
-# <a name="configure-personal-contact-eligibility-options"></a>Personisko kontaktpersonu piemērotības opciju konfigurēšana
+# <a name="configure-personal-contact-eligibility-options"></a>Personīgās saziņas piemērotības opciju konfigurēšana
 
-Šajā rakstā parādīts, kā konfigurēt personisko kontaktpersonu veidus, ko izmantot atvieglojumiem Microsoft Dynamics 365 Human Resources. Personiskās kontaktpersonas var būt saņēmēji vai apgādājamie. 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Šajā tēmā ir izskaidrots, kā konfigurēt personisko kontaktpersonu veidus, ko var izmantot atvieglojumiem Microsoft Dynamics 365 Human Resources. Personiskās kontaktpersonas ir personas, kas tiks iekļautas jūsu plānos (apgādājamie) vai kuras saņems jūsu plānus (saņēmēji). Parasti apgādājamie ir dzīvesbiedri vai bērni. Saņēmēji var būt laulātie, bērni, tresti vai vecāki.
 
 1. Darbvietā **Atvieglojumu pārvaldība** sadaļā **Iestatīt** atlasiet **Personisko kontaktpersonu piemērotības opcijas**.
 
@@ -45,3 +47,6 @@ ms.locfileid: "4419567"
    | **Vecums** | Piemērotās personiskās kontaktpersonas maksimālais vecums atvieglojumu plānam. Šis lauks ir aktīvs tikai tad, ja atlasāt attiecības. Šis vecums tiek salīdzināts ar personiskās kontaktpersonas aprēķināto vecumu. Aprēķinātais vecums ir: (seguma datums — personiskās kontaktpersonas dzimšanas datums / 365). Tas vienmēr ir vesels skaitlis. |
 
 4. Atlasiet **Saglabāt**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

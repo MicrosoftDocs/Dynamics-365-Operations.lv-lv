@@ -1,16 +1,13 @@
 ---
 title: Augšupielādēt videoklipus
-description: Šajā tēmā ir aprakstīts, kā augšupielādēt videoklipus programmas Microsoft Dynamics 365 Commerce vietnes veidotājā.
+description: Šajā tēmā aprakstīts, kā augšupielādēt videoklipus Microsoft Dynamics 365 Commerce vietnes veidotājā.
 author: psimolin
-manager: annbe
-ms.date: 03/03/2020
+ms.date: 06/09/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8dd9e710f9a6ea593a0673e7902fadf84ca05cff
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
-ms.translationtype: HT
+ms.openlocfilehash: f481e5d3f323b0c86d637b67c119d13b956d5714dc0d990004834e2be05b370e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594312"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735634"
 ---
 # <a name="upload-videos"></a>Augšupielādēt videoklipus
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā augšupielādēt videoklipus programmas Microsoft Dynamics 365 Commerce vietnes veidotājā.
-
-## <a name="overview"></a>Pārskats
+Šajā tēmā aprakstīts, kā augšupielādēt videoklipus Microsoft Dynamics 365 Commerce vietnes veidotājā.
 
 Commerce vietnes veidotāja multivides bibliotēka ļauj augšupielādēt videoklipus. Vienmēr augšupielādējiet videoklipa versiju ar augstāko bitu pārraides ātrumu un izšķirtspēju, jo videoklips tiks automātiski pārveidots, lai tas būtu piemērots dažādām skatvietām un to pārtraukumpunktiem.
 
@@ -40,7 +35,7 @@ Commerce vietnes veidotāja multivides bibliotēka ļauj augšupielādēt videok
 Augšupielādējot videoklipu, var norādīt šādu informāciju.
 
 - **Nosaukums, apraksts, atslēgvārdi**: videoklipa metadati.
-- **Automātiski ģenerēt slēgtos titrus**: norāda, vai videoklipam automātiski jāģenerē slēgtos titrus.
+- **Automātiski ģenerēt slēgtos titrus**: norāda, vai videoklipam automātiski jāģenerē slēgtos titrus (tiek atbalstīta tikai angļu valoda). 
 - **Slēgtie titri**: Norāda izmantojamos slēgtos titrus.
 - **Parastais audio**: Norāda izmantojamo parasto audio ierakstu.
 - **Sīktēls**: Norāda videoklipa sīktēlu. Numuru sērija tiks izveidota automātiski, ja tā netiek konkretizēta.
@@ -73,3 +68,6 @@ Ja ielādējat vairāku tipu līdzekļus vienlaicīgi (piemēram, attēlus un vi
 [Attēlu fokusa punktu pielāgošana](dam-custom-focal-point.md)
 
 [Augšupielādēt un apkalpot statiskos failus](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

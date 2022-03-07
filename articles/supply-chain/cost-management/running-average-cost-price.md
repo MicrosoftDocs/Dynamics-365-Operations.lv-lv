@@ -2,11 +2,9 @@
 title: Faktiskā vidējo izmaksu cena
 description: Krājumu slēgšanas procesa laikā saņemšanas darbības tiek segtas ar izdošanas darbībām, pamatojoties uz krājumu novērtēšanas metodi, kas ir atlasīta vienības krājumu modeļa grupā. Taču pirms krājumu slēgšanas izpildes sistēmā tiek aprēķināta faktiskā vidējo izmaksu cena, kas parasti tiek izmantota, iegrāmatojot izdošanas transakcijas.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventModelGroup, InventOnhandItem, InventTrans
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 776f886fc0dfccf1b2675c9d54d44c16c6df4f09
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 75dfd2f23034bbd222e020b532027e60ef215241
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963767"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830271"
 ---
 # <a name="running-average-cost-price"></a>Faktiskā vidējo izmaksu cena
 
@@ -75,3 +73,6 @@ Papildus ņemiet vērā, ka fizisko krājumu maksimālo korespondējošo vērtī
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

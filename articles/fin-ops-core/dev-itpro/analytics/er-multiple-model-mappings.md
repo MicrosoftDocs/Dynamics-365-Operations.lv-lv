@@ -13,20 +13,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d71b05b3f2eda93a93f728926e675c040371781e
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
-ms.translationtype: MT
+ms.openlocfilehash: 595de6292b81ca78bf08a66f61850c3b5a537396
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324116"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354395"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>Pārvaldīt vairākus atvasinātos kartējumus viena modeļa saknei
 
 [!include [banner](../includes/banner.md)]
 
-Elektronisko [pārskatu (ER) datu](general-electronic-reporting.md) modeļu komponents tiek izmantots katrā konfigurētajā ER formāta komponentā, kā datu avots izejošo dokumentu ģenerēšanai. Lai aprakstītu vienu biznesa domēnu, konfigurējiet datu modeļa komponentu, kam ir daudz saknes definīciju. 
+[Elektronisko pārskatu (ER)](general-electronic-reporting.md) datu [modeļa](general-electronic-reporting.md#data-model-and-model-mapping-components) komponents tiek izmantots katrā konfigurētajā ER [formāta](general-electronic-reporting.md#FormatComponentOutbound) komponentā kā datu avots izejošo dokumentu ģenerēšanai. Lai aprakstītu vienu biznesa domēnu, konfigurējiet datu modeļa komponentu, kam ir daudz saknes definīciju. 
 
-Katra saknes definīcija ļauj jums attēlot šī domēna datus tādā veidā, kas ir piemērots īpašiem pārskatu nolūkiem. Katrai saknes definīcijai jūs varat konfigurēt ER modeļa kartēšanas komponentu kā Microsoft Dynamics 365 Finance raksturīgu datu modeļa implementēšanu. Šādā veidā aprakstiet, kā izpildlaikā tiks aizpildīts datu modelis.
+Katra saknes definīcija ļauj jums attēlot šī domēna datus tādā veidā, kas ir piemērots īpašiem pārskatu nolūkiem. Katrai saknes definīcijai jūs varat konfigurēt ER [modeļa kartēšanas](general-electronic-reporting.md#data-model-and-model-mapping-components) komponentu kā Microsoft Dynamics 365 Finance specifisku datu modeļa implementēšanu. Šādā veidā aprakstiet, kā izpildlaikā tiks aizpildīts datu modelis.
 
 ER modeļa kartēšanas komponenti var atrasties ER datu modeļa [konfigurācijās](general-electronic-reporting.md#Configuration) un ER modeļa kartēšanas konfigurācijās. Viena ER konfigurācija var ietvert daudzus kartēšanas komponentus, katrs no tiem ir konfigurēts vienai saknes definīcijai. Viena ER konfigurācija var ietvert daudzus kartēšanas komponentus, katrs no tiem ir konfigurēts vienai saknes definīcijai.
 

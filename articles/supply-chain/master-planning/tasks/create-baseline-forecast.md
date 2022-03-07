@@ -1,7 +1,7 @@
 ---
 title: 'Rokasgrāmata: Bāzlīnijas prognozes izveide'
 description: Ražošanas plānotājs var izveidot bāzlīnijas prognozes, izmantojot laika sērijas prognozes modeļus vai kopējot vēsturisko pieprasījumu.
-author: ChristianRytt
+author: ShylaThompson
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: ReqIntercompanyPlanningGroupSetup, ReqIntercompanyPlanningGroupA
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 843e0b3827851e1251a2c77269859bb7903f69ec
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 95a20b30827c9096dd8d8f67d149305cf594ff05
+ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578324"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6223966"
 ---
 # <a name="guide-create-a-baseline-forecast"></a>Rokasgrāmata: Bāzlīnijas prognozes izveide
 

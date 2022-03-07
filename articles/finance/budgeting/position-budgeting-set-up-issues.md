@@ -2,11 +2,9 @@
 title: Pozīciju budžeta izveides problēmu novēršana
 description: Šajā raksta ir sniegtas atbildes uz jautājumiem, kas var rasties budžeta veidošanas pozīciju konfigurēšanas gaitā. Tēma atsaucas uz biežāk uzdotajiem jautājumiem par to, kā izveidot budžeta izmaksu elementus, atlīdzību grupas un atlīdzību režģus.
 author: panolte
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmBudgetPurposeType, HcmPositionForecast
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8211c5bd4514bffbd001f9930859f777dac7f0e1
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 492a0798d1934b0fe1adf4f0546013f394beab06948f02f92358bae408e7748f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017621"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726066"
 ---
 # <a name="position-budgeting-troubleshooting"></a>Pozīciju budžeta izveides problēmu novēršana
 
@@ -30,8 +28,7 @@ ms.locfileid: "5017621"
 
 Šajā raksta ir sniegtas atbildes uz jautājumiem, kas var rasties budžeta veidošanas pozīciju konfigurēšanas gaitā. Tēma atsaucas uz biežāk uzdotajiem jautājumiem par to, kā izveidot budžeta izmaksu elementus, atlīdzību grupas un atlīdzību režģus. 
 
-<a name="why-cant-i-find-the-forecast-position-page-in-human-resources"></a>Kāpēc nevar atrast prognozes pozīciju lapā Personāla vadība?
----------------------------------------------------------------
+## <a name="why-cant-i-find-the-forecast-position-page-in-human-resources"></a>Kāpēc nevar atrast prognozes pozīciju lapā Personāla vadība?
 
 Prognožu pozīcijas ir pārvietotas uz lapu Budžeta veidošana.
 
@@ -63,3 +60,6 @@ Prognozes pozīcijas izmaksu elementa rindas datumiem jābūt tālāk norādīta
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c84a5f346bae440fb7a0ec6b2c3b813a30e8edd
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: d4763b0bc4ba0222e290a9056f421506c2f4eaf3
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4695143"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5560881"
 ---
 # <a name="help-system"></a>Palīdzības sistēma
 
@@ -163,4 +162,7 @@ Varat izveidot Palīdzību lietotājiem, izveidojot pielāgotus uzdevuma ceļve�
 | [Docs.microsoft.com/previous versions](/previous-versions/dynamics/) | Šī vietne vieso saturu no iepriekšējiem laidieniem. |
 | [Dynamics kopiena](https://community.dynamics.com/) | Šī vietne vieso emuārus, forumus un video. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Šī vietne sniedz novērtējumu un pārdošanas informāciju. |
-| [CustomerSource](https://mbs.microsoft.com/customersource/)\* | Šī vietne vieso apmācību resursus, lejupielādējamas atskaites un tehniskos dokumentus un ir primārā atbalsta vietne pakalpojumu plāna turētājiem. Lai piekļūtu dažiem šīs vietnes resursiem, var būt nepieciešams pakalpojumu plāns. |
+| [CustomerSource](https://docs.microsoft.com/dynamics/s-e/)\* | Šī vietne vieso apmācību resursus, lejupielādējamas atskaites un tehniskos dokumentus un ir primārā atbalsta vietne pakalpojumu plāna turētājiem. Lai piekļūtu dažiem šīs vietnes resursiem, var būt nepieciešams pakalpojumu plāns. |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

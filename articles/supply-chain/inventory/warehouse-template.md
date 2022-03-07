@@ -2,11 +2,9 @@
 title: Noliktavas iestatīšana, izmantojot noliktavas konfigurācijas veidni
 description: Šajā tēmā ir aprakstīts, kā iestatīt noliktavu, izmantojot noliktavas konfigurācijas veidni.
 author: perlynne
-manager: tfehr
 ms.date: 11/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DataManagementWorkspace, DMFQuickImportExportEnhanced, DMFDefinitionGroupTemplate, DMFEntityTemplateDefinitionLoadDialog
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: d533eed984c188c5b6520232f2b875bddd1f57bf
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c4b5b6db9126f9b520945f63b24db26fdbdccf8c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967134"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816632"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Noliktavas iestatīšana, izmantojot noliktavas konfigurācijas veidni
 
@@ -97,3 +95,6 @@ Lai uzzinātu vairāk par to, kā izmantot noliktavas veidni noliktavu konfigur�
 ## <a name="related-topic"></a>Saistītā tēma
 
 [Konfigurācijas datu veidnes](../../dev-itpro/data-entities/configuration-data-templates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

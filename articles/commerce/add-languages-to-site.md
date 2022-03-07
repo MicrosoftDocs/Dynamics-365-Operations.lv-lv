@@ -1,37 +1,31 @@
 ---
 title: Valodu pievienošana vietnei
-description: Šajā tēmā paskaidrots, kā pievienot atbalstu papildu valodām Microsoft Dynamics 365 Commerce vietnē.
+description: Šajā tēmā paskaidrots, kā pievienot papildu valodas Microsoft Dynamics 365 Commerce vietnei.
 author: bicyclingfool
-manager: annbe
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fa3029387d5f1ca605fc9559c4272c8dfebcddaf
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: d118c90dc16be964bb22aa6f170fe2d2f009b3e9
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413989"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964558"
 ---
 # <a name="add-languages-to-your-site"></a>Valodu pievienošana vietnei
 
-
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā paskaidrots, kā pievienot atbalstu papildu valodām Microsoft Dynamics 365 Commerce vietnē.
-
-## <a name="overview"></a>Pārskats
+Šajā tēmā paskaidrots, kā pievienot papildu valodas Microsoft Dynamics 365 Commerce vietnei.
 
 Varat lokalizēt savu vietni jebkurā valodā, ko atbalsta komercija. (Vēlāk šajā tēmā tiek parādīts atbalstīto valodu saraksts.) Lai jūsu vietnē pievienotu valodu, tā vispirms ir jāpievieno tiešsaistes veikalam, kas ir saistīts ar jūsu vietni.
 
@@ -171,8 +165,9 @@ Pievienotā valoda tagad būs pieejama. Varat konfigurēt savu vietni, lai to iz
 
 [Izlases ikonas pievienošana](add-favicon.md)
 
-[Sveiciena ziņojuma pievienošana](add-welcome-message.md)
-
 [Autortiesību paziņojuma pievienošana](add-copyright-notice.md)
 
 [Skripta koda pievienošana vietnes lapām, lai atbalstītu telemetriju](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Dimensiju izveide un dimensijas elementu importēšana
 description: Izmaksu uzskaite ir neatkarīgs modulis, kura darbības nolūkos ir nepieciešami pamatdati no citiem moduļiem.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 09/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimension
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6febb8a48cf6496fb7f4c2ee9f5281d47aa1ccae1a8ecc51c908b3810302e11c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3eedce9cd092f9c299a2381a28a801351f15c4cc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775126"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5226393"
 ---
 # <a name="create-dimensions-and-import-dimension-members"></a>Dimensiju izveide un dimensijas elementu importēšana
 
@@ -36,7 +38,7 @@ Izmaksu uzskaite ir neatkarīgs modulis, kura darbības nolūkos ir nepieciešam
 
 Nākamajā diagrammā ir redzamas izmaksu uzskaitē lietotās dimensijas.
 
-[![Izmaksu uzskaites dimensijas.](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)
+[![Izmaksu uzskaites dimensijas](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)
 
 Kad dati ir importēti modulī Izmaksu uzskaite, varat tos izmantot, lai veidotu dažādas perspektīvas, kuras sniedz ieskatu vadītājiem visos organizācijas līmeņos. Informācija par dimensiju izveidošanu un dimensiju elementu importēšanu ir sniegta tālāk uzskaitītajās tēmās. 
 

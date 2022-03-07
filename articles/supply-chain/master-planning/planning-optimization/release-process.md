@@ -1,7 +1,7 @@
 ---
 title: Plānošanas optimizācijas izlaišanas process un izlaišanas vēsture
 description: Šajā tēmā ir sniegta informācija par izlaišanas procesu un izlaišanas vēsturi optimizācijas plānošanai.
-author: ChristianRytt
+author: crytt
 ms.date: 09/21/2021
 ms.topic: article
 audience: Application User
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: f9674bb68d7f577a6efdef3416d1731d743d0555
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
-ms.translationtype: MT
+ms.openlocfilehash: 1bf08fc75aa2c05b2f2974ee46ec16609505f696
+ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087170"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506787"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Plānošanas optimizācijas izlaišanas process un izlaišanas vēsture
 
@@ -33,11 +33,6 @@ Tā kā paziņojumi netiek rādīti, kad jūsu vidē tiek atjaunināta plānoša
 
 | Izmaiņas | Līdzekļu pārvaldības informācija | Izlaišanas datumi |
 |---|---|---|
-| <p>Pievienots plānošanas prioritārais atbalsts ražošanas pasūtījumiem. | Pieejama ar versiju 10.0.25 kā daļa no nosauktās funkcijas *Uz prioritāti orientēts MRP atbalsts plānošanas optimizācijai*. | 2021. gada 12.–18. novembris |
-| <p>Vispārējie veiktspējas, kvalitātes un stabilitātes uzlabojumi. | Līdzekļu pārvaldība nav nepieciešama. | 2021. gada 12.–18. novembris |
-| <p>Pievienots atbalsts procesa laika aprēķināšanas formulām, ražošanas maršrutam ar pārklāšanos un ražošanas operāciju numuram prasību transakcijās.</p><p>Uzlaboti kļūdu ziņojumi ražošanas plānošanai saistībā ar taimautu, jaudu nevarēja atrast un ciklisku maršrutu.</p><p>Uzlabota konsekvence, aprēķinot saņemšanas datumus un izdošanas datumus gan plānotajiem pasūtījumiem, gan apstiprinātajiem pasūtījumiem.</p><p>Vispārējie veiktspējas, kvalitātes un stabilitātes uzlabojumi. | Līdzekļa nosaukums: *Bezgalīga noslodzes plānošana plānošanas optimizācijai* | 2021. gada 22.–27. oktobris |
-| <p>Pievienots atbalsts metāllūžņu procentu ņemšanai vērā apstrādes laika aprēķinā.</p><p>Pievienots atbalsts operāciju skaitam un materiālu lietojumam plānošanas laikā. | Līdzekļa nosaukums: *Bezgalīga noslodzes plānošana plānošanas optimizācijai* | 2021. gada 5.–7. oktobris |
-| <p>Pievienots atbalsts ražošanas maršruta darbu veidiem: **Rinda pirms**, **pēc**, un **Transporta laiks**.</p><p>Vispārējie veiktspējas, kvalitātes un stabilitātes uzlabojumi. | Līdzekļa nosaukums: *Bezgalīga noslodzes plānošana plānošanas optimizācijai* | 2021. gada 25.–30. septembris |
 | <p>Pievienots atbalsts galvenajiem plāniem ar opciju **Plānošanas metode** iestatītu uz vērtību *Operāciju plānošana*.</p><p>Lapā **Maršrutu grupas** ievērojiet iestatījumus aizzīmes laukiem **Aktivizācija**, **Darba laiks** un **Veiktspēja** rindām ar **Maršrutēšanas/uzdevuma veidu** *Iestatīšana* vai *Process*. </p><p>Vispārējie veiktspējas, kvalitātes un stabilitātes uzlabojumi. | <p>Operāciju plānošana ir pieejama līdzekļu pārvaldībā no 10.0.20. versijas.</p><p>Līdzekļa nosaukums: *Bezgalīga noslodzes plānošana plānošanas optimizācijai*</p>  | 2021. gada 9.—17. septembris |
 | Vispārējie veiktspējas, kvalitātes un stabilitātes uzlabojumi. | Līdzekļu pārvaldība nav nepieciešama. | 2021. gada 25.—30. augusts |
 | <p>Pievienotais **Izpildes laika** lauks plānotajiem pasūtījumiem.</p><p>Vispārējie veiktspējas, kvalitātes un stabilitātes uzlabojumi.</p> | Līdzekļu pārvaldība nav nepieciešama. | 2021. gada 12.—17. augusts |

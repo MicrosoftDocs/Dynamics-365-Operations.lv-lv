@@ -2,11 +2,9 @@
 title: Personāla atlases kandidāti
 description: Šajā tēmā ir parādīts, kā pieņemt kandidātus darbā risinājumā Dynamics 365 Human Resources.
 author: andreabichsel
-manager: tfehr
 ms.date: 12/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,16 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9a35abcb8a2f6aa8031c8d84a44c2a8ad93883ac
-ms.sourcegitcommit: 0354ca7e566fbd2eb0aabdd40000d4ac5c44ea78
+ms.openlocfilehash: 9259cfa78d65f36da653c807a66e291b3cb01c63
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4669179"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5802531"
 ---
 # <a name="recruit-job-candidates"></a>Personāla atlases kandidāti
 
-[!include [banner](includes/preview-feature.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dynamics 365 Human Resources palīdz pārvaldīt personāla atlases pieprasījumus. Tas palīdz arī netraucēti pāriet no kandidātiem uz darbiniekiem. Ja jūsu uzņēmums izmanto atsevišķu personāla atlases programmu, personāla atlases process var ietvert šādas darbības:
 
@@ -38,7 +36,7 @@ Dynamics 365 Human Resources palīdz pārvaldīt personāla atlases pieprasījum
 Ja neizmantojat atsevišķu personāla atlases programmu, varat arī manuāli pārvaldīt kandidātus Personāla vadībā.
 
 >[!NOTE]
->Ja jūs esat administrators vai izstrādātājs un vēlaties integrēt Personāla vadību, izmantojot trešās puses personāla atlases programmu, skatiet [Konfigurēt Common Data Service integrāciju](hr-admin-integration-common-data-service.md) un [Konfigurēt Common Data Service virtuālos elementus](hr-admin-integration-common-data-service-virtual-entities.md)
+>Ja jūs esat administrators vai izstrādātājs un vēlaties integrēt Personāla vadību, izmantojot trešās puses personāla atlases programmu, skatiet [Konfigurēt Dataverse integrāciju](hr-admin-integration-common-data-service.md) un [Konfigurēt Dataverse virtuālās tabulas](hr-admin-integration-common-data-service-virtual-entities.md)
 >
 > Varat arī atrast darbā pieņemšanas integrācijas programmas [AppSource](https://appsource.microsoft.com/marketplace/apps?search=recruiting%20dynamics).
 >
@@ -46,15 +44,13 @@ Ja neizmantojat atsevišķu personāla atlases programmu, varat arī manuāli p�
 
 ## <a name="enable-recruiting-requests"></a>Iespējot personāla atlases pieprasījumus
 
-Ja vēlaties iesniegt darbā pieņemšanas pieprasījumus Personāla vadībā, vispirms ir jāaktivizē funkcionalitāte **Personāla vadības parametros**.
+Ja vēlaties iesniegt darbā pieņemšanas pieprasījumus Personāla vadībā, vispirms ir jāaktivizē funkcionalitāte **Personāla vadības kopīgajos parametros**.
 
 1. Darbvietā **Personāla vadība** atlasiet **Saites**.
 
-2. Sadaļā **Iestatījumi** atlasiet **Personāla vadības parametri**.
+2. Sadaļā **Iestatījumi** atlasiet **Personāla vadības kopīgotie parametri**.
 
-3. Cilnē **Vispārīgi** sadaļā **Personāla atlase** iestatiet **Iespējot personāla atlases pieprasījumus** uz **Jā**.
-
-   ![Iespējot personāla atlases pieprasījumus](./media/hr-recruit-0-enable-requests.png)
+3. Cilnē **Pieņemšana darbā** sadaļā **Personāla atlase** iestatiet **Iespējot personāla atlases pieprasījumus** uz **Jā**.
 
 ## <a name="add-a-recruiting-request-location"></a>Pievienot personāla atlases pieprasījuma vietu
 
@@ -86,7 +82,7 @@ Vadītāji var iesniegt personāla atlases pieprasījumus Personāla vadībā. J
 
 2. Atlasiet cilni **Mana komanda**.
 
-3. Atlasiet **Pieprasījums, lai pieņemtu darbā**.
+3. Atlasiet  **Pieprasījums, lai pieņemtu darbā**.
 
    ![Sākt personāla atlases pieprasījumu](./media/hr-recruit-1-request-to-recruit.png)
 
@@ -224,6 +220,9 @@ Ja nepieciešams, varat noraidīt kandidātu pēc pieņemšanas darbā. Piemēra
 
 ## <a name="see-also"></a>Skatiet arī
 
-[Common Data Service virtuālo elementu konfigurēšana](hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[Pakalpojuma Dataverse virtuālo tabulu konfigurēšana](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Darbaspēka pārvaldība](hr-personnel-departments-jobs-positions.md)<br>
 [Darba komponentu iestatīšana](hr-personnel-jobs.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

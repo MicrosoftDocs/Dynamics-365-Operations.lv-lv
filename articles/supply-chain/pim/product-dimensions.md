@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 46079daafc744421abcbdf0a3539428f2a39f13c
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
-ms.translationtype: MT
+ms.openlocfilehash: dc7c92287ff88fe46b5aa46e15f7af3344d11e3e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920527"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820278"
 ---
 # <a name="product-dimensions"></a>Preces dimensijas
 
@@ -78,7 +78,7 @@ Uzņēmums pārdod džinsus. Krājumam *Džinsi* tiek izmantotas preces krāsas 
 
 ## <a name="the-version-product-dimension"></a>Versijas preces dimensija
 
-Versija ir produkta dimensija, kas paredzēta, lai palīdzētu uzturēt un izsekot vairāku preču versijas visā piegādes ķēdē. Versiju izsekošana ir būtiska to ražotājiem, kuri darbojas pasaules mērogā, sašaurinot preču dzīves ciklus, palielinātu kvalitātes un drošības prasību līmeni, kā arī palielinātu fokusu uz preču drošību.
+Versija ir produkta dimensija, kas paredzēta, lai palīdzētu uzturēt un izsekot vairāku preču versijas visā piegādes ķēdē. Versijas izsekošana ir svarīga ražotājiem, kas darbojas pasaulē, kur pastāvīgi tiek samazināti preču dzīves cikli, kvalitātes un uzticamības prasības un lielāka uzmanība tiek pievērsta preces drošībai.
 
 Kā standarta preces dimensija versija darbosies līdzīgi esošajām preču dimensijām (izmērs, stils, krāsa un konfigurācija). Tāpēc to var izmantot citiem nolūkiem, izņemot produktu versiju izsekošanai.
 

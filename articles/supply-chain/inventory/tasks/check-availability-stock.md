@@ -1,7 +1,7 @@
 ---
 title: Krājumu pieejamības pārbaude
 description: Šajā procedūrā parādīts, kā pārbaudīt rīcībā esošos un fiziski rīcībā esošos krājumus noteiktam krājuma kodam.
-author: yufeihuang
+author: ShylaThompson
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c1533dc677c53e90d73077e06a67c71cebc1b7e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: c1b68a40ba433f7db6eb910961cd429629387bbe
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574621"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834101"
 ---
 # <a name="check-the-availability-of-stock"></a>Krājumu pieejamības pārbaude
 

@@ -1,12 +1,10 @@
 ---
 title: ER finanšu dimensijas, ko izmanto kā datu avotu (3. daļa. Pārskata izkārtošana)
-description: Tālāk ir paskaidrots kā lietotājs, kam piešķirta loma sistēmas administrators vai elektroniskā pārskata izstrādātājs var konfigurēt datu modeli Elektroniskie pārskati (ER) izmantošanai finanšu dimensijās, kā datu avotu ER pārskatiem.
+description: Šajā tēmā ir aprakstīts, kā konfigurēt elektronisko pārskatu (ER) modeli, lai finanšu dimensijas izmantotu kā datu avotu ER pārskatiem. (3. daļa)
 author: NickSelin
-manager: AnnBe
 ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a12f88f1e8b5e451bc8a5c5486d820da61bf3ad0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: c854e9d30006dfa2deed63983a3a6b67f6ae9717
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684791"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605189"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>ER finanšu dimensijas, ko izmanto kā datu avotu (3. daļa. Pārskata izkārtošana)
 
@@ -94,7 +92,7 @@ Lai izpildītu šos soļus, vispirms ir jāpabeidz soļi, kas aprakstīti proced
 59. Noklikšķiniet uz Pievienot atribūtu.
 60. Laukā Nosaukums ierakstiet 'Desc'.
 61. Noklikšķiniet uz Labi.
-![ER operāciju veidotāja lapa](../media/er-financial-dimensions-guides-format1.png)
+![Noformētāja veidotāja lapas koka skats.](../media/er-financial-dimensions-guides-format1.png)
 
 ## <a name="map-report-elements-to-data-sources"></a>Kartējiet pārskata elementus datu avotiem
 1. Noklikšķiniet uz cilnes Kartēšana.
@@ -141,7 +139,10 @@ Lai izpildītu šos soļus, vispirms ir jāpabeidz soļi, kas aprakstīti proced
 42. Kokā atlasiet 'Sakne: XML elements\Uzņēmums: XML atribūts'.
 43. Kokā atlasiet 'modelis: datu modelis Finanšu dimensiju parauga modelis\Uzņēmums: Virkne'.
 44. Noklikšķiniet uz Saistīt.
-45. Klikšķiniet Saglabāt.
+45. Noklikšķiniet uz Saglabāt.
 46. Aizvērt lapu.
-![ER operāciju veidotāja lapa](../media/er-financial-dimensions-guides-format2.png)
+![Noformētāja veidotāja lapa, pārskata elementi ir kartēti uz datu avotiem.](../media/er-financial-dimensions-guides-format2.png)
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

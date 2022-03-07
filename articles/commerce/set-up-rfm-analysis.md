@@ -2,16 +2,13 @@
 title: Nesenības, biežuma un naudas (RFM) analīzes iestatīšana
 description: Šajā tēmā skaidrots, kā iestatīt nesenības, biežuma un naudas (RFM) analīzi jūsu debitoriem.
 author: josaw1
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: MCRRFMDefinition
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 78943
 ms.assetid: 8ff9aac3-5ada-4150-85fd-18901c926d53
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c7cb79fa82b579bee01e51cb635597cc5f711a98
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: d058401541d37dac55d0a500835ce9c357468656e467951f789207452f798d94
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414125"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765223"
 ---
 # <a name="set-up-recency-frequency-and-monetary-rfm-analysis"></a>Nesenības, biežuma un naudas (RFM) analīzes iestatīšana
 
@@ -97,3 +94,6 @@ Lai skatītu RFM analīzes ierakstus vai notīrītu vēsturi, izmantojiet tālā
 2. Lapā **RFM analīze** atlasiet ierakstu, kuru vēlaties apskatīt.
 3. Lai skatītu ierakstu vēsturi, atlasiet kopsavilkuma cilni **Vēsture**.
 4. Lai notīrītu ieraksta vēsturi, atlasiet **Notīrīt vēsturi**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

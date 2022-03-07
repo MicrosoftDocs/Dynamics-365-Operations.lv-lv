@@ -1,12 +1,10 @@
 ---
 title: Uzturēšanas budžeta atjaunināšana
 description: Šajā tēmā ir paskaidrots, kā atjaunināt uzturēšanas budžetu programmā Asset Management.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b04549700b51f73a3629fe9cd67a3e1f6c1bafbb
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 87c054cb96d56e40e35ee44142396f59d61395263ff41232423f6c7911478b0d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021033"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724944"
 ---
 # <a name="update-maintenance-budgets"></a>Uzturēšanas budžeta atjaunināšana
 
@@ -74,3 +72,6 @@ Lapā **Uzturēšanas budžeta rindas** jūs varat manuāli pievienot jaunu bud�
 
 - Jūs zināt, ka dažu līdzekļu atjaunošana pašlaik ir plānošanas posmā, bet saistītie uzdevumi vēl nav izveidoti līdzekļu pārvaldībā. Tomēr jūs vēlaties, lai šo uzdevumu budžeta izmaksas tiktu iekļautas uzturēšanas budžetā.
 - Kopš budžeta uzturēšanas budžeta sastādīšanas ir izveidoti jauni līdzekļi vai līdzekļu veidi, taču šiem līdzekļiem vai līdzekļu veidiem vēl nav izveidoti uzturēšanas plāni. Tomēr jūs vēlaties, lai šo līdzekļu veidu budžeta izmaksas tiktu iekļautas uzturēšanas budžetā.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

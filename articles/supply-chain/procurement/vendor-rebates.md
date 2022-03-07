@@ -1,26 +1,24 @@
 ---
 title: Kreditora atlaides
 description: Šajā tēmā ir sniegts apskats par visbiežāk lietotajiem uzdevumiem, kurus varat vēlēties izpildīt, kad strādājat ar kreditoru atlaidēm. Kreditoru atlaides uzņēmumiem palīdz labāk pārvaldīt savu piegādātāju atlaižu programmas, automatizējot nopelnīto atlaižu administrēšanai, izsekošanai un pieprasīšanai nepieciešamos uzdevumus.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TAMVendRebateAgreement
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: 46d6beb287f7d034c6fde09999f7854695a4987c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: ec8d054d023b7e3f6611199e60f661c480d44d57
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966659"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566867"
 ---
 # <a name="vendor-rebates"></a>Kreditora atlaides
 
@@ -55,7 +53,7 @@ Kreditora atlaižu līgums ir ieraksts par līgumu ar kreditoru, kur ir norādī
 
 Lai atvērtu lapu **Kreditoru atlaižu līgumi**, atlasiet **Sagāde un avoti** &gt; **Kreditoru atlaides** &gt; **Atlaižu līgumi**.
 
-![Pirkšanas līgums](media/purchase-agreement.PNG)
+![Pirkšanas līgums.](media/purchase-agreement.PNG)
 
 Lapā **Kreditoru atlaižu līgumi** varat redzēt detalizētu informāciju par norunātajiem kreditora līguma nosacījumiem.
 
@@ -65,28 +63,28 @@ Līguma virsrakstā ir norādīti vispārīgie nosacījumi, kas uzņēmumu padar
 
 - Cilnes **Vispārīgi** laukā **Mērvienības atlaides opcija** varat definēt, vai mērvienība ir jāizmanto kā nosacījums, lai pirkšanas pasūtījuma rinda kvalificētos atlaides prasībai.
 
-    - **Konvertēt** — pirkšanas pasūtījuma rinda kvalificējas kreditora atlaidei saskaņā ar atlaižu līgumu. Jūs saņemsit atlaidi neatkarīgi no rindai lietotās mērvienības.
-    - **Precīza atbilstība** — lai varētu saņemt atlaidi, pirkšanas rindā ir jābūt tādai pašai mērvienībai, kāda ir norādīta līgumā.
+    - **Konvertēt** — pirkšanas pasūtījuma rinda kvalificējas kreditora atlaidei saskaņā ar atlaižu līgumu. Jūs saņemsit atlaidi neatkarīgi no rindai lietotās mērvienības.
+    - **Precīza atbilstība** — lai varētu saņemt atlaidi, pirkšanas rindā ir jābūt tādai pašai mērvienībai, kāda ir norādīta līgumā.
 
 - Cilnes **Vispārīgi** laukā **Aprēķina datuma tips** atlasiet datumu, kas tiek izmantots, lai noteiktu, vai pirkšana notiek atlaižu līguma derīguma periodā.
 
-    - **Izveidots** — izmantot pirkšanas pasūtījuma izveidošanas datumu.
-    - **Pieprasītā piegāde** — izmantot pieprasīto piegādes datumu.
+    - **Izveidots** — izmantot pirkšanas pasūtījuma izveidošanas datumu.
+    - **Pieprasītā piegāde** — izmantot pieprasīto piegādes datumu.
 
 Līguma rindās kreditora atlaižu līgumu varat norādīt detalizētāk.
 
 - Laukā **Uzkrāt pirkumu pēc** varat iestatīt atlaides prasības aprēķinu. Summu var iestatīt tā, lai tā būtu atkarīga no perioda (nedēļas, mēneša, gada, darbmūža vai pielāgota perioda). Vērtība **Rēķins** norāda, ka atlaides prasība tiks noteikta katru reizi, kad pirkšanas pasūtījuma rinda tiek iekļauta rēķinā.
 - Laukā **Ņemts no** varat norādīt atlaides aprēķina pamatu.
 
-    - **Bruto** — atlaide tiek aprēķināta, pamatojoties uz krājuma bruto cenu.
-    - **Neto** — atlaide tiek aprēķināta, pamatojoties uz krājuma neto cenu (tas ir, cenu pēc pārējo atlaižu piemērošanas).
+    - **Bruto** — atlaide tiek aprēķināta, pamatojoties uz krājuma bruto cenu.
+    - **Neto** — atlaide tiek aprēķināta, pamatojoties uz krājuma neto cenu (tas ir, cenu pēc pārējo atlaižu piemērošanas).
 
 - Lauks **Atlaižu programmas uzkrājumu konts** un **Atlaižu programmas izdevumu konts** norāda numurus kontiem, kuri apstiprināšanas un apstrādes starpposmā saņems uzkrātās atlaižu summas.
 - Ja opcija **Nepieciešams apstiprinājums** ir iestatīta uz **Jā**, tad atlaižu prasība ir jāapstiprina, pirms to var uzkrāt vai izmaksāt.
 - Laukā **Atlaides rindas pārtraukuma tips** ir norādīts atlaižu pamats.
 
-    - **Daudzums** — atlaides ir atkarīgas no apjoma.
-    - **Summa** — atlaides ir atkarīgas no summas.
+    - **Daudzums** — atlaides ir atkarīgas no apjoma.
+    - **Summa** — atlaides ir atkarīgas no summas.
 
 - Kopsavilkuma cilnē **Rindas** varat redzēt, kā dažādu atlaižu piešķiršanas nolūkos var iestatīt dažādas daudzuma pakāpes. Piemēram, iepriekšējā ilustrācijā lauki **No vērtības** un **Līdz vērtībai** norāda, ka preču daudzums no 10 līdz 19 vienībām būs tiesīgs saņemt 15 USD atlaidi par vienību.
 
@@ -131,7 +129,7 @@ Kad prasības ir apstiprinātas, tās var apstrādāt ar moduli Parādi kreditor
 
     Par prasības summu tiek grāmatots atlaižu uzkrāšanas žurnāls. Ar šo grāmatojumu tiek debetēts konts Saņemamās uzkrātās kreditoru atlaides par paredzamo kreditora kredītu un tiek kreditēts pagaidu konts Saņemtās uzkrātās kreditoru atlaides par paredzamo peļņu.
 
-    ![Paziņojums](media/message.png)
+    ![Zņojums.](media/message.png)
 
 5. Atlaižu sarakstā atlasiet rindu un pēc tam darbību rūtī atlasiet **Atlaižu transakcijas**, lai šim atlaižu uzkrājuma grāmatojumam redzētu žurnāla partijas numuru un pārvietotos uz to.
 
@@ -166,3 +164,6 @@ Kreditoru atlaižu apstrādes process ietver vairākus manuālus izsekošanas uz
 - Uzkrāto atlaižu prasību ģenerēšana
 - Prognozēto saņemamās un pagaidu peļņas uzkrāšana virsgrāmatā
 - Kreditora bilances un peļņas un zaudējumu pārskata atjaunināšana ar izpildāmajiem atvieglojumiem
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

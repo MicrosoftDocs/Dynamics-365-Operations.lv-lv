@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: c2a35079f43b92b5ff6d68aa7068f3e1f68ce8c2c32d23cdd22798f95c9a0ff4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b24d37292a2e9749fb2fde06b9f03fcd13db0bbe
+ms.sourcegitcommit: 48528233e0f02dbd47e96e030254ef65f2bb899e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732229"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "6076604"
 ---
 # <a name="enter-skills"></a>Ievadīt prasmes
 
@@ -45,17 +45,17 @@ Lai ievadītu prasmes bez apstiprinājuma, jāizveido darbplūsma, lai automāti
 
 4. Darbības rūtī **Izveidot darbplūsmu** atlasiet **Darbinieka prasmes**.
 
-   [![Atlasīt Darbinieka prasmju darbplūsmu.](media/hr-develop-skills-new-workflow.png)](media/hr-develop-skills-new-workflow.png)
+   [![Atlasīt Darbinieka prasmju darbplūsmu](media/hr-develop-skills-new-workflow.png)](media/hr-develop-skills-new-workflow.png)
 
 5. Dialoglodziņā **Atvērt šo failu?** atlasiet **Atvērt**. Kad tiek piedāvāts, ievadiet savus akreditācijas datus.
 
 6. Darbplūsmas redaktorā atlasiet darbplūsmas elementu **Apstiprināt prasmes** un velciet to uz kanvu.
 
-   [![Atlasīt Apstiprināt prasmes darbplūsmas elementu.](media/hr-develop-skills-element.png)](media/hr-develop-skills-element.png)
+   [![Atlasīt Apstiprināt prasmes darbplūsmas elementu](media/hr-develop-skills-element.png)](media/hr-develop-skills-element.png)
 
 7. Saistiet **Sākuma** elementu ar **Apstiprināt prasmes 1** elementu un pēc tam saistiet **Apstiprināt prasmes 1** elementu ar **Beigu** elementu. Jums var būt nepieciešams ritināt uz leju, lai skatītu **Beigu** elementu. Varat to vilkt tuvāk citiem elementiem.
 
-   [![Saistīt darbplūsmas elementus.](media/hr-develop-skills-connect-elements.png)](media/hr-develop-skills-connect-elements.png)
+   [![Saistīt darbplūsmas elementus](media/hr-develop-skills-connect-elements.png)](media/hr-develop-skills-connect-elements.png)
 
 8. Veiciet dubultklikšķi uz **Apstiprināt prasmes 1** darbplūsmas elementu, un pēc tam ar peles labo pogu noklikšķiniet uz **1. solis** elementu. Ar peles labo pogu noklikšķiniet uz elementu **1. solis** un pēc tam atlasiet **Rekvizīti**.
 
@@ -65,7 +65,7 @@ Lai ievadītu prasmes bez apstiprinājuma, jāizveido darbplūsma, lai automāti
 
 11. Atlasīt **Pievienot nosacījumu**. Pēc **Kur** atlasiet **Darbinieku pašapkalpošanās prasmes**, un pēc tam atlasiet **Darbinieku pašapkalpošanās prasmes.Persona**. Pēc **ir** atlasiet **lauku** un pēc tam atlasiet **Lietotāja attiecības ar personu.Persona**.
 
-    [![Norādīt nosacījumu.](media/hr-develop-skills-condition.png)](media/hr-develop-skills-condition.png)
+    [![Norādīt nosacījumu](media/hr-develop-skills-condition.png)](media/hr-develop-skills-condition.png)
 
 12. Atlasiet **Piešķire** navigācijas joslā pa kreisi.
 
@@ -73,11 +73,11 @@ Lai ievadītu prasmes bez apstiprinājuma, jāizveido darbplūsma, lai automāti
 
 14. Cilnes **Hierarhijas atlase** laukā **Hierarhijas tips:** atlasiet **Vadības hierarhija**.
 
-    [![Norādīt vadības hierarhiju.](media/hr-develop-skills-hierarchy.png)](media/hr-develop-skills-hierarchy.png)
+    [![Norādīt vadības hierarhiju](media/hr-develop-skills-hierarchy.png)](media/hr-develop-skills-hierarchy.png)
 
 15. Atlasiet **Aizvērt**, atlasiet **Darbplūsma** kanvas navigācijā un pēc tam atlasiet **Saglabāt un aizvērt**.
 
-Lai iegūtu vairāk informācijas par darbplūsmu izveidi, skatiet [Darbplūsmas sistēmas apskats](../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json).
+Lai iegūtu vairāk informācijas par darbplūsmu izveidi, skatiet [Darbplūsmas sistēmas apskats](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/overview-workflow-system?toc=/dynamics365/human-resources/toc.json).
 
 ## <a name="enter-skills-for-a-worker"></a>Ievadīt darbinieka prasmes
 

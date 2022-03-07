@@ -1,40 +1,42 @@
 ---
 title: Uzdevumu ceļvežu saglabāšana pakalpojumā LCS un to atkārtošana
-description: Šajā rakstā paskaidrots, kā saglabāt uzdevumu ceļvežus pakalpojumā Microsoft Dynamics Lifecycle Services (LCS) un pēc tam tos atkārtoti skatīt.
-author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+description: Šajā tēmā ir paskaidrots, kā saglabāt uzdevumu ceļvežus pakalpojumā Microsoft Dynamics Lifecycle Services (LCS) un pēc tam tos atkārtoti skatīt.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b55937c0867117809471f50f1987f7bf12a4b25d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 54251aed1a54f626e5cd6cbd983e3eb4589a02e8
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419553"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068363"
 ---
 # <a name="save-task-guides-to-lcs-and-replay-them"></a>Uzdevumu ceļvežu saglabāšana pakalpojumā LCS un to atkārtošana
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **Informācija par vidi** 
 
 Programma Microsoft Dynamics 365 Human Resources, kas ir izvietota, izmantojot pakalpojumu Microsoft Dynamics Lifecycle Services (LCS)
 
-**Problēma**
+**Izsniegt**
 
 Debitors vēlas saglabāt jaunos uzdevumu ierakstus savā LCS projektā un tad atkārtot saglabātos uzd. ceļvežus.
 
-**Risinājums**
+**Novēršana**
 
 Rīkojieties šādi, lai saglabātu uzd. ierakstu LCS.
 
@@ -53,7 +55,7 @@ Rīkojieties šādi, lai saglabātu uzd. ierakstu LCS.
 10. Izveid. uzd. ierakstu.
 11. Pēc beigām atl. **Sagl. pakalpojumā Lifecycle Services**.
 
-    ![Saglabāt pakalpojumos Lifecycle Services](media/task-guides.png)
+    ![Saglabāt pakalpojumos Lifecycle Services.](media/task-guides.png)
 
 12. Atlasiet BPM bibliotēku un zaru, kurā saglabāt uzd. ierakstu.
 
@@ -63,3 +65,6 @@ Rīkojieties šādi, lai atkārtotu uzd. ceļv. no LCS.
 2. Atl. **Atvērt no LCS**.
 3. Atlasiet bibliotēku un BPM zaru, kurā ir saglabātais uzd. ceļvedis.
 4. Atv. uzd. ceļvedi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

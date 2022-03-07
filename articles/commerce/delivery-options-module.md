@@ -1,6 +1,6 @@
 ---
 title: Piegādes opciju modulis
-description: Šajā tēmā ir apskatīti piegādes opciju moduļi un tiek paskaidrots, kā tos konfigurēt programmā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā aplūkoti piegādes opciju moduļi un paskaidrots, kā tos konfigurēt risinājumā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
 ms.date: 08/05/2020
@@ -10,27 +10,24 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: f9e8df576efd1e58fde235828823f31e87ed58bf
-ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
+ms.openlocfilehash: d0e5fa731d4b808cda9863074d17d1917410f399
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "4414216"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213678"
 ---
 # <a name="delivery-options-module"></a>Piegādes opciju modulis
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir apskatīti piegādes opciju moduļi un tiek paskaidrots, kā tos konfigurēt programmā Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
+Šajā tēmā aplūkoti piegādes opciju moduļi un paskaidrots, kā tos konfigurēt risinājumā Microsoft Dynamics 365 Commerce.
 
 Piegādes opciju moduļi ļauj klientiem izvēlēties piegādes veidu, piemēram, nosūtīšanas vai saņemšanas to tiešsaistes pasūtījumam. Piegādes adrese ir nepieciešama, lai noteiktu piegādes veidu. Ja piegādes adrese mainās, piegādes opcijas ir jāizgūst no jauna. Ja pasūtījumā ir iekļautas tikai tās preces, kas tiks saņemtas veikalā, šis modulis tiek automātiski slēpts.
 
@@ -83,3 +80,6 @@ Piegādes opciju moduli var pievienot tikai norēķināšanās modulim. Lai ieg�
 [Proporcionāla virsraksta maksu sadalīšana atbilstošajās pārdošanas rindās](pro-rate-charges-matching-lines.md)
 
 [Iestatiet piegādes veidus](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

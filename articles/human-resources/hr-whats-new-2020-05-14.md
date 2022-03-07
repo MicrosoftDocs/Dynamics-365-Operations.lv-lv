@@ -1,8 +1,8 @@
 ---
 title: Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2020. gada 14. maijs)
 description: Šajā tēmā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Human Resources uz 2020. gada 14. maiju.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
@@ -15,17 +15,19 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 76ca497cc7fabf737c8a0ee71363f22fd4201ea8
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: f1ef15bec1d2eb7b7aaca3a413e13089b36315fd
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528501"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465298"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2020. gada 14. maijs)
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -35,9 +37,9 @@ ms.locfileid: "4528501"
 
 Platformas izmaiņas iekļautas šīs nedēļas laidienā. Papildinformāciju skatiet [Platformas atjauninājumi Finance and Operations programmu versijai 10.0.10 (2020. gada maijs)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34). Šajā laidienā ir ietverti kļūdu labojumi un izmaiņas saglabātajos skatos.
  
-## <a name="ensure-common-data-service-picklists-are-consistent-with-leave-enums-436343"></a>Nodrošināts, lai Common Data Service salasīšanas saraksti atbilst Atvaļinājumu uzskaitījumiem (436343)
+## <a name="ensure-dataverse-picklists-are-consistent-with-leave-enums-436343"></a>Nodrošināts, lai Dataverse salasīšanas saraksti atbilst Atvaļinājumu uzskaitījumiem (436343)
 
-Common Data Service salasīšanas saraksti tagad atbilst Atvaļinājumu uzskaitījumiem.
+Dataverse salasīšanas saraksti tagad atbilst Atvaļinājumu uzskaitījumiem.
 
 ## <a name="allow-users-to-configure-leave-request-workflow-based-on-the-request-amount-300044"></a>Lietotājiem atļauts konfigurēt atvaļinājuma pieprasījuma darbplūsmu, pamatojoties uz pieprasījuma daudzumu (300044)
 
@@ -75,7 +77,7 @@ Tagad ir pieejams jauns pakešuzdevums, kas darbojas katru dienu. Tas samazina a
 
 Ar šīm izmaiņām Darba sākšanas reklāmkarogs ir slēpts lietotājiem, kas nav Sistēmas administratori vai Datu pārvaldības administratori. 
 
-## <a name="the-common-data-service-worker-address-entity-works-differently-in-terms-of-date-time-effective-dates-in-human-resources-425071"></a>Common Data Service Darbinieka adreses elements darbojas atšķirīgi, attiecībā uz datuma laika spēkā stāšanās datumiem Personāla vadības programmā (425071)
+## <a name="the-dataverse-worker-address-entity-works-differently-in-terms-of-date-time-effective-dates-in-human-resources-425071"></a>Dataverse Darbinieka adreses elements darbojas atšķirīgi, attiecībā uz datuma laika spēkā stāšanās datumiem Personāla vadības programmā (425071)
 
 Šīs izmaiņas nodrošina adreses informācijas saskaņošanu noteiktos scenārijos, pamatojoties uz adreses datumiem.
 
@@ -119,3 +121,5 @@ Jūs varat norādīt pārnešanas atvaļinājuma veidu pārnešanas bilancēm, j
 [Pārskats par Dynamics 365 Human Resources 2019. gada laidiena 2. kopumu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Procesa atjaunināšana](hr-admin-setup-update-process.md)</br>
 [Līdzekļu pārvaldība](hr-admin-manage-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,37 +1,36 @@
 ---
 title: Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2020. gada 03. septembris)
 description: Šajā tēmā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Human Resources uz 2020. gada 3. septembri.
-author: Darinkramer
-manager: tfehr
-ms.date: 9/03/2020
+author: andreabichsel
+ms.date: 09/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ddffff18e1d6d16bd5a5f7e7021f9a34651307fa
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: eae89e9c3bf32ab5a4c4e6c497c9d3baa5b75fde
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527463"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359225"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-3-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2020. gada 3. septembris)
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Human Resources. Izmaiņas attiecas uz būvējuma numuru 8.1.3504. Dažos virsrakstos redzamie numuri iekavās attiecas uz atbalsta atsauces numuriem portālā Lifecycle Services (LCS).
 
-Lai iegūtu papildinformāciju par gaidāmajiem līdzekļiem programmā Human Resources, skatiet [Pārskats par Dynamics 365 Human Resources 2019. gada laidiena 2. laidiens](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/). Papildinformāciju par Human Resources atjaunināšanas procesu skatiet sadaļā [Atjaunināšanas process](hr-admin-setup-update-process.md).
+Lai iegūtu papildinformāciju par gaidāmajiem līdzekļiem programmā Human Resources, skatiet [Pārskats par Dynamics 365 Human Resources 2019. gada laidiena 2. laidiens](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/). Papildinformāciju par Human Resources atjaunināšanas procesu skatiet sadaļā [Atjaunināšanas process](hr-admin-setup-update-process.md).
 
 ## <a name="in-this-release"></a>Šajā laidienā
 
@@ -76,21 +75,21 @@ Analīzes pārskats tagad rāda pareizu **apmaksas likmes** informāciju.
 
 Darbinieki var skatīt un pieprasīt prombūtnes laiku sistēmā Microsoft Teams. Tās var mijiedarboties ar robotu, lai izveidotu atvaļinājumu pieprasījumus. Plašāku informāciju skatiet:
 
-- [Darbinieka atvaļinājuma un kavējumu pieredze Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) Dynamics 365 2020. gada izlaiduma 1. laidiena plānā
-- [Programma Human Resources risinājumā Teams](https://go.microsoft.com/fwlink/?linkid=2127841) Human Resources dokumentācijā
+- [Darbinieka atvaļinājuma un kavējumu pieredze Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) Dynamics 365 2020. gada izlaiduma 1. laidiena plānā
+- [Programma Human Resources risinājumā Teams](./hr-admin-teams-leave-app.md) Human Resources dokumentācijā
 
 ### <a name="human-resources-app-in-teams-preview-features"></a>Programma Human Resources programmas Teams priekšskatījuma līdzekļos
  
 -  **Paziņojumi**: iesniedzēji un pārtraukuma pieprasījumu apstiprinātāji tiek informēti par Personāla vadības lietotni programmā Teams. Apstiprinātāji varēs apstiprināt vai noraidīt brīvā laika pieprasījumus. Iesniedzēji tiks informēti, ja pieprasījums tika apstiprināts vai noraidīts. Plašāku informāciju skatiet:
-   - [Darbinieka atvaļinājuma un kavējumu pieredze Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) Dynamics 365 2020. gada izlaiduma 2. laidiena plānā
-   - [Iespējot paziņojumus programmai Human Resources risinājumā Teams](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-teams-leave-app#enable-notifications-for-the-human-resources-app-in-teams) Human Resources dokumentācijā
-   - [Ieslēgt vai izslēgt Teams paziņojumus atsevišķiem lietotājiem](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-teams-leave-app#turn-teams-notifications-on-or-off-for-individual-users) Human Resources dokumentācijā
-   - [Teams paziņojumi](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#teams-notifications) Human Resources dokumentācijā
-   - [Skatīt jūsu grupas atvaļinājumu kalendāru](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#view-your-teams-leave-calendar) Human Resources dokumentācijā
+   - [Darbinieka atvaļinājuma un kavējumu pieredze Microsoft Teams](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) Dynamics 365 2020. gada izlaiduma 2. laidiena plānā
+   - [Iespējot paziņojumus programmai Human Resources risinājumā Teams](./hr-admin-teams-leave-app.md#enable-notifications-for-the-human-resources-app-in-teams) Human Resources dokumentācijā
+   - [Ieslēgt vai izslēgt Teams paziņojumus atsevišķiem lietotājiem](./hr-admin-teams-leave-app.md#turn-teams-notifications-on-or-off-for-individual-users) Human Resources dokumentācijā
+   - [Teams paziņojumi](./hr-teams-leave-app.md#respond-to-teams-notifications) Human Resources dokumentācijā
+   - [Skatīt jūsu grupas atvaļinājumu kalendāru](./hr-teams-leave-app.md#view-your-teams-leave-calendar) Human Resources dokumentācijā
  
 - **Pārvaldnieka pārtraukuma kalendārs** : vadītājiem būs iespēja redzēt apstiprināto un gaidāmo laiku to tiešajiem pārskatiem kalendāra skatā. Šis skats nodrošina vieglu izpratni par to, kad viņu grupas dalībnieki ir prom no darba. Plašāku informāciju skatiet:
-   - [Darbinieka atvaļinājuma un kavējumu pieredze Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) Dynamics 365 2020. gada izlaiduma 2. laidiena plānā
-   - [Skatīt jūsu grupas atvaļinājumu kalendāru](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#view-your-teams-leave-calendar) Human Resources dokumentācijā
+   - [Darbinieka atvaļinājuma un kavējumu pieredze Microsoft Teams](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) Dynamics 365 2020. gada izlaiduma 2. laidiena plānā
+   - [Skatīt jūsu grupas atvaļinājumu kalendāru](./hr-teams-leave-app.md#view-your-teams-leave-calendar) Human Resources dokumentācijā
 
 ### <a name="configuration-option-to-position-work-items-assigned-to-me-list-477004"></a>Konfigurācijas opcija, lai novietotu sarakstu Man piešķirtie darba elementi (477004)
 
@@ -98,17 +97,17 @@ Tagad ir pieejama jauna opcija, lai pozicionētu sarakstu **Man piešķirtie dar
 
 Šis līdzeklis arī veicina darbplūsmas opcijas, kas parādās personāla darbību veidlapās. Darbplūsmas opcijas parādās arī virs darbību kopsavilkuma cilnes, lai tām varētu ātri piekļūt. Plašāku informāciju skatiet: 
 
-- [Organizācijas un personāla vadības darbplūsmas ērtības uzlabojumi](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) risinājuma Dynamics 365 2020. gada laidiena 2. kopuma plānā
+- [Organizācijas un personāla vadības darbplūsmas ērtības uzlabojumi](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) risinājuma Dynamics 365 2020. gada laidiena 2. kopuma plānā
 
-![Darba vienumi, kas saistīti ar mani](./media/hr-workflow-work-items-assigned-to-me.png)
+![Darba vienumi, kas saistīti ar mani.](./media/hr-workflow-work-items-assigned-to-me.png)
 
-![Ātrā piekļuve arbplūsmas elementiem](./media/hr-workflow-quick-access.png)
+![Ātrā piekļuve arbplūsmas elementiem.](./media/hr-workflow-quick-access.png)
 
 ## <a name="coming-soon"></a>Drīzumā
 
-### <a name="checklist-entities-included-in-common-data-service"></a>Kontrolsaraksta entītijas iekļautas Common Data Service
+### <a name="checklist-entities-included-in-dataverse"></a>Kontrolsaraksta entītijas iekļautas Dataverse
 
-Kontrolsaraksta elementi Pievienošana, Noņemšana, Pārsūtīšana un Biznesa procesi drīz būs pieejami Common Data Service.
+Kontrolsaraksta elementi Pievienošana, Noņemšana, Pārsūtīšana un Biznesa procesi drīz būs pieejami Dataverse.
 
 ### <a name="benefits-management-reason-codes"></a>Priekšrocību pārvaldības pamatojuma kodi
 
@@ -117,6 +116,9 @@ Priekšrocību pārvaldības pamatojuma kodi drīz tiks apvienoti ar esošajiem 
 ## <a name="see-also"></a>Skatiet arī
 
 [Jaunumi un izmaiņas programmā Human Resources](hr-admin-whats-new.md)</br>
-[Pārskats par Dynamics 365 Human Resources 2019. gada laidiena 2. kopumu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Pārskats par Dynamics 365 Human Resources 2019. gada laidiena 2. kopumu](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Procesa atjaunināšana](hr-admin-setup-update-process.md)</br>
 [Līdzekļu pārvaldība](hr-admin-manage-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

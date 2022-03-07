@@ -1,27 +1,25 @@
 ---
 title: Kreditoru sadarbības mobilā darbvieta
 description: Šajā tēmā ir sniegta informācija par mobilo darbvietu Kreditoru sadarbība. Šī darbvieta palīdz kreditoriem pastāvīgi būt informētiem par pirkšanas pasūtījumiem, kas viņiem ir nosūtīti apstiprināšanai. Viņi var skatīt arī informāciju par jauniem un atjauninātiem pirkšanas pasūtījumiem un kontaktpersonām.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 267074
 ms.assetid: 1d293b3a-2fa2-418d-9347-78c2809d67fe
 ms.search.region: global
-ms.author: riluan
+ms.author: dabourq
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 5cd8a2b2db7147aca6bdc29ba15d99a619ddb4f8
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 21187bbc287c66ca1aee259089b2bebbabb72fdaa459b77359c8c5555b6cd801
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020840"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727850"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Kreditoru sadarbības mobilā darbvieta
 
@@ -56,10 +54,10 @@ Mobilā darbvieta **Kreditoru sadarbība** kreditoram ļauj veikt tālāk norād
 -   Skatiet informāciju par kreditora iesniegto lietotāja pieprasījumu un sekojiet līdzi pieprasījuma statusam. (Šim uzdevumam ir nepieciešama papildu drošības loma.)
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
-Priekšnosacījumi atšķiras atkarībā no jūsu organizācijai izvietotās Microsoft Dynamics 365 versijas.
+Priekšnosacījumi atšķiras atkarībā no jūsu organizācijai izvietotās Microsoft Dynamics 365 versijas.
 
 ### <a name="prerequisites-if-you-use-supply-chain-management"></a>Priekšnosacījumi, ja izmantojat Supply Chain Management
-Ja jūsu organizācijai ir izvietota programmatūra Supply Chain Management, sistēmas administratoram ir jāpublicē mobilā darbvieta **Kreditoru sadarbība**. Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+Ja jūsu organizācijai ir izvietota programmatūra Supply Chain Management, sistēmas administratoram ir jāpublicē mobilā darbvieta **Kreditoru sadarbība**. Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Priekšnosacījumi, ja izmantojat Microsoft Dynamics 365 for Operations versiju 1611 ar 3. platformas atjauninājumu vai jaunāku versiju
 Ja jūsu organizācijai ir izvietota Microsoft Dynamics 365 for Operations versija 1611 ar 3. platformas atjauninājumu vai jaunāku tā versiju, sistēmas administratoram ir jāizpilda tālāk norādītie priekšnoteikumi. 
@@ -74,12 +72,12 @@ Ja jūsu organizācijai ir izvietota Microsoft Dynamics 365 for Operations versi
 </thead>
 <tbody>
 <tr class="odd">
-<td>Ja izmantojat 3. platformas atjauninājumu, ir jāievieš KB 3216943.</td>
+<td>Ja izmantojat 3. platformas atjauninājumu, ir&#39;jāievieš KB 3216943.</td>
 <td>Sistēmas administrators</td>
-<td>KB 3216943 ir binārais atjauninājums, kas ir nepieciešams, ja izmantojat 3. platformas atjauninājumu. Lai ieviestu šo KB, sistēmas administratoram ir jāizpilda tālāk minētās darbības.
+<td>KB 3216943 ir binārais atjauninājums, kas ir&#39;nepieciešams, ja izmantojat 3. platformas atjauninājumu. Lai ieviestu šo KB, sistēmas administratoram ir jāizpilda tālāk minētās darbības.
 <ol>
 <li>Lejupielādējiet KB 3216943 no pakalpojuma Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li>Instalējiet bināro atjauninājumu, kas ir nodrošināts kā izvietojama pakotne. Informāciju par to, kā lietot izvietojamu pakotni, skatiet sadaļā <a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Lietot izvietojamu pakotni</a>.</li>
+<li>Instalējiet bināro atjauninājumu, kas ir nodrošināts kā izvietojama pakotne. Informāciju par to, kā lietot izvietojamu pakotni, skatiet sadaļā <a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Lietot izvietojamu pakotni</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
@@ -87,14 +85,14 @@ Ja jūsu organizācijai ir izvietota Microsoft Dynamics 365 for Operations versi
 <td>Sistēmas administrators</td>
 <td>KB 4013633 ir X++ atjauninājums jeb metadatu labojumfails, kurā ir ietverta mobilā darbvieta <strong>Rīcībā esošie krājumi</strong>. Lai ieviestu KB 4013633, jūsu sistēmas administratoram ir jāizpilda tālāk minētās darbības.
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Lejupielādējiet metadatu labojumfailu no LCS</a>.</li>
-<li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Instalējiet metadatu labojumfailu</a>.</li><li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Izveidojiet izvietojamu pakotni,</a> kas ietver modeli <strong>SCMMobile</strong>, un pēc tam augšupielādējiet izvietojamo pakotni pakalpojumā LCS.</li>
-<li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Lietojiet izvietojamo pakotni</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Lejupielādējiet metadatu labojumfailu no LCS</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalējiet metadatu labojumfailu</a>.</li><li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Izveidojiet izvietojamu pakotni,</a> kas ietver modeli <strong>SCMMobile</strong>, un pēc tam augšupielādējiet izvietojamo pakotni pakalpojumā LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Lietojiet izvietojamo pakotni</a>.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>Mobilajai darbvietai <strong>Kreditoru sadarbība</strong> ir jābūt publicētai.</td><td>Sistēmas administrators</td>
-<td>Skatiet tēmu <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Mobilās darbvietas publicēšana</a>.</td>
+<td>Skatiet tēmu <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Mobilās darbvietas publicēšana</a>.</td>
 </tr>
 <tr class="even">
 <td>Piegādātāja lietotājam ir jānodrošina piekļuve kreditoru sadarbības tīmekļa interfeisam tīmekļa klientā un ir jāiestata kreditoru sadarbības lietotājs.</td><td>Iepirkumu speciālisti un sistēmas administrators</td>
@@ -118,16 +116,16 @@ Mobilās programmas Finance and Operations lejupielāde un instalēšana.
 
 ## <a name="sign-in-to-the-mobile-app"></a>Pierakstīšanās mobilajā programmā
 1.  Palaidiet programmu savā mobilajā ierīcē.
-2.  Ievadiet savu Microsoft Dynamics 365 vietrādi URL.
+2.  Ievadiet savu Microsoft Dynamics 365 vietrādi URL.
 4.  Pirmajā pierakstīšanās reizē tiek prasīts ievadīt lietotājvārdu un paroli. Ievadiet savus akreditācijas datus.
 5.  Pēc pierakstīšanās tiek parādītas jūsu uzņēmumam pieejamās darbvietas. Ņemiet vērā, ka gadījumā, ja sistēmas administrators vēlāk publicēs jaunu darbvietu, jums būs jāatsvaidzina mobilo darbvietu saraksts.
 
-    [![Velciet, lai atsvaidzinātu](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+    [![Velciet, lai atsvaidzinātu.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="use-the-vendor-collaboration-mobile-workspace"></a>Mobilās darbvietas Kreditoru sadarbība lietošana
 Atlasot darbvietu **Kreditoru sadarbība**, būs redzamas tālāk norādītās opcijas.
 
-![Kreditoru sadarbības mobilā darbvieta](./media/vendor-collaboration-mobile-app.png)
+![Kreditoru sadarbības mobilā darbvieta.](./media/vendor-collaboration-mobile-app.png)
 
 Darbvietā **Kreditoru sadarbība** ir tālāk aprakstītās lapas.
 
@@ -169,3 +167,6 @@ Tiek rādītas visas pasūtījuma rindas atbildē veiktās izmaiņas. Taču aug�
 
 ### <a name="open-confirmed-orders"></a>Atvērtie apstiprinātie pasūtījumi
 Kad debitors apstiprina pirkšanas pasūtījumu (t.i., pirkšanas pasūtījuma statuss mainās uz **Apstiprināts**), tas tiek parādīts atvērto apstiprināto pasūtījumu sarakstā. Tas šajā sarakstā paliek, līdz debitors to reģistrē kā saņemtu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

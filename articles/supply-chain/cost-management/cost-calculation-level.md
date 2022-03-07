@@ -2,26 +2,26 @@
 title: Izmaksu aprēķina līmenis
 description: Šajā tēmā aprakstīts materiālu komplekta (MK) līmenis, kura nosaukums ir Izmaksu aprēķina līmenis. Šis MK līmenis tā aprēķinos neietver ražošanas un partijas pasūtījumus.
 author: AndersGirke
-manager: tfehr
 ms.date: 04/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-23
-ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 42088d8c005cf3fc04e768f1b8e8c8ca0b8c6993
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.12
+ms.openlocfilehash: e08d11c8e9d98e56c5ef076cbab7bb68bedea62a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967736"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7581036"
 ---
 # <a name="cost-calculation-level"></a>Izmaksu aprēķina līmenis
+
+[!include [banner](../includes/banner.md)]
 
 Materiālu komplekta (MK) līmenis ar nosaukumu **Izmaksu aprēķina līmenis** tā aprēķinos neietver ražošanas pasūtījumus un partijas pasūtījumus. Sistēma izmanto šo līmeni, kad tā veic izmaksu aprēķinus izmaksu aprēķināšanas versijās. Tādos procesos kā pārrēķins un krājumu slēgšana, sistēma to vietā izmanto **Izmaksu līmeņa** MK līmeni.
 
@@ -56,3 +56,6 @@ Pēc tam tiek izveidots ražošanas pasūtījuma precei C, un prece A tiek pievi
     - **Prece C:** 2
 
 Šī uzvedība nodrošina, ka ražošanas pasūtījuma MK izmaiņas neietekmē turpmākos izmaksu aprēķinus.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

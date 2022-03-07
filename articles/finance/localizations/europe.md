@@ -2,25 +2,23 @@
 title: Eiropas pārskats
 description: Šajā tēmā ir sniegtas saites uz Eiropai paredzētajiem Microsoft Dynamics 365 Finance dokumentācijas resursiem.
 author: ShylaThompson
-manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.custom: intro-internal
 ms.search.region: global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d63d5682521b1991c387604c2cc219c7f147c8d
-ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
+ms.openlocfilehash: 37017a082c33b83b78569b748e3d266da4f0df3bc03402ff4cf4a53e415d4f2c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "4512215"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750283"
 ---
 # <a name="europe-overview"></a>Eiropas pārskats
 
@@ -41,6 +39,7 @@ ms.locfileid: "4512215"
 - [ES pārdošanas saraksta pārskats](emea-eu-sales-list.md)
 - [Valūtas maiņas kursa korekcijas](emea-exchange-rate-adjustments.md)
 - [Faila formāti maksāšanas metodēm](emea-select-file-formats-for-the-method-of-payments.md)
+- [Finanšu (globalizācijas) norādes par Brexit ietekmi](https://businesscenter.mbs.microsoft.com/#contentdetail/GuidanceBrexitImpact)
 - [Finanšu pakalpojumu (ESR) integrācija](emea-fiscal-service-integration.md)
 - [Pamatlīdzekļu norakstīšana Igaunijai un Lietuvai](emea-credit-note-reverse-fixed-asset-sale.md)
 - [Pārsūtīšanas dokumenta ģenerēšana iekšējo krājumu pārsūtīšanai](tasks/transfer-document-internal-inventory-transfer.md)
@@ -65,6 +64,7 @@ ms.locfileid: "4512215"
 - [Rēķina apstrāde](emea-invoice-processing.md)
 - [ES ieraksta sertifikāta izsniegšana](tasks/eur-00012-issue-eu-entry-certificate.md)
 - [Atbalstītie standarti elektroniskajai rēķinu izrakstīšanai](emea-oioubl-standards-electronic-invoicing.md)
+- [Piespiedu elektronisko rēķinu ģenerēšana](emea-eur-forced-einvoices.md)
 - [Sākotnējā rēķina atsauce (Austrumeiropa)](tasks/ee-00004-original-invoice-reference.md)
 - [Pušu meklēšana pēc PVN ID](tasks/eur-00015-party-search-vat-id.md)
 - [Maksājuma atsauces ģenerēšanas rīks](tasks/ee-00015-payment-reference-generation-tool.md)
@@ -97,5 +97,8 @@ ms.locfileid: "4512215"
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-- [Elektronisko pārskatu veidošanas apskats](../../dev-itpro/analytics/general-electronic-reporting.md)
-- [Lejupielādēt elektronisko pārskatu veidošanas konfigurāciju no Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+- [Elektronisko pārskatu veidošanas apskats](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md)
+- [Lejupielādēt elektronisko pārskatu veidošanas konfigurāciju no Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

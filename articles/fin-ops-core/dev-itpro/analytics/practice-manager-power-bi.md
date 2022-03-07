@@ -1,12 +1,10 @@
 ---
 title: Power BI satura pakotne Prakses pārvaldnieks
-description: Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI satura pakotnē Prakses pārvaldnieks. Tajā ir paskaidrots, kā piekļūt pārskatiem, kas ir iekļauti saturā, un ir sniegta informācija par satura izveidei izmantoto datu modeli un elementiem.
-author: KimANelson
-manager: AnnBe
+description: Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI satura pakotnē Prakses pārvaldnieks.
+author: kfend
 ms.date: 12/18/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
@@ -16,18 +14,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 17a68e5aedb8b085c85d1ed7b6ad87f3eaecfc25
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 4acef3c595f25fa0be16945a9f41611832cfcea9
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685709"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500225"
 ---
 # <a name="practice-manager-power-bi-content"></a>Power BI satura pakotne Prakses pārvaldnieks
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kas ir iekļauts Microsoft Power BI satura pakotnē **Prakses pārvaldnieks**. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
+Šajā tēmā ir aprakstīts, kas ir iekļauts satura pakotnē **Prakses pārvaldnieks** programmā Microsoft Power BI. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
 
 ## <a name="overview"></a>Pārskats
 
@@ -117,3 +115,6 @@ Tālāk esošajās sadaļās ir paskaidroti apkopošanas mērījumi, kas tiek iz
 | Galvenais apkopošanas mērījums       | Lauks               | Apraksts |
 |---------------------------------|---------------------|-------------|
 | Pabeigtās aktivitātes plānotās izmaksas | Sum(TotalCostPrice) | Visu pabeigtus uzdevumus ietverošo projekta transakciju veidu novērtētas izmaksu cenas kopsumma. |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

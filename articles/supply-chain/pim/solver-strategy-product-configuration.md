@@ -1,10 +1,12 @@
 ---
 title: Risinātāja stratēģija preces konfigurācijai
 description: Šajā tēmā ir aprakstīts, kā varat izmantot risinātāja stratēģiju, lai uzlabotu preču konfigurāciju.
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 02/19/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCCreateProductConfigurationModel, PCProductConfigurationModelListPage
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37e8f2c9557ee6fc827d60ca6dc83cd638b6378a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c368fe3ede2818f28e2063ae22cdfd49cd9bc68f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565707"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5244187"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Risinātāja stratēģija preces konfigurācijai
 
@@ -29,7 +31,7 @@ ms.locfileid: "7565707"
 
 Šajā tēmā ir aprakstīts, kā varat izmantot risinātāja stratēģiju, lai uzlabotu preču konfigurāciju.
 
-Risinātāja stratēģiju koncepcija pirmoreiz tika ieviesta Microsoft Dynamics AX 2012 R2 7. kumulatīvajā atjauninājumā (CU7). Tā tika paplašināta Microsoft Dynamics AX 2012 R3 8. kumulatīvajā atjauninājumā (CU8) un risinājumā Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3.
+Risinātāja stratēģiju koncepcija pirmoreiz tika ieviesta Microsoft Dynamics AX 2012 R2 7. kumulatīvajā atjauninājumā (CU7). Tā tika paplašināta Microsoft Dynamics AX 2012 R3 8. kumulatīvajā atjauninājumā (CU8) un risinājumā Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3.
 
 Risinātāja stratēģijas koncepcijā tagad ir ietvertas tālāk norādītās stratēģijas.
 
@@ -40,7 +42,7 @@ Risinātāja stratēģijas koncepcijā tagad ir ietvertas tālāk norādītās s
 
 ## <a name="solver-strategy"></a>Risinātāja stratēģija 
 
-Preces konfigurācijas modeli var formulēt kā [ierobežojuma apmierinātības problēmu (CSP — Constraint Satisfaction Problem)](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf). Microsoft Solver Foundation (MSF) nodrošina divu veidu risinātāja stratēģijas CSP gadījumu atrisināšanai, ko var izmantot no preču konfigurācijas modeļiem. Šo risinātāja stratēģiju pamatā ir [heiristika](https://techterms.com/definition/heuristic), ko izmanto, lai noteiktu secību, kādā problēmas risināšanas laikā tiek ņemti vērā CSP gadījumu mainīgie. Heiristika var ievērojami ietekmēt veiktspēju, kad tiek risināta problēma vai problēmu klase.
+Preces konfigurācijas modeli var formulēt kā [ierobežojuma apmierinātības problēmu (CSP — Constraint Satisfaction Problem)](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf). Microsoft Solver Foundation (MSF) nodrošina divu veidu risinātāja stratēģijas CSP gadījumu atrisināšanai, ko var izmantot no preču konfigurācijas modeļiem. Šo risinātāja stratēģiju pamatā ir [heiristika](https://techterms.com/definition/heuristic), ko izmanto, lai noteiktu secību, kādā problēmas risināšanas laikā tiek ņemti vērā CSP gadījumu mainīgie. Heiristika var ievērojami ietekmēt veiktspēju, kad tiek risināta problēma vai problēmu klase.
 
 Preču konfigurācijas modeļu risinātāja stratēģija nosaka, kurš risinātājs tiek izmantots heiristikai. Stratēģijas **Noklusējuma**, **Vispirms domēni ar minimālu vērtību skaitu** un **No augšas uz leju** izmanto divus MSF risinātājus, savukārt stratēģija **Z3** izmanto Z3 risinātāju. 
 
@@ -50,7 +52,7 @@ Reālu debitoru ieviešanas gadījumu pētījumi liecina, ka, mainot preces konf
 
 Lai mainītu risinātāja stratēģiju, lapas **Preču konfigurācijas modeļi** darbību rūtī atlasiet vienumu **Modeļa rekvizīti**. Pēc tam dialoglodziņā **Rediģēt detalizētu informāciju par modeli** atlasiet risinātāja stratēģiju.
 
-[![Risinātāja stratēģijas maiņa.](./media/solver-strategy.png)](./media/solver-strategy.png)
+[![Risinātāja stratēģijas maiņa](./media/solver-strategy.png)](./media/solver-strategy.png)
 
 Pašlaik nav loģikas, kas automātiski nosaka, kura risinātāja stratēģija ir visefektīvākā stratēģija preces konfigurācijai, kuras pamatā ir ierobežojums. Tādēļ jums risinātāja stratēģijas jāizmēģina pa vienai.
 

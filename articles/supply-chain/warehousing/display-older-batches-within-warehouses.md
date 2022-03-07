@@ -2,24 +2,27 @@
 title: Vecāko partiju rādīšanas noliktavā konfigurēšana, izmantojot mobilo ierīci
 description: Šajā tēmā aprakstīts, kā iestatīt mobilo ierīci tā, lai parādītu sarakstu ar novietojumiem, kuru partijas ir vecākas par pašreizējo darba rindas novietojumu.
 author: Mirzaab
+manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3d23a259f4c16026ee36f73b427f7d2e610a4b8d938c2e21ec9715d8d2b8137b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5b1c9452a811d662976a25993264be0617ac67fe
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727778"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432761"
 ---
 # <a name="configure-display-older-batches-within-warehouse-on-a-mobile-device"></a>Vecāko partiju rādīšanas noliktavā konfigurēšana, izmantojot mobilo ierīci
 
@@ -37,6 +40,3 @@ Konfigurācija **Rādīt vecākās partijas noliktavā** ir pieejama mobilās ie
 
 - Sadaļā **Noliktavas pārvaldība** > **Iestatīšana** > **Mobilā ierīce** > **Mobilās ierīces izvēlnes vienumi** iestatiet opciju **Izmantot esošo darbu** uz **Jā** izvēlnes vienumam un laukā **Izdot vecāko partiju** atlasiet **Brīdināt**. 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

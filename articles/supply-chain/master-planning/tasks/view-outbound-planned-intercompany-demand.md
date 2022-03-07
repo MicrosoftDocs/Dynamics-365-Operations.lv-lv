@@ -1,24 +1,26 @@
 ---
 title: Izejošo plānoto starpuzņēmumu pieprasījuma skatīšana
-description: Šī tēma sniedz procedūru, kas parāda, kā skatīt izejošo plānoto starpuzņēmumu pieprasījumu.
-author: ChristianRytt
+description: Šī procedūra parāda, kā skatīt visus plānotos pasūtījumus, kurus izpildīs starpuzņēmuma kreditors.
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, ReqOutboundIntercompanyDemand
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8cf2350d754c5da9d3d428e2b75950d027ccfd63
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 1bc3addb11d77a5098e80a5826bfea289d232548
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569749"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254291"
 ---
 # <a name="view-outbound-planned-intercompany-demand"></a>Izejošo plānoto starpuzņēmumu pieprasījuma skatīšana
 
@@ -26,18 +28,20 @@ ms.locfileid: "7569749"
 
 Šī procedūra parāda, kā skatīt visus plānotos pasūtījumus, kurus izpildīs starpuzņēmuma kreditors. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir DEMF.
 
-1. Atlasiet **Vispārējā plānošana**.
-2. Laukā **Plāns** ievadiet vai atlasiet kādu vērtību.
-    * Laukā **Plāns**, atlasiet plānu *10*.  
-3. Atlasiet *Izpildīt*.
-4. Laukā **Pavedienu skaits** ievadiet skaitli.
+1. Noklikšķiniet uz Vispārējā plānošana.
+2. Laukā Plāns ievadiet vai atlasiet kādu vērtību.
+    * Laukā Plāns, atlasiet plānot 10.  
+3. Noklikšķiniet uz Palaist.
+4. Laukā Pavedienu skaits ierakstiet kādu skaitli.
     * Tas norāda, cik paralēlu pavedienu tiks izmantots vispārējā plānošanā.  
-5. Atlasiet **Labi**.
+5. Noklikšķiniet uz OK.
     * Tas var aizņemt kādu laiku.  
-6. Atlasiet **Plānotais starpuzņēmumu pieprasījums**.
-7. Atlasiet **Izejošo plānoto starpuzņēmumu pieprasījums**.
+6. Noklikšķiniet uz plānotais starpuzņēmumu pieprasījums.
+7. Noklikšķiniet uz izejošo plānoto starpuzņēmumu pieprasījumu.
     * Šī lapa sniedz pārskatu par visiem plānotajiem pieprasījumiem, kas izpildīs iekšējās piegādes ķēdes kreditors.  
-8. Izvērsiet sadaļu **Augšējā pieprasījuma detalizēta informācija**.
+8. Izvērsiet sadaļu augšpus pieprasījuma detaļas.
     * Šajā sadaļā jūs varat skatīt detalizētu informāciju par to, kā tiks izpildīts pieprasījums. Iespējams, būs jāgaida, līdz piegādes uzņēmumā tiek veikta vispārējā plānošana, pirms jūs varat skatīt papildu informāciju šeit.  
+
+
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

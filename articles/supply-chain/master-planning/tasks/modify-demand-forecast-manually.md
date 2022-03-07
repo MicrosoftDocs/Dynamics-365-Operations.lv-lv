@@ -1,54 +1,47 @@
 ---
-title: 'Ceļvedis: Pieprasījuma apjoma prognozes manuāla modificēšana'
-description: Šajā tēmā aprakstīts, kā modificēt krājuma prognozi
-author: ChristianRytt
+title: Pieprasījuma prognozes manuāla modificēšana
+description: Šajā procedūrā parādīts, kā modificēt krājuma prognozi.
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/12/2019
 ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, ForecastSales
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f48e1689d21fd0085ec38aab8f5171997fbf432
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 31c057d686edc97a11027f156b9c14ff453294ec
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567203"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5240393"
 ---
-# <a name="guide-modify-a-demand-forecast-manually"></a>Ceļvedis: Pieprasījuma apjoma prognozes manuāla modificēšana
+# <a name="modify-a-demand-forecast-manually"></a>Pieprasījuma prognozes manuāla modificēšana
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā procedūrā parādīts, kā modificēt krājuma prognozi. Šī procedūra ir paredzēta ražošanas plānotājam.
+Šajā procedūrā parādīts, kā modificēt krājuma prognozi. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF. Šis ieraksts ir paredzēts ražošanas plānotājam. 
 
-## <a name="modify-the-forecast-for-a-selected-item"></a>Atlasītā krājuma prognozes modificēšana
 
-Lai mainītu atlasītā krājuma prognozi:
+## <a name="modify-the-forecast-for-an-item"></a>Krājuma prognozes modificēšana
+1. **Navigācijas rūtī** pārejiet uz sadaļu **Moduļi > Preču informācijas pārvaldība > Preces > Izlaistās preces**.
+2. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu. Atlasiet krājumu, kuram vēlaties mainīt prognozi. Piemēram, varat atlasīt krājumu D0001.  
+3. **Darbību rūtī** noklikšķiniet uz **Plāns**.
+4. Noklikšķiniet uz **Pieprasīt prognozi**.
+5. Sarakstā atzīmējiet atlasīto rindu. Ja nav nevienas prognožu rindas, izveidojiet jaunu rindu, lietojumprogrammas joslā noklikšķinot uz Jauna.  
+6. Laukā **Pārdošanas daudzums** ievadiet skaitu. Šis daudzums apzīmē krājuma prognozēto daudzumu.  
+7. Noklikšķiniet uz Saglabāt.
 
-1. Pārejiet uz sadaļu **Moduļi \> Preču informācijas pārvaldība \> Preces \> Izlaistās preces**.
-1. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu. Atlasiet krājumu, kuram vēlaties mainīt prognozi.
-1. Darbību rūtī atveriet cilni **Plāns** un atlasiet **Pieprasījuma apjoma prognoze**.
-1. Sarakstā atlasiet rindu. Ja nav nevienas prognožu rindas, izveidojiet jaunu rindu, darbību rūtī atlasot **Jauns**.  
-1. Laukā **Pārdošanas daudzums** ievadiet pozitīvu skaitli. Šis daudzums apzīmē krājuma prognozēto daudzumu. Ja ievadīsiet negatīvu skaitli, tiks parādīta kļūda.
-1. Pēc vajadzības aizpildiet parējos laukus.
-1. Atlasiet **Saglabāt** darbību rūtī.
+## <a name="modify-the-forecast-in-excel"></a>Prognozes modificēšana programmā Excel
+1. Programmā Microsoft Office noklikšķiniet uz **Atvērt**.
+2. Programmā Excel noklikšķiniet uz **Rediģēt pieprasījuma prognozi**. Programmā Excel varat pievienot, dzēst un rediģēt pieprasījuma prognozes rindas. Ja nevarat redzēt datus programmā Excel, nepieciešams pierakstīties ar iespējotu opciju "Neizrakstīties" un uzticēties datu savienojuma lietotnei.  
 
-## <a name="modify-the-forecast-for-one-or-more-items-with-microsoft-excel"></a>Modificējiet prognozi vienam vai vairākiem krājumiem Microsoft Excel
-
-Lai modificētu prognozi vienam vai vairākiem krājumiem Microsoft Excel:
-
-1. Veiciet vienu no tālāk norādītajām darbībām.
-    - Atveriet lapu **Pieprasījuma apjoma prognoze** jebkuram krājumam (nav svarīgi kuram) kā aprakstīts iepriekšējā sadaļā.
-    - Dodieties uz **Vispārējā plānošana \> Prognozēšana \> Manuāls prognozes ieraksts \> Pieprasījuma apjoma prognozes rindas**.
-1. Darbību rūtī atveriet **Atvērt Microsoft Office \> Pieprasījuma apjoma prognozes ieraksti**.
-1. Atlasiet lejupielādes vietu, saglabājiet un pēc tam atveriet lejupielādēto failu programmā Excel.
-1. Ja ir redzams brīdinājums, izvēlieties **Iespējot rediģēšanu**.
-1. Programmā Excel piesakieties Supply Chain Management, izmantojot Microsoft Dynamics uzdevumrūti. Ir jāpiesakās, ja opcija **Palikt pierakstītam** ir iespējota un jums ir jāuzticas datu savienojuma programmai.
-1. Excel izklājlapa tagad rāda visas pašreizējās pieprasījuma apjoma prognozes rindas jūsu uzņēmumam.  Pēc nepieciešamības pievienojiet, dzēsiet un labojiet pieprasījuma prognozes rindas.
-1. Atlasiet **Publicēt** pakalpojuma Microsoft Dynamics uzdevumrūtī, lai augšupielādētu izmaiņas atpakaļ Supply Chain Management.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

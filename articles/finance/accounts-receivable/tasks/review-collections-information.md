@@ -2,23 +2,26 @@
 title: Iekasēšanas informācijas pārskatīšana
 description: Šajā tēmā ir paskaidrots, kā pārskatīt iekasēšanas informāciju, kā arī aprakstītas dažādas iestatīšanas opcijas un iekasēšanas transakcijas.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 08/01/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustCollectionsPool, SysQueryForm, CustCollectionsAgent, OMTeamSelectMemberDialog, CustVendReportInterval, CustParameters, CustAgingSnapshot, CustVendAgingBucketLookUp, CustCollectionsPoolsListPage, CustCollectionsContactPart, CustCollections
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 59fcaef39460761dbe68273aecb5cbff8850ef031d43393277a17d07dd92db3b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9b5cc07c5dfb2444ff086c8b1f3bcc7634d8644d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778390"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4445610"
 ---
 # <a name="review-collections-information"></a>Iekasēšanas informācijas pārskatīšana
 
@@ -72,7 +75,7 @@ ms.locfileid: "6778390"
 - Atlasiet šo opciju, lai izveidotu atsevišķu žurnālu rindu PVN summām, kad tiek veidotas norakstīšanas transakcijas, izmantojot lapu **Iekasēšana** vai saistītās saraksta lapas. Ja atlasāt šo opciju, varat vienkāršāk sekot līdzi PVN summām, kas ir iesaistītas norakstīšanas transakcijās. Varat izsekot PVN summām atsevišķi, lai palīdzētu ērtāk pielāgot nodokļu parādu par ietekmēto periodu.  
 5. Izvērsiet vai sakļaujiet sadaļu **E-pasta veidne**.
 - Atlasiet e-pasta veidni, kuru vēlaties izmantot, kad sūtāt e-pasta ziņojumu, izmantojot darbību **E-pasts > Transakcijas** ar kontaktpersonu formā **Iekasēšana**.  
-- Atlasiet e-pasta veidni, kuru vēlaties izmantot, kad sūtāt debitora pārskatu kā pielikumu e-pasta ziņojumam, izmantojot darbību **E-pasts > Pārskati** kontaktpersonai formā **Iekasēšana**.  
+- Atlasiet e-pasta veidni, kuru vēlaties izmantot, kad sūtāt debitora pārskatu kā pielikumu e-pasta ziņojumam, izmantojot darbību **E-pasts > Pārskati** kontaktpersonai formā  **Iekasēšana**.  
 - Atlasiet e-pasta veidni, kuru vēlaties izmantot, kad sūtāt e-pasta ziņojumu, izmantojot darbību **E-pasts >Transakcijas** ar pārdevēju formā **Iekasēšana**.  
 
 ## <a name="age-customer-balance"></a>Debitora bilances vecuma noteikšana
@@ -140,6 +143,3 @@ ms.locfileid: "6778390"
 5. Atlasiet **Rādīt sarakstu**.
 - Atlasiet debitora kontu vai akceptējiet noklusējuma ierakstu. Pēc noklusējuma saraksta lapā vai formā, no kuras atvērāt šo formu, tiek atlasīts šis debitora konts. Ja formu atvērāt no saraksta lapas, sarakstā ietvertie debitori ir tie, kuri ir ietverti iekasēšanas kopā, kas tiek izmantota saraksta lapā.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

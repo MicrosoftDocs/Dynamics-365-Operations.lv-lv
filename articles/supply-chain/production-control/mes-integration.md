@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: ea39a1fc9092aaa4622c7193f7538acc85aa0f46
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
-ms.translationtype: MT
+ms.openlocfilehash: 14e86a49777eefefae711bfe0d756361b09d69c2
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952681"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778453"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Integrācija ar trešās puses ražošanas izpildes sistēmām
 
@@ -37,17 +37,10 @@ Risinājums atvieglo un ātrāku Piegādes ķēžu pārvaldības lietotāju inte
 
 ## <a name="turn-on-the-mes-integration-feature"></a>Ieslēgt MES integrācijas līdzekli
 
-Pirms šo funkciju iespējams izmantot, administratoram tas jāslēdz jūsu sistēmā kā aprakstīts šajā procedūrā.
+Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
 
-1. Dodieties uz **Sistēmas administrēšana \> Iestatījumi \> Licences konfigurācija**.
-1. Pārliecinieties, vai **laika un apmeklētības** licences atslēga ir iespējota (parāda atzīmi). Šī licences atslēga ir nepieciešama, jo tā kontrolē ražošanas izpildes sistēmas funkcionalitāti un datus. Ja tā nav iespējota, veiciet šādas darbības:
-    1. Ielieciet savu sistēmu uzturēšanas režīmā, kā aprakstīts sadaļā [Uzturēšanas režīms](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-    1. Licences **konfigurācijas lapā** atzīmējiet izvēles **rūtiņu Laiks un** apmeklētība.
-    1. Izslēgt uzturēšanas režīmu, kā aprakstīts [uzturēšanas režīmā](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)
-1. Dodieties uz **sistēmas \> administrēšanas darbalauku \> līdzekļu** pārvaldību.
-1. Slēdziet funkciju, kas ir uzskaitīta šādā veidā (skatiet arī Līdzekļu [pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pārskatu):
-    - **Modulis:** *Ražošanas kontrole*
-    - **Funkcionalitātes nosaukums:** *ražošanas izpildes sistēmas integrācija*
+- **Modulis:** *Ražošanas kontrole*
+- **Funkcionalitātes nosaukums:** *ražošanas izpildes sistēmas integrācija*
 
 ## <a name="processes-available-for-mes-integration"></a>MES integrācijai pieejamie procesi
 
@@ -152,11 +145,11 @@ Sāktam *ražošanas pasūtījuma ziņojumam ir*`_messageType``ProdProductionOrd
 | `ProductionWarehouseLocationId` | Neobligāti | Virkne |
 | `InventoryDimension1` līdz `InventoryDimension12` | Neobligāti | Virkne |
 
-12 paplašināmām dimensijām `InventoryDimension1``InventoryDimension12` (izmantojot) nepieciešama pielāgošana, un tās vienmēr netiek izmantotas. Papildinformāciju par tām skatiet sadaļā [Jaunu krājumu dimensiju pievienošana, izmantojot paplašinājumu](../../fin-ops-core/dev-itpro/extensibility/inventory-dimensions.md).
+12 paplašināmām dimensijām `InventoryDimension1``InventoryDimension12` (izmantojot) nepieciešama pielāgošana, un tās vienmēr netiek izmantotas. Papildinformāciju par tām skatiet sadaļā [Jaunu krājumu dimensiju pievienošana, izmantojot](../../fin-ops-core/dev-itpro/extensibility/inventory-dimensions.md) paplašinājumu.
 
 ### <a name="material-consumption-picking-list-message"></a>Materiālu patēriņa (izdošanas saraksta) ziņojums
 
-Materiālu *patēriņa (izdošanas saraksta)* ziņojumam vērtība `_messageType` ir `ProdProductionOrderPickingList`. Šajā tabulā redzami lauki, kurus šis ziņojums atbalsta.
+Materiālu *patēriņa (izdošanas saraksta)* ziņojumam vērtība `_messageType``ProdProductionOrderPickingList` ir. Šajā tabulā redzami lauki, kurus šis ziņojums atbalsta.
 
 | Lauka nosaukums | Statuss | Veids |
 |---|---|---|
@@ -198,7 +191,7 @@ Operācijas *(maršruta kartes) ziņojumam* izmantotais laiks ir `_messageType``
 
 | Lauka nosaukums | Statuss | Veids |
 |---|---|---|
-| `OperationNumber` | Obligāts | Vesels skaitlis |
+| `OperationNumber` | Obligāts | Obligāts, Vesels skaitlis |
 | `OperationPriority` | Neobligāti | Uzskaitījums (primārais \| Secondary1 \| Secondary2 \| ... \| Sekundārais20) |
 | `OperationId` | Neobligāti | Virkne |
 | `OperationsResourceId` | Neobligāti | Virkne |
@@ -249,5 +242,5 @@ Kad MES ir nosūtījis ziņojumu Piegādes ķēžu pārvaldībai, iespējams, ka
 
 Piemēram, varat iestatīt šādus brīdinājumus, lai sniegtu atsauksmi par ziņojuma stāvokli:
 
-- Izveidojiet biznesa notikumu ("Sūtīt ārēju"), kas tiek izmantots, ja ziņojums nav *izdevies*.
+- Izveidojiet biznesa notikumu ("Sūtīt ārēju"), kas tiek izmantots, ja ziņojums nav *·* izdevies.
 - Nosūtiet paziņojumu un e-pasta ziņojumu IT administratoram vai ražošanas stāvu pārvaldniekam.

@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 5132fd85fdf2c08ccded9db590328c394a2f984e
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.openlocfilehash: e2b652f11db62eb58ffc2ec2fc4322149e7d45d1
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744697"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680076"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Organizācijas hierarhija Dataverse
 
@@ -49,9 +49,9 @@ Preces informācijā ir ietverts viss nepieciešamais, kas saistīts ar preci un
 
 Finance and Operations programmas | Citas Dynamics 365 programmas | apraksts
 -----------------------|--------------------------------|---
-Organizācijas hierarhijas nolūki | msdyn_internalorganizationhierarchypurposes | Šī veidne nodrošina organizācijas hierarhijas mērķa tabulas vienvirziena sinhronizāciju.
-Organizācijas hierarhijas tips | msdyn_internalorganizationhierarchytypes | Šī veidne nodrošina organizācijas hierarhijas veida tabulas vienvirziena sinhronizāciju.
-Organizācijas hierarhija — publicēta | msdyn_internalorganizationhierarchies | Šī veidne nodrošina organizācijas hierarhijas publicētās tabulas vienvirziena sinhronizāciju.
+Organizācijas hierarhijas nolūki | msdyn_internalorganizationhierarchypurposes | Šī veidne nodrošina organizācijas hierarhijas mērķa elementa vienvirziena sinhronizāciju.
+Organizācijas hierarhijas tips | msdyn_internalorganizationhierarchytypes | Šī veidne nodrošina organizācijas hierarhijas veida elementa vienvirziena sinhronizāciju.
+Organizācijas hierarhija — publicētā | msdyn_internalorganizationhierarchies | Šī veidne nodrošina organizācijas hierarhijas publicētā elementa vienvirziena sinhronizāciju.
 Pārvaldības struktūrvienība | msdyn_internalorganizations |
 Juridiskas personas | msdyn_internalorganizations |
 Juridiskas personas | cdm_companies | Nodrošina juridiskas personas (uzņēmuma) informācijas divvirzienu sinhronizāciju.

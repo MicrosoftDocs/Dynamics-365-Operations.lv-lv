@@ -2,16 +2,13 @@
 title: Zvanu centra pārkāpumu brīdinājumu iestatīšana un darbs ar tiem
 description: Šajā tēmā izskaidrots, kā iestatīt kārtulas, lai brīdinātu klientu apkalpošanas pārstāvjus par potenciāli krāpniecisku informāciju, kad tiek apstrādāti pasūtījumi. Var definēt īpašus kodus, kas tiek izmantoti, lai automātiski vai manuāli aizturētu aizdomīgus pasūtījumus.
 author: josaw1
-manager: AnnBe
 ms.date: 05/14/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: SalesPostingHistory, MCRHoldCodeTrans
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 79103
 ms.assetid: e342af8d-7498-4d20-8483-ab368429c578
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 38649e40021d1caaf70f217b3ebae0d488806180
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: e692d43b8c2648a424ff3b4fdc9d0cf16d0e03702d6a237f71caaf49646c5ec3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414129"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763672"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Zvanu centra pārkāpumu brīdinājumu iestatīšana un darbs ar tiem
 
@@ -37,13 +34,13 @@ ms.locfileid: "4414129"
 
 ## <a name="turning-on-the-fraud-check-feature"></a>Pārkāpumu pārbaudes līdzekļa ieslēgšana
 
-Lai izmantotu pārkāpumu pārbaudes līdzekli, kanāla opcijai **Iespējot pasūtījuma pabeigšanu** ir jāiestata vienums **Jā**, kad zvanu centra kanāls ir [definēts](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-order-processing-options). Kad ir ieslēgta pasūtījuma pabeigšana, zvanu centra lietotājiem ir jāatlasa vienums **Pabeigt** pārdošanas pasūtījumu lapā visiem izveidotajiem pārdošanas pasūtījumiem. Pabeigšanas darbība atver lapu **Pārdošanas pasūtījumu kopsavilkums**. Pēc tam, kad lietotāji ievada nepieciešamos maksājuma datus lapā **Pārdošanas pasūtījumu kopsavilkums**, viņi atlasa vienumu **Iesniegt**, lai pabeigtu pasūtījumu. Kad pasūtījums ir iesniegts, tiek aktivizēts pārkāpumu pārbaudes līdzeklis, un tiek automātiski pārbaudītas visas sistēmas aktīvās kārtulas.
+Lai izmantotu pārkāpumu pārbaudes līdzekli, kanāla opcijai **Iespējot pasūtījuma pabeigšanu** ir jāiestata vienums **Jā**, kad zvanu centra kanāls ir [definēts](/dynamics365/unified-operations/retail/set-up-order-processing-options). Kad ir ieslēgta pasūtījuma pabeigšana, zvanu centra lietotājiem ir jāatlasa vienums **Pabeigt** pārdošanas pasūtījumu lapā visiem izveidotajiem pārdošanas pasūtījumiem. Pabeigšanas darbība atver lapu **Pārdošanas pasūtījumu kopsavilkums**. Pēc tam, kad lietotāji ievada nepieciešamos maksājuma datus lapā **Pārdošanas pasūtījumu kopsavilkums**, viņi atlasa vienumu **Iesniegt**, lai pabeigtu pasūtījumu. Kad pasūtījums ir iesniegts, tiek aktivizēts pārkāpumu pārbaudes līdzeklis, un tiek automātiski pārbaudītas visas sistēmas aktīvās kārtulas.
 
-Zvanu centra lietotāji var arī manuāli aizturēt pārdošanas pasūtījumus pārkāpumu pārskatīšanai, pirms viņi atlasa vienumu **Iesniegt**. Lai manuāli aizturētu pārdošanas pasūtījumu, lapā **Pārdošanas pasūtījumu kopsavilkums** atlasiet **Aizturēt** \> **Pārkāpuma dēļ manuāli veiktā aizturēšana**. Pēc tam tiek piedāvāts ievadīt komentāru, lai paskaidrotu pasūtījuma aizturēšanas iemeslu. Šis komentārs parādīsies rīkā [Pasūtījumu aizturēšana](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds), lai sniegtu kontekstu lietotājam, kurš pārskata aizturētos pasūtījumus, lai noteiktu, vai pasūtījumu var izlaist.
+Zvanu centra lietotāji var arī manuāli aizturēt pārdošanas pasūtījumus pārkāpumu pārskatīšanai, pirms viņi atlasa vienumu **Iesniegt**. Lai manuāli aizturētu pārdošanas pasūtījumu, lapā **Pārdošanas pasūtījumu kopsavilkums** atlasiet **Aizturēt** \> **Pārkāpuma dēļ manuāli veiktā aizturēšana**. Pēc tam tiek piedāvāts ievadīt komentāru, lai paskaidrotu pasūtījuma aizturēšanas iemeslu. Šis komentārs parādīsies rīkā [Pasūtījumu aizturēšana](/dynamics365/unified-operations/retail/work-with-order-holds), lai sniegtu kontekstu lietotājam, kurš pārskata aizturētos pasūtījumus, lai noteiktu, vai pasūtījumu var izlaist.
 
 Papildus tam, ka konfigurējat kanāla opciju **Iespējot pasūtījuma pabeigšanu**, ir jākonfigurē pārkāpumu pārbaudes līdzeklis sadaļā Zvanu centra parametri. Dodieties uz **Retail un Commerce** \> **Kanāla iestatīšana** \> **Zvanu centra iestatīšana** \> **Zvanu centra parametri**. Lapas **Zvanu centra parametri** cilnē **Aiztures** iestatiet opcijai **Pārkāpumu pārbaude** vienumu **Jā**.
 
-Cilnē **Aiztures** arī jādefinē [aizturēšanas kodi](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds), kuri tiks lietoti pasūtījumam, kas tiek manuāli vai automātiski aizturēts pārkāpuma pārbaudei. Iestatiet aizturēšanas kodus laukos **Pārkāpuma dēļ manuāli veiktās aizturēšanas kods** un **Pārkāpuma dēļ veiktās aizturēšanas kods**. Var būt noderīgi izveidot divus unikālus aizturēšanas kodus, lai lietotāji, kuri strādā ar aizturēšanas rīku, varētu viegli filtrēt un atšķirt automātiskās aiztures no manuālajām aizturēm.
+Cilnē **Aiztures** arī jādefinē [aizturēšanas kodi](/dynamics365/unified-operations/retail/work-with-order-holds), kuri tiks lietoti pasūtījumam, kas tiek manuāli vai automātiski aizturēts pārkāpuma pārbaudei. Iestatiet aizturēšanas kodus laukos **Pārkāpuma dēļ manuāli veiktās aizturēšanas kods** un **Pārkāpuma dēļ veiktās aizturēšanas kods**. Var būt noderīgi izveidot divus unikālus aizturēšanas kodus, lai lietotāji, kuri strādā ar aizturēšanas rīku, varētu viegli filtrēt un atšķirt automātiskās aiztures no manuālajām aizturēm.
 
 Lai pārkāpumu pārbaudes līdzeklis darbotos efektīvi, ir jāiestata arī lauks **Minimālais rezultāts**. Katram pārkāpuma kritērijam un kārtulai, kas ir definēti sistēmā, ir noteikts vērtējums. Veicot pārdošanas pasūtījuma pārkāpumu pārbaudi, ja tiek konstatēta viena vai vairāku pārkāpumu atbilstība, vērtējumi tiek saskaitīti, iegūstot pasūtījuma kopējo pārkāpumu rezultātu. Ja pasūtījuma kopējais pārkāpumu rezultāts pārsniedz vērtību laukā **Minimālais rezultāts**, pasūtījums tiek automātiski aizturēts. Pēc izvēles varat lietot citus ar rezultātu saistītos laukus cilnē **Aiztures**, lai definētu e-pasta rezultātu, tālruņa rezultātu, pasta indeksa rezultātu un paplašinātā pasta indeksa rezultātu. Ja nenorādīsit vērtējumu nevienam no minētajiem statiskajiem pārkāpumu kritērijiem, definējot tos lapā **Statiski pārkāpumu dati**, sistēma tos novērtēs, izmantojot noklusējuma vērtējumu, kuru norādāt lapas **Zvanu centra parametri** cilnē **Aiztures**.
 
@@ -68,4 +65,7 @@ Pasūtījums tiek saglabāts, tas tiek atzīmēts ar karodziņu **Neapstrādāt*
 
 Lai skatītu un pārvaldītu pasūtījumus, kas ir aizturēti pārkāpuma pārskatīšanai, dodieties uz **Retail un Commerce** \> **Debitori** \> **Pasūtījumu aizturēšana**. Lapā **Pasūtījumu aizturēšana** atlasiet ierakstu sarakstā un pēc tam noklikšķiniet uz **Pasūtījuma aizturēšana**, lai atvērtu detalizētāku skatu, kurā ietverta informācija par aizturēšanas iemeslu. Kopsavilkuma cilnē **Detalizēta informācija par pārkāpumu** varat skatīt sistemātiskos pārkāpumu kritērijus, kuriem tika noteikta atbilstība attiecīgā pasūtījuma gadījumā, un izmantotos vērtējumus. Ja pasūtījums tika aizturēts manuāli, varat pārskatīt visus komentārus, kurus ievadīja lietotājs, kas aizturēja pasūtījumu, apskatot kopsavilkuma cilnes **Piezīmes** sadaļu **Pārkāpuma piezīmes**.
 
-Lai iegūtu vairāk informācijas par to, kā darboties ar pasūtījumu aizturēšanu, skatiet sadaļu [Pasūtījumu aizturēšana](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds).
+Lai iegūtu vairāk informācijas par to, kā darboties ar pasūtījumu aizturēšanu, skatiet sadaļu [Pasūtījumu aizturēšana](/dynamics365/unified-operations/retail/work-with-order-holds).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

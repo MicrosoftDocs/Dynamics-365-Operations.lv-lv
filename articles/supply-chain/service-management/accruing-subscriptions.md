@@ -1,12 +1,10 @@
 ---
 title: Abonementu uzkrāšana
 description: Ar pakalpojumu abonementu, periodos, kas seko maksājuma darbības rēķina izrakstīšanas datumam, jūs manuāli uzkrājat ieņēmumus.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 04/30/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASubscriptionGroup
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6d0d6c25cc8a19f5ebea3477cd2c957876752fd
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 3d17737c415f6204359dae3ea4b2a0cb4ebb5d65
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966084"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580484"
 ---
 # <a name="accruing-subscriptions"></a>Abonementu uzkrāšana 
 
@@ -43,11 +41,11 @@ Ja kreditējat rēķinos ierakstītos abonementu apjomus, jūs varat izmantot di
 
   - Jūs varat reversēt visus uzkrātos apjomus kredīta notas iegrāmatošanas datumā vai uzkrājuma iegrāmatošanas datumā.
 
-Vairāk informācijas var atrast [Abonēšanas parametri (veidlapa)](https://technet.microsoft.com/library/aa619615.aspx).
+Vairāk informācijas var atrast [Abonēšanas parametri (veidlapa)](/dynamicsax-2012//subscription-parameters-form).
 
 ## <a name="setup-requirements"></a>Uzstādīšanas prasības
 
-Lai uzkrātu ieņēmumus, pārliecinieties, vai šīs datu prasības ir ievērotas.
+Lai uzkrātu ieņēmumus, pārliecinieties, vai šīs datu prasības ir ievērotas:
 
 ## <a name="account-setup"></a>Konta iestatīšana
 
@@ -67,7 +65,7 @@ Lai varētu uzkrāt ieņēmumus abonementiem, jābūt atzīmētai izvēles rūti
 
 ## <a name="enable-revenue-accrual-on-a-subscription-group"></a>Iespējot ieņēmumu uzkrāšanu abonementa grupai
 
-1.  Noklikšķiniet uz **Pakalpojumu pārvaldība** \> **Iestatīšana** \> **Pakalpojumu abonementi** \> **Abonementu grupas**.
+Noklikšķiniet uz **Pakalpojumu pārvaldība** \> **Iestatīšana** \> **Pakalpojumu abonementi** \> **Abonementu grupas**.
 
 ## <a name="periods"></a>Periodi
 
@@ -77,8 +75,8 @@ Jums ir jāiestata rēķina izrakstīšanas perioda kods. Ja vien nevēlaties uz
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -92,35 +90,35 @@ Jums ir jāiestata rēķina izrakstīšanas perioda kods. Ja vien nevēlaties uz
 <td><ul>
 <li><p><strong>Gadi</strong></p></li>
 <li><p><strong>Ceturksnis</strong></p></li>
-<li><p><strong>mēnesis;</strong></p></li>
-<li><p><strong>diena;</strong></p></li>
+<li><p><strong>Mēnesis;</strong></p></li>
+<li><p><strong>Diena;</strong></p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p><strong>Ceturksnis</strong></p></td>
 <td><ul>
 <li><p><strong>Ceturksnis</strong></p></li>
-<li><p><strong>mēnesis;</strong></p></li>
-<li><p><strong>diena;</strong></p></li>
+<li><p><strong>Mēnesis;</strong></p></li>
+<li><p><strong>Diena;</strong></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><strong>mēnesis;</strong></p></td>
+<td><p><strong>Mēnesis;</strong></p></td>
 <td><ul>
-<li><p><strong>mēnesis;</strong></p></li>
-<li><p><strong>diena;</strong></p></li>
+<li><p><strong>Mēnesis;</strong></p></li>
+<li><p><strong>Diena;</strong></p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p><strong>Nedēļa</strong></p></td>
 <td><ul>
-<li><p><strong>diena;</strong></p></li>
+<li><p><strong>Diena;</strong></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><strong>diena;</strong></p></td>
+<td><p><strong>Diena;</strong></p></td>
 <td><ul>
-<li><p><strong>diena;</strong></p></li>
+<li><p><strong>Diena;</strong></p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -151,3 +149,6 @@ Jūs varat kontrolēt virsgrāmatas darījumu skaitu, kas tiek izveidoti, grāma
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

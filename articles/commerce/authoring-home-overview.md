@@ -1,37 +1,32 @@
 ---
 title: Autorēšanas lapas pārskats
-description: Šajā tēmā ir sniegts apskats par autorēšanas lapu programmā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā sniegts pārskats par autorēšanas lapu risinājumā Microsoft Dynamics 365 Commerce.
 author: brendans
-manager: annbe
 ms.date: 10/31/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application USer
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brendans
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 95908c3a8b6c5231f2f5b283fa05f07c4e91b5d7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b5e1e7dd669a9608d385086cf24d388b065c9ca6
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414029"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799881"
 ---
 # <a name="authoring-page-overview"></a>Autorēšanas lapas pārskats
 
   
  [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir sniegts apskats par autorēšanas lapu programmā Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
+Šajā tēmā sniegts pārskats par autorēšanas lapu risinājumā Microsoft Dynamics 365 Commerce.
 
 Tīmekļa vietnes var izveidot, lai atbalstītu dažādas biznesa vajadzības. Tās var pārstāvēt visu uzņēmumu, piedāvāt vienu biznesa kanālu vai mērķēt uz noteiktu auditoriju vai auditorijas segmentu. Piemēram, apģērbu ražotājam varētu būt tīmekļa vietne, kas parāda visus tam piederošus zīmolus. Vienam un tam pašam apģērbu ražotājam varētu būt atsevišķa tīmekļa vietne katram no šiem zīmoliem, kā arī tīmekļa vietņu kopa ar luksusa modi, ārpustelpu modi un bērnu modi.
 
@@ -122,3 +117,6 @@ Pēc autorizēšanas rīka ielādes varat atlasīt **Sākums**, lai atgrieztos p
 [Meklētājprogrammas optimizēšanas (SEO) apsvērumi jūsu vietnei](search-engine-optimization-considerations.md)
 
 [Satura drošības politikas (CSP) pārvaldība](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

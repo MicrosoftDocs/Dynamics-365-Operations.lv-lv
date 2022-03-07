@@ -2,33 +2,35 @@
 title: Kreditoru rēķinu politiku iestatīšana
 description: Šajā tēmā ir izskaidrots, kā iestatīt kreditora rēķina politiku.
 author: ShivamPandey-msft
-ms.date: 02/11/2022
+manager: AnnBe
+ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendParameters,  SysPolicyListPage, SysPolicyParameters, SysPolicySourceDocumentRuleType, SysPolicy, SysPolicySourceDocumentRule, SysQueryForm, SysQueryTableLookUp, SysQueryPrefixLookUp, SysQueryFieldLookUp
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1f9707c7b283f42729126efa57e890e0df65ca8b
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
-ms.translationtype: MT
+ms.openlocfilehash: 678ef8f0b7df00aec615af26cbcadec984331060
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109760"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5220063"
 ---
 # <a name="set-up-vendor-invoice-policies"></a>Kreditoru rēķinu politiku iestatīšana
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir izskaidrots, kā iestatīt kreditora rēķina politiku. Kreditora rēķina politikas tiek palaistas, kad grāmatojat **kreditora** rēķinu, izmantojot kreditora rēķina lapu un atverot kreditoru rēķinu politikas **pārkāpumu** lapu. Varat arī konfigurēt kreditora rēķina darbplūsmu, lai kreditoru rēķinu ierobežojumi tiktu palaisti katru reizi, kad darbplūsmā iesniedzat kādu rēķinu. 
+Šajā tēmā ir izskaidrots, kā iestatīt kreditora rēķina politiku. Kreditoru rēķinu politikas tiek palaistas, kad kreditora rēķinu grāmatojat, izmantojot lapu Kreditora rēķins un kad atverat kreditora rēķinu lapu Ierobežojumu pārkāpumi. Varat arī konfigurēt kreditora rēķina darbplūsmu, lai kreditoru rēķinu ierobežojumi tiktu palaisti katru reizi, kad darbplūsmā iesniedzat kādu rēķinu. 
 
 - Kreditoru rēķinu ierobežojumi neattiecas uz rēķiniem, kas tika izveidoti rēķinu reģistrā vai rēķinu žurnālā.  
-- Rēķinu salīdzināšanas apstiprināšana neizmanto kreditora rēķinu ierobežojumus, bet gan iestatīta kreditoru **parametru** lapā.  
-- Šajā ierakstā tiek izmantots USMF demonstrācijas uzņēmums. Šīs darbības veiktu lietotājs ar lomu Kreditoriem maksājamo parādu vadītājs vai Grāmatvedības vadītājs. Pirms sākat, pārliecinieties, ka **ir atlasīta rēķinu** salīdzināšanas konfigurācijas atslēga.
+- Rēķinu salīdzināšanas pārbaudes neizmanto kreditoru rēķinu ierobežojumus, bet tā vietā ir iestatītas lapā Kreditoru moduļa parametri.  
+- Šajā ierakstā tiek izmantots USMF demonstrācijas uzņēmums. Šīs darbības veiktu lietotājs ar lomu Kreditoriem maksājamo parādu vadītājs vai Grāmatvedības vadītājs. Pirms sākat, pārliecinieties, ka ir atlasīta konfigurācijas atslēga Rēķinu salīdzināšana.
 
 
 ## <a name="prepare-to-create-vendor-invoice-policies"></a>Sagatavoties kreditoru rēķinu ierobežojumu izveidošanai

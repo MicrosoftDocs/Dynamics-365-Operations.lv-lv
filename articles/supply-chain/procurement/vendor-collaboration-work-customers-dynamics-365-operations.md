@@ -2,40 +2,36 @@
 title: Kreditoru sadarbība ar debitoriem
 description: Šajā tēmā ir aprakstīts, kā varat izmantot kreditoru sadarbību, lai strādātu ar pirkšanas pasūtījumiem un uzraudzītu sūtījuma krājumus.
 author: TaylorVH
-manager: tfehr
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart, VendVendorProfileCard, PurchVendorPortalAllResponse, PurchVendorPortalPendingResponsesPart, PurchVendorPortalResponses, PurchVendorPortalConfirmedOpenOrdersPart
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: kamaybac
 ms.custom: 221234
 ms.assetid: 6e69fb8b-6d3a-46ef-88cf-6d01212aa7c3
 ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: dc97b230f23056db90e654b4aea3272bb8f1ba13
-ms.sourcegitcommit: 0c33864efdd66c6ac11a4f35d971c0bb4efb15db
-ms.translationtype: HT
+ms.openlocfilehash: f699b00ab7ea2d043e12824015c54439caf8e63c
+ms.sourcegitcommit: d58a891d9fe0aa0e6b2c20329250c8d74ffbee90
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4654344"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "8022978"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Kreditoru sadarbība ar debitoriem
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Šajā tēmā ir aprakstīts, kā varat izmantot kreditoru sadarbību, lai strādātu ar debitoriem programmā Microsoft Dynamics 365 Supply Chain Management. Kreditori var izpildīt biznesa procesu virknes no tālāk uzskaitītajām darbvietām.
 
 - **Pirkšanas pasūtījuma akceptēšana** — pārraudzīt un atbildēt uz pirkšanas pasūtījumiem (purchase order — PO).
 - **Piegādātāja piedāvājuma izteikšana** — skatīt piedāvājumu pieprasījumus (request for quotation — RFQ) un reaģēt uz tiem, ievadot piedāvājumus.
 - **Kreditora informācija** — skatīt un atjaunināt kreditora pamatdatus.
-- **Rēķinu izrakstīšana** — strādāt ar rēķiniem. Šajā tēmā nav aprakstīta darbvieta **Rēķinu izrakstīšana**. Papildinformāciju par šo darbvietu skatiet šeit: [Kreditoru sadarbības rēķinu izrakstīšanas darbvieta](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md).
+- **Rēķinu izrakstīšana** — strādāt ar rēķiniem. Šajā tēmā nav aprakstīta darbvieta **Rēķinu izrakstīšana**. Papildinformāciju par šo darbvietu skatiet šeit: [Kreditoru sadarbības rēķinu izrakstīšanas darbvieta](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md).
 
 Kreditori var pārraudzīt arī informāciju par sūtījumu krājumiem.
 
@@ -82,7 +78,7 @@ Ja izmantojat sūtījuma krājumus, varat izmantot kreditoru sadarbības interfe
 
 ## <a name="working-with-rfqs-in-the-vendor-bidding-workspace"></a>Darbs ar piedāvājumu pieprasījumiem darbvietā Piegādātāja piedāvājuma izteikšana
 
-Darbvietā **Piegādātāja piedāvājuma izteikšana** jums ļauj apskatīt piedāvājumu pieprasījumus (RFQ), uz kuriem jūsu uzņēmums tika aicināts atbildēt. Uz šiem piedāvājumu pieprasījumiem varat arī atbildēt. 
+Darbvietā **Piegādātāja piedāvājuma izteikšana** jums ļauj apskatīt piedāvājumu pieprasījumus (RFQ), uz kuriem jūsu uzņēmums tika aicināts atbildēt. Uz šiem piedāvājumu pieprasījumiem varat arī atbildēt.
 
 Darbvietā tiek rādīti arī visi piedāvājumu pieprasījumi, kurus esat zaudējis vai ieguvis. Turklāt, ja sistēma ir konfigurēta publiskajam sektoram, darbvietā tiek rādīti publiski pieejamie piedāvājumu pieprasījumi.
 
@@ -100,20 +96,28 @@ Atveriet darbvietu **Piegādātāja piedāvājuma izteikšana**, lai piekļūtu 
 
 ### <a name="working-with-rfqs-that-are-publicly-available"></a>Darbs ar publiski pieejamiem piedāvājumu pieprasījumiem
 
-Personas, kas strādā publiskajā sektorā, var redzēt publiski pieejamos atvērtos piedāvājumu pieprasījumus un piedāvājumu pieprasījumus, kas ir beigušies.
+Personas, kas strādā publiskajā sektorā, var redzēt atklātos un beidzies piedāvājumus, kas ir darīti pieejami sabiedrībai.
 
 - Atlasiet saiti **Atvērt publicētos piedāvājumu pieprasījumus**, lai redzētu sarakstu ar atvērtajiem piedāvājumu pieprasījumiem, kas ir publiski pieejami. Atvērts piedāvājuma pieprasījums ir piedāvājuma pieprasījums, kas vēl nav beidzies. Piedāvājuma pieprasījuma beigu datums un laiks ir atrodami piedāvājuma pieprasījuma virsrakstā.
 
-    Ja esat uzaicināts izteikt piedāvājumu, to pašu piedāvājuma pieprasījumu varat atrast lapā **Jauni aicinājumi izteikt piedāvājumus**. Reizēm, iespējams, vēlaties izteikt piedāvājumu par kādu atvērtu piedāvājuma pieprasījumu, bet neesat uzaicināts izteikt piedāvājumus par to. Tādā gadījumā, iespējams, varat uzaicināt pats sevi, ja vien debitors šī piedāvājuma pieprasījuma gadījumā ir aktivizējis pašuzaicināšanu.
+    Ja esat uzaicināts izteikt piedāvājumu, to pašu piedāvājuma pieprasījumu varat atrast lapā **Jauni aicinājumi izteikt piedāvājumus**. Reizēm, iespējams, vēlaties izteikt piedāvājumu par kādu atvērtu piedāvājuma pieprasījumu, bet neesat uzaicināts izteikt piedāvājumus par to. Tādā gadījumā, iespējams, varat uzaicināt pats sevi, ja vien debitors šī piedāvājuma pieprasījuma gadījumā ir aktivizējis pašuzaicināšanu. 
 
-    Uzlabojiet saites **Atvērtie publicētie piedāvājumu pieprasījumi** pieejamību, ieslēdzot līdzekli **Parādīt saiti "Atvērtie publicētie piedāvājuma pieprasījumi" kā elementu**. Šis līdzeklis konvertē saiti uz elementu un novieto to redzamā vietā, lai to varētu to viegli atrast.
+    The **Jauni solīšanas uzaicinājumi** lapa var nodrošināt filtru, kas ļauj skatīt atvērtos piedāvājumus un noteikt tos, kuros ir rindas, kas atbilst jūsu apstiprinātajām iepirkumu kategorijām. Lai padarītu šo filtru pieejamu, jums ir jāieslēdz *Ļaujiet pārdevējiem meklēt piedāvājumus pēc iepirkuma kategorijas* funkcija jūsu sistēmā. Administratori var izmantot **Funkciju pārvaldība** darbvieta, lai pārbaudītu šīs funkcijas statusu un ieslēgtu to, ja tas ir nepieciešams. Tur šis līdzeklis ir uzskaitīts šādā veidā:
+
+    - **Modulis:** *Kreditori*
+    - **Līdzekļa nosaukums:** *Ļaujiet pārdevējiem meklēt piedāvājumus pēc iepirkuma kategorijas* <!-- KFM: I don't see this here, is this right? -->
+
+    Jūs varat uzlabot pieejamību **Atvērt publicētos piedāvājumu pieprasījumus** saiti, ieslēdzot *Parādiet saiti "Atvērt publicētos piedāvājuma pieprasījumus" kā elementu* funkciju. Šī funkcija pārvērš saiti par elementu un pārvieto to uz labi redzamu vietu, lai to būtu viegli atrast. Administratori var izmantot **Funkciju pārvaldība** darbvieta, lai pārbaudītu šīs funkcijas statusu un ieslēgtu to, ja tas ir nepieciešams. (Sākot ar Supply Chain Management versiju 10.0.21, līdzeklis ir ieslēgts pēc noklusējuma.) Šeit līdzeklis ir norādīts šādi:
+
+    - **Modulis:** *Sagāde un ieguve*
+    - **Līdzekļa nosaukums:** *Parādiet saiti "Atvērt publicētos piedāvājuma pieprasījumus" kā elementu*
 
 - Atlasiet saiti **Slēgtie publicētie piedāvājumu pieprasījumi**, lai redzētu sarakstu ar slēgtajiem piedāvājumu pieprasījumiem, kas ir publiski pieejami. Slēgts piedāvājuma pieprasījums ir piedāvājuma pieprasījums, kas ir beidzies. Piedāvājuma pieprasījuma beigu datums un laiks ir atrodami piedāvājuma pieprasījuma virsrakstā.
 
     Slēgtā piedāvājuma pieprasījumā tiek rādīti visi piegādātāju piedāvājumi līdz pat rindu līmenim. Kad piedāvājumi tiek piešķirti vai noraidīti, šī informācija tiek atspoguļota slēgtajā piedāvājuma pieprasījumā. Tāpat ir pieejami arī visi piedāvājumā ietvertie pielikumi.
 
 > [!NOTE]
-> Šī funkcionalitāte ir pieejama tikai tad, ja ir ieslēgta Publiskā sektora konfigurācija.
+> Šī funkcionalitāte ir pieejama tikai tad, ja ir ieslēgta publiskā sektora konfigurācija.
 
 ### <a name="bidding"></a>Piedāvājumu izteikšana
 
@@ -147,3 +151,6 @@ Ir pieejama šāda informācija: kreditora nosaukums, adreses, kontaktinformāci
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Pārvaldīt kreditoru sadarbības lietotājus](manage-vendor-collaboration-users.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

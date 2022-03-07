@@ -2,22 +2,24 @@
 title: Tehnisko izmaiņu pārvaldības līdzekļa pārskats
 description: Šajā tēmā ir sniegts pilns pārskats, kas parāda, kā strādāt ar tehnisko izmaiņu pārvaldību.
 author: t-benebo
+manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 4c1c67559a8f2e9d0abb512f4231aea495d1957c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: 56e868f3050432db8d3b1721da435665f554d90d
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573997"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487925"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>Tehnisko izmaiņu pārvaldības līdzekļa pārskats
 
@@ -57,7 +59,7 @@ Inženiertehniskajai organizācijai pieder tehniskie dati, un tā ir atbildīga 
     - **Inženiertehniskā organizācija:** *DEMF*
     - **Organizācijas nosaukums:** *Contoso Entertainment System Germany*
 
-    ![Inženiertehniskās organizācijas pievienošana.](media/engineering-org.png "Inženiertehniskās organizācijas pievienošana")
+    ![Inženiertehniskās organizācijas pievienošana](media/engineering-org.png "Inženiertehniskās organizācijas pievienošana")
 
 ### <a name="set-up-the-version-product-dimension-group"></a>Versijas produktu dimensiju grupas iestatīšana
 
@@ -67,7 +69,7 @@ Inženiertehniskajai organizācijai pieder tehniskie dati, un tā ir atbildīga 
 1. Atlasiet **Saglabāt**, lai saglabātu jauno dimensiju un ielādētu vērtības kopsavilkuma cilnē **Produktu dimensijas**.
 1. Kopsavilkuma cilnē **Produktu dimensijas** iestatiet **Versija** kā aktīvu produkta dimensiju.
 
-    ![Produkta dimensiju grupas pievienošana.](media/product-dimension-groups.png "Produkta dimensiju grupas pievienošana")
+    ![Produkta dimensiju grupas pievienošana](media/product-dimension-groups.png "Produkta dimensiju grupas pievienošana")
 
 ### <a name="set-up-product-lifecycle-states"></a>Produkta dzīves cikla iestatīšana
 
@@ -82,7 +84,7 @@ Ir svarīgi, ka jūs varat kontrolēt, kuri darījumi ir atļauti katram dzīves
 1. Atlasiet **Saglabāt**, lai saglabātu jauno dzīves cikla stāvokli un ielādētu vērtības kopsavilkuma cilnē **Iespējoti biznesa procesi**.
 1. Kopsavilkuma cilnē **Iespējotie biznesa procesi** atlasiet biznesa procesus, kas ir pieejami. Šim piemēram, atstājiet lauku **Politika** iestatītu uz *Iespējots* visiem biznesa procesiem.
 
-    ![Biznesa procesu aktivizēšana dzīves cikla stāvoklī.](media/product-lifecycle-states-1.png "Biznesa procesu aktivizēšana dzīves cikla stāvoklī")
+    ![Biznesa procesu aktivizēšana dzīves cikla stāvoklī](media/product-lifecycle-states-1.png "Biznesa procesu aktivizēšana dzīves cikla stāvoklī")
 
 1. Vēlreiz atlasiet **Jauns**, lai pievienotu vēl vienu dzīves cikla stāvokli, un iestatiet tai šādas vērtības:
 
@@ -92,7 +94,7 @@ Ir svarīgi, ka jūs varat kontrolēt, kuri darījumi ir atļauti katram dzīves
 1. Atlasiet **Saglabāt**, lai saglabātu jauno dzīves cikla stāvokli un ielādētu vērtības kopsavilkuma cilnē **Iespējoti biznesa procesi**.
 1. Kopsavilkuma cilnē **Iespējotie biznesa procesi** atlasiet biznesa procesus, kas ir pieejami. Šim piemēram, iestatiet lauku **Politika** uz *Iespējots ar brīdinājumu* visiem biznesa procesiem.
 
-    ![Biznesa procesu aktivizēšana (ar brīdinājumiem) dzīves cikla stāvoklī.](media/product-lifecycle-states-2.png "Biznesa procesu aktivizēšana (ar brīdinājumiem) dzīves cikla stāvoklī")
+    ![Biznesa procesu aktivizēšana (ar brīdinājumiem) dzīves cikla stāvoklī](media/product-lifecycle-states-2.png "Biznesa procesu aktivizēšana (ar brīdinājumiem) dzīves cikla stāvoklī")
 
 ### <a name="set-up-a-version-number-rule"></a>Versijas numura kārtulas iestatīšana
 
@@ -103,7 +105,7 @@ Ir svarīgi, ka jūs varat kontrolēt, kuri darījumi ir atļauti katram dzīves
     - **Numura kārtula:** *Automātiski*
     - **Format** *V-\#\#*
 
-    ![Produkta versijas numura kārtulas pievienošana.](media/version-number-rule.png "Produkta versijas numura kārtulas pievienošana")
+    ![Produkta versijas numura kārtulas pievienošana](media/version-number-rule.png "Produkta versijas numura kārtulas pievienošana")
 
 ### <a name="set-up-a-product-release-policy"></a>Iestatīt produkta izlaides politiku
 
@@ -135,7 +137,7 @@ Ir svarīgi, ka jūs varat kontrolēt, kuri darījumi ir atļauti katram dzīves
     - **Kopēt maršruta apstiprināšanu:** Atzīmējiet šo izvēles rūtiņu.
     - **Kopēt maršruta aktivāciju:** Atzīmējiet šo izvēles rūtiņu.
 
-    ![Produkta izlaides politikas pievienošana.](media/product-release-policy.png "Produkta izlaides politikas pievienošana")
+    ![Produkta izlaides politikas pievienošana](media/product-release-policy.png "Produkta izlaides politikas pievienošana")
 
 ### <a name="set-up-an-engineering-product-category"></a>Iestatīt tehnisko produktu kategoriju 
 
@@ -160,7 +162,7 @@ Tehnisko produktu kategorijas sniedz pamatu tehnisko produktu izveidei (tas ir, 
 1. Kopsavilkuma cilnē **Izlaides politika** iestatiet lauku **Produkta izlaides politika** uz *Komponenti*.
 1. Atlasiet **Saglabāt**.
 
-    ![Pievienot tehnisko produktu kategoriju.](media/product-category-details.png "Pievienot tehnisko produktu kategoriju")
+    ![Pievienot tehnisko produktu kategoriju](media/product-category-details.png "Pievienot tehnisko produktu kategoriju")
 
 ### <a name="set-up-product-acceptance-conditions"></a>Iestatīt produktu pieņemšanas nosacījumus
 
@@ -168,7 +170,7 @@ Tehnisko produktu kategorijas sniedz pamatu tehnisko produktu izveidei (tas ir, 
 1. Dodieties uz **Tehniskā izmaiņu pārvaldība &gt; Iestatīšana &gt; Tehnisko izmaiņu pārvaldības parametri**.
 1. Cilnē **Izlaides kontrole** sadaļā **Produktu akceptēšana** iestatiet lauku **Produktu akceptēšana** uz *Manuāli*.
 
-    ![Produktu pieņemšanas nosacījumu iestatīšana.](media/engineering-change-management-parameters.png "Produktu pieņemšanas nosacījumu iestatīšana")
+    ![Produktu pieņemšanas nosacījumu iestatīšana](media/engineering-change-management-parameters.png "Produktu pieņemšanas nosacījumu iestatīšana")
 
 ## <a name="create-a-new-engineering-product"></a>Jauna tehniskā produkta izveide
 
@@ -187,23 +189,23 @@ Tehniskais produkts ir produkts, kas darbojas un tiek kontrolēts, izmantojot te
     - **Produkta numurs:** *Z0001*
     - **Produkta nosaukums:** *Skaļruņu kopa*
 
-    ![Pievienot tehnisko produktu.](media/new-product-dialog.png "Pievienot tehnisko produktu")
+    ![Pievienot tehnisko produktu](media/new-product-dialog.png "Pievienot tehnisko produktu")
 
     Ņemiet vērā, ka lauks **Versija** tiek automātiski iestatīts, izmantojot produkta versijas numura kārtulu, ko iestatījāt agrāk.
 
 1. Atlasiet **Labi**, lai izveidotu preci un aizvērtu dialoglodziņu.
 1. Tiek atvērta jaunā produkta detalizētas informācijas lapa. Ievērojiet, ka dažu lauku, piemēram, **Noliktavas dimensiju grupa**, **Izsekošanas dimensiju grupa** un/vai **Krājumu modeļu grupa**, vērtības jau ir aizpildītas. Šie lauki tika iestatīti automātiski, jo produkts tiek izlaists *DEMF* juridiskajā personā, un tas izmanto produktu izlaides politiku *Komponenti*, kas saistīta ar tehnisko produktu kategoriju *Komponenti*. Tā kā jūs iepriekš izmantojāt krājumu *D0006* kā veidni, lai iestatītu rindas *DEMF* juridiskajai personai, vērtības, kas tika aizpildītas, tika ņemtas no krājuma *D0006*.
 
-    ![Nodoto preču papildinformācija.](media/product-details.png "Nodoto preču papildinformācija")
+    ![Nodoto preču papildinformācija](media/product-details.png "Nodoto preču papildinformācija")
 
 1. Darbības rūtī, cilnē **Inženieris**, kas atrodas grupā **Tehnisko izmaiņu pārvaldība**, atlasiet **Tehniskās versijas**, lai apskatītu produkta versijas.
 
-    ![Tehniskās versijas.](media/engineering-versions-list.png "Tehniskās versijas")
+    ![Tehniskās versijas](media/engineering-versions-list.png "Tehniskās versijas")
 
 1. Lapā **Tehniskās versijas** ievērojiet, ka produktam ir tikai viena versija, un tas ir aktīvs.
 1. Atlasiet versiju, lai skatītu tās detalizētu informāciju.
 
-    ![Detalizēta informācija par tehnisko versiju.](media/engineering-version-details.png "Detalizēta informācija par tehnisko versiju")
+    ![Detalizēta informācija par tehnisko versiju](media/engineering-version-details.png "Detalizēta informācija par tehnisko versiju")
 
 1. Lapā **Tehniskā versija** kopsavilkuma cilnē **Materiālu komplekts** atlasiet **Izveidot MK**.
 1. Dialoglodziņā **Izveidot MK** iestatiet tālāk norādītās vērtības:
@@ -212,25 +214,25 @@ Tehniskais produkts ir produkts, kas darbojas un tiek kontrolēts, izmantojot te
     - **Nosaukums:** Skaļruņu kopa
     - **Vieta:** 1
 
-    ![BOM izveide.](media/create-bom.png "BOM izveide")
+    ![BOM izveide](media/create-bom.png "BOM izveide")
 
 1. Atlasiet **Labi**, lai pievienotu MK un aizvērtu dialoglodziņu.
 1. Kopsavilkuma cilnē **Materiālu komplekts** atlasiet **Materiāla komplekts**.
 1. Lapā **Materiālu komplekts** kopsavilkuma cilnē **Materiālu komplekta rindas** pievienojiet trīs rindas, pa vienai krājuma numuriem *D0001*, *D0003* un *D0006*.
 
-    ![MK rindu pievienošana.](media/bom.png "MK rindu pievienošana")
+    ![MK rindu pievienošana](media/bom.png "MK rindu pievienošana")
 
 1. Atlasiet **Saglabāt**.
 1. Aizvērt lapu.
 1. Lapā **Tehniskā versija** kopsavilkuma cilnē **Materiālu komplekts** atlasiet **Apstiprināt**.
 1. Parādītajā dialoglodziņā atlasiet **Labi**.
 
-    ![MK apstiprināšana.](media/approve-dialog.png "MK apstiprināšana")
+    ![MK apstiprināšana](media/approve-dialog.png "MK apstiprināšana")
 
 1. Lapā **Tehniskā versija** kopsavilkuma cilnē **Materiālu komplekts** atlasiet **Aktivizēt**.
 1. Ievērojiet, ka MK ir atzīmētas izvēles rūtiņas **Aktīvais** un **Apstiprinātais**.
 
-    ![Aktīvais un apstiprinātais MK.](media/approved-bom.png "Aktīvais un apstiprinātais MK")
+    ![Aktīvais un apstiprinātais MK](media/approved-bom.png "Aktīvais un apstiprinātais MK")
 
 1. Aizvērt lapu.
 
@@ -244,25 +246,25 @@ Produkts tagad ir izstrādāts, izmantojot inženierzinātņu nodaļu. Šim piem
 1. Darbības rūtī, cilnē **Produkts** grupā **Uzturēt** atlasiet **Izlaist produkta struktūru**, lai atvērtu vedni **Izlaist produktus**.
 1. Lapā **Atlasīt tehniskos produktus izlaišanai**, atzīmējiet izvēles rūtiņu **Atlasīt** produktam *Z0001*.
 
-    ![Izvēloties tehniskos produktus izlaišanai.](media/select-eng-product-to-release.png "Izvēloties tehniskos produktus izlaišanai")
+    ![Izvēloties tehniskos produktus izlaišanai](media/select-eng-product-to-release.png "Izvēloties tehniskos produktus izlaišanai")
 
 1. Atlasiet **Informācija par laidienu**.
 1. Tiek parādīta lapa **Produkta izlaides informācija**, kur varat pārskatīt informāciju par produktu, kas tiks izlaists, un tā produkta struktūru. Ievērojiet, ka opcija **Nosūtīt MK** ir iestatīta uz *Jā*. Tāpēc tiks izlaistas gan produkts *Z0001*, gan visi tā atvasinātie krājumi no MK.
 
     Kreisajā rūtī varat atlasīt jebkuru atvasinātu vienumu, lai pārskatītu tā detaļas. Ja kādam atvasinātam krājumam ir MK, varat arī izvēlēties, lai tiktu izlaists šī atvasinātā krājuma MK.
 
-    ![Preču izlaides detalizētas informācijas pārskatīšana.](media/product-release-details.png "Preču izlaides detalizētas informācijas pārskatīšana")
+    ![Preču izlaides detalizētas informācijas pārskatīšana](media/product-release-details.png "Preču izlaides detalizētas informācijas pārskatīšana")
 
 1. Aizveriet lapu, lai atgrieztos pie vedņa **Izlaist produktus**.
 1. Atlasiet **Tālāk**, lai atvērtu lapu **Atlasīt produktus izlaišanai**. Ja esat atlasījis visus standarta (ne tehniskos) produktus, tie parādīsies šajā lapā. Ievērojiet, ka, izlaižot standarta produktu, atlasot **Izlaist produkta struktūru**, tiek izlaisti arī tās MK un maršruts.
 
-    ![Izvēloties standarta produktus izlaišanai.](media/select-std-product-to-release.png "Izvēloties standarta produktus izlaišanai")
+    ![Izvēloties standarta produktus izlaišanai](media/select-std-product-to-release.png "Izvēloties standarta produktus izlaišanai")
 
 1. Atlasiet **Tālāk**, lai atvērtu lapu **Atlasīt produktu variantus izlaišanai**. Šajā piemērā nav neviena varianta.
 1. Atlasiet **Tālāk**, lai atvērtu lapu **Atlasīt uzņēmumus**.
 1. Atlasiet uzņēmumus, kam produkts ir jāizlaiž. Šajā piemērā atlasiet **USMF** izvēles rūtiņu.
 
-    ![To uzņēmumu izvēle, kuros jāizlaiž.](media/select-release-companies.png "To uzņēmumu izvēle, kuros jāizlaiž")
+    ![To uzņēmumu izvēle, kuros jāizlaiž](media/select-release-companies.png "To uzņēmumu izvēle, kuros jāizlaiž")
 
 1. Atlasiet **Tālāk**, lai atvērtu lapu **Apstiprināt atlasi**.
 1. Atl. **Pabeigt**.
@@ -280,7 +282,7 @@ Lai pārskatītu produktu un to izlaistu *USMF* uzņēmumā, sekojiet šīm darb
 
     Lapa **Atvērtie produktu laidieni** parāda produktu *Z0001*, kuram ir statuss *Gaida pieņemšanu*.
 
-    ![Atvērt preču laidienus.](media/open-product-releases.png "Atvērt preču laidienus")
+    ![Atvērt preču laidienus](media/open-product-releases.png "Atvērt preču laidienus")
 
 1. Atlasiet vērtību kolonnā **Produkta numurs**, lai atvērtu lapu **Produkta izlaides informācija**. Pievērsiet uzmanību šādām detaļām:
 
@@ -288,7 +290,7 @@ Lai pārskatītu produktu un to izlaistu *USMF* uzņēmumā, sekojiet šīm darb
     - Kopsavilkuma cilne **Detalizēta informācija par laidienu** rāda informāciju par produktu un versiju, kas tika izlaista. Šeit var modificēt tādus iestatījumus kā, piemēram, efektivitātes datumus.
     - Kopsavilkuma cilne **Maršruts** rāda produkta maršrutu. Tomēr šim piemēram, jūs neizlaižāt maršrutus.
 
-    ![Preces izlaišanas informācija.](media/product-release-details-2.png "Preces izlaišanas informācija")
+    ![Preces izlaišanas informācija](media/product-release-details-2.png "Preces izlaišanas informācija")
 
 1. Kad esat beidzis pārskatīt informāciju, esat gatavs pieņemt produktu un šādā veidā to izlaist *USMF* uzņēmumā. Darbību rūtī atlasiet **Darbības &gt; Pieņemt**.
 1. Produkts tagad ir izlaists *USMF* uzņēmumā. Pārejiet uz sadaļu **Preču informācijas pārvaldība &gt;Produkti &gt; Izlaistie produkti**. Ir jāredz krājumu *Z0001*.
@@ -304,7 +306,7 @@ Uzņēmuma *USMF* pamatdatu pārvaldnieks vēlas pārliecināties, vai produkts 
 1. Darbību rūts grupas **Dzīves cikla stāvoklis** cilnē **Produkts** atlasiet **Mainīt dzīves cikla stāvokli**.
 1. Nolaižamajā dialoglodziņā **Mainīt dzīves cikla stāvokli** iestatiet lauku **Stāvoklis** uz *Prototips* un pēc tam atlasiet **Labi**.
 
-    ![Dzīves cikla stāvokļa maiņa.](media/change-lifecycle-state.png "Dzīves cikla stāvokļa maiņa")
+    ![Dzīves cikla stāvokļa maiņa](media/change-lifecycle-state.png "Dzīves cikla stāvokļa maiņa")
 
 ## <a name="add-the-engineering-product-to-a-sales-order"></a>Pievienot tehnisko produktu pārdošanas pasūtījumam
 
@@ -318,7 +320,7 @@ Produktu tagad var pārdot klientam. Lai pievienotu produktu pārdošanas pasūt
 
     Jūs saņemat brīdinājuma ziņojumu, kas informē, ka krājumam ir statuss *Prototips*. Tomēr, tā kā ziņojums ir tikai brīdinājums, pārdošanas pasūtījums joprojām ir izveidots.
 
-    ![Tehniskā produkta pārdošanas pasūtījums.](media/sales-order-eng-product.png "Tehniskā produkta pārdošanas pasūtījums")
+    ![Tehniskā produkta pārdošanas pasūtījums](media/sales-order-eng-product.png "Tehniskā produkta pārdošanas pasūtījums")
 
 ## <a name="request-changes-in-the-engineering-product"></a>Pieprasīt izmaiņas tehniskajā produktā
 
@@ -328,7 +330,7 @@ Produkts tika nosūtīts klientam, bet klients nav pilnībā apmierināts un sni
 1. Meklējiet un atveriet pārdošanas pasūtījumu, ko izveidojāt iepriekšējā uzdevumā.
 1. Kopsavilkuma cilnē **Pārdošanas pasūtījuma rindas** atlasiet **Tehnisko izmaiņu pārvaldība &gt; Jauns tehnisko izmaiņu pieprasījums**.
 
-    ![Tehnisko izmaiņu pieprasījuma izveide no pārdošanas pasūtījuma.](media/sales-order-eng-change-request.png "Tehnisko izmaiņu pieprasījuma izveide no pārdošanas pasūtījuma")
+    ![Tehnisko izmaiņu pieprasījuma izveide no pārdošanas pasūtījuma](media/sales-order-eng-change-request.png "Tehnisko izmaiņu pieprasījuma izveide no pārdošanas pasūtījuma")
 
 1. Aizpildiet tehnisko izmaiņu pieprasījumu, pamatojoties uz klienta atsauksmēm. Šajā piemērā iestatiet šādas vērtības:
 
@@ -341,7 +343,7 @@ Produkts tika nosūtīts klientam, bet klients nav pilnībā apmierināts un sni
 1. Kopsavilkuma cilnē **Informācija** atlasiet **Jauna &gt; Piezīme**, lai pievienotu režģim piezīmi.
 1. Jaunas piezīmes laukā **Apraksts** norādiet, ka krājumu *D0003* ir jādzēš no MK. Ja ir jāpievieno papildu informācija par šo piezīmi, varat ievadīt tekstu laukā **Piezīmes**.
 
-    ![Tehnisku izmaiņu pieprasījums.](media/eng-change-request.png "Tehnisku izmaiņu pieprasījums")
+    ![Tehnisku izmaiņu pieprasījums](media/eng-change-request.png "Tehnisku izmaiņu pieprasījums")
 
 1. Darbību rūtī atlasiet **Saglabāt**.
 1. Ievērojiet, ka krājums ir automātiski pievienots kopsavilkuma cilnei **Produkti** un ka tehnisko izmaiņu pieprasījuma (pārdošanas pasūtījuma) avots ir pievienots kopsavilkuma cilnē **Avots**.
@@ -370,26 +372,26 @@ Inženieris tagad pārskata klienta pieprasījumu un izveido produkta izmaiņu p
     - **Produkts:** *Z0001*
     - **Ietekme:** *Jauna versija*
 
-    ![Tehnisko izmaiņu pasūtījuma izveide.](media/eng-change-order.png "Tehnisko izmaiņu pasūtījuma izveide")
+    ![Tehnisko izmaiņu pasūtījuma izveide](media/eng-change-order.png "Tehnisko izmaiņu pasūtījuma izveide")
 
 1. Ievērojiet, ka, tā kā lauks **Ietekme** tiek iestatīts uz *Jauna versija*, lauks **Jauna versija** kopsavilkuma cilnes **Informācija par produktu** cilnē **Detalizēta informācija** rāda, kāds būs jaunais versijas numurs (*V-02* šim piemēram).
 
-    ![Informācija par produktu tehnisko izmaiņu pasūtījumam.](media/eng-change-order-product-details.png "Informācija par produktu tehnisko izmaiņu pasūtījumam")
+    ![Informācija par produktu tehnisko izmaiņu pasūtījumam](media/eng-change-order-product-details.png "Informācija par produktu tehnisko izmaiņu pasūtījumam")
 
 1. Darbību rūtī atlasiet **Saglabāt**.
 1. Kopsavilkuma cilnā **Informācija par produktu**, kas atrodas cilnē **Materiālu komplekts**, atlasiet **Rindas**, lai atvērtu MK versijai *V-01* produktam *Z0001*.
 
-    ![Tehnisko produktu MK rindas.](media/eng-product-bom-lines.png "Tehnisko produktu MK rindas")
+    ![Tehnisko produktu MK rindas](media/eng-product-bom-lines.png "Tehnisko produktu MK rindas")
 
 1. Atlasiet rindu krājuma numuram *D0003* un pēc tam darbību rūtī atlasiet **Dzēst**. Lauka **Izmaiņu veids** vērtība šai rindai mainās uz *Dzēsts*.
 1. Darbību rūtī atlasiet **Saglabāt**.
 
-    ![Modificētas tehniskā produkta MK rindas.](media/eng-product-bom-lines-modified.png "Modificētas tehniskā produkta MK rindas")
+    ![Modificētas tehniskā produkta MK rindas](media/eng-product-bom-lines-modified.png "Modificētas tehniskā produkta MK rindas")
 
 1. Aizveriet lapu **MK rinda**, lai atgrieztos lapā **Tehnisko izmaiņu pasūtījums**.
 1. Kopsavilkuma cilnē **Informācija par produktu** cilnē **Materiālu komplekts** ievērojiet, ka lauka **Izmaiņu veids** MK vērtība *Z0001* tagad ir *Mainīta*.
 
-    ![Tehnisko izmaiņu pasūtījums, kas ietver mainītu MK.](media/eng-change-order-changed-bom.png "Tehnisko izmaiņu pasūtījums, kas ietver mainītu MK")
+    ![Tehnisko izmaiņu pasūtījums, kas ietver mainītu MK](media/eng-change-order-changed-bom.png "Tehnisko izmaiņu pasūtījums, kas ietver mainītu MK")
 
     Lai izmaiņas varētu apstrādāt, pasūtījums ir jāapstiprina. Kad izmaiņas tiek apstrādātas, produkti tiek atjaunināti ar izmaiņām, kas iekļautas tehnisko izmaiņu pasūtījumā. Šajā piemērā persona, kas izveido tehnisko izmaiņu pasūtījumu, ir norādīta kā apstiprinātājs.
 

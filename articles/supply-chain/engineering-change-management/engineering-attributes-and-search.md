@@ -2,23 +2,26 @@
 title: Tehniskie atribūti un tehnisko atribūtu meklēšana
 description: Šajā tēmā izskaidrots, kā varat izmantot tehniskos atribūtus, lai norādītu visas nestandarta īpašības, lai nodrošinātu, ka visi preču šablona dati var tikt reģistrēti sistēmā. Tas arī izskaidro, kā varat izmantot tehnisko atribūtu meklēšanu, lai viegli atrastu produktus, pamatojoties uz šīm reģistrētajām iezīmēm.
 author: t-benebo
+manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgProductAttributeSearch, EngChgMaintainAttributeInheritance, EngChgAttribute
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 59710f0366418e240a4109e7cf8fcf84073110bf
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: MT
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: 5a4f31af3f76c1af6a0f5546955e810bd1cca375
+ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103217"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4433236"
 ---
 # <a name="engineering-attributes-and-engineering-attribute-search"></a>Tehniskie atribūti un tehnisko atribūtu meklēšana
 
@@ -26,13 +29,15 @@ ms.locfileid: "8103217"
 
 Lai nodrošinātu, ka visus produkta pamatdatus var reģistrēt sistēmā, izmantojiet tehniskos atribūtus, lai norādītu visus nestandarta raksturlielumus. Pēc tam varat izmantot tehnisko atribūtu meklēšanu, lai viegli atrastu produktus, pamatojoties uz šīm reģistrētajām iezīmēm.
 
-## <a name="create-engineering-attributes-and-attribute-types"></a>Izveidot tehniskos atribūtus un atribūtu veidus
+## <a name="engineering-attributes"></a>Tehniskie atribūti
 
 Parasti tehniskiem produktiem ir daudz parametru un rekvizītu, kas ir jāaptver. Lai gan dažus rekvizītus varat reģistrēt, izmantojot standarta produktu laukus, pēc nepieciešamības varat izveidot arī jaunus tehniskos rekvizītus. Varat definēt savus *tehniskos atribūtus* un padarīt tos par daļu no produkta definīcijas.
 
+### <a name="create-engineering-attributes-and-attribute-types"></a>Izveidot tehniskos atribūtus un atribūtu veidus
+
 Katram tehniskajam atribūtam ir jāpieder *atribūta veidam*. Šī prasība pastāv, jo katram tehniskajam atribūtam ir jābūt *datu veidam*, kas nosaka vērtību veidus, kurus tas var saturēt. Inženierijas atribūta veids var būt standarta veids (piemēram, brīvais teksts, vesels skaitlis vai decimāls) vai pielāgots veids (piemēram, teksts, kam ir noteikta vērtību kopa, no kuras atlasīt). Varat atkārtoti izmantot katru atribūta veidu ar jebkādu skaitu tehnisko atribūtu.
 
-### <a name="set-up-engineering-attribute-types"></a>Iestatīt tehnisko atribūtu veidus
+#### <a name="set-up-engineering-attribute-types"></a>Iestatīt tehnisko atribūtu veidus
 
 Lai skatītu, izveidotu vai rediģētu tehnisko atribūta veidu, rīkojieties šādi.
 
@@ -46,7 +51,7 @@ Lai skatītu, izveidotu vai rediģētu tehnisko atribūta veidu, rīkojieties š
     - **Vērtību diapazons** — Šī opcija ir pieejama tikai tad, ja lauks **Veids** ir iestatīts kā *Vesels skaitlis*, *Decimāls* vai *Valūta*. Iestatiet to uz *Jā*, lai noteiktu minimālās un maksimālās vērtības, kas tiks pieņemtas šī veida atribūtiem. Lietojiet kopsavilkuma cilni **Diapazons**, lai noteiktu minimālās un maksimālās vērtības un (valūtai) valūtu, kas tiek piemērota ievadītajiem ierobežojumiem. Iestatiet šo opciju uz *Nē*, lai akceptētu jebkuru vērtību. 
     - **Mērvienība** - Šis lauks ir pieejams tikai tad, ja lauks **Veids** ir iestatīts kā *Vesels skaitlis* vai *Decimāls*. Atlasiet mērvienību, kas attiecas uz šo atribūta veidu. Ja nav nepieciešama vienība, atstājiet šo lauku tukšu.
 
-### <a name="set-up-engineering-attributes"></a>Iestatīt tehniskos atribūtus
+#### <a name="set-up-engineering-attributes"></a>Iestatīt tehniskos atribūtus
 
 Lai skatītu, izveidotu vai rediģētu tehnisko atribūtu, rīkojieties šādi.
 
@@ -68,43 +73,17 @@ Lai skatītu, izveidotu vai rediģētu tehnisko atribūtu, rīkojieties šādi.
     - **Minimums** — Ievadiet minimālo ieteicamo vai akceptēto vērtību.
     - **Maksimums** — Ievadiet maksimālo ieteicamo vai akceptēto vērtību.
 
-### <a name="engineering-attribute-inheritance"></a>Inženiertehniskā atribūta pārmantošana
-
-Preču struktūrām, piemēram, pavadzīmēm (BOM) vai formulām, var nodot noteiktus atribūtus no pakārtotajiem elementiem uz vecākelementiem. Par šo procesu varat domāt kā par "apgriezto pārmantošanu".
-
-#### <a name="turn-engineering-attribute-inheritance-on-or-off"></a>Ieslēgt vai izslēgt inženierzinātnes atribūtu pārmantošanu
-
-Šai funkcijai ir nepieciešams, lai *jūsu sistēmai* ieslēgtu *gan* inženierzinātnes izmaiņu pārvaldību, gan uzlaboto atribūtu pārmantošanu inženierzinātnes izmaiņu pārvaldības funkcijām. Papildinformāciju par to, kā ieslēgt vai izslēgt šos līdzekļus, skatiet inženierzinātnes [izmaiņu pārvaldības pārskatā](product-engineering-overview.md).
-
-#### <a name="attribute-inheritance-example"></a>Atribūta pārmantošanas piemērs
-
-Pārtikas produktam, piemēram, burkānkūkai, sistēmai ir jāreģistrē katrs alergēns, kuru satur produkts. Burkānkūku sistēmā nevar modelēt kā inženiertehnisko produktu ar formulu. Šī formula satur burkānkūkas sastāvdaļas, piemēram, miltus, pienu, burkānus un riekstus. Šajā piemērā uzņēmums sniedz divus burkānkūkas modeļus: vienu ar laktozi un vienu bez laktozes.
-
-Kūkai ar laktozi sastāvdaļu līmenī ir šādi ingredienti:
-
-- Sastāvdaļa "milti": atribūts "glutēns" = jā
-- Sastāvdaļa "piens": atribūts "laktoze" = jā
-- Sastāvdaļa "rieksti": atribūts "rieksti" = jā
-
-Kūkā bez laktozes tiek izmantots bezlaktozes piens, un tai sastāvdaļu līmenī ir šādi atribūti:
-
-- Sastāvdaļa "milti": atribūts "glutēns" = jā
-- Sastāvdaļa "piens": atribūts "laktoze" = nē
-- Sastāvdaļa "rieksti": atribūts "rieksti" = jā
-
-Tā kā šie produkti pārsvarā ir līdzīgi, varētu būt parocīgi šos atribūtus padot no pakārtotā produkta (abas variācijas) uz vecākproduktu (pamata burkānkūka). Lai ieviestu šo "apgriezto pārmantošanu", varat lietot funkciju *Atribūta pārmantošana*. Šī funkcija tiek definēta katrai [inženiertehniskajai versijai](engineering-versions-product-category.md).
-
-## <a name="connect-engineering-attributes-to-an-engineering-product-category"></a>Piesaistiet tehniskos atribūtus tehnisko produktu kategorijai
+### <a name="connect-engineering-attributes-to-an-engineering-product-category"></a>Piesaistiet tehniskos atribūtus tehnisko produktu kategorijai
 
 Daži tehniskie atribūti attiecas uz visiem produktiem, turpretī citi ir raksturīgi atsevišķiem produktiem vai produktu kategorijām. Piemēram, elektriskie atribūti nav nepieciešami mehāniskajiem produktiem. Tāpēc varat iestatīt *tehnisko produktu kategorijas*. Tehnisko produktu kategorija nosaka tehnisko atribūtu kolekciju, kam jābūt daļai no definīcijas produktiem, kas pieder šai kategorijai. Varat arī norādīt, kuri tehniskie atribūti ir obligāti un vai ir noklusētā vērtība.
 
 Papildinformāciju par to, kā strādāt ar tehnisko produktu kategorijām, tostarp informāciju par to, kā pievienot atribūtus kategorijām, skatiet [Tehniskās versijas un tehnisko produktu kategorijas](engineering-versions-product-category.md).
 
-## <a name="set-attribute-values-for-engineering-attributes"></a>Atribūta vērtību iestatīšana inženiertehniskajiem atribūtiem
+### <a name="set-values-for-engineering-attributes"></a>Iestatīt tehnisko atribūtu vērtības
 
 Tehniskie atribūti, kas ir pievienoti tehnisko produktu kategorijai, tiek parādīti, kad izveidojat jaunu tehnisko produktu, kas ir balstīts uz šo kategoriju. Tajā laikā varat iestatīt atribūtu vērtības. Vēlāk šīs vērtības var mainīt lapā **Tehniskās versijas** vai kā daļu no tehnisko izmaiņu pārvaldības tehnisko izmaiņu pasūtījumā. Plašāku informāciju skatiet rakstā [Pārvaldīt izmaiņas tehniskajām precēm](engineering-change-management.md).
 
-## <a name="create-an-engineering-product"></a>Izveidot tehnisko produktu
+### <a name="create-an-engineering-product"></a>Izveidot tehnisko produktu
 
 Lai izveidotu tehnisko produktu, atveriet lapu **Izlaistie produkti**. Pēc tam darbību rūts grupas **Jauns** cilnē **Produkts** atlasiet **Tehniskais produkts**.
 
@@ -115,6 +94,3 @@ Jānorāda tehniskā kategorija, kurai pieder šis produkts. Kategorija noteiks 
 Varat izmantot tehnisko atribūtu meklēšanu, lai atrastu produktus, meklējot to tehnisko atribūtu vērtības. Tādēļ viegli varat atrast tehniskos produktus, pamatojoties uz to īpašībām. Varat meklēt produktus, kas pieder tehnisko produktu kategorijai, vai arī varat meklēt visos tehniskos produktos.
 
 Meklēšana ir pieejama preces šablona datu lapās un no transakciju krājumiem sistēmā, piemēram, pārdošanas pasūtījumos. Lai meklētu produktu, varat izmantot lapu **Tehnisko atribūtu meklēšana**. Pēc tam varat izmantot pogu **Pievienot kā jaunu rindu**, lai pievienotu produktu pārdošanas pasūtījuma rindām. Produktus meklēšanas rezultātos var arī pievienot tieši pasūtījumam.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

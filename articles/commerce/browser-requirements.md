@@ -2,9 +2,11 @@
 title: Dynamics 365 Commerce vietņu pārlūkprogrammas prasības
 description: Šajā tēmā izklāstītas pārlūku prasības Microsoft Dynamics 365 Commerce vietnēm.
 author: anupamar-ms
+manager: annbe
 ms.date: 12/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f97e5800785c84d7d804c7af8bffd7bfbccc95a5951d560996f4ca586069392e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bce35e38e02dbd437ed33e994697c42a4f6042ac
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740459"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211133"
 ---
 # <a name="browser-requirements-for-dynamics-365-commerce-sites"></a>Dynamics 365 Commerce vietņu pārlūkprogrammas prasības
 

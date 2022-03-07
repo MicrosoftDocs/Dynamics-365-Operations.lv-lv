@@ -9,12 +9,12 @@ ms.reviewer: kfender
 ms.search.region: Global
 ms.author: v-aosipov
 ms.search.validFrom: ''
-ms.openlocfilehash: 152bfd24843867685b1d303484ed61ad98ec652a
-ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
+ms.openlocfilehash: 404fb8dff1519aefb2f4af25eb95dfa6fce75b7c
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7486950"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7417086"
 ---
 # <a name="swedish-intrastat"></a>Zviedrijas Intrastat
 
@@ -48,7 +48,7 @@ Plašāka informācija pieejama rakstā [Elektronisko pārskatu (ER) konfigurāc
 3. Laukā **Pārskata formāta kartēšana** atlasiet **Intrastat pārskats**.
 4. Kopsavilkuma cilnes **Preču kodu hierarhija** laukā **Kategoriju hierarhija** atlasiet **Intrastat**.
 5. **Transakcijas kods** – izvēlieties transakcijas kodu īpašuma pārsūtīšanai. Varat izmantot šo kodu transakcijām, kas izraisa faktisko vai plānoto īpašuma pārsūtīšanu attiecībā uz kompensāciju (finansiālu vai cita veida). To izmanto arī labojumiem. Uzņēmumi Zviedrijā izmanto viena cipara darbības kodus.
-6. Laukā **Kredīta nota** izvēlieties transakcijas kodu preču atgriešanai.
+6. Laukā **Kredīta nota** izvēlieties transakcijas kodu preču atgriešanai. Šis kods tiks izmantots preču atgriešanai pēc tam, kad sākotnējā transakcija ir reģistrēta saskaņā ar transakcijas kodu. Uzņēmumi Zviedrijā izmanto viena cipara darbības kodus.
 7. Cilne **Valsts/reģiona rekvizīti**, lauks **Valsts/reģions** uzskaita visas valstis vai reģionus, ar kuriem jūsu organizācija veic darījumus. Katrai ES dalībvalstij laukā **Valsts/reģiona tips** atlasiet **ES**, lai valsts vai reģions parādītos Intrastat pārskatā.
 
 ## <a name="set-up-the-product-parameters-for-the-intrastat-declaration"></a>Preču parametru iestatīšana Intrastat deklarācijai

@@ -1,37 +1,31 @@
 ---
 title: Iestatīt organizāciju hierarhijas
-description: Šajā tēmā ir aprakstīts, kā iestatīt organizācijas hierarhijas programmā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā aprakstīts, kā iestatīt organizāciju hierarhijas risinājumā Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 29d4b686cbb66715196fca06e4642fbb8a337ace
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: ce0732f32a9a80fc5b0ede7ae9f1c1ab9a68a89b2fb0b1821cb5df123ca5ca4a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414011"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746020"
 ---
 # <a name="set-up-organization-hierarchies"></a>Iestatīt organizāciju hierarhijas
 
-
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā iestatīt organizācijas hierarhijas programmā Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
+Šajā tēmā aprakstīts, kā iestatīt organizāciju hierarhijas risinājumā Microsoft Dynamics 365 Commerce.
 
 Pirms kanālu izveides ir jāapstiprina, ka jūs vēlaties iestatīt organizācijas hierarhijas.
 
@@ -60,7 +54,7 @@ Lai izveidotu organizācijas hierarhijas, izpildiet tālāk norādītās darbīb
 
 Tālāk esošajā attēlā redzama parauga organizācijas hierarhija, kas izveidota fiktīvai “Adventure Works” veikalu kopai.
 
-![Organizācijas hierarhijas piemēri](media/organizational-hierarchies.png)
+![Organizācijas hierarhijas piemēri.](media/organizational-hierarchies.png)
 
 ### <a name="add-organizations-to-a-hierarchy"></a>Pievienot organizācijas hierarhijai
 
@@ -73,11 +67,11 @@ Lai pievienotu organizāciju hierarhijai, veiciet tālāk norādīto.
 
 Tālāk esošajā attēlā redzama juridiska persona, kas pievienota hierarhijas saknē ar četriem izmaksu centriem, kas pievienoti kanāliem “Mall”, “Outlet”, “Online” un “Call Center”. Katram no tiem var pievienot dažādus mazumtirdzniecības, zvanu centru un tiešsaistes kanālus.
 
-![Hierarhijas dizainera piemērs](media/hierarchy-designer.png)
+![Hierarhijas dizainera piemērs.](media/hierarchy-designer.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Organizācijas un organizāciju hierarhiju pārskats](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
+[Organizāciju un organizāciju hierarhiju pārskats](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
 
 [Organizācijas hierarhijas plānošana](../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/commerce/toc.json)
 
@@ -88,3 +82,6 @@ Tālāk esošajā attēlā redzama juridiska persona, kas pievienota hierarhijas
 [Kanālu apskats](channels-overview.md)
 
 [Kanālu iestatīšanas priekšnosacījumi](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

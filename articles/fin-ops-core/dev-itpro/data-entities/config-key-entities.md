@@ -1,31 +1,32 @@
 ---
 title: Konfigurācijas atslēgas un datu elementi
 description: Šajā tēmā ir aprakstītas konfigurācijas atslēgu un datu elementu attiecības.
-author: Sunil-Garg
-manager: AnnBe
+author: peakerbl
 ms.date: 05/10/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.custom: 25341
 ms.assetid: 8e214c95-616b-4ee1-b5a4-fa5ce5147f2c
 ms.search.region: Global
-ms.author: sunilg
+ms.author: peakerbl
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: e6145a2f6925932361851735df55374dda8ca03d
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: e9cc92563c426136b2543511ad943fd64b335b70
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679385"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065743"
 ---
 # <a name="configuration-keys-and-data-entities"></a>Konfigurācijas atslēgas un datu elementi
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Pirms izmantojat datu elementus datu importēšanai vai eksportēšanai, vispirms ieteicams noteikt konfigurācijas atslēgu ietekmi uz tiem datu elementiem, ko plānojat lietot.
 
@@ -54,24 +55,24 @@ Tālāk esošajā tabulā sniegts kopsavilkums par to, kā konfigurācijas atsl�
 ### <a name="entity-list-refresh"></a>Elementu saraksta atsvaidzināšana
 Kad ir atsvaidzināts elementu saraksts, datu pārvaldības platforma veido konfigurācijas atslēgas metadatus izpildlaika lietošanai. Šie metadati tiek veidoti, izmantojot iepriekš aprakstīto loģiku. Pirms darbu un elementu izmantošanas datu pārvaldības platformā ir ļoti ieteicams nogaidīt, kamēr ir pabeigta elementu saraksta atsvaidzināšana. Pretējā gadījumā, iespējams, konfigurācijas atslēgas metadati nebūs atjaunināti un tiks iegūti negaidīti rezultāti. Kad tiek atsvaidzināts elementu saraksts, elementu saraksta lapā tiek parādīts tālāk norādītais ziņojums.
 
-![Elementu saraksta atsvaidzināšana](./media/Entity_refresh_list.png)
+![Elementu saraksta atsvaidzināšana.](./media/Entity_refresh_list.png)
 
 ### <a name="data-entity-list-page"></a>Datu elementu saraksta lapa
 Datu pārvaldības darbvietā esošajā datu elementu saraksta lapā ir parādīti elementu konfigurācijas atslēgu iestatījumi. Sāciet darbu šajā lapā, lai izprastu, kā konfigurācijas atslēgas ietekmē datu elementu.
 
 Šī informācija tiek parādīta, izmantojot metadatus, kas veidoti elementu atsvaidzināšanas laikā. Konfigurācijas atslēgas kolonnā parādīts ar datu elementu saistītās konfigurācijas atslēgas nosaukums. Ja šī kolonna ir tukša, tas nozīmē, ka ar datu elementu nav saistīta neviena konfigurācijas atslēga. Konfigurācijas atslēgas statusa kolonnā parādīts konfigurācijas atslēgas statuss. Ja tajā ir ievietota atzīme, tas nozīmē, ka šī atslēga ir aktivizēta. Ja tā ir tukša, tas nozīmē, ka atslēga ir deaktivizēta vai arī nav nevienas saistītas atslēgas.
 
-![Elementu saraksta lapa](./media/Data_entity_list_page.png)
+![Elementu saraksta lapa.](./media/Data_entity_list_page.png)
 
 ### <a name="target-fields"></a>Mērķa lauki
 Nākamā darbība ir detalizēti aplūkot datu elementu, lai skatītu konfigurācijas atslēgu ietekmi uz tabulām un laukiem. Datu elementa mērķa lauku formā parādīta konfigurācijas atslēga un atslēgas statusa informācija saistītajām tabulām un laukiem datu elementā. Ja pašam datu elementam ir deaktivizēta tā konfigurācijas atslēga, tiek parādīts brīdinājuma ziņojums ar informāciju par to, ka šī elementa mērķa lauku formā esošās tabulas un lauki nebūs pieejami neatkarīgi no to konfigurācijas atslēgas statusa.
 
-![Mērķa lauki](./media/Target_fields_1.png)
+![Mērķa lauki.](./media/Target_fields_1.png)
 
 ### <a name="child-entities"></a>Bērnelementi 
 Noteiktiem elementiem citi elementi darbojas kā datu avoti vai arī tie ir salikti datu elementi — šo elementu konfigurācijas atslēgas informācija ir parādīta formā Bērnelementi. Lietojiet šo formu līdzīgi kā iepriekš aprakstīto elementu saraksta lapu. Arī bērnelementu mērķa lauku formas uzvedība ir līdzīga iepriekš aprakstītajai.
 
-![Mērķa lauki](./media/Target_fields_2.png)
+![Mērķa lauki.](./media/Target_fields_2.png)
 
 ### <a name="using-data-entities"></a>Datu elementu lietošana
 Kad ir iegūta pilnīga izpratne par konfigurācijas atslēgu ietekmi uz datu elementiem, ko vēlaties lietot, varat izmantot datu elementus, pievienojot tos datu projektiem. 
@@ -93,4 +94,7 @@ Izmantojot elementu saraksta atsvaidzināšanas laikā veidotos konfigurācijas 
 ### <a name="managing-configuration-key-changes"></a>Konfigurācijas atslēgas izmaiņu pārvaldība
 Ikreiz, kad atjaunināt konfigurācijas atslēgas elementa, tabulas vai lauka līmenī, ir jāatsvaidzina elementu saraksts datu pārvaldības platformā. Šis process nodrošina, ka platforma paņem jaunākos konfigurācijas atslēgas iestatījumus. Kamēr nebūs atsvaidzināts elementu saraksts, elementu saraksta lapā tiks rādīts tālāk norādītais brīdinājums. Atjauninātās konfigurācijas atslēgas izmaiņas stāsies spēkā nekavējoties pēc elementu saraksta atsvaidzināšanas. Ieteicams validēt esošos datus projektus un darbus, lai nodrošinātu, ka pēc konfigurācijas atslēgu izmaiņu stāšanās spēkā tie darbojas, kā paredzēts.
 
-![Mērķa lauki](./media/Target_fields_3.png)
+![Mērķa lauki.](./media/Target_fields_3.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Jaunumi un izmaiņas programmas Dynamics 365 for Operations versijā 1611 (2016. gada novembris)
 description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmas Dynamics 365 for Operations versijā 1611.
 author: sericks007
-manager: AnnBe
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0b5856ef83ff1e101896eefbbe022e70ad954219
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: 0625010143b7df9c3c897bf7f43ef25993303240
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797199"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752812"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Jaunumi un izmaiņas programmas Dynamics 365 for Operations versijā 1611 (2016. gada novembris)
 
@@ -498,7 +496,7 @@ ms.locfileid: "4797199"
 <li>ISO20022 Tiešais debeta maksājuma formāts Itālijai</li>
 <li>RIBA atgādinājuma pārskaitījuma formāts Itālijai</li>
 <li>Vietējo nodokļu darbību pārskats Itālijai</li>
-<li>Melnā saraksta pārskats Itālijai</li>
+<li>Bloķēšanas saraksta pārskats Itālijai</li>
 <li>Modello770 pārskats Itālijai</li>
 <li>Ikgadējs nodokļu komunikācijas pārskats Itālijai</li>
 </ul>
@@ -623,7 +621,7 @@ ms.locfileid: "4797199"
 | Konfigurējiet ER pārskatus, lai izveidotu elektroniskus dokumentus Excel, Microsoft Word vai PDF formātā. | Viena konfigurācija ļauj ER pārskatiem ģenerēt elektroniskus dokumentus trīs dažādos formātos: OpenXML darblapa (Excel), Word un XML veidlapu datu formāts (XFDF) (PDF). Lietotāji var atlasīt formātu, pievienojot formāta veidni ER pārskatam kā Excel, Word vai PDF dokumentu. |
 | Konfigurēt ER pārskatus, lai ievietotu datus elektronisko dokumentu lappušu galvenēs un kājenēs, kas tiek ģenerēti OpenXML darblapas formātā, un lai kontrolētu lapu pārtraukumus. | ER pārskati var ievadīt biznesa datus lappušu galvenēs un kājenēs, kā arī kontrolēt, kur parādās lappuses pārtraukumi. Tādējādi, pārskati var atbalstīt ģenerēto elektronisko dokumentu lapu statiskas augšējās un apakšējās sadaļas. Tie atbalsta arī noteiktu šo dokumentu lapošanu, lai tie atbilstu likumdošanas prasībām. |
 | Konfigurējiet ER pārskatu adresātus, lai rezultāts tiek nosūtīts pa e-pastu, un biznesa dati un ER loģika (izteiksmes) var tikt izmantoti, lai izpildlaikā norādītu e-pasta adresi, kas jāizmanto. | Iepriekš, konfigurējot ER adresātu, izvades adresāta e-pasta adresi varēja definēt noformēšanas laikā. Tagad jūs varat konfigurēt izteiksmi ER formātā. Šo izteiksmi tad var atlasīt adresātā kā e-pasta adreses avotu katrai formāta konfigurācijai, un katram rezultāta komponentam (mape vai fails) atsevišķi. Tādējādi, izpildot ER pārskatu, katru izveidoto failu var nosūtīt citam saņēmējam, un e-pasta adresi var definēt, pamatojoties uz ER loģiku un biznesa datiem. |
-| Konfigurējiet ER pārskatu adresātu, lai rezultāts tiktu nosūtīts uz Microsoft SharePoint mapi kā no jauna nosaukts fails, vai jauna esošā faila versija, un lai biznesa datus Microsoft Power BI struktūrā varētu izmantot kā datu kopu vai pārskatu. | Konfigurējot ER pārskatus, jūs varat viegli (bez kodēšanas) sagatavot pieprasītos biznesa datus, lai tos varētu izmantot Power BI struktūrā. Izpildot šos ER pārskatus, jūs varat nodrošināt Power BI struktūru ar atbilstošiem biznesa datiem un/vai Excel pārskatiem, kas jau ir pieejami. Ja plānojat pārskata izpildes atkārtošanās režīmā, jūs varat izveidot ieplānotu biznesa datu sadali no Dynamics 365 for Operations uz Power BI, lai atbalstītu Power BI pārskatu atjaunināšanas grafiku. |
+| Konfigurējiet ER pārskatu adresātu, lai rezultāts tiktu nosūtīts uz Microsoft SharePoint mapi kā no jauna nosaukts fails, vai jauna esošā faila versija, un lai biznesa datus programmas Microsoft Power BI struktūrā varētu izmantot kā datu kopu vai pārskatu. | Konfigurējot ER pārskatus, jūs varat viegli (bez kodēšanas) sagatavot pieprasītos biznesa datus, lai tos varētu izmantot Power BI struktūrā. Izpildot šos ER pārskatus, jūs varat nodrošināt Power BI struktūru ar atbilstošiem biznesa datiem un/vai Excel pārskatiem, kas jau ir pieejami. Ja plānojat pārskata izpildes atkārtošanās režīmā, jūs varat izveidot ieplānotu biznesa datu sadali no Dynamics 365 for Operations uz Power BI, lai atbalstītu Power BI pārskatu atjaunināšanas grafiku. |
 | Konfigurējiet ER pārskatus, lai izmantotu daļu no elektroniska dokumenta, kas jau ir izveidots kā datu avots, lai ģenerētu pārējo šī dokumenta daļu. | Jūs varat konfigurēt ER pārskatus, kas veido rezultātu teksta formātā, lai veiktu dokumenta rindas uzskaiti. Šo informāciju var izmantot citās dokumenta daļās, lai izveidotu rindas, kas ietver kopsavilkuma informāciju. Kopsavilkuma informācija (kopsummas un numuri) var būt aprēķināta un drukāta uz elektroniskiem dokumentiem, kas tiek ģenerēti, neprasot papildu datu transformācijas. Tādējādi šis līdzeklis uzlabo pārskata izpildes veiktspēju, un palīdz nākotnē vieglāk uzturēt konfigurēto ER formātu. |
 | Konfigurējiet ER pārskatus, lai norādītu faila nosaukuma paplašinājumu elektroniskajam dokumentam, kas tiek ģenerēts teksta formātā. | Jūs varat konfigurēt ER pārskatus, lai izveidotu rezultātu teksta formātā, lai to var saglabāt kā failu ar noteiktu paplašinājumu. Papildus noklusējuma. txt paplašinājumam, jūs varat konfigurēt tādus paplašinājumus kā .csv un .prn, saskaņā ar formāta specifikāciju. |
 | Veidojiet jaunus ER pārskatus, kas ir balstīti uz konkrētu ER modeļa versiju. | Iepriekš, izveidojot jaunu ER formātu, tikai atlasītā ER modeļa jaunāko versiju varēja izmantot kā formāta datu avota atrašanās vietu. Tagad ir iespējams atlasīt jebkuru pieejamo atlasītā ER modeļa versiju. Šī funkcija ļauj uzturēt ER pārskatus pašreizējam gadam, un paralēli veidot jaunu ER modeļa versiju nākamajam gadam. |
@@ -945,3 +943,6 @@ Pašlaik Retail Modern POS ir pieejams tikai kā operētājsistēmas Windows 8.1
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Jaunumi un izmaiņas Finance and Operations sākumlapā](whats-new-changed.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

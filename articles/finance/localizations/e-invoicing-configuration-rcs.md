@@ -2,7 +2,7 @@
 title: Elektronisko rēķinu izveides konfigurēšana pakalpojumā Regulatory Configuration Services (RCS)
 description: Šajā tēmā skaidrots, kā konfigurēt Elektronisko rēķinu izrakstīšanu Dynamics 365 Regulatory Configuration Services (RCS).
 author: gionoder
-ms.date: 11/08/2021
+ms.date: 07/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 640244612a2a553ec09661635787cb7f8694283b
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
-ms.translationtype: MT
+ms.openlocfilehash: 98ba40da7b365e46e1c624ba70c7dc048144e2c7137e8fd8eb5abe348028ce35
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779674"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757978"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Elektronisko rēķinu izveides konfigurēšana pakalpojumā Regulatory Configuration Services (RCS)
 
@@ -28,7 +28,7 @@ ms.locfileid: "7779674"
 
 Šajā tēmā sniegta informācija par Elektronisko rēķinu izrakstīšanas konfigurācijas iespējām Dynamics 365 Regulatory Configuration Services (RCS).
 
-Izmantojot konfigurācijas iespējas, Elektronisko rēķinu izrakstīšana palīdz jums izpildīt uzņēmējdarbības un regulēšanas prasības elektroniskajiem rēķiniem bez nepieciešamības veikt kodēšanu. Un scenārijos, kad elektroniskie rēķini ir elektroniski jāapstiprina web pakalpojumam, konfigurācijas iespējas arī palīdz jums izpildīt ziņojumu apmaiņas ar Web pakalpojumu prasībām, neveicot nekādu kodu.
+Izmantojot konfigurācijas iespējas, Elektronisko rēķinu izrakstīšana palīdz jums izpildīt uzņēmējdarbības un regulēšanas prasības elektroniskajiem rēķiniem bez nepieciešamības veikt kodēšanu. Un scenārijos, kuros elektroniskie rēķini ir elektroniski jāapstiprina tīmekļa pakalpojumiem, konfigurācijas iespējas palīdz arī izpildīt pakalpojumu prasības ziņojumu apmaiņai ar tīmekļa pakalpojumiem, neveicot nekādu kodēšanu.
 
 ## <a name="electronic-reporting"></a>Elektroniskie pārskati
 
@@ -73,7 +73,6 @@ Elektronisko rēķinu izrakstīšanas funkciju pieejamība ir atkarīga no valst
 | Spānija          | Spānijas elektroniskais rēķins (ES)      | Pārdošanas un projektu rēķini |
 | Eiropa         | PEPPOL elektroniskais rēķins            | PEPPOL pārdošanas un projektu rēķini |
 | Eiropa         | PEPPOL kreditoru rēķins                | PEPPOL importa kreditoru rēķini |
-| Saūda Arābija   | Saūda Arābijas elektroniskais rēķins (SA)| Pārdošanas un projektu rēķini |
 
 ### <a name="preview-features"></a>Priekšskatījuma līdzekļi
 
@@ -197,11 +196,6 @@ Elektronisko rēķinu izrakstīšanas funkcijas sastāv no šādām konfigurēja
 
 - Pārdošanas rēķins (ES)
 - Projekta rēķins (ES)
-
-#### <a name="saudi-arabian-sa-electronic-invoice-sales-and-project-invoices-for-saudi-arabia"></a>Saūda Arābijas (SA) elektroniskais rēķins: pārdošanas un projekta rēķini Saūda Arābijai
-
-- Pārdošanas e-rēķins (SA)
-- Projekta e-rēķins (SA)
 
 Papildus neiekļautajām ER formāta konfigurācijām, lai izmantotu ar Elektronisko rēķinu pakalpojumu, varat arī izveidot savas ER formāta konfigurācijas. Tomēr formāta konfigurācijas, kas izveidotas, lai tās izmantotu ar Elektroniskās rēķinu izrakstīšanas līdzekļiem, neatbalsta tiešu atsauci uz Finance vai Supply Chain Management tabulām vai kādu no atbilstošajiem metadatiem. Tiek atbalstītas tikai atsauces uz ER modeļa kartēšanu.
 

@@ -2,11 +2,9 @@
 title: ER konfigurāciju noformēšana datu importēšanai no ārējiem CSV failiem
 description: Izmantojiet šo procedūru, lai izveidotu elektronisko pārskatu (Electronic reporting — ER) konfigurācijas datu importēšanai lietojumprogrammā Finance and Operations no ārēja CSV formāta faila.
 author: NickSelin
-manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b542b6250bcc72334659e050f7ab6d5bd87d3508
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: b42f0cf8c7260c85d405a5dfdcd50323ffee4d4528b982997a802b859ab8327b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682049"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747275"
 ---
 # <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>ER konfigurāciju noformēšana datu importēšanai no ārējiem CSV failiem
 
@@ -124,3 +122,6 @@ Testēšanas nolūkos izpildiet formāta kartēšanu, izmantojot iepriekš lejup
     * Pārskatiet izvadi XML formātā, kas parāda no atlasītā faila importētos un uz datu modeli pārnestos datus. Ņemiet vērā, ka tika apstrādātas visas 7 importētā CSV faila rindas. Datus saturošo lauku virsraksta 1. rinda tika izlaista, 4 transakcijas tika pareizi parsētas un 2 transakcijas tika atpazītas kā nederīgas.
 3. Aizvērt lapu.
 4. Aizvērt lapu.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

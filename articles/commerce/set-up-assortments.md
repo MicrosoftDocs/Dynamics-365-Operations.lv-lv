@@ -2,11 +2,9 @@
 title: Preču klāstu iestatīšana
 description: Šajā rakstā ir aprakstīts, kas ir preču klāsts, un ir paskaidrots, kā iestatīt preču klāstus programmā Dynamics 365 Commerce.
 author: jblucher
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailAssortmentDetails
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 32edf6534716236706847556a14b951f18ef40ae
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: bbe7749e6c8293ded933611d6f1084b89223302c
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969830"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5790986"
 ---
 # <a name="set-up-assortments"></a>Iestatīt preču klāstus
 
@@ -54,3 +52,6 @@ Pēc tam, kad esat izpildījis priekšnoteikumus, varat izveidot preču klāstu 
 2. Atlasiet kanālus vai augsta līmeņa kanālu grupas, uz ko attiecas preču klāsts.
 3. Pievienojiet preču klāstam preču kategorijas, atsevišķas preces vai preces variantus. Varat iekļaut visas noteiktas kategorijas preces vai arī varat izslēgt atlasītās preces no kategorijas, kas ir iekļauta preču klāstā.
 4. Publicējiet preču klāstu. Publicējot preču klāstu, tiek automātiski palaists preču klāsta plānotājs. Izpildot šo procesu, tiek ģenerēts preču saraksts. Kad šis process ir pabeigts, preces kļūst pieejamas kanālos, kam ir piešķirts preču klāsts. Ja tiek mainīts publicēts preču klāsts vai kanāli, kam ir piešķirts šis preču klāsts, ir jāatjaunina šis preču klāsts. Lai atjauninātu preču klāstā, kad tiek veiktas izmaiņas, varat palaist preču klāsta plānotāju pakešuzdevuma režīmā.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

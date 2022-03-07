@@ -1,41 +1,41 @@
 ---
 title: Inventarizācijas akta un KPI skatīšana pēc izmaksu objekta
-description: Šajā rakstā ir informācija, kā skatīt Inventarizācijas aktu un KPI pēc izmaksu objekta.
+description: Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 author: AndersGirke
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, CostAdminWorkspace, CostLastInventoryCloseCard, CostLastBackflushCostingCard, CostStatementCacheCard, CostReleasedProductsMissingCostingDataFormPart, CostCalculationPeriodTopVariancesChartFormPart, EcoResProductDetailsExtended, InventCostOnhandItem, CostStatement, CostInventoryFlowChart, CostInventoryTurnCard, CostInventoryAccuracyCard
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f813b0e04a2450cb64e92128d36495a483ad14e1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: bc60d442b9ed59b0bf882f578c31b8c591f4959a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568163"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432652"
 ---
 # <a name="view-inventory-statement-and-kpi-by-cost-object"></a>Inventarizācijas akta un KPI skatīšana pēc izmaksu objekta
 
 [!include [banner](../../includes/banner.md)]
 
-USMF ir paraugdatu uzņēmums, kas tiek izmantots šīs procedūras izveidei. Šī procedūra ir paredzēta izmaksu kontrolierim.
+Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF. Šī procedūra ir paredzēta izmaksu kontrolierim.
 
-1. Atlasiet **Izmaksu administrēšana**.
-2. Atlasiet **Izlaistās preces**.
-3. Izmantojiet līdzekli Ātrais filtrs, lai atrastu ierakstus. Piemēram, filtrējiet pēc lauka **Krājuma numurs**, izmantojot vērtību *d0005*.
-4. Darbību rūtī atlasiet **Pārvaldīt izmaksas**.
-5. Atlasiet **Izmaksu objekti**.
-6. Atlasiet **Krājumu akts un KPI**.
-7. Ievadiet datumu laukā **No datuma**.
-8. Ievadiet datumu laukā **Līdz datumam**.
+1. Noklikšķiniet uz Izmaksu administrēšana.
+2. Noklikšķiniet uz Izlaistās preces.
+3. Izmantojiet līdzekli Ātrais filtrs, lai atrastu ierakstus. Piemēram, filtrējiet pēc lauka Krājuma numurs, izmantojot vērtību "d0005".
+4. Darbību rūtī noklikšķiniet uz Pārvaldīt izmaksas.
+5. Noklikšķiniet uz Izmaksu objekti.
+6. Noklikšķiniet uz Krājumu akts un KPI.
+7. Ievadiet datumu laukā No datuma.
+8. Laukā Līdz datumam ievadiet datumu.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

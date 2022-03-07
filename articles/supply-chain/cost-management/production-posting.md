@@ -2,11 +2,9 @@
 title: Ražošanas uzdevuma grāmatošana
 description: Šajā rakstā ir sniegta informācija par dažādu tipu grāmatojumiem ražošanas procesā.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventItemGroup, ProjCategory, WrkCtrResourceGroup, WrkCtrTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d97656081c0ade6918afb9e082254a4d877324e4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 78babdd3942001d749641a4c9afdedd4b4c2ad632a08d20d35faeb107653defb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963817"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751941"
 ---
 # <a name="production-posting"></a>Ražošanas uzdevuma grāmatošana
 
@@ -56,3 +54,6 @@ Sadaļā **Ražošanas kontroles parametri** lauku **Grāmatošana Virsgrāmatā
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

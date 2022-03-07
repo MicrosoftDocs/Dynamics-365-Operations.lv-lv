@@ -1,38 +1,35 @@
 ---
 title: Izvēles funkciju konfigurācija Dynamics 365 Commerce novērtējuma videi
-description: Šajā tēmā ir paskaidrots, kā konfigurēt izvēles funkcijas Microsoft Dynamics 365 Commerce novērtējuma videi.
+description: Šajā tēmā paskaidrots, kā konfigurēt neobligātos līdzekļus Microsoft Dynamics 365 Commerce novērtējuma videi.
 author: psimolin
-manager: annbe
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6f7ba7e6de3791720458b509059f008423c73a82
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 2f4e93b7ece7652b72ae2067be4de73f45a8261ada1b0bc731e2bd2147dcccc6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413945"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728295"
 ---
-# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Izvēles funkciju konfigurācija Dynamics 365 Commerce novērtējuma videi
+# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Izvēles līdzekļu konfigurēšana Dynamics 365 Commerce novērtēšanas videi
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā konfigurēt izvēles funkcijas Microsoft Dynamics 365 Commerce novērtējuma videi.
+Šajā tēmā paskaidrots, kā konfigurēt neobligātos līdzekļus Microsoft Dynamics 365 Commerce novērtējuma videi.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
-Ja vēlaties novērtēt transakciju e-pasta līdzekļus, ir jāizpilda tālāk minētie priekšnosacījumi.
+Ja vēlaties novērtēt transakciju e-pasta līdzekļus, ir jāizpilda tālāk minētie priekšnosacījumi:
 
 - Jums ir pieejams e-pasta serveris (vienkāršā pasta pārsūtīšanas protokola \[SMTP\] serveris), kuru var izmantot no Microsoft Azure abonementa, kurā tika nodrošināta novērtējuma vide.
 - Jums ir pieejams pilnībā kvalificēts servera domēna nosaukums (FQDN)/IP adrese, SMTP porta numurs un autentifikācijas informācija.
@@ -103,7 +100,7 @@ Katram darījuma notikumam, kuram vēlaties sūtīt e-pasta ziņojumus, jums ir 
 
 Iespējams, vēlēsieties pielāgot e-pasta veidnes, lai tās izmantotu dažādus attēlus. Varat arī atjaunināt veidņu saites, lai tās pārvietotu uz novērtējuma vidi. Šī procedūra izskaidro, kā lejupielādēt noklusējuma veidnes, pielāgot tās un atjaunināt veidnes sistēmā.
 
-1. Sava datora tīmekļa pārlūkprogrammā lejupielādējiet [Microsoft Dynamics 365 Commerce novērtējuma noklusējuma e-pasta veidnes .zip failu](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip). Šajā failā ir ietverti tālāk norādītie HTML dokumenti.
+1. Tīmekļa pārlūkā lejupielādējiet [Microsoft Dynamics 365 Commerce novērtējuma noklusējuma e-pasta veidņu ZIP failu](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) savā lokālajā datorā. Šajā failā ir ietverti tālāk norādītie HTML dokumenti.
 
     - Pasūtījuma apstiprinājuma veidne
     - Dāvanu kartes izsniegšanas veidne
@@ -137,7 +134,7 @@ Tālāk minētie marķieri attiecas uz vispārēju pārdošanas pasūtījumu.
 | Marķējuma nosaukums | Marķieris |
 |-------------------|-------|
 | Pasūtījuma numurs      | %salesid% |
-| Debitora nosaukums   | %customername% |
+| Klienta vārds/nosaukums   | %customername% |
 | Piegādes adrese  | %deliveryaddress% |
 | Norēķinu adrese   | %customeraddress% |
 | Ordera datums        | %shipdate% |
@@ -158,9 +155,9 @@ Tālāk esošie marķieri tiek aizstāti ar vērtībām katram produktam pasūt�
 | Preču saraksts — sākums   | \<!--%tablebegin.salesline% --\> |
 | Preču saraksts — beigas     | \<!--%tableend.salesline%--\> |
 | Preces nosaukums           | %lineproductname% |
-| apraksts            | %lineproductdescription% |
+| Apraksts            | %lineproductdescription% |
 | Daudzums               | %linequantity% |
-| Rindas vienības cena        | %lineprice% (verificēt) |
+| Rindas vienības cena        | %lineprice% (pārbaudīt) |
 | rindas preču kopsumma        | %linenetamount% |
 | rindas atlaide          | %linediscount% |
 | Nosūtīšanas datums              | %lineshipdate% |
@@ -180,10 +177,13 @@ Tālāk esošie marķieri tiek aizstāti ar vērtībām katram produktam pasūt�
 
 [Dynamics 365 Commerce novērtējuma vide - bieži uzdotie jautājumi](cpe-faq.md)
 
-[Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Retail Cloud Scale Unit (RCSU)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Microsoft Azure portāls](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce tīmekļa vietne](https://aka.ms/Dynamics365CommerceWebsite)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Nodokļu iestāžu iestatīšana
 description: PVN iestādes ir iestādes, kurām jāziņo par iekasēto PVN un tas jāiemaksā.
 author: twheeloc
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAuthority
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cbfc2e1afc7109e70851cbb8b4cb17ce44b2fc4d1946f95f382185b6ae1bb3e4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f4847b5f3f50cc74c5b4854e1f0daedd64785baf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752155"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994569"
 ---
 # <a name="set-up-sales-tax-authorities"></a>Nodokļu iestāžu iestatīšana
 
@@ -38,6 +40,3 @@ PVN iestādes ir iestādes, kurām jāziņo par iekasēto PVN un tas jāiemaksā
 10. Ievadiet skaitli Noapaļošanas laukā.
 11. Noklikšķiniet uz Saglabāt.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

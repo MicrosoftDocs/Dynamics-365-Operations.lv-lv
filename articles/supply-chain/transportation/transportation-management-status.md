@@ -11,13 +11,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-09-08
-ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9c5570d3b5b436a35bb57d051bc06cde8b78934e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.14
+ms.openlocfilehash: f3a2b9e50dddf0f015cdd3f16d6d93fcc03d464d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569893"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5807612"
 ---
 # <a name="transportation-management-statuses"></a>Transportēšanas pārvaldības statusi
 

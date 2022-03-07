@@ -1,12 +1,10 @@
 ---
 title: Darba stundu kontrole
 description: Šajā tēmā ir aprakstīta darba stundu kontrole līdzekļu pārvaldībā.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetHourControl
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: cc4382d72e032fdfad05f2077ffe8e41e64c6a55
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 90c4f649cc9ea45341ede923294a7c5a892cd68714db356c3799430d18f5de60
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018475"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742780"
 ---
 # <a name="work-hour-control"></a>Darba stundu kontrole
 
@@ -68,8 +66,11 @@ Ekrānšāviņā redzams aprēķina **Līdzekļu stundu kontrole** piemērs.
 - Lauks **Faktiskās stundas** rāda darba pasūtījumu grāmatotās stundas. 
 - Lauks **Fiksētās stundas** parāda kopējo stundu summu, ko jūsu uzņēmums ir izmantojis saistībā ar darba pasūtījumiem.
 
-![Pamatlīdzekļu stundu kontroles aprēķina piemērs](media/04-controlling-and-reporting.png)
+![Pamatlīdzekļu stundu kontroles aprēķina piemērs.](media/04-controlling-and-reporting.png)
 
 Cits stundu aprēķina veids ir vairāku atlasīto līdzekļu atlasīšana sadaļās **Visi līdzekļi** vai **Aktīvie līdzekļi** Pēc tam noklikšķiniet uz pogas **Stundu kontrole**, kas atrodas kopsavilkuma cilnē **Vispārīgi**. Atlasītie līdzekļi automātiski tiek ievietoti laukā **Līdzekļi** kopsavilkuma cilnē **Ieraksti, kas jāiekļauj**. Noklikšķiniet uz **Labi** dialoglodziņā **Līdzekļu stundu kontrole**, un tiks parādīts atlasīto līdzekļu aprēķins. To pašu procedūru var veikt funkcionālajiem novietojumiem sadaļās **Visi funkcionālie novietojumi** vai **Aktīvie funkcionālie novietojumi** un darba pasūtījumiem sadaļās **Visi darba pasūtījumi** vai **Aktīvie darba pasūtījumi**.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

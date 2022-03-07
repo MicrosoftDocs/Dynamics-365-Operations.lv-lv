@@ -1,12 +1,10 @@
 ---
 title: Materiālu komplekti un formulas
 description: Šajā tēmā ir sniegta informācija par materiālu komplektiem (MK) un formulām, kas ir nozīmīgi preču un preču variantu definēšanas elementi.
-author: cvocph
-manager: tfehr
+author: johanhoffmann
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMConsistOf, BOMDesigner, BOMTable, EcoResProductProcessManufacturingWorkspace, ProdBOM, ProdJournalTransBOM, ProdBOMCurrent, PmfBOMDesignerEditCoBy, ProdJournalPickingListLineSummary, ProdBOMOverview, PmfCoReqPlanning, EcoResProductProdTypeFormulaNoActiveFormulaFormPart, EcoResItemsMissingActiveRouteVersionFormPart, EcoResItemsProdTypeBOMExpiringBOMFormPart, BOMDesignerBOMVersion, BOMExpandPurch, BOMChangeLine, BOMExpandSales, EcoResItemsProdTypeBOMExpiringRouteFormPart, EngChgEcmBomDesigner, EngChgEcmProductBOMItemIdLookup, EngChgEcmProductBOMConsistOf, EngChgEcmBOMCopyDialog, EngChgEcmBomDesignerEditBom, BOMDesignerFilterDialog, BOMDesignerFilterDialog, BOMPartOf, BOMSetupReportFinish, EcoResItemsMissingActiveBOMVersionFormPart, BOMIdLookup, EcoResProductProdTypeFormulaNoActiveRouteFormPart, BOMExpandPurchRFQ, EngChgCaseRouteTablePart
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 19331
 ms.assetid: c19b437a-2de2-4728-9477-2bcb0c2b1f5e
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01491f15405e28e63e4b83f9a9c7af90c2e4a1b5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 12a70720775d9903a875dd1759ea2372f1f3b122
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966484"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578012"
 ---
 # <a name="bills-of-materials-and-formulas"></a>Materiālu komplekti un formulas
 
@@ -31,8 +29,7 @@ ms.locfileid: "4966484"
 
 Šajā tēmā ir sniegta informācija par materiālu komplektiem (MK) un formulām, kas ir nozīmīgi preču un preču variantu definēšanas elementi. MK un formulas norāda konkrētas preces nepieciešamos materiālus jeb komponentus. Formulas norāda arī līdzproduktus un blakusproduktus, kas tiek saņemti noteiktā ražošanas kontekstā. 
 
-<a name="bills-of-materials"></a>Materiālu komplekti
-------------------
+## <a name="bills-of-materials"></a>Materiālu komplekti
 
 Materiālu komplekts (MK) nosaka komponentus, kas nepieciešami, lai saražotu preci. Komponenti var būt izejmateriāli, daļēji pabeigtas preces vai sastāvdaļas. Dažos gadījumos MK var norādīt pakalpojumus. Tomēr MK parasti raksturo nepieciešamos *materiālu resursus*.  
 
@@ -117,3 +114,6 @@ Atlasiet rindas tipu **Kreditors**, ja ražošanas procesā tiek izmantots apak�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

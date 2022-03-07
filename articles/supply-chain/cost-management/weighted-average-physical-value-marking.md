@@ -13,15 +13,15 @@ ms.custom: 65501
 ms.assetid: 25041ff0-bafe-484d-a94a-e1772ad43204
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: aevengir
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d94e61384ad2d0880a6d62b963e9a99518a41db1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 2a9cdd16f0a1592690547a687a731de83a720018
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572005"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830128"
 ---
 # <a name="weighted-average-with-physical-value-and-marking"></a>Vidējā svērtā ar fizisko vērtību un iezīmēšanu
 
@@ -65,7 +65,7 @@ Turpmākajās sadaļās aprakstītajā scenārijā ir iegrāmatotas finansiāli 
 
 Tālāk esošajā diagrammā ir atspoguļota šī transakciju sērija, kā arī ietekme, ko rada svērtā vidējā krājumu modeļa un tiešās segšanas principa izvēlēšanās, neizmantojot opciju Iekļaut fizisko vērtību. 
 
-![WeightedAverage DS bez fizisko vērtību iekļaušanas.](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
+![WeightedAverage DS bez fizisko vērtību iekļaušanas](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Diagrammas apzīmējumi**
 - Krājuma darbības ir atzīmētas ar vertikālām bultām.
@@ -99,7 +99,7 @@ Tālāk apskatāmajā grafikā ir attēlotas šādas darbības:
 
 Tālāk esošajā diagrammā ir atspoguļota šī transakciju sērija, kā arī ietekme, ko rada svērtā vidējā krājumu modeļa un apkopotās segšanas principa izvēlēšanās, neizmantojot opciju Iekļaut fizisko vērtību. 
 
-![Vidējā svērtā apkopotā apmaksa ar fizisko vērtību iekļaušanu.](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![Vidējā svērtā apkopotā apmaksa ar fizisko vērtību iekļaušanu](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Diagrammas apzīmējumi**
 - Krājuma darbības ir atzīmētas ar vertikālām bultām.
@@ -128,7 +128,7 @@ Tālāk apskatāmajā grafikā ir attēlotas šādas darbības:
 
 Tālāk esošajā diagrammā ir atspoguļota šī transakciju sērija, kā arī ietekme, ko rada svērtā vidējā krājumu modeļa un tiešās segšanas principa izvēlēšanās, izmantojot opciju Iekļaut fizisko vērtību. 
 
-![Vidējā svērtā tiešā apmaksa ar fizisko vērtību iekļaušanu.](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
+![Vidējā svērtā tiešā apmaksa ar fizisko vērtību iekļaušanu](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
 
 **Diagrammas apzīmējumi**
 - Krājuma darbības ir atzīmētas ar vertikālām bultām.
@@ -161,7 +161,7 @@ Tālāk apskatāmajā grafikā ir attēlotas šādas darbības:
 
 Tālāk esošajā diagrammā ir atspoguļota šī transakciju sērija, kā arī ietekme, ko rada svērtā vidējā krājumu modeļa un apkopotās segšanas principa izvēlēšanās, neizmantojot opciju Iekļaut fizisko vērtību. 
 
-![WeightedAverage SS ar fizisko vērtību iekļaušanu.](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
+![WeightedAverage SS ar fizisko vērtību iekļaušanu](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
 
 **Diagrammas apzīmējumi**
 - Krājuma darbības ir atzīmētas ar vertikālām bultām.
@@ -209,7 +209,7 @@ Jauna pašreizēja vidējā izmaksu cena attēlo finansiāli vai fiziski atjauni
 
 Turpmāk redzamajā diagrammā ir atspoguļota darbību sērija ar ietekmēm, izvēloties svērtā vidējā krājumu modeli ar atzīmēšanu. 
 
-![Vidējais svērtais ar apzīmējumu.](./media/weightedaveragewithmarking.gif) 
+![Vidējais svērtais ar apzīmējumu](./media/weightedaveragewithmarking.gif) 
 
 **Diagrammas apzīmējumi**
 - Krājuma darbības ir atzīmētas ar vertikālām bultām.

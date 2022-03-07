@@ -2,15 +2,12 @@
 title: Konfigurēt likmes
 description: Likmes programmā Microsoft Dynamics 365 Human Resources definē, cik daudz darba devēji un nodarbinātie sniedz ieguldījumu atvieglojumā.
 author: andreabichsel
-manager: AnnBe
-ms.date: 06/22/2020
+ms.date: 06/25/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,16 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e397e20b6b6307349020c8dfd238b4b59eeca527
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 85cf561828aa8ef9d80df31436f473b29406e2fd
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419570"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558349"
 ---
 # <a name="configure-rates"></a>Konfigurēt likmes
 
-Likmes programmā Microsoft Dynamics 365 Human Resources definē, cik daudz darba devēji un nodarbinātie sniedz ieguldījumu atvieglojumā. Vērtība var būt summa vai elastīgie kredīti atkarībā no jūsu konfigurācijas.
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Likmes definē, cik daudz darba devēji un nodarbinātie sniedz ieguldījumu atvieglojumā. Vērtība var būt vai nu summa vai vairāki elastīgie kredīti atkarībā no jūsu konfigurācijas.
 
 Izmantojiet likmes, lai noteiktu, cik daudz darbinieku un darba devēju maksā par katru atvieglojumu, pamatojoties uz vairākiem faktoriem. Vajadzības likmes ir spēkā esošas, tāpēc varat uzturēt vēsturisku likmju uzskaiti. 
 
@@ -43,18 +42,18 @@ Izmantojiet likmes, lai noteiktu, cik daudz darbinieku un darba devēju maksā p
    | --- | --- |
    | **Norma** | Unikāls nosaukums, kas identificē atvieglojuma likmi. |
    | **Apraksts** | Atvieglojumu likmes apraksts. |
-   | **Ir spēkā** | Datums, kad likme ir spēkā. Noklusējuma vērtība ir pašreizējais sistēmas datums. 
+   | **Ir spēkā** | Datums, kurā likme kļūst efektīva. Noklusējuma vērtība ir pašreizējais sistēmas datums. Šim datumam jābūt atvieglojumu periodā vai pirms tā. Lai šo datumu iestatītu atvieglojuma plāna datumā, ir laba prakse. |
    | **Termiņa beigas** | Likmes beigu datums. 12/31/2154 (kas apzīmē "nekad") ir noklusētā vērtība. |
-   | **Izmantot pakāpes** | Līmenis, ko izmantot atvieglojumu likmes aprēķinam. Vienkāršais līmenis viena līmeņa atvieglojuma likmei vai divkāršais līmenis divu līmeņu atvieglojuma likmei. Divkārša līmeņa piemērs ir līmenis, kas balstīts dzimumā un vecumā. |
-   | **Maksājumu biežums** | Maksājumu biežums, kas nosaka to, cik bieži atvieglojuma prēmijas likme tiek izmaksāta atvieglojuma nodrošinātājam. Piemēram, ja maksājuma biežums ir reizi mēnesī, tad atvieglojumu likme apzīmē ikmēneša maksājuma summu. |
-   | **Maksājumu biežuma likmes noapaļošana** | Likmes noapaļošanas metode: standarta vai saīsinātā. |
+   | **Izmantot pakāpes** |  Lietojiet šo lauku, ja ir loģika, kas jāizmanto likmes noteikšanai. Piemēram, ja, pamatojoties uz vecumu, likmei ir jāpalielina, atlasiet šeit vērtību. Atlasiet **Vienkāršais līmenis** viena līmeņa atvieglojuma likmei vai **Divkāršais līmenis** divu līmeņu atvieglojuma likmei. Divkārša līmeņa piemērs ir līmenis, kas balstīts dzimumā un vecumā. Pēc vērtības atlases atlasiet **Darbības** un pēc tam atlasiet **Pakāpju likmes**. Ja jums ir vienotā likme, kas nemainās, atstājiet šo lauku tukšu. |
+   | **Maksājumu biežums** | Norādiet, cik bieži atvieglojumu prēmijas likme jāmaksā atvieglojumu sniedzējam. Likmes, kuras ievadāt tālāk šajā tēmā aprakstītajā lapā, tiks balstītas uz maksāšanas biežumu, kuru norādīsiet šeit. Piemēram, ja ievadāt šajā laukā **Ik mēnesi** un ievadāt darbinieka likmi **$100**, ir pieņemts, ka atvieglojums darbiniekam izmaksās $100 mēnesi. Tomēr darbiniekam var maksāt divas reizes mēnesī, pamatojoties uz atvieglojumu maksājuma biežumu, kas iestatīts darbinieka ierakstā. Šajā gadījumā, kad darbinieks pierakstās darbinieku pašapkalpošanās sistēmai, summa, ko viņi maksās, tiks $50, jo likme, ko parāda darbinieka pašapkalpošanās, ir balstīta uz darbinieka maksājumu biežumu. |
+   | **Maksājumu biežuma likmes noapaļošana** | Likmes noapaļošanas metodes ir: standarta, saīsināta, parasta, uz leju un noapaļošana uz augšu. </br></br><ul><li>**Standarta** – vienmēr noapaļot uz augšu. Piemēram, 10,611 tiks noapaļots uz 10,62. – 10,231 tiks noapaļots uz -10,23. </li><li>**Saīsināta** – vienmēr noapaļot uz leju. Piemēram, 10,619 tiks noapaļots uz 10,61. – 10,231 tiks noapaļots uz -10,24. </li><li>**Parasta** – decimālskaitļu vērtības, kas beidzas ar 5, vai lielākas par 5, tiks noapaļotas no nulles. Decimālskaitļu vērtības, kas beidzas ar 4, vai mazākas par 4, tiks noapaļotas uz nulli. Piemēram, 10,615 tiks noapaļots uz 10,62. – 10,235 tiks noapaļots uz -10,24. 10,614 tiks noapaļots uz 10,61. – 10,234 tiks noapaļots uz -10,23. </li><li>**Uz leju** – noapaļot uz nulli. Piemēram, 10,619 tiks noapaļots uz 10,61. – 10,231 tiks noapaļots uz -10,23. </li><li>**Noapaļošana uz augšu** – noapaļot no nulles. Piemēram, 10,619 tiks noapaļots uz 10,62. – 10,231 tiks noapaļots uz -10,24. |
    | **Nesmēķētāja darbinieka summa** | Summa, kuru atvieglojumu nodrošinātājs ietur par nesmēķētāju darbinieku. Šī ir summa, ko darba devējs maksā atvieglojumu nodrošinātājam, un tai ir jābalstās likmes iestatījumu maksājumu biežumā. |
    | **Nesmēķētāja darba devēja summa** | Summa, kuru atvieglojumu nodrošinātājs ietur par nesmēķētāju darbinieku. Šī ir summa, ko darba devējs maksā atvieglojumu nodrošinātājam, un tai ir jābalstās likmes iestatījumu maksājumu biežumā. |
    | **Smēķētāja darbinieka summa** | Summa, kuru atvieglojumu nodrošinātājs ietur par smēķētāju darbinieku. Šī ir summa, ko darba devējs maksā atvieglojumu nodrošinātājam, un tai ir jābalstās likmes iestatījumu maksājumu biežumā. |
    | **Smēķētāja darba devēja summa** | Summa, kuru atvieglojumu nodrošinātājs ietur par smēķētāju darbinieku. Šī ir summa, ko darba devējs maksā atvieglojumu nodrošinātājam, un tai ir jābalstās likmes iestatījumu maksājumu biežumā. |
    | **Administratīvā summa** | Administratīvā summa, ko ietur trešās puses administrators. Šī ir summa, ko darba devējs maksā trešās puses administratoram, un tai ir jābalstās likmes iestatījumu maksājumu biežumā. |
    | **Brīvā režīma kredīta likme** | Atvieglojuma izmaksu elastīgo kredītu skaits. Tas attiecas tikai uz likmēm, kas ir paredzētas atvieglojumu plāniem, kas saistīti ar elastīgo kredīta programmām. Ja izmantojat līmeņa likmes, elastīgā kredīta likme tiek definēta opcijās Darbības > Līmeņu likmes. |
-   | **Izmaiņu spēkā stāšanās datums** | Datums, kad stājas spēkā atvieglojuma izmaiņas. Sistēma automātiski mainīs atvieglojumu likmi un atjauninās visus atvieglojumu plānus, kas saistīti ar šo likmi, kamēr vien palaižat likmes izmaiņu atjaunināšanas apstrādi. Neiestatiet šo datumu, ja vēlaties, lai sistēma automātiski atjauninātu nodarbināto atvieglojumu plānus, pamatojoties uz šo likmi. Tas parasti tiek rezervēts automātiskai turpmākai likmes izmaiņu apstrādei. Izmaiņu spēkā stāšanās datumam jāatbilst atvieglojumu likmes stāšanās spēkā un beigu datumam. |
+   | **Izmaiņu spēkā stāšanās datums** | Datums, kad stājas spēkā atvieglojuma izmaiņas. Sistēma automātiski mainīs atvieglojumu likmi un atjauninās visus atvieglojumu plānus, kas saistīti ar šo likmi, ar noteikumu, ka palaižat likmes izmaiņu atjaunināšanas apstrādi. Neiestatiet šo datumu, ja vēlaties, lai sistēma automātiski atjauninātu nodarbināto atvieglojumu plānus, pamatojoties uz šo likmi. Tas parasti tiek rezervēts automātiskai turpmākai likmes izmaiņu apstrādei. Izmaiņu spēkā stāšanās datumam jāatbilst atvieglojumu likmes stāšanās spēkā un beigu datumam. |
    | **Likmes izmaiņas pabeigtas** | Pēc tam, kad funkcija Likmju maiņas atjaunināšanas apstrāde mainīs atvieglojumu likmi, izvēles rūtiņa **Likmes maiņa pabeigta** tiks atlasīta automātiski. |
 
 4. Lai izsekotu un uzturētu izmaiņas atvieglojumu likmes iestatījumā, atlasiet **Darbības** un pēc tam atlasiet **Uzturēt versijas**.
@@ -67,6 +66,9 @@ Varat izmantot līmeņa likmes savos likmes iestatījumos, ja likme mainās atka
 
 Varat arī izmantot divkāršos līmeņus. Ja atlasāt **Divkāršais līmenis** vērtībai **Izmantot līmeņus** veidlapā **Likmes iestatīšana**, varat definēt likmes, pamatojoties uz divām dimensijām. Piemēram, varat konfigurēt divkāršā līmeņa sistēmu, lai teiktu, ka, ja esat vīrietis un jūsu vecums ir līdz 34,99, tad nesmēķētāja summa ir 2. Ja esat vīrietis un jūsu vecums ir līdz 39,99, tad nesmēķētāja summa ir 3. Ja esat sieviete un jūsu vecums ir līdz 34,99, tad nesmēķētāja summa ir 1.8. Ja esat sieviete un jūsu vecums ir līdz 39,99, tad nesmēķētāja summa ir 2.8.
 
+> [!IMPORTANT]
+> Darbinieka ieraksta opcija **Personiskās informācija** tiek izmantota, lai norādītu, vai darbinieks ir darbinieks. Ja darbinieks ir ierakstīts kā darbinieks, tiks izmantota drošības likme. (Darbiniekam nekad netiek rādīta vāja norāde.)
+   
 1. Darbvietā **Atvieglojumu pārvaldība**, sadaļā **Iestatījumi** atlasiet **Likmes**.
 
 2. Atlasiet vienu vai vairākas likmes no saraksta, atlasiet **Darbības** un pēc tam atlasiet **Līmeņu likmes**.
@@ -93,3 +95,7 @@ Varat arī izmantot divkāršos līmeņus. Ja atlasāt **Divkāršais līmenis**
    | **Elastīgā kredīta smēķētāju likme** | Atvieglojuma izmaksu elastīgo kredītu skaits, pamatojoties uz aprēķiniem, kas noteikti smēķētāju līmenim. |
 
 5. Atlasiet **Saglabāt**. 
+
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

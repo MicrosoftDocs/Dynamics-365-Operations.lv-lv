@@ -2,15 +2,12 @@
 title: Krājumu iestatījumu lietošana
 description: Šajā tēmā ir ietverti krājumu iestatījumi un aprakstīts, kā tos lietot programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 10/15/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dfa8b2bdc03e3698feda26932db757421097140d
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
-ms.translationtype: HT
+ms.openlocfilehash: 4ba3e67cf9c72b9a9606528c02f9e57d19a74c1f
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517068"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647588"
 ---
 # <a name="apply-inventory-settings"></a>Krājumu iestatījumu lietošana
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā ir ietverti krājumu iestatījumi un aprakstīts, kā tos lietot programmā Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
 
 Krājumu iestatījumi nosaka, vai krājumi ir jāpārbauda pirms preču pievienošanas grozam. Tie arī definē ar krājumiem saistītus preču pārdošanas ziņojumus, piemēram, "Noliktavā" un "Tikai daži atlikuši." Šie iestatījumi nodrošina, ka preci nevar iegādāties, ja tā nav noliktavā.
 
@@ -44,12 +39,22 @@ Commerce vietņu veidotājā var definēt krājumu robežvērtības un diapazonu
 
 ## <a name="inventory-settings"></a>Krājumu iestatījumi
 
-Commerce krājumu iestatījumi tiek definēti vietņu veidotājā **Vietas iestatījumi \> Paplašinājumi \> Krājumu vadība**. Ir četri krājumu iestatījumi, no kuriem viens ir novecojis.
+Commerce krājumu iestatījumi tiek definēti vietņu veidotājā **Vietas iestatījumi \> Paplašinājumi \> Krājumu vadība**. Ir seši krājumu iestatījumi, no kuriem viens ir vecs (novecojis).
 
 - **Iespējot krājumu pārbaudi programmā** — šis iestatījums ieslēdz preču krājumu pārbaudi. Pēc tam pirkšanas lodziņš, grozs un saņemšanas moduļi pārbauda preču krājumus un ļaus preci pievienot grozam tikai tad, ja krājumi ir pieejami.
 - **Krājumu līmenis, pamatojoties uz** — šis iestatījums nosaka, kā tiek aprēķināti krājumu līmeņi. Pieejamās vērtības ir **Kopējais pieejamais daudzums**, **Fiziski pieejamais daudzums** un **Robežvērtība Nav noliktavā**. Commerce krājumu robežvērtības un diapazonus var definēt katrai precei un kategorijai. Krājumu API atgriež preču krājuma informācija par rekvizītu **Kopējais pieejamais daudzums** un rekvizītu **Fiziski pieejamais daudzums**. Mazumtirgotājs lemj, vai vērtība **Kopējais pieejamais daudzums** vai **Fiziski pieejamais daudzums** būtu jāizmanto, lai noteiktu krājumus skaitu un atbilstīgos diapazonus statusam Noliktavā un Nav noliktavā.
 
     Iestatījuma **Robežvērtība Nav noliktavā** vērtība **Krājumu līmenis, pamatojoties uz** ir veca (mantota), novecojusi vērtība. To atlasot, krājumu skaits tiek noteikts no vērtības **Kopējais pieejamais daudzums** rezultātiem, bet robežvērtību nosaka skaitliskais iestatījums **Robežvērtība Nav noliktavā**, kas aprakstīts tālāk. Šis robežvērtības iestatījums attiecas uz visām e-Komercijas vietnē esošajām precēm. Ja krājumi ir mazāki par robežvērtības skaitli, tiek uzskatīts, ka preces nav noliktavā. Pretējā gadījumā tiek uzskatīts, ka tā ir noliktavā. Vērtības **Robežvērtība Nav noliktavā** iespējas ir ierobežotas, un nav ieteicams to lietot versijā 10.0.12 un jaunākās versijās.
+
+- **Krājumu līmenis vairākām noliktavām** – šis iestatījums ļauj krājuma līmeni aprēķināt attiecībā pret noklusējuma noliktavu vai vairākām noliktavām. Opcija **Pamatojoties uz atsevišķu noliktavu** aprēķinās krājumu līmeņi, pamatojoties uz noklusējuma noliktavu. Vai arī e-komercijas vietne var norādīt uz vairākām noliktavām, lai atvieglotu izpildi. Šajā gadījumā, opcija **Balstoties uz apkopoto nosūtīšanas un saņemšanas noliktavām** tiek izmantota, lai norādītu krājumu pieejamību. Piemēram, kad debitors iegādājas krājumu un kā piegādes veidu atlasa "piegāde", krājumu var nosūtīt no jebkuras noliktavas izpildes grupā, kurā ir pieejami krājumi. Preces informācijas lapa (product details page - PDP) nosūtīšanai parādīs ziņojumu "Noliktavā", ja kādai pieejamai nosūtīšanas noliktavai izpildes grupā ir krājumi. 
+
+    > [!IMPORTANT] 
+    > Iestātījums **Krājumu līmenis vairākām noliktavām** ir pieejams Commerce versijā 10.0.19. versijā. Ja veicat atjaunināšanu no vecākas Commerce versijas, ir manuāli jāatjaunina fails appsettings.json. Instrukcijas skatiet [SDK un moduļu bibliotēkas atjauninājumi](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
+
+- **Krājumu iestatījumi preču sarakstu lapām** - šis iestatījums nosaka, kā rezerves preces tiek rādītas preču sarakstos, kas tiek renderēti pēc preču kolekcijas un meklēšanas rezultātu moduļiem. Pieejamās vērtības ir **Rādīt pasūtījumā ar citām precēm**, **Paslēpt no saraksta krājumu preces** un **Saraksta beigās parādīt preces, kuru nav noliktavā**. Lai izmantotu šo iestatījumu, vispirms ir jākonfigurē daži priekšnosacījumu iestatījumi programmā Commerce Headquarters. Papildinformāciju skatiet [Meklēšanas rezultātu moduļa krājumu apzināšanas iespējošana](search-result-module.md#enable-inventory-awareness-for-the-search-results-module).
+
+    > [!IMPORTANT] 
+    > Iestatījums **Krājumu iestatījumi preču saraksta lapām** ir pieejams Commerce versijā 10.0.20. versijā. Ja veicat atjaunināšanu no vecākas Commerce versijas, ir manuāli jāatjaunina fails appsettings.json. Instrukcijas skatiet [SDK un moduļu bibliotēkas atjauninājumi](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
 - **Krājumu diapazoni** — šis iestatījums nosaka krājumu diapazonus, kas tiek parādīti uz vietas moduļiem. To var lietot tikai tad, ja ir atlasīta vērtība **Kopējais pieejamais daudzums** vai vērtība **Fiziski pieejamais daudzums** iestatījumam **Krājumu līmenis, pamatojoties uz**. Pieejamās vērtības ir **Viss** **Mazi krājumi un nav noliktavā** un **Nav noliktavā**.
 
@@ -66,17 +71,17 @@ Commerce krājumu iestatījumi tiek definēti vietņu veidotājā **Vietas iesta
 
 Pirkšanas lodziņš, vēlmju saraksts, veikala selektors, grozs un groza ikonu moduļi izmanto krājumu iestatījumus, lai parādītu krājumu diapazonus un ziņojumus.
 
-Attēlā zemāk ir parādīts preces informācijas lapas (PDP) piemērs, kas parāda krājumu Noliktavā ("pieejams") ziņojumu.
+Piemērā, kā parādīts šajā ilustrācijā, PDP rāda noliktavas ("Pieejams") ziņojumu.
 
-![PDP moduļa piemērs ar ziņojumu Noliktavā](./media/pdp-InStock.png)
+![PDP moduļa piemērs ar ziņojumu Noliktavā.](./media/pdp-InStock.png)
 
-Attēlā zemāk ir parādīts preces informācijas lapas (PDP) piemērs, kas parāda krājumu Nav noliktavā ziņojumu.
+Piemērā, kā parādīts šajā ilustrācijā, PDP rāda ("Nav pieejams") ziņojumu.
 
-![PDP moduļa piemērs ar ziņojumu Nav noliktavā](./media/pdp-outofstock.png)
+![PDP moduļa piemērs ar ziņojumu Nav noliktavā.](./media/pdp-outofstock.png)
 
-Attēlā zemāk ir parādīts groza piemērs, kas parāda krājumu Noliktavā ("Pieejams") ziņojumu.
+Piemērā, kā parādīts šajā ilustrācijā, grozs rāda noliktavas ("Pieejams") ziņojumu.
 
-![Groza moduļa piemērs ar ziņojumu Noliktavā](./media/cart-instock.png)
+![Groza moduļa piemērs ar ziņojumu Noliktavā.](./media/cart-instock.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
@@ -93,3 +98,6 @@ Attēlā zemāk ir parādīts groza piemērs, kas parāda krājumu Noliktavā ("
 [Veikalu atlasītāja modulis](store-selector.md)
 
 [SDK un moduļu bibliotēkas atjauninājumi](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

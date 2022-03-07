@@ -2,46 +2,40 @@
 title: Jauna e-tirdzniecības nomnieka izvietošana
 description: Šajā tēmā ir aprakstīts, kā izvietot jaunu Dynamics 365 Commerce e-komercijas vietni, izmantojot Microsoft Dynamics Lifecycle Services (LCS).
 author: psimolin
-manager: annbe
 ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 157dc8225e5bbf9338a1b5a79a2880e8a8c4bf10
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
-ms.translationtype: HT
+ms.openlocfilehash: b4b54e10cb4bd897b4c0706a13eeaf32f8892a05f7a09f3b27dbdd3dcdad1606
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517286"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750718"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Jauna e-tirdzniecības nomnieka izvietošana
-
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā ir aprakstīts, kā izvietot jaunu Dynamics 365 Commerce e-komercijas vietni, izmantojot Microsoft Dynamics Lifecycle Services (LCS).
 
-## <a name="overview"></a>Pārskats
-
 Microsoft Dynamics Lifecycle Services (LCS) ir mākonī balstīta sadarbības darbvieta, ko partneri un klienti var izmantot, lai pārvaldītu savus projektus un vides, skatīt jaunāko informāciju par Microsoft Dynamics precēm un līdzekļiem, kā arī izveidotu, izsekotu un pārlūkotu atbalsta incidentus. E-komercijas pārvaldības līdzekļi ir integrēti LCS.
 
-Lai uzzinātu vairāk par LCS skatiet [Lifecycle Services lietotāja rokasgrāmatā](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide).
+Lai uzzinātu vairāk par LCS skatiet [Lifecycle Services lietotāja rokasgrāmatā](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide).
     
 ## <a name="get-started"></a>Darba sākšana
 
 Pirms e-komercijas inicializēšanas ir jāinicializē projekts, vide un Retail Cloud Scale Unit (RCSU). Lai veiktu inicializēšanu LCS, jums jābūt vai nu projekta īpašnieka vai vides pārvaldnieka lomas atļaujai. Tiek atbalstītas ražošanas un smilškastes vides topoloģijas.
 
-Lai iegūtu vairāk informācijas par vidi, skatiet [Vides plānošana](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/environment-planning). Lai iegūtu vairāk informācijas par RCSU, skatiet [Inicializēt Retail Cloud Scale Unit](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/initialize-retail-channels).
+Lai iegūtu vairāk informācijas par vidi, skatiet [Vides plānošana](/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/environment-planning). Lai iegūtu vairāk informācijas par RCSU, skatiet [Inicializēt Retail Cloud Scale Unit](/dynamics365/unified-operations/dev-itpro/deployment/initialize-retail-channels).
 
 ## <a name="initialize-e-commerce"></a>E-komercijas inicializēšana
 
@@ -112,3 +106,6 @@ Lai piekļūtu Commerce vietnes veidotājam, dodieties uz cilni **Komercija** LC
 [Atbalsta pievienošana satura piegādes tīklam (CDN)](add-cdn-support.md)
 
 [Veikala noteikšanas iespējošana pēc atrašanās vietas](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

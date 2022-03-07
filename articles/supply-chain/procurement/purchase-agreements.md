@@ -1,7 +1,7 @@
 ---
 title: Pirkšanas līgumi
 description: Šajā rakstā ir sniegta informācija par pirkšanas līgumiem. Pirkšanas līgums ir līgums, kas nosaka, ka organizācijai ir jānopērk noteikts daudzums vai jāiztērē noteikta summa, laika gaitā izmantojot vairākus pirkšanas pasūtījumus. Apmaiņā pret šīm saistībām pircējs saņem īpašas cenas un atlaides.
-author: Henrikan
+author: kamaybac
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 11634
 ms.assetid: 8ac20adf-7412-4929-be8c-aaedf23a76ad
 ms.search.region: Global
-ms.author: henrikan
+ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d8084ebed80a509d543053867bb1f4d483b3f8eb
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: MT
+ms.openlocfilehash: 972762522b4f7627648f1e1eec9dad73fe503710
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103742"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825450"
 ---
 # <a name="purchase-agreements"></a>Pirkšanas līgumi
 
@@ -41,7 +41,10 @@ Lai nepieļautu pirkšanas līguma izmantošanu un apstiprināšanu, līguma sta
 Pirkšanas līguma klasifikācijā varat noteikt primāro atbildīgo nodarbināto un sekundāro atbildīgo nodarbināto. Šīs vērtības pārmantos ar iegūtais pirkšanas līgums. Pirkšanas līgumam nav obligāti jāpievieno atbildīgie nodarbinātie, un pašā pirkšanas līgumā tos var modificēt tieši katram gadījumam atsevišķi. Sekundāro atbildīgo nodarbināto nevar norādīt bez primārā atbildīgā nodarbinātā, taču nav obligāti jābūt sekundārajam atbildīgajam nodarbinātajam. Jūs nevarat norādīt to pašu nodarbināto kā primāro un sekundāro atbildīgo nodarbināto.
 
 > [!IMPORTANT]
-> Lai izmantotu atbildīgās puses funkciju, tai jābūt ieslēgtai jūsu sistēmā. No Piegādes ķēdes pārvaldības 10.0.25 šis līdzeklis ir ieslēgts pēc noklusējuma. Administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot pirkšanas *līguma atbildīgās puses* līdzekli līdzekļu [pārvaldības darbvietā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+> Lai varētu izmantot atbildīgās puses līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
+> 
+> - **Modulis:** *Sagāde un ieguve*
+> - **Līdzekļa nosaukums:** *Par pirkšanas līgumu atbildīgā puse*
 
 ## <a name="commitment-types"></a>Saistību veidi
 Katra pirkšanas līguma rinda ir saistības kaut ko nopirkt. Lai izpildītu saistības, varat izmantot rindas no vairākiem pirkšanas pasūtījumiem (PO). Ir četri saistību veidi.
@@ -99,10 +102,12 @@ Ja izveidojat starpuzņēmumu pirkšanas pasūtījumu, kas izmanto starpuzņēmu
 ## <a name="financial-dimensions-on-purchase-agreements"></a>Pirkšanas līgumu finanšu dimensijas
 Finanšu dimensijas varat kopēt pirkšanas līguma dokumentu galvenēs vai atsevišķās rindās. Ja maināt dimensijas līguma virsrakstā vai līguma rindā, šīs izmaiņas neietekmē nekādus izlaistos pasūtījumus, bet tas atspoguļosies visos jaunajos pasūtījumos.
 
-## <a name="additional-resources"></a>Papildu resursi
+<a name="additional-resources"></a>Papildu resursi
+--------
 
-- [Pirkšanas līguma izveide](tasks/create-purchase-agreement.md)
-- [Pirkšanas līguma lietošana, veidojot pirkšanas pasūtījumu](tasks/create-purchase-release-order-purchase-agreement.md)
+[Pirkšanas līguma izveide](tasks/create-purchase-agreement.md)
+
+[Pirkšanas izpildpasūtījuma izveide no pirkšanas līguma](tasks/create-purchase-release-order-purchase-agreement.md)
 
 
 

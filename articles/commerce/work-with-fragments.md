@@ -2,35 +2,30 @@
 title: Darbs ar fragmentiem
 description: Šajā tēmā aprakstīts, kāpēc, kad un kā izmantot fragmentus programmā Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
-ms.date: 10/16/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f1525610fb16edd5ff9ccefe0194f6f27b797b62
-ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
-ms.translationtype: HT
+ms.openlocfilehash: 98cb1fba158ea99427d2068ca49b257cb5290de3
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4414178"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090748"
 ---
 # <a name="work-with-fragments"></a>Darbs ar fragmentiem 
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā aprakstīts, kāpēc, kad un kā izmantot fragmentus programmā Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
 
 Fragmenti ļauj izveidot centralizētu autorēšanas pieredzi moduļa konfigurācijām, kas atkārtoti jāizmanto visā jūsu vietnē. Piemēram, galvenes, kājenes un reklāmkarogi bieži tiek konfigurēti kā fragmenti, jo tie tiek koplietoti vairākās lapās. Fragmentus varat iedomāties kā miniatūras tīmekļa lapas, kuras var ievietot citās vietnes lapās. Fragmentiem ir savs dzīves cikls. Citiem vārdiem, tie tiek izveidoti, pieminēti, atjaunināti un dzēsti kā neatkarīgi elementi autorēšanas rīkos.
 
@@ -50,7 +45,7 @@ Visas vietas, kur šis fragments tiek pievienots, ir atsauces uz jūsu izveidoto
 
 Tālāk esošajā attēlā ir parādīts, kā fragmentus var izmantot, lai centralizētu koplietota moduļa konfigurāciju autorēšanu e-komercijas vietnē.
 
-![Attēlā ir parādīts, kā fragmentus var izmantot, lai centralizētu koplietota moduļa konfigurāciju autorēšanu e-komercijas vietnē](./media/fragment-figure1.png)
+![Attēlā ir parādīts, kā fragmentus var izmantot, lai centralizētu koplietota moduļa konfigurāciju autorēšanu e-komercijas vietnē.](./media/fragment-figure1.png)
 
 ## <a name="create-a-fragment"></a>Fragmenta izveidošana
 
@@ -67,7 +62,7 @@ Lai konvertētu iepriekš konfigurētu moduli par atkārtoti izmantojamu fragmen
 1. Dialoglodziņā **Saglabāt kā fragmentu** ievadiet fragmenta nosaukumu.
 1. Atlasiet **Labi**, lai saglabātu moduļa konfigurāciju kā fragmentu, ko var pievienot citām lapām.
 <!-- The following image shows how to save a module configuration as a fragment.-->
-<!--![A screen capture of how to save a module configuration as a fragment](./media/save-as-fragment.png)-->
+<!--![A screen capture of how to save a module configuration as a fragment.](./media/save-as-fragment.png)-->
 
 ### <a name="create-a-new-fragment"></a>Izveidot jaunu fragmentu
 
@@ -78,7 +73,7 @@ Lai izveidotu jaunu fragmentu Commerce vietņu veidotājā, izpildiet tālāk no
 1. Atlasiet sava fragmenta moduļa veidu.
 
 <!-- The following image shows where to create a new fragment.-->
-<!-- ![A screen capture of where to create a new fragment](./media/fragment-nav-menu.png)-->
+<!-- ![A screen capture of where to create a new fragment.](./media/fragment-nav-menu.png)-->
 > [!TIP]
 > Atlasot vispārīgā konteinera moduļa tipu, jūs iegūstat augstāko elastību, kad vēlāk ir jāatjaunina un jākonfigurē jūsu fragments.
 
@@ -93,14 +88,14 @@ Lai pievienotu fragmentu lapai Commerce vietņu veidotājā, izpildiet tālāk n
 1. Strukturējuma rūtī pa kreisi vai tieši vizuālo lapu veidotājā atlasiet konteineru vai slotu, kuram var pievienot atvašu moduļus.
 1. Atlasiet daudzpunkti (**...**) blakus konteinera nosaukumam vai slotam.  Vai arī, ja izmantojat vizuālo lapu veidotāju, atlasiet plus zīmi (**+**).  
 1. Atlasiet **Pievienot fragmentu**.
-    <!-- ![A screen capture of how to add an existing fragment to a slot or container](./media/add-fragment.png)-->
+    <!-- ![A screen capture of how to add an existing fragment to a slot or container.](./media/add-fragment.png)-->
  
     > [!NOTE]
     > Ja konteiners vai slots neatbalsta jaunus atvašu moduļus, opcija **Pievienot fragmentu** nav pieejama.
     
 1. Dialoglodziņā **Atlasīt fragmentu** meklējiet un atlasiet pievienojamo fragmentu. Ja pieejamo fragmentu sarakstā nav neviena fragmenta, iespējams, vispirms ir jāizveido fragments no moduļa tipa, ko atbalsta atlasītais konteiners vai slots.
 1. Atlasiet vēlamo fragmentu, kuru pievienot konteineram vai slotam jūsu lapā.
-<!--    ![A screen capture of the fragment picker modal window](./media/fragment-picker.png)-->
+<!--    ![A screen capture of the fragment picker modal window.](./media/fragment-picker.png)-->
 
 > [!NOTE]
 > Moduļi, kas ir atļauti konteinerā vai slotā, tiek definēti ar lapas veidni vai pašu moduļu definīcijām.
@@ -127,6 +122,20 @@ Lai rediģētu fragmentu Commerce vietņu veidotājā, izpildiet tālāk norād�
 
 Fragmentu var arī rediģēt, atlasot to lapā, veidnē vai pamata fragmentā un pēc tam labajā pusē rekvizītu rūtī atlasot opciju **Rediģēt fragmentu**.
 
+### <a name="rename-a-fragment"></a>Pārdēvējiet fragmentu
+
+Lai vietņu veidotājā pārdēvētu esošu fragmentu, veiciet šīs darbības.
+
+1. Kreisajā navigācijas rūtī atlasiet **Fragmenti**.
+1. Atlasiet tā fragmenta nosaukumu, kuru vēlaties pārdēvēt.
+1. Izvēlieties **Rediģēt** lai sāktu fragmenta rediģēšanu. Ņemiet vērā, ka jūs nevarat rediģēt fragmentu, ja kāds cits jau rediģē fragmentu.
+1. Fragmenta rekvizītu rūtī atlasiet pildspalvas simbolu blakus fragmenta nosaukumam.
+1. Rediģējiet fragmenta nosaukumu pēc vajadzības.
+1. Atlasiet atzīmi, lai apstiprinātu vārda maiņu.
+1. Atlasiet **Beigt rediģēšanu**.
+
+Varat pārdēvēt fragmentu pēc tā izveides, to rediģējot un pēc tam rekvizītu rūtī blakus fragmenta nosaukumam atlasot pildspalvas simbolu.
+
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Pārskats par veidnēm un izkārtojumiem](templates-layouts-overview.md)
@@ -136,3 +145,6 @@ Fragmentu var arī rediģēt, atlasot to lapā, veidnē vai pamata fragmentā un
 [Darbs ar iepriekš iestatītiem izkārtojumiem](work-with-layouts.md)
 
 [Darbs ar publicēšanas grupām](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

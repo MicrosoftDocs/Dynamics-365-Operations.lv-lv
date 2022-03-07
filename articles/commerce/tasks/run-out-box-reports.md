@@ -2,27 +2,24 @@
 title: Ārpus zonu pārskatu ģenerēšana un palaišana
 description: Izmantojiet šo uzdevumu ceļvedi, lai palaistu ārpus zonu pārskatus Headquarters no dažādām darbvietām un vaicājumiem, un pārdošanas pārskatiem, kas atrodas sadaļā Commerce.
 author: ashishmsft
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailCategoryAndProductWorkspace, RetailOrgHierarchyTreeLookup, SrsReportViewerForm
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0d148fa36a116860af8c44043d90759b8a2d76fb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 27dc29109693c06913c8107e27e79a48cf2c9db7146ff3a5919305366641af3d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414081"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774465"
 ---
 # <a name="generate-and-run-out-of-box-reports"></a>Ārpus zonu pārskatu ģenerēšana un palaišana
 
@@ -39,7 +36,7 @@ Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo ierakstu,
 4. Ievadiet datumu laukā No datuma.
 5. Laukā Līdz datumam ievadiet datumu.
 6. Laukā Kanāls noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanas logu.
-7. Koka struktūrā atlasiet Contoso mazumtirdzniecība\Contoso mazumtirdzniecība ASV\Centrāli\Houston.
+7. Koka struktūrā atlasiet 'Contoso Retail\Contoso Retail USA\Central\Houston'.
     * Tiek parādīta noklusējuma Commerce organizācijas hierarhija, kas tiks lietota mazumtirdzniecības pārskatiem.   Dodieties uz Organizācijas administrēšana > Organizācijas > Organizācijas hierarhijas nolūki un izvēlēties Commerce pārskati, savukārt sadaļā Piešķirtās hierarhijas pārbaudiet hierarhijas nosaukumu, kurai ir atzīmēta noklusējuma kolonna. Kā daļu no demonstrācijas datiem (izmantoti šī uzdevuma ierakstā) jūs ievērojāt, ka noklusējuma organizācijas hierarhija pārskatiem ir Veikali pēc reģiona.     
 8. Noklikšķiniet uz Labi.
 9. Laukā Skats atlasiet opciju.
@@ -51,7 +48,7 @@ Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo ierakstu,
 2. Ievadiet datumu laukā No datuma.
 3. Laukā Līdz datumam ievadiet datumu.
 4. Laukā Kanāls noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanas logu.
-5. Koka struktūrā atlasiet Contoso mazumtirdzniecība\Contoso mazumtirdzniecība ASV\Rietumi\Sietla.
+5. Koka struktūrā atlasiet 'Contoso Retail\Contoso Retail USA\West\Seattle'.
     * Tiek parādīta noklusējuma Commerce organizācijas hierarhija, kas tiks lietota mazumtirdzniecības pārskatiem. Dodieties uz Organizācijas administrēšana > Organizācijas > Organizācijas hierarhijas nolūki un izvēlēties Commerce pārskati, savukārt sadaļā Piešķirtās hierarhijas pārbaudiet hierarhijas nosaukumu, kurai ir atzīmēta noklusējuma kolonna. Kā daļu no demonstrācijas datiem (izmantoti šī uzdevuma ierakstā) jūs ievērojāt, ka noklusējuma organizācijas hierarhija pārskatiem ir Veikali pēc reģiona.     
 6. Noklikšķiniet uz Labi.
 7. Noklikšķiniet uz Labi.
@@ -64,3 +61,6 @@ Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo ierakstu,
 5. Noklikšķiniet uz Eksportēt.
 6. Noklikšķiniet uz PDF.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

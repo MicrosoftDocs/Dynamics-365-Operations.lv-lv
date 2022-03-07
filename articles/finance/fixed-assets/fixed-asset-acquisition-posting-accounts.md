@@ -1,32 +1,35 @@
 ---
-title: Pamatlīdzekļu ieguves grāmatošanas konti
-description: Šajā rakstā ir paskaidrots, kā iestatīt Virsgrāmatas grāmatošanas kontus līdzekļu iegādei.
-author: moaamer
+title: Pamatlīdzekļu iegādes grāmatošanas konti
+description: Šajā rakstā ir paskaidrots, kā iestatīt virsgrāmatas grāmatošanas kontus līdzekļu iegādei.
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetPosting
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 23021
 ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7718ab6ad40dd135a79d2d07def19465aef68b33
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
-ms.translationtype: MT
+ms.openlocfilehash: 8fea6b1cd79b5536341a7cb50e5592ea38a7392d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675028"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4445526"
 ---
-# <a name="fixed-asset-acquisition-posting-accounts"></a>Pamatlīdzekļu ieguves grāmatošanas konti
+# <a name="fixed-asset-acquisition-posting-accounts"></a>Pamatlīdzekļu iegādes grāmatošanas konti
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir paskaidrots, kā iestatīt Virsgrāmatas grāmatošanas kontus līdzekļu iegādei.
+Šajā rakstā ir paskaidrots, kā iestatīt virsgrāmatas grāmatošanas kontus līdzekļu iegādei.
 
 Pamatlīdzekļu iegādes grāmatošanai izmantotie konti ir atkarīgi no metodes, kādā līdzeklis tiek iegādāts. Lapā Pamatlīdzekļu grāmatošanas metodes, cilnē Virsgrāmatas konti atlasiet Iegāde un Iegādes korekcija, lai iestatītu pamatlīdzekļu kontus grāmatošanai virsgrāmatā. 
 
@@ -42,6 +45,3 @@ Papildinformāciju skatiet tēmā [Līdzekļu iegādāšanās, izmantojot iepirk
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

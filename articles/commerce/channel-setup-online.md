@@ -1,6 +1,6 @@
 ---
-title: Tiešsaistes veikala iestatīšana
-description: Šajā tēmā aprakstīts, kā izveidot jaunu tiešsaistes kanālu programmā Microsoft Dynamics 365 Commerce.
+title: Tiešsaistes kanāla iestatīšana
+description: Šajā tēmā aprakstīts, kā izveidot jaunu tiešsaistes kanālu risinājumā Microsoft Dynamics 365 Commerce.
 author: samjarawan
 manager: annbe
 ms.date: 07/02/2020
@@ -10,26 +10,25 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 07225d97af76ea665fa28362cc205c6e8dc4fdf4
-ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
+ms.openlocfilehash: 44cc63560c048031c8315dc3f15ef07583bdc266
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4414201"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5218349"
 ---
-# <a name="set-up-an-online-channel"></a>Tiešsaistes veikala iestatīšana
+# <a name="set-up-an-online-channel"></a>Tiešsaistes kanāla iestatīšana
 
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aprakstīts, kā izveidot jaunu tiešsaistes kanālu programmā Microsoft Dynamics 365 Commerce.
+Šajā tēmā aprakstīts, kā izveidot jaunu tiešsaistes kanālu risinājumā Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Pārskats
 
@@ -134,3 +133,6 @@ Tālāk redzamajā attēlā parādīts izpildes grupas piešķires piemērs.
 [Zvanu centra kanāla iestatīšana](channel-setup-callcenter.md)
 
 [Dynamics 365 maksājumu savienotājs pakalpojumam Adyen](../retail/dev-itpro/adyen-connector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

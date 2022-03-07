@@ -2,7 +2,9 @@
 title: LISTOFFIELDS ER funkcija
 description: Šajā tēmā ir sniegta informācija par to, kā tiek izmantota LISTOFFIELDS elektroniskā pārskata (ER) funkcija.
 author: NickSelin
+manager: kfend
 ms.date: 12/12/2019
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d15649aed4343f2ed9192834047a17e273e29f190aa83c386bebe7857b47908
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 494dc347fadf44121c7eae0acf8c30768c58f035
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761492"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5567668"
 ---
 # <a name="listoffields-er-function"></a>LISTOFFIELDS ER funkcija
 

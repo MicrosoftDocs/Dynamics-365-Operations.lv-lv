@@ -1,12 +1,10 @@
 ---
 title: Programmas metadatu sagatavošana lietošanai ar RCS
-description: Šīs tēmas darbībās ir paskaidrots, kā lietotājs var izveidot jaunu elektronisko pārskatu (Electronic reporting — ER) konfigurāciju, kas ietver programmas metadatus ER modeļa kartēšanas konfigurāciju veidošanai pakalpojumā Regulatory Configuration Service (RCS).
+description: Šajā tēmā ir aprakstīts, kā izveidot jaunu pārskata konfigurāciju, kas satur programmas metadatus.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/28/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dbc1ca45a39f2a5c3309276f9e2f5d2b7d2ba5f7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 71a33a69796b31c456bfcc5abbb3b18bcb1064be65c1c58b36656a9cebfbf47d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684095"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750578"
 ---
 # <a name="prepare-application-metadata-to-be-used-in-rcs"></a>Programmas metadatu sagatavošana lietošanai ar RCS
 [!include [banner](../../includes/banner.md)]
@@ -80,3 +78,6 @@ Mēs pievienojām metadatu informāciju par Intrastat ierakstu tabulu.
 3.    Noklikšķiniet uz **Labi**. 
     
 Izveidotā ER metadatu konfigurācija ir saglabāta kā XML fails, kuru var importēt pakalpojumā RCS un izmantot kā avotu informācijai par metadatiem ārējās tirdzniecības uzņēmējdarbības jomai. Balstoties uz šo informāciju, mēs varam norādīt kartējumu starp programmas metadatiem un ER datu modeli.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

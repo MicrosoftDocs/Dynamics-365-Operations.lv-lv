@@ -2,11 +2,9 @@
 title: Sagatavošanās saglabāt ražotajiem krājumiem standarta izmaksas
 description: Šajā tēmā aprakstītas darbības, kas jāveic, lai sagatavotos ražoto krājumu izmaksu uzturēšanai.
 author: AndersGirke
-manager: tfehr
 ms.date: 01/17/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventStdCostConv
 audience: Application User
@@ -18,12 +16,12 @@ ms.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b35e424c582c173e3fa1f4d0a335106e413b6660
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: ec68e1efc261920dc8f08ed602836b1939511dfce01008c093af7916ecd71618
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967412"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734335"
 ---
 # <a name="prepare-to-maintain-standard-costs-for-manufactured-items"></a>Sagatavošanās saglabāt ražotajiem krājumiem standarta izmaksas
 
@@ -65,10 +63,12 @@ Ražotajiem krājumiem piešķirtās politikas var ietekmēt ražoto vecākkrāj
 
 Ja maršrutēšanas informāciju vēlaties izmantot izmaksu aprēķināšanai, ir javeic papildu sagatavošanās soļi. Piemēram, maršrutēšanas operācijām piešķirtajām izmaksu kategorijām ir jābūt pareizām un pabeigtām.
 
-<a name="related-topics"></a>Saistītās tēmas
---------
+## <a name="related-topics"></a>Saistītās tēmas
 
 [Ražotā krājuma konstanto izmaksu amortizācija](amortize-constant-costs-manufactured-item.md)
 
 [Saražojamo vai sagādājamo preču iestatīšana](manufactured-items-treated-as-purchased-items.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,16 +2,13 @@
 title: Kvīts numuru atiestatīšana
 description: Šajā tēmā aprakstīts, kā atiestatīt kvīts numurus, kas tiek izmantoti dažādām darbībām vēlamajā datumā (piemēram, finanšu gadā vai kalendārajā gadā).
 author: ShalabhjainMSFT
-manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-Commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail, Commerce
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: 31ba82ac5e032734e00f2aee12339bc85a53550b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 855c39f15db6de8fac1f0cd4667eec485c70542b9aebde0d7085e2703f4609bb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413982"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733873"
 ---
 # <a name="reset-receipt-numbers"></a>Atiestatīt kvīšu numurus 
 
@@ -33,7 +30,7 @@ ms.locfileid: "4413982"
 > [!NOTE]
 > Pirms šīs funkcijas izmantošanas ir nepieciešams atlasīt **Neatkarīgās secības** rekvizītu visiem saņemšanas tipiem funkcionalitātes profilā. Turklāt ierīces sistēmas laika joslai, kur tiek izmantots POS, jāsakrīt ar atbilstošo veikala laika joslu. Šo ierobežojumu dēļ mēs iesakām nelietot šo līdzekli ražošanā, kamēr mēs strādājam, lai atrisinātu šīs problēmas nākamajam izlaidumam. 
 
-Mazumtirgotāji ģenerē kvīšu numurus dažādām darbībām veikalā, piemēram, pārdošanas skaidrā naudā bez piegādes transakcijām, atgriešanas transakcijām, klientu pasūtījumiem, piedāvājumiem un maksājumiem. Lai gan mazumtirgotāji definē savus kvīšu formātus, dažām valstīm vai reģioniem ir noteikumi, kas ierobežo šos kvīšu formātus. Piemēram, šie noteikumi var ierobežot kvīts rakstzīmju skaitu, pieprasīt secīgus saņemšanas numurus, ierobežot dažas speciālās rakstzīmes vai pieprasīt atgriezt saņemšanas numurus gada sākumā. Microsoft Dynamics 365 Commerce padara kvīšu numuru pārvaldību ļoti elastīgu, lai palīdzētu tirgotājiem atbilst normatīvajām prasībām. Šajā tēmā skaidrots, kā izmantot funkcionalitāti kvīšu numuru atiestatīšanai.
+Mazumtirgotāji ģenerē kvīšu numurus dažādām darbībām veikalā, piemēram, pārdošanas skaidrā naudā bez piegādes transakcijām, atgriešanas transakcijām, klientu pasūtījumiem, piedāvājumiem un maksājumiem. Lai gan mazumtirgotāji definē savus kvīšu formātus, dažām valstīm vai reģioniem ir noteikumi, kas ierobežo šos kvīšu formātus. Piemēram, šie noteikumi var ierobežot kvīts rakstzīmju skaitu, pieprasīt secīgus saņemšanas numurus, ierobežot dažas speciālās rakstzīmes vai pieprasīt atgriezt saņemšanas numurus gada sākumā. Programma Microsoft Dynamics 365 Commerce padara kvīšu numuru pārvaldību ļoti elastīgu, lai palīdzētu tirgotājiem atbilst normatīvajām prasībām. Šajā tēmā skaidrots, kā izmantot funkcionalitāti kvīšu numuru atiestatīšanai.
 
 Pakalpojumā Commerce saņemšanas formāti var būt burtciparu formā. Tajos var ievietot gan statisko saturu, gan dinamisko saturu. Statiskais saturs ietver alfabētisku rakstzīmi, ciparus un speciālās rakstzīmes. Dinamiskajā saturā ir viena vai vairākas rakstzīmes, kas attēlo tādu informāciju kā veikala numurs, termināļa numurs, datums, mēnesis, gads un numuru sērijas, kas tiek automātiski palielinātas. Formāti ir definēti funkcionalitātes profila sadaļā **Kvīts numerācija**. Sekojošajā tabulā ir aprakstītas rakstzīmes, kas attēlo dinamisko saturu.
 
@@ -52,13 +49,13 @@ Varat atiestatīt kvītis secīgu numerāciju noteiktā datumā. Pēc tam pirmaj
 
 Lai aktivizētu atiestatīšanu, veiciet tālāk minētās darbības.
 
-1. Dodieties uz sadaļu **Retail un Commerce\> Kanāla iestatīšana \> POS iestatīšana \> POS profili \> Funkcionalitātes profili**.
+1. Dodieties uz sadaļu **Retail un Commerce \> Kanāla iestatīšana \> POS iestatīšana \> POS profili \> Funkcionalitātes profili**.
 1. **Kvīts numerācijas** kopsavilkuma cilnē atlasiet **Atiestatīt numura atiestatīšanas datumu**.
 1. Nolaižamajā dialoglodziņā laukā **Atiestatīt datumu** atlasiet nākotnes datumu, kad jāveic atiestatīšana.
 1. Laukā **Atiestatīt kvīts veidu** atlasiet **Tikai vienu reizi** vai **Katru gadu**.
 1. Atlasiet **Labi**.
 
-![Kvīts atiestatīšanas datuma atlasīšana](media/Enable_receipt_reset.png "Kvīts atiestatīšanas datuma atlasīšana")
+![Kvīts atiestatīšanas datuma atlasīšana.](media/Enable_receipt_reset.png "Kvīts atiestatīšanas datuma atlasīšana")
 
 Pēc datuma atlasīšanas tas parādās kolonnā **Nākamais kvīts numura atiestatīšanas datums**, Atiestatīšanas datums ir piemērojams visiem kvīšu darījumu tipiem. Tāpēc kvīts numuru sērija tiks atiestatīta visiem kvīšu veidiem.
 
@@ -68,3 +65,6 @@ Lai dzēstu turpmākos atiestatīšanas datumus, varat izmantot funkcionalitāti
 
 > [!NOTE]
 > Atkarībā no atlasītā atiestatīšanas datuma un kvīts formāta, iespējams, ir dublēti kvīšu numuri. Kaut arī pārdošanas punkta (POS) sistēma var tikt galā ar šīm situācijām, tās palielina laika daudzumu, kas nepieciešams, lai apstrādātu atgriešanu, jo pārdošanas partneriem ir jāatlasa no dublētajām kvītīm. Citi sarežģījumi, kas saistīti ar datu tīrīšanu, var rasties, ja dublētās kvītis nebija plānotas sekas. Tāpēc ir ieteicams lietot dinamisko datumu rakstzīmes (piemēram, **ddd**, **MM**, **DD** un **YY**), lai pēc atiestatīšanas palīdzētu novērst dublētus kvīšu numurus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

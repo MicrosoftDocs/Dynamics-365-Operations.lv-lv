@@ -1,12 +1,10 @@
 ---
 title: Profilaktiskās uzturēšanas pārskats
 description: Šajā tēmā ir paskaidrota profilaktiskā uzturēšana programmā Asset Management.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 36a70a3e60566fd8048ad404e0c391d898053a0a
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 15478776e9a2152b93e4413105145f2a40cdc506
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016732"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821661"
 ---
 # <a name="preventive-maintenance-overview"></a>Profilaktiskās uzturēšanas pārskats
 
@@ -38,3 +36,6 @@ Nākamajā attēlā sniegts pārskats darba plūsmai no uzturēšanas plānu un 
 
 ![1. attēls](media/01-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

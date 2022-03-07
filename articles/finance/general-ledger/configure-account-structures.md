@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cc9219009991cce3f4df9c6f7e04903f5625dd80
-ms.sourcegitcommit: b2fe67e2fe6a99a35decb04c8d62efd1e94fe1b8
-ms.translationtype: MT
+ms.openlocfilehash: 3632f115b1ef4cd3a41a483270fb5f6bb6c73526ce9322f16a6533265302937c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/22/2021
-ms.locfileid: "7945545"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719720"
 ---
 # <a name="configure-account-structures"></a>Kontu struktūru konfigurēšana
 
@@ -79,7 +79,7 @@ Ievadot žurnālu un atlasot kontu peļņas un zaudējumu diapazonā, biznesa vi
 
 ## <a name="more-than-7-criteria-needed"></a>Ir nepieciešams vairāk par 7 kritērijiem
 
-Ja jums ir jāizmanto vairāk par 7 kritērijiem, varat turpināt, pievienojot tos nākamajā rindā. Strādājot sadaļā Atļautās vērtības detalizēta informācija, tiks ievērots, ka pēc pievienošanas pievienotie kritēriji vairs **nebūs** **aktīvi**. To izraisa daudzi faktori, piemēram, tālāk norādītie. 
+Ja jums ir jāizmanto vairāk par 7 kritērijiem, varat turpināt, pievienojot tos nākamajā rindā. Strādājot sadaļā **Informācija par atļautajām vērtībām**, varat pamanīt, ka pēc septītā kritērija ievadīšanas kritēriji **+Pievienot jaunu** vairs nav aktīvi. To izraisa daudzi faktori, piemēram, tālāk norādītie. 
  - Kolonnas platums 
  - Datu glabāšanas veids 
  - Vadīklas **Informācija par atļautajām vērtībām** veiktspēja
@@ -101,7 +101,7 @@ Iestatot kontu struktūras, varat ievērot dažas labākās prakses. Taču tās 
 - Nevar vienkārši pielikt zvaigznīti ikvienam segmentam konta struktūrā un pēc tam paļauties tikai uz papildu kārtulām. To varētu būt grūti pārvaldīt, un šāda konfigurācija bieži izraisa lietotāju kļūdas uzturēšanas laikā, neļaujot sistēmai veikt grāmatošanu.
 
 ## <a name="account-structure-activation"></a>Konta struktūras aktivizācija
-Kad esat apmierināts ar jauno iestatījumu vai konta struktūras maiņu, jums tas ir jāaktivizē. Ja konta struktūra ir piešķirta kādai virsgrāmatai, šī aktivizēšana var būt ilgstošs process, jo visas negrāmatotās transakcijas sistēmā ir jāsinhronizē ar jauno struktūru. Konta struktūras izmaiņām nav ietekmes uz grāmatotajām transakcijām.
+Kad esat apmierināts ar jaunajiem iestatījumiem vai izmaiņām konta struktūrā, tā ir jāaktivizē. Ja konta struktūra ir piešķirta kādai virsgrāmatai, šī aktivizēšana var būt ilgstošs process, jo visas negrāmatotās transakcijas sistēmā ir jāsinhronizē ar jauno struktūru. Konta struktūras izmaiņām nav ietekmes uz grāmatotajām transakcijām.
 
 Papildinformāciju skatiet tēmās [Kontu plānu plānošana](plan-chart-of-accounts.md), [Finanšu dimensijas](financial-dimensions.md) un [Konta un dimensiju kombināciju ievade (segmentētu ierakstu kontrole)](enter-account-dimension-combinations-segmented-entry-control.md).
 

@@ -1,7 +1,7 @@
 ---
 title: Plāna izveide vietai
 description: Ražošanas plānotājs aprēķina materiālu un noslodzes prasības noteikta krājuma ražošanai.
-author: ChristianRytt
+author: ShylaThompson
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, ReqT
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f7da319d4c28af311d79dc01bb93a9fe2f76480
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: d84fcd0012d4f7d87e2bc0769261fbe5f5139670
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568595"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102666"
 ---
 # <a name="create-a-plan-for-a-site"></a>Plāna izveide vietai
 

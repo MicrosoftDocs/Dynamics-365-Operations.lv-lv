@@ -1,12 +1,10 @@
 ---
 title: Power BI satura pakotnes Izmaksu uzskaites analīze drošības iestatīšana
-description: Šajā tēmā ir paskaidrots, kā varat pārnest moduļa Izmaksu uzskaite piekļuves līmeņa drošību uz rindas līmeņa drošību pakalpojumā Microsoft Power BI. Šī funkcionalitāte palīdz nodrošināt to, ka lietotāji var skatīt tikai tos Power BI datus, attiecībā uz kuriem viņiem ir piešķirtas piekļuves tiesības.
+description: Šajā tēmā ir paskaidrots, kā varat pārnest moduļa Izmaksu uzskaite piekļuves līmeņa drošību uz rindas līmeņa drošību pakalpojumā Microsoft Power BI.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -16,14 +14,14 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 04ff1523f7b05fe8398513e913702b0f3c7c354c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: f519a38b381da0efc1e91ba0f2015780d086550c3e38810e6845a0fc07976767
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682193"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751495"
 ---
-# <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Power BI satura pakotnes Izmaksu uzskaites analīze drošības iestatīšana
+# <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Drošības iestatīšana Power BI saturam “Izmaksu uzskaites analīze”
 
 [!include [banner](../includes/banner.md)]
 
@@ -31,7 +29,7 @@ ms.locfileid: "4682193"
 
 ## <a name="overview"></a>Pārskats
 
-Lai ierobežotu lietotāja piekļuvi Microsoft Power BI saturam pakotnei **Izmaksu uzskaites analīze**, tiek izmantota Power BI rindas līmeņa drošība. Drošība balstās uz piekļuves līmeņu organizācijas hierarhiju, kas tiek iestatīta Izmaksu uzskaites parametros. Papildinformāciju par Power BI satura pakotni **Izmaksu uzskaites analīze** skatiet rakstā [Power BI satura pakotne Izmaksu uzskaites analīze](cost-accounting-analysis-content-pack.md).
+Lai ierobežotu lietotāja piekļuvi Microsoft Power BI saturam pakotnei **Izmaksu uzskaites analīze**, tiek izmantota Power BI rindas līmeņa drošība. Drošība balstās uz piekļuves līmeņu organizācijas hierarhiju, kas tiek iestatīta Izmaksu uzskaites parametros. Papildinformāciju par Power BI satura pakotni **Izmaksu uzskaites analīze** skatiet rakstā [Pakalpojuma Power BI satura pakotne Izmaksu uzskaites analīze](cost-accounting-analysis-content-pack.md).
 
 ## <a name="setup"></a>Iestatījumi
 Lai ieviestu piekļuves līmeņa drošību pakalpojumā Power BI, Power BI satura pakotnes īpašniekam ir jāizpilda tālāk norādītās darbības.
@@ -44,11 +42,11 @@ Lai ieviestu piekļuves līmeņa drošību pakalpojumā Power BI, Power BI satur
 3. Atrodiet Power BI satura pakotnes **Izmaksu uzskaites analīze** datu kopu.
 4. Atveriet drošības lapu.
 
-    ![Drošības lapas atvēršana](./media/CA-picture-1.png)
+    ![Drošības lapas atvēršana.](./media/CA-picture-1.png)
 
 5. Loma **Izmaksu objekta kontrolieris** jau ir izveidota. Pievienojiet citus dalībniekus, kuri ietilpst izmaksu uzskaites piekļuves līmeņu organizācijas hierarhijā.
 
-    ![Dalībnieku pievienošana](./media/CA-picture-2.png)
+    ![Dalībnieku pievienošana.](./media/CA-picture-2.png)
 
 Lietotāji, kuri tiek pievienoti lomai **Izmaksu objekta kontrolieris**, redzēs tikai datus, kurus tiem ir atļauja skatīt, saskaņā ar definīciju izmaksu uzskaites piekļuves līmeņu organizācijas hierarhijā.
 
@@ -63,3 +61,6 @@ Mēs pieņemam, ka jūsu organizācija vēlas ierobežot datu piekļuvi. Ja, izp
 
 ## <a name="additional-resources"></a>Papildu resursi
 Papildinformāciju par Power BI rindas līmeņa drošību skatiet rakstā [Modeļa drošības pārvaldība modelim pakalpojumā Power BI](https://powerbi.microsoft.com/documentation/powerbi-admin-rls/#manage-security-on-your-model).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

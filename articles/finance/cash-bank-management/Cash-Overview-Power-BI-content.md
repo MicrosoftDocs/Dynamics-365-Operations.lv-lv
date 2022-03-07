@@ -3,7 +3,7 @@ title: Power BI satura pakotne Skaidras naudas apskats
 description: Šajā tēmā ir aprakstīta Power BI satura pakotne Skaidras naudas apskats. Tajā ir paskaidrots, kā piekļūt pārskatiem, kas ir iekļauti saturā, un ir sniegta informācija par satura izveidei izmantoto datu modeli un elementiem.
 author: saraschi2
 ms.date: 07/16/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 3f7e0c792df8519f3bcb2ade2e29cc4c5c8e4730
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 794a8b19224858a690f2b857c0d7278ed177d531
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986412"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830596"
 ---
 # <a name="cash-overview-power-bi-content"></a>Power BI satura pakotne Skaidras naudas apskats
 
@@ -38,7 +38,7 @@ Lai dati tiktu rādīti darbvietu **Skaidras naudas apskats** un **Bankas pārva
 2. Lai validētu finanšu kalendāra datumus, kas piešķirti aktīvajam laika periodam, dodieties uz **Virsgrāmata > Kalendāri > Finanšu kalendāri**.
 3. Dodieties uz **Virsgrāmata > Iestatīšana > Virsgrāmata**, lai iestatītu vienumu **Uzskaites valūta** un **Maiņas kursa tips**.
 4. Nosakiet maiņas kursu starp transakciju valūtām un uzskaites valūtu, starp uzskaites valūtu un sistēmas valūtu, starp uzskaites valūtu un bankas valūtām. Lai to izdarītu, dodieties uz **Virsgrāmata > Valūtas > Valūtas maiņas kursi**.
-5. Konfigurējiet un palaidiet rīku Naudas plūsmas prognozēšana. Plašāku informāciju par to, kā iestatīt rīku Naudas plūsmas prognozēšana, skatiet tēmā [Naudas plūsmas prognozēšana](./cash-flow-forecasting.md). 
+5. Konfigurējiet un palaidiet rīku Naudas plūsmas prognozēšana. Plašāku informāciju par to, kā iestatīt rīku Naudas plūsmas prognozēšana, skatiet tēmā [Naudas plūsmas prognozēšana](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting). 
 6. Dodieties uz **Sistēmas administrēšana > Iestatīšana > Elementu krātuve** un atsvaidziniet apkopošanas mērījumu **LedgerCovLiquidityMeasurement**.
 
 ## <a name="accessing-the-power-bi-content"></a>Piekļuve Power BI satura pakotnei

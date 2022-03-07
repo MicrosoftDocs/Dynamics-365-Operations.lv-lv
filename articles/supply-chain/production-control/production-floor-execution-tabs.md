@@ -2,30 +2,27 @@
 title: Ražošanas izpildes interfeisa izstrādāšana
 description: Šajā tēmā ir aprakstīts, kā izstrādāt lietotāja interfeisa saturu katrai konfigurācijai.
 author: johanhoffmann
-manager: tfehr
 ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: JmgProductionFloorExecutionConfiguration, JmgProductionFloorExecutionConfigurationTab
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 81c5c83128bb81523dee6ede549eece7b0d80e30
-ms.sourcegitcommit: d9d1ddce6a334ade8b32b5ea3ac4c1e1a8f72715
+ms.openlocfilehash: 4e2b3746e690623e347e0319ab1b55f2645a5e23
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "4664276"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814684"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>Ražošanas izpildes interfeisa izstrādāšana
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Jūs varat izstrādāt lietotāja interfeisa saturu katrai konfigurācijai, ko izmanto ražošanas līmeņa izpildes interfeiss. Piemēram, darbiniekiem vienā darba šūnā, iespējams, ir jāspēj atvērt darba instrukcijas ražošanas līmenī, bet citā darba šūnā instrukcijas nav nepieciešamas. Šādā gadījumā ir jāizveido divas konfigurācijas, viena ar pogu dokumenta pielikumu atvēršanai un viena bez šīs pogas.
 
@@ -46,7 +43,7 @@ Attēlā redzami šādi elementi:
 
 Lai izveidotu un konfigurētu jaunu cilni, veiciet tālāk norādītās darbības:
 
-1. Dodieties uz **Ražošanas kontrole &gt; Uzstādīšana &gt; Ražošanas izpilde**.
+1. Dodieties uz **Ražošanas kontrole \> Iestatījumi \> Ražošanas izpilde \> Konfigurēt ražotnes izpildi**.
 
 1. Darbību rūtī atlasiet **Izveidot cilnes**, lai atvērtu lapu **Izveidot cilnes**.
 
@@ -57,7 +54,7 @@ Lai izveidotu un konfigurētu jaunu cilni, veiciet tālāk norādītās darbība
 1. Lapas virsrakstā veiciet tālāk norādītos iestatījumus:
 
     - **Cilnes nosaukums** - norādiet cilnes nosaukumu.
-    - **Galvenais skats** – atlasiet starp diviem iepriekš definētiem darbu sarakstiem (*Aktīvie darbi* vai *Visi darbi*).
+    - **Galvenais skats** – atlasiet starp diviem iepriekš definētiem darbu sarakstiem (*Aktīvie darbi*, *Visi darbi* vai *Mana iekāŗta*).
     - **Detalizētas informācijas skats** - izvēlieties starp tukšu vērtību vai **Darba detalizēta informācija**. Ja atlasīsit tukšu vērtību, nebūs detalizēta skatījuma cilnē. Ja izvēlaties **Darba detalizētu informāciju**, detalizētajā skatījumā būs detalizēts darba apraksts, kas atlasīts darbu sarakstā galvenajā skatā.
 
 1. **Primārās rīkjoslas** sadaļā Izvēlieties, kurām pogām jābūt pieejamām primārajā rīkjoslā. Kolonnā **Pieejamās darbības** redzams saraksts ar visām pogām, kuras var pievienot. Kolonnas **Atlasītās darbības** rāda visu to pogu saraksts, kas iekļautas pašreizējā konfigurācijā. Izmantojiet pogas starp kolonnām, lai atlasītos vienumus pārvietotu starp kolonnām pēc nepieciešamības. Izmantojiet pogas augšup un lejup blakus kolonnai **Atlasītās darbībās**, lai kontrolētu secību, kādā pogas tiek rādītas lietotāja interfeisā.
@@ -68,7 +65,7 @@ Lai izveidotu un konfigurētu jaunu cilni, veiciet tālāk norādītās darbība
 
 Pēc tam, kad visas cilnes ir izveidotas, tās var saistīt ar konfigurāciju.
 
-1. Dodieties uz **Ražošanas kontrole &gt; Uzstādīšana &gt; Konfigurēt ražošanas līmeņa izpildi**.
+1. Dodieties uz **Ražošanas kontrole \> Iestatījumi \> Ražošanas izpilde \> Konfigurēt ražotnes izpildi**.
 
     ![Konfigurēt ražošanas līmeņa izpildi](media/pfe-config-prod-floor-execution.png "Konfigurēt ražošanas līmeņa izpildi")
 
@@ -79,3 +76,6 @@ Pēc tam, kad visas cilnes ir izveidotas, tās var saistīt ar konfigurāciju.
 1. Turpiniet pievienot papildu cilnes pēc nepieciešamības.
 
 1. Izmantojiet rīkjoslas pogu **Pārvietot uz augšu** un **Pārvietot uz leju**, lai pēc nepieciešamības kārtotu cilnes. Cilnes tiks rādītas no kreisās uz labo tādā secībā, kā norādīts iepriekš attēlā (cilne virspusē tiek rādīta kreisajā pusē).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

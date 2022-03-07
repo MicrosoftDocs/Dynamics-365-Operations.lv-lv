@@ -2,24 +2,24 @@
 title: Iestatījumu opcijas kreditoru rēķinu automatizācijai (priekšskatījums)
 description: Šajā tēmā aprakstītas opcijas, kas pieejamas kreditoru rēķinu automatizācijas iestatīšanai un konfigurēšanai.
 author: sunfzam
-ms.date: 02/14/2022
+ms.date: 10/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c1dc443e4225a3ffc6b88cedf7add396a66ec25d
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
-ms.translationtype: MT
+ms.openlocfilehash: 8e5aac8f108cf9a46c80c61891b057b8dc2b4672
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182447"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675473"
 ---
 # <a name="setup-options-for-vendor-invoice-automation"></a>Kreditoru rēķinu automatizācijas iestatīšanas opcijas
 
@@ -55,7 +55,7 @@ Ir pieejami šādi parametri:
 
 - **Preču ieejas plūsmu saskaņošana ar rēķina rindām pirms automātiskās iesniegšanas** — ja iestatāt šo opciju uz **Jā**, importēto rēķinu nevar automātiski iesniegt darbplūsmas sistēmā, kamēr saskaņotais preču ieejas plūsmas daudzums nav vienāds ar rēķina daudzumu. Iestatot šo opciju uz **Jā**, tiek iespējota automātiska grāmatoto preču ieejas plūsmu saskaņošana ar rēķina rindām, kam ir definēti trīsvirzienu atbilstības ierobežojumi. Šis process tiks izpildīts, līdz saskaņotais preču ieejas plūsmas daudzums būs vienāds ar rēķina daudzumu. Šajā brīdī rēķins tiek automātiski iesniegts darbplūsmas sistēmā.
 
-    Opcija **Saskaņot produktu ieejas plūsmas rēķina rindām pirms** automātiskas iesniegšanas ir pieejama tikai tad, ja ir **atlasīta opcija Iespējot** rēķinu salīdzināšanas pārbaudi. Kad ir atlasīta šī opcija, opcija **Automātiska preču ieejas plūsmu saskaņošana ar rēķina rindām** tiek atlasīta automātiski.
+    Opcija „Preču ieejas plūsmu saskaņošana ar rēķina rindām pirms automātiskās iesniegšanas” ir pieejama tikai tad, ja atlasīta opcija **Iespējot rēķinu salīdzināšanas pārbaudi**. Kad ir atlasīta šī opcija, opcija **Automātiska preču ieejas plūsmu saskaņošana ar rēķina rindām** tiek atlasīta automātiski.
 
 - **Pieprasīt, lai aprēķinātās kopsummas ir vienādas ar importētajām kopsummām automātiskai iesniegšanai darbplūsmā** — Ja iestatāt šo opciju uz **Jā**, rēķinu nevar automātiski iesniegt darbplūsmas sistēmā, kamēr rēķinam aprēķinātās kopsummas nav vienādas ar importētajām kopsummām. Ja šī opcija ir iestatīta uz **Nē**, rēķinu var automātiski iesniegt darbplūsmas sistēmā, bet to nevar grāmatot, kamēr aprēķinātās kopsummas nav izlabotas, lai tās atbilstu importētajām kopsummām. Ja neimportējat rēķina summu vai PVN summu, šai opcijai ir jābūt iestatītai uz **Nē**.
 - **Automātiska preču ieejas plūsmu saskaņošana ar rēķina rindām** — ja iestatāt šo opciju uz **Jā**, lai veiktu automātisku grāmatoto preču ieejas plūsmu saskaņošanu ar rēķina rindām, kam ir definēti trīsvirzienu atbilstības ierobežojumi, var tikt izmantota fona apstrāde. Šis process tiks veikts, līdz saskaņotais preču ieejas plūsmas daudzums būs vienāds ar rēķina daudzumu vai līdz lauka **Automātiskās saskaņošanas mēģinājumu skaits** vērtība būs sasniegta. Procesu var palaist, līdz rēķins tiek iesniegts darbplūsmas sistēmā.

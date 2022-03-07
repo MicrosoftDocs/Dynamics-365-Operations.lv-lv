@@ -2,15 +2,12 @@
 title: Iframe modulis
 description: Šajā tēmā tiek stāstīts par iframe moduli un aprakstīts, kā to pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 4afd8f60938c99d1981be1625ef28f91d9e4bb4c
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
+ms.openlocfilehash: 55526b34eb057abb9a8c33cbfea1807601da6577
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665400"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348218"
 ---
 # <a name="iframe-module"></a>Iframe modulis
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā tiek stāstīts par iframe moduli un aprakstīts, kā to pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
 
 Iframe modulis nodrošina iframe (iekļauts kadrs), kas vieso ārējo saturu vietnē. Piemēram, to var izmantot, lai viesotu YouTube video vai PDF failu skatītāju jebkurā vietnes lapā. 
 
@@ -42,11 +37,11 @@ Iframe modulim nepieciešams mērķa URL. Tad tas vieso mērķa lapas saturu, ka
 
 Sekojošajā attēlā ir parādīti iframe moduļu piemēri, kas parāda ārējos videoklipus vietnes lapās.
 
-![Piemērs iframe moduļiem, kas izrāda ārējos video](./media/ecommerce-iframe.PNG)
+![Piemērs iframe moduļiem, kas izrāda ārējos video.](./media/ecommerce-iframe.PNG)
 
 ## <a name="iframe-module-properties"></a>Iframe moduļa rekvizīti
 
-| Rekvizīta nosaukums             | Vērtība                 | apraksts |
+| Rekvizīta nosaukums             | Vērtība                 | Apraksts |
 |---------------------------|-----------------------|-------------|
 | Virsraksts | Teksts | Moduļa virsraksts. |
 | Mērķa URL | Vietrādis URL | Modulī viesotais vietrādis URL. |
@@ -77,3 +72,6 @@ Lai lappusei pievienotu iframe moduli, lai parādītu ārējo videoklipu, rīkoj
 [Moduļu bibliotēkas pārskats](starter-kit-overview.md)
 
 [Satura drošības politikas (CSP) pārvaldība](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
