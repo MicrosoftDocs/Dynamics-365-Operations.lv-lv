@@ -2,11 +2,9 @@
 title: ER Konfigurēt adresātus
 description: Šajā procedūrā parādīts, kā iestatīt un izmantot dažādus adresātus elektronisko pārskatu (ER) izvades komponentiem, piemēram, mapēm vai failiem.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERFormatDestinationTable, SysLookupPicklist, ERFormatDestinationSettings, ERFormatDestinationEmailSettings, ERExpressionDesignerFormula, SRSPrintDestinationTokens
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0073033454c7d3054496fe4c38cdb3cff71d8755
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: f1e679b52b28ff1ca117c5224fc7e2825feb26e5e5aea1c8b5bc3a88d1eaf235
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681881"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743267"
 ---
 # <a name="er-configure-destinations"></a>ER Konfigurēt adresātus
 
@@ -60,3 +58,6 @@ Formāts, ko lieto šajā piemērā, ir ISO20022 pārvietošana kredītā, taču
 21. Ierakstiet vērtību laukā Tēma.
 22. Noklikšķiniet uz OK.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

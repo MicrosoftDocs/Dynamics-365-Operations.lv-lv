@@ -1,31 +1,30 @@
 ---
 title: Datu bāzu reģistrācijas konfigurēšana un pārvaldība
 description: Jūs variet reģistrēt izmaiņas tabulās un laukos Dynamics 365 Human Resources ar datu bāzes reģistrēšanu.
-author: Darinkramer
-manager: AnnBe
-ms.date: 06/10/2020
+author: twheeloc
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3dc4658a0a13af95978c66f5aab882902f754a2d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 10591abee7890d54d721c9324101a4b4bd0a74d2
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419544"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924824"
 ---
 # <a name="configure-and-manage-database-logging"></a>Datu bāzu reģistrācijas konfigurēšana un pārvaldība
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Jūs variet reģistrēt izmaiņas tabulās un laukos Dynamics 365 Human Resources ar datu bāzes reģistrēšanu. Šajā tēmā ir aprakstīts, kā:
 
@@ -66,7 +65,22 @@ Lai uzlabotu veiktspēju, ierobežojiet reģistrēšanas ierakstus, atlasot reģ
 Varat izmantot **Reģistrēšanas datu bāzes izmaiņu** ceļvedi, lai iestatītu datu bāzes reģistrēšanu. Ceļvedis sniedz elastīgu veidu, kā iestatīt reģistrāciju tabulām vai laukiem.
 
 1. Dodieties uz **Sistēmas administrēšanu > Saites > Datu bāzes > Datu bāzes žurnāla iestatījumi**. Atlasiet **Jauns**, lai sāktu **Datu bāzes izmaiņu reģistrēšanas** ceļvedi.
-2. Pabeidziet ceļvedi.
+2. Atlasiet **Nākamais**. 
+3. Vedņa lapā **Tabulas un lauki** atlasiet tabulas un laukus, kuros vēlaties iespējot datu bāzes reģistrēšanu, un atlasiet **Tālāk**.
+
+   > [!Note]
+   > Datu bāzes reģistrēšana nav pieejama visās personāla vadības datu bāzes tabulās. Atlasot **Rādīt visas tabulas** zem saraksta, tiek izvērsts tabulu un lauku saraksts, lai parādītu visas datu bāzes tabulas, kurām ir pieejama datu bāzes reģistrēšana, bet tā būs pilna datu bāzu tabulu saraksta apakškopa.
+
+4. Vedņa lapā **Izmaiņu tipi** atlasiet datu operācijas, kurām vēlaties reģistrēt katras tabulas un lauka izmaiņas, un atlasiet **Tālāk**. Tālāk esošajā tabulā ir sniegts reģistrēšanai pieejamo datu operāciju apraksts.
+5. Lapā **Pabeigt** pārskatiet veiktās izmaiņas un atlasiet **Pabeigt**.
+
+| Operācija | Apraksts |
+| -- | -- |
+| Izsekot jaunās darbības | Izveidojiet žurnālu jauniem ierakstiem, kas izveidoti tabulā. |
+| Grāmatot | Izveidojiet žurnālu tabulu ierakstu atjauninājumiem vai atsevišķi atlasītu tabulas lauku atjauninājumiem. Ja izvēlaties reģistrēt tabulas atjauninājumus, žurnāla ieraksts tiek izveidots ikreiz, kad tiek atjaunināts jebkurš tabulas ieraksta lauks. Ja izvēlaties reģistrēt atjauninājumus noteiktiem laukiem, žurnāla ieraksts tiek izveidots tikai tad, kad šiem tabulas ierakstu laukiem tiek veikti atjauninājumi. |
+| Delete | Izveidojiet žurnālu ierakstiem, kas izdzēsti no tabulas. |
+| Pārdēvēt atslēgu | Kad tabulas atslēga ir pārdēvēta, izveidojiet žurnāla ierakstu. |
+
 
 ## <a name="clean-up-database-logs"></a>Iztīrīt datu bāzes žurnālus
 
@@ -79,11 +93,14 @@ Varat izdzēst visu vai daļu no datu bāzes žurnāliem, izmantojot šādas opc
 Lai iestatītu datu bāzes žurnāla tīrīšanu, rīkojieties šādi: 
 
 1. Dodieties uz **Sistēmas administrēšana > Saites > Datu bāzes > Datu bāzes žurnāls**. Atlasiet **Tīrīt žurnālu**.
-
-2. Izvēlieties metodi, kā atlasīt žurnālus dzēšanai, ievadot vienu no šīm opcijām:
+2. Zem **Ieraksti, kas jāiekļauj** virsrakstā, atlasiet **Filtrēt**.
+3. Izvēlieties metodi, kas tiks izmantota dzēšamā žurnāla atlasei. Ievadiet vienu no šīm opcijām:
 
    - Tabulas ID
    - Žurnāla tips
-   - Izveidotais datums un laiks
+   - Izveidošanas datums un laiks
 
-3. Izmantojiet cilni **Datu bāzes žurnāla tīrīšana**, lai noteiktu, kad palaist žurnāla tīrīšanas uzdevumu. Pēc noklusējuma datu bāzes žurnāli ir pieejami 30 dienas.
+4. Izmantojiet cilni **Datu bāzes žurnāla tīrīšana**, lai noteiktu, kad palaist žurnāla tīrīšanas uzdevumu. Pēc noklusējuma datu bāzes žurnāli ir pieejami 30 dienas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

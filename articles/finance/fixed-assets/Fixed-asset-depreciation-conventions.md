@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd0153b5d735e1d565b67db6c66c854ff738509c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6b238a4a57ee2eb58fea11661ae79a649d399f5b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969207"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5230302"
 ---
 # <a name="fixed-asset-depreciation-conventions"></a>Pamatlīdzekļu nolietojuma konvencijas
 
@@ -42,3 +42,6 @@ Nolietojuma konvencijas var piešķirt pamatlīdzekļu grupas grāmatas iestatī
 | Puse mēneša (mēneša 15. datums) | Lai aprēķinātu nolietojuma atskaitījumus par gadu, kad īpašums nodots ekspluatācijā, reiziniet visa gada nolietojumu ar daļskaitli. Minētā daļskaitļa skaitītājs (augšējais skaitlis) ir pilno mēnešu skaits gadā, kurā īpašums ir lietošanā, pieskaitot 1/2 jeb (0,5). Saucējs (apakšējais skaitlis) ir 12. Ja īpašums tiek izslēgts pirms atkopšanas perioda beigām, izmantojiet tādu pašu metodi, lai aprēķinātu nolietojuma atskaitījumus par gadu, kurā veikta izslēgšana. |
 | Pusgads (gada sākums) | Pamatlīdzekļiem, kuriem datums <strong>Nodots lietošanā</strong> ir gada pirmajā pusē, sāk aprēķināt nolietojumu gada (pilnā gada) pirmajā dienā. Pamatlīdzekļiem, kuriem datums <strong>Nodots lietošanā</strong> ir gada otrajā pusē, sāk aprēķināt nolietojumu gada (pilnā gada) viduspunktā. |
 | Puse gada (nākamais gads)     | Pamatlīdzekļiem, kuriem datums <strong>Nodots lietošanā</strong> ir gada pirmajā pusē, sāk aprēķināt nolietojumu gada (pilnā gada) pirmajā dienā. Pamatlīdzekļiem, kuriem datums <strong>Nodots lietošanā</strong> ir gada otrajā pusē, sāk aprēķināt nolietojumu nākamā gada pirmajā dienā. Pamatlīdzekļi, kas ir norakstīti gada pirmajā pusē, uzskatāmi par norakstītiem iepriekšējā gada pēdējā dienā nolietojuma vajadzībām. Nolietojums, kas grāmatots pašreizējā gadā, ir jāstornē vai jākoriģē. Pamatlīdzekļi, kas ir norakstīti otrajā gada pusē, uzskatāmi par norakstītiem norakstīšanas gada pēdējā dienā nolietojuma vajadzībām. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

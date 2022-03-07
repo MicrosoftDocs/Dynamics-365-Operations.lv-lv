@@ -1,12 +1,10 @@
 ---
 title: Uzturēšanas atribūtu veidi
 description: Šajā tēmā ir paskaidrots, kā Līdzekļu pārvaldībā izveidot atribūtu veidus.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetFunctionalLocationTypeCopy, EntAssetAttributeType, EntAssetAttributeTypeValue, EntAssetFunctionalLocationType
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b221e9168fc60b5927bb92de80bd6b9614ad591c
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 283cff931ce665ae09152c8f3d3c976b7c8b66ff
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019808"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808524"
 ---
 # <a name="maintenance-attribute-types"></a>Uzturēšanas atribūtu veidi
 
@@ -30,7 +28,7 @@ ms.locfileid: "5019808"
 
  
 
-Šajā tēmā ir paskaidrots, kā Līdzekļu pārvaldībā izveidot atribūtu veidus. Atribūti tiek izmantoti, lai aprakstītu dažādu elementu īpašības. Varat iestatīt atribūtus tālāk norādītajos elementos.
+Šajā tēmā ir paskaidrots, kā Līdzekļu pārvaldībā izveidot atribūtu veidus. Atribūti tiek izmantoti, lai aprakstītu dažādu elementu īpašības. Varat iestatīt atribūtus tālāk norādītajos elementos:
 
 - [Funkcionālo novietojumu tipi](../setup-for-functional-locations/functional-location-types.md)
 - [Funkcionālo novietojumu izveide](../functional-locations/create-functional-locations.md)
@@ -63,3 +61,6 @@ Varat izveidot savus atribūtu veidus. Turklāt varat pārsūtīt preces dimensi
 9. Saglabājiet ierakstu.
 
     Laukā **Funkcionālie novietojumi** ir norādīts to funkcionālo novietojumu skaits, kuri izmanto atribūta veidu. Laukā **Līdzekļu veidi** ir parādīts to līdzekļu veidu skaits, kuri to izmanto.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

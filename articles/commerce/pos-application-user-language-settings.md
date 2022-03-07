@@ -2,16 +2,13 @@
 title: Pārdošanas punkta (POS) programma un lietotāja valodas iestatījumi
 description: Šajā tēmā ir aprakstīts, kā mainīt valodas iestatījumus programmās Modern POS (MPOS) un Cloud POS.
 author: jblucher
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: HcmWorker, RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 78891
 ms.assetid: 0030940c-e0a5-4345-9511-8c3bd1f487ad
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 49bfcaa4c05ea8e6cc6bf0a8f855f2474cea35bc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 099d16f63e03ecbc8bf911fe4385b35fac7c67f763c17379cdc6b6229abdea16
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414162"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774537"
 ---
 # <a name="point-of-sale-pos-application-and-user-language-settings"></a>Pārdošanas punkta (POS) programma un lietotāja valodas iestatījumi
 
@@ -60,8 +57,11 @@ POS lietotāja valodas iestatījums nosaka tulkojumus, kas tiek izmantoti progr
 
 POS lietotāja valodas iestatījums tiek iestatīts, lapas **Darbinieks** sadaļā **Visi darbinieki** atlasot **Retail un Commerce &gt; Valoda**. Tas netiek iestatīts galvenajā cilnē Profils. Šo iestatījumu neizmanto POS. Ja lietotāja valoda nav iestatīta vai tā ir iestatīta uz valodu, kurā tulkojumi nav pieejami, POS atiestatīs veikala valodu.
 
-|             | UI  valoda                   | Datu valoda (preces, kvīšu formāti, rindu displejs utt.) |
+| &nbsp;      | UI valoda                | Datu valoda (preces, kvīšu formāti, rindu displejs utt.) |
 |-------------|----------------------------|---------------------------------------------------------------|
 | **Uzņēmums** | Noklusējums                    | Noklusējums                                                       |
 | **Veikals**   | Ignorē uzņēmumu          | Ignorē uzņēmumu                                             |
 | **Lietotājs**    | Ignorē veikalu vai uzņēmumu | Nekad                                                         |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,17 +1,14 @@
 ---
-title: Rādīt atlaides punktā POS
-description: Šajā tēmā izskaidrots, kā Microsoft Dynamics 365 Commerce palīdz pārdošanas partneriem uzzināt par veicināšanas pasākumiem un to, kā tos var izmantot šķērspārdošanas un piedāvājuma kustībām.
+title: Atlaižu rādīšana punktā POS
+description: Šajā tēmā izskaidrots, kā Microsoft Dynamics 365 Commerce palīdz pārdošanas asistentiem uzzināt par veicināšanas pasākumiem, un kā tos izmantot šķērspārdošanā un piedāvājumos.
 author: ShalabhjainMSFT
-manager: AnnBe
 ms.date: 07/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-Commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail, Commerce
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,24 +16,24 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 7531e250580019a1e9892d22fc7761770227c61f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 9e3fa5030cb684c01153d255ca2bd34d9be7dc9945f0c7ec26985cf74540b73d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414054"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731671"
 ---
 # <a name="show-discounts-in-pos"></a>Rādīt atlaides punktā POS
 
 [!include [banner](includes/banner.md)]
 
-Veicināšanas pasākumiem ir svarīga loma, motivējot klientus, kuri pieņem pirkšanas lēmumus. Piemēram, brīvdienas var radīt vislielāko pārdošanas apjomu mazumtirgotājiem, jo viss mazumtirdzniecības tirgus tiek pārpludināts ar vilinošiem veicināšanas pasākumiem un atlaidēm. Ja veikalu sadarbības partneri ir informēti par un izprot pieejamos veicināšanas pasākumus, viņi var viegli izmantot šos veicināšanas pasākumus, lai šķērspārdotu un piedāvātu preces. Šajā tēmā izskaidrots, kā Microsoft Dynamics 365 Commerce palīdz pārdošanas partneriem uzzināt par veicināšanas pasākumiem un to, kā tos var izmantot šķērspārdošanas un piedāvājuma kustībām.
+Veicināšanas pasākumiem ir svarīga loma, motivējot klientus, kuri pieņem pirkšanas lēmumus. Piemēram, brīvdienas var radīt vislielāko pārdošanas apjomu mazumtirgotājiem, jo viss mazumtirdzniecības tirgus tiek pārpludināts ar vilinošiem veicināšanas pasākumiem un atlaidēm. Ja veikalu sadarbības partneri ir informēti par un izprot pieejamos veicināšanas pasākumus, viņi var viegli izmantot šos veicināšanas pasākumus, lai šķērspārdotu un piedāvātu preces. Šajā tēmā izskaidrots, kā Microsoft Dynamics 365 Commerce palīdz pārdošanas asistentiem uzzināt par veicināšanas pasākumiem, un kā tos izmantot šķērspārdošanā un piedāvājumos.
 
 ## <a name="learn-about-store-discounts"></a>Uzziniet par veikalu atlaidēm
 
 Commerce ietver operāciju ar nosaukumu "Skatīt visas atlaides". Šī operācija parāda visas atlaides, kas pašlaik tiek darbinātas veikalā. Operāciju "Skatīt visas atlaides" var kartēt uz pogu pārdošanas punktā (POS), un šo pogu var pievienot **Sveiciena** lapai vai **Transakcijas** lapai. Nākamajā attēlā ir parādīts atvērtas lapas **Visas atlaides**.
 
-![Visu atlaižu lapa](./media/View_all_discounts.png "Visu atlaižu lapa")
+![Visu atlaižu lapa.](./media/View_all_discounts.png "Visu atlaižu lapa")
 
 Lai parādītu atlaides, sistēma meklē visas atlaides, kas atbilst vienam vai vairākiem no šādiem nosacījumiem:
 
@@ -64,8 +61,11 @@ Sekojošās ilustrācijās redzama loģika, kas nosaka, kuras atlaides tiek rād
 
 Sekojošajā attēlā redzama loģika, kas tiek izmantota, kad atlaides vienlaicīguma kontrole ir iestatīta kā **Labākā cena un salikums prioritātē, nekad salikts prioritātēs**.
 
-![Optimālas cenas un salikuma loģika prioritātes ietvaros, nekad salikts prioritātēs](./media/Model_1.png "Optimālas cenas un salikuma loģika prioritātes ietvaros, nekad salikta prioritātēs").
+![Optimālas cenas un salikuma loģika prioritātes ietvaros, nekad salikts prioritātēs.](./media/Model_1.png "Optimālas cenas un salikuma loģika prioritātes ietvaros, nekad salikta prioritātēs").
 
 Sekojošajā attēlā redzama loģika, kas tiek izmantota, kad atlaides vienlaicīguma kontrole ir iestatīta kā **Labākā cena tikai prioritātē, vienmēr salikts prioritātē**.
 
-![Optimālas cenas loģika tikai prioritātes ietvaros, vienmēr salikta prioritātē](./media/Model_2.png "Optimālas cenas loģika tikai prioritātes ietvaros, vienmēr salikta prioritātē").
+![Optimālas cenas loģika tikai prioritātes ietvaros, vienmēr salikta prioritātē.](./media/Model_2.png "Optimālas cenas loģika tikai prioritātes ietvaros, vienmēr salikta prioritātē").
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

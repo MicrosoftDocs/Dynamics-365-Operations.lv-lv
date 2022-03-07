@@ -2,16 +2,13 @@
 title: Azure Data Lake Storage iespējošana Dynamics 365 Commerce vidē
 description: Šajā tēmā paskaidrots, kā iespējot un pārbaudīt Azure Data Lake Storage Dynamics 365 Commerce videi, kas ir priekšnosacījums preču ieteikumu iespējošanai.
 author: bebeale
-manager: AnnBe
 ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,20 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 27e4f1c751ee865b0df536f3c1912cb1d8946032
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 61f96dae0643e3383afd91864e4c145f3b5c04c8
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413961"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792611"
 ---
 # <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a>Azure Data Lake Storage iespējošana Dynamics 365 Commerce vidē
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā paskaidrots, kā iespējot un pārbaudīt Azure Data Lake Storage Dynamics 365 Commerce videi, kas ir priekšnosacījums preču ieteikumu iespējošanai.
-
-## <a name="overview"></a>Pārskats
 
 Risinājumā Dynamics 365 Commerce visa informācija par preci un transakciju tiek izsekota vides elementu krātuvē. Lai šos datus padarītu pieejamus citiem Dynamics 365 pakalpojumiem, piemēram, datu analīzei, biznesa informācijai un personalizētiem ieteikumiem, šī vide jāsavieno ar debitoram piederošu Azure Data Lake Storage Gen 2 risinājumu.
 
@@ -115,3 +110,6 @@ Ja tas vēl nav pabeigts, sekojiet norādījumiem par [preču ieteikumu iespējo
 [Izveidot ieteikumus ar demonstrācijas datiem](product-recommendations-demo-data.md)
 
 [Bieži uzdotie jautājumi par preču ieteikumiem](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

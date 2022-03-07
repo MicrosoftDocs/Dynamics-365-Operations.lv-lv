@@ -2,24 +2,24 @@
 title: Kreditora rēķina automatizācijas darbvieta
 description: Šajā tēmā ir paskaidrots, kā iestatīt darbvietu, kas saistīta ar kreditora rēķiniem, un kas parāda informāciju, kura pieejama izmantojot programmu Microsoft Power BI.
 author: abruer
-ms.date: 02/14/2022
+ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.assetid: ''
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f28cc5f63df2f0d8a4c8cae407f7166aa4fa03db
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
-ms.translationtype: MT
+ms.openlocfilehash: dde77a19fae9af8f40af8b14259a29db80f4a80cf8be75233a463d6fec2dac46
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182583"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722723"
 ---
 # <a name="vendor-invoice-automation-workspace"></a>Kreditora rēķina automatizācijas darbvieta
 
@@ -60,14 +60,14 @@ Kad ir ieslēgts līdzeklis **Kreditora rēķina automatizācija**, darbvietas a
 
 Sadaļas **Mans darbs** elementi **Neapmaksāto rēķinu kopsavilkums** sniedz pārskatu par jūsu kreditora rēķinu stāvokli. Var redzēt žurnālus, kas vēl nav grāmatoti, un rēķinus, kas ir aizturēti. Turklāt ir četri elementi, kas ir saistīti ar kreditora rēķina automatizācijas līdzekli:
 
-- **Nepieciešama manuāla ieejas plūsmas saskaņošana**
-- **Saskaņošanas pārbaude neizdevās**
-- **Rēķini nav iesniegti darbplūsmā**
-- **Rēķini nav importēti**
+- Nepieciešama manuāla ieejas plūsmas saskaņošana
+- Saskaņošanas pārbaude neizdevās
+- Rēķini nav iesniegti darbplūsmā
+- Rēķini nav importēti
 
-(Šiem četriem papildu iestatījumiem ir nepieciešams, lai kreditoru rēķinu automatizācijas funkcija būtu ieslēgta **Līdzekļu pārvaldība**.)
+(Šiem četriem elementiem ir nepieciešams, lai Līdzekļu pārvaldībā būtu ieslēgts līdzeklis Kreditora rēķina automatizācija.)
 
-Lai izmantotu elementu **Atkopt kreditoru rēķinus**, kreditoru parametros ir jābūt ieslēgtai **funkcijai**. Dodieties uz **Kreditori \> Kreditoru parametri** un pēc tam cilnē **Rēķins** iestatiet opciju **Atļaut kreditora rēķinu atgūšana** uz **Jā**.
+Lai izmantotu elementu **Atgūt kreditora rēķinus**, līdzeklim ir jābūt ieslēgtam Kreditora parametros. Dodieties uz **Kreditori \> Kreditoru parametri** un pēc tam cilnē **Rēķins** iestatiet opciju **Atļaut kreditora rēķinu atgūšana** uz **Jā**.
 
 Kad līdzeklis ir ieslēgts, redzēsit arī trīs elementus, kas sagrupēti kopā darbvietas sadaļā ar nosaukumu **Žurnāli**. Elementi ir ar nosaukumu **Žurnāli**, **Žurnāli — piešķirts man** un **Rēķinu kopa**. 
 

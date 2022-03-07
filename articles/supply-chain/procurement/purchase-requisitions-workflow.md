@@ -1,12 +1,10 @@
 ---
 title: Pirkšanas pieprasījuma darbplūsma
 description: Šajā darbplūsmas procesā pārskatīšanas procesa gaitā tiek pārvietoti pirkšanas pieprasījumi no sākotnēja statusa Melnraksts līdz galīgajam statusam Apstiprināts. Kad pirkšanas pieprasījums ir iesniegts pārskatīšanai, tiek uzsākts darbplūsmas process. Kad pirkšanas pieprasījums ir apstiprināts, pirkšanas pasūtījumu var ģenerēt pirkšanas pieprasījuma rindām un iesniegt kreditoram pasūtījuma izpildīšanai.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqAuthorization, WorkflowParticipantExpenToken
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2234
 ms.assetid: dad3ba5a-2892-45d2-874a-300896f59b34
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6069e2ab93e1ce4299669850bdae37e82b17428
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 66305688d1613b9882d3778a81886728df934931
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021984"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569461"
 ---
 # <a name="purchase-requisition-workflow"></a>Pirkšanas pieprasījuma darbplūsma
 
@@ -53,7 +51,7 @@ Nākamajā attēlā ir parādīts, kā pirkšanas pieprasījums var pārvietotie
 -   **Pirkšanas aģents** — lietotājs, kurš veic sagādes pārskatīšanu un var apstiprināt šo dokumentu.
 -   **Pieprasītāja vadītājs** — lietotājs, kurš veic vadības pārskatu un var apstiprināt šo dokumentu.
 
-![Pirkšanas pieprasījuma darbplūsmas pārskatīšanas process](./media/purchreqworkflowoverview_submission.gif)  
+![Pirkšanas pieprasījuma darbplūsmas pārskatīšanas process.](./media/purchreqworkflowoverview_submission.gif)  
 Šajā piemērā pirkšanas pieprasījuma darbplūsmas process ietver šādas darbības:
 
 1.  Sagatavotājs iesniedz pirkšanas pieprasījumu pārskatīšanai.
@@ -76,7 +74,7 @@ Nākamajā attēlā ir parādīts, kā cauri darbplūsmai var maršrutēt atsevi
 -   **Nodaļas vadītājs** — lietotājs, kurš veic izdevumu pārskatu un var apstiprināt šo dokumentu.
 -   **Grupas vadītājs** — lietotājs, kurš veic parakstīšanas pilnvarojuma pārskatu un var apstiprināt šo dokumentu.
 
-![Pirkšanas pieprasījuma rindas darbplūsmas pārskatīšanas process](./media/purchreqlineworkflowoverview.gif)  
+![Pirkšanas pieprasījuma rindas darbplūsmas pārskatīšanas process.](./media/purchreqlineworkflowoverview.gif)  
 Šajā piemērā pirkšanas pieprasījuma rindu darbplūsmas process ietver šādas darbības:
 
 1.  Sagatavotājs iesniedz pirkšanas pieprasījumu pārskatīšanai. Katra rinda tiek maršrutēta uz pārskatītāju, kas ir konfigurēts tās saņemšanai darbplūsmas procesā.
@@ -107,8 +105,7 @@ Izdevumu pārskatītājus var iestatīt lapā **Pirkšanas pieprasījumu izdevum
 
 Lai izmantotu kādu no darbplūsmā iestatītajiem izdevumu pārskatītājiem, opcija **Dalībnieka tips** ir jāiestata uz **Izdevumu dalībnieki** sadaļas **Piešķire** attiecīgās darbplūsmas elementa rekvizītos.
 
-<a name="additional-resources"></a>Papildu resursi
---------
+## <a name="additional-resources"></a>Papildu resursi
 
 [Patēriņa pieprasījuma izveide](tasks/create-requisition-consumption.md)
 
@@ -120,3 +117,6 @@ Lai izmantotu kādu no darbplūsmā iestatītajiem izdevumu pārskatītājiem, o
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,17 +15,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 80a0861c51ea14ddb6bce02d757667adac34e740cd04311e26211d9bdbae4ed8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d6854c11822e07ff06426b7a35eac86cdc0e9b06
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716226"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356906"
 ---
 # <a name="apply-display-settings-for-product-dimensions"></a>Displeja iestatījumu pielietošana preču dimensijām
 
 [!include [banner](includes/banner.md)]
-
+[!include [banner](includes/preview-banner.md)]
 
 Šajā tēmā ir aplūkoti preču dimensiju displeja iestatījumi un aprakstīts, kā tos lietot programmā Microsoft Dynamics 365 Commerce.
 

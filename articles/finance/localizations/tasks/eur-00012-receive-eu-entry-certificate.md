@@ -2,26 +2,23 @@
 title: EUR-00012 ES ieraksta sertifikāta saņemšana
 description: Šajā procedūrā ir izklāstīts, kā reģistrēt ES ieraksta sertifikātu, ko izsniedza trešā puse un kurš saņemts no jūsu debitora.
 author: mrolecki
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustEntryCertificateJour_W
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 591e267da5f486fe3d06e6519cb33d98f4522ae7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 337013ca2a3c00213e537a0542dc0ebcb755f07db4aad3e77b3abd66173e5634
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408253"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736890"
 ---
 # <a name="eur-00012-receive-an-eu-entry-certificate"></a>EUR-00012 ES ieraksta sertifikāta saņemšana
 
@@ -42,3 +39,6 @@ Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūr
     * Pievienojiet žurnālam papildu informāciju.  
     * Piemēram, pievienojiet skenētu ES ieraksta sertifikāta attēlu žurnālam.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

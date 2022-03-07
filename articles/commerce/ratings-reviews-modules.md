@@ -1,36 +1,31 @@
 ---
 title: Vērtējumu un apskatu moduļi
-description: Šī tēma ietver vērtējumu un apskatu moduļus, kas tiek izmantoti preču informācijas lapās Microsoft Dynamics 365 Commerce.
+description: Šī tēma ietver vērtējumu un apskatu moduļus, kas tiek izmantoti preču informācijas lapās programmā Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
-ms.openlocfilehash: 85fb1272103eed7d6e44635b7c20438471d96b34
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 66ee2d4185cad45b70b19fb474c64ae77a2868e835b20d5275e21610c0150370
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414151"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761566"
 ---
 # <a name="ratings-and-reviews-modules"></a>Vērtējumu un apskatu moduļi
 
 [!include [banner](includes/banner.md)]
 
-Šī tēma ietver vērtējumu un apskatu moduļus, kas tiek izmantoti preču informācijas lapās (PDP) Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
+Šī tēma ietver vērtējumu un apskatu moduļus, kas tiek izmantoti preču informācijas lapās (PDP) programmā Microsoft Dynamics 365 Commerce.
 
 Vērtējumi un atsauksmes par e-komercijas tīmekļa vietnēm palīdz klientiem uzzināt par precēm, pirms viņi nolemj veikt pirkumu, kā arī tas ir mehānisms, ka iegūt klientu atsauksmes par precēm. 
 
@@ -47,19 +42,23 @@ Trīs moduļi rāda vērtējumus un atsauksmes preču papildinformācijas lapās
  
 Tālāk redzamajā attēlā atspoguļots, kā izskatās vērtējumi un atsauksmes preču papildinformācijas lapā (PDP).
 
-![Vērtējumu un atsauksmju moduļi preču papildinformācijas lapā (PDP)](media/rnr-eCommerce-pdp-reviews-modules_design.png)
+![Vērtējumu un atsauksmju moduļi preču papildinformācijas lapā (PDP).](media/rnr-eCommerce-pdp-reviews-modules_design.png)
 
 > [!TIP] 
 > Lai iegūtu informāciju par to, kā optimizēt PDP veidnes un izkārtojumus, lai varētu koplietot konfigurācijas vērtēšanas un atsauksmju moduļiem starp vairākām PDP jūsu E-komercijas vietnē, skatiet tēmu [Veidņu un izkārtojumu apskats](templates-layouts-overview.md).
 
 Nākamajā attēlā ir parādīts, kā dialoglodziņā **Pievienot moduli** tiek atspoguļoti vērtējumi un atsauksmes programmā Dynamics 365 Commerce.
-![Dialoglodziņš Moduļa pievienošana](media/rnr-eCommerce-pdp-adding-rnr-modules.png)
+![Dialoglodziņš Moduļa pievienošana.](media/rnr-eCommerce-pdp-adding-rnr-modules.png)
 
-### <a name="write-review-module"></a>Atsauksmes rakstīšanas modulis
+### <a name="write-review-module"></a>Atsauksmes moduļa rakstīšana
 
 Atsauksmes rakstīšanas modulis ietver pogu **Rakstīt atsauksmi**, kas ļauj lietotājiem pierakstīties, piešķirt vērtējumu un uzrakstīt atsauksmi par preci. Šis modulis arī ļauj lietotājiem rediģēt viņu iepriekš iesniegto vērtējumu vai atsauksmi. Šis modulis parasti tiek parādīts virs vērtējumu histogrammas un preces atsauksmju saraksta moduļiem preču papildinformācijas lapā (PDP).
 Nākamajā attēlā parādīts dialoglodziņš **Rakstīt atsauksmi**, kas tiek parādīts, klientam atlasot **Rakstīt atsauksmi**. Klients var izmantot šo dialoglodziņu, lai iesniegtu vērtējumu un atsauksmi.
-![Dialoglodziņš atsauksmes rakstīšanai](media/rnr-eCommerce-write-review-module.png) Nākamajā tabulā ir parādīts atsauksmes rakstīšanas moduļa rekvizīts, kas jākonfigurē autorēšanas rīkā.
+
+![Dialoglodziņš Rakstīt atsauksmi.](media/rnr-eCommerce-write-review-module.png)
+
+Nākamajā tabulā ir parādīts atsauksmes rakstīšanas moduļa rekvizīts, kas jākonfigurē autorēšanas rīkā.
+
 | Rekvizīta nosaukums | Vērtība        | Rekvizīta apraksts                 |
 |---------------|--------------|--------------------------------------|
 | Vārds/nosaukums          | Atsauksmes rakstīšana | Atsauksmes rakstīšanas moduļa nosaukums. |
@@ -83,7 +82,7 @@ Nākamajā tabulā ir parādīts preces atsauksmju saraksta moduļa rekvizīti, 
 
 Preces atsauksmju saraksta modulī ir ietverts slots, kur varat pievienot vērtēšanas histogrammas moduli. Nākamajā attēlā ir parādīts, kā var pievienot vērtēšanas histogrammas moduli preces atsauksmju saraksta modulī programmā Dynamics 365 Commerce.
 
-![Vērtējumu histogrammas moduļa pievienošana preces atsauksmju saraksta modulī](media/rnr-eCommerce-pdp-rating-histogram-summary.png)
+![Vērtējumu histogrammas moduļa pievienošana preces atsauksmju saraksta modulī.](media/rnr-eCommerce-pdp-rating-histogram-summary.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
@@ -100,3 +99,6 @@ Preces atsauksmju saraksta modulī ir ietverts slots, kur varat pievienot vērt�
 [Galvenes modulis](author-header-module.md)
 
 [Kājenes modulis](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

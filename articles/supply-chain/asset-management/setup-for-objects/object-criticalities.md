@@ -1,12 +1,10 @@
 ---
 title: Līdzekļu kritiskuma veidi
 description: Tēmā ir paskaidrot līdzekļu kritiskuma veidi Līdzekļu pārvaldībā.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetCriticality, EntAssetObjectCriticality
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9d2c5e8b6676abf03fe0d3de8b23f125713d6f2
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: f9edf55c22375a66fda04ae7ff76d7a0a191140e5ffb3a377b9ac1a7ba604a8d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021708"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776924"
 ---
 # <a name="asset-criticality-types"></a>Līdzekļu kritiskuma veidi
 
@@ -42,7 +40,7 @@ Lai iestatītu kritiskumu, vispirms izveidojiet kritiskuma veidus, kas jāizmant
 4. Laukā **Nosaukums** ievadiet kritiskuma veida nosaukumu.
 5. Laukā **Koeficients** ievadiet koeficientu. Šis koeficients tiek izmantots darba pasūtījuma plānošanas aprēķināšanas laikā, lai noteiktu, kādu kritiskuma ierakstu izmantot. (Vienmēr tiek izmantots ieraksts, kuram ir augstākais koeficients.) Šis iestatījums ir atbilstošs, ja, kā parādīts nākamajā attēlā, tiek veidotas kritiskuma rindas, kurām ir tāda pati kritiskuma vērtība.
 
-    ![Kritiskuma veidu lapa](media/23-setup-for-objects.png)
+    ![Kritiskuma veidu lapa.](media/23-setup-for-objects.png)
 
 ## <a name="set-up-asset-criticalities"></a>Līdzekļa kritisko vērtību iestatīšana
 
@@ -61,3 +59,6 @@ Lai iestatītu kritiskumu, vispirms izveidojiet kritiskuma veidus, kas jāizmant
 - Kritiskums darba pasūtījumā tiek pārrēķināts katru reizi, kad darba pasūtījuma rinda tiek pievienota vai dzēsta darba pasūtījumā.
 - Ja darba pasūtījumā ir vairāki darba pasūtījuma darbi, darba pasūtījumā vienmēr tiek izmantots augstākais kritiskums saskaņā ar lauku **Koeficients** lapā **Kritiskuma veidi**.
 - Parasti līdzekļu kritiskums laika posmā var mainīties. Kritiskumu var ietekmēt jaunu iekārtu iegāde, atjaunošana un tā tālāk. Apsveriet iespēju regulāri no jauna izvērtēt savu līdzekļu kritiskās vērtības (piemēram, reizi gadā vai katru otro gadu), lai nodrošinātu, ka jūsu kritiskuma definīcijas atbilst aktuālajiem ražošanas iestatījumiem.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

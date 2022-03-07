@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: b804e840b98321ee9e509ea483b360ec42d12880
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
-ms.translationtype: MT
+ms.openlocfilehash: afe0f9945d86c0c7da88b427f582483ed38a54db837818c3e63c5ae2cc60cfbb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323719"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718385"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>XML elementu izpildes atlikšana ER formātos
 
@@ -28,7 +28,7 @@ ms.locfileid: "8323719"
 
 ## <a name="overview"></a>Pārskats
 
-Elektronisko pārskatu ([ER)](general-electronic-reporting.md)[struktūras](./tasks/er-format-configuration-2016-11.md) operāciju veidotāju varat izmantot, lai konfigurētu ER risinājuma formāta komponentu, kas tiek lietots izejošo dokumentu ģenerēšanai XML formātā. Konfigurētā formāta komponenta hierarhisko struktūru veido dažādu tipu formātu elementi. Šos formāta elementus izmanto, lai izpildlaikā aizpildītu izveidotos dokumentus ar nepieciešamo informāciju. Pēc noklusējuma, palaižot ER formātu, formāta elementi tiek palaisti tādā pašā secībā, kādā tie atrodas formāta hierarhijā: pa vienam, no augšas uz leju. Tomēr noformēšanas laikā varat mainīt izpildes kārtību jebkuriem konfigurētā formāta komponenta XML elementiem.
+Varat izmantot [Elektroniskās ziņošanas (ER)](general-electronic-reporting.md) struktūras operāciju veidotāju, lai [konfigurētu](./tasks/er-format-configuration-2016-11.md) tādu ER risinājuma [formāta komponentu](general-electronic-reporting.md#FormatComponentOutbound), kas tiek izmantots izejošo dokumentu ģenerēšanai XML formātā. Konfigurētā formāta komponenta hierarhisko struktūru veido dažādu tipu formātu elementi. Šos formāta elementus izmanto, lai izpildlaikā aizpildītu izveidotos dokumentus ar nepieciešamo informāciju. Pēc noklusējuma, palaižot ER formātu, formāta elementi tiek palaisti tādā pašā secībā, kādā tie atrodas formāta hierarhijā: pa vienam, no augšas uz leju. Tomēr noformēšanas laikā varat mainīt izpildes kārtību jebkuriem konfigurētā formāta komponenta XML elementiem.
 
 Ieslēdzot konfigurētajā formātā XML elementa <a name="DeferredXmlElementExecution"></a>**Atliktās izpildes** opciju, varat atlikt (uz vēlāku laiku) šī elementa izpildi. Šādā gadījumā elements netiek palaists, kamēr nav palaisti visi citi tā pamatelementa elementi.
 

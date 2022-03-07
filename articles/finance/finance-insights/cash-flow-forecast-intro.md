@@ -2,28 +2,25 @@
 title: Skaidras naudas plūsmas prognoze (priekšskatījums)
 description: Šajā tēmā aprakstīta skaidras naudas plūsmas prognozēšanas spēja.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 05/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f97b8fc0896f0f7b95bf5609f94367b3a8230ca7
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 6e4713aa4662714d1b2a3eeb62adce8608907054
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645252"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811415"
 ---
 # <a name="cash-flow-forecast-preview"></a>Skaidras naudas plūsmas prognoze (priekšskatījums)
 
@@ -68,3 +65,6 @@ Cilnē **Dimensijas** izvēlieties no dimensiju saraksta, ko izmantot filtrēša
 
 #### <a name="privacy-notice"></a>Paziņojums par konfidencialitāti
 Priekšskatījumiem (1) var tikt izmantots mazāk konfidencialitātes un drošības pasākumu nekā pakalpojumam Dynamics 365 Finance and Operations, (2) tie nav ietverti pakalpojuma līmeņa līgumā par šo pakalpojumu, (3) tos nedrīkst izmantot personas datu vai citu tādu datu apstrādei, uz kuriem attiecas juridiskās vai normatīvās prasības, un (4) tiem tiek nodrošināts ierobežots atbalsts.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

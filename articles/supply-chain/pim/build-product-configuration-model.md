@@ -1,30 +1,29 @@
 ---
 title: Produkta konfigurēšanas pārskats
 description: Nepieciešamība konfigurēt produktus tā, lai tie apmierinātu īpašas prasības, kļūst par normu nevis par izņēmumu gan starpuzņēmumu attiecībās, gan uzņēmumu un patērētāju attiecībās.
-author: cvocph
-manager: tfehr
+author: t-benebo
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails, ConfigPartOf
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 75083
+ms.custom:
+- "75083"
+- intro-internal
 ms.assetid: f08072b8-cb0b-43aa-9509-f5ec32caecd9
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b7d1186b4141a18e1283505713e67018927672d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 62411bff436d34e3d311b078b1bf8f886e5902d6
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432439"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983371"
 ---
 # <a name="product-configuration-overview"></a>Produkta konfigurēšanas pārskats
 
@@ -39,6 +38,7 @@ Veiksmīga pāreja no ražošanas krājumu izveidei uz konfigurēšanu atbilsto�
 Ir vairāki preču konfigurācijas modelēšanas principi, piemēram, modelēšana atbilstoši nosacījumiem, atbilstoši dimensijām un atbilstoši ierobežojumiem. Pētījumi rāda, ka metodoloģija atbilstoši ierobežojumiem var samazināt koda rindu skaitu modeļos par 50 procentiem, salīdzinot ar citiem modelēšanas principiem. Tāpēc šī metodika var samazināt īpašumtiesību kopējās izmaksas (TCO). No modeļa atbilstoši nosacījumiem, kura pamatā ir X++ kods, pārejot uz modeli atbilstoši ierobežojumiem, vairs nebūs nepieciešama izstrādātāja licence preču modeļu uzturēšanai.
 
 ## <a name="product-configuration"></a>Preces konfigurācija
+
 Industrializācijas periods ir novedis pie lieliem sasniegumiem augstas kvalitātes un funkcijām bagāto preču ražošanā par pieņemamām cenām. Apjomradīti ietaupījumi ļāva vairumam cilvēku industrializētā pasaulē iegādāties automašīnas, televizorus, mājsaimniecības preces un citas preces, ko lielākā daļa no mums uzskata par nepieciešamu mūsu ikdienas dzīves sastāvdaļu.  
 
 Kad daudzas preces ir kļuvušās par patēriņa precēm, ir radusies nepieciešamība tās diferencēt. Ražotāju tūlītējā reakcija uz šo problēmu bija veidot vairākus katras preces variantus, lai klientiem būtu vairāk alternatīvu. Šīs stratēģijas rezultātā palielinājās prognozēšanas problēmas, kā arī palielinājās krājumu izmaksas un novecojušo nepārdoto preču skaits.  
@@ -47,9 +47,10 @@ Pieņemot konfigurēšanas atbilstoši pasūtījumam filozofiju, ražotājiem ir
 
 Lai to veiksmīgi nodrošinātu, ir rūpīgi jāanalizē preču portfelis un jāmeklē modeļi gan produkta funkcijās, gan procesos. Mērķis ir noteikt vispārējos komponentus, ko var ražot viena iekārta un ko var izmantot visos variantos.  
 
-Jauna preču konfigurācijas līdzekļu kopa ietver lietotāja interfeisu (UI), kas nodrošina preces konfigurācijas modeļa struktūras vizuālu pārskatu un arī deklaratīvu ierobežojuma sintaksi, kas nav jākompilē. Tāpēc uzņēmumiem, kas vēlas atbalstīt konfigurācijas praksi, ir vieglāk sākt to darīt. Kā paskaidrots nākamajās nodaļās, preces noformētājam vairs nav nepieciešams izstrādātāja atbalsts, lai izveidotu preces konfigurācijas modeli, to pārbaudītu un izlaistu pārdošanas organizācijai.
+Preču konfigurācijas līdzekļu kopa ietver lietotāja interfeisu (UI), kas nodrošina preces konfigurācijas modeļa struktūras vizuālu pārskatu un arī deklaratīvu ierobežojuma sintaksi, kas nav jākompilē. Tāpēc uzņēmumiem, kas vēlas atbalstīt konfigurācijas praksi, ir vieglāk sākt to darīt. Kā paskaidrots nākamajās nodaļās, preces noformētājam vairs nav nepieciešams izstrādātāja atbalsts, lai izveidotu preces konfigurācijas modeli, to pārbaudītu un izlaistu pārdošanas organizācijai.
 
 ## <a name="building-a-product-configuration-model"></a>Preces konfigurācijas modeļa izveide
+
 Ir vairākas pieejas, kurus lietotājs var izmantot, lai izveidotu preces konfigurācijas modeli. Viena iespēja ir sekot secīgai plūsmai, vispirms izveidojot visus atsauces datus, piemēram, preces šablonus, atšķirīgas preces un darbības resursus, un pēc tam ietverot tos preces konfigurācijas modelī kā komponentus, materiālu komplekta (MK) rindas, maršruta operācijas un citus elementus. Alternatīvi var izvēlēties iteratīvāku pieeju, vispirms izveidojot modeli un pēc tam, pēc vajadzības, pievienojot atsauces datus.
 
 ### <a name="components"></a>Komponenti
@@ -61,7 +62,7 @@ Preces konfigurācijas modeli veido viens vai vairāki komponenti, kas ir iesais
 Katram komponentam ir viens vai vairāki atribūti, kas identificē tā īpašības. Lietotāji izvēlēsies atribūtus konfigurācijas procesā. Atribūti kontrolē starpkomponentu un iekškomponentu attiecības, kad tos iekļauj ierobežojumos vai aprēķinos. Izmantojot nosacījumus, kas tiek lietoti MK rindas, atribūtus var izmantot, lai noteiktu fiziskās daļas, no kurām sastāvēs konfigurētā prece. Turklāt atribūts var kontrolēt MK rindas rekvizītu ar kartēšanas mehānismu. Līdzīga funkcionalitāte ir maršruta operācijām attiecībā uz iekļaušanu un rekvizītu iestatījumiem.
 
 >[!NOTE]
-> Veidojot atribūtu tipus, izvairieties izveidot lielu skaitu vērtību atribūta tipa domēnam. Tas var izraisīt palēninājumus preču konfiguratorā. 
+> Veidojot atribūtu tipus, izvairieties izveidot lielu skaitu vērtību atribūta tipa domēnam. Tas var izraisīt palēninājumus preču konfiguratorā.
 
 ### <a name="expression-constraints"></a>Izteiksmes ierobežojumi
 
@@ -98,6 +99,7 @@ MK rindas ir iekļautas, lai noteiktu katra komponenta ražošanas MK. MK rindā
 Maršruta operācijas ir ietvertas, lai identificētu ražošanas maršrutu. Maršruta operācijā jābūt atsaucei uz noteiktu operāciju, un visus operācijas rekvizītus var iestatīt uz fiksētu vērtību. Visus rekvizītus, izņemot resursu prasības, var kartēt uz atribūtu nevis vērtību.
 
 ## <a name="validating-and-testing-a-product-configuration-model"></a>Preces konfigurācijas modeļa pārbaude un testēšana
+
 Preces konfigurācijas modeļa pārbaude var notikt vairākos līmeņos modelī, un tādēļ dažādās sfērās. Zemākais līmenis ir vienas izteiksmes ierobežojums. Šajā gadījumā pārbaudi parasti veic preces noformētājs, lai pārliecinātos, ka izteiksmes sintakse ir pareiza.  
 
 Tāpat MK rindas vai maršruta operācijas nosacījumu var pārbaudīt atsevišķi.  
@@ -115,6 +117,7 @@ Modeļa testēšana ir līdzīga faktiskās konfigurācijas sesijas veikšanai. 
 Lai pārvietotos starp komponentiem, noklikšķiniet uz **Nākamais**, vai noklikšķiniet uz komponenta preces konfigurācijas modeļa kokā, lai iestatītu fokusu uz to.
 
 ## <a name="finalizing-a-model-for-configuration"></a>Konfigurācijas modeļa pabeigšana
+
 Kad preces konfigurācijas modelis ir gatavs izmantošanai konfigurācijas atbilstoši pasūtījumam scenārijos, ir jāizveido versija. Tomēr ir vairākas opcijas, kas uzlabo modelēšanas pieredzi.
 
 ### <a name="user-interface"></a>Lietotāja interfeiss
@@ -134,32 +137,31 @@ Ja prece tiks pārdota dažādās valstīs/reģionos, var izveidot visu tekstu t
 Pēdējais un svarīgākais solis pabeigšanas procesā ir izveidot preces konfigurācijas modeļa versiju. Šī versija attēlo attiecības starp preces šablonu, kuru var atlasīt konfigurācijai pasūtījuma vai piedāvājuma rindā, un preces konfigurācijas modeli. Pirms izmantošanas konfigurācijas sesijā versija ir jāapstiprina un jāaktivizē.
 
 ## <a name="extending-a-product-configuration-model-through-the-api"></a>Preces konfigurācijas modeļa paplašināšana, izmantojot API
-Atvēlētais lietojumprogrammu programmēšanas interfeiss (API) tiek ieviests, lai partneri un pārējie, kam ir izstrādātāja licence, varētu paplašināt preces konfigurācijas modeļa iespējas. Galvenais mērķis ir izveidot mehānismu, kas partneriem un klientiem, kas izmanto esošo preču konfiguratoru, ļauj uz API migrēt kodu, kurš ir iegults preču konfiguratora modeļos. Šādā veidā, viņi var migrēt savus modeļus no preču konfiguratora uz preču konfigurāciju. Tomēr, jauni partneri un klienti var gūt labumu arī no API izmantošanas, lai paplašinātu jaunus preces konfigurācijas modeļus.
 
-### <a name="pcadaptor-class"></a>PCAdaptor klase
+Atvēlētais lietojumprogrammu programmēšanas interfeiss (API) tiek ieviests, lai partneri un pārējie, kam ir izstrādātāja licence, varētu paplašināt preces konfigurācijas modeļa iespējas. Galvenais mērķis ir izveidot mehānismu, kas partneriem un klientiem, kas izmanto esošo preču konfiguratoru, ļauj uz API migrēt kodu, kurš ir iegults preču konfiguratora modeļos. Šādā veidā, viņi var migrēt savus modeļus no preču konfiguratora uz preču konfigurāciju. Tomēr, jauni partneri un klienti var gūt labumu arī no API izmantošanas, lai paplašinātu jaunus preces konfigurācijas modeļus.
 
 API tiek ieviests, izmantojot **PCAdaptor** klašu kopu, kas atklāj preces konfigurācijas modeļu datu struktūru. Katram modelim, kas tiks paplašināts, ir jāizveido instance ar klasi **PCAdaptor**. Pēc konfigurēšanas sesijas beigām sistēma meklē šīs klases instanci un palaiž to, ja tāda tiek atrasta.  
 
-Procesu apraksta šī plūsmas diagramma.  
+Procesu apraksta šī API plūsmas diagramma.  
 
-[![Plūsmas diagramma](./media/product_configuration_2.png)](./media/product_configuration_2.png)  
+[![Plūsmas diagramma.](./media/product_configuration_2.png)](./media/product_configuration_2.png)  
 
-Preces konfigurācijas API plūsmas diagramma
+## <a name="configure-products"></a>Konfigurēt preces
 
-## <a name="product-configuration"></a>Preces konfigurācija
-Preču konfigurāciju var veikt no šādām vietām:
+### <a name="configure-one-or-more-products"></a>Konfigurēt vienu vai vairākas preces
 
--   Pārdošanas pasūtījuma rinda
--   Pārdošanas piedāvājuma rinda
--   Pirkšanas pasūtījuma rinda
--   Ražošanas pasūtījuma rinda
--   Krājumu vajadzības rinda (projekts)
+Varat konfigurēt preces no šādām vietām:
+
+- Pārdošanas pasūtījumu rinda
+- Pārdošanas piedāvājuma rinda
+- Pirkšanas pasūtījuma rinda
+- Ražošanas pasūtījuma rinda
+- Krājumu vajadzības rinda (projekts)
 
 Konfigurācijas mērķis ir izveidot atšķirīgus preces variantus, kas atbilst klienta vajadzībām. Unikāls konfigurācijas ID tiek izveidots katrai jaunai konfigurācijai. Šis ID ļauj veikt krājumu izsekošanu.
 
-### <a name="multiple-sites-and-intercompany"></a>Vairākas vietas un vairāki uzņēmumi
+### <a name="multiple-sites-and-intercompany-considerations"></a>Vairāku vietu un starpuzņēmumu apsvērumi
 
 Ja konfigurācija tiks veikta vietā vai pat uzņēmumā, kas atšķiras no vietas vai uzņēmuma, kurā notiks ražošana, tiks izveidots MK un maršruts un tie tiks nodoti piegādātāja vietai piegādātāja uzņēmumā. Preces variants tiks izlaists visos uzņēmumos, kas piedalās piegādes ķēdē.
 
-
-
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

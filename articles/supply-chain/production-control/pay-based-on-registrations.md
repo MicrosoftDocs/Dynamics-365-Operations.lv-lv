@@ -1,12 +1,10 @@
 ---
 title: Apmaksa atbilstoši reģistrācijām
-description: Šajā tēmā ir paskaidrots, kā tiek aprēķināta apmaksa, pamatojoties uz nodarbinātaisu reģistrācijām.
+description: Šajā tēmā ir paskaidrots, kā tiek aprēķināta apmaksa, pamatojoties uz nodarbināto reģistrācijām.
 author: johanhoffmann
-manager: tfehr
 ms.date: 03/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgCalcApproveWeekView, JmgProdStatusListPagePayrollCostDetails, JmgPayCountTable, JmgPayStatConfig, JmgOvertimeSlize, JmgPayAgreementOverride, JmgPayCountSum, JmgPayAdjustSetup, JmgPayAdjustCostType, JmgPayEmployee, JmgMESBreak, JmgPayAddTable, JmgPayAddTransSelectTransId, JmgPayrollCostDetailsPart, jmgProdStatusListPagePayrollCosts, JmgPayrollCostPart, JmgPayEvents, JmgTermRegPayStatSetup, JmgPayStatGroup, JmgPayAddTrans, JmgPayStatTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 98ca6f7713b2f605a49a97d391fb8485bea78c4b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 58ff2629c2894e85ca5529df5f995ffa5273de67e1c22564f5f9911ea86fbd95
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966384"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715726"
 ---
 # <a name="pay-based-on-registrations"></a>Apmaksa atbilstoši reģistrācijām
 
@@ -41,7 +39,7 @@ ms.locfileid: "4966384"
 
 ## <a name="the-use-of-flex-time"></a>Brīvā režīma izmantošana
 
-Brīvā režīma periodi tiek iestatīti laika profilos, kuri tiek izmantoti laika un apmeklētības aprēķināšanai. Pastāv divi brīvā režīma profila tipi: **Brīvais režīms +** un **Brīvais režīms -**. Kad nodarbinātais reģistrē laiku brīvā režīma + periodā, nodarbinātā brīvā režīma bilance tiek palielināta, pievienojot nostrādāto stundu skaitu. Nodarbinātais nesaņem nekādu kompensāciju par stundām, kas nostrādātas brīvā režīma + periodā. Tomēr nodarbinātais var paņemt brīvu laiku brīvā režīma - periodos, kompensējot to ar stundām no sava brīvā režīma bilances. Tāpēc brīvā režīma periodos reģistrētais brīvais laiks sistēmā tiek uzskatīts par kavējumu.
+Brīvā režīma periodi tiek iestatīti laika profilos, kuri tiek izmantoti laika un apmeklētības aprēķināšanai. Pastāv divi brīvā režīma profila tipi: **Brīvais režīms +** un **Brīvais režīms -**. Kad nodarbinātais reģistrē laiku brīvā režīma + periodā, nodarbinātā brīvā režīma bilance tiek palielināta, pievienojot nostrādāto stundu skaitu. Nodarbinātais nesaņem nekādu kompensāciju par stundām, kas nostrādātas brīvā režīma + periodā. Tomēr nodarbinātais var paņemt atvaļinājumu brīvā režīma - periodos, kompensējot to ar stundām no sava brīvā režīma bilances. Tāpēc brīvā režīma periodos reģistrētais brīvais laiks sistēmā tiek uzskatīts par kavējumu.
 
 ## <a name="scenarios-based-on-flex-periods"></a>Scenāriji, kuru pamatā ir brīvā režīma periodi
 
@@ -49,25 +47,25 @@ Tālāk ir aprakstīti divi scenāriji, kuru pamatā ir brīvā režīma profils
 
 ### <a name="flex-profile-for-one-workday"></a>Brīvā režīma profils vienai darbdienai
 
-| Profila tips  | Sākšana    | Beigt      | diena;     |
+| Profila tips  | Sākums    | Beigas      | diena;     |
 |---------------|----------|----------|---------|
-| Virsstundas     | 00:00 | 06:00 | Pirmdienās  |
-| Brīvais režīms +         | 06:00 | 07:00 | Pirmdienās  |
-| Ierašanās laiks      | 07:00 | 07:00 | Pirmdienās  |
-| Standarta laiks | 07:00 | 14:30 | Pirmdienās  |
-| Brīvais režīms-         | 14:30 | 15:30 | Pirmdienās  |
-| Aiziešanas laiks     | 15:30 | 15:30 | Pirmdienās  |
-| Virsstundas     | 15:30 | 06:00 | Otrdienās |
+| Virsstundas     | 00.00 | 06.00 | Pirmdiena  |
+| Brīvais režīms +         | 06.00 | 07.00 | Pirmdiena  |
+| Ierašanās laiks      | 07.00 | 07.00 | Pirmdiena  |
+| Standarta laiks | 07.00 | 14.30 | Pirmdiena  |
+| Brīvais režīms-         | 14.30 | 15.30 | Pirmdiena  |
+| Aiziešanas laiks     | 15.30 | 15.30 | Pirmdiena  |
+| Virsstundas     | 15.30 | 06.00 | Otrdiena |
 
 ### <a name="scenario-1-a-worker-registers-clock-in-during-a-flex-period-and-clock-out-during-a-flex--period"></a>1. scenārijs: nodarbinātais reģistrē ierašanās laiku brīvā režīma + periodā un aiziešanas laiku brīvā režīma - periodā
 
 Tālāk ir attēlotas nodarbinātā dienas laikā veiktās reģistrācijas.
 
-| Žurnāla reģistrācijas tips | Sākšana    | Beigt      |
+| Žurnāla reģistrācijas tips | Sākums    | Beigas      |
 |---------------------------|----------|----------|
-| Ierašanās laiks                  | 06:30 | 06:30 |
-| Ražošanas darbs            | 06:30 | 14:45 |
-| Aiziešanas laiks                 | 14:45 | 14:45 |
+| Ierašanās laiks                  | 06.30 | 06.30 |
+| Ražošanas darbs            | 06.30 | 14.45 |
+| Aiziešanas laiks                 | 14.45 | 14.45 |
 
 Nodarbinātā dienas laikā veiktās reģistrācijas tiek aprēķinātas un pārsūtītas apmaksāšanai lapā **Apstiprināt** (**Laiks un apmeklētība** &gt; **Pārskatīt un apstiprināt** &gt; **Apstiprināt**). Pēc reģistrāciju aprēķināšanas rezultātus var skatīt cilnē **Laiki**. 
 
@@ -79,15 +77,15 @@ Lai izprastu šo scenāriju, skatiet tālāk norādītos laukus.
 
 #### <a name="calculation-of-flex"></a>Brīvā režīma + aprēķins
 
-Saskaņā ar brīvā režīma profilu laiks starp plkst. 06:00 un plkst. 07:00 ir brīvā režīma + periods. Tādēļ, ja nodarbinātais ierodas plkst. 06:30, viņš nopelna 0,5 stundas. Šis laika apjoms tiek pievienots nodarbinātā brīvā režīma bilancei.
+Saskaņā ar brīvā režīma profilu laiks starp plkst. 06.00 un plkst. 07.00 ir brīvā režīma + periods. Tādēļ, ja nodarbinātais ierodas plkst. 06:30, viņš nopelna 0,5 stundas. Šis laika apjoms tiek pievienots nodarbinātā brīvā režīma bilancei.
 
 #### <a name="calculation-of-flex-"></a>Brīvā režīma - aprēķins
 
-Saskaņā ar brīvā režīma profilu brīvā režīma - periods sākas plkst. 14:30 un beidzas plkst. 15:30. Tādēļ, ja nodarbinātais reģistrē aiziešanas laiku plkst. 14:45 PM, brīvā režīma - periodā atlikušās 45 minūtes (0,75 stundas) tiek reģistrētas kā apmaksājamais laiks, un šis laika apjoms tiek atskaitīts no nodarbinātā brīvā režīma bilances. Šīs 45 minūtes tiek pieskaitītas pie apmaksājamā laika, jo nodarbinātajam tiks piešķirta apmaksa par atlikušajām 45 minūtēm brīvā režīma - periodā. Ja nodarbinātais brīvā režīma - perioda laikā nav darbā, šīs 45 minūtes tiks atskaitītas no viņa brīvā režīma bilances.
+Saskaņā ar brīvā režīma profilu brīvā režīma - periods sākas plkst. 14.30 un beidzas plkst. 15.30. Tādēļ, ja nodarbinātais reģistrē aiziešanas laiku plkst. 14.45, brīvā režīma - periodā atlikušās 45 minūtes (0,75 stundas) tiek reģistrētas kā apmaksājamais laiks, un šis laika apjoms tiek atskaitīts no nodarbinātā brīvā režīma bilances. Šīs 45 minūtes tiek pieskaitītas pie apmaksājamā laika, jo nodarbinātajam tiks piešķirta apmaksa par atlikušajām 45 minūtēm brīvā režīma - periodā. Ja nodarbinātais brīvā režīma - perioda laikā nav darbā, šīs 45 minūtes tiks atskaitītas no viņa brīvā režīma bilances.
 
 #### <a name="calculation-of-time"></a>Laika aprēķins
 
-Laiks tiek aprēķināts kā laiks starp reģistrēto ierašanās un aiziešanas laiku, t. i., laiks no plkst. 06:30 līdz plkst. 14:45 ir vienāds ar 8,25 stundām.
+Laiks tiek aprēķināts kā laiks starp reģistrēto ierašanās un aiziešanas laiku, t. i., laiks no plkst. 06.30 līdz plkst. 14.45 ir vienāds ar 8,25 stundām.
 
 #### <a name="calculation-of-pay-time"></a>Apmaksājamā laika aprēķins
 
@@ -95,20 +93,20 @@ Apmaksājamais laiks ir laiks, par ko nodarbinātajam tiek piešķirta apmaksa. 
 
 | Laiks              | Reģistrācijas tips | Apmaksājamais laiks (stundas)      |
 |-------------------|-------------------|-----------------------|
-| 6:30–7:00 | Brīvais režīms +             | 0                     |
-| 7:00–14:45 | Standarta laiks     | 7,75                  |
-| 14:45–15:30 | Brīvais režīms-             | 0,75 (kavējuma periods) |
+| 6.30–7.00 | Brīvais režīms +             | 0                     |
+| 7.00–14.45 | Standarta laiks     | 7,75                  |
+| 14.45–15.30 | Brīvais režīms-             | 0,75 (kavējuma periods) |
 |                   | Summa             | 8,50                  |
 
 ### <a name="scenario-2-a-worker-works-during-the-whole-flex--period-and-also-works-overtime"></a>2. scenārijs: nodarbinātais pavada darbā visu brīvā režīma - periodu un strādā arī virsstundas
 
 Tālāk ir attēlotas nodarbinātā dienas laikā veiktās reģistrācijas.
 
-| Žurnāla reģistrācijas tips | Sākšana    | Beigt      |
+| Žurnāla reģistrācijas tips | Sākums    | Beigas      |
 |---------------------------|----------|----------|
-| Ierašanās laiks                  | 06:30 | 06:30 |
-| Ražošanas darbs            | 06:30 | 17:00 |
-| Aiziešanas laiks                 | 17:00 | 17:00 |
+| Ierašanās laiks                  | 06.30 | 06.30 |
+| Ražošanas darbs            | 06.30 | 17.00 |
+| Aiziešanas laiks                 | 17.00 | 17.00 |
 
 Pēc žurnāla reģistrāciju aprēķināšanas lapā **Apstiprināt** varat apskatīt aprēķina rezultātu cilnē **Laiki**. Lai izprastu šo scenāriju, skatiet tālāk norādītos laukus.
 
@@ -118,7 +116,7 @@ Pēc žurnāla reģistrāciju aprēķināšanas lapā **Apstiprināt** varat aps
 
 #### <a name="calculation-of-flex"></a>Brīvā režīma + aprēķins
 
-Saskaņā ar brīvā režīma profilu laiks starp plkst. 06:00 un plkst. 07:00 ir brīvā režīma + periods. Tādēļ, ja nodarbinātais reģistrē ierašanās laiku plkst. 06:30, viņš nopelna 0,5 stundas brīvā režīma + laika, kas tiek pievienots brīvā režīma bilancei.
+Saskaņā ar brīvā režīma profilu laiks starp plkst. 06.00 un plkst. 07.00 ir brīvā režīma + periods. Tādēļ, ja nodarbinātais reģistrē ierašanās laiku plkst. 06.30, viņš nopelna 0,5 stundas brīvā režīma + laika, kas tiek pievienots brīvā režīma bilancei.
 
 #### <a name="calculation-of-flex-"></a>Brīvā režīma - aprēķins
 
@@ -126,7 +124,7 @@ Tā kā nodarbinātais strādā brīvā režīma - periodā, brīvais režīms�
 
 #### <a name="calculation-of-time"></a>Laika aprēķins
 
-Laiks tiek aprēķināts kā laiks starp reģistrēto ierašanās laiku plkst. 06:30 un aiziešanas laiku plkst. 17:00, un tas ir vienāds ar 10,50 stundām.
+Laiks tiek aprēķināts kā laiks starp reģistrēto ierašanās laiku plkst. 06.30 un aiziešanas laiku plkst. 17.00, un tas ir vienāds ar 10,50 stundām.
 
 #### <a name="calculation-of-pay-time"></a>Apmaksājamā laika aprēķins
 
@@ -136,10 +134,10 @@ Laiks tiek aprēķināts kā laiks starp reģistrēto ierašanās laiku plkst. 
 
 | Laiks               | Reģistrācijas tips | Apmaksājamais laiks (stundas) |
 |--------------------|-------------------|------------------|
-| 6:30–7:00  | Brīvais režīms +             | 0                |
-| 7:00–14:30  | Standarta laiks     | 7,50             |
-| 14:30–15:30  | Brīvais režīms-             | 1,00             |
-| 15:30–17:00 | Virsstundas          | 1.50             |
+| 6.30–7.00  | Brīvais režīms +             | 0                |
+| 7.00–14.30  | Standarta laiks     | 7,50             |
+| 14.30–15.30  | Brīvais režīms-             | 1,00             |
+| 15.30–17.00 | Virsstundas          | 1.50             |
 |                    | Summa             | 10,00            |
 
 ### <a name="generation-of-pay-items"></a>Apmaksas elementu ģenerēšana
@@ -170,9 +168,9 @@ Lai konfigurētu sistēmu skaidri nošķirt standarta laiku un virsstundas, virs
 
 Lapā **Aprēķina parametri** atlasiet **Virsstundas** kā profila specifikācijas veidu un iestatiet opciju **Apmaksājamais laiks** uz **Nē**, kā parādīts šeit.
 
-| Reģ. specifikācija | Profila specifikācijas tips | Aprēķins   |     | Apmaksāts         |     |
+| Reģ. specifikācija | Profila specifikācijas tips | Aprēķins   | Iestatījums | Apmaksāts         | Iestatījums |
 |--------------------|----------------------------|---------------|-----|--------------|-----|
-| Darba laiks       | Virsstundas                   | Standarta laiks | Jā | Apmaksājamais laiks     | Nav  |
+| Darba laiks       | Virsstundas                   | Standarta laiks | Jā | Apmaksājamais laiks     | Nē  |
 |                    |                            | Apmaksājamais laiks      | Jā | Apmaksājamās virsstundas | Jā |
 
 Pēc aprēķina parametru pielāgošanas tiks ģenerēti tālāk norādītie apmaksas elementi.
@@ -194,7 +192,7 @@ Lapā **Profili** (**Laiks un apmeklētība** &gt; **Iestatījumi** &gt; **Laika
 
 Pārslēgšanās kodus var izmantot, lai ļautu nodarbinātajiem novirzīties no sava profila tipa, mainot uz citu profila tipu. Piemēram, varat atļaut nodarbinātajam pārslēgties no brīvā režīma + laika uz virsstundām. Nodarbinātais var pievienot pārslēgšanās kodu reģistrācijas laikā, vai arī jūs varat reģistrāciju apstiprinātājam piešķirt pārslēgšanās koda pievienošanas uzdevumu.
 
-Lai pārslēgšanās kodu varētu izmantot, jums tas vispirms ir jādefinē kā netiešās aktivitātes tipu. Pēc tam pārslēgšanās kods ir jāpievieno laika profilam, kas atbilst periodam, kurā vēlaties atļaut profila tipa maiņu. Piemēram, izpildiet tālāk norādītās darbības, lai izveidotu pārslēgšanās kodu, kas ļauj brīvā režīma + periodu no plkst. 06:00 līdz plkst. 07:00 mainīt uz virsstundām.
+Lai pārslēgšanās kodu varētu izmantot, jums tas vispirms ir jādefinē kā netiešās aktivitātes tipu. Pēc tam pārslēgšanās kods ir jāpievieno laika profilam, kas atbilst periodam, kurā vēlaties atļaut profila tipa maiņu. Piemēram, izpildiet tālāk norādītās darbības, lai izveidotu pārslēgšanās kodu, kas ļauj brīvā režīma + periodu no plkst. 06.00 līdz plkst. 07.00 mainīt uz virsstundām.
 
 1. Izveidojiet pārslēgšanās kodu ar nosaukumu **OTBCI (Pārvērst brīvā režīma laiku par virsstundām pirms ierašanās laika)**. Atlasiet **Laiks un apmeklētība** &gt; **Pārvaldīt netiešās aktivitātes** &gt; **Netiešās aktivitātes**.
 2. Kolonnā **Pārslēgšanās kods** pievienojiet laika profila brīvā režīma + rindai kodu OTBCI.
@@ -202,23 +200,23 @@ Lai pārslēgšanās kodu varētu izmantot, jums tas vispirms ir jādefinē kā 
 
 Kā piemēru aplūkojiet tālāk norādīto brīvā režīma profilu, kas atbilst darbdienai.
 
-| Profila tips  | Sākšana    | Beigt      | diena;     |
+| Profila tips  | Sākums    | Beigas      | diena;     |
 |---------------|----------|----------|---------|
-| Virsstundas     | 00:00 | 06:00 | Pirmdienās  |
-| Brīvais režīms +         | 06:00 | 07:00 | Pirmdienās  |
-| Ierašanās laiks      | 07:00 | 07:00 | Pirmdienās  |
-| Standarta laiks | 07:00 | 14:30 | Pirmdienās  |
-| Brīvais režīms-         | 14:30 | 15:30 | Pirmdienās  |
-| Aiziešanas laiks     | 15:30 | 15:30 | Pirmdienās  |
-| Virsstundas     | 15:30 | 06:00 | Otrdienās |
+| Virsstundas     | 00.00 | 06.00 | Pirmdiena  |
+| Brīvais režīms +         | 06.00 | 07.00 | Pirmdiena  |
+| Ierašanās laiks      | 07.00 | 07.00 | Pirmdiena  |
+| Standarta laiks | 07.00 | 14.30 | Pirmdiena  |
+| Brīvais režīms-         | 14.30 | 15.30 | Pirmdiena  |
+| Aiziešanas laiks     | 15.30 | 15.30 | Pirmdiena  |
+| Virsstundas     | 15.30 | 06.00 | Otrdiena |
 
 Tālāk ir attēlotas nodarbinātā dienas laikā veiktās reģistrācijas.
 
-| Žurnāla reģistrācijas tips | Sākšana    | Beigt      |
+| Žurnāla reģistrācijas tips | Sākums    | Beigas      |
 |---------------------------|----------|----------|
-| Ierašanās laiks                  | 06:30 | 06:30 |
-| Ražošanas darbs            | 06:30 | 14:45 |
-| Aiziešanas laiks                 | 17:00 | 17:00 |
+| Ierašanās laiks                  | 06.30 | 06.30 |
+| Ražošanas darbs            | 06.30 | 14.45 |
+| Aiziešanas laiks                 | 17.00 | 17.00 |
 
 Pēc pārsūtīšanas tiek ģenerēti tālāk norādītie apmaksas elementi.
 
@@ -237,7 +235,7 @@ Lapā **Apstiprināt** atsauciet pārsūtīšanu un pēc tam izmantojiet izvēln
 |               |          |           | Summa | 107,50     |
 
 > [!NOTE]
-> Kad lietojat pārslēgšanās kodu, virsstundas tiek palielinātas par 0,5 stundām — no 1,50 uz 2,00. 0,5 stundas ir no plkst. 6:30 līdz plkst. 07:00 reģistrētā brīvā režīma + laika konversija uz virsstundām.
+> Kad lietojat pārslēgšanās kodu, virsstundas tiek palielinātas par 0,5 stundām — no 1,50 uz 2,00. 0,5 stundas ir no plkst. 6.30 līdz plkst. 07.00 reģistrētā brīvā režīma + laika konversija uz virsstundām.
 
 ### <a name="breaks"></a>Pārtraukumi
 
@@ -259,25 +257,25 @@ Pārtraukuma darbības var iestatīt kā **Apmaksāts** vai **Neapmaksāts**. Ap
 
 Kā piemēru aplūkojiet tālāk norādīto laika profilu, kurā ir iekļauts neapmaksāts pusdienu pārtraukums.
 
-| Profila tips  | Sākšana    | Beigt      | diena;     |
+| Profila tips  | Sākums    | Beigas      | diena;     |
 |---------------|----------|----------|---------|
-| Virsstundas     | 00:00 | 06:00 | Pirmdienās  |
-| Brīvais režīms +         | 06:00 | 07:00 | Pirmdienās  |
-| Ierašanās laiks      | 07:00 | 07:00 | Pirmdienās  |
-| Standarta laiks | 07:00 | 12:00 | Pirmdienās  |
-| Pārtraukums         | 12:00 | 12:30 | Pirmdienās  |
-| Standarta laiks | 12:30 | 14:30 | Pirmdienās  |
-| Brīvais režīms-         | 14:30 | 15:30 | Pirmdienās  |
-| Aiziešanas laiks     | 15:30 | 15:30 | Pirmdienās  |
-| Virsstundas     | 15:30 | 06:00 | Otrdienās |
+| Virsstundas     | 00.00 | 06.00 | Pirmdiena  |
+| Brīvais režīms +         | 06.00 | 07.00 | Pirmdiena  |
+| Ierašanās laiks      | 07.00 | 07.00 | Pirmdiena  |
+| Standarta laiks | 07.00 | 12.00 | Pirmdiena  |
+| Pārtraukums         | 12.00 | 12.30 | Pirmdiena  |
+| Standarta laiks | 12.30 | 14.30 | Pirmdiena  |
+| Brīvais režīms-         | 14.30 | 15.30 | Pirmdiena  |
+| Aiziešanas laiks     | 15.30 | 15.30 | Pirmdiena  |
+| Virsstundas     | 15.30 | 06.00 | Otrdiena |
 
 Tālāk ir attēlotas nodarbinātā dienas laikā veiktās reģistrācijas.
 
-| Žurnāla reģistrācijas tips | Sākšana    | Beigt      |
+| Žurnāla reģistrācijas tips | Sākums    | Beigas      |
 |---------------------------|----------|----------|
-| Ierašanās laiks                  | 06:30 | 06:30 |
-| Ražošanas darbs            | 06:30 | 14:45 |
-| Aiziešanas laiks                 | 17:00 | 17:00 |
+| Ierašanās laiks                  | 06.30 | 06.30 |
+| Ražošanas darbs            | 06.30 | 14.45 |
+| Aiziešanas laiks                 | 17.00 | 17.00 |
 
 Pēc žurnāla reģistrāciju aprēķināšanas lapā **Apstiprināt** varat apskatīt aprēķina rezultātu cilnē **Laiki**. Lai izprastu šo scenāriju, skatiet tālāk norādītos laukus.
 
@@ -292,33 +290,33 @@ Pēc žurnāla reģistrāciju aprēķināšanas lapā **Apstiprināt** varat aps
 
 Kā piemēru aplūkojiet tālāk norādīto laika profilu, kurā nav iekļauti plānotie pārtraukumi.
 
-| Profila tips  | Sākšana    | Beigt      | diena;     |
+| Profila tips  | Sākums    | Beigas      | diena;     |
 |---------------|----------|----------|---------|
-| Virsstundas     | 00:00 | 06:00 | Pirmdienās  |
-| Brīvais režīms +         | 06:00 | 07:00 | Pirmdienās  |
-| Ierašanās laiks      | 07:00 | 07:00 | Pirmdienās  |
-| Standarta laiks | 07:00 | 14:30 | Pirmdienās  |
-| Brīvais režīms-         | 14:30 | 15:30 | Pirmdienās  |
-| Aiziešanas laiks     | 15:30 | 15:30 | Pirmdienās  |
-| Virsstundas     | 15:30 | 06:00 | Otrdienās |
+| Virsstundas     | 00.00 | 06.00 | Pirmdiena  |
+| Brīvais režīms +         | 06.00 | 07.00 | Pirmdiena  |
+| Ierašanās laiks      | 07.00 | 07.00 | Pirmdiena  |
+| Standarta laiks | 07.00 | 14.30 | Pirmdiena  |
+| Brīvais režīms-         | 14.30 | 15.30 | Pirmdiena  |
+| Aiziešanas laiks     | 15.30 | 15.30 | Pirmdiena  |
+| Virsstundas     | 15.30 | 06.00 | Otrdiena |
 
 Tālāk ir attēlotas nodarbinātā dienas laikā veiktās reģistrācijas.
 
-| Žurnāla reģistrācijas tips | Sākšana    | Beigt      |
+| Žurnāla reģistrācijas tips | Sākums    | Beigas      |
 |---------------------------|----------|----------|
-| Ierašanās laiks                  | 06:30 | 06:30 |
-| Ražošanas darbs            | 06:30 | 17:00 |
-| Pārtraukums                     | 12:03 | 12:32 |
-| Aiziešanas laiks                 | 17:00 | 17:00 |
+| Ierašanās laiks                  | 06.30 | 06.30 |
+| Ražošanas darbs            | 06.30 | 17.00 |
+| Pārtraukums                     | 12.03 | 12.32 |
+| Aiziešanas laiks                 | 17.00 | 17.00 |
 
 Aprēķinot reģistrācijas, tiek aprēķināts aktivitāšu laiks.
 
-| Žurnāla reģistrācijas tips | Sākšana    | Beigt      | Laiks  |
+| Žurnāla reģistrācijas tips | Sākums    | Beigas      | Laiks  |
 |---------------------------|----------|----------|-------|
-| Ierašanās laiks                  | 06:30 | 06:30 |       |
-| Ražošanas darbs            | 06:30 | 17:00 | 10,00 |
-| Pārtraukums                     | 12:03 | 12:32 | 0,50  |
-| Aiziešanas laiks                 | 17:00 | 17:00 |       |
+| Ierašanās laiks                  | 06.30 | 06.30 |       |
+| Ražošanas darbs            | 06.30 | 17.00 | 10,00 |
+| Pārtraukums                     | 12.03 | 12.32 | 0,50  |
+| Aiziešanas laiks                 | 17.00 | 17.00 |       |
 
 > [!NOTE]
 > Pārtraukuma laiks darbojas paralēli aktivitātes laikam (šajā piemērā — ražošanas darbam). Šī funkcionalitāte vienmēr tiek izmantota pārtraukuma aktivitātēm. Aprēķinot reģistrācijas, pārtraukuma laiks tiek atņemts no aktivitātes laika. Šajā gadījumā ražošanas darba ilgums ir 10,50 stundas, bet aprēķinātais laiks ir 10, jo no aktivitātes laika ir atņemts 0,5 stundu pārtraukuma laiks.
@@ -343,24 +341,24 @@ Apmaksātā pārtraukuma apmaksas likmi nosaka apmaksas līgumos noteiktais pār
 
 Kā piemēru aplūkojiet tālāk norādīto laika profilu.
 
-| Profila tips  | Sākšana    | Beigt      | diena;     |
+| Profila tips  | Sākums    | Beigas      | diena;     |
 |---------------|----------|----------|---------|
-| Virsstundas     | 00:00 | 06:00 | Pirmdienās  |
-| Brīvais režīms +         | 06:00 | 07:00 | Pirmdienās  |
-| Ierašanās laiks      | 07:00 | 07:00 | Pirmdienās  |
-| Standarta laiks | 07:00 | 14:30 | Pirmdienās  |
-| Brīvais režīms-         | 14:30 | 15:30 | Pirmdienās  |
-| Aiziešanas laiks     | 15:30 | 15:30 | Pirmdienās  |
-| Virsstundas     | 15:30 | 06:00 | Otrdienās |
+| Virsstundas     | 00.00 | 06.00 | Pirmdiena  |
+| Brīvais režīms +         | 06.00 | 07.00 | Pirmdiena  |
+| Ierašanās laiks      | 07.00 | 07.00 | Pirmdiena  |
+| Standarta laiks | 07.00 | 14.30 | Pirmdiena  |
+| Brīvais režīms-         | 14.30 | 15.30 | Pirmdiena  |
+| Aiziešanas laiks     | 15.30 | 15.30 | Pirmdiena  |
+| Virsstundas     | 15.30 | 06.00 | Otrdiena |
 
 Tālāk ir attēlotas nodarbinātā dienas laikā veiktās reģistrācijas.
 
-| Žurnāla reģistrācijas tips | Sākšana    | Beigt      | Laiks |
+| Žurnāla reģistrācijas tips | Sākums    | Beigas      | Laiks |
 |---------------------------|----------|----------|------|
-| Ierašanās laiks                  | 07:00 | 07:00 |      |
-| Ražošanas darbs            | 07:00 | 15:00 | 7,5  |
-| Pārtraukums (apmaksāts)              | 12:00 | 12:30 | 0,5  |
-| Aiziešanas laiks                 | 15:00 | 15:00 |      |
+| Ierašanās laiks                  | 07.00 | 07.00 |      |
+| Ražošanas darbs            | 07.00 | 15.00 | 7,5  |
+| Pārtraukums (apmaksāts)              | 12.00 | 12.30 | 0,5  |
+| Aiziešanas laiks                 | 15.00 | 15.00 |      |
 
 Šajā piemērā standarta laikam ir iestatīts apmaksas tips **1201**, un apmaksas līgumā noteiktā apmaksas likme ir **10**. Apmaksātā pārtraukuma apmaksas tips ir **1301** un apmaksas likme ir **8**. Pārsūtot reģistrācijas, tiek ģenerēti tālāk norādītie apmaksas elementi.
 
@@ -387,13 +385,13 @@ Ražošanas pasūtījumiem un projektiem izmantotā stundas izmaksu likme tiek a
 
 Kā piemēru aplūkojiet tālāk norādītās reģistrācijas, kurās ir izmantots tāds pats profils, kā iepriekšējā piemērā.
 
-| Žurnāla reģistrācijas tips | Sākšana    | Beigt      | Laiks |
+| Žurnāla reģistrācijas tips | Sākums    | Beigas      | Laiks |
 |---------------------------|----------|----------|------|
-| Ierašanās laiks                  | 07:00 | 07:00 |      |
-| Apstrāde (pasūtījums: 4711)     | 07:00 | 11:00 | 4.    |
-| Apstrāde (pasūtījums: 4712)     | 11:00 | 15:00 | 3,50 |
-| Pārtraukums (apmaksāts)              | 12:00 | 12:30 | 0,50 |
-| Aiziešanas laiks                 | 15:00 | 15:00 |      |
+| Ierašanās laiks                  | 07.00 | 07.00 |      |
+| Apstrāde (pasūtījums: 4711)     | 07.00 | 11.00 | 4.    |
+| Apstrāde (pasūtījums: 4712)     | 11.00 | 15.00 | 3,50 |
+| Pārtraukums (apmaksāts)              | 12.00 | 12.30 | 0,50 |
+| Aiziešanas laiks                 | 15.00 | 15.00 |      |
 
 Kad reģistrāciju pārsūtīšana ir pabeigta, tiek ģenerētas tālāk norādītās pārsūtītās reģistrācijas.
 
@@ -456,32 +454,32 @@ Parasti nodarbinātie tiek uzskatīti par darbā neesošiem, ja viņi nav darbā
 
 Tālāk aprakstītajos scenārijos ir parādīti apmaksas elementi un apstiprināmie ieraksti, kas tiek ģenerēti nodarbinātajiem atbilstoši viņu veiktajām reģistrācijām. Visi scenāriji ir veidoti atbilstoši tālāk norādītajam laika profilam.
 
-| Profila tips  | Sākšana    | Beigt      | diena;     |
+| Profila tips  | Sākums    | Beigas      | diena;     |
 |---------------|----------|----------|---------|
-| Virsstundas     | 00:00 | 06:00 | Pirmdienās  |
-| Brīvais režīms +         | 06:00 | 07:00 | Pirmdienās  |
-| Ierašanās laiks      | 07:00 | 07:00 | Pirmdienās  |
-| Standarta laiks | 07:00 | 14:30 | Pirmdienās  |
-| Brīvais režīms-         | 14:30 | 15:30 | Pirmdienās  |
-| Aiziešanas laiks     | 15:30 | 15:30 | Pirmdienās  |
-| Virsstundas     | 15:30 | 06:00 | Otrdienās |
+| Virsstundas     | 00.00 | 06.00 | Pirmdiena  |
+| Brīvais režīms +         | 06.00 | 07.00 | Pirmdiena  |
+| Ierašanās laiks      | 07.00 | 07.00 | Pirmdiena  |
+| Standarta laiks | 07.00 | 14.30 | Pirmdiena  |
+| Brīvais režīms-         | 14.30 | 15.30 | Pirmdiena  |
+| Aiziešanas laiks     | 15.30 | 15.30 | Pirmdiena  |
+| Virsstundas     | 15.30 | 06.00 | Otrdiena |
 
 ### <a name="scenario-1-the-worker-clocks-in-later-than-planned"></a>1. scenārijs: nodarbinātais reģistrē ierašanās laiku vēlāk, nekā plānots
 
-Nodarbinātais reģistrē ierašanās laiku plkst. 08:30. Tā kā viņa plānotais ierašanās laiks ir plkst. 07:00, viņš kavē darbu 1,50 stundas. Tā kā 1,50 stundas tiek uzskatītas par kavējuma laiku, nodarbinātajam tiek piedāvāts atlasīt kavējuma kodu. Nodarbinātais aiziet no darba plkst. 15:30, kas ir plānotais aiziešanas laiks. Kad nodarbinātā reģistrācijas tiek aprēķinātas un apstiprinātas, kavējuma reģistrācija, kā arī nodarbinātā kopā ar ierašanās laika reģistrāciju atlasītais kavējuma kods parādās laika periodam no plkst. 07:00 līdz plkst. 08:30.
+Nodarbinātais reģistrē ierašanās laiku plkst. 08.30. Tā kā viņa plānotais ierašanās laiks ir plkst. 07.00, viņš kavē darbu 1,50 stundas. Tā kā 1,50 stundas tiek uzskatītas par kavējuma laiku, nodarbinātajam tiek piedāvāts atlasīt kavējuma kodu. Nodarbinātais aiziet no darba plkst. 15.30, kas ir plānotais aiziešanas laiks. Kad nodarbinātā reģistrācijas tiek aprēķinātas un apstiprinātas, kavējuma reģistrācija, kā arī nodarbinātā kopā ar ierašanās laika reģistrāciju atlasītais kavējuma kods parādās laika periodam no plkst. 07.00 līdz plkst. 08.30.
 
-Laika profilā var konfigurēt reģistrācijas tipu **Ierašanās**, lai ļautu nodarbinātajiem reģistrēt ierašanās laiku nedaudz vēlāk. Piemēram, ja iestatāt 5 minūšu kavējuma toleranci, nodarbinātais tiks aicināts atlasīt kavējuma kodu tikai tad, ja viņš ieradīsies vēlāk par 07:05.
+Laika profilā var konfigurēt reģistrācijas tipu **Ierašanās**, lai ļautu nodarbinātajiem reģistrēt ierašanās laiku nedaudz vēlāk. Piemēram, ja iestatāt 5 minūšu kavējuma toleranci, nodarbinātais tiks aicināts atlasīt kavējuma kodu tikai tad, ja viņš ieradīsies vēlāk par plkst. 07.05.
 
 Tā kā šajā gadījumā nodarbinātā kavējumam nav pamatota iemesla, viņš atlasa kavējuma kodu, kas atbilst neatļautam kavējumam. Kavējuma kods tiek uzskatīts par atbilstošu neatļautam kavējumam, ja kavējuma kodam atbilstošajai kavējumu grupai ir iespējots virsstundu skaita samazinājuma iestatījums. Lai iestatītu šo iestatījumu, atlasiet **Laiks un apmeklētība** &gt; **Iestatījumi** &gt; **Grupas** &gt; **Kavējumu grupas** un pēc tam atzīmējiet izvēles rūtiņu **Samazināt virsstundu skaitu**.
 
 Tālāk ir aprakstīts, kā pēc aprēķināšanas lapā **Apstiprināt** parādās nodarbinātā dienas laikā veiktās reģistrācijas.
 
-| Žurnāla reģistrācijas tips         | Sākšana    | Beigt      | Laiks |
+| Žurnāla reģistrācijas tips         | Sākums    | Beigas      | Laiks |
 |-----------------------------------|----------|----------|------|
-| Kavējums (neatļauts — ierašanās darbā vēlu) | 07:00 | 08:30 | 1.5  |
-| Ierašanās laiks                          | 08:30 | 08:30 |      |
-| Ražošanas darbs                    | 07:30 | 15:30 | 7.0  |
-| Aiziešanas laiks                         | 15:30 | 15:30 |      |
+| Kavējums (neatļauts — ierašanās darbā vēlu) | 07.00 | 08.30 | 1.5  |
+| Ierašanās laiks                          | 08.30 | 08.30 |      |
+| Ražošanas darbs                    | 07.30 | 15.30 | 7.0  |
+| Aiziešanas laiks                         | 15.30 | 15.30 |      |
 
 Tālāk ir norādīts pēc reģistrāciju pārsūtīšanas iegūtais apmaksas elements.
 
@@ -491,16 +489,16 @@ Tālāk ir norādīts pēc reģistrāciju pārsūtīšanas iegūtais apmaksas el
 
 ### <a name="scenario-2-the-worker-clocks-out-before-the-planned-clock-out-time-during-a-standard-time-period"></a>2. scenārijs: nodarbinātais aiziet no darba pirms plānotā aiziešanas laika standarta laika periodā
 
-Nodarbinātais reģistrē ierašanās laiku plkst. 7:00 un aiziešanas laiku reģistrē agri, plkst. 13:00. Tā kā plkst. 13:00 ir pirms plānotā aiziešanas laika plkst. 15:30, un plkst. 13:00 ir standarta laika periodā, nodarbinātais tiek aicināts atlasīt kavējuma kodu. Nodarbinieks atlasa kavējuma kodu, kas atbilst ārsta apmeklējumam un ir definēts kā atļauts kavējums. Atļautā kavējuma apmaksas likme ir definēta apmaksas līgumos — reģistrācijas tipam **Kavējumi** (**Laiks un apmeklētība** &gt; **Iestatījumi** &gt; **Alga** &gt; **Apmaksas līgumi**).
+Nodarbinātais reģistrē ierašanās laiku plkst. 7.00 un aiziešanas laiku reģistrē agri, plkst. 13.00. Tā kā plkst. 13.00 ir pirms plānotā aiziešanas laika plkst. 15.30, un plkst. 13.00 ir standarta laika periodā, nodarbinātais tiek aicināts atlasīt kavējuma kodu. Nodarbinieks atlasa kavējuma kodu, kas atbilst ārsta apmeklējumam un ir definēts kā atļauts kavējums. Atļautā kavējuma apmaksas likme ir definēta apmaksas līgumos — reģistrācijas tipam **Kavējumi** (**Laiks un apmeklētība** &gt; **Iestatījumi** &gt; **Alga** &gt; **Apmaksas līgumi**).
 
 Tālāk ir aprakstīts, kā pēc aprēķināšanas lapā **Apstiprināt** parādās nodarbinātā dienas laikā veiktās reģistrācijas.
 
-| Žurnāla reģistrācijas tips              | Sākšana    | Beigt      | Laiks |
+| Žurnāla reģistrācijas tips              | Sākums    | Beigas      | Laiks |
 |----------------------------------------|----------|----------|------|
-| Ierašanās laiks                               | 07:00 | 07:00 |      |
-| Ražošanas darbs                         | 07:00 | 13:00 | 4,0  |
-| Aiziešanas laiks                              | 13:00 | 13:00 |      |
-| Kavējums (atļauts — ārsta apmeklējums) | 13:00 | 15:30 | 3.5  |
+| Ierašanās laiks                               | 07.00 | 07.00 |      |
+| Ražošanas darbs                         | 07.00 | 13.00 | 4,0  |
+| Aiziešanas laiks                              | 13.00 | 13.00 |      |
+| Kavējums (atļauts — ārsta apmeklējums) | 13.00 | 15.30 | 3.5  |
 
 Tālāk ir norādīts pēc reģistrāciju pārsūtīšanas iegūtais apmaksas elements.
 
@@ -510,15 +508,15 @@ Tālāk ir norādīts pēc reģistrāciju pārsūtīšanas iegūtais apmaksas el
 
 ### <a name="scenario-3-the-worker-clocks-out-before-the-planned-clock-out-time-during-a-flex--period"></a>3. scenārijs: nodarbinātais aiziet no darba pirms plānotā aiziešanas laika brīvā režīma - periodā
 
-Nodarbinātais reģistrē ierašanās laiku plkst. 07:00 un aiziešanas laiku plkst. 14:15, kas ir plānotajā brīvā režīma - periodā. Laiks starp faktisko aiziešanas laiku un plānoto aiziešanas laiku netiek uzskatīts par kavējumu, un nodarbinātais netiek aicināts atlasīt kavējuma kodu. Summa tiek atskaitīta no nodarbinātā brīvā režīma bilances, un nodarbinātajam tiek piešķirta apmaksa par atlikušo brīvā režīma - periodu — no plkst. 14:15 līdz plkst. 15:30.
+Nodarbinātais reģistrē ierašanās laiku plkst. 07.00 un aiziešanas laiku plkst. 14.15, kas ir plānotajā brīvā režīma - periodā. Laiks starp faktisko aiziešanas laiku un plānoto aiziešanas laiku netiek uzskatīts par kavējumu, un nodarbinātais netiek aicināts atlasīt kavējuma kodu. Summa tiek atskaitīta no nodarbinātā brīvā režīma bilances, un nodarbinātajam tiek piešķirta apmaksa par atlikušo brīvā režīma - periodu — no plkst. 14.15 līdz plkst. 15.30.
 
 Tālāk ir aprakstīts, kā pēc aprēķināšanas lapā **Apstiprināt** parādās nodarbinātā dienas laikā veiktās reģistrācijas.
 
-| Žurnāla reģistrācijas tips | Sākšana    | Beigt      | Laiks |
+| Žurnāla reģistrācijas tips | Sākums    | Beigas      | Laiks |
 |---------------------------|----------|----------|------|
-| Ierašanās laiks                  | 07:00 | 07:00 |      |
-| Ražošanas darbs            | 07:00 | 14:15 | 7,25 |
-| Aiziešanas laiks                 | 14:15 | 14:15 |      |
+| Ierašanās laiks                  | 07.00 | 07.00 |      |
+| Ražošanas darbs            | 07.00 | 14.15 | 7,25 |
+| Aiziešanas laiks                 | 14.15 | 14.15 |      |
 
 Tālāk ir norādīts pēc reģistrāciju pārsūtīšanas iegūtais apmaksas elements.
 
@@ -528,18 +526,18 @@ Tālāk ir norādīts pēc reģistrāciju pārsūtīšanas iegūtais apmaksas el
 
 ### <a name="scenario-4-the-worker-clocks-in-late-and-clocks-out-after-the-planned-clock-out-time-during-an-overtime-period"></a>4. scenārijs: nodarbinātais ierodas darbā vēlu un aiziet no darba pēc plānotā aiziešanas laika virsstundu periodā
 
-Nodarbinātais reģistrē ierašanās laiku vēlu, plkst. 09:30, un, lai kompensētu vēlo ierašanos, viņš turpina strādāt virsstundu periodā un reģistrē aiziešanas laiku plkst. 17:00. Tā kā nodarbinātais ieradās darbā vēlu un savu vēlo ierašanos kompensēja, strādājot ilgāk, uzņēmums nevēlas nodarbinātajam piešķirt apmaksu par virsstundām, kuras nodarbinātais ir pavadījis darbā starp plānoto aiziešanas laiku plkst. 15:30 un faktisko aiziešanas laiku plkst. 17:00, pat ja šis periods laika profilā ir definēts kā virsstundas.
+Nodarbinātais reģistrē ierašanās laiku vēlu, plkst. 09.30, un, lai kompensētu vēlo ierašanos, viņš turpina strādāt virsstundu periodā un reģistrē aiziešanas laiku plkst. 17.00. Tā kā nodarbinātais ieradās darbā vēlu un savu vēlo ierašanos kompensēja, strādājot ilgāk, uzņēmums nevēlas nodarbinātajam piešķirt apmaksu par virsstundām, kuras nodarbinātais ir pavadījis darbā starp plānoto aiziešanas laiku plkst. 15.30 un faktisko aiziešanas laiku plkst. 17.00, pat ja šis periods laika profilā ir definēts kā virsstundas.
 
 Šajā scenārijā var iestatīt kavējuma kodu virsstundu samazināšanai atbilstoši jebkura neatļauta kavējuma laikam, kas darbiniekam ir reģistrēts tajā pašā dienā. Lai samazinātu virsstundu skaitu atbilstoši neatļauta kavējuma laikam, atlasiet **Laiks un apmeklētība** &gt; **Iestatījumi** &gt; **Grupas** &gt; **Kavējumu grupas** un atzīmējiet izvēles rūtiņu **Samazināt virsstundu skaitu**.
 
 Tālāk ir aprakstīts, kā pēc aprēķināšanas lapā **Apstiprināt** parādās nodarbinātā dienas laikā veiktās reģistrācijas.
 
-| Žurnāla reģistrācijas tips         | Sākšana    | Beigt      | Laiks |
+| Žurnāla reģistrācijas tips         | Sākums    | Beigas      | Laiks |
 |-----------------------------------|----------|----------|------|
-| Kavējums (neatļauts — ierašanās darbā vēlu) | 07:00 | 09:30 | 1.5  |
-| Ierašanās laiks                          | 09:30 | 09:30 |      |
-| Ražošanas darbs                    | 09:30 | 17:00 | 7,5  |
-| Aiziešanas laiks                         | 17:30 | 17:30 |      |
+| Kavējums (neatļauts — ierašanās darbā vēlu) | 07.00 | 09.30 | 1.5  |
+| Ierašanās laiks                          | 09.30 | 09.30 |      |
+| Ražošanas darbs                    | 09.30 | 17.00 | 7,5  |
+| Aiziešanas laiks                         | 17.30 | 17.30 |      |
 
 Ja atlasītajam kavējuma kodam ir atzīmēta izvēles rūtiņa **Samazināt virsstundu skaitu**, apmaksa par virsstundām tiek samazināta atbilstoši nodarbinātā reģistrētajam neatļautā kavējuma laikam. Šajā gadījumā pēc reģistrāciju pārsūtīšanas tiek ģenerēti tālāk norādītie apmaksas elementi.
 
@@ -548,7 +546,7 @@ Ja atlasītajam kavējuma kodam ir atzīmēta izvēles rūtiņa **Samazināt vir
 | Standarta laiks | 1201     | 9,00      | 10   |
 | Virsstundas      | 1301     | 0,5       | 15.   |
 
-Šajā piemērā 1,5 stundu neatļautais kavējums, no plkst. 07:00 līdz plkst. 09:30, tiek atņemts no 2,0 stundu virsstundu skaita, no plkst. 15:30 līdz plkst. 17:30. Reģistrācijas aprēķināšanas rezultāts ir 1,5 stundu standarta laiks un 0,5 stundu virsstundas.
+Šajā piemērā 1,5 stundu neatļautais kavējums, no plkst. 07.00 līdz plkst. 09.30, tiek atņemts no 2,0 stundu virsstundu skaita, no plkst. 15.30 līdz plkst. 17.30. Reģistrācijas aprēķināšanas rezultāts ir 1,5 stundu standarta laiks un 0,5 stundu virsstundas.
 
 Turpretim, ja izvēles rūtiņa **Samazināt virsstundu skaitu** atlasītajam kavējuma kodam nav atzīmēta, nodarbinātajam tiek piešķirta apmaksa par virsstundām, pat ja nodarbinātais ir ieradies darbā vēlu un šis kavējums ir reģistrēts kā neatļauts kavējums. Šajā gadījumā pēc reģistrāciju pārsūtīšanas tiek ģenerēti tālāk norādītie apmaksas elementi.
 
@@ -561,17 +559,17 @@ Turpretim, ja izvēles rūtiņa **Samazināt virsstundu skaitu** atlasītajam ka
 
 Tālāk norādītajā piemērā ir parādīts, kā var samazināt nodarbinātā brīvā režīma bilanci, pārveidojot kavējuma periodu par brīvā režīma - periodu.
 
-Nodarbinātais reģistrē ierašanās laiku plkst. 07:00 un reģistrē aiziešanas laiku plkst. 13:00 Nodarbinātais ir noslēdzis vienošanos ar vadītāju, ka piektdienās drīkst doties mājās agrāk, ja šīs stundas tiek atņemtas no nodarbinātā brīvā režīma bilances. Kad nodarbinātais reģistrē aiziešanas laiku plkst. 13:00, nodarbinātais tiek aicināts atlasīt kavējuma kodu, jo atlikušās darbdienas daļas kavējuma periods nav plānotajā brīvā režīma - periodā. Lai pārveidotu atlikušo darbdienas daļu par brīvā režīma - periodu, nodarbinātais var atlasīt kavējuma kodu, kas ir iestatīts nodarbinātā brīvā režīma bilances samazināšanai.
+Nodarbinātais reģistrē ierašanās laiku plkst. 07.00 un reģistrē aiziešanas laiku plkst. 13.00 Darbiniekam ir līgums, ka viņš var doties mājās nedēļas nogalē, ja viņš atskaita šīs stundas no brīvā režīma konta. Kad nodarbinātais reģistrē aiziešanas laiku plkst. 13.00, viņš tiek aicināts atlasīt kavējuma kodu, jo atlikušās darbdienas daļas kavējuma periods nav plānotajā brīvā režīma - periodā. Lai pārveidotu atlikušo darbdienas daļu par brīvā režīma - periodu, nodarbinātais var atlasīt kavējuma kodu, kas ir iestatīts nodarbinātā brīvā režīma bilances samazināšanai.
 
 Lai samazinātu brīvā režīma stundu bilanci nodarbinātajiem, kuri reģistrē kavējumu darbdienā, atlasiet **Laiks un apmeklētība** &gt; **Iestatījumi** &gt; **Grupas** &gt; **Kavējumu grupas** un atzīmējiet izvēles rūtiņu **Samazināt brīvo režīmu**.
 
 Tālāk ir aprakstīts, kā pirms aprēķināšanas lapā **Apstiprināt** parādās nodarbinātā dienas laikā veiktās reģistrācijas.
 
-| Žurnāla reģistrācijas tips | Sākšana    | Beigt      | Laiks |
+| Žurnāla reģistrācijas tips | Sākums    | Beigas      | Laiks |
 |---------------------------|----------|----------|------|
-| Ierašanās laiks                  | 07:00 | 07:00 |      |
-| Ražošanas darbs            | 07:00 | 13:00 | 6,0  |
-| Aiziešanas laiks                 | 13:00 | 13:00 |      |
+| Ierašanās laiks                  | 07.00 | 07.00 |      |
+| Ražošanas darbs            | 07.00 | 13.00 | 6,0  |
+| Aiziešanas laiks                 | 13.00 | 13.00 |      |
 
 Ja nodarbinātais atzīmē neatļautam kavējumam atbilstošu kavējuma kodu, pēc reģistrācijas pārsūtīšanas iegūtais apmaksas elements izskatīsies, kā norādīts tālāk.
 
@@ -579,13 +577,13 @@ Ja nodarbinātais atzīmē neatļautam kavējumam atbilstošu kavējuma kodu, p�
 |---------------|----------|-----------|------|
 | Standarta laiks | 1201     | 6,00      | 10   |
 
-Ja nodarbinātais atzīmē atļautam kavējumam atbilstošu kavējuma kodu un šis kavējuma kods ir iestatīts brīvā režīma bilances samazināšanai, pēc reģistrāciju pārsūtīšanas iegūtaie apmaksas elementi izskatīsies, kā norādīts tālāk.
+Ja nodarbinātais atzīmē atļautam kavējumam atbilstošu kavējuma kodu un šis kavējuma kods ir iestatīts brīvā režīma bilances samazināšanai, pēc reģistrāciju pārsūtīšanas iegūtie apmaksas elementi izskatīsies, kā norādīts tālāk.
 
 | Algas tips     | Apmaksas tips | Apmaksas vienības | Norma |
 |---------------|----------|-----------|------|
 | Standarta laiks | 1201     | 8,50      | 10   |
 
-Šajā gadījumā nodarbinātā brīvā režīma bilance tiek samazināta atbilstoši laikam starp faktisko aiziešanas laiku un plānoto aiziešanas laiku (t. i., 2,5 stundas, no plkst. 13:00 līdz plkst. 15:30).
+Šajā gadījumā nodarbinātā brīvā režīma bilance tiek samazināta atbilstoši laikam starp faktisko aiziešanas laiku un plānoto aiziešanas laiku (t. i., 2,5 stundas, no plkst. 13.00 līdz plkst. 15.30).
 
 > [!NOTE]
 > Nav ieteicams kavējuma kodam atlasīt abas izvēles rūtiņas **Samazināt brīvo režīmu** un **Samazināt virsstundu skaitu**, jo šie iestatījumi atņems neatļautā kavējuma stundu skaitu no nodarbinātā virsstundu skaita un vienlaikus samazinās nodarbinātā brīvā režīma bilanci.
@@ -598,3 +596,6 @@ Ja nodarbinātais darbdienā neierodas darbā un šim nodarbinātajam nav nevien
 - Automātiski ievietot kavējumu
 
 Aprēķinot ikdienas reģistrācijas nodarbinātajam, kuram ir iespējots brīvā režīma laiks, kā noklusējuma kavējuma kods tiek izmantots laukā **Automātiski ievietot brīvo režīmu -** norādītais kavējuma kods. Ja nodarbinātajam nav iespējots brīvā režīma laiks, tiek izmantots laukā **Automātiski ievietot kavējumu** norādītais kavējuma kods. Ja uzņēmumā ir gan tādi nodarbinātie, kuriem ir iespējots brīvā režīma laiks, gan tādi nodarbinātie, kuriem nav iespējots brīvā režīma laiks, ir jāiestata abi parametri.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,47 +1,51 @@
 ---
 title: Kandidāta pieņemšana darbā, izmantojot personāla atlasi
 description: Šī procedūra ļauj personāla atlases darbiniekam pieņemt darbā kandidātu, kurš iesniedzis pieteikumu, izmantojot noteiktu personāla atlases projektu.
-author: andreabichsel
-manager: AnnBe
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 01/10/2022
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMApplication, HcmWorkerNewWorker, HcmPositionLookup, HcmWorker, HcmPosition, HcmPositionDateManager,  DefaultDashboard
 audience: Application User
-ms.reviewer: anbichse
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 120fc00de7b66490c491d70b38aae79190de708f
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: 2a6ecee078b18b12769a14cadc7e0182bf03d704
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797287"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075377"
 ---
 # <a name="hiring-candidate-through-recruiting"></a>Kandidāta pieņemšana darbā, izmantojot personāla atlasi
 
 [!include [banner](../../includes/banner.md)]
 
-Šī procedūra ļauj personāla atlases darbiniekam pieņemt darbā kandidātu, kurš iesniedzis pieteikumu, izmantojot noteiktu personāla atlases projektu. Kad nolīgstat kandidātu, izmantojot personāla atlases projektu, tiks izveidots jauns darbinieka ieraksts un kandidāta ieraksta statuss būs Nodarbināts. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF. Lai pabeigtu šo procedūru, pārejiet uz Personāla vadība > Personāla atlase > Pieteikumi > Pieteikumi 
+> [!IMPORTANT]
+> Šajā tēmā atzīmētā funkcionalitāte šobrīd ir pieejama Personāla klientiem finanšu infrastruktūrā.  
 
-1. Atlasiet ārējā kandidāta pieteikumu
-2. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-3. Noklikšķiniet uz Pieteikuma statuss.
-4. Noklikšķiniet uz Pieņemt darbā jaunu darbinieku.
-5. Laukā Nodarbinātības sākuma datums ievadiet datumu un laiku.
-6. Laukā Amats noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-7. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-8. Ievadiet datumu un laiku laukā Norīkojuma sākums.
-9. Noklikšķiniet uz Pieņemt darbā jaunu darbinieku.
-10. Izvērsiet nodarbinātības vēstures papildinformāciju.
-11. Izvērsiet pašreizējo amatu papildinformāciju.
-12. Izvērsiet nodarbinātības vēstures papildinformāciju.
-13. Izvērsiet pašreizējo amatu papildinformāciju.
-14. Izvērsiet vai sakļaujiet sadaļu Adreses.
-15. Izvērsiet vai sakļaujiet sadaļu Kontaktinformācija.
-16. Izvērsiet vai sakļaujiet sadaļu Personiskā informācija.
 
+Šī procedūra ļauj personāla atlases darbiniekam pieņemt darbā kandidātu, kurš iesniedzis pieteikumu, izmantojot noteiktu personāla atlases projektu. Pieņemot darbā kandidātu, izmantojot personāla atlases projektu, tiek izveidots jauns darbinieka ieraksts, un kandidāta ieraksta statuss **ir Nodarbināts**. The **USMF** lai izveidotu šo procedūru, tika izmantots demonstrācijas datu uzņēmums.
+
+1. Iet uz **Cilvēku resursi \> Rekrutēšana \> Lietojumprogrammas \> Lietojumprogrammas**. 
+2. Atlasiet ārēja kandidāta pieteikumu.
+3. Sarakstā atlasiet saiti atlasītajā rindā.
+4. Izvēlieties **Pieteikuma statuss**.
+5. Atlasiet **Pieņemt darbā jaunu darbinieku**.
+6. Laukā **Nodarbinātības sākuma datums** ievadiet datumu un laiku.
+7. Laukā **Pozīcija** atlasiet nolaižamo bultiņu, lai atvērtu uzmeklēšanu.
+8. Sarakstā atlasiet saiti atlasītajā rindā.
+9. Laukā **Piešķiršanas sākums** ievadiet datumu un laiku.
+10. Atlasiet **Pieņemt darbā jaunu darbinieku**.
+11. Izvērsiet **nodarbinātības vēstures** notikumu.
+12. Izvērsiet **pašreizējo pozīciju** notikumu.
+13. Izvērsiet **nodarbinātības vēstures** notikumu.
+14. Izvērsiet **pašreizējo pozīciju** notikumu.
+15. Izvērsiet vai sakļaujiet **sadaļu Adreses**.
+16. Izvērsiet vai sakļaujiet **sadaļu Kontaktinformācija**.
+17. Izvērsiet vai sakļaujiet **sadaļu Personiskā informācija**.
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

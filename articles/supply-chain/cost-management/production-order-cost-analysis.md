@@ -2,11 +2,9 @@
 title: Ražošanas pasūtījuma izmaksu analīze
 description: Šajā rakstā ir sniegta informācija par izmaksu analizēšanu, ko var veikt par pabeigtiem un pašreizējiem ražošanas pasūtījumiem. Izmantojot lapu Cenu aprēķināšana vai novērtētās un Novērtētās un faktiski grāmatotās izmaksas, analizēt var novērtētās un faktiskās izmaksas. Var skatīt informācija par katra komponenta krājuma, maršruta operācijas un netiešo izmaksu novērtētajām un faktiskajām izmaksām (un daudzumu).
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCostTrans, ProdCalcTrans, ProdTableJour, ProdTableListPage, ProdSetupHistoricalCost
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0858e0e9ed0f09a47954274a05f6da1a2537c4a3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 1b0690a683cdefaeb5e441d3e2ea467a680a8fc1dd0905b6a94fd72bcbf36e1e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967287"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734263"
 ---
 # <a name="production-order-cost-analysis"></a>Ražošanas pasūtījuma izmaksu analīze
 
@@ -43,7 +41,7 @@ Novirzes norāda ar ražošanas krājumu saistīto reģistrēto ražošanas darb
 
 Šajā diagrammā redzamas četras novirzes, kas attiecas uz ražošanas pasūtījuma faktisko izmaksu un aprēķināto izmaksu starpību krājumu izmaksu ierakstā ražošanas pasūtījuma izpildes beigās. 
 
-![Novirzes, kas norāda uz atšķirībām pabeigtā ražošanas pasūtījumā](./media/control.jpg) 
+![Novirzes, kas norāda uz atšķirībām pabeigtā ražošanas pasūtījumā.](./media/control.jpg) 
 
 Ražošanas novirzes varat analizēt, izmantojot lapu **Novirze** vai pārskatu **Ražošanas novirze**. Izmantojiet displeja opcijas, lai apskatītu detalizētas novirzes pēc krājuma un operāciju resursa vai pēc izmaksu grupas. Izmaksu sadalījuma politika krājumu parametros nosaka, vai novirzes tiek izsekotas pēc izmaksu grupas. Lai skatītu apkopojumu par novirzēm, var izmantot displeja opciju **viena**, **vairākas** un **kopsumma**. Detalizēta informācija par novirzēm var palīdzēt izprast katras noviržu avotu. Lai prognozētu novirzes pirms ražošanas pasūtījuma beigām, analizējiet pārskatā **Novērtētās un faktiski grāmatotās izmaksas** pieejamo detalizēto informāciju.
 
@@ -57,10 +55,12 @@ Atsevišķi pārskati sniedz informāciju par katru darbības veidu. Izmantojiet
 -   **Nepabeigtās ražošanas pabeigtie krājumi** – šajā pārskatā ir uzskaitīti pašreizējie ražošanas pasūtījumi un transakcijas no norādītā transakcijas datuma, kas reģistrētas kā pabeigtas.
 
 
-<a name="additional-resources"></a>Papildu resursi
---------
+## <a name="additional-resources"></a>Papildu resursi
 
 [Ražošanas noviržu kopējie avoti](common-sources-of-production-variances.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,25 +2,22 @@
 title: Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Finance
 description: Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt no Dynamics 365 Finance.
 author: roschlom
-manager: AnnBe
-ms.date: 12/07/2020
+ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
-ms.author: sericks
+ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a406db6d78302fa05596a58fffb7464222d4bfea
-ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
+ms.openlocfilehash: 5a8f5dbc52eab78697de0d3a48d8cceb42c36540
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4689498"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836917"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Finance
 
@@ -34,13 +31,35 @@ ms.locfileid: "4689498"
 Šis saraksts ir izveidots, lai jūs savā plānošanā varētu ņemt vērā, kuri līdzekļi tiek noņemti un kļūst novecojuši. 
 
 > [!NOTE]
-> Detalizēta informācija par Finance and Operations programmu objektiem ir pieejama tēmā [Tehniskās atsauces pārskati](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Varat salīdzināt dažādās šo pārskatu versijas, lai noskaidrotu, kuri objekti ir mainīti vai noņemti katrā Finance and Operations programmu versijā.
+> Detalizēta informācija par Finance and Operations programmu objektiem ir pieejama tēmā [Tehniskās atsauces pārskati](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61). Varat salīdzināt dažādās šo pārskatu versijas, lai noskaidrotu, kuri objekti ir mainīti vai noņemti katrā Finance and Operations programmu versijā.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10017-release"></a>Noņemtie vai novecojuši līdzekļi programmas Finance 10.0.17 laidienā
+
+### <a name="lcs-repository-as-a-storage-option-for-electronic-reporting-configurations"></a>LCS repozitorijs kā elektronisko pārskatu konfigurāciju krātuves opcija
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Aizstāts ar jauno Regulatory Configuration Services (RCS) globālo repozitoriju |
+| **Vai ir aizstāts ar citu līdzekli?**   | Jā |
+| **Ietekmētie produkta apgabali**         | Dynamics 365 Finance, Supply Chain Management un Project Operations preces|
+| **Izvietošanas iespēja**              | Visu |
+| **Statuss**                         | Novecojis: no 2022. gada 1. aprīļa mēs plānojam vairs neatbalstīt Microsoft Dynamics Lifecycle Services (LCS) repozitoriju kā Elektronisko pārskatu sniegšanas (ER) konfigurāciju krātuves opciju. Jaunās Microsoft ER konfigurācijas tiks publicētas lejupielādei tikai no globālā repozitorija. Globālajai repozitorijam var piekļūt no Dynamics 365 precēm un RCS. Papildinformāciju skatiet [ER konfigurāciju importēšana no RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md). |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10016-release"></a>Noņemtie vai novecojuši līdzekļi programmas Finance 10.0.16 laidienā
 
+### <a name="vat-declaration-cz-and-control-statement-export-cz-electronic-reporting-formats-for-czech-republic"></a>“PVN deklarācija (CZ)” un “Kontroles pārskata eksportēšana (CZ)” elektronisko pārskatu veidošanas formātiem Čehijas Republikai
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Aizstāts ar jauniem formātiem |
+| **Vai ir aizstāts ar citu līdzekli?**   | Jā |
+| **Ietekmētie produkta apgabali**         | Pieteikums |
+| **Izvietošanas iespēja**              | Visu |
+| **Statuss**                         | Novecojis: līdz 2022. gada 22. janvārim mēs plānojam vairs neatbalstīt “PVN deklarāciju (CZ)”, “Kontroles pārskata eksportēšanu (CZ)” elektronisko pārskatu (ER) veidošanas formātiem. Jauni PVN deklarācijas XML (CZ), PVN deklarācijas Excel (CZ), PVN kontroles pārskata XML (CZ) formāti tiek ieviesti saskaņā ar “Nodokļu deklarācijas” modeli. |
+
 ### <a name="ledger-transaction-export-format-be-electronic-reporting-format-and-respective-ledger-transaction-export-be-model-for-belgium"></a>“Virsgrāmatas darījumu eksportēšanas formāts (BE)” elektronisko pārskatu formāts un attiecīgais “Virsgrāmatas darbību eksportēšana (BE)” modelis Beļģijai
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Aizstāts ar jaunu ER formātu sadaļā “Standarta audita faila (SAF-T)” modelis.  |
 | **Vai ir aizstāts ar citu līdzekli?**   | Jā |
@@ -50,7 +69,7 @@ ms.locfileid: "4689498"
 
 ### <a name="vat-100-report-for-the-united-kingdom-in-ssrs-format"></a>“PVN 100” pārskats Apvienotajai Karalistei SSRS formātā
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Aizstāts ar jauno ER formātu — “PVN deklarācijas Excel (UK)” formāts sadaļā “Nodokļu deklarācijas modelis”.  |
 | **Vai ir aizstāts ar citu līdzekli?**   | Jā |
@@ -62,7 +81,7 @@ ms.locfileid: "4689498"
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Internet Explorer 11 atbalsts Dynamics 365 ir novecojis
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Sākot ar 2020. gada decembri, Microsoft Internet Explorer 11 atbalsts visām Dynamics 365 precēm ir novecojis, un Internet Explorer 11 netiks atbalstīts pēc 2021. gada augusta.<br><br>Tas ietekmēs klientus, kas izmanto Dynamics 365 preces, kas paredzētas izmantošanai ar Internet Explorer 11 interfeisu. No 2021. gada augusta Internet Explorer 11 šīs Dynamics 365 preces netiks atbalstītas. |
 | **Vai ir aizstāts ar citu līdzekli?**   | Mēs rekomendējam, lai klienti pāriet uz Microsoft Edge.|
@@ -74,7 +93,7 @@ ms.locfileid: "4689498"
 
 ### <a name="polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>Poļu SSRS pārskati: pārdošanas PVN reģistrs, iepirkumu PVN reģistrs, ES kopsavilkuma PVN reģistrs — Līdzekļu atsauce PL-00014
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Nav likumīgi nepieciešama.  |
 | **Vai ir aizstāts ar citu līdzekli?**   | Jā (programmas Excel formāts standarta audita failam ar PVN deklarāciju — JPK_VDEK) |
@@ -86,7 +105,7 @@ ms.locfileid: "4689498"
 
 ### <a name="norwegian-standard-main-accounts"></a>Norvēģijas standarta galvenie konti
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Pārveidot  |
 | **Vai ir aizstāts ar citu līdzekli?**   | Jā (aizstāts ar ER formāta programmu raksturīgiem parametriem) |
@@ -97,7 +116,8 @@ ms.locfileid: "4689498"
 ## <a name="features-removed-or-deprecated-in-the-finance-1007-release"></a>Noņemtie vai novecojuši līdzekļi programmas Finance 10.0.7 laidienā
 
 ### <a name="workflow-request-change-dialog-box-no-longer-includes-user-selection-drop-down-list"></a>Darbplūsmas pieprasījuma maiņas dialoglodziņā vairs nav lietotāja atlases nolaižamā saraksta
-|   |  |
+
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Mainīts uz līdzekli ar kontu grupu atlasi.  |
 | **Vai ir aizstāts ar citu līdzekli?**   | Jā |
@@ -107,3 +127,6 @@ ms.locfileid: "4689498"
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Iepriekšēji paziņojumi par noņemtiem vai novecojušiem līdzekļiem
 Lai uzzinātu vairāk par līdzekļiem, kas iepriekšējos laidienos ir noņemti vai novecojuši, skatiet [Noņemti vai novecojuši līdzekļi iepriekšējos laidienos](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

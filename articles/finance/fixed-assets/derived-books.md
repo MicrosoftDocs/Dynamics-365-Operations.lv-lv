@@ -1,10 +1,12 @@
 ---
 title: Atvasinātās grāmatas
 description: Šajā rakstā ir sniegts pārskats par atvasināto grāmatu funkcionalitāti.
-author: moaamer
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBookTable
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: roschlom
 ms.custom: 3401
 ms.assetid: 862d6450-187b-497f-9822-cce45f2c65a9
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 32abfce013d0daa208138cf698b2abd1f96462f6
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
-ms.translationtype: MT
+ms.openlocfilehash: 911bb476a696facfad9dec177261821724d2bfe0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674506"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994919"
 ---
 # <a name="derived-books"></a>Atvasinātās grāmatas
 
@@ -45,6 +47,3 @@ Papildu informāciju skatiet rakstā [Grāmatošana ar atvasinātām grāmatām]
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Atvieglojumu plāna izveide
 description: Iestatiet atvieglojumu plānus Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bcbf4c1a7f136e5563bf1210b6c09228dad95dea
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7d398da8fa53f39cfbdc3911d5acd0967f0c5d5b
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419500"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464282"
 ---
 # <a name="create-a-benefits-plan"></a>Atvieglojumu plāna izveide
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Šajā rakstā ir parādīts, kā iestatīt atvieglojumu plānus Dynamics 365 Human Resources.
 
@@ -159,3 +161,6 @@ Varat norādīt plāna aprakstu, lai palīdzētu darbiniekiem izvēlēties atvie
 1. Darbvietā **Atvieglojumu pārvaldība**, sadaļā **Plāni** atlasiet **Atvieglojumu plāni**.
 
 2. Atlasiet **Brīvā režīma kredīta programmas**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,26 +1,24 @@
 ---
 title: Kreditoru pievienošana
 description: Šajā tēmā ir aprakstīts jaunu kreditoru pievienošanas process. Tajā ir izskaidrotas darbības, kas šī procesa gaitā ir jāveic lietotājiem ar dažādām lomām.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests, SysUserRequestListPage, VendRequestListPage, VendRequestCompanyProfile
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 081c2e5145a9175ace946e332e299247e706b548
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: c2950cecfaf2c8b19ed14df748810b7d6f926c53
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019883"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566891"
 ---
 # <a name="onboard-vendors"></a>Kreditoru pievienošana
 
@@ -35,7 +33,7 @@ Programmā Microsoft Dynamics 365 Supply Chain Management var pievienot un reģi
 1. **Datu pārvaldība OData** — elementa importēšana — sākotnējais pieprasījums ir potenciālā piegādātāja reģistrācijas pieprasījums. Parasti šis pieprasījums nāk no kāda avota, piemēram, no debitora viesotas vietnes, kas pieļauj anonīmu piekļuvi. Kreditori var reģistrēties, norādot pamatinformāciju, piemēram, kreditora nosaukumu, pamatojumu, organizācijas numuru un kontaktpersonas vārdu un e-pasta adresi. Šie pieprasījumi tiek importēti, izmantojot datu pārvaldības interfeisu.
 2. **Potenciālo piegādātāju reģistrācijas pieprasījumu saraksta lapa** — pamatojoties uz potenciālā piegādātāja reģistrācijas pieprasījumā sniegto informāciju, sagādes speciālists izlemj, vai šis kreditors ir jāpievieno. Sagādes speciālists apskata ienākošo pieprasījumu saraksta lapā **Potenciālo piegādātāju reģistrācijas pieprasījumi**.
 3. **Lietotāja nodrošināšanas darbplūsma** — kad sagādes speciālists ir pārbaudījis ienākošajā pieprasījumā norādīto informāciju un ir izlēmis turpināt pievienošanas procesu, lietotāja pieprasījuma darbplūsma nodrošina jauno lietotāju un nosūta uzaicinājuma e-pasta ziņojumu, lai šo kontaktpersonu pieņemtu kā autentificētu Microsoft Dynamics 365 lietotāju.
-4. **Kreditora reģistrācijas vednis** — piegādātāja kontaktpersonas pierakstās, izmantojot jauno lietotāja kontu. Šī kontaktpersona izpilda kreditora reģistrācijas vedņa norādījumus, lai sniegtu tādu informāciju kā, piemēram, adreses, biznesa informācija, sagādes kategorijas un atbildes uz aptaujas jautājumiem.
+4. **Kreditora reģistrācijas vednis** — piegādātāja kontaktpersonas pierakstās, izmantojot jauno lietotāja kontu. Viņš izpilda kreditora reģistrācijas vedņa norādījumus, lai sniegtu tādu informāciju kā, piemēram, adreses, biznesa informācija, sagādes kategorijas un atbildes uz aptaujas jautājumiem.
 5. **Apstiprinājuma darbplūsma** — tiek izveidots piegādātāja pieprasījums, kurā ir šī reģistrācijas informācija. Šis piegādātāja pieprasījums tiek iesniegts darbplūsmā un tiek novirzīts pārskatīšanai un apstiprināšanai.
 6. **Kreditora pamatdatu izveidošana un lietotāja lomas modificēšana** — kad piegādātāja pieprasījums ir apstiprināts, tiek izveidots kreditora ieraksts. Kreditora kontaktpersonas lietotāja kontam tiek piešķirtas tiesības uz kreditoru sadarbību, vai šis konts tiek deaktivizēts.
 
@@ -174,3 +172,6 @@ Potenciālā piegādātāja reģistrācijas pieprasījumam izmantojot darbību *
 |         Apstiprināts         |                                                                               Piegādātāja pieprasījums ir apstiprināts.                                                                               |                                                                                                   Tiek izdzēsts potenciālā piegādātāja reģistrācijas pieprasījums, kreditora reģistrācijas vednī ievadītie dati un piegādātāja pieprasījums.                                                                                                    |
 |         Noraidīts         |                                                                               Piegādātāja pieprasījums ir noraidīts.                                                                               |                                                                                                   Tiek izdzēsts potenciālā piegādātāja reģistrācijas pieprasījums, kreditora reģistrācijas vednī ievadītie dati un piegādātāja pieprasījums.                                                                                                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

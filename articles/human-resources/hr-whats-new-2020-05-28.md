@@ -1,31 +1,30 @@
 ---
 title: Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2020. gada 28. maijs)
 description: Šajā tēmā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Human Resources uz 2020. gada 28. maiju.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 00a5881ea88749c8553e4c810fb57070f217b01c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 624201841b512b01daf94d13e3d9fe7c381f5c11b328d57e22fbd73e1066bf88
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419591"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741385"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-28-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2020. gada 28. maijs)
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Human Resources. Izmaiņas attiecas uz būvējuma numuru 8.1.3287. Dažos virsrakstos redzamie numuri iekavās attiecas uz LCS atbalsta numuriem atsaucei.
 
@@ -61,7 +60,7 @@ Tagad varat pievienot pielikumus atvieglojumu reģistrācijas procesa laikā kat
 
 ## <a name="human-resources-application-in-teams"></a>Programma Human Resources programmā Teams
 
-Darbinieki var skatīt un pieprasīt prombūtnes laiku sistēmā Microsoft Teams. Tās var mijiedarboties ar robotu, lai izveidotu atvaļinājumu pieprasījumus. Papildinformāciju skatiet sadaļā [Personāla vadība programms sistēmā Teams](https://go.microsoft.com/fwlink/?linkid=2127841). 
+Darbinieki var skatīt un pieprasīt prombūtnes laiku sistēmā Microsoft Teams. Tās var mijiedarboties ar robotu, lai izveidotu atvaļinājumu pieprasījumus. Papildinformāciju skatiet sadaļā [Personāla vadība programms sistēmā Teams](./hr-admin-teams-leave-app.md). 
 
 ## <a name="leave-suspension"></a>Atvaļinājuma atlikšana
 
@@ -107,6 +106,8 @@ DMF elements tagad ir pieejams uzkrājumu atlikšanai.
 ## <a name="see-also"></a>Skatiet arī
 
 [Jaunumi un izmaiņas programmā Human Resources](hr-admin-whats-new.md)</br>
-[Pārskats par Dynamics 365 Human Resources 2019. gada laidiena 2. kopumu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Pārskats par Dynamics 365 Human Resources 2019. gada laidiena 2. kopumu](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Procesa atjaunināšana](hr-admin-setup-update-process.md)</br>
 [Līdzekļu pārvaldība](hr-admin-manage-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

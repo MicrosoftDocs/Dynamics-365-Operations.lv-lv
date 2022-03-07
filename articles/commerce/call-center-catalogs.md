@@ -2,16 +2,13 @@
 title: Zvanu centra katalogi
 description: Šajā tēmā ir aprakstīta zvanu centram raksturīgā katalogu funkcionalitāte programmā Dynamics 365 Commerce.
 author: josaw1
-manager: AnnBe
 ms.date: 05/15/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, RetailCatalogDetails
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16231
 ms.assetid: f28a827c-3a50-4d5e-83eb-e5a768db70a1
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9abe493746719d2e229ef09c2eb5f436b91b2171
-ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
-ms.translationtype: HT
+ms.openlocfilehash: 6fae877b04fdbd84e1c2508f91bbf53b5412b350c5d2c8978aafb2d7f49783f6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4414197"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742516"
 ---
 # <a name="call-center-catalogs"></a>Zvanu centra katalogi
 
@@ -42,7 +39,7 @@ Tieši uz patērētāju vēstas mārketinga kampaņas ir ļoti koncentrētas uz 
 
 Dodieties uz **Retail un Commerce** \> **Katalogi un preču klāsti** \> **Visi katalogi**, lai konfigurētu savu katalogu.
 
-Kad veidojat jaunu katalogu, vispirms šis katalogs ir jāsaista ar vienu vai vairākiem kanāliem. Tas tiek darīts kopsavilkuma cilnē **Commerce kanāli**, kas atrodas formā **Kataloga iestatīšana**. Noklikšķiniet uz **Pievienot** un atlasiet vienu vai vairākus kanālus. Veidojot katalogu, var izmantot tikai vienumus, kas ir saistīti ar jūsu atlasītā kanāla [preču klāstiem](https://docs.microsoft.com/dynamics365/unified-operations/retail/assortments).
+Kad veidojat jaunu katalogu, vispirms šis katalogs ir jāsaista ar vienu vai vairākiem kanāliem. Tas tiek darīts kopsavilkuma cilnē **Commerce kanāli**, kas atrodas formā **Kataloga iestatīšana**. Noklikšķiniet uz **Pievienot** un atlasiet vienu vai vairākus kanālus. Veidojot katalogu, var izmantot tikai vienumus, kas ir saistīti ar jūsu atlasītā kanāla [preču klāstiem](/dynamics365/unified-operations/retail/assortments).
 
 Lai katalogam pievienotu preces, ir jāizvēlas navigācijas hierarhija. Navigācijas hierarhija atbalsta attiecīgā kataloga kategoriju struktūru. Jums ir jāizvēlas viena no navigācijas hierarhijām, kas ir saistītas ar lapas **Katalogs** kopsavilkuma cilnē **Commerce kanāli** atlasītajiem mazumtirdzniecības kanāliem. Ja navigācijas kanāls iepriekš nebija saistīts ar kanālu, dodieties uz **Retail un Commerce** \> **Kanāla iestatīšana** \> **Kanālu kategorijas un preču īpašības**, lai navigācijas hierarhijas noklusējumu saistītu ar katru no jūsu mazumtirdzniecības kanāliem.
 
@@ -101,3 +98,6 @@ Cilnē **Katalogi** ir pieejamas arī opcijas vērtību **Maksājumu grafiks** u
 ## <a name="additional-notes"></a>Papildu piezīmes
 
 Pašlaik, ja pārdošanas pasūtījumam zvanu centrā tiek lietots kāds avota koda ID, tas tiek izmantots, lai vadītu katalogam raksturīgās cenas, veicināšanas pasākumus, skriptus un papildu pārdošanas/šķērspārdošanas. Sistēma neaizliedz un nenovērš iespēju pārdošanas pasūtījumā pasūtīt preci, kas nav ietverta katalogā. Ja tiek pasūtīts kāds krājums, kas neietilpst katalogā, sistēma vispirms izmanto vērtību **Cenu grupa**, kas krājuma cenai vai veicināšanas pasākumiem ir definēta attiecīgajā zvanu centra kanālā (**Retail un Commerce** \> **Kanāli** \> **Zvanu centri** \> **Visi zvanu centri**). Ja netiek atrasta neviena raksturīgā kanāla cena, šim krājumam tiek izmantota pārdošanas pamatcena.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

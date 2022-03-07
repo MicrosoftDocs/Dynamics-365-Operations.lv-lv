@@ -1,29 +1,26 @@
 ---
 title: Atvēlētie maksājumu termināļi un uzvednes printerim un skaidras naudas atvilknei
 description: Šajā tēmā ir sniegta informācija par iespēju izveidot īpašu maksājumu termināli un pieprasīt lietotājam atlasīt skaidras naudas atvilkni un kvīts printeri.
-author: rubendel
-manager: AnnBe
+author: BrianShook
 ms.date: 05/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
 ms.custom: 141393
 ms.assetid: e23e944c-15de-459d-bcc5-ea03615ebf4c
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 03cb68ede82668523e6970d33df676738e65fd83
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: b955e55271471ac43ff4c2b217c6448b30536e06
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414076"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779774"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Atvēlētie maksājumu termināļi un uzvednes printerim un skaidras naudas atvilknei
 
@@ -35,7 +32,7 @@ ms.locfileid: "4414076"
 
 Mūsdienu mazumtirgotāji meklē veidus, kā racionalizēt izrakstīšanās no tiešsaistes veikala pieredzi. Jaunākās tendences virzībā uz elektronisku izrakstīšanos, izmantojot elektroniskos maksājumus, ne tikai palīdz padarīt iepirkšanas pieredzi raitāku, bet arī samazināt nepieciešamību pēc visām perifērijas ierīcēm, kas pieejamas katram saistītajam veikalam.
 
-Microsoft Dynamics 365 Commerce atbalsta šīs tendences, iespējojot scenāriju, kurā pārdošanas punkta (POS) ierīcei ir piešķirts atvēlēts maksājumu terminālis, kas tai ir visu laiku, bet tam nav sava kvīts printera vai skaidras naudas atvilknes. Kad saistītajiem veikaliem ir jāizdrukā kvīts vai jāpieņem skaidras naudas maksājums, viņiem tiek piedāvāts atlasīt aparatūras staciju, kurā šīs ierīces ir konfigurētas.
+Programma Microsoft Dynamics 365 Commerce atbalsta šīs tendences, iespējojot scenāriju, kurā pārdošanas punkta (POS) ierīcei ir piešķirts atvēlēts maksājumu terminālis, kas tai ir visu laiku, bet tam nav sava kvīts printera vai skaidras naudas atvilknes. Kad saistītajiem veikaliem ir jāizdrukā kvīts vai jāpieņem skaidras naudas maksājums, viņiem tiek piedāvāts atlasīt aparatūras staciju, kurā šīs ierīces ir konfigurētas.
 
 ## <a name="key-terms"></a>Galvenie termini
 
@@ -53,13 +50,13 @@ Microsoft Dynamics 365 Commerce atbalsta šīs tendences, iespējojot scenāriju
 
 Šī funkcionalitāte atbalsta tīklā iespējotus maksājumu termināļus un kvīšu printerus. Varat nodrošināt skaidras naudas atvilknes atbalstu, savienojot skaidras naudas atvilkni ar tīklā iespējoto kvīts printeri, izmantojot d/k portu.
 
-Šīs funkcionalitātes standarta atbalstu nodrošina [Dynamics 365 Payment Connector for Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3). Taču citus maksājumu savienotājus var atbalstīt, izmantojot Commerce programmatūras izstrādes komplektu (SDK) maksājumiem. Atbalstītie kvīts printeri ietver tīklā iespējotus kvīts printerus no Star Micronics un Epson.
+Šīs funkcionalitātes standarta atbalstu nodrošina [Dynamics 365 Payment Connector for Adyen](./dev-itpro/adyen-connector.md?tabs=8-1-3). Taču citus maksājumu savienotājus var atbalstīt, izmantojot Commerce programmatūras izstrādes komplektu (SDK) maksājumiem. Atbalstītie kvīts printeri ietver tīklā iespējotus kvīts printerus no Star Micronics un Epson.
 
 Star Micronics kvīšu printeru iestatīšanai izmantojiet Star Micronics printera utilītu, lai konfigurētu ierīci tā, ka to var izmantot tīklā. Šī utilīta arī nodrošinās ierīces IP adresi.
 
 Epson kvīšu printeru iestatīšanai izmantojiet Epson ePOS-Print utilītu, lai iestatītu ierīci tīkla protokolu izmantošanai.
 
-Papildinformāciju par to, kā iestatīt tīkla perifērās ierīces, skatiet [Tīkla perifēro ierīču atbalsta pārskats](https://go.microsoft.com/fwlink/?linkid=2129965).
+Papildinformāciju par to, kā iestatīt tīkla perifērās ierīces, skatiet [Tīkla perifēro ierīču atbalsta pārskats](./dev-itpro/network-peripherals.md).
 
 ## <a name="set-up-a-dedicated-payment-terminal-and-a-prompt-for-a-printer-and-cash-drawer"></a>Atvēlētā maksājumu termināļa un uzvednes printerim un skaidras naudas atvilknei iestatīšana
 
@@ -78,9 +75,9 @@ Lai iestatītu aparatūras profilu, kas piešķirts reģistram, veiciet tālāk 
 
     | Ierīce | tips | Ierīces nosaukums | Papildu informācija |
     |---|---|---|---|
-    | Printeris | Regress | *Jebkurš* | Ierīces nosaukums ir reģistrjutīgs. **Kvīts profila ID** ir jābūt tādam pašam kā **Kvīts profila ID**, kas ir kartēts uz tīkla printeri, kurš ir iestatīts aparatūras profilā, kas piešķirts aparatūras stacijai kanāla līmenī. |
-    | Naudas kaste | Regress | *Jebkurš* | Ierīces nosaukums ir reģistrjutīgs. Iestatiet opciju **Lietot koplietoto maiņu** uz **Jā**. |
-    | EFT pakalpojums | Adyen | Nav attiecināms | Informāciju par to, ka iestatīt standarta Adyen savienotāju, skatiet [Dynamics 365 Payment Connector for Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3). Citus maksājumu savienotājus var atbalstīt, izmantojot [Commerce programmatūras izstrādes komplektu (SDK) maksājumiem](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/end-to-end-payment-extension). |
+    | Printeris | Tīkls | *Jebkurš* | Ierīces nosaukums ir reģistrjutīgs. **Kvīts profila ID** ir jābūt tādam pašam kā **Kvīts profila ID**, kas ir kartēts uz tīkla printeri, kurš ir iestatīts aparatūras profilā, kas piešķirts aparatūras stacijai kanāla līmenī. |
+    | Naudas kaste | Tīkls | *Jebkurš* | Ierīces nosaukums ir reģistrjutīgs. Iestatiet opciju **Lietot koplietoto maiņu** uz **Jā**. |
+    | EFT pakalpojums | Adyen | Nav attiecināms | Informāciju par to, ka iestatīt standarta Adyen savienotāju, skatiet [Dynamics 365 Payment Connector for Adyen](./dev-itpro/adyen-connector.md?tabs=8-1-3). Citus maksājumu savienotājus var atbalstīt, izmantojot [Commerce programmatūras izstrādes komplektu (SDK) maksājumiem](./dev-itpro/end-to-end-payment-extension.md). |
     | PIN bloks | Tīkls | **MicrosoftAdyenDeviceV001** | Nav. |
 
 5. Sistēmā Dynamics 365 Commerce meklējiet **Reģistri**.
@@ -88,7 +85,7 @@ Lai iestatītu aparatūras profilu, kas piešķirts reģistram, veiciet tālāk 
 7. Piešķiriet reģistram tikko izveidoto aparatūras profilu, kam jāizmanto atvēlētais maksājumu terminālis. Ierīcei, kas ir kartēta ar šo reģistru, jāizmanto Modern POS operētājsistēmai Windows vai Modern POS operētājsistēmai Android.
 8. Atlasiet **Saglabāt**.
 9. Darbību rūts cilnē **Reģistri** atlasiet **Konfigurēt IP adreses**.
-10. Kopsavilkuma cilnē **PIN bloks** ievadiet maksājumu termināļa IP adresi. Informāciju par to, kā iegūt maksājumu termināļa IP adresi, izmantojot Adyen savienotāju, skatiet [Adyen Dynamics 365 Payment Connector for Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3).
+10. Kopsavilkuma cilnē **PIN bloks** ievadiet maksājumu termināļa IP adresi. Informāciju par to, kā iegūt maksājumu termināļa IP adresi, izmantojot Adyen savienotāju, skatiet [Adyen Dynamics 365 Payment Connector for Adyen](./dev-itpro/adyen-connector.md?tabs=8-1-3).
 11. Atlasiet **Saglabāt**.
 
 #### <a name="set-up-a-hardware-profile-for-the-receipt-printer-and-cash-drawer"></a>Aparatūras profila kvīšu printerim un skaidras naudas atvilknei iestatīšana
@@ -103,7 +100,7 @@ Lai iestatītu aparatūras profilu, kas tiek izmantots tīkla kvīšu printera u
     | Ierīce | tips | apraksts | Papildu informācija |
     |---|---|---|---|
     | Printeris | Tīkls | **Epson** vai **Star** | Ierīces nosaukums ir reģistrjutīgs. **Kvīts profila ID** ir jābūt tādam pašam kā **Kvīts profila ID**, kas ir kartēts uz printeri, kurš ir iestatīts aparatūras profilā, kas piešķirts reģistram. |
-    | Naudas kaste | Tīkls | **Epson** vai **Star** | Ierīces nosaukums ir reģistrjutīgs. Iestatiet opciju **Lietot koplietoto maiņu** uz **Jā**. |
+    | Naudas kaste | Regress | **Epson** vai **Star** | Ierīces nosaukums ir reģistrjutīgs. Iestatiet opciju **Lietot koplietoto maiņu** uz **Jā**. |
 
 5. Atlasiet **Saglabāt**.
 
@@ -151,6 +148,9 @@ Saistītie veikali saņem aicinājumu atlasīt aparatūras staciju tikai vienu r
 
 ## <a name="related-articles"></a>Saistītie raksti
 
-- [POS hibrīdprogrammas iestatīšana operētājsistēmā Android un iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp)
-- [Dynamics 365 maksājumu savienotājs pakalpojumam Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
-- [Tīkla perifēro ierīču atbalsta pārskats](https://go.microsoft.com/fwlink/?linkid=2129965)
+- [POS hibrīdprogrammas iestatīšana operētājsistēmā Android un iOS](./dev-itpro/hybridapp.md)
+- [Dynamics 365 maksājumu savienotājs pakalpojumam Adyen](./dev-itpro/adyen-connector.md?tabs=8-1-3)
+- [Tīkla perifēro ierīču atbalsta pārskats](./dev-itpro/network-peripherals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

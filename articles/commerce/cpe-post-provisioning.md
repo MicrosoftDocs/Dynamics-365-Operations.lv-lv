@@ -1,36 +1,31 @@
 ---
-title: Dynamics 365 Commerce novērtējuma vides konfigurācija
-description: Šajā tēmā ir paskaidrots, kā konfigurēt Microsoft Dynamics 365 Commerce novērtējuma vidi, pēc tās nodrošināšanas.
+title: Dynamics 365 Commerce novērtēšanas vides konfigurēšana
+description: Šajā tēmā paskaidrots, kā konfigurēt Microsoft Dynamics 365 Commerce novērtējuma vidi pēc tās nodrošināšanas.
 author: psimolin
-manager: annbe
-ms.date: 07/16/2020
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6a1ae960f0f530104af7bdea9a8fcb78b01571f5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 5883a6e68628d706fa19d7d23b68f17007c32890
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413943"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913731"
 ---
-# <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce novērtējuma vides konfigurācija
+# <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce novērtēšanas vides konfigurēšana
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā konfigurēt Microsoft Dynamics 365 Commerce novērtējuma vidi, pēc tās nodrošināšanas.
-
-## <a name="overview"></a>Pārskats
+Šajā tēmā paskaidrots, kā konfigurēt Microsoft Dynamics 365 Commerce novērtējuma vidi pēc tās nodrošināšanas.
 
 Šajā tēmā minētās procedūras veiciet tikai pēc tam, kad ir nodrošināta Commerce novērtējuma vide. Informāciju par to, kā nodrošināt Commerce novērtējuma vidi, skatiet [Commerce novērtējuma vides nodrošināšana](provisioning-guide.md).
 
@@ -44,6 +39,7 @@ Kad jūsu Commerce novērtējuma vide ir pilnībā nodrošināta, ir jāpabeidz 
 1. No saraksta atlasiet savu vidi.
 1. Vides informācijas labajā pusē atlasiet **Pieteikties vidē**. Jūs tiksiet nosūtīts uz Commerce galveno biroju.
 1. Pārliecinieties, ka ir atlasīta **USRT** juridiskā persona (augšējā labajā stūrī).
+2. Dodieties uz **Commerce parametri > Konfigurācijas parametri un** pārliecinieties, vai **productSearch.UseAzureSearch** ir iestatīts kā **patiess**. Ja šī ieraksta nav, varat pievienot šo ierakstu un palaist **kanālu datu bāzes > pilnu** sinhronizāciju ar jūsu e-komercijas vietni saistītajai Commerce Scale vienībai.
 
 Pēc nodrošināšanas darbību laikā Commerce Headquarters, pārliecinieties, ka **USRT** juridiskā persona vienmēr ir atlasīta.
 
@@ -111,6 +107,12 @@ Lai iespējotu darbus pakalpojumā Commerce, izpildiet tālāk aprakstītās dar
     1. Darbību rūtī noklikšķiniet uz cilnes **Pakešuzdevums**, pēc tam atlasiet **Mainīt statusu**.
     1. Atlasiet **Atcelt** un pēc tam atlasiet **Labi**.
 
+1. Ja darba statuss ir **Ieturēts**, rīkojieties šādi:
+
+    1. Atlasiet ierakstu.
+    1. Darbību rūtī noklikšķiniet uz cilnes **Pakešuzdevums**, pēc tam atlasiet **Mainīt statusu**.
+    1. Atlasiet **Gaida** un pēc tam atlasiet **Labi**.
+
 Pēc izvēles var arī iestatīt atkārtošanās intervālu uz vienu (1) minūti šādiem darbiem:
 
 * Apstrādāt mazumtirdzniecības pasūtījuma e-pasta paziņojuma darbu
@@ -133,7 +135,7 @@ Lai pakalpojumā Commerce palaistu pilnu datu sinhronizāciju, veiciet Commerce 
 Lai vietnē veiktu pārbaudes transakcijas, varat izmantot tālāk minēto pārbaudes kredītkartes informāciju.
 
 - **Kartes numurs:** 4111-1111-1111-1111
-- **Beigu datums:** 10/20
+- **Beigu datums:** 10/30
 - **Kartes verificēšanas vērtības (CVV) kods:** 737
 
 > [!IMPORTANT]
@@ -144,6 +146,9 @@ Lai vietnē veiktu pārbaudes transakcijas, varat izmantot tālāk minēto pārb
 Kad nodrošināšanas un konfigurēšanas darbības ir pabeigtas, varat sākt izmantot novērtējuma vidi. Izmantojiet Commerce vietnes veidotāja URL, lai dotos uz autorēšanas pieredzi. Izmantojiet Commerce vietnes URL, lai dotos uz mazumtirdzniecības klienta vietnes pieredzi.
 
 Lai konfigurētu neobligātos līdzekļus savai Commerce novērtējuma videi, skatiet [Commerce novērtējuma vides neobligāto līdzekļu konfigurācija](cpe-optional-features.md).
+
+> [!NOTE]
+> Commerce novērtēšanas vidēs ir iepriekš ielādēts Azure Active Directory (Azure AD) “no uzņēmuma patērētājam” (Business-to-Consumer — B2C) nomnieks demonstrācijas nolūkiem. Paša Azure AD B2C nomnieka konfigurēšana nav nepieciešama novērtēšanas vidēm. Tomēr, ja jūs konfigurējat novērtēšanas vidi, lai izmantotu savu Azure AD B2C nomnieku, lūdzu, pievienojiet ``https://login.commerce.dynamics.com/_msdyn365/authresp`` kā atbildes URL Azure AD B2C programmā, izmantojot Azure portālu.
 
 ## <a name="additional-resources"></a>Papildu resursi
 
@@ -157,10 +162,15 @@ Lai konfigurētu neobligātos līdzekļus savai Commerce novērtējuma videi, sk
 
 [Dynamics 365 Commerce novērtējuma vide - bieži uzdotie jautājumi](cpe-faq.md)
 
-[Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Retail Cloud Scale Unit (RCSU)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Microsoft Azure portāls](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce tīmekļa vietne](https://aka.ms/Dynamics365CommerceWebsite)
+
+[B2C nomnieka iestatīšana programmā Commerce](set-up-B2C-tenant.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

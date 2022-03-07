@@ -2,31 +2,33 @@
 title: Veiktspējas optimizēšana, plānojot pakešuzdevumus pēc darba
 description: Šajā tēmā ir paskaidrots, kā atrisināt veiktspējas problēmas ar Microsoft Dynamics 365 Human Resources , plānojot ilglaicīgus pakešuzdevumus pēc darba.
 author: andreabichsel
-manager: AnnBe
 ms.date: 06/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Human Resources
+ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-23
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 452a87cf5ba6c1ac73636584d75b2ec2ac555e02
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
-ms.translationtype: HT
+ms.openlocfilehash: 14354ba9454b8837246b75cd413497553423511e
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527769"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065430"
 ---
 # <a name="optimize-performance-by-scheduling-batch-jobs-after-hours"></a>Veiktspējas optimizēšana, plānojot pakešuzdevumus pēc darba
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 ## <a name="issue"></a>Izsniegt
 
@@ -52,11 +54,11 @@ Microsoft Dynamics 365 Human Resources var rasties veiktspējas problēmas, ja i
 
 3. Atlasiet **Palaist fonā** un pēc tam atlasiet **Periodiskums**.
 
-   ![Iestatiet periodiskumu](media/talent-batch-history-cleanup-recurrence.png)
+   ![Iestatiet periodiskumu.](media/talent-batch-history-cleanup-recurrence.png)
 
 4. Zem **Definēt periodiskumu** iestatiet **Sākuma datums** un **Sākuma laiks**, kas ir ārpus darba laika, vai nedēļas nogalē. Atlasiet **Bez beigu datuma**. 
 
-   ![Definējiet periodiskuma sākuma datumu un laiku](media/talent-batch-history-cleanup-define-recurrence.png)
+   ![Definējiet periodiskuma sākuma datumu un laiku.](media/talent-batch-history-cleanup-define-recurrence.png)
 
 5. Atlasiet **Labi**.
 
@@ -65,3 +67,6 @@ Microsoft Dynamics 365 Human Resources var rasties veiktspējas problēmas, ja i
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Veiktspējas optimizēšana ar automātiskās tīrīšanas uzdevumiem](hr-admin-troubleshooting-batch-history.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

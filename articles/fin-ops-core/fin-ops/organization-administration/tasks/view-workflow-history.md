@@ -2,11 +2,9 @@
 title: Darbplūsmas vēstures skatīšana
 description: Šajā tēmā ir aprakstītas darbības, lai apskatītu apstrādes un apstiprināšanas nolūkos darbplūsmas sistēmā iesniegta dokumenta statusu.
 author: jasongre
-manager: AnnBe
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkflowStatus
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 325478ed89b9c650899001dd08d1c98550fce520
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 351f9c80eab8e9810fa6a4538f003eaef1a4a4fd
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798984"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747229"
 ---
 # <a name="view-workflow-history"></a>Darbplūsmas vēstures skatīšana
 
@@ -46,3 +44,6 @@ ms.locfileid: "4798984"
     - Ar pogu **Mainīt piešķiri** tiek atvērts dialoglodziņš, kur darba vienumu varat piešķirt citam lietotājam.  
     - Pārliecinieties, ka sadaļa **Izsekošanas detaļas** ir izvērsta. Šajā sadaļā varat apskatīt atlasītā dokumenta darbplūsmas vēsturi.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

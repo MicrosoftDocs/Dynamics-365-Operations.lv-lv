@@ -1,9 +1,9 @@
 ---
 title: Vispārējas plānošanas un vairākvietu funkcionalitātes pārskats
 description: Vispārējā plānošanā tiek ņemti vērā vietas iestatījumi un noliktavas krājumu dimensijas.
-author: ChristianRytt
+author: roxanadiaconu
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: InventLocation, InventSite
@@ -15,15 +15,15 @@ ms.custom:
 ms.assetid: 7f05c031-a446-4168-8cce-03a6305f5c4d
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e594cfd71201c6a629c04d5557c117649e6b19b0
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 0d4360f524fb9a7dd9d844d94c1d3a7db76d4cdcfc1119ba93485c8df4353869
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982333"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713690"
 ---
 # <a name="master-planning-and-multisite-functionality-overview"></a>Vispārējas plānošanas un vairākvietu funkcionalitātes pārskats
 

@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0848eeb2ad073915ad90d2fd2a4a91f0f420c0ab
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: MT
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: fb61597dd7e1100efe4fbdeb7982858838caff26ea4a6d3d92547201a04cc977
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103292"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780922"
 ---
 # <a name="quality-check"></a>Kvalitātes pārbaude
 
@@ -39,9 +39,12 @@ Izmantojot šo funkciju, saņemšanas un kvalitātes pārbaude notiek šādi:
 
 Šo procesu var arī iestatīt tā, lai visas skenētās numura zīmes tiktu nekavējoties novirzītas uz kvalitātes pārbaudes atrašanās vietu.
 
-## <a name="turn-the-quality-check-feature-on-or-off"></a>Kvalitātes pārbaudes funkcijas izslēgšana vai izslēgšana
+## <a name="turn-on-the-quality-check-feature"></a>Ieslēgt kvalitātes pārbaudes līdzekli
 
-Lai izmantotu šajā tēmā aprakstīto funkcionalitāti, *sistēmai* jābūt ieslēgtai kvalitātes pārbaudes funkcijai. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja jūs palaižat versiju, kas vecāka par 10.0.25, *·*[tad administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot Kvalitātes pārbaudes līdzekli Līdzekļu pārvaldības darbvietā.](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
+Lai varētu izmantot *Kvalitātes pārbaudes* līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu, ja nepieciešams. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
+
+- **Modulis:** *Noliktavas pārvaldība*
+- **Līdzekļa nosaukums:** *Kvalitātes pārbaude*
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>Iestatīt līdzekli piemēra scenārijam
 

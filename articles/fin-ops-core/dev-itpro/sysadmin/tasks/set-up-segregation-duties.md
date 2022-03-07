@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysSecSegregationOfDutiesRule
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bcbd32131f9980a4f55e91b9d7ad48171069f72e
-ms.sourcegitcommit: 316200579dd5b04ad76f276a2ed6b0f55fa8c812
+ms.openlocfilehash: 1c1521d6bbbe12964fef0942fcc4943f12a4360a
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "4826398"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5562501"
 ---
 # <a name="set-up-segregation-of-duties"></a>Pienākumu sadales iestatīšana
 
@@ -42,3 +41,6 @@ Var iestatīt nosacījumus, lai atdalītu uzdevumus, kas ir jāveic dažādiem l
 
 > [!IMPORTANT] 
 > Veidojot kārtulu, pienākumu sadales kārtulas netiek pārbaudītas. Varat izveidot kārtulu, kas izveido konfliktu esošajām lomām. Esošās lietotāja lomu piešķires var arī būt pretrunā ar jauno kārtulu. Pēc kārtulas izveidošanas vai modificēšanas ir jāpārbauda atbilstība. Papildinformāciju skatiet sadaļā [Pienākumu sadales konfliktu identificēšana un atrisināšana](identify-resolve-conflicts-segregation-duties.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

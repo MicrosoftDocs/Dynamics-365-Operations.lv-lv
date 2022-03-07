@@ -2,11 +2,9 @@
 title: Darbības darbplūsmas apstiprināšanas procesos
 description: Šajā rakstā ir paskaidrotas darbības, kuras darbplūsmas apstiprināšanas procesā var veikt katrs dalībnieks.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e622f9a0a50cd6c5dbcbaf9cd5d56b691232c849
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 2da54d147c7e9c8a42ef9de94abcbe7f36c98295
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797606"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355752"
 ---
 # <a name="actions-in-workflow-approval-processes"></a>Darbības darbplūsmas apstiprināšanas procesos
 
@@ -31,7 +29,7 @@ ms.locfileid: "4797606"
 
 Darbplūsma var ietvert vairākas cilvēku grupas: iniciatoru, uzdevuma veicējus, lēmumu pieņēmējus un apstiprinātājus. Piemēram, nākamajā izdevumu atskaites darbplūsmā Sems ir iniciators, rindas dalībnieki ir uzdevumu veicēji, Džons ir lēmumu pieņēmējs, bet Frenks, Sjū un Anna ir apstiprinātāji.
 
-[![Darbplūsma\_WithManualDecision](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif)
+[![Darbplūsma\_WithManualDecision.](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif)
 
 Nākamajās sadaļās ir skaidrotas darbplūsmas darbības, ko var veikt katra no šīm grupām.
 
@@ -141,3 +139,6 @@ Kad apstiprinātājs pieprasa dokumenta izmaiņas, dokuments tiek nosūtīts atp
 Piemēram, Sems ir iesniedzis izdevumu atskaiti par 12 000 USD, un šis dokuments tiek piešķirts Sjū. Ja Sjū pieprasa veikt izmaiņas, izdevumu atskaite tiek sūtīta atpakaļ Semam.
 
 Sems šo izdevumu atskaiti var iesniegt atkārtoti. Viņš pirms tam var veikt pieprasītās izmaiņas vai atkārtoti iesniegt izdevumu atskaites sākotnējo versiju. Ja Sems izdevumu atskaiti iesniedz atkārtoti, tas tiek nosūtīts Frenkam apstiprināšanai, jo Frenks ir pirmais apstiprinātājs šajā apstiprināšanas procesā.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

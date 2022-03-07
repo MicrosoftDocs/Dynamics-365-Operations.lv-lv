@@ -2,11 +2,9 @@
 title: Apstiprināšanas darbību konfigurēšana darbplūsmā
 description: Šajā tēmā ir paskaidrots, kā konfigurēt apstiprināšanas darbības rekvizītus.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 09f32833d914c05a1830e2bba36ebe4c66a8a52c
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 5730851bbeeab72d10192b1644bfb7acba65e7cd1a576fe1309c3a71e25477e1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797100"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764411"
 ---
 # <a name="configure-approval-steps-in-a-workflow"></a>Apstiprināšanas darbību konfigurēšana darbplūsmā
 
@@ -114,9 +112,9 @@ Veiciet šīs darbības, lai norādītu personu, kurai jāpiešķir apstiprinā�
     </ol>
     </li>
     <li>Cilnē <strong>Hierarhijas opcijas</strong> norādiet attiecīgajā diapazonā esošos lietotājus, kuriem darbība jāpiešķir: <ul>
-    <li><strong>Piešķirt visiem izgūtajiem lietotājiem</strong> — darbība tiek piešķirta visiem diapazonā esošajiem lietotājiem.</li>
-    <li><strong>Piešķirt tikai pēdējam izgūtajam lietotājam</strong> — darbība tiek piešķirta tikai pēdējam lietotājam diapazonā.</li>
-    <li><strong>Neiekļaut lietotājus, kuri atbilst šādiem nosacījumiem</strong> — darbība netiek piešķirta diapazonā esošajiem lietotājiem, kuri atbilst konkrētam nosacījumam. Lai norādītu nosacījumu, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>.</li>
+    <li><strong>Piešķirt visiem izgūtajiem lietotājiem</strong> — darbība tiek piešķirta visiem diapazonā esošajiem lietotājiem.</li>
+    <li><strong>Piešķirt tikai pēdējam izgūtajam lietotājam</strong> — darbība tiek piešķirta tikai pēdējam lietotājam diapazonā.</li>
+    <li><strong>Neiekļaut lietotājus, kuri atbilst šādiem nosacījumiem</strong> — darbība netiek piešķirta diapazonā esošajiem lietotājiem, kuri atbilst konkrētam nosacījumam. Lai norādītu nosacījumu, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>.</li>
     </ul>
     </li>
     </ol>
@@ -158,7 +156,7 @@ Veiciet šīs darbības, lai norādītu personu, kurai jāpiešķir apstiprinā�
 
     - **Viens apstiprinātājs** — ar dokumentu veicamo darbību nosaka pirmā persona, kas atbild. Piemēram, Sems iesniedzis izdevumu pārskatu par USD 15 000. Izdevumu pārskats pašlaik ir piešķirts Sjū, Džo un Bilam. Ja Sjū ir pirmā uz dokumentu atbildējusī persona, dokumentam tiek veikta viņas izpildītā darbība. Ja Sjū noraida dokumentu, tas tiek noraidīts un nosūtīts atpakaļ Semam. Ja Sjū apstiprina šo dokumentu, tas tiek nosūtīts Annai apstiprināšanai.
 
-        ![Darbplūsma, kurai ir apstiprināšanas process](./media/workflow_multipleusersinstep.gif)
+        ![Darbplūsma, kurai ir apstiprināšanas process.](./media/workflow_multipleusersinstep.gif)
 
     - **Apstiprinātāju vairākums** — ar dokumentu veicamā darbība tiek noteikta, kad atbild apstiprinātāju vairākums. Piemēram, Sems iesniedzis izdevumu pārskatu par USD 15 000. Izdevumu pārskats pašlaik ir piešķirts Sjū, Džo un Bilam. Ja Sjū un Džo ir pirmie divi apstiprinātāji, kas atbild, viņu izpildītā darbība nosaka ar dokumentu veicamo darbību.
 
@@ -236,9 +234,9 @@ Ja lietotājs neveic darbības ar dokumentu atvēlētajā laikā, dokuments ir n
     </ol>
     </li>
     <li>Cilnē <strong>Hierarhijas opcijas</strong> norādiet attiecīgajā diapazonā esošos lietotājus, kuriem jāveic dokumenta eskalācija: <ul>
-    <li><strong>Piešķirt visiem izgūtajiem lietotājiem</strong> — dokuments tiek eskalēts visiem diapazonā esošajiem lietotājiem.</li>
-    <li><strong>Piešķirt tikai pēdējam izgūtajam lietotājam</strong> — dokuments tiek eskalēts tikai pēdējam lietotājam diapazonā.</li>
-    <li><strong>Neiekļaut lietotājus, kuri atbilst šādiem nosacījumiem</strong> — dokuments netiek eskalēts diapazonā esošajiem lietotājiem, kuri atbilst konkrētam nosacījumam. Lai norādītu nosacījumu, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>.</li>
+    <li><strong>Piešķirt visiem izgūtajiem lietotājiem</strong> — dokuments tiek eskalēts visiem diapazonā esošajiem lietotājiem.</li>
+    <li><strong>Piešķirt tikai pēdējam izgūtajam lietotājam</strong> — dokuments tiek eskalēts tikai pēdējam lietotājam diapazonā.</li>
+    <li><strong>Neiekļaut lietotājus, kuri atbilst šādiem nosacījumiem</strong> — dokuments netiek eskalēts diapazonā esošajiem lietotājiem, kuri atbilst konkrētam nosacījumam. Lai norādītu nosacījumu, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>.</li>
     </ul>
     </li>
     </ol>
@@ -276,3 +274,6 @@ Ja lietotājs neveic darbības ar dokumentu atvēlētajā laikā, dokuments ir n
 
 5. Atkārtojiet 3.–4. darbību katram lietotājam, kurš jāpievieno eskalācijas ceļam. Jūs varat mainīt lietotāju secību.
 6. Ja eskalācijas ceļā norādītie lietotāji neatbild atvēlētajā laikā, sistēma automātiski veiks darbību ar dokumentu. Lai norādītu darbību, ko sistēma veic, atlasiet rindu **Darbība** un pēc tam cilnē **Beigu darbība** atlasiet darbību.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

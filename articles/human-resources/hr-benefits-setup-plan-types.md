@@ -2,7 +2,7 @@
 title: Izveidot plānu tipus
 description: Plāna tips programmā Microsoft Dynamics 365 Human Resources ir noteikta tipa atvieglojumu augsta līmeņa grupēšana. Katram plāna tipam ir plāna tipa kods, kas nosaka plāna tipa kārtulas.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 88a6d89bf98ea145bbb6a4eb8f4e052e5f4088e5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1d8db6900e6b697e988e2a7e9e31828b70e4ad0d
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419569"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463916"
 ---
 # <a name="create-plan-types"></a>Izveidot plānu tipus
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Plāna tips programmā Microsoft Dynamics 365 Human Resources ir noteikta tipa atvieglojumu augsta līmeņa grupēšana. Katram plāna tipam ir plāna tipa kods, kas nosaka plāna tipa kārtulas. Piemēram, plāna tipa Pamata dzīve būtu plāna tipa kods Life, jo tas ir sava veida dzīvības apdrošināšanas plāns, un tam jāatbilst kārtulām, kas noteiktas plāna tipa kodam Life. Cits plāna tips var būt Papildu dzīve, arī ar plāna tipa kodu Life.
 
@@ -63,3 +65,6 @@ Plāna tips var definēt vajadzību opcijas. Vajadzību opcijas ir definētas ve
    | **Pārskata veidošanas logs** | Norāda dzīves notikuma pārskata veidošanas logu dienās. **Piezīme**: Ja neievadāt summu, sistēma pieņem, ka pārskata logs ir nulle un dzīves notikumu neapstrādās. |
 
 5. Atlasiet **Saglabāt**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

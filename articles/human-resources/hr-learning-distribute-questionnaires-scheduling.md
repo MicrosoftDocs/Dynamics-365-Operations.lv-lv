@@ -2,28 +2,27 @@
 title: Aptauju sadalīšana, izmantojot plānošanu
 description: Izmantojot anketēšanas plānošanu, var plānot un sadalīt anketas vairākiem respondentiem.
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KMKnowledgeCollectorPlanningTable, KMKnowledgeCollectorPlanningMulti, SysQueryForm, HcmPersonLookup, KMKnowledgeCollectorPlanning, HcmLearningWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d233938fe553dbd7da7fcc5477097fd885665102
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7ca8eddea3dddbbe873717b1d1f5cb2054891d0f0036400d22eacef84bf96da3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419608"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755546"
 ---
 # <a name="distribute-questionnaires-using-scheduling"></a>Aptauju sadalīšana, izmantojot plānošanu
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Izmantojot anketēšanas plānošanu, var plānot un sadalīt anketas vairākiem respondentiem. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 
@@ -129,3 +128,6 @@ Izmantojot anketēšanas plānošanu, var plānot un sadalīt anketas vairākiem
 2. Noklikšķiniet uz Beigt.
 3. Noklikšķiniet uz OK.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

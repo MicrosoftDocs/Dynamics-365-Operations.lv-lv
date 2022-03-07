@@ -2,34 +2,29 @@
 title: Uzdevumu pārvaldība punktā POS
 description: Šajā tēmā aprakstīta uzdevumu pārvaldība Microsoft Dynamics 365 Commerce pārdošanas punkta (POS) programmā.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: cc685fcd584fe2ab5cd9282e8fbefbd284d5b2a2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 3fb7d584b634b0a1e43ef6a02a9edcadc0927b36bd2a814fdfe947fb0e2e1917
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414112"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772110"
 ---
 # <a name="task-management-in-pos"></a>Uzdevumu pārvaldība punktā POS
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā aprakstīta uzdevumu pārvaldība Microsoft Dynamics 365 Commerce pārdošanas punkta (POS) programmā.
-
-## <a name="overview"></a>Pārskats
 
 Dynamics 365 Commerce POS programmai ir uzdevumu pārvaldības līdzekļi, kas ļauj veikala vadītājiem un darbiniekiem pārvaldīt uzdevumus un atjaunināt uzdevumu statusu. Veikala darbinieki var piekļūt uzdevumiem, atlasot elementu **Uzdevumi** POS sākumlapā vai atlasot uzdevumu paziņojumus. Pēc noklusējuma veikala darbinieki tiek uzņemti cilnē **Mani uzdevumi**, kur tie var skatīt sev piešķirtos uzdevumus. Tomēr viņi var viegli pārslēgties uz cilnēm **Nokavētie uzdevumi**, **Atvērtie uzdevumi** un **Uzdevumu saraksti**.
 
@@ -49,11 +44,11 @@ Veikala darbinieki var veikt šādas uzdevumu darbības POS programmā, izmantoj
 
 Šajā attēlā redzama cilne **Mani uzdevumi** programmā Commerce POS.
 
-![Manu uzdevumu cilne Commerce POS programmā](media/POS-task-management.png)
+![Manu uzdevumu cilne Commerce POS programmā.](media/POS-task-management.png)
 
 Nākamajā attēlā ir redzama cilne **Uzdevumu saraksti**.
 
-![Uzdevumu sarakstu cilne Commerce POS programmā](media/POS-task-lists-management.png)
+![Uzdevumu sarakstu cilne Commerce POS programmā.](media/POS-task-lists-management.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
@@ -64,3 +59,6 @@ Nākamajā attēlā ir redzama cilne **Uzdevumu saraksti**.
 [Uzdevumu sarakstu izveidošana un uzdevumu pievienošana](task-mgmt-create-lists.md)
 
 [Uzdevumu sarakstu piešķiršana veikaliem vai darbiniekiem](task-mgmt-assign-lists.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,27 +2,24 @@
 title: Atjaunināt veidu, kā summas tiek rādītas pārskatos un dokumentos
 description: Šajā tēmā ir sniegta informācija par to, kā atjaunināt veidu, kādā pārskatos un citos dokumentos summas tiek rādītas Igaunijai, Latvijai, Lietuvai, Polijai, Čehijai, Ungārijai un Krievijai.
 author: anasyash
-manager: AnnBe
-ms.date: 08/13/2019
+ms.date: 01/18/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Currency
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 264254
 ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: dd42a64bb384561cc0c4a8c9baf1213860691849
-ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
-ms.translationtype: HT
+ms.openlocfilehash: 678c7ac288e7754809ad51cc609e1aaa011776ee
+ms.sourcegitcommit: 9638d3a2bd592dc28f5952bda4af7dcf06edfaa4
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4408294"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8007591"
 ---
 # <a name="update-how-amounts-are-displayed-on-reports-and-documents"></a>Atjaunināt veidu, kā summas tiek rādītas pārskatos un dokumentos
 
@@ -50,7 +47,10 @@ Lai kādai valodai iestatītu valūtas vienību un apakšvienību pilnos un īso
    |    <strong>Vienību saīsinātais nosaukums (īso nosaukumu lauku grupa)</strong>    |                                                                                         Ievadiet ISO kodu, lai identificētu attiecīgo valūtu. Piemēram, ievadiet LTL, lai identificētu litus.                                                                                         |
    |   <strong>Daļu saīsinātais nosaukums (īso nosaukumu lauku grupa)</strong>    |                                                                                               Ievadiet valūtas apakšvienības apzīmējumu. Ievadiet, piemēram, “centi”.                                                                                               |
    |       <strong>Saiklis “un” starp vienībām un daļām</strong>       |                                     Atzīmējiet šo opciju, lai starp valūtas vienībām un vienības daļām drukātu saikli “un”. Piemēram, rēķinos vai pārskatos summa LTL 100,20 tiks rādīta kā “100 liti un 20 centi”.                                      |
-   |       <strong>Dzimums</strong>       |  Atlasiet **Vīrietis**, **Sieviete** vai **Neitrāls**. Šis parametrs var ietekmēt summas novirzes tekstu, kas parādīts Kases orderī vietējās valodas tekstā. Piemēram, iestatot **Dzimumu** EUR valūtai uz **Neitrāls**, summa 1,01 EUR Kases orderī čehu valodā ir *Edno euro 01 cent*.  |
+   |       <strong>Dzimums</strong>       |  Atlasiet **Vīrietis**, **Sieviete** vai **Neitrāls**. Šis parametrs var ietekmēt summas novirzes tekstu, kas parādīts Kases orderī vietējās valodas tekstā. Piemēram, iestatot dzimti EUR valūtai kā Neuter, summa 101 EUR tiek rakstīta kases orderī čeka valūtā **kā** **·** *Jedno euro 01 cents*.  |
 
 5. Atlasiet **Saglabāt**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

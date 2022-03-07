@@ -2,19 +2,27 @@
 title: Sinhronizēt ar Supply Chain Management cenu noteikšanas programmu pēc pieprasījuma
 description: Šajā tēmā aprakstīts, kā izmantot cenu noteikšanas programmu programmā Microsoft Dynamics 365 Supply Chain Management no pakalpojuma Dynamics 365 Sales.
 author: RamaKrishnamoorthy
+manager: AnnBe
 ms.date: 03/10/2019
 ms.topic: article
+ms.prod: ''
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: ramasri
-ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 134bfc2ec0e69938c945e384a98676d3708c8e17
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
-ms.translationtype: MT
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2020-03-10
+ms.openlocfilehash: e2067e83d3f0c98e986873b8eaf1b817de912c0f
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7783311"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5570144"
 ---
 # <a name="sync-on-demand-with-the-supply-chain-management-pricing-engine"></a>Sinhronizēt ar Supply Chain Management cenu noteikšanas programmu pēc pieprasījuma
 
@@ -26,7 +34,7 @@ Microsoft Dynamics 365 Supply Chain Management iekļauj cenu noteikšanas progra
 
 ## <a name="use-the-pricing-engine-from-supply-chain-management-in-sales"></a>Izmantot cenu noteikšanas programmu no Supply Chain Management pakalpojumā Sales
 
-1. Pakalpojumā Sales dodieties uz **Pārdošana \> Pasūtījumi**.
+1. Pakalpojumā Sales dodieties uz **Pārdošana \>Pasūtījumi**.
 2. Atlasiet **Jauns**, lai izveidotu jaunu pasūtījumu vai atlasītu esošu pasūtījumu sarakstā **Mani pasūtījumi**.
 3. Pievienojiet jaunu pasūtījuma rindu.
 4. Ja veidojat jaunu pasūtījumu, darbību rūtī atlasiet **Cenas pasūtījums**. Ja atjaunināt esošu pasūtījumu, darbību rūtī atlasiet **Pārrēķināt**.
@@ -41,7 +49,7 @@ Microsoft Dynamics 365 Supply Chain Management iekļauj cenu noteikšanas progra
     + Nodokļu kopsumma
     + Kopsumma
     
-5. Lai nodrošinātu, ka sistēma cenas aprēķināšanā iekļaut tirdzniecības līgumus:
+5. Lai nodrošinātu, ka sistēma ņem vērā tirdzniecības un pārdošanas līgumus, lai aprēķinātu cenu:
     1. Dodieties uz Supply Chain Management vidi.
     2. Navigējiet uz **Debitoru parādi \> Iestatīšana \> Debitoru parādu parametri**.
     3. Atlasiet cilni **Cenas** sānu navigācijas joslā.
@@ -49,9 +57,9 @@ Microsoft Dynamics 365 Supply Chain Management iekļauj cenu noteikšanas progra
 
 ## <a name="how-it-works"></a>Kā tas darbojas
 
-Pakalpojumā Sales atlasot **Cenas pasūtījums** saistītajam pārdošanas pasūtījumam tiek izsaukta funkcija **Kopsumma** programmas Supply Chain Management cilnē **Pārdošanas pasūtījums \> Skatīt**. Vērtības pasūtījuma kopsummā pakalpojumā Sales tiek izmantotas, lai aizpildītu atbilstošās kolonnas programmā Supply Chain Management.
+Pakalpojumā Sales atlasot **Cenas pasūtījums** saistītajam pārdošanas pasūtījumam tiek izsaukta funkcija **Kopsumma** programmas Supply Chain Management cilnē **Pārdošanas pasūtījums\> Skatīt**. Vērtības pasūtījuma kopsummā pakalpojumā Sales tiek izmantotas, lai aizpildītu atbilstošās kolonnas programmā Supply Chain Management.
 
-Kad kopējais pārdošanas pasūtījums tiek aprēķināts programmā Supply Chain Management, aprēķini izvērtē esošos tirdzniecības līgumus klientam un produktus, kuri ir uzskaitīti pārdošanas pasūtījumā. Šī informācija tiek izmantota kopsummu aprēķināšanai. Kad ir atlasīts **Cenas pasūtījums**, programma Sales automātiski ataino visus iestatījumus, kas veikti programmā Supply Chain Management.
+Kad pārdošanas pasūtījuma kopsumma tiek aprēķināta programmā Supply Chain Management, aprēķinā novērtē esošos tirdzniecības līgumus un pārdošanas līgumus klientam un preces, kas norādītas pārdošanas pasūtījumā. Šī informācija tiek izmantota kopsummu aprēķināšanai. Kad ir atlasīts **Cenas pasūtījums**, programma Sales automātiski ataino visus iestatījumus, kas veikti programmā Supply Chain Management.
 
 ## <a name="limitations"></a>Ierobežojumi
 
@@ -60,7 +68,6 @@ Kad programmā Sales ir aizpildītas kolonnas, tiek piemēroti šādi ierobežoj
 + Pakalpojumā Sales netiek replicēti maksu un maksu sadalījumu iestatījumi no programmas Supply Chain Management.
 + Cenu noteikšanā netiek ņemtas vērā īpašas mazumtirdzniecības cenas, kas konkretizētas pārdošanas pasūtījuma rindas lapas kolonnā **Mazumtirdzniecības kanāls** programmā Supply Chain Management.
 + Atlaides, kas definētas programmas Supply Chain Management sadaļā **Mazumtirdzniecības atlaižu pārvaldība**.
-+ Cenu noteikšanā netiek ņemti pārdošanas līgumi.
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

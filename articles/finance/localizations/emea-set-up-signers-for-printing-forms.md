@@ -2,26 +2,23 @@
 title: Iestatīt parakstītājus drukātajām formām
 description: Juridiskajām personām Čehijā, Igaunijā, Ungārijā, Lietuvā, Latvijā, Polijā un Krievijā varat iestatīt parakstītājus un amatus debitoriem un kreditoriem, kas drukā tādus dokumentus kā rēķini un kases orderi.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 263464
 ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 64868aa08201fa3df99cd86fa6ef5231a9347151
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: e5e80699f3ac2faaf947e0ce93e9408e3d0811265ec70d41c2a8b93e0f0d358a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408289"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717454"
 ---
 # <a name="set-up-signers-for-print-forms"></a>Iestatīt parakstītājus drukātajām formām
 
@@ -29,8 +26,7 @@ ms.locfileid: "4408289"
 
 Juridiskajām personām Čehijā, Igaunijā, Ungārijā, Lietuvā, Latvijā, Polijā un Krievijā varat iestatīt parakstītājus un amatus debitoriem un kreditoriem, kas drukā tādus dokumentus kā rēķini un kases orderi.
 
-<a name="set-up-default-values"></a>Noklusēto vērtību iestatīšana
----------------------
+## <a name="set-up-default-values"></a>Noklusēto vērtību iestatīšana
 
 Lai iestatītu parakstītājus tādiem dokumentiem, ko uzņēmums drukā, izmantojiet lapu **Amatpersonas**. Parakstītājus un viņu amatos varat iestatīt gan uzņēmumam, gan debitoriem vai kreditoriem, ņemot vērā dokumenta tipu. Nākamajā tabulā ir aprakstītas cilnes lapā **Amatpersonas**.
 
@@ -117,11 +113,11 @@ Lai iestatītu parakstītājus tādiem dokumentiem, ko uzņēmums drukā, izmant
 </tr>
 <tr class="even">
 <td>Vārds, uzvārds</td>
-<td>Atlasiet parakstītāja vārdu un uzvārdu. Sarakstā esošie vārdi tiek ņemti no tabulas Kontaktpersonas vai tabulas Darbinieki, ņemot vērā parakstītāja tipu (tas ir, atkarībā no tā, vai ir atzīmēta izvēles rūtiņa <strong>Mūsu</strong>). Ja parakstītāja vārds nav iekļauts šajā sarakstā, manuāli ievadiet parakstītāja pilnu vārdu.</td>
+<td>Atlasiet parakstītāja vārdu un uzvārdu. Sarakstā esošie vārdi tiek ņemti no tabulas Kontaktpersonas vai tabulas Darbinieki, ņemot vērā parakstītāja tipu (tas ir, atkarībā no tā, vai ir atzīmēta izvēles rūtiņa <strong>Mūsu</strong> ). Ja parakstītāja&#39;vārds nav&#39;iekļauts šajā sarakstā, manuāli ievadiet parakstītāja pilnu vārdu.</td>
 </tr>
 <tr class="odd">
 <td>Amata nosaukums</td>
-<td>Atlasiet parakstītāja darba nosaukumu. Ja parakstītāja amats nav iekļauts šajā sarakstā, manuāli ievadiet parakstītāja amatu.</td>
+<td>Atlasiet parakstītāja darba nosaukumu. Ja parakstītāja amats nav&#39;iekļauts šajā sarakstā, manuāli ievadiet parakstītāja amatu.</td>
 </tr>
 <tr class="even">
 <td>Konta kods</td>
@@ -139,8 +135,8 @@ Lai iestatītu parakstītājus tādiem dokumentiem, ko uzņēmums drukā, izmant
 <td>Saistība ar noliktavu</td>
 <td>Atlasiet, vai parakstītājs ir piešķirts visām noliktavām vai tikai konkrētai noliktavai. Pieejamas šādas opcijas
 <ul>
-<li><strong>Visi</strong> — parakstītājs ir piešķirts visām noliktavām.</li>
-<li><strong>Ieraksts</strong> — parakstītājs ir piešķirts konkrētai noliktavai.</li>
+<li><strong>Visi</strong> — parakstītājs ir piešķirts visām noliktavām.</li>
+<li><strong>Ieraksts</strong> — parakstītājs ir piešķirts konkrētai noliktavai.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -165,3 +161,6 @@ Funkcionalitāte Amatpersonas rāda noklusējuma sākotnēji definētos parakst�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 5d06f05ca27ed8fe58a9a24fcde8c0082662b866
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: MT
+ms.openlocfilehash: 560b62183f9c0c45c872998373a90dc9dc0ebbb3
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103116"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571717"
 ---
 # <a name="category-requests-from-vendors"></a>Kategorijas pieprasījumi no kreditoriem
 
@@ -26,11 +26,11 @@ Kategorijas pieprasījuma process ļauj kreditoriem pieprasīt, lai ar to kontu 
 
 Kategoriju pieprasījumus kreditori inicializē darbvietā **Kreditora informācija**. Pēc tam tie tiek iesniegti jūsu aģentūrai pārskatīšanai un apstiprināšanai. Apstiprinātās kategorijas tiek pievienotas kreditora konta sagādes kategoriju sarakstam.
 
-## <a name="turn-the-category-requests-from-vendors-feature-on-or-off"></a>Ieslēgt vai izslēgt kategoriju pieprasījumus no kreditoru funkcijas
+## <a name="turn-on-the-feature-in-your-system"></a>Līdzekļa ieslēgšana sistēmā
 
-No Piegādes ķēdes pārvaldības versijas 10.0.25 šī funkcija ir ieslēgta pēc noklusējuma. Administratori šo funkcionalitāti var ieslēgt *vai* izslēgt, meklējot iespēju Atļaut kreditoriem pieteikties uz sagādes kategorijām, izmantojot kreditoru sadarbības līdzekli līdzekļu [pārvaldības darbvietā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Ja sistēmā vēl nav ietverts šajā tēmā aprakstītais līdzeklis, pārejiet uz sadaļu [Līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) un ieslēdziet līdzekli *Atļaut kreditoriem pieteikties iepirkumu kategorijām, izmantojot kreditoru sadarbību*.
 
-Ja šī funkcija ir ieslēgta, jūs joprojām varat manuāli pievienot sagādes kategorijas kreditora kontiem. Informāciju skatiet [Kreditoru apstiprināšana noteiktām sagādes kategorijām](tasks/approve-vendors-specific-procurement-categories.md).
+Kad līdzeklis ir ieslēgts, kreditora kontiem joprojām var pievienot sagādes kategorijas manuāli. Informāciju skatiet [Kreditoru apstiprināšana noteiktām sagādes kategorijām](tasks/approve-vendors-specific-procurement-categories.md).
 
 ## <a name="vendor-collaboration-requirements"></a>Kreditoru sadarbības pieprasījumi
 

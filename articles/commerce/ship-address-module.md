@@ -1,36 +1,31 @@
 ---
 title: Piegādes adreses modulis
-description: Šajā tēmā ir apskatīti piegādes adrešu modulis un tiek paskaidrots, kā to konfigurēt programmā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā ir apskatīts piegādes adrešu modulis un tiek paskaidrots, kā to konfigurēt programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
-ms.date: 08/05/2020
+ms.date: 02/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: aeaa410fde29b285fdbbdd6acac19b0c4e917aa5
-ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
-ms.translationtype: HT
+ms.openlocfilehash: 30baef62e03cdaa766133efc4b182c61da3dc7b67e077d80716a035f0b5e40e2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "4414211"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765198"
 ---
 # <a name="shipping-address-module"></a>Piegādes adreses modulis
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā ir aprakstīts piegādes adrešu modulis un tiek paskaidrots, kā to konfigurēt programmā Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
 
 Piegādes adreses modulis ļauj klientiem pievienot vai atlasīt pasūtījuma piegādes adresi norēķināšanās plūsmas laikā. Ja klients ir pierakstījies, tiek rādītas visas adreses, kas iepriekš tika saglabātas šim klientam, un klients var atlasīt kādu no tām. Klients var arī pievienot jaunu adresi. Piegādes adreses modulis tiek izmantots visām precēm pasūtījumā, kuras nepieciešams piegādāt.
 
@@ -42,14 +37,16 @@ Kaut arī piegādes adreses modulis nenodrošina adrešu validāciju, šī funkc
 
 Ilustrācijā zemāk redzams jauns piegādes adreses moduļa piemērs norēķināšanās lapā.
 
-![Piegādes adreses moduļa piemērs norēķināšanās lapā](./media/ecommerce-shippingaddress.PNG)
+![Piegādes adreses moduļa piemērs norēķināšanās lapā.](./media/ecommerce-shippingaddress.PNG)
 
 ## <a name="module-properties"></a>Moduļa rekvizīti
 
-| Rekvizīta nosaukums | Vērtības | apraksts |
+| Rekvizīta nosaukums | Vērtības | Apraksts |
 |---------------|--------|-------------|
 | Virsraksts | Virsraksta teksts un virsraksta etiķete (**H1**, **H2**, **H3**, **H4**, **H5** vai **H6**) | Izvēles virsraksts piegādes adreses modulim. |
 | Rādīt adreses veidu | **Patiess** vai **Nepatiess** | Ja šis neobligātais rekvizīts ir iestatīts kā **Patiess**, tiks parādīts adreses tips, piemēram, **Sākums** vai **Uzņēmums**. Ja nav norādīts adreses tips, adrese automātiski tiks saglabāta kā **Tips**=**Cits**. |
+| Iespējot automātisko ieteikumu| **Patiess** vai **Nepatiess** | Ja šis neobligātais rekvizīts ir iestatīts uz **Patiess**, tiek sniegti automātiski adrešu ieteikumi. Šos ieteikumus nodrošina Bing kartes. Informāciju par to, kā iestatīt Bing karšu integrāciju jūsu vietnē, skatiet sadaļu [Veikalu atlasītāja modulis](store-selector.md). Šis līdzeklis ir pieejams kā Commerce versijas 10.0.15 laidiens.|
+|Automātiskās ieteikšanas opcijas| Skaits| Ja iespējoti automātiskie adrešu ieteikumi, varat norādīt papildu opcijas, piemēram, maksimālo nodrošināmo ieteikumu skaitu.|
 
 ## <a name="add-a-shipping-address-module-to-a-checkout-page-and-set-the-required-properties"></a>Piegādes adreses moduļa pievienošana norēķināšanās lapā un nepieciešamo rekvizītu iestatīšana
 
@@ -72,3 +69,8 @@ Piegādes adreses moduli var pievienot tikai norēķināšanās modulim. Lai ieg
 [Pasūtījumu informācijas modulis](order-confirmation-module.md)
 
 [Dāvanu kartes modulis](add-giftcard.md)
+
+[Veikalu atlasītāja modulis](store-selector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

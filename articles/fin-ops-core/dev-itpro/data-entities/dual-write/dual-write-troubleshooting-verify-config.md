@@ -1,12 +1,11 @@
 ---
-title: Pārbaudiet, vai duālais ieraksts ir konfigurēts Finance and Operations programmās un Dataverse
+title: Pārbaudiet duālā ieraksta konfigurāciju Finance and Operations programmās un pakalpojumā Dataverse
 description: Šajā tēmā ir paskaidrots, kā varat noteikt, vai programmā Finance and Operations un Dataverse ir konfigurēts duālais ieraksts.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 03/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,14 +17,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: f389bcf133cc7e6a086167d5e26c1b8795d0fa30
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0a1da32713f3d4d19b4d343c5b67b416a6c4ffbb
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685543"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5566769"
 ---
-# <a name="verify-that-dual-write-is-configured-in-finance-and-operations-apps-and-dataverse"></a>Pārbaudiet, vai duālais ieraksts ir konfigurēts Finance and Operations programmās un Dataverse
+# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Pārbaudiet duālā ieraksta konfigurāciju Finance and Operations programmās un pakalpojumā Dataverse
 
 [!include [banner](../../includes/banner.md)]
 
@@ -51,10 +50,13 @@ Informāciju par to, kā novērst problēmas, veidojot datus Finance and Operati
 
 ## <a name="verify-that-dual-write-is-configured-in-dataverse"></a>Pārbaudiet, vai duālais ieraksts ir konfigurēts pakalpojumā Dataverse
 
-Kad izveidojat datus, ja tiek parādīts lauks **Uzņēmums** pakalpojuma Dataverse lapās, duālais ieraksts ir konfigurēts.
+Kad izveidojat datus, ja tiek parādīta kolonna **Uzņēmums** pakalpojuma Dataverse lapās, duālais ieraksts ir konfigurēts.
 
 ![Dataverse savienojuma pārbaude](media/verify_cds.png)
 
 Informāciju par to, kā novērst problēmas, veidojot datus pakalpojumā Dataverse, skatiet sadaļā [Tiešsaistes sinhronizācijas problēmu novēršana](dual-write-troubleshooting-live-sync.md).
 
 Lai iegūtu informāciju par to, kā skatīt informāciju par kļūdām, ar kurām saskaraties, veidojot datus pakalpojumā Dataverse, skatiet rakstā [Iespējot un skatīt spraudņa trasēšanas žurnālu pakalpojumā Dataverse, lai skatītu kļūdas informāciju](dual-write-troubleshooting.md#enable-view-trace).
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

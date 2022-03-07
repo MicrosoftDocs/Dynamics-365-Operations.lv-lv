@@ -1,37 +1,37 @@
 ---
 title: Noliktavas programmas instalēšana un savienošana
 description: Šajā tēmā ir paskaidrots, kā instalēt noliktavas programmu katrā jūsu mobilajā ierīcē un konfigurēt to, lai izveidotu savienojumu ar Microsoft Dynamics 365 Supply Chain Management vidi. Varat katru ierīci konfigurēt manuāli vai importēt savienojuma iestatījumus, izmantojot failu vai skenējot QR kodu.
-author: Mirzaab
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 05/25/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 267694
 ms.assetid: d95d43b2-13ff-4189-a71a-3a1fb57d55ed
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: mirzaab
+ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9f123f217aabcc7500832fafb15199043048b5e5
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
-ms.translationtype: MT
+ms.openlocfilehash: 88bce09a6d3bf154592955a6fb2dada6247f1993
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902275"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432994"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Noliktavas programmas instalēšana un savienošana
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Šajā tēmā ir aprakstīts, kā konfigurēt veco Warehouse programmu (kas tagad ir novecojusi). Ja vēlaties skatīt informāciju par jaunās lietotnes Warehouse Management mobile konfigurēšanu (pašreiz publiskā priekšskatījumā), skatiet sadaļu lietotnes [Warehouse Management mobile instalēšana un savienošana](install-configure-warehouse-management-app.md).
-
-> [!NOTE]
-> Šajā tēmā aprakstīts, kā konfigurēt noliktavas lietotni mākoņa izvietojumiem. Ja meklējat informāciju par to, kā konfigurēt noliktavas lietotni lokālajiem izvietojumiem, skatiet [Warehousing lokālajiem izvietojumiem](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+> Šajā tēmā aprakstīts, kā noliktavas konfigurēt mākoņa izvietojumiem. Ja meklējat informāciju par to, kā noliktavas konfigurēt lokālajiem izvietojumiem, skatiet [Noliktavas lokālajiem izvietojumiem](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 Noliktavas programma ir pieejama Google Play veikalā un Microsoft Store. Tā tiek nodrošināta kā savrups komponents. Tāpēc tā ir jālejupielādē katrā ierīcē un pēc tam jākonfigurē, lai izveidotu savienojumu ar Microsoft Dynamics 365 Supply Chain Management vidi.
 
@@ -54,7 +54,7 @@ Lai lejupielādētu programmu, izmantojiet vienu no šīm saitēm:
 - **Windows (UWP):** [Dynamics 365 for Finance and Operations - Warehousing Microsoft Store](https://www.microsoft.com/store/apps/9p1bffd5tstm)
 - **Android:** [Warehousing - Dynamics 365 Google Play veikalā](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
 
-Mazākiem izvietojumiem, iespējams, vēlēsities instalēt programmu no katras ierīces attiecīgā veikala un pēc tam manuāli konfigurēt savienojumu ar jūsu izmantotajām vidēm. Tomēr, noliktavas programmas versijā 1.7.0.0 un jaunākās, varat arī automatizēt programmu izvietošanu un/vai konfigurāciju. Šī pieeja varētu būt ērta, ja pārvaldāt daudzas ierīces un izmantojat mobilās ierīces pārvaldības un mobilās lietojumprogrammas pārvaldības risinājumu, piemēram, [Microsoft Intune](/mem/intune/fundamentals/what-is-intune). Papildinformāciju par Intune izmantošanu, lai pievienotu lietojumprogrammas, skatiet [Programmu pievienošana Microsoft Intune](/mem/intune/apps/apps-add).
+Mazākiem izvietojumiem, iespējams, vēlēsities instalēt programmu no katras ierīces attiecīgā veikala un pēc tam manuāli konfigurēt savienojumu ar jūsu izmantotajām vidēm. Tomēr, noliktavas programmas versijā 1.7.0.0 un jaunākās, varat arī automatizēt programmu izvietošanu un/vai konfigurāciju. Šī pieeja varētu būt ērta, ja pārvaldāt daudzas ierīces un izmantojat mobilās ierīces pārvaldības un mobilās lietojumprogrammas pārvaldības risinājumu, piemēram, [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Papildinformāciju par Intune izmantošanu, lai pievienotu lietojumprogrammas, skatiet [Programmu pievienošana Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-add).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Tīmekļa pakalpojuma lietojumprogrammas izveide pakalpojumā Azure Active Directory
 
@@ -64,36 +64,36 @@ Lai noliktavas programma varētu mijiedarboties ar noteiktu Supply Chain Managem
 1. Ievadiet tā lietotāja vārdu un paroli, kuram ir piekļuve Azure abonementam.
 1. Azure portāla kreisajā navigācijas rūtī atlasiet **Azure Active Directory**.
 
-    ![Azure Active Directory.](media/app-connect-azure-aad.png "Azure Active Directory")
+    ![Azure Active Directory](media/app-connect-azure-aad.png "Azure Active Directory")
 
 1. Pārliecinieties, ka strādājat ar Azure AD instanci, kas izmantota programmatūrā Supply Chain Management.
 1. Sarakstā **Pārvaldīt** atlasiet **Programmu reģistrācijas**.
 
-    ![Programmu reģistrācijas.](media/app-connect-azure-register.png "Programmu reģistrācijas")
+    ![Programmu reģistrācijas](media/app-connect-azure-register.png "Programmu reģistrācijas")
 
 1. Rīkjoslā atlasiet **Jauna reģistrācija**, lai atvērtu vedni **Lietojumprogrammas reģistrācija**.
 1. Ievadiet lietojumprogrammas nosaukumu, atlasiet opciju **Konti tikai šajā organizatoriskajā direktorijā** un pēc tam atlasiet **Reģistrs**.
 
-    ![Lietojumprogrammas reģistrācijas vednis.](media/app-connect-azure-register-wizard.png "Lietojumprogrammas reģistrācijas vednis")
+    ![Lietojumprogrammas reģistrācijas vednis](media/app-connect-azure-register-wizard.png "Lietojumprogrammas reģistrācijas vednis")
 
 1. Tiek atvērta jūsu jaunā programmas reģistrācija. Pierakstiet **Lietojumprogrammas (klienta) ID** vērtību, jo tā būs nepieciešama vēlāk. Šis ID turpmāk šajā tēmā tiks dēvēts kā *klienta ID*.
 
-    ![Lietojumprogrammas (klienta) ID.](media/app-connect-azure-app-id.png "Lietojumprogrammas (klienta) ID")
+    ![Lietojumprogrammas (klienta) ID](media/app-connect-azure-app-id.png "Lietojumprogrammas (klienta) ID")
 
 1. Sarakstā **Pārvaldīt** atlasiet **Sertifikāts & noslēpumi**. Pēc tam atlasiet vienu no tālāk norādītajām pogām, atkarībā no tā, kā vēlaties konfigurēt programmu autentifikācijai. (Papildinformāciju skatiet sadaļā [Autentificēt, izmantojot sertifikātu vai klienta noslēpumu](#authenticate) šīs tēmas turpinājumā.)
 
     - **Augšupielādēt sertifikātu** – augšupielādēt sertifikātu, ko izmantot kā noslēpumu. Ir ieteicams izmanto šo pieeju, jo tā ir drošāka un to var arī pilnīgāk automatizēt. Ja izmantojat noliktavas programmu Windows ierīcēs, pierakstiet **Nospiedums** vērtību, kas tiek parādīta pēc sertifikāta augšupielādes. Šī vērtība būs nepieciešama, konfigurējot sertifikātu Windows ierīcēs.
     - **Jauns klienta noslēpums** – izveidojiet atslēgu, ievadot atslēgas aprakstu un ilgumu sadaļā **Paroles**, un pēc tam atlasiet **Pievienot**. Izveidojiet atslēgas kopiju un glabājiet to drošībā.
 
-    ![Sertifikāts & noslēpumi.](media/app-connect-azure-authentication.png "Sertifikāts & noslēpumi")
+    ![Sertifikāts & noslēpumi](media/app-connect-azure-authentication.png "Sertifikāts & noslēpumi")
 
 Papildinformāciju par to, kā iestatīt tīmekļa pakalpojuma lietojumprogrammas Azure AD, skatiet tālāk norādītos resursus:
 
-- Instrukcijas, kurās parādīts, kā izmantot Windows PowerShell, lai Azure AD iestatītu tīmekļa pakalpojumu lietojumprogrammas, skatiet [Kā: izmantot Azure PowerShell, lai izveidotu pakalpojuma vadītāju ar sertifikātu](/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
+- Instrukcijas, kurās parādīts, kā izmantot Windows PowerShell, lai Azure AD iestatītu tīmekļa pakalpojumu lietojumprogrammas, skatiet [Kā: izmantot Azure PowerShell, lai izveidotu pakalpojuma vadītāju ar sertifikātu](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
 - Pilnīgu informāciju par to, kā manuāli izveidot tīmekļa pakalpojumu lietojumprogrammu programmā Azure AD, skatiet tālāk norādītās tēmas:
 
-    - [Īsa pamācība: lietojumprogrammas reģistrācija platformā Microsoft Identity](/azure/active-directory/develop/quickstart-register-app)
-    - [Kā: izmantot portālu, lai izveidotu Azure AD lietojumprogrammu un pakalpojuma vadītāju, kas var piekļūt resursiem](/azure/active-directory/develop/howto-create-service-principal-portal)
+    - [Īsa pamācība: lietojumprogrammas reģistrācija platformā Microsoft Identity](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)
+    - [Kā: izmantot portālu, lai izveidotu Azure AD lietojumprogrammu un pakalpojuma vadītāju, kas var piekļūt resursiem](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)
 
 ## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>Izveidot un konfigurēt lietotāja kontu programmatūrā Supply Chain Management
 
@@ -105,7 +105,7 @@ Lai jūsu Azure AD lietojumprogrammu varētu izmantot Supply Chain Management, r
     1. Izveidojiet lietotāju.
     1. Piešķiriet noliktavas mobilās ierīces lietotāju.
 
-    ![Piešķiriet noliktavas mobilās ierīces lietotāju.](media/app-connect-app-users.png "Piešķiriet noliktavas mobilās ierīces lietotāju")
+    ![Piešķiriet noliktavas mobilās ierīces lietotāju](media/app-connect-app-users.png "Piešķiriet noliktavas mobilās ierīces lietotāju")
 
 1. Saistiet savu Azure AD lietojumprogrammu ar noliktavas programmas lietotāju:
 
@@ -113,7 +113,7 @@ Lai jūsu Azure AD lietojumprogrammu varētu izmantot Supply Chain Management, r
     1. Izveidojiet rindu.
     1. Ievadiet klienta ID, kuram veicāt piezīmi iepriekšējā sadaļā, piešķiriet tam nosaukumu un atlasiet tikko izveidoto lietotāju. Ieteicams atzīmēt visas jūsu ierīces. Pēc tam, to nozaudēšanas gadījumā, varēsit viegli liegt to piekļuvi Supply Chain Management, izmantojot šo lapu.
 
-    ![Azure Active Directory lietojumprogrammas.](media/app-connect-aad-apps.png "Azure Active Directory pieteikumi")
+    ![Azure Active Directory lietojumprogrammas](media/app-connect-aad-apps.png "Azure Active Directory pieteikumi")
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Autentificēt, izmantojot sertifikātu vai klienta noslēpumu
 
@@ -121,7 +121,7 @@ Autentifikācija ar Azure AD nodrošina drošu veidu, kā pievienot mobilo ierī
 
 Sertifikātus var izmantot kā noslēpumus, lai pierādītu lietojumprogrammas identitāti, kad tiek pieprasīta pilnvara. Sertifikāta publiskā daļa tiek augšupielādēta programmu reģistrācijā Azure portālā, savukārt pilnais sertifikāts ir jāizvieto katrā ierīcē, kurā ir instalēta noliktavas programma. Jūsu organizācija ir atbildīga par sertifikāta pārvaldību attiecībā uz rotāciju un tā tālāk. Varat izmantot pašparakstītus sertifikātus, bet vienmēr izmantojiet neeksportējamus sertifikātus.
 
-Sertifikātam ir jābūt pieejamam lokāli katrā ierīcē, kurā tiek palaista noliktavas programma. Papildinformāciju par to, kā pārvaldīt Intune kontrolēto ierīču sertifikātus, ja lietojat Intune, skatiet sadaļā [Sertifikātu izmantošana autentifikācijai programmā Microsoft Intune](/mem/intune/protect/certificates-configure).
+Sertifikātam ir jābūt pieejamam lokāli katrā ierīcē, kurā tiek palaista noliktavas programma. Papildinformāciju par to, kā pārvaldīt Intune kontrolēto ierīču sertifikātus, ja lietojat Intune, skatiet sadaļā [Sertifikātu izmantošana autentifikācijai programmā Microsoft Intune](https://docs.microsoft.com/mem/intune/protect/certificates-configure).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Konfigurējiet lietojumprogrammu, importējot savienojuma iestatījumus
 
@@ -136,7 +136,7 @@ Varat importēt savienojuma iestatījumus no faila vai QR koda. Abām pieejām v
 | ConnectionName | Norādiet savienojuma iestatījumu nosaukumu. Maksimālais garums ir 20 rakstzīmes. Tā kā šī vērtība ir unikāls savienojuma iestatījumu identifikators, pārliecinieties, vai tas sarakstā ir unikāls. Ja ierīcē jau pastāv savienojums ar tādu pašu nosaukumu, importētā faila iestatījumi to ignorēs. |
 | ActiveDirectoryClientAppId | Norādiet klienta ID, kuru pierakstījāt, iestatot Azure AD, sadaļā [Tīmekļa pakalpojuma lietojumprogrammas izveide pakalpojumā Azure Active Directory](#create-service). |
 | ActiveDirectoryResource | Norādiet Supply Chain Management saknes vietrādi URL. |
-| ActiveDirectoryTenant | Norādiet Azure AD domēna nosaukumu, kuru izmantojat ar Supply Chain Management serveri. Šīs vērtības forma ir `https://login.windows.net/<your-Azure-AD-domain-name>`. Tālāk minēts piemērs: `https://login.windows.net/contosooperations.onmicrosoft.com`. Papildinformāciju par to, kā atrast Azure AD domēna nosaukumu, skatiet sadaļā [Svarīgu lietotāja ID atrašana](/partner-center/find-ids-and-domain-names). |
+| ActiveDirectoryTenant | Norādiet Azure AD nomnieku, kuru izmantojat ar Supply Chain Management serveri. Šīs vērtības forma ir `https://login.windows.net/<your-Azure-AD-tenant-ID>`. Tālāk minēts piemērs: `https://login.windows.net/contosooperations.onmicrosoft.com`. |
 | Uzņēmums | Norādiet to juridisko personu programmatūrā Supply Chain Management, ar kuru lietojumprogrammai ir jāizveido savienojums. |
 | ConnectionType | (Neobligāti) Norādiet, vai savienojuma iestatījumam jāizmanto sertifikāts vai klienta noslēpums, lai izveidotu savienojumu ar vidi. Derīgās vērtības ir *"certificate"* un *"clientsecret"*. Noklusējuma vērtība ir *"certificate"*.<p>**Piezīme:** klienta noslēpumus nevar importēt.</p> |
 | IsEditable | (Neobligāti) Norādiet, vai programmas lietotājs var rediģēt savienojuma iestatījumus. Derīgās vērtības ir *"true"* un *"false"*. Noklusējuma vērtība ir *"true"*. |
@@ -201,26 +201,26 @@ Lai importētu savienojuma iestatījumus no faila vai QR koda, rīkojieties šā
 1. Dodieties uz **Savienojuma iestatījumi**.
 1. Opciju **Izmantot demonstrācijas režīmu** iestatiet uz _Nē_.
 
-    ![Izmantot demonstrācijas režīma opciju.](media/app-connect-app-demo-mode.png "Izmantot demonstrācijas režīma opciju")
+    ![Izmantot demonstrācijas režīma opciju](media/app-connect-app-demo-mode.png "Izmantot demonstrācijas režīma opciju")
 
 1. Atlasiet **Atlasīt failu** vai **Skenēt QR kodu**, atkarībā no tā, kā vēlaties importēt iestatījumus:
 
     - Ja importējat savienojuma iestatījumus no faila, iespējams, programma jau ir atradusi failu, ja pēc saglabāšanas tika izmantots noklusējuma nosaukums un noklusējuma atrašanās vieta. Pretējā gadījumā atlasiet **Atlasīt failu**, pārlūkojiet failu jūsu lokālajā ierīcē un atlasiet to. Ja atlasīsit pielāgotu atrašanās vietu, programma to saglabās un automātiski izmantos nākamreiz.
     - Ja importējat savienojuma iestatījumus, skenējot QR kodu, atlasiet **Skenēt QR kodu**. Programma pieprasa atļauju izmantot ierīces kameru. Pēc atļaujas piešķiršanas, kamera tiek startēta, lai to izmantotu skenēšanai. Atkarībā no ierīces kameras kvalitātes un QR koda sarežģītības, var izrādīties grūti iegūt pareizu skenējumu. Šādā gadījumā mēģiniet samazināt QR koda sarežģītību, ģenerējot tikai vienu savienojumu katram QR kodam. (Pašlaik QR koda skenēšanai var izmantot tikai ierīces kameru.)
 
-    ![Savienojuma iestatījumu importēšana.](media/app-connect-app-select-file.png "Savienojuma iestatījumu importēšana")
+    ![Savienojuma iestatījumu importēšana](media/app-connect-app-select-file.png "Savienojuma iestatījumu importēšana")
 
 1. Kad savienojuma iestatījumi ir veiksmīgi ielādēti, lapas augšējā kreisajā stūrī atlasiet pogu **Atgriezties** (kreisā bultiņa).
 
-    ![Savienojuma iestatījumu ielādēšana.](media/app-connect-app-settings-loaded.png "Savienojuma iestatījumu ielādēšana")
+    ![Savienojuma iestatījumu ielādēšana](media/app-connect-app-settings-loaded.png "Savienojuma iestatījumu ielādēšana")
 
 1. Ja izmantojat Android ierīci un autentifikācijai izmantojat sertifikātu, ierīce piedāvā izvēlēties sertifikātu.
 
-    ![Izvēlēties Android ierīcē piedāvāto sertifikātu.](media/app-connect-app-choose-cert.png "Izvēlēties Android ierīcē piedāvāto sertifikātu")
+    ![Izvēlēties Android ierīcē piedāvāto sertifikātu](media/app-connect-app-choose-cert.png "Izvēlēties Android ierīcē piedāvāto sertifikātu")
 
 1. Programma izveido savienojumu ar jūsu Supply Chain Management serveri un parāda pierakstīšanās lapu.
 
-    ![Pierakstīšanās lapa.](media/app-connect-sign-in.png "Pierakstīšanās lapa")
+    ![Pierakstīšanās lapa](media/app-connect-sign-in.png "Pierakstīšanās lapa")
 
 ## <a name="manually-configure-the-application"></a><a name="config-manually"></a>Lietojumprogrammas manuāla konfigurēšana
 
@@ -230,11 +230,11 @@ Ierīcē instalēto programmu var manuāli konfigurēt, lai izveidotu savienojum
 1. Dodieties uz **Savienojuma iestatījumi**.
 1. Opciju **Izmantot demonstrācijas režīmu** iestatiet uz _Nē_.
 
-    ![Demonstrācijas režīms izslēgts.](media/app-connect-app-select-file.png "Demonstrācijas režīms izslēgts")
+    ![Demonstrācijas režīms izslēgts](media/app-connect-app-select-file.png "Demonstrācijas režīms izslēgts")
 
 1. Pieskarieties laukā **Atlasīt savienojumu**, lai izvērstu iestatījumus, kas nepieciešami savienojuma datu manuālai ievadīšanai.
 
-    ![Manuālā savienojuma lauki.](media/app-connect-manual-connect.png "Manuālā savienojuma lauki")
+    ![Manuālā savienojuma lauki](media/app-connect-manual-connect.png "Manuālā savienojuma lauki")
 
 1. Ievadiet sekojošo informāciju:
 
@@ -248,7 +248,7 @@ Ierīcē instalēto programmu var manuāli konfigurēt, lai izveidotu savienojum
         > [!NOTE]
         > Nebeigt šo vērtību ar slīpsvītru (/).
 
-    - **Aktīvs direktorija nomnieks** – ievadiet Azure AD nomnieku, kuru izmantojat ar Supply Chain Management serveri. Šīs vērtības forma ir `https://login.windows.net/<your-Azure-AD-domain-name>`. Tālāk minēts piemērs: `https://login.windows.net/contosooperations.onmicrosoft.com`. Papildinformāciju par to, kā atrast Azure AD domēna nosaukumu, skatiet sadaļā [Svarīgu lietotāja ID atrašana](/partner-center/find-ids-and-domain-names).
+    - **Active direktorija nomnieks** – ievadiet Azure AD nomnieku, kuru izmantojat ar Supply Chain Management serveri. Šīs vērtības forma ir `https://login.windows.net/<your-Azure-AD-tenant-ID>`. Tālāk minēts piemērs: `https://login.windows.net/contosooperations.onmicrosoft.com`.
 
         > [!NOTE]
         > Nebeigt šo vērtību ar slīpsvītru (/).
@@ -274,6 +274,3 @@ Gadījumā, ja ierīce ir nozaudēta vai apdraudēta, ir jāliedz šīs ierīces
 1. Pārliecinieties, vai lietojumprogrammas klienta ID atbilst klienta ID, kuru pierakstījāt 2. darbībā.
 1. Rīkjoslā atlasiet **Dzēst**.
 1. Parādītajā apstiprinājuma ziņojumā atlasiet **Jā**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

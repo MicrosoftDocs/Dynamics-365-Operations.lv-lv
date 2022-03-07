@@ -2,15 +2,12 @@
 title: Transakcijas aizturēšana vai atsākšana pārdošanas punktā (POS)
 description: Šajā tēmā ir paskaidrots, kā lietotāji var aizturēt notiekošas transakcijas un tās atsākt vēlāk vai citā kases sistēmā, izmantojot Dynamics 365 Commerce.
 author: jblucher
-manager: AnnBe
 ms.date: 11/27/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 261234
 ms.assetid: 7cd68ecc-cc09-48ab-8cb8-48d5c304effa
 ms.search.region: global
@@ -18,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f513e2d857908f2b95d27bf48ff1e826724d7cbf
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fdb693cb3b7520a9850d3e37dd512fc5b2a847f3
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414134"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5798661"
 ---
 # <a name="suspend-and-resume-a-transaction-in-the-point-of-sale-pos"></a>Transakcijas aizturēšana vai atsākšana pārdošanas punktā (POS)
 
@@ -82,3 +79,6 @@ Lai ātri un viegli atsauktu aizturētu transakciju, noskenējiet drukātās pav
 ### <a name="void-a-suspended-transaction"></a>Aizturētas transakcijas anulēšana
 
 Aizturētās transakcijas varat anulēt, vai nu atsaucot transakciju un pēc tam veicot operāciju **Transakcijas anulēšana**, vai atlasot transakciju sarakstā **Transakcijas atsaukšana** un programmas joslā atlasot **Anulēt**. Var arī konfigurēt veikalu tā, lai lietotājiem piedāvātu anulēt aizturētās transakcijas, kad lietotāji slēdz maiņu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

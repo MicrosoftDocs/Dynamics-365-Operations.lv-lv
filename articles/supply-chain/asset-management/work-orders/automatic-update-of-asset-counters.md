@@ -1,12 +1,10 @@
 ---
 title: Līdzekļu skaitītāju automātiska atjaunināšana
 description: Šajā tēmā aprakstīta automātiska līdzekļu skaitītāju atjaunināšana programmā Asset Management.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d3e8619439545cf3ea42f84a6dd7ee6ffdf1026e
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: d1e8a3b34cb359b7ea7f7181d2308f8e021f3c95
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021934"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359129"
 ---
 # <a name="automatic-update-of-asset-counters"></a>Pamatlīdzekļu skaitītāju automātiska atjaunināšana
 
@@ -51,7 +49,7 @@ Kā minēts iepriekš, automātisko skaitītāju vērtības var arī atjaunināt
 
     Attēlā zemāk ir parādīts dialoglodziņš **Atjaunināt līdzekļu skaitītājus**.
 
-    ![1. attēls](media/12-work-orders.png)
+    ![1. attēls.](media/12-work-orders.png)
 
 5. Atlasiet **Labi**. 
 
@@ -61,7 +59,7 @@ Lapā **Līdzekļu apkopotā vērtība** ir pārskats par jaunāko reģistrācij
 
 Attēlā zemāk ir parādīta lapa **Līdzekļu apkopotā vērtība**.
 
-![2. attēls](media/13-work-orders.png)
+![2. attēls.](media/13-work-orders.png)
 
 Ņemiet vērā šādus punktus:
 
@@ -69,3 +67,6 @@ Attēlā zemāk ir parādīta lapa **Līdzekļu apkopotā vērtība**.
 
 - Varat iestatīt skaitītājus, kas ir saistīti ar citu skaitītāju. Šādā gadījumā, atjauninot skaitītāju, vienlaikus automātiski tiek atjaunināti saistītie skaitītāji. Papildinformāciju par to, kā iestatīt saistītos skaitītājus, skatiet tēmā [Skaitītāji](../setup-for-objects/counters.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,29 +2,28 @@
 title: Lojalitātes programmas pārskats
 description: Šajā tēmā ir aprakstītas lojalitātes programmas iespējas programmā Dynamics 365 Commerce un atbilstošās iestatīšanas darbības, kas palīdz mazumtirgotājam viegli sākt darbu ar savām lojalitātes programmām.
 author: scott-tucker
-manager: AnnBe
 ms.date: 07/21/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailLoyaltyPrograms, RetailPriceDiscGroup
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
-ms.custom: 16201
+ms.custom:
+- "16201"
+- intro-internal
 ms.assetid: f79559d2-bc2d-4f0b-a938-e7a61524ed80
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 119046ee2b783e6a4b868fff2b1d7a1b59966e7b
-ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
-ms.translationtype: HT
+ms.openlocfilehash: 57512bbd735e26ba31e00518ca8179f2d9b14bc4
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4414175"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985166"
 ---
 # <a name="loyalty-overview"></a>Lojalitātes programmas apskats
 
@@ -44,7 +43,7 @@ Lojalitātes programmu var iestatīt tā, lai tajā būtu ietvertas tālāk apra
 
 Lai iespējotu lojalitātes programmas līdzekli programmā Commerce, ir jāiestata vairāki komponenti. Šajā diagrammā redzami lojalitātes programmas komponenti un tas, kā tie saistīti viens ar otru.
 
-![Lojalitātes iestatīšanas procesa plūsma](./media/loyaltyprocess.gif "Lojalitātes programmas komponenti un kā tie saistīti cits ar citu")
+![Lojalitātes iestatīšanas procesa plūsma.](./media/loyaltyprocess.gif "Lojalitātes programmas komponenti un kā tie saistīti cits ar citu")
 
 ## <a name="loyalty-components"></a>Lojalitātes komponenti
 
@@ -83,15 +82,15 @@ Lai iespējotu lojalitātes programmas līdzekli programmā Commerce, ir jāiest
     > [!NOTE]
     > Lojalitātes shēmā ietvertās nopelnīšanas kārtulas ir papildinošas. Piemēram, ja ir izveidota kārtula zelta pakāpes dalībniekam kā atlīdzību piešķirt 10 punktus par katru ASV dolāru, un ja ir izveidota arī kārtula klientam ar piederību “veterāns” kā atlīdzību piešķirt 5 punktus par katru ASV dolāru, tad veterāns, kurš ir arī dalībnieks ar zelta pakāpi, nopelnītu 15 punktus par 1 ASV dolāru, jo šis klients ir kvalificēts abām rindām. Taču, ja klients–veterāns nebūtu zelta pakāpes dalībnieks, šis klients nopelnītu 5 punktus par katru dolāru. Lai atspoguļotu izmaiņas kanālos, palaidiet darbu **Apstrādāt lojalitātes shēmas** un **1050** (informācija par lojalitātes programmu).
     
-    ![Piederībā balstīta peļņa](./media/Affiliation-based-earning.png "Piederībā balstīta peļņa")
+    ![Piederībā balstīta peļņa.](./media/Affiliation-based-earning.png "Piederībā balstīta peļņa")
 
 - Mazumtirgotājiem bieži vien ir īpašas cenas noteiktai klientu grupai, kuriem mazumtirgotāji nevēlas piemērot lojalitātes programmas. Šāda grupa varētu būt, piemēram, vairumtirgotāji vai darbinieki, kas saņem īpašu izcenojumu un lojalitātes programmas punktus. Parasti “piederības” tiek izmantotas, lai šādām klientu grupām nodrošinātu īpašu izcenojumu. Lai noteiktām klientu grupām liegtu iespēju pelnīt lojalitātes programmas punktus, mazumtirgotājs var norādīt vienu vai vairākas piederības savas lojalitātes programmas shēmas sadaļā **Izslēgtās piederības**. Tādējādi, ja klienti, kas ir ietverti kādā izslēgtā piederībā, ir pastāvošas lojalitātes programmas dalībnieki, viņi nevarēs nopelnīt lojalitātes programmas punktus par saviem pirkumiem. Lai atspoguļotu izmaiņas kanālos, palaidiet darbu **Apstrādāt lojalitātes shēmas** un **1050** (informācija par lojalitātes programmu).
 
-    ![Izslēgtās piederības](./media/Excluded-affiliations.png "Izslēgt piederības no lojalitātes programmas punktu pelnīšanas")
+    ![Izslēgtās piederības.](./media/Excluded-affiliations.png "Izslēgt piederības no lojalitātes programmas punktu pelnīšanas")
     
 - Pārdošanas punkts ļauj mazumtirgotāju elastībai izmantot fiziskās lojalitātes programmas kartes vai automātiski ģenerēt unikālu lojalitātes programmas kartes numuru. Lai iespējotu lojalitātes programmas karšu automātisko ģenerēšanu veikalos, ar veikalu saistītajā funkcionalitātes profilā ieslēdziet opciju **Ģenerēt lojalitātes programmas kartes numuru**. Lai izsniegtu lojalitātes programmas kartes klientiem tiešsaistes kanālos, mazumtirgotāji var izmantot IssueLoyaltyCard API. Mazumtirgotāji var nodrošināt šim API lojalitātes programmas kartes numuru, kas tiks izmantots lojalitātes programmas kartes ģenerēšanai, vai arī sistēma izmanto programmā Commerce iestatīto lojalitātes programmas karšu numuru sēriju. Taču, ja API izsaukšanas laikā nav nevienas numuru sērijas un mazumtirgotājs nenorāda lojalitātes programmas kartes numuru, tiek parādīta kļūda.
 
-    ![Ģenerēt lojalitātes programmas karti](./media/Generate-loyalty-card.png "Automātiski ģenerēt lojalitātes programmas kartes numuru")
+    ![Ģenerēt lojalitātes programmas karti.](./media/Generate-loyalty-card.png "Automātiski ģenerēt lojalitātes programmas kartes numuru")
 
 - Nopelnītie un izpirktie lojalitātes programmas punkti tiek saglabāti par katru transakciju un pārdošanas pasūtījumu attiecībā pret pārdošanas rindu, tādēļ pilnīgas vai daļējas preču atgriešanas gadījumā var atlīdzināt vai atņemt to pašu summu. Turklāt šī punktu redzamība pārdošanas rindas līmenī sniedz iespēju zvanu centra lietotājiem atbildēt uz klientu jautājumiem par to, cik punktu katrai rindai tika nopelnīti vai izpirkti. Pirms šo izmaiņu ieviešanas atlīdzības punkti vienmēr tika pārrēķināti preču atgriešanas laikā, tādēļ tika iegūta no sākotnējās atšķirīga summa, ja nopelnīšanas vai izpirkšanas kārtulas bija mainītas, un zvanu centra lietotājiem nebija redzams punktu sadalījums. Punktus katrai lojalitātes programmas kartei var apskatīt formā **Karšu transakcijas**. Lai iespējotu šo līdzekli, ieslēdziet konfigurācijas opciju **Grāmatot lojalitātes punktus par katru pārdošanas rindu** cilnē **Commerce koplietojamie parametri** \> **Vispārīgi**.
 
@@ -102,33 +101,33 @@ Lai iespējotu lojalitātes programmas līdzekli programmā Commerce, ir jāiest
 
 Turklāt mazumtirgotāji var definēt maksimālo lojalitātes programmas atlīdzības punktu ierobežojumu vienai lojalitātes programmas kartei. Šo lauku var izmantot, lai samazinātu lojalitātes programmas krāpšanas ietekmi. Kad ir sasniegts maksimālais piešķiramo punktu skaits, lietotājs nevar nopelnīt vairāk punktu. Mazumtirgotājs var izlemt bloķēt šādas kartes, līdz ir veikta izmeklēšana par potenciālu krāpšanu. Ja mazumtirgotājs konstatē krāpšanu, mazumtirgotājs var bloķēt šī klienta lojalitātes programmas karti un atzīmēt kā bloķētu pašu klientu. Lai to izdarītu, kopsavilkuma cilnes **Komercija** sadaļā **Visi debitori** rekvizītu **Bloķēt klientam reģistrēšanos lojalitātes programmā** iestatiet uz **Jā**. Bloķētajiem klientiem nevarēs izsniegt lojalitātes programmas karti nevienā no kanāliem.
 
-   ![Garantēšanas un maksimālās atlīdzības punkti](./media/Vesting-and-maximum-reward-points.png "Garantēšanas un maksimālās atlīdzības punktu definēšana")
+   ![Garantēšanas un maksimālās atlīdzības punkti.](./media/Vesting-and-maximum-reward-points.png "Garantēšanas un maksimālās atlīdzības punktu definēšana")
 
 - Piederības tiek izmantotas, lai nodrošinātu īpašu izcenojumu un atlaides, bet pastāv dažas piederības, kuras mazumtirgotāji nevēlaties rādīt saviem klientiem. Piemēram, dažiem klientiem varētu nepatikt piederība ar nosaukumu “Daudz tērējošs klients”. Turklāt pastāv dažas piederības, ko nevajadzētu pārvaldīt veikalā, piemēram, piederību “darbinieki”, jo jūs nevēlaties, lai kasieri varētu izlemt, kurš ir darbinieks, līdz ar to piešķirot uz darbinieka statusu balstītas atlaides. Tagad mazumtirgotāji var atlasīt piederības, kuras kanālos būtu jāslēpj. Piederības, kas ir atzīmētas kā **Slēpt kanālos**, nevar skatīt, pievienot vai noņemt pārdošanas punktos (POS). Taču precēm tik un tā tiek izmantoti ar piederību saistītie izcenojumi un atlaides.
 
-    ![Slēpt piederības](./media/Hide-affiliations.png "Slēpt piederības kanālos")
+    ![Slēpt piederības.](./media/Hide-affiliations.png "Slēpt piederības kanālos")
     
 - Zvanu centra lietotāji tagad var vienkāršāk meklēt klientu, izmantojot informāciju par klienta lojalitātes programmas karti, un pāriet uz klienta lojalitātes programmas kartes un lojalitātes programmas transakciju lapām no lapas **Klientu apkalpošana**.
 
-    ![Klientu apkalpošana](./media/Customer-service.png "Klienta lojalitātes programmas informācijas atrašana")
+    ![Klientu apkalpošana.](./media/Customer-service.png "Klienta lojalitātes programmas informācijas atrašana")
     
 - Ja lojalitātes programmas karte ir bojāta, ir nepieciešams ģenerēt aizstāšanas karti un esošos punktus pārsūtīt uz jauno karti. Šajā laidienā aizstāšanas kartes plūsma ir vienkāršota. Turklāt klienti dažus vai visus savus lojalitātes programmas punktus var dāvināt draugiem un ģimenes locekļiem. Kad punkti tiek pārsūtīti, katrai lojalitātes programmas kartei tiek izveidoti punktu korekcijas ieraksti. Aizstāšanas kartes un pārsūtīšanas bilances funkcionalitātei var piekļūt no lapas **Lojalitātes programmas kartes**.
 
-    ![Aizstāt un pārsūtīt punktus](./media/Replace-and-transfer-points.png "Aizstāt lojalitātes programmas karti vai pārsūtīt bilanci")
+    ![Aizstāt un pārsūtīt punktus.](./media/Replace-and-transfer-points.png "Aizstāt lojalitātes programmas karti vai pārsūtīt bilanci")
     
 - Mazumtirgotājiem var būt nepieciešamība tvert informāciju par konkrēta kanāla efektivitāti attiecībā uz klientu reģistrēšanu lojalitātes programmā. Tagad tiek saglabāts lojalitātes programmu karšu reģistrācijas avots, tādēļ mazumtirgotāji var izmantot šos datus pārskatiem. Reģistrācijas avots tiek automātiski tverts visām izsniegtajām lojalitātes programmas kartēm no MPOS/CPOS vai e-komercijas kanāliem. Lojalitātes programmas kartēm, kas tiek izsniegtas no dokumentu apstrādes biroja programmas, zvanu centra lietotājs var atlasīt atbilstošu kanālu.
 - Iepriekšējos laidienos mazumtirgotāji varēja izmantot MPOS/CPOS, lai izpirktu lojalitātes programmas punktus klientiem veikalā. Taču, tā kā lojalitātes programmas bilance tiek rādīta kā lojalitātes punktu skaits, šajos laidienos kasieris nevarēja redzēt valūtas vērtību tai summai, ko varētu lietot attiecībā uz pašreizējo transakciju. Pirms lojalitātes programmas punktu izmaksāšanas kasierim šie punkti bija jākonvertē valūtā. Pašreizējā laidienā, kad rindas ir pieskaitītas transakcijai, kasieris var redzēt, kādu lojalitātes programmas punktu summu var izmantot pašreizējās transakcijas segšanai, tādēļ transakcijai var ērti lietot dažus vai visus lojalitātes programmas punktus. Turklāt kasieris var redzēt punktus, kuru derīgums beigsies nākamo 30 dienu laikā, tādēļ kasieris var veikt papildu pārdošanu un šķērspārdošanu, lai motivētu klientu transakcijā iztērēt punktus, kam beidzas derīguma termiņš.
 
-    ![Punkti, ko var apmaksāt ar lojalitātes bilanci](./media/Points-covered-by-loyalty-balance.png "Parādīt bilanci, ko var apmaksāt ar lojalitātes programmas punktiem")
+    ![Punkti, ko var apmaksāt ar lojalitātes bilanci.](./media/Points-covered-by-loyalty-balance.png "Parādīt bilanci, ko var apmaksāt ar lojalitātes programmas punktiem")
 
-    ![Punkti, kuriem beidzas derīguma termiņš](./media/Expiring-points.png "Skatīt punktus, kuriem beidzas derīgums")
+    ![Punkti, kuriem beidzas derīguma termiņš.](./media/Expiring-points.png "Skatīt punktus, kuriem beidzas derīgums")
 
 - Versijas 8.1.3 laidienā zvanu centra kanālā ir iespējota opcija Maksāt ar lojalitātes programmas punktiem. Lai iespējotu šo opciju, izveidot lojalitātes programmas norēķinu veidu un saistiet to ar zvanu centru. 
 
     > [!NOTE]
     > Tā kā lojalitātes programmas maksājumi ir iestatīti kā maksājumu ar karti, lapā **Kartes iestatīšana** ir jāatlasa kāda karte. 
 
-    ![Lojalitātes programmas karte iestatīšana](./media/LoyaltyCardSetup.png "Lojalitātes programmas kartes iestatīšana")
+    ![Lojalitātes programmas karte iestatīšana.](./media/LoyaltyCardSetup.png "Lojalitātes programmas kartes iestatīšana")
 
     Pēc šo iestatījumu veikšanas debitori var izpirkt savus lojalitātes programmas punktus zvanu centrā. Turklāt esam vēl vairāk uzlabojuši lietotāju pieredzi, nodrošinot parametra Summa, ko var apmaksāt ar lojalitātes punktiem, lai zvanu centra lietotāji varētu skatīt lojalitātes programmas bilanci, nepārejot uz citu ekrānu.
 
@@ -145,9 +144,12 @@ Turklāt mazumtirgotāji var definēt maksimālo lojalitātes programmas atlīdz
     > Pašlaik sistēma prasa lietotājiem piespiedu kārtā iestatīt numuru sēriju citiem aktivitātes veidiem, taču turpmākajos laidienos tā nebūs obligāta darbība. Lai iestatītu numuru sēriju, pārejiet uz sadaļu **Commerce koplietojamie parametri** \> **Numuru sērijas** un atlasiet numuru sēriju vienumam **Lojalitātes programmas cita aktivitātes veida ID**.
 
 - Lai debitoriem nodrošinātu labu apkalpošanu un ātri izpildītu debitoru pieprasījumus, ir svarīgi kasierim nodrošināt piekļuvi visam debitora profilam. Versijas 10.0 laidienā kasieris varēs POS sistēmā skatīt lojalitātes programmas vēstures informāciju, kā arī informāciju par saistīto lojalitātes programmu un pakāpi.
-- Bezmaksas nosūtīšana vai nosūtīšana ar atlaidi ir viens no īpaši motivējošajiem faktoriem, lai klienti iepirktos tiešsaistē. Lai mazumtirgotāji varētu iestatīt piegādes akcijas, versijas 10.0 laidienā ir ieviests jauns akcijas veids ar nosaukumu “Piegādes sliekšņa atlaide”, kurā mazumtirgotājs var definēt sliekšņus, pēc kuru sasniegšanas debitori var saņemt piegādes atlaidi vai bezmaksas piegādi. Piemēram, bezmaksas piegāde divu dienu laikā pasūtījumiem virs 35 USD vai bezmaksas piegāde divu dienu laikā visiem lojalitātes programmas debitoriem. Šis līdzeklis izmanto jauno papildu automātisko maksu iespēju. Skatiet [dokumentāciju par papildu automātiskajām maksām](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges). Šīs papildu automātiskās maksas ir jāiespējo, lai darbotos piegādes akcija. Tās var iespējot, ieslēdzot konfigurācijas opciju Izmantot papildu automātiskās maksa lapas **Commerce parametri** cilnē **Debitoru pasūtījumi**. Turklāt, tā kā mazumtirgotājs var iestatīt vairākus maksu veidus, piemēram, apstrādes un uzstādīšanas maksas, mazumtirgotājam ir jānorāda, kura maksa tiek uzskatīta par piegādes maksu. Piegādes atlaides attiecas tikai uz piegādes maksām. Lai norādītu, ka maksas ir piegādes maksas, pārejiet uz formu **Maksas kodi**, kas ir pieejama sadaļā **Retail un Commerce** \> **Retail un Commerce IT** \> **Kanāla iestatīšana** \> **Maksas**, un atzīmējiet attiecīgās maksas izvēles rūtiņu Piegādes maksa. Tagad varat pāriet uz formu **Piegādes sliekšņa atlaide** un iestatīt atlaidi.
+- Bezmaksas nosūtīšana vai nosūtīšana ar atlaidi ir viens no īpaši motivējošajiem faktoriem, lai klienti iepirktos tiešsaistē. Lai mazumtirgotāji varētu iestatīt piegādes akcijas, versijas 10.0 laidienā ir ieviests jauns akcijas veids ar nosaukumu “Piegādes sliekšņa atlaide”, kurā mazumtirgotājs var definēt sliekšņus, pēc kuru sasniegšanas debitori var saņemt piegādes atlaidi vai bezmaksas piegādi. Piemēram, bezmaksas piegāde divu dienu laikā pasūtījumiem virs 35 USD vai bezmaksas piegāde divu dienu laikā visiem lojalitātes programmas debitoriem. Šis līdzeklis izmanto jauno papildu automātisko maksu iespēju. Skatiet [dokumentāciju par papildu automātiskajām maksām](/dynamics365/unified-operations/retail/omni-auto-charges). Šīs papildu automātiskās maksas ir jāiespējo, lai darbotos piegādes akcija. Tās var iespējot, ieslēdzot konfigurācijas opciju Izmantot papildu automātiskās maksa lapas **Commerce parametri** cilnē **Debitoru pasūtījumi**. Turklāt, tā kā mazumtirgotājs var iestatīt vairākus maksu veidus, piemēram, apstrādes un uzstādīšanas maksas, mazumtirgotājam ir jānorāda, kura maksa tiek uzskatīta par piegādes maksu. Piegādes atlaides attiecas tikai uz piegādes maksām. Lai norādītu, ka maksas ir piegādes maksas, pārejiet uz formu **Maksas kodi**, kas ir pieejama sadaļā **Retail un Commerce** \> **Retail un Commerce IT** \> **Kanāla iestatīšana** \> **Maksas**, un atzīmējiet attiecīgās maksas izvēles rūtiņu Piegādes maksa. Tagad varat pāriet uz formu **Piegādes sliekšņa atlaide** un iestatīt atlaidi.
 
     Līdzīgi kā preču atlaidēm, arī šai atlaidei ir pieejamas visas esošās standarta atlaides iespējas, piemēram, iespēja mazumtirgotājam ierobežot šīs atlaides, izmantojot kuponus, lai šīs atlaides varētu saņemt tikai tie debitori, kuriem ir kuponi. Turklāt šīm atlaidēm tiek izmantota cenu grupu iespēja, lai noteiktu piemērotību šo atlaižu saņemšanai. Piemēram, mazumtirgotājs var izvēlēties izpildīt šīs akcijas tikai tiešsaistes kanālos un/vai visos kanālos noteiktām debitoru grupām, piemēram, lojalitātes programmas debitoriem. Ja pasūtījuma rindas ar norādīto piegādes režīmu atbilst definētajam slieksnim, tiek lietota piegādes atlaide un piegādes maksas tiek samazinātas, pamatojoties uz iestatīto atlaidi. 
 
     > [!NOTE]
     > Atšķirībā no citām periodiskajām atlaidēm, piemēram, daudzuma, vienkāršajām, komplekta un sliekšņa atlaidēm, piegādes atlaides lietošanas gadījumā netiek pievienota atlaides rinda, bet gan tiek tiešā veidā rediģēta piegādes maksa un maksas aprakstam pievienots atlaides nosaukums.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

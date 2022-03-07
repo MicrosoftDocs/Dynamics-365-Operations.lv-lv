@@ -11,16 +11,17 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 6ea27f4e38697d517b1520176eb5dfeee651a598
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 9c1eef91bcf7d1ce6379e87417be5a8b3be069e5
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982154"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575636"
 ---
 # <a name="scheduling-with-infinite-capacity"></a>Plānošana ar neierobežotu noslodzi
 
 [!include [banner](../../includes/banner.md)]
+[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
 
 Līdzeklis *Neierobežotās noslodzes Plānošana optimizācija* ievieš plānošanu, kuras pamatā ir maršruta informācija. Tas ļauj plānot darbus, balstoties uz plašu maršruta iestatījumu diapazonu. Plānošana Plānošanas optimizācijai aptver bieži izmantotos maršruta iestatījumus, tostarp maršruta operāciju secību vai maršruta operāciju resursu prasības.
 
@@ -49,9 +50,7 @@ Plānošanas procesa laikā sistēma ņem vērā arī *resursu prasības*, kas n
 - Iespēja (Papildinformāciju par šo līdzekli skatiet tēmā [Plānošana ar iespējā balstītu resursu atlasi](capability-based-scheduling.md).)
 
 > [!NOTE]
->
-> - Ja resurss un/vai resursu grupa ir iestatīta uz neierobežotu noslodzi, vispārējā plānošana tos aplūkos kā neierobežotu noslodzi.
-> - Prasības, kas saistītas ar personāla resursiem, piemēram, prasmju vai sertifikātu prasības, vēl nav atbalstītas.
+> Prasības, kas saistītas ar personāla resursiem, piemēram, prasmju vai sertifikātu prasības, vēl nav atbalstītas.
 
 Līdzeklis atbalsta arī operāciju rekvizītus **Iestatīšanas laiks** un **Izpildes laiks**. Iestatot šos rekvizītus maršruta operācijā, plānošanas process izveidos atbilstošus iestatījumus un apstrādās darbus.
 

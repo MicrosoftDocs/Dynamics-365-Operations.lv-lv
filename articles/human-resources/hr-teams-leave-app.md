@@ -2,7 +2,7 @@
 title: Atvaļinājuma pieprasījumu pārvaldība programmā Teams
 description: Šajā tēmā parādīts, kā pieprasīt prombūtni Dynamics 365 Human Resources programmā Microsoft Teams.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d24c257054578282f1a2eafa050094194a358aa0
-ms.sourcegitcommit: 369639cd92e03fe792ed9d61a329d842aafa052f
+ms.openlocfilehash: 342106ad09db3a5d9c2dec8ab18e824d70e0f6bf
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4419632"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128165"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Atvaļinājuma pieprasījumu pārvaldība programmā Teams
 
@@ -196,7 +196,6 @@ Personāla vadības programmā risinājumā Teams ir šādas pieejamības probl�
 | --- | --- |
 | Tālummaiņa līdz 400% darbvirsmā slēpj dažas darbības pogas no skata. | Mēs iesakām izmantot lupu, kamēr mēs varam atbalstīt šo tālummaiņas līmeni. |
 | Cilnē **Pārtraukums** aizkadra balss paziņo par pogas darbību, kamēr tiek lasīts pārtraukuma režģa virsraksts. | Galvene un elementi režģī tiek grupēti pēc gada, un tie ir saliekami. Aizkadra balss to interpretē kā rīcībā esošu krājumu, bet tā nav. |
-| Ja jūs velkat, kamēr uznirstošais logs vai izvēlne ir atvērta, balss izlaiž uznirstošā loga vai izvēlnes satura nolasīšanu. | Pārlūkojiet saturu, izmantojot pirkstu skenēšanu. |
 | Cilnē **Pārtraukums** ir papildu vilkšanas žests, navigējot uz **Iemesla kodu** jaunā pieprasījumā. | Nav nevienas slēptas kontroles, ko vilkšanas navigācija mēģina iegūt. |
 | Ja cilnē **Pārtraukums** veicat vilkšanas žestu, kamēr ir atvērts kalendārs, jūs nokļūsiet ārpus vadīklas, nevis jauna pieprasījuma sākumā vai pieprasījuma rediģēšanā. | Kad sasniedzat **Doties uz šodienu**, ņemiet vērā, ka tās ir vadīklas beigas, pavelciet uz pretējo pusi, lai atgrieztos augšā. |
 | Aizkadra balss nelasa datumu etiķetes. | Pāra datumi vienmēr ir **Sākuma datums** un **Beigu datums**. |

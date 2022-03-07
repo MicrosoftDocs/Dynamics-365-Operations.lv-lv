@@ -2,15 +2,12 @@
 title: Uzlabota pēc partijas izsekoto krājumu apstrāde
 description: Šajā tēmā ir aprakstīti uzlabojumi, kas ieviesti pēc partijas izsekoto krājumu apstrādē, kura tiek veikta pārskata grāmatošanas procesa laikā.
 author: josaw1
-manager: AnnBe
 ms.date: 11/04/2019
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -18,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-28
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ecff18f0a34d22ef359f473fa6aaaff16c811bb6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2453ed711d47e062c82d3888ff471b770b5bb2ef
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459471"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799713"
 ---
 # <a name="improved-handling-of-batch-tracked-items"></a>Uzlabota pēc partijas izsekoto krājumu apstrāde
 
@@ -46,3 +43,6 @@ Lai definētu pārskatu grāmatošanas laikā pārdošanas pasūtījumu rēķino
 
 > [!NOTE]
 > Retail versijā 10.0.5. tika ieviests atbalsts uzlabotai pēc partijas izsekoto krājumu apstrādei izrakstu grāmatošanas laikā neuzlabotiem noliktavas pārvaldības scenārijiem.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

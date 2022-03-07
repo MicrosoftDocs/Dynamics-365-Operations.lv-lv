@@ -2,28 +2,19 @@
 title: Migrēt potenciālo klientu uz kases datiem no datu integrētāja uz duālo rakstīšanas metodi
 description: Šajā tēmā aprakstīts, kā migrēt potenciālo klientu uz skaidras naudas datiem no datu integrētāja uz duālo rakstīšanas metodi.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 01/04/2021
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2021-01-04
-ms.openlocfilehash: f1478f0246e7f1ff8bd72232cbaf4c2034cf4edb
-ms.sourcegitcommit: 6af7b37b1c8950ad706e684cc13a79e662985b34
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: d216f1c46aa3362730c126ffc33fefdddddf1853
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4959850"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416381"
 ---
 # <a name="migrate-prospect-to-cash-data-from-data-integrator-to-dual-write"></a>Migrēt potenciālo klientu uz kases datiem no datu integrētāja uz duālo rakstīšanas metodi
 
@@ -83,7 +74,7 @@ Tā kā dati no tabulas **Rēķini** ir paredzēti vienvirziena plūsmai no prog
 2. Kopējiet kolonnas **Pasūtījuma ID** vērtību CSV failā uz kolonnu **Pārdošanas pasūtījuma numura**.
 3. Kopējiet kolonnas **Pasūtījuma ID** vērtību CSV failā uz kolonnu **Rēķina debitora numurs**.
 4. Kopējiet CSV faila kolonnas **Nosūtīt uz valsti/reģionu** vērtību uz kolonnu **Nosūtīt uz valsti/reģionu**. Šādas vērtības piemēri ietver **ASV** un **Savienotie Štati**.
-5. Iestatiet **Pieprasīto saņemšanas datuma** kolonnu. Ja neizmantojat saņemšanas datumu, CSV failā izmantojiet **Pieprasītā piegādes datuma**, **Izpildes datuma** un  **Datuma iesniegšanas** kolonnas. Šīs vērtības piemērs ir **2020-03-27T00:00:00Z**.
+5. Iestatiet **Pieprasīto saņemšanas datuma** kolonnu. Ja neizmantojat saņemšanas datumu, CSV failā izmantojiet **Pieprasītā piegādes datuma**, **Izpildes datuma** un **Datuma iesniegšanas** kolonnas. Šīs vērtības piemērs ir **2020-03-27T00:00:00Z**.
 6. Iestatiet kolonnu **Valoda**. Šīs vērtības piemērs ir **en-us**.
 7. Iestatiet kolonnu **Pasūtījuma tips**, izmantojot kolonnu **Balstīts uz krājumu**.
 
@@ -98,3 +89,6 @@ Tā kā dati no tabulas **Preces** ir paredzēti vienvirziena plūsmai no progra
 ## <a name="quote-and-quote-product-tables"></a>Piedāvājuma un piedāvājuma preču tabulas
 
 Lai iegūtu informāciju par **Piedāvājumu** tabulu, izpildiet iepriekš šīs tēmas sadaļā [Pasūtījumu tabula](#order-table) norādītās instrukcijas. Lai iegūtu informāciju par **Piedāvājuma preču** tabulu, izpildiet iepriekš šīs tēmas sadaļā [Pasūtījuma preču tabula](#order-products-table) norādītās instrukcijas.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

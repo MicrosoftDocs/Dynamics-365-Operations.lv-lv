@@ -2,11 +2,9 @@
 title: Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2020. gada 16. septembris)
 description: Šajā tēmā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Human Resources uz 2020. gada 16. septembri.
 author: jcart1106
-manager: tfehr
 ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,14 +16,16 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-09-16
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a3bb6b809560688a7849b60c15a01fd89038e843
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: bf0e2d90b07cb488429311d04dfbc4d1d3520842
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527438"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800097"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-16-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2020. gada 16. septembris)
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -110,9 +110,9 @@ Tagad ir pieejama jauna opcija, lai pozicionētu sarakstu **Man piešķirtie dar
 
 ## <a name="coming-soon"></a>Drīzumā
 
-### <a name="checklist-entities-included-in-common-data-service"></a>Kontrolsaraksta entītijas iekļautas Common Data Service
+### <a name="checklist-entities-included-in-dataverse"></a>Kontrolsaraksta entītijas iekļautas Dataverse
 
-Kontrolsaraksta elementi Pievienošana, Noņemšana, Pārsūtīšana un Biznesa procesi drīz būs pieejami Common Data Service.
+Kontrolsaraksta elementi Pievienošana, Noņemšana, Pārsūtīšana un Biznesa procesi drīz būs pieejami Dataverse.
 
 ### <a name="benefits-management-reason-codes"></a>Priekšrocību pārvaldības pamatojuma kodi
 
@@ -124,3 +124,6 @@ Priekšrocību pārvaldības pamatojuma kodi drīz tiks apvienoti ar esošajiem 
 [Pārskats par Dynamics 365 Human Resources 2019. gada laidiena 2. kopumu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Procesa atjaunināšana](hr-admin-setup-update-process.md)</br>
 [Līdzekļu pārvaldība](hr-admin-manage-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Kandidāta un pieteikuma datu manuāla ievade
 description: Šajā procedūrā parādīts, kā manuāli uzturēt informāciju par kandidātiem un viņu pieteikumiem.
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmApplicant, LogisticsContactInfoGrid, HRMApplication,  DirPartyTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a1039acd53f493e810b11aafd85116d034b7d323
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 52805c56ed5be13c9e940cf887ece55487060539c0cae97ae5a1bcecd491fbcb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797317"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712513"
 ---
 # <a name="enter-applicant-and-application-data-manually"></a>Kandidāta un pieteikuma datu manuāla ievade
 
@@ -61,3 +59,6 @@ ms.locfileid: "4797317"
 6. Noklikšķiniet uz Saglabāt.
     * Pēc pieteikuma saglabāšanas varat tam pievienot dokumentus, tai skaitā kandidāta pieredzi un apbalvojumus apliecinošus dokumentus un pavadvēstuli.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

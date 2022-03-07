@@ -1,7 +1,7 @@
 ---
 title: Debitoru kredītu grupas
 description: Šajā tēmā ir sniegta informācija par debitora kredītu grupu.
-author: JodiChristiansen
+author: mikefalkner
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c8a007dcaaa9e10ab36dd3a7d0f80dd49b8e4d63
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
-ms.translationtype: MT
+ms.openlocfilehash: 3cdf4f7e72a55292c64b7a9191974242aab85a90
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753854"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835320"
 ---
 # <a name="customer-credit-groups"></a>Debitoru kredītu grupas
 

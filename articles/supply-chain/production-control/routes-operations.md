@@ -1,13 +1,13 @@
 ---
 title: Maršruti un operācijas
 description: Šajā tēmā ir sniegta informācija par maršrutiem un operācijām.
-author: johanhoffmann
+author: sorenva
 ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BOMDesigner, BOMDesignerRouteVersion, Route, RouteInventProd, RouteOpr, RouteOprTable, ProdRouteJob, ProdRouteTrans, ProdRouteOverview, ProdRouteJobOverview, ProdRouteJobListPagePreviewPane, RouteTable, RouteVersionFeasibility, ProdRouteJobCurrent, RouteGroup, RouteProductionOrder, EngChgCaseRouteTablePart, EcoResProductProdTypeFormulaNoActiveRouteFormPart,
-ms.author: johanho
+ms.author: sorenand
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 268124
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab825227e7cd8848dbad58c58f5c6d7afc338f9c
-ms.sourcegitcommit: 7cbd53617af179a0de74aae30c149edc95e86684
-ms.translationtype: MT
+ms.openlocfilehash: 6be472336ce8ea58973e897c42f6ee9ae92c0761
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "7891957"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819284"
 ---
 # <a name="routes-and-operations"></a>Maršruti un operācijas
 
@@ -29,14 +29,15 @@ ms.locfileid: "7891957"
 
 Šajā tēmā ir sniegta informācija par maršrutiem un operācijām. Maršruts definē preces vai preces varianta ražošanas procesu. Tas raksturo katru ražošanas procesa darbību (operāciju) un šo darbību veikšanas secību. Maršruts definē arī katrai darbībai nepieciešamos operācijas resursus, nepieciešamo iestatīšanas un izpildes laiku un lietojamo izmaksu aprēķināšanas veidu.
 
-## <a name="overview"></a>Pārskats
+<a name="overview"></a>Pārskats
+--------
 
 Maršruts raksturo preces vai preces varianta ražošanai nepieciešamo operāciju secību. Maršruts definē arī katrai operācijai nepieciešamos operācijas resursus, operācijas iestatīšanai un izpildei nepieciešamo laiku un lietojamo izmaksu aprēķināšanas veidu. Varat izmantot vienu maršrutu vairāku preču ražošanai vai definēt unikālu maršrutu katrai precei vai preces variantam. Varat pat izmantot vairākus maršrutus vienai precei. Šādā gadījumā izmantotais maršruts ir atkarīgs no tādiem faktoriem kā saražojamais daudzums. Maršruta definīcija programmatūrā FSupply Chain Management sastāv no četriem atsevišķiem elementiem, kas kopā raksturo ražošanas procesu:
 
-- **Maršruts** — maršruts definē ražošanas procesa struktūru. Citiem vārdiem sakot, tas definē operāciju secību.
-- **Operācija** — operācija norāda konkrētu maršruta darbību, piemēram, darbību **Montāža**. Vienu operāciju var izmantot vairākos maršrutos un tai var būt dažādi operācijas numuri.
-- **Operācijas saite** — operācijas saite definē operācijas darbības rekvizītus, piemēram, iestatīšanas un izpildes laiku, izmaksu kategorijas, patēriņa parametrus un resursu vajadzības. Operācijas saite nodrošina iespēju izmantot dažādus operācijas darbības rekvizītus atkarībā no maršruta, kurā tiek lietota šī operācija, vai ražotajām precēm.
-- **Maršruta versija** — maršruta versija definē maršrutu, kas tiek izmantots preces vai preces varianta ražošanai. Maršruta versijas sniedz iespēju atkārtoti lietot maršrutus dažādām precēm vai mainīt tos laika gaitā. Tās sniedz iespēju arī izmantot dažādus maršrutus vienas preces ražošanai. Šādā gadījumā izmantotais maršruts ir atkarīgs no tādiem faktoriem kā atrašanās vieta vai saražojamais daudzums.
+- **Maršruts** — maršruts definē ražošanas procesa struktūru. Citiem vārdiem sakot, tas definē operāciju secību.
+- **Operācija** — operācija norāda konkrētu maršruta darbību, piemēram, darbību **Montāža**. Vienu operāciju var izmantot vairākos maršrutos un tai var būt dažādi operācijas numuri.
+- **Operācijas saite** — operācijas saite definē operācijas darbības rekvizītus, piemēram, iestatīšanas un izpildes laiku, izmaksu kategorijas, patēriņa parametrus un resursu vajadzības. Operācijas saite nodrošina iespēju izmantot dažādus operācijas darbības rekvizītus atkarībā no maršruta, kurā tiek lietota šī operācija, vai ražotajām precēm.
+- **Maršruta versija** — maršruta versija definē maršrutu, kas tiek izmantots preces vai preces varianta ražošanai. Maršruta versijas sniedz iespēju atkārtoti lietot maršrutus dažādām precēm vai mainīt tos laika gaitā. Tās sniedz iespēju arī izmantot dažādus maršrutus vienas preces ražošanai. Šādā gadījumā izmantotais maršruts ir atkarīgs no tādiem faktoriem kā atrašanās vieta vai saražojamais daudzums.
 
 ## <a name="routes"></a>Maršruti
 Maršruts raksturo preces vai preces varianta ražošanai izmantoto operāciju secību. Katrai operācijai tiek piešķirts operācijas numurs un nākamā operācija. Operāciju secība veido maršruta tīklu, ko var atainot, izmantojot virzienu diagrammu, kurā ir viens vai vairāki sākuma punkti un viens baigu punkts. Programmatūrā Supply Chain Management maršruti atšķiras pēc struktūras veida. Ir pieejami divi maršrutu veidi: vienkāršie maršruti un maršrutu tīkli. Sadaļā Ražošanas kontroles parametri varat norādīt to, vai var tikt izmantoti tikai vienkārši maršruti vai arī sarežģītāki maršrutu tīkli.
@@ -45,7 +46,7 @@ Maršruts raksturo preces vai preces varianta ražošanai izmantoto operāciju s
 
 Vienkāršs maršruts ir secīgs un tajā ir tikai viens sākuma punkts.  
 
-[![Vienkāršs maršruts.](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
+[![Vienkāršs maršruts](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
 Ja sadaļā Ražošanas kontroles parametri iespējojat tikai vienkāršus maršrutus, kad definējat maršrutu, programmatūrā Supply Chain Management tiek automātiski ģenerēti operāciju numuri (10, 20, 30 utt.).
 
@@ -53,7 +54,7 @@ Ja sadaļā Ražošanas kontroles parametri iespējojat tikai vienkāršus marš
 
 Ja sadaļā Ražošanas kontroles parametri iespējojat sarežģītākos maršrutu tīklus, varat definēt maršrutus, kuriem ir vairāki sākuma punkti, un operācijas, ko var izpildīt vienlaikus.  
 
-[![Maršruta tīkls.](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
+[![Maršruta tīkls](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
 > [!NOTE]
 > - Katrai operācijai var būt tikai viena nākamā operācija, un visam maršrutam ir jābeidzas ar vienu operāciju.
@@ -64,7 +65,7 @@ Ja sadaļā Ražošanas kontroles parametri iespējojat sarežģītākos maršru
 
 Dažreiz operācijas veikšanai ir nepieciešama tādu operācijas resursu kombinācija, kam ir dažādi raksturlielumi. Piemēram, montāžas operācijai var būt nepieciešama iekārta, darbarīks un viens darbinieks uz katrām divām iekārtām, kurš pārrauga operāciju. Šo piemēru var modelēt, izmantojot vienlaicīgas operācijas, no kurām viena ir norādīta kā galvenā operācija, bet pārējās ir sekundārās operācijas.  
 
-[![Maršruts ar galveno un sekundārajām operācijām.](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
+[![Maršruts ar galveno un sekundārajām operācijām](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
 
 Parasti galvenā operācija ir saistīta ar deficīta resursu un nosaka sekundāro operāciju izpildes laiku. Taču, veicot ierobežotas noslodzes resursu plānošanu, resursiem, kas tiek ieplānoti gan galvenajai, gan sekundārajām operācijām, vienlaikus ir jābūt pieejamiem un ar brīvu noslodzi.  
 
@@ -78,7 +79,7 @@ Lai maršrutu varētu izmantot plānošanas vai ražošanas procesā, maršruts 
 
 Katru maršrutu var atsevišķi apstiprināt vai neapstiprināt. Taču ņemiet vērā to, ka gadījumā, ja maršruts ir neapstiprināts, arī visas saistītās maršruta versijas ir neapstiprinātas. Sadaļā Ražošanas kontroles parametri varat norādīt to, vai maršruti var būt neapstiprināti un vai var mainīt apstiprinātos maršrutus.  
 
-Ja ir nepieciešams žurnālā reģistrēt katra maršruta apstiprinātāju, varat iestatīt elektroniskā paraksta prasību maršruta apstiprināšanai. Šādā gadījumā lietotājiem ir jāapstiprina sava identitāte, izmantojot [elektronisko parakstu](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md).
+Ja ir nepieciešams žurnālā reģistrēt katra maršruta apstiprinātāju, varat iestatīt elektroniskā paraksta prasību maršruta apstiprināšanai. Šādā gadījumā lietotājiem ir jāapstiprina sava identitāte, izmantojot [elektronisko parakstu](../../fin-and-ops/organization-administration/electronic-signature-overview.md).
 
 ## <a name="operations"></a>Operations
 Operācija ir ražošanas procesa darbība. Katrai operācijai ir ID un vienkāršs apraksts. Tālāk esošajās tabulās ir sniegti tipiski mehāniskas darbnīcas operāciju piemēri.
@@ -184,7 +185,7 @@ Aktivizējot maršruta versiju, tā tiek norādīta kā noklusējuma maršruta v
 
 ### <a name="electronic-signatures"></a>Elektroniskie paraksti
 
-Ja ir nepieciešams žurnālā reģistrēt katras maršruta versijas apstiprinātāju un aktivizētāju, varat iestatīt elektroniskā paraksta prasību šo uzdevumu veikšanai. Šādā gadījumā lietotājiem, kuri apstiprina un aktivizē maršruta versijas, ir jāapstiprina sava identitāte, izmantojot [elektronisko parakstu](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md).
+Ja ir nepieciešams žurnālā reģistrēt katras maršruta versijas apstiprinātāju un aktivizētāju, varat iestatīt elektroniskā paraksta prasību šo uzdevumu veikšanai. Šādā gadījumā lietotājiem, kuri apstiprina un aktivizē maršruta versijas, ir jāapstiprina sava identitāte, izmantojot [elektronisko parakstu](../../fin-and-ops/organization-administration/electronic-signature-overview.md).
 
 ### <a name="product-change-that-uses-case-management"></a>Preces izmaiņas, izmantojot gadījumu pārvaldību
 
@@ -222,19 +223,19 @@ Ja lietojat šo pieeju, izpildes laika un citu rekvizītu uzturēšanai galvenok
 
 Ja operācijas resursu vajadzību ietvaros nenorādāt operācijas resursu vai resursu grupu, var atšķirties lietojamo resursu darbības ātrums. Tāpēc var atšķirties operācijas izpildei nepieciešamais laiks. Lai novērstu šo problēmu, varat izmantot operācijas saites lauku **Formula**, lai norādītu izpildes laika aprēķināšanas veidu. Pieejamas šādas opcijas
 
-- **Standarta** — (noklusējuma opcija) aprēķinam tiek izmantoti tikai operācijas saites lauki un norādītais izpildes laiks tiek reizināts ar pasūtījuma daudzumu.
-- **Noslodze** — aprēķinā tiek ietverts operācijas resursa lauks **Noslodze**. Tāpēc laiks ir atkarīgs no resursa. Operācijas resursam norādītā vērtība ir noslodze stundā. **Izpildes laiks** tiek aprēķināts kā **Pasūtījuma daudzums** dalīts ar **Noslodzi**. Noslodzes vērtība nav specifiska noteiktai mērvienībai, tāpēc tā netiek konvertēta, pamatojoties uz **lauku Ražīguma** vienība, kas ir tikai aprakstošs lauks, kas netiek izmantots aprēķinos.
-- **Partija** — izmantojot informāciju no operācijas saites, tiek aprēķināta partijas noslodze. Pēc tam, pamatojoties uz pasūtījuma daudzumu, var aprēķināt partiju skaitu un līdz ar to arī izpildes laiku.
-- **Resursu partija** — šī opcija ir gandrīz tāda pati kā opcija **Partija**. Taču aprēķinā tiek ietverts operācijas resursa lauks **Paketes noslodze**. Tāpēc laiks ir atkarīgs no resursa.
+- **Standarta** — (noklusējuma opcija) aprēķinam tiek izmantoti tikai operācijas saites lauki un norādītais izpildes laiks tiek reizināts ar pasūtījuma daudzumu.
+- **Noslodze** — aprēķinā tiek ietverts operācijas resursa lauks **Noslodze**. Tāpēc laiks ir atkarīgs no resursa. Operācijas resursam norādītā vērtība ir noslodze stundā. **Izpildes laiks** tiek aprēķināts kā **Pasūtījuma daudzums** dalīts ar **Noslodzi**.
+- **Partija** — izmantojot informāciju no operācijas saites, tiek aprēķināta partijas noslodze. Pēc tam, pamatojoties uz pasūtījuma daudzumu, var aprēķināt partiju skaitu un līdz ar to arī izpildes laiku.
+- **Resursu partija** — šī opcija ir gandrīz tāda pati kā opcija **Partija**. Taču aprēķinā tiek ietverts operācijas resursa lauks **Paketes noslodze**. Tāpēc laiks ir atkarīgs no resursa.
 
 ### <a name="set-up-route-groups"></a>Iestatīt maršrutu grupas
 
 Maršrutu grupas varat definēt un to maršrutu vai darbu tipu varat iestatīt sadaļā **Ražošanas kontrole > Iestatīšana > Maršruti > Maršrutu grupas**. Katram maršruta/darba tipam maršrutu grupā varat atlasīt vai notīrīt tālāk aprakstītās opcijas.
 
-- **Aktivizēšana** — atlasiet šo opciju, lai atlasītajam darba tipam iespējotu aprēķinus un plānošanu un lai saņemtu atsauksmes par darbu, kad tiek veikta darbu plānošana. Šī opcija ir jāatlasa, lai iespējotu darba tipu, un pēc tam ir jāatlasa pārējās opcijas šim darba tipam. Ja aktivizācija nav atlasīta, darba tips netiek iespējots neatkarīgi no pārējo opciju atlases. 
-- **Darbu vadība** — atlasiet šo opciju, lai šo darba tipu iekļautu darbu pārvaldībā, kad tiek veikta darbu plānošana. 
-- **Darba laiks** — atlasiet šo opciju, lai darba tipu plānotu saskaņā ar darba laika kalendāru, kas definēts operācijas resursiem, citādi tiek lietots gregoriāņu kalendārs. Darba laiku var plānot vai nu saskaņā ar gregoriāņu kalendāru, vai ar definēto darba laika kalendāru. Ja tiek atlasīta šī opcija, plānošana balstās uz definēto darba laika kalendāru. Turklāt darba tipa darbs tiek plānots no pusnakts tajā datumā, kas ir definēts kā darba sākuma datums.
-- **Noslodze** — atlasiet šo opciju, lai rezervētu noslodzi darba tipam, kad tiek veikta darbu plānošana. Ja atlasāt šo opciju, noslodze tiek rezervēta, kad atlasītajam darba tipam tiek veikta darbu plānošana. Tas sniedz pārskatu par to, kuri darba tipi katrā maršrutu grupā izmanto operācijas resursus. Piemēram, gadījumā, kad žāvēšanas resursi ir deficīta resursi, šie resursi ir jānorāda kā deficīti. Žāvēšanas operācijas, kas ir piešķirtas gaidīšanas laika darba tipiem, rezervēs žāvēšanas resursus. 
+- **Aktivizēšana** — atlasiet šo opciju, lai atlasītajam darba tipam iespējotu aprēķinus un plānošanu un lai saņemtu atsauksmes par darbu, kad tiek veikta darbu plānošana. Šī opcija ir jāatlasa, lai iespējotu darba tipu, un pēc tam ir jāatlasa pārējās opcijas šim darba tipam. Ja aktivizācija nav atlasīta, darba tips netiek iespējots neatkarīgi no pārējo opciju atlases. 
+- **Darbu vadība** — atlasiet šo opciju, lai šo darba tipu iekļautu darbu pārvaldībā, kad tiek veikta darbu plānošana. 
+- **Darba laiks** — atlasiet šo opciju, lai darba tipu plānotu saskaņā ar darba laika kalendāru, kas definēts operācijas resursiem, citādi tiek lietots gregoriāņu kalendārs. Darba laiku var plānot vai nu saskaņā ar gregoriāņu kalendāru, vai ar definēto darba laika kalendāru. Ja tiek atlasīta šī opcija, plānošana balstās uz definēto darba laika kalendāru. Turklāt darba tipa darbs tiek plānots no pusnakts tajā datumā, kas ir definēts kā darba sākuma datums.
+- **Noslodze** — atlasiet šo opciju, lai rezervētu noslodzi darba tipam, kad tiek veikta darbu plānošana. Ja atlasāt šo opciju, noslodze tiek rezervēta, kad atlasītajam darba tipam tiek veikta darbu plānošana. Tas sniedz pārskatu par to, kuri darba tipi katrā maršrutu grupā izmanto operācijas resursus. Piemēram, gadījumā, kad žāvēšanas resursi ir deficīta resursi, šie resursi ir jānorāda kā deficīti. Žāvēšanas operācijas, kas ir piešķirtas gaidīšanas laika darba tipiem, rezervēs žāvēšanas resursus. 
 
 Katram darba tipam jums tas vispirms ir jāaktivizē vai jādeaktivizē. Ja deaktivizēts, netiks ņemts vērā neviens no citiem iestatījumiem (darbu vadība, darba laiks un noslodze), jo šis darba tips nav aktīvs. 
 
@@ -252,7 +253,7 @@ Tādēļ, ja iestatījumam Pārklāšanās ir atlasīta opcija Aktivizēšana, p
 
 - [Resursu iespējas](resource-capabilities.md)
 
-- [Elektronisko parakstu apskats](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md)
+- [Elektronisko parakstu apskats](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
 
 
 

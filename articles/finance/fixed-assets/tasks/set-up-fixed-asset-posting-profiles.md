@@ -1,30 +1,32 @@
 ---
 title: Pamatlīdzekļa grāmatošanas profilu iestatīšana
-description: Šajā procedūrā ir parādīts, kā iestatīt pamatlīdzekļu grāmatošanas metodes.
-author: moaamer
+description: Šajā uzdevuma ceļvedī tiks iestatītas pamatlīdzekļu grāmatošanas metodes.
+author: saraschi2
+manager: AnnBe
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetPosting
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ee0006c9588a22d720687e7aceb49acc756b83e1
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
-ms.translationtype: MT
+ms.openlocfilehash: 8671d38098542afbd8d00e30e72de8dbd1fc4abb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883772"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994819"
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>Pamatlīdzekļa grāmatošanas profilu iestatīšana
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā procedūrā ir parādīts, kā iestatīt pamatlīdzekļu grāmatošanas metodes. Šajā tēmā minētie piemēri ir pamatgrāmatošanas metodei, tomēr grāmatošanas metodes ir jāizveido specifiskam kontu plānam un finanšu pārskatu prasībām.
+Šajā uzdevuma ceļvedī tiks iestatītas pamatlīdzekļu grāmatošanas metodes.  Tas izmanto grāmatveža lomu un demonstrācijas datus USMF juridiskajai personai.  Uzdevuma ceļvedī sniegti piemēri pamata grāmatošanas metodei, lai gan grāmatošanas metodes ir jāizveido jūsu konkrētajam kontu plānam un finanšu atskaišu prasībām.
 
 1. Navigācijas rūtī pārejiet uz sadaļu **Moduļi > Pamatlīdzekļi > Iestatīšana > Pamatlīdzekļu grāmatošanas metodes**.
 2. Klikšķiniet **Jauns**.
@@ -120,6 +122,3 @@ ms.locfileid: "7883772"
 88. Laukā **Galvenais konts** norādiet vēlamās vērtības.
 89. Laukā **Korespondējošais konts** norādiet vēlamās vērtības.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

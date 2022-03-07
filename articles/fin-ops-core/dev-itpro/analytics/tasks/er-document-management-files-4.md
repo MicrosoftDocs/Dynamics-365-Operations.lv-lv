@@ -1,12 +1,10 @@
 ---
 title: ER izmantot dokumentu pārvaldības failus formātu izvades datos (4. daļa - Palaist formātu)
-description: Tālāk aprakstītie soļi izskaidro, kā lietotājs, kam piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma, var konfigurēt elektroniskā pārskata (ER) formātu, lai izmantotu dokumentu pārvaldības failus ER izvadē.
+description: Šajā tēmā ir aprakstīts, kā konfigurēt elektronisko pārskatu (ER) formātu dokumentu pārvaldības failu (pielikumu) izmantošanai ER izvadē. (4. daļa)
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenInvoicesListPage, CustInvoiceJournal, SalesTable, ERSolutionTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 89e09d79389dc2c883c429cfee3164632e0cdc0f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f7a7c9705d8b53ef13cd3faf13290f3f1b1d1c43
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681785"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749121"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-4---run-format"></a>ER izmantot dokumentu pārvaldības failus formātu izvades datos (4. daļa - Palaist formātu)
 
@@ -69,3 +67,6 @@ Lai izpildītu šos soļus, vispirms ir jāpabeidz soļi, kas aprakstīti proced
 11. Noklikšķiniet uz Labi.
     * Pārskatiet ģenerēto izvadi. Ņemiet vērā, ka katram pielikumam ir izveidots atsevišķs XML mezgls. Pielikuma saturs tiek aizpildīts XML izvadē MIME (base64) teksta formātā.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

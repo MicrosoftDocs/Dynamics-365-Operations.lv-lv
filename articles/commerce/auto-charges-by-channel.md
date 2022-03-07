@@ -1,30 +1,27 @@
 ---
 title: Automātisko maksu iespējošana un konfigurēšana katram kanālam
-description: Šajā tēmā skaidrots, kā iespējot un konfigurēt automātisko izmaksu pa kanāliem programmā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā paskaidrots, kā iespējot un konfigurēt automātiskās izmaksas pēc kanāla risinājumā Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 1be07c754e563298d82f6ca54f09ae3aa9118602
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: d905819d1e0c8223c74509bfb357b3aaa51d20305a2857061eadb0b0ff8f6b9b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414028"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727634"
 ---
 # <a name="enable-and-configure-auto-charges-by-channel"></a>Automātisko maksu iespējošana un konfigurēšana katram kanālam
 
-Šajā tēmā skaidrots, kā iespējot un konfigurēt automātiskās izmaksas pa kanāliem programmā Microsoft Dynamics 365 Commerce.
+Šajā tēmā paskaidrots, kā iespējot un konfigurēt automātiskās izmaksas pēc kanāla risinājumā Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Pārskats
 
@@ -69,7 +66,7 @@ Lai piešķirtu noklusējuma hierarhiju uzņēmuma hierarhijas mērķim programm
 1. Darbību rūtī atlasiet **Palaist tagad**.
 1. Atkārtojiet iepriekšējos divus soļus, lai palaistu **1070** (**Kanāla konfigurācija**) un **1110** (**Globālā konfigurācija**) darbus.
 
-![Mazumtirdzniecības automātiskās izmaksas organizācijas hierarhijas nolūka konfigurācija](media/Auto-charges-org-hierarchy-purpose.png)
+![Mazumtirdzniecības automātiskās izmaksas organizācijas hierarhijas nolūka konfigurācija.](media/Auto-charges-org-hierarchy-purpose.png)
 
 ## <a name="define-auto-charges-by-channel"></a>Definēt automātiskās izmaksas pēc kanāla
 
@@ -77,7 +74,7 @@ Pēc tam, kad esat ieslēdzis līdzekli **Iespējot filtra automātiskās izmaks
 
 Lai definētu automātiskās izmaksas pēc kanāla programmā Commerce, veiciet šādas darbības.
 
-1. Pārejiet uz sadaļu **Kreditori \> Izmaksu iestatīšana \> Automātiskās izmaksas**.
+1. Pārejiet uz sadaļu **Debitori \> Izmaksu iestatīšana \> Automātiskās izmaksas**.
 1. Kreisajā rūtī laukā **Līmenis** izvēlieties vai nu **Galveni** vai **Rindu** atkarībā no jūsu biznesa vajadzībām.
 1. Laukā **Mazumtirdzniecības kanāla kods** izvēlieties atbilstošo kanāla kodu (piemēram, **Tabula** vai **Grupa**). Ja tiek izmantots noklusētais iestatījums **Visi**, izmaksas noteikumi tiek piemēroti visiem kanāliem.
 
@@ -89,15 +86,15 @@ Lai definētu automātiskās izmaksas pēc kanāla programmā Commerce, veiciet 
 1. Darbību rūtī atlasiet **Palaist tagad**.
 1. Atkārtojiet iepriekšējos divus soļus, lai palaistu **1070** (**Kanāla konfigurācija**) un **1110** (**Globālā konfigurācija**) darbus.
     
-![Automātiskās izmaksas definētas pēc kanāla](media/Auto-charges-line-charge-by-channel.png)
+![Automātiskās izmaksas definētas pēc kanāla.](media/Auto-charges-line-charge-by-channel.png)
 
-## <a name="example-scenario"></a>Piemēra situācija
+## <a name="example-scenario"></a>Piemērs
 
 Sekojošajā piemērā aprakstīti soļi, kas nepieciešami preces konfigurēšanai, lai otrreizējās pārstrādes izmaksas tiktu iekasētas, kad prece tiek pārdota, izmantojot Sanfrancisko faktiskās pārdošanas kanālu. Piemērā ir arī parādīts, kā automātiskās izmaksas parādās Commerce pārdošanas punkta (POS) programmā.
 
 Organizācija nosaka izmaksu kodu ar nosaukumu **PĀRSTRĀDE**, kā parādīts sekojošajā ilustrācijā.
 
-![PĀRSTRĀDES izmaksu kods](media/Auto-charges-charge-code.png)
+![PĀRSTRĀDES izmaksu kods.](media/Auto-charges-charge-code.png)
 
 Automātiska izmaksa ir izveidota rindas līmenī. Tai ir tālāk minētā konfigurācija:
 
@@ -115,16 +112,19 @@ Tiek izveidota automātiskā izmaksu rinda. Tai ir tālāk minētā konfigurāci
 - Lauks **Kategorija** ir iestatīts uz **Fiksēts**.
 - Lauks **Izmaksas** ir iestatīts uz **$6.25**.
 
-![Rindas līmeņa automātiskās izmaksas un automātiskās izmaksas rindas konfigurācija](media/Auto-charges-recyclingfee-line-fee.png)
+![Rindas līmeņa automātiskās izmaksas un automātiskās izmaksas rindas konfigurācija.](media/Auto-charges-recyclingfee-line-fee.png)
 
 POS programmā ir izveidots pārdošanas pasūtījums **Sanfrancisko** veikala kanālā. **Izmaksu** rindā ir redzama pārstrādes izmaksa **$6.25**.
 
 Atlasot **Transakciju opcijas \> Izmaksas \> Pārvaldīt maksas** POS programmā, varat skatīt izmaksu kodu un aprakstu par pārstrādes izmaksu.
 
-![Otrreizējās pārstrādes maksa POS programmā](media/pos-auto-charges-recyclingfee-line-fee.png)
+![Otrreizējās pārstrādes maksa POS programmā.](media/pos-auto-charges-recyclingfee-line-fee.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Omni kanāla papildu automātiskās maksas](omni-auto-charges.md)
 
 [Proporcionāla virsraksta maksu sadalīšana atbilstošajās pārdošanas rindās](pro-rate-charges-matching-lines.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,38 +1,33 @@
 ---
 title: Iegādes lodziņa modulis
-description: Šajā tēmā tiek stāstīts par iegādes lodziņa moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā aplūkoti Buy box moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fa9d42c20540f2ee2240cc4f2b180140c3f9a628
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
-ms.translationtype: HT
+ms.openlocfilehash: 4f49c7a1519744cda9cfba31a3938fd23e692841a851a52ec9d18a241f8c0458
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517092"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717799"
 ---
-# <a name="buy-box-module"></a>Iegādes lodziņa modulis
+# <a name="buy-box-module"></a>Pirkšanas lodziņa modulis
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā tiek stāstīts par iegādes lodziņa moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
+Šajā tēmā aplūkoti Buy box moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Pārskats
-
-Termins *iegādes lodziņš* tipiski tiek attiecināts uz preces informācijas lapas apgabalu, kas ir “virs ieloces” un kurā ir ietverta visa svarīgākā informācija, kas nepieciešama preces pirkuma veikšanai. (Apgabals, kas ir “virs ieloces”, ir redzams, kad lapa tiek ielādēta pirmo reizi, lai lietotājiem skatīšanai nebūtu jāritina uz leju.)
+Termins *iegādes lodziņš* tipiski tiek attiecināts uz preces informācijas lapas (product details page - PDP)apgabalu, kas ir “virs ieloces” un kurā ir ietverta visa svarīgākā informācija, kas nepieciešama preces pirkuma veikšanai. (Apgabals, kas ir “virs ieloces”, ir redzams, kad lapa tiek ielādēta pirmo reizi, lai lietotājiem skatīšanai nebūtu jāritina uz leju.)
 
 Iegādes lodziņa modulis ir īpašs konteiners, kas tiek izmantots, lai viesotu visus moduļus, kas parādīti preces informācijas lapas iegādes lodziņā.
 
@@ -40,7 +35,7 @@ Preces informācijas lapas vietrādī URL ir ietverta preces ID. Visa informāci
 
 Attēlā zemāk redzams iegādes lodziņa moduļa piemērs preces informācijas lapā.
 
-![Iegādes lodziņa moduļa piemērs](./media/ecommerce-pdp-buybox.PNG)
+![Iegādes lodziņa moduļa piemērs.](./media/ecommerce-pdp-buybox.PNG)
 
 ## <a name="buy-box-module-properties-and-slots"></a>Iegādes lodziņa moduļa rekvizīti un sloti 
 
@@ -58,7 +53,7 @@ Tēmas var izmantot, lai noņemtu vai mainītu iegādes loga produktu rekvizītu
 
 - **Galvenes etiķete** — šis rekvizīts definē galvenes etiķeti preces nosaukumam. Ja iegādes logs atrodas lapas augšā, šis rekvizīts ir jāiestata uz **h1**, lai atbilstu pieejamības standartiem. 
 
-- **Iespējot ieteikumus "pirkt līdzīgu izskatu"** - Šis rekvizīts ļauj pirkšanas lodziņā parādīt saites uz precēm, kas izskatās līdzīgi pašlaik skatītajam vienumam. Šis līdzeklis ir pieejams Komercijas izlaidumā 10.0.13 un jaunākās versijās.
+- **Iespējot ieteikumus "pirkt līdzīgu preci"** - Šis rekvizīts ļauj pirkšanas lodziņā parādīt saites uz precēm, kas izskatās līdzīgi pašlaik skatītajam vienumam. Šis līdzeklis ir pieejams Komercijas izlaidumā 10.0.13 un jaunākās versijās.
 
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Moduļi, ko var izmantot iegādes lodziņa modulī
 
@@ -72,14 +67,16 @@ Iegādes lodziņa moduļa iestatījumus var konfigurēt sadaļā **Vietnes iesta
 
 - **Groza rindu daudzuma ierobežojums** — šis rekvizīts tiek izmantos, lai norādītu katras preces maksimālo skaitu, ko var pievienot grozam. Piemēram, mazumtirgotājs var nolemt, ka vienā transakcijā var pārdot tikai 10 katras preces vienumus.
 - **Krājumi** — papildinformāciju par to, kā lietot krājumu iestatījumus, skatiet [Krājumu iestatījumu lietošana](inventory-settings.md).
-- **Pievienot produktu grozam** — šis rekvizīts tiek izmantots, lai noteiktu uzvedību pēc krājuma pievienošanas grozam. Iespējamās vērtības ir **Doties uz lapu Grozs**, **Nedoties uz lapu Grozs** un **Parādīt paziņojumu**. Kad vērtība ir iestatīta uz **Doties uz lapu Grozs**, lietotāji pēc krājuma pievienošanas tiek nosūtīti uz groza lapu. Kad vērtība ir iestatīta uz **Nedoties uz lapu Grozs**, lietotāji pēc krājuma pievienošanas netiek nosūtīti uz groza lapu. Kad vērtība ir iestatīta **Rādīt paziņojumu**, lietotājiem tiek parādīts apstiprinājuma paziņojums un viņi turpināt pārlūkot preces informācijas lapā. 
+- **Pievienot preci grozam** — informācija par to, kā pielietot iestatījumus **Pievienot preci grozam**, skatiet [Iestatījumi Pievienot preci grozam](add-cart-settings.md).
+
+## <a name="buy-box-module-definition-extensions-in-the-adventure-works-theme"></a>Iegādes lodziņa moduļa definīcijas paplašinājumi Adventure Works tēmā
+
+Iegādes lodziņa modulim, kuru sniedz Adventure Works tēma, ir moduļa definīcijas paplašinājums, kas atbalsta produkta specifikāciju moduļa ieviešanu pie PDP iegādes lodziņā. Lai parādītu preces specifikācijas īpašības PDP iegādes lodziņā, pievienojiet preces specifikācijas moduli iegādes lodziņa slotam.
+
 
 > [!IMPORTANT]
-> Vietas iestatījums **Pievienot produktu grozam** ir pieejams Dynamics 365 Commerce 10.0.11 laidienā. Ja veicat atjaunināšanu no vecākas Dynamics 365 Commerce versijas, ir manuāli jāatjaunina fails appsettings.json. Norādījumus par faila appsettings.json atjaunināšanu skatiet [SDK un moduļu bibliotēkas atjauninājumi](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
+> Adventure Works tēma ir pieejama Dynamics 365 Commerce versijas 10.0.20 laidienā.
 
-Attēlā zemāk redzams "pievienots grozam" apstiprinājuma paziņojuma piemērs Fabrikam vietnē.
-
-![Paziņojuma moduļa piemērs](./media/ecommerce-addtocart-notifications.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Commerce Scale Unit mijiedarbība
 
@@ -133,6 +130,11 @@ Lai pievienotu iegādes lodziņa moduli jaunā lapā un iestatītu nepieciešamo
 
 [Sociālo tīklu dalīšanās modulis](social-share-module.md)
 
+[Iestātījumi Pievienot preci grozam](add-cart-settings.md)
+
 [Krājumu pieejamības aprēķināšana mazumtirdzniecības kanāliem](calculated-inventory-retail-channels.md)
 
 [SDK un moduļu bibliotēkas atjauninājumi](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

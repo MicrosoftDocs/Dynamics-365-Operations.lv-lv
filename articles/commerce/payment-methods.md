@@ -2,16 +2,13 @@
 title: Maksāšanas metodes
 description: Kad sistēma tiek iestatīta, ir jākonfigurē katrs maksājuma tips, kuru mazumtirgotājs pieņem. Šajā rakstā ir aprakstīti maksājumu tipi, kurus varat iestatīt, un aprakstīts to iestatīšanas process.
 author: rubencdelgado
-manager: AnnBe
 ms.date: 06/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTenderTypeTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 15831
 ms.assetid: 465893a5-6b4f-4c5f-b305-db071df2d33f
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2b56609de3b2620dcc605c6c6d697cb74c8ed6c1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c174dd136cecedc9b23bdaa778885f75e51c9aa556a9e2709bc7da171faa8617
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414061"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713970"
 ---
 # <a name="payment-methods"></a>Maksāšanas metodes
 
@@ -49,3 +46,6 @@ Lai iestatītu maksāšanas metodes, ir jāizpilda tālāk aprakstītie uzdevumi
 2. Izveidojiet uzņēmuma līmeņa karšu veidus un karšu numurus. Ja tiek pieņemtas kredītkartes vai debetkartes, ir jāizveido viena maksājumu metode maksājumiem ar kartēm un pēc tam ir jāizveido organizācijas līmeņa karšu veidi un karšu numuri.
 3. Iestatiet veikala maksājuma metodes. Saistiet maksājuma metodes ar katru veikalu un pēc tam ievadiet veikalam raksturīgos maksājuma metodes iestatījumus.
 4. Iestatiet veikalu kartes maksājuma metodes. Veiciet kartes iestatījumus visām kartes maksājuma metodēm, kas tiek pieņemtas veikalā.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

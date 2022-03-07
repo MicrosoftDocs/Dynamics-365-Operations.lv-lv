@@ -2,9 +2,11 @@
 title: Power BI satura pakotne Atvieglojumi
 description: Šajā tēmā ir aprakstīta Power BI satura pakotne Atvieglojumi.
 author: jcart1106
+manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmBenefitWorkspace
 audience: Application User, IT Pro
@@ -13,18 +15,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 0e7cadc16c5ed6c6eab8c90090cac017221f63f466115b04a6a3b843db44b1c7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5a894ebfb79eab4888178c930b9e7d55cf735c91
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733175"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093085"
 ---
 # <a name="benefits-power-bi-content"></a>Power BI satura pakotne Atvieglojumi
 
 [!include [banner](../includes/banner.md)]
 
-Šajā aprakstīts Microsoft Power BI saturs **Atvieglojumi**. Tajā ir paskaidrots, kā piekļūt ietvertajiem pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
+Šajā tēmā ir aprakstīta Microsoft Power BI satura pakotne **Atvieglojumi**. Tajā ir paskaidrots, kā piekļūt ietvertajiem pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
 
 ## <a name="accessing-the-power-bi-content"></a>Piekļuve Power BI satura pakotnei
 Power BI satura pakotne **Atvieglojumi** tiek rādīta darbvietā **Atvieglojumu pārvaldība**, ja izmantojat kādu no tālāk norādītajiem produktiem.
@@ -45,7 +47,7 @@ Power BI satura pakotnes **Atvieglojumi** pārskatos ir ietvertas gan diagrammas
 ## <a name="understanding-the-data-model-and-entities"></a>Datu modeļa un elementu izprašana
 Power BI satura pakotnes **Atvieglojumi** pārskatu aizpildīšanai tiek izmantoti tālāk norādītie dati. Tālāk esošajā tabulā ir norādīti elementi, kas ir izmantoti satura izveidei.
 
-| Elements                   | Saturs                                                                                                   | Attiecības ar citiem elementiem |
+| Entītija                   | Saturs                                                                                                   | Attiecības ar citiem elementiem |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | Kalendāra nobīde          | Kalendārs nobīdās, lai sadalītu pārskatus                                                                          | Iepriekšējās pozīcijas piešķire, Pozīcijas tendence, Darbinieka tendence, Darbinieks, ar ko patrauktas darba attiecības |
 | Uzņēmums                  | Uzņēmumi, pēc kuriem pārskatus filtrēt                                                                             | Pašreizējā atlīdzība, Pašreizējais darbinieks, Darbinieks, ar kuru ir pārtrauktas darba attiecības, Darbinieka tendence |
@@ -67,6 +69,3 @@ Power BI satura pakotnes **Atvieglojumi** pārskatu aizpildīšanai tiek izmanto
 | Darbinieka vārds            | Vārds, uzvārds un pilnais vārds                                                                       | Pašreizējais darbinieks, Darbinieks, ar kuru ir pārtrauktas darba attiecības, Darbinieka tendence |
 | Darbinieka amats           | Nosaukums un darba stāža datums                                                                                   | Pašreizējais darbinieks, Darbinieks, ar kuru ir pārtrauktas darba attiecības, Darbinieka tendence |
 | Darbinieka tendence           | Nodarbinātie laika gaitā, skaits, uzņēmums un amats                                                        | Uzņēmums, Atlīdzība, Ģeogrāfiskā vieta, Darbinieka vārds, Pārskati par, Kalendāra nobīde, Datums, Darbinieka amats, Demogrāfiskie dati, Nodarbinātība, Darbs, Atvieglojumi |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

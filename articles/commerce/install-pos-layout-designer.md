@@ -2,16 +2,13 @@
 title: POS izkārtojuma veidotāja instalēšana
 description: Viena klikšķa veidotāju varat izmantot, lai veikaliem, reģistriem, kasieriem un vadītājiem veidotu dažādus pārdošanas punktu Modern POS (MPOS) un mākoņa POS izkārtojumus gan ainavorientācijas, gan portretorientācijas režīmā.
 author: athinesh99
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 219684
 ms.assetid: 2e2c4eea-c6e2-4912-9832-a6b22416e39f
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f9882ae895de926e0da3579ab65a988f2b97f7be
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e4d18d6fcf54fc74382f0d7d344de2aa74252ae4
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414039"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797000"
 ---
 # <a name="install-the-pos-layout-designer"></a>POS izkārtojuma veidotāja instalēšana
 
@@ -63,3 +60,6 @@ Pārdošanas punkta MPOS vai mākoņa POS grafiskā dizaina interfeisu nosaka ka
 ## <a name="additional-resources"></a>Papildu resursi
 
 [ Retail Modern POS (MPOS) konfigurēšana, instalēšana un aktivizēšana](retail-modern-pos-device-activation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

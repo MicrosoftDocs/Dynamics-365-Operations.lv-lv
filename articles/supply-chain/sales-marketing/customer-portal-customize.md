@@ -2,25 +2,22 @@
 title: Debitoru portāla pielāgošana un izmantošana
 description: Šajā tēmā ir paskaidrots, kā pielāgot Debitoru portālu pēc tā pievienošanas sistēmai.
 author: dasani-madipalli
-manager: tfehr
 ms.date: 04/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 7849f354817f189bf7c844bbe2944f94c8fffe83
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 16d5c13c0fbff8c5033b0d1e9dd0d07851521126
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527367"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840777"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Debitoru portāla pielāgošana un izmantošana
 
@@ -40,9 +37,9 @@ Tēmas zemāk palīdzēs jums uzzināt pamatinformāciju par Power Apps portāli
 - [Portāla satura pārvaldība](https://docs.microsoft.com/dynamics365/portals/manage-portal-content) — šajā tēmā ir paskaidrots, kā varat pārvaldīt un pielāgot jūsu portālā redzamo saturu.
 - [Rediģēt CSS](https://docs.microsoft.com/powerapps/maker/portals/edit-css) — šī tēma palīdz izveidot sarežģītākus pielāgojumus jūsu portāla lietotāja interfeisam (UI).
 - [Dizaina izveide jūsu portālam](https://docs.microsoft.com/dynamics365/portals/create-theme) — šī tēma palīdz izveidot lietotāja interfeisa dizainu jūsu portālam.
-- [Portāla satura viegla izveide un eksponēšana](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content) — šī tēma palīdz pārvaldīt pamatā esošos datus un elementus, ko izmantojat savam portālam.
+- [Portāla satura viegla izveide un eksponēšana](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content) — šī tēma palīdz pārvaldīt pamatā esošos datus un tabulas, ko izmantojat savam portālam.
 - [Kontaktpersonu konfigurēšana izmantošanai portālā](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) — šajā tēmā ir paskaidrots, kā izveidot un pielāgot lietotāju lomas un kā drošība un autentifikācija darbojas Power Apps portālos.
-- [Piezīmju elementu veidlapām un tīmekļa veidlapām portālos konfigurēšana](https://docs.microsoft.com/powerapps/maker/portals/configure-notes) — šajā tēmā ir paskaidrots, kā pievienot jūsu portālam dokumentus un papildu krātuvi.
+- [Piezīmju konfigurēšana tabulu veidlapām un tīmekļa veidlapām portālos](https://docs.microsoft.com/powerapps/maker/portals/configure-notes) — šajā tēmā ir paskaidrots, kā pievienot jūsu portālam dokumentus un papildu krātuvi.
 - [Kļūdu apstrāde portāla tīmekļa vietnei](https://docs.microsoft.com/powerapps/maker/portals/admin/view-portal-error-log) — šajā tēmā ir paskaidrots, kā skatīt portāla kļūdu žurnālus un saglabāt tos savā Microsoft Azure Blob krātuves kontā.
 
 ## <a name="customize-the-order-creation-process"></a>Pasūtījuma izveides procesa pielāgošana
@@ -91,7 +88,7 @@ Tālāk ir norādītas standarta darbības pasūtījuma iesniegšanai no Debitor
 
 Lai palīdzētu nodrošināt sekmīgu lietotāja pieredzi, Debitoru portāls automātiski aizpilda vērtības vairākos obligātos laukos. Šīs vērtības ir pamatotas uz informāciju klienta kontaktpersonas, kas iesniedz pasūtījumu, ierakstu.
 
-Katram [kontaktpersonas ierakstam](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts), kas attiecas uz klientu, kurš izmantos Debitoru portālu pasūtījuma iesniegšanai, ir jānorāda vērtības tālāk minētajiem obligātajiem laukiem. Pretējā gadījumā radīsies kļūdas.
+Katrai [kontaktpersonas rindai](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts), kas attiecas uz klientu, kurš izmantos Debitoru portālu pasūtījuma iesniegšanai, ir jānorāda vērtības tālāk minētajiem obligātajiem laukiem. Pretējā gadījumā radīsies kļūdas.
 
 - **Uzņēmums** — juridiskā persona, kam pieder pasūtījums
 - **Potenciālais debitors** — debitora konts, kas saistīts arpasūtījumu
@@ -99,7 +96,7 @@ Katram [kontaktpersonas ierakstam](https://docs.microsoft.com/powerapps/maker/po
 - **Valūta** — cenas valūta
 - **Nosūtīt uz valsti/reģionu** — valsti vai reģions, uz kuru tiks nogādāti krājumi
 
-Tālāk minētie lauki tiek automātiski iestatīti pārdošanas pasūtījuma elementam.
+Tālāk minētie lauki tiek automātiski iestatīti pārdošanas pasūtījuma tabulai:
 
 - **Valoda** — pasūtījuma valoda (pēc noklusējuma vērtība tiek ņemta no kontaktpersonas ieraksta).
 - **Nosūtīt uz valsti/reģionu** — valsts vai reģions, uz kuru tiks nogādāti krājumi (pēc noklusējuma vērtība tiek ņemta no kontaktpersonas ieraksta.)
@@ -116,7 +113,7 @@ Tālāk minētie lauki tiek automātiski iestatīti pārdošanas pasūtījuma el
 
 Varat brīvi modificēt Debitoru portāla izskatu un lietotāja interfeisu, ja nemaināt pasūtījuma izveides pamata procesu. Ja vēlaties mainīt pasūtījuma izveides procesu, ir dažas lietas, kas jāpatur prātā.
 
-Nenoņemiet tālāk norādītos laukus no pārdošanas pasūtījuma elementa pakalpojumā Common Data Service, jo tie ir nepieciešami, lai izveidotu pārdošanas pasūtījumu duālajā ierakstā.
+Nenoņemiet tālāk norādītos laukus no pārdošanas pasūtījuma tabulas pakalpojumā Microsoft Dataverse, jo tie ir nepieciešami, lai izveidotu pārdošanas pasūtījumu duālajā ierakstā:
 
 - **Uzņēmums** — juridiskā persona, kam pieder pasūtījums
 - **Nosaukums** — pārdošanas pasūtījuma nosaukums
@@ -127,7 +124,7 @@ Nenoņemiet tālāk norādītos laukus no pārdošanas pasūtījuma elementa pak
 - **Valoda** — pasūtījuma valoda (parasti šī valoda ir potenciālā debitora valoda).
 - **Piegādes adreses apraksts** — pārdošanas pasūtījuma piegādes adrese
 
-Krājumiem ir nepieciešami tālāk minētie lauki.
+Krājumiem ir nepieciešamas tālāk minētas kolonnas:
 
 - **Prece** — pasūtījumā norādītā prece
 - **Daudzums** — atlasītās preces daudzums
@@ -135,11 +132,11 @@ Krājumiem ir nepieciešami tālāk minētie lauki.
 - **Nosūtīt uz valsti/reģionu** — piegādes valsts vai reģions
 - **Piegādes adreses apraksts** — pasūtījuma piegādes adrese
 
-Jums ir jāpārliecinās, ka jūsu Debitoru portālā kaut kādā veidā tiek iesniegtas vērtības visiem tālāk minētajiem laukiem.
+Jums ir jāpārliecinās, ka jūsu Debitoru portālā kaut kādā veidā tiek iesniegtas vērtības visām tālāk minētajām kolonnām.
 
-Ja vēlaties pievienot laukus lapai vai noņemt laukus, skatiet [Ātrās izveides veidlapu izveide vai rediģēšana racionalizētai datu ievades pieredzei](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms).
+Ja vēlaties pievienot lapai kolonnas vai noņemt tās, skatiet [Ātrās izveides veidlapu izveide vai rediģēšana racionalizētai datu ievades pieredzei](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms).
 
-Ja vēlaties mainīt to, kā lauki ir priekšiestatīti un kā tiek iestatītas vērtības, kad lapa tiek saglabāta, skatiet tālāk norādīto informāciju Power Apps portālu dokumentācijā.
+Ja vēlaties mainīt to, kā ir priekšiestatītas kolonnas un kā tiek iestatītas vērtības, kad lapa tiek saglabāta, skatiet tālāk norādīto informāciju Power Apps portālu dokumentācijā:
 
 - [Lauka iepriekšēja aizpildīšana](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#prepopulate-field)
 - [Vērtības iestatīšana saglabāšanai](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#set-value-on-save)
@@ -176,3 +173,6 @@ Lai uzzinātu vairāk par to, kā varat iestatīt un pielāgot Debitoru portālu
 - [Portāla jaunināšana](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
 - [Portāla konfigurācijas migrācija](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Risinājuma dzīves cikla pārvaldība: programma Dynamics 365 for Customer Engagement](https://www.microsoft.com/download/details.aspx?id=57777)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

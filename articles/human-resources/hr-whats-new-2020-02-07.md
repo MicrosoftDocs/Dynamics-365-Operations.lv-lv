@@ -1,31 +1,30 @@
 ---
 title: Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2020. gada 7. februāris)
 description: Šajā rakstā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Human Resources uz 2020. gada 7. februāri.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
 ms.date: 02/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 42fac6e34db10efb047b4cb0fc3c7752330e5bcf
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 5659a5f3a1da24d14ef379de8f591d011e6b5354
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526952"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6051261"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-7-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2020. gada 7. februāris)
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -55,11 +54,11 @@ Tālāk norādītie priekšskatījuma līdzekļi ir pieejami 2020. gada 3. febru
 
 ### <a name="platform-update-32"></a>Platformas update 32 
 
-Platformas update 32 būs pieejams drīzumā. [Skatiet papildinformāciju par Platform update 32 šeit ](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32).
+Platformas update 32 būs pieejams drīzumā. [Skatiet papildinformāciju par Platform update 32 šeit](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md).
 
-### <a name="updated-common-data-service-solution"></a>Atjaunināts Common Data Service risinājums
+### <a name="updated-dataverse-solution"></a>Atjaunināts Dataverse risinājums
 
-Jauns Common Data Service risinājums drīzumā būs pieejams ar šādām izmaiņām:
+Jauns Dataverse risinājums drīzumā būs pieejams ar šādām izmaiņām:
 
 | Apraksts | Labot |
 | ----------------------------------------- | --- |
@@ -70,11 +69,13 @@ Jauns Common Data Service risinājums drīzumā būs pieejams ar šādām izmai�
 | Jaunas mainīgās atlīdzības iestatījuma entitījas | **Atlīdzības mainīgā plāna tips**</br>**Atlīdzības mainīgā sistēma**</br>**Izmaksas noteikumi**</br>**Atlīdzības mainīgā plāna līmenis** |
 | Jauna **Darbinieka kalendāra nodarbinātības** entitīja | **Darba kalendāra elements** pievienots |
 | Jauna **Algas pozīcijas detalizētas informācijas** entitīja | **Algas pozīcijas detalizēta informācija** pievienota |
-| Jauna **Nosaukuma** entitīja | **Nosaukums** pievienots. Jaunais elements **Nosaukums** tiks iekļauts sinhronizācijas procesā starp Human Resources un Common Data Service. Tam nebūs sākotnējas atsauces no entitījām **Amats** vai **Darbs**. |
+| Jauna **Nosaukuma** entitīja | **Nosaukums** pievienots. Jaunais elements **Nosaukums** tiks iekļauts sinhronizācijas procesā starp Human Resources un Dataverse. Tam nebūs sākotnējas atsauces no entitījām **Amats** vai **Darbs**. |
 
 ## <a name="see-also"></a>Skatiet arī
 
 [Jaunumi un izmaiņas programmā Human Resources](hr-admin-whats-new.md)</br>
-[Pārskats par Dynamics 365 Human Resources 2019. gada laidiena 2. kopumu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Pārskats par Dynamics 365 Human Resources 2019. gada laidiena 2. kopumu](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Procesa atjaunināšana](hr-admin-setup-update-process.md)</br>
 [Līdzekļu pārvaldība](hr-admin-manage-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

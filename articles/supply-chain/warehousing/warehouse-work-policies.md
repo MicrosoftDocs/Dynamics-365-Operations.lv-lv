@@ -2,31 +2,34 @@
 title: Darba politikas
 description: Šajā tēmā ir izskaidrots, kā iestatīt darba politiku.
 author: perlynne
+manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkPolicy
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
-ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 1d4ee3f1bffaf00c20758f6a3f399451d3122291
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: 08c04caeace7b8ced40915ace1561d817426cba3
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571165"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4433189"
 ---
 # <a name="work-policies"></a>Darba politikas
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidrots, kā iestatīt sistēmu un Warehouse Management mobile programmu, lai tās atbalstītu darba politikas. Varat izmantot šo funkcionalitāti, lai ātri reģistrētu krājumus, neveidojot izvietošanas darbu, kad saņemat pirkšanas vai pārsūtīšanas pasūtījumus vai kad aizpildāt ražošanas procesus. Šajā tēmā ir sniegta vispārīga informācija. Lai iegūtu detalizētu informāciju, kas saistīta ar numura zīmes saņemšanu, skatiet [Numura zīmes saņemšana ar Warehouse Management mobile programmas starpniecību](warehousing-mobile-device-app-license-plate-receiving.md).
+Šajā tēmā skaidrots, kā iestatīt sistēmu un noliktavu programmu, lai tās atbalstītu darba politikas. Varat izmantot šo funkcionalitāti, lai ātri reģistrētu krājumus, neveidojot izvietošanas darbu, kad saņemat pirkšanas vai pārsūtīšanas pasūtījumus vai kad aizpildāt ražošanas procesus. Šajā tēmā ir sniegta vispārīga informācija. Lai iegūtu detalizētu informāciju, kas saistīta ar numura zīmes saņemšanu, skatiet [Numura zīmes saņemšana ar noliktavas programmas starpniecību](warehousing-mobile-device-app-license-plate-receiving.md).
 
-Darba politika kontrolē, vai noliktavas darbs tiek izveidots, kad saražotais krājums ir fiziski pabeigts vai kad preces tiek saņemtas, izmantojot Warehouse Management mobile programmu. Katra darba politika tiek iestatīta, definējot nosacījumus, uz kuriem tas attiecas: darba pasūtījuma tipi un procesi, krājumu novietojums un (pēc izvēles) preces. Piemēram, pirkšanas pasūtījums precei *A0001* ir jāsaņem atrašanās vietā *RECV* noliktavā *24*. Vēlāk prece tiek patērēta citā procesā atrašanās vietā *RECV*. Šādā gadījumā varat iestatīt darba politiku, lai novērstu izvietošanas darba neveidošanu, kad darbinieks ziņo preci *A0001*, kā saņemtu atrašanās vietā *RECV*.
+Darba politika kontrolē, vai noliktavas darbs tiek izveidots, kad saražotais krājums ir fiziski pabeigts vai kad preces tiek saņemtas, izmantojot noliktavas programmu. Katra darba politika tiek iestatīta, definējot nosacījumus, uz kuriem tas attiecas: darba pasūtījuma tipi un procesi, krājumu novietojums un (pēc izvēles) preces. Piemēram, pirkšanas pasūtījums precei *A0001* ir jāsaņem atrašanās vietā *RECV* noliktavā *24*. Vēlāk prece tiek patērēta citā procesā atrašanās vietā *RECV*. Šādā gadījumā varat iestatīt darba politiku, lai novērstu izvietošanas darba neveidošanu, kad darbinieks ziņo preci *A0001*, kā saņemtu atrašanās vietā *RECV*.
 
 > [!NOTE]
 > - Lai darba politika būtu aktīva, ir jādefinē vismaz viena atrašanās vieta, kas atrodas kopsavilkuma cilnē **Krājumu atrašanās vietas** **Darba politikas** lapā. 
@@ -200,7 +203,7 @@ Pirkšanas pasūtījums tagad ir saņemts, bet ar to nav saistīts neviens darbs
 
 Nākamajā piemērā ir divi ražošanas pasūtījumi, *PRD-001* un *PRD-002*. Ražošanas pasūtījumā *PRD-001* ir operācija ar nosaukumu *Montāža*, kur prece *SC1* tiek ziņota kā pabeigta uz novietojumu *001*. Ražošanas pasūtījumā *PRD-002* ir operācija ar nosaukumu *Krāsošana*, un tas patērē preci *SC1* no novietojuma *001*. Ražošanas pasūtījums *PRD-002* patērē arī izejmateriālu *RM1* no novietojuma *001*. Izejmateriāls *RM1* tiek glabāts noliktavas novietojumā *BULK-001* un ar noliktavas darbu izejmateriālu izdošanai tiks izdots uz novietojumu *001*. Izdošanas darbs tiek ģenerēts, kad tiek izlaista ražošana *PRD-002*.
 
-[![Noliktavas darba politikas.](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
+[![Noliktavas darba politikas](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
 
 Kad plānojat konfigurēt noliktavas darba politiku šim scenārijam, ir jāņem vērā tālāk norādītā informācija:
 
@@ -295,9 +298,6 @@ Kad ražošanas pasūtījums tiek norādīts kā pabeigts, netika ģenerēts dar
 
 Papildinformāciju par mobilās ierīces izvēlnes elementiem skatiet [Mobilo ierīču iestatīšana noliktavas darbam](configure-mobile-devices-warehouse.md).
 
-Lai iegūtu detalizētu informāciju, kas saistīta ar numura zīmes saņemšanu un darba politikām, skatiet [Numura zīmes saņemšana ar Warehouse Management mobile programmas starpniecību](warehousing-mobile-device-app-license-plate-receiving.md).
+Lai iegūtu detalizētu informāciju, kas saistīta ar numura zīmes saņemšanu un darba politikām, skatiet [Numura zīmes saņemšana ar noliktavas programmas starpniecību](warehousing-mobile-device-app-license-plate-receiving.md).
 
 Papildinformāciju par saņemšanas noslodzes pārvaldību skatiet [Ienākošo noslodžu noliktavas apstrāde pirkšanas pasūtījumu veikšanai](inbound-load-handling.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

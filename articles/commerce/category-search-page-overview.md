@@ -2,39 +2,35 @@
 title: Noklusējuma kategorijas ielādes lapas un meklēšanas rezultātu lapas pārskats
 description: Šajā tēmā ir sniegts pārskats par noklusējuma kategorijas ielādes lapu un meklēšanas rezultātu lapu programmā Dynamics 365 Commerce.
 author: ashishmsft
-manager: annbe
 ms.date: 06/30/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e85449c10fa4a768a144ce423a77bd1fc2c94352
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 6f61ee8ec212185e195e2cf1a9d6d25c31e4f672
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414016"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982438"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Noklusējuma kategorijas ielādes lapas un meklēšanas rezultātu lapas pārskats
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir sniegts pārskats par noklusējuma kategorijas ielādes lapu un meklēšanas rezultātu lapu programmā Microsoft Dynamics 365 Commerce E-komercija.
+Šajā tēmā sniegts pārskats par noklusējuma kategorijas reklāmas mērķlapu un meklēšanas rezultātu lapu Microsoft Dynamics 365 Commerce e-komercijas vietnē.
 
 ## <a name="default-category-landing-page"></a>Noklusējuma kategorijas ielādes lapa
 
 Noklusējuma kategorijas ielādes lapa ir lapa, uz kuru parasti tiek novirzīti vietnes lietotāji, kad viņi atlasa kategoriju navigācijas hierarhijā. Kategorijas lapa ļauj jums pārlūkot, un jūs varat arī kārtot un attīrīt kategorizētās preces.
 
-![Noklusējuma kategorijas ielādes lapa](./media/SimpleCategoryLandingDressCategory.png)
+![Noklusējuma kategorijas ielādes lapa.](./media/SimpleCategoryLandingDressCategory.png)
 
 Lapas augšdaļā ir virsraksts, kas parāda visas preču kategorijas un citas lapas, kurām ir kategorizēts tirdzniecības vadītājs. Konfigurācija tiek veikta kā kanāla navigācijas hierarhijas konfigurācijas sastāvdaļa. Lapas apakšdaļā ir kājene, kas ietver ātras saites uz dažādām tēmām, kas varētu interesēt pircēju.
 
@@ -58,7 +54,7 @@ Kategorijai ir svarīgi šādi komponenti.
 
 Ja vēlaties, lai kategorijas ielādes lapai būtu vairāk pielāgota pieredze noteiktai kategorijai, varat “bagātināt” kategorijas ielādes lapu šai kategorijai. Piemēram, varat pievienot mārketinga video un dažas kategorijas stāstījumus, lai piesaistītu pircēju uzmanību. Plašāku informāciju skatiet tēmā [Kategorijas ielādes lapas bagātināšana](enrich-category-page.md).
 
-![Bagātināta kategorijas ielādes lapa](./media/CategoryLandingPages.png)
+![Bagātināta kategorijas ielādes lapa.](./media/CategoryLandingPages.png)
 
 ## <a name="auto-suggest-and-search-results-pages"></a>Automātiskās piedāvāšanas un meklēšanas rezultātu lapas
 
@@ -72,11 +68,11 @@ Piedāvājam dažus piedāvājumu tipus, kas var tikt rādīti.
 - **Preces** sniedz tiešas saites uz preču informācijas lapu.
 - **Atlasītie kategorijas meklēšanas ieteikumi** uzskaita dažādas kategorijas un ļauj lietotājiem meklēt atslēgvārdu noteiktā kategorijā.
 
-![Visaptveroša automātiskā piedāvāšana](./media/ImmersiveAutoSuggestUX.png)
+![Visaptveroša automātiskā piedāvāšana.](./media/ImmersiveAutoSuggestUX.png)
 
 Kad lietotāji atlasa vienu no atslēgvārdiem vai atlasītajiem kategoriju meklēšanas ieteikumiem, vai ja nav ieteikumu meklētajam terminam, kas tiek ievadīts, viņi tiek novirzīti uz meklēšanas rezultātu lapu. Pēc tam lietotāji var pārlūkot, kārtot un precizēt meklēšanas rezultātu sarakstu, lai atrastu vēlamo elementu.
 
-![Meklēšanas ielāde](./media/SearchLanding.png)
+![Meklēšanas ielāde.](./media/SearchLanding.png)
 
 Meklēšanas rezultātu lapai ir svarīgi šādi komponenti.
 
@@ -97,13 +93,13 @@ Meklēšanas rezultātu lapai ir svarīgi šādi komponenti.
 
 >[!NOTE]
 >Mākoņa darbinātas meklēšanas iespējas ir pieejamas, sākot ar versiju 10.0.8. Pārliecinieties, vai sadaļas **Commerce parametri > Konfigurācijas parametri** ievadne “ProductSearch.UseAzureSearch ir iestatīta kā “true””. 
-![Mākoņa darbinātas meklēšanas konfigurācijas parametri](./media/CloudPoweredSearchConfigurationParameters.png)
+![Mākoņa darbinātas meklēšanas konfigurācijas parametri.](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Mākoņa darbināts meklēšanas pārskats](cloud-powered-search-overview.md)
+[Mākoņa darbinātas meklēšanas pārskats](cloud-powered-search-overview.md)
 
-[Mājas lapas pārskats](quick-tour-home-page.md)
+[Sākumlapas pārskats](quick-tour-home-page.md)
 
 [Preču papildinformācijas lapu apskats](quick-tour-pdp.md)
 
@@ -111,3 +107,6 @@ Meklēšanas rezultātu lapai ir svarīgi šādi komponenti.
 
 [Konta pārvaldības lapu pārskats](quick-tour-account-management.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

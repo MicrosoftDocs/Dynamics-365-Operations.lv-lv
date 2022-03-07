@@ -1,12 +1,10 @@
 ---
 title: Globālās adrešu grāmatas un citu adrešu grāmatu plānošana
-description: Šajā tēmā ir aprakstīti apsvērumi un lēmumi, kas ir jāņem vērā un jāpieņem plānošanas procesa laikā pirms globālās adrešu grāmatas un jebkuru papildu adrešu grāmatu iestatīšanas un konfigurēšanas.
+description: Šajā tēmā aprakstīti apsvērumi un lēmumi, kas jāpieņem plānošanas procesa laikā.
 author: msftbrking
-manager: AnnBe
 ms.date: 01/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DirAddressBook, DirAddressBookTeam, DirParameters, DirPartyTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f0a53e1f9b378759e0c5adbe0612a5fa8cddc82
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: 87b3f6a74c217b0cc7cec784ca6a964ab2caae0c7e9438aee2cc82987a508d63
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796950"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771900"
 ---
 # <a name="plan-for-the-global-address-book-and-other-address-books"></a>Plāns globālajai adrešu grāmatai un citām adrešu grāmatām
 
@@ -57,3 +55,6 @@ Pēc globālās adrešu grāmatas izveidošanas pēc nepieciešamības varat izv
 **Lēmums:**
 
 - Cik daudz papildu adrešu grāmatas jūs izveidosiet?
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

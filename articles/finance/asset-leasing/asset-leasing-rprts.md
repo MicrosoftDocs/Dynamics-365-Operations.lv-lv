@@ -2,11 +2,11 @@
 title: Līdzekļu nomas pārskati
 description: Šajā tēmā ir uzskaitīti un īsi aprakstīti pārskati, kas ir pieejami Līdzekļu nomā.
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 10/27/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: SysOperationTemplateForm
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7044378a66ed9ff952f4579d375d59576fe09294fc158c000ab28a93f4173421
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 085027c5cc823beec99779791ff471dceb4ec8fe
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739411"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814108"
 ---
 # <a name="asset-leasing-reports"></a>Līdzekļu nomas pārskati
 

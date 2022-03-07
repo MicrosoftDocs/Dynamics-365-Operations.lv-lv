@@ -2,11 +2,9 @@
 title: Faila ER adresāta tips
 description: Šajā tēmā sniegta informācija par faila adresāta konfigurēšanu ER formātam.
 author: NickSelin
-manager: AnnBe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 2e192a3d768b2f99330129260fa60ad231796710
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f48d4c28f74d9eea7289b9911269527073304d6f
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679634"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753484"
 ---
 # <a name="file-destination"></a>Faila adresāts
 
@@ -38,3 +36,6 @@ Ja lapā **Adresāta iestatījumi** opciju **Iespējots** iestatāt uz **Jā**, 
 
 - [Elektronisko pārskatu veidošanas (ER) apskats](general-electronic-reporting.md)
 - [Elektroniskās pārskatu veidošanas (ER) adresāti](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

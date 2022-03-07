@@ -2,15 +2,12 @@
 title: Izveidot atvaļinājumu un prombūtnes plānu
 description: Izveidojiet atvaļinājumu plānus Dynamics 365 Human Resources dažādiem atvaļinājumu veidiem.
 author: andreabichsel
-manager: AnnBe
 ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cb42860292c5e3e654917cf2f62b525993aa795a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 26d85ce226bd601e3ce0bc789e54a7a1a7ec6812
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419597"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6057578"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Izveidot atvaļinājumu un prombūtnes plānu
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Definējiet atvaļinājumu un prombūtnes plānus pakalpojumā Dynamics 365 Human Resources katram atvaļinājuma veidam, ko piedāvājat. Atvaļinājumu un prombūtnes plānus var uzkrāt dažādos biežumos, piemēram, reizi gadā, mēnesī vai pusmēnesī. Plānu var definēt arī kā dotāciju, veicot vienu uzkrājumu noteiktā datumā. Piemēram, var izveidot plānu, kas ik gadu piešķir peldošās brīvdienas.
 
@@ -383,3 +382,6 @@ Prognozētā bilance (30) = uzkrājumu summa (10 x 1) + pašreizējā bilanc
 - [Atvaļinājumu un kavējumu apskats](hr-leave-and-absence-overview.md)
 - [Konfigurēt atvaļinājumu un kavējumu veidus](hr-leave-and-absence-types.md)
 - [Atvaļinājumu un prombūtnes plānu uzkrāšana](hr-leave-and-absence-accrue.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

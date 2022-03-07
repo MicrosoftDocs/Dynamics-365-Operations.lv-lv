@@ -1,27 +1,24 @@
 ---
 title: Debitora darbplūsma
 description: Šajā tēmā ir sniegta informācija par debitora darbplūsmu. Jūs maināt noteiktus debitora informācijas laukus un pēc tam, izmantojot darbplūsmu, nosūtāt izmaiņas apstiprināšanai, pirms tās tiek pievienotas debitora informācijai.
-author: mikefalkner
-manager: aolson
+author: abruer
 ms.date: 08/24/2018
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 5998a492e12cb93aeec029c6e56f811f8b90055a
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: c74f18997b390d70b5012199fab1adc9734994f4
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4459511"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753830"
 ---
 # <a name="customer-workflow"></a>Debitora darbplūsma
 
@@ -61,3 +58,6 @@ Ja ir piedāvātas vismaz vienas izmaiņas, darbību rūtī tiek rādītas divas
     Lapas statuss tiek mainīts uz **Izmaiņas, kas gaida apstiprinājumu**.
 
 Darbplūsma atbilst programmas standarta darbplūsmu procesam. Apstiprinātājs tiek virzīts uz lapu **Debitors**, kurā var pārskatīt izmaiņas lapā **Piedāvātās izmaiņas** un pēc tam atlasīt **Darbplūsma \> Apstiprināt**, lai apstiprinātu darbplūsmu. Kad apstiprināšana ir pilnībā pabeigta, lauki tiek atjaunināti atbilstoši jūsu piedāvātajām vērtībām.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

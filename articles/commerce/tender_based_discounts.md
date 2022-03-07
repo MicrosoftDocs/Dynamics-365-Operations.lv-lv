@@ -2,11 +2,9 @@
 title: Uz konkursu balstītas atlaides
 description: Šī tēma sniedz apskatu par funkcionalitāti, kas ļauj mazumtirgotājiem konfigurēt atlaides noteiktiem norēķinu veidiem.
 author: bebeale
-manager: AnnBe
 ms.date: 10/30/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTenderDiscount
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 9f6747ff9d68c29612346254928e869d6d34d433
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 52b9510b2c22157aec27b865115273064bb0e803443306ea20468b93a2ea3ca7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962939"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719469"
 ---
 # <a name="tender-based-discounts"></a>Uz konkursu balstītas atlaides
 
@@ -34,7 +32,7 @@ Tā ir kopīga prakse starp mazumtirgotājiem, lai izlaistu privātas, firmas kr
 
 Alternatīvā gadījumā tirgotāji, kas nesniedz zīmola kredītkartes, varētu vēlēties mudināt klientus maksāt, izmantojot citus norēķinu veidus, piemēram, skaidru naudu, dāvanu kartes vai lojalitātes programmas punktus. Šādā veidā viņi var palīdzēt samazināt kredītkaršu apstrādes maksu izdevumus. Tāpēc mazumtirgotāji var nodrošināt atlaides klientiem, kuri lieto šos alternatīvos norēķinu veidus.
 
-Microsoft Dynamics 365 Commerce mazumtirgotāji var konfigurēt atlaides procentus, kas tiek piemēroti kvalificētām rindām, ja klients maksā, izmantojot izvēlēto norēķinu veidu. Klients var izlemt, vai veikt daļēju vai pilnu maksājumu, un Commerce nosaka atbilstošo atlaides summu. Ievērojiet, ka atlaides vienmēr tiek dotas par kvalificētu krājumu iepriekšēju nodokļu summu.
+Programmā Microsoft Dynamics 365 Commerce mazumtirgotāji var konfigurēt atlaides procentus, kas tiek piemēroti kvalificētām rindām, ja klients maksā, izmantojot izvēlēto norēķinu veidu. Klients var izlemt, vai veikt daļēju vai pilnu maksājumu, un Commerce nosaka atbilstošo atlaides summu. Ievērojiet, ka atlaides vienmēr tiek dotas par kvalificētu krājumu iepriekšēju nodokļu summu.
 
 Ar norēķiniem balstītās atlaides nekonkurē ar uz krājumu balstītām atlaidēm, piemēram, periodiskām vai manuālām atlaidēm. Tās vienmēr tiek izvirzītas virs krājuma atlaidēm. Tāpēc, pat ja krājumam tiek lietota ekskluzīva periodiska atlaide, uz norēķiniem balstītā atlaide tiek izmantota papildus ekskluzīvajai periodiskajai atlaidei. Turklāt, ja darījumam tiek piemērota sliekšņa atlaide, un uz norēķiniem balstītā atlaide samazina kopsummu zem sliekšņa, sliekšņa atlaide tiek izmantota transakcijai.
 
@@ -71,3 +69,6 @@ Mazumtirgotāji bieži izvēlas nepiemērot atlaidi dažiem produktiem, piemēra
 
 > [!NOTE]
 > Kad konfigurācija **Novērst visas atlaides** ir ieslēgta uz **Jā**, precei netiks piemērotas atlaides. Netiks piešķirtas pat uz norēķinu balstītās atlaides.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

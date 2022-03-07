@@ -2,11 +2,9 @@
 title: Izmaksu ieraksti
 description: Šajā rakstā ir sniegta informācija par izmaksu ierakstiem un to, kad tie tiek izveidoti. Izmaksu ieraksts ir ieraksts, kas reģistrē noteikta notikuma daudzumu un izmaksas.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCostOnhandItem
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12ff771cf44595420ca721605daabaa6b071a4ff
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 48c37e4355bc3448930a7cfa73ce08ac8e439b97
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967821"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839419"
 ---
 # <a name="cost-entries"></a>Izmaksu ieraksti
 
@@ -71,3 +69,6 @@ Lapa **Izmaksu ieraksti** ļauj veikt filtrēšanu pēc dokumenta ID un dokument
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

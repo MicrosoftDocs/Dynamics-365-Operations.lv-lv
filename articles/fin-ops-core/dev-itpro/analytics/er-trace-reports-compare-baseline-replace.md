@@ -1,6 +1,6 @@
 ---
 title: Ģenerēto ER pārskatu rezultātu izsekošanas un to salīdzināšanas ar bāzlīnijas vērtībām uzlabojumi
-description: Šajā tēmā ir sniegta informācija par ER bāzlīnijas līdzekļa uzlabojumiem Microsoft Dynamics 365 for Finance and Operations versijā 10.0.3 (2019. jūnijs).
+description: Šajā tēmā ir aprakstīti ER bāzlīnijas funkcionalitātes uzlabojumi Microsoft Dynamics 365 for Finance and Operations versijā 10.0.3 (2019. gada jūnijs).
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2019
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 55e821b27f80383d8a8dc7a2d46f87e17c554078
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1c00a5d9e2804f6ec0f6cb4c544029a1235ee58d
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682851"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094008"
 ---
 # <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>Ģenerēto ER pārskatu rezultātu izsekošanas un to salīdzināšanas ar bāzlīnijas vērtībām uzlabojumi
 
@@ -59,7 +59,7 @@ Lai izpildītu šajā piemērā norādītās darbības, vispirms ir jāizpilda d
 
 Bāzlīnija tika pievienota atlasītajam formātam **Formāts ER bāzlīniju apgūšanai**, bet šai bāzlīnijai vēl nav pievienotas bāzlīnijas kārtulas.
 
-![Elektroniskā pārskata formāta bāzlīniju lapa](media/GER-BaselineSample-AddBaseline2.PNG "Elektronisko pārskatu formāta bāzlīniju lapu konfigurāciju ekrānuzņēmums")
+![Elektroniskā pārskata formāta bāzlīniju lapa, pagaidām bez kārtulām](media/GER-BaselineSample-AddBaseline2.PNG "Elektronisko pārskatu formāta bāzlīniju lapu konfigurāciju ekrānuzņēmums")
 
 ### <a name="make-a-new-baseline-rule"></a>Jaunas bāzlīnijas kārtulas izveide
 
@@ -72,7 +72,7 @@ Bāzlīnija tika pievienota atlasītajam formātam **Formāts ER bāzlīniju apg
 7. Atlasiet **Labi**.
 8. Atlasiet **Bāzlīnijas**.
 
-    ![Elektroniskā pārskata formāta bāzlīniju lapa](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Elektronisko pārskatu formāta bāzlīniju lapu konfigurāciju ekrānuzņēmums")
+    ![Elektronisko pārskatu formāta bāzlīniju lapa ar atlasītām bāzlīnijām](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Elektronisko pārskatu formāta bāzlīniju lapu konfigurāciju ekrānuzņēmums")
 
     Ģenerētais izejošais fails tiek automātiski pievienots izpildītā ER formāta bāzlīnijai. Bāzlīnijas kārtula tiek automātiski pievienota šai bāzlīnijai un arī satur atsauci uz pievienoto failu.
 
@@ -130,7 +130,7 @@ Lai izpildītu šajā piemērā norādītās darbības, vispirms ir jāizpilda d
 3. Bāzlīniju sarakstā atlasiet bāzlīniju, kas konfigurēta formātam **Formāts ER bāzlīniju apgūšanai**.
 4. Kopsavilkuma cilnē **Bāzlīnijas** atlasiet **Dzēst**, lai noņemtu iepriekš konfigurēto bāzlīnijas kārtulu.
 
-![Elektroniskā pārskata formāta bāzlīniju lapa](media/GER-BaselineSample-AddBaseline3.PNG "Elektronisko pārskatu formāta bāzlīniju lapu konfigurāciju ekrānuzņēmums")
+![Elektroniskā pārskata formāta bāzlīniju lapa, dzēsta](media/GER-BaselineSample-AddBaseline3.PNG "Elektronisko pārskatu formāta bāzlīniju lapu konfigurāciju ekrānuzņēmums")
 
 ### <a name="define-replacements-for-bindings-of-designed-er-format"></a>Izveidotā ER formāta saistījumu aizstājēju definēšana
 
@@ -138,7 +138,7 @@ Lai izpildītu šajā piemērā norādītās darbības, vispirms ir jāizpilda d
 2. Formāta komponentu kokā izvērsiet **Izvade**, izvērsiet **Izvade\\Dokuments** un pēc tam atlasiet vienuma **Izvade\\Dokuments\\ProcessingDateTime** izvēles rūtiņu.
 3. Atlasiet **Labi**.
 
-![Elektroniskā pārskata formāta bāzlīniju lapa](media/GER-BaselineSample-AddBaseline4.PNG "Elektronisko pārskatu formāta bāzlīniju lapu konfigurāciju ekrānuzņēmums")
+![Elektroniskā pārskata formāta bāzlīniju lapa, elementi](media/GER-BaselineSample-AddBaseline4.PNG "Elektronisko pārskatu formāta bāzlīniju lapu konfigurāciju ekrānuzņēmums")
 
 Atlasītais ER formāta komponents ir pievienots komponentu sarakstam kopsavilkuma cilnē **Aizstājēji**. Kad pamata ER formāts tiek palaists atkļūdošanas režīmā, katra komponenta saistījums formātā tiek aizstāts ar saistījumu, kas redzams kolonnā **Saistīšana**. Lai mainītu komponenta noklusējuma saistījumu, kas uzskaitīts kopsavilkuma cilnē **Aizstājēji**, atlasiet **Rediģēt**.
 

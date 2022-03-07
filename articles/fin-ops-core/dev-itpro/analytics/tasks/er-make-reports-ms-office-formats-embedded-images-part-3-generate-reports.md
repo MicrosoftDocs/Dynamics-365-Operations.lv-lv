@@ -1,12 +1,10 @@
 ---
 title: Pārskatu ģenerēšana Office formātā, kurā ir iegultie attēli
-description: Tālāk ir paskaidrots, kā lietotājs ar lomu 'Sistēmas administrators' vai 'Elektronisko atskaišu izstrādātājs' var izveidot elektronisko atskaišu veidošanas (Electronic Reporting — ER) konfigurācijas, lai veidotu elektroniskos dokumentus ar iegultiem attēliem MS Office formātos (Excel un Word).
+description: Šīs procedūras aprakstā ir paskaidrots, kā izstrādāt elektronisko pārskatu izveides (Electronic reporting — ER) konfigurācijas, lai ģenerētu iegultus attēlus saturošus elektroniskos dokumentus.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/13/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78dcdbd83dc717104d437662f7f451c9ecb714cf
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 6ec9f3013c1e365a3ca1a4c6cabe71a22e3e8b730eac38155ef023fe68107524
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684383"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735530"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>Pārskatu ģenerēšana Office formātā, kurā ir iegultie attēli
 
@@ -119,3 +117,6 @@ Tālāk ir paskaidrots, kā lietotājs ar lomu 'Sistēmas administrators' vai 'E
 23. Noklikšķiniet uz Labi.
     * Pārskatiet izveidoto izvadi. Izvade ir izveidota kā Word dokuments ar iegultiem attēliem, kuros redzams uzņēmuma logotips, pilnvarotas personas paraksts un atlasītais ūdenszīmes teksts.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

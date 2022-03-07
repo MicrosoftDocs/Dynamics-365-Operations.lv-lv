@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 6febc340f140d0b3a3f08ea32a59d9eb4e6e5204
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
-ms.translationtype: MT
+ms.openlocfilehash: fa6054dc26e4306ec16e37b0e6c320342ed40fe0
+ms.sourcegitcommit: e6437d994c3be0c5bb4a9263af3aa8351020d83a
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920452"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "6249138"
 ---
 # <a name="picked-quantity-isnt-sufficient-during-packing-slip-generation"></a>Pavadzīmes ģenerēšanas laikā izdotais daudzums nav pietiekams
 
@@ -66,8 +66,8 @@ Izmantojiet šo procedūru, lai pielāgotu kravas rindas daudzumu.
 
 1. Dodieties uz **Noliktavas pārvaldība \> Noslodzes \> Visas noslodzes**.
 1. Atlasiet kravu, kurai nevar ģenerēt pavadzīmi.
-1. Darbību rūts cilnē Nosūtīt **un saņemt** apgrieztajā grupā atlasiet Atsaukt **kravas** **apstiprinājumu**.
-1. Cilnē **Kravas rindas** atlasiet krājuma noslodzes rindu, kas izraisa problēmu.
+1. Darbību rūts cilnē **Nosūtīt un saņemt** grupā **Atsaukt** atlasiet **Atsaukt kravas apstiprinājumu**.
+1. Cilnē **Kravas rindas** atlasiet kravas rindu krājumam, kas rada problēmu.
 1. Atlasiet **Samazināt izdoto daudzumu**, lai koriģētu izdoto daudzumu.
 1. Iestatiet lauku **Samazināt kravas rindu**, lai atspoguļotu korekcijas kravas rindā.
 
@@ -79,5 +79,5 @@ Lai atsauktu izdošanas reģistrāciju, izmantojiet šādu procedūru.
 
 1. Doties uz **Debitoru parādi \> Pasūtījumi \> Visi pasūtījumi**.
 1. Atlasiet pārdošanas pasūtījumu, kuram nevar grāmatot kravas pavadzīmi.
-1. Cilnē **Pārdošanas pasūtījuma rindas** atlasiet pārdošanas pasūtījuma rindu, kam veikta izdošanas reģistrācija.
+1. Cilnē **Pārdošanas pasūtījuma rindas** atlasiet pārdošanas pasūtījuma rindu, kam veikta izdošanas reģistrācija.
 1. Atlasiet **Atjaunināt rindu \> Izdot**, lai anulētu krājumu izdošanu.

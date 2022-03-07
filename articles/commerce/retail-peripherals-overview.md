@@ -2,28 +2,25 @@
 title: Perifērās ierīces
 description: Šajā tēmā ir paskaidrotas koncepcijas, kas ir saistītas ar Commerce perifērajām ierīcēm.
 author: rubencdelgado
-manager: AnnBe
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
 audience: Application User, IT Pro
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 268444
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: dd2ce6b223c99d890691d5fdb9f93a5ceaf33a0d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d2cbab3177756fbf5df4f07350a6449f0b22e028
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414170"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791951"
 ---
 # <a name="peripherals"></a>Perifērās ierīces
 
@@ -763,7 +760,6 @@ Tālāk norādītās perifērās ierīces ir pārbaudītas, izmantojot koplietot
 | Epson        | TM-T88V  | OPOS      |                           |
 | Epson        | TM-T88   | Pielāgot    | Tīkla savienojums     |
 | Star         | TSP650II | Pielāgot    | Tīkla savienojums     |
-| Star         | TSP100   | OPOS      | Nepieciešami TSP650II draiveri |
 | HP           | F7M67AA  | OPOS      | USB barošana               |
 
 #### <a name="payment-terminal"></a>Maksājumu terminālis
@@ -837,3 +833,6 @@ Tālāk norādītās perifērās ierīces ir pārbaudītas, izmantojot koplietot
 [Perifērijas simulators programmai Commerce](dev-itpro/retail-peripheral-simulator.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

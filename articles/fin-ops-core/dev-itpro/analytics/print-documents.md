@@ -1,27 +1,27 @@
 ---
 title: Dokumentu drukāšanas pārskats
 description: Varat drukāt dokumentus, izmantojot lokālu printeri vai tīklam pievienotu ierīci. Šajā rakstā ir sniegts apskats par to, kā tiek drukāti dokumenti.
-author: TJVass
-manager: AnnBe
+author: RichdiMSFT
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: IT Pro, Application User
 ms.reviewer: kfend
-ms.custom: 69161
+ms.custom:
+- "69161"
+- intro-internal
 ms.assetid: 7815bddd-c4f4-4bc3-a29b-315458065374
 ms.search.region: Global
-ms.author: tjvass
+ms.author: richdi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b1d64a2efeade5e9ba24f4dfe61c861f5a4cbad4
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 8b9105ef39e411ac33043f1941d4e1dd32b758e5
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680100"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984912"
 ---
 # <a name="document-printing-overview"></a>Dokumentu drukāšanas pārskats
 
@@ -51,7 +51,7 @@ Nākamajā tabulā ir aprakstīti trīs primārie drukāšanas scenāriji.
 Tā kā atkarībā no scenārija risinājumi ir dažādi, programmas nodrošina tālāk aprakstītos iebūvētos pakalpojumus un rīkus, lai palīdzētu lietotājiem sasniegt savus mērķus.
 
 - **1. scenārijs** tiek atbalstīts pārlūkprogrammas HTML5 klienta renderēšanā.
-- **2. scenārijs** izmanto klienta programmas un Microsoft 365 pakalpojumus.
+- **2. scenārija** ietvaros tiks izmantotas klienta lietojumprogrammas un Microsoft 365 pakalpojumi.
 - **3. scenārijam** ir nepieciešams pakalpojumā Microsoft Azure viesoto pakalpojumu un klienta lietojumprogrammu atbalsts.
 
 Papildus platformai, kas tiek izvietota Azure abonementā, Finance and Operations programmas debitoriem nodrošina integrētu, pirmās puses Azure programmu, kas viņiem palīdz dokumentu drukāšanai vienkāršāk izmantot domēnā viesotas ierīces.
@@ -71,6 +71,9 @@ No klienta atkarīgais risinājums ļauj lietotājiem pārvaldīt savu drukas va
 
 Nākamajā diagrammā ir redzami pamata komponenti, kas palīdz atbalstīt tīkla drukāšanas operācijas.
 
-[![pakalpojuma-komponenti-drukāšanai-tīklā\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
+[![pakalpojuma-komponenti-drukāšanai-tīklā\_2016.](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
 
 Ņemiet vērā, ka vienu printeri var reģistrēt vairākiem dokumentu maršrutēšanas aģentiem. Lai atrisinātu printera preferences, viesotais pakalpojums izmanto tīkla ceļu, kas unikāli identificē katru tīkla printeri. Līdz ar to pat gadījumos, kad printeris ir reģistrēts vairākiem klientiem, programmu pieejamo printeru sarakstā tas tiek rādīts kā viena atlase.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

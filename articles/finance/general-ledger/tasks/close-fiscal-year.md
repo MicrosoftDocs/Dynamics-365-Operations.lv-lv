@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e1ade9af06848b125fb6253ea1182f6098588150
-ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
-ms.translationtype: MT
+ms.openlocfilehash: 013a5b1ac5b99c6a8ac75885e6d65067d5ed4c2ffd5cc5f625a73963666c0a81
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902511"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779509"
 ---
 # <a name="close-the-fiscal-year"></a>Finanšu gada slēgšana
 
@@ -36,7 +36,7 @@ ms.locfileid: "7902511"
 
 4. Atlasiet Jā vai Nē opcijai **Veidot slēgšanas darbības pārsūtīšanas laikā**.
 
-    Ja iestatīts uz Jā, tiek izveidotas divas darbības. Finanšu gadā, kas tiek noslēgts, ir izveidots viens dokuments, lai visu Virsgrāmatas kontu bilances samazinātu līdz nullei, un nākamais finanšu gads sākuma bilancēm tiek izveidots otrs dokuments. Ja iestatīts uz Nē, tiek izveidots viens dokuments nākamā finanšu gada sākuma bilancēm.  
+    Ja iestatīts uz Jā, tiek izveidotas divas darbības. Viens dokuments ir izveidots finanšu gadā, kas tiek slēgts, lai pārnestu bilances uz PL virsgrāmatas kontiem, līdz nullei, un nākamajā finanšu gada tiek izveidots otrs dokuments sākuma bilancēm. Ja iestatīts uz Nē, tiek izveidots viens dokuments nākamā finanšu gada sākuma bilancēm.  
 
 5. Atlasiet Jā vai Nē opcijai **Iestatīt finanšu gada statusu kā neatgriezeniski slēgtu**.
 

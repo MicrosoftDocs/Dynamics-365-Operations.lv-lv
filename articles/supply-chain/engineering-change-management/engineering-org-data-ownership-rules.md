@@ -2,11 +2,9 @@
 title: Inženiertehniskie uzņēmumi un datu īpašumtiesību noteikumi
 description: Šajā tēmā skaidrots, kā var izmantot vienu vai vairākus inženiertehniskus uzņēmumus, lai nodrošinātu, ka produktu pamatdati ir centralizēti izveidoti un uzturēti. Inženiertehniskais uzņēmums ir uzņēmums, kam pieder tehniskie produkti un ar inženieriju saistītie dati.
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgEngineeringOrganization
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: ab5ca3bee65bb0ee8ce7f44ba97c00347fe38366
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8bfb0a05fb608f1ee7c6377adaba0c15ee360579aefb74d8218ea4b3dfed9003
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963667"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716546"
 ---
 # <a name="engineering-companies-and-data-ownership-rules"></a>Inženiertehniskie uzņēmumi un datu īpašumtiesību noteikumi
 
@@ -66,3 +64,6 @@ Tā kā inženiertehniskajam uzņēmumam pieder tehniskie dati, tas kontrolē š
 
     - Kad šie dokumenti tiek nodoti citām juridiskajām personām, operacionālais uzņēmums aizsargā dokumentus no to izņemšanas.
     - Citas juridiskas personas var pievienot pilnīgi jaunus, lokālus dokumentus. Operacionālām uzņēmumam pieder un tas uztur šos vietējos dukumentus.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

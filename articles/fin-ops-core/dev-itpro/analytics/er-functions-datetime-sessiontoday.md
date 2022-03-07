@@ -2,11 +2,9 @@
 title: SESSIONTODAY ER funkcija
 description: Šajā tēmā ir sniegta informācija par to, kā tiek izmantota SESSIONTODAY elektroniskā pārskata (ER) funkcija.
 author: NickSelin
-manager: kfend
 ms.date: 12/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87e8d5498c82d7c9ca6ee0a855f139dde77d75ab
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 6d0fcbbf1a1fb0809e3f76161314f38bcd8a74aa
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683823"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5746775"
 ---
 # <a name="sessiontoday-er-function"></a>SESSIONTODAY ER funkcija
 
@@ -49,3 +47,6 @@ Iegūtā datuma vērtība.
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Datuma un laika funkcijas](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

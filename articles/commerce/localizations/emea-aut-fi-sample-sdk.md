@@ -11,7 +11,7 @@ ms.author: epopov
 ms.search.validFrom: 2019-3-1
 ms.openlocfilehash: 6238b67a35a303a03c51bbd261dd24d1b2acf041
 ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 02/01/2022
 ms.locfileid: "8077119"

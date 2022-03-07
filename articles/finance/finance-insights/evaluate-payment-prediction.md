@@ -2,28 +2,25 @@
 title: Sākotnējā debitora maksājuma prognozēšanas modeļa izvērtēšana (priekšskatījums)
 description: Šajā tēmā aprakstītas darbības, ko varat veikt, lai izprastu debitoru maksājumu prognozēšanas modeli un novērtētu tā efektivitāti.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: d761e31c4e4169b09711e351948390d2d40f3739
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 56ec9795f0eb8b15dd00578bf35739eaa9e3d086
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644973"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818630"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Sākotnējā debitora maksājuma prognozēšanas modeļa izvērtēšana (priekšskatījums)
 
@@ -69,7 +66,7 @@ Lai iegūtu detalizētāku rezultātu analīzi, ir labs sākumpunkts, lai pārsk
 
 Šos datus var izvērst, kā norādīts tālāk.
 
-|                          | Prognozēts laikā | Prognozēts vēlu | Prognozēts ļoti vēlu |
+| &nbsp;                   | Prognozēts laikā | Prognozēts vēlu | Prognozēts ļoti vēlu |
 |--------------------------|-------------------|----------------|---------------------|
 | Faktiskais laiks maksājumam   | **71**            | 0              | 21                  |
 | Faktiskais nokavētais maksājums      | 5                 | **0**          | 27                  |
@@ -81,7 +78,7 @@ Vispirms ir jāmeklē visizplatītākā faktiskā vērtība. Kaut arī šī vēr
 
 Jums ir svarīgi saprast, cik sabalansēta ir datu kopa. Šajā gadījumā 92 rēķini 171 tika apmaksāti savlaicīgi, 32 tika apmaksāti novēloti, un 47 tika apmaksāti ļoti novēloti. Šīs vērtības norāda samērā līdzsvarotu datu kopu, jo katrā klasifikācijā ir netriviāli rezultāti. Situācija, kad vienai no valstīm ir ļoti maz rezultātu, algoritmiskās mācīšanās modelim var būt sarežģīta.
 
-Modeļa precizitāti norāda testa datu kopas pareizo prognožu skaits. Šīs pareizās prognozes ir vērtības, kas iepriekšējā piemērā redzamas treknrakstā. Šādā gadījumā vērtības veido aprēķināto precizitāti 67,8 procenti (= \[71 + 0 + 45 \] ÷ 171). Šī vērtība parāda 14 procentu uzlabojumu virs bāzlīnijas minējuma (54 procenti) un ir viens no modeļa kvalitātes rādītājiem.
+Modeļa precizitāti norāda testa datu kopas pareizo prognožu skaits. Šīs pareizās prognozes ir vērtības, kas iepriekšējā piemērā redzamas treknrakstā. Šādā gadījumā vērtības veido aprēķināto precizitāti 67,8 procenti (= \[71 + 0 + 45\] ÷ 171). Šī vērtība parāda 14 procentu uzlabojumu virs bāzlīnijas minējuma (54 procenti) un ir viens no modeļa kvalitātes rādītājiem.
 
 Ja jūs rūpīgāk aplūkosiet neskaidrību matricu, jūs ievērosiet, ka modelis spēj labi prognozēt laicīgus un ļoti novēlotus rēķinu maksājumus. Tomēr tas nepareizi prognozēja visus 32 rēķinus, kas faktiski apmaksāti ar novēlošanos (bet ne ar lielu novēlošanos). Šis rezultāts liecina, ka modelim nepieciešama papildu izpēte un uzlabošana.
 
@@ -101,3 +98,6 @@ Papildinformāciju par to, kā izvērtēt prognozēšanas modeļus skatiet sada�
 
 #### <a name="privacy-notice"></a>Paziņojums par konfidencialitāti
 Priekšskatījumiem (1) var tikt izmantots mazāk konfidencialitātes un drošības pasākumu nekā pakalpojumam Dynamics 365 Finance and Operations, (2) tie nav ietverti pakalpojuma līmeņa līgumā par šo pakalpojumu, (3) tos nedrīkst izmantot personas datu vai citu tādu datu apstrādei, uz kuriem attiecas juridiskās vai normatīvās prasības, un (4) tiem tiek nodrošināts ierobežots atbalsts.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

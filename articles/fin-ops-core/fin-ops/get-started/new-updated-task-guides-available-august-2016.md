@@ -1,12 +1,10 @@
 ---
 title: Jauni vai atjaunināti uzdevumu ceļveži (2016. gada augusts)
-description: Šajā tēmā ir norādīti jaunie vai atjauninātie uzdevumu ceļveži, kas ir izlaisti Microsoft APQC vienotajā bibliotēkā programmai Microsoft Dynamics AX (2016. gada augusts — visas valodas). Netika izlaista neviena jauna darba sākšanas bibliotēka.
+description: Šajā tēmā ir norādīti jaunie vai atjauninātie uzdevumu ceļveži, kas ir izlaisti Microsoft APQC vienotajā bibliotēkā programmai Microsoft Dynamics AX (2016. gada augusts — visas valodas). Netika izlaista neviena jauna darba sākšanas bibliotēka.
 author: josaw1
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,22 +14,22 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 504cd1c920e75eb6bcbcdcda668336ba74fb09f3
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: be2dbf8307baa37549e2e81ec05f067ab82bfda8e77cace6a4f4731a84f2776d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796560"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733081"
 ---
 # <a name="new-or-updated-task-guides-august-2016"></a>Jauni vai atjaunināti uzdevumu ceļveži (2016. gada augusts)
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir norādīti jaunie vai atjauninātie uzdevumu ceļveži, kas ir izlaisti Microsoft APQC vienotajā bibliotēkā programmai Microsoft Dynamics AX (2016. gada augusts — visas valodas). Netika izlaista neviena jauna darba sākšanas bibliotēka.
+Šajā tēmā ir norādīti jaunie vai atjauninātie uzdevumu ceļveži, kas ir izlaisti Microsoft APQC vienotajā bibliotēkā programmai Microsoft Dynamics AX (2016. gada augusts — visas valodas). Netika izlaista neviena jauna darba sākšanas bibliotēka.
 
-## <a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Uzdevumu ceļveži APQC vienotajā bibliotēkā programmai Microsoft Dynamics AX (2016. gada augusts — visas valodas)
+## <a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Uzdevumu ceļveži APQC vienotajā bibliotēkā programmai Microsoft Dynamics AX (2016. gada augusts — visas valodas)
 
-APQC vienotajā bibliotēkā (2016. gada augusts — visas valodas) ir ietverti uzdevumu ceļveži, kas ir paredzēti izmantošanai kā palīdzības materiāli kopā ar Microsoft Dynamics AX 2. platformas atjauninājumu (2016. gada augusts), Dynamics AX 2016. gada maija lietojumprogrammas atjauninājumu un Microsoft Dynamics AX 2016. gada februāra laidienu. Papildinformāciju par šiem laidieniem skatiet tēmā [Jaunumi un izmaiņas Finance and Operations sākumlapā](whats-new-changed.md). Šajā bibliotēkā ir pieejamas uzdevumu ceļvežu lokalizētās versijas. Papildinformāciju par to, kā izveidot palīdzības sistēmas savienojumu ar uzdevumu ceļvežu bibliotēku, skatiet tēmā [Palīdzības sistēma](help-overview.md).
+APQC vienotajā bibliotēkā (2016. gada augusts — visas valodas) ir ietverti uzdevumu ceļveži, kas ir paredzēti izmantošanai kā palīdzības materiāli kopā ar Microsoft Dynamics AX 2. platformas atjauninājumu (2016. gada augusts), Dynamics AX 2016. gada maija lietojumprogrammas atjauninājumu un Microsoft Dynamics AX 2016. gada februāra laidienu. Papildinformāciju par šiem laidieniem skatiet tēmā [Jaunumi un izmaiņas Finance and Operations sākumlapā](whats-new-changed.md). Šajā bibliotēkā ir pieejamas uzdevumu ceļvežu lokalizētās versijas. Papildinformāciju par to, kā izveidot palīdzības sistēmas savienojumu ar uzdevumu ceļvežu bibliotēku, skatiet tēmā [Palīdzības sistēma](help-overview.md).
 
 ### <a name="data-access"></a>Piekļuve datiem
 
@@ -99,3 +97,6 @@ APQC vienotajā bibliotēkā (2016. gada augusts — visas valodas) ir ietver
 [Jauni vai atjaunināti uzdevumu ceļveži (2016. gada maijs)](new-updated-task-guides-available-may-2016.md)
 
 [Jauni vai atjaunināti uzdevumu ceļveži (2016. gada novembris)](new-task-guides-november-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

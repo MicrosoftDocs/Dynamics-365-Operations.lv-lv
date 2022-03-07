@@ -2,16 +2,13 @@
 title: Jauktas realitātes ceļvežu nodrošināšana ražošanas darbiniekiem
 description: Šajā tēmā skaidrots, kā integrēt ražošanas pārvaldības moduli programmā Microsoft Dynamics 365 Supply Chain Management ar Dynamics 365 Guides.
 author: cabeln
-manager: tfehr
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkGuidesManufacturing
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 61943
 ms.assetid: a3847f07-fca4-4140-a26f-d83c6ac68dde
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: cabeln
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: 727a3bc50ea55259c7260a9d060dac59473ee3c1
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 15595c46f9d6ff91f6fd618859e9f059ae88bd78
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645148"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910093"
 ---
 # <a name="provide-mixed-reality-guides-for-workers-in-production"></a>Jauktas realitātes ceļvežu nodrošināšana ražošanas darbiniekiem
 
@@ -105,8 +102,8 @@ Lai iespējotu instrukcijas ražošanas procesos, Supply Chain Management nodro�
 Lai izmantotu šo līdzekli, jūsu sistēmā jābūt iekļautam tālāk minētajam:
 
 - Dynamics 365 Supply Chain Management versija 10.0.15 vai jaunāka versija
-- [Duālā rakstīšana](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/enable-dual-write) Supply Chain Management lietojumprogrammām.
-- [Dynamics 365 Guides](https://docs.microsoft.com/dynamics365/mixed-reality/guides/setup#step-2-create-a-common-data-service-environment-and-install-the-dynamics-365-guides-solution) versija 400.0.1.48 vai jaunāka versija
+- [Duālā rakstīšana](../../fin-ops-core/dev-itpro/data-entities/dual-write/enable-dual-write.md) Supply Chain Management lietojumprogrammām.
+- [Dynamics 365 Guides](/dynamics365/mixed-reality/guides/setup#step-2-create-a-common-data-service-environment-and-install-the-dynamics-365-guides-solution) versija 400.0.1.48 vai jaunāka versija
 
 ### <a name="turn-on-the-feature"></a>Līdzekļa iespējošana
 
@@ -410,3 +407,6 @@ Kad Supply Chain Management ģenerē darbus ražotnei, tas apkopos atbilstošos 
 - Ja definējat vairākas maršruta operāciju saites, kas ietver *Visas* saites un piešķir tām ceļvežus, darbam tiks parādīts tikai ceļveži, kas saistīti ar viskonkrētāko saiti.  
 
 ![Shēma, kā atrisināt atbilstošos ceļvežus](media/instruction-guides-Resolve.png "Shēma, kā atrisināt atbilstošos ceļvežus")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

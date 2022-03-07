@@ -2,15 +2,12 @@
 title: Konfigurēt darbinieku patstāvīgi izmantojamo pakalpojumu
 description: Microsoft Dynamics 365 Human Resources varat konfigurēt darbinieku patstāvīgi izmantojamā pakalpojuma augšējā līmeņa navigācijas elementus.
 author: andreabichsel
-manager: AnnBe
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d1534e37e83e22dd9860de54165c062935db3798
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1f0d39b30b7c8d0a5729ebe3b1ed9e0d569a6660
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419596"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6052989"
 ---
 # <a name="configure-employee-self-service"></a>Konfigurēt darbinieku patstāvīgi izmantojamo pakalpojumu
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Microsoft Dynamics 365 Human Resources varat konfigurēt darbinieku patstāvīgi izmantojamā pakalpojuma augšējā līmeņa navigācijas elementus. Atvieglojumu plāna elementi novirza lietotājus uz atvieglojumu plāniem, kuros tie ir tiesīgi reģistrēties.
 
@@ -72,3 +71,6 @@ Microsoft Dynamics 365 Human Resources varat konfigurēt darbinieku patstāvīgi
    | **End** | Elementa pieejamības beigu datums un laiks. |
 
 4. Atlasiet **Saglabāt**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: Kredīta un iekasēšanas pārskats
 description: Šī tēma sniedz pārskatu par kredīta un iekasēšanas funkcionalitāti.
-author: JodiChristiansen
+author: mikefalkner
+manager: AnnBe
 ms.date: 09/04/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 293a6c507c6abd6009a23403384c3b58a1a55a52
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 6bba210bc282e031606acca4ad73e18d8b42167d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982616"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5257637"
 ---
 # <a name="credit-and-collections-overview"></a>Kredīta un iekasēšanas pārskats
 

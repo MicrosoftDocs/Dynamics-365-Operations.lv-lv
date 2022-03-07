@@ -2,7 +2,7 @@
 title: Sākotnējā rēķina atsauces kredīta notās
 description: Šajā tēmā ir paskaidrots, kā iestatīt un drukāt sākotnējo rēķinu numurus saistītajās kredīta notās.
 author: ilkond
-ms.date: 10/26/2021
+ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7147c5bea5273f385b004effe0844b5f4541a881
-ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
-ms.translationtype: MT
+ms.openlocfilehash: 8d7f32c5d3d29be8d1d2742c4017c1719cbd47a8
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7700359"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897336"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>Sākotnējā rēķina atsauces kredīta notās
 
@@ -51,7 +51,7 @@ Izpildiet šīs darbības, lai iestatītu parametru, kas kontrolē, vai atsauces
 1. Dodieties uz **Debitori** \> **Iestatīšana** \> **Debitoru parametri**.
 2. Cilnes **Atjauninājumi** kopsavilkuma cilnē **Rēķins** iestatiet opciju **Lietot kredīta rēķinu izrakstīšanas izkārtojumu pārdošanas un projektu rēķinu pārskatos** uz **Jā**.
 
-![Debitoru parametru konfigurēšana.](media/original-invoice-number-in-credit-note.jpg)
+![Debitoru parametru konfigurēšana](media/original-invoice-number-in-credit-note.jpg)
 
 ## <a name="define-references-to-original-invoices"></a>Atsauču definēšana sākotnējiem rēķiniem
 
@@ -65,7 +65,7 @@ Izmantojiet tālāk uzskaitītās procedūras, lai definētu atsauces sākotnēj
 4. Darbību rūtī, cilnē **Rēķins**, grupā **Funkcijas** atlasiet **Kredīta rēķinu izrakstīšana**.
 5. Ievadiet atsauci uz sākotnējo rēķinu un atlasiet labojuma pamatojumu.
 
-![Atsauču definēšana brīva teksta rēķinam.](media/reference-original-invoice-FTI.jpg)
+![Atsauču definēšana brīva teksta rēķinam](media/reference-original-invoice-FTI.jpg)
 
 ### <a name="customer-credit-note"></a>Debitora kredīta nota
 
@@ -74,7 +74,7 @@ Izmantojiet tālāk uzskaitītās procedūras, lai definētu atsauces sākotnēj
 3. Darbību rūtī, cilnē **Pārdošana**, grupā **Kredīta nota** atlasiet **Kredīta nota**.
 4. Ievadiet labošanas iemeslu. Atsauce uz sākotnējo rēķinu tiek izveidota automātiski.
 
-![Atsauču definēšana pārdošanas pasūtījumam.](media/reference-original-invoice-SO.jpg)
+![Atsauču definēšana pārdošanas pasūtījumam](media/reference-original-invoice-SO.jpg)
 
 ### <a name="project-credit-note"></a>Projekta kredīta nota
 
@@ -84,21 +84,16 @@ Izmantojiet tālāk uzskaitītās procedūras, lai definētu atsauces sākotnēj
 4. Atlasiet **Kredīta rēķina izrakstīšana**.
 5. Ievadiet labošanas iemeslu. Atsauce uz sākotnējo rēķinu tiek izveidota automātiski.
 
-![Atsauču definēšana projekta rēķinam.](media/reference-original-invoice-project.jpg)
+![Atsauču definēšana projekta rēķinam](media/reference-original-invoice-project.jpg)
 
 ## <a name="printing-credit-notes"></a>Kredīta notu drukāšana
 
 Drukājot brīvā teksta, klienta un projekta kredīta notas, tajās tiks iekļauta atsauce uz sākotnējo rēķinu un labošanas iemeslu.
 
-![Drukāta kredīta nota.](media/credit-note-FTI.jpg)
+![Drukāta kredīta nota](media/credit-note-FTI.jpg)
 
 > [!NOTE]
 > Pārliecinieties, vai dokumentu drukājamie formāti ir pareizi konfigurēti, pieņemot, ka tiks drukātas atsauces uz sākotnējiem rēķiniem.
 
-## <a name="references-to-original-invoices-in-debit-notes"></a>Atsauces uz sākotnējiem rēķiniem debeta notās
-
-Pēc noklusējuma kredīta notām var ievadīt atsauces uz sākotnējiem rēķiniem. Piemēram, atsauces var ievadīt, ja veicat negatīvus (samazināmus) sākotnējo rēķinu labojumus.
-
-Lai ievadītu atsauces, veicot pozitīvus (palielināšanas) oriģinālo rēķinu labojumus, **Līdzekļu pārvaldības** darbvietā iespējojiet **Atsauces uz sākotnējiem rēķiniem debeta notās**.  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

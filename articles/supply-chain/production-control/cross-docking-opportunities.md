@@ -2,9 +2,11 @@
 title: Pārkraušana sadales centrā no ražošanas pasūtījumiem uz izejošajiem sadales centriem
 description: Šajā tēmā ir aprakstīts, kā pārvaldīt materiāla pārkraušanu sadales centrā, kad ražošanas līnijā tiek reģistrēta materiāla pabeigšana un tas tiek pārvietots uz izejošās plūsmas transportēšanas sadales centru.
 author: johanhoffmann
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCrossDockOpportunityPolicy, WHSReservationHierarchy, WHSInventTableReservationHierarchy, WHSItemGroupLoadTemplate
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee91fa28943a27474bff5fb7a7fc368142dabcdd6c9c9772d38134af0257ef6e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2d2f264564f627889d89444a7423179de0c6d4d0
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715750"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246289"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Pārkraušana sadales centrā no ražošanas pasūtījumiem uz izejošajiem sadales centriem
 
@@ -28,7 +30,8 @@ ms.locfileid: "6715750"
 
 Šajā tēmā ir aprakstīts, kā pārvaldīt materiāla pārkraušanu sadales centrā, kad ražošanas līnijā tiek reģistrēta materiāla pabeigšana un tas tiek pārvietots uz izejošās plūsmas transportēšanas sadales centru.
 
-## <a name="introduction"></a>Ievads
+<a name="introduction"></a>Ievads
+------------
 
 Pārkraušana sadales centrā no ražošanas novietojuma uz izejošās plūsmas novietojumu ir noderīga ražotājiem, kuri saražo lielu preču daudzumu un vēlas nosūtīt preces, tiklīdz ražošanas līnijās tiek reģistrēta to pabeigšana. Mērķis ir nosūtīt preces uz sadales centriem, kas atrodas fiziski tuvu debitoru pieprasījuma vietai, nevis veidot krājumus ražošanas vietā.
 
@@ -42,7 +45,7 @@ Tiek reģistrēta preces pabeigšana, tā tiek pārvietota uz ražošanas izejas
 -   Ja angāra durvīm jau ir piešķirta piekabe, kravas automašīnas vadītājs saņem norādījumus uzreiz iekraut preci piekabē.
 -   Ja nepastāv plānota aktivitāte preces pārvietošanai, autoiekrāvēja vadītājs saņem norādījumus novietot preci kādā vietā iekšējā noliktavā (5).
 
-[![opportunistic cross-docking.](./media/scenario1.png)](./media/scenario1.png)
+[![opportunistic cross-docking](./media/scenario1.png)](./media/scenario1.png)
 
 ## <a name="configure-cross-docking"></a>Pārkraušanas sadales centrā konfigurēšana
 Pārkraušanu sadales centrā var konfigurēt, izmantojot **darba politikas**. Darba politikā ir ietverts darba pasūtījuma veids, novietojums un prece. Tālāk esošajā piemērā ir konfigurēta preces X pārkraušana sadales centrā uz novietojumu Y.

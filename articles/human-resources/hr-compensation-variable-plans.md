@@ -2,30 +2,30 @@
 title: Mainīgās atlīdzības plānu izveide
 description: Mainīgā atlīdzība veido darbinieka nestandarta algu, piemēram, prēmijas vai samaksu uzņēmuma akcijās. Šajā rakstā ir aprakstīti komponenti, kas ir jāiestata, lai varētu izmantot mainīgo atlīdzību un darbinieku reģistrēt mainīgās atlīdzības plānā.
 author: andreabichsel
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HCMCompEligibility, HcmJobFunction, HcmWorker, HRMCompPerfPlan, HcmCompensationWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 16011
 ms.assetid: fc3a394e-9ac6-4f8c-9162-dc16ec22720f
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 85e64c4186c7782391a3db6dc4deb3fab0ea9f4f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 874d879c04e6b16889ca6900962394036278ba10
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419487"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800883"
 ---
 # <a name="create-variable-compensation-plans"></a>Mainīgās atlīdzības plānu izveide
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Mainīgā atlīdzība veido darbinieka nestandarta algu, piemēram, prēmijas vai samaksu uzņēmuma akcijās. Šajā rakstā ir aprakstīti komponenti, kas ir jāiestata, lai varētu izmantot mainīgo atlīdzību un darbinieku reģistrēt mainīgās atlīdzības plānā.
 
@@ -43,7 +43,7 @@ Ja nepieciešams, uzņēmumi var iestatīt **Izmaksas nosacījumus**. Izmaksas n
 ## <a name="variable-compensation-plans"></a>Atlīdzības mainīgās daļas struktūras
 **Mainīgās atlīdzības plāns** satur mainīgās atlīdzības aprēķina kārtulas, metodes un noklusētās vērtības attiecīgajiem darbiniekiem. Kad veidojat mainīgās atlīdzības plānu, ir jāiestata mainīgās atlīdzības tips. Mainīgās atlīdzības tips nosaka, vai sistēma kā atlīdzību aprēķina valūtas summu vai vienību skaitu. Jums jāiestata arī aprēķina metode.
 
--   **Noteiktā laikā** — mainīgās atlīdzības aprēķina pamatā ir fiksēta atlīdzība, kas darbiniekam ir jāizmaksā noteiktā datumā. Šis datums tiek norādīts procesa notikumā, kad tiek apstrādātas jaunas atlīdzības summas.
+-   **Noteiktā laikā** — mainīgās atlīdzības aprēķina pamatā ir fiksēta atlīdzība, kas darbiniekam ir jāizmaksā noteiktā datumā. Šis datums tiek norādīts procesa notikumā, kad tiek apstrādātas jaunas atlīdzības summas.
 -   **Salikts** — atlīdzības summa tiek aprēķināta katrai unikalajai fiksētas atlīdzības izmaksu likmei, kas procesa notikumā darbiniekam bija iestatita no perioda sākuma datuma līdz perioda beigu datumam. Pēc tam likmes tiek saskaitītas, lai noteiktu gala atlīdzību. Piemēram, cikla laikā darbinieks tika pārcelts citā amatā, kam paredzēta citāda izmaksu likme. Šajā gadījumā mainīgā atlīdzība tiek pielāgota atbilstoši laika periodam, kad darbiniekam bija paredzēta katra izmaksu likme.
 
 Mainīgās atlīdzības summu var izteikt vai nu procentos no darbinieka parastās pamata izpeļņas, vai arī kā vienību skaita kopu.
@@ -53,7 +53,7 @@ Mainīgās atlīdzības summu var izteikt vai nu procentos no darbinieka parast�
 
 Izmantojot iestatījumu **Nolīgšanas kārtula**, varat norādīt, vai visiem darbiniekiem ir jāsaņem vienāds palielinājums neatkarīgi no datuma, kurā viņi tika pieņemti darbā (**Nolīgšanas kārtula** = **Nav**), vai arī šiem darbiniekiem ir jāsaņem procenti no atlīdzības atkarībā no tā, cik ilgi viņi bija nodarbināti cikla laikā (**Nolīgšanas kārtula** = **Procenti**). 
 
-**Līdzekļu faktors** — ļauj koriģēt darbinieku atlīdzību, ņemot vērā darbinieka nodaļas sniegumu. Veiktspējas rādītājus katrai nodaļai var iestatīt lapas **Nodaļas** sadaļā **Saistītās formas** &gt; **Atlīdzība** &gt; **Veiktspēja**. Atlīdzība, ko saņem attiecīgās nodaļas darbinieki, ir atkarīga no vērtības laukā **Sasniegtie mērķa procenti**, kas norāda nodaļas sniegumu.
+**Līdzekļu faktors** — ļauj koriģēt darbinieku atlīdzību, ņemot vērā darbinieka nodaļas sniegumu. Veiktspējas rādītājus katrai nodaļai var iestatīt lapas **Nodaļas** sadaļā **Saistītās formas** &gt; **Atlīdzība** &gt; **Veiktspēja**. Atlīdzība, ko saņem attiecīgās nodaļas darbinieki, ir atkarīga no vērtības laukā **Sasniegtie mērķa procenti**, kas norāda nodaļas sniegumu.
 
 -   Ja nodaļas sniegums ir 100 procenti, atlīdzība šīs nodaļas darbiniekiem tiek aprēķināta, ņemot vērā procentuālo vērtību, kas ir iestatīta laukā **Izmaksa pie 100%**.
 -   Ja nodaļas sniegums ir lielāks par 100 procentiem, sistēma pievieno procentu likmi, kas ir iestatīta laukā **Katram 1% virs mērķa**, procentu likmei, kas ir iestatīta laukā **Izmaksa pie 100%**, līdz tiek sasniegta vērtība, kas ir iestatīta laukā **Augstākā pieļaujamā izmaksa**.
@@ -99,3 +99,6 @@ Vērtības **Organizatoriskās prioritātes** tiek izmantotas, lai darbinieka at
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

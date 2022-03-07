@@ -2,11 +2,9 @@
 title: Partijas līdzsvarošana
 description: Šajā tēmā ir aprakstīts partijas līdzsvarošanas process.
 author: johanhoffmann
-manager: tfehr
 ms.date: 01/04/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMTable, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 8c1f52239b2050425c37a8130507e689b29205a8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: a9e69b4d9213e57e5a920c7adda934ba845d17410c17d9c8a6356d717870ac23
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966559"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780080"
 ---
 # <a name="batch-balancing"></a>Partijas līdzsvarošana
 
@@ -186,3 +184,6 @@ Ir divi kārtulas izņēmumi, kad partijas līdzsvarošanai var lietot partijas 
 1. Ja formulas mērvienība atšķiras no aktīvās sastāvdaļas krājumu mērvienības, partijas pasūtījums nav piemērojams partijas līdzsvarošanai.
 
 Partijas pasūtījums, kas nav lietojams par partijas līdzsvarošanā, tiek pakļauts parastajam partijas pasūtījumu procesa ciklam.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

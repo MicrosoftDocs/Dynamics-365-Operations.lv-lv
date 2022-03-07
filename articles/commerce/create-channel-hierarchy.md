@@ -1,35 +1,32 @@
 ---
 title: Kanālu navigācijas hierarhijas izveide
-description: Šajā tēmā ir aprakstīts, kā programmā Microsoft Dynamics 365 Commerce izveidot kanālu navigācijas hierarhiju.
+description: Šajā tēmā aprakstīts, kā izveidot kanālu navigācijas hierarhiju risinājumā Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
-ms.date: 01/27/2020
+ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e83860667f142adcc85cd8542d521e18f16dbc2c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e43c4c00545dfecb2f9a2192f81cd25300e3d6e6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413946"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352474"
 ---
-# <a name="create-a-channel-navigation-hierarchy"></a>Kanālu navigācijas hierarhijas izveide
+# <a name="create-a-channel-navigation-hierarchy"></a>Izveidot kanāla navigācijas hierarhiju
 
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā programmā Microsoft Dynamics 365 Commerce izveidot kanālu navigācijas hierarhiju.
+Šajā tēmā aprakstīts, kā izveidot kanālu navigācijas hierarhiju risinājumā Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Pārskats
 
@@ -52,7 +49,7 @@ Lai izveidotu kanālu navigācijas hierarhiju, veiciet tālāk minētās darbīb
 
 Tālāk redzamajā attēlā ir parādīts saknes mezgla piemērs.
 
-![Saknes mezgla paraugs](media/create-channel-hierarchy-1.png)
+![Saknes mezgla paraugs.](media/create-channel-hierarchy-1.png)
 
 ## <a name="create-navigation-category-nodes"></a>Navigācijas kategoriju mezglu izveide
 
@@ -68,7 +65,7 @@ Lai izveidotu papildu navigācijas kategoriju mezglus, kas kanālā pārstāvēs
 
 Tālāk redzamajā attēlā parādīts pabeigtas kanālu navigācijas hierarhijas piemērs.
 
-![Kanālu hierarhijas paraugs](media/create-channel-hierarchy-2.png)
+![Kanālu hierarhijas paraugs.](media/create-channel-hierarchy-2.png)
 
 ## <a name="add-products-to-category-nodes"></a>Preču pievienošana kategoriju mezgliem
 
@@ -80,11 +77,11 @@ Lai pievienotu preces kategoriju mezgliem, izpildiet tālāk aprakstītos norād
 1. Darbību rūtī atlasiet **Saglabāt**.
 
 > [!NOTE]
-> Preču pievienošana mezglam, kas atrodas kanālu navigācijas hierarhijā, nav pietiekama, lai preces tiktu rādītas atlasītajā kanālā, turklāt preču klāstam jābūt sašķirotam.
+> Preču pievienošana mezglam, kas atrodas kanālu navigācijas hierarhijā, nav pietiekama, lai preces tiktu rādītas atlasītajā kanālā, turklāt produktiem jābūt arī dažādiem kanāliem. Papildinformāciju par preču klāstiem skatiet sadaļā [Preču klāsta pārvaldība](assortments.md).
 
 Tālāk redzamajā attēlā parādīts mezgla piemērs ar pievienotām precēm.
 
-![Kategoriju mezglam pievienotās preces](media/create-channel-hierarchy-3.png)
+![Kategoriju mezglam pievienotās preces.](media/create-channel-hierarchy-3.png)
 
 ## <a name="add-product-attribute-groups-to-category-nodes"></a>Preču īpašību grupu pievienošana kategoriju mezgliem
 
@@ -100,10 +97,13 @@ Lai preču īpašību grupu pievienotu kategoriju mezglam, veiciet tālāk aprak
 
 Tālāk redzamajā attēlā parādīts mezgla paraugs ar pievienotām preču īpašību grupām.
 
-![Preču īpašību grupas mezglā](media/create-channel-hierarchy-4.png)
+![Preču īpašību grupas mezglā.](media/create-channel-hierarchy-4.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Preču klāstu iestatīšana](set-up-assortments.md)
 
 [Atribūtu un atribūtu grupu pārvaldība](attribute-attributegroups-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

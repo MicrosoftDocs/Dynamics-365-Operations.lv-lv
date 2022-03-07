@@ -2,11 +2,9 @@
 title: Rēķinu un pavadzīmju numurēšana Latvijai un Lietuvai
 description: Šajā tēmā ir paskaidrots, kā iestatīt numuru sērijas rēķiniem un pavadzīmēm un kā dokumentiem iestatīt pašnumerācijas diapazonus.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LtInvoiceAutoNumberingGroups, LtInvoiceAutonumberingTable, NumberSequenceTableListPage
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Latvia, Lithuania
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6329822b655351ea58aed31a5c8c35456ddcd44b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 03e54f0633bddf643bf41aef202e3746f0c8f171a46b911e231b204a08cb7395
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962653"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764224"
 ---
 # <a name="invoice-and-packing-slip-numbering-for-latvia-and-lithuania"></a>Rēķinu un pavadzīmju numurēšana Latvijai un Lietuvai
 
@@ -66,9 +64,9 @@ Pamatdatu ierakstiem un transakciju ierakstiem varat iestatīt unikālas dokumen
 <td>Konta kods</td>
 <td>Atlasiet, kā šī numuru sērija tiek lietota rēķiniem. Pieejamas šādas opcijas
 <ul>
-<li><strong>Tabula</strong> — šī numuru sērija ir pieejama tikai lietotājam, kurš ir atlasīts laukā <strong>Kods</strong>.</li>
-<li><strong>Grupa</strong> — šī numuru sērija ir pieejama tikai grupai, kura ir atlasīta laukā <strong>Kods</strong>.</li>
-<li><strong>Visi</strong> — šī numuru sērija ir pieejama visiem lietotājiem.</li>
+<li><strong>Tabula</strong> — šī numuru sērija ir pieejama tikai lietotājam, kurš ir atlasīts laukā <strong>Kods</strong>.</li>
+<li><strong>Grupa</strong> — šī numuru sērija ir pieejama tikai grupai, kura ir atlasīta laukā <strong>Kods</strong>.</li>
+<li><strong>Visi</strong> — šī numuru sērija ir pieejama visiem lietotājiem.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -127,3 +125,6 @@ Lauks **Atjaunināmie dokumenti** ietekmē lauku **Dokumenta statuss** žurnāl�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

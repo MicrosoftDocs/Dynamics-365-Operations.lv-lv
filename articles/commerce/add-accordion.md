@@ -1,16 +1,13 @@
 ---
 title: Akordeona modulis
-description: Šajā tēmā tiek stāstīts par akordeona moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā aplūkoti Accordion moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2bb18539f610e5af05f8d9a20a0ba9f34db5c94f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: fa2515a0cbc5b69a1a69e15ec9e1ba2739fa2fbeffb5b0eb22b49fd8cab18e6f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413968"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719531"
 ---
 # <a name="accordion-module"></a>Akordeona modulis
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā tiek stāstīts par akordeona moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
+Šajā tēmā aplūkoti Accordion moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
 
 Akordeona moduļi ir konteineram līdzīgi moduļi, ko izmanto informācijas vai moduļu organizēšanai lapā, nodrošinot saliekamu atvilktnei līdzīgu iespēju. Akordeona moduli var izmantot jebkurā lapā.
 
@@ -39,11 +34,11 @@ Katrā akordeona modulī var pievienot vienu vai vairākus akordeona krājumu mo
 
 Attēlā zemāk redzams akordeona moduļa piemērs, kas tiek izmantots informācijas organizēšanai veikala bieži uzdoto jautājumu (FAQ) lapā.
 
-![Akordeona moduļa piemērs](./media/ecommerce-accordion.PNG)
+![Akordeona moduļa piemērs.](./media/ecommerce-accordion.PNG)
 
 ## <a name="accordion-module-properties"></a>Akordeona moduļa rekvizīti
 
-| Rekvizīta nosaukums | Vērtības | apraksts |
+| Rekvizīta nosaukums | Vērtības | Apraksts |
 |---------------|--------|-------------|
 | Virsraksts | Teksts | Šis rekvizīts norāda neobligātu teksta virsrakstu akordeona modulim. |
 | Izvērst visus | **Patiess** vai **Nepatiess** | Ja vērtība ir iestatīta uz **Patiess**, izvēršanas/sakļaušanas funkcionalitāte ir ieslēgta, lai visus akordeona moduļa krājumus varētu izvērst un sakļaut. |
@@ -87,3 +82,6 @@ Lai pievienotu akordeona moduli FAQ lapai un iestatītu tās rekvizītus vietņu
 [Cilnes modulis](add-tab.md)
 
 [Teksta bloka modulis](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

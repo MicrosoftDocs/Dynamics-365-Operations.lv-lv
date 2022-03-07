@@ -2,28 +2,27 @@
 title: Kases un bankas vadības sākumlapa
 description: Kases un bankas vadību varat izmantot, lai uzturētu juridiskās personas bankas kontus un ar šiem bankas kontiem saistītos finanšu instrumentus.
 author: panolte
-manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: 21941
+ms.custom:
+- "21941"
+- intro-internal
 ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 88d7f70084d035354d199be95b5c55ce7afff7b7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c5576b879942f4efaf35618d54f349155981cb9053c2d3fdb66b6cd31374e790
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459503"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770621"
 ---
 # <a name="cash-and-bank-management-home-page"></a>Kases un bankas vadības sākumlapa
 
@@ -35,7 +34,7 @@ Kases un bankas vadību varat izmantot, lai uzturētu juridiskās personas banka
 
 **Biznesa procesi**
 
-[![Biznesa process](./media/Cash-process.PNG)](./media/Cash-process.PNG)
+[![Biznesa process.](./media/Cash-process.PNG)](./media/Cash-process.PNG)
 
 -   [Termiņatlaides](cash-discounts.md)
 -   [Segšanas apskats](settlement-overview.md)
@@ -86,7 +85,7 @@ Kases un bankas vadību varat izmantot, lai uzturētu juridiskās personas banka
 
 #### <a name="whats-new-and-in-development"></a>Jaunumi un drīzumā gaidāmais
 
-Lai uzzinātu, kādus jaunus līdzekļus ir plānots ieviest, skatiet [Microsoft Dynamics 365 informāciju par laidienu plāniem](https://go.microsoft.com/fwlink/?linkid=2010158). 
+Lai uzzinātu, kādus jaunus līdzekļus ir plānots ieviest, skatiet [Microsoft Dynamics 365 informāciju par laidienu plāniem](/dynamics365/release-plans/). 
 
 #### <a name="blogs"></a>Emuāri
 
@@ -100,3 +99,6 @@ Papildu palīdzībai programmā Finance ir pieejami uzdevumu ceļveži. Lai piek
 #### <a name="videos"></a>Videoklipi
 
 Apskatiet video pamācības, kas tagad ir pieejamas [Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

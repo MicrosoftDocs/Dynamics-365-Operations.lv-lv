@@ -1,12 +1,10 @@
 ---
-title: Organizēt atskaites komponentus atskaišu veidotājā
-description: Kad esat izveidojuši veidošanas blokus un ģenerējuši atskaites, ir noderīgi šos objektus sakārtot, lai lietotāji tos varētu vienkāršāk atrast. Šajā rakstā ir paskaidrots, kā sakārtot esošas atskaites, veidošanas blokus un objektus atskaišu veidotājā.
+title: Pārskatu komponentu organizēšana pārskatu noformētājā
+description: Šajā rakstā ir paskaidrots, kā sakārtot esošas atskaites, veidošanas blokus un objektus atskaišu veidotājā.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 58525da35eb9e9376cb5793ad6c6fa45b9de42e6
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 6b30e7e480edb50bb9509e270806224755f98e38111cda0c1cae86a0f56eb193
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685815"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763528"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Organizēt atskaites komponentus atskaišu veidotājā
 
@@ -49,18 +47,18 @@ Pārskatu definīcijas iespējams grupēt, lai vienlaicīgi izveidotu vairākus 
 ### <a name="create-a-report-group"></a>Pārskata grupas izveidošana
 
 1. Atskaišu veidotāja navigācijas rūtī noklikšķiniet uz **Atskaišu grupas**.
-2. Izvēlnē **Fails** noklikšķiniet uz **Jauns** &gt; **Pārskatu grupas definīcija**, lai skatītāja logā atvērtu jaunu pārskatu grupu. Varat arī noklikšķināt uz rīkjoslas pogas **Pārskatu grupa** ![Pārskatu grupa](media/report-group.gif "Pārskatu grupa").
+2. Izvēlnē **Fails** noklikšķiniet uz **Jauns** &gt; **Pārskatu grupas definīcija**, lai skatītāja logā atvērtu jaunu pārskatu grupu. Varat arī noklikšķināt uz rīkjoslas pogas **Pārskatu grupa** ![Pārskatu grupa.](media/report-group.gif "Pārskatu grupa") rīkjoslā.
 3. Noklikšķiniet uz cilnes **Pārskatu grupa**. Lai šī pārskata izveidošanai ignorētu informāciju par atsevišķu pārskatu definīcijām, atzīmējiet izvēles rūtiņu **Ignorēt uzņēmuma, detalizētas informācijas un datuma iestatījumus no atsevišķām pārskatu definīcijām**. Uzņēmuma nosaukums, detalizētības līmenis, provizoriskie iestatījumi un datuma informācija tiek ievadīta automātiski, bet jūs varat veikt atjauninājumus.
 4. Lai ģenerētu vairākas atskaites, kurās ir redzamas atskaišu valūtas, atzīmējiet izvēles rūtiņu **Ietvert visas atskaišu valūtas**. Pēc tam varat piekļūt vairākiem skatiem, tīmekļa skatītājā noklikšķinot uz pogas **Valūta**, kas skatāt šo atskaiti.
 5. Laukā **Atskaites grupā** noklikšķiniet uz **Pievienot**, lai atlasītu atskaites, ko iekļaut atskaišu grupā. Lai dialoglodziņā **Pievienot** atlasītu vairākas atskaites, atskaišu atlasīšanas laikā turiet nospiestu taustiņu Ctrl. Kad esat beidzis atlasīt atskaites, noklikšķiniet uz **Labi**.
-6. Noklikšķiniet uz **Fails** &gt; **Saglabāt**, lai saglabātu jauno pārskatu grupu.
+6. Noklikšķiniet uz **Fails** &gt; **Saglabāt**, lai saglabātu jauno pārskatu grupu.
 
 ### <a name="modify-a-report-group"></a>Modificēt pārskata grupu
 
 1. Atskaišu veidotāja navigācijas rūtī noklikšķiniet uz **Atskaišu grupas**.
 2. Veiciet dubultklikšķi uz pārskata grupas, lai modificētu to.
 3. Cilnē **Atskaišu grupa** veiciet nepieciešamās izmaiņas.
-4. Izvēlnē **Fails** noklikšķiniet uz **Saglabāt**, lai saglabātu modificēto pārskatu grupu, vai arī noklikšķiniet uz rīkjoslas pogas **Saglabāt** ![Saglabāt](media/save.gif "Saglabāt").
+4. Izvēlnē **Fails** noklikšķiniet uz **Saglabāt**, lai saglabātu modificēto pārskatu grupu, vai arī noklikšķiniet uz rīkjoslas pogas **Saglabāt** ![Saglabāt.](media/save.gif "Saglabāt") rīkjoslā.
 
 > [PIEZĪME] Ja esat ieplānojis atskaites, lai tās tiktu ģenerētas noteiktos intervālos, varat ignorēt šos iestatījumus un ģenerēt atskaiti nekavējoties.
 
@@ -68,7 +66,7 @@ Pārskatu definīcijas iespējams grupēt, lai vienlaicīgi izveidotu vairākus 
 
 1. Atskaišu veidotāja navigācijas rūtī noklikšķiniet uz **Atskaišu grupas**.
 2. Atveriet pārskata grupu, lai izveidotu.
-3. Noklikšķiniet uz pogas **Ģenerēt pārskatu** ![Ģenerēt pārskatu](media/generate-report.gif "Ģenerēt pārskatu"), lai ģenerētu pārskatus.
+3. Noklikšķiniet uz pogas **Ģenerēt pārskatu** ![Ģenerēt pārskatu.](media/generate-report.gif "Ģenerēt pārskatu") lai ģeņerētu pārskatus.
 
 ### <a name="delete-a-report-group"></a>Grupas pārskata dzēšana
 
@@ -99,18 +97,18 @@ Nākamajā tabulā ir aprakstītas vadīklas cilnē **Atskaišu grupa**.
 <td>Detalizācijas līmenis</td>
 <td>Norādiet detalizētības līmeni, kāds ir iekļauts atskaitēs.
 <ul>
-<li><strong>Finanšu</strong> — augstākā līmeņa kopsavilkuma pārskats. Nevarat detalizēti skatīt kontus un dimensijas, izņemot tos kontus un dimensijas, kas ir pievienoti, izmantojot pārskatu koku.</li>
-<li><strong>Finanšu un Konts</strong> — pārskats, kas satur augsta līmeņa kopsavilkumu un detalizētu informāciju par kontu.</li>
-<li><strong>Finanšu, Konts un Transakcija</strong> — pārskats, kas satur augsta līmeņa kopsavilkumu un detalizētu informāciju par transakciju.</li>
+<li><strong>Finanšu</strong> — augstākā līmeņa kopsavilkuma pārskats. Nevara&#39;t detalizēti skatīt kontus un dimensijas, izņemot tos kontus un dimensijas, kas ir pievienoti, izmantojot pārskatu koku.</li>
+<li><strong>Finanšu &amp; Konts</strong> — pārskats, kas satur augsta līmeņa kopsavilkumu un detalizētu informāciju par kontu.</li>
+<li><strong>Finanšu, Konts, &amp; Transakcija</strong> — pārskats, kas satur augsta līmeņa kopsavilkumu un detalizētu informāciju par transakciju.</li>
 </ul></td>
 </tr>
 <tr>
 <td>Provizorisks</td>
 <td>Norādiet aktivitāšu tipus, kas ir iekļauti atskaitēs.
 <ul>
-<li><strong>Tikai grāmatotās darbības</strong> — ietverti tikai darījumi un bilances, kas ir grāmatoti jūsu finanšu datos.</li>
-<li><strong>Grāmatotās un negrāmatotās darbības</strong> — ietverti visi darījumi un bilances, kas ir ievadīti un grāmatoti jūsu finanšu datos.</li>
-<li><strong>Tikai negrāmatotās darbības</strong> — ietverti tikai tie darījumi, kuri ir ievadīti, bet vēl nav iegrāmatoti jūsu finanšu datos.</li>
+<li><strong>Tikai grāmatotās darbības</strong> — ietverti tikai darījumi un bilances, kas ir grāmatoti jūsu finanšu datos.</li>
+<li><strong>Grāmatotās un negrāmatotās darbības</strong> — ietverti visi darījumi un bilances, kas ir ievadīti un grāmatoti jūsu finanšu datos.</li>
+<li><strong>Tikai negrāmatotās darbības</strong> — ietverti tikai tie darījumi, kuri ir ievadīti, bet vēl nav iegrāmatoti jūsu finanšu datos.</li>
 </ul></td>
 </tr>
 <tr>
@@ -148,3 +146,6 @@ Ar atskaites definīciju tiek saglabāti tikai noklusējuma bāzes perioda iesta
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Finanšu pārskatu veidošana](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

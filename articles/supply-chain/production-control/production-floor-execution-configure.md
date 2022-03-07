@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 30f36ccf967c47d6a034c00544d45cdfdc3d1907
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: MT
+ms.openlocfilehash: 15fcfd72027e081e633fe68209cf85f528ff02d7
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103392"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576932"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Ražošanas izpildes interfeisa konfigurēšana
 
@@ -31,7 +31,7 @@ Atverot ražotnes izpildes interfeisu, tas automātiski ielādē atlasīto konfi
 - Ierīcē, kas atrodas uzņēmuma zālē, darbinieki reģistrējas, kad tie ierodas birojā, un viņi reģistrējas, kad tie aiziet, beidzot dienu.
 - Ierīcē ražotnē mašīnu operatori reģistrējas, kad tie sāk un pabeidz darbus. Viņi reģistrē arī pārtraukumus un netiešās aktivitātes.
 
-Šajā tēmā aprakstītas dažādas opcijas ražošanas stāva izpildes interfeisa konfigurēšanai katrai jūsu vietā izmantojamai ierīcei.
+Šajā tēmā ir aprakstītas dažādas opcijas darba kartes konfigurēšanai.
 
 ## <a name="turn-on-the-production-floor-execution-interface-and-its-related-optional-features"></a>Ieslēgt ražošanas stāva izpildes interfeisu un ar to saistītās papildu funkcijas
 
@@ -39,66 +39,62 @@ Ražošanas stāva izpildes interfeiss, kā arī vairāki papildu iestatījumi, 
 
 ### <a name="the-production-floor-execution-interface"></a>Ražošanas izpildes interfeiss
 
-Šī ir primārā funkcija, kas aprakstīta šajā tēmā, un ir priekšnoteikums visām pārējām šajā sadaļā minētajām funkcijām. Attiecībā uz Piegādes ķēdes pārvaldību 10.0.25 tas ir obligāts un to nevar izslēgt. Ja jūs palaižat versiju, kas vecāka par 10.0.25, tad administratori šo funkcionalitāti var ieslēgt vai izslēgt, *meklējot Ražošanas*[stāva izpildes līdzekli līdzekļu pārvaldības darbvietā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Šis ir galvenais šajā tēmā aprakstītais līdzeklis. Tas jūsu sistēmai pievieno ražošanas stāva izpildes interfeisu. Lai to iespējotu, ieslēdziet sekojošo līdzekli [līdzekļu pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- Ražošanas stāva izpilde
 
 ### <a name="generate-license-plates"></a>Ģenerēt numura zīmes
 
 Šie līdzekļi padara numura zīmes funkcionalitāti pieejamu ražošanas stāva izpildes interfeisam. Ja vēlaties tos izmantot, aktivizējiet tālāk norādītos līdzekļus [līdzekļu pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (šādā secībā):
 
-1. *Darbu kartes ierīcei ir pievienota unikālai noliktavas vienībai, lai ziņotu par pabeigšanu*<br>(No Piegādes ķēdes pārvaldības versijas 10.0.21, šī funkcija ir ieslēgta pēc noklusējuma. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.25 šī funkcija ir obligāta.)
-1. *Iespējojiet unikāla noliktavas vienības identifikatora automātisku ģenerēšanu, kad darba kartes ierīcē norādīts pabeigts statuss*<br>(No Piegādes ķēdes pārvaldības versijas 10.0.25 šī funkcija ir obligāta.)
+1. Darbu kartes ierīcei ir pievienota noliktavas vienībai, lai ziņotu par pabeigšanu
+1. Iespējojiet unikāla noliktavas vienības identifikatora automātisku ģenerēšanu, kad darba kartes ierīcē norādīts pabeigts statuss
 
 ### <a name="print-labels"></a>Drukāt etiķetes
 
 Šie līdzekļi padara etiķešu printēšanas funkcionalitāti pieejamu ražošanas stāva izpildes interfeisam. Ja vēlaties tos izmantot, aktivizējiet tālāk norādītos līdzekļus [līdzekļu pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (šādā secībā):
 
-1. *Darbu kartes ierīcei ir pievienota unikālai noliktavas vienībai, lai ziņotu par pabeigšanu*<br>(No Piegādes ķēdes pārvaldības versijas 10.0.21, šī funkcija ir ieslēgta pēc noklusējuma. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.25 šī funkcija ir obligāta.)
-1. *Izdrukāt etiķeti no darba karšu ierīces*<br>(No Piegādes ķēdes pārvaldības versijas 10.0.25 šī funkcija ir obligāta.)
+1. Darbu kartes ierīcei ir pievienota noliktavas vienībai, lai ziņotu par pabeigšanu
+1. Izdrukāt etiķeti no darba karšu ierīces
 
 ### <a name="allow-locking-the-touch-screen"></a>Atļaut skārienekrāna bloķēšanu
 
-Šī funkcija ļauj darbiniekiem bloķēt skārienekrānu, lai tie varētu to sankcionēt.
+Šis līdzeklis pievieno pogu ražošanas stāva izpildes interfeisam, kas ļauj darbiniekiem notīrīt skārienjūtīgo ekrānu. Ja vēlaties to izmantot, ieslēdziet sekojošo līdzekli [līdzekļu pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
-No Piegādes ķēdes pārvaldības versijas 10.0.21 šī funkcija ir ieslēgta pēc noklusējuma. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja jūs palaižat versiju, kas vecāka par 10.0.25, administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot līdzekli darba kartes ierīces un darba kartes termināļa bloķēšanai, lai *tos*[varētu](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) izmantot līdzekļa pārvaldības darbvietā.
+- Līdzeklis darba kartes ierīces un darba kartes termināļa aizturēšanai, lai var veikt to tīrīšanu
 
 ### <a name="asset-management-functionality-for-the-production-floor-execution-interface"></a>Aktīvu pārvaldības funkcionalitāte ražošanas izpildes interfeisam
 
 Šī funkcija pievieno pamatlīdzekļu pārvaldības cilni ražošanas izpildes interfeisam. Darbinieki var izmantot šo cilni, lai atlasītu līdzekli, kas ir saistīts ar datora resursu, kas ir darbu saraksta atlasītajā filtrā. Atlasītajam iekārtas pamatlīdzeklim darbinieks var skatīt līdzekļa stāvokli un veselības datus no skaitītāja vērtībām līdz pat četriem atlasītajiem skaitītājiem. Ja vēlaties to izmantot, ieslēdziet sekojošo līdzekli [līdzekļu pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
-- *Aktīvu pārvaldības funkcionalitāte ražošanas izpildes interfeisam*<br>(No Piegādes ķēdes pārvaldības versijas 10.0.25 šī funkcija ir noklusējuma iestatījumā.)
+- Aktīvu pārvaldības funkcionalitāte ražošanas izpildes interfeisam
 
 ### <a name="enable-job-search"></a>Iespējot darbu meklēšanu
 
 Šī funkcija dod iespēju darbu sarakstam pievienot meklēšanas lauku. Darbinieki var atrast noteiktu darbu, ievadot darba ID vai meklējot visus noteikta pasūtījuma darbus, ievadot pasūtījuma ID. Darbinieki var ievadīt ID, izmantojot maksājumu vai skenējot svītrkodu. Ja vēlaties to izmantot, ieslēdziet sekojošo līdzekli [līdzekļu pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
-- *Darbu meklēšana ražošanas izpildes saskarnē*<br>(No Piegādes ķēdes pārvaldības versijas 10.0.25 šī funkcija ir noklusējuma iestatījumā.)
-
-### <a name="enable-reporting-on-co-products-and-by-products"></a>Iespējot pārskatus par līdzproduktiem un blakusproduktiem
-
-Šis līdzeklis ļauj darbiniekiem izmantot ražošanas izpildes interfeisu, lai ziņotu par partijas pasūtījumu progresu. Šis pārskats iekļauj pārskatus par līdzproduktiem un blakusproduktiem. Lai izmantotu šo līdzekli, ieslēdziet tālāk norādīto līdzekli [Līdzekļu pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
-
-- *Pārskats par līdzproduktiem un blakusproduktiem no ražošanas izpildes saskarnes*
+- Darbu meklēšana ražošanas izpildes saskarnē
 
 ## <a name="work-with-production-floor-execution-configurations"></a>Darbs ar ražotnes izpildes interfeisa konfigurācijām
 
-Lai izveidotu un uzturētu ražošanas izpildes konfigurācijas, dodieties uz ražošanas **kontroles iestatīšanas \>\> ražošanas izpildi Konfigurējiet \> ražošanas stāva izpildi**. Lapā **Konfigurēt ražotnes izpildi** tiek parādīts esošo konfigurāciju saraksts. Šajā lapā varat veikt tālāk norādītās darbības.
+Lai izveidotu un uzturētu ierīces konfigurācijas, dodieties uz **Ražošanas kontrole \> Iestatīšana \> Ražošanas izpilde \> Konfigurēt ražotnes izpildi**. Lapā **Konfigurēt ražotnes izpildi** tiek parādīts esošo konfigurāciju saraksts. Šajā lapā varat veikt tālāk norādītās darbības.
 
 - Atlasīt jebkuru ražotnes konfigurāciju, kas norādīta kreisajā kolonnā, lai to skatītu un rediģētu.
-- Atlasiet **Jauns** darbību rūtī, lai sarakstam pievienotu jaunu konfigurāciju. Pēc tam ievadiet nosaukumu laukā **Konfigurācija**, lai identificētu jauno konfigurāciju. Ievadītam nosaukumam ir jābūt unikālam visās konfigurācijās, un vēlāk nevarēsit to rediģēt.
+- Lai sarakstam pievienotu jaunu ierīces konfigurāciju, darbības rūtī atlasiet **Jauns**. Pēc tam ievadiet nosaukumu laukā **Konfigurācija**, lai identificētu jauno konfigurāciju. Ievadītajam nosaukumam ir jābūt unikālam starp visām ierīču konfigurācijām, un vēlāk to nevarēsit rediģēt.
 
-Pēc tam konfigurējiet dažādus iestatījumus atlasītajai konfigurācijai. Pieejami tālāk norādītie lauki:
+Pēc tam konfigurējiet dažādus atlasītās ierīces konfigurācijas iestatījumus. Pieejami tālāk norādītie lauki:
 
 - **Ierašanās un aiziešanas laiks** - iestatiet šo opciju uz *Jā*, lai izveidotu vienkāršotu interfeisu, kas nodrošina tikai ierašanās un aiziešanas funkcionalitāti. Tas atspējo lielāko daļu citu opciju šajā lapā. Pirms šīs opcijas iespējošanas no **Clnes atlases** kopsavilkuma cilnē ir jānoņem visas rindas.
 - **Iespējot meklēšanu** - iestatiet šo opciju uz *Jā*, lai iekļautu meklēšanas lauku darbu sarakstā. Darbinieki var atrast noteiktu darbu, ievadot darba ID vai meklējot visus noteikta pasūtījuma darbus, ievadot pasūtījuma ID. Darbinieki var ievadīt ID, izmantojot maksājumu vai skenējot svītrkodu.
 - **Reģistrēt daudzumu aiziešanas laikā** — iestatiet šo opciju uz *Jā*, lai mudinātu darbiniekus ziņot par notiekošajiem darbiem, kad viņi aiziet. Ja šī opcija ir iestatīta uz *Nē*, darbinieki netiks mudināti.
-- **Bloķēt darbinieku** — ja šī opcija ir iestatīta uz *Nē*, darbinieki tiks izrakstīti uzreiz pēc reģistrācijas (piemēram, jauna darba). Interfeiss tad atgriežas pierakstīšanās lapā. Kad šī opcija ir iestatīta uz *Jā*, darbinieki būs reģistrējies ražošanas izpildes interfeisā. Tomēr darbinieks var manuāli izrakstīties tā, ka cits darbinieks var pieteikties, kamēr ražošanas izpildes interfeiss turpina darboties tajā pašā sistēmas lietotāja kontā. Plašāku informāciju par šiem tabulas kontu veidiem skatiet [Piešķirtie lietotāji](config-job-card-device.md#assigned-users).
+- **Bloķēt darbinieku** — ja šī opcija ir iestatīta uz *Nē*, darbinieki tiks izrakstīti uzreiz pēc reģistrācijas (piemēram, jauna darba). Pēc tam ierīce atgriezīsies pierakstīšanās lapā. Ja šī opcija ir iestatīta uz *Jā*, visi darbinieki paliks pierakstījušies darba kartes ierīcē. Tomēr darbinieks var manuāli izrakstīties, lai cits darbinieks varētu pierakstīties, kamēr darba kartes ierīce turpina darboties ar to pašu sistēmas lietotāja kontu. Plašāku informāciju par šiem tabulas kontu veidiem skatiet [Piešķirtie lietotāji](config-job-card-device.md#assigned-users).
 - **Izmantot faktisko reģistrācijas laiku** — iestatiet šo opciju uz *Jā*, lai iestatītu laiku katrai jaunajai reģistrācijai tā, lai tas atbilstu precīzajam laikam, kad darbinieks iesniedzis reģistrāciju. Ja šī opcija ir iestatīta uz *Nē*, tā vietā tiek izmantots pierakstīšanās laiks. Parasti šī opcija ir jāiestata uz *Jā*, ja esat iestatījis opciju **Bloķēt darbinieku** un/vai **Viens darbinieks** uz *Jā*, kuru gadījumā darbinieki bieži paliek pierakstījušies ilgāku laiku.
-- **Viens darbinieks** – iestatiet šo opciju kā Jā *,* ja tikai viens darbinieks izmanto katru ražošanas izpildes interfeisu, kur šī konfigurācija ir aktīva. Kad šī opcija ir iestatīta uz *Jā*, opcija **Bloķēt darbinieku** automātiski tiek iestatīta uz *Jā*. Turklāt šis iestatījums noņem darbiniekam prasību (un iespēju) pierakstīties, izmantojot žetona ID (vai citu līdzīgu ID). Tā vietā darbinieks pierakstās korporācijai Microsoft Dynamics 365 Supply Chain Management *·*, izmantojot sistēmas lietotāja kontu, kas ir saistīts ar reģistrēto darbinieku (*no* darbinieku tabulas) un vienlaicīgi tiek pieteikts ražošanas izpildes interfeisā ar šo darbinieku.
-- **Atļaujiet bloķēt** skārienekrānu – *iestatiet* šo opciju uz Jā, lai ļautu darbiniekiem bloķēt ražošanas stāva izpildes interfeisa skārienekrānu, lai viņi varētu to noslēgt. Kad šī opcija ir iestatīta *uz Jā*, **pierakstīšanās lapai tiek** pievienots bloķēšanas ekrāns pogas numuru iestatīšanai. Kad darbinieks atlasa šo pogu, skārienekrāns uz laiku tiek bloķēts, lai novērstu netīšu ievadi. Tiek parādīts arī atpakaļskaitīšanas taimeris. Darbinieks pēc tam var droši tīrīt ierīci un ekrānu. Kad atpakaļskaitīšanas ir beigusies, skārienekrāns tiek automātiski atbloķēts.
+- **Viens darbinieks** — iestatiet šo opciju uz *Jā*, ja tikai viens darbinieks izmanto katru darba kartes ierīci, kurā šī konfigurācija ir aktīva. Kad šī opcija ir iestatīta uz *Jā*, opcija **Bloķēt darbinieku** automātiski tiek iestatīta uz *Jā*. Turklāt šis iestatījums noņem darbiniekam prasību (un iespēju) pierakstīties, izmantojot žetona ID (vai citu līdzīgu ID). Tā vietā darbinieks pierakstās Microsoft Dynamics 365 Supply Chain Management, izmantojot sistēmas lietotāja vienlau kontu, kas ir saistīts ar *laikā reģistrēto darbinieku* (no tabulas *darbinieki*), un vienlaikus tiek pierakstīts darba kartes ierīcē kā šis darbinieks.
+- **Atļaut skārienekrāna bloķēšanu** — iestatiet šo opciju uz *Jā*, lai ļautu darbiniekiem bloķēt darbu kartes ierīces skārienekrānu tā, lai varētu to tīrīt. Ja šī opcija ir iestatīta uz *Jā*, ierīces pierakstīšanās lapā tiek pievienota poga **Bloķēt ekrānu tīrīšanai**. Kad darbinieks atlasa šo pogu, skārienekrāns uz laiku tiek bloķēts, lai novērstu netīšu ievadi. Tiek parādīts arī atpakaļskaitīšanas taimeris. Darbinieks pēc tam var droši tīrīt ierīci un ekrānu. Kad atpakaļskaitīšanas ir beigusies, skārienekrāns tiek automātiski atbloķēts.
 - **Ekrāna bloķēšanas ilgums** — kad opcija **Atļaut skārienekrāna bloķēšanu** ir iestatīta uz *Jā*, izmantojiet šo opciju, lai norādītu sekunžu skaitu, cik ilgi skārienekrānam ir jābūt bloķētam tīrīšanai. Ilgumam jābūt diapazonā no 5 līdz 120 sekundēm.
-- **Ģenerēt numura zīmi** — iestatiet šo *opciju* kā Jā, lai ģenerētu jaunu numura zīmi katru reizi, kad darbinieks izmanto ražošanas izpildes interfeisu, lai ziņotu par pabeigšanu. Unikāls noliktavas vienības identifikators tiek ģenerēts no numuru sērijas, kas iestatīta lapā **Noliktavas pārvaldības parametri**. Kad šī opcija ir iestatīta uz *Nē*, darbiniekiem ir jānorāda esoša noliktavas vienība, kad tie reģistrē pabeigšanu.
-- **Drukāt etiķeti** – iestatiet šo opciju kā *Jā*, lai drukātu numura zīmes uzlīmi, ja darbinieks izmanto ražošanas izpildes interfeisu, lai ziņotu par pabeigšanu. Etiķetes konfigurācija ir iestatīta dokumentu maršrutēšanā, kā tas ir aprakstīts [Dokumentu maršrutēšanas izkārtojumā noliktavas vienību etiķetēm](../warehousing/document-routing-layout-for-license-plates.md).
-- **Cilnes atlase**  - izmantojiet šīs sadaļas iestatījumus, lai izvēlētos, kuras cilnes attēlot pēc ražošanas stāva interfeisa, kad pašreizējā konfigurācija ir aktīva. Varat izveidot tik daudz ciļņu, cik nepieciešams, un pēc tam pievienot un sakārtot tās pēc nepieciešamības. Lai iegūtu sīkāku informāciju par to, kā veidot cilnes un strādāt ar iestatījumiem, skatiet [Izstrādāt ražošanas stāva izpildes interfeisu](production-floor-execution-tabs.md).
+- **Ģenerēt noliktavas vienību** — iestatiet šo opciju uz *Jā*, lai ģenerētu jaunu noliktavas vienību katru reizi, kad darbinieks izmanto darbu karšu ierīci pabeigšanas reģistrēšanai. Unikāls noliktavas vienības identifikators tiek ģenerēts no numuru sērijas, kas iestatīta lapā **Noliktavas pārvaldības parametri**. Kad šī opcija ir iestatīta uz *Nē*, darbiniekiem ir jānorāda esoša noliktavas vienība, kad tie reģistrē pabeigšanu.
+- **Drukāt etiķeti** — iestatiet šo opciju uz *Jā*, lai izdrukā noliktavas vienības etiķeti, kad darbinieks izmanto darbu karšu ierīci pabeigšanas reģistrācijai. Etiķetes konfigurācija ir iestatīta dokumentu maršrutēšanā, kā tas ir aprakstīts [Dokumentu maršrutēšanas izkārtojumā noliktavas vienību etiķetēm](../warehousing/document-routing-layout-for-license-plates.md).
+- **Cilnes atlase** - izmantojiet šīs sadaļas iestatījumus, lai izvēlētos, kuras cilnes attēlot pēc ražošanas stāva interfeisa, kad pašreizējā konfigurācija ir aktīva. Varat izveidot tik daudz ciļņu, cik nepieciešams, un pēc tam pievienot un sakārtot tās pēc nepieciešamības. Lai iegūtu sīkāku informāciju par to, kā veidot cilnes un strādāt ar iestatījumiem, skatiet [Izstrādāt ražošanas stāva izpildes interfeisu](production-floor-execution-tabs.md).
 
 ## <a name="clean-up-job-configurations"></a>Tīrīšanas darba konfigurācijas
 

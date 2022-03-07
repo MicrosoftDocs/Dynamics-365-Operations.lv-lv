@@ -1,35 +1,31 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.16 priekšskatījums (2021. gada februāris)
+title: Jaunumi vai izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.16. (2021. gada februāris)
 description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Supply Chain Management 10.0.16.
 author: kamaybac
-manager: annbe
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
-ms.search.validFrom: 2020-11-31
+ms.search.validFrom: 2020-11-30
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 963979c9d24c275f77347ec5d682f318db18f915
-ms.sourcegitcommit: be4b9d557511bbb43e71a93f2c3b23b5f1a4669d
-ms.translationtype: HT
+ms.openlocfilehash: 4c5c8e1d13a58b5ebc68315c75e5245cb10377f3
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "4626806"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474920"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10016-february-2021"></a>Dynamics 365 Supply Chain Management 10.0.16 priekšskatījums (2021. gada februāris)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>Jaunumi vai izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.16. (2021. gada februāris)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Šajā tēmā uzskaitīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti Microsoft Dynamics 365 Supply Chain Management versijas 10.0.16 priekšskatījumā. Šai versijai ir būvējuma numurs 10.0.689, un tas ir pieejams šeit:
+Šī tēma uzskaita līdzekļus, kas ir vai nu jauni, vai kas ir mainīti programmas Microsoft Dynamics 365 Supply Chain Management versijā 10.0.16. Šai versijai ir būvējuma numurs 10.0.689, un tas ir pieejams šeit:
 
 - **Laidiena priekšskatījums:** 2020. gada novembris
 - **Vispārēja laidiena (paša veikts atjauninājums) pieejamība:** 2021. gada janvāris
@@ -37,12 +33,17 @@ ms.locfileid: "4626806"
 
 ## <a name="features-included-in-this-release"></a>Šajā laidienā iekļautie līdzekļi
 
-Šajā laidienā ir iekļauti tālāk minētie līdzekļi. Daži no norādītajiem līdzekļiem joprojām ir pieejami priekšskatījumā, kamēr citi, iespējams, jau ir vispārīgi pieejami. Sekojiet saitēm uz [laidiena plānu](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features), lai skatītu katra līdzekļa oficiālā laidiena datumu.
+Šajā laidienā ir iekļauti tālāk minētie līdzekļi. Sekojiet saitēm uz [laidiena plānu](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features), lai skatītu katra līdzekļa oficiālā laidiena datumu.
 
-- [Pielāgojama ražotnes izpildes saskarne](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - Papildinformāciju skatiet tēmā [Ierīces iestatīšana lai palaistu ražotnes izpildes interfeisu](../production-control/production-floor-execution-setup.md).
-- [Krājumu uztveramības pievienojumprogramma Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - Plašāku informāciju skatiet [Krājumu uztveramības pievienojumprogramma](../inventory/inventory-visibility.md)
-- [Numura zīmes avota dokumenta rindās validēšana](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - Papildinformāciju skatiet [Noliktavas konfigurācijas pārskats](../warehousing/warehouse-configuration.md).
-- [Noliktavas pārvaldības nosūtīšanas darba noslodzes vizualizācija](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management--workload-visualization)<br> - Plašāku informāciju skatiet [Nosūtīšanas darba slodzes vizualizācija](../warehousing/outbound-workload-visualization.md)
+- [Pielāgojama ražotnes izpildes saskarne](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - Papildinformāciju skatiet tēmā [Ierīces iestatīšana lai palaistu ražotnes izpildes interfeisu](../production-control/production-floor-execution-setup.md).
+
+- [Krājumu uztveramības pievienojumprogramma Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - Plašāku informāciju skatiet [Krājumu uztveramības pievienojumprogramma](../inventory/inventory-visibility.md)
+
+- Vienota darbu ID numuru secība<br> - Lai iegūtu papildu informāciju, skatiet [Unificēto numuru sēriju darbu ID](../production-control/unified-job-ids.md).
+
+- [Numura zīmes avota dokumenta rindās validēšana](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - Papildinformāciju skatiet [Noliktavas konfigurācijas pārskats](../warehousing/warehouse-configuration.md).
+
+- [Noliktavas pārvaldības nosūtīšanas darba noslodzes vizualizācija](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management--workload-visualization)<br> - Plašāku informāciju skatiet [Nosūtīšanas darba slodzes vizualizācija](../warehousing/outbound-workload-visualization.md)
 
 Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), pirms varat tos izmantot.
 
@@ -53,32 +54,8 @@ Nesen ir pievienotas vai ievērojami atjauninātas tālāk norādītās palīdz�
 - [No atribūtiem atkarīgas pārdošanas cenas uz ierobežojumiem balstītām produktu konfigurācijām](../pim/attribute-based-product-configurator.md)
 - [Automātisks maksu sadalījums](../procurement/automatic-charges-allocation.md)
 - [Bīstamo materiālu apskats](../pim/hazmat-overview.md) (un saistītās tēmas)
-- [Migrācija uz Plānošanas optimizāciju vispārējai plānošanai](../master-planning/new-master-planning-engine.md)
+- [Migrācija uz plānošanas optimizāciju vispārējai plānošanai](../master-planning/new-master-planning-engine.md)
 - [cXML uzlabojumu iegāde](../procurement/purchasing-cxml-enhancements.md)
-- [Ar izmaksām saistīto problēmu novēršanas pārvaldība](../cost-management/troubleshoot-costmanagement.md)
-- [Ar ienākošās noliktavas operācijām saistīto problēmu novēršana](../warehousing/troubleshoot-warehouse-inbound.md)
-- [Ar kravu veidošanu un nosūtīšanu saistīto problēmu novēršana](../warehousing/troubleshoot-warehouse-loads-shipments.md)
-- [Ar vispārējo plānošanu saistīto problēmu novēršana](../master-planning/troubleshoot-masterplanning.md)
-- [Ar iznākošās noliktavas operācijām saistīto problēmu novēršana](../warehousing/troubleshoot-warehouse-outbound.md)
-- [Ar daļēju izlaidi un daļējiem sūtījumiem saistīto problēmu novēršana](../warehousing/troubleshoot-warehouse-partial-release-shipment.md)
-- [Ar preču konfigurāciju saistīto problēmu novēršana](../pim/troubleshooting-productconfigurator.md)
-- [Ar preču informāciju saistīto problēmu novēršana](../pim/troubleshooting-productinformation.md)
-- [Sagādes un avotu darbplūsmu problēmu novēršana](../procurement/troubleshoot-procurementworkflows.md)
-- [Pirkšanas pasūtījumu problēmu novēršana](../procurement/troubleshoot-purchaseorders.md)
-- [Cenu, cenas samazinājumu, līgumu un atlaižu problēmu novēršana](../procurement/troubleshooting-pricediscountagreements.md)
-- [Produktu ieejas plūsmas un rēķinu izrakstīšanas problēmu novēršana](../procurement/troubleshooting-productreceiptinvoicing.md)
-- [Ar atsevišķo ražošanu saistīto problēmu novēršana](../production-control/troubleshoot-discretemanufacturing.md)
-- [Ar izdošanu un iepakošanu saistīto problēmu novēršana](../warehousing/troubleshoot-warehouse-picking-packing.md)
-- [Ar ražošanas procesu saistīto problēmu novēršana](../production-control/troubleshoot-processmanufacturing.md)
-- [Ar rezervāciju noliktavas pārvaldībā saistīto problēmu novēršana](../warehousing/troubleshoot-warehouse-reservations.md)
-- [Pārdošanas pasūtījumu problēmu novēršana](../sales-marketing/troubleshooting-sales.md)
-- [Pārdošanas piedāvājumu problēmu novēršana](../sales-marketing/troubleshooting-salesquotation.md)
-- [Ar jaunināšanu un migrāciju uz uzlaboto noliktavu pārvaldību saistīto problēmu novēršana](../warehousing/troubleshoot-warehouse-upgrade-migration.md)
-- [Noliktavas programmas savienojuma problēmu novēršana](../warehousing/troubleshoot-warehouse-app-connection.md)
-- [Ar noliktavas konfigurāciju saistīto problēmu novēršana](../warehousing/troubleshoot-warehouse-configuration.md)
-- [Ar noliktavas papildināšanu saistīto problēmu novēršana](../warehousing/troubleshoot-warehouse-replenishment.md)
-- [Ar noliktavas iestatīšanu saistīto problēmu novēršana](../warehousing/troubleshoot-warehouse-setup.md)
-- [Ar noliktavas darbu saistīto problēmu novēršana](../warehousing/troubleshoot-warehouse-work.md)
 - [Izvietošanas klasteri](../warehousing/putaway-clusters.md)
 - [Papildināšanas stratēģijas](../warehousing/replenishment-strategies.md)
 - [Darba sadale](../warehousing/work-split.md)
@@ -88,7 +65,7 @@ Nesen ir pievienotas vai ievērojami atjauninātas tālāk norādītās palīdz�
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformas atjauninājumi Finance and Operations programmām
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.16 ietver platformas atjauninājumus. Lai iegūtu papildinformāciju, skatiet [Platformas atjauninājumi Finance and Operations programmu versijai 10.0.16 (2020. gada oktobris)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.16 ietver platformas atjauninājumus. Lai iegūtu papildinformāciju, skatiet [Platformas atjauninājumi Finance and Operations programmu versijai 10.0.16 (2021. gada februāris)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md).
 
 ### <a name="bug-fixes"></a>Kļūdu labojumi
 
@@ -98,7 +75,7 @@ Lai iegūtu informāciju par kļūdu labojumiem, kas iekļauti katrā no atjauni
 
 Vai interesējaties par gaidāmajām un nesen izlaistajām biznesa programmu un platformu iespējām?
 
-Pārbaudiet [Dynamics 365: 2020. gada 2. kopuma plānu](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index). Visa informācija no “a” līdz “z” ir apkopota vienā dokumentā, kuru varat izmantot plānošanai.
+Pārbaudiet [Dynamics 365: 2020. gada 2. kopuma plānu](/dynamics365-release-plan/2020wave2/index). Visa informācija no “a” līdz “z” ir apkopota vienā dokumentā, kuru varat izmantot plānošanai.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Noņemtie un novecojušie Supply Chain Management līdzekļi
 
@@ -110,3 +87,6 @@ Tēma [Noņemtie vai novecošie līdzekļi Dynamics 365 Supply Chain Management]
 Pirms kāda funkcija tiek noņemta no preces, izslēgšanas paziņojums tiks izziņota tēma [Noņemtie vai novecošie līdzekļi Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mēnešu laikā pirms noņemšanas.
 
 Lai pārveidotu izmaiņas, kas ietekmē tikai apkopošanas laiks, bet ir bināri saderīgas ar smilškastes un ražošanas vidēm, izslēgšanas laiks būs īsāks par 12 mēnešiem. Parasti tie ir funkcionāli atjauninājumi, kas jāveic apkopotājam.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

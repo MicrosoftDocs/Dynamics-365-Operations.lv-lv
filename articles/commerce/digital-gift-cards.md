@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e0cbab05cfd9dcde8ec5caf802d13cd10bc9123716b46307616b0e3e66f0f061
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bd93744cf947dcc343d2b31d3d52b2b748c062a9
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727561"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792875"
 ---
 # <a name="e-commerce-digital-gift-cards"></a>E-komercijas digitālās dāvanu kartes
 
@@ -34,13 +34,13 @@ Digitālo dāvanu karšu pirkšana ir atbalstīta Dynamics 365 Commerce 10.0.16.
 
 Šajā ilustrācijā parādīts preču informācijas lapas (PDP) piemērs digitālai dāvanu kartei Fabrikam e-komercijas vietnē.
 
-![Digitāla dāvanu kartes PDP piemērs Fabrikam e-komercijas vietnē.](./media/GiftcardPDP.PNG)
+![Digitāla dāvanu kartes PDP piemērs Fabrikam e-komercijas vietnē](./media/GiftcardPDP.PNG)
 
 ## <a name="turn-on-the-digital-gift-card-feature-in-commerce-headquarters"></a>Ieslēgt digitālās dāvanu kartes funkciju programmā Commerce Headquarters
 
 Lai digitālo dāvanu karšu pirkšanas plūsma darbotos programmā Dynamics 365 Commerce, sadaļā Commerce Headquarters ir jābūt ieslēgtai līdzeklim **Dāvanu kartes pirkšana e-komercijas līdzeklī**. Sekojošajā attēlā atradīsiet līdzekli darbvietā **Līdzekļu pārvaldība** sadaļā Commerce headquarters.
 
-![Līdzekļu pārvaldības darbvieta programmā Commerce Headquarters.](./media/Featureflag.PNG)
+![Līdzekļu pārvaldības darbvieta programmā Commerce Headquarters](./media/Featureflag.PNG)
 
 ## <a name="configure-a-digital-gift-card-in-commerce-headquarters"></a>Konfigurēt digitālo dāvanu karti programmā Commerce Headquarters
 
@@ -49,16 +49,16 @@ Digitālās dāvanu kartes precēm jābūt konfigurētām programmā Commerce He
 - Konfigurējot digitālo dāvanu karšu preces dialoglodziņā **Jauna prece**, iestatiet **Preces tips** lauku uz **Pakalpojums**. (Lai atvērtu dialoglodziņu, dodieties uz **Mazumtirdzniecības un komercija \> Preces un kategorijas \> Preces pēc kategorijas**  un atlasiet **Jauns**.) Preces ar **Pakalpojuma** tipu nav atzīmētas pieejamiem krājumiem, pirms tiek veikts pasūtījums. Papildinformāciju skatiet sadaļā [Jaunas preces izveide](create-new-product-commerce.md#create-a-new-product).
 - Lapas **Komercijas parametri** cilnē **Grāmatošana** laukam **Dāvanu kartes prece** ir jābūt iestatītam uz **Digitālā dāvanu karte**, kā parādīts ilustrācijā. Ja prece ir ārējā dāvanu karte, plašāku informāciju skatiet sadaļā [Atbalsts ārējām dāvanu kartēm](./dev-itpro/gift-card.md).
 
-    ![Dāvanu kartes preces lauks programmā Commerce Headquarters.](./media/PostGiftcard.png)
+    ![Dāvanu kartes preces lauks programmā Commerce Headquarters](./media/PostGiftcard.png)
 
-- Ja dāvanu kartei ir jāatbalsta vairākas iepriekš definētas summas (piemēram, $25, $50 un $100), šo iepriekš definēto summu iestatīšanai jāizmanto **Izmēra** dimensija. Katra iepriekš definētā summa būs variants. Papildinformāciju skatiet sadaļā [Preču dimensijas](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json).
+- Ja dāvanu kartei ir jāatbalsta vairākas iepriekš definētas summas (piemēram, $25, $50 un $100), šo iepriekš definēto summu iestatīšanai jāizmanto **Izmēra** dimensija. Katra iepriekš definētā summa būs variants. Papildinformāciju skatiet sadaļā [Preču dimensijas](https://docs.microsoft.com/dynamics365/supply-chain/pim/product-dimensions?toc=/dynamics365/retail/toc.json).
 - Ja klientiem ir jāprecizē pielāgotā summa dāvanu kartei, vispirms iestatiet variantu, kas ļauj izmantot pielāgotu summu. Pēc tam atveriet preci no lapas **Izlaistās preces pēc kategorijas** un pēc tam kopsavilkuma cilnē **Komercija** iestatiet lauku **Ievadīt cenu** vērtību uz **Jāievada jauna cena**, kā parādīts šajā ilustrācijā. Šis iestatījums nodrošina, ka klienti var ievadīt cenu, pārlūkojot preci PDP.
 
-    ![Lauks Ievadīt cenu pakalpojumā Commerce Headquarters.](./media/KeyInPrice.png)
+    ![Lauks Ievadīt cenu pakalpojumā Commerce Headquarters](./media/KeyInPrice.png)
 
-- Digitālās dāvanu kartes piegādes režīmam ir jābūt iestatītam uz **Elektronisks**. Lapā **Piegādes veidi** (**Mazumtirdzniecība un komercija \> Kanālu iestatīšana \> Piegādes veidi**), atlasiet piegādes veidu **Elektroniski** saraksta rūtī un tad pievienojiet digitālās dāvanu kartes preci režģim kopsavilkuma cilnē **Preces**, kā parādīts sekojošajā ilustrācijā. Plašāku informāciju skatiet [Piegādes veidu iestatīšana](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
+- Digitālās dāvanu kartes piegādes režīmam ir jābūt iestatītam uz **Elektronisks**. Lapā **Piegādes veidi** (**Mazumtirdzniecība un komercija \> Kanālu iestatīšana \> Piegādes veidi**), atlasiet piegādes veidu **Elektroniski** saraksta rūtī un tad pievienojiet digitālās dāvanu kartes preci režģim kopsavilkuma cilnē **Preces**, kā parādīts sekojošajā ilustrācijā. Plašāku informāciju skatiet [Piegādes veidu iestatīšana](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 
-    ![Digitālās dāvanu kartes preces Commerce Headquarters piegādes veidu lapā.](./media/ElectronicMode.PNG)
+    ![Digitālās dāvanu kartes preces Commerce Headquarters piegādes veidu lapā](./media/ElectronicMode.PNG)
 
 - Pārliecinieties, ka ir izveidots tiešsaistes funkcionalitātes profils un saistīts ar jūsu tiešsaistes veikalu programmā Commerce Headquarters. Funkcionalitātes profilā iestatiet opciju **Apkopot preces** uz **Jā**. Šis iestatījums nodrošina, ka tiek apkopotas visas preces, izņemot dāvanu kartes. Papildinformāciju skatiet [Tiešsaistes funkcionalitātes profila izveidošana](online-functionality-profile.md).
 - Lai nodrošinātu, ka klienti saņem e-pasta ziņojumu pēc tam, kad ir izrakstīts rēķins par dāvanu karti, izveidojiet jaunu e-pasta paziņojuma veidu **E-pasta paziņojuma profilu** lapā un iestatiet **E-pasta paziņojuma veida** lauku uz **Izsniegt dāvanu karti**. Papildinformāciju skatiet šeit: [E-pasta paziņojuma profilu iestatīšana](email-notification-profiles.md).
@@ -89,9 +89,9 @@ Lai konfigurētu pielāgotu summu digitālai dāvanu kartei Commerce vietnes vei
 
 [Jaunas preces izveide programmā Commerce](create-new-product-commerce.md)
 
-[Iestatiet piegādes veidus](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+[Iestatiet piegādes veidus](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
 
-[Preces dimensijas](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json)
+[Preces dimensijas](https://docs.microsoft.com/dynamics365/supply-chain/pim/product-dimensions?toc=/dynamics365/retail/toc.json)
 
 [E-pasta paziņojumu profila iestatīšana](email-notification-profiles.md)
 

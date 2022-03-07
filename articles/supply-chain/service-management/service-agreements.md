@@ -1,25 +1,28 @@
 ---
 title: Izstrādes un veidošanas pakalpojumu līgumu pārskats
 description: Izmantojot pakalpojumu līgumus, varat definēt resursus, ko izmantot tipiskā pakalpojumu vizītē, un veidu, kā šie resursi tiek iekļauti klienta rēķinos.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 955e360a1c0d6aec51e82598737c847b190e5e1d
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 86855e8893cdf5d6e53cb34465480ade06a6da95
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985865"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5258498"
 ---
 # <a name="develop-and-establish-service-agreements-overview"></a>Izstrādes un veidošanas pakalpojumu līgumu pārskats
 

@@ -1,35 +1,32 @@
 ---
-title: Vietnes Dynamics 365 Commerce saistīšana ar tiešsaistes kanālu
-description: Šajā tēmā ir paskaidrots, kā saistīt savu Microsoft Dynamics 365 Commerce vietni ar vienu vai vairākiem tiešsaistes veikaliem.
+title: Dynamics 365 Commerce vietnes saistīšana ar tiešsaistes kanālu
+description: Šajā tēmā paskaidrots, kā saistīt Microsoft Dynamics 365 Commerce vietni ar vienu vai vairākiem tiešsaistes veikaliem.
 author: bicyclingfool
-manager: AnnBe
 ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ROBOTS: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b6ae02d34499275fa303358f7dae4d3835d438e1
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
-ms.translationtype: HT
+ms.openlocfilehash: 60ead45e6e2b7fea8f04371310ff4315205e11f6e0968e5f8bbc6a29c5f26e18
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517334"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737657"
 ---
-# <a name="associate-a-dynamics-365-commerce-site-with-an-online-channel"></a>Vietnes Dynamics 365 Commerce saistīšana ar tiešsaistes kanālu
+# <a name="associate-a-dynamics-365-commerce-site-with-an-online-channel"></a>Dynamics 365 Commerce vietnes saistīšana ar tiešsaistes kanālu
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā saistīt savu Microsoft Dynamics 365 Commerce vietni ar vienu vai vairākiem tiešsaistes veikaliem. 
+Šajā tēmā paskaidrots, kā saistīt Microsoft Dynamics 365 Commerce vietni ar vienu vai vairākiem tiešsaistes veikaliem. 
 
 Pēc tam, kad esat nodrošinājis Dynamics 365 Commerce e-komercijas vidi, izmantojot Microsoft Dynamics Lifecycle Services (LCS) portālu, varat izveidot savu pirmo e-komercijas vietni. Sākotnēji veidojot vietni, jūs saistiet vietni ar iepriekš izveidoto tiešsaistes veikalu. Šī darbība piesaista vietni tiešsaistes kanālam un ļauj vietnei rādīt navigācijas hierarhiju, preces, kategorijas, cenas, piegādes opcijas un visu pārējo, kas definēts tiešsaistes veikalā.
 
@@ -58,3 +55,6 @@ Pēc vietnes izveides varat pārbaudīt, vai tā ir saistīta ar jūsu tiešsais
 [Atbalsta pievienošana satura piegādes tīklam (CDN)](add-cdn-support.md)
 
 [Veikala noteikšanas iespējošana pēc atrašanās vietas](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Kredītkartes iestatīšana, autorizācija un nolasīšana
 description: Šajā rakstā ir sniegts apskats par kredītkartes autorizāciju programmā Microsoft Dynamics 365 Finance. Šeit ir iekļauta arī informācija par to, kā iestatīt maksājumu pakalpojumu, pievienot kredītkarti pārdošanas pasūtījumam un anulēt autorizāciju.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CreditCardProcessors, CustTable, SalesTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 932949f31cbc4e4e8c07a2e489b8a0848843c54ad8d27d5d77f2b7031c68c30a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e615d13abf432705e40e5e33deb46ccab26192ae
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769135"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012236"
 ---
 # <a name="credit-card-setup-authorization-and-capture"></a>Kredītkartes iestatīšana, autorizācija un nolasīšana
 
@@ -28,7 +30,8 @@ ms.locfileid: "6769135"
 
 Šajā rakstā ir sniegts apskats par kredītkartes autorizāciju programmā Microsoft Dynamics 365 Finance. Šeit ir iekļauta arī informācija par to, kā iestatīt maksājumu pakalpojumu, pievienot kredītkarti pārdošanas pasūtījumam un anulēt autorizāciju.
 
-## <a name="setting-up-the-credit-card-payment-service"></a>Kredītkartes maksājumu pakalpojuma iestatīšana
+<a name="setting-up-the-credit-card-payment-service"></a>Kredītkartes maksājumu pakalpojuma iestatīšana
+------------------------------------------
 
 Lai izmantotu kredītkartes, ir jāiestata un jāaktivizē maksājumu pakalpojums lapā Maksājumu pakalpojumi. Maksājumu pakalpojums nodrošina starpniecību starp jūsu juridisko personu un banku, kas apstrādā debitora maksājumus ar kredītkarti. Jums ir jāsadarbojas ar kredītkartes nodrošinātāju, kas ir norādīts laukā Maksājumu savienotājs, un jāiestata šī nodrošinātāja konts. Pēc tam jums ir jāiesta citas opcijas lapā Maksājumu pakalpojumi, jāiestata kredītkaršu veidi American Express, Discover, MasterCard un Discover lapā Kredītkaršu veidi un jāaktivizē maksājuma nodrošinātājs kā noklusējuma nodrošinātājs. Lai pabeigtu iestatīšanu, ir jāveic arī tālāk norādītās darbības.
 -   Lapā Debitoru parādu parametri norādiet kredītkaršu autorizācijas izmantošanas parametrus.
@@ -38,11 +41,13 @@ Lai izmantotu kredītkartes, ir jāiestata un jāaktivizē maksājumu pakalpojum
 ## <a name="adding-a-new-credit-card"></a>Jaunas kredītkartes pievienošana
 Varat izveidot jaunus kredītkaršu ierakstus lapā Debitori izmantojot opcijas Debitors, Iestatīt, Kredītkarte. Varat arī izveidot kredītkaršu ierakstus, kad ievadāt pārdošanas pasūtījumus lapā Pārdošanas pasūtījums, izmantojot opcijas Pārvaldīt, Debitors, Kredītkarte, Reģistrēt.
 
-## <a name="adding-a-credit-card-to-a-sales-order"></a>Kredītkartes pievienošana pārdošanas pasūtījumam
+<a name="adding-a-credit-card-to-a-sales-order"></a>Kredītkartes pievienošana pārdošanas pasūtījumam
+-------------------------------------
 
 Varat pievienot kredītkarti pārdošanas pasūtījumam, atlasot kredītkarti kredītkartes uzmeklēšanas laukā lapas Pārdošanas pasūtījums kopsavilkuma cilnē Debitora kredītkartes. Lai sāktu autorizācijas procesu, cilnes Pārvaldīt darbību rūtī atlasiet opcijas Kredītkarte un Autorizēt.
 
-## <a name="authorizing-a-credit-card"></a>Kredītkartes autorizācija
+<a name="authorizing-a-credit-card"></a>Kredītkartes autorizācija
+-------------------------
 
 Autorizējot kredītkarti, tiek pārbaudīts kartes numurs un kartes īpašnieka vārds un tiek apstiprināta pieejamā kredīta bilance. Pēc izvēles tiek pārbaudīta kartes verificēšanas vērtība un kartes īpašnieka adrese. Pēc tam debitora pieejamā kredīta bilance tiek samazināta par rēķina summu. Maksājumu pakalpojums nosūta informāciju par to, ka kredītkarte ir apstiprināta vai noraidīta. Kad pārdošanas pasūtījums tiek iekļauts rēķinā, no kredītkartes konta tiek iekasēta (nolasīta) rēķina summa.
 
@@ -74,6 +79,3 @@ Lai anulētu kredītkartes autorizāciju, varat mainīt maksājuma metodi, izvē
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a092fac4f1b8648c2c93791f1c5efb90708c44e2
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: dadc8e69b1ed710f083005ef58bcf894680eb4d5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020183"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5253162"
 ---
 # <a name="asset-attribute-overview"></a>Līdzekļa atribūtu pārskats
 
@@ -39,3 +39,6 @@ Lapā **Līdzekļu atribūtu pārskats** ir parādīta atsevišķa rinda katram 
 3. Atlasiet **Labi**. Sarakstā tiek parādīti visi līdzekļi, kas izmanto atlasīto līdzekļa veidu. Katram līdzeklim visi saistītie līdzekļa atribūtu veidi tiek parādīti vienā rindā.
 
 Lapā **Līdzekļa atribūts** tiek parādīta atsevišķa rinda katram atribūta veidam, kas tiek izmantots līdzeklim. Lai atvērtu šo lapu, atlasiet **Līdzekļu pārvaldība** \> **Uzziņas** \> **Līdzekļi** \> **Līdzekļa atribūti**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

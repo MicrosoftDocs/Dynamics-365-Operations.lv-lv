@@ -2,11 +2,9 @@
 title: Reklāmkaroga vai logotipa maiņa
 description: Šajā procedūrā uzskaitītas darbības, kuras sistēmas administratori var izmantot, lai atjauninātu reklāmkarogu vai logotipa attēlu, kas tiek rādīts juridiskai personai.
 author: aneesmsft
-manager: AnnBe
 ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMLegalEntity, DefaultDashboard
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 73c66d189035f7bdc302480038c44645eccb50f9
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 0cf47b81f10bb74907e12872ef52e01b2d6ef6ae654afd3b5d6c273053ad6678
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798074"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750488"
 ---
 # <a name="change-the-banner-or-logo"></a>Reklāmkaroga vai logotipa maiņa
 
@@ -39,3 +37,6 @@ ms.locfileid: "4798074"
 6. Dodieties uz **Navigācijas rūts > Moduļi > Standarta > Standarta > Noklusējuma informācijas panelis**. Jaunajam reklāmkarogam vai logotipa attēlam būtu jābūt redzamam informācijas panelī.  
     
     Var būt nepieciešams mainīt savu uzņēmumu uz to, kuram augšupielādējāt reklāmkarogu, izmantojot uzņēmuma atlasītāju.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,26 +2,23 @@
 title: Sūtījumu konsolidācijas politikas
 description: Šajā tēmā sniegts pārskats par funkcionalitāti, kas nodrošina elastīgu sūtījumu konsolidācijas politiku konfigurāciju.
 author: GarmMSFT
-manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSShipConsolidationError, WHSShipConsolidationSetShipment, WHSShipConsolidationPolicySelect, WHSShipPlanningListPage, TMSCarrierGroup, WHSShipConsolidationTemplate, WHSShipConsolidationTemplateApply, WHSShipConsolidationTemplateCreate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: f895b13b2e11d4cb341f80b3cfeb40ed998ccfc4
-ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
+ms.openlocfilehash: ab7c23ac7cf70de08425783df231bc95a3252b332efa38d9b95fe8dd7f9508b1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4654224"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776732"
 ---
 # <a name="shipment-consolidation-policies"></a>Sūtījumu konsolidācijas politikas
 
@@ -29,7 +26,7 @@ Sūtījumu konsolidācijas process, kas izmanto sūtījuma konsolidācijas polit
 
 Sūtījuma konsolidācijas politikas tiek izmantotas šādai funkcionalitātei:
 
-- Automatizēts pārvietot uz noliktavu partijas darbs
+- Automatizēts pārvietošanas uz noliktavu partijas darbs
 - **Pārvietot uz noliktavu** komanda pārdošanas pasūtījumā vai pārvietošanas pasūtījumā
 - Atvēlētā **Pārvietot uz noliktavu** lapa
 - Komanda **Pārvietot uz noliktavu** lapā **Kravu plānošanas rīks**
@@ -37,7 +34,7 @@ Sūtījuma konsolidācijas politikas tiek izmantotas šādai funkcionalitātei:
 
 Pirms tika ieviestas sūtījuma konsolidācijas politikas, konsolidācijas funkcija eksistēja kā iestatījums noliktavas līmenī. Visi pasūtījumi visiem debitoriem no vienas noliktavas tika apstrādāti tā, it kā tiem būtu vienādas konsolidācijas prasības. Sūtījuma konsolidācijas politikas pievieno atbalstu scenārijiem, kad dažādām organizācijām ir dažādas sūtījuma konsolidācijas prasības.
 
-Vaicājumi tiek izmantoti, lai identificētu sūtījuma konsolidācijas politiku, kas tiek piemērota, un tad rediģējamu lauku kopa nosaka, kā noslodzes rindas tiek grupētas sūtīšanas līmenī. (Šis modelis atgādina modeli, kam kopums veidnes seko.) Turklāt katrai politikai ir pievienota opcija **Konsolidēt ar esošo sūtījumu**. Kad šī opcija ir ieslēgta, procedūra *Pārvietot uz noliktavu* atrod sūtījumus konsolidācijai, meklējot no esošajiem sūtījumiem, kas tika izveidoti, pamatojoties uz to pašu konsolidācijas politiku. Šādā gadījumā sistēma atlasīs esošo sūtījumu vai noslodzi, nevis veidos jaunu. Tomēr sistēma konsolidēs tikai ar esošiem sūtījumiem, kuru statuss ir *Atvērts*; sūtījumi, kas pieder pie kopuma izdošanas ar statusu *Pārvietots* vai lielāks, netiks uzskatīti par konsolidācijas mērķiem.
+Vaicājumi tiek izmantoti, lai identificētu sūtījuma konsolidācijas politiku, kas tiek piemērota, un tad rediģējamu lauku kopa nosaka, kā noslodzes rindas tiek grupētas sūtīšanas līmenī. (Šis modelis atgādina modeli, kam seko kopuma veidnes.) Turklāt katrai politikai ir pievienota opcija **Konsolidēt ar esošo sūtījumu**. Kad šī opcija ir ieslēgta, procedūra *Pārvietot uz noliktavu* atrod sūtījumus konsolidācijai, meklējot no esošajiem sūtījumiem, kas tika izveidoti, pamatojoties uz to pašu konsolidācijas politiku. Šādā gadījumā sistēma atlasīs esošo sūtījumu vai noslodzi, nevis veidos jaunu. Tomēr sistēma konsolidēs tikai ar esošiem sūtījumiem, kuru statuss ir *Atvērts*; sūtījumi, kas pieder pie kopuma izdošanas ar statusu *Pārvietots* vai lielāks, netiks uzskatīti par konsolidācijas mērķiem.
 
 Kad ir pieejamas sūtījumu konsolidācijas politikas, **Konsolidēt sūtījumu pēc pārvietošanas uz noliktavu** iestatījums, kas iepriekš bija pieejams iestatījumu lapā **Noliktavas**, ir paslēpts. Lai palīdzētu jums pāriet uz jauno sūtījumu konsolidācijas funkciju, lapa **Sūtījuma konsolidācijas politikas** izveido noklusējuma politiku, kas automātiski ietver veco esošo noliktavu iestatījumu. Pēc tam, kad ir izveidota noklusētā politika, **Konsolidēt sūtījumu pēc pārvietošanas uz noliktavu** iestatījums iestatījumu lapā **Noliktavas** vairs netiks izskatīts.
 
@@ -135,3 +132,6 @@ Konsolidācijas lauku saraksts (t.i., lauki, kas tiks notīrīti, ja tiem ir at�
 ## <a name="additional-resources"></a>Papildu resursi
 
 - [Sūtījumu konsolidācijas politiku konfigurēšana](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

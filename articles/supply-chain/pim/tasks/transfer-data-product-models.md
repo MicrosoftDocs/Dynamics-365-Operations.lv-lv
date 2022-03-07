@@ -2,11 +2,9 @@
 title: Datu pārsūtīšana par preču modeļiem
 description: Lai eksportētu datus par preces konfigurācijas modeli, ir jābūt pieejamam vismaz vienam preču modelim.
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCImport
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a1f992ff912f32e2ff75b99c200934d4a28e2ef6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 799e7bce1ce7fd2d912b2ff5f97da61123f7293a
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966809"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920635"
 ---
 # <a name="transfer-data-for-product-models"></a>Datu pārsūtīšana par preču modeļiem
 
@@ -28,11 +26,12 @@ ms.locfileid: "4966809"
 
 Lai eksportētu datus par preces konfigurācijas modeli, ir jābūt pieejamam vismaz vienam preču modelim. Šajā procedūrā tiek izmantots augstas kvalitātes skaļruņu modelis demonstrācijas uzņēmumā USMF, lai parādītu, kā eksportēt datus šim modelim.
 
-1. Noklikšķiniet uz Preces varianta modeļa definīcija.
-2. Noklikšķiniet uz Preču konfigurācijas modeļi.
-3. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
+1. Dodieties uz **Preču informācijas pārvaldība \> Preces \> Preču konfigurācijas modeļi**.
+1. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
     * Atlasiet augstas kvalitātes skaļruņa modeli šai procedūrai.  
-4. Darbību rūtī noklikšķiniet uz Modelis.
-5. Noklikšķiniet uz Eksportēt preču modeli.
+1. Darbību rūtī atlasiet **Modelis**.
+1. Atlasiet **Eksportēt preču modeli**.
     * Lejupielādes process dažādās pārlūkprogrammās ir atšķirīgs atkarībā no tā, kā ir iestatīti drošības iestatījumi.  
 
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

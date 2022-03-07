@@ -2,9 +2,11 @@
 title: Klastera pozīcija pilna
 description: Šajā tēmā ir sniegta informācija par līdzekli Pilna klastera pozīcija. Šis līdzeklis piedāvā alternatīvu stingrākai darba pārtraukuma noteikumu izpildei, ja tiek izmantota klasteru izdošana, jo tas pieļauj lielāku kļūdu robežu konteineru vai tvertņu tilpuma ierobežojumos.
 author: Mirzaab
+manager: tfehr
 ms.date: 08/25/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSClusterProfile
 audience: Application User
@@ -12,13 +14,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 459c8fce892d9437c7466458b7e53743c71da38f
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: MT
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: b6a7cad070377de58d21a8eb91ee3e1ffaf1c660
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102842"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233011"
 ---
 # <a name="cluster-position-full"></a>Klastera pozīcija pilna
 
@@ -28,11 +30,14 @@ Līdzeklis *Pilna klastera pozīcija* piedāvā alternatīvu stingrākai darba p
 
 Šis līdzeklis ievieš iespēju darbināt pogu **Pilns** uz vienas no klastera darba vienībām. Vecākās versijās šī opcija bija pieejama tikai regulārai pasūtījumu izdošanai, nevis klastera izdošanai. Tomēr šis līdzeklis atšķiras no standarta pogas **Pilns** , jo tas atceļ atlikušo darbu. Tas neliecina, ka lietotājs tam pašam klasterim pievieno vēl vienu nodalījumu, un tas automātiski nerada jaunu darbu.
 
-## <a name="turn-the-cluster-position-full-feature-on-or-off"></a>Ieslēgt vai izslēgt klastera pozīcijas pilnu funkciju
+## <a name="turn-on-the-cluster-position-full-feature"></a>Ieslēgt līdzekli Pilna klastera pozīcija
 
-Lai izmantotu šajā tēmā aprakstīto funkcionalitāti, *sistēmai jābūt* ieslēgtai pilnai klastera pozīcijai. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja jūs palaižat versiju, kas vecāka par 10.0.25, tad administratori šo funkcionalitāti var ieslēgt vai izslēgt, *·*[meklējot klastera pozīcijas pilnu funkciju līdzekļu pārvaldības darbvietā.](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
+Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
 
-## <a name="setup"></a>Iestatīšana
+- **Modulis:** *Noliktavas pārvaldība*
+- **Līdzekļa nosaukums:** *Pilna klastera pozīcija*
+
+## <a name="setup"></a>Iestatīt
 
 Šajā sadaļā ir sniegti norādījumi, un piemērs, kas parāda, kā iestatīt un izmantot līdzekli *Pilna klastera pozīcija* .
 
@@ -208,7 +213,7 @@ Ir jāizveido divi darba ID, katram no kuriem ir divas izdošanas rindas. Sekoji
 
 ### <a name="mobile-device-flow-execution--work-confirmation-setup-for-the-product"></a>Mobilās ierīces plūsmas izpilde – Darba apstiprinājuma iestatījums precei
 
-1. Pierakstieties Warehouse Management mobile programmā kā lietotājs noliktavā *61*.
+1. Pierakstieties noliktavas programmā kā lietotājs noliktavā *61*.
 1. Dodieties uz **Izejošie \> Izveidot klastera izdošanu**.
 
     Tiek parādīta lapa **UZDEVUMS: Piešķirt darbu klasterim** .

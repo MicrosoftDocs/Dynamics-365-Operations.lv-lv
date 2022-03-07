@@ -1,6 +1,6 @@
 ---
 title: Video atskaņotāja modulis
-description: Šajā tēmā tiek stāstīts par video atskaņotāja moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā aplūkoti video atskaņotāja moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
 ms.date: 09/15/2020
@@ -10,28 +10,24 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3cf7ead9a5340d5db37a87bdf131ba87681d5a82
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 13072c8d6839fef1ab0dd55d626c23a2a1084d4d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414005"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5209183"
 ---
 # <a name="video-player-module"></a>Video atskaņotāja modulis
 
-
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā tiek stāstīts par video atskaņotāja moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
+Šajā tēmā aplūkoti video atskaņotāja moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
 
 Video atskaņotāja modulis tiek izmantots, lai atbalstītu video atskaņošanu. To var pievienot jebkurai lapai, ar nosacījumu, ka video saturs tiek augšupielādēts un pieejams satura pārvaldības sistēmā (CMS). Video atskaņotāja modulis atbalsta .mp4 multivides veidu.
 
@@ -106,3 +102,6 @@ Lai pievienotu video atskaņotāja moduli jaunā lapā un iestatītu nepiecieša
 [Teksta bloka modulis](add-content-rich-block.md)
 
 [Satura bloka modulis](add-hero-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

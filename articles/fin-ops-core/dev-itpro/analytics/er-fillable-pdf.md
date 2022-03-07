@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 81da1b4f9ca5d2884122266312b2f7cb298572eef3a5c6151daba2f9b17326f2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7c1c21015a172d7ebaa3577d5d0e55c254ef871e
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758292"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753292"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>Elektronisko pārskatu konfigurāciju izstrāde, lai aizpildītu PDF veidnes
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā minētās procedūras ir piemēri, kas parāda, kā lietotājs, kura loma ir **Sistēmas administrators** vai **Elektroniskā pārskata izstrādātājs**, lomā var konfigurēt elektronisko pārskatu (ER) formātu, kas ģenerē pārskatus kā PDF failus, izmantojot aizpildāmus PDF dokumentus kā pārskatu veidnes. Šīs darbības var veikt jebkurā uzņēmumā, kas izmanto Dynamics 365 Finance vai Regulatory Configuration Services (RCS).
+Šajā tēmā minētās procedūras ir piemēri, kas parāda, kā lietotājs, kura loma ir **Sistēmas administrators** vai **Elektroniskā pārskata izstrādātājs**, lomā var konfigurēt elektronisko pārskatu (ER) formātu, kas ģenerē pārskatus kā PDF failus, izmantojot aizpildāmus PDF dokumentus kā pārskatu veidnes. Šīs darbības var veikt jebkurā uzņēmumā, kas izmanto Dynamics 365 Finance vai Regulatory Configuration Service (RCS).
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
@@ -115,11 +115,11 @@ Jebkurā PDF skatītājā atveriet lejupielādētās PDF veidnes. Ņemiet vēr
 
 Tālāk redzamajā attēla ir pārskata pirmās lapas PDF veidne.
 
-![1. veidne.](media/rcs-ger-filloutpdf-template1.png)
+![1. veidne](media/rcs-ger-filloutpdf-template1.png)
 
 Tālāk redzamajā attēla ir pārskata pārējo lapu PDF veidne.
 
-![2. veidne.](media/rcs-ger-filloutpdf-template2.png)
+![2. veidne](media/rcs-ger-filloutpdf-template2.png)
 
 1. Lapā **Konfigurācijas** atlasiet **Veidotājs**.
 2. Atlasiet **Pievienot sakni**.
@@ -146,7 +146,7 @@ Tālāk redzamajā attēla ir pārskata pārējo lapu PDF veidne.
 
 12. Atlasiet **Labi**.
 
-    ![Dialoglodziņš Importēt no PDF.](media/rcs-ger-filloutpdf-importtemplate.png)
+    ![Dialoglodziņš Importēt no PDF](media/rcs-ger-filloutpdf-importtemplate.png)
 
 13. Kokā izvērsiet opciju **Izvade**.
 
@@ -176,7 +176,7 @@ Tālāk redzamajā attēla ir pārskata pārējo lapu PDF veidne.
 
     Ņemiet vērā, ka importētais PDF dokuments ir pievienots rediģētajam ER formātam.
 
-    ![PDF pielikuma priekšskatīšana.](media/rcs-ger-filloutpdf-attachedtemplate.png)
+    ![PDF pielikuma priekšskatīšana](media/rcs-ger-filloutpdf-attachedtemplate.png)
 
 19. Turpiniet noformēt šo formātu, importējot otro PDF veidni, pievienojot nepieciešamos saistījumus datu avotiem un tā tālāk.
 20. Atlasiet **Saglabāt**.
@@ -215,7 +215,7 @@ Pēc tam importējiet parauga ER formātu, ko iepriekš lejupielādējāt, lai 
 1. Lapā **Formāta veidotājs** atlasiet cilni **Kartēšana**.
 2. Kokā izvērsiet sadaļu **Lapošana \> Lapas**.
 
-    ![Formulas veidotāja lapa, kurā ir izvērsts modeļa koks.](media/rcs-ger-filloutpdf-reviewformat.png)
+    ![Formulas veidotāja lapa, kurā ir izvērsts modeļa koks](media/rcs-ger-filloutpdf-reviewformat.png)
 
     Ņemiet vērā tālāk norādīto informāciju.
 
@@ -238,7 +238,7 @@ Pēc tam importējiet parauga ER formātu, ko iepriekš lejupielādējāt, lai 
 
     Ņemiet vērā, ka šī formāta elementa atribūts **Nosaukums** ir definēts kā **1. labojums.** Ņemiet arī vērā, ka formāta elementa izteiksme **Nosaukums** ir definēta kā **Paging.FldName("Correction",\@.Number)**.
 
-![Formāta veidotājs, kurā ir atlasīta kartēšana.](media/rcs-ger-filloutpdf-reviewformat2.png)
+![Formāta veidotājs, kurā ir atlasīta kartēšana](media/rcs-ger-filloutpdf-reviewformat2.png)
 
 Ņemiet vērā, ka formāta elements **Lauks** tiek izmantots, lai aizpildītu aizpildāma PDF dokumenta atsevišķu lauku, un šis dokuments ir definēts kā galvenais formāta elements **PDF fails**. Formāta elementa **PDF fails** vai tā ligzdotu elementu saistījums, ja tam ir ligzdoti elementi, norāda vērtību, kas ievadīta atbilstošajos PDF laukos. Dažādus formāta elementa **Lauks** rekvizītus var izmantot, lai norādītu, kurš PDF lauks tiek aizpildīts ar atsevišķu formāta elementu.
 
@@ -275,7 +275,7 @@ Pēc tam ielādējiet parauga ER formātu **Intrastat (importēt no Excel)**. �
 
     Kad opcija **Noklusējums modeļu kartēšanai** ir iestatīta kā **Jā**, importētais ER formāts **Intrastat (importēt no Excel)** tiek piešķirts kā noklusējuma datu avots formāta konfigurācijai **Intrastat pārskats (PDF)**. Kad tiek palaista formāta **Intrastat pārskats (PDF)** konfigurācija, tās Excel darbgrāmatas saturs, ko parsē ER formāts **Intrastat (importēt no Excel)**, simulēs pārskatā iekļaujamās ārējās tirdzniecības transakcijas. Šajā attēlā parādīts Excel darbgrāmatas piemērs.
 
-    ![Excel darbgrāmata ar parauga datiem.](media/rcs-ger-filloutpdf-excelworkbook.png)
+    ![Excel darbgrāmata ar parauga datiem](media/rcs-ger-filloutpdf-excelworkbook.png)
 
 ### <a name="run-the-format-configuration"></a>Formāta konfigurācijas izpilde
 
@@ -289,11 +289,11 @@ Pēc tam ielādējiet parauga ER formātu **Intrastat (importēt no Excel)**. �
 
 Tālāk redzamajā attēlā ir parādīts ģenerēta pārskata pirmās lapas piemērs.
 
-![Ģenerētā pārskata pirmā lapa.](media/rcs-ger-filloutpdf-generatedreport.png)
+![Ģenerētā pārskata pirmā lapa](media/rcs-ger-filloutpdf-generatedreport.png)
 
 Tālāk redzamajā attēlā ir parādīts ģenerēta pārskata citas lapas piemērs.
 
-![Ģenerētā pārskata cita lapa.](media/rcs-ger-filloutpdf-generatedreport2.png)
+![Ģenerētā pārskata cita lapa](media/rcs-ger-filloutpdf-generatedreport2.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 

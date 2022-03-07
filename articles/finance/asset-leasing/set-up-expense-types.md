@@ -2,13 +2,11 @@
 title: Izdevumu veidu iestatīšana
 description: Šajā tēmā ir paskaidrots, kā līdzekļu pārvaldībā iestatīt izdevumu veidus.
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: TaxTable
+ms.search.form: AssetLeaseExpenseTypeTable
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2019-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3ab31b16c6ae07466d7655832701e71092064fe1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 1e5af18921314061ba3256559d7fc7ceacef606a9b3d5cc3a8047c83494074fc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969507"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715146"
 ---
 # <a name="set-up-expense-types"></a>Izdevumu veidu iestatīšana
 
@@ -58,3 +56,6 @@ Pēc tam saistiet kontus ar izdevumu tipiem. Šie konti tiks debetēti, kad tiks
 7. Atbilstošajos laukos atlasiet finanšu nomas galveno kontu un operatīvas nomas galveno kontu.
 
 Kad šīs darbības ir pabeigtas, varat pievienot izdevumus, izmantojot **izpildes izmaksu maksājuma grafika** rindas atlasītās nomas lapā **Līguma informācija**. Varat arī pievienot izdevumus, izveidojot jaunu nomu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

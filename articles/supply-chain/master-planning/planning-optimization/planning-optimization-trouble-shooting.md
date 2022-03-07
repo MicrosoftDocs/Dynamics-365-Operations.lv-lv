@@ -2,9 +2,11 @@
 title: Plānošanas optimizācijas problēmu novēršana
 description: Šajā tēmā ir aprakstīts, kā labot problēmas, kas var rasties, strādājot ar plānošanas optimizāciju.
 author: ChristianRytt
+manager: tfehr
 ms.date: 05/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-5-7
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: bbf21abae60d4adee5a23a8405d14907b91724fa2cbf31c901bb46c589b2ea49
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 39583c244f09f54551d560e8b1dd9f1a5a1590cc
+ms.sourcegitcommit: 72f70c81176e86cda714a4712525f73514c895b7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768099"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "5457333"
 ---
 # <a name="troubleshoot-planning-optimization"></a>Plānošanas optimizācijas problēmu novēršana 
 

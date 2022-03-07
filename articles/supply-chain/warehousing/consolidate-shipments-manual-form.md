@@ -2,23 +2,25 @@
 title: Manuāli konsolidēt sūtījumus, izmantojot sūtījumu konsolidācijas lapu
 description: Šī tēma iepazīstina ar scenāriju, kurā vairāki pasūtījumi tiek nodoti noliktavā un pēc tam vēlāk tiek konsolidēti, izmantojot lapu Konsolidēt sūtījumus.
 author: GarmMSFT
+manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 0da98b24b9e0ab1ae19fd353ec226b2e0ab008fe
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0e580253de0d787b721c2f729ecc96db56b91af0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574213"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983019"
 ---
 # <a name="consolidate-shipments-manually-by-using-the-consolidate-shipments-page"></a>Manuāli konsolidēt sūtījumus, izmantojot sūtījumu konsolidācijas lapu
 
@@ -95,5 +97,3 @@ Sekojiet šiem soļiem, lai izlaistu pārdošanas pasūtījumu, ko izveidojāt �
 
 - [Sūtījumu konsolidācijas politikas](about-shipment-consolidation-policies.md)
 - [Sūtījumu konsolidācijas politiku konfigurēšana](configure-shipment-consolidation-policies.md)
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

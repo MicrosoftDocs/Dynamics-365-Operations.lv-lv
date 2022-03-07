@@ -1,16 +1,13 @@
 ---
 title: Konta pārvaldības lapas un moduļi
-description: Šajā tēmā ietvertas konta pārvaldības lapas un moduļi programmā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā aplūkotas konta pārvaldības lapas un moduļi risinājumā Microsoft Dynamics 365 Commerce.
 author: v-chgri
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,26 +15,24 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b0f963bcf65ae622522fe52fd59996c6ec0ecf17
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 5b26f9f83ad368a7e0fbc0ffe1263a8fec86f99b8a66ee6c4a28d5e061efbc21
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413970"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716254"
 ---
 # <a name="account-management-pages-and-modules"></a>Konta pārvaldības lapas un moduļi
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ietvertas konta pārvaldības lapas un moduļi programmā Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
+Šajā tēmā aplūkotas konta pārvaldības lapas un moduļi risinājumā Microsoft Dynamics 365 Commerce.
 
 Konta pārvaldība attiecas uz lapu grupu, kas tiek izmantota, lai pārvaldītu ar lietotāja konta saistīto informāciju programmā Dynamics 365 Commerce. Konta pārvaldības lapās ir ietverta konta pārvaldības mērķlapa, lietotāja profila lapa, lietotāja adreses lapa, pasūtījuma vēstures lapa, pasūtījuma informācijas lapa, lojalitātes programmas lapa un vēlmju saraksta lapa.
 
 ### <a name="account-management-landing-page"></a>Konta pārvaldības mērķlapa
 
-Konta pārvaldības mērķlapā tiek izmantoti šādi moduļi.
+Konta pārvaldības mērķlapā tiek izmantoti šādi moduļi:
 
 - **Konteiners** — visas konta pārvaldības izvietošanas lapas moduļi jāievieto konteinerā. 
 - **Konta sveiciena elements** — šis modulis tiek izmantots, lai nodrošinātu sveiciena ziņojumu konta pārvaldības lapā. Tas ietver galvenes rekvizītus.
@@ -54,9 +49,9 @@ Pasūtījumu vēstures lapā tiek izmantots pasūtījuma vēstures modulis, lai 
 
 Pasūtījumu informācijas lapa sniedz detalizētu informāciju par katru pasūtījumu, un tai var piekļūt no pasūtījumu vēstures lapas. Tā izmanto pasūtījuma informācijas moduli, kas pieprasa pārdošanas ID vai transakcijas ID, lai izgūtu pasūtījuma informāciju.
 
-### <a name="user-profile-page"></a>Lietotāja profila lapa
+### <a name="my-profile-page"></a>Mana profila lapa
 
-Lietotāja profila lapā tiek rādīta lietotāja konta informācija, piemēram, lietotāja vārds un e-pasta adrese. Tā izmanto lietotāja profila informāciju un lietotāja profila rediģēšanas moduļus. Lai gan e-pasta adresi nevar noņemt, to var rediģēt. Lietotāja profila lapā tiek rādītas arī lietotāja preferences, kas ļauj lietotājam piedalīties vai atteikties no noteiktām funkcijām, piemēram, ieteikumu sarakstu personalizēšanas. 
+Mana profila lapa rāda informāciju par lietotāja konta profilu, izmantojot konta profila moduli. Lapa parāda e-pasta adresi, kas saistīta ar lietotāja kontu, kā arī konta preferences. Iestatot pielāgotos debitora atribūtus, šos atribūtus parādīs arī sadaļa "Papildinformācija". Lietotāji var rediģēt savu vārdu, preferences vai papildu informāciju (ja pieejama).
 
 ### <a name="user-address-page"></a>Lietotāja adreses lapa
 
@@ -89,3 +84,6 @@ Lai pievienotos lojalitātes programmai, mārketinga lapu var izveidot, izmantoj
 [Galvenes modulis](author-header-module.md)
 
 [Kājenes modulis](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,16 +1,13 @@
 ---
 title: Satura bloka modulis
-description: Šajā tēmā tiek stāstīts par satura bloka moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā aplūkoti satura bloka moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,21 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7a8b1c214ba31b7c47cecbe67bef493f5fa450fc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 0b5ec0a75c613cedcee9d156d81380d679224ea476af4f4745a30040f257fed8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413988"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726443"
 ---
 # <a name="content-block-module"></a>Satura bloka modulis
 
-
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā tiek stāstīts par satura bloka moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
+Šajā tēmā aplūkoti satura bloka moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
 
 Satura bloka modulis tiek izmantots, lai reklamētu preces vai veicināšanas pasākumus, izmantojot attēlu un teksta kombināciju. Piemēram, mazumtirgotājs var pievienot satura bloka moduli e-Commerce sākumlapai, lai reklamētu jaunu preci un piesaistītu klientu uzmanību.
 
@@ -52,11 +46,11 @@ Turklāt dizainā var būt dažādi rekvizīti katram izkārtojumam. Dizaina izs
 
 Tālāk esošajā attēlā redzams satura bloka moduļa piemērs ar varonis izkārtojumu.
 
-![Hero moduļa piemērs](./media/Hero.PNG)
+![Hero moduļa piemērs.](./media/Hero.PNG)
 
 Tālāk esošajā attēlā redzams satura bloka moduļa piemērs ar funkcijas izkārtojumu.
 
-![Līdzekļu moduļu piemēri](./media/Feature.PNG)
+![Līdzekļu moduļu piemēri.](./media/Feature.PNG)
 
 ## <a name="content-block-module-properties"></a>Satura bloka moduļa rekvizīti
 
@@ -107,3 +101,6 @@ Lai pievienotu centrālo moduli jaunā lapā un iestatītu nepieciešamos rekviz
 [Teksta bloka modulis](add-content-rich-block.md)
 
 [Video atskaņotāja modulis](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

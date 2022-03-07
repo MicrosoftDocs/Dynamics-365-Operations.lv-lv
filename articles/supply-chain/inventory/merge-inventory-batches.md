@@ -1,7 +1,7 @@
 ---
 title: Sapludināt krājumu partijas
 description: Šajā rakstā ir sniegta informācija par to kā, konsolidēt divu vai vairāku krājumu partijas sapludinātā partijā.
-author: yufeihuang
+author: pjacobse
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 39782
 ms.assetid: 07c5e98b-10fd-4f5c-b471-41d2150f47b0
 ms.search.region: Global
-ms.author: yufeihuang
+ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 83c7fa6bf596510c3b902c12433cc55842ebe0b4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b3594e9f5e26eeecbcb22e67807df9720fdd9ef8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571909"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808188"
 ---
 # <a name="merge-inventory-batches"></a>Sapludināt krājumu partijas
 
@@ -57,12 +57,12 @@ Jā, ir dažas lietas, kas ir jāiestata pirms varēs lietot partiju sapludinā�
 <td>Izlaistās preces</td>
 <td>Tālāk ir norādīti krājuma ieteicamie iestatījumi.
 <ul>
-<li>Lai automātiski ģenerētu sapludināto partiju numurus, partiju numuru grupai ir jāpiešķir izlaistā prece. Partijas numuru var ievadīt manuāli, veidojot sapludinātu partiju vai atlasot esošo partijas numuru. Ja atlasāt esošu partijas numuru, pārliecinieties, vai atlasītā partija nav&#39;ietverta nevienā krājumu transakcijā.</li>
-<li>Ja izlaistajai precei izmantojat&#39;glabāšanas laika vai derīguma termiņa datumus, sapludinātās partijas datumi tiek aprēķināti, pamatojoties uz laukā <strong>Partiju sapludināšanas datuma aprēķins</strong> atlasīto vērtību. Pieejamas šādas opcijas
+<li>Lai automātiski ģenerētu sapludināto partiju numurus, partiju numuru grupai ir jāpiešķir izlaistā prece. Partijas numuru var ievadīt manuāli, veidojot sapludinātu partiju vai atlasot esošo partijas numuru. Ja atlasāt esošu partijas numuru, pārliecinieties, vai atlasītā partija nav ietverta nevienā krājumu transakcijā.</li>
+<li>Ja izlaistajai precei izmantojat glabāšanas laika vai derīguma termiņa datumus, sapludinātās partijas datumi tiek aprēķināti, pamatojoties uz laukā <strong>Partiju sapludināšanas datuma aprēķins</strong> atlasīto vērtību. Pieejamas šādas opcijas
 <ul>
-<li><strong>Tuvākais</strong> — aprēķini tiek veikti pēc partiju sapludināšanai atlasītajai avota partijai norādītā tuvākā datuma.</li>
+<li><strong>Tuvākais</strong> — aprēķini tiek veikti pēc partiju sapludināšanai atlasītajai avota partijai norādītā tuvākā datuma.</li>
 <li><strong>Pēdējais</strong> — aprēķini tiek veikti pēc partiju sapludināšanai atlasītajai avota partijai norādītā pēdējā datuma.</li>
-<li><strong>Manuāli</strong> — aprēķini netiek veikti. Ja visām avota partijām ir vienāds datums, datums tiek piedāvāts. Šo datumu var mainīt. Ja avota partiju datumi&#39;atšķiras, varat manuāli ievadīt datumu.</li>
+<li><strong>Manuāli</strong> — aprēķini netiek veikti. Ja visām avota partijām ir vienāds datums, datums tiek piedāvāts. Šo datumu var mainīt. Ja avota partiju datumi atšķiras, varat manuāli ievadīt datumu.</li>
 </ul></li>
 </ul></td>
 </tr>
@@ -133,7 +133,7 @@ Grāmatošana tiek veikta divējādi atkarībā no tā, vai tiek izmantots žurn
 -   **Pārsūtīt uz žurnālu** — pārsūtīt informāciju par partiju sapludināšanu uz jaunu krājumu žurnālu. Ja ir iestatīta automātisko rezervāciju opcija, avota partiju daudzumi tiek rezervēti. Partiju sapludināšanas datus nevar mainīt. Lai varētu mainīt partijas sapludināšanu, ir jāizdzēš žurnāls. Žurnālu var izmantot kā uzdevumu, ko citam darbiniekam jāizpilda vēlāk. Partijas daudzuma rezervēšana žurnāla rindā ir nodrošināta. Šis sadalījums ļauj kvalitātes plānotājam vai noliktavas pārvaldniekam izveidot uzdevumus saviem darbiniekiem.
 -   **Grāmatot partiju sapludināšanu** — grāmatot partiju sapludināšanas tieši. Šo darbību var veikt, kad ir pabeigta fiziska sapludināšana.
 
-Partiju sapludināšanas krājumu žurnālu var apstiprināt saraksta lapā **Visu partiju sapludināšanas**. Noklikšķiniet uz **Žurnāls** &gt; **Grāmatot**. Kad žurnāla dati ir iegrāmatoti, detalizēto informāciju par sapludināto partiju mainīt nevar. Pēc ieraksta par partiju sapludināšanu pārsūtīšanas uz krājumu žurnālu, informāciju var mainīt tikai, ja žurnāls tiek izdzēsts.
+Partiju sapludināšanas krājumu žurnālu var apstiprināt saraksta lapā **Visu partiju sapludināšanas**. Noklikšķiniet uz **Žurnāls** &gt; **Grāmatot**. Kad žurnāla dati ir iegrāmatoti, detalizēto informāciju par sapludināto partiju mainīt nevar. Pēc ieraksta par partiju sapludināšanu pārsūtīšanas uz krājumu žurnālu, informāciju var mainīt tikai, ja žurnāls tiek izdzēsts.
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Kāpēc pēc krājuma ar pieļaujamo svaru sapludināšanas krājumu žurnālā netiek rādīta informāciju par pieļaujamo svaru?
 Krājumus ar pieļaujamo svaru var sapludināt līdzīgi kā citus krājumus. Tomēr informācija par pieļaujamo svaru krājumu žurnālā nav redzama. Informāciju par pieļaujamo svaru ieteicams pārbaudīt pirms ieraksta par partiju sapludināšanu pārsūtīšanas uz krājumu žurnālu.

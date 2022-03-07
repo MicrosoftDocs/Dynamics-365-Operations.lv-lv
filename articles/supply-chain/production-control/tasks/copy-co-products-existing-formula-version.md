@@ -1,25 +1,27 @@
 ---
 title: Līdzproduktu kopēšana no esošas formulas versijas
 description: Šajā procedūrā ir parādīts, kā izlaistajai precei līdzproduktus no esošas formulas versijas kopēt uz citu formulas versiju.
-author: johanhoffmann
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, BOMConsistOf, PmfFormulaCoBy, BOMRouteCopyDialog
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 527fd94613d53a3f0ae81834d5bdaad30dca2833
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 0a16a6c8651b401dddfa47c0eb29efb0c3a49038
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579236"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4981335"
 ---
 # <a name="copy-co-products-from-an-existing-formula-version"></a>Līdzproduktu kopēšana no esošas formulas versijas
 
@@ -51,6 +53,3 @@ ms.locfileid: "7579236"
 6. Noklikšķiniet uz OK.
 7. Aizvērt lapu.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

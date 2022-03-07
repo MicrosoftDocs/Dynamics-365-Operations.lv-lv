@@ -1,34 +1,31 @@
 ---
 title: Preču identifikatori
 description: Šajā tēmā ir sniegta informācija par dažādajiem preču identifikatoru veidiem un ir paskaidrots, kā varat pievienot preču identifikatorus preču datiem.
-author: cvocph
-manager: tfehr
+author: t-benebo
 ms.date: 03/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductEntityIdentifierCode, EcoResProductListPage, EcoResProductDetailsExtended, EcoResProductVariantsPerCompany
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: kamaybac
+ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: c16818f1dc52c9e21130539213e7e8d1053fef1d
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
-ms.translationtype: HT
+ms.openlocfilehash: 638b5c3b0c83f67f3d99331b6456efd1b8f5225a
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529190"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063345"
 ---
 # <a name="product-identifiers"></a>Preču identifikatori
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 [!include [banner](../includes/banner.md)]
 
@@ -42,9 +39,9 @@ Programmā Dynamics 365 Supply Chain Management preces galvenais identifikators 
 
 Bieži vien preces numurs nav sākotnēji izveidots programmā Dynamics 365 Supply Chain Management. Tā vietā tas ir saistīts ar preci preču dzīves cikla pārvaldības (product lifecycle management — PLM) sistēmā vai preču datu pārvaldības (product data management — PDM) sistēmā. Šādā gadījumā jūs izmantojat datu elementus, lai importētu preces un preču variantus. Pēc tam Supply Chain Management izmanto visu operāciju numurus.
 
-Ieviešot Supply Chain Management, ir īpaši jāapsver preču numerācijas metode. Efektīva numerācijas sistēma uzlabo loģistikas plūsmas un palīdz nepieļaut kļūdas. Labā preces identifikatorā ir ne vairāk kā 15 rakstzīmes. Ideālā gadījumā tajā ir ne vairāk kā 10 rakstzīmes un ne vairāk kā piecas klasifikācijas rakstzīmes. Varat arī izmantot saīsinātos nosaukumus, lai nodrošinātu ātru meklēšanu. Saīsinātais nosaukums ir papildu nosaukums, kas norāda preces klasifikāciju.
+Ieviešot Supply Chain Management, ir īpaši jāapsver preču numerācijas metode. Efektīva numerācijas sistēma uzlabo loģistikas plūsmas un palīdz nepieļaut kļūdas. Labam produkta identifikatoram parasti jābūt 20 vai mazāk rakstzīmēm, bet parasti mēs iesakām izmantot mazāk nekā 10 rakstzīmes, ieskaitot ne vairāk kā 5 klasificēšanas rakstzīmes. Varat arī izmantot saīsinātos nosaukumus, lai nodrošinātu ātru meklēšanu. Meklēšanas nosaukums ir papildu nosaukums, kas atspoguļo produkta iedalījumus.
 
-Izmantojot Common Data Service, preču numurs Supply Chain Management ir arī preces numurs Common Data Service. Preču varianti tiek sinhronizēti ar pakalpojumu Common Data Service kā atšķirīgas preces.
+Izmantojot Microsoft Dataverse, preču numurs Supply Chain Management ir arī Microsoft Dataverse preces numurs. Preču varianti tiek sinhronizēti ar pakalpojumu Dataverse kā atšķirīgas preces.
 
 ## <a name="item-number-and-product-dimensions"></a>Krājuma numurs un preces dimensijas
 
@@ -132,7 +129,7 @@ Diemžēl nepastāv standarta funkcijas, kas sniedz iespēju meklēt preces pēc
 | Izlaistie preces varianti | Krājuma numurs, preces dimensijas, preces numurs | Preces numurs, preces saīsinātais nosaukums, preces nosaukums, preces apraksts, preces dimensijas | Līdzīgi kā elementu **Preces varianti**, arī šo elementu var izmantot, lai izveidotu jaunas preces, kuru variantiem tiek izmantota preču nomenklatūras veidne vai precei specifiski preču numuri. |
 | Ārējs krājuma apraksts debitoriem | Debitora krājuma numurs, debitora krājuma nosaukums, debitora apraksts, debitora konts | Debitora krājuma numurs, debitora krājuma nosaukums, debitora apraksts, debitora konts | Izmantojot elementu **Ārējā krājumu apraksta debitoru grupas**, debitoru grupu (piemēram, pircēju apvienību) var apvienot vienā grupā. |
 | Ārējs krājuma apraksts kreditoriem | Kreditora krājuma numurs, kreditora krājuma nosaukums, kreditora apraksts, kreditora konts | Kreditora krājuma numurs, kreditora krājuma nosaukums, kreditora apraksts, kreditora konts | Izmantojot elementu **Ārējā krājumu apraksta kreditoru grupas**, kreditoru grupu (piemēram, pārdevēju apvienību vai nozares organizāciju) var apvienot vienā grupā. |
-| Krājuma svītrkods | Svītrkods | Svītrkods | Ņemiet vērā, ka importēšanas laikā ir jāskata mērķa sistēmā definētais svītrkoda iestatījums. Importētās svītrkodu atsauces tiek pārbaudītas, salīdzinot tās ar svītrkoda iestatījumu, un tās tiek noraidītas, ja svītrkodi neatbilst svītrkoda iestatījumā definētajām prasībām. |
+| Krājuma svītrkods | Svītrkods | Svītrkods | Importēšanas laikā ir jāskata mērķa sistēmā definētais svītrkoda iestatījums. Importētās svītrkodu atsauces tiek pārbaudītas, salīdzinot tās ar svītrkoda iestatījumu, un tās tiek noraidītas, ja svītrkodi neatbilst svītrkoda iestatījumā definētajām prasībām. |
 | Ārējie kodi izlaistajām precēm | Ārējais kods | Ārējais kods, ārējo kodu klases, krājuma numurs | Ārējie kodi atbilst noteiktai juridiskajai personai. Importēšanai ir jāizmanto definēta kodu klase. Importējiet kodu klases, izmantojot elementu **Ārējo kodu klases izlaistajām precēm**. |
 | Ārējie kodi izlaisto preču variantiem | Ārējais kods | Ārējais kods, ārējo kodu klases, krājuma numurs, preces dimensijas | Ārējie kodi atbilst noteiktai juridiskajai personai. Importēšanai ir jāizmanto definēta kodu klase. Importējiet kodu klases, izmantojot elementu **Ārējo kodu klases izlaistajām precēm**. Lietojot šo elementu, preces varianti tiek norādīti, izmantojot krājuma numuru un preces dimensijas. |
 | Izlaisto preces variantu ārējie kodi pēc preces numura identifikatora | Ārējais kods | Ārējais kods, ārējo kodu klases, preces numurs | Ārējie kodi atbilst noteiktai juridiskajai personai. Importēšanai ir jāizmanto definēta kodu klase. Importējiet kodu klases, izmantojot elementu **Ārējo kodu klases izlaistajām precēm**. Lietojot šo elementu, preces varianti tiek norādīti, izmantojot varianta preces numuru. (Sākot ar nākamo nozīmīgo laidienu.) |
@@ -161,13 +158,13 @@ Tālāk esošajā tabulā ir sniegts pārskats par importēšanas un manuālas i
 | Numuru sērija Preces numurs | Numuru sērija Krājuma numurs | Krājuma numura kartēšana | Preces numura kartēšana | Elementa importēšanas rezultāts | Manuālas izveides rezultāts | Nobeigums |
 |--------------------------------|-----------------------------|----------------------------|-------------------------------|-------------------------|----------------------------|-----------|
 | Manuāli = Nē | Manuāli = Nē | Nav kartēšanas gadījumu | Nav kartēšanas gadījumu | Preču numuriem tiek izmantota numuru sērija **Preces numurs**. Krājumu numuriem tiek izmantota numuru sērija **Krājuma numurs**. | Preču numuriem tiek izmantota numuru sērija **Preces numurs**. Krājumu numuriem tiek izmantota numuru sērija **Krājuma numurs**. | Izmantojot šo konfigurāciju, preču numuri sekos preces numuru sērijai un krājumu numuri sekos krājuma numuru sērijai. Tomēr šī konfigurācija nedarbojas, ja ir vairāk nekā viens importējams krājums (rinda). |
-| Manuāli = Nē | Manuāli = Jā | Automātiski ģenerēt | Nav kartēšanas gadījumu | Gan preču numuriem, gan krājumu numuriem tiek izmantota numuru sērija **Krājuma numurs**. | Gan preču numuriem, gan krājumu numuriem tiek izmantota numuru sērija **Preces numurs**. | Gan preču numuri, gan krājumu numuri sekos preču numuru sērijai. Šī ir ieteicamā metode, kā importēt lielapjoma preces ar izlaisto preču izveides v2 datu elementu. |
-| Manuāli = Nē | Manuāli = Jā | Nav kartēšanas gadījumu | Nav kartēšanas gadījumu | Gan preču numuriem, gan krājumu numuriem tiek izmantota numuru sērija **Preces numurs**. | Gan preču numuriem, gan krājumu numuriem tiek izmantota numuru sērija **Preces numurs**. | Gan preču numuri, gan krājumu numuri izmantos preču numuru sēriju. Tomēr šī konfigurācija nedarbojas, ja ir vairāk nekā viens importējams krājums (rinda). |
+| Manuāli = Nē | Manuāli = Jā | Automātiski ģenerēt | Nav kartēšanas gadījumu | Gan preču numuriem, gan krājumu numuriem tiek izmantota numuru sērija **Krājuma numurs**. | Gan preču numuriem, gan krājumu numuriem tiek izmantota numuru sērija **Preces numurs**. | Gan preču numuri, gan krājumu numuri sekos preču numuru sērijai. Šī ir ieteicamā metode, kā importēt lielapjoma preces ar izlaisto preču izveides v2 datu elementu.<br><br>Šo pieeju iespējams izmantot tikai lielapjoma importa laikā (vairākās rindās) un tad, kad neizveidojat krājumus caur lietotāja interfeisu. Ja jums ir jāveic gan lielapjoma importēšana, gan preču izveide caur lietotāja interfeisu, izmantojiet procedūru nākamā šīs tabulas rindā. Lai pārietu no lielapjoma importa pieejas izmantošanas uz lietotāja interfeisa izmantošanu, lai manuāli importētu un izveidotu preces, manuāli jāpielāgo **Nākamais numurs** krājumu numuru sērijā, lai tas atbilstu **Nākamajam numuram** preču numuru sērijā. Pēc tam varat pārslēgties uz pieeju nākamajā šīs tabulas rindā. |
+| Manuāli = Nē | Manuāli = Jā | Nav kartēšanas gadījumu | Nav kartēšanas gadījumu | Gan preču numuriem, gan krājumu numuriem tiek izmantota numuru sērija **Preces numurs**. | Gan preču numuriem, gan krājumu numuriem tiek izmantota numuru sērija **Preces numurs**. | Gan preču numuri, gan krājumu numuri izmantos preču numuru sēriju. Tomēr šī konfigurācija nedarbojas, ja ir vairāk nekā viens importējams krājums (rinda).<br><br>Šī pieeja ir jāizmanto, ja nepieciešams gan importēt produktus, izmantojot elementus (vienlaikus var importēt tikai vienu rindu), gan izveidot preces, izmantojot lietotāja interfeisu. |
 | Manuāli = Jā | Nav attiecināms | Nav attiecināms | Automātiski ģenerēt | Tiek parādīts šāds kļūdas ziņojums: “Nevar noteikt numuru sēriju”. | Atbilstoši numuru sērijai **Krājuma numurs** | Importēšanai netiek atbalstīts šis iestatījums. |
 
 ## <a name="product-entity-identifier-export-all-product-identifiers"></a>Preces elementa identifikators (visu preces identifikatoru eksportēšana)
 
-Preču elementu identifikatoru modelis tika izveidots, lai CDS versijā 1.0 varētu nodrošināt visus identifikatorus, kas tiek izmantoti preces norādīšanai. Lai vienkāršotu šo uzdevumu, visi identifikatori tiek apvienoti vienā globālā identifikatoru tabulā, ko var eksportēt kā vienu modeli. Ņemiet vērā, ka šajā CDS versijā netiek izmantots preces identifikatoru modelis. Tāpēc elementam **Preces elementa common data service identifikatora elements** un šim procesam ir ierobežots praktiskais pielietojums un tie, visticamāk, tiks mainīti nākamajos izlaidumos.
+Preču elementu identifikatoru modelis tika izveidots, lai Dataverse versijā 1.0 varētu nodrošināt visus identifikatorus, kas tiek izmantoti preces norādīšanai. Lai vienkāršotu šo uzdevumu, visi identifikatori tiek apvienoti vienā globālā identifikatoru tabulā, ko var eksportēt kā vienu modeli. Ņemiet vērā, ka šajā Dataverse versijā netiek izmantots preces identifikatoru modelis. Tāpēc elementam **Preces elementa common data service identifikatora elements** un šim procesam ir ierobežots praktiskais pielietojums un tie, visticamāk, tiks mainīti nākamajos izlaidumos.
 
 Preces identifikatoru tabula ir globāla tabula, kas tiek aizpildīta ar datiem no visām galvenās juridiskās personas atsauces tabulām, izmantojot periodisku pakešuzdevumu. Jums ir jāatlasa juridiskā persona un preču kategoriju hierarhija, lai definētu globālo preces šablona tvērumu. Globālo preces identifikatoru tabulu var ģenerēt tikai tādām precēm, kas ir izlaistas atlasītajai juridiskajai personai un ir ietvertas preču hierarhijā, kura preču kategoriju hierarhijā ir atlasīta lomai **Common data service**.
 
@@ -175,11 +172,11 @@ Preces identifikatoru tabula ir globāla tabula, kas tiek aizpildīta ar datiem 
 
 Veiciet tālāk norādītās darbības, lai konfigurētu vidi.
 
-1. Atlasiet CDS kategoriju hierarhiju. Ja lapā **Kategoriju hierarhijas lomas saistības** ar lomu **Common data service** nav saistīta neviena hierarhija, ir jāizveido jauna saistība. Atlasiet lomu **Common data service** un pēc tam saistiet to kategoriju hierarhiju, kas atbilst ar CDS sinhronizējamajam preču portfelim.
+1. Atlasiet Dataverse kategoriju hierarhiju. Ja lapā **Kategoriju hierarhijas lomas saistības** ar lomu **Common data service** nav saistīta neviena hierarhija, ir jāizveido jauna saistība. Atlasiet lomu **Common data service** un pēc tam saistiet to kategoriju hierarhiju, kas atbilst Dataverse sinhronizējamajam preču portfelim.
 2. Atlasiet globālo preču pamatdatu juridisko personu. Lapas **Preču informācijas pārvaldības parametri** cilnē **Preces īpašības** atlasiet galveno uzņēmumu, kas galvenokārt tiek izmantots preču un krājumu identifikatoru uzturēšanai.
 3. Definējiet eksportējamos identifikatoru kodu veidus un kodus. Pārejiet uz sadaļu **Preču informācijas pārvaldība** &gt; **Iestatījumi** &gt; **Preču identifikatoru kodi**. Lai ģenerētu identifikatoru kodu veidus, atlasiet **Ģenerēt kodus**. Tiek ģenerēts koda tipa ieraksts atbilstoši katram identifikatora veidam, kas ir atrasts atlasītās juridiskās personas datos.
 
-    Ņemiet vērā, ka svītrkodu gadījumā katram svītrkoda iestatījumam tiek ģenerēts atsevišķs koda veids. Ārējo kodu gadījumā katrai ārējo kodu klasei tiek ģenerēts atsevišķs koda veids.
+    Katram svītrkoda iestatījumam tiek ģenerēts atsevišķs koda veids. Ārējo kodu gadījumā katrai ārējo kodu klasei tiek ģenerēts atsevišķs koda veids.
 
     Tagad varat uzturēt kodu veidu sarakstu. Varat mainīt kodu, nosaukumu un aprakstu. Varat arī dzēst kodu veidus. Dzēstie kodu veidi netiek izmantoti globālo preču elementu identifikatoru tabulu aizpildīšanai.
 
@@ -190,3 +187,6 @@ Tagad varat izmantot datu elementus **Preces elementa common data service identi
 ## <a name="related-topic"></a>Saistītā tēma
 
 [Preces un preces variantu meklēšana pasūtījuma izveides laikā](search-products-product-variants.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

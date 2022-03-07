@@ -2,9 +2,11 @@
 title: Pamatlīdzekļu pārvaldības darbvieta
 description: Šajā tēmā ir sniegta informācija par darbvietu Pamatlīdzekļu pārvaldība. Šajā darbvietā tiek radīta informācija, kas attiecas uz sistēmā ievadītajiem pamatlīdzekļiem. Tā ietver kopsavilkuma skatu un analīzes skatu.
 author: saraschi2
+manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 597a9a32995d44282c89725e053f6da4643dbb691b1b36ae7c237acbfa2afb70
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5822b3413a6fa4b6044a97ec320521b4d7206bad
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721807"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988981"
 ---
 # <a name="fixed-asset-management-workspace"></a>Pamatlīdzekļu pārvaldības darbvieta
 
@@ -71,6 +73,3 @@ Nākamajā tabulā ir redzama katrā pārskata lapā pieejamā vizuālā inform�
 | Novērtējumu kartes        | Pamatlīdzekļu detalizēta informācija |
 
 Lai skatītu analīzi ar datiem, vispirms ir jāatsvaidzina apkopošanas mērījums AssetTransactionMeasure lapā **Elementu krātuve**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

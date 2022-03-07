@@ -1,6 +1,6 @@
 ---
 title: Power BI satura pakotne Personāla atlase
-description: Šajā tēmā ir aprakstīta Power BI satura pakotne Personāla atlase. Tajā ir paskaidrots, kā piekļūt pārskatiem, kā arī sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
+description: Šajā tēmā ir aprakstīta Power BI satura pakotne Personāla atlase.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 524b1c29d204c1b013546008b1be7868cbf8db06
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 237af011229e3d84f54bc601753dc621f8335d2f
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680566"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092745"
 ---
 # <a name="recruiting-power-bi-content"></a>Power BI satura pakotne Personāla atlase
 

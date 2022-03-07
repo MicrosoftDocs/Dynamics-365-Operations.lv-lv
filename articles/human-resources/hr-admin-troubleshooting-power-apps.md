@@ -2,7 +2,7 @@
 title: Nevar izveidot vidi Power Apps administrēšanas centrā
 description: Šajā rakstā paskaidrots, kā rīkoties, ja administrators nevar izveidot vidi Microsoft Power Apps administrēšanas centrā.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -17,23 +17,25 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 68e6dbcbbc9811211570e968047f5faa8a2c8bd0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ec63148364022fe5b8c40d855856eec232af3e48
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419523"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463964"
 ---
 # <a name="cant-create-an-environment-in-the-power-apps-admin-center"></a>Nevar izveidot vidi Power Apps administrēšanas centrā
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **Izejas plūsma**
 
 - Nomnieka/vides administrators nevar izveidot vidi Microsoft Power Apps administrēšanas centrā.
-- Licence, kas dod lietotājiem tiesības veikt vides izveides darbību, nav piešķirts tieši lietotājam, kurš veic attiecīgo darbību.
+- Lietotājam nav licences, kas dod tiesības izveidot vides.
 
 **Risinājums**
 
-Pārliecinieties, ka nomnieka administrators ir piešķīris derīgu Power Apps P2 licenci tieši lietotājam, kurš veiks vides izveides soli. Tālāk ir norādīti Microsoft Dynamics pakalpojumu plāni, kas nodrošina šīs tiesības.
+Pārliecinieties, vai nomnieka administrators ir piešķīris derīgu Power Apps P2 licenci lietotājam, kas veido vidi. Šādi Microsoft Dynamics pakalpojumu plāni sniedz atļaujas vides izveidošanai:
 
 | Vispārēja preču noliktavas vienība (SKU)       | Power Apps P2 pakalpojumu plāns  |
 |------------------------------------------------|----------------------------|
@@ -44,3 +46,6 @@ Pārliecinieties, ka nomnieka administrators ir piešķīris derīgu Power Apps 
 
 1. Dodieties uz [https://preview.admin.powerapps.com/environments](https://preview.admin.powerapps.com/environments).
 2. Izveidojiet vides, izpildot instrukcijas [Human Resources nodrošināšana](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

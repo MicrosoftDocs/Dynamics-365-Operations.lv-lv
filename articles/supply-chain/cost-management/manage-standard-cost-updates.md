@@ -2,11 +2,13 @@
 title: Standarta izmaksu atjauninājumu pārvaldība
 description: Standarta izmaksu datu atjauninājumus var pārvaldīt, izmantojot divas dažādas pieejas — vienas versijas pieeju vai divu versiju pieeju.
 author: AndersGirke
+manager: tfehr
 ms.date: 01/15/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CostingVersion, InventItemPrice, InventParameters
+ms.search.form: CostingVersion, InventItemPrice
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 69992
@@ -15,13 +17,13 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 3485f0722b8b99d7dc2d6dab470fdcc465b1da3d
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
-ms.translationtype: MT
+ms.dyn365.ops.version: Release 10.0.17
+ms.openlocfilehash: 166d12d707deabc59f7613a5016851b30fcc42d8
+ms.sourcegitcommit: 41baf654a2553cfe5c715feb9cc03e48cfc12598
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678669"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024674"
 ---
 # <a name="manage-standard-cost-updates"></a>Standarta izmaksu atjauninājumu pārvaldība
 
@@ -49,6 +51,3 @@ Aktivizējot jaunu standarta cenu, rīcībā esošo krājumu vērtība parasti t
 - **Nav** nozīmē, ka ārvalstu valūtas pārvērtēšanas transakcijās nav grāmatotas nekādas finanšu dimensijas. Ja konta struktūrā ir noteikta obligāta finanšu dimensija, pārvērtēšanas process tiek veikts, bet tiek izveidoti uzskaites ieraksti bez finanšu dimensijām. Šajā gadījumā lietotāji vispirms saņems brīdinājuma ziņojumu, tādējādi, ja nepieciešams, viņi var atcelt pārvērtēšanu.
 - **Tabula** - Krājuma finanšu dimensijas pēc tam tiek grāmatotas pārvērtēšanas darbībās. Šis ir noklusētais iestatījums un atbilst sākotnējai sistēmas funkcionalitātei, ieslēdzot funkciju *Krājumu standarta izmaksu pārvērtēšanas noklusēto finanšu dimensiju*.
 - **Grāmatošana** — ārvalstu valūtas pārvērtēšanas transakcijās tiek iegrāmatotas pārvērtētās transakcijas finanšu dimensijas. Pēc noklusējuma finanšu dimensijas no oriģinālās darbības krājumu konta tiks izmantotas gan krājumu kontam, gan pārvērtēšanas kontam.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,35 +2,34 @@
 title: Jaunumi un izmaiņas programmā Dynamics 365 Human Resources 2020. gada 26. septembrī
 description: Šajā tēmā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Human Resources uz 2020. gada 26. septembri.
 author: jcart1106
-manager: tfehr
 ms.date: 09/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ac72489c3b2dacfde280606a83221e8514793701
-ms.sourcegitcommit: 2190be6c205d7d9e43bdb99b9190cc0112f9f093
-ms.translationtype: HT
+ms.openlocfilehash: 8b0260c4d1bafe271a08336ceed7dc3742f1d590
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5152201"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061388"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources 2020. gada 26. septembrī
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 Šajā sadaļā ir aprakstīti līdzekļi, kas ir jauni, mainīti vai drīzumā gaidāmi programmā Dynamics 365 Human Resources. Papildinformāciju par mūsu atjaunināšanas procesu un grafiku skatiet sadaļā [Atjaunināšanas process](hr-admin-setup-update-process.md).
 
-Papildinformāciju par jaunajiem līdzekļiem un to paredzētajiem vispārējās pieejamības datumiem skatiet sadaļā [Dynamics 365 Human Resources 2020 laidiena 2. kopuma pārskats](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
+Papildinformāciju par jaunajiem līdzekļiem un to paredzētajiem vispārējās pieejamības datumiem skatiet sadaļā [Pakalpojuma Dynamics 365 Human Resources 2020 laidiena 2. kopuma pārskats](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
 ## <a name="in-this-release"></a>Šajā laidienā
 
@@ -40,7 +39,7 @@ Papildinformāciju par jaunajiem līdzekļiem un to paredzētajiem vispārējās
 
 Zemāk minētais līdzeklis parasti ir pieejams ar šo laidienu:
 
-- **Platformas atjauninājums 10.0.13 tagad ir pieejams**: plašāku informāciju par atjauninājumu skatiet sadaļā [Platformas atjauninājumi programmas Finance and Operations versijai 10.0.13 (2020. gada oktobris)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13).
+- **Tagad ir pieejams** platformas atjauninājums 10.0.13: Papildinformāciju par atjauninājumu skatiet sadaļā [Finanšu un operāciju programmu versijas 10.0.13 platformas atjauninājumi (2020. gada oktobris)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13.md).
 
 ### <a name="bug-fixes"></a>Kļūdu labojumi
 
@@ -67,20 +66,23 @@ Tālāk norādītie jaunie līdzekļi ir priekšskatījumā. Papildinformāciju 
 
 | Funkcija | Nodošanas izpildei plāns | Dokumentācija |
 | --- | --- | --- |
-| Programma Human Resources programmā Microsoft Teams | [Darbinieka atvaļinājuma un prombūtnes pieredze programmā Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Programma Human Resources programmā Teams](https://go.microsoft.com/fwlink/?linkid=2127841)<br>[Atvaļinājumu pieprasījumu pārvaldība programmā Teams](hr-teams-leave-app.md) |
-| Uzlaboti darbplūsmas pieprasījumi un apstiprinājumi | [Organizācijas un personāla vadības darbplūsmas pieredzes uzlabojumi](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Konfigurācijas opcija, lai novietotu sarakstu Man piešķirtie darba elementi](https://docs.microsoft.com/dynamics365/human-resources/hr-whats-new-2020-09-03#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
+| Programma Human Resources programmā Microsoft Teams | [Darbinieka atvaļinājuma un prombūtnes pieredze programmā Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Programma Human Resources programmā Teams](./hr-admin-teams-leave-app.md)<br>[Atvaļinājumu pieprasījumu pārvaldība programmā Teams](hr-teams-leave-app.md) |
+| Uzlaboti darbplūsmas pieprasījumi un apstiprinājumi | [Organizācijas un personāla vadības darbplūsmas pieredzes uzlabojumi](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Konfigurācijas opcija, lai novietotu sarakstu Man piešķirtie darba elementi](./hr-whats-new-2020-09-03.md#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
 
 ## <a name="coming-soon"></a>Drīzumā
 
 Nākamajam laidienam ir plānots šāda jauns līdzeklis:
 
-- [Vadītāja pašapkalpošanās pielāgotās saites](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service)
+- [Vadītāja pašapkalpošanās pielāgotās saites](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service)
 
-Pilnīgu sarakstu ar plānotajiem līdzekļiem un to ieplānotajiem laidieniem skatiet sadaļā [Dynamics 365 Human Resources 2019 laidiena 2. kopuma pārskats](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/).
+Pilnīgu sarakstu ar plānotajiem līdzekļiem un to ieplānotajiem laidieniem skatiet sadaļā [Pakalpojuma Dynamics 365 Human Resources 2019 laidiena 2. kopuma pārskats](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/).
 
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Jaunumi vai izmaiņas Human Resources](hr-admin-whats-new.md)
-[Dynamics 365 Human Resources 2020. gada laidiena 2. kopuma pārskats](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)
+[Pakalpojuma Dynamics 365 Human Resources 2020. gada laidiena 2. kopuma pārskats](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)
 [Atjaunināšanas process](hr-admin-setup-update-process.md)
 [Pārvaldības līdzekļi](hr-admin-manage-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

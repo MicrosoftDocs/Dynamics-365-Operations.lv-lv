@@ -1,34 +1,29 @@
 ---
 title: Uzturēšanas pieprasījumi
 description: Šajā tēmā sniegts pārskats par uzturēšanas pieprasījumu pārvaldību Līdzekļu pārvaldībā
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/01/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRequestTable, EntAssetRequestWorkspace, EntAssetRequestActivePart, EntAssetRequestWorkOrderActive, EntAssetRequestType, EntAssetRequestTableCreateWO, EntAssetRequestTableLookup, EntAssetRequestTableActivePart, EntAssetMobileRequestDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1e0071ae745987a1217525b2841e3320933a9242
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 6d247457b83036dba2fad8fd9f94e04c29a3aa5e
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019633"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985257"
 ---
 # <a name="maintenance-requests"></a>Uzturēšanas pieprasījumi
 
 [!include [banner](../../includes/banner.md)]
-
- 
 
 Uzturēšanas pieprasījumi ir piezīmes vai deklarācijas, kas izveidotas, lai paziņotu vadītājam vai plānotājam, ka līdzeklim var būt nepieciešams uzturēšanas vai labošanas darbs, taču neveidojot darba pasūtījumu. Ja uzturēšanas pieprasījuma saturs tiek uzskatīts par derīgu, pēc tam var izveidot darba pasūtījumu, pamatojoties uz uzturēšanas pieprasījumu.
 
@@ -44,7 +39,7 @@ Uzturēšanas pieprasījumus var izveidot jebkuram līdzeklim Līdzekļu pārval
 
 Lai skatītu uzturēšanas pieprasījumus, atlasiet **Līdzekļu pārvaldība** \> **Kopīgi** \> **Uzturēšanas pieprasījumi** \> **Visi uzturēšanas pieprasījumi**, **Aktīvie ctive uzturēšanas pieprasījumi** vai **Mani funkcionālā novietojuma uzturēšanas pieprasījumi**. Katrā saraksta lapā ir redzama daļa no informācijas, kas saistīta ar uzturēšanas pieprasījumu.
 
-![Skatīt uzturēšanas pieprasījumus](media/01-manage-maintenance-requests.png)
+![Skatīt uzturēšanas pieprasījumus.](media/01-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Izmantojiet saraksta lapu **Mani funkcionālā novietojuma uzturēšanas pieprasījumi**, lai skatītu uzturēšanas pieprasījumu sarakstu, kas ietver vai nu funkcionālos novietojumus, ar kuriem esat saistīts kā darbinieks vai līdzekļus, kas ir uzstādīti funkcionālajos novietojumos, ar kuriem esat saistīts kā darbinieks. (Informāciju par to, kā iestatīt funkcionālos novietojumus uzturēšanas darbiniekiem, skatiet sadaļā [Uzturēšanas darbinieki un darbinieku grupas](../setup-for-objects/workers-and-worker-groups.md).)
@@ -72,3 +67,6 @@ Pogas darbības rūtī ir sakārtotas cilnēs. Nākamajā tabulā ir īsi apraks
 | Patapinājuma līdzekļa nosūtīšana                  | Atlasiet patapinājuma līdzekli, kam vajadzētu būt pagaidu aizstājējam līdzeklim, kurš atlasīts atlasītajā uzturēšanas pieprasījumā. |
 | Patapinājuma līdzekļa atgriešana                | Reģistrējiet patapinājuma līdzekli kā atgrieztu. |
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

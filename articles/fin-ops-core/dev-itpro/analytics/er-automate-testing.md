@@ -2,11 +2,9 @@
 title: Testēšanas ar elektroniskajiem pārskatiem automatizēšana
 description: Šajā tēmā ir paskaidrots, kā varat lietot elektronisko pārskatu (Electronic reporting — ER) struktūras bāzlīnijas līdzekli, lai automatizētu dažu funkciju testēšanu programmā .
 author: NickSelin
-manager: AnnBe
 ms.date: 07/02/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERFormatBaselineTable, ERFormatMappingRunLogTable, ERParameters
 audience: Application User, Developer, IT Pro
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 0a2586afd56eef0f953454ad246ff3647a5b09d1
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0d029773d9aa59b27f80d2f670984a352e163122
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681452"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5743875"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Testēšanas ar elektroniskiem pārskatiem automatizēšana
 
@@ -85,7 +83,7 @@ Lai varētu izpildīt šajā tēmā aprakstītos uzdevumus, ir jāizpilda tālā
 3. Atlasiet **GBSI** demonstrācijas datu uzņēmumu, kam ir Apvienotās Karalistes valsts/reģiona konteksts.
 4. Konfigurējiet kreditoru parametrus.
 
-    1. Dodieties uz **Kreditori \> Maksājuma iestatījumi \> Maksāšanas metodes**.
+    1. Dodieties uz **Kreditori \> Maksājuma iestatījumi \> Maksāšanas metodes**.
     2. Atlasiet maksāšanas metodi **Elektroniski**.
     3. Konfigurējiet atlasīto maksāšanas metodi tā, lai tā izmantotu ER formātu **BACS (UK)**, ko lejupielādējāt iepriekš kreditora maksājuma apstrādei.
 
@@ -99,7 +97,7 @@ Lai varētu izpildīt šajā tēmā aprakstītos uzdevumus, ir jāizpilda tālā
 
 5. Izveidojiet kreditoru maksājuma piemēru.
 
-    1. Dodieties uz **Kreditori \> Maksājumi \> Maksājumu žurnāls**.
+    1. Dodieties uz **Kreditori \> Maksājumi \> Maksājumu žurnāls**.
     2. Pārliecinieties, vai maksājumu žurnāls nav grāmatots.
 
         ![Maksājumu žurnāla lapa](media/GER-APJournal.png "Maksājuma žurnāla lapas ekrānuzņēmums")
@@ -121,14 +119,14 @@ Lai varētu izpildīt šajā tēmā aprakstītos uzdevumus, ir jāizpilda tālā
 
 ### <a name="configure-er-parameters"></a>Konfigurējiet ER parametrus
 
-1. Dodieties uz **Organizācijas administrēšana \> Elektroniskie pārskati \> Elektronisko pārskatu parametri**.
+1. Dodieties uz **Organizācijas administrēšana \> Elektroniskie pārskati \> Elektronisko pārskatu parametri**.
 2. Cilnes **Pielikumi** laukā **Bāzlīnija** atlasiet vienumu **Fails** kā dokumenta veidu, ko dokumentu pārvaldības (DM) struktūra izmanto, lai saglabātu dokumentus, kas ir saistīti ar bāzlīnijas līdzekli kā DM pielikumi.
 
     ![Elektronisko pārskatu veidošanas parametru lapa](media/GER-ERParameters.png "Elektronisko pārskatu parametru lapas ekrānuzņēmums")
 
 ### <a name="generate-baseline-copies-of-vendor-paymentrelated-documents"></a>Ar kreditoru maksājumiem saistīto dokumentu bāzlīniju kopiju ģenerēšana
 
-1. Dodieties uz **Kreditori \> Maksājumi \> Maksājumu žurnāls**.
+1. Dodieties uz **Kreditori \> Maksājumi \> Maksājumu žurnāls**.
 2. Atlasiet **Rindas**.
 3. Atlasiet **Ģenerēt maksājumus**.
 4. Atlasiet maksāšanas metodi **Elektroniski**.
@@ -263,7 +261,7 @@ Mēs iesakām atskaņot (un rediģēt pēc nepieciešamības) iepriekš lejupiel
 
     ![Pieteikumi lapā Elektronisko pārskatu palaišanas žurnāli](media/GER-ERDebugLog.png "Ekrānuzņēmums pieteikumiem lapā Elektronisko pārskatu palaišanas žurnāli")
 
-4. Pašreizējās izvades datu un bāzlīnijas salīdzinājums tiek reģistrēts, izmantojot uzdevuma reģistrētāja opciju **Validēt** un atlasot **Pašreizējā vērtība**.
+4. Pašreizējās izvades datu un bāzlīnijas salīdzinājums tiek reģistrēts, izmantojot uzdevuma reģistrētāja opciju **Validēt** un atlasot  **Pašreizējā vērtība**.
 
     ![Izmantojot validēšanas opciju salīdzinājumam ar pašreizējo vērtību](media/GER-TRRecordValidation.png "Ekrānuzņēmums validācijas opcijas lietošanai salīdzinājumam ar pašreizējo vērtību")
 
@@ -334,7 +332,7 @@ Testa izpildes rezultāti tiek saglabāti rīkā RSAT. Ievērojiet, ka abi test
 
 ![Testi, kas izgāja RSAT](media/GER-RSAT-RSAT-Tests-Passed.png "RSAT izgājušo testu ekrānuzņēmums")
 
-Ievērojiet, ka testa izpildes rezultāti tiek nosūtīti arī pakalpojumā Azure DevOps, lai jūs varētu veikt padziļinātu analīzi.
+Ievērojiet, ka testa izpildes rezultāti tiek nosūtīti arī pakalpojumā Azure DevOps, lai jūs varētu veikt padziļinātu analīzi.
 
 ![Testa izpildes rezultāti Azure DevOps](media/GER-RSAT-DevOps-Tests-Added.png "Testa izpildes rezultātu ekrānuzņēmums Azure DevOps")
 
@@ -344,7 +342,7 @@ Ievērojiet, ka testa izpildes rezultāti tiek nosūtīti arī pakalpojumā Azu
 
 1. Atveriet programmu un dodieties uz **Kreditori \> Maksājumi \> Maksājumu žurnāls**.
 2. Atlasiet **Rindas**.
-3. Atlasiet maksājuma rindu un pēc tam atlasiet **Maksājuma statuss \> Nav**.
+3. Atlasiet maksājuma rindu un pēc tam atlasiet **Maksājuma statuss \> Nav**.
 4. Laukā **Debets** mainiet vērtību no **1000,00** uz **2000,00**.
 5. Atlasiet **Saglabāt**, lai saglabātu izmaiņas.
 
@@ -361,7 +359,7 @@ Testa izpildes rezultāti tiek saglabāti rīkā RSAT. Ievērojiet, ka otrais t
 
 ![Neizdevušies testa rezultāti RSAT](media/GER-RSAT-RSAT-Tests-Failed.png "RSAT neizdevušos testa rezultātu ekrānuzņēmums")
 
-Ievērojiet, ka testa izpildes rezultāti tiek nosūtīti arī pakalpojumā Azure DevOps, lai jūs varētu veikt padziļinātu analīzi.
+Ievērojiet, ka testa izpildes rezultāti tiek nosūtīti arī pakalpojumā Azure DevOps, lai jūs varētu veikt padziļinātu analīzi.
 
 ![Neizdevušies testa rezultāti Azure DevOps](media/GER-RSAT-DevOps-Tests-Failed.png "Neizdevušos testa rezultātu ekrānuzņēmums Azure DevOps")
 
@@ -380,3 +378,6 @@ Tātad, kā jau ir redzams, jebkura ERformāta funkcionalitāti var novērtēt a
 - [Ģenerēto pārskatu rezultātu izsekošana un to salīdzināšana ar bāzlīnijas vērtībām](er-trace-reports-compare-baseline.md)
 - [ER Jaunināt savu formātu, pieņemot šī formāta jaunu bāzes versiju](tasks/er-upgrade-format.md)
 - [ER Importēt konfigurāciju no Lifecycle Services](tasks/er-import-configuration-lifecycle-services.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

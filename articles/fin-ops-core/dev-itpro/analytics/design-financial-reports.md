@@ -2,9 +2,11 @@
 title: Skatīt un izveidot finanšu pārskatus
 description: Šajā rakstā ir sniegti vingrinājumi, kas palīdz saprast finanšu pārskatu skatīšanu un izveidi programmā Microsoft Dynamics 365 Finance.
 author: jcart1106
+manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReportingSetup
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c13169ab05dd506f75b2c9d28f05fcf4471f5a7c8f0a563c974bc38949993295
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 97895081293d9ee5a82a718e0644bebdaa0f2777
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724447"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686249"
 ---
 # <a name="view-and-design-financial-reports"></a>Skatīt un izveidot finanšu pārskatus
 
@@ -151,7 +153,7 @@ ms.locfileid: "6724447"
 4. Atlasiet **Fails** &gt; **Saglabāt kā** un piešķiriet pārskatam nosaukumu **Konsolidēta bilance un ieņēmumu pārskats viens otram blakus**.
 5. Mainiet pamata gadu uz 2012.
 6. Noklikšķiniet uz nolaižamās bultiņas Koka veids un atlasiet **Organizācijas hierarhijas**.
-7. Noklikšķiniet uz nolaižamās bultiņas Koka veids un atlasiet **Contoso Holdings**.
+7. Noklikšķiniet uz nolaižamās bultiņas Koka veids un atlasiet **Contoso krājumi**.
 8. Saglabājiet izmaiņas un ģenerējiet pārskatu. Ja tiek piedāvāts, atlasiet visas pārskata vienības. Kad pārskata ģenerēšana tiek pabeigta un tas tiek atvērts, varat to pārskatīt.
 9. Atlasiet **Pārskata opcijas**.
 10. Atlasiet **Pievienot dimensiju filtru** un izvēlieties **Nodaļa**.
@@ -194,7 +196,4 @@ ms.locfileid: "6724447"
 
 [Skatīt finanšu pārskatus](../../../finance/general-ledger/view-financial-reports.md)
 
-[Dynamics 365 Finance emuārs](https://community.dynamics.com/365/financeandoperations/b/dynamics-365-finance-blog)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[Dynamics 365 Finance emuārs](https://community.dynamics.com/365/financeandoperations/b/dynamics-365-finance-blog)

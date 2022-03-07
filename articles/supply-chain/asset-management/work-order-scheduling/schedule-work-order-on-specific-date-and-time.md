@@ -1,12 +1,10 @@
 ---
 title: Plānot darba pasūtījumu noteiktā datumā un laikā
 description: Šajā tēmā ir aprakstīts, kā plānot darba pasūtījumu noteiktā datumā un laikā Līdzekļu pārvaldībā.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e1b9fc2f51e92a4760a612d778b65cfc1b4e2a9e
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: d1264ea034789c9ce052b1da9a74a10dd910fac1a1c762d29bd06ca2063478d0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017371"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780291"
 ---
 # <a name="schedule-work-order-on-specific-date-and-time"></a>Plānot darba pasūtījumu noteiktā datumā un laikā
 
@@ -40,13 +38,13 @@ Ja darba pasūtījums ir jāplāno noteiktā datumā *un* laikā, varat ignorēt
 
 4. Kopsavilkuma cilnē **Darba pasūtījuma virsraksts** ievadiet sākuma un beigu datumu un laiku laukos **Paredzētais sākums** un **Paredzētās beigas**.
 
-    ![1. attēls](media/05-work-order-scheduling.png)
+    ![1. attēls.](media/05-work-order-scheduling.png)
 
 5. Cilnē **Vispārīgi** noklikšķiniet uz **Grafiks**, lai izmantotu standarta plānošanas procesu, vai noklikšķiniet uz **Nosūtīt**, ja vēlaties piešķirt darba pasūtījumu konkrētam darbiniekam.
 
 6. Lai ignorētu esošās noslodzes rezervācija un lai nodrošinātu, ka darba pasūtījums tiek ieplānots paredzētajā periodā, veiciet atlasi, kā parādīts attēlā tālāk, dialoglodziņā **Ieplānot darba pasūtījumu** > sadaļā **Ierobežota noslodze**. Tas nozīmē, ka plānošanas process ignorēs esošās noslodzes rezervācijas, jo darba pasūtījumam ir jāsākas ar paredzēto sākuma laiku.
 
-    ![2. attēls](media/06-work-order-scheduling.png)
+    ![2. attēls.](media/06-work-order-scheduling.png)
 
 7. Lai sāktu plānošanu, noklikšķiniet uz **Labi**.
 
@@ -55,3 +53,6 @@ Ja darba pasūtījums ir jāplāno noteiktā datumā *un* laikā, varat ignorēt
 >[!NOTE]
 >Lai darba pasūtījumam ieplānotu uzturēšanas speciālistu, šim uzturēšanas speciālistam ir jābūt pieejamam paredzētajā sākuma datumā un laikā. Darbinieku pieejamība tiek iestatīta [Nodarbināto kalendārā](../work-order-scheduling/maintenance-worker-calendar-and-scheduling.md). 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

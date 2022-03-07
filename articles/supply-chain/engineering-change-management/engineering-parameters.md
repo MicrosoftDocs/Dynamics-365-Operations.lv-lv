@@ -2,22 +2,25 @@
 title: Tehnisko izmaiņu pārvaldības parametri
 description: Šajā tēmā ir paskaidrots, kā konfigurēt tehnisko izmaiņu pārvaldības funkcijas pakalpojumam Microsoft Dynamics 365 Supply Chain Management.
 author: t-benebo
+manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 106c3a79236bcb8112ecbd48e29f3f5f3148a867
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: 0cf0e56a8aece98379aa0f181d7b7ff665767544
+ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581012"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4433231"
 ---
 # <a name="engineering-change-management-parameters"></a>Tehnisko izmaiņu pārvaldības parametri
 
@@ -54,6 +57,3 @@ Sekojošajā tabulā ir aprakstīti lauki, kas ir pieejami cilnē **Tehnisko izm
 | Nozīmīguma kārtula | Atlasiet, kā jānosaka tehnisko izmaiņu pasūtījuma stingrība. Atlasiet *Manuāli*, ja lietotājam ir paredzēts ievadīt vērtību laukā **Stingrība**. Atlasiet opciju *Aprēķināt*, lai sistēma aprēķinātu lauka **Stingrība** vērtību, kad atlasāt **Aprēķināt stingrību** tehnisko izmaiņu pasūtījuma darbības rūtī. Šādā gadījumā sistēma izmanto stingrības kārtulas, kas ir definētas lapā **Stingrības kārtulu kopa**. Atlasiet opciju *Aprēķināt automātiski*, lai lauka **Stingrība** vērtība tiktu automātiski aprēķināta un aizpildīta atbilstoši stingrības kārtulu kopām. |
 | Atkārtoti izlaist ietekmētās preces | Šis lauks ir piemērojams, atkārtoti izlaižot produktus, izmantojot tehnisko izmaiņu pasūtījumu. Varat izvēlēties, vai dialoglodziņā **Relīzes** ir jāpiedāvā visi produkti vai tikai ietekmētie produkti. |
 | Izlaižamie MK līmeņi | Izlaižamā MK līmeņa dziļums. Ja MK ir vairāk līmeņu (tas ir, ja tas ir dziļāks) nekā šeit norādītajai vērtībai, tiks izlaisti tikai līmeņi līdz norādītajai vērtībai. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

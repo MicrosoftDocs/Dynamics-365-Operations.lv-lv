@@ -1,27 +1,25 @@
 ---
 title: Reģistru izveide un sasaiste
 description: Šajā procedūrā ir parādīts, kā izveidot pārdošanas punkta (POS) reģistru.
-author: rubencdelgado
-manager: AnnBe
+author: BrianShook
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailTerminalTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2415945c5a8f73e095627d638fcc572c50ffe8ca
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 48ad1891955b15d22f3cecac128a831adabdac87
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964899"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779431"
 ---
 # <a name="create-and-associate-registers"></a>Reģistru izveide un sasaiste
 
@@ -43,3 +41,6 @@ ms.locfileid: "4964899"
     * EFT POS reģistra numurs tiek izmantots, lai informētu maksājumu apstrādātāju par to, kurš maksājumu terminālis sūta autorizācijas pieprasījumus. Šī vērtība bieži tiek saukta par “Termināļa ID” vai “TID”. Vērtība TID parasti ir atrodama uz maksājumu ierīces uzlīmes.  
 9. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

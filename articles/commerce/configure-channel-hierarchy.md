@@ -1,35 +1,32 @@
 ---
 title: Konfigurējiet kanālu, lai izmantotu kanāla navigācijas hierarhiju
-description: Šajā tēmā ir aprakstīts, kā programmā Microsoft Dynamics 365 Commerce konfigurēt kanālu, lai izmantotu kanāla navigācijas hierarhiju.
+description: Šajā tēmā aprakstīts, kā konfigurēt kanālu, lai lietotu kanālu navigācijas hierarhiju risinājumā Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 7b5041d35d310125c314ab2cb77d3cc40cdb7113
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 79054573fa6f86bea5c4fe014233d71c01020348
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413954"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352594"
 ---
 # <a name="configure-a-channel-to-use-a-channel-navigation-hierarchy"></a>Konfigurējiet kanālu, lai izmantotu kanāla navigācijas hierarhiju
 
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā programmā Microsoft Dynamics 365 Commerce konfigurēt kanālu, lai izmantotu kanāla navigācijas hierarhiju.
+Šajā tēmā aprakstīts, kā konfigurēt kanālu, lai lietotu kanālu navigācijas hierarhiju risinājumā Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Pārskats
 
@@ -48,7 +45,7 @@ Lai kanālu konfigurētu kanālu navigācijas hierarhijas izmantošanai, veiciet
 
 Tālāk esošais attēls parāda, kā konfigurēt kanālu, lai izmantotu kanāla navigācijas hierarhiju.
 
-![Kanāla konfigurācijas piemērs](media/configure-channel-hierarchy-1.png)
+![Kanāla konfigurācijas piemērs.](media/configure-channel-hierarchy-1.png)
 
 ## <a name="set-attribute-metadata"></a>Atribūtu metadatu iestatīšana
 
@@ -64,9 +61,9 @@ Lai iestatītu atribūtu metadatus, veiciet tālāk norādītās darbības.
 
 Tālāk esošajā attēlā redzams kanāla preču atribūtu kopums, kas konfigurēts kanāla kategorijas mezglā.
 
-![Kanāla atribūti kanāla kategorijas mezglā](media/configure-channel-hierarchy-2.png)
+![Kanāla atribūti kanāla kategorijas mezglā.](media/configure-channel-hierarchy-2.png)
 
-## <a name="publish-changes"></a>Izmaiņu publicēšana
+## <a name="publish-changes"></a>Publicēt izmaiņas
 
 Lai izmaiņas stātos spēkā, jums tās ir jāpublicē.
 
@@ -77,10 +74,13 @@ Lai publicētu izmaiņas, veiciet tālāk norādītās darbības.
 
 Tālāk esošajā attēlā ir parādīts, kā publicēt kanālu atjauninājumus.
 
-![Publicēt kanāla atjauninājumus](media/configure-channel-hierarchy-3.png)
+![Publicēt kanāla atjauninājumus.](media/configure-channel-hierarchy-3.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Kanālu navigācijas hierarhijas izveide](create-channel-hierarchy.md)
+[Izveidot kanāla navigācijas hierarhiju](create-channel-hierarchy.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

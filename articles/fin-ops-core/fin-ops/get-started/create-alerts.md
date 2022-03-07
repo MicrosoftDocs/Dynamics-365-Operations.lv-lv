@@ -1,28 +1,26 @@
 ---
 title: Brīdinājumu noteikumu veidošana
-description: Šajā tēmā ir sniegta informācija par brīdinājumiem un izskaidrots, kā izveidot brīdinājuma kārtulu tā, lai varētu saņemt paziņojumu par notikumiem, piemēram, par datumu, kas iestājas, vai noteiktām izmaiņām, kuras ir veiktas.
-author: tjvass
-manager: AnnBe
+description: Šajā tēmā ir sniegta informācija par brīdinājumiem un ir paskaidrots, kā izveidot brīdinājuma kārtulu.
+author: RichdiMSFT
 ms.date: 10/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: tjvass
+ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 3721416ce720167a6f78e26583de84af9c8d086b
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: 597785e65f127794ca84fe3053a664f717b056bd7374e0396732d4bcf59a743c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798431"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736202"
 ---
-# <a name="create-alert-rules"></a>Brīdinājumu noteikumu veidošana
+# <a name="create-alert-rules"></a>Brīdinājumu kārtulu veidošana
 
 [!include [banner](../includes/banner.md)]
 
@@ -46,9 +44,9 @@ Piemēram, ja tiek iestatīta lauka **Sākuma datums** brīdinājuma kārtula, p
 
 Rasties var trīs notikumu veidi.
 
-- **Izveides veida un dzēšanas veida notikumi** — šie notikumi aktivizē brīdinājumu, ja tiek izveidots vai dzēsts ieraksts.
-- **Atjaunināšanas veida notikumi** — šie notikumi aktivizē brīdinājumu, ja tiek mainīti konkrēta lauka dati.
-- **Izpildes datuma veida notikumi** — šie notikumi aktivizē brīdinājumu, ja ir iestājies datums.
+- **Izveides veida un dzēšanas veida notikumi** — šie notikumi aktivizē brīdinājumu, ja tiek izveidots vai dzēsts ieraksts.
+- **Atjaunināšanas veida notikumi** — šie notikumi aktivizē brīdinājumu, ja tiek mainīti konkrēta lauka dati.
+- **Izpildes datuma veida notikumi** — šie notikumi aktivizē brīdinājumu, ja ir iestājies datums.
     
 Veiktās izmaiņas var aktivizēt lietotājs. Piemēram, lietotājs maina pirkuma pasūtījuma piegādes datumu. Vai arī izmaiņas var tikt veiktas procesa robežās. Piemēram, izmaiņas lapas laukā **Statuss** notiek, lai norādītu dažādu procesu dzīves ciklu sistēmā.
 
@@ -60,8 +58,8 @@ Piemēram, var norādīt, ka sistēmai ir jānosūta brīdinājums, ja tiek main
 
 Pēc tam jūs vēlaties saņemt brīdinājumu par konkrētiem pirkšanas pasūtījumiem. Piemēram, atlasīt var no vienu no tālāk norādītajām opcijām. Šīs opcijas definē brīdinājuma kārtulas nosacījumus.
 
-- **Pašreiz atlasītais ieraksts** — brīdinājums tiek nosūtīts, ja tiek nomainīts noteikta pirkšanas pasūtījuma statuss **Saņemts**.
-- **Visi ieraksti** — brīdinājums tiek nosūtīts, ja tiek mainīts pašreiz atvērtajā lapā redzamā krājuma pirkšanas pasūtījuma statuss. Lai izveidotu noteiktu ierakstu kopuma kārtulas, var izmantot lapā pieejamo papildu filtrēšanu. Piemēram, var izveidot brīdinājumu, kas tiek aktivizēts par debitoru konkrētā debitoru grupā visiem pirkšanas pasūtījumiem.
+- **Pašreiz atlasītais ieraksts** — brīdinājums tiek nosūtīts, ja tiek nomainīts noteikta pirkšanas pasūtījuma statuss **Saņemts**.
+- **Visi ieraksti** — brīdinājums tiek nosūtīts, ja tiek mainīts pašreiz atvērtajā lapā redzamā krājuma pirkšanas pasūtījuma statuss. Lai izveidotu noteiktu ierakstu kopuma kārtulas, var izmantot lapā pieejamo papildu filtrēšanu. Piemēram, var izveidot brīdinājumu, kas tiek aktivizēts par debitoru konkrētā debitoru grupā visiem pirkšanas pasūtījumiem.
     
 ## <a name="expiry-of-rule"></a>Kārtulas derīguma termiņa beigas
 
@@ -102,3 +100,8 @@ Dažiem sekundārajiem datu avotiem formās nevar izveidot brīdinājumus. Piem�
     ```
 2. Izveidojiet brīdinājumu no formas SysTableBrowser.
 
+### <a name="change-based-alerts-do-not-work-for-batch-status-changes"></a>Izmaiņās balstīti brīdinājumi nedarbojas attiecībā uz pakešu statusa izmaiņām
+Izmaiņās balstīti brīdinājumi nedarbojas ar pakešu statusa izmaiņām, jo tie ir izslēgti ar sniegumu saistītu iemeslu dēļ. Tā vietā jums vajadzētu iestatīt iespēju **Pakešu brīdinājumi**. Papildu informāciju skatiet tēmā [Brīdinājumu iestatīšana pakešu uzlabotām veidlapām](../../dev-itpro/sysadmin/alerts.md#set-up-alerts-for-batch-enhanced-forms).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

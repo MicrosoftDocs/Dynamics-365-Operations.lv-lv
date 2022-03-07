@@ -6,19 +6,18 @@ ms.topic: article
 ms.date: 07/27/2020
 ms.author: margoc
 ms.prod: ''
-ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 172fc6f2f284a67a32b80e2f72c3e5b9c8e44b70
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e280a5ff938ab17279ea842bb6bc993453369b8a
+ms.sourcegitcommit: 66dd0268aea4e1353f7efd74e226de24fa56f56c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963589"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "5637292"
 ---
 # <a name="learning-catalog-for-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-supply-chain-management"></a>Microsoft partneru pārdošanas un mārketinga lomu apmācības katalogs Dynamics 365 Supply Chain Management
 
@@ -40,3 +39,6 @@ Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem dom�
 | Saturs  | Apraksts  | Formāts |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|---------------------------------------------------------------------------|
 | [Dynamics 365 pamati](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | Pierādiet, ka saprotat Microsoft Dynamics 365; Power Platform; mākoņa koncepcijas; licencēšanas opcijas un izvietošanas opcijas, un opcijas nodošanai izpildei. | Eksāmens; izmaksas var mainīties atkarībā no reģiona |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Starpuzņēmumu datu avoti elektroniskajos pārskatos (ER)
 description: Šajā tēmā ir paskaidrots, kā elektroniskajos pārskatos (Electronic Reporting — ER) varat izmantot starpuzņēmumu datu avotus.
 author: NickSelin
-manager: AnnBe
-ms.date: 05/25/2018
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERModelMappingDesigner, ERFormatMappingLegalEntityFilterTable
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 1a5c05b65c9022220056947471e95b703d923dc5
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: cfa6e61879618aede466bde3eafe582be36301e8a1609511b7e3bc3fe65ccfce
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680834"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718531"
 ---
 # <a name="cross-company-data-sources-in-electronic-reporting-er"></a>Starpuzņēmumu datu avoti elektroniskajos pārskatos (ER)
 
@@ -68,11 +66,14 @@ Pēc noklusējuma tvērums ietver visus pašreizējās programmas uzņēmumus. T
 
 Ņemiet vērā, ka gadījumā, ja ir izslēgta opcija **Izmantot melnrakstu** vienam ER formātam piešķirtai organizācijas hierarhijai, starpuzņēmumu datu avotu tvēruma identificēšanai tiks izmantotas juridiskās personas no šīs organizācijas hierarhijas pēdējās publicētās versijas. ER struktūrā vēl netiek atbalstīti organizācijas hierarhiju spēkā stāšanās datumi.
 
-Hierarhiju var piešķirt formātam noteiktā lapā, kurai var piekļūt no ER darbvietas vai izmantojot izvēlnes vienumu **Organizācijas administrēšana \>Elektroniskie pārskati \> Juridisko personu filtrs formātiem**. Lai piekļūtu šai lapai, lietotājam ir jābūt piešķirtai privilēģijai **Uzturēt juridisko personu filtrus formātiem** (ERMaintainFormatMappingLegalEntityFilters). No hierarhijas atkarīgu juridisko personu tvēruma ierobežojums formātam tiek lietots papildus ierobežojumam, kuru lietotājs var manuāli norādīt sistēmas vaicājuma dialoglodziņā. Palaižot šo formātu, tiek izmantota šo ierobežojumu krustošanās.
+Hierarhiju var piešķirt formātam noteiktā lapā, kurai var piekļūt no ER darbvietas vai izmantojot izvēlnes vienumu **Organizācijas administrēšana \> Elektroniskie pārskati \> Juridisko personu filtrs formātiem**. Lai piekļūtu šai lapai, lietotājam ir jābūt piešķirtai privilēģijai **Uzturēt juridisko personu filtrus formātiem** (ERMaintainFormatMappingLegalEntityFilters). No hierarhijas atkarīgu juridisko personu tvēruma ierobežojums formātam tiek lietots papildus ierobežojumam, kuru lietotājs var manuāli norādīt sistēmas vaicājuma dialoglodziņā. Palaižot šo formātu, tiek izmantota šo ierobežojumu krustošanās.
 
 Lai par šo līdzekli uzzinātu vairāk, noskatieties uzdevuma ceļvedi **ER Piekļuve no uzņēmuma atkarīgu tabulu ierakstiem starpuzņēmumu režīmā**, kas veido daļu no biznesa procesa 7.5.4.3 IT pakalpojumu/risinājumu komponentu iegāde/izstrāde (10677) un ko var lejupielādēt no [Microsoft lejupielādes centra](https://go.microsoft.com/fwlink/?linkid=874684). Šajā uzdevuma rokasgrāmatā ir izklāstīts ER modeļa kartēšanas un ER formāta konfigurēšanas process, lai piekļūtu programmas tabulām starpuzņēmumu režīmā.
 
 Lai izpildītu šo uzdevuma ceļvedi, lejupielādējiet tālāk norādītos failus.
 
-- [ER modeļa konfigurācija — CrossCompanyDataAccessModel.xml](https://go.microsoft.com/fwlink/?linkid=874111)
-- [ER formāta konfigurācija — CrossCompanyDataAccessFormat.xml](https://go.microsoft.com/fwlink/?linkid=874111)
+- [ER modeļa konfigurācija — CrossCompanyDataAccessModel.xml](https://download.microsoft.com/download/4/2/5/4258f891-7054-4821-aedd-3721ba25fdd5/CrossCompanyDataAccessModel.xml)
+- [ER formāta konfigurācija — CrossCompanyDataAccessFormat.xml](https://download.microsoft.com/download/3/2/1/321deb75-3ba9-4323-99bf-207a52c60b5c/CrossCompanyDataAccessFormat.xml)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

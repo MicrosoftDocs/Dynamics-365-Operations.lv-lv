@@ -2,11 +2,9 @@
 title: Vidējā svērtā uz datumu
 description: Svērtais vidējais datums ir krājumu modelis, kas balstīts uz svērto vidējo principu, kur izsniegšanas no krājumiem tiek vērtētas pie vidējās krājumu vērtības, kas inventarizācijā saņemta katrai atsevišķai dienai krājumu slēgšanas periodā.
 author: AndersGirke
-manager: tfehr
 ms.date: 10/25/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5df497a8590c6d60a5f0bc39469cf048c3448572
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 563fa291754f7f795fa64d530de49b9fe4083c56
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963742"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821301"
 ---
 # <a name="weighted-average-date"></a>Vidējā svērtā uz datumu
 
@@ -195,3 +193,6 @@ Jauna pašreizēja vidējā izmaksu cena attēlo finansiāli vai fiziski atjauni
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

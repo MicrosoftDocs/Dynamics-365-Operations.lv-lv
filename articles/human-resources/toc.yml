@@ -1,10 +1,30 @@
 - name: Dynamics 365 Human Resources
-  href: hr-welcome.md
+  href: ./index.md
   items:
     - name: Jaunumi
       items:
         - name: Jaunumi un izmaiņas programmā Human Resources
           href: hr-admin-whats-new.md
+        - name: "2021.\_gada 22.\_jūnijs"
+          href: hr-whats-new-2021-06-22.md
+        - name: "2021.\_gada 20.\_maijs"
+          href: hr-whats-new-2021-05-20.md
+        - name: "2021.\_gada 3.\_maijs"
+          href: hr-whats-new-2021-05-03.md
+        - name: "2021.\_gada 19.\_aprīlis"
+          href: hr-whats-new-2021-04-19.md
+        - name: "2021.\_gada 5.\_aprīlis"
+          href: hr-whats-new-2021-04-05.md
+        - name: "2021.\_gada 22.\_marts"
+          href: hr-whats-new-2021-03-22.md
+        - name: "2021.\_gada 8.\_marts"
+          href: hr-whats-new-2021-03-08.md
+        - name: "2021.\_gada 22.\_februāris"
+          href: hr-whats-new-2021-02-22.md
+        - name: "2021.\_gada 28.\_janvāris"
+          href: hr-whats-new-2021-01-28.md
+        - name: "2021.\_gada 21.\_janvāris"
+          href: hr-whats-new-2021-01-21.md
         - name: "2020.\_gada 2.\_decembris"
           href: hr-whats-new-2020-12-02.md
         - name: "2020.\_gada 22.\_oktobris"
@@ -77,14 +97,18 @@
               href: hr-admin-setup-update-process.md
         - name: Datu integrācijas iestatīšana
           items:
-            - name: Izvēlēties datu integrācijas tehnoloģiju
+            - name: Datu integrācijas tehnoloģiju izvēle
               href: hr-admin-integration-choose-technology.md
-            - name: Common Data Service integrācijas konfigurēšana
+            - name: Bieži uzdotie jautājumi par ierobežošanu
+              href: hr-admin-integration-throttling-faq.md
+            - name: Dataverse integrācijas konfigurēšana
               href: hr-admin-integration-common-data-service.md
-            - name: Common Data Service entītijas
+            - name: Dataverse tabulas
               href: hr-developer-entities.md
-            - name: Common Data Service virtuālo elementu konfigurēšana
+            - name: Dataverse virtuālo tabulu konfigurēšana
               href: hr-admin-integration-common-data-service-virtual-entities.md
+            - name: Bieži uzdotie jautājumi par Human Resources tabulām
+              href: hr-admin-virtual-entity-faq.md
             - name: Integrācijas konfigurēšana ar Finance
               href: hr-admin-integration-finance.md
             - name: Integrācijas konfigurēšana ar Dayforce
@@ -96,91 +120,91 @@
             - name: Integrācija ar Office
               items:
                 - name: Office integrēšanas apmācība
-                  href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: Elementa datu atjaunināšana programmā Excel
-                  href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: Atvēršanas Excel programmā pieredzes izveide
-                  href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: Office integrācijas problēmu novēršana
-                  href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
         - name: Datu pārvaldības konfigurēšana
           items:
             - name: Datu pārvaldības struktūras pārskats
-              href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/dynamics365/human-resources/toc.json
+              href: ../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
             - name: Datu elementi
               items:
                 - name: Datu elementu pārskats
-                  href: ../dev-itpro/data-entities/data-entities.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: Konfigurācijas datu projekti
-                  href: ../dev-itpro/data-entities/configuration-data-projects.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-projects.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: Konfigurācijas datu kopēšana starp uzņēmumiem vai juridiskajām personām
                   items:
                     - name: Konfigurācijas datu kopēšanas pārskats
-                      href: ../dev-itpro/data-entities/copy-configuration.md?toc=/dynamics365/human-resources/toc.json
+                      href: ../fin-ops-core/dev-itpro/data-entities/copy-configuration.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                     - name: Konfigurācijas datu pakotnes
-                      href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/human-resources/toc.json
+                      href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                     - name: "Konfigurācijas datu pakotnes (tikai 2017.\_gada jūlija laidiens)"
-                      href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/human-resources/toc.json
+                      href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: Konfigurācijas datu veidnes
-                  href: ../dev-itpro/data-entities/configuration-data-templates.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: Elementa izmaiņu izsekošana
-                  href: ../dev-itpro/data-entities/entity-change-track.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: Informācijas par standarta datu elementiem meklēšana
-                  href: ../dev-itpro/data-entities/data-entities-report.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/data-entities-report.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: Datu veidnes ar vairākām darblapām
-                  href: ../dev-itpro/data-entities/excel-template-multiple.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/excel-template-multiple.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: Izmaiņu izsekošanas iespējošana elementiem
-                  href: ../dev-itpro/data-entities/entity-change-track.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: Konfigurācijas atslēgas un datu elementi
-                  href: ../dev-itpro/data-entities/config-key-entities.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/config-key-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: Konfigurācijas datu pakotnes
-                  href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
             - name: Datu importēšanas un eksportēšanas darbi
               items:
                 - name: Datu importēšanas un eksportēšanas darbu pārskats
-                  href: ../dev-itpro/data-entities/data-import-export-job.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: 'Labākās prakses dokumentu importēšanai, izmantojot virsgrāmatas žurnāla elementu'
-                  href: ../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
             - name: Datu elementu izstrāde
               items:
                 - name: Datu elementu dizaina principi un labākās prakses
-                  href: ../dev-itpro/dev-tools/design-best-practices.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/dev-tools/design-best-practices.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: Jaunu datu elementu izveide
-                  href: ../dev-itpro/data-entities/build-consuming-data-entities.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/build-consuming-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: Datu elementa rekvizīti
-                  href: ../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: Aprēķina kolonnu un virtuālo lauku izveide
-                  href: ../dev-itpro/data-entities/data-entity-computed-columns-virtual-fields.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/data-entity-computed-columns-virtual-fields.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: Starpuzņēmumu funkcionalitāte
-                  href: ../dev-itpro/data-entities/cross-company-behavior.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/cross-company-behavior.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: Valsts/reģiona kodu apstrāde
-                  href: ../dev-itpro/data-entities/countryregion-codes-configuration-keys.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/countryregion-codes-configuration-keys.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: Pārmantošanas modeļi
-                  href: ../dev-itpro/data-entities/support-super-type-sub-type.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/support-super-type-sub-type.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: Datu elementa vedņa kārtulas
-                  href: ../dev-itpro/data-entities/data-entity-wizard-rules.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/data-entity-wizard-rules.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: Metadatu rekvizīti
-                  href: ../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: 'Validācijas, noklusējuma vērtības un nekartētie lauki'
-                  href: ../dev-itpro/data-entities/validations-defaults-unmapped-fields.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/validations-defaults-unmapped-fields.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: Drošība un datu elementi
-                  href: ../dev-itpro/data-entities/security-data-entities.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/security-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: Trešo pušu pakalpojumu testēšanas utilītu izmantošana
-                  href: ../dev-itpro/data-entities/third-party-service-test.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/data-entities/third-party-service-test.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: 'Tādu tikai lasāmu elementu izveide, kas atklāj finanšu dimensijas'
-                  href: ../dev-itpro/financial/read-only-entity-financial.md?toc=/dynamics365/human-resources/toc.json
+                  href: ../fin-ops-core/dev-itpro/financial/read-only-entity-financial.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
             - name: Savas datu bāzes izmantošana
-              href: ../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/human-resources/toc.json
+              href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
             - name: BYOD pakešuzdevumu optimizēšana
               href: hr-admin-integration-byod-batch-jobs.md
             - name: Automatizētas elementu krātuves atsvaidzināšana
-              href: ../dev-itpro/analytics/automated-entity-store-refresh.md?toc=/dynamics365/human-resources/toc.json
+              href: ../fin-ops-core/dev-itpro/analytics/automated-entity-store-refresh.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
             - name: Datu uzdevuma automatizēšana
-              href: ../dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/human-resources/toc.json
+              href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
             - name: Datu validēšanas kontrolsaraksta darbvieta
-              href: ../dev-itpro/user-interface/data-validation-workspace.md?toc=/dynamics365/human-resources/toc.json
+              href: ../fin-ops-core/dev-itpro/user-interface/data-validation-workspace.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
             - name: Datu pārvaldības kļūdu apraksti
-              href: ../dev-itpro/data-entities/dm-error-descriptions.md?toc=/dynamics365/human-resources/toc.json
+              href: ../fin-ops-core/dev-itpro/data-entities/dm-error-descriptions.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
         - name: Līdzekļu pārvaldība
           href: hr-admin-manage-features.md
         - name: Datu bāzu reģistrācijas konfigurēšana un pārvaldība
@@ -253,6 +277,8 @@
               href: hr-admin-troubleshooting-batch-jobs.md
             - name: 'Veiktspējas optimizēšana, izmantojot automātiskās tīrīšanas uzdevumus'
               href: hr-admin-troubleshooting-batch-history.md
+            - name: Iestrēgušu pakešuzdevumu atiestatīšana
+              href: hr-admin-troubleshooting-batch-execution.md
             - name: Analīzes pārskati netiek atjaunināti
               href: hr-admin-troubleshooting-analytic-reports.md
             - name: Nevar izveidot vidi Power Apps administrēšanas centrā
@@ -279,16 +305,18 @@
           href: hr-developer-overview.md
         - name: Paplašināšana ar Power Apps un Power Automate
           href: hr-developer-power-apps.md
-        - name: Common Data Service entītijas
+        - name: Dataverse tabulas
           href: hr-developer-entities.md
         - name: Pielāgotie lauki
           href: hr-developer-custom-fields.md
         - name: Datu integrācijas iestatīšana
           items:
-            - name: Izvēlēties datu integrācijas tehnoloģiju
+            - name: Datu integrācijas tehnoloģiju izvēle
               href: hr-admin-integration-choose-technology.md
-            - name: Common Data Service integrācijas konfigurēšana
+            - name: Dataverse integrācijas konfigurēšana
               href: hr-admin-integration-common-data-service.md
+            - name: Dataverse virtuālo tabulu konfigurēšana
+              href: hr-admin-integration-common-data-service-virtual-entities.md
             - name: Integrācijas konfigurēšana ar Finance
               href: hr-admin-integration-finance.md
             - name: Integrācijas konfigurēšana ar Dayforce
@@ -298,13 +326,19 @@
             - name: Integrācija ar Office
               items:
                 - name: Office integrēšanas apmācība
-                  href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
+                  href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json
                 - name: Elementa datu atjaunināšana programmā Excel
-                  href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
+                  href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json
                 - name: Atvēršanas Excel programmā pieredzes izveide
-                  href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
+                  href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json
                 - name: Office integrācijas problēmu novēršana
-                  href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
+                  href: ../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json
+        - name: 'Izstrādes problēmu novēršana, izmantojot Dataverse virtuālās tabulas'
+          items:
+            - name: Dataverse virtuālās tabulas vaicājumu optimizācija
+              href: hr-developer-optimize-virtual-table-queries.md
+            - name: Bieži uzdotie jautājumi par Human Resources tabulām
+              href: hr-admin-virtual-entity-faq.md
         - name: Elementa API atsauce
           items:
             - name: Autentifikācija
@@ -317,13 +351,115 @@
                       href: hr-developer-api-myleaverequests-overview.md
                     - name: Atvaļinājuma pieprasījuma iesniegšana darbplūsmai
                       href: hr-developer-api-myleaverequests-submit.md
+        - name: ATS integrācijas API
+          items:
+            - name: Ievads
+              href: hr-admin-integration-ats-api-introduction.md
+            - name: Darbā pieņemšanas pieprasījums un saistītie elementi
+              items:
+                - name: Darbā pieņemšanas pieprasījums
+                  href: hr-admin-integration-ats-api-recruiting-request.md
+                - name: Darbā pieņemšanas pieprasījuma izglītība
+                  href: hr-admin-integration-ats-api-recruiting-request-education.md
+                - name: Darbā pieņemšanas pieprasījuma atrašanās vieta
+                  href: hr-admin-integration-ats-api-recruiting-request-location.md
+                - name: Darbā pieņemšanas pieprasījuma amats
+                  href: hr-admin-integration-ats-api-recruiting-request-position.md
+                - name: Darbā pieņemšanas prasmes
+                  href: hr-admin-integration-ats-api-recruiting-request-skill.md
+                - name: Darbā pieņemšanas pieprasījuma parauga vaicājums
+                  href: hr-admin-integration-ats-api-recruiting-request-example-query.md
+            - name: Darbā pieņemšanas pieprasījuma opciju kopas
+              items:
+                - name: Darba nodokļu atvieglojumu statuss
+                  href: hr-admin-integration-ats-api-job-exempt-status.md
+                - name: Darbā pieņemšanas pieprasījuma amata statuss
+                  href: hr-admin-integration-ats-api-recruiting-request-position-status.md
+                - name: Darbā pieņemšanas statuss
+                  href: hr-admin-integration-ats-api-recruiting-request-status.md
+                - name: Regulēšanas darba kategorija
+                  href: hr-admin-integration-ats-api-regulatory-job-category.md
+            - name: Kandidāts pieņemšanai darbā un saistītie elementi
+              items:
+                - name: Kandidāts pieņemšanai darbā
+                  href: hr-admin-integration-ats-api-candidate-to-hire.md
+                - name: Sertifikāta veids
+                  href: hr-admin-integration-ats-api-certificate-type.md
+                - name: Puses kontaktpersona
+                  href: hr-admin-integration-ats-api-party-contact.md
+                - name: Persona
+                  href: hr-admin-integration-ats-api-person.md
+                - name: Personas adrese
+                  href: hr-admin-integration-ats-api-person-address.md
+                - name: Personas sertifikāts
+                  href: hr-admin-integration-ats-api-person-certificate.md
+                - name: Personas izglītība
+                  href: hr-admin-integration-ats-api-person-education.md
+                - name: Personas identifikācijas numurs.
+                  href: hr-admin-integration-ats-api-person-identification-number.md
+                - name: Personas profesionālā pieredze
+                  href: hr-admin-integration-ats-api-person-professional-experience.md
+                - name: Personas izvērtēšana
+                  href: hr-admin-integration-ats-api-person-screening.md
+                - name: Personas prasmes
+                  href: hr-admin-integration-ats-api-person-skill.md
+                - name: Novērtējuma līmenis
+                  href: hr-admin-integration-ats-api-rating-level.md
+                - name: Izvērtēšanas tipi
+                  href: hr-admin-integration-ats-api-screening-types.md
+                - name: Kandidāta pieņemšanai darbā parauga vaicājums
+                  href: hr-admin-integration-ats-api-candidate-to-hire-example-query.md
+            - name: Kandidāta opciju kopas
+              items:
+                - name: Kandidātu integrācijas rezultāts
+                  href: hr-admin-integration-ats-api-applicant-integration-result.md
+                - name: Tukšs Jā Nē
+                  href: hr-admin-integration-ats-api-blank-yes-no.md
+                - name: Izpildes statuss
+                  href: hr-admin-integration-ats-api-completion-status.md
+                - name: Kontaktpersonas tips
+                  href: hr-admin-integration-ats-api-contact-type.md
+                - name: Izglītības kredīta bāze
+                  href: hr-admin-integration-ats-api-education-credit-basis.md
+                - name: Dzimums
+                  href: hr-admin-integration-ats-api-gender.md
+                - name: Ģimenes stāvoklis
+                  href: hr-admin-integration-ats-api-marital-status.md
+                - name: Gada mēneši
+                  href: hr-admin-integration-ats-api-months-of-year.md
+                - name: Nē Jā
+                  href: hr-admin-integration-ats-api-no-yes.md
+                - name: Perioda vienība
+                  href: hr-admin-integration-ats-api-period-unit.md
+                - name: Izvērtēšanas biežums
+                  href: hr-admin-integration-ats-api-screening-frequency.md
+                - name: Izvērtēšanas biežuma ģenerēšanas veidlapa
+                  href: hr-admin-integration-ats-api-screening-frequency-generate-from.md
+                - name: Prasmju līmeņa tips
+                  href: hr-admin-integration-ats-api-skill-level-type.md
+        - name: Algu aprēķina integrācijas API
+          items:
+            - name: Ievads
+              href: hr-admin-integration-payroll-api-introduction.md
+            - name: Algu aprēķina elementu ģenerēšana un pārskatīšana
+              href: hr-admin-integration-payroll-api-generate-review-entities.md
+            - name: Algots darbinieks
+              href: hr-admin-integration-payroll-api-payroll-employee.md
+            - name: Algas nodarbinātā adrese
+              href: hr-admin-integration-payroll-api-payroll-worker-address.md
+            - name: Algu aprēķina fiksētās atlīdzības plāns
+              href: hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md
+            - name: Algas pozīcijas darbs
+              href: hr-admin-integration-payroll-api-payroll-position-job.md
+            - name: Algas pozīcija
+              href: hr-admin-integration-payroll-api-payroll-position.md
     - name: Lietotāja rokasgrāmata
       items:
         - name: Pārskats
           href: hr-hrpro-overview.md
         - name: Human Resources iestatīšana
           items:
-            - name: "Programmas Human\_Resources parametru konfigurēšana"
+            - name: Human Resources parametru konfigurēšana
               href: hr-setup-parameters.md
             - name: Programmas Human Resources kopīgoto parametru konfigurēšana
               href: hr-setup-shared-parameters.md
@@ -439,12 +575,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/alerts-managing.md?toc=/dynamics365/human-resources/toc.json
                 - name: Klienta brīdinājumu paziņojumi pa e-pastu
                   href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/human-resources/toc.json
-            - name: Elektroniskie paraksti
-              items:
-                - name: Elektronisko parakstu pārskats
-                  href: ../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md?toc=/dynamics365/human-resources/toc.json
-                - name: Elektronisko parakstu iestatīšana
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-electronic-signatures.md?toc=/dynamics365/human-resources/toc.json
             - name: Pieteikumu pārvaldība
               items:
                 - name: Pārskats par pieteikumu pārvaldību
@@ -491,6 +621,8 @@
               href: hr-personnel-modify-reporting-relationships-position.md
             - name: Nodarbinātā informācijas ievade
               href: hr-personnel-enter-worker-information.md
+            - name: Nodarbinātie bez nodarbinātības
+              href: hr-personnel-workers-without-employment.md
             - name: Patapinātie krājumi nodarbinātajiem
               href: hr-personnel-loan-item-worker.md
             - name: Patapināto krājumu izveide
@@ -535,6 +667,8 @@
               items:
                 - name: Atvieglojumu pārvaldības pārskats
                   href: hr-benefits-management-overview.md
+                - name: Atvieglojumu pārvaldības darbvieta
+                  href: hr-benefits-management-workspace.md
                 - name: Atvieglojumu pārvaldības konfigurēšana
                   items:
                     - name: Atvieglojumu pārvaldības parametru konfigurēšana katram uzņēmumam
@@ -591,6 +725,8 @@
                       href: hr-benefits-process-life-event-eligibility.md
                     - name: Apstrādāt likmju izmaiņas
                       href: hr-benefits-process-rate-changes.md
+                - name: ACA pārskats
+                  href: hr-benefits-management-aca-reports.md
             - name: Atvieglojumu programmas definēšana un pārvaldība
               href: hr-benefits-manage-program.md
             - name: Atvieglojumu piemērojamības politikas
@@ -653,8 +789,14 @@
           items:
             - name: Veiktspējas pārvaldības pārskats
               href: hr-develop-performance-management-overview.md
-            - name: Darbaspēka prasmju saskaņošana
-              href: hr-develop-skills.md
+            - name: Prasmes
+              items:
+                - name: Konfigurēt prasmes
+                  href: hr-develop-skills.md
+                - name: Ievadīt prasmes
+                  href: hr-develop-enter-skills.md
+                - name: Kartēt prasmes
+                  href: hr-develop-map-skills.md
             - name: Pievienot jūsu veiktspējas žurnālam
               href: hr-develop-add-performance-journal.md
             - name: Mērķa izveide
@@ -691,5 +833,7 @@
               href: hr-employee-manager-self-service-custom-links.md
             - name: Darbinieka patstāvīgi izmantojamas darbvietas nosaukuma maiņa
               href: hr-employee-self-service-workspace-name.md
-            - name: Personiskās informācijas rediģēšana
+            - name: Rediģēt personas informāciju
               href: hr-employee-manager-self-service-edit-personal-information.md
+            - name: Ierobežot personas informācijas rediģēšanu
+              href: hr-employee-self-service-restrict-editing.md

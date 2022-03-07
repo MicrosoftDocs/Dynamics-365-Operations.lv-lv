@@ -1,28 +1,27 @@
 ---
 title: Atribūtiem atbilstošas pārdošanas cenas ierobežojumiem atbilstošām preču konfigurācijām
 description: Šajā tēmā ir aprakstīts, kā veidot pārdošanas cenu modeļus ar pārdošanas cenām, pamatojoties uz komponentiem un atribūtiem, nevis uz fizisko materiālu komplektu un maršrutu.
-author: sorenva
-manager: tfehr
+author: t-benebo
 ms.date: 10/2/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: sorenand
+ms.author: benebotg
 ms.search.validFrom: 2020-08-17
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: c0f9c1bb94b4dcc3c3c1e7656868ef6e6bd903db
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: e50b2d1e9ccf03a58e0ddf6d4ecfb34c6c504161
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432443"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577460"
 ---
 # <a name="attribute-based-sales-prices-for-constraint-based-product-configuration"></a>Atribūtiem atbilstošas pārdošanas cenas ierobežojumiem atbilstošām preču konfigurācijām
+
+[!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstīts, kā veidot pārdošanas cenu modeļus ar pārdošanas cenām, pamatojoties uz komponentiem un atribūtiem, nevis uz fizisko materiālu komplektu un maršrutu. Katram preces konfigurācijas modelim var izveidot vairākus pārdošanas cenu modeļus.
 
@@ -36,7 +35,7 @@ Lai iestatītu noklusējuma valūtu:
 1. Atveriet cilni **Ierobežojumam atbilstošie preces konfigurācijas modeļi**.
 1. Atveriet **Noklusējuma valūta** nolaižamo sarakstu un atlasiet valūtu.
 
-    ![Noklusējuma valūtas iestatīšana ierobežojumam atbilstošai preces konfigurācijai](media/prod-config-currency.png "Noklusējuma valūtas iestatīšana ierobežojumam atbilstošai preces konfigurācijai")
+    ![Noklusējuma valūtas iestatīšana ierobežojumam atbilstošai preces konfigurācijai.](media/prod-config-currency.png "Noklusējuma valūtas iestatīšana ierobežojumam atbilstošai preces konfigurācijai")
 
 1. Ja vēlaties pievienot Excel failu ar cenu sadalījumu visām pasūtījuma vai piedāvājuma rindām, tad sadaļā **Cenas modelis** iestatiet **Pievienot** uz *Jā*.
 
@@ -63,7 +62,7 @@ Tālāk esošajā piemērā ir parādīta fiksēta skaita pamatcena 899,95 EUR, 
 - Rožkoka korpusa apdare, pievienot 119,95 EUR.
 - Pievienot 12,95 EUR par katru skaļruņa augstuma vienību.
 
-![Piemēra cenu modelis](media/prod-config-rules-example.png "Piemēra cenu modelis")
+![Piemēra cenu modelis.](media/prod-config-rules-example.png "Piemēra cenu modelis")
 
 ## <a name="add-support-for-multiple-currencies"></a>Atbalsta pievienošana vairākām valūtām
 
@@ -84,7 +83,7 @@ Lai pievienotu precīzas cenas papildu valūtā:
 
 Tālāk esošajā piemērā _EUR_ ir noklusējuma valūta un _USD_ ir pievienota kā papildu valūta.
 
-![Modeļa piemērs ar vairākām valūtām](media/prod-config-rules-currency-example.png "Modeļa piemērs ar vairākām valūtām")
+![Modeļa piemērs ar vairākām valūtām.](media/prod-config-rules-currency-example.png "Modeļa piemērs ar vairākām valūtām")
 
 > [!NOTE]
 > Nav iespējams pievienot izteiksmes kārtulas, kas ir unikālas valūtai, kas nav noklusējuma valūta. Lai izveidotu izteiksmes kārtulas, kas būtu piemērotas tikai valūtai, kas nav noklusējuma valūta, iestatiet noklusējuma valūtas cenas izteiksmi uz nulli. Pēc tam valūtai, kas nav noklusējuma valūta, iestatiet atbilstošu izteiksmi.
@@ -96,11 +95,11 @@ Lai pārbaudītu, kā konfigurācijas sesijā darbojas pārdošanas cenas, atver
 - Izmantojiet šeit piedāvātos konfigurācijas iestatījumus, lai atlasītu preces opcijas un pēc tam skatītu, kā tās ietekmē **Cena un nosūtīšanas datums** parādīto vērtību.
 - Atlasiet **Skatīt cenu sadalījumu**, lai lejupielādētu Excel dokumentu, kas parāda pilnīgu informāciju par cenas aprēķināšanu.
 
-![Preces modeļa pārbaudīšana](media/prod-config-test.png "Preces modeļa pārbaudīšana")
+![Preces modeļa pārbaudīšana.](media/prod-config-test.png "Preces modeļa pārbaudīšana")
 
 Lejupielādētajā izklājlapā tiek parādīta gan aktīvā cenas elementa absolūtā vērtība, gan segums procentos. Ja lapā **Preču informācijas pārvaldības parametri** esat iestatījis opciju **Pievienot** cenu modeli, tad Excel lapa tiek pievienota pasūtījuma vai piedāvājuma rindai.
 
-![Excel izklājlapa, kurā parādīts cenu sadalījums](media/prod-config-excel-example.png "Excel izklājlapa, kurā parādīts cenu sadalījums")
+![Excel izklājlapa, kurā parādīts cenu sadalījums.](media/prod-config-excel-example.png "Excel izklājlapa, kurā parādīts cenu sadalījums")
 
 ## <a name="set-up-selection-criteria-for-price-models"></a>Cenu modeļu atlases kritēriju iestatīšana
 
@@ -119,7 +118,7 @@ Lai iestatītu cenu modeļu atlases kritērijus:
     - **Derīgs no** – norādiet pirmo dienu, kad vaicājums tiks lietots.
     - **Beidzas pēc** – norādiet pēdējo datumu, vaicājums tiks lietots.
 
-    ![Cenas modeļa kritēriji](media/prod-config-price-model-criteria.png "Cenas modeļa kritēriji")
+    ![Cenas modeļa kritēriji.](media/prod-config-price-model-criteria.png "Cenas modeļa kritēriji")
 
 1. Atlasiet, kuru vaicājuma rindu vēlaties definēt, un pēc tam atlasiet **Rediģēt** **Darbību rūtī**. Tiek atvērts vaicājuma noformētāja dialoglodziņš. Tas darbojas tāpat kā vairums vaicājumu noformētāji programmā Supply Chain Management. Izmantojiet to, lai definētu nosacījumus, ar kuriem jālieto atlasītās rindas cenas modelis.
 
@@ -140,4 +139,7 @@ Pēdējā darbība ir atribūtiem atbilstošu pārdošanas cenu norādīšana pr
 1. Atlasiet mērķa preces konfigurācijas modeli.
 1. Darbību rūtī atveriet cilni **Modelis** un grupā **Produkta modeļa informācija** atlasiet **Versijas**.
 1. Tiek atvērta lapa **Versijas**. Pārliecinieties, vai **Cenu noteikšanas metode** ir iestatīta uz **Atribūtam atbilstošs**.
-    ![Cenu noteikšanas metodes iestatīšana uz atribūtam atbilstošs](media/prod-config-versions.png "Cenu noteikšanas metodes iestatīšana uz atribūtam atbilstošs")
+    ![Cenu noteikšanas metodes iestatīšana uz atribūtam atbilstošs.](media/prod-config-versions.png "Cenu noteikšanas metodes iestatīšana uz atribūtam atbilstošs")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

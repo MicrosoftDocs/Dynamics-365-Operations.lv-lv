@@ -1,47 +1,50 @@
 ---
-title: Darba sākšana ar elektroniskās rēķinu izveidi lietošanai Ēģiptē
-description: Šajā tēmā sniegta informācija, kas jums palīdzēs sākt darbu ar elektronisko rēķinu izveidi lietošanai Ēģiptē risinājumā Finance un Supply Chain Management.
+title: Darba sākšana ar elektroniskās rēķinu izveides pievienojumprogrammu lietošanai Ēģiptē
+description: Šajā tēmā ir sniegta informācija, kas palīdzēs sākt darbu ar elektronisko rēķinu pievienojumprogrammu Ēģiptei programmās Finance un Supply Chain Management.
 author: gionoder
-ms.date: 04/20/2021
+manager: AnnBe
+ms.date: 02/26/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
+ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: b25a3489d009a02b45d66d4c3a0271a56a92f5ac
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 68ee08226f440e850a080600dbf5e16768b45e43
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985629"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592602"
 ---
-# <a name="get-started-with-electronic-invoicing-for-egypt"></a>Darba sākšana ar elektroniskās rēķinu izveidi lietošanai Ēģiptē
+# <a name="get-started-with-the-electronic-invoicing-add-on-for-egypt"></a>Darba sākšana ar elektroniskās rēķinu izveides pievienojumprogrammu lietošanai Ēģiptē
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija, kas palīdzēs sākt darbu ar elektronisko rēķinu izveidi lietošanai Ēģiptē. Šajā tēmā ir aprakstītas konfigurācijas darbības, kas ir atkarīgas no Regulatory Configuration Services (RCS), un ir papildinātas darbības, kas aprakstītas sadaļā [Sākt datrbu ar Elektronisko rēķinu izveidi](e-invoicing-get-started.md).
+[!include [banner](../includes/preview-banner.md)]
+
+Šajā tēmā ir sniegta informācija, kas palīdzēs sākt darbu ar elektronisko rēķinu pievienojumprogrammu Ēģiptei. Šajā tēmā ir aprakstītas konfigurācijas darbības, kas ir atkarīgas no Regulatory Configuration Services (RCS), un ir papildinātas darbības, kas aprakstītas sadaļā [Sākt datrbu ar Elektronisko rēķinu izrakstīšanas pievienojumprogrammu](e-invoicing-get-started.md).
 
 ## <a name="country-specific-configuration-for-egyptian-electronic-invoice-eg-electronic-invoicing-feature"></a>Valstij specifiska konfigurācija Ēģiptes elektroniskā rēķina (EG) Elektronisko rēķinu izrakstīšanas līdzeklim
 
-Daži no parametriem no **Ēģiptes elektroniskais rēķins (EG) elektronisko rēķinu izrakstīšanas līdzeklis** tiek publicēti ar noklusējuma vērtībām. Pārskatiet vērtības un, ja nepieciešams, atjauniniet vērtības, lai tās labāk atbilstu biznesa operācijas vajadzībām, pirms izvietojat elektronisko rēķinu izrakstīšanas līdzekli Pakalpojumu vidē.
-
-Šī sadaļa papildina sadaļu [Valsts mēroga konfigurācija elektroniskajam rēķinu izrakstīšanas līdzeklim](e-invoicing-get-started.md) tēmā **Sākt darbu ar elektronisko rēķinu izveidi**.
+Lai konfigurētu Ēģiptes elektroniskā rēķina (EG) Elektronisko rēķinu izrakstīšanas līdzekli, ir jāveic dažas darbības. Daži no konfigurāciju parametriem tiek publicēti ar noklusējuma vērtībām, tāpēc tie ir jāpārskata un jāatjaunina, lai labāk atbilstu jūsu biznesa operācijai.
 
 ### <a name="prerequisites"></a>Priekšnosacījumi
 
 Lai veiktu šo procedūru šajā sadaļā, jums ir jāizdara tālāk minētais.
 
-- Izveidojiet ciparsertifikāta noslēpumu, kā aprakstīts sadaļā **Izveidot ciparsertifikāta noslēpumu** [Sākt darbu ar Elektronisko rēķinu izrakstīšanas pakalpojuma administrēšanu](e-invoicing-get-started-service-administration.md). Testēšanas nolūkos Ēģiptes nodokļu iestāde nodrošina konkrētus testa ciparsertifikātus, kas jāizmanto tikai testēšanas un risinājuma apstiprināšanas posmu laikā. Lai iegūtu plašāku informāciju, skatiet Ēģiptes nodokļu iestādes tīmekļa vietni, izmantojot saiti, kas norādīta [Ēģiptes e-rēķinu izrakstīšanas SDK](https://sdk.sit.invoicing.eta.gov.eg/faq/).
+- Izveidojiet ciparsertifikāta noslēpumu, kā aprakstīts sadaļā **Izveidot ciparsertifikāta noslēpumu** [Sākt darbu ar Elektronisko rēķinu izrakstīšanas pievienojumprogrammas pakalpojuma administrēšanu](e-invoicing-get-started-service-administration.md). Testēšanas nolūkos Ēģiptes nodokļu iestāde nodrošina konkrētus testa ciparsertifikātus, kas jāizmanto tikai testēšanas un risinājuma apstiprināšanas posmu laikā. Lai iegūtu plašāku informāciju, skatiet Ēģiptes nodokļu iestādes tīmekļa vietni, izmantojot saiti, kas norādīta [Ēģiptes e-rēķinu izrakstīšanas SDK](https://sdk.sit.invoicing.eta.gov.eg/faq/).
+- Izveidojiet Ēģiptes elektronisko rēķinu (DB) Elektronisko rēķinu izrakstīšanas līdzekli jūsu organizācijai, kā aprakstīts sadaļā **Izveidot elektronisko rēķinu izrakstīšanu zem savas organizācijas nodrošinātāja** [Sākt darbu ar Elektronisko rēķinu izrakstīšanas pievienojumprogrammu](e-invoicing-get-started.md).
 
-1. Darbvietas **Globalizācijas līdzekļi** sadaļas **Līdzekļi** RCS atlasiet elementu **Elektronisko rēķinu izrakstīšana**.
-2. Lapā **Elektronisko rēķinu izrakstīšanas līdzekļi** pārbaudiet, vai ir atlasīts jūsu izveidotais **Ēģiptes elektroniskā rēķina (EG)** elektronisko rēķinu izrakstīšanas līdzeklis.
+1. Darbvietas **Globalizācijas līdzekļi** sadaļas **Līdzekļi** RCS atlasiet elementu **Elektronisko rēķinu izrakstīšanas pievienojumprogramma**.
+2. Lapā **Elektronisko rēķinu izrakstīšanas pievienojumprogrammas līdzekļi** pārbaudiet, vai ir atlasīts jūsu izveidotais **Ēģiptes elektroniskā rēķina (EG)** elektronisko rēķinu izrakstīšanas līdzeklis.
 3. Cilnē **Versijas** pārbaudiet, vai ir atlasīta versija **Melnraksts**.
 4. Cilnē **Iestatījumi** režģī atlasiet līdzekļa **Pārdošanas rēķins** iestatījumu.
 5. Atlasiet **Rediģēt** un cilnes **Darbības** lauka grupā **Darbības** atlasiet **Parakstīt json dokumentu Ēģiptes nodokļu iestādei**.
@@ -49,16 +52,18 @@ Lai veiktu šo procedūru šajā sadaļā, jums ir jāizdara tālāk minētais.
 7. Lauku grupā **Darbības** atlasiet **Integrēt ar Ēģiptes ETA pakalpojumu**. Atkārtojiet šo darbību abiem šīs darbības gadījumiem.
 8. Lauku grupā **Parametri** atlasiet **Tīmekļa pakalpojuma vietrādi URL** un **Pieteikšanās pakalpojuma vietrādi URL** un vajadzības gadījumā pārskatiet vietrāža URL parametrus. Lai iegūtu testēsanas un ražošanas vietrādi URL, skatiet Ēģiptes nodokļu iestādes tīmekļa vietni, izmantojot saiti, kas norādīta [Ēģiptes e-rēķinu izrakstīšanas SDK](https://sdk.sit.invoicing.eta.gov.eg/faq/).
 9. Atlasiet **Saglabāt** un aizveriet lapu.
-10. Lai izvietotu Elektronisko rēķinu izrakstīšanas līdzekli Pakalpojuma vidē, skatiet sadaļu [Sākt darbu ar Elektronisko rēķinu izrakstīšanu](e-invoicing-get-started.md).
+10. Lai konfigurētu programmas iestatījumus, skatiet sadaļu [Sākt darbu ar elektronisko rēķinu izrakstīšanas pievienojumprogrammu](e-invoicing-get-started.md).
 
 ## <a name="country-specific-configuration-of-the-application-setup-for-the-egyptian-electronic-invoice-eg-electronic-invoicing-feature"></a>Valstij specifiskās programmas iestatījuma konfigurācija Ēģiptes elektroniskā rēķina (EG) Elektronisko rēķinu izrakstīšanas līdzeklim
 
-Veiciet šīs darbības, pirms izvietojat Programmas iestatījumus jūsu Finance vai Supply Chain Management Saistītajai programmai.
+Programmas iestatījuma konfigurācijai **Ēģiptes elektroniskā rēķina (EG)** Elektronisko rēķinu izrakstīšanas līdzeklim ir jāizpilda konkrētas darbības. Šīs darbības jāveic pirms Elektronisko rēķinu izrakstīšanas līdzekļa izvietošanas jūsu Elektronisko rēķinu izrakstīšanas pakalpojuma vidē.
 
-Šī sadaļa papildina sadaļu [Valsts mēroga konfigurācija programmas iestātījumam](e-invoicing-get-started.md) tēmā **Sākt darbu ar elektronisko rēķinu izveidi**.
+### <a name="prerequisites"></a>Priekšnosacījumi
 
-1. Darbvietas **Globalizācijas līdzekļi** sadaļas **Līdzekļi** RCS atlasiet elementu **Elektronisko rēķinu izrakstīšana**.
-2. Lapā **Elektronisko rēķinu izrakstīšanas līdzekļi** pārbaudiet, vai ir atlasīts **Ēģiptes elektroniskā rēķina (EG)** elektronisko rēķinu izrakstīšanas līdzeklis.
+Pirms izpildāt šajā sadaļā noteikto procedūru, izveidojiet un aktivizējiet **Ēģiptes elektroniskā rēķina (EG)** Elektroniskā rēķina izrakstīšanas līdzekli, lai konfigurētu programmas iestatījumu **Ēģiptes elektroniskā rēķina (EG)** Elektroniskā rēķina izrakstīšanas līdzeklim, kā aprakstīts sadaļā **Programmas iestatījuma konfigurēšana** tēmā [Darba sākšana ar Elektroniskā rēķina izrakstīšanas pievienojumprogrammu](e-invoicing-get-started.md).
+
+1. Darbvietas **Globalizācijas līdzekļi** sadaļas **Līdzekļi** RCS atlasiet elementu **Elektronisko rēķinu izrakstīšanas pievienojumprogramma**.
+2. Lapā **Elektronisko rēķinu izrakstīšanas pievienojumprogrammas līdzekļi** pārbaudiet, vai ir atlasīts **Ēģiptes elektroniskā rēķina (EG)** elektronisko rēķinu izrakstīšanas līdzeklis.
 3. Cilnē **Versijas** pārbaudiet, vai ir atlasīta versija **Melnraksts** .
 4. Cilnē **Iestatījumi** atlasiet **Programmas iestatījumi** un laukā **Savienotā programma** atlasiet programmu, kurā vēlaties izvietot.
 5. Laukā **Tabulas nosaukums** pārbaudiet, vai ir atlasīts debitora rēķinu žurnāls.
@@ -70,7 +75,7 @@ Veiciet šīs darbības, pirms izvietojat Programmas iestatījumus jūsu Finance
 11. Laukā **Iesniegšanas statuss** atlasiet **Neizlemts**.
 12. Laukā **Datu elementa nosaukums** atlasiet **Pārdošanas rēķina virsraksti V2**.
 13. Laukā **Modeļa kartēšana** atlasiet **Ēģiptes atbildes datu imports** ar **(Priekšskatījumu) Ēģiptes atbildes datu imports** un pēc tam atlasiet **Saglabāt**.
-14. Lai izvietotu programmas iestatījumus saistītajai programmai Finance vai Supply Chain Management, skatiet sadaļu [Sākt darbu ar elektronisko rēķinu izrakstīšanu](e-invoicing-get-started.md).
+14. Lai izvietotu Elektronisko rēķinu izrakstīšanas līdzekli, skatiet sadaļu [Sākt darbu ar Elektronisko rēķinu izrakstīšanas pievienojumprogrammu](e-invoicing-get-started.md).
 
 ## <a name="privacy-notice"></a>Paziņojums par konfidencialitāti
 
@@ -78,9 +83,9 @@ Iespējojot līdzekli **Ēģiptes elektroniskais rēķins (EG)**, var būt nepie
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-- [Elektroniskās rēķinu izveides pārskats](e-invoicing-service-overview.md)
-- [Darba sākšana ar elektroniskās rēķinu izveides servisa administrēšanu](e-invoicing-get-started-service-administration.md)
-- [Darba sākšana ar elektroniskās rēķinu izveidi](e-invoicing-get-started.md)
+- [Elektroniskās rēķinu izveides pievienojumprogrammas pārskats](e-invoicing-service-overview.md)
+- [Darba sākšana ar elektroniskās rēķinu izveides pievienojumprogrammas servisa administrēšanu](e-invoicing-get-started-service-administration.md)
+- [Darba sākšana ar elektroniskās rēķinu izveides pievienojumprogrammu](e-invoicing-get-started.md)
 - [Klientu elektroniskie rēķini Ēģiptē](emea-egy-e-invoices.md)
 
 

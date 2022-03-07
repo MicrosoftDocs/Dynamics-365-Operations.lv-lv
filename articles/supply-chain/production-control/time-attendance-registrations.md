@@ -1,29 +1,27 @@
 ---
 title: Laika un apmeklētības reģistrācijas pārskats
 description: Laika reģistrācijas darbinieki var ievadīt dažādus laika reģistrācijas veidus, piemēram, ierašanās laiku, aiziešanas laiku, netiešu aktivitāšu un kavējumu reģistrāciju. Šajā tēmā ir aprakstīta reģistrācija, tās aprēķināšana, apstiprināšana un darbplūsmas izmantošana, lai pievienotu struktūru un automātisko apstiprināšanu darba laika uzskaites tabulu apstiprināšanas procesam.
-author: johanhoffmann
+author: ShylaThompson
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmWorker, JmgCalcApprovePickDialog, JmgGroupApprove, JmgGroupCalc, JmgGroupSigningTable, JmgRegistration, JmgTimeCalcParmeters, WorkflowTableListPageRnr, JmgRegistrationSetup, JmgStampTrans, JmgStampJournalTrans
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "53351"
-- intro-internal
+ms.custom: 53351
 ms.assetid: 885b0cdf-53d7-4cb4-92fe-da1b9e32b39f
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af257427661cb9a0d976800b657d3eb4afe7feca
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 66c02a2d15b4be4c1c2849f9547da10717fd10b7
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986125"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102702"
 ---
 # <a name="time-and-attendance-registration-overview"></a>Laika un apmeklētības reģistrācijas pārskats
 
@@ -42,7 +40,7 @@ Uzņēmumos, kuros ir laika un apmeklētības reģistrācija, darbiniekiem ir j�
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ja veicat laika un apmeklētības reģistrāciju kopā ar ražošanas izpildi, visas reģistrācijas par projektiem, projektu aktivitātēm, netiešām aktivitātēm, kavējumu kodiem, virsstundām un brīvā režīma laiku tiks veiktas algas aprēķināšanai abos moduļos. |
 
-## <a name="time-registrations-workers"></a>Darbinieku laika reģistrācija
+## <a name="time-registrations-workers"></a> Darbinieku laika reģistrācija
 
 Lai reģistrētu laiku un kavējumu, darbinieki jāiestata kā uzņēmumā nodarbināti darbinieki ar laika reģistrāciju.
 
@@ -90,7 +88,7 @@ Tāpat kā piešķīrāt reģistrācijas darbiniekam aprēķina grupu, jums jāp
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ja konkrētiem darbiniekiem ir aprēķinātas virsstundas, tās var piešķirt par konkrētiem dienas laika darbiem. Tas jādara, ja darba izmaksas tiek aprēķinātas, pamatojoties uz darbinieka apmaksu. |
 
-## <a name="approving-registrations-using-workflow"></a>Reģistrāciju apstiprināšana, izmantojot darbplūsmu
+## <a name="approving-registrations-using-workflow"></a> Reģistrāciju apstiprināšana, izmantojot darbplūsmu
 
 Ir iespējama iestatīt darbplūsmas apstiprināšanas procesu, kas automātiski apstiprinās reģistrācijas atbilstoši darbplūsmas kārtulām, atstājot tikai manuāli apstrādājamas atkāpes. Ja ir aktivizēta darbplūsmas apstiprināšana, grupas vadītājs vai supervizors iesniedz aprēķinātās reģistrācijas apstiprināšanai. Darbplūsmas process ģenerēs atbilstošus apstiprinājumus un uzdevumus, un pēc tam piešķirs tos attiecīgiem lietotājiem un lomām, kā tas norādīts darbplūsmā. Uz laika un apmeklējuma reģistrāciju attiecas divi darbplūsmas apstiprinājuma veidi.
 

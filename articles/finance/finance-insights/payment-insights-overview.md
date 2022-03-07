@@ -2,28 +2,25 @@
 title: Debitoru maksājumu prognozes (priekšskatījums)
 description: Šī tēma apraksta maksājuma prognožu iespēju, kas var palīdzēt labāk izprast debitora parasto maksājumu praksi. Šis līdzeklis var arī palīdzēt identificēt apstākļus, kas varētu izraisīt to, ka jūs sākat iekasēšanas procesu agrāk, nekā to varētu sākt citādi.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: b321fdc185e175d9fe2673c9f1e16486efd8e798
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 079ac1e8020c5fb80618b0237c4cf3a747b1e85c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645677"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827270"
 ---
 # <a name="customer-payment-predictions-preview"></a>Debitoru maksājumu prognozes (priekšskatījums)
 
@@ -74,8 +71,11 @@ Iepriekš parasti bija sarežģīti izstrādāt un izvietot mākslīgā intelekt
 
 Finanšu ieskatu publiskais priekšskatījums izmēģinājuma izvietošanai ir pieejams Amerikas Savienotajās Valstīs, Eiropā un Apvienotajā Karalistē. Korporācija Microsoft pakāpeniski pievieno atbalstu papildu reģioniem.
 
-Publiskā priekšskatījuma līdzekļus jāieslēdz tikai 2. līmeņa smilškastes vidēs. Iestatīšanas un mākslīgā intelekta modeļus, kas izveidoti smilškastes vidē, nevar migrēt uz ražošanas vidi. Lai iegūtu papildu informāciju, skatiet rakstu [Microsoft Dynamics 365 Previews lietošanas papildu nosacījumi](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-terms).
+Publiskā priekšskatījuma līdzekļus jāieslēdz tikai 2. līmeņa smilškastes vidēs. Iestatīšanas un mākslīgā intelekta modeļus, kas izveidoti smilškastes vidē, nevar migrēt uz ražošanas vidi. Lai iegūtu papildu informāciju, skatiet rakstu [Pakalpojuma Microsoft Dynamics 365 Previews lietošanas papildu nosacījumi](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-terms).
 
 ## <a name="privacy-notice"></a>Paziņojums par konfidencialitāti
 
 Priekšskatījumiem (1) var tikt izmantots mazāk konfidencialitātes un drošības pasākumu nekā pakalpojumam Dynamics 365 Finance and Operations, (2) tie nav ietverti pakalpojuma līmeņa līgumā par šo pakalpojumu, (3) tos nedrīkst izmantot personas datu vai citu tādu datu apstrādei, uz kuriem attiecas juridiskās vai normatīvās prasības, un (4) tiem tiek nodrošināts ierobežots atbalsts.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

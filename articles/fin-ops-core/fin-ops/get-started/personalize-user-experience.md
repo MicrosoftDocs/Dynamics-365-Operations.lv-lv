@@ -2,11 +2,9 @@
 title: Lietotāja pieredzes personalizēšana
 description: Šajā tēmā ir paskaidrots, kā varat personalizēt programmu.
 author: jasongre
-manager: AnnBe
 ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserSetup, DefaultDashboard
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 734f6499753d74b0bac8b2df1381ece4a7824142
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: efc5afc9d685954bf736686bbed3e7575f76e7e7
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797494"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744697"
 ---
 # <a name="personalize-the-user-experience"></a>Lietotāja pieredzes personalizēšana
 
@@ -195,3 +193,6 @@ Klientiem, kuri vēl nav ieslēguši [Saglabāti skati](saved-views.md) līdzekl
 Kad personalizējat krājumu dimensiju iestatījumus lapā, ņemiet vērā iestatījumus, kas izveidoti, izmantojot opciju **Parādīt dimensijas**. Piemēram, jūs izmantojat personalizāciju, lai paslēptu kolonnu partijas numuru krājumu dimensijai, bet šī kolonna tiek rādīta nākamajā reizē, kad lapa tiek atvērta. Tā notiek, jo iestatījumi **Dimensiju rādīšana** kontrolē, kuras krājumu dimensiju kolonnas tiek rādītas. Iestatījumi **Dimensiju rādīšana** tiek lietoti visās lapās, un tiem ir prioritāte pār jebkādiem personalizētajiem krājumu dimensiju lauku iestatījumiem atsevišķās lapās.
 
 Tāpēc, tāpat kā iepriekšējā piemērā, ja nevēlaties, lai lapā tiek parādīta partijas numura krājumu dimensijas kolonna, ir jānoņem attiecīgās dimensijas atzīme konkrētās lapas opcijas **Parādīt dimensijas** ietvaros.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

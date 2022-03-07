@@ -2,16 +2,13 @@
 title: Daļēja novietojuma cikla inventarizācija
 description: Cikla inventarizācijas plāni vada faktiskās inventarizācijas operācijas. Varat pieprasīt, ka tiek uzskaitītas tikai noteiktas preces un preču varianti, nevis lai visi rīcībā esošie krājumi kādā novietojumā.
 author: perlynne
-manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable, WHSRFMenuItemCycleCount, WHSCycleCountPlanListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a541818a72f5c24db8784071f447c83a2aa4edfd
-ms.sourcegitcommit: 95f90ac3f248716abdab16d5de6ccbf059616e4b
-ms.translationtype: HT
+ms.openlocfilehash: 9f06b39f3c2d2f5a0bdfef1da9395c71686ed46968a1143305b5a10787f7e85f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4666750"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778438"
 ---
 # <a name="partial-location-cycle-counting"></a>Daļēja novietojuma cikla inventarizācija
 
@@ -49,7 +46,7 @@ Lai varētu apstrādāt daļēja cikla inventarizācijas darbu, kā daļa no cik
 Daļējā cikla inventarizācija procesam datums/laiks **Pēdējā cikla inventarizācija** novietojumam netiks atjaunināts, kaut arī visi krājumi, kas atrodas norādītajā novietojumā, tiek saskaitīti. Daļējā cikla inventarizācija neņem vērā parametru **Dienas starp cikla inventarizāciju** lapā **Cikla inventarizācijas plāni** . Daļēja cikla inventarizācija neatbalsta vienlaicīgu vairāku krājumu inventarizāciju vienā un tajā pašā novietojumā. Daļējas cikla inventarizācijas funkcionalitātes rezultātā viens un tāds pats novietojums krājumam var tikt skaitīts vairākas reizes, kad tiek palaists **Procesa cikla inventarizācijas plāns** . Lai izvairītos no šāda scenārija, norādiet filtrus laukā **Atlasīt novietojumus** .
 
 > [!NOTE]
-> Noliktavas programma nenodrošina pogu **Pievienot LP vai preci**, kad izmantojat daļēju cikla skaitīšanas procesu.
+> Warehouse Management mobile programma nenodrošina pogu **Pievienot LP vai preci**, kad izmantojat daļēju cikla skaitīšanas procesu.
 
 ## <a name="example"></a>Paraugs
 
@@ -62,3 +59,6 @@ Daļējā cikla inventarizācija procesam datums/laiks **Pēdējā cikla inventa
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Cikla inventarizācija](cycle-counting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

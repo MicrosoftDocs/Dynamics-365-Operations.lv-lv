@@ -2,35 +2,30 @@
 title: Uzdevumu pārvaldības pārskats
 description: Šajā tēmā sniegts pārskats par uzdevumu pārvaldību vadītājiem un darbiniekiem programmā Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 02/10/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 3891d846f51b5335809876a6557dfb5a031272c8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 7cdcc0ba6a9f5a3d9dd4ea781adc9e81c45e3d02
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414114"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985397"
 ---
 # <a name="task-management-overview"></a>Uzdevumu pārvaldības pārskats
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā sniegts pārskats par uzdevumu pārvaldību vadītājiem un darbiniekiem programmā Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
 
 Mazumtirdzniecības vidē vienmēr ir grūti pārliecināties, ka pareizā persona veic uzdevumus pareizā laikā. Mazumtirgotājiem ir jābūt iespējai paziņot darbiniekiem par gaidāmajiem uzdevumiem un nodrošināt saistīto biznesa kontekstu, lai uzdevumus varētu izpildīt pareizi un laikus.
 
@@ -42,7 +37,7 @@ Veikala vadītāji var izmantot uzdevumu pārvaldību, lai piešķirtu uzdevumus
 
 Šajā attēlā redzama uzdevumu pārvaldības konceptuālā arhitektūra programmā Commerce.
 
-![Uzdevumu pārvaldības konceptuālā arhitektūra](media/Tasks-management-conceptual-architecture.png)
+![Uzdevumu pārvaldības konceptuālā arhitektūra.](media/Tasks-management-conceptual-architecture.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
@@ -53,3 +48,6 @@ Veikala vadītāji var izmantot uzdevumu pārvaldību, lai piešķirtu uzdevumus
 [Uzdevumu sarakstu piešķiršana veikaliem vai darbiniekiem](task-mgmt-assign-lists.md)
 
 [Uzdevumu pārvaldība punktā POS](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

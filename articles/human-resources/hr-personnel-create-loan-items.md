@@ -1,61 +1,66 @@
 ---
 title: Izveidot patapinājuma priekšmetus
 description: Patapinājuma priekšmeti ir ieraksti, kas palīdz izsekot fiziskus vienumus, piemēram, tālruņus vai datorus, kurus jūsu uzņēmums patapina darbiniekiem.
-author: andreabichsel
-manager: AnnBe
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmLoanType, DefaultDashboard, HcmLoanItem, HcmWorkerLookUp, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8317a2fbe9d857ed3824631241b99c333b6dc4e8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 21127c46615015c30e06465b390f67b835e746cb
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419541"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068138"
 ---
 # <a name="create-loan-items"></a>Izveidot patapinājuma priekšmetus
 
 
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
-Patapinājuma priekšmeti ir ieraksti, kas palīdz izsekot fiziskus vienumus, piemēram, tālruņus vai datorus, kurus jūsu uzņēmums patapina darbiniekiem. Katram fiziskam priekšmetam jābūt atbilstošam patapinājuma priekšmetam. Katram patapinājuma priekšmeta ierakstam ir jāapraksta, kas tiek patapināts, kurš ir atbildīgs par patapinājumu un cik dienas priekšmets var būt patapināts. Vienlaikus varat izveidot vairākus patapinājuma priekšmetus, piemēram, atslēgas, piekļuves kartes vai formastērpus. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
+
+Patapinājuma priekšmeti ir ieraksti, kas palīdz izsekot fiziskus vienumus, piemēram, tālruņus vai datorus, kurus jūsu uzņēmums patapina darbiniekiem. Katram fiziskam priekšmetam jābūt atbilstošam patapinājuma priekšmetam. Katram patapinājuma priekšmeta ierakstam ir jāapraksta, kas tiek patapināts, kurš ir atbildīgs par patapinājumu un cik dienas priekšmets var būt patapināts. Vienlaikus varat izveidot vairākus patapinājuma priekšmetus, piemēram, atslēgas, piekļuves kartes vai formastērpus. USMF ir paraugdatu uzņēmums, kas tiek izmantots šīs procedūras izveidei.
 
 
 ## <a name="create-loan-types"></a>Patapinājumu tipu izveide
-1. Dodieties uz Personāla vadība > Darbinieki > Patapinājuma priekšmeti > Patapinājumu tipi.
-2. Noklikšķiniet uz Jauns.
-3. Ierakstiet vērtību laukā Patapinājuma tips.
-4. Apraksta laukā ierakstiet vērtību.
+1. Dodieties uz **Personāla vadībasdarbniekiLoan** > **·** > **itemsLoan** > **types**.
+2. Klikšķiniet **Jauns**.
+3. Laukā **Patapinājumu tips** ierakstiet vērtību.
+4. Laukā **Apraksts** ierakstiet kādu vērtību.
 5. Ievadiet dienu skaitu, par kādu šī tipa patapinājumiem atļauts kavēt priekšmetu atpakaļatgriešanu. 
-6. Noklikšķiniet uz Saglabāt.
+6. Noklikšķiniet uz **Saglabāt**.
 7. Aizvērt lapu.
 8. Atsvaidziniet lapu.
 
 ## <a name="create-loan-items"></a>Izveidot patapinājuma priekšmetus
-1. Dodieties uz Personāla vadība > Darbinieki > Patapinājuma priekšmeti > Patapinājuma priekšmeti.
-2. Noklikšķiniet uz Izveidot patapinājuma priekšmetus.
-3. Laukā Daudz. ievadiet kādu skaitli.
-4. Apraksta laukā ierakstiet vērtību.
-5. Laukā Patapinājuma tips noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
+1. Dodieties uz **Personāla vadībasdarbniekiLoan** > **·** > **itemsLoan** > **items**.
+2. Noklikšķiniet uz **Izveidot patapinājuma priekšmetus**.
+3. Laukā **Daudzums** ievadiet skaitli.
+4. Laukā **Apraksts** ierakstiet kādu vērtību.
+5. Laukā **Patapinājuma tips** noklikšķiniet uz nolaižamās pogas, lai atvērtu uzmeklēšanu.
 6. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
 7. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
 8. Ievadiet priekšmeta patapinājuma iespējamo dienu skaitu.
     * Noklusēto vērtību lapas Patapinātais aprīkojums laukā Plānotā atgriešana aprēķina kā pašreizējo datumu, kuram tiek pieskaitīts šis skaitlis.  
-9. Laukā Atbildīgais darbinieks noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-10. Noklikšķiniet uz Atlasīt.
-11. Ievadiet skaitli laukā Sākuma vērtība.
-12. Ievadiet skaitli laukā Intervāls.
-13. Ierakstiet vērtību laukā Formāts.
-    * Piemēram, ja patapinājuma priekšmeta sākuma numurs ir 10, laukā Formāts ievadiet divus skaitļa simbolus.  
-14. Noklikšķiniet uz OK.
+9. Laukā **Atbildīgā** persona noklikšķiniet uz nolaižamās pogas, lai atvērtu uzmeklēšanu.
+10. Noklikšķiniet uz **Atlasīt**.
+11. Laukā **Sākuma vērtība** ievadiet skaitli.
+12. Ievadiet skaitli laukā **Intervāls**.
+13. Laukā **Formāts** ierakstiet vērtību.
+    * Piemēram, ja patapinājuma priekšmeta sākuma skaitlis ir 10, laukā Formatēt **ievadiet divu ciparu simbolu simbolus**.  
+14. Noklikšķiniet uz **Labi**.
 15. Atsvaidziniet lapu.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

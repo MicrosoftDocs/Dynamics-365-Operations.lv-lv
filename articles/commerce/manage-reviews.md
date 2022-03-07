@@ -2,15 +2,12 @@
 title: Vērtējumu un atsauksmju pārvaldība
 description: Šajā tēmā ir paskaidrots, kā pārvaldīt vērtējumus un atsauksmes Microsoft Dynamics 365 Commerce vietņu veidotājā.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3fc88bc5a5868dce7c0539bf3f0ddc5b751e7b75
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 1aefa6eb93ef251778a48ba972d87e0cd5930bf0
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414072"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968231"
 ---
 # <a name="manage-ratings-and-reviews"></a>Vērtējumu un atsauksmju pārvaldība
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā ir paskaidrots, kā pārvaldīt vērtējumus un atsauksmes Microsoft Dynamics 365 Commerce vietņu veidotājā.
-
-## <a name="overview"></a>Pārskats
 
 Dynamics 365 Commerce izmanto Microsoft Azure Cognitive Service, lai automātiski moderētu apskata tekstu, rediģējot nepiedienīgos vārdus. Turklāt moderatori var izmantot Dynamics 365 Commerce vietņu veidotāju, lai ieviestu šādus manuālus uzdevumus:
 
@@ -48,7 +43,7 @@ Lai lasītu atsauksmi Commerce vietņu veidotājā, veiciet tālāk norādītās
 
 Papildu filtri ļauj ierobežot apskatus pēc perioda, vērtējuma, kanāla vai svarīguma statusa (noņemts, atbildēts vai ziņots).
 
-![Moderēšanas sākumlapa](media/rnr-moderation-home.png) 
+![Moderēšanas sākumlapa.](media/rnr-moderation-home.png) 
 
 ## <a name="respond-to-a-review"></a>Atbildēšana uz apskatu 
 
@@ -62,7 +57,7 @@ Lai atbildētu uz atsauksmi Commerce vietņu veidotājā, veiciet tālāk norād
 1. Ievadiet atbildes tekstu un parādāmo atbildētāja vārdu. Noklusējuma atbildētāja vārds ir **Moderators**.
 1. Pēc pabeigšanas atlasiet **Ievietot atbildi**.
 
-![Atbildēšana uz apskatu](media/rnr-moderation-response.png) 
+![Atbildēšana uz apskatu.](media/rnr-moderation-response.png) 
 
 ## <a name="take-down-a-review"></a>Apskata noņemšana 
 
@@ -85,7 +80,7 @@ Lai atrastu un dzēstu klienta datus Commerce vietņu veidotājā, rīkojieties 
 1. Ja klients veicis kādas apskatīšanas aktivitātes (piemēram, iesniedzis apskatus, balsojis par cita klienta apskatu noderīgumu vai komentējis cita klienta apskatu), tiek parādīti rezultāti. Katram elementam ir poga **Dzēst**.
 1. Katram elementam, kas jāizdzēš, atlasiet **Dzēst**. Kad tiek pieprasīts apstiprinājums, atlasiet **Jā**. 
     
-![Klienta datu dzēšana](media/rnr-moderation-delete-reviews.png) 
+![Klienta datu dzēšana.](media/rnr-moderation-delete-reviews.png) 
 
 > [!NOTE]
 > - Var paiet līdz septiņām dienām, lai dati tiktu pilnībā noņemti no sistēmas. Moderatoriem jāpaziņo klientiem par šo kavēšanos.
@@ -109,19 +104,19 @@ Lai skatītu vērtējumu un atsauksmju tendences Commerce vietņu veidotājā, r
 1. Dodieties uz **Sākums \> Apskati \> Ziņošana**.
 1. Atlasiet **PowerBI veidne**, lai lejupielādētu veidni.
 
-    ![Lejupielādējiet Power BI veidni](media/rnr-moderation-reports.png) 
+    ![Lejupielādējiet Power BI veidni.](media/rnr-moderation-reports.png) 
 
 1. Atveriet lejupielādēto veidni, izmantojot Power BI programmu. Aizveriet parādījušos dialoglodziņu **Piekļuve tīmekļa saturam** un pēc tam aizveriet parādījušos "Atsvaidzināt" kļūdas ziņojumu.
 1. Dodieties uz **Sākums**, atlasiet **Rediģēt vaicājumus** un pēc tam atlasiet **Datu avota iestatījumi**.
 1. Dialoglodziņā **Datu avota iestatījumi** atlasiet **Mainīt avotu**.
 1. Laukā **URL** ievadiet ceļu uz apskatu datiem, ko lejupielādējāt iepriekšējā procedūrā (piemēram, **c:\\reviews\\ReviewsData.csv**).
 
-    ![URL lauks ar komatu atdalīto vērtību dialoglodziņā](media/rnr-powerbi-datasource-settings.png) 
+    ![URL lauks ar komatu atdalīto vērtību dialoglodziņā.](media/rnr-powerbi-datasource-settings.png) 
 
 1. Atlasiet **Labi** un pēc tam atlasiet **Piemērot izmaiņas**. Lai datu avotam tiktu piemērotas izmaiņas, būs nepieciešamas vienas līdz divas minūtes.
 1. Atlasiet **Tendenču loksne**, lai skatītu vērtējumu un apskatu tendences.
 
-    ![Vērtējumu un apskatu tendences](media/rnr-powerbi-dashboard-template.png) 
+    ![Vērtējumu un apskatu tendences.](media/rnr-powerbi-dashboard-template.png) 
     
 ## <a name="additional-resources"></a>Papildu resursi
 
@@ -132,3 +127,14 @@ Lai skatītu vērtējumu un atsauksmju tendences Commerce vietņu veidotājā, r
 [Vērtējumu un atsauksmju konfigurēšana](configure-ratings-reviews.md)
 
 [Preču vērtējumu sinhronizācija Dynamics 365 Retail](sync-product-ratings.md)
+
+[Iespējojiet moderatora manuālo vērtējumu un atsauksmju publicēšanu](manual-publish-rating-reviews.md)
+
+[Importēt un eksportēt vērtējumus un pārskatus](import-export-reviews.md)
+
+[Konfigurēt pakalpojumu-pakalpojuma autentifikāciju](service-to-service-auth.md)
+
+[BUJ par vērtējumiem un atsauksmēm](ratings-reviews-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

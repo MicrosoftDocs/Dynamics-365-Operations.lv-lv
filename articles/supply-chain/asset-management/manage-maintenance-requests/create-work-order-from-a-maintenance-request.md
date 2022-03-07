@@ -1,12 +1,10 @@
 ---
 title: Darba pasūtījumu izveide no uzturēšanas pieprasījumiem
 description: Šajā tēmā izskaidrots, kā izveidot darba pasūtījumu Līdzekļu pārvaldībā.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 23039306bb827beb861eaacc3177f4917fabc8bf
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: bc2422e395239560be580ec9dd1335d93b20aadc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018100"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354885"
 ---
 # <a name="create-work-orders-from-maintenance-requests"></a>Darba pasūtījumu izveide no uzturēšanas pieprasījumiem
 
@@ -52,5 +50,8 @@ Pēc uzturēšanas pieprasījumu izveides tos var viegli pārvērst par darba pa
 
 6. Atlasiet **Līdzekļu pārvaldība** \> **Kopīgi** \> **Darba pasūtījumi** \> **Visi darba pasūtījumi** un atveriet jauno darba pasūtījumu.
 
-    ![Atvērt jaunu darba pasūtījumu](media/05-manage-maintenance-requests.png)
+    ![Atvērt jaunu darba pasūtījumu.](media/05-manage-maintenance-requests.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

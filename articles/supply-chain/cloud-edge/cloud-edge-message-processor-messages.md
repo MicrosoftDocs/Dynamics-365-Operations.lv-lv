@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 68db4c6561f2cc3fcfd64b49da59a4cc164685f2
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 35fd48ef300d46d00c07f3231d780d1ba431d8ef
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069433"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350574"
 ---
 # <a name="message-processor-messages"></a>Ziņojumu apstrādātāja ziņojumi
 
@@ -29,7 +29,7 @@ ms.locfileid: "8069433"
 
 Ziņojumu procesora ziņojumi tiek izmantoti, palaižot mākoņa un malas skalas vienības [ražošanas darba noslodzei](cloud-edge-workload-manufacturing.md) un [noliktavas pārvaldības darba noslodzei](cloud-edge-workload-warehousing.md).
 
-Centrmezgla un mēroga vienības izvietošanas vides apmainās ar lielu datu apjomu, lai saglabātu sinhronizāciju. Daži no apmainītajiem datiem izraisīs papildu loģiku *ziņojumu procesors*. Varat skatīt ziņojumus, kurus ir apstrādājis ziņojumu procesors, dodoties uz **Sistēmas administrēšana > Ziņojumu procesors > Ziņojumu procesora ziņojumi**.
+Liela apjoma datu apmaiņa notiek starp centrmezgla un mēroga vienības izvietošanas vidi, lai tos sinhronizētu, bet *ziņojumu procesors* apstrādās tikai dažus no šiem datu apmaiņas veidiem.. Ziņojumu procesora apstrādātos ziņojumus varat skatīt, noklikšķinot uz **Sistēmas administrēšana > Ziņojumu procesors > Ziņojumu procesora ziņojumi**.
 
 ## <a name="message-grid-columns-and-filters"></a>Ziņojumu režģa kolonnas un filtri
 
@@ -44,7 +44,7 @@ Jūs varat izmantot laukus **Ziņojumu procesoru ziņojumu** lapas augšpusē, l
   - *Ievietots rindā* – Ziņojumu ir gatavs ziņojuma procesora apstrādei.
   - *Apstrādāts* – Ziņojuma procesors veiksmīgi apstrādāja ziņojumu.
   - *Atcelts* – ziņojums tika apstrādāts, bet apstrāde neizdevās.
-- **Zīņojuma saturs** - Šis filtrs veic pilnu teksta meklēšanu ziņojuma saturam. (Ziņojuma saturs režģī netiek rādīts.) Vairumu speciālo simbolu (piemēram, "-") filtrs uzskata par atstarpēm, un visus atstarpju simbolus uzskata par Būla OR operatoriem. Piemēram, tas nozīmē, ka, ja meklējat konkrētu `journalid` vērtību, kas vienāda ar "USMF-123456", sistēma atradīs visus ziņojumus, kuri satur "USMF" vai "123456", kas visdrīzāk būs garš saraksts. Tāpēc labāk būtu ievadīt tikai "123456", jo tādējādi tiks atgriezti precīzāki rezultāti.
+- **Zīņojuma saturs** - Šis filtrs veic pilnu teksta meklēšanu ziņojuma saturam. (Ziņojuma saturs režģī netiek rādīts.) Vairumu speciālo simbolu (piemēram, "-") filtrs uzskata par atstarpēm, un visus atstarpju simbolus uzskata par Būla OR operatoriem. T=Piemēram, ja meklējat noteiktu `journalid` vērtību, kas vienāda ar "USMF-123456", sistēma atradīs visus ziņojumus, kas satur "USMF" vai "123456", kas, visticamāk, būs garš saraksts. Tāpēc labāk būtu ievadīt tikai "123456", jo tādējādi tiks atgriezti precīzāki rezultāti.
 
 ## <a name="example-message-type-request-inventory-adjustment-financial-update"></a>Ziņojuma veida piemērs: pieprasīt krājumu korekcijas finanšu atjauninājumu
 
@@ -65,7 +65,7 @@ Rīkjosla cilnē **Žurnāls** ietver šādas pogas:
 
 ## <a name="message-processor-batch-job"></a>Ziņojumu procesora pakešuzdevums
 
-Palaižot izdalīto hibrīdu topoloģiju ar mēroja vienībām, pakešuzdevums *Ziņojuma apstrāde* tiks automātiski izsaukts, kad apstrādei tiek izveidots jauns ziņojums, tāpēc jums nevajadzēs šo darbu plānot manuāli.
+Palaižot mākoņa un malas izvietošanu, pakešuzdevums *Ziņojumu procesors* tiks automātiski atsaukts, kad apstrādei tiek izveidots jauns ziņojums, tāpēc jums nevajadzētu šo darbu plānot manuāli.
 
 Ja nepieciešams, varat piekļūt pakešuzdevumam, noklikšķinot uz **Sistēmas administrēšana > Ziņojumu procesors > Ziņojumu procesors**.
 

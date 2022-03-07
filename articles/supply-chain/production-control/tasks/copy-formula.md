@@ -1,24 +1,26 @@
 ---
 title: Formulas kopēšana
 description: Šajā procedūrā uzsvars tiek likts uz to, lai izveidotu formulu, kura iekļauj tādus pašus komponentus, kā esošā formula, bet ar nelielām atšķirībām.
-author: johanhoffmann
+author: ShylaThompson
+manager: tfehr
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 654e631ee7f2f3bbd2d874ad698f1ecaeaa14418
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: cdeeb760ab6bb00cefc6b358e53996dd652e5bc6
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566675"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5255329"
 ---
 # <a name="copy-a-formula"></a>Formulas kopēšana
 

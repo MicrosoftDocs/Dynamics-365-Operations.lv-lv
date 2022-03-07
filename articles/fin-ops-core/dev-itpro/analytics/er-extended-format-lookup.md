@@ -2,6 +2,7 @@
 title: Elektronisko pārskatu (ER) paplašinātā formāta uzmeklēšana
 description: Šajā tēmā aprakstīts, kā ER formāta uzmeklēšanā var iestatīt ER formāta atsauci, ja nepieciešamais formāts tiek glabāts globālajā repozitorijā.
 author: NickSelin
+manager: AnnBe
 ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
@@ -15,46 +16,46 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 2b69ba1b3b27f447b58cf98b1140a481b01b735a
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
-ms.translationtype: MT
+ms.openlocfilehash: 9062cea14ddfd27d88ce5bcecee75f9b2f8b542c
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324142"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5561858"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>Ļaut lietotājiem iestatīt ER formāta atsauci, pieprasot formātu no globālās krātuves
 
 [!include [banner](../includes/banner.md)]
 
-Jūs variet izmantot [Elektronisko pārskatu](general-electronic-reporting.md) (ER) struktūru, lai konfigurētu formātus nosūtīšanas dokumentiem saskaņā ar dažādu valstu/reģionu juridiskajām prasībām. Varat arī izmantot ER struktūru, lai konfigurētu formātus ienākošo dokumentu parsēšanai un izmantotu informāciju no šiem dokumentiem, lai pievienotu vai atjauninātu programmas datus. Katru no šiem formātiem var izmantot jūsu Dynamics 365 Finance instancē, lai apstrādātu ienākošos vai izejošos biznesa dokumentus kā daļu no noteikta biznesa procesa.
+Varat izmantot struktūru [Elektroniskie pārskati](general-electronic-reporting.md) (ER), lai konfigurētu izejošajiem dokumentiem paredzētos [formātus](general-electronic-reporting.md#FormatComponentOutbound) saskaņā ar dažādu valstu/reģionu likumu prasībām. Varat arī izmantot ER struktūru, lai konfigurētu [formātus](general-electronic-reporting.md#FormatComponentInbound) ienākošo dokumentu parsēšanai un izmantotu informāciju no šiem dokumentiem, lai pievienotu vai atjauninātu programmas datus. Katru no šiem formātiem var izmantot jūsu Dynamics 365 Finance instancē, lai apstrādātu ienākošos vai izejošos biznesa dokumentus kā daļu no noteikta biznesa procesa.
 
 Parasti jānorāda, kāds ER formāts konkrētā biznesa procesā jāizmanto. Lai to izdarītu, atlasiet uzmeklēšanas laukā vienu ER formātu, kas ir konfigurēts kā daļa no biznesa procesam raksturīgiem parametriem. Šie uzmeklēšanas lauki parasti tiek ieviesti, izmantojot attiecīgo ER struktūras API. Plašāku informāciju skatiet [ER struktūras API kods formāta kartēšanas uzmeklēšanas atspoguļošanai](er-apis-app73.md#code-to-display-a-format-mapping-lookup).
 
-Piemēram, konfigurējot [ārējās tirdzniecības parametrus](../../../finance/localizations/emea-intrastat.md#set-up-foreign-trade-parameters), jāiestata atsauces uz atsevišķiem ER formātiem, kas tiks izmantoti, lai ģenerētu Intrastat deklarāciju un Intrastat deklarācijas kontroles pārskatu. Tālak redzamajos ekrānuzņēmumos parādīts, kā tiek ER formātu uzmeklēšanas lauks izskatās lapā **Ārējās tirdzniecības parametri**.
+Piemēram, konfigurējot [ārējās tirdzniecības parametrus](https://docs.microsoft.com/dynamics365/finance/localizations/emea-intrastat#set-up-foreign-trade-parameters), jāiestata atsauces uz atsevišķiem ER formātiem, kas tiks izmantoti, lai ģenerētu Intrastat deklarāciju un Intrastat deklarācijas kontroles pārskatu. Tālak redzamajos ekrānuzņēmumos parādīts, kā tiek ER formātu uzmeklēšanas lauks izskatās lapā **Ārējās tirdzniecības parametri**.
 
 Ja pašreizējā Finance instancē nav iekļauti ar Intrastat biznesa procesu saistīti ER formāti, šis uzmeklēšanas lauks būs tukšs.
 
-[![Ārējās tirdzniecības parametru lapa, tukšs pārskata formāta kartēšanas lauks.](./media/ER-ExtLookup-Lookup1.gif)](./media/ER-ExtLookup-Lookup1.gif)
+[![Lapa Ārējās tirdzniecības parametri](./media/ER-ExtLookup-Lookup1.gif)](./media/ER-ExtLookup-Lookup1.gif)
 
 Ja pašreizējā Finance instancē ir iekļauti ar Intrastat biznesa procesu saistīti ER formāti, šis uzmeklēšanas lauks piedāvā ER formātus.
 
-[![Ārējās tirdzniecības parametru lapa, tukšs pārskata formāta kartēšanas lauks ar opcijām.](./media/ER-ExtLookup-Lookup2.png)](./media/ER-ExtLookup-Lookup2.png)
+[![Lapa Ārējās tirdzniecības parametri](./media/ER-ExtLookup-Lookup2.png)](./media/ER-ExtLookup-Lookup2.png)
 
 Šī uzmeklēšana piedāvā tikai tādus ER formātus, kas jau ir importēti uz pašreizējo Finance instanci. Lai [importētu](./tasks/er-import-configuration-lifecycle-services.md) ER risinājumus uz pašreizējo Finance instanci, jums vajadzīgas atļaujas, lai palaistu attiecīgo ER struktūras funkciju, kas atbalsta tādu ER risinājumu [dzīves ciklu](general-electronic-reporting-manage-configuration-lifecycle.md), kurā iekļauti ER formāti.
 
 Sākot no Finance versijas 10.0.9 (2020. gada aprīļa izlaidums), ir paplašināts lietotāja interfeiss ar ER formāta meklēšanu, kas ieviesta, izmantojot ER struktūras API. Joprojām varat atlasīt esošos ER formātus kopsavilkuma cilnē **Atlasīt formāta konfigurāciju**. Papildus paplašinātā uzmeklēšana piedāvā jaunu opciju, lai meklētu globālajā krātuvē (GR) un atrastu konkrētus ER formātus. Visi ER formāti no GR tiek piedāvāti kopsavilkuma cilnē **Importēt no globālās repozitorija**.
 
-[![Ārējās tirdzniecības parametru lapa, Importēt no globālā repozitorija kopsavilkuma cilnes.](./media/ER-ExtLookup-Lookup3.png)](./media/ER-ExtLookup-Lookup3.png)
+[![Lapa Ārējās tirdzniecības parametri](./media/ER-ExtLookup-Lookup3.png)](./media/ER-ExtLookup-Lookup3.png)
 
 Līdzīgi kā kopsavilkuma cilnē **Atlasīt formāta konfigurāciju**, kopsavilkuma cilne **Importēt no globālā repozitorija** rāda tikai tādus ER formātus, kas attiecas uz biznesa procesu, kuram ER formāts ir izvēlēts šajā uzmeklēšanas laukā. Šajā piemērā - Intrastat deklarācijas ģenerēšana. ER formāts ir piemērojams uzņēmumam, kurā lietotājs pašlaik ir pierakstījies (atkarībā no uzņēmuma valsts konteksta).
 
 Atlasot kopsavilkuma cilnē **Importēt no globālā repozitorija** ER formātu, atlasītais ER formāts [konfigurācija](general-electronic-reporting.md#Configuration) tiek importēts no GR uz pašreizējo Finance instanci.
 
-[![Ārējās tirdzniecības parametru lapa, operācijas piezīmes apstrāde.](./media/ER-ExtLookup-FormatImport.png)](./media/ER-ExtLookup-FormatImport.png)
+[![Lapa Ārējās tirdzniecības parametri](./media/ER-ExtLookup-FormatImport.png)](./media/ER-ExtLookup-FormatImport.png)
 
 Pēc tam, ja importēšana pabeigta veiksmīgi, šajā uzmeklēšanas laukā tiek saglabāta atsauce uz importēto ER formātu. Piekļūstot GR pirmo reizi, jāseko sniegtajai saitei, lai pierakstītos pakalpojumam [Regulatory Configuration Service](https://aka.ms/rcs) (RCS), ko izmanto, lai pārvaldītu piekļuvi GR uzglabāšanai.
 
-[![Ārējās tirdzniecības parametru lapa, saite uz pierakstīšanos RCS.](./media/ER-ExtLookup-RepoSignUp.png)](./media/ER-ExtLookup-RepoSignUp.png)
+[![Lapa Ārējās tirdzniecības parametri](./media/ER-ExtLookup-RepoSignUp.png)](./media/ER-ExtLookup-RepoSignUp.png)
 
 Kopsavilkuma cilne **Importēt no globālā repozitorija** pēc noklusējuma sniedz ER formātu sarakstu no pagaidu krātuves, kas tiek automātiski izveidota, pamatojoties uz veiktspējas uzlabojumiem paredzēto GR saturu. Tas notiek, ja kopsavilkuma cilne **Importēt no globāla repozitorija** tiek atvērta pirmo reizi, kas var ilgt vairākas sekundes.
 
@@ -64,7 +65,7 @@ Ja kopsavilkuma cilnē **Importēt no globālā repozitorija** neredzat nepiecie
 
 Šīs funkcionalitātes pieejamību kontrolē līdzeklis **Paplašinātā ER formāta konfigurāciju meklēšana, kas ļauj meklēt globālajā repozitorijā**, kas pieejams lapā **Līdzekļu pārvaldība**. Šis līdzeklis ir iespējots pēc noklusējuma.
 
-[![Lapa Līdzekļu pārvaldība.](./media/ER-ExtLookup-FeatureMngt.png)](./media/ER-ExtLookup-FeatureMngt.png)
+[![Lapa Līdzekļu pārvaldība](./media/ER-ExtLookup-FeatureMngt.png)](./media/ER-ExtLookup-FeatureMngt.png)
 
 ## <a name="security-considerations"></a>Drošības apsvērumi
 
@@ -72,7 +73,7 @@ Privilēģija **Uzturēt konfigurācijas repozitorijus** (**ERMaintainSolutionRe
 
 Tālāk redzamajā ekrānuzņēmumā parādīts, kā šo privilēģiju var piešķirt lietotājiem, kuriem ir piešķirta **Grāmatveža** loma. Šī loma ļauj lietotājiem konfigurēt ārējās tirdzniecības parametrus un iesatīt atsauces uz ER formātiem lapas **Ārējās tirdzniecības parametri** laukos **Faila formāta kartēšana** un **Pārskata formāta kartēšana**.
 
-[![Lapa Drošības konfigurācija.](./media/ER-ExtLookup-SecuritySetting.png)](./media/ER-ExtLookup-SecuritySetting.png)
+[![Lapa Drošības konfigurācija](./media/ER-ExtLookup-SecuritySetting.png)](./media/ER-ExtLookup-SecuritySetting.png)
 
 ## <a name="limitations"></a>Ierobežojumi
 

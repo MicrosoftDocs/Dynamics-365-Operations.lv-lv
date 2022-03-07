@@ -1,8 +1,8 @@
 ---
 title: Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2020. gada 24. marts)
 description: Šajā rakstā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Human Resources uz 2020. gada 24. martu.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 03/24/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-03-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 87b7ea660d94c6d564a8f09d4133b098e0ecedf9
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: d3f9595bd19026e0dad0a2a2ad3708bd4f8ca1ba
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526923"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127949"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-24-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2020. gada 24. marts)
 
@@ -59,7 +59,7 @@ Tālāk norādītie priekšskatījuma līdzekļi kļuva pieejami 2020. gada 3. f
 
 - **Atvieglojumu pārvaldības priekšskatījums** — plašāku informāciju, ieskaitot zināmās problēmas, skatiet [Atvieglojumu pārvaldības apskatā](hr-benefits-management-overview.md).
 
-## <a name="common-data-service-solution-is-now-available-with-the-following-changes"></a>Common Data Service risinājums tagad ir pieejams ar šādām izmaiņām:
+## <a name="dataverse-solution-is-now-available-with-the-following-changes"></a>Dataverse risinājums tagad ir pieejams ar šādām izmaiņām:
 
 | apraksts | Labot |
 | --- | --- |
@@ -71,12 +71,12 @@ Tālāk norādītie priekšskatījuma līdzekļi kļuva pieejami 2020. gada 3. f
 | Jaunas mainīgās atlīdzības iestatījuma entitījas | <ul><li>**Atlīdzības mainīgā plāna tips**</li><li>**Atlīdzības mainīgā sistēma**</li><li>**Izmaksas noteikumi**</li><li>**Atlīdzības mainīgā plāna līmenis**</li></ul> |
 | Jauna **Darbinieka kalendāra nodarbinātības** entitīja | <ul><li>**Darba kalendāra elements** pievienots</li></ul> |
 | Jauna **Algas pozīcijas detalizētas informācijas** entitīja | <ul><li>**Algas pozīcijas detalizēta informācija** pievienota</li></ul> |
-| Jauna **Nosaukuma** entitīja | <ul><li>**Nosaukums** pievienots</li></ul>Jaunā **Nosaukuma** entītija ir iekļauta Common Data Service, bet šajā laikā nav atsauces no **Darba amata** vai **Darba** vienībām. |
+| Jauna **Nosaukuma** entitīja | <ul><li>**Nosaukums** pievienots</li></ul>Jaunā **Nosaukuma** entītija ir iekļauta Dataverse, bet šajā laikā nav atsauces no **Darba amata** vai **Darba** vienībām. |
 
 > [!NOTE]
-> Finanšu dimensijas abām pozīcijām un nodarbinātībai nodrošina viena virziena integrēšanu personāla vadības resursu atjauninājumiem Common Data Service. Finanšu dimensiju atjauninājumi pašlaik nesinhronizējas no Common Data Service uz personāla vadības resursiem.
+> Finanšu dimensijas abām pozīcijām un nodarbinātībai nodrošina viena virziena integrēšanu personāla vadības resursu atjauninājumiem Dataverse. Finanšu dimensiju atjauninājumi pašlaik nesinhronizējas no Dataverse uz personāla vadības resursiem.
 
-Nākamo dažu nedēļu laikā šīs elementa izmaiņas būs pieejamas visās vidēs. Lai manuāli instalētu jaunāko Common Data Service risinājumu Personāla vadībai:
+Nākamo dažu nedēļu laikā šīs elementa izmaiņas būs pieejamas visās vidēs. Lai manuāli instalētu jaunāko Dataverse risinājumu Personāla vadībai:
 
 1.  Dodieties uz [Power Platform Administrēšanas centru](https://admin.powerplatform.microsoft.com).
 

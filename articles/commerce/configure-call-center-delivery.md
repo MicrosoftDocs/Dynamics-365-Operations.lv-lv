@@ -2,11 +2,9 @@
 title: Zvanu centra piegādes veidu un maksu konfigurēšana
 description: Šajā tēmā ir aprakstīts, kā iestatīt zvanu centrā veikta pasūtījuma piegādes veidus un maksas programmā Dynamics 365 Commerce.
 author: josaw1
-manager: AnnBe
 ms.date: 04/26/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, MCROrderParameters
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bce2dac680871e14220d3bb94afacea0a617c707
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9636348e7840206ad1ef5669eae7f553231cadf1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963114"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352618"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Zvanu centra piegādes veidu un maksu konfigurēšana
 
@@ -67,11 +65,11 @@ Sadaļā **Rindas** pēc nepieciešamības varat definēt vienu vai vairākas ma
 
 Uzņēmumi bieži vien konfigurē pa pakāpēm sadalītās maksas. Tādā gadījumā summa, kas debitoriem ir jāmaksā par piegādi, ir balstīta uz pasūtījuma vērtību. Lai konfigurētu pa pakāpēm sadalītās maksas, papildus pašas maksas definēšanai laukā **Maksu vērtība** ievadiet vērtības laukā **No summas** un **Līdz summai**. Piemēram, pasūtījumiem, kuru vērtība ir mazāka par 50 USD, mazumtirgotājs par sūtīšanu iekasē 5,95 USD. Par pasūtījumiem, kuru vērtība ir vienāda ar vai lielāka par 50 USD, bet ir mazāk par 100 USD, mazumtirgotājs iekasē 7,95 USD. Visbeidzot — pasūtījumiem, kuru vērtība ir vienāda ar vai lielāka par 100 USD, mazumtirgotājs nodrošina bezmaksas sūtīšanu. Nākamajā attēlā ir parādīta šo maksu konfigurācija.
 
-![Piemērs ar fiksētām un pa pakāpēm sadalītām maksām](media/fixedtieredcharges.png)
+![Piemērs ar fiksētām un pa pakāpēm sadalītām maksām.](media/fixedtieredcharges.png)
 
 Maksām varat izmantot vairāku kategoriju kombināciju, ņemot vērā sava uzņēmuma vajadzības. Piemēram, visiem pasūtījumiem, kuru vērtība ir mazāka par 100 USD, par sūtīšanu tiek iekasēta fiksēta maksa 9,95 USD. Pēc tam par pasūtījumiem, kuru vērtība ir vienāda ar vai lielāka par 100 USD, piegādes maksas tiek aprēķinātas ar likmi 5 procenti no pasūtījuma vērtības. Nākamajā attēlā ir parādīta šo maksu konfigurācija.
 
-![Piemērs ar jauktām un pa pakāpēm sadalītām maksām](media/mixedtieredcharges.png)
+![Piemērs ar jauktām un pa pakāpēm sadalītām maksām.](media/mixedtieredcharges.png)
 
 ## <a name="apply-delivery-modes-during-order-entry-in-a-call-center"></a>Piegādes veidu lietošana zvanu centrā pasūtījuma izveidošanas laikā
 
@@ -94,3 +92,6 @@ Jebkuram jūsu konfigurētajam piegādes veidam pēc izvēles varat piesaistīt 
 Piemēram, pasūtījumiem, kas nākamajā dienā tiks nosūtīti pa gaisu, izdošana noliktavā katru dienu ir jāpaveic līdz 13.00. Tādā gadījumā var izveidot paātrinātās izpildes kodu, un šo kodu var saistīt ar visiem nākamās dienas piegādes veidiem, kas sistēmā ir konfigurēti. Kad noliktava izveido savu izdošanas kopumu, kā filtru var izmantot atbilstošo paātrinātas izpildes kodu laukā **Paātrināt izpildi**, lai izdošana tiktu palaista tikai pasūtījumiem, kuru piegādes veidi ir saistīti ar šo kodu.
 
 Turklāt, kad tiek izveidots zvanu centra pasūtījums, paātrinātās izpildes kodu var manuāli lietot pārdošanas pasūtījuma virsrakstam vai atsevišķai pārdošanas pasūtījuma rindai. Un atkal šo kodu var izmantot kārtošanai vai pārskatu veidošanai. Reizēm pasūtījums ir jāapstrādā uzmanīgi, jo ir radusies klientu apkalpošanas problēma. Tādā gadījumā pasūtījuma virsrakstam vai rindām var lietot noteiktu paātrinātās izpildes kodu, lai palīdzētu identificēt šo pasūtījumu un piešķirt tam prioritāti izpildes procesa laikā.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

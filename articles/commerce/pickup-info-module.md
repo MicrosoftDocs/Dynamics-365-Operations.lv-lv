@@ -2,27 +2,24 @@
 title: Saņemšanas informācijas modulis
 description: Šajā tēmā tiek stāstīts par saņemšanas informācijas moduli un aprakstīts, kā to pievienot izrakstīšanās lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 11/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-09021
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 61b97d72b6a397737c10476cd6c02764e60f10b1
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
-ms.translationtype: HT
+ms.openlocfilehash: 52015fb973642bfc6f45901e7c1a265f0ccfc415b1324bc62ef77a5fc72550bb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665352"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764565"
 ---
 # <a name="pickup-information-module"></a>Saņemšanas informācijas modulis
 
@@ -43,7 +40,7 @@ Ja ir atlasīti vairāki krājumi vairākiem veikaliem, saņemšanas informācij
 
 Sekojošajā attēlā ir parādīts laika nišas atlases piemērs, izmantojot saņemšanas informācijas moduli, kas atrodas izrakstīšanās lapā.
 
-![Saņemšanas informācijas moduļa piemērs norēķināšanās lapā](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
+![Saņemšanas informācijas moduļa piemērs norēķināšanās lapā.](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
 
 ## <a name="module-properties"></a>Moduļa rekvizīti
 
@@ -59,14 +56,17 @@ Instrukcijas par to, kā pievienot saņemšanas informācijas moduli izrakstīš
 
 Sekojošajā attēlā parādīts e-tirdzniecības norēķinu lapas piemērs, kurā ir ietvertas saņemšanas rindu krājumu laika nišas.
 
-![E-tirdzniecības norēķinu lapas piemērs, kurā ir ietvertas saņemšanas rindu krājumu laika nišas](./dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+![E-tirdzniecības norēķinu lapas piemērs, kurā ir ietvertas saņemšanas rindu krājumu laika nišas.](./dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Izveidot un atjaunināt laika nišas klientu preču saņemšanai](dev-itpro/pickup-timeslots.md)
+[Laikspraugu izveide un atjaunināšana izsniegšanai klientam](dev-itpro/pickup-timeslots.md)
 
 [Norēķināšanās modulis](add-checkout-module.md)
 
 [Pasūtījuma apstiprinājuma modulis](order-confirmation-module.md)
 
 [Pasūtījumu informācijas modulis](account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

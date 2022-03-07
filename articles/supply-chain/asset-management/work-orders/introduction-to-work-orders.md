@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 378fc6d55deada95e94f91ed3f73f2518efbeb1f
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: e9890057ab852a7fb0d60056bb102ce15ac124e2
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021884"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5263738"
 ---
 # <a name="introduction-to-work-orders"></a>Ievads par darba pasūtījumiem
 
@@ -118,3 +118,6 @@ Pogas grupā **Projekts** Darbību rūts cilnē **Darba pasūtījums** ir saist�
 >[!NOTE]
 >Lai iekļautu darba pasūtījumam izveidotās prognozes, darbinot vispārējo plānošanu, izmantojiet prognozes modeli, kas ir atlasīts lapā **Līdzekļu pārvaldības parametri**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: Iegūt līdzekļus, izmantojot sagādi
 description: Šajā tēmā ir aprakstīts, kā iestatīt lauku Pamatlīdzekļi un Kreditori integrāciju, lai automātiski izveidotu pamatlīdzekļus no pirkšanas pasūtījumiem vai kreditora rēķiniem vai automātiski grāmatotu pamatlīdzekļu iegādes un iegādes korekcijas transakcijas.
-author: moaamer
+author: ShylaThompson
+manager: AnnBe
 ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetParameters
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: roschlom
 ms.custom: 3481
 ms.assetid: d4e73a3f-633b-48b2-b8db-7a4a59a4d7ec
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c51abd3ce380f0cb1ad688ffab16b239460bc45
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
-ms.translationtype: MT
+ms.openlocfilehash: 27f1bd8e8b001596054e6c427d87a610975c6a3b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674751"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978718"
 ---
 # <a name="acquire-assets-through-procurement"></a>Iegūt līdzekļus, izmantojot sagādi
 
@@ -106,6 +108,3 @@ Plašāku informāciju skatiet rakstā [Pamatlīdzekļu integrācija](fixed-asse
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

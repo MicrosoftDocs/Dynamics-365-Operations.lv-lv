@@ -2,7 +2,7 @@
 title: PVN aprēķins vispārējā žurnālā.
 description: Šajā tēmā izskaidrots, kā PVN tiek aprēķināts dažādiem kontu tipiem (kreditora, klienta, virsgrāmatas un projekta) vispārējā žurnālā.
 author: EricWangChen
-ms.date: 02/16/2022
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 684b38a4940ff00978201334d1db0cef87b79b35
-ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
-ms.translationtype: MT
+ms.openlocfilehash: 654917705400e0aecc7240e12f68d578827f6ad2
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311958"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488315"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>PVN aprēķins vispārējā žurnālā.
 [!include [banner](../includes/banner.md)]
@@ -77,9 +77,19 @@ Sekojošā diagramma attēlo šo kārtulu grafiski.
 
 ### <a name="account-type-is-customer"></a>Konta tips ir Klients.
 
-Ja dokumentam ir žurnāla rinda, kur konta tips ir **Debitors**, visas žurnāla rindas dokumentā piemēro vienādu PVN virzienu. 
+Ja dokumentam ir žurnāla rinda, kur konta tips ir **Klients**, visas žurnāla rindas dokumentā lieto vienu un to pašu nodokļu virzienu. Šie punkti parāda iespējamos nodokļu norādījumus klientu kontiem.
 
-Ja PVN kods ir neapliekams nodoklis, PVN virziens ir Pārdošana bez nodokļiem. Pretējā gadījumā PVN virziens ir Maksājamais PVN.
+• Ja PVN kods ir ar nodokli neapliekams, tad arī PVN virziens ir nodokli neapliekams pirkums.
+
+• Ja PVN kods ir iekšējais nodoklis, tad PVN virziens ir Saņemamais PVN.
+
+• Ja PVN kods ir apgrieztais nodoklis, tad PVN virziens ir Saņemamais PVN.
+
+Pretējā gadījumā PVN virziens ir Maksājamais PVN.
+
+Sekojošā diagramma attēlo šo kārtulu grafiski.
+
+![Nodokļu virziena iespējas klientu kontiem.](media/Sales-Tax-Direction-Customer.jpg)
 
 ### <a name="account-type-is-ledger"></a>Konta veids ir Virsgrāmata.
 

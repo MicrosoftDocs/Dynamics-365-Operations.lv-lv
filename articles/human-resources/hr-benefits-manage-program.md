@@ -1,39 +1,41 @@
 ---
 title: Atvieglojumu programmas definēšana un pārvaldība
-description: Personāla vadība sniedz rīkus, ko var izmantot, lai iestatītu un uzturētu atvieglojumus, atvilkumus un darbinieku kompensāciju plānus, kurus uzņēmums piedāvā vai apstrādā saviem darbiniekiem. Šis raksts sniedz informāciju par to, kā iestatīt pārvaldīt atvieglojumus.
-author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+description: Personāla vadība sniedz rīkus, ko var izmantot, lai iestatītu un uzturētu atvieglojumus, atvilkumus un darbinieku kompensāciju plānus, kurus uzņēmums piedāvā vai apstrādā saviem darbiniekiem. Šajā tēmā ir sniegta informācija par to, kā iestatīt un pārvaldīt atvieglojumus.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmBenefitEligibilityDetail, HcmBenefitSelection, SysPolicyListPage, SysPolicySourceDocumentRuleType, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 15681
 ms.assetid: 6aee97ac-29f7-4b3c-8aa1-c65810de3090
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: a7fe99d4982b8f35871b15e8049c39eb806e315c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 1f2bfa901aa299a091194978ee95ff0e69f2cdbf
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419509"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065355"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>Atvieglojumu programmas definēšana un pārvaldība
 
-Personāla vadība sniedz rīkus, ko var izmantot, lai iestatītu un uzturētu atvieglojumus, atvilkumus un darbinieku kompensāciju plānus, kurus uzņēmums piedāvā vai apstrādā saviem darbiniekiem. Šis raksts sniedz informāciju par to, kā iestatīt un pārvaldīt atvieglojumus.
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Personāla vadība sniedz rīkus, ko var izmantot, lai iestatītu un uzturētu atvieglojumus, atvilkumus un darbinieku kompensāciju plānus, kurus uzņēmums piedāvā vai apstrādā saviem darbiniekiem. Šajā tēmā ir sniegta informācija par to, kā iestatīt un pārvaldīt atvieglojumus.
 
 ## <a name="benefit-setup"></a>Atvieglojumu iestatīšana
 
 Pirms darbiniekiem var reģistrēt atvieglojumus, jāizveido katra atvieglojuma elementi. Šie elementi apvienot līdzīgus atvieglojumu plānus un nosaka noklusējuma iestatījumus, piemēram, ieturējumu likmes un informāciju par uzskaiti. Daudzus no šiem iestatījumiem var pielāgot, kad darbinieki tiek vēlāk reģistrēti atvieglojumiem. Katram atvieglojumu plānam organizācija var piedāvāt vairākas reģistrācijas opcijas, vai darbinieks var atteikties no reģistrācijas plānā. 
 
-[![Atvieglojumu procesa plūsma](./media/benefit-process-flow1.png)](./media/benefit-process-flow1.png)
+[![Atvieglojumu procesa plūsma.](./media/benefit-process-flow1.png)](./media/benefit-process-flow1.png)
 
 ## <a name="benefit-elements"></a>Atvieglojumu elementi
 
@@ -45,7 +47,7 @@ Pirms sākat veidot atvieglojumus un reģistrēt tajos darbiniekus, ir jādefin�
 
 Katram atvieglojumu tipam, piemēram, redzes vai zobu, organizācija saviem darbiniekiem var piedāvāt vienu vai vairākus plānus. Katram plānam organizācija var piedāvāt dažādas opcijas. Piemēram, darbinieki var iegādāties papildu termiņa dzīvības apdrošināšanas segumu, kas vienu, divas vai trīs reizes pārsniedz gada algu. Katra plānu un opciju kombinācija kļūst par atvieglojumu, kuram darbinieki var reģistrēties. 
 
-[![Atvieglojumu attēls](./media/benefit-pic.png)](./media/benefit-pic.png)
+[![Atvieglojumu attēls.](./media/benefit-pic.png)](./media/benefit-pic.png)
 
 ## <a name="eligibility"></a>Piemērojamība
 Daudzi faktori ietekmē darbinieka atbilstību dažādiem atvieglojumu tipiem, kurus piedāvā darba devējs. Kad veidojat atvieglojumu Dynamics 365 Human Resources, varat iestatīt piemērojamības tipu, kas attiecas uz šo atvieglojumu. 
@@ -64,3 +66,6 @@ Dažreiz organizācija pārtrauc piedāvāt noteiktus atvieglojumus. Šādā gad
 Līdzīgi, masveida atvieglojumu pagarināšana ļauj pagarināt atvieglojumu un darbinieku reģistrēšanās beigu datumu šim atvieglojumam, ja nolemjat piedāvāt atvieglojumu ilgāk nekā sākotnēji plānots.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

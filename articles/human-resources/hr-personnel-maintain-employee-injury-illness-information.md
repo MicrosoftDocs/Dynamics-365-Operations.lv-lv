@@ -1,29 +1,31 @@
 ---
 title: Darbinieku savainojumu un slimību informācijas uzturēšana
-description: Ieteicams vispirms izpildīt uzdevuma ceļvedi Traumas un slimības iestatīšana, jo šeit tiek izmantota daļa iestatīšanas informācijas.
-author: andreabichsel
-manager: AnnBe
-ms.date: 08/29/2018
+description: Šajā uzdevumā aprakstīts, kā izveidot traumas vai slimības gadījumu.
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMInjuryIncident, HcmWorkerLookUp, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 367834e7e02d2061732f46d8e697044e7c49b884
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 06307331db4d420e99de21c0eb0b3cf1c233f0d5
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419511"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066654"
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>Darbinieku savainojumu un slimību informācijas uzturēšana
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
@@ -31,65 +33,54 @@ Ieteicams vispirms izpildīt uzdevuma ceļvedi Traumas un slimības iestatīšan
 
 
 
-Šajā uzdevuma ierakstā paskaidrotas pamata darbības, lai izveidotu traumas vai slimības incidentu. Papildus traumas vai slimības izsekošanas datiem izsekots tiek incidenta statuss.  Pēc noklusējuma incidenta statuss ir Atvērts.  Statusus var pārvaldīt no lapas augšpusē esošās izvēlnes vienuma 'Incidenta statuss'.
+Šajā uzdevumu ierakstā ir aprakstītas pamata darbības traumas vai slimības gadījuma izveidei. Papildus informācijai par traumu vai slimību tiek izsekots gadījuma statuss. Pēc noklusējuma pieteikumiem ir statuss **Atvērts**. Statusu var pārvaldīt, **izmantojot izvēlnes elementu Pieteikums** lapas augšdaļā.
 
-1. Pārejiet uz sadaļu Personāla vadība > Darbinieki > Traumas un slimības > Traumu vai slimību incidenti.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Incidenta apraksts ierakstiet vērtību.
-    * Piemērs: plaukstas trauma  
-4. Laukā Darbinieks ievadiet vai atlasiet vērtību.
-    * Piemērs: Ahmed Barnett  
-5. Laukā Incidenta datums un laiks ievadiet datumu un laiku.
-    * Piemērs: 20.01.2016., 10.00  
-6. Laukā Traumas vai slimības veids ievadiet vai atlasiet vērtību.
-    * Piemērs: Lūzums  
-7. Laukā Ķermeņa daļa ievadiet vai atlasiet vērtību.
-    * Piemērs: Plaukstas locītava  
-8. Laukā Iznākuma veids ievadiet vai atlasiet vērtību.
-    * Piemērs: Ārstēšana  
-9. Laukā Ziņotais datums un laiks ievadiet datumu un laiku.
-    * Pārskatā ietvertajam datumam un laikam jābūt vēlāk par incidenta datumu un laiku.  
-10. Laukā Persona, kas ziņoja par incidentu ievadiet vai atlasiet vērtību.
-    * Tas varētu būt darbinieks vai cits incidenta aculiecinieks.  Piemērs: Ahmed Barnett  
-11. Izvērsiet sadaļu Incidents.
-12. Laukā Vieta, kur notika incidents ievadiet vērtību.
-    * Piemērs: noliktava  
-13. Laukā Darba telpās atlasiet Jā.
-    * Ja incidents notika darba telpās, atlasiet Jā.  
-14. Laukā Datums un laiks, kad sāka strādāt ievadiet datumu un laiku.
-    * Ievadiet datumu un laiku, kad cietušais sāka strādāt uzņēmumā (pirms incidenta).  
-15. Laukā Darbinieka darba pienākumi vai uzdevumi ierakstiet vērtību.
-    * Ievadiet darbu vai uzdevumu, ko darbinieks izpildīja incidenta brīdī.  Piemērs: kastu pārkraušana  
-16. Laukā Incidenta iemesls ierakstiet vērtību.
-    * Ievadiet incidenta iemeslu.  Piemērs: paslīdēja uz slapjas grīdas  
-17. Laukā Smaguma līmenis ievadiet vai atlasiet vērtību.
-18. Laukā Veicamā darbība ievadiet vērtību.
-    * Piemērs: nekavējoties nosusināt grīdu sausu  
-19. Laukā Paredzamais nestrādāšanas dienu skaits ievadiet skaitli.
-    * Ievadiet dienu skaitu, kad darbinieks neapmeklēs darbu.  Kad darbinieks atgriežas darbā, atjauniniet lauku Ārpus darba pavadītās dienas ar faktisko ārpus darba pavadīto dienu skaitu.  
-20. Izvērsiet sadaļu Traumas vai slimības izmaksas.
-21. Noklikšķiniet uz Pievienot.
-22. Laukā Datums ievadiet kādu datumu.
-23. Laukā Izmaksu tips ievadiet vai atlasiet vērtību.
-    * Piemērs: ārstēšana, var ievadīt arī summu un pievienot visus pavaddokumentus, piemēram, rēķinus vai ārsta piezīmes par izmaksām.  
-24. Noklikšķiniet uz Pievienot.
-25. Laukā Datums ievadiet kādu datumu.
-26. Laukā Izmaksu tips ievadiet vai atlasiet vērtību.
-    * Piemērs: ārsts  
-27. Izvērsiet sadaļu Traumas vai slimības ārstēšana.
-28. Noklikšķiniet uz Pievienot.
-29. Laukā Ārstēšanas datums ievadiet datumu un laiku.
-30. Laukā Ārstēšanas veids ievadiet vai atlasiet vērtību.
-    * Piemērs: šina  
-31. Ja nepieciešams, neatliekamās medicīniskās palīdzības kabineta apmeklējuma slimnīcā sadaļā iestatiet Jā.
-32. Laukā Ārstēšanas komentāri ierakstiet vērtību.
-    * Piemērs: šina 2 nedēļas  
-33. Laukā Ārsta vārds ierakstiet vērtību.
-    * Piemērs: ārsts Andersons  
-34. Laukā Ārstēšanas iestāde un atrašanās vieta ievadiet vērtību.
-    * Piemērs: Elm St. Emergency  
-35. Laukā Papildinformācija par ārstēšanu ierakstiet vērtību.
-    * Piemērs: rentgena uznēmums apliecina lūzumu, jālieto šina  
-36. Noklikšķiniet uz Saglabāt.
-    * Incidenta statusu var atjaunināt jebkurā laikā.  Iestatīt incidentam statusu Aktīvs, ja trauma vai slimība vēl tiek ārstēts.  Slēdzgtam incidentam var tikai pievienot vai noņemt ar to saistītās izmaksas, ārstēšanu vai sistematizāciju.  Lai modificētu citu informāciju, incidents atkārtoti jāaktivizē.  
+1. Dodieties uz **Personāla \> darbinieki \> Traumas un slimības \> Traumas vai slimības incidenti**.
+2. Atlasiet **Jauna**.
+3. Laukā **Pieteikuma apraksts** ievadiet vērtību (piemēram, **plaukstas locītavas traumu**).
+4. Laukā **Darbinieks** ievadiet vai atlasiet vērtību (piemēram, **Ana Bowman**).
+5. **Laukā Incidenta** datums un laiks ievadiet datumu un laiku (piemēram, 2016. gada 20. janvāris plkst).
+6. Laukā **Traumas vai slimības tips** ievadiet vai atlasiet vērtību (piemēram, **Lūzums**).
+7. Laukā Pamatteksta **daļa** ievadiet vai atlasiet vērtību (piemēram, **Plaukstas locītavu**).
+8. Laukā **Rezultāta tips** ievadiet vai atlasiet vērtību (piemēram, **Terapija**).
+9. Laukā **Datuma un laika pārskats** ievadiet datumu un laiku.
 
+    Paziņotajam datumam un laikam jābūt vēlākam par incidenta datumu un laiku.
+
+10. Laukā **Persona, kas ziņoja par gadījumu**, ievadiet vai atlasiet vērtību (piemēram, **Ana Bowman**).
+
+    Norādītā persona var būt darbinieks vai cits incidenta liecinieks.
+
+11. **Sadaļas Incidents** **laukā Where incidents** ievadiet vērtību (piemēram, **Noliktava**).
+12. Laukā **Darba telpās** atlasiet **Jā**, ja incidents noticis darba telpās.
+13. Laukā **Datums un laiks, kad tika uzsākts darbs**, ievadiet datumu un laiku, kad skartā persona sāka strādāt pirms incidenta.
+14. Laukā **Darbinieka darbs vai uzdevums** ievadiet darbu vai uzdevumu, ko darbinieks veica incidenta laikā (piemēram, **lodziņi** Ielāde). 
+15. Incidenta **laukā** Cēlonis ievadiet incidenta cēloni (piemēram, **Paslīdēja uz mitras grīdas**).
+16. Laukā **Smaguma pakāpe** ievadiet vai atlasiet vērtību.
+17. Laukā Veicamā **darbība** ievadiet vērtību (piemēram, **nekavējoties** iztīrīt noplūdes).
+18. Laukā **Paredzamās dienas, kas atrodas ārpus darba**, ievadiet dienu skaitu, cik personai ir jābūt prom no darba.
+
+    Pēc tam, kad persona ir atgriezies darbā, atjauniniet **lauku Dienas prom no darba** ar faktisko dienu skaitu, kad persona bija prom.
+
+19. Sadaļā Traumas **vai slimības izmaksas** atlasiet **Pievienot**.
+20. Laukā **Datums** ievadiet datumu.
+21. Laukā **Izmaksu tips** ievadiet vai atlasiet vērtību (piemēram, **Terapija**).
+
+    Varat arī ievadīt summu un pievienot izmaksu apliecinošus dokumentus (piemēram, rēķinus vai ārsta piezīmes).
+
+22. Atlasiet **Pievienot**.
+23. Laukā **Datums** ievadiet datumu.
+24. Laukā Pašizmaksas **tips** ievadiet vai atlasiet vērtību (piemēram, **Ārsts**).
+25. **Sadaļā Traumas** vai slimību ārstēšana atlasiet **Pievienot**.
+26. Laukā **Apstrādes datums** ievadiet datumu un laiku.
+27. Laukā **Ārstēšanas tips** ievadiet vai atlasiet vērtību (piemēram, **Šina**).
+28. Pēc izvēles: iestatiet Neatliekamās **palīdzības dienesta slimnīcas apmeklējuma** sadaļu uz **Jā**.
+29. Laukā **Ārstēšanas komentāri** ievadiet vērtību (piemēram, **Šina 2 nedēļas**).
+30. Laukā **Ārsta vārds** ievadiet vērtību (piemēram, **Dr. Anderson**).
+31. Iekš **Ārstniecības iestāde un atrašanās vieta** laukā ievadiet vērtību (piemēram, **Elm St Emergency**).
+32. Iekš **Sīkāka informācija par ārstēšanu** laukā ievadiet vērtību (piemēram, **Rentgens apstiprina lūzumu, nēsā šinu**).
+33. Atlasiet **Saglabāt**.
+
+Incidenta statusu var atjaunināt jebkurā laikā. Ja notiek traumas vai slimības apstrāde, iestatiet statusu uz **Procesā**. Pēc incidenta aizvēršanas varat pievienot vai noņemt tikai izmaksas, ārstēšanu vai dokumentus, kas ir saistīti ar incidentu. Lai mainītu citu informāciju, jums ir atkārtoti jāatver lieta.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

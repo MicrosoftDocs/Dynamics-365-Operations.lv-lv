@@ -1,35 +1,30 @@
 ---
 title: Uzdevumu sarakstu piešķiršana veikaliem vai darbiniekiem
-description: " Šajā tēmā aprakstīts, kā piešķirt uzdevumu sarakstus veikaliem vai darbiniekiem Microsoft Dynamics 365 Commerce."
+description: Šajā tēmā aprakstīts, kā piešķirt uzdevumu sarakstus veikaliem vai darbiniekiem programmā Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 82cec9861b759037f40315fb2e6f36002a0ac059
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 18f13fb1754b2740b8447a67f09320651b0ca4003c6f46c6d4668e5159ae1a2d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414116"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730831"
 ---
 # <a name="assign-task-lists-to-stores-or-employees"></a>Uzdevumu sarakstu piešķiršana veikaliem vai darbiniekiem
 
 [!include [banner](includes/banner.md)]
 
- Šajā tēmā aprakstīts, kā piešķirt uzdevumu sarakstus veikaliem vai darbiniekiem Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
+Šajā tēmā aprakstīts, kā piešķirt uzdevumu sarakstus veikaliem vai darbiniekiem programmā Microsoft Dynamics 365 Commerce.
 
 Uzdevumu pārvaldība programmā Dynamics 365 Commerce ļauj piešķirt uzdevumu sarakstu vairākiem veikaliem vai darbiniekiem vai arī veikalu un darbinieku kombinācijai. Piemēram, reģionālais vadītājs 20 veikaliem varētu vēlēties piešķirt uzdevumu sarakstu **Gatavošanās atvaļinājumu sezonai** visiem 20 veikaliem.
 
@@ -37,7 +32,7 @@ Uzdevumu pārvaldība programmā Dynamics 365 Commerce ļauj piešķirt uzdevumu
 
 Lai sāktu uzdevumu saraksta piešķiršanu, rīkojieties šādi.
 
-1. Dodieties uz **Retail un Commerce \>Uzdevumu pārvaldība \>Uzdevumu pārvaldības administrēšana**.
+1. Dodieties uz **Mazumtirdzniecība un komercija \> Uzdevumu pārvaldība \> Uzdevumu pārvaldības administrēšana**.
 1. Atlasiet uzdevumu sarakstu, ko piešķirt.
 1. Atlasiet **Uzsākt procesu**.
 1. Dialoglodziņa **Uzsākt procesu** cilnē **Vispārīgi**, laukā **Procesa nosaukums** ievadiet nosaukumu (piemēram, **Austrumu apgabala veikali**).
@@ -50,13 +45,13 @@ Lai sāktu uzdevumu saraksta piešķiršanu, rīkojieties šādi.
 
 Šajā attēlā parādīts piemērs, kā atrast un atlasīt veikalus dialoglodziņā **Uzsākt procesu**.
 
-![Veikalu atrašana un atlasīšana procesa uzsākšanas dialoglodziņā](media/HQ-Assign-Tasks-Lists.png)
+![Veikalu atrašana un atlasīšana procesa uzsākšanas dialoglodziņā.](media/HQ-Assign-Tasks-Lists.png)
 
 ## <a name="assign-task-lists-on-a-recurring-basis"></a>Uzdevumu sarakstu periodiska piešķiršana
 
 Mazumtirgotājam reizēm ir periodiski uzdevumi, piemēram, "Ceturtdienas slēgšanas kontrolsaraksts" vai "Mēneša pirmā dienas kontrolsaraksts". Tāpēc viņi var vēlēties uzdevumu sarakstu piešķirt periodiski.
 
-1. Dodieties uz **Retail un Commerce \>Uzdevumu pārvaldība \>Uzdevumu pārvaldības administrēšana**.
+1. Dodieties uz **Retail un Commerce \> Uzdevumu pārvaldība \> Uzdevumu pārvaldības administrēšana**.
 1. Atlasiet uzdevumu sarakstu, ko piešķirt.
 1. Atlasiet **Uzsākt procesu**.
 1. Dialoglodziņa **Uzsākt procesu** cilnē **Vispārīgi**, laukā **Procesa nosaukums** ievadiet nosaukumu.
@@ -67,7 +62,7 @@ Mazumtirgotājam reizēm ir periodiski uzdevumi, piemēram, "Ceturtdienas slēg�
 
 Šajā attēlā parādīts piemērs, kā ievadīt biežuma kritērijus dialoglodziņā **Definēt periodiskumu**.
 
-![Biežuma kritēriju ievade dialoglodziņā Definēt periodiskumu](media/HQ-Assign-Tasks-Lists-Recurrently.png)
+![Biežuma kritēriju ievade dialoglodziņā Definēt periodiskumu.](media/HQ-Assign-Tasks-Lists-Recurrently.png)
 
 ## <a name="track-task-list-status"></a>Izsekot uzdevumu saraksta statusam
 
@@ -75,12 +70,12 @@ Ja esat reģionālais vadītājs vai veikala vadītājs, iespējams, vēlēsitie
 
 Lai izsekotu uzdevumu saraksta statusam visiem uzdevumiem, rīkojieties šādi.
 
-1. Dodieties uz **Retail un Commerce \>Uzdevumu pārvaldība \>Uzdevumu pārvaldības procesi**.
+1. Dodieties uz **Retail un Commerce \> Uzdevumu pārvaldība \> Uzdevumu pārvaldības procesi**.
 1. Atlasiet cilni **Visi uzdevumu saraksti**, lai skatītu visu to uzdevumu sarakstu statusu, kas ir piešķirti dažādiem veikaliem.
 
 Lai izsekotu uzdevumu saraksta statusam visiem uzdevumiem, kas piešķirti jums, rīkojieties šādi.
 
-1. Dodieties uz **Retail un Commerce \>Uzdevumu pārvaldība \>Uzdevumu pārvaldības procesi**.
+1. Dodieties uz **Retail un Commerce \> Uzdevumu pārvaldība \> Uzdevumu pārvaldības procesi**.
 1. Atlasiet cilni **Mani uzdevumi** vai **Visi uzdevumi**, lai skatītu vai atjauninātu jums piešķirto uzdevumu statusu.
 
 ## <a name="additional-resources"></a>Papildu resursi
@@ -92,3 +87,6 @@ Lai izsekotu uzdevumu saraksta statusam visiem uzdevumiem, kas piešķirti jums,
 [Uzdevumu sarakstu izveidošana un uzdevumu pievienošana](task-mgmt-create-lists.md)
 
 [Uzdevumu pārvaldība punktā POS](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Konfigurāciju importēšana, lai ģenerētu dokumentus ar programmas datiem
 description: Lai izpildītu šīs procedūras darbības, vispirms izpildiet procedūru "ER Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu".
 author: NickSelin
-manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f919d953c3aa0c8d16366167a12e52d35f32cdf
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 08ab90d6f53dbb9eabeea3c2cf020792e8957c7b71ed27fc491008fcad114c72
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684623"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727489"
 ---
 # <a name="import-configurations-to-generate-documents-that-have-application-data"></a>Konfigurāciju importēšana, lai ģenerētu dokumentus ar programmas datiem
 
@@ -75,3 +73,6 @@ daļa: konfigurāciju importēšana". Šajā procedūrā importēsiet nepiecieš
     * Pārskatiet formāta struktūru, kas tiek izmantota, lai ģenerētu Intrastat pārskatu. Ņemiet vērā, ka tā ir paredzēta, lai ģenerētu XML failu, aizpildot datus no datu modeļa, kas balstīts uz saknes vienumu 'Izejošajam dokumentam'. Pārbaudiet, vai lietotāja dialoglodziņa veidlapā ir definēts ģenerētā faila nosaukums (šim mērķim tiek izmantots 'fn' datu avots).   
 30. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

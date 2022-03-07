@@ -1,37 +1,31 @@
 ---
 title: Noliktavas iestatīšana
-description: Šajā tēmā ir aprakstīts, kā iestatīt noliktavu, ko izmantot kopā ar jaunu kanālu programmā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā aprakstīts, kā iestatīt noliktavu, kuru izmantot ar jauno kanālu risinājumā Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6da72ae612f0520965a2b11a21123d4642303ac3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 154ec719e16e4826b0e24deb5ecadf587d938e3c
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414042"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800499"
 ---
 # <a name="warehouse-set-up"></a>Noliktavas iestatīšana
 
-
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā iestatīt noliktavu, ko izmantot kopā ar jaunu kanālu programmā Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
+Šajā tēmā aprakstīts, kā iestatīt noliktavu, kuru izmantot ar jauno kanālu risinājumā Microsoft Dynamics 365 Commerce.
 
 Katram Commerce kanālam ir nepieciešama konfigurēta noliktava, kas saistīta ar to. Šīs procedūras nodrošina minimālo konfigurāciju, kas nepieciešama, lai iestatītu noliktavu Commerce kanālam. Lai iegūtu vairāk informācijas par noliktavas iestatījumiem, lūdzu, skatiet sadaļu [Noliktavas pārvaldības pārskats](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json).
 
@@ -147,3 +141,6 @@ Tālāk esošajā attēlā ir parādīta detalizēta informācija par konfigurē
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

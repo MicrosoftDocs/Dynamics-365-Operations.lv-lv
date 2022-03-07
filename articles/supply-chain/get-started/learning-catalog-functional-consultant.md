@@ -13,12 +13,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3bd028e7d61fd57ed434a8a598bf24329a54ac1c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 435b68af76d290a2b8b1f3bc9f3c4ff7f6626299
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963639"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5245231"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-functional-consultants"></a>Dynamics 365 Supply Chain Management funkcionālo konsultantu apmācības katalogs
 
@@ -113,3 +113,6 @@ Funkcionāliem konsultantiem mūsu darba uzdevuma analīzes pētījumi parādīj
 | [Eksāmens MB-300: Microsoft Dynamics 365 Unified Operations Pamata](https://docs.microsoft.com/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Šis eksāmens nosaka jūsu spēju izpildīt sekojošos tehniskos uzdevumus: izmantot parasto funkcionalitāti un ieviešanas rīkus; konfigurēt drošību, procesus un opcijas; veikt datu migrāciju un pārbaudīt un atbalstīt risinājumu. | Eksāmens; izmaksas var mainīties atkarībā no reģiona |
 | [Eksāmens MB-330: Microsoft Dynamics 365 for Finance and Operations, Supply Chain Management](https://docs.microsoft.com/learn/certifications/exams/mb-330?wt.mc_id=learningredirect_certs-web-wwl) | Šis eksāmens nosaka jūsu spēju veikt šādus tehniskos uzdevumus: ieviest produktu informācijas pārvaldību; ieviest krājumu pārvaldību; ieviest un pārvaldīt piegādes ķēdes procesus; ieviest noliktavas pārvaldības un transportēšanas pārvaldību un veikt biznesa procesus. | Eksāmens; izmaksas var mainīties atkarībā no reģiona |
 | [Eksāmens MB-320: Microsoft Dynamics 365 for Finance and Operations, Ražošana](https://www.microsoft.com/learning/exam-MB-320.aspx) | Šis eksāmens nosaka jūsu spēju veikt sekojošos tehniskos uzdevumus: iestatīt un konfigurēt ražošanu; izveidot un pārvaldīt ražošanas un Lean pasūtījumus; un izveidot, apstrādāt un pārvaldīt ražošanas partijas pasūtījumus. | Eksāmens; izmaksas var mainīties atkarībā no reģiona |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

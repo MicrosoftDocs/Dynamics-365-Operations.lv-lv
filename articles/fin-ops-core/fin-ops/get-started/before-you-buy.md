@@ -2,11 +2,9 @@
 title: Pirms iegādes
 description: Detalizēti norādījumi, ko izmantot, apsverot Dynamics 365 Finance, Dynamics 365 Supply Chain Management vai Dynamics 365 Commerce iegādi.
 author: ShellyBakke
-manager: AnnBe
-ms.date: 11/23/2020
+ms.date: 11/30/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: smiller
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: ea741e3d4b3a6ce93a30c9d8c8adc7c91b513871
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: f994acfb85e5bb7ccb9cbd3e6c0a0f3c4eec318a
+ms.sourcegitcommit: 34113bd588d53b9aed481da060a1c6738fca0eaf
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798553"
+ms.lasthandoff: 11/30/2021
+ms.locfileid: "7874588"
 ---
 # <a name="before-you-buy"></a>Pirms iegādes
 
@@ -44,7 +42,7 @@ Lokālo versiju izvēloties kā izvietošanas opciju, ir jāņem vērā tālāk 
 - [Sistēmas prasības lokālajiem izvietojumiem](system-requirements-on-prem.md).
 
 > [!IMPORTANT]
-> Lokāla izvietošana netiek atbalstīta nevienā publiskā mākoņa infrastruktūrā, tostarp Microsoft Azure.
+> Lokāla izvietošana netiek atbalstīta nevienā publiskā mākoņa infrastruktūrā, tostarp Microsoft Azure. Tomēr tie tiek atbalstīti, lai tos palaistu [Microsoft Azure steka HCI](https://azure.microsoft.com/products/azure-stack/hci/) un [Microsoft Azure Steka centrmezglā](https://azure.microsoft.com/products/azure-stack/hub/).
 
 Papildinformāciju skatiet tēmā [Izvietošanas opcijas](../../dev-itpro/deployment/choose-deployment-type.md).
 
@@ -84,12 +82,15 @@ Microsoft nodrošina elastīgu un nozarē vadošu atbalstu, pakalpojumus un resu
 Papildu resursus skatiet:
 
 - [Dynamics 365 atbalsts](https://www.microsoft.com/dynamics365/support)
-- [ Microsoft Dynamics mākoņpakalpojuma atbalsta priekšrocību īsā lietošanas pamācība](https://go.microsoft.com/fwlink/?LinkId=530335) (PDF)
+- [Pakalpojuma Microsoft Dynamics mākoņpakalpojuma atbalsta priekšrocību īsā lietošanas pamācība](https://go.microsoft.com/fwlink/?LinkId=530335) (PDF)
 
 ## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>Ceturtā darbība: uzziniet par FastTrack un plānojiet savu izvietojumu
 
-Microsoft FastTrack for Dynamics 365 ir pakalpojums mūsu klientiem, kas izstrādāts ar mērķi palīdzēt jums viegli un ar pārliecību pāriet uz Dynamics 365, lai jūs ātrāk varētu realizēt biznesa vērtību. Piedaloties FastTrack programmā, saņemsit norādījumus par labākajām praksēm un to, kā plānot veiksmīgu izlaidi. Jūs uzzināsit arī veidus, kā iespējot jaunus lietotājus un paplašināt iespējas — to visu varēsit darīt sev piemērotākajā brīdī. Turklāt jums būs piekļuve Microsoft tehniskajiem resursiem, kas palīdzēs nodrošināt veiksmīgu pieredzi darbā ar Dynamics 365. Papildinformāciju skatiet sadaļā [Microsoft FastTrack](fasttrack-dynamics-365-overview.md).
+Microsoft FastTrack for Dynamics 365 ir pakalpojums mūsu klientiem, kas izstrādāts ar mērķi palīdzēt jums viegli un ar pārliecību pāriet uz Dynamics 365, lai jūs ātrāk varētu realizēt biznesa vērtību. Piedaloties FastTrack programmā, saņemsit norādījumus par labākajām praksēm un to, kā plānot veiksmīgu izlaidi. Jūs uzzināsit arī veidus, kā iespējot jaunus lietotājus un paplašināt iespējas — to visu varēsit darīt sev piemērotākajā brīdī. Turklāt jums būs piekļuve Microsoft tehniskajiem resursiem, kas palīdzēs nodrošināt veiksmīgu pieredzi darbā ar Dynamics 365. Papildinformāciju skatiet sadaļā [Microsoft FastTrack](/dynamics365/fasttrack/).
 
-## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Ja veicat jaunināšanu no programmas Dynamics AX 2012 vai migrēšanu no programmas AX 2009
+## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Ja veicat jaunināšanu no programmas Dynamics AX 2012 vai migrēšanu no programmas AX 2009
 
-Ja esat debitors, kas veic jaunināšanu no programmas Microsoft Dynamics AX 2012 vai migrēšanu no programmas Microsoft Dynamics AX 2009, iespējams, jums ir pieejams ilgāks izmēģinājuma periods. Lai iegūtu papildu informāciju, rakstiet uz adresi <daxcf@microsoft.com>.
+Ja esat debitors, kas veic jaunināšanu no programmas Microsoft Dynamics AX 2012 vai migrēšanu no programmas Microsoft Dynamics AX 2009, iespējams, jums ir pieejams ilgāks izmēģinājuma periods. Lai iegūtu papildu informāciju, rakstiet uz adresi <daxcf@microsoft.com>.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

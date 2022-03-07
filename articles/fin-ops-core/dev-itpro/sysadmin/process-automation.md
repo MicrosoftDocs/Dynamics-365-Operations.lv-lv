@@ -2,11 +2,9 @@
 title: Procesu automatizācija
 description: Šī tēma sniedz detalizētu informāciju par to, kā procesu automatizācija ļauj vienkārši plānot procesus, ko veiks pakešu serveris.
 author: RyanCCarlson2
-manager: tonyafehr
-ms.date: 08/12/2020
+ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProcessScheduleSeries
 audience: Application User, Developer, IT Pro
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-06-30
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: 479f621ef05519f4f2c97112a0115dccdbf24c52
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: b69fa378539e39053b6f7066ba4b6ae9984157c9bdc4f38b78de4c062c04ad09
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682513"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746541"
 ---
 # <a name="process-automation"></a>Procesu automatizācija
 
@@ -32,13 +30,13 @@ Procesu automatizācija ļauj vienkārši plānot procesus, ko veiks pakešu ser
 
 Centrālā administrēšanas lapa visu procesu automatizācijām ir atrodama Sistēmas administrēšanas modulī, kas atrodas izvēlnē **Iestatījumi**. Šajā lapā tiks uzskaitīti visi automatizētie procesi (sērijas), kas ir iestatīti sistēmā. Tas arī ļaus jums pievienot jaunu procesu automatizācijas tieši no šīs lapas. Pēc sērijas iestatīšanas varat pārvaldīt katru šī saraksta sēriju. Varat izvēlēties rediģēt visu sēriju, dzēst to, skatīt visus gadījumus saraksta skatā vai atspējot sēriju, ja vēlaties pauzēt plānoto darbu. 
 
-Visi procesi, kas ir atspējoti līdzekļu pārvaldībā, netiks rādīti, kad līdzeklis ir atspējots. Turklāt procesu automatizācijas plānošanas programma neplāno nekādus gadījumus vai fona procesus atspējotam līdzeklim. No jauna iespējojot šo līdzekli, visi ieplānotie gadījumi vai fona procesi pagātnē tiek nekavējoties palaisti.
+Visi procesi, kas ir atspējoti līdzekļu pārvaldībā, netiks rādīti, kad līdzeklis ir atspējots. Turklāt procesu automatizācijas plānošanas programma neplāno nekādus gadījumus vai fona procesus atspējotam līdzeklim. No jauna iespējojot šo līdzekli, visi ieplānotie gadījumi vai fona procesi pagātnē tiek nekavējoties palaisti. Procesa automatizācijas plānošanas programma balstās uz sistēmas pakešuzdevuma **Procesa automatizācijas aptauju sistēmas darbs** palaišanu. Darbs nekādā gadījumā nedrīkst tikt mainīts vai pārveidots. 
 
 ## <a name="calendar-view"></a>Kalendāra skats
 
 Viens no procesa automatizācijas galvenajiem ieguvumiem ir iespēja redzēt plānoto darbu vienkāršā kalendāra skatā.  Šis skats ļauj jums skatīt darbu nedēļas laikā. Šis skats tiks rādīts **Procesa automatizācijas** lapas labajā pusē. Tas tiks aizpildīts ar atlasītās sērijas ieplānoto darbu. 
 
-[![Procesu automatizācijas kalendārs](./media/CalendarView2.png)](./media/CalendarView2.png)
+[![Procesu automatizācijas kalendārs.](./media/CalendarView2.png)](./media/CalendarView2.png)
 
 ## <a name="occurrence-changes"></a>Gadījumu izmaiņas
 
@@ -47,3 +45,6 @@ Katru gadījumu var modificēt, neietekmējot ar tām izveidoto sēriju definēt
 ## <a name="developer-documentation"></a>Izstrādātāja dokumentācija
 
 Procesu automatizācijas struktūra ļauj izstrādātājiem paplašināt procesu automatizācijas struktūru. Šī [Procesu automatizācijas struktūras](../process-automation/process-automation-framework.md) dokumentācija sniedz informāciju par to, kā varat izveidot pielāgotus procesus, kas ir nepieciešami, lai palaistu pakešu serveri, kas paredzēts procesu automatizācijas vednim, un automātiski tiek rādīti kalendāra skatā.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

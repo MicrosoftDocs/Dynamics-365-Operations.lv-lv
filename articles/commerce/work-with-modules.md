@@ -2,35 +2,30 @@
 title: Darbs ar moduļiem
 description: Šajā tēmā aprakstīts, kā un kad izmantot moduļus programmā Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 301eb6206fb9e02c3aa7d3c07cf368ba800a1ab9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: ce16aa98a37cd5dec60bcdbf86f59f74810da9755a6d3514bdd3e38a21afb748
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414067"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728268"
 ---
 # <a name="work-with-modules"></a>Darbs ar moduļiem
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā aprakstīts, kā un kad izmantot moduļus programmā Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
 
 Moduļi ir loģiski veidošanas bloki, kas veido lapas struktūru, un tiem ir dažādi mērķi un tvērumi. Daži moduļi ir augsta līmeņa konteineri, un to vienīgais mērķis ir aizturēt un organizēt citus moduļus (pakārtotos moduļus). Citiem moduļiem, piemēram, vienkāršam attēla novietojuma modulim, ir ļoti specifisks mērķis. Citi moduļi, piemēram, karuseļa modulis, atrodas kaut kur starp šīm divām kategorijām.
 
@@ -58,7 +53,7 @@ Lielākā daļa parasto, ikdienas lapu un satura autorēšanas aktivitāšu ietv
 
 Tālāk esošajā attēlā ir parādīts, kā moduļi tiek ligzdoti pamata konteineru moduļa slotos.
 
-![Ligzdošanas moduļi](../commerce/media/basic-module-nesting.png)
+![Ligzdošanas moduļi.](../commerce/media/basic-module-nesting.png)
 
 ## <a name="add-or-remove-modules"></a>Moduļu pievienošana vai noņemšana
 
@@ -173,3 +168,6 @@ Lai konfigurētu konteinera moduli lapā, rīkojieties, kā norādīts tālāk.
 
 [Darbs ar publicēšanas grupām](publish-groups.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Piekļuve programmas metadatiem, izmantojot saistītās programmas
-description: Šajā tēmā izklāstītās darbības skaidro, ka Regulējošā konfigurēšanas pakalpojuma (RCS) lietotājs var izveidot jaunu elektroniskā pārskata (ER) kartēšanu, izmantojot metadatus programmā Finance and Operations.
+description: Šajā tēmā tiek skaidrots, kā Regulatory configuration service (RCS) lietotājs var izveidot jaunu Elektroniskā pārskata (ER) kartēšanu, izmantojot metadatus.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/29/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 751ac21dc056373e1cd89a5149bf38789134e0cc
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 6d99ca41a9a24ef8ac0fe31e703cad79d41216fa726fa1d354ac19db90706954
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682145"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776028"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>Piekļuve programmas metadatiem, izmantojot saistītās programmas
 
 [!include [banner](../../includes/banner.md)]
 
-Nākamajās darbībās ir paskaidrots, kā Regulatory Configuration Service (RCS) lietotājs ar lomu “Sistēmas administrators” vai “Elektronisko pārskatu izstrādātājs” var noformēt jauna elektronisko pārskatu (Electronic reporting — ER) modeļa kartēšanu, izmantojot Finance and Operations metadatus. Programmas metadatiem jāpiekļūst tiešsaistē, izmantojot ar RCS saistīto programmu. Parauga ER modeļa kartēšana jākonfigurē piekļuvei ārējās tirdzniecības transakcijām. Lai izpildītu tālāk norādītās darbības, pakalpojumā RCS vispirms izpildiet darbības, kas ir aprakstītas tēmā [Konfigurācijas nodrošinātāju izveide un atzīmēšana par aktīviem](er-configuration-provider-mark-it-active-2016-11.md). Ja neesat izpildījis tēmā [Piekļuve programmas metadatiem, izmantojot ER konfigurāciju](access-application-metadata-er-configuration.md) norādītās darbības, dodieties uz [Elektronisko pārskatu piemēru lapu](https://go.microsoft.com/fwlink/?linkid=862266), lai lejupielādētu un saglabātu šādas ER konfigurācijas: Ārējās tirdzniecības metadati.xml; Ārējās tirdzniecības modelis.xml; Ārējās tirdzniecības kartēšana.xml. Pēc tam izpildiet procedūras darbības.
+Nākamajās darbībās ir paskaidrots, kā Regulatory Configuration Service (RCS) lietotājs ar lomu “Sistēmas administrators” vai “Elektronisko pārskatu izstrādātājs” var noformēt jauna elektronisko pārskatu (Electronic reporting — ER) modeļa kartēšanu, izmantojot Finance and Operations metadatus. Programmas metadatiem jāpiekļūst tiešsaistē, izmantojot ar RCS saistīto programmu. Parauga ER modeļa kartēšana jākonfigurē piekļuvei ārējās tirdzniecības transakcijām. Lai izpildītu tālāk norādītās darbības, pakalpojumā RCS vispirms izpildiet darbības, kas ir aprakstītas tēmā [Konfigurācijas nodrošinātāju izveide un atzīmēšana par aktīviem](er-configuration-provider-mark-it-active-2016-11.md). Ja neesat izpildījis tēmā [Piekļuve programmas metadatiem, izmantojot ER konfigurāciju](access-application-metadata-er-configuration.md) norādītās darbības, lejupielādējiet [Elektronisko pārskatu piemēru lapu](https://download.microsoft.com/download/0/4/e/04e13839-e423-442b-a6c2-dd35b1045c2d/Dynamics%20365%20for%20Finance%20and%20Operations%208.1%20Electronic%20reporting%20task%20guides.zip) un saglabājiet šādas ER konfigurācijas: Ārējās tirdzniecības metadati.xml; Ārējās tirdzniecības modelis.xml; Ārējās tirdzniecības kartēšana.xml. Pēc tam izpildiet procedūras darbības.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 1. Dodieties uz **Visas darbvietas** > **Elektroniskie pārskati**. 
@@ -113,3 +111,6 @@ Nākamajās darbībās ir paskaidrots, kā Regulatory Configuration Service (RC
 11. Aizvērt lapu. 
 
 Ja ir jānovērtē šī modeļa kartēšana, izmantojot citas versijas programmas metadatus, reģistrējiet citu savienoto programmu, piešķiriet to šai modeļa kartēšanai un validējiet to ar jauniem metadatiem.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

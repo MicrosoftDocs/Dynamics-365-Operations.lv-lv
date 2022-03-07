@@ -1,8 +1,8 @@
 ---
-title: FUNKCIJA WEEKNUM ER
-description: Šajā tēmā sniegta informācija par to, kā tiek izmantota funkcija WEEKNUM Electronic Reporting (ER).
+title: Weeknum ER (funkcija WEEKNUM ER)
+description: Šajā tēmā ir sniegta informācija par to, kā tiek izmantota funkcija WEEKNUM Electronic reporting (ER).
 author: NickSelin
-ms.date: 01/15/2022
+ms.date: 12/03/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,18 +14,19 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: AX 10.0.24
-ms.openlocfilehash: 37e62b32896e2030b3322a89ac4acdd6c18d5e3c
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: fe36d4142b6e4922e2cbca09bb0ca9f68f6680a0
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982181"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891368"
 ---
-# <a name="weeknum-er-function"></a>FUNKCIJA WEEKNUM ER
+# <a name="weeknum-er-function"></a>Weeknum ER (funkcija WEEKNUM ER)
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
-Funkcija `WEEKNUM` atgriež Vesela *[...](er-formula-supported-data-types-primitive.md#integer)* skaitļa vērtību, kas apzīmē gada nedēļu, kurā iekļauta norādītā *[Datuma](er-formula-supported-data-types-primitive.md#date)* vērtība. Aprēķina pamatā ir no kultūras atkarīgi noteikumi, kas definē kalendāro nedēļu un pirmo nedēļas dienu.
+`WEEKNUM` Funkcija atgriež *[Integer](er-formula-supported-data-types-primitive.md#integer)* vērtību, kas attēlo tā gada nedēļu, kurā iekļauta norādītā *[datuma](er-formula-supported-data-types-primitive.md#date)* vērtība. Aprēķina pamatā ir no kultūras atkarīgi noteikumi, kas definē kalendāro nedēļu un nedēļas pirmo dienu.
 
 ## <a name="syntax"></a>Sintakse
 
@@ -37,11 +38,11 @@ WEEKNUM (date, culture) as Integer
 
 `date`: *Datums*
 
-Datuma vērtība, kas norāda datumu, kuru izmantot gada nedēļas aprēķinam.
+Datuma vērtība, kas norāda datumu, kas jāizmanto gada nedēļas aprēķināšanai.
 
 `culture`: *[virkne](er-formula-supported-data-types-primitive.md#string)*
 
-Aprēķinam izmantojamā kultūra. Var lietot kultūras kodus, kas tiek atbalstīti atbilstoši .NET [standartiem](/dotnet/api/system.globalization.cultureinfo.getcultures?view=net-5.0).
+Aprēķinam izmantojamā kultūra. Var izmantot kultūras kodus, kas tiek atbalstīti saskaņā ar .NET [standartiem](/dotnet/api/system.globalization.cultureinfo.getcultures?view=net-5.0).
 
 ## <a name="return-values"></a>Atgrieztās vērtības
 
@@ -51,9 +52,9 @@ Iegūtā skaitliskā vērtība.
 
 ## <a name="usage-notes"></a>Lietošanas piezīmes
 
-Gada nedēļa tiek aprēķināta, pamatojoties uz [ISO 8601 standartu, ja valsts vai reģions ir pieņēmis šo standartu, izpildlaikā tiek](https://www.iso.org/iso-8601-date-and-time-format.html) nodrošināta darbības vieta. Pretējā gadījumā aprēķins pamatojas uz valstij/reģionam specifiskiem valsts standartiem.
+Gada nedēļu aprēķina, pamatojoties uz [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) standartu, ja šo standartu ir pieņēmusi valsts vai reģions, kas ir paredzēts izpildlaikā. Pretējā gadījumā aprēķins ir balstīts uz valstij/reģionam specifiskiem valsts standartiem.
 
-Ja izpildlaikā atbalstīts kultūras kods ir norādīts kā [funkcijas](#arguments)`WEEKNUM` arguments, tiek uzstāts kā izņēmums. Ja tukšā virkne ir sniegta kā kultūras kods, nedēļas numura aprēķinam tiek izmantots angļu valsts neitrālais kalendārs.
+Ja izpildlaikā kā funkcijas arguments tiek norādīts neatbalstīts [kultūras](#arguments)`WEEKNUM` kods, tiek izmests izņēmums. Ja tukšā virkne ir norādīta kā kultūras kods, nedēļas numura aprēķināšanai tiek izmantots angļu valsts neitrālais kalendārs.
 
 ## <a name="examples"></a>Piemēri
 

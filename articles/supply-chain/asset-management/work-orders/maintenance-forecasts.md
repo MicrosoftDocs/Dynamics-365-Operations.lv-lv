@@ -1,12 +1,10 @@
 ---
 title: Uzturēšanas prognozes
 description: Šajā tēmā ir paskaidrotas uzturēšanas prognozes programmā Asset Management.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderForecastToJournals, EntAssetWorkOrderForecast
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c60834a1f818b142a0f2f022d66fe1f42edeb536
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: dd652af3100f8de59e06490443baeebca58a4dd3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020868"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838542"
 ---
 # <a name="maintenance-forecasts"></a>Uzturēšanas prognozes
 
@@ -123,3 +121,6 @@ Ja stundu izmaksas, vienumu izmaksas un izdevumi ir atjaunināti citos moduļos 
 Attēlā tālāk ir parādīts sarakstu dialoga **Atjaunināt darba pasūtījumu prognozi** piemērs.
 
 ![2. attēls](media/07-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

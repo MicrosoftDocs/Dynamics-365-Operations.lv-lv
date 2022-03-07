@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e175d1e3de1f5db31de9c4600c8a5935f0cb11a9d39bc0f4e142edf5fc00ce86
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5204fb80dcf3dc2342e9d37f18b9d4f587de1808
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745916"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754298"
 ---
 # <a name="row-definitions-in-financial-report-designer"></a>Rindas definīcijas finanšu atskaišu veidotājā
 
@@ -158,7 +158,7 @@ Rindas definīcijā norādītais formatējums ignorē visu formatējumu, kas ir 
 
 1. Pārskatu veidotājā atveriet modificējamo rindas definīciju.
 2. Atlasiet formatējamās šūnas. Lai atlasītu vairākas šūnas, atlasīšanas laikā turiet taustiņu Ctrl.
-3. Rīkjoslā noklikšķiniet uz nepieciešamā formāta pogas. Piemēram, lai rindai izveidotu atkāpi, atlasiet rindu un tad noklikšķiniet uz rīkjoslas vienuma **Palielināt atkāpi** ![Palielināt atkāpi.](media/indent.gif "Palielināt atkāpi") rīkjoslā.
+3. Rīkjoslā noklikšķiniet uz nepieciešamā formāta pogas. Piemēram, lai rindai izveidotu atkāpi, atlasiet rindu un tad noklikšķiniet uz rīkjoslas vienuma **Palielināt atkāpi** ![Palielināt atkāpi](media/indent.gif "Palielināt atkāpi").
 
 ### <a name="adjust-columns-while-you-design-reports"></a>Kolonnu pielāgošana pārskatu veidošanas laikā
 

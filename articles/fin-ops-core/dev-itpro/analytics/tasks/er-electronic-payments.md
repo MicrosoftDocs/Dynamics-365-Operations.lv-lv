@@ -1,12 +1,10 @@
 ---
 title: ER Ģenerēt elektroniskos dokumentus maksājumiem, izmantojot formātu konfigurāciju
-description: Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektroniskā pārskata izstrādātājs var izmantot jauno Elektronisko pārskatu (ER) konfigurācijas formātu, lai ģenerētu elektroniskos dokumentus maksājumu apstrādei.
+description: Tematā aprakstīts, kā izmantot jaunu elektronisko pārskatu (ER) konfigurāciju, lai ģenerētu elektroniskos dokumentus maksājumu apstrādei.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym, BankAccountTableLookUp
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6e88df5c2f92ee2b9b448ba100c8bc4105eddae4
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 05295ff36ffd194b3f50fcdd9d7528c787c80f39104f46f9c51890a75a852735
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681737"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712668"
 ---
 # <a name="er-generate-electronic-documents-for-payments-using-a-format-configuration"></a>ER Ģenerēt elektroniskos dokumentus maksājumiem, izmantojot formātu konfigurāciju
 
@@ -81,3 +79,6 @@ Lai veiktu šīs darbības, vispirms veiciet "Konfigurācijas izveide ar maksāj
 25. Noklikšķiniet uz OK.
     * Analizējiet izveidoto maksājumu failu XML formātā. Salīdziniet to ar izstrādāto dokumenta izkārtojumu un definētajiem maksājuma transakcijas atribūtiem.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

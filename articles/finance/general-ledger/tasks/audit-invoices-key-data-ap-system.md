@@ -1,7 +1,7 @@
 ---
 title: Rēķinu un pamatdatu auditēšana kreditoru modulī
 description: Šajā tēmā ir parādīts, kā auditēt rēķinus un pamatdatus kreditoru modulī.
-author: kweekley
+author: saraschi2
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: PurchTable, PurchCreateOrder, PurchEditLines, VendEditInvoice, V
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: kweekley
+ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f49f8c87f628d68f2c7f355b93cdf5e0a9403251
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
-ms.translationtype: MT
+ms.openlocfilehash: 6ac1e9d8c5255b8347c9563ce9ea846933c0c9dd
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883723"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815240"
 ---
 # <a name="audit-invoices-and-key-data-in-accounts-payable"></a>Rēķinu un pamatdatu auditēšana kreditoru modulī
 

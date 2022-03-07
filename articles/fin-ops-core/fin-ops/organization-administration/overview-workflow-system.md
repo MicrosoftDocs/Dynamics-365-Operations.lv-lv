@@ -2,30 +2,33 @@
 title: Darbplūsmu sistēmas apskats
 description: Šajā tēmā ir aprakstīta darbplūsmu sistēma.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.custom: 56381
+ms.custom:
+- "56381"
+- intro-internal
 ms.assetid: 20b78595-e1d9-439a-ae1c-a776a3438919
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 660e01618eea66bc611dd51818694d36993ba9ea
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: 70776ba0a0461998d2c1f62ba05b55cd4307a0f7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797000"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067937"
 ---
 # <a name="workflow-system-overview"></a>Darbplūsmu sistēmas apskats
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Šajā tēmā ir aprakstīta darbplūsmu sistēma.
 
@@ -41,7 +44,7 @@ Darbplūsma ir sistēma, kas darbojas serverī Application Object Server (AOS). 
 
 Darbplūsma attēlo biznesa procesu. Izmantojot darbplūsmu, tiek noteikta dokumenta plūsma caur sistēmu un norādīts, kam ir jāpabeidz uzdevums, jāpieņem lēmums vai jāapstiprina dokuments. Piemēram, nākamajā attēlā ir redzama darbplūsma izdevumu pārskatiem.
 
-![Darbplūsma ar lietotājiem piešķirtajiem elementiem](./media/workflow_user.gif)
+![Darbplūsma ar lietotājiem piešķirtajiem elementiem.](./media/workflow_user.gif)
 
 Lai varētu labāk izprast šo darbplūsmu, pieņemsim, ka Sems iesniedz izdevumu pārskatu par summu USD 7000. Šajā gadījumā Jānim ir jāpārskata kvītis, kuras viņam ir maršrutējis Sems. Pēc tam Kārlim un Santai ir jāapstiprina izdevumu pārskats. Tagad pieņemsim, ka Sems iesniedz izdevumu pārskatu par 11 000 USD. Šajā scenārijā Jānim ir jāpārskata kvītis un Kārlim, Sanitai un Annai ir jāapstiprina izdevumu pārskats.
 
@@ -71,3 +74,6 @@ Darbplūsmas sistēmas lietošanai organizācijā ir vairākas priekšrocības.
 + [Paralēlu zaru konfigurēšana darbplūsmā](configure-parallel-branch-workflow.md)
 + [Konfigurēt dokumenta rindas darbplūsmas](configure-line-item-workflow.md)
 + [Bieži uzdotie jautājumi par darbplūsmām](workflow-FAQ.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

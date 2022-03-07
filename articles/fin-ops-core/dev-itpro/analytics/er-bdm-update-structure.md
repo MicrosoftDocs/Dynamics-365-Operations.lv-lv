@@ -2,11 +2,9 @@
 title: Biznesa dokumenta veidnes struktūras atjaunināšana
 description: Šajā tēmā paskaidrots, kā atjaunināt biznesa dokumenta veidnes struktūru, izmantojot biznesa dokumentu pārvaldības līdzekli.
 author: NickSelin
-manager: AnnBe
 ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERBDWorkspace, ERBDParameters, ERBDTemplateEditor
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: cb0188e372b5f6275472cf040d10bb796eed1858
-ms.sourcegitcommit: 95d2fc0fa7d17d3a96f7969f12c985b018b4ff94
-ms.translationtype: HT
+ms.openlocfilehash: 2f57e3f3a84a6e767755c69074bc194e90793e6edd79d0e07ae7449d45ec7539
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "4728093"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775290"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>Biznesa dokumenta veidnes struktūras atjaunināšana 
 
@@ -60,7 +58,7 @@ Veiciet procedūras, kas norādītas [Biznesa dokumentu pārvaldības pārskatā
 
     Jaunā veidne tiek atvērta rediģēšanai Excel Online iegultajā vadīklā veidnes redaktora lapā.
 
-[![Biznesa dokumentu pārvaldības darbvietas izmantošana, lai sāktu biznesa dokumenta veidnes rediģēšanu](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
+[![Biznesa dokumentu pārvaldības darbvietas izmantošana, lai sāktu biznesa dokumenta veidnes rediģēšanu.](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
 
 ### <a name="review-the-current-structure-of-the-editable-template"></a>Pašreizējās rediģējamās veidnes struktūras pārskatīšana
 
@@ -70,7 +68,7 @@ Veiciet procedūras, kas norādītas [Biznesa dokumentu pārvaldības pārskatā
 4. Rūtī **Veidnes struktūra** izvērsiet **Pārskats \> Rēķins \> rptHeader \> rptHeaderPart1**.
 5. Ņemiet vērā, ka Finance veidnes struktūrā krājums **rptHeaderCompLogo** tiek parādīts kā pakārtotais krājums **Pārskats \> Rēķins \> rptHeader \> rptHeaderPart1**.
 
-[![Biznesa dokumentu pārvaldības darbvietas izmantošana, lai pārskatītu rediģējamas veidnes pašreizējo struktūru](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
+[![Biznesa dokumentu pārvaldības darbvietas izmantošana, lai pārskatītu rediģējamas veidnes pašreizējo struktūru.](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-deleting-a-picture"></a>Biznesa dokumenta veidnes struktūras atjaunināšana, dzēšot attēlu
 
@@ -87,7 +85,7 @@ Veiciet procedūras, kas norādītas [Biznesa dokumentu pārvaldības pārskatā
 4. Rūtī **Veidnes struktūra** izvērsiet **Pārskats \> Rēķins \> rptHeader \> rptHeaderPart1**.
 5. Ņemiet vērā, ka krājums **rptHeaderCompLogo** vairs nav iekļauts Finance veidnes struktūrā.
 
-[![Biznesa dokumentu pārvaldības darbvietas izmantošana, lai dzēstu attēlu no biznesa dokumenta veidnes](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
+[![Biznesa dokumentu pārvaldības darbvietas izmantošana, lai dzēstu attēlu no biznesa dokumenta veidnes.](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-adding-a-picture"></a>Biznesa dokumenta veidnes struktūras atjaunināšana, pievienojot attēlu
 
@@ -99,10 +97,13 @@ Veiciet procedūras, kas norādītas [Biznesa dokumentu pārvaldības pārskatā
 6. Rūtī **Veidnes struktūra** izvērsiet **Pārskats \> Rēķins \> rptHeader \> rptHeaderPart1**.
 7. Ņemiet vērā, ka jaunais attēls tagad ir iekļauts Finance veidnes struktūrā kā krājums.
 
-[![Biznesa dokumentu pārvaldības darbvietas izmantošana, lai pievienotu attēlu biznesa dokumenta veidnei](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
+[![Biznesa dokumentu pārvaldības darbvietas izmantošana, lai pievienotu attēlu biznesa dokumenta veidnei.](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
 
 ## <a name="related-links"></a>Saistītās saites
 
 [Elektronisko pārskatu veidošanas (ER) apskats](general-electronic-reporting.md)
 
 [Biznesa dokumentu pārvaldības pārskats](er-business-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

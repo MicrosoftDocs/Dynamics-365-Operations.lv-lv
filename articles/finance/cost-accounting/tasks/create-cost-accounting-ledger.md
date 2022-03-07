@@ -2,22 +2,25 @@
 title: Izmaksu uzskaites virsgrāmatas izveide
 description: Izmaksu uzskaites virsgrāmata atspoguļo vispārējo pārskata vienību.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4422e4938445d74c869c24af36755afd75547702d4c80a1f5686aa090d49b3ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b0339b3c90817540f7ae58b903c8b5e6383eb938
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736925"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4445520"
 ---
 # <a name="create-a-cost-accounting-ledger"></a>Izmaksu uzskaites virsgrāmatas izveide
 
@@ -35,6 +38,3 @@ Izmaksu uzskaites virsgrāmata atspoguļo vispārējo pārskata vienību. To def
 8. Laukā Statistiskā dimensija ievadiet vai atlasiet kādu vērtību.
 9. Noklikšķiniet uz Saglabāt.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

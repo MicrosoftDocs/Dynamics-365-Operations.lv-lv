@@ -2,11 +2,9 @@
 title: Videoklipi
 description: Šajā lapā ir uzskaitīti Microsoft izveidotie norādījumu un tehnisko sarunu (Tech Talk) videoklipi saistībā ar programmām Finance and Operations, kuri ir pieejami vietnē YouTube un citās vietnēs.
 author: sericks007
-manager: AnnBe
-ms.date: 12/01/2020
+ms.date: 09/15/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro, Developer
 ms.reviewer: sericks
@@ -16,18 +14,18 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 56fdfc400b5bc3e640e7951985d54ffa870f96c9
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: 3fe44a9a7fcef2f22dff3be00ddfadd5b8c59574
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797879"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7487995"
 ---
 # <a name="videos"></a>Videoklipi 
 
 [!include [banner](../includes/banner.md)]
 
-[Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) ir atrodami videoklipi, kurus Microsoft izveidoja, lai demonstrētu dažādus biznesa risinājumus Dynamics 365 produktiem. Šajā sadaļā ir uzskaitīti norādījumu videoklipi programmām Finance and Operations, kas tiek viesoti šajā kanālā.
+[Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) ir atrodami videoklipi, kurus Microsoft izveidoja, lai demonstrētu dažādus biznesa risinājumus Dynamics 365 produktiem. Šajā sadaļā ir uzskaitīti norādījumu videoklipi programmām Finance and Operations, kas tiek viesoti šajā kanālā.
 
 > [!Note]
 > Daži no uzskaitītajiem videoklipiem tika publicēti ar iepriekšējo preces nosaukumu, bet tie joprojām ir piemērojami.
@@ -36,7 +34,6 @@ ms.locfileid: "4797879"
 
 ### <a name="data-integration"></a>Datu integrācija
 
-- [Moduļa “No potenciālā klienta uz skaidru naudu” integrēšana](https://youtu.be/AVV9x5x-XCg)
 - [Darba pasūtījumu sinhronizēšana starp Dynamics 365 for Field Service un Finance and Operations programmām](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 ### <a name="data-management"></a>Datu pārvaldība
@@ -86,14 +83,14 @@ ms.locfileid: "4797879"
 
 ## <a name="videos-for-dynamics-365-finance"></a>Videoklipi par Dynamics 365 Finance
 
+### <a name="business-document-management"></a>Biznesa dokumentu pārvaldība
+- [Jauna biznesa dokumenta izveide, izmantojot biznesa dokumentu pārvaldību](https://www.youtube.com/watch?v=gAIYl-mM_pw)
+
 ### <a name="customize-the-app"></a>Programmas pielāgošana
 - [Pievienot pielāgotus laukus](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
 - [Iegult Power Apps](https://www.youtube.com/watch?v=x3qyA1bH-NY)
 
-### <a name="expenses"></a>Izdevumi
-- [Izdevumu funkcionalitāte](https://youtu.be/Ocy-MsTvEE0)
-
-### <a name="financial-reporting"></a>Finanšu pārskatu veidošana
+### <a name="financial-reporting"></a>Finanšu pārskati
 - [Pārskatu veidotāja versijas atrašana](https://www.youtube.com/embed/icfA5Q3kp4w)
 
 ### <a name="help-system"></a>Palīdzības sistēma
@@ -117,6 +114,9 @@ ms.locfileid: "4797879"
 
 
 ## <a name="videos-for-dynamics-365-supply-chain-management"></a>Videoklipi par Dynamics 365 Supply Chain Management
+
+### <a name="business-document-management"></a>Biznesa dokumentu pārvaldība
+- [Jauna biznesa dokumenta izveide, izmantojot biznesa dokumentu pārvaldību](https://www.youtube.com/watch?v=gAIYl-mM_pw)
 
 ### <a name="costs"></a>Izmaksas
 - [Izmaksu kontroles mobilā darbvieta](https://youtu.be/imsuTg8rUVk)
@@ -167,3 +167,6 @@ ms.locfileid: "4797879"
 [FastTrack tehniskās sarunas](https://community.dynamics.com/365/b/techtalks?c=Finance%20and%20Operations) ir koncentrētas uz padziļinātas tehniskās informācijas sniegšanu un iepazīstināšanu ar ieteicamajām praksēm, kas klientiem un partneriem nodrošina ar viņu konkrētajām jomām saistītas detalizētas zināšanas.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

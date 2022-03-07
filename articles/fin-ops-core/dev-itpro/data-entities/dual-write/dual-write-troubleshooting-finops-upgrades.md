@@ -1,12 +1,10 @@
 ---
-title: Ar Finance and Operations programmu jaunināšanu saistītu problēmu novēršana
+title: Problēmu novēršana saistībā ar Finance and Operations programmu jauninājumiem
 description: Šajā tēmā sniegta informācija par problēmu novēršanu, kas var palīdzēt novērst problēmas, kas saistītas ar atjauninājumiem Finance and Operations lietojumprogrammās.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 03/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,14 +16,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: c76b35ed3af766f42484a118a4a0407d969b5240
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 92a95e5a0f603eb5f9afbf14ba924df168e44203
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683603"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350864"
 ---
-# <a name="troubleshoot-issues-related-to-upgrades-of-finance-and-operations-apps"></a>Ar Finance and Operations programmu jaunināšanu saistītu problēmu novēršana
+# <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>Problēmu novēršana saistībā ar Finance and Operations programmu jauninājumiem
 
 [!include [banner](../../includes/banner.md)]
 
@@ -42,7 +40,7 @@ ms.locfileid: "4683603"
 
 **Problēmas novēršanai nepieciešamā loma:** Sistēmas administrators
 
-Iespējams, mēģinot izmantot **DualWriteProjectConfiguration** elementu, lai atjauninātu Finance and Operations programmu uz 30. platformas atjauninājumu, saņemat kļūdas ziņojumu, kas līdzīgs šim piemēram.
+Iespējams, mēģinot izmantot **DualWriteProjectConfiguration** tabulu, lai atjauninātu Finance and Operations programmu uz 30. platformas atjauninājumu, saņemat kļūdas ziņojumu, kas līdzīgs šim piemēram.
 
 ```console
 Infolog diagnostic message: 'Cannot select a row in Dual write project sync (DualWriteProjectConfiguration). The SQL database has issued an error.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Object Server Database Synchronizer: ' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: '[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ISDELETE'.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'SELECT T1.PROJECTNAME,T1.EXTERNALENTITYNAME,T1.INTERNALENTITYNAME,T1.EXTERNALENVIRONMENTURL,T1.STATUS,T1.ENABLEBATCHLOOKUP,T1.PARTITIONMAP,T1.QUERYFILTEREXPRESSION,T1.INTEGRATIONKEY,T1.ISDELETE,T1.ISDEBUGMODE,T1.RECVERSION,T1.PARTITION,T1.RECID FROM DUALWRITEPROJECTCONFIGURATION T1 WHERE (PARTITION=5637144576)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'session 1043 (Admin)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Stack trace: Call to TTSCOMMIT without first calling TTSBEGIN.' on category 'Error'.
@@ -62,7 +60,7 @@ Lai novērstu problēmu, izpildiet šīs darbības.
 8. Atlasiet **Sinhronizēt**, lai veiktu pilnīgu datu bāzes sinhronizāciju.
 9. Kad pilnīga datu bāzes sinhronizācija ir veiksmīgi pabeigta, atkārtoti palaidiet datu bāzes sinhronizācijas darbību pakalpojumā Microsoft Dynamics Lifecycle Services (LCS) un pēc nepieciešamības izmantojiet manuālos jaunināšanas skriptus, lai varētu turpināt atjaunināšanu.
 
-## <a name="missing-entity-fields-issue-on-maps"></a>Trūkstošu elementu lauku problēma kartēs
+## <a name="missing-table-columns-issue-on-maps"></a>Kartēs trūkst tabulas kolonnu izejas plūsmas
 
 **Problēmas novēršanai nepieciešamā loma:** Sistēmas administrators
 
@@ -70,24 +68,27 @@ Lapā **Duālais ieraksts** var tikt parādīts kļūdas ziņojums, kas līdzīg
 
 *Nav avota lauka \<field name\> sistēmā.*
 
-![Trūkstošā avota lauka kļūdas ziņojuma piemērs](media/error_missing_field.png)
+![Trūkstošās avota kolonnas kļūdas ziņojuma piemērs.](media/error_missing_field.png)
 
-Lai atrisinātu problēmu, vispirms veiciet šīs darbības, lai nodrošinātu, ka lauki atrodas entītijā.
+Lai atrisinātu problēmu, vispirms veiciet šīs darbības, lai nodrošinātu, ka kolonnas atrodas tabulā.
 
 1. Piesakieties programmas Finance and Operations VM.
 2. Dodieties uz **Darbvietas \> Datu pārvaldība**, atlasiet elementu **Struktūras parametri** un pēc tam cilnē **Tabulas iestatījumi** atlasiet **Atsvaidzināt elementu sarakstu**, lai atsvaidzinātu tabulas.
-3. Dodieties uz **Darbvietas \> Datu pārvaldība**, atlasiet cilni **Datu tabulas** un pārliecinieties, ka elements ir uzskaitīts. Ja elements nav uzskaitīts, piesakieties Finance and Operations programmas VM, un pārliecinieties, ka šis elements ir pieejams.
+3. Dodieties uz **Darbvietas \> Datu pārvaldība**, atlasiet cilni **Datu tabulas** un pārliecinieties, ka tabula ir uzskaitīta. Ja elements nav uzskaitīts, piesakieties Finance and Operations programmas VM, un pārliecinieties, ka šī tabula ir pieejama.
 4. Atveriet lapu **Tabulas kartēšana** no lapas **Duālais ieraksts** Finance and Operations programmā.
-5. Atlasiet **Atsvaidzināt elementu sarakstu**, lai automātiski aizpildītu laukus tabulas kartējumos.
+5. Atlasiet **Atsvaidzināt elementu sarakstu**, lai automātiski aizpildītu kolonnas tabulas kartējumos.
 
 Ja problēma joprojām nav novērsta, veiciet šādas darbības.
 
 > [!IMPORTANT]
-> Izpildot šīs darbības, elements tiek dzēsts un atkārtoti pievienots. Lai izvairītos no problēmām, noteikti veiciet darbības precīzi.
+> Izpildot šīs darbības, tabula tiek dzēsta un atkārtoti pievienota. Lai izvairītos no problēmām, noteikti veiciet darbības precīzi.
 
 1. Finance and Operations programmā atveriet **Darbvietas \> Datu pārvaldība** un atlasiet elementu **Datu tabulas**.
-2. Atrodiet elementu, kuram trūkst atribūts. Rīkjoslā noklikšķiniet uz **Modificēt mērķa kartēšanu**.
+2. Atrodiet tabulu, kuraim trūkst atribūts. Rīkjoslā noklikšķiniet uz **Modificēt mērķa kartēšanu**.
 3. Rūtī **Kartes iestatīšana mērķim** noklikšķiniet uz **Ģenerēt kartēšanu**.
 4. Atveriet lapu **Tabulas kartēšana** no lapas **Duālais ieraksts** Finance and Operations programmā.
 5. Ja atribūts kartē netiek automātiski aizpildīts, pievienojiet to manuāli, noklikšķinot uz pogu **Pievienot atribūtu** un pēc tam noklikšķinot uz **Saglabāt**. 
 6. Atlasiet karti un noklikšķiniet uz **Palaist**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

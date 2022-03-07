@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-06-24
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 2d5f7cf548eb6c18d9700c73ef084f197b78542e
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: MT
+ms.openlocfilehash: 45995ed6f051cdf6be2b2985ff0e2cb1decf4cf0
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102967"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7476967"
 ---
 # <a name="multiple-sku-option-doesnt-evaluate-multiple-location-directive-actions"></a>Vairāku SKU opcija neizvērtē vairāku atrašanās vietu direktīvu darbības
 
@@ -25,4 +25,4 @@ ms.locfileid: "8102967"
 
 ## <a name="resolution"></a>Novēršana
 
-Versijā 10.0.15 ir pievienots jauns līdzeklis *Novērtēt visas darbības vairāku SKU novietojuma direktīvām* (skatiet [KB 4579866](https://fix.lcs.dynamics.com/Issue/Details?kb=4579866&bugId=475946&dbType=3&qc=1bc41a56de7a3ee419fa76397a6bf282fce5be9b93e427c08a6d916d1dfa3091)). Šis līdzeklis novērtē visas darbības vairāku SKU novietojuma direktīvām. No Piegādes ķēdes pārvaldības versijas 10.0.21 šī funkcija ir ieslēgta pēc noklusējuma.  Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Administratori var izmantot Līdzekļu [pārvaldības lapu](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), lai pārbaudītu līdzekļu statusu un aktivizētu vai atspējotu to, ja nepieciešams.
+Versijā 10.0.15 ir pievienots jauns līdzeklis *Novērtēt visas darbības vairāku SKU novietojuma direktīvām* (skatiet [KB 4579866](https://fix.lcs.dynamics.com/Issue/Details?kb=4579866&bugId=475946&dbType=3&qc=1bc41a56de7a3ee419fa76397a6bf282fce5be9b93e427c08a6d916d1dfa3091)). Šis līdzeklis novērtē visas darbības vairāku SKU novietojuma direktīvām. Ja jums ir nepieciešams šis līdzeklis, izmantojiet [funkciju pārvaldību](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview), lai to ieslēgtu.

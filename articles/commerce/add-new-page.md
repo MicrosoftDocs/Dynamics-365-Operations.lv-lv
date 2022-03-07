@@ -1,37 +1,31 @@
 ---
 title: Jaunas vietnes lapas pievienošana
-description: Šajā tēmā ir aprakstīts, kā pievienot jaunu vietnes lapu programmā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā aprakstīts, kā pievienot jaunu vietnes lapu risinājumā Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
-ms.date: 04/14/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b0f1e290526c25aa6e6300c65e24044a325bee53
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: e0c2a73ae9e85cb299e7cb6fc70562659cdfadc5
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413996"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090723"
 ---
 # <a name="add-a-new-site-page"></a>Jaunas vietnes lapas pievienošana
 
-
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā pievienot jaunu vietnes lapu programmā Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
+Šajā tēmā aprakstīts, kā pievienot jaunu vietnes lapu risinājumā Microsoft Dynamics 365 Commerce.
 
 Pēc tam, kad esat izveidojis veidnes un fragmentus jūsu vietnei, nākamais solis ir izveidot lapas, kas tās izmanto. Lai sāktu darbu, jāatlasa veidne vai izkārtojums, lapas nosaukums un lapas vietrādis URL.
 
@@ -39,11 +33,11 @@ Pēc tam, kad esat izveidojis veidnes un fragmentus jūsu vietnei, nākamais sol
 
 Jaunajai lapai varat izmantot veidni vai izkārtojumu. Papildinformāciju skatiet tēmā [Veidņu un izkārtojumu apskats](templates-layouts-overview.md).
 
-## <a name="page-name"></a>Lapas nosaukums
+## <a name="specify-the-page-name"></a>Norādiet lapas nosaukumu
 
-Lapas nosaukumam ir jābūt unikālam jūsu lapā. Tam jābūt aprakstošam, lai to viegli varētu atrast un citiem cilvēkiem būtu skaidrs, kam paredzēta šī lapa. Uzmanīgi izvēlieties lapas nosaukumu, jo to vēlāk nevar mainīt.
+Lapas nosaukumam ir jābūt unikālam jūsu vietnei, un tam ir jābūt aprakstošam, lai jūs to varētu viegli atrast un citi cilvēki zinātu, kam lapa ir paredzēta. Varat pārdēvēt savu lapu vēlāk, to rediģējot un pēc tam rekvizītu rūtī blakus lapas nosaukumam atlasot pildspalvas simbolu.
 
-## <a name="page-url"></a>Lapas URL
+## <a name="specify-the-page-url"></a>Norādiet lapas URL
 
 Jums var būt opcija ievadīt vietrādi URL savai jaunai lapai. Veidojot lapu, varat ievadīt virkni, kas tiks izmantota pilnīga vietrāža URL izveidei. Šī virkne ir zināma kā relatīvais vietrādis URL vai URL rinda. Tiek ģenerēts pilnīgs vietrādis URL, pamatojoties uz URL rindu, un tam ir piešķirta jaunā lapa. Varat vēlāk mainīt URL rindu pirms lapas publicēšanas. Papildinformāciju skatiet tēmā [Lapas vietrāža URL izveide](create-page-URL.md).
 
@@ -91,3 +85,8 @@ Lai vietnei pievienotu jaunu vietnes lapu, veiciet tālāk norādītās darbība
 [Kategorijas ielādes lapas papildināšana](enrich-category-page.md)
 
 [Lapas satura pieejamības pārbaude](verify-accessibility.md)
+
+[Dinamisko e-komercijas lapu izveidošana, pamatojoties uz URL parametriem](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

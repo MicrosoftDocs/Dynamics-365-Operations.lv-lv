@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 838047cac694c65047332e146a7c43ee2ae0f401
-ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
+ms.openlocfilehash: 2ea04854636fdd0c2b3223bb19d5f06a19836151
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4414177"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206371"
 ---
 # <a name="add-a-copyright-notice"></a>Autortiesību paziņojuma pievienošana
 
@@ -75,3 +74,6 @@ Kājene, kas satur autortiesību paziņojumu, automātiski tiek parādīta visu 
 
 [Skripta koda pievienošana vietnes lapām, lai atbalstītu telemetriju](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

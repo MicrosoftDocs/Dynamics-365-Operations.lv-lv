@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 0e65d04b7b5261ffe72e67ef5321967f7af0ca20
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b5262cc5dc72ffcc50770cf5a2e2dda216d7ff8e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970385"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5212106"
 ---
 # <a name="apply-filters-to-a-plan"></a>Izmantot filtrus plānam
 
@@ -58,3 +58,6 @@ Ir iestatīts plāna filtrs, kas ietver krājumus A, B un C. Vispārējā plāno
 [Plāna vēstures un plānošanas žurnālu skatīšana](plan-history-logs.md)
 
 [Plānošanas darba atcelšana](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

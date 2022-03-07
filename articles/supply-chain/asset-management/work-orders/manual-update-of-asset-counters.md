@@ -1,12 +1,10 @@
 ---
 title: Līdzekļu skaitītāju manuāla atjaunināšana
-description: Šajā tēmā aprakstīta manuāla līdzekļu skaitītāju atjaunināšana programmā Asset Management.
-author: josaw1
-manager: tfehr
+description: Šajā tēmā aprakstīta manuāla līdzekļu skaitītāju atjaunināšana programmā Līdzekļu pārvaldība.
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetCounter
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5318bac961682f88e192ac70c4993c62b69b399c
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 74d840cbb064018560a6abc2823f520c2f3179ac42b149c0507c9421a4e73391
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020889"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776438"
 ---
 # <a name="manual-update-of-asset-counters"></a>Pamatlīdzekļu skaitītāju manuāla atjaunināšana
 
@@ -56,10 +54,13 @@ Lapā **Visi līdzekļi** jūs izveidojat stundu vai daudzuma skaitītāja reģi
 
 Attēlā zemāk ir parādīta lapa **Līdzekļu skaitītāji**.
 
-![1. attēls](media/11-work-orders.png)
+![1. attēls.](media/11-work-orders.png)
 
 Lapā **Līdzekļu skaitītāji** (**Līdzekļu pārvaldība** > **Pieprasījumi** > **Līdzekļi** > **Līdzekļu skaitītāji**) var veikt skaitītāja reģistrācijas vairākiem līdzekļiem vienlaicīgi, ja nepieciešams.
 
 >[!NOTE]
 >Varat iestatīt diapazonu, lai definētu novirzes manuālā skaitītāja reģistrācijās. Varat arī norādīt ziņojuma veidu, kas tiek parādīts, ja reģistrācijas ir ārpus definētā diapazona. Papildinformāciju par to, kā iestatīt saistītos skaitītājus, skatiet [Skaitītāji](../setup-for-objects/counters.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

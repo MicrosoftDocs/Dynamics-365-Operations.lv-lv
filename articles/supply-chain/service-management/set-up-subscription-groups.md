@@ -1,38 +1,35 @@
 ---
-title: Abonementu grupu iestatīšana
+title: Iestatīt abonementu grupas
 description: Iestatiet abonementu grupas.
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASubscriptionGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7a98d096c0eec6b1d585856b63113fd6dd60c0a4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ed91d3363f99cc6c7bc7b66ad8fba55adad3c2006fd10571e85a44cd14f43463
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432451"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761738"
 ---
-# <a name="set-up-subscription-groups"></a>Abonementu grupu iestatīšana 
+# <a name="set-up-subscription-groups"></a>Iestatīt abonementu grupas 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  Noklikšķiniet uz **Pakalpojumu pārvaldība** \> **Iestatīšana** \> **Pakalpojumu abonementi** \> **Abonementu grupas**.
+1.  Dodieties uz **Pakalpojumu pārvaldība** \> **Iestatīšana** \> **Pakalpojumu abonementi** \> **Abonementu grupas**.
 
-2.  Nospiediet taustiņu kombināciju Ctrl + N vai noklikšķiniet uz **Jauns**, lai izveidotu jaunu abonementu grupu.
+2.  Atlasiet **Jauns**, lai izveidotu jaunu abonementu grupu.
 
 3.  Laukā **Abonementu grupa** ievadiet jaunās abonementu grupas nosaukumu.
 
@@ -49,3 +46,6 @@ ms.locfileid: "4432451"
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

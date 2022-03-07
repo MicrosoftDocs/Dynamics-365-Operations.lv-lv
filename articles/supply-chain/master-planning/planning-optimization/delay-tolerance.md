@@ -1,7 +1,7 @@
 ---
 title: Aizkavēšanās tolerance (negatīvās dienas)
 description: Šajā tēmā ir sniegta informācija par aizkavēšanās tolerances aprēķināšanu un to, kā tā ietekmē plānotā pasūtījuma izveidi Plānošanas optimizācijā.
-author: ChristianRytt
+author: crytt
 ms.date: 07/30/2021
 ms.topic: article
 audience: Application User
@@ -10,16 +10,17 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ccf827983694eab2037c73aa3251846b051e66f1
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
-ms.translationtype: MT
+ms.openlocfilehash: 748e047e89747f2eabccc04a40c79bcb1e6f3dea
+ms.sourcegitcommit: f21659f1c23bc2cd65bbe7fb7210910d5a8e1cb9
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678571"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6306467"
 ---
 # <a name="delay-tolerance-negative-days"></a>Aizkavēšanās tolerance (negatīvās dienas)
 
 [!include [banner](../../includes/banner.md)]
+[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
 
 Aizkavēšanās tolerances funkcionalitāte ļauj Plānošanas optimizācijai ņemt vērā vērtību **Negatīvās dienas**, kas ir iestatīta vajadzību grupām. Tā tiek lietota, lai pagarinātu aizkavēšanās tolerances periodu, kas piemērots vispārējās plānošanas laikā. Šādā veidā var izvairīties no jaunu piegādes pasūtījumu izveidošanas, ja esošā piegāde varēs segt pieprasījumu pēc nelielas kavēšanās. Funkcionalitātes mērķis ir noteikt, vai ir lietderīgi izveidot jaunu piegādes pasūtījumu attiecīgajam pieprasījumam.
 

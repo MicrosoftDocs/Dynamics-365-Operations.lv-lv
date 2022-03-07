@@ -1,25 +1,23 @@
 ---
 title: Sagādes kategoriju hierarhijas iestatīšana
 description: Šajā procedūrā parādīts, kā izveidot jaunus zarus sagādes kategoriju hierarhijā un kā konfigurēt sagādes kategoriju izmantošanai sagādes procesā.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb37b2761708770b82f23cfbed86248d30a59410
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: a625ae5acc6d47b40a31b986da25df8f2d3fdbc8
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017321"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577076"
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Sagādes kategoriju hierarhijas iestatīšana
 
@@ -44,3 +42,6 @@ ms.locfileid: "5017321"
 4. Atlasiet preces, ko vēlaties pievienot sagādes kategorijai.
 5. Atlasiet bultu, lai pievienotu preces tabulai **Atlasīts**.
 6. Atlasiet **Labi**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

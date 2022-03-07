@@ -2,11 +2,9 @@
 title: Izslēgt pamatlīdzekļus kā norakstītos
 description: Tēmā ir aprakstīts process, kurā tiek likvidētas transakcijas pamatlīdzeklim, kas noņemts kā brāķis.
 author: moaamer
-manager: Ann Beebe
 ms.date: 08/14/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 4dee4468079a9ad500f513900cec090acf6026ce
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 90eb791bae2bbe70cf9fe7127a98962305449e1d0b370cfa001afbd3654046ec
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969132"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752922"
 ---
 # <a name="dispose-of-a-fixed-asset-as-scrap"></a>Izslēgt pamatlīdzekļus kā norakstītos
 
@@ -45,7 +43,7 @@ Tēmā ir aprakstīts process, kurā tiek likvidētas transakcijas pamatlīdzekl
 Pirms pamatlīdzekļa likvidēsanas kā brāķa, ir jāizveido virsgrāmatas konts, kas ir saistīts ar pamatlīdzekļa iegādes vērtību, nolietojumu pašreizējam gadam, nolietojumu iepriekšējos gados un pamatlīdzekļa NBV. Pamatlīdzekļu transakciju veidi ir uzskaitīti **Pamatlīdzekļu grāmatošanas profila** lapā. Dodieties uz **Pamatlīdzekļi \> Iestatīšanas \> Pamatlīdzekļu grāmatošanas metodes** un pēc tam kopsavilkuma cilnē **Likvidēšana** atlasiet **Brāķis** laukā virs režģa. Sekojošajā attēlā ir redzams pamatlīdzekļu transakciju veidu saraksts **Pamatlīdzekļu grāmatošanas profile** lapā.
 
 
-[![Pamatlīdzekļa likvidēšana kā brāķa, 1. attēls](./media/Fixed_asset_Disposal_scrap_scenario_1.png)](./media/Fixed_asset_Disposal_scrap_scenario_1.png)
+[![Pamatlīdzekļa likvidēšana kā brāķa, 1. attēls.](./media/Fixed_asset_Disposal_scrap_scenario_1.png)](./media/Fixed_asset_Disposal_scrap_scenario_1.png)
 
 Šim piemēram, pamatlīdzeklis tika iegādāts 2018. gada 1. janvārī, un tas tiks likvidēts 2019. gada 31. martā.
 
@@ -60,24 +58,27 @@ Atlikusī vērtība = Iegādes cena — Nolietojums
 
 Šajā piemērā pamatlīdzeklis tika iegādāts un tika nolietots 15 mēnešu laikā no 2018. līdz 2019. gada martam. Tāpēc pamatlīdzekļa NBV ir 9 000,00 USD (24 000,00 USD – 15 000,00 USD).
 
-[![Pamatlīdzekļa nolietojuma piemērs](./media/Fixed_asset_Disposal_scrap_scenario_2.png)](./media/Fixed_asset_Disposal_scrap_scenario_2.png)
+[![Pamatlīdzekļa nolietojuma piemērs.](./media/Fixed_asset_Disposal_scrap_scenario_2.png)](./media/Fixed_asset_Disposal_scrap_scenario_2.png)
 
 
 Lai izveidotu likvidēšanas žurnālu, atveriet **Pamatlīdzekļi \> Žurnāla ieraksti \> Pamatlīdzekļu žurnāls** un pēc tam Darbības rūtī atlasiet **Rindas**. Atlasiet **Likvidēšana— brāķis**, pēc tam atlasiet pamatlīdzekļa ID. Lai pilnībā likvidētu pamatlīdzekli, neievadiet vērtību laukā **Debets** vai laukā **Kredīts**.
 
-[![Pamatlīdzekļu žurnāls](./media/Fixed_asset_Disposal_scrap_scenario_3.png)](./media/Fixed_asset_Disposal_scrap_scenario_3.png)
+[![Pamatlīdzekļu žurnāls.](./media/Fixed_asset_Disposal_scrap_scenario_3.png)](./media/Fixed_asset_Disposal_scrap_scenario_3.png)
 
 Pamatlīdzekļa likvidēšanas transakcija brāķa dēļ maina pamatlīdzekļu grāmatas lauka vērtības šādos veidos:
 
 - Sadaļā **Bilance** lauks **Statuss** tiek atjaunināts uz **Brāķēts**.
 - Sadaļā **Izsniegšana** lauks **Likvidēšanas datums** tiek iestatīts uz datumu, kad pamatlīdzeklis tika norakstīts.
 
-[![Detalizēta informācija par amatlīdzekļu žurnālu](./media/Fixed_asset_Disposal_scrap_scenario_4.png)](./media/Fixed_asset_Disposal_scrap_scenario_4.png)
+[![Detalizēta informācija par amatlīdzekļu žurnālu.](./media/Fixed_asset_Disposal_scrap_scenario_4.png)](./media/Fixed_asset_Disposal_scrap_scenario_4.png)
 
 Sekojošajā attēlā ir redzama pamatlīdzekļa bilance.
 
-[![Pamatlīdzekļu bilance](./media/Fixed_asset_Disposal_scrap_scenario_5.png)](./media/Fixed_asset_Disposal_scrap_scenario_5.png)
+[![Pamatlīdzekļu bilance.](./media/Fixed_asset_Disposal_scrap_scenario_5.png)](./media/Fixed_asset_Disposal_scrap_scenario_5.png)
 
 Sekojošajā attēlā ir redzams grāmatots dokuments.
 
-[![Atlikusī vērtība](./media/Fixed_asset_Disposal_scrap_scenario_6.png)](./media/Fixed_asset_Disposal_scrap_scenario_6.png)
+[![Atlikusī vērtība.](./media/Fixed_asset_Disposal_scrap_scenario_6.png)](./media/Fixed_asset_Disposal_scrap_scenario_6.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,24 +2,26 @@
 title: Sākotnēja budžeta izveide un pēc tam publiskā sektora provizoriskā budžeta ierakstu apgriešana
 description: Šajā tēmā sniegta informācija par to, kā izveidot un atsaukt sākotnējo budžeta ierakstu, izmantojot budžeta modeli un dimensijas vērtības, kam ir iepriekšējas budžeta summas.
 author: twheeloc
-ms.date: 02/14/2022
+manager: AnnBe
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetTransaction, BudgetAccountStructureLookup, BudgetTransactionMultiPost
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7758a1c9edfa129ba8b63a146b38ed3f119fd051
-ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
-ms.translationtype: MT
+ms.openlocfilehash: 134e2ca851d72965198026107817c66a808ac705
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119431"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987958"
 ---
 # <a name="create-an-original-budget-and-then-reverse-preliminary-budget-entries-in-the-public-sector"></a>Sākotnēja budžeta izveide un pēc tam publiskā sektora provizoriskā budžeta ierakstu apgriešana
 
@@ -27,27 +29,24 @@ ms.locfileid: "8119431"
 
 Izveidojot sākotnējo budžeta ierakstu un izmantojot budžeta modeli un dimensiju vērtības, kas satur sākotnējā budžeta summas, var atcelt sākotnējās budžeta summas. Šīs procedūras izveidē tika izmantoti demonstrācijas uzņēmuma “PSUS” dati un publiskā sektora nodalījums.
 
-1. Dodieties uz **budžeta > budžeta reģistra ierakstiem**.
-2. Klikšķiniet **Jauns**.
-3. Laukā **Budžeta modelis** noklikšķiniet uz nolaižamās izvēlnes pogas, lai atvērtu uzmeklēšanu.
+1. Pārejiet uz sadaļu Budžets > Budžeta reģistra ieraksti.
+2. Noklikšķiniet uz Jauns.
+3. Laukā Budžeta modelis noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanas logu.
 4. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-5. Laukā **Budžeta** kods noklikšķiniet uz nolaižamās izvēlnes pogas, lai atvērtu uzmeklēšanu.
-6. Sarakstā noklikšķiniet uz Sākotnējais **budžets**.
-7. Noklikšķiniet uz **Saglabāt**.
-8. Nokl. **Piev. r.**
+5. Laukā Budžeta kods noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanas logu.
+6. Sarakstā noklikšķiniet uz Sākotnējais budžets.
+7. Klikšķiniet Saglabāt.
+8. Noklikšķiniet uz Pievienot rindu.
 9. Neobligāti: ja vēlaties mainīt datumu galvenē, ievadiet jaunu datumu. Šis datums nosaka finanšu periodu, kurā tiks reģistrēts budžets.
-10. Laukā **Konta struktūra** noklikšķiniet uz nolaižamās pogas uzmeklēšanas atvēršanai.
+10. Laukā Konta struktūra noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
 11. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-12. Laukā **Dimensijas** vērtības norādiet vēlamās vērtības.
-13. Laukā **Summa** ievadiet skaitli.
-14. Laukā **Valūta** noklikšķiniet uz nolaižamās pogas, lai atvērtu uzmeklēšanu.
+12. Laukā Dimensiju vērtības norādiet vēlamās vērtības.
+13. Laukā Summa ievadiet skaitli.
+14. Laukā Valūta noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
 15. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-16. Noklikšķiniet uz **Saglabāt**.
-17. Noklikšķiniet **uz Atjaunināt budžeta bilances**.
-    * Nav obligāti: var atlasīt opciju **Apgrieztais sākotnējais** budžets. Ievērojiet, ka var atcelt visus sākotnējā budžeta ierakstus vai tikai tos sākotnējā budžeta ierakstus, kam ir jūsu noradītais budžeta kods.  
-    * Lai veiktu izvēles atlasi, noklikšķiniet **uz** ikonas Atbloķēt lapas augšpusē.  
-18. Noklikšķiniet uz **Atjaunināt**.
+16. Noklikšķiniet uz Saglabāt.
+17. Noklikšķiniet uz Atjaunināt budžeta bilances.
+    * Neobligāti: var atlasīt opciju Atcelt sākotnējo budžetu. Ievērojiet, ka var atcelt visus sākotnējā budžeta ierakstus vai tikai tos sākotnējā budžeta ierakstus, kam ir jūsu noradītais budžeta kods.  
+    * Lai veiktu papildu atlasi, lapas augšdaļā noklikšķiniet uz atbloķēšanas ikonas.  
+18. Noklikšķiniet uz Atjaunināt.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

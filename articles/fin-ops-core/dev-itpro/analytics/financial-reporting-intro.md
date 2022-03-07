@@ -1,12 +1,10 @@
 ---
 title: Finanšu pārskatu veidošana
-description: Finanšu pārskatu veidošana finanšu un biznesa speciālistiem ļauj veidot, uzturēt, izvietot un skatīt finanšu pārskatus. Tā pārvar tradicionālos pārskatu veidošanas ierobežojumus, lai jums palīdzētu efektīvi veidot dažāda veida pārskatus.
+description: Finanšu pārskatu veidošana finanšu un biznesa speciālistiem ļauj veidot, uzturēt, izvietot un skatīt finanšu pārskatus.
 author: aprilolson
-manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinanicalReportingSetup
 audience: Application User
@@ -17,14 +15,14 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7da0d1aa4bb10658c66fce996e00b5714125f100
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0dbe9621760fbb56eb8123d58f72e2fb0080c4f4
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682700"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5743408"
 ---
-# <a name="financial-reporting"></a>Finanšu pārskatu veidošana
+# <a name="financial-reporting"></a>Finanšu pārskati
 
 [!include [banner](../includes/banner.md)]
 
@@ -37,7 +35,7 @@ Lapā **Finanšu pārskatu iestatījumi** ir saraksts ar visām sistēmas finan�
 
 Lapā **Finanšu pārskatu iestatījumi** ir divas sadaļas, kas nosaka finanšu pārskatos ziņotos datus:
 
-- **Cilne Dimensijas** — tā kā dažādi uzņēmumi izmanto dažādas dimensijas un kontu struktūras, nav iespējams noteikt secību, kādā lietotāji pārskatos vēlas skatīt visas finanšu dimensijas. Šī lapa ļauj jums iestatīt secību, kādā vēlaties rādīt finanšu dimensijas, kad veidojat pārskatu līdzeklī Finanšu pārskati.
+- **Cilne Dimensijas** — tā kā dažādi uzņēmumi izmanto dažādas dimensijas un kontu struktūras, nav iespējams noteikt secību, kādā lietotāji pārskatos vēlas skatīt visas finanšu dimensijas. Šī lapa ļauj jums iestatīt secību, kādā vēlaties rādīt finanšu dimensijas, kad veidojat pārskatu līdzeklī Finanšu pārskati.
 - **Cilne Atribūti** ir vieta, kur varat atlasīt, vai filtrēšanai un pārskatu noformēšanai vēlaties spēt izmantot atribūtus **Kreditori** un **Debitori**. Pārskatu veidošana par atribūtiem Kreditors un Debitors ir vērtīga tikai tad, ja transakciju grāmatošanas laikā vienā dokumentā neievadāt vairākus kreditorus vai debitorus. Izvēloties atribūtu Kreditors un/vai Debitors, integrācijai tiek pievienots papildu laiks.
 
 ## <a name="financial-reporting-components"></a>Finanšu atskaišu veidošanas komponenti
@@ -96,3 +94,6 @@ Tālāk aprakstītie finanšu atskaišu veidošanas komponenti ļauj atskaites �
 
 ## <a name="additional-resources"></a>Papildu resursi
 [Ģenerēt finanšu pārskatus](generate-financial-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,36 +1,31 @@
 ---
 title: Uzdevumu sarakstu izveidošana un uzdevumu pievienošana
-description: Šī tēma aprakstīts, kā izveidot uzdevumu sarakstus un tiem pievienot uzdevumus Microsoft Dynamics 365 Commerce.
+description: Šī tēma aprakstīts, kā izveidot uzdevumu sarakstus un tiem pievienot uzdevumus programmā Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 1cab31784db9f3242dce20e98762088436a5a8f8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 2e6bd69435ee8fe58dbbf66eb0c5eee3d2ec09ee1998ef0218cdef643522c5bf
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414113"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6756529"
 ---
 # <a name="create-task-lists-and-add-tasks"></a>Uzdevumu sarakstu izveidošana un uzdevumu pievienošana
 
 [!include [banner](includes/banner.md)]
 
-Šī tēma aprakstīts, kā izveidot uzdevumu sarakstus un tiem pievienot uzdevumus Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
+Šī tēma aprakstīts, kā izveidot uzdevumu sarakstus un tiem pievienot uzdevumus programmā Microsoft Dynamics 365 Commerce.
 
 *Uzdevums* definē noteiktu darba daļu vai darbību, ko kādam jāpabeidz noteiktā termiņā vai pirms tā. Programmā Dynamics 365 Commerce uzdevums var iekļaut detalizētas instrukcijas un informāciju par kontaktpersonu. Tas var ietvert arī saites uz fona darbībām, pārdošanas punktu (POS) operācijām vai vietnes lapām, lai palīdzētu uzlabot produktivitāti un nodrošinātu kontekstu, kas ir nepieciešams uzdevuma īpašniekam efektīvai uzdevuma pabeigšanai.
 
@@ -42,7 +37,7 @@ Gan vadītāji, gan darbinieki var izveidot uzdevumu sarakstus Commerce atbalsta
 
 Lai izveidotu uzdevumu sarakstu, izpildiet šīs darbības.
 
-1. Dodieties uz **Retail un Commerce \>Uzdevumu pārvaldība \>Uzdevumu pārvaldības administrēšana**.
+1. Dodieties uz **Retail un Commerce \> Uzdevumu pārvaldība \> Uzdevumu pārvaldības administrēšana**.
 1. Atlasiet **Jauns** un pēc tam ievadiet vērtības laukos **Nosaukums**, **Apraksts** un **Īpašnieks**.
 1. Atlasiet **Saglabāt**.
 
@@ -75,7 +70,7 @@ Lai, veidojot uzdevumu, pievienotu uzdevumu saites, veiciet šīs darbības.
 
 Šajā ilustrācijā redzama uzdevumu saišu atlase dialoglodziņā **Rediģēt uzdevumu**.
 
-![Uzdevumu saišu atlasīšana dialoglodziņā Rediģēt uzdevumu](media/HQ-POS-Tasks-Linking.png)
+![Uzdevumu saišu atlasīšana dialoglodziņā Rediģēt uzdevumu.](media/HQ-POS-Tasks-Linking.png)
 
 ### <a name="configure-a-pos-operation-so-that-it-can-be-linked-to-a-task"></a>Konfigurējiet POS operāciju, lai to varētu saistīt ar uzdevumu
 
@@ -93,3 +88,6 @@ Lai konfigurētu POS operāciju, lai to varētu saistīt ar uzdevumu, veiciet š
 [Uzdevumu sarakstu piešķiršana veikaliem vai darbiniekiem](task-mgmt-assign-lists.md)
 
 [Uzdevumu pārvaldība punktā POS](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

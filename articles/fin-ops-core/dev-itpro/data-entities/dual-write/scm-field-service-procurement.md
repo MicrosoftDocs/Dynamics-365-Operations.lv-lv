@@ -1,21 +1,23 @@
 ---
 title: Integrēt sagādes starp Supply Chain Management un Field Service
 description: Šajā tēmā aprakstīts, kā duālā rakstīšanas integrācija atbalsta pirkšanas pasūtījuma izveidi un atjauninājumus gan no Supply Chain Management, gan Field Service.
-author: RamaKrishnamoorthy
+author: RichardLuan
 ms.date: 11/11/2020
 ms.topic: article
+ms.prod: ''
+ms.technology: ''
 audience: Application User
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
 ms.search.region: Global
-ms.author: tfehr
+ms.author: riluan
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: ab251ee60bf3c831b0139beb9557c6b3faaf9f66
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
-ms.translationtype: MT
+ms.openlocfilehash: fcbede8b1a0a9a1dfcb9acbfd7cadb49eb48eecd
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7783287"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750694"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Integrēt sagādes starp Supply Chain Management un Field Service
 
@@ -29,7 +31,7 @@ Microsoft Dynamics 365 Supply Chain Management nodrošina robustu sagādes funkc
 
 Šajā attēlā redzamas tabulas abās sistēmās un parādīts, kā tās ir kartētas viena ar otru. Pirkšanas pasūtījumi Field Service atsaucas *uz konta* rindu, bet pirkšanas pasūtījumi Supply Chain Management atsaucē ir *kreditora* rinda. Lai atrisinātu integrāciju, duālā rakstīšana izmanto atsauci, lai saistītu *kreditora* rindas ar *konta* rindām. Plašāku informāciju skatiet šeit: [Vispārīgā informācija par integrētajiem kreditoriem](vendor-mapping.md).
 
-![Sagādes kartējumi.](media/scm-field-service-tables.png)
+![Sagādes kartējumi](media/scm-field-service-tables.png)
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
@@ -43,8 +45,8 @@ Lai integrētu Supply Chain Management ar Field Service, jums jāinstalē šādi
 
 ### <a name="prerequisites"></a>Priekšnosacījumi
 
-- **Duālā rakstīšana** - Papildinformāciju skatiet [Duālās rakstīšanas mājas](dual-write-home-page.md#dual-write-setup) lapā.
-- **Dynamics 365 Field Service** – Papildinformāciju skatiet sadaļā [Kā instalēt Dynamics 365 Field Service](/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service).
+- **Duālā rakstīšana** - Papildinformāciju skatiet [Duālās rakstīšanas mājas](dual-write-home-page.md#dual-write-setup)lapā.
+- **Dynamics 365 Field Service** – Papildinformāciju skatiet sadaļā [Kā instalēt Dynamics 365 Field Service](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service).
 
 Kad tie ir iespējoti Microsoft Dataverse, duālajā ierakstā un Field Service ir ieviesti vairāki risinājumu līmeņi, kas paplašinās vidi ar jauniemmetadatiem, formām, skatiem un loģiku. Šos risinājumus var iespējot jebkurā secībā, tomēr parasti jūs tos instalējiet šādā secībā:
 
@@ -165,7 +167,7 @@ Statusa kolonnām tiek pielietotas šādas kārtulas:
 - Ja dokumentu virsraksta statuss Supply Chain Management tiek mainīts uz *Atcelts* un neviena pirkšanas pasūtījuma ieejas plūsmas preces Field Service nav saistītas ar pirkšanas pasūtījumu (izmantojot pirkšanas pasūtījuma preces), Field Service sistēmas statuss tiek iestatīts uz *Atcelts*.
 - Ja pirkšanas pasūtījuma rindas statuss Supply Chain Management ir *Atcelts*, pirkšanas pasūtījuma preces statuss Field Service tiek iestatīts uz *Atcelts*. Turklāt, ja pirkšanas pasūtījuma rindas statuss Supply Chain Management ir mainīts no *Atcelts* uz *Neizpildīts pasūtījums*, pirkšanas pasūtījuma preces krājuma statuss Field Service tiek iestatīts uz *Gaida*.
 
-## <a name="sync-with-the-supply-chain-management-procurement-data-on-demand"></a><a id="sync-procurement"></a> Sinhronizēt ar Supply Chain Management sagādes datiem pēc pieprasījuma
+## <a name="sync-with-the-supply-chain-management-procurement-data-on-demand"></a><a id="sync-procurement"></a>Sinhronizēt ar Supply Chain Management sagādes datiem pēc pieprasījuma
 
 Supply Chain Management ietver sagādes datus, kas apstrādā tirdzniecības līgumus, atlaides un citus scenārijus, kas ir atkarīgi no Supply Chain Management sekundārajiem procesiem. Sagādes programma izmanto kompleksas kārtulas, lai noteiktu labāko cenu dotajam pirkšanas pasūtījumam. Ja izmantojat dubultās rakstīšanas, dati vienmēr netiek saglabāti sinhroni divās vidēs, it īpaši scenārijos, kuros rinda tika izveidota vai atjaunināta no Dataverse un var izraisīt sekojuma procesus Supply Chain Management.
 
@@ -194,10 +196,23 @@ Ar sagādes dokumentiem saistīto dokumentu integrāciju ir pieejamas šādas ve
 
 | Supply Chain Management | Field Service | Apraksts |
 |---|---|---|
-| [Pirkšanas pasūtījuma galvene V2](mapping-reference.md#183) | msdyn\_ Purchaseorders | Šajā tabulā ir kolonnas, kas atspoguļo pirkšanas pasūtījuma galveni. |
-| [Pirkšanas pasūtījuma rindas elements](mapping-reference.md#181) | msdyn\_ PurchaseOrderProducts | Šajā tabulā ir rindas, kas atspoguļo pirkšanas pasūtījuma rindas. Preces numurs tiek izmantots sinhronizācijai. Tas identificē preci kā noliktavas vienību (NV), tostarp preces dimensijas. Informāciju par produktu integrāciju Dataverse vidē, skatiet sadaļā [Unificētā preču pieredze](product-mapping.md). |
-| [Preces saņemšanas galvene](mapping-reference.md#185) | msdyn\_ purchaseorderreceipts | Šajā tabulā ir ietvertas produktu ieejas plūsmas galvenes kas tika izveidotas, kad produktu ieejas plūsma tiek grāmatota Supply Chain Management. |
-| [Preces saņemšanas rinda](mapping-reference.md#184) | msdyn\_ purchaseorderreceiptproducts | Šajā tabulā ir ietverti produktu ieejas plūsmas rindas, kas tika izveidoti, kad produktu ieejas plūsma tiek grāmatota Supply Chain Management. |
-| [Pirkšanas pasūtījuma rindas viegli dzēstā entītijā](mapping-reference.md#182) | msdyn\_ purchaseorderproducts | Šajā tabulā ir informācija par pirkšanas pasūtījuma rindām, kas ir viegli dzēstas. Pirkšanas pasūtījuma rindu Supply Chain Management var viegli dzēst tikai tad, kad pirkšanas pasūtījums ir apstiprināts vai apstiprināts, ja izmaiņu pārvaldība ir ieslēgta. Rinda pastāv Supply Chain Management datu bāzē un ir atzīmēta kā **IsDeleted**. Tā kā Dataverse videi nav vieglās dzēšanas koncepcijas, ir svarīgi, lai šī informācija tiktu sinhronizēta ar Dataverse. Šādā veidā rindas, kas ir viegli dzēstas Supply Chain Management, var automātiski izdzēst no Dataverse. Šajā gadījumā loģika rindas dzēšanai Dataverse vidē atrodas paplašinātajā Supply Chain Management versijā. |
+| Pirkšanas pasūtījuma galvene V2 | msdyn\_Purchaseorders | Šajā tabulā ir kolonnas, kas atspoguļo pirkšanas pasūtījuma galveni. |
+| Pirkšanas pasūtījuma rindas elements | msdyn\_PurchaseOrderProducts | Šajā tabulā ir rindas, kas atspoguļo pirkšanas pasūtījuma rindas. Preces numurs tiek izmantots sinhronizācijai. Tas identificē preci kā noliktavas vienību (NV), tostarp preces dimensijas. Informāciju par produktu integrāciju Dataverse vidē, skatiet sadaļā [Unificētā preču pieredze](product-mapping.md). |
+| Preces saņemšanas galvene | msdyn\_purchaseorderreceipts | Šajā tabulā ir ietvertas produktu ieejas plūsmas galvenes kas tika izveidotas, kad produktu ieejas plūsma tiek grāmatota Supply Chain Management. |
+| Preces saņemšanas rinda | msdyn\_purchaseorderreceiptproducts | Šajā tabulā ir ietverti produktu ieejas plūsmas rindas, kas tika izveidoti, kad produktu ieejas plūsma tiek grāmatota Supply Chain Management. |
+| Pirkšanas pasūtījuma rindas viegli dzēstā entītijā | msdyn\_purchaseorderproducts | Šajā tabulā ir informācija par pirkšanas pasūtījuma rindām, kas ir viegli dzēstas. Pirkšanas pasūtījuma rindu Supply Chain Management var viegli dzēst tikai tad, kad pirkšanas pasūtījums ir apstiprināts vai apstiprināts, ja izmaiņu pārvaldība ir ieslēgta. Rinda pastāv Supply Chain Management datu bāzē un ir atzīmēta kā **IsDeleted**. Tā kā Dataverse videi nav vieglās dzēšanas koncepcijas, ir svarīgi, lai šī informācija tiktu sinhronizēta ar Dataverse. Šādā veidā rindas, kas ir viegli dzēstas Supply Chain Management, var automātiski izdzēst no Dataverse. Šajā gadījumā loģika rindas dzēšanai Dataverse vidē atrodas paplašinātajā Supply Chain Management versijā. |
+
+[!include [banner](../../includes/dual-write-symbols.md)]
+
+[!include [Currency](includes/productreceiptheader-msdyn-purchaseorderreceipts.md)]
+
+[!include [Currency](includes/productreceiptline-msdyn-purchaseorderreceiptproducts.md)]
+
+[!include [Currency](includes/purchaseorderheadersv2-msdyn-purchaseorders.md)]
+
+[!include [Currency](includes/purchaseorderlinesoftdeletedtable-msdyn-purchaseorderproducts.md)]
+
+[!include [Currency](includes/purchaseorderlinetable-msdyn-purchaseorderproducts.md)]
+
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

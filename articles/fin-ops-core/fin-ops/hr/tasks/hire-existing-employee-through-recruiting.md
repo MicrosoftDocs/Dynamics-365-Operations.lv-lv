@@ -2,11 +2,9 @@
 title: Esošu darbinieku pieņemšana darbā, izmantojot personāla atlasi
 description: Dažreiz brīvos amatus var aizpildīt kandidāti, kas jau ir jūsu organizācijas darbinieki.
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/10/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42a6fbdad19db3c85509078c9f7549a6397f93fc
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: df23be9a657b7001b4974e7802a507c0c54a18dacb46354a68699d759827e941
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797263"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749584"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>Esošu darbinieku pieņemšana darbā, izmantojot personāla atlasi
 
@@ -40,3 +38,6 @@ Dažreiz brīvos amatus var aizpildīt kandidāti, kas jau ir jūsu organizācij
 9. Noklikšķiniet uz Mainīt amatu.
     * Šajā laikā var mainīt arī atlīdzību. Ja šajā laikā nepiešķirat atlīdzību, to var mainīt, ieejot darbinieka formā, atlasot cilni Atlīdzība un izvēloties "Fiksēts plāns". Kad esat atlasījis "Mainīt amatu", pieteikuma statuss tiks atjaunināts uz "Nodarbināts".  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

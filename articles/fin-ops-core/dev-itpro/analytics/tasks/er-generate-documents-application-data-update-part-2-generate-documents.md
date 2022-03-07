@@ -1,12 +1,10 @@
 ---
 title: Konfigurāciju noformēšana, lai ģenerētu dokumentus ar programmas datiem
-description: 'Lai pabeigtu šīs procedūras darbības, vispirms jāpabeidz procedūra "ER: ģenerēt dokumentus ar pieteikumu datu atjaunināšanu (1. daļa — importa konfigurācijas).'
+description: Šajā procedūrā ir parādīts, kā noformēt elektroniskās atskaišu veidošanas (ER) konfigurācijas, lai ģenerētu elektronisku dokumentu. (1. daļa - konfigurāciju importēšana).
 author: NickSelin
-manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d099836ba00ffa1d4fd002af4ac3e6045b41c6a
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 3f335721ee97919af20e73fc9da6c9bf07dcae50aca8f8904d144d75c2f4d7b1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684599"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726265"
 ---
 # <a name="design-configurations-to-generate-documents-that-have-application-data"></a>Konfigurāciju noformēšana, lai ģenerētu dokumentus ar programmas datiem
 
@@ -58,3 +56,6 @@ Pirms sākat, mainiet valsts kontekstu DEMF uzņēmumam no DEU (Vācija) uz BEL 
 10. Aizvērt lapu.
 11. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

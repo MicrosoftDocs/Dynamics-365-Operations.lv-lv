@@ -2,26 +2,23 @@
 title: Noliktavu slotu veidošana
 description: Šajā tēmā ir sniegta informācija par noliktavu slotu veidošanu. Noliktavu slotu veidošana sniedz iespēju konsolidēt pieprasījumu pēc krājuma un mērvienības no pasūtījumiem ar statusu Pasūtīts, Rezervēts vai Izlaists. Tas palīdz noliktavu vadītājiem pārdomāti plānot izdošanas novietojumus, pirms viņi izlaiž pasūtījumus noliktavā un izveido izdošanas darbu.
 author: mirzaab
-manager: tfehr
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSInventFixedLocation, WHSSlotDemandLocated, WHSSlotDemand, WHSSlotUOMTier, WHSSlotTemplate, WHSLocDirHint, WHSLocDirTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 31b86837735ca16610a1d304eab611b12a6aceeb
-ms.sourcegitcommit: be4b9d557511bbb43e71a93f2c3b23b5f1a4669d
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: 36903bc7ce4164e42d191156b7d9e04bec84d4f6
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "4627753"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575151"
 ---
 # <a name="warehouse-slotting"></a>Noliktavu slotu veidošana
 
@@ -107,7 +104,7 @@ Atlasiet direktīvas kodu, ko saistīt ar veidni.
 
 Ar katru slotu veidošanas veidni kontrolē, kā krājumi tiek piešķirti novietojumiem kādai konkrētai noliktavai. Katrā veidnē ir jābūt rindai, kas paredzēta katrai slotu veidošanas specifikācijai. Izmantojiet šajā sadaļā pieejamās procedūras, lai iestatītu slotu veidošanas veidnes.
 
-1. Atveriet **Noliktavas vadība \> Iestatīšana \> Papildināšana \> Slotu veidošanas veidnes**.
+1. Atveriet **Noliktavas pārvaldība \> Iestatījumi \> Papildināšana \> Slotu veidošanas veidnes**.
 1. Atlasiet **Jauns**, lai izveidotu veidni.
 
 Pēc tam ir jāiestata veidnes galvene, slotu veidošanas specifikācijas un novietojumu direktīvas, kā tas ir izskaidrots nākamajās apakšsadaļās. Slotu veidošanas pārsūtīšanas pasūtījumiem iestatījums līdzinās pārdošanas pasūtījumu slotu veidošanas iestatījumam, taču lauks **Pieprasījuma veids** tiek iestatīts uz *Pārsūtīšanas pasūtījumi*, nevis *Pārdošanas pasūtījums*.
@@ -384,3 +381,6 @@ Kad visi nepieciešamie elementi ir ieviesti, varat izpildīt tālāk norādīt�
 1. Ja vēlaties, varat iestatīt automātisku periodiskuma izpildi.
 
 Scenārijā iekļautajiem uzdevumiem **neiestatiet** automātisku slotu veidošanu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

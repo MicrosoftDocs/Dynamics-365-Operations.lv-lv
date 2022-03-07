@@ -2,8 +2,8 @@
 title: Mērķauditorijas atlase ierīcēs, tirgū un ģeogrāfiskā atrašanās vietā
 description: Šajā tēmā ir aprakstīts, kā izveidot, rediģēt un pārvaldīt mērķauditorijas un mērķus Microsoft Dynamics 365 Commerce vietņu veidotājā, izmantojot ierīces, tirgus un ģeogrāfiskās atrašanās vietas informāciju.
 author: sushma-rao
-ms.date: 02/03/2022
-ms.topic: overview
+ms.date: 07/30/2021
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2021-07-31
 ms.dyn365.ops.version: AX 10.0.21
-ms.openlocfilehash: 0c8ceb5e59c801e0d3dbc3a57e54c40fa8d967ac
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
-ms.translationtype: MT
+ms.openlocfilehash: 3ecc04c97b42b17f257aa40f665136c70de398748b9bda0da860c7000c062807
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090698"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730855"
 ---
 # <a name="device-market-and-geolocation-targeting"></a>Mērķauditorijas atlase ierīcēs, tirgū un ģeogrāfiskā atrašanās vietā
 
@@ -96,18 +96,6 @@ Lai rediģētu auditoriju, cilnē **Auditorijas** atlasiet hipersaiti un pēc ta
 
 > [!NOTE]
 > Auditorijas ir vietnes līmeņa koncepcija Commerce vietņu veidotājā. Varat kopīgot vienu un to pašu auditoriju vairākos mērķos.
-
-### <a name="rename-an-audience-in-site-builder"></a>Pārdēvējiet auditoriju vietņu veidotājā
-
-Lai pārdēvētu esošu auditoriju lietojumprogrammā Commerce vietņu veidotājs, veiciet šīs darbības.
-
-1. Kreisās puses navigācijas rūtī atlasiet **Auditorijas**.
-1. Atlasiet tā auditorijas segmenta nosaukumu, kuru vēlaties pārdēvēt.
-1. Izvēlieties **Rediģēt** lai sāktu rediģēt auditoriju.
-1. Mērķauditorijas rekvizītu rūtī atlasiet pildspalvas simbolu blakus auditorijas nosaukumam.
-1. Rediģējiet auditorijas nosaukumu pēc vajadzības.
-1. Atlasiet atzīmi, lai apstiprinātu vārda maiņu.
-1. Atlasiet **Beigt rediģēšanu**.
 
 ## <a name="targets"></a>Mērķi
 

@@ -1,31 +1,29 @@
 ---
 title: Ģimenes stāvoklis
-description: Šajā tēmā aprakstīta opcija Ģimenes stāvokļa statuss, kas iestatīta programmai Dynamics 365 Human Resources .
+description: Šajā tēmā aprakstīta opcija Ģimenes stāvokā statuss, kas iestatīta programmai Dynamics 365 Human Resources .
 author: jaredha
+manager: tfehr
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3b3327f084aba87b54a4071c3b6af351ab7b54d6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: f3d28bea9362382014f9080139f3cbdefadcf6a9
+ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069886"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "5125549"
 ---
 # <a name="marital-status"></a>Ģimenes stāvoklis
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Šajā tēmā aprakstīta opcija Ģimenes stāvokā statuss, kas iestatīta programmai Dynamics 365 Human Resources .
 
@@ -45,6 +43,3 @@ Fiziskais nosaukums:mshr_dirpersonmaritalstatus
 
 [Kandidāta izsekošanas sistēmas integrācijas API ievads](hr-admin-integration-ats-api-introduction.md)<br>
 [Piemērs Kandidāta vaicājumam par nolīgšanu](hr-admin-integration-ats-api-candidate-to-hire-example-query.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

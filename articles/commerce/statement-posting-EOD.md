@@ -1,31 +1,25 @@
 ---
 title: Izrakstu grāmatošanas funkcionalitātes uzlabojumi
 description: Šajā tēmā ir aprakstīti izrakstu grāmatošanas līdzeklim veiktie uzlabojumi.
-author: josaw1
-manager: AnnBe
-ms.date: 05/14/2019
+author: analpert
+ms.date: 01/31/2022
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
-ms.search.industry: retail
-ms.author: anpurush
+ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 68abef8f28c04a4f6f88e638c8abf944d06a32c4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 6ee0cea76be05634aa21643acef5b341f19d75ef
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414121"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087607"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Izrakstu grāmatošanas funkcionalitātes uzlabojumi
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Šajā tēmā ir aprakstīti pirmie izrakstu grāmatošanas līdzeklim veiktie uzlabojumi. Šie uzlabojumi ir pieejami versijā Microsoft Dynamics 365 for Finance and Operations 7.3.2.
 
@@ -56,12 +50,24 @@ Kā daļa no izrakstu grāmatošanas līdzekļa uzlabojumiem lapas **Commerce pa
 
 - **Atspējot nepieciešamo uzskaiti** — kad šī opcija ir iestatīta uz **Jā**, grāmatošanas process izrakstam turpinās pat tad, ja starpība starp aprēķināto summu un transakcijas summu izrakstā ir ārpus sliekšņa vērtības, kas veikaliem ir definēta kopsavilkuma cilnē **Izraksts**.
 
+> [!NOTE]
+> Kopš Commerce versijas 10.0.14 izlaišanas, kad **Mazumtirdzniecības paziņojumi — Trickle feed** funkcija ir iespējota, **Izlikt inventarizāciju** pakešu darbs vairs nav piemērojams, un to nevar palaist.
+
 Turklāt kopsavilkuma cilnē **Pakešveida apstrāde** cilnē **Posting** lapā **Commerce rekvizīti** ir ieviesti tālāk minētie parametri. 
 
 - **Maksimālais paralēli grāmatojamo izrakstu skaits** — šajā laukā noteikts pakešuzdevumu skaits, kas tiks izmantoti vairāku izrakstu grāmatošanai. 
 - **Maksimālais pasūtījumu apstrādes pēc ieraksta pavedienu skaits** — šis lauks atspoguļo maksimālo pavedienu skaitu, ko izmanto ieraksta grāmatošanas pakešuzdevums, lai izveidotu pārdošanas pasūtījumus vienam ierakstam un izrakstītu rēķinu. Kopējais pavedienu skaits, kas tiks izmantots izraksta grāmatošanas procesā, tiks aprēķināts, ņemot vērā vērtību šajā parametrā, kas reizināta ar parametra **Maksimālais paralēli grāmatojamo izrakstu skaits** vērtību. Iestatot pārāk lielu šī parametra vērtību par lielu, var negatīvi ietekmēt izraksta grāmatošanas procesa veiktspēju.
-- **Maksimālais apkopojumā iekļauto transakciju rindu skaits** — šis lauks nosaka transakciju rindu skaitu, kas tiks iekļautas vienā apkopotā transakcijā, pirms tiek izveidota jauna. Apkopotās transakcijas tiek veidotas, pamatojoties uz dažādiem apkopošanas kritērijiem, piemēram, debitors, biznesa datums vai finanšu dimensijas. Ir svarīgi atzīmēt, ka vienas transakcijas rindas netiks sadalītas pa dažādām apkopotām transakcijām. Tas nozīmē, ka ir iespējams, ka rindu skaits apkopotajā transakcijā ir nedaudz lielāks vai zemāks, pamatojoties uz tādiem faktoriem kā atšķirīgu preču skaits.
+- **Maksimālais apkopojumā iekļauto transakciju rindu skaits** — šis lauks nosaka transakciju rindu skaitu, kas tiks iekļautas vienā apkopotā transakcijā, pirms tiek izveidota jauna. Apkopotās transakcijas tiek veidotas, pamatojoties uz dažādiem apkopošanas kritērijiem, piemēram, debitors, biznesa datums vai finanšu dimensijas. Ir svarīgi atzīmēt, ka vienas transakcijas rindas netiks sadalītas pa dažādām apkopotām transakcijām. Tas nozīmē, ka pastāv iespēja, ka rindu skaits apkopotā darījumā ir nedaudz lielāks vai mazāks, pamatojoties uz tādiem faktoriem kā atšķirīgu produktu skaits.
 - **Maksimālais pavedienu skaits veikala transakciju pārbaudei** — šis lauks nosaka pavedienu skaitu, kas tiks izmantoti transakciju pārbaudei, Transakciju pārbaude ir obligāta darbība, kas jāizpilda, pirms transakcijas var tikt ievilktas pārskatos. Turklāt ir nepieciešams definēt **Dāvanu kartes preci** kopsavilkuma cilnē **Dāvanu karte** (pieejama cilnē **Grāmatošana**, kas pieejama lapā **Commerce parametri**). Tas ir jādefinē, pat ja organizācija neizmanto dāvanu kartes.
+
+Nākamajā tabulā ir norādītas ieteicamās vērtības iepriekšējiem parametriem. Šīs vērtības ir jāpārbauda un jāpielāgo izvietošanas konfigurācijai un pieejamajai infrastruktūrai. Jebkurš ieteicamo vērtību palielinājums var negatīvi ietekmēt citu pakešu apstrādi, un tas ir jāapstiprina.
+
+| Parametrs | Ieteicamā vērtība | Detalizētā informācija |
+|-----------|-------------------|---------|
+| Maksimālais paralēli grāmatojamo pārskatu skaits | <p>Iestatiet šo parametru uz pakešuzdevumu skaitu, kas ir pieejams pakešu grupai, kurā darbojas **Paziņojums, apgalvojums** darbs.</p><p>**Vispārējs noteikums:** Reiziniet lietojumprogrammu objektu servera (AOS) virtuālo serveru skaitu ar vienam AOS virtuālajam serverim pieejamo pakešu uzdevumu skaitu.</p> | Šis parametrs nav piemērojams, ja **Mazumtirdzniecības paziņojumi — Trickle feed** funkcija ir iespējota. |
+| Maksimālais pavedienu skaits pasūtījumu apstrādei katram pārskatam | Sāciet pārbaudīt vērtības plkst **4**. Parasti vērtība nedrīkst pārsniegt **8**. | Šis parametrs norāda pavedienu skaitu, kas tiek izmantoti, lai izveidotu un publicētu pārdošanas pasūtījumus. Tas norāda diegu skaitu, kas ir pieejami publicēšanai vienā paziņojumā. |
+| Maksimālais transakcijas rindu skaits, kas iekļauts apkopojumā | Sāciet pārbaudīt vērtības plkst **1000**. Atkarībā no galvenās mītnes konfigurācijas mazāki pasūtījumi var būt izdevīgāki veiktspējai. | Šis parametrs nosaka rindu skaitu, kas izraksta grāmatošanas laikā tiks iekļautas katrā pārdošanas pasūtījumā. Kad šis skaitlis būs sasniegts, rindas tiks sadalītas jaunā secībā. Lai gan pārdošanas rindu skaits nebūs precīzs, jo sadalīšana notiek pārdošanas pasūtījuma līmenī, tas būs tuvu iestatītajam skaitam. Šis parametrs tiek izmantots, lai ģenerētu pārdošanas pasūtījumus mazumtirdzniecības darījumiem, kuriem nav norādīts klients. |
+| Maksimālais pavedienu skaits veikala transakciju pārbaudei | Mēs iesakām iestatīt šo parametru uz **4**, un palielināt to tikai tad, ja nesasniedzat pieņemamu veiktspēju. Šajā procesā izmantoto pavedienu skaits nedrīkst pārsniegt pakešserverim pieejamo procesoru skaitu. Ja šeit piešķirat pārāk daudz pavedienu, tas var ietekmēt citu pakešu apstrādi. | Šis parametrs kontrolē darījumu skaitu, ko konkrētam veikalam var apstiprināt vienlaikus. |
 
 > [!NOTE]
 > Visi iestatījumi un parametri, kas ir saistīti ar izrakstu grāmatojumiem un kas ir definēti mazumtirdzniecības veikaliem un lapā **Commerce parametri**, ir lietojami uzlabotajam izrakstu grāmatošanas līdzeklim.
@@ -117,11 +123,19 @@ Turklāt otrās un trešās sadaļas galvenēs tiek rādīts attiecīgā procesa
 
 Izrakstam tiek izpildītas dažādas operācijas (piemēram, Izveidot, Aprēķināt, Notīrīt un Grāmatot), un izraksta dzīves cikla laikā var tikt izsauktas vairākas tās pašas operācijas instances. Piemēram, kad izraksts ir izveidots un aprēķināts, lietotājs var notīrīt šo izrakstu un aprēķināt to vēlreiz. Poga **Notikumu žurnāli** izraksta grupā **Detalizēta informācija par izpildi** sniedz pilnīgus auditācijas pierakstus par dažādajām operācijām, kuras tika izsauktas kādam izrakstam, kopā ar informāciju par šo operāciju izsaukšanas laiku.
 
-### <a name="aggregated-transactions"></a>Uzkrātās transakcijas
+### <a name="aggregated-transactions"></a>Apkopotās transakcijas
 
-Grāmatošanas procesa laikā pārdošanas transakcijas tiek apkopotas, pamatojoties uz konfigurāciju. Šīs apkopotās transakcijas tiek glabātas sistēmā un tiek izmantotas pārdošanas pasūtījumu veidošanai. Katra apkopotā transakcija sistēmā veido vienu atbilstošo pārdošanas pasūtījumu. Apkopotās transakcijas varat skatīt, izmantojot pogu **Apkopotās transakcijas** izraksta grupā **Detalizēta informācija par izpildi**.
+Grāmatošanas procesa laikā skaidras naudas darījumi tiek apkopoti pēc klienta un produkta. Tāpēc tiek samazināts izveidoto pārdošanas pasūtījumu un rindu skaits. Apkopotie darījumi tiek saglabāti sistēmā un tiek izmantoti pārdošanas pasūtījumu izveidošanai. Katra apkopotā transakcija sistēmā veido vienu atbilstošo pārdošanas pasūtījumu. 
 
-Apkopotās transakcijas cilnē **Detalizēta informācija par pārdošanas pasūtījumu** tiek rādīta tālāk aprakstītā informācija.
+Ja izraksts nav pilnībā publicēts, pārskatā varat skatīt apkopotos darījumus. Darbību rūtī, uz **Paziņojums, apgalvojums** cilnē **Izpildes detaļas** grupu, izvēlieties **Apkopotie darījumi**.
+
+![Apkopoto darījumu poga izrakstam, kas nav pilnībā publicēts.](media/aggregated-transactions.png)
+
+Ievietotajiem pārskatiem varat skatīt apkopotos darījumus vietnē **Ievietoti paziņojumi** lappuse. Darbību rūtī atlasiet **Uzziņas** un pēc tam atlasiet **Apkopotie darījumi**.
+
+![Apkopoto darījumu komanda publicētajiem izrakstiem.](media/aggregated-transactions-posted-statements.png)
+
+The **Pārdošanas pasūtījuma informācija** Apkopotā darījuma FastTab parāda šādu informāciju:
 
 - **Ieraksta ID** — apkopotās transakcijas ID.
 - **Izraksta numurs** — izraksts, pie kura pieder apkopotā transakcija.
@@ -130,17 +144,33 @@ Apkopotās transakcijas cilnē **Detalizēta informācija par pārdošanas pasū
 - **Apkopoto rindu skaits** — apkopotās transakcijas un pārdošanas pasūtījuma kopējais rindu skaits.
 - **Statuss** — apkopotās transakcijas pēdējais statuss.
 - **Rēķina ID** — pārdošanas rēķina ID (ja par pārdošanas pasūtījumu apkopotajai transakcijai tika izveidots rēķins). Ja šis lauks ir tukšs, rēķins pārdošanas pasūtījums nav grāmatots.
+- **Kļūdas kods** – Šis lauks ir iestatīts, ja apkopojums ir kļūdas stāvoklī.
+- **Kļūdas ziņojums** – Šis lauks ir iestatīts, ja apkopojums ir kļūdas stāvoklī. Tas parāda detalizētu informāciju par to, kas izraisīja procesa neveiksmi. Varat izmantot kļūdas kodā esošo informāciju, lai novērstu problēmu, un pēc tam manuāli restartēt procesu. Atkarībā no atrisinājuma veida, apkopotie pārdošanas apjomi, iespējams, būs jādzēš un jāapstrādā jaunā paziņojumā.
 
-Apkopotās transakcijas cilnē **Detalizēta informācija par transakciju** tiek rādītas visas transakcijas, kas ir ietvertas apkopotajā transakcijā. Apkopotās transakcijas apkopotajās rindās tiek rādīti visi no transakcijām apkopotie ieraksti. Apkopotajās rindās tiek rādīta arī tāda detalizētā informācija kā krājums, variants, daudzums, cena, neto summa, vienība un noliktava. Būtībā katra apkopotā rinda atbilst vienai pārdošanas pasūtījuma rindai.
+![Pārdošanas pasūtījuma informācijas lauki apkopotā darījuma ātrās cilnes.](media/aggregated-transactions-error-message-view.png)
 
-No lapas **Apkopotās transakcijas** varat lejupielādēt XML failu noteiktai apkopotajai transakcijai, izmantojot pogu **Eksportēt pārdošanas pasūtījumu XML**. Šo XML failu varat izmantot, lai atkļūdotu ar pārdošanas pasūtījuma izveidošanu un grāmatošanu saistītās problēmas. Vienkārši lejupielādējiet XML failu, augšupielādējiet to testēšanas vidē un atkļūdojiet problēmu šajā testēšanas vidē. XML faila lejupielādēšanas funkcionalitāte apkopotajām transakcijām nav pieejama izrakstiem, kas ir grāmatoti.
+The **Darījuma informācija** Apkopotā darījuma FastTab parāda visus darījumus, kas ir iekļauti apkopotajā darījumā. Apkopotās transakcijas apkopotajās rindās tiek rādīti visi no transakcijām apkopotie ieraksti. Apkopotajās rindās tiek rādīta arī tāda detalizētā informācija kā krājums, variants, daudzums, cena, neto summa, vienība un noliktava. Būtībā katra apkopotā rinda atbilst vienai pārdošanas pasūtījuma rindai.
 
-Apkopotās transakcijas skats nodrošina tālāk norādītās priekšrocības.
+![Darījuma informācija Apkopotā darījuma ātrā cilne.](media/aggregated-transactions-sales-details.png)
+
+Dažās situācijās apkopotajiem darījumiem var neizdoties publicēt to konsolidēto pārdošanas pasūtījumu. Šādās situācijās kļūdas kods tiks saistīts ar paziņojuma statusu. Lai skatītu tikai apkopotos darījumus, kuros ir kļūdas, varat iespējot **Rādīt tikai neveiksmes** filtrēt apkopoto darījumu skatā, atzīmējot izvēles rūtiņu. Iespējojot šo filtru, rezultāti tiek ierobežoti līdz apkopotiem darījumiem, kuros ir kļūdas, kuras ir jāatrisina. Informāciju par šo kļūdu labošanu skatiet sadaļā [Rediģēt un pārbaudīt tiešsaistes pasūtījumu un asinhrono klientu pasūtījumu darījumus](edit-order-trans.md).
+
+![Apkopoto transakciju skata izvēles rūtiņa filtram Rādīt tikai kļūdas.](media/aggregated-transactions-failure-view.png)
+
+Uz **Apkopotie darījumi** lapā varat lejupielādēt XML konkrētam apkopotam darījumam, atlasot **Eksportēt apkopojuma datus**. Varat pārskatīt XML jebkurā XML formatētājā, lai redzētu faktiskos datus, kas saistīti ar pārdošanas pasūtījuma izveidi un ievietošanu. XML faila lejupielādēšanas funkcionalitāte apkopotajām transakcijām nav pieejama izrakstiem, kas ir grāmatoti.
+
+![Poga Eksportēt apkopotos datus lapā Apkopotie darījumi.](media/aggregated-transactions-export.png)
+
+Ja kļūdu nevar novērst, labojot datus par pārdošanas pasūtījumu vai datus, kas atbalsta pārdošanas pasūtījumu, **Dzēst klienta pasūtījumu** poga ir pieejama. Lai dzēstu pasūtījumu, atlasiet apkopoto darījumu, kas neizdevās, un pēc tam atlasiet **Dzēst klienta pasūtījumu**. Tiks dzēsts gan apkopotais darījums, gan atbilstošais pārdošanas pasūtījums. Tagad varat pārskatīt darījumus, izmantojot rediģēšanas un audita funkcionalitāti. Tos var arī atkārtoti apstrādāt, izmantojot jaunu paziņojumu. Kad visas kļūmes ir novērstas, varat atsākt izraksta publicēšanu, palaižot attiecīgā priekšraksta funkciju Post izraksta.
+
+![Poga Dzēst klientu pasūtījumu apkopoto darījumu skatā.](media/aggregated-transactions-delete-cust-order.png)
+
+Apkopoto darījumu skats nodrošina šādas priekšrocības:
 
 - Lietotājam ir pārredzamas apkopotās transakcijas, kuras neizdevās izpildīt pārdošanas pasūtījuma izveidošanas laikā, un pārdošanas pasūtījumi, kurus neizdevās izpildīt rēķina izrakstīšanas laikā.
 - Lietotājam ir pārredzams veids, kā transakcijas tiek apkopotas.
 - Lietotājam ir pilnīgi auditācijas pieraksti, no transakcijām līdz pārdošanas pasūtījumiem, līdz pārdošanas rēķiniem. Šie auditācijas pieraksti nebija pieejami mantotajā izrakstu grāmatošanas līdzeklī.
-- Apkopotais XML fails ļaut vienkāršāk identificēt problēmas pārdošanas pasūtījuma izveidošanas un rēķina izrakstīšanas laikā.
+- Apkopotais XML fails ļauj vieglāk identificēt problēmas pārdošanas pasūtījuma izveides un rēķinu izrakstīšanas laikā.
 
 ### <a name="journal-vouchers"></a>Žurnālu dokumenti
 
@@ -174,3 +204,6 @@ Izrakstu grāmatošanas līdzeklim ir veikti citi, aizmugursistēmas uzlabojumi,
 
     - Pārejiet uz sadaļu **Retail un Commerce** \> **Headquarters iestatīšana** \> **Parametri** \> **Commerce parametri**. Pēc tam cilnē **Grāmatošana**, kopsavilkuma cilnē **Krājumu atjaunināšana**, laukā **Detalizācijas līmenis** atlasiet **Kopsavilkums**.
     - Pārejiet uz sadaļu **Retail un Commerce** \> **Headquarters iestatīšana** \> **Parametri** \> **Commerce parametri**. Pēc tam cilnē **Grāmatošana**, kopsavilkuma cilnē **Apkopošana** opciju **Dokumentu transakcijas** iestatiet uz **Jā**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

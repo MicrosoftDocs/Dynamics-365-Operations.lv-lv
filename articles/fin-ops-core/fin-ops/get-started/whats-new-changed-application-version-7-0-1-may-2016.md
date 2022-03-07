@@ -2,11 +2,9 @@
 title: Jaunumi un izmaiņas Dynamics AX programmas versijā 7.0.1 (2016. gada maijs)
 description: Šajā rakstā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti Microsoft Dynamics AX programmas versijā 7.0.1. Šī versija tika izlaista 2016. gada maijā, un tās būvējuma numurs ir 7.0.1265.23014.
 author: sericks007
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 17067ff534e0e3f4636d7a307563128db55cf2ba
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: 9a455ffbc4396ea4bf0e3df12e7acdcbfeaa5f5269dbe772848341ac0d22a5e1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797168"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748268"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Jaunumi un izmaiņas Dynamics AX programmas versijā 7.0.1 (2016. gada maijs)
 
@@ -78,7 +76,7 @@ ms.locfileid: "4797168"
 </tr>
 <tr>
 <td>Atbalstiet MK, kuros ir ietverti krājumi ar tā paša krājuma atšķirīgām preces dimensijām.</td>
-<td>Ja ražošanā lietojat vienu vai vairākas preces dimensijas, var rasties situācijas, kad vēlaties ražot kādu krājumu, balstoties uz citu tā paša krājuma variantu. Papildinformāciju skatiet <a href="https://blogs.msdn.microsoft.com/axmfg/2015/12/22/support-for-boms-that-includes-items-with-different-product-dimensions-of-the-same-item/">šajā emuārā</a>.</td>
+<td>Ja ražošanā lietojat vienu vai vairākas preces dimensijas, var rasties situācijas, kad vēlaties ražot kādu krājumu, balstoties uz citu tā paša krājuma variantu. Papildinformāciju skatiet <a href="/archive/blogs/axmfg/support-for-boms-that-includes-items-with-different-product-dimensions-of-the-same-item">šajā emuārā</a>.</td>
 </tr>
 <tr>
 <td>Ražošanas pasūtījumi ar cikliskajām struktūrām to MK pirmajā līmenī tiek izslēgtas no MK līmeņa aprēķina materiālo resursu plānošanai.</td>
@@ -106,3 +104,6 @@ ms.locfileid: "4797168"
 [Jaunumi un izmaiņas Finance and Operations sākumlapā](whats-new-changed.md)
 
 [Jauni vai atjaunināti uzdevumu ceļveži (2016. gada maijs)](new-updated-task-guides-available-may-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

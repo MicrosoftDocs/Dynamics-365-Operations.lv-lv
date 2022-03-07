@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 398bc231870a8573103ee7c7c63e96322b0b62a1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: df37233da30d207ed1bcf97da3b9993cacad560d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414026"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5252682"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-developers"></a>Apmācību katalogs Dynamics 365 Commerce izstrādātājiem
 
@@ -42,3 +41,6 @@ Apmācību par līdzekļiem, kas koplietoti ar citām Finance and Operations pro
 | Saturs  | Apraksts  | Formāts  | Ilgums    |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
 | [Izvietošana un paplašināšana Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/deploy-dynamics-365-commerce/) | Šis mācību ceļš apraksta, kā izvietot   Dynamics 365 Commerce vides un veikt pirmsnodrošināšanas soļus sekmīgai Komercijas ieviešanai, izmantojot pareizo topoloģiju katra mazumtirgotāja biznesa vajadzībām. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 5 stundas |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,26 +1,29 @@
 ---
 title: Budžeta plānošanas datu sadalījums
 description: Šajā tēmā ir aprakstītas dažādās sadalījuma metodes, kas ir pieejamas programmā Microsoft Dynamics 365 Finance, un to lietošana.
-author: panolte
+author: ShylaThompson
+manager: AnnBe
 ms.date: 03/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 15191
 ms.assetid: 89a918e8-59a4-4711-a2e9-b41989ddd0f1
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6011c4c005a26720fd57caca0075483404f41b4
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: ceddeda5760d961568d58e7e4805955ea972c586
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595121"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4445717"
 ---
 # <a name="budget-planning-data-allocation"></a>Budžeta plānošanas datu sadalījums
 
@@ -36,28 +39,28 @@ Trīs sadalījuma metodes (sadalīt periodos, sadalīt uz dimensijām un izmanto
 > [!NOTE] 
 > Summēšanai jāizmanto unikāls scenārijs, kas atšķiras no scenārija, kas tika izmantots sadalei vai citām modifikācijām, kas iepriekš tika veiktas pamatplānā.  
 
-[![Sadalīt pa periodiem piešķiršanas metode.](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
-**Sadalīt pa periodiem** — lai budžeta plāna rindas no avota budžeta plāna scenārija sadalītu pa mērķa scenārija periodiem, tiek izmantota periodu sadalījuma kategorija. Avota summa tiek piešķirta vairākām rindām mērķa scenārijā, pamatojoties uz procentuālo attiecību un datumu, kas ir noteikti perioda sadalījuma kategorijā.         
+[![Sadalīt pa periodiem piešķiršanas metode](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
+**Sadalīt pa periodiem** — lai budžeta plāna rindas no avota budžeta plāna scenārija sadalītu pa mērķa scenārija periodiem, tiek izmantota periodu sadalījuma kategorija. Avota summa tiek piešķirta vairākām rindām mērķa scenārijā, pamatojoties uz procentuālo attiecību un datumu, kas ir noteikti perioda sadalījuma kategorijā.         
 
-[![Sadalījums uz dimensijām piešķiršanas metode.](./media/allocatetodimensions.jpg)](./media/allocatetodimensions.jpg)
+[![Sadalījums uz dimensijām piešķiršanas metode](./media/allocatetodimensions.jpg)](./media/allocatetodimensions.jpg)
 **Sadalījums uz dimensijām** — budžeta plāna rindas tiek sadalītas no avota budžeta plānošanas scenārija uz vienu vai vairākām rindām mērķa scenārijā, balstoties uz procentuālo sadalījumu un finanšu dimensijām, kas definētas atlasītajā budžeta sadalījuma noteikumā.           
 
-![Apkopošanas diagramma.](./media/aggregatechart-300x230.png)
-**Apkopot** — budžeta plāna rindas tiek apkopotas no avota budžeta plāna scenārija saistītajos (pakārtotajos) budžeta plānos uz mērķa scenāriju pamata budžeta plānā. Šī metode ļauj budžeta summas, kas sagatavotas zemākā organizācijas līmenī, konsolidēt augstākā līmenī.          
+![Apkopošanas diagramma](./media/aggregatechart-300x230.png)
+**Apkopot** — budžeta plāna rindas tiek apkopotas no avota budžeta plāna scenārija saistītajos (pakārtotajos) budžeta plānos uz mērķa scenāriju pamata budžeta plānā. Šī metode ļauj budžeta summas, kas sagatavotas zemākā organizācijas līmenī, konsolidēt augstākā līmenī.          
 
-[![Izplatīšanas diagramma.](./media/distributechart-300x230.png)](./media/distributechart.png)
-**Izplatīt** — budžeta plāna rindas tiek izplatītas no avota budžeta plānošanas scenārija pamata budžeta plānā uz mērķa scenāriju saistītajos (pakārtotajos) budžeta plānos, pamatojoties uz saistīto plānu organizācijas vienību finanšu dimensijām. Šī metode ļauj budžeta summas, kas sagatavotas augstākā organizācijas līmenī, izplatīt lokālai pārskatīšanai.           
+[![Izplatīšanas diagramma](./media/distributechart-300x230.png)](./media/distributechart.png)
+**Izplatīt** — budžeta plāna rindas tiek izplatītas no avota budžeta plānošanas scenārija pamata budžeta plānā uz mērķa scenāriju saistītajos (pakārtotajos) budžeta plānos, pamatojoties uz saistīto plānu organizācijas vienību finanšu dimensijām. Šī metode ļauj budžeta summas, kas sagatavotas augstākā organizācijas līmenī, izplatīt lokālai pārskatīšanai.           
 
-[![Virsgrāmatas sadalījuma kārtulas.](./media/ledgerallocationrules-300x202.png)](./media/ledgerallocationrules.png)
-**Izmantot Virsgrāmatas sadalījuma kārtulas** — budžeta plāna rindas tiek sadalītas no avota budžeta plānošanas scenārija uz mērķa scenāriju saskaņā ar atlasīto Virsgrāmatas sadalījuma kārtulu. 
+[![Virsgrāmatas sadalījuma kārtulas](./media/ledgerallocationrules-300x202.png)](./media/ledgerallocationrules.png)
+**Izmantot Virsgrāmatas sadalījuma kārtulas** — budžeta plāna rindas tiek sadalītas no avota budžeta plānošanas scenārija uz mērķa scenāriju saskaņā ar atlasīto Virsgrāmatas sadalījuma kārtulu. 
 
-[![Kopēt no budžeta plāna.](./media/copyfrombudgetplan-187x300.png)](./media/copyfrombudgetplan.png)
+[![Kopēt no budžeta plāna](./media/copyfrombudgetplan-187x300.png)](./media/copyfrombudgetplan.png)
 **Kopēt no budžeta plāna** — tāpat kā izplatīšanas sadalījuma metodē, budžeta plāna rindas tiek veidotas mērķa plānā, pamatojoties uz rindām saistītajā budžeta plānā. Tomēr šajā metodē avota budžeta plānam nav jābūt priekštecim, tas var būt jebkurā augstākā līmenī budžeta plānu hierarhijā. Šī sadalījuma metode ir noderīga, ja konsolidētās summas sākotnēji tiek iekļautas budžetā daudz augstākā līmenī un tās jāpārsūta uz zemāku organizācijas līmeni sīkākai pārskatīšanai un pielāgošanai, pirms tās var saņemt augstāka līmeņa apstiprinājumu.          
 
 ## <a name="using-allocation-methods-in-a-budget-plan"></a>Sadalījuma metožu izmantošana budžeta plānā
 Lai veiktu sadalījumu budžeta plāna lapā, atlasiet sadalāmās rindas un pēc tam noklikšķiniet uz **Sadalīt budžetu**.
 
-[![Poga Piešķirt budžetu.](./media/allocatebudgetbutton-300x84.png)](./media/allocatebudgetbutton.png) 
+[![Poga Piešķirt budžetu](./media/allocatebudgetbutton-300x84.png)](./media/allocatebudgetbutton.png) 
 
 Pēc tam atlasiet sadalījuma metodi. Atlikušie lauki pēc tam tiek iestatīti, pamatojoties uz atlasītās metodes. Šie lauki ietver avota un mērķa budžeta plānu datus un opciju, kas ļauj reizināt avotu ar norādīto koeficientu, izveidojot mērķa summas, lai vienkāršotu lielapjoma korekcijas. Varat arī iestatīt opciju **Pievienot plānam**. Atlasiet **Nē**, lai aizstātu esošās budžeta plāna rindas, vai atlasiet **Jā**, lai saglabātu esošās budžeta plāna rindas un pievienotu jaunas rindas sadalītajām summām.
 
@@ -70,10 +73,7 @@ Pēc tam izveidojiet stadijas sadalījumu lapā **Budžeta plānošanas konfigur
 
 Visbeidzot, pievienojiet automatizētu uzdevumu budžeta plānošanas stadijas sadalījumam vēlamajā darbplūsmas stadijā. Šajā piemērā darbplūsmā ietverti divi budžeta plānošanas stadiju sadalījumi (apzīmēts ar sarkanu krāsu).
 
-[![Budžeta plānošanas stadiju sadalījumi.](./media/budgetplanningstageallocations-300x300.png)](./media/budgetplanningstageallocations.png)
+[![Budžeta plānošanas stadiju sadalījumi](./media/budgetplanningstageallocations-300x300.png)](./media/budgetplanningstageallocations.png)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

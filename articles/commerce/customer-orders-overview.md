@@ -2,16 +2,13 @@
 title: Debitoru pasūtījumi Pārdošanas punktā (POS)
 description: Šajā tēmā ir sniegta informācija par debitoru pasūtījumiem Pārdošanas punktā (POS). Debitoru pasūtījumi tiek saukti arī par īpašajiem pasūtījumiem. Šajā tēmā ir iekļauta diskusija par saistītajiem parametriem un transakciju plūsmām.
 author: josaw1
-manager: AnnBe
-ms.date: 09/03/2020
+ms.date: 01/06/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 260594
 ms.assetid: 6fc835ef-d62e-4f23-9d49-50299be642ca
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 9e5770de82638e6cef6d4c1dffd1dc85549fb11f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a310c7067b399fb35ccc8a1b17d8bd6822a27a62
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414036"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821012"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Debitoru pasūtījumi Pārdošanas punktā (POS)
 
@@ -52,9 +49,9 @@ Lai lietotu debitoru pasūtījumus, ir jākonfigurē piegādes veidi, ko var izm
 
 ### <a name="set-up-fulfillment-groups"></a>Izpildes grupu iestatīšana
 
-Dažas krātuves vai noliktavas var nespēt izpildīt debitoru pasūtījumus. Konfigurējot izpildes grupas, organizācija var norādīt, kuras krātuves un noliktavas tiek rādītas kā opcijas lietotājiem, kas izveido debitoru pasūtījumus POS punktā. Izpildes grupas ir konfigurētas lapā **Izpildes grupas**. Organizācijas var izveidot tik daudz izpildes grupu, cik nepieciešams. Kad izpildes grupa ir definēta, tā ir saistīta ar krātuvi, izmantojot pogu cilnē **Iestatīt** , kas atrodas lapas **Krātuves** darbības rūtī.
+Dažas krātuves vai noliktavas var nespēt izpildīt debitoru pasūtījumus. Konfigurējot izpildes grupas, organizācija var norādīt, kuras krātuves un noliktavas tiek rādītas kā opcijas lietotājiem, kas izveido debitoru pasūtījumus POS punktā. Izpildes grupas ir konfigurētas lapā **Izpildes grupas**. Organizācijas var izveidot tik daudz izpildes grupu, cik nepieciešams. Kad izpildes grupa ir definēta, saistiet to ar krātuvi, atlasot **Izpildes grupu piešķire** cilnē **Iestatīt**, kas atrodas lapas **Krātuves** darbības rūtī.
 
-Commerce versijā 10.0.12 un vēlākā versijā, organizācijas var noteikt, vai noliktavas vai noliktavas/krātuves kombinācijas, kas definētas izpildes grupās, var tikt izmantotas nosūtīšanai, saņemšanai vai gan piegādei, gan saņemšanai. Tāpēc krātuvei ir papildu elastīgums, lai vadītu noliktavas un krātuves opcijas, kas tiek rādītas lietotājiem, kuri veido saņemšanas pasūtījumu salīdzinājumā ar nosūtīšanas pasūtījumu. Lai izmantotu šīs konfigurācijas opcijas, ir jāieslēdz līdzeklī **Spēja noteikt atrašanās vietas kā "nosūtīšana" vai "saņemšana", kas ir iespējotas izpildes grupās** . Ja noliktava, kas ir saistīta ar izpildes grupu, nav krātuve, to var konfigurēt tikai kā nosūtīšanas vietu. To nevar izmantot, ja saņemšanas pasūtījumi tiek konfigurēti POS punktā.
+Commerce versijā 10.0.12 un vēlākā versijā, organizācijas var noteikt, vai noliktavas vai noliktavas un krātuves kombinācijas, kas definētas izpildes grupās, var tikt izmantotas nosūtīšanai, saņemšanai vai gan piegādei, gan saņemšanai. Tas ļauj uzņēmumam piešķirt papildu elastību, nosakot, kuras noliktavas var atlasīt, izveidojot debitora pasūtījumu krājumiem nosūtīšanai pret to, kuri veikali var tikt atlasīti, izveidojot debitora pasūtījumu krājumiem savākšanai. Lai izmantotu šīs konfigurācijas opcijas, ieslēdziet līdzekli **Spēja noteikt atrašanās vietas kā "nosūtīšana" vai "saņemšana", kas ir iespējotas izpildes grupās** . Ja noliktava, kas ir saistīta ar izpildes grupu, nav krātuve, to var konfigurēt tikai kā nosūtīšanas vietu. To nevar izmantot, ja saņemšanas pasūtījumi tiek konfigurēti POS punktā.
 
 ![Izpildes grupu lapa](media/customer-order-fulfillment-group.png)
 
@@ -62,7 +59,8 @@ Commerce versijā 10.0.12 un vēlākā versijā, organizācijas var noteikt, vai
 
 Strādājot ar klientu pasūtījumiem POS punktā, ir jāapsver daži krātuves kanāla iestatījumi. Šie iestatījumi ir pieejami programmas Commerce Headquarters lapā **Krātuves** .
 
-- **Noliktava** – Šis lauks norāda noliktavu, kas tiek izmantota, lai izpildītu pasūtījumus, kas ir konfigurēti nosūtīšanai no krātuves.
+- **Noliktava** — šajā laukā tiek norādīta noliktava, kas tiks izmantota, samazināt krājumus kasē un veikt, kā arī ar šo veikalu saistītus debitoru saņemšanas pasūtījumus. Saskaņā ar labāko praksi iesakām izmantot unikālas noliktavas katram veikala kanālam, lai novērstu konfliktējošas biznesa loģikas problēmas veikalos.
+- **Nosūtīšanas noliktava** — šajā laukā tiek norādīta noliktava, kas tiks izmantota, samazināt krājumus kasē un veikt, kā arī ar šo veikalu saistītus debitoru saņemšanas pasūtījumus. Ja jūsu vidē ir iespējota funkcija **Spēja norādīt atrašanās vietas kā "Piegāde" vai "Savākšana"**, POS lietotāji var izvēlēties konkrētu noliktavu nosūtīšanai no POS, nevis izvēlēties veikalu nosūtīšanai no tās. Tādēļ, kad šī funkcija ir aktivizēta, nosūtīšanas noliktava vairs netiek izmantota, jo lietotājs izvēlētos konkrētu noliktavu, no kuras nosūtīt pasūtījumu, kad pasūtījums ir izveidots.
 - **Izpildes grupas piešķire** – Atlasiet šo pogu (cilnē **Iestatīt** darbības rūtī), lai sasaistītu izpildes grupas, uz kurām ir atsauce, lai parādītu saņemšanas vietu vai sūtījuma izcelsmes opcijas, kad debitoru pasūtījumi tiek veidoti POS punktā.
 - **Izmantot mērķa nodokli** – Šī opcija norāda, vai piegādes adrese tiek izmantota, lai noteiktu nodokļu grupu, kas tiek lietota pasūtījuma rindām, kas tiek nosūtītas uz debitora adresi.
 - **Izmantot uz debitoru balstītu nodokli** – Šī opcija norāda, vai nodokļu grupa, kas ir noteikta klienta piegādes adresei, tiek izmantota debitoru pasūtījumu apmaksai, kas tiek izveidoti POS punktā nosūtīšanai uz klienta mājām.
@@ -99,7 +97,10 @@ Pārliecinieties, ka POS punktā [ekrāna izkārtojums](https://docs.microsoft.c
 
 ![Operācijas POS darbības ekrānā](media/customer-order-screen-layout.png)
 
-## <a name="working-with-customer-orders-in-pos"></a>Darbs ar debitoru pasūtījumiem POS punktā
+## <a name="work-with-customer-orders-in-pos"></a>Darbs ar debitoru pasūtījumiem POS punktā
+
+> [!NOTE]
+> Ieņēmumu atpazīšanas funkcionalitāte pašlaik netiek atbalstīta izmantošanai Commerce kanālos (e-komercija, POS, zvanu centrs). Krājumus, kas ir konfigurēti ar ieņēmumu atpazīšanu, nedrīkst pievienot pasūtījumiem, kas izveidoti Commerce kanālos. 
 
 ### <a name="create-a-customer-order-for-products-that-will-be-shipped-to-the-customer"></a>Izveidot debitora pasūtījumu precēm, kas tiks nosūtītas debitoram
 
@@ -118,7 +119,7 @@ Pārliecinieties, ka POS punktā [ekrāna izkārtojums](https://docs.microsoft.c
 2. Pievienojiet grozam preces.
 3. Atlasiet opciju **Saņemt atlasīto** vai **Saņemt visu** , lai sāktu pasūtījuma saņemšanas konfigurāciju.
 4. Atlasiet krātves atrašanās vietu, kur debitors saņems atlasītās preces.
-5. Atlasiet saņemšanas datumu.
+5. Atlasiet datumu, kad krājums tiks saņemts.
 6. Izmantojiet maksājuma funkcijas, lai samaksātu par visām apmaksājamajām summām, vai izmantojiet operāciju **Depozīta pārlabošana** , lai mainītu maksājamās summas un pēc tam pielietotu maksājumu.
 7. Ja pilna pasūtījuma kopsumma netika apmaksāta, izvēlieties, vai debitors nodrošinās maksājumu vēlāk (saņemšanas laikā), vai arī kredītkarte tiks marķēta tūlīt, un pēc tam tiks izmantota un notverta saņemšanas laikā.
 
@@ -127,12 +128,10 @@ Pārliecinieties, ka POS punktā [ekrāna izkārtojums](https://docs.microsoft.c
 Mazumtirdzniecības pasūtījumus, kas ir izveidoti tiešsaistes vai krātuves kanālā, pēc nepieciešamības var atsaukt un rediģēt, izmantojot POS punktu.
 
 > [!IMPORTANT]
-> Zvanu centra kanālā izveidotos pasūtījumus nevar rediģēt, izmantojot POS punktu, ja iestatījums [Iespējot pasūtījuma pabeigšanu](https://docs.microsoft.com/dynamics365/commerce/set-up-order-processing-options#enable-order-completion) ir ieslēgts zvanu centra kanālam. Lai nodrošinātu pareizu maksājuma apstrādi, pasūtījumus, kas radās zvanu centra kanālā un kas izmanto iespējošanas pasūtījuma pabeigšanas funkcionalitāti, ir jārediģē, izmantojot zvanu centra programmu programmā Commerce Headquarters.
+> Ne visus mazumtirdzniecības pasūtījumus var rediģēt, izmantojot POS programmu. Zvanu centra kanālā izveidotos pasūtījumus nevar rediģēt, izmantojot POS punktu, ja iestatījums [Iespējot pasūtījuma pabeigšanu](https://docs.microsoft.com/dynamics365/commerce/set-up-order-processing-options#enable-order-completion) ir ieslēgts zvanu centra kanālam. Lai nodrošinātu pareizu maksājuma apstrādi, pasūtījumus, kas radās zvanu centra kanālā un kas izmanto iespējošanas pasūtījuma pabeigšanas funkcionalitāti, ir jārediģē, izmantojot zvanu centra programmu programmā Commerce Headquarters.
 
-Commerce versijā 10.0.13 un vecākā versijā lietotāji var rediģēt atbalstītos debitoru pasūtījumus, izmantojot POS punktu, tikai tad, ja pasūtījumi ir pilnībā atvērti. Ja kāda pasūtījuma rindas jau ir apstrādātas izpildei (saņemšana, sapakošana un tā tālāk), pasūtījums tiek bloķēts rediģēšanai POS punktā.
+Versijā 10.0.17 un jaunākās versijās lietotāji var rediģēt atbilstošos pasūtījumus, izmantojot POS programmu, pat ja pasūtījums ir daļēji izpildīts. Tomēr pasūtījumus, kas ir pilnībā iekļauti rēķinā, joprojām nevar rediģēt, izmantojot POS punktu. Lai iespējotu šo iespēju, ieslēdziet līdzekli **Rediģēt daļēji izpildītos pasūtījumus Pārdošanas punktā** darbvietā **Līdzekļu pārvaldība** . Ja šī funkcija nav iespējota vai ja izmantojat versiju 10.0.16 vai vecāku versiju, POS programmas lietotāji varēs rediģēt debitoru pasūtījumus tikai tad, ja pasūtījums ir atvērts pilnībā. Ja šī funkcija ir aktivizēta, varat ierobežot veikalus, kuros var rediģēt daļēji izpildītus pasūtījumus. Opciju atspējot šo iespēju noteiktiem veikaliem var konfigurēt, izmantojot **Funkcijas profilu** sadaļā **Vispārīgi**.
 
-> [!NOTE]
-> Commerce versijā 10.0.14, līdzeklis, kas ir izlaists [publiskajā priekšskatījumā](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-terms) ļauj POS lietotājiem rediģēt debitoru pasūtījumus, izmantojot POS punktu, pat ja daži no pasūtījumiem jau ir izpildīti. Tomēr pasūtījumus, kas ir pilnībā iekļauti rēķinā, joprojām nevar rediģēt, izmantojot POS punktu. Lai pārbaudītu šo priekšskatījuma līdzekli un sniegtu papildu atsauksmes, ieslēdziet līdzekli **(Priekšskatījums) Rediģēt daļēji izpildītos pasūtījumus Pārdošanas punktā** darbvietā **Līdzekļu pārvaldība** . Debitoru pasūtījumi, kas tika izveidoti zvanu centra kanālā un kas izmanto iespējošanas pasūtījuma pabeigšanas funkcionalitāti, nevar tikt rediģēti pat pēc šīs funkcijas iespējošanas.
 
 1. Atlasiet **Atsaukt pasūtījumu**.
 2. Izmantojiet **Meklēt** , lai ievadītu filtrus, lai atrastu pasūtījumu, un pēc tam atlasiet **Pielietot**.
@@ -170,3 +169,6 @@ Ja ir iestatīta opcijas **Izveidot debitora pasūtījumu asinhronā režīmā**
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Hibrīda debitoru pasūtījumi](hybrid-customer-orders.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

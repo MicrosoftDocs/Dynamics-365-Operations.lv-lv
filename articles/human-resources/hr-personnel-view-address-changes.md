@@ -2,14 +2,11 @@
 title: Skatīt un pārvaldīt adreses izmaiņas
 description: Šajā tēmā izskaidrots, kā var skatīt un pārvaldīt adreses izmaiņas Dynamics 365 Human Resources.
 author: andreabichsel
-manager: tfehr
 ms.date: 08/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 269074
 ms.assetid: 426c6127-42ee-4163-8dd0-b2867f95581d
@@ -17,14 +14,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-07
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8746f449f2b30b2e2119446c1912842c420acbfc
-ms.sourcegitcommit: 2190be6c205d7d9e43bdb99b9190cc0112f9f093
+ms.openlocfilehash: f9cd6c86d65bced0323097e8388b14eff98345a14b94beb8a469c8c5f482c36b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5152057"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6725016"
 ---
 # <a name="view-and-manage-address-changes"></a>Skatīt un pārvaldīt adreses izmaiņas
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Šajā tēmā izskaidrots, kā varat skatīt un pārvaldīt adreses izmaiņas darbinieka pašapkalpošanās lapā **Rediģēt personas datus** vai **Darbinieka** informācijas lapu programmā Dynamics 365 Human Resources.
 
@@ -125,6 +124,9 @@ HR personāls var skatīt un pārraudzīt adreses izmaiņas no **Personāla vad�
 Kad atlasāt **Adreses izmaiņas** elementu, jauna lapa parāda detalizētu informāciju par visām adreses izmaiņām. Pēc izvēles var atlasīt **Iekļaut turpmākās adreses izmaiņas** augšējā labajā stūrī, lai parādītu adreses izmaiņas ar nākotnes datumu.
 
 > [!NOTE]
-> Ja vēlaties saņemt brīdinājumu vai e-pasta ziņojumu par šīm adreses izmaiņām, darbību rūts cilnē **Opcijas** varat izveidot jaunu brīdinājuma kārtulu. Papildinformāciju par brīdinājumu kārtulām skatiet sadaļā [Brīdinājumu kārtulu izveide](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts).<br><br>
+> Ja vēlaties saņemt brīdinājumu vai e-pasta ziņojumu par šīm adreses izmaiņām, darbību rūts cilnē **Opcijas** varat izveidot jaunu brīdinājuma kārtulu. Papildinformāciju par brīdinājumu kārtulām skatiet sadaļā [Brīdinājumu kārtulu izveide](../fin-ops-core/fin-ops/get-started/create-alerts.md).<br><br>
 
-> Ja vēlaties konfigurēt darbplūsmu adreses izmaiņām, varat atlasīt opciju **Sūtīt ārēji** jūsu brīdinājuma kārtulā un pēc tam izmantot Power Automate biznesa notikuma ierosināšanai un darbplūsmas konfigurēšanai. Plašāku informāciju skatiet [Brīdinājumi kā biznesa notikumi](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts#alerts-as-business-events).
+> Ja vēlaties konfigurēt darbplūsmu adreses izmaiņām, varat atlasīt opciju **Sūtīt ārēji** jūsu brīdinājuma kārtulā un pēc tam izmantot Power Automate biznesa notikuma ierosināšanai un darbplūsmas konfigurēšanai. Plašāku informāciju skatiet [Brīdinājumi kā biznesa notikumi](../fin-ops-core/fin-ops/get-started/create-alerts.md#alerts-as-business-events).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

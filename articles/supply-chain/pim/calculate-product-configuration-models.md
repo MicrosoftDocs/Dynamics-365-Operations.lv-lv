@@ -1,17 +1,14 @@
 ---
-title: Bieži uzdotie jautājumi par preču konfigurācijas modeļu aprēķiniem
+title: Biežāk uzdotie jautājumi par preču konfigurācijas modeļu aprēķiniem
 description: Šajā tēmā ir aprakstīti preču konfigurācijas modeļu aprēķini un ir paskaidrots, kā šos aprēķinus lietot kopā ar ierobežojumiem.
 author: cvocph
-manager: tfehr
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCConstraintEditor, PCProductConfigurationModelDetails, PCRuntimeConfigurator
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19191
 ms.assetid: 8993f9a1-d1c0-49f5-afd3-5e1077ded0fe
 ms.search.region: Global
@@ -19,14 +16,14 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7fac3ec6df53dcc6e459f62f76d856a11d294b6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8ae7289031e8952bd9ea396c807e7136b70ef34afd0cb6c26adf57d515c90b4a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432444"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730350"
 ---
-# <a name="calculations-for-product-configuration-models-faq"></a>Bieži uzdotie jautājumi par preču konfigurācijas modeļu aprēķiniem
+# <a name="calculations-for-product-configuration-models-faq"></a>Biežāk uzdotie jautājumi par preču konfigurācijas modeļu aprēķiniem
 
 [!include [banner](../includes/banner.md)]
 
@@ -105,3 +102,6 @@ Aprēķini nav iekļauti validācijā. Ir jāpārbauda preču konfigurācijas mo
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

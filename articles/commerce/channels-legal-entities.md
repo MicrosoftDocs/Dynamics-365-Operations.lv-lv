@@ -1,37 +1,31 @@
 ---
 title: Izveidot juridiskās personas
-description: Šajā tēmā ir aprakstīts, kā izveidot juridiskas personas programmā Microsoft Dynamics 365 Commerce, kas jāveido un jākonfigurē pirms kanālu izveides.
+description: Šajā tēmā aprakstīts, kā izveidot juridisku personu risinājumā Microsoft Dynamics 365 Commerce, kas jāizveido un jākonfigurē pirms kanālu izveides.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 28cbcc42505f1dc90c420adc812735841541c8e0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 698c556b8839ae1d657ef02796fe08ab9cd3621e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414014"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346038"
 ---
 # <a name="create-legal-entities"></a>Izveidot juridiskās personas
 
-
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā izveidot juridiskas personas programmā Microsoft Dynamics 365 Commerce, kas jāveido un jākonfigurē pirms kanālu izveides.
-
-## <a name="overview"></a>Pārskats
+Šajā tēmā aprakstīts, kā izveidot juridisku personu risinājumā Microsoft Dynamics 365 Commerce, kas jāizveido un jākonfigurē pirms kanālu izveides.
 
 Juridiskā persona ir organizācija, kurai ir reģistrēta vai likumā noteikta juridiskā struktūra. Juridiskas personas var noslēgt juridiskos līgumus, un tām ir nepieciešams sagatavot pārskatus, lai ziņotu par savu veiktspēju.
 
@@ -50,7 +44,7 @@ Lai izveidotu jaunu juridisko personu programmā Dynamics 365 Commerce, veiciet 
 1. Laukā **Valsts/reģions** ievadiet vai atlasiet kādu vērtību.
 1. Atlasiet **Labi**. 
 
-   ![Juridiskās personas izveide](media/legal-entities.png)
+   ![Juridiskās personas izveide.](media/legal-entities.png)
 
 1. Sadaļā **Vispārīgi** sniedziet šādu vispārīgo informāciju par juridisko personu: 
    1. Ievadiet meklēšanas nosaukumu, ja ir nepieciešams meklēšanas nosaukums. Meklēšanas nosaukums ir alternatīvs nosaukums, ko var lietot šīs juridiskās personas meklēšanai. 
@@ -73,11 +67,11 @@ Lai izveidotu jaunu juridisko personu programmā Dynamics 365 Commerce, veiciet 
 
 Tālāk redzamajā attēlā parādīts juridiskas personas informācijas piemērs.
 
-![Juridiskās personas vispārīgā sadaļa](media/legal-entities-general.png)
+![Juridiskās personas vispārīgā sadaļa.](media/legal-entities-general.png)
    
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Organizācijas un organizāciju hierarhiju pārskats](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
+[Organizāciju un organizāciju hierarhiju pārskats](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
 
 [Organizācijas hierarhijas plānošana](../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/commerce/toc.json)
 
@@ -86,3 +80,6 @@ Tālāk redzamajā attēlā parādīts juridiskas personas informācijas piemēr
 [Kanālu apskats](channels-overview.md)
 
 [Kanālu iestatīšanas priekšnosacījumi](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,27 +2,27 @@
 title: Budžeta plānošanas pārskats
 description: Šajā tēmā aprakstīta budžeta plānošana. Tā satur informāciju, kas var palīdzēt jums sagatavoties budžeta plānošanas konfigurēšanai un iestatītu budžeta plānošanas procesus.
 author: panolte
-manager: AnnBe
 ms.date: 01/11/2018
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 17251
+ms.custom:
+- "17251"
+- intro-internal
 ms.assetid: a2e06633-a800-4840-a962-88fed8462104
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 847ae83102345a8005a8b2a630805d22ccfd736d
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 391f62f42e482f79420bbe1bbd4cec4930790229
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019232"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982069"
 ---
 # <a name="budget-planning-overview"></a>Budžeta plānošanas pārskats
 
@@ -42,7 +42,7 @@ Organizācija var konfigurēt budžeta plānošanu un pēc tam iestatīt budžet
 - **Budžeta plānošanas stadijas** — definē posmus, kurus iziet budžeta plāns no tā uzsākšanas līdz galīgās apstiprināšanas brīdim. Budžeta plānošanas stadijas ir sakārtotas budžeta plānošanas darbplūsmās.
 - **Budžeta plānošanas darbplūsmas** — sastāv no budžeta plānošanas stadijām un definē tās. Budžeta plānošanas darbplūsmas ir saistītas ar budžeta veidošanas darbplūsmām. Budžeta veidošanas darbplūsmas ir automatizēti un manuāli procesi, kas pārvieto budžeta plānus no vienas budžeta plānošanas stadijas uz citu.
 
-[![Budžeta plānošanas terminoloģija](./media/budgetplanning-terms-1024x504.png)](./media/budgetplanning-terms.png)
+[![Budžeta plānošanas terminoloģija.](./media/budgetplanning-terms-1024x504.png)](./media/budgetplanning-terms.png)
 
 ### <a name="typical-tasks"></a>Parastie uzdevumi
 
@@ -67,17 +67,17 @@ Neobligāta, bet ieteicama pirmā darbība ir izveidot shēmu, kas parāda jūsu
 
 Šajā attēlā parādīts vispārīgs piemērs, kurā dažādiem organizācijas līmeņiem ir izveidotas atsevišķas budžeta plānošanas darbplūsmas. Katrā darbplūsmā tiek noteiktas stadijas, un katrai stadijai tiek piešķirti noteikti scenāriji, kas satur budžeta datus. Uzdevumi tiek izpildīti, lai pārvietotu datus no vienas stadijas uz nākamo. Piemēram, summas var tikt piesaistītas vai apkopotas dažādos kontos, apstiprinājumos vai citos pārskatos. Šajā ilustrācijā teksts kursīvā apzīmē scenāriju, kas šajā stadijā nav rediģējams, vai datus, kas ir vēsturiski vai ir apstiprināti agrākā stadijā un tādēļ nav jāmaina.
 
-[![Budžeta plānošanas vispārīgā shēma](./media/budgetplanninggenericschema-300x145.png)](./media/budgetplanninggenericschema.png) 
+[![Budžeta plānošanas vispārīgā shēma.](./media/budgetplanninggenericschema-300x145.png)](./media/budgetplanninggenericschema.png) 
 
 Šajā ilustrācijā rādīts piemērs, kurā galvenā pārvalde aplēš bāzlīnijas summas sākotnējam budžetam un izplata tās pārdošanas nodaļām. Pārdošanas nodaļas novērtē un iesniedz savas prognozes atpakaļ galvenajai pārvaldei, kur budžeta pārvaldnieks prognozi apkopo un pielāgo. Visbeidzot, budžeta pārvaldnieks nosūta koriģētās budžeta summas pārskatīšanai, galīgajiem pielāgojumiem un apstiprināšanai galvenajam finanšu pārvaldniekam (CFO).
 
-[![Budžeta plānošanas shēmas piemērs](./media/budgetplanningexampleschema-300x145.png)](./media/budgetplanningexampleschema.png)
+[![Budžeta plānošanas shēmas piemērs.](./media/budgetplanningexampleschema-300x145.png)](./media/budgetplanningexampleschema.png)
 
 ### <a name="organization-hierarchy-for-budget-planning"></a>Organizācijas hierarhija budžeta plānošanai
 
 Lapā **Organizācijas hierarhija** varat konkretizēt organizācijas hierarhiju par budžeta plānošanas hierarhiju katrā budžeta plānošanas procesā. Budžeta plānošanas hierarhijai nav jāatbilst standarta organizācijas hierarhijai, kas tiek izmantota citiem mērķiem. Tā kā šī hierarhija tiek izmantota, lai apkopotu un izplatītu datus, varat izvēlēties atšķirīgu struktūru. Piemēra shēmā pārdošanas nodaļas pakļaujas galvenās pārvaldes līmenim, kurā ir budžeta un finanšu nodaļas. Šī struktūra, iespējams, atšķiras no struktūras, kas tiek izmantota, lai pārvaldītu operācijas pārdošanas nodaļās. Katram budžeta plānošanas procesam var piešķirt tikai vienu organizācijas hierarhiju.
 
-Papildinformāciju skatiet rakstā [Organizācijas un organizāciju hierarhijas](../../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md).
+Papildinformāciju skatiet rakstā [Organizācijas un organizāciju hierarhijas](../../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md).
 
 ### <a name="user-security"></a>Lietotāja drošība
 
@@ -95,7 +95,7 @@ Laba prakse ir izveidot budžeta plānošanas darbplūsmu katrā budžeta veido�
 
 Budžeta veidošanas darbplūsmu budžeta plānošanai varat izveidot lapā **Budžeta veidošanas darbplūsmas**. Process līdzinās citu darbplūsmu veidošanas procesam. Šajā attēlā parādīts galvenās pārvaldes darbplūsmas piemērs.
 
-[![Budžeta veidošanas darbplūsma budžeta plānošanai](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
+[![Budžeta veidošanas darbplūsma budžeta plānošanai.](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
 
 Darbplūsma ietver šādus elementus:
 
@@ -143,11 +143,11 @@ Iestatot posmu sadalījumu, saistiet budžeta plānošanas darbplūsma un posmu 
 
 Piemēra shēmā, kas parādīta iepriekš šajā tēmā, sadalījums tiek veikts, lai pārsūtītu summas no budžeta plāna un scenārijiem galvenās pārvaldes "Bāzlīnijas" stadijā uz citu budžeta plānu un scenārijiem pārdošanas nodaļas "Novērtēšanas" stadijā. Šajā attēlā parādīta piemēra shēmas attiecīgā daļa.
 
-[![Stadiju sadalījums](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
+[![Stadiju sadalījums.](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
 
 Stadijas sadalījums Turklāt piemēra shēmā tiek veikts apkopojums no budžeta plāniem un scenārijiem pārdošanas nodaļas "Iesniegšanas" stadijā uz pamatplānu galvenās pārvaldes "Apkopojuma" stadijā. Šajā attēlā parādīta piemēra shēmas attiecīgā daļa.
 
-[![Apkopojums](./media/aggregation-109x300.png)](./media/aggregation.png)
+[![Apkopojums.](./media/aggregation-109x300.png)](./media/aggregation.png)
 
 ### <a name="priorities"></a>Prioritātes
 
@@ -165,7 +165,7 @@ Papildus budžeta summu kolonnām varat definēt kolonnas budžeta plāna laukie
 
 Piemēram shēmai, iespējams, vēlēsieties izveidot kolonnas scenārijiem "PY pārdošana," "Līgumi" un "Prognoze". (Šajā ilustrācijā parādīta shēmas atbilstošā sadaļa.) Pēc tam varat sadalīt visus vai vienu no šiem scenārijiem atsevišķās kolonnās katram finanšu gada ceturksnim, lai pārdošanas nodaļas vadītājs var precīzi ievadīt katra perioda prognozētās summas.
 
-[![Kolonnas](./media/columns.png)](./media/columns.png)
+[![Shēmas sadaļu ilustrācija kolonnu pievienošanai.](./media/columns.png)](./media/columns.png)
 
 Varat arī konkretizēt, vai katru izkārtojuma elementu (kolonnu) ir atļauts rediģēt un vai tas ir pieejams jebkurā darblapas veidnē, kas ir izveidota šim izkārtojumam. Piemēra shēmas izkārtojumā, kas tiek izmantots "Novērtēšanas" stadijā, "Prognožu" kolonnas ir rediģējamas, bet kolonnas "PY pārdošana" un "Līgumi" ir tikai lasāmas.
 
@@ -203,4 +203,7 @@ Varat arī izmantot izvēlni **Darbības**, lai izveidotu jaunu procesu, kopējo
 
 Cita noderīga komanda izvēlnē **Darbības** ir **Skatīt budžeta procesa statusu**. Šī komanda grafiski parāda budžeta plānus procesā, kā arī attiecīgos datus, piemēram, plānu darbplūsmu statusu, kopsavilkumus pēc summas un vienības, kā arī satur viena klikšķa navigācijas iespēju uz pašiem budžeta plāniem.
 
-[![Budžeta plānošanas procesa statuss](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
+[![Budžeta plānošanas procesa statuss.](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: MCROrderParameters, MCRSalesTableOrderHistory, SalesOrderProcessingWorkspace
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 78973
 ms.assetid: 09fca083-ac0d-4f30-baf2-bb00a626be12
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 28954eab857a06da3978ca362081dfc3c525354d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2feb789e8942708bdad533dbdc28b2070a06e6be
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414126"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5264484"
 ---
 # <a name="set-up-call-center-channels"></a>Zvanu centra kanālu iestatīšana
 
@@ -84,3 +83,6 @@ Kad esat beidzis konfigurēt zvanu centra kanālu un definēt kanāla lietotāju
 > [!NOTE]
 > Lai izmantotu zvanu centra funkcionalitāti, jāaktivizē **Vairākas izsūtīšanas** konfigurācijas atslēga. Šo konfigurācijas atslēgu var atrast atslēgās **Tirdzniecības konfigurācija** sadaļā **Sistēmas administrēšana**\>**Iestatījumi**\>**Licences konfigurācija.** Tas ir nepieciešams zvanu centra funkcionalitātes dēļ, kas veic dažādas validācijas, pamatojoties uz piegādes adresi, kas konfigurēta pārdošanas pasūtījuma rindas līmenī. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

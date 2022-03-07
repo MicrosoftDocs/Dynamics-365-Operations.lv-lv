@@ -1,12 +1,10 @@
 ---
 title: Sagādes un avotu darbplūsmas
 description: Dažas organizācijas pieprasa, lai pirkšanas pieprasījumus un pirkšanas pasūtījumus apstiprinātu cits lietotājs nekā persona, kura ievadīja darījumu. Lai iestatītu apstiprināšanas procesu, varat izveidot darbplūsmu.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkflowTableListPageRnr
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2074
 ms.assetid: e54a1d59-b9fb-421b-821d-01f32878aa9b
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af614b7f29144d02a853ef15b008f2a21d3d3aa5
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 126e9969f312ff7f6a6c64b733708754e7659214
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019758"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909235"
 ---
 # <a name="procurement-and-sourcing-workflows"></a>Sagādes un avotu darbplūsmas
 
@@ -49,7 +47,7 @@ Sagādei un avotiem ir pieejami šādi darbplūsmu veidi.
 | Kreditoru pievienošanas pieteikumu darbplūsma | Izveidot pārskatīšanas un apstiprināšanas darbplūsmas jaunu piegādātāju pievienošanai, izmantojot piegādātāju pieprasījumus. |
 
 > [!IMPORTANT]
-> Kad jūs pievienojat jaunu darbplūsmu, jūs varētu redzēt arī šādas novecojušas darbplūsmas, kas uzskaitītas dialoglodziņā **Izveidot darbplūsmu**. Tie ir saistīti ar *kvīts apstiprinājuma* funkcionalitāti, kas bija pieejams [Dynamics AX 2012](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows), bet tagad ir novecojis. Šīs darbplūsmas pašlaik netiek atbalstītas.
+> Kad jūs pievienojat jaunu darbplūsmu, jūs varētu redzēt arī šādas novecojušas darbplūsmas, kas uzskaitītas dialoglodziņā **Izveidot darbplūsmu**. Tie ir saistīti ar *kvīts apstiprinājuma* funkcionalitāti, kas bija pieejams [Dynamics AX 2012](/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows), bet tagad ir novecojis. Šīs darbplūsmas pašlaik netiek atbalstītas.
 > 
 > - Piegādes izpildes datuma paziņojuma darbplūsma
 > - Rēķina saņemšanas paziņojuma darbplūsma
@@ -79,3 +77,6 @@ Apstiprināšanas darbību varat piešķirt šādām dalībnieku grupām.
 - [Biznesa procesu darbplūsmu definēšana pirkšanas pieprasījumiem](https://www.microsoft.com/download/details.aspx?id=101821)
 - [Pirkšanas pieprasījuma darbplūsma](purchase-requisitions-workflow.md)
 - [Kreditoru pievienošana](vendor-onboarding.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

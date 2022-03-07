@@ -1,12 +1,10 @@
 ---
 title: Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2020. gada 23. jūlijs)
 description: Šajā tēmā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Human Resources uz 2020. gada 23. jūliju.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
 ms.date: 07/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,17 +13,19 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d0672e3039f54a4591db49eee00d69bf5e4278fd
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: eb4ef2bf335e19d0d890465c851c46f66ef8bd8e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528453"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891869"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-23-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2020. gada 23. jūlijs)
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -33,7 +33,7 @@ ms.locfileid: "4528453"
 
 ## <a name="deleting-financial-dimensions-on-a-position-doesnt-work-as-expected-445476"></a>Finanšu dimensiju dzēšana Pozīcijā nedarbojas, kā paredzēts (445476)
 
-Noņemot dimensijas no pozīcijas, tās pašas pozīcijas tiek noņemtas no Common Data Service.
+Noņemot dimensijas no pozīcijas, tās pašas pozīcijas tiek noņemtas no Dataverse.
 
 ## <a name="positions-not-in-hierarchy-show-inactive-positions-397257"></a>Pozīcijas, kas nav hierarhijā, rāda neaktīvās pozīcijas (397257)
 
@@ -55,7 +55,7 @@ Tagad ir iespējams padarīt laukus obligātus, izmantojot Personāla vadības p
 
 ## <a name="human-resources-application-in-teams"></a>Programma Human Resources programmā Teams
 
-Darbinieki var skatīt un pieprasīt prombūtnes laiku sistēmā Microsoft Teams. Tās var mijiedarboties ar robotu, lai izveidotu atvaļinājumu pieprasījumus. Papildinformāciju skatiet sadaļā [Personāla vadība programms sistēmā Teams](https://go.microsoft.com/fwlink/?linkid=2127841). 
+Darbinieki var skatīt un pieprasīt prombūtnes laiku sistēmā Microsoft Teams. Tās var mijiedarboties ar robotu, lai izveidotu atvaļinājumu pieprasījumus. Papildinformāciju skatiet sadaļā [Personāla vadība programms sistēmā Teams](./hr-admin-teams-leave-app.md). 
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>Datu pārvaldības struktūras (DMF) elementi atvieglojumu pārvaldībai
  
@@ -94,9 +94,9 @@ DMF elements tagad ir pieejams uzkrājumu atlikšanai.
 
 ## <a name="coming-soon"></a>Drīzumā
 
-## <a name="checklist-entities-included-in-common-data-service"></a>Kontrolsaraksta entītijas iekļautas Common Data Service
+## <a name="checklist-entities-included-in-dataverse"></a>Kontrolsaraksta entītijas iekļautas Dataverse
 
-Kontrolsaraksta elementi Pievienošana, Noņemšana, Pārsūtīšana un Biznesa procesi drīz būs pieejami Common Data Service.
+Kontrolsaraksta elementi Pievienošana, Noņemšana, Pārsūtīšana un Biznesa procesi drīz būs pieejami Dataverse.
 
 ## <a name="platform-changes"></a>Platformas izmaiņas
 
@@ -105,6 +105,9 @@ Platformas atjauninājums 10.0.12 (36)
 ## <a name="see-also"></a>Skatiet arī
 
 [Jaunumi un izmaiņas programmā Human Resources](hr-admin-whats-new.md)</br>
-[Pārskats par Dynamics 365 Human Resources 2019. gada laidiena 2. kopumu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Pārskats par Dynamics 365 Human Resources 2019. gada laidiena 2. kopumu](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Procesa atjaunināšana](hr-admin-setup-update-process.md)</br>
 [Līdzekļu pārvaldība](hr-admin-manage-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

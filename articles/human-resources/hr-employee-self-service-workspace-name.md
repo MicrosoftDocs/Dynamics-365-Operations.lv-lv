@@ -1,47 +1,52 @@
 ---
 title: Darbinieku patstāvīgi izmantojamā pakalpojuma darbvietas nosaukuma maiņa
-description: Šajā tēmā aprakstīts, kā mainīt Darbinieku patstāvīgi izmantojamā pakalpojuma darbvietas nosaukumu, kas tiek rādīts Dynamics 365 Human Resources.
-author: andreabichsel
-manager: AnnBe
-ms.date: 07/09/2020
+description: Šajā tēmā aprakstīts, kā mainīt darbinieka pašaklapošanās darbvietas nosaukumu pakalpojumā Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: EssWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2ce008c44ba84c919f4538be4d8e4ff95be018e7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 31e8c3e572e0f95f4331fbd858150897c9ed0105
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419617"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070731"
 ---
-# <a name="change-employee-self-service-workspace-name"></a>Darbinieku patstāvīgi izmantojamā pakalpojuma darbvietas nosaukuma maiņa
+# <a name="change-employee-self-service-workspace-name"></a>Darbinieka patstāvīgi izmantojamas darbvietas nosaukuma maiņa
 
-Ja jums ir brīvprātīgie vai citi nodarbinātie, kas nav darbinieki, iespējams, vēlēsities mainīt darbvietas **Darbinieku patstāvīgi izmantojamais pakalpojums** nosaukumu. Varat mainīt darbvietas nosaukumu uz **Patstāvīgi izmantojams pakalpojums**.
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Ja jums ir brīvprātīgie vai citas personas, kuras nav darbinieki, iespējams, vēlēsities nomainīt **Darbinieku pašapkalpošanās** darbvietas nosaukumu. Varat mainīt darbvietas nosaukumu uz **Patstāvīgi izmantojams pakalpojums**.
 
 > [!NOTE]
-> Mainot darbvietas **Darbinieku patstāvīgi izmantojamais pakalpojums** nosaukumu, tiek mainīts arī izvēlnes elements, kas tiek izmantots iekšēji Dynamics 365 Human Resources. Ja iepriekš esat pielietojis drošības pielāgojumus izvēlnes vienumam **HcmEmployeeSelfServiceWorkspace**, tad ieteicams lietot tās pašas izmaiņas arī **HcmSelfServiceWorkspace**, lai uzturētu paritāti.
+> Nomainot **Darbinieku pašapkalpošanās** darbvietas nosaukumu, tiek mainīta arī tā izvēlnes vienība, kuru iekšēji izmanto Dynamics 365 Human Resources. Ja iepriekš esat pielietojis drošības pielāgojumus izvēlnes vienumam **HcmEmployeeSelfServiceWorkspace**, tad ieteicams lietot tās pašas izmaiņas arī **HcmSelfServiceWorkspace**, lai uzturētu paritāti.
 
 1. Human Resources atlasiet **Personāla pārvaldība**, atlasiet **Saites**, un pēc tam atlasiet **Personāla vadības parametri**.
 
-2. Atlasiet cilni **Darbinieku patstāvīgi izmantojamais pakalpojums**.
+2. Atlasiet cilni **Darbinieku pašapkalpošanās**.
 
 3. Sadaļā **Parādāmais nosaukums** atlasiet **Patstāvīgi izmantojams pakalpojums**.
 
-   ![Darbinieku patstāvīgi izmantojamā pakalpojuma darbvietas nosaukuma maiņa uz Patstāvīgi izmantojams pakalpojums](./media/hr-employee-self-service-workspace-name.png)
+   ![Mainiet darbinieku pašapkalpošanās nosaukumu uz "Pašapkalpošanās".](./media/hr-employee-self-service-workspace-name.png)
 
 4. Atlasiet **Saglabāt**.
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-- [Darbinieka un vadītāja pašapkalpošanās apskats](hr-employee-manager-self-service-overview.md)
+- [Darbinieka un vadītāja patstāvīgi izmantojama pakalpojuma pārskats](hr-employee-manager-self-service-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

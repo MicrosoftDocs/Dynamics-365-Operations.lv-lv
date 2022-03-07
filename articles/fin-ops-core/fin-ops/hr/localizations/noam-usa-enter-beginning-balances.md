@@ -1,12 +1,10 @@
 ---
 title: Ievadīt algu sākuma bilances
-description: Šajā tēmā ir aprakstītas darbības sākuma bilanču ievadīšanai attiecībā uz ienākumu veida kodiem, ieturējumiem, atvieglojumiem un nodokļiem. Šī informācija ir vērtīga partneriem, lai datus jaunai algu ieviešanai migrētu vai pārsūtītu no citas sistēmas.
+description: Šajā tēmā ir aprakstītas darbības sākuma bilanču ievadīšanai attiecībā uz ienākumu veida kodiem, ieturējumiem, atvieglojumiem un nodokļiem.
 author: andreabichsel
-manager: AnnBe
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8443bc5c63a90d80757ab4b7507502497c2aaa69
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: 0a5529e3268727dce022daebb853e50710e5bde84811014febe30e80afee9ed6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797788"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6721880"
 ---
 # <a name="enter-payroll-beginning-balances"></a>Ievadīt algu sākuma bilances
 
@@ -166,3 +164,6 @@ Transakcijas ir iespējams atsaukt un ievadīt no jauna. Lai transakciju atsaukt
 2. Noklikšķiniet uz **Jā**, kad tiek parādīts ziņojums “Kad anulējat šo algas pārskatu, tiek izveidots anulēšanas algas pārskats, lai kompensētu šo algas pārskatu. Nevienu no algas pārskatiem nevar rediģēt. Vai vēlaties anulēt šo samaksas pārskatu?” 
 
 Pēc algas pārskata anulēšanas varat ģenerēt jaunu nodarbinātā algas pārskatu no iepriekš izveidotā ienākumu izraksta. Pirms ģenerējat jauno algas pārskatu, noteikti labojiet visas nepareizās ienākumu izraksta rindas, un pēc tam ģenerējiet jauno algas pārskatu ar pareizajām summām. 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

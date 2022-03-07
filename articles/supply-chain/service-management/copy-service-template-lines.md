@@ -2,11 +2,9 @@
 title: Kopēt pakalpojumu veidņu rindas
 description: Veidnes informāciju var pārkopēt gan uz pakalpojuma līgumu, gan uz pakalpojuma pasūtījumu.
 author: ShylaThompson
-manager: tfehr
 ms.date: 10/11/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementTable, SMAServiceOrderTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7d542d7fc0ba33bb587bb3ffde22da2aa37d1e98
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 56555b6bf35aabfae43acefb0ac1ee7f7d944ff25f87f894797cc4cba8447654
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966034"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6711596"
 ---
 # <a name="copy-service-templates-lines"></a>Kopēt pakalpojumu veidņu rindas 
 
@@ -59,3 +57,6 @@ Pakalpojuma veidnes rindas tagad tiek kopētas uz jauno pakalpojuma pasūtījumu
 [Pakalpojumu veidnes](service-template.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

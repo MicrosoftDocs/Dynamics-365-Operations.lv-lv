@@ -1,33 +1,32 @@
 ---
 title: Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2020. gada 25. februāris)
 description: Šajā rakstā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Human Resources uz 2020. gada 25. februāri.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
 ms.date: 02/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1302686aeba52de484ad520efe292fafefc39ebf
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
-ms.translationtype: HT
+ms.openlocfilehash: 6f8a8795b1af59339e920281ffc46139fb9c45e2
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526814"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061205"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-25-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2020. gada 25. februāris)
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 Šajā rakstā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Human Resources. Izmaiņas attiecas uz būvējuma numuru 8.1.2927. Dažos virsrakstos redzamie numuri iekavās attiecas uz LCS atbalsta numuriem atsaucei.
 
@@ -55,15 +54,15 @@ Ar šīm izmaiņām tiek parādīts brīdinājums, ja mēģināt dzēst amatu, u
 
 Šīs izmaiņas labo problēmu, kad papildu parakstīšanās dalībnieki ir pievienoti veiktspējas pārskatam.
 
-## <a name="worker-position-assignment-not-created-in-common-data-service-when-selected-on-the-new-worker-dialog-413479"></a>Nodarbinātā amata piešķire netiek veidota Common Data Service, kad tas tiek atlasīts dialoglodziņā Jauns nodarbināmais (413479)
+## <a name="worker-position-assignment-not-created-in-dataverse-when-selected-on-the-new-worker-dialog-413479"></a>Nodarbinātā amata piešķire netiek veidota Dataverse, kad tas tiek atlasīts dialoglodziņā Jauns nodarbināmais (413479)
 
-Šī izmaiņa labo problēmu, kurā nolīgst jaunu nodarbināto un piešķir to pozīcijai, izmantojot dialoglodziņu **Jauns nodarbinātais**. Tagad pozīcijas piešķire tiek atainota Common Data Service.
+Šī izmaiņa labo problēmu, kurā nolīgst jaunu nodarbināto un piešķir to pozīcijai, izmantojot dialoglodziņu **Jauns nodarbinātais**. Tagad pozīcijas piešķire tiek atainota Dataverse.
 
 ## <a name="coming-soon"></a>Drīzumā
 
-### <a name="updated-common-data-service-solution"></a>Atjaunināts Common Data Service risinājums
+### <a name="updated-dataverse-solution"></a>Atjaunināts Dataverse risinājums
 
-Jauns Common Data Service risinājums drīzumā būs pieejams ar šādām izmaiņām:
+Jauns Dataverse risinājums drīzumā būs pieejams ar šādām izmaiņām:
 
 | Apraksts | Labot |
 | ----------------------------------------- | --- |
@@ -74,9 +73,9 @@ Jauns Common Data Service risinājums drīzumā būs pieejams ar šādām izmai�
 | Jaunas mainīgās atlīdzības iestatījuma entitījas | **Atlīdzības mainīgā plāna tips**</br>**Atlīdzības mainīgā sistēma**</br>**Izmaksas noteikumi**</br>**Atlīdzības mainīgā plāna līmenis** |
 | Jauna **Darbinieka kalendāra nodarbinātības** entitīja | **Darba kalendāra elements** pievienots |
 | Jauna **Algas pozīcijas detalizētas informācijas** entitīja | **Algas pozīcijas detalizēta informācija** pievienota |
-| Jauna **Nosaukuma** entitīja | **Nosaukums** pievienots. Jaunais elements **Nosaukums** tiks iekļauts sinhronizācijas procesā starp Human Resources un Common Data Service. Tam nebūs sākotnējas atsauces no entitījām **Amats** vai **Darbs**. |
+| Jauna **Nosaukuma** entitīja | **Nosaukums** pievienots. Jaunais elements **Nosaukums** tiks iekļauts sinhronizācijas procesā starp Human Resources un Dataverse. Tam nebūs sākotnējas atsauces no entitījām **Amats** vai **Darbs**. |
 
-Nākamo dažu nedēļu laikā šīs elementa izmaiņas būs pieejamas visās vidēs. Lai manuāli instalētu jaunāko Common Data Service risinājumu Personāla vadībai:
+Nākamo dažu nedēļu laikā šīs elementa izmaiņas būs pieejamas visās vidēs. Lai manuāli instalētu jaunāko Dataverse risinājumu Personāla vadībai:
 
 1.  Dodieties uz [Power Platform Administrēšanas centru](https://admin.powerplatform.microsoft.com).
 
@@ -103,6 +102,8 @@ Tālāk norādītie priekšskatījuma līdzekļi kļuva pieejami 2020. gada 3. f
 ## <a name="see-also"></a>Skatiet arī
 
 [Jaunumi un izmaiņas programmā Human Resources](hr-admin-whats-new.md)</br>
-[Pārskats par Dynamics 365 Human Resources 2019. gada laidiena 2. kopumu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Pārskats par Dynamics 365 Human Resources 2019. gada laidiena 2. kopumu](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Procesa atjaunināšana](hr-admin-setup-update-process.md)</br>
 [Līdzekļu pārvaldība](hr-admin-manage-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Konfigurēt preču filtrus noliktavas darījumiem
 description: Šajā tēmā ir aprakstīts, kā konfigurēt produktu filtrus un filtru kodus, lai noliktavā krājumu vienības iedalītu kategorijās. Filtrus varat arī izmantot, lai norādītu, kuri debitori var pasūtīt noteiktu krājumu, un norādītu krājumus, ko iespējams iegādāties no konkrēta kreditora.
 author: Mirzaab
+manager: tfehr
 ms.date: 01/04/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSFilters,WHSFilterGroupTable,EcoResProductDetailsExtended,WHSFilterGenerallyAvail
 audience: Application User
@@ -12,13 +14,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
-ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 021ce940a4ea6d59719d1c6bc79532832cc2f3ff
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.16
+ms.openlocfilehash: dbf92c5e199ecadb3e4f7c6130427d449ef5b6c8
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567683"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5251773"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>Konfigurēt preču filtrus noliktavas darījumiem
 
@@ -46,11 +48,11 @@ Preču filtri nodrošina līdz 10 **Filtra nosaukuma** raksturlielumiem, kas ir 
 1. Laukā **Filtra nosaukums** atlasiet vērtību.
 1. Laukā **Filtra kods** ierakstiet kādu vērtību.
 
-    ![Preču filtra iestatīšana.](media/Product_Filters10.png "Preču filtra iestatīšana")
+    ![Preču filtra iestatīšana](media/Product_Filters10.png "Preču filtra iestatīšana")
 
 1. Laukā **Apraksts** ievadiet koda nosaukumu. Piemēram, *2. kods* varētu atainot kreditorus. Pēc tam varat veidot produktu filtru noteiktam kreditoram vai kreditoru grupai. Papildinformāciju skatiet šīs tēmas nākamajā sadaļā [Kreditoru filtra kodu iestatīšana](#vendor-product-filters).
 
-    ![Preču filtru kopums.](media/Product_Filters.png "Preču filtru kopums")
+    ![Preču filtru kopums](media/Product_Filters.png "Preču filtru kopums")
 
 ## <a name="set-up-product-filter-groups"></a>Iestatiet preču filtru grupas
 
@@ -69,7 +71,7 @@ Lai iestatītu filtru grupas, veiciet šādas darbības.
 1. Laukā **Krājumu grupa** atlasiet krājumu grupu, uz kuru attiecas preču filtrs.
 1. Laukos no **1. koda** līdz **10. kodam** pēc vajadzības atlasiet filtru kodus, ko iekļaut grupā.
 
-    ![Krājumu grupa.](media/ProdFilterGroup.png "Krājumu grupa")
+    ![Krājumu grupa](media/ProdFilterGroup.png "Krājumu grupa")
 
 > [!NOTE]
 > Ja, aizverot formu, saņemat kļūdas ziņojumu, iespējams, trūkst kodu iestatījumi. Lapā **Krājumu grupas** kodus krājumu grupai var padarīt obligātus, atzīmējot izvēles rūtiņas **Piešķirt filtra 1. kodu krājumu grupai**, **Piešķirt filtra 2. kodu krājumu grupai** utt.
@@ -88,7 +90,7 @@ Lai krājumu grupai iestatītu filtru kodus, izpildiet šādas darbības.
 
     Lai atjauninātu izlaisto preci, atveriet lapu **Izlaistās preces informācija** un pēc tam darbību rūtī atlasiet **Rediģēt**. Pēc tam ar kodiem saistītie filtri kļūst pieejami kopsavilkuma cilnē **Noliktava**.
 
-    ![Krājumu grupas.](media/ItemGroup10.png "Krājumu grupas")
+    ![Krājumu grupas](media/ItemGroup10.png "Krājumu grupas")
 
 1. Sadaļā **Krājumu grupas filtrs** atzīmējiet to filtru izvēles rūtiņas, kuriem jāatbilst filtru grupai, lai tie būtu krājuma noklusējuma filtru grupa.
 

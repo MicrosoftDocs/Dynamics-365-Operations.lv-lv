@@ -2,11 +2,9 @@
 title: Manuālu lēmumu konfigurēšana darbplūsmā
 description: Šajā tēmā ir paskaidrots, kā konfigurēt manuāla lēmuma rekvizītus.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d351facbce02355ddb4bdf91d43d9df561e4f3b5
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: d54c010c8fe0d8ca6cc8129948392fb56ef85283
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798857"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065659"
 ---
 # <a name="configure-manual-decisions-in-a-workflow"></a>Manuālu lēmumu konfigurēšana darbplūsmā
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Šajā tēmā ir paskaidrots, kā konfigurēt manuāla lēmuma rekvizītus.
 
@@ -107,8 +108,8 @@ Varat nosūtīt lietotājiem paziņojumus, ja lēmums ir pieņemts, deleģēts v
 1. Kreisajā rūtī noklikšķiniet uz **Paziņojumi**.
 2. Atzīmējiet izvēles rūtiņu pie notikumiem, par kuriem tiek sūtīti paziņojumi:
 
-    - **\[1. izvēle\]**  — piešķirtais lietotājs ir atlasījis vienumu **\[1. izvēle\]**.
-    - **\[2. izvēle\]**  — piešķirtais lietotājs ir atlasījis vienumu **\[2. izvēle\]**.
+    - **\[1. izvēle\]** — piešķirtais lietotājs ir atlasījis vienumu **\[1. izvēle\]**.
+    - **\[2. izvēle\]** — piešķirtais lietotājs ir atlasījis vienumu **\[2. izvēle\]**.
     - **Deleģēt**— piešķirtais lietotājs lēmumu ir piešķīris citam lietotājam.
     - **Eskalēt** — piešķirtais lietotājs nav pieņēmis lēmumu atvēlētajā laikā.
 
@@ -213,9 +214,9 @@ Veiciet šīs darbības, lai norādītu personu, kurai jāpiešķir manuālais l
     </ol>
     </li>
     <li>Cilnē <strong>Hierarhijas opcijas</strong> norādiet attiecīgajā diapazonā esošos lietotājus, kuriem lēmums jāpiešķir: <ul>
-    <li><strong>Piešķirt visiem izgūtajiem lietotājiem</strong> — lēmums tiek piešķirts visiem diapazonā esošajiem lietotājiem.</li>
-    <li><strong>Piešķirt tikai pēdējam izgūtajam lietotājam</strong> — lēmums tiek piešķirts tikai pēdējam lietotājam diapazonā.</li>
-    <li><strong>Neiekļaut lietotājus, kuri atbilst šādiem nosacījumiem</strong> — lēmums netiek piešķirts diapazonā esošajiem lietotājiem, kuri atbilst konkrētam nosacījumam. Lai norādītu nosacījumu, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>.</li>
+    <li><strong>Piešķirt visiem izgūtajiem lietotājiem</strong> — lēmums tiek piešķirts visiem diapazonā esošajiem lietotājiem.</li>
+    <li><strong>Piešķirt tikai pēdējam izgūtajam lietotājam</strong> — lēmums tiek piešķirts tikai pēdējam lietotājam diapazonā.</li>
+    <li><strong>Neiekļaut lietotājus, kuri atbilst šādiem nosacījumiem</strong> — lēmums netiek piešķirts diapazonā esošajiem lietotājiem, kuri atbilst konkrētam nosacījumam. Lai norādītu nosacījumu, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>.</li>
     </ul>
     </li>
     </ol>
@@ -291,9 +292,9 @@ Ja lietotājs nepieņem lēmumu atvēlētajā laikā, lēmums ir nokavēts. Lēm
     </ol>
     </li>
     <li>Cilnē <strong>Hierarhijas opcijas</strong> norādiet attiecīgajā diapazonā esošos lietotājus, kuriem jāveic lēmuma eskalācija: <ul>
-    <li><strong>Piešķirt visiem izgūtajiem lietotājiem</strong> — lēmums tiek eskalēts visiem diapazonā esošajiem lietotājiem.</li>
-    <li><strong>Piešķirt tikai pēdējam izgūtajam lietotājam</strong> — lēmums tiek eskalēts tikai pēdējam lietotājam diapazonā.</li>
-    <li><strong>Neiekļaut lietotājus, kuri atbilst šādiem nosacījumiem</strong> — lēmums netiek eskalēts diapazonā esošajiem lietotājiem, kuri atbilst konkrētam nosacījumam. Lai norādītu nosacījumu, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>.</li>
+    <li><strong>Piešķirt visiem izgūtajiem lietotājiem</strong> — lēmums tiek eskalēts visiem diapazonā esošajiem lietotājiem.</li>
+    <li><strong>Piešķirt tikai pēdējam izgūtajam lietotājam</strong> — lēmums tiek eskalēts tikai pēdējam lietotājam diapazonā.</li>
+    <li><strong>Neiekļaut lietotājus, kuri atbilst šādiem nosacījumiem</strong> — lēmums netiek eskalēts diapazonā esošajiem lietotājiem, kuri atbilst konkrētam nosacījumam. Lai norādītu nosacījumu, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>.</li>
     </ul>
     </li>
     </ol>
@@ -350,3 +351,6 @@ Veiciet šīs darbības, ja lēmums ir jāpieņem noteiktā laikā.
     - **Gadi** — izvēlieties dienu, nedēļu un mēnesi, līdz kuram ir jāpieņem lēmums. Piemēram, iespējams, vēlēsities, lai lēmums tiktu pieņemts līdz decembra trešās nedēļas piektdienai.
 
 4. Ja laika ierobežojums ir pārsniegts, sistēma pieņems lēmumu. Sarakstā **Darbība** atlasiet opciju, kura sistēmai būtu jāizvēlas.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

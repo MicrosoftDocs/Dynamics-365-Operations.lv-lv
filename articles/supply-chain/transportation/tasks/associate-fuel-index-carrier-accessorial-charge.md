@@ -1,25 +1,28 @@
 ---
 title: Degvielas rādītāja saistīšana ar pārvadātāju kā papildobjekta maksu
 description: Šajā ceļvedī parādīts, kā izveidot papildobjekta piešķiri, pārvadātāja papildobjekta maksu, papildobjekta šablonu degvielas piemaksai un saistīt pārvadātāja degvielas rādītāju ar pārvadātāju.
-author: Henrikan
+author: ShylaThompson
+manager: tfehr
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSRatingProfile
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 458ee935bec970fc02e3222dcb0c176cf5ddd509
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c91d49c2ccdc274632e3acf94b836e19dc6cdaa8
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580196"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4433153"
 ---
 # <a name="associate-a-fuel-index-with-a-carrier-as-an-accessorial-charge"></a>Degvielas rādītāja saistīšana ar pārvadātāju kā papildobjekta maksu
 
@@ -32,7 +35,7 @@ ms.locfileid: "7580196"
 1. Dodieties uz Transportēšanas pārvaldība > Iestatīšana > Vērtējums > Papildobjekta šabloni.
 2. Noklikšķiniet uz Jauns.
 3. Laukā Papildobjekta šablons ierakstiet vērtību.
-4. Laukā Nosaukums ierakstiet vērtību.
+4. Laukā Nosaukums ierakstiet kādu vērtību.
 5. Noklikšķiniet uz Saglabāt.
 
 ## <a name="create-a-carrier-accessorial-charge"></a>Pārvadātāja papildobjekta maksas izveide
@@ -75,6 +78,3 @@ ms.locfileid: "7580196"
 6. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
 7. Noklikšķiniet uz Saglabāt.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Lietotāju importēšana no Azure Active Directory
 description: Sistēmas administratori var izmantot šo procedūru, lai manuāli importētu konkrētus lietotājus vai lielu skaitu lietotāju no Azure Active Directory.
 author: peakerbl
-manager: AnnBe
 ms.date: 07/07/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 56b6666310309817ff30ccb3902721880b829ee0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: ce8c98add0c6d5fb07b3ba5338037d9a12b1d8e50a2d2039b0231d3d305c9ebe
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679818"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748292"
 ---
 # <a name="import-users-from-azure-active-directory"></a>Lietotāju importēšana no Azure Active Directory
 
@@ -46,11 +44,11 @@ Sistēmas administratori var izmantot šo procedūru, lai importētu lielu skait
 2. Pārejiet uz sadaļu **Sistēmas administrēšana > Lietotāji > Lietotāji**.
 3. Noklikšķiniet uz **Partijas importēšana**.
 4. Izvērsiet sadaļu **Palaist fonā**.
-4. Laukā **Partijas apstrāde** atlasiet **Jā.
+4. Laukā **Partijas apstrāde** atlasiet **Jā**.
 6. Laukā **Partijas grupa** ievadiet vai atlasiet kādu vērtību. Šis solis nav obligāts.  
 7. Laukā **Privāts** atlasiet **Jā**. Šis solis nav obligāts.  
 8. Laukā **Kritisks darbs** atlasiet **Jā**. Šis solis nav obligāts.  
-9. Laukā **Pārraudzības kategorija atlasiet kādu opciju.
+9. Laukā **Pārraudzības kategorija** atlasiet kādu opciju.
 10. Noklikšķiniet uz **Labi**.
 
 Kad importēšana ir pabeigta, tiks prasīts piešķirt lomas lietotājiem.
@@ -58,3 +56,6 @@ Kad importēšana ir pabeigta, tiks prasīts piešķirt lomas lietotājiem.
 ## <a name="run-in-a-sandbox-environment"></a>Izpilde smilškastes vidē
 1. Atlasiet **Partijas importēšana**.
 2. Atlasiet **Labi**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

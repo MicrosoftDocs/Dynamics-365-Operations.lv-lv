@@ -8,33 +8,31 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SysHelpSetup
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
 ms.custom: 25391
 ms.assetid: 59bf39f8-1464-441e-8b23-9a856c73471b
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 448c2b302136e595852c423d53e49adfcc40d12d
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: b0be27fc759c525dcc1ffe4f2717b2e2378c52a5
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070530"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744167"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Dokumentācijas vai apmācības izveide ar uzdevuma reģistrētāju
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Šajā tēmā ir paskaidrots, kas ir uzdevumu reģistrētājs un uzdevumu ceļveži, kā izveidot uzdevumu ierakstus un kā pielāgot Microsoft uzdevumu ceļvežus un iekļaut tos palīdzībā.
 
 > [!IMPORTANT]
 > Varat ierakstīt savus uzdevumu ceļvežus programmatūrai Dynamics 365 Human Resources, bet pašlaik tos nevar saglabāt Biznesa procesu modelētāja (BPM) bibliotēkā vai atvērt no palīdzības rūts. Varat tos saglabāt lokāli vai kaut kur tīklā, un pēc tam tos atvērt un vēlreiz atskaņot, izmantojot līdzekli Uzdevumu ierakstītājs. 
 
-## <a name="learn-about-task-recorder"></a>Uzdevumu ierakstītāja iepazīšana
+<a name="learn-about-task-recorder"></a>Uzdevumu ierakstītāja iepazīšana
+-------------------------
 
 Uzdevuma reģistrētājs ir rīks, ko varat lietot, lai reģistrētu darbības, kuras veicat preces lietotāja interfeisā (UI). Kad izmantojat uzdevuma reģistrētāju, tiek reģistrēti visi notikumi, ko veicat lietotāja interfeisā un kas tiek izpildīti attiecībā pret serveri — tostarp vērtību pievienošana, iestatījumu mainīšana, datu noņemšana. Ierakstītās darbības kopā tiek sauktas par *uzdevuma ierakstu*. Uzdevumu ierakstus var izmantot daudzos veidos:
 
@@ -65,21 +63,21 @@ Gan veidojot jaunu uzdevumu ierakstu, gan sava ieraksta pamatā izmantojot Micro
 
 Šī ir rediģēšanas rūts, kuru redzat, kad ieraksta veidošanas laikā pievienojat anotācijas. Ievadiet virsraksta anotāciju lodziņā **Virsraksts**. 
 
-[![Rediģēšanas rūts ar virsraksta anotāciju.](./media/screen1.png)](./media/screen1.png) 
+[![Rediģēšanas rūts ar virsraksta anotāciju](./media/screen1.png)](./media/screen1.png) 
 
 Šādi virsraksta anotācija izskatās uzdevuma ceļveža “burbulī”. 
 
-[![Virsraksta anotācijas izskats uzdevumu rokasgrāmatā.](./media/screen2.png)](./media/screen2.png)
+[![Virsraksta anotācijas izskats uzdevumu rokasgrāmatā](./media/screen2.png)](./media/screen2.png)
 
 -   **Piezīmes.** Piezīmju anotācija ir redzama pēc darbības teksta, ko uzdevumu ierakstītājs ģenerē automātiski. Uzdevuma ceļvedī tā ir redzama tikai tad, ja uzdevuma ceļveža burbulī lietotājs noklikšķina uz saites **Rādīt vairāk**. Šī tipa anotāciju varat lietot, lai aprakstītu jebko, kas lietotājam būtu jāzina, izpildot attiecīgo darbību.
 
 Šī ir rediģēšanas rūts, kuru redzat, kad ieraksta veidošanas laikā pievienojat anotācijas. Ievadiet piezīmju anotāciju lodziņā **Piezīmes**. 
 
-[![Rediģēšanas rūts ar anotāciju piezīmju lodziņā.](./media/screen3.png)](./media/screen3.png) 
+[![Rediģēšanas rūts ar anotāciju piezīmju lodziņā](./media/screen3.png)](./media/screen3.png) 
 
 Šādi piezīmju anotācija izskatās uzdevuma ceļveža “burbulī”.
 
-[![Piezīmju anotācijas izskats uzdevumu rokasgrāmatā.](./media/screen4.png)](./media/screen4.png)
+[![Piezīmju anotācijas izskats uzdevumu rokasgrāmatā](./media/screen4.png)](./media/screen4.png)
 
 -   **Informācijas darbība**: Šāda tipa anotācijas tiek izveidotas, ar peles labo pogu noklikšķinot uz vadīklas vai jebkurā vietā formā &lt; **Uzdevumu reģistrētājs** &lt; **Pievienot informācijas darbību.** Informācijas darbības tiek parādītas kā numurētas darbības jebkurā vietā, kur tās ievietojat, pat ja UI netika ierakstīta nekāda darbība. Varat pievienot formas līmeņa informācijas darbību vai ar vadīklu saistītu informācijas darbību. Ja informācijas darbība ir saistīta ar kādu formu, uzdevumu ceļveža atskaņošanas laikā uzdevumu ceļveža “burbulis” kļūst redzams kaut kur šajā formā, bez rādītāja. Ja informācijas darbība ir saistīta ar kādu vadīklu, uzdevuma ceļveža atskaņošanas laikā uzdevuma ceļveža “burbulis” norāda uz attiecīgo vadīklu. Palīdzības rūtī informācijas darbības anotācija tiek rādīta kā numurēta darbība ar jebkādu jūsu ievadīto tekstu. Informācijas darbības varat izmantot, lai lietotāju sagatavotu nākamajām darbībām, lai aprakstītu darbības, ko nepieciešams izpildīt ārpus programmas, vai lai atsauktos uz citiem ierakstiem (lai gan anotācijās nevar izveidot hipersaites).
 
@@ -113,7 +111,8 @@ Varat lejupielādēt un rediģēt Microsoft uzdevumu ierakstus, lai tos izmantot
 
 
 
-## <a name="additional-resources"></a>Papildu resursi
+<a name="additional-resources"></a>Papildu resursi
+--------
 
 [Palīdzības sistēma](../../fin-ops/get-started/help-overview.md)
 

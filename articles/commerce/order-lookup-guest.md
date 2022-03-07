@@ -2,7 +2,7 @@
 title: Viesu izrakstīšanās pasūtījuma uzmeklēšanas iespējošana
 description: Šajā tēmā aprakstīts, kā iespējot viesu izrakstīšanās pasūtījuma uzmeklēšanu pakalpojumā Microsoft Dynamics 365 Commerce.
 author: stuharg
-ms.date: 12/03/2021
+ms.date: 09/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: a2a10b122faae354b0ea002e43a9bd60157f6216
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
-ms.translationtype: MT
+ms.openlocfilehash: 639ee670b83198423425d03dad308306c9eed25c
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891504"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674980"
 ---
 # <a name="enable-order-lookup-for-guest-checkouts"></a>Viesu izrakstīšanās pasūtījuma uzmeklēšanas iespējošana
 
@@ -58,21 +58,11 @@ Lapas **Klientu pasūtījumi** kopsavilkuma cilnē **Pasūtījuma meklēšana** 
 > [!NOTE]
 > Šīs opcijas nosaka, kad personas dati, piemēram, klienta adrese un kredītkartes pēdējie četri cipari, tiek rādīti anonīmiem viesiem. Lai aizsargātu reģistrēto klientu privātumu, iesakām atlasīt opciju **Tikai viesu pasūtījumi**. Taču visdrošākā opcija ir **Nekad**.
 
-Pēc tam, kad būsiet nomainījis vērtību lauka Iekļaut personas datus viesa pasūtījumu meklēnē, programmā Commerce Headquarters ir jāpalaiž darbs **1070** (kanāla konfigurācija), dodoties uz programmu **Retail un Commerce Retail un Commerce IT Distribution** **\>\> grafiku**.
+Pēc tam, kad esat mainījuši lauka **Iekļaut personas datus viesu pasūtījuma uzmeklēšanā**, Commerce pārvaldē ir jāpalaiž darbs 1070 (**Kanāla konfigurācija**), dodoties uz **Retail un Commerce \> Retail un Commerce IT \> Sadalījuma grafiks**. 
 
 ## <a name="configure-the-order-lookup-module"></a>Pasūtījuma uzmeklēšanas moduļa konfigurēšana
 
 Commerce moduļu krātuves pasūtījumu uzmeklēšanas moduli izmanto, lai atveidotu veidlapu, kuru viesi var izmantot, lai uzmeklētu pasūtījumus. Pasūtījumu uzmeklēšanas moduli var iekļaut jebkuras lapas pamattekstā, kurā nav vajadzīga klientu pierakstīšanās. Informāciju par moduļa konfigurēšanu skatiet sadaļā [Pasūtījuma uzmeklēšanas modulis](order-lookup-module.md).
-
-## <a name="configure-the-order-details-page"></a>Konfigurēt pasūtījuma detalizētas informācijas lapu
-
-Pirms viesa pasūtījuma lietotāji var skatīt detalizētu informāciju par pasūtījumu, jūsu e-komercijas vietnē ir jākonfigurē pasūtījuma detalizētas informācijas lapa, lai tai nebūtu nepieciešama pierakstīšanās. Lai pasūtījuma detalizētas informācijas lapai izslēgtu pierakstīšanās prasību, atveriet lapu Commerce Site Builder, koka skatā atlasiet noklusējuma **lapas (obligāts) slotu un notīriet izvēles rūtiņu Nepieciešama** **pieteikšanās?**
-
-## <a name="add-a-link-to-order-details-in-transactional-emails"></a>Pievienot saiti pasūtījuma informācijai darbību e-pasta ziņojumiem
-
-Ar pasūtījumu saistītajos e-pasta ziņojumiem varat norādīt saiti vai pogu, kas klientus aizved uz pasūtījumu detalizētas informācijas lapu par to pasūtījumu. Lai pievienotu šo saiti vai pogu, izveidojiet HTML hipersaiti, kas norāda uz pasūtījuma detalizētas informācijas lapu jūsu e-komercijas vietnē, un padot pasūtījuma apstiprinājuma ID un debitora e-pasta adresi kā URL parametrus, kā parādīts šajā piemērā.
-
-`<a href="https://[domain]/[orderdetailspage]?confirmationId=%orderconfirmationid%&propertyName=email&propertyValue=%customeremailaddress%" target="_blank">View my order status</a>`
 
 ## <a name="additional-resources"></a>Papildu resursi
 

@@ -2,15 +2,12 @@
 title: Integrācija ar LinkedIn Talent Hub
 description: Šajā tēmā ir paskaidrots, kā iestatīt pintegrāciju starp Microsoft Dynamics 365 Human Resources un LinkedIn Talent Hub.
 author: jaredha
-manager: tfehr
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,18 +15,19 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6f70e3a6ccf9770c75334d355db5e9df9ee912dd
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
-ms.translationtype: HT
+ms.openlocfilehash: fb75c391809f1ce5c7d48728a735f347ef1784ed
+ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527889"
+ms.lasthandoff: 08/28/2021
+ms.locfileid: "7441269"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>Integrācija ar LinkedIn Talent Hub
 
-[!include [banner](includes/preview-feature.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+> [!IMPORTANT]
+> Integrācija starp Dynamics 365 Human Resources un LinkedIn Talent Hub, kas aprakstīta Šajā tēmā, nebūs derīga no 2021. gada 31. decembra. Pēc šī datuma integrācijas pakalpojums vairs nebūs pieejams. Organizācijas, kuras jau nelieto integrācijas pakalpojumu, nevarēs ieviest pakalpojumu pirms tā beigām.
 
 [LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub) ir kandidātu izsekošanas sistēmas (ATS) platforma. Tā ļauj jums izveidot, pārvaldīt un nolīgt darbiniekus vienuviet. Integrējot Microsoft Dynamics 365 Human Resources ar LinkedIn Talent Hub, varat viegli izveidot darbinieku ierakstus Human Resources kandidātiem, kuri ir nolīgti amatam.
 
@@ -49,7 +47,7 @@ Sistēmas administratoram ir jāaizpilda iestatījumi, lai iespējotu integrāci
 
 5. Lapā **Dynamics 365 Human Resources** atlasiet vidi, lai sasaistītu LinkedIn Talent Hub, un pēc tam atlasiet **Sasaistīt**.
 
-    ![LinkedIn Talent Hub pievienošana](./media/hr-admin-integration-talent-hub-onboarding.jpg)
+    ![LinkedIn Talent Hub pievienošana.](./media/hr-admin-integration-talent-hub-onboarding.jpg)
 
     > [!NOTE]
     > Var sasaistīt tikai ar vidēm, kurās jūsu lietotāja kontam ir administratora piekļuve gan Human Resources videi, gan saistītajai Power Apps videi. Ja saites lapā Human Resources nav norādīta neviena vide, pārliecinieties, vai jums ir licencētas Human Resources vides šajā nomniekā un vai lietotājam, ar kuru pierakstījāties saites lapā, ir administratora atļaujas gan Human Resources vidē, gan Power Apps vidē.
@@ -92,7 +90,7 @@ Programmas lietotājam jāizveido LinkedIn Talent Hub adapteris, lai piešķirtu
 
 6. Izmantojiet nolaižamo izvēlni virs saraksta, lai mainītu skatu no noklusējuma **Iespējot lietotājus** skata uz **Programmas lietotāji**.
 
-    ![Programmas lietotāju skats](./media/hr-admin-integration-power-apps-application-users.jpg)
+    ![Programmas lietotāju skats.](./media/hr-admin-integration-power-apps-application-users.jpg)
 
 7. Rīkjoslā atlasiet **Jauns**.
 
@@ -127,14 +125,14 @@ Kad esat saglabājis un aizvēris jauno programmas lietotāju iepriekšējā sad
     - **Nosaukums**: ievadiet Power Apps iepriekš izveidotās drošības lomas nosaukumu, piemēram, **LinkedIn Talent Hub HRIS integrācija**.
     - **Lietotāja ID**: atlasiet lietotāju, kuram ir atļauja rakstīt datus Personāla vadībā.
 
-### <a name="create-the-entity-in-common-data-service"></a>Elementa izveide sistēmā Common Data Service
+### <a name="create-the-table-in-dataverse"></a>Tabulas izveide sistēmā Dataverse
 
 > [!IMPORTANT]
-> Integrācija ar LinkedIn Talent Hub ir atkarīga no virtuālajiem elementiem pakalpojumā Common Data Service programmai Human Resources. Kā priekšnosacījums šai darbībai iestatījumā jums ir jākonfigurē virtuālie elementi. Papildinformāciju par to, kā konfigurēt virtuālos elementus, skatiet sadaļā [Common Data Service virtuālo elementu konfigurēšana](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
+> Integrācija ar LinkedIn Talent Hub ir atkarīga no virtuālajām tabulām pakalpojumā Dataverse programmai Human Resources. Kā priekšnosacījums šai darbībai iestatījumā jums ir jākonfigurē virtuālās tabulas. Papildinformāciju par to, kā konfigurēt virtuālās tabulas, skatiet sadaļā [Pakalpojuma Dataverse virtuālo tabulu konfigurēšana](./hr-admin-integration-common-data-service-virtual-entities.md).
 
-1. Human Resources atveriet lapu **Common Data Service (CDS) integrācija**.
+1. Human Resources atveriet lapu **Dataverse integrācija**.
 
-2. Atlasiet cilni **Virtuālie elementi**.
+2. Atlasiet cilni **Virtuālās tabulas**.
 
 3. Filtrējiet elementa sarakstu pēc elementa etiķetes, lai atrastu **LinkedIn eksportētais kandidāts**.
 
@@ -164,7 +162,7 @@ Kad kandidāts ir izgājis personāla atlases procesu un ir nolīgts, varat eksp
     - Laukā **Atrašanās vieta** ievadiet vietu, kur darbinieks atradīsies.
     - Ievadiet vai apstipriniet darbinieka e-pasta adresi.
 
-![Eksportēšana uz HRIS rūti LinkedIn Talent Hub](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
+![Eksportēšana uz HRIS rūti LinkedIn Talent Hub.](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
 
 ## <a name="complete-onboarding-in-human-resources"></a>Darbā pieņemšanas pabeigšana programmā Human Resources
 
@@ -188,5 +186,8 @@ Tālāk norādītā informācija tiek importēta un iekļauta jaunā darbinieka 
 
 ## <a name="see-also"></a>Skatiet arī
 
-[Common Data Service virtuālo elementu konfigurēšana](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
-[Kas ir Common Data Service?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+[Pakalpojuma Dataverse virtuālo tabulu konfigurēšana](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[Kas ir Microsoft Dataverse?](/powerapps/maker/common-data-service/data-platform-intro)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

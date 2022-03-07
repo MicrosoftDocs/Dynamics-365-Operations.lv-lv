@@ -2,28 +2,25 @@
 title: Optimizācijas padomnieka pārskats
 description: Šajā tēmā ir aprakstīts, kā varat izmantot optimizācijas padomnieku, lai palīdzētu nodrošināt optimālu Finance and Operations konfigurāciju.
 author: roxanadiaconu
-manager: AnnBe
 ms.date: 07/23/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 1e53dbae2d139af554b1918102937f8c3579f64a
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 8039ff51dfb07bbdf5d6a102de1ff4ddbfd907a5
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682541"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984106"
 ---
 # <a name="optimization-advisor-overview"></a>Optimizācijas padomnieka pārskats
 
@@ -31,7 +28,7 @@ ms.locfileid: "4682541"
 
 Šajā tēmā ir aprakstīts, kā varat izmantot optimizācijas padomnieku, lai palīdzētu nodrošināt optimālu Finance and Operations konfigurāciju.
 
-## <a name="overview"></a>Pārskats
+## <a name="overview"></a>Kopsavilkums
 
 Nepareiza moduļa konfigurācija iestatījumi var negatīvi ietekmēt līdzekļu pieejamību, sistēmas veiktspēju un biznesa procesu sekmīgu norisi. Biznesa datu kvalitāte (piemēram, pareizību, pilnīgumu un datu precizitāti) ietekmē arī sistēmas veiktspēju, kā arī organizācijas lēmumu pieņemšanas iespējas, produktivitāti u. c. faktorus.
 
@@ -69,7 +66,7 @@ Ja netiek izmantota īpaša funkcionalitāte, kuras vadībai ir nepieciešama ko
 
 ### <a name="business-data-consistency-and-cleanup"></a>Biznesa datu konsekvence un tīrīšana
 
-Ja pamatdati nav pareizi (piemēram, ja ir pārveidotas nedefinētas mērvienības vai ja pārveidotās mērvienības ir dalītas ar 0 \[nulle\]), tiek ģenerēta optimizācijas iespēja, kas ieteiks izlabot datus. 
+Ja pamatdati nav pareizi (piemēram, ja ir pārveidotas nedefinētas mērvienības vai ja pārveidotās mērvienības ir dalītas ar 0 \[nulle\]), tiek ģenerēta optimizācijas iespēja, kas ieteiks izlabot datus. 
 
 Ja jums ir pārāk daudz pakešuzdevumu vēstures ierakstu, novecojušu krājumu, slēgtu rīcībā esošo ierakstu noliktavas iespējotajiem krājumiem u. c. ierakstu vai ja šie ieraksti un krājumi ir pārāk veci, tiek ģenerēta optimizācijas iespēja, kas ieteiks iztīrīt datus. Iztīrot datus, varat palīdzēt uzlabot sistēmas veiktspēju kopumā.
 
@@ -94,3 +91,6 @@ Lai deaktivizētu noteiktu kārtulu novērtēšanu, atlasiet kārtulas ģenerēt
 [Kārtulu izveide optimizācijas padomniekam](./create-rules-optimization-advisor.md)
 
 [Optimizācijas padomnieks programmā Dynamics 365 for Finance and Operations (video)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

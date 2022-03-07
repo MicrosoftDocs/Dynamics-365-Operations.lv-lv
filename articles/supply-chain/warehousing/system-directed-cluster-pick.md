@@ -2,11 +2,9 @@
 title: Sistēmas noteikta klastera izdošana
 description: Šajā tēmā ir sniegts pārskats par sistēmas noteiktu klastera izdošanu Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
-manager: tfehr
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkCluster, WHSClusterProfile
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: fa737f61bfd5bd71ba6d76e75e57c8e2d682cda3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: cc634b82a64b7774abc1538e034f1b8289176f4e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965681"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831150"
 ---
 # <a name="system-directed-cluster-picking"></a>Sistēmas noteikta klastera izdošana
 
@@ -206,3 +204,6 @@ Pirms varēsiet iestatīt sistēmas noteikta klastera izdošanu, ir jāizveido p
 1. Pēdējais solis mobilajā ierīcē ir **Ievietot** ievietot klasteri galīgajā vietā. Atlasiet **Labi**
     - Kad ievietošanas operācija ir apstiprināta, klasteris tiek slēgts un pārtraukts, pamatojoties uz vērtību, ko klastera profilā iestatījāt laukam **Pārtraukt klasteri pie**. Darba ID arī tiek slēgti.
 1. Mobilajā ierīcē tiek parādīts ziņojums "Klasteris pabeigts".
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

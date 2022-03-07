@@ -2,33 +2,28 @@
 title: Krājumu buferu un krājumu līmeņu konfigurēšana
 description: Šajā tēmā ir paskaidrots, kā konfigurēt krājumu buferus un krājumu līmeņus, kas nosaka krājumu pieejamības ziņojumapmaiņu Microsoft Dynamics 365 Commerce vietnēs.
 author: boycezhu
-manager: annbe
 ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: ef58dbb756c7bed3924010cb33eff27af66cd0bd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ca6cea9e0e7f1fd3eba3082c5a33e8b2d6dec878
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414078"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5798917"
 ---
 # <a name="configure-inventory-buffers-and-inventory-levels"></a>Krājumu buferu un krājumu līmeņu konfigurēšana
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā ir paskaidrots, kā konfigurēt krājumu buferus un krājumu līmeņus, kas nosaka ziņojumapmaiņu par krājumu pieejamību Microsoft Dynamics 365 Commerce vietnēs.
-
-## <a name="overview"></a>Pārskats
 
 Dynamics 365 Commerce Headquarters atrodas krājumu dati un dažādi kanāli, piemēram, pārdošanas punkta (POS) programmas, e-komercijas veikali un citas pielāgotas integrētas programmas, kas asinhroni izgrūž un pievelk krājumus. Tāpēc pieejamās krājumu vērtības, kas tiek iegūtas, izmantojot rīcībā esošo krājumu lapu Commerce Headquarters ar POS lietotāja interfeisu (UI) un e-tirdzniecības krājumu pieejamības API, reāllaikā ne vienmēr ir 100 procentīgi precīzas.
 
@@ -149,3 +144,6 @@ Lai konfigurētu preces pieejamības API atbildi, veiciet tālāk norādītās d
 [Krājumu iestatījumu lietošana](inventory-settings.md)
 
 [Krājumu pieejamības aprēķināšana mazumtirdzniecības kanāliem](calculated-inventory-retail-channels.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

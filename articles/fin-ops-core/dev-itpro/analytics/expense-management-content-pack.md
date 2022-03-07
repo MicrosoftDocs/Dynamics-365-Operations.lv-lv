@@ -2,11 +2,9 @@
 title: Izdevumu pārvaldības Power BI saturs
 description: Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI satura pakotnē Izdevumu pārvaldība.
 author: panolte
-manager: AnnBe
 ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace, ExpenseWorkspace
 audience: Application User, IT Pro
@@ -16,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d580502a08c2c176a000616abc3513cc45bd58a6
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 178a65c44abd0c9c068d4da1f2684a60062da595247560de4cb81d97ab7b6521
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016456"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769902"
 ---
 # <a name="expense-management-power-bi-content"></a>Izdevumu pārvaldības Power BI saturs
 
@@ -43,7 +41,7 @@ Izmantošanai ar Izdevumu pārvaldību versijā 8.1 un jaunākās versijās ir p
 Visas summas ir norādītas uzņēmuma valūtā. Tiek rādīti dati par visiem uzņēmumiem, bet, ja nepieciešams, var pievienot uzņēmuma filtru. 
 
 ## <a name="accessing-the-power-bi-content"></a>Piekļuve Power BI satura pakotnei
-Power BI satura failus Expense Admin Dashboard.pbix un Expense Personal Dashboard.pbix varat atrast koplietojamo līdzekļu bibliotēkā pakalpojumā Microsoft Dynamics Lifecycle Services (LCS). Papildinformāciju par to, kā lejupielādēt satura pakotni un ieviest to savā organizācijā, skatiet rakstā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
+Power BI satura failus Expense Admin Dashboard.pbix un Expense Personal Dashboard.pbix varat atrast koplietojamo līdzekļu bibliotēkā pakalpojumā Microsoft Dynamics Lifecycle Services (LCS). Papildinformāciju par to, kā lejupielādēt satura pakotni un ieviest to savā organizācijā, skatiet rakstā [Power BI saturs pakalpojumā LCS no Microsoft un jūsu partneriem](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners).
 Saturs ir pieejams no darbvietas Izdevumu pārvaldība, kas iegulta Power BI saturā. Izdevumu veicējs var piekļūt paša veiktajiem personiskajiem izdevumiem, savukārt administratoru saturam, lai skatītu visus lietotāja izdevumu datus, var piekļūt tikai kreditoru administratori un vadītāji.
 
 ## <a name="refreshing-the-power-bi-content"></a>Power BI satura atsvaidzināšana
@@ -93,3 +91,6 @@ Saturā ietilpst pārskatu lapu komplekts. Katra lapa sastāv no rādītāju kop
 | Darbinieku statistika | Izdevumu pārskati pēc izmaksu tipa            |
 |                     | Personiskie izdevumi                       |
 |                     | Izdevumu pārskati pēc statistikas grupas     |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

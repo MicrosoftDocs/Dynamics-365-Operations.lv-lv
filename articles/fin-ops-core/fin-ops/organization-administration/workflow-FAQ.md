@@ -2,11 +2,9 @@
 title: Bieži uzdotie jautājumi par darbplūsmu
 description: Šajā tēmā ir sniegtas atbildes uz bieži uzdotajiem jautājumiem par darbplūsmas sistēmu.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 58aa4a6d313a78e88c2858637d6de167895ec534
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 64ce34cf38e4d6f37d9d417b70843a8308a408a8
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797395"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890361"
 ---
 # <a name="workflow-faq"></a>Bieži uzdotie jautājumi par darbplūsmām
 
@@ -47,9 +45,9 @@ Tālāk ir norādītas daži galvenās jomas, kas ir jāņem vērā saistībā a
     - Kādā no turpmākajiem atjauninājumiem mēs pievienosim darbību centra ziņojumu, lai lietotājam tiktu piešķirts darbplūsmas darba vienums. 
 - Paziņojumu pievienošana darbplūsmām
     - Noteiktiem lietotājiem nevar izveidot darbību centra ziņojumus, piemēram, ziņojumu, kas ir izveidots no darbplūsmas iekš X++.
-    - [Darbplūsmām ir biznesa notikumi](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow), kurus debitors varētu izmantot, lai aktivizētu meklēto paziņojumu sniegšanu ar Flows.   
+    - [Darbplūsmām ir biznesa notikumi](../../dev-itpro/business-events/business-events-workflow.md), kurus debitors varētu izmantot, lai aktivizētu meklēto paziņojumu sniegšanu ar Flows.   
 
-Īsumā — ja lietotājs nesaņem nepieciešamo paziņojumu no darbību centra, kad šim lietotājam ir piešķirts kāds darbplūsmas darba elements, tad papildu vai atšķirīgu paziņojumu sniegšanai ir jāizmanto [darbplūsmas biznesa notikumi](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) un Microsoft Power Automate.
+Īsumā — ja lietotājs nesaņem nepieciešamo paziņojumu no darbību centra, kad šim lietotājam ir piešķirts kāds darbplūsmas darba elements, tad papildu vai atšķirīgu paziņojumu sniegšanai ir jāizmanto [darbplūsmas biznesa notikumi](../../dev-itpro/business-events/business-events-workflow.md) un Microsoft Power Automate.
 
 ## <a name="why-is-workflow-editor-not-able-to-start-under-ad-fs"></a>Kāpēc darbplūsmas redaktors nevar sākt ar AD FS?
 Darbojoties Active Directory Federation Services (AD FS) ietvaros jauninātā vidē, darbplūsmas redaktoram var rasties palaišanas problēmas. Ja tā notiek, pārliecinieties, vai URL "https://dynamicsaxworkfloweditor/" tiek pievienota ADFS iestatījumu rekvizītam **Microsoft Dynamics 365 for Operations lokāli — Darbplūsma — Vietējā programma**.
@@ -59,3 +57,6 @@ Noklusējuma lauka vērtība **Darbplūsmas vienumu skaitam partijā** lapā **D
 
 ## <a name="what-is-the-workflow-enhanced-error-feature"></a>Kas ir Darbplūsmas uzlabotās kļūdas līdzeklis?
 Darbplūsmas uzlabotās kļūdas līdzeklis versijā 10.0.13 pievieno kļūdu kodus, lai diferencētu dažādas darbplūsmas kļūdu klases. Paziņotie kļūdu ziņojumi lielākoties būs līdzīgi, bet ar nelielām atšķirībām, lai tos padarītu vieglāk saprotamus.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

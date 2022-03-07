@@ -2,7 +2,7 @@
 title: Atlīdzības procesa definēšana un rezultātu aprēķināšana
 description: Kompensācijas procesi tiek izmantoti, lai noteiktu jaunas atlīdzības summas un piemaksas darbiniekiem, kas reģistrēti fiksētās un mainīgās atlīdzības plānos.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,19 +11,21 @@ ms.technology: ''
 ms.search.form: HRMCompProcess, HRMCompProcessLine, HRMCompEvent, HRMCompEventEmpl, HcmCompensationWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 254eb4f83cc734e43920b912e81c7a9230ca82dd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3564e7807ed81684d51de3185cea9b4f35f38d8b
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419573"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5468279"
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>Atlīdzības procesa definēšana un rezultātu aprēķināšana
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Kompensācijas procesi tiek izmantoti, lai noteiktu jaunas atlīdzības summas un piemaksas darbiniekiem, kas reģistrēti fiksētās un mainīgās atlīdzības plānos. Kompensācijas procesus var izmantot vairākas reizes, lai veiktu iespēju analīzi, lai pārbaudītu, vai visas izmaiņas un iestatījumi ir pareizi. Šīs procedūras ietvaros tiks izveidots atlīdzības process, tiks palaists process un skatīti rezultāti. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 
@@ -100,3 +102,6 @@ Kompensācijas procesi tiek izmantoti, lai noteiktu jaunas atlīdzības summas u
 10. Noklikšķiniet uz Apstiprināts.
     * Pēc ieraksta apstiprināšanas to var ielādēt darbinieka oficiālajā atlīdzības ierakstā. Jaunā atlīdzība stājas spēkā darbības datumā, kas iestatīts kompensācijas procesā.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

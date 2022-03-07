@@ -1,37 +1,31 @@
 ---
 title: Esošās vietnes lapas modificēšana
-description: Šajā tēmā ir aprakstīts, kā modificēt esošu vietnes lapu Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā ir aprakstīts, kā modificēt esošu vietnes lapu programmā Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8ca23dcf568cb0df6934f0d6201e4aafba5f9ba1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b633965e45c16cb4e5991fab67783b867223f6ec
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414130"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5803733"
 ---
 # <a name="modify-an-existing-site-page"></a>Esošās vietnes lapas modificēšana
 
-
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā modificēt esošu vietnes lapu Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
+Šajā tēmā ir aprakstīts, kā modificēt esošu vietnes lapu programmā Microsoft Dynamics 365 Commerce.
 
 Kad ir jāmodificē lapa, pirmā darbība ir tās atvēršana lapas redaktorā. Dodieties uz vietni, kas satur jūsu lapu, un tad lapu sarakstā atrodiet lapu, ko vēlaties. Ja nevarat atrast lapu, varat izmantot autorēšanas rīka bagātīgās meklēšanas funkcionalitāti. Ierakstiet vai nu precīzu lapas nosaukumu, vai arī pirmos tā burtus un pēc tam zvaigznīti (\*). Tiek parādīts filtrēts lapu saraksts. Varat izmantot šo sarakstu, lai atrastu vēlamo lapu. Kad esat atradis pareizo lapu, atlasiet lapas nosaukumu, lai atvērtu lapu lapas redaktorā.
 
@@ -87,3 +81,8 @@ Tālāk minētajā piemērā ir parādīts, kā modificēt sākumlapu, mainot vi
 [Kategorijas ielādes lapas papildināšana](enrich-category-page.md)
 
 [Lapas satura pieejamības pārbaude](verify-accessibility.md)
+
+[Dinamisko e-komercijas lapu izveidošana, pamatojoties uz URL parametriem](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

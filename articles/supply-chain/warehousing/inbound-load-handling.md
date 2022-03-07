@@ -1,38 +1,38 @@
 ---
 title: Noliktavas apstrādes process ienākošajām slodzēm pirkšanas pasūtījumiem
 description: Šī tēma apraksta noliktavas apstrādes procesu ienākošajām slodzēm pirkšanas pasūtījumiem.
-author: Mirzaab
+author: omulvad
+manager: tfehr
 ms.date: 03/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTable, WHSLoadPlanningListPage, WHSLoadPlanningWorkbench, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
-ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: c2d7f140c0199b4b81a7b42220d5800d427be680
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.10
+ms.openlocfilehash: fec2e7f39569c52ec17c5d0b2474eca720e0180a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577844"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5235344"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Noliktavas apstrādes process ienākošajām slodzēm pirkšanas pasūtījumiem
 
-[!include [banner](../includes/banner.md)]
-
 Šī tēma apraksta noliktavas apstrādes procesu ienākošajām slodzēm pirkšanas pasūtījumiem.
 
-Katrai saņemšanas noslodzei jūsu sistēmai jau ir jāiekļauj saistītais pārdošanas pasūtījums, un tas var ietvert arī saistīto noslodzes specifikāciju un/vai transportēšanas plānu. Lai iegūtu vairāk informācijas par to, kā izveidot un pārvaldīt ienākošo kravu, skatiet [Biznesa process: transportēšanas plānošana ienākošajām slodzēm](/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
+Katrai saņemšanas noslodzei jūsu sistēmai jau ir jāiekļauj saistītais pārdošanas pasūtījums, un tas var ietvert arī saistīto noslodzes specifikāciju un/vai transportēšanas plānu. Lai iegūtu vairāk informācijas par to, kā izveidot un pārvaldīt ienākošo kravu, skatiet [Biznesa process: transportēšanas plānošana ienākošajām slodzēm](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
 
 ## <a name="overview-how-inbound-loads-are-created-registered-and-received"></a>Pārskats: kā ienākošās slodzes tiek veidotas, reģistrētas un saņemtas
 
 Sekojošajā attēlā redzama parastā plūsma ienākošo slodžu apstrādei, kurām ir pirkšanas pasūtījuma daudzumi, kad tie ierodas noliktavā.
 
-![Ienākošo noslodžu apstrādes process.](media/inbound-process.png "Ienākošo noslodžu apstrādes process")
+![Ienākošo noslodžu apstrādes process](media/inbound-process.png "Ienākošo noslodžu apstrādes process")
 
 1. **Kreditors apstiprina pirkšanas pasūtījumu.**
 
@@ -40,11 +40,11 @@ Sekojošajā attēlā redzama parastā plūsma ienākošo slodžu apstrādei, ku
 
 1. **Ienākošās noslodzes ieraksts tiek izveidots, lai plānotu ierašanos un tā saturu.**
 
-    Saņemšanas noslodzes ieraksts parāda kreditora sūtījumu vienam vai vairākiem pirkšanas pasūtījumiem. Paredzams, ka noslodze nokļūs noliktavā kā viena fiziska transportēšanas vienība (piemēram, kravas automašīnas). Saņemšanas noslodzes ieraksts tiek izmantots plānošanas nolūkiem un ļauj loģistikas koordinatoram izsekot kravas virzību no kreditora. Tas tiek izmantots arī, lai reģistrētu pasūtījumu rindu daudzumus un pārvaldītu norisi, izmantojot noliktavas operācijas, piemēram, saņemšanas un izvietošanas darbu. Noslodzes var izveidot automātiski vai manuāli, un tās var būt pamatotas vai nu uz pirkšanas pasūtījuma, vai arī no kreditora papildu sūtījuma paziņojuma (ASN). Papildinformāciju skatiet [Ienākošās noslodzes izveide vai modificēšana](/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load).
+    Saņemšanas noslodzes ieraksts parāda kreditora sūtījumu vienam vai vairākiem pirkšanas pasūtījumiem. Paredzams, ka noslodze nokļūs noliktavā kā viena fiziska transportēšanas vienība (piemēram, kravas automašīnas). Saņemšanas noslodzes ieraksts tiek izmantots plānošanas nolūkiem un ļauj loģistikas koordinatoram izsekot kravas virzību no kreditora. Tas tiek izmantots arī, lai reģistrētu pasūtījumu rindu daudzumus un pārvaldītu norisi, izmantojot noliktavas operācijas, piemēram, saņemšanas un izvietošanas darbu. Noslodzes var izveidot automātiski vai manuāli, un tās var būt pamatotas vai nu uz pirkšanas pasūtījuma, vai arī no kreditora papildu sūtījuma paziņojuma (ASN). Papildinformāciju skatiet [Ienākošās noslodzes izveide vai modificēšana](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load).
 
 1. **Kreditors apstiprina noslodzes nosūtīšanu.**
 
-    Kad kreditors nosūta noslodzi, loģistikas koordinators saņemšanas noliktavā apstiprina noslodzes nosūtīšanu. Ja saņemšanas uzņēmums izmanto **Transportēšanas pārvaldības** moduli, saņemšanas sūtījuma apstiprināšana izraisīs citus noslodzes pārvaldības procesus, kas ir saistīti ar ienākošajām noslodzēm. Papildinformācijai skatiet [Noslodzes apstiprināšana nosūtīšanai](/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
+    Kad kreditors nosūta noslodzi, loģistikas koordinators saņemšanas noliktavā apstiprina noslodzes nosūtīšanu. Ja saņemšanas uzņēmums izmanto **Transportēšanas pārvaldības** moduli, saņemšanas sūtījuma apstiprināšana izraisīs citus noslodzes pārvaldības procesus, kas ir saistīti ar ienākošajām noslodzēm. Papildinformācijai skatiet [Noslodzes apstiprināšana nosūtīšanai](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
 
 1. **Noslodze pienāk noliktavā, un darbinieki reģistrē daudzumus.**
 
@@ -66,7 +66,7 @@ Kad noliktavā vispirms ierodas ienākošā noslodze, noliktavas darbiniekiem ir
 
 - **Mobilās ierīces izvēlne, kas ir konfigurēta, lai atbalstītu noslodzes saņemšanu**
 
-    [Warehouse Management mobile programma](../warehousing/install-configure-warehouse-management-app.md) mobilajām ierīcēm atbalsta šādus darba izveides procesus:
+    [Noliktavas programma](install-configure-warehousing-app.md) mobilajām ierīcēm atbalsta šādus darba izveides procesus:
 
     - Kravas krājuma saņemšana
     - Kravas krājuma saņemšana un izvietošana
@@ -129,7 +129,7 @@ Lai kontrolētu to, kas notiek, kad noliktavas darbinieks mēģina reģistrēt p
 | Vērtība | apraksts |
 |---|---|
 | Atļaut | Darbinieki var reģistrēt tādu daudzumu saņemšanu, kas pārsniedz atlikušo nereģistrēto daudzumu atlasītajai noslodzei, bet tikai tad, ja kopējais reģistrētais daudzums nepārsniedz pirkšanas pasūtījuma rindas daudzumu, kas ir saistīts ar noslodzi (pēc pārsniegšanas procenta korekcijas). |
-| Bloķēts | <p>Darbinieki nevar reģistrēt daudzuma saņemšanu, kas ir lielāks par atlikušo nereģistrēto daudzumu atlasītajai noslodzei (pēc koriģēšanas, lai varētu veikt pārsniegšanu procentos). Darbinieks, kurš mēģina reģistrēt saņemšanu saņems kļūdu, un nevarēs turpināt, kamēr viņš nereģistrēs daudzumu, kas ir vienāds ar vai mazāks par atlikušo nereģistrēto noslodzes daudzumu.</p><p>Pēc noklusējuma pārsniegšanas procentuālā vērtība noslodzes rindā tiek kopēta no saistītās pirkšanas pasūtījuma rindas. Kad lauks <b>Noslodze pārslodze</b> ir iestatīts uz <i>Bloķēts</i>, sistēma izmanto pārsniegšanas procentuālo vērtību, lai aprēķinātu kopējo daudzumu, ko var reģistrēt noslodzes rindai. Tomēr šo vērtību var pārrakstīt atsevišķām noslodzēm pēc nepieciešamības. Šī uzvedība kļūst aktuāla saņemšanas plūsmu laikā, kad daļa vai viss pārpalikums, kas atspoguļo pasūtījuma līnijas pārsnieguma procentu, tiek sadalīts neproporcionāli vairākām noslodzēm. Lūk, ir piemērs:</p><ul><li>Vienai pirkšanas pasūtījuma rindai ir vairākas noslodzes.</li><li>Pirkšanas pasūtījuma rindai ir pārsniegšanas procentuālais daudzums, kas ir lielāks par 0 (nulle).</li><li>Daudzumi jau ir reģistrēti attiecībā pret vienu vai vairākām noslodzēm, neņemot vērā pārsniegto daudzumu procentos kontā.</li><li>Pārsniegšanas daudzums pienāk pēdējā noslodzē.</li></ul><p>Šajā scenārijā var izmantot mobilo ierīci, lai reģistrētu pēdējās noslodzes pārsniegšanas daudzumu tikai tad, ja noliktavas uzraudgs palielina pārsniegšanas procentuālo vērtību attiecīgajai noslodzes rindai no noklusētās vērtības uz vērtību kas ir pietiekami liela, lai pilnīgu pārsniegšanu varētu reģistrēt ar galīgo noslodzi.</p> |
+| Bloķēts | <p>Darbinieki nevar reģistrēt daudzuma saņemšanu, kas ir lielāks par atlikušo nereģistrēto daudzumu atlasītajai noslodzei (pēc koriģēšanas, lai varētu veikt pārsniegšanu procentos). Darbinieks, kurš mēģina reģistrēt saņemšanu saņems kļūdu, un nevarēs turpināt, kamēr viņš vai viņa nereģistrēs daudzumu, kas ir vienāds ar vai mazāks par atlikušo nereģistrēto noslodzes daudzumu.</p><p>Pēc noklusējuma pārsniegšanas procentuālā vērtība noslodzes rindā tiek kopēta no saistītās pirkšanas pasūtījuma rindas. Kad lauks <b>Noslodze pārslodze</b> ir iestatīts uz <i>Bloķēts</i>, sistēma izmanto pārsniegšanas procentuālo vērtību, lai aprēķinātu kopējo daudzumu, ko var reģistrēt noslodzes rindai. Tomēr šo vērtību var pārrakstīt atsevišķām noslodzēm pēc nepieciešamības. Šī uzvedība kļūst aktuāla saņemšanas plūsmu laikā, kad daļa vai viss pārpalikums, kas atspoguļo pasūtījuma līnijas pārsnieguma procentu, tiek sadalīts neproporcionāli vairākām noslodzēm. Lūk, ir piemērs:</p><ul><li>Vienai pirkšanas pasūtījuma rindai ir vairākas noslodzes.</li><li>Pirkšanas pasūtījuma rindai ir pārsniegšanas procentuālais daudzums, kas ir lielāks par 0 (nulle).</li><li>Daudzumi jau ir reģistrēti attiecībā pret vienu vai vairākām noslodzēm, neņemot vērā pārsniegto daudzumu procentos kontā.</li><li>Pārsniegšanas daudzums pienāk pēdējā noslodzē.</li></ul><p>Šajā scenārijā var izmantot mobilo ierīci, lai reģistrētu pēdējās noslodzes pārsniegšanas daudzumu tikai tad, ja noliktavas uzraudgs palielina pārsniegšanas procentuālo vērtību attiecīgajai noslodzes rindai no noklusētās vērtības uz vērtību kas ir pietiekami liela, lai pilnīgu pārsniegšanu varētu reģistrēt ar galīgo noslodzi.</p> |
 | Bloķēt tikai slēgtajām noslodzēm | Darbinieki var saņemt noslodzes līniju daudzumus par atvērtām noslodzēm bet ne par noslodzēm, kuru statuss ir _Saņemts_. |
 
 > [!NOTE]
@@ -205,7 +205,7 @@ Kad lietotājs atlasa **Labi**, lai apstiprinātu preču saņemšanas grāmatoš
 | Atļaut vairākas preču saņemšanu uz noslodzi | Noslodzes daudzums | Kravas statuss | Piezīme |
 |---|---|---|---|
 | Kad šis lauks nav pieejams (versijas pirms 10.0.10) | <p>Noslodzes daudzums ir iestatīts tā, lai tas būtu vienāds ar reģistrēto daudzumu.</p><p>Ja noslodzes daudzums ir atjaunināts uz 0 (nulli), kas nozīmē, ka reģistrācija nav veikta, noslodzes rinda tiek dzēsta.</p><p>Ja noslodzei nav rindu, tā tiek dzēsta.</p> | _Saņemts_ | Ja pasūtījuma rindas reģistrētajam daudzumam pastāv vairākas noslodzes, tikai tās kravas statuss, no kuras tika nosūtīta saņemšana, tiek atjaunināts uz _Saņemts_. |
-| Nē | <p>Noslodzes daudzums ir iestatīts tā, lai tas būtu vienāds ar reģistrēto daudzumu, kas ir saistīts ar noslodzes ID.</p><p>Ja krājumu transakcijai nav ierakstīts noslodzes ID, uzvedība sakrīt ar uzvedību versijās pirms 10.0.10.</p> | _Saņemts_ | |
+| Nr. | <p>Noslodzes daudzums ir iestatīts tā, lai tas būtu vienāds ar reģistrēto daudzumu, kas ir saistīts ar noslodzes ID.</p><p>Ja krājumu transakcijai nav ierakstīts noslodzes ID, uzvedība sakrīt ar uzvedību versijās pirms 10.0.10.</p> | _Saņemts_ | |
 | Jā | Nav atjauninājumu | _Saņemts_, ja kopējais reģistrētais noslodzes daudzums ir vienāds ar vai lielāks par noslodzes daudzumu | |
 | Jā | Nav atjauninājumu | _Piegādāts_ vai _Procesā_, ja kopējais reģistrētais noslodzes daudzums ir mazāks par noslodzes daudzumu | |
 
@@ -218,7 +218,7 @@ Lai preces saņemšanas gadījumā tiktu reģistrēti papildu reģistrēti noslo
 
 ### <a name="post-registered-quantities-from-the-purchase-order-page"></a>Grāmatot reģistrēto daudzumu no Pirkšanas pasūtījuma lapas
 
-Lai preces saņemšanas laikā reģistrētos daudzumus ierakstītu no **Pirkšanas pasūtījuma** lapas, lietotājs izpilda šādus uzdevumus, pirms viņš atlasa **Preču saņemšanas** darbību:
+Lai preces saņemšanas laikā reģistrētos daudzumus ierakstītu no **Pirkšanas pasūtījuma** lapas, lietotājs izpilda šādus uzdevumus, pirms viņš vai viņa atlasa **Preču saņemšanas** darbību:
 
 - Iestatiet **Daudzuma** lauku sadaļā **Parametri** cilnē **Iestatījumi** uz _Reģistrēto daudzumu_.
 - Laukā **Preču saņemšana** ievadiet grāmatošanas laikā iekļauto pirkšanas pasūtījumu numurus.
@@ -285,7 +285,7 @@ Lai, izmantojot šos scenārijus, strādātu ar norādītajiem parauga ierakstie
 
 Pirms noliktavas saņemšanas darbinieki var izmantot mobilo ierīci, lai reģistrētu ienākošos krājumus, kas ir saistīti ar noslodzi, šim nolūkam ir jāizveido mobilās ierīces izvēlnes elements.
 
-Šajā sadaļā jūs izveidosiet mobilās ierīces izvēlnes elementu un pievienosiet to esošai izvēlnei. Noliktavas darbinieks pēc tam var atlasīt izvēlnes elementu Warehouse Management mobile programmā.
+Šajā sadaļā jūs izveidosiet mobilās ierīces izvēlnes elementu un pievienosiet to esošai izvēlnei. Noliktavas darbinieks pēc tam var atlasīt izvēlnes elementu noliktavas programmā.
 
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatīšana \> Mobilās ierīce \> Mobilās ierīces izvēlnes vienumi** un pārliecinieties, ka mobilās ierīces izvēlnē ir ietverts izvēlnes elements, kam ir šādi iestatījumi:
 
@@ -295,7 +295,7 @@ Pirms noliktavas saņemšanas darbinieki var izmantot mobilo ierīci, lai reģis
 
     Varat atstāt visus pārējos iestatījumus noklusējuma vērtībās.
 
-    ![Mobilās ierīces izvēlnes krājuma iestatījumi.](media/inbound-mobile-menu-items.png "Mobilās ierīces izvēlnes krājuma iestatījumi")
+    ![Mobilās ierīces izvēlnes krājuma iestatījumi](media/inbound-mobile-menu-items.png "Mobilās ierīces izvēlnes krājuma iestatījumi")
 
     Papildinformāciju par mobilās ierīces izvēlnes krājuma iestatīšanu skatiet [Mobilo ierīču iestatīšana noliktavas darbam](configure-mobile-devices-warehouse.md).
 
@@ -330,7 +330,7 @@ Pirms noliktavas saņemšanas darbinieki var izmantot mobilo ierīci, lai reģis
     - Kopsavilkuma cilnē **Noslodze** **Noslodzes statusa** lauks ir iestatīts uz _Atvērts_.
     - Sadaļā **Noslodzes rindas** ir viena rinda, kur **Daudzuma** lauks ir iestatīts uz _10_, un lauks **Darba izveidotais daudzums** ir iestatīts kā _0_ (nulle).
 
-    ![Detalizēta informācija par kravu.](media/inbound-load-details.png "Detalizēta informācija par kravu")
+    ![Detalizēta informācija par kravu](media/inbound-load-details.png "Detalizēta informācija par kravu")
 
 1. Darbību rūts cilnē **Nosūtīt un saņemt**, atlasiet **Apstiprināt \> Ienākošais sūtījums**. Ievērojiet, ka **Noslodzes statuss** ir mainīts uz _Piegādāts_.
 1. Atzīmējiet **Noslodzes ID** vērtību, lai to varētu izmantot nākamajā procedūrā.

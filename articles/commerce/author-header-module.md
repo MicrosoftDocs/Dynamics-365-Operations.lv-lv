@@ -1,36 +1,31 @@
 ---
 title: Galvenes modulis
-description: Šajā tēmā ir apskatīti galvenes moduļi un aprakstīts, kā izveidot lapas galvenes programmā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā aplūkoti galvenes moduļi un aprakstīta lapu galveņu izveide risinājumā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
-ms.date: 10/20/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 52069af5ca2211473d4a096ad850b5be1290bba1
-ms.sourcegitcommit: eee3523be26369aecdb36c0143a6ee3dab4b7966
-ms.translationtype: HT
+ms.openlocfilehash: afdc12230ebad3d5db59c384b2f1066d2c7929339f282ed4880ff967b1fd2d8b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4414185"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712794"
 ---
 # <a name="header-module"></a>Galvenes modulis
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir apskatīti galvenes moduļi un aprakstīts, kā izveidot lapas galvenes programmā Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
+Šajā tēmā aplūkoti galvenes moduļi un aprakstīta lapu galveņu izveide risinājumā Microsoft Dynamics 365 Commerce.
 
 Pakalpojumā Dynamics 365 Commerce, lapas galvene ir konfigurēta kā lapas fragments, kas ietver galveni, promo reklāmkarogu un sīkfailu piekrišanas moduļus. 
 
@@ -38,7 +33,7 @@ Galvenes modulī ir iekļauts vietnes logotips, saites uz navigācijas hierarhij
 
 Attēlā zemāk redzams galvenes moduļa piemērs sākumlapā.
 
-![Galvenes moduļa piemērs](./media/ecommerce-header.png)
+![Galvenes moduļa piemērs.](./media/ecommerce-header.png)
 
 ## <a name="properties-of-a-header-module"></a>Galvenes moduļa rekvizīti
 
@@ -63,9 +58,16 @@ Rekvizīts **Mana konta saites** var tikt izmantots, lai definētu konta lapas, 
 - **Veikalu atlasītājs** — veikalu atlasītāja moduli var iekļaut galvenes moduļa veikalu atlasītāja slotā. Tas ļauj lietotājiem pārlūkot un atrast tuvumā esošos veikalus. Lietotāji var arī norādīt vēlamo veikalu. Šis veikals pēc tam būs redzams galvenē. Kad veikalu atlasītāja modulis ir iekļauts galvenes modulī, tā rekvizītam **Režīms** jābūt iestatītam uz **Atrast veikalus**. Plašāku informāciju skatiet sadaļā [Veikalu atlasītāja modulis](store-selector.md).
 
 > [!NOTE]
-> - Atbalsts groza ikonas moduļa izmantošanai galvenes moduļos ir pieejams Dynamics 365 Commerce 10.0.11 laidienā.
-> - Atbalsts vietas atlasītāja moduļa izmantošanai galvenes moduļos ir pieejams Dynamics 365 Commerce 10.0.14 laidienā.
-> - Atbalsts veikalu atlasītāja moduļa izmantošanai galvenes moduļos ir pieejams Dynamics 365 Commerce 10.0.15 laidienā.
+> - Atbalsts groza ikonas moduļa izmantošanai galvenes moduļos ir pieejams kā Dynamics 365 Commerce versija 10.0.11 laidienā.
+> - Atbalsts vietnes atlasītāja moduļa izmantošanai galvenes moduļos ir pieejams kā Dynamics 365 Commerce versija 10.0.14 laidienā.
+> - Atbalsts veikala atlasītāja moduļa izmantošanai galvenes moduļos ir pieejams kā Dynamics 365 Commerce versija 10.0.15 laidienā.
+
+## <a name="header-module-in-the-adventure-works-theme"></a>Virsraksta modulis Adventure Works tēmā
+
+Adventure Works tēmā virsraksta modulis atbalsta rekvizītu **Mobilais logotips**. Šis rekvizīts iespējo logotipa norādīšanu mobilajām skatījumu vietām. Rekvizīts **Mobilais logotips** ir pieejams kā moduļa definīcijas paplašinājums.
+
+> [!IMPORTANT]
+> Adventure Works tēma ir pieejama Dynamics 365 Commerce versijas 10.0.20 laidienā.
 
 ## <a name="create-a-header-fragment-for-a-page"></a>Lapas galvenes fragmenta izveide
 
@@ -119,3 +121,6 @@ Lai palīdzētu nodrošināt, ka galvene parādās katrā lapā, veiciet šīs d
 [Vietņu atlasītāja modulis](site-selector.md)
 
 [Veikalu atlasītāja modulis](store-selector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

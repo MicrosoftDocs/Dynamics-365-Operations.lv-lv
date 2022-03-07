@@ -1,39 +1,36 @@
 ---
 title: Programmā Supply Chain Management esošo produktu tieša sinhronizēšana ar produktiem programmā Sales
 description: Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Dynamics 365 Supply Chain Management ietverto preču sinhronizēšanai ar programmu Dynamics 365 Sales.
-author: ChristianRytt
-manager: tfehr
+author: Henrikan
 ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 6ffd55585ff43f993876de6c669eb61e74a9fd79
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
-ms.translationtype: HT
+ms.openlocfilehash: dd84f96a5597c480648ae30b6d0274e15d750ff6
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527318"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062467"
 ---
 # <a name="synchronize-products-directly-from-supply-chain-management-to-products-in-sales"></a>Programmā Supply Chain Management esošo produktu tieša sinhronizēšana ar produktiem programmā Sales
 
 [!include [banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 > [!NOTE]
-> Pirms risinājuma No potenciāla klienta līdz skaidrai naudai lietošanas izlasiet rakstu [Datu integrēšana pakalpojumā Common Data Service programmām](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+> Pirms risinājuma No potenciāla klienta līdz skaidrai naudai lietošanas izlasiet rakstu [Datu integrēšana pakalpojumā Microsoft Dataverse programmām](/powerapps/administrator/data-integrator).
 
 Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Dynamics 365 Supply Chain Management ietverto preču tiešai sinhronizēšanai ar programmu Dynamics 365 Sales.
 
@@ -41,7 +38,7 @@ ms.locfileid: "4527318"
 
 Risinājumā No potenciālā klienta līdz skaidrai naudai tiek izmantots līdzeklis Datu integrācija, lai sinhronizētu datus programmu Supply Chain Management un Sales instancēs. Risinājuma No potenciālā klienta līdz skaidrai naudai veidnes, kas ir pieejamas ar līdzekli Datu integrācija, nodrošina ar kontiem, kontaktpersonām, precēm, pārdošanas piedāvājumiem, pārdošanas pasūtījumiem un pārdošanas rēķiniem saistīto datu plūsmu starp programmām Supply Chain Management un Sales. Tālāk esošajā attēlā ir redzams, kā notiek datu sinhronizēšana programmās Supply Chain Management un Sales.
 
-[![Datu plūsma risinājumā No potenciālā klienta līdz skaidrai naudai](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Datu plūsma risinājumā No potenciālā klienta līdz skaidrai naudai.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Veidnes un uzdevumi
 
@@ -54,13 +51,13 @@ Tālāk norādītā veidne un pamata uzdevumi tiek izmantoti programmā Supply C
 
 Lai varētu veikt preču sinhronizāciju, nav nepieciešams neviens sinhronizācijas uzdevums.
 
-## <a name="entity-set"></a>Elementu kopa
+## <a name="entity-set"></a>Entītiju kopa
 
 | Supply Chain Management    | Pārdošana    |
 |----------------------------|----------|
 | Pārdodamas izlaistās preces | Preces |
 
-## <a name="entity-flow"></a>Elementu plūsma
+## <a name="entity-flow"></a>Entītiju plūsma
 
 Preces tiek pārvaldītas programmā Supply Chain Management un tiek sinhronizēti ar programmu Sales. Datu elements **Pārdodamas izlaistās preces** programmā Supply Chain Management nodrošina tikai *pārdodamo* preču eksportēšanu. Pārdodamās preces ir preces, par kurām ir pieejama informācija, kas ir nepieciešama, lai tās varētu izmantot pārdošanas pasūtījumā. Tie paši noteikumi attiecas uz preces validāciju, izmantojot funkciju **Validēt** lapā **Izlaistā prece**.
 
@@ -107,7 +104,7 @@ Tālāk esošajā attēlā ir redzams piemērs veidnes kartēšanai līdzeklī D
 > [!NOTE]
 > Kartējums norāda to, kuru programmā Sales ietverto lauku informācija tiks sinhronizēta ar programmu Supply Chain Management.
 
-![Veidnes kartējums datu integrētājā](./media/products-direct-template-mapping-data-integrator-1.png)
+![Veidnes kartēšana datu integrētājā.](./media/products-direct-template-mapping-data-integrator-1.png)
 
 
 ## <a name="related-topics"></a>Saistītās tēmas
@@ -124,3 +121,6 @@ Tālāk esošajā attēlā ir redzams piemērs veidnes kartēšanai līdzeklī D
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

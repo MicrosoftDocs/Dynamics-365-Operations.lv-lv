@@ -1,30 +1,32 @@
 ---
-title: Debitora atvienošanās
-description: Šajā rakstā paskaidrots, kā rīkoties, ja debitors tiek atvienots no vides un nav zināms, kāpēc.
-author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+title: Klienta atvienošanās
+description: Šajā rakstā paskaidrots, kā rīkoties, ja debitors tiek atvienots no vides.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2088706baf8735fa371960955a2ffc3240ccac76
-ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
-ms.translationtype: HT
+ms.openlocfilehash: b15c5db19f1b07e3d469986ac700138ecb1d1525
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "4419631"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071139"
 ---
-# <a name="client-disconnects"></a>Debitora atvienošanās
+# <a name="client-disconnects"></a>Klienta atvienošanās
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **Informācija par vidi** 
 
@@ -52,3 +54,6 @@ Lietotāji tiek atvienoti no Microsoft Dynamics 365 Human Resources, ja vienlaic
 Pārliec., ka vienlaicīgi ir atvērta tikai viena vide konkrētam pārlūkpr. tipam. Lietotāji var atvērt vairākas sesijas tajā pašā vidē (t.i., vairākas cilnes tajā pašā pārlūkprogr.).
 
 Lietotājiem, kuri vienlaicīgi vēlas pārvietoties starp divām vidēm, ir jāatver katra vide, izmantojot citu pārlūkpr. tipu. (Piemēram, lietotājs A var skatīt 1. vidi pārlūkprogrammā Chrome un 2. vidi pārlūkprogrammā Microsoft Edge.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

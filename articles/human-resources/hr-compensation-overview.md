@@ -1,33 +1,34 @@
 ---
-title: Atlīdzības plāni
-description: Atlīdzību un atvieglojumu vadītāji atlīdzību pārvaldību var izmantot, lai organizācijas darbiniekiem uzturētu un apstrādātu fiksētās un mainīgās atlīdzības sistēmas.
-author: andreabichsel
-manager: AnnBe
-ms.date: 06/20/2017
-ms.topic: article
+title: Kompensācijas plāni
+description: Šajā tēmā aprakstīts, kā izmantot atlīdzību pārvaldību, lai pārvaldītu un apstrādātu atlīdzību plānus.
+author: twheeloc
+ms.date: 08/25/2021
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmCompensationLevel, HRCCompGrid, HRMCompFixedAction, HRMCompFixedBudget, HRMCompFixedPlanTable, HcmCompensationWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
-ms.custom: 7521
+ms.search.scope: Human Resources
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: b6dd163b0e956624eb57fa031b918a94609f9cfa
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 7571f220780ca383f57338bb69505cc68a741877
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419504"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066904"
 ---
-# <a name="compensation-plans"></a>Atlīdzības plāni
+# <a name="compensation-plans"></a>Kompensācijas plāni
 
-Atlīdzību un atvieglojumu vadītāji atlīdzību pārvaldību var izmantot, lai organizācijas darbiniekiem uzturētu un apstrādātu fiksētās un mainīgās atlīdzības sistēmas.
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Atlīdzību un atvieglojumu vadītāji **atlīdzību pārvaldību** var izmantot, lai organizācijas darbiniekiem uzturētu un apstrādātu fiksētās un mainīgās atlīdzības sistēmas.
 
 ### <a name="introduction"></a>Ievads
 
@@ -44,7 +45,7 @@ Nākamajā tabulā ir uzskaitīti atlīdzības procesa komponenti, kas var būt 
 <thead>
 <tr class="header">
 <th>Komponents</th>
-<th>Papildinformācija...</th>
+<th>Papildinformācija</th>
 </tr>
 </thead>
 <tbody>
@@ -53,7 +54,7 @@ Nākamajā tabulā ir uzskaitīti atlīdzības procesa komponenti, kas var būt 
 <td>Ar fiksētājām atlīdzības darbībām tiek sasniegti divi mērķi:
 <ul>
 <li>Darbības var norādīt, kāda informācija ir jāreģistrē, kad mainās darbinieka atlīdzība. Piemēram, varat pieprasīt, lai tiktu reģistrēts izmaiņu iemesls, piemēram, paaugstināšana vai pazemināšana amatā.</li>
-<li>Darbības var nodrošināt, ka fiksētās atlīdzības plānu apstrādāšanas laikā tiek lietots kāds aprēķins.  Piemēram, izpildot tipa Kapitāls darbības, darbinieku alga tiek salīdzināta ar darbinieka līmeņa minimālo atsauces punktu un tiek nodrošināts, ka darbiniekam tiek samaksāta vismaz minimālā summa.</li>
+<li>Darbības var nodrošināt, ka fiksētās atlīdzības plānu apstrādāšanas laikā tiek lietots kāds aprēķins.  Piemēram, izpildot tipa Kapitāls darbības, darbinieku alga tiek salīdzināta ar darbinieka&#39;līmeņa minimālo atsauces punktu un tiek nodrošināts, ka darbiniekam tiek samaksāta vismaz minimālā summa.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -62,7 +63,7 @@ Nākamajā tabulā ir uzskaitīti atlīdzības procesa komponenti, kas var būt 
 </tr>
 <tr class="odd">
 <td>Diapazona lietojuma matrica</td>
-<td>Diapazona lietojuma matrica jums palīdz pārcelt darbiniekus uz kontrolpunktu viņu darbiem. Varat izmantot diapazona lietojumu arī apmaksas likmes kapitāla kontrolei uzņēmumā, neņemot vērā atsevišķa darbinieka veiktspēju vai kopējo uzņēmuma veiktspēju. Piemēram, darbinieki, kas savā diapazonā ir zemāk apmaksāti, saņem lielāku procentuālo pieaugumu nekā darbinieki, kas savā diapazonā ir augstāk apmaksāti. Šādi varat sistemātiski nobīdīt kapitāla atšķirības. Diapazona lietojums tiek aprēķināts šādi: (Fiksēta apmaksas likme - Diapazona minimums) ÷ (Diapazona maksimums - Diapazona minimums).</td>
+<td>Diapazona lietojuma matrica jums palīdz pārcelt darbiniekus uz kontrolpunktu viņu darbiem. Varat izmantot diapazona lietojumu arī apmaksas likmes kapitāla kontrolei uzņēmumā, neņemot vērā atsevišķa darbinieka&#39;veiktspēju vai kopējo uzņēmuma veiktspēju. Piemēram, darbinieki, kas savā diapazonā ir zemāk apmaksāti, saņem lielāku procentuālo pieaugumu nekā darbinieki, kas savā diapazonā ir augstāk apmaksāti. Šādi varat sistemātiski nobīdīt kapitāla atšķirības. Diapazona lietojums tiek aprēķināts šādi: (Fiksēta apmaksas likme - Diapazona minimums) ÷ (Diapazona maksimums - Diapazona minimums).</td>
 </tr>
 <tr class="even">
 <td>Atsauces punkta iestatījumi</td>
@@ -90,7 +91,7 @@ Nākamajā tabulā ir uzskaitīti atlīdzības procesa komponenti, kas var būt 
 </tr>
 <tr class="even">
 <td>Kontrolpunkts</td>
-<td>Kontrolpunkts nosaka, ko jūs uzskatāt par ideālu apmaksas likmi visiem darbiniekiem kādā atlīdzības līmenī. Kategoriju plāna struktūrām kontrolpunkti parasti ir diapazona viduspunkts. Joslu struktūrās kontrolpunkti tiek izmantoti reti. Fiksētas atlīdzības plānam kontrolpunktu varat norādīt formā Fiksētas atlīdzības plāni.</td>
+<td>Kontrolpunkts nosaka, ko jūs uzskatāt par ideālu apmaksas likmi visiem darbiniekiem kādā atlīdzības līmenī. Kategoriju plāna struktūrām kontrolpunkti parasti ir diapazona viduspunkts. Joslu struktūrās kontrolpunkti tiek izmantoti reti. Fiksētas atlīdzības plānam kontrolpunktu varat norādīt formā **Fiksētas atlīdzības plāni**.</td>
 </tr>
 <tr class="odd">
 <td>Darba funkcijas</td>
@@ -122,8 +123,7 @@ Nākamajā tabulā ir uzskaitīti atlīdzības procesa komponenti, kas var būt 
 ## <a name="process-events"></a>Apstrādes notikumi
 Procesa notikums aprēķina atlīdzības informāciju noteiktam periodam visiem darbiniekiem, kas ir reģistrēti vienā vai vairākos fiksētās vai mainīgās atlīdzības plānos. Procesa notikumu varat palaist atkārtoti, lai pārbaudītu vai atjauninātu aprēķinātos atlīdzības rezultātus.
 
-<a name="compensation-events"></a>Atlīdzības notikumi
--------------------
+## <a name="compensation-events"></a>Atlīdzības notikumi
 
 Katru reizi, kad tiek palaists procesa notikums, tiek izveidots atlīdzības notikums.  Atlīdzības notikumi ietver atlīdzības procesa rezultātus katram darbiniekam, kas ir iekļauts attiecīgajā procesa notikumā.  Kad šie aprēķini ir pareizi, varat ielādēt atlīdzības notikumu, lai atjauninātu atlīdzības ierakstus tiem darbiniekiem, kurus šis procesa notikums ietekmē.
 
@@ -132,3 +132,6 @@ Pēc procesa notikuma palaišanas varat ieteikt korekcijas darbinieka nopelnu pa
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

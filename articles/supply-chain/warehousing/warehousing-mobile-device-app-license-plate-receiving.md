@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
-ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 6663188334c70035906f924c7850a0dc5002f306
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: MT
+ms.dyn365.ops.version: Release 10.0.11
+ms.openlocfilehash: 8c662da296bea7def443cb166bd3f7e501c9abcc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103067"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823195"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Numura zīmes saņemšana, izmantojot Warehouse Management mobile programmu
 
@@ -77,13 +77,15 @@ Kad šis līdzeklis ir ieslēgts, mobilās ierīces izvēlnes vienumi numura zī
 - **Rādīt detalizētu kopsavilkumu** — veicot numura zīmes saņemšanu, darbinieki redzēs papildu lapu, kas parāda pilnu ASN informāciju.
 - **Izlaist kopsavilkumu** — darbinieki neredzēs pilnu ASN informāciju. Noliktavas darbinieki arī saņemšanas procesa laikā nevarēs iestatīt izvietojuma kodu vai pievienot izņēmumus.
 
-Lai izmantotu šo funkcionalitāti *, jābūt ieslēgtam kontroles tam, vai mobilo ierīču* funkcijai rādīt saņemšanas kopsavilkuma lapu. No Piegādes ķēdes pārvaldības versijas 10.0.21 šī funkcija ir ieslēgta pēc noklusējuma. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja jūs palaižat versiju, kas vecāka par 10.0.25, *·*[tad](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot kontroli, vai līdzekļu pārvaldības darbvietā mobilo ierīču līdzeklī rādīt saņemšanas kopsavilkuma lapu.
+Lai šo funkcionalitāti padarītu pieejamu jūsu sistēmā, ir jāaktivizē līdzeklis *Kontrolēt, vai ir jārāda saņemšanas kopsavilkuma lapa mobilajās ierīces* sadaļā [funkciju pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="prevent-transfer-ordershipped-license-plates-from-being-used-at-warehouses-other-than-the-destination-warehouse"></a>Nepieļaut nodošanas pasūtījuma nosūtīto numura zīmju izmantošanu noliktavās, kas nav galamērķa noliktava
 
 Nevar izmantot noliktavas vienības saņemšanas procesu, ja ASN ietver noliktavas vienības ID, kas jau eksistē un kam ir fiziski rīcībā esošie dati noliktavas atrašanās vietā, kas atšķiras no noliktavas atrašanās vietas, kur notiek noliktavas vienības reģistrācija.
 
-Pārsūtīšanas pasūtījumu scenārijiem, kuros tranzīta noliktava neseko numura zīmēm (un tāpēc arī neseko līdzi katras numura zīmes fiziskajam inventāram uz vietas), varat izmantot līdzekli *Nepieļaut nodošanas pasūtījuma nosūtīto numura zīmju izmantošanu noliktavās, kas nav galamērķa noliktava*, lai novērstu to, ka fiziskas rīcībā esošas numura zīmes ir pieejamas tranzītā. Lai padarītu šo funkcionalitāti pieejamu, *jūsu sistēmai jābūt ieslēgtai līdzeklim Neļaut pārsūtītā pasūtījuma nosūtītās numura zīmes izmantot citās noliktavās*, nevis mērķa noliktavas funkcija. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja jūs palaižat versiju, kas vecāka par 10.0.25, tad administratori šo līdzekli var ieslēgt vai izslēgt, [meklējot to Līdzekļu pārvaldības darbvietā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Pārsūtīšanas pasūtījumu scenārijiem, kuros tranzīta noliktava neseko numura zīmēm (un tāpēc arī neseko līdzi katras numura zīmes fiziskajam inventāram uz vietas), varat izmantot līdzekli *Nepieļaut nodošanas pasūtījuma nosūtīto numura zīmju izmantošanu noliktavās, kas nav galamērķa noliktava*, lai novērstu to, ka fiziskas rīcībā esošas numura zīmes ir pieejamas tranzītā.
+
+Lai šo funkcionalitāti padarītu pieejamu jūsu sistēmā, ir jāieslēdz līdzeklis *Neatļaut pārsūtīšanas pasūtījuma nosūtītās noliktavas vienības izmantot citās noliktavās, kas nav mērķa noliktava* [līdzekļu pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Lai pārvaldītu funkcionalitāti, kad šī funkcija ir pieejama, veiciet šādas darbības.
 

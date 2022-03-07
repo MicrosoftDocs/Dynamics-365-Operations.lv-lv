@@ -2,26 +2,24 @@
 title: Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management
 description: Šī tēma norāda uz tēmām, kas apraksta jaunos un mainītos līdzekļus katrā Dynamics 365 Supply Chain Management laidienā.
 author: kamaybac
-manager: tfehr
 ms.date: 12/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 3350afc5f9537a0bd97b9c5257a66039b9dcb55c
-ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
+ms.openlocfilehash: 9a06c653efb2b568c268364608959ee06b476ef36e6ae3b69b2bf6571019c10c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5014562"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739878"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management
 
@@ -33,6 +31,11 @@ Lai redzētu, kas jauns vai mainīts katrā Dynamics 365 Supply Chain Management
 
 | Versija | Procesa numurs | Automātiskā atjauninājuma pieejamība | Papildinformācija |
 |---|---|---|---|
+| 10.0.21 | 10.0.960 | 2021. oktobris | [Priekšskatījums Dynamics 365 Supply Chain Management 10.0.21](whats-new-scm-10-0-21.md) |
+| 10.0.20 | 10.0.886 | 2021. gada augusts | [Jaunumi un izmaiņas programmas Dynamics 365 Supply Chain Management versijā 10.0.20](whats-new-scm-10-0-20.md) |
+| 10.0.19 | 10.0.837 | 2021. jūnijs | [Jaunumi un izmaiņas programmas Dynamics 365 Supply Chain Management versijā 10.0.19](whats-new-scm-10-0-19.md) |
+| 10.0.18 | 10.0.793 | 2021. maijs | [Jaunumi un izmaiņas programmas Dynamics 365 Supply Chain Management versijā 10.0.18](whats-new-scm-10-0-18.md) |
+| 10.0.17 | 10.0.761 | 2021. aprīlis | [Jaunumi un izmaiņas programmas Dynamics 365 Supply Chain Management versijā 10.0.17](whats-new-scm-10-0-17.md) |
 | 10.0.16 | 10.0.689 | 2021. februāris | [Jaunumi un izmaiņas programmas Dynamics 365 Supply Chain Management versijā 10.0.16](whats-new-scm-10-0-16.md) |
 | 10.0.15 | 10.0.644 | 2021. janvāris | [Jaunumi un izmaiņas programmas Dynamics 365 Supply Chain Management versijā 10.0.15](whats-new-scm-10-0-15.md) |
 | 10.0.14 | 10.0.605 | 2020. gada novembris | [Jaunumi un izmaiņas programmas Dynamics 365 Supply Chain Management versijā 10.0.14](whats-new-scm-10-0-14.md) |
@@ -67,3 +70,6 @@ Lai redzētu, kas jauns vai mainīts katrā programmas laidienā līdz 2019. gad
 | Microsoft Dynamics 365 for Operations                                 | 1611        | 7.1.1541.3036    | 2016. gada novembris    | [Jaunumi un izmaiņas programmas Dynamics 365 for Operations versijā 1611 (2016. gada novembris)](../../fin-ops-core/fin-ops/get-started/whats-new-dynamics-365-operations-1611.md)                |
 | Microsoft Dynamics AX                                                 | 7.0.1       | 7.0.1265.23014   | 2016. maijs         | [Jaunumi un izmaiņas Dynamics AX programmas versijā 7.0.1 (2016. gada maijs)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-application-version-7-0-1-may-2016.md)          |
 | Microsoft Dynamics AX                                                 | 7.0         | 7.0.1265.3015    | 2016. februāris    | [Jaunumi un izmaiņas programmā Dynamics AX 7.0 (2016. gada februāris)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-7-0-february-2016.md)                                            |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

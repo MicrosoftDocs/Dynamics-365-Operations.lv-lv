@@ -2,15 +2,12 @@
 title: Procesa atjaunināšana
 description: Microsoft Dynamics 365 Human Resources ir īsts programmatūras pakalpojums (software as a service — SaaS), kas nodrošina nepārtrauktus, bezkontakta pakalpojumu atjauninājumus lietojumprogrammu un platformu izmaiņām.
 author: andreabichsel
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,16 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d841a026f589d774ec5ada3ac9adcc84dde9aee1
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
-ms.translationtype: HT
+ms.openlocfilehash: 2af1f710ca010041bd684bca8ecfa6f20ac30d46
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527815"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063114"
 ---
 # <a name="update-process"></a>Procesa atjaunināšana
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 Microsoft Dynamics 365 Human Resources ir īsts programmatūras pakalpojums (software as a service — SaaS), kas nodrošina nepārtrauktus, bezkontakta pakalpojumu atjauninājumus. Šie atjauninājumi ietver gan programmas, gan platformas izmaiņas, kas bieži sniedz būtiskus pakalpojuma uzlabojumus, ieskaitot regulējošos atjauninājumus.
 
@@ -39,11 +38,11 @@ Atjauninājumi tiek izlaisti ar regulāru kadenci visām vidēm. Human Resources
 
 Human Resources atjauninājumi tiek automātiski piemēroti visām vidēm. Human Resources nodrošina divu veidu laidienus.
 
-- **Pakalpojuma atjauninājumi**: Atjauninājumi tiek veikti reizi divās nedēļās un ietver kļūdu labojumus un jaunus līdzekļus. Pakalpojuma atjauninājumi iekļauj arī noderīgus platformas atjauninājumus, kad tie tiek izlaisti. Lai iegūtu priekšstatu par to, kad tiek izlaisti platformas atjauninājumi, skatiet [3. tabula: platformas laidieni](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy#table-3-platform-releases). Atjauninājumiem, kas tiek veikti reizi divās nedēļās, ir pakāpeniska globāla izlaišana reģionos. Papildinformāciju par atjauninājumiem reizi divās nedēļās skatiet [Jaunumi un izmaiņas Dynamics 365 Human Resources](hr-admin-whats-new.md).
+- **Pakalpojuma atjauninājumi**: Atjauninājumi tiek veikti reizi divās nedēļās un ietver kļūdu labojumus un jaunus līdzekļus. Pakalpojuma atjauninājumi iekļauj arī noderīgus platformas atjauninājumus, kad tie tiek izlaisti. Lai iegūtu priekšstatu par to, kad tiek izlaisti platformas atjauninājumi, skatiet [3. tabula: platformas laidieni](../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md#table-3-platform-releases). Atjauninājumiem, kas tiek veikti reizi divās nedēļās, ir pakāpeniska globāla izlaišana reģionos. Papildinformāciju par atjauninājumiem reizi divās nedēļās skatiet [Jaunumi un izmaiņas Dynamics 365 Human Resources](hr-admin-whats-new.md).
 
     Visi atbalstītie datu centri tiek atjaunināti ik pēc divām nedēļām, ja vien nav norādīts citādi. Atjauninājumos, kas notiek reizi divās nedēļās, ir ietverti ASV, Austrālijas, Eiropas, Apvienotās Karalistes, Āzijas un Kanādas reģioni. 
 
-- **Common Data Service risinājuma atjauninājumi**: šie atjauninājumi pēc nepieciešamības parādās aptuveni ik pēc sešām nedēļām. Tie ietver jaunus elementus un izmaiņas esošajos elementos Common Data Service. Šie atjauninājumi tiek izlaisti tiem pašiem reģioniem kā atjauninājumi reizi divās nedēļās, un paiet aptuveni sešas nedēļas līdz tie tiek kopēti visos datu centros. Risinājumu atjauninājumi var būt vai var nebūt saskaņoti ar pakalpojumu atjauninājumiem reizi divās nedēļās.
+- **Dataverse risinājuma atjauninājumi**: šie atjauninājumi pēc nepieciešamības parādās aptuveni ik pēc sešām nedēļām. Tie ietver jaunus elementus un izmaiņas esošajos elementos Dataverse. Šie atjauninājumi tiek izlaisti tiem pašiem reģioniem kā atjauninājumi reizi divās nedēļās, un paiet aptuveni sešas nedēļas līdz tie tiek kopēti visos datu centros. Risinājumu atjauninājumi var būt vai var nebūt saskaņoti ar pakalpojumu atjauninājumiem reizi divās nedēļās.
 
 > [!NOTE]
 > Kad tie tiek izlaisti, risinājuma atjauninājumi ir pieejami visiem datu centriem. Ja nevēlaties gaidīt, kamēr atjauninājumi tiek kopēti automātiski, varat lietot šos atjauninājumus manuāli jebkurā vidē jebkurā datu centrā.
@@ -56,14 +55,14 @@ Ja nepieciešams, Human Resources nodrošina arī tālāk minētos labojumu veid
 
 Laidieni tiek pārbaudīti, testēti un apstiprināti iekšējā vidē. Pēc izveidotā ir izrakstīšanas, tas tiek izvietots ražošanā.
 
-## <a name="release-cadence-exceptions-in-2020"></a>Laidienu ritma izņēmumi 2020. gadā
+## <a name="release-cadence-exceptions-in-2021"></a>Laidienu ritma izņēmumi 2021. gadā
 
-Lai uzskaitītu brīvdienas, 2020. gada novembra un decembra izlaišanas grafiks ir šāds:
+Lai uzskaitītu brīvdienas, 2021. gada novembra un decembra izlaišanas grafiks ir šāds:
 
-- Novembra izlaidums: 2. novembris - 13. novembris
-- Decembra izlaidums: 30. novembris - 11. decembris
+- Novembra izlaidums: 1. novembris - 14. novembris
+- Decembra izlaidums: 29. novembris - 12. decembris
  
-Divu nedēļu izlaidumu kadence tiks atsākta kā parasti 2021. gada 11. janvārī.
+Divu nedēļu izlaidumu kadence tiks atsākta kā parasti 2022. gada 10. janvārī.
 
 ## <a name="communications"></a>Komunikācija
 
@@ -71,11 +70,11 @@ Tālāk minētajās vietās varat uzzināt, kas ietverts Human Resources darbīb
 
 - [Dynamics 365 Human Resources rīcības plāns](https://dynamics.microsoft.com/roadmap/human-resources/)
 
-- [Dynamics 365 laidiena plāni](https://docs.microsoft.com/dynamics365/release-plans/)
+- [Dynamics 365 laidiena plāni](/dynamics365/release-plans/)
 
 - [Jaunumi un izmaiņas Dynamics 365 Human Resources](hr-admin-whats-new.md)
 
-- [Problēmu meklēšana Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/issue-search-lcs) (tikai ar platformu saistītām kļūdām)
+- [Problēmu meklēšana Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/issue-search-lcs.md) (tikai ar platformu saistītām kļūdām)
 
 - [Human Resources emuārs](https://community.dynamics.com/365/talent/b/dynamics365fortalent)
 
@@ -83,7 +82,7 @@ Tālāk minētajās vietās varat uzzināt, kas ietverts Human Resources darbīb
 
 ## <a name="preview-features-in-a-sandbox-environment"></a>Priekšskatījuma līdzekļi smilškastes vidē
 
-Varat validēt priekšskatījuma līdzekļus smilškastes vidē pirms iespējot tos savā ražošanas vidē. Papildinformāciju par jaunu līdzekļu iespējošanu skatiet [Pārskats par līdzekļu pārvaldību](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+Varat validēt priekšskatījuma līdzekļus smilškastes vidē pirms iespējot tos savā ražošanas vidē. Papildinformāciju par jaunu līdzekļu iespējošanu skatiet [Pārskats par līdzekļu pārvaldību](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Visi jaunie līdzekļi paliek priekšskatījumā vismaz 30 dienas, un parasti 30-60 dienas. Galvenās funkcijas parasti ir pieejamas katra gada oktobrī un aprīlī pēc priekšskatījuma perioda. Tiklīdz jūs redzat jaunas iespējas Līdzekļu pārvaldības darbvietā, varat tās ieslēgt. Daži līdzekļi var būt ieslēgti pēc noklusējuma.
 
@@ -101,7 +100,10 @@ Testējot priekšskatījuma līdzekļus vai izmēģinot jaunas iespējas, iespē
 
 ## <a name="see-also"></a>Skatiet arī
 
-[Dynamics 365 un Power Platform laidiena plāni](https://docs.microsoft.com/dynamics365/release-plans)</br>
+[Dynamics 365 un Power Platform laidiena plāni](/dynamics365/release-plans)</br>
 [Jaunumi un izmaiņas Dynamics 365 Human Resources](hr-admin-whats-new.md)</br>
-[Programmatūras dzīves cikla politika](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
+[Programmatūras dzīves cikla politika](../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

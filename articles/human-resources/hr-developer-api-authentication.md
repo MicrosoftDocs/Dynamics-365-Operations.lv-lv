@@ -2,15 +2,12 @@
 title: Autentifikācija
 description: Šajā rakstā ir sniegta informācija par to, kā autentificēties Microsoft Dynamics 365 Human Resources datu programmu programmēšanas interfeisā (API).
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,19 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a0509ce99205d49d516e180203ffb65a1dc09a7c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 3396f0ae6d089f43c39f318dc9d92a88a7db3d7c
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419478"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070882"
 ---
 # <a name="authentication"></a>Autentifikācija
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Šajā rakstā ir sniegta informācija par to, kā autentificēties Microsoft Dynamics 365 Human Resources datu programmu programmēšanas interfeisā (API).
 
@@ -64,7 +66,7 @@ GET https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/Jo
 
 2. Ja jūsu konts sniedz piekļuvi vairāk nekā vienam nomniekam, izvēlieties savu kontu augšējā labajā stūrī un iestatiet savu portāla sesiju uz Azure Active Directory (Azure AD) nomnieku, kuru vēlaties izmantot.
 
-3. Kreisajā rūtī atlasiet **Azure Active Directory** pakalpojumu un pēc tam atlasiet **Pieteikumu reģistrācijas \>Jauna reģistrācija**.
+3. Kreisajā rūtī atlasiet **Azure Active Directory** pakalpojumu un pēc tam atlasiet **Pieteikumu reģistrācijas \> Jauna reģistrācija**.
 
 4. Kad parādās lapa **Reģistrēt pieteikumu**, ievadiet savu pieteikuma reģistrācijas informāciju:
 
@@ -79,16 +81,16 @@ GET https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/Jo
 
     - **Novirzīt URI (nav obligāti)** — atlasiet veidojamās programmas tipu: **Tīmekļa** vai **Publiskais klients (mobilā un datora)**. Pēc tam ievadiet programmas novirzīšanas URI (vai atbildes vietrādi URL).
 
-        - Tīmekļa lietotnēm norādiet programmas bāzes vietrādi URL. Piemēram, `http://localhost:31544`var būt tīmekļa programmas vietrādis URL, kas tiek palaists lokālajā datorā. Pēc tam lietotāji izmanto šo vietrādi URL, lai pieteiktos tīmekļa klienta programmā.
-        - Publiskajām klientu lietotnēm norādiet URI, kuras Azure AD izmanto, lai atgrieztu marķiera atbildes. Ievadiet vērtību, kas ir konkrēta jūsu programmai, piemēram,`myapp://auth`.
+        - Tīmekļa lietotnēm norādiet programmas bāzes vietrādi URL. Piemēram, `http://localhost:31544` var būt tīmekļa programmas vietrādis URL, kas tiek palaists lokālajā datorā. Pēc tam lietotāji izmanto šo vietrādi URL, lai pieteiktos tīmekļa klienta programmā.
+        - Publiskajām klientu lietotnēm norādiet URI, kuras Azure AD izmanto, lai atgrieztu marķiera atbildes. Ievadiet vērtību, kas ir konkrēta jūsu programmai, piemēram, `myapp://auth`.
 
-        Lai skatītu konkrētus piemērus tīmekļa programmām vai vietējām programmām, iesākumam skatiet [Microsoft identitātes platforma (iepriekš Azure Active Directory izstrādātājiem)](https://docs.microsoft.com/azure/active-directory/develop/#quickstarts).
+        Lai skatītu konkrētus piemērus tīmekļa programmām vai vietējām programmām, iesākumam skatiet [Microsoft identitātes platforma (iepriekš Azure Active Directory izstrādātājiem)](/azure/active-directory/develop/#quickstarts).
 
 5. Sadaļā **API atļaujas** atlasiet **Pievienot atļauju**. Pēc tam cilnē **API, kurus izmanto mana organizācija** meklējiet **Dynamics 365 Human Resources** un pievienojiet **user\_impersonation** atļauju savai programmai. Personāla vadības pieteikuma ID ir f9be0c49-aa22-4ec6-911a-c5da515226ff. Lietojiet šo ID, lai nodrošinātu, ka esat izvēlējies pareizo pieteikumu.
 
 6. Atlasiet **Reģistrēt**.
 
-   [![Jaunas programmas reģistrēšana Azure portālā](media/api-new-app-registration-expanded.png)](media/api-new-app-registration-expanded.png#lightbox)
+   [![Jaunas programmas reģistrēšana Azure portālā.](media/api-new-app-registration-expanded.png)](media/api-new-app-registration-expanded.png#lightbox)
 
 Azure AD piešķir jūsu programmai unikālu pieteikuma ID (klienta ID) un aizved jūs uz jūsu programmas **Pārskata** lapu. Lai savai programmai pievienotu vairāk iespēju, varat izvēlēties citas konfigurācijas opcijas, piemēram, opcijas zīmolradei un sertifikātiem un slepenajām vērtībām.
 
@@ -185,3 +187,6 @@ namespace TalentODataPoC
 ```
 
 Kad esat izguvis piekļuves tiesības, marķieris tiks nodots autorizācijas galvenē kā datu nesēja marķieris ar katru pieprasījumu, ko nosūtāt datu API, kā aprakstīts iepriekš.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

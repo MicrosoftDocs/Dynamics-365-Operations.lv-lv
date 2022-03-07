@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3f21b323ddbf653bf8ca8dd1f879a6bdbddcdefc
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1c2c13cd3f165826e0d5b5ac901ffa61895301e7
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681260"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569205"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Atbalsta Aprēķināto lauka tipa ER datu avotu parametru izsaukumus.
 
@@ -342,3 +341,6 @@ Jūs varat importēt pārskatītās konfigurācijas no RCS, izmantojot **RCS** t
 - [Formulas veidotājs elektronisko pārskatu veidošanā (ER)](general-electronic-reporting-formula-designer.md)
 - [Uzlabot ER risinājumu veiktspēju, pievienojot parameterizētus APRĒĶINĀTO LAUKU datu avotus](er-calculated-field-ds-performance.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

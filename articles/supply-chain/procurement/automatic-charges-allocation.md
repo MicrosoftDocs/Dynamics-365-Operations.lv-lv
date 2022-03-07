@@ -1,23 +1,23 @@
 ---
 title: Automātisks maksu sadalījums
 description: Maksu līdzeklis programmā Microsoft Dynamics 365 Supply Chain Management palīdz automātiski piešķirt maksas pirkšanas pasūtījumiem vai pārdošanas pasūtījumiem.
-author: Henrikan
-ms.date: 09/30/2021
+author: dasani-madipalli
+ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: damadipa
 ms.search.validFrom: 2020-10-01
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 6032539e57961998e7130e9cb6578248aaa2843e
-ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: 04e17947073fca63ab68f0b5d0d72eb8366a1600117f61851179e8b0ed2c8184
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7592544"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753943"
 ---
 # <a name="automatic-allocation-of-charges"></a>Automātisks maksu sadalījums
 
@@ -26,16 +26,6 @@ ms.locfileid: "7592544"
 Balstoties uz debitoru, ar kuru strādājat, vai krājumu, kuru pārdodat, iespējams, vēlēsities piemērot noteiktas papildu maksas. Līdzeklis *maksas* programmā Microsoft Dynamics 365 Supply Chain Management palīdz automātiski piešķirt maksas pirkšanas pasūtījumiem vai pārdošanas pasūtījumiem.
 
 Automātiskās maksas vai auto maksas tiek piemērotas automātiski, veidojot pārdošanas pasūtījumu vai pirkšanas pasūtījumu. Automātiskās maksas var definēt noteiktiem kreditoriem, debitoriem vai krājumiem. Varat arī definēt automātiskās maksas, kas attiecas uz visiem kreditoriem, debitoriem vai krājumiem.
-
-## <a name="set-up-parameters"></a>Iestatīt parametrus
-
-**Sagādes un avotu parametru** lapai ir daži iestatījumi, kas ir īpaši svarīgi, kad izmantojat Kopīgo izmaksu moduli. Lai pabeigtu šos iestatījumu, rīkojieties, kā norādīts tālāk.
-
-1. Dodieties uz **Sagāde un avoti \> Iestatīšana \> Sagādes un avotu parametri**.
-1. Atveriet cilni **Cenas**.
-1. Kopsavilkuma cilnē **Cenas** veiciet šādus iestatījumus:
-    - **Atrast automātiskās izmaksas galvenei** - norāda, vai izmaksas automātiski ir jāpiešķir pirkšanas pasūtījuma galvenēm. Iestatiet šo kā *Jā*, lai izmantotu automātisko maksu sadalījumu.
-    - **Atrast automātiskās izmaksas rindai** - norāda, vai izmaksas automātiski ir jāpiešķir pirkšanas pasūtījuma galvenēm. Iestatiet šo kā *Jā*, lai izmantotu automātisko maksu sadalījumu.
 
 ## <a name="set-up-charges-codes"></a>Maksu kodu iestatīšana
 

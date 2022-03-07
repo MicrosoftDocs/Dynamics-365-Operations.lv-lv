@@ -1,12 +1,10 @@
 ---
 title: Līdzekļu defektu analīze
 description: Šajā tēmā ir paskaidrota līdzekļu kļūmju analīze programmā Asset Management.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectFaultCalculate
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 674e10b94711b00e526af4af0e0c0afddd05e62c
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 880ed35a9780185836218a5c2a7addb2a47eabd737d6bec99794ecb7a0959791
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022385"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779282"
 ---
 # <a name="asset-fault-analysis"></a>Līdzekļu defektu analīze
 
@@ -62,7 +60,7 @@ Attēluzņēmumā šeit tālāk ir atlasīta tikai poga **Simptoms**.
 - Kļūmes var reģistrēt trim kļūmju simptomiem: „Gaisa sūce”, „Izsists drošinātājs”, „Iekārta aizsprostojusies”.  
 - Slejā **Iespējamība %** visas procentu vērtības kopā sasniedz 100 %. Iespējamība balstīta uz visu **Simptomu** reģistrācijām šai kļūmju analīzei.
 
-![1. attēls](media/06-controlling-and-reporting.png)
+![1. attēls.](media/06-controlling-and-reporting.png)
 
 ### <a name="group-by-symptoms-and-time-period"></a>Grupēt pēc simptomiem un laika perioda
 
@@ -71,7 +69,7 @@ Attēluzņēmumā šeit tālāk ir atlasīta tikai poga **Simptoms**.
 - Kļūmju simptomus tagad rāda kā reģistrācijas gadā/mēnesī.  
 - Slejā **Iespējamība %**, ja pievienojat visas procentu vērtības katram mēnesim, kopā tās sasniedz 100 %. Iespējamība balstīta uz **Simptomu** reģistrācijām šai kļūmju analīzei. Ja jums ir daudz rindu līdzeklim, bet rindai izceļas liels procentu skaits, tā ir norāde, ka ir kļūmes simptoms, kas jāizpēta sīkāk, lai ierobežotu reģistrāciju skaitu šim kļūmes simptomam.
 
-![2. attēls](media/07-controlling-and-reporting.png)
+![2. attēls.](media/07-controlling-and-reporting.png)
 
 ### <a name="group-by-multiple-symptoms-and-assets"></a>Grupēt pēc vairākiem simptomiem un līdzekļiem
 
@@ -86,7 +84,7 @@ Vispārīgi pogas Darbību rūts grupās **Grupēt pēc datuma**, **Grupēt pēc
 - Kļūmju simptomi tagad ir sadalīti kombinācijās **Līdzekļi** / **Līdzekļu veids** / **Simptoms**.  
 - Slejā **Iespējamība %**, ja pievienojat visas procentu vērtības kombinācijai **Līdzeklis** / **Līdzekļa veids** / **Simptoms**, kopā tā sasniedz 100 %. Iespējamība balstīta uz **Simptomu** reģistrācijām šai kļūmju analīzei. Ja jums ir daudz rindu līdzeklim, bet rindai izceļas liels procentu skaits, tā ir norāde, ka ir kļūmes simptoms, kas jāizpēta sīkāk, lai ierobežotu reģistrāciju skaitu šim kļūmes simptomam.
 
-![3. attēls](media/08-controlling-and-reporting.png)
+![3. attēls.](media/08-controlling-and-reporting.png)
 
 **Grupēt pēc diviem simptomiem, līdzekļa un līdzekļa veida**
 
@@ -94,7 +92,7 @@ Vispārīgi pogas Darbību rūts grupās **Grupēt pēc datuma**, **Grupēt pēc
 
 - Slejā **Iespējamība %**, ja pievienojat līdzeklim visas procentu vērtības kombinācijai **Līdzeklis** / **Līdzekļa veids** / **Simptoms**, kopā tā sasniedz 100 %. Iespējamība balstīta uz kombināciju **Simptoms** un **Joma** šai kļūmju analīzei. Ja jums ir daudz rindu līdzeklim, bet rindai izceļas liels procentu skaits, tā ir norāde, ka ir kļūmes joma, kas jāizpēta sīkāk, lai ierobežotu reģistrāciju skaitu šai kļūmes jomai.  
 
-![4. attēls](media/09-controlling-and-reporting.png)
+![4. attēls.](media/09-controlling-and-reporting.png)
 
 **Grupēt pēc trim simptomiem, līdzekļa un līdzekļa veida**
 
@@ -102,9 +100,12 @@ Vispārīgi pogas Darbību rūts grupās **Grupēt pēc datuma**, **Grupēt pēc
  
 - Slejā **Iespējamība %**, ja pievienojat līdzeklim visas procentu vērtības kombinācijai **Līdzeklis** / **Līdzekļa veids** / **Simptoms**, kopā tā sasniedz 100 %. Iespējamība balstīta uz kombināciju **Simptoms** un **Joma**, un **Veids** šai kļūmju analīzei. Ja jums ir daudz rindu līdzeklim, bet rindai izceļas liels procentu skaits, tā ir norāde, ka ir kļūmes veids, kas jāizpēta sīkāk, lai ierobežotu reģistrāciju skaitu šim kļūmes veidam.
 
-![5. attēls](media/10-controlling-and-reporting.png)
+![5. attēls.](media/10-controlling-and-reporting.png)
 
 
 >[!NOTE]
 >Lai pārskatītu visas kļūmju reģistrācijas, kas izveidotas darbu pasūtījumiem un uzturēšanas pieprasījumiem, klikšķiniet uz **Līdzekļu pārvaldība** > **Pieprasījumi** > **Līdzekļu kļūme** > **Līdzekļu kļūmes**. Lapā **Līdzekļu kļūmes** atlasiet līdzekļu kļūmes reģistrāciju un izvērsiet rūti **Saistītā informācija**, lai redzētu informāciju par saistīto darba pasūtījumu vai uzturēšanas pieprasījumu
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

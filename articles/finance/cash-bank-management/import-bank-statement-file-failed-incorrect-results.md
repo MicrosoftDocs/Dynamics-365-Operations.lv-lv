@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc5b9cf3449b48767a27891a019f8fe8df2a900559898e3cb1849d25bec7c987
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f0e01881a6b68526479d27014d49a718069cffc9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757125"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815888"
 ---
 # <a name="bank-statement-file-import-troubleshooting"></a>Bankas izraksta faila importēšanas problēmu novēršana
 
@@ -28,7 +28,8 @@ ms.locfileid: "6757125"
 
 Ir svarīgi, lai no bankas saņemtais bankas izrakstu fails atbilstu programmā Microsoft Dynamics 365 Finance atbalstītajam izkārtojumam. Stingro bankas izrakstu standartu dēļ lielākā daļa integrāciju darbosies pareizi. Tomēr dažreiz izraksta failu nevar importēt vai ir nepareizi rezultāti. Parasti šīs problēmas izraisa nelielas atšķirības bankas izraksta failā. Šajā rakstā ir paskaidrots, kā novērst šīs atšķirības un atrisināt problēmas.
 
-## <a name="what-is-the-error"></a>Kāda kļūda radusies?
+<a name="what-is-the-error"></a>Kāda kļūda radusies?
+------------------
 
 Pēc bankas pārskata faila importēšanas mēģinājuma atveriet sadaļu Datu pārvaldības uzdevumu vēsture un tās detalizēto izpildes informāciju, lai atrastu kļūdu. Kļūda var palīdzēt, norādot uz izrakstu, bilanci vai izraksta rindu. Tomēr ir maz ticams, ka tā nodrošinās pietiekami daudz informācijas, lai palīdzētu noteikt lauku vai elementu, kas radīja problēmu.
 

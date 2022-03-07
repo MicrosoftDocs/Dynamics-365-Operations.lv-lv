@@ -1,30 +1,32 @@
 ---
 title: Problēmu novēršanas analītiskie pārskati
-description: Šajā rakstā paskaidrots, kā rīkoties, ja debitora datu izmaiņas neparādās nevienā no debitora darbvietām.
-author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+description: Šajā tēmā paskaidrots, kā rīkoties, ja debitora datu izmaiņas neparādās nevienā no debitora darbvietām.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 99d9eb3a16e6470820a2eb0a19c1d50e89bd3d36
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 6ea04c06858cc98b0e233b9133d9dfbebfe59fd6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419577"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067733"
 ---
 # <a name="troubleshoot-analytic-reports"></a>Problēmu novēršanas analītiskie pārskati
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **Izejas plūsma**
 
@@ -32,7 +34,7 @@ Debitora datu izmaiņas neparādās nevienas debitora darbvietas cilnē **Analī
 
 **Iemesls**
 
-Pēc noklusējuma Microsoft Power BI pārskati tiek atsvaidzināti ik pēc četrām stundām saskaņā ar pakešuzdevuma Izvietot mērījumu grafiku.
+Pēc noklusējuma Microsoft Microsoft Power BI pārskati tiek atsvaidzināti ik pēc četrām stundām saskaņā ar pakešuzdevuma Izvietot mērījumu grafiku.
 
 **Izšķirtspēja**
 
@@ -42,4 +44,7 @@ Pēc noklusējuma Microsoft Power BI pārskati tiek atsvaidzināti ik pēc četr
 1. Atrodiet sarakstā darbu **Izvietot mērījumu**.
 1. Atlasiet **Rediģēt** lapas augšpusē un iestatiet plānotajam sākuma datumam/laikam vērtību, kas atsvaidzinās analīzi tuvāk pašreizējam laikam.
 
-![Pakešuzdevumi](media/batch-jobs.png)
+![Pakešuzdevumi.](media/batch-jobs.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
