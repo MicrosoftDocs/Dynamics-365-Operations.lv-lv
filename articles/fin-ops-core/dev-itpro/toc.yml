@@ -2,22 +2,26 @@
   items:
     - name: Finance and Operations programmu izstrāde un administrēšana
       items:
-        - name: Finance and Operations programmas dokumentācija
+        - name: "Finance and\_Operations programmu dokumentācija"
           href: ../fin-ops/index.md
         - name: Finance and Operations programmu izstrāde un administrēšana
           href: index.md
         - name: Jaunumi un izmaiņas
           items:
-            - name: Jaunumi un izmaiņas Finance and Operations programmās
+            - name: Jaunumi un izmaiņas programmā Finance and Operations
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: Jaunumi un izmaiņas Platform atjauninājumos
+            - name: Jaunumi un izmaiņas platformas atjauninājumos
               items:
-                - name: Jaunumi un izmaiņas Platform atjauninājumu sākumlapā
+                - name: Jaunumi un izmaiņas platformas atjauninājumu sākumlapā
                   href: get-started/whats-new-home-page.md
-                - name: "Platform atjauninājumi versijai\_10.0.20 (2021.\_gada augusts)"
-                  href: get-started/whats-new-platform-updates-10-0-20.md
-                - name: "Platform atjauninājumi versijai\_10.0.19 (2021.\_gada jūnijs)"
-                  href: get-started/whats-new-platform-updates-10-0-19.md
+                - name: "Platform atjauninājumi versijai\_10.0.26 (2022.\_gada maijs)"
+                  href: get-started/whats-new-platform-updates-10-0-26.md
+                - name: "Platformas atjauninājumi versijai\_10.0.25 (2022.\_gada aprīlis)"
+                  href: get-started/whats-new-platform-updates-10-0-25.md
+                - name: "Platformas atjauninājumi versijai\_10.0.24 (2022.\_gada februāris)"
+                  href: get-started/whats-new-platform-updates-10-0-24.md
+                - name: "Platformas atjauninājumi versijai\_10.0.23 (2022.\_gada janvāris)"
+                  href: get-started/whats-new-platform-updates-10-0-23.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
                 - name: Noņemtie vai novecojušie līdzekļi sākumlapā
@@ -30,42 +34,6 @@
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Galvenā atbalsta beigas versijai Microsoft Dynamics AX 2009 un 2012
               href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-        - name: Biznesa notikumi
-          items:
-            - name: Biznesa notikumu pārskats
-              href: business-events/home-page.md
-            - name: Programmas biznesa notikumi
-              href: business-events/app-business-events.md
-            - name: Darbplūsmas biznesa notikumi
-              href: business-events/business-events-workflow.md
-            - name: Partijas biznesa notikumi
-              href: business-events/system-business-events.md
-            - name: Brīdinājumi kā biznesa notikumi
-              href: business-events/alerts-business-events.md
-            - name: Biznesa notikumi programmā Microsoft Flow
-              href: business-events/business-events-flow.md
-            - name: Biznesa notikumu izstrādātāja dokumentācija
-              href: business-events/business-events-dev-doc.md
-            - name: Biznesa notikumu problēmu novēršana
-              href: business-events/troubleshooting.md
-            - name: Gadījumu lietošana biznesa notikumiem
-              href: business-events/potential-use-cases.md
-            - name: Apmācība
-              items:
-                - name: Biznesa notikumi un Microsoft Flow
-                  href: business-events/how-to/how-to-flow.md
-                - name: Biznesa notikumi un Azure Event Grid
-                  href: business-events/how-to/how-to-eventgrid.md
-                - name: Biznesa notikumi un Azure Service Bus
-                  href: business-events/how-to/how-to-servicebus.md
-                - name: Biznesa notikumi un darbplūsmu apstiprinājumi
-                  href: business-events/how-to/how-to-workflow.md
-                - name: Biznesa notikumi un Microsoft Forms Pro
-                  href: business-events/how-to/FormsPro.md
-                - name: Biznesa notikumi un Azure Event Hubs
-                  href: business-events/how-to/event-hub.md
-                - name: Biznesa notikumi finanšu perioda slēgšanā
-                  href: business-events/how-to/period-close.md
         - name: Pastāvīga piegāde
           items:
             - name: Pastāvīgas piegādes mājas lapa
@@ -132,7 +100,7 @@
                           href: ../../supply-chain/sales-marketing/prospect-to-cash.md
                         - name: Programmā Sales esošo kontu tieša sinhronizēšana ar debitoriem programmā Finance and Operations
                           href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                        - name: Preču sinhronizēšana tieši no Finance and Operations ar precēm risinājumā Sales
+                        - name: Programmā Finance and Operations ietverto preču tieša sinhronizēšana ar precēm programmā Sales
                           href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
                         - name: Programmā Sales ietverto kontaktpersonu tieša sinhronizēšana ar kontaktpersonām vai debitoriem programmā Finance and Operations
                           href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
@@ -140,7 +108,7 @@
                           href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
                         - name: Pārdošanas pasūtījumu tieša sinhronizēšana no programmas Finance and Operations uz programmu Sales un otrādi
                           href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                        - name: Programmā Finance and Operations ietverto pārdošanas rēķinu galveņu un rindu tieša sinhronizēšana uz programmu Sales
+                        - name: Programmā Finance and Operations ietverto pārdošanas rēķinu galveņu un rindu tieša sinhronizēšana ar programmu Sales
                           href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
                     - name: Integrācijas konfigurēšana ar Field Service
                       items:
@@ -162,7 +130,7 @@
                           href: ../../supply-chain/sales-marketing/synchronize-project-list.md
                         - name: Programmā Finance and Operations ietverto noliktavu sinhronizēšana ar programmu Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
-                        - name: Programmā Finance and Operations ietverto darba pasūtījumu sinhronizēšana ar projektu no programmas Field Service
+                        - name: Programmā Field Service ietverto darba pasūtījumu sinhronizēšana ar projektu programmā Finance and Operations
                           href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
                     - name: Project Service Automation integrācijas konfigurēšana
                       items:
@@ -266,11 +234,11 @@
               href: data-entities/dm-error-descriptions.md
         - name: Azure Data Lake
           items:
-            - name: Azure Data Lake pārskats
-              href: data-entities/azure-data-lake-overview.md
-            - name: Konfigurēt eksportēšanu uz Azure Data Lake
+            - name: Eksportēšanas uz Azure Data Lake pārskats
+              href: data-entities/Azure-Data-Lake-GA-version-overview.md
+            - name: Eksportēšanas uz Azure Data Lake pievienojumprogrammas instalēšana
               href: data-entities/configure-export-data-lake.md
-            - name: Finance and Operations programmas pakalpojumā Azure Data Lake
+            - name: Finance and Operations programmas risinājumā Azure Data Lake
               href: data-entities/finance-data-azure-data-lake.md
             - name: Elementu krātuves pārvēršana par Data Lake
               href: data-entities/entity-store-data-lake.md
@@ -330,8 +298,6 @@
                       href: database/api/v1/reference-create-export.md
                     - name: Operācijas aktivitātes statusa iegūšana
                       href: database/api/v1/reference-get-status.md
-                    - name: Vides sākšana un apturēšana
-                      href: database/api/v1/reference-start-stop-environments.md
         - name: Demonstrācijas dati
           items:
             - name: Demonstrācijas datu pārskats
@@ -366,8 +332,10 @@
                       href: deployment/plannedmaintenance-selfservice.md
                     - name: Uzņēmējdarbības nepārtrauktība un ārkārtas atkopšana
                       href: sysadmin/business-continuity-disaster-recovery.md
-                - name: Azure Resource Manager pievienošanas pabeigšana
+                - name: Azure Resource Manager pievienošanas procesa pabeigšana
                   href: deployment/arm-onboarding.md
+                - name: Azure Resource Manager darbu izpildīšanas process ASV valdības LCS projektiem
+                  href: deployment/arm-onbarding-us-goverment.md
                 - name: Azure ExpressRoute un Finance and Operations
                   href: deployment/expressroute.md
                 - name: Finance and Operations arhitektūra
@@ -394,11 +362,11 @@
                       href: deployment/on-premises-overview.md
                     - name: Plānošana un sagatavošanās lokāliem izvietojumiem
                       href: deployment/plan-onprem-deployment.md
-                    - name: "Microsoft Dynamics 365 Finance\_+ Operations (on-premises) atbalstītā programmatūra"
+                    - name: Microsoft Dynamics 365 Finance + Operations (on-premises) atbalstītā programmatūra
                       href: deployment/onprem-compatibility.md
                     - name: Aparatūras izmēru prasības
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
-                    - name: "Autentifikācija programmā Dynamics 365 Finance\_+\_Operations (on-premises)"
+                    - name: Autentifikācija risinājumā Dynamics 365 Finance + Operations (on-premises)
                       href: deployment/authentication-onprem.md
                 - name: Lokālas vides iestatīšana un izvietošana
                   items:
@@ -406,7 +374,7 @@
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
                     - name: "Lokālas vides iestatīšana un izvietošana (41.\_Platform atjauninājums un jaunākas versijas)"
                       href: deployment/setup-deploy-on-premises-pu41.md
-                    - name: "Lokālas vides iestatīšana un izvietošana (12.–40.\_Platform atjauninājums)"
+                    - name: "Lokālas vides iestatīšana un izvietošana (12.–40.\_platformas atjauninājums)"
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: Retail kanāla komponentu instalēšanas darbības lokālā vidē
                       href: deployment/deploy-retail-onprem.md
@@ -440,12 +408,16 @@
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: Vienas un tās pašas AD FS instances atkārtota izmantošana vairākās vidēs
                       href: deployment/onprem-reuseadfs.md
+                    - name: Microsoft Dynamics 365 Finance + Operations (on-premises) vides SQL Server instances jaunināšana
+                      href: deployment/onprem-upgrade-sqlserver.md
                 - name: Vietējais aģents
                   items:
-                    - name: "AD FS Microsoft\_365 saderība"
+                    - name: AD FS Microsoft 365 saderība
                       href: deployment/onprem-adfscompatibility.md
                     - name: Vietējā aģenta pirmsizvietošanas un pēcizvietošanas skripti
                       href: lifecycle-services/pre-post-scripts.md
+                    - name: Lokālā aģenta izvietošanas konfigurācijas
+                      href: deployment/onprem-localagent-options.md
                     - name: Lokālā aģenta atjaunināšana
                       href: lifecycle-services/update-local-agent.md
                 - name: Problēmu novēršana
@@ -462,6 +434,8 @@
                   href: deployment/install-deployable-package.md
                 - name: Pakotnes atinstalēšana
                   href: deployment/uninstall-deployable-package.md
+                - name: Pielāgotu X++ skriptu palaišana ar nulles dīkstāves laiku
+                  href: deployment/run-custom-scripts.md
                 - name: Pakotnes lietojuma problēmu novēršana
                   href: deployment/deployable-package-troubleshooting.md
             - name: Pielāgotās palīdzības izvietošana
@@ -490,6 +464,16 @@
                   href: help/language-locale.md
                 - name: Sadarbība pie palīdzības satura paplašināšanas un pielāgošanas
                   href: help/contributor-guide.md
+            - name: Izvietošanas apsvērumi
+              items:
+                - name: Suverēnas un lokālās mākoņa izvietošanas opcijas Dynamics 365 Finance un Dynamics 365 Supply Chain Management
+                  href: deployment/deployment-options-geo.md
+                - name: Finance un Supply Chain Management ASV Government Community Cloud (GCC)
+                  href: deployment/us-gcc-deployment.md
+                - name: Finance un Supply Chain Management darbību nodrošina 21Vianet Ķīnā
+                  href: deployment/china-local-deployment.md
+                - name: Finance and Operations programmas Francijā
+                  href: deployment/france-local-deployment.md
         - name: Izstrāde un pielāgošana
           items:
             - name: Izstrādes un pielāgošanas sākumlapa
@@ -532,6 +516,8 @@
                   href: dev-tools/pipeline-deploy-asset.md
                 - name: Lifecycle Services (LCS) savienojuma izveide pakalpojumā Azure Pipelines
                   href: dev-tools/pipeline-lcs-connection.md
+                - name: LCS savienojuma autentifikācijas uzdevumu atjaunināšana uz Azure Pipelines MSAL
+                  href: dev-tools/pipeline-lcs-connection-update.md
                 - name: Viesotā Azure Pipeline atjaunināšana jaunām NuGet pakotnēm
                   href: dev-tools/pipeline-nuget-split.md
                 - name: Mantotā konveijera atjaunināšana pakalpojumā Azure Pipelines
@@ -586,24 +572,24 @@
                   href: dev-tools/update-development-tools.md
             - name: X++ programmēšanas valoda
               items:
-                - name: X++ un atkļūdošanas līdzekļi
-                  href: dev-tools/new-x-debugger-features.md
-                - name: "Visual Studio\_2017 prasības valodai X++"
-                  href: dev-tools/developer-tools-vs2017.md
-                - name: X++ koda atkļūdošana
-                  href: dev-tools/debug-xpp.md
-                - name: EventHandlerResult klases pieprasījuma vai atbildes scenārijos
-                  href: dev-tools/event-handler-result-class.md
-                - name: 'Biznesa loģikas rakstīšana, izmantojot C# un X++ pirmkodu'
-                  href: dev-tools/write-business-logic.md
-                - name: X++ un X++ kompilatora izmaiņas
-                  href: dev-tools/programming-language-support.md
-                - name: "LINQ sniedzējs\_C# videi"
-                  href: dev-tools/linq-provider-c.md
-                - name: Labākās prakses kārtulu rakstīšana
-                  href: dev-tools/author-best-practice-rules.md
-                - name: Programmu pārlūka rekvizīti
-                  href: dev-ref/application-explorer-aot-properties.md
+                - name: X++ valodas atbalsts
+                  items:
+                    - name: Visual Studio prasības valodai X++
+                      href: dev-tools/developer-tools-vs2017.md
+                    - name: X++ koda atkļūdošana
+                      href: dev-tools/debug-xpp.md
+                    - name: EventHandlerResult klases pieprasījuma vai atbildes scenārijos
+                      href: dev-tools/event-handler-result-class.md
+                    - name: 'Biznesa loģikas rakstīšana, izmantojot C# un X++ pirmkodu'
+                      href: dev-tools/write-business-logic.md
+                    - name: "LINQ sniedzējs\_C# videi"
+                      href: dev-tools/linq-provider-c.md
+                    - name: Labākās prakses kārtulu rakstīšana
+                      href: dev-tools/author-best-practice-rules.md
+                    - name: Programmu pārlūka rekvizīti
+                      href: dev-ref/application-explorer-aot-properties.md
+                    - name: Atribūts SysSetupConfigAttribute
+                      href: dev-tools/syssetupconfigattribute.md
                 - name: X++ valodas atsauce
                   items:
                     - name: X++ valodas atsauces pārskats
@@ -648,7 +634,7 @@
                           href: dev-ref/xpp-interfaces.md
                         - name: Bibliotēkas
                           href: dev-ref/xpp-library-objects.md
-                        - name: Notikumi
+                        - name: Pasākumi un pārstāvji
                           href: dev-ref/xpp-events.md
                     - name: X++ datu atlase un apstrāde
                       items:
@@ -874,6 +860,8 @@
                   href: perf-test/continuous-build-test-automation.md
                 - name: 'SysTest filtrēšana, izmantojot klašu un metožu atribūtus'
                   href: perf-test/systest-filtering.md
+                - name: SysTestRow atribūts vairāku vērtību testēšanai
+                  href: perf-test/systest-row.md
                 - name: Pieņemšanas testu bibliotēka
                   items:
                     - name: Pieņemšanas testu bibliotēkas resursi
@@ -902,6 +890,8 @@
               href: dev-tools/date-effectivity.md
             - name: Neatkarīgo programmatūras izstrādātāju izstrāde
               items:
+                - name: ISV izstrādes mājas lapa
+                  href: dev-tools/isv-dev-home-page.md
                 - name: 'X++ moduļus saistīšana ar pakotnēm, izmantojot ISV Studio'
                   href: dev-tools/isv-studio-solutions.md
                 - name: ISV licencēšana
@@ -940,6 +930,16 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: LCS partneriem
                   href: lifecycle-services/getting-started-lcs.md
+                - name: RESTful APIs
+                  items:
+                    - name: Vides sākšana un apturēšana
+                      href: lifecycle-services/api/v1/reference-start-stop-environments.md
+                    - name: Vides metadatu ienese
+                      href: lifecycle-services/api/v1/reference-environment-metadata.md
+                    - name: Vides vēstures ienese
+                      href: lifecycle-services/api/v1/reference-environment-history.md
+                    - name: Vides RSAT sertifikāta ZIP ienese
+                      href: lifecycle-services/api/v1/reference-download-rsat-certificate.md
                 - name: Jaunumi un izmaiņas portālā Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
             - name: Lifecycle Services lietotāja rokasgrāmata
@@ -991,7 +991,11 @@
                 - name: BUJ par plānoto uzturēšanas periodu
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: Pārraudzība un diagnostika
-              href: lifecycle-services/monitoring-diagnostics.md
+              items:
+                - name: Pārraudzības un diagnostikas rīki
+                  href: lifecycle-services/monitoring-diagnostics.md
+                - name: 'Azure Data Explorer izmantošana, lai vaicātu par neapstrādātajiem informācijas žurnāliem'
+                  href: lifecycle-services/azure-data-explorer.md
             - name: Vides pakalpojumu restartēšana
               href: lifecycle-services/restart-environment-services.md
             - name: Ziņošana par ražošanas pārtraukumu
@@ -1004,6 +1008,8 @@
               href: lifecycle-services/performancetroubleshooting.md
             - name: Vaicājumu pavārgrāmata
               href: lifecycle-services/querycookbook.md
+            - name: 'Abonementi, kuriem beidzies derīguma termiņš, un datu dzēšana'
+              href: lifecycle-services/expired-subscription-data-deletion.md
             - name: "Microsoft Dynamics\_365 Translation Service"
               items:
                 - name: Dynamics 365 Translation Service pārskats
@@ -1014,10 +1020,16 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: Tulkošanas atmiņas faili
                   href: lifecycle-services/use-translation-service-tm.md
+                - name: Azure DevOps paplašinājums (publiskais priekšskatījums)
+                  href: lifecycle-services/dts-devops-extension.md
         - name: Microsoft Power Platform integrācija
           items:
-            - name: Microsoft Power Platform integrācija ar Finance and Operations
+            - name: Pārskats
               href: power-platform/overview.md
+            - name: Power Platform integrācijas iespējošana
+              href: power-platform/enable-power-platform-integration.md
+            - name: Autentifikācija un autorizācija
+              href: power-platform/authentication-and-authorization.md
             - name: Duālais ieraksts
               items:
                 - name: Duālā ieraksta sākumlapa
@@ -1034,6 +1046,8 @@
                       href: data-entities/dual-write/connection-setup.md
                     - name: Sākotnējās sinhronizācijas apsvērumi
                       href: data-entities/dual-write/initial-sync-guidance.md
+                    - name: Tiešsaistes sinhronizācijas ierobežojumi
+                      href: data-entities/dual-write/sync-limits.md
                     - name: Duālā ieraksta iestatīšana no Lifecycle Services
                       href: data-entities/dual-write/lcs-setup.md
                     - name: Duālā ieraksta iespējošana esošajām Finance and Operations programmām
@@ -1046,6 +1060,8 @@
                           href: data-entities/dual-write/link-your-environment.md
                         - name: Iespējot duālā ieraksta elementa karti
                           href: data-entities/dual-write/enable-entity-map.md
+                    - name: Atsevišķa duālā ieraksta programmas instrumentācijas pakotne
+                      href: data-entities/dual-write/separated-solutions.md
                     - name: Valūtas datu veida migrācija duālajam ierakstam
                       href: data-entities/dual-write/currrency-decimal-places.md
                     - name: Kartējuma iestatīšana pārdošanas pasūtījuma statusa laukiem
@@ -1056,10 +1072,14 @@
                   items:
                     - name: Elementa un lauka kartējumu pielāgošana
                       href: data-entities/dual-write/customizing-mappings.md
+                    - name: Duālā ieraksta pielāgošanas vadlīnijas
+                      href: data-entities/dual-write/custom-best-practices.md
                     - name: Vairāku elementu karšu apstrāde
                       href: data-entities/dual-write/multiple-entity-maps.md
                     - name: Juridiskas personas rediģēšana pēc duālā ieraksta iestatīšanas
                       href: data-entities/dual-write/edit-legal-entity.md
+                    - name: Pauzēt dubultā ieraksta darbību uzturēšanai
+                      href: data-entities/dual-write/pause-for-maintenance.md
                     - name: Kļūdu pārvaldības un brīdinājumu paziņojumi
                       href: data-entities/dual-write/errors-and-alerts.md
                     - name: Programmas dzīves cikla pārvaldība
@@ -1122,6 +1142,8 @@
                       href: data-entities/dual-write/party-gab-portal.md
                     - name: Jaunināšana uz pušu un globālās adrešu grāmatas modeli
                       href: data-entities/dual-write/upgrade-party-gab.md
+                    - name: Skatīt puses datus
+                      href: data-entities/dual-write/view-party.md
                     - name: Piezīmju integrācija
                       href: data-entities/dual-write/notes-integration.md
                     - name: Kartēšanas atsauce
@@ -1134,22 +1156,26 @@
                       href: data-entities/dual-write/migrate-prospect-to-cash.md
                     - name: Problēmu novēršana
                       items:
-                        - name: Duālā ieraksta konfigurācijas pārbaude Finance and Operations programmās un pakalpojumā Dataverse
-                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: Vispārīgā problēmu novēršana
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
                         - name: Problēmu novēršana sākotnējās iestatīšanas laikā
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
                         - name: Problēmu novēršana sākotnējās sinhronizācijas laikā
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
-                        - name: Problēmu novēršana saistībā ar duālo ierakstu Finance and Operations programmās
-                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
                         - name: Tiešās sinhronizācijas problēmu novēršana
                           href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                        - name: Duālā ieraksta problēmu novēršana Finance and Operations programmās
+                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                        - name: Pušu un globālās adrešu grāmatas problēmu novēršana
+                          href: data-entities/dual-write/dual-write-troubleshooting-party-gab.md
                         - name: Problēmu novēršana saistībā ar risinājumu apzināšanu
                           href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
-                        - name: Problēmu novēršana saistībā ar Finance and Operations programmu jaunināšanu
+                        - name: Finance and Operations programmu jaunināšanas problēmu novēršana
                           href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                        - name: Vispārīgā problēmu novēršana
-                          href: data-entities/dual-write/dual-write-troubleshooting.md
+                        - name: Duālā ieraksta konfigurācijas verificēšana Finance and Operations programmās un platformā Dataverse
+                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: Kļūdas kodi tabulas kartes darbspējas pārbaudei
+                          href: data-entities/dual-write/table-map-health-check.md
                 - name: Bieži uzdotie jautājumi par duālo ierakstu
                   href: data-entities/dual-write/dual-write-faq.md
             - name: Virtuālie elementi
@@ -1160,12 +1186,58 @@
                   href: power-platform/entity-modeling.md
                 - name: Programmas dzīves cikla pārvaldība
                   href: power-platform/application-lifecycle-management.md
-                - name: Finance and Operations un Dataverse administratora atsauce
+                - name: Dataverse virtuālo elementu konfigurēšana
                   href: power-platform/admin-reference.md
+                - name: Dataverse virtuālo elementu iespējošana
+                  href: power-platform/enable-virtual-entities.md
                 - name: Power Apps portāli ar Finance and Operations
                   href: power-platform/power-portal-reference.md
-                - name: Bieži uzdotie jautājumi par Finance and Operations virtuālajiem elementiem
+                - name: Bieži uzdotie jautājumi par Finance and Operations virtuālajām entītijām
                   href: power-platform/faq.md
+            - name: Biznesa notikumi
+              items:
+                - name: Biznesa notikumu pārskats
+                  href: business-events/home-page.md
+                - name: Biznesa notikumu galapunktu pārvaldība
+                  href: business-events/managing-business-event-endpoints.md
+                - name: Programmas biznesa notikumi
+                  href: business-events/app-business-events.md
+                - name: Darbplūsmas biznesa notikumi
+                  href: business-events/business-events-workflow.md
+                - name: Partijas biznesa notikumi
+                  href: business-events/system-business-events.md
+                - name: Brīdinājumi kā biznesa notikumi
+                  href: business-events/alerts-business-events.md
+                - name: Datu notikumi
+                  href: business-events/data-events.md
+                - name: Biznesa notikumi programmā Power Automate
+                  href: business-events/business-events-flow.md
+                - name: Biznesa notikumu izstrādātāja dokumentācija
+                  href: business-events/business-events-dev-doc.md
+                - name: Biznesa notikumu problēmu novēršana
+                  href: business-events/troubleshooting.md
+                - name: Gadījumu lietošana biznesa notikumiem
+                  href: business-events/potential-use-cases.md
+                - name: Apmācība
+                  items:
+                    - name: Biznesa notikumi un Power Automate
+                      href: business-events/how-to/how-to-flow.md
+                    - name: Biznesa notikumi un Azure Event Grid
+                      href: business-events/how-to/how-to-eventgrid.md
+                    - name: Biznesa notikumi un Azure Service Bus
+                      href: business-events/how-to/how-to-servicebus.md
+                    - name: Biznesa notikumi un Azure Service Bus rinda
+                      href: business-events/how-to/how-to-servicebus-queue.md
+                    - name: Biznesa notikumi un darbplūsmu apstiprinājumi
+                      href: business-events/how-to/how-to-workflow.md
+                    - name: Biznesa notikumi un Microsoft Forms Pro
+                      href: business-events/how-to/FormsPro.md
+                    - name: Biznesa notikumi un Azure Event Hubs
+                      href: business-events/how-to/event-hub.md
+                    - name: Abonēt notikumus programmā Dataverse
+                      href: business-events/how-to/how-to-dataverse-events.md
+                    - name: Biznesa notikumi finanšu perioda slēgšanā
+                      href: business-events/how-to/period-close.md
             - name: Pievienojumprogrammas
               items:
                 - name: Pievienojumprogrammu apskats
@@ -1422,6 +1494,8 @@
               href: perf-test/rsat/rsat-best-practices.md
             - name: 'Datu diagnostikas testēšana, izmantojot Regression Suite Automation Tool'
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
+            - name: Rīka Regression Suite Automation Tool (RSAT) palaišana ar paralēlu izpildi
+              href: perf-test/rsat/rsat-parallel-execution.md
             - name: Problēmu novēršana
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: 'Risinājumu izlaišana, izmantojot Lifecycle Services'
@@ -1460,15 +1534,15 @@
                   href: lcs-solutions/submit-localization-alerts.md
         - name: Atbalsts
           items:
-            - name: Atbalsta saņemšana par Finance and Operations un Lifecycle Services
+            - name: Atbalsta saņemšana saistībā ar Finance and Operations un Lifecycle Services
               href: lifecycle-services/lcs-support.md
             - name: Dynamics 365 atbalsta pārskats
               href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
-            - name: 'Atbalsta saņemšana par Finance and Operations, kā darbību nodrošina 21Vianet Ķīnā'
+            - name: "Atbalsta saņemšana saistībā ar Finance and Operations\_— darbību nodrošina 21Vianet Ķīnā"
               href: lifecycle-services/21vianet-support.md
-            - name: Finance and Operations programmu tehniskā atbalsta iestatīšana
+            - name: Tehniskā atbalsta iestatīšana Finance and Operations programmām
               href: lifecycle-services/support-experience.md
-            - name: Finance and Operations programmu atbalsta iespēju pārvaldība
+            - name: Finance and Operations programmu atbalsta pieredzes pārvaldība
               href: lifecycle-services/cloud-powered-support-lcs.md
             - name: Ražošanas atbalsts un pārraudzība
               href: ../fin-ops/imp-lifecycle/production-support-monitoring.md
@@ -1536,12 +1610,14 @@
                   href: sysadmin/batch-processing-overview.md
                 - name: Pakešapstrāde un partiju serveri
                   href: sysadmin/batch-server-overview.md
-                - name: Pakešuzdevumu izveide
+                - name: Izveidot pakešuzdevumus
                   href: sysadmin/tasks/create-batch-job.md
-                - name: Pakešuzdevumu automātisko atkārtoto mēģinājumu iespējošana
+                - name: Iespējot partiju mēģinājumus
                   href: sysadmin/retryable-batch.md
-                - name: Pakešuzdevuma kopēšana
+                - name: Kopēt pakešuzdevumu
                   href: sysadmin/copy-batch-job.md
+                - name: Uz prioritāti balstīta pakešuzdevumu plānošana
+                  href: sysadmin/priority-based-batch-scheduling.md
                 - name: Aktīvie pakešuzdevumu periodi
                   href: sysadmin/activeperiod.md
                 - name: Vasaras laika atbalsts aktīvajiem pakešuzdevumu periodiem
@@ -1556,6 +1632,8 @@
                   href: sysadmin/batch-history-cleanup.md
                 - name: Pakešuzdevuma izpildes atcelšana
                   href: sysadmin/batch-abort.md
+                - name: Partijas OData API
+                  href: sysadmin/batch-odata-api.md
             - name: Optimizācijas padomnieks
               items:
                 - name: Optimizācijas padomnieka pārskats
@@ -1578,11 +1656,11 @@
               href: migration-upgrade/upgrade-home-page.md
             - name: Jaunināt no AX 2012
               items:
-                - name: Jaunināt no AX 2012 uz Finance and Operations
+                - name: "Jaunināšana no AX\_2012 uz Finance and Operations"
                   href: migration-upgrade/upgrade-overview-2012.md
-                - name: "AX 2012 jaunināšana\_— Plānošana, izmantojot jauninājumu analizētāja rīku"
+                - name: "AX\_2012 jaunināšana\_— Plānošana, izmantojot jauninājumu analizētāja rīku"
                   href: migration-upgrade/upgrade-analyzer-tool.md
-                - name: "AX 2012 jaunināšana\_— Slodzes noteikšana, izmantojot koda jaunināšanas pakalpojumu"
+                - name: "AX\_2012 jaunināšana\_— Slodzes noteikšana, izmantojot koda jaunināšanas pakalpojumu"
                   href: migration-upgrade/analyze-code-upgrade.md
                 - name: "AX 2012 jaunināšana\_— Demonstrācijas vides izvietošana analīzei"
                   href: migration-upgrade/analysis-sandbox.md
@@ -1590,8 +1668,6 @@
                   href: migration-upgrade/data-upgrade-2012.md
                 - name: "AX 2012 jaunināšana\_— Datu jaunināšanas kontrolsaraksts pirmsjaunināšanai"
                   href: migration-upgrade/prepare-data-upgrade.md
-                - name: Jaunināšana no AX 2012 — SQL darbību replicēšana
-                  href: database/replication-setup.md
                 - name: "Jaunināšana no AX 2012\_— Datu jaunināšana pašapkalpošanās vidēs"
                   href: migration-upgrade/data-upgrade-self-service.md
                 - name: "AX 2012 jaunināšana\_— Lokālas vides"
@@ -1612,8 +1688,6 @@
                   items:
                     - name: Unikāla kontu plāna norobežotāja iestatīšana
                       href: migration-upgrade/chart-accounts-delimiter-unique.md
-                    - name: Vienotu dokumentu žurnālu un valūtas pārvērtēšanu jaunināšana
-                      href: migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md
                     - name: Projekta resursu plānošanas datu modelis
                       href: migration-upgrade/data-model-changes-resource-management.md
                     - name: Darbplūsmu apakšsistēmas izmaiņas
@@ -1626,7 +1700,7 @@
                       href: migration-upgrade/upgrade-budget-planning.md
             - name: Migrēt datus no AX 2009
               items:
-                - name: "Migrēt datus no AX\_2009 uz Finance and Operations"
+                - name: "Datu migrēšana no AX\_2009 uz Finance and Operations"
                   href: migration-upgrade/data-migration-tool.md
                 - name: "AX\_2009 migrēšana\_— Datu migrēšanas rīka instalēšana"
                   href: migration-upgrade/install-dmt.md

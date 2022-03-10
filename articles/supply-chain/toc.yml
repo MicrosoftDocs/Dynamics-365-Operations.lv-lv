@@ -6,20 +6,20 @@
           href: index.md
         - name: Jaunumi un izmaiņas
           items:
-            - name: Jaunumi un izmaiņas Finance and Operations programmās
+            - name: Jaunumi un izmaiņas programmā Finance and Operations
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
             - name: Jaunumi un izmaiņas programmā Supply Chain Management
               items:
                 - name: Jaunumi un izmaiņas programmas Supply Chain Management sākumlapā
                   href: get-started/whats-new-home-page.md
+                - name: "Supply Chain Management 10.0.26 (2022.\_gada maijs)"
+                  href: get-started/whats-new-scm-10-0-26.md
+                - name: "Supply Chain Management 10.0.25 (2022.\_gada aprīlis)"
+                  href: get-started/whats-new-scm-10-0-25.md
                 - name: "Supply Chain Management 10.0.24 (2022.\_gada februāris)"
                   href: get-started/whats-new-scm-10-0-24.md
                 - name: "Supply Chain Management 10.0.23 (2022.\_gada janvāris)"
                   href: get-started/whats-new-scm-10-0-23.md
-                - name: "Supply Chain Management\_10.0.22 (2021.\_gada novembris)"
-                  href: get-started/whats-new-scm-10-0-22.md
-                - name: "Supply Chain Management\_10.0.21 (2021.\_gada oktobris)"
-                  href: get-started/whats-new-scm-10-0-21.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
                 - name: Noņemtie vai novecojušie līdzekļi sākumlapā
@@ -106,8 +106,6 @@
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Videoklipi
                   href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Skaidrojošā vārdnīca
-                  href: ../fin-ops-core/fin-ops/get-started/glossary.md?toc=/dynamics365/supply-chain/toc.json
             - name: Apmācību katalogs
               items:
                 - name: Apmācību kataloga mājas lapa
@@ -178,7 +176,7 @@
               items:
                 - name: Ieviešanas dzīves cikla pārvaldības sākumlapa
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Finance and Operations programmu arhitektūra
+                - name: "Finance and\_Operations programmu arhitektūra"
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Microsoft FastTrack
                   href: /dynamics365/fasttrack/
@@ -188,7 +186,7 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Sagatavošanās ekspluatācijai
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Bieži uzdotie jautājumi par ekspluatāciju
+                - name: Bieži uzdotie jautājumi par palaišanu
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Pakalpojuma pieprasījuma iesniegšana
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/supply-chain/toc.json
@@ -246,32 +244,108 @@
                   items:
                     - name: Elektronisko rēķinu izveides pārskats
                       href: ../finance/localizations/e-invoicing-service-overview.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Elektronisko rēķinu izveides administrēšanas komponenti
-                      href: ../finance/localizations/e-invoicing-service-administration.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Elektronisko rēķinu izveides konfigurēšana pakalpojumā Regulatory Configuration Services (RCS)
-                      href: ../finance/localizations/e-invoicing-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Elektronisko rēķinu izsniegšana pakalpojumā Finance un Supply Chain Management
-                      href: ../finance/localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Azure krātuves konta un Key Vault izveide
-                      href: ../finance/localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Lietojuma pārvaldības informācijas panelis
-                      href: ../finance/localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Darba sākšana
+                    - name: Elektroniskās rēķinu izveides administrēšanas un integrēšanas komponenti
+                      href: ../finance/localizations/e-invoicing-administration-integration-components.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Elektronisko rēķinu izveides iestatīšana
                       items:
+                        - name: Elektronisko rēķinu izveides iestatīšana
+                          href: ../finance/localizations/e-invoicing-set-up-overview.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Reģistrēties un instalēt elektronisko rēķinu izrakstīšanu
+                          items:
+                            - name: Elektronisko rēķinu izrakstīšanas reģistrācijas un instalēšanas pārskats
+                              href: ../finance/localizations/e-invoicing-sign-up-install.md?toc=/dynamics365/supply-chain/toc.json
+                            - name: Instalējiet programmu Microservices pievienojumprogrammu pakalpojumam Lifecycle Services
+                              href: ../finance/localizations/e-invoicing-install-add-in-microservices-lcs.md?toc=/dynamics365/supply-chain/toc.json
+                            - name: Regulatory Configuration Services (RCS) iestatīšana
+                              href: ../finance/localizations/e-invoicing-set-up-rcs.md?toc=/dynamics365/supply-chain/toc.json
+                            - name: Power Platform spraudņa administratora atsauce
+                              href: ../finance/localizations/e-invoicing-power-platform-plug-in.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Azure resursu iestatīšana
+                          items:
+                            - name: Iestatīt Azure resursus elektroniskajai rēķinu izrakstīšanai
+                              href: ../finance/localizations/e-invoicing-set-up-azure-resources.md?toc=/dynamics365/supply-chain/toc.json
+                            - name: Azure Key Vault izveide Azure portālā
+                              href: ../finance/localizations/e-invoicing-create-azure-storage-account-azure-portal.md?toc=/dynamics365/supply-chain/toc.json
+                            - name: Azure krātuves konta izveide Azure portālā
+                              href: ../finance/localizations/e-invoicing-create-azure-storage-account-azure-portal.md
+                            - name: SharePoint savienojuma konfigurēšana
+                              href: ../finance/localizations/e-invoicing-create-sharepoint-connection.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Vides iestatīšana
+                          items:
+                            - name: Konfigurēt pakalpojumu vides un savienotās programmas
+                              href: ../finance/localizations/e-invoicing-configure-service-environments-connected-applications.md?toc=/dynamics365/supply-chain/toc.json
+                            - name: Pakalpojumu vides
+                              href: ../finance/localizations/e-invoicing-service-environments.md?toc=/dynamics365/supply-chain/toc.json
+                            - name: Debitora sertifikāti un noslēpumi
+                              href: ../finance/localizations/e-invoicing-customer-certificates-secrets.md?toc=/dynamics365/supply-chain/toc.json
+                            - name: Savienotās programmas
+                              href: ../finance/localizations/e-invoicing-connected-applications.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Darbs ar globalizācijas līdzekļiem
+                      items:
+                        - name: Darba ar globalizācijas līdzekļiem pārskats
+                          href: ../finance/localizations/e-invoicing-working-globalization-features.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Importēt līdzekli no globālā repozitorija
+                          href: ../finance/localizations/e-invoicing-import-feature-global-repository.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Izveidot jaunu globalizācijas līdzekli
+                          href: ../finance/localizations/e-invoicing-create-new-globalization-feature.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Darbs ar konfigurācijām
+                          href: ../finance/localizations/e-invoicing-work-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Darbs ar līdzekļu iestatīšanu
+                          href: ../finance/localizations/e-invoicing-feature-setup.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: 'Pabeigt, publicēt un izvietot globalizācijas līdzekli'
+                          href: ../finance/localizations/e-invoicing-complete-publish-deploy-globalization-feature.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Kopīgot ar citām organizācijām
+                          href: ../finance/localizations/e-invoicing-share-other-organizations.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Apstrādāt ienākošos elektroniskos dokumentus
+                          items:
+                            - name: Ienākošo elektronisko dokumentu apstrāde
+                              href: ../finance/localizations/e-invoicing-process-incoming-electronic-documents.md?toc=/dynamics365/supply-chain/toc.json
+                            - name: Konfigurēt e-pasta kanālu
+                              href: ../finance/localizations/e-invoicing-configure-email.md?toc=/dynamics365/supply-chain/toc.json
+                            - name: Konfigurēt SharePoint kanālu
+                              href: ../finance/localizations/e-invoicing-configure-sharepoint-channel.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Iestatīt un lietot elektronisko rēķinu izveidi ar Finance un Supply Chain Management
+                          items:
+                            - name: Aktivizēt un iestatīt integrāciju ar elektronisko rēķinu izveidi
+                              href: ../finance/localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/supply-chain/toc.json
+                            - name: Elektroniskās rēķinu parametru iestatīšana
+                              href: ../finance/localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/supply-chain/toc.json
+                            - name: Darbs ar elektronisko rēķinu izveidi
+                              items:
+                                - name: Elektronisko dokumentu iesniegšana elektronisko rēķinu izveidei
+                                  href: ../finance/localizations/e-invoicing-submit-electronic-documents.md?toc=/dynamics365/supply-chain/toc.json
+                                - name: Darbs ar elektronisko dokumentu iesniegšanas žurnālu
+                                  href: ../finance/localizations/e-invoicing-submission-log.md?toc=/dynamics365/supply-chain/toc.json
+                                - name: Darbs ar elektronisko dokumentu saņemšanas žurnālu
+                                  href: ../finance/localizations/e-invoicing-electronic-documents-receiving-log.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Valstij raksturīgie scenāriji
+                      items:
+                        - name: Elektronisko rēķinu izrakstīšanas funkciju pieejamība
+                          href: ../finance/localizations/e-invoicing-country-specific-availability.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Darba sākšana ar elektroniskās rēķinu izveides pakalpojuma administrēšanu
                           href: ../finance/localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Darba sākšana ar elektronisko rēķinu izveidi
                           href: ../finance/localizations/e-invoicing-get-started.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Jauna elektronisko rēķinu izveides līdzekļa izveide
+                          href: ../finance/localizations/e-invoicing-create-new-e-invoicing-feature.md
                         - name: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Brazīlijā
                           href: ../finance/localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Ēģiptē
                           href: ../finance/localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Meksikā
                           href: ../finance/localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Saūda Arābijā
+                          href: ../finance/localizations/e-invoicing-sa-get-started.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Italian FatturaPA tiešas integrācijas ar SDI iestatīšana
+                          href: ../finance/localizations/e-invoicing-ita-fatturapa-get-started.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: 'Elektronisko rēķinu izveides pakalpojuma izveide, lai importētu kreditoru rēķinus'
+                          href: ../finance/localizations/e-invoicing-get-started-import-vendor-invoices.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Elektronisko rēķinu izveides iestatīšana
                           href: ../finance/localizations/e-invoicing-setup.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Bieži uzdotie jautājumi par elektronisko rēķinu izveidi
-                      href: ../finance/localizations/e-invoicing-faq.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Power Platform spraudņa administratora atsauce
+                          href: ../finance/localizations/e-invoicing-power-platform-plug-in.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Bieži uzdotie jautājumi par elektronisko rēķinu izveidi
+                          href: ../finance/localizations/e-invoicing-faq.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Nodokļu aprēķins
                   items:
                     - name: Nodokļu aprēķina pārskats
@@ -306,12 +380,16 @@
           items:
             - name: Mēroga vienības sadalītajā hibrīdajā topoloģijā
               href: cloud-edge/cloud-edge-landing-page.md
+            - name: Izmēģināt mēroga vienības sadalītajā hibrīdajā topoloģijā
+              href: cloud-edge/cloud-edge-try-out.md
             - name: 'Malas mēroga vienību izvietošana pielāgotajā aparatūrā, izmantojot LBD'
               href: cloud-edge/cloud-edge-edge-scale-units-lbd.md
             - name: Ražošanas izpildes darba slodzes mākoņa un malas mēroga vienībām
               href: cloud-edge/cloud-edge-workload-manufacturing.md
             - name: Noliktavas pārvaldības darba slodzes mākoņa un malas mēroga vienībām
               href: cloud-edge/cloud-edge-workload-warehousing.md
+            - name: Warehouse Management mobilās lietotnes konfigurēšana mākoņa un malas mēroga vienībām
+              href: cloud-edge/cloud-edge-workload-setup-warehouse-app.md
             - name: Noliktavas pasūtījumi mākoņa un malas mēroga vienībām
               href: cloud-edge/cloud-edge-warehouse-order.md
             - name: Noliktavas krājumu korekcija
@@ -685,7 +763,7 @@
                   href: cost-management/cost-groups.md
                 - name: FIFO ar fizisko vērtību un marķējumu
                   href: cost-management/fifo-physical-value-marking.md
-                - name: Fiziskās vērtības ietveršana
+                - name: Iekļaut fizisko vērtību
                   href: cost-management/include-physical-value.md
                 - name: Krājumu objekta vērtības
                   href: cost-management/physical-quantity.md
@@ -1189,6 +1267,10 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 'Formātu izpilde, lai Excel pārskatiem dinamiski pievienotu kolonnas'
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: 'Elektronisko pārskatu noformēšana, lai programmā Excel ģenerētos dokumentus dalītu pa vairākām lapām'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-paginate-excel-reports.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: 'Veidot ER formātu, lai rindas paturētu kopā vienā Excel lapā'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-keep-excel-rows-together.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 'Konfigurāciju noformēšana, lai ģenerētu pārskatus Word formātā'
                   items:
                     - name: 'Jaunas ER konfigurācijas noformēšana, lai ģenerētu atskaites Word formātā'
@@ -1237,6 +1319,8 @@
                   items:
                     - name: 'Konfigurāciju izveide, lai importētu datus no ārēja XML faila'
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Datu importēšana no manuāli atlasītiem failiem pakešveida režīmā
+                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-batch.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Datu importēšana pakešveida režīmā no platformā SharePoint izvietotiem failiem
                   href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Failu importēšana XML formātā
@@ -1455,16 +1539,20 @@
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/supply-chain/toc.json
                 - name: API izmaiņas
                   items:
-                    - name: "Application Update\_7.3"
+                    - name: "Programmatūras atjauninājums\_7.3"
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: "Application Update\_10.0.11"
+                    - name: "Programmatūras atjauninājums\_10.0.11"
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: "Application Update\_10.0.17"
+                    - name: "Programmatūras atjauninājums\_10.0.17"
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: "Application Update\_10.0.19"
+                    - name: "Programmatūras atjauninājums\_10.0.19"
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: "Application Update\_10.0.21"
+                    - name: "Programmatūras atjauninājums\_10.0.21"
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: "Programmatūras atjauninājums\_10.0.23"
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: "Programmatūras atjauninājums\_10.0.25"
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-25.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Pielāgotas glabāšanas vietas norādīšana ģenerētajiem dokumentiem
                   items:
                     - name: 'Notikuma abonēšana, lai pieprasītu atbildi no abonēšanas apstrādātāja'
@@ -1477,7 +1565,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 'Mainīt kodu, lai dotu lietotājiem iespēju konfigurēt un izmantot nosauktos ER adresātus'
                   href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/finance/toc.json
-        - name: Krājumu vadība
+        - name: Krājumu pārvaldība
           items:
             - name: Krājumu pārvaldības pārskats
               href: inventory/inventory-home-page.md
@@ -1695,12 +1783,16 @@
                   href: master-planning/planning-optimization/approved-planned-order.md
                 - name: Plānoto pasūtījumu apstiprināšana
                   href: master-planning/planning-optimization/planned-order-firming.md
+                - name: Plānotie pasūtījumi vienkāršoti
+                  href: master-planning/planning-optimization/planned-orders-simplified.md
                 - name: Plānošana ar negatīviem rīcībā esošajiem daudzumiem
                   href: master-planning/planning-optimization/negative-on-hand.md
                 - name: Plāna vēstures un plānošanas žurnālu skatīšana
                   href: master-planning/planning-optimization/plan-history-logs.md
                 - name: Plānošanas darba atcelšana
                   href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: Optimizācijas priekšlikumi
+                  href: master-planning/action-messages.md
                 - name: Plānošanas optimizācijas problēmu novēršana
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
                 - name: Plānošanas optimizācijas paplašināmība
@@ -1733,8 +1825,6 @@
                   href: master-planning/cancel-master-planning-job.md
                 - name: Izsekošanas izmantošana izvēršanai
                   href: master-planning/trace-explosion.md
-                - name: Darbību ziņojumi
-                  href: master-planning/action-messages.md
                 - name: Vispārējās plānošanas izpildes pārraudzība
                   href: master-planning/tasks/monitor-master-planning-run.md
                 - name: Grafika izveide vietai
@@ -3513,7 +3603,7 @@
                       href: warehousing/transfer-orders-warehouse.md
                 - name: Jaunināšana un migrēšana
                   items:
-                    - name: "Noliktavas pārvaldības procesu jaunināšana no Microsoft Dynamics AX\_2012 uz Finance and Operations"
+                    - name: "Noliktavas vadības procesu jaunināšana no Microsoft Dynamics AX\_2012 uz Finance and Operations"
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
         - name: Supply Chain Management izstrāde
           items:
@@ -3545,7 +3635,7 @@
                   href: troubleshooting/costing/purchase-orders-rece.md
                 - name: Lapas Krājuma cena cilnē Aktīvās cenas nav sākuma datuma
                   href: troubleshooting/costing/there-is-no-from-dat.md
-            - name: Krājumu vadība
+            - name: Krājumu pārvaldība
               items:
                 - name: Nevar atrast nolaižamo dialoglodziņu Darbplūsma krājumu žurnāliem
                   href: troubleshooting/inventory/cant-find-workflow-dropdown.md
@@ -3623,6 +3713,8 @@
                   href: troubleshooting/planning/when-importing-to-th.md
             - name: Sagāde
               items:
+                - name: Pirkšanas pasūtījuma rindas datu neatbilstības
+                  href: troubleshooting/procurement/purchase-order-line-data-issues.md
                 - name: 'Viena vai vairākas uzskaites sadales ir vai nu pārāk sadalītas, vai arī nepietiekami sadalītas'
                   href: troubleshooting/procurement/accounting-over-under-distributed.md
                 - name: Pirkšanas pasūtījuma darbību var veikt tikai pilnībā sadalītiem rindu numuriem
@@ -3765,8 +3857,10 @@
                   items:
                     - name: 'Iestatot programmas savienojumu, nav atrasts sertifikācijas ceļa uzticamības enkurs'
                       href: troubleshooting/warehousing/certification-path-app-connection-error.md
-                    - name: 'Veicot atjaunināšanu un migrēšanu uz NPS, nav atrasts sertifikācijas ceļa uzticamības enkurs'
+                    - name: 'Veicot atjaunināšanu un migrēšanu uz noliktavas pārraudzības sistēmu, nav atrasts sertifikācijas ceļa uzticamības enkurs'
                       href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
+                - name: Apstrādes problēmas rodas pēc mēroga vienības noliktavas darba noslodzes instalēšanas
+                  href: troubleshooting/warehousing/Scale-unit-warehouse-workload-installation-issues.md
                 - name: 'Tiek parādīta automātiska partijas numura rezervēšanas uzvedne pat tad, ja ir pieejami krājumi'
                   href: troubleshooting/warehousing/auto-reservation-prompt-shown.md
                 - name: Nepabeigtā papildināšanas darba dēļ izdošanas darbu nevar atbloķēt
@@ -3905,9 +3999,11 @@
                   href: troubleshooting/warehousing/work-remains-blocked.md
                 - name: Nevar atcelt lietotājam izveidotu darbu
                   href: troubleshooting/warehousing/you-cannot-cancel-wo.md
-    - name: Finance and Operations programmu izstrāde un administrēšana
+    - name: Finanšu un darbības programmu izstrāde un administrēšana
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md
     - name: Dynamics 365 Commerce
       href: ../commerce/index.md
+    - name: Dynamics 365 Human Resources
+      href: ../human-resources/index.md
