@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: eca0b61e1fa6760bfed1a9f9979deddccf6fb1a5
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: 0fe4b377ec80601f616f81f71222129256dfd448
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6343778"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474944"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Elastīga noliktavas līmeņa dimensiju rezervācijas politika
 
@@ -421,7 +421,7 @@ Tālāk norādītās tabulas sniedz pārskatu, kas parāda, kā sistēma apstrā
 <td>Nav attiecināms</td>
 </tr>
 <tr>
-<td>Nr.</td>
+<td>Nē</td>
 <td>
 <ol>
 <li>Kad sākat izdošanas darbu, Warehouse Management mobile programmā atlasiet izvēlnes elementu <strong>Ignorēt atrašanās vietu</strong>.</li>
@@ -719,7 +719,7 @@ Tālāk norādītās tabulas sniedz pārskatu, kas parāda, kā sistēma apstrā
 </tr>
 <tr>
 <td>Ir iestatīts darba izņēmums ar <strong>Saīsinātās izdošanas</strong> tipu, kur <strong>Krājuma atkārtots sadalījums</strong> = <strong>Manuāls</strong>, <strong>Koriģēt krājumu</strong> = <strong>Jā</strong> un <strong>Noņemt rezervācijas</strong> = <strong>Nē</strong>. Turklāt darbiniekam tiek aktivizēta opcija <strong>Atļaut manuālu krājumu pārdalīšanu</strong>.</td>
-<td>Nr.</td>
+<td>Nē</td>
 <td>
 <ol>
 <li>Kad apstrādājat izdošanas darbu, Warehouse Management mobile programmā atlasiet izvēlnes elementu <strong>Īss</strong>.</li>
@@ -732,7 +732,7 @@ Tālāk norādītās tabulas sniedz pārskatu, kas parāda, kā sistēma apstrā
 </tr>
 <tr>
 <td>Ir iestatīts darba izņēmums ar <strong>Saīsinātās izdošanas</strong> tipu, kur <strong>Krājuma atkārtots sadalījums</strong> = <strong>Manuāls</strong>, <strong>Koriģēt krājumu</strong> = <strong>Jā</strong> un <strong>Noņemt rezervācijas</strong> = <strong>Jā</strong>. Turklāt darbiniekam tiek aktivizēta opcija <strong>Atļaut manuālu krājumu pārdalīšanu</strong>.</td>
-<td>Nr.</td>
+<td>Nē</td>
 <td>
 <ol>
 <li>Kad apstrādājat izdošanas darbu, Warehouse Management mobile programmā atlasiet izvēlnes elementu <strong>Īss</strong>.</li>
@@ -858,7 +858,5 @@ Tālāk norādītās tabulas sniedz pārskatu, kas parāda, kā sistēma apstrā
 - [Tās pašas partijas rezervēšana pārdošanas pasūtījumam](../sales-marketing/reserve-same-batch-sales-order.md)
 - [Vecākās partijas izdošana mobilajā ierīcē](pick-oldest-batch.md)
 - [Partijas un numura zīmes apstiprināšana](batch-and-license-plate-confirmation.md)
-- [Problēmu novēršana saistībā ar rezervācijām noliktavas pārvaldībā](troubleshoot-warehouse-reservations.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

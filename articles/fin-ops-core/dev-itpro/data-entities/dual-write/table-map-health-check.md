@@ -5,58 +5,58 @@ author: nhelgren
 ms.date: 10/04/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: nhelgren
 ms.search.validFrom: 2021-10-04
-ms.openlocfilehash: 4f0b92a6bc6c051a6bb24b49d3280ca5ecea3625
-ms.sourcegitcommit: c4500b626667185643b3a2e7fc3a004d42198d07
-ms.translationtype: HT
+ms.openlocfilehash: 916f3cfca3bae7a073ce4e956a12080ee01c8d31
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7725079"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061282"
 ---
 # <a name="errors-codes-for-the-table-map-health-check"></a>Kļūdas kodi tabulas kartes darbspējas pārbaudei
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Šajā tēmā aprakstīti kļūdu kodi tabulas kartes darbspējas pārbaudei.
 
 ## <a name="error-100"></a>Kļūda 100
 
-Kļūdas ziņojums ir "Minimālais nepieciešamais Finance and Operations platformas versijas līmenis ir PU 43, lai palaistu Finance and Operations rekomendācijas."
+Kļūdas ziņojums ir šāds: "Lai izpildītu Finance and Operations ieteikumus, minimālā nepieciešamā Finance and Operations platformas versija ir PU 43."
 
-Šis līdzeklis pieprasa platformas atjauninājumus versijā 10.0.19 vai jaunākā Finance and Operations programmu versijā.
+Lai izmantotu šo līdzekli, ir nepieciešami platformas atjauninājumi programmas Finance and Operations versijai 10.0.19 vai jaunākai versijai.
 
 ## <a name="error-400"></a>Kļūda 400
 
-Kļūdas ziņojums ir "Nav atrasti biznesa notikumu reģistrācijas dati elementam \{Finance and Operations UniqueEntityName\}, kas nozīmē, ka karte nedarbojas vai visi lauku kartējumi nav vienvirziena."
+Kļūdas ziņojums ir šāds: "Entītijai nav atrasti biznesa notikumu reģistrācijas dati\{ Finance and Operations UniqueEntityName\} kas nozīmē, ka vai nu karte nedarbojas, vai arī visa lauka kartēšana ir vienvirziena."
 
 ## <a name="error-500"></a>Kļūda 500
 
-Kļūdas ziņojums ir " \{Projekta nosaukumam\} nav atrastas projekta konfigurācijas. Tas var būt vai nu iespējots, vai visi lauku kartējumi ir vienvirziena no Customer Engagement uz Finance and Operations."
+Kļūdas ziņojums ir " \{Projekta nosaukumam\} nav atrastas projekta konfigurācijas. Tas var būt vai nu projekts, kas nav iespējots, vai arī visi lauka kartējumi ir vienvirziena no klientu iesaistīšanas uz Finance and Operations.
 
-Pārbaudiet tabulas kartes kartējumus. Ja tās ir vienvirziena no Customer Engagement lietojumprogrammām uz Finance and Operations programmām, netiek ģenerēts trafiks tiešai sinhronizācijai no Finance and Operations programmām uz Dataverse.
+Pārbaudiet tabulas kartes kartējumus. Ja tie ir vienvirziena no klientu iesaistīšanas lietotnēm uz Finance and Operations lietotnēm, netiek ģenerēta datplūsma tiešraides sinhronizācijai no Finance and Operations lietotnēm uz Dataverse.
 
 ## <a name="error-900"></a>Kļūda 900
 
-Kļūdas ziņojums ir "Nederīgs avota filtra \{sourceFilter\} formāts elementam \{Finance and Operations UniqueEntityName\}."
+Kļūdas ziņojums ir “Nederīgs avota filtrs\{ avota filtrs\} entītijas formāts\{ Finance and Operations UniqueEntityName\} ”.
 
-Avota filtrs, kas ir norādīts Finance and Operations programmu tabulu kartē, nav sintaktiski pareizs. Lai pārbaudītu filtra kritērijus, skatiet sadaļu [Tiešās sinhronizācijas problēmu novēršana](dual-write-troubleshooting-live-sync.md#live-synchronization-issues-that-are-caused-by-incorrect-query-filter-syntax-on-the-dual-write-maps).
+Avota filtrs, kas norādīts programmas Finance and Operations tabulas kartē, nav sintaktiski pareizs. Lai pārbaudītu filtra kritērijus, skatiet sadaļu [Tiešās sinhronizācijas problēmu novēršana](dual-write-troubleshooting-live-sync.md#live-synchronization-issues-that-are-caused-by-incorrect-query-filter-syntax-on-the-dual-write-maps).
 
 ## <a name="error-1000"></a>Kļūda 1000
 
-Tiek rādīts kļūdas ziņojums: "Elementa \{Finance and Operations UniqueEntityName\} vaicājums, kas tiek izmantots duālās rakstīšanas tiešajai sinhronizācijai, ir \{Finance and Operations EntityFilterQueryString\}. Ieraksti, kas atbilst vaicājuma kritērijiem, tiks izdoti tiešai sinhronizācijai."
+Kļūdas ziņojums ir “Entity\{ Finance and Operations UniqueEntityName\} vaicājums, ko izmanto divkāršās rakstīšanas reāllaikā sinhronizācijai\{ Finance and Operations EntityFilterQueryString \}. Ieraksti, kas atbilst vaicājuma kritērijiem, tiks izdoti tiešai sinhronizācijai."
 
 Atgrieztais elementa vaicājums ir elementa dublēšanas SQL vaicājums. Pārbaudiet vaicājuma iekšējos savienojumus vai filtrus, kas nosaka biznesa datus, kas tiek izdoti tiešai sinhronizācijai. Iekšējie savienojumi un filtri ir obligātie nosacījumi, kas jāizpilda katram ierakstam, kas tiek izdots duālās rakstīšanas tiešajai sinhronizācijai.
 
 ## <a name="error-1300"></a>Kļūda 1300
 
-Tiek parādīts kļūdas ziņojums: "Virtuālie lauki \{s.EntityFieldName\} elementam \{Finance and Operations EntityMetadata.EntityProperties.LogicalEntityName\} var netikt izsekoti duālās rakstīšanas gadījumā."
+Kļūdas ziņojums ir “Virtuālie lauki\{ s.EntityFieldName\} entītijai\{ Finance and Operations EntityMetadata.EntityProperties.LogicalEntityName\} var netikt izsekots divkāršai rakstīšanai."
 
-Virtuālie lauki no Finance and Operations tabulām nav iespējoti izsekošanai. Tieša sinhronizācija var sinhronizēt datus, bet nevarēs saņemt kolonnās veiktās izmaiņas.
+Virtuālie lauki no tabulām Finance and Operations nav iespējoti izsekošanai. Tieša sinhronizācija var sinhronizēt datus, bet nevarēs saņemt kolonnās veiktās izmaiņas.
 
 ## <a name="error-1500"></a>Kļūda 1500
 
@@ -66,9 +66,9 @@ Elementa datu avotam nav neviena lauka, kas ir kartēts dubultai rakstīšanai. 
 
 ## <a name="error-1600"></a>Kļūda 1600
 
-Kļūdas ziņojums ir "Datu avots: \{datasource.DataSourceName\} elementam \{Finance and Operations EntityMetadata.EntityProperties.LogicalEntityName\} ir diapazons. Tikai ieraksti, kas atbilst diapazona nosacījumam, tiek izdoti nosūtīšanai."
+Kļūdas ziņojums ir “Datu avots:\{ datasource.DataSourceName\} entītijai\{ Finance and Operations EntityMetadata.EntityProperties.LogicalEntityName\} ir diapazons. Tikai ieraksti, kas atbilst diapazona nosacījumam, tiek izdoti nosūtīšanai."
 
-Lietojumprogrammu Finance and Operations elementiem var būt datu avoti, kur ir iespējoti filtru diapazoni. Šie diapazoni nosaka ierakstus, kas ir paņemti kā daļa no tiešas sinhronizācijas. Ja daži ieraksti ir izlaisti no Finance and Operations programmām uz Dataverse, pārbaudiet, vai ieraksti atbilst entītijas diapazona kritērijiem. Vienkāršs veids, kā to izdarīt, ir palaist SQL vaicājumu, kas ir līdzīgs šim piemēram.
+Programmu Finance and Operations entītijām var būt datu avoti, kuros ir iespējoti filtru diapazoni. Šie diapazoni nosaka ierakstus, kas ir paņemti kā daļa no tiešas sinhronizācijas. Ja daži ieraksti tiek izlaisti no programmām Finance and Operations uz Dataverse, pārbaudiet, vai ieraksti atbilst entītijas diapazona kritērijiem. Vienkāršs veids, kā to izdarīt, ir palaist SQL vaicājumu, kas ir līdzīgs šim piemēram.
 
 ```sql
 select * from <EntityName> where <filter criteria for the records> on SQL.

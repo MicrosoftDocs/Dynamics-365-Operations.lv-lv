@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dcec7963bdf70f848249bb2ca5e2208e09f49548
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
-ms.translationtype: HT
+ms.openlocfilehash: ff7d689129a4015b6085685f4b19ae61bdd549d2
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054792"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066397"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Sagatavošanās darba ar Human Resources sākšanai
 
@@ -28,11 +28,14 @@ ms.locfileid: "6054792"
 
 [!include [banner](../includes/banner.md)]
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 Šajā tēmā ir aprakstīts, kā sagatavoties doties ar projektu Dynamics 365 Human Resources, izmantojot Microsoft Dynamics Lifecycle Services (LCS). 
 
 Šajā grafikā ir parādīti darba sākšanas procesa posmi. 
 
-![Darba sākšanas process](./media/hr-admin-go-live-prepare-process.png)
+![Darba sākšanas process.](./media/hr-admin-go-live-prepare-process.png)
 
 Tabulā zemāk ir uzskaitīti visi procesa soļi, paredzamais ilgums un atbildīgais par darbību.
 

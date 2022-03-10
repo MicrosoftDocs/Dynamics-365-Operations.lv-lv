@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Human Resources infrastruktūras sapludināšana — laidiena 10.0.25 atjauninājums
-description: Šajā tēmā ir sniegta informācija par Microsoft Dynamics 365 Human Resources izlaidi 10.0.25, kas atved pirmo spēju kopumu infrastruktūras saplūdē.
+description: Šajā tēmā ir sniegta informācija par Microsoft Dynamics 365 Human Resources izlaidums 10.0.25, kas sniedz pirmo infrastruktūru apvienošanas iespēju vilni.
 author: twheeloc
 ms.date: 01/19/2022
 ms.topic: article
@@ -15,66 +15,65 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b785248c31c2cc4feb5cedd77264f36bfe927e0e
-ms.sourcegitcommit: 10b85a09e8a550155a69aa2a8877a7c88b887242
-ms.translationtype: HT
+ms.openlocfilehash: a80bedd0224f1e31dfec4e9f4c39ad1ed75d7f2f
+ms.sourcegitcommit: 948978183a1da949e35585b28b8e85a63b6c12b1
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "8014492"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "8024571"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge---release-10025-update"></a>Dynamics 365 Human Resources infrastruktūras sapludināšana — laidiena 10.0.25 atjauninājums
 
-10.0.25 izpilde atved pirmo spēju kopumu infrastruktūras sapludināšanas laikā. Infrastruktūras sapludināšanas laikā korporācija Microsoft Dynamics 365 Human Resources tiks sapludināta ar Finanšu un operāciju infrastruktūru. Tomēr tā turpinās būt licencēta kā neatkarīgs pieteikums, līdzīgi Dynamics 365 Finance kā un Dynamics 365 Supply Chain Management. Papildinformāciju par infrastruktūras sapludināšanu skatiet infrastruktūras [Dynamics 365 Human Resources sapludināšanas FAQ](../human-resources/hr-infrastructure-merge-faq.md).
+10.0.25 laidiens sniedz pirmo infrastruktūras apvienošanas iespēju vilni. Infrastruktūras apvienošanas laikā Microsoft Dynamics 365 Human Resources tiks apvienota ar Finance and Operations infrastruktūru. Tomēr tas joprojām tiks licencēts kā neatkarīgs pieteikums, piemēram Dynamics 365 Finance un Dynamics 365 Supply Chain Management. Papildinformāciju par infrastruktūras apvienošanu sk [Dynamics 365 Human Resources infrastruktūras apvienošanas FAQ](../human-resources/hr-infrastructure-merge-faq.md).
 
-Sapludināšana nodrošinās personāla vadības lietotāju konsekvenci šādos veidos:
+Apvienošana cilvēkresursu lietotājiem nodrošinās konsekvenci šādos veidos:
 
-- [Vides pārvaldība un integrācijas ir saskaņotas starp cilvēkresursu un finanšu un operāciju programmām.](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/consistent-environment-management-integrations-between-human-resources-finance-operations-apps)
+- [Vides pārvaldība un integrācijas ir saskanīgas cilvēkresursu un finanšu un operāciju programmās.](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/consistent-environment-management-integrations-between-human-resources-finance-operations-apps)
 
-    - Pārvaldiet vides pakalpojumos Microsoft Dynamics Lifecycle Services, izdošanas meklēšanā Regression Suite Automation Tool un.
-    - Ir viena koda bāze, kur personāla vadības jaunā funkcionalitāte ir izlaista kā daļa no parastā vienas versijas atjaunināšanas procesa.
-    - Veids, kā vidēs tiek pielietoti jauninājumi, atjauninājumi un labojumfaili, ir konsekventi.
+    - Pārvaldiet vidi Microsoft Dynamics Dzīves cikla pakalpojumi, problēmu meklēšana un Regression Suite Automation Tool.
+    - Pastāv viena koda bāze, kurā kā daļa no regulārā vienas versijas atjaunināšanas procesa tiek izlaista jauna funkcionalitāte cilvēkresursiem.
+    - Veids, kā jauninājumi, atjauninājumi un labojumfaili tiek lietoti vidēs, ir konsekventi.
 
-- [Paplašināmības opcijas ir uzlabotas.](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/improve-extensibility-options.md)
+- [Ir uzlabotas paplašināšanas iespējas.](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/improve-extensibility-options.md)
 
-    - Varat turpināt lietot Microsoft Power Platform rīkus, lai paplašinātu, kā nepieciešams.
-    - Funkcionalitāti var paplašināt ar formām, tabulām, metodēm un programmas programmēšanu interfeisiem (API).
-    - Varat izveidot un paplašināt elementus.
+    - Jūs varat turpināt lietot Microsoft Power Platform instrumenti, lai paplašinātu pēc vajadzības.
+    - Varat paplašināt funkcionalitāti, izmantojot veidlapas, tabulas, metodes un lietojumprogrammu saskarnes (API).
+    - Varat izveidot un paplašināt entītijas.
 
-    Papildinformāciju par pieejamām paplašinājuma opcijām skatiet [pārskatā par paplašināmību programmā Dynamics 365.](../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md)
+    Papildinformāciju par pieejamajām paplašinājumu opcijām skatiet sadaļā [Pārskats par paplašināmību programmā Dynamics 365](../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md).
 
-- [Izveidojiet vienu personāla vadības spēju kopu programmā Dynamics 365.](/dynamics365-release-plan/2021wave2/human-resources/create-one-set-human-resources-capabilities-within-dynamics-365.md)
+- [Izveidojiet vienu cilvēkresursu iespēju komplektu programmā Dynamics 365.](/dynamics365-release-plan/2021wave2/human-resources/create-one-set-human-resources-capabilities-within-dynamics-365.md)
 
-    10.0.25. laidienā funkcionālās iespējas, kas pastāvēja tikai cilvēkresursos, ir padarītas pieejamas Finanšu un operāciju infrastruktūrai. Lai debitori izmantotu šīs iespējas finanšu un operāciju vidē, līdzekļa Līdzekļu pārvaldībā ir jāiespējo tālāk minētie personāla vadības līdzekļi.
+    10.0.25 laidienā Finance and Operations infrastruktūrā ir pieejamas funkcionālās iespējas, kas pastāvēja tikai cilvēkresursos. Lai klienti varētu izmantot šīs iespējas finanšu un operāciju vidē, funkciju pārvaldībā ir jāiespējo tālāk norādītie cilvēkresursu līdzekļi.
 
     | Līdzekļa nosaukums | Pārskats | Nodošanas izpildei statuss | 
     |--------------|----------|----------------| 
-    | Nodarbinātības gadu skaita aprēķins | Iestatīšanas opcija ļauj atlasīt datumu, kas tiek lietots **pakalpojumu gadu** aprēķinam. | Vispārēji pieejams | 
-    | Darbplūsmas pieredzes uzlabojumi | Šis līdzeklis nodrošina uzlabotu lietotāja pieredzi darbplūsmas iesniegšanas un apstiprinājumu veikšanā. | Vispārēji pieejams | 
-    | Veiktspējas pārskatu drukāšana | Jūs varat izdrukāt veiktspējas pārskatus PDF formātā. | Vispārēji pieejams | 
-    | Pielāgotās saites **pārvaldnieka pašapkalpošanās pakalpojumā** | Varat izveidot pielāgotās saites, kas tiek **parādītas pārvaldnieka** pašapkalpošanās **sadaļā Saistītās** saites. | Vispārēji pieejams | 
-    | Starpuzņēmumu kompensācijas skats | Lietotāji var skatīt kompensāciju **plānus pārvaldnieka** pašapkalpošanās sistēmā visām juridiskajām personām bez nepieciešamības mainīt uzņēmumus. | Vispārēji pieejams | 
-    | Konfigurēt vairākus atlīdzības līmeņus pēc darba\*&dagger; | Darbi tagad atbalsta vairākus atlīdzības līmeņus. | Vispārēji pieejams | 
-    | Uzdevumu pārvaldība\* | Varat izveidot kontrolsarakstus un uzdevumus par to, kā tas iet uz darbu, izslēgšanas un pārejas procesam. | Priekšskatījums | 
-    | Racionalizēta darbinieku ievade | Šis līdzeklis nodrošina atjauninātu lietotāja pieredzi esošajā **darbinieka** lapā. | Priekšskatījums | 
+    | Nodarbinātības gadu skaita aprēķins | Iestatīšanas opcija ļauj atlasīt datumu, kas tiek izmantots **Nostrādāti gadi** aprēķins. | Vispārēji pieejams | 
+    | Darbplūsmas pieredzes uzlabojumi | Šis līdzeklis nodrošina uzlabotu lietotāja pieredzi darbplūsmas iesniegšanai un apstiprināšanai. | Vispārēji pieejams | 
+    | Veiktspējas pārskatu drukāšana | Varat izdrukāt veiktspējas pārskatus PDF formātā. | Vispārēji pieejams | 
+    | Pielāgotas saites iekšā **Vadītāja pašapkalpošanās** | Varat izveidot pielāgotas saites, kas tiek rādītas **Saistītās saites** sadaļa **Vadītāja pašapkalpošanās**. | Vispārēji pieejams | 
+    | Starpuzņēmumu kompensācijas skats | Lietotāji var apskatīt kompensācijas plānus **Vadītāja pašapkalpošanās** visām juridiskajām personām, nemainot uzņēmumus. | Vispārēji pieejams | 
+    | Konfigurējiet vairākus atlīdzības līmeņus pēc darba\*&dagger; | Darbi tagad atbalsta vairākus atalgojuma līmeņus. | Priekšskatījums | 
+    | Uzdevumu pārvaldība\* | Varat izveidot kontrolsarakstus un uzdevumus uzņemšanas, izslēgšanas un pārejas procesam. | Priekšskatījums | 
+    | Racionalizēta darbinieku ievade | Šī funkcija nodrošina atjauninātu lietotāja pieredzi esošajā **Strādnieks** lappuse. | Priekšskatījums | 
     | Cilvēkresursu lietotāju pieredzes uzlabojumi | Skatiet tabulu nākamajā sadaļā.  | Priekšskatījums | 
 
-\* Šī funkcija ir jāieslēdz pirms personāla **vadības lietotāju pieredzes uzlabojumu** funkcijas.
+\* Šī funkcija ir jāieslēdz pirms **Cilvēkresursu lietotāju pieredzes uzlabojumi** funkciju.
 
-&dagger; Pēc šī līdzekļa iespējošanas to nevar atspējot.
+&dagger; Šo funkciju nevar atspējot pēc tā iespējošanas.
 
-## <a name="human-resource-user-experience-enhancements"></a>Personāla vadības lietotāju pieredzes uzlabojumi
+## <a name="human-resource-user-experience-enhancements"></a>Cilvēkresursu lietotāju pieredzes uzlabojumi
 
 | Līdzekļa nosaukums | Pārskats | 
 |--------------|----------| 
-| Papildu piekļuve | Piekļuve darbiniekiem ir ierobežota, pamatojoties uz juridisku personu. | 
-| Dzēst nodarbinātību | Ir iespējams izdzēst darbinieka nodarbinātību. | 
-| Ģimenes ar amatu | Var izsekot darbu grupu, kurā iesaistīts līdzīgs darbs un kam nepieciešama līdzīga apmācība, prasmes, zināšanas un kompetence. | 
-| Papildu nodarbinātības lauki | Tika pievienoti šādi lauki: **Nodarbinātības** kategorija, **Nodarbinātības tips un** Nodarbinātības **statuss**. | 
-| **Darbinieki bez nodarbinātības** lapas | Lapā parādīts to darbinieku saraksts, kuriem nav nodarbinātības ieraksta. | 
-| Pozīciju dimensijas lietotāju pieredzes atjaunināšana | Lai piešķirtu pozīciju dimensijas juridiskajām personām, ir lielāka lietotāja pieredze. | 
-| Adreses izmaiņas personāla **vadības** darbvietā | Šī funkcija sniedz visu adreses izmaiņu skaitu, kas radās norādīto dienu skaitu, kā norādīts personāla vadības **parametru** lapā. | 
-| Personāla vadības darbvietā **beigbeigs** ierakstu skaits | Šī funkcija sniedz to krājumu sarakstu, kuriem ir beidzies derīguma termiņš vai kuru derīgums beigsies sertifikātiem, identifikācijām, pārbaudēm, izvērtēšanām vai testiem. | 
-| **Pozīciju hierarhijas pārbaudes** lapa | Ir veikta riņķveida atsauču pārbaude pozīciju rindu hierarhijā. | 
-| Valstij raksturīgā algu informācija | Papildu algas lauki ir pieejami **darbinieku nodarbinātības** lapā atkarībā no tās juridiskās personas valsts vai reģiona, kurā darbinieki ir nodarbināti. | 
-| Saskaņotības pārskatu uzlabojumi | Ir pieejamas papildu pārskatu opcijas EEO-1, Vets 4212 un OSHA300a. | 
-| Personāla pārvaldības **darbvietas** atjauninājumi | Ir veikti atjauninājumi, lai izsekotu adrešu izmaiņas un ierakstus, kuru skaits beidzas. Turklāt jaunās cilnes sarakstam pie darbinieka un amata darbības. | 
+| Dzēst nodarbinātību | Jūs varat dzēst darbinieka darba līgumu. | 
+| Darba ģimenes | Varat izsekot darbu grupai, kas ietver līdzīgu darbu un kam nepieciešama līdzīga apmācība, prasmes, zināšanas un pieredze. | 
+| Papildu nodarbinātības jomas | Tika pievienoti šādi lauki: **Nodarbinātības kategorija**, **veids**, un **Nodarbinātības statuss**. | 
+| **Strādnieki bez darba** lappuse | Lapā tiek parādīts to darbinieku saraksts, kuriem nav darba reģistra. | 
+| Pozīcijas dimensijas lietotāja pieredzes atjauninājums | Ir uzlabota lietotāja pieredze pozīcijas dimensiju piešķiršanai katrai juridiskai personai. | 
+| Adreses izmaiņas **Personāla vadība** darba vieta | Šis līdzeklis nodrošina visu to adrešu izmaiņu skaitu, kas notikušas noteiktā dienu skaitā, kā noteikts **Cilvēkresursu parametri** lappuse. | 
+| Ierakstu derīguma termiņš beidzas **Personāla vadība** darba vieta | Šis līdzeklis nodrošina to vienumu sarakstu, kuru derīguma termiņš ir beidzies vai beigsies sertifikātiem, identifikācijām, pārbaudēm, pārbaudēm vai pārbaudēm. | 
+| **Pozīciju hierarhijas apstiprināšana** lappuse | Tiek pārbaudītas apļveida atsauces pozīcijas līniju hierarhijā. | 
+| Valsts specifiska algas informācija | Papildu algas lauki ir pieejami vietnē **Strādnieku nodarbinātība** lapu atkarībā no tās juridiskās personas valsts vai reģiona, kurā darbinieki ir nodarbināti. | 
+| Atbilstības ziņošanas uzlabojumi | Papildu ziņošanas opcijas ir pieejamas EEO-1, Vets 4212 un OSHA300a. | 
+| Atjauninājumi uz **Personāla vadība** darba vieta | Ir veikti atjauninājumi, lai izsekotu adreses izmaiņām un ierakstiem, kuru derīguma termiņš beidzas. Turklāt jaunās cilnēs ir uzskaita darbinieka un amatu darbības. | 

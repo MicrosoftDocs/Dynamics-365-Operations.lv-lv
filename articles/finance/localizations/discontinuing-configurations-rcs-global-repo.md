@@ -2,11 +2,9 @@
 title: Konfigurāciju pārtraukšana RCS globālajā repozitorijā
 description: Šajā tēmā aprakstīts, kā pārtraukt RCS globālā repozitorija konfigurācijas.
 author: JaneA07
-manager: AnnBe
 ms.date: 02/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERWorkspace
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2021-02-02
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 35d0af91161d898b09557a83913019609c71e836
-ms.sourcegitcommit: e9d19f25e64cf4d1c1d07c8031a7081454a6f79e
-ms.translationtype: HT
+ms.openlocfilehash: 340fc96e7dfe56da9ee8d4831a5980e3e96ec3ee0f2f5a8fb2ab72f713de9737
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "5474252"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712174"
 ---
 # <a name="discontinue-configurations-in-the-rcs-global-repository"></a>Konfigurāciju pārtraukšana RCS globālajā repozitorijā
 
@@ -47,7 +45,7 @@ Lai pārtrauktu konfigurāciju, izpildiet šīs darbības:
 2. Iestatiet parametru **Pārtraukt** uz opciju **Jā**.
 3. Atlasiet **Labi**, lai pārtrauktu konfigurācijas. Lauks **Pārtraukšanas datums** tiks aizpildīts, kad saglabāsit izmaiņas.
 
-![Konfigurācijas pārtraukšanas informācija](media/Discontinue-details-2.png)
+![Konfigurācijas pārtraukšanas informācija.](media/Discontinue-details-2.png)
   
 Jebkurā laikā varat atgriezt konfigurāciju statusā **Kopīgota** vai pielāgot konfigurācijas informāciju. Kopīgojot informāciju, norādiet datumu **Atbalstīta līdz** un citu informāciju, kas ir saistīta ar pārtraukšanu, lai norādītu savus plānus attiecībā uz pārtraukšanu nākotnē.
 

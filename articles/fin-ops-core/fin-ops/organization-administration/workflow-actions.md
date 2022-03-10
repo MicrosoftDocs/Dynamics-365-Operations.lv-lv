@@ -14,16 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2da54d147c7e9c8a42ef9de94abcbe7f36c98295
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: 2e546dc57692e31d4501984dafa21fbae23a48fe
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355752"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070937"
 ---
 # <a name="actions-in-workflow-approval-processes"></a>Darbības darbplūsmas apstiprināšanas procesos
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Šajā rakstā ir paskaidrotas darbības, kuras darbplūsmas apstiprināšanas procesā var veikt katrs dalībnieks.
 

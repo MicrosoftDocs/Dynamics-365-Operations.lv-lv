@@ -2,16 +2,13 @@
 title: Maksāšanas metodes zvanu centros
 description: Šajā tēmā ir aprakstītas dažādās maksāšanas metodes, ko varat izmantot zvanu centrā programmatūrā Dynamics 365 Commerce.
 author: josaw1
-manager: AnnBe
 ms.date: 03/28/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: MCRSalesTableOrderHistory, MCRCCAuthManagement
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 92163
 ms.assetid: 8e738907-870b-466c-ab0c-07f4a4aa47f3
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e7636f5c664634c680edf2ff9d8bae5ebb9035af
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: b89daf41c8a14f5e03dc2a67c95e9d1fed2d5cab891ae65e20655c285b1f6ac2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414065"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762576"
 ---
 # <a name="payment-methods-in-call-centers"></a>Maksāšanas metodes zvanu centros
 
@@ -34,7 +31,7 @@ Programmatūrā Dynamics 365 Commerce zvanu centra kanāla konfigurācijā ietil
 
 Kā daļa no kanāla konfigurēšanas uzņēmumiem ir iespēja definēt maksājuma metodes, kas ir atļautas zvanu centra kanālam. Zvanu centra kanāls izmanto tādas pašas maksāšanas metodes, kādas ir definētas veikalu kanāliem.
 
-Lai konfigurētu maksāšanas metodes zvanu centra kanālam, dodieties uz **Retail un Commerce** \> **Kanāli** \> **Zvanu centri** \> **Visi zvanu centri** un pēc tam izvēlnē **Iestatīt** atlasiet opciju **Maksāšanas metodes**.
+Lai konfigurētu maksāšanas metodes zvanu centra kanālam, dodieties uz **Mazumtirdzniecība un komercija** \> **Kanāli** \> **Zvanu centri** \> **Visi zvanu centri** un pēc tam izvēlnē **Iestatīt** atlasiet opciju **Maksāšanas metodes**.
 
 Kad veidojat maksāšanas metodi, piešķiršanai ir pieejamas piecas maksāšanas metodes funkcijas.
 
@@ -52,4 +49,7 @@ Definējot maksājuma metodes, tām ir jābūt saistītam ar virsgrāmatu vai ba
 
 Atmaksas apstrādāšanas scenārijos zvanu centrs izmanto arī dažas maksāšanas metodes, kas ir definētas modulī Debitoru parādi. Lai konfigurētu šīs maksāšanas metodes, dodieties uz **Retail un Commerce** \> **Kanāla iestatīšana** \> **Zvanu centra iestatīšana** \> **Zvanu centra atmaksas metodes**. Jums ir jāizpilda šī konfigurācija, lai apstrādātu debitoriem paredzētus atmaksas čekus. Piemēram, ja debitors sākotnēji maksāja par pasūtījumu, izmantojot skaidru naudu vai čeku, lietotājs varētu vēlēties nosūtīt debitoram atmaksas čeku, izmantojot moduli Debitoru parādi. Šajā gadījumā zvanu centra skaidras naudas un čeka maksājuma tipiem ir jābūt kartētiem uz pareizo maksāšanas metodi modulī Debitoru parādi, lai palīdzētu nodrošināt pareizu atmaksas apstrādāšanu.
 
-Turklāt, ja lietotājs apstrādā atgriešanas pasūtījumu kā zvanu centra lietotājs programmatūrā Commerce, bet viņš vai viņa nevar šo atgriešanu saistīt ar sākotnējo pārdošanu, tad **Atgriešanas** maksāšanas metode ir jādefinē zvanu centra parametros. Dodieties uz **Retail un Commerce** \> **Kanāla iestatīšana** \> **Zvanu centra iestatīšana** \> **Zvanu centra parametri** un pēc tam cilnē **RMA/Atgriešana**, laukā **Maksāšanas metode** pārliecinieties, ka ir definēta kāda maksāšanas metode. Maksāšanas metode būs tā maksāšanas metode, kas tiek izmantota atmaksām. Parasti tā tiek definēta kā čeka metode vai debitora konta metode.
+Turklāt, ja lietotājs apstrādā atgriešanas pasūtījumu kā zvanu centra lietotājs programmatūrā Commerce, bet lietotājs nevar šo atgriešanu saistīt ar sākotnējo pārdošanu, tad **Atgriešanas** maksāšanas metode ir jādefinē zvanu centra parametros. Dodieties uz **Retail un Commerce** \> **Kanāla iestatīšana** \> **Zvanu centra iestatīšana** \> **Zvanu centra parametri** un pēc tam cilnē **RMA/Atgriešana**, laukā **Maksāšanas metode** pārliecinieties, ka ir definēta kāda maksāšanas metode. Maksāšanas metode būs tā maksāšanas metode, kas tiek izmantota atmaksām. Parasti tā tiek definēta kā čeka metode vai debitora konta metode.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

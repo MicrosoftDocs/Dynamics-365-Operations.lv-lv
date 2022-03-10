@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: faeaf0746532875d3517a208c9c338c112bf2c77
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: a1d1ddf108e5e79ca7684ecc26df1c016a0362bbec43868c7dfed6970a097a76
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816887"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731432"
 ---
 # <a name="withholding-tax-in-purchase-transactions"></a>Ieturētais nodoklis pirkšanas darījumos
 
@@ -64,15 +64,15 @@ Noklusējuma ieturētā nodokļa grupa un vienuma ieturētā nodokļa grupa tiks
 
 Ieturētā nodokļa pagaidu summa ir pieejama laukā **Koriģētais ieturētais nodoklis** cilnē **Kopsummas** lapā **Pirkšanas pasūtījums**.
 
-![Ieturētais nodoklis ir iekļauts pirkšanas pasūtījumā](media/withholding-tax-adjusted.png)
+![Ieturētais nodoklis ir iekļauts pirkšanas pasūtījumā.](media/withholding-tax-adjusted.png)
 
 Ieturētais nodoklis tiek aprēķināts **Piegādātāja maksājumu žurnālā**. Varat manuāli koriģēt piemērojamos ieturētā nodokļa kodus, kā arī faktiskās ieturētā nodokļa summas cilnē **Ieturētais nodoklis** lapā **Transakciju kārtošana**.
 
-![Ieturēto summu var manuāli koriģēt lapā Transakciju izpilde](media/withholding-tax-vendor-payment-tab.png)
+![Ieturēto summu var manuāli koriģēt lapā Transakciju izpilde.](media/withholding-tax-vendor-payment-tab.png)
 
 Atvasinātā ieturētā nodokļa summa tiks atskaitīta no piegādātāja maksājuma un grāmatota **Ieturētā nodokļa korespondējošais konts** saistītā dokumentā.
 
-![Ieturētā nodokļa konts, kas rāda saistīto dokumentu](media/withholding-tax-adjusted.png)
+![Ieturētā nodokļa konts, kas rāda saistīto dokumentu.](media/withholding-tax-adjusted.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

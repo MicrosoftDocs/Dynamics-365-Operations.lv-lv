@@ -13,13 +13,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
-ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 8436842b4f07ba000649075198bdef43ad508f8f
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.18
+ms.openlocfilehash: 7f18c3bd95901303379c460d026bc944cee809b7
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270961"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576668"
 ---
 # <a name="rebate-management-deal-workflows"></a>Atlaižu pārvaldības darījumu darbplūsmas
 

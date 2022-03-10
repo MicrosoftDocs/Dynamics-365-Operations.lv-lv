@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 72273a125da2e6c4a2fc16b449cd5077f3d767df
-ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
-ms.translationtype: HT
+ms.openlocfilehash: b5f7342a997407c8701b836c2a6a6222d8512121
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7548395"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074998"
 ---
 # <a name="create-and-invoice-an-intercompany-sales-order-for-an-external-customer"></a>Starpuzņēmumu pārdošanas pasūtījumu ārējam debitoram izveide un rēķina izrakstīšana
 
@@ -75,5 +75,18 @@ Izpildiet šīs darbības juridiskajā personā B. Šī procedūra atbilst 2. lo
 1. Atlasiet pārdošanas pasūtījumu un pēc tam noklikšķiniet uz **Labi**.
 
 Debitora rēķins starpuzņēmumu pārdošanas pasūtījumam tiek automātiski iegrāmatots juridiskajai personai B. Pēc tam, starpuzņēmumu kreditora rēķins tiek automātiski izveidots un iegrāmatots juridiskajā personā B. Ja sākotnējais pārdošanas pasūtījums ir iestatīts kā tiešā piegāde, debitora rēķins tiek izveidots sākotnējam pārdošanas pasūtījumam juridiskajā personā A.
+
+> [!NOTE]
+> Iepriekš starpuzņēmumu pārdošanas scenārijos, ja piegādātāja rēķina darbplūsma bija konfigurēta starpuzņēmumu pirkšanas uzņēmumā, starpuzņēmumu pārdošanas pasūtījumu nevarēja sekmīgi izrakstīt. Tāpēc starpuzņēmumu iepirkumu uzņēmumam bija jāizslēdz pārdevēja rēķinu darbplūsma. 
+> 
+> Šis ierobežojums ir novērsts, izmantojot neseno līdzekli 10.0.25. Par starpuzņēmumu pārdošanas pasūtījumiem tagad var izrakstīt rēķinus, kad starpuzņēmumu pirkšanas uzņēmumā ir konfigurēta piegādātāja rēķinu darbplūsma.
+> 
+> Lai iespējotu šo funkciju, veiciet šīs darbības.
+>
+> 1. Izvēlieties starpuzņēmumu pārdošanas juridisko personu.  
+> 2. Dodieties uz **Debitoru parādi \> Debitori \> Visi debitori**.
+> 3. Izvēlieties klientu starpuzņēmumu iepirkumu uzņēmumam.
+> 4. Iet uz **Ģenerālis \> Uzstādīt \> Starpuzņēmums**.
+> 5. Uz **Pirkuma pasūtījumu politikas** cilnē atlasiet **Apiet piegādātāja rēķinu darbplūsmu starpuzņēmumu piegādātāju rēķiniem** parametrs.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

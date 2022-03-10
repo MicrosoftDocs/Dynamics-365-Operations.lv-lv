@@ -2,7 +2,7 @@
 title: Saglabātie skati
 description: Šajā tēmā ir aprakstīts, kā izmantot saglabāto skatu līdzekļus.
 author: jasongre
-ms.date: 05/17/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,17 +13,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 8a5daee72f4f339fbebffb5c1d64814959775340
-ms.sourcegitcommit: 13fa6385d8f3bb18df5a52fd2b0f4ad3484ad0ba
-ms.translationtype: HT
+ms.openlocfilehash: bd1b034ebb66b996e20173c2ad4f958e643f9c2e
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/17/2021
-ms.locfileid: "6050560"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065710"
 ---
 # <a name="saved-views"></a>Saglabātie skati
 
 [!include [banner](../includes/banner.md)]
 
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 ## <a name="introduction"></a>Ievads
 
@@ -48,6 +50,8 @@ Skata atlasītājam ir divi izmēru varianti:
  
 Atlasot skata nosaukumu, atveras skata atlasītājs un tajā tiek parādīts pieejamo skatu saraksts šai lapai.
 
+**Versija 10.0.21 vai jaunāka versija:** ja ir ieslēgta **Uzlabotās juridiskās personas atbalsts saglabātajiem skatiem**, skatījuma atlasītājs parāda divās sadaļās pieejamos skatus. Pirmā sadaļa parāda skatījumus, kas ir raksturīgi pašreizējai juridiskajai personai, un otrais parāda skatījumus, kas ir pieejami visām juridiskajām personām. Pirmā sadaļa ir redzama tikai tad, ja ir juridiskās personas specifiskie lapas skati.
+
 - **Klasiskais skats** - **Standarta** skats ir lapas standarta skats, kurā nav lietotas personalizācijas.
 - **Personiskie skati** - skati bez slēdzenēm ir jūsu personiskie skati. Tie ir skati, ko esat izveidojis pats vai ko jums piešķīris administrators.
 - **Bloķētie skati** - Dažos skatos (piemēram, **Standarta** skatā un jebkuriem jūsu lomai publicētajiem skatiem) ir slēdzenes simbols, kas atrodas blakus skata atlasītājam. Šis simbols norāda, ka šos skatus nevar rediģēt. Tomēr izmaiņas, kas ataino lapas izmantošanu, tiek automātiski saglabātas. Šīs izmaiņas ietver režģa kolonnas platuma izmaiņas un izmaiņas kopsavilkuma cilnes izvērstajā vai sakļautajā stāvoklī. Tomēr, ja jums ir personalizācijas privilēģijas, jūs varat izmantot darbību **Saglabāt kā**, lai izveidotu personalizētu skatu, kas balstīts uz bloķēto skatu.
@@ -68,15 +72,18 @@ Ja vēlaties saglabāt šīs izmaiņas, rīkojieties šādi.
 3. Lai izveidotu jaunu skatu:
 
     1. Atlasiet **Saglabāt kā**. 
-    2. Ievadiet skata nosaukumu un (pēc izvēles) aprakstu.
-    3. Atlasiet **Saglabāt**.
+    2. Rūtī **Saglabāt kā** ievadiet skata nosaukumu un aprakstu pēc izvēles.
+    3. Ja vēlaties, lai šis skats būtu noklusējuma skats, atlasiet **Piespraust kā noklusējumu**. Papildinformāciju par noklusējuma skatījumiem skatiet tālāk redzamajā sadaļā [Noklusētā skata maiņa](#changing-the-default-view). 
+    4. **Versija 10.0.21 vai jaunāka versija:** ja ir ieslēgta **Uzlabotās juridiskās personas atbalsts saglabātajiem skatiem**, varat atlasīt, vai vēlaties, lai šis skatījums būtu pieejams visām juridiskajām personām vai tikai to apakškopai.
+    5. Atlasiet **Saglabāt**.
 
 ## <a name="changing-the-default-view"></a>Noklusējuma skata maiņa
 
 Noklusējuma skats ir skats, ko sistēma mēģina atvērt, kad pirmo reizi atvērsiet lapu. Ieteicams iestatīt noklusējuma skatu, ko paredzēts izmantot visbiežāk. 
 
 > [!NOTE]
-> Visiem uzņēmumiem ir viens globāls noklusējuma skats. Ja mainīsit noklusējuma skatu, šis skats tiks atvērts pēc noklusējuma, neskatoties uz jūsu esošo juridisko personu. 
+> - Pamata līdzeklim **Saglabātie skati** ir viens globāls noklusējuma skats starp juridiskajām personām. Ja mainīsit noklusējuma skatu, šis skats tiks atvērts pēc noklusējuma, neskatoties uz jūsu esošo juridisko personu.
+> - **Versija 10.0.21 vai jaunāka:** ja ir ieslēgta **Uzlabotās juridiskās personas atbalsts saglabātajiem skatiem**, katrai juridiskajai personai var būt savs noklusējuma skats katrā lapā.
 
 Lai mainītu lapas noklusējuma skatu, izpildiet šīs darbības.
 
@@ -86,20 +93,23 @@ Lai mainītu lapas noklusējuma skatu, izpildiet šīs darbības.
 
 Vai arī, veidojot jaunu skatu (izmantojot darbību **Saglabāt kopiju** ), varat padarīt šo jauno skatu par noklusējuma skatu, iestatot opciju **Piespraust kā noklusējumu**, pirms saglabājat skatu.
 
-Ņemiet vērā, ka dažos gadījumos ar noklusējuma skatu saistītais vaicājums netiek palaists, kad pirmo reizi atverat lapu. Piemēram, ja jūs atverat lapu, izmantojot elementu, attiecīgā elementa vaicājums tiks palaists neatkarīgi no vaicājuma, kas saistīts ar noklusējuma skatu. Turklāt, ja atverat lapu, kuras **Standarta** skatam jau ir definēts vaicājums, sākotnējais vaicājums tiks palaists noklusējuma skata vaicājuma vietā. Šādā gadījumā tiek parādīts informatīvs paziņojums, kad tiek ielādēts skats. Ja skatu pārslēdzat pēc lapas ielādēšanas, skata vaicājumam vajadzētu būt darbināmam, kā paredzēts. Versijā 10.0.10 un jaunākās versijās informatīvajam ziņojumam, ko saņemat, būs iegulta darbība, kas ļauj tieši ielādēt noklusējuma skata vaicājumu.
+> [!WARNING]
+> Ņemiet vērā, ka dažos gadījumos ar noklusējuma skatu saistītais vaicājums netiek palaists, kad pirmo reizi atverat lapu. Piemēram, ja jūs atverat lapu, izmantojot elementu, attiecīgā elementa vaicājums tiks palaists neatkarīgi no vaicājuma, kas saistīts ar noklusējuma skatu. Turklāt, ja atverat lapu, kuras **Standarta** skatam jau ir definēts vaicājums, sākotnējais vaicājums tiks palaists noklusējuma skata vaicājuma vietā. Šādā gadījumā tiek parādīts informatīvs paziņojums, kad tiek ielādēts skats. Ja skatu pārslēdzat pēc lapas ielādēšanas, skata vaicājumam vajadzētu būt darbināmam, kā paredzēts. Versijā 10.0.10 un jaunākās versijās informatīvajam ziņojumam, ko saņemat, būs iegulta darbība, kas ļauj tieši ielādēt noklusējuma skata vaicājumu.
 
 ## <a name="managing-personal-views"></a>Personisko skatu pārvaldība
 
 Dialoglodziņš **Pārvaldīt manus skatus** nodrošina pamata uzturēšanas iespējas attiecībā uz personiskajiem skatiem un skatu secību skata atlasītājā. Lai atvērtu šo lapu, atlasiet skata nosaukumu, lai atvērtu skata atlasītāja nolaižamo izvēlni, atlasiet **Vairāk** un pēc tam atlasiet **Pārvaldīt manus skatus**.
 
+**Versija 10.0.21 vai jaunāka versija:** ja ir ieslēgta **Uzlabotās juridiskās personas atbalsts saglabātajiem skatiem**, dialoglodziņā **Pārvaldīt manus skatus** sadaļā **Mani skati** ir redzami sadaļās pieejamie lapas skati. Visi pašreizējai juridiskajai personai specifiskie skatījumi tiek rādīti viņu pašu sadaļā. Vienmēr tiek parādīta sadaļa **Globālie skati**, tādējādi varat pārvaldīt skatījumus, kas ir pieejami lapai visās juridiskajās personām. 
+
 Attiecīgajā lapā pieejamo skatu sarakstam ir pieejams šādu darbību kopums.
 
-- **Mainīt noklusējuma skatu** - izmantojiet darbību **Piespraust kā noklusējumu**, lai iestatītu pašlaik atlasīto skatu kā attiecīgās lapas noklusējuma skatu.
+- **Mainīt noklusējuma skatu** - izmantojiet darbību **Piespraust kā noklusējumu**, lai iestatītu pašlaik atlasīto skatu kā attiecīgās lapas noklusējuma skatu. Ja līdzeklis **Importēt juridiskās personas atbalstu saglabātajiem skatiem** ir ieslēgts, sadaļa **Globālie skatījumi** ļauj skatīt noklusējuma skatu pašreizējai juridiskajai personai vai visām juridiskajām personām.
 - **Pārkārtot savus skatus** - izmantojiet darbības **Pārvietot uz augšu** un **Pārvietot uz leju**, lai pārkārtotu skatus noteiktā secībā.
 - **Pārdēvēt skatu** - izmantojiet darbību **Pārdēvēt**, lai mainītu pašlaik atlasītā personiskā skata nosaukumu. Bloķētajiem skatiem šī darbība ir izslēgta. 
 - **Dzēst skatu** - izmantojiet darbību **Dzēst**, lai neatgriezeniski dzēstu pašlaik atlasīto skatu no lapas. Pēc noņemšanas skatu nav iespējams atgūt.
 
-Jebkuras izmaiņas, kas veiktas šajā dialoglodziņā, stāsies spēkā pēc tam, kad atlasīsit pogu **Saglabāt**.
+Jebkuras izmaiņas, kas veiktas šajā dialoglodziņā, stāsies spēkā pēc tam, kad atlasīsit pogu **Atjaunināt**.
 
 ## <a name="managing-personalizations-at-an-organizational-level-with-views"></a>Personalizāciju pārvaldība organizācijas līmenī ar skatiem
 
@@ -128,24 +138,28 @@ Lai publicētu skatu, veiciet šādas darbības.
 6. Nosakiet, vai skats ir jāpublicē atlasītajiem lietotājiem kā noklusējuma skats. Kad skats ir pārveidots par noklusējuma skatu, lietotāji to redzēs nākamreiz, kad tiks atvērta mērķa lapa. Tiks mainīts katra mērķa lietotāja globālais noklusējuma skats. Tomēr lietotāji joprojām var mainīt savu noklusējuma skatu pēc publicēšanas.
 
     > [!NOTE]
-    > Publicējot skatu kā noklusējuma skatu, ņemiet vērā šādus iestatījumus: 
-    > -  Ja skatu kā noklusējuma skatu publicējat visām vai dažām juridiskajām personām, jūs maināt katra mērķa lietotāja vienoto, **vispārējo** noklusējuma skatu. 
-    > -  Ja lietotājam ir lomas, kurās vairāki noklusējuma skati tiek publicēti kā noklusējuma skats, pēdējais publicētais skats tiks izmantots kā lietotāja noklusējuma skats. 
+    > Publicējot skatu kā noklusējuma skatu, ņemiet vērā šādus iestatījumus:
+    >
+    > - Ja jūs publicējiet skatījumu kā noklusējuma skatu dažām vai visām juridiskajām personām, šāda rīcība notiek:
+    >
+    >    - Ja ir ieslēgta tikai iespēja **Saglabātie skati**, katram lietotājam tiek mainīts viens globālais noklusējuma skats. 
+    >    - **Versija 10.0.21 vai jaunāka versija:** ja **Uzlabotās juridiskās personas atbalsts saglabātajiem skatiem** ir ieslēgts, un jūs publicējat skatu juridisko personu apakškopai, šo juridisko personu noklusējuma skats tiks mainīts katram mērķa lietotājam.
+    >
+    > - Ja lietotājam ir lomas, kurās vairāki noklusējuma skati tiek publicēti kā noklusējuma skats, pēdējais publicētais skats tiks izmantots kā lietotāja noklusējuma skats. 
 
 8. Pievienojiet drošības lomas, kas atbilst lietotājiem, kuriem ir paredzēts šis skats. 
 9. Nosakiet, vai vēlaties publicēt skatu uz katras atlasītās drošības lomas pakārtotām lomām. Ja vēlaties, atlasiet izvēles rūtiņu **Iekļaut pakārtotās lomas** atbilstošajā drošības lomu rindā. Ievērojiet, ka šī izvēles rūtiņa nav pieejama lomām, kurām nav pakārtotu lomu.
 10. Pievienojiet juridiskās personas, kurām šis skats ir pieejams. 
 
     > [!NOTE]
-    > Publicējot skatījumu juridiskai personai, jāņem vērā turpmāk minētās prognozes.
-    > 
-    > Ja publicējat skatu juridiskai personai, bet jūs to nepublicējat kā noklusējuma skatu, lietotāji sākotnēji redzēs skatu atlasītāju tikai norādītajām juridiskajām personām. Tomēr pēc tam, kad skats ir ielādēts pirmo reizi, tas vienmēr būs lietotāja skata atlasītājā šai lapai neatkarīgi no juridiskās personas.
+    > Publicējot skatu juridiskai personai vai publicējot skatu kā noklusējuma skatu, ņemiet vērā šādas darbības:
+    >
+    > - Ja ir ieslēgta tikai iespēja **Saglabātie skati**, lietotāja lapas skatījuma atlasītājs sākotnēji rāda skatu tikai norādītajām juridiskajām personām. Tomēr pēc tam, kad skats ir ielādēts pirmo reizi, tas vienmēr būs lietotāja skata atlasītājā šai lapai neatkarīgi no juridiskās personas.
+    > - **Versija 10.0.21 vai jaunāka versija:** ja ir ieslēgta **Uzlabotās juridiskās personas atbalsts saglabātajiem skatiem**, skatījuma atlasītājs parāda skatu tikai konkrētajām juridiskajām personām.
 
 11. Atlasiet **Publicēt**.
 
 Ņemiet vērā, ka dažās vidēs var būt nepieciešams ilgāks laiks (līdz pat stundai), pirms lietotāji redz publicēto skatu.
-
- 
 
 ## <a name="modifying-a-published-view"></a>Publicētā skata modificēšana
 
@@ -193,6 +207,7 @@ Kaut arī dažas pārvaldības iespējas ir pieejamas katrā lapā, kā norādī
 Lietotāji, kuriem ir piekļuve **Personalizēšana** lapai, var arī importēt personiskos vai organizācijas skatus, izmantojot pogu **Importēt skatus** darbības rūtī. Organizācijas skatījumiem varat atlasīt **Publicēt nekavējoties**, lai padarītu skatus pieejamus lietotājiem bez papildu precīzi formulētas publicēšanas.
 
 ## <a name="known-issues"></a>Zināmās problēmas
+
 Lai skatītu sarakstu ar saglabāto skatu problēmām, lūdzu, skatiet [Veidlapu izveide, kas pilnībā izmanto saglabātos skatus](../../dev-itpro/user-interface/understanding-saved-views.md).
 
 ## <a name="frequently-asked-questions"></a>Bieži uzdotie jautājumi
@@ -200,7 +215,7 @@ Lai skatītu sarakstu ar saglabāto skatu problēmām, lūdzu, skatiet [Veidlapu
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Kā iespējot saglabātos skatus manā vidē?
 
 > [!NOTE]
-> Līdzeklim **Saglabātie skati** ir jāiespējo personalizēšanas sistēma pakalpojumā Finance and Operations. Gadījumā, ja personalizācija ir izslēgta visā vidē, skati tiks atspējoti, pat ja veiksiet zemāk minētās darbības. 
+> Līdzeklim Saglabātie **skati** ir jāiespējo finance and operations personalizācijas sistēma. Gadījumā, ja personalizācija ir izslēgta visā vidē, skati tiks atspējoti, pat ja veiksiet zemāk minētās darbības. 
 
 Funkciju pārvaldībā jebkurā vidē varat ieslēgt vai izslēgt līdzekli **Saglabātie skati**. Kad tas ir ieslēgts, saglabātie skati tiks iespējoti visās turpmākajās lietotāja sesijās.
 
@@ -232,5 +247,11 @@ Lapām ar lieliem skatu atlasītājiem (gan personalizācijas, gan vaicājumus v
 - Pārejot uz lapu, izmantojot elementu, attiecīgā elementa vaicājums tiks izpildīts neatkarīgi no vaicājuma, kas saistīts ar noklusējuma skatu. Ja izveidojāt šo elementu pēc skatu iespējošanas, atlasot elementu, tiks atvērta lapa ar ar šo elementu saistīto skatu.
 - Ja pārejat uz lapu un attiecīgais ieejas punkts ietver vaicājumu, sākotnējais vaicājums tiks izpildīts pirms noklusējuma skata vaicājuma. Ja tā notiek, jums vajadzētu saņemt informatīvu ziņojumu, kad skats tiek ielādēts. Varat arī to apstiprināt, pārslēdzoties uz šo skatu pēc lapas ielādes, jo tam jebkurā gadījumā vajadzētu nodrošināt vaicājuma izpildi.
 
+### <a name="why-is-a-view-that-was-published-for-a-specific-legal-entity-visible-in-all-legal-entities"></a>Kādēļ skatījums, kas tika publicēts noteiktai juridiskajai personai, ir redzams visām juridiskajām personām?
+
+Publicējot skatu juridiskai personai vai publicējot skatu kā noklusējuma skatu, ņemiet vērā šādas darbības:
+
+- Ja ir ieslēgta tikai iespēja **Saglabātie skati**, lietotāja lapas skatījuma atlasītājs sākotnēji rāda skatu tikai norādītajām juridiskajām personām. Tomēr pēc tam, kad skats ir ielādēts pirmo reizi, tas vienmēr būs lietotāja skata atlasītājā šai lapai neatkarīgi no juridiskās personas. Šī darbība notiek, jo lietotāji iegūst paši savu personīgo publicētā skata kopiju, kad tas ir ielādēts un personīgie skatījumi ir globāli.
+- **Versija 10.0.21 vai jaunāka versija:** ja ir ieslēgta **Uzlabotās juridiskās personas atbalsts saglabātajiem skatiem**, skatījuma atlasītājs parāda skatu tikai konkrētajām juridiskajām personām. Šī darbība notiek tāpēc, ka līdzeklis iespējo skatu (tostarp personiskus skatus) saistīt ar noteiktām juridiskām personām.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Adrešu grāmatu konfigurēšana
-description: Izmantojiet šo procedūru un lēmumus, kurus esat pieņēmis, plānojot globālās adrešu grāmatas konfigurāciju un papildu adrešu grāmatas tēmu, lai iestatītu papildu adrešu grāmatas savai organizācijai.
+description: Izmantojiet šo procedūru, lai savai organizācijai iestatītu papildu adrešu grāmatas.
 author: msftbrking
-manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DirAddressBook, DirAddressBookTeam
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 17e36511f4e8c320338032d0df733309005d4021
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
-ms.translationtype: HT
+ms.openlocfilehash: 1e9edd384cf8cc1373481fd47c040cdaeae7d050d2cdba5e0a9afb7c1d361362
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694889"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759117"
 ---
 # <a name="configure-address-books"></a>Adrešu grāmatu konfigurēšana
 
@@ -41,3 +39,6 @@ Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu,
 7. Noklikšķiniet uz bultiņas, lai pievienotu atlasītās pieejamās grupas adrešu grāmatai.
 8. Noklikšķiniet uz **Saglabāt**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

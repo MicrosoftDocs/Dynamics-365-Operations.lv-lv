@@ -1,7 +1,7 @@
 ---
 title: Debitoru portāla instalēšana, iestatīšana un atjaunināšana
 description: Šajā tēmā ir sniegta informācija par licencēšanu un iestatīšanas instrukcijas Debitoru portālam.
-author: dasani-madipalli
+author: Henrikan
 ms.date: 06/08/2020
 ms.topic: article
 ms.prod: ''
@@ -9,19 +9,20 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: henrikan
 ms.search.validFrom: 2020-04-22
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 7d723e7468e42589b8b9a1ed3080c691ebc6bc8e
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 187efe1372bf2400241f3d65751189247c001447
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6353918"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060617"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>Debitoru portāla instalēšana, iestatīšana un atjaunināšana
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [banner](../includes/banner.md)]
+
 
 ## <a name="licensing-requirements"></a>Licencēšanas prasības
 
@@ -40,7 +41,7 @@ Atšķirībā no citiem Supply Chain Management līdzekļiem, Debitoru portāla 
 
 ## <a name="required-setup-to-enable-the-customer-portal"></a><a name="required-setup"></a>Nepieciešamais iestatījums Debitoru portāla iespējošanai
 
-Kad esat pārliecinājies, ka jums ir nepieciešamās licences, varat iestatīt duālo ierakstu, kā aprakstīts [duālā ieraksta sākotnējās sinhronizācijas instrukcijas](/dynamics365/supply-chain/sales-marketing/enable-entity-map).
+Kad esat pārliecinājies, ka jums ir nepieciešamās licences, varat iestatīt duālo ierakstu, kā aprakstīts [duālā ieraksta sākotnējās sinhronizācijas instrukcijas](../../fin-ops-core/dev-itpro/data-entities/dual-write/enable-entity-map.md).
 
 Duālajā ierakstā noteikti iespējojiet tālāk minēto tabulu kartējumus:
 

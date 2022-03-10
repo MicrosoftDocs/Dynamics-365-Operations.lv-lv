@@ -2,11 +2,9 @@
 title: Novietot pie sienas – Novietot veikalā
 description: Šajā tēmā ir sniegta informācija par funkcionalitāti Novietot pie sienas – novietot veikalā. Šī funkcionalitāte ļauj apstrādāt scenārijus, kuros ir jākonsolidē prece fasēšanas sagatavošanas zonā, pamatojoties uz konfigurējamajiem kritērijiem. Tas palīdz samazināt izdošanas laiku, jo ļauj veikt izdošanu vienai mērķa noliktavas vienībai, un var izmantot vairāk izvietošanas vietu nekā klastera izdošana.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationType, WHSLocationProfile, WHSLocation, WHSPackProfile, WHSWaveStepCode, WHSOutboundSortTemplate, WHSPostMethod, WHSWaveTemplateTable, WHSLocDirTable, WHSWorkClass, WHSWorkTemplateTable
 audience: Application User
@@ -14,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: e2dcfa18af457ea21618704bafa2ed81c615d952
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: 372bb556ec1207096a8ff3c7df8bac9b7011b5c4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228517"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574141"
 ---
 # <a name="put-to-wall---put-to-store"></a>Novietot pie sienas – Novietot veikalā
 
@@ -59,7 +57,7 @@ Līdzekli *Izejošā kārtošana* var izmantot savienojumā ar *Organizācijas l
 
 1. Atlasiet **Saglabāt**.
 
-### <a name="warehouse-management-parameters"></a>Noliktavas vadības parametri
+### <a name="warehouse-management-parameters"></a>Noliktavas pārvaldības parametri
 
 1. Doties uz **Noliktavas pārvaldība \> Iestatījumi \> Noliktavas pārvaldības parametri**.
 1. Cilnē **Vispārīgi**, kopsavilkuma cilnes **Novietojuma veidi** laukā **Kārtošanas novietojuma veids** ievadiet *SORT*.
@@ -265,7 +263,7 @@ Rediģējiet kopuma veidni, kas tiek izmantota kopuma pieprasījuma kārtošanai
 
 ### <a name="mobile-device-menu"></a>Mobilās ierīces izvēlne
 
-1. Dodieties uz **Noliktavas vadība \> Iestatījumi \> Mobilā ierīce \> Mobilās ierīces izvēlne**.
+1. Dodieties uz **Noliktavas pārvaldība \> Iestatījumi \> Mobilā ierīce \> Mobilās ierīces izvēlne**.
 1. Izvēlņu sarakstā atlasiet **Izejošs**.
 1. Darbību rūtī atlasiet **Rediģēt**.
 1. Režģī **Pieejamās izvēlnes un izvēļņu elementi** meklējiet un atlasiet tikko izveidoto izvēlnes elementu **Kārtot**.
@@ -439,7 +437,7 @@ Izpildiet šo procedūru, lai katru pārdošanas pasūtījumu izlaistu noliktav�
     Tiks saņemts informatīvs ziņojums, kurā norādīts izveidotais kopuma ID un sūtījuma ID.
 
 1. Atkārtojiet iepriekšējās darbības, lai izlaistu noliktavā 2. un 3. pārdošanas pasūtījumu. Ievērojiet, ka saņemtais informatīvais ziņojums norāda, ka sūtījums ir pievienots kopumam, kas tika izveidots, izlaižot 1. pārdošanas pasūtījumu.
-1. Dodieties uz **Noliktavas pārvaldība \>Izejošie kopumi \>Sūtījuma kopumi \>Visi kopumi**.
+1. Dodieties uz **Noliktavas pārvaldība \> Izejošie kopumi \> Sūtījuma kopumi \> Visi kopumi**.
 1. Atlasiet kopuma ID, kas tika izveidots no pārdošanas pasūtījuma izlaides, lai atvērtu lapu **Kopumi**. Šajā lapā tiek rādīta kopuma informācija. Kopsavilkuma cilne **Kopuma rindas** rāda izveidotos sūtījumus.
 
     Tagad ir jāizveido darbs, lai krājumus no izdošanas vietām pārnestu uz kārtošanas vietām.
@@ -524,7 +522,7 @@ Tagad, kad visi krājumi ir novietoti kārtošanas vietā, tie ir jākārto pare
 
 Ja kārtošanas pozīcijas jāslēdz manuāli, izejošās kārtošanas veidnes opcijai **Automātiski slēgt kārtošanas pozīciju** jābūt iestatītai uz *Nē*, un slēgšana jāveic pirms krājumus var pārvietot uz angāra durvis zonu. Pozīcijas var slēgt dažādos veidos:
 
-- Izmantojot noliktavas programmu:
+- Ar lietotni Warehouse Management mobile:
 
     - Lietotājs var skenēt vienu no krājumiem, kas jau ir pozīcijā, un pēc tam atlasīt **Slēgt**, lai slēgtu pozīciju.
     - Ja lietotājs skenē konteineru, kas jau ir sakārtots, tiek parādīts kļūdas ziņojums. Tomēr lietotājs joprojām var turpināt pozīcijas slēgšanu.

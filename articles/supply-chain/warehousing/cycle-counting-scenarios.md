@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 828954402d223c62f52d7a13fcc9efab84630c80
-ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
-ms.translationtype: HT
+ms.openlocfilehash: ff67198980765f288b5394d91927ae1826266841
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261789"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103342"
 ---
 # <a name="cycle-counting-example-scenarios"></a>Cikla inventarizācijas piemēru scenāriji
 
@@ -32,10 +32,7 @@ Katrs scenārijs šajā tēmā atsaucas uz vērtībām un ierakstiem, kas ir iet
 
 ### <a name="turn-on-support-for-the-warehouse-management-mobile-app"></a>Warehouse Management mobilās programmas atbalsta ieslēgšana
 
-Lai varētu lietot jauno Warehouse Management mobilo programmu, sistēmā tai ir jāpievieno atbalsts. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
-
-- **Modulis:** *Noliktavas pārvaldība*
-- **Līdzekļa nosaukums:** *Lietotāja iestatījumi, ikonas un darbību nosaukumi jaunajai noliktavas programmai*
+Lai izmantotu mobilo programmu Noliktavas pārvaldība, *sistēmā ir jābūt ieslēgtiem jaunās noliktavas programmas funkcijas lietotāja iestatījumiem,* ikonām un darbību nosaukumiem. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja lietojat versiju, kas vecāka par 10.0.25, administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot jaunās noliktavas programmas funkcijas Lietotāja iestatījumus, ikonas un soļu *nosaukumus*[līdzekļu](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pārvaldības darbvietā.
 
 ### <a name="prepare-demo-data-for-the-scenarios"></a><a name= "prepare-demo-data"></a>Sagatavot demonstrācijas datus scenārijiem
 

@@ -1,43 +1,46 @@
 ---
 title: Personāla pārvaldības darbvieta
 description: Šajā tēmā aprakstīti Personāla vadības darbvietas konceptuālās sadaļas elementi.
-author: andreabichsel
-ms.date: 07/01/2021
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmPosition, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.author: anbichse
-ms.reviewer: anbichse
+ms.author: twheeloc
+ms.reviewer: twheeloc
 ms.search.scope: Human Resources
 ms.custom: 269054
 ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 923d4a980c3f8f9b3bf5be1f77d8910081123fa08b068f1fd8fa935312d3a101
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 7a83dea308e3e2eec1edebd5d619f9455e1a2268
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754826"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066579"
 ---
 # <a name="personnel-management-workspace"></a>Personāla pārvaldības darbvieta
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Darbvietā **Personāla vadība** ir iekļauts liels satura daudzums. Tajā ir ietvertas darbinieku kustības, tā izseko darbinieku veiktās izmaiņas, atvērtās pozīcijas, adreses maiņas, ierakstus, kuriem beidzas beidzas darba stāšanās, un analīze, kā arī nodrošina saites uz specifisku informāciju. Šajā tēmā ir sniegta detalizēta informācija par katru darbvietas daļu.
+Darbvietā **Personāla vadība** ir iekļauts liels satura daudzums. Tajā ir ietvertas personāla kustības, izseko darbinieku izmaiņas, atvērtās pozīcijas, adreses izmaiņas, ierakstus, kuru derīguma termiņš beidzas, un analīzi, kā arī nodrošina saites uz konkrētu informāciju. Šajā tēmā ir sniegta detalizēta informācija par katru darbvietas daļu.
 
 ## <a name="activity-tab"></a>Cilne Aktivitātes
 
 Cilne **Aktivitāte** satur sadaļas, kas grupē darbiniekus, balstoties uz viņu stadiju nodarbinātības procesā:
 
-- Kandidāti pieņemšanai darbā
-- Drīzumā sāks
-- Jaunākās pieņemšanas darbā
-- Iziešana
-- Izbeigts
+- **Kandidāti pieņemšanai darbā**
+- **Drīzumā sāks**
+- **Jaunākās pieņemšanas darbā**
+- **Iziešana**
+- **Izbeigts**
 
 Ja darbinieks atrodas vienā no šīm stadijām, noteiktas darbības ir pieejamas kā poga uz kartes vai izvēlnē, kas tiek parādīta, atlasot elipsi (**...**) augšējā labajā stūrī. Tālāk uzskaitītās apakšsadaļas apraksta cilnes **Aktivitāte** sadaļas un sarakstam ar pieejamām darbībām.
 
@@ -51,9 +54,9 @@ Darbvietas sadaļu **Kandidāti, kurus pieņemt darbā** ir aizpildīts no vair�
 
 Kad kandidāti parādās sadaļā **Kandidāti, kurus pieņemt darbā**, kandidāta kartē atlasot daudzpunkti, var veikt šādas darbības:
 
-- Noraidīt kandidātu
-- Nepieņemt darbā
-- Pieņemt darbā
+- **Noraidīt kandidātu**
+- **Nepieņemt darbā**
+- **Pieņemt darbā**
 
 > [!NOTE]
 > Ja kandidāta saraksts tiek aizpildīts no Microsoft Dataverse, tie paši kandidāti tiks rādīti visām juridiskajām personām, jo juridiska persona nav saistīta ar kandidātu.
@@ -65,7 +68,7 @@ Sadaļā **Sāksies drīz** ir uzskaitīti darbinieki, kuru sākuma datums ir n�
 Ja vadītājs uz kartes neparādās, darbiniekam nav piešķirts amats.
 
 > [!NOTE] 
-> Ieteicams darbiniekam piešķirt amatu pirms kontrolsaraksta lietošanas, jo dažreiz darbā pieņemšanas uzdevumi tiek piešķirti jauna darbinieka vadītājam. Tomēr, ja amats nav piešķirts, jaunā darbinieka vadītāju nevar noteikt. Tādā gadījumā kontrolsaraksta īpašniekam tiks piešķirti visi uzņēmuma uzdevumi, kas ir paredzēti vadītājam.
+> Pirms kontrolsaraksta piemērošanas iesakām piešķirt amatu darbiniekam. Dažreiz iekļaušanas uzdevumi tiek uzticēti nesen pieņemtā darbinieka vadītājam. Tomēr, ja amats nav piešķirts, jaunā darbinieka vadītāju nevar noteikt. Tādā gadījumā kontrolsaraksta īpašniekam tiks piešķirti visi uzņēmuma uzdevumi, kas ir paredzēti vadītājam.
 
 Kad darbinieki parādās sadaļā **Sāksies drīz**, viņiem ir pieejamas šādas darbības:
 
@@ -85,7 +88,7 @@ Sadaļā **Jaunākie darbinieki** ir uzskaitīti darbinieki, kuriem pēdējā la
 Pēc noklusējuma sarakstā ir norādīti darbinieki, kuri nolīgti pēdējo septiņu dienu laikā. Lai mainītu šo iestatījumu, lapā **Cilvēkresursu parametri** cilnē **Vispārīgi** definējiet laika posmu **Jaunākiem darbiniekiem**. Datus sadaļā **Jaunākie darbinieki** var rādīt konkrētam dienu, mēnešu vai gadu skaitam. Piemēram, lai skatītu to darbinieku sarakstu, kas nolīgti pēdējās 14 dienās, iestatiet lauku **Periods** uz **14** un lauku **Vienība** uz **Dienas**.
 
 > [!NOTE]
-> Lapā **Personāla vadības parametri** iestatījumi attiecas tikai uz uzņēmumu. Tāpēc laika posms, kurā jūs skatāt pēdējās nolīgšanas par var atšķirties pēc uzņēmuma. Piemēram, USMF uzņēmumā, iespējams, vēlēsieties skatīt visas jaunās nolīgšanas no pēdējām septiņām dienām. Tomēr, USSI uzņēmumā, iespējams, vēlēsieties skatīt visas jaunās nolīgšanas no pēdējām 14 dienām. Šajā gadījumā jāatver lapa **Personāla vadības parametri** katrā uzņēmumā un jāiestata parametri, kā nepieciešams.
+> Lapā **Personāla vadības parametri** iestatījumi attiecas tikai uz uzņēmumu. Tāpēc laika posms, kurā jūs skatāt pēdējās nolīgšanas par var atšķirties pēc uzņēmuma. Piemēram, USMF uzņēmumā, iespējams, vēlēsieties skatīt visas jaunās nolīgšanas no pēdējām septiņām dienām. Tomēr USSI uzņēmumā jūs varētu vēlēties skatīt visus jaunos darbiniekus pēdējo 14 dienu laikā. Šādā gadījumā atveriet **Cilvēkresursu parametri** lapā katrā uzņēmumā, un pēc vajadzības iestatiet parametrus.
 
 Ja vadītājs uz kartes neparādās, darbiniekam nav piešķirts amats.
 
@@ -132,13 +135,9 @@ Kad darbinieks parādās sadaļā **Aizgājušie**, viņiem ir pieejamas šādas
 
 Cilnē **Darbinieku izmaiņas** ir sniegts visu darbinieku personāla darbību saraksts. Šis saraksts nav pieejams pēc noklusējuma. Lai iespējotu funkcionalitāti, lapā **Cilvēkresursu kopīgie parametri** cilnē **Personāla darbības** iestatiet opciju **Iespējot darbinieka darbības** uz **Jā**.
 
-Papildinformāciju par personāla darbībām skatiet (saite uz personāla darbību lapu).
-
 ## <a name="position-changes-tab"></a>Pozīciju izmaiņu cilne
 
 Cilnē **Pozīcijas izmaiņas** ir sniegts visu pozīciju personāla darbību saraksts. Šis saraksts nav pieejams pēc noklusējuma. Lai iespējotu funkcionalitāti, lapā **Cilvēkresursu kopīgie parametri** cilnē **Personāla darbības** iestatiet opciju **Iespējot pozīciju darbības** uz **Jā**.
-
-Papildinformāciju par personāla darbībām skatiet (saite uz personāla darbību lapu).
 
 ## <a name="open-positions-tab"></a>Cilne Atvērtās pozīcijas
 
@@ -151,11 +150,11 @@ Cilnē **Atvērtās pozīcijas** ir uzskaitīti visas atvērtās pozīcijas. Lai
 
 Cilnē **Beigušies ieraksti** ir uzskaitīti visi krājumi, kam beidzies derīguma termiņš vai kuru termiņš beigsies darbiniekiem uzņēmumā, kurā lietotājs ir pieteicies. Sarakstā ir redzami šādi elementi:
 
-- Sertifikāti
-- Identifikācija
-- Pārbaudes
-- Izvērtēšana
-- Testi
+- **Sertifikāti**
+- **Identifikācija**
+- **Pārbaudes**
+- **Izvērtēšana**
+- **Testi**
 
 Lai norādītu, vai sarakstā ir ieraksti, kuru derīguma termiņš ir beidzies, vai termiņi, kuru derīguma termiņš beidzas, lapā **Cilvēkresursu parametri** cilnē **Vispārīgi** definējiet laika ierobežojumu opcijām **Ieraksti, kuru derīguma termiņš beidzas** vai **Ieraksti, kuriem beidzies derīguma termiņš**. Datus cilnē **Ieraksti, kuru derīguma termiņš beidzas** var rādīt noteiktu dienu skaitu. Piemēram, lai skatītu ierakstu sarakstu, kuru termiņš beigsies nākamajās 14 dienās, iestatiet lauku **Dienu skaits** uz **14**.
 

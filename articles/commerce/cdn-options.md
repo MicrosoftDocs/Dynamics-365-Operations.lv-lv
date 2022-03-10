@@ -2,7 +2,7 @@
 title: Satura pieg'ades tīkla ieviešanas opcijas
 description: Šajā tēmā pārskatītas dažādas opcijas satura piegādes tīkla (CDN) ieviešanai, kuru var izmantot ar Microsoft Dynamics 365 Commerce vidēm. Šīs opcijas ietver vietējās, Commerce nodrošinātās Azure Front Door instances un klientam piederošās Azure Front Door instances.
 author: BrianShook
-ms.date: 03/11/2021
+ms.date: 07/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f6e8fb2baf85be0eaecfffcc7ec6cbb457c3bb04
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
-ms.translationtype: HT
+ms.openlocfilehash: 73da1fff8f79b4fcde38f9da643b8a3479247959f763976d782279e4e2af7a33
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021894"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729918"
 ---
 # <a name="content-delivery-network-implementation-options"></a>Satura pieg'ades tīkla ieviešanas opcijas
 
@@ -40,7 +40,7 @@ Trīs CDN ieviešanas opcijas nodrošina tikai dinamisku HTML saturu no pielāgo
 
 Šajā attēlā parādīts Commerce arhitektūras pārskats.
 
-![Commerce arhitektūras pārskats](media/Commerce_CDN-Option_ComparisonModels.png)
+![Commerce arhitektūras pārskats.](media/Commerce_CDN-Option_ComparisonModels.png)
 
 Papildu informāciju par to, kā iestatīt Azure Front Door instanci savai Commerce vietnei, skatiet tēmā [CDN atbalsta pievienošana](add-cdn-support.md).
 
@@ -50,11 +50,11 @@ Papildu informāciju par to, kā iestatīt Azure Front Door instanci savai Comme
 
 | Priekšrocības | Trūkumi |
 |------|------|
-| <ul><li>Instance ir iekļauta Commerce izmaksās.</li><li>Tā kā instanci pārvalda Commerce darba grupa, ir nepieciešama mazāka uzturēšana un ir kopīgas iestatīšanas darbības.</li><li>Azure viesotā infrastruktūra ir mērogojama, droša un uzticama.</li><li>Drošligzdu slāņa (SSL) sertifikātam ir nepieciešama vienreizēja iestatīšana, un tas tiek atjaunināts automātiski.</li><li>Instances kļūdas un novirzes no normas uzrauga Commerce darba grupa.</li></ul> | <ul><li>WAF netiek atbalstīts.</li><li>Nav konkrētu pielāgojumu vai iestatīšanas pielāgojumu.</li><li>Instances atjauninājumi vai izmaiņas ir atkarīgas no Commerce darba grupas.</li><li>Apex domēniem ir vajadzīga atsevišķa Azure Front Door instance, lai tos integrētu ar Azure DNS.</li><li>Klientam netiek nodrošināta telemetrija par atbildēm sekundē (RPS) vai kļūdu rādītāju.</li></ul> |
+| <ul><li>Instance ir iekļauta Commerce izmaksās.</li><li>Tā kā instanci pārvalda Commerce darba grupa, ir nepieciešama mazāka uzturēšana un ir kopīgas iestatīšanas darbības.</li><li>Azure viesotā infrastruktūra ir mērogojama, droša un uzticama.</li><li>Drošligzdu slāņa (SSL) sertifikātam ir nepieciešama vienreizēja iestatīšana, un tas tiek atjaunināts automātiski.</li><li>Instances kļūdas un novirzes no normas uzrauga Commerce darba grupa.</li></ul> | <ul><li>MK netiek atbalstīts.</li><li>Nav konkrētu pielāgojumu vai iestatīšanas pielāgojumu.</li><li>Instances atjauninājumi vai izmaiņas ir atkarīgas no Commerce darba grupas.</li><li>Apex domēniem ir vajadzīga atsevišķa Azure Front Door instance, lai tos integrētu ar Azure DNS.</li><li>Klientam netiek nodrošināta telemetrija par atbildēm sekundē (RPS) vai kļūdu rādītāju.</li></ul> |
 
 Šajā attēlā parādīta Commerce nodrošinātas Azure Front Door instances arhitektūra.
 
-![Commerce nodrošinātas Azure Front Door instance](media/Commerce_CDN-Option_CommerceFrontDoor.png)
+![Commerce nodrošinātas Azure Front Door instance.](media/Commerce_CDN-Option_CommerceFrontDoor.png)
 
 ## <a name="use-a-customer-owned-azure-front-door-instance"></a>Izmantojiet klientam piederošu Azure Front Door instanci
 
@@ -66,7 +66,7 @@ Papildu informāciju par to, kā iestatīt Azure Front Door instanci savai Comme
 
 Šajā attēlā parādīta Commerce infrastruktūra, kas ietver klientam piederošu Azure Front Door instanci.
 
-![Commerce infrastruktūra, kas ietver klientam piederošu Azure Front Door instanci](media/Commerce_CDN-Option_CustomerOwnedAzureFrontDoor.png)
+![Commerce infrastruktūra, kas ietver klientam piederošu Azure Front Door instanci.](media/Commerce_CDN-Option_CustomerOwnedAzureFrontDoor.png)
 
 ## <a name="use-an-external-cdn-service"></a>Ārēja CDN pakalpojuma izmantošana
 
@@ -74,11 +74,11 @@ Papildu informāciju par to, kā iestatīt Azure Front Door instanci savai Comme
 
 | Priekšrocības | Trūkumi |
 |------|------|
-| <ul><li>Šī opcija ir noderīga, ja esošais domēns jau tiek viesots ārējā CDN.</li><li>Konkurentu CDN (piemēram, Akamai) var būt vairāk WAF iespēju.</li></ul> | <ul><li>Ir nepieciešams atsevišķs līgums un papildu izmaksas.</li><li>SSL var radīt papildu izmaksas.</li><li>Tā kā pakalpojums ir šķirts no Azure mākoņa struktūras, ir jāpārvalda papildu infrastruktūra.</li><li>Pakalpojumam var būt nepieciešamas ilgākas investīcijas galapunkta un drošības iestatīšanā.</li><li>Pakalpojums tiek pašpārvaldīts.</li><li>Pakalpojums tiek pašuzraudzīts.</li></ul> |
+| <ul><li>Šī opcija ir noderīga, ja esošais domēns jau tiek viesots ārējā CDN.</li><li>MK: atkarīgs no ārējā nodrošinātāja.</li></ul> | <ul><li>Ir nepieciešams atsevišķs līgums un papildu izmaksas.</li><li>SSL var radīt papildu izmaksas.</li><li>Tā kā pakalpojums ir šķirts no Azure mākoņa struktūras, ir jāpārvalda papildu infrastruktūra.</li><li>Pakalpojumam var būt nepieciešamas ilgākas investīcijas galapunkta un drošības iestatīšanā.</li><li>Pakalpojums tiek pašpārvaldīts.</li><li>Pakalpojums tiek pašuzraudzīts.</li></ul> |
 
 Šajā attēlā parādīta Commerce infrastruktūra, kas ietver klientam ārēju CDN pakalpojumu.
 
-![Commerce infrastruktūra, kas ietver klientam ārēju CDN pakalpojumu](media/Commerce_CDN-Option_ExternalFrontDoor.png)
+![Commerce infrastruktūra, kas ietver klientam ārēju CDN pakalpojumu.](media/Commerce_CDN-Option_ExternalFrontDoor.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 

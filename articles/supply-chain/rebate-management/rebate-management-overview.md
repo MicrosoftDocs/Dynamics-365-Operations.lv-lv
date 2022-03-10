@@ -3,9 +3,8 @@ title: Atlaižu pārvaldības moduļa pārskats
 description: Šajā tēmā ir sniegts pārskats par Atlaižu pārvaldības moduli Microsoft Dynamics 365 Supply Chain Management.
 author: sherry-zheng
 ms.date: 02/19/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -13,18 +12,17 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
-ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 826cee7b1e30020aec99f6148dd9ab16f126c417
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.18
+ms.openlocfilehash: 75311e137df522c476b938f660b8305004396137
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839129"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985511"
 ---
 # <a name="rebate-management-module-overview"></a>Atlaižu pārvaldības moduļa pārskats
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Jūs varat izmantot **Atlaižu pārvaldības** moduli, lai izveidotu līgumus, darījumus vai līgumus starp jūsu uzņēmumu un tā debitoriem vai kreditoriem, tādējādi varat aprēķināt atlaides, atvilkumus un atlaides. Atlaižu pārvaldība izseko un uztur atlaižu un ieturējumu darījumus centrālajā vietā, kur lietotāji var efektīvi izveidot, pārskatīt un apstrādāt tos.
 
@@ -72,7 +70,7 @@ Atlaides var konfigurēt, pamatojoties uz daudziem dažādiem parametriem. Piem�
 
 Atlaižu aprēķina rezultātus var samazināt arī ar citām atlaidēm, atkarībā no tā, vai atlaide ir iestatīta aprēķinam, pamatojoties uz neto summu.
 
-Kreditora pusē atlaides var aprēķināt cenu, pamatojoties uz "pirmais ārā" (first in, first out – FIFO) noteikumu, jaunāko pirkšanas cenu, vidējo pirkšanas cenu vai pārdošanas cenu.
+Kreditora pusē atlaides,kuru pamatā ir pārdošanas pasūtījumi, var aprēķināt cenu, pamatojoties uz "pirmais ārā" (first in, first out – FIFO) noteikumu, jaunāko pirkšanas cenu, vidējo pirkšanas cenu vai pārdošanas cenu.
 
 ## <a name="rebate-target-transactions"></a>Atlaides mērķa darījumi
 
@@ -86,15 +84,15 @@ Krājuma izvade izveido bezmaksas krājumu pārdošanas pasūtījumu debitora at
 
 Saistīto darījumu kombinācija, aprēķinu biežums, aprēķina pamats un atlasītā aprēķinu metode nosaka atlaižu aprēķinu precizitāti un precizitāti. Atlaižu nosacījumus var izmantot, lai uzkrātu grāmatotās un pieprasītās vērtības.
 
-Uzkrājumus var pārvaldīt katru dienu vai katru mēnesi. Tomēr funkcionalitāte var piešķirt vai apmaksāt atlaidi vai saņemt tās maksājumu jebkurā definētā biežuma. Lietotāji var viegli pielāgot plāna vai maksājumu summas jebkurā laikā izmaksas laikā.
+Uzkrājumus var pārvaldīt katru dienu, reizi nedēļā, reizi mēnesī vai atbilstoši pielāgotajam periodam. Tomēr funkcionalitāte var piešķirt vai apmaksāt atlaidi vai saņemt tās maksājumu jebkurā definētā frekvencē, kas ir vienāda ar rezervju frekvenci vai lielāka par to. Norakstīšanas frekvence ir tāda pati kā atlaidei. Lietotāji var viegli pielāgot plāna vai maksājumu summas jebkurā laikā izmaksas laikā.
 
-Lietotājiem vairs nav jārīkojas ar darījumiem vai uzkrājumiem divos soļos. Uzkrājumi un norakstīšanas tiek grāmatoti tieši Virsgrāmatā. Turklāt kredīta notas var izveidot automātiski. Tāpēc ir pilnīga integrācija ar kreditoriem un debitoriem. Apstrādes laikā aprēķini ņem vērā segšanas atlaides, apmaksātos rēķinus, tirdzniecības atlaides un esošās kredīta notas, lai nodrošinātu, ka summas un vērtības ir precīzi aprēķinātas.
+Lietotājiem vairs nav jārīkojas ar darījumiem vai uzkrājumiem divos soļos. Uzkrājumi un norakstīšanas tiek grāmatoti tieši Virsgrāmatā. Turklāt kredīta notas var izveidot automātiski. Tāpēc ir pilnīga integrācija ar kreditoriem un debitoriem. Apstrādes laikā aprēķini var ņemt vērā segšanas atlaides, apmaksātos rēķinus, tirdzniecības atlaides un esošās kredīta notas, lai nodrošinātu, ka summas un vērtības ir precīzi aprēķinātas.
 
-Kad atlaides tiek aprēķinātas, process izveido transakcijas, ko var pārskatīt pirms grāmatošanas. Pēc tam var izveidot žurnālu, kredīta notu vai debeta darbību. Atsevišķs process grāmato atlaides un atvilkumu darījumus. Pārskatu pārskatus un darbību sarakstus var iegūt, lai nodrošinātu atbilstību, efektivitāti un pārskatāmību.
+Kad atlaides tiek aprēķinātas, process izveido transakcijas, ko var pārskatīt pirms grāmatošanas. Atsevišķs process grāmato atlaides pārvaldības darījumus. Pēc tam var izveidot žurnālu, kredīta notu vai debeta darījumu, grāmatojot piedāvātos darījumus. Pārskatu pārskatus un darbību sarakstus var iegūt, lai nodrošinātu atbilstību, efektivitāti un pārskatāmību.
 
 ## <a name="guaranteed-royalty-payments"></a>Nodrošinātie patentmaksu maksājumi
 
-Atlaižu pārvaldībā automātiskā maksājumu ģenerēšana ļauj ātri un viegli apstrādāt patentmaksas, pat ja tiek lietots nodrošinātais minimums. 
+Atlaižu pārvaldībā automātiskā maksājumu ģenerēšana ļauj ātri un viegli apstrādāt patentmaksas, pat ja tiek lietots nodrošinātais minimums.
 
 ## <a name="maximizing-spend-versus-rebates"></a>Palielināt tēriņus pret atlaidēm
 

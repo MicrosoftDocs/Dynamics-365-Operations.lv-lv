@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 4162ae04c58a88c7c3aac56297a6c12db98b15c2
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
-ms.translationtype: HT
+ms.openlocfilehash: 8c68b8ed1703f2cd49d47fad73485e9e4093aa82b902a484fb79bad4dd2dcbfb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019230"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773565"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10018-may-2021"></a>Jaunumi un izmaiņas programmas Dynamics 365 Supply Chain Management versijā 10.0.18 (2021. gada maijs)
 
@@ -35,11 +35,13 @@ ms.locfileid: "6019230"
 
 Šajā laidienā ir iekļauti tālāk minētie līdzekļi. Sekojiet saitēm uz [laidiena plānu](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features), lai skatītu katra līdzekļa oficiālā laidiena datumu.
 
-- Automātiska pirkšanas pasūtījumu izlaišana (uzlabojumi [Noliktavas izpildē ar mēroga vienībām mākonī](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud))<br> - Plašāku informāciju skatiet rakstā [Mākoņa un malas mēroga vienības ražošanas izpilde](../cloud-edge/cloud-edge-workload-warehousing.md).
+- Automātiska pirkšanas pasūtījumu izlaišana (uzlabojumi [Noliktavas izpildē ar mēroga vienībām mākonī](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud))<br> - Plašāku informāciju skatiet rakstā [Noliktavas pārvaldības darba slodzes mākoņa un malas skalas vienībām](../cloud-edge/cloud-edge-workload-warehousing.md).
 
-- [Uzņēmuma mēroga krājumu veiktspējas uzlabojumi un arhivēšana](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enterprise-scale-inventory-performance-improvements-archiving)<br> - Plašāku informāciju par darbībām ar krājumu skatiet [Arcīva krājumu drarbības](../inventory/archive-inventory-transactions.md)
+- [Izveidot un skatīt sertifikācijas kreditora sadarbības interfeisā](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/create-view-certifications-vendor-collaboration-interface)<br> - Papildinformāciju skatiet šeit rakstā [Saglabāt kreditora sertifikātu](../../finance/public-sector/manage-vendor-certification.md).
 
-- [Veidņu pārvaldība](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Plašāku informāciju skatiet [Atlaižu pārvaldības moduļa pārskats](../rebate-management/rebate-management-overview.md)
+- [Uzņēmuma mēroga krājumu veiktspējas uzlabojumi un arhivēšana](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enterprise-scale-inventory-performance-improvements-archiving)<br> - Plašāku informāciju skatiet [Arhīva krājumu drarbības](../inventory/archive-inventory-transactions.md).
+
+- [Atlaižu pārvaldība](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Plašāku informāciju skatiet [Atlaižu pārvaldības moduļa pārskats](../rebate-management/rebate-management-overview.md).
 
 - [Pārdošanas datu entītijas eksportēšanas iestatīšanas politika](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-data-entity-export-setup-policy)
 

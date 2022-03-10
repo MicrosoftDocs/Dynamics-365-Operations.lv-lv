@@ -1,12 +1,10 @@
 ---
 title: Vienības izdošanas apstiprinājums
-description: Šajā tēmā ir aprakstīts, kā jūs varat iestatīt un lietot vienību izdošanas apstiprināšanas funkciju mobilajā ierīcē.
+description: Vienības izdošana ļauj apstiprināt katru krājuma vienību, izmantojot izdošanas vai inventarizācijas darbu mobilajā ierīcē.
 author: Mirzaab
-manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFAutoConfirm, WHSRFMenuItem
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 852bd29ae18b4903906aa7fb97a06389cd7cd3bc
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: a925685b80c635cf036f19748e16d415953ed5fdda7b81498baeade35ccbfcab
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232867"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766006"
 ---
 # <a name="piece-picking-confirmation"></a>Vienības izdošanas apstiprinājums
 
@@ -29,7 +27,7 @@ ms.locfileid: "5232867"
 
 Vienības izdošana ļauj apstiprināt katru krājuma vienību, izmantojot izdošanas vai inventarizācijas darbu mobilajā ierīcē. Attiecībā uz izdodamo vienību varat pārbaudīt apstrādājamo darba daudzumu vai izdodamo daudzumu, kas norādīts darbā. Attiecībā uz inventarizācijas darbu varat skenēt krājumu, kas tiek uzskaitīts, un izsekot kopsummu.
 
-Iespējojot vienības izdošanu, preču apstiprinājums tiek automātiski atlasīts. Attiecībā uz darba veida izdošanu ir iespējots maksimālais vienību skaits. Tādējādi var iestatīt maksimālo vienību skaitu, kas ir jāapstiprina darba procesa laikā. Maksimālais daudzums ir atkarīgs no pašreizējās darba vienības, kas tiek apstrādāta. Inventarizācijas darba veidā nav atļauts maksimālais daudzums.
+Iespējojot vienības izdošanu, preču apstiprinājums tiek automātiski atlasīts. Attiecībā uz darba veida izdošanu varat iestatīt maksimālo vienību skaitu. Tādējādi var iestatīt maksimālo vienību skaitu, kas ir jāapstiprina darba procesa laikā. Maksimālais daudzums ir atkarīgs no pašreizējās darba vienības, kas tiek apstrādāta. Inventarizācijas darba veidā nav atļauts maksimālais daudzums.
 
 Var izmantot arī daudzumu un mērvienību (UOM), kas saistīta ar skenēto svītrkodu. Tas darbosies ienākošo plūsmu saņemšanā, tostarp saņemot jauktas noliktavas vienības, pirkšanas pasūtījuma krājumiem, pārsūtīšanas pasūtījuma krājumiem un noslodzes krājumiem. To var izmantot arī vienības izdošanai, ja skenējot svītrkodu, apstiprināto vienību kopskaitam tiks pievienos daudzums, kas tiks pārveidots starp svītrkoda UOM un darba vienību. Ja uzskaitot svītrkoda UOM, tiek apstiprināts, ka daudzums ir atļauts inventarizācijai secību grupā, daudzums tiks pievienots kopējam daudzumam.
 

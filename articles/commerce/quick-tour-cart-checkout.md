@@ -1,36 +1,31 @@
 ---
 title: Pārskats par grozu un norēķināšanās lapām
-description: Šajā tēmā sniegts pārskats par grozu un izrakstīšanas lapām Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā sniegts pārskats par grozu un izrakstīšanas lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e932be31a301ef5aacb68fa4e710d8a9137b7263
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 3e450192025b29c655be49050aa3e61fc8acd898
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414156"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982972"
 ---
-# <a name="cart-and-checkout-pages-overview"></a>Pārskats par grozu un norēķināšanās lapām
+# <a name="cart-and-checkout-pages-overview"></a>Groza un norēķināšanās lapu pārskats
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā sniegts pārskats par grozu un izrakstīšanas lapām Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
+Šajā tēmā sniegts pārskats par grozu un izrakstīšanas lapām programmā Microsoft Dynamics 365 Commerce.
 
 Elektroniskās tirdzniecības tīmekļa vietnes groza lapā ir redzamas visas preces, ko klients pievienojis grozam. Groza lapa tiek izveidota, izmantojot groza moduli. Groza modulis ir konteiners, kas vieso visus moduļus, kas ir nepieciešami, lai parādītu grozā esošās preces. Groza modulis var izmantot arī citus moduļus, lai parādītu pasūtījumu kopsavilkumu un visus veicināšanas kodus, kas ir piemēroti klienta pasūtījumam.
 
@@ -42,7 +37,7 @@ Groza lapa kalpo kā iepirkumu soma un ietver visas preces, kas ir pievienotas g
 
 Tālāk redzamajā attēlā ir parādīts groza lapas piemērs, kura izveidota, izmantojot moduļu bibliotēku un “Fabrikam” tēmu.
 
-![Groza lapas piemērs](./media/cart2.PNG)
+![Groza lapas piemērs.](./media/cart2.PNG)
 
 Groza lapas galvenā daļa parāda visas preces, ko klients pievienojis grozam. Tiek rādītas visas piemērojamās atlaides. Šīs atlaides ietver sarežģītas atlaides. Piemēram, ir "pērciet 3 preces un saņemiet 10% atlaidi" vai "pērciet pudeli un mugursomu, lai iegūtu 10% atlaidi". Pasūtījuma kopsavilkuma modulis parāda summu, kas jāmaksā pēc atlaižu, piegādes maksas, nodokļu utt. piemērošanas. Tur ir arī veicināšanas koda modulis, kas ļauj klientam piemērot vai noņemt veicināšanas kodus.
 
@@ -58,7 +53,7 @@ Izrakstīšanas lapa ir vieta, kur klienti ievada informāciju, kas nepieciešam
 
 Tālāk redzamajā attēlā ir parādīts norēķināšanās lapas piemērs, kura izveidota, izmantojot moduļu bibliotēku.
 
-![Izrakstīšanas lapas piemērs](./media/Checkout.PNG)
+![Izrakstīšanas lapas piemērs.](./media/Checkout.PNG)
 
 Izrakstīšanas lapas galvenā daļā ir vieta, kur tiek apkopota visa pasūtījuma informācija. Šī informācija ietver piegādes adresi, piegādes opcijas un maksājuma informāciju. Izrakstīšana ir darbību secība, jo apstrādāšanai paredzētā informācija ir jāievada noteiktā secībā. Piemēram, piegādes adrese jāievada pirms piegādes izmaksu aprēķināšanas un maksājuma autorizēšanas.
 
@@ -107,3 +102,6 @@ Lai iegūtu vairāk informācijas par to, kā autorēt izrakstīšanas lapu, ska
 [Preču papildinformācijas lapu apskats](quick-tour-pdp.md)
 
 [Konta pārvaldības lapu pārskats](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

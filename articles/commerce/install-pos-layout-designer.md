@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e4d18d6fcf54fc74382f0d7d344de2aa74252ae4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
-ms.translationtype: HT
+ms.openlocfilehash: 0d7143833bb4a98ac976ea46a1b4b21dad2f2e5841b5e142de7583b4ce6bad38
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797000"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6738724"
 ---
 # <a name="install-the-pos-layout-designer"></a>POS izkārtojuma veidotāja instalēšana
 
@@ -40,7 +40,7 @@ Pārdošanas punkta MPOS vai mākoņa POS grafiskā dizaina interfeisu nosaka ka
 5. Kad instalēšana ir pabeigta, lapā **Pierakstīties** ievadiet savu Commerce lietotājvārdu un paroli un pēc tam noklikšķiniet uz **Pierakstīties**, lai palaistu veidotāju.
 6. Kad jūsu akreditācijas dati ir apstiprināti un veidotājs ir palaists, varat noformēt pats savu izkārtojumu vai mainīt esošo izkārtojumu.
 
-    [![Izkārtojums viena klikšķa veidotājā](./media/screenlayoutdesign_mposdownload-1024x664.png)](./media/screenlayoutdesign_mposdownload.png)
+    [![Izkārtojums viena klikšķa veidotājā.](./media/screenlayoutdesign_mposdownload-1024x664.png)](./media/screenlayoutdesign_mposdownload.png)
 
 ## <a name="troubleshoot-the-installation-of-the-layout-designer"></a>Novērst izkārtojuma veidotāja instalēšanas problēmas
 
@@ -48,18 +48,18 @@ Pārdošanas punkta MPOS vai mākoņa POS grafiskā dizaina interfeisu nosaka ka
 
     **Risinājumi.**
 
-    - Pārlūkprogrammā Internet Explorer pārliecinieties, vai šai vietnei ir atspējots uznirstošo logu bloķētājs. Noklikšķiniet uz **Iestatījumi** &gt; **Opcijas** &gt; **Konfidencialitāte** &gt; **Atrast uznirstošo elementu bloķētāju** un mainiet iestatījumu, ja tas ir nepieciešams.
-    - Pārlūkprogrammā Internet Explorer pievienojiet Commerce vietrādi URL uzticamo vietņu sarakstam. Noklikšķiniet uz **Iestatījumi** &gt; **Opcijas** &gt; **Drošība** &gt; **Uzticamās vietnes** &gt; **Vietnes** &gt; **Pievienot**.
+    - Pārlūkprogrammā Internet Explorer pārliecinieties, vai šai vietnei ir atspējots uznirstošo logu bloķētājs. Noklikšķiniet uz **Iestatījumi** &gt; **Opcijas** &gt; **Konfidencialitāte** &gt; **Atrast uznirstošo elementu bloķētāju** un mainiet iestatījumu, ja tas ir nepieciešams.
+    - Pārlūkprogrammā Internet Explorer pievienojiet Commerce vietrādi URL uzticamo vietņu sarakstam. Noklikšķiniet uz **Iestatījumi** &gt; **Opcijas** &gt; **Drošība** &gt; **Uzticamās vietnes** &gt; **Vietnes** &gt; **Pievienot**.
 
 - Programma nestartējas un jums liek sazinieties ar kreditoru.
 
-    **Risinājums:** Pārlūkprogrammā Internet Explorer pievienojiet Commerce vietrādi URL uzticamo vietņu sarakstam. Noklikšķiniet uz **Iestatījumi** &gt; **Opcijas** &gt; **Drošība** &gt; **Uzticamās vietnes** &gt; **Vietnes** &gt; **Pievienot**.
+    **Risinājums:** Pārlūkprogrammā Internet Explorer pievienojiet Commerce vietrādi URL uzticamo vietņu sarakstam. Noklikšķiniet uz **Iestatījumi** &gt; **Opcijas** &gt; **Drošība** &gt; **Uzticamās vietnes** &gt; **Vietnes** &gt; **Pievienot**.
 
 **Zināma problēma:** veidotājs nedarbojas pareizi pārlūkprogrammās Google Chrome un Mozilla Firefox. Mēs strādājam, lai šo problēmu novērstu.
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[ Retail Modern POS (MPOS) konfigurēšana, instalēšana un aktivizēšana](retail-modern-pos-device-activation.md)
+[Pakalpojuma Retail Modern POS (MPOS) konfigurēšana, instalēšana un aktivizēšana](retail-modern-pos-device-activation.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

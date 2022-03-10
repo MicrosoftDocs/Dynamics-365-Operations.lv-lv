@@ -2,11 +2,9 @@
 title: Finanšu dimensijas un grāmatošana
 description: Plānojot un iestatot kontu plānu, ir jāņem vērā, kā dažādi komponenti darbosies kopā, kad grāmatosit dokumentu vai žurnālu. Šie komponenti ir konta struktūras, papildu noteikumi un līdzsvarošanas un fiksētās dimensijas. Šajā tēmā izskaidrots katrs komponents un kā tie darbojas kopā.
 author: aprilolson
-manager: AnnBe
 ms.date: 08/04/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerChartofAccounts,DimensionDetails
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a6179841259186c8438c72bb4a4f9cd2bf5dbaa8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 9e7416c1ed69fa9783694e2adee7ada4e25e14054daeb1761428855690eb522f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985091"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778970"
 ---
 # <a name="financial-dimensions-and-posting"></a>Finanšu dimensijas un grāmatošana 
 
@@ -73,29 +71,29 @@ Lietotājiem bieži vien rodas jautājumi par dažādu komponentu darbības sec�
 
 Tālāk esošajā attēlā parādīta fiksētā noklusējuma dimensija, kas iestatīta galvenajā kontā 401100.
 
-[![Noklusējuma finanšu dimensijas](./media/default-dimensions.png)](./media/default-dimensions.png)
+[![Noklusējuma finanšu dimensijas.](./media/default-dimensions.png)](./media/default-dimensions.png)
 
 Šajā pamata piemērā mēs ievadīsim datus virsgrāmatas žurnālā, kam ir iestatīta dimensijas Nodaļa noklusējuma vērtība **023** (Operācijas). Ievadīsim un grāmatosim virsgrāmatas kontu. Šajā attēlā parādīta virsgrāmatas virsraksta noklusējuma finanšu dimensija.
 
-[![Virsgrāmatas žurnāli](./media/general-journal.png)](./media/general-journal.png)
+[![Virsgrāmatas žurnāli.](./media/general-journal.png)](./media/general-journal.png)
 
 Noklusējuma dimensijas žurnāla virsrakstā izraisīs to, ka nodaļa 023 tiks lietota pēc noklusējuma pārdošanas kontā rindā. Tālāk esošajā attēlā parādīta virsgrāmatas žurnāla rinda, kur ir lietota noklusējuma dimensijas vērtība **023** no virsraksta.
 
-[![Žurnāla dokuments](./media/journal-voucher.png)](./media/journal-voucher.png)
+[![Žurnāla dokuments.](./media/journal-voucher.png)](./media/journal-voucher.png)
 
 Tomēr, grāmatojot rindu, tiek lietota fiksētā dimensija, un rinda tiek grāmatota nodaļā 022. Tālāk esošajā attēlā parādīts grāmatots dokuments, kur pārdošanas kontā ir lietota fiksētā dimensija.
 
-[![Dokumentu darbības](./media/voucher-transactions.png)](./media/voucher-transactions.png)
+[![Dokumentu darījumi ar lietotām fiksētām dimensijām.](./media/voucher-transactions.png)](./media/voucher-transactions.png)
 
 ### <a name="example-2"></a>2. piemērs
 
 Šajā piemērā tiek lietoti tādi paši iestatījumi kā pirmajā piemērā. Tomēr mēs pievienosim otru komponentu un izmantosim dimensiju Nodaļa kā līdzsvarošanas dimensiju. Tālāk esošajā attēlā vērtība **Nodaļa** ir iestatīta kā USMF virsgrāmatas līdzsvarošanas finanšu dimensija.
 
-[![Virsgrāmata](./media/ledger.png)](./media/ledger.png)
+[![Ilustrācija, kas parāda deparatmentu kā līdzsvarošanas finanšu dimensiju.](./media/ledger.png)](./media/ledger.png)
 
 Ja tiek lietots viens un tas pats žurnāla virsraksta iestatījums un tiek grāmatota viena un tā pati transakcija, fiksētā dimensija tiek lietota kā pirmā. Pēc tam tiek lietota līdzsvarošanas loģika, kas palīdz nodrošināt, lai katrai nodaļai būtu līdzsvarots ieraksts. Tālāk esošajā attēlā parādītas dokumenta transakcijas, kurās ietverts līdzsvarojošais ieraksts pēc fiksētās dimensijas lietošanas.
 
-[![Dokumentu darbības](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
+[![Dokumentu darījumi pēc līdzsvarošanas ieraksta lietošanas.](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
 
 ### <a name="example-3"></a>3. piemērs
 
@@ -103,11 +101,11 @@ Ja tiek lietots viens un tas pats žurnāla virsraksta iestatījums un tiek grā
 
 Šajā piemērā ir svarīga secība. Konta struktūra tiek noteikta pēc galvenā konta ievadīšanas. Ja sniedzat atsauci uz konta struktūras iestatījumiem, sistēma var noteikt, ka ir būtisks galvenais konts, biznesa vienība, nodaļu un izmaksu centrs. Šajā brīdī papildu kārtula nav aktivizēta, jo fiksētās dimensijas netiek lietotas, kamēr grāmatošanas procesā nav lietotas žurnāla dokumenta noklusējuma dimensijas. Tālāk esošajā attēlā nav klientu segmenta, jo papildu kārtulas kritēriji nav izpildīti.
 
-[![Virsgrāmatas konts](./media/drop-down.png)](./media/drop-down.png)
+[![Virsgrāmatas konts.](./media/drop-down.png)](./media/drop-down.png)
 
 Grāmatošanas nebūs veiksmīga, jo procesa beigās tika lietota fiksētā dimensija. Dimensijas apstiprināšanas procesā tika konstatēts, ka, ja galvenais konts ir 401100 un nodaļa ir 022, ir nepieciešams segments Debitors. Grāmatošanu nevar veikt apstiprināšanas kļūdas dēļ. Tālāk esošajā attēlā redzams paziņojums, kas tiek paradīts pēc tam, kad dimensijas apstiprināšanas procesā ir konstatēts, ka nepieciešams segments Debitors.
 
-[![Ziņojuma detalizēta informācija](./media/message.png)](./media/message.png)
+[![Ziņojuma detalizēta informācija.](./media/message.png)](./media/message.png)
 
 Šajā piemērā ir jāpārraksta noklusējuma vērtība tā, lai tiktu aktivizēta papildu kārtula un varētu ievadīt segmentu Debitors. Tomēr šis risinājums ne vienmēr ir iespējams, un daži lietotāji pat nav informēti par grāmatošanas kārtulām. Tāpēc ir svarīgi izprast secību, kādā tiek lietotas noklusējuma dimensijas, iestatot kontu plānu.
 
@@ -121,8 +119,11 @@ Daži no tālāk norādītajiem resursiem attiecas uz mūsu programmatūras vec�
 
 [Plānot kontu plānu](plan-chart-of-accounts.md) 
 
-[Kontu plāna plānošanas programmā AX 2012 emuārs](https://blogs.msdn.microsoft.com/axsa/2014/06/12/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7/) — šī saite ved uz septiņu daļu publikāciju sērijas 1. daļu.
+[Kontu plāna plānošanas programmā AX 2012 emuārs](/archive/blogs/axsa/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7) — šī saite ved uz septiņu daļu publikāciju sērijas 1. daļu.
 
-[Dimensiju noklusējuma vērtību lietošana uzskaites sadalēs](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
+[Dimensiju noklusējuma vērtību lietošana uzskaites sadalēs](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-in-accounting-distributions-part-1-introduction)
 
-[Dimensiju noklusējuma vērtību lietošana dimensiju struktūrā](https://docs.microsoft.com/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
+[Dimensiju noklusējuma vērtību lietošana dimensiju struktūrā](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

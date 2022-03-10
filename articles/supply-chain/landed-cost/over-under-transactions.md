@@ -2,11 +2,9 @@
 title: Pārsniegtās/nepārsniegtās transakcijas
 description: Šī tēma sniedz informāciju, kas palīdzēs jums iestatīt detalizētu informāciju par pārsniegto/nepārsniegto darbību politikām, tādējādi sistēma var noteikt, kā pārvaldīt preču apstrādes pārsniegšanu/nepietiekamību saņemšanas laikā.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ITMOverUnderTrans, ITMOverUnderToleranceTable, ITMOverUnderReasonTable, ITMOverUnderToleranceGroup
 audience: Application User
@@ -15,18 +13,17 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
-ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9027d5dc73ebd78a65429f7bc63a1ebf8ef60dac
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.17
+ms.openlocfilehash: 60f4f31e9da762a89b034961a703e1d7b1bbd903
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500986"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580748"
 ---
 # <a name="overunder-transactions"></a>Pārsniegtās/nepārsniegtās transakcijas
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Kad reisa pasūtījumi ir apstrādāti, sistēma sagaida, ka krājumu daudzums, kas gala galamērķa noliktavā saņemts patēriņam, saskanēs ar daudzumu, kas norādīts ar reisu saistītās pirkšanas pasūtījuma rindās. Tomēr, tā kā noliktavā ne vienmēr nav saņemts precīzs pirkšanas pasūtījuma rindu daudzums, **Kopējo izmaksu** modulis definē kārtulu kopu, kas tiek lietota, lai apstrādātu preču pārāk daudz saņemšanu un nepiemērošanu. Šīs kārtulas ir īpaši svarīgas, jo oriģinālais pirkšanas pasūtījums ir iekļauts rēķinā un to vairs nevar modificēt. Iestatot detalizētu informāciju par pārsniegšanas/nepārsniegšanas darbību politikām, jūs iespējojat sistēmu, lai noteiktu, kā preču pārsniegšanas un nepietiekamības apstrādi saņemšanas laikā. Jūs variet arī manuāli pārvaldīt krājumu pietiekamību vai trūkumu, izmantojot lapu **Pārsniegtās/neveiktās darbības**.
 

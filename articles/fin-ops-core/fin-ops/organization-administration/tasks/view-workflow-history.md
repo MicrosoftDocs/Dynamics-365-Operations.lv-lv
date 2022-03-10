@@ -13,16 +13,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 351f9c80eab8e9810fa6a4538f003eaef1a4a4fd
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
-ms.translationtype: HT
+ms.openlocfilehash: 0ca9a8bff246cc878a0703947a7f8c1c4fc01963
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747229"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069963"
 ---
 # <a name="view-workflow-history"></a>Darbplūsmas vēstures skatīšana
 
 [!include [banner](../../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 Šajā tēmā ir aprakstītas darbības, lai apskatītu apstrādes un apstiprināšanas nolūkos darbplūsmas sistēmā iesniegta dokumenta statusu. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 

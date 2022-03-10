@@ -10,17 +10,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 4b64863c668b71335b8935037cc1c2de1fcc620e0f3f91e97ca38614334e6cc9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 7312ab2491814e7cd266e39820f0e87e79dd84e4
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774973"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103567"
 ---
 # <a name="global-inventory-accounting-home-page"></a>Globālās krājumu uzskaites sākumlapa
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!--KFM: Preview until 4/30/2022 -->
 
 Starptautiskām organizācijām tiek palielināta iestāžu atbilstība vietējiem un globālajiem grāmatvedības standartiem. Krājumu novērtēšanai ir būtiska nozīme atbilstības nodrošināšanā. The Microsoft Dynamics 365 Supply Chain Management Globālās krājumu uzskaites pievienojumprogramma nodrošina vispārēju risinājumu, kas uzņēmumiem (it īpaši starptautiskām organizācijām) ļauj izmantot vairākas izmaksu aprēķināšanas Virsgrāmatas krājumu uzskaitei. Tāpēc šīs organizācijas var atbilst vairākiem grāmatvedības standartiem un iekšējai vadības uzskaitei vienlaicīgi.
 
@@ -48,6 +49,8 @@ Globālā krājumu uzskaite pašlaik ir pieejama šādos Azure ģeogrāfiskajos 
 - Kanāda
 
 Ja mēģināsit instalēt pievienojumprogrammu no cita ģeogrāfiskā reģiona, Microsoft Dynamics Lifecycle Services (LCS) rādīs ziņojumu, ka jūsu ģeogrāfiskais reģions netiek atbalstīts. Globālā krājumu uzskaite neatbalsta Supply Chain Management lokālas izvietošanas.
+
+Ja jums ir problēmas Globālo krājumu uzskaites iespējošanu vienā no šeit uzskaitītajiem atbalstītajiem ģeogrāfiskajiem reģioniem, lūdzu, nosūtiet e-pasta ziņojumu ar vides ID [Globālu krājumu uzskaites komandai](mailto:GlobalInvAccount@microsoft.com), lai saņemtu validāciju.
 
 ## <a name="licensing"></a>Licencēšana
 

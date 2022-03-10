@@ -3,22 +3,24 @@ title: Human Resources pārskats
 description: Cilvēku resursi racionalizē rutīnas uzskaites uzdevumus, automatizē procesus, kas saistīti ar jūsu uzņēmuma personālu, un nodrošina cilvēku resursu personāla struktūru, lai pārvaldītu uzraudzībā esošās jomas.
 author: andreabichsel
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.custom: 20931
+ms.custom:
+- "20931"
+- intro-internal
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67fcadac93f757fb535105154cb06a3549cccc7f
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
-ms.translationtype: HT
+ms.openlocfilehash: 9cd7ce1268dd1aeae142e85fdd3ea2d9faa0a659
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923572"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983133"
 ---
 # <a name="human-resources-overview"></a>Human Resources pārskats
 

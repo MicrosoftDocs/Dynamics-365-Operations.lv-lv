@@ -13,15 +13,15 @@ ms.custom: 50871
 ms.assetid: 1855f744-f73f-4fa8-8290-a7ee126d368b
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ec09fe3611542c9f4c4c65628a15cc690a3b437
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: 3b60c8a353a4c545cf5c1f1b1e5565d0d7e2a5bb
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839395"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572150"
 ---
 # <a name="cost-groups"></a>Izmaksu grupas
 

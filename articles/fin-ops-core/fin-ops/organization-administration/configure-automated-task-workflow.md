@@ -2,7 +2,6 @@
 title: Automatizētu uzdevumu konfigurēšana darbplūsmā
 description: Šajā tēmā ir paskaidrots, kā konfigurēt automatizēta uzdevuma rekvizītus.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -15,16 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b63a9a99c442b0fbe971bc2e8f05fc8c09ec3087
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
-ms.translationtype: HT
+ms.openlocfilehash: c7346649108824eb4e7209a2476456a469affa1c
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5567490"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066522"
 ---
 # <a name="configure-automated-tasks-in-a-workflow"></a>Automatizētu uzdevumu konfigurēšana darbplūsmā
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Šajā tēmā ir paskaidrots, kā konfigurēt automatizēta uzdevuma rekvizītus.
 

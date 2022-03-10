@@ -1,7 +1,7 @@
 ---
 title: Krājumu budžets
 description: Šajā tēmā aprakstīta piegādes un pieprasījuma apjoma prognozes funkcionalitāte, ko var izmantot, lai izveidotu krājumu budžetu programmā Microsoft Dynamics 365 Supply Chain Management.
-author: crytt
+author: ChristianRytt
 ms.date: 06/08/2021
 ms.topic: article
 ms.search.form: EcoResProductDetailsExtended, ForecastSales, ForecastPurch, ForecastInvent
@@ -10,13 +10,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-08
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a0919706ddcc70fecd15df6bf1cbdd58fe9a8e337b2d45cd61a4fb9d821e4114
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.21
+ms.openlocfilehash: 5ce997a0bb3d6766b801f3f4dea8ab3f19085d02
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757810"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577556"
 ---
 # <a name="inventory-forecasts"></a>Krājumu budžets
 
@@ -94,7 +94,7 @@ Tālāk redzamās apakšsadaļas apraksta visus laukus, kas ir pieejami katrā c
 
 | Komanda | Apraksts |
 |---|---|
-| Piešķirt budžetu | Ja izmantojat sadalījuma metodi, izveidojiet atsevišķas grafika rindas budžeta darbībām. Pēc tam rindu daudzums tiek sadalīts pēc datuma (atbilstoši atlasītajiem laika intervāliem), daudzuma un summas visā laika diapazonā. |
+| Piešķirt budžetu | Ja izmantojat sadalījuma metodi, izveidojiet atsevišķas grafika rindas budžeta darbībām. Pēc tam rindu daudzums tiek sadalīts pēc datuma (atbilstoši atlasītajiem laika intervāliem), daudzuma un summas visā laika diapazonā. (Skatiet sadaļu [Iedalīt prognozi](#allocate-forecast) tālāk Šajā tēmā.) |
 | Lielapjoma atjaunināšana | Atveriet lapu **Budžeta darbību rediģēšana**. (Skatiet sadaļu [Budžeta darbību lielapjoma atjaunināšana](#bulk-update) tālāk šajā tēmā.) |
 | Krājumu budžets | Atveriet **Krājumu budžeta** lapas skatu, kas ir filtrēts atlasītajai krājumu/modeļu kombinācijai. (Skatiet sadaļu [Krājumu budžets](#inventory-forecast) tālāk šajā tēmā.) |
 | Izveidot krājuma vajadzības | Atveriet dialoglodziņu, kurā var izveidot krājumu vajadzības un pārdošanas pasūtījumu vai krājumu žurnāla rindas ar projektu saistītajām budžeta darbībām. Lai gan šī komanda ir pieejama gan piegādes apjoma prognozes rindām, gan pieprasījuma apjoma prognozes rindām, to nevar izmantot **Piegādes apjoma prognozes** lapā. |
@@ -201,7 +201,7 @@ Tālāk redzamās apakšsadaļas apraksta visus laukus, kas ir pieejami katrā c
 
 | Komanda | Apraksts |
 |---|---|
-| Piešķirt budžetu | Ja izmantojat sadalījuma metodi, izveidojiet atsevišķas grafika rindas budžeta darbībām. Pēc tam rindu daudzums tiek sadalīts pēc datuma (atbilstoši atlasītajiem laika intervāliem), daudzuma un summas visā laika diapazonā. |
+| Piešķirt budžetu | Ja izmantojat sadalījuma metodi, izveidojiet atsevišķas grafika rindas budžeta darbībām. Pēc tam rindu daudzums tiek sadalīts pēc datuma (atbilstoši atlasītajiem laika intervāliem), daudzuma un summas visā laika diapazonā. (Skatiet sadaļu [Iedalīt prognozi](#allocate-forecast) tālāk Šajā tēmā.)|
 | Lielapjoma atjaunināšana | Atveriet lapu **Budžeta darbību rediģēšana**. (Skatiet sadaļu [Budžeta darbību lielapjoma atjaunināšana](#bulk-update) tālāk šajā tēmā.) |
 | Krājumu budžets | Atveriet **Krājumu budžeta** lapas skatu, kas ir filtrēts atlasītajai krājumu/modeļu kombinācijai. (Skatiet sadaļu [Krājumu budžets](#inventory-forecast) tālāk šajā tēmā.) |
 | Izveidot krājuma vajadzības | Atveriet dialoglodziņu, kurā var izveidot krājumu vajadzības un pārdošanas pasūtījumu vai krājumu žurnāla rindas ar projektu saistītajām budžeta darbībām. |
@@ -296,9 +296,9 @@ Cilne **Krājumu dimensijas** parāda visas krājumu dimensijas vērtības rinda
 
 ### <a name="the-allocation-grid-on-the-demand-forecast-page"></a>Sadalījuma režģis pieprasījuma apjoma prognozes lapā
 
-Ja izmantojat krājumu sadalījuma principu vai arī ievadāt krājumu budžetu vienam vai vairākiem turpmākiem periodiem, prognozi var piešķirt, atlasot **Piešķirt budžetu** rīkjoslas cilnē **Apskats**. Daudzums tiek sadalīts tādā veidā, kā norādīts **Sadalījuma** režģa rindās.
+Ja izmantojat krājumu sadalījuma principu vai arī ievadāt krājumu budžetu vienam vai vairākiem turpmākiem periodiem, prognozi var piešķirt, atlasot **Piešķirt budžetu** rīkjoslas cilnē **Apskats**. Daudzums tiek sadalīts tādā veidā, kā norādīts **Sadalījuma** režģa rindās. (Skatiet sadaļu [Iedalīt prognozi](#allocate-forecast) tālāk Šajā tēmā.)
 
-## <a name="inventory-forecast"></a><a name="inventory-forecast"></a>Krājumu budžets
+## <a name="inventory-forecast"></a><a name="inventory-forecast"></a>Krājumu prognoze
 
 Piegādes un pieprasījuma apjoma prognozes rindu lapās ir poga **Krājumu budžets**, kas atver tā paša krājuma/modeļa kombinācijas filtrētās lapas **Krājumu budžets** skatu. Krājumu budžets parāda bilanci starp piegādi un pieprasījumu, kas tika ievadīts tam pašam krājumam. To nevar rediģēt. Krājumu budžets palīdz krājumu pārvaldības grupai pārskatīt rīcībā esošo krājumu paredzamās izmaiņas krājumiem gaidāmajā periodā.
 
@@ -328,6 +328,25 @@ Tabulā ir aprakstīti lauki, kas atrodami **Krājumu prognozes** lapas režģī
 | **MK apakškomplekts** | Noteikta MK apakškomplekta numurs. |
 | **Pakārtotais maršruts** | Īpaša pakārtotā maršruta numurs. |
 | (Citas dimensijas) | Papildu dimensijas var parādīt režģī kā kolonnas. Lai atlasītu parādītās papildu dimensijas, darbību rūtī atlasiet **Krājumi \> Parādīt dimensijas**. |
+
+## <a name="allocate-forecast"></a><a name="allocate-forecast"></a>Piešķirt prognozi
+
+Izmantojiet šo procedūru, lai apstrādātu atlasītas prognozes transakciju rindas. Piešķirot prognozi, daudzums tiek sadalīts kā norādīts rindās režģī **Sadalījums**.
+
+1. Atkarībā no entitījas tipa, kurai izveidojat prognozi, un no veidojamās prognozes tipa, atveriet piegādes vai pieprasījuma prognozes lapu, kā aprakstīts rakstā [Prognozes rindu skatīšana un manuāla ievade](#manual-entry).
+1. Piegādes vai pieprasījuma prognozes rindu lapā atlasiet prognozes rindu un cilnē **Pārskats** rīkjoslā atlasiet **Piešķirt prognozi**.
+1. Dialoglodziņā **Piešķirt prognozi** iestatiet Šajā tabulā aprakstītos laukus. (Vērtība, kuru atlasāt laukā **Metode** nosaka, ka pārējie lauki ir pieejami.)
+
+    | Lauks | Apraksts |
+    |---|---|
+    | Metode | <p>Atlasiet metodi, kuru izmantot budžeta darbības sadalījumam:</p><ul><li>**Nav** — sadalījums netiek veikts.</li><li>**Periods** — prognozēt to pašu daudzumu katram periodam. Atlasot šo vērtību, norādiet daudzumu laukā **Uz** un laika vienību laukā **Vienība**.</li><li>**Princips** — budžeta sadalījums atbilstoši perioda sadalījuma principam, ko norāda laukā **Perioda princips**. Šo metodi varat lietot, ja vēlaties iekļaut sezonālas variācijas.</li><ul>|
+    | Kam | <p>Ievadiet laika intervālu skaitu nākotnei, uz kuru attieksies budžets. Šis lauks ir pieejams tikai tad, ja atlasāt *Periodu* laukā **Metode**.</p><p>Piemēram, atlasot *Periods* laukā **Metode**, ievadot *1* laukā **Uz** un atlasot *Mēneši* laukā **Vienība**. Pēc tam laukā **Beigas** norādiet beigu datumu pēc viena gada. Šajā gadījumā tiek izveidota viena budžeta rinda katram nākamā gada mēnesim, pamatojoties uz krājumu un daudzumu, kāds norādīts virsraksta rindā. |
+    | Vienība | Atlasiet laika intervāla vienību: *Dienas*, *Mēneši* vai *Gadi*. Sadalījums pēcāk atbilst dienu, mēnešu vai gadu skaitam, kādu norādījāt laukā **Uz**.|
+    | Perioda princips | Norādiet perioda sadalījuma principu, ko izmanto budžeta sadalījumam. Papildinformāciju skatiet sadaļā [Budžeta plānošanas datu sadalījums](../../finance/budgeting/budget-planning-data-allocation.md). |
+    | Beigt | Norādiet beigu datumu, kuri attiecas uz jūsu iestatījumiem laukos **Uz** un **Vienība**. |
+
+1. Atlasiet **Labi**, lai apstiprinātu iestatījumus.
+1. Rezultātus varat pārskatīt tas pašas rindas cilnē **Sadalījums**.
 
 ## <a name="bulk-update-forecast-transactions"></a><a name="bulk-update"></a>Budžeta darbību lielapjoma atjaunināšanu
 

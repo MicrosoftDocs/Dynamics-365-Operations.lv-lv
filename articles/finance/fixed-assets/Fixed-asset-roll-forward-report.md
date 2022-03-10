@@ -1,7 +1,7 @@
 ---
 title: Pamatlīdzekļu atjaunošanas pārskats
 description: Šajā tēmā izskaidrots, kā izmantot pārskatu Pamatlīdzekļu atjaunošana.
-author: saraschi2
+author: moaamer
 ms.date: 01/08/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 23021
 ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: b1693df7d535a340306d2b817ce008c292bad521
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
-ms.translationtype: HT
+ms.openlocfilehash: b0c0c8b1a33041e266ce266dc79b29c8a7dbfa14
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897676"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883597"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Pamatlīdzekļu atjaunošanas pārskats
 

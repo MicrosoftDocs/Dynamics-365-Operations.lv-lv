@@ -1,29 +1,26 @@
 ---
 title: Kļūmju pārvaldība
 description: Šajā tēmā ir izskaidrota kļūmju pārvaldība modulī Līdzekļu pārvaldība.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetFaultArea, EntAssetFaultDesigner, EntAssetFaultCopyFromObjectType, EntAssetFaultRemedy, EntAssetObjectFaultRelationRequestInfoPart, EntAssetObjectFaultRelationWorkOrderInfoPart, EntAssetFaultCreateCombinations, EntAssetObjectFaultSymptom, EntAssetObjectFaultSymptomListPage, EntAssetFaultType, EntAssetFaultSymptom, EntAssetFaultCause
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 72d6c8d750a5a0903017b4c77b3ce5d9521cf99b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 149d4fc8026a2a1878155d2b708cf3a79dd0e5af966db4e7f9339d8ca582da70
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432681"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6711957"
 ---
 # <a name="fault-management"></a>Kļūmju pārvaldība
 
@@ -109,7 +106,7 @@ Kļūmju noformētājā līdzekļu tipiem iestatiet kļūmju datus.
 
 7. Atlasiet **Saglabāt**, lai saglabātu izmaiņas.
 
-![Kļūmes veidotāja lapa](media/21-setup-for-work-orders.png)
+![Kļūmes veidotāja lapa.](media/21-setup-for-work-orders.png)
 
 ## <a name="create-fault-causes"></a>Kļūmju iemeslu izveide
 
@@ -133,3 +130,6 @@ Izpildiet tālāk norādītās darbības, lai izveidotu ieteikumus kļūmju nov�
 
 > [!NOTE]
 > Varat mainīt savu kļūmju simptomu, apgabalu, tipu, iemeslu un novēršanas nosaukumus pēc saviem ieskatiem. Nosaukuma izmaiņas automātiski tiek atspoguļoti atbilstošajās kļūmju reģistrācijās.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

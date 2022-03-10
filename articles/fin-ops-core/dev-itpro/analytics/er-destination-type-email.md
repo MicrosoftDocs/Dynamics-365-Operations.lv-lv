@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 4ee1ae4d8a106e467640a8cbcf5986e770395431
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
-ms.translationtype: HT
+ms.openlocfilehash: 2248b8a35b076eb778a50bbbc67d083380ceee62
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343864"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8324012"
 ---
 # <a name="email-er-destination-type"></a>E-pasta ziņojuma ER adresāta tips
 
@@ -75,7 +75,7 @@ Varat norādīt e-pasta sūtītāju un e-pasta saņēmējus. Pēc noklusējuma e
 >
 > Kad e-pasta adresātu piedāvā mainīt [palaišanas laikā](electronic-reporting-destinations.md#security-considerations), lauks **No** ir redzams tikai lietotājiem, kuriem ir `ERFormatDestinationSenderEmailMaintain` drošības privilēģija, **Saglabāt sūtītāja e-pasta adresi ER formāta adresātiem**.
 >
-> Kad lauks **No** ir konfigurēts izmantot e-pasta adresi, kas nav pašreizējā lietotāja adrese, tiesības **Sūtīt kā** vai **Sūtīt vārdā** ir pareizi [jāiestata](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group?view=o365-worldwide) iepriekš. Pretējā gadījumā izpildlaikā tiek parādīts šāds izņēmums: "Nevar nosūtīt e-pastu kā \<from email account\> no \<current user account\> konta, lūdzu, pārbaudiet atļaujas Sūtīt kā šim \<from email account\> kontam."
+> Kad lauks **No** ir konfigurēts izmantot e-pasta adresi, kas nav pašreizējā lietotāja adrese, tiesības **Sūtīt kā** vai **Sūtīt vārdā** ir pareizi [jāiestata](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group) iepriekš. Pretējā gadījumā izpildlaikā tiek parādīts šāds izņēmums: "Nevar nosūtīt e-pastu kā \<from email account\> no \<current user account\> konta, lūdzu, pārbaudiet atļaujas Sūtīt kā šim \<from email account\> kontam."
 
 Varat konfigurēt lauku **No**, lai atgrieztu vairāk nekā vienu e-pasta adresi. Šajā gadījumā pirmā saraksta adrese tiek izmantota kā e-pasta sūtītāja adrese.
 
@@ -140,7 +140,7 @@ Lai norādītu, kāda tipa e-pasta adreses jāizmanto izpildlaikā, dialoglodzi�
 
 ### <a name="configuration-email"></a>Konfigurācijas e-pasta ziņojums
 
-Atlasiet **Konfigurācijas e-pasta ziņojums** kā e-pasta adreses tipu, ja izmantojamā konfigurācija ir mezgls datu avotos, kas atgriež vienu e-pasta adresi vai vairākas e-pasta adreses, kuras ir atdalītas ar semikoliem (;). Varat izmantot [datu avotus](general-electronic-reporting.md#FormatComponentOutbound) un [funkcijas](er-formula-language.md#Functions) formulas veidotājā, lai iegūtu pareizi formatētu e-pasta adresi vai pareizi formatētas e-pasta adreses, kas atdalītas ar semikoliem. Piemēram, ja izmantojat **ISO 20022 kredīta pārskaitījuma** konfigurāciju, mezgls, kas norāda kreditora primāro e-pasta adresi no kreditora kontaktinformācijas, uz kuru jānosūta pavadvēstule, ir `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email`.
+Atlasiet **Konfigurācijas e-pasta ziņojums** kā e-pasta adreses tipu, ja izmantojamā konfigurācija ir mezgls datu avotos, kas atgriež vienu e-pasta adresi vai vairākas e-pasta adreses, kuras ir atdalītas ar semikoliem (;). Varat izmantot datu avotus [un](er-formula-language.md#Functions) funkcijas formulas veidotājā, lai iegūtu pareizi formatētu e-pasta adresi vai pareizi formatētas e-pasta adreses, kas ir atdalītas ar semikoliem. Piemēram, ja izmantojat **ISO 20022 kredīta pārskaitījuma** konfigurāciju, mezgls, kas norāda kreditora primāro e-pasta adresi no kreditora kontaktinformācijas, uz kuru jānosūta pavadvēstule, ir `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email`.
 
 [![E-pasta adreses avota konfigurēšana.](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
 

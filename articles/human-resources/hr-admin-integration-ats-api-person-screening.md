@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9d29b26094e307c3f68d57f297ab3614f3a5ccae
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
-ms.translationtype: HT
+ms.openlocfilehash: 5129348f928fd709a5fabe73917522799a2d47e0
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6059284"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066297"
 ---
 # <a name="person-screening"></a>Personas izvērtēšana
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

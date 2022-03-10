@@ -1,25 +1,25 @@
 ---
 title: Regression Suite Automation Tool apmācības iestatīšana un instalēšana
 description: Šajā tēmā ir ietverta apmācība, kurā parādīts, kā iestatīt un instalēt Regression Suite Automation Tool (RSAT).
-author: robinarh
+author: tonyafehr
 ms.date: 09/20/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.custom: 21761, NotInToc
 ms.search.region: Global
-ms.author: rhaertle
+ms.author: tfehr
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: fc9b330926dfc12890d0bc32e68b4b531616fc2b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: 5dcdd14f54b9c0ad39794ff98ede29332c246513
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6357556"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781995"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool apmācības iestatīšana un instalēšana
 
@@ -42,7 +42,7 @@ ms.locfileid: "6357556"
 
 - Šai apmācībai ir nepieciešama vide, kurā darbojas Microsoft Dynamics 365 for Finance and Operations versija 10.0 (2019. gada aprīlis) vai jaunāka tās versija. Klientiem, kuri izmanto Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3, tiek nodrošināts arī Platform update 20 (PU20) vai jaunākas versijas atbalsts.
 - Lietotājam ir nepieciešamas administratora tiesības vidē.
-- Jums ir nepieciešama piekļuve klienta nomnieka LCS un Azure DevOps (iepriekš zināms kā Microsoft Visual Studio Team Services \[VSTS\]).
+- Jums ir nepieciešama piekļuve klienta nomnieka LCS un Azure DevOps (iepriekš zināms kā Microsoft Visual Studio Team Services \[ VSTS\]).
 - Lietotājam, kas veido un pārvalda testu komplektus, ir nepieciešama Azure DevOps testēšanas plānu vai testu pārvaldnieka licence. Piekļuvi testēšanas plāniem nodrošina arī šādas licence:
     - Visual Studio Enterprise licence;
     - Visual Studio Test Professional licence;
@@ -386,7 +386,7 @@ Lai iespējotu autentifikāciju, sertifikāts ir jāģenerē un jāinstalē taj�
 
     ![AOSService vietņu sarakstā.](./media/setup_rsa_tool_49.png)
 
-3. Ar peles labo pogu noklikšķiniet uz **Pārlūkot**, lai atvērtu mapi **\<Drive\>: \\AosService\\WebRoot**. Atrodiet failu **wif.config**.
+3. Ar peles labo pogu noklikšķiniet uz **Pārlūkot**, lai atvērtu mapi **\<Drive\>: \\ AosService\\ WebRoot**. Atrodiet failu **wif.config**.
 
     ![Fails wif.config mapē WebRoot.](./media/setup_rsa_tool_50.png)
 
@@ -500,17 +500,17 @@ Vecākās RSAT versijās bija nepieciešams instalēt Selenium un pārlūka drai
     - **Piekļuves pilnvara**— ievadiet piekļuves pilnvaru, kas ļauj izveidot savienojumu ar Azure DevOps. Izmantojiet personiskās piekļuves pilnvaru, ko izveidojāt iepriekš šajā pamācībā. Papildinformāciju skatiet sadaļā [Piekļuves autentificēšana ar personiskās piekļuves tiesībām](https://www.visualstudio.com/docs/setup-admin/team-services/use-personal-access-tokens-to-authenticate).
     - **Projekta nosaukums**— atlasiet Azure DevOps projekta nosaukumu.
     - **Testēšanas plāns**— atlasiet Azure DevOps testēšanas plānu, kas satur jūsu testa gadījumus. Papildinformāciju skatiet sadaļā [Testēšanas plānu un testu komplektu izveide](https://www.visualstudio.com/docs/test/manual-exploratory-testing/getting-started/create-a-test-plan). Pēc testa plāna atlasīšanas atlasiet **Testēt savienojumu**, lai testētu savienojumu ar Azure DevOps.
-    - **Resursdatora nosaukums** — ievadiet testa vides resursdatora nosaukumu, piemēram, **\<myaos\>myaos.cloudax.dynamics.com**. Neiekļaujiet prefiksu **https://** vai **http://**.
-    - **SOAP resursdatora nosaukums**— ievadiet testa vides SOAP resursdatora nosaukumu. Parasti SOAP resursdatora nosaukums ir tāds pats kā resursdatora nosaukums, bet tam ir sufikss **soap**. Šeit ir piemērs: **\<myaos\>soap.cloudax.dynamics.com**. Neiekļaujiet prefiksu **https://** vai **http://**.
+    - **Resursdatora nosaukums** — ievadiet testa vides resursdatora nosaukumu, piemēram, **\<myaos\> myaos.cloudax.dynamics.com**. Neiekļaujiet prefiksu **https://** vai **http://**.
+    - **SOAP resursdatora nosaukums**— ievadiet testa vides SOAP resursdatora nosaukumu. Parasti SOAP resursdatora nosaukums ir tāds pats kā resursdatora nosaukums, bet tam ir sufikss **soap**. Šeit ir piemērs: **\<myaos\> soap.cloudax.dynamics.com**. Neiekļaujiet prefiksu **https://** vai **http://**.
 
         > [!NOTE]
-        > Lai atrastu resursdatora nosaukumu un SOAP resursdatora nosaukumu, atveriet IIS pārvaldnieku, ar peles labo pogu noklikšķiniet uz **Vietnes \> AOSService** un pēc tam atlasiet **Rediģēt saistījumus**. Vērtības kolonnā **Resursdatora nosaukums** norāda resursdatora nosaukumu un SOAP resursdatora nosaukumu (SOAP resursdatora nosaukuma URL satur sufiksu **soap** ).
+        > Lai atrastu resursdatora nosaukumu un SOAP resursdatora nosaukumu, atveriet IIS pārvaldnieku, ar peles labo pogu noklikšķiniet uz **Vietnes \> AOSService** un pēc tam atlasiet **Rediģēt saistījumus**. Vērtības kolonnā **Resursdatora nosaukums** norāda resursdatora nosaukumu un SOAP resursdatora nosaukumu (SOAP resursdatora nosaukuma URL satur sufiksu **soap**).
 
         ![Resursdatora nosaukums un SOAP resursdatora nosaukums kolonnā Resursdatora nosaukums.](./media/setup_rsa_tool_63.png)
 
     - **Administratora lietotājvārds**— ievadiet administratora lietotāja e-pasta adresi testa vidē.
     - **Īssavilkums**— ievadiet autentifikācijas sertifikāta nospiedumu, kā aprakstīts iepriekš šajā pamācībā.
-    - **Darba direktorijs**— norādiet mapes atrašanās vietu, kur saglabāt testu automatizācijas failus, piemēram, Excel testu datu failus. Piemēram, ievadiet vai atlasiet **C:\\Temp\\RegressionTool**.
+    - **Darba direktorijs**— norādiet mapes atrašanās vietu, kur saglabāt testu automatizācijas failus, piemēram, Excel testu datu failus. Piemēram, ievadiet vai atlasiet **C:\\ Temp\\ RegressionTool**.
 
         > [!NOTE]
         > Ja mapes nosaukumā ir atstarpes, izpilde neizdodas, jo mapi nevar atrast. Šī problēma ir zināma, un jaunākajā rīka versijā tai jābūt labotai.
@@ -538,7 +538,7 @@ Vecākās RSAT versijās bija nepieciešams instalēt Selenium un pārlūka drai
 
     ![Komanda Ģenerēt testa izpildes un parametru failus izvēlnē Jauns.](./media/setup_rsa_tool_65.png)
 
-    Excel parametru fails tiek izveidots lokālajā mapē, kas norādīta RSAT konfigurācijā (piemēram, **C:\\Temp\\RegressionTool**).
+    Excel parametru fails tiek izveidots lokālajā mapē, kas norādīta RSAT konfigurācijā (piemēram, **C:\\ Temp\\ RegressionTool**).
 
     ![Excel parametru faila izveide.](./media/setup_rsa_tool_66.png)
 
@@ -569,7 +569,7 @@ Vecākās RSAT versijās bija nepieciešams instalēt Selenium un pārlūka drai
     ![Brīdinājuma ziņojums pārlūkam Chrome.](./media/setup_rsa_tool_70.png)
 
     > [!NOTE]
-    > Ja kā pārlūku izmantojat Chrome un saņemat kļūdas ziņojumu, kurā norādīts, ka sesija netika izveidota, jo Chrome versija nav pareiza, lejupielādējiet jaunāko Chrome draiveri no vietnes <http://chromedriver.chromium.org/downloads> mapē **C:\\Program Files (x86)\\Regression Suite Automation Tool\\Common\\External\\Selenium**.
+    > Ja kā pārlūku izmantojat Chrome un saņemat kļūdas ziņojumu, kurā norādīts, ka sesija netika izveidota, jo Chrome versija nav pareiza, lejupielādējiet jaunāko Chrome draiveri no vietnes <http://chromedriver.chromium.org/downloads> mapē **C:\\ Program Files (x86)\\Regression Suite Automation Tool\\ Common\\ External\\ Selenium**.
 
     ![Kļūdas ziņojums pārlūkam Chrome.](./media/setup_rsa_tool_71.png)
 
@@ -614,7 +614,7 @@ Vecākās RSAT versijās bija nepieciešams instalēt Selenium un pārlūka drai
     ![Detalizēts kļūdas ziņojums.](./media/setup_rsa_tool_79.png)
 
     > [!NOTE]
-    > Visi kļūdu ziņojumi ir pieejami arī lokāli direktorijā **C:\\Users\\\$YourUserName\\AppData\\Roaming\\regressionTool\\errormsg-.txt**.
+    > Visi kļūdu ziņojumi ir pieejami arī lokāli direktorijā **C:\\ Users\\\$ YourUserName\\ AppData\\ Roaming\\ regressionTool\\ errormsg-.txt**.
 
 7. Varat arī eksportēt testa izpildes rezultātus no testēšanas plāna līmeņa, atlasot **Eksportēt**.
 
@@ -712,7 +712,7 @@ Viens no RSAT svarīgākajiem līdzekļiem ir testa gadījumu savienošana ķēd
     > [!NOTE]
     > Ja Excel parametru fails ir atstāts atvērts, atkārtota ģenerēšana ir nesekmīga. Tāpēc pirms jaunā Excel parametru faila ģenerēšanas pārliecinieties, ka testa gadījuma Excel parametru fails ir aizvērts.
 
-16. Atlasiet **Rediģēt**, lai atvērtu jauno Excel parametru failu. 9. rindā ir redzams jauns ieraksts **Saglabāts mainīgais**. Šis mainīgais **{{EcoResProductCreate\_Identification\_ProductNumber\_Copy}}** tiek saglabāts uzdevuma ieraksta XML failā, un to var izmantot nākamajos testos.
+16. Atlasiet **Rediģēt**, lai atvērtu jauno Excel parametru failu. 9. rindā ir redzams jauns ieraksts **Saglabāts mainīgais**. Šis mainīgais **{{ EcoResProductCreate\_ Identification\_ ProductNumber\_ Copy}}** tiek saglabāts uzdevuma ieraksta XML failā, un to var izmantot nākamajos testos.
 
     ![Ieraksts Saglabāts mainīgais.](./media/setup_rsa_tool_94.png)
 
@@ -785,7 +785,7 @@ Viens no RSAT svarīgākajiem līdzekļiem ir testa gadījumu savienošana ķēd
 #### <a name="edit-the-excel-parameter-file"></a>Excel parametru faila rediģēšana
 
 1. Atlasiet tikai otro testa gadījumu un pēc tam atlasiet **Rediģēt**, lai atvērtu atbilstošo Excel parametru failu.
-2. Kopējiet saglabāto mainīgo **{{EcoResProductCreate\_Identification\_ProductNumber\_Copy}}** (skatiet sadaļu [Esoša uzdevuma ieraksta modificēšana, lai izveidotu saglabātu mainīgo](#modify-an-existing-task-recording-to-create-a-saved-variable) ) no pirmā testa gadījuma visos laukos, kur tiek izmantots preces numurs. Šajā gadījumā mainīgais ir jākopē laukos **Preces numurs** un **Validēt preces numuru** lapā **EcoResProductListPage**.
+2. Kopējiet saglabāto mainīgo **{{ EcoResProductCreate\_ Identification\_ ProductNumber\_ Copy}}** (skatiet sadaļu [Esoša uzdevuma ieraksta modificēšana, lai izveidotu saglabātu mainīgo](#modify-an-existing-task-recording-to-create-a-saved-variable) ) no pirmā testa gadījuma visos laukos, kur tiek izmantots preces numurs. Šajā gadījumā mainīgais ir jākopē laukos **Preces numurs** un **Validēt preces numuru** lapā **EcoResProductListPage**.
 
     ![Lauki Preces numurs un Validēt preces numuru.](./media/setup_rsa_tool_104.png)
 

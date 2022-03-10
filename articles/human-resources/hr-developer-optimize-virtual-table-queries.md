@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 17316081501ab29aafac476d13947774ecbb61e5
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: 1857d2e35e369bcd0c8f02a059a307f31da8b3b9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6346278"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067458"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>Dataverse virtuālās tabulas vaicājumu optimizācija
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="issue"></a>Izsniegt
 
@@ -47,12 +50,12 @@ Viens no iemesliem lēnai darbībai ar Dataverse virtuālām tabulam pakalpojuma
 Piemērs, kur, iespējams, redzat šo ietekmi, ir vaicājumos pret nodarbināto (**mshr_hcmworkerentity**) vai pamata nodarbināto (**mshr_hcmworkerbaseentity**) elementu. Jūs varat redzēt veiktspējas problēmas paradīsies dažos dažādos veidos:
 
 - **Palēnināta vaicājuma izpilde**: vaicājums attiecībā uz virtuālo tabulu var atgriezt paredzamos rezultātus, bet tas var aizņemt vairāk laika, nekā paredzēts vaicājuma izpildes pabeigšanai.
-- **Vaicājuma taimauts**: Iespējams, ka vaicājumam iestājas taimauts un tiek atgriezta šāda kļūda: "tika iegūta pilnvara, lai izsauktu Finance and Operations, bet Finance and Operations atgrieza InternalServerError veida kļūdu."
+- **Vaicājuma taimauts** : vaicājumam var beigties noildze un parādīties šāda kļūda: "Tika iegūts marķieris, lai izsauktu Finance and Operations, bet Finance and Operations atgrieza kļūdu, kuras veids ir InternalServerError."
 - **Neparedzēta kļūda**: vaicājums var atgriezt 400 veida kļūdas ar šādu ziņojumu: "Radusies negaidīta kļūda."
 
   ![Kļūdas veids 400 uz HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType400.png)
 
-- **Ierobežošana**: vaicājums var pārmērīgi izmantot servera resursus un tikt pakļauts ierobežošanai. Šajā gadījumā vaicājums atgriež šādu kļūdu: "Marķieris tika iegūts, lai izsauktu Finance and Operations, bet Finance and Operations atgrieza 429 veida kļūdu." Papildinformāciju par ierobežošanu pakalpojumā Human Resources skatiet sadaļā [Bieži uzdotie jautājumi par ierobežošanu](./hr-admin-integration-throttling-faq.md).
+- **Ierobežošana**: vaicājums var pārmērīgi izmantot servera resursus un tikt pakļauts ierobežošanai. Šajā gadījumā vaicājums atgriež šādu kļūdu: "Tika iegūts marķieris, lai izsauktu Finance and Operations, bet Finance and Operations atgrieza 429. tipa kļūdu." Papildinformāciju par ierobežošanu pakalpojumā Human Resources skatiet sadaļā [Bieži uzdotie jautājumi par ierobežošanu](./hr-admin-integration-throttling-faq.md).
 
   ![Kļūdas veids 429 uz HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType429.png)
 
@@ -101,7 +104,7 @@ Ja, veidojot Power BI pārskatu Dataverse virtuālai tabulai, rodas kāda no iep
 4. Logā Navigators izvērsiet zaru **Elementi**.
 5. Meklēšanas lodziņā ievadiet **mshr_hcmworkerbaseentity** un atlasiet elementu.
 6. Atlasiet **Datu transformācija**.
-7. Power Query redaktora logā atlasiet **Paplašinātais redaktors**.
+7. Iekš Power Query Redaktora logs, atlasiet **Uzlabots redaktors**.
 8. Logā **Paplašinātais redaktors** atjauniniet vaicājumu, lai tas izskatītos līdzīgi kā turpmāk, pēc nepieciešamības pievienojot vai noņemot kolonnas masīvam.
 
    ```
@@ -113,14 +116,14 @@ Ja, veidojot Power BI pārskatu Dataverse virtuālai tabulai, rodas kāda no iep
    in
      selectedWorkerBaseEntityColumns
    ```
-   ![Atjaunināt vaicājumu Power Query redaktoram Vaicājumu redaktorā.](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
+   ![Atjauniniet vaicājumu uzlabotajā redaktorā Power Query Redaktors.](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
 
 9. Atlasiet **Gatavs**.
 
    > [!NOTE]
    > Ja pirms atjaunināšanas jūs iepriekš saņēmāt no vaicājuma 429 vaida kļūdu, var būt nepieciešams gaidīt atkārtoto mēģinājumu periodu pirms vaicājuma atsvaidzināšanas, lai veiksmīgi to pabeigtu.
 
-10. Noklikšķiniet uz **Aizvērt &, Lietot** Power Query redaktora darbības lentē.
+10. Klikšķis **Aizvērt un lietot** uz Power Query Redaktora darbības lente.
 
 Pēc tam Power BI pārskatu ir iespējams izveidot pret kolonnām, kas atlasītas no virtuālās tabulas.
 

@@ -2,11 +2,9 @@
 title: Kreditoru maksājumu priekšlikumu automatizēšana
 description: Šajā tēmā ir paskaidrots, kā organizācijas, kas maksā kreditoriem periodiskā grafikā, var automatizēt kreditoru maksājumu priekšlikumu ģenerēšanas procesu.
 author: kweekley
-manager: AnnBe
 ms.date: 04/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -16,24 +14,27 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 63f2d3dc55799efefaedb10134edb219fa8588e0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 1c5012fdc4f3bfab3f91adfee1eab758dd9c1a0f
+ms.sourcegitcommit: 5aecb04178e45e1fdea032b3ef3ce338332005dc
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5003582"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7966719"
 ---
 # <a name="automate-vendor-payment-proposals"></a>Kreditoru maksājumu priekšlikumu automatizēšana
 
 [!include [banner](../includes/banner.md)]
 
-Organizācijas, kas maksā kreditoriem periodiskā grafikā, tagad var automatizēt kreditoru maksājumu priekšlikumu ģenerēšanas procesu. Kreditoru maksājumu priekšlikuma automatizācijas definē tālāk mineto informāciju.
+Organizācijas, kas maksā kreditoriem periodiskā grafikā, tagad var automatizēt kreditoru maksājumu priekšlikumu ģenerēšanas procesu. Kreditoru maksājumu priekšlikuma automatizācijas definē tālāk mineto informāciju:
 
 - Kad maksājumu priekšlikumi tiek palaisti
 - Kādi kritēriji tiek izmantoti, lai atlasītu rēķinus, kas jāapmaksā
 - Kādā kreditoru maksājumu žurnālā iegūtie maksājumi tiek saglabāti
 
 Maksājuma priekšlikuma automatizācijas automātiski negrāmato maksājumus. Tāpēc varat turpināt lietot visus apstiprināšanas un darbplūsmas procesus, ko pašlaik izmantojat, lai apstiprinātu izveidotos maksājumus.
+
+> [!NOTE]
+> Lai **izmantotu šo** funkcionalitāti, līdzekļa pārvaldībā jāiespējo kreditora maksājuma priekšlikuma automatizācijas funkcija. 
 
 ## <a name="define-the-occurrence-of-vendor-payment-proposals"></a>Kreditoru maksājumu priekšlikumu rašanās definēšana
 
@@ -99,11 +100,11 @@ Iesakām novērtēt, vai automatizācija būs izdevīga jūsu organizācijai, pa
 
 Pēc kreditora maksājuma priekšlikuma automatizācijas sērijas izveidošanas katra maksājuma notikumi tiek parādīti procesa automatizācijas nedēļas skatā. Kreditoru maksājumiem tiek pievienots procesu automatizācijas iknedēļas skats darbvietai **Kreditoru maksājumi** un lapai **Procesu automatizācija**.
 
-[![Automatizācijas nedēļas skatu apstrāde kreditoru maksājumu darbvietā](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
+[![Automatizācijas nedēļas skatu apstrāde kreditoru maksājumu darbvietā.](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
 
 Procesa automatizācijas nedēļas skats darbvietā **Kreditoru maksājumi** rāda tikai kreditoru maksājumu priekšlikumu automatizācijas. Tas parāda visus maksājumu gadījumus pašreizējai nedēļai par visām juridiskajām personām, kurām lietotājam, kurš ir pierakstījies, ir drošības atļaujas. Piemēram, ja kreditoru maksājumu darbinieks ir atbildīgs par maksājumiem USMF un USSI uzņēmumos, viņš redzēs kreditora maksājuma priekšlikuma automatizāciju šiem diviem uzņēmumiem, bet ne citiem uzņēmumiem.
 
-[![Procesu automatizācijas nedēļas skats USMF un USSI uzņēmumiem](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
+[![Procesu automatizācijas nedēļas skats USMF un USSI uzņēmumiem.](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
 
 Katrs gadījums rāda uzņēmumu, kuram tika vai tiks izveidots maksājumu žurnāls. Ja maksājumi tiek veidoti, izmantojot centralizētus maksājumus, uzņēmums, kas tiek norādīts, ir uzņēmums, kurā tiks izveidoti maksājumi. Notikums ne vienmēr parāda, kuri uzņēmuma rēķini tiks apmaksāti.
 
@@ -143,3 +144,6 @@ Tālāk norādītie nodokļi un privilēģijas ir pievienoti kreditora maksājum
 | Grafika atkārtojumu izskatīšana | Kreditoru maksājumu darbinieks, kreditoru centralizēto maksājumu darbinieks | Šis pienākums piešķir tiesības skatīt maksājuma priekšlikuma automatizācijas sērijas un gadījumus, izmantojot tālāk minētās privilēģijas.<ul><li>Grafika atkārtojumu skatīšana</li><li>Gadījumu nedēļas skata skatīšana</li></ul> |
 | Uzziņas par grafika sērijām      | None                                                                       | Šis pienākums piešķir tiesības skatīt sēriju iestatījumus un gadījumus, izmantojot tālāk minētās privilēģijas.<ul><li>Grafika atkārtojumu skatīšana</li><li>Gadījumu saraksta lapas skatīšana</li><li>Gadījumu nedēļas skata skatīšana</li></ul>|
 | Grafika atkārtojumu uzturēšana     | None                                                                       | Šis pienākums piešķir tiesības izveidot un uzturēt gadījumus, izmantojot tālāk minētās privilēģijas.<ul><li>Grafika atkārtojumu uzturēšana</li><li>Gadījumu nedēļas skata skatīšana</li></ul> |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

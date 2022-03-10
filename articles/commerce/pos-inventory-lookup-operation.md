@@ -2,7 +2,7 @@
 title: Krājumu uzmeklēšanas operācija punktā POS
 description: Šajā tēmā ir aprakstīts, kā izmantot krājumu uzmeklēšanas operāciju Dynamics 365 Commerce pārdošanas punktā (POS), lai apskatītu veikalos un noliktavās rīcībā esošo preču pieejamību noliktavās.
 author: boycezhu
-ms.date: 05/11/2021
+ms.date: 08/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: c0f753febb0d347015fde1374148835f90df55a3
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: ded7c0aa00d0806dfe4eb4e182abbbf66fd76d5b
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6353784"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343840"
 ---
 # <a name="inventory-lookup-operation-in-pos"></a>Krājumu uzmeklēšanas operācija punktā POS
 
@@ -52,13 +52,15 @@ Vietu saraksta skatā ir ietverti visi veikali un noliktavas, kas ir konfigurēt
 
 POS programmas joslā ir pieejamas tālāk minētās darbības:
 
-- **Kārtot** - šī darbība ļauj POS lietotājam kārtot datus saraksta skatā, pamatojoties uz dažādiem kritērijiem. Kārtošana pēc atrašanās vietas ir noklusējuma kārtošanas opcija. 
-  - **Ģeogrāfiskā vieta** (no vistuvākās atrašanās vietas līdz tuvākajai vietai, salīdzinot ar pašreizējo veikalu)
-  - **Nosaukums** (augošā vai dilstošā secībā)
-  - **Veikala numurs** (augošā vai dilstošā secībā)
-  - **Krājumi** (dilstošā secībā)
-  - **Rezervēts** (dilstošā secībā)
-  - **Pasūtīts** (dilstošā secībā)
+- **Kārtot** - šī darbība ļauj POS lietotājam kārtot datus saraksta skatā, pamatojoties uz dažādiem kritērijiem. Kārtošana pēc atrašanās vietas ir noklusējuma kārtošanas opcija.
+
+    - **Ģeogrāfiskā vieta** (no vistuvākās atrašanās vietas līdz tuvākajai vietai, salīdzinot ar pašreizējo veikalu)
+    - **Nosaukums** (augošā vai dilstošā secībā)
+    - **Veikala numurs** (augošā vai dilstošā secībā)
+    - **Krājumi** (dilstošā secībā)
+    - **Rezervēts** (dilstošā secībā)
+    - **Pasūtīts** (dilstošā secībā)
+
 - **Filtrēt** - šī darbība ļauj POS lietotājam skatīt filtrētos datus noteiktai atrašanās vietai.
 - **Rādīt veikala pieejamību** - šī darbība ļauj POS lietotājam skatīt atlasītā veikala preces rīcībā esošos (ATP) daudzumus.
 - **Rādīt veikala atrašanās vietu** - ar šo darbību tiek atvērta atsevišķa lapa, kurā ir redzams atlasītā veikala kartes skats, adrese un veikala darba laiks.
@@ -68,9 +70,8 @@ POS programmas joslā ir pieejamas tālāk minētās darbības:
 - **Pievienot darījumam** - šī darbība pievieno preci grozam un novirza lietotāju uz darījuma ekrānu.
 
 > [!NOTE]
-> Kārtojot pēc atrašanās vietas, attālumu starp atrašanās vietu un pašreizējo veikalu nosaka koordinātas (platums un garums), kas noteiktas Commerce galvenajā mītnē. Veikalam atrašanās vietas informācija ir definēta ar veikalu saistītās pārvaldības struktūrvienības primārajā adresē. Noliktavā, kas nav veikala noliktava, atrašanās vietas informācija ir definēta noliktavas adresē. Ja pašreizējā veikalā nav definētas koordinātas, pašreizējā kārtošanas opcija, kas pamatota uz atrašanās vietu, parādīs pašreizējo veikalu saraksta augšpusē un pēc tam šķiros citas vietas pēc nosaukuma.
-
-> [!NOTE]
+> Uz vietu balstīta kārtošana, kas tika ieviesta Commerce versijā 10.0.17, laidienā parādīts pašreizējais veikals augšā. Kārtojot pēc atrašanās vietas, attālumu starp atrašanās vietu un pašreizējo veikalu nosaka koordinātas (platums un garums), kas noteiktas Commerce galvenajā mītnē. Veikalam atrašanās vietas informācija ir definēta ar veikalu saistītās pārvaldības struktūrvienības primārajā adresē. Noliktavā, kas nav veikala noliktava, atrašanās vietas informācija ir definēta noliktavas adresē. Pirms versijas 10.0.17 saraksta skatā vienmēr būs redzams pašreizējais veikals augšpusē un alfabētiskā kārtībā kārtot citas vietas.
+>
 > Darbības **Rādīt veikala pieejamību**, **Rādīt veikala atrašanās vietu**, **Saņemt veikalā** un **Sūtīt preci** nav pieejamas atrašanās vietām, kas nav veikals.
 
 ## <a name="inventory-lookup-matrix-view-for-variants"></a>Krājumu uzmeklēšanas matricas skats variantiem
@@ -124,7 +125,5 @@ Commerce versijā 10.0.9 un agrākās versijās **pieejamā fiziskā** vērtība
 [POS lietotāja interfeisa vizuālās konfigurācijas](pos-screen-layouts.md)
 
 [Krājumu pieejamības aprēķināšana mazumtirdzniecības kanāliem](calculated-inventory-retail-channels.md)
-
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

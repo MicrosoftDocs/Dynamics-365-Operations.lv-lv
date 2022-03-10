@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e744ade8b02b288821dd9142c85092d384db4b2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: 485d8f0aee791aa577432947d74b08caf484da0a3056d8119579e9d659ca3d57
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816959"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730510"
 ---
 # <a name="view-financial-reports"></a>Finanšu pārskatu skatīšana
 
@@ -28,8 +28,7 @@ ms.locfileid: "5816959"
 
 Šajā tēmā ir aprakstīts, kā skatīt un izpētīt finanšu pārskatus. Tas ietver informāciju par dažādām opcijām, kuras varat lietot finanšu atskaitēm, lai mainītu to izskatu un tajās ietvertos datus.
 
-<a name="financial-reporting-overview"></a>Finanšu atskaišu veidošanas apskats
-----------------------------
+## <a name="financial-reporting-overview"></a>Finanšu atskaišu veidošanas apskats
 
 ## <a name="open-a-financial-report"></a>Finanšu pārskata atvēršana
 Lai atvērtu pārskatu, atlasiet pārskata nosaukumu. Kad pārskatu atverat pirmo reizi, tas tiek automātiski ģenerēts par iepriekšējo mēnesi. Piemēram, ja atskaiti pirmo reizi atverat 2015. gada augustā, šī atskaite tiek ģenerēta par 2015. gada 31. jūliju. Pēc atskaites atvēršanas varat sākt to pētīt, detalizējot konkrētus datus un mainot atskaites opcijas.
@@ -76,10 +75,9 @@ Kad esat pabeidzis iestatīt drukas opcijas, noklikšķiniet uz **Drukāt**, lai
 ## <a name="export-a-financial-report"></a>Finanšu pārskata eksportēšana
 Lai eksportētu finanšu pārskatu, darbību rūti noklikšķiniet uz **Eksportēt**. Pārskats tiks eksportēts programmā Microsoft Excel, un pārlūkprogrammā tiks parādīts aicinājums atvērt vai saglabāt eksportēto failu. Eksporta iestatījumi, kas tiek definēti pārskata noformējumā, tiek lietoti eksportētajam pārskatam.    
 
-<a name="additional-resources"></a>Papildu resursi
---------
+## <a name="additional-resources"></a>Papildu resursi
 
-[Finanšu pārskatu veidošana](../../dev-itpro/analytics/financial-reporting-intro.md)
+[Finanšu pārskatu veidošana](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md)
 
 
 

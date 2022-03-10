@@ -1,8 +1,8 @@
 ---
 title: Bieži uzdotie jautājumi par gada beigu aktivitātēm
-description: Šī tēma ir kompilēta, lai palīdzētu nokārtot gada beigu slēgšanas aktivitātes.
-author: kweekley
-ms.date: 01/25/2021
+description: Šajā tēmā uzskaitīti jautājumi, kas var rasties, slēdzot gadu, un atbildes, kas var palīdzēt ar gada beigu slēgšanas darbībām.
+author: moaamer
+ms.date: 12/21/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,18 +13,30 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9ceacdbe36cc946b64d13b3faff2b3b1ca59afbb
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: b0560024d87ad72c7ab77eaff52a305a4ab5a089
+ms.sourcegitcommit: cd0ba5f0ac7c44d36559a3e6e0fffb6ed18f9a20
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345480"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947266"
 ---
 # <a name="year-end-activities-faq"></a>Bieži uzdotie jautājumi par gada beigu aktivitātēm 
 
 [!include [banner](../includes/banner.md)]
 
-Šī tēma ir kompilēta, lai palīdzētu nokārtot gada beigu slēgšanas aktivitātes. Šajā tēmā galvenokārt ir apskatīti jautājumi par gada beigu slēgšanas aktivitātēm virsgrāmatai un parādiem kreditoriem.
+Šajā tēmā uzskaitīti jautājumi, kas var rasties, slēdzot gadu, un atbildes, kas var palīdzēt ar gada beigu slēgšanas darbībām. Šajā tēmā galvenokārt ir apskatīti jautājumi par gada beigu slēgšanas aktivitātēm virsgrāmatai un parādiem kreditoriem.
+
+## <a name="general-ledger-year-end-enhancements"></a>Virsgrāmatas gada beigu uzlabojumi 
+Versijā 10.0.20 tika ieviests gada beigu slēgšanas uzlabojums, kas ir aktivizēts pēc noklusējuma, sākot ar versiju 10.0.25. Ja jūsu organizācija izmanto versiju, kas vecāka par 10.0.25, pirms gada beigu slēgšanas procesa uzsākšanas ieteicams iespējot šo līdzekli. Lai varētu izmantot šo līdzekli, sistēmā tas vispirms ir jāiespējo. Administratori var izmantot Līdzekļu pārvaldības darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Tur šis līdzeklis ir uzskaitīts šādā veidā:
+
+ - Modulis: Virsgrāmata
+ - Līdzekļa nosaukums: Virsgrāmatas gada beigu uzlabojumi
+
+Gada beigu slēgšanas veidņu iestatīšana tika pārvietota uz jaunu iestatīšanas lapu **Gada beigu slēgšanas veidnes iestatīšana**. Esošā gada beigu slēgšanas lapa mainīsies tādā veidā, kas līdzīgs virsgrāmatas ārvalstu valūtas pārvērtēšanai, kur saraksts tiek rādīts katru reizi, kad tiek palaista vai atsaukta gada beigu slēgšana. Uzskaites vadītājs var uzsākt gada beigu slēgšanu no jaunās lapas. 
+
+Lai atsauktu gada beigu slēgšanu, atlasiet atbilstošās juridiskās personas visjaunāko finanšu gadu un izvēlieties pogu **Atsaukt gada beigu slēgšanu**. Atsaukšana automātiski dzēsīs iepriekšējā gada beigu slēgšanas uzskaites ierakstus un atkārtoti neveiks automātisku gada beigu slēgšanu. 
+
+Gada beigu slēgšanu varat atkārtoti palaist, restartējot atbilstošā finanšu gada un juridiskās personas procesu. Process turpinās izmantot virsgrāmatas parametru iestatījumus, lai noteiktu, vai gada beigu slēgšanas atkārtota palaišana tiks ņemta vērā tikai jaunajām vai mainītajām transakcijām vai pilnībā atsauks iepriekšējo slēgšanu, atkārtoti palaižot šo procesu visām transakcijām.  
 
 ## <a name="general-ledger-how-do-i-know-that-were-running-year-end-close-and-not-undoing-year-end-close"></a>Virsgrāmata: kā lai es zinu, vai mēs palaižam gada beigu slēgšanas procesu, nevis gada beigu slēgšanas atsaukšanu?
 Ir pieredzēts, ka organizācijas mēģina palaist gada beigu slēgšanas procesu, taču tās vietā izpilda gada beigu slēgšanas atsaukšanu. Ja gada beigu slēgšana tiek ļoti ātri pabeigta vai gada beigu slēgšana nerada sākuma bilances, pārbaudiet iestatījumu **Atsaukt iepriekšējo slēgšanu** sadaļā **Gada beigu slēgšana** (**Virsgrāmata > Perioda slēgšana > Gada beigu slēgšana > Palaist finanšu slēgšanu**). 
@@ -67,51 +79,80 @@ Gada beigu slēgšanas veidne ļauj organizācijām atlasīt finanšu dimensijas
 
 Lai uzlabotu veiktspēju, ieteicams novērtēt organizācijas prasības un, ja iespējams, aizvērt tik daudz dimensiju, cik iespējams, izmantojot gada beigu opciju **Slēgt vienu**. Noslēdzot uz vienu dimensijas vērtību (kas var būt arī tukša vērtība), sistēma aprēķina mazāk detaļu, kad tiek aprēķinātas nesadalītās peļņas konta ierakstu bilances.
 
-### <a name="10013-update-or-later"></a>10.0.13 atjauninājums vai jaunāka versija
-Ja kopš pēdējās reizes, kad jūsu organizācija gada beigās veica gada slēgšanu, esat atjauninājis uz versiju 10.0.13 vai jaunāku versiju, gada beigu slēgšanas process var aizņemt vairāk laika [HashV2 līdzekļa implementēšanas](https://community.dynamics.com/365/financeandoperations/b/dynamics-365-finance-blog/posts/verify-hash-function-changes-after-update-to-dynamics-365-finance-2020-release-wave-2) dēļ. (Termins *jaukšana* attiecas uz lauku, kas ir aprēķināts no citiem virknes laukiem. Tika atjaunināts API jaukšanas GUID vērtības aprēķināšanai, lai uzlabotu drošību.) Lai paātrinātu gada beigu slēgšanas procesu, pirms gada beigu slēgšanas palaišanas ieteicams atjaunot dimensiju kopu bilances. Ja dimensiju kopas bilanču atjaunošana jau ir veikta pēc 10.0.13 atjauninājuma ieviešanas, nav nepieciešams vēlreiz palaist atjaunošanas procesu.
- 
-## <a name="general-ledger--what-does-the-period-close--year-end-close-do"></a>Virsgrāmata – ko dara perioda slēgšana – gada beigu slēgšana?
+## <a name="degenerate-dimensions"></a>Deģenerētās dimensijas
+
+Deģenerētā dimensija pati par sevi un kombinācijā ar citām dimensijām nesniedz praktiski nekādu atkārtotas izmantošanas labumu. Pastāv divu veidu deģenerētās dimensijas. Pirmais veids ir dimensija, kas ir individuāli deģenerēta. Parasti šis deģenerētās dimensijas veids būs tikai vienai transakcijai vai mazām transakciju kopām. Otrs veids ir dimensija, kas kļūst deģenerēta kombinācijā ar vienu vai vairākām papildu dimensijām, kuras nodrošina to pašu potenciālu, balstoties uz iespējamām permutācijām, ko var deģenerēt. Deģenerātā dimensija var būtiski ietekmēt gada beigu slēgšanas procesa veiktspēju. Lai minimizētu veiktspējas problēmas, gada beigu slēgšanas iestatījumā definējiet visas deģenerētās dimensijas kā **Slēgt vienu**, kā tas ir aprakstīts iepriekšējā sadaļā.
+
+## <a name="general-ledger-what-does-the-period-close-year-end-close-do"></a>Virsgrāmata: ko dara perioda un gada beigu slēgšana?
  
 [![Perioda slēgšana, gada beigu slēgšana.](./media/faq-2020-yr-end-05.png)](./media/faq-2020-yr-end-05.png)
 
-### <a name="performance-improvements-for-rebuilding-financial-dimension-sets-new-feature"></a>Veiktspējas uzlabojumi finanšu dimensiju kopu atjaunošanai (jauns līdzeklis)
-Versijā 10.0.16 pievienots jauns līdzeklis, kas uzlabo gada beigu slēgšanas un konsolidācijas procesu veiktspēju. Līdzekļa nosaukums ir Veiktspējas uzlabojumi finanšu dimensiju kopu atjaunošanai. Šis līdzeklis maina veidu, kādā tiek atjaunotas dimensiju kopas, lai tās tiktu atjaunotas tikai attiecīgajā laika posmā. Iepriekšējās versijās dimensiju kopas tika atjaunotas visiem datumiem. Piemēram, ja jūs slēdzat 2020. gadu, sistēma atjaunos tikai 2020. finanšu gada transakciju bilances. Ja konsolidācija tiek palaista datumu diapazonā 2020. gada 1. novembris – 2020. gada 30. novembris, sistēma atjaunos bilances tikai šim datumu diapazonam.
+### <a name="performance-improvements-for-rebuilding-financial-dimension-sets"></a>Veiktspējas uzlabojumi finanšu dimensiju kopu atjaunošanai
+Versijā 10.0.16 pievienotais jaunais līdzeklis uzlabo gada beigu slēgšanas un konsolidācijas procesu veiktspēju. Līdzekļa nosaukums ir Veiktspējas uzlabojumi finanšu dimensiju kopu atjaunošanai. Šis līdzeklis maina veidu, kādā tiek atjaunotas dimensiju kopas, lai tās tiktu atjaunotas tikai attiecīgajā laika posmā. Iepriekšējās versijās dimensiju kopas tika atjaunotas visiem datumiem. Piemēram, ja jūs slēdzat 2020. gadu, sistēma atjaunos tikai 2020. finanšu gada transakciju bilances. Ja konsolidācija tiek palaista datumu diapazonā 2020. gada 1. novembris – 2020. gada 30. novembris, sistēma atjaunos bilances tikai šim datumu diapazonam.
 
-Tā kā šis līdzeklis tiek uzskatīts par traucējumus radošām izmaiņām, jums tas ir jāiespējo, izmantojot **līdzekļu pārvaldības** darbvietu.
+Lai varētu izmantot šo līdzekli, sistēmā tas vispirms ir jāiespējo. Administratori var izmantot Līdzekļu pārvaldības darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Tur šis līdzeklis ir uzskaitīts šādā veidā:
  
-[![Gada beigu slēgšana.](./media/faq-2020-yr-end-06.png)](./media/faq-2020-yr-end-06.png)
+- Modulis: Virsgrāmata
+- Līdzekļa nosaukums: Veiktspējas uzlabojumi finanšu dimensiju kopu atjaunošanai
 
-## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2020"></a>Parādi kreditoriem: kādas izmaiņas ir veiktas, lai atbalstītu 1099 gada beigu pārskatu 2020. gadam?
+## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2021"></a>Parādi kreditoriem: kādas izmaiņas ir veiktas, lai atbalstītu 1099 gada beigu pārskatu 2021. gadam?
 
-1099 gada beigu izmaiņām 2020. gadā ir pievienoti divi jauni regulēšanas līdzekļi. Pirmais līdzeklis **Lietot izmaiņas 1099-NEC un 1099-MISC veidlapām 2020. gadā** tika izlaists kā obligāts līdzeklis gada vidū. Tā mērķis ir nodrošināt, lai 1099 transakciju datus 2020. gadam varētu izsekot jaunajai veidlapai 1099-NEC. Šis līdzeklis pievienoja 1099 laukus, kas ir nepieciešami, lai atbalstītu jaunos 1099-NEC un atjauninātos 1099-MISC laukus. Šis atjauninājums arī jaunināja kreditora ieraksta datus 1099 lodziņa informācijai. 
+2021. gadā formas DIV, NEC un MISC ir mazliet mainījušās, un ir pievienoti daži papildu lodziņi.
 
-Otrais regulēšanas līdzeklis **1099 pārskati, kas atjaunināti 2020. gada nodokļu likumam**, satur šādas izmaiņas.
+#### <a name="div-new-box2e-2f"></a>DIV: jauns lodziņš 2e, 2f
+ 
+- Lodziņš 2e. Rāda lodziņa 1a summas daļu, kas ir 897. sadaļas peļņa, kura ir attiecināma uz ASV nekustamā īpašuma procentu (U.S. real property interests — USRPI) izvietojumu.  
+- Lodziņš 2f. Rāda lodziņa 2a summas daļu, kas ir 897. sadaļas peļņa, kura ir attiecināma uz USRPI izvietojumu. Ņemiet vērā, ka lodziņi 2e un 2f attiecas tikai uz ārvalstniekiem un entītijām, kuru ienākumi tiek nodoti vai izplatīti tiešajiem vai netiešiem ārvalstu īpašniekiem vai labuma guvējiem. Tas tiek vispārēji uzskatīts par efektīvu saistību ar tirdzniecību vai uzņēmējdarbību Amerikas Savienotajās Valstīs. Skatiet jūsu nodokļu atgriešanas instrukcijas. 
+ 
+#### <a name="nec-new-box-2"></a>NEC: jauns lodziņš 2 
+ 
+Ja lodziņš 2 ir atzīmēts, sniedziet pārskatu par patēriņa precēm vismaz USD 5000 apmērā, kas jums tika pārdotas tālākpārdošanai uz pirkšanas-pārdošanas, depozīta-komisijas vai citiem pamatiem. Parasti sniedziet pārskatu par visiem ieņēmumiem no šo preču pārdošanas grafikā C (forma 1040). 
+ 
+Tikmēr NEC formas lielums ir mainīts. Drukājot lapā ir trīs formas. 
+ 
+#### <a name="misc-new-box-11"></a>MISC: jauns lodziņš 11 
+ 
+Lodziņā 11 tiek rādīta summa, kas samaksāta par zivju iegādi tālākpārdošanai no jebkuras personas, kas ir iesaistīta tirdzniecībā vai zivju ķeršanas uzņēmējdarbībā. Lai ziņotu par šiem ienākumiem, skatiet jūsu nodokļu atgriešanas instrukcijas. 
+ 
+#### <a name="electronic-filing"></a>Iesniegšana elektroniski 
+Informāciju par iesniegšanu elektroniski skatiet šeit: [Publikācija par iesniegšanas elektroniski prasībām](https://www.irs.gov/pub/irs-pdf/p1220.pdf).
 
-- 1099-OID — IRS ir pārveidojis veidlapu nepārtrauktai lietošanai.
-   - Drukājot jāaizpilda pārskata gada 3. un 4. cipars. Lietojiet **pārskata gada** lauka 3. un 4. ciparu no **nodokļa 1099 drukāšanas opcijām**. 
-
-- 1099-NEC — jauna veidlapa 2020. gadam. Šis reģistrē kompensāciju, kas nav darbinieku kompensācija. 
-
--   1099-MISC – Lai izveidotu veidlapu 1099-NEC, IRS ir pārskatījis veidlapu 1099-MISC un pārkārtojis lodziņu numurus noteiktu ienākumu pārskatu izveidei.
-Izmaiņas ienākumu uzskaitē un veidlapas lodziņu numuros ir norādītas zemāk.
-   - Maksātāja veiktā tiešā 5000 $ pārdošana (izvēles rūtiņa) 7. lodziņā.
-   - Ražas apdrošināšanas ieņēmumi tiek uzrādīti 9. lodziņā.
-   - Bruto ieņēmumi, kas attiecas uz advokātu, tiek uzrādīti 10. lodziņā.
-   - 409. sadaļas atliktie maksājuma dokumenti ir uzrādīti 12. lodziņā.
-   - Nekvalificēto atlikto atlīdzību ieņēmumi ir uzrādīti 14. lodziņā.
-   - 15., 16. un 17. lodziņā tiek norādīts ieturētais valsts nodoklis, valsts identifikācijas numurs un attiecīgā štatā nopelnīto ienākumu summa.
-
-- 2020. gadā nav nekādu izmaiņu attiecībā uz 1099-DIV vai 1099-INT.
-
-- Iesniegšana elektroniski — formāts ir mainījies, lai pielāgotos jaunajai NEC veidlapai un iepriekš aprakstītajām MISC lodziņu izmaiņām. Lai iegūtu sīkāku informāciju par elektroniskās iesniegšanas prasībām, skatiet [IRS publikāciju 1220](https://www.irs.gov/pub/irs-pdf/p1220.pdf).
+2021. gada e-pārskatam atjauninātas formāta specifikācijas un ierakstu izkārtojumi 
+- 2. sadaļa Izdevēja “A” ieraksts. 
+- Summu kodi — palielināta lauka pozīcija 28-45, garums līdz 18. 
+ 
+#### <a name="sec-2-issuer-a-record-for-reporting-payments-on-form-1099-div"></a>2. sadaļa Izdevēja “A” ieraksts maksājumu pārskatam formā 1099-DIV: 
+- Summas veids — pievienota 897. sadaļa Parastās dividendes un pievienots summas kods H. 
+- Summas veids — pievienota 897. sadaļa Kapitāla pieaugums un pievienots summas kods J. 
+ 
+#### <a name="sec-3-payee-b-record"></a>3. sadaļa Saņēmēja “B” ieraksts 
+- Vispārīgās informācijas ieraksti — atjauninātā trešā aizzīme no 16.–18. maksājumu summas lauka. 
+- Lauka virsraksta maksājums H — atjaunināta lauka pozīcija 247-258, lauka virsraksts, garums un vispārīgais lauka apraksts. 
+- Lauka virsraksta maksājums J — atjaunināta lauka pozīcija 259-270, lauka virsraksts, garums un vispārīgais lauka apraksts. 
+- Atjaunināts tukšais lauks lauka pozīcijā 271-286. 
+- Atjaunināts ārvalsts indikators lauka pozīcijā 287. 
+- Atjaunināts pirmā saņēmēja nosaukuma rindas lauks lauka pozīcijā 288-327. 
+- Atjaunināts otrā saņēmēja nosaukuma rindas lauks lauka pozīcijā 328-367. 
+- Ierakstu izkārtojuma pozīcijas, forma 1099-MISC — izdzēsta lauka pozīcija 548 un lauka virsraksts FATCA aizpildīšanas prasību indikators. 
+- Ierakstu izkārtojuma pozīcijas, forma 1099-NEC — atjaunināts 545-546 uz tukšu, atjaunināts lauks 547 uz tiešās pārdošanas indikatoru, garums un apraksts, kā arī remarkas, atjaunināts lauks 548-722 uz tukšu. 
+ 
+#### <a name="sec-4-end-of-issuer-c-record"></a>4. sadaļas Izdevēja beigas “C” ieraksts 
+- Lauka virsraksta maksājums H — atjaunināta lauka pozīcija 304-321, lauka virsraksts, garums un vispārīgais lauka apraksts. 
+- Lauka virsraksta maksājums J — atjaunināta lauka pozīcija 322-339, lauka virsraksts, garums un vispārīgais lauka apraksts. 
+- Lauka virsraksts 340-499 — atjaunināts garums uz 160. 
+ 
+#### <a name="sec-5-state-totals-k-record"></a>5. sadaļas Stāvokļa kopsummas “K” ieraksts 
+- Lauka virsraksta maksājums H — atjaunināta lauka pozīcija 304-321, lauka virsraksts, garums un vispārīgais lauka apraksts. 
+- Lauka virsraksta maksājums J — atjaunināta lauka pozīcija 322-339, lauka virsraksts, garums un vispārīgais lauka apraksts. 
+- Lauka virsraksts 340-499 — atjaunināts garums uz 160.  
 
 ## <a name="accounts-payable-1099--how-do-i-change-the-1099-box-and-values-for-a-vendor-that-wasnt-tracking-1099-information-throughout-the-year"></a>Parādi kreditoriem: 1099 — Kā var mainīt 1099 lodziņu un vērtības kreditoram, kurš gada laikā nesekoja 1099 informācijai?
 Izmantojiet funkcionalitāti Atjaunināt 1099 (**Parādi kreditoriem > Kreditori >Visi kreditori > Atlasīt kreditoru > Lentes cilne Kreditors > Atjaunināt 1099**), lai apskatītu iepriekš apmaksātos rēķinus un pareizi piešķirtu 1099 datus atbilstoši iestatījumiem **kreditoru** lapas cilnē **Nodoklis 1099**.
 
 ## <a name="can-i-run-the-update-1099-for-all-my-vendors-at-once"></a>Vai var palaist atjauninājumu 1099 visiem kreditoriem vienlaicīgi?
-Nē. Rutīnas atjauninājums 1099 vienlaikus tiek veikts tikai vienam kreditoram. Ja šī prasība ir nepieciešama jūsu organizācijai, lūdzu, balsojiet par ideju ar nosaukumu [Kreditora 1099 datu atjauninājuma pakešuzdevums](https://experience.dynamics.com/ideas/idea/?ideaid=5493d608-350e-eb11-b5d9-0003ff68ded8).
+Nē. Rutīnas atjauninājums 1099 vienlaikus tiek veikts tikai vienam kreditoram. Ja šī prasība ir nepieciešama jūsu organizācijai, lūdzu, balsojiet par ideju ar nosaukumu [Kreditora 1099 datu atjauninājuma paketes apstrāde](https://experience.dynamics.com/ideas/idea/?ideaid=5493d608-350e-eb11-b5d9-0003ff68ded8).
 
-## <a name="accounts-payable-1099--recalculate-existing-1099-amounts-vs-update-all-in-the-update-1099-utility"></a>Parādi kreditoriem: 1099 – “Pārrēķināt esošās 1099 summas” salīdzinājumā ar “Atjaunināt visu” atjauninājuma 1099 utilītā.
+## <a name="accounts-payable-1099--recalculate-existing-1099-amounts-versus-update-all-in-the-update-1099-utility"></a>Parādi kreditoriem: 1099 — “Pārrēķināt esošās 1099 summas” salīdzinājumā ar “Atjaunināt visu” atjauninājuma 1099 utilītā
 Izvēles rūtiņa **Pārrēķināt esošās 1099 summas** atiestata 1099 summu uz kopējām apmaksātajām vērtībām, ja tās tiek izmantotas kopā ar izvēles rūtiņu **Atjaunināt visu**. 
 
 [![Nodokļa 1099 transakcijas: pirms atjaunināšanas rutīnas izpildes.](./media/faq-2020-yr-end-07.png)](./media/faq-2020-yr-end-07.png)

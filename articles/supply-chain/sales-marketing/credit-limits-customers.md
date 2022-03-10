@@ -1,7 +1,7 @@
 ---
 title: Debitoru kredīta limiti
 description: Šajā rakstā ir sniegts apskats par to, kā darbojas kredīta limiti programmā Dynamics 365 Supply Chain Management.
-author: omulvad
+author: Henrikan
 ms.date: 09/15/2017
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: CustParameters
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fbf5ed3d0f83619746ae66ae7008940f4600060c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: 4e3476f1f25ac01d8740cce0442ac48ef25101a0
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824922"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574309"
 ---
 # <a name="credit-limits-for-customers"></a>Debitoru kredīta limiti
 
@@ -90,7 +90,7 @@ Lai norādītu informāciju, ar kuru salīdzināt, izmantojiet formu **Debitoru 
 
 **Kur tiek izmantota informācija par debitora atlikušo kredītu?**
 
-Kad veidojat vecumstruktūras momentuzņēmumu, informācija par debitora bilanci un atlikušā kredīta summu tiek aprēķināta un saglabāta, un tā tiek rādīta formā **Iekasēšana**. Kamēr nav izveidots jauns vecumstruktūras momentuzņēmums, formā **Iekasēšana** rādītās summas var neietvert visas transakciju darbības. Plašāku informāciju skatiet rakstā [Iekasēšana un kredīts modulī Debitoru parādi](https://technet.microsoft.com/library/hh209221.aspx).
+Kad veidojat vecumstruktūras momentuzņēmumu, informācija par debitora bilanci un atlikušā kredīta summu tiek aprēķināta un saglabāta, un tā tiek rādīta formā **Iekasēšana**. Kamēr nav izveidots jauns vecumstruktūras momentuzņēmums, formā **Iekasēšana** rādītās summas var neietvert visas transakciju darbības. Plašāku informāciju skatiet rakstā [Iekasēšana un kredīts modulī Debitoru parādi](/dynamicsax-2012/appuser-itpro/collections-and-credit-in-accounts-receivable).
 
 Atkarībā no atlasītajiem dokumentiem informācija par debitora bilanci un atlikušo kredīta summu tiek aprēķināta, kad tiek atjaunināti pārdošanas pasūtījumi, pavadzīmes un debitora rēķini. Ja tā dokumenta summa, ar kuru strādājat, izraisītu kredīta limita pārsniegšanu, tiek parādīts ziņojums.
 

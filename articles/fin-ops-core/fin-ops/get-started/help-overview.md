@@ -1,46 +1,50 @@
 ---
-title: Palīdzības sistēma
-description: Šajā tēmā ir sniegts pārskats par Palīdzības sistēmu Finance and Operations programmām.
+title: Palīdzības sistēma (satur video)
+description: Šajā tēmā ir sniegts pārskats par palīdzības sistēmu finanšu un operāciju programmām.
 author: edupont04
-manager: AnnBe
-ms.date: 05/11/2020
-ms.topic: article
+ms.date: 07/20/2021
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: tfehr
-ms.custom: 16381
+ms.custom:
+- "16381"
+- intro-internal
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d4763b0bc4ba0222e290a9056f421506c2f4eaf3
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
-ms.translationtype: HT
+ms.openlocfilehash: dd34addc2ffa5e437691cb1e3e8b33246053ccc7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560881"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070505"
 ---
 # <a name="help-system"></a>Palīdzības sistēma
 
 [!include [banner](../includes/banner.md)]
 
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
 Šo programmu lietotāji var piekļūt kontekstjutīgai palīdzībai un citam saturam, kas ir balstīts uz to pašu palīdzības sistēmu:
 
-- Microsoft Dynamics 365 Commerce
+- Dynamics 365 Commerce
 - Dynamics 365 Finance
 - Dynamics 365 Human Resources
 - Dynamics 365 Supply Chain Management
 
 Šajās programmās jūs varat piekļūt preces specifiskai Palīdzībai no rūts **Palīdzība**.
 
-![Rūts Palīdzība](./media/help-pane-ops-help.png)
+![Rūts Palīdzība.](./media/help-pane-ops-help.png)
 
 ## <a name="help-on-docsmicrosoftcom"></a>Palīdzība vietnē docs.microsoft.com
 
-Vietne docs.microsoft.com ([docs.microsoft.com/dynamics365/](https://docs.microsoft.com/dynamics365/)) ir noklusējuma avots preču dokumentācijai iepriekš minētajām programmām. Šī vietne piedāvā tālāk norādītos līdzekļus:
+Vietne docs.microsoft.com ([docs.microsoft.com/dynamics365/](/dynamics365/)) ir noklusējuma avots preču dokumentācijai iepriekš minētajām programmām. Šī vietne piedāvā tālāk norādītos līdzekļus:
 
 - **Piekļuve visjaunākajam saturam**— vietne nodrošina Microsoft ātrāku un pielāgojamāku veidu, kā piegādāt un atjaunināt produkta dokumentāciju. Tāpēc jums ir viegla pieeja visjaunākajai tehniskajai informācijai.
 - **Saturs, ko sarakstījuši eksperti** – vietnes saturs ir atvērts kopienas dalībnieku ieguldījumiem gan iekšpusē, gan ārpus Microsoft.
@@ -49,9 +53,20 @@ Jūs varat atrast saturu docs.microsoft.com, izmantojot jebkuru meklētājprogra
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>Saņemt paziņojumus par izmaiņām, izmantojot RSS plūsmu
 
-Lai abonētu Really Simple Syndication (RSS) plūsmu visiem atjauninājumiem, kas ir docs.microsoft.com saturam, izmantojiet šādu saiti:
+Lai abonētu RSS plūsmu ar visiem atjauninājumiem, kas veikti docs.microsoft.com saturu finanšu un operāciju programmās, izmantojiet šo saiti:
 
-[RSS plūsma](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
+[RSS plūsma](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
+
+> [!NOTE]
+> RSS plūsma atgriež 100 jaunāko tēmu sarakstu. Saraksts netiek kārtots pēc datuma.  
+
+Varat arī abonēt RSS plūsmu pēc programmas:
+
+- [Commerce](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-commerce%27)&locale=en-us)  
+- [Finance](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finance%27)&locale=en-us)  
+- [Human Resources](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-hr%27)&locale=en-us)  
+- [Piegādes ķēde](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-supplychain%27)&locale=en-us)  
+- [Potenciālais kandidāts](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-talent%27)&locale=en-us)  
 
 ### <a name="leave-us-feedback"></a>Sniedziet mums atsauksmes
 
@@ -61,7 +76,7 @@ Ja vēlaties sniegt atsauksmes vai uzdot jautājumu par tēmu, pievienojiet kome
 
 2. Ievadiet komentārus un pēc tam atlasiet **Iesniegt atsauksmes**.
 
-    ![Komentāra publicēšana](./media/feedback.png)
+    ![Komentāra publicēšana.](./media/feedback.png)
 
 > [!NOTE]
 > Ja vēlaties iesniegt dokumentācijas atsauksmes, jums ir jāpiesakās, izmantojot GitHub kontu. Papildinformāciju skatiet šeit: [Jūsu GitHub profila iestatīšana un pārvaldība](https://help.github.com/github/setting-up-and-managing-your-github-profile).
@@ -74,7 +89,7 @@ Varat veikt papildinājumus un rediģējumus dokumentācijā. Lai sāktu darbu, 
 
 Video [Kā sniegt ieguldījumu Microsoft Dynamics 365 dokumentācijās](https://youtu.be/m5djioozRbg) (norādīts iepriekš) ir iekļauts Microsoft Dynamics 365 kanālā YouTube.
 
-Lai iegūtu vairāk informācijas, skatiet [Dokumentu veicinātāja ceļvedis](https://docs.microsoft.com/contribute), ko publicējusi darba grupa, kas izveidoja docs.microsoft.com vietni.
+Lai iegūtu vairāk informācijas, skatiet [Dokumentu veicinātāja ceļvedis](/contribute), ko publicējusi darba grupa, kas izveidoja docs.microsoft.com vietni.
 
 > [!NOTE]
 > Pašlaik tiek pieņemta līdzdarbošanās tikai mūsu angļu valodas satura veidošanā.
@@ -85,11 +100,11 @@ Uzdevuma ceļvedis ir kontrolēta, strukturēta, interaktīvu pieredze, kas jūs
 
 Microsoft izlaistās uzdevumu ceļveža bibliotēkas preču versijām, izmantojot Dynamics 365 for Finance and Operations 2017. gada decembra versiju. Šīs tēmas sadaļa [Piekļuve uzdevumu ceļvežiem rūtī Palīdzība](#accessing-task-guides-from-the-help-pane) paskaidro, kā atrast savam produktam atbilstošos Uzdevumu ceļvežus.
 
-![Uzdevuma ceļveža lasīšanas skats](./media/task-guide-ops.png)
+![Uzdevuma ceļveža lasīšanas skats.](./media/task-guide-ops.png)
 
 Lai sāktu strukturēto, interaktīvo pieredzi, atlasiet vienuma **Sākt uzdevuma ceļvedi** rūts **Palīdzība** apakšā. Melns rādītājs parāda, kurp doties vispirms. Sekojiet norādījumiem, kas tiek parādīti lietotāja interfeisā (UI), un ievadiet datus saskaņā ar norādījumiem.
 
-![Uzdevuma ceļveža darbības norādījums](./media/task-guide-step-1-ops.png)
+![Uzdevuma ceļveža darbības norādījums.](./media/task-guide-step-1-ops.png)
 
 > [!IMPORTANT]
 > Uzdevuma ceļveža demontēšanas laikā tiek ievadīti īsti dati. Ja esat ražošanas vidē, šie dati tiks ievadīti uzņēmumā, kuru pašlaik izmantojat.
@@ -102,7 +117,7 @@ Dažos laukos ir lauku apraksti, kas palīdz lietotājiem atbloķēties, kad, pi
 
 Lai piekļūtu palīdzības saturam, atlasiet pogu **Palīdzība** (**?**) un pēc tam atlasiet **Palīdzība**. Vai arī nospiediet **Ctrl+Shift+?**. Abos gadījumos tiek parādīta rūts **Palīdzība**. No **Palīdzības** rūts varat piekļūt konceptuālām tēmām vai uzdevumu ceļvežiem, kas ir saistīti ar pašlaik izmantojamās preces apgabalu.
 
-![Rūts Palīdzība](./media/help-pane-ops-help.png)
+![Rūts Palīdzība.](./media/help-pane-ops-help.png)
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>Piekļuve Palīdzības tēmām no rūts Palīdzība
 
@@ -119,13 +134,13 @@ Lai varētu piekļūt uzdevumu ceļvežiem no rūts **Palīdzība**, sistēmas a
 > - In order to configure Help, you must be signed in with an account in the same tenant as the tenant in which the app is deployed.
 > - It is not possible to connect to an LCS library from an instance of the app running in a local virtual hard drive (VHD).
 
-![System Parameters form with Help settings](./media/system-parameters_ops-1024x437.png)
+![System Parameters form with Help settings.](./media/system-parameters_ops-1024x437.png)
 
 On the **System parameters** page, follow these steps:
 
 1. **Important:** The first time that you open the Help tab, you must connect to Lifecycle Services. Be sure to select the link in the middle of the form, wait for the connection, close the dialog box, and then select **OK** to get to the parameters form.
 
-    ![Connect to LCS](./media/connect-to-lcs-crop-1024x365.png)
+    ![Connect to LCS.](./media/connect-to-lcs-crop-1024x365.png)
 
 2. Select the Lifecycle Services project to connect to.
 3. Select BPM libraries (within the selected project) to retrieve task recordings from.
@@ -133,7 +148,7 @@ On the **System parameters** page, follow these steps:
 
 Kad sistēmas administrators ir izpildījis šīs darbības, varat atvērt rūti **Palīdzība** un atlasiet cilni **Uzdevumu ceļveži**. Tagad tiek rādīti uzdevumu ceļveži, kas attiecas uz pašlaik atvērto lapu. Ja netiek atrasts neviens uzdevuma ceļvedis, varat ievadīt atslēgvārdus, lai precizētu meklēšanu. Kad rūtī **Palīdzība** atlasāt uzdevuma ceļvedi, rūtī **Palīdzība** tiek parādīti detalizēti norādījumi un varat atskaņot uzdevuma ceļvedi.
 
-![Uzdevuma ceļveža lasīšanas skats](./media/task-guide-ops.png)
+![Uzdevuma ceļveža lasīšanas skats.](./media/task-guide-ops.png)
 
 ### <a name="where-are-the-translated-task-guides-for-microsoft-libraries"></a>Kur atrodas tulkotie uzdevumu ceļveži Microsoft bibliotēkām?
 
@@ -156,13 +171,14 @@ Varat izveidot Palīdzību lietotājiem, izveidojot pielāgotus uzdevuma ceļve�
 | Vieta | apraksts |
 |------|-------------|
 | [Docs.microsoft.com](/dynamics365/) | Šī vietne vieso vai savieno ar visu produktu dokumentāciju programmatūrai Dynamics 365. |
-| [Microsoft Learn](https://docs.microsoft.com/learn/) | Šī vietne ir brīva Microsoft eLearning vietne. |
-| [Microsoft DynamicsLifecycle Services (LCS)](https://lcs.dynamics.com/)\* | Šī vietne nodrošina mākonī izvietotu sadarbības darbvietu, ko debitori un partneri var izmantot, lai pārvaldītu projektus no pirmspārdošanas posma līdz ieviešanas un operāciju posmam. Tā ir noderīga visām ieviešanas fāzēm. |
+| [Microsoft Learn](/learn/) | Šī vietne ir brīva Microsoft eLearning vietne. |
+| [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/)\* | Šī vietne nodrošina mākonī izvietotu sadarbības darbvietu, ko debitori un partneri var izmantot, lai pārvaldītu projektus no pirmspārdošanas posma līdz ieviešanas un operāciju posmam. Tā ir noderīga visām ieviešanas fāzēm. |
 | [Atbalsta emuārs](https://aka.ms/AXSupportBlog) | Šī vietne sniedz padomus un ieteikumus, ko ir publicējusi Atbalsta darba grupa. |
 | [Docs.microsoft.com/previous versions](/previous-versions/dynamics/) | Šī vietne vieso saturu no iepriekšējiem laidieniem. |
 | [Dynamics kopiena](https://community.dynamics.com/) | Šī vietne vieso emuārus, forumus un video. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Šī vietne sniedz novērtējumu un pārdošanas informāciju. |
-| [CustomerSource](https://docs.microsoft.com/dynamics/s-e/)\* | Šī vietne vieso apmācību resursus, lejupielādējamas atskaites un tehniskos dokumentus un ir primārā atbalsta vietne pakalpojumu plāna turētājiem. Lai piekļūtu dažiem šīs vietnes resursiem, var būt nepieciešams pakalpojumu plāns. |
+
+
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

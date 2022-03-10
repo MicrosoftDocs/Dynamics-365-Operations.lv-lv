@@ -13,47 +13,50 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ea77f112413a5b7d5c96768ad46fdb361023bd84
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
-ms.translationtype: HT
+ms.openlocfilehash: b76102111a8506882f2301d76856ae1a34a7c704
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964887"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065685"
 ---
 # <a name="employment-verification-i9-verification"></a>Nodarbinātības pārbaudes i9 pārbaude
 
 [!include [banner](../../../includes/banner.md)]
 
+
+[!INCLUDE [PEAP](../../../../../includes/peap-1.md)]
+
 Saskaņā ar Imigrācijas reformu un kontroles aktu (Immigration Reform and Control Act — IRCA) darba devējiem ASV ir jāpārbauda katra jaunpieņemtā darbinieka piemērotības nodarbinātībai statusu. Šajā procedūrā aprakstīts, kā pierakstīt nepieciešamos dokumentus I-9 pārbaudei. Šai procedūrai izmantojiet USMF uzņēmumu.
 
-1. Dodieties uz **personāla vadības \> darbinieku \> darbiniekiem**.
-2. Izmantojiet līdzekli Ātrais filtrs, lai atrastu ierakstus. Piemēram, filtrējiet ar **Arce vērtību** lauka **nosaukumam**.
-3. Atlasiet darbinieku. Piemēram, atlasiet **Sia** Sia.
-4. Atlasiet kopsavilkuma **cilni Personiskā** informācija.
-5. Atlasiet **identifikācijas** numurus.
+1. Iet uz **Cilvēku resursi \> Strādnieki \> Darbinieki**.
+2. Izmantojiet līdzekli Ātrais filtrs, lai atrastu ierakstus. Piemēram, filtrējiet pēc vērtības **Vince** priekš **Vārds** lauks.
+3. Atlasiet darbinieku. Piemēram, atlasiet **Vinss Prado**.
+4. Izvēlieties **Personīgā informācija** FastTab.
+5. Izvēlieties **Identifikācijas numuri**.
 6. Atlasiet **Jauna**.
-7. Atlasiet identifikācijas tipu, ko ierakstāt. Piemēram, izvēlieties **Pase**.
-8. Laukā **Numurs** ievadiet vērtību.
-9. Laukā **Primārais** atlasiet **Jā**.
-10. Laukā **Apraksts** ievadiet īsu identifikācijas ieraksta aprakstu.
-11. Laukā **Izdevējiestāde** izvēlieties aģentūru, kas izsniedza darbinieka identifikācijas formu. Piemēram, atlasiet **Valdība**.
-12. Ievadiet datumu, kad izdevējiestāde izsniedza darbinieka identifikācijas formu. Piemēram, ievadiet **02/15/2011** (2011. gada 15. februāris).
-13. Ievadiet datumu, kad beidzas identifikācijas formas derīguma termiņš. Piemēram, ievadiet **2021. gada 2. februāri** (2021. gada 15. februāris).
+7. Atlasiet ierakstāmā identifikācijas veidu. Piemēram, atlasiet **Pase**.
+8. Iekš **Numurs** laukā ievadiet vērtību.
+9. Iekš **Primārs** laukā atlasiet **Jā**.
+10. Iekš **Apraksts** laukā ievadiet īsu identifikācijas ieraksta aprakstu.
+11. Iekš **Izdevēja aģentūra** laukā atlasiet aģentūru, kas izsniedza darbiniekam identifikācijas veidlapu. Piemēram, atlasiet **valdība**.
+12. Ievadiet datumu, kad izdevēja iestāde izsniedza darbiniekam identifikācijas veidlapu. Piemēram, ievadiet **15.02.2011** (2011. gada 15. februāris).
+13. Ievadiet datumu, kad beidzas identifikācijas formas derīguma termiņš. Piemēram, ievadiet **15.02.2021** (2021. gada 15. februāris).
 14. Atlasiet **Saglabāt**.
 15. Aizvērt lapu.
-16. Atlasiet cilni **Nodarbinātība**.
-17. Atlasiet **I-9.**
+16. Izvēlieties **Nodarbinātība** cilne.
+17. Izvēlieties **I-9**.
 18. Atlasiet **Jauna**.
-19. Laukā **Darba** tiesības atlasiet opciju.
+19. Iekš **Atbilstība darbam** laukā atlasiet opciju.
 
-    Ja darbinieks nav Savienoto Valstu pavalstnieks vai pilsonis, ir jāievada darbinieka ārzemju pavalstnieka vai pavalstnieka numurs.
+    Ja darbinieks nav Amerikas Savienoto Valstu pilsonis vai valstspiederīgais, jums jāievada darbinieka rezidenta ārvalstnieka vai uzņemšanas numurs.
 
-20. Atlasiet **opciju GroupListA.**
+20. Izvēlieties **GroupListA** opciju.
 
-    Atlasītais saraksts ir atkarīgs no darbinieka sniegtās identifikācijas formas. Darbiniekam jānorāda viens dokuments no A saraksta vai viens dokuments gan no B saraksta, gan no saraksta C. Piemēram, ja darbinieks sniedzis pases, varat atlasīt A sarakstu. Tomēr, ja darbinieks ir sniedzis tikai autovadītāja licenci un sociālās apdrošināšanas karti, ir jāatlasa saraksts B un Saraksts C.
+    Jūsu atlasītais saraksts ir atkarīgs no darbinieka norādītā identifikācijas veida. Darba ņēmējam ir jāiesniedz vai nu viens dokuments no saraksta A vai viens dokuments gan no saraksta B, gan saraksta C. Piemēram, ja darbinieks iesniedza pasi, varat atlasīt A sarakstu. Tomēr, ja darbinieks ir iesniedzis tikai autovadītāja apliecību un sociālo apdrošināšanu. karti, jums ir jāizvēlas saraksts B un saraksts C.
 
-21. **I-9 dokumenta tipa** laukā atlasiet dokumenta tipu, ko darbinieks ir sniedzis.
-22. Laukā **Dokumenta** numurs ievadiet vai atlasiet vērtību.
+21. Iekš **I-9 dokumenta veids** laukā atlasiet darbinieka iesniegtā dokumenta veidu.
+22. Iekš **Dokumenta numurs** laukā ievadiet vai atlasiet vērtību.
 23. Atlasiet **Saglabāt**.
 
 [!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

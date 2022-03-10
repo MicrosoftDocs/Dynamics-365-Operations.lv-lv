@@ -1,29 +1,26 @@
 ---
 title: Uzturēšanas speciālista kalendārs un plānošana
 description: Šajā tēmā paskaidrots uzturēšanas speciālista kalendārs attiecībā uz plānošanu programmā Asset Management.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorker
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4c1e068d273374c6c8ac162a92be6130d85cbe40
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: ad76850fe055e96f3ed96e8a5d9524c58d8a187a87641a8669288468d542bb1e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432601"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780287"
 ---
 # <a name="maintenance-worker-calendar-and-scheduling"></a>Uzturēšanas speciālista kalendārs un plānošana
 
@@ -35,7 +32,10 @@ Plānojot darba pasūtījumus, jūs varat izveidot grafiku uzturēšanas speciā
 
 Zemāk esošajā ekrānšāviņā ir rādīts piemērs uzturēšanas speciālistam, kurš ir saistīts ar resursu, kas izmanto darba laika kalendāru "Ražošana".
 
-![1. attēls](media/01-work-order-scheduling.png)
+![1. attēls.](media/01-work-order-scheduling.png)
 
 Kalendāra uzstādīšana rīkiem un līdzekļiem nav nepieciešama attiecībā uz darba pasūtījuma plānošanu. Tiek pieņemts, ka rīki un līdzekļi ir uzturēšanai pieejami 24 stundas diennaktī.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

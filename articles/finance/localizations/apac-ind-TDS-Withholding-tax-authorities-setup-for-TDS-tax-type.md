@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 5375363a9b1383a83e80fc3c4b841780adab4172
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
-ms.translationtype: HT
+ms.openlocfilehash: aff7c932a1395393935819dee1f342d2abdc75169bb68c6c6776edc1c5b2a3bd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023410"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758829"
 ---
 # <a name="set-up-withholding-tax-authorities-for-the-tds-tax-type"></a>Iestatīt ieturētā nodokļa iestādes TDS nodokļu tipam
 
@@ -31,7 +31,7 @@ ms.locfileid: "6023410"
 
 1. Dodieties uz **Nodoklis \> Netiešie nodokļi \> ieturētā nodokļa iestādes**.
 
-    [![ieturētā nodokļa iestāžu lapa](./media/apac-ind-TDS-12.png)](./media/apac-ind-TDS-12.png)
+    [![ieturētā nodokļa iestāžu lapa.](./media/apac-ind-TDS-12.png)](./media/apac-ind-TDS-12.png)
 
 2. Laukā **Nodokļu tips** atlasiet **TDS**, lai iestatītu ieturētā nodokļa iestādes TDS nodokļa tipam.
 3. Lai izveidotu rindu, darbību rūtī atlasiet **Jauns**.

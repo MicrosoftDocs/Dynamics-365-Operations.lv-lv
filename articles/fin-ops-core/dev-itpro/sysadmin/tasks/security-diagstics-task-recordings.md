@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Version 10.0.9
-ms.openlocfilehash: cb4d544d8d74ad10432901381253f84ec9331ae7
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
-ms.translationtype: HT
+ms.openlocfilehash: 44af35f16f6e9ff89b30bc10eef3f16ecdfaf907c4c6e22aa5775d1941fb6a5d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745769"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745124"
 ---
 # <a name="security-diagnostics-for-task-recordings"></a>Drošības diagnostika uzdevumu reģistrēšanai
 
@@ -39,7 +39,7 @@ ms.locfileid: "5745769"
 
 4. Laukā **Lietotāja ID** atlasiet lietotāju. Ja lietotājam nav atļauju atsevišķiem izvēlnes elementiem, lauks **Trūkstošās atļaujas** tiks atjaunināts uz **Jā**.
   
-  ![Drošības izvēlnes krājuma detalizētas informācijas lapa](../media/Security-Menu-Item-Details.png)
+  ![Drošības izvēlnes krājuma detalizētas informācijas lapa.](../media/Security-Menu-Item-Details.png)
 
 5. Atlasiet **Pievienot atsauci**, lai skatītu drošības objektu sarakstu, iekļaujot lomas, pienākumus un privilēģijas, kas piešķir trūkstošo atļauju.
 6. Izvēlieties drošības objektu no saraksta:

@@ -2,11 +2,9 @@
 title: Ieteikumu “pirkt līdzīga apraksta preces” iespējošana
 description: Šajā tēmā aprakstīts, kā iespējot "pirkt līdzīga apraksta preces" preču ieteikumus programmā Microsoft Dynamics 365 Commerce.
 author: bsokolov
-manager: AnnBe
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: b6b397b1f21e3dfcdb4a2b7fe67ddb541d090a97
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: ce7f249d496a8cf57ad60ac33506fba3cc3dcce40cd89a0cc663ead5263e441a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234393"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755858"
 ---
 # <a name="enable-shop-similar-description-recommendations"></a>Ieteikumu “pirkt līdzīgus aprakstus” iespējošana
 
@@ -81,13 +79,13 @@ Lai pievienotu pogu **Pirkt līdzīga apraksta preces** PDP, izmantojot Commerce
 
 Sekojošajā attēlā ir parādīta izvēles rūtiņa **Iespējot Pirkt līdzīga apraksta preces saiti** un poga **Pirkt līdzīga apraksta preces** piemēra PDP vietnes veidotājā.
 
-![Pirkt līdzīga apraksta preces saites izvēles rūtiņas un Pirkt līdzīga apraksta preces pogas iespējošana PDP vietnes veidotājā](./media/ter_site_builder_buybox_button.png)
+![Pirkt līdzīga apraksta preces saites izvēles rūtiņas un Pirkt līdzīga apraksta preces pogas iespējošana PDP vietnes veidotājā.](./media/ter_site_builder_buybox_button.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Preču ieteikumu apskats](product-recommendations.md)
 
-[Iespējojiet Azure Data Lake Storage vidē Dynamics 365 Commerce .](enable-adls-environment.md)
+[Iespējojiet Azure Data Lake Storage pakalpojuma Dynamics 365 Commerce vidē](enable-adls-environment.md)
 
 [Iespējot preču ieteikumus](enable-product-recommendations.md)
 

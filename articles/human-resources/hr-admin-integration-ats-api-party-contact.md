@@ -2,28 +2,30 @@
 title: Puses kontaktpersona
 description: Šajā tēmā aprakstīts Puses kontaktpersonas elements programmai Dynamics 365 Human Resources .
 author: jaredha
-manager: tfehr
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 38f53d402ebe9f9f358281dd3996797a20923056
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
-ms.translationtype: HT
+ms.openlocfilehash: fca72cb73ef46a4eeee27d43e22254373a425a36
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125477"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067180"
 ---
 # <a name="party-contact"></a>Puses kontaktpersona
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Šajā tēmā aprakstīts Puses kontaktpersonas elements programmai Dynamics 365 Human Resources .
 
@@ -80,3 +82,6 @@ Fiziskais nosaukums: mshr_dirpartycontactentities
 [Kandidāta izsekošanas sistēmas integrācijas API ievads](hr-admin-integration-ats-api-introduction.md)<br>
 [Piemērs Kandidāta vaicājumam par nolīgšanu](hr-admin-integration-ats-api-candidate-to-hire-example-query.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

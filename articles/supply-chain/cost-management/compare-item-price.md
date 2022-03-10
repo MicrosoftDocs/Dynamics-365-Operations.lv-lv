@@ -2,29 +2,26 @@
 title: Krājumu cenu uzglabāšanas salīdzināšanas pārskats
 description: Uzziniet, kā ģenerēt krājumu cenu uzglabāšanas salīdzinājuma pārskatu un pēc tam pārlūkot un/vai eksportēt rezultātu.
 author: AndersGirke
-manager: tfehr
 ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, InventItemPriceCompareStorage, InventItemPriceCompareStorageDetailsChart, InventItemPriceCompareStorageDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2020-03-01
-ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 73e43a685f390fd718028de6add0370dfcd6cf3b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: 76a4ba07d191f79b4033fc78acff62d4909c7d32
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432978"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566003"
 ---
 # <a name="compare-item-prices-storage-report"></a>Krājumu cenu uzglabāšanas salīdzināšanas pārskats
 
@@ -121,3 +118,6 @@ Tālāk ir sniegts piemērs, kā eksportēt **Krājuma cenu glabāšanas salīdz
 1. Tiek atvērta lapa **Izpildes kopsavilkums**, kurā ir redzams eksportētā darba statuss un eksportēto elementu saraksts. Atlasiet elementu **Krājuma cenu salīdzināšana**, kas ir uzskaitīts apgabalā **Elementa apstrādes statuss**, un pēc tam atlasiet **Lejupielādēt failu**, lai no šī elementa lejupielādētu eksportētos datus.
 
 Papildinformāciju par to, kā izmantot datu pārvaldību, lai eksportētu datus, skatiet šeit: [Datu importēšanas un eksportēšanas darbu apskats](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

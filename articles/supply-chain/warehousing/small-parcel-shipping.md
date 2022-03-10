@@ -2,11 +2,9 @@
 title: Mazu paku nosūtīšana
 description: Šajā tēmā ir sniegta informācija par mazu paku nosūtīšanas (SPS) līdzekli. Šis līdzeklis ļauj korporācijai Microsoft Dynamics 365 Supply Chain Management iesniegt pārvadātājam datus par iepakotu konteineru un pēc tam no šī pārvadātāja saņemt atpakaļ nosūtīšanas etiķeti, nosūtīšanas likmi un izsekošanas numuru.
 author: Mirzaab
-manager: tfehr
 ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSRateEngine, TMSCarrier, CustTable, TMSShippingCarrierCustomerAccount, TMSSmallParcelShippingFeature
 audience: Application User
@@ -15,18 +13,17 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
-ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 37f07139853c30da25c067a3d736b4b9bf4eb361
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.16
+ms.openlocfilehash: cb5a4195d94750fcbee00e7301bd250f653cb347
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501178"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576092"
 ---
 # <a name="small-parcel-shipping"></a>Mazu paku nosūtīšana
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Izmantojot maza sūtījuma (SPS) līdzekli, korporācija Microsoft Dynamics 365 Supply Chain Management var tieši sazināties ar nosūtīšanas pārvadātājiem, izmantojot pārvadātāju API sakaru struktūru. Šī funkcionalitāte ir noderīga, ja noslogojiet atsevišķus pārdošanas pasūtījumus caur komerciālajiem kravu pārvadātājiem, nevis izmantojot konteinera nosūtīšanu vai mazāk nekā-kravas (LTL) slodzi.
 
@@ -61,7 +58,7 @@ Izpildiet šīs darbības, lai iegūtu likmes paraugprogrammu.
 Informāciju par to, kā izveidot un izvietot funkcionālās likmes programmas, lai tās varētu izmantot ražošanas vai testēšanas vidē, skatiet šādas tēmas:
 
 - [Jaunas transportēšanas pārvaldības programmas izveide](../transportation/create-new-transportation-management-engine.md)
-- [Transportēšanas pārvaldības programmu iestatīšana](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-transportation-management-engines)
+- [Transportēšanas pārvaldības programmu iestatīšana](/dynamicsax-2012/appuser-itpro/set-up-transportation-management-engines)
 
 Papildinformāciju par SPS likmes programmas izveidošanas veidu skatiet tālāk šajā rakstā: [Mazo paku nosūtīšana: kā līdzsvarot mazu paku nosūtīšanas Microsoft Dynamics 365](https://hub.bhsolutions.com/creating-a-mock-parcel-engine-in-d365?submissionGuid=46a1fccf-80b0-4b70-a6a0-4bf45a8756b5).
 
@@ -217,7 +214,7 @@ Lai izveidotu pārdošanas pasūtījumu, veiciet sekojošās darbības.
 1. Atlasiet **Jauns**, lai izveidotu pārdošanas pasūtījumu.
 1. Dialoglodziņā **Pārdošanas pasūtījuma izveide** **Klienta konta** laukā atlasiet *US-027*.
 1. Atlasiet **Labi**, lai izveidotu pārdošanas pasūtījumu un aizvērtu dialoglodziņu.
-1. Jaunais pārdošanas pasūtījums ir atvērts. Kopsavilkuma cilnē **Pārdošanas pasūtījuma galvene** laukā **Pārvadātāja debitora kods** iestatiet vērtību, kuru atlasījāt šim debitoram iepriekš *(12345*).
+1. Jaunais pārdošanas pasūtījums ir atvērts. Kopsavilkuma cilnē **Pārdošanas pasūtījuma galvene** laukā **Pārvadātāja debitora kods** iestatiet vērtību, kuru atlasījāt šim debitoram iepriekš (*12345*).
 1. Sadaļā **Pārdošanas pasūtījuma rindas** pievienojiet pārdošanas rindu un iestatiet tai šādas vērtības:
 
     - **Krājuma numurs:** *A0002*
@@ -277,7 +274,7 @@ Lai iepakotu sūtījumu, veiciet sekojošās darbības.
 
     Nosūtīšanas uzlīme tagad ir jādrukā iepriekš atlasītajā ZPL printerī. Tiem vajadzētu līdzināties šādam piemēram.
 
-    ![Nosūtīšanas uzlīmes piemērs](media/sps-label-example.png "Nosūtīšanas uzlīmes piemērs")
+    ![Nosūtīšanas uzlīmes piemērs.](media/sps-label-example.png "Nosūtīšanas uzlīmes piemērs")
 
 1. Ievērojiet, ka **Konteinera manifesta ID** un **Kopējās kravas** vērtības ir pievienotas kā saņemtas no pārvadātāja.
 

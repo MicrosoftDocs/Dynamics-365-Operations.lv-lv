@@ -3,7 +3,7 @@ title: Regulatory Configuration Service
 description: Šajā tēmā sniegts pārskats par Regulatory Configuration Service (RCS) iespējām un skaidrots, kā piekļūt šim pakalpojumam.
 author: JaneA07
 ms.date: 06/04/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: RCS, Regulatory Configuration Services, Localization
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 8d7020ff1ad1beb06ff7a9ce217f39993c6eceec
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: 816b1bf9da9acdd5999320f39fb68fb6deda197c
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358126"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983471"
 ---
 # <a name="regulatory-configuration-service"></a>Regulatory Configuration Service
 
@@ -49,6 +49,9 @@ Lapā **Regulatory Configuration Service** pārskatiet un akceptējiet pakalpoju
 
 - **Pierakstīties**, ja esat pakalpojuma pirmreizējs lietotājs un izmantojat uzņēmuma e-pasta adresi, lai nodrošinātu uzņēmumam pakalpojumu vidi
 - **Pieteikties**, ja iepriekš esat pierakstījies pakalpojumam un vēlaties piekļūt savas organizācijas videi
+
+> [!NOTE] 
+> Pēc reģistrēšanās ieteicams pievienot papildu SysAdmin lietotāju RCS videi. Šis lietotājs tiks nodrošināts kā vides līdzadministrators. Tas palīdzēs nodrošināt stabilitātes piekļuvi RCS videi, jo SysAdmin loma ir pārvaldīt šīs vides lietotājus. Varat pievienot lietotājus, izmantojot **RCS darbvieta> Sistēmas administrācija**.
 
 ## <a name="regional-availability"></a>Reģionālā pieejamība
 

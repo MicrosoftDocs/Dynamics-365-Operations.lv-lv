@@ -1,43 +1,52 @@
 ---
 title: Esošu darbinieku pieņemšana darbā, izmantojot personāla atlasi
 description: Dažreiz brīvos amatus var aizpildīt kandidāti, kas jau ir jūsu organizācijas darbinieki.
-author: andreabichsel
-ms.date: 02/10/2017
+author: twheeloc
+ms.date: 01/10/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df23be9a657b7001b4974e7802a507c0c54a18dacb46354a68699d759827e941
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 9e7343a485ae4779b075eeb48dabc39467e1a176
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749584"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074917"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>Esošu darbinieku pieņemšana darbā, izmantojot personāla atlasi
 
 [!include [banner](../../includes/banner.md)]
 
-Dažreiz brīvos amatus var aizpildīt kandidāti, kas jau ir jūsu organizācijas darbinieki. Šajā procedūrā parādīts, kā veikt darbā pieņemšanas procesu esošajam darbiniekam. Šajā procedūrā personāla atlases projekts jau ir iestatīts, un pašreizējais darbinieks jau ir iesniedzis pieteikumu personāla atlases projektam. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
-
-1. Pārejiet uz sadaļu Personāla vadība > Personāla atlase > Pieteikumi > Pieteikumi.
-2. Sarakstā atrodiet tā darbinieka pieteikumu, kuru vēlaties pieņemt darbā. Piemērs: 00002 Džons Emorijs
-3. Noklikšķiniet uz Pieteikuma statuss.
-    * Pieteikuma statuss norāda, kad pieteikums atrodas personāla atlases procesā.  Visas šīs darbības nav obligātas. Parasti pieteikuma statusi mainās šādā secībā: saņemts, apstiprināts un intervēts. Pēc intervijas procesa jāpieņem darbā pieņemšanas lēmums.  
-4. Noklikšķiniet uz Mainīt amatu.
-5. Atlasiet amatu, kurā pieņemat darbā darbinieku.
-6. Laukā Jaunā norīkojuma sākuma datums ievadiet datumu, kad darbinieks sāks darbu jaunajā amatā.  
-7. Laukā Norīkojuma beigu datums ievadiet datumu, kad darbinieks pārstās strādāt pašreizējā amatā.
-    * Jaunā amata sākuma datums un vecā amata beigu datums var pārklāties. Tas var notikt, kad persona veic pienākumus abos amatos pārejas perioda laikā.  
-8. Varat atlasīt arī iemesla kodu. Piemērs: reorganizācija
-9. Noklikšķiniet uz Mainīt amatu.
-    * Šajā laikā var mainīt arī atlīdzību. Ja šajā laikā nepiešķirat atlīdzību, to var mainīt, ieejot darbinieka formā, atlasot cilni Atlīdzība un izvēloties "Fiksēts plāns". Kad esat atlasījis "Mainīt amatu", pieteikuma statuss tiks atjaunināts uz "Nodarbināts".  
+> [!IMPORTANT]
+> Šajā tēmā atzīmētā funkcionalitāte šobrīd ir pieejama Personāla klientiem finanšu infrastruktūrā.  
 
 
+Dažkārt atvērtās amata vietas var aizpildīt kandidāti, kuri jau ir jūsu organizācijas darbinieki. Šajā procedūrā parādīts, kā veikt darbā pieņemšanas procesu esošajam darbiniekam. Šajā procedūrā personāla atlases projekts jau ir iestatīts, un pašreizējais darbinieks jau ir iesniedzis pieteikumu personāla atlases projektam. The **USMF** lai izveidotu šo procedūru, tika izmantots demonstrācijas datu uzņēmums.
+
+1. Iet uz **Cilvēku resursi \> Rekrutēšana \> Lietojumprogrammas \> Lietojumprogrammas**.
+2. Sarakstā atrodiet tā darbinieka pieteikumu, kuru vēlaties pieņemt darbā. Piemēram, atlasiet **00002 Džons Emorijs**.
+3. Izvēlieties **Pieteikuma statuss**.
+
+    Pieteikuma statuss norāda, kurā līmenī pieteikums atrodas personāla atlases procesā. Katrs solis nav obligāts. Parasti lietojumprogramma pārvietojas pa statusiem šādā secībā: **Saņemts**, **·**, un **Intervēts**. Pēc intervijas procesa tiks pieņemts lēmums par pieņemšanu darbā.
+
+4. Izvēlieties **Mainiet pozīciju**.
+5. Izvēlieties amatu, kurā pieņemat darbinieku.
+6. Iekš **Jaunā uzdevuma sākuma datums** laukā ievadiet datumu, kad darbinieks sāks strādāt jaunajā amatā.
+7. Iekš **Uzdevuma beigu datums** laukā ievadiet datumu, kad darbinieks pārtrauks strādāt pašreizējā amatā.
+
+    Jaunās pozīcijas sākuma datums un vecās pozīcijas beigu datums var pārklāties. Šāda pārklāšanās var rasties, ja persona pārejas periodā pilda pienākumus abos amatos.
+
+8. Neobligāti: atlasiet iemesla kodu. Piemēram, atlasiet **Reorganizācija**.
+9. Izvēlieties **Mainiet pozīciju**.
+
+    Šobrīd jūs varat arī mainīt kompensāciju. Ja tā nav, varat to mainīt vēlāk, atlasot **Fiksēts plāns** uz **Kompensācija** cilne **Strādnieks** lappuse.
+
+    Pēc tam, kad esat atlasījis **Mainiet pozīciju**, statuss lietojumprogrammā tiek atjaunināts uz **Nodarbināts**.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

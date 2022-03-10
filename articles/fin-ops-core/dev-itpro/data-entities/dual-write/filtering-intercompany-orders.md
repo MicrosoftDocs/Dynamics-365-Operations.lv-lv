@@ -4,24 +4,17 @@ description: Šajā tēmā ir izskaidrots, kā filtrēt starpuzņēmumu pasūtī
 author: negudava
 ms.date: 11/09/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
 ms.author: negudava
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 3e136839f51ec2d5405bc53af43e188da5f437380e28a676109d099a0d9040c1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: 8575f38ca23ef245947a41c35846983604662ef2
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752343"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782557"
 ---
 # <a name="filter-intercompany-orders-to-avoid-syncing-orders-and-orderlines"></a>Starpuzņēmumu pasūtījumu filtrēšana, lai novērstu pasūtījumu un pasūtījumu rindu sinhronizāciju
 

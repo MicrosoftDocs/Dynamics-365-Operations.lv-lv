@@ -1,28 +1,27 @@
 ---
-title: Pakalpojuma Dynamics 365 Supply Chain Management priekšskatījums 10.0.22 (2021. gada novembris)
+title: Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.22. (2021. gada novembris)
 description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Supply Chain Management 10.0.22.
 author: kamaybac
 ms.date: 08/09/2021
 ms.topic: article
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: c4aac62b36cd271e1c5fc3bcbbfdd785963fc368
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
-ms.translationtype: HT
+ms.openlocfilehash: a795f88aed78582ad4a2faa90ab1c2529017850f
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7484076"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778161"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10022-november-2021"></a>Pakalpojuma Dynamics 365 Supply Chain Management priekšskatījums 10.0.22 (2021. gada novembris)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10022-november-2021"></a>Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.22. (2021. gada novembris)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Šajā tēmā uzskaitīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti Microsoft Dynamics 365 Supply Chain Management versijas 10.0.22 priekšskatījumā. Šai versijai ir būvējuma numurs 10.0.995, un tas ir pieejams šeit:
+Šī tēma uzskaita līdzekļus, kas ir vai nu jauni, vai kas ir mainīti programmas Microsoft Dynamics 365 Supply Chain Management versijā 10.0.22. Šai versijai ir būvējuma numurs 10.0.995, un tas ir pieejams šeit:
 
 - **Laidiena priekšskatījums:** 2021. gada septembris
 - **Vispārēja laidiena (pašatjaunināšana) pieejamība:** 2021. gada oktobris
@@ -40,13 +39,11 @@ ms.locfileid: "7484076"
 
 Šajā tabulā ir uzskaitīti šajā laidienā iekļautie līdzekļu uzlabojumi. Katrs no šiem papildinājumiem nodrošina inkrementālu uzlabojumu esošajai funkcijai. Tā kā tie ir tikai uzlabojumi, tie nav uzskaitīti [izlaišanas plānā](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features). Tomēr, lai nodrošinātu, ka šie uzlabojumi nenonāk pretrunā ar esošajiem pielāgojumiem vai preferencēm, katrs no tiem tiek izslēgts pēc noklusējuma (ja vien nav norādīts citādi). Ja vēlaties izmantot kādu no šiem līdzekļiem, tos ir skaidri jāiespējo [līdzekļu pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-| Līdzekļu apgabals | Līdzekļa nosaukums līdzekļu pārvaldībā | Papildinformācija |
+| Modulis | Līdzekļa nosaukums līdzekļu pārvaldībā | Papildinformācija |
 |---|---|---|
-| Izmaksu pārvaldība | Izveidot saistītos dokumentus standarta izmaksu noapaļošanas pārvērtēšanai | <p>Kad tiek veikta krājumu finansiālā grāmatošana (piemēram, pārdošanas pasūtījuma rēķins vai krājumu darbība), šī funkcija liek sistēmai izveidot atsevišķu dokumentu jebkurām saistītām standarta izmaksu noapaļošanas pārvērtēšanām un pievienot to finanšu grāmatošanas dokumentam kā saistīto dokumentu.</p><p>Bez šīs funkcijas sistēma reģistrē standarta izmaksu noapaļošanas pārvērtēšanu vienā un tajā pašā dokumenta grāmatošanā. Šī darbība reizēm var radīt konfliktējošu datuma informāciju, jo pārvērtēšana izmanto sesijas vai sistēmas datumu, bet finanšu grāmatojumi izmanto grāmatošanas datumu.</p> |
 | Dalītā hibrīda topoloģija | *(Līdzekļu pārvaldība nav nepieciešama.)* | <p>Šis laidiens paplašina noliktavas pārvaldības darba noslodzes izejošās noslodzes plānošanas iespējas mākoņa un malas apjoma vienībām.</p><p>Plašāku informāciju skatiet rakstā [Mākoņa un malas mēroga vienības ražošanas izpilde](../cloud-edge/cloud-edge-workload-warehousing.md).</p> |
 | Tehnisko izmaiņu pārvaldība | Tehnisko preču variantu ģenerēšana | <p>Šī funkcija ļauj ģenerēt vairākus variantus tehniskais precei, balstoties uz tās krāsu, izmēru, stilu vai konfigurācijas dimensijām.</p><p>Papildinformāciju skatiet [Tehnisko preču variantu ģenerēšana](../engineering-change-management/engineering-variants.md).</p> |
 | Krājumu un noliktavas pārvaldība | Krājumu redzamības integrācija ar rezervācijas nobīdi | <p>Šo funkciju var aktivizēt tikai pēc tam, kad ir aktivizēta funkcija *Krājumu redzamības integrācija*. Tā nodrošina funkcionalitāti, lai kompensētu rezervācijas, kas veiktas krājumu redzamībai.</p><p>Papildinformāciju skatiet [Krājumu uztveramības pievienojumprogrammas rezervācijas](../inventory/inventory-visibility-reservations.md).</p> |
-| Pārdošana un mārketings | Ierobežot grāmatošanai atlasāmo pārdošanas pasūtījumu skaitu | <p>Šis līdzeklis ir iespējots automātiski. Tas pievieno lauku **Maksimālais pārdošanas pasūtījumu skaits grāmatošanai** **Debitoru parādu parametru** lapā. Šis lauks ļauj definēt maksimālo pārdošanas pasūtījumu skaitu, ko var atlasīt, grāmatojot apstiprinājumus, izdošanas sarakstus, pavadzīmes un rēķinus no pārdošanas pasūtījuma saraksta lapas. Noklusējuma vērtība ir *100*.</p><p>Šis līdzeklis palīdz uzlabot pārdošanas pasūtījumu saraksta lapas veiktspēju, kad ir atlasīts liels skaits pārdošanas pasūtījumu. Tas neietekmē pārdošanas pasūtījumu skaitu, ko var apstrādāt periodisks uzdevums.</p> |
 
 ## <a name="new-and-updated-documentation-resources"></a>Jauni un atjaunināti dokumentācijas resursi
 
@@ -63,7 +60,7 @@ Nesen ir pievienotas vai ievērojami atjauninātas tālāk norādītās palīdz�
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformas atjauninājumi Finance and Operations programmām
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.22 ietver platformas atjauninājumus. Lai iegūtu papildinformāciju, skatiet [Platformas atjauninājumi Finance and Operations programmu versijai 10.0.22 (2021. gada novembris)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22.md). <!-- KFM: Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.22 ietver platformas atjauninājumus. Lai iegūtu papildinformāciju, skatiet [Platformas atjauninājumi Finance and Operations programmu versijai 10.0.22 (2021. gada novembris)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22.md).
 
 ### <a name="bug-fixes"></a>Kļūdu labojumi
 

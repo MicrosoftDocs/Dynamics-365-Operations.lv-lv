@@ -2,13 +2,11 @@
 title: Rēķins par uzturēšanu debitora īpašumā aktīviem
 description: Šajā tēmā skaidrots, kā izveidot, apstrādāt un izrakstīt rēķinu uzturēšanas darbu, kas tiek veikts jūsu debitoriem piederošām pamatlīdzekļiem.
 author: johanhoffmann
-manager: tfehr
 ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: EntAssetWorkOrderProjCostInfoPart
+ms.search.form: ProjProjectContractsListPage, ProjInvoiceTable, ProjProjectsListPage, ProjTable, EntAssetWorkOrderType, EntAssetWorkOrderProjectSetup, EntAssetObjectTable, EntAssetWorkOrderTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 643e59f082949ed51ab61d79648a98b83a7f0b03
-ms.sourcegitcommit: 1e615288db245f83c5d5e0cd45315400f8946beb
-ms.translationtype: HT
+ms.openlocfilehash: a48e681da1801ef3c0d1c9c03cebaa5eecd37d76349a7b1c3cfe53e892fae489
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "5131845"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774949"
 ---
 # <a name="bill-for-maintenance-on-customer-owned-assets"></a>Rēķins par uzturēšanu debitora īpašumā aktīviem
 
@@ -177,3 +175,6 @@ Jums joprojām jābūt lapā **Projekta iestatījumi** (**Līdzekļu pārvaldīb
 1. Darbību rūts cilnē **Rēķini** atlasiet **Jauna rēķina piedāvājums**.
 1. Dialoglodziņa **Izveidot rēķina priekšlikumu** sadaļā **Projekta darbības** atzīmējiet **Izvēles** rūtiņu katrai rindai, ko vēlaties iekļaut rēķinā.
 1. Atlasiet **Labi**, lai aizvērtu dialoglodziņu un skatītu jaunu rēķina piedāvājumu.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

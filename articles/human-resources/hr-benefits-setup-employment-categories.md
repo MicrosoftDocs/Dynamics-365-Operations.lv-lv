@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 158ae6013bf1348b00791ff44154d626a5bd4f5f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
-ms.translationtype: HT
+ms.openlocfilehash: 9a0551798ad0e25e9fd9ca7044849732c88254ec
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052965"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069050"
 ---
 # <a name="create-employment-categories"></a>Izveidot nodarbinātības kategorijas
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
