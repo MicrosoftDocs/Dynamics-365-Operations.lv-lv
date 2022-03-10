@@ -2,7 +2,7 @@
 title: Atpakaļ atdošanas izveide programmā POS
 description: Šajā tēmā ir aprakstīts, kā uzsākt atpakaļ atdošanu darījumiem skaidrā naudā bez piegādes vai debitoru pasūtījumiem Microsoft Dynamics 365 Commerce Point of Sale (POS) programmā.
 author: hhainesms
-ms.date: 06/01/2021
+ms.date: 02/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: 4a0d5efe043d72f936a15ec9a8ead9987fdb22b891a5a3ae94f95aa5ea7a6e67
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 3250f702f033fb8b00763542fd8342c089b47b2e
+ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715534"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8349695"
 ---
 # <a name="create-returns-in-pos"></a>Atpakaļ atdošanas izveide programmā POS
 
@@ -96,6 +96,13 @@ Ja kanāla puses informācija kāda iemesla dēļ nav atjaunināta un bezsaistes
 
 > [!NOTE]
 > Ja ir ieslēgts līdzeklis **Vienotā atpakaļ atdošanas apstrādes pieredze programmā POS**, tad var piekļūt jauniem izvēles līdzekļiem, kas atbalsta serializētās preces atpakaļ atdošanas validāciju. Papildinformāciju skatiet sadaļā [Sērijveida kontrolētu preču atdošana atpakaļ pārdošanas punktā POS](POS-serial-returns.md).
+
+## <a name="version-details"></a>Detalizēta informācija par versiju
+
+Šajā sarakstā sniegtas minimālās versijas prasības dažādiem komponentiem.
+- Commerce headquarters: versija 10.0.20
+- Commerce Scale Unit (CSU): versija 9.30
+- Pārdošanas punkts (POS): versija 9.30
 
 ## <a name="enable-proper-tax-calculation-for-returns-with-partial-quantity"></a>Iespējot pareizu nodokļu aprēķināšanu daļējai atgriešanai
 

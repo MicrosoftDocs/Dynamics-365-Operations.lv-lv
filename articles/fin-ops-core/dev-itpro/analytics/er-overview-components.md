@@ -15,12 +15,12 @@ ms.topic: overview
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a24aa52c805722c20045b6227ceac0103cfbe6b
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
-ms.translationtype: HT
+ms.openlocfilehash: aca1b9bbca490a8a9551ed97d6e100c9115a0d41
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324039"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367828"
 ---
 # <a name="electronic-reporting-components"></a>Elektronisko pārskatu komponenti
 
@@ -91,9 +91,23 @@ Formāta komponents jums ļauj pievienot noteiktus failus, kurus var izmantot p�
 
 Nākamajā attēlā ir parādīts, kā šiem formātiem notiek datu plūsmas.
 
-[![Datu plūsma ienākošo formātu komponentiem.](./media/ER-overview-03.png)](./media/ER-overview-03.png)
+[![Datu plūsma izejošo formātu komponentiem](./media/ER-overview-02.png)](./media/ER-overview-02.png)
 
-Lai palaistu atsevišķu ER formāta konfigurāciju un importētu datus no ienākoša elektroniskā dokumenta, ir nepieciešams identificēt formāta konfigurācijas vēlamo kartējumu un modeļa kartējuma integrācijas punktu. Vienu un to pašu modeļa kartējumu un mērķus varat izmantot kopā ar dažādiem formātiem dažāda tipa ienākošajiem dokumentiem.
+Lai palaistu atsevišķi ER formāta konfigurāciju un ģenerētu izejošu elektronisko dokumentu, ir nepieciešams identificēt formāta konfigurācijas kartējumu.
+
+#### <a name="format-components-for-incoming-electronic-documents"></a>Formāta komponenti ienākošiem elektroniskajiem dokumentiem
+Formāta komponents ir ienākošā dokumenta shēma, kas tiek importēta izpildes laikā. Shēma sastāv no šādiem elementiem:
+
+- Formāts, kas definē izpildes laikā importētā ienākošā un datus ietverošā elektroniskā dokumenta struktūru un saturu. Formāta komponents tiek izmantots, lai ienākošu dokumentu parsētu dažādos formātos, piemēram, kā tekstu un XML.
+- Formāta kartēšanu, kas atsevišķus formāta elementus saista ar domēnam specifiskiem datu modeļa elementiem. Izpildlaikā elementi datu modelī norāda datu plūsmu un kārtulas, kas jāizmanto datu importēšanai no ienākoša dokumenta, un pēc tam šos datus saglabā datu modelī.
+- Formāta validēšana kā konfigurējamu kārtulu kopa, kas izpildes laikā regulē datu importēšanu atkarībā no izpildes konteksta. Var būt, piemēram, kārtula, kas aptur kreditoru datu importēšanu tādam bankas izrakstam, kurā ir kreditora maksājumi, un parāda izņēmumu, ja trūkst kādu specifisku kreditora atribūtu, piemēram, kreditora identifikācijas koda.
+
+Nākamajā attēlā ir parādīts, kā šiem formātiem notiek datu plūsmas.
+
+[![Datu plūsma ienākošo formātu komponentiem](./media/ER-overview-03.png)](./media/ER-overview-03.png)
+
+Lai palaistu atsevišķu ER formāta konfigurāciju un importētu datus no ienākoša elektroniskā dokumenta, ir nepieciešams identificēt formāta konfigurācijas vēlamo kartējumu, kā arī modeļa kartējuma integrācijas punktu. Vienu un to pašu modeļa kartējumu un mērķus varat izmantot kopā ar dažādiem formātiem, kas paredzēti dažāda tipa ienākošajiem dokumentiem.
+
 
 ## <a name="component-versioning"></a>Komponenta versiju izveide
 

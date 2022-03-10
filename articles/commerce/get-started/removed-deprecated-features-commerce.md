@@ -2,7 +2,7 @@
 title: Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Commerce
 description: Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt no Dynamics 365 Commerce.
 author: josaw
-ms.date: 01/11/2021
+ms.date: 03/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: aa6030468259069cf031feb8df48d6710e1160f310a1d82c1034afe69249f00f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 7b06f8ca65e4fac13f322f8d72b8ad4f9db8ccd7
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740411"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384613"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Commerce
 
@@ -31,7 +31,68 @@ ms.locfileid: "6740411"
 Šis saraksts ir izveidots, lai jūs savā plānošanā varētu ņemt vērā, kuri līdzekļi tiek noņemti un kļūst novecojuši. 
 
 > [!NOTE]
-> Detalizēta informācija par Finance and Operations programmu objektiem ir pieejama tēmā [Tehniskās atsauces pārskati](/dynamics/s-e/). Varat salīdzināt dažādās šo pārskatu versijas, lai noskaidrotu, kuri objekti ir mainīti vai noņemti katrā Finance and Operations programmu versijā.
+> Detalizēta informācija par objektiem Finanšu un operāciju programmās var tikt atrasta tehniskajos [atsauces pārskatos](/dynamics/s-e/). Varat salīdzināt dažādas šo pārskatu versijas, lai uzzinātu par objektiem, kas ir mainīti vai noņemti katrā Finanšu un operāciju programmu versijā.
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>Noņemtie vai novecojuši līdzekļi programmas Commerce 10.0.21 laidienā
+
+[!include [banner](../includes/preview-banner.md)]
+
+### <a name="overlapping-discounts-handling-setting-in-commerce-parameters"></a>Atlaižu apstrādes iestatījumu pārklāšanās Commerce parametros
+
+**Atlaides, kas pārklājas, apstrādes iestatījums** **Commerce parametru** lapā ir novecojis Commerce versijā 10.0.21. Virzoties uz priekšu, Commerce cenu noteikšanas programma izmantos vienu algoritmu, lai noteiktu optimālu atlaižu kombināciju, kas pārklājas.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | <p>**Atlaižu, kas pārklājas, apstrādes iestatījums** Commerce parametros kontrolē to, kā Commerce cenu noteikšanas programma meklē un nosaka atlaižu pārklāšanās optimālu kombināciju. Pašlaik tas piedāvā trīs opcijas:<p><ul><li> **Labākā veiktspēja** – šī opcija izmanto uzlaboto heiristisko algoritmu un [robežvērtīgās vērtības rangu](../optimal-combination-overlapping-discounts.md) metodi, lai laikus noteiktu prioritātes, novērtēt un noteikt labāko atlaižu kombināciju.</li><li>**Līdzsvarotais aprēķins** – pašreizējā koda bāzē šī opcija darbojas tāpat kā opcija **Labākā veiktspēja**. Tādēļ tā pamatā ir dublēta opcija.</li><li>**Pilnīgs aprēķins** – šī opcija izmanto vecu algoritmu, kas iet cauri visām iespējamām atlaižu kombinācijām cenu aprēķina laikā. Pasūtījumiem, kuriem ir lielas rindas un daudzumi, šī opcija var izraisīt veiktspējas problēmas.</li></ul><p>Lai palīdzētu vienkāršot konfigurāciju, uzlabot veiktspēju un samazināt incidentus, ko rada vecais algoritms, mēs pilnībā izņemsim **Atlaižu apstrādes iestatījumu** un atjauninās Commerce cenu noteikšanas programmas iekšējo loģiku, lai tagad tas varētu izmantot tikai papildu algoritmu (t.i., algoritmu, kas atrodas aiz opcijas **Labākā veiktspēja**).</p> |
+| **Vai ir aizstāts ar citu līdzekli?**   | Nē. Pirms šīs funkcijas noņemšanas ieteicams organizācijām, kas izmanto opciju **Līdzsvarots aprēķins** vai **Pilnīgs aprēķins**, pārslēgties uz opciju **Labākā veiktspēja**. |
+| **Ietekmētie produkta apgabali**         | Cenu noteikšana un atlaides |
+| **Izvietošanas iespēja**              | Visi |
+| **Statuss**                         | Ar 10.0.21 laidienu **Atlaižu apstrādes iestatījums**, kas pārklājas, tiks noņemts no Commerce parametriem 2022. gada oktobrī. |
+
+### <a name="retail-sdk-distributed-by-using-lifecycle-services"></a>Retail SDK sadale, izmantojot lifecycle Services
+
+Retail SDK nosūta pakalpojumos Lifecycle Services (LCS). Šis sadales režīms ir novecojis versijā 10.0.21. Tālāk Retail SDK atsauces pakotnes, bibliotēkas un paraugi tiks publicēti GitHub publiskajos repozitojos.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Retail SDK nosūta LCS. LCS procesa pabeigšana ir nepieciešamas dažas stundas, un šis process ir jāatkārto katram atjauninājumam. Tālāk Retail SDK atsauces pakotnes, bibliotēkas un paraugi tiks publicēti GitHub publiskajos repozitojos. Paplašinājuma paraugus un atsauces pakotnes var patērēt viegli, un atjaunināšanas pabeigšana ir pēc dažām minūtēm. |
+| **Vai ir aizstāts ar citu līdzekli?**   |  [Lejupielādēt Retail SDK paraugus un atsauces pakotnes no GitHub un NuGet](../dev-itpro/retail-sdk/sdk-github.md) |
+| **Ietekmētie produkta apgabali**         | Retail SDK |
+| **Izvietošanas iespēja**              | Visu |
+| **Statuss**                         | Novecojis: No versijas 10.0.21 SDK tika nosūtīts, izmantojot LCS VMs, tiks noņemts 2023. gada aprīlī. |
+
+### <a name="retail-deployable-package-and-combined-pos-hardware-station-and-cloud-scale-unit-installers"></a>Retail izvietojama pakotne un kombinētie POS, aparatūras stacijas un Cloud Scale Unit instalētāji
+
+Mazumtirdzniecības izvietojamās pakotnes, kas ģenerētas, izmantojot Retail SDK MSBuild, ir novecojušas versijā 10.0.21. Virzīsies uz priekšu, izmantojiet Cloud Scale Unit (CSU) pakotni Cloud Scale Unit paplašinājumiem (Commerce Runtime, kanāla datu bāze, Headless commerce API, maksājumi un Cloud Point of Sale (POS)). Izmantojiet tikai paplašinājuma instalētājus, kas ir pieejami POS, aparatūras stacijai un Cloud Scale Unit, kas tiek viesota.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Retail izvietojama pakotne ir kombinēta pakotne, kurā ir ietverta pilna paplašinājuma pakotņu un instalētāju kopa. Šī apvienotā pakotne padara izvietošanu par kompleksu, jo CSU paplašinājumi tiek izvietoti veikalos uz Cloud Scale Unit un instalētājiem. Instalēšanas programma ietver paplašinājumu un pamata preci, kas apgrūtinātu atjauninājumus. Ar katru atjauninājumu ir nepieciešama koda sapludināšana un pakotnes ģenerēšana. Lai šo procesu vienkāršotu, paplašinājuma pakotnes tagad tiek sadalītas komponentos viegliai izvietošanai un pārvaldībai. Izmantojot jauno pieeju, paplašinājumi un pamata produktu instalētāji ir atdalīti, un tos var neatkarīgi apkalpot un jaunināt bez koda sapludināšanas vai pārpakošanas.|
+| **Vai ir aizstāts ar citu līdzekli?**   | CSU paplašinājumi, POS paplašinājumu instalētāji, aparatūras stacijas paplašinājumu instalētāji |
+| **Ietekmētie produkta apgabali**         | Dynamics 365 Commerce paplašināšana un izvietošana |
+| **Izvietošanas iespēja**              | Visu |
+| **Statuss**                         | Novecojis: no versijas 10.0.21 izvietošanas atbalsts RetailDeployablePackage izvietošanai LCS tiks noņemts 2022. gada oktobrī. |
+
+Plašāku informāciju skatiet:
+
++ [Ģenerēt atsevišķu pakotni Commerce Cloud Scale Unit (CSU)](../dev-itpro/retail-sdk/retail-sdk-packaging.md#generate-a-separate-package-for-commerce-cloud-scale-unit-csu)
++ [Modern POS paplašinājuma pakotnes izveide](../dev-itpro/pos-extension/mpos-extension-packaging.md)
++ [POS integrācija ar jaunu aparatūras ierīci](../dev-itpro/hardware-device-extension.md)
++ Koda paraugi
+    + [Cloud Scale Unit](https://github.com/microsoft/Dynamics365Commerce.ScaleUnit)
+    + [POS, CSU un aparatūras stacija](https://github.com/microsoft/Dynamics365Commerce.InStore)
+
+### <a name="modernpossln-and-cloudpossln-in-the-retail-sdk"></a>ModernPos.Sln un CloudPos.sln kas atrodas Retail SDK
+
+POS paplašinājuma izstrāde, izmantojot ModernPos.sln, CloudPos.sln, POS. Extension.csproj, un POS mape ir novecojusi versijā 10.0.21. Tālāk POS paplašinājumiem izmantojiet POS neatkarīgu iepakojuma SDK.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Agrākās Retail SDK versijās, ja ir POS paplašinājumi, ir nepieciešams veikt koda sapludināšanu un pārpakošanu, lai atjauninātu uz POS jaunāko versiju. Koda sapludināšana bija laikietilpīgs jaunināšanas process, un jums repozitorijā bija jāuztur pilns Retail SDK. Jums arī bija nepieciešams kompilēt pamata POS.App projektu. Izmantojot neatkarīgu iepakojuma modeli, ir jāsaglabā tikai paplašinājums. Process, kas nodrošina jaunākās POS paplašinājumu versijas atjaunināšanu, ir tik viegls kā pakotnes versijas NuGet atjaunināšana, ko patērē projekts. Paplašinājumi var tikt izvietoti neatkarīgi, un pakalpojumi izmanto paplašinājuma instalētājus. Pamata POS var izvietot un uzturēt atsevišķi, un nav nepieciešama koda sapludināšana vai atkārtota iepakošana ar bāzes instalētāju vai kodu. |
+| **Vai ir aizstāts ar citu līdzekli?**   | [No POS neatkarīga iepakojuma SDK](../dev-itpro/pos-extension/pos-extension-getting-started.md) |
+| **Ietekmētie produkta apgabali**         | Dynamics 365 Commerce POS paplašināšana un izvietošana |
+| **Izvietošanas iespēja**              | Visu |
+| **Statuss**                         | Novecojis: no versijas 10.0.21 versijas atbalsts kombinētajām POS pakotnēm un paplašinājuma modelim, izmantojot ModernPos.Sln, CloudPOs.sln un POS. Extensons.csproj programmā Retail SDK tiks noņemts 2023. gada aprīlī. |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10017-release"></a>Noņemtie vai novecojuši līdzekļi programmas Commerce 10.0.17 laidienā
 
@@ -40,7 +101,7 @@ ms.locfileid: "6740411"
 |  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Sākot ar šo laidienu, Dynamics 365 Headquarters veidlapas **Commerce plānotāja parametri** lauks **Pilns datu kopas ģenerēšanas intervāls dienās** ir novecojis. Sākot ar šo laidienu, lauks tiks vizuāli noņemts, lai vērtību nevarētu rediģēt. Tas paliek kā **0** vērtība. |
-| **Vai ir aizstāts ar citu līdzekli?**   | Nr. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Nē |
 | **Ietekmētie produkta apgabali**         | Dynamics 365 Commerce |
 | **Izvietošanas iespēja**              | Visu|
 | **Statuss**                         | Novecojis. Neizmantojiet šo lauku vai nemainiet tajā esošo vērtību.|
@@ -54,7 +115,7 @@ ms.locfileid: "6740411"
 | **Novecošanas/noņemšanas pamatojums** | Sākot ar 2020. gada decembri, Microsoft Internet Explorer 11 atbalsts visām Dynamics 365 precēm ir novecojis, un Internet Explorer 11 netiks atbalstīts pēc 2021. gada augusta.<br><br>Tas ietekmēs klientus, kas izmanto Dynamics 365 preces, kas paredzētas izmantošanai ar Internet Explorer 11 interfeisu. No 2021. gada augusta Internet Explorer 11 šīs Dynamics 365 preces netiks atbalstītas. |
 | **Vai ir aizstāts ar citu līdzekli?**   | Mēs rekomendējam, lai klienti pāriet uz Microsoft Edge.|
 | **Ietekmētie produkta apgabali**         | Visas Dynamics 365 preces |
-| **Izvietošanas iespēja**              | Visu|
+| **Izvietošanas iespēja**              | Visi|
 | **Statuss**                         | Novecojis. Internet Explorer 11 netiks atbalstīts pēc 2021. gada augusta.|
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10011-release"></a>Noņemtie vai novecojuši līdzekļi programmas Commerce 10.0.11 laidienā

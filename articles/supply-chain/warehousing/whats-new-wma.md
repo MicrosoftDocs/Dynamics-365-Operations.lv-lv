@@ -1,27 +1,161 @@
 ---
 title: Kas jauns vai mainīts mobilajā programmā Warehouse Management
 description: Šajā tēmā ir uzskaitīti jaunie un mainītie līdzekļi katrai Microsoft Dynamics 365 Supply Chain Management Warehouse Management mobilās programmas izlaistajai versijai.
-author: ivanv-microsoft
-ms.date: 06/07/2021
+author: Mirzaab
+ms.date: 02/21/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: ivanv
+ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 61124728942c0b8162de9f687ae752773c47d07e
-ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
-ms.translationtype: HT
+ms.openlocfilehash: b146fb12f89559efcb3b0973b0dd1ce9b98ffe2a
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261788"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384375"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Kas jauns vai mainīts mobilajā programmā Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir uzskaitīti jaunie līdzekļi, labojumi, uzlabojumi un zināmas problēmas katrai Microsoft Dynamics 365 Supply Chain Management Warehouse Management mobilās programmas izlaistajai versijai.
+
+## <a name="version-20170"></a>Versija 2.0.17.0
+
+Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
+
+- Novērsta problēma, kuras dēļ svītrkodi tiktu skenēti nepareizi.
+- Novērsta kameras skenera GS1 skenēšanas problēma.
+- Zebra ierīcēs novērsa svītrkoda skenera GS1 skenēšanas problēmu.
+- Uzlaboja apvedceļa izmeklēšanas plūsmu, tāpēc kartes izvēle apvedceļā tagad atgriežas galvenajā plūsmā.
+- Pievienots atbalsts vispārējai datu pieprasījumu plūsmai.
+- Pievienots ziņojums, lai informētu lietotājus par izmaiņām tīkla savienojamības statusā.
+- Līdzinātas krātuves atļaujas ar krātuves konfidencialitātes politiku 10. punktā Android.
+- Plūsmām, kurām tas ir nepieciešams, daudzuma vērpējs tagad ietver pozīciju, kas ļauj lietotājiem iesniegt tukšu skaitlisku vērtību.
+- Fiksētas problēmas ar daudzuma vērpēja orientāciju.
+- Novērsta problēma, kad daudzuma vērpējs pārietu uz nepareizu vērtību.
+- Novērsta problēma, kad primārās lapas ievade pazustu, kad tā tiek aizpildīta no detalizētās informācijas lapas.
+- Novērsta problēma, kuras dēļ viettura teksts tiktu uzskatīts par sākotnēji atlasīto vērtību atlases sarakstos.
+- Poga "Iesniegt" apstiprinājuma soļos tagad ir automātiski iespējota, ja ir iepriekš atlasītas vērtības.
+- Fiksēja detalizētās informācijas karti, lai parādītu pēc iespējas vairāk rindiņu teksta laukiem, kuriem ir vairākas rindiņas.
+- Fiksēts pogu "Iesniegt" un "Citas darbības" augstums, tāpēc tagad tie aizņem mazāk vietas ekrānā.
+- Pievienoti trūkstošie atlases saraksta virsraksti.
+- Novērsta problēma, kuras dēļ aizmugurējā poga nedarbojās.
+- Pievienoti vairāki tastatūras navigācijas labojumi un uzlabojumi, tostarp šādās lapās:
+  - Lietotāja pieteikšanās
+  - Atlasīt savienojumu
+  - Rediģēt savienojumu
+- Fiksēta ritināšana, izmantojot tastatūras navigāciju.
+- Uzlabota pieejamība, tostarp šādi uzlabojumi:
+  - Fiksēta krāsu redzamība un kontrasts.
+  - Novērsts tastatūras fokusa zudums, kad uznirstošās lapas ir aizvērtas.
+  - Stāstījumam pievienoti kļūdu ziņojumi.
+  - Palielināts vietturu vērtību lielums soļu reklāmkarogā.
+- Fiksēts pielāgotās mantotās lapas piemērs demonstrācijas režīmā.
+
+## <a name="version-20150"></a>Versija 2.0.15.0
+
+Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
+
+- Uzlabota veiktspēja, novēršot atmiņas noplūdes problēmu.
+- Novērsta problēma, kad dažas lauku vērtības netika pareizi atjauninātas, ja tās tika atlasītas detalizētās informācijas lapā.
+
+## <a name="version-20140"></a>Versija 2.0.14.0
+
+Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
+
+- Novērsta problēma, kas atspējoja noklusējuma pogu Iesniegt.
+
+## <a name="version-20130"></a>Versija 2.0.13.0
+
+Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
+
+- Uzlabota ritināšana starp lapām ar vienmērīgāku animāciju.
+- Fiksētas pretēji intuitīvas atbildes, lai pārvilktu kustības un neregulāri sasaltu ekrāns.
+- Uzlabotas tumšā režīma teksta un fona krāsu kombinācijas labākai lasāmībai.
+- Novērsta problēma, kad, mainot lietotnes loga izmērus, kāds teksts var kļūt ļoti mazs.
+- Novērsta problēma, kas dažkārt var avarēt lietotnē, skenējot svītrkodus.
+- Pievienota iespēja aizstāt slīdni ar pogu.
+- Novērsta problēma, kuras dēļ lietotne var parādīt kļūdas ziņojumu "AADSTS7000215: tiek nodrošināts nederīgs klienta noslēpums".
+- Fiksēja atgādinājumu animāciju, kurā parādīts, kā aizvērt lapu, izmantojot pārvilkšanas žestu uz leju.
+- Pievienota iespēja aizvērt lapu, izmantojot švīkas uz leju vērstu žestu.
+- Novērsta problēma, kuras dēļ lapā Lietotāja iestatījumi **netika rādīti** nolaižamā saraksta virsraksti.
+- Novērsta lokalizācijas problēma, kad programma neatpazīs komatu (,) kā decimāldaļu atdalītāju.
+- Uzlabota pieejamība.
+- Fiksēja navigāciju **lapā Jauns savienojums**, lai nodrošinātu uzlabotu pieejamību.
+- Novērsta problēma, kuras dēļ, atlasot ievades lauku, mīkstā (ekrānā) tastatūra neparādītos.
+- Novērsta problēma, kas var avarēt programmā, ja lietotāji ātri mainīs tās loga izmērus.
+- Novērsta problēma, kad ātrais taustiņa nospiešana dažreiz tika interpretēta kā gara prese.
+- Novērsta problēma, kad lietojumprogrammas izkārtojums var tikt bojāts piegādes ķēdes pārvaldībā veikto lauka pielāgojumu dēļ.
+- Novērsta problēma, kad krājumu atrašanās vietas netika rādītas pareizi.
+- Novērsta problēma, kas saistīta ar preces varianta darbplūsmas īso izdošanu.
+- Noņemta nevajadzīgā to lauku validācija, kuros ir iepriekš iestatītas noklusējuma vērtības.
+- Uzlabota veiktspēja.
+- Pievienots jauns iestatījums, kas ļauj lietotājiem izvēlēties, kā lauki tiek filtrēti un sakārtoti kartes lapā.
+
+## <a name="version-20110"></a>Versija 2.0.11.0
+
+Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
+
+- Pievienots atbalsts veicinātajiem laukiem.
+- Pievienots atbalsts aparatūras tastatūras navigācijai.
+- Uzlabota pieejamība.
+- Uzlabotas detalizētās informācijas kartes.
+- Uzlabota novirzēšana izvēlnes elementu darbībām.
+- Nelieli lietotāja interfeisa uzlabojumi.
+- Novērsta problēma, kas var izraisīt lietotnes avāriju, skenējot svītrkodus.
+- Ir fiksētas dažādas problēmas, kuru dēļ sistēma varēja nereaģēt.
+
+## <a name="version-20100"></a>Versija 2.0.10.0
+
+Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
+
+- Pievienota animācija, velkot cauri sarakstiem un lapām.
+- Tagad teksts tiek pareizi aplauzts savienojuma kļūdas lapā.
+- Kombinētais lodziņš bez noklusējuma vērtībām tagad tiek rādīts pareizi.
+- Informācija apakšvirsraksta apgabalā tagad tiek rādīta tikai pilnās informācijas lapā.
+- Tukšie ievades lauki vairs netiek rādīti detalizētās informācijas kartītē.
+- Apstiprinājuma vērtības vairs netiek dublētas detalizētās informācijas kartītē.
+- Ir fiksētas dažādas problēmas, kuru dēļ sistēma nereaģēja.
+
+## <a name="version-2090"></a>Versija 2.0.9.0
+
+Šī versija labo problēmu, kad programma varētu apturēt atbildes, ja lietotāji lapu izveido no saraksta augšas.
+
+## <a name="version-2080"></a>Versija 2.0.8.0
+
+Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
+
+- Pievienots atbalsts darbību [norādījumu](mobile-app-titles-instructions.md) līdzeklim, kas ieviests Supply Chain Management versijā 10.0.21.
+- Pievienotas atgādinājumu pamācības, lai parādītu lietotājus, ka viņi var aizvērt pārklājumus, nometot uz leju.
+- Pievienots darbību sarakstu un izvēlņu funkciju taustiņu atbalsts. Lietotāji var uz trim sekundēm aizturēt jebkuru funkcijas taustiņu, lai iegūtu pieejamo komandu sarakstu.
+- Fiksētā problēma, kas izraisīja tālāk norādītā kļūdas ziņojuma rādīšanu dažās ierīcēs: "Nevar atrast norādītajam izmēram piemērotu skatu."
+- Tika atrisināta problēma, kad, izmantojot pilnekrāna režīmu, tas ne vienmēr darbojās, izmantojot ekrāntastatūru.
+- Tika atrisināta problēma, kad lapu pāršķiršana nedarbojās Windows ierīcēs.
+- Ir fiksētas dažādas problēmas, kuru dēļ sistēma nereaģēja.
+
+## <a name="version-2070"></a>Versija 2.0.7.0
+
+### <a name="new-features-fixes-and-improvements-in-version-2070"></a>Jauni līdzekļi, labojumi un uzlabojumi versijā 2.0.7.0
+
+- Pievienota sadaļa lapai **Par**, kas pārbauda programmas jaunāko izlaisto versiju.
+- Atvieglo datu pārvilkšnu un pavilkšnu starp lapām.
+- Mainīta darba saraksta ikona augošā/dilstošā secībā.
+- Samazinātās uzcenojumi kartē **Detaļas**, lai tie atbilstu plašākai informācijai.
+- Tika piemēroti dažādi veiktspējas uzlabojumi, lai samazinātu problēmu, ka lietotne laika gaitā kļūst lēnāka.
+- Ja uz ekrāna ir vairāk vadīklu, nekā nepieciešams, tā rezultātā lapošanā spinera vadīkla vairs neritina tāpat kā lapa.
+- Nosaka prioritāti pēdējās skenētās vērtības rādīšanai, nevis uzdevuma nosaukuma rādīšanai, tāpēc, ja tās pārklājas, uzdevuma nosaukums tiks saīsināts.
+- Ir fiksētas dažādas problēmas, kuru dēļ sistēma nereaģēja.
+- Dažās valodās teksts dažādās vietās vairs netiek nogriezts.
+- Programma pēc noklusējuma darbojas pilnekrāna režīmā.
+- Fiksētā problēma, kas dažkārt izraisa to, ka skenējumus var ignorēt pamatlapā ar noteiktām ierīcēm.
+
+### <a name="known-issues-in-version-2070"></a>Zināmās problēmas versijā 2.0.7.0
+
+- Dažās ierīcēs, startējot programmu vai sākot uzdevumu, saņemsit šādu kļūdas ziņojumu: "Nevar atrast šim izmēram piemērotu skatu." Ja jebkurā no jūsu ierīcēm redzat šo kļūdas ziņojumu, jums šajā ierīcē ir pazemināt mobilā programma Warehouse Management līdz versijai 2.0.6.0 un jāgaida, līdz tiks izlaista nākamā programmas versija.
 
 ## <a name="version-2060"></a>Versija 2.0.6.0
 

@@ -2,7 +2,7 @@
 title: Konfigurācijas noformēšana dokumentu ģenerēšanai Excel formātā
 description: Šī tēma sniedz informāciju par to, kā veidot elektronisko pārskatu (ER) formātu, lai aizpildītu Excel veidni un pēc tam ģenerētu izejošos Excel formāta dokumentus.
 author: NickSelin
-ms.date: 09/14/2021
+ms.date: 02/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd3171ad24f9c06f04372b30f2682b6da516bcb6
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
-ms.translationtype: HT
+ms.openlocfilehash: 1b2f38aa9e5eff9366697afd57ceefd06f026096
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488142"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388267"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Konfigurācijas noformēšana dokumentu ģenerēšanai Excel formātā
 
 [!include[banner](../includes/banner.md)]
 
-Varat izveidot [elektroniskās ziņošanas (ER)](general-electronic-reporting.md) formāta konfigurāciju, kurai ir ER [formāta komponents](general-electronic-reporting.md#FormatComponentOutbound), ko varat konfigurēt, lai izveidotu izejošo dokumentu Microsoft Excel darbgrāmatas formātā. Šim nolūkam jāizmanto īpaši ER formāta komponenti.
+Varat veidot elektronisko [pārskatu (ER)](general-electronic-reporting.md) formāta konfigurāciju, kam ir ER formāta komponents, ko varat konfigurēt, lai ģenerētu izejošo dokumentu Microsoft Excel darbgrāmatas formātā. Šim nolūkam jāizmanto īpaši ER formāta komponenti.
 
 Lai uzzinātu vairāk par šo līdzekli, sekojiet norādījumiem tēmā [Noformēt konfigurāciju, lai veidotu pārskatus OPENXML formātā](tasks/er-design-reports-openxml-2016-11.md).
 
@@ -83,33 +83,83 @@ ER operācijas veidotāja cilnē **Kartēšana** varat konfigurēt **Iespējoto*
 
 ## <a name="range-component"></a>Diapazona komponents
 
-**Diapazona** komponents norāda Excel diapazons, kas ir jākontrolē šim ER komponentam. Diapazona nosaukums ir definēts šī komponenta **Excel diapazona** rekvizītā.
+### <a name="nested-components"></a>Ligzdotie komponenti
 
-**Replicēšanas virziena** rekvizīts norāda, vai un kā diapazons tiks atkārtots ģenerētajā dokumentā:
+#### <a name="data-typing"></a>Datu ierakstīšana
 
-- Ja **Replicēšanas virziena** rekvizīts ir iestatīts uz **Bez replikācijas**, atbilstošais Excel diapazons netiks atkārtots ģenerētajā dokumentā.
-- Ja **Replicēšanas virziena** rekvizīts ir iestatīts uz **Vertikāls**, atbilstošais Excel diapazons tiks atkārtots ģenerētajā dokumentā. Katrs replicētais diapazons tiek ievietots zem sākotnējā diapazona Excel veidnē. Atkārtojumu skaits tiek noteikts pēc ierakstu skaita **Ierakstu saraksta** tipa datu avotā, kas ir saistīts ar šo ER komponentu.
-- Ja **Replicēšanas virziena** rekvizīts ir iestatīts uz **Horizontāls**, atbilstošais Excel diapazons tiks atkārtots ģenerētajā dokumentā. Katrs replicētais diapazons tiek ievietots pa labi no sākotnējā diapazona Excel veidnē. Atkārtojumu skaits tiek noteikts pēc ierakstu skaita **Ierakstu saraksta** tipa datu avotā, kas ir saistīts ar šo ER komponentu.
-
-Lai iegūtu vairāk informācijas par horizontālo replicēšanu, sekojiet soļiem sadaļā [Izmantot horizontāli paplašināmus diapazonus, lai dinamiski pievienotu kolonnas Excel pārskatos](tasks/er-horizontal-1.md).
-
-**Diapazona** komponentā var būt citi ligzdotie ER komponenti, kas tiek izmantoti, lai ievadītu vērtības atbilstošajos Excel nosauktajos diapazonos.
+Diapazona **komponentam** var būt citi ligzdoti ER komponenti, kas tiek izmantoti, lai ievadītu vērtības atbilstošos diapazonos.
 
 - Ja kāds **Teksta** grupas komponents tiek izmantots vērtību ievadīšanai, vērtība tiek ievadīta Excel diapazonā kā teksta vērtība.
 
     > [!NOTE]
     > Izmantojiet šo modeli, lai formatētu ievadītās vērtības, pamatojoties uz lietojumprogrammā definēto lokalizāciju.
 
-- Ja **Excel** grupas **Šūnas** komponents tiek izmantots vērtību ievadīšanai, šī vērtība tiek ievadīta Excel diapazonā kā datu tipa vērtība, kas tiek definēta, saistot šo **Šūnas** komponentu (piemēram, **Virkne**, **Reāls** vai **Vesels skaitlis**).
+- **Ja Excel grupas** šūnas **komponents** tiek izmantots vērtību ievadīšanai, vērtība tiek ievadīta Excel **diapazonā kā datu tipa vērtība, kas tiek definēta, saistot šo šūnas** komponentu. Piemēram, datu tips var būt Virkne, Reāls **·** **vai** Vesels **skaitlis**.
 
     > [!NOTE]
     > Izmantojiet šo modeli, lai iespējotu Excel programmu, lai formatētu ievadītās vērtības, pamatojoties uz vietējā datora lokalizāciju, kas atver izejošo dokumentu.
+
+#### <a name="row-handling"></a>Rindu apstrāde
+
+Diapazona **komponentu** var konfigurēt kā vertikāli replicētu, lai Excel darblapā tiktu ģenerētas vairākas rindas. Rindas var ģenerēt pamata diapazona komponents **vai** tā ligzdotie Diapazona **komponenti**.
+
+Versijā 10.0.26 vai jaunākā versijā ģenerēto darblapu varat uzstiet saglabāt ģenerētās rindas tajā pašā lapā. Rediģējamā ER **formātā** **·** **ER** formāta veidotājā iestatiet opciju Paturēt rindas kopā uz Jā pamata diapazona komponentam. Pēc tam ER mēģinās saglabāt visu tā diapazona ģenerēto saturu vienā lapā. Ja satura augstums pārsniedz pašreizējā lapā atlikušo vietu, tiks pievienots lappuses pārtraukums, un saturs sāksies nākamās jaunās lapas augšpusē.
+
+> [!NOTE]
+> Ieteicams konfigurēt opciju Saglabāt rindas **tikai** diapazoniem, kas ietver visu ģenerētā dokumenta platumu.
+>
+> Opcija **Glabāt rindas kopā** ir piemērojama tikai **Excel faila \> komponentiem**, kas ir konfigurēti Excel darbgrāmatas veidnes lietošanai.
+>
+> Opcija **Paturēt rindas kopā** var tikt izmantota tikai **tad, ja aktivizēta EPPlus bibliotēkas izmantošana elektronisko pārskatu veidošanas** struktūrā.
+>
+> Šo līdzekli var izmantot diapazona **komponentiem**, kas atrodas zem **lapas** komponenta. Tomēr nav garantijas, ka lapas kājenes [kopsummas tiks pareizi aprēķinātas](er-paginate-excel-reports.md#add-data-sources-to-calculate-page-footer-totals), izmantojot Datu [apkopošanas datu](er-data-collection-data-sources.md) avotus.
+
+Lai uzzinātu, kā izmantot šo opciju, [izpildiet piemēra soļus formāta izstrādei ER formātā, lai rindas turētu kopā vienā Excel lapā](er-keep-excel-rows-together.md).
+
+### <a name="replication"></a>Replicēšana
+
+Replicēšanas **virziena** rekvizīts nosaka, vai un kā diapazons tiks atkārtots ģenerētajā dokumentā:
+
+- **Nav replicēšanas** - atbilstošais Excel diapazons netiks atkārtots ģenerētajā dokumentā.
+- **Vertikāls** – atbilstošais Excel diapazons ģenerētajā dokumentā tiks atkārtots vertikālā stāvoklī. Katrs replicēto diapazons Excel veidnē tiks novietots zem sākotnējā diapazona. Atkārtojumu skaits tiek noteikts pēc ierakstu skaita **Ierakstu saraksta** tipa datu avotā, kas ir saistīts ar šo ER komponentu.
+- **Horizontāls** – atbilstošais Excel diapazons ģenerētajā dokumentā tiks atkārtots horizontālā virzienā. Katrs replicētais diapazons tiks novietots Excel veidnē pa labi no sākotnējā diapazona. Atkārtojumu skaits tiek noteikts pēc ierakstu skaita **Ierakstu saraksta** tipa datu avotā, kas ir saistīts ar šo ER komponentu.
+
+    Lai iegūtu vairāk informācijas par horizontālo replicēšanu, sekojiet soļiem sadaļā [Izmantot horizontāli paplašināmus diapazonus, lai dinamiski pievienotu kolonnas Excel pārskatos](tasks/er-horizontal-1.md).
+
+### <a name="enabling"></a>Iespējo
 
 ER operācijas veidotāja cilnē **Kartēšana** varat konfigurēt **Iespējoto** rekvizītu **Diapazona** komponentam, lai norādītu, vai komponents ir jāievieto ģenerētajā dokumentā:
 
 - Ja **Iespējotā** rekvizīta izteiksme ir konfigurēta, lai atgrieztu opciju **Patiess** izpildlaikā, vai arī, ja neviena izteiksme nav konfigurēta vispār, izveidotajā dokumentā tiks aizpildīts diapazons.
 - Ja **Iespējotā** rekvizīta izteiksme ir konfigurēta, lai atgrieztu opciju **Aplams** izpildlaikā, un, ja šis diapazons nepārstāv visas rindas un kolonnas, izveidotajā dokumentā diapazons netiks aizpildīts.
 - Ja **Iespējotā** rekvizīta izteiksme ir konfigurēta, lai atgrieztu opciju **Aplams** izpildlaikā, un šis diapazons pārstāv visas rindas un kolonnas, izveidotajā dokumentā šīs rindas un kolonnas būs slēptas rindas un kolonnas.
+
+### <a name="resizing"></a>Izmēru maiņas
+
+Varat konfigurēt Excel veidni, lai lietotu šūnas, lai uzrādītu teksta datus. Lai nodrošinātu, ka viss teksts šūnā ir redzams ģenerētajā dokumentā, var konfigurēt, lai šūna automātiski ietītu tajā tekstu. Varat konfigurēt arī rindu, kas satur šo šūnu, lai automātiski pielāgotu tās augstumu, ja pievienotais teksts nav pilnībā redzams. Papildinformāciju skatiet sadaļas Satīt tekstu šūnā [sadaļā Labot datus, kas ir izgriezti šūnās](https://support.microsoft.com/office/fix-data-that-is-cut-off-in-cells-e996e213-6514-49d8-b82a-2721cef6144e).
+
+> [!NOTE]
+> [Tā kā ir zināms Excel](https://support.microsoft.com/topic/you-cannot-use-the-autofit-feature-for-rows-or-columns-that-contain-merged-cells-in-excel-34b54dd7-9bfc-6c8f-5ee3-2715d7db4353) ierobežojums, pat ja šūnas tiek konfigurētas teksta dzēšanai, un rindas, kurās šīs šūnas ir ietvertas, tiek konfigurētas tā, lai automātiski pielāgotu to augstumus atbilstoši ievietotajam tekstam, iespējams, nevarēsit sapludinātām šūnām un rindām, kurās tās ietvertas, **izmantot līdzekļus AutoFit** un **Wrappe text** Excel. 
+
+Dynamics 365 Finance Attiecībā uz versiju 10.0.23 var likt ER aprēķināt katras rindas augstumu, kas tika konfigurēts, lai automātiski ietilptu ligzdoto šūnu saturam, ja šī rinda satur vismaz vienu sapludinātu šūnu, kas bija konfigurēta teksta saglabāšanai tajā. Aprēķinātais augstums tiek izmantots rindas izmēru maiņai, lai nodrošinātu, ka visas šūnas rindā ir redzamas ģenerētajā dokumentā. Lai sāktu izmantot šo funkcionalitāti, kad izpildiet visus ER formātus, kas tika konfigurēti, lai izmantotu Excel veidnes nosūtīšanas dokumentu ģenerēšanai, rīkojieties šādi.
+
+1. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
+2. Lapas **Lokalizācijas konfigurācijas** sadaļā **Saistītās saites** atlasiet **Elektronisko pārskatu veidošanas parametri**.
+3. Lapas Elektronisko **pārskatu parametri** cilnē Izpildlaiks **iestatiet** opciju **Automātiski ietilpināt rindu augstumu** uz **Jā**.
+
+Ja vēlaties mainīt šo kārtulu vienam ER formātam, atjauniniet šī formāta melnraksta versiju, veidojot šādas darbības.
+
+1. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
+2. Lapas **Lokalizācijas konfigurācijas** sadaļā **Konfigurācijas** atlasiet **Pārskatu veidošanas konfigurācijas**.
+3. Konfigurācijas lapā **konfigurācijas** koka kreisajā rūtī atlasiet ER konfigurāciju, kas izveidota, lai izmantotu Excel veidni izejošo dokumentu ģenerēšanai.
+4. Kopsavilkuma cilnē **Versijas** atlasiet konfigurēto versiju, kuras statuss ir **Melnraksts**.
+5. Darbību rūtī atlasiet **Noformētājs**.
+6. Formāta veidotāja **lapas** formāta kokā kreisajā rūtī atlasiet Excel komponentu, kas ir saistīts ar Excel veidni.
+7. **Cilnes Formāts** laukā Pielāgot rindas augstumu atlasiet vērtību, **lai** norādītu, vai ER jābūt forsētam izpildlaikā, lai mainītu rindu augstumu izejošā dokumentā, ko ģenerējis rediģētais ER formāts:
+
+    - **Noklusējums** – izmantojiet vispārējo iestatījumu, kas ir konfigurēts **laukā** Automātiskais rindas augstums lapā **Elektronisko pārskatu parametri**.
+    - **Jā** – ignorē vispārējo iestatījumu un mainiet rindas augstumu izpildlaikā.
+    - **Nē** - ignorē vispārējo iestatījumu un nemainiet rindas augstumu izpildlaikā.
 
 ## <a name="cell-component"></a>Šūnas komponents
 
@@ -247,12 +297,12 @@ Kad tiek ģenerēts izejošais dokuments Microsoft Excel darbgrāmatas formātā
 
 - Atlasiet **Automātisks**, lai pārrēķinātu visas pakārtotās formulas ik reizi, kad ģenerētais dokuments tiek pievienots, izmantojot jaunus diapazonus, šūnas utt.
 
-    >[!NOTE]
+    > [!NOTE]
     > Tas var radīt veiktspējas problēmu Excel veidnēm, kas ietver vairākas saistītas formulas.
 
 - Atlasiet **Manuāls**, lai izvairītos no formulas pārrēķina, kad tiek ģenerēts dokuments.
 
-    >[!NOTE]
+    > [!NOTE]
     > Formulas pārrēķins tiek manuāli izpildīts piespiedu kārtā, kad izveidotais dokuments tiek atvērts priekšskatījumam, izmantojot Excel.
     > Neizmantojiet šo opciju, ja konfigurējat ER galamērķi, kas pieņem izveidotā dokumenta izmantošanu bez tā priekšskatījuma programmā Excel (PDF pārvēršana, nosūtīšana e-pasta utt.), jo izveidotajā dokumentā var nebūt vērtības šūnās, kas satur formulas.
 
@@ -297,6 +347,56 @@ Kad tiek ģenerēts izejošais dokuments Microsoft Excel darbgrāmatas formātā
 6. Ģenerējiet drukājamu FTI dokumentu un pārskatiet ģenerētā dokumenta kājeni.
 
     ![Ģenerētā dokumenta kājenes pārskatīšana Excel formātā.](./media/er-fillable-excel-footer-4.gif)
+
+## <a name="example-2-fixing-the-merged-cells-epplus-issue"></a><a name="example-2"></a> 2. piemērs: sapludināto šūnu EPPlus problēmas labošana
+
+ER formātu varat palaist, lai izveidotu izejošo dokumentu Excel darbgrāmatas formātā. **Kad iespējo EPPlus** **bibliotēkas** izmantošanu elektronisko pārskatu veidošanas struktūras līdzeklī, kas ir iespējots Līdzekļu pārvaldības darbvietā, [EPPlus](https://www.nuget.org/packages/epplus/4.5.2.1) bibliotēka tiek izmantota Excel izvades veidošanai. Tomēr, tā [kā Excel](https://answers.microsoft.com/msoffice/forum/all/deleting-a-range-of-cells-that-includes-merged/8601462c-4e2c-48e0-bd23-848eecb872a9) funkcionalitāte ir zināma un EPPlus bibliotēka ir ierobežota, varat saskarties ar šādu izņēmumu: "Nevar dzēst/pārrakstīt sapludinātās šūnas. Diapazons ir daļēji sapludināts ar citu sapludinātu diapazonu." Lai uzzinātu, kādas Excel veidnes var izraisīt šo izņēmumu un kā var labot šo problēmu, izpildiet šo piemēru.
+
+1. Excel darbvirsmas programmā izveidojiet jaunu Excel darbgrāmatu.
+2. Darblapas **lapā1** pievienojiet **ReportTitle** nosaukumu šūnai **A2**.
+3. Sapludiniet šūnas **A1** un **A2**.
+
+    ![Pārskatiet šūnu A1 un A2 sapludināšanas rezultātus excel darba programmas Excel darbvirsmas programmā.](./media/er-fillable-excel-example2-1.png)
+
+3. Konfigurāciju lapā **pievienojiet** jaunu ER [formātu,](er-fillable-excel.md#add-a-new-er-format) lai izveidotu izejošo dokumentu Excel darbgrāmatas formātā.
+4. Formāta veidotāja **lapā** importējiet [izveidoto](er-fillable-excel.md#template-import) Excel darbgrāmatu pievienotjā ER formātā kā jaunu veidni izejošajiem dokumentiem.
+5. **Cilnē Kartēšana** konfigurējiet saistījumu šūnas **tipa ReportTitle**[komponentam](er-fillable-excel.md#cell-component).
+6. Palaidiet konfigurēto ER formātu. Ievērojiet, ka ir parādīts šāds izņēmums: "Nevar dzēst/pārrakstīt sapludinātās šūnas. Diapazons ir daļēji sapludināts ar citu sapludinātu diapazonu."
+
+    ![Pārskatiet rezultātus, kas rodas, izpildot konfigurēto ER formātu formāta veidotāja lapā.](./media/er-fillable-excel-example2-2.png)
+
+Varat labot šo problēmu vienā no tālāk norādītajiem veidiem:
+
+- **Vieglāka, bet nav ieteicama:** Funkciju pārvaldības **darbvietā** izslēdziet EPPlus bibliotēkas lietošanas iespējošanu elektronisko pārskatu veidošanas struktūras funkcijai **.** Kaut arī šī pieeja ir vieglāka, jūs variet pieredzi ar citiem jautājumiem, ja jūs to izmantojat, jo dažas ER **funkcijas tiek atbalstītas tikai tad, ja EPPlus bibliotēkas enable izmantošana Elektronisko** pārskatu veidošanas struktūras funkcionalitātē ir aktivizēta.
+- **Ieteicams:** veiciet tālāk norādītās darbības.
+
+    1. Excel darbvirsmas programmā modificējiet Excel darbgrāmatu vienā no šiem veidiem:
+
+        - Darblapas **lapā1** no atcelt šūnu **a1 un** **A2 saplūšanu**.
+        - Mainiet **ReportTitle** nosaukuma atsauci no **=Sheet1!$A$2** uz **=Sheet1!$A$1**.
+
+        ![Pārskatiet rezultātus, kas rodas, mainot atsauci Excel darbvirsmas programmas izveidotai darbgrāmatai.](./media/er-fillable-excel-example2-3.png)
+
+    2. Formāta veidotāja **lapā** importējiet [modificēto Excel darbgrāmatu rediģējamā ER formātā,](er-fillable-excel.md#template-import) lai atjauninātu esošo veidni.
+    3. Palaist modificēto ER formātu.
+
+        ![Pārskatiet ģenerēto dokumentu Excel darbvirsmas programmā.](./media/er-fillable-excel-example2-4.png)
+
+## <a name="limitations"></a>Ierobežojumi
+
+### <a name="known-epplus-library-limitations"></a>Zināmās EPPlus bibliotēkas ierobežojumi
+
+#### <a name="external-data-sources"></a>Ārējo datu avoti
+
+Ja kāda no veidnēm ietver PivotTable PowerPivot [...](https://support.microsoft.com/office/create-a-pivottable-with-an-external-data-source-db50d01d-2e1c-43bd-bfb5-b76a818a927b), kas ir balstīta uz modeli, kas attiecas uz ārējo datu avotu, **un ir iespējota EPPlus** bibliotēkas izmantošana Elektronisko pārskatu veidošanas struktūrā, izpildot ER formātu, kas izmanto šo veidni izejošā dokumenta ģenerēšanai Excel formātā: "Kešatmiņas avots nav darblapa." Lai novērstu šo problēmu, jums ir šādas opcijas:
+
+- **Ieteicams:** pārveidot Excel risinājumu, kuru izmantojat:
+
+    1. Izdaliet daļu, kas satur pivots atsevišķā Excel darbgrāmatā (A darbgrāmata). 
+    2. Izmantojiet ER, lai no Finanšu programmas ģenerētu otru Excel darbgrāmatu (darbgrāmatu B), kurā ir nepieciešamie dati. 
+    3. Atsaucieties uz B darbgrāmatu A, tiklīdz tiek ģenerēta darbgrāmata B.
+
+- Izslēdziet šo līdzekli. **Lai izmantotu opciju, kas nav EPPlus**, aktivizējiet EPPlus bibliotēkas lietošanu elektronisko pārskatu struktūrā. 
 
 ## <a name="additional-resources"></a>Papildu resursi
 

@@ -1,50 +1,51 @@
 ---
-title: Izvēršanas vadlīnijas fiskālā printera integrācijas paraugam Itālijai (mantots)
-description: Šajā tēmā ir sniegtas vadlīnijas fiskālā printera integrācijas parauga izvietošanai Itālijā no Microsoft Dynamics 365 Commerce Mazumtirdzniecības programmatūras izstrādes komplekts (SDK).
+title: Itālijas fiskālā printera integrācijas parauga izvietošanas vadlīnijas (mantojuma)
+description: Šajā tēmā sniegtas vadlīnijas itālijas fiskālā printera integrācijas parauga izvietošanai no mazumtirdzniecības Microsoft Dynamics 365 Commerce programmatūras izstrādes komplekta (SDK).
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 93aca34239affb41998f4309d7c03f29f7b5f003
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
-ms.translationtype: HT
+ms.openlocfilehash: c820c320410c43cafaae43c59cad04efdee24ab2
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076890"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388448"
 ---
-# <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-italy-legacy"></a>Izvēršanas vadlīnijas fiskālā printera integrācijas paraugam Itālijai (mantots)
+# <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-italy-legacy"></a>Itālijas fiskālā printera integrācijas parauga izvietošanas vadlīnijas (mantojuma)
 
 [!include[banner](../includes/banner.md)]
+[!include[banner](../includes/preview-banner.md)]
 
-Šajā tēmā ir sniegtas vadlīnijas fiskālā printera integrācijas parauga izvietošanai Itālijā no Microsoft Dynamics 365 Commerce Mazumtirdzniecības programmatūras izstrādes komplekts (SDK) izstrādātāja virtuālajā mašīnā (VM).Microsoft Dynamics Dzīves cikla pakalpojumi (LCS). Papildinformāciju par šo fiskālās integrācijas paraugu skatiet [Fiskālā printera integrācijas paraugs Itālijai](emea-ita-fpi-sample.md). 
+Šajā tēmā sniegtas vadlīnijas itālijas fiskālā printera Microsoft Dynamics 365 Commerce integrācijas parauga izvietošanai no mazumtirdzniecības programmatūras izstrādes komplekta (SDK) izstrādātāja virtuālās mašīnas (VM) Microsoft Dynamics pakalpojumos Lifecycle Services (LCS). Papildinformāciju par šo fiskālās integrācijas paraugu skatiet Itālijas [fiskālās printera integrācijas paraugs](emea-ita-fpi-sample.md). 
 
-Itālijas fiskālās integrācijas paraugs ir daļa no mazumtirdzniecības SDK. Informāciju par SDK instalēšanu un lietošanu skatiet sadaļā [Mazumtirdzniecības programmatūras izstrādes komplekta (SDK) arhitektūra](../dev-itpro/retail-sdk/retail-sdk-overview.md). Šis paraugs sastāv no Commerce izpildlaika paplašinājumiem (CRT) un aparatūras stacija. Lai palaistu šo paraugu, jums ir jāmaina un jāveido CRT un Aparatūras staciju projekti. Lai veiktu šajā tēmā aprakstītās izmaiņas, ieteicams izmantot nepārveidotu mazumtirdzniecības SDK. Mēs arī iesakām izmantot avota kontroles sistēmu, piemēram,Azure DevOps kur neviens fails vēl nav mainīts.
+Itālijas finanšu integrācijas paraugs ir daļa no sdk Retail. Informāciju par TO, kā instalēt un izmantot SDK, skatiet mazumtirdzniecības [programmatūras izstrādes komplekta (SDK) arhitektūru](../dev-itpro/retail-sdk/retail-sdk-overview.md). Šis paraugs sastāv no commerce izpildlaika (CRT) un aparatūras stacijas paplašinājumiem. Lai palaistu šo paraugu, ir jāmodificē un jāveido aparatūras CRT staciju projekti. Ieteicams izmantot nemodificētu komplektu Retail SDK, lai veiktu šajā tēmā aprakstītās izmaiņas. Iesakām izmantot arī avota kontroles sistēmu, piemēram, tādu Azure DevOps failu, kas vēl nav mainīti.
 
 ## <a name="development-environment"></a>Izstrādes vide
 
-Veiciet šīs darbības, lai iestatītu izstrādes vidi, lai varētu pārbaudīt un paplašināt paraugu.
+Izpildiet šīs darbības, lai iestatītu izstrādes vidi, tādējādi jūs variet pārbaudīt un pagarināt paraugu.
 
-### <a name="commerce-runtime-extension-components"></a>Tirdzniecības izpildlaika paplašinājuma komponenti
+### <a name="commerce-runtime-extension-components"></a>Commerce runtime paplašinājuma komponenti
 
-The CRT paplašinājuma komponenti ir iekļauti mazumtirdzniecības SDK. Lai pabeigtu tālāk norādītās procedūras, atveriet **CommerceRuntimeSamples.sln** risinājums zem **RetailSdk\\ Extensions paraugi\\ CommerceRuntime**.
+Paplašinājuma CRT komponenti ir ietverti Retail SDK. Lai izpildītu tālāk norādītās procedūras, **atveriet CommerceRuntimeSamples.sln** **risinājumu zem RetailSdkSampleExtensionsCommerceRuntime \\\\**.
 
-1. Atrodi **Runtime.Extensions.DocumentProvider.EpsonFP90IIISample** projektu un uzbūvēt to.
-2. Iekš **Paplašinājumi.DocumentProvider.EpsonFP90IIISample\\ atkritumu tvertne\\ Atkļūdošana** mapi, atrodiet **Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.dll** montāžas fails.
-3. Kopējiet montāžas failu uz CRT paplašinājumu mape:
+1. Atrast runtime.Extensions.DocumentProvider.EpsonFP90IISample **projektu** un veidot to.
+2. **Mapē Extensions.DocumentProvider.EpsonFP90IISamplebinDebug\\\\** **atrodiet mapi Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IISample.dll** montāžas failu.
+3. Kopēt montāžas failu uz CRT paplašinājumu mapi:
 
-    - **Tirdzniecības mēroga vienība:** Kopējiet failu uz **\\ atkritumu tvertne\\ ext** mapē Interneta informācijas pakalpojumu (IIS) Commerce Scale Unit vietnes atrašanās vietā.
-    - **Vietējais CRT Mūsdienu POS:** Kopējiet failu uz **\\ ext** mape zem vietējā CRT klienta brokera atrašanās vieta.
+    - **Commerce Scale Unit:** kopējiet failu uz **\\ binext\\** mapi, kas atrodas Interneta informācijas pakalpojumu (IIS) Commerce Scale Unit atrašanās vietā.
+    - **Lokāls CRT vai Modern POS:** kopējiet failu uz ārējo **\\** mapi lokālā klienta starpnieka CRT atrašanās vietā.
 
-4. Atrodiet paplašinājuma konfigurācijas failu CRT:
+4. Meklēt paplašinājuma konfigurācijas failu šim CRT:
 
-    - **Tirdzniecības mēroga vienība:** Fails ir nosaukts **commerceruntime.ext.config**, un tas atrodas **atkritumu tvertne\\ ext** mapi zem IIS Commerce Scale Unit vietnes atrašanās vietas.
-    - **Vietējais CRT Mūsdienu POS:** Fails ir nosaukts **CommerceRuntime.MPOSOffline.Ext.config**, un tas ir zem vietējā CRT klienta brokera atrašanās vieta.
+    - **Commerce Scale Unit:** faila **nosaukums ir commerceruntime.ext.config**, un tā atrodas binext **\\ mapē, kas atrodas IIS Commerce Scale Unit vietas atrašanās** vietā.
+    - **Modern CRT POS lokāls:** faila **nosaukums ir CommerceRuntime.MPOSOffline.Ext.config**, un tas atrodas vietējā klienta starpnieka atrašanās CRT vietā.
 
-5. Reģistrējieties CRT izmaiņas paplašinājuma konfigurācijas failā.
+5. Reģistrēt izmaiņas CRT paplašinājuma konfigurācijas failā.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample" />
@@ -52,26 +53,26 @@ The CRT paplašinājuma komponenti ir iekļauti mazumtirdzniecības SDK. Lai pab
 
 6. Restartējiet Commerce Scale Unit:
 
-    - **Tirdzniecības mēroga vienība:** Restartējiet vietni Commerce Scale Unit no IIS pārvaldnieka.
-    - **Klientu brokeris:** Beidziet **dllhost.exe** procesu uzdevumu pārvaldniekā un pēc tam restartējiet Modern POS.
+    - **Commerce Scale Unit: restartējiet** Commerce Scale Unit vietni no IIS pārvaldnieka.
+    - **Klienta starpnieks:** beigt **dllhost.exe** procesu uzdevumu pārvaldniekā un pēc tam restartēt Modern POS.
 
-### <a name="hardware-station-extension-components"></a>Aparatūras stacijas paplašinājuma sastāvdaļas
+### <a name="hardware-station-extension-components"></a>Aparatūras stacijas paplašinājuma komponenti
 
-Aparatūras stacijas paplašinājuma komponenti ir iekļauti mazumtirdzniecības SDK. Lai pabeigtu tālāk norādītās procedūras, atveriet **HardwareStationSamples.sln** risinājums zem **RetailSdk\\ Extensions paraugi\\ HardwareStation**.
+Aparatūras stacijas paplašinājuma komponenti ir iekļauti Retail SDK. Lai izpildītu tālāk norādītās procedūras, atveriet **risinājumu HardwareStationSamples.sln** **zem RetailSdkSampleExtensionsHardwareStation\\\\**.
 
-1. Atrodi **HardwareStation.Extensions.EpsonFP90IIIFiscalDeviceSample** projektu un uzbūvēt to.
-2. Iekš **Extensions.EpsonFP90IIIFiscalDeviceSample\\ atkritumu tvertne\\ Atkļūdošana** mapi, atrodiet **Contoso.Commerce.HardwareStation.EpsonFP90IIIFiscalDeviceSample.dll** montāžas fails.
-3. Kopējiet montāžas failu izvietotajā aparatūras stacijas mašīnā:
+1. Atrodiet projektu **HardwareStation.Extensions.EpsonFP90IIIFiscalDeviceSample** un izveidojiet to.
+2. **Mapē Extensions.EpsonFP90IIICalDeviceSamplebinDebug\\\\** **atrodiet mapi Contoso.Commerce.HardwareStation.EpsonFP90IIFiscalDeviceSample.dll** montāžas failu.
+3. Kopējiet montāžas failu izvietotā aparatūras stacijas datorā:
 
-    - **Attālā aparatūras stacija:** Kopējiet failu uz **atkritumu tvertne** mapi zem IIS aparatūras stacijas vietnes atrašanās vietas.
-    - **Vietējā aparatūras stacija:** Kopējiet failu uz Modern POS klienta brokera atrašanās vietu.
+    - **Attālās aparatūras stacija:** kopējiet failu uz **nodalījuma mapi** IIS aparatūras stacijas vietnes atrašanās vietā.
+    - **Lokālā aparatūras stacija:** kopējiet failu Modern POS klienta starpnieka atrašanās vietā.
 
-4. Atrodiet aparatūras stacijas paplašinājumu konfigurācijas failu. Fails ir nosaukts **HardwareStation.Extension.config**:
+4. Atrast aparatūras stacijas paplašinājumu konfigurācijas failu. Faila nosaukums ir **HardwareStation.Extension.config**:
 
-    - **Attālā aparatūras stacija:** Fails atrodas zem IIS aparatūras stacijas vietnes atrašanās vietas.
-    - **Vietējā aparatūras stacija:** Fails atrodas Modern POS klienta brokera atrašanās vietā.
+    - **Attālās aparatūras stacija:** fails atrodas IIS aparatūras stacijas vietnes atrašanās vietā.
+    - **Lokālā aparatūras stacija:** fails atrodas Modern POS klienta starpnieka atrašanās vietā.
 
-5. Pievienojiet šādu sadaļu **sastāvu** konfigurācijas faila sadaļā.
+5. Pievienojiet konfigurācijas faila sastāva **sadaļai** šādu sadaļu.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.EpsonFP90IIIFiscalDeviceSample" />
@@ -79,69 +80,105 @@ Aparatūras stacijas paplašinājuma komponenti ir iekļauti mazumtirdzniecības
 
 6. Restartējiet aparatūras stacijas pakalpojumu:
 
-    - **Attālā aparatūras stacija:** Restartējiet aparatūras stacijas vietni no IIS pārvaldnieka.
-    - **Vietējā aparatūras stacija:** Beidziet **dllhost.exe** procesu uzdevumu pārvaldniekā un pēc tam restartējiet Modern POS.
+    - **Attālā aparatūras stacija: restartējiet** aparatūras stacijas vietni no IIS pārvaldnieka.
+    - **Lokālā aparatūras stacija:** beigt **dllhost.exe** procesu uzdevumu pārvaldniekā un pēc tam restartēt Modern POS.
 
 ## <a name="production-environment"></a>Ražošanas vide
 
-Lai izveidotu izvietojamas pakotnes, kas satur Commerce komponentus, un lietotu šīs pakotnes ražošanas vidē, veiciet šīs darbības.
+Lai izveidotu izvietojamus iepakojumus, kas ietver Commerce komponentus, un piemēroiet šīs pakotnes ražošanas vidē, veiciet šos soļus:
 
-1. Pabeidziet darbības, kas aprakstītas sadaļā [Attīstības vide](#development-environment) sadaļā iepriekš šajā tēmā.
-2. Veiciet tālāk norādītās izmaiņas pakotnes konfigurācijas failos **RetailSdk\\Assets**:
+1. Veiciet soļus, kas ir aprakstīti izstrādes [vides sadaļā](#development-environment) iepriekš šajā tēmā.
+2. Mapē RetailSdkAssets **veiciet \\ tālāk norādītās izmaiņas pakotnes konfigurācijas failos**:
 
-    - Iekš **commerceruntime.ext.config** un **CommerceRuntime.MPOSOffline.Ext.config** konfigurācijas failus, pievienojiet šādu rindiņu **sastāvu** sadaļā.
+    1. Commerceruntime.ext.config **un** CommerceRuntime.MPOSOffline.Ext.config **konfigurācijas** failos pievienojiet šim sastāva sadaļai šādu **rindu.**
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample" />
         ```
 
-    - Konfigurācijas failā **HardwareStation.Extension.config** kompozīcijas **sadaļai** pievienojiet šādu rindu.
+    1. Konfigurācijas failā **HardwareStation.Extension.config** pievienojiet sastāva sadaļai šādu **rindu**.
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.HardwareStation.EpsonFP90IIIFiscalDeviceSample" />
         ```
 
-3. Mapē BuildTools veiciet šādas izmaiņas **pielāgošanas.settings** pakotnes pielāgošanas konfigurācijas **failā**:
+3. **Mapē BuildTools veiciet šādas izmaiņas pielāgošanas.iestatījumu** pakotnes pielāgošanas **konfigurācijas** failā:
 
-    - Pievienojiet šo rindiņu, lai iekļautu CRT paplašinājums izvietojamās pakotnēs.
+    1. Pievienojiet tālāk norādīto rindu, lai ietvertu CRT paplašinājumu izvietojamās pakotnēs.
 
         ``` xml
         <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.dll"/>
         ```
 
-    - Pievienojiet šo rindiņu, lai izvietojamās pakotnēs iekļautu aparatūras stacijas paplašinājumu.
+    1. Pievienojiet tālāk norādīto rindu, lai ietvertu aparatūras stacijas paplašinājumu izvietojamās pakotnēs.
 
         ``` xml
         <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.EpsonFP90IIIFiscalDeviceSample.dll"/>
         ```
 
-4. Sāciet MSBuild komandu uzvedni Visual Studio utilītu un pēc tam palaist **msbuild** mapē Retail SDK, lai izveidotu izvietojamas pakotnes.
-5. Uzklājiet iepakojumus, izmantojot LCS vai manuāli. Papildinformāciju skatiet rakstā [Izvietojamo pakotņu](../dev-itpro/retail-sdk/retail-sdk-packaging.md) izveide.
+4. Veiciet tālāk norādītās **izmaiņas failā Sdk.ModernPos.Shared.csproj** **mapē PackagesSharedPackagingProjectComponents\_, lai ietvertu Itālijas resursu failus izvietojamās pakotnēs**:
 
-## <a name="design-of-extensions"></a>Paplašinājumu projektēšana
+    1. Pievienojiet ItemGroup **sadaļu**, kas satur mezglus, kas norāda uz resursu failiem nepieciešamajiem tulkojumiem. Pārliecinieties, ka ir jānorāda pareizās nosaukumvietas un parauga nosaukumi. Šis piemērs tam pievieno resursu mezglus **un** **tas-CH lokāļi**.
 
-### <a name="commerce-runtime-extension-design"></a>Tirdzniecības izpildlaika paplašinājuma dizains
+        ```xml
+        <ItemGroup>
+            <ResourcesIt Include="$(SdkReferencesPath)\it\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.resources.dll"/>
+            <ResourcesItCh Include="$(SdkReferencesPath)\it-CH\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.resources.dll"/>
+        </ItemGroup>
+        ```
 
-Paplašinājuma, kas ir fiskālo dokumentu nodrošinātājs, mērķis ir ģenerēt printerim specifiskus dokumentus un apstrādāt atbildes no fiskālā printera.
+    1. Sadaļā Mērķa **Nosaukums="CopyPackageFiles"** pievienojiet vienu rindu katrai lokālajai sadaļai, kā parādīts šajā piemērā.
 
-The CRT pagarinājums ir **Runtime.Extensions.DocumentProvider.EpsonFP90IIISample**.
+        ```xml
+        <Copy SourceFiles="@(ResourcesIt)" DestinationFolder="$(OutputPath)content.folder\CustomizedFiles\ClientBroker\ext\it" SkipUnchangedFiles="true" />
+        <Copy SourceFiles="@(ResourcesItCh)" DestinationFolder="$(OutputPath)content.folder\CustomizedFiles\ClientBroker\ext\it-CH" SkipUnchangedFiles="true" />
+        ```
 
-Papildinformāciju par fiskālās integrācijas risinājuma izstrādi skatiet [fiscal registration process and fiscal integration samples for fiscal devices and services](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
+5. Veiciet tālāk norādītās **izmaiņas failā Sdk.RetailServerSetup.proj** **, kas atrodas mapē PackagesSharedPackagingProjectComponents\_, lai ietvertu Itālijas resursu failus izvietojamās pakotnēs**:
 
-#### <a name="request-handler"></a>Pieprasījumu apstrādātājs
+    1. Pievienojiet ItemGroup **sadaļu**, kas satur mezglus, kas norāda uz resursu failiem nepieciešamajiem tulkojumiem. Pārliecinieties, ka ir jānorāda pareizās nosaukumvietas un parauga nosaukumi. Šis piemērs tam pievieno resursu mezglus **un** **tas-CH lokāļi**.
 
-The **DocumentProviderEpsonFP90III** pieprasījumu apstrādātājs ir ieejas punkts pieprasījumam ģenerēt dokumentus no fiskālā printera.
+        ```xml
+        <ItemGroup>
+            <ResourcesIt Include="$(SdkReferencesPath)\it\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.resources.dll"/>
+            <ResourcesItCh Include="$(SdkReferencesPath)\it-CH\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.resources.dll"/>
+        </ItemGroup>
+        ```
 
-Apdarinātājs ir mantots no **INamedRequestHandler** saskarne. The **Apdarinātāja vārds** metode ir atbildīga par apstrādātāja vārda atgriešanu. Apdarinātāja nosaukumam ir jāatbilst savienotāja dokumenta nodrošinātāja nosaukumam, kas norādīts Commerce galvenajā mītnē.
+    1. Sadaļā Mērķa **Nosaukums="CopyPackageFiles"** pievienojiet vienu rindu katrai lokālajai sadaļai, kā parādīts šajā piemērā.
+
+        ``` xml
+        <Copy SourceFiles="@(ResourcesIt)" DestinationFolder="$(OutputPath)content.folder\RetailServer\Code\bin\ext\it" SkipUnchangedFiles="true" />
+        <Copy SourceFiles="@(ResourcesItCh)" DestinationFolder="$(OutputPath)content.folder\RetailServer\Code\bin\ext\it-CH" SkipUnchangedFiles="true" />
+        ```
+
+6. Startējiet utilītai MSBuild komandu Visual Studio uzvedni un pēc tam palaidiet msbuild **mapē Retail SDK,** lai izveidotu izvietojamas pakotnes.
+7. Piemērot iepakojumus, izmantojot LCS vai manuāli. Papildinformāciju skatiet sadaļā [Izvietojamu pakotņu izveide](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
+
+## <a name="design-of-extensions"></a>Paplašinājumu dizains
+
+### <a name="commerce-runtime-extension-design"></a>Commerce runtime paplašinājuma dizains
+
+Nolūks paplašinājumam, kas ir fiskālā dokumenta nodrošinātājs, ir izveidot printerim raksturīgus dokumentus un apstrādāt atbildes no fiskālā printera.
+
+Paplašinājums CRT ir **Runtime.Extensions.DocumentProvider.EpsonFP90IISample**.
+
+Papildinformāciju par fiskālās integrācijas risinājuma dizainu skatiet finanšu [reģistrācijas procesā un finanšu integrācijas paraugos fiskālajām ierīcēm un pakalpojumiem](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
+
+#### <a name="request-handler"></a>Pieprasījumu apdarinātājs
+
+Pieprasījumu **apdarinātājs DocumentProviderEpsonFP90III ir** ieejas punkts pieprasījumam ģenerēt dokumentus no fiskālā printera.
+
+Apdarinātājs ir pārmantots no **INamedRequestHandler** interfeisa. Metode **HandlerName** ir atbildīga par apdarinātāja nosaukuma atgriešanu. Apdarinātāja nosaukumam ir jāatbilst savienotāja dokumentu nodrošinātāja nosaukumam, kas norādīts programmā Commerce Headquarters.
 
 Savienotājs atbalsta šādus pieprasījumus:
 
-- **GetFiscalDocumentDocumentProviderRequest** – Šis pieprasījums satur informāciju par to, kāds dokuments ir jāģenerē. Tas atgriež printerim raksturīgu dokumentu, kas jāreģistrē fiskālā printerī.
-- **GetSupportedRegistrableEventsDocumentProviderRequest** – Šis pieprasījums atgriež abonējamo notikumu sarakstu. Pašlaik tiek atbalstīti šādi pasākumi: pārdošana, X pārskata drukāšana un Z pārskata drukāšana.
+- **GetFiscalDocumentDocumentProviderRequest —** šajā pieprasījumā ir ietverta informācija par to, kurš dokuments ir jāģenerē. Tas atgriež printerim raksturīgu dokumentu, kas jāreģistrē fiskālajā printerī.
+- **GetSupportedRegistrableEventsDocumentProviderRequest** - šis pieprasījums atgriež notikumu sarakstu, uz kuriem ir jāabonē. Pašlaik tiek atbalstīti šādi notikumi: pārdošana, X pārskata drukāšana un Z pārskata drukāšana.
 
 #### <a name="configuration"></a>Konfigurācija
 
-Konfigurācijas fails atrodas mapē **Konfigurācija** paplašinājuma projekta mapi. Faila mērķis ir iespējot iestatījumus dokumentu nodrošinātājam, ko konfigurē Commerce galvenajā mītnē. Faila formāts ir saskaņots ar fiskālās integrācijas konfigurācijas prasībām. Tiek pievienoti šādi iestatījumi:
+Konfigurācijas fails atrodas paplašinājuma **projekta** konfigurācijas mapē. Faila mērķis ir iespējot iestatījumus dokumentu nodrošinātājam, lai tos konfigurētu no programmas Commerce Headquarters. Faila formāts ir saskaņots ar finanšu integrācijas konfigurācijas prasībām. Ir pievienoti šādi iestatījumi:
 
 - PVN kodu kartējums
 - PVN likmju kartējums
@@ -151,25 +188,25 @@ Konfigurācijas fails atrodas mapē **Konfigurācija** paplašinājuma projekta 
 
 ### <a name="hardware-station-extension-design"></a>Aparatūras stacijas paplašinājuma dizains
 
-Paplašinājuma, kas ir fiskālais savienotājs, mērķis ir sazināties ar fiskālo printeri.
+Paplašinājuma, kas ir fiskālais savienotājs, nolūks ir sazināties ar fiskālo printeri.
 
-Aparatūras stacijas paplašinājums ir **HardwareStation.Extension.EpsonFP90IIIFiscalDeviceSample**. Šis paplašinājums izmanto HTTP protokolu, lai iesniegtu dokumentus, kas CRT paplašinājums tiek ģenerēts fiskālajam printerim. Tas arī apstrādā atbildes, kas tiek saņemtas no fiskālā printera.
+Aparatūras stacijas paplašinājums **ir HardwareStation.Extension.EpsonFP90IIFiscalDeviceSample**. Šis paplašinājums izmanto HTTP protokolu, lai iesniegtu dokumentus, ko CRT paplašinājums ģenerē fiskālam printerim. Tā apstrādā arī atbildes, kas saņemtas no fiskālā printera.
 
-#### <a name="request-handler"></a>Pieprasījumu apstrādātājs
+#### <a name="request-handler"></a>Pieprasījumu apdarinātājs
 
-The **EpsonFP90IIISample** pieprasījumu apstrādātājs ir ieejas punkts, lai apstrādātu pieprasījumus fiskālajai perifērijas ierīcei.
+**EpsonFP90IISample** pieprasījuma apdarinātājs ir ieejas punkts finanšu perifērijas ierīču pieprasījumu apstrādei.
 
-Apdarinātājs ir mantots no **INamedRequestHandler** saskarne. The **Apdarinātāja vārds** metode ir atbildīga par apstrādātāja vārda atgriešanu. Apdarinātāja nosaukumam ir jāatbilst fiskālā savienotāja nosaukumam, kas norādīts Commerce galvenajā mītnē.
+Apdarinātājs ir pārmantots no **INamedRequestHandler** interfeisa. Metode **HandlerName** ir atbildīga par apdarinātāja nosaukuma atgriešanu. Apdarinātāja nosaukumam ir jāatbilst programmā Commerce Headquarters norādītajam finanšu savienotāja nosaukumam.
 
 Savienotājs atbalsta šādus pieprasījumus:
 
-- **SubmitDocumentFiscalDeviceRequest** – Šis pieprasījums nosūta dokumentus uz printeriem un atgriež atbildi no fiskālā printera.
-- **IsReadyFiscalDeviceRequest** – Šis pieprasījums tiek izmantots ierīces veselības pārbaudei.
-- **InitializeFiscalDeviceRequest** – Šis pieprasījums tiek izmantots printera inicializēšanai.
+- **SubmitDocumentFiscalDeviceRequest** – šis pieprasījums sūta dokumentus printeriem un atgriež atbildi no fiskālā printera.
+- **IsReadyFiscalDeviceRequest** – šis pieprasījums tiek izmantots ierīces veselības pārbaudei.
+- **InitializeFiscalDeviceRequest** - šis pieprasījums tiek izmantots printera inicializēšanai.
 
 #### <a name="configuration"></a>Konfigurācija
 
-Konfigurācijas fails atrodas mapē **Konfigurācija** paplašinājuma projekta mapi. Faila mērķis ir iespējot savienotāja iestatījumus, kas jākonfigurē no Commerce galvenās mītnes. Faila formāts ir saskaņots ar fiskālās integrācijas konfigurācijas prasībām. Tiek pievienoti šādi iestatījumi:
+Konfigurācijas fails atrodas paplašinājuma **projekta** konfigurācijas mapē. Faila mērķis ir iespējot iestatījumus savienotājam, kas tiks konfigurēts no programmas Commerce Headquarters. Faila formāts ir saskaņots ar finanšu integrācijas konfigurācijas prasībām. Ir pievienoti šādi iestatījumi:
 
-- **Galapunkta adrese** – Printera URL.
-- **Datuma un laika sinhronizācija** – Vērtība, kas norāda, vai printera datums un laiks ir jāsinhronizē ar pievienoto aparatūras staciju.
+- **Galapunkta** adrese – printera URL.
+- **Datuma un laika sinhronizācija** – vērtība, kas norāda, vai printera datums un laiks ir jāsinhronizē ar pievienoto aparatūras staciju.

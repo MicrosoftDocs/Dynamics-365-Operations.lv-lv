@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 55952a9b1c25b806ee4a21ef1982c5b15a41adeb9c9bfdf2fccb8c9da242ffdb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 9af5184da4f9507e3c06464a223f0debaea4430e
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714334"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384672"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Pārvaldīt tehnisko produktu izmaiņas
 
@@ -113,16 +113,19 @@ Lai pārskatītu ietekmētās darbības, bloķētu atlasītās darbības un nos�
     - **Skatīt darījumu** – atvērt atlasīto darījumu ierakstu.
     - **Bloķēt pasūtījumu** – šī poga ir pieejama tikai cilnē **Pārdošanas pasūtījumi**. Atlasiet to, lai bloķētu atlasīto pārdošanas pasūtījumu.
     - **Bloķēt rindu** – šī poga ir pieejama tikai cilnē **Pirkšanas pasūtījumi**. Atlasiet to, lai bloķētu atlasīto pirkšanas pasūtījumu rindu.
-    - **Paziņot atbildīgajam** - šī poga ir pieejama tikai cilnē **Pārdošanas pasūtījumi**. Atlasiet to, lai nosūtītu izmaiņu paziņojumu lietotājam, kurš ir iestatīts kā atbildīgais par atlasīto pārdošanas pasūtījumu.
-    - **Paziņot pasūtītājam** - šī poga ir pieejama tikai cilnē **Pirkšanas pasūtījumi**. Atlasiet to, lai nosūtītu izmaiņu paziņojumu lietotājam, kurš ir iestatīts kā pasūtītājs par atlasīto pirkšanas pasūtījumu.
-    - **Paziņot ražošanai** - šī poga ir pieejama tikai cilnē **Ražošanas pasūtījumi**. Atšķirībā no pārdošanas un pirkšanas pasūtījumiem ražošanas pasūtījumos nav viens lietotājs, kurš ir iestatīts kā atbildīgais par tiem. Tā vietā dažādi vadītāji vai plānotāji parasti īpašumtiesības piešķir noteiktai vietai vai noteiktai ražošanas daļai (piemēram, konkrētiem resursiem vai resursu grupām). Tāpēc, atlasot šo pogu, visi lietotāji, kas ir atbildīgi par jebkuru resursu, kas saistīts ar atlasīto ražošanas pasūtījumu, saņem izmaiņu paziņojumu.
-    - **Paziņot sagatavotājam** - šī poga ir pieejama tikai cilnē **Pirkšanas pieprasījums**. Atlasiet to, lai nosūtītu izmaiņu paziņojumu lietotājam, kurš ir iestatīts kā sagatavotājs par atlasīto pirkšanas pieprasījumu.
-    - **Paziņot pārdošanas atbildīgajam** - šī poga ir pieejama tikai cilnē **Piedāvājums**. Atlasiet to, lai nosūtītu izmaiņu paziņojumu lietotājam, kurš ir iestatīts kā atbildīgais par atlasīto piedāvājumu.
+    - **Paziņot atbildīgajam** - šī poga ir pieejama tikai cilnē **Pārdošanas pasūtījumi**. Atlasiet to, lai nosūtītu izmaiņu paziņojumu lietotājam, kurš ir iestatīts kā atbildīgais par atlasīto pārdošanas pasūtījumu. Papildinformāciju par to, kas var skatīt paziņojumus un kā, skatiet sadaļā [Transakciju izmaiņu paziņojumu pārskatīšana un apstrāde](#review-notifications).
+    - **Paziņot pasūtītājam** - šī poga ir pieejama tikai cilnē **Pirkšanas pasūtījumi**. Atlasiet to, lai nosūtītu izmaiņu paziņojumu lietotājam, kurš ir iestatīts kā pasūtītājs par atlasīto pirkšanas pasūtījumu. Papildinformāciju par to, kas var skatīt paziņojumus un kā, skatiet sadaļā [Transakciju izmaiņu paziņojumu pārskatīšana un apstrāde](#review-notifications).
+    - **Paziņot ražošanai** - šī poga ir pieejama tikai cilnē **Ražošanas pasūtījumi**. Atšķirībā no pārdošanas un pirkšanas pasūtījumiem ražošanas pasūtījumos nav viens lietotājs, kurš ir iestatīts kā atbildīgais par tiem. Tā vietā dažādi vadītāji vai plānotāji parasti īpašumtiesības piešķir noteiktai vietai vai noteiktai ražošanas daļai (piemēram, konkrētiem resursiem vai resursu grupām). Tāpēc, atlasot šo pogu, visi lietotāji, kas ir atbildīgi par jebkuru resursu, kas saistīts ar atlasīto ražošanas pasūtījumu, saņem izmaiņu paziņojumu. Papildinformāciju par to, kas var skatīt paziņojumus un kā, skatiet sadaļā [Transakciju izmaiņu paziņojumu pārskatīšana un apstrāde](#review-notifications).
+    - **Paziņot sagatavotājam** - šī poga ir pieejama tikai cilnē **Pirkšanas pieprasījums**. Atlasiet to, lai nosūtītu izmaiņu paziņojumu lietotājam, kurš ir iestatīts kā sagatavotājs par atlasīto pirkšanas pieprasījumu. Papildinformāciju par to, kas var skatīt paziņojumus un kā, skatiet sadaļā [Transakciju izmaiņu paziņojumu pārskatīšana un apstrāde](#review-notifications).
+    - **Paziņot pārdošanas atbildīgajam** - šī poga ir pieejama tikai cilnē **Piedāvājums**. Atlasiet to, lai nosūtītu izmaiņu paziņojumu lietotājam, kurš ir iestatīts kā atbildīgais par atlasīto piedāvājumu. Papildinformāciju par to, kas var skatīt paziņojumus un kā, skatiet sadaļā [Transakciju izmaiņu paziņojumu pārskatīšana un apstrāde](#review-notifications).
     - **Brāķis** – šī poga ir pieejama tikai cilnē **Krājumi**. Atlasiet to, lai brāķētu atlasīto krājumu.
     - **Skatīt vēsturi** – atvērt to darbību vēsturi, kas veiktas atlasītajam darījumam, izmantojot dialoglodziņu **Biznesa ietekme uz atvērtajiem darījumiem**. (Piemēram, vēsture parāda, vai paziņojumi ir nosūtīti vai darbības ir bloķētas.) 
     - **Apskatīt visus darījumus** – atveriet pilnu sarakstu ar visiem darījumiem, ne tikai atvērtajiem darījumiem.
 
-#### <a name="review-and-process-change-notifications-for-transactions"></a>Pārskatīt un apstrādāt darījumu izmaiņu paziņojumus
+> [!IMPORTANT]
+> Poga **Paziņot par ražošanu** ir pieejama tikai tad, *ja jūsu sistēmai ir ieslēgts inženiertehniskie paziņojumi par ražošanas* līdzekli. Norādījumus par to, kā ieslēgt vai izslēgt šo līdzekli un tā priekšnosacījumus, skatiet rakstā [Inženiertehnisko izmaiņu pārvaldības pārskats](product-engineering-overview.md).
+
+#### <a name="review-and-process-change-notifications-for-transactions"></a><a name="review-notifications"></a>Pārskatīt un apstrādāt darījumu izmaiņu paziņojumus
 
 Jūs varat lasīt un apstrādāt saņemtos izmaiņu paziņojumus šādos veidos:
 
@@ -131,6 +134,9 @@ Jūs varat lasīt un apstrādāt saņemtos izmaiņu paziņojumus šādos veidos:
 - Ražošanas pasūtījumos varat izvēlēties pārskatīt tikai tos izmaiņu paziņojumus, kas attiecas uz jūsu pārvaldītajiem ražošanas resursiem. Darbvietā **Ražošanas pārvaldība** Darbību rūtī atlasiet **Konfigurēt manu darbvietu**, lai filtrētu lapu tā, lai tā rādītu tikai informāciju par jūsu pārvaldītajām ražošanas vienībām, grupām un/vai resursiem. Sadaļā **Kopsavilkums** elements, kura nosaukums ir **Ražošanas pasūtījumi ar mainītām precēm**, rāda to paziņojumu skaitu, kas atbilst filtra iestatījumiem. Atlasiet šo elementu, lai atvērtu lapu **Inženiertehniskie paziņojumi**, kurā ir pilns darbību saraksts, kas atbilst filtra kritērijiem.
 
 Ja pārskata ražošanas pasūtījumu paziņojumus **Inženiertehnisko paziņojumu** lapā, jūs varat sekot saitēm uz saistītajiem izmaiņu pasūtījumiem vai ražošanas pasūtījumiem, atlasot kolonnu vērtības vai izmantojot saistītās komandas Darbību rūtī. Kad esat beidzis novērtēt izmaiņas un pēc tam, kad esat atcēlis vai modificējis ražošanas pasūtījumus pēc vajadzības, varat atzīmēt paziņojumu kā atrisinātu. Atlasiet paziņojumu un pēc tam Darbības rūtī atlasiet **Atrisināt**. Paziņojums ir noņemts no visu lietotāju skatiem.
+
+> [!IMPORTANT]
+> Lai varētu nosūtīt paziņojumus par ražošanas pasūtījumiem, *jūsu sistēmai ir jāieslēdz inženiertehniskie paziņojumi par ražošanas* līdzekli. Norādījumus par to, kā ieslēgt vai izslēgt šo līdzekli un tā priekšnosacījumus, skatiet rakstā [Inženiertehnisko izmaiņu pārvaldības pārskats](product-engineering-overview.md).
 
 ### <a name="create-a-change-order-from-a-change-request"></a>Izmaiņu pasūtījuma izveide no izmaiņu pieprasījuma
 
@@ -211,5 +217,15 @@ Lielākā daļa tehnisko izmaiņu pasūtījumu lauku ir tādi paši kā izlaisto
 
 Varat izmantot pogu **Uzturēt/kopēt izmaiņu informāciju**, lai kopētu izmaiņu informāciju starp ietekmētajiem produktiem.
 
+## <a name="use-electronic-signatures-to-approve-and-active-boms-and-routes"></a>Elektronisko parakstu izmantošana MK un maršrutu apstiprināšanai un aktivizēšanai
+
+Lai izmantotu elektroniskos parakstus materiālu komplektu (MK) un/vai maršruta izmaiņu apstiprināšanai un/vai aktivizēšanai, dodieties uz **Organizācijas administrēšanas \> iestatīšana Elektroniskā \> paraksta elektroniskā paraksta \> prasības**. Pēc tam pārliecinieties, vai katram no šiem vienumiem paraksts ir **iestatīts** uz *Jā*:
+
+- Aktivizēt tehnisko izmaiņu pasūtījumu preču materiālu komplektu
+- Aktivizēt tehnisko izmaiņu pasūtījumu preču maršrutu
+- Apstiprināt tehnisko izmaiņu pasūtījumu preču materiālu komplektu
+- Apstiprināt tehnisko izmaiņu pasūtījumu preču maršrutu
+- Apstiprināt tehniskās versijas MK un MK versijas
+- Apstiprināt inženiertehnisko versiju un maršruta versiju
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

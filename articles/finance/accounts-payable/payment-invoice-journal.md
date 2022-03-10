@@ -1,6 +1,6 @@
 ---
-title: Piesakiet maksājumu grafiku rēķinu žurnālam
-description: Šajā tēmā ir aprakstīts, kā pievienot maksājumu piegādātāja rēķinu žurnālam.
+title: Maksājumu grafika lietošana rēķinu žurnālā
+description: Šajā tēmā aprakstīts, kā pievienot maksājumu kreditoru rēķinu žurnālam.
 author: sunfzam
 ms.date: 01/31/2022
 ms.topic: article
@@ -15,37 +15,34 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: bd288ac48ef59d8e2a4e0922aa652276dddb666d
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
-ms.translationtype: HT
+ms.openlocfilehash: f6481c3fc033acf4bb563bf1716789216646b60b
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075738"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358343"
 ---
-# <a name="apply-a-payment-schedule-to-the-invoice-journal"></a>Piesakiet maksājumu grafiku rēķinu žurnālam
+# <a name="apply-a-payment-schedule-to-the-invoice-journal"></a>Maksājumu grafika lietošana rēķinu žurnālā
 
 [!include [banner](../includes/preview-banner.md)]
 
-Programmā Microsoft Dynamics 365 Finance laidiens 10.0.25, maksājumu grafiks tagad tiek atbalstīts piegādātāja rēķinu žurnālā.
+Microsoft Dynamics 365 Finance laidienā 10.0.25 maksājumu grafiks tagad tiek atbalstīts **kreditoru rēķinu žurnālā**.
 
-Lai izmantotu šo funkciju, ir jāiespējo **Pielietot maksājumu grafiku rēķinu žurnālam** funkciju pārvaldībā.
+Lai izmantotu šo funkcionalitāti, līdzekļu pārvaldībā ir jāiespējo **līdzeklis Lietot maksājumu grafiku rēķinu žurnālam**.
 
-Kad funkcija ir iespējota, jauna **Maksājumu grafiks** lauks tiek pievienots **Rēķinu žurnāls** lappuse. Kad veidojat rēķina žurnāla rindu, ja maksāšanas noteikumi tiek uzturēti pie piegādātāja un maksājuma noteikumi ir atlasīti maksājumu grafikā, **Maksājumu grafiks** lauks ir atjaunināts **Rēķinu žurnāls** lappuse.
+Kad līdzeklis ir iespējots, rēķinu žurnāla **lapai tiek pievienots** jauns **maksājumu grafika** lauks. Veidojot rēķinu žurnāla rindu, ja kreditoram tiek saglabāti apmaksas nosacījumi un maksājumu grafikā ir atlasīti apmaksas nosacījumi, **lauks Maksājumu grafiks** tiek atjaunināts **lapā Rēķinu žurnāls**.
 
-Varat mainīt izmantoto maksājumu grafiku atbilstoši jūsu uzņēmuma prasībām. Pārdevēja rēķinu žurnāla grāmatošanas laikā saskaņā ar maksājumu grafiku tiks izveidotas piegādātāja atvērtās transakcijas.
+Jūs varat mainīt izmantoto maksājumu grafiku atbilstoši uzņēmuma prasībām. Grāmatojot kreditoru rēķinu žurnālu, kreditoru atvērtās darbības tiks izveidotas saskaņā ar maksājumu grafiku.
 
-Lai pārskatītu vairākus piegādātāju atvērtos darījumus, kas tika ģenerēti no maksājumu grafika, dodieties uz **Kreditori \> Rēķini \> Atvērtie piegādātāja rēķini** un ievadiet rēķina numuru vai piegādātāja kontu.
+ - Lai pārskatītu vairākas kreditora atvērtās darbības, kas ģenerētas no maksājumu grafika, dodieties uz **Kreditoru \> rēķini \> Atvērtie kreditoru rēķini** un ievadiet rēķina numuru vai kreditora kontu.
+ - Lai pārskatītu vai konfigurētu maksājumu grafiku, dodieties uz **Kreditoru maksājumu uzstādījumi \> Maksājumu grafiks \>**.
+ - Lai konfigurētu apmaksas nosacījumus un piešķirtu maksājumu grafiku, dodieties uz **Kreditoru \> maksājumu iestatīšanas \> maksāšanas** noteikumi.
+ - Lai saglabātu kreditora apmaksas nosacījumus, dodieties uz Parādi kreditoriem **\> Visi kreditori**, atlasiet kreditora kontu un pēc tam **cilnē Maksājums** iestatiet **lauku Apmaksas** nosacījumi.
 
-Lai pārskatītu vai konfigurētu maksājumu grafiku, dodieties uz **Kreditori \> Maksājuma iestatīšana \> Maksājumu grafiks**.
-
-Lai konfigurētu maksājumu noteikumus un piešķirtu maksājumu grafiku, dodieties uz **Kreditori \> Maksājuma iestatīšana \> Maksājuma nosacījumi**.
-
-Lai saglabātu pārdevēja maksājumu noteikumus, dodieties uz **Kreditori \> Visi pārdevēji**, atlasiet piegādātāja kontu un pēc tam uz **Maksājums** cilnē iestatiet **Maksājuma nosacījumi** lauks.
-
-Maksājumu grafika funkcija ir pieejama arī **Pārdevēja rēķinu reģistrs** process. Ja rēķinu reģistra žurnālā ir atlasīts maksājumu grafiks, tiks izmantotas vairākas piegādātāja maksājumu rindas **nē** jāģenerē, kad tiek reģistrēts rēķinu reģistrs. Pārdevēja maksājumu rindas tiks ģenerētas, kad tiks apstiprināts rēķins.
+Maksājumu grafika līdzeklis ir pieejams **arī kreditoru rēķinu reģistra** procesā. Ja rēķinu reģistra žurnālā ir atlasīts maksājumu grafiks, grāmatojot rēķinu reģistru, vairākas kreditoru maksājumu rindas **netiks** ģenerētas. Kreditora maksājuma rindas tiks ģenerētas, kad rēķins tiks apstiprināts.
 
 ## <a name="limitation"></a>Ierobežojums
 
-Ja rēķina galvenē ir norādīts neapstiprināta piegādātāja rēķina maksājumu grafiks, ir pieejama papildu lapa, kurā lietotāji var rediģēt maksājumu rindas. (Piemēram, lietotāji var rediģēt katras maksājuma rindas izpildes datumu un vērtību.) Maksājumu rindām, kas tiek ģenerētas no rēķinu žurnāla, būs vērtība no maksājumu grafika.
+Nenolemētam kreditora rēķinam, ja maksājumu grafiks ir rēķina virsrakstā, ir papildu lapa, kas ļauj lietotājiem rediģēt maksājumu rindas. (Piemēram, lietotāji var rediģēt izpildes datumu un vērtību katrai maksājuma rindai.) Maksājumu rindām, kas ģenerētas no rēķinu žurnāla, būs maksājumu grafika vērtība.
 
-Šī funkcionalitāte būs pieejama piegādātāja rēķinu žurnālam un neapstiprinātajiem rēķiniem nākamajā laidienā.
+Šī funkcionalitāte būs pieejama kreditoru rēķinu žurnālam **un** **Gaidošajiem rēķiniem** nākamajā laidienā.

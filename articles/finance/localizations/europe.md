@@ -1,24 +1,23 @@
 ---
 title: Eiropas pārskats
 description: Šajā tēmā ir sniegtas saites uz Eiropai paredzētajiem Microsoft Dynamics 365 Finance dokumentācijas resursiem.
-author: ShylaThompson
-ms.date: 02/24/2021
-ms.topic: article
+author: kfend
+ms.date: 01/15/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
 ms.search.region: global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37017a082c33b83b78569b748e3d266da4f0df3bc03402ff4cf4a53e415d4f2c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 1b7a3dd75f526a076b6fe696f71ec623e20abb24
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750283"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367889"
 ---
 # <a name="europe-overview"></a>Eiropas pārskats
 
@@ -37,13 +36,13 @@ ms.locfileid: "6750283"
 - [Labot rēķina ID pārdošanas pasūtījumos Austrumeiropai](emea-edit-invoice-id-sales-orders.md)
 - [ES ieraksta sertifikāti](emea-entry-certificates.md)
 - [ES pārdošanas saraksta pārskats](emea-eu-sales-list.md)
+  - [Piemērs vispārīgam ES pārdošanas sarakstam](emea-eu-sales-list-example.md)
 - [Valūtas maiņas kursa korekcijas](emea-exchange-rate-adjustments.md)
 - [Faila formāti maksāšanas metodēm](emea-select-file-formats-for-the-method-of-payments.md)
 - [Finanšu (globalizācijas) norādes par Brexit ietekmi](https://businesscenter.mbs.microsoft.com/#contentdetail/GuidanceBrexitImpact)
 - [Finanšu pakalpojumu (ESR) integrācija](emea-fiscal-service-integration.md)
 - [Pamatlīdzekļu norakstīšana Igaunijai un Lietuvai](emea-credit-note-reverse-fixed-asset-sale.md)
 - [Pārsūtīšanas dokumenta ģenerēšana iekšējo krājumu pārsūtīšanai](tasks/transfer-document-internal-inventory-transfer.md)
-- [Ģenerēt ES pārdošanas sarakstu pārskatu](tasks/eur-00011-eu-sales-list-report.md)
 - ISO20022 faili
   - [ISO20022 failu importēšana](emea-ISO20022-file-formats.md)
   - [ISO20022 tiešā debeta konfigurācijas importēšana](tasks/import-iso20022-direct-debit-configuration.md)
@@ -78,7 +77,6 @@ ms.locfileid: "6750283"
 - [SEPA kredīta pārskaitījuma apskats](../accounts-payable/sepa-credit-transfer.md)
 - [SEPA tiešā debeta apskats](../accounts-receivable/sepa-direct-debit-overview.md)
 - [Debitoru un kreditoru atlīdzības iestatīšana](emea-compensation-customer-vendor-transactions.md)
-- [ES pārdošanas saraksta pārskatu iestatīšana](tasks/eur-00011-eu-sales-list-reporting.md)
 - [Maksājuma kvīts formāta iestatīšana projekta rēķiniem](tasks/set-up-payment-slip-format-project-invoices.md)
 - [Iestatīt parakstītājus drukātajām formām](emea-set-up-signers-for-printing-forms.md)
 - [Storno uzskaite](emea-storno.md)
@@ -94,6 +92,8 @@ ms.locfileid: "6750283"
   - [PVN pārskata izveide un iesniegšana](tasks/create-submit-vat-report.md)
   - [Skatīt nosegšanas transakcijas Austrumeiropai](emea-transactions-settlement-form.md)
   - [Nodokļu punkta datums (PVN reģistra datums)](emea-tax-point-date.md)
+  - [Kreditora PVN reģistra datums](emea-date-vendor-VAT-register.md)
+- [Finanšu iemesla līdzekļu paplašinājums](emea-financial-reason.md)
 
 ## <a name="additional-resources"></a>Papildu resursi
 

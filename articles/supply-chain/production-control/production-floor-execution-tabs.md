@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
-ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 4e2b3746e690623e347e0319ab1b55f2645a5e23
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.16
+ms.openlocfilehash: ee206ced76dbdd356c77d34a4b8f197879e9a3f0
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814684"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384776"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>Ražošanas izpildes interfeisa izstrādāšana
 
@@ -32,7 +32,7 @@ Lapā **Ražošanas līmeņa izpildes konfigurēšana** varat izveidot un konfig
 
 Katra cilne ir sadalīta četrās sadaļās, kā parādīts sekojošajā ilustrācijā.
 
-![Cilnes izkārtojums](media/pfe-tab-layout.png "Cilnes izkārtojums")
+![Cilnes izkārtojums.](media/pfe-tab-layout.png "Cilnes izkārtojums")
 
 Attēlā redzami šādi elementi:
 
@@ -47,19 +47,19 @@ Lai izveidotu un konfigurētu jaunu cilni, veiciet tālāk norādītās darbība
 
 1. Darbību rūtī atlasiet **Izveidot cilnes**, lai atvērtu lapu **Izveidot cilnes**.
 
-    ![Izveidot cilnes lapa](media/pfe-design-tabs.png "Izveidot cilnes lapa")
+    ![Izveidot cilnes lapa.](media/pfe-design-tabs.png "Izveidot cilnes lapa")
 
 1. Atlasiet **Jauns** darbību rūtī.
 
 1. Lapas virsrakstā veiciet tālāk norādītos iestatījumus:
 
-    - **Cilnes nosaukums** - norādiet cilnes nosaukumu.
-    - **Galvenais skats** – atlasiet starp diviem iepriekš definētiem darbu sarakstiem (*Aktīvie darbi*, *Visi darbi* vai *Mana iekāŗta*).
-    - **Detalizētas informācijas skats** - izvēlieties starp tukšu vērtību vai **Darba detalizēta informācija**. Ja atlasīsit tukšu vērtību, nebūs detalizēta skatījuma cilnē. Ja izvēlaties **Darba detalizētu informāciju**, detalizētajā skatījumā būs detalizēts darba apraksts, kas atlasīts darbu sarakstā galvenajā skatā.
+    - **Tabulēšanas nosaukums** — norādiet cilnes nosaukumu.
+    - **Galvenais skats** — atlasiet kādu no iepriekš definētajiem darbu sarakstiem (*Aktīvie darbi*, *Visi darbi*, *Mani darbi* un *Mana mašīna*).
+    - **Detalizētas informācijas skats** — atlasiet tukšu vērtību vai **Detalizētu informāciju par** darbu. Ja atlasīsit tukšu vērtību, nebūs detalizēta skatījuma cilnē. Ja izvēlaties **Darba detalizētu informāciju**, detalizētajā skatījumā būs detalizēts darba apraksts, kas atlasīts darbu sarakstā galvenajā skatā.
 
 1. **Primārās rīkjoslas** sadaļā Izvēlieties, kurām pogām jābūt pieejamām primārajā rīkjoslā. Kolonnā **Pieejamās darbības** redzams saraksts ar visām pogām, kuras var pievienot. Kolonnas **Atlasītās darbības** rāda visu to pogu saraksts, kas iekļautas pašreizējā konfigurācijā. Izmantojiet pogas starp kolonnām, lai atlasītos vienumus pārvietotu starp kolonnām pēc nepieciešamības. Izmantojiet pogas augšup un lejup blakus kolonnai **Atlasītās darbībās**, lai kontrolētu secību, kādā pogas tiek rādītas lietotāja interfeisā.
 
-1. **Sekundārās** **rīkjoslas** sadaļā izvēlieties, kurām pogām jābūt pieejamām sekundārajā rīkjoslā. Kolonnā **Pieejamās darbības** redzams saraksts ar visām pogām, kuras var pievienot. Kolonnas **Atlasītās darbības** rāda visu to pogu saraksts, kas iekļautas pašreizējā konfigurācijā. Izmantojiet pogas starp kolonnām, lai atlasītos vienumus pārvietotu starp kolonnām pēc nepieciešamības. Izmantojiet pogas augšup un lejup blakus kolonnai **Atlasītās darbībās**, lai kontrolētu secību, kādā pogas tiek rādītas lietotāja interfeisā.
+1. **Sadaļā Sekundārā rīkjosla** izvēlieties, kurām pogām jābūt pieejamām sekundārajā rīkjoslā. Kolonnā **Pieejamās darbības** redzams saraksts ar visām pogām, kuras var pievienot. Kolonnas **Atlasītās darbības** rāda visu to pogu saraksts, kas iekļautas pašreizējā konfigurācijā. Izmantojiet pogas starp kolonnām, lai atlasītos vienumus pārvietotu starp kolonnām pēc nepieciešamības. Izmantojiet pogas augšup un lejup blakus kolonnai **Atlasītās darbībās**, lai kontrolētu secību, kādā pogas tiek rādītas lietotāja interfeisā.
 
 ## <a name="associate-a-tab-with-a-configuration"></a>Cilnes saistīšana ar konfigurāciju
 
@@ -67,7 +67,7 @@ Pēc tam, kad visas cilnes ir izveidotas, tās var saistīt ar konfigurāciju.
 
 1. Dodieties uz **Ražošanas kontrole \> Iestatījumi \> Ražošanas izpilde \> Konfigurēt ražotnes izpildi**.
 
-    ![Konfigurēt ražošanas līmeņa izpildi](media/pfe-config-prod-floor-execution.png "Konfigurēt ražošanas līmeņa izpildi")
+    ![Konfigurēt ražošanas līmeņa izpildi.](media/pfe-config-prod-floor-execution.png "Konfigurēt ražošanas līmeņa izpildi")
 
 1. Kopsavilkuma cilnē **Cilnes atlase** atlasiet **Pievienot**.
 

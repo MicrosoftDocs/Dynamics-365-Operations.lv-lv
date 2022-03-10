@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: cfba2b8320399cc2eb3f2231e8a172d902633f16
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
-ms.translationtype: HT
+ms.openlocfilehash: 88f1e9ef8c8b2aa494c44ea3b33713adc470eb96
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678863"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384801"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Darba sākšana ar Globālo krājumu uzskaiti
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!--KFM: Preview until 4/30/2022 -->
 
 Globālā krājumu uzskaite ļauj veikt vairāku krājumu uzskaites Globālās krājumu uzskaites virsgrāmatās, kas iestatītas. Katru Globālās krājumu uzskaites virsgrāmatu jāsaista ar *konvenciju*. Konvencija ir šādu uzskaites ierobežojumu tipu apkopojums:
 
@@ -120,7 +121,7 @@ Veiciet šīs darbības, lai iestatītu integrāciju starp Globālo krājumu uzs
 1. Pierakstieties Supply Chain Management.
 1. Dodieties uz **Sistēmas administrēšana \> Līdzekļu pārvaldība**.
 1. Atlasiet **Pārbaudīt atjauninājumus**.
-1. Cilnē **Viss** meklējiet līdzekli ar nosaukumu *Globāla krājumu uzskaite*.
+1. **Cilnē Visi** meklējiet līdzekli ar nosaukumu *(Priekšskatījums) Globālā krājumu uzskaite*.
 1. Atlasiet **Iespējot tagad**.
 1. Dodieties uz sadaļu **Globālā krājumu uzskaite \> Iestatīšana \> Globālās krājumu uzskaites parametri \> Integrācijas parametri**.
 1. Laukos **Datu pakalpojuma galapunkts** un **Globālās krājumu uzskaites galapunkts** ievadiet vietrāžus URL no e-pasta ziņojuma, ko Globālās krājumu uzskaites grupa nosūtīja, kad pierakstījieties priekšskatījumā.

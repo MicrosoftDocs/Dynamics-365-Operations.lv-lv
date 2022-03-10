@@ -1,8 +1,8 @@
 ---
 title: Elektroniskās rēķinu izrakstīšanas pārskats
-description: Šajā tēmā ir sniegta informācija par elektronisko rēķinu izrakstīšanu programmās Microsoft Dynamics 365 Finance un Dynamics 365 Supply Chain Management.
+description: Šajā tēmā sniegts pārskats par elektronisko rēķinu izrakstīšanu sistēmā Microsoft Dynamics 365 Finance un Dynamics 365 Supply Chain Management.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 01/21/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6983abeb4d0fdd1a595a53ea0fd9cd840b24030b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: HT
+ms.openlocfilehash: 23a98706bc2ab0abc2c72e9f20d8e8fbff56b2b9
+ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983862"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8371458"
 ---
 # <a name="electronic-invoicing-overview"></a>Elektroniskās rēķinu izrakstīšanas pārskats
 
 [!include [banner](../includes/banner.md)]
 
-Elektroniskā rēķinu izrakstīšana programmām Microsoft Dynamics 365 Finance un Dynamics 365 Supply Chain Management ir hipermērogojams vairāku nomnieku pakalpojums, kas iespējo elektronisko rēķinu dokumentu un konfigurējamas dokumentu apmaiņas konfigurējamu apstrādi. Apstrādes un integrācijas noteikumi ir pilnībā konfigurējami, un šī loģika darbojas ārpus programmām Finance un Supply Chain Management. Pakalpojums galvenokārt ir paredzēts e-rēķinu apstrādei biznesa-valdības scenārijos, bet to var pielāgot citiem nolūkiem.
+Elektroniskā rēķinu izrakstīšana korporācijai Microsoft Dynamics 365 Finance Dynamics 365 Supply Chain Management un ir hyper-mērogojams vairāklīmeņu pakalpojums, kas iespējo konfigurējamu elektronisko rēķinu apstrādi un konfigurējamu elektronisko dokumentu apmaiņu. Apstrādes un integrācijas noteikumi ir pilnībā konfigurējami, un šī loģika darbojas ārpus programmām Finance un Supply Chain Management. Pakalpojums tiek paredzēts galvenokārt elektronisko rēķinu dokumentu apstrādei "bizness-valdība" scenārijos. Tomēr to var pielāgot citiem nolūkiem, piemēram, "bizness-biznesam" scenāriji dažādiem dokumentu tipiem.
 
 Elektronisko rēķinu izrakstīšana var palīdzēt sasniegt šādus mērķus:
 
@@ -37,80 +37,49 @@ Elektronisko rēķinu izrakstīšana var palīdzēt sasniegt šādus mērķus:
 - Dokumenta vēstures uzlabota izsekojamība
 - Īsāks ieviešanas cikls
 - Samazinātas kopējās īpašumtiesību izmaksas (total cost of ownership - TCO)
-- Viegli pielāgojamas konfigurācijas, kam nav nepieciešamas koda izmaiņas
+- Viegli koriģējamas konfigurācijas, kurām nav nepieciešamas koda izmaiņas
 - Vienkāršots konfigurācijas iepakojums
-- Iebūvēta eksportēšana, importēšana un integrēšana, un vienkārša paplašināšana, apstrādājot e-rēķinu dokumentus
+- Iebūvēts eksporta, importa un integrācijas, un viegli paplašināms elektronisko rēķinu dokumentu apstrādē
 - Vienkārša vienādu eksportēšanas, importēšanas un integrēšanas konfigurāciju izmantošana uzņēmumos
 
-Lai izmantotu elektronisko rēķinu izrakstīšanu, tas ir jāinstalē no jūsu projekta programmā Microsoft Dynamics Lifecycle Services (LCS). Pēc tam sekojiet iestatīšanas procedūrai, lai ieslēgtu integrāciju ar programmu Finance vai Supply Chain Management. Papildinformāciju skatiet sadaļā [Sākt ar elektronisko rēķinu izrakstīšanu](e-invoicing-get-started.md).
+## <a name="service-availability"></a>Pakalpojuma pieejamība
 
-## <a name="service-availability"></a><a name="availability"></a>Pakalpojuma pieejamība
+Šobrīd elektronisko rēķinu izrakstīšanas funkcionalitāte ir pieejama Finanšu un piegādes ķēžu pārvaldības debitoriem. Lai iegūtu vairāk informācijas, pārskatiet licences noteikumus un nosacījumus jūsu programmai.
 
-Pašlaik elektronisko rēķinu izrakstīšana ir pieejama klientiem priekšskatījuma programmas ietvaros, un nākamajā fāzē pakalpojums kļūs vispārīgi pieejams. Tā kā funkcionalitāte, kas attiecas uz valsts/reģiona specifiskām prasībām, var būt ierobežota dažādās laidiena fāzēs, vienmēr pārbaudiet visjaunāko dokumentāciju, kas izceļ atbalstīto valsts/reģiona specifisko risinājumu segumu un darbības jomu.
+Tā kā funkcionalitāte, kas nosaka valstij/reģionam specifiskās prasības, var būt ierobežotas dažādās izlaišanas fāzēs, vienmēr ir jāpārskata visno jauna datuma dokumentācija, kas izceļ atbalstīto valstij/reģionam specifisko risinājumu segumu un darbības jomu.
 
 Elektronisko rēķinu izrakstīšana ir izvietota šādās Azure ģeogrāfijās:
 
 - Amerikas Savienotās Valstis
 - Eiropa
-- Apvienotā Karaliste
 - Āzija
 
 > [!NOTE]
 > Elektronisko rēķinu izrakstīšana neatbalsta lokālas izvietošanas.
 
-## <a name="extended-configurability"></a>Paplašinātā konfigurēšana
-
-Elektronisko rēķinu izrakstīšanu var izmantot scenārijos, kur jāizveido un jānosūta elektronisks dokuments izraudzītajām pusēm. Tā ir īpaši izstrādāta konfigurējamu apstrādes darbību plūsmas vadīšanai, pamatojoties uz saņemtajiem datiem. Finance un Supply Chain Management pieejamās konfigurēšanas opcijas ir ierobežotas ar dokumentu transformāciju. Pakalpojums paplašina šīs opcijas, pievienojot tajā pieejamās konfigurējamas integrācijas. Turklāt visas elektronisko rēķinu funkcionalitātes, kas iepriekš bija pieejamas, piemēram, Brazīlijas Nota fiscal eletrônica (NF-e), Meksikas Comprobante Fiscal Digital por Internet (CFDI) vai citas Rietumeiropas universālās biznesa valodas (Universal Business Language - UBL)/Pan-European Public Procurement OnLine (PEPPOL) funkcionalitātes, izmantos konfigurācijas eksportēšanai un importēšanai, kā arī iespējos integrāciju ar ārējiem tīmekļa pakalpojumiem.
-
 ## <a name="feature-highlights"></a>Līdzekļu iezīmēšana
 
-- Out-of-box integrācija ar Finance un Supply Chain management
-- Saskaņota lietotāja pieredze, lai varētu konfigurēt un pārraudzīt e-rēķinu procesu visās valstīs vai reģionos
+- Izvēles integrācija ar Finanšu un piegādes ķēžu pārvaldību
+- Saskaņota lietotāja pieredze elektronisko rēķinu procesa konfigurācijā un pārraudzībā visām valstīm un reģioniem
 - Ātrāka, vieglāka un lētāka Elektronisko rēķinu izrakstīšanas risinājuma pieņemšana jaunajās valstīs vai reģionos
-- Pakalpojuma konfigurācija, izmantojot regulatīvo konfigurācijas pakalpojumu (Regulatory Configuration Service - RCS) un globalizācijas līdzekļa iestatījumu
-- Biznesa datu pārveide vairākos e-rēķinu formātos (XML, JavaScript Object Notation \[JSON\], TXT un ar komatu atdalītas vērtības \[CSV\]), izmantojot konfigurācijas, kas definētas RCS:
+- Pakalpojuma konfigurācija ar regulēšanas konfigurācijas pakalpojuma (RCS) un globalizācijas funkciju iestatījumu
+- Biznesa datu pārvēršana vairākos elektronisko rēķinu formātos (XML, JavaScript Object Notation \[JSON\], TXT un ar komatu atdalītas vērtības \[CSV\]), izmantojot RCS noteiktās konfigurācijas:
 
-    - Elektronisko pārskatu formāti, kas ir pieejami valstīm vai reģioniem, kur nav pieejamas konfigurēšana e-rēķina pārveidei
+    - Elektronisko pārskatu (ER) formāti, kas ir pieejami valstīm un reģioniem, kur elektroniskās rēķinu pārveidošanas konfigurējamība nav pieejama
 
-- Konfigurējama e-rēķinu iesniegšana ārējiem tīmekļa pakalpojumiem, ieskaitot sertifikāciju, izmantojot elektroniskos parakstus:
+- Konfigurējama elektronisko rēķinu iesniegšana ārējiem Web pakalpojumiem, tostarp sertifikācijas apstrāde ar ciparparakstu palīdzību:
 
-    - Iebūvēta, viegli pagarināma un konfigurējama integrācija ar papildu saturu vairākām valstīm
+    - Iebūvēta, viegli paplašināta un konfigurējama integrācija ar papildu saturu vairākām valstīm un reģioniem
 
-    > [!NOTE]
-    > Pašlaik tiek atbalstīts ierobežots tiešo iesniegumu skaits. Papildinformāciju skatiet sadaļā [Pakalpojuma pieejamība](#availability) iepriekš šajā tēmā. Nākotnē atbalsts tiks paplašināts.
-
-- Atbilžu apstrāde no tīmekļa pakalpojumiem, ieskaitot konfigurējamu izņēmuma ziņojumu apstrādi
-- Elektronisko parakstu atbalsts (piemēram, izmantojot XMLDSig parakstīšanas algoritmu)
-- E-rēķina ziņojumu pakešveida apstrāde
-
-## <a name="architecture-and-data-flow"></a>Arhitektūra un datu plūsma
-
-Kad elektronisko rēķinu izrakstīšana ir instalēta no LCS un pieprasītā iestatīšana ir pabeigta visās nepieciešamajās lietojumprogrammās, tiek izveidots drošs savienojums. Pakalpojums šobrīd atrodas datu centros Amerikas Savienotajās Valstīs un Eiropā. Tāpēc pakalpojuma atrašanās vieta var atšķirties no saistīto Finance vai Supply Chain Management instances atrašanās vietas. Pēc elektronisko rēķinu izrakstīšanas iestatīšanas un integrācijas ieslēgšanas, kad elektroniskais rēķins tiek nosūtīts, pamatdati un transakciju dati, kas ir saistīti ar noteiktu dokumentu, tiek nosūtīti elektronisko rēķinu izrakstīšanai.
-
-> [!NOTE]
-> Ja elektroniskajā rēķinā vai citos dokumentos ir ietverti personiskie dati, pārbaudiet, vai šīs funkcijas izmantošana atbilst vispārīgajai datu aizsardzības regulai (General Data Protection Regulation - GDPR) un citiem noteikumiem, kas ir saistīti ar personisko datu pārsūtīšanu.
-
-### <a name="high-level-description-of-the-data-flow"></a>Datu plūsmas augsta līmeņa apraksts
-
-1. Klients nosūta uzņēmumam kanonisko biznesa dokumentu.
-2. Balstoties uz konteksta informāciju, kas tiek saņemta no klienta, pakalpojums atlasa piemērojamo apstrādes plūsmu.
-3. Pakalpojums izpilda apstrādes darbības. Šīs darbības var ietvert biznesa dokumenta pārveidošanu elektroniskā rēķinā, elektroniskā paraksta piemērošanu un dokumenta iesniegšanu ārējam tīmekļa pakalpojumam.
-4. Visi saņemtie un apstrādātie dokumenti tiek glabāti klienta Azure BLOB krātuvē.
-5. Visi nomnieka noslēpumi un sertifikāti, kas tika izmantoti apstrādei, tiek saglabāti klienta Azure galvēnajā glabātuvē.
-6. Pakalpojums pēc pieprasījuma sniedz klientam informāciju par nosūtītā biznesa dokumenta apstrādes statusu.
-7. Klients saņem informāciju par pabeigto apstrādes izpildi un padara visu žurnāla informāciju pieejamu. Tas arī padara pieejamu dokumentu, kas tika izveidots vai saņemts plūsmas apstrādes laikā.
-
-Sekojošajā attēlā ir parādīts, kā dati plūst no elektronisko rēķinu izrakstīšanas un uz to.
-
-![Elektronisko rēķinu izrakstīšanas datu plūsma.](media/e-invoicing-service-data-flow-diagram-overview.png)
+- Atbilžu apstrāde no Web pakalpojumiem, tostarp konfigurējama izņēmuma ziņojumu apstrāde
+- Elektronisko parakstu atbalsts (piemēram, elektroniskie paraksti, kas izmanto XMLDSig parakstīšanas algoritmu)
+- Iespēja sūtīt dokumentus uz e-pasta ziņojumiem un saglabāt tos programmā SharePoint
+- Elektronisko rēķinu ziņojumu pakešveida apstrāde
+- Konfigurējama ienākošo dokumentu pārvēršana un šo dokumentu apstrāde Finanšu un piegādes ķēžu pārvaldībā
+- Iespēja saņemt ienākošos dokumentus no kanāliem, piemēram, e-pasta un SharePoint
 
 ## <a name="privacy-notice"></a>Paziņojums par konfidencialitāti
-Iespējojot un izmantojot elektronisko rēķinu izrakstīšanu, var būt nepieciešams nosūtīt ierobežotus datus, kas ietver organizācijas nodokļa reģistrācijas ID. Tas tiks nosūtīts trešo personu aģentūrām, ko pilnvarojusi nodokļu iestādes, lai nosūtītu elektroniskos rēķinus šai nodokļu iestādei iepriekš noteiktos formātos, kas nepieciešams integrācijai ar valdības tīmekļa pakalpojumiem. No šīm ārējām sistēmām importētie dati šajā Dynamics 365 tiešsaistes pakalpojumā ir pakļauti mūsu [paziņojumam par privātumu](https://go.microsoft.com/fwlink/?LinkId=512132). Lai iegūtu plašāku informāciju, skatiet sadaļas Konfidencialitātes paziņojums valstij raksturīgā līdzekļa dokumentācijā.
 
-## <a name="additional-resources"></a>Papildu resursi
-- [Pakalpojuma administrēšana](e-invoicing-service-administration.md)
-- [Konfigurēt elektroniskos rēķinus pakalpojumā RCS](e-invoicing-configuration-rcs.md)
-- [Elektronisko rēķinu izdošana programmās Finance un Supply Chain Management](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)
-
+Elektronisko rēķinu piesūtīšanas iespējošanai un izmantošanai var būt nepieciešams, lai sūtītu ierobežotus datus. Šie dati ietver organizācijas nodokļu reģistrācijas ID. Šie dati tiks pārsūtīti trešās personas iestādēm, ko nodokļu iestādes ir autorizētas, lai nosūtītu elektroniskos rēķinus iepriekš definētos formātos, kas nepieciešami integrācijai ar valdības tīmekļa pakalpojumiem. Uz datiem, kas no šīm ārējām sistēmām tiek importēti šajā Dynamics 365 tiešsaistes pakalpojumā, attiecas mūsu paziņojums par [konfidencialitāti](https://go.microsoft.com/fwlink/?LinkId=512132). Papildinformāciju skatiet sadaļā "Paziņojums par konfidencialitāti", kas atrodas funkcionalitātes dokumentācijā, kas attiecas uz valsti/reģionu.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

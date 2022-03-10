@@ -2,7 +2,7 @@
 title: ER funkciju saraksts teksta kategorijā
 description: Šajā tēmā ir sniegta informācija par teksta funkcijām, kas tiek atbalstītas elektronisko atskaišu veidošanā (ER).
 author: NickSelin
-ms.date: 09/09/2021
+ms.date: 02/28/2022
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b69b16e4a40b5370c3a73f2aee40a8a86b952d9e
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
-ms.translationtype: HT
+ms.openlocfilehash: 5d185c128de1120e93d1779db04a7666ba557707
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647564"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367771"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>ER funkciju saraksts teksta kategorijā
 
@@ -35,6 +35,7 @@ Elektronisko pārskatu (ER) teksta funkcijas var izmantot, lai izgūtu informāc
 | [Savienot](er-functions-text-concatenate.md) | Šī funkcija atgriež visas norādītās teksta virknes kā *Virknes* vērtību pēc tam, kad tās ir apvienotas vienā virknē. |
 | [Formāts](er-functions-text-format.md) | Šī funkcija atgriež norādīto virkni kā *Virknes* vērtību, kas ir formatēta, aizstājot argumentu **%N** ar argumentu *N*. |
 | [GetEnumValueByName](er-functions-text-getenumvaluebyname.md) | Šī funkcija meklē konkrētu *Enum* vērtību norādītajā uzskaitījuma datu avotā, izmantojot uzskaitījuma nosaukumu, kas ir norādīts kā *Virknes* vērtība. Ja tiek tiek atrasta *Enum* vērtība, funkcija to atgriež. |
+| [GetLabelText](er-functions-text-getlabeltext.md) | Šī funkcija meklē noteiktu iezīmi, lai atgrieztu *[Virknes](er-formula-supported-data-types-primitive.md#string)* vērtību, kas attēlo norādītās iezīmes tulkojumu norādītajā valodā. |
 | [GuidValue](er-functions-text-guidvalue.md) | Šī funkcija konvertē norādīto *Virknes* veidu uz datu elementu ar datu veidu *GUID*. |
 | [JsonValue](er-functions-text-jsonvalue.md) | Šī funkcija parsē datus formātā JavaScript Object Notation (JSON), kuriem piekļūst pa norādīto ceļu un izgūst skalāru vērtību, kas ir balstīta uz norādīto ID. Pēc tam tā atgriež izvērsto skalāro vērtību kā *Virknes* vērtību. |
 | [Pa kreisi](er-functions-text-left.md) | Šī funkcija atgriež *Virknes* vērtību, kas norāda norādītu zīmju skaitu no norādītās virknes sākuma. |
@@ -50,7 +51,7 @@ Elektronisko pārskatu (ER) teksta funkcijas var izmantot, lai izgūtu informāc
 | [Pa labi](er-functions-text-right.md) | Šī funkcija atgriež *Virknes* vērtību, kas norāda norādītu zīmju skaitu no norādītās virknes beigām. |
 | [Teksts](er-functions-text-text.md) | Šī funkcija atgriež norādīto skaitli kā *Virknes* vērtību pēc tam, kad tā ir pārveidota par teksta virkni, kura ir formatēta atbilstoši pašreizējās programmas instances servera lokalizācijas iestatījumiem. |
 | [Tulkot](er-functions-text-translate.md) | Šī funkcija atgriež *Virknes* vērtību, kas satur noteiktā teksta aizstāšanas rezultātu ar rakstzīmēm citai sniegtai rakstzīmju kopai. |
-| [Trim](er-functions-text-trim.md) | Šī funkcija atgriež norādīto teksta virkni kā *Virknes* vērtību, kam ir aprautas sākuma un beigu atstarpes un noņemtas vairākas atstarpes starp vārdiem. |
+| [Trim](er-functions-text-trim.md) | Šī funkcija atgriež norādīto teksta virkni kā Virknes vērtību pēc cilnes, atgriešanas klienti, rindu padeve un formas padeves rakstzīmes ir aizvietotas ar vienu atstarpi pēc atstarpju sākuma un pēdējās apciršanas, un pēc vairāku atstarpju izņemšanas *starp* vārdiem. |
 | [Upper](er-functions-text-upper.md) | Šī funkcija atgriež norādīto teksta virkni kā *Virknes* vērtību pēc tam, kad tā ir konvertēta lielajos burtos. |
 
 ## <a name="additional-resources"></a>Papildu resursi

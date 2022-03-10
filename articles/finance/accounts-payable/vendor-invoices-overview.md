@@ -2,33 +2,35 @@
 title: Kreditoru rēķinu pārskats
 description: Šajā tēmā ir sniegta vispārīga informācija par kreditoru rēķiniem.
 author: abruer
-manager: AnnBe
-ms.date: 12/18/2019
-ms.topic: article
+ms.date: 02/25/2022
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendorInvoiceWorkspace, VendInvoiceInfoListPage
 audience: Application User
-ms.reviewer: roschlom
-ms.custom: 13971
+ms.reviewer: twheeloc
+ms.custom:
+- "13971"
+- intro-internal
 ms.assetid: 0ec4dbc0-2eeb-423b-8592-4b5d37e559d3
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0299eb3470f500bf469c3367f1c426715067a5dc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: b54a60ac3b1868ea7cc5ed88d5a31203b4bd29d3
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993320"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358445"
 ---
 # <a name="vendor-invoices-overview"></a>Kreditoru rēķinu pārskats
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-Šajā tēmā ir sniegta vispārīga informācija par kreditoru rēķiniem. Kreditoru rēķini ir maksājuma pieprasījumi par saņemtajām precēm un pakalpojumiem. Kreditoru rēķini var būt rēķini par notiekošiem pakalpojumiem, vai to pamatā var būt pirkšanas pasūtījumi par noteiktiem krājumiem un pakalpojumiem.
+
+Šajā tēmā ir sniegta vispārīga informācija par kreditoru rēķiniem. Kreditoru rēķini ir maksājuma pieprasījumi par precēm un pakalpojumiem. Kreditoru rēķini var būt rēķini par notiekošiem pakalpojumiem, vai to pamatā var būt pirkšanas pasūtījumi par noteiktiem krājumiem un pakalpojumiem.
 
 ## <a name="vendor-invoices"></a>Kreditora rēķini
 
@@ -49,10 +51,10 @@ Nākamajā diskusijā ir sniegts vairāk informācijas par to, kā lietot lapu *
 
 Kad kādu kreditora rēķinu atverat no saistīta pirkšanas pasūtījuma, sistēma no šī pirkšanas pasūtījuma izveido rēķina rindas. Pēc noklusējuma sistēma ņem daudzumus no produktu ieejas plūsmas. Taču varat izmantot jebkuru no šādām noklusējuma uzvedībām:
 
-- **Tagad saņemamais daudzums** — izmantojiet šo opciju daļējiem sūtījumiem. Lauka **Daudzums** noklusējuma vērtību sistēma iestata no daudzuma, kas norādīts pirkšanas pasūtījuma laukā **Saņemt tagad**.
-- **Pasūtītais daudzums** — izmantojiet šo opciju pilnīgiem sūtījumiem. Lauka **Daudzums** noklusējuma vērtību sistēma iestata no daudzuma, kas norādīts pirkšanas pasūtījuma laukā **Pasūtīts**.
+- **Tagad saņemamais daudzums** — izmantojiet šo opciju daļējiem sūtījumiem. Noklusējuma vērtība laukā **Daudzums** tiks iestatīta uz daudzumu, kas norādīts pirkšanas **pasūtījuma** laukā Saņemt tagad.
+- **Pasūtītais daudzums** — izmantojiet šo opciju pilnīgiem sūtījumiem. Noklusētā vērtība laukā **Daudzums** tiks iestatīta uz daudzumu, kas norādīts pirkšanas **pasūtījuma** laukā Pasūtīts.
 - **Reģistrētais daudzums** — izmantojiet šo opciju, ja krājumam ir nepieciešama reģistrācija, kā norādīts lapā **Krājumu modeļu grupas**. Lauka **Daudzums** noklusējuma vērtība ir reģistrētais fiziskais atjaunināšanas daudzums.
-- **Produktu ieejas plūsmas daudzums** — izmantojiet šo opciju, ja pasūtījumam jau ir saņemta produktu ieejas plūsma. Lauka **Daudzums** noklusējuma vērtību sistēma ņem no pieejamo produktu ieejas plūsmu kopējā daudzuma.
+- **Produktu ieejas plūsmas daudzums** — izmantojiet šo opciju, ja pasūtījumam jau ir saņemta produktu ieejas plūsma. Noklusējuma vērtība laukā **Daudzums** ir pieejamo produktu ieejas plūsmu kopējais daudzums.
 - **Reģistrētais daudzums un pakalpojumi** — izmantojiet šo opciju, ja daudzumi ir reģistrēti saņemšanas žurnālos attiecībā uz uzkrātajiem krājumiem vai krājumiem, kas nav uzkrāti. Šajā opcijā ir ietverti arī pakalpojumi neatkarīgi no tā, vai tie ir reģistrēti.
 
 Ja jūsu juridiskā persona izmanto rēķinu salīdzināšanu, tad daudzumu salīdzināšanas rezultātus varat skatīt kolonnā **Produktu ieejas plūsmas daudzuma atbilstība**. Lai apskatītu daudzumu salīdzināšanas rezultātus, varat izmantot arī pogu **Detalizēta informācija par atbilstību** darbību rūts cilnē **Pārskatīt**.
@@ -63,17 +65,16 @@ Varat pievienot kreditora rēķinam rindu, kas netika iekļauta pirkšanas pasū
 
 ## <a name="submitting-a-vendor-invoice-for-review"></a>Kreditora rēķina iesniegšana pārskatīšanai
 
-Lai pārvaldītu kreditoru rēķinu pārskatīšanas procesu, organizācijā var tikt izmantotas darbplūsmas. Pārskatīšanu darbplūsmā var pieprasīt rēķina virsrakstam, rēķina rindai vai abiem vienumiem. Darbplūsmas vadīklas tiek piemērotas virsrakstam vai rindai atkarībā no tā, kurš apgabals bija fokusā, kad atlasījāt vadīklu. Pogas **Grāmatot** vietā ir redzama poga **Iesniegt**, lai kreditora rēķinu sūtītu caur pārskatīšanas procesu.
+Lai pārvaldītu kreditoru rēķinu pārskatīšanas procesu, organizācijā var tikt izmantotas darbplūsmas. Pārskatīšanu darbplūsmā var pieprasīt rēķina virsrakstam, rēķina rindai vai abiem vienumiem. Darbplūsmas vadīklas tiek piemērotas virsrakstam vai rindai atkarībā no tā, kurš apgabals bija fokusā, kad atlasījāt vadīklu. Tā vietā, **lai** pogu Grāmatot **, poga Iesniegt**, izmantojot pārskatīšanas procesu, sūta kreditora rēķinu.
 
 ### <a name="preventing-invoice-from-being-submitted-to-workflow"></a>Novērst rēķina iesniegšanu darbplūsmā 
 
 Tālāk ir sniegti vairāki veidi, kā var novērst rēķina iesniegšanu darbplūsmā.
 
 - **Rēķina kopsumma un reģistrētā kopsumma nav vienādas.** Persona, kas iesniedza rēķinu, saņems brīdinājumu, ka kopsummas nav vienādas. Brīdinājums sniedz iespēju labot bilances pirms rēķina atkārtotas iesniegšanas darbplūsmā. Šis līdzeklis ir pieejams, ja ir ieslēgta opcija **Aizliegt iesniegšanu darbplūsmā, ja rēķina kopsumma un reģistrētā rēķina kopsumma nav vienādas** lapā **Līdzekļu pārvaldība**. 
-
 - **Rēķinā ir nepiešķirtas izmaksas.** Persona, kas iesniedza rēķinu, saņems brīdinājumu, ka rēķinā ir nepiešķirtas izmaksas, tāpēc ir iespējams labot bilances, pirms atkārtoti iesniedzat rēķinu darbplūsmai. Šis līdzeklis ir pieejams, ja ir ieslēgta opcija **Aizliegt iesniegšanu darbplūsmā, ja kreditora rēķinā nepiešķirtas izmaksas** lapā **Līdzekļu pārvaldība**.
-
-- **Rēķinā ir tāds pats rēķina numurs kā citam iegrāmatotam rēķinam.** Persona, kas iesniedza rēķinu, saņems brīdinājumu, ka tika atrasts rēķins ar numura dublikātu, tāpēc to ir iespējams labot, pirms atkārtoti iesniedzat rēķinu darbplūsmai. Šis brīdinājums tiks parādīts, kad parametrs ar nosaukumu **Pārbaudiet izmantoto rēķina numuru** Kreditoros ir iestatīts uz **Noraidīt dublikātu**. Šis līdzeklis ir pieejams, ja parametrs **Aizliegt iesniegšanu darbplūsmā, ja rēķina numurs jau pastāv izliktā rēķinā, un jūsu sistēma nav iestatīta pieņemt rēķinu dublikātu numurus** ir ieslēgts lapā **Līdzekļu pārvaldība**.  
+- **Rēķinā ir tāds pats rēķina numurs kā citam iegrāmatotam rēķinam.** Persona, kas iesniedza rēķinu, saņems ziņojumu, kurā norādīts, ka ir atrasts rēķins ar dublētu numuru. Numura dublikātu var labot pirms rēķina atkārtotas iesūtīšanas darbplūsmā. Šis brīdinājums tiks parādīts, kad parametrs ar nosaukumu **Pārbaudiet izmantoto rēķina numuru** Kreditoros ir iestatīts uz **Noraidīt dublikātu**. Šis līdzeklis ir pieejams, ja parametrs **Aizliegt iesniegšanu darbplūsmā, ja rēķina numurs jau pastāv izliktā rēķinā, un jūsu sistēma nav iestatīta pieņemt rēķinu dublikātu numurus** ir ieslēgts lapā **Līdzekļu pārvaldība**.
+- **Rēķinā ir rinda, kurā rēķina daudzums ir mazāks par saskaņoto preču ieejas plūsmas daudzumu.** Persona, kas iesniedz rēķinu vai mēģina grāmatot, saņems ziņojumu, ka daudzumi nav vienādi. Šī ziņa sniedz iespēju labot vērtības pirms rēķina atkārtotas iesniegšanas darbplūsmā. Šis līdzeklis ir pieejams, ja lapā **Līdzekļu pārvaldība** ir ieslēgts parametrs **Bloķēt grāmatošanu un kreditora rēķinu iesniegšanu darbplūsmai** un ja lapā **Kreditoru parametri** ir ieslēgts parametrs **Bloķēt grāmatošanu un iesniegšanu darbplūsmai**.
 
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Kreditoru rēķinu salīdzināšana ar produktu ieejas plūsmām
 
@@ -101,7 +102,7 @@ Varat norādīt rēķinu numuru, ko iekļaut partijā, un stundu skaitu, kas jā
 
 ## <a name="working-with-multiple-invoices"></a>Darbs ar vairākiem rēķiniem
 
-Jūs varat vienlaikus strādāt ar vairākiem rēķiniem un grāmatot tos visus vienlaicīgi. Ja ir jāizveido vairāki rēķini, izmantojiet lapu **Gaidošie kreditoru rēķini**. Ja ir nepieciešams grāmatot un drukāt vairākus kreditoru rēķinus, izmantojiet rēķinu apstiprināšanas žurnālu. Ja lietojat rēķinu apstiprināšanas žurnālu, pirkšanas pasūtījumam ir jābūt grāmatotai vismaz vienai produktu ieejas plūsmai, un rēķinam par pirkšanas pasūtījumu ir jābūt grāmatotam rēķinu reģistrā. Rēķina finanšu informācija tiek ņemta no rēķina, kas ir grāmatots reģistrā.
+Jūs varat vienlaikus strādāt ar vairākiem rēķiniem un grāmatot tos visus vienlaicīgi. Ja ir jāizveido vairāki rēķini, izmantojiet lapu **Gaidošie kreditoru rēķini**. Ja jāgrāmato un jādrukā vairāki kreditoru rēķini, izmantojiet rēķinu **apstiprināšanas žurnālu**. Ja izmantojat rēķinu **apstiprināšanas** žurnālu, pirkšanas pasūtījumam ir jāiegrāmato vismaz viena produktu ieejas plūsma, un pirkšanas pasūtījuma rēķins ir jāiegrāmato rēķinu reģistrā. Rēķina finanšu informācija tiek ņemta no rēķina, kas ir grāmatots reģistrā.
 
 ## <a name="recovering-vendor-invoices-that-are-being-used"></a>Lietošanā esošu kreditoru rēķinu atkopšana
 
@@ -115,12 +116,35 @@ Lapai **Atkopt kreditoru rēķinus** varat piekļūt tikai tad, ja jums ir pieš
 
 Darbplūsmas instancei, kas apturēta, jo radās neatkopjama kļūda, būs darbplūsmas statuss **Neatkopjama**. Ja kreditora rēķina darbplūsmas statuss ir **Neatkopjama**, varat atiestatīt to uz **Melnraksts**, atlasot **Atsaukt**. Pēc tam varat rediģēt kreditora rēķinu. Šī funkcija ir pieejama, ja ir ieslēgts parametrs **Atiestatīt darbplūsmas statusu kreditora rēķiniem no “Neatkopjama” uz “Melnraksts”** lapā **Līdzekļu pārvaldība**.
 
-Varat izmantot lapu **Darbplūsmas vēsture**, lai atiestatītu darbplūsmas statusu uz  **Melnraksts**. Varat atvērt šo lapu no **Kreditora rēķins** vai no navigācijas **Kopīgi > Vaicājumi > Darbplūsma** . Lai atiestatītu darbplūsmas statusu uz **Melnraksts**, atlasiet **Atsaukt**. Varat arī atiestatīt darbplūsmas statusu uz Melnraksts, atlasot darbību **Atsaukt** lapā **Kreditora rēķins** vai **Gaidošie kreditoru rēķini**. Kad darbplūsmas statuss tiek atiestatīts uz **Melnraksts**, tas kļūst pieejams labošanai lapā **Kreditora rēķins**.
+Varat izmantot lapu **Darbplūsmas vēsture**, lai atiestatītu darbplūsmas statusu uz **Melnraksts**. Varat atvērt šo lapu no **Kreditora rēķins** vai no navigācijas **Kopīgi > Vaicājumi > Darbplūsma**. Lai atiestatītu darbplūsmas statusu uz **Melnraksts**, atlasiet **Atsaukt**. Varat arī atiestatīt darbplūsmas statusu uz Melnraksts, atlasot darbību **Atsaukt** lapā **Kreditora rēķins** vai **Gaidošie kreditoru rēķini**. Kad darbplūsmas statuss tiek atiestatīts uz **Melnraksts**, tas kļūst pieejams labošanai lapā **Kreditora rēķins**.
 
 ## <a name="viewing-the-invoice-total-on-the-pending-vendor-invoices-page"></a>Rēķina kopsummas skatīšana lapā Gaidošie kreditoru rēķini
+
 Varat skatīt rēķina kopsummu lapā **Gaidošie kreditoru rēķini**, iespējojot parametru **Parādīt rēķina kopsummu gaidošo kreditoru rēķinu sarakstā** lapā **Kreditoru parametri**. 
 
+## <a name="vendor-open-transactions-report"></a>Kreditoru atvērto darījumu pārskats
 
+Pārskats **Atvērtās kreditora darbības** sniedz detalizētu informāciju par katra kreditora atvērtajām darbībām jūsu norādītajā datumā. Šo pārskatu bieži izmanto audita procedūras laikā, lai pārbaudītu bilances starp kreditoru grāmatas darbībām un Virsgrāmatas konta darbībām.
+
+Katrai darbībai pārskats ietver sekojošo detalizēto informāciju:
+
+- Rēķina numurs
+- Darījuma datums
+- Dokumenta numurs
+- Darījuma summa darījuma valūtā un uzskaites valūtā
+- Kredīta atlikums darījuma valūtā un uzskaites valūtā
+- Debeta atlikums darījuma valūtā un uzskaites valūtā
+- Starpsumma uzskaites valūtā
+- Maksājuma izpildes termiņš
+
+### <a name="filter-the-data-on-the-report"></a>Filtrēt pārskatā parādītos datus
+
+Veidojot pārskatu **Kreditora atvērtās darbības**, ir pieejami tālāk norādītie noklusējuma parametri. Izmantojot tos, varat filtrēt pārskatā ietveramos datus.
+
+- **Izslēgt turpmāko segšanu** – atzīmējiet šo izvēles rūtiņu, lai izslēgtu darbības, kas nosegtas pēc datuma, kas ievadīts laukā **Atvērtās darbības pa**.
+- **Atvērtās darbības pa** – ievadiet datumu, lai iekļautu darbības, kas ir atvērtas no šī datuma. Ja datums nav ievadīts, šis lauks ir iestatīts uz maksimālo datumu. (Maksimālais datums ir vēlākais datums, kuru sistēma akceptēs, 2154. gada 31. decembris) Pēc noklusējuma nākamajā pārskata izpildes reizē šis lauks tiks iestatīts kā pēdējais datums, kas tajā ievadīts.
+
+Varat izmantot filtrus laukā **Ieraksti, kurus iekļaut** tālākai darbību datu ierobežošanai, kas tiek iekļauti pārskatā.
 
 ## <a name="additional-resources"></a>Papildu resursi
 
@@ -129,3 +153,6 @@ Varat skatīt rēķina kopsummu lapā **Gaidošie kreditoru rēķini**, iespējo
 - [Rēķinu datu ievade kreditoru modulī, izmantojot apstiprināšanas žurnālu](tasks/key-invoice-data-into-ap-system-approval-journal.md)
 - [Rēķinu datu ievade kreditoru sistēmā, izmantojot rēķinu kopu](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
 - [Kreditora rēķina reģistrēšana rēķinu žurnālā](tasks/record-vendor-invoice-invoice-journal.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

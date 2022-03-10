@@ -1,8 +1,8 @@
 ---
 title: Virsgrāmatas žurnāla apstrāde
 description: Šajā tēmā ir aprakstītas programmā Microsoft Dynamics 365 Finance pieejamās iespējas, kas var palīdzēt atvieglot Virsgrāmatas žurnāla apstrādi, kā arī palīdzēt nodrošināt, ka tiek iegūti pareizie dati un netiek pārkāpti iekšējās kontroles kritēriji.
-author: ShylaThompson
-ms.date: 08/09/2019
+author: kweekley
+ms.date: 02/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 59dda2207f002402f5153f9c77206b6c644f2679
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: 7096d8576cf124e5e1d814c360d96639f66a742a
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6352862"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367884"
 ---
 # <a name="general-journal-processing"></a>Virsgrāmatas žurnāla apstrāde
 
@@ -101,7 +101,7 @@ Poga ir pieejama žurnāla lapā, lai atbloķētu žurnālu, kam ir statuss "sis
 Spēja atsaukt žurnālu darbplūsmā, kurai ir statuss "neatkopjama" ir iespējots, izmantojot **Darbplūsma** pogu žurnālā un **Darbplūsmas vēsture** lapā. To iespējo līdzeklis ar nosaukumu **Darbplūsmas statusa atiestatīšana žurnāliem** lapā **Līdzekļa pārvaldība** .
 
 ## <a name="delete-journal-lines"></a>Dzēst Žurnāla rindas
-Iespēja ātri dzēst visas žurnāla rindas ir iespējota žurnālā ar **Funkcijas** > **Dzēst žurnāla rindas.** Lai iespējotu šo līdzekli, **Līzekļa pārvaldība** atlasiet **Dzēst žurnāla veiktspējas optimizācijas** .
+Iespēja ātri dzēst visas žurnāla rindas ir iespējota žurnālā ar **Funkcijas** > **Dzēst žurnāla rindas.** Lai iespējotu šo līdzekli, **Līzekļa pārvaldība** atlasiet **Dzēst žurnāla veiktspējas optimizācijas** . Šī funkcija ietekmē paplašinājumus tabulā LedgerJournalTrans **un to dzēšanas metodi, jo rindu kopa tiek noņemta, neizsaucot** **katras rindas dzēšanas** **metodi.** 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

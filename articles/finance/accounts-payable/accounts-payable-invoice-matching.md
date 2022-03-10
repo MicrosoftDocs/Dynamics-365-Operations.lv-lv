@@ -3,12 +3,12 @@ title: Kreditoru rēķinu salīdzināšanas pārskats
 description: Parādu kreditoriem rēķinu salīdzināšana ir kreditoru rēķinu, pirkšanas pasūtījumu un produktu ieejas plūsmu informācijas salīdzināšanas process.
 author: sunfzam
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "27361"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: befc9b9ef3dcd5545ff3f252a706cab546165cb0
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
-ms.translationtype: HT
+ms.openlocfilehash: 2959df58dbde71ba516c1a230e64d38b885c23f5
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595069"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358268"
 ---
 # <a name="accounts-payable-invoice-matching-overview"></a>Kreditoru rēķinu salīdzināšanas pārskats
 
@@ -36,24 +36,24 @@ Piemēram, jūs ievadāt pirkšanas pasūtījumu ar vienu rindas krājumu ar 100
 
 Rēķins tiek saņemts par 1000 baterijām, kur katras vienības cena ir 1,10. Jūsu juridiskās personas politika šai krājuma kategorijai atļauj 5 procentu neto vienības cenas toleranci. Cena 1,05 ir pieņemama, bet 1,10 — nav. Kad ievadāt informāciju par rēķinu, tiek identificēts, ka pastāv cenu salīdzināšanas neatbilstība, un jūs varat saglabāt rēķinu, līdz neatbilstība ir atrisināta.
 
-Kreditoru rēķinu salīdzināšanai varat lietot šādus tipus:
+Var izmantot šādus kreditoru rēķinu salīdzināšanas **tipus**:
 
--   Rēķina kopsummas salīdzināšana — rēķina kopsummas salīdzināt ar kopsummām pirkšanas pasūtījumā. Šis rēķinu salīdzināšanas veids ietver vismazāko detalizētību, tāpēc šo opciju varat izmantot, lai iestatītu kontroles, kas samazina laiku, kurš darbiniekiem ir nepieciešams, lai pārskatītu rēķinu salīdzināšanas informāciju.
--   Divvirzienu salīdzināšana — cenas informāciju rēķinā salīdzzina ar cenas informāciju pirkšanas pasūtījumā.
--   Trīsvirzienu salīdzināšana — cenas informāciju rēķinā salīdzina ar cenas informāciju pirkšanas pasūtījumā. Turklāt arī salīdzina daudzuma informāciju rēķinā ar daudzuma informāciju produktu ieejas plūsmās, kas ir atlasītas šim rēķinam.
--   Maksu salīdzināšana — maksu informāciju (summas) rēķinā salīdzina ar maksu informāciju (summām) pirkšanas pasūtījumā.
+-   **Rēķina kopsummu salīdzināšana** — rēķina kopsummas salīdzināt ar kopsummām pirkšanas pasūtījumā. Šis rēķinu salīdzināšanas veids ietver vismazāko detalizētību, tāpēc šo opciju varat izmantot, lai iestatītu kontroles, kas samazina laiku, kurš darbiniekiem ir nepieciešams, lai pārskatītu rēķinu salīdzināšanas informāciju.
+-   **Divvirzienu salīdzināšana** — saskaņojiet rēķinā norādīto cenu informāciju ar cenu informāciju pirkšanas pasūtījumā.
+-   **Trīsvirzienu salīdzināšana** — saskaņojiet rēķinā norādīto cenu informāciju ar pirkšanas pasūtījuma cenu informāciju. Turklāt arī salīdzina daudzuma informāciju rēķinā ar daudzuma informāciju produktu ieejas plūsmās, kas ir atlasītas šim rēķinam.
+-   **Izmaksu salīdzināšana** — saskaņojiet rēķinā norādīto maksu informāciju (summas) ar informāciju par maksām (summām) pirkšanas pasūtījumā.
 
 > [!NOTE]
 > Citu veidu rēķinu validēšanu var izpildīt, izmantojot kreditoru rēķinu ierobežojumus. 
 
 Divvirzienu salīdzināšana un trīsvirzienu salīdzināšana cenu informāciju vienmēr salīdzina ar vienības cenu. Varat arī konfigurēt šīs salīdzināšanas politikas, lai informāciju par cenu salīdzinātu pēc cenu kopsummas.
--   Vienības neto cenu salīdzināšana — cenas informāciju divvirzienu salīdzināšanai vai trīsvirzienu salīdzināšanai salīdzina, vienības neto cenu katrai rindai rēķinā salīdzinot ar atbilstošo vienības neto cenu pirkšanas pasūtījumā. Vienības neto cena tiek noteikta ar šādu formulu: Rindas neto summa/Rindas daudzums.
--   Cenu kopsummas salīdzināšana — cenas informāciju divvirzienu salīdzināšanai vai trīsvirzienu salīdzināšanai salīdzina, neto summu (cenas kopsummu) katrai rindai rēķinā salīdzinot ar atbilstošo neto summu pirkšanas pasūtījumā. Neto summa tiek noteikta ar šādu formulu: *(Vienības cena \* Rindas daudzums) + Rindas maksas - Rindas atlaides*. Nosakot cenas kopsummu atbilstību procentos, sistēma salīdzina vērtības, izmantojot darījuma valūtu. Nosakot cenas kopsummu atbilstību pēc summas, sistēma salīdzina vērtības, izmantojot uzskaites valūtu. Daļēji izrakstot iepirkuma pasūtījuma rindas rēķinu, cenas kopsummas atbilstības pārbaude notiek pēdējā šīs rindas rēķinā. 
+-   **Vienības neto cenas salīdzināšana** — saskaņojiet cenas informāciju divvirzienu salīdzināšanai vai trīsvirzienu salīdzināšanai, salīdzinot neto vienības cenu katrai rēķina rindai ar atbilstošo neto vienības cenu pirkšanas pasūtījumā. Vienības neto cena tiek noteikta ar šādu formulu: Rindas neto summa/Rindas daudzums.
+-   **Cenu kopsummu salīdzināšana** — saskaņojiet cenas informāciju divvirzienu salīdzināšanai vai trīsvirzienu salīdzināšanai, salīdzinot neto summu (cenas kopsummu) katrai rēķina rindai ar atbilstošo neto summu pirkšanas pasūtījumā. Neto summa tiek noteikta ar šādu formulu: *(Vienības cena \* Rindas daudzums) + Rindas maksas - Rindas atlaides*. Nosakot cenas kopsummu atbilstību procentos, sistēma salīdzina vērtības, izmantojot darījuma valūtu. Nosakot cenas kopsummu atbilstību pēc summas, sistēma salīdzina vērtības, izmantojot uzskaites valūtu. Daļēji izrakstot iepirkuma pasūtījuma rindas rēķinu, cenas kopsummas atbilstības pārbaude notiek pēdējā šīs rindas rēķinā. 
 
-Parasti rēķinu salīdzināšanas aprēķini tiek veikti automātiski, kad lapā Kreditora rēķins rediģējat kreditoru rēķinus. Alternatīvi rēķinu salīdzināšanu var veikt pēc pieprasījuma, ja nepieciešams. Rēķinu salīdzināšanu pēc pieprasījuma juridiskajai personai kontrolē funkcija Automātiski atjaunināt rēķina virsraksta statusu uz, kas atrodas lapā Kreditoru moduļa parametri, cilnē Rēķinu validēšana. Rēķinu salīdzināšanu var veikt arī kā daļu no rēķinu pārskatīšanas procesa. Rēķinu salīdzināšanas rezultātus varat skatīt lapā Kreditora rēķins un saistītajās rēķinu salīdzināšanas lapās.
+Parasti rēķinu salīdzināšanas aprēķini tiek veikti automātiski, rediģējot kreditoru rēķinus **lapā Kreditora rēķins**. Alternatīvi rēķinu salīdzināšanu var veikt pēc pieprasījuma, ja nepieciešams. Rēķinu salīdzināšanu pēc pieprasījuma juridiskajai personai **kontrolē statuss Automātiski atjaunināt rēķina** virsraksta statusu **cilnes Rēķina pārbaude** lapā Kreditoru parametri lapā **Kreditoru parametri**. Rēķinu salīdzināšanu var veikt arī kā daļu no rēķina pārskatīšanas procesa. Rēķinu salīdzināšanas rezultātus var apskatīt lapā Kreditora rēķins **un saistītajās** rēķinu salīdzināšanas lapās.
 
 ## <a name="invoice-totals-matching"></a>Rēķinu kopsummu salīdzināšana
-Rēķinu kopsummu salīdzināšanu varat izmantot, lai pārliecinātos, ka rēķinu kopsummas neatšķiras no paredzētajām summām vairāk kā par pieņemamo novirzi. Sešas kopsummas tiek salīdzinātas lapā Detalizēta informācija par rēķinu kopsummu salīdzināšanu, kā parādīts nākamajā tabulā. Ja pieļaujamā tolerance rēķinu kopsummu salīdzināšanai ir 20%, tad 100% neatbilstības procentuālais daudzums attiecībā uz kopējo atlaides summu tiek uzskatīts par salīdzināšanas neatbilstību.
+Rēķinu kopsummu salīdzināšanu varat izmantot, lai pārliecinātos, ka rēķinu kopsummas neatšķiras no paredzētajām summām vairāk kā par pieņemamo novirzi. Lapā Detalizēta informācija **par** rēķinu kopsummām tiek salīdzinātas sešas kopsummas, kā parādīts nākamajā tabulā. Ja pieļaujamā tolerance rēķinu kopsummu salīdzināšanai ir 20%, tad 100% neatbilstības procentuālais daudzums attiecībā uz kopējo atlaides summu tiek uzskatīts par salīdzināšanas neatbilstību.
 
 | Kopsummas lauks    | Faktiskā rēķina kopsumma | Prognozētā rēķina kopsumma | Novirze procentos | Atbilstības statuss |
 |----------------|----------------------|------------------------|---------------------|--------------|
@@ -64,7 +64,7 @@ Rēķinu kopsummu salīdzināšanu varat izmantot, lai pārliecinātos, ka rēķ
 | Noapaļošana      | 0,00                 | 0,00                   | 0%                  | Izdevās       |
 | Rēķina summa | 699,88               | 687,50                 | 2%                  | Izdevās       |
 
-Rēķinu kopsummu salīdzināšanu juridiskajai personai kontrolē pārslēgs Salīdzināt rēķinu kopsummas, kurš atrodas lapā Kreditoru moduļa parametri. Salīdzināšana tiek veikta paredzamajām rēķinu kopsummām un faktiskajām rēķinu kopsummām. Paredzamās rēķinu kopsummas tiek aprēķinātas, ņemot vērā no cenas, papildmaksas un pārdošanas nodokļa informāciju no pirkšanas pasūtījuma un daudzumus no rēķina.
+Rēķinu kopsummu salīdzināšanu juridiskajai personai **kontrolē slēdzis** Saskaņot rēķinu kopsummas **lapā Kreditoru parametri**. Salīdzināšana tiek veikta paredzamajām rēķinu kopsummām un faktiskajām rēķinu kopsummām. Paredzamās rēķinu kopsummas tiek aprēķinātas, ņemot vērā no cenas, papildmaksas un pārdošanas nodokļa informāciju no pirkšanas pasūtījuma un daudzumus no rēķina.
 
 ## <a name="two-way-price-totals-matching"></a>Divvirzienu cenu kopsummu salīdzināšana
 Izmantojiet divvirzienu salīdzināšanu, lai palīdzētu pārliecināties, ka novirze starp cenas informāciju pirkšanas pasūtījumā un rēķinā atrodas pielaides robežās. Cenas informāciju par katras rēķina rindas neto summu un visām gaidošajām un iepriekš iegrāmatotajām rēķinu rindām varat salīdzināt ar atbilstošā pirkšanas pasūtījuma rindas neto summu. Tā tiek saukta arī par cenu kopsummu salīdzināšanu. 
@@ -74,33 +74,33 @@ Cenu kopsummu salīdzināšanas pamatā var būt procenti, summa vai procenti un
 Ja ir norādīts pirkšanas cenas kopējās tolerances procentuālais daudzums, tiek salīdzināti pieci lauki, kā parādīts nākamajā tabulā. Tā kā pirkšanas cenas kopējās tolerances procentuālais daudzums ir 10%, cenas kopējās novirzes procentuālais daudzums 50% apzīmē salīdzināšanas neatbilstību.
 
 | Atbilstības statuss | Pavadrēķina neto summa | Sagaidāmā neto summa | Nesaskaņota pirkšanas cenas kopsumma (novirzes summa) | Nesaskaņoti pirkšanas cenas kopsummas procenti (novirze procentos) | Pirkšanas cenas kopējās tolerances procents |
-|--------------|--------------------|---------------------|--------------------------------------------------|-----------------------------------------------------------------|----------------------------------------|
-| Izdevās       | 105,00             | 100,00              | 5,00                                             | 5%                                                              | 10%                                    |
-| Neizdevās.       | 150,00             | 100,00              | 50,00                                            | 50%                                                             | 10%                                    |
+|--------------|--------------------|---------------------|--------------------------------------------------|--------------------------------|---------------------------|
+| Izdevās       | 105,00             | 100,00              | 5,00                                             | 5%                             | 10%                 |
+| Neizdevās.       | 150,00             | 100,00              | 50,00                                            | 50%                            | 10%                     |
 
 Ja ir norādīta pirkšanas cenas kopējās tolerances summa, tiek salīdzināti pieci lauki, kā parādīts nākamajā tabulā. Tā kā pirkšanas cenas kopējās tolerances summa ir 100,00, cenas kopējās novirzes summa 105,00 apzīmē salīdzināšanas neatbilstību.
 
 | Atbilstības statuss | Pavadrēķina neto summa | Sagaidāmā neto summa | Nesaskaņota pirkšanas cenas kopsumma (novirzes summa) | Nesaskaņota pirkšanas cenas kopsumma uzskaites valūtā (novirzes summa) | Pirkšanas cenas kopējā tolerance |
-|--------------|--------------------|---------------------|--------------------------------------------------|-------------------------------------------------------------------------|--------------------------------|
-| Izdevās       | 150,00             | 100,00              | 50,00                                            | 50,00                                                                   | 100,00                         |
-| Neizdevās.       | 205,00             | 100,00              | 105,00                                           | 105,00                                                                  | 100,00                         |
+|--------------|--------------------|---------------------|-----------------------------------------------|-------------------------------|--------------------------------|
+| Izdevās       | 150,00             | 100,00              | 50,00                                            | 50,00                    | 100,00                         |
+| Neizdevās.       | 205,00             | 100,00              | 105,00                                           | 105,00                  | 100,00                         |
 
 Ja cenu kopsummu salīdzināšana ir iestatīta ar procentuālu toleranci un tolerances summu, ko reizēm sauc arī par nepārsniedzamo summu, tad tiek ņemtas vērā abas tolerances, kad tiek vērtēts, vai rindai ir salīdzināšanas neatbilstība. Ja procentuālais daudzums vai summa pārsniedz šo toleranci, kā nākamajā tabulā parādīts rindās 150,00 un 205,00, šai rindai ir salīdzināšanas neatbilstība.
 
 | Atbilstības statuss | Pavadrēķina neto summa | Sagaidāmā neto summa | Nesaskaņoti pirkšanas cenas kopsummas procenti (novirze procentos) | Pirkšanas cenas kopējās tolerances procents | Nesaskaņota pirkšanas cenas kopsumma uzskaites valūtā (novirzes summa) | Pirkšanas cenas kopējā tolerance |
-|--------------|--------------------|---------------------|-----------------------------------------------------------------|----------------------------------------|-------------------------------------------------------------------------|--------------------------------|
-| Izdevās       | 105,00             | 100,00              | 5%                                                              | 10%                                    | 5,00                                                                    | 100,00                         |
-| Neizdevās.       | 150,00             | 100,00              | 50%                                                             | 10%                                    | 50,00                                                                   | 100,00                         |
-| Neizdevās.       | 205,00             | 100,00              | 105%                                                            | 10%                                    | 105,00                                                                  | 100,00                         |
+|--------------|--------------------|---------------------|-----------------------------|------------------|----------------------------------|--------------------------------|
+| Izdevās       | 105,00             | 100,00              | 5%                     | 10%                         | 5,00           | 100,00                         |
+| Neizdevās.       | 150,00             | 100,00              | 50%                   | 10%                     | 50,00            | 100,00                         |
+| Neizdevās.       | 205,00             | 100,00              | 105%                 | 10%                      | 105,00                                  | 100,00                         |
 
-Divvirzienu salīdzināšana juridiskajai personai tiek kontrolēta ar lauku Rindu atbilstības ierobežojumi, kas atrodas lapā Kreditoru moduļa parametri. Atkarībā no atlases laukā Atļaut atbilstības ierobežojumu ignorēšanu, varat atlasīt divvirzienu salīdzināšanu noteiktam kreditoram, krājumam vai krājuma un kreditora kombinācijai lapā Atbilstības ierobežojumi, un noteiktam pirkšanas pasūtījumam lapā Pirkšanas pasūtījums.
+Divvirzienu salīdzināšanu juridiskajai personai **kontrolē rindu atbilstības politikas** lauks **lapā Kreditoru parametri**. Atkarībā no atlases **laukā Atļaut atbilstību ierobežojuma ignorēšanai** var atlasīt divvirzienu atbilstību noteiktam kreditoram, krājumam vai krājuma un piegādātāja kombinācijai **politikas lapā Atbilstības politika** un noteiktam pirkšanas pasūtījumam **lapā Pirkšanas pasūtījums**.
 
-Cenu kopsummu salīdzināšanu juridiskajai personai kontrolē lauks Salīdzināt cenu kopsummas, kurš atrodas lapā Kreditoru modeļa parametri. Pirkšanas cenas kopsummas tolerances procentuālais daudzums un tolerances summa (nepārsniedzamā summa) ir norādīti arī tajā lapā.
+Cenu kopsummu salīdzināšanu juridiskajai personai **kontrolē lauks** Saskaņot cenu kopsummas **lapā Kreditoru parametri**. Pirkšanas cenas kopsummas tolerances procentuālais daudzums un tolerances summa (nepārsniedzamā summa) ir norādīti arī tajā lapā.
 
 ## <a name="two-way-net-unit-price-matching"></a>Divvirzienu, neto vienības cenu salīdzināšana
 Izmantojiet divvirzienu salīdzināšanu, lai palīdzētu pārliecināties, ka novirze starp cenas informāciju pirkšanas pasūtījumā un rēķinā atrodas pielaides robežās. Varat salīdzināt cenas informāciju katra rēķinā ietvertā krājuma vienības neto cenai. Šī tiek saukta par vienības neto cenas salīdzināšanu. 
 
-Deviņas rindu summas tiek salīdzinātas lapā Detalizēta informācija par rēķinu salīdzināšanu, kā parādīts nākamajā tabulā. Ja pieļaujamā cenas tolerance attiecībā uz vienības neto cenu salīdzināšanu ir 10%, tad 22,61% novirze attiecībā uz vienības neto cenu tiek uzskatīta par salīdzināšanas neatbilstību.
+Lapā Detalizēta informācija **par rēķinu atbilstību tiek salīdzinātas deviņas** rindu summas, kā parādīts nākamajā tabulā. Ja pieļaujamā cenas tolerance attiecībā uz vienības neto cenu salīdzināšanu ir 10%, tad 22,61% novirze attiecībā uz vienības neto cenu tiek uzskatīta par salīdzināšanas neatbilstību.
 
 | Rindas lauks                    | Rēķina vērtība | Pirkšanas pasūtījuma vērtība | Novirze procentos | Atbilstības statuss |
 |-------------------------------|---------------|----------------------|---------------------|--------------|
@@ -114,9 +114,9 @@ Deviņas rindu summas tiek salīdzinātas lapā Detalizēta informācija par rē
 | Neto summa                    | 271,60        | 221,52               | 22,61%              | Neizdevās.       |
 | Vienības neto cena                | 67,9000       | 55,3800              | 22,61%              | Neizdevās.       |
 
-Divvirzienu salīdzināšana juridiskajai personai tiek kontrolēta ar lauku Rindu atbilstības ierobežojumi, kas atrodas lapā Kreditoru moduļa parametri. Atkarībā no atlases laukā Atļaut atbilstības ierobežojumu ignorēšanu, varat atlasīt divvirzienu salīdzināšanu noteiktam kreditoram, krājumam vai krājuma un kreditora kombinācijai lapā Atbilstības ierobežojumi, un noteiktam pirkšanas pasūtījumam lapā Pirkšanas pasūtījums. 
+Divvirzienu salīdzināšanu juridiskajai personai **kontrolē rindu atbilstības politikas** lauks **lapā Kreditoru parametri**. Atkarībā no atlases **laukā Atļaut atbilstību ierobežojuma ignorēšanai** var atlasīt divvirzienu atbilstību noteiktam kreditoram, krājumam vai krājuma un piegādātāja kombinācijai **politikas lapā Atbilstības politika** un noteiktam pirkšanas pasūtījumam **lapā Pirkšanas pasūtījums**. 
 
-Vienības neto cenas salīdzināšanu juridiskajai personai kontrolē lauks Iespējot rēķinu salīdzināšanas pārbaudes, kurš atrodas lapā Kreditoru modeļa parametri. Vienības neto cenas tolerances procentuālo daudzumu var konfigurēt krājumiem, krājumu grupām, kreditoriem, kreditoru grupām, krājumu un kreditoru kombinācijām vai juridiskajai personai, izmantojot lapu Cenu tolerances.
+Vienības neto cenas salīdzināšanu juridiskajai personai kontrolē **lapas Kreditoru parametri** lauks **Iespējot rēķinu atbilstības pārbaudi**. Vienības neto cenas tolerances procentus var konfigurēt krājumiem, krājumu grupām, kreditoriem, kreditoru grupām, krājumu un kreditoru kombinācijām vai juridiskai personai, izmantojot **lapu Cenu pielaides**.
 
 ## <a name="two-way-price-totals-matching-and-net-unit-price-matching"></a>Divvirzienu, cenu kopsummu salīdzināšana un vienības neto cenas salīdzināšana
 Cenu kopsummu salīdzināšanu un vienības neto cenas salīdzināšanu varat lietot kopā. Šajā piemērā tiek pieņemts, ka tiek lietota šāda konfigurācija:
@@ -162,10 +162,10 @@ Lapā Detalizēta informācija par rēķinu salīdzināšanu tiek salīdzinātas
 | Rēķina daudzums               | 4,00          |              |
 | Kopējās atbilstošās produktu ieejas plūsmas | 0,00          | Neizdevās.       |
 
-Trīsvirzienu salīdzināšana juridiskajai personai tiek kontrolēta ar lauku Rindu atbilstības ierobežojumi, kas atrodas lapā Kreditoru moduļa parametri. Atkarībā no atlases laukā Atļaut atbilstības ierobežojumu ignorēšanu, varat atlasīt trīsvirzienu salīdzināšanu noteiktam kreditoram, krājumam vai krājuma un kreditora kombinācijai lapā Atbilstības ierobežojumi, un noteiktam pirkšanas pasūtījumam lapā Pirkšanas pasūtījums.
+Trīsvirzienu salīdzināšanu juridiskajai personai **kontrolē rindas atbilstības politikas** lauks **lapā Kreditoru parametri**. Atkarībā no atlases **laukā Atļaut atbilstību ierobežojuma ignorēšanai** var atlasīt trīsvirzienu atbilstību noteiktam kreditoram, krājumam vai krājumam un kreditora kombinācijai **politikas lapā Atbilstības politika** un noteiktam pirkšanas pasūtījumam **lapā Pirkšanas pasūtījums**.
 
 ## <a name="charges-matching"></a>Maksu salīdzināšana
-Maksu salīdzināšanu varat izmantot, lai pārliecinātos, ka maksu summas neatšķiras no paredzētajām summām vairāk kā par pieņemamo procentuālo novirzi. Kopsummas katram papildmaksu kodam, kas attiecas uz rēķinu un pirkšanas pasūtījumu, tiek salīdzinātas lapā Salīdzināt papildmaksu vērtības — Rēķins:, kā parādīts nākamajā tabulā. Ja pieļaujamā tolerance papildmaksu kodam ir 25%, tad 99 999 999 999,99% neatbilstības procentuālais daudzums attiecībā uz Licences papildmaksu kodu tiek uzskatīts par salīdzināšanas neatbilstību.
+Maksu salīdzināšanu varat izmantot, lai pārliecinātos, ka maksu summas neatšķiras no paredzētajām summām vairāk kā par pieņemamo procentuālo novirzi. Katra papildmaksu koda kopsummas, kas attiecas uz rēķinu un pirkšanas pasūtījumu, tiek salīdzinātas **lapā Salīdzināt maksu vērtības - Rēķins:** kā parādīts šajā tabulā. Ja pieļaujamā pielaide papildmaksu kodam ir 25%, licences maksas koda **99,999,999,999.99% novirzes procents** tiek uzskatīts par salīdzināšanas neatbilstību.
 
 > [!NOTE] 
 > Novirzes procentuālais daudzums 99 999 999 999,99% nozīmē, ka paredzamā summa, pamatojoties uz pirkšanas pasūtījumu, ir nulle, un faktiskā summa rēķinā ir pozitīva vērtība. 
@@ -176,10 +176,10 @@ Maksu salīdzināšanu varat izmantot, lai pārliecinātos, ka maksu summas neat
 | Izdevās               | Kravas pārvadāšana              | 200                           | 200                             | 0               | 0%                  | 25%                  |
 | Neizdevās.               | Paātrināt izpildi             | 4.                             | 2                               | 2               | 100%                | 25%                  |
 
-Maksu salīdzināšanu juridiskajai personai kontrolē pārslēgs Salīdzināt maksas, kurš atrodas lapā Kreditoru moduļa parametri. Novirzes tolerances procentuālo daudzumu maksām varat iestatīt lapā Maksu tolerances.
+Maksu salīdzināšanu juridiskajai personai **kontrolē slēdzis** Atbilstības maksas **lapā Kreditoru parametri**. Lapā Papildmaksu pielaides var uzstādīt novirzes tolerances **procentus**.
 
 > [!NOTE]
-> Maksu salīdzināšana tiek veikta tikai maksu kodiem, kam ir atlasīts pārslēgs Salīdzināt pirkuma pasūtījuma un rēķina vērtības lapā Maksas kods.
+> Papildmaksu salīdzināšana tiek veikta tikai papildmaksu kodiem, kuriem lapā Papildmaksu **kods** ir atlasīts **pārslēgšanās Salīdzināt pirkšanas pasūtījumu un rēķina vērtības**.
 
 ## <a name="related-functionality"></a>Saistītā funkcionalitāte
 Kreditoru rēķinu pamatā bieži ir produktu ieejas plūsmas, kas parāda faktiskos sūtījumus, nevis pirkšanas pasūtījumus. Dažkārt rēķinos iekļautās summas nesakrīt ar pirkšanas pasūtījuma summām, un dažkārt nosūtītie daudzumi nesakrīt ar rēķinos iekļautajiem daudzumiem. Šo informāciju varat palīdzēt pārvaldīt šādos veidos:

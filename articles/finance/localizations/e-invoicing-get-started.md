@@ -2,7 +2,7 @@
 title: Darba sākšana ar elektroniskās rēķinu izveidi
 description: Šajā tēmā ir sniegta informācija, kas palīdzēs sākt darbu ar elektronisko rēķinu izrakstīšanu programmās Microsoft Dynamics 365 Finance un Dynamics 365 Supply Chain Management.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 65944c3b73d5cecc8c86087729bcf8d2354c8f20
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
-ms.translationtype: HT
+ms.openlocfilehash: ebef9cf97f7a91e0a2fd45f5e0e0fc620070b42a
+ms.sourcegitcommit: 5033d42a2aac852916d726e40bd98a164d1a837d
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6340159"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "7983875"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>Darba sākšana ar elektroniskās rēķinu izveidi
 
@@ -43,11 +43,11 @@ Pirms pabeidzat šajā tēmā norādītās procedūras, ir jāievieš šādi pri
 2. Darbvietas **Globalizācijas līdzekļi** sadaļā **Līdzekļi** atlasiet elementu **Elektronisko rēķinu izrakstīšana**.
 3. Atlasiet **Importēt** un pēc tam atlasiet **Sinhronizēt**.
 4. Filtrējiet kolonnu **Konfigurācijas nodrošinātājs** pēc termina **Microsoft**.
-5. Šīs tēmas sākumā tabulā atlasiet Elektroniskās rēķinu izrakstīšanas līdzekļa nosaukumu un pēc tam atlasiet **Importēt**.
+5. Tabulā atlasiet elektroniskās rēķinu izrakstīšanas līdzekļa nosaukumu un atlasiet **Importēt**.
 
 ## <a name="create-an-electronic-invoicing-feature-under-your-organization-provider"></a>Izveidojiet Elektronisko rēķinu izrakstīšanas līdzekli jūsu organizācijas nodrošinātājā
 
-1. Darbvietas **Globalizācijas līdzekļi** sadaļas **Līdzekļi** RCS atlasiet elementu **Elektronisko rēķinu izrakstīšana**.
+1. RCS darbtelpas **Globalizācijas līdzekļi** sadaļā **Līdzekļi** atlasiet rūti **Elektroniskā rēķinu izrakstīšana**.
 2. Atlasiet **Pievienot** > **Pamatojoties uz esošo līdzekli**, un laukā **Nosaukums** ievadiet Elektronisko rēķinu izrakstīšanas līdzekļa nosaukumu.
 3. Laukā **Apraksts** ievadiet līdzekļa aprakstu.
 4. Sadaļā **Bāzes līdzekļa lauks** atlasiet importēto elektronisko rēķinu izrakstīšanas līdzekli no Microsoft konfigurācijas nodrošinātāja.
@@ -57,7 +57,12 @@ Pirms pabeidzat šajā tēmā norādītās procedūras, ir jāievieš šādi pri
 
 Atkarībā no valsts vai reģiona elektronisko rēķinu izrakstīšanas funkcijai var būt nepieciešama specifiska konfigurācija. 
 
-Īpašiem soļiem skatiet dokumentāciju "Sākt darbu", kas ir pieejama jūsu valstij vai reģionam.
+> [!NOTE]
+> Iespējojot Elektronisko rēķinu izrakstīšanas līdzekli Somijai, uzmeklēšanas lietojumprogrammai raksturīgie parametri netiek atbalstīti. Lai novērstu šo problēmu, **elektronisko pārskatu** modulī pārskatiet pārdošanas rēķina konfigurācijas un projekta rēķinu formātus. Manuāli iestatiet aprēķināto lauku $PaymentMethodSubstitution kartēšanai **un pēc tam saistiet šo lauku ar** lauku EpiPaymentMeansCode **no pārdošanas rēķina un projekta rēķinu formātiem.**
+>
+> Iespējojot elektronisko rēķinu izrakstīšanas līdzekli Itālijai, uzmeklēšanas lietojumprogrammai raksturīgie parametri netiek atbalstīti. Lai novērstu šo problēmu, **elektronisko pārskatu** modulī manuāli iestatiet aprēķināto lauku $NaturaReverseCharge **kartēšanai**.
+>
+> Konkrētas darbības, kas saistītas ar citām atrašanās vietām, skatiet dokumentācijā "Darba sākšana", kas ir pieejama jūsu valstij vai reģionam.
 
 ## <a name="import-the-model-mapping-configurations-from-electronic-reporting"></a>Modeļu kartēšanas konfigurāciju importēšana no elektronisko pārskatu veidošanas
 
@@ -84,6 +89,7 @@ Atkarībā no valsts vai reģiona elektronisko rēķinu izrakstīšanas funkcija
 | Norvēģijas elektroniskais rēķins (NO)    | <p>Debitora rēķina konteksta modelis</p><p>Rēķina modelis</p> |
 | Spānijas elektroniskais rēķins (ES)      | <p>Debitora rēķina konteksta modelis</p><p>Rēķina modelis</p> |
 | PEPPOL elektroniskais rēķins            | <p>Debitora rēķina konteksta modelis</p><p>Rēķina modelis</p> |
+| Saūda Arābijas elektroniskais rēķins (SA)| <p>Debitora rēķina konteksta modelis</p><p>Rēķina modelis</p> |
 
 
 ## <a name="configure-the-application-setup"></a>Lietojumprogrammas iestatīšanas konfigurēšana
@@ -112,8 +118,9 @@ Atkarībā no valsts vai reģiona elektronisko rēķinu izrakstīšanas funkcija
     | Norvēģijas elektroniskais rēķins (NO)    | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Debitoru rēķinu žurnāls</p><p>Projekta rēķins</p> |
     | Spānijas elektroniskais rēķins (ES)      | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Debitoru rēķinu žurnāls</p><p>Projekta rēķins</p> |
     | PEPPOL elektroniskais rēķins            | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Debitoru rēķinu žurnāls</p><p>Projekta rēķins</p> |
+    | Saūda Arābijas elektroniskais rēķins (SA)| <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Debitoru rēķinu žurnāls</p><p>Projekta rēķins</p> |
 
-7. Katram izveidotajam tabulas nosaukumam atlasiet un ievadiet konteksta vērtību atbilstoši šai tabulai.
+6. Katram izveidotajam tabulas nosaukumam atlasiet un ievadiet konteksta vērtību atbilstoši šai tabulai.
 
     | Līdzekļa nosaukums                         | Biznesa dokuments | Konteksts |
     |--------------------------------------|-------------------|---------|
@@ -133,8 +140,9 @@ Atkarībā no valsts vai reģiona elektronisko rēķinu izrakstīšanas funkcija
     | Norvēģijas elektroniskais rēķins (NO)    | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Klienta rēķina konteksta modelis — Klienta rēķina konteksts</p><p>Klienta rēķina konteksta modelis — Projekta rēķina konteksts</p> |
     | Spānijas elektroniskais rēķins (ES)      | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Klienta rēķina konteksta modelis — Klienta rēķina konteksts</p><p>Klienta rēķina konteksta modelis — Projekta rēķina konteksts</p> |
     | PEPPOL elektroniskais rēķins            | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Klienta rēķina konteksta modelis — Klienta rēķina konteksts</p><p>Klienta rēķina konteksta modelis — Projekta rēķina konteksts</p> |
+    | Saūda Arābijas elektroniskais rēķins (SA)| <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Klienta rēķina konteksta modelis — Klienta rēķina konteksts</p><p>Klienta rēķina konteksta modelis — Projekta rēķina konteksts</p> |
 
-8. Katram tabulas nosaukumam un kontekstam atlasiet un ievadiet biznesa dokumenta kartējuma vērtību atbilstoši šai tabulai.
+7. Katram tabulas nosaukumam un kontekstam atlasiet un ievadiet biznesa dokumenta kartējuma vērtību atbilstoši šai tabulai.
 
     | Līdzekļa nosaukums                         | Biznesa dokuments | Biznesa dokumenta kartējums |
     |--------------------------------------|-------------------|---------------------------|
@@ -154,6 +162,7 @@ Atkarībā no valsts vai reģiona elektronisko rēķinu izrakstīšanas funkcija
     | Norvēģijas elektroniskais rēķins (NO)    | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Rēķina modeļa kartēšana - Klienta rēķins</p><p>Rēķina modeļa kartēšana - Projekta rēķins</p> |
     | Spānijas elektroniskais rēķins (ES)      | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Rēķina modeļa kartēšana - Klienta rēķins</p><p>Rēķina modeļa kartēšana - Projekta rēķins</p> |
     | PEPPOL elektroniskais rēķins            | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Rēķina modeļa kartēšana - Klienta rēķins</p><p>Rēķina modeļa kartēšana - Projekta rēķins</p> |
+    | Saūda Arābijas elektroniskais rēķins (SA)| <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Rēķina modeļa kartēšana - Klienta rēķins</p><p>Rēķina modeļa kartēšana - Projekta rēķins</p> |
 
 
 ## <a name="country-specific-configuration-of-application-setup"></a>Valstij specifiska lietojumprogrammas iestatījumu konfigurācija
@@ -177,11 +186,11 @@ Atkarībā no valsts vai reģiona Programmas iestātījumam var būt nepiecieša
 ## <a name="deploy-the-electronic-invoicing-feature-to-connected-application"></a>Elektroniskās rēķinu izrakstīšanas līdzekļa izvietošana saistītajā programmā
 
 1. Cilnē **Versijas** atlasiet izvietojamā elektronisko rēķinu izrakstīšanas līdzekļa versiju.
-4. Atlasiet **Izvietot**.
-5. Iestatiet opciju **Izvietot savienotā programmā** uz **Jā**.
-6. Laukā **Savienot programmu** atlasiet savienojumu, kas ir saistīts ar jūsu Finance vai Supply Chain Management instanci.
-7. Iestatiet opciju **Izvietot pakalpojuma vidē** uz **Nē**.
-10. Atlasiet **Labi**.
+2. Atlasiet **Izvietot**.
+3. Iestatiet opciju **Izvietot savienotā programmā** uz **Jā**.
+4. Laukā **Savienot programmu** atlasiet savienojumu, kas ir saistīts ar jūsu Finance vai Supply Chain Management instanci.
+5. Iestatiet opciju **Izvietot pakalpojuma vidē** uz **Nē**.
+6. Atlasiet **Labi**.
 
 ## <a name="turn-on-the-electronic-invoicing-feature-in-finance-or-supply-chain-management"></a>Ieslēdziet Elektronisko rēķinu izrakstīšanas līdzekli Finance vai Supply Chain Management instancēs
 
@@ -207,13 +216,15 @@ Atkarībā no valsts vai reģiona Programmas iestātījumam var būt nepiecieša
     | Norvēģijas elektroniskais rēķins (NO)                     | Norvēģija          |
     | PEPPOL elektroniskais rēķins                             | Globāls          |
     | Spānijas elektroniskais rēķins (ES)                       | Spānija           |
+    | Saūda Arābijas elektroniskais rēķins (SA)                 | Saūda Arābija    |
+    
 
 4. Atlasiet **Saglabāt**.
 
 ## <a name="issue-electronic-invoices"></a>Izsniegt elektroniskos rēķinus
 
 1. Dodieties uz **Organizācijas administrēšana** \> **Periodiskais** \> **Elektroniskie dokumenti** \> **Iesniegt elektroniskus dokumentus**.
-2. Kopsavilkuma cilnē **Ieraksts, kas jāiekļauj** atlasiet **Filtrs**.
+2. Kopsavilkuma cilnē **Ieraksti, kas jāiekļauj** atlasiet **Filtrs**.
 3. Atlasiet **Pievienot**, lai vaicājuma filtram pievienotu tabulas nosaukumu.
 4. Atlasiet tabulu, kurā ir rēķini.
 
@@ -235,6 +246,14 @@ Atkarībā no valsts vai reģiona Programmas iestātījumam var būt nepiecieša
 
 3. Atlasiet režģī esošu rēķinu un pēc tam atlasiet **Uzziņas** \> **Iesniegšanas informācija**.
 
+## <a name="download-an-electronic-document-file"></a>Elektroniska dokumenta faila lejupielāde
+
+1. Dodieties uz **Organizācijas administrēšana** \> **Periodiskais** \> **Elektroniskie dokumenti** \> **Elektronisko dokumentu iesniegšanas žurnāls**.
+2. Laukā **Dokumentu tips** izvēlieties tabulu, kurā ir rēķini.
+3. Režģī atlasiet dokumentu un pēc tam atlasiet **Elektroniskais dokuments** \> **Lejupielādēt failu.** Lejupielādei tiks ieteikts arhīvs, kurā ir elektroniskā dokumenta fails.
+
+> [!NOTE]
+> Lai varētu lejupielādēt failus, **ir jāieslēdz opcija Eksportēt rezultātu**, lai veiktu saistīto darbību RCS elektronisko rēķinu līdzekļu iestatījumos.
 
 ## <a name="related-topics"></a>Saistītās tēmas
 
@@ -242,8 +261,9 @@ Atkarībā no valsts vai reģiona Programmas iestātījumam var būt nepiecieša
 - [Darba sākšana ar elektroniskās rēķinu izveides servisa administrēšanu](e-invoicing-get-started-service-administration.md)
 - [Darba sākšana ar elektronisko rēķinu izveidi lietošanai Brazīlijā](e-invoicing-bra-get-started.md)
 - [Darba sākšana ar elektronisko rēķinu izveidi lietošanai Meksikā](e-invoicing-mex-get-started.md)
-- [Darba sākšana ar elektroniskās rēķinu izveidi lietošanai Itālijā](e-invoicing-ita-get-started.md)
+- [Darba sākšana ar elektronisko rēķinu izveidi lietošanai Itālijā](e-invoicing-ita-get-started.md)
 - [Klientu elektroniskie rēķini Ēģiptē](emea-egy-e-invoices.md)
+- [Klientu elektroniskie rēķini Saūda Arābijā](emea-sau-e-invoices.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

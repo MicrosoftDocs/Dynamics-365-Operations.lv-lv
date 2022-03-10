@@ -2,11 +2,9 @@
 title: Piegādes opciju modulis
 description: Šajā tēmā aplūkoti piegādes opciju moduļi un paskaidrots, kā tos konfigurēt risinājumā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
-ms.date: 08/05/2020
+ms.date: 02/24/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: d0e5fa731d4b808cda9863074d17d1917410f399
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 9b9a7ad05974b98511cfc582af62c19c5fb4dbf5
+ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213678"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8349798"
 ---
 # <a name="delivery-options-module"></a>Piegādes opciju modulis
 
@@ -31,11 +29,11 @@ ms.locfileid: "5213678"
 
 Piegādes opciju moduļi ļauj klientiem izvēlēties piegādes veidu, piemēram, nosūtīšanas vai saņemšanas to tiešsaistes pasūtījumam. Piegādes adrese ir nepieciešama, lai noteiktu piegādes veidu. Ja piegādes adrese mainās, piegādes opcijas ir jāizgūst no jauna. Ja pasūtījumā ir iekļautas tikai tās preces, kas tiks saņemtas veikalā, šis modulis tiek automātiski slēpts.
 
-Informāciju par to, kā konfigurēt piegādes veidus, skatiet sadaļās [Tiešsaistes kanāla iestatīšana](channel-setup-online.md) un [Iestatīt piegādes veidus](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
+Informāciju par to, kā konfigurēt piegādes veidus, skatiet sadaļās [Tiešsaistes kanāla iestatīšana](channel-setup-online.md) un [Iestatīt piegādes veidus](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 
 Katram piegādes veidam var būt atbilstoša maksa. Papildinformāciju par to, kā konfigurēt izmaksas tiešsaistes veikalam, skatiet [Omni-Channel Advanced automātiskās izmaksas](omni-auto-charges.md).
 
-Commerce versijā 10.0.13 piegādes opciju modulis ir atjaunināts, lai atbalstītu līdzekļus **Galvenes izmaksas bez proporcijas** un **Nosūtīšana kā rindas maksa**. Ja proporcija ir izslēgta, ir sagaidāms, ka e-komercijas darbplūsma neļaus jauktu piegādes veidu grozā esošajām precēm (tas ir, dažas preces ir atlasītas nosūtīšanai, bet citas tiek atlasītas saņemšanai). **Galvenes izmaksas bez proporcijas** līdzeklim ir nepieciešams, lai programmā Commerce Headquarters tiktu ieslēgta opcija **Iespējot konsekventu piegādes režīma apstrādi kanāla** karodziņā. Kad šis karodziņš ir ieslēgts, nosūtīšanas izmaksas tiks piemērotas vai nu virsraksta līmenī, vai rindas līmenī atkarībā no Commerce headquarters konfigurācijas.
+Commerce versijā 10.0.13 piegādes opciju modulis ir atjaunināts, lai atbalstītu līdzekļus **Galvenes izmaksas bez proporcijas** un **Nosūtīšana kā rindas maksa**. Ja proporcija ir izslēgta, ir sagaidāms, ka e-komercijas darbplūsma neļaus jauktu piegādes veidu grozā esošajām precēm (tas ir, dažas preces ir atlasītas nosūtīšanai, bet citas tiek atlasītas saņemšanai). Līdzeklim **Galvenes izmaksas bez proporcijas** ir nepieciešams, lai programmā Commerce Headquarters tiktu ieslēgta opcija **Iespējot konsekventu piegādes režīma apstrādi kanāla** karodziņā. Kad līdzekļa karodziņš ir ieslēgts, nosūtīšanas izmaksas tiks piemērotas vai nu virsraksta līmenī, vai rindas līmenī atkarībā no Commerce headquarters konfigurācijas.
 
 Fabrikam tēma atbalsta jauktu piegādes veidu, kur daži krājumi tiek atlasīti nosūtīšanai, bet citi tiek atlasīti saņemšanai. Šajā režīmā piegādes izmaksas tiks proporcionāli novērtētas visiem krājumiem, kas tiek atlasīti piegādes veidam. Lai strādātu ar jauktu piegādes veidu, vispirms ir jākonfigurē līdzeklis **Galvenes izmaksas bez proporcijas** programmā Commerce Headquarters. Plašāku informāciju par šo konfigurāciju skatiet [Samērot galvenes izmaksas, lai tās atbilstu pārdošanas rindām](pro-rate-charges-matching-lines.md).
 
@@ -43,25 +41,29 @@ Ja nosūtīšanas izmaksas attiecas uz rindas krājumiem, tās var tikt rādīta
 
 Ilustrācijā zemāk redzams piegādes opciju moduļa piemērs norēķināšanās lapā.
 
-![Piegādes opciju moduļa piemērs norēķināšanās lapā](./media/ecommerce-deliveryoptions.PNG)
+![Piegādes opciju moduļa piemērs norēķināšanās lapā.](./media/ecommerce-deliveryoptions.PNG)
 
 ## <a name="delivery-options-module-properties"></a>Piegādes opciju moduļa rekvizīti
 
-| Rekvizīts | Vērtības | apraksts |
+| Rekvizīts | Vērtības | Apraksts |
 |----------|--------|-------------|
 | Virsraksts | Virsraksta teksts un virsraksta etiķete (**H1**, **H2**, **H3**, **H4**, **H5** vai **H6**) | Izvēles virsraksts piegādes opciju modulim. |
 | Pielāgotās CSS klases nosaukums | Teksts | Pielāgota Cascading Style Sheets (CSS) klases nosaukums, kas tiks izmantots šī moduļa atveidei, ja piemērojams. |
 | Piegādes režīma filtra opcija | **Nefiltrēt** vai **Ar sūtīšanu nesaistīti veidi** | Vērtība, kas norāda, vai piegādes opciju modulim jāfiltrē visi piegādes veidi, kas nav saistīti ar nosūtīšanu. |
+| Automātiski atlasīt piegādes opciju | **Nefiltrēt**, **Automātiski atlasīt piegādes opciju un rādīt kopsavilkumu** vai **Automātiski atlasīt piegādes opciju un nerādīt kopsavilkumu** | Šis rekvizīts automātiski piemēro pirmo pieejamo piegādes opciju, lai paņemtu, neprasot lietotājam to atlasīt. To vajadzētu izmantot tikai tad, ja ir viena pieejama piegādes opcija. Šis rekvizīts ir atbalstīts, kā Commerce versijas 10.0.19 laidienā. |
 
 ## <a name="add-a-delivery-options-module-to-a-checkout-page-and-set-the-required-properties"></a>Piegādes opciju moduļa pievienošana norēķināšanās lapā un nepieciešamo rekvizītu iestatīšana
 
 Piegādes opciju moduli var pievienot tikai norēķināšanās modulim. Lai iegūtu papildu informāciju par to, kā konfigurēt piegādes opciju moduli un pievienot to norēķinu lapai, skatiet sadaļu [Norēķināšanās modulis](add-checkout-module.md).
 
+> [!NOTE]
+> Var rasties neatbilstīga piegādes apstrāde vai arī e-komercijas kanālā jūs, iespējams, neredzēsit nesavienotās virsraksta līmeņa maksas. Norādes par to, kā novērst šos jautājumus, skatiet [sadaļā Saskaņota piegādes režīma apstrāde e-komercijas kanālos](consistent-delivery-mode-handling.md).
+
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Groza modulis](add-cart-module.md)
 
-[Norēķināšanās modulis](add-checkout-module.md)
+[Izrakstīšanas modulis](add-checkout-module.md)
 
 [Maksājumu modulis](payment-module.md)
 
@@ -79,7 +81,7 @@ Piegādes opciju moduli var pievienot tikai norēķināšanās modulim. Lai ieg�
 
 [Proporcionāla virsraksta maksu sadalīšana atbilstošajās pārdošanas rindās](pro-rate-charges-matching-lines.md)
 
-[Iestatiet piegādes veidus](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+[Iestatiet piegādes veidus](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,44 +1,38 @@
 ---
-title: Mākoņa darbināts meklēšanas pārskats
-description: Šajā tēmā ir sniegts pārskats par mākoņa darbināto meklēšanu programmā Microsoft Dynamics 365 Commerce.
+title: Mākoņa darbinātas meklēšanas pārskats
+description: Šajā tēmā sniegts pārskats par mākoņu darbinātu meklēšanu risinājumā Microsoft Dynamics 365 Commerce.
 author: ashishmsft
-manager: annbe
-ms.date: 06/29/2020
-ms.topic: article
+ms.date: 02/28/2022
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5a9cb82053640b7abdba420e087d0707208979de
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 9116dd415d44a56fbe8c7852382c413b0a75872c
+ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4997654"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8371433"
 ---
-# <a name="cloud-powered-search-overview"></a>Mākoņa darbināts meklēšanas pārskats
-
+# <a name="cloud-powered-search-overview"></a>Mākoņa darbinātas meklēšanas pārskats
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir sniegts pārskats par mākoņa darbināto meklēšanu programmā Microsoft Dynamics 365 Commerce.
+Šajā tēmā sniegts pārskats par mākoņu darbinātu meklēšanu risinājumā Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Pārskats
+Preces atrodamība palīdz nodrošināt to, ka klienti var ātri un viegli atrast preces, pārlūkojot kategorijas, meklējot un filtrējot. Mazumtirgotāji apsver preču noteikšanu kā primāro rīku debitoru mijiedarbībai kanālos, ko nodrošina Mākoņa skalas vienība (CSU), piemēram, e-komercija un pārdošanas punkts (POS).
 
-Preces atrodamība palīdz nodrošināt to, ka klienti var ātri un viegli atrast preces, pārlūkojot kategorijas, meklējot un filtrējot. Mazumtirgotāji uzskata preces pamanīšanu par primāro rīku mijiedarbībai ar klientiem visos kanālos.
+Klienti ir pieraduši pie gandrīz momentānās tīmekļa meklētājprogrammas atbildes laikiem, izsmalcinātām E-komercijas tīmekļa vietnēm, sociālajām lietotnēm, automātiskiem ieteikumiem, kas tiek parādīti, ievadot meklējamos vārdus, kategoriālās navigācijas un iezīmēšanas. Ja debitori nevar ātri atrast preci, ko tie meklē vienā e-komercijas veikalā, debitori nevarēs pāriet uz citu e-komercijas veikalu.
 
-Klienti ir pieraduši pie gandrīz momentānās tīmekļa meklētājprogrammas atbildes laikiem, izsmalcinātām E-komercijas tīmekļa vietnēm, sociālajām lietotnēm, automātiskiem ieteikumiem, kas tiek parādīti, ievadot meklējamos vārdus, kategoriālās navigācijas un iezīmēšanas. Ja klienti nevar atrast preci, ko viņi meklē pietiekami ātri vienā E-komercijas veikalā, viņi nevilcināsies un dosies uz citu E-komercijas veikalu.
+Mākoņainā preču pārdošanas iespēja programmā Commerce palīdz mazumtirgotājiem turpināt palielināt patērētāja ieturējumu un konvertēšanas likmes kanālos, izmantojot CSU.
 
-Mākoņa nodrošinātā preces atrodamība programmā Dynamics 365 Commerce palīdz mazumtirgotājiem turpināt palielināt patērētāju aizturēšanu un konvertēšanas maiņas kursus visos kanālos, gan E-komercijas kanālos, gan pārdošanas punkta (POS) kanālos.
-
-Dynamics 365 Commerce meklēšanai ir uzlabotas iespējas, lai palīdzētu mazumtirgotājiem panākt labāku produktu atrodamību. Tajā pašā laikā šīs spējas sniedz E-komercijas datplūsmai nepieciešamo mērogojamību un veiktspēju.
+Komercijas meklēšanas pieredzei ir uzlabotas iespējas, lai palīdzētu mazumtirgotājiem sasniegt labāku preču atklājamību. Tajā pašā laikā šīs iespējas nodrošina mērogojamu un veiktspēju, kas ir nepieciešama e-komercijas trafikam.
 
 ## <a name="browse-and-search"></a>Pārlūkošana un meklēšana
 
@@ -46,7 +40,7 @@ Meklēšanas atbilstība un veiktspēja ir galvenie faktori daudzkanālu pieredz
 
 Sekojošajā attēlā parādīts tipisks pārlūkošanas un meklēšanas funkcionalitātes piemērs.
 
-![Ielādes lapas meklēšana](./media/SearchLanding.png)
+![Ielādes lapas meklēšana.](./media/SearchLanding.png)
 
 ## <a name="faceted-navigation-and-choice-summary"></a>Kategoriālās navigācijas un izvēļu kopsavilkums 
 
@@ -56,28 +50,31 @@ Izmantojot kategoriālo navigāciju, varat konfigurēt dažādus rafinētājus d
 
 Sekojošajā attēlā parādīts piemērs, kur meklēšanā tiek izmantota kategoriālā navigācija.
 
-![Izvēles kopsavilkums](./media/ChoiceSummary.png)
+![Izvēles kopsavilkums.](./media/ChoiceSummary.png)
 
 ## <a name="immersive-autosuggest"></a>Visaptveroša automātiskā piedāvāšana
 
-Pašreizējā automātiskās piedāvāšanas funkcionalitāte parāda atslēgvārdus, kas izraisa atbilstošā atslēgvārda meklēšanu. Jaunu uzlabojumu dēļ programmā Dynamics 365 Commerce klienti bieži var atrast saites uz precēm, pirms to nosaukums ir ierakstīts līdz galam.
+Pašreizējā autosugest funkcionalitāte rāda atslēgvārdus, kas izraisa sakritības atslēgvārda meklēšanu. Uzņēmuma Commerce jauno uzlabojumu dēļ debitori bieži var skatīt saites uz precēm, pirms tie ir beidzuši ierakstīšanu.
 
-Dynamics 365 Commerce arī atbalsta funkcionalitāti atslēgvārdu atbilstībai dažādās kategorijās. Šī funkcionalitāte liek klientiem redzēt kategorijām atbilstošu atslēgvārdu skaitu un aktivizēt atslēgvārdu meklēšanu citās kategorijās.
+Commerce atbalsta arī atslēgvārdu atbilstību funkcionalitāti dažādās kategorijās. Šī funkcionalitāte liek klientiem redzēt kategorijām atbilstošu atslēgvārdu skaitu un aktivizēt atslēgvārdu meklēšanu citās kategorijās.
 
 Sekojošajā attēlā parādīts piemērs, kur tiek izmantota visaptveroša automātiskā piedāvāšana.
 
-![visaptveroša automātiskā piedāvāšana](./media/ImmersiveAutoSuggestUX.png)
+![visaptveroša automātiskā piedāvāšana.](./media/ImmersiveAutoSuggestUX.png)
 
 ## <a name="sort"></a>Kārtot
 
-Izmantojot uzlabotu kārtošanu programmā Dynamics 365 Commerce, klienti var kārtot, meklēt un pārlūkot meklēšanas rezultātus, kā arī precizēt tos pēc tādiem kritērijiem kā cena, preces nosaukums un preces numurs. Klienti var arī kārtot rezultātus, pamatojoties uz to, vai prece ir jauna, vislabāk pārdota vai nesen pievienota.
+Uzlabota kārtošana Programmā Commerce ļauj kārtot, meklēt un pārlūkot meklēšanas rezultātus un precizēt tos pēc tādiem kritērijiem kā cena, preces nosaukums un preces numurs. Klienti var arī kārtot rezultātus, pamatojoties uz to, vai prece ir jauna, vislabāk pārdota vai nesen pievienota.
 
->[!NOTE]
->Mākoņa darbinātas meklēšanas iespējas ir pieejamas, sākot ar versiju 10.0.8. Pārliecinieties, vai sadaļas **Commerce parametri > Konfigurācijas parametri** ievadne “ProductSearch.UseAzureSearch ir iestatīta kā “true””. 
-![Mākoņa darbinātas meklēšanas konfigurācijas parametri](./media/CloudPoweredSearchConfigurationParameters.png)
+> [!NOTE]
+> Mākoņa darbinātas meklēšanas iespējas ir pieejamas, sākot ar versiju 10.0.8. Pārliecinieties, ka "ProductSearch.UseAzureSearch" ir iestatīts uz "patiess **", kas atrodas Commerce Parameters > konfigurācijas parametri**. 
+![Mākoņa darbinātas meklēšanas konfigurācijas parametri.](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Noklusējuma kategorijas ielādes lapas un meklēšanas rezultātu lapas pārskats](category-search-page-overview.md)
+[Noklusējuma kategorijas reklāmas mērķlapas un meklēšanas rezultātu lapas pārskats](category-search-page-overview.md)
 
 [SEO metadatu pārvaldība](manage-seo-metadata.md)
+
+
+[!INCLUDE [footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Rēķinu datu ievade kreditoru sistēmā, izmantojot rēķinu kopu
 description: Šajā tēmā aprakstīts, kā lietot rēķinu reģistru, lai izveidotu rēķinus.
 author: abruer
-manager: AnnBe
 ms.date: 07/31/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e53de7091fd818bdc7085c404794e16dc84dd156
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: a4768ee6ddbaba8ae5bab5e2f9f7df9239efeb90
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979292"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358293"
 ---
 # <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a>Rēķinu datu ievade kreditoru sistēmā, izmantojot rēķinu kopu
 
@@ -42,7 +40,7 @@ ms.locfileid: "4979292"
 2. Atlasiet **Jauns**.
 3. Lai atlasītu nosaukumu rēķinu reģistram, kuru vēlaties izmantot, atveriet uzmeklēšanu.
 4. Atlasiet nosaukumu tam rēķinu reģistram, kuru vēlaties lietot.
-5. Atlasiet **Rindas**, lai atvērtu reģistru un ievadītu izmaksu rindas. 
+5. Atlasiet **Rindas**, lai atvērtu reģistru un ievadītu izmaksu rindas.
 6. Uzmeklēšanas skatā atlasiet kreditoru. Piemēram, atlasiet piegādātāju **1001**.
 7. Laukā **Rēķins** ievadiet rēķina numuru
 8. Laukā **Apraksts** ierakstiet kādu vērtību.
@@ -60,10 +58,13 @@ ms.locfileid: "4979292"
 6. Atlasiet **Mainīt skatu**.
 7. Atlasiet **Režģa skats**.
 8. Atlasiet **Grāmatot**.
-9. Aizveriet formu.
+9. Aizvērt lapu.
 10. Navigācijas rūtī pārejiet uz sadaļu **Moduļi > Kreditori > Piegādātāji > Piegādātāji**.
 11. Atlasiet kreditoru, kuram tika sastādīts pirkšanas pasūtījums. Piemēram, atlasiet piegādātāju **1001**.
 12. Darbību rūtī atlasiet **Piegādātājs**.
 13. Atlasiet **Darbības**.
 14. Atlasiet izveidoto rēķinu. Rēķinu reģistra uzkrāšana tika atsaukta un iegrāmatota atbilstošajā izdevumu kontā.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

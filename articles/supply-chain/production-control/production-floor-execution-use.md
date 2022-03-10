@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 086d05b4080015f6185a083ca20963539f76619f
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
-ms.translationtype: HT
+ms.openlocfilehash: a677eb71f97a953c625a1f667b055e5b7696fbe6
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075023"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384429"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Kā darbinieki izmanto ražotnes izpildes interfeisu
 
@@ -71,6 +71,18 @@ Darbu sarakstā ir tālāk minētās kolonnas:
 - **Pabeigts** — šajā kolonnā tiek rādīts daudzums, kas darbam jau ir pabeigts.
 - **Brāķēts** — šajā kolonnā tiek rādīts daudzums, kas darbam ir brāķēts.
 - **Atlikušais** — šajā kolonnā tiek rādīts daudzums, kas darbam vēl jāpabeidz.
+
+## <a name="my-jobs-tab"></a>Cilne Mani darbi
+
+Cilne **Mani darbi** ļauj darbiniekiem viegli apskatīt visus sāktos un nepabeigtos darbus, kas viņiem ir piešķirti. Tas ir noderīgi uzņēmumos, kuros darbi dažreiz vai vienmēr tiek piešķirti noteiktiem darbiniekiem (cilvēkresursiem), nevis citiem resursu tipiem (piemēram, mašīnām). 
+
+Plānošanas sistēma automātiski piešķir katru ražošanas darbu noteiktam resursa ierakstam, un katram resursa ierakstam ir tips (piemēram, iekārta vai cilvēkresursi). Iestatot darbinieku kā ražošanas darbinieku, varat saistīt darbinieka kontu ar unikālu personāla vadības ierakstu. 
+
+Cilnē **Mani darbi** ir uzskaitīti visi nepabeigtie un nepabeigtie darbi, kas ir piešķirti darbinieka, kurš ir pierakstījies, personāla vadības ierakstam, ja ir pieteicies kāds darbinieks. Tas neuzskaita darbus, kas piešķirti mašīnai vai cita veida resursam, pat ja darbinieks, kurš ir pierakstījies, ir sācis strādāt pie šiem darbiem.
+
+Lai skatītu visus darbus, ko ir sācis darbinieks, kurš ir pierakstījies, neatkarīgi no resursa tipa, kam katrs darbs ir piešķirts, izmantojiet **cilni Aktīvie** darbi. Lai skatītu visus nepabeigtos darbus, kas atbilst lokālā darba filtra konfigurācijai, neatkarīgi no darbinieka vai sākuma statusa, izmantojiet **cilni** Visi darbi.
+
+![Cilne Mani darbi.](media/pfei-my-jobs-tab.png "Cilne Mani darbi")
 
 ## <a name="my-machine-tab"></a>Cilne Mana iekārta
 
@@ -133,70 +145,86 @@ Ja partijas pasūtījums ir izveidots no formulas versijas, kur **Līdzproduktu 
 
 Šajā gadījumā darbinieks var norādīt līdzproduktu un daudzumu pārskatam, pārskata norises dialoglodziņā atlasot **Līdzproduktu variācijas**. Pēc tam darbinieks var atlasīt no visām izlaistajām precēm, kas definētas kā līdzprodukti.
 
+### <a name="reporting-catch-weight-items"></a>Pieļaujamā svara krājumu pārskats
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until further notice -->
+
+Darbinieki var izmantot ražošanas izpildes interfeisu, lai ziņotu par to partijas pasūtījumu progresu, kas ir izveidoti pieļaujamā svara krājumiem. Partijas pasūtījumi tiek izveidoti no formulām, kuras var definēt, lai pieļaujamā svara krājumi būtu formulas krājumi, līdzprodukti un blakusprodukti. Formulu var arī noteikt, lai būtu formulas rindas sastāvdaļām, kas definētas pieļaujamam svaram. Pieļaujamā svara krājumiem tiek izmantota divas mērvienības, lai sekotu krājumiem: pieļaujamā svara daudzumam un krājumu daudzumam. Piemēram, pārtikas nozarē kastu gaļu var definēt kā pieļaujamā svara krājumu, kur pieļaujamā svara daudzumu izmanto, lai izsekotu lodziņu skaitu un krājumu daudzumu, ko lieto, lai atsekotu lodziņu svaru.
+
 ## <a name="reporting-scrap"></a>Ziņošana par brāķi
 
 Kad darbinieks pabeidz vai daļēji pabeidz darbu, viņš var ziņot par preču brāķi, kas tika saražots, atlasot darbu cilnē **Aktīvie darbi** un pēc tam atlasot **Ziņot par brāķi**. Pēc tam dialoglodziņā **Ziņot par brāķi** darbinieks ievada brāķa daudzumu, izmantojot ciparu tastatūru. Darbinieks atlasa arī pamatojumu (*Neviens*, *Mašīna*, *Operators* vai *Materiāls*).
 
 ![Dialoglodziņš Ziņot par brāķi.](media/pfei-report-scrap-dialog.png "Dialoglodziņš Ziņot par brāķi")
 
-## <a name="adjust-material-consumption-and-make-material-reservations"></a>Pielāgojiet materiālu patēriņu un veiciet materiālu rezervācijas
+## <a name="adjust-material-consumption-and-make-material-reservations"></a>Materiālu patēriņa pielāgošana un materiālu rezervāciju pielāgošana
 
 [!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 <!-- KFM: preview until further notice -->
 
-Strādnieki var pielāgot materiālu patēriņu katram ražošanas darbam. Šī funkcionalitāte tiek izmantota gadījumos, kad faktiskais materiālu daudzums, kas tika patērēts ražošanas darbam, bija lielāks vai mazāks par plānoto daudzumu. Tāpēc tas ir jāpielāgo, lai krājumu līmenis būtu aktuāls.
+Darbinieki var pielāgot materiālu patēriņu katram ražošanas darbam. Šī funkcionalitāte tiek izmantota scenārijos, kuros faktiskais materiālu daudzums, kas patērēts ražošanas uzdevumam, bija lielāks vai mazāks par plānoto daudzumu. Tāpēc tas ir jāpielāgo, lai uzturētu krājumu līmeņus pašreizējā līmenī.
 
-Strādnieki var arī rezervēt materiālu partijas un sērijas numurus. Šī funkcionalitāte tiek izmantota gadījumos, kad darbiniekam ir manuāli jānorāda, kura materiāla partijas vai sērijas numuri tika patērēti, lai izpildītu materiāla izsekojamības prasības.
+Darbinieki var veikt arī rezervācijas paketes un materiālu sērijas numuriem. Šī funkcionalitāte tiek izmantota scenārijos, kuros darbiniekam manuāli jānorāda, kāda materiālu pakete vai sērijas numuri tika patērēti, lai atbilstu materiālu izsekošanas prasībām.
 
-Darbinieki var norādīt pielāgojamo daudzumu, atlasot **Pielāgojiet materiālu**. Šī poga ir pieejama šādās vietās:
+Darbinieki var norādīt koriģējamo daudzumu, atlasot Pielāgot **materiālu**. Šī poga ir pieejama šādās vietās:
 
-- Iekš **Ziņot par īsu paziņojumu** dialoglodziņš
-- Iekš **Ziņot par progresu** dialoglodziņš
-- Rīkjoslā labajā pusē
+- Dialoglodziņā Brāķa **pārskats**
+- **Pārskata norises** dialoglodziņā
+- Rīkjoslas labajā pusē
 
-### <a name="adjust-material-consumption-from-the-report-scrap-and-report-progress-dialog-boxes"></a>Pielāgojiet materiāla patēriņu dialoglodziņos Ziņojums par lūžņiem un Pārskats par progresu
+### <a name="adjust-material-consumption-from-the-report-scrap-and-report-progress-dialog-boxes"></a>Materiālu patēriņa pielāgošana no pārskata brāķa un pārskata progresa dialoglodziņiem
 
-Pēc tam, kad darbinieks ir ievadījis daudzumu, par kuru jāziņo **Ziņot par progresu** vai **Ziņot par īsu paziņojumu** dialoglodziņš, **Pielāgojiet materiālu** poga kļūst pieejama. Kad lietotājs atlasa šo pogu, **Pielāgojiet materiālu** parādās dialoglodziņš. Šajā dialoglodziņā ir uzskaitītas preces, kuras plānots patērēt, kad tiek ziņots par preces vai izlietoto daudzumu darbam.
+Kad darbinieks ievada daudzumu pārskatam dialoglodziņā **Pārskata** progress vai Ziņot par **brāķi**, kļūst **pieejama poga** Pielāgot materiālu. Kad lietotājs atlasa šo pogu, tiek **atvērts** dialoglodziņš Pielāgot materiālu. Šajā dialoglodziņā ir uzskaitīti krājumi, kas ir plānoti patēriņam, kad darbam tiek ziņots par preču vai brāķēto daudzumu.
 
-Sarakstā dialoglodziņā ir redzama šāda informācija:
+Saraksts dialoglodziņā parāda šādu informāciju:
 
-- **Produkta numurs** – Produkta meistars un preces variants.
+- **Preces numurs** – preces šablons un preces variants.
 - **Preces nosaukums** – preces nosaukums.
-- **Priekšlikums** – Aptuvenais materiāla daudzums, kas tiks patērēts, kad tiks ziņots par progresu vai lūžņiem noteiktajam darba daudzumam.
-- **Patēriņš** – faktiskais materiāla daudzums, kas tiks patērēts, kad tiks ziņots par progresu vai lūžņiem noteiktajam darba daudzumam.
-- **Rezervēts** – Materiāla daudzums, kas ir fiziski rezervēts krājumos.
-- **Vienība** – Materiālu rēķina (BOM) vienība.
+- **Priekšlikums** – novērtētais materiālu daudzums, kas tiks patērēts, kad tiek ziņots par progresu vai brāķi norādītajam darba daudzumam.
+- **Patēriņš** – faktiskais materiālu daudzums, kas tiks patērēts, kad tiek ziņots par progresu vai brāķi norādītajam darba daudzumam.
+- **Rezervēts** – materiālu daudzums, kas fiziski rezervēts krājumos.
+- **Vienība** – materiālu komplekta (MK) vienība.
 
-Dialoglodziņa labajā pusē tiek parādīta šāda informācija:
+Dialoglodziņa labajā pusē ir parādīta šāda informācija:
 
-- **Produkta numurs** – Produkta meistars un preces variants.
-- **Aptuvenais** – Paredzamais patērētais daudzums.
-- **Sākts** – daudzums, kas ir uzsākts ražošanas darbā.
-- **Atlikušais daudzums** – No aplēstā daudzuma daudzums, kas vēl jāpatērē.
-- **Izlaistais daudzums** – Patērētais daudzums.
+- **Preces numurs** – preces šablons un preces variants.
+- **Plānotais** – plānotais patērējamais daudzums.
+- **Sākts** – daudzums, kas uzsākts ražošanas uzdevumam.
+- **Atlikušais** daudzums – no plānotā daudzuma, kas paliek patērēts.
+- **Izpildei nodotais** daudzums – patērētais daudzums.
 
 Var veikt šādas darbības:
 
-- Darbinieks var norādīt daudzumu, kas jāpielāgo materiālam, atlasot **Pielāgojiet patēriņu**. Pēc daudzuma apstiprināšanas norādītais daudzums **Patēriņš** kolonna tiek atjaunināta ar koriģēto daudzumu.
-- Kad darbinieks izvēlas **Pielāgojiet materiālu**, tiek izveidots ražošanas atlases saraksta žurnāls. Šajā žurnālā ir tādi paši vienumi un daudzumi kā **Pielāgojiet materiālu** sarakstu.
-- Kad darbinieks pielāgo daudzumu **Pielāgojiet materiālu** dialoglodziņš, **Priekšlikums** lauks attiecīgajā žurnāla rindā tiek atjaunināts ar tādu pašu daudzumu. Ja strādnieks izvēlas **Atcelt** iekš **Pielāgojiet materiālu** dialoglodziņā, atlases saraksts tiek dzēsts.
-- Ja strādnieks izvēlas **labi**, atlases saraksts netiek dzēsts. Tas tiks publicēts, kad par darbu tiks ziņots **Ziņot par īsu paziņojumu** vai **Ziņot par progresu** dialoglodziņš.
-- Ja strādnieks izvēlas **Atcelt** iekš **Ziņot par progresu** vai **Ziņot par īsu paziņojumu** dialoglodziņā, atlases saraksts tiek dzēsts.
+- Darbinieks var norādīt koriģējamo materiāla daudzumu, atlasot Pielāgot **patēriņu**. Kad daudzums ir apstiprināts, daudzums kolonnā Patēriņš **tiek** atjaunināts ar pielāgoto daudzumu.
+- Kad darbinieks atlasa **Pielāgot materiālu**, tiek izveidots ražošanas izdošanas saraksta žurnāls. Šis žurnāls ietver tādus pašus krājumus un daudzumus kā **materiālu saraksts Pielāgot**.
+- Kad darbinieks koriģē daudzumu dialoglodziņā **Pielāgot** materiālu, **lauks** Priekšlikums atbilstošā žurnāla rindā tiek atjaunināts ar tādu pašu daudzumu. Ja darbinieks dialoglodziņā **Pielāgot** materiālu atlasa **Atcelt**, izdošanas saraksts tiek dzēsts.
+- Ja darbinieks atlasa **Labi**, izdošanas saraksts netiek dzēsts. Tas tiks grāmatots, kad par darbu tiek ziņots dialoglodziņā **Pārskata brāķis** **vai Ziņot** par progresu.
+- Ja darbinieks dialoglodziņā Pārskata **progress vai** Ziņot **brāķi** **atlasa** Atcelt, izdošanas saraksts tiek dzēsts.
 
-### <a name="adjust-material-from-the-toolbar-on-the-right"></a>Pielāgojiet materiālu no rīkjoslas labajā pusē
+### <a name="adjust-material-from-the-toolbar-on-the-right"></a>Materiālu pielāgošana no rīkjoslas labajā pusē
 
-The **Pielāgojiet materiālu** pogu var konfigurēt tā, lai tā parādītos rīkjoslā labajā pusē. (Papildinformāciju skatiet [Izstrādājiet ražošanas grīdas izpildes saskarni](production-floor-execution-tabs.md) .) Strādnieks var izvēlēties **Pielāgojiet materiālu** par ražošanas darbu, kas notiek. Šajā gadījumā, **Pielāgojiet materiālu** tiek parādīts dialoglodziņš, kurā darbinieks var veikt vajadzīgos pielāgojumus. Kad tiek atvērts dialoglodziņš, ražošanas pasūtījumam tiek izveidots produkcijas komplektēšanas saraksts, kurā ir rindas pielāgotajiem daudzumiem. Ja strādnieks izvēlas **Publicēt tūlīt**, korekcija tiek apstiprināta un komplektēšanas saraksts tiek publicēts. Ja strādnieks izvēlas **Atcelt**, atlases saraksts tiek dzēsts un korekcija netiek veikta.
+Materiālu **pielāgošanas** pogu var konfigurēt tā, lai tā tiktu parādīta rīkjoslas labajā pusē. (Plašāku informāciju skatiet [Veidot ražošanas izpildes interfeisu](production-floor-execution-tabs.md).) Darbinieks var atlasīt **Pielāgot** materiālu ražošanas darbam, kas tiek veikts. Šajā gadījumā tiek atvērts **dialoglodziņš** Pielāgot materiālu, kur darbinieks var veikt vēlamās korekcijas. Kad ir atvērts dialoglodziņš, ražošanas pasūtījumam tiek izveidots ražošanas izdošanas saraksts, kas satur rindas pielāgotajiem daudzumiem. Ja darbinieks atlasa **Grāmatot tagad**, pielāgojums tiek apstiprināts un izdošanas saraksts tiek grāmatots. Ja darbinieks atlasa **Atcelt**, izdošanas saraksts tiek dzēsts un neviens pielāgojums netiek veikts.
 
-### <a name="reserve-materials"></a>Rezerves materiāli
+### <a name="adjust-material-consumption-for-catch-weight-items"></a>Pielāgot materiālu patēriņu pieļaujamā svara krājumiem
 
-Iekš **Pielāgojiet materiālu** dialoglodziņā strādnieks var veikt un pielāgot materiālu rezervācijas, atlasot **Rezerves materiāls**. The **Rezerves materiāls** parādītajā dialoglodziņā tiek parādīti fiziski pieejamie preces krājumi katrai uzglabāšanas un izsekošanas kategorijai.
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until further notice -->
 
-Ja materiāls ir iespējots uzlabotajiem noliktavas procesiem, sarakstā tiek rādīti tikai fiziski pieejamie krājumi materiāla ražošanas ievades vietai. Ražošanas ievades vieta ir noteikta resursā, kurā tiek plānots ražošanas darbs. Ja preces numuru kontrolē partijas vai sērijas numurs, tiek parādīts pilns fiziski pieejamo partijas un sērijas numuru saraksts. Lai norādītu rezervējamo daudzumu, darbinieks var izvēlēties **Rezerves materiāls**. Lai noņemtu esošu rezervāciju, darbinieks var atlasīt **Noņemt rezervāciju**.
+Darbinieki var pielāgot materiālu patēriņu pieļaujamā svara krājumiem. Šī funkcionalitāte tiek izmantota scenārijos, kuros faktiskais pieļaujamā svara materiāla daudzums, ko patērē ražošanas darbs, bija lielāks vai mazāks par plānoto daudzumu. Tāpēc tas ir jāpielāgo, lai uzturētu krājumu līmeņus pašreizējā līmenī. Kad darbinieks koriģē pieļaujamā svara krājuma patēriņu, viņš var pielāgot gan pieļaujamā svara daudzumu, gan krājumu daudzumu. Piemēram, ja ražošanas uzdevumam ir plānots patērēt piecas kastes ar novērtēto svaru 2 kilogrami uz kasti, darbinieks var pielāgot gan patērēšanas lodziņu skaitu, gan kastu svaru. Sistēma validēs, ka lodziņos norādītais svars atbilst definētajam minimālajam un maksimālajam slieksnim, kas noteikts izlaistajai precei.
 
-Papildinformāciju par ražošanas ievades vietas iestatīšanu skatiet šajā emuāra ierakstā: [Ražošanas ievades vietas iestatīšana](/archive/blogs/axmfg/deliver-picked-materials-to-the-locations-where-the-materials-are-consumed-by-operations-in-production).
+### <a name="reserve-materials"></a>Rezervēt materiālus
+
+Dialoglodziņā Pielāgot **materiālu darbinieks** var veikt un koriģēt materiālu rezervācijas, atlasot Rezervēt **materiālu**. Tiek **atvērts dialoglodziņš** Rezervēt materiālu, kurā ir redzami katras noliktavas un izsekošanas dimensijas fiziski pieejamie krājumi.
+
+Ja materiāls ir aktivizēts papildu noliktavas procesiem, saraksts parāda tikai fiziski pieejamo krājumu ražošanas ievades vietai materiālam. Ražošanas ievades vieta ir definēta resursā, kur ir plānots ražošanas darbs. Ja krājuma kods ir kontrolēts ar partiju vai sērijas numuru, tiek parādīts pilns fiziski pieejamo partijas un sērijas numuru saraksts. Lai norādītu rezervējajamo daudzumu, darbinieks var atlasīt Rezervēt **materiālu**. Lai noņemtu esošu rezervāciju, darbinieks var atlasīt Vienumu **Noņemt rezervāciju**.
+
+Papildinformāciju par to, kā iestatīt ražošanas ievades vietu, skatiet šajā grāmatošanas vietā: [ražošanas ievades vietas iestatīšana](/archive/blogs/axmfg/deliver-picked-materials-to-the-locations-where-the-materials-are-consumed-by-operations-in-production).
 
 > [!NOTE]
-> Rezervācijas, ko darbinieks veic dialoglodziņā **Materiālu** rezervēšana, paliks, kad darbinieks dialoglodziņā **Pārskata norise** vai **Atskaite par brāķi** atlasīs **Atcelt**.
+> Rezervācijas, kuras darbinieks veic **dialoglodziņā Rezervēt materiālu, paliks, kad darbinieks dialoglodziņā Pārskata norise vai Ziņot par brāķi** atlasīs **·** **·** **atcelt.**
+>
+> Pieļaujamā svara krājumiem nevar koriģēt rezervācijas.
 
 ## <a name="completing-a-job-and-starting-a-new-job"></a>Darba pabeigšana un jauna darba sākšana
 
