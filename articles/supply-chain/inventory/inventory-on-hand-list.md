@@ -1,26 +1,24 @@
 ---
 title: Rīcībā esošo krājumu saraksts
 description: Šajā tēmā ir aprakstīts, kā izmantot rīcībā esošo sarakstu lapu, lai pārbaudītu rīcībā esošo krājumu detaļas. Tas parāda dažus veidus, kā dažādās filtrēšanas un šķirošanas iespējas darbojas kopā, un to, kā šīs iespējas dažreiz var radīt negaidītus rezultātus, kad tās tiek apvienotas.
-author: sherry-zheng
-manager: tfehr
+author: yufeihuang
 ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventOnhandItem, InventOnHandItemListPage, WHSOnHand
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: chuzheng
+ms.author: yufeihuang
 ms.search.validFrom: 2020-07-07
-ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 94e54220a68889fd31ac3b269f7a7f6f8dd98c8e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.12
+ms.openlocfilehash: 9464240123ec2248e1b66f32dd3c9a2f974512b6
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5005206"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573925"
 ---
 # <a name="inventory-on-hand-list"></a>Rīcībā esošo krājumu saraksts
 
@@ -145,3 +143,6 @@ Sistēmā ir ietverta detalizēta (neapkopota) krājumu tabula, kurā redzami š
 | IA0001 | 1 | 2 | 2 |
 
 Ievērojiet, ka iestatījumi **Filtru** rūtī attiecas uz detalizēto (neapkopoto) krājumu tabulu, kas tiek parādīta šīs sadaļas sākumā. Tādējādi kritērijs **Pieejama fiziskā** \| **vērtība ir mazāka par vai vienāda ar** \| _1_ atrod divas rindas no šīs tabulas (pirmā un trešā rinda, no kurām katra rāda **Pieejamo fizisko** vērtību _1_). Tomēr šajā scenārijā **Rīcībā esošā saraksta** lapa nav iestatīta, lai rādītu **Noliktavas** dimensiju. Tāpēc tā apvieno divas sākotnējās rindas vienā iegūtajā rindā, jo abām rindām ir vienādas vērtības visās parādītajās dimensijās. Šī rinda tiek rādīta, lai pārkāptu filtrēšanas kritēriju, jo **Pieejamā fiziskā** vērtība tiek parādīta kā _2_. Tomēr rezultāts ir pareizs, jo iestatījumi **Filtru** rūtī attiecas uz avota tabulu, nevis uz apkopoto tabulu, kas tiek rādīta **Rīcībā esošā saraksta** lapā.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

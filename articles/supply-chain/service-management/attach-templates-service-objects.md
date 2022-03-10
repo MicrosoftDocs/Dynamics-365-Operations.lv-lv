@@ -1,29 +1,26 @@
 ---
 title: Veidņu pievienošana pakalpojumu objektiem
 description: Veidnes materiālu komplekts (MK) var tikt pievienots pakalpojuma objekta attiecībai.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceObjectTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e79526dd43f516f2f4abf31276f314cb2498458e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 77f03a4f74ae4f0ebec67c2a86e369d7e7280b01
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432960"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566267"
 ---
 # <a name="attach-templates-to-service-objects"></a>Veidņu pievienošana pakalpojumu objektiem    
 
@@ -55,3 +52,6 @@ Veidnes materiālu komplekts (MK) var tikt pievienots pakalpojuma objekta attiec
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

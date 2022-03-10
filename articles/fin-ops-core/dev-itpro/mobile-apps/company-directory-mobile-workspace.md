@@ -2,7 +2,6 @@
 title: Mobilā darbvieta Uzņēmuma direktorijs
 description: Šajā tēmā ir sniegta informācija par mobilo darbvietu Uzņēmuma direktorijs, kas sniedz lietotājiem iespēju skatīt informāciju par citiem organizācijas darbiniekiem un sazināties ar tiem.
 author: jcart1106
-manager: AnnBe
 ms.date: 09/17/2019
 ms.topic: article
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6f48d369d5cd9d5ee0b234ce924ec0b80388c792
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
-ms.translationtype: HT
+ms.openlocfilehash: 2152d89e7d60a74e8d7561ea888e60cff42dd1ffd0ec697fac371aad9b85383c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570120"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720652"
 ---
 # <a name="company-directory-mobile-workspace"></a>Mobilā darbvieta Uzņēmuma direktorijs
 
@@ -29,7 +28,7 @@ ms.locfileid: "5570120"
 Šo mobilā darbvietu var izmantot kopā ar mobilo programmu Finance and Operations.
 
 ## <a name="overview"></a>Pārskats
-Mobilā darbvieta **Uzņēmuma direktorijs** sniedz lietotājiem iespēju veikt tālāk norādītos uzdevumus.
+Mobilā darbvieta **Uzņēmuma direktorijs** sniedz lietotājiem iespēju veikt tālāk norādītos uzdevumus:
 
 - Skatīt organizācijas darbinieku sarakstu.
 - Meklēt organizācijas darbiniekus.
@@ -74,11 +73,11 @@ Mobilās programmas Finance and Operations lejupielāde un instalēšana.
 
 ## <a name="sign-in-to-the-mobile-app"></a>Pierakstīšanās mobilajā programmā
 1.  Palaidiet programmu savā mobilajā ierīcē.
-2.  Ievadiet savu Microsoft Dynamics 365 vietrādi URL.
+2.  Ievadiet savu Microsoft Dynamics 365 vietrādi URL.
 3.  Pirmajā pierakstīšanās reizē tiek prasīts ievadīt lietotājvārdu un paroli. Ievadiet savus akreditācijas datus.
 4.  Pēc pierakstīšanās tiek parādītas jūsu uzņēmumam pieejamās darbvietas. Ņemiet vērā, ka gadījumā, ja sistēmas administrators vēlāk publicēs jaunu darbvietu, jums būs jāatsvaidzina mobilo darbvietu saraksts.
 
-[![Velciet, lai atsvaidzinātu](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Velciet, lai atsvaidzinātu.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-the-company-directory-by-using-the-mobile-workspace"></a>Uzņēmuma direktorija skatīšana, izmantojot mobilo darbvietu
 1.  Mobilajā programmā atlasiet darbvietu **Uzņēmuma direktorijs**. Tiek parādīts darbinieku saraksts.

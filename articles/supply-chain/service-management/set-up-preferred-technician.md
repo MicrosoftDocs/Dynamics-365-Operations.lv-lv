@@ -1,7 +1,7 @@
 ---
 title: Ieteicamā tehniskā speciālista iestatīšana
 description: Jebkuru darbinieku var atlasīt kā ieteicamo tehnisko speciālistu pakalpojumu līgumam vai pakalpojuma pasūtījumam.
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a517c54214476aed438846c57fe58eb5ec9ef8d1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: dac9af5b0b83875d362f1a9db60c99436d1bb699
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835730"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575007"
 ---
 # <a name="set-up-a-preferred-technician"></a>Ieteicamā tehniskā speciālista iestatīšana 
 

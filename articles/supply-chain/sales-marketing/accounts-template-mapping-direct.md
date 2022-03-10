@@ -1,7 +1,7 @@
 ---
 title: Programmā Sales esošo kontu tieša sinhronizēšana ar klientiem programmā Supply Chain Management
 description: Šajā tēmā ir apskatītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Dynamics 365 Sales ietverto kontu sinhronizēšanai ar programmu Supply Chain Management.
-author: ChristianRytt
+author: Henrikan
 ms.date: 10/25/2018
 ms.topic: article
 ms.prod: ''
@@ -13,21 +13,21 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 270d83552a3e35042c32cb85888439d40068ff0c
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: b3257f4582ede6cd1be8e593a5ed99f5ffd0ca6f
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355953"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063089"
 ---
 # <a name="synchronize-accounts-directly-from-sales-to-customers-in-supply-chain-management"></a>Programmā Sales esošo kontu tieša sinhronizēšana ar klientiem programmā Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 > [!NOTE]
 > Pirms risinājuma No potenciāla klienta līdz skaidrai naudai lietošanas izlasiet rakstu [Datu integrēšana pakalpojumā Microsoft Dataverse programmām](/powerapps/administrator/data-integrator).

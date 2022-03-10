@@ -1,31 +1,30 @@
 ---
-title: Pirkšanas pasūtījuma apskats
+title: Pirkšanas pasūtījuma pārskats
 description: Šajā rakstā ir sniegta vispārīga informācija par pirkšanas pasūtījumiem (PP) un saites uz papildu rakstiem, kas ir saistīti ar dažādajiem PP apstrādes posmiem.
-author: mkirknel
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchLineOpenOrder, PurchConfirmationRequestJournal
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
-ms.custom: 93083
+ms.custom:
+- "93083"
+- intro-internal
 ms.assetid: e9b7bc5b-1d7e-4ec2-97be-d655274b0613
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cfb35d6db74f965911329dbd6215d1108149fa6c
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
-ms.translationtype: HT
+ms.openlocfilehash: b2e01f73aa78c0fabf0f5a1e0acd3bbc4f69cfc4
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4433213"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982308"
 ---
-# <a name="purchase-order-overview"></a>Pirkšanas pasūtījuma apskats
+# <a name="purchase-order-overview"></a>Pirkšanas pasūtījuma pārskats
 
 [!include [banner](../includes/banner.md)]
 
@@ -44,7 +43,7 @@ Tālāk norādītajos rakstos ir sniegts apskats par dažādajiem PP apstrādes 
 -   [Pirkšanas pasūtījumu izveidošana](purchase-order-creation.md)
 -   [Pirkšanas pasūtījumu apstiprināšana un ratificēšana](purchase-order-approval-confirmation.md)
 -   [Produktu ieejas plūsma pret pirkšanas pasūtījumiem](product-receipt-against-purchase-orders.md)
--   [Apskats par kreditoru rēķiniem](../../financials/accounts-payable/vendor-invoices-overview.md)
+-   [Apskats par kreditoru rēķiniem](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 ## <a name="types-of-purchase-orders"></a>Pirkšanas pasūtījumu tipi
 Ir pieejami trīs pirkšanas pasūtījumu veidi. Kad izveidojat pirkšanas pasūtījumu, ir jānorāda tā veids. Noklusējuma pasūtījuma tipu jauniem pasūtījumiem varat iestatīt lapā **Sagādes un avotu parametri**.
@@ -79,8 +78,7 @@ Lauks **Apstiprinājuma statuss** tiek izmantots, kad pirkšanas pasūtījumam t
 -   **Ratificēts** — šis statuss tiek piešķirts pēc tam, kad pasūtījums ir ratificēts. Parasti šis statuss ir pēdējais apstiprinājuma statuss, kas pasūtījumam tiek piešķirts.
 
 
-<a name="additional-resources"></a>Papildu resursi
---------
+## <a name="additional-resources"></a>Papildu resursi
 
 [Pirkšanas pasūtījumu izveidošana](purchase-order-creation.md)
 
@@ -88,7 +86,10 @@ Lauks **Apstiprinājuma statuss** tiek izmantots, kad pirkšanas pasūtījumam t
 
 [Produktu ieejas plūsma pret pirkšanas pasūtījumiem](product-receipt-against-purchase-orders.md)
 
-[Apskats par kreditoru rēķiniem](../../financials/accounts-payable/vendor-invoices-overview.md)
+[Apskats par kreditoru rēķiniem](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

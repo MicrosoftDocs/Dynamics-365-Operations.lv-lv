@@ -2,27 +2,27 @@
 title: Klienta maksājumu ieskati (priekšskatījums)
 description: Šī tēma apraksta maksājuma ieskatu iespēju, kas var palīdzēt uzlabot izpratni par atsevišķu debitoru parasto maksājumu praksi. Šis līdzeklis var arī palīdzēt identificēt apstākļus, kas attaisno iekasēšanas procesu sākšanu agrāk, nekā to varētu sākt citādi.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 11/06/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 21516cb7ef6e95dcef27638ddb72520f492958a5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: d359e3ceef0fb7213d52aeb265da2e75120ae223
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207331"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984006"
 ---
 # <a name="customer-payment-insights-preview"></a>Klienta maksājumu ieskati (priekšskatījums)
 
@@ -49,11 +49,11 @@ Katram neapmaksātajam rēķinam līdzeklis Debitoru maksājumu ieskati (priekš
 
 Debitora maksājumu ieskati (priekšskatījums) sniedz arī apkopotu skatu par gaidāmajiem maksājumiem, kas var palīdzēt organizācijām izprast kopējo maksājuma summu, ko tās var sagaidīt no debitora vienā no trijiem intervāliem (Laikā, Novēloti un Ļoti novēloti).
 
-[![Apkopots skats uz maksājuma prognozēm](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
+[![Apkopots skats uz maksājuma prognozēm.](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
 
 Turklāt katram rēķinam ir piešķirta maksājuma iespējamība laikā. Ja maksājuma iespējamība laikā ir mazāka par 50%, rēķini tiek atzīmēti ar sarkanu apli, lai norādītu, ka šiem rēķiniem var būt nepieciešama uzmanība iekasēšanā. 
 
-[![Maksājumu iespējamības saraksts](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
+[![Maksājumu iespējamības saraksts.](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
 
 Debitora maksājuma ieskats (priekšskatījums) sniedz arī kontekstuālu informāciju, lai izskaidrotu prognozēšanu, piemēram, vislabākos faktorus, kas ietekmēja prognozes, pašreizējo biznesa situāciju ar debitoru un detalizētu informāciju par vēsturisko debitoru maksājumu uzvedību. Daudzos uzņēmumos iekasēšanas process ir aktīva darbība; iekasēšanas process netiek sākts, līdz pienāk rēķinu apmaksas laiks. 
 
@@ -61,7 +61,7 @@ Ar debitoru maksājumu ieskatu (priekšskatījums), organizācijas var būt akt�
 
 ## <a name="methodology"></a>Metodoloģija
 
-AI risinājuma izstrāde un izvietošana ir grūta. Ir nepieciešama datu zinātnieku grupa, mācību priekšmetu eksperti un inženieri, kas strādā ilgāku laika periodu, lai formulētu, attīstītu, izvietotu un uzturētu izmantojamu AI risinājumu. Mēs atvieglojam AI risinājumu izvietošanu un izmantošanu programmā Finance. Mēs esam ievietojuši AI risinājumus programmā Finance, kas ir iebūvēti papildus Microsoft AI Builder. Gala lietotājs ar vienu pogas klikšķi var izvietot AI risinājumu un sākt izmantot inteliģento prognožu iespējas. Ja organizācija nav apmierināta ar prognožu precizitāti, prasmīgs lietotājs, atkal izmantojot vienu klikšķi, var ievadīt AI builder paplašināšanas pieredzi un pēc tam atlasīt vai noņemt laukus, ko izmanto prognožu ģenerēšanai. Kad tas ir sagatavots, tie var apmācīt un publicēt izmaiņas, un jaunais modelis tiks automātiski ievākts prognozēm programmā Finance.
+AI risinājuma izstrāde un izvietošana ir grūta. Ir nepieciešama datu zinātnieku grupa, mācību priekšmetu eksperti un inženieri, kas strādā ilgāku laika periodu, lai formulētu, attīstītu, izvietotu un uzturētu izmantojamu AI risinājumu. Mēs atvieglojam AI risinājumu izvietošanu un izmantošanu programmā Finance. Mēs esam prepackaging AI risinājumi Finansēs, kas ir veidotas uz Microsoft bāzes AI Builder. Gala lietotājs ar vienu pogas klikšķi var izvietot AI risinājumu un sākt izmantot inteliģento prognožu iespējas. Ja organizācija nav apmierināta ar prognožu precizitāti, prasmīgs lietotājs, atkal izmantojot vienu klikšķi, var ievadīt AI builder paplašināšanas pieredzi un pēc tam atlasīt vai noņemt laukus, ko izmanto prognožu ģenerēšanai. Kad tas ir sagatavots, tie var apmācīt un publicēt izmaiņas, un jaunais modelis tiks automātiski ievākts prognozēm programmā Finance.
 
 ## <a name="how-to-get-customer-payment-insights-preview"></a>Kā iegūt debitoru maksājumu ieskatus (priekšskatījums)?
 
@@ -69,7 +69,7 @@ Nosūtiet e-pasta ziņojumu uz [Debitoru maksājumu ieskati (priekšskatījums)]
 
 ## <a name="privacy-notice"></a>Paziņojums par konfidencialitāti
 
-Priekšskatījumiem (1) var tikt izmantots mazāk konfidencialitātes un drošības pasākumu nekā pakalpojumam Dynamics 365 Finance and Operations, (2) tie nav ietverti pakalpojuma līmeņa līgumā par šo pakalpojumu, (3) tos nedrīkst izmantot personas datu vai citu tādu datu apstrādei, uz kuriem attiecas juridiskās vai normatīvās prasības, un (4) tiem tiek nodrošināts ierobežots atbalsts.
+Priekšskatījumi (1) var izmantot mazāk konfidencialitātes un drošības pasākumus nekā and Operāciju pakalpojums, (2) nav iekļauti šī pakalpojuma līmeņa līgumā(3), (3) nedrīkst izmantot, lai apstrādātu personas datus vai citus datus, uz kuriem attiecas juridiskās vai regulēšanas saskaņotības prasības, un (4) ir ierobežots Dynamics 365 Finance atbalsts.
 
 
 

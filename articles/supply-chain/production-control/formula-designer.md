@@ -1,12 +1,10 @@
 ---
 title: Formulas veidotājs
 description: Šajā tēmā ir paskaidrots, kā izmantot formulas veidotāju, lai analizētu un uzturētu formulas koka skatā.
-author: cvocph
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 49ec2ac0ce32da13239f3b7789d6f73f22f6e61b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: bf45fdf44e6d060ee16edf1a6628c5ffd9920dcb
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5007205"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566838"
 ---
 # <a name="formula-designer"></a>Formulas veidotājs
 
@@ -47,11 +45,11 @@ Formulu veidotājam ir divas tālāk norādītās sadaļas.
 
 -   Formulas struktūras koka struktūras skats.
 -   Detalizētas informācijas sadaļa, kurā sniegta detalizēta informācija par atlasītajiem datiem. Atlasot zaru koka skatā, FastTabs tiek atjauninātas detalizētas informācijas sadaļā, pamatojoties uz šo mezglu:
-    -   **Detalizēta informācija par formulas rindu** — skatiet detalizētu informāciju par koka skatā atlasīto formulas rindu.
-    -   **Krājuma dati** — skatiet detalizētu informāciju par galveno krājumu vai krājumiem, kas tiek izmantoti atlasītajā zarā. Varat noklikšķināt uz **Labot izlaisto preci**, lai uzturētu atlasīto krājumu.
-    -   **Formula** — skatiet ar atlasīto zaru saistītās formulas virsrakstu.
-    -   **Maršruts** — skatiet ar atlasīto zaru saistītā maršruta virsrakstu.
-    -   **Maršruta operācijas** — skatiet maršruta operāciju priekšskatījumu. Kad tiek atlasīta materiālu komplekta (MK) rinda, kas ir piešķirta konkrētai operācijai, šī operācija tiek atzīmēta kā **Operācijās nepieciešamie komponenti**.
+    -   **Detalizēta informācija par formulas rindu** — skatiet detalizētu informāciju par koka skatā atlasīto formulas rindu.
+    -   **Krājuma dati** — skatiet detalizētu informāciju par galveno krājumu vai krājumiem, kas tiek izmantoti atlasītajā zarā. Varat noklikšķināt uz **Labot izlaisto preci**, lai uzturētu atlasīto krājumu.
+    -   **Formula** — skatiet ar atlasīto zaru saistītās formulas virsrakstu.
+    -   **Maršruts** — skatiet ar atlasīto zaru saistītā maršruta virsrakstu.
+    -   **Maršruta operācijas** — skatiet maršruta operāciju priekšskatījumu. Kad tiek atlasīta materiālu komplekta (MK) rinda, kas ir piešķirta konkrētai operācijai, šī operācija tiek atzīmēta kā **Operācijās nepieciešamie komponenti**.
 
 ## <a name="select-a-formula-and-route"></a>Atlasīt formulu un maršrutu
 Formulai un maršrutam lietotais filtrs tiek rādīts formulu veidotāja virsrakstā. Jūs varat nomainīt filtru, izmantojot dialoglodziņu **Filtrs**. Tabulā ir aprakstīti šī dialoglodziņa lauki.
@@ -66,7 +64,7 @@ Formulai un maršrutam lietotais filtrs tiek rādīts formulu veidotāja virsrak
 <tbody>
 <tr class="odd">
 <td>Preces dimensijas</td>
-<td>Ja atlasītā pabeigtā prece ir preces šablons, tad aktīvās preces dimensijas varat definēt galvenajai atlasei. Ņemiet vērā, ka gadījumā, ja atverat formulu veidotāju precei, kas nav preces šablons, dialoglodziņā <strong>Filtrs</strong> nevar atlasīt nevienu preces dimensiju.</p></td>
+<td>Ja atlasītā pabeigtā prece ir preces šablons, tad aktīvās preces dimensijas varat definēt galvenajai atlasei. Ņemiet vērā, ka gadījumā, ja atverat formulu veidotāju precei, kas&#39;nav preces šablons, dialoglodziņā <strong>Filtrs</strong> nevar atlasīt nevienu preces dimensiju.</p></td>
 </tr>
 <tr class="even">
 <td>Atrašanās vieta</td>
@@ -120,3 +118,6 @@ Noklikšķiniet uz **Iestatīšana**, lai pielāgotu formulu veidotāja koka ska
 |     MK     | Izmantojiet izvēles rūtiņas, lai atlasītu kritērijus, kas tiek parādīti koka struktūrā. Formulu veidotājs abu ciļņu apakšdaļā rāda atlasītos kritērijus. |
 |    Maršruts    |                                           Izmantojiet izvēles rūtiņas, lai atlasītu kritērijus, kas tiek parādīti maršrutiem.                                           |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

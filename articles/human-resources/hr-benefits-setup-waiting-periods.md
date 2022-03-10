@@ -1,31 +1,33 @@
 ---
 title: Konfigurēt gaidīšanas periodus
 description: Risinājumā Microsoft Dynamics 365 Human Resources gaidīšanas dienas izveido atskaites punktu, ko izmantot atvieglojumu plāniem.
-author: andreabichsel
-manager: tfehr
-ms.date: 04/06/2020
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 07ceed65a0346912d4be012a5cec502b0f0a6149
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
-ms.translationtype: HT
+ms.openlocfilehash: 3df65a89ca4b18de2c823ca02fd8daa3da1e9ea6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5113332"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066879"
 ---
 # <a name="configure-waiting-periods"></a>Konfigurēt gaidīšanas periodus
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Risinājumā Microsoft Dynamics 365 Human Resources gaidīšanas dienas izveido atskaites punktu, ko izmantot atvieglojumu plāniem. Piemēram, trīs mēneši no darbā pieņemšanas datuma, katra mēneša pirmais datums vai seši mēneši.   
 
@@ -39,9 +41,12 @@ Risinājumā Microsoft Dynamics 365 Human Resources gaidīšanas dienas izveido 
    | --- | --- |
    | **Gaidīšanas kods** | Unikāls gaidīšanas perioda identifikators. |
    | **Apraksts** | Gaidīšanas perioda apraksts. |
-   | **Gaidīšanas metode** | Atlasiet atbilstošu gaidīšanas metodi no nolaižamā saraksta vērtībām. Opcijas ir neto, pašreizējais mēnesis, pašreizējais ceturksnis, pašreizējais gads un pašreizējā nedēļa. |
+   | **Gaidīšanas metode** | Atlasiet atbilstošu gaidīšanas metodi no nolaižamā saraksta vērtībām. Opcijas ir **Neto**, **Pašreizējais mēnesis**, **Pašreizējais ceturksnis**, **Pašreizējais gads** un **Pašreizējā nedēļa**. |
    | **Mēneši** | Ievadiet mēnešu skaitu, ko pievienot gaidīšanas metodei, lai aprēķinātu gaidīšanas datumu. |
    | **Dienas** | Ievadiet dienu skaitu, ko pievienot gaidīšanas metodei, lai aprēķinātu gaidīšanas datumu. |
    | **Gaidīšanas diena** | Atlasiet gaidīšanas dienu, ko izmantot, lai aprēķinātu gaidīšanas datumu. |
 
 4. Atlasiet **Saglabāt**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

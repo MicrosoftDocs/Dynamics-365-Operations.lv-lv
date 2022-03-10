@@ -1,29 +1,31 @@
 ---
 title: Veiktspējas pārskatu izveide
 description: Šajā tēmā paskaidrots, kā izveidot rezultātu pārskatu, un tajā aprakstīts katras pārskata nodaļas nolūks.
-author: andreabichsel
-manager: tfehr
-ms.date: 05/05/2020
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscussion, HcmDiscussionChangeSettings, HcmDiscussionAddGoalDialog, HcmTopicCreate, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmEmployeeDevelopmentWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e83bcf60e494e6f04387727bedf41175faa07557
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
-ms.translationtype: HT
+ms.openlocfilehash: 9c3ab4e769008bd8b401967e454aa6402f013773
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115804"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066954"
 ---
 # <a name="create-performance-reviews"></a>Veiktspējas pārskatu izveide
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 Šajā tēmā paskaidrots, kā izveidot rezultātu pārskatu, un tajā aprakstīts katras pārskata nodaļas nolūks. Šī procedūra tika izveidota, izmantojot demonstrācijas uzņēmuma USMF datus.
@@ -42,7 +44,7 @@ ms.locfileid: "5115804"
 
 8. Atlasiet **Mērķa pievienošana pārskatam**, lai pievienotu mērķi. Kad pabeigts, atlasiet **Labi**.
 9. Atlasiet **Pievienot kompetenci**, lai atvērtu nolaižamo dialoglodziņu.
-10. Laukā **Nosaukums** ievadiet vērtību. 
+10. Laukā **Nosaukums** ievadiet vērtību.
 11. Laukā **Apraksts** ievadiet `Increase customer skills by working with the support team`.
 12. Atlasiet **Labi**.
 13. Atlasiet **Sakļaut visas**.
@@ -56,7 +58,7 @@ ms.locfileid: "5115804"
 20. Atlasiet **Labi**.
 21. Atlasiet cilni **Darbības**.
 22. Atlasiet **Pievienot**.
-23. Laukā **Nosaukums** ievadiet vērtību. 
+23. Laukā **Nosaukums** ievadiet vērtību.
 24. Laukā **Apraksts** ierakstiet kādu vērtību.
 25. Laukā **Sākuma datums** ievadiet datumu.
 26. Laukā **Pabeigšanas datums** ievadiet datumu.
@@ -66,15 +68,18 @@ ms.locfileid: "5115804"
 30. Atlasiet cilni **Reitingi**.  
 
     - Kopsavilkuma cilnē **Reitinga detaļas** darbinieki var novērtēt sevi, bet vadītāji novērtēt darbinieku. Ja tiek lietoti svari, automātiski tiks aprēķināta rādītāju vidējā vērtība.  
-    - Lai skatītu šo sadaļu, iespējojiet parametru iestatījumus, lai rādītu darbinieku vērtējumus.  
+    - Lai skatītu šo sadaļu, iespējojiet parametru iestatījumus darbinieku reitingu rādīšanai lapā **Cilvēkresursu kopīgotie parametri**.  
 
-31. Atlasiet cilni **Apstiprināšanas**. Ja pārskatā izmanto darbplūsmu, atteikšanās tiks parādītas tikai pēc darbplūsmas pabeigšanas. Ja darbplūsma netiek izmantota, tad gan darbinieks, gan vadītājs ir norādīti šeit. Nepieciešamā izvēles rūtiņa tiek atzīmēta, pamatojoties uz pārskata tipa iestatījumiem.  
+31. Atlasiet cilni **Apstiprināšanas**. Ja pārskatā izmanto darbplūsmu, atteikšanās tiks parādītas tikai pēc darbplūsmas pabeigšanas. Ja darbplūsma netiek izmantota, tad gan darbinieks, gan vadītājs ir norādīti šeit. Aizzīmes lodziņš **Obligāti** opcijai **Pārtrauktās reģistrācijas** ir atlasīts, pamatojoties pārskata veida iestatījumos.  
 32. Atlasiet cilni **Vispārēji**.
 
     - Veiktspējas periodam izveido noklusējuma sākuma un beigu datumus. Šie datumi ir rediģējami.  
-    - Statusi kontrolē piekļuvi pārskatam. Ja statuss ir **Nesākts**, ikviens var rediģēt pārskatu. Ja statuss ir **Notiekošs**, tikai darbinieks var skatīt un rediģēt pārskatu. **Gatavs pārskatīšanai** ļauj tikai vadītājam skatīt un rediģēt pārskatu. Statuss **Gala pārskats** ļauj gan darbiniekam, gan vadītājam skatīt un rediģēt pārskatu, ja tas ir iestatīts sadaļā pārskata tips. Statusi **Pabeigts** un **Atcelts** padara pārskatu tikai lasāmu. Ja pārskats tiek **Noraidīts** un nosūtīts atpakaļ darbiniekam, gan darbinieks, gan vadītājs var veikt nepieciešamos labojumus, lai darbinieks varētu to atkārtoti iesniegt.
+    - Statusi kontrolē piekļuvi pārskatam. Ja statuss ir **Nesākts**, ikviens var rediģēt pārskatu. Ja statuss ir **Notiekošs**, tikai darbinieks var skatīt un rediģēt pārskatu. **Gatavs pārskatīšanai** ļauj tikai vadītājam skatīt un rediģēt pārskatu. **Gala pārskata** statuss ļauj gan darbiniekam, gan vadītājam skatīt un rediģēt pārskatu, ja pārskata veidā ir atlasīta opcija **Atļaut rediģēt gala pārskatā**. Statusi **Pabeigts** un **Atcelts** padara pārskatu tikai lasāmu. Ja pārskats tiek **Noraidīts** un nosūtīts atpakaļ darbiniekam, gan darbinieks, gan vadītājs var veikt nepieciešamos labojumus, lai darbinieks varētu to atkārtoti iesniegt.
 
 33. Laukā **Pārskats** ierakstiet vērtību.
 34. Atlasiet cilni **Pārskats**. Pārskatam pārvietojoties pa statusiem, darbinieks un vadītājs var pievienot komentārus katram mērķim vai kompetencei.  
-35. Atlasiet cilni **Apstiprināšanas**. Darbinieks un pārvaldnieks var apstiprināt pārskatu. Kad izpildītas visas apstiprināšanas, statuss tiek mainīts uz **Pabeigts** un vairāk izmaiņu nevar veikt.  
+35. Atlasiet cilni **Apstiprināšanas**. Darbinieks un pārvaldnieks var apstiprināt pārskatu. Kad visas vajadzīgās nepabeigtas reģistrācijas ir pabeigtas, statuss tiek mainīts uz **Pabeigts** un nav iespējams veikt jaunas izmaiņas.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

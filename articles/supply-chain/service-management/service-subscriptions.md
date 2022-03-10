@@ -1,29 +1,26 @@
 ---
 title: Pakalpojumu abonementi
 description: Abonementi ir balstīti uz laika un materiālu projektu. Varat izveidot abonementus no projekta pakalpojumu abonementu lapā vai, izmantojot pakalpojuma abonēšanas grupu.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 02/19/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASubscriptionTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ccf4c722bd2342888326ae65e9f059bcd307c98f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 98e192cb4553d37437a0637af2006550b4340d84
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432461"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570085"
 ---
 # <a name="service-subscriptions"></a>Pakalpojumu abonementi
 
@@ -38,3 +35,6 @@ Perioda kods norāda abonēšanas maksas perioda apjomu vai arī intervālus, k�
 Perioda kods ir noteikts pakalpojuma abonēšanas grupā. Abonementiem tas tiek definēts, izmantojot pakalpojuma abonēšanas grupu. Jebkurai jaunai abonēšanas maksai, kuru jūs izveidosiet, tiks piedāvāts sākuma datums. Tas ir perioda sākuma datums (ja šis ir pirmais izveidotais periods) vai iepriekšējā perioda beigu datums (ja šis ir otrais vai kāds no turpmākajiem periodiem).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

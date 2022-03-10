@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: aece2b79633802d28ba3b4fd8b51788e26c17a67
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: e9ba43e243df4ba4b7c0eb6188629686206ff09b
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815168"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394543"
 ---
 # <a name="create-account-structures"></a>Kontu struktūru izveide
 

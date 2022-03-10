@@ -2,32 +2,29 @@
 title: Rēķina automatizācija skenētiem dokumentiem
 description: Šajā tēmā ir paskaidrots, kādi līdzekļi ir pieejami kreditoru rēķinu (arī to rēķinu, kam ir pielikumi) automatizācijai visā procesa garumā.
 author: abruer
-manager: AnnBe
-ms.date: 05/22/2020
+ms.date: 03/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendEditInvoiceHeaderStagingListPage
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6d19d0e10f477e498e8f0fff1f431bc4bfdd9a1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: f407d42fe624206e32a2f58fe8c7fcaf2df52c729a1d945d3d801f450b6ed129
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445532"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722771"
 ---
-# <a name="invoice-automation-for-scanned-documents"></a>Rēķina automatizācija skenētiem dokumentiem
+# <a name="invoice-automation-for-scanned-documents"></a>Rēķinu automatizācija skenētajiem dokumentiem
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kādi līdzekļi ir pieejami kreditoru rēķinu (arī to rēķinu, kam ir pielikumi) automatizācijai visā procesa garumā.
+Šajā tēmā ir paskaidrots, kādas datu entītijas ir pieejamas kreditoru rēķinu (arī to rēķinu, kam ir pielikumi) automatizācijai visā procesa garumā.
 
 Organizācijas, kast vēlas uzlabot savus kreditoru procesus, rēķinu apstrādi bieži norāda kā vienu no galvenajiem procesiem, kura efektivitāti ir nepieciešams palielināt. Daudzos gadījumos šīs organizācijas papīra rēķinu apstrādi uztic trešās puses optiskās rakstzīmju pazīšanas (OCR) pakalpojumu sniedzējam. Viņi saņem ar mašīnu lasāmus rēķina metadatus kopā ar skenētu katra rēķina attēlu. Automatizācijas nolūkos tiek izveidots “pēdējās jūdzes” risinājums, lai iespējotu šo artefaktu patēriņu rēķinu apstrādes sistēmā. Tagad ir iespējota šī pēdējā soļa automatizācija, izmantojot rēķinu automatizācijas risinājumu.
 
@@ -35,9 +32,9 @@ Organizācijas, kast vēlas uzlabot savus kreditoru procesus, rēķinu apstrādi
 
 Rēķinu automatizācijas risinājums nodrošina standarta interfeisu, kas var pieņemt rēķina metadatus rēķina virsrakstam un rēķina rindām, kā arī pielikumiem, kas attiecas uz rēķinu. Jebkura ārējā sistēma, kas var ģenerēt šim interfeisam atbilstošus artefaktus, varēs nosūtīt plūsmu automātiskai rēķinu un pielikumu apstrādei.
 
-Tālāk esošajā attēlā ir parādīts parauga integrācijas scenārijs, kurā uzņēmums Contoso kopā ar OCR pakalpojumu sniedzēju izmanto kreditora rēķinu apstrādi. Uzņēmuma Contoso kreditori pakalpojumu sniedzējam sūta rēķinus, izmantojot e-pastu. Izmantojot OCR apstrādi, pakalpojumu sniedzējs ģenerē rēķina metadatus (virsrakstu un/vai rindas) un skenēto rēķina attēlu. Pēc tam integrācijas slānis šos artefaktus pārveido tā, lai tos varētu patērēt.
+Tālāk esošajā attēlā ir parādīts parauga integrācijas scenārijs, kurā uzņēmums Contoso kopā ar OCR pakalpojumu sniedzēju izmanto kreditora rēķinu apstrādi. Contoso, kreditori pakalpojumu sniedzējam sūta rēķinus, izmantojot e-pastu. Izmantojot OCR apstrādi, pakalpojumu sniedzējs ģenerē rēķina metadatus (virsrakstu un/vai rindas) un skenēto rēķina attēlu. Pēc tam integrācijas slānis šos artefaktus pārveido tā, lai tos varētu patērēt.
 
-![Parauga integrācijas scenārijs](media/vendor_invoice_automation_01.png)
+![Parauga integrācijas scenārijs.](media/vendor_invoice_automation_01.png)
 
 Ja ir nepieciešama rēķinu integrācija, ir iespējamas vairākas iepriekšējā scenārija variācijas. Datu migrācija ir cits lietošanas gadījums, kurā šo interfeisu var izmantot rēķinu un pielikumu izveidei.
 
@@ -91,27 +88,27 @@ Rēķini, kas tiek importēti, izmantojot datu pakotnes, ar juridisko personu, k
 
 Scenārijos, kuros kreditora rēķini programmatūrā Finance and Operations nonāk, izmantojot integrāciju, ir nepieciešams viegls veids, kā kreditoru grupas dalībniekam apstrādāt izņēmumus vai neizdevušos rēķinus un izveidot gaidošos rēķinus no rēķiniem, kas neizdevās. Šī izņēmumu apstrāde kreditoru rēķiniem tagad ir daļa no Finance and Operations.
 
-### <a name="exceptions-list-page"></a>Izņēmumu saraksta lapa
+### <a name="vendor-invoices-that-failed-to-import-list-page"></a>Piegādātāju rēķini, kuriem neizdevās importēt saraksta lapu
 
-Jaunā rēķinu izņēmumu saraksta lapa ir pieejama šeit: **Kreditori** > **Rēķini** > **Importēšanas kļūmes** > **Kreditoru rēķini, kuru importēšana bija nesekmīga**. Šajā lapā ir parādīti visi kreditora rēķina virsraksta ieraksti no datu elementa Kreditora rēķina virsraksts izstādīšanas tabulas. Ņemiet vērā, ka tos pašus ierakstus varat skatīt no darbvietas **Datu pārvaldība**, kurā varat arī veikt tās pašas darbības, kas ir nodrošinātas izņēmumu apstrādes līdzeklī. Tomēr izņēmumu apstrādes līdzekļa nodrošinātais lietotāja interfeiss ir optimizēts funkcionālajam lietotājam.
+Jaunā rēķinu izņēmumu saraksta lapa ir pieejama šeit: **Kreditori** > **Rēķini** > **Importēšanas kļūmes** > **Kreditoru rēķini, kuru importēšana bija nesekmīga**. Šajā lapā ir parādīti visi kreditora rēķina virsraksta ieraksti no datu elementa Kreditora rēķina virsraksts izstādīšanas tabulas. Ievērojiet, ka varat skatīt tos pašus ierakstus no darbvietas **Datu pārvaldība**. Varat arī veikt tās pašas darbības, kas tiek nodrošinātas izņēmumu apstrādes līdzeklī no darbvietas **Datu pārvaldība**. Izņēmuma apstrādes līdzeklis ir optimizēts funkcionālam lietotājam, kas atvieglo lietošanu.
 
-![Izņēmumu saraksta lapa](media/vendor_invoice_automation_02.png)
+![Izņēmumu saraksta lapa.](media/vendor_invoice_automation_02.png)
 
 Šajā saraksta lapā ir tālāk norādītie lauki, kas tajā nonāk ar plūsmu.
 
-+ **Uzņēmums** — uzņēmums, kam pieder rēķins
-+ **Kļūdas ziņojums** — kļūdas ziņojums, ko sniedz datu pārvaldības struktūra, lai izskaidrotu, kādēļ nevarēja izveidot rēķinu
-+ **Numurs** — rēķina numurs
++ **Uzņēmums** — uzņēmums, kam pieder rēķins
++ **Kļūdas ziņojums** — kļūdas ziņojums, ko sniedz datu pārvaldības struktūra, lai izskaidrotu, kādēļ nevarēja izveidot rēķinu
++ **Numurs** — rēķina numurs
 + **Rēķina konts**
-+ **Nosaukums** — kreditora nosaukums
++ **Nosaukums** — kreditora nosaukums
 + **Kreditora konts**
-+ **Pirkšanas pasūtījums** — rēķina pirkšanas pasūtījuma (PP) numurs
++ **Pirkšanas pasūtījums** — rēķina pirkšanas pasūtījuma (PP) numurs
 + **Grāmatošanas datums**
 + **Rēķina datums**
 + **Rēķina apraksts**
 + **Valūta**
 + **Žurnāls**
-+ **Rindas atsauce** — identifikators, kas ir no ārējās sistēmas
++ **Rindas atsauce** — identifikators, kas ir no ārējās sistēmas
 
     > [!NOTE]
     > Rindas atsauce nav rēķina ID.
@@ -119,24 +116,17 @@ Jaunā rēķinu izņēmumu saraksta lapa ir pieejama šeit: **Kreditori** > **R�
 Šajā saraksta lapā ir arī priekšskatījuma rūts, kuru var izmantot tālāk norādītajos veidos.
 
 + Skatiet visu kļūdas ziņojumu, lai jums nebūtu jāizvērš kolonna **Kļūdas ziņojums** režģī.
-+ Skatiet visu rēķina pielikumu sarakstu, ja rēķinam tādi ir.
 
 Saraksta lapa atbalsta arī tālāk norādītās darbības.
 
-+ **Rediģēt** — atveriet izņēmumu ierakstu rediģēšanas režīmā, lai labotu problēmas.
-+ **Opcijas** — piekļūstiet standarta opcijām, kas ir pieejamas saraksta lapās. Varat izmantot opciju **Pievienot darbvietai**, lai izņēmumu saraksta lapu piespraustu savai darbvietai kā sarakstu vai elementu.
++ **Rediģēt** — atveriet izņēmumu ierakstu rediģēšanas režīmā, lai labotu problēmas.
++ **Opcijas** — piekļūstiet standarta opcijām, kas ir pieejamas saraksta lapās. Varat izmantot opciju **Pievienot darbvietai**, lai izņēmumu saraksta lapu piespraustu savai darbvietai kā sarakstu vai elementu.
 
-### <a name="exception-details-page"></a>Detalizētas informācijas par izņēmumu lapa
+### <a name="vendor-invoices-that-failed-to-import-details-page"></a>Piegādātāju rēķini, kuriem neizdevās importēt detālizētas informacijas lapu
 
-Kad sākat rediģēšanas režīmu, tiek parādīta detalizētās informācijas par izņēmumu lapa rēķinam, kuram ir problēmas. Ja rēķinam ir pielikumi, rēķins un noklusējuma pielikums tiek rādīti līdzās detalizētās informācijas par izņēmumu lapā.
+Startējot rediģēšanas režīmu, tiks atvērta lapa **Kreditora rēķini, kam neizdevās importēt detalizētu informāciju** rēķinam, kuram ir izejas plūsma. Ja ir problēmas ar rēķinu, kam ir pielikums, pielikums netiks parādīts. Pielikums ir vēlreiz jāpievieno rēķinam.
 
-![Detalizētas informācijas par izņēmumu lapa](media/vendor_invoice_automation_03.png)
-
-Iepriekšējā attēlā ienākošajam kreditora rēķina virsrakstam nebija nevienas rindas. Tāpēc rindu sadaļa ir tukša.
-
-Detalizētās informācijas par izņēmumu lapa atbalsta tālāk norādīto operāciju.
-
-+ **Izveidot gaidošu rēķinu** — kad būsit labojis problēmas rēķinā kā daļu no izņēmumu apstrādes, varat noklikšķināt uz šīs pogas, lai izveidotu gaidošo rēķinu. Gaidošo rēķinu izveide notiek fonā (kā asinhrona operācija).
+Lapa **Kreditoru rēķini, kam neizdevās importēt detalizētu informāciju** ļauj izveidot gaidošo rēķinu. Kad rēķina izejas plūsmas ir fiksētas kā daļa no izņēmumu apstrādes, atlasiet pogu **Izveidot gaidošu rēķinu**, lai izveidotu gaidošo rēķinu. Gaidošais rēķins tiks izveidots fonā. 
 
 ### <a name="shared-service-vs-organization-based-exception-processing"></a>Koplietoto pakalpojumu izņēmumu apstrāde salīdzinājumā ar apstrādi, kuras pamatā ir organizācija
 
@@ -146,7 +136,7 @@ Izņēmumu saraksta lapa atbalsta standarta drošības struktūras, kuras darbvi
 + Pēc lietotāja
 + Pēc juridiskās personas
 
-![Importēšanas darbs, kas ir nodrošināts pēc lietotāja lomas un juridiskās personas](media/vendor_invoice_automation_04.png)
+![Importēšanas darbs, kas ir nodrošināts pēc lietotāja lomas un juridiskās personas.](media/vendor_invoice_automation_04.png)
 
 Ja rēķina importēšanas darbam ir konfigurēta drošība, izņēmumu saraksta lapa respektē šos iestatījumus. Lietotāji varēs redzēt tikai tos rēķinu izņēmumu ierakstus, ko šis iestatījums ļauj viņiem skatīt.
 
@@ -188,7 +178,7 @@ Kā noklusējuma pielikumu var iestatīt tikai vienu dokumentu. Kad dokumentu es
 
 Izmantojot uzziņu lapās **Izņēmumu apstrāde**, **Gaidošs rēķins** un **Rēķinu žurnāls** pieejamo jauno pogu, varat rādīt vai paslēpt pielikumu skatītāju.
 
-### <a name="security"></a>Drošība
+## <a name="security"></a>Drošība
 
 Tālāk norādītās pielikumu skatītāja darbības tiek kontrolētas, izmantojot no lomas atkarīgu drošību.
 
@@ -200,35 +190,38 @@ Tālāk norādītās pielikumu skatītāja darbības tiek kontrolētas, izmantoj
 
 Tālāk norādītās privilēģijas pielikumu skatītājam nodrošina tikai lasīšanas piekļuvi vai lasīšanas/rakstīšanas piekļuvi iezīmēšanas, bloķēšanas un anotēšanas darbībām.
 
-+ **Uzturēt kreditora rēķina attēlu** — šī privilēģija nodrošina lasīšanas/rakstīšanas piekļuvi.
-+ **Skatīt kreditora rēķina attēlu** — šī privilēģija nodrošina tikai lasīšanas piekļuvi.
++ **Uzturēt kreditora rēķina attēlu** — šī privilēģija nodrošina lasīšanas/rakstīšanas piekļuvi.
++ **Skatīt kreditora rēķina attēlu** — šī privilēģija nodrošina tikai lasīšanas piekļuvi.
 
 Tālāk norādītie pienākumi pielikumu skatītājam nodrošina tikai lasīšanas vai lasīšanas/rakstīšanas piekļuvi tālāk aprakstītajām darbībām.
 
-+ **Uzturēt kreditoru rēķinus** — šim pienākumam ir piešķirta privilēģija Uzturēt kreditora rēķina attēlu.
-+ **Iegūt informāciju par kreditora rēķina statusu** — šim pienākumam ir piešķirta privilēģija Skatīt kreditora rēķina attēlu.
++ **Uzturēt kreditoru rēķinus** — šim pienākumam ir piešķirta privilēģija Uzturēt kreditora rēķina attēlu.
++ **Iegūt informāciju par kreditora rēķina statusu** — šim pienākumam ir piešķirta privilēģija Skatīt kreditora rēķina attēlu.
 
 Tālāk norādītās lomas pielikumu skatītājam nodrošina tikai lasīšanas vai lasīšanas/rakstīšanas piekļuvi tālāk aprakstītajām darbībām.
 
-+ **Kreditoru darbinieks** un **Kreditoru vadītājs** — šīm lomām ir piešķirts pienākums Uzturēt kreditoru rēķinus.
-+ **Kreditoru darbinieks**, **Kreditoru vadītājs**, **Darbinieks, kas ir atbildīgs par kreditoru centralizētajiem maksājumiem**, un **Darbinieks, kas ir atbildīgs par kreditoru maksājumiem** — šīm lomām ir piešķirts pienākums Iegūt informāciju par kreditora rēķina statusu.
++ **Kreditoru darbinieks** un **Kreditoru vadītājs** — šīm lomām ir piešķirts pienākums Uzturēt kreditoru rēķinus.
++ **Kreditoru darbinieks**, **Kreditoru vadītājs**, **Darbinieks, kas ir atbildīgs par kreditoru centralizētajiem maksājumiem**, un **Darbinieks, kas ir atbildīgs par kreditoru maksājumiem** — šīm lomām ir piešķirts pienākums Iegūt informāciju par kreditora rēķina statusu.
 
-### <a name="invoice-exception-details-page"></a>Detalizētas informācijas par rēķina izņēmumu lapa
+### <a name="vendor-invoice-attachment"></a>Kreditoru rēķinu pielikums
 
 Tālāk norādītās privilēģijas pielikumu skatītājam nodrošina tikai lasīšanas piekļuvi vai lasīšanas/rakstīšanas piekļuvi iezīmēšanas, bloķēšanas un anotēšanas darbībām.
 
 > [!NOTE]
 > Šajā sadaļā minētās komplektācijā iekļautās lomas rēķina attēliem pielikumu skatītājā nodrošina tikai lasīšanas piekļuvi. Ja lomai ir jābūt arī rakstīšanas piekļuvei attēliem, varat piešķirt rakstīšanas piekļuvi šai lomai, izmantojot šeit aprakstīto privilēģiju un pienākumu.
 
-+ **Uzturēt kreditora rēķina virsraksta elementa attēlu** — šī privilēģija rēķina attēliem pielikumu skatītājā nodrošina lasīšanas/rakstīšanas piekļuvi.
-+ **Skatīt kreditora rēķina virsraksta elementa attēlu** — šī privilēģija rēķina attēlam pielikumu skatītājā nodrošina tikai lasīšanas piekļuvi.
++ **Uzturēt kreditora rēķina virsraksta elementa attēlu** — šī privilēģija rēķina attēliem pielikumu skatītājā nodrošina lasīšanas/rakstīšanas piekļuvi.
++ **Skatīt kreditora rēķina virsraksta elementa attēlu** — šī privilēģija rēķina attēlam pielikumu skatītājā nodrošina tikai lasīšanas piekļuvi.
 
 Tālāk norādītie pienākumi pielikumu skatītājam nodrošina tikai lasīšanas piekļuvi tālāk aprakstītajām darbībām.
 
-+ **Uzturēt kreditoru rēķinus** — šim pienākumam ir piešķirta privilēģija Uzturēt kreditora rēķina virsraksta elementa attēlu.
++ **Uzturēt kreditoru rēķinus** — šim pienākumam ir piešķirta privilēģija Uzturēt kreditora rēķina virsraksta elementa attēlu.
 
 Tālāk norādītās lomas pielikumu skatītājam nodrošina tikai lasīšanas piekļuvi tālāk aprakstītajām darbībām.
 
-+ **Kreditoru darbinieks** un **Kreditoru vadītājs** — šīm lomām ir piešķirts pienākums Uzturēt kreditoru rēķinus.
++ **Kreditoru darbinieks** un **Kreditoru vadītājs** — šīm lomām ir piešķirts pienākums Uzturēt kreditoru rēķinus.
 
 Pēc noklusējuma, ja lietotāja loma sniedz rediģēšanas tiesības jebkurā lapā, lietotājam rediģēšanas tiesības būs arī pielikumu skatītājā iezīmēšanas, bloķēšanas un anotēšanas darbībām. Tomēr, ja pastāv scenāriji, kuros noteiktai lomai ir nepieciešamas rediģēšanas tiesības lapā, bet ne pielikumu skatītājā, to var panākt, izmantojot atbilstošās privilēģijas no iepriekšējā saraksta.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

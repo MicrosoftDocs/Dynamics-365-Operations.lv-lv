@@ -1,7 +1,7 @@
 ---
 title: Pārdošanas komisijas kārtulu iestatīšana
 description: Šajā procedūrā parādīts, kā iestatīt un aktivizēt pārdošanas komisijas naudas aprēķināšanu un izsekošanu.
-author: omulvad
+author: Henrikan
 ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: CommissionCustomerGroup, CommissionItemGroup, CommissionSalesGro
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f46344dfd816e0960a7a9d74089a493ca5237b95
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8f42f2fbe22124dbaaf2c4bd2f4394f734d166d5
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816440"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578900"
 ---
 # <a name="set-up-sales-commission-rules"></a>Pārdošanas komisijas kārtulu iestatīšana
 

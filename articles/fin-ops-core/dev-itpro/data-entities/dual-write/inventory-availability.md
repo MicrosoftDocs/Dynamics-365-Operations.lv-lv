@@ -1,27 +1,20 @@
 ---
 title: Krājumu pieejamība duālajā ierakstā
 description: Šajā tēmā ir sniegta informācija par to, kā pārbaudīt krājumu pieejamību duālajā ierakstā.
-author: yijialuan
+author: RamaKrishnamoorthy
 ms.date: 05/26/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
-ms.author: riluan
-ms.dyn365.ops.version: ''
+ms.author: ramasri
 ms.search.validFrom: 2020-05-26
-ms.openlocfilehash: 9d9b7970720218fbcf2f512345ade672810440b4
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
-ms.translationtype: HT
+ms.openlocfilehash: 989ba6cd26d6e48c24db856fa9bb0bd5d2bae80e
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748569"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782533"
 ---
 # <a name="inventory-availability-in-dual-write"></a>Krājumu pieejamība duālajā ierakstā
 
@@ -64,58 +57,12 @@ Atlasot pogu **Rīcībā esošie krājumi** lapā **Piedāvājumi**, **Pasūtīj
 - CDS rīcībā esošo krājumu pieprasījumi (msdyn_inventoryonhandrequests)
 
 ## <a name="templates"></a>Veidnes
+
 Rīcībā esošo krājumu datu atklāšanai ir pieejamas šādas veidnes.
 
-Finance and Operations programmas | Customer engagement programma | Apraksts 
+Finance and Operations programmas | Customer engagement programmas     | Apraksts
 ---|---|---
-[CDS krājumu rīcībā esošie ieraksti](#145) | msdyn_inventoryonhandentries |
-[CDS krājumu rīcībā esošie pieprasījumi](#147) | msdyn_inventoryonhandrequests |
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-###  <a name="cds-inventory-on-hand-entries-msdyn_inventoryonhandentries"></a><a name="145"></a>CDS rīcībā esošo krājumu ieraksti (msdyn_inventoryonhandentries)
-
-Šī veidne sinhronizē datus starp Finance and Operations programmām un Dataverse.
-
-Finance and Operations lauks | Kartes veids | Lauks Customer engagement | Noklusētā vērtība
----|---|---|---
-`REQUESTID` | = | `msdyn_request.msdyn_requestid` |
-`INVENTORYSITEID` | = | `msdyn_inventorysite.msdyn_siteid` |
-`INVENTORYWAREHOUSEID` | = | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
-`AVAILABLEONHANDQUANTITY` | > | `msdyn_availableonhandquantity` |
-`AVAILABLEORDEREDQUANTITY` | > | `msdyn_availableorderedquantity` |
-`ONHANDQUANTITY` | > | `msdyn_onhandquantity` |
-`ONORDERQUANTITY` | > | `msdyn_onorderquantity` |
-`ORDEREDQUANTITY` | > | `msdyn_orderedquantity` |
-`RESERVEDONHANDQUANTITY` | > | `msdyn_reservedonhandquantity` |
-`RESERVEDORDEREDQUANTITY` | > | `msdyn_reservedorderedquantity` |
-`TOTALAVAILABLEQUANTITY` | > | `msdyn_totalavailablequantity` |
-`ATPDATE` | = | `msdyn_atpdate` |
-`ATPQUANTITY` | > | `msdyn_atpquantity` |
-`PROJECTEDISSUEQUANTITY` | > | `msdyn_projectedissuequantity` |
-`PROJECTEDONHANDQUANTITY` | > | `msdyn_projectedonhandquantity` |
-`PROJECTEDRECEIPTQUANTITY` | > | `msdyn_projectedreceiptquantity` |
-`ORDERQUANTITY` | > | `msdyn_orderquantity` |
-`UNAVAILABLEONHANDQUANTITY` | > | `msdyn_unavailableonhandquantity` |
-
-###  <a name="cds-inventory-on-hand-requests-msdyn_inventoryonhandrequests"></a><a name="147"></a>CDS rīcībā esošo krājumu pieprasījumi (msdyn_inventoryonhandrequests)
-
-Šī veidne sinhronizē datus starp Finance and Operations programmām un Dataverse.
-
-Finance and Operations lauks | Kartes veids | Lauks Customer engagement | Noklusētā vērtība
----|---|---|---
-`REQUESTID` | = | `msdyn_requestid` |
-`PRODUCTNUMBER` | < | `msdyn_product.msdyn_productnumber` |
-`ISATPCALCULATION` | << | `msdyn_isatpcalculation` |
-`ORDERQUANTITY` | < | `msdyn_orderquantity` |
-`INVENTORYSITEID` | < | `msdyn_inventorysite.msdyn_siteid` |
-`INVENTORYWAREHOUSEID` | < | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
-`REFERENCENUMBER` | < | `msdyn_referencenumber` |
-`LINECREATIONSEQUENCENUMBER` | < | `msdyn_linecreationsequencenumber` |
-
-
-
-
-
+[CDS krājumu rīcībā esošie ieraksti](mapping-reference.md#145) | msdyn_inventoryonhandentries |
+[CDS krājumu rīcībā esošie pieprasījumi](mapping-reference.md#147) | msdyn_inventoryonhandrequests |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

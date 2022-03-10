@@ -2,38 +2,35 @@
 title: Power BI satura pakotne Kredītu un iekasēšanas pārvaldība
 description: Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI satura pakotnē Kredītu un iekasēšanas pārvaldība. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6d6880e258510a79cdd5937f96af28e5ae148292
-ms.sourcegitcommit: 219aa992b1f4c913f26243eeb7e40a383fa1ca67
-ms.translationtype: HT
+ms.openlocfilehash: 65423f49ba106a152f58c92533c4f1a16d47a318982cfe69bb23f9091fa09846
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4445773"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763218"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Power BI satura pakotne Kredītu un iekasēšanas pārvaldība
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kas ir iekļauts Microsoft Power BI satura pakotnē **Kredītu un iekasēšanas pārvaldība**. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
+Šajā tēmā aprakstīts, kas tiek iekļauts Microsoft Power BI satura **Kredītu un kolekciju pārvaldībā**. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
 
 ## <a name="overview"></a>Pārskats
 
 Power BI satura pakotne **Kredītu un iekasēšanas pārvaldība** ir izveidota kredītu un iekasēšanas vadītāju un iekasēšanas dienesta darbinieku vajadzībām. Tā nodrošina informāciju par galvenajiem kredītu un iekasēšanas rādītājiem, piemēram, vidējo maksājuma saņemšanas laiku, nokavēto bilanci, kredītrisku un debitoriem, kuri ir pārsnieguši kredīta limitu. Tajā tiek izmantoti transakciju dati, un tā nodrošina visu uzņēmumu kredīta un iekasēšanas transakciju apkopotus skatus. Tā nodrošina arī sadalījumu pēc uzņēmuma, debitoru grupas un debitora.
 
-Šajā Power BIi satura pakotnē ir ietvertas 10 pārskatu lapas, kas ir norādītas tālāk.
+Šajā Power BI satura pakotnē ir ietvertas 10 pārskatu lapas, kas ir norādītas tālāk.
 
 - Divi apskata lapas (viena kredītu pārskata lapa un viena iekasēšanas pārskata lapa)
 - Astoņas detalizētas informācijas lapas, kas sniedz detalizētu informāciju par kredītu un iekasēšanas rādītājiem, kuri ir norādīti atbilstoši dažādām dimensijām
@@ -77,3 +74,6 @@ Power BI satura pakotnē **CustCollectionsBICrossCompany** ir ietverts pārskats
 | Atgādinājuma vēstules         | <ul><li>Atgādinājuma koda summas</li><li>Detalizēta informācija iekasēšanas koda summu</li><li>Atgādinājuma vēstules summa pēc uzņēmuma</li><li>Atgādinājuma vēstules summa pēc debitoru grupas</li><li>Atgādinājuma vēstules summa pēc reģiona</li></ul> |
 
 Diagrammas un elementus attiecībā uz visiem šiem pārskatiem var filtrēt un piespraust pie informācijas paneļa. Papildinformāciju par filtrēšanu un piespraušanu pakalpojumā Power BI skatiet rakstā [Informācijas paneļa izveide un konfigurēšana](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Varat arī izmantot pamata datu eksportēšanas funkciju, lai eksportētu vizualizācijā apkopotos pamata datus.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

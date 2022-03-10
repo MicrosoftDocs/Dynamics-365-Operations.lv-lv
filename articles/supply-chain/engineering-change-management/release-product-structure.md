@@ -2,26 +2,23 @@
 title: Izlaist preču struktūras
 description: Šajā tēmā skaidrots, kā var izlaist pilnīgas preču struktūras papildus izlaistajām precēm kopā ar to tehniskajām versijām. Šādā veidā var nodrošināt, ka tehnisko preču datus var viegli izmantot atkārtoti atšķirīgās juridiskās personās.
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgProductReleaseSiteBulkEdit, EngChgProductReleaseSendListPage, EngChgProductReleaseSendDetails,EngChgProductReleaseSelection,EngChgProductReleaseReceiveListPage, EngChgProductReleaseReceiveDetails, EngChgProductReleasePreviewPane, EngChgProductReleasePolicy, EngChgProductReleasePart, EngChgProductReleaseNote
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 68f091cca9c3c2baa03813553127ee41abe6d522
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 4dc1b073350044ef8afb765470ed14da88a70fdd
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4433233"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567491"
 ---
 # <a name="release-product-structures"></a>Izlaist preču struktūras
 
@@ -78,8 +75,6 @@ Piemēram, kā pieņemt preci, skatiet [Preču pārskatīšana un apstiprināša
 
 Ne visiem darbību uzņēmumiem ir vajadzīgi tie paši preces dati. Parasti darbības uzņēmumiem, kas ražo tehnikas preces, ir nepieciešama MK, turpretī darbības uzņēmumam, kas pārdod tikai tehnikas preces, nav nepieciešams MK. Varat izmantot laidiena politikas, lai izveidotu parametrus, kas tiek izmantoti preču izlaišanai.
 
-Tehniskajām precēm laidiena politika tiek piešķirta tehnikas preču kategorijā, un lauks ir obligāts. Standarta precēm politika tiek piešķirta koplietojamai precei, un lauks nav obligāts.
-
 Papildinformāciju par produktu kategorijām skatiet [Tehnisko versiju un tehnisko preču kategorijas](engineering-versions-product-category.md).
 
 Laidiena procesa laikā varat ietekmēt iestatījumus.
@@ -108,6 +103,7 @@ Iestatiet tālāk norādītos laukus preces laidiena politikas kopsavilkuma ciln
 | Lauks | Apraksts |
 |---|---|
 | Preces veids | Atlasiet, vai politika attiecas uz *Krājuma* vai *Pakalpojuma* veida precēm. Pēc ieraksta saglabāšanas šo iestatījumu nevar mainīt. |
+| Ražošanas veids | Šis lauks parādās tikai tad, ja esat iespējojis [formulu izmaiņu pārvaldību](manage-formula-changes.md) jūsu sistēmā. Atlasiet ražošanas tipu, uz kuru attiecas šī izlaišanas politika:<ul><li>**Līdzprodukts** – izmantojiet šo izlaišanas politiku, lai pārvaldītu līdzproduktus. Līdzprodukti tiek ražoti procesa ražošanas laikā, un tie nav versijas vai inženiertehniskās preces. Līdzproduktu izlaišanas politikas var palīdzēt nodrošināt, ka svarīgi iestatījumi, piemēram, **Noliktavas dimensiju grupa** un **Izsekošanas dimensiju grupa**, tiek iestatīti, izmantojot Izlaistās preces veidni, pirms tie tiek nodoti izpildei uzņēmumam.</li><li>**Blakusprodukts** – izmantojiet šo izlaišanas politiku, lai pārvaldītu blakusproduktus. Blakusprodukti tiek ražoti procesa ražošanas laikā, un tie nav versijas vai inženiertehniskās preces. Blakusproduktu izlaišanas politikas var palīdzēt nodrošināt, ka svarīgi iestatījumi, piemēram, **Noliktavas dimensiju grupa** un **Izsekošanas dimensiju grupa**, tiek iestatīti, izmantojot Izlaistās preces veidni, pirms tie tiek nodoti izpildei uzņēmumam.</li><li>**Neviens** - lietojiet šo politiku, lai pārvaldītu standarta preces, kas nav versijas vai inženiertehniskās preces, līdzprodukti vai blakusprodukti.</li><li>**Plānošanas krājums** – izmantojiet šo izlaišanas politiku, lai pārvaldītu plānošanas krājumus, kas ražoti, izmantojot procesa ražošanu. Plānošanas krājumiem tiek lietotas formulas. Tie ir līdzīgi formulas krājumiem, taču tos izmanto, lai ražotu tikai līdzproduktus un blakusproduktus, bet ne pabeigtās preces.</li><li>**MK** – izmantojiet šo izlaišanas politiku, lai pārvaldītu inženiertehniskās preces, kuras neizmanto formulas, un parasti (bet ne vienmēr) ietver MK.</li><li>**Formula** – izmantojiet šo izlaišanas politiku, lai pārvaldītu pabeigtos krājumus, kas ražoti, izmantojot procesa ražošanu. Šiem krājumiem būs formula, bet ne MK.</li></ul> |
 | Lietot veidnes | Atlasiet vienu no šīm opcijām, lai norādītu, vai un kā preces laidiena veidnes jālieto, kad tiek lietota politika.<ul><li>**Vienmēr** – izlaistās preces veidne vienmēr ir jāizmanto laidieniem. Ja atlasāt šo opciju, izmantojiet kopsavilkuma cilni **Visas preces**, lai norādītu veidni, kas tiek izmantota katram uzņēmumam, kas tiek izlaists. Ja nenorādāt veidni katram uzņēmumam, kas ir uzskaitīts kopsavilkuma cilnē **Visas preces**, jūs saņemsiet kļūdu, mēģinot saglabāt politiku.</li><li>**Nav obligāti** – ja izlaistā prece ir norādīta uzņēmumam, kas ir norādīts kopsavilkuma cilnē **Visas preces**, šī veidne tiks izmantota, izlaižot preci uz šo uzņēmumu. Pretējā gadījumā veidne netiks izmantota. Ja atlasāt šo opciju, varat saglabāt politiku, nepiešķirot veidnes visiem uzņēmumiem. (Brīdinājums netiks rādīts.)</li><li>**Nekad** – netiks izmantota neviena izlaistās preces veidne, pat ja veidne ir norādīta uzņēmuma, kas norādīti kopsavilkuma cilnē **Visas preces**. Veidnes kolonnas nebūs pieejamas.</li></ul> |
 | Aktīvie | Lietojiet šo opciju, lai palīdzētu uzturēt laidiena politikas. Iestatiet to uz *Jā* visām jūsu izmantotajām laidiena politikām. Iestatiet to uz *Nē*, lai, to neizmantojot, atzīmētu laidiena politiku kā neaktīvu. Ņemiet vērā, ka nav iespējams deaktivizēt laidiena politiku, kas piešķirta tehnisko preču kategorijai, un var dzēst tikai neaktīvu laidienu politikas. |
 
@@ -160,3 +156,6 @@ Preces īpašnieki zina, kurām juridiskām personām ir nepieciešamas savas pr
 Piemēram, prece X ir piešķirta *Dizaina skapju* preces īpašnieku grupai. Prece X arī ir daļa no preces Y MK, kas ir piešķirts *Dizaina skaļruņu* preces īpašnieku grupai. Ja lietotājs no *Dizaina skaļruņu* preces īpašnieku grupas atbrīvo produktu Y un tā MK, prece X tiks izlaista kopā ar preci Y.
 
 Papildinformāciju skatiet sadaļā [Preču īpašnieki](product-owner.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: cXML uzlabojumu iegāde
 description: cXML uzlabojumu iegādes līdzeklis tiek veidots uz esošās ārējā kataloga funkcionalitātes, PunchOut, kas tiek izmantota pirkšanas pieprasījumiem.
-author: dasani-madipalli
+author: Henrikan
 ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: CatCXMLParameters, CatCXMLPurchRequest
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: henrikan
 ms.search.validFrom: 2020-08-03
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: d61087d21035e532ad86b6669626f55e8411a6f421bf69f817199e9063417761
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 2942b141eb3a5b83fb39b0de721bae60c074e01c
+ms.sourcegitcommit: f5885999e008a49fe072d95f15e239905c24918a
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779618"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "7900709"
 ---
 # <a name="purchasing-cxml-enhancements"></a>cXML uzlabojumu iegāde
 
@@ -28,7 +28,7 @@ _cXML uzlabojumu iegādes_ līdzeklis tiek veidots uz [esošās ārējā katalog
 
 ## <a name="turn-on-the-purchasing-cxml-enhancements-feature"></a>cXML uzlabojumu iegādes līdzekļa ieslēgšana
 
-Lai ieslēgtu šo līdzekli, atveriet lapu **[līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** un meklējiet līdzekli ar nosaukumu *cXML uzlabojumu iegāde*. Atlasiet līdzekli un pēc tam atlasiet **Iespējot tūlīt**, lai to ieslēgtu.
+Lai ieslēgtu šo līdzekli, atveriet lapu **[līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** un meklējiet līdzekli ar nosaukumu *cXML uzlabojumu iegāde*. Atlasiet līdzekli un pēc tam atlasiet **Iespējot tūlīt**, lai to ieslēgtu. (No piegādes ķēdes pārvaldības versijas 10.0.21 šī funkcija ir ieslēgta pēc noklusējuma.)
 
 Pēc līdzekļa ieslēgšanas ir jākonfigurē iestatījumi tālāk aprakstītajās jomās:
 
@@ -141,7 +141,7 @@ Pabeidzot visu rekvizītu iestatīšanu un citu ārējo katalogu iestatījumu ko
 
 Kā jau tika minēts iepriekš sadaļā [Pasūtījuma rekvizītu iestatīšana](#set-order-properties), ja vēlaties, lai piegādātā cXML iekļautu tekstu no piezīmēm, kas pievienotas atbilstošajam pirkšanas pasūtījumam un/vai kreditora ierakstiem, varat iestatīt **POCOMMENTS** un/vai **VENDCOMMENTS** rekvizītu uz _TRUE_ ārējā kataloga iestatījumā. Šajā sadaļā ir sniegta detalizētāka informācija par to, kā sistēma atlasa un apstrādā šos pielikumus, ja tos izmantojat.
 
-Lai iestatītu to piezīmju veidus, kurus meklēs sistēma, dodieties uz **Sagāde un avoti \> Iestatījumi \> Formas \> No iestatījumiem**. Pēc tam cilnē **Pirkšanas pasūtījums** iestatiet **Iekļaut dokumentu veidus** lauku uz to veidu, ko vēlaties iekļaut. Tiek iekļautas tikai teksta piezīmes, nevis dokumentu pielikumi.
+Lai iestatītu piezīmju tipus, ko sistēma meklēs, dodieties uz **Sagādes un avotu \> uzstādīšanas veidlapu formas \>\> iestatījumi**. Pēc tam cilnē **Pirkšanas pasūtījums** iestatiet **Iekļaut dokumentu veidus** lauku uz to veidu, ko vēlaties iekļaut. Tiek iekļautas tikai teksta piezīmes, nevis dokumentu pielikumi.
 
 ![Formas iestatījumu lapa.](media/cxml-form-setup.png "Formas iestatījumu lapa")
 

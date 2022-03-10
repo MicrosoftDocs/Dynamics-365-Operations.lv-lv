@@ -1,12 +1,10 @@
 ---
 title: Kombinēt pakalpojumu pasūtījumus
 description: Varat kombinēt pakalpojuma pasūtījumus.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7bd3ac8cf3c025b082b33247fcd020aebc010bc8
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 5df9571cb1330489651a28462b747cacd7ac7e46
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247722"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580460"
 ---
 # <a name="combine-service-orders"></a>Kombinēt pakalpojumu pasūtījumus   
 
@@ -43,14 +41,14 @@ Kad veidojat pakalpojuma pasūtījuma rindas automātiski veidlapā **Pakalpojum
 
 Jūs izveidojat pakalpojuma līgumu, kam ir sākuma datums 03.31.2007. Laukā **Kombinēt pakalpojumu pasūtījumus** atlasiet **Pēc pakalpojuma objekta**. Pēc tam izveidojat šādas pakalpojumu līguma rindas:
 
-<table style="width:100%;">
+<table>
 <colgroup>
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

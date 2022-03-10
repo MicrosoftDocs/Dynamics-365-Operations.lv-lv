@@ -10,15 +10,15 @@ ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSFi
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: c02c8b4cd43e17d6dcf34e1912dbc68c19e60694
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
-ms.translationtype: HT
+ms.openlocfilehash: 10c0b8b9478c8b31957cc08a1a827461c4621b8a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6116955"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574285"
 ---
 # <a name="consolidate-shipments-released-to-the-warehouse-using-automatic-release-of-sales-orders"></a>Konsolidēt sūtījumus, kad tie tiek izlaisti noliktavā, izmantojot automātisko pārdošanas pasūtījumu izlaišanu
 

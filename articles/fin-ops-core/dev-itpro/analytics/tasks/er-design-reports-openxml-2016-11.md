@@ -2,11 +2,9 @@
 title: ER Izveidot konfigurāciju pārskatu ģenerēšanai formātā OPENXML (2016. gada maijs)
 description: Tematā aprakstīts, kā izveidot jaunu elektronisko pārskatu konfigurāciju, kas satur elektronisko dokumentu veidni OPENXML formātā.
 author: NickSelin
-manager: AnnBe
-ms.date: 08/12/2019
+ms.date: 04/23/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport,  ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERDataSourceAddDropDialog, ERModelGroupByFunctionEditor, VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3b832961061d05e3f1ae046f820bc7a37baaf90c
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
-ms.translationtype: HT
+ms.openlocfilehash: c3dfe6ce9c918b5fccbd7097096fa359facdf41bbf6fd0fab6c61153171484cd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5092670"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753032"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER Izveidot konfigurāciju pārskatu ģenerēšanai formātā OPENXML (2016. gada maijs)
 
@@ -30,7 +28,7 @@ ms.locfileid: "5092670"
 
 Šajā piemērā tiek izveidota parauga uzņēmuma Litware, Inc. konfigurācija. Šīs darbības var veikt jebkurā GBSI uzņēmumā.
 
-Lai izpildītu tālāk norādītās darbības, vispirms izpildiet darbības, kas aprakstītas procedūrā "Konfigurācijas nodrošinātāja izveide un atzīmēšana par aktīvu". Jums ir nepieciešams arī Excel fails, kas tiks importēts, veidojot veidni. Lai piekļūtu šim failam, izmantojiet opciju [Maksājumu pārskata veidne](https://go.microsoft.com/fwlink/?linkid=862266).
+Lai izpildītu tālāk norādītās darbības, vispirms izpildiet darbības, kas aprakstītas procedūrā "Konfigurācijas nodrošinātāja izveide un atzīmēšana par aktīvu". Jums ir nepieciešams arī Excel fails, kas tiks importēts, veidojot veidni. Lai piekļūtu šim failam, izmantojiet opciju [Maksājumu pārskata veidne](https://download.microsoft.com/download/3/f/0/3f0658b2-042c-43cf-a776-0f4c7f7cfe4e/SampleVendPaymWsReport.xlsx).
 
 
 ## <a name="upload-the-payments-data-model-configuration"></a>Augšupielādēt maksājumu datu modeļa konfigurāciju
@@ -150,3 +148,6 @@ Lai izpildītu tālāk norādītās darbības, vispirms izpildiet darbības, kas
 17. Laukā **Bankas konts** ievadiet `GBSI OPER`.
 18. Atlasiet **Labi**, pēc tam vēlreiz atlasiet **Labi**. Pārskatiet izveidoto darblapu, tostarp informāciju par maksājuma rindām, kā arī kopsummas katram valūtas kodam, kas ir izmantots šajā maksājuma ziņojumā.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

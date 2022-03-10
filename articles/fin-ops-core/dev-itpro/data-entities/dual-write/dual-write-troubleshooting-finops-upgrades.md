@@ -1,37 +1,30 @@
 ---
-title: Problēmu novēršana saistībā ar Finance and Operations programmu jauninājumiem
-description: Šajā tēmā sniegta informācija par problēmu novēršanu, kas var palīdzēt novērst problēmas, kas saistītas ar atjauninājumiem Finance and Operations lietojumprogrammās.
+title: Finance and Operations programmu jaunināšanas problēmu novēršana
+description: Šajā tēmā ir sniegta problēmu novēršanas informācija, kas var palīdzēt novērst problēmas, kas saistītas ar programmu Finance and Operations jauninājumiem.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 92a95e5a0f603eb5f9afbf14ba924df168e44203
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: c7c036ef44b0470c9b3f8087e7b5b1e16dde1b34
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350864"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062829"
 ---
-# <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>Problēmu novēršana saistībā ar Finance and Operations programmu jauninājumiem
+# <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>Finance and Operations programmu jaunināšanas problēmu novēršana
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
-Šajā rakstā ir sniegta informācija par problēmu novēršanu duālā ieraksta integrācijai starp Finance and Operations programmām un Dataverse. Konkrēti, šajā tēmā sniegta informācija par problēmu novēršanu, kas var palīdzēt novērst problēmas, kas saistītas ar atjauninājumiem Finance and Operations lietojumprogrammās.
+
+Šajā tēmā ir sniegta problēmu novēršanas informācija divu rakstu integrācijai starp Finance and Operations programmām un Dataverse. Konkrēti, tajā ir sniegta informācija, kas var palīdzēt novērst problēmas, kas saistītas ar programmu Finance and Operations jauninājumiem.
 
 > [!IMPORTANT]
 > Dažas no problēmām, kas risinātas šajā tēmā, var būt nepieciešama vai nu sistēmas administratora loma, vai Microsoft Azure Active Directory (Azure AD) nomnieka administratora akreditācijas dati. Katras problēmas sadaļā ir paskaidrots, vai ir nepieciešama īpaša loma vai akreditācijas dati.
@@ -40,7 +33,7 @@ ms.locfileid: "6350864"
 
 **Problēmas novēršanai nepieciešamā loma:** Sistēmas administrators
 
-Iespējams, mēģinot izmantot **DualWriteProjectConfiguration** tabulu, lai atjauninātu Finance and Operations programmu uz 30. platformas atjauninājumu, saņemat kļūdas ziņojumu, kas līdzīgs šim piemēram.
+Mēģinot izmantot, var tikt parādīts kļūdas ziņojums, kas līdzīgs šim piemēram **DualWriteProjectConfiguration** tabula, lai atjauninātu programmu Finance and Operations uz platformas atjauninājumu 30.
 
 ```console
 Infolog diagnostic message: 'Cannot select a row in Dual write project sync (DualWriteProjectConfiguration). The SQL database has issued an error.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Object Server Database Synchronizer: ' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: '[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ISDELETE'.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'SELECT T1.PROJECTNAME,T1.EXTERNALENTITYNAME,T1.INTERNALENTITYNAME,T1.EXTERNALENVIRONMENTURL,T1.STATUS,T1.ENABLEBATCHLOOKUP,T1.PARTITIONMAP,T1.QUERYFILTEREXPRESSION,T1.INTEGRATIONKEY,T1.ISDELETE,T1.ISDEBUGMODE,T1.RECVERSION,T1.PARTITION,T1.RECID FROM DUALWRITEPROJECTCONFIGURATION T1 WHERE (PARTITION=5637144576)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'session 1043 (Admin)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Stack trace: Call to TTSCOMMIT without first calling TTSBEGIN.' on category 'Error'.
@@ -72,10 +65,10 @@ Lapā **Duālais ieraksts** var tikt parādīts kļūdas ziņojums, kas līdzīg
 
 Lai atrisinātu problēmu, vispirms veiciet šīs darbības, lai nodrošinātu, ka kolonnas atrodas tabulā.
 
-1. Piesakieties programmas Finance and Operations VM.
+1. Piesakieties VM programmā Finance and Operations.
 2. Dodieties uz **Darbvietas \> Datu pārvaldība**, atlasiet elementu **Struktūras parametri** un pēc tam cilnē **Tabulas iestatījumi** atlasiet **Atsvaidzināt elementu sarakstu**, lai atsvaidzinātu tabulas.
-3. Dodieties uz **Darbvietas \> Datu pārvaldība**, atlasiet cilni **Datu tabulas** un pārliecinieties, ka tabula ir uzskaitīta. Ja elements nav uzskaitīts, piesakieties Finance and Operations programmas VM, un pārliecinieties, ka šī tabula ir pieejama.
-4. Atveriet lapu **Tabulas kartēšana** no lapas **Duālais ieraksts** Finance and Operations programmā.
+3. Dodieties uz **Darbvietas \> Datu pārvaldība**, atlasiet cilni **Datu tabulas** un pārliecinieties, ka tabula ir uzskaitīta. Ja tabula nav norādīta, piesakieties programmas Finance and Operations virtuālajā mašīnā un pārliecinieties, vai tabula ir pieejama.
+4. Atveriet **Tabulas kartēšana** lapa no **Dubultā rakstīšana** lapa programmā Finance and Operations.
 5. Atlasiet **Atsvaidzināt elementu sarakstu**, lai automātiski aizpildītu kolonnas tabulas kartējumos.
 
 Ja problēma joprojām nav novērsta, veiciet šādas darbības.
@@ -83,10 +76,10 @@ Ja problēma joprojām nav novērsta, veiciet šādas darbības.
 > [!IMPORTANT]
 > Izpildot šīs darbības, tabula tiek dzēsta un atkārtoti pievienota. Lai izvairītos no problēmām, noteikti veiciet darbības precīzi.
 
-1. Finance and Operations programmā atveriet **Darbvietas \> Datu pārvaldība** un atlasiet elementu **Datu tabulas**.
+1. Programmā Finance and Operations dodieties uz **Darba vietas \> Datu vadība** un atlasiet **Datu tabulas** flīzes.
 2. Atrodiet tabulu, kuraim trūkst atribūts. Rīkjoslā noklikšķiniet uz **Modificēt mērķa kartēšanu**.
 3. Rūtī **Kartes iestatīšana mērķim** noklikšķiniet uz **Ģenerēt kartēšanu**.
-4. Atveriet lapu **Tabulas kartēšana** no lapas **Duālais ieraksts** Finance and Operations programmā.
+4. Atveriet **Tabulas kartēšana** lapa no **Dubultā rakstīšana** lapa programmā Finance and Operations.
 5. Ja atribūts kartē netiek automātiski aizpildīts, pievienojiet to manuāli, noklikšķinot uz pogu **Pievienot atribūtu** un pēc tam noklikšķinot uz **Saglabāt**. 
 6. Atlasiet karti un noklikšķiniet uz **Palaist**.
 

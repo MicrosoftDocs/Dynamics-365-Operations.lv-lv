@@ -13,12 +13,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 686600e857c7b5aab74d80b7bc31c6bbaaf8d2336d57ff5839752d0ff33def84
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: af3a646e24976d50f83d8564e3006fc2c50d8e2a
+ms.sourcegitcommit: 8bcb9c13eccb14e61c39ca6578d135b64090fad2
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741684"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8313571"
 ---
 # <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a>Relatīva ceļa lietošana ER modeļu un formātu datu saistījumiem
 
@@ -26,8 +26,8 @@ ms.locfileid: "6741684"
 
 Elektronisko pārskatu veidošanas (Electronic reporting — ER) rīks ļauj lietotājiem definēt elektronisko formātu struktūras un pēc tam aprakstīt veidu, kā šīs struktūras vajadzētu aizpildīt, izmantojot datus un algoritmus, kas pastāv programmā. Papildinformāciju skatiet tēmā [Elektronisko pārskatu veidošanas (ER) konfigurāciju izveide](electronic-reporting-configuration.md). Lai norādītu datu plūsmu Finance and Operations datu izgūšanai un to izmantotu elektroniska dokumenta ģenerēšanai, ir jāizpilda tālāk aprakstītā procedūra.
 
-- Konfigurētie datu avoti ir jāsaista ar izveidotajam domēnam raksturīgā [datu modeļa](general-electronic-reporting.md#data-model-and-model-mapping-components) elementiem. Modeļa struktūra un atlasītie datu avoti var veidot daļu no kompleksas hierarhiskas struktūras. Šī iemesla dēļ galīgie saistījumi var būt diezgan lieli un tajos var būt daudz dažādu tipu elementu (piemēram, relācijas, tabulas un metodes). Saistījumi var kļūt grūtāk lasāmi, un tos var būt diezgan sarežģīti pārskatīt un saprast, it īpaši lietotājiem, kas nav to īpašnieki. 
-- Datu modeļu elementi ir jāsaista ar [formāta](general-electronic-reporting.md#FormatComponentOutbound) komponentiem, lai noteiktu, kādi dati no attiecīgā datu modeļa tiks aizpildīti uz ģenerēto formāta izvadi.
+- Konfigurētie datu avoti ir jāsaista ar izveidotajam domēnam raksturīgā datu modeļa elementiem. Modeļa struktūra un atlasītie datu avoti var veidot daļu no kompleksas hierarhiskas struktūras. Šī iemesla dēļ galīgie saistījumi var būt diezgan lieli un tajos var būt daudz dažādu tipu elementu (piemēram, relācijas, tabulas un metodes). Saistījumi var kļūt grūtāk lasāmi, un tos var būt diezgan sarežģīti pārskatīt un saprast, it īpaši lietotājiem, kas nav to īpašnieki. 
+- Datu modeļu elementi ir jāsaista ar formāta komponentiem, lai noteiktu, kādi dati no attiecīgā datu modeļa tiks aizpildīti uz ģenerēto formāta izvadi.
 
 Lai uzlabotu ER kartēšanas noformētāju lietojamību, ir izlaists [relatīvā ceļa](er-formula-language.md#relative-path) līdzeklis. Pēc noklusējuma relatīvā ceļa rādīšanas opcija ir ieslēgta visām jaunajām programmas instancēm, kur ir iespējota ER noformējuma funkcionalitāte (Microsoft Dynamics 365 Finance, Microsoft Regulatory Configuration Service). Mēs ieviesām relatīvā ceļa parametru, lai lietotāji varētu turpināt izmantot pilno ceļu, strādājot ar šo ER saistījumu attēlojumu.
 

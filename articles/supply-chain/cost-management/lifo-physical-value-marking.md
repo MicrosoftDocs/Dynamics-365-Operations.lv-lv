@@ -2,151 +2,149 @@
 title: LIFO ar fizisko vērtību un iezīmēšanu
 description: Pēdējais iesūtītais, Pirmais izsūtītais (pretsecība) ir krājumu modelis, kurā pēdējās (jaunākās) saņemšanas tiek izdotas vispirms. Izdotais krājums nosedz pirmo saņemto krājumu, ņemot vērā krājumu darbības veikšanas fizisko datumu.
 author: AndersGirke
-manager: tfehr
-ms.date: 06/20/2017
+ms.date: 02/02/2022
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 55021
-ms.assetid: 49c492b0-b018-44e0-928f-9671e54eee20
 ms.search.region: Global
-ms.search.industry: Retail
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 35650dc02ec923994026a3ab7f66dea5a81ed20d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: fd57d58aa91aa87b1c2feff52a568296fc18ed9b
+ms.sourcegitcommit: fefe93f3f44d8aa0b7e6d54cc4a3e5eca6e64feb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967612"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8092168"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>LIFO ar fizisko vērtību un iezīmēšanu
 
 [!include [banner](../includes/banner.md)]
 
-Pēdējais iesūtītais, Pirmais izsūtītais (pretsecība) ir krājumu modelis, kurā pēdējās (jaunākās) saņemšanas tiek izdotas vispirms. Izdotais krājums nosedz pirmo saņemto krājumu, ņemot vērā krājumu darbības veikšanas fizisko datumu. 
+Pēdējais iekšā, pirmais ārā (LIFO) ir krājumu pārvaldības un novērtēšanas metode, kurā krājumi, kas saražoti vai iegādāti pēdējie, tiek pārdoti, izmantoti vai iznīcināti vispirms. Inventāra aizvēršanas procesa laikā Microsoft Dynamics 365 Supply Chain Management, sistēma izveidos norēķinus, kuros pēdējā kvīts tiek saskaņota ar pirmo izdevumu utt. Norēķinu un saskaņošanas princips ir balstīts uz inventarizācijas darījumu finanšu datumu. Norēķinu un korekciju provizorisku novērtējumu var veikt, palaižot krājumu pārrēķina procesu.
 
-Krājuma modelī Pēdējais saņemtais, Pirmais izdotais (Last in, First out — LIFO) pēdējās (visjaunākās) saņemtās vienības tiek izdotas pirmās. Krājuma vienību izdošana nosedz pēdējo krājuma vienību saņemšanu pēc krājumu transakcijas datuma. Ja tiek izmantots LIFO modelis, var neizmantot LIFO modeļa kārtulu. Tā vietā var atzīmēt krājuma transakcijas tā, lai konkrēta krājuma izdošanas transakcija tiek segta ar konkrētu saņemšanas transakciju. Ja lietojat pretsecības krājumu modeli, ieteicam periodiski veikt krājumu slēgšanu. 
+LIFO principu var ignorēt, atzīmējot krājumu transakcijas, lai konkrētas preces saņemšana tiktu dzēsta pret konkrētu problēmu. Periodiska krājumu slēgšana ir nepieciešama, ja izmantojat LIFO inventarizācijas modeli, lai izveidotu norēķinus un pielāgotu emisiju vērtību saskaņā ar LIFO principu. Kamēr palaižat krājumu aizvēršanas procesu, izdošanas transakcijas tiek novērtētas pēc vidējās vērtības, kad tika veikti fiziskie un finanšu atjauninājumi. Ja vien neizmantojat atzīmēšanu, vidējais rādītājs tiek aprēķināts, veicot fizisko vai finansiālo atjauninājumu.
 
 Tālākie piemēri parāda LIFO ietekmi, to lietojot trīs dažādos konfigurācijas veidos:
 
--   LIFO bez opcijas **Iekļaut fizisko vērtību**
--   LIFO ar opciju **Iekļaut fizisko vērtību**
--   LIFO ar atzīmi
+- LIFO bez opcijas **Iekļaut fizisko vērtību**
+- LIFO ar opciju **Iekļaut fizisko vērtību**
+- LIFO ar atzīmi
 
 ## <a name="lifo-without-the-include-physical-value-option"></a>Pretsecība bez opcijas Iekļaut fizisko vērtību
-Šajā FIFO piemērā krājumu modeļa grupa nav marķēta fizisko vērtību iekļaušanai. Sekojošajā ilustrācijā tiek parādītas šīs darbības:
 
--   1.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 10,00 par katru.
--   1.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 10,00 katrs.
--   2.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 20,00 par katru.
--   2.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 20,00 katrs.
--   3.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 25,00 par katru.
--   4.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 30,00 par katru.
--   4.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 30,00 katrs.
--   5.a Krājumu fiziskā izdošana daudzumam 1, kur katra izmaksu cena ir USD 20,00 (darbinot finansiāli atjaunināto darbību vidējo rādītāju).
--   5.b Krājumu finansiālā izdošana daudzumam 1, kur katra izmaksu cena ir USD 20,00 (darbinot finansiāli atjaunināto darbību vidējo rādītāju).
--   6. Tiek veikta krājumu slēgšana. Pēc LIFO metodes pēdējā finansiāli atjauninātā izdošanas transakcija tiek nosegta ar pēdējo finansiāli atjaunināto saņemšanas transakciju. Šīs izdošanas darbībai tiks veikts USD 10,00 pārrēķins.
+Šajā piemērā **Iekļaujiet fizisko vērtību** Izlaistā produkta preču modeļu grupā ir notīrīta izvēles rūtiņa. Tālāk esošajā ilustrācijā ir redzamas tālāk norādītās transakcijas:
 
-Jaunā faktiskā vidējo izmaksu cena attiecas uz finansiāli atjaunināto transakciju vidējo vērtību USD 15,00. Nākamajā attēlā ir parādīta LIFO krājumu modeļa ietekme uz šo transakciju sēriju, ja netiek izmantota opcija **Iekļaut fizisko vērtību**. 
+- 1.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 10,00 par katru.
+- 1.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 10,00 katrs.
+- 2.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 20,00 par katru.
+- 2.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 22,00 katrs.
+- 3.a Krājumu fiziska problēma daudzumam 1 par izmaksu cenu USD 16.00 (finansiāli reģistrēto darījumu vidējais rādītājs).
+- 3.b Krājumu finanšu problēma daudzumam 1 par izmaksu cenu USD 16.00 (finansiāli reģistrēto darījumu vidējais rādītājs).
+- 4.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 25,00 par katru.
+- 5.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 30,00 par katru.
+- 5.b Krājumu finansiāla saņemšana daudzumam 1 pie cenas USD 30,00 par katru.
+- 6.a Krājumu fiziska problēma daudzumam 1 par izmaksu cenu USD 23.00 (finansiāli reģistrēto darījumu vidējais rādītājs)
+- 7\. Tiek veikta krājumu slēgšana. Pamatojoties uz LIFO metodi, pirmais finansiāli atjauninātais jautājums tiks dzēsts pret pēdējo finansiāli atjaunināto kvīti utt. Šajā piemērā starp 5b un 3b tiek izveidota viena apdzīvota vieta. USD 14.00 korekcija tiks veikta uz 3b, un rezultātā galīgās izmaksas būs USD 30.00.
 
-![LIFO bez fizisko vērtību iekļaušanas](./media/lifowithoutincludephysicalvalue.gif) 
+Nākamajā attēlā ir parādīta FIFO krājumu modeļa ietekme uz šo transakciju sēriju, ja netiek izmantota opcija **Iekļaut fizisko vērtību**.
+
+![LIFO bez opcijas Iekļaut fizisko vērtību.](./media/lifo-without-including-physical-value.png)
 
 **Diagrammas atslēga**
 
 - Krājuma darbības ir atzīmētas ar vertikālām bultām.
-- Krājuma saņemšana ir atzīmēta ar vertikālām bultām virs laika skalas.
-- Krājuma izdošana ir atzīmēta ar vertikālām bultām zem laika skalas.
-- Virs (vai zem) katras vertikālas bultas ir norādīta krājuma darbības vērtība, lietojot formātu Daudzums@Vienības cena.
-- Krājuma darbības vērtība iekavās norāda, ka krājuma darbība tika iegrāmatota krājumā fiziski.
-- Krājuma darbības vērtība iekavās norāda, ka krājuma darbība netika iegrāmatota krājumā finansiāli.
+- Fiziskos darījumus attēlo īsākas gaiši pelēkas bultiņas.
+- Finanšu darījumus attēlo garākas melnas bultiņas.
+- Inventāra kvītis ir attēlotas ar vertikālām bultiņām virs ass.
+- Problēmas no krājumiem ir attēlotas ar vertikālām bultiņām zem ass.
 - Katra jauna krājuma saņemšanas vai izdošanas darbība tiek atzīmēta ar jaunu etiķeti.
 - Katra vertikāla bulta ir atzīmēta ar secības identifikatoru, piemēram, *1a*. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
-- Krājuma slēgšanas, kas atzīmētas ar sarkanu vertikālu punktlīniju un etiķeti *Krājuma slēgšana*.
+- Katrs datums diagrammā ir atdalīts ar plānu melnu vertikālu līniju. Datums ir norādīts diagrammas apakšā.
+- Krājumu slēgšana ir attēlota ar sarkanu vertikālu pārtrauktu līniju.
 - Segšanas, kas ir veiktas, noslēdzot krājumus, un atzīmētas ar sarkanām diagonālām punktlīnijas bultām, kas savieno saņemšanu un izdošanu.
 
 ## <a name="lifo-with-the-include-physical-value-option"></a>Pretsecība ar opciju Iekļaut fizisko vērtību
-Ja krājumam lapā **Krājumu modeļu grupas** ir atzīmēta izvēles rūtiņa **Iekļaut fizisko vērtību**, sistēmā faktiskās vidējās izmaksu cenas aprēķinam tiek izmantotas gan fiziskās, gan finansiālās ieejas plūsmas transakcijas. Kur nepieciešams, sistēma veic korekcijas arī fiziski apstrādātajām izdošanas darbībām. Ja izvēles rūtiņa **Iekļaut fizisko vērtību** nav atlasīta, tad krājumu slēgšanas ar LIFO krājumu modeli veiks nosegšanu tikai finansiāli apstrādātiem darījumiem. 
+
+Ja **Iekļaujiet fizisko vērtību** izvēles rūtiņa ir atlasīta vienumam vietnē **Preču modeļu grupas** lapā, sistēma izmanto gan fizisko, gan finanšu ieņēmumu darījumus, lai aprēķinātu tekošo vidējo pašizmaksu. Attiecīgā gadījumā sistēma pielāgo arī fiziski atjaunināto emisijas darījumu. Kad **Iekļaujiet fizisko vērtību** izvēles rūtiņa ir notīrīta, krājumu aizvēršana, kas izmanto LIFO krājumu modeli, veic norēķinus tikai par darījumiem, kas ir finansiāli atjaunināti.
 
 Tālāk esošajā ilustrācijā ir redzamas tālāk norādītās transakcijas.
 
--   1.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 10,00 par katru.
--   1.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 10,00 katrs.
--   2.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 20,00 par katru.
--   2.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 20,00 katrs.
--   3.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 25,00 par katru.
--   4.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 30,00 par katru.
--   4.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 30,00 katrs.
--   5.a Krājuma fiziska izdošana par daudzumu 1 par izmaksu cenu USD 21,25 katrs (aprēķinot finansiāli un fiziski atjaunināto darbību vidējo).
--   5.b Krājuma finansiālā izdošana par daudzumu 1 par izmaksu cenu USD 21,25 katrs (aprēķinot finansiāli un fiziski atjaunināto darbību vidējo).
--   6.a Krājuma fiziska saņemšana par daudzumu 1 par summu USD 21,25 katrs.
--   7. Tiek veikta krājumu slēgšana. Pēc LIFO metodes pēdējā izdošanas transakcija tiek koriģēta vai segta ar pēdējo atjaunināto saņemšanas transakciju.
+- 1.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 10,00 par katru.
+- 1.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 10,00 katrs.
+- 2.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 20,00 par katru.
+- 2.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 22,00 katrs.
+- 3.a Krājumu fiziska problēma daudzumam 1 par izmaksu cenu USD 16.00 (fiziski un finansiāli reģistrēto darījumu vidējā vērtība).
+- 3.b Krājumu finanšu problēma daudzumam 1 par izmaksu cenu USD 16.00 (fiziski un finansiāli reģistrēto darījumu vidējais rādītājs).
+- 4.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 25,00 par katru.
+- 5.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 30,00 par katru.
+- 5.b Krājumu finansiāla saņemšana daudzumam 1 pie cenas USD 30,00 par katru.
+- 6.a Krājumu fiziska problēma daudzumam 1 par izmaksu cenu USD 23.67 (fiziski un finansiāli reģistrēto darījumu vidējā vērtība).
+- 7\. Tiek veikta krājumu slēgšana. Pamatojoties uz LIFO metodi, pirmais finansiāli atjauninātais jautājums tiks dzēsts pret pēdējo finansiāli atjaunināto kvīti utt. Šajā piemērā starp 3b un 5b tiek izveidota viena apdzīvota vieta. USD 14.00 korekcija tiks veikta uz 3b, un rezultātā galīgās izmaksas būs USD 30.00. Turklāt darījums 6a tiks pielāgots kvīts darījuma izmaksām 4a. Sistēmā šīs transakcijas netiek segtas, jo saņemšana tiek atjaunināta fiziski, bet ne finansiāli. Tā vietā fiziskās emisijas darījumā tiks publicēta tikai USD 1.33 korekcija, un rezultātā koriģētās izmaksas būs USD 25.00.
 
-Transakcija 6a tiek koriģēta atbilstoši saņemšanas transakcijai 4b. Sistēmā šīs transakcijas netiek segtas, jo saņemšana tiek atjaunināta fiziski, bet ne finansiāli. Tāpēc fiziskās izdošanas darbībai tiks grāmatots tikai USD 8,75 pārrēķins. Transakcija 5b tiek koriģēta atbilstoši saņemšanas transakcijai 3a. Sistēmā šīs transakcijas netiek segtas, jo tās abas nav atjauninātas finansiāli. Tāpēc šī izdošanas transakcija tiek tikai koriģēta ar vērtību USD –3,75. Jauna spēkā esošā vidējā izmaksu cena attēlo finansiāli vai fiziski atjaunināto darbību vidējo par summu USD 20,00. 
+Sekojošā ilustrācija parāda LIFO krājumu modeļa ietekmi uz šo darbību sēriju, kad tiek izmantota opcija **Iekļaut fizisko vērtību**.
 
-Sekojošā ilustrācija parāda LIFO krājumu modeļa ietekmi uz šo darbību sēriju, kad tiek izmantota opcija **Iekļaut fizisko vērtību**. 
-
-![LIFO ar fizisko vērtību iekļaušanu](./media/lifowithincludephysicalvalue.gif) 
+![LIFO ar opciju Iekļaut fizisko vērtību.](./media/lifo-with-included-physical-value.png)
 
 **Diagrammas atslēga**
 
 - Krājuma darbības ir atzīmētas ar vertikālām bultām.
-- Krājuma saņemšana ir atzīmēta ar vertikālām bultām virs laika skalas.
-- Krājuma izdošana ir atzīmēta ar vertikālām bultām zem laika skalas.
-- Virs (vai zem) katras vertikālas bultas ir norādīta krājuma darbības vērtība, lietojot formātu Daudzums@Vienības cena.
-- Krājuma darbības vērtība iekavās norāda, ka krājuma darbība tika iegrāmatota krājumā fiziski.
-- Krājuma darbības vērtība iekavās norāda, ka krājuma darbība netika iegrāmatota krājumā finansiāli.
+- Fiziskos darījumus attēlo īsākas gaiši pelēkas bultiņas.
+- Finanšu darījumus attēlo garākas melnas bultiņas.
+- Inventāra kvītis ir attēlotas ar vertikālām bultiņām virs ass.
+- Problēmas no krājumiem ir attēlotas ar vertikālām bultiņām zem ass.
 - Katra jauna krājuma saņemšanas vai izdošanas darbība tiek atzīmēta ar jaunu etiķeti.
 - Katra vertikāla bulta ir atzīmēta ar secības identifikatoru, piemēram, *1a*. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
-- Krājuma slēgšanas, kas atzīmētas ar sarkanu vertikālu punktlīniju un etiķeti *Krājuma slēgšana*.
+- Katrs datums diagrammā ir atdalīts ar plānu melnu vertikālu līniju. Datums ir norādīts diagrammas apakšā.
+- Krājumu slēgšana ir attēlota ar sarkanu vertikālu pārtrauktu līniju.
 - Segšanas, kas ir veiktas, noslēdzot krājumus, un atzīmētas ar sarkanām diagonālām punktlīnijas bultām, kas savieno saņemšanu un izdošanu.
 
-## <a name="lifo-with-marking"></a>LIFO ar atzīmi
-Atzīmēšana ir process, kas sniedz iespēju saistīt jeb atzīmēt izdošanas transakciju ar ieejas plūsmas transakciju. Atzīmēšana var parādīties gan pirms, gan pēc darbības grāmatošanas. Kā arī varat lietot iezīmēšanu, ja vēlaties pārbaudīt precīzas krājuma izmaksas pēc darbības iegrāmatošanas vai pēc krājumu slēgšanas. Piemēram, jūsu Klientu apkalpošanas nodaļa saņēma steidzamu pasūtījumu no svarīga klienta. Tā kā tas ir steidzams pasūtījums, lai izpildītu debitora lūgumu, par šo krājumu jāmaksā vairāk. 
+## <a name="lifo-with-marking"></a>LIFO ar iezīmēšanu
 
-Jāpārbauda, vai krājuma vienības cena šajā pārdošanas pasūtījuma rēķinā tiek iekļauta peļņas aprēķinā vai pārdoto preču pašizmaksā (COGS). Iegrāmatojot pirkšanas pasūtījumu, tiek saņemts krājums ar vērtību USD 120,00. Ja šis pārdošanas dokuments ir atzīmēts kā pirkšanas pasūtījums pirms pavadzīmes vai rēķina iegrāmatošanas, tad COGS būs USD 120,00, nevis pašreizējas krājuma vidējas izmaksas. Ja pārdošanas pasūtījuma pavadzīme vai rēķins tiek iegrāmatots pirms iezīmēšanas, COGS būs norādītas kā pašreizējo krājuma vidējo izmaksu cena. 
+Atzīmēšana ir process, kas sniedz iespēju izdošanas transakciju saistīt jeb atzīmēt ar ieejas plūsmas transakciju. Atzīmēšana var parādīties gan pirms, gan pēc darbības grāmatošanas. Kā arī varat lietot iezīmēšanu, ja vēlaties pārbaudīt precīzas krājuma izmaksas pēc darbības iegrāmatošanas vai pēc krājumu slēgšanas. Piemēram, jūsu Klientu apkalpošanas nodaļa saņēma steidzamu pasūtījumu no svarīga klienta. Tā kā šis pasūtījums ir steidzams pasūtījums, jums ir jāmaksā vairāk par preci, lai izpildītu klienta pieprasījumu.
 
-Pirms krājumu slēgšanas šīs darbības var būt savstarpēji iezīmētas. 
+Jums ir jāpārliecinās, ka krājuma preces izmaksas ir atspoguļotas pārdošanas pasūtījuma rēķina maržā jeb pārdoto preču izmaksās (COGS). Iegrāmatojot pirkšanas pasūtījumu, tiek saņemts krājums ar vērtību USD 120,00. Ja šis pārdošanas dokuments ir atzīmēts kā pirkšanas pasūtījums pirms pavadzīmes vai rēķina iegrāmatošanas, tad COGS būs USD 120,00, nevis pašreizējas krājuma vidējas izmaksas. Ja pārdošanas pasūtījuma pavadzīme vai rēķins tiek iegrāmatots pirms iezīmēšanas, COGS būs norādītas kā pašreizējo krājuma vidējo izmaksu cena.
 
-Varat iezīmējot saistīt izejas plūsmas transakciju ar ieejas plūsmas transakciju pirms transakcijas grāmatošanas. To var paveikt no pārdošanas pasūtījuma rindas, lapā **Pārdošanas pasūtījuma informācija**. Jūs varat skatīt atvērtās saņemšanas darbības lapā **Iezīmēšana**. 
+Pirms krājumu slēgšanas šīs darbības var būt savstarpēji iezīmētas.
 
-Varat arī iezīmējot saistīt izejas plūsmas transakciju ar ieejas plūsmas transakciju pēc transakcijas grāmatošanas. Varat saskaņot vai iezīmējot saistīt inventarizēta krājuma izejas plūsmas transakciju ar atvērtu ieejas plūsmas transakciju, izmantojot grāmatoto krājumu korekciju žurnālu. 
+Varat iezīmējot saistīt izejas plūsmas transakciju ar ieejas plūsmas transakciju pirms transakcijas grāmatošanas. Šo atzīmēšanu var izdarīt no pārdošanas pasūtījuma rindas uz **Pārdošanas pasūtījuma informācija** lapu, atlasot **Inventārs \> Marķēšana** uz **Pārdošanas pasūtījumu rindas** FastTab. Varat skatīt atvērtās ieejas plūsmas transakcijas lapā **Iezīmēšana**.
+
+Varat arī iezīmējot saistīt izejas plūsmas transakciju ar ieejas plūsmas transakciju pēc transakcijas grāmatošanas. Varat saskaņot vai iezīmējot saistīt inventarizēta krājuma izejas plūsmas transakciju ar atvērtu ieejas plūsmas transakciju, izmantojot grāmatoto krājumu korekciju žurnālu.
 
 Sekojošajā ilustrācijā tiek parādītas šīs darbības:
 
--   1.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 10,00 par katru.
--   1.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 10,00 katrs.
--   2.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 20,00 par katru.
--   2.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 20,00 katrs.
--   3.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 25,00 par katru.
--   4.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 30,00 par katru.
--   4.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 30,00 katrs.
--   5.a Krājuma fiziska izdošana par daudzumu 1 par izmaksu cenu USD 21,25 katrs (aprēķinot finansiāli un fiziski atjaunināto darbību vidējo).
--   5.b Krājumu finansiāla izdošana ar daudzumu 1 tiek nozīmēta krājumu saņemšanas darbībai 2.b pirms darbība tiek iegrāmatota. Šī darbība tik grāmatota ar izmaksas cenu USD 20,00 katram.
--   6.a Krājuma fiziska saņemšana par daudzumu 1 par summu USD 21,25 katrs.
--   7. Tiek veikta krājumu slēgšana. Tādēļ, ka finansiāli apstrādātā FIFO darbība tiek nozīmēta esošajai saņemšanai, tad šīs darbības tiek nosegtas viena ar otru un netiek veiktas nekādas korekcijas.
+- 1.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 10,00 par katru.
+- 1.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 10,00 katrs.
+- 2.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 20,00 par katru.
+- 2.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 22,00 katrs.
+- 3.a Krājumu fiziska problēma daudzumam 1 par izmaksu cenu USD 16.00 (finansiāli reģistrēto darījumu vidējais rādītājs).
+- 3.b Krājumu finanšu problēma daudzumam 1 par izmaksu cenu USD 16.00 (finansiāli reģistrēto darījumu vidējais rādītājs).
+- 3c. Krājumu finanšu emisija 3.b ir atzīmēta kā krājumu finanšu problēma 2.b.
+- 4.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 25,00 par katru.
+- 5.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 30,00 par katru.
+- 5.b Krājumu finansiāla saņemšana daudzumam 1 pie cenas USD 30,00 par katru.
+- 6.a Krājumu fiziska problēma daudzumam 1 par izmaksu cenu USD 23.00 (finansiāli reģistrēto darījumu vidējais rādītājs)
+- 7\. Tiek veikta krājumu slēgšana. Pamatojoties uz marķēšanas principu, kurā tiek izmantota LIFO metode, atzīmētie darījumi tiek savstarpēji norēķināti. Šajā piemērā 3b tiek izlīdzināts pret 2b, un USD 6.00 korekcija tiek ievietota 3b, lai vērtību iegūtu USD 22.00. Šajā piemērā papildu norēķini netiek veikti, jo slēgšana veido norēķinus tikai par finansiāli atjauninātiem darījumiem.
 
-Jauna spēkā esošā vidējā izmaksu cena attēlo finansiāli vai fiziski atjaunināto darbību vidējo par summu USD 27,50. 
+Jauna spēkā esošā vidējā izmaksu cena attēlo finansiāli vai fiziski atjaunināto darbību vidējo par summu USD 27,50.
 
-Sekojošajā ilustrācijā redzama šī darījumu sērija ar ietekmi, ko rada LIFO krājumu modeļa izvēle ar nozīmēšanu starp izsniegšanas un saņemšanas darījumiem. 
+Sekojošajā ilustrācijā redzama šī darījumu sērija ar ietekmi, ko rada LIFO krājumu modeļa izvēle ar nozīmēšanu starp izsniegšanas un saņemšanas darījumiem.
 
-![LIFO ar apzīmējumu](./media/lifowithmarking.gif) 
+![LIFO ar marķējumu.](./media/lifo-with-marking.png)
 
-**Diagrammas atslēga**
+**Diagrammas apzīmējumi**
 
 - Krājuma darbības ir atzīmētas ar vertikālām bultām.
-- Krājuma saņemšana ir atzīmēta ar vertikālām bultām virs laika skalas.
-- Krājuma izdošana ir atzīmēta ar vertikālām bultām zem laika skalas.
-- Virs (vai zem) katras vertikālas bultas ir norādīta krājuma darbības vērtība, lietojot formātu Daudzums@Vienības cena.
-- Krājuma darbības vērtība iekavās norāda, ka krājuma darbība tika iegrāmatota krājumā fiziski.
-- Krājuma darbības vērtība iekavās norāda, ka krājuma darbība netika iegrāmatota krājumā finansiāli.
+- Fiziskos darījumus attēlo īsākas gaiši pelēkas bultiņas.
+- Finanšu darījumus attēlo garākas melnas bultiņas.
+- Inventāra kvītis ir attēlotas ar vertikālām bultiņām virs ass.
+- Problēmas no krājumiem ir attēlotas ar vertikālām bultiņām zem ass.
 - Katra jauna krājuma saņemšanas vai izdošanas darbība tiek atzīmēta ar jaunu etiķeti.
 - Katra vertikāla bulta ir atzīmēta ar secības identifikatoru, piemēram, *1a*. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
-- Krājuma slēgšanas, kas atzīmētas ar sarkanu vertikālu punktlīniju un etiķeti *Krājuma slēgšana*.
-- Segšanas, kas ir veiktas, noslēdzot krājumus, un atzīmētas ar sarkanām diagonālām punktlīnijas bultām, kas savieno saņemšanu un izdošanu.
+- Katrs datums diagrammā ir atdalīts ar plānu melnu vertikālu līniju. Datums ir norādīts diagrammas apakšā.
+- Krājumu slēgšana ir attēlota ar sarkanu vertikālu pārtrauktu līniju.
+- Norēķini un marķējumi, kas tiek veikti, aizverot krājumus, ir attēloti ar sarkanām diagonālām punktētām bultiņām, kas pāriet no kvīts uz izdevumu.
 
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Iframe modulis
 description: Šajā tēmā tiek stāstīts par iframe moduli un aprakstīts, kā to pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 11/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 55526b34eb057abb9a8c33cbfea1807601da6577
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: bce6a50e8c145f8961bd0c839fe16c1f4d69e811
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6348218"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7754018"
 ---
 # <a name="iframe-module"></a>Iframe modulis
 
@@ -66,7 +66,10 @@ Lai lappusei pievienotu iframe moduli, lai parādītu ārējo videoklipu, rīkoj
 1. Pēc nepieciešamības iestatiet citus rekvizītus, kā **Virsraksts** un **Augstums**.
 1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt**, lai publicētu to.
 1. Dodieties uz vietnes mārketinga lapu. Jums vajadzētu redzēt, ka video tiek atveidots iframe modulī.
- 
+
+> [!NOTE]
+> Tā kā iframe modulis vieso ārēju saturu, vietas autoriem ir jānodrošina, ka iframe modulī viesotais saturs nepārkāpj satura ierobežojumu politiku attiecīgajā tirgū. Ja lapā, kas izmanto iframe moduli, ir satura pārkāpums, vietas autors var noņemt iframe moduli, atverot lapu vietas veidotājā, atlasot Noņemt moduli iframe moduļa slotā un pēc tam saglabājot un atkārtoti publicējot **·** lapu.
+
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Moduļu bibliotēkas pārskats](starter-kit-overview.md)

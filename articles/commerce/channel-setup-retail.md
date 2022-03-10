@@ -2,11 +2,9 @@
 title: Mazumtirdzniecības kanāla iestatīšana
 description: Šajā tēmā aprakstīts, kā izveidot jaunu mazumtirdzniecības kanālu risinājumā Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
-ms.date: 01/27/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: a5d0a081cff9fab8dc0a513496e6a5eccd03c871
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
-ms.translationtype: HT
+ms.openlocfilehash: 6a8db8bb4b42c7ad6c0c0e0c257bc03e356de7d525f524c22eab46e38c018d49
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5478264"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745410"
 ---
 # <a name="set-up-a-retail-channel"></a>Mazumtirdzniecības kanāla iestatīšana
 
@@ -52,11 +50,11 @@ Pirms mazumtirdzniecības kanāla izveidošanas pārliecinieties, ka esat ievēr
 
 Tālāk redzamajā attēlā parādīta jauna mazumtirdzniecības kanāla izveide.
 
-![Jauns mazumtirdzniecības kanāls](media/channel-setup-retail-1.png)
+![Jauns mazumtirdzniecības kanāls.](media/channel-setup-retail-1.png)
 
 Tālāk redzamajā attēlā ir parādīts mazumtirdzniecības kanāla piemērs.
 
-![Mazumtirdzniecības kanāla piemērs](media/channel-setup-retail-2.png)
+![Mazumtirdzniecības kanāla piemērs.](media/channel-setup-retail-2.png)
 
 ## <a name="other-settings"></a>Citi iestatījumi
 
@@ -66,17 +64,17 @@ Turklāt skatiet sadaļu [Pārdošanas punkta (POS) ekrāna izkārtojumi](pos-s
 
 Tālāk redzamajā attēlā ir parādīts mazumtirdzniecības kanāla iestatījumu konfigurācijas piemērs.
 
-![Mazumtirdzniecības kanāla konfigurācijas piemērs](media/channel-setup-retail-3.png)
+![Mazumtirdzniecības kanāla konfigurācijas piemērs.](media/channel-setup-retail-3.png)
 
 ## <a name="additional-channel-set-up"></a>Papildu kanāla iestatīšana
 
-Ir papildu vienumi, kas ir jāiestata kanālam, ko var atrast **Darbības rūtī** sadaļā **Iestatīt**.
+Ir papildu vienumi, kas ir jāiestata kanālam, ko var atrast darbības rūtī sadaļā **Iestatīt**.
 
 Papildu uzdevumi, kas nepieciešami tiešsaistes kanāla iestatīšanai, ietver maksājuma metožu iestatīšanu, skaidras naudas deklarēšanu, piegādes veidus, ienākumu/izdevumu kontu, sadaļas, izpildes grupas piešķiršanu un seifus.
 
 Tālāk esošajā attēlā ir parādītas dažādas papildu mazumtirdzniecības kanāla iestatīšanas opcijas cilnē **Iestatīšana**.
 
-![Kanāla iestatīšana](media/channel-setup-retail-4.png)
+![Kanāla iestatīšana.](media/channel-setup-retail-4.png)
 
 ### <a name="set-up-payment-methods"></a>Iestatīt maksājuma metodes
 
@@ -91,7 +89,7 @@ Lai iestatītu maksājuma metodes, katram šajā kanālā atbalstītajam maksāj
 
 Tālāk esošajā attēlā ir parādīts skaidras naudas maksājuma piemērs.
 
-![Maksājumu metožu piemērs](media/channel-setup-retail-5.png)
+![Maksājumu metožu piemērs.](media/channel-setup-retail-5.png)
 
 ### <a name="set-up-cash-declaration"></a>Skaidrās naudas deklarācijas iestatīšana
 
@@ -100,11 +98,11 @@ Tālāk esošajā attēlā ir parādīts skaidras naudas maksājuma piemērs.
 
 Tālāk esošajā attēlā ir parādīts skaidras naudas deklarācijas piemērs.
 
-![Skaidrās naudas deklarācijas iestatīšana](media/channel-setup-retail-6.png)
+![Skaidrās naudas deklarācijas iestatīšana.](media/channel-setup-retail-6.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Iestatiet piegādes veidus
 
-Varat skatīt konfigurētos piegādes režīmus, atlasot **Piegādes veidi** no cilnes **Iestatījumi**, kas atrodas **Darbību rūtī**.  
+Varat skatīt konfigurētos piegādes režīmus, atlasot **Piegādes veidi** no cilnes **Iestatījumi**, kas atrodas darbības rūtī.  
 
 Lai mainītu vai pievienotu piegādes veidu, rīkojieties, kā norādīts tālāk.
 
@@ -114,7 +112,7 @@ Lai mainītu vai pievienotu piegādes veidu, rīkojieties, kā norādīts tālā
 
 Tālāk redzamajā attēlā parādīts piegādes režīma piemērs.
 
-![Iestatiet piegādes veidus](media/channel-setup-retail-7.png)
+![Iestatiet piegādes veidus.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-incomeexpense-account"></a>Ienākumu/izdevumu konta iestatīšana
 
@@ -131,7 +129,7 @@ Lai iestatītu ienākumu/izdevumu kontu, veiciet tālāk norādītās darbības.
 
 Tālāk esošajā attēlā parādīts ieņēmumu/izdevumu konta piemērs.
 
-![Ienākumu/izdevumu kontu iestatīšana](media/channel-setup-retail-8.png)
+![Ienākumu/izdevumu kontu iestatīšana.](media/channel-setup-retail-8.png)
 
 ### <a name="set-up-sections"></a>Sadaļu iestatīšana
 
@@ -157,7 +155,7 @@ Lai iestatītu izpildes grupas piešķiri, veiciet tālāk norādītās darbība
 
 Tālāk redzamajā attēlā parādīts izpildes grupas piešķires piemērs.
 
-![Izpildes grupas piešķires iestatīšana](media/channel-setup-retail-9.png)
+![Izpildes grupas piešķires iestatīšana.](media/channel-setup-retail-9.png)
 
 ### <a name="set-up-safes"></a>Seifu iestatīšana
 
@@ -168,11 +166,42 @@ Lai iestatītu seifus, rīkojieties, kā norādīts tālāk.
 1. Ievadiet seifa nosaukumu.
 1. Darbību rūtī atlasiet **Saglabāt**.
 
+### <a name="ensure-unique-transaction-ids"></a>Nodrošināt unikālus transakciju ID
+
+Attiecībā uz Commerce versiju 10.0.18 pārdošanas punktam (POS) ģenerētie transakciju ID ir secīgi un ietver šādas daļas:
+
+- Fiksēta daļa, kas ir veikala ID un termināļa ID konkatenācija. 
+- Secīga daļa, kas ir numuru sērija. 
+
+It īpaši formāts ir *{store}-{terminal}-{numbersequence}*. 
+
+Tā kā transakciju ID var ģenerēt bezsaistes un tiešsaistes režīmā, ir gadījumi, kad tiek ģenerēti dublēti transakciju ID. Lai noņemtu transakciju ID dublikātus, ir nepieciešama manuāla datu labošana. 
+
+Ar Commerce versiju 10.0.19 transakciju ID formāts ir atjaunināts, lai noņemtu secīgu daļu, un tā vietā tiek izmantots 13 ciparu numurs, kas ģenerēts, aprēķinot laiku milisekundēs kopš 1970. gada. Ar šo izmaiņu jaunais transakciju ID formāts ir *{store}-{terminal}-{millisecondsSince1970}*. Šis atjauninājums padara transakciju ID nesecīgo un nodrošina, ka transakciju ID vienmēr ir unikāli. 
+
+> [!NOTE]
+> Transakciju ID ir paredzēti tikai iekšējai sistēmai, tāpēc tiem nav jābūt secīgiem. Tomēr daudzas valstis pieprasa, lai saņemšanas ID būtu secīgi.
+
+Jauno transakciju ID formāta līdzekli var iespējot no darbvietas **Līdzekļu pārvaldība**. 
+
+Lai aktivizētu jaunu transakciju ID izmantošanu, rīkojieties šādi:
+
+1. Programmā Commerce Headquarters dodieties uz **Sistēmas administrēšana \> Darbvietas \> Līdzekļu pārvaldība**.
+1. Filtrs modulim "mazumtirdzniecība un komercija".
+1. Meklējiet līdzekļa nosaukumu **Aktivizēt jaunu transakciju ID, lai izvairītos no dublētiem transakciju ID**.
+1. Atlasiet līdzekli un pēc tam labajā rūtī atlasiet **Iespējot tūlīt**.  
+1. Pārejiet uz **Mazumtirdzniecība un komercija \> Mazumtirdzniecības un komercijas IT \> Sadales grafiks**.
+1. Palaidiet darbus **1070 kanāla konfigurācija** un **1170 POS uzdevumu ierakstītājs**, lai sinhronizētu iespējoto līdzekli ar veikaliem.
+1. Lai lietotu jauno transakciju ID formātu, kad uz veikaliem ir nosūtītas izmaiņas, POS termināļi ir jāaizver un atkārtoti jāatver. 
+
+> [!NOTE]
+> Kad jaunais transakciju ID formāta līdzeklis ir aktivizēts, šo līdzekli nevarēs deaktivizēt. Ja tas ir jāatspējo, lūdzu, sazinieties ar Commerce Support.
+
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Kanālu apskats](channels-overview.md)
 
-[Kanālu iestatīšanas priekšnosacījumi](channels-prerequisites.md)
+[Kanāla iestatīšanas priekšnosacījumi](channels-prerequisites.md)
 
 [Tiešsaistes veikala iestatīšana](channel-setup-online.md)
 

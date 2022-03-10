@@ -7,7 +7,6 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
@@ -15,14 +14,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: Platform update 36
-ms.openlocfilehash: a63ff89a6fcbffc57eff14f310a080a35521ef34
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
-ms.translationtype: HT
+ms.openlocfilehash: a2f110d105b8c04f07f219f7f11a57d24e00ce4a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890080"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067783"
 ---
 # <a name="optimize-byod-scheduled-batch-jobs"></a>BYOD plānoto pakešuzdevumu optimizēšana
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -89,6 +91,12 @@ BYOD līdzeklim ir šādi ierobežojumi:
 **Problēma:** kad elements ir pilnībā novirzīts, jūs redzat lielu ierakstu kopu BYOD, kad izmantojat **Atlasīt** izrakstu. Tomēr, kad veicat pakāpenisko virzību, ir redzami tikai daži ieraksti BYOD. Šķiet, it kā pakāpeniskā virzība dzēsa visus ierakstus un pievienoja tikai mainītos ierakstus BYOD.
 
 **Risinājums:** SQL izmaiņu izsekošanas tabulas var nebūt paredzētajā stāvoklī. Šāda veida gadījumos iesakām izslēgt izmaiņu izsekošanu entītijai un pēc tam to atkal ieslēgt. Lai iegūtu papildu informāciju, skatiet [Iespējot izmaiņu izsekošanu entītijām](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
+
+### <a name="staging-tables-arent-clearing"></a>Izstādīšanas tabulas netiek tīrītas
+
+**Problēma:** izmantojot projekta izstādīšanu, izstādīšanas tabulas netiek pareizi notīrītas. Dati tabulās turpina pieaugt, radot veiktspējas problēmas.
+
+**Risinājums:** izstādīšanas tabulās saglabājas septiņas vēstures dienas. Vēsturiskie dati, kas vecāki par septiņām dienām, tiek automātiski notīrīti no izstādīšanas tabulām, izmantojot pakešuzdevumu **Importēšanas eksporta izstādīšanas tīrīšana**. Ja šis darbs iestrēgs, tabulas netiks pareizi notīrītas. Šī pakešuzdevuma restartēšana turpinās procesu, lai automātiski notīrītu izstādīšanas tabulas.
 
 ## <a name="see-also"></a>Skatiet arī
 

@@ -1,27 +1,25 @@
 ---
 title: Veikala pasūtījumu izpilde
 description: Šajā tēmā ir sniegts apskats par veikala pasūtījumu izpildi.
-author: rubencdelgado
-manager: AnnBe
+author: BrianShook
 ms.date: 10/30/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fa568926ccdde4620294915679cd094adbd1e833
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 36ce908e81639fbb836d33ff3e84976c395b1473
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965406"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983346"
 ---
 # <a name="store-order-fulfillment"></a>Veikala pasūtījumu izpilde
 
@@ -35,7 +33,7 @@ Pasūtījumu izpildes operācija pārdošanas punktā nodrošina vienu darba apg
 
 ## <a name="access-unified-order-fulfillment-in-the-point-of-sale"></a>Piekļuve vienotajai pasūtījumu izpildei pārdošanas punktā
 
-Pasūtījumu izpildi, [Operācijas ID 928](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-operations), var izmantot, lai piekļūtu veikala pasūtījumu izpildes darba apgabalam pārdošanas punktā.
+Pasūtījumu izpildi, [Operācijas ID 928](pos-operations.md), var izmantot, lai piekļūtu veikala pasūtījumu izpildes darba apgabalam pārdošanas punktā.
 
 Standarta konfigurācijā pasūtījumu izpildes operācijai nav pašai savas atļaujas, bet nākotnē lietotāji varēs izmantot atļauju **Ļaut izgūt pasūtījumu**, lai izsauktu šo operāciju no pārdošanas punkta.
 
@@ -95,7 +93,7 @@ Pēc pasūtījuma pieņemšanas rindas var atlasīt un atzīmēt kā **Izdošana
 
 Lai palīdzētu darbiniekiem veikt izdošanas procesu, izdošanas sarakstus pārdošanas punktā var drukāt. Darbinieks, kas veic izdošanu, var ņemt līdzi izdrukātu izdošanas sarakstu un manuāli atzīmēt izdotās preces šajā sarakstā, līdzko tās tiek izdotas.
 
-Izdošanas saraksta formāts tiek konfigurēts programmā Commerce un tiek pievienots ieejas plūsmas profilam. Papildinformāciju par to, kā iestatīt ieejas plūsmas profilus, skatiet šeit: [Ieejas plūsmas veidnes un drukāšana](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+Izdošanas saraksta formāts tiek konfigurēts programmā Commerce un tiek pievienots ieejas plūsmas profilam. Papildinformāciju par to, kā iestatīt ieejas plūsmas profilus, skatiet šeit: [Ieejas plūsmas veidnes un drukāšana](receipt-templates-printing.md).
 
 Ja ir atlasītas rindas un šīm rindām tiek drukāts izdošanas saraksts, tās tiek automātiski atjauninātas uz statusu **Izdošana**.
 
@@ -121,7 +119,7 @@ Pasūtījumu rindas var iepakot jebkurā brīdī pēc tam, kad attiecīgā pasū
 - **Iegūtais statuss:** iepakots vai daļēji iepakots
 - **Iegūtais iekšējās uzskaites daļas statuss:** piegādāts vai daļēji piegādāts
 
-Šī darbība rindas atzīmē kā iepakotas vai daļēji iepakotas un izdrukā pavadzīmi. Pavadzīmi var drukāt, lai validētu preces, kas ir iepakotas kopā. Pavadzīmes formāts tiek konfigurēts programmā Commerce un tiek pievienots ieejas plūsmas profilam. Papildinformāciju par to, kā iestatīt ieejas plūsmas profilus, skatiet šeit: [Ieejas plūsmas veidnes un drukāšana](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+Šī darbība rindas atzīmē kā iepakotas vai daļēji iepakotas un izdrukā pavadzīmi. Pavadzīmi var drukāt, lai validētu preces, kas ir iepakotas kopā. Pavadzīmes formāts tiek konfigurēts programmā Commerce un tiek pievienots ieejas plūsmas profilam. Papildinformāciju par to, kā iestatīt ieejas plūsmas profilus, skatiet šeit: [Ieejas plūsmas veidnes un drukāšana](receipt-templates-printing.md).
 
 **Darbība: Atzīmēt kā iepakotu**
 
@@ -217,3 +215,6 @@ Pasūtījumu izpilde pārdošanas punktā ietver filtrēšanu, lai palīdzētu l
 - Veidošanas datums
 - Piegādes datums
 - Saņemšanas datums
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

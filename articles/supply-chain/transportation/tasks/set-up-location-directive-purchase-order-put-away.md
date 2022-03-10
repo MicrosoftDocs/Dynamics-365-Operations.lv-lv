@@ -1,27 +1,25 @@
 ---
 title: Vietas direktīvas iestatīšana pirkšanas pasūtījuma izvietošanai
 description: Šajā tēmā ir izskaidrots, kā iestatīt vienkāršu atrašanās vietas direktīvu.
-author: ShylaThompson
-manager: tfehr
+author: Henrikan
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSInventFixedLocation
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9e7b8c1f5c5dfb29f1bdf28529ef76e31d8e83f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 6a363b452cbee539aeee62146f545b1f7c2eb842
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233635"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576212"
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Vietas direktīvas iestatīšana pirkšanas pasūtījuma izvietošanai
 

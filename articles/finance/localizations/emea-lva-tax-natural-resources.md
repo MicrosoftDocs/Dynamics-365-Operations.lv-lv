@@ -2,26 +2,24 @@
 title: Dabas resursu nodokļa pārskats
 description: Šajā tēmā ir paskaidrots, kā iestatīt un ģenerēt pārskatu Dabas resursu nodoklis (DRN).
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LvNRTaxItemGroupLookup
 audience: Application User
 ms.reviewer: kfend
 ms.custom: 270454
 ms.search.region: Latvia
-ms.author: v-lenest
+ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5f75bca22183e9ba01694a96ef86d40025dbfd44
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 954b944e7f2900502abcf0c145fde57a1be1697b
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5002890"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592522"
 ---
 # <a name="tax-on-natural-resources-report"></a>Dabas resursu nodokļa pārskats
 
@@ -50,14 +48,14 @@ Lai varētu ģenerēt pārskatu **Dabas resursu nodoklis**, ir jāiestata rindas
 1.  Noklikšķiniet uz **Nodokļi** &gt; **Iestatīšana** &gt; **PVN** &gt; **Dabas resursu nodokļa pārskata iestatīšana**.
 2.  Noklikšķiniet uz **Jauns**.
 3.  Laukā **Formas numurs** atlasiet iestatāmo formu no tālāk uzskaitītajām.
-    -   **2. forma** — šajā formā tiek rādīta informācija par dabas resursu lietojumu un visu vides piesārņojumu, kas ir ģenerēts pārskata periodā.
-    -   **3. forma** — šajā formā tiek rādīta informācija par dabas resursu nodokli, kas ir aprēķināts precēm, kuras uzņēmums importēja vai saražoja un pārdeva Latvijā pirmo reizi.
+    -   **2. forma** — šajā formā tiek rādīta informācija par dabas resursu lietojumu un visu vides piesārņojumu, kas ir ģenerēts pārskata periodā.
+    -   **3. forma** — šajā formā tiek rādīta informācija par dabas resursu nodokli, kas ir aprēķināts precēm, kuras uzņēmums importēja vai saražoja un pārdeva Latvijā pirmo reizi.
 
 4.  Atlasiet sērijas numuru. Šis numurs norāda rindas pozīciju pārskatā iekļauto rindu virknē.
 5.  Laukā **Rindas tips** atlasiet pārskata rindas tipu no tālāk uzskaitītajiem.
-    -   **Galvene** — šī rinda pārskatu lapās tiek drukāta kā galvenes rindas.
+    -   **Galvene** — šī rinda pārskatu lapās tiek drukāta kā galvenes rindas.
     -   **Rinda**
-    -   **Kopsumma** — rindā tiek rādīta rindu vērtību kopsumma.
+    -   **Kopsumma** — rindā tiek rādīta rindu vērtību kopsumma.
 
 6.  Ja 5. darbībā atlasījāt **Rinda**, ievadiet rindas kodu pārskata rindai **Dabas resursu nodoklis**.
 7.  Laukā **Apraksts** ievadiet īsu transakcijas aprakstu.
@@ -152,3 +150,6 @@ Dabas resursu nodokļi tiek rēķināti krājumu žurnālu transakciju laikā un
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

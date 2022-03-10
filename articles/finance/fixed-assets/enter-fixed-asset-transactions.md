@@ -1,12 +1,10 @@
 ---
-title: Pamatlīdzekļu transakciju opcijas
+title: Pamatlīdzekļu darījumu opcijas
 description: Šajā tēmā ir aprakstītas dažādās pieejamās pamatlīdzekļu transakciju izveides metodes.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 02/07/2019
+author: moaamer
+ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, PurchCreateOrder
 audience: Application User
@@ -14,17 +12,17 @@ ms.reviewer: roschlom
 ms.custom: 23061
 ms.assetid: 338c495b-a4d8-461e-b85b-a83faf673730
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 494087bc7a1247999d3f63dcdc0a0f403dcfdb2d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 2c5530bb7b0472aad75ec04c00ba828b8efb877d
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4978693"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891576"
 ---
-# <a name="fixed-asset-transaction-options"></a>Pamatlīdzekļu transakciju opcijas
+# <a name="fixed-asset-transaction-options"></a>Pamatlīdzekļu darījumu opcijas
 
 [!include [banner](../includes/banner.md)]
 
@@ -48,7 +46,7 @@ Ja pamatlīdzekļu iegādei tiek izmantots pirkšanas pasūtījums vai žurnāls
 ## <a name="general-ledger"></a>Virsgrāmata
 Jebkuru pamatlīdzekļa transakcijas tipu var grāmatot lapā Virsgrāmatas žurnāls. Varat arī izmantot žurnālus sadaļā Pamatlīdzekļi, lai grāmatotu pamatlīdzekļu darbības.
 
-## <a name="options-for-entering-fixed-asset-transaction-types"></a>Pamatlīdzekļu darbības tipu ievadīšanas opcijas
+### <a name="options-for-entering-fixed-asset-transaction-types"></a>Pamatlīdzekļu darbības tipu ievadīšanas opcijas
 
 
 | Darījuma veids                    | Modulis                   | Opcijas                                   |
@@ -60,10 +58,25 @@ Jebkuru pamatlīdzekļa transakcijas tipu var grāmatot lapā Virsgrāmatas žur
 | Nolietojums                        | Pamatlīdzekļi             | Pamatlīdzekļi                              |
 |                                     | Virsgrāmata           | Virsgrāmatas žurnāls                           |
 | Izslēgšana                            | Pamatlīdzekļi             | Pamatlīdzekļi                              |
-| ** **                               | Virsgrāmata           | Virsgrāmatas žurnāls                           |
-| ** **                               | Debitoru parādi      | Brīva teksta rēķins                         |
+|                                     | Virsgrāmata           | Virsgrāmatas žurnāls                           |
+|                                     | Debitoru parādi      | Brīva teksta rēķins                         |
 
-
-Pamatlīdzekļa nolietojuma periodu atlikusī vērtība netiek atjaunināta, ja nolietojuma transakcijas veida žurnāla rinda tiek ievadīta manuāli vai importēta, izmantojot datu elementu. Šī vērtība tiek atjaunināta, kad žurnāla rinda tiek izveidota, izmantojot nolietojuma priekšlikuma procesu.
+Atlikusī vērtība netiek atjaunināta pamatlīdzekļu nolietojuma periodiem, ja nolietojuma transakcijas veida žurnāla rinda tiek ievadīta manuāli vai importēta, izmantojot datu elementu. Atlikusī vērtība tiek atjaunināta, kad žurnāla rinda tiek izveidota, izmantojot nolietojuma priekšlikuma procesu.
 
 Plašāku informāciju skatiet rakstā [Pamatlīdzekļu integrācija](fixed-asset-integration.md).
+
+Sistēma neļauj grāmatot nolietojumu tajā pašā periodā divreiz. Piemēram, ja divi lietotāji janvārī atsevišķi izveido nolietojuma priekšlikumus, pirmā lietotāja nolietojums tiks grāmatots pirmajā žurnālā. Kad otrais lietotājs grāmato nolietojumu otrajā žurnālā, sistēma pārbauda datumu, kad nolietojums tika pēdējo reizi izpildīts, un negrāmatots nolietojumu par to pašu periodu otrreiz.
+
+### <a name="transactions-that-require-a-different-voucher-number"></a>Darījumi, kuriem ir nepieciešams cits dokumenta numurs
+
+Pamatlīdzekļu darījumiem tiks lietoti dažādi dokumentu numuri:
+
+- Līdzeklim tiek veikta papildu iegāde, un tiek aprēķināts nolietojums ar atpakaļejošu datumu.
+- Tiek veikta līdzekļa sadalīšana.
+- Tiek ieslēgts parametrs norakstīšanas aprēķināšanai, un pēc tam līdzeklis tiek norakstīts.
+- Līdzekļa pakalpojuma sniegšanas datums ir pirms iegādes datuma. Tāpēc tiek grāmatota nolietojuma korekcija.
+
+> [!NOTE]
+> Ievadot darbības, pārliecinieties, ka visas darbības attiecas uz vienu pamatlīdzekli. Dokuments netiks grāmatots, ja tas ietver vairāk nekā vienu pamatlīdzekli, pat ja lauks **Jauns dokuments** ir iestatīts uz **Tikai uz vienu dokumenta numuru** lapā **Žurnāla nosaukums** Virsgrāmatā. Ja dokumentā iekļaujat vairāk nekā vienu pamatlīdzekli, tiks parādīta ziņa "Var būt tikai viena pamatlīdzekļa darbība pēc dokumenta", un jūs nevarēsit grāmatot dokumentu.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: Karantīnas pasūtījumi
 description: Šajā tēmā ir aprakstīts, ka izmantot karantīnas pasūtījumus, lai bloķētu krājumus.
-author: perlynne
+author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 30021
 ms.assetid: d5047727-653c-49da-b489-6fd3fe50445e
 ms.search.region: Global
-ms.author: perlynne
+ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5e1eed14b7d38cf569af7192dec9580e771f06df
-ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
-ms.translationtype: HT
+ms.openlocfilehash: 5cf0ec8f9f4d862724cb8ab72b48771ed68eaf39
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5956186"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568787"
 ---
 # <a name="quarantine-orders"></a>Karantīnas pasūtījumi
 

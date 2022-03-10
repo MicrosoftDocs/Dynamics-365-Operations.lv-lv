@@ -1,26 +1,24 @@
 ---
 title: No atribūtiem atkarīgas cenu noteikšanas iestatīšana konfigurējamām precēm
 description: Šajā tēmā ir izskaidrots, kā iestatīt uz atribūtiem balstītu cenu noteikšanu.
-author: ShylaThompson
-manager: tfehr
+author: t-benebo
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCPriceModelList, PCPriceModel, PCConstraintEditor
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e540e0f25afa65e84cdb11fb0c56437b72891f9f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c4acd7b423396124dd1059602f5aa6460ec5e259
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220756"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578156"
 ---
 # <a name="set-up-attribute-based-pricing-for-configurable-products"></a>No atribūtiem atkarīgas cenu noteikšanas iestatīšana konfigurējamām precēm
 
@@ -30,17 +28,18 @@ ms.locfileid: "5220756"
 
 
 ## <a name="create-a-new-price-model"></a>Izveidot jaunu cenas modeli
-1. Sākumlapā atlasiet **Produkta varianta modeļa definīcija**.
-2. Atlasiet krājumu **produkta konfigurācijas modeļi** sadaļā **saites**.
-3. Sarakstā atlasiet rindu **Augstākās klases runātājs**, bet neatlasiet saiti nosaukumam.
-4. Darbību rūtī atlasiet **Modelis**.
-5. Atlasiet **Cenu modeļi**.
-6. Atlasiet **Jauns**.
-7. Laukā **Cenu modeļa nosaukums** ievadiet vērtību. Izmantojiet nosaukumu, kas ļauj viegli identificēt modeli.  
-8. Laukā **Apraksts** ierakstiet kādu vērtību.
-9. Atlasiet **Saglabāt**.
+
+1. Dodieties uz **Preču informācijas pārvaldība \> Preces \> Preču konfigurācijas modeļi**.
+1. Sarakstā atlasiet rindu **Augstākās klases runātājs**, bet neatlasiet saiti nosaukumam.
+1. Darbību rūtī atlasiet **Modelis**.
+1. Atlasiet **Cenu modeļi**.
+1. Atlasiet **Jauns**.
+1. Laukā **Cenu modeļa nosaukums** ievadiet vērtību. Izmantojiet nosaukumu, kas ļauj viegli identificēt modeli.  
+1. Laukā **Apraksts** ierakstiet kādu vērtību.
+1. Atlasiet **Saglabāt**.
 
 ## <a name="add-price-elements"></a>Pievienot cenas elementus
+
 1. Atlasiet **Rediģēt**. Katrs komponents preces modelī var saturēt pamatcenas elementu un jebkādu cenas izteiksmes kārtulu skaitu. Jūs varat arī pievienot cenas dažādās valūtās.  
 2. Laukā **Bāzes cenas izteiksme** ierakstiet vērtību. Piemēram, ievadiet 100. Pamatcenas izteiksme var būt skaitliska vērtība, vai tā var sastāvēt no aritmētiska aprēķina, kas ietver vienu vai vairākus atribūtus.  
 3. Atlasiet **Pievienot**.

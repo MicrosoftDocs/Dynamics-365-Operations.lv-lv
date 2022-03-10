@@ -1,37 +1,34 @@
 ---
 title: Izcelsmes valsts/reģions
 description: Daudzas organizācijas izsniedz sertifikātus saviem kreditoriem, lai nodrošinātu preču atbilstību noteiktiem sertifikācijas standartiem. Šie sertifikāti bieži ir atkarīgi no izcelsmes valsts/reģiona. Šajā tēmā ir sniegta informācija par izcelsmes valsts/reģiona līdzekli, kas ļauj saistīt preci ar tās izcelsmes valsti/reģionu un sekot tās preču sertifikācijai.
-author: dasani-madipalli
-manager: tfehr
+author: t-benebo
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: COOVendorCerts
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: benebotg
 ms.search.validFrom: 2020-07-15
-ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 2eaf0057123cd2cbcad00f95038627291dada517
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: a2740f6b1ccb52073b013e613d8ab779cc088180
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5007819"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777642"
 ---
 # <a name="country-of-origin"></a>Izcelsmes valsts/reģions
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Daudzas organizācijas izsniedz sertifikātus saviem kreditoriem, lai nodrošinātu preču atbilstību noteiktiem sertifikācijas standartiem. Šie sertifikāti bieži ir atkarīgi no izcelsmes valsts/reģiona. Izcelsmes valsts/reģiona līdzeklis ļauj saistīt preci ar tās izcelsmes valsti/reģionu un sekot tās preču sertifikācijai.
 
 ## <a name="turn-on-the-country-of-origin-feature"></a>Ieslēgt izcelsmes valsts līdzekli
 
-Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
+No Piegādes ķēdes pārvaldības versijas 10.0.21 šī funkcija ir ieslēgta pēc noklusējuma. Administratori var izmantot Līdzekļu [pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lapu, lai pārbaudītu līdzekļu statusu un aktivizētu vai atspējotu to, ja nepieciešams. Šeit līdzeklis tiek norādīts kā:
 
 - **Modulis:** *Preču informācijas pārvaldība*
 - **Līdzekļa nosaukums:** *Izcelsmes valsts pārvaldības līdzeklis*
@@ -89,4 +86,7 @@ Lai iestatītu sertifikāta informāciju, veiciet tālāk norādītās darbības
 
 Tiek ģenerēts un parādīts pārskats, kas parāda informāciju par katras daļas izcelsmes valsti/reģion. Tālāk ir sniegts pārskata piemērs.
 
-![Izcelsmes valsts/reģiona pārskats](media/country-of-origin-report.png "Izcelsmes valsts/reģiona pārskats")
+![Izcelsmes valsts/reģiona pārskats.](media/country-of-origin-report.png "Izcelsmes valsts/reģiona pārskats")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

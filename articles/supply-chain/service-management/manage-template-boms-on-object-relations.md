@@ -1,12 +1,10 @@
 ---
-title: Veidņu MK pārvaldīšana objektu attiecībās.
+title: Veidņu MK pārvaldīšana objektu attiecībās
 description: Veidņu MK pārvaldīšana objektu attiecībās.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/03/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
@@ -17,14 +15,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 881ecc3b9c1ef5fb4b3f61f6240c662635575bc8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: d5b50c8dcb69a45a01f49201af861fafcfcb4619
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974389"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569027"
 ---
-# <a name="manage-template-boms-on-object-relations"></a>Veidņu MK pārvaldīšana objektu attiecībās. 
+# <a name="manage-template-boms-on-object-relations"></a>Veidņu MK pārvaldīšana objektu attiecībās 
 
 [!include [banner](../includes/banner.md)]
 
@@ -86,3 +84,6 @@ ms.locfileid: "4974389"
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

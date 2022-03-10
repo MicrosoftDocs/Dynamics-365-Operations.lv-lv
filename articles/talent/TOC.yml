@@ -1,6 +1,8 @@
-- name: Dynamics 365 for Talent
-  href: ./index.md
+- name: Atbalsta sniegšanas pārtraukšana programmai Dynamics 365 Talent
+  href: ../human-resources/hr-talent-retire.md?toc=/dynamics365/talent/toc.json
   items:
+    - name: Dynamics 365 Talent sākumlapa
+      href: ./index.md
     - name: Darba sākšana
       items:
         - name: Darba sākšana ar Talent

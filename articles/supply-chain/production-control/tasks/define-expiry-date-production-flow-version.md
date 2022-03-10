@@ -1,27 +1,25 @@
 ---
 title: Derīguma termiņa definēšana ražošanas plūsmas versijai
 description: Lai beigtu ražošanas plūsmas versijas derīgumu un apstrādi noteiktā datumā, vai, lai plānotu aktīvas versijas nomaiņu uz jaunu versiju, jūs varat iestatīt versijas beigu datumu.
-author: cvocph
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlow
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a595ca4ff9f6753631303b656d56735320a22a69
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9f6ee9177664767c31eaa3e9b65d7559a1a9662f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4975089"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574429"
 ---
 # <a name="define-an-expiry-date-for-a-production-flow-version"></a>Derīguma termiņa definēšana ražošanas plūsmas versijai
 
@@ -40,3 +38,6 @@ Lai beigtu ražošanas plūsmas versijas derīgumu un apstrādi noteiktā datum�
 6. Laukā Beigu datums ievadiet datumu un laiku.
     * Beigu datumam jaunā versija netiks startēta vai aktivizēta. Šai ražošanas plūsmai arī vairs nebūs iespējams izveidot vai sākt darbus. Jūs joprojām varat izpildīt uzsāktos darbus pēc beigu datuma.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

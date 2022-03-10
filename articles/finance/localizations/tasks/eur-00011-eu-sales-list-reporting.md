@@ -2,11 +2,9 @@
 title: EUR-00011 Iestatīt ES pārdošanas saraksta atskaišu veidošanu
 description: Šajā uzdevumā tiek sniegts pārskats par priekšnosacījumiem, kas nepieciešami ES pārdošanas saraksta pārskatam.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionRepositoryTable, ERSolutionImport, SysQueryForm, SysQueryFieldLookUp,  TaxTable, TaxGroup, TaxItemGroup, TaxCountryRegionParameters, TaxVATNumTable, IntrastatParameters, CustTable, DirPartyQuickCreateForm
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: edb6130661663e39579e8494226308e0ae795065
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: b9eeefb0b4264eb0883605fd854b5c778be32f519ad4368d2b7f8513f137f48d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4975265"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742131"
 ---
 # <a name="eur-00011-set-up-eu-sales-list-reporting"></a>EUR-00011 Iestatīt ES pārdošanas saraksta atskaišu veidošanu
 
@@ -128,3 +126,6 @@ ms.locfileid: "4975265"
 8. Laukā Valsts/reģions ierakstiet "PRT".
 9. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

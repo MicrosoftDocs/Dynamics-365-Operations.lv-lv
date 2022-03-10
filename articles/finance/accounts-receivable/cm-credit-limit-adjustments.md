@@ -1,7 +1,7 @@
 ---
 title: Kredītlimita korekcijas
 description: Šajā tēmā ir aprakstīts, kā iestatīt un pievienot kredīta limita korekcijas.
-author: mikefalkner
+author: JodiChristiansen
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b1669029f28cef924170b47340567af49525e1b7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: c171ab99a434e529c48f39be9147ac411fb08b9b
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835368"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753902"
 ---
 # <a name="credit-limit-adjustments"></a>Kredītlimita korekcijas 
 

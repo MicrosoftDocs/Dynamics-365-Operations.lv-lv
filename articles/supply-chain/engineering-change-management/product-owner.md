@@ -2,11 +2,9 @@
 title: Preces īpašnieki
 description: Šajā tēmā ir sniegta informācija par preces īpašniekiem. Preces īpašnieks ir lietotāju grupa, kuri ir atbildīgi par noteiktām precēm. Šos produktus var izlaist tikai grupas dalībnieki. Preces īpašnieks var tikt izmantots arī apstiprināšanas darbplūsmā.
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgProductOwner
 audience: Application User
@@ -14,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: a1c3bc6f77fed83cfbbd502cdd469baa491fd81f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: a29ab169e9b24826fbe69fbc316040d4618750ee
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5266131"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567515"
 ---
 # <a name="product-owners"></a>Preces īpašnieki
 

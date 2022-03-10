@@ -2,11 +2,9 @@
 title: Atribūtu un atribūtu grupu pārvaldība
 description: Šajā tēmā aprakstīts, kā izmantot atribūtus, lai sniegtu veidu, kā aprakstīt preci un tās īpašības, izmantojot lietotāja definētos laukus.
 author: ashishmsft
-manager: AnnBe
 ms.date: 04/28/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: EcoResCategoryAttribute, EcoResProductEntityAttributeTableFieldAssociation, EcoResCategorySearchList, EcoResAttribute, COODualUseCategories, EcoResAttributeType, EcoResAttributeValue, EcoResCategoryAttributeGroup, EcoResCategoryFriendlyName
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: 70e2b52dd140660fe98c6ff07248a033ba4bd635
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: b3960f0877bdf68dd2f511ad283961b2a92db6a60078e84be55f071a00eae927
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979977"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727658"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>Atribūtu un atribūtu grupu pārvaldība
 
@@ -45,7 +43,7 @@ Piemēram, parastam televizoram var būt tālāk minētie atribūti.
 |            | Kompozītie ievadi         | 0–10                        | 2             |
 |            | Komponentās ievades         | 0–10                        | 1             |
 | LCD        | 3D gatavs                 | Jā vai Nē                   | Jā           |
-|            | 3D iespējots               | Jā vai Nē                   | Nav            |
+|            | 3D iespējots               | Jā vai Nē                   | Nē            |
 | Plazmas     | Ekspluatācijas temperatūra no      | 32–110 grādiem              | 32            |
 |            | Ekspluatācijas temperatūra līdz        | 32–110 grādiem              | 100           |
 | Projekcijas | Kineskopa garantija | 6, 12, vai 18 mēneši         | 12.            |
@@ -72,7 +70,7 @@ Atribūti ir balstīti uz *atribūtu veidiem*. Atribūta veids norāda datu veid
     - Vienam atribūta veidam piešķiriet nosaukumu **Lēcu forma** un pievienojiet šādas vērtības: **Ovāla**, **Kvadrāta** un **Taisnstūra**.
     - Otram atribūta veidam piešķiriet nosaukumu **Saulesbriļļu zīmols** un pievienojiet šādas vērtības: **Ray ban**, **Aviator** un **Oakley**.
 
-![Atribūtu tipi](media/AttributeType.png)
+![Atribūtu tipi.](media/AttributeType.png)
 
 ### <a name="set-up-an-attribute"></a>Iestatīt atribūtu
 
@@ -81,7 +79,7 @@ Atribūti ir balstīti uz *atribūtu veidiem*. Atribūta veids norāda datu veid
 3. Izveidojiet atribūtu ar nosaukumu **Lēcas**.
 4. Iestatiet laukam **Atribūta veids** vērtību **Lēcu forma**.
 
-![Atribūti](media/Attribute.png)
+![Atribūti.](media/Attribute.png)
 
 ## <a name="attribute-metadata"></a>Atribūta metadati
 
@@ -103,7 +101,7 @@ Tālāk ir sniegtas pārējās lapā **Atribūti** pieejamās atribūtu metadatu
 
 Šīs opcijas ir sākotnēji paredzētas, lai uzlabotu tiešsaistes tīmekļa vitrīnas meklēšanas funkcionalitāti. Lai gan Commerce standarta komplektācija nav ietverta tiešsaistes tīmekļa vitrīna, tajā ir ietverts eCommerce publicēšanas programmatūras izstrādes komplekts (SDK). Debitori var izmantot šo SDK produktu ievietošanai vēlamajā meklēšanas indeksā. Lai gan preču dati tika importēti, debitori joprojām var atšķirt meklējamos datus, vaicājumā ietveramos datus utt. Tādā veidā var veidot optimālu indeksu, nodrošinot, ka viņu indekss attiecas tikai uz to, kas, *viņuprāt*, ir jāindeksē.
 
-Informāciju par šo pārējo opciju mērķi skatiet rakstā [Server 2013 SharePoint meklēšanas shēmas apskats](https://technet.microsoft.com/library/jj219669.aspx).
+Informāciju par šo pārējo opciju mērķi skatiet rakstā [Server 2013 SharePoint meklēšanas shēmas apskats](/SharePoint/search/search-schema-overview).
 
 ## <a name="filter-settings-for-attributes"></a>Atribūtu filtra iestatījumi
 
@@ -136,7 +134,7 @@ Lapa **Filtra rādīšanas preferences** ietver šādus laukus:
     - 200–500
     - 500 vai vairāk
 
-![Atribūtu filtra iestatījumi](media/AttributeFilterSettings.PNG)
+![Atribūtu filtra iestatījumi.](media/AttributeFilterSettings.PNG)
 
 ## <a name="attribute-groups"></a>Atribūtu grupas
 
@@ -144,7 +142,7 @@ Kad atribūti ir definēti, tos var piešķirt atribūtu grupām. *Atribūtu gru
 
 Atribūtiem var iestatīt arī noklusējuma vērtības, kas tiek iekļautas atribūtu grupā. Piemēram, pievienojiet atribūtu grupai krāsas atribūtu un atlasiet **Zila** kā atribūta noklusējuma vērtību. Šajā gadījumā, ja atribūtu grupa tiek pievienota precei, kas ietver krāsu kā vienu no tās atribūtiem, **Zils** parādās kā noklusējuma krāsa attiecīgajai precei.
 
-![Atribūtu grupas](media/AttributeGroup.png)
+![Atribūtu grupas.](media/AttributeGroup.png)
 
 ### <a name="create-an-attribute-group"></a>Izveidot atribūtu grupu
 
@@ -157,7 +155,7 @@ Atribūtiem var iestatīt arī noklusējuma vērtības, kas tiek iekļautas atri
 
 Vienu vai vairākas atribūtu grupas var saistīt ar kategoriju mezgliem šāda veida mazumtirdzniecības kategoriju hierarhijās: Commerce preču hierarhija, kanāla navigācijas kategoriju hierarhija un papildu preču kategoriju hierarhija. Kad preces ir sadalītas kategorijās, tās manto atribūtus, kas ir iekļauti atribūtu grupās.
 
-![Preču hierarhija — preču atribūtu grupas](media/AGRetailProdHierarchy.PNG)
+![Preču hierarhija — preču atribūtu grupas.](media/AGRetailProdHierarchy.PNG)
 
 Izpildiet tālāk minētās darbības, lai piešķirtu atribūtu grupas kategorijām Commerce preču hierarhijā.
 
@@ -202,7 +200,7 @@ Vienu vai vairākas atribūtu grupas var saistīt ar vienu vai vairākiem veikal
     3. Atlasiet kategorijas mezglu **Modes aksesuāri**, atlasiet kategoriju **Modernas saulesbrilles** un pēc tam kopsavilkuma cilnē **Kanāla preces īpašības** katram atribūtam atlasiet **Iekļaut atribūtu**.
     4. Atlasiet kategorijas mezglu **Vīriešu apģērbi**, atlasiet kategoriju **Bikses** un pēc tam kopsavilkuma cilnē **Kanāla preces īpašības** katram atribūtam atlasiet **Iekļaut atribūtu**.
 
-![Kanālu kategorijas un preču īpašības — atribūtu grupas](media/CCPAttrGrp.png)
+![Kanālu kategorijas un preču īpašības — atribūtu grupas.](media/CCPAttrGrp.png)
 
 ## <a name="overriding-attribute-values"></a>Atribūta vērtību ignorēšāna
 
@@ -216,7 +214,7 @@ Preču līmenī var ignorēt atsevišķu preču atribūtu noklusējuma vērtība
 4. Režģī atlasiet nepieciešamo preci. Pēc tam darbību rūts grupas **Iestatīšana** cilnē **Prece** atlasiet **Preces īpašības**.
 5. Kreisajā rūtī atlasiet atribūtu un pēc tam labajā rūtī atjauniniet tā vērtību.
 
-![Preces detalizētas informācijas lapa — preču īpašību grupas](media/ProdDetailsProdAttrValues.png)
+![Preces detalizētas informācijas lapa — preču īpašību grupas.](media/ProdDetailsProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-catalog"></a>Kataloga preču atribūtu vērtību ignorēšana
 
@@ -235,7 +233,7 @@ Preču līmenī var ignorēt atsevišķu preču atribūtu noklusējuma vērtība
     > [!NOTE]
     > Ja tiek izveidots koplietots preces datu nesējs un koplietotas preces īpašības, tie tiek lietoti visām precēm.
 
-![Kataloga preču īpašību grupas](media/CatalogProdAttrValues.png)
+![Kataloga preču īpašību grupas.](media/CatalogProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-channel"></a>Kanāla preču atribūtu vērtību ignorēšana
 
@@ -256,3 +254,6 @@ Preču līmenī var ignorēt atsevišķu preču atribūtu noklusējuma vērtība
 
     > [!NOTE]
     > Ja tiek izveidots koplietots preces datu nesējs un koplietotas preces īpašības, tie tiek lietoti visām precēm.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

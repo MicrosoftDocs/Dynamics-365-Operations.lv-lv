@@ -2,29 +2,26 @@
 title: Izmaksu objekti
 description: Šajā rakstā ir sniegta informācija par izmaksu objektiem un paskaidrots, kā tiek uzkrātas izmaksas un daudzumi. Izmaksu objekts ir elements, kam ir uzkrātas izmaksas un daudzumi. Izmaksu objekta elements var būt prece vai preces varianti, piemēram, stila un krāsas varianti.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCostOnhandItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19451
 ms.assetid: ec776b98-813a-490d-848f-468452d98fac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85e590322c75cfb2ad21236af56656061037a4b7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: d27e2dcfd8f70c8d4b0f2ae1254f3c4fce63bb4d
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432919"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572173"
 ---
 # <a name="cost-objects"></a>Izmaksu objekti
 
@@ -49,7 +46,7 @@ Sarakstā **Izmaksu objekti** ir parādīts saraksts ar visiem izmaksu objektiem
 
 Šajā tabulā ir parādīts, kas ir izmaksu objekts un kas ir krājumu objekts.
 
-| Objekta veids      | Krājuma kods | Vieta | Noliktava | Paketes Nr. |
+| Objekta veids      | Krājuma numurs | Vieta | Noliktava | Paketes Nr. |
 |------------------|-------------|------|-----------|-----------|
 | Izmaksu objekts      | x           | x    |           |           |
 | Krājumu objekts | x           | x    |  x        | x         |
@@ -67,18 +64,20 @@ Sarakstā **Izmaksu objekti** ir parādīts saraksts ar visiem izmaksu objektiem
 
 **Piezīme.** Parametrs **Iekļaut fizisko vērtību** neietekmē iepriekšējos aprēķinus.
 
-<a name="additional-resources"></a>Papildu resursi
---------
+## <a name="additional-resources"></a>Papildu resursi
 
-[Preces dimensijas grupa](https://technet.microsoft.com/library/aa499382.aspx)
+[Preces dimensijas grupa](/dynamicsax-2012/appuser-itpro/about-product-dimensions)
 
-[Noliktavas dimensiju grupa](https://technet.microsoft.com/library/hh209317.aspx)
+[Noliktavas dimensiju grupa](/dynamicsax-2012//storage-dimension-groups-form)
 
-[Izsekošanas dimensiju grupa](https://technet.microsoft.com/library/hh209465.aspx)
+[Izsekošanas dimensiju grupa](/dynamicsax-2012//tracking-dimension-groups-form)
 
-[Jaunumi un izmaiņas](../../fin-and-ops/get-started/whats-new-changed.md)
+[Jaunumi un izmaiņas](../../fin-ops-core/fin-ops/get-started/whats-new-changed.md)
 
 [Izmaksu ieraksti](cost-entries.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

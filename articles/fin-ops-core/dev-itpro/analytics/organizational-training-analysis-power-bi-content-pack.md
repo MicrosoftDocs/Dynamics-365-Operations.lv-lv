@@ -2,7 +2,6 @@
 title: Power BI satura pakotne Organizācijas apmācība
 description: Šajā tēmā ir aprakstīts Finance and Operations organizācijas apmācību Power BI saturs.
 author: jcart1106
-manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: de81c0268b0eb726ff3119bfef53a64d372df6d8
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
-ms.translationtype: HT
+ms.openlocfilehash: cd48c12ea3ea31904c437f678888a51e5381cfcfbeef0e1c709858b0c6cb857d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564571"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763552"
 ---
 # <a name="organizational-training-power-bi-content"></a>Power BI satura pakotne Organizācijas apmācība
 
@@ -29,7 +28,7 @@ ms.locfileid: "5564571"
 Šajā tēmā ir aprakstīts Finance and Operations organizācijas apmācību Power BI saturs.
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Satura pakotnē iekļautie pārskati
-Kad ir izveidots satura pakotnes savienojums ar jūsu datiem, pārskatos tiek rādīti jūsu organizācijas dati. Ja nekad neesat lietojis Microsoft Power BI, varat par to vairāk uzzināt rakstā [Power BI vadītās mācīšanās lapa](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData). Satura pakotnē iekļautajos pārskatos ir gan diagrammas, gan tabulas, kas satur papildinformāciju. Tabulā ir sniegts pārskatu apraksts.
+Kad ir izveidots satura pakotnes savienojums ar jūsu datiem, pārskatos tiek rādīti jūsu organizācijas dati. Ja nekad neesat lietojis Microsoft Power BI, varat par to vairāk uzzināt rakstā [Vadītās mācīšanās lapa Power BI](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData). Satura pakotnē iekļautajos pārskatos ir gan diagrammas, gan tabulas, kas satur papildinformāciju. Tabulā ir sniegts pārskatu apraksts.
 
 | Pārskats          | Saturs                                                                    |
 |-----------------|-----------------------------------------------------------------------------|

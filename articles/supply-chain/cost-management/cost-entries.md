@@ -13,15 +13,15 @@ ms.custom: 19131
 ms.assetid: dd2663d8-bcc0-47b1-b36d-57433143487c
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 48c37e4355bc3448930a7cfa73ce08ac8e439b97
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: 53e2dd7375daf0d33ff61b870fecfdaa44dd0838
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839419"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575924"
 ---
 # <a name="cost-entries"></a>Izmaksu ieraksti
 
@@ -62,8 +62,7 @@ Lapa **Izmaksu ieraksti** ļauj veikt filtrēšanu pēc dokumenta ID un dokument
 > [!NOTE]
 > Izmaksu ieraksti ir pieejami tikai [izmaksu objektiem](cost-object.md) vai izlaistajām precēm.
 
-<a name="additional-resources"></a>Papildu resursi
---------
+## <a name="additional-resources"></a>Papildu resursi
 
 [Izmaksu objekti](cost-object.md)
 

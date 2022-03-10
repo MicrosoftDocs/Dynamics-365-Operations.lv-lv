@@ -2,27 +2,24 @@
 title: Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.10 (2020. gada maijs)
 description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Supply Chain Management 10.0.10.
 author: kamaybac
-manager: tfehr
 ms.date: 04/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 647c62c489e65596be87a658a3d53e74e53455d7
-ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
-ms.translationtype: HT
+ms.openlocfilehash: a1454e3d9045810f20460610124c04cfff92171960e3b01962a1332b78191d71
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4433083"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720376"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10010-may-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.10 (2020. gada maijs)
 
@@ -36,19 +33,19 @@ ms.locfileid: "4433083"
 
 ## <a name="features-included-in-this-release"></a>Šajā laidienā iekļautie līdzekļi
 
-Šajā laidienā ir iekļauti tālāk minētie līdzekļi. Līdzekļu virsrakstu saite papildu informācijai vietnē [Laidiena plāniem](https://docs.microsoft.com/dynamics365/release-plans/). Papildu saites norāda uz papildu dokumentāciju vai video, kas pašlaik ir pieejams šim līdzeklim. Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), pirms varat tos izmantot.
+Šajā laidienā ir iekļauti tālāk minētie līdzekļi. Līdzekļu virsrakstu saite papildu informācijai vietnē [Laidiena plāniem](/dynamics365/release-plans/). Papildu saites norāda uz papildu dokumentāciju vai video, kas pašlaik ir pieejams šim līdzeklim. Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), pirms varat tos izmantot.
 
-- [Uzlabošana, lai izmantotu esošās pieļaujamā svara birkas ar noliktavas pārvaldību](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/enhancement-use-existing-catch-weight-tags-warehouse-management)
+- [Uzlabošana, lai izmantotu esošās pieļaujamā svara birkas ar noliktavas pārvaldību](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/enhancement-use-existing-catch-weight-tags-warehouse-management)
 
-- [Saņemšanas kravas pārvaldības uzlabojumi noliktavas pārvaldībai](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Papildinformāciju skatiet [Ienākošo noslodžu noliktavas apstrāde pirkšanas pasūtījumu veikšanai](../warehousing/inbound-load-handling.md).
+- [Saņemšanas kravas pārvaldības uzlabojumi noliktavas pārvaldībai](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Papildinformāciju skatiet [Ienākošo noslodžu noliktavas apstrāde pirkšanas pasūtījumu veikšanai](../warehousing/inbound-load-handling.md).
 
-- [Etiķešu drukāšanas uzlabojumi noliktavas pārvaldībai](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - Papildinformāciju skatiet sadaļā [Dokumenta maršrutēšanas izkārtojums numura zīmju etiķetēm](../warehousing/document-routing-layout-for-license-plates.md).
+- [Etiķešu drukāšanas uzlabojumi noliktavas pārvaldībai](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - Papildinformāciju skatiet sadaļā [Dokumenta maršrutēšanas izkārtojums numura zīmju etiķetēm](../warehousing/document-routing-layout-for-license-plates.md).
 
-- [Galvenā plānošana ietver vienumus ar rīcībā esošiem krājumiem, kad ir iespējoti priekšapstrādes filtri](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/master-planning-include-items-on-hand-when-pre-processing-filters-are-enabled)
+- [Galvenā plānošana ietver vienumus ar rīcībā esošiem krājumiem, kad ir iespējoti priekšapstrādes filtri](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/master-planning-include-items-on-hand-when-pre-processing-filters-are-enabled)
 
-- [Jaunas datu vienības ražošanas vietai](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
+- [Jaunas datu vienības ražošanas vietai](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
 
-- [Kvalitātes pārvaldība noliktavas procesiem](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes)<br> - Papildinformāciju skatiet [Noliktavas procesu kvalitātes pārvaldība](../inventory/quality-management-for-warehouses-processes.md).
+- [Kvalitātes pārvaldība noliktavas procesiem](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes)<br> - Papildinformāciju skatiet [Noliktavas procesu kvalitātes pārvaldība](../inventory/quality-management-for-warehouses-processes.md).
 
 ## <a name="additional-resources"></a>Papildu resursi
 
@@ -64,7 +61,7 @@ Lai iegūtu informāciju par kļūdu labojumiem, kas iekļauti šajā atjauninā
 
 Vai interesējaties par gaidāmajām un nesen izlaistajām biznesa programmu un platformu iespējām?
 
-Pārbaudiet [Dynamics 365: 2020. gada 1. kopuma plānu](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index). Visa informācija no “a” līdz “z” ir apkopota vienā dokumentā, kuru varat izmantot plānošanai.
+Pārbaudiet [Dynamics 365: 2020. gada 1. kopuma plānu](/dynamics365-release-plan/2020wave1/index). Visa informācija no “a” līdz “z” ir apkopota vienā dokumentā, kuru varat izmantot plānošanai.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Noņemtie un novecojušie Supply Chain Management līdzekļi
 
@@ -76,3 +73,6 @@ Tēma [Noņemtie vai novecošie līdzekļi Dynamics 365 Supply Chain Management]
 Pirms kāda funkcija tiek noņemta no preces, izslēgšanas paziņojums tiks izziņota tēma [Noņemtie vai novecošie līdzekļi Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mēnešu laikā pirms noņemšanas.
 
 Lai pārveidotu izmaiņas, kas ietekmē tikai apkopošanas laiks, bet ir bināri saderīgas ar smilškastes un ražošanas vidēm, izslēgšanas laiks būs īsāks par 12 mēnešiem. Parasti tie ir funkcionāli atjauninājumi, kas jāveic apkopotājam.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

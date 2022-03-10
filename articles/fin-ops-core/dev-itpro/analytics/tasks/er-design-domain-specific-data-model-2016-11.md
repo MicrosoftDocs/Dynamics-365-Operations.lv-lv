@@ -2,7 +2,6 @@
 title: ER domēnam specifiska datu modeļa izveide
 description: Tematā aprakstīts, kā izveidot jaunu elektronisko pārskatu (ER) konfigurāciju, kas satur datu modeli elektroniskajiem maksājumu dokumentiem.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 284fad8b6646c35217789cc9936cbe9fe75a03d0
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
-ms.translationtype: HT
+ms.openlocfilehash: 16d76d243779f83646f14418a12c9c895fdf043451d82bd7062289be6cd8014a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5567813"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728726"
 ---
 # <a name="er-design-domain-specific-data-model"></a>ER domēnam specifiska datu modeļa izveide
 

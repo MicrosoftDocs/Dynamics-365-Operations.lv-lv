@@ -1,29 +1,26 @@
 ---
 title: Pirkšanas pasūtījuma izveidošana
 description: Šajā rakstā ir izklāstīts process un opcijas, kad manuāli veidojat pirkšanas pasūtījumu.
-author: mkirknel
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 93053
 ms.assetid: 25b1c9f1-20f8-4cf5-b87c-876e32f68846
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 206d6d6769d1dedcbfefa589fd72903e65a25ba6
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
-ms.translationtype: HT
+ms.openlocfilehash: 20b8e00316b45126b028b6d9812a455ef0e53f19
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4433097"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575516"
 ---
 # <a name="create-purchase-orders"></a>Pirkšanas pasūtījuma izveidošana
 
@@ -68,7 +65,7 @@ Reizēm var būt nepieciešamība sadalīt pasūtīto daudzumu, lai dažādas da
 Maksas var automātiski pievienot pirkšanas pasūtījuma rindām, ja šim kreditoram vai kreditoru maksu grupai un krājumam vai krājumu maksu grupai ir iestatītas automātiskās maksas. Taču parasti maksas tiek manuāli pievienotas pasūtījuma rindas līmenī. Lai pievienotu maksu, atveriet lapu **Uzturēt maksas**, izmantojot darbību **Uzturēt maksas** izvēlnē **Finanšu dati**, skatā **Rindas**. Priekšrocība maksu pievienošanai tieši pasūtījuma rindas līmenī ir tāda, ka šo maksu var piešķirt kā krājuma maksu. Lai iestatītu maksu kodus preces maksu uzskaitīšanas nolūkos, izmantojiet debeta opciju **Krājums**. Šāda tipa maksas no pirkšanas pasūtījuma virsraksta ir jāpiešķir rindām, un tikai pēc tam pasūtījumu var apstiprināt. Piemēram, jūs vēlaties piešķirt maksas, pamatojoties uz daudzumu katrā rindā. Maksu kategorija arī ietekmē veidu, kādā maksas tiek iekļautas uzskaitē. Piemēram, fiksētas maksas norāda fiksētu summu, bet procentu maksas tiek aprēķinātas kā procentuāls daudzums no neto summas pasūtījuma rindai. Pirkšanas pasūtījumus var piešķirt kravai, un krava var ietvert paredzamo izdevumu novērtējumu par transportēšanas maksu. Šos izdevumus no kravas varat piešķirt atpakaļ pirkšanas pasūtījuma rindām.
 
 ## <a name="purchase-order-actions"></a>Pirkšanas pasūtījuma darbības
-Kad pirkšanas pasūtījumam esat pievienojis virsrakstu un rindas, bieži vien ir nepieciešams izpildīt papildu darbības, pirms pasūtījums ir gatavs apstiprināšanai. Tā kā ir pieejams daudz iespēju, var būt noderīgi izmantot funkciju [Darbību meklēšana](../../fin-and-ops/get-started/action-search.md), lai atrastu atbilstošo izvēlnes vienumu.  
+Kad pirkšanas pasūtījumam esat pievienojis virsrakstu un rindas, bieži vien ir nepieciešams izpildīt papildu darbības, pirms pasūtījums ir gatavs apstiprināšanai. Tā kā ir pieejams daudz iespēju, var būt noderīgi izmantot funkciju [Darbību meklēšana](../../fin-ops-core/fin-ops/get-started/action-search.md), lai atrastu atbilstošo izvēlnes vienumu.  
 
 Pasūtījumos preces varat konfigurēt tā, lai tām būtu papildu krājumi. Papildu krājumi ir preces, kas ir jāiegādājas kopā vai kuras var iegādāties kopā ar citām precēm. Papildu preces var pievienot bez maksas kā pavadošās preces, kā arī jums var būt iespēja izlemt, vai kādu preci pievienot pasūtījumam vai ne. Papildu krājumus varat pārskatīt pēc katras pievienotās pasūtījuma rindas. Taču droši vien jums būs ērtāk atbilstošos papildu krājumus pārskatīt un pievienot visām pasūtījuma rindām, izmantojot lapu **Papildu krājumi**, kuru varat atvērt no darbību rūts.  
 
@@ -83,8 +80,7 @@ Pirkšanas pasūtījumus var konfigurēt tā, lai budžeta līdzekļi tiktu pie�
 
 Iespējams, pirkšanas pasūtījuma izpildi ir nepieciešams aizkavēt. Piemēram, jums var būt nepieciešama papildu informācija par precēm vai pakalpojumiem, vai jums ir nepieciešams saņemt autorizāciju tēriņiem. Pasūtījumu var aizturēt vairākos veidos. Piemēram, varat gaidīt, pirms apstiprināt šo pasūtījumu. Vai, ja tiek izmantota izmaiņu pārvaldības darbplūsma, varat šo pasūtījumu neiesniegt apstiprināšanai. Ja ir nepieciešams bloķēt visus pasūtījumus kādam noteiktam kreditoram, kreditoru šablonā šo kreditoru varat arī atzīmēt apstrādei kā **Aizturēts**. Pastāv arī apstākļi, kas varētu novērst pasūtījuma apstrādāšanu. Piemēram, pārstrādāšana varētu tikt novērsta, ja ir pārsniegts kredīta limits vai ja nav pieejami nepieciešamie budžeta līdzekļi.
 
-<a name="additional-resources"></a>Papildu resursi
---------
+## <a name="additional-resources"></a>Papildu resursi
 
 [Pirkšanas pasūtījumu apskats](purchase-order-overview.md)
 
@@ -96,3 +92,6 @@ Iespējams, pirkšanas pasūtījuma izpildi ir nepieciešams aizkavēt. Piemēra
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e68ef15fed1841bcbf006929f3c6441d62798fc8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: 6c86423c9e3453d8be11e6bdbc3484647e26e9eeec59c9a2e888cc5a2b2b5592
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819918"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769063"
 ---
 # <a name="use-one-payment-to-settle-invoices-that-span-multiple-discount-periods"></a>Viena maksājuma lietošana, lai nosegtu rēķinus ar vairākiem atlaižu periodiem
 
@@ -66,7 +66,7 @@ Ja Ārnijs izveido maksājumu žurnālu, lai pilnībā apmaksātu šos rēķinus
 | Atlasīts un iezīmēts | Parastais            | FTI-10042 | 4032    | 25.06.2015 | 25.07.2015 | 10042   | 1000,00                             |                                       | USD      | 990,00           |
 
 ## <a name="partial-settlement-on-june-29"></a>Daļēja segšana 29. jūnijā
-Debitors 4032 var maksāt daļēju summu, piemēram, puse no katra rēķina summas. Ārnijs izveido maksājumu debitoram 4032 un pēc tam atver lapu **Transakciju nosegšana**. Lapā **Transakciju nosegšana** Ārnijs atzīmē visas trīs rēķinu rindas segšanai. Katrā rindā viņš ievada sedzamo summu, pamatojoties uz debitora sniegtajiem norādījumiem. Kad Ārnijs atlasa rindu, viņš redz šīs rindas atlaides summu un izmantoto termiņatlaides summu. Tā kā debitors apmaksā pusi no rēķina summas, Ārnijs redz, ka rēķina FTI-10042 lauka **Termiņatlaides summa** vērtība ir **20,00**, bet lauka **Paņemta termiņatlaides summa** vērtība ir **10,00**. Maksājuma summa ir 1485,00.
+Debitors 4032 var maksāt daļēju summu, piemēram, puse no katra rēķina summas. Ārnijs izveido maksājumu debitoram 4032 un pēc tam atver lapu **Transakciju nosegšana**. Lapā **Transakciju nosegšana** Ārnijs atzīmē visas trīs rēķinu rindas segšanai. Katrā rindā Ārnijs ievada sedzamo summu, pamatojoties uz debitora sniegtajiem norādījumiem. Kad Ārnijs atlasa rindu, viņš redz šīs rindas atlaides summu un izmantoto termiņatlaides summu. Tā kā debitors apmaksā pusi no rēķina summas, Ārnijs redz, ka rēķina FTI-10042 lauka **Termiņatlaides summa** vērtība ir **20,00**, bet lauka **Paņemta termiņatlaides summa** vērtība ir **10,00**. Maksājuma summa ir 1485,00.
 
 | Atzīmēt                     | Izmantot termiņatlaidi | Dokuments   | Konts | Datums      | Izpildes datums  | Rēķins | Summa transakcijas valūtas debetā | Summa transakcijas valūtas kredītā | Valūta | Nosedzamā summa |
 |--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
@@ -74,7 +74,7 @@ Debitors 4032 var maksāt daļēju summu, piemēram, puse no katra rēķina summ
 | Atlasīts                 | Parastais            | FTI-10041 | 4032    | 25.06.2015 | 25.07.2015 | 10041   | 1000,00                             |                                       | USD      | 495,00           |
 | Atlasīts un iezīmēts | Parastais            | FTI-10042 | 4032    | 25.06.2015 | 25.07.2015 | 10042   | 1000,00                             |                                       | USD      | 490,00           |
 
-Ārnijs var arī manuāli ievadīt maksājuma summu 1485,00, pirms viņš atver lapu **Nosegt transakcijas**. Ja Ārnijs maksājuma summu ievada manuāli un pēc tam atzīmē visas trīs transakcijas, bet nekoriģē katras transakcijas lauka **Nosedzamā summa** vērtību, tad viņš, aizverot lapu, saņem tālāk norādīto ziņojumu.
+Ārnijs var arī manuāli ievadīt maksājuma summu 1485,00, pirms viņš **Nosegt transakcijas** lapas atvēršanas. Ja Ārnijs maksājuma summu ievada manuāli un pēc tam atzīmē visas trīs transakcijas, bet nekoriģē katras transakcijas lauka **Nosedzamā summa** vērtību, tad viņš, aizverot lapu, saņem tālāk norādīto ziņojumu.
 
 > Iezīmēto darbību kopsumma atšķiras no žurnāla summas. Mainīt žurnāla summu?
 

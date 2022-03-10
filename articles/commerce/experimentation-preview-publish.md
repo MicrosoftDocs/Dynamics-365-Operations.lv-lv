@@ -2,11 +2,9 @@
 title: Eksperimenta priekšskatīšana un publicēšana
 description: Šajā tēmā ir aprakstīts, kā priekšskatīt un publicēt eksperimentu no Dynamics 365 Commerce.
 author: sushma-rao
-manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,18 +15,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 7b35af35f5d0347192ed94bed51dfd2484cfa481
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 41957befe109102aaa7d3a5783b54f96824dfe76a25ab787f94afc778c08fca5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238586"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740387"
 ---
 # <a name="preview-and-publish-an-experiment"></a>Eksperimenta priekšskatīšana un publicēšana
 
 Šajā tēmā ir aprakstīts, kā priekšskatīt un publicēt eksperimentu pakalpojumā Dynamics 365 Commerce pēc tam, kad esat [pievienojis eksperimentu un rediģējis variantus](experimentation-connect-edit.md). Tālāk esošajā diagrammā ir parādītas visas darbības, kas jāveic, lai iestatītu un izpildītu eksperimentu e-komercijas tīmekļa vietnē pakalpojumā Dynamics 365 Commerce. Papildu darbības ir apskatītas atsevišķās tēmās.
 
-[ ![Eksperimenta lietotāja maršruts – priekšskatīšana un publicēšana](./media/experimentation_preview_publish.svg) ](./media/experimentation_preview_publish.svg#lightbox)
+[ ![Eksperimenta lietotāja maršruts – priekšskatīšana un publicēšana.](./media/experimentation_preview_publish.svg) ](./media/experimentation_preview_publish.svg#lightbox)
 
 ## <a name="preview-your-experiment-variations"></a>Eksperimenta variantu priekšskatīšana
 Varat priekšskatīt variantus un turpināt to rediģēšanu, līdz tie izskatās tā, kā vēlaties.

@@ -2,11 +2,9 @@
 title: Migrācija uz Plānošanas optimizāciju vispārējai plānošanai
 description: Šajā tēmā ir sniegta informācija par jauno vispārējās plānošanas programmu, Plānošanas optimizāciju un par migrēšanu no esošās programmas.
 author: ChristianRytt
-manager: tfehr
 ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5fdbe472f24e1140f0af63da8a1fc4eafe4767a2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 8d3edeefca2e2194a8d5484afbfabf2091da4a1c1538d238351a5d389177ccfd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238042"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728583"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Migrācija uz Plānošanas optimizāciju vispārējai plānošanai
 
@@ -65,8 +63,12 @@ Varat pieprasīt izņēmumu, ja ir jāturpina izmantot iebūvēto vispārējās 
 
 Pēc tam, kad būs pieejamas nepieciešamās funkcijas, korporācija Microsoft nodrošinās pagarinājuma periodu līdz izņēmuma termiņa beigām. Vides administrators tiks informēts, kad vajadzīgie līdzekļi ir kļuvuši pieejami un pagarinājuma periods ir sācies.
 
+Šajā plūsmkartē ir apkopota šajā tēmā sniegtā informācija, lai varētu ātri noteikt, vai ir jāpieprasa izņēmums. Ja nepieciešams pieprasīt izņēmumu, lūdzu, aizpildiet un iesniedziet [Plānošanas optimizācijas migrācijas un izņēmuma anketu](https://go.microsoft.com/fwlink/?linkid=2144962).
+
+![Izņēmumu plūsmkarte.](media/exception-diagram.png "Izņēmumu plūsmkarte")
+
 > [!NOTE]
-> Varat pieprasīt izņēmumu tikai ražošanas vidēm, nevis smilškastes vidēm. Ja ir jāatspējo Plānošanas optimizācijas izņēmuma kļūda infrastruktūrā kā pakalpojuma (IaaS) smilškastes vidē, palaidiet SQL vaicājumu, kas ir nodrošināts [Smilškastes vidē](#faq-sandbox).
+> Var pieprasīt izņēmumu tikai nomniekiem, kas pašlaik ietver vai ietvers ražošanas vidi, nevis tikai nomniekiem ar smilškastes vidēm. Ja ir jāatspējo Plānošanas optimizācijas izņēmuma kļūda infrastruktūrā kā pakalpojuma (IaaS) smilškastes vidē, palaidiet SQL vaicājumu, kas ir nodrošināts [Smilškastes vidē](#faq-sandbox).
 
 ## <a name="frequently-asked-questions"></a>Bieži uzdotie jautājumi
 

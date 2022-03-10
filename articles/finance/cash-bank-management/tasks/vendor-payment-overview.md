@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 77e0268122b04986e6dbf7088f352eda5ba5522e
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
-ms.translationtype: HT
+ms.openlocfilehash: 73fd1b46bbf73bb3e65f381289e0b3efa12392b4
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6335768"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394442"
 ---
 # <a name="vendor-payment-overview"></a>Kreditoru maksājumu pārskats
 

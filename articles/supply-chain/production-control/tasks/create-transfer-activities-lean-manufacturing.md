@@ -1,33 +1,31 @@
 ---
-title: Lean manufacturing pārsūtīšanas aktivitāšu izveide
-description: Izveidojiet lean manufacturing pārsūtīšanas aktivitāti.
-author: cvocph
-manager: tfehr
+title: Lean ražošanas procesa pārsūtīšanas aktivitāšu izveide
+description: Lean ražošanas procesa pārsūtīšanas aktivitāšu izveide.
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, PlanActivityWizard, LeanWorkCellLookup, InventLocationIdLookup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 629acdebd321154873feddcdfd8555d33e931f4f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3eee0fd510639f2dad78fecb6395c0e31154db6b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4996830"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568043"
 ---
-# <a name="create-transfer-activities-for-lean-manufacturing"></a>Lean manufacturing pārsūtīšanas aktivitāšu izveide
+# <a name="create-transfer-activities-for-lean-manufacturing"></a>Lean ražošanas procesa pārsūtīšanas aktivitāšu izveide
 
 [!include [banner](../../includes/banner.md)]
 
-Izveidojiet lean manufacturing pārsūtīšanas aktivitāti. 
+Lean manufacturing pārsūtīšanas aktivitāšu izveide. 
 
 Priekšnosacījumi: 
 
@@ -89,3 +87,6 @@ Priekšnosacījumi:
 12. Noklikšķiniet uz Pabeigt.
 13. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

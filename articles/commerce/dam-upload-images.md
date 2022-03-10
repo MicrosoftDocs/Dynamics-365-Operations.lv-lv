@@ -1,12 +1,10 @@
 ---
-title: Augšupielādēt attēlus
-description: Šajā tēmā ir aprakstīts, kā augšupielādēt attēlus programmas Microsoft Dynamics 365 Commerce vietnes veidotājā.
+title: Attēlu augšupielāde
+description: Šajā tēmā aprakstīts, kā augšupielādēt attēlus Microsoft Dynamics 365 Commerce vietnes veidotājā.
 author: psimolin
-manager: annbe
-ms.date: 03/03/2020
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,20 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 69b812c58739357dfdb3f9e65e34e5d54d890284
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 3b99aeff7eafd788c19204e22dbfc61f45b25408
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963014"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891526"
 ---
-# <a name="upload-images"></a>Augšupielādēt attēlus
+# <a name="upload-images"></a>Attēlu augšupielāde
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā augšupielādēt attēlus programmas Microsoft Dynamics 365 Commerce vietnes veidotājā.
-
-## <a name="overview"></a>Pārskats
+Šajā tēmā aprakstīts, kā augšupielādēt attēlus Microsoft Dynamics 365 Commerce vietnes veidotājā.
 
 Commerce vietnes veidotāja multivides bibliotēka ļauj augšupielādēt attēlus vai nu atsevišķi, vai lielapjomā, izmantojot mapes. Vienmēr augšupielādējiet attēla versiju ar augstāko izšķirtspēju un kvalitāti, jo attēla izmēra maiņas komponents automātiski optimizēs attēlu atšķirīgām skatvietām un to pārtraukumpunktiem.
 
@@ -45,7 +41,8 @@ Augšupielādējot attēlu, var norādīt šādu informāciju.
 - **Publicēt līdzekļus pēc augšupielādes**: kad šī izvēles rūtiņa ir atzīmēta, attēls vai attēli tiek publicēti uzreiz pēc augšupielādes.
 
 > [!NOTE]
-> Attēlu līdzekļi ar piešķirtu kategoriju tiek arī automātiski atzīmēti ar kategoriju kā atslēgvārdu, lai palīdzētu meklēt konkrētas kategorijas līdzekļus.
+> - Attēlu līdzekļi ar piešķirtu kategoriju tiek arī automātiski atzīmēti ar kategoriju kā atslēgvārdu, lai palīdzētu meklēt konkrētas kategorijas līdzekļus.
+> - Preces detaļu lapas dinamiski ģenerē Alternatīvo tekstu, izmantojot preces nosaukumu, tāpēc preces attēla alternatīvā teksta maiņa **neietekmēs** **atveidoto** attēlu.
 
 ### <a name="naming-conventions-for-omni-channel-images"></a>Nosaukšanas nosacījumi daudzkanālu attēliem 
 
@@ -56,9 +53,17 @@ Noklusējuma nosaukšanas nosacījumi atšķiras atkarībā no kategorijas:
 - Kategorijas attēliem ir jābūt ar nosaukumu "**/Categories/\{CategoryName\}.png**"
 - Klientu attēliem ir jābūt ar nosaukumu "**/Customers/\{CustomerNumber\}.jpg**"
 - Darbinieku attēliem ir jābūt ar nosaukumu "**/Workers/\{WorkerNumber\}.jpg**"
-- Preču attēliem ir jābūt ar nosaukumu "**/Products/\{ProductNumber\}_000_001.png**"
+- Preču attēliem ir jābūt ar nosaukumu "**/Products/\{ProductNumber\}\_000_001.png**"
     - 001 ir attēla secība, un tā var būt 001, 002, 003, 004 vai 005
-- Preču variantu attēliem ir jābūt ar nosaukumu "**/Products/\{ProductNumber\}\_\{Size\}\_\{Color\}\_\{Style\}\_000_001.png**"
+- Preču variantu attēliem ir jābūt ar nosaukumu "**/Products/\{ProductNumber\} \^ \{Style\} \^ \{Size\} \^ \{Color\} \^\_000_001.png**"
+    - Piemērs: 93039 \^ &nbsp;\^ 2 \^ Black \^\_000_001.png
+- Preču variantu attēliem ir jābūt ar nosaukumu "**/Products/\{ProductNumber\} \^ \{Configuration\}\_000_001.png**"
+    - Piemērs: 93039 \^ LB8017_000_001.png
+
+> [!NOTE]
+> Ja dimensijas vērtība ir tukša, preces variantu attēliem ir jābūt divām baltstarpām starp kastēm faila nosaukumā.
+
+Iepriekšminētajos piemēros tiek izmantota noklusējuma konfigurācija. Atdalītāja rakstzīme un dimensijas ir konfigurējamas, un precīza nepieciešamā nosaukumdošana var atšķirties starp izvietošanām. Viena metode, lai noteiktu precīzu nosaukumu piešķiršanas metodi, ir izmantot pārlūkprogrammas izstrādātāja konsole, lai pārbaudītu preces varianta attēlu pieprasījumus, kamēr maināt preces dimensijas Storefront preču informācijas lapā (PDP).
 
 ## <a name="upload-an-image"></a>Augšupielādēt attēlu
 
@@ -96,3 +101,6 @@ Lai augšupielādēt vairākus attēlus kopā vietnes veidotājā, veiciet šād
 [Attēlu fokusa punktu pielāgošana](dam-custom-focal-point.md)
 
 [Augšupielādēt un apkalpot statiskos failus](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

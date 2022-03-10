@@ -2,7 +2,7 @@
 title: Veikala transakciju apstiprināšana pārskata aprēķinam
 description: Šajā tēmā ir aprakstīta veikala transakciju apstiprināšanas funkcionalitāte produktā Microsoft Dynamics 365 Commerce.
 author: analpert
-ms.date: 12/15/2021
+ms.date: 01/31/2022
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: analpert
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 008368ae32aa92682d578b75b148e0587fcc94e0
-ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
+ms.openlocfilehash: f51b1f39aa212fe8587761721194db7791bec5bc
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/16/2021
-ms.locfileid: "7924775"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087453"
 ---
 # <a name="validate-store-transactions-for-statement-calculation"></a>Veikala transakciju apstiprināšana pārskata aprēķinam
 
@@ -51,7 +51,7 @@ Pakešveida apstrāde **Veikala transakciju apstiprināšana** pārbauda Commerc
 
 Tālāk sniegtajā tabulā ir sniegtas transakcijas virsraksta apstiprināšanas kārtulas, kas ir pārbaudītas attiecībā pret mazumtirdzniecības transakciju virsrakstiem, pirms šīs transakcijas tiek pievienotas pārskata grāmatošanai.
 
-| Virsraksts | Apraksts |
+| Kārtula | Apraksts |
 |-------|-------------|
 | Biznesa datums | Šī kārtula apstiprina, ka transakcijas biznesa datums virsgrāmatā ir saistīts ar atvērtu finanšu periodu. |
 | Valūtas noapaļošana | Šī kārtula apstiprina, vai transakcijas summas tiek noapaļotas atbilstoši valūtas noapaļošanas kārtulai. |
@@ -72,7 +72,7 @@ Tālāk sniegtajā tabulā ir sniegtas transakcijas virsraksta apstiprināšanas
 
 Tālāk sniegtajā tabulā ir sniegtas transakcijas rindas apstiprināšanas kārtulas, kas ir pārbaudītas attiecībā pret mazumtirdzniecības transakciju rindu informāciju, pirms šīs transakcijas tiek pievienotas pārskata grāmatošanai.
 
-| Virsraksts | Apraksts |
+| Kārtula | Apraksts |
 |-------|-------------|
 | Svītrkods | Šī kārtula apstiprina, vai visi vienumu svītrkodi, kas tiek izmantoti transakciju rindās, pastāv datu bāzē. |
 | Maksu rindas | Šī kārtula apstiprina, ka aprēķinātā daudzuma summa un no nodokļiem atbrīvotā maksas rindu summa ir vienāda ar sākotnēji aprēķināto summu. |

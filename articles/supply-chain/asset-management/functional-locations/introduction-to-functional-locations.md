@@ -1,29 +1,28 @@
 ---
 title: Ievads funkcionālajos novietojumos
 description: Šajā tēmā ir sniegts pārskats par funkcionālajiem novietojumiem Līdzekļu pārvaldībā.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetFunctionalLocationEditSubLocations, EntAssetFunctionalLocationLookup, EntAssetFunctionalLocationRename, EntAssetFunctionalLocation
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 2214
+ms.custom:
+- "2214"
+- intro-internal
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 80ea318d750f1ef18f270fa246ab54ecb63aa790
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 1b0cb76a05f0f19d3e57d1f79751e8bc5870b3c331aa4d1c37ec8dfde0a3c6d5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432667"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767559"
 ---
 # <a name="introduction-to-functional-locations"></a>Ievads funkcionālajos novietojumos
 
@@ -83,3 +82,6 @@ Pogas darbības rūtī ir sakārtotas cilnēs. Nākamajā tabulā ir īsi apraks
 | Defekti                              | Atveriet lapu **Līdzekļu defekti**, kur varat skatīt to līdzekļu defektu reģistrāciju sarakstu, kas ir saistīti ar atlasīto funkcionālo novietojumu. |
 | Funkcionālo novietojumu stāvokļa atjaunināšana    | Atjauniniet atlasītā funkcionālā novietojuma stadiju.                                                                                        |
 | Dzīves cikla stāvokļa žurnāls                 | Skatiet žurnālu, kurā parādītas atlasītā funkcionālā novietojuma stadijas.                                                                        |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

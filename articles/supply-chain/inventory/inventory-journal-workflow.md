@@ -1,26 +1,24 @@
 ---
 title: Krājumu žurnāla apstiprināšanas darbplūsmas
 description: Šajā tēmā ir aprakstīts, kā uzstādīt un izmantot krājumu žurnālu apstiprināšanas darbplūsmas dažādu veidu fizisko krājumu transakcijām. Krājumu žurnāla darbplūsmas palīdz nodrošināt, ka transakcijām var grāmatot tikai apstiprinātos krājumu žurnālus.
-author: sherry-zheng
-manager: tfehr
+author: yufeihuang
 ms.date: 07/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalTableWorkflowDropDialog
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: chuzheng
+ms.author: yufeihuang
 ms.search.validFrom: 2020-07-21
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: d9f57d35adac0820d0635ab97a4cb4cefc1d504c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: fd73c515c653de9160301e069fb25d995db40741
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5011676"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778309"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Krājumu žurnāla apstiprināšanas darbplūsmas
 
@@ -33,7 +31,7 @@ ms.locfileid: "5011676"
 
 ## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>Krājumu žurnāla apstiprināšanas darbplūsmas līdzekļa iespējošana
 
-Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
+No Piegādes ķēdes pārvaldības versijas 10.0.21 šī funkcija ir ieslēgta pēc noklusējuma. Administratori var izmantot Līdzekļu [pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lapu, lai pārbaudītu līdzekļu statusu un aktivizētu vai atspējotu to, ja nepieciešams. Šeit līdzeklis tiek norādīts kā:
 
 - **Modulis:** *Inventāra un noliktavas pārvaldība*
 - **Funkcionalitātes nosaukums:** *Inventāra žurnāla apstiprināšanas darbplūsma*
@@ -46,7 +44,7 @@ Darbplūsmas atbalsta versijas kontroli, un katrai darbplūsmai ir darbplūsmas 
 
 Lai izveidotu jūsu krājumu žurnāla apstiprināšanas darbplūsmas:
 
-1. Dodieties uz **Krājumu vadība \> Iestatīšana\> Krājumu pārvaldības darbplūsmas**.
+1. Dodieties uz **Krājumu vadība \> Iestatīšana \> Krājumu pārvaldības darbplūsmas**.
 1. Atlasiet **Jauns** darbību rūtī.
 1. Izvēlieties krājumu žurnāla tipu, kuram vēlaties iestatīt darbplūsmu:
     - **Krājumu etiķešu inventarizācijas žurnāls**
@@ -57,7 +55,7 @@ Lai izveidotu jūsu krājumu žurnāla apstiprināšanas darbplūsmas:
     - **Krājumu MK žurnāls**
     - **Krājuma korekciju žurnāls**
 
-    ![Dialoglodziņš Izveidot darbplūsmu](media/journal-workflow-create-workflow.png "Dialoglodziņš Izveidot darbplūsmu")
+    ![Dialoglodziņš Izveidot darbplūsmu.](media/journal-workflow-create-workflow.png "Dialoglodziņš Izveidot darbplūsmu")
 
 1. Jūsu ierīcē tiek palaista darbplūsmas redaktora programma. (Iespējams, tiks prasīts apstiprināt šo darbību.) Izmantojiet to, lai pēc nepieciešamības izstrādātu savu darbplūsmu. Detalizētu informāciju par to, kā izmantot darbplūsmas redaktoru, skatiet [Darbplūsmas sistēmas pārskats](../../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md).
 1. Pēc darbplūsmas redaktora programmas saglabāšanas un aizvēršanas ir jāizvēlas, vai aktivizēt šo darbplūsmas versiju vai paturēt to kā deaktivizētu.
@@ -75,7 +73,7 @@ Lai saistītu krājumu žurnālu darbplūsmu ar krājumu žurnāla nosaukumu:
 1. Atlasiet žurnāla nosaukumu no saraksta kolonnas, lai atvērtu tās iestatījumu lapu.
 1. Kopsavilkuma cilnē **Vispārīgi** iestatiet **Apstiprinājuma darbplūsma** uz **Jā**. Atlasiet **Jā**, ja jums tiek piedāvāts apstiprināt transakciju.
 
-    ![Piešķirt darbplūsmu žurnāla nosaukumam](media/journal-workflow-journal-name.png "Piešķirt darbplūsmu žurnāla nosaukumam")
+    ![Piešķirt darbplūsmu žurnāla nosaukumam.](media/journal-workflow-journal-name.png "Piešķirt darbplūsmu žurnāla nosaukumam")
 
 1. Atveriet **Darbplūsmas** nolaižamo sarakstu un atlasiet atbilstošo darbplūsmu. Sarakstā ir parādīta katra aktīvā darbplūsma, ko esat izveidojis, lietojot darbplūsmas redaktora programmu.
 
@@ -89,7 +87,7 @@ Pēc tam, kad jūs saistāt krājumu žurnāla nosaukumu ar tā atbilstošo krā
 1. Pēc nepieciešamības aizpildiet žurnālu.
 1. Kad izveidojat vai atverat krājumu žurnālu ar apstiprinājuma darbplūsmu, kas saistīta ar to, darbības rūtī būs aktīva **Darbplūsmas** poga. Kad esat gatavs iesniegt žurnālu apstiprināšanai, atlasiet pogu **Darbplūsma**, lai atvērtu nolaižamo dialoglodziņu un pēc tam atlasiet **Iesniegt**. Apstiprinājuma pieprasījums tiks maršrutēts attiecīgajam apstiprinātājam, kas tiks brīdināts, izmantojot darbplūsmā konfigurēto paziņošanas metodi.
 
-    ![Iesniegt žurnālu apstiprināšanai](media/journal-workflow-inventory-journal.png "Iesniegt žurnālu apstiprināšanai")
+    ![Iesniegt žurnālu apstiprināšanai.](media/journal-workflow-inventory-journal.png "Iesniegt žurnālu apstiprināšanai")
 
 Lai atsauktu apstiprinājuma pieprasījumu, atveriet atbilstošo žurnālu, atlasiet pogu **Darbplūsma** un pēc tam atlasiet **Atsaukt**. Tādējādi darbplūsma tiks atiestatīta.
 
@@ -118,3 +116,6 @@ Lai pārskatītu žurnāla darbplūsmas vēsturi:
 1. Navigācijas rūtī izvērsiet **Krājumu pārvaldība \> Žurnāla ieraksti \> Vienumi** un pēc tam atlasiet krājumu žurnāla tipu.
 1. Atveriet attiecīgo žurnālu.
 1. Darbību rūtī atlasiet pogu **Darbplūsma**, lai atvērtu nolaižamo dialoglodziņu. Atlasiet **Darbplūsmas vēsture**. Papildinformācijai skatiet [Skatīt darbplūsmas vēsturi](../../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

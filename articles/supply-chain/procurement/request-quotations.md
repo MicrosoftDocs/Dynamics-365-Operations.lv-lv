@@ -1,26 +1,28 @@
 ---
 title: Piedāvājuma pieprasījumu pārskats
 description: Šajā tēmā ir sniegts apskats par piedāvājumu pieprasījumiem (request for quotation — RFQ). Organizācijas izsniedz piedāvājumu pieprasījumus, kad tām ir jāiegādājas preces vai pakalpojumi un tādēļ tās vēlas saņemt konkurētspējīgus piedāvājumus no vairākiem kreditoriem.
-author: kamaybac
+author: Henrikan
 ms.date: 10/05/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage, BOMExpandPurchRFQ, PurchRFQReplyFollowupItem, PurchRFQCaseVend, PurchRFQReplyFollowup, PurchRFQCaseAmendmentInfo, PurchRFQReplyFollowupCase, PurchRFQReplyStatus, PurchRFQCaseReplyFields, PurchRFQAddQuestionnaire, PurchRFQAmendmentWizard, PurchRFQReplyTableStatus, PurchRFQReplyTableListPage, PurchRFQCancelWizard
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 2154
+ms.custom:
+- "2154"
+- intro-internal
 ms.assetid: 3936996e-d943-46ca-8385-84c042990f1d
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 48830c975f1bdfd953f57e7c0b6601a78e3a521b
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
-ms.translationtype: HT
+ms.openlocfilehash: 7338897feb2c3a28350d366f26eecc56f8eeb3fb
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910043"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983396"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Piedāvājuma pieprasījumu pārskats
 
@@ -37,11 +39,11 @@ Piedāvājumu pieprasījumu procedūra sastāv no tālāk uzskaitītajiem uzdevu
 
 Nākamajā attēlā ir parādīts apskats par piedāvājuma pieprasījuma procesu.
 
-[![RFQ procesi](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)
+[![RFQ procesi.](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)
 
 Piedāvājuma pieprasījumu gadījumu varat izveidot no plānotiem pasūtījumiem, no pirkšanas pieprasījuma vai ar manuālu ievadīšanu. PP gadījums ir pamatdokuments, ko jūs izmantojat, lai izsniegtu PP katram kreditoram.
 
-Pēc piedāvājuma pieprasījuma sagatavošanas un kreditoru pievienošanas atlasiet **Sūtīt** (publiskajā sektorā tas ir **Sūtīt un publicēt**) šim piedāvājuma pieprasījuma gadījumam. Tiek ģenerēts piedāvājuma pieprasījuma žurnāls katram kreditoram, kuram nosūtījāt šo piedāvājuma pieprasījumu. Sūtīšanas darbības drukāšanas opcijas varat konfigurēt tā, lai katra kreditora pārskats tiktu drukāts uz arhīvu vai lai pārskats tiktu sūtīts uz katra kreditora e-pasta adresi. Turklāt katra kreditora piedāvājuma pieprasījuma žurnālu varat izmantot, lai ģenerētu pārskatu, ko vēlāk varat nosūtīt vai atkārtoti nosūtīt šim kreditoram. Var arī konfigurēt sūtīšanas darbību tā, lai tā ģenerētu atbildes lapu, ko kreditors var aizpildīt.
+Pēc piedāvājuma pieprasījuma sagatavošanas un kreditoru pievienošanas atlasiet **Sūtīt** (publiskajā sektorā tas ir **Sūtīt un publicēt** ) šim piedāvājuma pieprasījuma gadījumam. Tiek ģenerēts piedāvājuma pieprasījuma žurnāls katram kreditoram, kuram nosūtījāt šo piedāvājuma pieprasījumu. Sūtīšanas darbības drukāšanas opcijas varat konfigurēt tā, lai katra kreditora pārskats tiktu drukāts uz arhīvu vai lai pārskats tiktu sūtīts uz katra kreditora e-pasta adresi. Turklāt katra kreditora piedāvājuma pieprasījuma žurnālu varat izmantot, lai ģenerētu pārskatu, ko vēlāk varat nosūtīt vai atkārtoti nosūtīt šim kreditoram. Var arī konfigurēt sūtīšanas darbību tā, lai tā ģenerētu atbildes lapu, ko kreditors var aizpildīt.
 
 Šajā tēmā ir apskatīta procedūra piedāvājumu pieprasījumu apstrādāšanai, kad netiek izmantota kreditora sadarbība. Ja sistēma ir iestatīta kreditoru sadarbībai, kreditori var tieša veidā ievadīt piedāvājumus programmatūrā Supply Chain Management. Papildinformāciju skatiet rakstā [Kreditoru sadarbība ar debitoriem](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) un [Kreditoru sadarbība ar ārējiem kreditoriem](vendor-collaboration-work-external-vendors.md).
 

@@ -2,26 +2,23 @@
 title: Izmaksu kontroles darbvietas parametru konfigurēšana
 description: Izmantojiet šo procedūru, lai konfigurētu izmaksu kontroles darbvietu, lai dažādu līmeņu vadītāji organizācijā var gūt ieskatu par to izmaksu objektiem, piemēram, izmaksu centriem un preču grupām.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspaceConfigurationPerUser
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ca05f6174541a6e97ec94db209a99424a87550eb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 8ecc775019445bbe97dd5a0e9198b9c605b1c65322006d912a95a5bb1fbdf879
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445738"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766939"
 ---
 # <a name="configure-cost-control-workspace-parameters"></a>Izmaksu kontroles darbvietas parametru konfigurēšana
 
@@ -59,3 +56,6 @@ Izmantojiet šo procedūru, lai konfigurētu izmaksu kontroles darbvietu, lai da
 27. Laukā Izmaksu objekta dimensiju hierarhijas zars ievadiet vai atlasiet kādu vērtību.
     * Pēc tam, kad esat atlasījis izmaksu objekta dimensiju hierarhiju, izvērsiet izmaksu elementa dimensiju hierarhiju, lai skatītu vēlamās izmaksu vērtības. Piemēram, varat izvērst hierarhiju līdz ražošanai pieskaitāmajām izmaksām, lai redzētu vērtību.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Patēriņa reģistrēšana
 description: Šajā tēmā ir aprakstīts, kā reģistrēt patēriņu Līdzekļu pārvaldībā.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/21/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderJournal, EntAssetWorkOrderAddSparePart
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ea1522f8a8e4867d8d70fea59b493d139a1b01ef
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 619da584ea37e80b1803ae5983e52e8ee4053f3751a8df75a8f5bc1ddf7e65d6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020785"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765589"
 ---
 # <a name="register-consumption"></a>Patēriņa reģistrēšana
 
@@ -56,7 +54,7 @@ Dažos gadījumos, iespējams, jūs varat pievienot vai dzēst prognozes rindas 
 
 Tālāk redzamajā ekrānuzņēmumā ir parādīts stundas vai krājuma reģistrācijas piemērs darba pasūtījumā **Darba pasūtījuma žurnāli**.
 
-![1. attēls](media/01-consumption.png)
+![1. attēls.](media/01-consumption.png)
 
 
 ## <a name="split-hours-on-work-orders-with-several-work-order-jobs"></a>Stundu sadalīšana darba pasūtījumos ar vairākiem darbu pasūtījuma uzdevumiem
@@ -75,13 +73,13 @@ Ja darba pasūtījumā ir vairāki darba pasūtījuma uzdevumi, varat reģistrē
 
 6. Ievadiet darba stundu skaitu, kas jāsadala, laukā **Stundas**.
 
-    ![2. attēls](media/02-consumption.png)
+    ![2. attēls.](media/02-consumption.png)
 
 7. Noklikšķiniet uz **Labi**.
 
 *Piemērs:* tālāk redzamajā ekrānuzņēmumā ir parādītas žurnāla rindas darba pasūtījumam, kas ietver trīs darba pasūtījuma uzdevumus. Pirmā rinda, kas ietver trīs darba stundas, ir sadalīta, un viena darba stunda tiek reģistrēta katram darba pasūtījuma uzdevumam. Pēc tam, kad ir izveidotas trīs stundu reģistrācijas rindas, varat izlemt, ko darīt ar sākotnējo stundu reģistrācijas rindu (piemērā norādīta kā pirmā rinda). Varat to atstāt tādu, kāda tā ir, vai dzēst. 
 
-![3. attēls](media/03-consumption.png)
+![3. attēls.](media/03-consumption.png)
 
 ## <a name="financial-dimensions-on-consumption-registrations"></a>Finanšu dimensijas patēriņa reģistrācijās
 
@@ -94,3 +92,6 @@ Veicot patēriņa reģistrācijas, noteiktā secībā reģistrācijām tiek piev
 >[!NOTE]
 >Visiem trim reģistrācijas tipiem tiek validēta finanšu dimensiju kombinācija, un nederīgas kombinācijas tiek atstatas tukšas. Šis ir standarta iestatījums ar citām Finance and Operations programmām.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

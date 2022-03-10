@@ -1,29 +1,26 @@
 ---
 title: Līdzekļu dokumenti
 description: Šī tēma paskaidro līdzekļu dokumentus Līdzekļu pārvaldībā.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetObjectDocument
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1e251dbbede23466109f6219671db7f62d6d420
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 77b7265b1ba56dbd1cd955f5d90afea02f589ce2eebdd05a2fef3a7ddebc0ee1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432687"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722491"
 ---
 # <a name="asset-documents"></a>Līdzekļu dokumenti
 
@@ -37,7 +34,7 @@ Līdzekļu pārvaldībā varat iestatīt dokumentus tā, lai tie tiktu automāti
 
 **1. piemērs** : dokuments, kas saistīts ar darba veidu, var aprakstīt procedūru šim darba veidam.
 
-**2. piemērs** : dokuments, kas ir saistīts ar līdzekļa veida, ražotāja un modeļa kombināciju, var būt standarta rokasgrāmata atlasītajam līdzekļu ražotāja modelim.
+**2. piemērs:** dokuments, kas ir saistīts ar līdzekļa veida, ražotāja un modeļa kombināciju, var būt standarta rokasgrāmata atlasītajam līdzekļu ražotāja modelim.
 
 ## <a name="create-asset-document-relation"></a>Līdzekļa dokumentu attiecību izveide
 
@@ -50,3 +47,6 @@ Līdzekļu pārvaldībā varat iestatīt dokumentus tā, lai tie tiktu automāti
 
 4. Atlasiet **Pielikumi**. Tiek parādīta standarta lapa **Dokumentu apstrāde**.
 5. Iestatiet dokumentus vai piezīmes, kas jāpievieno līdzekļa dokumenta ierakstam. Pēc dokumentu pievienošanas lauks **Pielikumi** parāda ar ierakstu saistīto dokumentu skaitu.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

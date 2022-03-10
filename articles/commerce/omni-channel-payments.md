@@ -1,9 +1,9 @@
 ---
 title: Visu kanālu maksājumu apskats
 description: Šajā tēmā ir sniegts apskats par visu kanālu maksājumiem programmā Dynamics 365 Commerce.
-author: rubendel
+author: BrianShook
 ms.date: 09/17/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
@@ -14,15 +14,15 @@ ms.custom:
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 11198795ebc09acd740546e0b18260e8ea2ddfc1dcc2ff38feafecc220655f1f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 593a647caeaf7d06aa1f2067954466db7dac6a1d
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743411"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984170"
 ---
 # <a name="omni-channel-payments-overview"></a>Visu kanālu maksājumu apskats
 

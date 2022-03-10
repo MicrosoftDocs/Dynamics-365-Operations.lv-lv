@@ -1,12 +1,10 @@
 ---
 title: Pasūtījumu izveides termiņi
 description: Šajā rakstā ir sniegta informācija par pasūtījuma izveides termiņiem. Pasūtījuma izveides termiņš ir pēdējais laiks, kas nosaka, vai debitora pasūtījums tiek apstrādāts (un izpildīts) tā, it kā tas būtu jāsaņem šodien vai nākamajā dienā.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventOrderEntryDeadlineGroup, InventOrderEntryDeadlineParameters, InventOrderEntryDeadlineTable, MCRAutoTaxRules
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 7151
 ms.assetid: bbc4f9a2-df4b-4d92-9f18-25282a85541f
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 81546f4e260d8632fd85dbc3765091628588988d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 71748cb05346f7a31f51baebb86b9accc11c8478
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5205254"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580532"
 ---
 # <a name="order-entry-deadlines"></a>Pasūtījumu izveides termiņi
 
@@ -101,8 +99,7 @@ Tabulā parādīts, kā pasūtījumu izveides termiņi A un B vietā tiek pārve
 
 **Piezīme.** Ja ir spēkā pāreja uz vasaras laiku, pasūtījuma izveides beigu termiņi tiek atbilstoši pielāgoti
 
-<a name="additional-resources"></a>Papildu resursi
---------
+## <a name="additional-resources"></a>Papildu resursi
 
 [Piegādes grafiki](delivery-schedules.md)
 

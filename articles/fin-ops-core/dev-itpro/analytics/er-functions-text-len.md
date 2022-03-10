@@ -2,9 +2,7 @@
 title: LEN ER funkcija
 description: Šajā tēmā ir sniegta informācija par to, kā tiek izmantota LEN elektroniskā pārskata (ER) funkcija.
 author: NickSelin
-manager: kfend
 ms.date: 12/11/2019
-ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fce4b5311d84364310b76545a775f1cc8db2fd70
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
-ms.translationtype: HT
+ms.openlocfilehash: 2d5bd38e1bc775f0a53d74f9d28511987ed478a2908726f9799ca73a6faa560b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569972"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768469"
 ---
 # <a name="len-er-function"></a>LEN ER funkcija
 

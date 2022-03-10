@@ -1,30 +1,27 @@
 ---
 title: Statistiskās bāzlīnijas prognozes ģenerēšana
 description: Šajā tēmā ir sniegta informācija par parametriem un filtriem, kas tiek izmantoti pieprasījuma prognozēšanas aprēķinos.
-author: roxanadiaconu
-manager: tfehr
+author: ChristianRytt
 ms.date: 07/08/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 72683
 ms.assetid: 42190463-2a64-4f63-b653-10cac3df0692
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db0ac2d56db46f283716df6615e404a5354f8d3e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 8f34f1721b6215ac09173a346c1f3f1e6b262247
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433021"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577532"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>Statistiskās bāzlīnijas prognozes ģenerēšana
 
@@ -70,11 +67,13 @@ Ja prognoze tiek ģenerēta nevis par lielu krājumu kopu, bet, piemēram, tikai
 > [!NOTE]
 > Potenciāli lēzenu prognozi var izraisīt vēsturiskie dati, kuriem jābūt ar ilgāku vēsturisko periodu (vismaz 3 laika periodi, lai varētu konstatēt tendences, piemēram, 3 gadi ar mēneša prognozi). Lai iegūtu labākus rezultātus, varat mēģināt mainīt laika diapazona granularitāti vai paplašināt laika diapazonu.
 
-<a name="additional-resources"></a>Papildu resursi
---------
+## <a name="additional-resources"></a>Papildu resursi
 
 - [Pieprasījuma prognozēšanas iestatīšana](demand-forecasting-setup.md)
 
 - [Manuāla bāzlīnijas prognozes korekciju veikšana](manual-adjustments-baseline-forecast.md)
 
 - [Autorizēt koriģēto pieprasījuma apjoma prognozi](authorize-adjusted-forecast.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Izmaksu objekta kontrolieru piekļuves tiesības
 description: Šajā tēmā ir sniegta informācija par piekļuves tiesībām izmaksu objektu kontrolieriem.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspace, CAMParameters
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 68fc97ed27460ac0a2bee9c10cb9bda67d506e78
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: c30a7c2765647aad17a475ba8705b8e688d166593adf242fcd15d90e49334189
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4978893"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733033"
 ---
 # <a name="access-rights-for-cost-object-controllers"></a>Izmaksu objekta kontrolieru piekļuves tiesības
 
@@ -64,9 +62,8 @@ Tālāk ir sniegts dimensiju hierarhijas piemērs.
 
 Varat izmantot hierarhijas veidotāja kopsavilkuma cilni **Lietotāji**, lai katrā mezglā ievietotu vienu vai vairākus lietotāja ID.
 
-|                                   | Lietotāji            | Dimensijas elementu diapazons   |                         |
+|             Zari                 | Lietotāji            | Avota dimensijas elements     |   Mērķa dimensijas elements   |
 |-----------------------------------|------------------|---------------------------|-------------------------|
-| **Mezgli**                         | **Lietotāja ID**      | **Avota dimensijas elements** | **Mērķa dimensijas elements** |
 | Organizācija                      | Bendžamins, Klēra |                           |                         |
 | &nbsp;&nbsp;Administrators                 | Aprīlī            |                           |                         |
 | &nbsp;&nbsp;&nbsp;&nbsp;Finansēt   | Alīsija           | CC002                     | CC003                   |
@@ -97,11 +94,14 @@ Piekļuves saraksta hierarhijas iestatījumi tiek izmantoti, lai kontrolētu to,
     - Datu Power BI vizualizācijas, kas ir iegultas Dynamics 365 Finance klientā
 
 > [!IMPORTANT]
-> - Lai piekļuves saraksta hierarhija varētu ietekmēt datus pakalpojumā Power BI, piekļuves saraksta hierarhija ir jāsavieno pārī ar rindas līmeņa drošību pakalpojumā Power BI. Papildinformāciju skatiet rakstā [Drošības iestatīšana satura pakotnei Izmaksu uzskaite](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
+> - Lai piekļuves saraksta hierarhija varētu ietekmēt datus pakalpojumā Power BI, piekļuves saraksta hierarhija ir jāsavieno pārī ar rindas līmeņa drošību pakalpojumā Power BI. Papildinformāciju skatiet rakstā [Drošības iestatīšana satura pakotnei Izmaksu uzskaite](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - Šajā tēmā ir norādīti priekšnoteikumi, kas ir jāizpilda pirms darbvietas **Izmaksu kontrole** lietošanas.
 
 Papildu resursi
 
 - [Izmaksu kontroles darbvieta](cost-control-workspace.md)
 - [Dimensiju hierarhija](dimension-hierarchy.md)
-- [Drošības iestatīšana satura pakotnei Izmaksu uzskaite](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
+- [Drošības iestatīšana satura pakotnei Izmaksu uzskaite](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

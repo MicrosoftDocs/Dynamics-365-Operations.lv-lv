@@ -2,11 +2,8 @@
 title: ROUNDUP ER funkcija
 description: Šajā tēmā ir sniegta informācija par to, kā tiek izmantota ROUNDUP elektroniskā pārskata (ER) funkcija.
 author: NickSelin
-manager: kfend
 ms.date: 12/17/2019
-ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ed86e2a848248dd8f2fc99401d12e0a162bf20a
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 0d397a43712b349bc6eb5e88f38dbc7d8a5231a909f38608d45b4e08861b6b7b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4686838"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743243"
 ---
 # <a name="roundup-er-function"></a>ROUNDUP ER funkcija
 
@@ -67,3 +64,6 @@ Iegūtā skaitliskā vērtība.
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Matemātiskās funkcijas](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

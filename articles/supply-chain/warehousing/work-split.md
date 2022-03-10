@@ -12,15 +12,17 @@ ms.search.region: Global
 ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6fa8955b935f22a0c4ae7311e871fa64afcd2bcdde48c70bf772a3cb7abd772a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 8b06164a81a18548cf9d98ea2f577b5783145100
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781810"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778261"
 ---
 # <a name="work-split"></a>Darba sadale
+
+[!include [banner](../includes/banner.md)]
 
 Darba sadales funkcionalitāte ļauj sadalīt lielus darba ID (proti, darba pasūtījumus, kuriem ir vairākas rindas) vairākos mazākos darba ID, kurus pēc tam var piešķirt vairākiem noliktavas darbiniekiem. Tādējādi vienu un to pašu darba izveides numuru var vienlaikus paņemt vairāki noliktavas darbinieki.
 
@@ -31,7 +33,7 @@ Darba sadales funkcionalitāte ļauj sadalīt lielus darba ID (proti, darba pas�
 
 Lai varētu izmantot darba sadales funkcionalitātiu, sistēmā ir jāieslēdz līdzeklis un tā priekšnosacījuma līdzeklis. Administratori var izmantot [līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļu statusu un tos ieslēgtu pēc vajadzības.
 
-Vispirms ieslēdziet priekšnosacījuma *Organizācijas mēroga darba aizturēšana* līdzekli, ja tas vēl nav ieslēgts. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
+Vispirms ieslēdziet priekšnosacījuma *Organizācijas mēroga darba aizturēšana* līdzekli, ja tas vēl nav ieslēgts. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.21 šī funkcija ir obligāta, tāpēc tā ir ieslēgta pēc noklusējuma un to nevar atkal izslēgt. Tomēr šis līdzeklis joprojām ir [uzskaitīts Līdzekļu](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pārvaldībā šādā veidā:
 
 - **Modulis:** *Noliktavas pārvaldība*
 - **Līdzekļa nosaukums:** *Organizācijas līmeņa darba aizturēšana*

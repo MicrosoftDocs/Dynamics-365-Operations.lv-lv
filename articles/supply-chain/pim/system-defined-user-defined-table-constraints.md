@@ -1,7 +1,7 @@
 ---
 title: Sistēmas definēti un lietotāja definēti tabulas ierobežojumi
 description: Šajā rakstā ir aprakstīti lietotāja un sistēmas definēta preces konfigurācijas modeļa komponentu tabulas divi ierobežojumu veidi. Tabulas ierobežojumi attiecas uz atļauto atribūtu kombināciju matricām, kur katra rinda nosaka vienu iespējamo atribūta vērtību kopu.
-author: cvocph
+author: t-benebo
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 19781
 ms.assetid: 0a4ea930-b344-43a8-871e-d5cd077892c4
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ddc7b9f0ccaa787b2297a253a7fdd9de11e9eee
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: c4b484c99bc8f1cc830d4177460ec15a26714a56
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812689"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577388"
 ---
 # <a name="system-defined-and-user-defined-table-constraints"></a>Sistēmas definēti un lietotāja definēti tabulas ierobežojumi
 
@@ -57,8 +57,7 @@ Izveidojot sistēmas definētu tabulas ierobežojumu, atlasiet tabulu, ja vēlat
 
 Pirms tabulas ierobežojumu var izmantot preces konfigurācijas modelī, tabulas ierobežojums jāiekļauj ierobežojumā vienā no modeļu komponentiem. Procedūra paredzēta, lai izveidotu jaunu ierobežojumu, atlasītu tabulas ierobežojuma veidu, un pēc tam atlasītu tabulas lietojamo ierobežojuma definīciju. Visbeidzot visi tabulas ierobežojuma lauki jākartē uz atribūtiem preces konfigurācijas modelī.
 
-<a name="additional-resources"></a>Papildu resursi
---------
+## <a name="additional-resources"></a>Papildu resursi
 
 [Pārskats par preču konfigurācijas modeļiem](product-configuration-models.md)
 

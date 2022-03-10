@@ -2,11 +2,8 @@
 title: LISTJOIN ER funkcija
 description: Šajā tēmā ir sniegta informācija par to, kā tiek izmantota LISTJOIN elektroniskā pārskata (ER) funkcija.
 author: NickSelin
-manager: kfend
 ms.date: 04/01/2020
-ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28f03e5e6af0f252a994f2e54b57a5ef654f4e67
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: d9346afc88adb89c08098f39a5fd1c2cb82f664af2244b8cafbbe8a4d2f516c6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682247"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755806"
 ---
 # <a name="listjoin-er-function"></a>LISTJOIN ER funkcija
 
@@ -33,7 +30,7 @@ ms.locfileid: "4682247"
 ## <a name="syntax"></a>Sintakse
 
 ```vb
-LIST (list 1 [, list 2, …, list N])
+LISTJOIN (list 1 [, list 2, …, list N])
 ```
 
 ## <a name="arguments"></a>Argumenti
@@ -68,18 +65,21 @@ Tad ievadiet datu avotu **Ieraksts 2** veidam `Container`. Šis datu avots satur
 - **Daudzums**: šis lauks satur izteiksmi, kas atgriež `Real` tipa vērtību.
 - **IsValid**: šis lauks satur izteiksmi, kas atgriež `Boolean` tipa vērtību.
 
-![ER modeļa kartēšanas noformētāja lapa](./media/er-functions-list-listjoin-image1.gif)
+![ER modeļa kartēšanas noformētāja lapa.](./media/er-functions-list-listjoin-image1.gif)
 
 Šajā gadījumā izteiksme `LISTJOIN(LIST('Record 1'), LIST('Record 2'))` atgriež jaunu sarakstu, kurā ir divi ieraksti.
 
-![ER modeļa kartēšanas veidotāja lapa ar diviem ierakstiem](./media/er-functions-list-listjoin-image2.gif)
+![ER modeļa kartēšanas veidotāja lapa ar diviem ierakstiem.](./media/er-functions-list-listjoin-image2.gif)
 
 Šī saraksta struktūra sastāv no viena **Daudzuma** lauka tipā `Real`, jo šis lauks ir vienīgais lauks, kas tiek parādīts katrā izsauktās funkcijas argumentā.
 
-![ER modeļa kartēšanas veidotāja lapas summas lauks](./media/er-functions-list-listjoin-image3.gif)
+![ER modeļa kartēšanas veidotāja lapas summas lauks.](./media/er-functions-list-listjoin-image3.gif)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Saraksta funkcijas](er-functions-category-list.md)
 
 [Atkļūdot izpildītā ER formāta datu avotus, lai analizētu datu plūsmu un transformāciju](er-debug-data-sources.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

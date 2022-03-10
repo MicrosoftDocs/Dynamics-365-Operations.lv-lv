@@ -1,49 +1,51 @@
 ---
 title: Priekšmeta patapinājums darbiniekam
 description: Šajā procedūrā parādīts, kā patapināt darbiniekam priekšmetu un reģistrēt faktu, ka darbinieks atgriež priekšmetu.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmPersonLoan, HcmPersonLookup, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e32fdf90e75d3201678fb7def8efd71706c6ded9
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
-ms.translationtype: HT
+ms.openlocfilehash: 6356b50e0e3c337c88de86d271bc4438fdd451db
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5803469"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070229"
 ---
 # <a name="loan-item-to-a-worker"></a>Priekšmeta patapinājums darbiniekam
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
-Šajā procedūrā parādīts, kā patapināt darbiniekam priekšmetu un reģistrēt faktu, ka darbinieks atgriež priekšmetu. Darbinieki var pieprasīt patapinājuma priekšmetu, izmantojot savas Darbinieku pašapkalpošanās lapas. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
+Šī procedūra parāda, kā aizdot preci strādniekam un reģistrēt darbinieka aizdotās preces atgriešanu. Strādnieki var arī pieprasīt aizdevuma preces, izmantojot savus **Darbinieku pašapkalpošanās** lappuse. The **USMF** lai izveidotu šo procedūru, tika izmantots demonstrācijas datu uzņēmums.
 
 
-## <a name="loan-item-to-a-worker"></a>Priekšmeta patapinājums darbiniekam
-1. Pārejiet uz sadaļu Personāla vadība > Darbinieki > Patapinājuma krājumi > Patapinātais aprīkojums.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Persona ievadiet vai atlasiet kādu vērtību.
-4. Laukā Patapinājuma priekšmets ievadiet vai atlasiet kādu vērtību.
-5. Laukā Plānotā atgriešana ievadiet datumu, kurā darbiniekam patapinātais priekšmets jāatgriež.
-6. Noklikšķiniet uz Saglabāt.
+## <a name="loan-an-item-to-a-worker"></a>Aizdodiet preci strādniekam
+
+1. Iet uz **Cilvēku resursi \> Strādnieki \> Aizdevuma preces \> Aizdots aprīkojums**.
+2. Atlasiet **Jauna**.
+3. Iekš **Persona** laukā ievadiet vai atlasiet vērtību.
+4. Iekš **Kredīta prece** laukā ievadiet vai atlasiet vērtību.
+5. Iekš **Plānotā atgriešanās** laukā ievadiet datumu, kad darbiniekam ir jāatgriež aizdevuma prece.
+6. Atlasiet **Saglabāt**.
 7. Aizvērt lapu.
 
 ## <a name="return-a-loan-item"></a>Patapinātā priekšmeta atgriešana
-1. Pārejiet uz sadaļu Personāla vadība > Darbinieki > Patapinājuma krājumi > Patapinātais aprīkojums.
-2. Noklikšķiniet uz Rediģēt.
-3. Ievadiet datumu laukā Faktiskā atgriešana.
 
-
+1. Iet uz **Cilvēku resursi \> Strādnieki \> Aizdevuma preces \> Aizdots aprīkojums**.
+2. Atlasiet **Rediģēt**.
+3. Iekš **Faktiskā atdeve** laukā ievadiet datumu.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

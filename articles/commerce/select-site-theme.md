@@ -2,35 +2,30 @@
 title: Vietnes dizaina atlase
 description: Šajā tēmā ir aprakstīts, kā iestatīt vai mainīt vietnes dizainu programmā Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c54a3e9471fdeb56f27fe7c567c7cd7f0b7fd218
-ms.sourcegitcommit: 2ef23dcd4e42362186b9951e675010d97d55c6bd
-ms.translationtype: HT
+ms.openlocfilehash: a13400258a86087b6137b08ca724cbbfc1a90ad4
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4556433"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964785"
 ---
 # <a name="select-a-site-theme"></a>Vietnes dizaina atlase
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā ir aprakstīts, kā iestatīt vai mainīt vietnes dizainu programmā Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
 
 Vietnes izkārtojums un stils (piemēram, fonti, lielumi un krāsas) tiek definēti ar dizainu, ko atlasāt un piemērojat vietnei. Dizainu veido un izvieto izstrādātājs jūsu uzņēmumā. Lai skatītu dizainu pārskatu, skatiet sadaļu [Dizainu pārskats](e-commerce-extensibility/theming.md). Papildinformāciju par to, kā izveidot un izvietot dizainus, skatiet sadaļā [Jaunu dizainu izveide](e-commerce-extensibility/create-theme.md).
 
@@ -56,8 +51,6 @@ Lai atlasītu dizainu, kas ir piemērots vietnei, veiciet tālāk norādītās d
 
 [Izlases ikonas pievienošana](add-favicon.md)
 
-[Sveiciena ziņojuma pievienošana](add-welcome-message.md)
-
 [Autortiesību paziņojuma pievienošana](add-copyright-notice.md)
 
 [Valodu pievienošana vietnei](add-languages-to-site.md)
@@ -68,3 +61,6 @@ Lai atlasītu dizainu, kas ir piemērots vietnei, veiciet tālāk norādītās d
 
 [Jauna projekta tēma](e-commerce-extensibility/create-theme.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

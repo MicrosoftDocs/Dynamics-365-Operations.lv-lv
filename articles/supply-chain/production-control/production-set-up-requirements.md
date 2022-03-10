@@ -2,16 +2,13 @@
 title: Ražošanas iestatījumu prasības
 description: Šajā rakstā ir sniegta informācija par iestatīšanas prasībām, kas jāievēro, lai varētu strādāt ar ražošanas kontroli.
 author: johanhoffmann
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdParameters, RouteOpr, RouteOprTable, WorkCalendarTable, WorkTimeTable, WrkCtrTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 55561
 ms.assetid: 1953059f-478d-4706-b461-25b89ace5fc3
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0513392fe066e02f0789bcfadb0ee676559cb223
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: bfde8b40927ceaa216878d58ef72c5d91e9ebe01
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432530"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968800"
 ---
 # <a name="production-setup-requirements"></a>Ražošanas iestatījumu prasības
 
@@ -42,7 +39,7 @@ Lai varētu strādāt ar ražošanas kontroli, ir jāiestata informācija pārē
 -   Definējiet krājumu grupas.
 -   Iestatiet krājumu grupām Virsgrāmatas kontus.
 -   Iestatiet krājuma vienību tabulu sadaļā Krājumu vadība.
--   Izveidojiet materiālu komplektus (MK) un MK versijas sadaļa Krājumu vadība.
+-   Izveidojiet materiālu komplektus (MK) un MK versijas preču informācijas pārvaldībā.
 
 ## <a name="required-calendar-and-resource-setup"></a>Nepieciešamais kalendāra un resursu iestatījums
 Pirms lietojat ražošanas kontroli, atveriet sadaļu Organizācijas administrēšana, un izveidojiet un definējiet kalendāru un operācijas resursus tālāk norādītajā secībā.
@@ -81,3 +78,6 @@ Ja strādājat ar maršrutiem, tad operācijas ir nepieciešams definēt katram 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

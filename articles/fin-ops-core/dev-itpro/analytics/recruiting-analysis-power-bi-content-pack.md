@@ -2,11 +2,9 @@
 title: Power BI satura pakotne Personāla atlase
 description: Šajā tēmā ir aprakstīta Power BI satura pakotne Personāla atlase.
 author: jcart1106
-manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: HcmRecruitmentWorkspace
 audience: Application User, IT Pro
@@ -17,18 +15,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 237af011229e3d84f54bc601753dc621f8335d2f
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
-ms.translationtype: HT
+ms.openlocfilehash: 36ea9f204b50b3d7a6c8e33e69a9c3fd7d82cd79d466e2b9547c6733aa294aea
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5092745"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765126"
 ---
 # <a name="recruiting-power-bi-content"></a>Power BI satura pakotne Personāla atlase
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīta Microsoft Power BI satura pakotne **Personāla atlase**. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
+Šajā tēmā ir aprakstīta satura pakotne **Personāla atlase** programmā Microsoft Power BI. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
 
 ## <a name="accessing-the-power-bi-content"></a>Piekļuve Power BI satura pakotnei
 Power BI satura pakotne **Personāla atlase** tiek rādīta darbvietā **Personāla atlases pārvaldība**.
@@ -64,3 +62,6 @@ Tālāk esošajā tabulā ir norādīti Power BI satura pakotnes **Personāla at
 | Veiktspēja          | Vērtējums, apraksts un vērtēšanas modelis                            | Kandidāts, darbā pieņemtais kandidāts, atbrīvotais kandidāts |
 | Personāla atlases projekts  | Projekta apraksts, projekta statuss un vakances                | Kandidāts, darbā pieņemtais kandidāts, atbrīvotais kandidāts |
 | Atbrīvotais kandidāts | Atbrīvotie kandidāti, iemesls, veiktspēja un atbrīvošanas datums | Uzņēmums, kalendāra nobīde, datums, ģeogrāfiskā atrašanās vieta, veiktspēja, demogrāfiskie dati, nodarbinātība, multivide, personāla atlases projekts, kandidāta vārds |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

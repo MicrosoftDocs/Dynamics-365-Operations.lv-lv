@@ -2,13 +2,11 @@
 title: Nomas apstiprinājuma darbplūsmu izmantošana
 description: Šajā tēmā skaidrots, kā izmantot darbplūsmas, lai apstiprinātu līdzekļu nomas, un kā izsekot darbplūsmas statusu un vēsturi.
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: WorkflowTableListPageRnr
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f19cb0be14ba784cc4c3d189f4d2b5b00426e1b9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 33faf7aa6bc9e5df4b8b0f004692b2c1803c6994264c7b9a8e3eb404387f6800
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249561"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726090"
 ---
 # <a name="use-lease-approval-workflows"></a>Nomas apstiprinājuma darbplūsmu izmantošana
 

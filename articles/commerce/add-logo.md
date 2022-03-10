@@ -1,17 +1,14 @@
 ---
 title: Logotipa pievienošana
-description: Šajā tēmā ir aprakstīts, kā pievienot logotipu savai vietnei programmā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā aprakstīts, kā pievienot logotipu vietnei risinājumā Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
-manager: AnnBe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,20 +16,18 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f15680deb0eab763ba68f2897139c915d1f8a6a3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 583462755838e51b4c988b8da057dbeeee773e0b
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413998"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964583"
 ---
 # <a name="add-a-logo"></a>Logotipa pievienošana
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā pievienot logotipu savai vietnei programmā Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
+Šajā tēmā aprakstīts, kā pievienot logotipu vietnei risinājumā Microsoft Dynamics 365 Commerce.
 
 Veidojot vietni, viena no pirmajām lietām, ko jūs, iespējams, darīsiet, ir vietnes galvenē pievienosiet sava uzņēmuma vai zīmola logotipu. Tiešsaistes moduļu bibliotēka Dynamics 365 Commerce nodrošina moduli, kas atvieglo šo uzdevumu.
 
@@ -66,11 +61,12 @@ Pēc atjauninātā galvenes fragmenta publicēšanas visās vietņu lapās, kur�
 
 [Izlases ikonas pievienošana](add-favicon.md)
 
-[Sveiciena ziņojuma pievienošana](add-welcome-message.md)
-
 [Autortiesību paziņojuma pievienošana](add-copyright-notice.md)
 
 [Valodu pievienošana vietnei](add-languages-to-site.md)
 
 [Skripta koda pievienošana vietnes lapām, lai atbalstītu telemetriju](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

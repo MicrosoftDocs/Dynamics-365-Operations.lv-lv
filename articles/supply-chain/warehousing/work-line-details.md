@@ -2,26 +2,23 @@
 title: Detalizēta darba rindas informācija
 description: Šajā tēmā ir sniegta informācija par lapu Detalizēta informācija par darba rindām, kurā ir attēlots visaptverošs, kārtojams un filtrējams saraksts ar atsevišķām darba rindām jūsu sistēmā.
 author: mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkLocationChange, WHSWorkLineDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: bcb340b21e06b294a40784bf3a1da71b0daf7655
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: f37d161bf3d27e15eaaf1230c05270f3769f9901
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4433156"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778285"
 ---
 # <a name="work-line-details"></a>Detalizēta darba rindas informācija
 
@@ -31,9 +28,9 @@ Lapā **Detalizēta informācija par darba rindām** ir attēlots visaptverošs,
 
 ## <a name="turn-on-the-work-line-details-feature"></a>Līdzekļa Detalizēta informācija par darba rindu ieslēgšana
 
-Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu, ja nepieciešams. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
+No Piegādes ķēdes pārvaldības versijas 10.0.21 šī funkcija ir ieslēgta pēc noklusējuma. Administratori var izmantot Līdzekļu [pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lapu, lai pārbaudītu līdzekļu statusu un aktivizētu vai atspējotu to, ja nepieciešams. Šeit līdzeklis tiek norādīts kā:
 
-- **Modulis:** *Noliktavas vadība*
+- **Modulis:** *Noliktavas pārvaldība*
 - **Līdzekļa nosaukums:** *Detalizēta informācija par darba rindu*
 
 ## <a name="open-and-use-the-work-line-details-page"></a>Lapas Detalizēta informācija par darba rindu atvēršana un lietošana
@@ -128,3 +125,6 @@ Lai izveidotu izdošanas darbu, veiciet tālāk norādītās darbības.
 
 > [!IMPORTANT]
 > Ja darba rindai atcelsit tikai daļu daudzuma, no kravas rindas ir jānoņem arī novecojušais daudzums. Pretējā gadījumā, ja netiek iestatīta pareiza nepietiekamas piegādes vērtība, kravas rindai nevar apstiprināt sūtīšanu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

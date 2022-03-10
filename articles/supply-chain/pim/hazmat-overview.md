@@ -1,37 +1,33 @@
 ---
 title: Bīstamo materiālu pārskats
 description: Šī tēma sniedz apskatu par līdzekļiem, kas ir saistīti ar bīstamu materiālu apstrādi un dokumentēšanu preču informācijas pārvaldības un noliktavu pārvaldības laikā.
-author: dasani-madipalli
-manager: tfehr
+author: t-benebo
 ms.date: 06/10/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: damadipa
+ms.author: benebotg
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 34c0a19308bb5159faa9a4ab06bf65e58da0deb1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: cfea2cd6a2699bdf2a14de72a8bdeb3e8cd32a17
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432531"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986280"
 ---
 # <a name="hazardous-materials-overview"></a>Bīstamo materiālu pārskats
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Lai saglabātu atbilstību kuģošanas un pārvadāšanas noteikumiem, organizācijām, kas piegādā materiālus, kas klasificēti kā bīstamas preces, ir jāiekļauj papildu dokumenti ar to sūtījumiem. Bīstamo materiālu līdzeklis ļauj klientiem glabāt informāciju, kas saistīta ar izlaistajiem krājumiem. Šo informāciju var izmantot, lai palīdzētu sagatavot nosūtīšanas dokumentus. Organizācijai, kas piegādā bīstamas kravas, ir pašai savi procesi un procedūras, lai pārvaldītu nosūtīšanas procesu. Microsoft Dynamics 365 Supply Chain Management ir tikai rīks, kas var palīdzēt ģenerēt pieprasītos dokumentus.
 
 Sekojošajā diagrammā ir attēlotas darbības, kas jāveic, lai iestatītu un lietotu bīstamo materiālu līdzekli.
 
-![Bīstamo materiālu iestatīšana un izmantošanas līdzeklis](media/hazmat-overview.png "Bīstamo materiālu iestatīšana un izmantošanas līdzeklis")
+![Bīstamo materiālu iestatīšana un izmantošanas līdzeklis.](media/hazmat-overview.png "Bīstamo materiālu iestatīšana un izmantošanas līdzeklis")
 
 Bīstamo materiālu līdzeklis ir iestatīts Preču informācijas pārvaldībā un nodrošina dokumentus, kurus var izdrukāt ar noliktavas pārvaldības starpniecību. Tāpēc vispārīgi runājot, šīs jomas ir divas galvenās jomas, kurās jūs pārskatīsiet, iestatīsit un izmantosiet šī līdzekļa funkcionalitāti:
 
@@ -62,3 +58,6 @@ Lai iegūtu vairāk informācijas par to, kā iestatīt noteikumus un vērtības
 ## <a name="warehouse-management"></a>Noliktavas vadība
 
 Sagatavojot sūtījumu Noliktavas pārvaldībā, varēsit drukāt vairākus jaunus pārskatus, kas izmanto informāciju, kas iestatīta preču informācijas pārvaldībā. Plašāku informāciju par pieejamiem pārskatiem un to lietošanu skatiet šeit: [Bīstamo materiālu pieprasījumi un pārskati](hazmat-reports.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

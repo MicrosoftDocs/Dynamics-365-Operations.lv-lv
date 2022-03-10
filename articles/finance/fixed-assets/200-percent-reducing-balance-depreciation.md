@@ -1,7 +1,7 @@
 ---
 title: 200 procentu atlikuma bilances aprēķināšanas metode
-description: Šajā rakstā ir sniegts pārskats par 200 procentu degresīvās nolietojuma aprēķināšanas metodi.
-author: saraschi2
+description: Šajā tēmā sniegts pārskats par 200 procentu atlikumu bilances metodi.
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 13951
 ms.assetid: 69b4e010-7683-4dc2-8a06-6d572f37e903
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f7d821dbd6603eba7a228e5caa6def6d783e4774c72687839bd198f4e228633
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 52a199489ffe42bc7b2d21e85b18dcd0bf35c165
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767008"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883497"
 ---
 # <a name="200-percent-reducing-balance-depreciation"></a>200 procentu atlikuma bilances aprēķināšanas metode
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir sniegts pārskats par 200 procentu degresīvās nolietojuma aprēķināšanas metodi.
+Šajā tēmā sniegts pārskats par 200 procentu atlikumu bilances metodi.
 
 Ja iestatāt pamatlīdzekļa nolietojuma tabulu un atlasāt lauka **Metode** vērtību **200% atlikumu bilance** lapā **Nolietojuma tabulas**, pamatlīdzekļiem, kam ir piešķirta šī nolietojuma tabula, tiek izmantota vienāda nolietojuma procentu likme katrā nolietojuma periodā. Procentu likme tiek aprēķināta, pamatojoties uz pamatlīdzekļa lietošanas ilgumu. Piemēram, ja pamatlīdzekļa lietošanas ilgums ir pieci gadi, tiek aprēķināta procentu likme 40 procenti (200% ÷ 5). 
 

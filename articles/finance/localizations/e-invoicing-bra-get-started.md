@@ -9,18 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f8caaa6417365a131da0565cbc4a9f79425d0c7e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: 82bbf806d207af0b15406e4bec516420db7f2c06
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840272"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984857"
 ---
 # <a name="get-started-with-electronic-invoicing-for-brazil"></a>Darba sākšana ar elektronisko rēķinu izveidi lietošanai Brazīlijā 
 
@@ -53,7 +53,7 @@ Veiciet šīs darbības, pirms izvietojat programmas iestatījumus jūsu Finance
 
 Šī sadaļa papildina sadaļu [Valsts mēroga konfigurācija programmas iestātījumam](e-invoicing-get-started.md) tēmā **Sākt darbu ar elektronisko rēķinu izveidi**.
 
-1. Darbvietas **Globalizācijas līdzekļi** sadaļas **Līdzekļi** RCS atlasiet elementu **Elektronisko rēķinu izrakstīšana*.
+1. Darbvietas **Globalizācijas līdzekļi** sadaļas **Līdzekļi** RCS atlasiet elementu **Elektronisko rēķinu izrakstīšana**.
 2. Lapā **Elektroniskā rēķina izveides līdzekļi** verificējiet, ka tiek atlasīts elektronisko rēķinu līdzeklis **Brazīlijas NF-e (BR)**.
 3. Cilnē **Versijas** pārbaudiet, vai ir atlasīta versija **Melnraksts** .
 4. Cilnē **Iestatījumi** atlasiet **Lietojumprogrammas iestatījums** un laukā **Pievienotā lietojumprogramma** atlasiet lietojumprogrammu, kurā vēlaties izvietot.

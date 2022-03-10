@@ -1,14 +1,13 @@
 ---
-title: Izvēlēties datu integrācijas tehnoloģiju
-description: Šis raksts sniedz informāciju par datu integrēšanu, kurus pārvalda Personāla vadība. Tas apraksta dažādas integrēšanas tehnoloģijas, lai palīdzētu jums izlemt, kuras tehnoloģijas vislabāk atbilst jūsu vajadzībām.
-author: andreabichsel
-ms.date: 02/28/2020
+title: Datu integrācijas tehnoloģiju izvēle
+description: Šajā tēmā sniegta informācija par datu, kurus pārvalda personāla vadība, integrēšanu.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,27 +15,29 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0d2978d680efa59b1ba9cfcd7f58655da0ff4107
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
-ms.translationtype: HT
+ms.openlocfilehash: 24ddd242185d736287f61ec250c631ab65e08c95
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890104"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065045"
 ---
-# <a name="choose-a-data-integration-technology"></a>Izvēlēties datu integrācijas tehnoloģiju
+# <a name="choose-a-data-integration-technology"></a>Datu integrācijas tehnoloģiju izvēle
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Šis raksts sniedz informāciju datu integrēšanai, kurus pārvalda Dynamics 365 Human Resources. Tas apraksta dažādas integrēšanas tehnoloģijas, lai palīdzētu jums izlemt, kuras tehnoloģijas vislabāk atbilst jūsu vajadzībām.
+
+Šajā tēmā sniegta informācija datu, kurus pārvalda Dynamics 365 Human Resources, integrēšanai. Tas apraksta dažādas integrēšanas tehnoloģijas, lai palīdzētu jums izlemt, kuras tehnoloģijas vislabāk atbilst jūsu vajadzībām.
 
 ## <a name="data-integration-background"></a>Datu integrācijas fons
 
 Biznesa dati ir galvenie līdzekļi, kas padara uzņēmumu unikālu. Biznesa dati ir ļoti vērtīgi. Lai uzlabotu biznesa procesus un biznesa informāciju visā uzņēmumā, varat izmantot attiecības starp datiem, kas apkopoti jūsu uzņēmumā. Mēs cenšamies nodrošināt vieglu, drošu un stabilu piekļuvi jūsu biznesa datiem neatkarīgi no sistēmas, no kā tie tiek iegūti.
 
-Vēsturiski datu integrācija starp vairākām sistēmām ir bijusi sarežģīta.
-Microsoft veic darbības, lai atvieglotu datu integrāciju, un liels solis pretī šim mērķim tiek realizēts, izmantojot [Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
+Vēsturiski datu integrācija starp vairākām sistēmām ir bijusi sarežģīta. Microsoft veic darbības, lai atvieglotu datu integrāciju, un liels solis pretī šim mērķim tiek realizēts, izmantojot [Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
 
 Personāla vadība dod priekšroku Dataverse kā Personāla vadības datu publiskajam interfeisam. Laika gaitā mēs sagaidām, ka visi svarīgākie dati, ko pārvalda Human Resources, tiks sniegti Dataverse. Mēs iesakām Dataverse kā izvēles tehnoloģiju lielākajai daļai integrācijas pieteikumu.
 
@@ -48,7 +49,7 @@ Turpmākajās sadaļās aprakstītas dažādas datu integrācijas tehnoloģijas,
 
 ### <a name="dataverse-tables"></a>Dataverse tabulas
 
-Dataverse ir izvēlētais publisko datu interfeiss Human Resources. Tas attīstījās no Dynamics 365 XRM platformas, ko izmanto [Dynamics 365 Customer Engagement](/dynamics365/?panel=customer-engagement#pivot=business-apps) risinājumi.
+Dataverse ir izvēlētais publisko datu interfeiss Human Resources. Tas ir attīstījies no Dynamics 365 XRM platformas, ko izmanto [Dynamics 365 Customer Engagement](/dynamics365/?panel=customer-engagement#pivot=business-apps) risinājumi.
 
 Dataverse nodrošina platformu un API datu tabulām. Kad tiek izvietota Personāla vadība, tie tiek savienoti ar Dataverse instanci. Personāla vadības datu entītijas tiek izvietotas šajā Dataverse instancē. Tabulas un to dati ir pieejami jebkurai programmai, kas var pieslēgties Dataverse instancei. Human Resources sinhronizē datus uz un no Dataverse tabulām.
 
@@ -70,7 +71,7 @@ Dataverse tabulas un to saistītie API ir vislabākā opcija, lai piekļūtu Per
 
 ### <a name="dmfdixf-entities"></a>DMF/DIXF elementi
 
-Personāla vadība, kas galvenokārt tiek veidota uz tās pašas platformas kā Finance and Operations programmas, sniedz [Datu pārvaldības struktūru (DMF)](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json). DMF ir zināms arī kā Datu importēšanas un eksportēšanas struktūra (DIXF). Personāla vadība nodrošina datu elementu kopu, ko varat izmantot, lai importētu un eksportētu Personāla vadības datus. Lai gan Dataverse tabulas ir Personāla vadības izvēlētais datu integrācijas interfeiss, DMF elementi joprojām ir noderīgi dažos tālāk minētajos gadījumos:
+Cilvēkresursi, kas galvenokārt veidoti uz tās pašas platformas, kur Finance and Operations lietojumprogrammas, nodrošina a [Datu pārvaldības sistēma (DMF)](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json). DMF ir zināms arī kā Datu importēšanas un eksportēšanas struktūra (DIXF). Personāla vadība nodrošina datu elementu kopu, ko varat izmantot, lai importētu un eksportētu Personāla vadības datus. Lai gan Dataverse tabulas ir Personāla vadības izvēlētais datu integrācijas interfeiss, DMF elementi joprojām ir noderīgi dažos tālāk minētajos gadījumos:
 
 - Dataverse tabulas vēl nav pieejamas.
 
@@ -113,7 +114,7 @@ BYOD ir piemērots pārskatu risinājumiem, datu integrācijām, datu jaucējpro
 
 ### <a name="odata-enabled-entities"></a>OData iespējotie elementi
 
-Lielākā daļa DMF elementu ir iespējoti arī piekļuvei, izmantojot Human Resources datu pakalpojumu (OData). [Finance and Operations OData pakalpojumam](/dynamics365/unified-operations/dev-itpro/data-entities/odata) paredzētais dokuments attiecas uz Personāla vadību, izņemot, lai izveidotu savus OData elementus.
+Lielākā daļa DMF elementu ir iespējoti arī piekļuvei, izmantojot Human Resources datu pakalpojumu (OData). Dokumentācija, kas paredzēta [Finanšu un operāciju OData pakalpojums](/dynamics365/unified-operations/dev-itpro/data-entities/odata) attiecas uz cilvēkresursiem, izņemot savu OData pakļauto entītiju izveidi.
 
 Lai gan Dataverse un OData implementācijai, ko sniedz Dataverse (izmantojot [Dynamics 365 Web API](/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8))), tiek dota priekšroka pret Human Resources datu pakalpojumu, Human Resources datu pakalpojumam pašlaik ir pilnīgāks elementu segums Human Resources datiem.
 
@@ -131,7 +132,7 @@ Datu integratora projekti ir piemēroti Dataverse partijas integrācijai. Tā ir
 
 ### <a name="power-query"></a>Power Query
 
-Datu integrētājs atbalsta [Power Query](/power-query/power-query-what-is-power-query), izmantojot tā [Advanced Query līdzekli](/powerapps/administrator/data-integrator#advanced-data-transformation-and-filtering). Power Query nodrošina spēcīgu, elastīgu datu filtrēšanu un pārveidošanu, ieskaitot bagātinātu M formulas valodu. Power Query, visticamāk, būs zināms, ja esat izstrādājis Power BI pārskatus.
+Datu integrators atbalsta [Power Query](/power-query/power-query-what-is-power-query) caur to [Uzlabotā vaicājuma funkcija](/powerapps/administrator/data-integrator#advanced-data-transformation-and-filtering). Power Query nodrošina jaudīgu, elastīgu datu filtrēšanu un pārveidošanu, tostarp bagātīgo M formulas valodu. Power Query iespējams, būs pazīstams, ja esat attīstījis Power BI ziņojumi.
 
 ## <a name="deciding-on-an-integration-technology"></a>Lemšana par integrācijas tehnoloģiju
 
@@ -145,7 +146,7 @@ Kad pieejamas tik daudzas integrācijas tehnoloģijas, dažreiz var būt sarež�
 | BYOD                   | Jā, ieplāno Human Resources administrators        | Asinhrons, pakete                                | Nē<sup>3</sup>                                    | Augsts (simtiem tūkstošu ierakstu)                    | Atbalsta visus DMF elementus           |
 | OData iespējotie elementi | Jā, izmantojot starpprogrammatūru                    | Sinhronizēt                                        | Jā, izmantojot Human Resources datu pakalpojumu (OData)  | Mainās atkarībā no izmantošanas gadījuma (atbalsta lapošana interaktīvai lietošanai) | Augsta                                |
 | Excel pievienojumprogramma           | Nē                                       | Sinhronizēt                                        | Nē                                        | Vidējs (desmitiem tūkstošu ierakstu)                      | Atbalsta visus OData iespējotos elementus |
-| Datu integrētājs        | Jā, ieplānots datu integrētājā        | Asinhrons, pakete                                | Nr.                                        | Mainās atkarībā no izmantošanas gadījuma                                       | Atbalsta visas Dataverse tabulas           |
+| Datu integrētājs        | Jā, ieplānots datu integrētājā        | Asinhrons, pakete                                | Nē                                        | Mainās atkarībā no izmantošanas gadījuma                                       | Atbalsta visas Dataverse tabulas           |
 
 <sup>2</sup>Microsoft veic lielus ieguldījumus, palielinot datu pārklājumu Dataverse tabulām. Mēs iesakām izmantot Dataverse, kad pārklājums ir pieejams. Pašlaik Dataverse datu segums ir zems salīdzinājumā ar DMF un OData iespējotiem elementiem.
 

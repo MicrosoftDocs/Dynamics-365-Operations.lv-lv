@@ -2,25 +2,25 @@
 title: Trīsvirzienu atbilstības ierobežojumi
 description: Šajā tēmā ir sniegti trīsvirzienu atbilstības piemēri.
 author: abruer
-ms.date: 10/26/2017
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 2761
 ms.assetid: 70f3cb1a-18b7-4474-95ec-28b2410dd8f8
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 829c9c5549c337c5c2b118f3027111831f2632ca
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: cffdc06216ce8ab1bfb79265f265bec1aee334c5
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814300"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109997"
 ---
 # <a name="three-way-matching-policies"></a>Trīsvirzienu atbilstības ierobežojumi
 
@@ -28,8 +28,7 @@ ms.locfileid: "5814300"
 
 Šajā tēmā ir sniegti trīsvirzienu atbilstības piemēri.
 
-<a name="example-three-way-matching-for-items"></a>Piemērs: krājumu trīsvirzienu atbilstība
--------------------------------------
+## <a name="example-three-way-matching-for-items"></a>Piemērs: krājumu trīsvirzienu atbilstība
 
 **Kopsavilkums.** Kens ir kontrolieris juridiskas personas Fabrikam galvenajā birojā. Kens izlemj, ka visiem kreditora rēķiniem, kuru pamatā ir pirkšanas pasūtījumi, ir jānosaka atbilstība pirkšanas pasūtījumu rindām (divvirzienu atbilstība). Tādu krājumu pirkumu rēķiniem, kas tiks izmantoti kā pamatlīdzekļi, ir jānosaka atbilstība gan pirkšanas pasūtījumu rindām, gan produktu ieejas plūsmas dokumenta rindām (trīsvirzienu atbilstība).
 
@@ -37,16 +36,16 @@ Fabrikam vada vairākas juridiskās personas un nodarbina darbiniekus visā pasa
 
 Šajā piemērā ietvertie rēķinu salīdzināšanas atbilstības ierobežojumi palīdz personām tālāk norādītajos amatos sasniegt savus mērķus.
 
--   Kens ir kontrolieris uzņēmumā Fabrikam. Viņš var palīdzēt personām savā organizācija noteikt un atrisināt problēmas, kas ir saistītas ar kreditoru nodrošināto krājumu (preču un pakalpojumu) pasūtīšanu, saņemšanu un maksāšanu par tiem.
+-   Kens ir kontrolieris uzņēmumā Fabrikam. Kens var palīdzēt personām organizācija noteikt un atrisināt problēmas, kas ir saistītas ar kreditoru nodrošināto krājumu (preču un pakalpojumu) pasūtīšanu, saņemšanu un maksāšanu par tiem.
 -   Filisa un Eiprila ir Fabrikam ASV nodaļas kreditoru departamenta grāmatvedības daļas vadītājas. Viņas var ieviest uzņēmuma politiku un nodrošināt, ka visi rēķini tiek apmaksāti tikai pēc tam, kad tiek noteikta to atbilstība pirkšanas pasūtījumiem un preču un pakalpojumu ieejas plūsmas dokumentiem, ja tas ir attiecināms.
--   Tonijs ir Fabrikam ASV nodaļas ražošanas daļas vadītājs. Viņš un citi ražošanas daļas darbinieki var nodrošināt, ka tiek saņemti no kreditoriem pasūtītie krājumi un tie tiek reģistrēti, lai darbinieki saņemtu darba veikšanai nepieciešamos rīkus un materiālus.
+-   Tonijs ir Fabrikam ASV nodaļas ražošanas daļas vadītājs. Tonijs un citi ražošanas daļas darbinieki var nodrošināt, ka tiek saņemti no kreditoriem pasūtītie krājumi un tie tiek reģistrēti, lai darbinieki saņemtu darba veikšanai nepieciešamos rīkus un materiālus.
 
 ### <a name="prerequisites"></a>Priekšnosacījumi
 
--   Kens iestata trīsvirzienu atbilstības ierobežojumus juridiskās personas līmenī.
--   Kens iestata juridiskās personas slēdzi Automātiski atjaunināt virsraksta atbilstības statusu stāvoklī Jā.
--   Kens iestata juridiskās personas lauka Saskaņot cenas kopsummu vērtību Procenti un ievada pielaides procentuālo vērtību 15%.
--   Kens krājuma līmenī iestata trīsvirzienu atbilstības ierobežojumu krājumam 1500 — CNC Milicron mašīna. Šis krājums ir līdzeklis, kas tiek izmantots ražošanai uzņēmumā Fabrikam. Tiek noteikta šo krājuma rēķinu atbilstība pirkšanas pasūtījuma rindām, salīdzinot cenas, un ar produktu ieejas plūsmas dokumentiem, salīdzinot daudzumus.
+-   Plkst. 1. **iestata** atbilstības ierobežojumus juridiskas personas līmenī kā **Trīsvirziena sakritības**.
+-   Iestata juridisko personu **kā Jā automātiski** atjaunināt virsraksta atbilstības **statusu**.
+-   Plkst. iestata **saskaņotās cenas kopsummu** **lauku juridiskajai personai kā procentuālo vērtību un ievada 15% kā** Tolerances **procentus**.
+-   Krājuma 1500 – CNC iestatījuma atbilstības ierobežojumi krājuma līmenī tiek iestatīti uz trīskāršotu **sakritības veidu**. Šis krājums ir līdzeklis, kas tiek izmantots ražošanai uzņēmumā Fabrikam. Tiek noteikta šo krājuma rēķinu atbilstība pirkšanas pasūtījuma rindām, salīdzinot cenas, un ar produktu ieejas plūsmas dokumentiem, salīdzinot daudzumus.
 -   Tonijs iesniedz pieprasījumu piecu CNC Milicron mašīnu saņemšanai. Alīsija, Fabrikam pirkšanas pasūtījumu nodaļas darbiniece, izsniedz pirkšanas pasūtījumu juridiskai personai Contoso par krājumu piegādi.
 
     | Krājuma kods                 | Daudzums | Vienības cena | Neto summa | Maksas kods        | Izmaksu vērtība |
@@ -57,7 +56,7 @@ Fabrikam vada vairākas juridiskās personas un nodarbina darbiniekus visā pasa
 
 ### <a name="scenario"></a>Scenārijs
 
-1.  Samijs, Fabrikam saņemšanas nodaļas darbinieks, saņem visas no Contoso nosūtītās mašīnas. Viņš ievada daudzumu 5 produktu ieejas plūsmas dokumentā. Tā kā pirkšanas pasūtījums ir pilnībā saņemts, pirkšanas pasūtījuma statuss tiek mainīts uz Saņemts.
+1.  Samijs, Fabrikam saņemšanas nodaļas darbinieks, saņem visas no Contoso nosūtītās mašīnas. Samijs ievada daudzumu 5 produktu ieejas plūsmas dokumentā. Tā kā pirkšanas pasūtījums ir pilnībā saņemts, pirkšanas pasūtījuma statuss tiek mainīts uz Saņemts.
 2.  Eiprila, Fabrikam kreditoru nodaļas koordinatore, ievada un pārbauda uzņēmuma Contoso iesniegto rēķinu. Viņa pārbauda tālāk norādīto informāciju.
     -   Krājumiem, kuriem ir nepieciešama trīsvirzienu atbilstība, rēķina rindā norādītais daudzums atbilst saņemtajam daudzumam. Saņemtais daudzums ir norādīts produktu ieejas plūsmas dokumentā, kas tiek salīdzināts ar rēķinu.
     -   Krājumiem, kuriem ir nepieciešama divvirzienu vai trīsvirzienu atbilstība, rēķina rindās norādītās cenas atbilst Microsoft Dynamics 365 Finance definētajām pielaidēm. Tas attiecas uz tālāk norādītajiem cenu salīdzināšanas tipiem.
@@ -87,16 +86,16 @@ Kopsavilkums. Kens ir kontrolieris juridiskas personas Fabrikam galvenajā biroj
 Apjomi un summas ir mazi, un ir radušas problēmas saistībā ar piegādi no dažiem kreditoriem Malaizijā. Šo iemeslu dēļ Keisija iestata noteiktu Malaizijā iegūto krājumu un kreditoru kombināciju kontroles līmeni uz trīsvirzienu atbilstību. 
 
 Šajā piemērā ietvertie rēķinu salīdzināšanas atbilstības ierobežojumi palīdz personām tālāk norādītajos amatos sasniegt savus mērķus.
--   Kens ir kontrolieris uzņēmumā Fabrikam. Viņš var palīdzēt personām savā organizācija noteikt un atrisināt problēmas, kas ir saistītas ar kreditoru nodrošināto krājumu (preču un pakalpojumu) pasūtīšanu, saņemšanu un maksāšanu par tiem.
+-   Kens ir kontrolieris uzņēmumā Fabrikam. Kens var palīdzēt personām organizācija noteikt un atrisināt problēmas, kas ir saistītas ar kreditoru nodrošināto krājumu (preču un pakalpojumu) pasūtīšanu, saņemšanu un maksāšanu par tiem.
 -   Keisija ir grāmatvede Fabrikam Malaizija nodaļā. Viņa var ieviest uzņēmuma politiku un nodrošināt, ka visi rēķini tiek apmaksāti tikai pēc tam, kad tiek noteikta to atbilstība pirkšanas pasūtījuma rindām un preču un pakalpojumu produktu ieejas plūsmas dokumentiem. Viņa var arī paaugstināt noteiktu krājumu kontroles līmeni, iestatot trīsvirzienu atbilstību, lai kontrolētu darbības izmaksas.
 
 ### <a name="prerequisites"></a>Priekšnosacījumi
 
--   Kens iestata divvirzienu atbilstības ierobežojumus juridiskās personas līmenī.
--   Kens iestata juridiskās personas lauka Saskaņot cenas kopsummu vērtību Procenti un ievada pielaides procentuālo vērtību 10%.
+-   Plkst. 1. **iestata** atbilstības ierobežojumus juridiskas personas līmenī kā **divvirzienu atbilstību**.
+-   Plkst. iestata **saskaņotās cenas kopsummu** **lauku juridiskajai personai kā procentuālo vērtību un ievada 10%** kā **Tolerances** procentus **·**.
 -   Kens iestata visu krājumu vienības cenas pielaidi 2%.
--   Keisija iestata trīsvirzienu atbilstības ierobežojumus krājuma un kreditora līmenī krājumam PH2500 — dators un kreditoram Contoso.
--   Alīsija, pirkšanas pasūtījumu daļas darbiniece Fabrikam, Malaizijas nodaļā, izsniedz pirkšanas pasūtījumus uzņēmumam Contoso par trīs krājumu piegādi, kā tas ir redzams tālāk esošajā tabulā. Kad viņa izveido pirkšanas pasūtījumu, viņa maina bezvadu peles atbilstības ierobežojumus no divvirzienu atbilstības uz trīsvirzienu atbilstību.
+-   Cassie iestata atbilstības **ierobežojumus** krājuma un kreditora kombinācijas līmenī krājumam CONTOSO2500 – datora un kreditora Contoso trīsvirziena **atbilstībai**.
+-   Alīsija, pirkšanas pasūtījumu daļas darbiniece Fabrikam, Malaizijas nodaļā, izsniedz pirkšanas pasūtījumus uzņēmumam Contoso par trīs krājumu piegādi, kā tas ir redzams tālāk esošajā tabulā. Kad viņa izveido pirkšanas pasūtījumu, viņa pārraksta atbilstības ierobežojumus **peles** to trīsvirzienu atbilstībai divvirzienu atbilstības vietā.
 
     | Krājuma kods           | Daudzums | Vienības cena | Neto summa | Atbilstības ierobežojumi (noklusējuma vērtība) | Atbilstības ierobežojumi (pirkšanas pasūtījuma rindā) |
     |-----------------------|----------|------------|------------|---------------------------------|----------------------------------------------|
@@ -135,7 +134,7 @@ Pievērsiet uzmanību tālāk norādītajiem krājumiem.
 -   Krājuma MM01 — bezvadu pele rindas kolonnā Salīdzināmais produktu ieejas plūsmas daudzums ir redzama brīdinājuma ikona, jo nav noteikta rēķina rindas atbilstība produkta ieejas plūsmas dokumentam. Kolonnā Vienības cenas atbilstība ir redzama brīdinājuma ikona, jo ir pārsniegta vienības neto cenas pielaide 2%.
 -   Krājuma USB disks rindas kolonna Salīdzināmais produktu ieejas plūsmas daudzums ir tukša, jo divvirzienu atbilstība nenodrošina rēķina rindā un produkta ieejas plūsmas dokumenta rindā norādīto daudzumu atbilstības noteikšanu.
 
-Ja ir nepieciešamas apstiprināt tādu rēķinu grāmatošanu, kuriem pastāv rēķinu salīdzināšanas neatbilstības, lai varētu grāmatot rēķinu ar cenu salīdzināšanas kļūdām un daudzumu salīdzināšanas kļūdām, vispirms ir jāatlasa slēdzis stiprināt grāmatojumu ar salīdzināšanas neatbilstību lapā Rēķinu salīdzināšanas detalizēta informācija. Ja apstiprinājums nav nepieciešams, var turpināt rēķina apstrādi, ja nav radušas citas grāmatošanas kļūdas.
+Ja nepieciešams apstiprinājums rēķinu grāmatošanai ar rēķinu salīdzināšanas neatbilstībām, **·** **pirms** rēķinu grāmatošanas ar cenu salīdzināšanas kļūdām un daudzuma salīdzināšanas kļūdām ir jāatlasa apstiprināt ar salīdzināšanas neatbilstībām. Ja apstiprinājums nav nepieciešams, var turpināt rēķina apstrādi, ja nav radušas citas grāmatošanas kļūdas.
 
 
 Papildinformāciju skatiet sadaļā [Kreditoru rēķinu salīdzināšanas pārskats](accounts-payable-invoice-matching.md).

@@ -2,11 +2,9 @@
 title: Neiekļaut preces, kurām ir noteikti preces dzīves cikla stāvokļi
 description: Šajā tēmā skaidrots, kā izslēgt preces, pamatojoties uz to dzīves cikla stāvokli, kad tiek izmantota plānošanas optimizācijas funkcionalitāte.
 author: ChristianRytt
-manager: tfehr
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-11-13
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 02c31aa3862df8dabc2b8c065dc3a94877d237f6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 030bdea7c03dd5eb3347c1d43acd1aeabdf566602872dd8ef5aab6d16b06f503
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992424"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739039"
 ---
 # <a name="exclude-products-that-have-specific-product-lifecycle-states"></a>Neiekļaut preces, kurām ir noteikti preces dzīves cikla stāvokļi
 
@@ -41,3 +39,6 @@ Izlaistās preces un varianti, kuros **Preču dzīves cikla stāvokļa** lauks i
 Lai iegūtu vairāk informācijas par preču dzīves cikliem, skatiet [Preču dzīves cikla pārskats](../../pim/product-lifecycle.md).
 
 Lai iegūtu detalizētu informāciju, kas iekļauj darbības preču dzīves ciklu izmantošanai, lai izslēgtu preces no vispārējās plānošanas un MK līmeņa aprēķiniem, skatiet [Preces dzīves cikla stāvokļa izveidošana, lai izslēgtu preces no vispārējās plānošanas](../../pim/tasks/exclude-products-master-planning.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

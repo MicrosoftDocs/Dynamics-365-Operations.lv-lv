@@ -1,38 +1,34 @@
 ---
-title: Uzskaites sadales un apakšgrāmatas žurnāla ieraksti brīva teksta rēķiniem
+title: Uzskaites sadales un žurnālu ieraksti brīva teksta rēķiniem
 description: Uzskaites sadales tiek izmantotas, lai definētu, kā summa tiek uzskaitīta, piemēram, kā ieņēmumi, nodokļi vai izmaksas tiek uzskaitīti brīva teksta rēķinā. Katrai summai, kas ir jānorāda brīva teksta rēķina reģistrēšanai žurnālā, ir viena vai vairākas uzskaites sadales.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3141
 ms.assetid: fecd17a2-d7b4-4a20-ac81-eb71abbfa9d1
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 515d0a9c35507fad04b776e1f0b6225ac5a162d3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: da1d1b41c4da1fafcf20246022c4020b60152917f5df85f8e003e23aaef9433c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445438"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728941"
 ---
-# <a name="accounting-distributions-and-subledger-journal-entries-for-free-text-invoices"></a>Uzskaites sadales un apakšgrāmatas žurnāla ieraksti brīva teksta rēķiniem
+# <a name="accounting-distributions-and-subledger-entries-for-free-text-invoices"></a>Uzskaites sadales un apakšgrāmatas ieraksti brīva teksta rēķiniem
 
 [!include [banner](../includes/banner.md)]
 
 Uzskaites sadales tiek izmantotas, lai definētu, kā summa tiek uzskaitīta, piemēram, kā ieņēmumi, nodokļi vai izmaksas tiek uzskaitīti brīva teksta rēķinā. Katrai summai, kas ir jānorāda brīva teksta rēķina reģistrēšanai žurnālā, ir viena vai vairākas uzskaites sadales.
 
-<a name="accounting-distributions"></a>Uzskaites sadales
-------------------------
+## <a name="accounting-distributions"></a>Uzskaites sadales
 
 Brīva teksta rēķina lapā varat izmantot tālāk aprakstītās pogas, lai brīva teksta rēķinā skatītu un, iespējams, mainītu katras summas uzskaites sadales.
 
@@ -136,3 +132,6 @@ Pirms grāmatojat brīva teksta rēķinu, varat apskatīt pilnu uzskaites ieraks
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: Preču un preces variantu meklēšana pasūtījuma izveides laikā
 description: Izmantojiet lauku **Krājuma kods**, lai meklētu preces un preču variantus, manuāli izveidojot pārdošanas pasūtījuma vai pirkšanas pasūtījuma rindas. Tas ļauj jums ātri atrast preces variantus, ja jums ir tikai konfigurācijas virkne, vai vienu no pieejamajām preces dimensijām.
-author: cvocph
+author: t-benebo
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 248534
 ms.assetid: 99dd5ce1-0029-4f06-90e7-865e6d46d86e
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0b99f668061f429baf56cddb957049833bd74939
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: 9fea7f82ac7723d4cb83c5c8224251fd6c43a315
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812743"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565704"
 ---
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>Preču un preces variantu meklēšana pasūtījuma izveides laikā
 
@@ -55,16 +55,16 @@ Ievadot '05', kā rezultātu iegūsiet tikai otro preces variantu, jo tam konfig
 
 Ievadot 'skaļr 05', jums netiks parādīti nekādi rezultāti. Tāpēc, ka meklēšana meklē pilnu ievadīto tekstu. Nevar meklēt "skaļr", un pēc tam sašaurināt rezultātus līdz tiem, kas satur '05'.  
 
-Varat ierobežot meklēšanas rezultātu skaitu, izmantojot lauku **Rezultātu skaits** lapā **Pārdošana un mārketings &gt; Iestatījumi &gt; Meklēšana &gt; Meklēšanas parametri**. Iestatot šo lauku uz 0, tiks atgriezti visi meklēšanas rezultāti. Iestatot to, piemēram, uz 10, tiks atgriezti ne vairāk kā 10 meklēšanas rezultāti.
+Varat ierobežot meklēšanas rezultātu skaitu, izmantojot lauku **Rezultātu skaits** lapā **Pārdošana un mārketings &gt; Iestatījumi &gt; Meklēšana &gt; Meklēšanas parametri**. Iestatot šo lauku uz 0, tiks atgriezti visi meklēšanas rezultāti. Iestatot to, piemēram, uz 10, tiks atgriezti ne vairāk kā 10 meklēšanas rezultāti.
 
 ## <a name="configure-the-product-search"></a>Konfigurēt preču meklēšanu
-Pirms varat lietot preču un preču variantu meklēšanas funkciju, sekojiet šiem soļiem, lai konfigurētu preču meklēšanu. [![3 darbības preces meklēšanas konfigurēšanai\_AXAppFall](./media/3-steps-to-configure-product-search_axappfall.png)](./media/3-steps-to-configure-product-search_axappfall.png)
+Pirms varat lietot preču un preču variantu meklēšanas funkciju, sekojiet šiem soļiem, lai konfigurētu preču meklēšanu. [![3 darbības preces meklēšanas konfigurēšanai\_AXAppFall.](./media/3-steps-to-configure-product-search_axappfall.png)](./media/3-steps-to-configure-product-search_axappfall.png)
 
 ### <a name="step-1-include-all-the-relevant-product-and-product-variant-identifiers-and-dimensions-in-the-search-criteria"></a>1. solis: Iekļaut visus attiecīgās preces un preces variantu identifikatorus un dimensijas meklēšanas kritērijos
 
 Preces un preces variantu identifikatoru un dimensiju piemēri, kurus jūs varat meklēt ir **Preces nosaukums, Krājuma kods**, **Parādīt preces numuru, Konfigurācija, Krāsa, Izmērs, Stils, Meklēšanas nosaukums u.c.**.  
 
-Pārejiet uz sadaļu **Pārdošana un mārketings &gt; Iestatījumi &gt; Meklēšana &gt; Meklēšanas kritēriji**. Lapa **Meklēšanas kritēriji** ļauj definēt debitoru, potenciālo klientu un preču meklēšanas kritērijus. Pārliecinieties, ka filtrējat lapu, izmantojot preču meklēšanas kritērijus. To var paveikt, lapas izvēlnē pārslēdzoties uz **Prece**.  
+Pārejiet uz sadaļu **Pārdošana un mārketings &gt; Iestatījumi &gt; Meklēšana &gt; Meklēšanas kritēriji**. Lapa **Meklēšanas kritēriji** ļauj definēt debitoru, potenciālo klientu un preču meklēšanas kritērijus. Pārliecinieties, ka filtrējat lapu, izmantojot preču meklēšanas kritērijus. To var paveikt, lapas izvēlnē pārslēdzoties uz **Prece**.  
 
 Lai meklēšanas kritērijiem pievienotu parādāmo preces numuru, lapas izvēlnē noklikšķiniet uz **Jauns**. Tādējādi režģī **Meklēšanas kritēriji** tiek pievienots jauns ieraksts. Atveriet kolonnas uzmeklēšanu **Lauka nosaukums**, un atlasiet **DisplayProductNumber**. Lai pievienotu preces konfigurāciju meklēšanas kritērijiem, izveidot jaunu ierakstu režģī **Meklēšanas kritēriji**, un atlasiet **configId** kolonnā **Lauka nosaukums**. Tādā pašā veidā, izveidojiet ierakstu ar **Lauka nosaukumu** **InventColorId** krāsu dimensijai, **InventSizeId** izmēra dimensijai un **InventStyleId** stila dimensijai.
 
@@ -78,7 +78,7 @@ Tabulai jābūt aizpildītai, tikai kad tiek modificēti meklēšanas kritēriji
 
 ### <a name="step-3-enable-the-lookup-for-product-search-on-sales-and-purchase-order-lines"></a>3. solis: Iespējot uzmeklēšanu preces meklēšanai pārdošanas un pirkšanas pasūtījuma rindās
 
-Varat iespējot šo funkcionalitāti, pārejot uz sadaļu **Pārdošana un mārketings &gt; Iestatīšana &gt; Meklēšana &gt; Meklēšanas parametri** un cilnē **Vispārīgi** iestatot opcijas **Iespējot uzmeklēšanu meklēšanā** vērtību **Jā**.  
+Varat iespējot šo funkcionalitāti, pārejot uz sadaļu **Pārdošana un mārketings &gt; Iestatīšana &gt; Meklēšana &gt; Meklēšanas parametri** un cilnē **Vispārīgi** iestatot opcijas **Iespējot uzmeklēšanu meklēšanā** vērtību **Jā**.  
 
 Pārdošanas pasūtījuma rindas ierakstam noklusējums ir atvērt lapu **Preču meklēšana**, sākot ierakstīt laukā **Krājuma kods**, un pēc tam nospiediet taustiņu **Tab**. Lapa **Preču meklēšana** maina kontekstu pasūtījuma rindas izveides laikā, un var būt uzskatāma par nevajadzīgu iejaukšanos. Ja vēlaties iegūt meklēšanas rezultātus uzmeklēšanā, un nezaudēt kontekstu pasūtījuma rindas izveides laikā, jūs varat izmantot uzmeklēšanas meklēšanu. Ja meklējat preci vai preces variantu, bet neko neatlasāt uzmeklēšanā, un nospiežat taustiņu **Tab**, tiks parādīta lapa **Preču meklēšana**.
 

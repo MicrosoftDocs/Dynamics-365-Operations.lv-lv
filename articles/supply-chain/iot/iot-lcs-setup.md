@@ -1,27 +1,25 @@
 ---
 title: IoT informācijas pievienojumprogrammas instalēšana LCS
 description: Šajā tēmā ir paskaidrots, kā instalēt IoT informācijas pievienojumprogrammu Microsoft Dynamics Lifecycle Services (LCS).
-author: robinarh
-manager: tfehr
+author: tonyafehr
 ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.custom: ''
 ms.search.region: Global
-ms.author: rhaertle
+ms.author: tfehr
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 87d04c3df22e2d9ef56acb61e26304731a2a17a2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: ebf11b55f1034b9a84dda9ada77c2f1b7f587a58
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206056"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781593"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>IoT informācijas pievienojumprogrammas instalēšana LCS
 
@@ -49,7 +47,7 @@ ms.locfileid: "5206056"
 
 LCS iestatīšana tagad ir pabeigta. Nākamā darbība ir [Scenāriju iestatīšana](iot-scenario-setup.md).
 
-## <a name="uninstall-the-add-in"></a><a id="uninstall-addin"></a>Pievienojumprogrammas atinstalēšana
+## <a name="uninstall-the-add-in"></a><a id="uninstall-addin"></a> Pievienojumprogrammas atinstalēšana
 
 1. Supply Chain Management [scenāriju atspējošana](iot-scenario-setup.md#disable-a-scenario).
 2. LCS dodieties uz savas Supply Chain Management vides informāciju.

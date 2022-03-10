@@ -2,7 +2,7 @@
 title: Līdzekļa lietošanas tiesību mazināšana
 description: Šī tēma apraksta funkcionalitāti, kas reģistrē vērtības samazinājumu un koriģē uzskaites standartu kodifikācijas tēmas 842 (ASC 842) operatīvas nomas līdzekļu novecošanas grafiku.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 816f65cff77339ef8684c0449ed2e5f0762b17a2e22174412d5ea9f2a1a62069
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: b104cec399a368ada64a73688c42476e6fbd9e52
+ms.sourcegitcommit: 304a482dfcc31dcb61849f710ae73432324ddef3
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723827"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "7947344"
 ---
 # <a name="impair-right-of-use-assets"></a>Līdzekļa lietošanas tiesību mazināšana
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Ja līdzekļa lietošanas tiesību uzskaites summa nav atgūstama, iespējams, ir jāpārbauda, vai līdzekļa tiesības ir samazinātas. Ja nosakāt, ka līdzekļa tiesības ir samazinātas, līdzekļu noma var reģistrēt vērtības samazinājumu un atbilstoši koriģēt nolietojuma plānu. Šī tēma apraksta funkcionalitāti, kas reģistrē vērtības samazinājumu un koriģē uzskaites standartu kodifikācijas tēmas 842 (ASC 842) operatīvas nomas nolietojuma plānu. To pašu metodi piemēro arī starptautisko finanšu pārskatu standarta (IFRS 16) nomām.
 
@@ -37,13 +38,18 @@ LLT līdzekļa atlikums tiks amortizēts atlikušajam periodu skaitam neatkarīg
 3. Parādītajā dialoglodziņā **Vērtības samazinājuma summa** ievadiet līdzekļu vērtības samazinājuma summu. Lai samazinātu LLT līdzekli, ievadiet pozitīvu vērtību.
 4. Laukā **Darījuma datums** ievadiet datumu, kad ir jāgrāmato vērtības samazinājuma ieraksts.
 5. Laukā **Atlikušie periodi** ievadiet atlikušo mēnešu skaitu, kam jāveic amortizācija.
-6. Ieslēdziet parametru **Grāmatošana**, ja vēlaties, lai sistēma automātiski grāmatotu vērtības samazinājuma izdevumu žurnāla ierakstu. Ja šis parametrs tiek atstāts izslēgts, sistēma izveido ierakstu, bet to negrāmato. Tad ierakstu varat grāmatot no lapas **Līdzekļu nomas žurnāls**.
-7. Iestatiet opciju **Priekšskatīt pirms grāmatošanas** uz **Jā**, lai skatītu piedāvāto ierakstu pirms tā izveides vai grāmatošanas.
-8. Iestatiet opciju **Aizvērt grāmatu** uz **Jā**, lai aizvērtu nomas grāmatu. Šo darbību nevar atsaukt. Ierakstus nevar grāmatot slēgtām nomām, un slēgtās nomas nevar koriģēt.
-9. Atlasiet **Labi**, lai izveidotu vai grāmatotu vērtības samazinājuma ierakstu.
-10. Lai skatītu līdzekļu ar vērtības samazinājumu nolietojuma grafiku, atveriet attiecībās nomas grāmatas līdzekļu nolietojuma grafiku. Tagad līdzeklim tiks aprēķināts nolietojums pēc lineārā principa, salīdzinot ar mēnešu skaitu, ko ievadījāt laukā **Atlikušie periodi**.
-11. Lai skatītu vērtības samazinājuma izdevumu žurnāla ierakstu, nomas ar vērtības samazinājumu darbību rūtī atlasiet **Līdzekļu nomāšanas žurnāls**. Sistēma izveido žurnāla ierakstu, kas debetē vērtības samazinājuma izdevumu grāmatošanas kontu un kreditē nomas līdzekļu grāmatošanas kontu.
-12. Lai skatītu LLT līdzekļa jauno uzskaites vērtību, nomas grāmatas darbību rūtī atlasiet **Līdzekļu darījumi**.
+6. Iestatiet opciju **Priekšskatījums**, lai skatītu piedāvāto līdzekļu bilanci un finanšu ierakstu pirms to izveides vai grāmatošanas.
+7. Iestatiet opciju **Aizvērt grāmatu** uz **Jā**, lai aizvērtu nomas grāmatu. Šo darbību var atsaukt, izmantojot nomas statusu Atkārtoti **atvērt**. Ierakstus nevar grāmatot slēgtām nomām, un slēgtās nomas nevar koriģēt. 
+8. Atlasiet **Grāmatot,** lai izveidotu vai grāmatotu pasliktināšanās ierakstu.
+
+    > [!NOTE]
+    > Pēc pasliktināšanās darbības grāmatošanas tiek izveidota jauna grāmatas versija.
+
+    > Ja noma ir klasificēta kā operācijas noma, ikmēneša nolietojums pēc pasliktināšanās tiks aprēķināts, izmantojot lineāro nolietojumu.
+
+9. Lai skatītu atsveramu pamatlīdzekļa nolietojuma grafiku, atveriet nomas grāmatas līdzekļu nolietojuma grafiku. Tagad līdzeklim tiks aprēķināts nolietojums pēc lineārā principa, salīdzinot ar mēnešu skaitu, ko ievadījāt laukā **Atlikušie periodi**.
+10. Lai skatītu vērtības samazinājuma izdevumu žurnāla ierakstu, nomas ar vērtības samazinājumu darbību rūtī atlasiet **Līdzekļu nomāšanas žurnāls**. Sistēma izveido žurnāla ierakstu, kas debetē vērtības samazinājuma izdevumu grāmatošanas kontu un kreditē nomas līdzekļu grāmatošanas kontu. 
+11. Lai skatītu LLT līdzekļa jauno uzskaites vērtību, nomas grāmatas darbību rūtī atlasiet **Līdzekļu darījumi**.
 
 ## <a name="example-of-rou-asset-impairment"></a>LLT līdzekļu vērtības samazinājuma piemērs
 
@@ -96,6 +102,7 @@ Tabulās ir parādītas vērtības, kas ir iestatītas cilnēs **Vispārīgi** u
     | Slēgt grāmatu             | Nē       |
 
 6. Ir izveidots un grāmatots vērtības samazinājuma izdevumu žurnāla ieraksts. Lai to skatītu, dodieties uz līdzekļa nomas žurnālu nomas grāmatā. Ievērojiet, ka vērtības samazinājuma summa tika debetēta vērtības samazināšanās izdevumu grāmatošanas kontā, un LLT grāmatošanas konts tika kreditēts.
+
 7. Lai skatītu vērtības samazinājuma tīro ietekmi, dodieties uz saistību un līdzekļu darījumu tabulām. Ievērojiet, ka vērtības samazināšanās izdevumi ir samazinājuši LLT, bet nomas saistības uzskaites summa nav mainījusies.
 
 Vērtības samazinājumam ir viens cits efekts, kas jāņem vērā. Tā kā LLT summa tagad ir daudz mazāka par nomas saistībām, summai jābūt izlietotai citādi nekā pirms tam. Proti, līdzeklis tagad tiek nolietots lineārā veidā visu atlikušo nomas 84 mēnešu laikā, sākot no darījuma datuma.

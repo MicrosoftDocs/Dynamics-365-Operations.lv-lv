@@ -1,12 +1,10 @@
 ---
 title: Pirkšanas pasūtījumu apstiprināšana un ratificēšana
 description: Šajā tēmā ir aprakstīti statusi, kas pirkšanas pasūtījumam tiek piešķirti pēc tam, kad tas ir izveidots, un pirkšanas pasūtījumu izmaiņu pārvaldības iespējošanas sekas.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchOrderInReview, PurchOrderApproved, PurchOrderInDraft, PurchOrderAssignedToMe, VendPurchOrderJournalListPage, PurchTableWorkflowDropDialog, VendPurchOrderJournal
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 93143
 ms.assetid: cd12a944-c52c-4579-a301-7abe1d237c72
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eafce0be07ae21e5bc2db2cf5bb694a9d71a6269
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 7ae625950e62b2bf5ec092ccda414ee306c62d79
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018449"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570541"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Pirkšanas pasūtījumu apstiprināšana un ratificēšana
 
@@ -77,7 +75,7 @@ Kad pasūtījums ir ratificēts, to vairs nevar izdzēst. Taču varat atcelt kop
 
 PP var tikt atcelts, izmantojot galvenes darbību **Atcelt**.
 
-Ja daudzums ir daļēji reģistrēts, saņemts vai iekļauts rēķinā, varat atcelt tikai atlikušo daudzumu, kas nav reģistrēts, saņemts vai iekļauts rēķinā. Pēc tam pasūtījuma daudzums attiecīgi tiek samazināts. Kad rindas daudzums ir atjaunināts, tiek atjaunināts arī rindas statuss. Piemēram, sākotnējais daudzums rindā ir 5, un tiek saņemts 3.  Šādā gadījumā var atcelt tikai divas. Pēc tam rinda tiek atjaunināta uz statusu **Saņemts**.
+Ja daudzums ir daļēji reģistrēts, saņemts vai iekļauts rēķinā, varat atcelt tikai atlikušo daudzumu, kas nav reģistrēts, saņemts vai iekļauts rēķinā. Pēc tam pasūtījuma daudzums attiecīgi tiek samazināts. Kad rindas daudzums ir atjaunināts, tiek atjaunināts arī rindas statuss. Piemēram, sākotnējais daudzums rindā ir 5, un tiek saņemts 3. Šādā gadījumā var atcelt tikai divas. Pēc tam rinda tiek atjaunināta uz statusu **Saņemts**.
 
 Ja pasūtījuma rindai ir pievienots saņemšanas atlikums un tas pārsniedz pasūtījuma rindā norādīto daudzumu, darbība **Atcelt** neatceļ lieko daudzumu. Tā vietā rinda paliek statusā **Atvērts pasūtījums**, jo tai ir atlikušais daudzums. Piemēram, sākotnējais daudzums rindā ir 5, un saņemšanas atlikums ir 7. Ja pasūtījums ir atcelts, tiek atceltas piecas, un divas paliek, kā tas redzams krājumu transakcijās.
 
@@ -85,8 +83,7 @@ Lai atceltu visu daudzumu PP rindā, ir jāatceļ sūtījuma atlikuma daudzums r
 
 Ja PP ir izmaiņu vadībā, jebkādas izmaiņas, piemēram, pasūtījuma atcelšana vai piegādes atlikums, ir jāiesniedz darbplūsmas sistēmā un jāapstiprina pirms procesa pabeigšanas, un krājumu transakcijas var atjaunināt kā atceltas.
 
-<a name="additional-resources"></a>Papildu resursi
---------
+## <a name="additional-resources"></a>Papildu resursi
 
 [Pirkšanas pasūtījumu apskats](purchase-order-overview.md)
 
@@ -98,3 +95,6 @@ Ja PP ir izmaiņu vadībā, jebkādas izmaiņas, piemēram, pasūtījuma atcelš
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

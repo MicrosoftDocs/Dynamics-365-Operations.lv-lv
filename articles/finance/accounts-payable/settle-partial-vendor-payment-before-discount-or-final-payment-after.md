@@ -2,11 +2,9 @@
 title: Daļēja maksājuma segšana pirms atlaižu piemērošanas datuma un gala maksājumu pēc atlaižu piemērošanas datuma
 description: Šajā rakstā ir izklāstīts scenārijs, kur tiek veikti vairāki daļēji maksājumi, daži no tiem — termiņatlaides periodā, un citi — ārpus termiņatlaides perioda.
 author: abruer
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e125ca5fbebcf062eb17f56a2ef6669d1b6d6ae3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 693339929bbdbc960afc2a5e63b3a3864bfd3ca19cd2dbc992de776836b17e50
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227332"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737141"
 ---
 # <a name="settle-partial-payment-before-discount-date-and-final-payment-after-discount-date"></a>Daļēja maksājuma segšana pirms atlaižu piemērošanas datuma un gala maksājumu pēc atlaižu piemērošanas datuma
 
@@ -30,7 +28,7 @@ ms.locfileid: "5227332"
 
 Šajā rakstā ir izklāstīts scenārijs, kur tiek veikti vairāki daļēji maksājumi, daži no tiem — termiņatlaides periodā, un citi — ārpus termiņatlaides perioda.
 
-Fabrikam iegādājas preces no kreditora 3057. Fabrikam saņem 1 procenta termiņatlaidi, ja rēķins tiek apmaksāts 14 dienu laikā. Rēķini ir jāapmaksā 30 dienu laikā. Turklāt kreditors Fabrikam termiņatlaides ļauj saņemt arī par daļējiem maksājumiem. Nosegšanas parametri atrodas lapā **Kreditoru moduļa parametri**.
+Fabrikam iegādājas preces no kreditora 3057. Fabrikam saņem 1 procenta termiņatlaidi, ja rēķins tiek apmaksāts 14 dienu laikā. Rēķini ir jāapmaksā 30 dienu laikā. Turklāt kreditors Fabrikam termiņatlaides ļauj saņemt arī par daļējiem maksājumiem. Nosegšanas parametri atrodas lapā **Kreditoru moduļa parametri**.
 
 ## <a name="invoice-on-june-25"></a>Rēķins 25. jūnijā
 25. jūnijā Eiprila ievada un grāmato rēķinu par summu 1000,00 kreditoram 3057. Eiprila var skatīt šo transakciju lapā **Debitoru transakcijas**.
@@ -46,11 +44,11 @@ Fabrikam iegādājas preces no kreditora 3057. Fabrikam saņem 1 procenta termi
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
 | Atlasīts | Parastais            | Inv-10020 | 3057    | 25.06.2015 | 25.07.2015 | 10020   | –1000,00                      | USD      | -297,00          |
 
-Atlaides informācija ir redzama lapas **Nosegt atvērtās transakcijas** apakšdaļā.
+Atlaides informācija parādās lapas **Nosegt atvērtās darbības** apakšdaļā.
 
-|                              |           |
+| Lauks                        | Vērtība     |
 |------------------------------|-----------|
-| Termiņatlaides datums           | 09.07.2015 |
+| Termiņatlaides datums           | 09.07.2015. |
 | Termiņatlaides summa         | -10,00    |
 | Izmantot termiņatlaidi            | Parastais    |
 | Paņemta termiņatlaides summa          | 0,00      |
@@ -73,10 +71,10 @@ Atlikušo rēķinu Eiprila apmaksā 15. jūlijā, kas ir pēc termiņatlaides pe
 
 Atlaides informācija ir redzama lapas **Nosegt transakcijas** apakšdaļā. Eiprila var redzēt, ka viņa ir jau saņēmusi 3,00 atlaidi.
 
-|                              |           |
+| Lauks                        | Vērtība     |
 |------------------------------|-----------|
-| Termiņatlaides datums           | 09.07.2015 |
-| Termiņatlaides summa         | 0,00      |
+| Termiņatlaides datums           | 09.07.2015. |
+| Termiņatlaides summa         | 0.00      |
 | Izmantot termiņatlaidi            | Parastais    |
 | Paņemta termiņatlaides summa          | -3,00     |
 | Ņemamā termiņatlaides summa | 0,00      |
@@ -99,10 +97,10 @@ Ja kreditors Eiprilai ļauj saņemt atlaidi, lai gan viņa maksā pēc atlaides 
 
 Atlaides informācija ir redzama lapas **Nosegt transakcijas** apakšdaļā.
 
-|                              |           |
+| Lauks                        | Vērtība     |
 |------------------------------|-----------|
-| Termiņatlaides datums           | 09.07.2015 |
-| Termiņatlaides summa         | 7,00      |
+| Termiņatlaides datums           | 09.07.2015. |
+| Termiņatlaides summa         | 7.00      |
 | Izmantot termiņatlaidi            | Vienmēr    |
 | Paņemta termiņatlaides summa          | -3,00     |
 | Ņemamā termiņatlaides summa | -7,00     |

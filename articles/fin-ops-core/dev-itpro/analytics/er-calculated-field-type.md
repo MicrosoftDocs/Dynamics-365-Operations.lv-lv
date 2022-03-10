@@ -2,7 +2,6 @@
 title: Atbalsta Aprēķināto lauka tipa ER datu avotu parametru izsaukumus.
 description: Šī tēma sniedz informāciju par to, kā izmantot Aprēķināto lauka tipu ER datu avotiem.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1c2c13cd3f165826e0d5b5ac901ffa61895301e7
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: fb09e1ccd4b2be08e43784330adf4092ca25f5a6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569205"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349164"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Atbalsta Aprēķināto lauka tipa ER datu avotu parametru izsaukumus.
 
@@ -87,7 +86,7 @@ Nepieciešams arī lejupielādēt un lokāli saglabāt tālāk norādītos failu
 
     Modeļa kartēšana šajā konfigurācijā implementē pamatdatu modeli jebkuram no šajā modelī izveidotajiem ER formātiem un ir izpildīts Finance and Operations. Tādējādi **Nodokļu** un **Gr** datu avotu saturs ir pakļauts ER formātiem, piemēram, abstraktiem datu avotiem.
 
-    ![Modeļa kartēšanas veidotāja lapa, kurā parādīti Tax un Gr datu avoti](media/er-calculated-field-type-01.png)
+    ![Modeļa kartēšanas veidotāja lapa, kurā parādīti Tax un Gr datu avoti.](media/er-calculated-field-type-01.png)
 
 5.  Aizveriet lapu **Modeļa kartējuma noformētājs**.
 6.  Aizveriet lapu **Modeļa kartēšana**.
@@ -102,9 +101,9 @@ Nepieciešams arī lejupielādēt un lokāli saglabāt tālāk norādītos failu
     - Parādīt sekojošos nodokļu līmeņus nodokļu pārskatā: parasts, samazināts un nav.
     - Parādīt vairākas detaļas katrā nodokļu līmenī, kam katrā līmenī ir dažāds šo detaļu skaits.
 
-    ![Formāta veidotāja lapa](media/er-calculated-field-type-02.png)
+    ![Formāta veidotāja lapa.](media/er-calculated-field-type-02.png)
 
-4. Atlasīt **Kartēšana**.
+4. Atlasiet **Kartēšana**.
 5. Izvērst **modeli**, **datus** un **kopsavilkuma** elementus. 
 
     Aprēķinātā lauka **Model.Data.Summary.Level** ir izteiksme, kas atgriež nodokļu līmeņa kodu (**Parasts**, **Samazināts**, **Nav** vai **cits**) kā teksta vērtība jebkuram nodokļa kodam, ko var izgūt no **Model.Data.Summary** datu avota izpildes laikā.
@@ -156,7 +155,7 @@ Varat uzlabot norādīto formātu, pievienojot vienu aprēķināto lauku, lai fi
 
     Maksimālais parametru skaits, ko var norādīt vienam aprēķinātajam laukam, ir 8.
 
-    ![Parametru datu avota saraksts](media/er-calculated-field-type-05.png)
+    ![Parametru datu avota saraksts.](media/er-calculated-field-type-05.png)
 
 5. Atlasiet **Labi**.
 
@@ -166,7 +165,7 @@ Pievienojot šo parametru, jūs norādiet nosacījumu, kam jābūt, lai izsauktu
 
    Konfigurētais parametrs ir pieejams datu avotu sarakstā šim aprēķinātajam laukam. Varat pievienot parametru konfigurētajai izteiksmei, atlasot **Pievienot datu avotu**.
 
-   ![Datu avota lauki](media/er-calculated-field-type-06.png)
+   ![Datu avota lauki.](media/er-calculated-field-type-06.png)
 
 ### <a name="define-an-expression-for-adding-a-calculated-field"></a>Definēt aprēķinātā lauka pievienošanas izteiksmi
 
@@ -182,7 +181,7 @@ Pievienojot šo parametru, jūs norādiet nosacījumu, kam jābūt, lai izsauktu
 
 5. Atlasiet **Saglabāt**.
 
-    ![Datu avota lauka informācija](media/er-calculated-field-type-07.png)
+    ![Datu avota lauka informācija.](media/er-calculated-field-type-07.png)
 
 6. Aizveriet lapu **Formāta veidotājs**.
 
@@ -192,7 +191,7 @@ Pievienojot šo parametru, jūs norādiet nosacījumu, kam jābūt, lai izsauktu
 
 Lapā **Formāta veidotājs** konfigurētajam parametru aprēķinātajam laukam **Līmeņi** nepieciešams **Virknes** arguments.
 
-![Izvērsts aprēķināto lauku līmeņu saraksts](media/er-calculated-field-type-08.png)
+![Izvērsts aprēķināto lauku līmeņu saraksts.](media/er-calculated-field-type-08.png)
 
 ### <a name="use-the-configured-calculated-field-for-binding-format-elements"></a>Izmantojiet konfigurēto aprēķināto lauku saistījuma formāta elementiem
 
@@ -221,7 +220,7 @@ Jebkura parametra aprēķinātā lauka atkārtotie izsaukumi netiek atbalstīti.
 
 Varat atlasīt **Rediģēt formulu** un mainīt noklusējuma argumenta aprēķināto parametru, kas lietots atlasītajā saistījumā. Ja šī argumenta nav, tas var radīt kļūdas izpildes laikā — lietotāji tiek informēti par šādu situāciju, kad pašreizējais formāts ir apstiprināts.
 
-![Apstiprinājuma brīdinājuma paziņojums](media/er-calculated-field-type-10.png)
+![Apstiprinājuma brīdinājuma paziņojums.](media/er-calculated-field-type-10.png)
 
 ## <a name="configure-a-parameterized-calculated-field-to-return-a-record"></a>Konfigurēt parametru aprēķināto lauku, lai atgrieztu ierakstu.
 Kad aprēķinātais parametru lauks atgriež ierakstu, jums ir jāatbalsta atsevišķu šī ieraksta lauku saistījums, lai formatētu elementus. Šādos gadījumos nebūs pamata saistījuma, kas ietver argumenta vērtību, lai izsauktu aprēķināto parametru lauku — šī vērtība ir jādefinē viena ieraksta lauka saistījumā.
@@ -273,7 +272,7 @@ Kad aprēķinātais parametru lauks atgriež ierakstu, jums ir jāatbalsta atsev
 8. Atlasiet **Rediģēt formulu**.
 9. Mainiet izteiksmi uz **Model.Data2.LevelRecord("None").aggregated.Base**.
 
-![Atjauninātā izteiksme](media/er-calculated-field-type-11.png)
+![Atjauninātā izteiksme.](media/er-calculated-field-type-11.png)
 
 ## <a name="remove-calculated-fields-that-are-not-used"></a>Noņemt aprēķinātos laukus, kas netiek lietoti
 

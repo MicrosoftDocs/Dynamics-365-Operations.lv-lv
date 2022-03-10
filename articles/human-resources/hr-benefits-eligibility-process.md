@@ -1,56 +1,59 @@
 ---
 title: Atvieglojumu piemērojamības apstrāde
 description: Šīs procedūras aprakstā ir paskaidrots, kā darbojas atvieglojumu piemērojamības noteikšanas process.
-author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicySourceDocumentRuleType, SysPolicyListPage, SysPolicy, HcmBenefitEligibilityPolicy, HcmBenefit, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: d23dcf4a16979b14ddf58b54e812f21e6698dfc7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 16a866cb35aacb3b6bece0d6adde6bb5978bd4fc
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419465"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066022"
 ---
 # <a name="benefit-eligibility-process"></a>Atvieglojumu piemērojamības apstrāde
 
-Šīs procedūras aprakstā ir paskaidrots, kā darbojas atvieglojumu piemērojamības noteikšanas process. Kad process ir pabeigts, varat skatīt rezultātus. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 
-1. Pārejiet uz sadaļu Personāla vadība > Atvieglojumi > Atvieglojumi.
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Šīs procedūras aprakstā ir paskaidrots, kā darbojas atvieglojumu piemērojamības noteikšanas process. Kad process ir pabeigts, varat skatīt rezultātus. USMF ir paraugdatu uzņēmums, kas tiek izmantots šīs procedūras izveidei.
+
+1. Dodieties uz **Cilvēkresursu \> ieguvumu \> priekšrocības**.
 2. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-3. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-4. Noklikšķiniet uz Rediģēt.
-5. Laukā Piemērojamība atlasiet vienumu Atbilstoši nosacījumiem.
-6. Laukā Nosacījuma tips atlasiet atvieglojumu ierobežojuma nosacījumu, kuru vēlaties lietot atvieglojumam.
-7. Darbību rūtī noklikšķiniet uz Atvieglojums.
-8. Noklikšķiniet uz Izveidot piemērojamības notikumu, lai atvērtu nolaižamo dialoglodziņu.
-9. Laukā Noteikums ierakstiet vērtību.
-10. Laukā Apraksts ierakstiet kādu vērtību.
-11. Laukā Notikuma veids atlasiet Atvērt reģistrāciju.
-12. Laukā Vajadzības sākuma datums ievadiet datumu un laiku.
-13. Laukā Reģistrācijas perioda sākuma datums ievadiet datumu un laiku.
-14. Laukā Reģistrācijas dienas ievadiet skaitli.
-15. Noklikšķiniet uz Izveidot notikumu.
-16. Kopsavilkuma cilnē Darbinieki noklikšķiniet uz Pievienot.
-17. Laukā Parādīt pēc tipa atlasiet Darbinieki.
-18. Laukā Parādīt pa juridiskajām personām atlasiet Pašreizējā juridiskā persona.
+3. Sarakstā atlasiet saiti atlasītajā rindā.
+4. Atlasiet **Rediģēt**.
+5. Iekš **Atbilstība** laukā atlasiet **Pamatojoties uz noteikumiem**.
+6. Iekš **Noteikumu veids** laukā atlasiet pabalstu politikas noteikumu, ko piemērot pabalstam.
+7. Darbību rūtī atlasiet **Ieguvums**.
+8. Izvēlieties **Izveidojiet atbilstības notikumu**.
+9. Nolaižamajā dialoglodziņā sadaļā **Pasākums** laukā ievadiet vērtību.
+10. Laukā **Apraksts** ievadiet kādu vērtību.
+11. Iekš **Pasākuma veids** laukā atlasiet **Atvērt pieteikšanos**.
+12. Iekš **Pārklājuma sākuma datums** laukā ievadiet datumu un laiku.
+13. Iekš **Reģistrācijas perioda sākuma datums** laukā ievadiet datumu un laiku.
+14. Iekš **Dienas, lai reģistrētos** laukā ievadiet numuru.
+15. Izvēlieties **Izveidot notikumu**.
+16. Uz **Strādnieki** FastTab, atlasiet **Pievienot**.
+17. Iekš **Rādīt pēc veida** laukā atlasiet **Darbinieki**.
+18. Iekš **Rādīt pēc juridiskās personas** laukā atlasiet **Pašreizējā juridiskā persona**.
 19. Sarakstā atzīmējiet visas rindas vai noņemiet tām atzīmi.
-20. Noklikšķiniet uz OK.
-21. Noklikšķiniet uz Apstrādāt.
-22. Noklikšķiniet uz OK.
+20. Atlasiet **Labi**.
+21. Izvēlieties **Process**.
+22. Atlasiet **Labi**.
 23. Atsvaidziniet lapu.
-24. Noklikšķiniet uz Rādīt rezultātus.
-25. Atveriet kolonnas filtru Statuss.
-26. Kārtot no A uz Z
+24. Izvēlieties **Rādīt rezultātus**.
+25. Atveriet **Statuss** kolonnu filtrs.
+26. Kārtojiet kolonnu no A līdz Z.
 
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

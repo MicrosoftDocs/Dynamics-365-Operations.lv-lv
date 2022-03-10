@@ -1,12 +1,10 @@
 ---
-title: Konfigurēt programmas lauku nosaukumus programmā Noliktava
-description: Šajā tēmā ir aprakstīts, kā definēt un konfigurēt noliktavu programmas lauku nosaukumus un prioritātes programmatūrā Dynamics 365 Supply Chain Management.
-author: MarkusFogelberg
-manager: tfehr
+title: Warehouse Management mobile programmas lauku konfigurēšana
+description: Šajā tēmā ir aprakstīts, kā definēt un konfigurēt Warehouse Management mobile programmā atainotos lauku nosaukumus un prioritātes.
+author: Mirzaab
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileAppField, WHSMobileAppFieldPriority
 audience: Application User
@@ -15,24 +13,24 @@ ms.custom: 269434
 ms.assetid: 6cf3d7da-29bb-4d3d-aaf5-544ca9cc2980
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ac31b3d2b3b1d9ca51919fe75e06f0de1cda0c63
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 8c9c1d921f68538d5b84db16b1e88e28147e6b41
+ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963439"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902300"
 ---
-# <a name="configure-app-field-names-in-the-warehouse-app"></a>Konfigurēt programmas lauku nosaukumus programmā Noliktava
+# <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>Warehouse Management mobile programmas lauku konfigurēšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā definēt un konfigurēt noliktavu programmas lauku nosaukumus un prioritātes programmatūrā Dynamics 365 Supply Chain Management. 
+Šajā tēmā ir aprakstīts, kā definēt un konfigurēt Warehouse Management mobile programmā atainotos lauku nosaukumus un prioritātes.
 
 > [!NOTE]
-> Šī tēma attiecas uz moduļa Noliktavas vadība līdzekļiem. Tā neattiecas uz moduļa Krājumu vadība līdzekļiem. Noliktava ir lietojumprogramma, ko varat izmantot noliktavas uzdevumu veikšanai. Varat definēt un konfigurēt programmā lietoto lauku nosaukumus, kā arī konfigurēt prioritāti, kādai šie lauku nosaukumi ir jāpiešķir. Šajā tēmā ir paskaidrots, kā definēt un konfigurēt šos noliktavu programmas lauku nosaukumus un prioritātes un kā tie tiek izmantoti programmā Noliktava. Detalizētu informāciju par to, kā konfigurēt savienojumu ar programmu Noliktava, skatiet apmācībā [Noliktavas programmas instalēšanas un konfigurēšanas pārskats](install-configure-warehousing-app.md).
+> Šī tēma attiecas uz Warehouse Management līdzekļiem. Tā neattiecas uz moduļa Krājumu vadība līdzekļiem. Warehouse Management mobile lietojumprogramma ir programma, ko varat izmantot noliktavas uzdevumu veikšanai. Varat definēt un konfigurēt programmā lietoto lauku nosaukumus, kā arī konfigurēt prioritāti, kādai šie lauku nosaukumi ir jāpiešķir. Šajā tēmā ir paskaidrots, kā definēt un konfigurēt šos Warehouse Management mobile programmas lauku nosaukumus un prioritātes un kā tie tiek izmantoti.
 
 ## <a name="configure-warehouse-app-field-names"></a>Konfigurēt noliktavas programmas lauku nosaukumus
 
@@ -139,7 +137,9 @@ Pamatojoties uz iepriekšējā tabulā iestatīto noliktavas programmas lauku pr
 
 Atlikušie metadati, piemēram, Novietojums, netiks rādīti uzdevumu lapā, bet tiks rādīti informācijas lapā. Papildinformāciju un lietotāja interfeisa piemērus skatiet emuāra ziņā [Paziņojums par Finance and Operations — Noliktava](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
 
-<a name="additional-resources"></a>Papildu resursi
---------
+## <a name="additional-resources"></a>Papildu resursi
 
-[Instalēt un konfigurēt noliktavas programmas pārskatu](install-configure-warehousing-app.md)
+[Noliktavas pārvaldības mobilās programmas instalēšana un savienošana](../warehousing/install-configure-warehouse-management-app.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,90 +11,90 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3abe82bb888b7501b00af44b48bfb40fbe8e2ee3
-ms.sourcegitcommit: 6ef4906621fbb4e3afaf2b0d6697536288365bb1
-ms.translationtype: HT
+ms.openlocfilehash: 4f53171361b655ab4ae05894d098203df0af8d60
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/30/2021
-ms.locfileid: "7868641"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920777"
 ---
 # <a name="demand-forecasting-setup"></a>Pieprasījuma prognozēšanas iestatīšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā aprakstīts, kā iestatīt pieprasījuma prognozēšanu.  
+Šajā tēmā ir aprakstīts, kā iestatīt pieprasījuma prognozēšanu.  
 
 ## <a name="item-allocation-keys"></a>Krājumu sadalījuma principi
 
-Krājumu sadalījuma principi izveido krājumu grupas. Pieprasījuma apjoma prognoze tiek aprēķināta krājumam un tā dimensijām tikai tad, ja uz krājumu attiecas krājumu sadalījuma princips. Šī kārtula tiek ieviesta, lai grupētu lielu skaitu krājumu, lai pieprasījuma prognozes varētu izveidot ātrāk. Prognozes tiek veidotas, pamatojoties tikai uz vēsturiskajiem datiem.
+Krājumu sadalījuma principi izveido krājumu grupas. Pieprasījuma apjoma prognoze tiek aprēķināta krājumam un tā dimensijām tikai tad, ja uz krājumu attiecas krājumu sadalījuma princips. Šis noteikums tiek ieviests liela krājumu skaita grupēšanai, lai pieprasījuma apjoma prognozes varētu izveidot ātrāk. Prognozes tiek veidotas, pamatojoties tikai uz vēsturiskajiem datiem.
 
 Krājumam un tā dimensijām jābūt iekļautiem tikai vienā krājumu sadalījuma principā, ja krājumu sadalījuma princips tiek izmantots prognozes sagatavošanas laikā.
 
-Lai izveidotu krājumu sadalījuma principus un tiem pievienotu noliktavas vienību (NOLIKTAVAS VIENĪBU), rīkojieties šādi.
+Lai izveidotu krājumu sadalījuma principus un pievienotu tiem noliktavas vienību (NV), veiciet šos soļus.
 
 1. Dodieties uz **Vispārējā plānošana \> Iestatījumi \> Pieprasījuma prognozēšana \> Krājumu sadalījuma principi**.
-1. Vai nu atlasiet krājumu sadalījuma principu saraksta rūtī vai darbību rūtī atlasiet **Jauns,** lai izveidotu jaunu. Jaunās vai atlasītās atslēgas galvenē iestatiet šādus laukus:
+1. Atlasiet krājumu sadalījuma principu saraksta rūtī vai atlasiet Jauns **darbību** rūtī, lai izveidotu jaunu. Jaunā vai atlasītās atslēgas virsrakstā iestatiet šādus laukus:
 
-    - **Krājumu sadalījuma princips** – ievadiet unikālu atslēgas nosaukumu.
-    - **Nosaukums** – ievadiet aprakstošu atslēgas nosaukumu.
+    - **Krājumu sadalījuma** princips – ievadiet unikālu atslēgas nosaukumu.
+    - **Nosaukums** – ievadiet atslēgas aprakstošo nosaukumu.
 
-1. Veiciet kādu no šīm darbībām, lai atlasītajam vienumu sadalījuma principam pievienotu vienumus vai noņemtu vienumus:
+1. Lai pievienotu krājumus atlasītajam krājumu sadalījuma principam vai noņemtu krājumus, veiciet vienu no tālāk minētajām darbībām:
 
-    - Kopsavilkuma **cilnē Krājumu piešķiršana** izmantojiet **rīkjoslas pogas Jauns un** **Dzēst, lai pēc vajadzības pievienotu vai** noņemtu vienumus. Katrai rindai atlasiet krājuma kodu un pēc tam piešķiriet dimensiju vērtības citās kolonnās pēc vajadzības. Rīkjoslā atlasiet **Rādīt** dimensijas, lai mainītu režģī parādīto dimensiju kolonnu kopu. (Vērtība **Ģenerējot pieprasījuma prognozes, kolonna Procenti** tiek ignorēta.)
-    - Ja atslēgai vēlaties pievienot lielu vienumu skaitu, darbību rūtī atlasiet **Piešķirt** vienumus, lai atvērtu lapu, kurā atlasītajai atslēgai var atrast un piešķirt vairākus vienumus.
+    - Kopsavilkuma cilnē Krājumu sadalījums izmantojiet rīkjoslas pogas Jauns un Dzēst, lai **pievienotu** vai **noņemtu** **krājumus** pēc vajadzības. Katrai rindai atlasiet krājuma kodu un pēc tam pēc tam piešķiriet dimensiju vērtības citās kolonnās pēc izvēles. Lai **mainītu** režģī rādīto dimensiju kolonnu kopu, rīkjoslā atlasiet Rādīt dimensijas. (Vērtība laukā **Ģenerējot** pieprasījuma apjoma prognozes, procentu kolonna tiek ignorēta.)
+    - Ja vēlaties atslēgai pievienot lielu skaitu krājumu, darbību rūtī atlasiet Piešķirt krājumus, lai atvērtu lapu, kurā atlasītajai atslēgai varat atrast **un** piešķirt vairākus krājumus.
 
 > [!IMPORTANT]
-> Uzmanieties, lai katrā krājumu sadalījuma atslēgā iekļautu tikai atbilstošos krājumus. Nevajadzīgie krājumi var izraisīt izmaksu palielināšanos, ja izmantojat Microsoft Azure algoritmisko mācīšanos.
+> Esiet uzmanīgi, lai iekļautu tikai atbilstošus krājumus katrā krājumu sadalījuma atslēgā. Nevajadzīgie krājumi var izraisīt izmaksu palielināšanos, ja izmantojat Microsoft Azure algoritmisko mācīšanos.
 
 ## <a name="intercompany-planning-groups"></a>Starpuzņēmumu plānošanas grupas
 
-Pieprasījuma prognozēšana var ģenerēt starpuzņēmumu prognozes. Dynamics 365 Supply Chain Management Programmā uzņēmumi, kas tiek plānoti kopā, tiek grupēti vienā starpuzņēmumu plānošanas grupā. Lai norādītu katram uzņēmumam, kuri krājumu sadalījuma principi jāņem vērā pieprasījuma prognozēšanai, saistiet krājumu sadalījuma principu ar starpuzņēmumu plānošanas grupas dalībnieku.
+Pieprasījuma apjoma prognozēšana var ģenerēt starpuzņēmumu prognozes. Uzņēmumi, Dynamics 365 Supply Chain Management kas plānoti kopā, tiek grupēti vienā starpuzņēmumu plānošanas grupā. Lai norādītu, uz uzņēmumu, kuri krājumu sadalījuma principi ir jāņem vērā pieprasījuma prognozēšanai, saistiet krājumu sadalījuma principu ar starpuzņēmumu plānošanas grupas dalībnieku.
 
 > [!IMPORTANT]
-> Optimizācijas plānošana pašlaik neatbalsta starpuzņēmumu plānošanas grupas. Lai veiktu starpuzņēmumu plānošanu, kas izmanto plānošanas optimizāciju, iestatiet vispārējās plānošanas pakešuzdevumus, kas ietver vispārējos plānus visiem atbilstošajiem uzņēmumiem.
+> Optimizācijas plānošana pašlaik neatbalsta starpuzņēmumu plānošanas grupas. Lai izdarītu starpuzņēmumu plānošanu, kas izmanto optimizācijas plānošanu, iestatiet vispārējās plānošanas pakešuzdevumus, kas ietver vispārējos plānus visiem atbilstošajiem uzņēmumiem.
 
-Lai iestatītu starpuzņēmumu plānošanas grupas, rīkojieties šādi.
+Lai iestatītu starpuzņēmumu plānošanas grupas, veiciet šādus soļus.
 
-1. Dodieties uz **Vispārējās plānošanas \> uzstādīšanas \> starpuzņēmumu plānošanas grupas**.
-1. Atlasiet plānošanas grupu saraksta rūtī vai darbību rūtī atlasiet **Jauns,** lai izveidotu jaunu. Jaunās vai atlasītās grupas virsrakstā iestatiet šādus laukus:
+1. Dodieties **uz vispārējās plānošanas iestatījumu starpuzņēmumu plānošanas \>\>** grupām.
+1. Atlasiet plānošanas grupu saraksta rūtī vai atlasiet Jauns **darbību** rūtī, lai izveidotu jaunu. Jaunās vai atlasītās grupas virsrakstā iestatiet šādus laukus:
 
-    - **Nosaukums** – ievadiet unikālu plānošanas grupas nosaukumu.
+    - **Nosaukums** – ievadiet plānošanas grupas unikālu nosaukumu.
     - **Apraksts** – ievadiet īsu plānošanas grupas aprakstu.
 
-1. Kopsavilkuma **cilnē Starpuzņēmumu plānošanas grupas dalībnieki** izmantojiet rīkjoslas pogas, lai pievienotu rindu katram uzņēmumam (juridiskai personai), kam jābūt daļai no grupas. Katrā rindā iestatiet tālāk norādītos laukus:
+1. Kopsavilkuma cilnē Starpuzņēmumu plānošanas grupas dalībnieki izmantojiet rīkjoslas pogas, lai pievienotu rindu katram **uzņēmumam** (juridiskajai personai), kam vajadzētu būt grupas daļai. Katrā rindā iestatiet tālāk norādītos laukus:
 
-    - **Juridiska persona** – atlasiet tā uzņēmuma (juridiskās personas) nosaukumu, kas ir atlasītās grupas dalībnieks.
-    - **Plānošanas secība** – piešķiriet pasūtījumu, kurā uzņēmums jāapstrādā attiecībā pret citiem uzņēmumiem. Vispirms tiek apstrādātas zemas vērtības. Šis pasūtījums var būt svarīgs, ja pieprasījums pēc viena uzņēmuma ietekmē citus uzņēmumus. Šādos gadījumos uzņēmums, kas piegādā pieprasījumu, ir jāapstrādā pēdējais.
-    - **Vispārējais plāns** – atlasiet vispārējo plānu, ko aktivizēt pašreizējam uzņēmumam.
-    - **Automātiska kopēšana statiskā plānā** — atzīmējiet šo izvēles rūtiņu, lai plāna rezultātu kopētu statiskajā plānā.
-    - **Automātiska kopēšana dinamiskajā plānā** — atzīmējiet šo izvēles rūtiņu, lai kopētu plāna rezultātu dinamiskajā plānā.
+    - **Juridiska** persona – atlasiet nosaukumu uzņēmumam (juridiskajai personai), kas ir atlasītās grupas dalībnieks.
+    - **Plānošanas secība** – piešķiriet pasūtījumu, kādā uzņēmums jāapstrādā saistībā ar citiem uzņēmumiem. Vispirms tiek apstrādātas mazvērtības. Šis pasūtījums var būt svarīgs, kad viena uzņēmuma pieprasījums ietekmē citus uzņēmumus. Šādos gadījumos pēdējais ir jāapstrādā uzņēmums, kas nodrošina pieprasījumu.
+    - **vispārējais** plāns – atlasiet vispārējo plānu, kas jāaktivizē pašreizējam uzņēmumam;
+    - **Automātiska statiskā plāna kopēšana** – atzīmējiet šo izvēles rūtiņu, lai kopētu plāna rezultātu uz statisko plānu.
+    - **Automātiska dinamiskā plāna kopēšana** — atzīmējiet šo izvēles rūtiņu, lai kopētu plāna rezultātus uz dinamisko plānu.
 
-1. Ja starpuzņēmumu plānošanas grupas dalībniekiem nav piešķirts neviens krājumu sadalījuma princips, pēc noklusējuma pieprasījuma apjoma prognoze tiek aprēķināta visiem krājumiem, kas ir piešķirti visiem krājumu sadalījuma principiem visiem uzņēmumiem. Papildu filtrēšanas opcijas uzņēmumiem un krājumu sadalījuma atslēgām ir pieejamas **dialoglodziņā Statistiskās bāzlīnijas prognozes ģenerēšana** ( Vispārējā plānošana **\> Prognozēšana Pieprasījuma \> prognozēšana Ģenerēt statistisko \> bāzlīniju prognozi**). Lai piešķirtu krājumu sadalījuma principus uzņēmumam atlasītajā starpuzņēmumu plānošanas grupā, atlasiet uzņēmumu un pēc tam **kopsavilkuma cilnē Starpuzņēmumu plānošanas grupas dalībnieki** rīkjoslā atlasiet Krājumu sadalījuma **atslēgas**.
+1. Ja starpuzņēmumu plānošanas grupas dalībniekiem nav piešķirts neviens krājumu sadalījuma princips, pēc noklusējuma pieprasījuma apjoma prognoze tiek aprēķināta visiem krājumiem, kas ir piešķirti visiem krājumu sadalījuma principiem visiem uzņēmumiem. Papildu filtrēšanas opcijas uzņēmumiem un krājumu sadalījuma atslēgas ir pieejamas dialoglodziņā Statistiskās bāzlīnijas prognozes ģenerēšana (Vispārējās plānošanas pieprasījuma apjoma prognozēšanas ģenerēšana **Ģenerēt** **\>\>\> statistiskās bāzlīnijas prognozi).** Lai piešķirtu krājumu sadalījuma principus uzņēmumam atlasītajā starpuzņēmumu plānošanas grupā, atlasiet uzņēmumu un pēc tam kopsavilkuma cilnē Starpuzņēmumu plānošanas grupas dalībnieki atlasiet Krājumu sadalījuma **principus** **rīkjoslā**.
 
 > [!IMPORTANT]
-> Uzmanieties, lai katrā starpuzņēmumu plānošanas grupā iekļautu tikai atbilstošus krājumu sadalījuma principus. Lietojot Azure mašīnmācīšanos, nevajadzīgi vienumi var palielināt izmaksas.
+> Pārliecinieties, vai katrā starpuzņēmumu plānošanas grupā jāiekļauj tikai atbilstoši krājumu sadalījuma principi. Nevajadzīgi krājumi var radīt palielinātas izmaksas, ja lietojat Azure mašīnas apmācību.
 
 ## <a name="set-up-demand-forecasting-parameters"></a><a name="parameters"></a> Iestatīt pieprasījuma prognozēšanas parametrus
 
-Izmantojiet **lapu Pieprasījuma prognozēšanas** parametri, lai iestatītu vairākas opcijas, kas kontrolē, kā sistēmā darbosies pieprasījuma prognozēšana.
+Izmantojiet lapu **Pieprasījuma prognozēšanas** parametri, lai iestatītu vairākas opcijas, kas kontrolēs to, kā pieprasījuma apjoma prognozēšana darbosies jūsu sistēmā.
 
 ### <a name="open-the-demand-forecasting-parameters-page"></a>Atvērt lapu Pieprasījuma prognozēšanas parametri
 
-Lai iestatītu pieprasījuma prognozēšanas parametrus, dodieties uz **Vispārējās plānošanas uzstādīšanas programmas pieprasījuma \>\> prognozēšanas pieprasījuma \> prognozēšanas parametri**. Tā kā pieprasījuma prognozēšana ietver starpuzņēmumus, iestatījumiem ir globāla nozīme. Citiem vārdiem sakot, tas attiecas uz visām juridiskajām personām (uzņēmumiem).
+Lai iestatītu pieprasījuma prognozēšanas parametrus, dodieties uz vispārējās **plānošanas \> iestatījuma \> Pieprasījuma prognozēšanas pieprasījuma \> prognozēšanas** parametriem. Tā kā pieprasījuma prognozēšana ietver starpuzņēmumus, iestatījumiem ir globāla nozīme. Citiem vārdiem sakot, tas attiecas uz visām juridiskajām personām (uzņēmumiem).
 
 ### <a name="general-settings"></a>Vispārīgie iestatījumi
 
-Izmantojiet **lapas** Pieprasījuma prognozēšanas parametri cilni **Vispārīgi**, lai definētu pieprasījuma prognozēšanas vispārīgos iestatījumus.
+Lietojiet **lapas** Pieprasījuma prognozēšanas parametri cilni **Vispārīgi**, lai definētu vispārīgos iestatījumus pieprasījuma prognozēšanai.
 
 #### <a name="demand-forecast-unit"></a>Pieprasījuma apjoma prognozes vienība
 
-Pieprasījuma prognozēšanas laikā tiek ģenerēta daudzumu prognoze. Tāpēc laukā **Pieprasījuma apjoma prognozes vienība** ir jānorāda mērvienība, ar kādu ir jāizsaka daudzums. Šajā laukā ir definēta vienība, kas tiks izmantota visām pieprasījuma prognozēm neatkarīgi no katras preces parastajām krājumu uzskaites vienībām. Izmantojot konsekventu budžeta vienību, palīdz nodrošināt, lai apkopošanai un procentu sadalījumam būtu jēga. Lai iegūtu sīkāku informāciju par apkopojumu un procentuālo iedalījumu, skatiet sadaļu [Bāzlīnijas prognozes manuālu korekciju veikšana](manual-adjustments-baseline-forecast.md).
+Pieprasījuma prognozēšanas laikā tiek ģenerēta daudzumu prognoze. Tāpēc laukā **Pieprasījuma apjoma prognozes vienība** ir jānorāda mērvienība, ar kādu ir jāizsaka daudzums. Šis lauks nosaka vienību, kas tiks izmantota visām pieprasījuma apjoma prognozēm neatkarīgi no parastajām krājumu vienībām katrai precei. Izmantojot konsekventu prognozes vienību, palīdziet nodrošināt, ka apkopojumam un procentuālajai sadalei ir nozīme. Lai iegūtu sīkāku informāciju par apkopojumu un procentuālo iedalījumu, skatiet sadaļu [Bāzlīnijas prognozes manuālu korekciju veikšana](manual-adjustments-baseline-forecast.md).
 
-Katrai mērvienībai, kas tiek izmantota noliktavas vienībām, kuras ir iekļautas pieprasījuma prognozēšanā, pārliecinieties, vai mērvienībai un šeit atlasītajai vispārējai prognozēšanas mērvienībai ir konvertēšanas kārtula. Ģenerējot prognozi, tiek reģistrēts to krājumu saraksts, kuriem nav mērvienību konvertēšanas. Tāpēc jūs varat viegli labot iestatīšanu. Papildinformāciju par mērvienībām un to, kā tās konvertēt, skatiet [Manage mērvienību](../pim/tasks/manage-unit-measure.md).
+Visām NV mērvienībām, kas ir iekļautas pieprasījuma prognozē, pārliecinieties, vai pastāv mērvienībai un vispārīgai prognozēšanas mērvienībai paredzēts konvertēšanas noteikums, ko šeit atlasāt. Ģenerējot prognozi, tiek reģistrēts to krājumu saraksts, kuriem nav mērvienības pārvēršanas. Tādēļ iestatījumu var viegli labot. Papildinformāciju par mērvienībām un to, kā tās pārveidot, skatiet [sadaļā Mērvienību](../pim/tasks/manage-unit-measure.md) pārvaldība.
 
 #### <a name="transaction-types"></a>Darbību tipi
 
-Izmantojiet kopsavilkuma **cilnes Darbību tipi** laukus, lai atlasītu darbību tipus, kas tiek izmantoti, veidojot statistisko bāzlīnijas prognozi.
+Izmantojiet laukus Darbību tipu FastTab, lai atlasītu darbību tipus, kas tiek izmantoti, kad tiek ģenerēta **statistiskās** bāzlīnijas prognoze.
 
 Pieprasījuma apjoma prognozēšanu var izmantot, lai prognozētu gan pakārtoto pieprasījumu, gan neatkarīgu pieprasījumu. Piemēram, ja tikai pārdošanas pasūtījuma opcija ir iestatīta uz Jā un visi krājumi, kas tiek apsvērti pieprasījuma prognozēšanai, ir krājumi, kas tiek pārdoti, sistēma aprēķina **neatkarīgu** *pieprasījumu*. Tomēr krājumu sadalījuma principiem var pievienot kritiskos apakškomponentus, iekļaujot tos pieprasījuma prognozēšanā. Šajā gadījumā, ja opcija **Ražošanas rinda ir iestatīta uz** *Jā*, tiek aprēķināta pakārtotā prognoze.
 
@@ -106,7 +106,7 @@ Prognozes **ģenerēšanas stratēģijas** lauks ļauj atlasīt metodi, kas tiek
 
 - *Kopēt vēsturiskā pieprasījuma laikā* – izveidojiet prognozes, vienkārši kopējot vēsturiskos datus.
 - *Azure mašīnas apmācības pakalpojums* – izmantojiet prognozes modeli, kas izmanto Azure mašīnas apmācības pakalpojumu. Azure datora apmācības pakalpojums ir pašreizējais mašīnas apmācības risinājums azure. Tāpēc ieteicams to lietot, ja vēlaties lietot budžeta modeli.
-- *Azure mašīnas apmācība* – izmantojiet prognozes modeli, kurā tiek lietota Azure Machine Learning Studio (maks). Azure mašīnas mācību studija (azure Machine Learning Studio ) ir novecojusi un drīzumā tiks noņemta no Azure. Tādēļ ir ieteicams atlasīt Azure datora apmācības pakalpojumu, ja pirmo reizi iestatāt *pieprasījuma* prognozēšanu. Ja pašlaik izmantojat Azure Machine Learning Studio (azure Machine Learning Studio), jums pēc iespējas ātrāk jāplāno pārslēgties uz Azure datora apmācību pakalpojumu.
+- *Azure mašīnas apmācība* – izmantojiet prognozes modeli, kurā tiek lietota Azure Machine Learning Studio (klasiskā). Azure mašīnas mācību studija (azure Machine Learning Studio ) ir novecojusi un drīzumā tiks noņemta no Azure. Tādēļ ir ieteicams atlasīt Azure datora apmācības pakalpojumu, ja pirmo reizi iestatāt *pieprasījuma* prognozēšanu. Ja pašlaik izmantojat Azure Machine Learning Studio (azure Machine Learning Studio), jums pēc iespējas ātrāk jāplāno pārslēgties uz Azure datora apmācību pakalpojumu.
 
 Izmantojot cilni Krājumu sadalījuma principi, varat ignorēt prognozes ģenerēšanas metodi vienai vai vairākām specifiskām **krājumu sadalījuma** atslēgām. Šī cilne nodrošina līdzīgus laukus.
 
@@ -175,7 +175,7 @@ Lai iestatītu pieprasījuma prognozēšanas modeļiem izmantotos noklusējuma p
 - **Trūkstošais vērtības aizstājēja tvērums** — Konkretizē, vai vērtības aizstājējs attiecas tikai uz katras atsevišķās granularitātes atribūta datu diapazonu vai uz visu datu kopu. Datumu diapazona, kuru sistēma izmanto, aizpildot trūkstošās vietas vēsturiskajos datos, izveidošanai ir pieejamas tālāk norādītās opcijas:
 
     - *GLOBĀLA* – sistēma izmanto visu granularitātes atribūtu datumu pilnu diapazonu.
-    - *HISTORY_DATE_RANGE — sistēma izmanto noteiktu datumu diapazonu, kas ir definēts, izmantojot laukus No datuma un Līdz datumam sadaļā Vēsturiskais periods, dialoglodziņā Statistiskās bāzlīnijas* **prognozes** **·** **·** **ģenerēšana**.
+    - *HISTORY_DATE_RANGE — sistēma izmanto noteiktu datumu diapazonu, kas ir definēts, izmantojot laukus No datuma un Līdz datumam sadaļā Vēsturiskais periods, kas atrodas dialoglodziņā Statistiskās bāzlīnijas* **prognozes** **·** **·** **ģenerēšana**.
     - *GRANULARITY_ATTRIBUTE —* sistēma izmanto pašlaik apstrādātā granularitātes atribūta datumu diapazonu.
 
     > [!NOTE]
@@ -196,9 +196,6 @@ Lai iestatītu pieprasījuma prognozēšanas modeļiem izmantotos noklusējuma p
 
 Piegādes ķēdes pārvaldība aprēķina pieprasījuma apjoma prognozes, izmantojot Azure datora apmācību pakalpojumu, kas ir jāiestata un jāpalaiž savam Azure abonementam. Šajā sadaļā ir aprakstīts, kā iestatīt Azure datora apmācību pakalpojumu Azure un pēc tam savienot to ar piegādes ķēžu pārvaldības vidi.
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: Preview until 10.0.23 GA -->
-
 ### <a name="enable-the-azure-machine-learning-service-in-feature-management"></a>Iespējot Azure datora apmācības pakalpojumu līdzekļu pārvaldībā
 
 Lai pieprasījuma prognozēšanai varētu lietot Azure datora apmācību pakalpojumu, ir jāaktivizē funkcionalitāte piegādes ķēžu pārvaldībā, lai iespējotu integrāciju. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
@@ -211,7 +208,7 @@ Lai pieprasījuma prognozēšanai varētu lietot Azure datora apmācību pakalpo
 Lai iespējotu Azure lietošanas iekārtu apmācību, lai apstrādātu prognozes, šim nolūkam ir jāiestata Azure iekārtu apmācības darbvieta. Ir divas opcijas:
 
 - Lai iestatītu darbvietu, palaižot Microsoft nodrošinātu skriptu, izpildiet 1. opcijas norādes: Palaist skriptu, lai automātiski iestatītu datora apmācību darbvietu sadaļu, un tad pārejiet uz sadaļu Iestatīt Azure datora apmācību pakalpojuma savienojuma parametrus [Piegādes](#ml-workspace-script) [ķēžu](#demand-forecast-parameters) pārvaldība.
-- Lai manuāli iestatītu darbvietu, rīkojieties saskaņā ar [2. opcijas instrukcijām: manuāli iestatiet datora apmācības darbalauku](#ml-workspace-manual) un tad izlaidiet uz priekšu [iestatīt Azure datora apmācību pakalpojuma savienojuma parametrus Piegādes ķēdes pārvaldības sadaļā](#demand-forecast-parameters). Šī opcija prasa vairāk laika, bet tā dod jums lielāku kontroli.
+- Lai manuāli iestatītu darbvietu, rīkojieties saskaņā ar [2. opcijas instrukcijām: manuāli iestatiet datora apmācības darbalauku](#ml-workspace-manual) un tad izlaidiet uz priekšu, lai [iestatītu Azure datora apmācību pakalpojuma savienojuma parametrus Piegādes ķēdes pārvaldības](#demand-forecast-parameters) sadaļā. Šī opcija prasa vairāk laika, bet tā dod jums lielāku kontroli.
 
 #### <a name="option-1-run-a-script-to-automatically-set-up-your-machine-learning-workspace"></a><a name="ml-workspace-script"></a> 1. opcija: skripta palaišana, lai automātiski iestatītu datora apmācības darbvietu
 
@@ -221,8 +218,8 @@ Lai iespējotu Azure lietošanas iekārtu apmācību, lai apstrādātu prognozes
 
     - quick_setup.ps1
     - sampleInput.csv
-    - Riks/parameters.py
-    - src/api_trigger.to
+    - riks/parameters.py
+    - rik/api_trigger.to
     - Riks/run.py
     - src/REntryScript/forecast.r
 
@@ -231,7 +228,7 @@ Lai iespējotu Azure lietošanas iekārtu apmācību, lai apstrādātu prognozes
 1. Azure datora mācību studijā atlasiet **Toms, kas** atrodas Tomā.
 1. Failu struktūrā atrodiet šādu **atrašanās** vietu: **\[Lietotāji/pašreizējais \] lietotājs/src.**
 1. Augšupielādējiet atlikušos četrus failus, kas tika lejupielādēti 1. solī, atrašanās vietā, kuru tika atrasts iepriekšējā solī.
-1. Atlasiet to **api_trigger.tajā** failu, ko tikko augšupielādējāt, un palaidiet to. Tas izveidos konveijeru, ko var izraisīt, izmantojot API.
+1. Atlasiet tikko **api_trigger.no** augšupielādēto failu un palaidiet to. Tas izveidos konveijeru, ko var izraisīt, izmantojot API.
 1. Jūsu darbvieta tagad ir iestatīta. Pārejiet uz [sadaļu Iestatīt Azure mašīnas apmācības pakalpojuma savienojuma parametrus Piegādes ķēžu](#demand-forecast-parameters) pārvaldība.
 
 #### <a name="option-2-manually-set-up-your-machine-learning-workspace"></a><a name="ml-workspace-manual"></a> 2. opcija: manuāla datora apmācības darbalauku iestatīšana
@@ -281,7 +278,7 @@ Izmantojiet tālāk norādītās darbības, lai iestatītu skaitļošanas resurs
 1. Cilnē Aprēķināt **klasterus atlasiet Jauns, lai atvērtu vedni, kas** palīdzēs izveidot jaunu **skaitļošanas** klasteri. Izpildiet ekrānā redzamos norādījumus. Skaitļošanas klasteris tiks izmantots, lai ģenerētu pieprasījuma apjoma prognozes. Tā iestatījumi ietekmē veiktspēju un izpildes maksimālo paralēlo līmeni. Iestatiet sekojošos laukus, bet izmantojiet noklusētos iestatījumus visiem citiem laukiem:
 
     - **Nosaukums** – *ievadiet e2ecpucluster.*
-    - **Virtuālās mašīnas lielums – pielāgojiet šo iestatījumu atbilstoši datu apjomam, ko plānojat** izmantot kā ievadi pieprasījuma prognozēšanai. Zaru skaits nedrīkst pārsniegt 11, jo ir nepieciešams viens zars, lai izraisītu pieprasījuma apjoma prognozes ģenerēšanu, un maksimālais zaru skaits, ko pēc tam var izmantot prognozes ģenerēšanai, ir 10. (Jūs iestatīsiet arī zaru skaitu parameters.py failā [5. solis. Konveijera sadaļas](#create-pipelines) izveide.) Katrā mezglā būs vairāki darbinieka procesi, kas paralēli izpildīs prognozēšanas skriptus. Kopējais darbinieku procesu skaits jūsu darbā būs kodolu *skaits, ko zaram ×* *zaru skaits*. Piemēram, ja skaitļošanas klasterim ir standarta D4 (astoņi kodoli) un maksimums ir 11 zari un ja vērtība failā parameters.py iestatīta uz 10, paralēlo darbu faktiskais līmenis *\_ ir*`nodes_count`*80*.
+    - **Virtuālās mašīnas lielums – pielāgojiet šo iestatījumu atbilstoši datu apjomam, ko plānojat** izmantot kā ievadi pieprasījuma prognozēšanai. Zaru skaits nedrīkst pārsniegt 11, jo ir nepieciešams viens zars, lai izraisītu pieprasījuma apjoma prognozes ģenerēšanu, un maksimālais zaru skaits, ko pēc tam var izmantot prognozes ģenerēšanai, ir 10. (Zaru skaits tiks iestatīts arī parameters.py failā [5. solis. Konveijera sadaļas](#create-pipelines) izveide.) Katrā mezglā būs vairāki darbinieka procesi, kas paralēli izpildīs prognozēšanas skriptus. Kopējais darbinieku procesu skaits jūsu darbā būs zaru skaits, kam zaram × *·* *zaru skaits*. Piemēram, ja datora klasterim ir standarta D4 (astoņi kodoli) un maksimums ir 11 zari, un ja vērtība failā parameters.py iestatīta uz 10, paralēlo darbu faktiskais līmenis *\_ ir*`nodes_count`*80*.
 
 ##### <a name="step-5-create-pipelines"></a><a name="create-pipelines"></a> 5. solis. Konveijera izveide
 
@@ -289,16 +286,16 @@ Konveijers ir veids, kā sākt prognozēšanas skriptus no Piegādes ķēžu pā
 
 1. Cilnē GitHub atveriet veidnes pieprasījuma [prognozēšanai Dynamics 365 Supply Chain Management ar Azure machine learning](https://github.com/microsoft/Dynamics-365-Supply-Chain-Management-Demand-Forecasting-With-Azure-Machine-Learning-Service) repo un lejupielādējiet šādus failus:
 
-    - Riks/parameters.py
-    - src/api_trigger.to
+    - riks/parameters.py
+    - rik/api_trigger.to
     - Riks/run.py
     - src/REntryScript/forecast.r
 
 1. Azure datora mācību studijā atlasiet **Toms, kas** atrodas Tomā.
 1. Failu struktūrā atrodiet šādu **atrašanās** vietu: **\[Lietotāji/pašreizējais \] lietotājs/src.**
 1. Augšupielādējiet četrus 1. solī lejupielādētos failus atrašanās vietā, kuru tika atrasts iepriekšējā solī.
-1. Azure atveriet un pārskatiet parameters.py **failu**, ko tikko augšupielādējat. Pārliecinieties, vai vērtība ir mazāka nekā vērtība, ko esat konfigurējis skaitļošanas klasterim `nodes_count`[4. darbībā: konfigurējiet skaitļošanas](#config-compute-resources) resursus sadaļā. Ja vērtība ir lielāka vai vienāda ar zaru skaitu skaitļošanas `nodes_count` klasterī, konveijera darbību var sākt. Tomēr tas pārstās reaģēt, kamēr gaidīs nepieciešamos resursus. Papildinformāciju par zaru skaitu skatiet [4. darbībā: resursu skaitļošanas konfigurācijas](#config-compute-resources) sadaļa.
-1. Atlasiet to **api_trigger.tajā** failu, ko tikko augšupielādējāt, un palaidiet to. Tas izveidos konveijeru, ko var izraisīt, izmantojot API.
+1. Pakalpojumā Azure atveriet un pārskatiet **parameters.py** failu, ko tikko augšupielādējat. Pārliecinieties, vai vērtība ir mazāka nekā vērtība, ko esat konfigurējis skaitļošanas klasterim `nodes_count`[4. darbībā: konfigurējiet skaitļošanas](#config-compute-resources) resursus sadaļā. Ja vērtība ir lielāka vai vienāda ar zaru skaitu skaitļošanas `nodes_count` klasterī, konveijera darbību var sākt. Tomēr tas pārstās reaģēt, kamēr gaidīs nepieciešamos resursus. Papildinformāciju par zaru skaitu skatiet [4. darbībā: resursu skaitļošanas konfigurācijas](#config-compute-resources) sadaļa.
+1. Atlasiet tikko **api_trigger.no** augšupielādēto failu un palaidiet to. Tas izveidos konveijeru, ko var izraisīt, izmantojot API.
 
 ### <a name="set-up-a-new-active-directory-application"></a><a name="aad-app"></a> Iestatīt jaunu Active Directory programmu
 

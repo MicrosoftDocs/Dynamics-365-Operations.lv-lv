@@ -2,11 +2,9 @@
 title: Izmaksu apkopojuma politika un pieskaitāmo izmaksu aprēķināšana
 description: Šajā tēmā ir sniegta informācija par to, kā noteikt pareizo sekundāro izmaksu elementu līmeni un izveidot izmaksu apkopojuma kārtulas, kas atbilst organizācijas pārskatu un izmaksu izsekojamības prasībām.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostRollupRule, CAMDimensionHierarchy, CAMOverheadRatePolicy
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b71dc9b5394ee35b76ead292b72951ece0d1d03d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: f86529359f548bf48fdef8817bd2e2260235561cce57cac28158739687ade2c1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5226321"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779960"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Izmaksu apkopojuma politika un pieskaitāmo izmaksu aprēķināšana 
 
@@ -46,7 +44,7 @@ Lai nepieļautu šādus sarežģījumus, modulis Izmaksu uzskaite sniedz iespēj
 
 Pieņemsim, ka organizācijai ir tālāk norādītā struktūra, kurā ir ietverti 4 izmaksu centri.
 
-![Organizācijas struktūras piemērs](./media/dimension-hierarchy-org.png)
+![Organizācijas struktūras piemērs.](./media/dimension-hierarchy-org.png)
 
 **Izmaksu objekta dimensija**
 
@@ -71,7 +69,7 @@ Organizācijas pārskatu prasībām atbilstošu dimensiju hierarhiju var iestat�
 
 | Dimensiju hierarhijas nosaukums | Dimensija    | Dimensiju hierarhijas veida nosaukums      | Piekļuves sarakstu hierarhija |
 |--------------------------|--------------|------------------------------------|-----------------------|
-| Organizācija             | Izmaksu centri | Dimensiju klasifikācijas hierarhija | Nav                    |
+| Organizācija             | Izmaksu centri | Dimensiju klasifikācijas hierarhija | Nē                    |
 
 **Dimensiju hierarhija**
 
@@ -151,8 +149,7 @@ Izmaksu sadalījuma kārtulas var iestatīt tālāk norādītajā veidā.
 | CC001                                | Summa         | **HR pakalpojumi**        |
 | CC002                                | Summa         | **Finanšu pakalpojumi** |
 
-<a name="brhow-cost-flows-between-cost-centers"></a><br>Izmaksu plūsma starp izmaksu centriem 
----------------------------------------------------
+## <a name="brhow-cost-flows-between-cost-centers"></a><br>Izmaksu plūsma starp izmaksu centriem 
 
 Ja vēlaties uzzināt par izmaksu plūsmu starp izmaksu centriem organizācijas ietvaros, varat katram izmaksu centram izveidot tipa **Sekundārs** izmaksu elementus. Pēc tam šie izmaksu elementi tiks izmantoti bilanču pārsūtīšanai starp izmaksu centriem pieskaitāmo izmaksu aprēķināšanas laikā.
 

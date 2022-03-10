@@ -2,26 +2,23 @@
 title: Preču iepakojumu izveide pirkšanas pasūtījumiem
 description: Šajā procedūrā ir aprakstīts, ka izveidot preču pakotni un izmantot to pirkšanas pasūtījumā.
 author: josaw1
-manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2b0084c6b4acbf14e3afec552575d5be26114237
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: fb10164be8d7a0828169cf3865f884afaa2e8408472edebe4cb0c7d4db059d8c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414098"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723241"
 ---
 # <a name="create-product-packages-for-purchase-orders"></a>Preču iepakojumu izveide pirkšanas pasūtījumiem
 
@@ -73,3 +70,6 @@ ms.locfileid: "4414098"
 17. Noklikšķiniet uz Izveidot.
 18. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

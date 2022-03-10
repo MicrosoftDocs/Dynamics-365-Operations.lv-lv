@@ -1,37 +1,31 @@
 ---
 title: Lapas satura pieejamības pārbaude
-description: Šajā tēmā ir aprakstīts, kā pārbaudīt lapas satura pieejamību Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā ir aprakstīts, kā pārbaudīt lapas satura pieejamību programmā Microsoft Dynamics 365 Commerce.
 author: josaw1
-manager: annbe
 ms.date: 01/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2019-12-19
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: fc3dca673510e1636f497bb7d5c295bebe025677
-ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
-ms.translationtype: HT
+ms.openlocfilehash: 6f92d5c34896e284a40a4806cd83e469c2db4c9181c919d2d967dacc84076201
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4414176"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748452"
 ---
 # <a name="verify-page-content-accessibility"></a>Lapas satura pieejamības pārbaude
 
-
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā pārbaudīt lapas satura pieejamību Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
+Šajā tēmā ir aprakstīts, kā pārbaudīt lapas satura pieejamību programmā Microsoft Dynamics 365 Commerce.
 
 Kad esat pabeidzis izmainīt lapu, nepieciešams pārliecinieties, vai saturs ir pieejams ikvienam tīmekļa lietotājam. Commerce autorēšanas rīkos varat viegli pārbaudīt lapas satura pieejamību, izmantojot integrēto pakalpojumu [Microsoft Accessibility Insights](https://accessibilityinsights.io/). Šis pakalpojums pārbauda jūsu lapas saturu, izmantojot jaunākās [Globālā tīmekļa konsorcija (World Wide Web Consortium — W3C) pieejamības](https://www.w3.org/standards/webdesign/accessibility) vadlīnijas.
 
@@ -85,3 +79,8 @@ Lai izmantotu integrēto [Microsoft Accessibility Insights](https://accessibilit
 [Preces lapas papildināšana](enrich-product-page.md)
 
 [Kategorijas ielādes lapas papildināšana](enrich-category-page.md)
+
+[Dinamisko e-komercijas lapu izveidošana, pamatojoties uz URL parametriem](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -6,19 +6,18 @@ ms.topic: article
 ms.date: 07/27/2020
 ms.author: margoc
 ms.prod: ''
-ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: b6f8bcd987bc3532aea4676f4e5494feaefbe324
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 219380f2fe44caa56869da05317cbeb4377cc8be7336d01cd65dc5c7eda05442
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4984938"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768751"
 ---
 # <a name="learning-catalog-for-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-finance"></a>Microsoft partneru pārdošanas un mārketinga lomu apmācības katalogs Dynamics 365 Finance
 
@@ -28,16 +27,19 @@ Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem dom�
 
 ## <a name="get-started"></a>Sākt darbu<a name="get-started"></a>
 
-| Saturs  | apraksts  | Formāts  | Ilgums    |
-|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
-| [Uzziniet Microsoft Dynamics 365 un Power Platformbiznesa vērtību](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Vai vēlaties uzzināt par biznesa lietotnēm? Varbūt nezināt, kā sākt darbu ar Microsoft Dynamics 365 un Power Platform pieteikumiem? Uzziniet, kā biznesa lietojumprogrammu pilnvaras var palīdzēt pārveidot jūsu biznesu. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 7 stundas |
-| [Dynamics 365 un Power Platform pamati](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Vai vēlaties uzzināt par biznesa lietotnēm? Sāciet ar šo mācīšanās ceļu, lai uzzinātu, kā tiek izmantotas Dynamics 365 lietojumprogrammas. Uzzini par mākoņa koncepcijām, Power Platformun par to, kā uzsākt darbu ar Dynamics 365 lietojumprogrammām. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 5.5 stundas |
-| [Darba sākšana ar Finance and Operations programmām](https://docs.microsoft.com/learn/paths/get-started-finance-operations/) | Uzziniet, kā Finance and Operations programmas atbalsta uzņēmumus, lai pārvaldītu to globālās finanšu sistēmas, darbības biznesa procesus un racionalizētas piegādes ķēdes, lai dotu iespēju cilvēkiem pieņemt ātrus, informētus lēmumus. Kā pirmo soli karjerā, strādājot ar programmām Finance and Operations, jums ir jāiepazīstas ar tā iespējām un funkcionalitāti neatkarīgi no jūsu vēlamās lomas. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 2 stundas |
-| [Darba sākšana ar Dynamics 365 Finance](https://docs.microsoft.com/learn/modules/get-started-financial-management-dyn365-finance/) | Dynamics 365 Finance dod iespēju biznesa lietotājiem pielāgoties strauji mainīgajām biznesa vidēm. Tas uzņēmumiem nodrošina visu nepieciešamo, lai kontrolētu finanses un pārvaldītu līdzekļus ar precīzu informācijas apriti finanšu plānošanai un prognozēšanai, un lai palīdzētu uzturēt atjaunināšanu ar analīzes rīku palīdzību. Tā kā finanses ir jebkāda uzņēmuma kodols, ir svarīgi iepazīties ar Dynamics 365 Finance iespējām. | Brīva režīma, paša kontrolēts tiešsaistes mācību modulis | 1 stunda |
+| Saturs  | Apraksts  | Formāts  | Ilgums    |
+|-------------|-----------------|-------------|------------|
+| [Uzziniet Microsoft Dynamics 365 un Power Platformbiznesa vērtību](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Vai vēlaties uzzināt par biznesa lietotnēm? Varbūt nezināt, kā sākt darbu ar Microsoft Dynamics 365 un Power Platform pieteikumiem? Uzziniet, kā biznesa lietojumprogrammu pilnvaras var palīdzēt pārveidot jūsu biznesu. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 7 stundas |
+| [Dynamics 365 un Power Platform pamati](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Vai vēlaties uzzināt par biznesa lietotnēm? Sāciet ar šo mācīšanās ceļu, lai uzzinātu, kā tiek izmantotas Dynamics 365 lietojumprogrammas. Uzzini par mākoņa koncepcijām, Power Platformun par to, kā uzsākt darbu ar Dynamics 365 lietojumprogrammām. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 5.5 stundas |
+| [Darba sākšana ar Finance and Operations programmām](/learn/paths/get-started-finance-operations/) | Uzziniet, kā Finance and Operations programmas atbalsta uzņēmumus, lai pārvaldītu to globālās finanšu sistēmas, darbības biznesa procesus un racionalizētas piegādes ķēdes, lai dotu iespēju cilvēkiem pieņemt ātrus, informētus lēmumus. Kā pirmo soli karjerā, strādājot ar programmām Finance and Operations, jums ir jāiepazīstas ar tā iespējām un funkcionalitāti neatkarīgi no jūsu vēlamās lomas. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 2 stundas |
+| [Darba sākšana ar Dynamics 365 Finance](/learn/modules/get-started-financial-management-dyn365-finance/) | Dynamics 365 Finance dod iespēju biznesa lietotājiem pielāgoties strauji mainīgajām biznesa vidēm. Tas uzņēmumiem nodrošina visu nepieciešamo, lai kontrolētu finanses un pārvaldītu līdzekļus ar precīzu informācijas apriti finanšu plānošanai un prognozēšanai, un lai palīdzētu uzturēt atjaunināšanu ar analīzes rīku palīdzību. Tā kā finanses ir jebkāda uzņēmuma kodols, ir svarīgi iepazīties ar Dynamics 365 Finance iespējām. | Brīva režīma, paša kontrolēts tiešsaistes mācību modulis | 1 stunda |
 | [Kurss MB-900T01-A: Dynamics 365 pamati](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01) | Šis kurss jūs iepazīstinās ar Dynamics 365 funkcionalitāti un biznesa vērtību. Kurss ietvers Dynamics 365 programmas, Power Platform, mākoņu koncepcijas, drošības modeli un licencēšanas apsvērumus. | Pasniedzēja vadīta personiska vai tiešsaistes apmācība; izmaksas var mainīties atkarībā no reģiona un partnera | 1 diena |
 
 ## <a name="exam"></a>Eksāmens<a name="exam"></a>
 
-| Saturs | apraksts  | Formāts  |
+| Saturs | Apraksts  | Formāts  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| [Dynamics 365 pamati](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | Pierādiet, ka saprotat Microsoft Dynamics 365; Power Platform; mākoņa koncepcijas; licencēšanas opcijas un izvietošanas opcijas, un opcijas nodošanai izpildei. | Eksāmens; izmaksas var mainīties atkarībā no reģiona |
+| [Dynamics 365 pamati](/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | Pierādiet, ka saprotat Microsoft Dynamics 365; Power Platform; mākoņa koncepcijas; licencēšanas opcijas un izvietošanas opcijas, un opcijas nodošanai izpildei. | Eksāmens; izmaksas var mainīties atkarībā no reģiona |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

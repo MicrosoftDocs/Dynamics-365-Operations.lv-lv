@@ -2,11 +2,9 @@
 title: Lietotāja definēti sertifikātu profili mazumtirdzniecības veikaliem
 description: Šajā tēmā sniegts pārskats par to, kā sertifikāti tiek izmantoti mazumtirdzniecības veikalos.
 author: josaw
-manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailFormLayout, RetailParameters
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 03fe3d7fb64b2e9d0a06dc56654933f0c672782a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 9cb82a6d6336bb69fe818fb33e04ad621382b383055b24a4e79eee5ddff217ac
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5225749"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719934"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>Lietotāja definēti sertifikātu profili mazumtirdzniecības veikaliem
 
@@ -81,7 +79,7 @@ Kad lapā **Sertifikāta profila iestatījumi** pievienojat jaunu rindu, iestati
 - **Key Vault sertifikāts** – šis lauks ir obligāts, ja lauks **Atrašanās vietas tips** tiek iestatīts uz **Key Vault**. Izmantojiet to, lai norādītu Key Vault sertifikāta noslēpumu.
 
     > [!NOTE]
-    > Pirms sertifikātu profilos izmantot Key Vault sertifikātu, pārliecinieties, vai esat augšupielādējis sertifikātu galvenās glabātuves krātuvē, un izpildiet norādījumus sadaļā [Azure Key Vault klienta iestatīšana](https://docs.microsoft.com/dynamics365/finance/localizations/setting-up-azure-key-vault-client).
+    > Pirms sertifikātu profilos izmantot Key Vault sertifikātu, pārliecinieties, vai esat augšupielādējis sertifikātu galvenās glabātuves krātuvē, un izpildiet norādījumus sadaļā [Azure Key Vault klienta iestatīšana](../../finance/localizations/setting-up-azure-key-vault-client.md).
 
 - **Veikala nosaukums** – šis lauks ir neobligāts, un tas ir pieejams tikai iestatot lauku **Atrašanās vietas tips** uz **Lokāls sertifikāts**. Izmantojiet to, lai norādītu noklusējuma veikala nosaukumu, kas jāizmanto lokālo sertifikātu meklēšanai.
 - **Veikala atrašanās vieta** – šis lauks ir neobligāts, un tas ir pieejams tikai iestatot lauku **Atrašanās vietas tips** uz **Lokāls sertifikāts**. Izmantojiet to, lai norādītu noklusējuma veikala atrašanās vietu, kas jāizmanto lokālo sertifikātu meklēšanai.

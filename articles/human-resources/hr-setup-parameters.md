@@ -1,8 +1,8 @@
 ---
 title: Konfigurēt Human Resources parametrus
 description: Šajā rakstā ir paskaidrots, kā iestatīt uzņēmumam raksturīgus parametrus programmā Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 06/23/2021
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 476f44c665adb2918e7cd882d4ea873b4b4f94fa33a74dc96d3eccc74b676ce5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: fd9bb907f95ba4c368871a470ca9b2bc807646ee
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739255"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771439"
 ---
 # <a name="configure-human-resources-parameters"></a>Konfigurēt Human Resources parametrus
 
@@ -65,7 +65,7 @@ Iestatījumi lapā **Vispārīgi** nosaka informācijas parādīšanos par kavē
 
 Iestatījumi cilnē **Personāla atlase** definē dokumentu tipus, kas tiek izmantoti sarakstei, kas tiek automātiski nosūtīta kandidātiem. Varat arī norādīt personāla atlases projektu, ko izmanto neapstiprināto pieteikumu saņemšanai.
 
-Periods, kas tiek noteiks personāla atlases projekta vecumstruktūrai, nosaka personāla atlases projektus, kas iekļauti elementā **Vecumstruktūras projekti** darbvietā **Personāla atlases pārvaldība**. Periods, kas noteikts brīdinājumam par pieteikuma iesniegšanas termiņu, tiek izmantots, lai parādītu personāla atlases projektus, kuriem tuvojas pieteikumu iesniegšanas termiņš elementā **Tuvojas pieteikuma iesniegšanas beigu termiņš** darbvirsmā **Personāla atlase**.
+Periods, kas ir definēts personāla atlases projekta vecumstruktūrā, nosaka, kuri personāla atlases projekti ir iekļauti vecumstruktūras projektu elementā **·** Personāla **·** **atlases pārvaldības** darbvietā. Pieteikuma termiņa brīdinājumam definētais periods tiek izmantots, lai parādītu personāla atlases projektus, kas tuvojas pieteikuma termiņam pieteikumu beigu termiņam, kurš personāla atlases darbvietā tuvojas **·** **·** elementam.
 
 Papildinformāciju par pieņemšanu darbā skatiet [Personāla atlases kandidāti](hr-personnel-recruit.md).
 
@@ -107,20 +107,20 @@ Cilnē FMLA iestatiet FMLA piemērotības prasības un FMLA pilnvaru stundas. Pa
 
 ## <a name="employee-self-service"></a>Darbinieku patstāvīgi izmantojamais pakalpojums
 
-Iestatījumi cilnē **Darbinieku pašapkalpošanās** ietekmē to, kā darbiniekiem parādās darbinieku pašapkalpošanās. Šajā cilnē var:
+Iestatījumi cilnē Darbinieku **pašapkalpošanās** ietekmē to, kā **darbiniekiem parādās** darbinieku pašapkalpošanās. Šajā cilnē varat veikt šādus uzdevumus:
 
-- Darbinieka patstāvīgi izmantojamas darbvietas nosaukuma ievade
+- Ievadiet darbinieka **pašapkalpošanās darbvietas** nosaukumu
 - Atlasīt, kuru informāciju vadītājs var ievadīt darbiniekiem
 - Pievienot darbiniekiem noderīgas saites
-- Ierobežot darbinieku kontaktinformācijas pievienošanu vai rediģēšanu. Papildinformāciju skatiet sadaļā [Personas informācijas rediģēšanas](hr-employee-self-service-restrict-editing.md)ierobežošana.
+- Ierobežot darbinieku kontaktinformācijas pievienošanu vai rediģēšanu. Papildinformāciju skatiet sadaļā [Personas informācijas rediģēšanas](hr-employee-self-service-restrict-editing.md) ierobežošana.
 
-Papildinformāciju par Darbinieku pašapkalpošanās iestatīšanu skatiet pārskatā [Darbinieku un Pārvaldnieka pašapkalpošanās](hr-employee-manager-self-service-overview.md).
+Papildinformāciju par to, kā iestatīt **darbinieku** pašapkalpošanos, skatiet darbinieku un [pārvaldnieka pašapkalpošanās](hr-employee-manager-self-service-overview.md) pārskatu.
 
 ![Darbinieku pašapkalpošanās cilne.](./media/hr-setup-parameters-employee-self-service.png)
 
 ## <a name="manager-self-service"></a>Vadītāja pašapkalpošanās
 
-**Vadītāja pašapkalpošanās** cilnes iestatījumi ietekmē, ko vadītāji redz Vadītāju pašapkalpošanās programmā. Šajā cilnē varat konfigurēt šādas opcijas:
+Pārvaldnieka **pašapkalpošanās cilnes iestatījumi** ietekmē pārvaldniekus, kas tiek skatīti **pārvaldnieka pašapkalpošanās** sadaļā. Šajā cilnē varat konfigurēt šādas opcijas:
 
 - Ierakstu, kuru skaits beidzas, diapazons
 - Informācijas pārvaldnieki var skatīt ierakstus, kuru termiņš beidzas
@@ -128,13 +128,13 @@ Papildinformāciju par Darbinieku pašapkalpošanās iestatīšanu skatiet pārs
 - Izejas darbinieku skatījumi
 - Noderīgas saites vadītājiem
 
-Papildinformāciju par Darbinieku pašapkalpošanās iestatīšanu skatiet [Darbinieku un Vadītāja pašapkalpošanās pārskats](hr-employee-manager-self-service-overview.md).
+Papildinformāciju par to, kā iestatīt **pārvaldnieka** pašapkalpošanos, skatiet [darbinieku un pārvaldnieka pašapkalpošanās](hr-employee-manager-self-service-overview.md) pārskatu.
 
 ![Vadītāja pašapkalpošanās cilne.](./media/hr-setup-parameters-manager-self-service.png)
 
 ## <a name="benefits-management"></a>Atvieglojumu pārvaldība
 
-Cilnē Atvieglojumu pārvaldība varat konfigurēt e-pasta opcijas atvieglojumu pārvaldībai. Papildinformāciju par atvieglojumu pārvaldības iestatīšanu un izmantošanu skatiet [Atvieglojumu pārvaldības pārskats](hr-benefits-management-overview.md).
+Cilnē **Atvieglojumu pārvaldība** varat konfigurēt e-pasta opcijas atvieglojumu pārvaldībai. Papildinformāciju par to, kā iestatīt un lietot atvieglojumu pārvaldību, skatiet atvieglojumu [pārvaldības](hr-benefits-management-overview.md) pārskatā.
 
 ![Cilne Atvieglojumu pārvaldība.](./media/hr-setup-parameters-benefits-management.png)
 

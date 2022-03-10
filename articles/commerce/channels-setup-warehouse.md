@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 154ec719e16e4826b0e24deb5ecadf587d938e3c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
-ms.translationtype: HT
+ms.openlocfilehash: 6987263bfa83582f465e3b47c4f7b9d96cf087c814a1e002afd289852346975b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800499"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734023"
 ---
 # <a name="warehouse-set-up"></a>Noliktavas iestatīšana
 
@@ -45,7 +45,7 @@ Lai konfigurētu noliktavas vietu, rīkojieties, kā norādīts tālāk.
 
 Tālāk redzamajā attēlā ir parādīts noliktavas vietas piemērs.
 
-![Noliktavas vietas piemērs](media/warehouse-site.png)
+![Noliktavas vietas piemērs.](media/warehouse-site.png)
 
 ## <a name="set-up-a-warehouse"></a>Noliktavas iestatīšana
 
@@ -98,7 +98,7 @@ Lai iestatītu noliktavas krājumu vietas standarta, bojātiem un atgrieztajiem 
     
 Tālāk esošajā attēlā redzams Sanfrancisko noliktavas krājumu vietas iestatījums.
 
-![Krājumu novietojuma iestatījumu piemērs](media/warehouse-inventory-locations.png)
+![Krājumu novietojuma iestatījumu piemērs.](media/warehouse-inventory-locations.png)
     
 ## <a name="complete-warehouse-setup"></a>Noliktavas iestatīšanas pabeigšana
 
@@ -121,7 +121,7 @@ Lai pabeigtu noliktavas iestatīšanu, rīkojieties, kā norādīts tālāk.
 
 Tālāk esošajā attēlā ir parādīta detalizēta informācija par konfigurēto noliktavu.
 
-![Konfigurētas noliktavas piemērs](media/warehouse-sample.png)
+![Konfigurētas noliktavas piemērs.](media/warehouse-sample.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 

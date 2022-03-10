@@ -2,15 +2,12 @@
 title: Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2020. gada 14. maijs)
 description: Šajā tēmā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Human Resources uz 2020. gada 14. maiju.
 author: andreabichsel
-manager: tfehr
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
@@ -18,24 +15,24 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f1ef15bec1d2eb7b7aaca3a413e13089b36315fd
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
-ms.translationtype: HT
+ms.openlocfilehash: cb4693f3c856e7abcc39cbd658183d01ec98a066
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5465298"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063751"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2020. gada 14. maijs)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Human Resources. Izmaiņas attiecas uz būvējuma numuru 8.1.3244. Dažos virsrakstos redzamie numuri iekavās attiecas uz atbalsta atsauces numuriem portālā Lifecycle Services (LCS).
 
 ## <a name="platform-changes"></a>Platformas izmaiņas
 
-Platformas izmaiņas iekļautas šīs nedēļas laidienā. Papildinformāciju skatiet [Platformas atjauninājumi Finance and Operations programmu versijai 10.0.10 (2020. gada maijs)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34). Šajā laidienā ir ietverti kļūdu labojumi un izmaiņas saglabātajos skatos.
+Platformas izmaiņas iekļautas šīs nedēļas laidienā. Papildinformāciju skatiet [Platformas atjauninājumi programmas Finance and Operations versijai 10.0.10 (2020. gada maijs)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md). Šajā laidienā ir ietverti kļūdu labojumi un izmaiņas saglabātajos skatos.
  
 ## <a name="ensure-dataverse-picklists-are-consistent-with-leave-enums-436343"></a>Nodrošināts, lai Dataverse salasīšanas saraksti atbilst Atvaļinājumu uzskaitījumiem (436343)
 
@@ -118,7 +115,7 @@ Jūs varat norādīt pārnešanas atvaļinājuma veidu pārnešanas bilancēm, j
 ## <a name="see-also"></a>Skatiet arī
 
 [Jaunumi un izmaiņas programmā Human Resources](hr-admin-whats-new.md)</br>
-[Pārskats par Dynamics 365 Human Resources 2019. gada laidiena 2. kopumu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Pārskats par Dynamics 365 Human Resources 2019. gada laidiena 2. kopumu](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Procesa atjaunināšana](hr-admin-setup-update-process.md)</br>
 [Līdzekļu pārvaldība](hr-admin-manage-features.md)
 

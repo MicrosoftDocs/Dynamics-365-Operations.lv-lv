@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0057d1a2dc00cef2474bc77b76af0d2e2b783d0c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: cd0d50bacd43fe66628fec94aead3a2406e8d4e62c1e2e6c3d31afa9073baa6a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839659"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773613"
 ---
 # <a name="maintenance-request-reports"></a>Pārskati par uzturēšanas pieprasījumu
 
@@ -41,7 +41,7 @@ Pārskatā **Detalizēta informācija par uzturēšanas pieprasījumu** ir parā
 
 Nākamajā attēlā ir parādīts pārskata **Detalizēta informācija par uzturēšanas pieprasījumu** piemērs.
 
-![Informācijas atskaite par uzturēšanas pieprasījumu](media/09-manage-maintenance-requests.png)
+![Informācijas atskaite par uzturēšanas pieprasījumu.](media/09-manage-maintenance-requests.png)
 
 ## <a name="create-a-maintenance-request-list-report"></a>Uzturēšanas pieprasījumu saraksta pārskata izveide
 
@@ -54,7 +54,7 @@ Pārskatā **Uzturēšanas pieprasījumu saraksts** tiek parādīts visu viena v
 
 Nākamajā attēlā ir parādīts **Uzturēšanas pieprasījumu saraksta** pārskata par visiem aktīvajiem uzturēšanas pieprasījumiem piemērs.
 
-![Uzturēšanas pieprasījumu saraksta pārskats](media/10-manage-maintenance-requests.png)
+![Uzturēšanas pieprasījumu saraksta pārskats.](media/10-manage-maintenance-requests.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

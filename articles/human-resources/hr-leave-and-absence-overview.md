@@ -1,31 +1,32 @@
 ---
 title: Atvaļinājumu un kavējumu apskats
-description: Programmā Dynamics 365 Human Resources atvaļinājuma un prombūtnes darbvietā tiek nodrošināts elastīga struktūra jaunu atvaļinājumu plānu veidošanai. Tas nodrošina darbplūsmas pieprasījumu pārvaldībai un intuitīvo pašapkalpošanās lapu darbiniekiem, lai varētu pieprasīt prombūtni.
-author: andreabichsel
-manager: AnnBe
-ms.date: 06/01/2020
-ms.topic: article
+description: Programmā Dynamics 365 Human Resources atvaļinājuma un prombūtnes darbvietā tiek nodrošināts elastīga struktūra jaunu atvaļinājumu plānu veidošanai.
+author: twheeloc
+ms.date: 10/28/2021
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
-ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ea58c3a08e74eea1ab51aa19a5a28445a9bcbb04
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 344b4bba144a311530ce7be3b4bc230ce9cf8d1a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419602"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069025"
 ---
 # <a name="leave-and-absence-overview"></a>Atvaļinājumu un kavējumu apskats
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dynamics 365 Human Resources palīdz nodrošināt lieliskus atvaļinājuma atvieglojumus jūsu darbiniekiem. **Atvaļinājuma un prombūtnes** darbvieta nodrošina elastīgu struktūru jaunu atvaļinājumu plānu veidošanai. Tas nodrošina darbplūsmas pieprasījumu pārvaldībai un intuitīvo pašapkalpošanās lapu darbiniekiem, lai varētu pieprasīt prombūtni. Analīze palīdz jūsu organizācijai izmērīt un pārraudzīt atvaļinājuma bilances un izmantošanu jūsu atvaļinājuma plānos.
 
@@ -35,7 +36,8 @@ Pirms atvaļinājumu plānu izveidošanas saviem darbiniekiem, ir jāveic dažas
 
 - [Atvaļinājumu un prombūtnes parametru konfigurēšana](hr-leave-and-absence-parameters.md)
 - [Darba laika kalendāra izveide](hr-leave-and-absence-working-time-calendar.md)
-- [Atvaļinājuma pieprasījuma darbplūsmas izveide](hr-leave-and-absence-workflow.md)
+- [Atvaļinājuma pieprasījuma izveide darbplūsmai](hr-leave-and-absence-workflow.md)
+- [Konfigurēt lomu Prombūtnes pārvaldnieks](hr-configure-absence-manager.md)
 
 ## <a name="create-and-manage-leave-plans"></a>Izveidojiet un pārvaldiet atvaļinājuma plānus
 
@@ -51,6 +53,10 @@ Pirms atvaļinājuma plānu izveides jūsu darbiniekiem ir jāizveido atvaļinā
 
 Jūsu darbinieki var iesniegt brīvā laika pieprasījumus, un tos var pārvaldīt **Darbinieku patstāvīgi izmantojamo pakalpojumu** darbvietā.
 
-[Brīvā laika pieprasīšana](hr-employee-self-service-request-time-off.md)
-[Atvaļinājumu un kavējumu pieprasījumu pārvaldība](hr-employee-self-service-manage-requests.md)
+- [Pieprasīt brīvo laiku](hr-employee-self-service-request-time-off.md)
+- [Atvaļinājumu un kavējumu pieprasījumu pārvaldība](hr-employee-self-service-manage-requests.md)
+- [Konfigurēt lomu prombūtnes pārvaldnieks](hr-configure-absence-manager.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

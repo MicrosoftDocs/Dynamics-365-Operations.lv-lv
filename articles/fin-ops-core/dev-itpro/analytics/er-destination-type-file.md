@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: f48d4c28f74d9eea7289b9911269527073304d6f
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
-ms.translationtype: HT
+ms.openlocfilehash: adb32efd3849c94294d9fe9e706f39d209116d259e0d964d1558cc0e49009a5a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753484"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760802"
 ---
 # <a name="file-destination"></a>Faila adresāts
 
@@ -30,7 +30,7 @@ Varat konfigurēt faila adresātu katram MAPES vai FAILA komponentam elektronisk
 
 Ja lapā **Adresāta iestatījumi** opciju **Iespējots** iestatāt uz **Jā**, tad pēc konfigurācijas izpildīšanas tiek parādīts atvēršanas vai saglabāšanas dialoglodziņš.
 
-[![Adresāta iestatījumu lapa](./media/ER_Destinations-EnableFileDestination.png)](./media/ER_Destinations-EnableFileDestination.png)
+[![Adresāta iestatījumu lapa.](./media/ER_Destinations-EnableFileDestination.png)](./media/ER_Destinations-EnableFileDestination.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 

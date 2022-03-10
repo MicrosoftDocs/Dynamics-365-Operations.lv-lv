@@ -1,7 +1,7 @@
 ---
 title: Kanban darbu grafika izveide
 description: Šajā procedūrā apskatīts Kanban darbu plānošanas process noteiktai darba šūnai.
-author: ChristianRytt
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: KanbanJobSchedulingListPage, KanbanPeriodCapacityPart, SysLookup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c8c088e7f70303aae9f106f627778108062a073f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2cab3af0802ae6fa942460cfdd9c0819e1d31d4b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811018"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579092"
 ---
 # <a name="schedule-kanban-jobs"></a>Kanban darbu grafika izveide
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abc8607e5c3c6ab63a3878b92072bde2ebb0216c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: 1aeb527255358ecafafcb64185cb9dcb31243d499c533f9c9390d79658534e3c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814540"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777867"
 ---
 # <a name="register-material-consumption-using-a-mobile-device"></a>Materiālu patēriņa reģistrēšana, izmantojot mobilo ierīci
 
@@ -28,10 +28,9 @@ ms.locfileid: "5814540"
 
 Šajā tēmā ir aprakstītas darbplūsmas, kas ļauj reģistrēt izejmateriālu patēriņu ražošanas procesā, izmantojot rokas ierīci.
 
-<a name="introduction"></a>Ievads
-------------
+## <a name="introduction"></a>Ievads
 
-Šī darbplūsma ir jāizmanto tad, ja ir obligāti nepieciešams nodrošināt materiālu izsekojamību. Šādos gadījumos, lai uzturētu materiālu izsekojamību, jāziņo par precīzu patēriņam paredzēto laiku un daudzumu. Šo procesu var redzēt pretēji sākotnējām vai atgriezeniskajām norakstīšanas operācijām, ja pastāv nobīde starp reģistrācijas laiku un laiku, kad notiek faktiskais patēriņš. Tas izskaidro, kāpēc automātiskā patēriņa stratēģiju nevar izmantot dažiem materiāliem ar izsekojamības prasībām. Tālāk ir sniegts vienkāršs scenārijs, kurā ir paskaidrots, kā iestatīt darbplūsmu, lai iespējotu izejmateriālu patēriņa reģistrāciju ražošanas vajadzībām, izmantojot rokas ierīci. [![Darbplūsmas iestatīšana, lai iespējotu izejmateriālu patēriņa reģistrēšanu, izmantojot rokas ierīci](./media/scenario3.png)](./media/scenario3.png)
+Šī darbplūsma ir jāizmanto tad, ja ir obligāti nepieciešams nodrošināt materiālu izsekojamību. Šādos gadījumos, lai uzturētu materiālu izsekojamību, jāziņo par precīzu patēriņam paredzēto laiku un daudzumu. Šo procesu var redzēt pretēji sākotnējām vai atgriezeniskajām norakstīšanas operācijām, ja pastāv nobīde starp reģistrācijas laiku un laiku, kad notiek faktiskais patēriņš. Tas izskaidro, kāpēc automātiskā patēriņa stratēģiju nevar izmantot dažiem materiāliem ar izsekojamības prasībām. Tālāk ir sniegts vienkāršs scenārijs, kurā ir paskaidrots, kā iestatīt darbplūsmu, lai iespējotu izejmateriālu patēriņa reģistrāciju ražošanas vajadzībām, izmantojot rokas ierīci. [![Darbplūsmas iestatīšana, lai iespējotu izejmateriālu patēriņa reģistrēšanu, izmantojot rokas ierīci.](./media/scenario3.png)](./media/scenario3.png)
 
 ### <a name="scenario-details"></a>Detalizēta informācija par scenāriju
 
@@ -42,17 +41,17 @@ Izveidojiet pabeigtu derīgu preci FG-100 ar materiālu komplektu, kurā ir iet
 
 1.  Jaunas mobilās ierīces izvēlnes elementa izveide: 
 
--    **Izvēlnes vienuma nosaukums** — reģistrēt materiālu patēriņu. 
--    **Virsraksts** — reģistrē materiālu patēriņu. 
--    **Režīms** — netiešs. 
--    **Aktivitātes kods** — reģistrēt materiālu patēriņu.
+-    **Izvēlnes vienuma nosaukums** — reģistrēt materiālu patēriņu. 
+-    **Virsraksts** — reģistrē materiālu patēriņu. 
+-    **Režīms** — netiešs. 
+-    **Aktivitātes kods** — reģistrēt materiālu patēriņu.
 
 2.  Pievienojiet izvēlnes elementu ierīces izvēlnei **Mobilā ražošana**.
 3.  Izveidojiet ražošanas pasūtījumu galaproduktam: 
 
--    **Krājuma numurs** — FG-100 
--    **Vieta** — 5 
--    **Noliktava** — 51 
+-    **Krājuma numurs** — FG-100 
+-    **Vieta** — 5 
+-    **Noliktava** — 51 
 -    **Daudzums** — 150
 
 Ražošanas pasūtījums ir **Novērtēts** un **Izlaists** un noliktavas darbs tiek izveidots.

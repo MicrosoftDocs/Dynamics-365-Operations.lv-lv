@@ -1,28 +1,30 @@
 ---
 title: Datu importēšanas un darbu eksportēšanas pārskats
 description: Lai izveidotu un pārvaldītu datu importēšanas un eksportēšanas darbus, izmantojiet darbvietu Datu pārvaldība.
-author: Sunil-Garg
-manager: AnnBe
-ms.date: 11/02/2020
-ms.topic: article
+author: peakerbl
+ms.date: 10/21/2021
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: sunilg
+ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f019b856c9eb03d745442266677138b8d7a5f50
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
-ms.translationtype: HT
+ms.openlocfilehash: e63daad6f206500bfa21c28635648c717f5bbdde
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570516"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071089"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Datu importēšanas un eksportēšanas darbu pārskats
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Datu importēšanas un eksportēšanas darbu izveidei un pārvaldībai tiek izmantota darbvieta **Datu pārvaldība**. Pēc noklusējuma datu importēšanas un eksportēšanas process izveido sagatavošanas tabulu katram elementam mērķa datu bāzē. Sagatavošanas tabulas pirms jums ļauj datus pārbaudīt, iztīrīt vai konvertēt, pirms tos pārvietojat.
 
@@ -69,6 +71,9 @@ Kad atlasāt kādu elementu, ir jāatlasa formāts tiem datiem, kas tiks eksport
 | XML                    | \-NA-                                      | XML-elements XML-atribūts |
 | Norobežots, fiksēts platums | Komats, semikols, tabulēšanas rakstzīme, vertikālā josla, kols | \-NA-                     |
 
+> [!NOTE]
+> Ir svarīgi **Rindas norobežotājam**, **Kolonnu norobežotājam** un **Teksta kvalificētājam** atlasīt pareizu vērtību, ja **Faila formāta** opcija ir iestatīta uz **Norobežots**. Pārliecinieties, vai datos nav ietverta rakstzīme, kas tiek lietota kā norobežotājs vai ierobežotājs, jo tādējādi importēšanas un eksportēšanas laikā var rasties kļūdas.
+
 ### <a name="sequence-the-entities"></a>Elementu secības norādīšana
 Datu veidnē vai importēšanas un eksportēšanas darbos elementus var izkārtot noteiktā secībā. Kad palaižat darbu, kurā ir vairāki datu elementi, jums ir pārliecinās, vai šie datu elementi ir sakārtoti pareizā secībā. Elementu secību jūs galvenokārt norādāt tā, lai varētu ievērot visas funkcionālās atkarības starp elementiem. Ja elementiem nav funkcionālo atkarību, tad tos var ieplānot paralēlai importēšanai vai eksportēšanai.
 
@@ -107,7 +112,7 @@ Pastāv divi kartēšanas skati: **Kartēšanas vizualizēšana**, kurš ir nokl
 
 Kartējumu lapā varat ģenerēt, atlasot **Ģenerēt avota kartējumu**. Ģenerēts kartējums darbojas tāpat kā automātisks kartējums. Tādēļ visi nekartētie lauki jums ir jākartē manuāli.
 
-![Datu kartēšana](./media/dixf-map.png)
+![Datu kartēšana.](./media/dixf-map.png)
 
 ## <a name="verify-the-security-for-your-import-or-export-job"></a>Sava importēšanas vai eksportēšanas darba drošības pārbaudīšana
 Piekļuve darbvietai **Datu pārvaldība** var būt ierobežota, lai lietotāji bez administratora tiesībām varētu piekļūt tikai noteiktiem datu darbiem. Piekļuve datu darbam tostarp nozīmē pilnu piekļuvi šī darba izpildes vēsturei un piekļuvi sagatavošanas tabulām. Tādēļ, kad veidojat datu darbu, jums ir jāpārliecinās, vai tiek izmantotas atbilstošas piekļuves kontroles.
@@ -133,7 +138,7 @@ Darbu varat palaist vienu reizi, pēc darba definēšanas atlasot pogu **Import�
 ## <a name="validate-that-the-job-ran-as-expected"></a>Pārbaudīšana, vai darba norise notiek paredzētajā veidā
 Gan eksportēšanas, gan importēšanas darbiem problēmu novēršanai un izmeklēšanai ir pieejama darbu vēsture. Vēsturiskās darbu izpildes ir sakārtotas pēc laika diapazoniem.
 
-![Darbu vēsture diapazoni](./media/dixf-job-history.md.png)
+![Darbu vēsture diapazoni.](./media/dixf-job-history.md.png)
 
 Par katru darba palaišanu ir tālāk aprakstītā detalizētā informācija.
 
@@ -162,19 +167,7 @@ Lai paātrinātu datu importu, var iespējot paralēlu faila importēšanu, ja e
     - Laukā **Importa sliekšņa ierakstu skaits** ievadiet sliekšņa ierakstu skaitu importam. Tas nosaka ierakstu skaits, ko apstrādā pavediens. Ja failam ir 10 000 ierakstu, 2500 ieraksti ar uzdevumu skaitu 4 nozīmē, ka katrs pavediens apstrādās 2500 ierakstus.
     - Laukā **Importēt uzdevumu skaitu** ievadiet importa uzdevumu skaitu. Tas nedrīkst pārsniegt maksimālo partijas pavedienu skaitu, kas piešķirts pakešveida apstrādei **Sistēmas administrēšanā \>Servera konfigurācijā**.
 
-## <a name="clean-up-the-staging-tables"></a>Sagatavošanas tabulu iztīrīšana
-Sākot ar platformas atjauninājumu 29, šī funkcionalitāte ir novecojusi. Tā ir aizstāta ar jaunu darbu vēstures tīrīšanas funkcionalitātes versiju, kas izskaidrota tālāk.
-
-Sagatavošanas tabulas varat iztīrīt, izmantojot līdzekli **Sagatavošanas iztīrīšana** darbvietā **Datu pārvaldība**. Lai atlasītu, kuri ieraksti ir jāizdzēš un no kuras sagatavošanas tabulas, varat izmantot tālāk aprakstītās opcijas.
-
-- **Elements** — ja ir nodrošināts tikai elements, no šī elementa sagatavošanas tabulas tiek dzēsti visi ieraksti. Atlasiet šo opciju, lai šim elementam iztīrītu visus datus visos datu projektos un visos darbos.
-- **Darba ID** — ja ir nodrošināts tikai darba ID, no atbilstošajām sagatavošanas tabulām tiek dzēsti visi ieraksti visiem elementiem atlasītajā darbā.
-- **Datu projekti** — ja ir atlasīts tikai datu projekts, atlasītajam datu projektam tiek dzēsti visi ieraksti visiem elementiem un visos darbos.
-
-Šīs opcijas varat arī kombinēt, lai dzēšamo ierakstu kopu ierobežotu vēl vairāk.
-
-## <a name="job-history-clean-up-available-in-platform-update-29-and-later"></a>Darbu vēstures tīrīšana (pieejama platformas atjauninājumā 29 un jaunākās versijās)
-
+## <a name="job-history-clean-up"></a>Darbu vēstures tīrīšana 
 Darba vēstures tīrīšanas funkcionalitāte datu pārvaldībā jāizmanto, lai ieplānotu periodisku izpildes vēstures tīrīšanu. Šī funkcionalitāte aizstāj iepriekšējo sagatavošanas posmu tabulas tīrīšanas funkcionalitāti, kas tagad ir novecojusi. Tālāk minētās tabulas tiks tīrītas, izmantojot tīrīšanas procesu.
 
 -   Visas inscinējuma tabulas
@@ -199,7 +192,7 @@ Līdzeklim **Izpildes vēstures tīrīšana** jābūt iespējotai līdzekļu pā
 
 Plānojot tīrīšanas procesu, ir jānorāda tālāk norādītie parametri, lai definētu tīrīšanas kritērijus.
 
--   **Vēstures saglabāšanas dienu skaits**  — šis iestatījums tiek izmantots, lai kontrolētu izpildes vēstures apjomu, kas jāsaglabā. Tas tiek norādīts kā dienu skaits. Kad tīrīšanas darbs ir ieplānots kā periodisks pakešuzdevums, šis iestatījums darbosies kā pastāvīgi kustīgs logs, tādējādi vienmēr atstājot norādītā dienu skaita vēsturi neskartu un dzēšot pārējo. Noklusējums ir 7 dienas.
+-   **Vēstures saglabāšanas dienu skaits** — šis iestatījums tiek izmantots, lai kontrolētu izpildes vēstures apjomu, kas jāsaglabā. Tas tiek norādīts kā dienu skaits. Kad tīrīšanas darbs ir ieplānots kā periodisks pakešuzdevums, šis iestatījums darbosies kā pastāvīgi kustīgs logs, tādējādi vienmēr atstājot norādītā dienu skaita vēsturi neskartu un dzēšot pārējo. Noklusējums ir 7 dienas.
 
 -   **Darba izpildes stundu skaits** — atkarībā no notīrāmā vēstures apjoma kopējais tīrīšanas darba izpildes laiks var būt robežās no dažām minūtēm līdz dažām stundām. Šim parametram ir jābūt iestatītam uz to stundu skaitu, cik ilgā darbs tiks izpildīts. Kad tīrīšanas darbs ir izpildīts noteiktam stundu skaitam, darbs tiks aizvērts un atsāks tīrīšanu nākamreiz, kad tas tiks palaists, pamatojoties uz atkārtošanās grafiku.
 
@@ -210,18 +203,12 @@ Plānojot tīrīšanas procesu, ir jānorāda tālāk norādītie parametri, lai
 > [!NOTE]
 > Ja sagatavošanas posmu tabulas ieraksti nav pilnībā notīrīti, pārliecinieties, ka ir ieplānota tīrīšanas darba atkārtota izpilde. Kā paskaidrots iepriekš, jebkurā tīrīšanas izpildē darbs attīrīs tikai tik daudz izpildes ID, cik tas ir iespējams norādītā maksimālo stundu laikā. Lai turpinātu atlikušo sagatavošanas posmu ierakstu tīrīšanu, ir jāieplāno darba periodiska izpilde.
 
-## <a name="job-history-clean-up-and-archival-available-for-preview-in-platform-update-39-or-version-10015"></a>Darbu vēstures tīrīšana un arhivēšana (pieejama kā priekšskatījums platformas atjauninājumā 39 vai versijā 10.0.15)
-Darbu vēstures tīrīšanas un arhivēšanas funkcionalitāte aizstāj tīrīšanas funkcionalitātes iepriekšējās versijas. Šajā sadaļā tiks izskaidrotas šīs jaunās iespējas.
+## <a name="job-history-clean-up-and-archival"></a>Darba vēstures tīrīšana un arhivēšana 
+Darba vēstures tīrīšanas un arhivēšanas funkcionalitāte aizstāj tīrīšanas funkcionalitātes iepriekšējās versijas. Šajā sadaļā tiks izskaidrotas šīs jaunās iespējas.
 
-Viena no galvenajām izmaiņām tīrīšanas funkcionalitātē ir sistēmas partijas darba izmantošana vēstures tīrīšanai. Sistēmas partijas darba izmantošana ļauj Finance and Operations programmām automātiski ieplānot tīrīšanas partijas darbu un palaist to, tiklīdz sistēma ir gatava. Vairs nav nepieciešams manuāli ieplānot partijas darbu. Šajā noklusējuma izpildes režīmā partijas darbs tiks izpildīts katru stundu, sākot no 24:00 pusnaktī, un saglabās izpildes vēsturi par iepriekšējām 7 dienām. Iztīrītā vēsture tiek arhivēta turpmākai izguvei.
+Viena no galvenajām izmaiņām tīrīšanas funkcionalitātē ir sistēmas partijas darba izmantošana vēstures tīrīšanai. Sistēmas pakešdarba izmantošana ļauj programmām Finance and Operations automātiski ieplānot un palaist tīrīšanas pakešdarbu, tiklīdz sistēma ir gatava. Vairs nav nepieciešams manuāli ieplānot partijas darbu. Šajā noklusējuma izpildes režīmā partijas darbs tiks izpildīts katru stundu, sākot no pusnakts, un saglabās izpildes vēsturi par iepriekšējām 7 dienām. Iztīrītā vēsture tiek arhivēta turpmākai izguvei. Sākot ar versiju 10.0.20, šis līdzeklis vienmēr ir iespējots.
 
-> [!NOTE]
-> Tā kā šī funkcionalitāte ir priekšskatījumā, sistēmas partijas darbs nedzēsīs nevienu izpildes vēsturi, kamēr tas nebūs iespējots, izmantojot ierobežoto līdzekli DMFEnableExecutionHistoryCleanupSystemJob. Kad šis līdzeklis būs vispārēji pieejams nākotnes laidienā, šis ierobežotais līdzeklis nebūs nepieciešams, un sistēmas partijas darbs sāks tīrīšanu un arhivēšanu pēc tam, kad sistēma būs gatava, pamatojoties uz noteikto grafiku, kā paskaidrots iepriekš. 
-
-> [!NOTE]
-> Nākotnes laidienā iepriekšējās tīrīšanas funkcionalitātes versijas tiks noņemtas no Finance and Operations programmām.
-
-Otrā izmaiņa tīrīšanas procesā ir iztīrītās izpildes vēstures arhivēšana. Tīrīšanas darbs atarhivēs dzēstos ierakstus uz BLOB krātuvi, ko DIXF izmanto regulārai integrācijai. Arhivētais fails būs DIXF pakotnes formātā un būs pieejams BLOB 7 dienas, kuru laikā to iespējams lejupielādēt. Arhivēšanas faila noklusējuma 7 dienu ilgmūžību parametros iespējams mainīt uz maksimums 90 dienām.
+Otrā izmaiņa tīrīšanas procesā ir iztīrītās izpildes vēstures arhivēšana. Tīrīšanas darbs arhivēs dzēstos ierakstus uz BLOB krātuvi, ko DIXF izmanto regulārai integrācijai. Arhivētais fails būs DIXF pakotnes formātā un būs pieejams BLOB 7 dienas, kuru laikā to iespējams lejupielādēt. Arhivēšanas faila noklusējuma 7 dienu ilgmūžību parametros iespējams mainīt uz maksimums 90 dienām.
 
 ### <a name="changing-the-default-settings"></a>Noklusējuma iestatījumu maiņa
 Šī funkcionalitāte pašlaik ir priekšskatījumā, un tā ir skaidri jāieslēdz, iespējojot ierobežoto līdzekli DMFEnableExecutionHistoryCleanupSystemJob. Tīrīšanas līdzekļa izstādīšanai arī ir jābūt ieslēgtai arī līdzekļa pārvaldībā.

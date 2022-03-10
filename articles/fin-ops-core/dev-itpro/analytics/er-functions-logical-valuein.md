@@ -2,11 +2,8 @@
 title: VALUEIN ER funkcija
 description: Šajā tēmā ir sniegta informācija par to, kā tiek izmantota VALUEIN elektroniskā pārskata (ER) funkcija.
 author: NickSelin
-manager: kfend
-ms.date: 08/18/2020
-ms.topic: article
+ms.date: 12/14/2021
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a133067ab74c711084cc1d7f456cbe49acdf79d
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: efa811df360b2ca38eb59bac849e70041405fa81
+ms.sourcegitcommit: b1c758ec4abfcf3bf9e50f18c1102d4a9c1316d0
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4686934"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922366"
 ---
 # <a name="valuein-er-function"></a>VALUEIN ER funkcija
 
@@ -65,6 +62,9 @@ Parasti funkcija `VALUEIN` tiek tulkota uz **OR** nosacījumu kopu. Ja **OR** no
 ```
 
 Dažos gadījumos to var pārtulkot uz datu bāzes SQL paziņojumu, izmantojot `EXISTS JOIN` operatoru.
+
+> [!NOTE]
+> Funkcijai atgrieztā vērtība tiek izmantota dažādi, atkarībā no tā, vai šī funkcija tiek lietota, lai norādītu funkcijas vai `VALUEIN`[funkcijas](er-functions-list-filter.md#usage-notes)[`FILTER`](er-functions-list-filter.md) atlases [`WHERE`](er-functions-list-where.md) kritērijus.
 
 ## <a name="example-1"></a>1. piemērs
 
@@ -119,3 +119,6 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 [Loģiskās funkcijas](er-functions-category-logical.md)
 
 [VALUEINLARGE funkcijas](er-functions-logical-valueinlarge.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

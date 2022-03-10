@@ -2,7 +2,7 @@
 title: Piekrišana izmantot vērtējumus un atsauksmes
 description: Šajā tēmā ir paskaidrots, kā piekrist izmantot vērtējumus un apskatus savā Microsoft Dynamics 365 Commerce vietnē.
 author: gvrmohanreddy
-ms.date: 01/30/2020
+ms.date: 02/16/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9fe8e9403ccbdc1e26620ae33c6a3866af06b23c
-ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
-ms.translationtype: HT
+ms.openlocfilehash: 19c3e8b32654f7c4b7803c547e9d5692f9fc461b
+ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7473433"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8311933"
 ---
 # <a name="opt-in-to-use-ratings-and-reviews"></a>Piekrišana izmantot vērtējumus un atsauksmes
 
@@ -39,9 +39,9 @@ Lai piekristu savā vietnē izmantot vērtējumus un apskatus, veiciet tālāk m
 1. Veiciet darbības, kas minētas [Izvietot jaunu e-komercijas vietni](deploy-ecommerce-site.md).
 1. Kamēr vēl esat LCS, dodieties uz **Mazumtirdzniecības izvietošanas iestatīšana \> Citi iestatījumi**.
 1. Iestatiet opciju **Iespējot vērtējumus un apskatus** uz **Jā**.
-1. Laukā **AAD drošības grupas moderators vērtējumiem un apskatiem (drošības grupas objekta ID)** ievadiet Microsoft Azure Active Directory (Azure AD) drošības grupas ID, kas ietver vērtējumu un apskatu moderatorus.
+1. **AAD drošības grupā novērtējumiem un pārskatiet regulētāja** lauku, ievadiet Microsoft Azure Active Directory (Azure AD) drošības grupas ID, kas ietver vērtējumus un pārskata starpniekus.
 
-    ![Piekrišana izmantot vērtējumus un atsauksmes.](media/LCS_RnR_Preference.png)
+    ![Piekrišana izmantot vērtējumus un atsauksmes.](media/LCS_RnR_Preference_2.png)
 
 1. Pabeidziet e-komercijas inicializēšanas procesu.
 
@@ -58,7 +58,13 @@ Lai piekristu savā vietnē izmantot vērtējumus un apskatus, veiciet tālāk m
 
 [Preču vērtējumu sinhronizācija Dynamics 365 Commerce](sync-product-ratings.md)
 
+[Iespējojiet moderatora manuālo vērtējumu un atsauksmju publicēšanu](manual-publish-rating-reviews.md)
 
+[Novērtējumu un pārskatu importēšana un eksportēšana](import-export-reviews.md)
+
+[Autentifikācijas starp pakalpojumiem konfigurēšana](service-to-service-auth.md)
+
+[BUJ par vērtējumiem un atsauksmēm](ratings-reviews-faq.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

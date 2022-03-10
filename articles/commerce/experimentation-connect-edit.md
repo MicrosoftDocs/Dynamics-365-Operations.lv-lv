@@ -2,11 +2,9 @@
 title: Eksperimenta pievienošana un variantu rediģēšana
 description: Šajā tēmā ir aprakstīts, kā pievienot eksperimentu trešās puses pakalpojumam Dynamics 365 Commerce un kā rediģēt eksperimenta variantus.
 author: sushma-rao
-manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 2a33897d01dd98d446c2fb49e417abd9db9f403a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: d3b1a099e29073e82e2118f9e43441a9068a4d10f0ea9f79123b97d2b7d5c419
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010028"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773037"
 ---
 # <a name="connect-an-experiment-and-edit-variations"></a>Eksperimenta pievienošana un variantu rediģēšana
 
@@ -30,7 +28,7 @@ ms.locfileid: "5010028"
 
 Tālāk esošajā diagrammā ir parādītas visas darbības, kas jāveic, lai iestatītu un izpildītu eksperimentu e-komercijas tīmekļa vietnē pakalpojumā Dynamics 365 Commerce. Papildu darbības ir apskatītas atsevišķās tēmās.
 
-[ ![Eksperimenta lietotāja maršruts – pievienošana un rediģēšana](./media/experimentation_connect_edit.svg) ](./media/experimentation_connect_edit.svg#lightbox)
+[ ![Eksperimenta lietotāja maršruts – pievienošana un rediģēšana.](./media/experimentation_connect_edit.svg) ](./media/experimentation_connect_edit.svg#lightbox)
 
 Pēc [eksperimenta iestatīšanas](experimentation-setup.md) trešās puses pakalpojumā, jūs pievienosit eksperimentu Dynamics 365 Commerce un rediģēsit eksperimenta variantus.
 
@@ -94,3 +92,6 @@ Ja definējāt eksperimenta tvērumu kā **pilnīgu** vednī **Pievienot eksperi
 
 ## <a name="next-step"></a>Nākamā darbība
 [Eksperimenta priekšskatīšana un publicēšana](experimentation-preview-publish.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

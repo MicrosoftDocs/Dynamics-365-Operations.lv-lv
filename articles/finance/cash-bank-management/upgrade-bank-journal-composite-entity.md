@@ -1,12 +1,10 @@
 ---
-title: Atjaunināt bankas žurnāla salikto elementu
-description: Lai saliktajam elementam BankJournalEntity pievienotu papildu lauku BankTransactionType, ir nepieciešams izpildīt tālāk aprakstītās darbības.
-author: ShylaThompson
-manager: panolte
+title: Bankas žurnāla salikto elementu atjaunināšana
+description: Lai saliktajam elementam BankJournalEntity pievienotu papildu lauku BankTransactionType, šajā rakstā ir uzskaitītas nepieciešamās darbības.
+author: panolte
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer
 ms.reviewer: roschlom
@@ -16,18 +14,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 18137ca8cecc43b4269f14b36df2eb8063192e52
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 0d4334e9aa333aad116f0a0291d9175268661f11
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236351"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595438"
 ---
-# <a name="update-the-bank-journal-composite-entity"></a>Atjaunināt bankas žurnāla salikto elementu
+# <a name="update-the-bank-journal-composite-entity"></a>Bankas žurnāla salikto elementu atjaunināšana
 
 [!include [banner](../includes/banner.md)]
 
-Lai saliktajam elementam BankJournalEntity pievienotu papildu lauku BankTransactionType, ir nepieciešams izpildīt tālāk aprakstītās darbības.
+Lai saliktajam elementam BankJournalEntity pievienotu papildu lauku BankTransactionType, šajā rakstā ir uzskaitītas nepieciešamās darbības.
 
 Lai saliktajam elementam BankJournalEntity pievienotu papildu lauku BankTransactionType, izpildiet tālāk aprakstītās darbības.
 

@@ -1,8 +1,8 @@
 ---
-title: Skaidras naudas pozīcija (priekšskatījums)
+title: Finansiālais stāvoklis
 description: Šajā tēmā aprakstīts, kā skaidras naudas plūsmas prognozēšanas līdzeklis prognozē organizācijas skaidras naudas pozīciju noteiktam laikam. Tajā ir aprakstītas arī opcijas, kas pieejamas, lai parādītu prognozes dažādiem periodiem.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 12/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 457dd34a2ccddce0e94f956ba2b854c27a270f13341047e508ac702aa1281d25
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 7d43657573ea8092f047615fc50a1a50ab97f094
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717477"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968991"
 ---
-# <a name="cash-position-preview"></a>Skaidras naudas pozīcija (priekšskatījums)
+# <a name="cash-position"></a>Finansiālais stāvoklis
 
 [!include [banner](../includes/banner.md)]
 
@@ -45,7 +45,16 @@ Cilnes **Skaidras naudas pozīcija** apakšējā daļa parāda detalizētu infor
 
 Lai saglabātu un rediģētu skaidras naudas pozīciju, izveidojiet momentuzņēmumu. Lai iegūtu papildinformāciju par to, kā strādāt ar momentuzņēmumiem, skatiet [Pārskats par momentuzņēmumiem](payment-snapshots.md).
 
-#### <a name="privacy-notice"></a>Paziņojums par konfidencialitāti
-Priekšskatījumiem (1) var tikt izmantots mazāk konfidencialitātes un drošības pasākumu nekā pakalpojumam Dynamics 365 Finance and Operations, (2) tie nav ietverti pakalpojuma līmeņa līgumā par šo pakalpojumu, (3) tos nedrīkst izmantot personas datu vai citu tādu datu apstrādei, uz kuriem attiecas juridiskās vai normatīvās prasības, un (4) tiem tiek nodrošināts ierobežots atbalsts.
+## <a name="details-of-the-cash-position-capability"></a>Detalizēta informācija par skaidras naudas pozīcijas spēju 
+
+Funkcija Skaidras naudas pozīcija ietver šādu funkcionalitāti. 
+
+- Skaidras naudas pozīcijas funkcija parāda kases plūsmu, balstoties uz sistēmā esošajiem dokumentiem, kā arī naudas ieplūdes un aizplūšanas rindām, kas importētas no ārējām sistēmām.
+- Atvieglo skaidras naudas plūsmas datu integrēšanu no ārējām sistēmām uz Dynamics 365 Finance. Skaidras naudas pozīcija var izmantot arī datu importēšanas/eksportēšanas struktūru. Šī struktūra atvieglo integrāciju ar Excel OData. Jūs varat kombinēt arī datus no vairākiem avotiem, lai izveidotu vispārēju skaidras naudas pozīcijas risinājumu.
+- Iepazīstina ar programmējamo skaidras naudas pozīciju. Skaidras naudas pozīcija tiek izveidota, balstoties uz debitora maksājumu uzvedību, lai paredzētu, kad uzņēmums var gaidīt skaidras naudas pienākšanu kontos.
+- Debitoru pasūtījumiem un rēķiniem debitoru maksājumu prognozēšanas AI funkcionalitāte tiek izmantota, lai noteiktu vēsturisko debitora maksājumu uzvedību, kad tiks maksāts pasūtījums vai rēķins.
+- Kreditoru pasūtījumos un rēķinos tiek izmantots vidējais laiks starp nosūtīšanu un rēķinu un rēķina apmaksu katram kreditoram, lai noteiktu, kad kreditora pasūtījums vai rēķins tiks apmaksāts, veicot naudas izdevumu precīzāku.
+
+Tas izveido precīzāku naudas plūsmas skatu, balstoties uz kasiera vēsturisko maksājumu uzvedību. 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

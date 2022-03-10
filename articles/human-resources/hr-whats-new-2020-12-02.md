@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d95c92fe15f4dfe77d2bc8a153f86165c17edb4e
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
-ms.translationtype: HT
+ms.openlocfilehash: 6e02586ad3e6b4428f2ba826851db6ebc3172bdf1760b483032f5159e7864a81
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5892637"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6782663"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-december-2-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources 2020. gada 2. decembris
 

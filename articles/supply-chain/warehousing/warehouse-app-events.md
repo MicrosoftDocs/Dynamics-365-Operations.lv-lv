@@ -2,11 +2,9 @@
 title: Noliktavas programmas notikumi
 description: Šajā tēmā aprakstīta noliktavas programmas notikumu apstrāde, ko izmanto, lai apstrādātu noliktavas programmas notikumu ziņojumus kā daļu no pakešuzdevuma.
 author: perlynne
-manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileDeviceQueueEvent
 audience: Application User
@@ -15,25 +13,22 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 66a5ca8a679563b59ca23992f7e0b4ee6fab470b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 8c92bf179006d668f8673e9abc3419a10e644184
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993808"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103267"
 ---
 # <a name="warehouse-app-event-processing"></a>Noliktavas lietojumprogrammas notikumu apstrāde
 
 [!include [banner](../includes/banner.md)]
 
-Pakešuzdevumi, kas tiek izpildīti Supply Chain Management, var izmantot datus no noliktavas programmas izsniegtās notikumu apstrādes rindas, lai atbilstoši reaģētu uz signalizētajiem notikumiem. Šis līdzeklis rindai pievieno svarīgus notikumus, atbildot uz noteiktiem darbību veidiem, ko veikuši darbinieki, izmantojot programmu. Piemēram, izmantojot līdzekli **Izveidot un apstrādāt pārsūtīšanas pasūtījumus no noliktavas programmas**, pārsūtīšanas pasūtījuma virsraksts un rindas tiek izveidotas un atjauninātas aizmugursistēmā, kad sistēma palaiž pakešuzdevumu **Apstrādāt noliktavas programmas notikumus**.
+Pakešuzdevumi, kas tiek izpildīti Supply Chain Management, var izmantot datus no noliktavas programmas izsniegtās notikumu apstrādes rindas, lai atbilstoši reaģētu uz signalizētajiem notikumiem. Šis līdzeklis rindai pievieno svarīgus notikumus, atbildot uz noteiktiem darbību veidiem, ko veikuši darbinieki, izmantojot programmu. Piemēram, izmantojot līdzekli *Izveidot un apstrādāt pārsūtīšanas pasūtījumus no noliktavas programmas*, pārsūtīšanas pasūtījuma virsraksts un rindas tiek izveidotas un atjauninātas aizmugursistēmā, kad sistēma palaiž pakešuzdevumu **Apstrādāt noliktavas programmas notikumus**.
 
-## <a name="enable-the-process-warehouse-app-events-feature"></a>Iespējot līdzekli Apstrādāt noliktavas programmas notikumus
+## <a name="turn-the-process-warehouse-app-events-feature-on-or-off"></a>Ieslēgt vai izslēgt līdzekli Apstrādāt noliktavas programmas notikumus
 
-Lai varētu izmantot šo līdzekli, tam vispirms jābūt iespējotam sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lapu, lai pārbaudītu līdzekļa statusu un iespējotu to pēc nepieciešamības. Līdzeklis Apstrādāt noliktavas programmas notikumus ir norādīts kā:
-
-- **Modulis** — Noliktavas vadība
-- **Līdzekļa nosaukums** — Apstrādāt noliktavas programmas notikumus
+No Piegādes ķēdes pārvaldības versijas 10.0.25 šī funkcija ir ieslēgta pēc noklusējuma. Administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot *apstrādes noliktavas programmas notikumu* līdzekli līdzekļu [pārvaldības darbvietā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-a-batch-job-to-process-warehouse-app-events"></a>Iestatiet pakešuzdevumu, lai apstrādātu noliktavas programmas notikumus
 
@@ -50,7 +45,7 @@ Iestatiet ieplānotu pakešuzdevumu, lai apstrādātu noliktavas programmas noti
 
 ## <a name="query-warehouse-app-events"></a>Vaicājumu noliktavas programmas notikumi
 
-Varat skatīt notikumu rindu un notikumu ziņojumus, ko ģenerējusi noliktavas programma, dodoties uz **Noliktavas pārvaldība \> Pieprasījumi un pārskati \> Mobilās ierīces žurnāli \> Noliktavas programmas notikumi**.
+Varat skatīt notikumu rindu un notikumu ziņojumus, ko ģenerējusi Warehouse Management mobile programma, dodoties uz **Noliktavas pārvaldība \> Pieprasījumi un pārskati \> Mobilās ierīces žurnāli \> Noliktavas programmas notikumi**.
 
 ## <a name="the-standard-event-queue-process"></a>Standarta notikumu rindas process
 
@@ -77,3 +72,6 @@ Lai atiestatītu nesekmīgu noliktavas programmas notikuma ziņojumu:
 1. Turpiniet darbu, līdz visi atbilstošie ziņojumi ir atiestatīti.
 
 Varat arī noņemt notikuma ziņojumu **Nesekmīgs**, izmantojot opciju **Dzēst** rīkjoslā **Noliktavas programmas notikumu ziņojumi**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Mazumtirdzniecības pārskati
 description: Šajā tēmā ir aprakstīts pārskatu izveides un grāmatošanas process.
 author: ashishmsft
-manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: e9162bb9b56432dbeb4638e0598dcbf436ab0b1b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 64b6fbda9f0396eb4ee6e2e248941f1429d4485278180d5c70dac6dd837a4537
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989505"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6738700"
 ---
 # <a name="retail-statements"></a>Mazumtirdzniecības pārskati
 
@@ -33,7 +31,7 @@ Programmā Dynamics 365 Commerce pārskatu grāmatošanas process tiek izmantots
 
 Tālāk esošajā attēlā parādīts pārskatu grāmatošanas process. Šajā procesā POS reģistrētās transakcijas tiek pārsūtītas uz klientu, izmantojot Commerce plānotāju. Kad klients ir saņēmis transakcijas, varat izveidot, aprēķināt un grāmatot veikala transakciju pārskatu.
 
-[![Pārskatu grāmatošanas process](./media/retail-statements.png)](./media/retail-statements.png)
+[![Pārskatu grāmatošanas process.](./media/retail-statements.png)](./media/retail-statements.png)
 
 ## <a name="creating-and-posting-statements"></a>Pārskatu izveide un grāmatošana
 
@@ -87,3 +85,6 @@ Kad grāmatojat pārskatu, pārskatā tiek izveidoti pārdošanas pasūtījumi u
 - Transakcijām, kurām programmā ir pievienots debitors, POS sistēmā tiek ģenerēti atsevišķi pārdošanas pasūtījumi un rēķini — pa vienam katram unikālajam debitoram.
 
 Pārskatā iekļautajiem maksājumiem automātiski tiek izveidoti maksājumu žurnāli, un POS veikalā tiek atjaunināti krājumi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

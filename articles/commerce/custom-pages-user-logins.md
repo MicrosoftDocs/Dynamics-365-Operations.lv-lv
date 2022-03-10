@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0318814f421ab862559965bb4b003308d6279812
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
-ms.translationtype: HT
+ms.openlocfilehash: f4a3c7c3410a903ae7bc0bac27e861a0dbfa19fdd65761628549c403c4e5db16
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799449"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723267"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Pielāgotu lapu iestatīšana lietotāja pierakstīšanās gadījumiem
 
@@ -32,7 +32,7 @@ Lai izmantotu pielāgotās lapas, kas ir autorizētas Dynamics 365 Commerce, lai
 Pielāgotās Commerce lapas var veidot, izmantojot pierakstīšanos, parakstīšanos, konta profila rediģēšanu, paroles atiestatīšanu vai vispārīgu AAD moduli. Šīm pielāgotajām lapām publicētie lapu URL jāraksturo Azure AD B2C politikas konfigurācijās Azure portālā.
 
 > [!WARNING] 
-> Azure AD B2C atiestata veco (mantojuma) lietotāju plūsmas uz 2021. gada 1. augustu. Tādēļ jums jāplāno migrēt savas lietotāja plūsmas uz jauno ieteicamo versiju. Jaunā versija nodrošina līdzekļu pārību un jaunas funkcijas. Papildinformāciju skatiet sadaļā [Lietotāju darbplūsmas Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/user-flow-overview).
+> Azure AD B2C atiestata veco (mantojuma) lietotāju plūsmas uz 2021. gada 1. augustu. Tādēļ jums jāplāno migrēt savas lietotāja plūsmas uz jauno ieteicamo versiju. Jaunā versija nodrošina līdzekļu pārību un jaunas funkcijas. Papildinformāciju skatiet sadaļā [Lietotāju darbplūsmas Azure Active Directory B2C](/azure/active-directory-b2c/user-flow-overview).
 
 >Ar ieteiktajām B2C lietotāju plūsmām ir jāizmanto Commerce versijas 10.0.15 vai jaunāka moduļa bibliotēka. Var izmantot arī noklusējuma lietotāja politikas lapas, kas tiek piedāvātas Azure AD B2C, un atļaut pievienot fona attēlu, logotipu un fona krāsu izmaiņas, kas saistītas ar uzņēmuma zīmolu. Kaut arī vairāk izstrādes spēju ir ierobežotas, noklusējuma lietotāju politikas lapas nodrošina Azure AD B2C politikas funkcionalitāti, neizveidojot un nekonfigurējot atvēlētās pielāgotās lapas. 
 
@@ -40,7 +40,7 @@ Pielāgotās Commerce lapas var veidot, izmantojot pierakstīšanos, parakstīš
 
 Pēc tam, kad esat iestatījis savu Azure AD B2C nomnieku un saistījis to ar savu Commerce vidi, dodieties uz **Azure AD B2C** lapu Azure portālā un izvēlnes sadaļā **Politikas** atlasiet **Lietotāja plūsmas (politikas)**.
 
-![Lietotāja plūsmas (politikas) komanda izvēlnē](./media/B2C_CustomPage_PoliciesMenu.png)
+![Lietotāja plūsmas (politikas) komanda izvēlnē.](./media/B2C_CustomPage_PoliciesMenu.png)
 
 Tagad varat konfigurēt lietotāja pierakstīšanās plūsmas "Parakstīšanās un pierakstīšanās", "Profila rediģēšana" un "Paroles atiestatīšana".
 
@@ -54,13 +54,13 @@ Lai konfigurētu "Parakstīšanās un pierakstīšanās" politiku, veiciet tāl�
 1. Kolonnā **Ievākt atribūtu** atlasiet izvēles lodziņus **E-pasta adrese**, **Vārds** un **Uzvārds**.
 1. Kolonnā **Atgriešanās prasība** atlasiet izvēles lodziņus **E-pasta adrese**, **Vārds**, **Identitātes nodrošinātājs**, **Uzvārds** un **Lietotāja objekta ID**.
 
-    ![Atlasītie atribūti un prasības](./media/B2C_SignInSignUp_Attributes.png)
+    ![Atlasītie atribūti un prasības.](./media/B2C_SignInSignUp_Attributes.png)
 
 1. Atlasiet **Labi**, lai izveidotu politiku.
 1. Veiciet dubultklikšķi uz jaunā politikas nosaukuma un pēc tam navigācijas rūtī atlasiet **Rekvizīti**.
 1. Iestatiet opciju **Iespējot JavaScript ieviešanu lapas izkārtojumā (priekšskatījums)** uz **Ieslēgts**.
 
-    ![Jaunās politikas rekvizītu lapa](./media/B2C_SignInSignUp_EnableJavascript.png)
+    ![Jaunās politikas rekvizītu lapa.](./media/B2C_SignInSignUp_EnableJavascript.png)
 
 > [!NOTE]
 > Politikas nosaukums būs pilnībā raksturots Commerce vidē. (Prefikss **B2C\_1\_** tiks iekļauts raksturojumā.) Politikas nevar pārdēvēt pēc tam, kad tās izveidotas. Ja aizstājat esošu politiku savai Commerce videi, varat izdzēst sākotnējo politiku un izveidot jaunu politiku ar tādu pašu nosaukumu. Vai arī, ja vide jau ir nodrošināta, varat iesniegt jauno politikas nosaukumu, izmantojot pakalpojuma pieprasījumu.
@@ -150,7 +150,7 @@ Lai atjauninātu "Pierakstīšanās un parakstīšanās" politiku ar pielāgotu 
     1. Atribūtiem **E-pasta adrese**, **Vārds** un **Uzvārds** atlasiet **Nē** kolonnā **Pēc izvēles**.
 1. Atlasiet **Saglabāt**.
 
-    ![Lokālā konta parakstīšanās lapas politikas konfigurēšana](./media/B2C_SignInSignUp_Recommended_PageLayoutExample.png)
+    ![Lokālā konta parakstīšanās lapas politikas konfigurēšana.](./media/B2C_SignInSignUp_Recommended_PageLayoutExample.png)
 
 ### <a name="update-the-profile-editing-policy-with-custom-page-information"></a>"Profila rediģēšanas" politikas atjaunināšana ar pielāgotu lapas informāciju
 
@@ -188,11 +188,11 @@ Moduļa bibliotēkā pierakstīšanās moduļi ir iepriekš aizpildīti ar etiķ
 
 Piemēram, aizmirstās paroles saites noklusējuma teksts ir **Aizmirsta parole?**. Tālāk parādīts šis noklusējuma teksts pierakstīšanās lapā.
 
-![Noklusējuma teksts aizmirstas paroles saitei pierakstīšanās lapā](./media/B2C_SignUp_ModuleFace.png)
+![Noklusējuma teksts aizmirstas paroles saitei pierakstīšanās lapā.](./media/B2C_SignUp_ModuleFace.png)
 
 Tomēr moduļa bibliotēkas pierakstīšanās moduļa global.json failā varat rediģēt tekstu, lai būtu **Aizmirsāt paroli?**, kā parādīts tālāk redzamajā ilustrācijā.
 
-![Atjauninātais saites teksts pierakstīšanās moduļa global.json failā](./media/B2C_CustomizingStringsForModule.png)
+![Atjauninātais saites teksts pierakstīšanās moduļa global.json failā.](./media/B2C_CustomizingStringsForModule.png)
 
 Pēc global.json faila atjaunināšanas un savu izmaiņu publicēšanas jaunais saites teksts parādīsies pierakstīšanās modulī gan Commerce, gan arī aktuālajā pierakstīšanās lapā.
 

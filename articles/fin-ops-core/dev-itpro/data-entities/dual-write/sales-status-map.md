@@ -2,28 +2,19 @@
 title: Kartējuma iestatīšana pārdošanas pasūtījuma statusa kolonnām
 description: Šajā tēmā ir paskaidrots, kā iestatīt pārdošanas pasūtījuma statusa kolonnas duālajam ierakstam.
 author: dasani-madipalli
-manager: tonyafehr
 ms.date: 06/25/2020
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
 ms.author: damadipa
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: cc70501d231390ea15104d508a36300a1b2cd44c
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
-ms.translationtype: HT
+ms.openlocfilehash: 53d824ca2fb1eadf34e62bf9c08b837db3efaf42
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744303"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782288"
 ---
 # <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>Kartējuma iestatīšana pārdošanas pasūtījuma statusa kolonnām
 
@@ -102,7 +93,7 @@ Lai iespējotu **IsSOPIntegrationEnabled** atribūtu, veiciet tālāk norādīt�
 1. Pārlūkā dodieties uz vietni `https://<test-name>.crm.dynamics.com/api/data/v9.0/organizations`. Aizstājiet **\<test-name\>** ar uzņēmuma saiti uz Sales.
 2. Atvērtajā lapā meklējiet **organizationid** un pierakstiet vērtību.
 
-    ![Organizationid meklēšana](media/sales-map-orgid.png)
+    ![Organizationid meklēšana.](media/sales-map-orgid.png)
 
 3. Sadaļā Sales atveriet pārlūka konsoli un izpildiet šādu skriptu. Izmantojiet **organizationid** vērtību no 2. darbības.
 
@@ -121,32 +112,35 @@ Lai iespējotu **IsSOPIntegrationEnabled** atribūtu, veiciet tālāk norādīt�
     );
     ```
 
-    ![JavaScript kods pārlūka konsolē](media/sales-map-script.png)
+    ![JavaScript kods pārlūka konsolē.](media/sales-map-script.png)
 
 4. Pārbaudiet, vai **IsSOPIntegrationEnabled** ir iestatīts uz **true**. Izmantojiet URL no 1. darbības, lai pārbaudītu vērtību.
 
-    ![IsSOPIntegrationEnabled ir iestatīts uz true](media/sales-map-integration-enabled.png)
+    ![IsSOPIntegrationEnabled ir iestatīts uz true.](media/sales-map-integration-enabled.png)
 
 Lai iespējotu **isIntegrationUser** atribūtu, veiciet tālāk norādītās darbības.
 
 1. Sadaļā Sales, dodieties uz **Iestatījumi \> Pielāgošana \> Pielāgot sistēmu**, atlasiet **Lietotāja tabulu** un pēc tam atveriet **Veidlapa \> Lietotājs**.
 
-    ![Lietotāja veidlapas atvēršana](media/sales-map-user.png)
+    ![Lietotāja veidlapas atvēršana.](media/sales-map-user.png)
 
 2. Lauku pārlūkā meklējiet **Integrēšanas lietotāja režīms** un veiciet dubultklikšķi uz tā, lai to pievienotu veidlapai. Saglabājiet izmaiņas.
 
-    ![Integrēšanas lietotāja režīma kolonnas pievienošana veidlapai](media/sales-map-field-explorer.png)
+    ![Integrēšanas lietotāja režīma kolonnas pievienošana veidlapai.](media/sales-map-field-explorer.png)
 
 3. Sadaļā Sales dodieties uz **Iestatījums \> Drošība \> Lietotāji** un mainiet skatu no **Iespējotie lietotāji** uz **Programmas lietotāji**.
 
-    ![Skata mainīšana no Iespējotajiem lietotājiem uz Programmas lietotājiem](media/sales-map-enabled-users.png)
+    ![Skata mainīšana no Iespējotajiem lietotājiem uz Programmas lietotājiem.](media/sales-map-enabled-users.png)
 
 4. Atlasiet divus ierakstu atribūtus **DualWrite IntegrationUser**.
 
-    ![Programmas lietotāju saraksts](media/sales-map-user-mode.png)
+    ![Programmas lietotāju saraksts.](media/sales-map-user-mode.png)
 
 5. Mainiet kolonnas **Integrēšanas lietotāja režīms** vērtību uz **Jā**.
 
-    ![Kolonna Integrēšanas lietotāja režīms vērtības maiņa](media/sales-map-user-mode-yes.png)
+    ![Kolonna Integrēšanas lietotāja režīms vērtības maiņa.](media/sales-map-user-mode-yes.png)
 
 Jūsu pārdošanas pasūtījumi tagad ir kartēti.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
-title: Debitoru portāla lietotāju izveide un pārvaldība
+title: Izveidot un pārvaldīt klientu portāla lietotājus (satur video)
 description: Šajā tēmā ir izskaidrots, kā izveidot Debitoru portāla lietotāju kontus un iestatīt tiem atļaujas.
-author: dasani-madipalli
+author: Henrikan
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
@@ -9,19 +9,20 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: henrikan
 ms.search.validFrom: 2020-04-22
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 453c6f18c689bb8bf2f6208d9181b23a2792f41a
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 4615182e6c3341a376e8e55a1417480e3e3f5ea7
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907769"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062494"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Debitoru portāla lietotāju izveide un pārvaldība
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [banner](../includes/banner.md)]
+
 
 Standarta ieviešanas gadījumā lietotājiem nav iespēju pašiem reģistrēties tīmekļa vietnēm, kas izveidotas, izmantojot Debitoru portālu. Lai pierakstītos tīmekļa vietnē un to izmantotu, administratoram lietotāji ir jāuzaicina. Korporācija Microsoft ar nolūku ir bloķējusi lietotāju pašu reģistrācijas iespēju.
 
@@ -32,13 +33,13 @@ Kad lietotāji pašreģistrējas, kontaktpersonu ieraksti tiek izveidoti automā
 ## <a name="video"></a>Video
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ADkI]
 
-Video (parādīts iepriekš) [Aicināt klientus reģistrēties un izmantot jūsu klientu portālu](https://youtu.be/drGUYHX9QIQ) ir iekļauts [Finance and Operations atskaņošanas sarakstā](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), kas ir pieejams vietnē YouTube.
+The [Aiciniet klientus reģistrēties un izmantot jūsu klientu portālu](https://youtu.be/drGUYHX9QIQ) video (parādīts iepriekš) ir iekļauts [Finance and Operations atskaņošanas saraksts](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) pieejams YouTube.
 
 ## <a name="prerequisite-setup"></a>Priekšnoteikumu iestatīšana
 
 Kontakti Power Apps portālos tiek saglabāti kā ieraksti tabulā **Kontaktpersonas** pakalpojumā Microsoft Dataverse. Pēc tam duālais ieraksts pēc vajadzības sinhronizē šos ierakstus ar Microsoft Dynamics 365 Supply Chain Management.
 
-![Sistēmas diagramma Debitoru portāla kontaktpersonām](media/customer-portal-contacts.png "Sistēmas diagramma Debitoru portāla kontaktpersonām")
+![Sistēmas diagramma Debitoru portāla kontaktpersonām.](media/customer-portal-contacts.png "Sistēmas diagramma Debitoru portāla kontaktpersonām")
 
 Pirms sākat uzaicināt jaunus debitorus, pārliecinieties, ka esat iespējojis tabulas **Kontaktpersonas** kartēšanu duālajā ierakstā.
 
@@ -87,9 +88,9 @@ Tabulā zemāk ir parādīts, kurus pārdošanas pasūtījumus lietotāji katrā
 
 | Pārdošanas pasūtījums | Administrators | Klienta pārstāvis debitoram&nbsp;X | Autorizēts lietotājs: Jane | Autorizēts lietotājs: Sam | Neautorizēts lietotājs: May |
 |---|---|---|---|---|---|
-| Debitors&nbsp;X Pasūtītājs:&nbsp;Jane | Jā | Jā | Jā | Nr. | Nr. |
-| Debitors&nbsp;X Pasūtītājs:&nbsp;Sam | Jā | Jā | Nr. | Jā | Nr. |
-| Debitors&nbsp;Y Pasūtītājs:&nbsp;May | Jā | Nr. | Nr. | Nr. | Nr. |
+| Debitors&nbsp;X Pasūtītājs:&nbsp;Jane | Jā | Jā | Jā | Nē | Nē |
+| Debitors&nbsp;X Pasūtītājs:&nbsp;Sam | Jā | Jā | Nē | Jā | Nē |
+| Debitors&nbsp;Y Pasūtītājs:&nbsp;May | Jā | Nē | Nē | Nē | Nē |
 
 > [!NOTE]
 > Kaut gan Sam un Jane ir kontaktpersonas, kas strādā debitoram X, viņi var skatīt tikai tos pasūtījumus, kurus viņi paši ir ievietojuši, un neko citu. Lai gan May sistēmā ir pasūtījums, viņa nevar redzēt šo pasūtījumu Debitoru portālā, jo viņa ir neautorizēts lietotājs. (Turklāt viņa ir ievietojusi pasūtījumu, izmantojot kādu citu kanālu, nevis Debitoru portālu.)

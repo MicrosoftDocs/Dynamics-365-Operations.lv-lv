@@ -2,11 +2,9 @@
 title: ER finanšu dimensijas, kuras izmanto kā datu avotu (2. daļa. Modeļa kartēšana)
 description: Šajā tēmā ir aprakstīts, kā konfigurēt elektronisko pārskatu (ER) modeli, lai finanšu dimensijas izmantotu kā datu avotu ER pārskatiem. (2. daļa)
 author: NickSelin
-manager: AnnBe
 ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 02c730d08c411e736a7f8b9e7bad3d6a18cb8e6a
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
-ms.translationtype: HT
+ms.openlocfilehash: bc7c6bc299dd0af83db3b09b06276a210ecfada5
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093241"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605409"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>ER finanšu dimensijas, kuras izmanto kā datu avotu (2. daļa. Modeļa kartēšana)
 
@@ -58,14 +56,14 @@ Lai izpildītu šos soļus, vispirms ir jāpabeidz soļi, kas aprakstīti proced
 21. Atlasiet Jā laukā Jautāt galveno kontu.
     * Iestatiet 'Jautāt galveno kontu' uz Jā, lai atļautu lietotājiem atlasīt galveno kontu kā daļu no dimensiju saraksta.   Ja ir iestatīts uz Nē, galvenais konts netiks iekļauts dimensiju sarakstā, un opcija 'Vai galvenais konts ir obligāts' ir iespējota. Ja opcija 'Vai galvenais konts ir obligāts' ir iestatīta uz Jā, iekļaujiet galveno kontu dimensiju sarakstā, neatkarīgi no lietotāja veiktās atlases.  
 22. Noklikšķiniet uz Labi.
-![ER modeļa kartēšanas noformētāja lapa](../media/er-financial-dimensions-guides-model-mapping1.png)
+![Finanšu dimensiju detalizētas informācijas datu avota rekvizīti slaidā.](../media/er-financial-dimensions-guides-model-mapping1.png)
 23. Kokā atlasiet 'Dynamics 365 for Operations\Tabulas ieraksti'.
 24. Noklikšķiniet uz Pievienot sakni.
 25. Laukā Nosaukums ierakstiet 'LedgerJournal'.
 26. Laukā Pieprasīt vaicājumu atlasiet Jā.
 27. Laukā Tabula ievadiet 'LedgerJournalTable'.
 28. Noklikšķiniet uz Labi.
-![ER modeļa kartēšanas noformētāja lapa](../media/er-financial-dimensions-guides-model-mapping2.png)
+![<Modeļa kartējuma veidotāja lapa, tabulas ieraksta datu avota tips.](../media/er-financial-dimensions-guides-model-mapping2.png)
 
 ## <a name="map-data-model-elements-to-added-data-sources"></a>Kartēt datu modeļa elementus pievienotajiem datu avotiem
 1. Kokā izvērsiet 'Žurnāls'.
@@ -96,7 +94,7 @@ Lai izpildītu šos soļus, vispirms ir jāpabeidz soļi, kas aprakstīti proced
 25. Kokā atlasiet "LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Main account and dimensions".
 26. Kokā atlasiet 'Žurnāls\Darbība\Dimensiju dati'.
 27. Noklikšķiniet uz Saistīt.
-![ER modeļa kartēšanas noformētāja lapa](../media/er-financial-dimensions-guides-model-mapping3.png)
+!Modeļu kartējuma veidotāja lapa, cilne Kartēšana, Datu avotu koka skats.](../media/er-financial-dimensions-guides-model-mapping3.png)
 28. Kokā atlasiet "LedgerJournal\<Relations\LedgerJournalTrans\Debit(AmountCurDebit)".
 29. Kokā atlasiet 'Žurnāls\Darbība\Debets'.
 30. Noklikšķiniet uz Saistīt.
@@ -134,10 +132,10 @@ Lai izpildītu šos soļus, vispirms ir jāpabeidz soļi, kas aprakstīti proced
 62. Noklikšķiniet uz Rediģēt.
 63. Laukā expressionAsStringText field ievadiet 'Uzņēmums.'atrast()'.'nosaukums()''.
     * Uzņēmums.'atrast()'.'nosaukums()'  
-64. Klikšķiniet Saglabāt.
-![ER modeļa kartēšanas noformētāja lapa](../media/er-financial-dimensions-guides-model-mapping4.png)
+64. Noklikšķiniet uz Saglabāt.
+![ER modeļa kartēšanas noformētāja lapa.](../media/er-financial-dimensions-guides-model-mapping4.png)
 65. Aizvērt lapu.
-66. Klikšķiniet Saglabāt.
+66. Noklikšķiniet uz Saglabāt.
 67. Aizvērt lapu.
 
 ## <a name="complete-this-draft-models-version"></a>Pabeigt šo modeļa melnraksta versiju
@@ -146,4 +144,7 @@ Lai izpildītu šos soļus, vispirms ir jāpabeidz soļi, kas aprakstīti proced
 3. Noklikšķiniet uz Mainīt statusu.
 4. Noklikšķiniet uz Pabeigt.
 5. Noklikšķiniet uz Labi.
-![ER modeļa kartēšanas noformētāja lapa](../media/er-financial-dimensions-guides-model-mapping5.png)
+![ER konfigurāciju lapa.](../media/er-financial-dimensions-guides-model-mapping5.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

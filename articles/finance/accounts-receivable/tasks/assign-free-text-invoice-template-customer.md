@@ -2,26 +2,23 @@
 title: Brīva teksta rēķina veidnes piešķiršana debitoram
 description: Šajā uzdevumā parādīts, kā debitoram piešķirt brīvā teksta rēķina veidni.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustTable, CustRecurrenceInvoice
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 19742c53406cd1c616e8be1172b93157437132e8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: fb8a683792051a95b443fac47b4670f37c12cc4b4142ee2290b89ee1845662cf
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445485"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740102"
 ---
 # <a name="assign-a-free-text-invoice-template-to-a-customer"></a>Brīva teksta rēķina veidnes piešķiršana debitoram
 
@@ -50,3 +47,6 @@ ms.locfileid: "4445485"
     + Gada — atlasiet šo opciju un ievadiet gadu skaitu laukā Uz. Piemēram, ja ievadāt 2, tad rēķins šim debitoram tiks ģenerēts ik pēc diviem gadiem.  
 14. Laukā **Par** ievadiet skaitli.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

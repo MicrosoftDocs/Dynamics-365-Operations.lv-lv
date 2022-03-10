@@ -1,7 +1,7 @@
 ---
 title: Pirmstecīgas aktivitātes pievienošana ražošanas plūsmai
 description: Ražošanas plūsmas versijā visas aktivitātes ir jāsakārto noteiktā secībā.
-author: cvocph
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 968880db317f74db6bc6d92a4beca9136c0d8de4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: dc1aa742013faeeb545d746f9715c639a5b66b9b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825066"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575079"
 ---
 # <a name="add-a-predecessor-to-a-production-flow-activity"></a>Pirmstecīgas aktivitātes pievienošana ražošanas plūsmai
 

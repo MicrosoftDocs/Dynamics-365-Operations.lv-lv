@@ -2,28 +2,25 @@
 title: Saskaņot bankas izrakstus, izmantojot detalizēto bankas darbību saskaņošanu
 description: Līdzeklis Detalizētā bankas darbību saskaņošana sniedz iespēju importēt elektroniskus bankas izrakstus un tos automātiski saskaņot ar bankas transakcijām programmā Microsoft Dynamics 365 Finance. Šajā tēmā ir paskaidrots šis saskaņošanas process.
 author: saraschi2
-manager: AnnBe
 ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankReconciliationWorksheet
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 98243
 ms.assetid: 9df13adf-aa9d-4f6b-bde6-25a214611692
 ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c13203217af1788fe3b8a6f9bbf805e03b650a0d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: fbfa999d2aaa4b6dad711bb57916a68fb37c57d9add09092783ad3a8d6450c1f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445590"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714452"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Saskaņot bankas izrakstus, izmantojot detalizēto bankas darbību saskaņošanu
 
@@ -31,8 +28,7 @@ ms.locfileid: "4445590"
 
 Līdzeklis Detalizētā bankas darbību saskaņošana sniedz iespēju importēt elektroniskus bankas izrakstus un tos automātiski saskaņot ar bankas transakcijām programmā Dynamics 365 Finance. Šajā tēmā ir paskaidrots šis saskaņošanas process.  
 
-<a name="import-an-electronic-bank-statement"></a>Importēt elektronisku bankas izrakstu
------------------------------------
+## <a name="import-an-electronic-bank-statement"></a>Importēt elektronisku bankas izrakstu
 
 Bankas izrakstus varat importēt, izmantojot darbību **Importēt izrakstu** lapā **Bankas izraksti**. Bankas konts tiek identificēts bankas izrakstā, izmantojot bankas konta rekvizītos iestatīto vērtību kombinācijas. Šīs vērtības ietver bankas nosaukumu, bankas konta numuru, maršrutēšanas numuru, Pasaules Starpbanku finanšu telekomunikāciju sabiedrības (Society for Worldwide Interbank Financial Telecommunication — SWIFT) kodu un starptautisko bankas konta numuru (International Bank Account Number — IBAN). 
 
@@ -96,3 +92,6 @@ Bankas izraksta transakcijas, kas saskaņošanas darblapā tika atzīmētas kā 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

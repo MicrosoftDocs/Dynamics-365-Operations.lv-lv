@@ -1,28 +1,26 @@
 ---
 title: Iepazīšanās ar darba pasūtījumiem
 description: Šajā tēmā ir sniegts pārskats darba pasūtījumiem Līdzekļu pārvaldībā.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderLineNote, EntAssetWorkOrderTable, EntAssetWorkOrderActive, EntAssetWorkOrderHoursInfoPart, EntAssetWorkOrderLineListPage, EntAssetWorkOrderAddObjectBOMItem, EntAssetWorkOrderTablePoolAdd, EntAssetWorkOrderPurchReqListPagePreviewPane, EntAssetWorkOrderPoolReferenceAdd, EntAssetWorkOrderWorkspace, EntAssetWorkOrderTableAdjust, EntAssetWorkOrderGantt, EntAssetWorkOrderNotes, EntAssetWorkOrderActivePart, EntAssetWorkOrderTableInfoPart, EntAssetWorkOrderLineListPagePreviewPane, EntAssetWorkOrderTool, EntAssetMobileWorkOrderLineDetails, EntAssetMobileWorkOrderLineList, EntAssetMobileWorkOrderDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e9890057ab852a7fb0d60056bb102ce15ac124e2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 3891ea08a484950d8fef57d6229117e90ed93a92ab800f9de3ad82db3aff956d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5263738"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754708"
 ---
 # <a name="introduction-to-work-orders"></a>Ievads par darba pasūtījumiem
 
@@ -53,7 +51,7 @@ Atlasiet **Līdzekļu pārvaldība** > **Vispārīgi** > **Darba pasūtījumi** 
 
 Zemāk redzamajā ilustrācijā ir parādīts sarakstu lapas **Visi darba pasūtījumi** piemērs.
 
-![1. attēls](media/01-work-orders.png)
+![1. attēls.](media/01-work-orders.png)
 
 Lai skatītu tikai aktīvo darba pasūtījumu sarakstu, atlasiet **Līdzekļu pārvaldība** > **Vispārīgi** > **Darba pasūtījumi** > **Aktīvie darba pasūtījumi**. 
 
@@ -71,7 +69,7 @@ Tālāk ir norādīti daži veidi, kā varat izmantot **Visi darba pasūtījumi*
 
 Zemāk redzamajā ilustrācijā ir parādīts detalizētā skata **Visi darba pasūtījumi** piemērs.
 
-![2. attēls](media/02-work-orders.png)
+![2. attēls.](media/02-work-orders.png)
 
 
 Pogas darbības rūtī ir sakārtotas cilnēs. Šajā tabulā ir īsi aprakstītas pogas, kas saistītas ar Līdzekļu pārvaldību:

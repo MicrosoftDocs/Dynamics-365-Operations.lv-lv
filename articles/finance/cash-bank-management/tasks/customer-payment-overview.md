@@ -1,33 +1,31 @@
 ---
 title: Debitoru maksājumu pārskats
-description: Šis uzdevumu ceļvedis palīdzēs izprast dažādas metodes, kuras izmanto, lai ievadītu debitora maksājumus.
+description: Šī procedūra palīdzēs izprast dažādas metodes, kuras izmanto, lai ievadītu debitora maksājumus.
 author: kweekley
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, CustPaymEntry, CustTableLookup, LedgerJournalTransCustPaym, CustOpenTrans, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9196bedcea26a0024b3eabbbcb9c58a0155a7490
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: f3782c1dd5e326bfc8ae5c005b58d4039f32b021
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445574"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394493"
 ---
 # <a name="customer-payment-overview"></a>Debitoru maksājumu pārskats
 
 [!include [banner](../../includes/banner.md)]
 
-Šis uzdevumu ceļvedis palīdzēs izprast dažādas metodes, kuras izmanto, lai ievadītu debitora maksājumus. Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums USMF.
+Šī procedūra palīdzēs izprast dažādas metodes, kuras izmanto, lai ievadītu debitora maksājumus. Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums USMF.
 
 1. Pārejiet uz sadaļu **Navigācijas rūts > Moduļi > Debitori > Maksājumi > Maksājumu žurnāls**.
 2. Klikšķiniet **Jauns**.
@@ -52,3 +50,6 @@ ms.locfileid: "4445574"
 21. Laukā **Maksājuma atsauce** ievadiet maksājuma atsauci. Maksājuma atsauce ir nepieciešama tikai tad, ja atzīmējat maksājumu iekļaušanai depozīta kvītī.  
 22. Lai grāmatotu starpuzņēmumu debitora rēķinu, sadaļā **Darbību rūts** noklikšķiniet uz **Grāmatot**, lai iegrāmatotu debitoru maksājumus. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: ER migrācijas tīrīšana
 description: Šajā tēmā skaidrots, kā var izmantot ER migrācijas tīrīšanas funkciju, lai atrisinātu problēmas ar ER veidnēm.
 author: NickSelin
-manager: AnnBe
 ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERWorkspace, ERParameters, ERMigrationCleanup
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: edb60f247b2bd6cc4ecd514e3e85bafbb681788d
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: d437bed9b9873f82bcd047e85245bd2a8c66fb3572c06660f29fc19f66aebae1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4686372"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723145"
 ---
 # <a name="er-migration-cleanup"></a>ER migrācijas tīrīšana 
 
@@ -32,15 +30,15 @@ Kad pārvaldāt Finance instances, varat izlemt migrēt jūsu pašreizējo insta
 
 Ja mēģināt palaist ER formātu, kas izmanto veidni, lai ģenerētu biznesa dokumentus, tiek veikts izņēmums, un jūs tiekat informēts par trūkstošajām veidnēm. Varat arī izmantot ER migrācijas tīrīšanas rīka opciju, lai dzēstu un pēc tam atkārtoti importētu ER formāta konfigurāciju, kas satur veidni.
 
-[![Palaist ER formātu](./media/er-migration-cleanup-run.png)](./media/er-migration-cleanup-run.png)
+[![Palaist ER formātu.](./media/er-migration-cleanup-run.png)](./media/er-migration-cleanup-run.png)
 
-Jūs redzēsiet līdzīgu kļūdu, ja pārvietosieties uz **Konfigurācijas** lapu ( **Organizācijas administrēšana**\> **Elektroniskie pārskati**\> **Konfigurācijas**) un konfigurāciju kokā, mēģināsiet dzēst ER formāta konfigurāciju, kas izmanto veidni.
+Jūs redzēsiet līdzīgu kļūdu, ja pārvietosieties uz **Konfigurācijas** lapu (**Organizācijas administrēšana** \> **Elektroniskie pārskati** \> **Konfigurācijas**) un konfigurāciju kokā, mēģināsiet dzēst ER formāta konfigurāciju, kas izmanto veidni.
 
-[![ER formāta dzēšana](./media/er-migration-cleanup-delete.png)](./media/er-migration-cleanup-delete.png)
+[![ER formāta dzēšana.](./media/er-migration-cleanup-delete.png)](./media/er-migration-cleanup-delete.png)
 
 Veiciet tālāk norādītās darbības, lai atrisinātu problēmas ar ER veidnēm, kurām nevarat piekļūt.
 
-1.  Dodieties uz **Organizācijas administrēšana**\> **Periodiskie**\> **Migrācijas tīrīšana** lapu.
+1.  Dodieties uz **Organizācijas administrēšana** \> **Periodiskie** \> **Migrācijas tīrīšana** lapu.
 2.  Atlasiet ER formāta konfigurāciju, ko nevar izpildīt vai dzēst.
 3.  Atlasiet **Dzēst**.
 4.  Apstipriniet atlasītās ER formāta konfigurācijas dzēšanu.
@@ -52,8 +50,11 @@ Veiciet tālāk norādītās darbības, lai atrisinātu problēmas ar ER veidnē
 >
 > Ja jūs izmantojat **Migrācijas tīrīšanas** opciju, lai dzēstu ER formāta konfigurāciju, kad saistītā veidne ir pieejama Blob glabātuvē, jūs izdzēšat tikai saistītos konfigurācijas artefaktus programmas datu bāzē. Veidnes fiziskais fails BLOB krātuvē saglabājas. Failu pārrakstīšana BLOB krātuvē vairs nav atļauta. Lai iegūtu papildinformāciju, skatiet [KB4557217](https://fix.lcs.dynamics.com/Issue/Details?kb=4557217). Turklāt vairs nevarēsiet atkārtoti importēt konfigurācijas, kas dzēstas, izmantojot šajā vidē esošo Migrācijas tīrīšanu. Lai atrisinātu šo problēmu, ir nepieciešams atrast atbilstošo failu BLOB krātuvē un to manuāli dzēst.
 
-[![ER formāta importēšana](./media/er-migration-cleanup-import.png)](./media/er-migration-cleanup-import.png)
+[![ER formāta importēšana.](./media/er-migration-cleanup-import.png)](./media/er-migration-cleanup-import.png)
 
 Līdzīga problēma var rasties, ja migrējat jūsu programmas instanci uz citu atrašanās vietu, kas izmantota kā migrācijas mērķis vairāk nekā vienu reizi un kam BLOB krātuvē jau ir ER veidnes faili.
 
 Tā kā jums varētu būt vairāki ER formāta konfigurācijas, šis process var būt laikietilpīgs. Tāpēc ieteicams izmantot [ER veidņu dublējumkopiju glabātuves](er-backup-storage-templates.md) iespēju, lai automātiski atkoptu veidnes ar sarautām atsaucēm.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

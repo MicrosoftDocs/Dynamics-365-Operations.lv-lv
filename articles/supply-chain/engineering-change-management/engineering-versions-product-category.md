@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 1ebcb43b6c62ce895d3b1b36d7793f90208ca23e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 42faa9e5f073d718c18422e37212c2ae8a28b28d
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836642"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572893"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Tehniskās versijas un tehnisko preču kategorijas
 
@@ -48,7 +48,8 @@ Kad izmantojat tehniskos produktus, katram produktam ir vismaz viena tehniskā v
 - Inženiertehniskais uzņēmums, kas izveidoja produktu un kam pieder produkts (Plašāku informāciju skatiet [Tehnisko uzņēmumu un datu īpašumtiesību kārtulas](engineering-org-data-ownership-rules.md).)
 - Saistītie tehniskie dokumenti, piemēram, montāžas rokasgrāmata, lietotāja instrukcijas, attēli un saites
 - Tehniskie atribūti (Plašāku informāciju skatiet sadaļā [Tehniskie atribūti un tehnisko atribūtu meklēšana](engineering-attributes-and-search.md).)
-- Tehniskie MK
+- Materiālu komplekts (MK) inženiertehniskajām precēm
+- Procesa ražošanas preču formulas
 - Tehnisko MK maršruti
 
 Šos datus var atjaunināt esošajā versijā vai izveidot jaunu versiju, izmantojot *tehnisko izmaiņu pasūtījumu*. (Papildu informāciju skatiet [Pārvaldiet tehnisko produktu izmaiņas](engineering-change-management.md).) Ja izveidojat jaunu produkta versiju, sistēma kopē visus ar tehniskajiem datiem saistītos datus jaunajai versijai. Pēc tam varat modificēt datus šai jaunajai versijai. Šādā veidā var izsekot konkrētus datus katrai secīgai versijai. Lai salīdzinātu atšķirības starp secīgām tehniskajām versijām, pārbaudiet tehnisko izmaiņu pasūtījumu, kas ietver izmaiņu veidus, kas norāda visas izmaiņas.
@@ -110,9 +111,11 @@ Iestatiet tālāk norādītos laukus preces tehniskās kategorijas kopsavilkuma 
 | Lauks | Apraksts |
 |---|---|
 | Preces veids | Atlasiet, vai kategorija attiecas uz produktiem vai pakalpojumiem. |
-| Izsekošanas versijas darījumos | Atlasiet, vai produkta versijai ir jābūt apzīmogotai visiem darījumiem (loģistikas ietekme). Piemēram, ja izsekojat versiju darījumos, katrs pārdošanas pasūtījums parāda, kura konkrētā produkta versija tika pārdota šajā pārdošanas pasūtījumā. Ja versija netiek izsekota darījumos, pārdošanas pasūtījumi nerādīs, kura konkrētā versija tika pārdota. Tā vietā tie vienmēr rāda jaunāko versiju.<ul><li>Ja šī opcija ir iestatīta uz *Jā*, produktam tiek izveidots preces šablons, un katra produkta versija būs variants, kas izmanto *versijas* produkta dimensiju. Lauks **Produkta apakštips** tiek automātiski iestatīts uz *Preces šablons*, un jums ir jāatlasa produkta dimensiju grupa, kur *versijas* dimensija ir aktīva. Tiks attēlotas tikai tās produkta dimensiju grupas, kurās *versija* ir aktīva dimensija. Varat izveidot jaunas produkta dimensiju grupas, atlasot pogu **Rediģēt** (zīmuļa simbols).</li><li>Ja šī opcija ir iestatīta uz *Nē*, *versijas* produkta dimensija netiks izmantota. Pēc tam varat izvēlēties, vai izveidot produktu vai preces šablonu, kas izmanto citas dimensijas.</li></ul><p>Šī opcija bieži tiek izmantota produktiem, kuriem ir izmaksu atšķirība starp versijām, vai produktiem, kuriem attiecībā uz klientu tiek piemēroti atšķirīgi nosacījumi. Tāpēc ir svarīgi norādīt, kura versija tika izmantota katrā darījumā.</p> |
+| Ražošanas veids | Šis lauks parādās tikai tad, ja esat iespējojis [formulu izmaiņu pārvaldību](manage-formula-changes.md) jūsu sistēmā. Atlasiet ražošanas tipu, uz kuru attiecas šī inženiertehniskā preču kategorija:<ul><li>**Plānošanas krājums** - izmantojiet šo inženiertehnisko kategoriju, lai paveiktu formulas izmaiņu pārvaldību plānošanas krājumiem. Plānošanas krājumiem tiek lietotas formulas. Tie ir līdzīgi formulas krājumiem, taču tos izmanto, lai ražotu tikai līdzproduktus un blakusproduktus, bet ne pabeigtās preces. Formulas tiek lietotas ražošanas procesa laikā.</li><li>**MK** – izmantojiet šo inženiertehnisko kategoriju, lai pārvaldītu tehniskās preces, kuras neizmanto formulas, un parasti (bet ne vienmēr) ietver MK.</li><li>**Formula** - izmantojiet šo inženiertehnisko kategoriju, lai paveiktu formulas izmaiņu pārvaldību pabeigtajām precēm. Šiem krājumiem būs formula, bet ne MK. Formulas tiek lietotas ražošanas procesa laikā.</li></ul> |
+| Pieļaujamais svars | Šī opcija parādās tikai tad, ja esat iespējojis [formulu izmaiņu pārvaldību](manage-formula-changes.md) jūsu sistēmā. Tas ir pieejams tikai tad, ja lauks **Ražošanas tips** ir iestatīts uz *Plānošanas krājums* vai *Formula*. Iestatiet šo opciju uz *Jā*, ja izmantosit šo inženiertehnisko kategoriju, lai pārvaldītu krājumus, kuriem ir nepieciešams atbalsts pieļaujamam svaram. |
+| Izsekošanas versijas darījumos | Atlasiet, vai produkta versijai ir jābūt apzīmogotai visiem darījumiem (loģistikas ietekme). Piemēram, ja izsekojat versiju darījumos, katrs pārdošanas pasūtījums parāda, kura konkrētā produkta versija tika pārdota šajā pārdošanas pasūtījumā. Ja versija netiek izsekota darījumos, pārdošanas pasūtījumi nerādīs, kura konkrētā versija tika pārdota. Tā vietā tie vienmēr rāda jaunāko versiju.<ul><li>Ja šī opcija ir iestatīta uz *Jā*, produktam tiek izveidots preces šablons, un katra produkta versija būs variants, kas izmanto *versijas* produkta dimensiju. Lauks **Produkta apakštips** tiek automātiski iestatīts uz *Preces šablons*, un laukā **Preces dimensijas grupa** jums ir jāatlasa produkta dimensiju grupa, kur *versijas* dimensija ir aktīva. Tiks attēlotas tikai tās produkta dimensiju grupas, kurās *versija* ir aktīva dimensija. Varat izveidot jaunas produkta dimensiju grupas, atlasot pogu **Rediģēt** (zīmuļa simbols).</li><li>Ja šī opcija ir iestatīta uz *Nē*, *versijas* produkta dimensija netiks izmantota. Pēc tam varat izvēlēties, vai izveidot produktu vai preces šablonu, kas izmanto citas dimensijas.</li></ul><p>Šī opcija bieži tiek izmantota produktiem, kuriem ir izmaksu atšķirība starp versijām, vai produktiem, kuriem attiecībā uz klientu tiek piemēroti atšķirīgi nosacījumi. Tāpēc ir svarīgi norādīt, kura versija tika izmantota katrā darījumā.</p> |
 | Preces apakštips | Atlasiet, vai kategorija atradīs preces vai preces šablonus. Preču šabloniem tiks lietotas preču dimensijas.
-| Preces dimensijas grupa | Iestatījums **Atsekošanas versijas darījumos** palīdz izvēlēties produkta apakštipu. Ja norādītajā vēlaties izsekot versijas darījumiem, tiks rādītas tās produktu dimensiju grupas, kurās tiek izmantota *versijas* dimensija. Pretējā gadījumā tiks attēlotas tikai tās produkta dimensiju grupas, kurās *versijas* dimensija netiek izmantota. |
+| Preces dimensijas grupa | Iestatījums **Atsekošanas versijas darījumos** palīdz izvēlēties produkta dimensijas grupu. Ja norādītajā vēlaties izsekot versijas darījumiem, tiks rādītas tās produktu dimensiju grupas, kurās tiek izmantota *versijas* dimensija. Pretējā gadījumā tiks attēlotas tikai tās produkta dimensiju grupas, kurās *versijas* dimensija netiek izmantota. |
 | Preces dzīves cikla stāvoklis izveides laikā | Iestatiet noklusējuma produktu dzīves cikla stāvokli, kas nepieciešams, kad tas tiek izveidots pirmo reizi. Papildinformāciju skatiet šeit: [Produktu dzīves cikla stāvokļi un darījumi](product-lifecycle-state-transactions.md). |
 | Versijas numura kārtula | Atlasiet versijas numura kārtulu, kas attiecas uz kategoriju:<ul><li>**Manuāli** — katrai jaunajai versijai izvēlieties versijas numuru.</li><li>**Automātiski** — sistēma iestata versijas numuru, pamatojoties uz jūsu definēto formātu. Iestatot formātu, izmantojiet numura zīmi (\#) tā , lai tā norādītu ciparu un jebkuru citu rakstzīmi, lai attēlotu konstantu vērtību. Piemēram, definējot formātu kā *V-\#\#*, pirmā versija būs "V-01", otrā versija būs "V-02", un tā tālāk.</li><li>**Saraksts** — sistēma paņem nākamo numuru no iepriekš definēto pielāgoto vērtību saraksta.</li></ul> |
 | Īstenot spēkā stāšanos | Atlasiet, vai tehnisko versiju efektivitāti datumiem jābūt blakusesošiem, vai var būt pārtraukumi un pārklāšanās. Šis iestatījums ietekmē veidu, kādā varat izmantot laukus **Spēkā no** un **Spēkā līdz** katrai tehniskajai versijai, uz kuru attiecas kategorija.<ul><li>Ja šī opcija ir iestatīta uz *Jā*, katrai versijai ir jānorāda **Spēkā no** vērtība, un starp versijām nav pieļaujami ne pārklājumi, ne pārrāvumi. Katras hehniskās versijas datumu diapazons ir tieši saistīts ar iepriekšējām un nākamajām tehniskajām versijām, ja tādas ir. Šādā gadījumā visjaunākā versija tiek izmantota vienmēr, un vecākas versijas vairs netiek lietotas.</li><li>Ja šī opcija ir iestatīta uz **Nē**, tehniskajām versijām nav ierobežojumu attiecībā uz efektivitāti, un ir atļauti gan pārklājumi, gan pārrāvumi. Šādā gadījumā vienlaicīgi var būt aktīvas vairākas versijas, un var strādāt ar jebkuru aktīvu versiju.</li></ul><p>Šī opcija ietekmē arī MK un maršrutus, kas ir saistīti ar produkta versiju. Plašāku informāciju skatiet šīs tēmas sadaļā [Izveidot savienojumu ar MK un maršrutiem tehniskajām versijām](#boms-routes).</p> |
@@ -139,7 +142,10 @@ Katrai rindai, kuru pievienojat režģim, iestatiet tālāk norādītos laukus.
 
 ### <a name="readiness-policy-fasttab"></a>Gatavības politikas kopsavilkuma cilne
 
-Lietojiet lauku **Produktu gatavības politika**, lai atlasītu gatavības politiku, kas attiecas uz šai kategorijai piederošajiem produktiem. Papildinformāciju skatiet sadaļā [Produktu gatavība](product-readiness.md).
+Lietojiet lauku **Precu gatavības politika**, lai atlasītu gatavības politiku, kam vajadzētu attiekties uz šai inženiertehniskajai kategorijai piederošajām precēm. Papildinformāciju skatiet sadaļā [Produktu gatavība](product-readiness.md).
+
+> [!NOTE]
+> **Preču gatavības politikas** lauks nedaudz atšķiras, ja sistēmā ir ieslēgta *Preču gatavības pārbaudes* funkcija. (Šī funkcija ļauj piemērot gatavības politiku standarta precēm, kas \[nav inženiertehniskās\] preces). Papildinformāciju skatiet [Gatavības politiku piešķiršana standarta un inženiertehniskajām precēm](product-readiness.md#assign-policy).
 
 ### <a name="release-policy-fasttab"></a>Laidiena politikas kopsavilkuma cilne
 

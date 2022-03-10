@@ -1,12 +1,10 @@
 ---
 title: Krājumu bloķēšana
 description: Šajā tēmā ir sniegts pārskats par krājuma bloķēšanu, kas ir kvalitātes pārbaudes procesa elements Supply Chain Management. Krājuma bloķēšanu var izmantot, lai nepieļautu krājumu apstrādi vai patēriņu.
-author: perlynne
-manager: tfehr
+author: yufeihuang
 ms.date: 03/02/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventBlocking, InventQualityOrderTable
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 2094
 ms.assetid: 1968e32f-eff9-4c17-8f7f-a870f0c38fbc
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: perlynne
+ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1d4b006f37904c0ae20691aaa98c75f1d5833b7
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
-ms.translationtype: HT
+ms.openlocfilehash: 606bc23f552b57d0f4e3fdad28d1144cdf43e5d5
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5487901"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103542"
 ---
 # <a name="inventory-blocking"></a>Krājumu bloķēšana
 
@@ -98,13 +96,11 @@ Ja ir deaktivizēta funkcija **Rezervēt pasūtītos krājumus**, paredzamos ie�
 
 Šajos divos gadījumos ievērojiet darbības statusa un dimensiju starpību. Tāpēc ieteicams iespējot opciju **Rezervēt pasūtītos krājumus**.
 
-<!-- KFM: (Enable this section when the feature leaves private preview)
+### <a name="disable-expected-receipts-from-quality-orders-that-sample-blocked-inventory-feature"></a>Atspējot paredzamo ieejas plūsmu no kvalitātes pasūtījumiem, kuri atlasītajiem bloķēto krājumu līdzekļa uzdevumiem
 
-### Disable expected receipts from quality orders that sample blocked inventory feature
+Lai vienkāršotu krājumu darbības kvalitātes pasūtījumu gadījumā, kuri krājumu paraugs ir bloķēts kā krājumu statusa sekas, sistēma nodrošina funkciju, kas deaktivizē paredzamo saņemšanu no šādiem kvalitātes pasūtījumiem. Tā kā gaidāmā saņemšana nekavējoties tiek bloķēta ar krājuma statusa bloķēšanu, šo izmaiņu dēļ rīcībā esošo krājumu samazinājums netiek samazināts.
 
-To simplify the inventory transactions in the case of quality orders that sample inventory blocked as a consequence of inventory status, the system provides a feature that disables expected receipts from such quality orders. As the expected receipt is in any case immediately blocked by inventory status blocking, there is no reduction of on-hand inventory because of this change.
-
--->
+Šī funkcija pēc noklusējuma ir izslēgta. Administratori to var ieslēgt vai izslēgt *, meklējot opciju Atspējot sagaidāmās ieejas plūsmas no kvalitātes pasūtījumiem, kuru paraugs ir bloķēts* krājumu līdzeklis līdzekļu [pārvaldības darbvietā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="additional-resources"></a>Papildu resursi
 

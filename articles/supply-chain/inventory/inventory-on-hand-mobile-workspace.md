@@ -1,12 +1,10 @@
 ---
 title: Mobilā darbvieta Rīcībā esošie krājumi
 description: Šajā tēmā ir sniegta informācija par mobilo darbvietu Rīcībā esošie krājumi. Šī darbvieta palīdz mobilajā ierīcē gūt ieskatu par rezervēto un pieejamo krājumu daudzumu jebkurā vietā un laikā.
-author: Mirzaab
-manager: tfehr
+author: yufeihuang
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,15 +12,15 @@ ms.custom: 267094
 ms.assetid: 3fa385ba-894d-4a9e-b394-ef3697abf895
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: mirzaab
+ms.author: yufeihuang
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 2c84b868247503f8fcb8f718f4ce9bd6ccb56c99
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 9e67e16acc8ed72d571e9010131723038c8586a9
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217129"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573901"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Mobilā darbvieta Rīcībā esošie krājumi
 
@@ -58,7 +56,7 @@ Mobilā darbvieta nodrošina tālāk norādītos līdzekļus.
 Priekšnosacījumi atšķiras, pamatojoties uz jūsu organizācijai izvietoto Supply Chain Management versiju.
 
 ### <a name="prerequisites-if-you-use-supply-chain-management"></a>Priekšnosacījumi, ja izmantojat Supply Chain Management
-Ja jūsu organizācijai ir izvietota Supply Chain Management programmatūra, sistēmas administratoram ir jāpublicē mobilā darbvieta **Rīcībā esošie krājumi**. Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+Ja jūsu organizācijai ir izvietota Supply Chain Management programmatūra, sistēmas administratoram ir jāpublicē mobilā darbvieta **Rīcībā esošie krājumi**. Norādījumus skatiet tēmā [Mobilās darbvietas publicēšana](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-platform-update-3-or-later"></a>Priekšnosacījumi, ja izmantojat platformas 3. atjauninājumu vai jaunāku versiju 
 Ja jūsu organizācijai ir izvietots 3. platformas atjauninājums vai jaunāka tā versija, sistēmas administratoram ir jāizpilda tālāk norādītie priekšnoteikumi. 
@@ -78,17 +76,17 @@ Ja jūsu organizācijai ir izvietots 3. platformas atjauninājums vai jaunāka 
 
 <td>KB 4013633 ir X++ atjauninājums jeb metadatu labojumfails, kurā ir ietverta mobilā darbvieta <strong>Rīcībā esošie krājumi</strong>. Lai ieviestu KB 4013633, jūsu sistēmas administratoram ir jāizpilda tālāk minētās darbības.
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Lejupielādējiet metadatu labojumfailu no portāla Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Instalējiet metadatu labojumfailu</a>.</li>
-<li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Izveidojiet izvietojamu pakotni,</a> kas ietver modeli <strong>SCMMobile</strong>, un pēc tam augšupielādējiet izvietojamo pakotni pakalpojumā LCS.</li>
-<li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Lietojiet izvietojamo pakotni</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Lejupielādējiet metadatu labojumfailu no portāla Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalējiet metadatu labojumfailu</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Izveidojiet izvietojamu pakotni,</a> kas ietver modeli <strong>SCMMobile</strong>, un pēc tam augšupielādējiet izvietojamo pakotni pakalpojumā LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Lietojiet izvietojamo pakotni</a>.</li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>Publicējiet mobilo darbvietu <strong>Rīcībā esošie krājumi</strong>.</td>
 <td>Sistēmas administrators</td>
-<td>Skatiet tēmu <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Mobilās darbvietas publicēšana</a>.</td>
+<td>Skatiet tēmu <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Mobilās darbvietas publicēšana</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -107,13 +105,13 @@ Mobilās programmas Finance and Operations lejupielāde un instalēšana.
 3.  Pirmajā pierakstīšanās reizē tiek prasīts ievadīt lietotājvārdu un paroli. Ievadiet savus akreditācijas datus.
 4.  Pēc pierakstīšanās tiek parādītas jūsu uzņēmumam pieejamās darbvietas. Ņemiet vērā, ka gadījumā, ja sistēmas administrators vēlāk publicēs jaunu darbvietu, jums būs jāatsvaidzina mobilo darbvietu saraksts.
 
-    [![Velciet, lai atsvaidzinātu](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+    [![Velciet, lai atsvaidzinātu.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-the-on-hand-inventory-for-a-product-by-using-the-inventory-on-hand-mobile-workspace"></a>Skatīt preces rīcībā esošos krājumus, izmantojot mobilo darbvietu Rīcībā esošie krājumi
 
 1.  Mobilajā ierīcē atlasiet darbvietu **Rīcībā esošie krājumi**.
 
-2.  Atlasiet vienumu **Pārbaudīt preces rīcībā esošos krājumus**. Tiek parādīts to preču saraksts, kas ir ielādētas programmā lietošanai bezsaistes režīmā. Pēc noklusējuma ir ielādētas 50 krājumu vienības, taču izstrādātājs šo skaitu var mainīt. Plašāku informāciju izstrādātājiem ir jāskata rakstā [Mobilā platforma](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md).
+2.  Atlasiet vienumu **Pārbaudīt preces rīcībā esošos krājumus**. Tiek parādīts to preču saraksts, kas ir ielādētas programmā lietošanai bezsaistes režīmā. Pēc noklusējuma ir ielādētas 50 krājumu vienības, taču izstrādātājs šo skaitu var mainīt. Plašāku informāciju izstrādātājiem ir jāskata rakstā [Mobilā platforma](../../fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page.md).
 3.  Ja jūsu krājuma sarakstā nav, atlasiet vienumu **Meklēt vēl**. Meklējiet pēc preces numura vai pārslēdziet uz meklēšanu pēc preces nosaukuma.
 
 4.  Atlasiet preci. Ja krājumam ir attēls, tas tiek parādīts.

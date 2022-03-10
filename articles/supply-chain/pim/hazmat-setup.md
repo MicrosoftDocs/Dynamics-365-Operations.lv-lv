@@ -1,7 +1,7 @@
 ---
 title: Bīstamo materiālu iestatīšana
 description: Šajā tēmā skaidrots, kā iestatīt datus, kas ir nepieciešami, lai klasificētu krājumus kā bīstamus materiālus. Kad izveidojat pārdošanas pasūtījumu, kas ietver krājumu, kas ir klasificēts kā bīstams materiāls, sistēma ģenerē bīstamo materiālu dokumentāciju šim pārdošanas pasūtījumam, kad tas tiek nosūtīts.
-author: dasani-madipalli
+author: t-benebo
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: benebotg
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: c360d6a0fd5ffb65d1ea50d50e1ea5de00c84abe72e83c72b9bc4d6826cb41d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: 6923bd24fc8f9aad6e758603e3b20f7d5f2b8fde
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712986"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778013"
 ---
 # <a name="set-up-hazardous-materials"></a>Bīstamo materiālu iestatīšana
 
@@ -27,7 +27,7 @@ Lai izmantotu bīstamo materiālu funkcionalitāti, vispirms ir jāiestata dati,
 
 ## <a name="turn-on-the-hazardous-materials-feature-for-your-system"></a>Ieslēgt bīstamo materiālu līdzekli jūsu sistēmai
 
-Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
+No Piegādes ķēdes pārvaldības versijas 10.0.21 šī funkcija ir ieslēgta pēc noklusējuma. Administratori var izmantot Līdzekļu [pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lapu, lai pārbaudītu līdzekļu statusu un aktivizētu vai atspējotu to, ja nepieciešams. Šeit līdzeklis tiek norādīts kā:
 
 - **Modulis:** *Preču informācijas pārvaldība*
 - **Līdzekļa nosaukums:** *Bīstamo materiālu preču informācija un nosūtīšanas dokumentācija*
@@ -100,7 +100,7 @@ Tālāk esošajā tabula apraksta lauku, kas ir pieejams **Valsts** kopsavilkuma
 |---|---|
 | Valsts/reģions | Atlasiet valsti/reģionu, ko saistīt ar regulu. |
 
-## <a name="material-codes"></a><a name="hazmat-codes"></a>Materiāla kodi
+## <a name="material-codes"></a><a name="hazmat-codes"></a> Materiāla kodi
 
 Materiālu kodi izveido iestatījumus, kas saistīti ar noteiktu bīstamo komponentu, kas var tikt iekļauti izlaistajā produktā. Katrs materiālu kods attiecas uz specifisku bīstamo materiālu regulu, un tās definīcijai ir jāatbilst šai regulai. Kad tiek lietots materiālu kods izlaistam produktam, izmantojot **Materiālu koda** lauku, visi materiālu koda bīstamo materiālu iestatījumi tiek automātiski piemēroti šai precei. Tāpēc izlaisto preču iestatīšanas process ir ātrāks un mazāk tendēts uz kļūdu.
 
@@ -115,7 +115,7 @@ Lai pārvaldītu jūsu bīstamo materiālu definīcijas, veiciet tālāk norād�
 
 5. Izmantojiet atlikušos šīs lapas laukus, lai izveidotu un iestatītu katru bīstamo materiālu, kas attiecas uz jūsu izvēlēto regulu. Pieejamie lauki ir bīstamo materiālu lauku apakškopa, kas ir pieejama atsevišķām izlaistām precēm. Papildinformāciju skatiet [Bīstamie materiāli precēs, pasūtījumos, sūtījumos un kravās](hazmat-items.md).
 
-## <a name="hazardous-material-classification-groups"></a><a name="classification-groups"></a>Bīstamo materiālu klasifikācijas grupas
+## <a name="hazardous-material-classification-groups"></a><a name="classification-groups"></a> Bīstamo materiālu klasifikācijas grupas
 
 Katra bīstamo materiālu klasifikācijas grupa nosaka lauku vērtību grupu, kas izveido veidni. Šo veidni var izmantot vēlāk, kad izlaistajam krājumam tiek iestatīta bīstama materiālu informācija.
 
@@ -135,7 +135,7 @@ Lai iestatītu bīstamo materiālu klasifikācijas grupas, dodieties uz **Preces
 | Transportēšanas kategorijas kods | Saistiet [transportēšanas kategorijas kodu](#transport-category) ar grupu. |
 | Reizinātājs | Ievadiet bīstamo materiālu reizinātāju, kas attiecas uz izvēlēto bīstamo materiālu klasi un dalījumu saskaņā ar piemērojamo regulu. Šis reizinātājs tiek izmantots kā daļa no formulas, kas aprēķina kopējos *bīstamos materiāla punktus*, kas ir ietverti noslodzē vai sūtījumā. Lai iegūtu vairāk informācijas par bīstamo materiālu punktiem un šo reizinātāju, skatiet [Materiālu pārvaldības kopsavilkuma cilne](hazmat-items.md#material-management). |
 
-## <a name="hazardous-material-classes"></a><a name="classes"></a>Bīstamo materiālu klases
+## <a name="hazardous-material-classes"></a><a name="classes"></a> Bīstamo materiālu klases
 
 Bīstamo materiālu klase parasti tiek kartēta ar to klašu sarakstu, kas ir nodrošinātas regulā, kurai atbilstat. Piemēram, ASV Regula CFR 49 norāda "3. klasi" kā viegli uzliesmojošu un uzliesmojošu šķidrumu. Varat iestatīt klases, kas atbilst klasificēšanai paredzētajiem materiāliem.
 
@@ -156,7 +156,7 @@ Lai iestatītu bīstamo materiālu klases, dodieties uz **Preces informācijas p
 | Klases kods | Ievadiet kodu, lai noteiktu šo klasi. Šis kods tiek definēts krājumam. Tad tas tiks izmantots uzmeklēšanas sarakstos, kad izdotajam krājumam tiek piešķirta bīstama materiālu klase. |
 | Apraksts | Ievadiet klases aprakstu. |
 
-## <a name="hazardous-material-divisions"></a><a name="divisions"></a>Bīstamo materiālu dalījumi
+## <a name="hazardous-material-divisions"></a><a name="divisions"></a> Bīstamo materiālu dalījumi
 
 Bīstamo materiālu dalījums ir bīstamo materiālu klases apakškopa. Katrai precei, kurā ir bīstami materiāli, ir jāpiešķir gan dalījums, gan klase.
 
@@ -178,7 +178,7 @@ Lai iestatītu bīstamo materiālu dalījumus, dodieties uz **Preces informācij
 | Apraksts | Ievadiet dalījuma aprakstu. |
 | Klase | Sameklējiet un piešķiriet klasi, kurai pieder dalījums. |
 
-## <a name="hazardous-material-compatibility-groups"></a><a name="compatibility-groups"></a>Bīstamo materiālu saderības grupas
+## <a name="hazardous-material-compatibility-groups"></a><a name="compatibility-groups"></a> Bīstamo materiālu saderības grupas
 
 Bīstamo materiālu saderības grupas nosaka, kuras bīstamās materiālu klases un dalījumus var nosūtīt kopā. Kad operatori izveido noliktavas noslodzes vai sūtījumus, tie var veikt saderības pārbaudi, kas izdos brīdinājumu, ja noslodze vai sūtījums ietver krājumus, kas visi nepieder vienai saderības grupai.
 
@@ -220,7 +220,7 @@ Jūs izmantosiet [materiālu kodus](#hazmat-codes), lai izveidotu kopējas iesta
 
 Lai iestatītu vērtības šai specifikācijai, dodieties uz **Preces informācijas pārvaldība \> Iestatījumi \> Bīstamo materiālu nosūtīšanas dokumentācija \> Bīstamo materiālu ārkārtas reaģēšana**. Lapā **Bīstamo materiālu ārkārtas reaģēšana** varat izveidot jebkādu vērtību skaitu un konfigurēt katru ar klasifikācijas kodu un īsu aprakstu.
 
-### <a name="hazardous-material-identification"></a><a name="identification"></a>Bīstamo materiālu identifikācija
+### <a name="hazardous-material-identification"></a><a name="identification"></a> Bīstamo materiālu identifikācija
 
 *Bīstamo materiālu identifikācijas* specifikācija identificē bīstamā materiāla klasi vai būtību. Šī vērtība parasti ir kods, kas ir balstīts uz Apvienoto Nāciju organizācijas (ANO) standartu. Katra klase tiek identificēta ar kodu un aprakstu, un tā var noteikt ierobežojumus transportēšanas metodēm. Piemēram, lai identificētu uzliesmojošu krājumu vai materiālu, izveidojiet bīstamo materiālu klasi, kas izmanto kodu *FL* un aprakstu *uzliesmojošs*. Jūs arī nosakāt, ka klasi nedrīkst transportēt pa gaisu.
 
@@ -233,49 +233,49 @@ Lai iestatītu vērtības šai specifikācijai, dodieties uz **Preces informāci
 | Ierobežot transportēšanu pa gaisu | Atzīmējiet šo izvēles rūtiņu, lai norādītu, ka šo bīstamo materiālu klasi nedrīkst transportēt pa gaisu. |
 | Ierobežot transportēšanu pa jūru | Atzīmējiet šo izvēles rūtiņu, lai norādītu, ka šo bīstamo materiālu klasi nedrīkst transportēt pa jūru. |
 
-### <a name="hazardous-material-label"></a><a name="label"></a>Bīstamo materiālu etiķete
+### <a name="hazardous-material-label"></a><a name="label"></a> Bīstamo materiālu etiķete
 
 *Bīstamo materiālu etiķetes* specifikācija identificē bīstamo preču etiķeti, kas jālieto attiecīgajām izlaistajām precēm. Pašas etiķetes aprakstīs, kā prece jāapstrādā. Piemēram, jums ir prece, kas satur indīgu gāzi. Šādā gadījumā iestatiet etiķetes kodu, kas apzīmē indīgo gāzes etiķeti. Jūs arī veidojat savu biznesa procesu, lai tas uzmeklē šo vērtību, kad jūs piegādājat preces.
 
 Lai iestatītu vērtības šai specifikācijai, dodieties uz **Preces informācijas pārvaldība \> Iestatījumi \> Bīstamo materiālu nosūtīšanas dokumentācija \> Bīstamo materiālu etiķete**. Lapā **Bīstamo materiālu etiķete** varat izveidot jebkādu etiķešu skaitu un konfigurēt katru ar identifikācijas kodu un īsu aprakstu.
 
-### <a name="hazardous-material-packing-descriptions"></a><a name="packing-description"></a>Bīstamo materiālu iesaiņošanas apraksti
+### <a name="hazardous-material-packing-descriptions"></a><a name="packing-description"></a> Bīstamo materiālu iesaiņošanas apraksti
 
 *Bīstamo materiālu iepakojuma aprakstu* specifikācija norāda, kā bīstams krājums ir jāiepako. Piemēram, tas var būt iepakots noteiktā tērauda cilindra vai cita veida īpašā iepakojumā.
 
 Lai iestatītu vērtības šai specifikācijai, dodieties uz **Preces informācijas pārvaldība \> Iestatījumi \> Bīstamo materiālu nosūtīšanas dokumentācija \> Bīstamo materiālu iepakojuma apraksti**. Lapā **Bīstamo materiālu iepakojuma apraksti** varat izveidot jebkādu iepakojuma aprakstu skaitu un konfigurēt katru ar identifikācijas kodu un īsu aprakstu.
 
-### <a name="hazardous-material-packing-group"></a><a name="packing-group"></a>Bīstamo materiālu iesaiņošanas grupa
+### <a name="hazardous-material-packing-group"></a><a name="packing-group"></a> Bīstamo materiālu iesaiņošanas grupa
 
 *Bīstamo materiālu iepakojuma grupas* specifikācija identificē bīstama krājumu iepakojuma grupu. Iepakojuma grupa ļauj definēt kodu un aprakstu, lai norādītu, kā bīstamie materiālu krājumi ir jāiepako transportēšanas vai nosūtīšanas laikā. Iepakojuma grupa ir piešķirta krājumam, izmantojot lapu **Preces bīstamības materiāli**.
 
 Lai iestatītu vērtības šai specifikācijai, dodieties uz **Preces informācijas pārvaldība \> Iestatījumi \> Bīstamo materiālu nosūtīšanas dokumentācija \> Bīstamo materiālu iepakojuma grupa**. Lapā **Bīstamo materiālu iepakojuma grupa** varat izveidot jebkādu iepakojuma grupu skaitu un konfigurēt katru ar identifikācijas kodu un īsu aprakstu.
 
-### <a name="hazardous-material-packing-instruction"></a><a name="packing-instruction"></a>Bīstamo materiālu iesaiņošanas instrukcija
+### <a name="hazardous-material-packing-instruction"></a><a name="packing-instruction"></a> Bīstamo materiālu iesaiņošanas instrukcija
 
 *Bīstamo materiālu iepakošanas norādījumu* specifikācijā ir norādītas iepakošanas instrukcijas, kas jāievēro, kad attiecīgais bīstamais krājums ir sagatavots transportēšanai pa gaisu.
 
 Lai iestatītu vērtības šai specifikācijai, dodieties uz **Preces informācijas pārvaldība \> Iestatījumi \> Bīstamo materiālu nosūtīšanas dokumentācija \> Bīstamo materiālu iepakojuma norādījumi**. Lapā **Bīstamo materiālu iepakojuma norādījumi** varat izveidot jebkādu iepakojuma norādījumu identifikatoru skaitu un konfigurēt katru ar identifikācijas kodu un īsu aprakstu.
 
-### <a name="hazardous-material-stowage"></a><a name="stowage"></a>Bīstamo materiālu glabātuve
+### <a name="hazardous-material-stowage"></a><a name="stowage"></a> Bīstamo materiālu glabātuve
 
 *Bīstamā materiāla uzglabāšanas* specifikācija norāda, kā produkts jāuzglabā uz kuģa, kad to transportē ar jūras transportu.
 
 Lai iestatītu vērtības šai specifikācijai, dodieties uz **Preces informācijas pārvaldība \> Iestatījumi \> Bīstamo materiālu nosūtīšanas dokumentācija \> Bīstamo materiālu uzglabāšana**. Lapā **Bīstamo materiālu uzglabāšana** varat izveidot jebkādu uzglabāšanas identifikatoru skaitu un konfigurēt katru ar identifikācijas kodu un īsu aprakstu.
 
-### <a name="hazardous-material-transport-category"></a><a name="transport-category"></a>Bīstamo materiālu transportēšanas kategorija
+### <a name="hazardous-material-transport-category"></a><a name="transport-category"></a> Bīstamo materiālu transportēšanas kategorija
 
 *Bīstamo materiālu transportēšanas kategorijas* specifikācijas parasti lieto, lai grupētu līdzīgas bīstamas preces pārskatos. Piemēram, transportēšanas kategorijas tiek izmantotas **Sūtījuma kopsavilkuma** pārskatā, kuru var drukāt no noliktavas sūtījuma ieraksta.
 
 Lai iestatītu vērtības šai specifikācijai, dodieties uz **Preces informācijas pārvaldība \> Iestatījumi \> Bīstamo materiālu nosūtīšanas dokumentācija \> Bīstamo materiālu transportēšanas kategorija**. Lapā **Bīstamo materiālu transportēšanas kategorija** varat izveidot jebkādu transportēšanas kategoriju skaitu un konfigurēt katru ar parādāmo nosaukumu un īsu aprakstu.
 
-### <a name="hazardous-material-technical-name"></a><a name="technical-name"></a>Bīstamo materiālu tehniskais nosaukums
+### <a name="hazardous-material-technical-name"></a><a name="technical-name"></a> Bīstamo materiālu tehniskais nosaukums
 
 *Bīstamo materiālu tehniskā nosaukuma* specifikāciju var izmantot, lai nodrošinātu bieži izmantojamu vai iekšēju uzņēmuma nosaukumu, kas apraksta katru materiālu.
 
 Lai iestatītu vērtības šai specifikācijai, dodieties uz **Preces informācijas pārvaldība \> Iestatījumi \> Bīstamo materiālu nosūtīšanas dokumentācija \> Bīstamo materiālu tehniskais nosaukums**. Lapā **Bīstamo materiālu tehniskais nosaukums** varat izveidot jebkādu tehnisko nosaukumu skaitu un konfigurēt katru ar parādāmo nosaukumu un īsu aprakstu.
 
-### <a name="hazardous-material-tunnel"></a><a name="tunnel"></a>Bīstamo materiālu tunelis
+### <a name="hazardous-material-tunnel"></a><a name="tunnel"></a> Bīstamo materiālu tunelis
 
 *Bīstamo materiālu tuneļa* specifikācija ierobežo tuneļu tipus, caur kuriem var transportēt bīstamos materiālus, identificējot izmantojamo tuneļu tipus. Tuneļu kategorijas ir izveidotas ar piemērojamiem noteikumiem par bīstamo materiālu transportu. Šī specifikācija parasti attiecas tikai uz ceļu transportu.
 

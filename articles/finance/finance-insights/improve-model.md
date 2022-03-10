@@ -1,8 +1,8 @@
 ---
-title: Prognozēšanas modeļa uzlabošana (priekšskatījums)
+title: Prognozēšanas modeļa uzlabošana
 description: Šī tēma apraksta līdzekļus, ko varat izmantot prognozēšanas modeļu veiktspējas uzlabošanai.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 184a1cb5d3851e26b41340b711c51ef38e06eb53
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
-ms.translationtype: HT
+ms.openlocfilehash: 804c18c1b165fff99390db1fda22da0137249373
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186646"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595041"
 ---
-# <a name="improve-the-prediction-model-preview"></a>Prognozēšanas modeļa uzlabošana (priekšskatījums)
+# <a name="improve-the-prediction-model"></a>Prognozēšanas modeļa uzlabošana
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Šī tēma apraksta līdzekļus, ko varat izmantot prognozēšanas modeļu veiktspējas uzlabošanai. Jūs sākat uzlabot savu modeli **Klientu maksājumu prognožu** darbvietā programmā Microsoft Dynamics 365 Finance. Tad uzlabojumu darbības tiek pabeigtas AI Builder.
 
@@ -33,7 +32,7 @@ ms.locfileid: "6186646"
 
 Vispirms atlasiet vienu vai vairākus no trim iespējamiem iznākumiem rēķiniem: **Laicīgi**, **Novēloti** un **Ļoti novēloti**. Jāatlasa visi trīs rezultāti. Notīrot kāda rezultāta atlasi, rēķini tiks filtrēti no apmācības procesa, un prognozes precizitāte tiks samazināta.
 
-[![Iznāķumu apstiprināšana](./media/confirm-3-outcomes.png)](./media/confirm-3-outcomes.png)
+[![Iznāķumu apstiprināšana.](./media/confirm-3-outcomes.png)](./media/confirm-3-outcomes.png)
 
 Ja jūsu organizācijai nepieciešami tikai divi iznākumi, mainiet **Novēloti** un **Ļoti novēloti** slieksni uz 0 (nulle) dienām. Šādā veidā jūs efektīvi sakļaujat prognozes binārajā stāvoklī ar **Laicīgi** vai **Novēloti**.
 
@@ -51,7 +50,7 @@ Kad atlasāt laukus iekļaušanai modelī, ņemiet vērā, ka sarakstā ir iekļ
 
 Nākamajā attēlā ir parādīti avoti, kas ir pieejami rēķina tabulai.
 
-[![Rēķina tabulai pieejamie lauki](./media/available-fields.png)](./media/available-fields.png)
+[![Rēķina tabulai pieejamie lauki.](./media/available-fields.png)](./media/available-fields.png)
 
 Apmācībām nav jāatlasa tālāk minētie lauki.
 
@@ -66,7 +65,7 @@ Apmācībām nav jāatlasa tālāk minētie lauki.
 
 Nākamajā attēlā ir parādīti avoti, kas ir pieejami debitora tabulai.
 
-[![Debitora tabulai pieejamie lauki](./media/related-entities.png)](./media/related-entities.png)
+[![Debitora tabulai pieejamie lauki.](./media/related-entities.png)](./media/related-entities.png)
 
 Apmācībām nav jāatlasa tālāk minētais lauks.
 
@@ -74,8 +73,8 @@ Apmācībām nav jāatlasa tālāk minētais lauks.
 
 ## <a name="filters"></a>Filtri
 
-Filtri pašlaik neatbalsta debitoru maksājumu prognozēšanas scenāriju. Tāpēc atlasiet **Izlaist šo darbību** un pārejiet uz kopsavilkuma lapu.
+Varat filtrēt rēķinus, kas tiek izmantoti apmācībai, iestatot filtra kritērijus laukiem rēķinā vai debitoru tabulās. Piemēram, varat iestatīt slieksni, lai iekļautu tikai tos rēķinus, kuru kopsumma ir vienāda ar noteikto summu vai pārsniedz to. Alternatīvi jūs varat izslēgt rēķinus, kas ir saistīti ar klientiem noteiktā debitoru grupā.
 
-[![Fokusa režīms ar filtriem](./media/focus-model-with-filters.png)](./media/focus-model-with-filters.png)
+Papildinformāciju par datu filtrēšanu skatiet sadaļā [Prognozēšanas modeļa izveide](/ai-builder/prediction-create-model#filter-your-data).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

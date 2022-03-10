@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ca50f030e67e517a227766f6a30d4bd4b345300b
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
-ms.translationtype: HT
+ms.openlocfilehash: 61a1e46497d650e2c063a5fe7537d17cf7aa1828a5a4504bb781e84aeb88f04a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894128"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718505"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Pielāgotas glabāšanas vietas norādīšana ģenerētajiem dokumentiem
 
@@ -39,7 +39,7 @@ Jums jābūt arī piekļuvei šīs topoloģijas izstrādes videi.
 
 Pašreizējā topoloģijā [izveidojiet jaunu ER formātu](tasks/er-format-configuration-2016-11.md), lai ģenerētu dokumentus, kuriem plānojat pievienot pielāgotu glabāšanas vietu. Vai arī [importējiet šajā topoloģijā jau izveidotu ER formātu](general-electronic-reporting-manage-configuration-lifecycle.md).
 
-![Formāta veidotāja lapa](media/er-extend-file-storages-format.png)
+![Formāta veidotāja lapa.](media/er-extend-file-storages-format.png)
 
 > [!IMPORTANT]
 > ER formātā, ko izveidojat vai importējat, jābūt vismaz vienam no šādiem formāta elementiem:
@@ -58,7 +58,7 @@ Lai norādītu, kā tiek maršrutēti EP formāta ģenerētie dokumenti, jums i
 3. Laukā **Klase** norādiet **Pievienot failu**.
 4. Laukā **Grupa** norādiet **Fails**.
 
-![Dokumentu veidu lapa](media/er-extend-file-storages-document-type.png)
+![Lapa Dokumentu tipi.](media/er-extend-file-storages-document-type.png)
 
 > [!NOTE]
 > Dokumentu veidi ir atkarīgi no uzņēmuma. Lai izmantotu ER formātu ar konfigurēto galamērķi vairākos uzņēmumos, jums ir jākonfigurē atsevišķs dokumenta veids katram uzņēmumam.
@@ -113,14 +113,14 @@ Notikums **AttachingFile()** tiek parādīts, kad tiek apstrādāti tālāk nor�
 - **Arhīvs** — ja tiek izmantots šis galamērķis, tabulā ERFormatMappingRunJobTable tiek izveidots jauns ieraksts par izpildīto ER formātu. Lauks **Arhivēts** šajā ierakstā ir iestatīts uz **Aplams**. Ja ER formāts ir veiksmīgi izpildīts, ģenerētais dokuments tiek pievienots šim ierakstam, un tiek parādīts notikums **AttachingFile()**. Dokumenta veids, kas atlasīts šajā ER galamērķī, nosaka pievienotā faila glabāšanas vietu (Microsoft Azure krātuve vai Microsoft SharePoint mape).
 - **Darbu arhīvs** — ja tiek izmantots šis galamērķis, tabulā ERFormatMappingRunJobTable tiek izveidots jauns ieraksts par izpildīto ER formātu. Lauks **Arhivēts** šajā ierakstā ir iestatīts uz **Pareizs**. Ja ER formāts ir veiksmīgi izpildīts, ģenerētais dokuments tiek pievienots šim ierakstam, un tiek parādīts notikums **AttachingFile()**. Dokumenta veids, kas ir konfigurēts ER parametros, nosaka pievienotā faila glabāšanas vietu (Azure krātuve vai SharePoint mape).
 
-![Elektronisko pārskatu veidošanas parametru lapa](media/er-extend-file-storages-parameters.png)
+![Elektronisko pārskatu veidošanas parametru lapa.](media/er-extend-file-storages-parameters.png)
 
 ## <a name="configure-an-er-destination"></a>ER galamērķa konfigurēšana
 
 1. Konfigurējiet arhivēto galamērķi vienam no iepriekš minētajiem izveidotā vai importētā ER formāta elementiem (fails, mape, apvienotājs vai pielikums). Norādes skatiet tēmā [ER galamērķu konfigurēšana](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11).
 2. Izmantojiet dokumenta veidu, kuru iepriekš pievienojāt konfigurētajam galamērķim. (Piemēram, šajā tēmā dokumenta veids ir **FileX**.)
 
-![Dialoglodziņš Galamērķu iestatījumi](media/er-extend-file-storages-destination.png)
+![Dialoglodziņš Galamērķu iestatījumi.](media/er-extend-file-storages-destination.png)
 
 ## <a name="modify-source-code"></a>Pirmkoda modificēšana
 

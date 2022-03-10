@@ -2,11 +2,9 @@
 title: Lapas izkārtojumu atlase
 description: Šajā tēmā ir paskaidrots, kā izveidot un atlasīt lapas izkārtojumus programmā Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d0f5037c40afdbb8af1d01af8de965ddb3b17a3a
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
-ms.translationtype: HT
+ms.openlocfilehash: e7424755ed794f4e4b8ff640a7e7b9dd96b2145fddcf91511266fa166626112d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097080"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6738003"
 ---
 # <a name="select-page-layouts"></a>Lapas izkārtojumu atlase
 
@@ -79,3 +77,6 @@ Lai atlasītu citu izkārtojumu esošai lapai, rīkojieties, kā norādīts tāl
 
 [Dinamisko e-komercijas lapu izveidošana, pamatojoties uz URL parametriem](create-dynamic-pages.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

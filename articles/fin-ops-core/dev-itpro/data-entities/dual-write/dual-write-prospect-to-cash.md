@@ -2,40 +2,29 @@
 title: Potenciālā klienta-naudas duālais ieraksts
 description: Šajā tēmā ir sniegta informācija par potenciālā klienta pārvēršanu naudā duālajā ierakstā.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 01/07/2021
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 3f88d7249af515670c0a3e73a5ef890f04133d19
-ms.sourcegitcommit: 6af7b37b1c8950ad706e684cc13a79e662985b34
-ms.translationtype: HT
+ms.openlocfilehash: 7c53bcd1084d89b59d0f6b2674a85d7c3481a9bf
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4959605"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781795"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Potenciālā klienta-naudas duālais ieraksts
 
 [!include [banner](../../includes/banner.md)]
 
-
-
 Lielākajai daļai uzņēmumu ir svarīgi pārveidot potenciālos klientus par klientiem un pēc tam ar šiem klientiem uzturēt nepārtrauktas biznesa attiecības. Microsoft Dynamics 365 programmās potenciālā klienta pārveidošana naudā notiek ar piedāvājumu vai pasūtījumu apstrādes darbplūsmu starpniecību, un finanšu dati tiek saskaņoti un atpazīti. Potenciālā klienta-naudas integrēšana ar dubulto ierakstu izveido darbplūsmu, kas paņem piedāvājumu un pasūtījumu, kas rodas vai nu Dynamics 365 Sales, vai Dynamics 365 Supply Chain Management un padara piedāvājumu un pasūtījumu pieejamu abās programmās.
 
 Programmu interfeisos var piekļūt apstrādes statusiem un rēķina informācijai reālajā laikā. Tāpēc varat vieglāk pārvaldīt tādas funkcijas kā produktu uzkrājumu veidošana, krājumu apstrāde un Supply Chain Management bez atkārtotas piedāvājumu un pasūtījumu izveides.
 
-![Duālā ieraksta datu plūsma potenciālā klienta pārveidē naudā](../dual-write/media/dual-write-prospect-to-cash[1].png)
+![Duālā ieraksta datu plūsma potenciālā klienta pārveidē naudā.](../dual-write/media/dual-write-prospect-to-cash[1].png)
 
 Informāciju par debitoru un kontaktpersonu integrāciju skatiet integrētajā [debitoru pamatdatā](customer-mapping.md). Informāciju par produktu integrāciju skatiet sadaļā [Unificētā preču pieredze](product-mapping.md).
 
@@ -50,7 +39,7 @@ Pirms varat sinhronizēt pārdošanas piedāvājumus, ir jāatjaunina tālāk no
 
 Programmā Sales dodieties uz **Iestatījumi \> Administrēšana \> Sistēmas iestatījumi \> Pārdošana** un pārliecinieties, ka tiek izmantoti šādi iestatījumi:
 
-- Sistēmas opcijas **Lietot sistēmas cenu noteikšanu** vērtība ir iestatīta uz **Jā**.
+- Ir iestatīta sistēmas opcijas **Lietot sistēmas cenu noteikšanu** vērtība **Jā**.
 - Kolonnas **Atlaides aprēķināšanas metode** vērtība ir iestatīta uz **Rindas vienums**.
 
 ### <a name="sites-and-warehouses"></a>Vietas un noliktavas
@@ -72,6 +61,7 @@ Pārdošanas piedāvājumi var tikt izveidoti programmā Sales vai Supply Chain 
 + Noklusējuma kartējumos nav iekļautas kolonnas **Vedmaksas nosacījumi**, **Piegādes nosacījumi**, **Piegādes metode** un **Piegādes veids**. Lai kartētu šīs kolonnas, ir jāiestata vērtību kartējums, kas ir specifisks datiem organizācijās, kurās tiek sinhronizēta tabula.
 
 Ja izmantojat arī Field Service risinājumu, noteikti atkārtoti iespējojiet **Piedāvājuma rindas ātrā izveide** parametru. Atkārtoti iespējojot parametru, varat turpināt izveidot piedāvājuma rindas, izmantojot ātro izveides funkciju.
+
 1. Dodieties uz savu Dynamics 365 Sales programmu.
 2. Augšējā navigācijas joslā atlasiet iestatījumu ikonu.
 3. Atlasiet **Papildu iestatījumi**.
@@ -106,7 +96,7 @@ Ja sinhronizējat no Supply Chain Management uz Sales tiek iegūts šāds rezult
 Tabulai **Pasūtījums** ir pievienotas jaunas kolonnas, kas tiek rādītas lapā. Lielākā daļa šo kolonnu parādās programmas Sales cilnē **Integrēšana**. Lai uzzinātu vairāk par to, kā statusa kolonnas tiek kartētas, skatiet [Kartēšanas iestatīšana pārdošanas pasūtījuma statusa kolonnām](sales-status-map.md).
 
 + Pogas **Izveidot rēķinu** un **Atcelt pasūtījumu** lapā **Pārdošanas pasūtījumā** ir slēptas programmā Sales.
-+ Vērtība **Pārdošanas pasūtījuma statuss** joprojām būs **Aktīvs**, lai nodrošinātu, ka Supply Chain Management var nodot veiktās izmaiņas uz pārdošanas pasūtījumu programmā Sales. Lai kontrolētu šo darbību, iestatiet lauka **Statecode \[statuss\]** noklusējuma vērtību **Aktīvs**.
++ Vērtība **Pārdošanas pasūtījuma statuss** joprojām būs **Aktīvs**, lai nodrošinātu, ka Supply Chain Management var nodot veiktās izmaiņas uz pārdošanas pasūtījumu programmā Sales. Lai kontrolētu šo darbību, iestatiet lauka **Statecode \[ statuss\]** noklusējuma vērtību **Aktīvs**.
 
 ## <a name="invoices"></a>Rēķini
 
@@ -123,40 +113,25 @@ Potenciālā kliente pārveidošana naudā ietver pamata tabulas karšu vākšan
 
 | Finance and Operations programmas | Customer engagement programmas | Apraksts |
 |-----------------------------|-----------------------------------|-------------|
-| Pārdošanas rēķinu galvenes V2    | rēķini                          | Pārdošanas rēķinu virsrakstu V2 tabula programmā Finance and Operations ietver rēķinus par pārdošanas pasūtījumiem un brīva teksta rēķiniem. Dubultās rakstīšanas gadījumā Dataverse tiek lietots filtrs, kas filtrēs jebkurus brīvā teksta rēķinu dokumentus. |
-| Pārdošanas rēķinu rindas V2      | invoicedetails                    |             |
-| CDS pārdošanas pasūtījumu virsraksti     | salesorders                       |             |
-| CDS pārdošanas pasūtījumu rindas       | salesorderdetails                 |             |
-| Pārdošanas pasūtījumu izcelsmes kodi    | msdyn\_salesorderorigins          |             |
-| CDS pārdošanas piedāvājuma virsraksts  | piedāvājumi                            |             |
-| CDS pārdošanas piedāvājuma rindas   | quotedetails                      |             |
+[Visas preces](mapping-reference.md#138) | msdyn_globalproducts | |
+[Debitori V3](mapping-reference.md#101) | konti | |
+[Debitori V3](mapping-reference.md#116) | kontaktpersonas | |
+[Kontaktpersonas V2](mapping-reference.md#221) | msdyn_contactforparties | |
+[CDS pārdošanas pasūtījumu virsraksti](mapping-reference.md#217) | salesorders | |
+[CDS pārdošanas pasūtījumu rindas](mapping-reference.md#216) | salesorderdetails | |
+[CDS pārdošanas piedāvājuma virsraksts](mapping-reference.md#215) | piedāvājumi | |
+[CDS pārdošanas piedāvājuma rindas](mapping-reference.md#214) | quotedetails | |
+[Izlaistās preces V2](mapping-reference.md#189) | msdyn_sharedproductdetails | |
+[Pārdošanas rēķinu galvenes V2](mapping-reference.md#118) | rēķini | Pārdošanas rēķinu virsrakstu V2 tabula programmā Finance and Operations ietver rēķinus par pārdošanas pasūtījumiem un brīva teksta rēķiniem. Dubultās rakstīšanas gadījumā Dataverse tiek lietots filtrs, kas filtrēs jebkurus brīvā teksta rēķinu dokumentus. |
+[Pārdošanas rēķinu rindas V2](mapping-reference.md#117) | invoicedetails | |
+[Pārdošanas pasūtījumu izcelsmes kodi](mapping-reference.md#186) | msdyn_salesorderorigins | |
 
-Šeit ir saistītās pamatelementa tabulas kartes potenciālā klienta pārveidošanai naudā:
-
-+ [Debitori V3 uz kontiem](customer-mapping.md#customers-v3-to-accounts)
-+ [CDS kontaktpersonas V2 uz kontaktpersonām](customer-mapping.md#cds-contacts-v2-to-contacts)
-+ [Debitori V3 uz kontaktpersonām](customer-mapping.md#customers-v3-to-contacts)
-+ [V2 izlaistās preces sadaļā msdyn_sharedproductdetails](product-mapping.md#released-products-v2-to-msdyn_sharedproductdetails)
-+ [Visas preces uz msdyn_globalproducts](product-mapping.md#all-products-to-msdyn_globalproducts)
-+ [Cenrādis](product-mapping.md)
+Informāciju par cenu sarakstu skatiet sadaļā [Unificētā preču pieredze](product-mapping.md).
 
 ## <a name="limitations"></a>Ierobežojumi
+
 - Atgriešanas pasūtījumi netiek atbalstīti.
 - Kredīta notas netiek atbalstītas.
-- Pamatdatiem, piemēram, debitoram un kreditoram, ir jāiestata finanšu dimensijas. Kad debitors tiek pievienots piedāvājumam vai pārdošanas pasūtījumam, ar debitora ierakstu plūsmu saistītās finanšu dimensijas automātiski tiek pievienotas pasūtījumam. Pašlaik dubultā rakstīšana neietver pamatdatu finanšu dimensiju datus. 
+- Pamatdatiem, piemēram, debitoram un kreditoram, ir jāiestata finanšu dimensijas. Kad debitors tiek pievienots piedāvājumam vai pārdošanas pasūtījumam, ar debitora ierakstu plūsmu saistītās finanšu dimensijas automātiski tiek pievienotas pasūtījumam. Pašlaik dubultā rakstīšana neietver pamatdatu finanšu dimensiju datus.
 
-[!include [symbols](../../includes/dual-write-symbols.md)]
-
-[!include [sales invoice](includes/SalesInvoiceHeaderV2Entity-invoice.md)]
-
-[!include [sales invoice line](includes/SalesInvoiceLineV2Entity-invoicedetail.md)]
-
-[!include [sales order header](includes/SalesOrderHeaderCDSEntity-salesorder.md)]
-
-[!include [sales order line](includes/SalesOrderLineCDSEntity-salesorderdetails.md)]
-
-[!include [sales order origin](includes/SalesOrderOriginEntity-msdyn-salesorderorigin.md)]
-
-[!include [sales quotation header](includes/SalesQuotationHeaderCDSEntity-quote.md)]
-
-[!include [sales quotation line](includes/SalesQuotationLineCDSEntity-QuoteDetails.md)]
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

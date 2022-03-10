@@ -3,24 +3,23 @@ title: Profilaktiskās uzturēšanas pārskats
 description: Šajā tēmā ir paskaidrota profilaktiskā uzturēšana programmā Asset Management.
 author: johanhoffmann
 ms.date: 08/27/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 15478776e9a2152b93e4413105145f2a40cdc506
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: 8c313a7873ae63b5bb85665067160fdcd6dc15a5
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821661"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985059"
 ---
 # <a name="preventive-maintenance-overview"></a>Profilaktiskās uzturēšanas pārskats
 
@@ -34,7 +33,7 @@ Uzturēšanas plāni tiek izmantoti profilaktiskai un reaktīvai atsevišķu lī
 
 Nākamajā attēlā sniegts pārskats darba plūsmai no uzturēšanas plānu un uzturēšanas ciklu izveides līdz darba pasūtījumu izveidei līdzekļiem, pamatojoties uz šiem uzturēšanas plāniem un uzturēšanas cikliem.
 
-![1. attēls](media/01-preventive-maintenance.png)
+![1. attēls.](media/01-preventive-maintenance.png)
 
 
 

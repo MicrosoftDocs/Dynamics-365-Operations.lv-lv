@@ -1,12 +1,10 @@
 ---
 title: 150 procentu degresīvā nolietojuma aprēķināšanas metode
-description: Šajā rakstā ir sniegts pārskats par 150 procentu degresīvās nolietojuma aprēķināšanas metodi.
-author: saraschi2
-manager: AnnBe
+description: Šajā tēmā sniegts pārskats par 150 procentu atlikumu bilances metodi.
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -14,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 13891
 ms.assetid: 36d1112d-921c-4fff-abe0-0ff2429848d3
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4edc868b76d466c41be8036b962730db90eeb68a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: fe8a794e9d5f01e4cd8844b5388b37970607d0be
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249441"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883316"
 ---
 # <a name="150-percent-reducing-balance-depreciation"></a>150 procentu degresīvā nolietojuma aprēķināšanas metode
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir sniegts pārskats par 150 procentu degresīvās nolietojuma aprēķināšanas metodi.
+Šajā tēmā sniegts pārskats par 150 procentu atlikumu bilances metodi.
 
 Ja iestatāt pamatlīdzekļa nolietojuma tabulu un atlasāt lauka **Metode** vērtību **150% atlikumu bilance** lapā **Nolietojuma tabulas**, pamatlīdzekļiem, kam ir piešķirta šī nolietojuma tabula, tiek izmantota vienāda nolietojuma procentu likme katrā nolietojuma periodā. Šī procentu likme tiek aprēķināta, pamatojoties uz pamatlīdzekļa lietošanas ilgumu. Piemēram, ja līdzekļa lietošanas ilgums ir pieci gadi, tiek aprēķināta procentu likme 30 procenti (150% ÷ 5). 
 
@@ -66,7 +64,7 @@ Ja kā nolietojuma aprēķināšanas gadu atlasāt opciju **Finanšu**, tad lauk
 
 ## <a name="example-of-150-reducing-balance-depreciation"></a>150% atlikumu bilances piemērs
 
-|                                |        |
+| &nbsp;                         | &nbsp; |
 |--------------------------------|--------|
 | Iegādes vērtība               | 11 000 |
 | Lūžņu vērtība                  | 1000  |

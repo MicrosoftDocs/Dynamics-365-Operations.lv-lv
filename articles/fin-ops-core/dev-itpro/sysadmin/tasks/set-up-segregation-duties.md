@@ -2,7 +2,6 @@
 title: Pienākumu sadales iestatīšana
 description: Var iestatīt nosacījumus, lai atdalītu uzdevumus, kas ir jāveic dažādiem lietotājiem.
 author: peakerbl
-manager: AnnBe
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1c1521d6bbbe12964fef0942fcc4943f12a4360a
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
-ms.translationtype: HT
+ms.openlocfilehash: 1c06ce9325d7b0894ba53d6b9782f495a48280d45e538b048d883ab86f05dabf
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562501"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755752"
 ---
 # <a name="set-up-segregation-of-duties"></a>Pienākumu sadales iestatīšana
 

@@ -1,8 +1,8 @@
 ---
-title: Reģistrācijas piemērotības apstrāde
+title: Procesa reģistrācijas piemērojamība
 description: Šajā rakstā ir paskaidrots, kā izpildīt reģistrācijas piemērotības apstrādi.
-author: andreabichsel
-ms.date: 04/06/2020
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,17 +12,20 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 989b493af6e8386f9517737c582150470a4e226d161e63c3f7a6088dbd3df903
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: e8997cf24bf24097e46a05acffef8b3839056c57
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782076"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067633"
 ---
-# <a name="process-enrollment-eligibility"></a>Reģistrācijas piemērotības apstrāde
+# <a name="process-enrollment-eligibility"></a>Procesa reģistrācijas piemērojamība
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -53,13 +56,13 @@ ms.locfileid: "6782076"
 
 ## <a name="view-process-results"></a>Skatīt procesa rezultātus
 
-Šajā rakstā ir paskaidrots, kā skatīt reģistrācijas piemērotības rezultātus.
+Šajā rakstā ir paskaidrots, kā skatīt piemērotības procesa rezultātus.
 
 1.  Darbvietā **Atvieglojumu pārvaldība** sadaļā **Apstrāde** atlasiet **Procesa rezultāti**.
 
-2.  Veidlapā **Procesa rezultāti** ir norādīti šādi lauki:
+2.  Lapā **Procesa rezultāti** ir norādīti šādi lauki:
 
-   | Lauks | apraksts |
+   | Lauks | Apraksts |
    | --- | --- |
    | **Procesa ID** | Unikālais ID darbinieku, juridisko personu un procesa izpildes kombinācijai. |
    | **Procesu tips** | Tas identificē procesu, kas tika palaists. Piemēram: Uzņemšana. |

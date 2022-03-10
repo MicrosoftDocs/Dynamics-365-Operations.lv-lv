@@ -1,8 +1,8 @@
 ---
 title: Dataverse virtuālo tabulu konfigurēšana
-description: Šajā tēmā parādīts, kā konfigurēt virtuālās tabulas Dynamics 365 Human Resources. Ģenerējiet un atjauniniet esošās virtuālās tabulas un analizējiet ģenerētās un pieejamās tabulas.
-author: andreabichsel
-ms.date: 01/25/2021
+description: Šajā tēmā ir parādīts, kā konfigurēt, ģenerēt, atjaunināt esošās virtuālās tabulas, kā arī analizēt ģenerētās un pieejamās tabulas programmai Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,24 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f0dac25ede6c9b9dfcfa1be1f1a5f4d7a7752112
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: f7ffe522f0f17a21280e53728c6efc2823743733
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6344718"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069150"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Dataverse virtuālo tabulu konfigurēšana
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dynamics 365 Human Resources ir virtuālais datu avots platformā Microsoft Dataverse. Tas nodrošina pilnīgas izveides, lasīšanas, atjaunināšanas un dzēšanas (CRUD) operācijas no Dataverse un Microsoft Power Platform. Dati virtuālajām tabulām netiek saglabāti Dataverse, bet gan programmas datu bāzē.
 
@@ -119,10 +122,10 @@ Nākamais solis ir konfigurēt virtuālās tabulas datu avotu Power Apps vidē.
 
 4. **Risinājumu darbspējas centrmezglā** atlasiet ikonu **Detalizētā atrašana** lietojumprogrammas lapas augšējā labajā stūrī.
 
-5. Lapā **Detalizētā atrašana**, nolaižamajā sarakstā **Meklēt** atlasiet **Finance and Operations virtuālo datu avotu konfigurācijas**.
+5. **Lapas** Detalizētā atrašana **nolaižamajā sarakstā Meklēt** atlasiet **Finanšu un operāciju virtuālo datu avotu konfigurācijas**.
 
    > [!NOTE]
-   > Virtuālās tabulas programmas instalēšana no iepriekšējās iestatīšanas darbības var ilgt dažas minūtes. Ja **Finance and Operations virtuālās datu avota konfigurācijas** nav pieejamas sarakstā, uzgaidiet kādu minūti un atsvaidziniet sarakstu.
+   > Virtuālās tabulas programmas instalēšana no iepriekšējās iestatīšanas darbības var ilgt dažas minūtes. Ja **sarakstā nav pieejamas finanšu un operāciju virtuālo datu avotu konfigurācijas**, pagaidiet minūti un atsvaidziniet sarakstu.
 
 6. Atlasiet **Rezultāti**.
 
@@ -140,6 +143,9 @@ Nākamais solis ir konfigurēt virtuālās tabulas datu avotu Power Apps vidē.
 
      >[!NOTE]
      >Noteikti iekļaujiet rakstzīmi "**/**" vietrāža URL beigās, lai izvairītos no kļūdas saņemšanas.
+
+     >[!NOTE]
+     >Mērķa vietrādis URL nosaka personāla vadības vidi, uz kuru virtuālās tabulas norādīs datu iegūšanai. Ja izveidojat izmēģināšanas vidi, veidojot ražošanas vides kopiju, atjauniniet šo vērtību uz jaunās izmēģināšanas vides nosaukumu telpas URL. Tādējādi tiek nodrošināts, ka virtuālās tabulas ir saistītas ar izmēģināšanas vides datiem, nevis turpina norādīt uz ražošanas vidi.
 
    - **Nomnieka ID**: Azure Active Directory (Azure AD) nomnieka ID.
 

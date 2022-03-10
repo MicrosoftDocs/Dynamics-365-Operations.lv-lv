@@ -2,11 +2,9 @@
 title: Dimensiju hierarhija
 description: Šajā tēmā ir sniegta informācija par dimensiju hierarhijām. Izmantojot dimensiju hierarhiju, varat definēt pārskatu struktūru, izmaksu ierobežojumus un drošības iestatījumus modulī Izmaksu uzskaite.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7fde19ad1a58616672de72fb5e5cbeea39138b46
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 40ae7b61537cdcd1934056b9e289f342e96b57d3eebe5a6e713b2db91310ed9a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4995194"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766982"
 ---
 # <a name="dimension-hierarchy"></a>Dimensiju hierarhija
 
@@ -41,7 +39,7 @@ Dimensiju hierarhijas tiek izmantotas dažādās moduļa Izmaksu uzskaite sadaļ
 
 Tālāk ir sniegts dimensiju hierarhijas piemērs.
 
-![Dimensiju hierarhijas piemērs](./media/dimension-hierarchy.png)
+![Dimensiju hierarhijas piemērs.](./media/dimension-hierarchy.png)
 
 Var izveidot tālāk norādīto dimensiju veidu dimensiju hierarhiju.
 
@@ -52,7 +50,7 @@ Var izveidot tālāk norādīto dimensiju veidu dimensiju hierarhiju.
 > [!NOTE]
 > - Ja ir nepieciešamas dažādas perspektīvas, vienai dimensijai var izveidot vairākas dimensiju hierarhijas.
 > - Dimensiju hierarhiju var saistīt tikai ar vienu dimensiju.
-> - Dimensiju hierarhijas struktūrā var ietvert neierobežotu skaitu līmeņu. Visi līmeņi ir pieejami darbvietā **Izmaksu kontrole**. Ja pārskatu izveidei izmantojat Microsoft Excel vai Microsoft Power BI, tiek eksportēti tikai pirmie 15 dimensiju hierarhijas līmeņi. Šis ierobežojums pastāv tāpēc, ka gan programmai Excel, gan pakalpojumam Power BI ir nepieciešama fiksēta shēma.
+> - Dimensiju hierarhijas struktūrā var ietvert neierobežotu skaitu līmeņu. Visi līmeņi ir pieejami darbvietā **Izmaksu kontrole**. Lietojot Microsoft Excel vai Microsoft Power BI atskaišu sagatavošanas nolūkā, tiek eksportēti tikai pirmie 15 dimensiju hierarhijas līmeņi. Šis ierobežojums pastāv tāpēc, ka gan programmai Excel, gan pakalpojumam Power BI ir nepieciešama fiksēta shēma.
 > - Dimensiju hierarhija nav atkarīga no datuma. Tāpēc visas dimensiju hierarhijas izmaiņas tiek nekavējoties saglabātas ierakstā, un jūs nevarat salīdzināt stāvokli pirms noteikta datuma un pēc noteikta datuma.
 
 ## <a name="dimension-hierarchy-type"></a>Dimensiju hierarhijas tips
@@ -82,7 +80,7 @@ Dimensiju hierarhija tiek veidota kā koka struktūra, kurā pastāv mezglu un l
 
 Mazam uzņēmumam ir tālāk norādītā organizācijas struktūra, kurā finanšu un personāla vadības nodaļas ir pakļautas administrācijai, bet montāžas un iepakošanas nodaļas ir pakļautas ražošanas nodaļai.
 
-![Organizācijas struktūras piemērs](./media/dimension-hierarchy-org.png)
+![Organizācijas struktūras piemērs.](./media/dimension-hierarchy-org.png)
 
 Izmaksu objekta dimensija atbilst viesiem izmaksu centriem organizācijā.
 
@@ -120,16 +118,17 @@ Organizācijas pārskatu prasībām atbilstošu dimensiju hierarhiju var iestat�
 
 | Dimensiju hierarhijas nosaukums | Dimensija    | Dimensiju hierarhijas veida nosaukums      | Piekļuves sarakstu hierarhija |
 |--------------------------|--------------|------------------------------------|-----------------------|
-| Organizācija             | Izmaksu centri | Dimensiju klasifikācijas hierarhija | Nav                    |
+| Organizācija             | Izmaksu centri | Dimensiju klasifikācijas hierarhija | Nē                    |
 
 Pārskatu dimensiju hierarhiju var iestatīt tālāk norādītajā veidā.
 
-|                   | Dimensijas elementu diapazons   |                         |
+**Dimensijas elementu diapazons**
+
+|   Zari           |   Avota dimensijas elements   |   Mērķa dimensijas elements   |
 |-------------------|---------------------------|-------------------------|
-| **Mezgli**         | **Avota dimensijas elements** | **Mērķa dimensijas elements** |
 | Organizācija      |                           |                         |
 | &nbsp;&nbsp;Administrators         |                           |                         |
-|&nbsp;&nbsp;&nbsp;&nbsp;Finansēt   | CC002                     | CC003                   |
+| &nbsp;&nbsp;&nbsp;&nbsp;Finansēt   | CC002                     | CC003                   |
 |                   | CC007                     | CC007                   |
 | &nbsp;&nbsp;&nbsp;&nbsp;HR        | CC001                     | CC001                   |
 | &nbsp;&nbsp;Ražošana    |                           |                         |
@@ -146,12 +145,13 @@ Ierobežojuma prasībām atbilstošu dimensiju hierarhiju var iestatīt tālāk 
 
 Ierobežojuma dimensiju hierarhiju var iestatīt tālāk norādītajā veidā.
 
-|                   | Dimensijas elementu diapazons   |                         |
+**Dimensijas elementu diapazons**
+
+|   Zari           |   Avota dimensijas elements   |   Mērķa dimensijas elements   |
 |-------------------|---------------------------|-------------------------|
-| **Mezgli**         | **Avota dimensijas elements** | **Mērķa dimensijas elements** |
 | Izmaksu izturēšanās     |                           |                         |
 | &nbsp;&nbsp;Fiksētas izmaksas    | 10001                     | 10011                   |
-|&nbsp;&nbsp;Mainīgas izmaksas | 40001                     | 40010                   |
+| &nbsp;&nbsp;Mainīgas izmaksas | 40001                     | 40010                   |
 
 > [!NOTE]
 > Sadaļā **Dimensijas elementu diapazons** mezgls var ietvert 1:_n_ dimensiju elementu diapazonus. Varat ievietot vēl neesošu dimensiju elementu ID. Tādējādi hierarhija tiek padarīta viegli pielāgojama.  
@@ -166,8 +166,8 @@ Varat pārvietot mezglu hierarhijā uz augšu un uz leju tā pašreizējā līme
 
 Lai pārvietotu mezglu uz jaunu vietu hierarhijā, ir jāatlasa mērķa mezgls. Mezglu var pārvietot divos tālāk norādītajos veidos.
 
-- **Pārvietot zem** — pārvietojiet atlasīto mezglu no tā pašreizējās pozīcijas hierarhijā un ievietojiet to **zem** atlasītā mērķa mezgla.
-- **Pārvietot pēc** — pārvietojiet atlasīto mezglu no tā pašreizējās pozīcijas hierarhijā un ievietojiet to **pēc** atlasītā mērķa mezgla tā hierarhijas līmeņa ietvaros.
+- **Pārvietot zem** — pārvietojiet atlasīto mezglu no tā pašreizējās pozīcijas hierarhijā un ievietojiet to **zem** atlasītā mērķa mezgla.
+- **Pārvietot pēc** — pārvietojiet atlasīto mezglu no tā pašreizējās pozīcijas hierarhijā un ievietojiet to **pēc** atlasītā mērķa mezgla tā hierarhijas līmeņa ietvaros.
 
 > [!NOTE] 
 > Eksportējot datus uz programmu Excel vai pakalpojumu Power BI, netiek saglabāta mezglu secība, jo šie rīki pēc noklusējuma izmantoto burtciparu kārtošanas secību. Secība ir jāmaina manuāli.
@@ -297,9 +297,10 @@ Pastāv iespēja, ka visi vadītāji varēs piekļūt ļoti sensitīviem uzņēm
 
 Hierarhiju veidotājā ir pieejama jauna kopsavilkuma cilne **Lietotāji**. Tajā varat ievietot vienu vai vairākus lietotāju ID katrā hierarhijas mezglā.
 
-|                 | Lietotāji            | Dimensijas elementu diapazons   |                         |
+**Lietotāju un dimensijas elementu diapazoni**
+
+|   Zari         |   Lietotāja ID        |   Avota dimensijas elements   |   Mērķa dimensijas elements   |
 |-----------------|------------------|---------------------------|-------------------------|
-| **Mezgli**       | **Lietotāja ID**      | **Avota dimensijas elements** | **Mērķa dimensijas elements** |
 | Organizācija    | Bendžamins, Klēra |                           |                         |
 | &nbsp;&nbsp;Administrators         | Aprīlī            |                           |                         |
 | &nbsp;&nbsp;&nbsp;&nbsp;Finansēt   | Alīsija           | CC002                     | CC003                   |
@@ -330,5 +331,8 @@ Piekļuves saraksta hierarhijas iestatījumi tiek izmantoti, lai kontrolētu to,
     - Datu Power BI vizualizācijas, kas ir iegultas Dynamics 365 Finance klientā
 
 > [!NOTE] 
-> - Lai piekļuves saraksta hierarhija varētu ietekmēt datus pakalpojumā Power BI, piekļuves saraksta hierarhija ir jāsavieno pārī ar rindas līmeņa drošību pakalpojumā Power BI. Papildinformāciju skatiet rakstā [Drošības iestatīšana satura pakotnei Izmaksu uzskaite](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
+> - Lai piekļuves saraksta hierarhija varētu ietekmēt datus pakalpojumā Power BI, piekļuves saraksta hierarhija ir jāsavieno pārī ar rindas līmeņa drošību pakalpojumā Power BI. Papildinformāciju skatiet rakstā [Drošības iestatīšana satura pakotnei Izmaksu uzskaite](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - Piekļuves saraksta hierarhija nepalīdz aizsargāt datu eksportēšanu uz programmu Excel. Tāpēc pārskatu rīku drīkst izmantot tikai izmaksu grāmatveži un vadītāji, kuriem ir nepieciešama pilna piekļuve datu skatīšanai.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

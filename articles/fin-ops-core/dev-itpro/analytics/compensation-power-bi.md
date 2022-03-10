@@ -2,7 +2,6 @@
 title: Power BI satura pakotne Kompensācija
 description: Šajā tēmā ir aprakstīta Power BI satura pakotne Kompensācija. Tajā skaidrots, kā piekļūt pārskatiem un sniedz informāciju par izmantoto datu modeli.
 author: jcart1106
-manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: d588f01abd239ae097064396801613c2e3bd7471
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
-ms.translationtype: HT
+ms.openlocfilehash: 549111dab1b6d3b66567801ae787a680a04b18e20e286e1a59d1ab388bf2a4f7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560169"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763600"
 ---
 # <a name="compensation-power-bi-content"></a>Power BI satura pakotne Kompensācija
 

@@ -1,7 +1,7 @@
 ---
 title: Debitora atlaižu ģenerēšana un apstrāde
 description: Šajā procedūrā parādīts, kā apstrādāt debitora atlaides no prasību ģenerēšanas līdz brīdim, kad tās tiek nodotas kā uzkrājumi Debitoru parādos.
-author: omulvad
+author: Henrikan
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: PdsRebateAgreement, SalesTableListPage, SalesCreateOrder, SalesT
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ed48d41926c801c9017867be2eaa9af85a94b119
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a85c027571a6d77ed61cd874bb9d97221b099967
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817681"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7969091"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Debitora atlaižu ģenerēšana un apstrāde
 
@@ -62,14 +62,14 @@ ms.locfileid: "5817681"
 
 ## <a name="process-rebate-claims"></a>Atlaižu prasību apstrāde
 1. Dodieties uz **Navigācijas rūts > Moduļi > Pārdošana un mārketings > Debitora atlaides > Atlaides**.
-    - Lapa Atlaides darbojas rīks, kurā var pārskatīt, apstiprināt un apstrādāt atlaides prasības. Tagad apstrādājiet prasības, kas tika izveidotas, izrakstot rēķinu pārdošanas pasūtījumam debitoram US-009, uz kuru attiecas atlaides līgums USMF-000001.   
+    - Lapa Atlaides darbojas kā rīks, kurā var pārskatīt, apstiprināt un apstrādāt atlaides prasības. Tagad apstrādājiet prasības, kas tika izveidotas, izrakstot rēķinu pārdošanas pasūtījumam debitoram US-009, uz kuru attiecas atlaides līgums USMF-000001.   
     - Pirmā rinda attiecas uz 800 USD atlaides prasību, kas balstās uz produkta T0020 40 vienību pārdošanu un aprēķināti kā 20 USD uz vienību. Tas atbilst pirmā daudzuma pārtraukuma nosacījumiem atlaides līgumā.  
     - Otrā ir 2400 USD prasība, kas balstās produkta T0020 60 vienību pārdošanu un aprēķināta kā 40 USD uz vienību atbilstoši otrajam daudzuma pārtraukumam līgumā.  
     - Abas prasības ir stāvoklī "Jāaprēķina". Tas nozīmē, ka tās ir saistītas ar līgumu, kas periodiski izseko debitora pārdošanas apjomu un tās ir atkārtoti jāaprēķina, lai ņemtu vērā kopējo pārdošanas apjomu attiecīgajā periodā.   
 2. Noklikšķiniet uz **Uzkrāt**.
 3. Laukā **Debitors** ievadiet vai atlasiet kādu vērtību.
 4. Laukā **Sākuma datums** atlasiet šodienas datumu.
-5. Noklikšķiniet uz **Labi**. Funkcijas **Uzkrāt** lietošanas rezultātā novērtētā prasību summa tikusi koriģēta, lai ņemtu vērā faktu, ka debitora kopējais pārdošanas apjoms attiecīgajā periodā ir augstāks nekā pirmās atlaides ģenerēšanas brīdī. Precīzāk sakot, tā kā kopējais nopirktais daudzums ir sasniedzis 100 vienības, debitoram tagad ir tiesības uz 40 USD uz vienību (atbilstoši līguma otrajam daudzuma pārtraukumam) vai kopējo atlaides summu 400 USD apmērā. Starpība ir ierakstīta kā jauna prasības "korekcija" papildu 800 USD. Atlaides prasību, kas tika iekļautas funkcijā Uzkrāt atjauninājumu, statuss tagad ir iestatīts uz Aprēķināts. 
+5. Noklikšķiniet uz **Labi**. Funkcijas **Uzkrāt** lietošanas rezultātā novērtētā prasību summa tikusi koriģēta, lai ņemtu vērā faktu, ka debitora kopējais pārdošanas apjoms attiecīgajā periodā ir augstāks nekā pirmās atlaides ģenerēšanas brīdī. Precīzāk sakot, tā kā kopējais nopirktais daudzums ir sasniedzis 100 vienības, debitoram tagad ir tiesības uz 40 USD uz vienību (atbilstoši līguma otrajam daudzuma pārtraukumam) vai kopējo atlaides summu 4,000 USD apmērā. Starpība ir ierakstīta kā jauna prasības "korekcija" papildu 800 USD. Atlaides prasību, kas tika iekļautas funkcijā Uzkrāt atjauninājumu, statuss tagad ir iestatīts uz Aprēķināts. 
 6. Sarakstā atzīmējiet visas rindas.
 7. Noklikšķiniet uz **Apstiprināt**.
 8. Noklikšķiniet uz **Apstrādāt**.

@@ -3,7 +3,7 @@ title: Pārskats par preču konfigurācijas modeļiem
 description: Šajā rakstā ir definēti termini un koncepcijas, kas ir saistīti ar preču konfigurācijas modeļiem. Preču konfigurācijas modeļi sniedz iespēju veidot iekšējo preču struktūru, ko var izmantot, lai konfigurētu daudzus vienas preces variantus.
 author: t-benebo
 ms.date: 06/20/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails, PCProductConfigurationModelListPage, PCModalWaitDialog, PCTemplateConfigurationManager, PCConfigurationUIGrouping
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e8c583a9a5023b188788b3c2199a7602c425be93
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: fddad1fffd61ef0cf78977721bdf2da51aa4c682
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568523"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984650"
 ---
 # <a name="product-configuration-models-overview"></a>Pārskats par preču konfigurācijas modeļiem
 

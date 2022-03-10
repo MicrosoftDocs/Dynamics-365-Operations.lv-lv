@@ -2,11 +2,9 @@
 title: Attēlu fokusa punktu pielāgošana
 description: Šajā tēmā aprakstīts, kā pielāgot attēla fokusa punktus Microsoft Dynamics 365 Commerce vietnes veidotājā.
 author: psimolin
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,20 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fca209c9827192f50c2f1a5bd9e78146214e1e0e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 9c8a1b6de774a4d89c0ebcf46847c1b2c5b62374b3e5ac25a0bea2ff30b47510
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222565"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727610"
 ---
 # <a name="customize-image-focal-points"></a>Attēlu fokusa punktu pielāgošana
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā aprakstīts, kā pielāgot attēla fokusa punktus Microsoft Dynamics 365 Commerce vietnes veidotājā.
-
-## <a name="overview"></a>Pārskats
 
 Kad attēls tiek augšupielādēts Commerce vietnes veidotāja multivides bibliotēkā, sistēma mēģina noteikt attēla fokusa punktu. Piemēram, ja attēlā ir persona, sistēma pēc noklusējuma iestatīs fokusa punktu uz personas seju. Vairumā gadījumu automātiski tiek iestatīts fokusa punkts visiem skatpunktiem, bet dažkārt var būt nepieciešams pielāgot fokusa punktu, lai nodrošinātu, ka noteikta attēla daļa vienmēr ir redzama.
 

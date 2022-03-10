@@ -2,11 +2,9 @@
 title: Ļaut lietotājiem saņemt ar darbplūsmu saistītus e-pasta ziņojumus
 description: Sistēmu varat konfigurēt tā, lai lietotājiem sūtītu e-pasta ziņojumus, kad notiek ar darbplūsmu saistīti notikumi.
 author: jasongre
-manager: AnnBe
 ms.date: 06/01/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserManagement, SysUserSetup
 audience: Application User
@@ -15,16 +13,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5b7a953ea54286a7e48b392728d2cc9bb2902072
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
-ms.translationtype: HT
+ms.openlocfilehash: 368fe2fbf1f8a1adcabe37ced5ed942f9fb86fc8
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4692822"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070429"
 ---
 # <a name="enable-users-to-receive-workflow-related-email-messages"></a>Ļaut lietotājiem saņemt ar darbplūsmu saistītus e-pasta ziņojumus
 
 [!include [banner](../../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 Sistēmu varat konfigurēt tā, lai lietotājiem sūtītu e-pasta ziņojumus, kad notiek ar darbplūsmu saistīti notikumi. Piemēram, e-pasta ziņojumus var nosūtīt lietotājiem, ja to apstiprināšanai ir piešķirti dokumenti. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 
@@ -41,3 +42,6 @@ Sistēmu varat konfigurēt tā, lai lietotājiem sūtītu e-pasta ziņojumus, ka
 
 > [!NOTE]
 > Darbplūsmas e-pasta veidnes tiks iegūtas no sistēmas e-pasta veidnēm vai organizācijas e-pasta veidnēm atkarībā no tā, vai darbplūsma ir sistēmas līmeņa (nav specifiska uzņēmumam) vai organizācijas līmeņa (specifiska uzņēmumam) darbplūsma.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

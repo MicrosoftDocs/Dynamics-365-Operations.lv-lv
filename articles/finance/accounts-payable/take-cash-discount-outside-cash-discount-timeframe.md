@@ -2,11 +2,9 @@
 title: Termiņatlaides ārpus termiņatlaides perioda piešķiršana
 description: Šajā rakstā ir aprakstīti divi scenāriji, kas izskaidro, kā var piemērot termiņatlaidi arī tad, ja maksājums tiek veikts ārpus termiņatlaides perioda.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7698a244c57d027d07fa7df324d3010eea6e2fe8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: b9ba9c8176571a8b97b43565c89f8614bd828b3d9e1498a248fd896069d5d5c2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979367"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736996"
 ---
 # <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Termiņatlaides ārpus termiņatlaides perioda piešķiršana
 
@@ -43,7 +41,7 @@ Eiprila atzīmē rēķinu kā apmaksājamu. Termiņatlaide netiek piemērota, jo
 
 Atlaides informācija ir redzama lapas **Nosegt transakcijas** apakšdaļā.
 
-|                              |           |
+| Lauks                        | Vērtība     |
 |------------------------------|-----------|
 | Termiņatlaides datums           | 7/12/2015 |
 | Termiņatlaides summa         | -20,00    |
@@ -61,7 +59,7 @@ Ja gan rēķins, gan maksājums ir iegrāmatots, termiņatlaide vēl aizvien tie
 
 Atlaides informācija ir redzama lapas **Nosegt atvērtās transakcijas** apakšdaļā. Ir piemērota atlaide par summu 20,00, jo nosedzamā rēķina noklusējuma summa ir 1980,00.
 
-|                              |           |
+| Lauks                        | Vērtība     |
 |------------------------------|-----------|
 | Termiņatlaides datums           | 7/12/2015 |
 | Termiņatlaides summa         | -20,00    |
@@ -78,7 +76,7 @@ Eiprila atjaunina vērtību laukā **Nosedzamā summa**, ievadot **500,00**. Lau
 
 Atlaides informācija ir redzama lapas **Nosegt atvērtās transakcijas** apakšdaļā. Laukā **Piešķirtās termiņatlaides summa** ir redzama vērtība **5,05**, jo rēķina nosedzamā summa ir mainīta uz maksājuma summu 500,00.
 
-|                              |           |
+| Lauks                        | Vērtība     |
 |------------------------------|-----------|
 | Termiņatlaides datums           | 7/12/2015 |
 | Termiņatlaides summa         | -20,00    |
@@ -90,3 +88,6 @@ Atlaides informācija ir redzama lapas **Nosegt atvērtās transakcijas** apakš
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

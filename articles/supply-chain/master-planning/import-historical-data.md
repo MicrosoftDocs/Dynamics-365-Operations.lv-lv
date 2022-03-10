@@ -1,12 +1,10 @@
 ---
 title: Vēsturisko datu importēšana pieprasījuma apjoma prognozēm
 description: Lai iegūtu precīzas pieprasījuma apjoma prognozes, ir nepieciešami vēsturiskie pieprasījuma dati pa krājumiem vai krājumu sadalījuma principiem. šajā tēmā ir izskaidrots, kā izmantot datu elementus, lai importētu vēsturiskos pieprasījuma datus no jebkuras sistēmas, tādējādi iegūstot vēsturiskos pieprasījuma datus par ilgāku periodu.
-author: roxanadiaconu
-manager: tfehr
+author: ChristianRytt
 ms.date: 05/10/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.assetid: 59c0d269-9db0-48e7-b8c7-9a388781a9ca
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d415895bd05b9ab1a2311ab69cc3757047df91db
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 6dba31279541c20949dd1e86236103045c48b701
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5204620"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579668"
 ---
 # <a name="import-historical-data-for-demand-forecasts"></a>Vēsturisko datu importēšana pieprasījuma apjoma prognozēm
 
@@ -41,26 +39,6 @@ Lai izmantotu datu elementu, ir nepieciešams Microsoft Excel fails vai komatatd
 
 Papildinformāciju par to, kā importēt datus, tostarp to, kā iztīrīt datus pēc importēšanas, skatiet [Datu importēšanas un eksportēšanas darbu pārskats](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md) un ar to saistītās tēmas.
 
-## <a name="example"></a>Paraugs
-
-Kā paraugu varat izmantot tālāk pieejamo failu. Lejupielādējiet failu [HistoricalDemandData](https://docs.microsoft.com/dynamics/s-e/). Šajā failā ir ietverti vēsturiskie pieprasījuma dati par krājumu D0001. Tajā ir ietverti tikai šādi obligātie lauki: vieta, daudzums un pieprasījuma datums.
-
-1. Atlasiet uzņēmumu, kurā ir jāimportē vēsturiskie pieprasījuma dati.
-2. Atveriet darbvietu **Datu pārvaldība**.
-3. Atlasiet elementu **Imports**.
-4. Ievadiet importēšanas projekta nosaukumu, piemēram, **Importētie krājuma D0001 vēsturiskie pieprasījuma dati**.
-5. Laukā **Avota datu formāts** atlasiet importētā faila formātu. Lai importētu šī piemēra ietveros lietoto failu HistoricalDemandData, atlasiet **CSV**.
-6. Laukā **Elementa nosaukums** atlasiet **Vēsturisks ārējs pieprasījums**.
-7. Saglabājiet failu datorā un pēc tam augšupielādējiet to.
-8. Atlasiet **Importēt**.
-9. Tiek automātiski atvērta lapa **Izpildes kopsavilkums**. Pārbaudiet importētos datus šajā lapā.
-
-Pēc vēsturisko pieprasījuma datu importēšanas varat ģenerēt pieprasījuma apjoma prognozi.
-
-## <a name="additional-resources"></a>Papildu resursi
-
-[Statistiskās bāzlīnijas prognozes ģenerēšana](generate-statistical-baseline-forecast.md)  
-[Datu importēšanas un eksportēšanas darbu pārskats](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)
-
+Skatiet arī [Statistiskās bāzlīnijas prognozes ģenerēšana](generate-statistical-baseline-forecast.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

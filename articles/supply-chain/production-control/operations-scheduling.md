@@ -1,30 +1,27 @@
 ---
 title: Operāciju plānošana
 description: Šajā tēmā ir sniegta informācija par operāciju plānošanu. Operāciju plānošanu var lietot, lai sniegtu vispārēju ražošanas procesa novērtējumu laika periodam.
-author: ChristianRytt
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/20/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdSchedule
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 198073
 ms.assetid: 12c28b11-80aa-4668-b15b-724cb24890bd
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e95374e0aebca825f589f13eda389d6612737181
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: e3c380297b56f615a6b285ef7daf1ecbd7bb420f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432844"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574573"
 ---
 # <a name="operations-scheduling"></a>Operāciju plānošana
 
@@ -77,10 +74,12 @@ Izpildot operāciju plānošanu, var atcelt noteiktas maršruta daļas. Šīs da
 ## <a name="finite-materials"></a>Ierobežoti materiāli
 Ja strādājat ar ierobežotiem materiāliem, plānošana ir atkarīga arī no ražošanai nepieciešamo materiālu pieejamības. Ja nav pietiekami daudz pieejamo sastāvdaļu ražošanai, tā var aizkavēties. Varat balstīt plānošanu uz materiālu izmantošanu, norādot materiālus, kuriem ir jābūt pieejamiem ražošanai. Optimizējot pēc resursu noslodzes un materiālu pieejamības, ražošana tiek aprēķināta saskaņā ar šiem ierobežojumiem. Ražošanas pasūtījuma sākumu nevar plānot, kamēr noslodze un materiāli nav pieejami tajā pašā laikā un nepieciešamajā daudzumā.
 
-<a name="additional-resources"></a>Papildu resursi
---------
+## <a name="additional-resources"></a>Papildu resursi
 
 [Operāciju plānošanas opcijas](operation-scheduling-options.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

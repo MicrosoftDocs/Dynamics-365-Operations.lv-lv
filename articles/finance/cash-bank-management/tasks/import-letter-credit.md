@@ -2,11 +2,9 @@
 title: Importa akreditatīvs
 description: Šajā procedūrā ir aprakstīts kredītvēstules importēšanas process.
 author: kweekley
-manager: AnnBe
 ms.date: 02/28/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTable, VendBankAccounts, PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, BankLCImport,  PurchEditLines, VendEditInvoice, SrsReportViewerForm, LedgerJournalTable, LedgerJournalTransVendPaym, VendOpenTrans, SysQueryForm, BankAccountTableLookUp
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ac0b1aacbf0e5dbe69a8125dc0a1373de0957d4e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: c6119a8b52eece5935bf05d0f2300feeb8d4e90b08f26e949870f491bc9254e8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5225397"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743125"
 ---
 # <a name="import-letter-of-credit"></a>Importa akreditatīvs
 
@@ -130,7 +128,8 @@ Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USMF” dati.
 12. Aizvērt lapu.
 13. Aizvērt lapu.
 
-## <a name="verify-import-letter-of-credit-status"></a>Darbības Kredītvēstules importēšana statusa pārbaude
+## <a name="verify-import-letter-of-credit-status-and-printing"></a>Pārbaudiet Kredītvēstules importēšanas statusu un drukāšanu
+
 1. Dodieties uz Kases un bankas vadība > Akreditatīvi > Importa akreditatīvs un importa iekasēšana.
 2. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
 3. Sarakstā noklikšķiniet uz saites atlasītajā rindā.

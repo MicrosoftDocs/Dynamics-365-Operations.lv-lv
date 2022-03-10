@@ -2,15 +2,12 @@
 title: Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2020. gada 12. februāris)
 description: Šajā rakstā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Human Resources uz 2020. gada 12. februāri.
 author: andreabichsel
-manager: tfehr
 ms.date: 02/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
@@ -18,18 +15,18 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f03c0230949ceb974d4b4d22623c80a1509eeb32
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
-ms.translationtype: HT
+ms.openlocfilehash: ac274cc18ddb3392fb118dcc1df7813cbc5b8293
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5463818"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063033"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-12-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2020. gada 12. februāris)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Šajā rakstā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Human Resources. Izmaiņas attiecas uz būvējuma numuru 8.1.2867. Dažos virsrakstos redzamie numuri iekavās attiecas uz atbalsta numuriem portālā Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -57,7 +54,7 @@ Tālāk norādītie priekšskatījuma līdzekļi ir pieejami 2020. gada 3. febru
 
 ### <a name="platform-update-32"></a>Platformas update 32 
 
-Platformas update 32 būs pieejams drīzumā. [Skatiet papildinformāciju par Platform update 32 šeit ](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32).
+Platformas update 32 būs pieejams drīzumā. [Skatiet papildinformāciju par Platform update 32 šeit](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md).
 
 ### <a name="updated-dataverse-solution"></a>Atjaunināts Dataverse risinājums
 
@@ -77,7 +74,7 @@ Jauns Dataverse risinājums drīzumā būs pieejams ar šādām izmaiņām:
 ## <a name="see-also"></a>Skatiet arī
 
 [Jaunumi un izmaiņas programmā Human Resources](hr-admin-whats-new.md)</br>
-[Pārskats par Dynamics 365 Human Resources 2019. gada laidiena 2. kopumu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Pārskats par Dynamics 365 Human Resources 2019. gada laidiena 2. kopumu](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Procesa atjaunināšana](hr-admin-setup-update-process.md)</br>
 [Līdzekļu pārvaldība](hr-admin-manage-features.md)
 

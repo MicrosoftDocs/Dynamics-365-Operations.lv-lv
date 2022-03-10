@@ -2,26 +2,23 @@
 title: Novietojuma dimensijas ierobežojumi
 description: Šī tēma apraksta novietojuma dimensijas ierobežojumu funkcionalitāti.
 author: perlynne
-manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationLimit
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 208662f38b06b1f230bdde5247946a9fefd57cea
-ms.sourcegitcommit: d2dea9ce480f35d0c0b10615c18862695e107d55
-ms.translationtype: HT
+ms.openlocfilehash: 239b9fa8d8e34a92d453d3387881cff7b0a11f28a3c3b1e19891ea3bd78c3d7c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "4607283"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714166"
 ---
 # <a name="location-stocking-limits"></a>Novietojuma dimensijas ierobežojumi
 
@@ -84,7 +81,7 @@ Tāpēc katra vieta, kur **Atrašanās vietas profila ID** vērtība ir iestatī
 
 Vispirms tiek saņemts daudzums *4* vienībai *PL*, kuras lielums ir *S*, un pārskatiet izveidotā darba rindas atrašanās vietas. Tad tiek saņemts daudzums *4* vienībai *PL*, kuras lielums ir *L*, un pārskatiet izveidotā darba rindas atrašanās vietas.
 
-1. Noliktavas programmā piesakieties, izmantojot *24* kā lietotāja ID un *1* kā paroli.
+1. Warehouse Management mobile programmā piesakieties, izmantojot *24* kā lietotāja ID un *1* kā paroli.
 1. Atlasiet **Ienākošie** \> **Pirkumu saņemšana**.
 1. Saņemt *4* *PL* ar krājuma numuru *D0013* *S* izmērā.
 1. Pārskatiet izveidoto darbu. Vajadzētu tikt parādītiem šādam rezultātam:
@@ -104,3 +101,6 @@ Lai izskaidrotu šo acīmredzamo kļūmi, ir jāsaprot atrašanās vietas uzkrā
 
 > [!NOTE]
 > Nevar izmantot novietojuma dimensijas ierobežojumus, lai kontrolētu, piemēram, to krājumu papildināšanu, kuriem ir dažādi daudzumi vienā un tajā pašā vietā. Šādā gadījumā izmantojiet *papildināšanas veidni*.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

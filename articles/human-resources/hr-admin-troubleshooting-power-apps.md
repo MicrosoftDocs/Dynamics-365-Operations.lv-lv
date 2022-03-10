@@ -1,30 +1,30 @@
 ---
 title: Nevar izveidot vidi Power Apps administrēšanas centrā
-description: Šajā rakstā paskaidrots, kā rīkoties, ja administrators nevar izveidot vidi Microsoft Power Apps administrēšanas centrā.
-author: andreabichsel
-manager: tfehr
-ms.date: 02/03/2020
+description: Šajā tēmā ir paskaidrots, kā rīkoties, ja administrators nevar izveidot vidi Microsoft Power Apps administrēšanas centrā.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ec63148364022fe5b8c40d855856eec232af3e48
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
-ms.translationtype: HT
+ms.openlocfilehash: 937b372fa95c8076666aed14c2b34b12e8029c4d
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5463964"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067708"
 ---
 # <a name="cant-create-an-environment-in-the-power-apps-admin-center"></a>Nevar izveidot vidi Power Apps administrēšanas centrā
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -40,12 +40,12 @@ Pārliecinieties, vai nomnieka administrators ir piešķīris derīgu Power Apps
 | Vispārēja preču noliktavas vienība (SKU)       | Power Apps P2 pakalpojumu plāns  |
 |------------------------------------------------|----------------------------|
 | Microsoft Dynamics 365 for Operations          | Power Apps for Dynamics 365 |
-| Microsoft Dynamics 365 plāns Enterprise Edition | Power Apps for Dynamics 365 |
+| Microsoft Dynamics 365 plāns Enterprise Edition | Power Apps for Dynamics 365 |
 
 Ņemiet vērā, ka šīs tiesības nodrošina arī dažādas Microsoft Office SKU, kā arī savrupas Power Apps 2. plāna SKU. Ir svarīgi, lai būtu viena šīm SKU.
 
 1. Dodieties uz [https://preview.admin.powerapps.com/environments](https://preview.admin.powerapps.com/environments).
-2. Izveidojiet vides, izpildot instrukcijas [Human Resources nodrošināšana](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
+2. Izveidojiet vides, izpildot instrukcijas [Human Resources nodrošināšana](/dynamics365/unified-operations/talent/provisioning-talent).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

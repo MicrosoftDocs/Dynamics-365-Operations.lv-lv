@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 34e29a43cebeec16357aecb036c534da35820d90ae602d67419a9606afc542ee
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: f0be79b54a279893f93d41981342e42c8880f059
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735972"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752836"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Ierīces iestatīšana ražotnes izpildes interfeisa palaišanai
 
@@ -28,9 +28,9 @@ Ražotnes izpildes interfeiss tiek iestatīts visām ierīcēm ražotnē. Uzņē
 
 ## <a name="set-the-configuration-and-filters-for-a-specific-device"></a>Iestatīt konfigurāciju un filtrus noteiktai ierīcei
 
-Lai iestatītu ierīces konfigurācijas un darba filtrus, pierakstieties lapā **Ražotnes izpilde**, izmantojot kontu, kam ir drošības loma, kura ietver pienākumu *Uzturēšanas laika uzraudzītājs*. (No visām iebūvētajām drošības lomām šis pienākums ir tikai *Ražotnes uzraudzītājam*.) Pēc tam veiciet tālāk norādītās darbības.
+Lai uzstādītu ierīces konfigurācijas un darbu filtrus, piesakieties lapā Ražošanas stāva izpilde, izmantojot kontu, kam ir drošības loma, kas ietver laika uzraudzības **·** pienākumu *·* uzturēšana. (No visām iebūvētajām drošības lomām šis pienākums ir tikai *Ražotnes uzraudzītājam*.) Pēc tam veiciet tālāk norādītās darbības.
 
-1. Dodieties uz ierīci, ko vēlaties iestatīt, un pierakstieties programmā Microsoft Dynamics 365 Supply Chain Management kā ražotnes uzraudzītājs. (Izmantojiet kontu, kas ietver pienākumu *Uzturēšanas laika uzraudzītājs*.)
+1. Dodieties uz ierīci, ko vēlaties iestatīt, un pierakstieties programmā Microsoft Dynamics 365 Supply Chain Management kā ražotnes uzraudzītājs. (Izmantojiet kontu, kurā ietilpst *Uzturēt laika uzraudzības* pienākumu.)
 1. Pārliecinieties, ka konfigurācija ir pieejama ierīcei, kuru iestatāt. Ja konfigurācija jau pastāv, tiek nodrošināta noklusējuma konfigurācija. Papildinformāciju par to, kā iestatīt konfigurāciju, skatiet tēmā [Ražotnes izpildes interfeisa konfigurēšana](production-floor-execution-configure.md).
 1. Dodieties uz **Ražošanas kontrole \> Ražošanas izpilde \> Ražotnes izpilde**.
 

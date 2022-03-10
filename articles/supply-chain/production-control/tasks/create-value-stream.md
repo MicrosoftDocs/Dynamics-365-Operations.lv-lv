@@ -1,7 +1,7 @@
 ---
 title: Vērtību plūsmas izveide
 description: Vērtību plūsmas ir pārvaldības struktūrvienības, kas sagrupētas vienā vai vairākās ražošanas plūsmās.
-author: cvocph
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ae4cc730224c1ba73af1101b2f88ad7534c7d7ae
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5c1c590af8f3a309d2cf5cbdd13158650197e570
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828854"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576812"
 ---
 # <a name="create-a-value-stream"></a>Vērtību plūsmas izveide
 

@@ -2,11 +2,9 @@
 title: Vispārējā plānošana ar pirkšanas tirdzniecības līgumiem
 description: Šajā tēmā aprakstīts, kā plānošanas optimizācija var atrast kreditoru un/vai izpildes laiku plānotam pasūtījumam, pamatojoties uz labāko cenu vai izpildes laiku, kas atrodams pirkšanas tirdzniecības līgumos.
 author: ChristianRytt
-manager: tfehr
 ms.date: 06/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d8d5b8c7ac5da9c68926d7fbb4f37b81b56665cb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 10b4f9f45899b808bd0baa73974a173cf120aa6c3fd33e10d0d79a59614f1f70
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5264726"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757762"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Vispārējā plānošana ar pirkšanas tirdzniecības līgumiem
 
@@ -69,7 +67,7 @@ Kad sistēma ir sagatavota, kā aprakstīts iepriekšējā sadaļā, jums ir jā
 1. Atkārtojiet šo procedūru katrai atbilstīgajai precei.
 
 > [!NOTE]
-> Pirkšanas tirdzniecības līguma rindas valūtai jābūt vienādai ar atlasītā kreditora valūtu. Vispārējā plānošanā tiks iekļauta informācija no pirkšanas tirdzniecības līguma rindām tikai tad, ja valūta atbildīs kreditora valūtai.
+> Plānošanas optimizācijas atbalsta daudzvalūtu pirkšanas tirdzniecības līgumus. Meklējot tirdzniecības līgumu, izmantojot opciju **Zemākā vienības cena**, sistēma apsver pirkšanas tirdzniecības līguma rindas ar dažādām valūtām, ja maiņas kurss ir definēts starp juridiskās personas tirdzniecības līguma rindas valūtu un uzskaites valūtu. Pretējā gadījumā tirdzniecības līguma rinda tiks ignorēta, un vispārējās plānošanas laikā tiks parādīts kļūdas ziņojums. Tāpēc vispārējā plānošanā tiks ietverta informācija no visām atbilstošām pirkšanas tirdzniecības līguma rindām, kur cenas var konvertēt uzskaites valūtā. Ir svarīgi atzīmēt, ka noapaļošanas noteikumi netiks ņemti vērā tirdzniecības līguma rindas cenas konvertēšanas laikā.
 
 ## <a name="examples-of-how-planning-optimization-finds-vendor-and-lead-times"></a>Piemēri tam, kā plānošanas optimizācija atrod kreditoru un izpildes laikus
 
@@ -77,14 +75,14 @@ Tabulā zemāk ir sniegti piemēri, kas parāda, kā dažādi tirdzniecībā izl
 
 | Tirdzniecībā izlaistā prece: kreditors | Noklusējuma kārtības iestatījumi: izpildes laiks | Krājumu vajadzība: ignorēt kreditoru | Krājumu vajadzība: ignorēt izpildes laiku | Tirdzniecības līgums: kreditors | Tirdzniecības līgums: izpildes laiks | Tirdzniecības līgums: ignorēt izpildes laiku | Iegūtais kreditors | Iegūtais izpildes laiks |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ***US001** _ | _*_1_*_ | Nr. | Nr. | US003 | 3 | Nr. | _ *US001** | **1** |
-| US001 | 1 | ***Jā: US002** _ | _*_Jā: 2_*_ | US003 | 3 | Nr. | _ *US002** | **2** |
-| *(Tukšs)* | 1 | Nr. | Nr. | ***US003** _ | _*_3_*_ | Nr. | _ *US003** | **3** |
-| *(Tukšs)* | ***1** _ | Nr. | Nr. | _*_US003_*_ | 3 | Jā | _ *US003** | **1** |
-| *(Tukšs)* | ***1** _ | _*_Jā US002_*_ | Nr. | US003 | 3 | Nr. | _ *US002** | **1** |
-| *(Tukšs)* | ***1** _ | _*_Jā US002_*_ | Nr. | US003 | 3 | Nr. | _ *US002** | **1** |
-| *(Tukšs)* | 1 | Nr. | Jā: 2 | ***US003** _ | _*_3_*_ | Nr. | _ *US003** | **3** |
-| *(Tukšs)* | 1 | Nr. | ***Jā: 2** _ | _*_US003_*_ | 3 | Jā | _ *US003** | **2** |
+| ***US001** _ | _*_1_*_ | Nē | Nē | US003 | 3 | Nē | _ *US001** | **1** |
+| US001 | 1 | ***Jā: US002** _ | _*_Jā: 2_*_ | US003 | 3 | Nē | _ *US002** | **2** |
+| *(Tukšs)* | 1 | Nē | Nē | ***US003** _ | _*_3_*_ | Nē | _ *US003** | **3** |
+| *(Tukšs)* | ***1** _ | Nē | Nē | _*_US003_*_ | 3 | Jā | _ *US003** | **1** |
+| *(Tukšs)* | ***1** _ | _*_Jā US002_*_ | Nē | US003 | 3 | Nē | _ *US002** | **1** |
+| *(Tukšs)* | ***1** _ | _*_Jā US002_*_ | Nē | US003 | 3 | Nē | _ *US002** | **1** |
+| *(Tukšs)* | 1 | Nē | Jā: 2 | ***US003** _ | _*_3_*_ | Nē | _ *US003** | **3** |
+| *(Tukšs)* | 1 | Nē | ***Jā: 2** _ | _*_US003_*_ | 3 | Jā | _ *US003** | **2** |
 
 ## <a name="additional-resources"></a>Papildu resursi
 

@@ -2,11 +2,9 @@
 title: Izveidot ieteikumus ar demo datiem
 description: Šī tēma sniedz vadlīnijas par to, kā gūt labumu no daudzkanālu preču ieteikumiem 1. līmeņa atsevišķa lodziņa vidēs, izmantojot iepriekš aizpildītus, pielāgojamus demonstrācijas datus.
 author: bebeale
-manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 378acccc9b3afb190d0b8f79bec3d64cd6a41fdb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 1a9592ee5cae88c6277115ed495b15ec09945e56cad0634fd246b6ee7e5dd048
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231060"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741042"
 ---
 # <a name="create-recommendations-with-demo-data"></a>Izveidot ieteikumus ar demo datiem
 
@@ -47,12 +45,12 @@ Dati ir strukturēti tālāk redzamajās kolonnās.
 
 | Kolonnas nosaukums         | Obligāts          | apraksts                                                                                                                                 | Iespējamās vērtības                                                              |
 |---------------------|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| IeteikumuSaraksts            | :heavy_check_mark: | Īpašais preču ieteikumu saraksta veids, kas ir jāģenerē demonstrācijas datu punktam.                                                    | <ul><li>IeteikumiVislabākPārdotais</li><li>IeteikumiJauns</li><li>IeteikumiTendences</li><li>IeteikumiGrozs</li><li>IeteikumiCilvēkiArīPērk</li></ul> |
-| PārvaldībasStruktūrvienībuNumurs | :heavy_check_mark: | Konkrētais pārvaldības struktūrvienības numurs, kurā ir paredzēts uzrasties preču ieteikumiem.                                        |                                                                              |
+| RecoList            | :heavy_check_mark: | Īpašais preču ieteikumu saraksta veids, kas ir jāģenerē demonstrācijas datu punktam.                                                    | <ul><li>RecoBestSelling</li><li>RecoNew</li><li>RecoTrending</li><li>RecoCart</li><li>RecoPeopleAlsoBuy</li></ul> |
+| OperatingUnitNumber | :heavy_check_mark: | Konkrētais pārvaldības struktūrvienības numurs, kurā ir paredzēts uzrasties preču ieteikumiem.                                        |                                                                              |
 | Kategorija            |                    |    Kategorija, kurai jāatgriež konkrētais saraksts. Ja kategorija nav norādīta, saraksts ir paredzēts tikai augšējai navigācijas hierarhijai.    |                                                                              |
-| AtlasesPrecesId          |                    |    Sarakstiem, kam ir nepieciešams sākums (RecoPeopleAlsoBuy un RecoCart), preces, kurām šiem sarakstiem jāparāda papildu preces.            |                                                                              |
+| SeedItemId          |                    |    Sarakstiem, kam ir nepieciešams sākums (RecoPeopleAlsoBuy un RecoCart), preces, kurām šiem sarakstiem jāparāda papildu preces.            |                                                                              |
 | CustomerId          |                    |    Sarakstiem, kam nepieciešams debitora identifikators (RecoPicks).  Noklusētā vērtība "0" attiecas uz visiem debitoriem.          |                                                                              |
-| PrecesId             | :heavy_check_mark: | Viena vai vairākas preces, kas jāatgriež kā rezultāts, kas atdalīts ar ';'.                                                                  |                                                                              |
+| ItemIds             | :heavy_check_mark: | Viena vai vairākas preces, kas jāatgriež kā rezultāts, kas atdalīts ar ';'.                                                                  |                                                                              |
 
 ## <a name="customize-demo-data"></a>Pielāgot demonstrācijas datus
 Varat rediģēt noklusējuma demonstrācijas datus ar jebkuru preču un kategoriju informāciju, kas ir konfigurēta HQ. Kad atjaunināt .csv, preču ieteikumi, kas tiek sniegti klientiem, nekavējoties atspoguļos izmaiņas.
@@ -70,7 +68,7 @@ Paplašinājums ietver datu faila ar nosaukumu 'RecoMockDataset.csv', kas ļauj 
 
 [Preču ieteikumu apskats](product-recommendations.md)
 
-[Iespējojiet Azure Data Lake Storage vidē Dynamics 365 Commerce](enable-adls-environment.md)
+[Iespējojiet Azure Data Lake Storage pakalpojuma Dynamics 365 Commerce vidē](enable-adls-environment.md)
 
 [Iespējot preču ieteikumus](enable-product-recommendations.md)
 

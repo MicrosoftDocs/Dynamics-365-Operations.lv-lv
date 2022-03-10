@@ -2,11 +2,9 @@
 title: Informācijas kodi un informācijas kodu grupas
 description: Šajā rakstā ir sniegts pārskats par informācijas kodiem, informācijas kodu grupām un par to, kā tos izmantot.
 author: mugunthanm
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailInfocodeTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e9f84e3ffc79920fc6ef49a6391f76acdd89252a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 2f905fda2224da8fd15a287f20339a9bfd1cab992024c195ca040ce2c1c671d4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5012473"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729123"
 ---
 # <a name="info-codes-and-info-code-groups"></a>Informācijas kodi un informācijas kodu grupas
 
@@ -55,3 +53,6 @@ Varat saistīt infokodus, lai pēc viena infokoda aktivizēšanas uzreiz tiktu a
 **2. piemērs: infokodu piesaistīšana infokodu grupām**
 
 Kad pārdodat noteiktas preces, piemēram, mobilās ierīces, jūs parasti vēlaties iegūt noteiktu informācijas kopumu, piemēram, tālruņa numuru, mobilās ierīces identifikatoru (MEID) un sērijas numuru. Tomēr vēlaties arī planšetdatoriem iegūt citādu informāciju nekā mobilajam tālrunim. Varat iestatīt informācijas kodu grupu, kas ietver uzvednes par tālruņa numuru, MEID un sērijas numuru, un pēc tam saistīt šo informācijas kodu grupu ar atsevišķu informācijas kodu. Kad tiek aktivizēts precei raksturīgais infokods, šo infokodu grupu var aktivizēt kā nākamo, ļaujot jums iegūt kopējos datus bez nepieciešamības definēt vairākas saistītu infokodu kopas katrai ierīcei.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

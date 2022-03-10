@@ -1,38 +1,35 @@
 ---
 title: Ražošanas plūsmas un versijas pārbaude
-description: Šajā procedūrā tiek parādīts, kā izveidot lean manufacturing jaunu ražošanas plūsmu un pirmo versiju.
-author: ChristianRytt
-manager: tfehr
+description: Šajā procedūrā tiek parādīts, kā izveidot Lean ražošanā jaunu ražošanas plūsmu un pirmo versiju.
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlow
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c30947d01cfb85ea3dbf1aa3e4ea8e092efd18cb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6d87aa427c2bc3868e255c97ea11fd4e79456eef
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432877"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573589"
 ---
 # <a name="validate-a-production-flow-and-version"></a>Ražošanas plūsmas un versijas pārbaude
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā procedūrā tiek parādīts, kā izveidot lean manufacturing jaunu ražošanas plūsmu un pirmo versiju. Priekšnosacījumi: ir jādefinē lean manufacturing ražošanas uzdevuma parametrus un klases laika mērvienības. Jums arī ir nepieciešams definēt Vērtību plūsmu un Ražošanas uzdevumu grupu. Skatiet tehniskos dokumentus par Lean manufacturing, lai iepazītos ar ražošanas plūsmu un aktivitāšu koncepciju. Šī procedūra attiecas uz juridisko personu USMF demonstrācijas datos. Tomēr, pieņemot, ka juridiskā persona ir konfigurēta lean manufacturing, var izmantot citas juridiskas personas.
+Šajā procedūrā tiek parādīts, kā izveidot Lean ražošanā jaunu ražošanas plūsmu un pirmo versiju. Priekšnosacījumi: ir jādefinē Lean ražošanas parametrus un klases laika mērvienības. Jums arī ir nepieciešams definēt Vērtību plūsmu un Ražošanas uzdevumu grupu. Skatiet tehniskos dokumentus par Lean ražošanas procesu, lai iepazītos ar ražošanas plūsmu un aktivitāšu koncepciju. Šī procedūra attiecas uz juridisko personu USMF demonstrācijas datos. Tomēr, pieņemot, ka juridiskā persona ir konfigurēta Lean ražošanas procesā, var izmantot citas juridiskas personas.
 
 
 ## <a name="create-a-production-flow"></a>Ražošanas plūsmas izveide
-1. Pārejiet uz sadaļu Ražošanas kontrole > Iestatījumi > Racionālās ražošanas plūsma > Ražošanas plūsmas.
+1. Pārejiet uz sadaļu Ražošanas kontrole > Iestatījumi > Lean ražošanas plūsma > Ražošanas plūsmas.
 2. Noklikšķiniet uz Jauns.
 3. Laukā Nosaukums ierakstiet kādu vērtību.
 4. Apraksta laukā ierakstiet vērtību.
@@ -64,3 +61,6 @@ ms.locfileid: "4432877"
     * Faktiskā cikla laika periods ir dienu skaits, kuru laikā darbi tiek apkopoti no faktiskās minūtes atpakaļ, lai aprēķinātu faktisko cikla laiku. Vērtību var mainīt jebkurā brīdī un tā tiek izmantota tikai faktisko cikla laiku aprēķināšanai.  
 13. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
