@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fd0fdd677824db823f9bc42f0ad1bdd90cf3b16d
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 440cddca11df8d705757c6f6adf01e08626c5158
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344982"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8408019"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Plānošanas optimizācijas atbilstības analīze
 
@@ -58,7 +58,7 @@ Tabulā ir redzami dažādi rezultāti, kas var tikt parādīti pēc saderības 
 | Funkcija | Uzskaitītā problēma | Paskaidrojums | Paredzamā pieejamība |
 | --- | --- | --- | --- |
 | Darbības | Vajadzības grupas ar iespējotu darbību aprēķinu: _\#_ | Šī funkcija ir gaidīšanas režīmā. Pašlaik darbības netiek ģenerētas vispārējās plānošanas laikā, kad ir iespējota plānošanas optimizācija, neņemot vērā šo iestatījumu. Galvenais darbību nolūks ir ieteikt izmaiņas esošajos pasūtījumos. Novērtējiet, vai darbības tiek aktīvi piemērotas kā daļa no jūsu biznesa procesiem un vai kavējuma informācija, kas saistīta ar pasūtījumiem, ir pietiekama. | 2022. aprīlis |
-| Pamatkalendāri | Kalendāri, kas izmanto pamatkalendāru: _\#_ | Šī funkcija ir gaidīšanas režīmā. Pašlaik pamatkalendārs tiek ignorēts, ja ir iespējota plānošanas optimizācija. Novērtējiet, vai jūsu biznesa procesiem ir nepieciešams pamatkalendārs un vai tieša iestatīšana kalendāros ir pietiekama. | 2022. aprīlis | 
+| Pamatkalendāri | Kalendāri, kas izmanto pamatkalendāru: _\#_ | Šis līdzeklis tagad tiek atbalstīts. | 2022. marts | 
 | Partijas atgriešanas kodi | Nepieejami partijas atgriešanas metodes šabloni: _\#_ | Šī funkcija ir gaidīšanas režīmā. Pašlaik partijas atgriešanas kodi tiek ignorēti, ja ir iespējota plānošanas optimizācija. | 2022. gada oktobris vai jaunāka |
 | Pieejams solīšanai (CTP) | Noklusējuma pasūtījuma iestatījumi ar piegādes datuma vadīklu iestatītu uz CTP: _\#_ | Šī funkcija ir gaidīšanas režīmā. Pašlaik CTP tiek ignorēts, ja ir iespējota plānošanas optimizācija, neņemot vērā šo iestatījumu. | 2022. oktobris |
 | Kopēt statisko uz dinamisko plānu | Statiskā kopēšana uz dinamisko plānu ir iespējota vispārējās plānošanas parametros. | Plānošanas optimizācija nekopē statisko plānu uz dinamisko plānu neatkarīgi no šī iestatījuma. Parasti šī koncepcija nav tik svarīga ātruma un pilnīgas reģenerācijas dēļ, ko nodrošina plānošanas optimizācija. Ja tiek izmantoti divi vai vairāki plāni, katram plānam ir jāaktivizē vispārējā plānošana. | 2022. oktobris |

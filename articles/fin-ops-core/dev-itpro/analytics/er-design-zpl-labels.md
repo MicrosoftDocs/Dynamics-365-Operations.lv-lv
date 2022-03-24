@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-02-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 8e5fb1515d4bdf36c22f617b6bfd2fa3ce3efa36
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
-ms.translationtype: HT
+ms.openlocfilehash: 4fb89f4b56ce8189482bf1a86582ef7e3684b15a
+ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8389143"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "8392967"
 ---
 # <a name="design-a-new-er-solution-to-print-zpl-labels"></a>Izveidot jaunu ER risinājumu ZPL etiķešu drukāšanai
 
 [!include [banner](../includes/banner.md)]
+
+[!include [banner](../includes/preview-banner.md)]
 
 Šajā tēmā skaidrots, kā lietotājs Sistēmas administratora, [elektronisko pārskatu izstrādātāja vai elektronisko pārskatu funkcionālā konsultanta loma var konfigurēt elektronisko pārskatu (ER)](general-electronic-reporting.md) struktūras parametrus, projektēt nepieciešamās ER konfigurācijas jauna ER [risinājumam, lai piekļūtu noliktavas pārvaldības sistēmas datiem un ģenerētu pielāgotas noliktavas vietas etiķetes Vaibras programmēšanas](general-electronic-reporting.md#Configuration) valodā (ZPL) II formātā. Šīs darbības var veikt uzņēmumā **USRT**.
 
@@ -314,7 +316,7 @@ Noliktavas vietas iezīmju pašreizējo izkārtojumu var mainīt. Šajā piemēr
 ## <a name="encoding"></a>Kodēšana
 
 > [!NOTE]
-> Jums ir jāsinhronizē **CommonFile komponenta CommonFile\\** komponenta kodēšanas iestatījums rediģējamā ER formātā un atbilstošās iezīmes atbilstošais iestatījums. **Common\\File** komponenta lauka **[Kodēšana](er-suppress-bom-characters.md)** vērtībai nav jābūt pretrunā ar ZPL komandu, kas tiek izmantota iezīmes kodēšanas kontrolei (piemēram, `^CI` komandai). ER nepārbauda, vai šie iestatījumi ir sinhronizēti.
+> Jums ir jāsinhronizē **Common\\File** komponenta kodēšanas iestatījums rediģējamā ER formātā un atbilstošās iezīmes atbilstošais iestatījums. **Common\\File** komponenta lauka Kodēšana **[...](er-suppress-bom-characters.md)** vērtībai nav jābūt pretrunā ar ZPL komandu, kas tiek izmantota iezīmes kodēšanas kontrolei (piemēram, komandai).`^CI` ER nepārbauda, vai šie iestatījumi ir sinhronizēti.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

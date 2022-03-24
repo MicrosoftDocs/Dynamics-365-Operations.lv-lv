@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 01edccbf1a50264b3867e303cbca44eb1b1d7dd9
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 32e5ceb607d2c4f3d9794421db5382441ac30467
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087503"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8408234"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Plānošanas optimizācijas neizmantotie parametri
 
@@ -60,7 +60,7 @@ Plānošanas optimizācijā netiek lietoti parametri vai opcijas lapā **Vajadz�
 
 - Kopsavilkuma cilne **Vispārīgi**.
 
-  - **Pozitīvas dienas** – The *Pozitīvas dienas* vērtība netiek izmantota. Izmantojot plānošanas optimizāciju, pozitīvas dienas tiek uzskatītas par bezgalīgām.
+  - **Pozitīvas** dienas *— pozitīvo dienu* vērtība netiek izmantota. Ar plānošanas optimizāciju pozitīvās dienas tiek uzskatītas par bezgalīgām.
   - **Patērēt rīcībā esošos krājumus** - gaida atbalstu *Rīcībā esošo krājumu patēriņš*.
   - **Izmantojiet norādīto MK vai formulas versiju** – gaida atbalstu *Formulas versijas ar līdzproduktu/blakusproduktu*.
   - **Izmantojiet norādīto maršruta versiju** – gaida atbalstu *Pieprasījums ar noteiktām MK vai maršruta prasībām*.
@@ -161,9 +161,9 @@ Plānošanas optimizācijā netiek lietoti parametri vai opcijas lapā **Vispār
   - **Pievienot aprēķināto aizkavi pieprasījuma datumam** (sadaļā **Plānotā pārsūtīšana** ) – gaida atbalstu *Aprēķinātās aizkaves*.
   - **Pievienot aprēķināto aizkavi pieprasījuma datumam** (sadaļā **Plānotais Kanban** ) – gaida atbalstu *Aprēķinātās aizkaves*.
 
-- **Darbības ziņojums** FastTab:
+- **Kopsavilkuma cilne Darbības ziņojums**:
 
-  - **Atjauniniet atlikto datumu kā prasības datumu** - Šis parametrs tiek pārtraukts ar plānošanas optimizāciju.
+  - **Atjaunināt atlikto datumu kā vajadzības datumu** — šis parametrs tiek pārtraukts ar plānošanas optimizāciju.
 
 - **Secība** kopsavilkuma cilne:
 
@@ -194,12 +194,6 @@ Plānošanas optimizācijā netiek lietotas parametru opcijas lapā **Noklusēju
   - **Piegādes datuma kontrole** — Plānošanas optimizācija neatbalsta *CTP* opciju, gaida atbalstu *CTP*.
   - **Krājuma izpildes laiks** — Planning Optimization versijās, kuras ir vecākas par 2021. gada 6. augusta laidienu, Planning Optimization izmanto šo parametru, lai aprēķinātu pareizos pasūtījuma un piegādes datumus, taču tas nesaglabā aprēķināto izpildes laiku plānotajā pasūtījumā. Jaunākās versijās pakalpojums arī izmanto aprēķināto izpildes laiku, lai iestatītu lauku **Izpildes laiks** un **Darba dienas** atbilstoši plānotajam pasūtījumam.
   - **Darba dienas** — Planning Optimization versijās, kuras ir vecākas par 2021. gada 6. augusta laidienu, Planning Optimization izmanto šo parametru, lai aprēķinātu pareizos pasūtījuma un piegādes datumus, taču tas nesaglabā aprēķināto izpildes laiku plānotajā pasūtījumā. Jaunākās versijās pakalpojums arī izmanto aprēķināto izpildes laiku, lai iestatītu lauku **Izpildes laiks** un **Darba dienas** atbilstoši plānotajam pasūtījumam.
-
-## <a name="working-time-calendars-page"></a>Lapa Darba laika kalendāri
-
-Plānošanas optimizācijā netiek lietots parametrs lapā **Darba laika kalendāri**:
-
-- **Pamatkalendārs** – gaida atbalstu *Pamatkalendārs*.
 
 ## <a name="batch-disposition-master-page"></a>Lapa Partijas atgriešanas šablons
 

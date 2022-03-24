@@ -1,5 +1,5 @@
 ---
-title: Kas jauns vai mainīts Finance and Operations progr sākumlapā
+title: Jaunumi vai izmaiņas Finance and Operations programmu sākumlapā
 description: Šajā lapā ir norādes uz tēmām, kas var palīdzēt jums uzzināt par jaunajiem līdzekļiem jaunākajās Finance and Operations programmās.
 author: josaw1
 ms.date: 02/14/2020
@@ -17,31 +17,31 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 8348f935ddee557a5f47b550c24f78cf68e37db2
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
-ms.translationtype: HT
+ms.openlocfilehash: 98add33413f38db52b70b9c39c4ebd004ab3dd57
+ms.sourcegitcommit: 1819a11ae22019f1de6991d233c1c51e9950d7a3
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075228"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "8457402"
 ---
-# <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Kas jauns vai mainīts Finance and Operations progr sākumlapā
+# <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Jaunumi vai izmaiņas Finance and Operations programmu sākumlapā
 
 [!include [banner](../includes/banner.md)]
 
 
 ## <a name="application-releases"></a>Programmas laidieni
 
-Lai uzzinātu, kas jauns vai mainīts katrā programmas Finance and Operations laidienā, skatiet tālāk norādītās tēmas.
+Lai skatītu jaunumus vai izmaiņas katrā Finance and Operations programmas laidienā, skatiet tālāk norādītās tēmas.
 
 - **Finance:** [Jaunumi un izmaiņas programmā Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md)
-- **Cilvēkresursi (apvienotā infrastruktūra):**[Kas jauns vai mainīts pakalpojumā Microsoft Dynamics 365 Human Resources](../../../human-resources/get-started/hr-whats-new-changed-10-0-25.md)  
+- **Cilvēkresursi (apvienotā infrastruktūra):**[kas jauns vai mainīts programmā Microsoft Dynamics 365 Human Resources](../../../human-resources/get-started/hr-whats-new-changed-10-0-26.md)  
 - **Supply Chain Management:** [Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management](../../../supply-chain/get-started/whats-new-home-page.md) 
 - **Commerce:** [Jaunumi un izmaiņas programmā Dynamics 365 Commerce](../../../commerce/get-started/whats-new-home-page.md)
 
 
-## <a name="stand-alone-applications"></a>Atsevišķas lietojumprogrammas
+## <a name="stand-alone-applications"></a>Savrupas lietojumprogrammas
 
-Lai redzētu, kas jauns vai mainīts atsevišķi Dynamics 365 Human Resources, skatiet šo tēmu:
+Lai redzētu, kas jauns vai mainīts savrupajā, Dynamics 365 Human Resources skatiet šo tēmu:
 
 - **Human Resources:** [Jaunumi un izmaiņas pakalpojumā Dynamics 365 Human Resources](../../../human-resources/hr-admin-whats-new.md)
 

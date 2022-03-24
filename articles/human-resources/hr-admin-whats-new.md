@@ -15,21 +15,20 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 86322fdf14bdefb5c9d4793a69e95ca913843e53
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
-ms.translationtype: HT
+ms.openlocfilehash: d8f0d91667d22ddd1dd7131ca3d03bb2fa70659c
+ms.sourcegitcommit: 1819a11ae22019f1de6991d233c1c51e9950d7a3
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087528"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "8457456"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Jaunumi un izmaiņas programmā Human Resources
 
 > [!IMPORTANT]
-> Šajā tēmā atzīmētā funkcionalitāte pašlaik ir pieejama klientiem savrupā Dynamics 365 Human Resources. Daļa vai visa funkcionalitāte būs pieejama kā daļa no nākotnes izlaiduma finanšu infrastruktūrā pēc Finance izlaišanas 10.0.25.  
+> Šajā tēmā atzīmētā funkcionalitāte pašlaik ir pieejama klientiem savrupā režīmā Dynamics 365 Human Resources. Daļa vai visa funkcionalitāte būs pieejama kā daļa no nākamā laidiena Finance infrastruktūrā pēc Finance laidiena 10.0.25.  
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Katras divas nedēļas mēs nodrošinām jaunu Microsoft Dynamics 365 Human Resources laidienu. Šīs sadaļas tēmās ir detalizēta informācija par katra izlaiduma izdarītajām izmaiņām.
 
 Lai iegūtu papildinformāciju par gaidāmajiem līdzekļiem vai atjaunināšanas procesu Human Resources, skatiet tālāk minētos rakstus: 
 

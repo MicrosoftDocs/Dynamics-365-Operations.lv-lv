@@ -1,6 +1,6 @@
 ---
 title: Plānotie pasūtījumi vienkāršoti
-description: Šajā tēmā ir aprakstīts, kā varat skatīt, pārvaldīt un nostiprināt plānotos pasūtījumus, izmantojot lapu Plānoto pasūtījumu vienkāršošana.
+description: Šajā tēmā aprakstīts, kā var skatīt, pārvaldīt un apstiprināt plānotos pasūtījumus, izmantojot vienkāršoto lapu Plānotie pasūtījumi.
 author: ChristianRytt
 ms.date: 01/24/2022
 ms.topic: article
@@ -11,39 +11,39 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2022-01-24
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: f1b53b2e7965ae777ffab0f12dc665c6660eebd4
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: bb51293f0fcb421b9d55f8d5cfe1922569fce5d6
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075278"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8408044"
 ---
 # <a name="planned-orders-simplified"></a>Plānotie pasūtījumi vienkāršoti
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
-<!-- preview until 10.0.25 GA -->
+<!--KFM: preview until 10.0.25 GA -->
 
-Šajā tēmā ir aprakstīts, kā varat skatīt, pārvaldīt un nostiprināt plānotos pasūtījumus, izmantojot **Plānotie pasūtījumi vienkāršoti** lappuse.
+Šajā tēmā aprakstīts, kā var skatīt, pārvaldīt un apstiprināt plānotos pasūtījumus, izmantojot vienkāršoto **lapu** Plānotie pasūtījumi.
 
-The **Plānotie pasūtījumi vienkāršoti** lapa ir vienkāršota versija **Plānotie pasūtījumi** lappuse. Tas nodrošina mazāk iespēju, taču ir ātrāk lietojams, kad viss, kas jums jādara, ir jāpārskata, jāapstiprina un jānostiprina plānotie pasūtījumi.
+Vienkāršotā lapa Plānotie **pasūtījumi** ir lapas Plānotie pasūtījumi **vienkāršota versija**. Tas nodrošina mazāk iespēju, bet ir ātrāk strādāt ar, kad viss, kas jums jādara, ir pārskatīt, apstiprināt un apstiprināt plānotos pasūtījumus.
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Līdzekļa ieslēgšana sistēmā
 
-Ja jūsu sistēmā vēl nav iekļauti līdzekļi, kas aprakstīti šajā tēmā, dodieties uz [Funkciju pārvaldība](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), un ieslēdziet *Plānotie pasūtījumi vienkāršoti* funkciju.
+Ja sistēmā vēl nav iekļauti šajā tēmā aprakstītie līdzekļi, dodieties uz [Līdzekļu pārvaldība](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) un ieslēdziet vienkāršoto *līdzekli* Plānotie pasūtījumi.
 
-## <a name="view-manage-and-firm-planned-orders"></a>Skatiet, pārvaldiet un nostipriniet plānotos pasūtījumus
+## <a name="view-manage-and-firm-planned-orders"></a>Skatīt, pārvaldīt un apstiprināt plānotos pasūtījumus
 
-The **Plānotie pasūtījumi vienkāršoti** lapa galvenokārt ir paredzēta funkcionalitātes nostiprināšanai. Tas parāda visus plānotos pasūtījumus, kas ir ģenerēti atlasītajam plānam, tāpat kā standarta **Plānotie pasūtījumi** lapa dara. Tāpēc to var izmantot kā optimizētu alternatīvu vispārējās plānošanas darbības rezultātu apskatei.
+Plānoto pasūtījumu vienkāršotā **lapa** ir paredzēta galvenokārt funkcionalitātes apstiprināšanai. Tas parāda visus plānotos pasūtījumus, kas ģenerēti atlasītajam plānam, tāpat kā standarta **lapa Plānotie pasūtījumi**. Tāpēc to var izmantot kā optimizētu alternatīvu vispārējās plānošanas rezultātu skatīšanai.
 
-Lai atvērtu **Plānotie pasūtījumi vienkāršoti** lapu, dodieties uz **Ģenerālplānošana \> Ģenerālplānošana \> Plānotie pasūtījumi vienkāršoti**. Varat izmantot šo lapu, lai veiktu šādus uzdevumus:
+Lai atvērtu vienkāršoto **lapu** Plānotie pasūtījumi, dodieties uz **Vispārējās plānošanas \> vispārējā plānošana \> Plānotie pasūtījumi ir vienkāršoti**. Šo lapu var izmantot, lai veiktu šādus uzdevumus:
 
-- Skatiet visus plānotos pasūtījumus konkrētam plānam.
+- Skatiet visus plānotos pasūtījumus noteiktam plānam.
 - Izveidojiet jaunus plānotos pasūtījumus.
-- Dzēst vienu vai vairākus plānotos pasūtījumus.
-- Stingri viens vai vairāki plānoti pasūtījumi.
-- Mainiet plānotā pasūtījuma statusu vienam vai vairākiem plānotajiem pasūtījumiem.
-- Nemanāmi atveriet plānotā pasūtījuma informāciju atsevišķam plānotajam pasūtījumam, lai skatītu pilnu informāciju par pasūtījumu.
+- Dzēst atsevišķus vai vairākus plānotos pasūtījumus.
+- Noteikti vieni vai vairāki plānotie pasūtījumi.
+- Mainiet plānoto pasūtījuma statusu vienam vai vairākiem plānotajiem pasūtījumiem.
+- Nemanāmi atveriet detalizētu informāciju par plānoto pasūtījumu atsevišķam plānotajam pasūtījumam, lai skatītu pilnu informāciju par pasūtījumu.
 - Izveidojiet pielāgotus skatus, izmantojot saglabātos skatus.
 
-Standarts atbalsta papildu scenārijus, piemēram, sadalīšanu **Plānotie pasūtījumi** lappuse.
+Papildu scenārijus, piemēram, sadalīšanu, atbalsta standarta **lapa Plānotie pasūtījumi**.

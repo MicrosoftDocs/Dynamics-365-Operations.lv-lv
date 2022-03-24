@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 43e57b75933a67c1ee3fb0a59400b0d1bdab931cec5826346247cc361a0206df
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: e7350e697beec42b349082df06b77a89d526c27c
+ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720424"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "8396528"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Supply Chain Management
 
@@ -31,7 +31,7 @@ ms.locfileid: "6720424"
 Šis saraksts ir izveidots, lai jūs savā plānošanā varētu ņemt vērā, kuri līdzekļi tiek noņemti un kļūst novecojuši.
 
 > [!NOTE]
-> Detalizēta informācija par Finance and Operations programmu objektiem ir pieejama tēmā [Tehniskās atsauces pārskati](/dynamics/s-e/). Varat salīdzināt dažādās šo pārskatu versijas, lai noskaidrotu, kuri objekti ir mainīti vai noņemti katrā Finance and Operations programmu versijā.
+> Detalizēta informācija par objektiem Finanšu un operāciju programmās var tikt atrasta tehniskajos [atsauces pārskatos](/dynamics/s-e/). Varat salīdzināt dažādas šo pārskatu versijas, lai uzzinātu par objektiem, kas ir mainīti vai noņemti katrā Finanšu un operāciju programmu versijā.
 
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10019-release"></a>Noņemtie vai novecojuši līdzekļi programmas Supply Chain Management 10.0.19 laidienā
@@ -52,7 +52,7 @@ ms.locfileid: "6720424"
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | No 2021. gada aprīļa *Dynamics 365 for Finance and Operations - Noliktava* (noliktavas programma) ir novecojusi un pēc 2022. gada aprīļa netiks atbalstīta. Tagad tā tiek aizstāta ar *Warehouse Management mobile programmu*, kas tika izlaista ar Supply Chain Management versiju 10.0.17. Jaunā lietojumprogramma ir pilnīgs aizvietojums, bet tā izmanto to pašu pamatā esošo sistēmu, kas atvieglo migrāciju. Ja nepieciešams, abas lietotnes var izmantot līdzās, lai palīdzētu lietotājiem pakāpeniski pielāgoties, kad viņi mācās izmantot jauno lietotni.<br><br>Ja vēlaties skatīt informāciju par jaunās lietotnes Warehouse Management mobile konfigurēšanu, skatiet sadaļu [Warehouse Management mobile lietotne](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) un [Instalēt un savienot Warehouse Management mobile lietotni](../warehousing/install-configure-warehouse-management-app.md). |
+| **Novecošanas/noņemšanas pamatojums** | 2021. gada aprīlis, *Dynamics 365 for Finance and Operations — Warehousehousing* (noliktavas programma) ir novecojusi un netiks atbalstīta pēc 2022. gada aprīlī. Tagad tā tiek aizstāta ar *Warehouse Management mobile programmu*, kas tika izlaista ar Supply Chain Management versiju 10.0.17. Jaunā lietojumprogramma ir pilnīgs aizvietojums, bet tā izmanto to pašu pamatā esošo sistēmu, kas atvieglo migrāciju. Ja nepieciešams, abas lietotnes var izmantot līdzās, lai palīdzētu lietotājiem pakāpeniski pielāgoties, kad viņi mācās izmantot jauno lietotni.<br><br>Ja vēlaties skatīt informāciju par jaunās lietotnes Warehouse Management mobile konfigurēšanu, skatiet sadaļu [Warehouse Management mobile lietotne](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) un [Instalēt un savienot Warehouse Management mobile lietotni](../warehousing/install-configure-warehouse-management-app.md). |
 | **Vai ir aizstāts ar citu līdzekli?**   | Jā, aizstāta ar jauno Warehouse Management mobile lietotni. |
 | **Ietekmētie produkta apgabali**         | Supply Chain Management - noliktavas lietotne |
 | **Izvietošanas iespēja**              | Mākonis un lokāls |
@@ -78,7 +78,7 @@ ms.locfileid: "6720424"
 | **Vai ir aizstāts ar citu līdzekli?**   | Jā, Plānošanas optimizācija aizstās esošo iebūvēto Supply Chain Management vispārējo plānošanas programmu. |
 | **Ietekmētie produkta apgabali**         | Supply Chain Management - vispārējā plānošana |
 | **Izvietošanas iespēja**              | Tikai mākonis. Plānošanas optimizācija netiek atbalstīta ar lokālajām izvietošanām. |
-| **Statuss**                         | Novecojis. Līdz 2022. gada 1. aprīlim ražošanas scenāriji vairs netiks atbalstīti ar iebūvēto Dynamics 365 Supply Chain Management vispārējās plānošanas programmu. Ražošanas scenārijiem klientiem jāizmanto Plānošanas optimizācija vispārējās plānošanas aprēķiniem. Papildinformāciju skatiet [Plānošanas optimizācijas dokumentācija](../master-planning/planning-optimization/planning-optimization-overview.md). Klienti, kuriem ir Dynamics 365 Supply Chain Management lokālās izvietošanas, var turpināt izmantot Supply Chain Management vispārējās plānošanas programmu ražošanas scenārijiem pēc 2022. gada aprīļa. Tomēr papildu līdzekļu uzlabojumi netiks nodrošināti. |
+| **Statuss**                         | Novecojis. 2022. gada 1. aprīlī ražošanas scenāriji vairs netiks atbalstīti iebūvētajā Piegādes ķēdes pārvaldības vispārējās plānošanas programmā. No šī datuma Microsoft apturēs visu aktīvo attīstību iebūvētās plānošanas programmas ražošanas scenārijos, neizlaidīs nevienu jaunu funkciju un izlaižīs tikai kritisko kļūdu labojumus. Pēc šī datuma visiem uzņēmumiem, kuriem ir nepieciešams atbalsts ražošanas scenārijiem, ir jāizmanto plānošanas optimizācija saviem vispārējās plānošanas aprēķiniem. Ir paredzēts, ka optimizācijas plānošana pilnībā atbalstītu ražošanas scenārijus līdz 2022. gada oktobrisi. Papildinformāciju skatiet plānošanas optimizācijas [dokumentācijā](../master-planning/planning-optimization/planning-optimization-overview.md).<br><br>Uzņēmumi, kas atrodas piegādes ķēžu pārvaldības lokās, var turpināt izmantot iebūvēto vispārējās plānošanas programmu ražošanas scenārijiem pēc 2022. gada aprīla. Tomēr papildu līdzekļu uzlabojumi netiks nodrošināti. |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10011-release"></a>Noņemtie vai novecojuši līdzekļi programmas Supply Chain Management 10.0.11 laidienā
 

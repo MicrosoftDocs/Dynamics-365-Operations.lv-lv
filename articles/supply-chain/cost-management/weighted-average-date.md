@@ -1,198 +1,303 @@
 ---
-title: Vidējā svērtā uz datumu
+title: Svērtais vidējais datums ar iekļaut fizisko vērtību un iezīmēšanu
 description: Svērtais vidējais datums ir krājumu modelis, kas balstīts uz svērto vidējo principu, kur izsniegšanas no krājumiem tiek vērtētas pie vidējās krājumu vērtības, kas inventarizācijā saņemta katrai atsevišķai dienai krājumu slēgšanas periodā.
 author: AndersGirke
-ms.date: 10/25/2017
+ms.date: 03/04/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 28991
-ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
-ms.search.industry: Retail
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce056a661130d30426ccfa4c288a0ce5b62ff959
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 3cf2206863d891eceb9c65ff879da3f9f72032b1
+ms.sourcegitcommit: fcded93fc6c27768a24a3d3dc5cc35e1b4eff22b
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572029"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "8392005"
 ---
-# <a name="weighted-average-date"></a>Vidējā svērtā uz datumu
+# <a name="weighted-average-date-with-include-physical-value-and-marking"></a>Svērtais vidējais datums ar iekļaut fizisko vērtību un iezīmēšanu
 
 [!include [banner](../includes/banner.md)]
 
-Svērtais vidējais uz datumu ir krājumu modelis, kura pamatā ir svērtā vidējā princips. Izmantojot svērtā vidējā principu, krājumu izejas plūsmas tiek novērtētas atbilstoši krājumu ieejas plūsmu vidējai vērtībai katrā atsevišķā dienā krājumu slēgšanas perioda laikā. 
+*Svērtais* vidējais datums ir krājumu modelis, kas ir balstīts uz vidējo, kas tiek aprēķināts, reizinot katru komponentu (krājuma darbību) ar koeficientu (izmaksu cenu), kas atspoguļo tā svarīgumu (daudzumu) katrā perioda dienā. Citiem vārdiem sakot, šis krājumu modelis piešķir izdošanas darbību izmaksas, pamatojoties uz visu katru dienu saņemto krājumu vidējo vērtību plus jebkādus rīcībā esošos krājumus no iepriekšējās dienas.
 
-Veicot krājumu slēgšanu, izmantojot svērto vidējo uz datumu, visas dienas ieejas plūsmas tiek segtas ar virtuālu izejas plūsmu. Šī virtuālā izejas plūsma satur kopējo ieejas plūsmas daudzumu un vērtību šajā dienā. Virtuālajai izejas plūsmai ir atbilstoša virtuālā ieejas plūsma, ar ko tiks segta izejas plūsma. Tāpēc visām izejas plūsmām ir vienādas vidējās izmaksas. Virtuālo izejas plūsmu un virtuālo ieejas plūsmu var uzskatīt par virtuālu pārsūtīšanu, ko sauc par *svērto vidējā krājumu slēgšanas pārsūtīšanu*. 
+Kad jūs palaidiet krājumu slēgšanu, izmantojot svērtā vidējā datuma krājumu modeli, divas metodes var izmantot segšanai. Parasti visas saņemšanas tiek segtas pret virtuālo izejas plūsmu, kas ietver kopējo saņemto daudzumu un vērtību. Šai virtuālajai izejas plūsmai ir atbilstoša virtuālā ieejas plūsma, no kuras izejas plūsmas tiek segtas. Šādā veidā visas izejas plūsmas katru dienu iegūst tās pašas vidējās izmaksas. Virtuālā izdošana un virtuālā saņemšana var tikt uzskatīta par virtuālo pārsūtīšanu. Šis virtuālais pārsūtījumos tiek saukts par svērto *vidējo krājumu noslēgšanas pārsūtījumu*. Tāpēc šī segšanas metode ir pazīstama kā svērtā *vidējā apkopota segšana*. Ja ir tikai viena saņemšana, ar to var segt visas izejas plūsmas, un virtuālā pārsūtīšana netiek izveidota. Šo nosegšanas metodi sauc par tiešu *nosegšanu*. Visi krājumi, kas ir rīcībā pēc krājumu slēgšanas, tiek novērtēti ar svērto vidējo no iepriekšējā perioda pēdējās dienas un iekļauti novērtētā vidējā datuma aprēķinā nākamajā periodā.
 
-Ja konkrētajā datumā vai pirms tā ir bijusi tikai viena ieejas plūsma, vidējā vērtība nav jāaprēķina. Tā kā visas izejas plūsmas tiek segtas ar šo ieejas plūsmu, virtuālā pārsūtīšana netiek izveidota. Tāpat, ja konkrētajā datumā ir bijušas tikai izejas plūsmas un nav bijusi neviena ieejas plūsma, no kā var aprēķināt vidējo vērtību, virtuālā pārsūtīšana netiek izveidota. Ja izmantojat svērto vidējo uz datumu, varat iezīmēt krājumu transakcijas, lai noteikta krājumu ieejas plūsma tiktu segta ar noteiktu izejas plūsmu. Šādā gadījumā netiek izmantota svērtā vidējā uz datumu kārtula. Ja izmantojat svērtā vidējā datuma krājumu modeli, ieteicama ikmēneša krājumu slēgšana. 
+Varat ignorēt svērtā vidējā datuma principu, iezīmējot krājumu darbības, lai noteikta krājuma saņemšana tiek segta pret noteiktu izdošanu. Ja izmantojat svērtā vidējā datuma krājumu modeli, lai izveidotu segšanas un koriģētu izdošanas vērtību atbilstoši svērtā vidējā datuma principam, ir nepieciešama periodiska krājumu slēgšana. Kamēr nav palaista krājumu slēgšana, izdošanas darbības tiek novērtēts pie tekošā vidējā līmeņa, kad tika veikti fiziskie un finanšu atjauninājumi. Ja vien nelieto atzīmēto, aprēķinātais vidējais tiek aprēķināts, veicot fiziskās vai finanšu atjaunināšanas.
 
-Vidējā svērtā datuma izmaksu aprēķināšanas metodei tiek izmantota tālāk norādītā formula. 
+Novērtētā vidējā datuma krājumu izmaksu aprēķināšanas metode tiek aprēķināta, izmantojot sekojošo formulu katru dienu:
 
-Svērtais vidējais = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (Q1 + Q2 + Q *n*) 
+*Izmaksas* = \[ (*Qb*<sub>*·*</sub> × *Pb*<sub>*·*</sub>) + &#x2211;<sub>*n*</sub>(*Qn*<sub>*·*</sub> × *Pn*<sub>*·*</sub>)\] ÷ (*Qb*<sub>*·*</sub> + &#x2211;<sub>*nQn)*</sub>*·*<sub>*·*</sub>
 
-Krājumu slēgšanas laikā aprēķins tiek veikts katru dienu visā slēgšanas perioda laikā, kā parādīts nākamajā attēlā. 
+- *Q* = darbības daudzums
+- *P* = darbības cena
 
-![Vidējā svērtā datuma ikdienas aprēķina modelis.](./media/weightedaveragedatedailycalculationmodel.gif) 
+Citiem vārdiem sakot, novērtētās vidējās izmaksas ir vienādas ar sākuma daudzumu, kas ir lielāks par sākuma cenu plus katra saņemšanas daudzuma summa, kas ik reizi tiek pieskaitīta saņemšanas cenai, un visas izmaksas tiek dalītas ar sākuma daudzumu plus saņemšanas daudzumu summu.
 
-Krājumu izejas plūsmas transakcijas, piemēram, pārdošanas pasūtījumi, krājumu žurnāli un ražošanas pasūtījumi, tiek veiktas, izmantojot novērtēto izmaksu cenu grāmatošanas datumā. Šī novērtēto izmaksu cena tiek saukta arī par kārtējo vidējo izmaksu cenu. Krājumu slēgšanas dienā sistēmā tiek analizētas krājumu transakcijas par iepriekšējiem periodiem, iepriekšējām dienām un pašreizējo dienu. Šī analīze tiek izmantota, lai noteiktu, kurš no tālāk norādītajiem slēgšanas principiem ir jāizmanto.
+Krājumu slēgšanas laikā aprēķins tiek veikts katru dienu slēgšanas perioda laikā.
 
--   Tieša segšana
--   Apkopota segšana
+> [!NOTE]
+> Plašāku informāciju par nosegšanu skatiet Krājumu [slēgšanā](inventory-close.md).
 
-Segšanas ir krājuma slēgšanas iegrāmatojumi, kuri koriģē izdošanas pēc svērtā vidējā saskaņā ar slēgšanas datumu. 
+Sekojošos piemēros parādīta svērtā vidējā datuma lietošanas ar piecām konfigurācijām ietekme:
 
-**Piezīme:** Papildinformāciju par segšanu skatiet rakstā par krājumu slēgšanu. Tālāk sniegtajos piemēros ir parādīta ietekme, ko rada svērtā vidējā izmantošana piecās konfigurācijās.
-
--   Svērtā vidējā uz datumu tiešā segšana, ja netiek izmantota opcija **Iekļaut fizisko vērtību**
--   Svērtā vidējā uz datumu apkopotā segšana, ja netiek izmantota opcija **Iekļaut fizisko vērtību**
--   Svērtā vidējā uz datumu tiešā segšana, ja tiek izmantota opcija **Iekļaut fizisko vērtību**
--   Svērtā vidējā uz datumu apkopotā segšana, ja tiek izmantota opcija **Iekļaut fizisko vērtību**
--   Svērtais vidējais uz datumu, ja tiek izmantota iezīmēšana
+- Svērtā vidējā uz datumu tiešā segšana, ja netiek izmantota opcija **Iekļaut fizisko vērtību**
+- Svērtā vidējā uz datumu apkopotā segšana, ja netiek izmantota opcija **Iekļaut fizisko vērtību**
+- Svērtā vidējā uz datumu tiešā segšana, ja tiek izmantota opcija **Iekļaut fizisko vērtību**
+- Svērtā vidējā uz datumu apkopotā segšana, ja tiek izmantota opcija **Iekļaut fizisko vērtību**
+- Svērtais vidējais uz datumu, ja tiek izmantota iezīmēšana
 
 ## <a name="weighted-average-date-direct-settlement-when-the-include-physical-value-option-isnt-used"></a>Svērtā vidējā uz datumu tiešā segšana, ja netiek izmantota opcija Iekļaut fizisko vērtību
-Pašreizējā versijā tiek izmantots tas pats tiešās segšanas princips, kas tika izmantots svērtajam vidējam iepriekšējās versijās. Sistēmā tiek veikta ieejas plūsmas un izejas plūsmas tiešā segšana. Sistēma izmanto šo tiešās nosegšanas principu īpašās situācijās:
 
--   Perioda laikā ir iegrāmatota viena ieejas plūsma un viena vai vairākas izejas plūsmas.
--   Perioda laikā ir iegrāmatotas tikai izejas plūsmas, un ir pieejami rīcībā esošie krājumi no iepriekšējās slēgšanas.
+Tiešās nosegšanas princips izveido nosegšanu tieši starp ieejas un izejas plūsmām, neizveidojot papildu krājumu darbības. Sistēma izmanto šo tiešās nosegšanas principu šādās situācijās:
 
-Tālāk aprakstītajā scenārijā ir iegrāmatotas finansiāli atjauninātas ieejas un izejas plūsmas. Krājumu slēgšanas laikā sistēmā ieejas plūsma tiek tieši segta ar izejas plūsmu, un nav nepieciešams koriģēt izejas plūsmas izmaksu cenu. 
+- Perioda laikā tika iegrāmatota viena saņemšana un viena vai vairākas izejas plūsmas.
+- Perioda laikā ir iegrāmatotas tikai izejas plūsmas, un ir pieejami rīcībā esošie krājumi no iepriekšējās slēgšanas.
 
-Šīs transakcijas ir attēlotas tālāk esošajā ilustrācijā.
-
--   1.a Tiek atjaunināta krājumu fiziskā ieejas plūsma — daudzums: 5, vienas vienības izmaksas: USD 10,00.
--   1.b Tiek atjaunināta krājumu finanšu ieejas plūsma — daudzums: 5, vienības izmaksas: USD 10,00.
--   2.a Tiek atjaunināta krājumu fiziskā izejas plūsma — daudzums: 2, vienības izmaksas: USD 10,00.
--   2.b Tiek atjaunināta krājumu finanšu izejas plūsma — daudzums: 2, vienības cena: USD 10,00.
--   3. Tiek veikta krājumu slēgšana, izmantojot tiešās segšanas metodi, lai segtu krājumu finanšu ieejas plūsmu ar krājumu finanšu izejas plūsmu.
-
-![Novērtētā vidējā datuma tiešā nosegšana bez Iekļaut fizisko vērtību iespējas.](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
-
-**Attēla apzīmējumi:**
-
--   Krājuma darbības ir atzīmētas ar vertikālām bultām.
--   Krājuma saņemšana ir atzīmēta ar vertikālām bultām virs laika skalas.
--   Krājuma izdošana ir atzīmēta ar vertikālām bultām zem laika skalas.
--   Virs vai zem katras vertikālās bultas ir norādīta krājumu transakcijas vērtība formātā *Daudzums*@*Vienības cena*.
--   Ja krājumu transakcijas vērtība ir ietverta iekavās, krājumu transakcija tiek fiziski iegrāmatota krājumos.
--   Ja krājumu transakcijas vērtība nav ietverta iekavās, krājumu transakcija tiek finansiāli iegrāmatota krājumos.
--   Katra jauna krājuma saņemšanas vai izdošanas darbība tiek atzīmēta ar jaunu etiķeti.
--   Katra vertikāla bulta ir atzīmēta ar secības identifikatoru, piemēram, *1a*. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
--   Krājuma slēgšanas, kas atzīmētas ar sarkanu vertikālu punktlīniju un etiķeti *Krājuma slēgšana*.
--   Segšanas, kas tiek veiktas, slēdzot krājumus, ir apzīmētas ar sarkanām pārtrauktu līniju bultām, kas pa diagonāli savieno ieejas plūsmu un izejas plūsmu.
-
-## <a name="weighted-average-date-summarized-settlement-when-the-include-physical-value-option-isnt-used"></a>Svērtā vidējā uz datumu apkopotā segšana, ja netiek izmantota opcija Iekļaut fizisko vērtību
-Svērtā vidējā pamatā ir princips, ka visas slēgšanas perioda laikā saņemtās ieejas plūsmas tiek apkopotas jaunā krājumu pārsūtīšanas transakcijā. Šī transakcija tiek saukta par *svērtā vidējā krājumu slēgšanu*. Visas ieejas plūsmas konkrētajā dienā tiek segtas ar jaunās krājumu pārsūtīšanas transakcijas izejas plūsmu. Visas izejas plūsmas konkrētajā dienā tiek segtas ar jaunās krājumu pārsūtīšanas transakcijas ieejas plūsmu. Ja pēc krājumu slēgšanas rīcībā esošo krājumu vērtība ir pozitīva, rīcībā esošie krājumi un krājumu vērtība tiek apkopti jaunās krājumu pārsūtīšanas transakcijas ieejas plūsmā. Ja pēc krājumu slēgšanas rīcībā esošo krājumu vērtība ir negatīva, rīcībā esošie krājumi un krājumu vērtība veido atsevišķo pilnībā nesegto izejas plūsmu summu. 
-
-Tālāk aprakstītajā scenārijā perioda laikā ir grāmatotas vairākas finansiāli atjauninātas ieejas un izejas plūsmas. Krājumu slēgšanas laikā sistēmā tiek novērtēti dati par katru dienu, lai noteiktu, kā slēgšanas laikā apstrādāt katru dienu. 
-
-Šīs transakcijas ir attēlotas tālāk esošajā ilustrācijā. 
+Šajā piemērā izlaistajām **precei** lapā Krājumu modeļu grupa ir **notīrīta izvēles rūtiņa** Iekļaut fizisko vērtību. Diagramma, kas parāda šīs darbības:
 
 **1. diena.**
 
--   1.a Tiek atjaunināta krājumu fiziskā ieejas plūsma — daudzums: 3, vienības izmaksas: USD 15,00.
--   1.b Tiek atjaunināta krājumu finanšu ieejas plūsma — daudzums: 3, vienības izmaksas: USD 15,00.
--   2.a Krājumu fiziska izsniegšana ar daudzumu 1 pie aprēķinātām vidējām izmaksām USD 15,00.
--   2.b Krājumu finansiāla saņemšana ar daudzumu 1 pie aprēķinātām vidējām izmaksām USD 15,00.
-
-1. dienai sistēma izmanto tiešās nosegšanas metodi. 
+- 1.a Krājumu fiziska saņemšana daudzumam 10 pie cenas USD 10,00 par katru.
+- 1.b Krājuma finansiāla saņemšana par daudzumu 10 par summu USD 10,00 katrs.
+- 2.a Krājumu fiziska saņemšana daudzumam 10 pie cenas USD 20,00 par katru.
+- 3.a Krājumu fiziska izsniegšana ar daudzumu 1, kuras izmaksu cena ir USD 10.00 (finansiāli grāmatoto darbību tekošā vidējā vērtība).
+- 3.b Krājumu finansiāla izdošana ar daudzumu 1 ar izmaksu cenu USD 10.00 (finansiāli grāmatoto darbību tekošā vidējā vērtība).
 
 **2. diena.**
 
--   3.a Krājumu fiziskā izejas plūsma — daudzums: 1, kārtējās vidējās izmaksas: USD 15,00
--   3.b Krājumu finanšu izejas plūsma — daudzums: 1, kārtējās vidējās izmaksas: USD 15,00
-
-2. dienai sistēma izmanto tiešās nosegšanas paņēmienu. 
+- 4.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 25,00 par katru.
+- 5.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 30,00 par katru.
+- 5.b Krājumu finansiāla saņemšana daudzumam 1 pie cenas USD 30,00 par katru.
+- 6.a Krājumu finansiāla izdošana daudzumam 1, kas maksā USD 20.00 (finansiāli grāmatoto darbību tekošā vidējā vērtība).
 
 **3. diena.**
 
--   4.a Krājumu fiziskā izejas plūsma — daudzums: 1, kārtējās vidējās izmaksas: USD 15,00
--   4.b Krājumu finanšu izejas plūsma — daudzums: 1, kārtējās vidējās izmaksas: USD 15,00
--   5.a Krājumu fiziskā ieejas plūsma — daudzums: 1, vienības izmaksas: USD 17,00
--   5.b Krājumu finanšu ieejas plūsma — daudzums: 1, vienības izmaksas: USD 17,00
+- 7\. Tiek veikta krājumu slēgšana. Balstoties uz svērtā vidējā datuma metodi, sistēma izmanto tiešās segšanas metodi 30. decembrī (12/30), jo tikai viena saņemšana ir finansiāli atjaunināta 12/30. Šajā piemērā starp darbībām 1b un 3b tiek izveidota viena segšana. Tiek veikta USD 10.00 korekcija, lai nodrošinātu darbības 3b vērtību līdz 20,00. 31. decembrī (12/31) nav veiktas korekcijas vai segšana, jo 31.02.2001. nav finansiāli atjaunināta izejas plūsmas.
 
-Tiek veikta krājumu slēgšana. Ir jāizmanto tiešā segšana, jo pastāv vairākas ieejas plūsmas vairāku dienu laikā.
+Šajā diagrammā parādītas šīs darījumu sērijas un ietekmēs novērtētā vidējā krājumu modeļa un tiešās nosegšanas principa izmantošana bez **opcijas Iekļaut fizisko** vērtību.
 
--   7.a Tiek izveidota svērtā vidējā krājumu slēgšanas transakcijas finanšu izejas plūsma ar daudzumu 2 un izmaksām USD 32,00, lai apkopotu visu neslēgto krājumu finanšu izejas plūsmu segšanu uz konkrēto datumu.
--   7.b Tiek izveidots novērtētā vidējā rādītāja krājumu slēgšanas pārsūtīšanas finansiālās saņemšanas darījums kā korespondējošā darbība 7a.
+![Novērtētā vidējā datuma tiešā nosegšana bez Iekļaut fizisko vērtību iespējas.](media/weighted-average-date-direct-settlement-without-include-physical-value.png)
 
-Sistēmā tiek ģenerētas un grāmatotas apkopotās krājumu pārsūtīšanas transakcijas. Turklāt sistēmā visas ieejas plūsmas konkrētajā dienā un rīcībā esošie krājumi no iepriekšējām dienām tiek segti ar apkopotās krājumu pārsūtīšanas izejas plūsmas transakciju. Visas izejas plūsmas konkrētajā dienā tiek segtas ar apkopoto krājumu pārsūtīšanas ieejas plūsmas transakciju. Aprēķinātā svērto vidējo izmaksu cena ir USD 16,00. Tiks veikta izejas plūsmas korekcija par sumu USD 1,00, lai to pielāgotu svērtajām vidējām izmaksām. Jaunā tekošā vidējā izmaksu cena ir USD 16,00. 
+**Diagrammas atslēga:**
 
-Tālāk esošajā ilustrācijā ir attēlotas šīs transakcijas, kā arī ietekme, ko rada svērtā vidējā krājumu modeļa un apkopotās segšanas principa izmantošana, ja netiek izmantota opcija **Iekļaut fizisko vērtību**. 
+- Krājuma darbības ir atzīmētas ar vertikālām bultām.
+- Fiziskās darbības ir norādītas ar īsākām, gaišpelēkām bultām.
+- Finanšu darbības ir norādītas ar garākām melnām bultām.
+- Krājuma saņemšana ir parādīta ar vertikālām bultām virs ass.
+- Krājuma izejas plūsmas ir norādītas ar vertikālām bultām zem ass.
+- Katra jauna krājuma saņemšanas vai izdošanas darbība tiek atzīmēta ar jaunu etiķeti.
+- Katra vertikāla bulta ir atzīmēta ar secības identifikatoru, piemēram, *1a*. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
+- Datumi tiek atdalīti ar šauras melnas vertikālas līnijas. Datumi ir atzīmēti diagrammas apakšdaļā.
+- Krājuma slēgšanas, kas apzīmētas ar sarkanām vertikālām punktlīnijas rindām.
+- Segšanas, kas ir veiktas, noslēdzot krājumus, un atzīmētas ar sarkanām diagonālām punktlīnijas bultām, kas savieno saņemšanu un izdošanu.
 
-![Novērtētā vidējā datuma kopsavilkuma nosegšana bez Iekļaut fizisko vērtību opcijas.](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
+## <a name="weighted-average-date-summarized-settlement-when-the-include-physical-value-option-isnt-used"></a>Svērtā vidējā uz datumu apkopotā segšana, ja netiek izmantota opcija Iekļaut fizisko vērtību
 
-**Attēla apzīmējumi**
+Ja periodā ir vairākas saņemšanas, svērtais vidējais datums izmanto apkopotu segšanas *principu, kur visas saņemšanas vienā dienā tiek summēta darbībā ar nosaukumu "svērtā vidējā krājumu slēgšana"*. Visas šīs dienas saņemšanas tiek segtas attiecībā pret jauni izveidoto krājumu darbību izejas plūsmu. Visas šīs dienas izejas plūsmas tiek segtas attiecībā pret jauno krājumu darbības saņemšanu. Ja rīcībā esošo krājumu vērtība paliek pēc krājumu slēgšanas, rīcībā esošo krājumu vērtība tiek iekļauta svērtā vidējā krājumu slēgšanas darbību saņemšanas darbībā.
 
--   Krājuma darbības ir atzīmētas ar vertikālām bultām.
--   Krājuma saņemšana ir atzīmēta ar vertikālām bultām virs laika skalas.
--   Krājuma izdošana ir atzīmēta ar vertikālām bultām zem laika skalas.
--   Virs vai zem katras vertikālās bultas ir norādīta krājumu transakcijas vērtība formātā *Daudzums*@*Vienības cena*.
--   Ja krājumu transakcijas vērtība ir ietverta iekavās, krājumu transakcija tiek fiziski iegrāmatota krājumos.
--   Ja krājumu transakcijas vērtība nav ietverta iekavās, krājumu transakcija tiek finansiāli iegrāmatota krājumos.
--   Katra jauna krājuma saņemšanas vai izdošanas darbība tiek atzīmēta ar jaunu etiķeti.
--   Katra vertikāla bulta ir atzīmēta ar secības identifikatoru, piemēram, *1a*. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
--   Krājuma slēgšanas, kas atzīmētas ar sarkanu vertikālu punktlīniju un etiķeti *Krājuma slēgšana*.
--   Segšanas, kas tiek veiktas, slēdzot krājumus, ir apzīmētas ar sarkanām pārtrauktu līniju bultām, kas pa diagonāli savieno ieejas plūsmu un izejas plūsmu.
--   Ar sarkanajām nepārtrauktu līniju diagonālajām bultām ir norādītas ieejas plūsmas transakcijas, kas tiek segtas ar sistēmā izveidoto izejas plūsmas transakciju.
--   Ar zaļo nepārtrauktas līnijas diagonālo bultu ir norādīta sistēmā ģenerētā korespondējošā ieejas plūsmas transakcija, ar ko tiek segta sākotnēji grāmatotā izejas plūsmas transakcija.
+Diagramma, kas parāda šīs darbības:
+
+**1. diena.**
+
+- 1.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 10,00 par katru.
+- 1.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 10,00 katrs.
+- 2.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 20,00 par katru.
+- 2.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 22,00 katrs.
+- 3.a Krājumu fiziska izsniegšana ar daudzumu 1, kuras izmaksu cena ir USD 16.00 (finansiāli grāmatoto darbību tekošā vidējā vērtība).
+- 3.b Krājumu finansiāla izdošana ar daudzumu 1 ar izmaksu cenu USD 16.00 (finansiāli grāmatoto darbību tekošā vidējā vērtība).
+
+**2. diena.**
+
+- 4.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 25,00 par katru.
+- 5.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 30,00 par katru.
+- 5.b Krājumu finansiāla saņemšana daudzumam 1 pie cenas USD 30,00 par katru.
+- 6.a Krājumu fiziska izsniegšana ar daudzumu 1 pie izmaksu cenas USD 23.00 (finansiāli grāmatoto darbību tekošā vidējā vērtība).
+
+**3. diena.**
+
+- 7\. Tiek veikta krājumu slēgšana.
+- 7.a Tiek izveidots novērtētā vidējā rādītāja krājumu slēgšanas darījumu finanšu izejas plūsma, lai summētu visu krājumu finansiālo ieejas plūsmu segšanas.
+
+    - Darbība 1b ir nosegta daudzumam 1 ar segtu summu USD 10.00.
+    - Darbība 2b ir nosegta daudzumam 1 ar segtu summu USD 22.00.
+    - Darbība 7a tiek izveidota daudzumam 2 ar nosegtu summu USD 32.00. Šī darbība korespondē divu ieejas plūsmas darbību summu, kas perioda laikā ir finansiāli atjauninātas.
+
+- 7.b Tiek izveidots novērtētā vidējā rādītāja krājumu slēgšanas darījumu finanšu ieejas plūsma, kā finansiāli grāmatoto plūsmu korespondējošais konts.
+
+    - Darbība 3b tiek nosegta par daudzumu 1 ar segtu summu USD 16.00. Šī darbība netiek koriģēta, jo tā ir finansiāli grāmatoto darbību svērtā vidējā vērtība 1. decembrī (12/1).
+    - Darbība 7b tiek izveidota daudzumam 2 ar finansiālu summu USD 32.00 un nosegtā summa 0USD 16.00 darbības 3b. Šī darbība korespondē ar vienas izdošanas darbības summu, kas ir finansiāli atjaunināta periodā. Darbība paliek atvērta, jo joprojām ir viena rīcībā.
+
+Tālāk redzamajā diagrammā ir parādītas šīs darījumu sērijas un ietekmēs novērtētā vidējā krājumu modeļa un apkopotā nosegšanas principa izmantošana, bet **nelietojot opciju Iekļaut fizisko** vērtību.
+
+![Novērtētā vidējā datuma kopsavilkuma nosegšana bez Iekļaut fizisko vērtību opcijas.](media/weighted-average-date-summarized-settlement-without-include-physical-value.png)
+
+**Diagrammas atslēga:**
+
+- Krājuma darbības ir atzīmētas ar vertikālām bultām.
+- Fiziskās darbības ir norādītas ar īsākām, gaišpelēkām bultām.
+- Finanšu darbības ir norādītas ar garākām melnām bultām.
+- Krājuma saņemšana ir parādīta ar vertikālām bultām virs ass.
+- Krājuma izejas plūsmas ir norādītas ar vertikālām bultām zem ass.
+- Katra jauna krājuma saņemšanas vai izdošanas darbība tiek atzīmēta ar jaunu etiķeti.
+- Katra vertikāla bulta ir atzīmēta ar secības identifikatoru, piemēram, *1a*. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
+- Datumi tiek atdalīti ar šauras melnas vertikālas līnijas. Datumi ir atzīmēti diagrammas apakšdaļā.
+- Krājuma slēgšanas, kas apzīmētas ar sarkanām vertikālām punktlīnijas rindām.
+- Segšanas, kas ir veiktas, noslēdzot krājumus, un atzīmētas ar sarkanām diagonālām punktlīnijas bultām, kas savieno saņemšanu un izdošanu.
 
 ## <a name="weighted-average-date-direct-settlement-when-the-include-physical-value-option-is-used"></a>Svērtā vidējā uz datumu tiešā segšana, ja tiek izmantota opcija Iekļaut fizisko vērtību
-Svērtajam vidējam uz datumu pašreizējā versijā tiek izmantots tas pats tiešās segšanas princips, kas tika izmantots iepriekšējās versijās. Sistēmā tiek veikta ieejas plūsmas un izejas plūsmas tiešā segšana. Sistēma izmanto šo tiešās nosegšanas principu īpašās situācijās:
 
--   Perioda laikā ir iegrāmatota viena ieejas plūsma un viena vai vairākas izejas plūsmas.
--   Šī perioda laikā ir iegrāmatotas tikai izejas plūsmas, un ir pieejami rīcībā esošie krājumi no iepriekšējās slēgšanas.
+Pašreizējā produkta versijā opcija **Iekļaut** fizisko vērtību darbojas atšķirīgi ar svērtā vidējā datuma krājumu modeli, nekā tas darbojas agrākās versijās. Kad jūs **atzīmējiet** **izvēles** rūtiņu Iekļaut fizisko vērtību krājumam krājumu modeļu grupas lapā, sistēma izmantos fiziski atjauninātas saņemšanas, kad tā aprēķina novērtēto izdošanas izmaksu cenu vai tekošo vidējo. Izejas plūsmas tiks iegrāmatotas, balstoties uz paredzēto izmaksu cenu periodā. Krājumu slēgšanas laikā, aprēķinot svērto vidējo, tiek ņemtas vērtā tikai finansiāli atjauninātās ieejas plūsmas.
 
-Ja lapā **Krājumu modeļu grupa** krājumam atzīmējat izvēles rūtiņu **Iekļaut fizisko vērtību**, sistēmā novērtēto izmaksu cenas vai pašreizējās vidējās vērtības aprēķinam tiek izmantotas fiziski atjauninātas ieejas plūsmas. Izejas plūsmas tiek grāmatotas, pamatojoties uz šo novērtēto izmaksu cenu perioda laikā. Krājumu slēgšanas laikā, aprēķinot svērto vidējo, tiek ņemtas vērtā tikai finansiāli atjauninātās ieejas plūsmas.
+Diagramma, kas parāda šīs darbības:
+
+**1. diena.**
+
+- 1.a Krājumu fiziska saņemšana daudzumam 10 pie cenas USD 10,00 par katru.
+- 1.b Krājuma finansiāla saņemšana par daudzumu 10 par summu USD 10,00 katrs.
+- 2.a Krājumu fiziska saņemšana daudzumam 10 pie cenas USD 20,00 par katru.
+- 3.a Krājumu fiziska izdošana daudzumam 1 ar izmaksu cenu 0USD 15.00 (fiziski vai finansiāli grāmatoto darbību tekošā vidējā vērtība).
+- 3.b Krājumu finansiāla izdošana ar daudzumu 1 par izmaksu cenu USD 15.00 (fiziski un finansiāli grāmatoto darbību tekošā vidējā vērtība).
+
+**2. diena.**
+
+- 4.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 25,00 par katru.
+- 5.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 30,00 par katru.
+- 5.b Krājumu finansiāla saņemšana daudzumam 1 pie cenas USD 30,00 par katru.
+- 6.a Krājumu fiziskā izdošana daudzumam 1, kas maksā USD 21.25 (fiziski un finansiāli grāmatoto darbību tekošā vidējā vērtība).
+
+**3. diena.**
+
+- 7\. Tiek veikta krājumu slēgšana. Balstoties uz svērtā vidējā datuma metodi, sistēma izmanto tiešās segšanas metodi 30. decembrī (12/30), jo tikai viena saņemšana ir finansiāli atjaunināta 12/30. Šajā piemērā starp darbībām 1b un 3b tiek izveidota viena segšana. 12/30 izejas plūsmai nav veikti nekādi pielāgojumi. Turklāt 31. decembrī (12/31) netiek veikta korekcija vai segšana, jo nav finansiāli atjaunināta 12.031. izejas plūsmas.
+
+Šajā diagrammā ir parādītas šīs darījumu sērijas un ietekmēs novērtētā vidējā krājumu modeļa un tiešās nosegšanas principa izmantošana ar **opciju Iekļaut fizisko** vērtību.
+
+![Svērtā vidējā tieša segšana ar iekļaut fizisko vērtību.](media/weighted-average-date-direct-settlement-with-include-physical-value.png)
+
+**Diagrammas atslēga:**
+
+- Krājuma darbības ir atzīmētas ar vertikālām bultām.
+- Fiziskās darbības ir norādītas ar īsākām, gaišpelēkām bultām.
+- Finanšu darbības ir norādītas ar garākām melnām bultām.
+- Krājuma saņemšana ir parādīta ar vertikālām bultām virs ass.
+- Krājuma izejas plūsmas ir norādītas ar vertikālām bultām zem ass.
+- Katra jauna krājuma saņemšanas vai izdošanas darbība tiek atzīmēta ar jaunu etiķeti.
+- Katra vertikāla bulta ir atzīmēta ar secības identifikatoru, piemēram, *1a*. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
+- Datumi tiek atdalīti ar šauras melnas vertikālas līnijas. Datumi ir atzīmēti diagrammas apakšdaļā.
+- Krājuma slēgšanas, kas apzīmētas ar sarkanām vertikālām punktlīnijas rindām.
+- Segšanas, kas ir veiktas, noslēdzot krājumus, un atzīmētas ar sarkanām diagonālām punktlīnijas bultām, kas savieno saņemšanu un izdošanu.
 
 ## <a name="weighted-average-date-summarized-settlement-when-the-include-physical-value-option-is-used"></a>Svērtā vidējā uz datumu apkopotā segšana, ja tiek izmantota opcija Iekļaut fizisko vērtību
-Ja lapā **Krājumu modeļu grupa** krājumam atzīmējat izvēles rūtiņu **Iekļaut fizisko vērtību**, sistēmā novērtēto izmaksu cenas vai pašreizējās vidējās vērtības aprēķinam tiek izmantotas fiziski atjauninātas ieejas plūsmas. Izejas plūsmas tiek grāmatotas, pamatojoties uz šo novērtēto izmaksu cenu perioda laikā. Krājumu slēgšanas laikā, aprēķinot svērto vidējo, tiek ņemtas vērtā tikai finansiāli atjauninātās ieejas plūsmas. Svērtā vidējā segšanas pamatā ir princips, ka ieejas plūsmas slēgšanas periodā tiek apkopotas jaunā krājumu pārsūtīšanas transakcijā, kas tiek saukta par *svērtā vidējā krājumu slēgšanu*. Visas ieejas plūsmas konkrētajā dienā tiek segtas ar jaunās krājumu pārsūtīšanas transakcijas izejas plūsmu. Visas izejas plūsmas konkrētajā dienā tiek segtas ar jaunās krājumu pārsūtīšanas transakcijas ieejas plūsmu. Ja pēc krājumu slēgšanas rīcībā esošo krājumu vērtība ir pozitīva, šie rīcībā esošie krājumi un krājumu vērtība tiek apkopti jaunā krājumu pārsūtīšanas transakcijā (ieejas plūsmā). Ja pēc krājumu slēgšanas rīcībā esošo krājumu vērtība ir negatīva, rīcībā esošie krājumi un krājumu vērtība veido atsevišķo pilnībā nesegto izejas plūsmu summu.
+
+Pašreizējā produkta versijā opcija Iekļaut fizisko vērtību **darbojas** atšķirīgi ar svērto vidējo, nekā tas darbojas iepriekšējās versijās. Kad jūs **atzīmējiet** **izvēles** rūtiņu Iekļaut fizisko vērtību krājumam krājumu modeļu grupas lapā, sistēma izmantos fiziski atjauninātas saņemšanas, kad tā aprēķina novērtēto izmaksu cenu vai palaiž vidējo. Izejas plūsmas tiks iegrāmatotas, balstoties uz paredzēto izmaksu cenu periodā. Krājumu slēgšanas laikā, aprēķinot svērto vidējo, tiek ņemtas vērtā tikai finansiāli atjauninātās ieejas plūsmas. Ja lietojat svērtā vidējā krājuma modeli, ieteicam veikt krājumu slēgšanu katru mēnesi. Šajā svērtā vidējā datuma kopsavilkuma nosegšanas piemērā krājumu modelis tiek atzīmēts, lai ietvertu fizisko vērtību.
+
+Diagramma, kas parāda šīs darbības:
+
+**1. diena.**
+
+- 1.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 10,00 par katru.
+- 1.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 10,00 katrs.
+- 2.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 20,00 par katru.
+- 2.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 22,00 katrs.
+- 3.a Krājumu fiziska izdošana daudzumam 1 ar izmaksu cenu 0USD 16.00 (fiziski vai finansiāli grāmatoto darbību tekošā vidējā vērtība).
+- 3.b Krājumu finansiāla izdošana ar daudzumu 1 par izmaksu cenu USD 16.00 (fiziski vai finansiāli grāmatoto darbību tekošā vidējā vērtība).
+
+**2. diena.**
+
+- 4.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 25,00 par katru.
+- 5.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 30,00 par katru.
+- 5.b Krājumu finansiāla saņemšana daudzumam 1 pie cenas USD 30,00 par katru.
+- 6.a Krājumu fiziska izdošana daudzumam 1 ar izmaksu cenu 0USD 23.67 (fiziski un finansiāli grāmatoto darbību tekošā vidējā vērtība).
+
+**3. diena.**
+
+- 7\. Tiek veikta krājumu slēgšana.
+- 7.a Tiek izveidots novērtētā vidējā rādītāja krājumu slēgšanas darījumu finanšu izejas plūsma, lai summētu visu krājumu finansiālo ieejas plūsmu segšanas.
+
+    - Darbība 1b ir nosegta daudzumam 1 ar segtu summu USD 10.00.
+    - Darbība 2b ir nosegta daudzumam 1 ar segtu summu USD 22.00.
+    - Darbība 7a tiek izveidota daudzumam 2 ar nosegtu summu USD 32.00. Šī darbība korespondē divu ieejas plūsmas darbību summu, kas perioda laikā ir finansiāli atjauninātas.
+
+- 7.b Tiek izveidots novērtētā vidējā rādītāja krājumu slēgšanas darījumu finanšu ieejas plūsma, kā finansiāli grāmatoto plūsmu korespondējošais konts.
+
+    - Darbība 3b tiek nosegta par daudzumu 1 ar segtu summu USD 16.00. Šī darbība netiek koriģēta, jo tā ir finansiāli grāmatoto darbību svērtā vidējā vērtība 1. decembrī (12/1).
+    - Darbība 7b tiek izveidota daudzumam 2 ar finansiālu summu USD 32.00 un nosegtā summa 0USD 16.00 darbības 3b. Šī darbība korespondē ar vienas izdošanas darbības summu, kas ir finansiāli atjaunināta periodā. Darbība paliek atvērta, jo joprojām ir viena rīcībā.
+
+Šajā diagrammā ir parādītas šīs darījumu sērijas un ietekmēs novērtētā vidējā krājumu modeļa un apkopotā nosegšanas principa izmantošana bez **opcijas Iekļaut fizisko** vērtību.
+
+![Svērtā vidējā apkopotā segšana ar iekļaut fizisko vērtību.](media/weighted-average-date-summarized-settlement-with-include-physical-value.png)
+
+**Diagrammas atslēga:**
+
+- Krājuma darbības ir atzīmētas ar vertikālām bultām.
+- Fiziskās darbības ir norādītas ar īsākām, gaišpelēkām bultām.
+- Finanšu darbības ir norādītas ar garākām melnām bultām.
+- Krājuma saņemšana ir parādīta ar vertikālām bultām virs ass.
+- Krājuma izejas plūsmas ir norādītas ar vertikālām bultām zem ass.
+- Katra jauna krājuma saņemšanas vai izdošanas darbība tiek atzīmēta ar jaunu etiķeti.
+- Katra vertikāla bulta ir atzīmēta ar secības identifikatoru, piemēram, *1a*. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
+- Datumi tiek atdalīti ar šauras melnas vertikālas līnijas. Datumi ir atzīmēti diagrammas apakšdaļā.
+- Krājuma slēgšanas, kas apzīmētas ar sarkanām vertikālām punktlīnijas rindām.
+- Segšanas, kas ir veiktas, noslēdzot krājumus, un atzīmētas ar sarkanām diagonālām punktlīnijas bultām, kas savieno saņemšanu un izdošanu.
 
 ## <a name="weighted-average-date-when-marking-is-used"></a>Svērtais vidējais uz datumu, ja tiek izmantota iezīmēšana
-Atzīmēšana ir process, kas sniedz iespēju izejas plūsmas transakciju saistīt ar ieejas plūsmas transakciju. Atzīmēšana var parādīties gan pirms, gan pēc darbības grāmatošanas. Kā arī varat lietot iezīmēšanu, ja vēlaties pārbaudīt precīzas krājuma izmaksas pēc darbības iegrāmatošanas vai pēc krājumu slēgšanas. 
 
-Piemēram, jūsu Klientu apkalpošanas nodaļa saņēma steidzamu pasūtījumu no svarīga klienta. Tā kā tas ir steidzams pasūtījums, lai izpildītu debitora pieprasījumu, par šo krājumu ir jāmaksā vairāk. Jums ir jānodrošina, ka šīs krājuma vienības izmaksas tiek ietvertas uzcenojumā vai pārdoto preču pašizmaksā (PPPI) šajā pārdošanas pasūtījuma rēķinā. Iegrāmatojot pirkšanas pasūtījumu, tiek saņemts krājums ar vērtību USD 120,00. Pārdošanas pasūtījuma dokuments tiek iezīmējot saistīts ar pirkšanas pasūtījumu pirms pavadzīmes vai rēķina grāmatošanas. Pēc tam krājuma PPPI ir USD 120,00, nevis pašreizējā kārtējo vidējo izmaksu cena šim krājumam. Ja pārdošanas pasūtījuma pavadzīme vai rēķins tiek iegrāmatots pirms iezīmēšanas, COGS būs norādītas kā pašreizējo krājuma vidējo izmaksu cena. Pirms krājumu slēgšanas šīs darbības var būt savstarpēji iezīmētas. Ja ieejas plūsmas transakcija tiek iezīmējot saistīta ar izejas plūsmas transakciju, krājumam tiek ignorēta krājumu modeļu grupā definētā vērtēšanas metode. Tā vietā sistēmā šīs transakcijas tiek segtas viena ar otru. 
+Atzīmēšana ir process, kas sniedz iespēju izdošanas transakciju saistīt jeb atzīmēt ar ieejas plūsmas transakciju. Atzīmēšana var parādīties gan pirms, gan pēc darbības grāmatošanas. Kā arī varat lietot iezīmēšanu, ja vēlaties pārliecināties par precīzām krājumu izmaksām, kad darbība ir grāmatota vai tiek veikta krājumu slēgšana.
 
-Varat atzīmēt saņemšanas darbībai paredzēto izdošanas darbību pirms darbība tiek grāmatota. To var paveikt no pārdošanas pasūtījuma rindas, lapā **Pārdošanas pasūtījuma informācija**. Varat skatīt atvērtās ieejas plūsmas transakcijas lapā **Iezīmēšana**. Varat iezīmējot saistīt izejas plūsmas transakciju ar ieejas plūsmas transakciju pēc transakcijas grāmatošanas. Varat saskaņot vai iezīmējot saistīt inventarizēta krājuma izejas plūsmas transakciju ar atvērtu ieejas plūsmas transakciju, izmantojot grāmatoto krājumu korekciju žurnālu. Šīs transakcijas ir attēlotas tālāk esošajā ilustrācijā.
+Piemēram, jūsu Klientu apkalpošanas nodaļa saņēma steidzamu pasūtījumu no svarīga klienta. Tādēļ, ka tas ir steidzams pasūtījums, jums būs par šo krājumu jāmaksā vairāk, lai sniegtu klienta pieprasījumu. Jums jābūt pārliecinātos, ka krājuma izmaksas šim pārdošanas pasūtījuma rēķinam tiek atainotas uzcenojuma vai pārdoto preču izmaksās (COGS).
 
--   1.a Krājumu fiziska saņemšana ar daudzumu 1 pie izmaksu cenas USD 10,00.
--   1.b Krājumu finansiāla saņemšana ar daudzumu 1 pie izmaksu cenas USD 10,00.
--   2.a Krājumu fiziska saņemšana ar daudzumu 1 pie izmaksu cenas USD 20,00.
--   2.b Krājumu finansiāla saņemšana ar daudzumu 1 pie izmaksu cenas USD 20,00.
--   3.a Krājumu fiziska saņemšana ar daudzumu 1 pie izmaksu cenas USD 25,00.
--   4.a Krājumu fiziska saņemšana ar daudzumu 1 pie izmaksu cenas USD 30,00.
--   4.b Krājumu finansiāla saņemšana ar daudzumu 1 pie izmaksu cenas USD 30,00.
--   5.a Krājumu fiziskā izejas plūsma — daudzums: 1, izmaksu cena: USD 21,25 (finansiāli un fiziski atjaunināto transakciju kārtējās vidējās izmaksas).
--   5.b Krājumu finansiāla izdošana ar daudzumu 1 tiek nozīmēta krājumu ieejas plūsmai 2b pirms darbība tiek iegrāmatota. Šī darbība tiek iegrāmatota ar izmaksu cenu USD 20,00.
--   6.a Krājumu fiziska izsniegšana ar daudzumu 1 pie izmaksu cenas USD 21,25.
--   7. Tiek veikta krājumu slēgšana. Tā kā finansiāli atjauninātā transakcija ir iezīmējot saistīta ar esošu ieejas plūsmu, šīs transakcijas tiek segtas viena ar otru un netiek veiktas nekādas korekcijas.
+Iegrāmatojot pirkšanas pasūtījumu, tiek saņemts krājums ar vērtību USD 120,00. Ja pārdošanas pasūtījums ir atzīmēts kā pirkšanas pasūtījums pirms pavadzīmes vai rēķina grāmatošanas, COGS būs tikai USD 120.00 pašreizējo krājuma vidējo izmaksu vietā. Ja iezīmēšana notiek pēc pārdošanas pasūtījuma pavadzīmes vai rēķina iegrāmatošanas, COGS būs pie tekošās vidējās izmaksu cenas.
 
-Jauna pašreizēja vidējā izmaksu cena attēlo finansiāli vai fiziski atjaunināto darbību vidējo par summu USD 27,50. Tālāk esošajā ilustrācijā ir attēlotas šīs transakcijas, kā arī ietekme, ko rada svērtā vidējā uz datumu krājumu modeļa un iezīmēšanas izmantošana.
+Pirms krājumu slēgšanas šīs darbības var būt savstarpēji iezīmētas.
 
-![Novērtētais vidējais datums ar iezīmēšanu.](./media/weightedaveragedatewithmarking.gif) 
+Ja ieejas plūsmas darbība ir atzīmēta ar izdošanas darbību, novērtēšanas metode, kas ir izvēlēta krājuma modeļa grupai, tiks ignorēta, un sistēma nosegs šīs darbības vienu ar otru.
 
-**Attēla apzīmējumi:**
+Varat iezīmējot saistīt izejas plūsmas transakciju ar ieejas plūsmas transakciju pirms transakcijas grāmatošanas. Šo iezīmēšanu var veikt no pārdošanas pasūtījuma rindas lapā **Detalizēta informācija par pārdošanas** pasūtījumu. Atvērtās saņemšanas darbības ir parādītas lapā **Iezīmēšana**.
 
--   Krājuma darbības ir atzīmētas ar vertikālām bultām.
--   Krājuma saņemšana ir atzīmēta ar vertikālām bultām virs laika skalas.
--   Krājuma izdošana ir atzīmēta ar vertikālām bultām zem laika skalas.
--   Virs vai zem katras vertikālās bultas ir norādīta krājumu transakcijas vērtība formātā *Daudzums*@*Vienības cena*.
--   Ja krājumu transakcijas vērtība ir ietverta iekavās, krājumu transakcija tiek fiziski iegrāmatota krājumos.
--   Ja krājumu transakcijas vērtība nav ietverta iekavās, krājumu transakcija tiek finansiāli iegrāmatota krājumos.
--   Katra jauna krājuma saņemšanas vai izdošanas darbība tiek atzīmēta ar jaunu etiķeti.
--   Katra vertikāla bulta ir atzīmēta ar secības identifikatoru, piemēram, *1a*. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
--   Krājuma slēgšanas, kas atzīmētas ar sarkanu vertikālu punktlīniju un etiķeti *Krājuma slēgšana*.
--   Segšanas, kas tiek veiktas, slēdzot krājumus, ir apzīmētas ar sarkanām pārtrauktu līniju bultām, kas pa diagonāli savieno ieejas plūsmu un izejas plūsmu.
+Varat arī iezīmējot saistīt izejas plūsmas transakciju ar ieejas plūsmas transakciju pēc transakcijas grāmatošanas. Varat saskaņot vai iezīmējot saistīt inventarizēta krājuma izejas plūsmas transakciju ar atvērtu ieejas plūsmas transakciju, izmantojot grāmatoto krājumu korekciju žurnālu.
 
+Diagramma, kas parāda šīs darbības:
 
+**1. diena.**
 
+- 1.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 10,00 par katru.
+- 1.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 10,00 katrs.
+- 2.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 20,00 par katru.
+- 2.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 22,00 katrs.
+- 3.a Krājumu fiziska izsniegšana ar daudzumu 1, kuras izmaksu cena ir USD 16.00 (finansiāli grāmatoto darbību tekošā vidējā vērtība).
+- 3.b Krājumu finansiāla izdošana ar daudzumu 1 ar izmaksu cenu USD 16.00 (finansiāli grāmatoto darbību tekošā vidējā vērtība).
+- 3c. Krājumu finansiāla izdošana darbībai 3b ir atzīmēta ar krājumu finansiālo izdošanu darījumam 2b.
 
+**2. diena.**
 
+- 4.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 25,00 par katru.
+- 5.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 30,00 par katru.
+- 5.b Krājumu finansiāla saņemšana daudzumam 1 pie cenas USD 30,00 par katru.
+- 6.a Krājumu fiziska izsniegšana ar daudzumu 1 pie izmaksu cenas USD 23.00 (finansiāli grāmatoto darbību tekošā vidējā vērtība).
+
+**3. diena.**
+
+- 7\. Tiek veikta krājumu slēgšana. Pamatojoties uz iezīmēšanas principu, kas izmanto svērtā vidējā metodi, iezīmētās darbības tiek nosegtas viena pret otru. Šajā piemērā darbība 3b tiek nosegta pret darbību 2b, un korekcija USD 6.00 iegrāmatota darbībā 3b, lai vērtību USD 22.00. Šajā piemērā netiek veiktas papildu nosegšanas, jo aizvēršana izveido segšanas tikai finansiāli atjauninātām darbībām.
+
+Šajā diagrammā parādītas šīs darījumu sērijas un ietekmēs novērtētā vidējā krājumu modeļa izmantošana ar iezīmēšanu.
+
+![Svērtais vidējais ar iezīmējumu.](media/weighted-average-date-with-marking.png)
+
+**Diagrammas atslēga:**
+
+- Krājuma darbības ir atzīmētas ar vertikālām bultām.
+- Fiziskās darbības ir norādītas ar īsākām, gaišpelēkām bultām.
+- Finanšu darbības ir norādītas ar garākām melnām bultām.
+- Krājuma saņemšana ir parādīta ar vertikālām bultām virs ass.
+- Krājuma izejas plūsmas ir norādītas ar vertikālām bultām zem ass.
+- Katra jauna krājuma saņemšanas vai izdošanas darbība tiek atzīmēta ar jaunu etiķeti.
+- Katra vertikāla bulta ir atzīmēta ar secības identifikatoru, piemēram, *1a*. Identifikators norāda uz krājumu darbību iegrāmatošanas kārtību laika intervālā.
+- Datumi tiek atdalīti ar šauras melnas vertikālas līnijas. Datumi ir atzīmēti diagrammas apakšdaļā.
+- Krājuma slēgšanas, kas apzīmētas ar sarkanām vertikālām punktlīnijas rindām.
+- Segšanas, kas ir veiktas, noslēdzot krājumus, un atzīmētas ar sarkanām diagonālām punktlīnijas bultām, kas savieno saņemšanu un izdošanu.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
