@@ -6,7 +6,7 @@
           href: index.md
         - name: Jaunumi un izmaiņas
           items:
-            - name: Jaunumi un izmaiņas programmā Finance and Operations
+            - name: Jaunumi un izmaiņas Finance and Operations programmās
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
             - name: Jaunumi un izmaiņas programmā Supply Chain Management
               items:
@@ -747,8 +747,32 @@
                   href: cost-management/simulate-cost-changes-costing-version-planned-costs.md
                 - name: Krājumu cenu uzglabāšanas salīdzināšanas pārskats
                   href: cost-management/compare-item-price.md
+            - name: Izmaksu aprēķināšanas metodoloģijas
+              items:
+                - name: Pašreizējā vidējā izmaksu cena
+                  href: cost-management/running-average-cost-price.md
+                - name: Pašreizējās vidējās izmaksu cenas izsekošana pēc krājumu dimensijas
+                  href: cost-management/track-running-average-cost-per-inventory-dimension.md
+                - name: FIFO ar fizisko vērtību un marķējumu
+                  href: cost-management/fifo-physical-value-marking.md
+                - name: LIFO datums ar fizisko vērtību un marķējumu
+                  href: cost-management/lifo-date-physical-value-marking.md
+                - name: LIFO ar fizisko vērtību un marķējumu
+                  href: cost-management/lifo-physical-value-marking.md
+                - name: Vidējā svērtā ar fizisko vērtību un marķējumu
+                  href: cost-management/weighted-average-physical-value-marking.md
+                - name: Vidējais svērtais datums ar fizisko vērtību un marķējumu
+                  href: cost-management/weighted-average-date.md
+                - name: Vidējās vērtības pārvietošana
+                  href: cost-management/moving-average.md
+                - name: 'Vidējās vērtības pārvietošana, regresa izmaksu secība'
+                  href: cost-management/moving-average-fallback.md
             - name: Krājumu uzskaite
               items:
+                - name: Fiziskie un finanšu atjauninājumi
+                  href: cost-management/physical-financial-updates.md
+                - name: Iekļaut fizisko vērtību
+                  href: cost-management/include-physical-value.md
                 - name: Izmaksu objekti
                   href: cost-management/cost-object.md
                 - name: Izmaksu objekta bilances skatīšana
@@ -761,30 +785,8 @@
                   href: cost-management/tasks/view-cost-entries-cost-object.md
                 - name: Izmaksu grupas
                   href: cost-management/cost-groups.md
-                - name: FIFO ar fizisko vērtību un marķējumu
-                  href: cost-management/fifo-physical-value-marking.md
-                - name: Iekļaut fizisko vērtību
-                  href: cost-management/include-physical-value.md
                 - name: Krājumu objekta vērtības
                   href: cost-management/physical-quantity.md
-                - name: LIFO datums ar fizisko vērtību un marķējumu
-                  href: cost-management/lifo-date-physical-value-marking.md
-                - name: LIFO ar fizisko vērtību un marķējumu
-                  href: cost-management/lifo-physical-value-marking.md
-                - name: Vidējās vērtības pārvietošana
-                  href: cost-management/moving-average.md
-                - name: 'Vidējās vērtības pārvietošana, regresa izmaksu secība'
-                  href: cost-management/moving-average-fallback.md
-                - name: Fiziskie un finanšu atjauninājumi
-                  href: cost-management/physical-financial-updates.md
-                - name: Pašreizējā vidējā izmaksu cena
-                  href: cost-management/running-average-cost-price.md
-                - name: Pašreizējās vidējās izmaksu cenas izsekošana pēc krājumu dimensijas
-                  href: cost-management/track-running-average-cost-per-inventory-dimension.md
-                - name: Vidējā svērtā uz datumu
-                  href: cost-management/weighted-average-date.md
-                - name: Vidējā svērtā ar fizisko vērtību un marķējumu
-                  href: cost-management/weighted-average-physical-value-marking.md
                 - name: Krājumu slēgšana
                   href: cost-management/inventory-close.md
                 - name: Rīcībā esošo krājumu izmaksu vērtību koriģēšana
@@ -1431,9 +1433,13 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Datu avotu atkļūdošana
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Datu modeļu konfigurēšana
+                  items:
+                    - name: Atbalstīt ER datu modeļu parametru izsaukumus
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-model-parameterized-calls.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Modeļu kartējumu konfigurēšana
                   items:
-                    - name: No valsts konteksta atkarīgu ER modeļu kartējumu konfigurēšana
+                    - name: No valsts konteksta atkarīgu elektronisko pārskatu modeļu kartējumu konfigurēšana
                       href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Elektronisko pārskatu modeļa kartēšanas pārvaldība atsevišķās elektronisko pārskatu konfigurācijās
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/supply-chain/toc.json
@@ -3855,6 +3861,8 @@
               items:
                 - name: Warehouse mobile app
                   items:
+                    - name: Neparedzēta atšķirība starp pieprasījuma un sesijas datiem testēšanas laikā
+                      href: troubleshooting/warehousing/request-session-data-difference.md
                     - name: 'Iestatot programmas savienojumu, nav atrasts sertifikācijas ceļa uzticamības enkurs'
                       href: troubleshooting/warehousing/certification-path-app-connection-error.md
                     - name: 'Veicot atjaunināšanu un migrēšanu uz noliktavas pārraudzības sistēmu, nav atrasts sertifikācijas ceļa uzticamības enkurs'

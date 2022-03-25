@@ -6,7 +6,7 @@
           href: index.md
         - name: Jaunumi un izmaiņas
           items:
-            - name: Jaunumi un izmaiņas finanšu un operāciju programmās
+            - name: Jaunumi un izmaiņas Finance and Operations programmās
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/commerce/toc.json
             - name: Jaunumi un izmaiņas programmā Commerce
               items:
@@ -1020,6 +1020,8 @@
                   href: unit-of-measure.md
                 - name: Displeja iestatījumu lietošana preču dimensijām
                   href: dimension-settings.md
+                - name: E-komercijas uzturēšanas režīma iespējošana un aktivizēšana
+                  href: enable-maintenance-mode.md
             - name: Vietnes satura pārvaldība
               items:
                 - name: Satura pievienošanas veidi
@@ -2100,9 +2102,13 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Datu avotu atkļūdošana
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
+                - name: Datu modeļu konfigurēšana
+                  items:
+                    - name: Atbalstīt ER datu modeļu parametru izsaukumus
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-model-parameterized-calls.md?toc=/dynamics365/commerce/toc.json
                 - name: Modeļu kartējumu konfigurēšana
                   items:
-                    - name: No valsts konteksta atkarīgu ER modeļu kartējumu konfigurēšana
+                    - name: No valsts konteksta atkarīgu elektronisko pārskatu modeļu kartējumu konfigurēšana
                       href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/commerce/toc.json
                     - name: Elektronisko pārskatu modeļa kartēšanas pārvaldība atsevišķās elektronisko pārskatu konfigurācijās
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/commerce/toc.json
@@ -2760,6 +2766,8 @@
                           href: e-commerce-extensibility/clone-starter-module.md
                         - name: Moduļa definīcijas paplašināšana
                           href: e-commerce-extensibility/extend-module-definition.md
+                        - name: Moduļu bibliotēkas statisko virkņu maiņa
+                          href: e-commerce-extensibility/change-module-library-strings.md
                     - name: Datu darbības
                       items:
                         - name: Datu darbību pārlabojumi
@@ -2774,6 +2782,8 @@
                           href: e-commerce-extensibility/override-theme-component.md
                         - name: Dizaina paplašināšana no bāzes dizaina
                           href: e-commerce-extensibility/extend-theme.md
+                        - name: Dizaina moduļa virkņu maiņa
+                          href: e-commerce-extensibility/change-theme-module-strings.md
                 - name: Pakošana un izvietošana
                   items:
                     - name: Pakotņu konfigurācijas un to izvietošana tiešsaistes vidē
@@ -2798,6 +2808,8 @@
                           href: e-commerce-extensibility/page-caching.md
                         - name: Datu darbību instances kešatmiņa
                           href: e-commerce-extensibility/instance-cache.md
+                        - name: Moduļa CSS optimizācija
+                          href: e-commerce-extensibility/module-css-optimization.md
                     - name: Telemetrija un analīze
                       items:
                         - name: Telemetrijas reģistrētājs

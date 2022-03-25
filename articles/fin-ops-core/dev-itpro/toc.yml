@@ -8,7 +8,7 @@
           href: index.md
         - name: Jaunumi un izmaiņas
           items:
-            - name: Jaunumi un izmaiņas programmā Finance and Operations
+            - name: Jaunumi un izmaiņas Finance and Operations programmās
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Jaunumi un izmaiņas platformas atjauninājumos
               items:
@@ -238,10 +238,12 @@
               href: data-entities/Azure-Data-Lake-GA-version-overview.md
             - name: Eksportēšanas uz Azure Data Lake pievienojumprogrammas instalēšana
               href: data-entities/configure-export-data-lake.md
-            - name: Finance and Operations programmas risinājumā Azure Data Lake
+            - name: Finanšu un operāciju programmas risinājumā Azure Data Lake
               href: data-entities/finance-data-azure-data-lake.md
             - name: Elementu krātuves pārvēršana par Data Lake
               href: data-entities/entity-store-data-lake.md
+            - name: 'Biznesa notikumi, kas ģenerēti, eksportējot uz pakalpojumu Azure Data Lake (priekšskatījums)'
+              href: data-entities/Azure-Data-Lake-Generates-Biz-events.md
             - name: Datu maiņa pakalpojumā Azure Data Lake
               href: data-entities/Azure-data-lake-Change-feeds.md
         - name: Datu bāzes pārvietošanas operācijas
@@ -1068,6 +1070,8 @@
                       href: data-entities/dual-write/sales-status-map.md
                     - name: 'Starpuzņēmumu pasūtījumu filtrēšana, lai novērstu pasūtījumu un pasūtījumu rindu sinhronizāciju'
                       href: data-entities/dual-write/filtering-intercompany-orders.md
+                    - name: Atinstalēt duālās rakstīšanas programmas orķestrācijas risinājumus
+                      href: data-entities/dual-write/uninstall-solutions.md
                 - name: Duālā ieraksta pārvaldība
                   items:
                     - name: Elementa un lauka kartējumu pielāgošana
