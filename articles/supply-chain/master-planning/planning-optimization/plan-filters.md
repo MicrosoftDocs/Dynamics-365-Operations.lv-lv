@@ -1,7 +1,7 @@
 ---
 title: Izmantot filtrus plānam
 description: Šajā tēmā izskaidrots, kā izmantot filtrus plānam, kad izmanto funkcionalitāti Plānošanas optimizācija.
-author: ChristianRytt
+author: t-benebo
 ms.date: 01/08/2020
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 3612dd45a3f4b8c3597c81962a66c21ed14fb206
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: 8679844ea40dd5af74102c37ab1e7d10b0681a0f
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7729031"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8468389"
 ---
 # <a name="apply-filters-to-a-plan"></a>Izmantot filtrus plānam
 
@@ -43,7 +43,7 @@ Ir iestatīts plāna filtrs, kas ietver krājumus A, B un C. Vispārējā plāno
 - **Izpildlaika filtrs, kas ietver visus elementus (tukšs filtrs):** Krājumi A, B un C tiek iekļauti plānošanas darbībā, un iepriekšējā plānošanas izvade A un B tiek pārrakstīta.
 
 > [!NOTE]
-> Ja iestatāt plāna filtru plānam, kas lapā Vispārējās plānošanas parametri ir atlasīts kā **Pašreizējais dinamiskais vispārējais** **·** plāns, dinamiskā vispārējā plāna funkcionalitāte tiks ierobežota ar filtrētajiem krājumiem. Piemēram, ja neto vajadzības tiek atjauninātas krājumam, kas nav daļa no plāna filtra, rezultāts netiks ģenerēts.
+> Ja vispārējās **plānošanas** **parametru** lapā iestatāt plāna filtru, kas lapā Vispārējās plānošanas parametri ir atlasīts kā pašreizējais dinamiskais vispārējais plāns, tad dinamiskā vispārējā plāna funkcionalitāte tiks ierobežota līdz filtrētiem krājumiem. Piemēram, ja neto vajadzības tiek atjauninātas krājumam, kas nav daļa no plāna filtra, rezultāts netiks ģenerēts.
 
 ## <a name="related-resources"></a>Saistītie resursi
 

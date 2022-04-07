@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 2f31009424629221a8e4f130b0ec1879c6c6e3d4
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: e2273aefb98880a1ae746ef7ec65b4f2262f3560
+ms.sourcegitcommit: 49c97b0c94e916db5efca5672d85df70c3450755
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781967"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "8492925"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool apmācība
 
@@ -43,7 +43,7 @@ Tālāk norādītajā piemērā ir parādīts, kā varat izmantot šo līdzekli,
     5. Sarakstā atzīmējiet atlasīto rindu.
     6. Pārbaudiet, vai lauka **Pieejamā kopsumma** vērtība ir **411.0000000000000000**.
 
-2. Saglabājiet uzdevuma reģistrēšanu kā **izstrādāja ierakstu** un pievienojiet to testa gadījumam Azure Devops.
+2. Saglabājiet uzdevuma ierakstu kā izstrādātāja **ierakstu** un pievienojiet to testa gadījumam Azure DevOps.
 3. Pievienojiet testa gadījumu testa plānam un ielādējiet testa gadījumu RSAT.
 4. Atveriet Excel parametra failu un dodieties uz cilni **TestCaseSteps**.
 5. Lai pārbaudītu, vai rīcībā esošie krājumi vienmēr būs vairāk par **0**, dodieties uz soli **Pārbaudīt kopējo pieejamo** un mainiet tā vērtību no **411** uz **0**. Mainiet **Operatora** lauka vērtību no vienādības zīmes (**=**) uz lielāku par zīmi (**\>**).
@@ -79,19 +79,19 @@ Pēc testa gadījuma palaišanas ziņojums Excel parametru failā tiek salīdzin
 
 Šis līdzeklis uzņem to darbību ekrānuzņēmumus, kas tika izpildītas uzdevuma reģistrēšanas laikā. Tas ir noderīgs audita vai atkļūdošanas nolūkiem.
 
-- Lai izmantotu šo līdzekli, atveriet failu **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config**, kas atrodas RSAT instalācijas mapē (piemēram, **C:\\ Program Files (x86)\\Regression Suite Automation Tool**), un mainiet tālāk norādītā elementa vērtību no **aplams** uz **patiess**.
+- Lai izmantotu šo līdzekli, atveriet failu **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config**, kas atrodas RSAT instalācijas mapē (piemēram, **C:\\Program Files (x86)\\Regression Suite Automation Tool**), un mainiet tālāk norādītā elementa vērtību no **aplams** uz **patiess**.
 
     ```xml
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-- Lai izmantotu šo līdzekli RSAT darbības laikā, ko palaida CLI (piemēram, Azure DevOps), atveriet failu **Microsoft.Dynamics.RegressionSuite.ConsoleApp.exe.config**, kas atrodas RSAT instalācijas mapē (piemēram, **C:\\ Program Files (x86)\\Regression Suite Automation Tool**), un mainiet tālāk norādītā elementa vērtību no **aplams** uz **patiess**.
+- Lai izmantotu šo līdzekli RSAT darbības laikā, ko palaida CLI (piemēram, Azure DevOps), atveriet failu **Microsoft.Dynamics.RegressionSuite.ConsoleApp.exe.config**, kas atrodas RSAT instalācijas mapē (piemēram, **C:\\Program Files (x86)\\Regression Suite Automation Tool**), un mainiet tālāk norādītā elementa vērtību no **aplams** uz **patiess**.
 
     ```xml
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-Kad tiek palaisti testa piemēri, RSAT ģenerēs soļu momentuzņēmumus (attēlus) pārbaudes gadījumu atskaņošanas mapē darba direktorijā. Atskaņošanas mapē tiek izveidota atsevišķa apakšmape ar nosaukumu **StepSnapshots**. Mape satur momentuzņēmumus palaistiem pārbaudes gadījumiem.
+Palaižot pārbaudes gadījumus, RSAT izveido soļu momentuzņēmumus (attēlus) un saglabā tos darba direktorijā esošo pārbaudes gadījumu mapē. Atskaņošanas mapē tiek izveidota atsevišķa apakšmape ar nosaukumu **StepSnapshots**. Mape satur momentuzņēmumus palaistiem pārbaudes gadījumiem.
 
 ## <a name="assignment"></a>Piešķire
 
@@ -172,6 +172,7 @@ RSAT var izsaukt no **Komandu uzvednes** vai **PowerShell** loga.
         about
         cls
         download
+        downloadsuite
         edit
         generate
         generatederived
@@ -181,11 +182,13 @@ RSAT var izsaukt no **Komandu uzvednes** vai **PowerShell** loga.
         list
         listtestplans
         listtestsuite
+        listtestsuitebyid
         listtestsuitenames
         playback
         playbackbyid
         playbackmany
         playbacksuite
+        playbacksuitebyid
         quit
         upload
         uploadrecording
@@ -194,17 +197,17 @@ RSAT var izsaukt no **Komandu uzvednes** vai **PowerShell** loga.
 
 #### <a name=""></a>?
 
-Rāda palīdzību par visām pieejamām komandām un to parametriem.
+Uzskaita visas komandas vai parāda palīdzību noteiktai komandai kopā ar pieejamajiem parametriem.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``?``**``[command]``
 
 ##### <a name="-optional-parameters"></a>?: Neobligāti parametri
 
-`command`: Kur ``[command]`` ir viena no tālāk norādītajām komandām.
+`command`: kur ``[command]`` ir viena no komandām iepriekšējā sarakstā.
 
 #### <a name="about"></a>par programmu
 
-Rāda pašreizējo versiju.
+Parāda instalētā RSAT versiju.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``about``**
 
@@ -216,21 +219,57 @@ Notīra ekrānu.
 
 #### <a name="download"></a>lejupielādēt
 
-Lejupielādē pielikumus norādītajam testa gadījumam izvades direktorijā.
-Varat izmantot ``list`` komandu, lai iegūtu visus pieejamos pārbaudes gadījumus. Izmantojiet jebkuru vērtību no pirmās kolonnas kā **test_case_id** parametru.
+Lejupielādē pielikumus (ierakstīšanas, izpildes un parametru failus) norādītajam testa gadījumam no Azure DevOps izvades direktorijas. Varat izmantot komandu, ``list`` lai iegūtu visus pieejamos testa gadījumus, un izmantot jebkuru vērtību no pirmās kolonnas kā **test_case_id parametru**.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``download``**``[test_case_id] [output_dir]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``download``**``[/retry[=<seconds>]] [test_case_id] [output_dir]``
+
+##### <a name="download-optional-switches"></a>lejupielāde: izvēles pārslēgšanās
+
++ `/retry[=seconds]`: Ja ir norādīta šī pārslēgšanās un gadījumu pārbaudes gadījumus bloķē citas RSAT instances, lejupielādes process gaidīs norādīto sekunžu skaitu un tad mēģinās vēlreiz. Noklusējuma sekunžu \[vērtība\] ir 120 sekundes. Bez šī pārslēgšanas, nekavējoties tiks atcelts process, ja testa gadījumi ir bloķēti.
 
 ##### <a name="download-required-parameters"></a>lejupielāde: obligātie parametri
 
 + `test_case_id`: Parāda testa gadījuma ID.
-+ `output_dir`: Attēlo izvades direktoriju. Direktorijam ir jāpastāv.
+
+##### <a name="download-optional-parameters"></a>lejupielāde: izvēles parametri
+
++ `output_dir`: attēlo izvades darba direktoriju. Direktorijam ir jāpastāv. Ja nav norādīts šis parametrs, tiks lietots darba direktorijs no iestatījumiem.
 
 ##### <a name="download-examples"></a>lejupielāde: piemēri
 
 `download 123 c:\temp\rsat`
 
-`download 765 c:\rsat\last`
+`download /retry=240 765`
+
+#### <a name="downloadsuite"></a>Lejupielādes darbības
+
+Lejupielādē pielikumus (ierakstīšanas, izpildes un parametru failus) visiem testa gadījumiem norādītajā testu komplektā no Azure DevOps izvades direktorijas. Varat izmantot komandu ``listtestsuitenames``, lai iegūtu visu pieejamo testa darbību un izmantot jebkuru vērtību kā test_suite_name **parametru**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``downloadsuite``**``[/retry[=<seconds>]] ([test_suite_name] | [/byid] [test_suite_id]) [output_dir]``
+
+##### <a name="downloadsuite-optional-switches"></a>lejupielādes: neobligātie pārslēgšanās
+
++ `/retry[=seconds]`: Ja ir norādīta šī pārslēgšanās un gadījumu pārbaudes gadījumus bloķē citas RSAT instances, lejupielādes process gaidīs norādīto sekunžu skaitu un tad mēģinās vēlreiz. Noklusējuma sekunžu \[vērtība\] ir 120 sekundes. Bez šī pārslēgšanas, nekavējoties tiks atcelts process, ja testa gadījumi ir bloķēti.
++ `/byid`: šis pārslēgšanās norāda, ka vēlamais testa komplekts ir identificēts pēc Azure DevOps tā ID, nevis testa komplekta nosaukuma.
+
+##### <a name="downloadsuite-required-parameters"></a>Lejupielādes laiks: obligātie parametri
+
++ `test_suite_name`: Parāda testa komplekta nosaukumu. Šis parametrs ir nepieciešams, ja nav norādīts **/byid slēdzis**. Šis nosaukums ir testa Azure DevOps komplekta nosaukums.
++ `test_suite_id`: Parāda testa komplekta ID. Šis parametrs ir nepieciešams, ja ir norādīta /byid **pārslēgšanās**. Šis ID ir testa komplekta Azure DevOps ID.
+
+##### <a name="downloadsuite-optional-parameters"></a>downloadlejupielādē: neobligātie parametri
+
++ `output_dir`: attēlo izvades darba direktoriju. Direktorijam ir jāpastāv. Ja nav norādīts šis parametrs, tiks lietots darba direktorijs no iestatījumiem.
+
+##### <a name="downloadsuite-examples"></a>Downloadlejupielādē — piemēri
+
+`downloadsuite NameOfTheSuite c:\temp\rsat`
+
+`downloadsuite /byid 123 c:\temp\rsat`
+
+`downloadsuite /retry=240 /byid 765`
+
+`downloadsuite /retry=240 /byid 765 c:\temp\rsat`
 
 #### <a name="edit"></a>rediģēt
 
@@ -244,7 +283,7 @@ Varat izmantot ``list`` komandu, lai iegūtu visus pieejamos pārbaudes gadījum
 
 ##### <a name="edit-examples"></a>rediģēt: piemēri
 
-`edit c:\RSAT\TestCase_123_Base.xlsx`
+`edit c:\RSAT\123\TestCase_123_Base.xlsx`
 
 `edit e:\temp\TestCase_456_Base.xlsx`
 
@@ -252,24 +291,41 @@ Varat izmantot ``list`` komandu, lai iegūtu visus pieejamos pārbaudes gadījum
 
 Ģenerē pārbaudes izpildi un parametru failus norādītajam testa gadījumam izvades direktorijā. Varat izmantot ``list`` komandu, lai iegūtu visus pieejamos pārbaudes gadījumus. Izmantojiet jebkuru vērtību no pirmās kolonnas kā **test_case_id** parametru.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generate``**``[test_case_id] [output_dir]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generate``**``[/retry[=<seconds>]] [/dllonly] [/keepcustomexcel] [test_case_id] [output_dir]``
+
+##### <a name="generate-optional-switches"></a>ģenerēt: izvēles pārslēgšanās
+
++ `/retry[=seconds]`: ja ir norādīts šis slēdzis un gadījumu pārbaudes gadījumus bloķē citas RSAT instances, ģenerēšanas process gaidīs norādīto sekunžu skaitu un pēc tam izmēģinās vairāk laika. Noklusējuma sekunžu \[vērtība\] ir 120 sekundes. Bez šī pārslēgšanas, nekavējoties tiks atcelts process, ja testa gadījumi ir bloķēti.
++ `/dllonly`: ģenerēt tikai testa izpildes failus. Neģenerēt Excel parametru failu.
++ `/keepcustomexcel`: jauniniet esošo parametru failu. Reģenerēt arī izpildes failus.
 
 ##### <a name="generate-required-parameters"></a>ģenerēt: nepieciešamos parametrus
 
 + `test_case_id`: Parāda testa gadījuma ID.
-+ `output_dir`: Attēlo izvades direktoriju. Direktorijam ir jāpastāv.
+
+##### <a name="generate-optional-parameters"></a>ģenerēt: izvēles parametrus
+
++ `output_dir`: attēlo izvades darba direktoriju. Direktorijam ir jāpastāv. Ja nav norādīts šis parametrs, tiks lietots darba direktorijs no iestatījumiem.
 
 ##### <a name="generate-examples"></a>ģenerēt: piemēri
 
 `generate 123 c:\temp\rsat`
 
-`generate 765 c:\rsat\last`
+`generate /retry=240 765 c:\rsat\last`
+
+`generate /retry=240 /dllonly 765`
+
+`generate /retry=240 /keepcustomexcel 765`
 
 #### <a name="generatederived"></a>generatederived
 
-Ģenerē jaunu testa gadījumu, kas iegūts no norādītā testa gadījuma. Varat izmantot ``list`` komandu, lai iegūtu visus pieejamos pārbaudes gadījumus. Izmantojiet jebkuru vērtību no pirmās kolonnas kā **test_case_id** parametru.
+Ģenerē jaunu atvasinātā testa gadījumu (atvasinātā testa gadījums) no sniegtā testa gadījuma. Jaunais testa gadījums tiek pievienots arī norādītajam testa komplektam. Varat izmantot komandu, ``list`` lai iegūtu visus pieejamos testa gadījumus, un izmantot jebkuru vērtību no pirmās kolonnas kā **test_case_id parametru**.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatederived``**``[parent_test_case_id] [test_plan_id] [test_suite_id]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatederived``**``[/retry[=<seconds>]] [parent_test_case_id] [test_plan_id] [test_suite_id]``
+
+##### <a name="generatederived-optional-switches"></a>ģenerēts: neobligātie pārslēdzēji
+
++ `/retry[=seconds]`: ja ir norādīts šis slēdzis un gadījumu pārbaudes gadījumus bloķē citas RSAT instances, ģenerēšanas process gaidīs norādīto sekunžu skaitu un pēc tam izmēģinās vairāk laika. Noklusējuma sekunžu \[vērtība\] ir 120 sekundes. Bez šī pārslēgšanas, nekavējoties tiks atcelts process, ja testa gadījumi ir bloķēti.
 
 ##### <a name="generatederived-required-parameters"></a>generatederived: nepieciešamos parametrus
 
@@ -281,47 +337,71 @@ Varat izmantot ``list`` komandu, lai iegūtu visus pieejamos pārbaudes gadījum
 
 `generatederived 123 8901 678`
 
+`generatederived /retry 123 8901 678`
+
 #### <a name="generatetestonly"></a>generatetestonly
 
-Ģenerē tikai pārbaudes izpildes failu norādītajam testa gadījumam izvades direktorijā. Varat izmantot ``list`` komandu, lai iegūtu visus pieejamos pārbaudes gadījumus. Izmantojiet jebkuru vērtību no pirmās kolonnas kā **test_case_id** parametru.
+Ģenerē tikai testa izpildes failus norādītajam testa gadījumam. Tas neģenerē Excel parametru failu. Faili tiek ģenerēti norādītajā izvades direktorijā. Varat izmantot komandu, ``list`` lai iegūtu visus pieejamos testa gadījumus, un izmantot jebkuru vērtību no pirmās kolonnas kā **test_case_id parametru**.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestonly``**``[test_case_id] [output_dir]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestonly``**``[/retry[=<seconds>]] [test_case_id] [output_dir]``
+
+##### <a name="generatetestonly-optional-switches"></a>ģenerēti: neobligātie pārslēdzēji
+
++ `/retry[=seconds]`: ja ir norādīts šis slēdzis un gadījumu pārbaudes gadījumus bloķē citas RSAT instances, ģenerēšanas process gaidīs norādīto sekunžu skaitu un pēc tam izmēģinās vairāk laika. Noklusējuma sekunžu \[vērtība\] ir 120 sekundes. Bez šī pārslēgšanas, nekavējoties tiks atcelts process, ja testa gadījumi ir bloķēti.
 
 ##### <a name="generatetestonly-required-parameters"></a>generatesonly: nepieciešamos parametrus
 
 + `test_case_id`: Parāda testa gadījuma ID.
-+ `output_dir`: Attēlo izvades direktoriju. Direktorijam ir jāpastāv.
+
+##### <a name="generatetestonly-optional-parameters"></a>generatetestonly: izvēles parametri
+
++ `output_dir`: attēlo izvades darba direktoriju. Direktorijam ir jāpastāv. Ja nav norādīts šis parametrs, tiks lietots darba direktorijs no iestatījumiem.
 
 ##### <a name="generatetestonly-examples"></a>generatesonly: piemēri
 
 `generatetestonly 123 c:\temp\rsat`
 
-`generatetestonly 765 c:\rsat\last`
+`generatetestonly /retry=240 765`
 
 #### <a name="generatetestsuite"></a>generatetestsuite
 
-Ģenerē visus testa gadījumus norādītajam komplektam izvades direktorijā. Varat izmantot ``listtestsuitenames`` komandu, lai iegūtu visus pieejamos pārbaudes komplektus. Izmantojiet jebkuru vērtību no pirmās kolonnas kā **test_suite_name** parametru.
+Ģenerē testa automatizācijas failus visiem testa gadījumiem norādītajā testu komplektā. Varat izmantot komandu ``listtestsuitenames``, lai iegūtu visu pieejamo testa darbību un izmantot jebkuru vērtību kā test_suite_name **parametru**.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestsuite``**``[test_suite_name] [output_dir]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestsuite``**``[/retry[=<seconds>]] [/dllonly] [/keepcustomexcel] ([test_suite_name] | [/byid] [test_suite_id]) [output_dir]``
+
+##### <a name="generatetestsuite-optional-switches"></a>Generatetest pārskata: neobligātie pārslēdzēji
+
++ `/retry[=seconds]`: ja ir norādīts šis slēdzis un gadījumu pārbaudes gadījumus bloķē citas RSAT instances, ģenerēšanas process gaidīs norādīto sekunžu skaitu un pēc tam izmēģinās vairāk laika. Noklusējuma sekunžu \[vērtība\] ir 120 sekundes. Bez šī pārslēgšanas, nekavējoties tiks atcelts process, ja testa gadījumi ir bloķēti.
++ `/dllonly`: ģenerēt tikai testa izpildes failus. Neģenerēt Excel parametru failu.
++ `/keepcustomexcel`: jaunināt esošo parametru failu. Reģenerēt arī izpildes failus.
++ `/byid`: šis pārslēgšanās norāda, ka vēlamais testa komplekts ir identificēts pēc Azure DevOps tā ID, nevis testa komplekta nosaukuma.
 
 ##### <a name="generatetestsuite-required-parameters"></a>generatetestsuite: nepieciešamos parametrus
 
-+ `test_suite_name`: Parāda testa komplekta nosaukumu.
-+ `output_dir`: Attēlo izvades direktoriju. Direktorijam ir jāpastāv.
++ `test_suite_name`: Parāda testa komplekta nosaukumu. Šis parametrs ir nepieciešams, ja nav norādīts **/byid slēdzis**. Šis nosaukums ir testa Azure DevOps komplekta nosaukums.
++ `test_suite_id`: Parāda testa komplekta ID. Šis parametrs ir nepieciešams, ja ir norādīta /byid **pārslēgšanās**. Šis ID ir testa komplekta Azure DevOps ID.
+
+##### <a name="generatetestsuite-optional-parameters"></a>Generatetest pārskata: neobligātie parametri
+
++ `output_dir`: attēlo izvades darba direktoriju. Direktorijam ir jāpastāv. Ja nav norādīts šis parametrs, tiks lietots darba direktorijs no iestatījumiem.
 
 ##### <a name="generatetestsuite-examples"></a>generatetestsuite: piemēri
 
 `generatetestsuite Tests c:\temp\rsat`
 
-`generatetestsuite Purchase c:\rsat\last`
+`generatetestsuite /retry Purchase c:\rsat\last`
+
+`generatetestsuite /dllonly /byid 121`
+
+`generatetestsuite /keepcustomexcel /byid 121`
 
 #### <a name="help"></a>palīdzība
 
 Identisks ar [?](#section) komanda.
 
-#### <a name="list"></a>sarakstā
+#### <a name="list"></a>saraksts
 
-Uzskaita visus pieejamos pārbaudes gadījumus.
+Uzskaita visus pieejamos testa gadījumus pašreizējā pārbaudes plānā.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``list``**
 
@@ -333,13 +413,13 @@ Uzskaita visus pieejamos pārbaudes plānus.
 
 #### <a name="listtestsuite"></a>listtestsuite
 
-Uzskaita testa gadījumus norādītajam testu komplektam. Varat izmantot ``listtestsuitenames`` komandu, lai iegūtu visus pieejamos pārbaudes komplektus. Izmantojiet jebkuru vērtību no pirmās kolonnas kā **suite_name** parametru.
+Uzskaita testa gadījumus norādītajam testu komplektam. Varat izmantot komandu ``listtestsuitenames``, lai iegūtu visu pieejamo testa darbību, un izmantot jebkuru vērtību no saraksta kā **suite_name parametru**.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuite``**``[suite_name]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuite``**``[test_suite_name]``
 
 ##### <a name="listtestsuite-required-parameters"></a>listtestsuite: nepieciešamie parametrus
 
-+ `suite_name`: Nepieciešamā komplekta nosaukums.
++ `test_suite_name`: nepieciešamā komplekta nosaukums.
 
 ##### <a name="listtestsuite-examples"></a>listtestsuite: piemēri
 
@@ -347,39 +427,67 @@ Uzskaita testa gadījumus norādītajam testu komplektam. Varat izmantot ``listt
 
 `listtestsuite NameOfTheSuite`
 
+#### <a name="listtestsuitebyid"></a>listtestbilibyid
+
+Uzskaita testa gadījumus norādītajam testu komplektam.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuitebyid``**``[test_suite_id]``
+
+##### <a name="listtestsuitebyid-required-parameters"></a>listtestbilibyid: obligātie parametri
+
++ `test_suite_id`: nepieciešamā komplekta ID.
+
+##### <a name="listtestsuitebyid-examples"></a>listtestbilibyid: piemēri
+
+`listtestsuitebyid 12345`
+
 #### <a name="listtestsuitenames"></a>listtestsuitenames
 
-Uzskaita visus pieejamos pārbaudes komplektus.
+Uzskaita visus pieejamos testa uzdevumu šajā pārbaudes plānā.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuitenames``**
 
 #### <a name="playback"></a>atskaņošana
 
-Atskaņo pārbaudes gadījumu, izmantojot Excel failu.
+Atgriežas testa gadījums, kas ir saistīts ar norādīto Excel parametru failu. Šī komanda izmanto esošos lokālās automatizācijas failus un nelejupielādē failus Azure DevOps no. Šī komanda netiek atbalstīta POS Commerce pārbaudes gadījumiem.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playback``**``[excel_file]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playback``**``[/retry[=<seconds>]] [/comments[="comment"]] [excel_parameter_file]``
+
+##### <a name="playback-optional-switches"></a>: izvēles pārslēgšanās
+
++ `/retry[=seconds]`: Ja ir norādīts šis slēdzis un gadījumu pārbaudes gadījumus bloķē citas RSAT instances, failu process gaidīs norādīto sekunžu skaitu un pēc tam izmēģinās vēl vienu reizi. Noklusējuma sekunžu \[vērtība\] ir 120 sekundes. Bez šī pārslēgšanas, nekavējoties tiks atcelts process, ja testa gadījumi ir bloķēti.
++ `/comments[="comment"]`: sniegt pielāgotu informācijas virkni, kas tiks ietverta laukā **Komentāri** kopsavilkuma un testa rezultātu lapās testa Azure DevOps gadījuma izpildes laikā.
 
 ##### <a name="playback-required-parameters"></a>atskaņošana: obligātie parametri
 
-+ `excel_file`: Pilns ceļš uz Excel failu. Failam ir jāpastāv.
++ `excel_parameter_file`: Excel parametru faila pilns ceļš. Failam ir jāpastāv.
 
 ##### <a name="playback-examples"></a>atskaņošana: piemēri
 
-`playback c:\RSAT\TestCaseParameters\sample1.xlsx`
+`playback c:\RSAT\2745\attachments\Create_Purchase_Order_2745_Base.xlsx`
 
-`playback e:\temp\test.xlsx`
+`playback /retry e:\temp\test.xlsx`
+
+`playback /retry=300 e:\temp\test.xlsx`
+
+`playback /comments="Payroll solution 10.0.0" e:\temp\test.xlsx`
 
 #### <a name="playbackbyid"></a>playbackbyid
 
-Vienlaicīgi atskaņo vairākus pārbaudes gadījumus. Varat izmantot ``list`` komandu, lai iegūtu visus pieejamos pārbaudes gadījumus. Izmantojiet jebkuru vērtību no pirmās kolonnas kā **test_case_id** parametru.
+Vienlaicīgi tiek atgūti vairāki testa gadījumi. Testa gadījumi tiek identificēti pēc to ID. Šī komanda lejupielādēs failus no Azure DevOps. Varat izmantot komandu ``list``, lai iegūtu visus pieejamos testa gadījumus, un izmantot jebkuru vērtību no pirmās kolonnas kā test_case_id **parametru**.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackbyid``**``[test_case_id1] [test_case_id2] ... [test_case_idN]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackbyid``**``[/retry[=<seconds>]] [/comments[="comment"]] [test_case_id1] [test_case_id2] ... [test_case_idN]``
+
+##### <a name="playbackbyid-optional-switches"></a>Tikai <a0/&; neobligātie pārslēdzēji
+
++ `/retry[=seconds]`: Ja ir norādīts šis slēdzis un gadījumu pārbaudes gadījumus bloķē citas RSAT instances, failu process gaidīs norādīto sekunžu skaitu un pēc tam izmēģinās vēl vienu reizi. Noklusējuma sekunžu \[vērtība\] ir 120 sekundes. Bez šī pārslēgšanas, nekavējoties tiks atcelts process, ja testa gadījumi ir bloķēti.
++ `/comments[="comment"]`: sniegt pielāgotu informācijas virkni, kas tiks ietverta laukā **Komentāri** kopsavilkuma un testa rezultātu lapās testa Azure DevOps gadījuma izpildes laikā.
 
 ##### <a name="playbackbyid-required-parameters"></a>playbackbyid: obligātie parametri
 
-+ `test_case_id1`: Esošā testa gadījuma ID.
-+ `test_case_id2`: Esošā testa gadījuma ID.
-+ `test_case_idN`: Esošā testa gadījuma ID.
++ `test_case_id1`: esoša testa gadījuma ID.
++ `test_case_id2`: esoša testa gadījuma ID.
++ `test_case_idN`: esoša testa gadījuma ID.
 
 ##### <a name="playbackbyid-examples"></a>playbackbyid: piemēri
 
@@ -387,75 +495,132 @@ Vienlaicīgi atskaņo vairākus pārbaudes gadījumus. Varat izmantot ``list`` k
 
 `playbackbyid 2345 667 135`
 
+`playbackbyid /comments="Payroll solution 10.0.0" 2345 667 135`
+
+`playbackbyid /retry /comments="Payroll solution 10.0.0" 2345 667 135`
+
 #### <a name="playbackmany"></a>playbackmany
 
-Vienlaicīgi atskaņo daudzus pārbaudes gadījumus, izmantojot Excel failus.
+Vienlaicīgi tiek atgūti daudzi testa gadījumi. Testa gadījumi tiek identificēti ar Excel parametru failiem. Šī komanda izmanto esošos lokālās automatizācijas failus un nelejupielādē failus Azure DevOps no.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackmany``**``[excel_file1] [excel_file2] ... [excel_fileN]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackmany``**``[/retry[=<seconds>]] [/comments[="comment"]] [excel_parameter_file1] [excel_parameter_file2] ... [excel_parameter_fileN]``
+
+##### <a name="playbackmany-optional-switches"></a>d. <a0/&; neobligātie pārslēdzēji
+
++ `/retry[=seconds]`: Ja ir norādīts šis slēdzis un gadījumu pārbaudes gadījumus bloķē citas RSAT instances, failu process gaidīs norādīto sekunžu skaitu un pēc tam izmēģinās vēl vienu reizi. Noklusējuma sekunžu \[vērtība\] ir 120 sekundes. Bez šī pārslēgšanas, nekavējoties tiks atcelts process, ja testa gadījumi ir bloķēti.
++ `/comments[="comment"]`: sniegt pielāgotu informācijas virkni, kas tiks ietverta laukā **Komentāri** kopsavilkuma un testa rezultātu lapās testa Azure DevOps gadījuma izpildes laikā.
 
 ##### <a name="playbackmany-required-parameters"></a>playbackbymany: obligātie parametri
 
-+ `excel_file1`: Pilns ceļš uz Excel failu. Failam ir jāpastāv.
-+ `excel_file2`: Pilns ceļš uz Excel failu. Failam ir jāpastāv.
-+ `excel_fileN`: Pilns ceļš uz Excel failu. Failam ir jāpastāv.
++ `excel_parameter_file1`: Excel parametru faila pilns ceļš. Failam ir jāpastāv.
++ `excel_parameter_file2`: Excel parametru faila pilns ceļš. Failam ir jāpastāv.
++ `excel_parameter_fileN`: Excel parametru faila pilns ceļš. Failam ir jāpastāv.
 
 ##### <a name="playbackmany-examples"></a>playbackmany: piemēri
 
-`playbackmany c:\RSAT\TestCaseParameters\param1.xlsx`
+`playbackmany c:\RSAT\2745\attachments\Create_Purchase_Order_2745_Base.xlsx`
 
-`playbackmany e:\temp\test.xlsx f:\rsat\sample1.xlsx c:\RSAT\sample2.xlsx`
+`playbackmany e:\temp\test.xlsx f:\RSAT\sample1.xlsx c:\RSAT\sample2.xlsx`
+
+`playbackmany /retry=180 /comments="Payroll solution 10.0.0" e:\temp\test.xlsx f:\rsat\sample1.xlsx c:\RSAT\sample2.xlsx`
 
 #### <a name="playbacksuite"></a>playbacksuite
 
-Atskaņo visus testa gadījumus no norādītā testu komplekta.
-Varat izmantot ``listtestsuitenames`` komandu, lai iegūtu visus pieejamos pārbaudes komplektus. Izmantojiet jebkuru vērtību no pirmās kolonnas kā **suite_name** parametru.
+Atbalsta visus testa gadījumus no vienas vai vairākām norādītām pārbaudes lietām. Ja ir norādīta lokālā pārslēgšanās, lokālie pielikumi tiks izmantoti iestatījumu saglabāšanai. Pretējā gadījumā pielikumi tiks lejupielādēti no Azure DevOps. Varat izmantot komandu ``listtestsuitenames``, lai iegūtu visu pieejamo testa darbību, un izmantot jebkuru vērtību no pirmās kolonnas kā **suite_name parametru**.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbacksuite``**``[suite_name]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbacksuite``**``[/updatedriver] [/local] [/retry[=<seconds>]] [/comments[="comment"]] ([test_suite_name1] .. [test_suite_nameN] | [/byid] [test_suite_id1] .. [test_suite_idN])``
+
+##### <a name="playbacksuite-optional-switches"></a>Paralē — neobligātie pārslēdzēji
+
++ `/updatedriver`: Ja ir norādīta šī pārslēgšanās, interneta pārlūkprogrammas webdrivers tiks atjaunināts pēc vajadzības pirms procesa sākšanas.
++ `/local`: šis pārslēgšanās norāda, ka tāpēc tāpēc, ka tā vietā, lai lejupielādētu failus no, ir jāizmanto lokālie pielikumi Azure DevOps.
++ `/retry[=seconds]`: Ja ir norādīts šis slēdzis un gadījumu pārbaudes gadījumus bloķē citas RSAT instances, failu process gaidīs norādīto sekunžu skaitu un pēc tam izmēģinās vēl vienu reizi. Noklusējuma sekunžu \[vērtība\] ir 120 sekundes. Bez šī pārslēgšanas, nekavējoties tiks atcelts process, ja testa gadījumi ir bloķēti.
++ `/comments[="comment"]`: sniegt pielāgotu informācijas virkni, kas tiks ietverta laukā **Komentāri** kopsavilkuma un testa rezultātu lapās testa Azure DevOps gadījuma izpildes laikā.
++ `/byid`: šis pārslēgšanās norāda, ka vēlamais testa komplekts ir identificēts pēc Azure DevOps tā ID, nevis testa komplekta nosaukuma.
 
 ##### <a name="playbacksuite-required-parameters"></a>playbacksuite: obligātie parametri
 
-+ `suite_name`: Nepieciešamā komplekta nosaukums.
++ `test_suite_name1`: Parāda testa komplekta nosaukumu. Šis parametrs ir nepieciešams, ja nav norādīts **/byid slēdzis**. Šis nosaukums ir testa Azure DevOps komplekta nosaukums.
++ `test_suite_nameN`: Parāda testa komplekta nosaukumu. Šis parametrs ir nepieciešams, ja nav norādīts **/byid slēdzis**. Šis nosaukums ir testa Azure DevOps komplekta nosaukums.
++ `test_suite_id1`: Parāda testa komplekta ID. Šis parametrs ir nepieciešams, ja ir norādīta /byid **pārslēgšanās**. Šis IR testa komplekta Azure DevOps ID.
++ `test_suite_idN`: Parāda testa komplekta ID. Šis parametrs ir nepieciešams, ja ir norādīta /byid **pārslēgšanās**. Šis IR testa komplekta Azure DevOps ID.
 
 ##### <a name="playbacksuite-examples"></a>playbacksuite: piemēri
 
 `playbacksuite suiteName`
 
-`playbacksuite sample_suite`
+`playbacksuite suiteName suiteNameToo`
+
+`playbacksuite /updatedriver /local /retry=180 /byid 151 156`
+
+`playbacksuite /updatedriver /local /comments="Payroll solution 10.0.0" /byid 150`
+
+#### <a name="playbacksuitebyid"></a>Administratora id
+
+Darbina visus testa gadījumus norādītajā testu Azure DevOps komplektā.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbacksuitebyid``**``[/updatedriver] [/local] [/retry[=<seconds>]] [/comments[="comment"]] [test_suite_id]``
+
+##### <a name="playbacksuitebyid-optional-switches"></a>Paralērs <a0/&a1>neobligātie pārslēgšanās<a
+
++ `/retry[=seconds]`: Ja ir norādīts šis slēdzis un gadījumu pārbaudes gadījumus bloķē citas RSAT instances, failu process gaidīs norādīto sekunžu skaitu un pēc tam izmēģinās vēl vienu reizi. Noklusējuma sekunžu \[vērtība\] ir 120 sekundes. Bez šī pārslēgšanas, nekavējoties tiks atcelts process, ja testa gadījumi ir bloķēti.
++ `/comments[="comment"]`: sniegt pielāgotu informācijas virkni, kas tiks ietverta laukā **Komentāri** kopsavilkuma un testa rezultātu lapās testa Azure DevOps gadījuma izpildes laikā.
++ `/byid`: šis pārslēgšanās norāda, ka vēlamais testa komplekts ir identificēts pēc Azure DevOps tā ID, nevis testa komplekta nosaukuma.
+
+##### <a name="playbacksuitebyid-required-parameters"></a>Parametrs <a0/&;
+
++ `test_suite_id`: attēlo testa komplekta ID, kurā tas pastāv Azure DevOps.
+
+##### <a name="playbacksuitebyid-examples"></a>Paralērs <a0/&t. t.i.
+
+`playbacksuitebyid 2900`
+
+`playbacksuitebyid /retry 2099`
+
+`playbacksuitebyid /retry=200 2099`
+
+`playbacksuitebyid /retry=200 /comments="some comment" 2099`
 
 #### <a name="quit"></a>iziet
 
-Aizver programmu.
+Aizver programmu. Šī komanda ir noderīga tikai tad, ja lietojumprogrammas darbojas interaktīvā režīmā.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``quit``**
 
+##### <a name="quit-examples"></a>nomeš.: piemēri
+
+`quit`
+
 #### <a name="upload"></a>augšupielādēt
 
-Augšupielādē visus failus, kas pieder norādītajam pārbaudes komplektam vai pārbaudes gadījumiem.
+Augšupielādē pielikuma failus (Ierakstīšana, Izpilde un Parametru faili), kas pieder norādītajam testa komplektam vai testa gadījumiem Azure DevOps.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``upload``**``[suite_name] [testcase_id]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``upload``**``([test_suite_name] | [test_case_id1] .. [test_case_idN])``
 
-#### <a name="upload-required-parameters"></a>augšupielāde: obligātie parametri
+##### <a name="upload-required-parameters"></a>augšupielāde: obligātie parametri
 
-+ `suite_name`: Augšupielādēs visus failus, kas pieder norādītajam pārbaudes komplektam.
-+ `testcase_id`: Augšupielādēs visus failus, kas pieder norādītajam pārbaudes gadījumam(-iem).
++ `test_suite_name`: tiks augšupielādēti visi faili, kas pieder norādītajam testa komplektam.
++ `test_case_id1`: rāda pirmā testa gadījuma ID, kas ir jāielādē. Izmantojiet šo parametru tikai tad, ja nav norādīts testa komplekta nosaukums.
++ `test_case_idN`: norāda pēdējā testa gadījuma ID, kas ir jāielādē. Izmantojiet šo parametru tikai tad, ja nav norādīts testa komplekta nosaukums.
 
 ##### <a name="upload-examples"></a>augšupielāde: piemēri
 
 `upload sample_suite`
 
-`upload 123`
+`upload 2900`
 
 `upload 123 456`
 
 #### <a name="uploadrecording"></a>uploadrecording
 
-Augšupielādē vienīgi to ieraksta failu, kas pieder norādītajiem pārbaudes gadījumiem.
+Augšupielādē tikai ieraksta failu, kas pieder vienam vai vairākiem noteiktais testa gadījumus Azure DevOps.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``uploadrecording``**``[testcase_id]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``uploadrecording``**``[test_case_id1] .. [test_case_idN]``
 
 ##### <a name="uploadrecording-required-parameters"></a>uploadrecording: obligātie parametri
 
-+ `testcase_id`: Augšupielādē ieraksta failu, kas pieder norādītajiem pārbaudes gadījumiem.
++ `test_case_id1`: parāda pirmā testa gadījuma ID ierakstam, kas ir jāielādē Azure DevOps.
++ `test_case_idN`: attēlo pēdējo testa gadījuma ID ierakstam, kas ir jāielādē Azure DevOps.
 
 ##### <a name="uploadrecording-examples"></a>uploadrecording: piemēri
 
@@ -465,9 +630,21 @@ Augšupielādē vienīgi to ieraksta failu, kas pieder norādītajiem pārbaudes
 
 #### <a name="usage"></a>lietojums
 
-Tiek rādīti divi veidi, kā izsaukt šo programmu: viens izmanto noklusējuma iestatījumu failu, otrs nodrošina iestatījumu failu.
+Parāda trīs šīs lietojumprogrammas lietošanas režīmus.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``usage``**
+
+Lietojumprogrammas interaktīvā darbība:
+
++ ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``
+
+Palaiž programmu, norādot komandu:
+
++ ``Microsoft.Dynamics.RegressionSuite.ConsoleApp ``**``[command]``**
+
+Tiek palaista programma, norādot iestatījumu failu:
+
++ ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``/settings [drive:\Path to\file.settings] [command]``**
 
 ### <a name="windows-powershell-examples"></a>Windows PowerShell piemēri
 

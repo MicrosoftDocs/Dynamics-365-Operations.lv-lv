@@ -2,25 +2,27 @@
 title: Finanšu pārskatu veidošanas apskats
 description: Šajā tēmā ir aprakstīts, kur var piekļūt finanšu pārskatiem programmā Microsoft Dynamics 365 Finance un kā lietot finanšu pārskatu izveides iespējas.
 author: aprilolson
-ms.date: 07/27/2021
+ms.date: 03/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: intro-internal
+ms.custom:
+- "10444"
+- intro-internal
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fbdab1f4f81bbdb8b0b5cb3e6a5237196d7dc76
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: e1db676024f5ec0f254500bd2ceee85ab2150502
+ms.sourcegitcommit: 777f9581dccc0f963c6a04c95b85e00e68573db5
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983981"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8527318"
 ---
 # <a name="get-started-with-financial-reporting"></a>Darba sākšana ar finanšu pārskatiem 
 
@@ -174,7 +176,7 @@ Pastāv dažas tipiskas problēmas, kas var radīt traucējumus, atverot pārska
 * Pārlūkprogrammā Internet Explorer atlasiet **Iestatījumi**, pēc tam atlasiet **Interneta opcijas**. Atlasiet cilni **Drošība**. Atlasiet Uzticamās vietnes un pēc tam atlasiet **Vietnes**. Sadaļā **Vietnes pievienošana zonai** ievadiet “\*\.dynamics.com” (bez pēdiņām) un pēc tam atlasiet **Pievienot**. 
 * Pārlūkprogrammā Internet Explorer atlasiet **Iestatījumi**, pēc tam atlasiet **Interneta opcijas**. Atlasiet cilni **Drošība**. Atlasiet Uzticamās vietnes. Apgabalā ar nosaukumu Šīs zonas drošības līmenis, mainiet opciju uz **Vidēji zems**.
 * Atspējojiet uznirstošo elementu bloķētāju savā pārlūkprogrammā.
-* Darbstacijām ir nepieciešams instalēt Microsoft .NET Framework 4.6.2 vai jaunāku versiju. Šo Microsoft .NET Framework versiju var lejupielādēt un instalēt no [Microsoft lejupielādes centra](https://www.microsoft.com/download/details.aspx?id=53345).
+* Darbstacijām ir nepieciešams instalēt Microsoft .NET Framework 4.7.2 vai jaunāku versiju. Šo Microsoft .NET Framework versiju var lejupielādēt un instalēt no [Microsoft lejupielādes centra](https://dotnet.microsoft.com/download/dotnet-framework/net472).
 * Lietojot pārlūkprogrammu Chrome, ir jāinstalē paplašinājums ClickOnce, lai varētu lejupielādēt Pārskatu noformētāja klientu. Ja lietojat Chrome inkognito režīmu, pārliecinieties, ka paplašinājums ClickOnce ir iespējots inkognito režīmā. Papildinformāciju par Chrome ClickOnce paplašinājumu skatiet šeit: [Sistēmas prasības mākoņa izvietojumiem](../../fin-ops-core/fin-ops/get-started/system-requirements.md).
 * Ja izmantojat pārlūkprogrammu Microsoft Edge ar pārlūku Chrome, jums nav jāinstalē Edge Chromium paplašinājums ClickOnce. Tomēr, lai lejupielādētu pārskatu veidotāja klientu, ir jāiespējo ClickOnce opcija. Ja lietojat inkognito režīmu, pārliecinieties, ka paplašinājums ClickOnce ir iespējots inkognito režīmam.
 

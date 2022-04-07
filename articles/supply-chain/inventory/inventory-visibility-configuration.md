@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8ba478fef424a6c4688191ed4e5375bbce52de0c
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.openlocfilehash: adab5ee3f626390355f4bab1227efd5fe58c2fcf
+ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061005"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8524526"
 ---
 # <a name="configure-inventory-visibility"></a>Krājumu redzamības konfigurēšana
 
@@ -39,29 +39,32 @@ Pirms sākat strādāt ar Krājumu redzamību, ir jāveic šāda konfigurācija,
 
 Pirms sākat darbu, uzinstalējiet un iestatiet Inventory Visibility pievienojumprogrammu, kā aprakstīts rakstā [Inventory Visibility instalēšana un iestatīšana](inventory-visibility-setup.md).
 
-## <a name="enable-inventory-visibility-features-in-power-apps-feature-management"></a><a name="feature-switch"></a>Iespējot Inventory Visibility līdzekļus Power Apps līdzekļu pārvaldībā
-
-Inventory Visibility pievienojumprogramma pievieno vairākus jaunus līdzekļus jūsu Power Apps instalēšanai. Pēc noklusējuma šie līdzekļi ir izslēgti. Lai tos izmantotu, pakalpojumā Power Apps atveriet lapu **Konfigurācijas** un cilnē **Līdzekļu pārvaldība** iespējojiet tālāk uzskaitītos līdzekļus.
-
-- *OnHandReservation*
-- *OnHandMostSpecificBackgroundService*
-
-## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Atrast pakalpojuma galapunktu
-
-Ja nezināt pareizo Krājumu redzamības pakalpojuma galapunktu, atveriet lapu **Konfigurācija** programmā Power Apps un pēc tam augšējā labajā stūrī atlasiet **Rādīt pakalpojuma galapunktu**. Lapa parādīs pareizo pakalpojuma galapunktu.
-
 ## <a name="the-configuration-page-of-the-inventory-visibility-app"></a><a name="configuration"></a>Inventory Visibility lietojumprogrammas Konfigurāciju lapa
 
 Pakalpojuma Power Apps lapa **Konfigurācijas** [Inventory Visibility programmā](inventory-visibility-power-platform.md) palīdz iestatīt rīcībā esošo konfigurāciju un vieglās rezervācijas konfigurāciju. Pēc pievienojumprogrammas instalēšanas noklusējuma konfigurācija ietver Microsoft Dynamics 365 Supply Chain Management (datu avotu `fno`) vērtību. Varat pārskatīt noklusējuma iestatījumus. Turklāt, pamatojoties uzņēmuma prasībās un ārējās sistēmas krājumu grāmatošanas prasībās, varat pārveidot konfigurāciju, lai standartizētu veidu, kādā var vairākās sistēmās grāmatot, organizēt un vaicātas krājumu izmaiņas. Pārējās šīs tēmas sadaļās paskaidrots, kā lietot katru lapas **Konfigurācijas** daļu.
 
 Pēc konfigurācijas pabeigšanas pārliecinieties, ka programmā atlasiet opciju **Atjaunināt konfigurāciju**.
 
+## <a name="enable-inventory-visibility-features-in-power-apps-feature-management"></a><a name="feature-switch"></a>Iespējot Inventory Visibility līdzekļus Power Apps līdzekļu pārvaldībā
+
+Inventory Visibility pievienojumprogramma pievieno vairākus jaunus līdzekļus jūsu Power Apps instalēšanai. Pēc noklusējuma šie līdzekļi ir izslēgti. Lai tos lietotu, atveriet **konfigurācijas** lapu **un pēc tam cilnē Līdzekļu** pārvaldība pēc lietotāja ieslēkojiet šādas funkcijas.
+
+| Līdzekļu pārvaldības nosaukums | Apraksts |
+|---|---|
+| OnHandReservation | Izmantojot krājumu redzamību, varat izveidot rezervācijas, patērētās rezervācijas un/vai atcelt norādītos krājumu daudzumus. Papildinformāciju skatiet [Krājumu uztveramības pievienojumprogrammas rezervācijas](inventory-visibility-reservations.md). |
+| OnHandMostSpecificBackgroundService | Šī funkcija sniedz krājumu kopsavilkumu precēm kopā ar visām dimensijām. Krājuma kopsavilkuma dati tiks periodiski sinhronizēti no Inventory Visibility. Papildinformāciju skatiet krājumu [kopsavilkumā](inventory-visibility-power-platform.md#inventory-summary). |
+| OnhandChangeSchedule | Šī funkcija iespējo rīcībā esošo izmaiņu grafiku un pieejamās solīšanai (ATP) funkcijas (neobligāti). Papildinformāciju skatiet krājumu redzamības [rīcībā esošo izmaiņu grafiki un apsolīšanai pieejamos](inventory-visibility-available-to-promise.md). |
+
+## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Atrast pakalpojuma galapunktu
+
+Ja nezināt pareizo Krājumu redzamības pakalpojuma galapunktu, atveriet lapu **Konfigurācija** programmā Power Apps un pēc tam augšējā labajā stūrī atlasiet **Rādīt pakalpojuma galapunktu**. Lapa parādīs pareizo pakalpojuma galapunktu.
+
 ## <a name="data-source-configuration"></a>Datu avota konfigurācija
 
-Katrs datu avots atspoguļo sistēmu, no kuras nāk dati. Datu avotu nosaukumu piemēri ietver`fno` (kas nozīmē "Dynamics 365 Finance un operāciju lietotnes") un`pos` (kas nozīmē "tirdzniecības vieta"). Pēc noklusējuma Krājumu redzamības programma Supply Chain Management ir iestatīta kā noklusējuma datu avots (`fno`).
+Katrs datu avots atspoguļo sistēmu, no kuras nāk dati. Piemēram, datu avotu nosaukumi `fno` ietver (kas nozīmē "Dynamics 365 Finance un operāciju programmas") un `pos` (kas nozīmē "pārdošanas punkts"). Pēc noklusējuma Krājumu redzamības programma Supply Chain Management ir iestatīta kā noklusējuma datu avots (`fno`).
 
 > [!NOTE]
-> The`fno` datu avots ir rezervēts piegādes ķēdes pārvaldībai. Ja jūsu krājumu redzamības pievienojumprogramma ir integrēta piegādes ķēdes pārvaldības vidē, mēs iesakām nedzēst konfigurācijas, kas ir saistītas ar`fno` datu avotā.
+> Datu `fno` avots ir rezervēts Piegādes ķēžu pārvaldībai. Ja krājumu redzamības pievienojumprogramma ir integrēta Piegādes ķēdes pārvaldības vidē, mēs iesakām nedzēšam konfigurācijas, kas saistītas `fno` ar datu avotu.
 
 Lai izveidotu datu avotu, veiciet tālāk aprakstītās darbības.
 
@@ -178,15 +181,21 @@ Lai iestatītu pielāgotos aprēķinātos mērījumus, izpildiet tālāk norād�
 
 1. Piesakieties savā Power Apps vidē un atveriet **Krājumu redzamību**.
 1. Atveriet lapu **Konfigurācija**.
-1. Cilnē **Aprēķinātais līdzeklis** atlasiet **Jaunu aprēķināto mērījumu**, lai pievienotu aprēķināto mērījumu. Pēc tam iestatiet laukus, kā aprakstīts nākamajā tabulā.
+1. Cilnē **Aprēķinātais līdzeklis** atlasiet **Jaunu aprēķināto mērījumu**, lai pievienotu aprēķināto mērījumu.
+1. Iestatiet šādus laukus jaunajam aprēķinātajam mēram:
 
-    | Lauks | Vērtība |
-    |---|---|
-    | Jauns aprēķinātā mēra nosaukums | Ievadiet aprēķinātā mēra nosaukumu. |
-    | Datu avots | Vaicāšanas sistēma ir datu avots. |
-    | Modifikatora datu avots | Skatiet vai ievadiet modifikatora avota tipu. |
-    | Modifikators | Ievadiet modifikatora vārdu. |
-    | Modifikatora veids | Atlasiet modifikatora tipu (*Saskaitīšana* vai *Atņemšana*). |
+    - **Jauns aprēķinātā mēra** nosaukums - ievadiet aprēķinātā mēra nosaukumu.
+    - **Datu avots** - izvēlieties datu avotu, kas ir saistīts ar jauno modifikatoru. Vaicāšanas sistēma ir datu avots.
+
+1. Atlasiet **Pievienot**, lai jaunam aprēķinātam mēram pievienotu modifikatoru.
+1. Iestatiet sekojošos laukus jaunajam modifikatoram:
+
+    - **Modifikators** — atlasiet modifikatora veidu (pievienošana *vai* *atņemšanas).*
+    - **Datu avots** – atlasiet datu avotu, kur atrast mēru, kas nodrošina modifikatora vērtību.
+    - **Mērvienība** – atlasiet mērvienības nosaukumu (no atlasītā datu avota), kas nodrošina modifikatora vērtību.
+
+1. Atkārtojiet 5. līdz 6. soli, līdz esat pievienojis visus nepieciešamos modifikatorus.
+1. Atlasiet **Saglabāt**.
 
 Piemēram, varētu iegūt šādu vaicājuma rezultātu.
 
@@ -273,17 +282,17 @@ Izmantojot šo aprēķināšanas formulu, jaunais vaicājuma rezultāts ietvers 
 
 ## <a name="partition-configuration"></a><a name="partition-configuration"></a>Nodalījuma konfigurācija
 
-Pašlaik nodalījuma konfigurācija sastāv no diviem bāzes izmēriem (`SiteId` un`LocationId`), kas norāda, kā dati tiek izplatīti. Darbības vienā nodalījumā var nodrošināt augstāku veiktspēju par zemākām izmaksām. Šajā tabulā ir parādīta noklusējuma nodalījuma konfigurācija, ko nodrošina krājumu redzamības pievienojumprogramma.
+Pašlaik nodalījuma konfigurācija sastāv no divām pamatdimensijām (`SiteId` un `LocationId`), kas norāda, kā dati tiek sadalīti. Operācijas vienā un tajā pašā nodalījumā var piegādāt lielāku veiktspēju par zemākām izmaksām. Šajā tabulā ir parādīta noklusējuma nodalījuma konfigurācija, kas paredzēta krājumu redzamības pievienojumprogrammai.
 
 | Pamata dimensija | Hierarhija |
 |---|---|
 | `SiteId` | 1 |
 | `LocationId` | 2 |
 
-Risinājums ietver šo nodalījuma konfigurāciju pēc noklusējuma. Tāpēc *jums tas nav jādefinē pašam*.
+Risinājums ietver šo nodalījuma konfigurāciju pēc noklusējuma. *Tādēļ jums tas nav jādefinē pats*.
 
 > [!IMPORTANT]
-> Nepielāgojiet noklusējuma nodalījuma konfigurāciju. Ja to izdzēsīsit vai mainīsit, visticamāk, radīsies neparedzēta kļūda.
+> Ne pielāgojiet noklusējuma nodalījuma konfigurāciju. Ja to dzēšat vai maināt, iespējams, radusies negaidīta kļūda.
 
 ## <a name="product-index-hierarchy-configuration"></a><a name="index-configuration"></a>Preču indeksa hierarhijas konfigurācija
 
@@ -465,6 +474,10 @@ Tālāk ir sniegts dimensiju hierarhijas piemērs.
 - `(SiteId, LocationId, ColorId, SizeId, StyleId)`
 
 Dimensiju secībai ir stingri jāievēro rezervāciju hierarhijas secība, dimensija pēc dimensijas. Piemēram, hierarhijas secība `(SiteId, LocationId, SizeId)` nav derīga, jo trūkst `ColorId`.
+
+## <a name="available-to-promise-configuration-optional"></a>Konfigurācija pieejama solīšanai (neobligāti)
+
+Var iestatīt krājumu redzamību, lai ļautu plānot rīcībā esošo krājumu turpmākās izmaiņas un aprēķināt rīcībā esošos (ATP) daudzumus. ATP ir pieejamais krājuma daudzums, un nākamajā periodā to var solīt debitoram. Šī aprēķina izmantošana var lielā palielinās pasūtījuma izpildes iespēju. Lai izmantotu šo funkciju, jums tā ir jāiespējo **cilnē** Līdzekļu pārvaldība un pēc tam tā jāiestata **cilnē ATP** iestatījumi. Papildinformāciju skatiet krājumu redzamības [rīcībā esošo izmaiņu grafiki un apsolīšanai pieejamos.](inventory-visibility-available-to-promise.md)
 
 ## <a name="complete-and-update-the-configuration"></a>Pabeidziet un atjauniniet konfigurāciju
 

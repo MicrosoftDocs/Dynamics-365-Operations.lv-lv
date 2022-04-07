@@ -1,7 +1,7 @@
 ---
 title: Atvaļinājuma pirkšanas un pārdošanas pieprasījuma darbplūsmas izveide
 description: Izveidojiet atvaļinājumu pirkšanas un pārdošanas pieprasījumu darbplūsmu, lai konsekventi pārvaldītu pirkšanas un pārdošanas atvaļinājumu pieprasījumus sistēmā Dynamics 365 Human Resources.
-author: andreabichsel
+author: twheeloc
 ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
@@ -12,20 +12,22 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-08-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b9e56c130cd831e6a1ad258c679562cb6de57d9b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3f200fec48dc6bff2702b962c47cbd6951c5921c
+ms.sourcegitcommit: 67c4ed957e43d4d60bb609d93921a0be9619e675
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070681"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8509421"
 ---
 # <a name="create-a-buy-and-sell-leave-request-workflow"></a>Atvaļinājuma pirkšanas un pārdošanas pieprasījuma darbplūsmas izveide
 
 
-[!INCLUDE [PEAP](../includes/peap-2.md)]
+>[!Important]
+>Šajā tēmā atzīmētā funkcionalitāte pašlaik ir pieejama klientiem savrupā programmā Dynamics 365 Human Resources. Daļa vai visa funkcionalitāte būs pieejama kā daļa no nākamā laidiena Finance infrastruktūrā pēc Finance laidiena 10.0.26.
+
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

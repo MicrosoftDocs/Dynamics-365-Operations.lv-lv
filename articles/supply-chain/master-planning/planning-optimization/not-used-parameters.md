@@ -1,22 +1,22 @@
 ---
 title: Plānošanas optimizācijas neizmantotie parametri
 description: Šajā tēmā ir uzskaitīti parametri, ko plānošanas optimizācija pašlaik neapsver tās darbības laikā.
-author: ChristianRytt
+author: t-benebo
 ms.date: 09/02/2021
 ms.topic: article
 ms.search.form: ReqParameters, ReqGroup, ReqItemTable, ReqPlanSched, EcoResProductDetailsExtended, InventItemOrderSetup, WorkCalendarTable, PdsDispositionMaster
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 32e5ceb607d2c4f3d9794421db5382441ac30467
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
-ms.translationtype: HT
+ms.openlocfilehash: 82bdd522b5b6ca1cf149f9fea508d8d6a96a1466
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8408234"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469119"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Plānošanas optimizācijas neizmantotie parametri
 
@@ -60,23 +60,11 @@ Plānošanas optimizācijā netiek lietoti parametri vai opcijas lapā **Vajadz�
 
 - Kopsavilkuma cilne **Vispārīgi**.
 
-  - **Pozitīvas** dienas *— pozitīvo dienu* vērtība netiek izmantota. Ar plānošanas optimizāciju pozitīvās dienas tiek uzskatītas par bezgalīgām.
+  - **Pozitīvās** dienas *— netiek* izmantota vērtība Pozitīvās dienas. Ar plānošanas optimizāciju pozitīvās dienas tiek uzskatītas par neierobežots.
   - **Patērēt rīcībā esošos krājumus** - gaida atbalstu *Rīcībā esošo krājumu patēriņš*.
   - **Izmantojiet norādīto MK vai formulas versiju** – gaida atbalstu *Formulas versijas ar līdzproduktu/blakusproduktu*.
   - **Izmantojiet norādīto maršruta versiju** – gaida atbalstu *Pieprasījums ar noteiktām MK vai maršruta prasībām*.
 
-- **Darbības** kopsavilkuma cilne:
-
-  - **Darbības ziņojums** – gaida atbalstu *Darbības*.
-  - **Darbības periods** – gaida atbalstu *Darbības*.
-  - **Atlikšanas rezerve** - gaida atbalstu *Darbības*.
-  - **Avansa rezerve** - gaida atbalstu *Darbības*.
-  - **Pamata datums** – gaida atbalstu *Darbības*.
-  - **Avanss** - gaida atbalstu *Darbības*.
-  - **Atlikšana** - gaida atbalstu *Darbības*.
-  - **Samazinājums** - gaida atbalstu *Darbības*.
-  - **Palielinājums** - gaida atbalstu *Darbības*.
-  - **Atvasinātas darbības** – gaida atbalstu *Darbības*.
 
 - **Cits** kopsavilkuma cilne:
 
@@ -149,7 +137,6 @@ Plānošanas optimizācijā netiek lietoti parametri vai opcijas lapā **Vispār
   - **Prognožu plāns** – gaida papildu atbalstu *Progoze*.
   - **Noslodze** – gaida atbalstu *Plānošana*.
   - **Nepārtrauktības plāns** — gaida atbalstu *Nepārtrauktā plānošana*.
-  - **Darbības ziņojums** – gaida atbalstu *Darbības*.
   - **Aprēķinātie kavējumi** – gaida papildu atbalstu *Aprēķinātie kavējumi*.
   - **Secība** - gaida atbalstu *Ražošana*.
 
@@ -161,9 +148,9 @@ Plānošanas optimizācijā netiek lietoti parametri vai opcijas lapā **Vispār
   - **Pievienot aprēķināto aizkavi pieprasījuma datumam** (sadaļā **Plānotā pārsūtīšana** ) – gaida atbalstu *Aprēķinātās aizkaves*.
   - **Pievienot aprēķināto aizkavi pieprasījuma datumam** (sadaļā **Plānotais Kanban** ) – gaida atbalstu *Aprēķinātās aizkaves*.
 
-- **Kopsavilkuma cilne Darbības ziņojums**:
+- **Darbību ziņojumu** kopsavilkuma cilne:
 
-  - **Atjaunināt atlikto datumu kā vajadzības datumu** — šis parametrs tiek pārtraukts ar plānošanas optimizāciju.
+  - **Atjaunināt atliktu datumu kā vajadzības datumu** — šis parametrs nav jāpārtrauc ar plānošanas optimizāciju.
 
 - **Secība** kopsavilkuma cilne:
 

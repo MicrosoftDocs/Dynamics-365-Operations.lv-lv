@@ -2,7 +2,7 @@
 title: Omni kanāla papildu automātiskās maksas
 description: Šajā tēmā ir aprakstītas iespējas pārvaldīt pasūtījuma citas maksas Commerce kanāla pasūtījumiem, izmantojot papildu automātisko maksu līdzekļus.
 author: hhaines
-ms.date: 03/30/2020
+ms.date: 03/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ef6396ec66a0f96ba97b176c46bf70d83a080883cf496312398f14dce3ad9758
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 69432e13424b08b75e8ce7c88eaf6be66db59e65
+ms.sourcegitcommit: 94ebdaae6dc996b205ac78ed546e38f91f4f46ed
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743435"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "8489622"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Multikanāla papildu automātiskās maksas
 
@@ -187,6 +187,9 @@ Ja tiek noteikti pārrakstītu maksu iemeslu kodi, tiek nodrošināts arī jauns
 ### <a name="refunding-charges-on-a-pos-return-transaction"></a>Maksu atmaksāšana POS atgriešanas darījuma ietvaros
 
 Ja ir iestatīta parametra **Izmantot papildu automātiskās maksas** vērtība **Jā**, vairs netiek lietota esošā Commerce parametra **Atmaksāt piegādes maksas** vērtība. Lai norādītu, kuras maksas ir sistemātiski jāatmaksā klientam, izmantojot papildu automātiskās maksas, pārliecinieties, vai saistītais maksu kods ir konfigurēts kā **Atmaksājams** iestatīšanas lapā **Maksu kods**. Pārliecinieties, vai iestatījumi ir sinhronizēti ar jūsu Commerce kanāla datu bāzēm, izmantojot sadales grafika apstrādi.
+
+> [!TIP]
+> Norādes, kas jums palīdzēs nodrošināt, ka rindas līmeņa atmaksas maksas tiek aprēķinātas, balstoties uz atgrieztā daudzuma, skatiet [Sadaļā "Atmaksas maksas" netiek aprēķinātas, pamatojoties uz atgriezto daudzumu](/troubleshoot/Refund-charges-miscalculated-for-partial-quantity-returned.md).
 
 ### <a name="refunding-charges-on-a-return-order-transaction"></a>Maksu atmaksāšana atgriešanas pasūtījuma darījuma ietvaros
 

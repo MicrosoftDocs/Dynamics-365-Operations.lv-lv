@@ -1,21 +1,21 @@
 ---
 title: Plānošanas optimizācijas izlaišanas process un izlaišanas vēsture
 description: Šajā tēmā ir sniegta informācija par izlaišanas procesu un izlaišanas vēsturi optimizācijas plānošanai.
-author: ChristianRytt
+author: t-benebo
 ms.date: 09/21/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: fd6ecb0b7bc1fcf85feab2588622a96cf43b6155
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
-ms.translationtype: HT
+ms.openlocfilehash: 673543ff2c9abefbca0529f35ce20bb26156acc4
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8407849"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469706"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Plānošanas optimizācijas izlaišanas process un izlaišanas vēsture
 
@@ -33,7 +33,7 @@ Tā kā paziņojumi netiek rādīti, kad jūsu vidē tiek atjaunināta plānoša
 
 | Izmaiņas | Līdzekļu pārvaldības informācija | Izlaišanas datumi |
 |---|---|---|
-| <p>Vispārējie veiktspējas, kvalitātes un stabilitātes uzlabojumi.<p>Plānošanas optimizācijas centralizēta kalendāra uzturēšana<p>Optimizācijas ieteikumu plānošana, lai optimizētu esošo piegādi | Līdzekļu pārvaldība nav nepieciešama. | 2022. gada 7.-11. marts |
+| <p>Vispārējie veiktspējas, kvalitātes un stabilitātes uzlabojumi.<p>[Plānošanas optimizācijas centralizēta kalendāra uzturēšana](../supply-chain-calendars-master-planning.md)<p>[Optimizācijas ieteikumu plānošana, lai optimizētu esošo piegādi](../action-messages.md)<p>[Plānošanas optimizācijas atbalsts apakšlīgumu slēgšanai](../../production-control/manage-subcontract-work-production.md) | Līdzekļu pārvaldība nav nepieciešama. | 2022. gada 7.-11. marts |
 | <p>Pievienotais plānošanas prioritātes atbalsts ražošanas pasūtījumiem. | Pieejama versijā 10.0.25 kā daļa no funkcijas ar nosaukumu Prioritātes *vadīts MRP atbalsts optimizācijas plānošanai*. | 2021. gada 12. novembris |
 | <p>Vispārējie veiktspējas, kvalitātes un stabilitātes uzlabojumi. | Līdzekļu pārvaldība nav nepieciešama. | 2021. gada 12. novembris |
 | <p>Pievienots atbalsts procesa laika aprēķina formulām, ražošanas maršrutam ar pārklāšanos un ražošanas operāciju numuram prasību darbībām.</p><p>Uzlaboti kļūdu ziņojumi ražošanas plānošanai, kas saistīti ar taimautu, noslodzi, noslodzi, un ciklisko maršrutu.</p><p>Uzlabota konsekvence, aprēķinot saņemšanas datumus un izdošanas datumus gan plānotajiem, gan apstiprinātajiem pasūtījumiem.</p><p>Vispārējie veiktspējas, kvalitātes un stabilitātes uzlabojumi. | Līdzekļa nosaukums: *Bezgalīga noslodzes plānošana plānošanas optimizācijai* | 2021. gada 22. oktobris |

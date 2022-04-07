@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f74bb4bd4ed66520c04261bd9f82faad7775817e
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: cbd33b16a4b21e8e1931bc61cb55e376e7d73179
+ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062115"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8524470"
 ---
 # <a name="inventory-visibility-public-apis"></a>Krājumu uztveramības pievienojumprogrammas publiskais API
 
@@ -41,15 +41,17 @@ Tālāk esošajā tabulā ir norādītas pieejamās API:
 | /api/vide/{environmentId}/rīcībā esošs/{inventorySystem}/lielapjoma | Amats | [Iestatīt/ignorēt rīcībā esošos daudzumus](#set-onhand-quantities) |
 | /api/vide/{environmentId}/rīcībā esošs/rezervēt | Amats | [Izveidot vienu rezervācijas notikumu](#create-one-reservation-event) |
 | /api/vide/{environmentId}/rīcībā esošs/rezervēt/lielapjoma | Amats | [Izveidot vairākus rezervēšanas notikumus](#create-multiple-reservation-events) |
-| /api/vide/{environmentId}/rīcībā esošs/indeksa vaicājums | Amats | [Vaicājums, izmantojot grāmatošanas metodi](#query-with-post-method) |
+| /api/environment/{environmentId} on-hand/changeschedule | Grāmatot | [Izveidot vienu plānoto rīcībā esošo izmaiņu](inventory-visibility-available-to-promise.md) |
+| /api/environment/{environmentId} on-hand/changeschedule/bulk | Grāmatot | [Izveidot vairākas plānotas rīcībā esošo krājumu izmaiņas](inventory-visibility-available-to-promise.md) |
+| /api/vide/{environmentId}/rīcībā esošs/indeksa vaicājums | Grāmatot | [Vaicājums, izmantojot grāmatošanas metodi](#query-with-post-method) |
 | /api/vide/{environmentId}/rīcībā esošs | Iegūt | [Vaicājums, izmantojot iegūšanas metodi](#query-with-get-method) |
-
-Microsoft ir nodrošinājusi standarta *Pastnieka* pieprasījuma kolekciju. Jūs variet importēt šo kolekciju savā *Pastnieka* programmatūrā, izmantojot šādu koplietojamu saiti: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
 
 > [!NOTE]
 > Ceļa {environmentId} daļa ir vides ID Microsoft Dynamics pakalpojumā Lifecycle Services (LCS).
 > 
-> Lielapjoma API katram pieprasījumam var atgriezt ne vairāk kā 512 ierakstus.
+> Lielapjoma API var atgriezt maksimāli 512 ierakstus katram pieprasījumam.
+
+Microsoft ir nodrošinājusi standarta *Pastnieka* pieprasījuma kolekciju. Jūs variet importēt šo kolekciju savā *Pastnieka* programmatūrā, izmantojot šādu koplietojamu saiti: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Atrast galapunktu atbilstoši Lifecycle Services videi
 
@@ -251,7 +253,7 @@ Body:
 
 ### <a name="create-multiple-change-events"></a><a name="create-multiple-onhand-change-events"></a>Izveidot vairākus izmaiņu notikumus
 
-Šis API var izveidot vairākus ierakstus vienlaicīgi. Vienīgās atšķirības starp šo API un [viena notikuma API](#create-one-onhand-change-event) ir `Path` un `Body` vērtības. Šim API `Body` sniedz ierakstu masīvu. Maksimālais ierakstu skaits ir 512, kas nozīmē, ka esošais lielapjoma izmaiņu API vienlaikus var atbalstīt līdz 512 izmaiņu notikumiem.
+Šis API var izveidot vairākus ierakstus vienlaicīgi. Vienīgās atšķirības starp šo API un [viena notikuma API](#create-one-onhand-change-event) ir `Path` un `Body` vērtības. Šim API `Body` sniedz ierakstu masīvu. Maksimālais ierakstu skaits ir 512, kas nozīmē, ka rīcībā esošo krājumu izmaiņas API vienlaikus var atbalstīt līdz 512 izmaiņu notikumiem.
 
 ```txt
 Path:
@@ -478,7 +480,7 @@ Body:
 
 ## <a name="query-on-hand"></a>Rīcībā esošie vaicājumi
 
-Izmantojiet _Vaicājums uz rokas_ API, lai iegūtu pašreizējos krājumu datus par jūsu produktiem. API pašlaik atbalsta vaicājumu līdz 100 atsevišķiem vienumiem, izmantojot`ProductID` vērtību. Vairāki`SiteID` un`LocationID` vērtības var norādīt arī katrā vaicājumā. Maksimālais ierobežojums ir definēts kā `NumOf(SiteID) * NumOf(LocationID) <= 100`.
+Izmantojiet rīcībā _esošo vaicājumu_ API, lai ienestu pašreizējos rīcībā esošos krājumu datus saviem produktiem. API pašlaik atbalsta vaicājumu līdz 100 atsevišķiem krājumiem pēc `ProductID` vērtības. Katrs `SiteID` vaicājumā `LocationID` var norādīt vairākas vērtības. Maksimālais ierobežojums ir definēts kā `NumOf(SiteID) * NumOf(LocationID) <= 100`.
 
 ### <a name="query-by-using-the-post-method"></a><a name="query-with-post-method"></a>Vaicājums, izmantojot grāmatošanas metodi
 
@@ -516,6 +518,9 @@ Body:
 `groupByValues` parametram vajadzētu sekot jūsu indeksēšanas konfigurācijai. Papildinformāciju skatiet [Preču indeksa hierarhijas konfigurēšana](./inventory-visibility-configuration.md#index-configuration).
 
 `returnNegative` nosaka, vai rezultāti satur negatīvus ierakstus.
+
+> [!NOTE]
+> Ja esat aktivizējuši rīcībā esošo izmaiņu grafiku un pieejamās uz solīšanai (ATP) funkcijas, `QueryATP` vaicājumā var būt iekļauts arī Būla parametrs, kas kontrolē, vai vaicājuma rezultāti ietver ATP informāciju. Papildinformāciju un piemērus skatiet [sadaļā "Rīcībā esošo krājumu redzamības maiņu grafiki" un "pieejams solīšanai"](inventory-visibility-available-to-promise.md).
 
 Šajā piemērā parādīts parauga pamatteksta saturs.
 
@@ -572,5 +577,9 @@ Query(Url Parameters):
 ```txt
 /api/environment/{environmentId}/onhand?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
 ```
+
+## <a name="available-to-promise"></a>Pieejams solīšanai
+
+Var iestatīt krājumu redzamību, lai ļautu plānot turpmākās rīcībā esošo izmaiņu veikšanu un aprēķināt ATP daudzumus. ATP ir pieejamais krājuma daudzums, un nākamajā periodā to var solīt debitoram. ATP aprēķina izmantošana var ievērojami palielināt pasūtījuma izpildes spēju. Papildinformāciju par to, kā iespējot šo funkciju un kā mijiedarboties ar krājumu redzamību, izmantojot tā API pēc funkcijas iespējošanas, [skatiet krājumu redzamības rīcībā esošo izmaiņu grafikus un pieejamos solīšanai](inventory-visibility-available-to-promise.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

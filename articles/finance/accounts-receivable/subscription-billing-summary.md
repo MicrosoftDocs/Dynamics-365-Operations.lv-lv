@@ -1,5 +1,5 @@
 ---
-title: Abonementa rēķinu apskats
+title: Abonementa norēķinu pārskats
 description: Šajā tēmā aprakstīti Abonementa norēķini ar Microsoft Dynamics 365 Finance.
 author: JodiChristiansen
 ms.date: 02/09/2022
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2022-02-09
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: b94ac36e49d55ad42909877d77903cd40cb22cbe
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
-ms.translationtype: HT
+ms.openlocfilehash: 2796e25ec783941de381fb5ae96145eeba870bde
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182713"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462474"
 ---
-# <a name="subscription-billing-overview"></a>Abonementa rēķinu apskats
+# <a name="subscription-billing-overview"></a>Abonementa norēķinu pārskats
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Abonementa norēķini ļauj organizācijām pārvaldīt abonementa ieņēmumu iespējas un periodiskus norēķinus, izmantojot rēķinu grafikus. Kompleksas cenu noteikšanas un norēķinu modeļi un ieņēmumu sadalījums ir viegli pārvaldāms un tiek izrakstīts rēķins un atpazīts rindu līmenī. Vairāku elementu ieņēmumu sadalījums ļauj ieņēmumu sadali veikt saskaņā ar starptautiskajiem grāmatvedības standartiem (Starptautiskais finanšu pārskatu standarts 15 \[IFRS 15\]) un vispārpieņemtiem grāmatvedības principiem (US GAAP) standartiem (Grāmatvedības standartu 606 \[. tēma ASC 606\]).
 

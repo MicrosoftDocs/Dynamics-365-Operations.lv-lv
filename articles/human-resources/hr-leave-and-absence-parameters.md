@@ -1,6 +1,6 @@
 ---
-title: Atvaļinājumu un prombūtnes parametru konfigurēšana
-description: Šajā tēmā ir aprakstīts, kā definēt cilvēkresursu parametrus atvaļinājumam un prombūtnei Dynamics 365 Human Resources.
+title: Atvaļinājumu un kavējumu parametru konfigurēšana
+description: Šajā tēmā aprakstīts, kā definēt personāla vadības parametrus atvaļinājumam un kavējumiem Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -15,21 +15,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7bd1aebd633af0530c550f8ec7510a0c09985ca1
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e2bc672fd352fea088db356a6fc2b8eedebe5920
+ms.sourcegitcommit: 67c4ed957e43d4d60bb609d93921a0be9619e675
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067356"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8509197"
 ---
-# <a name="configure-leave-and-absence-parameters"></a>Atvaļinājumu un prombūtnes parametru konfigurēšana
+# <a name="configure-leave-and-absence-parameters"></a>Atvaļinājumu un kavējumu parametru konfigurēšana
 
+>[!Important]
+>Šajā tēmā atzīmētā funkcionalitāte pašlaik ir pieejama klientiem savrupā programmā Dynamics 365 Human Resources. Daļa vai visa funkcionalitāte būs pieejama kā daļa no nākamā laidiena Finance infrastruktūrā pēc Finance laidiena 10.0.26.
 
-[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Pirms iestatāt atvaļinājuma un prombūtnes plānus Dynamics 365 Human Resources, ieteicams pārbaudīt visu saistīto iestatījumu iestatījumus **Cilvēkresursu parametri**, tostarp:
+Pirms atvaļinājumu un kavējumu plānu iestatīšanas Dynamics 365 Human Resources ieteicams pārbaudīt iestatījumus visiem saistītajiem personāla **vadības parametriem**, tai skaitā:
 
 - Atvaļinājumu pieprasījumu numuru sēriju
 - Likuma par ģimenes un medicīniskajiem atvaļinājumiem (FMLA) iestatījumus
@@ -77,7 +78,7 @@ Pirms iestatāt atvaļinājuma un prombūtnes plānus Dynamics 365 Human Resourc
 
     - Atlasiet **Bilances aprēķinu**, lai parādītu bilances, kas tiek rādītas no šodienas vai no uzkrāšanas perioda. Ja atlasāt **Bilanci no šodienas**, bilance parāda visu uzkrājumu, korekciju un pieprasījumu kopsummu no šodienas. Ja atlasāt **Bilance no uzkrāšanas perioda**, bilance rāda visu uzkrājumu, korekciju un pieprasījumu kopsummu no uzkrājumu perioda, kas definēts, izmantojot atvaļinājumu plāna biežumu. 
 
-    - Iestatiet **Sākuma laiks** priekš **Pārnest derīguma termiņu** pakešu darbs.  
+    - Iestatiet sākuma **laiku pakešuzdevumam** Pārnest **beigu** datumu.  
     
     - Atlasiet **Jā** opcijām **Atļaut darbiniekiem pirkt atvaļinājumu** un **Atļaut darbiniekiem pārdot atvaļinājumu**. Ja šīm opcijām atlasāt **Jā**, varat izveidot pirkšanas un pārdošanas atvaļinājuma politikas un dot iespēju darbiniekiem iesniegt pirkšanas un pārdošanas atvaļinājumu pieprasījumus.
 

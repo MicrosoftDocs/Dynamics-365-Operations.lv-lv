@@ -10,18 +10,27 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c4731c5f0b0a1553deb53753d82d29a34e5525df
-ms.sourcegitcommit: 399d0d3f8e2ebb81b6b9d640365ebe182690bab2
+ms.openlocfilehash: 2544c30afe18f290b681efed1705f7cef0cb7620
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "8418644"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487841"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Kas jauns vai mainīts mobilajā programmā Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir uzskaitīti jaunie līdzekļi, labojumi, uzlabojumi un zināmas problēmas katrai Microsoft Dynamics 365 Supply Chain Management Warehouse Management mobilās programmas izlaistajai versijai.
+
+## <a name="version-20200"></a>Versija 2.0.20.0
+
+Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
+
+- Fiksētās avārijas problēmas.
+- Fiksētā problēma, kad nepareizas vērtības tiktu parādītas kartēs **darbu saraksta** lapā.
+- Uzlabota ritināšana un likvidēta ritināšana darbu **sarakstā un** **krājumu pieprasījumu lapās** Android.
+- Pierakstīšanās lapai ir pievienota aizvēršanas poga, kas aizver programmu.
 
 ## <a name="version-20190"></a>Versija 2.0.19.0
 

@@ -1,7 +1,7 @@
 ---
 title: Plānošanas optimizācijas saderības analīze
 description: Šajā tēmā skaidrots, kā verificēt jūsu pašreizējos iestatījumus un datus, salīdzinot ar Plānošanas optimizācijas funkcionalitātes iespējām.
-author: ChristianRytt
+author: t-benebo
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 440cddca11df8d705757c6f6adf01e08626c5158
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
-ms.translationtype: HT
+ms.openlocfilehash: dccc955492d33e9e0156f2a5feb6b33387d80af3
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8408019"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487647"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Plānošanas optimizācijas atbilstības analīze
 
@@ -84,7 +84,7 @@ Tabulā ir redzami dažādi rezultāti, kas var tikt parādīti pēc saderības 
 | Ražošana | MK/formulas rindas ar resursu patēriņu: _\#_ | Šī funkcija ir gaidīšanas režīmā. Pašlaik MK un formulas rindas ar resursu patēriņu tiek ignorētas, ja ir iespējota plānošanas optimizācija. Kad šī funkcija ir atbalstīta, materiālu vajadzības tiks iestatītas uz ražošanas sākuma datumu. Kamēr šis līdzeklis netiek atbalstīts, prasības netiks ģenerētas materiāliem, kas tiek atzīmēti ar resursu patēriņa karodziņu. | 2022. oktobris |
 | Ražošana | MK/formulas rindas ar darbību patēriņu: _\#_ | Šī funkcija ir gaidīšanas režīmā. Pašlaik darbību patēriņš MK un formulas rindās tiek ignorēts, ja ir iespējota plānošanas optimizācija. | 2022. oktobris |
 | Ražošana | MK ar definētu nemainīgu brāķa apjomu vai mainīgu brāķa apjomu: _\#_ | Šī funkcija ir gaidīšanas režīmā. Pašlaik definēta brāķa un mainīga brāķa apjoms kas definēti MK, tiek ignorēti, kad ir iespējota plānošanas optimizācija. | 2022. oktobris |
-| Ražošana | MK ar apakšlīgumu slēgšanu: _\#_ | Šī funkcija ir gaidīšanas režīmā. Pašlaik apakšlīguma slēgšanas iestatījums MK tiek ignorēts, ja ir iespējota plānošanas optimizācija, neņemot vērā šo iestatījumu. | 2022. aprīlis |
+| Ražošana | MK ar apakšlīgumu slēgšanu: _\#_ | Šis līdzeklis tagad tiek atbalstīts. | Tiek atbalstīts |
 | Ražošana | MK bez vietas: _\#_ | Šis līdzeklis tagad tiek atbalstīts. Papildinformāciju skatiet sadaļā [Ražošanas plānošana](production-planning.md) | Tiek atbalstīts |
 | Ražošana | Pieprasījums, kurā definētas noteiktas MK vai maršruta prasības: _\#_ | Šī funkcija ir gaidīšanas režīmā. Pašlaik noteiktās MK vai maršruta prasības, kas ir definētas pēc pieprasījuma (piemēram, pakārtots MK vai pakārtots maršruts pārdošanas pasūtījumā) tiek ignorētas, kad ir iespējota plānošanas optimizācija. Tiek izmantots standarta MK vai maršruts neatkarīgi no šī iestatījuma. | 2022. oktobris |
 | Ražošana | Formulu versijas ar blakusproduktiem/līdzproduktiem: _\#_ | Šī funkcija ir gaidīšanas režīmā. Pašlaik līdzprodukti un blakusprodukti, kas ir saistīti ar formulas versiju, tiek ignorēti, ja ir iespējota plānošanas optimizācija. | 2022. oktobris |

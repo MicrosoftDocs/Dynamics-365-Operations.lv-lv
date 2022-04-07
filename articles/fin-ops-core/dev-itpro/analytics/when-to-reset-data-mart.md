@@ -2,7 +2,7 @@
 title: Data mart atiestatīšanas BUJ
 description: Šī tēma sniedz atbildes uz dažiem bieži uzdotiem jautājumiem par data mart atiestatīšanu.
 author: jinniew
-ms.date: 02/14/2022
+ms.date: 03/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 53f45f469c39f9e389763aa0daed658e5a62d377
-ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
-ms.translationtype: HT
+ms.openlocfilehash: ab6417a739e9a7b67b9e67d93f3bef654e55e5e4
+ms.sourcegitcommit: 2c2ef3e312e7221006a9e230c9378bb4c1b4cd33
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119516"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8466416"
 ---
 # <a name="data-mart-resets-faq"></a>Data mart atiestatīšanas BUJ
 
@@ -47,10 +47,14 @@ Ja uz jūsu situāciju attiecas viens vai vairāki no šiem priekšrakstiem, jū
 Tālāk ir norādīti daži apstākļi, kad nav ieteicams atiestatīt data mart:
 
 - Jūs pašlaik saskaraties ar datu integrācijas veiktspējas jautājumiem.
+- Jūsu finanšu pārskataētāja integrācija nav iespējota. 
+
+    - Tas nozīmē, ka Virsgrāmatas dati vairs netiek sinhronizēti ar finanšu pārskata datummāru. Iespējams, jūsu finanšu pārskata uzstādītājs nesaņem datuma numurus jūsu finanšu pārskatos. Tas parasti notiek, ja finanšu pārskatu izveidotājs netiek lietots ilgstoši.
+    - Jums tiks piedāvāts iespējot integrāciju, no jauna atiestatot datu martu. Varat turpināt, atlasot **Jā**. Varat arī izvēlēties vēlāk atiestatīt datu martu. Pēc integrācijas iespējošanas virsgrāmatas dati tiek sinhronizēti finanšu pārskatuētājā vēlreiz. 
 - Jums ir periodiska atiestatīšanas shēma šādu iemeslu dēļ:
 
     - **Pārskatā trūkst datu vai tas ir** negaidīts – ja ievērojat, ka trūkst datu, atveriet atbalsta biļeti ar Microsoft, lai pārskatītu jūsu pārskata formātu un iespējamās datu sinhronizācijas problēmas.
-    - **Iesprūdis integrācijas stāvoklis**
+    - **Pielīmēšanas** integrācijas stāvoklis - Ja ievērojat, ka integrācijas statuss darbībā tiek pielīmēts, tas var būt tādēļ, ka sistēmā ir liels darbību apjoms. Šis stāvoklis tiks atrisināts pats. Tomēr, ja vairāk nekā četras stundas ievērojat ierašanās statusu, atveriet atbalsta biļeti sistēmai Microsoft. 
    
 ## <a name="if-i-reset-the-data-mart-will-i-lose-reports-that-ive-already-designed"></a>Ja atiestatīšu datu mart, vai zaudēšu pārskatus, ko es jau esmu izveidojis?
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1593206e8e22aed518ebca9bee0772c6620bec9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3b97c585009b50c6623036d10f54e78a65a89cea
+ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068796"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8464942"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Skatīt un atjaunināt entītijas datus programmā Excel 
 
@@ -31,7 +31,7 @@ ms.locfileid: "8068796"
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 
-Šajā tēmā ir paskaidrots, kā atvērt entītijas datus programmā Microsoft Excel un pēc tam skatīt, atjaunināt un rediģēt tos, izmantojot Microsoft Dynamics Office pievienojumprogrammu programmai Excel. Lai atvērtu entītijas datus, varat sākt no programmas Excel vai Finance and Operations.
+Šajā tēmā ir paskaidrots, kā atvērt entītijas datus programmā Microsoft Excel un pēc tam skatīt, atjaunināt un rediģēt tos, izmantojot Microsoft Dynamics Office pievienojumprogrammu programmai Excel. Lai atvērtu elementa datus, varat sākties no Excel vai Finanšu un operāciju programmām.
 
 Atverot elementa datus programmā Excel, varat ātri un vienkārši apskatīt un rediģēt šos datus, izmantojot Excel pievienojumprogrammu. Šai pievienojumprogrammai ir nepieciešama programma Microsoft Excel 2016.
 
@@ -40,15 +40,15 @@ Atverot elementa datus programmā Excel, varat ātri un vienkārši apskatīt un
 
 Lai iegūtu plašāku informāciju par Excel pievienojumprogrammas lietošanu, noskatieties īso video [Excel veidnes izveidošana galveņu un rindu modeļiem](https://youtu.be/RTicLb-6dbI).
 
-## <a name="open-entity-data-in-excel-when-you-start-from-a-finance-and-operations-app"></a>Atveriet entītijas datus programmā Excel, kad sākat lietotni Finance and Operations
-1. Programmas Finance and Operations lapā atlasiet **Atvērt Microsoft Office**.
+## <a name="open-entity-data-in-excel-when-you-start-from-a-finance-and-operations-app"></a>Atveriet elementa datus programmā Excel, kad sākat no programmas Finanses un operācijas
+1. Finanšu un operāciju programmas lapā atlasiet Atvērt **Microsoft Office**.
 
     Ja saknes datu avots (tabula) šai lapai ir tāda pati kā saknes datu avots jebkuriem elementiem, šai lapai tiek ģenerētas noklusējuma opcijas **Atvērt programmā Excel**. Opcijas **Atvērt programmā Excel** ir atrodamas bieži izmantotajās lapās, piemēram, **Visi kreditori** un **Visi debitori**.
  
 2. Atlasiet opciju **Atvērt programmā Excel** un atveriet ģenerēto darbgrāmatu. Šajā darbgrāmatā ir saistību informācija par attiecīgo elementu, rādītājs uz jūsu vidi un rādītājs uz Excel pievienojumprogrammu.
 3. Programmā Excel atlasiet **Iespējot rediģēšanu**, lai iespējotu Excel pievienojumprogrammas palaišanu. Excel pievienojumprogramma darbojas rūtī, kas atrodas Excel loga labajā pusē.
 4. Ja pirmo reizi palaižat Excel pievienojumprogrammu, atlasiet **Uzticēties šai pievienojumprogrammai**.
-5. Ja tiek prasīts pieteikties, atlasiet **Pieslēgties** un pēc tam piesakieties, izmantojot tos pašus akreditācijas datus, ko izmantojāt, lai pieteiktos programmā Finance and Operations. Excel pievienojumprogramma lieto iepriekšējās pierakstīšanās kontekstu no un jūs pieraksta automātiski, ja iespējams. (Informāciju par pārlūkprogrammu, kas tiek izmantota balstoties uz operētājsistēmas, skatiet [Pārlūkprogrammas, ko izmanto Office pievienojumprogrammas](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.) Lai pārliecinātos, ka pierakstīšanās ir veiksmīga, pārbaudiet lietotāja vārdu Excel pievienojumprogrammas augšējā labajā stūrī. 
+5. Ja tiek piedāvāts pieteikties, atlasiet pieteikos un pēc tam piesakieties, **izmantojot** tos pašus akreditācijas datus, kurus izmantojat, lai pieteiktos programmā Finanses un operācijas. Excel pievienojumprogramma lieto iepriekšējās pierakstīšanās kontekstu no un jūs pieraksta automātiski, ja iespējams. (Informāciju par pārlūkprogrammu, kas tiek izmantota balstoties uz operētājsistēmas, skatiet [Office pievienojumprogrammu lietotās pārlūkprogrammas](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins). Lai nodrošinātu, ka pierakstīšanās bija veiksmīga, pārbaudiet lietotājvārdu Excel pievienojumprogrammas augšējā labajā stūrī. 
 
 Excel pievienojumprogramma automātiski nolasa datus par jūsu atlasīto elementu. Ņemiet vērā, ka darbgrāmatā nav nekādu datu, līdz Excel pievienojums tos ielasa.
 
@@ -57,7 +57,7 @@ Excel pievienojumprogramma automātiski nolasa datus par jūsu atlasīto element
 2. Pakalpojumā Office veikals meklējiet pēc atslēgvārda **Dynamics** un pēc tam atlasiet vienumu **Pievienot**, kas atrodas blakus vienumam **Microsoft Dynamics Office pievienojumprogramma** (Excel pievienojumprogramma).
 3. Ja pirmo reizi palaižat Excel pievienojumprogrammu, atlasiet **Uzticēties šai pievienojumprogrammai**, lai iespējotu Excel pievienojumprogrammas palaišanu. Excel pievienojumprogramma darbojas rūtī, kas atrodas Excel loga labajā pusē.
 4. Atlasiet **Pievienot servera informāciju**, lai atvērtu rūti **Opcijas**.
-5. Pārlūkprogrammā kopējiet savas mērķa programmas Finance and Operations instances URL un ielīmējiet to **Servera URL** laukā un pēc tam izdzēsiet visu pēc resursdatora nosaukuma. Iegūtajam URL ir jāsatur tikai resursdatora nosaukums.
+5. Pārlūkā nokopējiet mērķa finanšu un operāciju programmas instances URL, **ielīmējiet to laukā Servera URL** un pēc tam dzēsiet visu pēc hostdatora nosaukuma. Iegūtajam URL ir jāsatur tikai resursdatora nosaukums.
 
     Piemēram, ja URL ir `https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage`, dzēsiet visu, izņemot `https://xxx.dynamics.com`.
 
@@ -76,7 +76,7 @@ Excel pievienojumprogramma automātiski nolasa datus par jūsu atlasīto element
 Kad Excel pievienojumprogramma ir ielasījusi elementa datus darbgrāmatā, varat jebkurā brīdī atjaunināt šos datus, Excel pievienojumprogrammā atlasot **Atsvaidzināt**.
 
 ## <a name="edit-entity-data-in-excel"></a>Rediģēt elementa datus programmā Excel
-Varat mainīt entītijas datus pēc vajadzības un pēc tam publicēt tos atpakaļ programmā Finance and Operations, atlasot **Publicēt** Excel pievienojumprogrammā. Lai rediģētu kādu ierakstu, darblapā atlasiet kādu šūnu un pēc tam mainiet šīs šūnas vērtību. Lai pievienotu jaunu ierakstu, izpildiet tālāk aprakstītās darbības.
+Elementa datus varat mainīt pēc savas izvēles un pēc tam publicēt atpakaļ finanšu un operāciju lietojumprogrammās, **atlasot** Publicēt Excel pievienojumprogrammai. Lai rediģētu kādu ierakstu, darblapā atlasiet kādu šūnu un pēc tam mainiet šīs šūnas vērtību. Lai pievienotu jaunu ierakstu, izpildiet tālāk aprakstītās darbības.
 
 - Noklikšķiniet jebkurā datu avotu tabulas vietā un pēc tam Excel pievienojumprogrammā atlasiet **Jauns**.
 - Noklikšķiniet jebkurā vietā pēdējā datu avotu tabulas rindā un pēc tam nospiediet tabulēšanas taustiņu, līdz kursors tiek pārvietots ārā no pēdējās kolonnas šajā rindā un tiek izveidota jauna rinda.

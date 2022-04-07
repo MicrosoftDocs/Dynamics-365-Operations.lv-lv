@@ -2,52 +2,74 @@
 title: Krājumu redzamības pievienojumprogrammas pārskats
 description: Šajā tēmā skaidrots, kas ir Krājumu redzamība un apraksta tās funkcijas.
 author: yufeihuang
-ms.date: 10/26/2020
+ms.date: 03/18/2022
 ms.topic: overview
-ms.prod: ''
-ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 8871d10dac9103f17780989bc547b6c20ba79b76
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 9ee6229937ea27adf231dcd1c9921878e53bd981
+ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985550"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8524498"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>Krājumu redzamības pievienojumprogrammas pārskats
 
 [!include [banner](../includes/banner.md)]
 
-Krājumu uztveramības pievienojumprogramma (vēl dēvēta par *Krājumu redzamību*) ir neatkarīgs un ļoti mērogojams pakalpojums, kas nodrošina reāllaika rīcībā esošo krājumu izsekošanu, tādējādi sniedzot globālu skatījumu uz krājumu uztveramību. Tāpēc tā nodrošina globālu krājumu skatījumu.
+Krājumu redzamības pievienojumprogramma (*tiek* saukta arī par krājumu redzamības pakalpojumu) nodrošina neatkarīgu un ļoti mērogojamu mikropakošanu, kas iespējo rīcībā esošo krājumu izmaiņu reāllaika grāmatojumus un redzamības izsekošanu visos datu avotos un kanālos. Tā nodrošina platformu, kas ļauj pārvaldīt globālos krājumus, izmantojot funkcionalitāti, kas ietver (bet nav ierobežota) šādu sarakstu:
 
-Ārējās sistēmas piekļūst pakalpojumam ar RESTful API. Tādā veidā tie var vai nu vaicāt rīcībā esošo informāciju par dotajām dimensiju kopām, vai veikt izmaiņas krājumos dažādos pielāgotos datu avotos.
+- Centrāāli izsekojiet pēdējo krājumu statusu (piemēram, rīcībā esošo, pasūtīto, iepirkto, nopirkto, atgriezto un karantīnu) visos datu avotos, noliktavās un atrašanās vietās, savienojot piegādes ķēdes pārvaldību vai trešās puses loģistikas datu avotus (piemēram, pasūtījumu pārvaldības sistēmas, \[trešās puses uzņēmuma resursu plānošanas ERP\] sistēmas, pārdošanas \[POS\] sistēmu un noliktavas pārvaldības sistēmas) ar Krājumu redzamības pakalpojumu.
+- Vaicāt rīcībā esošo krājumu pieejamību un iztrūkumus un iegūt tūlītēju atbildi, izsaucot krājumu redzamības pakalpojumu tieši.
+- Izvairītos no cenas, it īpaši, ja jūsu pieprasījums ir no dažādiem kanāliem, veicot reāllaika vieglās rezervācijas krājumu redzamības pakalpojumā.
+- Labāk pārvaldiet solītos pasūtījumus un debitoru cerības, nodrošinot precīzus pašreizējos vai nākamos pieejamos datumus, tā, lai solīšanai pieejamais rēķins (ATP) varētu aprēķināt prognozētos pasūtījuma izpildes datumus.
 
-Kā mikropakarakstu, kas ir izveidots Microsoft Dataverse, Krājumu redzamība nodrošina paplašināmību. Jūs varat izmantot Power Apps, lai izveidotu programmas. Varat lietot arī Power BI, lai nodrošinātu pielāgotu funkcionalitāti, kas atbilst jūsu biznesa prasībām.
+## <a name="extensibility"></a>Paplašināmība
 
-Krājumu redzamību var integrēt ar vairākām trešās personas sistēmām, iestatot konfigurācijas opcijas standartizētām krājumu dimensijām un iestatot darbību tipus. Krājumu redzamība atbalsta arī pielāgotu paplašināmību, izmantojot konfigurējamus aprēķinātos daudzumus.
+Krājumu redzamības pakalpojums ir ļoti paplašināms, jo datu ievade un izvade nav ierobežota ar Microsoft programmām. Ārējās sistēmas var piekļūt pakalpojumam ar RESTful application programming interfaces (API). Papildus piegādes ķēdes pārvaldības datu avotam un dimensijām nodrošināto izvēles kartējumu izmantošanai varat integrēt Krājumu redzamību vairākās trešās personas sistēmās, iestatot papildu datu avotus, krājumu statusus (*tos* sauc par fiziskajiem līdzekļiem krājumu redzamības pakalpojumā) un krājumu dimensijas, izmantojot konfigurācijas programmu. Šādā veidā var elastīgi veikt vaicājumu un mainīt vairākus datu avotus un iepriekš definētas krājumu dimensijas.
 
-## <a name="inventory-visibility-integration-with-dynamics-365-supply-chain-management"></a>Pievienojumprogrammas Krājumu redzamība integrācija ar Dynamics 365 Supply Chain Management
+Turklāt, tā kā ir veidota krājumu redzamība Microsoft Dataverse, tās datus var izmantot, lai veidotu un integrētu ar Power Apps. Var izmantot arī, lai Power BI izveidotu pielāgotus informācijas paneļus, kas atbilst uzņēmuma prasībām.
 
-Integrētais risinājums izvelk krājumu datus no Dynamics 365 Supply Chain Management un nepārtraukti izseko krājumu izmaiņas. Papildinformāciju skatiet sadaļā [Instalēt un iestatīt krājuma redzamību](inventory-visibility-setup.md) un [Krājuma redzamības konfigurēšana](inventory-visibility-configuration.md).
+## <a name="scalability"></a>Mērogojamību
 
-## <a name="get-a-global-view-of-inventory"></a>Iegūt krājumu globālo skatu
+Atkarībā no datu apjoma krājumu redzamības pakalpojumu var samazināt vai samazināt. Mērogojamības pieredze ir lielākā daļa viengabalu, un to veic Microsoft platformu grupa, pamatojoties uz automātisku darbību datu apjoma noteikšanu un vērtēšanu.
 
-Integrētais risinājums ļauj definēt savus datu avotus un centralizēt krājumu datus. Papildinformāciju skatiet sadaļā [Krājuma redzamības konfigurēšana](inventory-visibility-configuration.md).
+## <a name="feature-highlights"></a>Līdzekļu iezīmēšana
 
-Ir divas pieejas jūsu krājumu skatīšanai:
+### <a name="get-a-global-view-of-real-time-inventory"></a>Iegūt reāllaika krājumu globālo skatu
 
-- Iesniedziet vaicājumu, izmantojot augstas veiktspējas API. Šis API var atgriezt tuvu reāllaika krājumu datus tieši no kešatmiņas instances. Līgumus un paraugus var atrast [Krājumu redzamības publiskā API](inventory-visibility-api.md).
-- Skatīt skatīt rīcībā esošo krājumu sarakstu. Šis saraksts periodiski tiek sinhronizēts no kešatmiņas instances un ir redzams Dataverse. Papildinformāciju skatiet [Krājumu uztveramības programma](inventory-visibility-power-platform.md).
+Krājumu redzamība nodrošina, ka visos kanālos, vietās un noliktavās jums visu laiku ir piekļuve vislietākais krājumu daudzumam. Jūs no tā gūsiet lielāko labumu, lai atbalstītu ikdienas darbību biznesu ikreiz, kad jāiegūst krājumu ieraksti. Fiziskie rīcībā esošie krājumi, pārdotie daudzumi un iepirktie daudzumi visi ir pieejami no kastes. Jūs variet arī konfigurēt citus fiziskus krājumu pasākumus (piemēram, atgrieztus, karantīnu un iegrāmatotus datus) pēc savas atrašanās vietas, lai iegūtu šo informāciju reāllaikā. Krājumu redzamība var efektīvi apstrādāt miljonu krājumu izmaiņu grāmatošanas. Šos datus var apkopot un atspoguļot jaunākajos krājumu daudzumos pakalpojumā nekavējoties, sekundē vai minūtē atkarībā no datu grāmatošanas intervāla. Plašāku informāciju skatiet krājumu redzamības [publiskajiem API](inventory-visibility-api.md).
 
-## <a name="soft-reservations"></a>Vieglās rezervācijas
+### <a name="soft-reservation-to-avoid-overselling-across-all-order-channels"></a>Vieglā rezervācija, lai izvairītos no cenu pārklāšanās visos pasūtījuma kanālos
 
-Vieglā rezervācija tiek piemērota, kad uzņēmumam jārezervē noteikts preču daudzums, lai atbalstītu, piemēram, pārdošanas pasūtījuma izpildi, kas novērš pārdošanu pārāk daudz. Kad pārdošanas pasūtījums ir izveidots un apstiprināts Supply Chain Management vai citās pasūtījumu pārvaldības sistēmās, pieprasījums rezervēt daudzumu tiek nosūtīts uz Krājumu redzamību. Krājumu redzamība ļauj rezervēt preces, kurām ir dimensijas detaļas un specifiski krājumu darbību tipi. (Papildinformāciju skatiet [Krājumu redzamības programma](inventory-visibility-power-platform.md).) Kad daudzums ir veiksmīgi rezervēts, rezervācijas ID tiek atgriezts. Šo rezervācijas ID varat izmantot, lai saistītu atpakaļ ar oriģinālo pasūtījumu Supply Chain Management vai citās pasūtījumu pārvaldības sistēmās.
+Vieglā *rezervācija ļauj* piešķirt vai atzīmēt noteiktus daudzumus, lai izpildītu pasūtījumu vai pieprasījumu. Vieglā rezervācija neietekmē fiziskos krājumus, *bet* tā atskaitās no rezervēšanas krājumu daudzuma pieejamā daudzuma un nodrošina atjauninātu daudzumu turpmāko pasūtījuma nosacījumu izpildei. Šī funkcija būs noderīga, ja pārdošanas pieprasījumi vai pasūtījumi jūsu uzņēmumā ienāk no viena vai vairākiem kanāliem vai datu avotiem, kas ir ārpus jūsu uzņēmuma resursu plānošanas (ERP) sistēmas.
 
-Šī funkcionalitāte ir izveidota, lai rezervācija Krājumu redzamībā nemainīs kopējo daudzumu. Tā vietā tas tikai atzīmē rezervēto daudzumu. (Šī iemesla dēļ to sauc par *vieglo rezervāciju*.) Viegli rezervēto daudzumu var kompensēt, kad preces tiek patērētas Supply Chain Management vai trešās puses sistēmā, vēlreiz izsaucot API, lai veiktu daudzuma ieturējumu un atjauninātu kopējo daudzumu Krājumu redzamībai. Papildinformāciju skatiet [Krājumu uztveramības pievienojumprogrammas rezervācijas](inventory-visibility-reservations.md).
+Ja krājumu redzamības pakalpojumā netiek lietotas vieglās rezervācijas, jums ir jāuzgaida, līdz pasūtījums tiek sinhronizēts un apstrādāts, izmantojot ERP sistēmu, lai atjauninātu fizisko krājumu daudzumu. Parasti šim procesam ir ļoti liels latentums. Tomēr vieglās rezervācijas stājas spēkā nekavējoties katru reizi, kad pārdošanas kanālos tiek ģenerēts pārdošanas pieprasījums vai pasūtījums. Tāpēc tie palīdz novērst pārsaukt situācijas, nodrošinot, ka jūsu pārdošanas kanālu pasūtījumi netiks atbalstīti viens ar otru, kad tie visbeidzot sasniedz ERP sistēmu. Vieglās rezervācijas nodrošina arī to, ka varat izpildīt visus pasūtījumus, ko esat solīti. Tāpēc tie palīdz jums apmierināt debitora cerības un uzturēt debitoru lojalitāti. Papildinformāciju skatiet [Krājumu uztveramības pievienojumprogrammas rezervācijas](inventory-visibility-reservations.md).
+
+### <a name="immediate-response-of-atp-dates-confirmation"></a>ATP datumu tūlītējā atbilde
+
+Ir svarīga jūsu tuvāko turpmāko prognozēto krājumu redzamība (ieskaitot piegādi, pieprasījumu un detalizētu informāciju par rīcībā ajiem krājumiem), jo tas palīdz uzņēmumam sasniegt šādus mērķus:
+
+- Minimizēt krājumu līmeņus, lai samazinātu krājumu pārvaldības izmaksas.
+- Atvieglot iekšējā pasūtījuma apstrādi, lai pārdevēji varētu aprēķināt nosūtīšanas un piegādes datumus, balstoties uz pasūtīto preču pieejamību.
+- Nodrošināt caurspīdīgumu par to, kad debitori var gaidīt, ka noliktavā pieejams krājums kļūs pieejams, norādot nākamo pieejamo datumu.
+
+ATP funkcija ir viegli pieņemt savā ikdienas pasūtījumu izpildes procesā. Līdzīgi, kā tas ir ar citiem krājumu redzamības piedāvājumiem, ATP funkcija ir *globāla un reāllaika*. Tāpēc jūs variet iestatīt vairākas ATP aprēķina formulas, lai būtu pilnīgas krājumu pieejamības vaicājumi, kas aptver visus jūsu biznesa kanālus un datu avotus. Papildinformāciju skatiet krājumu redzamības [rīcībā esošo izmaiņu grafiki un apsolīšanai pieejamos](inventory-visibility-available-to-promise.md).
+
+### <a name="compatibility-with-advanced-warehouse-management-items"></a>Saderība ar papildu noliktavas pārvaldības krājumiem
+
+Microsoft krājums, kas nodrošina ārpus kastes integrāciju ar papildu noliktavas pārvaldību (WHS), lai WHS debitori varētu gūt labumu no krājumu redzamības pakalpojuma. Katrā 2022. gada 1. laidiena laidienā (publiskais priekšskatījums martā), krājumu pakalpojums atbalsta WHS krājumu rīcībā esošos vaicājumus un ATP. Nākamajā laišanā WHS debitoriem tiks atbalstīts vieglās rezervēšanas un piešķiršanas līdzeklis. <!-- KFM: Add this link when target is published: For more information, see [Inventory Visibility support for WHS items](inventory-visibility-whs-support.md). -->
+
+## <a name="licensing"></a>Licencēšana
+
+Krājumu redzamības pakalpojums ir pieejams šādās versijās:
+
+- **Krājumu redzamības pievienojumprogramma korporācijai Microsoft Dynamics 365 Supply Chain Management** — uzņēmumiem, kuriem ir derīga piegādes ķēdes pārvaldības licence; krājumu redzamība ir pieejama bez papildu licences izmaksām. Varat sākt to izmēģini šodien. Detalizētu informāciju par instalāciju skatiet sadaļā [Krājumu redzamības instalēšana un iestatīšana](inventory-visibility-setup.md).
+- **Krājumu redzamības pakalpojums kā IOM** komponents — šī versija ir klientiem Intelligent Order Management (IOM), vai uzņēmumiem, kas kā ERP sistēmu nelieto piegādes ķēžu pārvaldību. Šī licence ir iekļauta IOM komplektā. Papildinformāciju skatiet sadaļā Intelligent [Order Management pārskats](/dynamics365/intelligent-order-management/overview).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

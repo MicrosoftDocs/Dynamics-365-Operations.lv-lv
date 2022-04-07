@@ -1,8 +1,8 @@
 ---
-title: Paplašinātās pieteikšanās funkcionalitātes iestatīšana pārdošanas punktiem MPOS un Cloud POS
-description: Šajā tēmā ir aprakstītas Cloud POS un Retail Modern POS (MPOS) paplašinātās pieteikšanās iestatīšanas iespējas.
-author: boycezhu
-ms.date: 09/07/2021
+title: Iestatīt un izmantot paplašinātās pieteikšanās iespēju
+description: Šajā tēmā ir aprakstīts, kā iestatīt un izmantot pārdošanas punkta Microsoft Dynamics 365 Commerce (POS) programmas paplašinātās pieteikšanās iespējas.
+author: boycez
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,56 +16,52 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0cc3d3a3cadbc614e82b8cc7ae0b78406247cece
-ms.sourcegitcommit: efcb853a68a77037cca23582d9f6f96ea573727a
+ms.openlocfilehash: d211ecfe1550f6093e1d35e7c2b37c036b50dd4a
+ms.sourcegitcommit: 5aebb181004eb63210503fb566dcda5c55032bee
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7478675"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "8491443"
 ---
-# <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>Paplašinātās pieteikšanās funkcionalitātes iestatīšana MPOS un Cloud POS
+# <a name="set-up-and-use-the-extended-logon-capability"></a>Iestatīt un izmantot paplašinātās pieteikšanās iespēju
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstītas Cloud POS un Retail Modern POS (MPOS) paplašinātās pieteikšanās iestatīšanas iespējas.
+Šajā tēmā ir aprakstīts, kā iestatīt un izmantot pārdošanas punkta Microsoft Dynamics 365 Commerce (POS) programmas paplašinātās pieteikšanās iespējas.
 
-## <a name="setting-up-extended-logon"></a>Paplašinātās pieteikšanās iestatīšana
+Cloud POS (CPOS) un Modern POS (MPOS) nodrošina paplašinātas pieteikšanās iespējas, kas ļauj mazumtirdzniecības veikala darbiniekiem pieteikties POS programmā, skenējot svītrkodu vai nokopējot karti, izmantojot magnētiskās joslas lasītāju (MSR).
 
-Svītrkoda masku iestatījumi ir pieejami, izmantojot šādu ceļu: **Mazumtirdzniecība un komercija** &gt; **Kanāla iestatījumi** &gt; **POS iestatījumi** &gt; **POS profili** &gt; **Funkcionalitātes profili**. Kopsavilkuma cilnē **Funkcijas** ir iekļautas tālāk norādītās opcijas, kas ir saistītas ar paplašināto pieteikšanos.
+## <a name="set-up-extended-logon"></a>Iestatiet paplašināto pieteikšanos
 
-### <a name="staff-bar-code-logon"></a>Personāla pieteikšanās ar svītrkodu
+Lai iestatītu POS kases sistēmas paplašināto pieteikšanos mazumtirdzniecības veikalā, veiciet šīs darbības.
 
-Ja ir iespējota opcija **Personāla pieteikšanās ar svītrkodu**, darbinieki, kuru pārdošanas punkta (POS) akreditācijas datiem ir piešķirtas paplašinātās pieteikšanās tiesības, var pieteikties, izmantojot svītrkodu.
+1. Programmā Commerce Headquarters iet uz **Retail un Commerce Channel \> Setup POS iestatīšanas \>\> POS profilu funkcionalitātes \> profiliem**. 
+2. Kreisajā navigācijas rūtī atlasiet ar mazumtirdzniecības veikalu saistīto funkcionalitātes profilu.
+3. Kopsavilkuma cilnē **Funkcijas** zem Papildu pieteikšanās autentifikācijas **opcijas** iestatiet šādas opcijas kā Jā **vai** **Nē**, ja nepieciešams:
 
-### <a name="staff-bar-code-logon-requires-password"></a>Darbinieku pieteikumam ar svītrkodu nepieciešama parole
+    - **Personāla pieteikšanās ar svītrkodu** — iestatiet šo opciju kā **Jā**, ja vēlaties, lai darbinieki pieteiktos sistēmā POS, skenējot svītrkodu. 
+    - **Darbinieku pieteikumam ar svītrkodu** nepieciešama parole — **iestatiet** šo opciju kā Jā, lai, piesakoties POS, darbinieki ievadītu paroli, skenējot svītrkodu.
+    - **Personāla pieteikšanās ar** karti — iestatiet šo opciju kā **Jā**, ja vēlaties, lai darbinieki varētu pieteikties SISTĒMĀ POS, nokopot karti.
+    - **Darbinieku pieteikumam ar karti** nepieciešama parole — **iestatiet** šo opciju kā Jā, ja vēlaties, lai jūsu darbinieki, piesakoties sistēmā POS, ievadītu paroli, no ievadot karti.
 
-Ja ir iespējota opcija **Personāla pieteikšanās ar svītrkodu jāpapildina ar paroli**, personāla pieteikšanās ar svītrkodu laikā tiek atlasīts tikai tas darbinieks, kam ir piešķirtas paplašinātās pieteikšanās tiesības, kas tiek apliecinātas. Ja šī opcija ir iespējota, darbiniekiem tomēr jāievada parole.
+Svītrkods vai karte ir saistīta ar akreditācijas datiem, ko var piešķirt darbiniekam. Akreditācijas datiem jābūt vismaz sešām rakstzīmēm. Virknei, kas satur pirmās piecas rakstzīmes *, jābūt unikālai un tiek uzskatīta par akreditācijas datu ID*, ko izmanto, lai meklē darbinieku. Atlikušās rakstzīmes tiek lietotas drošības pārbaudei. Piemēram, jums ir divas kartes, vienai no tām ir akreditācijas dati 12345DABADEYTDW, un vienai no tām ir akreditācijas dati 12345RIFUTDAJH. Šo divu karšu akreditācijas datu ID ir 12345, tāpēc tās abas nevar tikt veiksmīgi piešķirtas darbiniekiem.
 
-### <a name="staff-card-logon"></a>Personāla pieteikšanās ar karti
-
-Ja ir iespējota opcija **Personāla pieteikšanās ar karti**, darbinieki, kuru POS akreditācijas datos ir piešķirtas paplašinātās pieteikšanās tiesības, var pieteikties, izmantojot magnētisko karti.
-
-### <a name="staff-card-logon-requires-password"></a>Darbinieku pieteikumam ar karti nepieciešama parole
-
-Ja ir iespējota opcija **Personāla pieteikšanās ar karti jāpapildina ar paroli**, kad personāls piesakās, izmantojot karti, tiek atlasīts tikai tas darbinieks, kam ir piešķirtas paplašinātās pieteikšanās tiesības, kas tiek apliecinātas. Ja šī opcija ir iespējota, darbiniekiem tomēr jāievada parole.
-
-## <a name="assigning-an-extended-logon"></a>Paplašinātās pieteikšanās tiesību piešķiršana
+## <a name="assign-extended-logon"></a>Piešķirt paplašināto pieteikšanos
 
 Pēc noklusējuma paplašinātās pieteikšanās tiesības strādniekiem var piešķirt tikai vadītāji. Lai piešķirtu paplašināto pieteikšanos, pārdošanas punktā (POS) dodieties uz **Paplašinātā pieteikšanās**. Pēc tam meklējiet nodarbināto, meklēšanas laukā ievadot nodarbinātā operatora ID. Atlasiet strādnieka vārdu un pēc tam noklikšķiniet uz **Piešķirt**. Nākamajā lapā nolasiet vai skenējiet paplašinātās pieteikšanās karti, lai piešķirtu to strādniekam. Ja kartes nolasīšana vai skenēšana ir sekmīga, aktivizēta tiek poga **Labi**. Noklikšķiniet uz **Labi**, lai saglabātu darbinieka paplašinātās pieteikšanās tiesības.
 
-## <a name="deleting-an-extended-logon"></a>Paplašinātās pieteikšanās tiesību dzēšana
+## <a name="delete-extended-logon"></a>Dzēst paplašināto pieteikšanos
 
 Lai dzēstu darbiniekam piešķirtās paplašinātās pieteikšanās tiesības, izmantojiet darbību **Paplašinātā pieteikšanās** un meklējiet darbinieku. Atlasiet darbinieka vārdu un pēc tam noklikšķiniet uz **Noņemt piešķirtās tiesības**. Visi ar šo lietotāju saistītie paplašinātās pieteikšanās akreditācijas dati tiek noņemti.
 
-## <a name="extending-extended-logon"></a>Paplašinātās pieteikšanās tiesību paplašināšana
+## <a name="use-extended-logon"></a>Lietot paplašināto pieteikšanos
 
-Paplašinātā pieterikšanās ļauj tikai piecām būtiskajām rakstzīmēm būt parasto datu unikālajam identifikatoram. Piemēram, ja konfigurējat divas kartītes ar ID numuriem “1234567” un “1234578”, tie abi tiks uzskatīti par "12345". Jūs varētu izveidot paplašinājumu, kas atbalstītu vairāk rakstzīmes. Papildu norādījumus skatiet rakstā [Paplašinātās pieteikšanās funkcijas paplašināšana MPOS un mākoņa POS](https://cloudblogs.microsoft.com/dynamics365/no-audience/2018/12/14/extending-the-extended-logon-functionality-for-mpos-and-cloud-pos/).
+Kad ir konfigurēta paplašinātā pieteikšanās un darbiniekam ir piešķirts svītrkods vai magnētiskā josla, darbiniekam ir tikai jāseko kartei un jāskenē sava karte, kamēr tiek parādīta POS pieteikšanās lapa. Ja pirms pieteikšanās ir nepieciešama arī parole, darbiniekam tiek parādīta uzvedne par paroles ievadi.
 
-Pieteikšanās pakalpojumu var paplašināt, lai atbalstītu papildu paplašinātās pieteikšanās ierīces, piemēra, plaukstas skenerus. Lai iegūtu papildinformāciju, skatiet POS dokumentāciju par paplašināšanas iespējām.
+## <a name="extend-extended-logon"></a>Paplašinātā pieteikšanās
 
-## <a name="using-extended-logon"></a>Paplašinātās pieteikšanās tiesību izmantošana
+Lai ieviestu paplašinātās pieteikšanās iespēju, nepieciešams, lai akreditācijas datiem minimālais garums būtu sešas rakstzīmes un ka pirmās piecas rakstzīmes (akreditācijas datu ID) ir unikālas. Sākotnēji tas bija paredzēts kā paraugs, kuru izstrādātāji var pielāgot, lai atbilstu specifiskas ieviešanas prasībām. (Piemēram, tas var tikt pielāgots, lai atbalstītu vairāk rakstzīmju vai izmantotu dažādus drošības pārbaudes noteikumus.) Plašāku informāciju par to, kā veidot paplašinājumus paplašinātai pieteikšanās pieteikšanās, [skatiet Paplašinātās pieteikšanās funkcionalitātes paplašināšana MPOS un Cloud POS](https://cloudblogs.microsoft.com/dynamics365/no-audience/2018/12/14/extending-the-extended-logon-functionality-for-mpos-and-cloud-pos/).
 
-Ja paplašinātā pieteikšanās opcija ir konfigurēta un darbiniekam ir piešķirts svītrkods un magnētiskā karte, darbiniekam ir tikai jānolasa vai jānoskenē karte, kamēr ir atvērta POS pieteikšanās lapa. Ja pirms pieteikšanās turpināšanas ir jāievada arī parole, darbiniekam tiek parādīta uzvedne ievadīt savu parole.
-
+Pieteikšanās pakalpojumu var paplašināt arī, lai atbalstītu papildu paplašinātās pieteikšanās ierīces, piemēram, palmu skenerus. Papildinformāciju skatiet [POS paplašināmības dokumentācijā](dev-itpro/pos-extension/pos-extension-overview.md).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

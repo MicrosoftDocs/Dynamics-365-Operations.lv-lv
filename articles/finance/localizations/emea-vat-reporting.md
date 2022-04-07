@@ -2,7 +2,7 @@
 title: PVN pārskati Eiropai
 description: Šajā tēmā ir sniegta vispārīga informācija par pievienotās vērtības nodokļa (PVN) pārskatu iestatīšanu un ģenerēšanu noteiktām Eiropas valstīm.
 author: ShylaThompson
-ms.date: 06/20/2017
+ms.date: 03/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, L
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b028c5a185b4e7626dd9258630cc469c4439fc37d1c9d1cd7d42007b0ec85736
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a1f7611dcf713e80f637a4b3f5542763050ac4a6
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741489"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487753"
 ---
 # <a name="vat-reporting-for-europe"></a>PVN pārskati Eiropai
 
@@ -39,6 +39,25 @@ ms.locfileid: "6741489"
 -   Lietuva
 -   Nīderlande
 -   Zviedrija
+
+> [!IMPORTANT]
+> Šajā tēmā aprakstītie līdzekļi Austrijai, Čehijai, Vācijai, Nīderlandei un Zviedrijai ir novecojuši. Papildinformāciju skatiet sadaļā Noņemtie [un novecojušie līdzekļi](../get-started/removed-deprecated-features-finance.md).
+> Izmantojiet šajā tabulā norādītās saites, lai uzzinātu vairāk par jauno PVN deklarāciju dizainu attiecīgajās valstīs.
+> 
+>
+> | Valsts/reģions        | Papildinformācija                                                          |
+> |----------------|---------------------------------------------------------------------------------|
+> | Austrija        | [PVN deklarācija (Austrija)](emea-aut-vat-declaration-austria.md)       |                                                                           
+> | Čehijas Republika | [PVN deklarācija (Čehijas Republika)](emea-cze-vat-declaration-tax-declaration-model.md) |
+> | Dānija        | [PVN deklarācija (Dānija)](emea-dnk-vat-declaration-denmark.md)         |
+> | Francija         | [PVN deklarācija (Francija)](emea-fra-vat-declaration-preview-france.md)       |
+> | Vācija        | [PVN deklarācija (Vācija)](emea-deu-vat-declaration-germany.md)           |
+> | Nīderlande    | [PVN deklarācija (Nīderlande)](emea-nl-vat-declaration-netherlands.md)    |
+> | Norvēģija         | [PVN atgriešana ar tiešo iesniegšanu Altinn](emea-nor-vat-return.md) |
+> | Spānija          | [PVN deklarācija (Spānija)](emea-esp-vat-declaration-spain.md)              |
+> | Zviedrija         | [PVN deklarācija (Zviedrija)](emea-swe-vat-declaration-sweden.md)          |
+> | Šveice    | [PVN deklarācija (Šveice)](emea-che-vat-declaration-switzerland.md) |
+> | UK             | [Sagatavošanās integrēšanai MRD iekļaušanai PVN](emea-gbr-mtd-vat-integration.md) |
 
 ## <a name="vat-statement-overview"></a>PVN deklarācijas apskats
 PVN deklarācija ir balstīta uz nodokļu transakciju summām. PVN deklarācijas ģenerēšanas process ietilpst PVN maksājuma procesā, kurš ir ieviests ar funkciju Nosegt un grāmatot PVN. Šī funkcija aprēķina PVN, kurš ir jāmaksā par attiecīgo periodu. Nosegšanas aprēķinā ir iekļauts atlasītajam nosegšanas periodam nodokļu transakcijām grāmatotais PVN. Process PVN deklarācijas datu aprēķināšanai ir balstīts uz attiecībām starp PVN kodiem un PVN pārskatu kodiem, kur PVN pārskatu kodi atbilst PVN deklarācijas lodziņiem (vai etiķetēm XML failā). Attiecībā uz katru PVN kodu ir jāiestata PVN pārskatu kodi katram transakcijas tipam, piemēram, ar nodokli apliekamajai pārdošanai, ar nodokli apliekamajiem pirkumiem, ar nodokli apliekamajam importam. Šie transakciju tipi ir aprakstīti tālāk šīs tēmas sadaļā PVN kodi PVN pārskatiem.
@@ -258,10 +277,10 @@ Katras valsts PVN deklarācijai ir jāatbilst attiecīgās valsts likumdošanas 
 
 | Valsts/reģions        | Papildinformācija                                                          |
 |----------------|---------------------------------------------------------------------------------|
-| Austrija        |  [PVN deklarācijas informācija Austrijai](emea-aut-vat-statement-details.md)         |
+| Austrija        | [PVN deklarācijas informācija Austrijai](emea-aut-vat-statement-details.md)         |
 | Beļģija        |                                                                                 |
-| Čehijas Republika |  [PVN deklarācija Čehijai](emea-cze-vat-statement-details.md)   |
-| Igaunija        |  [PVN deklarācijas informācija Igaunijai](emea-est-vat-statement-details.md) |
+| Čehijas Republika | [PVN deklarācija Čehijai](emea-cze-vat-statement-details.md)   |
+| Igaunija        | [PVN deklarācijas informācija Igaunijai](emea-est-vat-statement-details.md) |
 | Somija        | [Somijas PVN pārskats](emea-fin-sales-tax-payment-report-finland.md)          |
 | Vācija        | [PVN deklarācija Vācijai](emea-de-vat-declaration.md)                       |
 | Itālija          | [PVN deklarāciju informācija Itālijai](emea-ita-vat-statements-details.md)            |

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-09-15
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f3a930814a1fb98e3b1611adf309c10e66b49b9d
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
-ms.translationtype: HT
+ms.openlocfilehash: c4cb36160e692cc12140b57037d2c9739f7b2ebd
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902101"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462675"
 ---
 # <a name="mobile-device-user-accounts"></a>Mobilās ierīces lietotāju konti
 
@@ -90,8 +90,8 @@ Kad darbinieks pierakstās mobilajā programmā Warehouse Management, valoda, nu
 1. Darbību rūtī atlasiet **Lietotāja opcijas**.
 1. Cilnē **Preferences** iestatiet šādus laukus:
 
-    - **Valoda** – atlasiet valodu, kādu darbinieks vēlas. Šis lauks kontrolē arī datuma formātu, kas tiek rādīts noliktavas programmā.
-    - **Datums, laiks un numura formāts** – atlasiet valodu, kas noteiks numuru formātus, kas tiek rādīti noliktavas programmā. Ievērojiet, ka noliktavas programmā rādītos datuma un laika formātus faktiski nosaka lauks **Valoda**, nevis šis lauks.
+    - **Valoda** – atlasiet valodu, kādu darbinieks vēlas. Šis lauks kontrolē arī numura formātu, kas tiek rādīts noliktavas programmā.
+    - **Datums, laiks un numura formāts** – atlasiet datuma un laika formātu, kam darbinieks dod priekšroku. Noliktavas programma izmanto skaitļu formātu, kas saistīts ar valodu, kura izvēlēta laukā **Valoda**, nevis šis iestatījums.
     - **Laika josla** – atlasiet laika joslu, kurā darbinieks strādā. Šis lauks ietekmē laikspiedolu visām reģistrācijām, ko darbinieks veic, izmantojot programmu.
 
 > [!NOTE]

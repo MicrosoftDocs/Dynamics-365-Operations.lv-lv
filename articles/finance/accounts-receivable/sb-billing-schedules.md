@@ -1,5 +1,5 @@
 ---
-title: Norēķinu grafika pārskats
+title: Izveidot norēķinu grafikus
 description: Šajā tēmā skaidrots, kā izveidot, dzēst un rediģēt norēķinu grafikus.
 author: JodiChristiansen
 ms.date: 02/09/2022
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: e42be3f359e96f0861354ebc8e1e9c87478a5d89
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
-ms.translationtype: HT
+ms.openlocfilehash: 2c4e3c0edadd00fd3a3f2ae9968248a226147996
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182716"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462592"
 ---
-# <a name="billing-schedule-overview"></a>Norēķinu grafika pārskats
+# <a name="create-billing-schedules"></a>Izveidot norēķinu grafikus
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 **Norēķinu grafika lapā** varat izveidot, dzēst vai rediģēt norēķinu grafikus. Varat arī pārskatīt norēķinu grafiku sarakstu. Veidojot norēķinu grafiku, tā noklusējuma vērtības nosaka norēķinu grupa, kas ar to ir saistīta. Papildinformācija ir iestatīta periodisko **līgumu norēķinu parametru** lapā.
 
@@ -171,7 +170,7 @@ Turklāt cilnē Atjaunošana ir pieejamas tālāk norādītās **pogas**.
 
 | Poga | Apraksts |
 |--------|-------------|
-| Nenodzēsto ieņēmumu žurnāla ieraksta audits | Skatiet visas izmaiņas krājumiem, kas izmanto nenosācāmo ieņēmumu līdzekli. |
+| Rēķinā neiekļauto ieņēmumu žurnāla ieraksta audits | Skatiet visas izmaiņas krājumiem, kas izmanto nenosācāmo ieņēmumu līdzekli. |
 | Pievienot atjaunošanas termiņu | Pievienojiet krājumam atjaunošanas terminu. Jaunā atjaunošanas termiņa sākuma datums ir nākamais datums pēc iepriekšējā termiņa beigu datuma. Atjaunošanas **beigu datumu**, atlikto **maksājumu sākuma datumu**, **atlikto maksājumu beigu datumu**, krājumu **daudzumu** un **vienības** cenu laukus var atjaunināt. |
 | Modificēt atjaunošanas termiņu | <p>Modificējiet atjaunošanas terminu. Sākotnējam terminam pirms sākotnējā žurnāla ieraksta izveides var mainīt atliktā maksājuma sākuma un beigu datumu. Turpmākiem nosacījumiem sākuma datumu nevar mainīt. Tas vienmēr ir nākamais datums pēc iepriekšējā perioda beigām.</p><p>Ja atjaunošanas termins pastāv pēc modificējamā termina, termina datumus nevar mainīt. Šajā gadījumā atjaunošanas krājumam **var** atjaunināt **tikai laukus** Daudzums un Vienības cena.</p><p>Piemēram, pastāv trīs termini. <ul><li>Pirmo terminu nevar mainīt, jo tas jau ir sākts.</li><li>Otrajam termins var mainīt tikai daudzumu un vienības cenu.</li><li>Trešajam termins var mainīt visas vērtības, izņemot sākuma datumu. Turklāt opcija Plānot **no veidnes ļauj** izveidot atlikto maksājumu grafiku, kas ir balstīts uz nenosācītā ieņēmumu krājuma veidni. Kad opcija ir iestatīta uz **Jā**, **veidnes** laukā Atlasiet atlikto maksājumu veidni un pēc savas izvēles mainiet atliktā maksājuma sākuma un beigu datumu. Turpmākiem atjaunošanas nosacījumiem tiek izmantota tā pati atlikto maksājumu veidne. Tomēr atliktā maksājuma veidni var mainīt.</p></li></ul> |
 

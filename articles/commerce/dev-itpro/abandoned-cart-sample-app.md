@@ -1,5 +1,5 @@
 ---
-title: Atrast atstātos grozus un nosūtīt debitoriem paziņojumus
+title: Noteikt pamestos grozus un nosūtīt klientiem paziņojumus
 description: Šajā tēmā ir aprakstīts, kā Microsoft Dynamics 365 Commerce pielāgot atstāto groza savienotāja parauga programmu, lai noteiktu atstātos grozus un sūtīt atgādinājumu e-pasta paziņojumus debitoriem.
 author: bicyclingfool
 ms.date: 02/25/2022
@@ -9,14 +9,14 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 82848f1ff068cea0adfc6ec1b33fc4bb035f78dc
-ms.sourcegitcommit: 374bbdde90fc9a68c0799158a50409bfbe8ca64e
+ms.openlocfilehash: 1db4e988653aa55db2b18fb201edeafc4d16a1bc
+ms.sourcegitcommit: ab690bc897699ff8a4c489e749251fe0367050ca
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8353375"
+ms.lasthandoff: 03/26/2022
+ms.locfileid: "8489034"
 ---
-# <a name="detect-abandoned-carts-and-send-notifications-to-customers"></a>Atrast atstātos grozus un nosūtīt debitoriem paziņojumus
+# <a name="detect-abandoned-carts-and-send-notifications-to-customers"></a>Noteikt pamestos grozus un nosūtīt klientiem paziņojumus
 
 [!include [banner](../includes/banner.md)]
 
@@ -52,7 +52,7 @@ Savienotāja modelis, ko korporācija Microsoft nodrošina, izmantojot mazumtird
 
 ## <a name="obtain-the-code-sample"></a>Iegūt koda paraugu
 
-Atstātā groza savienotāja parauga programma ir iekļauta Retail SDK versijā 10.0.16. Kodu var atrast šeit: **\\ RetailSDKCodeSampleExtensionsRetailServerExtensions.AbandonedCartSample \\\\\\\\**. Papildinformāciju par mazumtirdzniecības SDK un to, kur to iegūt, skatiet mazumtirdzniecības [programmatūras izstrādes komplekts (SDK](retail-sdk/retail-sdk-overview.md)).
+Atstātā groza savienotāja parauga programma ir iekļauta Retail SDK versijā 10.0.16. Kodu var atrast šeit: **\\RetailSDK\\Code\\SampleExtensions\\RetailServer\\Extensions.AbandonedCartSample**. Papildinformāciju par mazumtirdzniecības SDK un to, kur to iegūt, skatiet mazumtirdzniecības [programmatūras izstrādes komplekts (SDK](retail-sdk/retail-sdk-overview.md)).
 
 > [!NOTE]
 > Kaut arī parauga kods pirmo reizi ir pieejams versijā 10.0.16, tas ir saderīgs ar versiju 10.0.13 un vēlākiem Retail Server būvējumus.
@@ -127,7 +127,7 @@ Lai konfigurētu atcelto groza savienotāja parauga programmu, **modificējiet a
 
 ### <a name="azurecosmosoptions"></a>AzureCosmosOptions (azureCosmosOptions)
 
-Azure tiek saglabāti atstātās groza izgūšanas darbu statuss, groza IP un modificētie laikspiedoļi Cosmos DB. Pēc noklusējuma konfigurācijas faila iestatījumi norāda uz vietējo Azure emulatora instanci Cosmos DB. Kad izvietojat savienotāju ražošanā, šie iestatījumi ir jāatjaunina, lai tie norāda uz Azure Cosmos DB instanci jūsu Azure abonementā. Lai pārbaudītu vietējos un slāņus, varat izmantot [Azure Emulatorus](/azure/cosmos-db/local-emulator).
+Azure tiek saglabāti atstātās groza izgūšanas darbu statuss, groza IP un modificētie laikspiedoļi Cosmos DB. Pēc noklusējuma konfigurācijas faila iestatījumi norāda uz vietējo Azure emulatora instanci Cosmos DB. Kad izvietojat savienotāju ražošanā, šie iestatījumi ir jāatjaunina, lai tie norāda uz Azure Cosmos DB instanci jūsu Azure abonementā. Lokālās vai sūtnes testēšanai varat izmantot [Azure Emulatoru Cosmos DB](/azure/cosmos-db/local-emulator).
 
 | Rekvizīts    | Apraksts |
 | ----------- | ----------- |
