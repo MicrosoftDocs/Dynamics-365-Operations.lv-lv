@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-25.md
                 - name: "Platformas atjauninājumi versijai\_10.0.24 (2022.\_gada februāris)"
                   href: get-started/whats-new-platform-updates-10-0-24.md
-                - name: "Platformas atjauninājumi versijai\_10.0.23 (2022.\_gada janvāris)"
-                  href: get-started/whats-new-platform-updates-10-0-23.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
                 - name: Noņemtie vai novecojušie līdzekļi sākumlapā
@@ -240,6 +238,8 @@
               href: data-entities/configure-export-data-lake.md
             - name: Finanšu un operāciju programmas risinājumā Azure Data Lake
               href: data-entities/finance-data-azure-data-lake.md
+            - name: Risinājumā Azure Data Lake saglabātie dati un metadati
+              href: data-entities/Azure-Data-Lake-Enhanced-Metadata.md
             - name: Elementu krātuves pārvēršana par Data Lake
               href: data-entities/entity-store-data-lake.md
             - name: 'Biznesa notikumi, kas ģenerēti, eksportējot uz pakalpojumu Azure Data Lake (priekšskatījums)'
@@ -410,6 +410,8 @@
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: Vienas un tās pašas AD FS instances atkārtota izmantošana vairākās vidēs
                       href: deployment/onprem-reuseadfs.md
+                    - name: Windows Server jaunināšana Microsoft Dynamics 365 Finance + Operations (on-premises) vidēs
+                      href: deployment/onprem-upgrade-os.md
                     - name: Microsoft Dynamics 365 Finance + Operations (on-premises) vides SQL Server instances jaunināšana
                       href: deployment/onprem-upgrade-sqlserver.md
                 - name: Vietējais aģents
@@ -932,7 +934,9 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: LCS partneriem
                   href: lifecycle-services/getting-started-lcs.md
-                - name: RESTful APIs
+                - name: Atbalstītās tīmekļa pārlūkprogrammas
+                  href: lifecycle-services/web-browsers.md
+                - name: RESTful API
                   items:
                     - name: Vides sākšana un apturēšana
                       href: lifecycle-services/api/v1/reference-start-stop-environments.md
@@ -1490,6 +1494,8 @@
               href: perf-test/rsat/rsat-derived-test-cases.md
             - name: Parametru failu jaunināšana
               href: perf-test/rsat/rsat-upgrade-parameter-files.md
+            - name: Izmēģinājuma režīms bez Azure DevOps
+              href: perf-test/rsat/rsat-trial-without-devops.md
             - name: Regression Suite Automation Tool apmācība
               href: perf-test/rsat/rsat-tutorial.md
             - name: 'To lietotāju konfigurēšana, kas nav administratori'

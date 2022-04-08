@@ -390,7 +390,7 @@
                   href: tasks/worker.md
                 - name: "Modern Point of Sale (MPOS), Cloud\_POS un Store Commerce"
                   items:
-                    - name: Store Commerce programma pakalpojumā Microsoft Dynamics 365 Commerce (priekšskatījums)
+                    - name: Store Commerce programma
                       href: dev-itpro/store-commerce.md
                     - name: Ierīces pārvaldības ieviešanas vadlīnijas
                       href: implementation-considerations-devices.md
@@ -2872,6 +2872,8 @@
               items:
                 - name: Atgriešanas pasūtījuma atmaksa ir noraidīta
                   href: troubleshoot/refund-declined.md
+                - name: 'Atmaksājamās maksas tiek nepareizi aprēķinātas, pamatojoties uz atgriezto daudzumu'
+                  href: troubleshoot/refund-miscalculated-partial-return.md
                 - name: "Dynamics\_365 Payment Connector pakalpojumam Adyen"
                   items:
                     - name: "Dynamics\_365 Payment Connector pakalpojumam Adyen problēmu novēršana"

@@ -18,8 +18,6 @@
                   href: get-started/whats-new-changed-10-0-25.md
                 - name: Finance 10.0.24 (februāris)
                   href: get-started/whats-new-changed-10-0-24.md
-                - name: Finance 10.0.23 (janvāris)
-                  href: get-started/whats-new-changed-10-0-23.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
                 - name: Noņemtie vai novecojušie līdzekļi sākumlapā
@@ -412,10 +410,22 @@
                   href: accounts-receivable/rev-rec-reallocation-scenario-4.md
             - name: Abonementu norēķini
               items:
-                - name: Abonementa norēķinu pārskats
+                - name: Abonementu norēķinu pārskats
                   href: accounts-receivable/subscription-billing-summary.md
-                - name: Norēķinu grafiku iestatīšana
-                  href: accounts-receivable/sb-billing-schedules.md
+                - name: Periodiskie līguma norēķini
+                  items:
+                    - name: Norēķinu grafiku izveide
+                      href: accounts-receivable/sb-billing-schedules.md
+                    - name: Norēķinu grafika kopēšana
+                      href: accounts-receivable/sb-copy-schedules-items.md
+                    - name: Apmaksa pēc atskaites punktiem
+                      href: accounts-receivable/sb-milestonebilling.md
+                    - name: Norēķinu grafiku izbeigšana
+                      href: accounts-receivable/terminate-billing-schedule.md
+                - name: Ieņēmumu un izdevumu atlikšanas
+                  items: null
+                - name: Vairākelementu ieņēmumu sadalījums
+                  items: null
             - name: Maksājumi un norēķini
               items:
                 - name: Debitoru maksājumu pārskats
@@ -1443,11 +1453,11 @@
                             - name: Konfigurēt SharePoint kanālu
                               href: localizations/e-invoicing-configure-sharepoint-channel.md
                         - name: Iestatīt un lietot elektronisko rēķinu izveidi ar Finance un Supply Chain Management
-                          items: null
-                        - name: Aktivizēt un iestatīt integrāciju ar elektronisko rēķinu izveidi
-                          href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
-                        - name: Elektroniskās rēķinu parametru iestatīšana
-                          href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
+                          items:
+                            - name: Aktivizēt un iestatīt integrāciju ar elektronisko rēķinu izveidi
+                              href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
+                            - name: Elektroniskās rēķinu parametru iestatīšana
+                              href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
                         - name: Darbs ar elektronisko rēķinu izveidi
                           items:
                             - name: Elektronisko dokumentu iesniegšana elektronisko rēķinu izveidei
@@ -1524,28 +1534,36 @@
                           href: localizations/emea-multiple-vat-registration-numbers.md
                         - name: Pārskatu veidošana vairākām PVN reģistrācijām
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
-                        - name: Austrijas pārskati
+                        - name: Austrijas pārskatu veidošana
                           items:
-                            - name: PVN deklarācija
+                            - name: "PVN\_deklarācija"
                               href: localizations/emea-aut-vat-declaration-austria.md
-                        - name: Dānijas pārskati
+                        - name: Dānijas pārskatu veidošana
                           items:
-                            - name: PVN deklarācija
+                            - name: "PVN\_deklarācija"
                               href: localizations/emea-dnk-vat-declaration-denmark.md
-                        - name: Francijas pārskati
+                        - name: Somijas pārskatu veidošana
                           items:
-                            - name: PVN deklarācija
+                            - name: "PVN\_deklarācija"
+                              href: localizations/emea-fin-vat-declaration-mult-tax-id.md
+                        - name: Francijas pārskatu veidošana
+                          items:
+                            - name: "PVN\_deklarācija"
                               href: localizations/emea-fra-VAT-declaration-preview-France.md
                         - name: Vācijas pārskati
                           items:
-                            - name: PVN deklarācija
+                            - name: "PVN\_deklarācija"
                               href: localizations/emea-deu-vat-declaration-germany.md
                         - name: Nīderlandes pārskatu veidošana
                           items:
-                            - name: PVN deklarācija
+                            - name: "PVN\_deklarācija"
                               href: localizations/emea-nl-vat-declaration-netherlands.md
-                            - name: Pārskats par preču piegādēm Eiropas Kopienas teritorijā
+                            - name: "ES\_pārdošanas saraksts"
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: Norvēģijas pārskatu veidošana
+                          items:
+                            - name: "PVN\_deklarācija"
+                              href: localizations/emea-nor-vat-declaration.md
                         - name: Spānijas pārskatu veidošana
                           items:
                             - name: 'Tūlītēja informācijas piegāde par PVN (Suministro Inmediato de Información del IVA, SII)'
@@ -1558,16 +1576,12 @@
                               href: localizations/emea-swe-VAT-declaration-Sweden.md
                         - name: Šveices pārskatu veidošana
                           items:
-                            - name: PVN deklarācija
+                            - name: "PVN\_deklarācija"
                               href: localizations/emea-che-vat-declaration-switzerland.md
                         - name: Apvienotās Karalistes pārskatu veidošana
                           items:
                             - name: PVN deklarācija
                               href: localizations/emea-gbr-vat-declaration.md
-                        - name: Norvēģijas pārskati
-                          items:
-                            - name: PVN deklarācija
-                              href: localizations/emea-nor-vat-declaration.md
                     - name: Nodokļa aprēķinu iespējošana pārsūtīšanas pasūtījumam
                       items:
                         - name: Nodokļu līdzekļu atbalsts pārsūtīšanas pasūtījumiem
@@ -1694,8 +1708,6 @@
                   href: localizations/emea-aut-half-year-depreciation.md
                 - name: Iepakojuma materiālu papildmaksas
                   href: localizations/emea-aut-packing-material-fee-calculation.md
-                - name: PVN deklarācija
-                  href: localizations/emea-aut-vat-statement-details.md
                 - name: Pārrobežu pakalpojumu pārskats
                   href: localizations/emea-aut-cross-border-services-report.md
                 - name: Austrijas Intrastat
@@ -2020,9 +2032,7 @@
                   href: localizations/emea-create-post-periodic-journals.md
                 - name: 'Attēlojuma atjaunināšana veidam, kā pārskatos un dokumentos tiek rādītas summas'
                   href: localizations/emea-amount-printing-forms.md
-                - name: PVN deklarācija
-                  href: localizations/emea-cze-vat-statement-details.md
-                - name: "PVN\_deklarācija (Čehijas Republika)"
+                - name: "PVN\_deklarācija"
                   href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
                 - name: Čehijas Intrastat
                   href: localizations/emea-cze-intrastat.md
@@ -2060,6 +2070,8 @@
                   href: localizations/tasks/set-up-payment-slip-format.md
                 - name: Dānijas Intrastat
                   href: localizations/emea-dnk-intrastat.md
+                - name: "PVN\_deklarācija"
+                  href: localizations/emea-dnk-vat-declaration-denmark.md
             - name: Ēģipte
               items:
                 - name: Ēģiptes pārskats
@@ -2242,6 +2254,8 @@
                   href: localizations/emea-fin-sales-tax-payment-report-finland.md
                 - name: Somu Intrastat
                   href: localizations/emea-fin-intrastat.md
+                - name: "PVN\_deklarācija"
+                  href: localizations/emea-fin-vat-declaration.md
             - name: Francija
               items:
                 - name: Francijas pārskats
@@ -2330,14 +2344,10 @@
                       href: localizations/emea-deu-gdpdu-data-filtering.md
                 - name: Nolietojuma korekcijas papildus iegādēm otrajā gadā
                   href: localizations/tasks/de-00002-depreciation.md
-                - name: PVN deklarācija
+                - name: "PVN\_deklarācija"
                   href: localizations/emea-deu-vat-declaration-germany.md
-                - name: PVN deklarācijas elektroniskā pārsūtīšana (ELSTER)
-                  href: localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: Vācijas Intrastat
                   href: localizations/emea-deu-intrastat.md
-                - name: PVN deklarācija
-                  href: localizations/emea-de-vat-declaration.md
                 - name: Klientu elektronisko rēķinu pārskats
                   href: localizations/emea-deu-e-invoices.md
                 - name: Žurnālu saraksta pārskats
@@ -2348,8 +2358,6 @@
                   href: localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md
                 - name: Pārskats par preču piegādēm Eiropas Kopienas teritorijā
                   href: localizations/emea-deu-eu-sales-list.md
-                - name: PVN deklarācija
-                  href: localizations/emea-dnk-vat-declaration-denmark.md
             - name: Ungārija
               items:
                 - name: Ungārijas pārskats
@@ -2562,6 +2570,8 @@
                                   href: localizations/apac-ind-GST-import-goods-gst.md
                                 - name: 'Pakalpojumu imports, ko apliek ar GST'
                                   href: localizations/apac-ind-import-services-gst.md
+                                - name: Maksu sadalījums importa pasūtījumu ieraksta komplekta lapā
+                                  href: localizations/apac-ind-charge-allocation-boe-page-import-orders.md
                                 - name: 'Preču eksports, ko apliek ar nulles novērtējuma nodokli'
                                   href: localizations/apac-ind-GST-export-goods-zero-rated-tax.md
                                 - name: 'Pakalpojumu eksports, ko apliek ar nulles novērtējuma nodokli'
@@ -3116,23 +3126,19 @@
               items:
                 - name: Nīderlandes pārskats
                   href: localizations/netherlands.md
-                - name: PVN deklarācija
-                  href: localizations/emea-nl-VAT-declaration.md
-                - name: Elektroniskās nodokļu deklarācijas (EVAT)
-                  href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Semansys XBRL integrācija
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
                 - name: Audita fails (XML Auditfile Financieel XAF)
                   href: localizations/emea-nl-audit-file.md
                 - name: PVN deklarācija (Nīderlande)
                   href: localizations/emea-nl-vat-declaration-netherlands.md
-                - name: Nīderlandes Intrastat
+                - name: Intrastat
                   href: localizations/emea-nl-intrastat.md
-                - name: Pārskats par preču piegādēm Eiropas Kopienas teritorijā
+                - name: "ES\_pārdošanas saraksts"
                   href: localizations/emea-nl-EU-sales-list.md
             - name: Jaunzēlande
               items:
-                - name: GST deklarācija no GST101A Jaunzēlandei (NZ-00003)
+                - name: GST deklarācijas veidlapa no GST101A Jaunzēlandei (NZ-00003)
                   href: localizations/apac-nzl-gst-declaration.md
             - name: Norvēģija
               items:
@@ -3540,11 +3546,11 @@
                   href: localizations/emea-swe-payment-formats-import.md
                 - name: Zviedrijas PVN maksājumu pārskats
                   href: localizations/emea-swe-sales-tax-payment-report-sweden.md
-                - name: PVN deklarācija Zviedrijai
+                - name: "PVN\_deklarācija"
                   href: localizations/emea-swe-VAT-declaration-Sweden.md
                 - name: Zviedrijas Intrastat
                   href: localizations/emea-swe-intrastat.md
-                - name: Pārskats par preču piegādēm Eiropas Kopienas teritorijā
+                - name: "ES\_pārdošanas saraksts"
                   href: localizations/emea-swe-eu-sales-list.md
             - name: Šveice
               items:
