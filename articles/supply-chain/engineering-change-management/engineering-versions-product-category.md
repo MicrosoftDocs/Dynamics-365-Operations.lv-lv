@@ -2,7 +2,7 @@
 title: Tehniskās versijas un tehnisko preču kategorijas
 description: Šajā tēmā ir sniegta informācija par tehnisko versiju koncepciju. Tehniskās versijas nodrošina, ka dažādi produkta stāvokļi un to dati tiek saglabāti un dzēsti, un tos var vizualizēt sistēmā.
 author: t-benebo
-ms.date: 09/28/2020
+ms.date: 04/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 42faa9e5f073d718c18422e37212c2ae8a28b28d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: a4d057c603e6592e491af7597e50fce2497860ec
+ms.sourcegitcommit: b96e0c70553bca9b3f5eb65105a52cb71d978a36
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572893"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "8553367"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Tehniskās versijas un tehnisko preču kategorijas
 
@@ -137,7 +137,7 @@ Katrai rindai, kuru pievienojat režģim, iestatiet tālāk norādītos laukus.
 |---|---|
 | Vārds, uzvārds | Atlasiet pievienojamo atribūtu. |
 | Vērtība | Atlasiet atribūta noklusējuma vērtību. |
-| Obligāts | Atribūtiem *Būla* veida, ja šī opcija ir iestatīta uz *Jā*, lietotājiem ir jāiestata atribūts *Jā*. Ja šī opcija ir iestatīta uz *Nē*, lietotāji var iestatīt atribūtu vai nu uz *Jā* vai uz *Nē*. Citiem datu veidiem šīs opcijas iestatījums ir tikai informatīvs. |
+| Obligāts | Izvēlieties, vai atribūts ir obligāts, kas nozīmē, ka lietotājiem jānorāda derīga atribūta vērtība, pirms viņi var saglabāt preci. Šī iestatījuma ietekme nedaudz atšķiras atkarībā no atlasītā atribūta datu tipa, kā definēts nākamajā sarakstā.<ul><li>**Būla vērtība** – iestatiet *šo* *kā* Jā, lai atribūta vērtība būtu Jā (sistēma atsakās saglabāt preci, ja atribūts ir iestatīts uz *Nē).* Iestatiet šo kā *Nē,* lai akceptētu vērtību Jā *vai* *Nē*. (Tipa atribūti *Būla* vērtība nevar būt tukša.)</li><li>**Vesels skaitlis vai** decimāldaļa – iestatiet šo *kā Jā*, lai pieprasītu lietotājiem ievadīt šim atribūtam vērtību, kas nav nulle. Iestatiet šo kā *Nē*, lai ļautu lietotājiem saglabāt ar vērtību nulle.  (Šo tipu atribūtiem nevar būt tukša vērtība.)</li><li>**Saraksts** – sarakstam ir datu tips *Teksts*, bet tajā ir iekļauts arī iepriekš definēts iespējamo vērtību saraksts. Tāpēc šī tipa atribūtiem nav iespējams ievadīt tukšu vērtību, tāpēc šim iestatījumam nav ietekmes un ir tikai informaīvs.</li><li>**Visi citi datu tipi** – iestatiet to kā Jā *,* lai atribūtu padarītu obligātu. Iestatiet šo kā *Nē*, lai ļautu lietotājiem saglabāt preci, nesniedzot šī atribūta vērtību.</li></ul> |
 | Partijas atribūts | Atlasiet, vai atribūts jāizplata, izmantojot partijas funkcionalitāti. |
 
 ### <a name="readiness-policy-fasttab"></a>Gatavības politikas kopsavilkuma cilne

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.19
-ms.openlocfilehash: 68f1ed6a6d6bb0d15a81539da7f483ad71a4d696
-ms.sourcegitcommit: 477efa4cb138f41d4f68bcd82552af3473bcc3d9
-ms.translationtype: HT
+ms.openlocfilehash: 8862f42f3ceaed7e1413c49cf9b91f0449fab67b
+ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7715234"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8547987"
 ---
 # <a name="regulatory-configuration-service-rcs--lifecycle-services-lcs-storage-deprecation"></a>Regulatory Configuration Service (RCS) — Lifecycle Services (LCS) krātuves novecošana
 
@@ -29,17 +29,17 @@ ms.locfileid: "7715234"
 Microsoft Dynamics Lifecycle Services (LCS) izmantošana kā elektronisko pārskatu (ER) konfigurāciju krātuve repozitorijā ir novecojusi. Šis novecošana ietvers šādas izmaiņas:
 
 - Microsoft ražotās konfigurācijas, kas tiek izmantotas Microsoft Dynamics 365 lietojumprogrammās, vairs netiks publicētas LCS koplietojamo līdzekļu bibliotēkā. Tā vietā tās publicēs tikai ar RCS globālā repozitorija starpniecību. Tomēr konfigurācijas, kas paredzētas Dynamics AX 2012, tiks publicētas LCS koplietojamo līdzekļu bibliotēkā līdz AX 2012 atbalsta dzīves cikla beigām.
-- Tiks deaktivizēta funkcionalitāte, kas ļauj augšupielādēt konfigurācijas LCS projekta līdzekļu bibliotēkā no Finance and Operations programmām un RCS. Tomēr joprojām varēsit izmantot pārlūkprogrammu, kas atrodas LCS, lai augšupielādētu konfigurācijas projekta līdzekļu bibliotēkā. Tādēļ joprojām var pievienot konfigurācijas LCS, lai tās varētu ietvert risinājumu pakotnēs.
-- Konfigurāciju importēšana no LCS vēl kādu laiku būs pieejama un atbalstīta Finance and Operations programmās un RCS. Tomēr funkcionalitāte galu galā novecos. (Precīzs novecošanas datums tiks paziņots vēlāk.)
+- Funkcionalitāte, kas ļauj augšupielādēt konfigurācijas projekta līdzekļu bibliotēkā LCS no finanšu un operāciju programmām un no RCS, tiks deaktivizēta. Tomēr joprojām varēsit izmantot pārlūkprogrammu, kas atrodas LCS, lai augšupielādētu konfigurācijas projekta līdzekļu bibliotēkā. Tādēļ joprojām var pievienot konfigurācijas LCS, lai tās varētu ietvert risinājumu pakotnēs.
+- Konfigurāciju imports no LCS turpinās būt pieejams un atbalstīts finanšu un operāciju programmās, kā arī RCS kādu laiku. Tomēr funkcionalitāte galu galā novecos. (Precīzs novecošanas datums tiks paziņots vēlāk.)
 
 ## <a name="deprecation-notice"></a>Paziņojums par novecošanu
 
-LCS kā krātuves izmantošanas novecošana tika paziņota sadaļā [Noņemtie vai novecojušie līdzekļi Dynamics 365 Finance – paziņojums par LCS novecošanu](../get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). Plānotais novecošanas datums ir 2022. gada 1. aprīlis.
+Dynamics 365 Finanšu - LCS nolietojuma paziņojumā par nolietojumu tika izmantota LCS [lietošana kā krātuve](../get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). Plānotais novecošanas datums ir 2022. gada 1. aprīlis.
 
 ## <a name="key-features"></a>Galvenie līdzekļi
 
 - Izmantojiet RCS, lai izveidotu un rediģētu ER konfigurācijas un globalizācijas funkcijas.
-- Pabīdiet konfigurācijas tieši no RCS veidotāja uz savienotu programmu, piemēram, Dynamics 365 Finance vidi, lai varētu ātri veikt un pārbaudīt izmaiņas jūsu konfigurācijās.
+- Spiež konfigurācijas tieši no RCS veidotāja uz savienotu programmu, piemēram, Dynamics 365 finanšu vidi, lai jūs varētu ātri veikt un pārbaudīt izmaiņas jūsu konfigurācijās.
 - Centralizēti saglabājiet, koplietojiet un pārvaldiet dzīves ciklu gan ER konfigurācijām, gan globalizācijas funkcijām ar globalizētā repozitorija centralizēto krātuvi.
 
 ## <a name="guidance-for-one-time-and-ongoing-actions"></a>Norādījumi vienreizējām un notiekošām darbībām
@@ -52,7 +52,7 @@ Importējiet visas nepieciešamās konfigurācijas no LCS uz RCS un pēc tam pub
 
 1. Ja RCS instance vairs nav pieejama, lai to nodrošinātu. Papildinformāciju skatiet [RCS pārskatā](rcs-overview.md).
 2. Nodrošinātajā RCS instancē katram līdzekļu bibliotēkā esošajam LCS projektam, kas ietver atvasinātās ER konfigurācijas, reģistrējiet atbilstošo LCS repozitoriju.
-3. Importējiet ER konfigurācijas no LCS repozitorija uz RCS. Papildinformāciju skatiet [Konfigurāciju importēšana no LCS](../../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md).
+3. Importējiet ER konfigurācijas no LCS repozitorija uz RCS. Papildinformāciju skatiet [Konfigurāciju importēšana no LCS](/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services).
 4. Ja globālais repozitorijs netiek nodrošināts automātiski, reģistrējiet to RCS.
 5. Augšupielādējiet visas atvasinātās konfigurācijas no pašreizējās RCS instances globālajā repozitorijā. Lai saņemtu palīdzību saistībā ar augšupielādi, izmantojiet līdzekli **Konfigurācijas pakotnes**. Papildinformāciju skatiet [RCS augšupielāde globālajā repositorijā](rcs-global-repo-upload.md).
 
@@ -73,7 +73,7 @@ Izmantojiet Globalizācijas repozitoriju šādiem nolūkiem:
 
 ### <a name="does-this-change-mean-that-lcs-cant-be-used-as-central-storage-for-configurations"></a>Vai šīs izmaiņas nozīmē, ka LCS nevar izmantot kā konfigurāciju centrālo krātuvi?
 
-Jā. Tiks deaktivizēta funkcionalitāte, kas ļauj augšupielādēt konfigurācijas LCS projekta līdzekļu bibliotēkā no Finance and Operations programmām. Tomēr joprojām varat izmantot pārlūkprogrammu, kas atrodas LCS, lai augšupielādētu konfigurācijas projekta līdzekļu bibliotēkā, pēc nepieciešamības.
+Jā. Funkcionalitāte, kas ļauj jums augšupielādēt konfigurācijas projekta līdzekļu bibliotēkā LCS no Finanšu un operāciju programmām, tiks novecojusi. Tomēr joprojām varat izmantot pārlūkprogrammu, kas atrodas LCS, lai augšupielādētu konfigurācijas projekta līdzekļu bibliotēkā, pēc nepieciešamības.
 
 ### <a name="i-thought-that-rcs-was-a-replacement-repository-for-importing-global-template-files-i-didnt-think-that-its-used-to-store-configurations-which-is-correct"></a>Es domāju, ka RCS bija globālo veidņu failu importēšanas aizstāšanas repozitorijs. Es nedomāju, ka tas tiek izmantots konfigurāciju glabāšanai. Kā ir pareizi?
 
@@ -81,7 +81,7 @@ RCS ir noformēšanas pakalpojums ER konfigurāciju izveidošanai un rediģēša
 
 ### <a name="without-lcs-what-is-the-suggested-way-to-store-configurations-so-that-test-and-production-configurations-can-easily-be-managed-and-transferred"></a>Bez LCS, kāds ir ieteicamais konfigurāciju glabāšanas veids, lai “testa” un “ražošanas” konfigurācijas varētu viegli pārvaldīt un pārnest?
 
-RCS izmanto *savienoto programmu* konceptu. Saistīta programma veido savienojumu starp RCS un jebkuru Finance and Operations programmu instanci. Tā kā RCS var izmantot konfigurāciju rediģēšanai, savienoto programmu var izmantot, lai pārvietotu konfigurācijas tieši no noformētāja uz Finance and Operations programmu vidi. Tādēļ varat ātri mainīt un testēt savas konfigurācijas, neizmantojot LCS projekta līmeņa krātuvi.
+RCS izmanto *savienoto programmu* konceptu. Savienots pieteikums veido savienojumu starp RCS un jebkuru Finanšu un operāciju programmu instanci. Tā kā RCS var izmantot konfigurāciju rediģēšanai, pievienoto programmu var izmantot, lai virzītu konfigurācijas tieši no veidotāja uz Finanšu un operāciju lietojumprogrammu vidēm. Tādēļ varat ātri mainīt un testēt savas konfigurācijas, neizmantojot LCS projekta līmeņa krātuvi.
 
 ### <a name="are-there-any-examples-that-show-the-setup-and-management"></a>Vai ir kādi piemēri, kas parāda iestatīšanu un pārvaldību?
 
@@ -104,4 +104,4 @@ Papildinformāciju par produktu atbalstu skatiet [Dynamics globalizācijas pakal
 
 ### <a name="whats-the-cost-of-using-rcs"></a>Kādas ir RCS izmantošanas izmaksas?
 
-RCS un globalizācijas repozitorijs tiek nodrošināts par bezmaksas maksu kā daļa no esošajām Finance and Operations programmu licencēm. Izmantojot RCS dizaina pakalpojumu vai glabājot konfigurācijas globālajā repozitorijā, nav saistītas nekādas atsevišķas izmaksas. Pašlaik nav ierobežojuma konfigurāciju vai pievienoto pieteikumu skaitam.
+RCS un globalizācijas repozitorijs tiek nodrošināts par bezmaksas maksu kā daļa no esošajām finanšu un operāciju programmas licencēm. Izmantojot RCS dizaina pakalpojumu vai glabājot konfigurācijas globālajā repozitorijā, nav saistītas nekādas atsevišķas izmaksas. Pašlaik nav ierobežojuma konfigurāciju vai pievienoto pieteikumu skaitam.

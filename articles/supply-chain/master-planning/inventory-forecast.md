@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: abc827139c71f7942335cd2b7e2c7502f7fc1cfe
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
-ms.translationtype: HT
+ms.openlocfilehash: 1446928c2f5fe606d1d0732764a2a4460643afcf
+ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469399"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8548172"
 ---
 # <a name="inventory-forecasts"></a>Krājumu budžets
 
@@ -39,7 +39,7 @@ Pastāv arī citi veidi, kā izveidot budžeta rindas:
 - [Statistiskās bāzlīnijas prognozes ģenerēšana](generate-statistical-baseline-forecast.md).
 - [Vēsturisko datu importēšana pieprasījuma apjoma prognozēm](import-historical-data.md).
 - [Prognozes ģenerēšana izmantojot Microsoft Azure algoritmiskās mācīšanās tīmekļa pakalpojumus](demand-forecasting-setup.md).
-- [Pieprasījuma vai piegādes apjoma prognozes rindas importēšana, izmantojot datu pārvaldības struktūru (ForecastDemandForecastEntryStaging un ForecastSupplyForecastEntryStaging datu elementus)](../../dev-itpro/data-entities/data-entities-data-packages.md).
+- [Pieprasījuma vai piegādes apjoma prognozes rindas importēšana, izmantojot datu pārvaldības struktūru (ForecastDemandForecastEntryStaging un ForecastSupplyForecastEntryStaging datu elementus)](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages).
 
 1. darbībā esošajā tabulā redzmi dažādi veidi, kā piekļūt izmantotajām lapām.
 

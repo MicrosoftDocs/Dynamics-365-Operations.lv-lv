@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0625010143b7df9c3c897bf7f43ef25993303240
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
-ms.translationtype: HT
+ms.openlocfilehash: 43a53d5940b2595abb305a08e6f52661bee8ca62
+ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752812"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8548085"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Jaunumi un izmaiņas programmas Dynamics 365 for Operations versijā 1611 (2016. gada novembris)
 
@@ -816,7 +816,7 @@ Pašlaik Retail Modern POS ir pieejams tikai kā operētājsistēmas Windows 8.1
 | Kā kreditors, iegūstiet informāciju par nosūtīto krājumu, kas tiek pārsūtīts debitoram. | Lai izrakstītu rēķinu debitoram, kreditoram ir nepieciešama informācija par izejmateriāliem, kas tika iegādāti no sūtījuma krājuma, un iegādes datums. Kreditors var arī pārraudzīt paredzamos rīcībā esošos krājumus debitora atrašanās vietā, izmantojot kreditoru sadarbības interfeisu. |
 | Pārvietot kreditora īpašumā esošos krājumus, izmantojot pārsūtīšanas žurnālu. | Lai izsekotu kreditora īpašumā esošo krājumu fizisko stāvokli, jums ir jābūt iespējai ierakstīt sistēmas pozīciju. Izmantojot pārsūtīšanas žurnālu, ir iespējams reģistrēt krājumu fizisko kustību, piemēram, pārvietošanos no vienas vietas noliktavā uz citu vietu šajā noliktavā. |
 | Koriģēt kreditora īpašumā esošos krājumus, izmantojot uzskaites žurnālu. | Ir svarīgi saglabāt rīcībā esošo krājumu sistēmu sinhronizētu ar faktisko fizisko krājumu. Kreditora īpašumā esošos krājumus var koriģēt, izmantojot uzskaites procesus, piemēram, daudzuma korekcija un uzskaites žurnāla procesi. |
-| Uzziniet vairāk par sūtījuma atbalstu sistēmā Dynamics 365 for Operations | Papildinformāciju par sūtījuma apstrādes procesu atbalstu skatiet tēmās [Sūtījums](../../../supply-chain/inventory/consignment.md), [Sūtījuma iestatīšana](../../../supply-chain/inventory/set-up-consignment.md), [Sūtījuma papildināšanas pasūtījuma izveide (uzdevuma ceļvedis)](../../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md) un [Sūtījumu krājumu īpašumtiesību maiņa, pamatojoties uz ražošanas pieprasījumu (Uzdevuma ceļvedis)](../../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
+| Uzziniet vairāk par sūtījuma atbalstu sistēmā Dynamics 365 for Operations | Papildinformāciju par sūtījuma apstrādes procesu atbalstu skatiet tēmās [Sūtījums](../../../supply-chain/inventory/consignment.md), [Sūtījuma iestatīšana](/d365F-O/fin-ops-core/fin-ops/get-started/consignment), [Sūtījuma papildināšanas pasūtījuma izveide (uzdevuma ceļvedis)](../../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md) un [Sūtījumu krājumu īpašumtiesību maiņa, pamatojoties uz ražošanas pieprasījumu (Uzdevuma ceļvedis)](../../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
 
 ### <a name="vendor-collaboration-previously-known-as-the-vendor-portal"></a>Kreditora sadarbība (iepriekš zināma kā Kreditoru portāls)
 
@@ -942,7 +942,7 @@ Pašlaik Retail Modern POS ir pieejams tikai kā operētājsistēmas Windows 8.1
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Jaunumi un izmaiņas Finance and Operations sākumlapā](whats-new-changed.md)
+[Mājas lapa “Jaunumi un izmaiņas programmā Finance and Operations“](whats-new-changed.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

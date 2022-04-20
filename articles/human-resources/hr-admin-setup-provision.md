@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0c856bca32c3dee44469c098961d85b4d8cb70a6
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.openlocfilehash: 65891e380f740f4a1fa404d57789a6f50506d3b5
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060428"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565633"
 ---
 # <a name="provision-human-resources"></a>Human Resources nodrošināšana
 
@@ -40,6 +40,10 @@ Pirms sākat nodrošināt jaunu ražošanas vidi, jābūt nodrošinātiem tālā
 
 ## <a name="provision-a-human-resources-trial-environment"></a>Human Resources apgrozījuma vides nodrošināšana
 
+>[!NOTE]
+> Sākot no 2022. gada aprīlī, cilvēkresursu izmēģinājuma vides nebūs pieejamas savrupā programmā. Potenciālie debitori, kuri interesējas par cilvēkresursu spēju vērtēšanu finanšu un operāciju programmās, var to darīt, izmantojot bezmaksas 30 dienas izmēģinājuma darbību kopā ar demonstrācijas datiem. Dynamics 365 Finanses ietvers personāla vadības iespējas, kas tiks iesniegtas finanšu infrastruktūrasm, sapludinot savrupu programmu. Papildinformāciju [skatiet sadaļu HR piedāvājumu sapludināšana sniedz jums iespējas kopā ar debitoriem](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers) . Lai iegūtu plašāku informāciju par Dynamics 365 finanšu izmēģinājuma versijām, skatiet pakāpenības [rokasgrāmatu](/fin-ops/get-started/before-you-buy). 
+
+
 Pirms pirmās smilškastes vai ražošanas vides nodrošināšanas, iespējams, vēlēsieties nodrošināt [Human Resources apgrozījuma vidi](https://go.microsoft.com/fwlink/p/?LinkId=2115962), lai validētu Human Resources funkcionalitāti. Izmēģinājuma vides satur fiktīvsu datus, ko var izmantot, lai izpētītu programmu drošā veidā. Kaut arī izmēģinājuma vide pieder lietotājam, kurš to pieprasīja, citus lietotājus var uzaicināt, izmantojot Human Resources sistēmas administrēšanu. 
 
 Izmēǵinājuma vides ļauj novērtēt cilvēkresursu funkciju personām, kurām vēl nav piekļuves Human Resources videi. Ja nodrošināt izmēģinājuma vidi un autentificētajam lietotājam jau ir piekļuve vienai vai vairākām esošām Human Resources vidēm, lietotājs tiks pārvirzīts uz esošo vidi vai vižu sarakstu.
@@ -58,7 +62,7 @@ Pirms jūs izveidojiet pirmo Human Resources vidi, jums uzmanīgi jāplāno jūs
 Papildu vides apsvērumi.
 
 - **Datu migrācija**: jums var būt nepieciešams apsvērt papildu vidi datu migrācijas aktivitātēm, lai ļautu jūsu smilškastes vidi izmantot testēšanas nolūkiem visā projektā. Ja ir papildu vide, testēšanas un konfigurēšanas laikā datu migrācijas aktivitātes var turpināties dažādās vidēs vienlaicīgi.
-- **Integrācija**: jums var būt nepieciešams apsvērt papildu vidi, lai konfigurētu un testētu integrācijas. Tās var ietvert tādas vietējās integrācijas kā Ceridian Dayforce LinkedIn Talantu Hub integrācijas vai pielāgotas integrācijas, piemēram, algas, kandidātu izsekošanas sistēmas vai atvieglojumu sistēmas un nodrošinātāju integrācijas.
+- **Integrācija**: jums var būt nepieciešams apsvērt papildu vidi, lai konfigurētu un testētu integrācijas. Tās varētu ietvert tādas vietējā integrācijas kā Ceriforce dayforce vai LinkedIn Talent Hub integrācijas vai pielāgotas integrācijas, piemēram, algas, kandidātu izsekošanas sistēmas vai atvieglojumu sistēmas un nodrošinātāju integrācijas.
 - **Apmācība**: iespējams, būs nepieciešama atsevišķa vide, kas konfigurēta ar apmācību datu kopu, lai darbiniekus apmācītu par to, kā lietot jauno sistēmu. 
 - **Vairākfāžu projekts**: jums var būt nepieciešama papildu vide, lai atbalstītu konfigurāciju, datu migrāciju, testēšanu vai citas aktivitātes projekta fāzē, kas tiek plānota pēc sākotnējās projekta uzsākšanas.
 

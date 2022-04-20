@@ -1,6 +1,6 @@
 ---
-title: PVN kodu iestatīšana
-description: Šajā tēmā paskaidrots, kā iestatīt pasūtījumu aizturēšanas kodus programmā Dynamics 365 Finance.
+title: Iestatīt PVN kodus
+description: Šajā tēmā skaidrots, kā iestatīt PVN kodus Dynamics 365 Finanses.
 author: twheeloc
 ms.date: 09/27/2021
 ms.topic: business-process
@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxTable, TaxData
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2539d701dda4ef5e1484d095b2d86d1f68a0dc98
-ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
+ms.openlocfilehash: 69e2cf9a16fe0e694154cccf9b49944b49c79b90
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7562106"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565858"
 ---
-# <a name="set-up-sales-tax-codes"></a>PVN kodu iestatīšana
+# <a name="set-up-sales-tax-codes"></a>Iestatīt PVN kodus
 
 [!include [banner](../../includes/banner.md)]
 
@@ -45,7 +45,7 @@ ms.locfileid: "7562106"
 12. Aizvērt lapu.
 13. Atlasiet **Saglabāt**.
 
-Ja izmantojat Microsoft Dynamics 365 Finance versijā 10.0.22 [Nodokļu pakalpojumu](../../localizations/global-tax-calcuation-service-overview.md) un līdzeklis [**Atbalstīt vairākus PVN reģistrācijas numurus**](../../localizations/emea-multiple-vat-registration-numbers.md) ir iespējots darbvietā **Līdzekļu pārvaldība**, varat izmantot lauku **Nodokļa veids**, lai noteiktu nodokļa koda veidu. Ir pieejamas šādas vērtības:
+Microsoft Dynamics No 365 Finanšu versijas 10.0.22, [ja](../../localizations/global-tax-calcuation-service-overview.md) izmantojat nodokļu pakalpojumu, [**·**](../../localizations/emea-multiple-vat-registration-numbers.md)**un** līdzekļu pārvaldības darbvietā ir iespējota vairāku PVN reģistrācijas numuru atbalsta funkcija, **nodokļu** koda tipa norādīšanai var izmantot nodokļu lauka tipu. Ir pieejamas šādas vērtības:
 
 - Standarta PVN
 - Samazināts PVN

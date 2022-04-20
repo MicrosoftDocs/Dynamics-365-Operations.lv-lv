@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 50b6f306da1d32b1fd98da68bd997de1f1c23ffb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 996a8b62b59dd27691a1eaa5ed619f94e899e8cf
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570950"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570441"
 ---
 # <a name="manage-voyages"></a>Pārvaldīt reisus
 
@@ -66,9 +66,9 @@ Darbību rūts lapā **Reisi** nodrošina pogas, kas ļauj strādāt ar atlasīt
 | Tranzītā | Atjauniniet **Reisa statusa** lauku uz tranzīta statusu, kas ir izveidots lapā **[Kopējo izmaksu parametri](landed-cost-parameters.md)**. Šim procesam vairs nav loģikas. Reisu var arī automātiski atjaunināt uz tranzīta statusu, pamatojoties uz [Izsekošanas kontroles centra iestatījumiem](delivery-information-setup.md).
 | Sagatavots izmaksu aprēķināšanai | Atjauniniet **Reisa statusa** lauku uz gatavo izmaksu piemērošanas statusu, kas ir izveidots lapā **[Kopējo izmaksu parametri](landed-cost-parameters.md)**. Reisa izmaksas var tikt izmaksātas, kad ir apstrādāti visi rēķini (gan krājumu rēķini, gan reisa izmaksu rēķini) un preces ir saņemtas. Ja ar reisu saistītās novērtētās izmaksas nav aprēķinātas, mēģinot apstrādāt reisa izmaksas, rodas kļūda. |
 | Aprēķinātās izmaksas | Iztīriet ikvienu izmaksu aprēķināšanas veidu pēc rēķina eksistē visiem pirkšanas pasūtījumiem un reisa izmaksām. Atlasot šo pogu, parādās dialoglodziņš **Reisa atjaunināšana - izmaksāts**. Tur var atlasīt grāmatošanai standarta finanšu datumā vai norādīt grāmatošanas datumu un pēc tam palaist darbību. Varat palaist darbību neierobežotu reižu skaitu. Var izmantot arī dialoglodziņu **Reisa atjaunināšana – Izmaksas**, lai izveidotu grafiku darbības palaišanai kā periodisku uzdevumu (pakešuzdevumu). Ieteicams regulāri palaist darbību, iestatot to kā pakešuzdevumu. |
-| Grāmatot saņemšanas sarakstu | Grāmatojiet saņemšanas sarakstu visām pirkšanas pasūtījuma rindām reisā. Ja tiek izmantotas vairāku uzņēmumu kravas, katram uzņēmumam tiek atvērts jauns saņemšanas saraksta grāmatošanas dialoglodziņš, kas jāizmanto katrā juridiskajā personā. |
-| Grāmatot produktu ieejas plūsmu | Grāmatojiet saņemto preču pavadzīmi visām pirkšanas pasūtījuma rindām reisā. Produktu ieejas plūsmas process pirkšanas pasūtījuma rindām, kas ir saistītas ar reisu, tiks izmantots tikai tad, ja preces **netiks** pārdotas tranzītā. Ja preces tiks apstrādātas tranzītā, mēģinot grāmatot produktu ieejas plūsmu pirkšanas pasūtījuma rindai, tiek parādīta kļūda. Ja tiek izmantotas vairāku uzņēmumu kravas, katram uzņēmumam tiek atvērts jauns piegādes saraksta grāmatošanas dialoglodziņš. |
-| Grāmatot rēķinu | Grāmatojiet rēķinu visām pirkšanas pasūtījuma rindām reisā. Ja reisa preces tiks veiktas tranzītā caur tranzītapstrādes precēm, pirms saņemšanas procesa beigām tiks izrakstīts rēķins pirkšanas pasūtījuma rindām. Kad sākotnējais pirkšanas pasūtījums ir iekļauts rēķinā, tiks izveidoti ar oriģinālajām pirkšanas pasūtījuma rindām saistītie preču tranzīta pasūtījumi. Šos pasūtījumus pēc tam var saņemt noliktava. Ja tiek izmantotas vairāku uzņēmumu kravas, katram uzņēmumam tiek atvērts jauns rēķina grāmatošanas dialoglodziņš. |
+| Grāmatot saņemšanas sarakstu | Grāmatojiet saņemšanas sarakstu visām pirkšanas pasūtījuma rindām reisā.  |
+| Grāmatot produktu ieejas plūsmu | Grāmatojiet saņemto preču pavadzīmi visām pirkšanas pasūtījuma rindām reisā. Produktu ieejas plūsmas process pirkšanas pasūtījuma rindām, kas ir saistītas ar reisu, tiks izmantots tikai tad, ja preces **netiks** pārdotas tranzītā. Ja preces tiks apstrādātas tranzītā, mēģinot grāmatot produktu ieejas plūsmu pirkšanas pasūtījuma rindai, tiek parādīta kļūda.  |
+| Grāmatot rēķinu | Grāmatojiet rēķinu visām pirkšanas pasūtījuma rindām reisā. Ja reisa preces tiks veiktas tranzītā caur tranzītapstrādes precēm, pirms saņemšanas procesa beigām tiks izrakstīts rēķins pirkšanas pasūtījuma rindām. Kad sākotnējais pirkšanas pasūtījums ir iekļauts rēķinā, tiks izveidoti ar oriģinālajām pirkšanas pasūtījuma rindām saistītie preču tranzīta pasūtījumi. Šos pasūtījumus pēc tam var saņemt noliktava.  |
 | Nosūtīšanas pārsūtīšanas pasūtījums | Grāmatojiet pārsūtīšanas pasūtījuma reisu visām pirkšanas pasūtījuma rindām reisā. Kad šī poga ir atlasīta, atjaunināšanai būs pieejami tikai pārsūtīšanas pasūtījumi. |
 | Saņemt pārsūtīšanas pasūtījumu | Grāmatojiet pārsūtīšanas pasūtījuma reisu visām pirkšanas pasūtījuma rindām reisā. |
 | Saņemtās tranzītpreces | Saņemt visas pasūtījuma rindas, kas ir tranzītā reisā. Šī poga ir viena no trim opcijām, kas ir pieejamas preču saņemšanai tranzītā reisā. (Pārējās divas opcijas ir **Izveidojiet saņemšanas žurnāla** pogu, kas vēlāk ir aprakstīta šajā tabulā, un Warehouse Management mobile programmā.) Šī opcija ir vienkāršākā opcija, un apstrādās preces tranzītā no tranzītkrājumu noliktavas un galamērķa noliktavā. Ja vēlaties veikt lielāku procesa kontroli, izmantojiet saņemšanas žurnālu vai mobilo ierīci, lai apstrādātu preču saņemšanu. |
@@ -84,7 +84,7 @@ Darbību rūts lapā **Reisi** nodrošina pogas, kas ļauj strādāt ar atlasīt
 
 | Poga | Apraksts |
 |---|---|
-| Saņemšanas saraksts | Atveriet saņemšanas preču sarakstu visām pirkšanas pasūtījuma rindām reisā. Ja tiek izmantotas vairāku uzņēmumu kravas, katram uzņēmumam tiek atvērts jauns saņemšanas saraksta grāmatošanas dialoglodziņš. Ja produktu ieejas plūsmu saraksti nav apstrādāti, šī poga nav pieejama. |
+| Saņemšanas saraksts | Atveriet saņemšanas preču sarakstu visām pirkšanas pasūtījuma rindām reisā.  Ja produktu ieejas plūsmu saraksti nav apstrādāti, šī poga nav pieejama. |
 | Produktu ieejas plūsma | Atveriet produktu ieejas plūsmas ierakstu pirkšanas pasūtījuma rindām, kas ir saistītas ar reisu, ja tiek izmantots šis ieraksts. Ja produktu ieejas plūsmu saraksti nav grāmatoti, šī poga nav pieejama. Produktu ieejas plūsmas process netiks izmantots, ja izmantojat tranzītā kravu apstrādi. |
 | Krājumu saņemšana | Atveriet krājumu saņemšanas žurnālu, ja tas tiek izmantots. |
 | Izsekošana | Atveriet **Ienākošo sūtījumu izsekošanas** lapu, kurā jūs varat atjaunināt paredzēto preču saņemšanas datumu nosūtīšanas konteinerā un reisā, un pēc tam atjaunināt pirkšanas pasūtījuma rindu paredzamos piegādes datumus. |

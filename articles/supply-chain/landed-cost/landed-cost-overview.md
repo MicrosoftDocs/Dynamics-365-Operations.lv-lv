@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e4861c0e8b3680f3cd3229facf059b671a4fc765
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 90410585f314aa9f17f2c132afb6568307fb28ab
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983421"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570386"
 ---
 # <a name="landed-cost-module"></a>Kopējo izmaksu modulis
 
@@ -39,7 +39,7 @@ Kopējās izmaksas nodrošina precīzas un laicīgas pieskaitāmās zemes izmaks
 
 ### <a name="voyages"></a>Reisi
 
-Kopējās izmaksās reiss ir atšķirīga kustība no nosūtīšanas vietas, izmantojot noteiktu adresātu kopu noteiktā laika posmā uz norādītu saņemšanas noliktavas atrašanās vietu. Pirkšanas pasūtījumus un pasūtījumu rindas var pievienot vienam konteineram vai vairākiem reisa konteineriem, un izmaksas tiks pareizi sadalītas atpakaļ uz krājumu rindu. Pasūtījumus un pasūtījumu rindas var pievienot arī visām juridiskajām personām vienam reisam.
+Kopējās izmaksās reiss ir atšķirīga kustība no nosūtīšanas vietas, izmantojot noteiktu adresātu kopu noteiktā laika posmā uz norādītu saņemšanas noliktavas atrašanās vietu. Pirkšanas pasūtījumus un pasūtījumu rindas var pievienot vienam konteineram vai vairākiem reisa konteineriem, un izmaksas tiks pareizi sadalītas atpakaļ uz krājumu rindu. 
 
 ### <a name="item-ownership"></a>Krājuma īpašumtiesības
 

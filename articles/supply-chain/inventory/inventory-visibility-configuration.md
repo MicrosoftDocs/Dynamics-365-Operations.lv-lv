@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: adab5ee3f626390355f4bab1227efd5fe58c2fcf
-ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
-ms.translationtype: HT
+ms.openlocfilehash: a2f7929026f41e921b71bc5a899810695c859902
+ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8524526"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8547793"
 ---
 # <a name="configure-inventory-visibility"></a>Krājumu redzamības konfigurēšana
 
@@ -51,9 +51,10 @@ Inventory Visibility pievienojumprogramma pievieno vairākus jaunus līdzekļus 
 
 | Līdzekļu pārvaldības nosaukums | Apraksts |
 |---|---|
-| OnHandReservation | Izmantojot krājumu redzamību, varat izveidot rezervācijas, patērētās rezervācijas un/vai atcelt norādītos krājumu daudzumus. Papildinformāciju skatiet [Krājumu uztveramības pievienojumprogrammas rezervācijas](inventory-visibility-reservations.md). |
-| OnHandMostSpecificBackgroundService | Šī funkcija sniedz krājumu kopsavilkumu precēm kopā ar visām dimensijām. Krājuma kopsavilkuma dati tiks periodiski sinhronizēti no Inventory Visibility. Papildinformāciju skatiet krājumu [kopsavilkumā](inventory-visibility-power-platform.md#inventory-summary). |
-| OnhandChangeSchedule | Šī funkcija iespējo rīcībā esošo izmaiņu grafiku un pieejamās solīšanai (ATP) funkcijas (neobligāti). Papildinformāciju skatiet krājumu redzamības [rīcībā esošo izmaiņu grafiki un apsolīšanai pieejamos](inventory-visibility-available-to-promise.md). |
+| *OnHandReservation* | Izmantojot krājumu redzamību, varat izveidot rezervācijas, patērētās rezervācijas un/vai atcelt norādītos krājumu daudzumus. Papildinformāciju skatiet [Krājumu uztveramības pievienojumprogrammas rezervācijas](inventory-visibility-reservations.md). |
+| *OnHandMostSpecificBackgroundService* | Šī funkcija sniedz preču krājumu kopsavilkumu kopā ar visām dimensijām. Krājuma kopsavilkuma dati tiks periodiski sinhronizēti no Inventory Visibility. Papildinformāciju skatiet krājumu [kopsavilkumā](inventory-visibility-power-platform.md#inventory-summary). |
+| *OnhandChangeSchedule* | Šī izvēles funkcija aktivizē rīcībā esošo izmaiņu grafiku un pieejamās solīšanai (ATP) funkcijas. Papildinformāciju skatiet sadaļā Rīcībā [esošo krājumu redzamības izmaiņu grafiks un apsolīšanai pieejamais](inventory-visibility-available-to-promise.md). |
+| *Iespējot noliktavas preces krājumu redzamības pakalpojumā* | Šī izvēles funkcija iespējo krājumu redzamību, lai atbalstītu krājumus, kas ir iespējoti papildu noliktavas procesiem (WHS krājumi). Papildinformāciju skatiet noliktavas [redzamības atbalsta sadaļā WHS krājumiem](inventory-visibility-whs-support.md). |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Atrast pakalpojuma galapunktu
 
@@ -61,7 +62,7 @@ Ja nezināt pareizo Krājumu redzamības pakalpojuma galapunktu, atveriet lapu *
 
 ## <a name="data-source-configuration"></a>Datu avota konfigurācija
 
-Katrs datu avots atspoguļo sistēmu, no kuras nāk dati. Piemēram, datu avotu nosaukumi `fno` ietver (kas nozīmē "Dynamics 365 Finance un operāciju programmas") un `pos` (kas nozīmē "pārdošanas punkts"). Pēc noklusējuma Krājumu redzamības programma Supply Chain Management ir iestatīta kā noklusējuma datu avots (`fno`).
+Katrs datu avots atspoguļo sistēmu, no kuras nāk dati. Piemēram, datu avotu nosaukumi ietver `fno` (kas nozīmē "Dynamics 365 Finanšu un operāciju programmas") `pos` un (kas nozīmē "pārdošanas punkts"). Pēc noklusējuma Krājumu redzamības programma Supply Chain Management ir iestatīta kā noklusējuma datu avots (`fno`).
 
 > [!NOTE]
 > Datu `fno` avots ir rezervēts Piegādes ķēžu pārvaldībai. Ja krājumu redzamības pievienojumprogramma ir integrēta Piegādes ķēdes pārvaldības vidē, mēs iesakām nedzēšam konfigurācijas, kas saistītas `fno` ar datu avotu.

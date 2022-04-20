@@ -1,5 +1,5 @@
 ---
-title: Veidot ER formātu, lai rindas paturētu vienā Excel lapā
+title: Veidot ER formātu, lai rindas paturētu kopā vienā Excel lapā
 description: Šajā tēmā skaidrots, kā projektēt elektronisko pārskatu (ER) formātu, kas uztur rindas kopā vienā Microsoft Excel lapā.
 author: NickSelin
 ms.date: 02/28/2022
@@ -15,18 +15,17 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-03-01
 ms.dyn365.ops.version: Version 10.0.26
-ms.openlocfilehash: 711681ab38fb24b57a83f008f86a8261176aa5a5
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: 06782a4933fb5c3e86ad436b853f207fd3d5cddb
+ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8389140"
+ms.lasthandoff: 04/16/2022
+ms.locfileid: "8612375"
 ---
-# <a name="design-an-er-format-to-keep-rows-together-on-the-same-excel-page"></a>Veidot ER formātu, lai rindas paturētu vienā Excel lapā
+# <a name="design-an-er-format-to-keep-rows-together-on-the-same-excel-page"></a>Veidot ER formātu, lai rindas paturētu kopā vienā Excel lapā
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 Šajā tēmā skaidrots, kā lietotājs sistēmas administratora vai elektronisko pārskatu veidošanas funkcionālo konsultanta lomā var konfigurēt elektronisko pārskatu (ER) [...](general-electronic-reporting.md)[formātu, kas ģenerē izejošos](er-overview-components.md#format-component) dokumentus un pārvalda dokumenta lapu tā, lai izveidotās Microsoft Excel rindas būtu tajā pašā lapā.
 
@@ -55,7 +54,7 @@ Izpildiet sadaļā [ER struktūras konfigurēšana](er-quick-start2-customize-re
 
 ## <a name="import-the-standard-er-format-configuration"></a>Standarta ER formāta konfigurācijas importēšana
 
-Izpildiet sadaļā [Importēt standarta ER formāta konfigurāciju](er-quick-start2-customize-report.md#ImportERSolution1) norādītās darbības, lai pašreizējai instancei pievienotu Dynamics 365 Finance standarta ER konfigurācijas. Piemēram, brīvā teksta rēķina **(Excel)** formāta konfigurācijas importa versija 252.116 **·**. Pamata rēķina **modeļa konfigurācijas pamat versija 252** **tiek** automātiski importēta no repozitorija kopā ar nepieciešamo rēķina **modeļa kartēšanas** konfigurāciju.
+Izpildiet darbības [standarta ER](er-quick-start2-customize-report.md#ImportERSolution1) formāta konfigurācijas importēšanai, lai pievienotu standarta ER konfigurācijas pašreizējai Dynamics 365 finanšu instancei. Piemēram, brīvā teksta rēķina **(Excel)** formāta konfigurācijas importa versija 252.116 **·**. Pamata rēķina **modeļa konfigurācijas pamat versija 252** **tiek** automātiski importēta no repozitorija kopā ar nepieciešamo rēķina **modeļa kartēšanas** konfigurāciju.
 
 ## <a name="set-up-print-management-to-use-the-standard-er-format"></a>Iestatīt drukas pārvaldību, lai lietotu standarta ER formātu
 

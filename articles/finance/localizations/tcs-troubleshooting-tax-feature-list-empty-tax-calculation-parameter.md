@@ -1,5 +1,5 @@
 ---
-title: Tukšs nodokļu aprēķina parametros iekļauts tukšs nodokļu līdzekļu saraksts
+title: Tukšs nodokļu līdzekļu saraksts nodokļu aprēķina parametros
 description: Šajā tēmā skaidrots, kā novērst problēmu, kad nodokļu funkciju saraksts lapā Nodokļu aprēķina parametri ir tukšs.
 author: wangchen
 ms.date: 03/04/2022
@@ -13,22 +13,21 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-10-26
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 5b87499042c9c4bfe76e182b170adf4f1cfeac4b
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: ef8158c2ada18e7d132eebbedef559b3f80ab19f
+ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8389131"
+ms.lasthandoff: 04/16/2022
+ms.locfileid: "8612294"
 ---
-# <a name="empty-tax-feature-list-in-tax-calculation-parameters"></a>Tukšs nodokļu aprēķina parametros iekļauts tukšs nodokļu līdzekļu saraksts
+# <a name="empty-tax-feature-list-in-tax-calculation-parameters"></a>Tukšs nodokļu līdzekļu saraksts nodokļu aprēķina parametros
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 ## <a name="symptom"></a>Simptoms
 
-Esat publicējis līdzekli regulēšanas konfigurācijas pakalpojumā (RCS), lai to varētu izmantot programmā Microsoft Dynamics 365 Finance. Tomēr, atverot finanses, **·** \> **·** \> **·** \> **dodieties uz nodokļu iestatījumu nodokļa konfigurācijas nodokļa aprēķina** **parametrus un mēģiniet atlasīt vērtību laukā Līdzekļa iestatījuma** nosaukums, vērtību saraksts ir tukšs.
+Esat publicējis līdzekli regulēšanas konfigurācijas pakalpojumā (RCS), lai to varētu izmantot Microsoft Dynamics 365 Finanses. Tomēr, atverot finanses, **·** \> **·** \> **·** \> **dodieties uz nodokļu iestatījumu nodokļa konfigurācijas nodokļa aprēķina** **parametrus un mēģiniet atlasīt vērtību laukā Līdzekļa iestatījuma** nosaukums, vērtību saraksts ir tukšs.
 
 ## <a name="reason"></a>Pamatojums
 

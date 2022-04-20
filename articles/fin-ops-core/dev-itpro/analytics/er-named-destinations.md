@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1e06fafe8d8bbe92ddf4fcd94d7271a1fbb6362a
-ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
+ms.openlocfilehash: 4cd99b1d2c0dbbf48e7eee7e1233e3b078d14ba3
+ms.sourcegitcommit: 6109fc2fe5f407363bb6f240d64b7214657f5914
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "7413605"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "8603059"
 ---
 # <a name="configure-print-management-record-specific-er-destinations"></a>Drukas pārvaldības ierakstam raksturīgo ER adresātu konfigurēšana
 
@@ -35,9 +35,9 @@ ms.locfileid: "7413605"
 
 ## <a name="introduction"></a>Ievads
 
-Varat konfigurēt [adresātus](electronic-reporting-destinations.md) katrai mapei failu izvades komponentā elektroniskās ziņošanas (ER) [formāta](general-electronic-reporting.md#FormatComponentOutbound) [konfigurācijā](general-electronic-reporting.md#Configuration), kas tiek izmantota izejošā dokumenta izveidei. Izmantojot šī tipa ER formātu, ja jums ir atbilstošas piekļuves tiesības, izpildlaikā varat mainīt arī konfigurētos adresāta iestatījumus.
+Varat konfigurēt [adresātus](electronic-reporting-destinations.md) katrai mapei failu izvades komponentā elektroniskās ziņošanas (ER) [formāta](general-electronic-reporting.md) [konfigurācijā](general-electronic-reporting.md#Configuration), kas tiek izmantota izejošā dokumenta izveidei. Izmantojot šī tipa ER formātu, ja jums ir atbilstošas piekļuves tiesības, izpildlaikā varat mainīt arī konfigurētos adresāta iestatījumus.
 
-Microsoft Dynamics 365 Finance **10.0.17 un jaunākā versijā** darbības kodu var [iestatīt](er-apis-app10-0-17.md) ER formātam, lai norādītu darbību, kuru lietotāji izpilda, palaižot šo ER formātu. Piemēram, **Debitoru parādu** modulī drukas pārvaldības iestatījumos varat atlasīt ER formātu, kas ģenerē noteiktu biznesa dokumentu, piemēram, brīva teksta rēķinu. Pēc tam varat atlasīt **Skatīt**, lai priekšskatītu rēķinu, vai **Drukāt**, lai nosūtītu to uz printeri. Ja izpildlaikā darbība ir izpildīta ER formātam, varat [konfigurēt dažādus ER adresātus dažādām lietotāja darbībām](er-action-dependent-destinations.md).
+Microsoft Dynamics 365 Finance **versijā 10.0.17 un jaunākās versijās** ER formātam var [iestatīt](er-apis-app10-0-17.md) darbības kodu, lai norādītu darbību, ko lietotāji veic, palaižot šo ER formātu. Piemēram, **Debitoru parādu** modulī drukas pārvaldības iestatījumos varat atlasīt ER formātu, kas ģenerē noteiktu biznesa dokumentu, piemēram, brīva teksta rēķinu. Pēc tam varat atlasīt **Skatīt**, lai priekšskatītu rēķinu, vai **Drukāt**, lai nosūtītu to uz printeri. Ja izpildlaikā darbība ir izpildīta ER formātam, varat [konfigurēt dažādus ER adresātus dažādām lietotāja darbībām](er-action-dependent-destinations.md).
 
 Finance **10.0.21 un jaunākā versijā** nosauktu adresātu var [iestatīt](er-apis-app10-0-21.md) ER formātam un piešķirt drukas pārvaldības ierakstam, kas tiek apstrādāts, palaižot ER formātu. Piemēram, **Debitoru parādu** modulī drukas pārvaldības iestatījumos vēlaties konfigurēt **Oriģinālo** ierakstu, lai veiktu tālāk minētās darbības.
 

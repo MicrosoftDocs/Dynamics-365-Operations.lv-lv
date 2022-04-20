@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 371a8c7178cd7c5091d6dd9a91d0ee03b943a269
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 124fb90ecafd4f4cccbd8a8bb443694c95365732
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103192"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570345"
 ---
 # <a name="sales-update-history-cleanup-job-fails-or-has-performance-issues"></a>Pārdošanas atjauninājumu vēstures tīrīšanas darbs neizdodas vai tam ir veiktspējas problēmas
 
@@ -30,5 +30,5 @@ Tas var notikt, kad sistēma ietver lielu skaitu pārdošanas atjauninājumu, ka
 
 ## <a name="resolution"></a>Novēršana
 
-Jauna versija **Pārdošanas atjauninājumu vēstures tīrīšanas** pakešuzdevumam ir pieejama Supply Chain Management versijai 10.0.19 un jaunākām. Šis līdzeklis nav ieslēgts pēc noklusējuma. Detalizētu informāciju par to, kā tā darbojas un kā to iespējot līdzekļu pārvaldībā, skatiet pārdošanas [vēstures tīrīšanas veiktspējas uzlabojumi](../../sales-marketing/sales-update-history-cleanup-performance-improvements.md).
+Jauna versija **Pārdošanas atjauninājumu vēstures tīrīšanas** pakešuzdevumam ir pieejama Supply Chain Management versijai 10.0.19 un jaunākām. Šis līdzeklis pēc noklusējuma nav ieslēgts. Detalizētu informāciju par to, kā tas darbojas un kā to iespējot līdzekļu pārvaldībā, skatiet rakstā [Pārdošanas vēstures datu tīrīšanas plānošana](../../sales-marketing/sales-update-history-cleanup-performance-improvements.md).
 

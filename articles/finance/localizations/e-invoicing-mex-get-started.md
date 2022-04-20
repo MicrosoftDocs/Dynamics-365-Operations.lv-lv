@@ -17,33 +17,33 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f512a6208bc85cd5796ce9515d2bc440f92ea79f
-ms.sourcegitcommit: 5033d42a2aac852916d726e40bd98a164d1a837d
+ms.openlocfilehash: 6fc8a9eaf6c6e4c82719e7c1ebccd4272548e73f
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "7986362"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8566004"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Darba sākšana ar elektronisko rēķinu izveidi lietošanai Meksikā
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> Elektronisko rēķinu izrakstīšana Meksikai pašlaik var nenodrošināt visas funkcijas, kas ir pieejamas Microsoft Dynamics 365 Finance vai Dynamics 365 Supply Chain Management iebūvētajā Comprobante Fiscal Digital por Internet (CFDI) dokumentu integrācijā un saistītajā integrācijā.
+> Elektroniskā rēķinu izrakstīšana Meksikai pašlaik neatbalsta visas funkcijas, kas pieejamas Comprobfisk Fiscal Digital por Internet (CFDI) dokumentā un saistītajā integrācijā, Microsoft Dynamics kas ir veidota 365 Finansēs vai Dynamics 365 Supply Chain Management.
 
 Šajā tēmā ir sniegta informācija, kas palīdzēs sākt darbu ar elektronisko rēķinu izveidi lietošanai Meksikā. Tas palīdz veikt konfigurācijas darbības, kas ir atkarīgas no valsts risinājumos Regulatory Configuration Services (RCS) un Finance. Tas arī palīdz veikt darbības, kas jāveic programmā Finance, lai iesniegtu CFDI rēķinus, izmantojot pakalpojumu, un tas izskaidro, kā pārskatīt apstrādes rezultātus un CFDI rēķinu statusu.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
-Pirms veicat šajā tēmā norādītās darbības, ir jāveic darbības, kas norādītas sadaļā [Darba sākšana ar elektronisko rēķinu izrakstīšanas pakalpojumu administrēšanu](e-invoicing-get-started-service-administration.md) un [Darba sākšana ar elektroniskajiem rēķiniem](e-invoicing-get-started.md).
+Pirms šīs tēmas darbību [veikšanas](e-invoicing-get-started-service-administration.md)[ir jāveic soļi sadaļā Sākt darbu ar elektronisko rēķinu izrakstīšanas pakalpojumu administrāciju un sāciet darbu ar elektronisko rēķinu izrakstīšanu](e-invoicing-get-started.md).
 
-## <a name="set-up-the-cadena-xslt"></a>Cadena XSLT iestatīšana
+## <a name="set-up-the-cadena-xslt"></a>Iestatīt Cadena XSLT
 
-Lai pievienotu Cadena XSLT shēmu CFDI apstrādes globalizācijas līdzeklim, veiciet tālāk norādītās darbības.
+Lai CFDI apstrādes globalizācijas līdzeklim pievienotu Cadena XSLT shēmu, veiciet šādus soļus:
 
-1. Lejupielādējiet shēmu no [SAT tīmekļa vietnes](http://www.sat.gob.mx/sitio_internet/cfd/3/cadenaoriginal_3_3/cadenaoriginal_3_3.xslt).
-2. Saspiest shēmu ZIP failā.
-3. Saglabājiet xslt failu savā Azure krātuves kontā, kas iestatīts jaunā konteinera pakalpojuma vidē.
+1. Lejupielādējiet shēmu no [SAT vietnes](http://www.sat.gob.mx/sitio_internet/cfd/3/cadenaoriginal_3_3/cadenaoriginal_3_3.xslt).
+2. Saspiediet shēmu uz ZIP failu.
+3. Saglabājiet xslt failu Azure glabāšanas kontā, kas ir iestatīts jaunā konteinera pakalpojumu vidē.
 
 ## <a name="rcs-setup"></a>RCS iestatījumi
 
@@ -136,12 +136,12 @@ Lai iesniegtu CFDI rēķina atcelšanu, ir jānorāda līdzekļu **Atcelšana** 
 > [!NOTE]
 > Izmantojiet tās pašas darbības, lai atjauninātu vietrādi URL darbībai **Izsaukt Meksikas PAC pakalpojumu** līdzekļu **Atcelt** un **Atcelšanas pieprasījums** iestatījumiem.
 
-### <a name="set-up-the-path-for-the-cadena-xlst-schema"></a>Cadena XLST shēmas ceļa iestatīšana
+### <a name="set-up-the-path-for-the-cadena-xlst-schema"></a>Iestatīt Cadena XLST shēmas ceļu
 
-1. **Lapas** Līdzekļu versijas iestatīšana **cilnē Mainīgie** atlasiet mainīgā nosaukumu **DigitalSignatureXSLT**.
-2. Laukā **Vērtības** ievadiet: {"containerUrl":"https://&lt; AccountStorageName&gt;.blob.core.windows.net/&lt; ContainerName&gt;","path":"&lt; RelativePath&gt;"}
+1. **Līdzekļu versijas iestatījuma** lapā Cilnē **Mainīgie** atlasiet mainīgā nosaukumu **DigitalSign fontsXSLT**.
+2. Laukā **Vērtības ievadiet** : {"containerUrl":"https://&lt; AccountStorageName&gt;.blob.core.windows.net/&lt; ContainerName&gt;","path":"&lt; RelativePath&gt;"}
    
-    kur: <RelativePath> = folderfolderfilename\\\\ with double backslashes, ContainerName ir jānorāda konteiners, kas tiek izmantots pakalpojumam.
+    kur: \<RelativePath\> = folderfolderfile\\\\ nosaukums ar dubultās atpakaļvērstās slīpsvītras, ContainerName ir jānorāda pakalpojumam izmantotais konteiners.
    
     Mainīgā piemērs būtu:
     

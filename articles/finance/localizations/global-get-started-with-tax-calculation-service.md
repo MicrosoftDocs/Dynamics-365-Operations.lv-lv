@@ -2,7 +2,7 @@
 title: Darba sākšana ar nodokļu aprēķinu
 description: Šajā tēmā paskaidrots, kā iestatīt Nodokļu aprēķinu.
 author: wangchen
-ms.date: 01/05/2022
+ms.date: 03/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ae2c20fe79c2f8fd8d102740441230ae443f16a3
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
-ms.translationtype: HT
+ms.openlocfilehash: 61ee15901a091ee733b83c8cbaa5b84801fa8e5d
+ms.sourcegitcommit: 4afd1e0b325d27cd7c4e0d9a198400b038262ac7
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952525"
+ms.lasthandoff: 04/09/2022
+ms.locfileid: "8558318"
 ---
 # <a name="get-started-with-tax-calculation"></a>Darba sākšana ar nodokļu aprēķinu
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par to, kā sākt darbu ar Nodokļu aprēķinu. Šīs tēmas sadaļās ir vadītas augsta līmeņa dizaina un konfigurācijas darbības Microsoft Dynamics pakalpojumā Lifecycle Services (LCS), regulatory configuration Service (RCS) un Dynamics 365 Finance Dynamics 365 Supply Chain Management. 
+Šajā tēmā ir sniegta informācija par to, kā sākt darbu ar Nodokļu aprēķinu. Šīs tēmas Microsoft Dynamics sadaļās ir vadītas augsta līmeņa dizaina un konfigurācijas darbības pakalpojumā Lifecycle Services (LCS), regulēšanas konfigurācijas pakalpojums (RCS), Dynamics 365 Finanses un Dynamics 365 Supply Chain Management. 
 
 Uzstādīšana sastāv no trim galvenajiem soļiem.
 
@@ -36,17 +36,17 @@ Uzstādīšana sastāv no trim galvenajiem soļiem.
 
 ## <a name="high-level-design"></a>Augsta līmeņa dizains
 
-### <a name="runtime-design"></a>Izpildlaika dizains
+### <a name="runtime-design"></a><a name="runtime"></a> Izpildlaika dizains
 
 Šajā ilustrācijā parādīts augsta līmeņa nodokļu aprēķina izpildlaika dizains. Tā kā nodokļu aprēķinu var integrēt vairākās Dynamics 365 programmās, ilustrācija kā piemēru izmanto integrāciju ar Finansēm.
 
 1. Darbība, piemēram, pārdošanas pasūtījums vai pirkšanas pasūtījums, ir izveidota finansēs.
 2. Finanses automātiski izmanto PVN grupas un krājumu PVN grupas noklusējuma vērtības.
-3. Ja **darbībai** ir atlasīta PVN poga, tiek parādīts nodokļu aprēķins. Finanses pēc tam nosūta lietderīgo slodzi uz nodokļu aprēķina pakalpojumu.
+3. Ja darbībai **ir** atlasīta PVN poga, tiek parādīts nodokļu aprēķins. Finanses pēc tam nosūta lietderīgo slodzi uz nodokļu aprēķina pakalpojumu.
 4. Nodokļu aprēķina pakalpojums saskaņo lietderīgo slodzi ar iepriekš definētiem noteikumiem nodokļu funkcijai, lai atrastu precīzāku PVN grupu un krājumu PVN grupu vienlaicīgi.
 
-    - Ja lietderīgo slodzi var saskaņot ar matricu Nodokļu grupas piemērojamība, tā ignorē PVN grupas vērtību ar piemēroto nodokļu grupas vērtību **piemērojamības** noteikumā. Pretējā gadījumā tas turpinās izmantot Finanšu PVN grupas vērtību.
-    - Ja lietderīgo slodzi var saskaņot ar matricu Krājumu nodokļu grupa piemērojamība, piemērojamības kārtulā tiek ignorēta krājumu PVN grupas vērtība ar atbilstošo krājumu nodokļu **grupas** vērtību. Pretējā gadījumā tas turpinās izmantot krājumu PVN grupas vērtību no Finanšu.
+    - Ja lietderīgo slodzi var saskaņot **ar** matricu Nodokļu grupas piemērojamība, tā ignorē PVN grupas vērtību ar piemēroto nodokļu grupas vērtību piemērojamības noteikumā. Pretējā gadījumā tas turpinās izmantot Finanšu PVN grupas vērtību.
+    - Ja lietderīgo slodzi var **saskaņot** ar matricu Krājumu nodokļu grupa piemērojamība, piemērojamības kārtulā tiek ignorēta krājumu PVN grupas vērtība ar atbilstošo krājumu nodokļu grupas vērtību. Pretējā gadījumā tas turpinās izmantot krājumu PVN grupas vērtību no Finanšu.
 
 5. Nodokļu aprēķinu pakalpojums nosaka gala nodokļu kodus, izmantojot PVN grupas un krājumu PVN grupas krustpunktu.
 6. Nodokļu aprēķināšanas pakalpojums aprēķina nodokli, balstoties uz nodokļu beigu kodiem, ko tas noteicis.
@@ -58,9 +58,9 @@ Uzstādīšana sastāv no trim galvenajiem soļiem.
 
 Šajās darbībās sniegts augsta līmeņa pārskats par konfigurācijas procesu nodokļu aprēķināšanas pakalpojumam.
 
-1. LCS instalē **nodokļu** aprēķina pievienojumprogrammu savā LCS projektā.
-2. RCS izveidojiet nodokļu **aprēķina** līdzekli.
-3. RCS iestatiet Nodokļu **aprēķina** līdzekli:
+1. LCS instalē nodokļu **aprēķina** pievienojumprogrammu savā LCS projektā.
+2. RCS izveidojiet nodokļu **aprēķina līdzekli**.
+3. RCS iestatiet Nodokļu aprēķina **līdzekli**:
 
     1. Atlasiet nodokļu konfigurācijas versiju.
     2. Veidojiet nodokļu kodus.
@@ -69,8 +69,8 @@ Uzstādīšana sastāv no trim galvenajiem soļiem.
     5. Nav obligāti: izveidot nodokļu grupas piemērojamību, ja vēlaties ignorēt noklusēto PVN grupu, kas tiek ievadīta no debitora vai kreditora pamatdatiem.
     6. Nav obligāti: izveidot krājumu grupas piemērojamību, ja vēlaties ignorēt noklusēto krājumu PVN grupu, kas ievadīta no krājumu pamatdatiem.
 
-4. RCS izpildiet un publicējiet **nodokļu aprēķina** līdzekli.
-5. Finanšu sadaļā atlasiet publicēto **nodokļu aprēķina** līdzekli.
+4. RCS izpildiet un publicējiet nodokļu **aprēķina** līdzekli.
+5. Finanšu sadaļā atlasiet publicēto nodokļu **aprēķina** līdzekli.
 
 Kad šīs darbības pabeigtas, šie iestatījumi no RCS tiek automātiski sinhronizēti finansēs.
 
@@ -96,6 +96,14 @@ Pirms varat izpildīt atlikušās procedūras šajā tēmā, jābūt izpildītie
 
     - Globalizācijas līdzekļi
 
+- Šīs lomas ir jāpiešķir atbilstoši lietotājiem jūsu RCS vidē:
+
+    - Elektroniskā pārskata izstrādātājs
+    - Globalizācijas līdzekļu izstrādātājs
+    - Nodokļu programmas izstrādātājs
+    - Konsultants saistībā ar nodokļu programmas darbību
+    - Nodokļu pakalpojuma izstrādātājs
+
 ## <a name="set-up-tax-calculation-in-lcs"></a>Iestatīt Nodokļu aprēķinu sistēmā LCS
 
 1. Pierakstīšanās programmā [LCS](https://lcs.dynamics.com)
@@ -115,7 +123,7 @@ Pirms varat izpildīt atlikušās procedūras šajā tēmā, jābūt izpildītie
 5. Laukā **Tips** atlasiet **Globāls**.
 6. Atlasiet **Atvērt**.
 7. Dodieties uz **Nodokļu datu modelis**, izvērsiet failu koku un pēc tam atlasiet **Nodokļu konfigurācija**.
-8. Atlasiet pareizu nodokļu [konfigurācijas](global-tax-calcuation-service-overview.md#versions) versiju, pamatojoties uz finanšu versiju, un pēc tam atlasiet **Importēt**.
+8. Atlasiet pareizu nodokļu [konfigurācijas versiju, pamatojoties](global-tax-calcuation-service-overview.md#versions) uz finanšu versiju, un pēc tam atlasiet **Importēt**.
 9. Darbvietā **Globalizācijas līdzekļi**, atlasiet **Līdzekļi**, atlasiet elementu **Nodokļu aprēķins** un pēc tam atlasiet **Pievienot**.
 10. Atlasiet vienu no šiem līdzekļu tipiem:
 
@@ -203,6 +211,9 @@ Pirms varat izpildīt atlikušās procedūras šajā tēmā, jābūt izpildītie
     | Pārdošana            | DEU       | FRA     | DEU_EU       |
     | Pārdošana            | BEL       | BEL     | BEL_Domestic |
     | Pārdošana            | BEL       | FRA     | BEL_EU       |
+    
+    > [!NOTE]
+    > Ja nodokļu dokumenta rindās noklusētā PVN grupa ir pareiza, atstājiet šo matricu tukšu. Papildinformāciju skatiet šīs tēmas [izpildlaika](#runtime) dizaina sadaļā.
 
 22. Cilnē **Krājumu nodokļu grupas piemērojamība** atlasiet kolonnas, kas ir nepieciešamas pareizā nodokļu koda noteikšanai, un pēc tam atlasiet **Pievienot**. Ievadiet vai atlasiet vērtības katrai kolonnai. Lauks **Krājumu nodokļu grupa** būs šīs matricas rezultāts. Ja šī cilne netiek konfigurēta, tiks izmantota krājumu PVN grupa transakciju rindā.
 
@@ -212,6 +223,9 @@ Pirms varat izpildīt atlikušās procedūras šajā tēmā, jābūt izpildītie
     | --------- | -------------- |
     | D0001     | Pilns           |
     | D0003     | Samazināts        |
+
+    > [!NOTE]
+    > Ja noklusētā krājumu PVN grupa apliekamā dokumenta rindās ir pareiza, atstājiet šo matricu tukšu. Papildinformāciju skatiet šīs tēmas [izpildlaika](#runtime) dizaina sadaļā.
 
     Papildinformāciju par to, kā nodokļu aprēķinā tiek noteikti nodokļu kodi, skatiet sadaļā [PVN grupas un krājuma PVN grupas noteikšanas loģika](global-sales-tax-group-determination.md).
 

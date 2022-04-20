@@ -1,5 +1,5 @@
 ---
-title: Neizdevās piekļūt nodokļu pakalpojumam.
+title: Neizdevās piekļūt nodokļu pakalpojumam
 description: Šajā tēmā skaidrots, kā novērst kļūdu, piekļūstot nodokļu aprēķina pakalpojumam.
 author: hangwan
 ms.date: 03/04/2022
@@ -13,24 +13,23 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 02/16/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 48a75cd0c1d91c3b3d9c3fb2e6cab93a76756532
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: f4682b83405071b4ad7647958122ab2b4e082133
+ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8389128"
+ms.lasthandoff: 04/16/2022
+ms.locfileid: "8612321"
 ---
-# <a name="failed-to-access-tax-service"></a>Neizdevās piekļūt nodokļu pakalpojumam.
+# <a name="failed-to-access-tax-service"></a>Neizdevās piekļūt nodokļu pakalpojumam
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 Šajā tēmā skaidrots, kā labot nodokļu aprēķina pakalpojuma kļūdu "Neizdevās piekļūt nodokļu pakalpojumiem".
 
 ## <a name="symptoms"></a>Simptomi
 
-Sistēmā Microsoft Dynamics 365 Finance iet uz nodokļu **iestatījumu** \> **nodokļu** \> **konfigurācijas nodokļa** \> **pakalpojuma parametriem.** Cilnē Vispārīgi **iespējojiet** opciju Iespējot **nodokļu aprēķināšanu**. Ja pēc tam mēģiniet atlasīt vērtību laukā **Līdzekļa iestatījuma** nosaukums, rodas kļūda. Kļūdas ziņojums norāda, "Neizdevās piekļūt nodokļu pakalpojumiem."
+Microsoft Dynamics 365 Finanses, dodieties uz nodokļu **iestatījumu** \> **nodokļa** \> **konfigurācijas nodokļu** \> **pakalpojuma parametriem.** Cilnē Vispārīgi **iespējojiet** opciju Iespējot **nodokļu aprēķināšanu**. Ja pēc tam mēģiniet atlasīt vērtību laukā **Līdzekļa iestatījuma** nosaukums, rodas kļūda. Kļūdas ziņojums norāda, "Neizdevās piekļūt nodokļu pakalpojumiem."
 
 ## <a name="cause"></a>Iemesls
 

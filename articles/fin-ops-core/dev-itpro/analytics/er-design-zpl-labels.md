@@ -1,5 +1,5 @@
 ---
-title: Izveidot jaunu ER risinājumu ZPL etiķešu drukāšanai
+title: Jauna elektronisko pārskatu risinājuma izveide ZPL etiķešu izdrukāšanas nolūkā
 description: Šajā tēmā skaidrots, kā projektēt jaunu elektronisko pārskatu (ER) risinājumu Etiķešu programmēšanas valodas (ZPL) etiķešu drukāšanai.
 author: NickSelin
 ms.date: 02/28/2022
@@ -15,24 +15,23 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-02-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 4fb89f4b56ce8189482bf1a86582ef7e3684b15a
-ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.openlocfilehash: c1bedf1184b45741102000fa68c8d662c7383301
+ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "8392967"
+ms.lasthandoff: 04/16/2022
+ms.locfileid: "8612361"
 ---
-# <a name="design-a-new-er-solution-to-print-zpl-labels"></a>Izveidot jaunu ER risinājumu ZPL etiķešu drukāšanai
+# <a name="design-a-new-er-solution-to-print-zpl-labels"></a>Jauna elektronisko pārskatu risinājuma izveide ZPL etiķešu izdrukāšanas nolūkā
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 Šajā tēmā skaidrots, kā lietotājs Sistēmas administratora, [elektronisko pārskatu izstrādātāja vai elektronisko pārskatu funkcionālā konsultanta loma var konfigurēt elektronisko pārskatu (ER)](general-electronic-reporting.md) struktūras parametrus, projektēt nepieciešamās ER konfigurācijas jauna ER [risinājumam, lai piekļūtu noliktavas pārvaldības sistēmas datiem un ģenerētu pielāgotas noliktavas vietas etiķetes Vaibras programmēšanas](general-electronic-reporting.md#Configuration) valodā (ZPL) II formātā. Šīs darbības var veikt uzņēmumā **USRT**.
 
 ## <a name="business-scenario"></a>Biznesa scenārijs
 
-Jūs pārstāvat uzņēmumu, kas ieviests noliktavas vadībā Microsoft Dynamics 365 Finance. Katrai noliktavas vietai ir jābūt iezīmētai ar pašpiegādības etiķeti, kurā ir svītrkods. Noliktavas darbinieki izmantos rokas svītrkoda lasītājus, lai skenētu svītrkodus.
+Jūs pārstāvat uzņēmumu, kas ieviesis noliktavas pārvaldību Microsoft Dynamics 365 Finanšu gadā. Katrai noliktavas vietai ir jābūt iezīmētai ar pašpiegādības etiķeti, kurā ir svītrkods. Noliktavas darbinieki izmantos rokas svītrkoda lasītājus, lai skenētu svītrkodus.
 
 Visas noliktavu vietas ir iezīmētas pirmstvēruma aktivitāšu jomā. Tomēr jums ir jābūt iespējai pēc pieprasījuma drukāt arī noliktavas vietas etiķetes, ja esošās etiķetes tiek bojātas vai notiek noliktavas novietojuma konfigurēšana. Izmantojot nesen izlaisto ER funkcionalitāti, varat konfigurēt jaunu ER risinājumu, kas noliktavas supervizoram ļauj izdrukāt etiķetes tieši uz etiķešu printeri.
 
@@ -69,7 +68,7 @@ Konfigurētā datu modeļa rediģējamu versiju var skatīt datu modeļu veidot�
 
 ## <a name="design-a-model-mapping-for-the-configured-data-model"></a>Konfigurētā datu modeļa kartēšanas izveidošana
 
-Kā lietotājam elektronisko pārskatu izstrādātāja lomā jāizveido jauna ER [konfigurācija, kas ietver modeļa kartēšanas](er-overview-components.md#model-mapping-component) komponentu noliktavas datu modelim. Šis komponents ievieš konfigurēto datu modeli un ir Dynamics 365 Finance specifisks šai programmai. Tas jākonfigurē, lai norādītu programmas objektus, kas tiks izmantoti, lai izpildlaikā aizpildītu konfigurēto datu modeli ar programmas datiem. Lai pabeigtu šo uzdevumu, jums ir jāsaprot, kā noliktavas pārvaldības biznesa domēna datu struktūra tiek īstenota finansēs.
+Kā lietotājam elektronisko pārskatu izstrādātāja lomā jāizveido jauna ER [konfigurācija, kas ietver modeļa kartēšanas](er-overview-components.md#model-mapping-component) komponentu noliktavas datu modelim. Šis komponents ievieš konfigurēto datu modeli dynamics 365 finansēm un ir specifisks šai programmai. Tas jākonfigurē, lai norādītu programmas objektus, kas tiks izmantoti, lai izpildlaikā aizpildītu konfigurēto datu modeli ar programmas datiem. Lai pabeigtu šo uzdevumu, jums ir jāsaprot, kā noliktavas pārvaldības biznesa domēna datu struktūra tiek īstenota finansēs.
 
 ### <a name="import-a-model-mapping-configuration"></a>Modeļa kartēšanas konfigurācijas importēšana
 

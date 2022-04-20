@@ -1,6 +1,6 @@
 ---
 title: Finanšu pārskatu veidošanas apskats
-description: Šajā tēmā ir aprakstīts, kur var piekļūt finanšu pārskatiem programmā Microsoft Dynamics 365 Finance un kā lietot finanšu pārskatu izveides iespējas.
+description: Šajā tēmā aprakstīts, kā piekļūt finanšu pārskatiem Microsoft Dynamics 365 Finanšu pārskatā un kā izmantot finanšu pārskatu veidošanas iespējas.
 author: aprilolson
 ms.date: 03/31/2022
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e1db676024f5ec0f254500bd2ceee85ab2150502
-ms.sourcegitcommit: 777f9581dccc0f963c6a04c95b85e00e68573db5
+ms.openlocfilehash: fcdb5a934818468e00be960f9afe541966e5eabf
+ms.sourcegitcommit: e8a2a1e34fa48a42afac9724828f4ec72b6d7085
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8527318"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8573655"
 ---
 # <a name="get-started-with-financial-reporting"></a>Darba sākšana ar finanšu pārskatiem 
 
@@ -138,7 +138,7 @@ Kad atlasāt izvēlni **Finanšu pārskatu veidošana**, tiek parādīts sarakst
 
 ## <a name="creating-and-modifying-financial-reports"></a>Finanšu pārskatu veidošana un modificēšana
 
-No finanšu pārskatu saraksta varat izveidot jaunu pārskatu vai modificēt jau esošu pārskatu. Ja jums ir atbilstošās atļaujas, varat izveidot jaunu finanšu pārskatu, darbību rūtī atlasot **Jauns**. Ierīcē tiek lejupielādēta pārskatu veidošanas programma. Kad ir palaista pārskatu veidošanas programma, varat izveidot jaunu pārskatu. Kad esat saglabājis jauno pārskatu, tas kļūst redzams finanšu pārskatu sarakstā. Sarakstā tiek rādīti pārskati, kas tika izveidoti uzņēmumam, kuru lietojat programmā Dynamics 365 Finance. 
+No finanšu pārskatu saraksta varat izveidot jaunu pārskatu vai modificēt jau esošu pārskatu. Ja jums ir atbilstošās atļaujas, varat izveidot jaunu finanšu pārskatu, darbību rūtī atlasot **Jauns**. Ierīcē tiek lejupielādēta pārskatu veidošanas programma. Kad ir palaista pārskatu veidošanas programma, varat izveidot jaunu pārskatu. Kad esat saglabājis jauno pārskatu, tas kļūst redzams finanšu pārskatu sarakstā. Sarakstā ir tikai pārskati, kas izveidoti uzņēmumam, kuru izmantojat Dynamics 365 Finance. 
 
 ## <a name="reporting-tree-definitions"></a>Pārskata koku definīcijas
 
@@ -150,9 +150,9 @@ Var izveidot neierobežotu pārskata koku skaitu, lai skatītu jūsu uzņēmuma 
 
 Finanšu un operāciju programmas tiek atjauninātas katru mēnesi. Taču Finanšu pārskati ne vienmēr tiek atjaunināti šajā ritmā. Klientiem ir vairāk opciju par to, kad tie ievieš atjauninājumus Finanšu un operāciju programmām. Finanšu pārskatu atjauninājumi tiek instalēti automātiski. Finanšu pārskatam ir īpaša versija, kura tiek patērēta klienta vidē, kad tiek ieviests servisa atjauninājums, tiek iniciēts darbības pārtraukums vai kad klienta vide ir Apkopes režīmā. Šis process tiek saukts par *triecienvilni* vai *patieso līdzekli*, jo visi klientu ieviesumi ir iestatīti uz vienu un to pašu Finanšu pārskata versiju.
 
-Izmaiņas, kuras tiek izlaistas katrā versijā, ir atrodamas sadaļā [Jaunumi vai izmaiņas Dynamics 365 Finance](../../finance/get-started/whats-new-home-page.md). Platformu atjauninājumus un problēmu risinājumus var atrast sadaļā "Papildu resursi" katra laidiena lapas apakšdaļā.
+Katrā versijā izlaistās izmaiņas var atrast programmatūrā [Dynamics 365 Finance jaunā vai mainītā versijā](../../finance/get-started/whats-new-home-page.md). Platformu atjauninājumus un problēmu risinājumus var atrast sadaļā "Papildu resursi" katra laidiena lapas apakšdaļā.
 
-Atlasītā triecienviļņa versija ir pārskatīta un apstiprinātā Finanšu pārskata versija, kura ir gatava ražošanai. Tā ir savietojama ar jebkuru citu iepriekšējo vai nākotnes Dynamics 365 Finance versiju. Piemēram, Finanšu pārskats var būt jaunākajā 10.0.19. būvējumā, kamēr klienta programmai joprojām ir 10.0.16. versija.
+Atlasītā triecienviļņa versija ir pārskatīta un apstiprinātā Finanšu pārskata versija, kura ir gatava ražošanai. Tas ir saderīgs ar jebkuru iepriekšējo vai nākamo Dynamics 365 Finanšu versiju. Piemēram, Finanšu pārskats var būt jaunākajā 10.0.19. būvējumā, kamēr klienta programmai joprojām ir 10.0.16. versija.
 
 > [!NOTE]
 > Vienīgais gadījums, kurā klienti var pāriet uz iepriekšējo versiju (pazemināšanas scenārijs) ir tad, ja Microsoft problēmas dēļ pārtrauc patiesā līdzekļa izvēršanu. Kolīdz būs pieejamas risinājums, tas tiks piemērots automātiski.
@@ -212,7 +212,7 @@ Varat izmantot notikumu skatītāju, lai analizētu dažus problēmas, kas rodas
 Tālākie soļi seko notikumu skatītāja ziņojumu apstrādes laikā finanšu pārskatiem. Žurnāli, ko notikumu skatītājs ģenerē, palīdzēs atbalstīt inženierus, lai ātri identificētu savienojuma problēmas avotu. Sazinoties ar atbalsta dienestu, kopā ar savu biļeti iesniedziet šo žurnālu kopijas.
 
 
-1. Kopējiet failu RegisterETW.zip uz klienta darbstacijā (ieteicams uz darbvirsmu) un [izvilkt RegisterETW.zip](https://dev.azure.com/msdyneng/e6f12261-a46a-4af1-ac0c-e22bc2c5a478/_apis/git/repositories/ff923027-67f0-43fb-b63c-6d6b6423840f/Items?path=%2F.attachments%2FRegisterETW-c1a35291-6aa6-4462-a2bc-4ba117fd5f8e.zip&download=false&resolveLfs=true&%24format=octetStream&api-version=5.0-preview.1&sanitize=true&versionDescriptor.version=wikiMaster).
+1. Kopējiet failu RegisterETW.zip uz klienta darbstacijā (ieteicams uz darbvirsmu) un [izvilkt RegisterETW.zip](https://mbs2.microsoft.com/fileexchange/?fileID=60b1106b-d5f8-4e0f-8041-039102505122).
 2. Pārliecinieties, ka Windows notikumu skatītājs ir aizvērts.
 3. Atveriet administratora PowerShell komandas uzvedni un dodieties uz direktoriju, kur atrodas RegisterETW.ps1.
 4. Izpildīt šādu komandu: .\RegisterETW.ps1
@@ -242,7 +242,7 @@ Problēma: tiek parādīta kļūda "Nevar izveidot savienojumu ar finanšu pārs
 * Kad saņemat savienojuma kļūdas ziņojumu, atlasiet **Pārbaudīt**, lai pārbaudītu savienojumu, lai redzētu, kurš ziņojums parādās. 
 * Problēma var rasties, ja citam lietotājam nav piekļuves finanšu pārskatiem. Ja lietotājam nav piekļuves, viņš saņems ziņojumu, ka viņam nav atļaujas.
 * Ja problēma rodas vairākās pārlūkprogrammās, pārliecinieties, ka darba vietas laika iestatījums ir Automātisks.
-* Strādājiet ar lietotāju, kam ir drošības administratora tiesības risinājumā Dynamics 365 Finance, un administratora tiesības uz tīkla domēnu, lai pieteiktos darbstacijā un redzētu, vai viņi var pievienoties. Ja viņi var pievienoties, problēma varētu būt saistīta ar tīkla atļaujām.
+* Strādājiet ar lietotāju, kam ir drošības administratora tiesības Dynamics 365 finansēs un administratora tiesības uz tīkla domēnu, lai pieteiktos darbstacijā un redzētu, vai viņi var izveidot savienojumu. Ja viņi var pievienoties, problēma varētu būt saistīta ar tīkla atļaujām.
 * Darbstacijā uz laiku deaktivizējiet ugunsmūri. Ja pēc tam varat izveidot savienojumu ar Report Designer, problēma ir ar ugunsmūri. Lai atrisinātu problēmu, sazinieties ar organizācijas IT nodaļu.
 
 ## <a name="additional-resources"></a>Papildu resursi

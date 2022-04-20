@@ -8,12 +8,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: aamiral
 ms.search.validFrom: 2021-11-12
-ms.openlocfilehash: 7e3721421e15bc3e5937691cdbaee51e4d3cdd17
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
-ms.translationtype: HT
+ms.openlocfilehash: 63d6e5ef7e883578106495d5ec778bbd686ee92d
+ms.sourcegitcommit: 722854cb0d302d01ce3d9580ac80dc7c23d19bf5
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349747"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "8550011"
 ---
 # <a name="commerce-analytics-preview"></a>Commerce analīze (priekšskatījums)
 
@@ -53,7 +53,7 @@ Dati rodas kā darbību dati vai uzvedības dati no viena no šiem avotiem:
 - Pārdošana tiek veidota pielāgotās programmās, izmantojot bezatgriezīgu commerce (Commerce Scale Unit).
 - E-komercijas veikalā tiek pārlūkota jūsu e-komercijas vietne.
 - E-komercijas veikalā jūsu e-komercijas vietnē tiek pasūtīts pasūtījums.
-- Datus sagatavo citas sistēmas, piemēram Dynamics 365 Connected Spaces, .
+- Datus sagatavo citas sistēmas, piemēram,Dynamics 365 Connected Spaces.
 
 #### <a name="step-2-ingestion-and-pre-processing"></a>2. solis. Iesācīšana un pirmapstrāde
 
@@ -89,7 +89,7 @@ Commerce Analytics veidnes programmā ir ietvertas šādas galvenās pārskatu l
 4. [Kanāli](#ChannelsPage)
 5. [Pārdošana](#SalesPage)
 6. [Robežas](#MarginsPage)
-7. [Atgriešanas darbības](#ReturnsPage)
+7. [Atgriešanas](#ReturnsPage)
 8. [Atlaides](#DiscountsPage)
 9. [Maksājumi](#PaymentsPage)
 10. [Debitori](#CustomersPage)
@@ -125,19 +125,19 @@ Commerce Analytics veidnes programmā ir ietvertas šādas galvenās pārskatu l
 
 - Pārdošana
 - Peļņa
-- Atgriešanas darbības
+- Atgriešanas
 
 #### <a name="customers"></a><a name="CustomersPage"></a> Klientiem
 
 - Pārdošana
 - Peļņa
-- Atgriešanas darbības
+- Atgriešanas
 
 #### <a name="channels"></a><a name="ChannelsPage"></a> Kanālus
 
 - Pārdošana
 - Peļņa
-- Atgriešanas darbības
+- Atgriešanas
 
 ### <a name="sales"></a>Pārdošanas<a name="SalesPage"></a>
 
@@ -316,7 +316,7 @@ Iespaids ir atsevišķs e-komercijas uzņēmuma skatījums par preci, kas ir viz
 
 Pašlaik iespaidi tiek izsekoti šādās virsmas:
 
-- Saraksti (piemēram, Recommended **, Top selling**, **Picks for you** un **Trending**) **·**
+- Saraksti (piemēram, Recommended **, Top selling**, **Picks for you** un **Trending**)**·**
 - Groza modulis
 - Meklēšanas rezultāta konteiners
 - Kategorijas meklēšanas rezultāta konteiners
@@ -352,15 +352,20 @@ Pārskatā **par pārskatu par** pārskatu ir iekļauti šādi rādītāji:
 
 ### <a name="enable-and-configure-commerce-analytics-preview"></a><a name="enableCommerceAnalytics"></a> Iespējot un konfigurēt Commerce Analytics (Priekšskatījums)
 
-Lai instalētu Commerce Analytics (priekšskatījumu), jums ir nepieciešamas atļaujas izveidot resursus Azure abonementā. Jums ir arī jābūt atļaujām instalēt pievienojumprogrammas LCS. 
+Lai instalētu Commerce Analytics (priekšskatījumu), jums ir nepieciešamas atļaujas izveidot resursus Azure abonementā. Jums ir arī jābūt atļaujām instalēt pievienojumprogrammas LCS.
 
 Lai iespējotu un konfigurētu Commerce Analytics (Preview), veiciet šos soļus.
 
-1. [Iespējojiet un konfigurējiet eksportēšanu uz datu Galapunkta pievienojumprogrammu](#enableExportToDataLake).
-1. [Instalējiet un konfigurējiet darbvietu Azure Synapse](#configureAzureSynapse).
-1. [Pievienojiet atslēgas noslēpumus atslēgai](#addSecrets).
-1. [Iespējojiet un konfigurējiet Commerce Analytics (Preview) pievienojumprogrammu](#enableCommerceAnalyticsAddin).
-1. [Instalējiet veidnes Power BI programmu](#powerbi).
+1. [Iesniegt Priekšskatījuma veidlapas Commerce Analytics (Priekšskatījums)](#joinPreview)
+2. [Iespējojiet un konfigurējiet eksportēšanu uz datu Galapunkta pievienojumprogrammu](#enableExportToDataLake).
+3. [Instalējiet un konfigurējiet darbvietu Azure Synapse](#configureAzureSynapse).
+4. [Pievienojiet atslēgas noslēpumus atslēgai](#addSecrets).
+5. [Iespējojiet un konfigurējiet Commerce Analytics (Preview) pievienojumprogrammu](#enableCommerceAnalyticsAddin).
+6. [Instalējiet veidnes Power BI programmu](#powerbi).
+
+### <a name="submit-the-preview-intake-form-for-commerce-analytics-preview"></a><a name="joinPreview"></a> Iesniegt Priekšskatījuma veidlapas Commerce Analytics (Priekšskatījums)
+
+Iesniedziet [Commerce Analytics (Preview) formu Preview](https://forms.office.com/r/vW5VLJGXZ2). Kad jūsu pieprasījums ir apstrādāts, uz e-pasta adresi, ko nosūtījāt formā, tiks nosūtīts apstiprinājuma e-pasta ziņojums.
 
 ### <a name="enable-and-configure-the-export-to-data-lake-add-in"></a><a name="enableExportToDataLake"></a> Iespējot un konfigurēt pievienojumprogrammu Eksports uz datu Galapunktu
 

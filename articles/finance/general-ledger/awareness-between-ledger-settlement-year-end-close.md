@@ -2,7 +2,7 @@
 title: Virsgrāmatas norēķinu un gada beigu slēgšanas savstarpējā apzināšana
 description: Šajā tēmā ir sniegta informācija par uzlabojumiem, kas ietekmē Virsgrāmatas nosegšanas un Virsgrāmatas gada beigu slēgšanas.
 author: kweekley
-ms.date: 03/18/2022
+ms.date: 04/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,19 +13,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: e18f77d73239de23000b5310d9342c6db95bc524
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
-ms.translationtype: HT
+ms.openlocfilehash: 13d0a0a11a8f31e4ba647ccc23906f6b137051c2
+ms.sourcegitcommit: b96e0c70553bca9b3f5eb65105a52cb71d978a36
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462357"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "8553337"
 ---
 # <a name="awareness-between-ledger-settlement-and-year-end-close"></a>Virsgrāmatas norēķinu un gada beigu slēgšanas savstarpējā apzināšana
 
 [!include [banner](../includes/banner.md)]
 
 
-Microsoft versijā Dynamics 365 Finance 10.0.25 **līdzekli** **Virsgrāmatas nosegšanas un gada beigu slēgšanas līdzekli var izmantot līdzekļu pārvaldības darbvietā.** Šis līdzeklis pievieno divus primāros uzlabojumus, kas ietekmē Virsgrāmatas segšanu un Virsgrāmatas gada beigu aizvēršanu.
+Microsoft Dynamics 365 Finanšu versijā 10.0.25 līdzekli **Virsgrāmatas nosegšanas un gada beigu** **slēgšanas līdzekli var izmantot līdzekļu pārvaldības darbvietā**. Šis līdzeklis pievieno divus primāros uzlabojumus, kas ietekmē Virsgrāmatas segšanu un Virsgrāmatas gada beigu aizvēršanu.
 
 Virsgrāmatas gada beigu slēgšanas laikā nosegtās Virsgrāmatas darbības vairs netiks ietvertas nākamā finanšu gada sākuma bilancē. Šis uzlabojumi nodrošina, ka sākuma bilancē tiek iekļautas tikai nenosegtās Virsgrāmatas darbības. Ir svarīgi, kad tiek palaista Virsgrāmatas ārvalstu valūtas pārvērtēšana. Ārvalstu valūtas pārvērtēšana tiek palaista tikai Virsgrāmatas darbībām ar statusu Nav **nosegts**. Tomēr pirms **bija atbrīvota virsgrāmatas nosegšanas un gada beigu slēgšanas funkcijas apzināšana,** **·** **sākuma bilance summēja abas darbības, kurām ir statuss Nosegts un tām, kurām ir statuss Nav nosegts un** apkopotās summas statuss tika iestatīts uz Nav nosegts.**·**
 
@@ -48,12 +48,16 @@ Lai atbalstītu jaunos uzlabojumus, tika veiktas izmaiņas Virsgrāmatas nosegš
 
 Sakarā ar izmaiņām funkcionalitātē un datu modelī, ir svarīgi pirms funkcijas aktivizēšanas ņemt vērā šādus punktus:
 
+- Tā kā sākuma bilancē tiek ņemtas vērā tikai apmaksātās darbības, jānosedz pašreizējā finanšu gada darbības, kas ir nosegtas ar iepriekšējā finanšu gada darbībām. Darbības ir jāatiestata attiecībā pret pašreizējā finanšu gada darbībām. To var izdarīt, koriģējot ierakstu pašreizējā finanšu gadā. Korekcija anualizē apkopotās sākuma bilances un korespondējošos datus ar detalizēto darbību, kas nepieciešama, lai nosegtu virsgrāmatas ierakstus šajā gadā. 
+
+  > [!IMPORTANT]
+  > Ja tas nav izdarīts, palaižot **gada** beigu slēgšanu pašreizējam finanšu gadam, saņemsit bilances beigu kļūdas ziņojumu. Ja nav iespējams nenosegt un atiestatīt Virsgrāmatas darbības ar vienu un to pašu finanšu gadu, neiespējojiet šo līdzekli līdz pēc gada beigu slēgšanas. Iespējojiet iespēju tūlīt pēc gada beigu slēgšanas pabeigšanas un pirms visas jaunas Virsgrāmatas darbības tiek nosegtas nākamajā finanšu gadā. 
+  
 - Ja šī funkcija ir aktivizēta, visām darbībām, kas ir atzīmētas nosegšanai, bet nav segtas, tiks automātiski noņemtas atzīmes. Lai novērstu jebkādus darba zaudējumus, nosedziet visas atzīmētās darbības pirms iespējojat funkciju.
 - Dažas organizācijas gada beigu slēgšanu vairākiem laikiem palaistu vienu un to pašu finanšu gadu. Neiespējot šo līdzekli, ja gada beigu slēgšana jau ir palaista vienu reizi un tiks vēlreiz izpildīta tam pašam finanšu gadam. Šī funkcija jāiespējo pirms pirmā gada beigu slēgšanas apstrādes vai pēc pēdējā finanšu gada beigu slēgšanas apstrādes.
 
   Ja vēlaties iespējot funkciju, bet gada beigu aizvēršana jau ir palaista vienu reizi, pirms funkcijas iespējošanas ir jāatgriež gada beigas.
 
-- Tā kā norēķināšanās starp finanšu gadiem vairs netiek atļauta, ieteicams iespējot šo līdzekli pirms gada beigu slēgšanas procesa sākšanas. Pēc tam, lai nodrošinātu, ka iepriekšējā starpfiskālajā gadā nosegšanas nav ietekmētas nākamā finanšu gada sākuma bilances, sākuma bilances darbība ir jāsedz par slēgto finanšu gadu.
 - Tā kā nosegšana starp galvenajiem kontiem vairs nav atļauta, pielāgojiet savu kontu plānu vai procesus, kas nepieciešami, lai nodrošinātu, ka Virsgrāmatas nosegšanu var veikt vienā un tajā pašā galvenajā kontā.
 - Šo līdzekli nevar iespējot, ja tiek izmantots publiskā sektora gada beigu slēgšanas process.
 

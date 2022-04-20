@@ -2,7 +2,7 @@
 title: Maksājuma modulis
 description: Šajā tēmā ir apskatīti maksājuma modulis un tiek paskaidrots, kā to konfigurēt programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 01/07/2022
+ms.date: 04/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: de92e137815cb79944a2793fc4841c949ed43346
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: ba95386143ca830aeb1b50b31b4bbd2b54f53a40
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952473"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565733"
 ---
 # <a name="payment-module"></a>Maksājumu modulis
 
@@ -52,7 +52,7 @@ Ilustrācijā zemāk ir parādīts dāvanu karšu, lojalitātes programmas, Adye
 
 Kopš Commerce izlaišanas 10.0.14 maksājumu modulis ir integrēts ar Dynamics 365 maksājuma savienotāju PayPal. Papildu informāciju par to, ka iestatīt un konfigurēt šo maksājuma savienotāju, skatiet [Dynamics 365 Payment Connector for PayPal](paypal.md).
  
-Norēķinu lapā varat izmantot gan Adyen, gan PayPal konfigurētos savienotājus. Maksājumu modulis ir uzlabots ar papildu rekvizītiem, lai palīdzētu noteikt, ar kuru savienotāju ir jādarbojas. Detalizētu informāciju skatiet tālāk esošajā **tabulā sadaļā Atbalstītie** norēķinu veidi un ir **primārie** maksājumu moduļa rekvizīti.
+Norēķinu lapā varat izmantot gan Adyen, gan PayPal konfigurētos savienotājus. Maksājumu modulis ir uzlabots ar papildu rekvizītiem, lai palīdzētu noteikt, ar kuru savienotāju ir jādarbojas. Detalizētu informāciju skatiet tālāk esošajā **tabulā sadaļā Atbalstītie** norēķinu **veidi un** ir primārie maksājumu moduļa rekvizīti.
   
 Kad maksājumu modulis ir konfigurēts, lai izmantotu PayPal maksājuma savienotāju, izrakstīšanās lapā tiek parādīta PayPal poga. Kad klients to izsauc, maksājuma modulis izveido iframe, kas satur PayPal informāciju. Klients var pieteikties un sniegt savu PayPal informāciju šajā iframe, lai pabeigtu savu darbību. Kad debitors izvēlas maksāt ar PayPal, atlikusī bilance pasūtījumā tiks iekasēta caur PayPal.
 
@@ -74,6 +74,8 @@ Sekojošajā attēlā redzams piemērs no PayPal iframe, kas tiek izsaukts, izma
 | Maksājuma stils tiek ignorēts | Kaskadētu stilu lapu (CSS) kods | Tā kā maksājuma modulis tiek viesots iframe, ir ierobežota stila iespēja. Varat iegūt kādu stilu, izmantojot šo rekvizītu. Lai ignorētu vietnes stilus, šis CSS kods ir jāielīmē kā šī rekvizīta vērtība. Vietnes veidotāja CSS atsauces un stili netiek piemēroti šim modulim. |
 |Atbalstītie konkursu veidi| Virkne| Ja ir konfigurēti vairāki maksājumu savienotāji, ir jānorāda atbalstītā norēķinu veida virkne, kā norādīts Commerce Headquarters maksājumu savienotāja konfigurācijā (skatiet tālāk norādīto attēlu). Ja lauks ir tukšs, tas pēc noklusējuma tiek iestatīts uz Adyen maksājuma savienotāju. Pievienots Commerce izlaidumā 10.0.14.|
 |Ir primārais maksājums|  **Patiess** vai **Nepatiess** | Ja **Patiess**, visi kļūdu ziņojumi tiks ģenerēti no primārā maksājuma savienotāja norēķinu lapā. Ja abi Adyen un PayPal maksājuma savienotāji ir konfigurēti, iestatiet Adyen uz **Patiess**, kas tika pievienots Commerce 10.0.14 laidienā.|
+|Savienotāja ID lietošana| **Patiess** vai **Nepatiess** | Izmantojiet šo rekvizītu, ja vietnei ir konfigurēti vairāki maksājumu savienotāji. Ja **šis vienums** ir Patiess, savienotājiem maksājuma korelācijai jāizmanto savienotāja ID.|
+|Lietot pārlūka iestatīšanas valodas kodu iFrame|  **Patiess** vai **Nepatiess** | (tikai Ahaen) Ja **patiess**, Akodēns iFrame atveidos valodu, balstoties uz vietas lietotāja pārlūka kontekstu, nevis izmantojot vietai konfigurētā Commerce kanāla valodas kodu. Pievienots Commerce izlaidumā 10.0.27.|
 
 Sekojošajā attēlā ir parādīts **Atbalstīto norēķinu veidu** vērtības piemērs, kas iestatīts uz "PayPal" maksājuma savienotāja konfigurāciju Commerce Headquarters.
 ![Atbalstīto piedāvājumu veidu piemērs Commerce Headquarters.](./media/ecommerce-paymenttendertypes.png)
@@ -96,18 +98,18 @@ Ja gan Andien, gan PayPal maksājumu savienotāji tiks izmantoti jūsu vietnei, 
 
 1. PayPal maksājuma moduļa rekvizītu rūtī veiciet šādas darbības:
 
-    1. Rekvizīta Atbalstītie norēķinu **veidi laukā** ievadiet **PayPal**.
-    1. Notīriet izvēles rūtiņu **rekvizītam Ir primārais maksājuma** rekvizīts.
-    1. Atzīmējiet izvēles rūtiņu Lietot **savienotāja ID** rekvizītu.
+    1. Rekvizīta Atbalstītie norēķinu veidi **laukā** ievadiet **PayPal**.
+    1. Notīriet izvēles rūtiņu rekvizītam **Ir primārais maksājuma rekvizīts**.
+    1. Atzīmējiet izvēles rūtiņu Lietot savienotāja **ID rekvizītu**.
 
 1. Rekvizītu rūtī Aībasen maksājumu modulim, sekojiet šiem soļiem:
 
-    1. Atstājiet lauku rekvizītam **Atbalstītie norēķinu** veidi kā tukši.
-    1. Atzīmējiet izvēles rūtiņu **Rekvizītam Ir** primārais maksājuma rekvizīts.
-    1. Atzīmējiet izvēles rūtiņu Lietot **savienotāja ID** rekvizītu.
+    1. Atstājiet lauku rekvizītam Atbalstītie **norēķinu veidi** kā tukši.
+    1. Atzīmējiet izvēles rūtiņu Rekvizītam **Ir primārais maksājuma rekvizīts**.
+    1. Atzīmējiet izvēles rūtiņu Lietot savienotāja **ID rekvizītu**.
 
 > [!NOTE]
-> Konfigurējot Amazumtirdzniecības un PayPal savienotājus izmantošanai kopā, Dynamics 365 Maksājumu savienotājam Amaksājoten konfigurācijai jābūt pirmajā pozīcijā tiešsaistes kanāla maksājumu kontu savienotāja konfigurācijā **Commerce** **Headquarters**. Lai apstiprinātu vai mainītu savienotāja pasūtījumu, **dodieties uz tiešsaistes** veikali un atlasiet jūsu vietnes kanālu. Pēc tam cilnē Iestatījumi kopsavilkuma cilnē Maksājumu konti zem Savienotāja pārliecinieties, vai Dynamics 365 maksājumu savienotājs A pārtaisītajām konfigurācijām ir pirmajā pozīcijā (tas ir, augšējā rindā) un vai **Dynamics** **·** **·** **·** **365 maksājumu** savienotājs PayPal konfigurācijai ir otrajā rindā. Pēc vajadzības pievienojiet vai noņemiet savienotājus, lai tos pārkārtotu.
+> Konfigurējot Amazumtirdzniecības un PayPal savienotājus **izmantošanai** kopā, **Dynamics 365 Maksājumu savienotājam Amaksājoten** konfigurācijai jābūt pirmajā pozīcijā tiešsaistes kanāla maksājumu kontu savienotāja konfigurācijā Commerce Headquarters. Lai apstiprinātu vai mainītu savienotāja pasūtījumu, dodieties **uz tiešsaistes** veikaliem un atlasiet jūsu vietnes kanālu. Pēc **tam** **cilnē** Iestatījumi kopsavilkuma cilnē Maksājumu konti zem Savienotāja pārliecinieties, **·** **vai Dynamics 365 maksājumu savienotājs A pārtaisītajām** konfigurācijām ir pirmajā pozīcijā (tas ir, augšējā rindā) **un ka Dynamics 365 maksājumu savienotājs PayPal** konfigurācijai ir otrajā rindā. Pēc vajadzības pievienojiet vai noņemiet savienotājus, lai tos pārkārtotu.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

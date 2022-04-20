@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 83d19f92984c9f67242946aa8faf445d9d2bd881
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 876f5a5f8ebf77a65ba3aa6271a2957b7dc2cb96
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920204"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570483"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.23. (2022. gada janvāris)
 
@@ -36,9 +36,9 @@ ms.locfileid: "7920204"
 | Globālā adrešu grāmata | Norādīt noklusējuma štatu/provinci katrai valstij/reģionam adreses iestatījumos | Tagad ir iespējams noteikt noklusējuma štatu/provinci katrai valstij/reģionam globālās adrešu grāmatas adrešu iestatījumos. Iestatot noklusēto štatu/provinci, tā būs noklusējuma vērtība, kas tiek ievadīta valsts/rajona laukos, kad tai tiek izveidots jauns apgabala vai pilsētas ieraksts. Skatīt arī [Adreses iestatījumus](../../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/supply-chain/toc.json) | Aktivizēts pēc noklusējuma. |
 | Krājumi&nbsp;un&nbsp;loģistika | [Pauzēt uzdevumus mobilajā programmā Warehouse Management](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/park-tasks-warehouse-management-mobile-app) | [Konfigurēt novirzīšanas darbības mobilo ierīču izvēlnes vienumos](../warehousing/warehouse-app-detours.md) | Līdzekļu pārvaldība: (*Warehouse management programmas novirzīšana*) |
 | Krājumi&nbsp;un&nbsp;loģistika | [Reklamētie lauki programmā Warehouse](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-app-step-instructions) | [Konfigurējiet veicinātos laukus darbībām mobilajā ierīcē](../warehousing/warehouse-app-promoted-fields.md)| Līdzekļu pārvaldība (*Warehouse programmas veicinātie lauki*) |
-| Ražošana | [Ražošanas izpildes sistēmu integrācija](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-systems-integration) | [Integrācija ar trešās puses ražošanas izpildes sistēmām](../production-control/mes-integration.md) | Līdzekļu pārvaldība *(ražošanas izpildes sistēmas* integrācija) |
+| Ražošana | [Ražošanas izpildes sistēmu integrācija](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-systems-integration) | [Integrācija ar trešās puses ražošanas izpildes sistēmām](../production-control/mes-integration.md) | Līdzekļu pārvaldība (*ražošanas izpildes sistēmas integrācija*) |
 | Ražošana | [Pārskats par līdzproduktiem un blakusproduktiem no ražošanas izpildes saskarnes](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-process-manufacturing) | [Kā nodarbinātie izmanto ražošanas izpildes interfeisu](../production-control/production-floor-execution-use.md) | Līdzekļu pārvaldība (*Pārskats par līdzproduktiem un blakusproduktiem no ražošanas izpildes saskarnes*) |
-| Plānošana | [Uz prioritāti balstītas plānošanas optimizācijas atbalsta plānošana](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-priority-based-planning) | [Uz prioritāti balstīta plānošana](../master-planning/planning-optimization/priority-based-planning.md) | Līdzekļu pārvaldība *(prioritātes vadīts MRP atbalsts plānošanas* optimizēšanai) |
+| Plānošana | [Uz prioritāti balstītas plānošanas optimizācijas atbalsta plānošana](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-priority-based-planning) | [Uz prioritāti balstīta plānošana](../master-planning/planning-optimization/priority-based-planning.md) | Līdzekļu pārvaldība (prioritātes *vadīts MRP atbalsts plānošanas optimizēšanai*) |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Šajā laidienā iekļautie līdzekļa uzlabojumi
 
@@ -53,11 +53,11 @@ Ja vēlaties ieslēgt vai izslēgt jebkuru no šiem līdzekļiem, tas ir jādara
 | Krājumu un noliktavas pārvaldība | \[Krievija\] Finanšu krājumu darījumi pēc Storno saskaņā ar korekcijas karodziņu pārdošanas pasūtījumu finanšu kuponā | Šis līdzeklis ietekmē kredīta notas labojumu funkcionalitāti Krievijai. Tas ļauj pārdošanas rēķiniem grāmatot krājumu darbības saskaņā ar Virsgrāmatas labojumu opciju. Kad ir aktivizēts šis līdzeklis, starp krājumu darbību finanšu dokumenta **Labošanas** karodziņu un krājumu darbībās **Storno** karodziņu nesakritība vairs nepastāv. |
 | Krājumu un noliktavas pārvaldība | (Krievija) Krājumu bilances apgrozījuma pārskata aprēķinu izpilde pakešveidā | Krievijas Supply Chain Management lokalizācijām šis līdzeklis nodrošina iespēju izpildīt *Krājumu bilances apgrozījuma* pārskatus pakešveidā, saglabāt un skatīt iepriekš ģenerētos pārskatus. |
 | Krājumu un noliktavas pārvaldība | (Krievija) Krājumu pārvaldībā izmantojiet tulkojumus vietējā valodā valsts/reģiona specifiskajās pamata veidlapās | Krievijas Supply Chain Management lokalizācijām šis līdzeklis sniedz iespēju izmantot krievu valodas tulkojumus produktu/krājumu nosaukumiem un mērvienībām šādās Krievijai raksturīgās krājumu izdrukās: Uzskaites saraksts (INV-3), Uzskaites saraksts (INV-5), Uzskaites saraksts (INV-6). |
-| Vispārējā plānošana | Azure algoritmiskās mācīšanās pakalpojums pieprasījuma prognozēšanai | Izmantojot šo līdzekli, Azure datora apmācības pakalpojums var ģenerēt pieprasījuma apjoma prognozes, pamatojoties uz vēsturiskajiem datiem. Papildinformāciju skatiet pieprasījuma [prognozēšanas](../master-planning/demand-forecasting-setup.md) iestatījumos. |
+| Vispārējā plānošana | Azure algoritmiskās mācīšanās pakalpojums pieprasījuma prognozēšanai | Izmantojot šo līdzekli, Azure datora apmācības pakalpojums var ģenerēt pieprasījuma apjoma prognozes, pamatojoties uz vēsturiskajiem datiem. Papildinformāciju skatiet pieprasījuma [prognozēšanas iestatījumos](../master-planning/demand-forecasting-setup.md). |
 | Sagāde un avoti | Pirkšanas pasūtījumu atjauninājumu vēstures tīrīšana | Šis līdzeklis ļauj notīrīt pagaidu vēsturiskos ierakstus, kas ir saistīti ar pirkšanas pasūtījuma atjauninājumiem. Tas pievieno jaunu pogu ar nosaukumu **Pirkšanas atjauninājumu tīrīšanas vēsture** darbību rūtij **Visu pirkšanas pasūtījumu** lapā. Šis līdzeklis ir iespējots pēc noklusējuma. |
 | Ražošanas kontrole | (Priekšskatījums) Noliktavā iespējotu materiālu automātiska atlasīšana automātiski grāmatotiem izdošanas sarakstiem | Šis līdzeklis sniedz iespēju automātiski izvēlēties un atrisināt krājumu dimensijas automātiski grāmatotiem, atvasinātiem un atgriezeniskiem izdošanas sarakstu žurnāliem. |
 | Ražošanas kontrole | Pārbaudīt izejmateriālu beigu datumu, salīdzinot tos ar plānoto patēriņa datumu | Šis līdzeklis izmaina to, kā tiek validēti partijas beigu datumi, rezervējot izejmateriālu partiju, kas tiks lietota ražošanas laikā. Ja šis līdzeklis ir iespējots, partijas beigu datums tiek pārbaudīts attiecībā pret plānoto patēriņa datumu (izejmateriālu datumu), kā noteikts ražošanas MK rindā vai partijas pasūtījuma formulas rindā. Ja šis līdzeklis ir atspējots, partijas beigu datums tiek pārbaudīts pret plānoto ražošanas vai partijas pasūtījuma piegādes datumu (kā iepriekš). |
-| Pārdošana un mārketings | Pārdošanas atjauninājumu vēstures tīrīšana, pamatojoties uz vecumu | Šī funkcija ļauj iestatīt maksimālo ierakstu vecumu, kas jāsaglabā, palaižot pārdošanas **atjaunināšanas vēstures** tīrīšanas periodisko uzdevumu. Vecāki ieraksti tiks dzēsti. Tas noder, iestatot uzdevumu periodiskai izpildei, jo vecums vienmēr tiek aprēķināts attiecībā pret uzdevuma palaišanas datumu. Bez šīs funkcionalitātes var iestatīt tikai specifisku datumu vecākajiem ierakstiem, kas jāsaglabā. |
+| Pārdošana un mārketings | Pārdošanas atjauninājumu vēstures tīrīšana, pamatojoties uz vecumu | Šī funkcija ļauj iestatīt maksimālo ierakstu vecumu, kas jāsaglabā, palaižot pārdošanas **atjaunināšanas vēstures tīrīšanas** periodisko uzdevumu. Vecāki ieraksti tiks dzēsti. Tas noder, iestatot uzdevumu periodiskai izpildei, jo vecums vienmēr tiek aprēķināts attiecībā pret uzdevuma palaišanas datumu. Bez šīs funkcionalitātes var iestatīt tikai specifisku datumu vecākajiem ierakstiem, kas jāsaglabā. Papildinformāciju skatiet pārdošanas [vēstures datu plānošanas sadaļā](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
 | Pārdošana un mārketings | “100 populārāko” klientu pārskata veiktspējas uzlabošana | Šis līdzeklis uzlabo **100 populārāko** debitoru pārskata veiktspēju, vienmēr palaižot pārskatu visiem debitoriem (kas ir paredzēts lietošanai), nevis pieļaujot pielāgotos vaicājumus. Ja šis līdzeklis ir aktivizēts, visi **Iekļaujamo ierakstu** iestatījumi, tiek atspējoti **100 populārāko** pārskata dialogā. |
 | Noliktavas vadība | Mērogoto vienību atbalsts izlaišanai izejošo pasūtījumu noliktavā | Kad šis līdzeklis ir iespējots, izejošos pasūtījumus var izlaist no centrmezgla tieši mērogotajā vienībā, kur pasūtījumi tiks izpildīti. |
 
@@ -79,9 +79,9 @@ Nesen ir pievienotas vai ievērojami atjauninātas tālāk norādītās palīdz�
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformas atjauninājumi Finance and Operations programmām
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformas atjauninājumi finanšu un operāciju programmām
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.23 ietver platformas atjauninājumus. Lai iegūtu papildinformāciju, skatiet [Platformas atjauninājumi Finance and Operations programmu versijai 10.0.23 (2021. gada novembris)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-23.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.23 ietver platformas atjauninājumus. Lai uzzinātu vairāk, skatiet [Informāciju par Platformas atjauninājumiem finanšu un operāciju programmu versijā 10.0.23 (2021. gada novembrī](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-23.md)).
 
 ### <a name="bug-fixes"></a>Kļūdu labojumi
 
