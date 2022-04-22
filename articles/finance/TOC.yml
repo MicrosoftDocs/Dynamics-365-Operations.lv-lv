@@ -6,7 +6,7 @@
           href: index.md
         - name: Jaunumi un izmaiņas
           items:
-            - name: Jaunumi un izmaiņas Finance and Operations programmās
+            - name: Jaunumi un izmaiņas finanšu un operāciju programmās
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: Jaunumi un izmaiņas programmā Finance
               items:
@@ -16,13 +16,11 @@
                   href: get-started/whats-new-changed-10-0-26.md
                 - name: Finance 10.0.25 (aprīlis)
                   href: get-started/whats-new-changed-10-0-25.md
-                - name: Finance 10.0.24 (februāris)
-                  href: get-started/whats-new-changed-10-0-24.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
                 - name: Noņemtie vai novecojušie līdzekļi sākumlapā
                   href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
-                - name: Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Finance
+                - name: Noņemtie vai novecojuši līdzekļi programmā Dynamics 365 Finance
                   href: get-started/removed-deprecated-features-finance.md
                 - name: Noņemtie vai novecojuši līdzekļi iepriekšējos laidienos
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
@@ -418,14 +416,30 @@
                       href: accounts-receivable/sb-billing-schedules.md
                     - name: Norēķinu grafika kopēšana
                       href: accounts-receivable/sb-copy-schedules-items.md
+                    - name: Norēķinu grafika līdzekļi
+                      href: accounts-receivable/sb-schedule-billing-features.md
                     - name: Apmaksa pēc atskaites punktiem
                       href: accounts-receivable/sb-milestonebilling.md
+                    - name: Atbalsta un atjaunošanas process
+                      href: accounts-receivable/sb-support-renewals.md
+                    - name: Plaša patēriņa cenu indeksa grafiki
+                      href: accounts-receivable/cpischedules.md
                     - name: Norēķinu grafiku izbeigšana
                       href: accounts-receivable/terminate-billing-schedule.md
                 - name: Ieņēmumu un izdevumu atlikšanas
-                  items: null
+                  items:
+                    - name: Iestatīt ieņēmumu un izdevumu atlikšanas
+                      href: accounts-receivable/sb-deferrals.md
+                    - name: Atlikšanas grafiki
+                      items:
+                        - name: Izveidot atlikšanas grafikus
+                          href: accounts-receivable/sb-deferrals-schedules.md
+                        - name: Atlikto maksājumu noklusējuma transakcijas
+                          href: accounts-receivable/sb-deferral-transactions.md
                 - name: Vairākelementu ieņēmumu sadalījums
-                  items: null
+                  items:
+                    - name: Iestatīt vairāku elementu ieņēmumu sadalījumu
+                      href: accounts-receivable/sb-rev-alloc-setup.md
             - name: Maksājumi un norēķini
               items:
                 - name: Debitoru maksājumu pārskats
@@ -922,6 +936,8 @@
               items:
                 - name: Sava kontu plāna plānošana
                   href: general-ledger/plan-chart-of-accounts.md
+                - name: Sava lokālā kontu plāna plānošana
+                  href: general-ledger/plan-local-chart-of-accounts.md
                 - name: Galvenie konti
                   items:
                     - name: Galvenā konta tipi
@@ -2288,7 +2304,7 @@
                       href: localizations/emea-fra-fec-audit-file-structure.md
                     - name: "Vides sagatavošana FEC\_ģenerēšanai"
                       href: localizations/emea-fra-fec-audit-file-setup.md
-                    - name: "FEC\_ģenerēšana lietotnē Dynamics 365 Finance"
+                    - name: Ģenerēt FEC programmā Dynamics 365 Finance
                       href: localizations/emea-fra-fec-audit-file-generation.md
                 - name: Debitoru un kreditoru kontu pārskati
                   href: localizations/tasks/fr-00002-customer-vendor-account-statements.md
@@ -3092,6 +3108,8 @@
                   href: localizations/tasks/mx-00010-cancel-electronic-invoice.md
                 - name: "CFDI versija\_3.3"
                   href: localizations/latam-mex-cfdi-3-3.md
+                - name: "CFDI versija\_4.0"
+                  href: localizations/latam-mex-cfdi-4-0.md
                 - name: "Debitoru reģistrācijas\_ID un cita informācija"
                   href: localizations/tasks/mx-00007-customer-registration-ids-other-information.md
                 - name: DIOT deklarācijas pārskats

@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-updates-10-0-26.md
                 - name: "Platformas atjauninājumi versijai\_10.0.25 (2022.\_gada aprīlis)"
                   href: get-started/whats-new-platform-updates-10-0-25.md
-                - name: "Platformas atjauninājumi versijai\_10.0.24 (2022.\_gada februāris)"
-                  href: get-started/whats-new-platform-updates-10-0-24.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
                 - name: Noņemtie vai novecojušie līdzekļi sākumlapā
@@ -396,6 +394,8 @@
                       href: deployment/onprem-SSRSHA.md
                     - name: Starpniekserveru konfigurēšana lokālās vidēs
                       href: deployment/onprem-reverseproxy.md
+                    - name: Tīkla printera ierīču instalēšana lokālās vidēs
+                      href: analytics/install-network-printer-onprem.md
                     - name: Lokālā diagnostika
                       href: deployment/on-premises-diagnostics.md
                     - name: Lokālā ārkārtas atkopšanas konfigurācija
@@ -496,6 +496,8 @@
                   href: dev-tools/configure-developer-vm.md
                 - name: 'Bieži uzdotie jautājumi par tādu virtuālo mašīnu izstrādi un būvēšanu, kas neļauj administratora piekļuvi'
                   href: sysadmin/VMs-no-admin-access.md
+                - name: Iestatīt lejupielādējamu VHD pirmajai lietošanai
+                  href: dev-tools/vhd-setup.md
                 - name: 'Lokālās vides pārdēvēšana, lai piekļūtu Azure DevOps operācijām'
                   href: migration-upgrade/vso-machine-renaming.md
                 - name: Izstrādes sistēmas prasības
@@ -1028,6 +1030,8 @@
                   href: lifecycle-services/use-translation-service-tm.md
                 - name: Azure DevOps paplašinājums (publiskais priekšskatījums)
                   href: lifecycle-services/dts-devops-extension.md
+                - name: Azure DevOps paplašinājuma apmācība (publiskais priekšskatījums)
+                  href: lifecycle-services/dts-ado-tutorial.md
         - name: Microsoft Power Platform integrācija
           items:
             - name: Pārskats
@@ -1506,6 +1510,8 @@
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
             - name: Rīka Regression Suite Automation Tool (RSAT) palaišana ar paralēlu izpildi
               href: perf-test/rsat/rsat-parallel-execution.md
+            - name: RSAT integrācija ar Azure DevOps konveijeriem
+              href: perf-test/rsat/rsat-devops-extension.md
             - name: Problēmu novēršana
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: 'Risinājumu izlaišana, izmantojot Lifecycle Services'
