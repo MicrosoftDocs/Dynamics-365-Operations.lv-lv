@@ -1,8 +1,8 @@
 ---
-title: Abonementa norēķinu pārskats
-description: Šajā tēmā aprakstīti Abonementa norēķini ar Microsoft Dynamics 365 Finance.
+title: Abonementu norēķinu pārskats
+description: Šajā tēmā aprakstīti abonementa rēķini Microsoft Dynamics 365 Finansēs.
 author: JodiChristiansen
-ms.date: 02/09/2022
+ms.date: 04/13/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2022-02-09
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 2796e25ec783941de381fb5ae96145eeba870bde
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 9d46492cca3cc435048fa497f6b1f3a28b77140a
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462474"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644532"
 ---
-# <a name="subscription-billing-overview"></a>Abonementa norēķinu pārskats
+# <a name="subscription-billing-overview"></a>Abonementu norēķinu pārskats
 
 [!include [banner](../includes/banner.md)]
 
@@ -33,6 +33,8 @@ Risinājumam ir trīs moduļi, ko var izmantot neatkarīgi. Alternatīvi visus t
 - **Periodiskie līguma norēķini** - šis modulis iespējo periodiskus norēķinus un cenu pārvaldību, lai nodrošinātu kontroli pār cenu noteikšanas un norēķinu parametriem, līgumu atjaunošanu un konsolidēto rēķinu izrakstīšanu.
 - **Ieņēmumu un izdevumu atliktie ieņēmumi – šis modulis likvidē manuālos procesus un atkarību no ārējām sistēmām, pārvaldot ieņēmumus** un aktivizējot reāllaika ieskatu ikmēneša periodiskos ieņēmumos.
 - **Vairāku elementu ieņēmumu sadalījums** – šis modulis palīdz ar ieņēmumu atbilstību, apstrādājot cenu noteikšanu un ieņēmumu sadalījumu starp vairākiem krājumiem.
+
+Papildinformāciju par abonementa rēķiniem skatiet sadaļā [Abonementa norēķinu Power BI saturs](sub-bill-power-bi.md).
 
 Abonementa rēķini ir iespējoti, **izmantojot funkciju pārvaldību**. Tomēr to nevar izmantot ar ieņēmumu **atzīšanas** līdzekli. Tāpēc pirms abonementa rēķinu iespējošanas šī funkcija ir jāatspējo.
 

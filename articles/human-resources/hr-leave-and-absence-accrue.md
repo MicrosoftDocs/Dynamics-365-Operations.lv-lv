@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7f765e7cfd97170bd144dfff12c18ced96e3332a
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
-ms.translationtype: MT
+ms.openlocfilehash: 3c9b9602e5c219be5756f5987b0497f2ce5c269d
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533717"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644307"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Uzkrāt atvaļinājumu un kavējumu plānus
 
@@ -105,8 +105,10 @@ Dzēsiet uzkrājumu ierakstus noteiktam plānam un datumu diapazonam. Uzkrājumu
 **Atvaļinājuma uzkrājuma audits** katru reizi parāda, kad tiek palaists vai dzēsts uzkrājums vienam vai visiem darbiniekiem. Tiek parādīts arī datums un persona, kas veica darbību.
 
 1. Lapā **Atvaļinājums un prombūtne** atlasiet cilni **Saites**.
-
 2. Sadaļā **Pārvaldīt atvaļinājumu** atlasiet **Dzēst atvaļinājumu uzkrājumu auditu**.
+
+## <a name="leave-accrual-rounding"></a>Atvaļinājuma uzkrājumu noapaļošana
+Kad darbinieks ir reģistrēts vai nav reģistrēts, tiks pagarināta uzkrājumu noapaļošana. Iepriekš noapaļošana bija atļauta tikai tad, kad atvaļinājuma plāns tika iestatīts kā prorateēts un darbinieks tika reģistrēts/nav reģistrēts vidējā perioda laikā. Atvaļinājuma uzkrājumi tagad tiks noapaļoti neatkarīgi no reģistrācijas/algas izmaksas perioda vidū vai perioda sākumā.
 
 ## <a name="leave-accrual-transaction-auditing"></a>Atvaļinājuma uzkrājumu darījumu auditēšana
 

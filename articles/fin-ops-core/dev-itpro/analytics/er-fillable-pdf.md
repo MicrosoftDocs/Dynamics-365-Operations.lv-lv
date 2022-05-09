@@ -2,7 +2,7 @@
 title: Elektronisko pārskatu konfigurāciju izstrāde, lai aizpildītu PDF veidnes
 description: Šajā tēmā ir sniegta informācija par elektronisko pārskatu (Electronic reporting — ER)formāta izstrādi, lai aizpildītu PDF veidni.
 author: NickSelin
-ms.date: 02/28/2022
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: a568ddd93bfbc7d536e951a13470b3dedb796e1b
-ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
+ms.openlocfilehash: 706256300cf0b64bc5b5e1e7adb77c1da500d16f
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367860"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8645112"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>Elektronisko pārskatu konfigurāciju izstrāde, lai aizpildītu PDF veidnes
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā minētās procedūras ir piemēri, kas parāda, kā lietotājs, kura loma ir **Sistēmas administrators** vai **Elektroniskā pārskata izstrādātājs**, lomā var konfigurēt elektronisko pārskatu (ER) formātu, kas ģenerē pārskatus kā PDF failus, izmantojot aizpildāmus PDF dokumentus kā pārskatu veidnes. Šīs darbības var veikt jebkurā uzņēmumā, kas izmanto Dynamics 365 Finance vai Regulatory Configuration Services (RCS).
+Šajā tēmā minētās procedūras ir piemēri, kas parāda, kā lietotājs, kura loma ir **Sistēmas administrators** vai **Elektroniskā pārskata izstrādātājs**, lomā var konfigurēt elektronisko pārskatu (ER) formātu, kas ģenerē pārskatus kā PDF failus, izmantojot aizpildāmus PDF dokumentus kā pārskatu veidnes. Šos soļus var veikt jebkurā Dynamics 365 Finanšu vai regulēšanas konfigurācijas pakalpojumu (RCS) uzņēmumā.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
@@ -252,10 +252,14 @@ Tā kā abi rekvizīti ir neobligāti formāta elementam **Lauks**, tiek lietota
 - Ja atribūts **Nosaukums** ir definēts un izteiksme **Nosaukums** ir konfigurēta, tiek aizpildīts PDF lauks, kam ir tāds pats nosaukums kā vērtībai, ko atgriež formāta elementa izteiksme **Nosaukums**.
 
 > [!NOTE]
-> PDF izvēles rūtiņu PDF var aizpildīt atlasot tālāk norādītajos veidos.
+> Ja izvēles rūtiņa PDF veidnē nepieder izvēles rūtiņu grupai, tā ir attēlota rediģējamā ER **formātā** kā lauka elements, kas ir ligzdots **zem PDF faila** elementa. Šo PDF izvēles rūtiņas tipu var iestatīt kā atlasītu šādā veidā:
 >
-> - Ja atbilstošais formāta elements **Lauks** ir saistīts ar **Būla** datu tipa datu avota lauku, kam ir vērtība **True**
-> - Ja atbilstošais formāta elements **Lauks** satur ligzdotu formāta elementu **Virkne**, kas ir saistīts ar datu avota lauku, kura teksta vērtība ir **1**, **True** vai **Jā**
+> - Atbilstošais **lauka** formāta elements ir piesaistīts *[Būla datu tipa datu](er-formula-supported-data-types-primitive.md#boolean)* avota laukam, kura vērtība ir **Patiess**.
+> - Atbilstošais **lauka** formāta elements satur ligzdotu **virknes** **formāta elementu, kas ir piesaistīts datu avota laukam, kura teksta vērtība ir 1**, **Patiess** vai **Jā**.
+>
+> Jūsu veidnē var būt izvēles rūtiņu grupa, kur vienlaicīgi var atzīmēt tikai vienu izvēles rūtiņu. Šīs izvēles rūtiņas PDF veidnē ir attēlotas kā vairāki formas lauki ar tipu *IZVĒLES* rūtiņa. Katram laukam ir vienāds nosaukums, bet atšķirīga eksporta vērtība. Importējot veidni rediģējamā ER formātā, **katra** izvēles rūtiņa tiks parādīta formāta hierarhiskajā struktūrā kā Izvēles rūtiņu grupas krājuma elements, kas ir ligzdots **tajā pašā izvēles rūtiņu grupas** elementā. Izvēles rūtiņu grupas **elementa nosaukums būs** vienāds ar izvēles rūtiņu lauku nosaukumu PDF veidnē. Katras izvēles rūtiņas **grupas krājuma elementa nosaukums** būs vienāds ar atbilstošās izvēles rūtiņas lauka eksporta vērtību PDF veidnē.
+>
+> Varat saistīt elementu Izvēles **rūtiņas grupa** tikai Būla datu tipa *datu* avota laukam.
 
 ## <a name="run-the-format-configuration"></a>Formāta konfigurācijas izpilde
 

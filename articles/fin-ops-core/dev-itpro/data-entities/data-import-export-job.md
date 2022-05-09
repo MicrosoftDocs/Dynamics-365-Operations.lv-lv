@@ -2,7 +2,7 @@
 title: Datu importēšanas un darbu eksportēšanas pārskats
 description: Lai izveidotu un pārvaldītu datu importēšanas un eksportēšanas darbus, izmantojiet darbvietu Datu pārvaldība.
 author: peakerbl
-ms.date: 10/21/2021
+ms.date: 04/25/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e63daad6f206500bfa21c28635648c717f5bbdde
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 74430aadc661a49e330960135ce7b0912079f79b
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071089"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644466"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Datu importēšanas un eksportēšanas darbu pārskats
 
@@ -74,8 +74,11 @@ Kad atlasāt kādu elementu, ir jāatlasa formāts tiem datiem, kas tiks eksport
 > [!NOTE]
 > Ir svarīgi **Rindas norobežotājam**, **Kolonnu norobežotājam** un **Teksta kvalificētājam** atlasīt pareizu vērtību, ja **Faila formāta** opcija ir iestatīta uz **Norobežots**. Pārliecinieties, vai datos nav ietverta rakstzīme, kas tiek lietota kā norobežotājs vai ierobežotājs, jo tādējādi importēšanas un eksportēšanas laikā var rasties kļūdas.
 
+> [!NOTE]
+> Uz XML bāzētiem failu formātiem noteikti izmantojiet tikai juridiskās rakstzīmes. Plašāku informāciju par derīgām rakstzīmēm skatiet sadaļā [Derīgas rakstzīmes programmā XML 1.0](https://www.w3.org/TR/2006/REC-xml-20060816/Overview.html#charsets/). XML 1.0 neatļauj nevienu kontroles rakstzīmi, izņemot cilnes, pārvadāšanu un rindu padeves. Neatļautu rakstzīmju piemēri ir kvadrātiekavas, kvadrātiekavas un slīpsvītras. 
+
 ### <a name="sequence-the-entities"></a>Elementu secības norādīšana
-Datu veidnē vai importēšanas un eksportēšanas darbos elementus var izkārtot noteiktā secībā. Kad palaižat darbu, kurā ir vairāki datu elementi, jums ir pārliecinās, vai šie datu elementi ir sakārtoti pareizā secībā. Elementu secību jūs galvenokārt norādāt tā, lai varētu ievērot visas funkcionālās atkarības starp elementiem. Ja elementiem nav funkcionālo atkarību, tad tos var ieplānot paralēlai importēšanai vai eksportēšanai.
+Datu veidnē vai importēšanas un eksportēšanas darbos elementus var izkārtot noteiktā secībā. Kad palaižat darbu, kurā ir vairāki datu elementi, jums ir pārliecinās, vai šie datu elementi ir sakārtoti pareizā secībā. Elementu secību jūs galvenokārt norādāt tā, lai varētu ievērot visas funkcionālās atkarības starp elementiem. Ja elementiem nav funkcionālo atkarību, tad tos var ieplānot paralēlai importēšanai vai eksportēšanai. 
 
 #### <a name="execution-units-levels-and-sequences"></a>Izpildes vienības, līmeņi un secības
 Izpildes vienība, līmenis izpildes vienībā un elementu secība palīdzēt kontrolēt kārtību, kādā dati tiek eksportēti vai importēti.
@@ -206,7 +209,7 @@ Plānojot tīrīšanas procesu, ir jānorāda tālāk norādītie parametri, lai
 ## <a name="job-history-clean-up-and-archival"></a>Darba vēstures tīrīšana un arhivēšana 
 Darba vēstures tīrīšanas un arhivēšanas funkcionalitāte aizstāj tīrīšanas funkcionalitātes iepriekšējās versijas. Šajā sadaļā tiks izskaidrotas šīs jaunās iespējas.
 
-Viena no galvenajām izmaiņām tīrīšanas funkcionalitātē ir sistēmas partijas darba izmantošana vēstures tīrīšanai. Sistēmas pakešdarba izmantošana ļauj programmām Finance and Operations automātiski ieplānot un palaist tīrīšanas pakešdarbu, tiklīdz sistēma ir gatava. Vairs nav nepieciešams manuāli ieplānot partijas darbu. Šajā noklusējuma izpildes režīmā partijas darbs tiks izpildīts katru stundu, sākot no pusnakts, un saglabās izpildes vēsturi par iepriekšējām 7 dienām. Iztīrītā vēsture tiek arhivēta turpmākai izguvei. Sākot ar versiju 10.0.20, šis līdzeklis vienmēr ir iespējots.
+Viena no galvenajām izmaiņām tīrīšanas funkcionalitātē ir sistēmas partijas darba izmantošana vēstures tīrīšanai. Sistēmas pakešuzdevuma izmantošana ļauj Finanšu un operāciju programmām automātiski ieplānot un palaist tīrīšanas pakešuzdevumu, tiklīdz sistēma ir gatava. Vairs nav nepieciešams manuāli ieplānot partijas darbu. Šajā noklusējuma izpildes režīmā partijas darbs tiks izpildīts katru stundu, sākot no pusnakts, un saglabās izpildes vēsturi par iepriekšējām 7 dienām. Iztīrītā vēsture tiek arhivēta turpmākai izguvei. Sākot ar versiju 10.0.20, šis līdzeklis vienmēr ir iespējots.
 
 Otrā izmaiņa tīrīšanas procesā ir iztīrītās izpildes vēstures arhivēšana. Tīrīšanas darbs arhivēs dzēstos ierakstus uz BLOB krātuvi, ko DIXF izmanto regulārai integrācijai. Arhivētais fails būs DIXF pakotnes formātā un būs pieejams BLOB 7 dienas, kuru laikā to iespējams lejupielādēt. Arhivēšanas faila noklusējuma 7 dienu ilgmūžību parametros iespējams mainīt uz maksimums 90 dienām.
 

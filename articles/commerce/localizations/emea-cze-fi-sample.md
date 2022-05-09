@@ -10,17 +10,16 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-4-1
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: cb9679bd02c5400fc015c6807407b01e9bf55343
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: 1c764de42f727bb72adbb8b015745599f428656e
+ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388240"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "8613913"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-the-czech-republic"></a>Čehijas Republikas finanšu reģistrācijas pakalpojuma integrācijas paraugs
 
 [!include[banner](../includes/banner.md)]
-[!include[banner](../includes/preview-banner.md)]
 
 Šajā tēmā sniegts pārskats par čehijas Republikas finanšu integrācijas parauga apskatu Microsoft Dynamics 365 Commerce.
 
@@ -130,16 +129,16 @@ Pievienojiet šādas POS iezīmes tabulas **POS** **valodas teksta** sadaļai:
 
 | Valodas kods | Teksta ID | Teksts                   |
 |-------------|---------|------------------------|
-| en-ASV       | 900001  | IDprovkcijas/pirkšanas dokuments |
-| en-ASV       | 900002  | BKP (Datu bKP)                    |
-| en-ASV       | 900003  | PkP (Pkp)                    |
-| en-ASV       | 900004  | FIK (FIK)                    |
-| en-ASV       | 900005  | Informācija                   |
-| en-ASV       | 900006  | Sērijas numurs        |
+| lv       | 900001  | IDprovkcijas/pirkšanas dokuments |
+| lv       | 900002  | BKP (Datu bKP)                    |
+| lv       | 900003  | PkP (Pkp)                    |
+| lv       | 900004  | FIK (FIK)                    |
+| lv       | 900005  | Informācija                   |
+| lv       | 900006  | Sērijas numurs        |
 
 Pielāgoto lauku **lapā pievienojiet** šiem ierakstiem kvīts izkārtojumu pielāgotajiem laukiem. Ievērojiet **, ka uzraksta** teksta **ID vērtībām ir jāatbilst teksta ID** vērtībām, kas norādītas **teksta** lapā Valoda:
 
-| Vārds                 | Veids    | Uzraksta teksta ID |
+| Nosaukums/vārds, uzvārds                 | Veids    | Uzraksta teksta ID |
 |----------------------|---------|-----------------|
 | TLT                  | Saņemšana | 900001          |
 | SEC                  | Saņemšana | 900002          |

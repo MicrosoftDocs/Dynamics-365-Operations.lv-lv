@@ -2,19 +2,19 @@
 title: Izrakstu grāmatošanas funkcionalitātes uzlabojumi
 description: Šajā tēmā ir aprakstīti izrakstu grāmatošanas līdzeklim veiktie uzlabojumi.
 author: analpert
-ms.date: 01/31/2022
+ms.date: 04/27/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: d7c7c330695cbcd18a44db5b3f4e28411d8de4f3
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: be9aa68aec1fd7deff315234a6dbf41edc3d6819
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462554"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649023"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Izrakstu grāmatošanas funkcionalitātes uzlabojumi
 
@@ -52,26 +52,7 @@ Kā daļa no izrakstu grāmatošanas līdzekļa uzlabojumiem lapas **Commerce pa
 > [!NOTE]
 > Saskaņā ar Commerce versijas 10.0.14 laidienu, **kad ir iespējota mazumtirdzniecības pārskatu funkcija Mazumtirdzniecības padeve,** **vairs** nav piemērojams un to nevar palaist.
 
-Turklāt kopsavilkuma cilnē **Pakešveida apstrāde** cilnē **Posting** lapā **Commerce rekvizīti** ir ieviesti tālāk minētie parametri. 
-
-- **Maksimālais paralēli grāmatojamo izrakstu skaits** — šajā laukā noteikts pakešuzdevumu skaits, kas tiks izmantoti vairāku izrakstu grāmatošanai. 
-- **Maksimālais pasūtījumu apstrādes pēc ieraksta pavedienu skaits** — šis lauks atspoguļo maksimālo pavedienu skaitu, ko izmanto ieraksta grāmatošanas pakešuzdevums, lai izveidotu pārdošanas pasūtījumus vienam ierakstam un izrakstītu rēķinu. Kopējais pavedienu skaits, kas tiks izmantots izraksta grāmatošanas procesā, tiks aprēķināts, ņemot vērā vērtību šajā parametrā, kas reizināta ar parametra **Maksimālais paralēli grāmatojamo izrakstu skaits** vērtību. Iestatot pārāk lielu šī parametra vērtību par lielu, var negatīvi ietekmēt izraksta grāmatošanas procesa veiktspēju.
-- **Maksimālais apkopojumā iekļauto transakciju rindu skaits** — šis lauks nosaka transakciju rindu skaitu, kas tiks iekļautas vienā apkopotā transakcijā, pirms tiek izveidota jauna. Apkopotās transakcijas tiek veidotas, pamatojoties uz dažādiem apkopošanas kritērijiem, piemēram, debitors, biznesa datums vai finanšu dimensijas. Ir svarīgi atzīmēt, ka vienas transakcijas rindas netiks sadalītas pa dažādām apkopotām transakcijām. Tas nozīmē, ka ir iespējamība, ka rindu skaits uzkrātajā darbībā nedaudz ir lielāks vai mazāks, pamatojoties uz faktoriem, piemēram, atšķirīgu preču skaitu.
-- **Maksimālais pavedienu skaits veikala transakciju pārbaudei** — šis lauks nosaka pavedienu skaitu, kas tiks izmantoti transakciju pārbaudei, Transakciju pārbaude ir obligāta darbība, kas jāizpilda, pirms transakcijas var tikt ievilktas pārskatos. Turklāt ir nepieciešams definēt **Dāvanu kartes preci** kopsavilkuma cilnē **Dāvanu karte** (pieejama cilnē **Grāmatošana**, kas pieejama lapā **Commerce parametri**). Tas ir jādefinē, pat ja organizācija neizmanto dāvanu kartes.
-
-Tabulā uzskaitītas ieteicamās vērtības iepriekšējos parametros. Šīs vērtības ir jāpārbauda un jāpiemēro izvietojuma konfigurācijai un pieejamai infrastruktūrai. Visi rekomendētās vērtības palielinājumi var nelabvēlīgi ietekmēt citu pakešveida apstrādi, un tie ir jāpārbauda.
-
-| Parametrs | Ieteicamā vērtība | Detalizēti |
-|-----------|-------------------|---------|
-| Maksimālais paralēli grāmatojamo pārskatu skaits | <p>Iestatiet šo parametru uz pakešuzdevumu skaitu, kas pieejami pakešuzdevumu grupai, kas palaiž pārskata **darbu**.</p><p>**Vispārīga kārtula:** reizināt Application Object Server (AOS) virtuālo serveru skaitu ar pakešuzdevumu skaitu, kas ir pieejami katrā AOS virtuālajā serverī.</p> | Šis parametrs nav piederīgs, ja ir **iespējota mazumtirdzniecības pārskatu funkcija - padeves** funkcija. |
-| Maksimālais pavedienu skaits pasūtījumu apstrādei katram pārskatam | Sāciet testēt vērtības ar **4**. Parasti vērtība nedrīkst pārsniegt **8**. | Šis parametrs norāda pavedienu skaitu, kas tiek izmantots pārdošanas pasūtījumu izveidošanai un grāmatošanai. Tas parāda pavedienu skaitu, kas ir pieejams grāmatošanai vienā pārskatā. |
-| Maksimālais transakcijas rindu skaits, kas iekļauts apkopojumā | Sāciet testēt vērtības ar **1000**. Atkarībā no galvenās pārvaldes konfigurācijas mazāki pasūtījumi var būt veiktspējas uzlabošanai. | Šis parametrs nosaka rindu skaitu, kas pārskata grāmatošanas laikā tiks iekļautas katrā pārdošanas pasūtījumā. Kad šis skaitlis ir sasniegts, rindas tiks sadalītas jaunā pasūtījumā. Lai gan pārdošanas rindu skaits nav precīzs, jo sadalīšana parādās pārdošanas pasūtījuma līmenī, tā būs tuvu iestatītā numuram. Šis parametrs tiek izmantots, lai ģenerētu pārdošanas pasūtījumus mazumtirdzniecības transakcijām, kurām nav nosaukta debitora. |
-| Maksimālais pavedienu skaits veikala transakciju pārbaudei | Šo parametru ieteicams iestatīt uz **4** un palielināt to tikai tad, ja sasniegt pieņemamu veiktspēju. Pavedienu skaits, ko izmanto šis process, nevar pārsniegt procesoru skaitu, kas ir pieejams pakešu serverim. Ja šeit piešķirat pārāk daudz pavedienu, iespējams, tiks ietekmēta cita pakešapstrāde. | Šis parametrs kontrolē darbību skaitu, kas konkrētā veikalā var vienlaicīgi tikt validētas. |
-
-> [!NOTE]
-> Visi iestatījumi un parametri, kas ir saistīti ar izrakstu grāmatojumiem un kas ir definēti mazumtirdzniecības veikaliem un lapā **Commerce parametri**, ir lietojami uzlabotajam izrakstu grāmatošanas līdzeklim.
-
-## <a name="processing"></a>Apstrādāšana
+## <a name="processing"></a>Apstrāde
 
 Izrakstus var aprēķināt un grāmatot pakešveidā, izmantojot izvēlnes vienumus **Aprēķināt izrakstus partijā** un **Grāmatot izrakstus partijā**. Tāpat izrakstus var manuāli aprēķināt un grāmatot, izmantojot izvēlnes vienumu **Izraksti**, kuru nodrošina uzlabotais izrakstu grāmatošanas līdzeklis.
 

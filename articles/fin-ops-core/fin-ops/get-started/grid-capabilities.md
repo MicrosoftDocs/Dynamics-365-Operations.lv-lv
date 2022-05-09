@@ -2,7 +2,7 @@
 title: Režģa iespējas
 description: Šajā tēmā ir aprakstīti vairāki ietekmīgi režģa kontroles līdzekļi. Lai piekļūtu šīm iespējām, ir jābūt iespējotam jaunajam režģa līdzeklim.
 author: jasongre
-ms.date: 03/21/2022
+ms.date: 04/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 08348185a424d20b6da1563189496b7dd51944d9
-ms.sourcegitcommit: edc887e0526c415466e9691e642028ecd97cdbe7
+ms.openlocfilehash: 57133a853d1700b2d8ebb938f93af475410b82cb
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8602967"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644418"
 ---
 # <a name="grid-capabilities"></a>Režģa iespējas
 
@@ -106,7 +106,7 @@ Lai izmantotu šo funkciju, ar peles labo pogu noklikšķiniet uz kolonnas, pēc
 - Datu rindu skaits šajā grupā
 - Kolonnu, kas konfigurētas kopsummu rādīšanai, apakšsummas
 
-Kad ir aktivizēti [Saglabātie skati](saved-views.md), šo grupēšanu var saglabāt ar personalizāciju kā daļu no skata, lai nākamreiz, kad apmeklēsiet šo lapu, nodrošinātu ātru piekļuvi.
+Ar [iespējotus](saved-views.md) saglabātos skatus, varat saglabāt grupēšanu kā daļu no skata lapām, kas ļauj saglabāt vaicājumus skatos. Piemēram, tiem, kam ir lieli skatījumu atlasītāji. Papildinformāciju [skatiet sadaļā Pārslēgšanās](saved-views.md#switching-between-views) starp skatījumiem. 
 
 ### <a name="multiple-levels-of-grouping"></a>Vairāki grupēšanas līmeņi
 Kad dati ir grupēti pēc vienas kolonnas, datus var grupēt pēc citas kolonnas, vēlamajā kolonnā atlasot **Grupēt pēc šīs kolonnas**. Šo procesu var atkārtot, kamēr nav 5 ligzdotu grupēšanas līmeņu, kas ir maksimālais atbalstītais dziļums. Šajā brīdī vairs nevarēsit grupēt pēc papildu kolonnām.

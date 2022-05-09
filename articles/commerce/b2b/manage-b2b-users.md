@@ -2,7 +2,7 @@
 title: Biznesa partneru lietotāju pārvaldīšana B2B e-komercijas tīmekļa vietnēs
 description: Šajā tēmā ir aprakstīts, kā biznesa partnera lietotājus pievienot, Microsoft Dynamics 365 Commerce dzēst un rediģēt sadaļā "bizness-biznesam" (B2B) e-komercijas vietnes un programmā Commerce Headquarters.
 author: josaw1
-ms.date: 02/17/2022
+ms.date: 04/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: def8d4de082ceb4be77ed7e8898cbef82d52b749
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
-ms.translationtype: MT
+ms.openlocfilehash: c2fb4846a8457296a2ce758198ade5f4b0df8124
+ms.sourcegitcommit: 96e2fb26efd2cd07bbf97518b5c115e17b77a0a8
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323459"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "8616861"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Biznesa partneru lietotāju pārvaldīšana B2B e-komercijas tīmekļa vietnēs
 
@@ -28,7 +28,8 @@ ms.locfileid: "8323459"
 Šajā tēmā ir aprakstīts, kā biznesa partnera lietotājus pievienot, Microsoft Dynamics 365 Commerce dzēst un rediģēt sadaļā "bizness-biznesam" (B2B) e-komercijas vietnes un programmā Commerce Headquarters.
 
 > [!NOTE]
-> Tēma [Pārvaldīt B2B biznesa partnerus, izmantojot debitoru hierarhijas](partners-customer-hierarchies.md) ir šī dokumenta priekšnosacījums. 
+> - Tēma [Pārvaldīt B2B biznesa partnerus, izmantojot debitoru hierarhijas](partners-customer-hierarchies.md) ir šī dokumenta priekšnosacījums.
+> - Pārliecinieties, ka inicializējiet dokumentu tipu elementu programmā Commerce headquarters, atverot dokumentu **tipu** formu organizācijas administrēšanas **dokumentu \> pārvaldības dokumentu \> tipos**.
 
 B2B e-komercijas tīmekļa vietnes pieprasa, lai organizācijas reģistrētos kļūt par biznesa partneriem. Kad organizācija iesniedz reģistrācijas datus B2B e-komercijas vietnei, reģistrācijas pieprasījums tiek apstrādāts kvalifikācijas procesā. Ja organizācija ir sekmīgi kvalificēta, tā tiek pievienota kā biznesa partneris.
 
@@ -129,7 +130,7 @@ Lai pievienotu biznesa partnerus un lietotājus Commerce Headquarters, veiciet t
 
 [B2B e-komercijas vietnes iestatīšana](set-up-b2b-site.md)
 
-[Pārvaldīt B2B biznesa partnerus, izmantojot debitoru hierarhijas](partners-customer-hierarchies.md)
+[B2B biznesa partneru pārvaldība, izmantojot debitoru hierarhijas](partners-customer-hierarchies.md)
 
 [Klienta konta maksājuma metodes konfigurēšana B2B e-komercijas vietnēs](payment-method.md)
 

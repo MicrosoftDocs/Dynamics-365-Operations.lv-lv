@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: b41ff8a112f801cd9bf5ebad3aed588ccb40e1f8
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: 826c1cb0fba7025b16dadbfa6157683392945103
+ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388367"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "8614155"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-austria"></a>Fiskālās reģistrācijas pakalpojuma integrācijas paraugs Austrijai
 
 [!include[banner](../includes/banner.md)]
-[!include[banner](../includes/preview-banner.md)]
 
 Šajā tēmā sniegts pārskats par Austrijas finanšu integrācijas paraugu Microsoft Dynamics 365 Commerce.
 
@@ -135,18 +134,18 @@ Pievienojiet šādas POS iezīmes tabulas **POS** **valodas teksta** sadaļai:
 
 | Valodas kods | Teksta ID | Teksts                      |
 |-------------|---------|---------------------------|
-| en-ASV       | 900001  | QR kods                   |
-| en-ASV       | 900002  | Nepārtraukts numurs         |
-| en-ASV       | 900003  | Nodokļu mazumtirdzniecības drukāšanas kods     |
-| en-ASV       | 900004  | Kopā (pārdošana)             |
-| en-ASV       | 900005  | Nodokļu kopsumma (pārdošana)         |
-| en-ASV       | 900006  | Kopsumma, iekļaut nodokli (pārdošana) |
-| en-ASV       | 900007  | Nodokļu summa (pārdošana)        |
-| en-ASV       | 900008  | Nodokļu bāze (pārdošana)         |
+| lv       | 900001  | QR kods                   |
+| lv       | 900002  | Nepārtraukts numurs         |
+| lv       | 900003  | Nodokļu mazumtirdzniecības drukāšanas kods     |
+| lv       | 900004  | Kopā (pārdošana)             |
+| lv       | 900005  | Nodokļu kopsumma (pārdošana)         |
+| lv       | 900006  | Kopsumma, iekļaut nodokli (pārdošana) |
+| lv       | 900007  | Nodokļu summa (pārdošana)        |
+| lv       | 900008  | Nodokļu bāze (pārdošana)         |
 
 Pielāgoto lauku **lapā pievienojiet** šiem ierakstiem kvīts izkārtojumu pielāgotajiem laukiem. Ievērojiet **, ka uzraksta** teksta **ID vērtībām ir jāatbilst teksta ID** vērtībām, kas norādītas **teksta** lapā Valoda:
 
-| Vārds                 | Veids    | Uzraksta teksta ID |
+| Nosaukums/vārds, uzvārds                 | Veids    | Uzraksta teksta ID |
 |----------------------|---------|-----------------|
 | QR KODS               | Saņemšana | 900001          |
 | NEPĀRTRAUKTS NUMURS     | Saņemšana | 900002          |

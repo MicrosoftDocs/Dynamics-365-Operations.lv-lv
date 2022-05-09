@@ -2,7 +2,7 @@
 title: Saglabātie skati
 description: Šajā tēmā ir aprakstīts, kā izmantot saglabāto skatu līdzekļus.
 author: jasongre
-ms.date: 09/13/2021
+ms.date: 04/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: bd1b034ebb66b996e20173c2ad4f958e643f9c2e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e10137ff5d11ed06c32613e601e2fa7423e270ac
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065710"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644792"
 ---
 # <a name="saved-views"></a>Saglabātie skati
 
@@ -45,7 +45,7 @@ Pēc tam, kad skati būs padarīti pieejami videi, jebkuras lapas augšdaļā, k
 
 Skata atlasītājam ir divi izmēru varianti: 
 
-- **Lieli skata atlasītāji** - lapās, kurās ir izcelts saraksts, būs lielāks skata atlasītājs vairāku iemeslu dēļ. Vissvarīgākais ir tas, ka lielāks skata atlasītājs norāda lapas, kurās skats var ietvert lietotāja definētos filtrus. Tā kā skatos ir iekļauti filtri, lielāks atlasītāja izmērs arī ir nepieciešams, jo skatu nosaukumi bieži vien ir ekrānā redzamo datu labākais apraksts, un sagaidāms, ka lietotāji šajos lapu tipos biežāk pārslēgsies starp skatiem.
+- **Lieli skata atlasītāji** - lapās, kurās ir izcelts saraksts, būs lielāks skata atlasītājs vairāku iemeslu dēļ. Pats faktors, jo lielāks skatījuma atlasītājs norāda lapas, kur skatā var būt ietverti lietotāja definēti filtri un šķiro. Tā kā filtri un kārtošana ir ietverti skatos, tiek garantēts arī lielāks atlases lielums, jo skatījumu nosaukumi bieži būs ekrānam rādīto datu labākais apraksts, un paredzams, ka lietotāji šajos lapu tipos tiks mainīti starp skatījumiem bieži. Grupēšanu režģī var saglabāt arī skatos lapā ar lieliem skatījumu atlasītājiem. 
 - **Mazi skata atlasītāji** - visām pārējām pilna ekrāna lapām (izņemot darbvietas un informācijas paneli) ir mazāks skata atlasītājs, kas tiek parādīts blakus lapas uzrakstam. Skatos šajās lapās ir ietvertas tikai personalizācijas, nevis lietotāja definēti filtri. Šajās lapās uzraksts vai ieraksta virsraksts bieži vien ir vissvarīgākā informācija lapas augšā. Skata atlasītāja mazāks lielums arī ataino mazāku prognozēto skatu pārslēgšanas biežumu nekā šajās lapās. 
  
 Atlasot skata nosaukumu, atveras skata atlasītājs un tajā tiek parādīts pieejamo skatu saraksts šai lapai.
@@ -215,7 +215,7 @@ Lai skatītu sarakstu ar saglabāto skatu problēmām, lūdzu, skatiet [Veidlapu
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Kā iespējot saglabātos skatus manā vidē?
 
 > [!NOTE]
-> Līdzeklim Saglabātie **skati** ir jāiespējo finance and operations personalizācijas sistēma. Gadījumā, ja personalizācija ir izslēgta visā vidē, skati tiks atspējoti, pat ja veiksiet zemāk minētās darbības. 
+> Lai **iespējotu līdzekli** Saglabātie skati, ir jāiespējo personalizēšanas sistēma Finansēs un operācijās. Gadījumā, ja personalizācija ir izslēgta visā vidē, skati tiks atspējoti, pat ja veiksiet zemāk minētās darbības. 
 
 Funkciju pārvaldībā jebkurā vidē varat ieslēgt vai izslēgt līdzekli **Saglabātie skati**. Kad tas ir ieslēgts, saglabātie skati tiks iespējoti visās turpmākajās lietotāja sesijās.
 

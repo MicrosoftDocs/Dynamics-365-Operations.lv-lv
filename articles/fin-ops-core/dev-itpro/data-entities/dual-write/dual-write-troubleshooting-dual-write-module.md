@@ -1,20 +1,20 @@
 ---
 title: Duālā ieraksta problēmu novēršana Finance and Operations programmās
-description: Šajā tēmā ir sniegta problēmu novēršanas informācija, kas var palīdzēt novērst problēmas, kas saistītas ar duālās rakstīšanas moduli finance and Operations programmās.
+description: Šajā tēmā ir sniegta traucējummeklēšanas informācija, kas var palīdzēt jums novērst problēmas modulī Dubultā rakstīšana Finanšu un operāciju programmās.
 author: RamaKrishnamoorthy
-ms.date: 04/12/2022
+ms.date: 04/18/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 58b20e38269922203b54173509e31c5e6f30c25b
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
-ms.translationtype: HT
+ms.openlocfilehash: 0696d525e985f1cfcac1998d4c0bd8a380ca9551
+ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565971"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "8613887"
 ---
 # <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Duālā ieraksta problēmu novēršana Finance and Operations programmās
 
@@ -22,12 +22,12 @@ ms.locfileid: "8565971"
 
 
 
-Šajā tēmā ir sniegta problēmu novēršanas informācija par divējādas rakstīšanas integrāciju starp Finance and Operations programmām un Dataverse. Konkrēti, tas sniedz informāciju, kas var palīdzēt novērst problēmas ar **divu rakstīšanas** moduli Finance and Operations programmās.
+Šajā tēmā ir sniegta traucējummeklēšanas informācija par dubulto rakstīšanas integrāciju starp Finanšu un operāciju programmām un Dataverse. It īpaši tā sniedz informāciju, kas var palīdzēt jums novērst problēmas **ar Dubultās rakstīšanas moduli** Finanšu un operāciju programmās.
 
 > [!IMPORTANT]
 > Dažas no problēmām, kas risinātas šajā tēmā, var būt nepieciešama vai nu sistēmas administratora loma, vai Microsoft Azure Active Directory (Azure AD) nomnieka administratora akreditācijas dati. Katras problēmas sadaļā ir paskaidrots, vai ir nepieciešama īpaša loma vai akreditācijas dati.
 
-## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>Programmā Finance and Operations nevar ielādēt duālās rakstīšanas moduli
+## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>Dubultās rakstīšanas moduli nevar ielādēt finanšu un operāciju programmā
 
 Ja nevarat atvērt lapu **Duālais ieraksts**, atlasot elementu **Duālais ieraksts** darbvietā **Datu pārvaldība**, visticamāk nedarbojas datu integrācijas pakalpojums. Izveidojiet atbalsta biļeti, lai pieprasītu datu integrācijas pakalpojuma restartēšanu.
 
@@ -49,7 +49,7 @@ Lai labotu problēmu, piesakieties, izmantojot InPrivate logu pakalpojumā Micro
 
 ## <a name="error-when-you-link-the-environment-for-dual-write-or-add-a-new-table-mapping"></a>Kļūda, saistot vidi divējādai rakstīšanai vai pievienot jaunu tabulas kartēšanu
 
-**Nepieciešamā loma problēmas novēršanai:** Sistēmas administrators gan Finance, gan Operations programmās un Dataverse.
+**Nepieciešama loma problēmas izlabošanai: sistēmas administrators** gan finanšu, gan operāciju programmās, kā arī Dataverse.
 
 Sasaistot vai veidojot kartes, var rasties šādas kļūdas:
 
@@ -59,7 +59,7 @@ Session ID: \<your session id\>
 Root activity ID: \<your root activity\> id
 ```
 
-Šī kļūda var rasties, ja jums nav nepieciešamo atļauju, lai saistītu duālo ierakstu vai izveidotu kartes. Šī kļūda var parādīties arī tad, ja Dataverse vide ir atiestatīta, nesaistot duālo rakstīšanu. Jebkurš lietotājs ar sistēmas administratora lomu gan Finance, gan Operations programmās un Dataverse var saistīt vidi. Tikai lietotājs, kas iestatījis duālās rakstīšanas savienojumu, var pievienot jaunas tabulas kartes. Pēc iestatīšanas jebkurš lietotājs ar sistēmas administratora lomu var pārraudzīt statusu un rediģēt kartēšanas.
+Šī kļūda var rasties, ja jums nav nepieciešamo atļauju, lai saistītu duālo ierakstu vai izveidotu kartes. Šī kļūda var parādīties arī tad, ja Dataverse vide ir atiestatīta, nesaistot duālo rakstīšanu. Jebkurš lietotājs ar sistēmas administratora lomu gan finanšu, gan operāciju programmās un Dataverse var saistīt vides. Tikai lietotājs, kas iestatījis duālās rakstīšanas savienojumu, var pievienot jaunas tabulas kartes. Pēc iestatīšanas jebkurš lietotājs ar sistēmas administratora lomu var pārraudzīt statusu un rediģēt kartēšanas.
 
 ## <a name="error-when-you-stop-the-table-mapping"></a>Kļūda, apturot tabulas kartēšanu
 
@@ -71,18 +71,18 @@ Mēģinot apturēt tabulas kartēšanu, jūs varētu saņemt šādu kļūdas zi�
 
 Lai atrisinātu problēmu, izveidojiet biļeti datu integrācijas grupai. Pievienojiet tīkla izsekošanu, lai datu integrācijas grupa varētu atzīmēt kartes kā **Nedarbojošās** aizmugursistēmā.
 
-## <a name="enable-parallel-processing-in-finance-and-operations-apps-to-improve-performance"></a>Paralēlās apstrādes iespējošana Finance and Operations programmās, lai uzlabotu veiktspēju
+## <a name="enable-parallel-processing-in-finance-and-operations-apps-to-improve-performance"></a>Iespējojiet paralēlo apstrādi finanšu un operāciju programmās, lai uzlabotu veiktspēju
 
-Paralēlas apstrādes iespējošana var samazināt laiku, kas nepieciešams, lai importētu datus no Finance and Operations lietotnēm klientu piesaistes lietotnēs un Microsoft Dataverse. 
+Paralēlās apstrādes iespējošana var samazināt laiku, kas nepieciešams datu importēšanai no Dynamics 365 debitoru ieslēgšanas Microsoft Dataverse programmām un uz programmām Finanses un Operācijas. 
 
-Lai iespējotu paralēlo apstrādi Finance and Operations programmās, veiciet tālāk norādītās darbības.
+Lai iespējotu paralēlo apstrādi Finanšu un operāciju programmās, veiciet sekojošos soļus.
 
-1. Piesakieties savā finanšu un operāciju vidē.
-2. Dodieties uz **Datu pārvaldība > pamatparametriem**.
-3. Atlasiet **Entītijas iestatījumi** un atlasiet **Konfigurēt entītijas izpildes parametrus**.
-4. Pievienojiet paralēlās apstrādes parametrus:
-    - **Importa sliekšņa ierakstu skaits** — ierakstu skaits, kas jāizpilda pirms paralēlās apstrādes iespējošanas.
-    - **Importēšanas uzdevumu skaits** — pavedienu (uzdevumu) skaits, kas jāpalaiž paralēli.
+1. Piesakieties finanšu un operāciju vidē.
+2. Dodieties uz **datu > struktūras parametriem**.
+3. Atlasiet **elementa iestatījumus un** atlasiet Konfigurēt **elementa izpildes parametrus**.
+4. Pievienot parametrus paralēlai apstrādei:
+    - **Importēt sliekšņa ierakstu skaitu** — ierakstu skaits, kas jāizpilda pirms paralēlās apstrādes iespējošanas.
+    - **Importēt uzdevumu skaitu** – pavedienu (uzdevumu) skaits, kas jāpalaiž paralēli.
 5. Atlasiet **Saglabāt**.
 
 
@@ -97,7 +97,7 @@ Mēģinot palaist sākotnējo sinhronizēšanu, jūs varētu saņemt šādu kļ�
 Mēģinot iestatīt šo kartēšanas stāvokli uz **Darbojas**, var tikt parādīta šāda kļūda: Šīs kļūdas labojums ir atkarīgs no kļūdas cēloņa:
 
 + Ja kartēšanai ir atkarīgi kartējumi, pārliecinieties, ka iespējojat šīs tabulas kartēšanas atkarīgos kartējumus.
-+ Kartēšanai var trūkt avota vai mērķa kolonnu. Ja lietojumprogrammā Finanses un operācijas trūkst kolonnas, izpildiet darbības, kas norādītas sadaļā [Trūkstošās tabulas kolonnas problēma kartēs](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Ja trūkst lauks programmā Dataverse, noklikšķiniet uz pogas **Atsvaidzināt tabulas** kartēšanā, lai kolonnas tiktu automātiski novirzītas atpakaļ kartēšanā.
++ Kartēšanai var trūkt avota vai mērķa kolonnu. Ja programmas Finanses un operācijas kolonna nav kolonna, [kartēs izpildiet sadaļā Trūkstošo tabulu kolonnu problēmas soļus](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Ja trūkst lauks programmā Dataverse, noklikšķiniet uz pogas **Atsvaidzināt tabulas** kartēšanā, lai kolonnas tiktu automātiski novirzītas atpakaļ kartēšanā.
 
 ### <a name="version-mismatch-error-and-upgrading-dual-write-solutions"></a>Versiju neatbilstības kļūda un duālo rakstīšanas risinājumu jaunināšana
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 4eb8f6aee50d74127ecc816af691a96bb1d8966b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: bb837a38485bad2b9b76a5e4f20d311c0281e192
+ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469147"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625427"
 ---
 # <a name="planning-with-negative-on-hand-quantities"></a>Plānošana ar negatīviem rīcībā esošajiem daudzumiem
 
@@ -75,7 +75,7 @@ Rezultāts tiek plānots 25 gab. pasūtījumam. (= 25 gab. &minus; 0 gab.), lai 
 
 ## <a name="planning-when-there-is-a-reservation-against-negative-on-hand-inventory"></a>Plānošana, ja ir rezervēšana pret negatīviem rīcībā esošiem krājumiem
 
-Ja krājumus koriģē, kamēr pastāv fiziskas rezervācijas, var radīt situāciju, kad pasūtījums ir fiziski rezervēts attiecībā pret negatīviem krājumiem. Šajā gadījumā, tā kā pastāv fiziska rezervācija, plānošanas optimizācija pieņem, ka to atbalsta rīcībā esošie krājumi, pat ja rīcībā esošo krājumu saņemšana sistēmā vēl nav reģistrēta. Tāpēc tiek pieņemts, ka papildināšana nav pieprasīta un neizveido plānoto pasūtījumu pasūtījuma daudzuma papildināšanai.
+Ja krājumus koriģē, kamēr pastāv fiziskas rezervācijas, var radīt situāciju, kad pasūtījums ir fiziski rezervēts attiecībā pret negatīviem krājumiem. Šajā gadījumā, tā kā eksistē fiziska rezervācija, nepieciešams, lai piegāde nosegtu rezervēto daudzumu. Tāpēc papildināšana ir nepieciešama, tādējādi sistēma izveidos plānoto pasūtījumu, lai papildinātu daudzumu, ko nevarēja segt ar esošajiem rīcībā esošajiem krājumiem, vai segs to ar esošu krājuma pasūtījumu.
 
 Tas ir atainots tālāk sniegtajā scenārija piemērā.
 
@@ -88,7 +88,7 @@ Sistēma tiek konfigurēta šādā veidā:
 - Pastāv pārdošanas pasūtījums daudzumam *10* gab. preču *FG*.
 - Pārdošanas pasūtījuma daudzums ir fiziski rezervēts attiecībā pret esošajiem rīcībā esošajiem krājumiem.
 
-Pēc tam koriģējiet preču *FG* daudzumu, lai rīcībā esošie krājumi būtu 0 (nulle). Tā kā rīcībā esošie preču krājumi ir nulle, pārdošanas pasūtījuma daudzums tagad tiek rezervēts pret negatīviem krājumiem. Tomēr, ja palaižat vispārējo plānošanu tagad, netiks izveidots plānotais pasūtījums pārdošanas pasūtījuma piegādei, jo optimizācijas plānošana pieņems, ka nepieciešamie rīcībā esošie krājumi ir, lai piegādātu fizisko rezervēšanu.
+Pēc tam koriģējiet produktu *FG* daudzumu, lai rīcībā esošie krājumi būtu 5. Tā kā rīcībā esošo preču krājumi ir 5, pārdošanas pasūtījuma daudzums tagad tiek rezervēts attiecībā pret daudzumu, kas nav pieejams rīcībā (tas būtu līdzīgs, ja rīcībā esošie krājumi būtu 0, un šādā gadījumā pārdošanas pasūtījums tiktu rezervēts pret negatīviem krājumiem). Ja jūs tagad palaižat vispārējo plānošanu, tiks izveidots plānotais daudzums 5 *FG*, lai piegādātu pārdošanas pasūtījumu, jo Plānošanas optimizācija vienmēr izmantos esošo piegādi vai izveidos jaunu plānoto pasūtījumu fiziskās rezervēšanas piegādei.
 
 ## <a name="related-resources"></a>Saistītie resursi
 

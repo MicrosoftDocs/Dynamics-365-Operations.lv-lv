@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e9bc4fefb6aabc0b93d4d96f5930590ef99235b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: MT
+ms.openlocfilehash: 38bf1f9f201e7f34e6a7ea76fbef399ba94caafa
+ms.sourcegitcommit: 367e323bfcfe41976e5d8aa5f5e24a279909d8ac
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567660"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8660384"
 ---
 # <a name="set-up-shipping-carriers"></a>Sūtījumu pārvadātāju iestatīšana
 
@@ -27,8 +27,8 @@ ms.locfileid: "7567660"
 
 Šajā tēmā parādīts, kā iestatīt nosūtījuma pārvadātāju un definēt tādu informāciju kā pakalpojums, piegādes režīms, transportēšanas norēķini, transportēšanas ierobežojumi un nosūtīšanas likme. Transportēšanas koordinators pēc tam var piešķirt nosūtījuma pārvadātāju ienākošai vai izejošai kravai.
 
-
 ## <a name="create-a-new-shipping-carrier"></a>Jauna nosūtījumu pārvadātāja izveide
+
 1. Pārejiet uz **Navigācijas rūts > Moduļi > Transportēšanas pārvaldība > Iestatīšana > Pārvadātāji > Sūtījumu pārvadātāji**.
 2. Atlasiet **Jauns** darbību rūtī.
 3. Ierakstiet vērtību laukā **Sūtījumu pārvadātājs**.
@@ -36,6 +36,7 @@ ms.locfileid: "7567660"
 5. Laukā **Režīms** atlasiet opciju no nolaižamās izvēlnes.
 
 ## <a name="fill-in-the-general-information-for-the-shipping-carrier"></a>Vispārējās informācijas ievade par nosūtījumu pārvadātāju
+
 1. Pārslēdziet sadaļas **Pārskats** paplašinājumu.
 2. Atzīmējiet vai noņemiet atzīmi no izvēles rūtiņas **Aktivizēt nosūtīšanas pārvadātāju**.
 3. Laukā **Kreditora konts** atlasiet opciju no nolaižamās izvēlnes. Atlasiet kreditora kontu, kuram piešķirt nosūtījuma pārvadātāju.  
@@ -43,13 +44,16 @@ ms.locfileid: "7567660"
 5. Atzīmējiet vai noņemiet atzīmi no izvēles rūtiņas **Aktivizēt pārvadātāja vērtējumu**.
 
 ## <a name="create-the-necessary-services-for-the-shipping-carrier"></a>Nepieciešamo pakalpojumu izveide sūtījumu pārvadātājam
+
 1. Pārslēdziet sadaļas **Pakalpojumi** paplašinājumu.
 2. Atlasiet **Jauns**.
 3. Ierakstiet vērtību laukā **Pārvadātāja pakalpojums**.
 4. Laukā **Nosaukums** ierakstiet kādu vērtību.
-5. Laukā **Pārvadāšanas metode** atlasiet opciju no nolaižamās izvēlnes.
+5. Laukā **Kravas veidnes ID** atlasiet noslodzes veidni, kuru saistīt ar pakalpojumu. Kravas veidne nosaka maksimālos mērījumus visas kravas svaram un tilpumam. Piemēram, kravas veidne var atspoguļot konteinera vai kravas automašīnas lielumu. Kravas veidnes ID ir norādīti [arī](load-building-workbench.md) noslodzes veidošanas veidnēs un, izmantojot noslodzes veidošanas darba rīks, kas palīdz lietot noslodzes veidošanas stratēģijas kravu izveidošanai. Tādēļ sistēma varēs saskaņot katru jauno noslodzi ar piemērotu kravas pārvadātāja pakalpojumu, salīdzinot norādītos kravas veidnes ID.
+6. Laukā **Pārvadāšanas metode** atlasiet opciju no nolaižamās izvēlnes.
 
 ## <a name="set-up-the-address-for-the-carrier-optional"></a>Iestatiet pārvadātāja adresi (nav obligāti)
+
 1. Pārslēdziet sadaļas **Adreses** izvēršanu.
 2. Atlasiet **Jauns**.
 3. Laukā **Nosaukums vai apraksts** ierakstiet vērtību.
@@ -59,6 +63,7 @@ ms.locfileid: "7567660"
 7. Atlasiet **Labi**.
 
 ## <a name="set-up-the-rating-profile-for-the-shipping-carrier"></a>Iestatiet nosūtījumu pārvadātāja novērtēšanas profilu
+
 1. Pārslēdziet sadaļas **Novērtējuma profili** izvēršanu.
 2. Atlasiet **Jauns**.
 3. Ierakstiet vērtību laukā **Novērtējuma profils**.

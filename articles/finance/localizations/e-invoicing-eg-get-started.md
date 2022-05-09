@@ -1,6 +1,6 @@
 ---
 title: Elektroniskā rēķinu izrakstīšana Ēģiptei
-description: Šajā tēmā sniegta informācija, kas palīdzēs uzsākt darbu ar elektronisko rēķinu izrakstīšanu Ēģiptei Microsoft Dynamics 365 Finance un Dynamics 365 Supply Chain Management.
+description: Šajā tēmā sniegta informācija, kas palīdzēs jums uzsākt elektronisko rēķinu izrakstīšanu Ēģiptei Microsoft Dynamics 365 Finansēs un Dynamics 365 Supply Chain Management.
 author: gionoder
 ms.date: 02/09/2022
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6fe1dd4254db8b390c17558320a6eaff2b0dcd19
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: e21c4ce4d676c3194665672a078dc1e3d0492799
+ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371360"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661727"
 ---
 # <a name="electronic-invoicing-for-egypt"></a>Elektroniskā rēķinu izrakstīšana Ēģiptei
 
@@ -41,8 +41,8 @@ Pirms sākat šīs tēmas procedūras, izpildiet tālāk norādītos priekšnosa
     - [Iestatīt Azure resursus elektroniskajai rēķinu izrakstīšanai](e-invoicing-set-up-azure-resources.md)
     - [Instalējiet programmu Microservices pievienojumprogrammu pakalpojumam Lifecycle Services](e-invoicing-install-add-in-microservices-lcs.md)
     
-- Aktivizējiet integrāciju starp jūsu Microsoft Dynamics 365 Finance vai programmu Dynamics 365 Supply Chain Management un Elektronisko rēķinu izrakstīšanas pakalpojumu, kā [tas ir aprakstīts Aktivizējiet un iestatiet integrāciju ar elektronisko rēķinu izrakstīšanu](e-invoicing-activate-setup-integration.md).
-- Izveidojiet ciparsertifikātu noslēpumu Azure atslēgas to un iestatiet to, kā aprakstīts Debitoru [sertifi kā noslēpumos](e-invoicing-customer-certificates-secrets.md). Testēšanas nolūkos Ēģiptes nodokļu iestāde nodrošina konkrētus testa ciparsertifikātus, kas jāizmanto tikai testēšanas un risinājuma apstiprināšanas posmu laikā. Lai iegūtu plašāku informāciju, dodieties uz Ēģiptes nodokļu iestādes vietni, izmantojot saiti, kas ir sniegta [Ēģiptes e-rēķinu izrakstīšanas SDK](https://sdk.sit.invoicing.eta.gov.eg/faq/).
+- Aktivizējiet integrāciju starp jūsu Microsoft Dynamics 365 Finansēm Dynamics 365 Supply Chain Management [vai programmu un Elektronisko rēķinu izrakstīšanas pakalpojumu](e-invoicing-activate-setup-integration.md), kā aprakstīts Sadaļā Aktivizēt un iestatīt integrāciju ar Elektronisko rēķinu izrakstīšanu.
+- Izveidojiet ciparsertifikātu noslēpumu Azure atslēgas to un iestatiet to, kā aprakstīts Debitoru [sertifi kā noslēpumos](e-invoicing-customer-certificates-secrets.md). Testēšanas nolūkos Ēģiptes nodokļu iestāde nodrošina konkrētus testa ciparsertifikātus, kas jāizmanto tikai testēšanas un risinājuma apstiprināšanas posmu laikā. Lai iegūtu plašāku informāciju, dodieties uz Ēģiptes nodokļu iestādes vietni, izmantojot saiti, kas ir sniegta [Ēģiptes e-rēķinu izrakstīšanas SDK](https://sdk.invoicing.eta.gov.eg/faq/).
 
 ## <a name="country-specific-configuration-for-the-egyptian-electronic-invoice-eg-feature"></a>Valstij specifiskā konfigurācija Ēģiptes elektroniskā rēķina (DEBITORA) funkcijai
 
@@ -56,7 +56,7 @@ Daži parametri No Ēģiptes elektroniskā rēķina **(DEBITORA) elektroniskās*
 6. Cilnes Apstrādes **konveijers** sadaļā Konveijera **apstrāde** izvēlieties **Zīmju json dokumentu Ēģiptes nodokļu iestādei**.
 7. **Sadaļā Parametri** atlasiet sertifikāta **nosaukumu un** pēc tam atlasiet izveidotā ciparsertifikāla nosaukumu.
 8. Sadaļā Apstrādes **konveijers** izvēlieties **Integrēt ar Ēģiptes ETA pakalpojumu**. Atkārtojiet šo darbību abiem šīs darbības gadījumiem.
-9. Sadaļā Parametri **atlasiet** Tīmekļa pakalpojuma **URL un** Pieteikšanās **pakalpojuma URL**. Pēc tam pārskatiet URL parametrus. Lai saņemtu testēšanas un ražošanas URL, dodieties uz Ēģiptes nodokļu iestādes vietni, izmantojot saiti, kas ir sniegta [Ēģiptes e-rēķinu izrakstīšanas SDK](https://sdk.sit.invoicing.eta.gov.eg/faq/).
+9. Sadaļā Parametri **atlasiet** Tīmekļa pakalpojuma **URL un** Pieteikšanās **pakalpojuma URL**. Pēc tam pārskatiet URL parametrus. Lai saņemtu testēšanas un ražošanas URL, dodieties uz Ēģiptes nodokļu iestādes vietni, izmantojot saiti, kas ir sniegta [Ēģiptes e-rēķinu izrakstīšanas SDK](https://sdk.invoicing.eta.gov.eg/faq/).
 10. Atlasiet **Saglabāt** un aizveriet lapu.
 11. Atkārtojiet no 4. līdz 10. solim projekta rēķina **atvasinātās funkcionalitātes** iestatījumam.
 

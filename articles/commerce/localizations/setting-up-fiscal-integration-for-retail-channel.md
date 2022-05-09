@@ -2,27 +2,42 @@
 title: Commerce kanālu finanšu integrācijas iestatīšana
 description: Šajā tēmā ir sniegti norādījumi par finanšu integrācijas funkcionalitātes iestatīšanu Commerce kanāliem.
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 04/28/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: e4b0b9f7eb4fb0ffab3237459d85ea92c83dd206
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 51a75ce03b0ae6b744ec56df35bd3fdb1f40cf3a
+ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462170"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661753"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Commerce kanālu finanšu integrācijas iestatīšana
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Šajā tēmā ir sniegti norādījumi par finanšu integrācijas funkcionalitātes iestatīšanu Commerce kanāliem. Plašāku informāciju par finanšu integrāciju skatiet tēmā [Apskats par Commerce kanālu finanšu integrāciju](fiscal-integration-for-retail-channel.md).
 
+## <a name="enable-features-in-commerce-headquarters"></a>Iespējot līdzekļus programmā Commerce Headquarters
+
+Lai iespējotu līdzekļus, kas ir saistīti ar finanšu integrācijas funkcionalitāti commerce kanāliem, sekojiet šiem soļiem.
+
+1. Programmā Commerce Headquarters dodieties uz **Sistēmas administrēšana \> Darbvietas \> Līdzekļu pārvaldība**.
+1. Atrodiet un iespējojiet šādas funkcijas:
+
+    - **Tiešā finanšu integrācija no POS reģistriem** — šis līdzeklis paplašina finanšu integrācijas struktūru, pievienojot iespēju izveidot finanšu savienotājus, kas tiks palaisti pārdošanas punktā (POS). Šis savienotāja tips komunicē ar fiskālo ierīci vai pakalpojumu, kas nodrošina HTTP programmas programmēšanas interfeisu (API) un tam nav nepieciešams atvēlēts fizisks dators veikalā. Piemēram, šī funkcionalitāte iespējo fiskālo integrāciju mobilajām ierīcēm, nepieprasot koplietojamu aparatūras staciju.
+    - **Fiskālās integrācijas tehniskā** profila ignorēšana — šī funkcija iespējo paplašināt finanšu integrācijas konfigurāciju un pievieno iespēju pārbaudīt savienojuma parametrus POS reģistra iestatījumu lapā. Kad šī funkcija ir aktivizēta, jūs varat ignorēt tehniskā profila parametrus.
+    - **POS reģistru finanšu reģistrācijas stāvoklis** - ja šī funkcija ir iespējota, varat atspējot fiskālo reģistrāciju procesu noteiktiem POS reģistriem. Ja POS reģistram ir atspējota finanšu reģistrācija, šajā reģistrā pārdošanas darbības nevar pabeigt.
+    - **Fiskālās integrācijas lokālās** krātuves dublējums - šis līdzeklis paplašina finanšu integrācijas struktūras kļūdu apstrādes iespējas. Tas arī iespējo automātisku finanšu reģistrācijas datu dublējumu datu zudums gadījumā, lai dati lokālajā krātuvē tiek atjaunoti ierīces aktivizēšanas laikā.
+
 ## <a name="set-up-commerce-parameters"></a>Komercijas parametru iestatīšana
+
+Lai iestatītu Commerce parametrus, sekojiet šiem soļiem.
 
 1. Lapas **Commerce koplietojamie parametri** cilnē **Vispārīgi** iestatiet opcijai **Iespējot finanšu integrāciju** vienumu **Jā**.
 1. Cilnē **Numuru sērijas** definējiet numuru sērijas šādām atsaucēm:
@@ -33,8 +48,8 @@ ms.locfileid: "8462170"
 
 1. Lapā **Commerce parametri** definējiet numuru sēriju finanšu funkcionālā profila numuram.
 
-    > [!NOTE]
-    > Numuru sērijas nav obligātas. Numurus visiem finanšu integrācijas elementiem var izveidot, izmantojot numuru sērijas vai manuāli.
+> [!NOTE]
+> Numuru sērijas nav obligātas. Numurus visiem finanšu integrācijas elementiem var izveidot, izmantojot numuru sērijas vai manuāli.
 
 ## <a name="set-up-a-fiscal-registration-process"></a>Finanšu reģistrācijas procesa iestatīšana
 
@@ -43,7 +58,7 @@ Finanšu integrācijas iestatīšanas procedūra ietver šādus uzdevumus:
 - Konfigurēt finanšu savienotājus, kas apzīmē finanšu ierīces vai pakalpojumus, kurus izmanto finanšu reģistrācijas nolūkiem, piemēram, fiskālos printerus.
 - Konfigurēt dokumentu nodrošinātājus, kas izveido finanšu dokumentus, kurus finanšu savienotāji reģistrēs finanšu ierīcēs vai pakalpojumos.
 - Konfigurēt finanšu reģistrācijas procesu, kas nosaka finanšu reģistrācijas darbību secību un finanšu savienotājus un finanšu dokumentu nodrošinātājus, ko izmanto katrai darbībai.
-- Piešķirt finanšu reģistrācijas procesus pārdošanas punkta (POS) funkcionalitātes profiliem.
+- Piešķiriet finanšu reģistrācijas procesu POS funkcionalitātes profiliem.
 - Piešķirt savienotāja tehniskos profilus aparatūras profiliem.
 - Piešķiriet savienotāja tehniskos profilus POS aparatūrai vai funkcionalitātes profiliem.
 
@@ -176,7 +191,7 @@ Finanšu reģistrācijas plūsmu nosaka finanšu reģistrācijas process, kā ar
 - Abonēšana notikumiem un transakcijām finanšu reģistrācijā ir iepriekš definēta finanšu dokumentu nodrošinātājā.
 - Finanšu dokumentu nodrošinātājs ir atbildīgs arī par fiskālajai reģistrācijai izmantotā finanšu savienotāja identificēšanu. Tas atbilst savienotāja funkcionālajiem profiliem, kas ir iekļauti finanšu savienotāju grupā, kas ir norādīta finanšu reģistrācijas procesa pašreizējai darbībai ar savienotāja tehnisko profilu, kas ir piešķirts tādas aparatūras stacijas aparatūras profilam, ar kuru ir savienots pārī POS.
 - Finanšu dokumentu nodrošinātājs izmanto datu kartēšanas iestatījumus no finanšu dokumentu nodrošinātāja konfigurācijas, lai pārveidotu transakciju/notikumu datus, piemēram, nodokļus un maksājumus, kamēr tiek izveidots finanšu dokuments.
-- Ja finanšu dokumentu nodrošinātājs izveido finanšu dokumentu, finanšu savienotājs var to nosūtīt uz finanšu ierīci tādu, kāds tas ir, vai parsēt to un pārveidot par ierīces lietojumprogrammas interfeisa (API) komandu sēriju atkarībā no tā, kā tiek apstrādāti sakari.
+- Kad finanšu dokumentu piegādātājs ģenerē finanšu dokumentu, finanšu savienotājs var to nosūtīt uz fiskālo ierīci pēc kārtas vai parsēt to un pārveidot to par ierīces API komandu secību atkarībā no tā, kā komunikācija tiek apstrādāta.
 
 ### <a name="set-up-registers-with-fiscal-registration-restrictions"></a>Iestatīt reģistrus ar finanšu reģistrācijas ierobežojumiem
 
@@ -283,4 +298,21 @@ Lai iespējotu atliktas finanšu reģistrācijas manuālu izpildīšanu, POS izk
     1. Lapā **Sadales grafiks** palaidiet darbu **1090**, lai jūsu veiktās izmaiņas pārsūtītu uz kanāla datu bāzi.
 
 
+## <a name="view-connection-parameters-and-other-information-in-pos"></a>Skatīt savienojuma parametrus un citu informāciju POS
+
+Lai skatītu savienojuma parametrus un citu informāciju POS, sekojiet šiem soļiem.
+
+1. Atveriet Modern POS (MPOS) vai Cloud POS (CPOS).
+1. Atlasiet **Iestatījumi**. Ja finanšu integrācija ir aktivizēta, **finanšu integrācijas** sadaļa labajā pusē parādīs šādu informāciju:
+
+    - Finanšu reģistrācijas statuss
+    - Pēdējā finanšu darījuma stāvoklis
+    - Gaidošo audita notikumu skaits
+
+1. Atlasiet **Detaļas**, lai skatītu šādu informāciju:
+
+    - Reģistrācijas procesa soļi
+    - Savienojuma parametri
+    - Audita notikumu papildinformācija
+ 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

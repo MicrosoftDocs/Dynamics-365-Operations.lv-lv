@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b9d8136ae4f960a586b9526751fc8bf6e7675c8d
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
-ms.translationtype: MT
+ms.openlocfilehash: a92461e742f1675e4cfda89e6c80c5b087ff5bfb
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890754"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644902"
 ---
 # <a name="set-up-lease-journal-names"></a>Nomas žurnālu nosaukumu iestatīšana
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 
 Nomas žurnāla nosaukumi norāda žurnālus, kuros tiek grāmatoti līdzekļu nomas darījumi. Tikai tie žurnālu nosaukumi, kas ir piešķirti žurnāla tipam **Līdzekļu noma**, tiek parādīti laukos **Sākotnējā atzīšana** un **Ikmēneša žurnāla nosaukums**, kas atrodas lapā **Līdzekļu nomas parametri**. Laukam **Rēķina žurnāla nosaukums** var piešķirt tikai žurnāla tipu **Kreditora žurnāla ieraksts**.
@@ -39,7 +38,7 @@ Lai konfigurētu nomas žurnālu nosaukumus, veiciet sekojošos soļus.
 2. Cilnes **Vispārīgi** laukā **Sākotnējais atzīšanas žurnāla nosaukums** atlasiet žurnālu. Visi sākotnējās atzīšanas žurnāla ieraksti tiks grāmatoti šajā žurnāla nosaukumā.
 3. Laukā **Rēķina žurnāla nosaukums** atlasiet žurnālu. Ja opcija **Maksāt kreditoram** ir iestatīta uz **Jā** nomas grāmatai, nomas un izdevumu maksājumu rēķini tiks grāmatoti šajā žurnāla nosaukumā.
 4. Laukā **Nomas žurnāla nosaukums** atlasiet žurnālu. Visi nolietojuma, procentu un īstermiņa pārklasificēšanas ieraksti tiks grāmatoti šajā žurnāla nosaukumā. Ja opcija **Maksāt kreditoram** ir iestatīta uz **Nē** nomas grāmatai, nomas maksājumu un izdevumu ieraksti arī tiks grāmatoti šajā žurnāla nosaukumā.
-5. Laukā **Nomas modifikāciju** žurnāla nosaukums atlasiet žurnālu. Nomas pielāgošanas, darba attiecību pārtraukšanas un pasliktināšanās darbības tiks grāmatotas šim žurnāla nosaukumam. Jūsu atlasītam žurnāla nosaukumam nedrīkst būt piešķirta darbplūsma vai apstiprinājums. Ja nomas modifikāciju žurnāla nosaukums nav definēts, nomas pielāgojuma, darba attiecību pārtraukšanas un pasliktināšanās darbības tiks grāmatotas žurnāla nosaukumā, kas ir atlasīts laukā Nomas **žurnāla** nosaukums. 
+5. Laukā **Nomas modifikāciju žurnāla** nosaukums atlasiet žurnālu. Nomas pielāgošanas, darba attiecību pārtraukšanas un pasliktināšanās darbības tiks grāmatotas šim žurnāla nosaukumam. Jūsu atlasītam žurnāla nosaukumam nedrīkst būt piešķirta darbplūsma vai apstiprinājums. Ja nomas modifikāciju žurnāla nosaukums nav definēts, nomas pielāgojuma, darba attiecību pārtraukšanas un pasliktināšanās darbības tiks grāmatotas žurnāla nosaukumā, **kas ir atlasīts laukā Nomas žurnāla** nosaukums. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

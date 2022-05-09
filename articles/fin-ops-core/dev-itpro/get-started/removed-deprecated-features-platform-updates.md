@@ -2,7 +2,7 @@
 title: Noņemtie vai novecojušie platformas līdzekļi
 description: Šajā tēmā aprakstīti noņemtie līdzekļi vai līdzekļi, kas ir ieplānoti noņemšanai no platformas atjauninājumiem Finanšu un operāciju programmām.
 author: sericks007
-ms.date: 03/08/2022
+ms.date: 04/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 27be0e720b7eca5883c5d73dfe312c09fcd22c65
-ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
+ms.openlocfilehash: 0cf0d4b3ff108645c8542ce10a0be58d29cc68ed
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "8396553"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644612"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Noņemtie vai novecojušie platformas līdzekļi
 
@@ -32,7 +32,19 @@ ms.locfileid: "8396553"
 
 Detalizēta informācija par objektiem Finanšu un operāciju programmās var tikt atrasta tehniskajos [atsauces pārskatos](/dynamics/s-e/global/axtechrefrep_61). Varat salīdzināt dažādas šo pārskatu versijas, lai uzzinātu par objektiem, kas ir mainīti vai noņemti katrā Finanšu un operāciju programmu versijā.
 
-## <a name="feature-removal-effective-march-14-2022"></a>Līdzekļu noņemšana ir spēkā 2022. gada 14. marts
+## <a name="feature-deprecation-effective-april-2022"></a>Līdzekļu nolietojuma 2022. gada aprīlis
+
+### <a name="xml-url-resolution-in-data-management"></a>XML URL izšķirtspēja datu pārvaldībā 
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Tiek noņemts XML URL izšķirtspējas atbalsts, jo tas ir identificēts kā potenciālā drošības nepilnība. Tas nozīmē, ka ar XML failiem saistītie ārējie resursi vairs netiks atrisināti.  |
+| **Vai ir aizstāts ar citu līdzekli?**   | Nē. |
+| **Ietekmētie produkta apgabali**         | Finance and Operations programmas |
+| **Izvietošanas iespēja**              | Visus |
+| **Statuss**                         | Novecojis. |
+
+## <a name="feature-deprecation-effective-march-14-2022"></a>Līdzekļu nolietojuma 2022. gada 14. marts
 
 ### <a name="xslt-scripting-in-data-management"></a>XSLT skriptošana datu pārvaldībā
 
@@ -40,9 +52,9 @@ Detalizēta informācija par objektiem Finanšu un operāciju programmās var ti
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | XSLT skriptošanas atbalsts datu pārvaldībā ir novecojis, lai uzlabotu drošību un datu aizsardzību finanšu un operāciju programmās.  |
 | **Vai ir aizstāts ar citu līdzekli?**   | Nē. Debitoriem un ISVs būtu jāapsver savu risinājumu atkārtota izmantošana, balstoties uz X++ valodu, XSLT skriptēšanas vietā. |
-| **Ietekmētie produkta apgabali**         | Finanšu un operāciju programmas. |
-| **Izvietošanas iespēja**              | Visi. |
-| **Statuss**                         | Novecojis - plānotais noņemšanas datums ir 2022. gada 14. marts.<br><br>Izņēmums: debitori, kas pašlaik lieto XLST skriptus. Viņi var turpināt to izmantot līdz brīdim, kad tie atjaunina versiju 10.0.30 vai jaunāku versiju. Debitori ar šādu izņēmumu ir saņēmuši paziņojumu Ziņojumu centrā, kas pieejams Administrēšanas Microsoft 365 centrā. |
+| **Ietekmētie produkta apgabali**         | Finance and Operations programmas |
+| **Izvietošanas iespēja**              | Visus |
+| **Statuss**                         | Novecojis <br><br>**Izņēmums:** debitori, kas pašlaik lieto XLST skriptus. Viņi var turpināt to izmantot līdz brīdim, kad tie atjaunina versiju 10.0.30 vai jaunāku versiju. Agrākām versijām izņēmums beidzas 2023. gada 31. janvārī. Debitori ar šādu izņēmumu ir saņēmuši paziņojumu Ziņojumu centrā, kas pieejams Administrēšanas Microsoft 365 centrā. |
 
 ## <a name="feature-removal-effective-october-2021"></a>Līdzekļu noņemšana, kas ir spēkā no 2021. gada oktobra
 

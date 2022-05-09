@@ -2,7 +2,7 @@
 title: Nomas korekcija
 description: Tēmā paskaidrots, kā koriģēt nomu. Korekcija var būt nepieciešama, ja tiek izmainīti nomas noteikumi, noma tiek pagarināta vai mainās citi apstākļi.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1016b69fd59bbe90924996f5c931cb5d0f779253de66f5f3821a8c3001d3313b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 7d7151c28d124420638dc4e69a8ab5359ecf443c
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729658"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644560"
 ---
 # <a name="adjust-leases"></a>Nomas korekcija
 
@@ -134,5 +134,19 @@ Ja noma ir koriģēta, varat apskatīt dažādas tās versijas. Varat arī skat�
 2. Lai skatītu vēsturiskos grafikus, atveriet izmanīto nomu no lapas **Nomas kopsavilkums**, atlasiet vajadzīgo grāmatu un pēc tam darbību rūtī atlasiet **Grāmatas versijas vēsture**.
 3. Lapā **Grāmatas versija** atlasiet versiju un grafiku, lai to skatītu.
 
+## <a name="adjust-a-lease-book"></a>Nomas grāmatas pielāgošana
+
+Izpildiet šīs darbības, lai pielāgotu tikai nomas grāmatu.
+
+1. Dodieties uz **kopsavilkumu Par līdzekļu** \> **nomu** \> **nomu**.
+2. Atlasiet un atveriet nomu.
+3. Lapā Detalizēta **informācija par nomu** atlasiet **Grāmatas**.
+4. Lapas Detalizēta **informācija par** grāmatām darbību rūtī, kas atrodas grupā **Uzturēt**, atlasiet Pielāgot **grāmatu**. 
+5. Noņemiet maksājumu grafika rindas.
+6. Laukā **Nomas modifikācijas** datums ievadiet modifikācijas datumu. Pēc tam apsveriet visu aktīvu/saistību papildu apsvērumus (sākotnējās tiešās izmaksas, nomas veicināšana, nomas priekšapmaksa, izjaukšanas izmaksas un atlikusī vērtības garantija), ja tāda ir. 
+7. Lai palīdzētu novērst neprecīzus nomas korekcijas aprēķinus, pievienojiet jaunas maksājumu grafika rindas jaunajiem maksājumu datumiem, kas atbilst modifikācijas datumam. 
+
+> [!NOTE] 
+> Iesakām lietot nomas korekcijas vedni **,** lai koriģētu nomu. Ceļvedis samazina manuālo darbību skaitu, sniedz bilanču priekšskatījumu pēc korekcijas un ļauj jums mainīt summas pirms grāmatošanas.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

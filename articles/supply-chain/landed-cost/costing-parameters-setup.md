@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 1bcce7af0a15add63f1d9c3b32563de0ab6698bd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: MT
+ms.openlocfilehash: 335bed49b05bf64547d7ded885f365a30487484f
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577652"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644643"
 ---
 # <a name="costing-parameter-values-setup"></a>Izmaksu aprēķināšanas parametru vērtību iestatījumi
 
@@ -123,9 +123,9 @@ Tālāk esošajā tabulā ir aprakstīti pieejamie iestatījumi katrai veidnei.
 
 ## <a name="volumetric-divisors"></a>Apjoma dalītāji
 
-Tilpuma sadalītājus izmanto, lai aprēķinātu tilpuma svaru. Katrs nosūtīšanas/kravas uzņēmums formulē savus tilpuma dalītājus. Turklāt uzņēmuma dalītāji parasti mainās atkarībā no piegādes veida. Piemēram, gaiss un gaiss bieži ir ļoti dažādi dalītāji. Uzņēmums var arī padarīt savus noteikumus sarežģītākus atkarībā no tā, kur tas nosūta.
+Tilpuma sadalītājus izmanto, lai aprēķinātu tilpuma svaru. Katrs nosūtīšanas/kravas uzņēmums formulē savus tilpuma dalītājus. Turklāt uzņēmuma dalītāji parasti mainās atkarībā no piegādes veida. Piemēram, gaiss un gaiss bieži ir ļoti dažādi dalītāji. Uzņēmums var arī padarīt savus noteikumus sarežģītākus atkarībā no tā, kur tas nosūta. Sistēma izmanto šādu formulu, lai atrastu tilpuma svaru: VolumetricWeight = volume ÷ VolumetricDivisor.
 
-Piemēram, sūtījuma, kas tiek nosūtīta ar gaisa pārvadājumiem, tilpums ir 3 kubikmetri (m³). Uzņēmums iekasē pēc tilpuma svara un piemēro 6 tilpuma dalītāju. Šis dalītājs tiek reizināts ar tilpumu, lai noteiktu tilpuma svaru. Tāpēc, piemēram, tilpums ir 3 × 6 = 18 kilogrami (kg).
+Piemēram, sūtījuma, kas tiek nosūtīta ar gaisa pārvadājumiem, tilpums ir 3 kubikmetri (m³). Uzņēmums iekasē pēc tilpuma svara un piemēro 6 tilpuma dalītāju. Šis dalītājs tiek dalīts ar tilpumu, lai noteiktu tilpuma svaru. Tāpēc, piemēram, tilpums ir 3 ÷ 6 = 0,5 kilogrami (kg).
 
 Lai iestatītu izmaksu tipu kodus, dodieties uz sadaļu **Kopīgās izmaksas \> Izmaksu iestatījumi \> Izmaksu tipu kodi**. Lapa **Tilpuma dalītāji** nodrošina režģi, kas uzskaita visus esošos tilpuma dalītājus. Jūs varat izmantot pogas Darbību rūtī, lai pievienotu, noņemtu un rediģētu rindas režģī.
 
@@ -136,4 +136,7 @@ Tālāk esošajā tabula apraksta laukus, kas ir pieejami Darbības kopsavilkuma
 | Nosūtīšanas uzņēmums | Atlasiet nosūtīšanas uzņēmuma kreditora kontu, kas ir saistīts ar tilpuma dalītāju. |
 | Izmaksu veida kods | Atlasiet izmaksu tipa kodu, kas ir saistīts ar tilpuma dalītāju. Lietojiet šo lauku, lai izmaksu tipus ievietotu pārskata intervālos. Pārskatus var drukāt vai nu pēc pārskatu kategorijām, vai pēc izmaksu tipa. |
 | No porta | Atlasiet portu "no", uz kuru attiecas tilpuma dalītājs. |
-| Apjoma dalītājs | Ievadiet tilpuma dalītāja vērtību, kas piemērota rindai. Jūsu ievadītā vērtība tiks *reizināta* ar katra sūtījuma tilpumu, lai noteiktu konkrētā sūtījuma tilpumu. |
+| Apjoma dalītājs | Ievadiet tilpuma dalītāja vērtību, kas piemērota rindai. Katra iepakojuma tilpums tiks sadalīts pēc šeit ievadītās vērtības, lai noteiktu šī iepakojuma tilpumu. |
+
+> [!NOTE]
+> Sistēma izmantos maksimālo vērtību starp faktisko **svaru un** tilpumu **·**.

@@ -2,7 +2,7 @@
 title: Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Commerce
 description: Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt no Dynamics 365 Commerce.
 author: josaw
-ms.date: 03/04/2022
+ms.date: 04/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7b06f8ca65e4fac13f322f8d72b8ad4f9db8ccd7
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 213ed2091b1f2359f2481b162cba07812b3ffe90
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384613"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649079"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Commerce
 
@@ -32,6 +32,20 @@ ms.locfileid: "8384613"
 
 > [!NOTE]
 > Detalizēta informācija par objektiem Finanšu un operāciju programmās var tikt atrasta tehniskajos [atsauces pārskatos](/dynamics/s-e/). Varat salīdzināt dažādas šo pārskatu versijas, lai uzzinātu par objektiem, kas ir mainīti vai noņemti katrā Finanšu un operāciju programmu versijā.
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10025-release"></a>Noņemtie vai novecojuši līdzekļi programmas Commerce 10.0.25 laidienā
+
+### <a name="modern-point-of-sale-mpos"></a>Modern Point of Sale (MPOS)
+
+Modern Point of Sale (MPOS) programma tiks nolietota Commerce versijā 10.0.25 laidienā un aizstāta ar Store Commerce programmu.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Veikalā lietojumprogrammas ir e-pasta piedāvājuma stūrakmens Dynamics 365 Commerce. Mēs nepārtraukti paveicam modernu un viedu veikala pieredzi un turpināt mūsu risinājuma modernizēšanu, izvelciet jaunas izmaiņu kopas, kas būtiski uzlabos IT operācijas un lietotāju pieredzi ar mūsu esošajām windows veikala programmām. Jaunā Store Commerce programma ir tehnoloģiju jauninājums pār esošo MPOS. Tas nodrošina uzlabotu veiktspēju, uzticamību un ilgtermiņa atbalstu Windows platformā, kā arī izslēdz nepieciešamību pārpakot programmu ar katru atjauninājumu. |
+| **Vai ir aizstāts ar citu līdzekli?**   |  [Store Commerce](../dev-itpro/store-commerce.md) |
+| **Ietekmētie produkta apgabali**         | Modernais pārdošanas punkts |
+| **Izvietošanas iespēja**              | Visus |
+| **Statuss**                         | Novecojis: No Commerce versijas 10.0.25 laidiena, MPOS instalētājs nosūtītas, izmantojot LCS virtuālās mašīnas (VMs), tiks noņemtas Pasūtījuma 2023 versijā. |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>Noņemtie vai novecojuši līdzekļi programmas Commerce 10.0.21 laidienā
 
@@ -59,7 +73,7 @@ Retail SDK nosūta pakalpojumos Lifecycle Services (LCS). Šis sadales režīms 
 | **Vai ir aizstāts ar citu līdzekli?**   |  [Lejupielādēt Retail SDK paraugus un atsauces pakotnes no GitHub un NuGet](../dev-itpro/retail-sdk/sdk-github.md) |
 | **Ietekmētie produkta apgabali**         | Retail SDK |
 | **Izvietošanas iespēja**              | Visu |
-| **Statuss**                         | Novecojis: No versijas 10.0.21 SDK tika nosūtīts, izmantojot LCS VMs, tiks noņemts 2023. gada aprīlī. |
+| **Statuss**                         | Novecojis: No versijas 10.0.21 nosūtītais SDK, izmantojot LCS VM, tiks noņemts 2023. gada oktobrī. |
 
 ### <a name="retail-deployable-package-and-combined-pos-hardware-station-and-cloud-scale-unit-installers"></a>Retail izvietojama pakotne un kombinētie POS, aparatūras stacijas un Cloud Scale Unit instalētāji
 
@@ -92,7 +106,7 @@ POS paplašinājuma izstrāde, izmantojot ModernPos.sln, CloudPos.sln, POS. Exte
 | **Vai ir aizstāts ar citu līdzekli?**   | [No POS neatkarīga iepakojuma SDK](../dev-itpro/pos-extension/pos-extension-getting-started.md) |
 | **Ietekmētie produkta apgabali**         | Dynamics 365 Commerce POS paplašināšana un izvietošana |
 | **Izvietošanas iespēja**              | Visu |
-| **Statuss**                         | Novecojis: no versijas 10.0.21 versijas atbalsts kombinētajām POS pakotnēm un paplašinājuma modelim, izmantojot ModernPos.Sln, CloudPOs.sln un POS. Extensons.csproj programmā Retail SDK tiks noņemts 2023. gada aprīlī. |
+| **Statuss**                         | Novecojis: no versijas 10.0.21 versijas atbalsts kombinētajām POS pakotnēm un paplašinājuma modelim, izmantojot ModernPos.Sln, CloudPOs.sln un POS.Extensons.csproj programmā Retail SDK tiks noņemts 2023. gada oktobrī. |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10017-release"></a>Noņemtie vai novecojuši līdzekļi programmas Commerce 10.0.17 laidienā
 

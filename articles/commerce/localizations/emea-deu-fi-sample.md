@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-5-29
-ms.openlocfilehash: 65315a9fd6bc1af26bc225220e096aee4da09be2
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: 16079ba5ca830625c4f18df9fe6b5b307217183d
+ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388163"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "8614048"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-germany"></a>Fiskālās reģistrācijas pakalpojuma integrācijas paraugs Vācijai
 
 [!include[banner](../includes/banner.md)]
-[!include[banner](../includes/preview-banner.md)]
 
 Šajā tēmā sniegts pārskats par Vācijas finanšu integrācijas paraugu Microsoft Dynamics 365 Commerce.
 
@@ -170,21 +169,21 @@ Pievienojiet tālāk norādītās POS etiķetes lapas **Valodas teksts** POS **s
 
 | Valodas kods | Teksta ID | Teksts                                  |
 |-------------|---------|---------------------------------------|
-| en-ASV       | 900001  | QR kods                               |
-| en-ASV       | 900002  | Darbības ID                        |
-| en-ASV       | 900003  | Nodokļu mazumtirdzniecības drukāšanas kods                 |
-| en-ASV       | 900004  | Nodokļu summa (pārdošana)                    |
-| en-ASV       | 900005  | Nodokļu bāze (pārdošana)                     |
-| en-ASV       | 900006  | Transakcijas sākuma datums un laiks           |
-| en-ASV       | 900007  | Transakcijas beigu datums un laiks             |
-| en-ASV       | 900008  | Drošības elementa sērijas numurs |
-| en-ASV       | 900009  | Parakstu skaitītājs                     |
-| en-ASV       | 900010  | Pārbaudīt vērtību                           |
-| en-ASV       | 900011  | Informācijas ziņojums                          |
+| lv       | 900001  | QR kods                               |
+| lv       | 900002  | Darbības ID                        |
+| lv       | 900003  | Nodokļu mazumtirdzniecības drukāšanas kods                 |
+| lv       | 900004  | Nodokļu summa (pārdošana)                    |
+| lv       | 900005  | Nodokļu bāze (pārdošana)                     |
+| lv       | 900006  | Transakcijas sākuma datums un laiks           |
+| lv       | 900007  | Transakcijas beigu datums un laiks             |
+| lv       | 900008  | Drošības elementa sērijas numurs |
+| lv       | 900009  | Parakstu skaitītājs                     |
+| lv       | 900010  | Pārbaudīt vērtību                           |
+| lv       | 900011  | Informācijas ziņojums                          |
 
 Pielāgoto lauku **lapā pievienojiet** šiem ierakstiem kvīts izkārtojumu pielāgotajiem laukiem. Ievērojiet, **ka uzraksta teksta ID** vērtībām ir **jāatbilst teksta ID** vērtībām, kuras norādījāt **teksta** lapā Valoda.
 
-| Vārds                            | Veids    | Uzraksta teksta ID |
+| Nosaukums/vārds, uzvārds                            | Veids    | Uzraksta teksta ID |
 |---------------------------------|---------|-----------------|
 | QRCODEDE (datu kods\_)                      | Saņemšana | 900001          |
 | TRANSACTIONIDDE\_               | Saņemšana | 900002          |

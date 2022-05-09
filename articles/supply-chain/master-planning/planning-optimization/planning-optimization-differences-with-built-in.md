@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 642ba812156a95e9b0be2e996d4a93096a5809a9
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: c73587015d6714c409819ab19ad68685aaa71cf7
+ms.sourcegitcommit: 70289a33b0a6ff3f9418d91a928db452cfd815bd
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468333"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "8618265"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Papildinformāciju skatiet sadaļā Atšķirības starp vispārējo plānošanu un plānošanas optimizāciju
 
@@ -37,6 +37,7 @@ Optimizācijas optimizācijas rezultāti var atšķirties no iebūvētās vispā
 | Drošības rezerves piesaiste un neto prasības | Prasības tips *Drošības rezerve* nav iekļauts un netiek rādīts lapā **Neto prasības**. Drošības rezerve neatspoguļo pieprasījumu, un ar to nav saistīts prasības datums. Tā vietā tā nosaka ierobežojumu tam, cik daudz krājumam ir jābūt vienmēr klātesošam. Taču lauka **Minimums** vērtība joprojām tiek ņemta vērā, aprēķinot plānotos pasūtījumus galvenās plānošanas laikā. Iesakām pārbaudīt **Uzkrātā daudzuma** kolonnu lapā **Neto prasības**, lai redzētu, vai šī vērtība tika ņemta vērā. |
 | Transportēšanas kalendārs | Vērtība lapā **Piegādes režīmi** kolonnā **Transportēšanas kalendārs** tiek ignorēta. |
 | Min./maks. vajadzību kods bez vērtībām| Ar iebūvēto plānošanas programmu, kad izmantojat min/maks. seguma kodu, kur nav iestatītas minimālās vai maksimālās vērtības, plānošanas programma apstrādā seguma kodu kā prasību un izveido vienu pasūtījumu katrai prasībai. Ar plānošanas optimizāciju sistēma izveidos vienu pasūtījumu dienā, lai segtu pilnu šīs dienas summu.  |
+| Neto vajadzības un manuāli izveidoti plānotie pasūtījumi | Ar iebūvēto plānošanas programmu manuāli izveidoti piegādes pasūtījumi krājumam automātiski parādās starp šī krājuma neto prasībām. Piemēram, veidojot pirkšanas pasūtījumu no pārdošanas pasūtījuma, pirkšanas pasūtījums tiek parādīts **Neto prasību lapā**, neprasot iepriekšējas darbības. Tas ir tāpēc, ka iebūvētā plānošanas programma reģistrē krājumu `inventLogTTS`**darbības tabulā un parāda izmaiņas dinamisko plānu** neto prasību lapā. Tomēr, izmantojot plānošanas optimizāciju, manuāli izveidotie pasūtījumi neparādīsies starp krājuma neto prasībām līdz plānošanas optimizācijas palaišanai (izmantojot plānu, kas ietver krājumu) **\>** **vai** līdz brīdim, kad atlasīsiet Atjaunināt vispārējo plānošanu darbību rūtī neto prasību lapā, kas izpildīs krājuma vispārējo plānošanu. Papildinformāciju par to, kā strādāt ar neto **prasību lapu**, skatiet sadaļā [Neto prasības un piesaistes informācija par plānošanas optimizāciju](net-requirements.md). |
 
 ## <a name="additional-resources"></a>Papildu resursi
 

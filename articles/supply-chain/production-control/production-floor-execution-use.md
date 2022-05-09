@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: a677eb71f97a953c625a1f667b055e5b7696fbe6
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: f163b8feb906470f31a648bf09abf5647c5f1bab
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384429"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644995"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Kā darbinieki izmanto ražotnes izpildes interfeisu
 
@@ -74,9 +74,9 @@ Darbu sarakstā ir tālāk minētās kolonnas:
 
 ## <a name="my-jobs-tab"></a>Cilne Mani darbi
 
-Cilne **Mani darbi** ļauj darbiniekiem viegli apskatīt visus sāktos un nepabeigtos darbus, kas viņiem ir piešķirti. Tas ir noderīgi uzņēmumos, kuros darbi dažreiz vai vienmēr tiek piešķirti noteiktiem darbiniekiem (cilvēkresursiem), nevis citiem resursu tipiem (piemēram, mašīnām). 
+Cilne **Mani darbi** ļauj darbiniekiem viegli apskatīt visus sāktos un nepabeigtos darbus, kas viņiem ir piešķirti. Tas ir noderīgi uzņēmumos, kuros darbi dažreiz vai vienmēr tiek piešķirti noteiktiem darbiniekiem (cilvēkresursiem), nevis citiem resursu tipiem (piemēram, mašīnām).
 
-Plānošanas sistēma automātiski piešķir katru ražošanas darbu noteiktam resursa ierakstam, un katram resursa ierakstam ir tips (piemēram, iekārta vai cilvēkresursi). Iestatot darbinieku kā ražošanas darbinieku, varat saistīt darbinieka kontu ar unikālu personāla vadības ierakstu. 
+Plānošanas sistēma automātiski piešķir katru ražošanas darbu noteiktam resursa ierakstam, un katram resursa ierakstam ir tips (piemēram, iekārta vai cilvēkresursi). Iestatot darbinieku kā ražošanas darbinieku, varat saistīt darbinieka kontu ar unikālu personāla vadības ierakstu.
 
 Cilnē **Mani darbi** ir uzskaitīti visi nepabeigtie un nepabeigtie darbi, kas ir piešķirti darbinieka, kurš ir pierakstījies, personāla vadības ierakstam, ja ir pieteicies kāds darbinieks. Tas neuzskaita darbus, kas piešķirti mašīnai vai cita veida resursam, pat ja darbinieks, kurš ir pierakstījies, ir sācis strādāt pie šiem darbiem.
 
@@ -87,7 +87,7 @@ Lai skatītu visus darbus, ko ir sācis darbinieks, kurš ir pierakstījies, nea
 ## <a name="my-machine-tab"></a>Cilne Mana iekārta
 
 Cilne **Mana iekārta** ļauj darbiniekiem atlasīt līdzekli, kas ir saistīts ar iekārtas resursu filtra iestatījuma cilnē **Visi darbi**. Darbinieks pēc tam var skatīt atlasītā pamatlīdzekļa stāvokli un veselības stāvokli, nolasot vērtības līdz četriem atlasītajiem skaitītājiem un neseno uzturēšanas pieprasījumu un reģistrēto dīkstāves pieprasījumu sarakstu. Darbinieks var arī pieprasīt atlasītā pamatlīdzekļa uzturēšanu un reģistrēt un rediģēt iekārtas dīkstāves laiku. (Šis cilnes nosaukums ir pielāgojams un var atšķirties jūsu sistēmai.)
- 
+
 ![Cilne Mana iekārta.](media/pfei-my-machine-tab.png "Cilne Mana iekārta")
 
 Cilnei **Mana iekārta** ir šādas kolonnas. Numuri atbilst iepriekšējā attēlā redzamajiem numuriem.
@@ -202,9 +202,9 @@ Var veikt šādas darbības:
 - Ja darbinieks atlasa **Labi**, izdošanas saraksts netiek dzēsts. Tas tiks grāmatots, kad par darbu tiek ziņots dialoglodziņā **Pārskata brāķis** **vai Ziņot** par progresu.
 - Ja darbinieks dialoglodziņā Pārskata **progress vai** Ziņot **brāķi** **atlasa** Atcelt, izdošanas saraksts tiek dzēsts.
 
-### <a name="adjust-material-from-the-toolbar-on-the-right"></a>Materiālu pielāgošana no rīkjoslas labajā pusē
+### <a name="adjust-material-from-the-primary-or-secondary-toolbar"></a>Materiālu pielāgošana no primārās vai sekundārās rīkjoslas
 
-Materiālu **pielāgošanas** pogu var konfigurēt tā, lai tā tiktu parādīta rīkjoslas labajā pusē. (Plašāku informāciju skatiet [Veidot ražošanas izpildes interfeisu](production-floor-execution-tabs.md).) Darbinieks var atlasīt **Pielāgot** materiālu ražošanas darbam, kas tiek veikts. Šajā gadījumā tiek atvērts **dialoglodziņš** Pielāgot materiālu, kur darbinieks var veikt vēlamās korekcijas. Kad ir atvērts dialoglodziņš, ražošanas pasūtījumam tiek izveidots ražošanas izdošanas saraksts, kas satur rindas pielāgotajiem daudzumiem. Ja darbinieks atlasa **Grāmatot tagad**, pielāgojums tiek apstiprināts un izdošanas saraksts tiek grāmatots. Ja darbinieks atlasa **Atcelt**, izdošanas saraksts tiek dzēsts un neviens pielāgojums netiek veikts.
+Materiālu **pielāgošanas** pogu var konfigurēt tā, lai tā tiktu parādīta primārajā vai sekundārajā rīkjoslā. (Plašāku informāciju skatiet [Veidot ražošanas izpildes interfeisu](production-floor-execution-tabs.md).) Darbinieks var atlasīt **Pielāgot** materiālu ražošanas darbam, kas tiek veikts. Šajā gadījumā tiek atvērts **dialoglodziņš** Pielāgot materiālu, kur darbinieks var veikt vēlamās korekcijas. Kad ir atvērts dialoglodziņš, ražošanas pasūtījumam tiek izveidots ražošanas izdošanas saraksts, kas satur rindas pielāgotajiem daudzumiem. Ja darbinieks atlasa **Grāmatot tagad**, pielāgojums tiek apstiprināts un izdošanas saraksts tiek grāmatots. Ja darbinieks atlasa **Atcelt**, izdošanas saraksts tiek dzēsts un neviens pielāgojums netiek veikts.
 
 ### <a name="adjust-material-consumption-for-catch-weight-items"></a>Pielāgot materiālu patēriņu pieļaujamā svara krājumiem
 
@@ -260,6 +260,42 @@ Abos scenārijos pēc tam, kad Šenona apstiprina savu izvēli, viņa dodas vai 
 Darbinieki var reģistrēt pārtraukumus. Pārtraukumus var elastīgi definēt, kā aprakstīts sadaļā [Apmaksa, pamatojoties uz reģistrācijām](pay-based-on-registrations.md).
 
 Darbinieks reģistrē pārtraukumu, atlasot **Pārtraukums** un pēc tam atlasot karti, kas apzīmē pārtraukuma veidu (piemēram, pusdienas). Kad darbinieks ir apstiprinājis atlasi, ierīce rāda vai nu pierakstīšanās lapu, vai arī lapu, kas gaidīs, lai darbinieks apstiprinātu, ka ir atgriezies no pārtraukuma. Lapa, kas tiek parādīta, ir atkarīga no ražotnes izpildes interfeisa konfigurācijas. (Papildinformāciju skatiet sadaļā [Ražotnes izpildes interfeisa konfigurēšana](production-floor-execution-configure.md).)
+
+## <a name="view-the-my-day-dialog"></a>Skatīt dialogu "Mana diena"
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+Dialogs **Mana** diena sniedz darbiniekiem to reģistrāciju un bilanču apskatu. Dialogs ir sadalīts šādās trīs sadaļās:
+
+- Galvenā sadaļa uzskaita reģistrācijas, ko pašreizējais darbinieks veicis atlasītajā datumā. Tā atveras, parādot reģistrācijas pašreizējai dienai, un sniedz datuma uztvērēju, kas ļauj darbiniekam skatīt pārējās dienas.
+- Pēdējā **aprēķinātā ikdienas bilances** sadaļa rāda darbinieka pašreizējās bilances par apmaksājamo laiku, apmaksātajām virsstundām, kavējumiem un apmaksātajiem kavējumiem. Šīs vērtības ir pamatotas uz reģistrācijām, kas aprēķinātas apstiprināšanas procesa laikā.
+- Sadaļa **Bilances sniedz apskatu par bilancēm definētajā periodā atlasītajām reģistrāciju kategorijām (piemēram, atvaļinājums**, standarta laiks un virsstundas). Šo bilanču pamatā ir statistikas bilanču iestatīšanas veids laika **un apmeklētības modulī**. Plašāku informāciju par to, kā to iestatīt, skatiet rādīt [atvaļinājuma bilances ražošanas izpildes interfeisā](production-floor-execution-payroll-stats.md).
+
+Administratori var pievienot šo **funkciju**[interfeisam, novietojot pogu Mana diena uz rīkjoslas katrai atbilstošai cilnei, kā aprakstīts Design ražošanas izpildes interfeisu.](production-floor-execution-tabs.md)
+
+## <a name="working-in-teams"></a>Darbs komandās
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+Ja vienā ražošanas darbā ir piešķirti vairāki darbinieki, viņi var veidot grupu. Grupa var nominēt vienu darbinieku kā atbildīgo. Tad atlikušie darbinieki automātiski kļūst par šī vadītāja asistentiem. Iegūtajai komandai tikai atbildīgo ir jāreģistrē darba statuss. Laika ieraksti attiecas uz visiem grupas dalībniekiem.
+
+### <a name="prerequisites"></a>Priekšnosacījumi
+
+Lai izmantotu grupas, administratoram jāiespējo **primārā** rīkjoslas asistenta darbība **ražošanas izpildes** interfeisa cilnē Visi darbi. Norādījumus skatiet sadaļā Ražošanas [izpildes interfeisa dizains](production-floor-execution-tabs.md).
+
+### <a name="form-a-new-team-that-has-a-pilot-and-an-assistant"></a>Veidot jaunu grupu, kam ir vadītājs un asistents
+
+Darbinieks var reģistrēties kā asistents, atlasot **Asistentu** **cilnē Visi** darbi. Pēc tam dialoglodziņā **Atlasīt** darbinieku, kam palīdzēt dialoglodziņā, darbinieks var atlasīt atbildīgo darbinieku sarakstā, kas aktīvi strādā pie darba. Kad darbinieks apstiprina savu atlasi, tas kļūst par atlasītā darbinieka asistentu, kurš kļūst par jaunās komandas atbildīgo.
+
+### <a name="assign-a-new-pilot-to-an-existing-team"></a>Piešķirt jaunu atbildīgo esošai grupai
+
+Ja komanda vēlas atlasīt jaunu atbildīgo, pašreizējam darbiniekam ir jānosauc par jauno atbildīgo grupas darbinieku. Lai nominētu jaunu atbildīgo, pašreizējais pilots atlasa asistentu **cilnē** **Visi** darbi. Pēc tam dialoglodziņā **Mainīt atbildīgo**, kas tiek parādīts, vadītājs var atlasīt jaunu atbildīgo no to darbinieku saraksta, kas jau ir grupā. Kad pašreizējais vadītājs apstiprina savu atlasi, tas tiek pilnībā nomests no grupas. Tomēr viņi var no jauna pievienoties komandai pēc to pieprasāmā.
+
+### <a name="assistant-clocks-out"></a>Aiziešana asistentam ir aiziešana
+
+Kad darbinieks, kurš strādā kā asistents, aiziešanas reģistrē aiziešanu, viņi aiziet no komandas. Ja pastāvīgās **grupas un** **·** *Atsākt* pie ierašanās opcijām ir iestatītas uz Jā, darbinieks, kurš veic aiziešanu, automātiski atiestatīs komandu nākamajā ierašanās reizē. Šīs opcijas ir pieejamas laika **un apmeklējuma** parametru lapas cilnē **Vispārīgi**.
 
 ## <a name="opening-instructions"></a>Atvēršanas instrukcijas
 

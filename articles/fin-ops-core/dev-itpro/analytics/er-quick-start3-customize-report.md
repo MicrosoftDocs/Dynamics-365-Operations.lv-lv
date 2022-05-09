@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2c8cf4866b6a8c239359d726d8cd4f03a9eb4137
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: a7353d7d8149ff1316fbc0adc55b7e1050f443a8
+ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324091"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661663"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Elektronisko pārskatu konfigurāciju pielāgošana, lai izveidotu elektronisku dokumentu
 
 [!include[banner](../includes/banner.md)]
 
-[Elektroniskā pārskata (ER) struktūra](general-electronic-reporting.md) ļauj augšupielādēt ER [konfigurācijas](general-electronic-reporting.md#Configuration), ko Microsoft nodrošina jūsu Microsoft Dynamics 365 Finance instancē. Tādējādi Microsoft nodrošinātās konfigurācijas var kalpot kā ER risinājums, kas tiek izmantots, lai ģenerētu elektroniskos debitoru rēķinus (e-rēķinus). Varat izmantot šo ER risinājumu sava pielāgotā ER risinājuma konfigurēšanai, lai piekļūtu jūsu pielāgotās datu bāzes laukiem un ģenerētu e-rēķinus, kas atbilst jūsu īpašajām prasībām, bez nepieciešamības rediģēt pirmkodu.
+Elektronisko [pārskatu (ER) struktūra](general-electronic-reporting.md) ļauj jums augšupielādēt ER [konfigurācijas](general-electronic-reporting.md#Configuration), ko Microsoft nodrošina jūsu Microsoft Dynamics 365 finanšu instancē. Tādējādi Microsoft nodrošinātās konfigurācijas var kalpot kā ER risinājums, kas tiek izmantots, lai ģenerētu elektroniskos debitoru rēķinus (e-rēķinus). Varat izmantot šo ER risinājumu sava pielāgotā ER risinājuma konfigurēšanai, lai piekļūtu jūsu pielāgotās datu bāzes laukiem un ģenerētu e-rēķinus, kas atbilst jūsu īpašajām prasībām, bez nepieciešamības rediģēt pirmkodu.
 
 ## <a name="overview"></a>Pārskats
 
@@ -61,7 +61,7 @@ Kā lietotājam elektronisko pārskatu funkcionālā konsultanta vai elektronisk
 ### <a name="configure-er-parameters"></a>Konfigurējiet ER parametrus
 
 1. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
-2. Lapas **Lokalizācijas konfigurācijas** sadaļā **Saistītās saites** atlasiet **Elektronisko pārskatu veidošanas parametri**.
+2. Lapas Lokalizācija **papīrs** sadaļā Saistītās **saites** atlasiet Elektronisko pārskatu **parametri**.
 3. Lapas **Elektronisko pārskatu veidošanas parametri** cilnē **Vispārīgi** iestatiet opciju **Iespējot noformēšanas režīmu** uz **Jā**.
 4. Cilnes **Pielikumi** laukā **Konfigurācijas** atlasiet **Fails**.
 5. Laukos **Darbu arhīvs**, **Pagaidu**, **Bāzlīnija** un **Citi** atlasiet veidu **Fails**.
@@ -78,13 +78,13 @@ Katra pievienotā ER konfigurācija tiek atzīmēta kā piederoša ER konfigurā
 #### <a name="review-the-list-of-er-configuration-providers"></a>ER konfigurācijas nodrošinātāju saraksta pārskatīšana
 
 1. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
-2. Lapas **Lokalizācijas konfigurācijas** sadaļā **Saistītās saites** atlasiet **Konfigurācijas nodrošinātāji**.
+2. Lapas Lokalizācija zilā drukāšana sadaļā Saistītās saites **atlasiet** Konfigurācijas **nodrošinātāji**.**·**
 3. Lapā **Konfigurācijas nodrošinātāju tabula** katram nodrošinātāja ierakstam ir unikāls nosaukums un URL. Pārskatiet šīs lapas saturu. Ja ieraksts **Litware, Inc.** (`https://www.litware.com`) jau pastāv, izlaidiet nākamo procedūru, [Jauna ER konfigurācijas nodrošinātāja pievienošana](#AddProvider).
 
 #### <a name="add-a-new-er-configuration-provider"></a><a id="AddProvider"></a>Jauna ER konfigurācijas nodrošinātāja pievienošana
 
 1. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
-2. Lapas **Lokalizācijas konfigurācijas** sadaļā **Saistītās saites** atlasiet **Konfigurācijas nodrošinātāji**.
+2. Lapas Lokalizācija zilā drukāšana sadaļā Saistītās saites **atlasiet** Konfigurācijas **nodrošinātāji**.**·**
 3. Lapā **Konfigurācijas nodrošinātāji** atlasiet **Jauns**.
 4. Laukā **Nosaukums** ievadiet **Litware, Inc.**
 5. Laukā **Interneta adrese** ievadiet `https://www.litware.com`.
@@ -93,7 +93,7 @@ Katra pievienotā ER konfigurācija tiek atzīmēta kā piederoša ER konfigurā
 #### <a name="activate-an-er-configuration-provider"></a>ER konfigurācijas nodrošinātāja aktivizēšana
 
 1. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
-2. Lapas **Lokalizācijas konfigurācijas** sadaļā **Konfigurācijas nodrošinātāji** atlasiet elementu **Litware, Inc.** un pēc tam atlasiet **Iestatīt kā aktīvu**.
+2. Lapas Lokalizācija zilā drukāšana **sadaļā Konfigurācijas nodrošinātāji** **atlasiet** elementu Litware, Inc.**un pēc tam atlasiet** Iestatīt aktīvu **.**
 
 Papildinformāciju par ER konfigurācijas nodrošinātājiem skatiet sadaļā [Konfigurācijas nodrošinātāju izveide un atzīmēšana par aktīviem](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
@@ -102,7 +102,7 @@ Papildinformāciju par ER konfigurācijas nodrošinātājiem skatiet sadaļā [K
 Lai pievienotu standarta ER konfigurācijas savai pašreizējai Finance instancei, jums tās ir jāimportē no ER [repozitorija](general-electronic-reporting.md#Repository), kas konfigurēts šai instancei.
 
 1. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
-2. Lapas **Lokalizācijas konfigurācijas** sadaļā **Konfigurācijas nodrošinātāji** atlasiet elementu **Microsoft** un pēc tam atlasiet **Repozitoriji**, lai skatītu Microsoft nodrošinātāja repozitoriju sarakstu.
+2. Lapas Lokalizācijas **blueprint** **·** **sadaļā Konfigurācijas nodrošinātāji atlasiet elementu Microsoft** un pēc tam atlasiet Repositories **,** lai skatītu Microsoft nodrošinātāja repozitoriju sarakstu.
 3. Lapā **Konfigurācijas repozitoriji** atlasiet repozitoriju ar veidu **Globāls** un pēc tam atlasiet **Atvērt**. Ja tiek pieprasīta autorizācija savienojumam ar Regulatory Configuration Service, izpildiet autorizācijas norādījumus.
 4. Lapā **Konfigurācijas repozitorijs** konfigurācijas koka skata kreisajā rūtī atlasiet **Peppol pārdošanas rēķina** formāta konfigurāciju.
 5. Kopsavilkuma cilnē **Versijas** atlasiet versiju **11.2.2**.
@@ -116,7 +116,7 @@ Lai pievienotu standarta ER konfigurācijas savai pašreizējai Finance instance
 ### <a name="review-the-imported-er-configurations"></a>Importēto ER konfigurāciju pārskatīšana
 
 1. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
-2. Lapas **Lokalizācijas konfigurācijas** sadaļā **Konfigurācijas** atlasiet elementu **Pārskatu veidošanas konfigurācijas**.
+2. Lapas Lokalizācija **zilā drukāšana** sadaļā Konfigurācijas **atlasiet** elementu Pārskatu **konfigurācijas**.
 3. Lapā **Konfigurācijas** izvērsiet kopsavilkuma cilni **Konfigurācijas komponenti**.
 4. Konfigurācijas koka kreisajā rūtī izvērsiet **Rēķina modelis** un pēc tam izvērsiet **UBL pārdošanas rēķins**.
 

@@ -2,7 +2,7 @@
 title: Budžeta kontroles pārskats
 description: Šajā tēmā ir ieviests budžeta kontroles līdzeklis un sniegta informācija, lai palīdzētu jums konfigurēt budžeta kontroli, lai optimizētu jūsu organizācijas finanšu resursu pārvaldību.
 author: panolte
-ms.date: 11/08/2021
+ms.date: 03/28/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14b852bb4aeca927adeeb2665b9887e467b71158
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 7019b3546b83047e91fa129d8d92f209f131c993
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986060"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644854"
 ---
 # <a name="budget-control-overview"></a>Budžeta kontroles pārskats
 
@@ -78,9 +78,11 @@ Pēc tam cilnē **Budžeta sliekšņa pārsniegšanas atļaujas** varat norādī
 Pēc tam cilnē **Pieejamie budžeta līdzekļi** varat definēt formulu, kas tiek izmantota, lai aprēķinātu pieejamos budžeta līdzekļus. Atkarībā no tā, cik konservatīvi organizācija pārvalda savus finanšu resursus, vai atkarībā no noteikumiem vai nozares prasībām, šis aprēķins var ietvert dokumentu melnrakstus vai neiegrāmatotus dokumentus. 
 
 > [!NOTE]
-> Ja budžeta cikla laikā tiek modificēts aprēķins, izmaiņas neietekmēs dokumentus, kas iepriekš tika izpildīti budžeta kontroles pārbaudes un tika grāmatoti vai pabeigti. Funkcija ar nosaukumu Tikai atsekot summas pieejamos budžeta fondos ļauj jums mainīt datus, kas **tiek** izsekoti tabulās BudgetSourceTracking. Ja ir ieslēgts šis līdzeklis, summas tiek glabātas tikai tad, ja tās ir atlasītas lietošanai pieejamo budžeta līdzekļu aprēķinā. Papildinformāciju skatiet sadaļā [Pieejamie budžeta līdzekļi](budget-funds-available.md).
+> Ja budžeta cikla laikā tiek modificēts aprēķins, izmaiņas neietekmēs dokumentus, kas iepriekš tika izpildīti budžeta kontroles pārbaudes un tika grāmatoti vai pabeigti. Funkcija ar nosaukumu Tikai **atsekot summas pieejamos budžeta fondos ļauj** jums mainīt datus, kas tiek izsekoti tabulās BudgetSourceTracking. Ja ir ieslēgts šis līdzeklis, summas tiek glabātas tikai tad, ja tās ir atlasītas lietošanai pieejamo budžeta līdzekļu aprēķinā. Papildinformāciju skatiet sadaļā Pieejamie [budžeta līdzekļi](budget-funds-available.md).
 
-Pēc tam cilnē **Dokumenti un žurnāli** varat atlasīt, kuriem pirmdokumentiem un žurnāliem veikt budžeta kontroles pārbaudes un vai šīs pārbaudes notiks rindas ieraksta vai visa dokumenta līmenī. 
+### <a name="documents-and-journals"></a>Dokumenti un žurnāli
+
+Cilnē Dokumenti **un** žurnāli varat atlasīt, uz kuriem pirmdokumentiem un žurnāliem attiecas budžeta kontroles pārbaudes un vai pārbaudes tiks veiktas rindas ieraksta vai visa dokumenta līmenī. Turklāt jaunā budžeta kontroles dokumentu filtrēšanas uzlabojumu līdzeklis, **·** Microsoft Dynamics kas ir pieejams no 365 finanšu versijas 10.0.27, sniedz uz vaicājumu balstītu filtra opciju katram dokumentam, kas ir iekļauts budžeta kontrolē. Tāpēc varat norādīt, kuri budžeta kontroles dokumenti ir pārbaudīti. Šādā veidā funkcija iespējo budžeta pārbaudi tikai dokumenta tipa apakškopai. Piemēram, var pārbaudīt tikai pirkšanas pasūtījumus, kur lauks **Kopa** ir iestatīts uz **01**. Jauna kolonna, kas tiek pievienota cilnei **Dokumenti un** žurnāli, norāda, vai atlasītajam dokumentu tipam ir definēts vaicājums. Turklāt divas jaunas pogas, kas ir pievienotas rīkjoslai virs dokumentu režģa, ļauj jums pievienot, rediģēt vai dzēst filtrēšanu. 
 
 Ar izvēles rūtiņām atzīmētajiem pirmdokumentiem ir jāveic salīdzināšana attiecībā uz bilancēm, kuras ir iekļautas pieejamo budžeta līdzekļu aprēķinā. Piemēram, ja esat atlasījis **Budžeta rezervācijas apgrūtinājumiem**, jums jāatlasa opcija **Pirkšanas pasūtījumi**. Kad tiek veikta budžeta pārbaude, apskatot pirkšanas rindas summas un kontus, rezervēšanai piešķirtā budžeta kontroles kategorija ir **Apgrūtinājums**. Kad tiek veikta budžeta pārbaude pirkšanas pieprasījuma summām un kontiem, rezervēšanai piešķirtā budžeta kontroles kategorija ir **Apgrūtinājums bez juridiskām saistībām**. 
 

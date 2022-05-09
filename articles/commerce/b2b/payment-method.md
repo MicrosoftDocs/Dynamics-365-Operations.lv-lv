@@ -2,7 +2,7 @@
 title: Klienta konta maksājuma metodes konfigurēšana B2B e-komercijas vietnēs
 description: Šajā tēmā ir aprakstīts, kā konfigurēt debitora konta maksājuma metodi sistēmā Microsoft Dynamics 365 Commerce. Tajā aprakstīts arī tas, kā kredīta limiti ietekmē starpkontu maksājuma tveršanu e-komercijas vietnēs "bizness-biznesam".
 author: josaw1
-ms.date: 02/16/2022
+ms.date: 04/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0366f7b51ac138cc7305f98d5607c554440e6d34
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
-ms.translationtype: MT
+ms.openlocfilehash: a8fdeb109204557f0e44457e23a60224e662474f
+ms.sourcegitcommit: 96e2fb26efd2cd07bbf97518b5c115e17b77a0a8
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323359"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "8616836"
 ---
 # <a name="configure-the-customer-account-payment-method-for-b2b-e-commerce-sites"></a>Klienta konta maksājuma metodes konfigurēšana B2B e-komercijas vietnēs
 
@@ -80,28 +80,28 @@ Vērtības, ko kredīta **limita tipa rekvizīts** atbalsta **, ir** Nav, **Bila
 > [!NOTE]
 > Ieteicams iestatīt kredīta **limita** **tipa rekvizītu bilance +** pavadzīme vai produktu pavadzīme, lai atvērtie pārdošanas pasūtījumi neuzskaitītos bilances aprēķinā. Tad, ja debitori veiks turpmākus pasūtījumus, tiem nav jāietekmē šo pasūtījumu pašreizējā bilance.
 
-Cits rekvizīts, kas ietekmē starpkontu **pasūtīšanas** ir obligātais kredīta limita rekvizīts, **kas atrodas debitora ieraksta kopsavilkuma cilnē Kredīts** un iekasēšana. Iestatot šo rekvizītu **kā** Jā noteiktiem debitoriem, var likt sistēmai pārbaudīt to kredīta limitu, **·** **pat ja kredīta limita tipa rekvizīts ir iestatīts uz Nav**, lai norādītu, ka nevienam debitoram kredīta limits nav jāpārbauda.
+Cits rekvizīts, kas ietekmē starpkontu **pasūtīšanas** ir obligātais kredīta limita rekvizīts, **kas atrodas debitora ieraksta kopsavilkuma cilnē Kredīts** un iekasēšana. Iestatot šo **rekvizītu** kā Jā noteiktiem debitoriem, var likt sistēmai pārbaudīt to kredīta limitu, **·** **pat ja kredīta limita tipa rekvizīts ir iestatīts uz Nav**, lai norādītu, ka nevienam debitoram kredīta limits nav jāpārbauda.
 
-Pašlaik B2B vietām, kur obligātā kredīta **limita rekvizīts** ir iespējots, ir papildu funkcionalitāte. Ja rekvizīts ir iespējots debitora ierakstā, kad debitors pasūta pasūtījumu, B2B vieta neļauj tiem izmantot starpkonta maksājuma metodi, lai maksātu vairāk nekā atlikusī kredīta bilance. Piemēram, ja debitora atlikusī kredīta bilance ir $1,000, bet pasūtījuma vērtība ir $1,200, debitors var maksāt tikai $1,000, izmantojot starpkontu metodi. Lai apmaksātu bilanci, tiem jāizmanto kāda cita maksājuma metode. Ja obligātā **kredīta limita** rekvizīts ir atspējots debitora ierakstā, debitors var maksāt jebkuru summu, izmantojot starpkontu maksājuma metodi. Tomēr, lai arī debitors var veikt pasūtījumus, sistēma neļaus šos pasūtījumus izpildīt, ja tie pārsniedz kredīta limitu. Ja jāpārbauda kredīta limits visiem debitoriem, kuriem ir tiesības veikt starpkontu maksājumus, **·** **ieteicams iestatīt kredīta limita tipa rekvizītu uz Bilance +** **·** **pavadzīme vai produktu kvīts un obligātais kredīta limita rekvizīts uz Nē.**
+Pašlaik debitors, kas izmanto starpkonta maksājuma metodi, nevar maksāt vairāk par pasūtījuma atlikušo kredīta bilanci. Piemēram, ja debitora atlikusī kredīta bilance ir $1,000 bet pasūtījuma vērtība ir $1,200, debitors var maksāt $1,000, izmantojot starpkontu metodi. Pēc tam debitoram bilances apmaksai jāizmanto kāda cita maksājuma metode. Turpmākajā laidienā Commerce konfigurācija ļaus lietotājiem, veicot pasūtījumus, tēriņus pārsniedz kredīta limitu.
 
 Kredīta **un iekasēšanas modulim** ir jaunas kredīta pārvaldības iespējas. Lai ieslēgtu šīs iespējas, iespējojiet kredīta pārvaldības **līdzekli** līdzekļu pārvaldības **darbvietā**. Viena no jaunajām iespējām ļauj aizturēt pārdošanas pasūtījumus, pamatojoties uz bloķēšanas nosacījumiem. Kredīta pārvaldnieka persona pēc tam var izlaist vai noraidīt pasūtījumus pēc tālākas analīzes. Tomēr iespēja aizturēt pārdošanas pasūtījumus nav piemērota Commerce pasūtījumiem, jo pārdošanas pasūtījumiem bieži ir priekšapmaksa un **kredīta** pārvaldības funkcija pilnībā neatbalsta priekšapmaksas scenārijus. 
 
 Neatkarīgi no **tā**, vai kredīta pārvaldības funkcija ir iespējota, ja debitora bilance pārsniedz kredīta limitu pasūtījuma izpildes laikā, pārdošanas pasūtījumi netiks aizturēti. Tā vietā komercija ģenerēs brīdinājuma ziņojumu vai kļūdas ziņojumu atkarībā no ziņojuma vērtības, **·** **pārsniedzot kredīta limita lauku kopsavilkuma cilnē Kredīta** limits.
 
-Rekvizīts **Izslēgt no kredīta pārvaldības** rekvizīta, kas neļauj commerce pārdošanas pasūtījumiem aizturēt, ir novietots pārdošanas pasūtījuma virsrakstā (**Visi mazumtirdzniecības un commerce \> Debitori \> visi pārdošanas pasūtījumi**). Ja šis rekvizīts Commerce pārdošanas pasūtījumiem **ir** iestatīts uz Jā (noklusējuma vērtība), pasūtījumi tiek izslēgti no aizturētās kredīta pārvaldības darbplūsmas. Ņemiet vērā, ka, lai gan rekvizīta nosaukums ir **Izslēgt no kredīta** pārvaldības, definētais kredīta limits joprojām tiks izmantots pasūtījuma izpildes laikā. Pasūtījumi tikko netiks aizturēti.
+Rekvizīts **Izslēgt no kredīta pārvaldības** rekvizīta, kas neļauj commerce pārdošanas pasūtījumiem aizturēt, ir novietots pārdošanas pasūtījuma virsrakstā (**Visi mazumtirdzniecības un commerce \> Debitori \> visi pārdošanas pasūtījumi**). Ja šis rekvizīts Commerce pārdošanas pasūtījumiem **ir** iestatīts uz Jā (noklusējuma vērtība), pasūtījumi tiek izslēgti no aizturētās kredīta pārvaldības darbplūsmas. Lai gan rekvizīta nosaukums ir **Izslēgt no kredīta pārvaldības**, definētais kredīta limits joprojām tiks izmantots pasūtījuma izpildes laikā. Pasūtījumi tikko netiks aizturēti.
 
 Iespēja aizturēt Commerce pārdošanas pasūtījumus, pamatojoties uz aizturēšanas nosacījumiem, ir plānota nākamajiem Commerce laidieniem. Līdz tam, kamēr tas netiek atbalstīts, ja ir nepieciešams, lai Commerce pārdošanas pasūtījumi izietu cauri jaunām kredīta pārvaldības plūsmām, risinājumā varat pielāgot šādus XML failus Visual Studio. Failos modificējiet loģiku tā, lai **CredManExcludeSalesOrder karodziņš** būtu iestatīts uz **Nē**. Šādā veidā rekvizīts **Izslēgt no kredīta pārvaldības tiks** iestatīts uz **Nē** pēc noklusējuma commerce pārdošanas pasūtījumiem.
 
 - RetailCreateCustomerOrderExtensions_CredMan_Extension.xml
 - RetailCallCenterOrderExtensions_CredMan_Extension.xml
 
-Ievērojiet- **ja CredManExcludeSalesOrder** **karodziņš ir iestatīts uz Nē**, un B2B debitors var iegādāties no veikaliem, izmantojot pārdošanas punkta (POS) programmu, skaidras naudas un pārnešanas darbību grāmatošana var neizdoties. Piemēram, pastāv bloķēšanas noteikums skaidras naudas maksājuma veidam, un B2B debitors veikalā iegādājās dažas preces, izmantojot skaidru naudu. Šajā gadījumā rezultāta pārdošanas pasūtījums netiks sekmīgi iekļauts rēķinā, jo tas tiks aizturēts. Tādēļ grāmatošana neizdosies. Tāpēc pēc šīs pielāgošanas ir ieteicams veikt beigu pārbaudi.
+**Ja CredManExcludeSalesOrder** **karodziņš** ir iestatīts uz Nē un B2B debitors var iegādāties no veikaliem, izmantojot pārdošanas punkta (POS) programmu, skaidras naudas un pārvadāšanas darbību grāmatošana var neizdoties. Piemēram, pastāv bloķēšanas noteikums skaidras naudas maksājuma veidam, un B2B debitors veikalā iegādājās dažas preces, izmantojot skaidru naudu. Šajā gadījumā rezultāta pārdošanas pasūtījums netiks sekmīgi iekļauts rēķinā, jo tas tiks aizturēts. Tādēļ grāmatošana neizdosies. Tāpēc pēc šīs pielāgošanas ir ieteicams veikt beigu pārbaudi.
 
 ## <a name="additional-resources"></a>Papildu resursi
 
 [B2B e-komercijas vietnes iestatīšana](set-up-b2b-site.md)
 
-[Pārvaldīt B2B biznesa partnerus, izmantojot debitoru hierarhijas](partners-customer-hierarchies.md)
+[B2B biznesa partneru pārvaldība, izmantojot debitoru hierarhijas](partners-customer-hierarchies.md)
 
 [Biznesa partnera lietotāju pārvaldība B2B e-komercijas vietnēs](manage-b2b-users.md)
 

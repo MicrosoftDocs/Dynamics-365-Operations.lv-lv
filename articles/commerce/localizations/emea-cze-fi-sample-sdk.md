@@ -9,21 +9,20 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 80778547b99af5a7a9717146850d8161f2e8f686
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: aaa894ccfd77a5522a3696e20987b9e67f3abee0
+ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388342"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "8613965"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-the-czech-republic-legacy"></a>Izvietošanas vadlīnijas finanšu reģistrācijas pakalpojuma integrācijas paraugam Čehijas Republikai (mantojuma)
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Šajā tēmā sniegtas vadlīnijas Microsoft Dynamics 365 Commerce finanšu reģistrācijas pakalpojumu integrācijas parauga izvietošanai Čehijas Republikai no Mazumtirdzniecības programmatūras izstrādes komplekta (SDK) izstrādātāja virtuālajā datorā (VM) Microsoft Dynamics pakalpojumā Lifecycle Services (LCS). Plašāku informāciju par šo finanšu integrācijas paraugu skatiet Čehijas [Republikas finanšu reģistrācijas pakalpojumu integrācijas paraugs](emea-cze-fi-sample.md). 
 
-Čehijas Republikas finanšu integrācijas paraugs ir daļa no sdk Retail. Informāciju par TO, kā instalēt un izmantot SDK, skatiet mazumtirdzniecības [programmatūras izstrādes komplekta (SDK) arhitektūru](../dev-itpro/retail-sdk/retail-sdk-overview.md). Šis paraugs sastāv no commerce izpildlaika (CRT) un aparatūras stacijas paplašinājumiem. Lai palaistu šo paraugu, ir jāmodificē un jāveido aparatūras CRT staciju projekti. Ieteicams izmantot nemodificētu komplektu Retail SDK, lai veiktu šajā tēmā aprakstītās izmaiņas. Iesakām izmantot arī avota kontroles sistēmu, piemēram, tādu Azure DevOps failu, kas vēl nav mainīti.
+Čehijas Republikas finanšu integrācijas paraugs ir daļa no sdk Retail. Informāciju par TO, kā instalēt un izmantot SDK, skatiet mazumtirdzniecības [programmatūras izstrādes komplekta (SDK) arhitektūru](../dev-itpro/retail-sdk/retail-sdk-overview.md). Šis paraugs sastāv no Commerce Runtime () un aparatūras CRT stacijas paplašinājumiem. Lai palaistu šo paraugu, ir jāmodificē un jāveido aparatūras CRT stacijas projekti. Ieteicams izmantot nemodificētu komplektu Retail SDK, lai veiktu šajā tēmā aprakstītās izmaiņas. Iesakām izmantot arī avota kontroles sistēmu, piemēram, tādu Azure DevOps failu, kas vēl nav mainīti.
 
 ## <a name="development-environment"></a>Izstrādes vide
 
@@ -128,7 +127,7 @@ Lai mantojuma SDK izmantotu POS paplašinājuma paraugu, izpildiet šīs darbīb
 1. Pārdēvējiet **Pos.Extension mapes** **PosFiscalConnector kopiju**.
 1. Noņemiet tālāk norādītās mapes un failus no **mapes PosFiscalConnector**:
 
-    - Nodalījuma
+    - nodalījums
     - DataService (datu pakalpojums)
     - devDependencies
     - Bibliotēkas
@@ -206,7 +205,7 @@ Savienotājs atbalsta šādus pieprasījumus:
 
 #### <a name="configuration"></a>Konfigurācija
 
-Konfigurācijas **fails DocumentProviderFiscalEFRSampleMaksājotch** **atrodas** paplašinājuma projekta konfigurācijas mapē. Šī faila mērķis ir iespējot dokumentu nodrošinātāja iestatījumus konfigurēšanai no Commerce Headquarters. Faila formāts ir saskaņots ar finanšu integrācijas konfigurācijas prasībām. Ir pievienoti šādi iestatījumi:
+Konfigurācijas **fails DocumentProviderFiscalEFRSampleMaksājotch** **atrodas** paplašinājuma projekta konfigurācijas mapē. Šī faila mērķis ir iespējot iestatījumus dokumentu nodrošinātājam, lai tos konfigurētu no programmas Commerce Headquarters. Faila formāts ir saskaņots ar finanšu integrācijas konfigurācijas prasībām. Ir pievienoti šādi iestatījumi:
 
 - PVN likmju kartējums
 - Noklusējuma PVN grupa

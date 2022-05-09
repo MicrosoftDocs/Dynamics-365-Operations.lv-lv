@@ -2,7 +2,7 @@
 title: SEO metadatu pārvaldība
 description: Šajā tēmā ir aprakstīts, kā pārvaldīt meklēšanas programmas optimizācijas (SEO) metadatus Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 04/14/2020
+ms.date: 04/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 06d2da60695be499971904451fd56fb8a64dfd64c9192d93f87ababb349e9378
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3d6f56968e9adfe90142955cba8e6c7ecc50fc92
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751571"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644763"
 ---
 # <a name="manage-seo-metadata"></a>SEO metadatu pārvaldība
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Šajā tēmā ir aprakstīts, kā pārvaldīt meklēšanas programmas optimizācijas (SEO) metadatus Microsoft Dynamics 365 Commerce.
 
@@ -62,17 +63,21 @@ Dynamics 365 Commerce ļauj pārvaldīt SEO metadatus atsevišķām lapām. Vara
 ### <a name="modify-page-metadata"></a>Lapas metadatu modificēšana
 
 Lai modificētu lapas metadatus, veiciet tālāk minētās darbības.
-
 1. Sadaļā **Vietnes** atlasiet **Fabrikam** (vai savas vietnes nosaukumu).
 1. Navigācijas rūtī kreisajā pusē atlasiet **Lapas**.
 1. Atlasiet sākumlapu, lai to atvērtu to lapas redaktorā.
 1. Komandjoslā atlasiet **Rediģēt**.
-1. Rekvizītu rūts labajā pusē izvērsiet **Noklusējuma metaetiķetes**.
-1. Lai pievienotu jaunu metaetiķeti, atlasiet **Pievienot** un pēc tam laukā ievadiet etiķeti. Lai noņemtu esošu metaetiķeti, atlasiet miskastes simbolu pa labi no tās.
+1. Lapas redaktorā lapas izklāsta **kontroles** augšējā pusē kreisajā pusē atlasiet opciju Izklāsta režīms (ātrumkārbas simbols) un pēc tam atlasiet **Detalizētas izklāsta skats**.
+1. Izklāsta skatā paplašiniet koka vadīklas, lai rādītu HTML galvenā **slota** saturu.
+1. HTML galvenā **slota modulī** atlasiet vēlamo MODULI ATA (piemēram, **lapas** kopsavilkums, **preču** lapas kopsavilkums, **kategorijas lapas** kopsavilkums vai **metatags**).
+1. Rekvizītu rūtī labajā pusē rediģējiet vēlamos PĀRSŪTĪŠANAs datus atlasītajam MODULIm ATAER (piemēram, **nosaukums**, **apraksts** vai koplietojamais **attēls**).
 1. Atlasiet **Saglabāt** un pēc tam atlasiet **Pabeigt rediģēšanu**.
-1. Laukā **Komentāri** ievadiet **Atjauninātas metaetiķetes** un pēc tam atlasiet **Labi**,
+1. Laukā **Komentāri** ievadiet Atjauninātus **PĀRSŪTĪŠANAs datus** un pēc tam atlasiet **Labi**.
 1. Atlasiet **Priekšskatījums**, lai priekšskatītu lapu. Kad esat pabeidzis, aizveriet priekšskatījuma cilni, lai atgrieztos autorēšanas rīkā.
 1. Atlasiet **Publicēt**.
+
+> [!TIP]
+> Autori var izmantot izklāsta **režīma** opciju (ātrumkārbas simbolu) lapas redaktora kreisās puses izklāsta vadīklas augšpusē, lai pārslēgtos no **pamata izklāsta** **skata uz paplašinātās izklāsta skatu**. **Pamata izklāsta skats** ir noklusējuma iestatījums un **filtrē** izklāstu tā, ka tas lapā būs redzami tikai moduļi pamatteksta HTML slotā. **Detalizētās izklāsta** skats parāda visu lapas moduli, ieskaitot **HTML galvu**, pamatteksta **sākuma un** pamatteksta **beigu slotus**. Šis skats ir noderīgs, kad autoriem ir jārediģē lapas specifiskiE VAI skripta moduļa iestatījumi.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

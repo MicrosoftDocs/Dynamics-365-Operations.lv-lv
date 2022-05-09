@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14312
 ms.assetid: 585d5b0b-1b79-4a03-ab18-528918070377
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 71e87b1102e21e035c25af4c63245eaaa59e4babb82bcf59c5cfba48f7d114f3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 101cbcc77b2e1eab9fb4b6724fc5e3e8925a54c5
+ms.sourcegitcommit: 836695c0e95d366ba993f34eee30f57191f356d8
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749056"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8629718"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Izveidot kreditoru maksājumus, izmantojot maksājuma priekšlikumu
 
@@ -48,7 +48,7 @@ Maksājuma priekšlikuma vaicājumā ir ietvertas dažādas cilnes, kur ir pieej
 - **Iekļaut kreditora rēķinus no citām juridiskām personām** — ja jūsu organizācijā tiek izmantots centralizēts maksāšanas process un maksāšanas priekšlikumā ir jāietver rēķini no citām juridiskajām personām, kas ir ietvertas meklēšanas kritērijos, iestatiet šīs opcijas vērtību **Jā**.
 - **Piedāvāt atsevišķu kreditora maksājumu pēc juridiskās personas** — ja ir iestatīta šīs opcijas vērtība **Jā**, katra kreditora katrai juridiskajai personai tiek izveidots atsevišķs maksājums. Maksājumā tiek norādīts tas kreditors, kas ir norādīts katras juridiskās personas rēķinā. Ja ir iestatīta šīs opcijas vērtība **Nē** un vienam kreditoram ir rēķini no vairākām juridiskajām personām, tiek izveidots viens rēķins par atlasīto rēķinu kopsummu. Maksājumā tiek norādīts pašreizējās juridiskās personas kreditors. Ja nepastāv pašreizējās juridiskās personas kreditora konts, tiek izmantots pirmā apmaksājamā rēķina kreditora konts.
 - **Maksājuma valūta** — šajā laukā tiek norādīta valūta, kurā tiek izveidoti visi maksājumi. Ja valūta nav norādīta, katrs rēķins tiek maksāts rēķina valūtā.
-- **Maksājuma nedēļas diena** — ievadiet nedēļas dienu, kad ir jāveic maksājums. Šis lauks tiek izmantots tikai tad, ja maksāšanas metode ir iestatīta rēķinu kopsummas apmaksai noteiktā nedēļas dienā.
+- **Maksājuma nedēļas diena – ievadiet nedēļas dienu, kad jāveic maksājums, šo lauku izmanto tikai tad**, ja maksājuma metode ir iestatīta kā **Nedēļa**. Apmaksas rēķinu kopsumma tiek summēta noteiktajā apmaksas nedēļas dienā.
 - **Korespondējošā konta tips** un **Korespondējošais konts** — iestatiet šos laukus, lai definētu noteiktu konta tipu (piemēram, **Virsgrāmata** vai **Banka**) un korespondējošo kontu (piemēram, noteiktu bankas kontu). Rēķina apmaksas metodē ir noteikts noklusējuma korespondējošā konta tips un korespondējošais konts, bet varat izmantot šos laukus, lai mainītu noklusējuma vērtības.
 - **Apkopotā maksājuma datums** — to izmanto tikai tad, ja lauks **Periods** maksāšanas metodei ir iestatīts uz **Kopsumma**. Ja ir definēts datums, visi maksājumi tiek izveidoti šajā datumā. Lauks **Agrākais maksājuma datums** tiek ignorēts.
 - **Papildu filtri** — kopsavilkuma cilnē **Iekļaujamie ieraksti** varat definēt papildu kritēriju diapazonus. Piemēram, ja vēlaties maksāt tikai kādai kreditoru grupai, varat definēt filtru šai kreditoru grupai. Šī funkcionalitāte bieži tiek izmantota, lai atlasītu rēķinus ar noteiktu maksāšanas metodi. Piemēram, ja definējat filtru kur **Maksāšanas metode** = **Čeks**, tad apmaksai tiek atlasīti tikai tie rēķini, kuriem ir norādīta attiecīgā maksāšanas metode, ja vien tie atbilst arī citiem vaicājumā norādītajiem kritērijiem.

@@ -2,7 +2,7 @@
 title: Iestatīt ER formāta parametrus juridiskai personai
 description: Šajā tēmā izskaidrots, kā iestatīt elektronisko pārskatu (ER) formātu parametrus juridiskai personai.
 author: NickSelin
-ms.date: 10/22/2021
+ms.date: 03/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: cb600c55cb2d40129d1b29ab989bc8f7cf3f4686
-ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
+ms.openlocfilehash: f72ce72e9cbd268efc6ab09dbec7009794d69613
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7927458"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644504"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Iestatīt ER formāta parametrus juridiskai personai
 
@@ -30,7 +30,7 @@ ms.locfileid: "7927458"
 
 Lai veiktu šīs darbības, vispirms ir jāpabeidz darbības, kas aprakstītas tēmā [Konfigurēt ER formātus, lai izmantotu parametrus, kas konkretizēti juridiskai personai](er-app-specific-parameters-configure-format.md).
 
-Lai izpildītu šīs tēmas piemērus, ir jābūt piekļuvei Microsoft Dynamics 365 Finance vienai no šādām lomām:
+Lai pabeigtu piemērus šajā tēmā, jums ir jābūt piekļuvei Microsoft Dynamics 365 Finanses vienai no šīm lomām:
 
 - Elektroniskā pārskata izstrādātājs
 - Elektronisko pārskatu veidošanas funkcionālais konsultants
@@ -226,7 +226,7 @@ Ja konfigurējat programmai raksturīgos parametrus vienai ER formāta versijai 
 Ņemiet vērā arī to, ka, atlasot failu importēšanai, programmai specifisko parametru struktūra šajā failā tiek salīdzināta ar atbilstošā **Uzmeklēšanas** tipa datu avota struktūru, kas atlasīta importēšanai. Importēšana tiek veikta, kad katrs programmai specifiskais parametrs atbilst atbilstošā datu avota struktūrai, kas ir atlasīta importēšanai. Ja struktūras nesakrīt, saņemsit brīdinājuma ziņojumu, kurā teikts, ka importēšanu nevar veikt. Ja vēlaties, lai imports tiktu veikts, esošie programmai specifiskajam parametri atlasītajam ER formātam tiks notīrīti, un tie būs jāiestata no sākuma.
 
 
-Sākot ar Dynamics 365 Finance versiju 10.0.24, jūs varat mainīt noklusējumu un izvairīties no brīdinājuma ziņojuma saņemšanas, iespējojot **Saskaņot ER programmas specifiskos parametrus importējot** **Līdzekļu pārvaldības** darbvietā. Kad šis līdzeklis ir iespējots, ja programmai specifisko parametru struktūra, ko importējat, atšķiras no attiecīgo datu avotu struktūras mērķa ER formātā, kas ir atlasīta importēšanai, importēšana būs sekmīga šādos gadījumos:
+No finanšu versijas 10.0.24 var mainīt noklusējumu un izvairīties no brīdinājuma ziņojuma saņemšanas, **iespējojot Align ER** **programmas specifiskos parametrus, kamēr līdzeklis tiek importēts līdzekļu pārvaldības darbvietā**. Kad šis līdzeklis ir iespējots, ja programmai specifisko parametru struktūra, ko importējat, atšķiras no attiecīgo datu avotu struktūras mērķa ER formātā, kas ir atlasīta importēšanai, importēšana būs sekmīga šādos gadījumos:
 
 - Mērķa ER formāta struktūra ir mainīta, pievienojot jaunas nosacījuma kolonnas jebkuriem esošajiem **Uzmeklēšanas** tipa datu avotiem. Kad imports ir pabeigts, programmai specifiskie parametri tiek atjaunināti. Visos programmai specifiskos parametros importētajos ierakstos vērtības katrā pievienotā nosacījuma kolonnā tiek inicializētas ar noklusēto vērtību [šīs kolonnas](er-formula-supported-data-types-primitive.md) datu tipam.
 - Mērķa ER formāta struktūra ir mainīta, pievienojot jaunas nosacījuma kolonnas jebkuriem esošajiem **Uzmeklēšanas** tipa datu avotiem. Kad imports ir pabeigts, programmai specifiskie parametri tiek atjaunināti. Visos programmai specifiskos parametros importētajos ierakstos tiek dzēstas vērtības katrā noņemtā nosacījuma kolonnā.
@@ -235,9 +235,33 @@ Sākot ar Dynamics 365 Finance versiju 10.0.24, jūs varat mainīt noklusējumu 
 
 Kad importēšana ir pabeigta, papildus tikko aprakstītajām izmaiņām importēto programmai specifisko parametru stāvoklis tiek mainīts uz **Notiek**. Brīdinājuma ziņojums jūs informē, ka automātiski koriģētie programmai raksturīgie parametri ir manuāli jālabo.
 
+#### <a name="replicate-parameters"></a>Replicēt parametrus
+
+Attiecībā uz Finanšu versiju 10.0.27 varat kopēt parametrus, kas konfigurēti vienā uzņēmumā citos uzņēmumos vienlaicīgi.
+
+Lai kopētu parametrus, veiciet šādas darbības.
+
+1. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
+2. Atlasiet **Pārskatu konfigurācijas**.
+3. Konfigurācijas kokā atlasiet formātu **Formatēt, lai uzzinātu, kā uzmeklēt LE datus**.
+4. Darbību rūts cilnē **Konfigurācijas**, grupā **Programmai specifiski parametri** atlasiet **Iestatīšana**.
+5. Atlasiet ER formāta versiju **1.1.1**.
+6. Darbību rūtī atlasiet **Replicēt**.
+7. **Dialoglodziņa Replicēt** cilnē Uzņēmumi **atlasiet** uzņēmumus, uz kuriem vēlaties kopēt parametrus.
+
+    > [!NOTE]
+    > Mērķa uzņēmumu saraksts tiek piedāvāts tikai lietotājiem, kuriem ir piešķirta drošības [loma](../sysadmin/role-based-security.md#security-roles), kas ir konfigurēta, lai piešķirtu piekļuvi visām organizācijām.
+
+8. Atlasiet **Labi**.
+
+    > [!NOTE]
+    > Apstiprinājuma dialoglodziņš jūs informē, vai dažos mērķa uzņēmumos ir iepriekš konfigurēti parametri atlasītajai ER formāta versijai. Atlasiet **Jā**, lai ignorētu parametrus, kopējot tos no pašreizējā uzņēmuma.
+
+    Konfigurētā programmai specifisko parametru kopa tagad tiek kopēta atlasītos uzņēmumos.
+
 ### <a name="reuse-existing-parameters"></a>Atkāŗtoti izmantot esošos parametrus
 
-Sākot ar Dynamics 365 Finance versiju 10.0.23, jūs varat atkārtoti izmantot programmai raksturīgos parametrus, kas ir konfigurēti vienai ER formāta versijai, kad palaižat augstākas tā paša formāta versijas. Lai to izdarītu, **Līdzekļu pārvaldības** darbvietā iespējojiet līdzekli **Izmantot programmas raksturīgos parametrus no iepriekšējām ER formātu versijām**. Ja šī funkcija ir iespējota un jūs darbināt vienu ER formāta versiju, kas mēģina nolasīt programmai raksturīgos parametrus, ER mēģinās atrast programmai raksturīgus parametrus, kas ir konfigurēti palaistai šī formāta versijai. Vai arī, ja tie nav pieejami, tuvākajai šī formāta mazākajai versijai.
+Attiecībā uz finanšu versiju 10.0.23 jūs varat atkārtoti izmantot programmai raksturīgos parametrus, kas ir konfigurēti vienai ER formāta versijai, kad darbināt augstākas tā paša formāta versijas. Lai atkārtoti izmantotu esošos parametrus **, līdzekļa Līdzekļu pārvaldības darbvietā iespējojiet līdzekli Izmantot programmas raksturīgos parametrus no iepriekšējām** ER **formātu versijām**. Kad šī funkcija ir iespējota un jūs darbināt vienu ER formāta versiju, kas mēģina nolasīt programmai raksturīgos parametrus, ER mēģinās atrast programmai raksturīgus parametrus, kas ir konfigurēti palaistai formāta versijai. Ja tie nav pieejami, ER mēģinās tos atrast tuvākajai zemākajai formāta versijai.
 
 > [!NOTE]
 > Jūs varat atkārtoti izmantot programmai raksturīgos parametrus tikai pašreizējās juridiskās personas jomā.

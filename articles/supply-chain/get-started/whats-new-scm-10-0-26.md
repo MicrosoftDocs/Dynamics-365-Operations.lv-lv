@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.26. priekšskatījums (2022. gada maijs)
+title: Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.26 (2022. gada maijs)
 description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Supply Chain Management 10.0.26.
 author: kamaybac
 ms.date: 03/01/2022
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 996988b1a4d59ae9ad7b4031e492824c0a6abc95
-ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
+ms.openlocfilehash: 0724045824f39f316c8b3dbb06a48eb6ca6dbef3
+ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8547878"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625256"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10026-may-2022"></a>Dynamics 365 Supply Chain Management 10.0.26. priekšskatījums (2022. gada maijs)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10026-may-2022"></a>Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.26 (2022. gada maijs)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Šajā tēmā ir uzskaitīti līdzekļi, kas ir jauni vai mainīti Microsoft priekšskatījuma Dynamics 365 Supply Chain Management versijā 10.0.26. Šai versijai ir būvējuma numurs 10.0.1192, un tas ir pieejams šeit:
+Šī tēma uzskaita līdzekļus, kas ir vai nu jauni, vai kas ir mainīti programmas Microsoft Dynamics 365 Supply Chain Management versijā 10.0.26. Šai versijai ir būvējuma numurs 10.0.1192, un tas ir pieejams šeit:
 
 - **Priekšskatījuma laidiens:** 2022. gada marts
 - **Vispārēja laidiena (automātisks atjauninājums) pieejamība:** 2022. gada aprīlis
@@ -34,7 +33,7 @@ ms.locfileid: "8547878"
 
 | Līdzekļu apgabals | Līdzeklis | Papildinformācija | Iespējoja: |
 |---|---|---|---|
-| Krājumi un loģistika | [Rīcībā esošo krājumu redzamības vaicājums papildu noliktavas pārvaldības krājumu atbalstam](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | [Noliktavas redzamības atbalsts WHS krājumiem](../inventory/inventory-visibility-whs-support.md) | Līdzekļu pārvaldība:<br>*Iespējot noliktavas preces krājumu redzamības pakalpojumā* |
+| Krājumi un loģistika | [Rīcībā esošo krājumu redzamības vaicājums papildu noliktavas pārvaldības krājumu atbalstam](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | [Inventory Visibility atbalsts WHS krājumiem](../inventory/inventory-visibility-whs-support.md) | Līdzekļu pārvaldība:<br>*Iespējot noliktavas preces krājumu redzamības pakalpojumā* |
 | Krājumi un loģistika | [Pieejams solīšanai krājumu redzamības pievienojumprogrammai](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/available-to-promise-inventory-visibility-add-in) | [Krājumu redzamības rīcībā esošo izmaiņu grafiki un pieejamās solīšanai](../inventory/inventory-visibility-available-to-promise.md) | Aktivizē pakalpojuma konfigurācija |
 | Ražošana | [Ražošanas izpildes interfeisa pieļaujamā svara krājumi](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/catch-weight-items-production-floor-execution-interface) | [Kā nodarbinātie izmanto ražošanas izpildes interfeisu](../production-control/production-floor-execution-use.md) | Līdzekļu pārvaldība:<br>*(Priekšskatījums) Pieļaujamā svara krājumu pārskats no ražošanas izpildes interfeisa* |
 | Ražošana | Cilne Mani darbi ražošanas izpildes interfeisā <!-- KFM: Add link to release plan when available --> | [Kā nodarbinātie izmanto ražošanas izpildes interfeisu](../production-control/production-floor-execution-use.md) | Līdzekļu pārvaldība:<br>*Cilne Mani darbi ražošanas izpildes interfeisā* |

@@ -2,7 +2,7 @@
 title: Konfigurācijas noformēšana dokumentu ģenerēšanai Excel formātā
 description: Šī tēma sniedz informāciju par to, kā veidot elektronisko pārskatu (ER) formātu, lai aizpildītu Excel veidni un pēc tam ģenerētu izejošos Excel formāta dokumentus.
 author: NickSelin
-ms.date: 02/28/2022
+ms.date: 03/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1b2f38aa9e5eff9366697afd57ceefd06f026096
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: ec25065f2e3cc3b5dd3c9004d5330447f7b2ac61
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388267"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8645140"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Konfigurācijas noformēšana dokumentu ģenerēšanai Excel formātā
 
@@ -141,7 +141,12 @@ Varat konfigurēt Excel veidni, lai lietotu šūnas, lai uzrādītu teksta datus
 > [!NOTE]
 > [Tā kā ir zināms Excel](https://support.microsoft.com/topic/you-cannot-use-the-autofit-feature-for-rows-or-columns-that-contain-merged-cells-in-excel-34b54dd7-9bfc-6c8f-5ee3-2715d7db4353) ierobežojums, pat ja šūnas tiek konfigurētas teksta dzēšanai, un rindas, kurās šīs šūnas ir ietvertas, tiek konfigurētas tā, lai automātiski pielāgotu to augstumus atbilstoši ievietotajam tekstam, iespējams, nevarēsit sapludinātām šūnām un rindām, kurās tās ietvertas, **izmantot līdzekļus AutoFit** un **Wrappe text** Excel. 
 
-Dynamics 365 Finance Attiecībā uz versiju 10.0.23 var likt ER aprēķināt katras rindas augstumu, kas tika konfigurēts, lai automātiski ietilptu ligzdoto šūnu saturam, ja šī rinda satur vismaz vienu sapludinātu šūnu, kas bija konfigurēta teksta saglabāšanai tajā. Aprēķinātais augstums tiek izmantots rindas izmēru maiņai, lai nodrošinātu, ka visas šūnas rindā ir redzamas ģenerētajā dokumentā. Lai sāktu izmantot šo funkcionalitāti, kad izpildiet visus ER formātus, kas tika konfigurēti, lai izmantotu Excel veidnes nosūtīšanas dokumentu ģenerēšanai, rīkojieties šādi.
+No Dynamics 365 finanšu versijas 10.0.23, strādājot ar ģenerēto dokumentu, varat likt ER aprēķināt katras rindas augstumu, kas tika konfigurēts tā, lai automātiski ietilptu ligzdoto šūnu saturā, ikreiz, kad šajā rindā ir vismaz viena sapludināta šūna, kas tika konfigurēta teksta neiespazīšanai tajā. Aprēķinātais augstums tiek izmantots rindas izmēru maiņai, lai nodrošinātu, ka visas šūnas rindā ir redzamas ģenerētajā dokumentā.
+
+> [!NOTE]
+> Ņemiet vērā, ka šī funkcionalitāte, iespējams, nedarbojas, kā paredzēts, ja sapludinātās šūnas formatēšanai tiek izmantots pielāgots fonts. Tā kā programmā Excel netiek iegulti pielāgotie fonti, tajā nav sniegta informācija par pielāgoto fonta lielumu. Tāpēc sapludinātās šūnas lielumu var nepareizi novērtēt.
+
+Lai sāktu izmantot šo funkcionalitāti, kad izpildiet visus ER formātus, kas tika konfigurēti, lai izmantotu Excel veidnes nosūtīšanas dokumentu ģenerēšanai, rīkojieties šādi.
 
 1. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
 2. Lapas **Lokalizācijas konfigurācijas** sadaļā **Saistītās saites** atlasiet **Elektronisko pārskatu veidošanas parametri**.
@@ -224,7 +229,7 @@ Excel sadalījumam pa lapām lietojot **Lappuses** komponentu, jūs nezināsit l
 > [!TIP]
 > Lai šo rezultātu panāktu Excel galvenē vai kājenē, ir jālieto īpašs Excel [formatējums](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) galvenēm un kājenēm.
 
-Konfigurētie **Lapas** komponenti netiek ņemti vērā, atjauninot Excel veidni rediģējamā formātā Dynamics 365 Finance 10.0.22. versijā. Šī funkcija tiek ņemta vērā jaunākos Finance laidienos.
+Konfigurētie **lapas** komponenti netiek apsvērti, kad atjaunināt Excel veidni rediģējamā formātā Dynamics 365 Finanšu versijā 10.0.22. Šī funkcija tiek ņemta vērā jaunākos Finance laidienos.
 
 Ja konfigurējat Excel veidni, lai lietotu [nosacījuma formatēšanu](/office/dev/add-ins/excel/excel-add-ins-conditional-formatting), tā dažos gadījumos varētu nedarboties, kā paredzēts.
 

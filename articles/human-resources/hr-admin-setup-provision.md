@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 65891e380f740f4a1fa404d57789a6f50506d3b5
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 7ce30b64bc7c3889347bec94186614bd6cc337f4
+ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565633"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625418"
 ---
 # <a name="provision-human-resources"></a>Human Resources nodrošināšana
 
@@ -41,7 +41,7 @@ Pirms sākat nodrošināt jaunu ražošanas vidi, jābūt nodrošinātiem tālā
 ## <a name="provision-a-human-resources-trial-environment"></a>Human Resources apgrozījuma vides nodrošināšana
 
 >[!NOTE]
-> Sākot no 2022. gada aprīlī, cilvēkresursu izmēģinājuma vides nebūs pieejamas savrupā programmā. Potenciālie debitori, kuri interesējas par cilvēkresursu spēju vērtēšanu finanšu un operāciju programmās, var to darīt, izmantojot bezmaksas 30 dienas izmēģinājuma darbību kopā ar demonstrācijas datiem. Dynamics 365 Finanses ietvers personāla vadības iespējas, kas tiks iesniegtas finanšu infrastruktūrasm, sapludinot savrupu programmu. Papildinformāciju [skatiet sadaļu HR piedāvājumu sapludināšana sniedz jums iespējas kopā ar debitoriem](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers) . Lai iegūtu plašāku informāciju par Dynamics 365 finanšu izmēģinājuma versijām, skatiet pakāpenības [rokasgrāmatu](/fin-ops/get-started/before-you-buy). 
+> Sākot no 2022. gada aprīlī, cilvēkresursu izmēģinājuma vides nebūs pieejamas savrupā programmā. Potenciālie debitori, kuri interesējas par cilvēkresursu spēju vērtēšanu finanšu un operāciju programmās, var to darīt, izmantojot bezmaksas 30 dienas izmēģinājuma darbību kopā ar demonstrācijas datiem. Dynamics 365 Finanses ietvers personāla vadības iespējas, kas tiks iesniegtas finanšu infrastruktūrasm, sapludinot savrupu programmu. Papildinformāciju [skatiet sadaļu HR piedāvājumu sapludināšana sniedz jums iespējas kopā ar debitoriem](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers) . Lai iegūtu plašāku informāciju par Dynamics 365 finanšu izmēģinājuma versijām, skatiet pakāpenības [rokasgrāmatu](../fin-ops-core/fin-ops/get-started/before-you-buy.md). 
 
 
 Pirms pirmās smilškastes vai ražošanas vides nodrošināšanas, iespējams, vēlēsieties nodrošināt [Human Resources apgrozījuma vidi](https://go.microsoft.com/fwlink/p/?LinkId=2115962), lai validētu Human Resources funkcionalitāti. Izmēģinājuma vides satur fiktīvsu datus, ko var izmantot, lai izpētītu programmu drošā veidā. Kaut arī izmēģinājuma vide pieder lietotājam, kurš to pieprasīja, citus lietotājus var uzaicināt, izmantojot Human Resources sistēmas administrēšanu. 

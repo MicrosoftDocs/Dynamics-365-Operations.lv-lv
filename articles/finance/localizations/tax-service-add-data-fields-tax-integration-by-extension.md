@@ -2,7 +2,7 @@
 title: Pievienot datu laukus nodokļu integrācijai, izmantojot paplašinājumus
 description: Šajā tēmā skaidrots, kā izmantot X++ paplašinājumus datu lauku pievienošanai nodokļu integrācijā.
 author: qire
-ms.date: 02/17/2022
+ms.date: 04/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: acbe8070424febf24883362448ea56857d9d72d9
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
-ms.translationtype: MT
+ms.openlocfilehash: 79b51812eac354072ebf2a0ef6fe8d39610c6385
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323577"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649106"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>Pievienot datu laukus nodokļu integrācijai, izmantojot paplašinājumu
 
@@ -334,9 +334,10 @@ Paplašinā `copyToTaxableDocumentHeaderWrapperFromTaxIntegrationDocumentObject`
 [ExtensionOf(classStr(TaxIntegrationCalculationActivityOnDocument_CalculationService))]
 final static class TaxIntegrationCalculationActivityOnDocument_CalculationService_Extension
 {
-    // Define key for the form in post request
+    // Define the field name in the request
     private const str IOCostCenter = 'Cost Center';
     private const str IOProject = 'Project';
+    // private const str IOEnumExample = 'Enum Example';
 
     /// <summary>
     /// Copies to <c>TaxableDocumentLineWrapper</c> from <c>TaxIntegrationLineObject</c> by line.
@@ -349,20 +350,24 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
         // Set the field we need to integrated for tax service
         _destination.SetField(IOCostCenter, _source.getCostCenter());
         _destination.SetField(IOProject, _source.getProjectId());
+
+        // If the field to be extended is an enum type, use enum2Symbol to convert an enum variable exampleEnum of ExampleEnumType to a string
+        // _destination.SetField(IOEnumExample, enum2Symbol(enumNum(ExampleEnumType), _source.getExampleEnum()));
     }
 }
 ```
 
-Šajā kodā `_destination` ir ievietošanas objekts, kas tiek izmantots, lai ģenerētu grāmatošanas pieprasījumu, un `_source` ir `TaxIntegrationLineObject` objekts.
+Šajā kodā ir `_destination` ievietošanas objekts, kas tiek izmantots pieprasījuma ģenerēšanas laikā, un ir `_source` objekts`TaxIntegrationLineObject`.
 
 > [!NOTE]
-> Definējiet atslēgu, ko pieprasījuma formā izmanto kā **privātus konstantes soļus**. Virknei ir jābūt tieši tādai pašai kā tēmā pievienotais mēra nosaukums. [Pievienojiet datu laukus nodokļu konfigurācijās](tax-service-add-data-fields-tax-configurations.md).
-> Iestatiet lauku metodē **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine**, izmantojot **metodi SetField**. Otrā parametra datu tipam ir jābūt **virknei**. Ja datu tips nav virkne, **konvertējiet** to.
-> Ja X++ uzskaitījuma **tips ir** paplašināts, atzīmējiet starpību starp tā vērtību, iezīmi un nosaukumu.
+> Nosakiet lauka nosaukumu, ko pieprasījumā izmanto kā **privātus konstantes soļus**. Virknei jābūt tieši tādai pašai kā tēmā Pievienot datu laukus nodokļu konfigurācijās pievienotajam zara nosaukumam ([nevis etiķetei)](tax-service-add-data-fields-tax-configurations.md).
 > 
+> Iestatiet lauku metodē **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine**, izmantojot **metodi SetField**. Otrā parametra datu tipam ir jābūt **virknei**. Ja datu tips nav virkne, **konvertējiet** to par virkni.
+> Ja datu tips ir X++ **uzskaitījuma** tips, **ieteicams lietot enum2Symbol** metodi, lai uzskaitījuma vērtību pārveidotu par virkni. Nodokļu konfigurācijā pievienot vērtībai ir jābūt tieši tādai pašai kā uzskaitījuma nosaukumam. Tālāk ir parādīts saraksts ar atšķirībām starp uzskaitījuma vērtību, iezīmi un nosaukumu.
+> 
+>   - Uzskaitījuma nosaukums ir simbolisks kodā. **enum2Symbol()** var pārvērst uzskaitījuma vērtību tā nosaukumā.
 >   - Uzskaitījuma vērtība ir vesels skaitlis.
->   - Uzskaitījuma iezīme var atšķirties dažādās izvēlētās valodās. Neizmantojiet enum2Str **,** lai pārveidotu uzskaitījuma tipu par virkni.
->   - Enum nosaukums ir ieteicams, jo tas ir fiksēts. **enum2Symbol** var lietot, lai pārvērstu uzskaitījumu tā nosaukumā. Nodokļu konfigurācijā pievienotai uzskaitījuma vērtībai jābūt tieši tādai pašai kā uzskaitījuma nosaukumam.
+>   - Uzskaitījuma iezīme var atšķirties dažādās izvēlētās valodās. **enum2Str()** var pārvērst uzskaitījuma vērtību tā etiķetē.
 
 ## <a name="model-dependency"></a>Modeļa atkarība
 
@@ -374,7 +379,7 @@ Lai projektu varētu sekmīgi izveidot, pievienojiet modeļa atkarībām šādus
 - Dimensijas, ja tiek izmantota finanšu dimensija
 - Citi nepieciešamie modeļi, uz ko ir atsauce
 
-## <a name="validation"></a>Validācija
+## <a name="validation"></a>Apstiprināšana
 
 Pēc iepriekšējo darbību veikšanas jūs varat apstiprināt savas izmaiņas.
 
@@ -526,7 +531,7 @@ final class TaxIntegrationPurchTableDataRetrieval_Extension
 [ExtensionOf(classStr(TaxIntegrationCalculationActivityOnDocument_CalculationService))]
 final static class TaxIntegrationCalculationActivityOnDocument_CalculationService_Extension
 {
-    // Define key for the form in post request
+    // Define the field name in the request
     private const str IOCostCenter = 'Cost Center';
     private const str IOProject = 'Project';
 

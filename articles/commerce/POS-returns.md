@@ -2,24 +2,20 @@
 title: Atpakaļ atdošanas izveide programmā POS
 description: Šajā tēmā ir aprakstīts, kā uzsākt atpakaļ atdošanu darījumiem skaidrā naudā bez piegādes vai debitoru pasūtījumiem Microsoft Dynamics 365 Commerce Point of Sale (POS) programmā.
 author: hhainesms
-ms.date: 02/24/2022
+ms.date: 04/27/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+audience: Application User, Developer, IT Pro
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: 3250f702f033fb8b00763542fd8342c089b47b2e
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.openlocfilehash: c8e06c0d83e3bc2f5efea1e3a8124c700706aa2e
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349695"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8648992"
 ---
 # <a name="create-returns-in-pos"></a>Atpakaļ atdošanas izveide programmā POS
 
@@ -107,9 +103,64 @@ Ja kanāla puses informācija kāda iemesla dēļ nav atjaunināta un bezsaistes
 ## <a name="enable-proper-tax-calculation-for-returns-with-partial-quantity"></a>Iespējot pareizu nodokļu aprēķināšanu daļējai atgriešanai
 
 Šis līdzeklis nodrošina, ka gadījumā, ja pasūtījums tiek atgriezts vairākus rēķinos, nodokļi beigās būs vienādi ar sākotnēji iekasēto nodokļu summu.
-1.  Dodieties uz darbvietu **Līdzekļu pārvaldība** un meklējiet **Iespējot pareizu nodokļu aprēķināšanu daļējai atgriešanai**.
-2.  Atlasiet **Iespējot pareizu nodokļu aprēķināšanu daļējai atgriešanai** un pēc tam noklikšķiniet uz **Iespējot**.
 
+1. Līdzekļu pārvaldības **darbvietā** meklējiet Iespēju veikt **pareizu nodokļu aprēķinu atgrieztām daļējām kravēm**.
+1. Atlasiet funkciju **Aktivizēt pareizu nodokļu aprēķinu atgriezt ar daļēju daudzumu** un pēc tam atlasiet **Aktivizēt**.
+
+## <a name="set-up-return-locations-for-retail-stores"></a>Atgriešanas vietu iestatīšana mazumtirdzniecības veikaliem
+
+Commerce ļauj iestatīt atgriešanas vietas, kuru pamatā ir mazumtirdzniecības infokodi un pārdošanas un mārketinga iemeslu kodi. Kad debitori atgriež pirkumus, kasieri bieži norāda atgriešanas iemeslu. Varat norādīt, ka atgrieztās preces ir jāpiešķir dažādām atgriešanas vietām krājumos, pamatojoties uz informācijas kodiem un pamatojuma kodiem, kurus kasieri izvēlas POS kases sistēmā.
+
+Piemēram, debitors atgriež bojāto preci, un kasieris apstrādā atgriešanas darbību. Kad sistēmā Retail POS tiek rādīts atgriezto krājumu informācijas kods, kasieris atlasa bojāto atgriešanu apakškodu. Pēc tam atgrieztā prece tiek automātiski piešķirta noteiktai atgriešanas vietai.
+
+Atgriešanas vieta var būt noliktava, atrašanās vieta noliktavā vai pat noteikta palete atkarībā no jūsu uzņēmuma iestatītajām krājumu vietām. Katru atgriešanas vietu var kartēt uz vienu vai vairākiem mazumtirdzniecības infokodiem, pārdošanas un mārketinga iemeslu kodiem.
+
+### <a name="prerequisites"></a>Priekšnosacījumi
+
+Pirms jūs iestatiet atgriešanas vietas, jums jāuzstāda sekojošos elementus:
+
+- **Mazumtirdzniecības** informācijas kodi — tiek parādītas uzvednes POS kases sistēmā, kas ir iestatīta modulī **Mazumtirdzniecība**. Papildinformāciju skatiet informācijas [kodu iestatīšanai](/dynamicsax-2012/appuser-itpro/setting-up-info-codes).
+- **Pārdošanas un mārketinga iemeslu kodi** – pos kases sistēmā tiek parādītas uzvednes, kas ir iestatītas Pārdošanas **un mārketinga modulī**. Papildinformāciju skatiet pamatojuma [kodu iestatīšana](/dynamicsax-2012/appuser-itpro/set-up-return-reason-codes).
+- **Krājumu vietas** - vietas, kur tiek glabāti krājumi. Papildinformāciju skatiet sadaļā [Krājumu vietu iestatīšana](/dynamicsax-2012/appuser-itpro/about-locations).
+    
+### <a name="set-up-return-locations"></a>Iestatīt atgriešanas vietas
+
+Lai iestatītu atgriešanas vietas, sekojiet šiem soļiem.
+
+1. Pārejiet uz **sadaļu Mazumtirdzniecības \> un \> Komercijas kanāla iestatīšanas** noliktavas un atlasiet noliktavu.
+1. Kopsavilkuma cilnes **Mazumtirdzniecība** laukā Noklusējuma atgriešanas vieta atlasiet krājumu atrašanās vietu, **kas** jāizmanto atgriešanai, kur informācijas kodi vai iemeslu kodi nav kartēti uz atgriešanas vietām.
+1. Laukā Noklusējuma **atgriešanas palete** atlasiet paleti atgriešanai, kuru informācijas kodi vai iemeslu kodi nav kartēti atgriešanas vietām.
+1. Pārejiet uz sadaļu **Mazumtirdzniecības un Commerce \> Krājumu vadības \> atgriešanas vietas**.
+1. Atlasiet **Jauns,** lai izveidotu atgriešanas vietas politiku.
+1. Ievadiet unikālu atgriešanas vietas nosaukumu un aprakstu.
+
+    > [!NOTE]
+    > Ja numuru secība ir iestatīta atgriešanas vietām, nosaukums tiek ievadīts automātiski.
+
+1. Kopsavilkuma cilnē **Vispārīgi** iestatiet opciju Drukāt etiķetes **uz** Jā **·**, lai drukātu visu preču etiķetes, kas piešķirtas atgriešanas vietām.
+1. Iestatiet opciju **Bloķēt krājumus** uz Jā **,** lai atgrieztās preces noklusējuma atgriešanas vietā pārdotu ārpus noliktavas un neļautu tās pārdot.
+1. Lai kartētu noteiktus mazumtirdzniecības infokodus un apakškodas atrašanās vietu atgriešanai, veiciet tālāk aprakstītās darbības.
+
+    1. Kopsavilkuma cilnē **Mazumtirdzniecības infokodi** atlasiet **Pievienot**.
+    1. Informācijas koda **laukā** atlasiet atgriešanas informācijas kodu.
+    1. Laukā **Apakškods** atgriešanas iemeslam atlasiet apakškodu. **Laukā** Apraksts ir parādīts atlasītā apakškoda apraksts.
+    1. Laukā **Veikals** atlasiet veikalu, kurā tiek izmantots informācijas kods.
+    1. Lai norādītu **atgriešanas** vietu **·**, lietojiet laukus **Noliktava**, Novietojums un Paletes ID. Piemēram, lai norādītu atrašanās vietu veikalā, **laukā** Vieta atlasiet veikalu un atrašanās **vietu**.
+    1. Atzīmējiet **izvēles rūtiņu Bloķēt** krājumus, lai atgrieztās preces neļautu pārdot.
+
+1. Lai kartētu konkrētus pārdošanas un mārketinga iemeslu kodus atgriešanas vietām, veiciet tālāk aprakstītās darbības.
+
+    1. Kopsavilkuma cilnē **Pārdošanas un mārketinga iemeslu** kodi atlasiet **Pievienot**.
+    1. Laukā **Iemesla** kods atlasiet atgriešanas iemesla kodu. Apraksta **lauks** parāda atlasītā iemesla koda aprakstu.
+    1. Laukā **Veikals** atlasiet veikalu, kur tiek izmantots šis pamatojuma kods.
+    1. Lai norādītu **atgriešanas** vietu **·**, lietojiet laukus **Noliktava**, Novietojums un Paletes ID. Piemēram, lai noliktavā norādītu paleti, **laukā** Noliktava atlasiet noliktavu, **·** **vietu laukā Vieta un paleti laukā Paletes kods**.
+    1. Atzīmējiet **izvēles rūtiņu Bloķēt** krājumus, lai atgrieztās preces neļautu pārdot.
+
+    > [!NOTE]
+    > Ja krājumam tiek izmantots atgriešanas vietas politika, bet atgriešanas iemesls, kādēļ kasieris atlasa neatbilst nevienam kodam, kas ir norādīts kopsavilkuma cilnē Mazumtirdzniecības **informācijas** **kodi vai Pārdošanas un mārketinga iemeslu kodi, prece tiek nosūtīta uz noklusējuma atgriešanas** vietu, **kas ir noteikta lapā** Noliktava. Turklāt atzīme izvēles **rūtiņā** **·** **Bloķēt** krājumus kopsavilkuma cilnē Vispārīgi atgriešanas novietojumu lapā nosaka, vai atgrieztā prece jābloķē.
+
+1. Pārejiet uz **preču hierarhiju Retail un Commerce \> Commerce**.
+1. Kopsavilkuma cilnes **Pārvaldīt krājumu kategoriju rekvizītus** laukā Atgriešanas **vieta** atlasiet atgriešanas vietu. Tā kā vienā veikalā var definēt vairākas atgriešanas vietu politikas, šeit atlasītā vērtība nosaka izmantoto atgriešanas vietas politiku.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 083748d4aecf551fd326b6c3cbf6d92cf3daf717
-ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
+ms.openlocfilehash: ea928bc8a020035adb36ae2e7873c656e8c3985d
+ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8547821"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625283"
 ---
 # <a name="gs1-bar-codes"></a>GS1 svītrkodi
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!-- Preview until 10.0.25 GA -->
 
 Lai reģistrētu krājuma, paletes vai konteinera pārvietošanu, izmantojot mobilās ierīces skeneri, noliktavas darbiniekiem bieži ir jāveic vairāki uzdevumi. Šie uzdevumi var ietvert gan svītrkodu skenēšanu, gan informācijas manuālu ievadi mobilajā ierīcē. Svītrkodiem tiek izmantots uzņēmuma formāts, kuru jūs definējat un pārvaldāt, izmantojot Microsoft Dynamics 365 Supply Chain Management.
 

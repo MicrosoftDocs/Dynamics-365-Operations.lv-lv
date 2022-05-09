@@ -14,18 +14,27 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ebf11b55f1034b9a84dda9ada77c2f1b7f587a58
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
-ms.translationtype: MT
+ms.openlocfilehash: 89d2f53a761085949885c987d664654c3423524b
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781593"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8645082"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>IoT informācijas pievienojumprogrammas instalēšana LCS
 
 [!include [banner](../../includes/banner.md)]
 
 Šajā tēmā ir paskaidrots, kā instalēt IoT informācijas pievienojumprogrammu Microsoft Dynamics Lifecycle Services (LCS). Ņemiet vērā, ka pievienojumprogrammas nevar instalēt demonstrācijas/izmēģinājuma vidē. Pirms varat instalēt pievienojumprogrammu, jums ir [jāizveido Azure resursi](iot-azure-setup.md).
+
+Varat iestatīt un konfigurēt Lietiskā interneta informāciju, nerakstot nekādus kodus. Šeit ir pamata soļi.
+
+1. [Iestatīt Azure resursus](iot-azure-setup.md) - izveidojiet IoT pārkraušanas punktu, Redis kešatmiņu un atslēgas kešatmiņu, kam var piekļūt no Supply Chain Management.
+2. [Ziņojumu shēmas formāti IoT hub](iot-schema-format.md) - konfigurējiet ierīces, lai sūtītu ziņojumus uz Iot Hub, un definējiet JavaScript Object Notation (JSON) ziņojuma formātu.
+3. Līdzekļu pārvaldībā iespējojiet IoT Informācijas funkcionalitātes karodziņu.
+4. Instalējiet Iot Intelligence Microsoft Dynamics pievienojumprogrammu Lifecycle Services (LCS) — instalējiet pievienojumprogrammu LCS un konfigurējiet Azure noslēpumus (kā aprakstīts šajā tēmā).
+5. [Iestatīt rādījumus](iot-metrics-setup.md) – iestatiet rādījumus Supply Chain Management.
+6. [Scenāriju iestatīšana](iot-scenario-setup.md) – iestatīt scenārijus Supply Chain Management.
 
 ## <a name="set-up-the-lcs-environment"></a>Iestatīt LCS vidi
 
@@ -47,7 +56,7 @@ ms.locfileid: "7781593"
 
 LCS iestatīšana tagad ir pabeigta. Nākamā darbība ir [Scenāriju iestatīšana](iot-scenario-setup.md).
 
-## <a name="uninstall-the-add-in"></a><a id="uninstall-addin"></a> Pievienojumprogrammas atinstalēšana
+## <a name="uninstall-the-add-in"></a><a id="uninstall-addin"></a>Pievienojumprogrammas atinstalēšana
 
 1. Supply Chain Management [scenāriju atspējošana](iot-scenario-setup.md#disable-a-scenario).
 2. LCS dodieties uz savas Supply Chain Management vides informāciju.

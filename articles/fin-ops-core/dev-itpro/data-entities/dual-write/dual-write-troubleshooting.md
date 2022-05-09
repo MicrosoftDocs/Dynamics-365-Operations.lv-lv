@@ -2,19 +2,19 @@
 title: Vispārējā problēmu novēršana
 description: Šajā tēmā sniegta vispārīga traucējummeklēšanas informācija par dubulto rakstīšanas integrāciju starp Finanšu un operāciju programmām un Dataverse.
 author: RamaKrishnamoorthy
-ms.date: 04/07/2020
+ms.date: 04/18/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 8b5951f9f40179ca0bf31f5cccf1f05a0f968213
-ms.sourcegitcommit: 1843235766b6f8cf950a13a310e9f4f2f53c59a4
-ms.translationtype: HT
+ms.openlocfilehash: 5896b031229c7fe7e02c8ccf038dd2b1a4f2de05
+ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "8554604"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "8614100"
 ---
 # <a name="general-troubleshooting"></a>Vispārējā problēmu novēršana
 
@@ -131,6 +131,29 @@ Lai atkārtoti iespējotu **Informācijas** veidlapas opciju, rīkojieties šād
 2. Atrodiet **Informācijas** veidlapu zem veidlapas zara.
 3. Atlasiet **Informācijas** veidlapu un noklikšķiniet uz **Iespējot drošības lomas**.
 4. Mainiet drošības iestatījumu uz **Parādīt visiem**.
+
+## <a name="how-to-ensure-data-integration-is-using-the-most-current-finance-and-operations-schema"></a>Kā nodrošināt datu integrāciju, izmantojot vis pašreizējo Finanšu un operāciju shēmu
+
+Jūs variet saskarties ar datu problēmām jūsu datu integrācijā, ja netiek lietota visnosāk izmantotā shēma. Šīs darbības palīdzēs atsvaidzināt elementu sarakstu finanšu un operāciju programmās un elementus datu integrētājā.
+
+### <a name="refresh-entity-list-in-finance-and-operations-environment"></a>Atsvaidzināt elementu sarakstu Finanšu un operāciju vidē
+1.  Piesakieties finanšu un operāciju vidē.
+2.  Atlasiet **Datu pārvaldību**.
+3.  Iekšējo datu pārvaldību atlasiet Struktūras **parametri**.
+4.  Lapā Datu **importēšanas/eksportēšanas struktūras** parametri atlasiet cilni **Elementa iestatījumi** un atlasiet Atjaunināt **elementu sarakstu**. Tas var ilgt vairāk nekā 30 minūtes, lai atsvaidzinātu atkarībā no iesaistīto entītiju skaita.
+5.  Pārejiet uz **Datu pārvaldību** un atlasiet **Datu elementi,** lai pārbaudītu, vai ir uzskaitīti paredzamie elementi. Ja paredzamās entītijas nav uzskaitītas, pārbaudiet, vai entītijas parādās jūsu Finanšu un operāciju vidē un atjaunot trūkstošos elementus pēc nepieciešamības.
+
+#### <a name="if-the-refresh-fails-to-resolve-the-issue-delete-and-re-add-the-entities"></a>Ja atsvaidzināšana neizdodas novērst problēmu, dzēsiet un pievienojiet elementus vēlreiz
+
+> [!NOTE]
+> Iespējams, ka vajadzēs apturēt visas apstrādes grupas, kas aktīvi lieto šos elementus pirms dzēšanas.
+
+1.  Atlasiet **Datu pārvaldību** jūsu Finanšu un operāciju vidē un atlasiet **Datu elementus**.
+2.  Meklējiet elementus, kuriem ir problēmas, un atzīmējiet mērķa elementu, sagatavošanas tabulu, elementa nosaukumu un citus iestatījumus. Dzēst elementu vai elementus no saraksta.
+3.  Atlasiet **Jauns** un vēlreiz pievienojiet elementu vai elementus, izmantojot datus no 2. soļa. 
+
+#### <a name="refresh-entities-in-data-integrator"></a>Atsvaidzināt datu integrētāāja elementus
+Piesakieties Power Platform Administrēšanas centrā un izvēlieties **Datu integrāciju**. Atveriet projektu, kurā notiek problēmas, un atlasiet Atsvaidzināt **elementus**.
 
 ## <a name="how-to-enable-and-save-network-trace-so-that-traces-can-be-attached-to-support-tickets"></a>Kā iespējot un saglabāt tīkla izsekošanu, lai izsekošanu varētu pievienot atbalsta biļetēm
 

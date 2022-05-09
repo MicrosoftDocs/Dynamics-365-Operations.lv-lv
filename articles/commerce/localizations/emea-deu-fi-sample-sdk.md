@@ -1,6 +1,6 @@
 ---
-title: Fiskālās reģistrācijas pakalpojumu integrācijas izlases izvietošanas vadlīnijas Vācijai (mantotās)
-description: Šajā tēmā ir sniegtas vadlīnijas fiskālās integrācijas parauga izvietošanai Vācijā no Microsoft Dynamics 365 Commerce mazumtirdzniecības programmatūras izstrādes komplekta (SDK).
+title: Vācijas (mantojuma) finanšu reģistrācijas pakalpojuma integrācijas parauga izvietošanas vadlīnijas
+description: Šajā tēmā ir sniegtas vadlīnijas finanšu integrācijas parauga izvietošanai Vācijā no Microsoft Dynamics 365 Commerce mazumtirdzniecības programmatūras izstrādes komplekta (SDK).
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,21 +9,20 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: c578420783a8d19fe4a1522486e0b0146a390722
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: c49e6cedcce1d336486e9fbcc0620bcdf455cc9d
+ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388188"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "8614128"
 ---
-# <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-germany-legacy"></a>Fiskālās reģistrācijas pakalpojumu integrācijas izlases izvietošanas vadlīnijas Vācijai (mantotās)
+# <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-germany-legacy"></a>Vācijas (mantojuma) finanšu reģistrācijas pakalpojuma integrācijas parauga izvietošanas vadlīnijas
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
-Šajā tēmā ir sniegtas vadlīnijas fiskālās reģistrācijas pakalpojumu integrācijas parauga izvietošanai Vācijā no Microsoft Dynamics 365 Commerce mazumtirdzniecības programmatūras izstrādes komplekta (SDK) izstrādātāja virtuālajā mašīnā (VM) dzīves cikla pakalpojumos Microsoft Dynamics (LKS). Plašāku informāciju par šo fiskālās integrācijas izlasi skatiet [Vācijas fiskālās reģistrācijas pakalpojumu integrācijas izlasē](emea-deu-fi-sample.md). 
+Šajā tēmā sniegtas vadlīnijas Microsoft Dynamics 365 Commerce par finanšu reģistrācijas pakalpojumu integrācijas parauga izvietošanu Vācijā no Mazumtirdzniecības programmatūras izstrādes komplekta (SDK) izstrādātāja virtuālās mašīnas (VM) Microsoft Dynamics pakalpojumā Lifecycle Services (LCS). Papildinformāciju par šo finanšu integrācijas paraugu skatiet Vācijas [finanšu reģistrācijas pakalpojuma integrācijas paraugs](emea-deu-fi-sample.md). 
 
-Vācijas fiskālās integrācijas izlase ir daļa no mazumtirdzniecības SDK. Informāciju par TO, kā instalēt un izmantot SDK, skatiet mazumtirdzniecības [programmatūras izstrādes komplekta (SDK) arhitektūru](../dev-itpro/retail-sdk/retail-sdk-overview.md). Šis paraugs sastāv no commerce izpildlaika (CRT) un aparatūras stacijas paplašinājumiem. Lai palaistu šo paraugu, ir jāmodificē un jāveido aparatūras CRT staciju projekti. Ieteicams izmantot nemodificētu komplektu Retail SDK, lai veiktu šajā tēmā aprakstītās izmaiņas. Iesakām izmantot arī avota kontroles sistēmu, piemēram, tādu Azure DevOps failu, kas vēl nav mainīti.
+Vācijas finanšu integrācijas paraugs ir daļa no sdk Retail. Informāciju par TO, kā instalēt un izmantot SDK, skatiet mazumtirdzniecības [programmatūras izstrādes komplekta (SDK) arhitektūru](../dev-itpro/retail-sdk/retail-sdk-overview.md). Šis paraugs sastāv no Commerce Runtime () un aparatūras CRT stacijas paplašinājumiem. Lai palaistu šo paraugu, ir jāmodificē un jāveido aparatūras CRT stacijas projekti. Ieteicams izmantot nemodificētu komplektu Retail SDK, lai veiktu šajā tēmā aprakstītās izmaiņas. Iesakām izmantot arī avota kontroles sistēmu, piemēram, tādu Azure DevOps failu, kas vēl nav mainīti.
 
 ## <a name="development-environment"></a>Izstrādes vide
 
@@ -122,13 +121,13 @@ Aparatūras stacijas paplašinājuma komponenti ir ietverti aparatūras stacijas
 
 POS paplašinājuma paraugs atrodas **Solutions repository mapē srcFiscalIntegrationPosFiscalConnectorSample\\\\**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/).
 
-Lai mantotajā SDK izmantotu POS paplašinājuma paraugu, rīkojieties šādi.
+Lai mantojuma SDK izmantotu POS paplašinājuma paraugu, izpildiet šīs darbības.
 
 1. Kopējiet **mapi Pos.Extension** uz mantojuma SDK POS **paplašinājumu** mapi (piemēram, `C:\RetailSDK\src\POS\Extensions`).
 1. Pārdēvējiet **Pos.Extension mapes** **PosFiscalConnector kopiju**.
 1. Noņemiet tālāk norādītās mapes un failus no **mapes PosFiscalConnector**:
 
-    - Nodalījuma
+    - nodalījums
     - DataService (datu pakalpojums)
     - devDependencies
     - Bibliotēkas
@@ -144,7 +143,7 @@ Lai mantotajā SDK izmantotu POS paplašinājuma paraugu, rīkojieties šādi.
 
 ### <a name="production-environment"></a>Ražošanas vide
 
-Iepriekšējā procedūrā tika iespējoti paplašinājumi, kas ir fiskālās reģistrācijas pakalpojuma integrācijas parauga komponenti. Turklāt šīs darbības ir jāveic, lai izveidotu izvietojamas pakotnes, kurās ir Commerce komponenti, un lai piemērotu šīs pakotnes ražošanas vidē.
+Iepriekšējā procedūrā ir iespējoti paplašinājumi, kas ir fiskālās reģistrācijas pakalpojuma integrācijas parauga komponenti. Turklāt šīs darbības ir jāveic, lai izveidotu izvietojamas pakotnes, kurās ir Commerce komponenti, un lai piemērotu šīs pakotnes ražošanas vidē.
 
 1. Mapē RetailSdkAssets **veiciet \\ tālāk norādītās izmaiņas pakotnes konfigurācijas failos**:
 
@@ -156,7 +155,7 @@ Iepriekšējā procedūrā tika iespējoti paplašinājumi, kas ir fiskālās re
         <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.DataModelEFR" />
         ```
 
-    - Konfigurācijas failā **HardwareStation.Extension.config** pievienojiet šādas rindas kompozīcijas **sadaļai**.
+    - Konfigurācijas failā **HardwareStation.Extension.config** saliācijas sadaļai pievienojiet šādas **rindas**.
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.HardwareStation.EFRSample" />
@@ -172,7 +171,7 @@ Iepriekšējā procedūrā tika iespējoti paplašinājumi, kas ir fiskālās re
         <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.Runtime.DocumentProvider.DataModelEFR.dll" />
         ```
 
-    - Pievienojiet šādas rindas, lai izvietotajās pakotnēs iekļautu aparatūras stacijas paplašinājumus.
+    - Pievienojiet tālāk norādītās rindas, lai ietvertu aparatūras stacijas paplašinājumus izvietojamās pakotnēs.
 
         ``` xml
         <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.EFRSample.dll" />
@@ -181,17 +180,17 @@ Iepriekšējā procedūrā tika iespējoti paplašinājumi, kas ir fiskālās re
 
 3. Startējiet utilītai MSBuild komandu Visual Studio uzvedni un palaidiet msbuild **mapē Retail SDK,** lai izveidotu izvietojamas pakotnes.
 4. Piemērot iepakojumus, izmantojot LCS vai manuāli. Papildinformāciju skatiet sadaļā [Izvietojamu pakotņu izveide](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
-5. Veiciet visus nepieciešamos uzstādīšanas uzdevumus, kas aprakstīti sadaļā [Iestatīt tirdzniecību Vācijai](emea-deu-fi-sample.md#set-up-commerce-for-germany).
+5. Pabeidziet visus nepieciešamos iestatīšanas uzdevumus, kas aprakstīti sadaļā [Iestatīt Commerce for Vācijai](emea-deu-fi-sample.md#set-up-commerce-for-germany).
 
 ## <a name="design-of-extensions"></a>Paplašinājumu dizains
 
-Vācijas fiskālās reģistrācijas pakalpojumu integrācijas izlase ir balstīta uz fiskālās [integrācijas funkcionalitāti](fiscal-integration-for-retail-channel.md). Papildinformāciju par fiskālās integrācijas risinājuma dizainu skatiet [finanšu integrācijas parauga dizaina apskatā](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
+Finanšu reģistrācijas pakalpojuma integrācijas paraugs Vācijai ir balstīts uz finanšu [integrācijas funkcionalitāti](fiscal-integration-for-retail-channel.md). Papildinformāciju par fiskālās integrācijas risinājuma dizainu skatiet [finanšu integrācijas parauga dizaina apskatā](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
 
 ### <a name="commerce-runtime-extension-design"></a>Commerce runtime paplašinājuma dizains
 
 Paplašinājuma, kas ir fiskālā dokumenta nodrošinātājs, nolūks ir izveidot pakalpojumiem raksturīgus dokumentus un apstrādāt atbildes no fiskālās reģistrācijas pakalpojuma.
 
-Paplašinājums CRT ir **Runtime.Extensions.DocumentProvider.EFRSample**. Papildinformāciju par fiskālās integrācijas risinājuma izstrādi skatiet [rakstā Pārskats par fiscal integration for Commerce channels](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
+Paplašinājums CRT ir **Runtime.Extensions.DocumentProvider.EFRSample**. Papildinformāciju par fiskālās integrācijas risinājuma dizainu skatiet tirdzniecības [kanālu finanšu integrācijas pārskatā](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
 
 #### <a name="request-handler"></a>Pieprasījumu apdarinātājs
 
@@ -204,11 +203,11 @@ Savienotājs atbalsta šādus pieprasījumus:
 
 #### <a name="configuration"></a>Konfigurācija
 
-Konfigurācijas **fails DocumentProviderFiscalEFRSampleGermany** atrodas **paplašinājuma projekta konfigurācijas** mapē. Šī faila mērķis ir iespējot dokumentu nodrošinātāja iestatījumus konfigurēšanai no Commerce Headquarters. Faila formāts ir saskaņots ar finanšu integrācijas konfigurācijas prasībām.
+Konfigurācijas **fails DocumentProviderFiscalEFRSampleGermany** **atrodas** paplašinājuma projekta konfigurācijas mapē. Šī faila mērķis ir iespējot iestatījumus dokumentu nodrošinātājam, lai tos konfigurētu no programmas Commerce Headquarters. Faila formāts ir saskaņots ar finanšu integrācijas konfigurācijas prasībām.
 
 Ir pievienoti šādi iestatījumi:
 
-- **PVN likmju kartēšana** — PVN procentu vērtību kartēšana, kas PVN kodiem iestatītas uz atribūta **TaxG** (nodokļu grupa) vērtībām pieprasījumos, kas tiek nosūtīti finanšu pakalpojumam.
+- **PVN likmju kartēšana** - **nodokļu procentu vērtību kartēšana, kas ir iestatītas PVN kodiem uz taxG** (nodokļu grupas) atribūta vērtībām pieprasījumiem, kas tiek nosūtīti finanšu pakalpojumiem.
 - **Dāvanu karšu un depozītu** nodokļu grupa – **TaxG** atribūta vērtība pieprasījumos, kas tiek sūtīti finanšu pakalpojumiem, balstoties uz operācijām, kurās ir iesaistītas dāvanu kartes vai depozītus.
 - **Norēķinu veida kartēšana** — maksājuma metožu kartēšana **uz PayG** (maksājumu grupas) atribūta vērtībām pieprasījumos, kas tiek nosūtīti finanšu pakalpojumam.
 - **Nodokļu grupa neapliekamiem** PVN – **TaxG** atribūta vērtība pieprasījumos, kas tiek nosūtīti finanšu pakalpojumiem, pamatojoties uz darbībām, kas ir atbrīvotas no nodokļu saistībām.
@@ -237,8 +236,8 @@ Konfigurācijas fails atrodas paplašinājuma **projekta** konfigurācijas mapē
 Ir pievienoti šādi iestatījumi:
 
 - **Galapunkta** adrese – finanšu reģistrācijas pakalpojuma URL.
-- **Taimauts** — laiks milisekundēs (ms), ka vadītājs gaidīs atbildi no fiskālās reģistrācijas pakalpojuma.
-- **Rādīt fiskālās reģistrācijas paziņojumus** — ja šis parametrs ir ieslēgts, paziņojumi no finanšu pakalpojuma POS tiks rādīti kā lietotāja ziņojumi.
+- **Noildze** – laiks milisekundēs (ms), ko transporta vadītājs gaidīs uz finanšu reģistrācijas pakalpojuma atbildi.
+- **Rādīt finanšu reģistrācijas paziņojumus — ja šis parametrs ir ieslēgts**, paziņojumi no finanšu pakalpojuma tiks rādīti POS kā lietotāja ziņojumi.
 
 ### <a name="pos-fiscal-connector-extension-design"></a>POS finanšu savienotāja paplašinājuma dizains
 

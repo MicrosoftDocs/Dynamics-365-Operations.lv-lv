@@ -1,0 +1,307 @@
+---
+title: Rēķinos neiekļautie ieņēmumi
+description: Šajā tēmā skaidrots, kā iestatīt krājumus un kontus, lai abonementa norēķinos izmantotu nenodzēsto ieņēmumu līdzekli.
+author: JodiChristiansen
+ms.date: 11/04/2021
+ms.topic: article
+ms.prod: ''
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
+ms.custom: 539093
+ms.search.region: Global
+ms.author: jchrist
+ms.search.validFrom: 2021-11-05
+ms.dyn365.ops.version: 10.0.24
+ms.openlocfilehash: 4a5bd016649957d90876d4eb50c358cd9d6fba80
+ms.sourcegitcommit: 836695c0e95d366ba993f34eee30f57191f356d8
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8629712"
+---
+# <a name="unbilled-revenue"></a>Rēķinos neiekļautie ieņēmumi
+
+Šajā tēmā aprakstīta nenos ieņēmumu aprēķināšanas funkcija, kas ļauj bilancē iekļaut visas rēķinu plānošanas summas. Šīs summas ir iekļautas nenosummoto ieņēmumu kontā un nenobīdīto ieņēmumu korespondējošā kontā, un rēķins par līgumu tiek izrakstīts ar apmaksas palīdzību.
+
+## <a name="set-up-unbilled-revenue"></a>Iestatīt nenopildāmos ieņēmumus
+
+Lai iestatītu nenopildītus ieņēmumus, veiciet šos soļus.
+
+- Lapā Periodiskie **līguma norēķinu parametri** iestatiet laukus sadaļā Nenokārtoti **ieņēmumi**.
+- Nenos ieņēmumu funkcija var tikt izmantota krājumiem, kuru krājuma **tipa lauks** ir iestatīts uz **Standarta**. To var izmantot arī atlikto maksājumu krājumiem. Lai izmantotu nenokārtotos ieņēmumus ar īstermiņa funkcionalitāti, iestatiet īstermiņa opcijas lapā **Periodiskā līguma norēķinu parametri**.
+
+Lai iestatītu krājumus, kas izmanto nenopildāmos ieņēmumus, sekojiet šiem soļiem.
+
+1. Cilnes Krājumi **lapā Nenosācāmo** ieņēmumu **iestatījums** atlasiet **Pievienot**.
+2. Jaunā rindā krājuma kodā **atlasiet** krājuma kodu.
+3. Laukā **Krājumu** saistība atlasiet krājumu saistību.
+4. Atkārtojiet šīs darbības, lai pievienotu vairāk rindu.
+5. Atlasiet **Saglabāt**.
+
+Lai iestatītu krājumus un nenopildāmos ieņēmumu kontus, veiciet šos soļus.
+
+1. Cilnes Konti **lapā Nenosācāmo** ieņēmumu **iestatījums** atlasiet **Pievienot**.
+2. Jaunā rindā krājuma kodā **atlasiet** krājuma kodu.
+3. Laukā **Krājumu** saistība atlasiet krājumu saistību.
+4. Atlasiet kontus nenobīdītajiem ieņēmumiem, nenobīdītai atlaidei un nenobīdītajiem ieņēmumu nobīdei. Lai lietotu īstermiņa kontus, **·** **·** **·** **periodiskā līguma norēķinu parametru lapā lauks Īstermiņa nenosildāmā metode ir jāiestata uz Atritināmie periodi vai Fiksētais** gads.
+5. Atkārtojiet šīs darbības, lai pievienotu vairāk rindu.
+6. Atlasiet **Saglabāt**.
+
+## <a name="use-unbilled-revenue"></a>Izmantot nenodzēsītos ieņēmumus
+
+1. **Lapā Visi norēķinu grafiki** izveidojiet norēķinu grafiku.
+2. Ja krājums vēl nav iestatīts ieņēmumu nenopildīšanai, **norēķinu** grafika rindā atzīmējiet izvēles rūtiņu Nenopildāmie ieņēmumi.
+3. Iestatiet opciju **Nenoārdāmie** ieņēmumi uz **Jā**. Pēc tam pēc vajadzības pārskatiet un labojiet nenodzēsto ieņēmumu, atlaižu un nenodzēsto ieņēmumu korespondējošos kontus.
+4. Norēķinu grafikā, atlasot neapstrādāto **ieņēmumu apstrādi**, atlasiet Izveidot žurnāla ierakstu, **lai** izveidotu sākotnējo žurnāla ierakstu nenosutādētajiem ieņēmumiem. Šis solis ir jāpabeidz pirms norēķinu grafika rēķina izrakstīšanas.
+5. Pēc sākotnējā žurnāla ieraksta izveides atlasiet Ģenerēt **rēķinu**, lai izveidotu pārdošanas pasūtījumus un grāmatotu rēķinus rēķinu grafikiem.
+6. Kad rēķini ir iegrāmatoti, varat pārskatīt audita informāciju **lapas** Visi norēķinu **grafiki cilnē Atjaunošana**.
+
+### <a name="milestone-billing"></a>Apmaksa pēc atskaites punktiem
+
+Atskaites punkta rēķini darbojas ar nenoslēptiem ieņēmumiem saskaņā ar šādiem nosacījumiem:
+
+- Ja atskaites punkta pamatvienums ir nenobīdāms (**atzīmēta** izvēles rūtiņa Nenobīdāmie ieņēmumi) un par atskaites punkta atvasinātajiem krājumiem tiek izrakstīti rēķini (**izvēles** rūtiņa Nenosūtāmie ieņēmumi ir notīrīta), ir jānorāda pamatvienību sākuma un beigu datumi. Šos datumus izmanto sākotnējā žurnāla ieraksta izveidošanai.
+- Ja atskaites punkta pamatelements ir nenobīdāms (**atzīme** izvēles rūtiņa Noņemtie ieņēmumi ir notīrīta) un atskaites punkta apakšelementiem ir izrakstīti rēķini (**ir** atzīmēta izvēles rūtiņa Nenosūtāmie ieņēmumi), beigu datums jānorāda tikai pakārtotajiem krājumiem, kuriem vēlaties izveidot sākotnējo žurnāla ierakstu.
+
+Katru atskaites punkta atvasināto krājumu var apstrādāt atsevišķi. Beigu datumus var norādīt, kad esat gatavs izveidot sākotnējo žurnāla ierakstu.
+
+> [!NOTE]
+> Ja sākotnējais žurnāla ieraksts atskaites punkta pamatelementam vai pakārtotajiem krājumiem jau ir izveidots vai ir izveidots rēķins, sākuma un beigu datumus nevar rediģēt.
+
+### <a name="unbilled-revenue-with-straight-line-deferrals"></a>Nenodzēsti ieņēmumi ar lineāro atlikto maksājumu
+
+Lai lietotu nenorietītos ieņēmumus ar lineārā atlikto maksājumu grafikiem, sekojiet šiem soļiem.
+
+1. **Lapā Visi norēķinu grafiki** izveidojiet norēķinu grafiku.
+2. Pievienot elementu norēķinu grafika rindām.
+3. Atlasiet **rindas atliktos** maksājumus.
+4. Lapā Transakciju **atlikto maksājumu** veiciet šādas darbības:
+
+    1. Iestatiet opciju **Atlikts** uz **Jā**.
+    2. Pēc pieprasāmo kontu mainīšana.
+    3. Sadaļā Grafiks **atlasiet** Lineārā **un** rediģējiet citas jums nepieciešamas vērtības.
+    4. Atlasiet **Labi**.
+
+5. Atlasiet **rindas nenobīdāmos** ieņēmumus un pēc tam veiciet šādas darbības:
+
+    1. Iestatiet opciju **Nenoārdāmie** ieņēmumi uz **Jā**.
+    2. Atlasiet kontus, ko izmantot ieņēmumu, atlaižu un ieņēmumu nobīdei.
+
+6. Norēķinu grafika sadaļā Nenodzēsto **ieņēmumu apstrāde atlasiet** Izveidot **žurnāla ierakstu**. Alternatīvi izmantojiet lapu Nenodzēsto **ieņēmumu masveida apstrāde**, lai izveidotu žurnāla ierakstu.
+7. Tiek izveidots atlikto maksājumu grafiks. Detalizētu informāciju var skatīt visu atlikto **maksājumu grafiku** lapā. Pēc atlikto maksājumu grafika izveides jūs variet rediģēt dažādas vērtības norēķinu grafika rindas krājumam. Piemēram, var labot vienības cenu, daudzumu vai datumus.
+
+### <a name="unbilled-revenue-with-event-based-deferrals"></a>Nenoārdāmie ieņēmumi ar atliktajiem atliktajiem izdevumiem, kas pamatoti uz notikumu
+
+Lai izmantotu nenodzēsītos ieņēmumus ar atlikto maksājumu grafikiem, kas pamatoti uz notikumiem, sekojiet šiem soļiem.
+
+1. **Lapā Visi norēķinu grafiki** izveidojiet norēķinu grafiku.
+2. Pievienot elementu norēķinu grafika rindām.
+3. Atlasiet **rindas atliktos** maksājumus.
+4. Lapā Transakciju **atlikto maksājumu** veiciet šādas darbības:
+
+    1. Iestatiet opciju **Atlikts** uz **Jā**.
+    2. Pēc pieprasāmo kontu mainīšana.
+    3. Sadaļā Grafiks **atlasiet** Pēc notikuma **, Veidne**, **Sadalījuma** **tips** un Termiņa **beigu konts**.
+    4. Atlasiet **Labi**.
+
+5. Atlasiet **rindas nenobīdāmos** ieņēmumus un pēc tam veiciet šādas darbības:
+
+    - Iestatiet opciju **Nenoārdāmie** ieņēmumi uz **Jā**.
+    - Atlasiet kontus, ko izmantot ieņēmumu, atlaižu un ieņēmumu nobīdei.
+
+6. Norēķinu grafika sadaļā Nenodzēsto **ieņēmumu apstrāde atlasiet** Izveidot **žurnāla ierakstu**. Alternatīvi izmantojiet lapu Nenodzēsto **ieņēmumu masveida apstrāde**, lai izveidotu žurnāla ierakstu.
+7. Tiek izveidots atlikto maksājumu grafiks. Detalizētu informāciju var skatīt visu atlikto **maksājumu grafiku** lapā. Pēc atlikto maksājumu grafika izveides jūs variet rediģēt dažādas vērtības norēķinu grafika rindas krājumam. Piemēram, var labot vienības cenu, daudzumu vai datumus. Atlikto maksājumu grafiks tiek pārrēķināts, ņemot vērā jaunās vērtības.
+
+Sadales tiek pārrēķinātas, pamatojoties uz atlasīto sadalījuma tipu (**procenti**, **pabeigtā daļa** procentos vai Vienādas **summas**). Mainīgo summu **sadalījuma** tipam sadale tiek pārrēķināta, pamatojoties uz sākotnējās vērtības procentu ekvivalentu notikumam. Piemēram, sākotnējā vienības cena ir $100.00, un sākotnējās vērtības procenti tiek aprēķināti $55.00 (55 procenti). Ja vienības cena tiek mainīta $200.00, mainīgā notikuma summa kļūst $110.00 (joprojām 55 procenti).
+
+> [!NOTE]
+> Ja atlikto maksājumu grafika rindas ir atpazītas, norēķinu grafika rindas krājumu nevar rediģēt. Lai rediģētu rindas krājumu, vispirms ir jāatgriež atpazītās rindas. Pēc tam norēķinu grafika rindu var atjaunināt.
+
+### <a name="unbilled-revenue-and-top-billing"></a>Nenodzēsti ieņēmumi un augšējais norēķini
+
+Rēķinu izrakstīšanas grafiks tiek ievadīts trīs gadu laikā, un rēķini tiek izrakstīti reizi gadā trīs gadu periodā. Visa līguma summa tiek ierakstīta nenodzēsto ieņēmumu kontā, no kura tiek izveidoti gada rēķini. Korespondējošais konts ir ieņēmumu vai atlikto ieņēmumu konts.
+
+Ņemiet vērā, ka augšējais norēķins un nenosācītie ieņēmumi nedarbojas kopā, jo saskaņošanas problēmas var rasties virsgrāmatā. Piemēram, krājumu grupas **iestatījuma lapā** krājumu grupa A ir **iestatīta tā, lai augšējo rindu lauka skaits būtu** iestatīts uz **2**. **Norēķinu grafika lapā ir** pievienotas trīs vienības. Visi trīs krājumi pieder krājumu grupai A. Kad sākotnējais žurnāla ieraksts ir izveidots nenos ieņēmumu funkcijai, visu trīs krājumu summa tiek apstrādāta uz nenostrādāto kontu. Kad tiek izveidots rēķins rēķinu grafikam, tiek iekļautas tikai divu augšējo krājumu summas. Tāpēc rēķina summa nesaskan ar summu, kas tika apstrādāta ar nenovienoto ieņēmumu kontu, un saskaņošanas problēmas rodas Virsgrāmatā.
+
+Ja vēlaties izmantot nenopildītos ieņēmumus, **atstājiet** krājumu grupas iestatījuma lapu tukšu vai iestatiet visas krājumu grupas tā, **lai** augšējo rindu skaits **būtu iestatīts uz 0** (nulli). Ja vēlaties izmantot augšējos norēķinus, nav pieejamas nesavienotās ieņēmumu darbības.
+
+### <a name="examples"></a>Piemēri
+
+Attiecībā uz versiju 10.0.27, tiek ieviests jauns konts, kad tiek lietoti nenosummēti ieņēmumi. Kad sākotnējais žurnāla ieraksta **izveides process** ir iegrāmatots, kredīts tiek veikts uz jaunu nenobīdīto ieņēmumu korespondējošo kontu. Šo kontu izmanto ieņēmumu konta vietā, jo, izrakstot rēķinu uz rēķinu grafiku, tā pati vērtība ir jāatgriež. Ja rodas valūtas maiņas kursa vai noapaļošanas atšķirības, rēķinu ģenerēšanas procesa **laikā aprēķinātās** summas var atšķirties. Šī darbība nodrošina, ka kontu neto summa ir 0 (nulle).
+
+Šajā piemērā parādīts, kā izmantot nenosummotos ieņēmumus, lai bilancē atpazītu visu līguma summu kā nenozīmotus ieņēmumus. Otra ieraksta puse ir nenobīdīto ieņēmumu korespondējošais konts. Izrakstot rēķinu debitoram, tiek atgriezti nenosummotie ieņēmumi un nenodzēsto ieņēmumu nobīde. Ieņēmumu atzīšana notiks rēķina izrakstīšanas laikā vai saskaņā ar iestatīto atliktā maksājuma atzīšanas grafiku.
+
+#### <a name="assumptions"></a>Pieņēmumi
+
+- Šā gada 1. janvārī debitors paraksta trīs gadu līgumu par $390.
+- Līgumā ir divas daļas: licences un uzturēšanas līgums.
+- Licences maksas pārdošanas cena ir grāmatota $300, un debitoram tiks izrakstīts rēķins $100 katra līguma gada 1. janvārī. Licences $300 tiks ņemta kā ieņēmumi, kad līgums ir parakstīts.
+- Uzturēšanas maksas pārdošanas cena ir standarta $90 un debitoram tiks izrakstīti rēķini $30 katra līguma gada 1. janvārī. Apkopes $90 maksa tiks atlikta, un $2.50 tiks atpazīts katru līguma dzīves mēnesi.
+- Rēķins debitoram tiks $130 katra trīs līguma gadu sākumā (1. janvārī).
+
+#### <a name="steps"></a>Darbības
+
+1. Iestatiet divus izlaistos krājumus kā nenopildāmus krājumus. Izmantojiet lapu **Nenopildāmo ieņēmumu** iestatījums, lai iestatītu krājumus un kontus, kas izmanto nenopildāmos ieņēmumus.
+2. Šajā piemērā uzturēšanas maksa tiek atlikta. Krājumam ir nepieciešama atlikto maksājumu veidne, kas ir iestatīta atlikto **maksājumu veidņu** lapā. Veidnei ir mēneša **perioda** biežums un atpazīšanas perioda ilgums ir 36 mēneši. Tādēļ ieņēmumi mēnesī ir $2.50.
+3. Lapā Atliktie **krājumi pēc noklusējuma** iestatiet lauku Uzturēšanas **maksa** uz Atlikto **maksājumu krājumu**. Šis solis un nākamais iemesls būs uzturēšanas maksas krājums tiek atlikts, kad tas tiek pārdots vai iekļauts norēķinu grafikā.
+4. Atlasiet **atlikto maksājumu noklusējuma** \> **veidni** un no 2. soļa pievienojiet krājumu uzturēšanas maksai un lineārā veidnei. Uzturēšanas maksas krājums tiks saistīts ar 36 mēnešu atlikto maksājumu grafiku.
+5. Izveidojiet norēķinu grafiku, kas ietver divas nenosācītas vienības. Rēķina grafiks līgumam ir iestatīts ar šādiem krājumiem.
+
+    | Krājums | Sākuma datums | Beigu datums | Summa | Norēķinu biežums | Atlikto maksājumu krājums | Rēķinos neiekļautie ieņēmumi | Apraksts |
+    |---|---|---|---|---|---|---|---|
+    | Licence | 01. janvāris, KIR | 31. decembris KIR+2 | $100.00 | Reizi gadā | Nē | Jā | Debitoram katru gadu tiks izrakstīts $100.00 rēķins. Kopsumma $300.00 iepriekš tiks reģistrēta kā nenobīdāmie ieņēmumi bilancē un kā peļņas un zaudējumu ieņēmumi. Katrs rēķins samazina nenosaisāmo summu. |
+    | Uzturēšana | 01. janvāris, KIR | 31. decembris KIR+2 | $30.00 | Reizi gadā | Jā | Jā | Debitoram katru gadu $30.00 rēķins. Kopsumma $90.00 iepriekš tiks reģistrēta kā nenobīdāmie ieņēmumi un atliktie ieņēmumi bilancē. Katrs rēķins samazina nenosaisāmo summu. Atliktie ieņēmumi tiks atpazīti ik mēnesi 36 mēnešu laikā. |
+
+6. Lapā Visi **norēķinu grafiki** izmantojiet procesu Izveidot žurnāla ievadni, **lai** grāmatotu līguma vērtību bilancē kā nenozīmotus ieņēmumus.
+
+Tiek izveidoti divi žurnāla ieraksti– viens katrai norēķinu grafika rindai.
+
+| Rēķinos neiekļauto ieņēmumu konts | Rēķinā neiekļauts ieņēmumu korespondējošais konts | Debeta summa | Kredīta summa |
+|---|---|---|---|
+| Rēķinos neiekļauto ieņēmumu konts | | $300.00 | |
+| | Rēķinā neiekļauts ieņēmumu korespondējošais konts | | $300.00 |
+
+| Rēķinos neiekļauto ieņēmumu konts | Atliktie ieņēmumi | Debeta summa | Kredīta summa |
+|---|---|---|---|
+| Rēķinos neiekļauto ieņēmumu konts | | $90.00 | |
+| |Atliktie ieņēmumi no uzturēšanas | | $90.00 |
+
+Pirmais žurnāla ieraksts tiek grāmatots nenoslikto ieņēmumu korespondējošā kontā, bet otrais tiek grāmatots atlikto ieņēmumu kontā. Ja norēķinu rindai ir gan nenoslikti ieņēmumi, gan atliktie ieņēmumi, tiek izmantots atlikto ieņēmumu konts, nevis nenoslikto ieņēmumu korespondējošais konts. Līgumam ir nepieciešams, lai katra gada sākumā tiktu izveidots debitora rēķins. Izmantojiet Rēķinu **izveides procesu**, lai izveidotu rēķinu. Kad rēķins ir izveidots, tiek izveidoti šādi žurnāla ieraksti.
+
+| Galvenais konts | Rēķinos neiekļauto ieņēmumu konts | Debeta summa | Kredīta summa |
+|---|---|---|---|
+| Nenodzēsto ieņēmumu korespondējošais konts | | $100.00 | |
+| | Rēķinos neiekļauto ieņēmumu konts | | $100.00 |
+| Debitoru parādi | | $100.00 | |
+| | Ieņēmumu konts | | $100.00 |
+
+| Galvenais konts | Rēķinos neiekļauto ieņēmumu konts | Debeta summa | Kredīta summa |
+|---|---|---|---|
+| Atliktās uzturēšanas ieņēmumu konts | | $30.00 | |
+| | Rēķinos neiekļauto ieņēmumu konts | | $30.00 |
+| Debitoru parādi | | $30.00 | |
+| | Atliktās uzturēšanas ieņēmumu konts | | $30.00 |
+
+Šo pašu žurnāla ierakstu izveidos rēķini, kas grāmatoti nākamo divu gadu sākumā. Atlikto ieņēmumu konta neto summa būs 0 (nulle), jo nav noapaļošanas vai maiņas kursa starpību. Atliktie ieņēmumi ir jāatgriež tieši tāpat, kā tas tika kreditēts Izveides žurnāla **ieraksta procesa** laikā. Tā kā ieņēmumi joprojām ir atlikti un tiks atpazīti vēlāk, atlikto ieņēmumu konta kredīts parādās vēlreiz.
+
+Pēdējā solī atpazīšanas žurnāla ieraksts tiek izveidots katru mēnesi, lai atpazītu atlikto uzturēšanas maksas ieņēmumus. Žurnāla ierakstu var izveidot, izmantojot lapu **Atpazīšanas** apstrāde. Alternatīvi to var izveidot, atlasot **Atpazīt** atlikto maksājumu **grafika lapu rindām**.
+
+| Atlikto ieņēmumu konts | Ieņēmumu konts | Debeta summa | Kredīta summa |
+|---|---|---|---|
+| Atliktie ieņēmumi no uzturēšanas | | $2.50 | |
+| | Ieņēmumi no uzturēšanas | | $2.50 |
+
+Šis žurnāla ieraksts tiks izveidots katru reizi, kad šim atliktam krājumam tiek palaists atpazīšanas process (kopā 36 reizes).
+
+#### <a name="short-term-fixed-year"></a>Īstermiņa: fiksēts gads
+
+Jūs varat izmantot nenokārtoto ieņēmumu **kopā** **ar īstermiņa funkcionalitāti, iestatot īstermiņa nenokārtoto lauku periodiskā līguma norēķinu parametru** lapā. Šajā piemērā parādīti aprēķini, kas tiek veikti, ja lietojat nenorietotos ieņēmumus kopā **ar** fiksētā gada īstermiņa nenosāktās metodes.
+
+Tiek izveidots norēķinu grafiks, kas atbilst šādiem kritērijiem:
+
+- **Sākuma datums:** 2020. gada 1. jūnijs
+- **Beigu datums:** 2021. gada 31. decembris
+- **Vienības cena:** $100
+- **Biežums: mēneša**
+
+**Lapā Visi norēķinu grafiki** sākotnējā žurnāla ieraksts tiek izveidots ar procesu **Izveidot žurnāla** ierakstu. Pašreizējās īstermiņa un ilgtermiņa summas tiek aprēķinātas šādi:
+
+- **Pašreizējā īstermiņa nenorieto ieņēmumu summa:** $700
+- **Pašreizējā ilgtermiņa nenoslēgto ieņēmumu summa:** $1,200
+
+Rēķins ir izveidots norēķinu periodam no 2020. gada 1. jūnija līdz 2020. gada 30. novembrim. Pašreizējās īstermiņa un ilgtermiņa summas tiek aprēķinātas šādi:
+
+- **Pašreizējā īstermiņa nenoslēdzto ieņēmumu summa:** $100
+- **Pašreizējā ilgtermiņa nenoslēgto ieņēmumu summa:** $1,200
+
+Rēķins ir izveidots norēķinu periodam no 2020. gada 1. decembra līdz 2020. gada 31. decembrim. Pašreizējās īstermiņa un ilgtermiņa summas tiek aprēķinātas šādi:
+
+- **Pašreizējā īstermiņa nenosācīto ieņēmumu summa:** $1,200
+- **Pašreizējā ilgtermiņa nenoslēgto ieņēmumu summa:** $0
+
+#### <a name="short-term-rolling-periods"></a>Īstermiņa: notiek periodu atrite.
+
+Jūs variet izmantot nenokārtoto **ieņēmumu kopā ar īstermiņa funkcionalitāti, iestatot īstermiņa nenokārtoto metodi periodiskā līguma norēķinu parametru** lapā. Šajā piemērā parādīti **aprēķini**, kas tiek veikti, ja kopā ar īstermiņa nenoildošo metodi tiek izmantoti nenosildoši ieņēmumi.
+
+Tiek izveidots norēķinu grafiks, kas atbilst šādiem kritērijiem:
+
+- **Sākuma datums:** 2020. gada 1. jūnijs
+- **Beigu datums:** 2021. gada 31. decembris
+- **Vienības cena:** $100
+- **Biežums: mēneša**
+
+**Lapā Visi norēķinu grafiki** sākotnējā žurnāla ieraksts tiek izveidots ar procesu **Izveidot žurnāla** ierakstu. Pašreizējās īstermiņa un ilgtermiņa summas tiek aprēķinātas šādi:
+
+- **Pašreizējā īstermiņa nenosācīto ieņēmumu summa:** $1,200
+- **Pašreizējā ilgtermiņa nenoslēgto ieņēmumu summa:** $700
+
+Rēķins ir izveidots norēķinu periodam no 2020. gada 1. jūnija līdz 2020. gada 30. novembrim. Pašreizējās īstermiņa un ilgtermiņa summas tiek aprēķinātas šādi:
+
+- **Pašreizējā īstermiņa nenosācīto ieņēmumu summa:** $1,200
+- **Pašreizējā ilgtermiņa nenoslēgto ieņēmumu summa:** $100
+
+Rēķins ir izveidots norēķinu periodam no 2020. gada 1. decembra līdz 2020. gada 31. decembrim. Pašreizējās īstermiņa un ilgtermiņa summas tiek aprēķinātas šādi:
+
+- **Pašreizējā īstermiņa nenosācīto ieņēmumu summa:** $1,200
+- **Pašreizējā ilgtermiņa nenoslēgto ieņēmumu summa:** $0
+
+### <a name="items-with-revenue-allocation"></a>Krājumi ar ieņēmumu sadalījumu
+
+Divas vienības ar dažādu norēķinu biežumu tiek pievienotas norēķinu grafikam. Gan izmanto nenodzēsītos ieņēmumus, gan atliktos krājumus.
+
+- **Krājuma numurs 1000:** Surface Pro 128GB
+
+    - **Norēķinu biežums:** vienreizējs
+    - **Vienības cena:** $1,500
+    - **Savrupa pārdošanas cena:** $1,600
+    - **Līguma ieņēmumi:** $1,465.26
+
+- **Krājuma kods S0021: apdrošināšana**, kas tiek pārdota kopā ar krājuma kodu 1000
+
+    - **Norēķinu biežums:** mēneša 12 mēneši
+    - **Vienības cena:** $20 skaits mēnesī
+    - **Savrupa pārdošanas cena:** $25
+    - **Līguma ieņēmumi:** $264.74
+
+Tā kā abi krājumi izmanto nenos ieņēmumu un ieņēmumu sadalījumu, kopējā līguma summa atjaunošanas rindā ir 0 (nulle). Tiek **pievienota kolonna** Līguma ieņēmumi un parādīta līguma ieņēmumu summa.
+
+Tabulā ir parādīts krājumu un rēķina sākotnējais žurnāla ieraksts.
+
+| Rēķinos neiekļauto ieņēmumu konts | Atlikto ieņēmumu konts | Debeta summa | Kredīta summa |
+|---|---|---|---|
+| **Krājuma 1000 žurnāla ieraksts** | | | |
+| Debeta nenodzēsto ieņēmumu konts (401250) | | $1,465.26 | |
+| | Atlikto kredīta ieņēmumu konts (250 600) | | $1,465.26 |
+| **Krājuma 0021 žurnāla ieraksts** | | | |
+| Debeta nenodzēsto ieņēmumu konts (401250) | | $274.74 | |
+| | Atlikto kredīta ieņēmumu konts (250 600) | | $274.74 |
+| **Rēķins** | | | |
+| | Kredīta nenodzēsto ieņēmumu konts | | $1,465.26 |
+| | Kredīta nenodzēsto ieņēmumu konts | | $274.74 |
+| Debeta debeta debeta konts (130100) | | $1,488.16 | |
+
+#### <a name="changes-to-the-billing-schedule-line-billing-detail-line-or-revenue-allocation"></a>Izmaiņas norēķinu grafika rindā, norēķinu detalizētas informācijas rindā vai ieņēmumu sadalījumā
+
+Ja vienības cena vai daudzums tiek mainīts, jāatjaunina līguma ieņēmumu summa katram krājumam, kas ir daļa no ieņēmumu sadalījuma. Tādēļ žurnāla ieraksts tiek pārrēķināts.
+
+Piemēram, krājuma 1000 vienības cena tiek mainīta no $1,500 uz $1,600. Šajā gadījumā līguma ieņēmumu summa tiek automātiski pārrēķināta kā $1,549.47. Krājuma S0021 līguma ieņēmumi tiek pārrēķināti kā $290.53.
+
+Kad izmaiņas tiek apstiprinātas un fiksētas, tiek atcelti abu krājumu sākotnējie žurnāla ieraksti un tiek izveidoti jauni žurnāla ieraksti:
+
+- **Vienība 1000:** ieraksta sākotnējais $1,465.26 ieraksts ir atcelts. Žurnālam ir izveidots $1,549.47 ieraksts.
+- **Krājums S0021:** ieraksta sākotnējais $274.74 ieraksts ir atcelts. Žurnālam ir izveidots $290.53 ieraksts.
+
+#### <a name="termination"></a>Izbeigšana
+
+Krājuma S0021 sākuma datums ir 2020. gada janvāris, un tā beigu datums ir 2020. gada decembris, bet ar to pārtraukta 2020. gada jūnijā. Abu krājumu līguma ieņēmumu summa ir jāpārrēķina:
+
+- **Krājums 1000:** līguma ieņēmumi tiek pārrēķināti kā $1,567.67.
+- **Krājums S0021:** līguma ieņēmumi tiek pārrēķināti kā $124.00.
+
+Tiek izveidots korekciju žurnāla ieraksts rindā, ar kuru pārtrauktas darba attiecības. Ir atsaukts žurnāla ieraksts rindai, kas pieder tam pašam vairāku elementu izkārtojumā (MEA) numuram, un tiek izveidots jauns žurnāla ieraksts:
+
+- **Vienība 1000:** ieraksta sākotnējais $1,465.26 ieraksts ir atcelts. Ir izveidots korekciju $1,549.47 ieraksts.
+- **Krājums S0021:** ieraksta sākotnējais $274.74 ieraksts ir atcelts. Žurnālam ir izveidots $124.00 ieraksts.

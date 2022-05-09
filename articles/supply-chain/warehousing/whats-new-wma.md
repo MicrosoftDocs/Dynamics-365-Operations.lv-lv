@@ -2,7 +2,7 @@
 title: Kas jauns vai mainīts mobilajā programmā Warehouse Management
 description: Šajā tēmā ir uzskaitīti jaunie un mainītie līdzekļi katrai Microsoft Dynamics 365 Supply Chain Management Warehouse Management mobilās programmas izlaistajai versijai.
 author: Mirzaab
-ms.date: 03/11/2022
+ms.date: 04/25/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2544c30afe18f290b681efed1705f7cef0cb7620
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
-ms.translationtype: MT
+ms.openlocfilehash: 679222005fe12009004921fa75a56145ae94c3ba
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487841"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644737"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Kas jauns vai mainīts mobilajā programmā Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir uzskaitīti jaunie līdzekļi, labojumi, uzlabojumi un zināmas problēmas katrai Microsoft Dynamics 365 Supply Chain Management Warehouse Management mobilās programmas izlaistajai versijai.
+
+## <a name="version-20210"></a>Versija 2.0.21.0
+
+Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
+
+- Fiksētās avārijas problēmas.
+- Fiksētu problēmu, kad dažas rakstzīmes netiks atpazītas, skenējot vai ierakstot noklusējuma lapā.
+- Fiksētu problēmu, kur noklusējuma lapā ierakstot atkāpvietu, vienlaikus tiks dzēstas divas rakstzīmes.
+- Fiksētā problēma, **kuras** lauks **Kārtot** pēc darbu saraksta lapā parādīs nepareizu vērtību, kas neatbilst faktiskajai karšu kārtošanas secībai.
+- Fiksētu problēmu, kad pēc programmas loga maiņas, strādājot ar to, tiks rādīts nepareizs izkārtojums Microsoft Windows.
+- Fiksēts rezultāts, kad ritināšana uznirstošajā sarakstā var radīt to, ka daži saraksta elementi var tikt paslēpti vai pieslēpti.
+- Pārplānoja pieraksta lapu, lai, strādājot lielākus displejos, tajā pašā lapā tiktu rādīts lietotājvārda un paroles lauki.
+- Uzlabots veids, kā vadība ietu no ātras meklēšanas.
+- Pievienots programmas kļūdu žurnāla skats.
+- Ir pievienoti vairāki pieejamības uzlabojumi (uzlabotā ražošanas kontrole, fiksēti trūkstošie vietturi Android, aktivizēta tastatūras ievade kontrolierīcei u.c.).
 
 ## <a name="version-20200"></a>Versija 2.0.20.0
 
