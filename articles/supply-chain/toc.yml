@@ -6,20 +6,18 @@
           href: index.md
         - name: Jaunumi un izmaiņas
           items:
-            - name: Jaunumi un izmaiņas Finance and Operations programmās
+            - name: Jaunumi un izmaiņas finanšu un operāciju programmās
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
             - name: Jaunumi un izmaiņas programmā Supply Chain Management
               items:
                 - name: Jaunumi un izmaiņas programmas Supply Chain Management sākumlapā
                   href: get-started/whats-new-home-page.md
+                - name: "Supply Chain Management 10.0.27 (2022.\_gada jūlijs)"
+                  href: get-started/whats-new-scm-10-0-27.md
                 - name: "Supply Chain Management 10.0.26 (2022.\_gada maijs)"
                   href: get-started/whats-new-scm-10-0-26.md
                 - name: "Supply Chain Management 10.0.25 (2022.\_gada aprīlis)"
                   href: get-started/whats-new-scm-10-0-25.md
-                - name: "Supply Chain Management 10.0.24 (2022.\_gada februāris)"
-                  href: get-started/whats-new-scm-10-0-24.md
-                - name: "Supply Chain Management 10.0.23 (2022.\_gada janvāris)"
-                  href: get-started/whats-new-scm-10-0-23.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
                 - name: Noņemtie vai novecojušie līdzekļi sākumlapā
@@ -320,7 +318,7 @@
                                   href: ../finance/localizations/e-invoicing-electronic-documents-receiving-log.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Valstij raksturīgie scenāriji
                       items:
-                        - name: Elektronisko rēķinu izrakstīšanas funkciju pieejamība
+                        - name: Elektronisko rēķinu izveides līdzekļu pieejamība
                           href: ../finance/localizations/e-invoicing-country-specific-availability.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Darba sākšana ar elektroniskās rēķinu izveides pakalpojuma administrēšanu
                           href: ../finance/localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/supply-chain/toc.json
@@ -338,7 +336,7 @@
                           href: ../finance/localizations/e-invoicing-sa-get-started.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Italian FatturaPA tiešas integrācijas ar SDI iestatīšana
                           href: ../finance/localizations/e-invoicing-ita-fatturapa-get-started.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: 'Elektronisko rēķinu izveides pakalpojuma izveide, lai importētu kreditoru rēķinus'
+                        - name: 'Elektronisko rēķinu izveides pakalpojuma izmantošana, lai importētu kreditoru rēķinus'
                           href: ../finance/localizations/e-invoicing-get-started-import-vendor-invoices.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Elektronisko rēķinu izveides iestatīšana
                           href: ../finance/localizations/e-invoicing-setup.md?toc=/dynamics365/supply-chain/toc.json
@@ -1725,8 +1723,6 @@
               href: iot/iot-azure-setup.md
             - name: Ziņojumu shēmas formāti IoT centrmezglam
               href: iot/iot-schema-format.md
-            - name: Pievienojumprogrammas instalēšana LCS portālā
-              href: iot/iot-lcs-setup.md
             - name: Rādītāju iestatīšana
               href: iot/iot-metrics-setup.md
             - name: Scenāriju iestatīšana
@@ -2757,6 +2753,8 @@
                   href: production-control/production-floor-execution-setup.md
                 - name: Kā nodarbinātie izmanto ražošanas izpildes interfeisu
                   href: production-control/production-floor-execution-use.md
+                - name: Rādīt atlikušo atvaļinājuma dienu skaitu ražošanas izpildes interfeisā
+                  href: production-control/production-floor-execution-payroll-stats.md
                 - name: Ražošanas izpildes interfeisa stila veidošana
                   href: production-control/production-floor-execution-styles.md
                 - name: Ražošanas izpildes interfeisa pielāgošana

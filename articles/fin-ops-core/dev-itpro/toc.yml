@@ -8,15 +8,17 @@
           href: index.md
         - name: Jaunumi un izmaiņas
           items:
-            - name: Jaunumi un izmaiņas Finance and Operations programmās
+            - name: Jaunumi un izmaiņas finanšu un operāciju programmās
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Jaunumi un izmaiņas platformas atjauninājumos
               items:
                 - name: Jaunumi un izmaiņas platformas atjauninājumu sākumlapā
                   href: get-started/whats-new-home-page.md
-                - name: "Platform atjauninājumi versijai\_10.0.26 (2022.\_gada maijs)"
+                - name: "Platform atjauninājumi versijai 10.0.27 (2022.\_gada jūlijs)"
+                  href: get-started/whats-new-platform-updates-10-0-27.md
+                - name: "Platform atjauninājumi versijai 10.0.26 (2022.\_gada maijs)"
                   href: get-started/whats-new-platform-updates-10-0-26.md
-                - name: "Platformas atjauninājumi versijai\_10.0.25 (2022.\_gada aprīlis)"
+                - name: "Platformas atjauninājumi versijai 10.0.25 (2022.\_gada aprīlis)"
                   href: get-started/whats-new-platform-updates-10-0-25.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
@@ -66,6 +68,8 @@
                   href: data-entities/odata.md
                 - name: Pielāgota pakalpojuma izstrāde
                   href: data-entities/custom-services.md
+                - name: Pakalpojuma pieprasījuma izsekošana
+                  href: data-entities/service-request-tracing.md
                 - name: Atkārtotas integrācijas
                   href: data-entities/recurring-integrations.md
                 - name: 'Pakalpojumu testēšana, izmantojot trešo pušu utilītas'
@@ -1714,7 +1718,23 @@
                       href: migration-upgrade/migrate-upgraded-cube-entity-store.md
                     - name: Budžeta plānošanas jaunināšana
                       href: migration-upgrade/upgrade-budget-planning.md
-            - name: Migrēt datus no AX 2009
+                - name: Jauninājuma problēmu novēršana
+                  items:
+                    - name: Izstrādes vidēs problēmu novēršana jaunināšanas laikā
+                      href: migration-upgrade/troubleshoot-dev-env.md
+                    - name: Patstāvīgi izmantojama pakalpojuma vides jauninājumu problēmu novēršana
+                      href: migration-upgrade/troubleshoot-self-service-env.md
+                    - name: PreSync un PostSync jaunināšanas skriptu problēmu novēršana
+                      href: migration-upgrade/pre-post-upgrade-scripts.md
+                - name: Vides darbības
+                  items:
+                    - name: Dokumentu pielikumu migrēšana
+                      href: migration-upgrade/migrate-doc-attachments-ax-2012.md
+                    - name: Jauninājuma avota datu iztīrīšana
+                      href: migration-upgrade/clean-up-source-data-upgrade.md
+                    - name: Tabulu saspiešana Dynamics AX 2012 vidēs
+                      href: migration-upgrade/compress-tables-ax-2012.md
+            - name: "Datu migrēšana no AX\_2009"
               items:
                 - name: "Datu migrēšana no AX\_2009 uz Finance and Operations"
                   href: migration-upgrade/data-migration-tool.md
@@ -2000,3 +2020,5 @@
       href: ../../finance/index.md
     - name: Dynamics 365 Commerce
       href: ../../commerce/index.md
+    - name: Dynamics 365 Human Resources
+      href: ../../human-resources/index.md

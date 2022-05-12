@@ -6,20 +6,18 @@
           href: index.md
         - name: Jaunumi un izmaiņas
           items:
-            - name: Jaunumi un izmaiņas Finance and Operations programmās
+            - name: Jaunumi un izmaiņas finanšu un operāciju programmās
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/commerce/toc.json
             - name: Jaunumi un izmaiņas programmā Commerce
               items:
                 - name: Jaunumi un izmaiņas Commerce sākumlapā
                   href: get-started/whats-new-home-page.md
+                - name: "Commerce 10.0.27 (2022.\_gada jūlijs)"
+                  href: get-started/whats-new-commerce-10-0-27.md
                 - name: "Commerce 10.0.26 (2022.\_gada maijs)"
                   href: get-started/whats-new-commerce-10-0-26.md
                 - name: "Commerce 10.0.25 (2022.\_gada aprīlis)"
                   href: get-started/whats-new-commerce-10-0-25.md
-                - name: "Commerce 10.0.24 (2022.\_februāris)"
-                  href: get-started/whats-new-commerce-10-0-24.md
-                - name: "Commerce 10.0.23 (2022.\_gada janvāris)"
-                  href: get-started/whats-new-commerce-10-0-23.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
                 - name: Noņemtie vai novecojušie līdzekļi sākumlapā
@@ -356,6 +354,8 @@
                           href: tax-exempt-price-inclusive.md
                         - name: PVN tiešsaistes pasūtījumiem konfigurēšana
                           href: sales-tax-config.md
+                        - name: Nodokļu pārtraukuma informācijas slēpšana pasūtījumu kopsavilkumos
+                          href: hide-taxes-breakup.md
                     - name: E-pasta paziņojumu profila iestatīšana
                       href: email-notification-profiles.md
                     - name: Numuru sērijas
@@ -394,7 +394,7 @@
                       href: dev-itpro/store-commerce.md
                     - name: Ierīces pārvaldības ieviešanas vadlīnijas
                       href: implementation-considerations-devices.md
-                    - name: "Izvēle starp MPOS un Cloud\_POS"
+                    - name: Izvēle starp Store Commerce un Cloud POS
                       href: MPOS-or-CPOS.md
                     - name: POS operācijas tiešsaistē un bezsaistē
                       href: pos-operations.md
@@ -496,7 +496,9 @@
                   href: tasks/configure-functionality-profile-sales-representative.md
                 - name: Mazumtirdzniecības kanālu finanšu dimensiju izveide un vērtību konfigurēšana veikalos
                   href: tasks/create-financial-dimensions-retail-channels.md
-                - name: Iespējot konsekventu piegādes režīmu apstrādi e-komercijas kanālos
+                - name: Numuru sēriju iestatīšana mazumtirdzniecības pārskatiem
+                  href: retail-statements-number-sequences.md
+                - name: Konsekventa piegādes režīma apstrādes iespējošana e-komercijas kanālos
                   href: consistent-delivery-mode-handling.md
             - name: Tiešsaistes kanāla iestatīšana
               items:
@@ -884,6 +886,8 @@
           items:
             - name: Deklarāciju pārskats
               href: retail-statements.md
+            - name: Commerce grāmatošanas parametri
+              href: commerce-posting-parameters.md
             - name: Veikala transakciju apstiprināšana pārskata aprēķinam
               href: valid-checker.md
             - name: Kārtulu atspējošana mazumtirdzniecības darījumu konsekvences pārbaudītājā
@@ -1098,8 +1102,10 @@
                   items:
                     - name: Adventure Works dizaina pārskats
                       href: adventure-works-theme.md
-                    - name: Adventure Works tēmas instalēšana
+                    - name: Adventure Works dizaina instalēšana
                       href: install-adventure-works.md
+                - name: Commerce lokalizācijas ceļvedis
+                  href: e-commerce-localization-guide.md
             - name: Digitālo līdzekļu pārvaldība
               items:
                 - name: Pārskats par digitālo līdzekļu pārvaldību
@@ -1312,6 +1318,14 @@
               href: b2b/payment-method.md
             - name: Preču daudzuma ierobežojumu iestatīšana B2B e-komercijas vietnēm
               href: b2b/quantity-limits.md
+            - name: Commerce katalogi B2B vietnēm
+              items:
+                - name: Commerce katalogu izveide B2B vietnēm
+                  href: catalogs-b2b-sites.md
+                - name: Commerce katalogu paplašināmības ietekme B2B pielāgojumiem
+                  href: catalogs-b2b-sites-dev.md
+                - name: Bieži uzdotie jautājumi par Commerce katalogiem B2B vietnēm
+                  href: catalogs-b2b-sites-FAQ.md
         - name: Pārraudzība un analīze
           items:
             - name: Pārdošanas un uzcenojuma veiktspējas pārraudzība
@@ -2474,13 +2488,17 @@
                       href: dev-itpro/extension-resource-localization.md
             - name: Bezgalvas Commerce
               items:
+                - name: Pārskats
+                  items:
+                    - name: Iepazīšanās ar Commerce Scale Unit (CSU) pamatiem
+                      href: dev-itpro/CSU-core.md
                 - name: API un atsauce
                   items:
                     - name: "Commerce Scale Unit klienta un patērētāja\_API"
                       href: dev-itpro/retail-server-customer-consumer-api.md
-                    - name: Retail Server API patēriņš ārējās lietojumprogrammās
+                    - name: Retail Server API patēriņš ārējās programmās
                       href: dev-itpro/consume-retail-server-api.md
-                    - name: "Typescript un C#\_starpniekserveri, kas paredzēti Retail POS"
+                    - name: "TypeScript un C#\_starpniekserveri, kas paredzēti Retail\_POS"
                       href: dev-itpro/typescript-proxy-retail-pos.md
                     - name: Commerce Runtime (CRT) arhitektūra un konfigurācija
                       href: dev-itpro/commerce-runtime-overview.md
@@ -2528,7 +2546,9 @@
                       href: dev-itpro/extensions-shipping-carrier-integration.md
                 - name: Pakošana un izvietošana
                   items:
-                    - name: Noņemt mākoņa mēroga vienību paplašinājumus
+                    - name: Cloud Scale Unit paplašinājuma pakotnes izveide
+                      href: dev-itpro/CSU-packaging.md
+                    - name: Cloud Scale Unit paplašinājumu noņemšana
                       href: dev-itpro/retail-sdk/remove-csu-package.md
             - name: Store Commerce
               items:
@@ -2538,8 +2558,10 @@
                       href: dev-itpro/pos-extension/pos-extension-overview.md
                     - name: POS paplašinājuma koncepcijas un terminoloģija
                       href: dev-itpro/pos-extension/pos-extension-basics.md
-                    - name: "Migrēt POS paplašinājumus uz Commerce\_SDK"
+                    - name: "POS paplašinājumu migrēšana uz Commerce\_SDK"
                       href: dev-itpro/pos-extension/migrate-pos-extension.md
+                    - name: 'Store Commerce paplašinājumu atkļūdošana, izmantojot VS Code'
+                      href: dev-itpro/sc-debug.md
                 - name: Vides iestatīšana
                   items:
                     - name: Lokāla izstrādes vide
@@ -2614,6 +2636,8 @@
                       href: dev-itpro/pos-extension/mpos-extension-signing.md
                     - name: "Cloud\_POS paplašinājuma pakotnes izveide"
                       href: dev-itpro/pos-extension/cpos-extension-package.md
+                    - name: Store Commerce paplašinājuma instalētāja pakotnes izveide
+                      href: dev-itpro/store-comm-extension-installer.md
             - name: E-komercija
               items:
                 - name: Pārskats
@@ -2814,8 +2838,12 @@
                       items:
                         - name: Telemetrijas reģistrētājs
                           href: e-commerce-extensibility/telemetry-logger.md
-            - name: Commerce HQ
+            - name: Commerce Headquarters
               items:
+                - name: CDX pakotnes paplašinājums
+                  items:
+                    - name: 'Debitora CDX pakotnes paplašināšana, lai pievienotu pielāgotus datus'
+                      href: dev-itpro/extend-customer-CDX-package.md
                 - name: Pakošana un izvietošana
                   items:
                     - name: Commerce maksājumu pakotnes izveide finanšu un operāciju programmas izvietošanai

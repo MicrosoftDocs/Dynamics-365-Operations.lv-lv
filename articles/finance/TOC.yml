@@ -12,6 +12,8 @@
               items:
                 - name: Jaunumi un izmaiņas programmas Finance sākumlapā
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.27 (jūlijs)
+                  href: get-started/whats-new-changed-10-0-27.md
                 - name: Finance 10.0.26 (maijs)
                   href: get-started/whats-new-changed-10-0-26.md
                 - name: Finance 10.0.25 (aprīlis)
@@ -412,6 +414,8 @@
                   href: accounts-receivable/subscription-billing-summary.md
                 - name: Periodiskie līguma norēķini
                   items:
+                    - name: Periodisko līguma norēķinu iestatīšana
+                      href: accounts-receivable/sb-recur-bill-parameters.md
                     - name: Norēķinu grafiku izveide
                       href: accounts-receivable/sb-billing-schedules.md
                     - name: Norēķinu grafika kopēšana
@@ -420,22 +424,26 @@
                       href: accounts-receivable/sb-schedule-billing-features.md
                     - name: Apmaksa pēc atskaites punktiem
                       href: accounts-receivable/sb-milestonebilling.md
+                    - name: Ieņēmumu sadalījums
+                      href: accounts-receivable/sb-rev-allocation.md
                     - name: Atbalsta un atjaunošanas process
                       href: accounts-receivable/sb-support-renewals.md
+                    - name: Rēķinos neiekļautie ieņēmumi
+                      href: accounts-receivable/sb-unbilled-revenue.md
                     - name: Plaša patēriņa cenu indeksa grafiki
                       href: accounts-receivable/cpischedules.md
                     - name: Norēķinu grafiku izbeigšana
                       href: accounts-receivable/terminate-billing-schedule.md
+                    - name: Saskaņošanas datuma scenāriji
+                      href: accounts-receivable/sb-alignment-date-examples.md
                 - name: Ieņēmumu un izdevumu atlikšanas
                   items:
-                    - name: Iestatīt ieņēmumu un izdevumu atlikšanas
+                    - name: Ieņēmumu un izdevumu atlikšanu iestatīšana
                       href: accounts-receivable/sb-deferrals.md
-                    - name: Atlikšanas grafiki
-                      items:
-                        - name: Izveidot atlikšanas grafikus
-                          href: accounts-receivable/sb-deferrals-schedules.md
-                        - name: Atlikto maksājumu noklusējuma transakcijas
-                          href: accounts-receivable/sb-deferral-transactions.md
+                    - name: Atlikšanas grafiku izveide
+                      href: accounts-receivable/sb-deferrals-schedules.md
+                    - name: Atlikto maksājumu noklusējuma transakcijas
+                      href: accounts-receivable/sb-deferral-transactions.md
                 - name: Vairākelementu ieņēmumu sadalījums
                   items:
                     - name: Iestatīt vairāku elementu ieņēmumu sadalījumu
@@ -1429,7 +1437,7 @@
                             - name: Iestatīt Azure resursus elektroniskajai rēķinu izrakstīšanai
                               href: localizations/e-invoicing-set-up-azure-resources.md?toc=/dynamics365/finance/toc.json
                             - name: Azure Key Vault izveide Azure portālā
-                              href: localizations/e-invoicing-create-azure-storage-account-azure-portal.md?toc=/dynamics365/finance/toc.json
+                              href: localizations/e-invoicing-create-azure-key-vault-azure-portal.md?toc=/dynamics365/finance/toc.json
                             - name: Azure krātuves konta izveide Azure portālā
                               href: localizations/e-invoicing-create-azure-storage-account-azure-portal.md
                             - name: SharePoint savienojuma konfigurēšana
@@ -1460,6 +1468,8 @@
                           href: localizations/e-invoicing-complete-publish-deploy-globalization-feature.md?toc=/dynamics365/finance/toc.json
                         - name: Kopīgot ar citām organizācijām
                           href: localizations/e-invoicing-share-other-organizations.md?toc=/dynamics365/finance/toc.json
+                        - name: Lietojuma pārvaldības informācijas panelis
+                          href: localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/finance/toc.json
                         - name: Apstrādāt ienākošos elektroniskos dokumentus
                           items:
                             - name: Ienākošo elektronisko dokumentu apstrāde
@@ -1468,12 +1478,12 @@
                               href: localizations/e-invoicing-configure-email.md?toc=/dynamics365/finance/toc.json
                             - name: Konfigurēt SharePoint kanālu
                               href: localizations/e-invoicing-configure-sharepoint-channel.md
-                        - name: Iestatīt un lietot elektronisko rēķinu izveidi ar Finance un Supply Chain Management
-                          items:
-                            - name: Aktivizēt un iestatīt integrāciju ar elektronisko rēķinu izveidi
-                              href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
-                            - name: Elektroniskās rēķinu parametru iestatīšana
-                              href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
+                    - name: Iestatīt un lietot elektronisko rēķinu izveidi ar Finance un Supply Chain Management
+                      items:
+                        - name: Aktivizēt un iestatīt integrāciju ar elektronisko rēķinu izveidi
+                          href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
+                        - name: Elektroniskās rēķinu parametru iestatīšana
+                          href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
                         - name: Darbs ar elektronisko rēķinu izveidi
                           items:
                             - name: Elektronisko dokumentu iesniegšana elektronisko rēķinu izveidei
@@ -1484,14 +1494,8 @@
                               href: localizations/e-invoicing-electronic-documents-receiving-log.md?toc=/dynamics365/finance/toc.json
                     - name: Valstij raksturīgie scenāriji
                       items:
-                        - name: Elektronisko rēķinu izrakstīšanas funkciju pieejamība
+                        - name: Elektronisko rēķinu izveides līdzekļu pieejamība
                           href: localizations/e-invoicing-country-specific-availability.md?toc=/dynamics365/finance/toc.json
-                        - name: Darba sākšana ar elektroniskās rēķinu izveides pakalpojuma administrēšanu
-                          href: localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/finance/toc.json
-                        - name: Darba sākšana ar elektronisko rēķinu izveidi
-                          href: localizations/e-invoicing-get-started.md?toc=/dynamics365/finance/toc.json
-                        - name: Jauna elektronisko rēķinu izveides līdzekļa izveide
-                          href: localizations/e-invoicing-create-new-e-invoicing-feature.md
                         - name: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Brazīlijā
                           href: localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Ēģiptē
@@ -1502,12 +1506,8 @@
                           href: localizations/e-invoicing-sa-get-started.md
                         - name: Italian FatturaPA tiešas integrācijas ar SDI iestatīšana
                           href: localizations/e-invoicing-ita-fatturapa-get-started.md
-                        - name: 'Elektronisko rēķinu izveides pakalpojuma izveide, lai importētu kreditoru rēķinus'
+                        - name: 'Elektronisko rēķinu izveides pakalpojuma izmantošana, lai importētu kreditoru rēķinus'
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
-                        - name: Elektronisko rēķinu izveides iestatīšana
-                          href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
-                        - name: Power Platform spraudņa administratora atsauce
-                          href: localizations/e-invoicing-power-platform-plug-in.md
                     - name: Bieži uzdotie jautājumi par elektronisko rēķinu izveidi
                       href: localizations/e-invoicing-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Nodokļu aprēķins
@@ -1618,7 +1618,13 @@
                           href: localizations/tcs-troubleshooting-failed-access-tax-service.md
                         - name: Tukšs nodokļu līdzekļu saraksts nodokļu aprēķina parametros
                           href: localizations/tcs-troubleshooting-tax-feature-list-empty-tax-calculation-parameter.md
-                    - name: Nodokļu aprēķina bieži uzdotie jautājumi
+                        - name: Nevar noteikt nodokļu kodu
+                          href: localizations/tcs-troubleshooting-tax-code-cannot-be-determined.md
+                        - name: Neizdevās atrast nevienu atbilstošu rezultātu
+                          href: localizations/tcs-troubleshooting-no-matching-result.md
+                        - name: Iespējot atkļūdošanas režīmu nodokļu aprēķināšanas pakalpojumā
+                          href: localizations/tcs-troubleshooting-enable-debug-mode.md
+                    - name: Bieži uzdotie jautājumi par nodokļu aprēķināšanu
                       href: localizations/global-tax-calcuation-service-faq.md?toc=/dynamics365/finance/toc.json
             - name: Nodokļi
               items:
@@ -3725,6 +3731,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/recruiting-analysis-power-bi-content-pack.md?toc=/dynamics365/finance/toc.json
                 - name: Pārdošanas un ienesīguma veiktspēja
                   href: ../fin-ops-core/dev-itpro/analytics/sales-profitability-performance-content-pack.md?toc=/dynamics365/finance/toc.json
+                - name: Abonementu norēķinu Power BI saturs
+                  href: accounts-receivable/sub-bill-power-bi.md
                 - name: Kreditoru maksājumi
                   href: accounts-payable/Vendor-payments-workspace.md
                 - name: Darbaspēka rādītāji
@@ -4775,7 +4783,7 @@
                   href: ../fin-ops-core/dev-itpro/financial/create-exchange-rate-8.md
             - name: 'Transakciju izpilde, izmantojot CustTrans::settleTransaction'
               href: ../fin-ops-core/dev-itpro/financial/settletransact-obsolete.md
-    - name: Finanšu un darbības programmu izstrāde un administrēšana
+    - name: Finanšu un operāciju programmu izstrāde un administrēšana
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Supply Chain Management
       href: ../supply-chain/index.md
