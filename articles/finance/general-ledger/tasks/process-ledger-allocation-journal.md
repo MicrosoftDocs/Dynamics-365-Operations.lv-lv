@@ -1,6 +1,6 @@
 ---
 title: Virsgrāmatas sadalījumu žurnāla apstrāde
-description: Šajā tēmā ir paskaidrots, kā apstrādāt sadalījuma pieprasījumu pakalpojumā Dynamics 365 Finance.
+description: Šajā tēmā skaidrots, kā apstrādāt sadalījuma pieprasījumu Dynamics 365 Finansēs.
 author: aprilolson
 ms.date: 07/26/2019
 ms.topic: business-process
@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerAllocationRequest, LedgerJournalTable, LedgerJournalTransAllocation
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d37b1a9869cc130786d0e8fde68184e04c881bad1f64c86943174213025db82
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1ec3653085aed278eb5d13d47f345c713cd39f1f
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765672"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722157"
 ---
 # <a name="process-ledger-allocation-journal"></a>Virsgrāmatas sadalījumu žurnāla apstrāde
 
@@ -26,7 +26,7 @@ ms.locfileid: "6765672"
 
 Šajā tēmā ir paskaidrots, kā apstrādāt sadalījuma pieprasījumu. Izmantojiet lapu Apstrādāt piešķiršanas pieprasījumu, lai izveidotu sadalījuma žurnālu, ko var pārskatīt un apstiprināt pirms grāmatošanas Virsgrāmatā vai grāmatot tieši Virsgrāmatā. Pirms varēsiet izveidot sadalījumu žurnālu, jābūt vismaz vienai aktīvai Virsgrāmatas sadalījuma kārtulai. Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums USMF.
 
-1. Navigācijas rūtī dodieties uz **Moduļi > Virsgrāmata > Sadalījums > Apstrādāt sadalījuma pieprasījumu**.
+1. Navigācijas rūtī dodieties uz sadaļu **Virsgrāmatas > Sadalījuma > Apstrādājiet sadalījuma pieprasījumu**.
 2. Laukā **Noteikums** nolaižamajā sarakstā atlasiet vēlamo ierakstu.
 3. Laukā **No datuma** ievadiet datumu.
 

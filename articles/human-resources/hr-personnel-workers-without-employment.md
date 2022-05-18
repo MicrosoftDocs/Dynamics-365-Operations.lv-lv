@@ -1,6 +1,6 @@
 ---
 title: Nodarbinātie bez nodarbinātības
-description: Darbinieki, kuriem jūsu organizācijā nav nākotnes, aktīvas vai vēsturiskas nodarbinātības, tiek parādīti lapā Darbinieki bez nodarbinātības.
+description: Darbinieki, kuri nav turpmāk, aktīvi vai vēsturiski nodarbināti jūsu organizācijā, tiek rādīti lapā Darbinieki bez nodarbinātības.
 author: twheeloc
 ms.date: 11/03/2021
 ms.topic: ''
@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmWorkerV2, HRMMassHireProject, HRMMassHireLine, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-04-06
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d0b8fe7dd0818fa1c3cc4224e73035849f9dadfe
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: d3b2d5d470e780c708941fd3d08eae1a042b4c03
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070555"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689808"
 ---
 # <a name="workers-without-employment"></a>Nodarbinātie bez nodarbinātības
 
@@ -27,9 +26,9 @@ ms.locfileid: "8070555"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Darbinieki, kuriem jūsu organizācijā nav nākotnes, aktīvas vai vēsturiskas nodarbinātības, tiek parādīti lapā **Strādnieki bez darba** lappuse. Šāda veida darbinieki var parādīties, kad importējat darbiniekus, kuriem nav darba reģistra, vai kad dzēšat darbinieka nodarbinātību, izmantojot **Strādnieki \> Nodarbinātības vēsture**.
+Darbinieki, kuriem nav nākotnes, aktīvas vai vēsturiskas nodarbinātības jūsu organizācijā, tiek rādīti lapā **Darbinieki bez** nodarbinātības. Šī tipa darbinieki var tikt rādīti, ja importējat darbiniekus, kuriem nav nodarbinātības ieraksta, vai kad dzēšat darbinieka nodarbinātību, izmantojot **darbinieku \> nodarbinātības vēsturi**.
 
-Pēc noklusējuma, **Strādnieki bez darba** lapa ir pieejama šādām lomām:
+Pēc noklusējuma lapa Darbinieki **bez nodarbinātības** ir pieejama šādām lomām:
 
 - Personāla vadības asistents
 - Personāla vadības vadītājs

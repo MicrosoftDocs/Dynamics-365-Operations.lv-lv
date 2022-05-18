@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: KMConnectionType, KMKnowledgeCollectorPlanningTabel, SysEmailParameters, HcmLearningWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 17424
 ms.assetid: fd8d867a-2446-400a-b91f-ad4085427470
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dbb069110b46c38a994a7be6276137360b14397a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3a543d9b85edd493f9b5d5a0449302769c3592f7
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069533"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695905"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>Anketu izplatīšana un plānošana
 
@@ -33,7 +32,7 @@ ms.locfileid: "8069533"
 
 Anketu var izplatīt vairākos veidos:
 
--   Atzīmējiet anketu kā **Aktīvs**. Pēc tam anketa ir pieejama visiem darbiniekiem, ja vien nav iestatīta anketu grupa, kas tai ierobežotu piekļuvi.
+-   Atzīmējiet anketu kā **aktīvu**. Pēc tam anketa ir pieejama visiem darbiniekiem, ja vien nav iestatīta anketu grupa, kas tai ierobežotu piekļuvi.
 -   Piešķiriet tiesības anketu grupai. Pēc tam anketa ir pieejama visiem atlasītās grupas dalībniekiem.
 -   Izveidojiet plānotas atbilžu sesijas. Pēc tam anketa ir pieejama tikai noteiktai personai.
 -   Izveidojiet grafiku. Pēc tam anketa var būt pieejama vairākām personām.
@@ -88,7 +87,7 @@ Anketas grafikam plānošanas tipu varat norādīt lapā **Anketu grafiki**.
 
 Atsauču tipus var izmantot, lai ievadītu kritērijus respondentiem, kurus varat atlasīt, kad plānojat anketu. 
 
-Izmantojiet lapu **Atsauču tipi**, lai anketai iestatītu atsauču tipus. Katrs atsauču tips atbilst tabulai programmā Microsoft Dynamics 365 Finance. Kad veidojat anketu grafikus, tabulā varat norādīt atsevišķus ierakstus vai ierakstu diapazonu, ar kuriem anketa būs saistīta. 
+Izmantojiet lapu **Atsauču tipi**, lai anketai iestatītu atsauču tipus. Katrs atsauces tips atbilst tabulai Microsoft Dynamics 365 Finanses. Kad veidojat anketu grafikus, tabulā varat norādīt atsevišķus ierakstus vai ierakstu diapazonu, ar kuriem anketa būs saistīta. 
 
 Piemēram, ja atlasāt tabulu Kursi, varat izlemt, kuram konkrētajam kursam šī anketa būs paredzēta. Kad iestatāt atsauci tabulai Kursi, lapā **Kursi** kļūst pieejami daži lauki un pogas.
 
@@ -111,10 +110,10 @@ Ja izmantojat plānoto atbilžu sesiju, jums persona ir jāinformē tieši, piem
 
 ### <a name="notifying-respondents-about-a-scheduling"></a>Respondentu informēšana par plānošanu
 
-Izmantojiet lapu **Anketu grafiki**, lai sagatavotu un nosūtītu e-pasta ziņojumus visiem anketai piešķirtajiem respondentiem. Ievadiet e-pasta tekstu uz **E-pasts darbinieku pašapkalpošanās dienestam** cilne. Kad grafiks ir sākts, noklikšķiniet uz **Funkcijas** &gt; **Sūtīt e-pastu** ģenerēt un nosūtīt e-pastu respondentiem. Pēc tam respondenti var pierakstīties vietnē un aizpildīt anketu. 
+Izmantojiet lapu **Anketu grafiki**, lai sagatavotu un nosūtītu e-pasta ziņojumus visiem anketai piešķirtajiem respondentiem. Ievadiet e-pasta tekstu cilnē **Darbinieku pašapkalpošanās e-pasts**. Kad grafiks ir startēts, noklikšķiniet uz **Funkcijas** &gt; **Sūtīt e-pastu**, lai izveidotu un nosūtītu e-pastu respondentiem. Pēc tam respondenti var pierakstīties vietnē un aizpildīt anketu. 
 
 > [!NOTE]
-> Lai varētu izmantot e-pasta funkcionalitāti, jūsu IT administratoram ir jāievada e-pasta iestatījumi **E-pasta parametri** lappuse.
+> Pirms varat izmantot e-pasta funkcionalitāti, jūsu IT administratoram ir jāievada e-pasta iestatījumi lapā E-pasta **parametri**.
 
 ## <a name="ending-a-scheduled-questionnaire"></a>Plānotas anketas beigšana
 

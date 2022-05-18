@@ -2,7 +2,7 @@
 title: Domēni programmā Dynamics 365 Commerce
 description: Šajā tēmā aprakstīts, kā domēni tiek apstrādāti pakalpojumā Microsoft Dynamics 365 Commerce.
 author: BrShoo
-ms.date: 03/17/2021
+ms.date: 05/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: bf96c47b8f5e940ffdd9241c3bdda4162a3101c42004c58c431f135f11c39d14
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aab5e983b42aea7d8eb4f198f033634d4663f278
+ms.sourcegitcommit: 7181a022739d6107a75d84546c3379c23f722034
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733995"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8737350"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domēni programmā Dynamics 365 Commerce
 
@@ -28,6 +28,9 @@ ms.locfileid: "6733995"
 Šajā tēmā aprakstīts, kā domēni tiek apstrādāti pakalpojumā Microsoft Dynamics 365 Commerce.
 
 Domēni ir tīmekļa adreses, ko izmanto, lai naviģētu uz Dynamics 365 Commerce vietnēm tīmekļa pārlūkā. Jūs kontrolējat sava domēna pārvaldību ar izvēlēto domēna nosaukuma servera (Domain Name Server - DNS) nodrošinātāju. Domēniem ir atsauces visā Dynamics 365 Commerce vietnes veidotājā, lai koordinētu, kā vietnei varēs piekļūt pēc publicēšanas. Šajā tēmā ir aplūkots, kā tiek apstrādāti domēni un kā uz tiem tiek sniegtas atsauces visā Commerce vietnes izstrādes un palaišanas cikla laikā.
+
+> [!NOTE]
+> No 2022. gada 6. maija visas izveidotās vides tiks nodrošinātas Dynamics 365 Commerce`.dynamics365commerce.ms` ar domēnu, aizvietojot iepriekšējo modeli `.commerce.dynamics.com`. Domēnā nodrošinātās esošās `.commerce.dynamics.com` vides turpinās darbu.
 
 ## <a name="provisioning-and-supported-host-names"></a>Nodrošināšana un atbalstītie resursdatoru nosaukumi
 
@@ -44,7 +47,7 @@ Varat izveidot pakalpojuma pieprasījumu, lai videi pievienotu papildu domēnus,
 
 ## <a name="commerce-generated-urls"></a>Commerce ģenerētie vietrāži URL
 
-Kad tiek nodrošināta Dynamics 365 Commerce e-komercijas vide, Commerce ģenerēs vietrādi URL, kas būs vides darba adrese. Šim vietrādim URL ir atsauce uz e-komercijas vietnes saiti, kas norādīta LCS pēc vides nodrošināšanas. Commerce ģenerētie vietrāži URL ir `https://<e-commerce tenant name>.commerce.dynamics.com`formātā , kur e-komercijas nomnieka nosaukums ir nosaukums, kas ievadīts LCS Commerce videi.
+Kad tiek nodrošināta Dynamics 365 Commerce e-komercijas vide, Commerce ģenerēs vietrādi URL, kas būs vides darba adrese. Šim vietrādim URL ir atsauce uz e-komercijas vietnes saiti, kas norādīta LCS pēc vides nodrošināšanas. Commerce ģenerētie vietrāži URL ir `https://<e-commerce tenant name>.dynamics365commerce.ms`formātā , kur e-komercijas nomnieka nosaukums ir nosaukums, kas ievadīts LCS Commerce videi.
 
 Ražošanas vietnes resursdatoru nosaukumus var izmantot arī smilškastes vidē. Šī opcija ir ideāli piemērota, ja kopēsit vietni no smilškastes vides uz ražošanu.
 
@@ -67,11 +70,11 @@ Lodziņu **Ceļš** var atstāt tukšu, vai var pievienot papildu ceļu virkni, 
 
 Piemēram, ja vietnes veidotājā ir vietne, kas saukta "fabrikam", kas atrodas e-komercijas nomniekā ar nosaukumu "xyz", un, ja iestatāt vietni ar tukšu ceļu, piekļūsiet publicētajam vietnes saturam tīmekļa pārlūkā, dodoties tieši uz pamata Commerce ģenerēto vietrādi URL:
 
-`https://xyz.commerce.dynamics.com`
+`https://xyz.dynamics365commerce.ms`
 
 Pārmaiņus, ja šīs vietnes uzstādīšanas laikā esat pievienojis ceļu “fabrikam”, publicētajam vietnes saturam var piekļūt tīmekļa pārlūkprogrammā, izmantojot šādu vietrādi URL:
 
-`https://xyz.commerce.dynamics.com/fabrikam`
+`https://xyz.dynamics365commerce.ms/fabrikam`
 
 ## <a name="pages-and-urls"></a>Lapas un vietrāži URL
 
@@ -92,16 +95,16 @@ Atbalstīto resursdatoru nosaukumu vērtības ir pieejamas, lai, iestatot vietni
 Ja strādājat ar vietnēm vietnes veidotājā, ja jums ir divas vietnes, kas iestatītas ar diviem dažādiem domēniem, varat pievienot atribūtu **?domēns=** jūsu darba vietrādim URL, lai piekļūtu publicētajai vietnes informācijai pārlūkprogrammā.
 
 Piemēram, vide "xyz" ir nodrošināta, un divas vietnes ir izveidotas un saistītas ar vietnes veidotāju: viens ar domēnu `www.fabrikam.com` un otrs ar domēnu `www.constoso.com`. Katra vietne tika iestatīta, izmantojot tukšu ceļu. Šīm divām vietnem pēc tam var piekļūt tīmekļa pārlūkprogrammā, lietojot atribūtu **?domēns=** :
-- `https://xyz.commerce.dynamics.com?domain=www.fabrikam.com`
-- `https://xyz.commerce.dynamics.com?domain=www.contoso.com`
+- `https://xyz.dynamics365commerce.ms?domain=www.fabrikam.com`
+- `https://xyz.dynamics365commerce.ms?domain=www.contoso.com`
 
-Ja domēna vaicājuma virkne netiek norādīta vidē ar vairākiem domēniem, Commerce izmanto pirmo norādīto domēnu. Piemēram, ja ceļš "fabrikam" vietas iestatīšanas laikā tika nodrošināts pirmais, vietrādi URL `https://xyz.commerce.dynamics.com` var izmantot, lai piekļūtu publicētajai vietnes satura vietnei `www.fabrikam.com`.
+Ja domēna vaicājuma virkne netiek norādīta vidē ar vairākiem domēniem, Commerce izmanto pirmo norādīto domēnu. Piemēram, ja ceļš "fabrikam" vietas iestatīšanas laikā tika nodrošināts pirmais, vietrādi URL `https://xyz.dynamics365commerce.ms` var izmantot, lai piekļūtu publicētajai vietnes satura vietnei `www.fabrikam.com`.
 
 ## <a name="traffic-forwarding-in-production"></a>Satiksmes pārsūtīšana ražošanā
 
-Varat simulēt vairākus domēnus, izmantojot domēna vaicājuma virknes parametrus pašā commerce.dynamics.com galapunktā. Bet, ja jums ir jābūt tiešraidē ražošanā, jums ir jānosūta trafiks jūsu pielāgotajam domēnam uz `<e-commerce tenant name>.commerce.dynamics.com` galapunktu.
+Varat simulēt vairākus domēnus, izmantojot domēna vaicājuma virknes parametrus pašā commerce.dynamics.com galapunktā. Bet, ja jums ir jābūt tiešraidē ražošanā, jums ir jānosūta trafiks jūsu pielāgotajam domēnam uz `<e-commerce tenant name>.dynamics365commerce.ms` galapunktu.
 
-Galapunkts `<e-commerce tenant name>.commerce.dynamics.com` neatbalsta pielāgotus domēna drošligzdu slāņus (Secure Sockets Layers - SSLs), tāpēc ir jāiestata pielāgoti domēni, izmantojot front door pakalpojumu vai satura piegādes tīklu (content delivery network - CDN). 
+Galapunkts `<e-commerce tenant name>.dynamics365commerce.ms` neatbalsta pielāgotus domēna drošligzdu slāņus (Secure Sockets Layers - SSLs), tāpēc ir jāiestata pielāgoti domēni, izmantojot front door pakalpojumu vai satura piegādes tīklu (content delivery network - CDN). 
 
 Lai iestatītu pielāgotus domēnus, izmantojot front door pakalpojumu vai CDN, ir divas opcijas:
 

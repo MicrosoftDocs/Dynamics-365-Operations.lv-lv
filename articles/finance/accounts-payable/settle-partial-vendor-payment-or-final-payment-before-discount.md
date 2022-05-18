@@ -1,6 +1,6 @@
 ---
 title: Daļēja kreditora maksājuma segšana un galīgā maksājuma segšana par pilnu summu pirms atlaides datuma
-description: Šajā rakstā ir aprakstīts scenārijs, kurā tiek veikti daļēji maksājumi pēc kreditora rēķina un tiek pielāgota termiņatlaide.
+description: Šajā tēmā ir pārlūkots scenārijs, kurā kreditora rēķinam tiek veikti daļēji maksājumi un tiek ņemta termiņatlaide.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14431
 ms.assetid: 6b8e3420-b4c9-4e02-9588-598fe6d3df0d
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 46d5025af229c9002967973a0d897708cd3d67dd7d22d887cc611c5c8213d2bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 04b00c8407ea2fd7d1e4b58db47c392989a20577
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737069"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716248"
 ---
 # <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Daļēja kreditora maksājuma segšana un galīgā maksājuma segšana par pilnu summu pirms atlaides datuma
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir aprakstīts scenārijs, kurā tiek veikti daļēji maksājumi pēc kreditora rēķina un tiek pielāgota termiņatlaide.
+Šajā tēmā ir pārlūkots scenārijs, kurā kreditora rēķinam tiek veikti daļēji maksājumi un tiek ņemta termiņatlaide.
 
 Fabrikam pērk preces no kreditora 3064. Kreditors dod Fabrikam 1 procenta termiņatlaidi, ja rēķins tiek apmaksāts 14 dienu laikā. Rēķini ir jāapmaksā 30 dienu laikā. Turklāt kreditors Fabrikam termiņatlaides ļauj saņemt arī par daļējiem maksājumiem. Nosegšanas parametri atrodas lapā **Kreditoru moduļa parametri**. 25. jūnijā Eiprila ievada rēķinu par summu 1000,00 kreditoram 3064.
 

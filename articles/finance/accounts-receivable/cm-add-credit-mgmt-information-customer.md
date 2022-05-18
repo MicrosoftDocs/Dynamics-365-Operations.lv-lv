@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschloma
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3c8584c33b4f77b6d1f5a4dc0d62208b76b3ffa3
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: d5ced2f2bc419f18431663273236d21546c5541b
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753974"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734462"
 ---
 # <a name="add-credit-management-information-for-customers"></a>Kredīta pārvaldības informācijas pievienošana debitoriem
 
@@ -32,7 +32,7 @@ Jūs varat pievienot debitora papildinformāciju kopsavilkuma cilnē **Kredīts 
 1. Iestatiet opciju **Neierobežots kredīta limits** uz **Jā**, ja debitoru nedrīkst ierobežot ar jebkādiem kredīta limita testiem.
 2. Iestatiet opciju **Izslēgt no kredīta pārvaldības** uz **Jā**, lai izslēgtu debitoru no jebkādām darbībām, kas parasti tiek veiktas kredīta pārvaldības procesos.
 3. Atlasiet debitora kredīta pārvaldības grupu.
-4. Lai aprēķinātu kredīta limitu debitora valūtā, laukā **kredīta limits debitora valūtā**, ievadiet debitora kredīta limitu. Kredīta limits uzņēmuma valūtā tiks konvertēts, izmantojot maiņas kursus, ko nosaka kredīta limita maiņas kursa tips, kas ir izvēlēts kredīta pārvaldības parametros.
+4. Lai aprēķinātu kredīta limitu debitora valūtā, laukā **kredīta limits debitora valūtā**, ievadiet debitora kredīta limitu. Kredīta limits uzņēmuma valūtā tiks konvertēts, izmantojot valūtas maiņas kursus, kas definēti ar kredīta limita maiņas kursa tipu, kas ir atlasīts kredīta **pārvaldības parametros**.
 5. Laukā **Pēdējās pārskatīšanas datums** ievadiet datumu, kad kredīta pārvaldnieks pēdējo reizi pārskatīja debitora kredīta limitu.
 6. Laukā **Nākamais plānotais pārskata datums** ievadiet datumu, kad debitoram ir paredzēta kredīta pārskatīšana un atjaunināšana.
 7. Laukā **Atbilstošais kredīta limits** ievadiet maksimālo kredīta limitu, ko var piešķirt debitoram, pamatojoties uz klienta kredīta vēstures pārskatu. Piemērotais kredīta limits var atšķirties no kredīta limita, kas ir norādīts kopsavilkuma cilnē **Kredīts un iekasēšana**.
@@ -46,7 +46,8 @@ Jūs varat pievienot debitora papildinformāciju kopsavilkuma cilnē **Kredīts 
 15. Laukā **Debitors kopš** ievadiet datumu, kad debitoram tika veiktas pirmās transakcijas. Šī informācija tiek izmantota, kad tiek izveidoti riska rādītāji.
 16. Ievadiet piezīmes, ko kredīta grupa var izmantot, lai turpinātu novērtēt klienta kredītspēju.
 
-Ņemiet vērā, ka daļu no informācijas, kas tiek rādīta lapā **Debitors**, izveido cits process.
+> [!Note] 
+> Daļu no Debitora lapā parādītās informācijas **veido** cits process:
 
 - Lauks **Kredīta limita beigu datums** parāda datumu, kad kredīta limits beigsies. Ja neiestatāt šo lauku, debitora kredīta limits nebeigsies.
 - Lauks **Kredīta limita datums** parāda datumu, kad kredīta limits tika izveidots. Šis lauks tiek atjaunināts katru reizi, kad tiek koriģēts kredīta limits.
@@ -86,7 +87,7 @@ Varat izveidot apdrošināšanas polises un garantijas visiem lapā **Visi debit
     - Polises vērtība (B) ir 50 000.
     - Procentuālā **Atjaunināt kredīta limitu** vērtība (C) ir 50,00.
     
-    Šādā gadījumā faktiskais kredīta limits ir 125 000 (= A + \[ B × C\]).
+    Šādā gadījumā faktiskais kredīta limits ir 125 000 (= A + \[B × C\]).
 
 11. Atzīmējiet izvēles rūtiņu **Iekļaut pieejamībā**, lai samazinātu kredīta limitu, kas tiek izmantots kredīta limita aprēķinos pēc pilnas polises vērtības. Ja šī izvēles rūtiņa ir atzīmēta, kredīta limita aprēķinos netiks izmantota vērtība **Atjaunināt kredīta limitu**, kas tiek aprēķināta, kad tiek norādīta atjaunināšanas kredīta limita procentuālā vērtība.
 
@@ -96,9 +97,9 @@ Varat izveidot apdrošināšanas polises un garantijas visiem lapā **Visi debit
     - Polises vērtība (B) ir 50 000.
     - Procentuālā **Atjaunināt kredīta limitu** vērtība (C) ir 50,00.
 
-    Šādā gadījumā faktiskais kredīta limits ir 125 000 (= A + \[ B × C\]).
+    Šādā gadījumā faktiskais kredīta limits ir 125 000 (= A + \[B × C\]).
     
-    Tomēr, ja atzīmējat izvēles rūtiņu **Iekļauts pieejamībā**, vērtība **Atjaunināt kredīta limitu** 50 000 (= 50,00 procenti no 100 000) tiek noņemta, un pieejamības vērtība ir 75 000 (= A + \[ B × C\] – B).
+    Tomēr, ja atzīmējat izvēles rūtiņu **Iekļauts pieejamībā**, vērtība **Atjaunināt kredīta limitu** 50 000 (= 50,00 procenti no 100 000) tiek noņemta, un pieejamības vērtība ir 75 000 (= A + \[B × C\] – B).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

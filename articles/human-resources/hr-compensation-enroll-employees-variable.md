@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMCompVarEnrollEmpl, HcmCompensationWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 49a64407778fba5669ad13f239363bffd4b0c7d6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 11f86bfa4bfcece164755bb5d86944e0bed0fff2
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071742"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8692287"
 ---
 # <a name="enroll-an-employee-in-a-variable-compensation-plan"></a>Darbinieka reģistrēšana mainīgās atlīdzības plānā
 
@@ -27,13 +26,13 @@ ms.locfileid: "8071742"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Atlīdzību un atvieglojumu vadītājs var reģistrēt darbiniekus mainīgās atlīdzības plānos, lai aprēķinātu skaidras un bezskaidras naudas piemaksas darbiniekiem. Šajā procedūrā tiek pieņemts, ka mainīgās atlīdzības plāns ir izveidots ar **Iespējot reģistrāciju** lauks iestatīts uz **Jā**, un šim mainīgās atlīdzības plānam ir izveidoti atbilstības noteikumi. USMF ir paraugdatu uzņēmums, kas tiek izmantots šīs procedūras izveidei. Lai sāktu šo procedūru, dodieties uz **Cilvēku resursi** > **Strādnieki** > **Darbinieki** > **Kompensācija** > **Mainīga plāna reģistrācija**.
+Atlīdzību un atvieglojumu vadītājs var reģistrēt darbiniekus mainīgās atlīdzības plānos, lai aprēķinātu skaidras un bezskaidras naudas piemaksas darbiniekiem. Šī procedūra pieņem, ka atlīdzības mainīgās daļas plāns ir izveidots ar iespējot reģistrācijas lauku, kas iestatīts uz Jā, un ka šim atlīdzības **mainīgās** **daļas** plānam ir izveidoti piemērotības noteikumi. USMF ir paraugdatu uzņēmums, kas tiek izmantots šīs procedūras izveidei. Lai sāktu šo procedūru, dodieties uz **sadaļu Personāla vadībaWorkersEmployeesCompensationVariable** > **·** > **·** > **·** > **plāna reģistrācija.**
 
 1. Klikšķiniet **Jauns**.
 2. Laukā **Plāns** noklikšķiniet uz nolaižamās pogas uzmeklēšanas atvēršanai.
     * Plāna meklēšana tiks filtrēta, lai parādītu tikai tos mainīgās atlīdzības plānus, uz kuriem darbinieks ir tiesīgs, pamatojoties uz iestatījumiem sadaļā Piemērotības noteikumi.  
 3. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-4. Pārslēgt paplašināšanu **Ģenerālis** sadaļā.
+4. Pārslēdziet sadaļas Vispārīgi **paplašināšana**.
 5. Laukā **Spēkā stāšanās datums** ievadiet datumu.
 6. Noklikšķiniet uz **Saglabāt**.
 7. Pārslēdziet sadaļas **Ignorē** paplašinājumu.

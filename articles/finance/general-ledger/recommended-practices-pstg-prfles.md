@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerSystemSetup, CustPosting, VendPosting, InventPosting, AssetPosting, ProjPosting, AssetLeasePostingAccounts, ProjCategory, ITMCostTypeTable, ProdGroup, WrkCtrTable, WrkCtrResourceGroup, MainAccount, SysDatabaseLogSetup, CustGroup, VendGroup, InventItemGroup
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 097d1c6d1fbe64dadc69cdb275a0aef38922036d
-ms.sourcegitcommit: 5bfd6511d710deb539b4030eb0e9c48d25513595
+ms.openlocfilehash: 211dc42b80089eb1f59a435f09d6e9d9f956736b
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8014110"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734280"
 ---
 # <a name="recommended-practices-for-posting-profiles"></a>Ieteicamā grāmatošanas metožu prakse
 
@@ -28,7 +28,7 @@ Ir vairākas ieteiktās prakses, kas jāievēro, konfigurējot grāmatošanas me
 
 ## <a name="setting-the-do-not-allow-manual-entry-flag"></a>Iestata karodziņu Atļaut manuālu ievadi
 
-Lapā Galvenie konti visiem galvenajiem kontiem, kas tiek izmantoti grāmatošanas metodei, ir jāatzīmē izvēles **rūtiņa** **Neatļaujiet** manuālu ierakstu. Šis iestatījums neļauj lietotājiem manuāli grāmatot žurnāla ierakstu galvenajā kontā. Tāpēc tas palīdz nodrošināt, ka apakšgrāmata paliek bilances attiecībā pret virsgrāmatu un palīdz atvieglotu saskaņošanas procesu.
+Lapā Galvenie **konti visiem** galvenajiem kontiem, **kas tiek** izmantoti grāmatošanas metodei, ir jāatzīmē izvēles rūtiņa Neatļaujiet manuālu ierakstu. Šis iestatījums neļauj lietotājiem manuāli grāmatot žurnāla ierakstu galvenajā kontā. Tāpēc tas palīdz nodrošināt, ka apakšgrāmata paliek bilances attiecībā pret virsgrāmatu un palīdz atvieglotu saskaņošanas procesu.
 
 Ja konta korekcijas ir nepieciešamas, ko kontrolē sistēma un kas tiek grāmatots automātiski, var izmantot vienu no šīm pieejām:
 
@@ -37,7 +37,7 @@ Ja konta korekcijas ir nepieciešamas, ko kontrolē sistēma un kas tiek grāmat
 
 ## <a name="changing-posting-profiles-after-transactions-exist"></a>Grāmatošanas metožu maiņa pēc darbību pastāv
 
-Ja maināt grāmatošanas metodi pēc transakciju izveidošanas, saskaņošana var neizdoties un jūsu apakšgrāmata un Virsgrāmata var kļūt ārpus bilances. Ieteicams ieteicams nemaināt **grāmatošanas** metodi pēc darbību izveidošanas.
+Ja maināt grāmatošanas metodi pēc transakciju izveidošanas, saskaņošana var neizdoties un jūsu apakšgrāmata un Virsgrāmata var kļūt ārpus bilances. Ieteicams ieteicams nemaināt grāmatošanas **metodi** pēc darbību izveidošanas.
 
 Ja nepieciešamas izmaiņas, izmantojiet šādas vadlīnijas, lai palīdzētu nodrošināt sistēmas integritāti:
 
@@ -58,39 +58,39 @@ Izmantojiet šo tabulu kā atsauci kopējiem tabulu nosaukumiem, kas ir saistīt
 
 | Lapas nosaukums | Navigācijas ceļš | Tabulas nosaukums |
 |-----------|-----------------|------------|
-| Kreditoru parādu parametri | Kreditoru &gt; iestatīšanas &gt; parādi kreditoriem parametri | VendParm (Francija) |
-| Kreditoru grāmatošanas metode | Kreditoru &gt; iestatīšanas &gt; kreditora grāmatošanas metode | VendPosting (Kreditorugrāmatošana) |
-| Maksas kods | Parādu &gt; kreditoriem &gt; iestatījuma Izmaksu kods vai Debitoru &gt; maksu iestatījuma izmaksu &gt; kods | Markuptable |
-| Maksāšanas veids | Kreditoru &gt; maksājumu &gt; iestatīšanas apmaksas metodes | VendPaymMode |
-| Termiņatlaides | Kreditoru maksājumu &gt; iestatīšanas &gt; termiņatlaides vai debitoru maksājumu &gt; iestatījumu &gt; termiņatlaides | Skaidras naudas norēķini |
+| Kreditoru parādu parametri | Kreditoru iestatīšanas &gt;&gt; parādi kreditoriem parametri | VendParm (Francija) |
+| Kreditoru grāmatošanas metode | Kreditoru iestatīšanas &gt; kreditora &gt; grāmatošanas metode | VendPosting (Kreditorugrāmatošana) |
+| Maksas kods | Parādu kreditoriem &gt; iestatījuma &gt; Izmaksu kods vai Debitoru maksu &gt; iestatījuma &gt; izmaksu kods | Markuptable |
+| Maksāšanas veids | Kreditoru maksājumu &gt; iestatīšanas &gt; apmaksas metodes | VendPaymMode |
+| Termiņatlaides | Kreditoru maksājumu &gt; iestatīšanas termiņatlaides &gt; vai debitoru maksājumu &gt; iestatījumu termiņatlaides &gt; | Skaidras naudas norēķini |
 | Komisijas maksājums (kreditors) | Kreditoru maksājumu &gt; iestatīšana Maksājumu &gt; apmaksas | VendPaymFee (francija) |
-| Debitoru parādu parametri | Debitoru parādu &gt;&gt; iestatīšanas debitoru moduļa parametri | CustParm (lielākā daļa) |
-| Debitoru grāmatošanas metodes | Debitoru parādu &gt; iestatīšanas &gt; debitora grāmatošanas metode | Custposting |
-| Maksāšanas veids | Debitoru maksājumu &gt;&gt; iestatīšanas maksājuma metodes | CustPaymMode |
-| Komisijas maksa (Debitors) | Debitoru maksājumu &gt;&gt; iestatīšanas maksājumu metodes | CustPaymFee |
-| Līdzekļa nomas parametri | Līdzekļu izlaižšanas &gt;&gt; iestatīšanas līdzekļu nolaižamās nolaižamās darbības parametri | AssetLeasePostingAccounts<br>AssetLeaseJournalParameters<br>AssetLeaseExecutoryCostPostingAccounts |
-| Bankas konti | Skaidras naudas un bankas &gt; vadība Bankas konti Bankas &gt; konti | Tabula BankAccountsTable |
-| Bankas darbību tipi | Skaidras naudas un bankas pārvaldības &gt;&gt; iestatīšanas bankas darbību tipi | BankTransType |
+| Debitoru parādu parametri | Debitoru parādu iestatīšanas &gt;&gt; debitoru moduļa parametri | CustParm (lielākā daļa) |
+| Debitoru grāmatošanas metodes | Debitoru parādu iestatīšanas &gt;&gt; debitora grāmatošanas metode | Custposting |
+| Maksāšanas veids | Debitoru maksājumu &gt; iestatīšanas &gt; maksājuma metodes | CustPaymMode |
+| Komisijas maksa (Debitors) | Debitoru maksājumu &gt; iestatīšanas &gt; maksājumu metodes | CustPaymFee |
+| Līdzekļa nomas parametri | Līdzekļu izlaižšanas &gt; iestatīšanas &gt; līdzekļu nolaižamās nolaižamās darbības parametri | AssetLeasePostingAccounts<br>AssetLeaseJournalParameters<br>AssetLeaseExecutoryCostPostingAccounts |
+| Banku konti | Skaidras naudas un bankas vadība &gt; Bankas konti &gt; Bankas konti | Tabula BankAccountsTable |
+| Bankas darbību tipi | Skaidras naudas un bankas pārvaldības &gt; iestatīšanas &gt; bankas darbību tipi | BankTransType |
 | Korekcijas kārtulas | Konsolidācijas iestatījumu &gt;&gt; korekcijas nosacījums | LedgerEliminationRule<br>LedgerEliminationRuleLines |
-| Izdevumu kategorijas | Avansa norēķinu &gt;&gt; iestatīšanas &gt; vispārīgās izdevumu kategorijas | ProjCategories |
+| Izdevumu kategorijas | Avansa norēķinu &gt; iestatīšanas &gt; vispārīgās &gt; izdevumu kategorijas | ProjCategories |
 | Pamatlīdzekļu parametri | Pamatlīdzekļu iestatīšanas &gt;&gt; pamatlīdzekļa parametri | Parametri AssetParameters |
-| Pamatlīdzekļu grāmatošanas metodes | Pamatlīdzekļu iestatīšanas &gt;&gt; pamatlīdzekļa grāmatošanas metodes | AssetLedgerAccounts<br>Parametri AssetDisposalParameters |
-| Valūtas pārvērtēšanas konti | Virsgrāmatas &gt; valūtas valūtas &gt; pārvērtēšanas konti | CurrencyLedgerGainLossAccount |
-| Automātisko darījumu konti | Virsgrāmatas &gt; grāmatošanas iestatījumu &gt; konti automātiskām darbībām | LedgerSystemAccounts |
-| Starpuzņēmuma uzskaite | Virsgrāmatas &gt; grāmatošanas iestatīšana &gt; Starpuzņēmuma kontiem | Virsgrāmatas starpuzņēmums |
-| Darījuma grāmatošanas definīcijas | Virsgrāmatas &gt; grāmatošanas iestatījumu &gt; darbību grāmatošanas definīcijas | Žurnāla žurnālsDefinitionTrans |
-| Grāmatošanas definīcijas | Virsgrāmatas &gt; grāmatošanas iestatījumu &gt; grāmatošanas definīcijas | JournalizingDefintion |
-| Grāmatošana (Krājumi) | Krājumu vadības iestatījumu &gt;&gt; grāmatošanas &gt; grāmatošana | Krājumupostēšana |
-| Izmaksu veida kodi | Kopējās izmaksas &gt; izmaksu iestatīšanas &gt; izmaksu veidu kodi | ItmCostTypeTable |
-| Resursi | Ražošanas kontroles &gt;&gt; iestatīšanas resursu &gt; resursi | Wrkctrtable |
-| Resursu grupas | Ražošanas kontroles &gt;&gt; iestatīšanas &gt; resursu resursu grupas | WrkCtrResourceGroup; |
-| Ražošanas uzdevumu grupas | Ražošanas kontroles &gt;&gt; iestatīšanas ražošanas &gt; uzdevumu grupa | ProdGroup datu grupa |
-| Izmaksu kategorijas | Ražošanas kontroles &gt;&gt; iestatīšanas maršrutu &gt; izmaksu kategorijas | ProjCategory |
-| Projektu grupas | Projektu vadības un uzskaites iestatījumu &gt;&gt; grāmatošanas &gt; projektu grupas | ProjGroup (grupa) |
-| Grāmatošanas iestatījumi Virsgrāmatā (projekti) | Projektu vadības un uzskaites iestatījumu &gt;&gt; grāmatošanas &gt; Virsgrāmatas grāmatošanas iestatījumi | ProjPosting |
-| Noklusētais korespondējošais izmaksu konts | Projektu vadības un uzskaites iestatījumu &gt;&gt; grāmatošanas &gt; noklusējuma korespondējošie konti izdevumiem | ProjDefaultOffsetSetup |
-| Atlaižu pārvaldības grāmatošanas metodes | Atlaižu pārvaldības &gt; atlaižu pārvaldības grāmatošanas iestatījumu &gt; atlaižu pārvaldības grāmatošanas profili | TAMRebatePosting<a2/& |
-| Virsgrāmatas grāmatošanas grupa (nodoklis) | Pvn &gt; iestatījumu PVN Virsgrāmatas &gt;&gt; grāmatošanas grupa | Grupa TaxAccountGroup |
+| Pamatlīdzekļu grāmatošanas metodes | Pamatlīdzekļu iestatīšanas &gt; pamatlīdzekļa &gt; grāmatošanas metodes | AssetLedgerAccounts<br>Parametri AssetDisposalParameters |
+| Valūtas pārvērtēšanas konti | Virsgrāmatas valūtas &gt; valūtas pārvērtēšanas &gt; konti | CurrencyLedgerGainLossAccount |
+| Automātisko darījumu konti | Virsgrāmatas grāmatošanas &gt; iestatījumu &gt; konti automātiskām darbībām | LedgerSystemAccounts |
+| Starpuzņēmuma uzskaite | Virsgrāmatas grāmatošanas &gt; iestatīšana &gt; Starpuzņēmuma kontiem | Virsgrāmatas starpuzņēmums |
+| Darījuma grāmatošanas definīcijas | Virsgrāmatas grāmatošanas &gt; iestatījumu &gt; darbību grāmatošanas definīcijas | Žurnāla žurnālsDefinitionTrans |
+| Grāmatošanas definīcijas | Virsgrāmatas grāmatošanas &gt; iestatījumu &gt; grāmatošanas definīcijas | JournalizingDefintion |
+| Grāmatošana (Krājumi) | Krājumu vadības iestatījumu &gt; grāmatošanas &gt;&gt; grāmatošana | Krājumupostēšana |
+| Izmaksu veida kodi | Kopējās izmaksas izmaksu &gt; iestatīšanas izmaksu &gt; veidu kodi | ItmCostTypeTable |
+| Resursi | Ražošanas kontroles iestatīšanas &gt;&gt; resursu &gt; resursi | Wrkctrtable |
+| Resursu grupas | Ražošanas kontroles &gt; iestatīšanas &gt; resursu &gt; resursu grupas | WrkCtrResourceGroup; |
+| Ražošanas uzdevumu grupas | Ražošanas kontroles &gt; iestatīšanas &gt; ražošanas &gt; uzdevumu grupa | ProdGroup datu grupa |
+| Izmaksu kategorijas | Ražošanas kontroles iestatīšanas &gt;&gt; maršrutu &gt; izmaksu kategorijas | ProjCategory |
+| Projektu grupas | Projektu vadības un uzskaites iestatījumu &gt; grāmatošanas &gt;&gt; projektu grupas | ProjGroup (grupa) |
+| Grāmatošanas iestatījumi Virsgrāmatā (projekti) | Projektu vadības un uzskaites iestatījumu &gt; grāmatošanas &gt; Virsgrāmatas &gt; grāmatošanas iestatījumi | ProjPosting |
+| Noklusētais korespondējošais izmaksu konts | Projektu vadības un uzskaites iestatījumu grāmatošanas &gt;&gt; noklusējuma &gt; korespondējošie konti izdevumiem | ProjDefaultOffsetSetup |
+| Atlaižu pārvaldības grāmatošanas profili | Atlaižu pārvaldības &gt; atlaižu pārvaldības grāmatošanas iestatījumu &gt; atlaižu pārvaldības grāmatošanas profili | TAMRebatePosting<a2/& |
+| Virsgrāmatas grāmatošanas grupa (nodoklis) | Pvn &gt; iestatījumu &gt; PVN Virsgrāmatas &gt; grāmatošanas grupa | Grupa TaxAccountGroup |
 
 ## <a name="changing-groups-after-transactions-exist"></a>Grupas tiek mainītas pēc darbību pastāv.
 
@@ -109,12 +109,12 @@ Piemēram, jums ir divas debitora grāmatošanas metodes, no kurām katrai ir tr
 
 ### <a name="testing-scenarios"></a>Testēšanas scenāriji
 
-- Brīva teksta rēķins debitoram darbinieku **grupā**, kas izmanto **GEN** grāmatošanas metodi
-- Brīva teksta rēķins debitoram darbinieku **grupā**, kas izmanto **pirmsgrāmatošanas** metodi
-- Pārdošanas pasūtījuma rēķins debitoram darbinieku **grupā**, kas izmanto **ĢN** grāmatošanas metodi
-- Pārdošanas pasūtījuma rēķins debitoram darbinieku **grupā**, kas izmanto **PIRMSgrāmatošanas** metodi
-- Debitoru maksājumu žurnāls debitoram darbinieku **grupā**, kas izmanto ĢN **grāmatošanas** metodi
-- Debitoru maksājumu žurnāls debitoram darbinieku **grupā**, kas izmanto **pirmsgrāmatošanas** metodi
+- Brīva teksta rēķins debitoram darbinieku grupā **,** kas izmanto GEN grāmatošanas **metodi**
+- Brīva teksta rēķins debitoram darbinieku grupā **,** kas izmanto pirmsgrāmatošanas **metodi**
+- Pārdošanas pasūtījuma rēķins debitoram darbinieku grupā **,** kas izmanto ĢN **grāmatošanas** metodi
+- Pārdošanas pasūtījuma rēķins debitoram darbinieku grupā **,** kas izmanto PIRMSgrāmatošanas **metodi**
+- Debitoru maksājumu žurnāls debitoram darbinieku grupā **, kas izmanto ĢN grāmatošanas** **metodi**
+- Debitoru maksājumu žurnāls debitoram darbinieku grupā **, kas izmanto pirmsgrāmatošanas** **metodi**
 
 Iepriekš minētajiem piemēriem atkārtojiet vienu testēšanas scenāriju katrai debitoru grupai un atkārtojiet katru testēšanas scenāriju grupu katram papildu darbības tipam (piemēram, projekta rēķiniem un pakalpojumu pārvaldībai).
 

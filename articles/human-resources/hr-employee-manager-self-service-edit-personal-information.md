@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMParameters, EssWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e798646263b9939445f49a3866532cd229c668cd
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: d7e78873d0995334ac80ac22e8058b7fe0bc31ac
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071721"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686127"
 ---
 # <a name="edit-personal-information"></a>Rediģēt personas informāciju
 
@@ -72,7 +71,7 @@ Parametri, kas iestatīti lapā **Globālās adrešu grāmatas parametri**, nosa
     - Lai pievienotu identifikācijas numuru, atlasiet **Jauns**. Pēc nepieciešamības aizpildiet laukus un atlasiet **Saglabāt**.
     - Lai rediģētu numuru, atlasiet **Rediģēt**. Pēc nepieciešamības rediģējiet laukus un atlasiet **Saglabāt**.
 
-7. Lai mainītu maksāšanas veidus, atlasiet **cilni Mana maksājuma informācija** . Šī cilne ir pieejama tikai tad, ja maksājumu metodes ir iespējotas **lapā Personāla vadības parametri**. HR var iespējot opcijas **Bankas čeks**, **Skaidrā naudā**, **Čeks**, **Elektronisks maksājums** vai **Cits**. HR var arī deaktivizēt elektronisko maksājumu validāciju (izmanto izmaksai ASV) un bankas kontu un maršrutēšanas numura pārbaudi.
+7. Lai mainītu metodes, pēc kurām maksājat, atlasiet cilni **Mana maksājuma** informācija. Šī cilne ir pieejama tikai tad, ja maksājuma metodes ir iespējotas **lapā Personāla vadības** parametri. HR var iespējot opcijas **Bankas čeks**, **Skaidrā naudā**, **Čeks**, **Elektronisks maksājums** vai **Cits**. HR var arī deaktivizēt elektronisko maksājumu validāciju (izmanto izmaksai ASV) un bankas kontu un maršrutēšanas numura pārbaudi.
 
 8. Lai mainītu attēlu, kas tiek parādīts Human Resources profilā, atlasiet cilni **Attēls**. Atkarībā no organizācijas iestatījumiem, iespējams, attēli tiks maršrutēti apstiprināšanai.
 

@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxReportCollection
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b7d12ffa90bde30518780d750e74d20db89f007044f8622480b8bd6e629e00dd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ff5a5622fa63b6058b9e768f1fd1bc776a48962
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728749"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734844"
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a>Iestatīt PVN pārskatu kodus
 
 [!include [banner](../../includes/banner.md)]
 
-PVN pārskatu kodi attiecas uz lauka numuru, kas norādīts PVN pārskatā. Tie tiek izmantoti konkrētu valstu pārskata izkārtojumos. Tie tiek izmantoti arī PVN maksājumā pēc koda pārskata. Šis pārskats rāda PVN summas segšanas periodam, kas apkopotas katram pārskata kodam. Kad esat izveidojis PVN pārskata kodus, varat uz šiem kodiem atsaukties Pārskatu iestatīšanas kopsavilkuma cilnēs, kurām varat piekļūt lapā **PVN kods**. 
+PVN **pārskata kodi** attiecas uz lauka numuru, kas ir uzskaitīts PVN pārskatā. Tie tiek izmantoti konkrētu valstu pārskata izkārtojumos. Tie tiek izmantoti arī PVN maksājumā pēc koda pārskata. Šis pārskats rāda PVN summas segšanas periodam, kas apkopotas katram pārskata kodam. Pēc PVN **pārskata kodu izveidošanas** jūs **varat** atsaukties uz šiem kodiem pārskatu iestatījumu kopsavilkuma cilnēs, kurām varat piekļūt no **PVN kodu** lapas. 
 
 Šis paraugs izmanto DEMF demonstrācijas uzņēmumu.
 

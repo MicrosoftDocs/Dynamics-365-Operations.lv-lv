@@ -1,7 +1,7 @@
 ---
 title: Kreditoru sadarbības iestatīšana un uzturēšana
 description: Šajā tēmā ir izskaidrots, kā iestatīt piegādātāju sadarbību Dynamics 365 Supply Chain Management. Tajā skaidrots arī, kā nodrošināt jaunus piegādātāju sadarbības lietotājus un pārvaldīt šo lietotāju drošības lomas.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 12/03/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 220774
 ms.assetid: 69d05e8b-7dc2-48ea-bc24-bea9ac963579
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b635255fffa6fd3c6612cd248dc692df204aa76d
-ms.sourcegitcommit: 614d79cba238e466d445767a7d0a012e785a9861
+ms.openlocfilehash: 4b59513d86426d3c1bfd759b9aabc331e58d5423
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7652041"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677567"
 ---
 # <a name="set-up-and-maintain-vendor-collaboration"></a>Kreditoru sadarbības iestatīšana un uzturēšana
 
@@ -31,7 +31,7 @@ Kreditoru sadarbības interfeiss sniedz ierobežotu informācijas kopumu par ār
 Šajā tēmā ir izskaidrots, kā iestatīt piegādātāju sadarbību Dynamics 365 Supply Chain Management. Tajā skaidrots arī, kā iestatīt darbplūsmu tā, lai tā nodrošinātu jaunus piegādātāja sadarbības lietotājus un kā pārvaldīt šo lietotāju drošības lomas.
 
 > [!NOTE]
-> Informācija par drošības lomu iestatījumiem piegādātāju sadarbībai attiecas tikai uz pašreizējo sistēmas Finance and Operations versiju. Programmā Microsoft Dynamics AX 7.0 (2016. gada februāris) un Microsoft Dynamics AX programmas versijā 7.0.1 (2016. gada maijs) jūs ar kreditoriem sadarbojaties, izmantojot moduli **Kreditoru portāls**. Papildinformāciju par lietotāju atļaujām Piegādātāju portālam Microsoft Dynamics AX skatiet sadaļā [Piegādātāju portāla lietotāja drošība](configure-security-vendor-portal-users.md).
+> Informācija par drošības lomu iestatīšanu kreditoru sadarbībasm attiecas tikai uz pašreizējo Finanšu un operāciju versiju. Programmā Microsoft Dynamics AX 7.0 (2016. gada februāris) un Microsoft Dynamics AX programmas versijā 7.0.1 (2016. gada maijs) jūs ar kreditoriem sadarbojaties, izmantojot moduli **Kreditoru portāls**. Papildinformāciju par lietotāju atļaujām Piegādātāju portālam Microsoft Dynamics AX skatiet sadaļā [Piegādātāju portāla lietotāja drošība](configure-security-vendor-portal-users.md).
 
 ## <a name="set-up-vendor-collaboration-security-roles"></a>Piegādātāju sadarbības drošības lomu iestatīšana
 

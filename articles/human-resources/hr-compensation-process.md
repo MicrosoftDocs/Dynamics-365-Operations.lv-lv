@@ -7,19 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 7c72f866886f320d8a7fa22d6ccfa7e43284b5bf
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e4aa910d92c2905d54d96f656e1d3d1c36388636
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071743"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8693869"
 ---
 # <a name="process-compensation"></a>Atlīdzības apstrāde
 
@@ -44,7 +43,7 @@ Pēc apstrādes notikuma parametru saglabāšanas varat noklikšķināt uz pogas
 
 Noklikšķiniet uz pogas **Pievienot** cilnē **Sistēmas**, lai apstrādes notikumam pievienotu atlīdzības sistēmu. Kolonnas **Izmantot citus līdzekļus**, **Līdzekļu faktors** un **Līdzekļu apraksts** tiek izmantotas tikai mainīgās atlīdzības sistēmām un nav aplūkotas šajā tēmā.
 
-Saglabājiet ierakstu un pēc tam noklikšķiniet uz pogas **Pievienot** cilnē **Darbības**, lai atlasītajai sistēmai pievienotu fiksētās atlīdzības darbības. Izmantojiet opciju **Iespējot ieteikumus**, lai ievadītu summu, kas atšķiras no darbībai aprēķinātā algas palielinājuma. Lai aprēķinātu darbību, kas balstīta iepriekšējās darbības rezultātā, lai saistītu vairākas atlīdzību darbības, atzīmējiet opciju **Lietot iepriekšējo rezultātu**. Fiksētās atlīdzību darbības ir atlīdzību loģikas veidi, kuriem varat piešķirt aprakstoŠis nosaukumus. Kategoriju **un** **grupu** plāniem var pievienot tikai tās fiksētās atlīdzības darbības, kuru tips ir šāds:
+Saglabājiet ierakstu un pēc tam noklikšķiniet uz pogas **Pievienot** cilnē **Darbības**, lai atlasītajai sistēmai pievienotu fiksētās atlīdzības darbības. Izmantojiet opciju **Iespējot ieteikumus**, lai ievadītu summu, kas atšķiras no darbībai aprēķinātā algas palielinājuma. Lai aprēķinātu darbību, kas balstīta iepriekšējās darbības rezultātā, lai saistītu vairākas atlīdzību darbības, atzīmējiet opciju **Lietot iepriekšējo rezultātu**. Fiksētās atlīdzību darbības ir atlīdzību loģikas veidi, kuriem varat piešķirt aprakstoŠis nosaukumus. Kategoriju **un** joslu **plāniem** varat pievienot tikai fiksētās atlīdzības darbības, kas ir no šiem tipiem:
 
 | Fiksētās atlīdzības darbības veids | Funkcionalitāte                  |
 |-------------------------------|-------------------------------------------------------------------------|
@@ -61,7 +60,7 @@ Pakāpju sistēmai var pievienot tikai sadaļas **Fiksēta atlīdzība** darbīb
 | Solis                           | Cilnē **Vispārīgi** norādiet, vai šai darbībai jāpārvieto darbiniek uz priekšu par nulle darbībām, vienu darbību vai divām darbībām.                                                                                  |
 |                                | **Nulle darbības** — darbinieks saņems pašreizējas darbības algas likmi.                                                                                                                      |
 |                                | **Viena darbība** — sistēma pārbauda, vai darbinieks jau ir sava līmeņa pēdējā atsauces punktā.                                                                                             |
-|                                | **2 soļi** - Darbinieks virzīsies uz priekšu divus soļus pašreizējā līmenī. Darbinieks var veikt tikai vienu vai nulles soli, ja sasniedz pēdējo atskaites punktu savam līmenim. |
+|                                | **2 soļi** – darbinieks savā pašreizējā līmenī pārvietosies uz priekšu divus soļus. Darbinieks var pārvietot tikai vienu vai nulles darbības, ja viņi savā līmenī sasniedz pēdējo atsauces punktu. |
 
 ## <a name="run-the-compensation-process"></a>Atlīdzības procesa palaišana
 Kad apstrādes notikumam ir iestatīti nepieciešamie datumu lauki, sistēmas un darbības, lapā **Apstrādes notikums** varat noklikšķināt uz **Palaist procesu**, tādējādi tiks atvērts dialoglodziņš **Palaist atlīdzību procesa notikumus**. Noklikšķiniet uz opcijas **Rādīt pārstrādes rezultātus**, lai skatītu, kā atlīdzības summas tika aprēķinātas katram darbiniekam. Noklikšķinot uz **Labi**, tiks palaists atlīdzības process visiem darbiniekiem, kuri atlasītajos atlīdzības plānos ir no cikla beigu datumam.

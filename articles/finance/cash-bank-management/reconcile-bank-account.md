@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e06a38a19a16a07d77d0c9aceaa4e3206646dd0561996681b417b785058f3938
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 75e5eb82686a0c124694ad349978f9c32482012b
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739363"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727655"
 ---
 # <a name="reconcile-a-bank-account"></a>Bankas konta saskaņošana
 
@@ -35,7 +35,7 @@ Jūs nevarat saskaņot bankas konta pārskatu ar bankas kontu, ja jebkuriem pār
 
 3.  Atlasiet **Transakcijas**, lai atvērtu lapu **Kontu saskaņošana**.
 
-4.  Katrai bankas konta pārskatā iekļautai transakcijai, atlasiet izvēles rūtiņu **Dzēsts**, ja summa programmā Dynamics 365 Finance atbilst summai bankas konta pārskatā. Varat arī ievadīt vai mainīt vērtību laukā **Bankas transakcijas veids**. Šī lauka vērtība ir svarīga jūsu bankas konta statistikai un dažiem pārskatiem.
+4.  Katrai bankas izrakstā iekļautai darbībai atzīmējiet izvēles rūtiņu Dzēsts, **ja** summa programmā Dynamics 365 Finanses atbilst bankas izraksta summai. Varat arī ievadīt vai mainīt vērtību laukā **Bankas transakcijas veids**. Šī lauka vērtība ir svarīga jūsu bankas konta statistikai un dažiem pārskatiem.
     
 
     > [!NOTE]

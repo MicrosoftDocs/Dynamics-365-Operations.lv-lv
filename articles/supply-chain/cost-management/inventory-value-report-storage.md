@@ -1,110 +1,110 @@
 ---
 title: Krājumu vērtības pārskati
-description: Šajā tēmā ir paskaidrots, kā iestatīt, ģenerēt un izmantot krājumu vērtību pārskatus. Šajās atskaitēs ir sniegta detalizēta informācija par krājumu fiziskajiem un finanšu daudzumiem un summām.
-author: banluo-ms
+description: Šajā tēmā skaidrots, kā iestatīt, ģenerēt un izmantot krājumu vērtību pārskatus. Šie pārskati sniedz detalizētu informāciju par jūsu krājumu fiziskajiem un finanšu daudzumiem un summām.
+author: JennySong-SH
 ms.date: 10/19/2021
 ms.topic: article
 ms.search.form: InventValueProcess, InventValueReportSetup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: banluo
+ms.author: yanansong
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: d78cde26d238d18744adde9a576552588736e619
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 4f710ff308bac42a284cd506143dd0ae21ff2ec7
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384699"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8676164"
 ---
 # <a name="inventory-value-reports"></a>Krājumu vērtības pārskati
 
 [!include [banner](../includes/banner.md)]
 
-Krājumu vērtību pārskatos ir sniegta detalizēta informācija par krājumu fiziskajiem un finanšu daudzumiem un summām. Atskaites var skatīt dažādos veidos. Piemēram, var parādīt kopsummas vai transakcijas vai filtrēt pēc precēm vai laika diapazona. Varat skatīt pārdoto preču (COGS) vērtību izmaksas vai nepabeigtās ražošanas (NP) vērtības un iestatīt citas opcijas.
+Krājumu vērtību pārskati sniedz detalizētu informāciju par jūsu krājumu fiziskajiem un finanšu daudzumiem un summām. Pārskatus var skatīt daudzos dažādos veidos. Piemēram, var rādīt kopsummas vai darbības, vai filtrēt pēc krājumiem vai laika diapazona. Varat apskatīt pārdoto preču izmaksu (COGS) vērtības vai nepabeigtā darba (NP) vērtības un iestatīt citas opcijas.
 
-Krājumu vērtību atskaites ļauj veikt šādus uzdevumus:
+Krājumu vērtības pārskati ļauj veikt šādus uzdevumus:
 
-- Veiciet saskaņošanu starp virsgrāmatu un krājumiem.
-- Skatiet rīcībā esošos krājumus un vērtības noteiktā periodā.
-- Izveidot pārskatu konfigurācijas, kas pielāgotas noteiktam mērķim.
-- Saglabājiet pārskatu konfigurācijas, lai tās varētu izmantot vairākas reizes.
-- Pievienojiet diapazonus datu filtrēšanai, palaižot atskaiti.
+- Veikt saskaņošanu starp Virsgrāmatu un krājumiem.
+- Konsultējieties ar rīcībā esošiem krājumiem un vērtībām noteiktā periodā.
+- Izveidojiet pārskata konfigurācijas, kas ir pielāgoti noteiktam nolūkam.
+- Saglabāt pārskatu konfigurācijas, lai tās varētu izmantot vairākas reizes.
+- Pievienojiet diapazonus, lai filtrētu datus, kad palaižat pārskatu.
 
 ## <a name="types-of-inventory-value-report"></a>Krājumu vērtības pārskata tipi
 
-Ir divu veidu krājumu vērtības pārskats: **krājumu vērtība** (standarta pārskats) un **Krājumu vērtības pārskata krātuve**.
+Ir divu veidu krājumu vērtības pārskats: krājumu **vērtība** (standarta pārskats) un krājumu **vērtības pārskatu krātuve**.
 
 ### <a name="standard-inventory-value-report"></a>Standarta krājumu vērtības pārskats
 
-Standarta **krājumu vērtības** atskaite ir vienkārša atskaite, kas ļauj atlasīt iekļauto informāciju un pēc tam parāda šo informāciju ekrānā. Tas nesaglabā rezultātus. Tas nenodrošina arī interaktīvas funkcijas filtrēšanai, rakšanai, pārlūkošanai vai eksportēšanai. Šo iemeslu dēļ vairumā gadījumu ieteicams izmantot pārskatu par **krājumu vērtību krātuvi**.
+Standarta krājumu **vērtības pārskats** ir vienkāršs pārskats, kas ļauj atlasīt informāciju, kas ir iekļauta un pēc tam parāda šo informāciju ekrānā. Rezultāti netiek saglabāta. Tajā nav nodrošināti interaktīvi līdzekļi filtrēšanai, rakšanās, pārlūkošanai vai eksportēšanai. Šo iemeslu dēļ ieteicams izmantot krājumu vērtības pārskata **glabāšanas pārskatu** lielākajā daļā gadījumu.
 
 ### <a name="inventory-value-report-storage-report"></a>Krājumu vērtības pārskata glabāšanas pārskats
 
-Krājumu vērtības atskaites krātuves **atskaite** nodrošina izvadi kā interaktīvu lapu programmā Microsoft Dynamics 365 Supply Chain Management vai kā eksportētu dokumentu vienā no vairākiem formātiem.
+Krājumu **vērtības pārskata glabāšanas pārskats** nodrošina izvadi kā interaktīvu lapu programmā Microsoft Dynamics 365 Supply Chain Management vai kā eksportētu dokumentu vienā no vairākiem formātiem.
 
 Skatot pārskatu pārlūkā, kolonnas un uzkrātās bilances tiek dinamiski pielāgotas atkarībā no jūsu konfigurētā izkārtojuma. Varat sakārtot rezultātus, filtrēt tos, detalizēt datus un veikts citas darbības.
 
 Pārskata rezultāti tiek uzglabāti **Krājumu vērtības** datu elementā. Tāpēc varat filtrēt un eksportēt rezultātus formātā, piemēram, ar komatu atdalītas vērtības (CSV) vai Microsoft Excel formātā.
 
-Krājumu **vērtību pārskata krātuves** atskaite ir noderīga, ja izvadē ir daudz rindu. Piemēram, jums ir 50 000 krājumi, un 300 veikali ir izveidoti kā noliktavas. Šādā gadījumā, ja pieprasāt krājumu beigu bilances pēc krājuma, vietas un noliktavas, rezultāti saturēs daudz rindu.
+Krājumu **vērtības pārskata glabāšanas pārskats ir** noderīgs, kad izvadei ir vairākas rindas. Piemēram, jums ir 50 000 krājumi, un 300 veikali ir izveidoti kā noliktavas. Šādā gadījumā, ja pieprasāt krājumu beigu bilances pēc krājuma, vietas un noliktavas, rezultāti saturēs daudz rindu.
 
 > [!NOTE]
-> Krājumu **vērtību pārskata krātuves** atskaitē nav iekļautas starpsummas, kas ir definētas atskaites izkārtojumā. Tajā nav iekļautas arī Virsgrāmatas bilances, pat ja šīs bilances ir definētas pārskata izkārtojumā. Saskaņošana ar virsgrāmatu ir jāveic, izmantojot apgrozījuma bilances. Tomēr standarta **krājumu vērtības** pārskatā ir iekļautas šīs starpsummas un bilances.
+> Pārskatā **Krājumu vērtību pārskatā nav** ietvertas apakšsummas, kas ir definētas pārskata izkārtojumā. Tajā nav ietvertas arī virsgrāmatas bilances, pat ja šīs bilances ir definētas pārskata izkārtojumā. Saskaņošana ar virsgrāmatu ir jāveic, izmantojot apgrozījuma bilances. Tomēr standarta pārskatā Krājumu vērtība **iekļauti** šīs apakšsummas un bilances.
 
-## <a name="turn-the-inventory-value-report-storage-feature-on-or-off"></a>Krājumu vērtības pārskata krātuves līdzekļa ieslēgšana vai izslēgšana
+## <a name="turn-the-inventory-value-report-storage-feature-on-or-off"></a>Ieslēgt vai izslēgt krājumu vērtības pārskata glabāšanas līdzekli
 
-Piegādes ķēdes pārvaldības versijā 10.0.25 šis līdzeklis pēc noklusējuma ir ieslēgts. Administratori var ieslēgt vai izslēgt šo funkcionalitāti, līdzekļu pārvaldības *darbvietā meklējot* krājumu vērtības atskaites krātuves [līdzekli](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+No Piegādes ķēdes pārvaldības versijas 10.0.25 šī funkcija ir ieslēgta pēc noklusējuma. Administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot krājumu *vērtības pārskata glabāšanas līdzekli* līdzekļu [pārvaldības darbvietā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-## <a name="define-inventory-value-report-configurations"></a><a name="report-configuration"></a> Definēt krājumu vērtību pārskata konfigurācijas
+## <a name="define-inventory-value-report-configurations"></a><a name="report-configuration"></a> Definēt krājumu vērtības pārskata konfigurācijas
 
-**Izmantojiet lapu Krājumu vērtību pārskati**, lai iestatītu saturu, kas iekļauts dažādu tipu krājumu vērtību pārskatā. Var definēt jebkuru pārskatu tipu skaitu. Ikreiz, kad ģenerējat jebkura tipa krājumu vērtības pārskatu, tiks atlasīts atskaites tips.
+Izmantojiet lapu **Krājumu vērtības pārskati**, lai iestatītu saturu, kas ir iekļauts dažādu veidu krājumu vērtības pārskatā. Varat definēt jebkādu pārskatu tipu skaitu. Katru reizi, kad ģenerēsiet krājumu vērtības pārskata tipu, jūs atlasīsiet pārskata tipu.
 
-1. Dodieties uz **Izmaksu pārvaldības \> krājumu uzskaites politiku iestatījumi \> Krājumu vērtību pārskati**.
+1. Dodieties uz **Izmaksu pārvaldības \> krājumu uzskaites politiku iestatījums \> Krājumu vērtību pārskati**.
 1. Izpildiet kādu no šīm darbībām:
 
-    - Lai rediģētu esošu atskaiti, atlasiet to saraksta rūtī un pēc tam darbību rūtī atlasiet **Rediģēt**.
-    - Lai izveidotu jaunu atskaiti, darbību rūtī atlasiet **Jauns**.
+    - Lai rediģētu esošu pārskatu, atlasiet to saraksta rūtī un pēc tam atlasiet **Rediģēt** darbību rūtī.
+    - Lai izveidotu jaunu pārskatu, **darbību rūtī** atlasiet Jauns.
 
-1. Jaunās vai atlasītās atskaites galvenē iestatiet šādus laukus:
+1. Jaunā vai atlasītā pārskata virsrakstā iestatiet šādus laukus:
 
-    - **ID** – ievadiet īsu atskaites identifikatoru. Šai vērtībai jābūt unikālai starp visām krājumu vērtību pārskatu konfigurācijām. Pēc jaunas konfigurācijas saglabāšanas to nevar rediģēt.
-    - **Nosaukums** – ievadiet aprakstošu atskaites nosaukumu.
+    - **ID** – ievadiet īsu pārskata identifikatoru. Šai vērtībai ir jābūt unikālai starp visām krājumu vērtības pārskata konfigurācijām. Pēc jaunas konfigurācijas saglabāšanas to nevar rediģēt.
+    - **Nosaukums** – ievadiet pārskata aprakstošo nosaukumu.
 
-1. Ja veidojat jaunu atskaišu konfigurāciju, darbību rūtī atlasiet **Saglabāt**, lai padarītu pieejamus atlikušos laukus.
+1. Ja veidojat jaunu pārskata konfigurāciju, darbību rūtī atlasiet **Saglabāt**, lai padarītu atlikušos laukus pieejamus.
 1. Kopsavilkuma cilnē **Vispārīgi**, iestatiet tālāk minētos laukus:
 
-    - **Datumu intervāls** – atlasiet iepriekš definētu datumu intervālu. Palaižot atskaiti, šo datumu intervālu var ignorēt.
-    - **Diapazons** – atlasiet *Grāmatošanas datums* vai *Transakcijas laiks* atkarībā no datuma un laika, kas jāizmanto, kad ieraksti tiek izgūti atskaitei.
-    - **Dimensiju kopa** — atlasiet dimensiju kopu, kurai palaist datus. (Dimensijas ir definētas Virsgrāmatā.) Piemēram, varat palaist datus galvenajam *kontam vai galvenajam kontam + struktūrvienībai* *.* Atlasītajai dimensiju kopai nedrīkst būt vairāk par divām dimensijām. Plašāku informāciju skatiet [Financial dimension sets](../../finance/general-ledger/financial-dimension-sets.md).
+    - **Datumu intervāls** – izvēlieties iepriekš definētu datumu intervālu. Pārskatu palaižot, šo datumu intervālu var ignorēt.
+    - **Diapazons** – atlasiet grāmatošanas *datumu* *vai* darbības laiku atkarībā no datuma un laika, kas jālieto, kad pārskatam tiek izgūti ieraksti.
+    - **Dimensiju** kopa – izvēlieties dimensiju kopu, kuras datus palaist. (Dimensijas ir definētas Virsgrāmatā.) Piemēram, varat darbināt datus galvenajam kontam *vai galvenajam* kontam *+ biznesa vienībai*. Jūsu atlasāmā dimensiju kopa nedrīkst būt lielāka par divām dimensijām. Papildinformāciju skatiet finanšu [dimensiju kopās](../../finance/general-ledger/financial-dimension-sets.md).
 
-1. Kopsavilkuma cilnē **Kolonnas** iestatiet šādus laukus. Šie lauki kontrolē atskaitē iekļautās kolonnas un šo kolonnu datu tipus.
+1. Kopsavilkuma cilnē **Kolonnas** iestatiet šādus laukus. Šie lauki kontrolē kolonnas, ko ietver jūsu pārskats, un šo kolonnu datu tipus.
 
-    - **Krājumi** – iestatiet šo opciju uz *Jā*, lai parādītu krājumu vērtības. Pēc tam šīs vērtības var saskaņot ar Virsgrāmatas kontu bilancēm.
-    - **DIS** – iestatiet šo opciju uz *Jā*, lai parādītu DIS vērtības. Pēc tam šīs vērtības var saskaņot ar NP kontu bilancēm virsgrāmatā. Iestatot šo opciju uz *Jā*, atskaitē tiek parādīti tikai fiziskie daudzumi un krājumu summas, kurām ir NP statuss. Ražošanas pasūtījumi, kuriem ir NP statuss, ir izdoti vai pabeigti, bet tie nav pabeigti.
-    - **Atliktā PPPE** — iestatiet šo opciju uz *Jā*, lai parādītu kolonnu, kas parāda atlikto COGS krājumu fiziskos daudzumus un daudzumus. Atlikto COGS parāda, izmantojot fiziskos daudzumus un daudzumus, jo tas kompensē pavadzīmju daudzumus un daudzumus.
-    - **PPPI** — iestatiet šo opciju uz *Jā*, lai parādītu kolonnu, kas parāda PPP finanšu daudzumus un summas. COGS tiek parādīts, izmantojot finanšu daudzumus un summas, jo tas kompensē rēķinu daudzumus un summas.
-    - **Peļņa un zaudējumi** – iestatiet šo opciju uz *Jā*, lai parādītu kolonnu, kurā parādīta finanšu summa, kas iegrāmatota krājumu peļņas un zaudējumu kontos.
-    - **Drukāt salīdzināšanai** kumulatīvās kontu vērtības — iestatiet šo opciju uz *Jā*, lai parādītu kolonnu, kas parāda virsgrāmatas konta bilanci. Tādā veidā jums nebūs jāpārbauda taku bilance. Šī opcija darbojas tikai ar standarta **krājumu vērtības** pārskatu, nevis ar **krājumu vērtības pārskata glabāšanas** pārskatu. Pēc šīs opcijas iestatīšanas uz *Jā*, ir jāizmanto šādi lauki, lai norādītu katru virsgrāmatas kontu, kuru vēlaties uzskaitīt, atkarībā no iespējotajām **finanšu stāvokļa** opcijām.
+    - **Krājumi** – iestatiet šo opciju kā Jā *,* lai parādītu krājumu vērtības. Pēc tam šīs vērtības var saskaņot ar virsgrāmatas konta bilancēm.
+    - **NP** – iestatīt šo opciju kā *Jā,* lai parādītu NP vērtības. Pēc tam šīs vērtības var saskaņot ar NP konta bilancēm virsgrāmatā. Iestatot šo opciju kā *Jā*, pārskatā tiks rādīti tikai fiziskie daudzumi un krājumu daudzumi, kuriem ir NP statuss. Ražošanas pasūtījumi ar NP statusu ir izdoti vai pabeigti, bet tie nav pabeigti.
+    - **Atliktā PPPI** – iestatiet šo *opciju* kā Jā, lai parādītu kolonnu, kas parāda atliktās PPPI fiziskos daudzumus un krājumu summas. Atliktā PPPI ir parādīta, izmantojot fiziskos daudzumus un summas, jo tā korespondē pavadzīmes daudzumus un daudzumus.
+    - **PPPI** – iestatiet šo opciju kā Jā *,* lai parādītu kolonnu, kas parāda COGS finansiālos daudzumus un summas. PPPI tiek parādīta, izmantojot finansiālos daudzumus un summas, jo tā kompensē rēķina daudzumus un summas.
+    - **Peļņa un zaudējumi** – iestatiet šo opciju *kā* Jā, lai parādītu kolonnu, kurā redzama finanšu summa, kas grāmatota krājumu peļņas un zaudējumu kontos.
+    - **Drukāt kopējā konta vērtības salīdzināšanai** – iestatiet šo opciju uz *Jā*, lai parādītu kolonnu, kas parāda virsgrāmatas konta bilanci. Šādā veidā nebūs jāpārbauda pārbaudes bilance. Šī opcija darbojas tikai ar standarta **pārskatu Krājumu** vērtība, nevis ar krājumu **vērtības pārskata glabāšanas** pārskatu. Pēc šīs opcijas iestatīšanas uz *Jā*, nepieciešams izmantot tālāk norādītos laukus, lai norādītu katru virsgrāmatas kontu, kuru vēlaties uzskaitīt, atkarībā no finanšu pozīciju opcijām, **kuras** ir iespējotas.
 
         > [!NOTE]
-        > Atlasot kopsummas *kontu* kādam no šiem laukiem, tiks parādīta gan katra kopējā kontā iekļautā krājumu konta summa, gan kopējā konta summa.
+        > Ja atlasāt kopsummas *kontu* jebkuram no šiem laukiem, tiks parādīta gan katra krājumu konta summa, kas iekļauta kopsummas kontā, gan kopsummas konta summa.
 
-        - **Krājumu konts** – norādiet virsgrāmatas kontu, kuram jāparāda krājumu informācija. (Abi **Krājumu** opcijai un salīdzināšanas **opcijai** Drukāt kumulatīvās konta vērtības ir jāiestata uz *Jā*.)
-        - **NP konts** – norādiet virsgrāmatas kontu, kuram rādīt NP informāciju. (Abi **NP** opcijai un salīdzināšanas **opcijai** Drukāt kumulatīvās konta vērtības ir jāiestata uz *Jā*.)
-        - **Atliktais PPPI konts** — norādiet virsgrāmatas kontu, kuram rādīt atlikto PPPI informāciju. (Abi **Atliktā PPPI** opcijai un salīdzināšanas **opcijai** Drukāt kumulatīvās konta vērtības jāiestata uz *Jā*.)
-        - **PPPI konts** — norādiet virsgrāmatas kontu, kuram rādīt COGS informāciju. (Abi **OPCIJAI COGS** un salīdzināšanas **opcijai** Drukāt kumulatīvās konta vērtības ir jāiestata uz *Jā*.)
+        - **Krājuma konts** – norādiet virsgrāmatas kontu, kurā rādīt informāciju par krājumiem. (Abi **Krājumu** opcijai un **opcijai Drukāt kopējā konta vērtības salīdzināšanai** jābūt iestatītai uz *Jā*.)
+        - **NP** konts – norādiet Virsgrāmatas kontu, kurā rādīt informāciju par NP. (Abi **NP** opcijai un **Drukāšanas kopējā konta vērtībām salīdzināšanas** opcijai jābūt iestatītai uz *Jā*.)
+        - **Atliktā PPPI konts** – norādiet Virsgrāmatas kontu, kurā rādīt atliktā PPPI informāciju. (Abi **Atliktā PPPI opcijai** un opcijai **Drukāt kopējās konta vērtības salīdzināšanai** jābūt iestatītai uz *Jā*.)
+        - **PPPI konts** – norādiet virsgrāmatas kontu, kura COGS informācija jārāda. (Abi **Opcija COGS** un opcija **Drukāt kopējā konta vērtības salīdzināšanai** jāiestata uz *Jā*.)
 
-    - **Apkopojiet fiziskās un finanšu vērtības** – iestatiet šo opciju uz *Jā*, lai parādītu kolonnu, kas parāda kopējo krājumu daudzumu un krājumu summu (kopsavilkums gan par fizisko, gan finanšu krājumu vērtībām). Ja šī opcija ir iestatīta uz *Nē*, atskaitē tiek rādītas gan fizisko, gan finanšu krājumu vērtības.
-    - **Iekļaut nav iegrāmatots Virsgrāmatā** Iestatiet šo opciju uz Jā *, lai* parādītu kolonnu, kas parāda darbības, kuras nekad nav grāmatotas Virsgrāmatā. Darbības šādiem krājumu tipiem var netikt grāmatotas Virsgrāmatā:
+    - **Apkopot fiziskās un finanšu vērtības** – *iestatiet* šo opciju uz Jā, lai parādītu kolonnu, kas parāda kopējo krājumu daudzumu un krājumu summu (fizisko un finanšu krājumu vērtību kopsavilkums). Ja šī opcija ir iestatīta uz *Nē*, pārskats parādīs gan fizisko, gan finansiālo krājumu vērtības.
+    - **Iekļaut Virsgrāmatā** negrāmatotās Iestatiet *šo* opciju kā Jā, lai parādītu kolonnu, kurā redzamas darbības, kas nekad nav grāmatotas Virsgrāmatā. Darbības ar tālāk minētajiem krājumu tipiem var negrāmatot Virsgrāmatā:
 
-        - Saņemti un vēl nav iekļauti rēķinos iekļautie krājumi, **ja opcija Grāmatot fiziskos krājumus** ir notīrīta atbilstošajai krājumu modeļu grupai.
-        - Saņemtās un vēl rēķinā neiekļautās preces, **ja opcija Grāmatot produktu ieejas plūsmu Virsgrāmatā** tiek notīrīta **kopsavilkuma cilnē** Produktu ieejas plūsma **lapas Kreditoru parametri** (**Kreditoru** kreditoru parametri **\>) \> cilnes Visp**.
+        - Saņemtie un vēl rēķinā vēl rēķinā iekļautais krājums, ja **atbilstošai** krājumu modeļu grupai ir notīrīta opcija Grāmatot fiziskos krājumus.
+        - Saņemtie un **vēl** **·** **·** **rēķinos** nerēķinājamie krājumi, ja kreditoru parametru lapas (**\>\> Parādi kreditoriem iestatījuma Parādi kreditoriem parametri) cilnē Produktu ieejas plūsma ir notīrīta opcija Grāmatot produktu ieejas plūsmu Virsgrāmatā.**
 
-    - **Aprēķināt vidējās vienības pašizmaksu** — iestatiet šo opciju uz *Jā*, lai parādītu kolonnu, kas parāda vidējo vienības pašizmaksu. Vidējās vienības izmaksas ir kopējā summa, kas dalīta ar kopējo daudzumu.
-    - **Kopējais daudzums un vērtība** — iestatiet šo opciju uz *Jā*, lai parādītu kolonnas, kas parāda kopējo fizisko krājumu daudzumu (un finanšu daudzumus) un kopējo fizisko krājumu summu (un finanšu summas). Šo opciju var iestatīt uz *Jā tikai tad*, ja opcija Apkopot fiziskās **un finansiālās vērtības** ir iestatīta uz *Nē*.
-    - **Krājumu dimensijas** — šajā režģī atzīmējiet **izvēles rūtiņu Skatīt** katrai dimensijai, kuru vēlaties parādīt atskaitē. Atskaitē vērtības tiks rādītas tikai tajās dimensijās, **kurās ir iespējota finanšu krājumu** opcija. Pārējās dimensijas rādīs tikai tukšas kolonnas. Tām dimensijām, kuras atlasāt parādīšanai, var atzīmēt izvēles rūtiņu **Kopsumma**, lai iekļautu arī kopsummas.
+    - **Aprēķināt vidējās vienības izmaksas** – iestatiet šo opciju kā Jā *,* lai parādītu kolonnu, kas parāda vidējās vienības izmaksas. Vidējās vienības izmaksas ir kopējā summa, kas dalīta ar kopējo daudzumu.
+    - **Kopējais daudzums un vērtība** – *iestatiet* šo opciju kā Jā, lai parādītu kolonnas, kas parāda kopējo fizisko krājumu daudzumu (un finansiālos daudzumus) un fizisko krājumu kopējo daudzumu (un finanšu summas). Šo opciju var iestatīt kā Jā tikai *tad*, ja opcija **Apkopot fiziskās un finanšu vērtības ir** iestatīta uz *Nē*.
+    - **Krājumu dimensijas** – šajā režģī atzīmējiet **izvēles** rūtiņu Skatīt katrai dimensijai, ko vēlaties parādīt pārskatā. Vērtības pārskatā tiks rādītas **tikai tās** dimensijas, kurās aktivizēta opcija Finanšu krājumi. Pārējās dimensijas rādīs tikai tukšas kolonnas. Tām dimensijām, kuras atlasāt parādīšanai, var atzīmēt izvēles rūtiņu **Kopsumma**, lai iekļautu arī kopsummas.
     - **Resursa ID** – iestatiet opciju **Skats** uz Jā *,* lai parādītu kolonnu, kas identificē krājumu katrai rindai. Lai iekļautu **kopsummas**, iestatiet *opciju* Kopsumma. Atkarībā no katrā rindā uzskaitītā krājuma tipa kolonna rāda vienu no šiem informācijas tipiem:
 
         - **Materiāls** – kolonnā parādīta lauka `ItemID` vērtība atbilstošajam materiāla ierakstam.

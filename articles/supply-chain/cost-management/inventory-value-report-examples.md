@@ -1,22 +1,22 @@
 ---
 title: Krājumu vērtības pārskatu piemēri un loģika
 description: Šajā tēmā sniegti daži rezultātu piemēri, kas uzrādīti katram krājumu vērtības pārskata tipam. Krājumu vērtību pārskati sniedz detalizētu informāciju par jūsu krājumu fiziskajiem un finanšu daudzumiem un summām.
-author: banluo-ms
+author: JennySong-SH
 ms.date: 10/19/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: banluo
+ms.author: yanansong
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 4ad85058c8743895185d3da2e8975711f1e3bc2c
-ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
+ms.openlocfilehash: 0d594fc18a104c434a334a5b6d1d249330a6be9a
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798407"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8675324"
 ---
 # <a name="inventory-value-report-examples-and-logic"></a>Krājumu vērtības pārskatu piemēri un loģika
 
@@ -37,15 +37,15 @@ Piemēra sistēmā ir ietverti šādi glabāšanas dimensiju iestatījumi.
 | Vārds/nosaukums | Aktīva | Fizisks krājums | Finanšu krājumi |
 |---|---|---|---|
 | Vietne | Jā | Jā | Jā |
-| Noliktava | Jā | Jā | Nr. |
+| Noliktava | Jā | Jā | Nē |
 
 ### <a name="inventory-model"></a>Krājumu modelis
 
-Piemēram, sistēma krājumu modelis izlaistajām precēm ir FIFO, un izmaksu cenas lauks krājumu modelim *·* tiek **·** iestatīts uz Iekļaut fizisko *vērtību*.
+Piemēram, sistēma krājumu modelis izlaistajām *precēm ir FIFO*, **un** izmaksu cenas lauks krājumu modelim tiek iestatīts uz *Iekļaut fizisko vērtību*.
 
 ### <a name="inventory-transactions"></a>Krājumu darbības
 
-Piemēram, sistēma satur šādas krājumu darbības izlaistai precei ar krājuma numuru *B0001.*
+Piemēram, sistēma satur šādas krājumu darbības izlaistai precei ar krājuma numuru *B0001*.
 
 | Atsauce | Vietne | Noliktava | Saņemšana | Problēma | Fiziskais datums | Finansiālais datums | Daudzums | Izmaksu summa | Fiziskā izmaksu summa |
 |---|---|---|---|---|---|---|---|---|---|
@@ -60,7 +60,7 @@ Piemēram, sistēma satur šādas krājumu darbības izlaistai precei ar krājum
 
 Piemēram sistēma ietver krājumu vērtības pārskata konfigurāciju, kas satur šādus iestatījumus:
 
-- **Diapazons:** *grāmatošanas datums*
+- **Diapazons: grāmatošanas** *datums*
 - **Krājumi:** *Jā*
 - **Aprēķināt vidējās vienības izmaksas:** *Jā*
 - **Kopējais daudzums un vērtība:** *Jā*
@@ -79,19 +79,19 @@ Piemēram sistēma ietver krājumu vērtības pārskata konfigurāciju, kas satu
 
 ### <a name="standard-inventory-value-report-for-example-1"></a>Piemēram, standarta krājumu vērtības pārskats 1
 
-Šajā attēlā parādīts standarta krājumu **vērtības** pārskats, piemēram, 1. (Atlasiet ilustrāciju, lai atvērtu lielāku versiju.)
+Šajā attēlā parādīts standarta krājumu **vērtības pārskats,** piemēram, 1. (Atlasiet ilustrāciju, lai atvērtu lielāku versiju.)
 
 [![Krājumu vērtības pārskats, piemēram, 1.](media/inventory-value-report-ex1-small.png "Piemēram, krājumu vērtības pārskats 1")](media/inventory-value-report-ex1.png)
 
 ### <a name="inventory-value-report-storage-report-for-example-1"></a>Piemēram, krājumu vērtības pārskata glabāšanas pārskats
 
-Šajā attēlā parādīts, **piemēram,** 1. krājuma vērtības pārskata glabāšanas pārskats. (Atlasiet ilustrāciju, lai atvērtu lielāku versiju.)
+Šajā attēlā parādīts, piemēram **, 1. krājuma** vērtības pārskata glabāšanas pārskats. (Atlasiet ilustrāciju, lai atvērtu lielāku versiju.)
 
 [![Piemēram, krājumu vērtības pārskata glabāšanas pārskats 1.](media/inventory-value-report-storage-ex1-small.png "Piemēram, krājumu vērtības pārskata glabāšanas pārskats")](media/inventory-value-report-storage-ex1.png)
 
 ## <a name="inventory-value-report-example-2"></a>Krājumu vērtības pārskata 2. piemērs
 
-Šajā tabulā un ilustrācijās ir attēloti rezultāti, kad lietojat iepriekš šajā tēmā aprakstītos parauga datus, bet pārskata konfigurācijā vērtību no lauka Līmenis var mainīt uz Darbības un, palaižot pārskatu, lauku No datuma iestatāt uz **·** *·* **·** *15.* marts.
+Šajā tabulā un ilustrācijās ir attēloti rezultāti, kad lietojat iepriekš šajā tēmā aprakstītos parauga datus, **·** *bet* pārskata konfigurācijā vērtību no lauka Līmenis var mainīt uz Darbības un, palaižot pārskatu, **·** *lauku No datuma iestatāt uz 15*. marts.
 
 | Resursa tips | Resurss | Vietne | Datums | Numurs | Atsauce | Krājumi: finansiālais daudzums | Krājumi: finanšu summa | Krājumi: grāmatotais fiziski pieejamais daudzums | Krājumi: grāmatotā fiziski pieejamā summa | Krājumi: daudzums | Krājumi: summa |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -109,13 +109,13 @@ Piemēram sistēma ietver krājumu vērtības pārskata konfigurāciju, kas satu
 
 ### <a name="standard-inventory-value-report-for-example-2"></a>Piemēram, standarta krājumu vērtības pārskats 2
 
-Šajā attēlā parādīts standarta krājumu **vērtības** pārskats, piemēram, 2. (Atlasiet ilustrāciju, lai atvērtu lielāku versiju.)
+Šajā attēlā parādīts standarta krājumu **vērtības pārskats**, piemēram, 2. (Atlasiet ilustrāciju, lai atvērtu lielāku versiju.)
 
 [![Krājumu vērtības pārskats, piemēram, 2.](media/inventory-value-report-ex2-small.png "Piemēram, 2. krājumu vērtības pārskats")](media/inventory-value-report-ex2.png)
 
 ### <a name="inventory-value-report-storage-report-for-example-2"></a>Piemēram, krājumu vērtības pārskata glabāšanas pārskats 2
 
-Šajā attēlā parādīts, **piemēram,** 2. krājuma vērtības pārskata glabāšanas pārskats. (Atlasiet ilustrāciju, lai atvērtu lielāku versiju.)
+Šajā attēlā parādīts, piemēram **, 2. krājuma** vērtības pārskata glabāšanas pārskats. (Atlasiet ilustrāciju, lai atvērtu lielāku versiju.)
 
 [![Piemēram, 2. krājumu vērtības pārskata glabāšanas pārskats.](media/inventory-value-report-storage-ex2-small.png "Piemēram, krājumu vērtības pārskata glabāšanas pārskats 2")](media/inventory-value-report-storage-ex2.png)
 
@@ -127,7 +127,7 @@ Tālāk minētās apakšsadaļas parāda krājumu vērtību pārskatus, kas ģen
 
 ### <a name="example-3-when-the-totals-level-is-used"></a>3. piemērs, kad tiek izmantots kopsummas līmenis
 
-Šajā tabulā ir parādīti rezultāti, kad izmantojat parauga datus un pārskata konfigurāciju, kas ir aprakstīta iepriekš šajā tēmā. (Šajā pārskata konfigurācijā: **Līmeņa** lauks ir *iestatīts uz Kopsummas* .)
+Šajā tabulā ir parādīti rezultāti, kad izmantojat parauga datus un pārskata konfigurāciju, kas ir aprakstīta iepriekš šajā tēmā. (Šajā pārskata konfigurācijā: **Līmeņa** lauks ir iestatīts uz *Kopsummas*.)
 
 | Resursa tips | Resurss | Vietne | Atsauce | Krājumi: finansiālais daudzums | Krājumi: finanšu summa | Krājumi: grāmatotais fiziski pieejamais daudzums | Krājumi: grāmatotā fiziski pieejamā summa | Krājumi: daudzums | Krājumi: summa | Vidējās vienības izmaksas |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -136,7 +136,7 @@ Tālāk minētās apakšsadaļas parāda krājumu vērtību pārskatus, kas ģen
 
 ### <a name="example-3-when-the-transactions-level-is-used"></a>3. piemērs, kad tiek izmantots Darījumu līmenis
 
-Šajā tabulā ir parādīti rezultāti, kad izmantojat parauga datus, kas ir aprakstīti iepriekš šajā tēmā, bet pārskata konfigurācijā maināt lauka Līmenis **·** vērtību uz *·* Darbības.
+Šajā tabulā ir parādīti rezultāti, kad izmantojat parauga datus, kas ir aprakstīti iepriekš šajā tēmā, **·** *bet* pārskata konfigurācijā maināt lauka Līmenis vērtību uz Darbības.
 
 | Resursa tips | Resurss | Vietne | Datums | Numurs | Atsauce | Krājumi: finansiālais daudzums | Krājumi: finanšu summa | Krājumi: grāmatotais fiziski pieejamais daudzums | Krājumi: grāmatotā fiziski pieejamā summa | Krājumi: daudzums | Krājumi: summa |
 |---|---|---|---|---|---|---|---|---|---|---|---|

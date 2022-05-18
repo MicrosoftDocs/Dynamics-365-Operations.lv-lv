@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 206c7f590b495278b7899271db0e83b3a4da3edc
-ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
+ms.openlocfilehash: 3cf83421d5385e3c95dfda6db35edfb8eb4b9336
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "7641434"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695765"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-5-2021"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources 2021. gada 5. oktobrī
 
@@ -42,7 +41,7 @@ Zemāk minētie līdzekļi parasti ir pieejami ar šo laidienu.
 
 | Funkcija | Nodošanas izpildei plāns | Dokumentācija |
 |---|---|---|
-| Platformas atjauninājums 10.0.21 (45) | -- | [Platformas atjauninājumi programmu Finance and Operations versijai 10.0.21 (2021. gada oktobris)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21) |
+| Platformas atjauninājums 10.0.21 (45) | -- | [Platformas atjauninājumi Finanšu un operāciju programmu versijai 10.0.21 (2021. gada oktobris)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21) |
 
 
 ### <a name="bug-fixes"></a>Kļūdu labojumi
@@ -87,7 +86,7 @@ Pilnīgu sarakstu ar plānotajiem līdzekļiem un to ieplānotajiem laidieniem s
 
 | Funkcija | Informācija |
 |---|---|
-| Platformas atjauninājums 10.0.22 (46) | Ir ieplānots, ka platformas atjauninājuma 10.0.22 izlaišana tiks sākta ar pakalpojuma laidienu 2021. gada 1. novembrī. Papildinformāciju skatiet sadaļā [Platformas atjauninājumi Finance and Operations programmu versijai 10.0.22 (2021. gada novembris)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22). |
+| Platformas atjauninājums 10.0.22 (46) | Ir ieplānots, ka platformas atjauninājuma 10.0.22 izlaišana tiks sākta ar pakalpojuma laidienu 2021. gada 1. novembrī. Papildinformāciju skatiet Programmu [Finanses un operācijas versijā 10.0.22 (2021. gada novembrī)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22). |
 
 
 

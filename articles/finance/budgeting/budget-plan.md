@@ -1,6 +1,6 @@
 ---
 title: Budžeta plānošana
-description: Šī uzdevuma mērķis ir sniegt vadītu ieskatu par Microsoft Dynamics 365 Finance funkcionalitātes atjauninājumiem apgabalā Budžeta plānošana. Šī uzdevuma nolūks ir ilustrēt budžeta plānošanas moduļa ātras konfigurēšanas piemēru un demonstrēt, kā var paveikt budžeta plānošanu, izmantojot šo konfigurāciju.
+description: Šīs pamācības uzdevums ir nodrošināt Microsoft Dynamics 365 Finanšu funkcionalitātes atjauninājumu vadītu skatu budžeta plānošanas jomā. Šī uzdevuma nolūks ir ilustrēt budžeta plānošanas moduļa ātras konfigurēšanas piemēru un demonstrēt, kā var paveikt budžeta plānošanu, izmantojot šo konfigurāciju.
 author: panolte
 ms.date: 06/25/2018
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 10763
 ms.assetid: 0f2ba752-1f6d-4f28-b9e9-b2e97d10b6d1
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0420887c35bbb07aaf8cce05a68173ab6c534f92
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 65ebfddb1baf39e20c22d3ed9bb26dbb33765e20
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595338"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8712009"
 ---
 # <a name="budget-planning"></a>Budžeta plānošana
 
 [!include [banner](../includes/banner.md)]
 
-Šī uzdevuma mērķis ir sniegt vadītu ieskatu par Microsoft Dynamics 365 Finance funkcionalitātes atjauninājumiem apgabalā Budžeta plānošana. Šī uzdevuma nolūks ir ilustrēt budžeta plānošanas moduļa ātras konfigurēšanas piemēru un demonstrēt, kā var paveikt budžeta plānošanu, izmantojot šo konfigurāciju.  Šajā uzdevumā īpaša uzmanība tiks pievērsta šādiem biznesa procesiem vai uzdevumiem:
+Šīs pamācības uzdevums ir nodrošināt Microsoft Dynamics 365 Finanšu funkcionalitātes atjauninājumu vadītu skatu budžeta plānošanas jomā. Šī uzdevuma nolūks ir ilustrēt budžeta plānošanas moduļa ātras konfigurēšanas piemēru un demonstrēt, kā var paveikt budžeta plānošanu, izmantojot šo konfigurāciju.  Šajā uzdevumā īpaša uzmanība tiks pievērsta šādiem biznesa procesiem vai uzdevumiem:
 - Budžeta plānošanas organizācijas hierarhijas izveide un lietotāja drošības konfigurēšana
 - Budžeta plāna scenāriju, budžeta plāna kolonnu, izkārtojumu un Excel veidņu definēšana
 - Budžeta plānošanas procesa izveide un aktivizēšana
@@ -36,7 +36,7 @@ ms.locfileid: "7595338"
 
 ## <a name="prerequisites"></a>Priekšnosacījumi 
 
-Lai izpildītu šo apmācību, jums ir jāpiekļūst Microsoft Dynamics 365 Finance videi ar Contoso demonstrācijas datiem un jums ir jābūt norādītam kā šīs instances administratoram. Šī uzdevuma izpildē neizmantojiet privātās pārlūkošanas režīmu — ja nepieciešams, pārlūkprogrammā izrakstieties visiem citiem kontiem, un pēc tam pierakstieties, izmantojot administratora akreditācijas datus. Pierakstoties jums **IR JĀATZĪMĒ** izvēles rūtiņa “Saglabāt manu pieteikuminformāciju“. Tādējādi tiks izveidots pastāvīgs sīkfails, kas pašlaik nepieciešams programmai Excel. Ja pierakstāties programmā, izmantojot citu pārlūkprogrammu, izņemot IE, tiek piedāvāts pierakstīties programmā Excel. Kad programmā Excel noklikšķināsit uz “Pierakstīties“, pārlūkprogrammā IE tiks atvērts uznirstošais logs. Pierakstīšanās laikā **IR** jāatzīmē izvēles rūtiņa “Saglabāt manu pieteikuminformāciju“. Ja programmā Excel noklikšķinot uz Pierakstīties, netiek atvērta neviena uzvedne, pārlūkprogrammā IE notīriet sīkfailu kešatmiņu.
+Šai apmācībai jums ir jāpiekļūšana Microsoft Dynamics 365 finanšu videi ar Contoso demonstrācijas datiem un jābūt nodrošinātam kā instances administratoram. Šī uzdevuma izpildē neizmantojiet privātās pārlūkošanas režīmu — ja nepieciešams, pārlūkprogrammā izrakstieties visiem citiem kontiem, un pēc tam pierakstieties, izmantojot administratora akreditācijas datus. Pierakstoties jums **IR JĀATZĪMĒ** izvēles rūtiņa “Saglabāt manu pieteikuminformāciju“. Tādējādi tiks izveidots pastāvīgs sīkfails, kas pašlaik nepieciešams programmai Excel. Ja pierakstāties programmā, izmantojot citu pārlūkprogrammu, izņemot IE, tiek piedāvāts pierakstīties programmā Excel. Kad programmā Excel noklikšķināsit uz “Pierakstīties“, pārlūkprogrammā IE tiks atvērts uznirstošais logs. Pierakstīšanās laikā **IR** jāatzīmē izvēles rūtiņa “Saglabāt manu pieteikuminformāciju“. Ja programmā Excel noklikšķinot uz Pierakstīties, netiek atvērta neviena uzvedne, pārlūkprogrammā IE notīriet sīkfailu kešatmiņu.
 
 ## <a name="scenario-overview"></a>**Scenārija apskats**
 Jūlija ir grāmatvede uzņēmumā Contoso Entertainment Systems (DEMF) Vācijā. Tuvojas 2016. finanšu gads, tādēļ viņai ir jāiestata uzņēmuma budžets nākamajam gadam. Tālāk ir aprakstīts budžeta sagatavošanas process.

@@ -8,25 +8,27 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetLeaseLeasingWorkspace
 audience: Application User
-ms.reviewer: roschlom
-ms.custom: intro-internal
+ms.reviewer: kfend
+ms.custom:
+- "4464"
+- intro-internal
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 72c362e651787d2ff120944925e3bc35523f0059
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 991685f50a00e60026331bf573561be904c7f9ab
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982013"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710334"
 ---
 # <a name="asset-leasing-get-started"></a>Līdzekļu nomas sākšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīta līdzekļu nomas iespēja un veicamās darbības, lai izveidotu līdzekļu nomu un skatītu to informāciju. Tēmā ir definēta arī terminoloģija, kas tiek izmantota lietotāja interfeisā un dokumentācijā. Līdzekļu noma ir papildu iespēja finanšu darbību pārvaldībai, izsekošanai un automatizēšanai nomātajiem līdzekļiem Microsoft Dynamics 365 Finance. Līdzekļu noma atbilst starptautiskajiem grāmatvedības standartiem (16. SFPS) un ASV vispārpieņemtajiem grāmatvedības principiem (ASC 842). Līdzekļu noma notver un apstrādā nomu informāciju un palīdz ģenerēt žurnāla ierakstus, izmantojot nomas dzīves ciklu, no sākotnējās atzīšanas, ikmēneša žurnālu ierakstiem līdz nomas vērtības samazinājumam un pārtraukšanai. Līdzekļu noma ir integrēta ar citiem Dynamics 365 Finance komponentiem, tostarp pamatlīdzekļiem, kreditoriem un virsgrāmatu.
+Šajā tēmā ir aprakstīta līdzekļu nomas iespēja un veicamās darbības, lai izveidotu līdzekļu nomu un skatītu to informāciju. Tēmā ir definēta arī terminoloģija, kas tiek izmantota lietotāja interfeisā un dokumentācijā. Pamatlīdzekļu nolaižšana ir papildu spēja pārvaldīt, izsekot un automātisks Microsoft Dynamics finanšu darbību 365. finanšu gadam. Līdzekļu noma atbilst starptautiskajiem grāmatvedības standartiem (16. SFPS) un ASV vispārpieņemtajiem grāmatvedības principiem (ASC 842). Līdzekļu noma notver un apstrādā nomu informāciju un palīdz ģenerēt žurnāla ierakstus, izmantojot nomas dzīves ciklu, no sākotnējās atzīšanas, ikmēneša žurnālu ierakstiem līdz nomas vērtības samazinājumam un pārtraukšanai. Līdzekļu izlaižšana integrē efektīvi ar citiem Dynamics 365 Finanšu komponentiem, tostarp pamatlīdzekļiem, parādi kreditoriem un Virsgrāmatu.
 
 Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot **Līdzekļu pārvaldības** darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Drbvietā **Līdzekļu pārvaldība** atrodiet un atlasiet līdzekli ar nosaukumu **Līdzekļa noma**, un pēc tam noklikšķiniet pogu **Iespējot tūlīt**.
 
@@ -58,7 +60,7 @@ Diagrammā ir parādīta nomas grāmata, nomas līgums, aprēķinātais maksāju
 
 - **Nomas grāmata** — nomas grāmatā ir iekļauta visa nomas līguma informācija, piemēram, nomas noteikumi, patiesā vērtība un nomas maksājumi. Tā ietver arī jūsu izmantoto grāmatvedības standartu, nomas veidu un sliekšņus, kas tiek ņemti vērā nomas klasifikācijas testā. Nomas grāmatā ietverti arī nomas darījumi, kas iegrāmatoti virsgrāmatā. 
   
-- **Noma** — nomā atrodas līdzekļa nomas informācija, kas ir līdzekļu nomas pamats, nomas informācijas avots ir nomas līgums un vadības lēmums, kas tiek pieņemti ārpus programmas Dynamics 365 Finance. Līdzekļa patiesā vērtība ir cena, kas tiks maksāta par līdzekli novērtēšanas datuma darījumā. Šī vērtība var būt atkarīga no līdzekļa veida, tirgus apstākļiem un citiem kritērijiem, kas var tikt ņemti vērā novērtējumā. Līdzekļa patiesā vērtība tiks ņemta vērā klasifikācijas testa vienādojumā.
+- **Noma** - noma ietver līdzekļu nomas informāciju, kas attēlo līdzekļu izlaižšanas pamatu, nomas informācijas avots ir nomas līgums un pārvaldības lēmums, kas abi ir paveikti ārpus Dynamics 365 Finanšu. Līdzekļa patiesā vērtība ir cena, kas tiks maksāta par līdzekli novērtēšanas datuma darījumā. Šī vērtība var būt atkarīga no līdzekļa veida, tirgus apstākļiem un citiem kritērijiem, kas var tikt ņemti vērā novērtējumā. Līdzekļa patiesā vērtība tiks ņemta vērā klasifikācijas testa vienādojumā.
 
 - **Līdzekļa lietderīgās lietošanas laiks** — attēlo līdzekļa atlikušos lietderīgās lietošanas laika periodus no nomas sākuma datuma. Līdzekļa lietderīgās lietošanas laiks tiks ņemta vērā klasifikācijas testa vienādojumā. Tas atšķiras no lietderīgā lietošanas laika, kas definēts pamatlīdzekļos.
 

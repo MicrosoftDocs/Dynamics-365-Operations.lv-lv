@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 7d43657573ea8092f047615fc50a1a50ab97f094
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: 1c6d394cb192a88316beb2e8746b558eb8dd184b
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968991"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711664"
 ---
 # <a name="cash-position"></a>Finansiālais stāvoklis
 
@@ -50,7 +50,7 @@ Lai saglabātu un rediģētu skaidras naudas pozīciju, izveidojiet momentuzņē
 Funkcija Skaidras naudas pozīcija ietver šādu funkcionalitāti. 
 
 - Skaidras naudas pozīcijas funkcija parāda kases plūsmu, balstoties uz sistēmā esošajiem dokumentiem, kā arī naudas ieplūdes un aizplūšanas rindām, kas importētas no ārējām sistēmām.
-- Atvieglo skaidras naudas plūsmas datu integrēšanu no ārējām sistēmām uz Dynamics 365 Finance. Skaidras naudas pozīcija var izmantot arī datu importēšanas/eksportēšanas struktūru. Šī struktūra atvieglo integrāciju ar Excel OData. Jūs varat kombinēt arī datus no vairākiem avotiem, lai izveidotu vispārēju skaidras naudas pozīcijas risinājumu.
+- Ļauj viegli integrēt naudas plūsmas datus no ārējām sistēmām Dynamics 365 finansēs. Skaidras naudas pozīcija var izmantot arī datu importēšanas/eksportēšanas struktūru. Šī struktūra atvieglo integrāciju ar Excel OData. Jūs varat kombinēt arī datus no vairākiem avotiem, lai izveidotu vispārēju skaidras naudas pozīcijas risinājumu.
 - Iepazīstina ar programmējamo skaidras naudas pozīciju. Skaidras naudas pozīcija tiek izveidota, balstoties uz debitora maksājumu uzvedību, lai paredzētu, kad uzņēmums var gaidīt skaidras naudas pienākšanu kontos.
 - Debitoru pasūtījumiem un rēķiniem debitoru maksājumu prognozēšanas AI funkcionalitāte tiek izmantota, lai noteiktu vēsturisko debitora maksājumu uzvedību, kad tiks maksāts pasūtījums vai rēķins.
 - Kreditoru pasūtījumos un rēķinos tiek izmantots vidējais laiks starp nosūtīšanu un rēķinu un rēķina apmaksu katram kreditoram, lai noteiktu, kad kreditora pasūtījums vai rēķins tiks apmaksāts, veicot naudas izdevumu precīzāku.

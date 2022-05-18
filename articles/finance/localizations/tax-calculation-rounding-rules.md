@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 38760879d84d8262cc1e8395c59bcbc0429bc753
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 167db4d836aa754509bb28677916a30901cebbbb
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7347689"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694179"
 ---
 # <a name="tax-calculation-rounding-rules"></a>Nodokļu aprēķina noapaļošanas kārtulas
 
@@ -39,7 +38,7 @@ Lauki **Noapaļošanas precizitāte** un **Noapaļošanas metode** nosaka, kā t
 
 ## <a name="rounding-precision"></a>Noapaļošanas precizitāte
 
-**Noapaļošanas precizitātes** lauki atbalsta vērtību, kas aiz komata ir līdz sešām decimālzīmēm. Piemēram, ja jūs iestatāt **Noapaļošanas precizitātes** lauku uz **0,000000**, aprēķinātās summas tiek noapaļotas līdz sešām decimālzīmēm un pēc tam nosūtītas uz Microsoft Dynamics 365 Finance. Piemēram, ja tiek lietota **Parastā** noapaļošanas metode, summa **987,1234567** tiek noapaļota uz **987,123457**.
+**Noapaļošanas precizitātes** lauki atbalsta vērtību, kas aiz komata ir līdz sešām decimālzīmēm. Piemēram, ja jūs **iestatāt** **Noapaļošanas precizitātes lauku 0.000000**, Microsoft Dynamics aprēķinātās summas tiek noapaļotas līdz sešām decimālzīmēm un pēc tam nosūtītas uz 365 Finansēm. Piemēram, ja tiek lietota **Parastā** noapaļošanas metode, summa **987,1234567** tiek noapaļota uz **987,123457**.
 
 > [!NOTE]
 > Finanšu noapaļošanas summas atbilstoši valūtas noapaļošanas kārtulām. Tāpēc nodokļu summas, kas tiek rādītas un ierakstītas darbībās, ietekmē gan nodokļu aprēķina noapaļošanas noteikumi, gan valūtas noapaļošanas noteikumi.

@@ -9,16 +9,15 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 66e73ff2bd5dbff2cb0bcca8e0645c485f3a0bba
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: 7ea395b1514cb632b823ca62eb92c098d4e0c0ce
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402401"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687363"
 ---
 # <a name="learning-catalog-for-commerce-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-commerce"></a>Commerce Microsoft partneru pārdošanas un mārketinga lomu apmācības katalogs Dynamics 365 Commerce
 
@@ -26,11 +25,11 @@ Vai esat atbildīgs par to, lai palīdzētu jūsu klientiem iegādāties pareizo
 
 Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem domēniem kārtībā no visvienkāršākā uz vismodernāko. Ja saturs pastāv vairākos formātos, mēs jūs informēsim, lai varētu izvēlēties apmācības formātu, kas vislabāk atbilst jūsu vajadzībām.
 
-Apmācību par līdzekļiem, kas koplietoti ar citām Finance and Operations programmām, skatiet [Dynamics 365 Finance mācību katalogā](../../finance/get-started/learning-catalog-partner-sales.md).
+Lai iegūtu apmācību par līdzekļiem, kas koplietoti ar citām finanšu un operāciju programmām, skatiet [Dynamics 365 Finanšu mācību katalogā](../../finance/get-started/learning-catalog-partner-sales.md).
 
-## <a name="get-started"></a>Sākt darbu<a name="get-started"></a>
+## <a name="get-started"></a>Darba sākšana<a name="get-started"></a>
 
-| Saturs  | apraksts  | Formāts  | Ilgums    |
+| Saturs  | Apraksts  | Formāts  | Ilgums    |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
 | [Uzziniet Microsoft Dynamics 365 un Power Platformbiznesa vērtību](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/)   | Šī mācīšanās pieredze jūs aizvedīs ceļā, kas sāksies, parādot, kā digitālā pārveide un biznesa lietojumprogrammu jauda var pārveidot jūsu biznesu. Mēs skaidrosim, kā Dynamics 365 un Power Platform palīdzēs jums pieņemt apzinātus lēmumus, pamatojoties uz jūsu organizācijas vajadzībām un mērķiem, ar četriem digitālās transformācijas blokiem – moderns, apvienots, inteliģents un pielāgojams. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 6.5 stundas |
 | [Darba sākšana ar Dynamics 365 Commerce](/learn/paths/get-started-dynamics-365-commerce/) | Dynamics 365 Commerce, izveidots uz pārbaudītām Dynamics 365 Retail   iespējām, nodrošina visaptverošu visu kanālu risinājumu, kas apvieno biroja, veikala, zvanu centra un digitālo pieredzi. Dynamics 365 Commerce sniedz iespēju veidot zīmola lojalitāti, izmantojot personificētu klienta iesaisti, palielināt ieņēmumus ar uzlabotu darbinieku produktivitāti, optimizēt operācijas, lai samazinātu izmaksas un vadītu piegādes ķēdes efektivitāti, galu galā sasniedzot labākus biznesa rezultātus. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 2 stundas   |

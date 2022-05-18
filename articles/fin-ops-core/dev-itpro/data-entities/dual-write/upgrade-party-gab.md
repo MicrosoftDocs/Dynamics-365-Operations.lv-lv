@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 95d272d9076f1ab25230e4efa98e321bdd618062
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: 22b31b46b247ca5f2d6b8b93f58c090b03a2b38c
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8407799"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8688380"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Jaunināšana uz pušu un globālās adrešu grāmatas modeli
 
@@ -104,7 +104,7 @@ Jaunināšanai ir nepieciešama šāda sagatavošana:
 
     | Lauks | Vērtība |
     |---|---|
-    | Vārds | Atlasiet DynamicsCrmLinkedService |
+    | Nosaukums/vārds, uzvārds | Atlasiet DynamicsCrmLinkedService |
     | Apraksts | Saistītie pakalpojumi, kas ir jāsavieno ar CRM instanci, lai ienestu elementu datus |
     | Izveidot savienojumu, izmantojot integrācijas izpildlaiku | AutoResolvelntegrationRuntime |
     | Izvietošanas veids | Tiešsaiste |
@@ -126,7 +126,7 @@ Jaunināšanai ir nepieciešama šāda sagatavošana:
 
 2. Datu fabrikas cilnē Pārvaldīt **zem** Globālie parametri **izveidojiet** šādu globālo parametru.
 
-    | Numurs | Vārds | Veids | Vērtība |
+    | Numurs | Nosaukums/vārds, uzvārds | Veids | Vērtība |
     |---|---|---|---|
     | 1 | PostalAddressIdPrefix | virkne | Šis parametrs pievieno sērijas numuru tikko izveidotajām pasta adresēm kā prefiksu. Noteikti norādiet virkni, kas nav pretrunā ar pasta adresēm finanšu un operāciju programmās un debitoru iesaistes programmās. Piemēram, izmantojiet **ADF-PAD-**. |
 
@@ -140,7 +140,7 @@ Jaunināšanai ir nepieciešama šāda sagatavošana:
 
 1. Cilnes Pārvaldīt cilnē Datu rūpnīca **,** zem Globālie **parametri**, izveidojiet šādus globālos parametrus.
 
-    | Numurs | Vārds | Veids | Vērtība |
+    | Numurs | Nosaukums/vārds, uzvārds | Veids | Vērtība |
     |---|---|---|---|
     | 1 | IsFO avots | Būla (Bool) | Šis parametrs nosaka, kuras primārās sistēmas adreses tiek aizvietotas konfliktu gadījumā. Ja vērtība ir **patiesa**, primārās adreses Finanšu un operāciju programmās aizstās primārās adreses debitoru lietojumprogrammās. Ja vērtība ir **nepatiesa**, primārās adreses debitoru piesaistes programmās aizstās primārās adreses Finanšu un operāciju programmās. |
     | 2 | ElectronicAddressIdPrefix (elektroniskaisaddressIdPrefix) | virkne | Šis parametrs pievieno sērijas numuru tikko izveidotajām elektroniskajām adresēm kā prefiksu. Noteikti norādiet virkni, kas nav pretrunā ar elektroniskajām adresēm Finanšu un operāciju programmās un debitoru iesaistes programmās. Piemēram, izmantojiet **ADF-EAD-**. |
@@ -206,7 +206,7 @@ Jaunināšanai ir nepieciešama šāda sagatavošana:
 
             + Microsoft.Dynamics.GABExtended.Pirkšanas pasūtījumi.CreatePartyAddress: customeraddress atjauninājums
 
-        + Dzēst
+        + Delete
 
             + Microsoft.Dynamics.GABExtended.Failus DeleteCustomerAddress: debitoraaddress dzēšana
 
@@ -245,7 +245,7 @@ Jaunināšanai ir nepieciešama šāda sagatavošana:
 
             + Microsoft.Dynamics.GABExtended.Gabs.PartyElectronicAddressSync: atjaunināšana msdyn_partyelectronicaddress
 
-        + Dzēst
+        + Delete
 
             + Microsoft.Dynamics.GABExtended.Failus DeletePartyElectronicAddressSync: msdyn_partyelectronicaddress
 
@@ -281,7 +281,7 @@ Jaunināšanai ir nepieciešama šāda sagatavošana:
 
     ![Notiek Puses pasta adreses un Puses elektronisko adrešu veidņu izpildšana.](media/ADF-7.png)
 
-10. Lai atjauninātu programmu Finanses un operācijas ar šie datiem, .csv faili jākonvertē excel [darbgrāmatā un jāimportē tos programmā Finanses un operācijas](/data-entities/data-import-export-job). Vai arī, ja CSV imports darbojas jūsu darbiem, jūs varat tieši importēt .csv failus. Šī darbība var aizņemt dažas stundas, atkarībā no apjoma.
+10. Lai atjauninātu programmu Finanses un operācijas ar šie datiem, .csv faili jākonvertē excel [darbgrāmatā un jāimportē tos programmā Finanses un operācijas](../data-import-export-job.md). Vai arī, ja CSV imports darbojas jūsu darbiem, jūs varat tieši importēt .csv failus. Šī darbība var aizņemt dažas stundas, atkarībā no apjoma.
 
     ![Veiksmīgi importēts.](media/ADF-8.png)
 
@@ -340,7 +340,7 @@ Jaunināšanai ir nepieciešama šāda sagatavošana:
 
             + Microsoft.Dynamics.GABExtended.Gabs.PartyElectronicAddressSync: atjaunināšana msdyn_partyelectronicaddress
 
-        + Dzēst
+        + Delete
 
             + Microsoft.Dynamics.GABExtended.Failus DeletePartyElectronicAddressSync: msdyn_partyelectronicaddress
 

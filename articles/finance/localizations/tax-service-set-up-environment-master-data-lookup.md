@@ -9,31 +9,30 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 455e8becfdfa910a3733719653e1a91557b2f59a
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 7640144b1687fc64e55f659d49cdb0817c17294a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867356"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686716"
 ---
 # <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Iespējot pamatdatu uzmeklēšanu nodokļu aprēķina konfigurācijai 
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidrots, kā iestatīt un iespējot nodokļu aprēķināšanas pamatdatu uzmeklēšanas funkcionalitāti. Nolaižamajā sarakstā ir iespējams atlasīt vērtības nodokļu aprēķina konfigurācijā tādiem laukiem kā Juridiska persona, Kreditora konts, Krājuma **kods** un **Piegādes** **·** **termiņš**. Šīs vērtības ir no savienotās Microsoft Dynamics 365 Finance vides, izmantojot Microsoft Dataverse datu avotu.
+Šajā tēmā skaidrots, kā iestatīt un iespējot nodokļu aprēķināšanas pamatdatu uzmeklēšanas funkcionalitāti. Nolaižamajā sarakstā ir iespējams atlasīt **vērtības** nodokļu aprēķina konfigurācijā tādiem laukiem kā Juridiska persona, **Kreditora** konts, **Krājuma kods** un **Piegādes termiņš**. Šīs vērtības ir no savienotās Microsoft Dynamics 365 Finanšu vides, izmantojot Microsoft Dataverse datu avotu.
 
 > [!NOTE] 
-> Nodokļu aprēķina pamatdatu uzmeklēšanas funkcionalitāte ir izvēles funkcionalitāte. Ja atspējot nodokļu pakalpojuma datu avotu atbalsta līdzekli regulēšanas konfigurācijas pakalpojumā **Dataverse (RCS), varat izlaist tālāk norādītās** darbības. Tomēr šādā gadījumā nolaižamais saraksts nebūs pieejams nodokļu aprēķina konfigurācijā.
+> Nodokļu aprēķina pamatdatu uzmeklēšanas funkcionalitāte ir izvēles funkcionalitāte. Ja atspējot nodokļu pakalpojuma datu avotu atbalsta līdzekli regulēšanas **konfigurācijas Dataverse pakalpojumā (RCS), varat** izlaist tālāk norādītās darbības. Tomēr šādā gadījumā nolaižamais saraksts nebūs pieejams nodokļu aprēķina konfigurācijā.
 
 1. Iestatīt Microsoft Power Platform integrāciju pakalpojumos Microsoft Dynamics Lifecycle Services (LCS). Papildinformāciju skatiet sadaļā [Microsoft Power Platform integrācija - Pievienojumprogrammas pārskats](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). Kad būsiet pabeidzis šo soli, Microsoft Power Platform vides nosaukums parādīsies **Power Platform Integrācijas** sadaļā.
 2. Dodieties uz [Microsoft Power Platform administrēšanas centru](https://admin.powerplatform.microsoft.com/environments) un atlasiet vides nosaukumu. Vides URL nav norādīts.
-3. Iestatīt Dynamics 365 Finance un Dataverse. Papildinformāciju skatiet sadaļā [Virtuālās entītijas risinājuma iegūšana](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#get-virtual-entity-solution) un [Autentifikācija un autorizācija](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#authentication-and-authorization).
+3. Iestatiet Dynamics 365 Finanses un Dataverse. Papildinformāciju skatiet sadaļā [Virtuālās entītijas risinājuma iegūšana](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#get-virtual-entity-solution) un [Autentifikācija un autorizācija](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#authentication-and-authorization).
 4. Iestatiet šādus elementus. Plašāku informāciju skatiet sadaļā [Virtuālo Microsoft Dataverse elementu iespējošana](../../fin-ops-core/dev-itpro/power-platform/enable-virtual-entities.md).
 
     - CompanyInfoEntity

@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetPlanJustificationTemplate
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 259594
 ms.assetid: 52576fad-32b9-48f2-8197-c11ec313fc29
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5eb74b5d2b71372f99dd927ff6e2bee96e199a6f75b3ae920607e5ec37a4241a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 03780b36cb3a6a609350c61792f0c98f2c08244d
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752970"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711776"
 ---
 # <a name="budget-planning-justification-documents"></a>Budžeta plānošanas attaisnojuma dokumenti
 
@@ -42,7 +42,7 @@ Budžeta pārvaldnieks izveido budžeta plāna veidni programmā Microsoft Word,
 
 1.  Pēc pierakstīšanās Microsoft Dynamics Office pievienojumprogrammā noklikšķiniet uz **Dizains**.
 2.  Galvenes informācijai izmantojiet pogu **Pievienot laukus**.
-3.  Atlasiet BudgetPlanJustification elementa datu avotu un noklikšķiniet uz **Tālāk**. **Piezīme.** Šis elements ir nepieciešams visiem attaisnojuma dokumentiem. Var izmantot citus elementus, taču, ja nav ietverts šis elements, neizdodas augšupielāde atpakaļ programmā Microsoft Dynamics 365 Finance.
+3.  Atlasiet BudgetPlanJustification elementa datu avotu un noklikšķiniet uz **Tālāk**. **Piezīme.** Šis elements ir nepieciešams visiem attaisnojuma dokumentiem. Varat izmantot citus elementus, taču augšupielāde atpakaļ Microsoft Dynamics 365 finansēs neizdosies, ja šī entītija nav iekļauta.
 4.  Word dokumentā pievienojiet etiķetes un vērtības BudgetPlanName, BudgetPlanPreparer, ResponsibilityCenter un DocumentNumber. **Piezīme.** Ja nepieciešams, varat izmantot pats savas pielāgotās etiķetes, nevis standarta etiķetes.
 5.  Lai pabeigtu galvenes atlasi, noklikšķiniet uz **Gatavs**.
 6.  Rindas līmeņa informācijai par budžeta plāna summām noklikšķiniet uz **Pievienot tabulu**.

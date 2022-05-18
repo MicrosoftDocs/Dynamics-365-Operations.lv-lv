@@ -13,64 +13,64 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4e3287fc824f2f7eb725b11c990a1c457d45439f
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 364117133cb7a868e613088b14a33869fd9fedb1
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075153"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735351"
 ---
 # <a name="develop-and-open-job-requisition"></a>Darba pieprasījuma izstrāde un atvēršana
 
 [!include [banner](../../includes/banner.md)]
 
 > [!IMPORTANT]
-> Šajā tēmā atzīmētā funkcionalitāte šobrīd ir pieejama Personāla klientiem finanšu infrastruktūrā.  
+> Šajā tēmā personāla atlases funkcionalitāte tiks saukta par personāla atlases projektiem un fokusiem uz kandidātiem, pieteikumiem un personāla atlases projektiem.  
 
 
-Personāla atlases projekti palīdz pārvaldīt personāla atlases procesu. Katram personāla atlases projektam varat iestatīt tādu informāciju kā darbs, kuram tiek veikts personāla atlase, vervētāja vārds, projekta statuss un nodaļa, kurā tiks atrasts darbs. Kad esat izveidojis personāla atlases projektu, varat uzrakstīt tam darba sludinājumu, publicēt sludinājumu **Darbinieku pašapkalpošanās** lapu, saistiet darba pieteikumus ar projektu un izsekojiet šī projekta aktivitātēm. The **USMF** lai izveidotu šo procedūru, tika izmantots demonstrācijas datu uzņēmums.
+Personāla atlases projekti palīdz pārvaldīt personāla atlases procesu. Katram personāla atlases projektam varat iestatīt informāciju, piemēram, darbu, kam tiek veikta personāla atlase, personāla atlases darbinieku, projekta statusu un nodaļu, kur darbs tiks atrasts. Pēc personāla atlases projekta izveides varat tam ierakstīt darba sludinājumu, **publicēt** sludinājumu darbinieku pašapkalpošanās lapā, saistīt nodarbinātības pieteikumus ar projektu un izsekot šī projekta aktivitātes. USMF **demonstrācijas** datu uzņēmums tika izmantots šīs procedūras veidojiet.
 
-1. Iet uz **Cilvēku resursi \> Rekrutēšana \> Personāla atlases projekti \> Personāla atlases projekti**.
+1. Dodieties uz **personāla vadības personāla atlases \>\> projektu personāla \> atlases projektiem**.
 2. Atlasiet **Jauna**.
 3. Laukā **Personāla atlases projekts** ievadiet vērtību.
 4. Laukā **Apraksts** ievadiet kādu vērtību.
-5. Iekš **Vervētājs** laukā atlasiet nolaižamo bultiņu, lai atvērtu uzmeklēšanu.
+5. Laukā **Personāla atlases** atlasītājs atlasiet nolaižamo bultiņu, lai atvērtu uzmeklēšanu.
 6. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
 7. Sarakstā atlasiet saiti atlasītajā rindā.
 8. Atlasiet **Atlasīt**.
-9. Iekš **nodaļa** laukā atlasiet nolaižamo bultiņu, lai atvērtu uzmeklēšanu.
+9. Laukā **Nodaļa** atlasiet nolaižamo bultiņu, lai atvērtu uzmeklēšanu.
 10. Sarakstā atlasiet saiti atlasītajā rindā.
-11. Iekš **Darbs** laukā atlasiet nolaižamo bultiņu, lai atvērtu uzmeklēšanu.
+11. Laukā **Darbs** atlasiet nolaižamo bultiņu, lai atvērtu uzmeklēšanu.
 12. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
 13. Sarakstā atlasiet saiti atlasītajā rindā.
-14. Iekš **Atvērumu skaits** laukā ievadiet numuru.
-15. Iekš **Nomas menedžeris** laukā atlasiet nolaižamo bultiņu, lai atvērtu uzmeklēšanu.
+14. **Laukā Atvēršanas** numuru ievadiet skaitli.
+15. Laukā **Par pieņemšanu darbā vadītāja** atlasiet nolaižamo bultiņu, lai atvērtu uzmeklēšanu.
 16. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
 17. Sarakstā atlasiet saiti atlasītajā rindā.
 18. Atlasiet **Atlasīt**.
 19. Laukā **Pieteikuma termiņš** ievadiet kādu datumu.
 20. Atlasiet **Mediji**.
 
-    Personāla atlases projektos ir iekļauta iespēja norādīt plašsaziņas līdzekļus, kas tiks izmantoti, lai reklamētu atvērtās pozīcijas.
+    Personāla atlases projektos ir iekļauta opcija norādīt plašsaziņas līdzekļus, kas tiks izmantoti atvērto amatu izziņoēšanai.
 
 21. Atlasiet **Jauna**.
-22. Iekš **Plašsaziņas līdzekļi** laukā atlasiet nolaižamo bultiņu, lai atvērtu uzmeklēšanu.
+22. Laukā **Līdzekļi** atlasiet nolaižamo bultiņu, lai atvērtu uzmeklēšanu.
 23. Sarakstā atlasiet saiti atlasītajā rindā.
 24. Laukā **Sākuma datums** ievadiet datumu.
 25. Laukā **Beigu datums** ievadiet datumu.
 26. Atlasiet **Saglabāt**.
 27. Aizvērt lapu.
-28. Izvēlieties **Darba sludinājumi**.
+28. Atlasiet darba **sludinājumus**.
 29. Atlasiet **Saglabāt**.
 30. Aizvērt lapu.
-31. Izvēlieties vai notīriet **Displejs uz darbinieku pašapkalpošanās** izvēles rūtiņa.
+31. Atzīmējiet vai notīriet **izvēles rūtiņu Rādīt darbinieku pašapkalpošanās** sadaļā.
 
-    Atzīmējiet izvēles rūtiņu, lai personāla atlases projekts būtu redzams viņu darbiniekiem **Darbinieku pašapkalpošanās** lappuse.
+    Atzīmējiet šo izvēles rūtiņu, lai darbinieku darbinieku pašapkalpošanās lapā padarītu personāla **atlases projektu redzamu**.
 
-32. Izvēlieties **Personāla atlases projekts** statusu.
+32. Atlasiet personāla atlases **projekta** statusu.
 33. Atlasiet **Sākt**.
 
-    The **Sākts** statuss norāda, ka projekts ir gatavs pieteikumu saņemšanai.
+    Statuss **Sākts** norāda, ka projekts ir gatavs saņemt pieteikumus.
 
 34. Atlasiet **Labi**.
 

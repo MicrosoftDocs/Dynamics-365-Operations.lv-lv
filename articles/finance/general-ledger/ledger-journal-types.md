@@ -8,27 +8,27 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalSetup
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 15631
 ms.assetid: 81613b31-bc3c-43a0-8474-e01c9a482c40
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 253da3d5cf894820e516b6b4f8d2a4fce40c92db
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: 3e49d101bbbe576e0fcf2e9b243f4f29124fbd85
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7727021"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722274"
 ---
 # <a name="ledger-journal-types"></a>Virsgrāmatas žurnālu tipi
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīti žurnālu veidi, ko var iestatīt finanšu žurnāliem. Lietojiet lapu **Žurnālu nosaukumi**, lai iestatītu žurnālus, ko varat izmantot visā programmā Dynamics 365 Finance.
+Šajā tēmā ir aprakstīti žurnālu veidi, ko var iestatīt finanšu žurnāliem. Izmantojiet žurnālu **nosaukumu lapu**, lai iestatītu žurnālus, ko varat izmantot visā Dynamics 365 Finance.
 
-| Žurnāla tips                      | Nolūks                       | Ievadiet darbības šajā lapā                                |
+| Žurnāla veids                      | Nolūks                       | Ievadiet darbības šajā lapā                                |
 |-----------------------------------|-------------------------------|----------------------------------------------------------------|
 | Sadalījums                        | Izveidojiet sadalījuma darbības sadalījuma žurnālā. Pirms izveidojat iedales žurnālu, jāizveido iedales noteikums lapā **Virsgrāmatas sadalījuma noteikumi**.      | Apstrādāt piešķiršanas pieprasījumu             |
 | Apstiprinājums                          | Grāmatojiet apstiprinātos kreditoru rēķinus, kas ir apstiprināti atbilstošajos Virsgrāmatas kontos.  | Rēķinu apstiprināšanas žurnāls                                       |

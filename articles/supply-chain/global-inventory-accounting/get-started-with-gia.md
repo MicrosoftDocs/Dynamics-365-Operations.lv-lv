@@ -1,22 +1,22 @@
 ---
 title: Darba sākšana ar Globālo krājumu uzskaiti
 description: Šajā tēmā ir aprakstīts, kā sākt darbu ar Globālo krājumu uzskaiti.
-author: AndersGirke
+author: JennySong-SH
 ms.date: 06/18/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: intro-internal
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 88f1e9ef8c8b2aa494c44ea3b33713adc470eb96
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 17d4816fc5fcad0b0665640a8347b1f4ea032dd7
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384801"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8679448"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Darba sākšana ar Globālo krājumu uzskaiti
 
@@ -121,7 +121,7 @@ Veiciet šīs darbības, lai iestatītu integrāciju starp Globālo krājumu uzs
 1. Pierakstieties Supply Chain Management.
 1. Dodieties uz **Sistēmas administrēšana \> Līdzekļu pārvaldība**.
 1. Atlasiet **Pārbaudīt atjauninājumus**.
-1. **Cilnē Visi** meklējiet līdzekli ar nosaukumu *(Priekšskatījums) Globālā krājumu uzskaite*.
+1. Cilnē Visi **meklējiet** līdzekli ar nosaukumu (Priekšskatījums) Globālo *krājumu uzskaite*.
 1. Atlasiet **Iespējot tagad**.
 1. Dodieties uz sadaļu **Globālā krājumu uzskaite \> Iestatīšana \> Globālās krājumu uzskaites parametri \> Integrācijas parametri**.
 1. Laukos **Datu pakalpojuma galapunkts** un **Globālās krājumu uzskaites galapunkts** ievadiet vietrāžus URL no e-pasta ziņojuma, ko Globālās krājumu uzskaites grupa nosūtīja, kad pierakstījieties priekšskatījumā.

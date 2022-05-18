@@ -1,6 +1,6 @@
 ---
 title: Statistisko dimensiju elementu un statistisko mēru nodrošinātāju veidnes
-description: Šajā tēmā ir sniegta informācija par statistisko dimensiju elementu un statistisko mēru nodrošinātāju veidnēm. Statistiskos dimensiju elementus var izmantot kā sadalījuma pamatu politikās, piemēram, izmaksu sadalē un izmaksu sadalījumā. Tos var izmantot arī, lai izveidotu izmaksu patēriņa pārskatu beznaudas vērtībām.
+description: Šajā tēmā ir sniegta informācija par statistisko dimensiju elementu un statistisko mēru nodrošinātāju veidnēm.
 author: AndersGirke
 ms.date: 06/16/2017
 ms.topic: article
@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate, CAMAXStatisticalMeasureProviderConfiguration, CAMStatisticalDimensionMember, CAMDataConnectorStatisticalMeasure, CAMImportedStatisticalMeasure, CAMImportedStatisticalMeasureProviderConfiguration
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c79451a5145a6e419ae0e332c67f06ca2df65996f959333a508dbf62dbf435ff
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5daac80fdc62fb996be82aa4c8bb7bb3c8dc03e9
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767651"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8733911"
 ---
 # <a name="provider-templates-for-statistical-dimension-members-and-measure-providers"></a>Statistisko dimensiju elementu un statistisko mēru nodrošinātāju veidnes
 
@@ -69,7 +69,7 @@ Tālāk ir daži parastu statistisko dimensijas elementu piemēri.
 
 ## <a name="statistical-measure-provider-template"></a>Statistisko mērījumu nodrošinātāja veidne
 
-Statistiskos mērījumus var iegūt no dažāda veida avotiem. Dynamics 365 Finance ir lielisks statistisko mēru ieguves avots. Statistisko mērvienību nodrošinātāja veidni var izmantot, lai viegli konfigurētu statistiskos mērījumus, kurus vēlaties izgūt.
+Statistiskos mērījumus var iegūt no dažāda veida avotiem. Dynamics 365 Finanses ir liels avots, no kā izgūt statistikas datus. Statistisko mērvienību nodrošinātāja veidni var izmantot, lai viegli konfigurētu statistiskos mērījumus, kurus vēlaties izgūt.
 
 Statistisko mērījumu nodrošinātāja veidnes definīcija ir vispārīga, un to var atkārtoti izmantot vairākiem statistiskajiem dimensijas elementiem.
 
@@ -128,13 +128,13 @@ Lai iegūtu statistiskos mērījumus analīzē Izmaksu uzskaite, ir jānosaka st
 > [!NOTE]
 > Šajā piemērā mēs izveidosim relāciju tikai **faktiskajai versijai**.
 
-Lai izveidot relāciju, dodieties uz **Izmaksu uzskaites virsgrāmata** \> **Faktiskā versija** \> **Pārvaldība** \> **Statistiskie mēri**. Šajā scenārijā atlasiet datu savienotāju **Dynamics 365 Finance – statistiskie mēri**, jo vēlaties izgūt datus no programmas Finance.
+Lai izveidot relāciju, dodieties uz **Izmaksu uzskaites virsgrāmata** \> **Faktiskā versija** \> **Pārvaldība** \> **Statistiskie mēri**. Šajā scenārijā atlasiet **Dynamics 365 Finanses - statistikas pasākumu** datu savienotāju, jo mēs vēlamies izgūt datus no Finanšu.
 
 **Datu avots**
 
-| Vārds        | Datu savienotājs                                                                     | Statisko dimensiju elements |
+| Nosaukums/vārds, uzvārds        | Datu savienotājs                                                                     | Statisko dimensiju elements |
 |-------------|------------------------------------------------------------------------------------|------------------------------|
-| FTEs D365FO | Dynamics 365 Finance – statistiskie mēri | FTE                         |
+| FTEs D365FO | Dynamics 365 Finanses — statistikas pasākumi | FTE                         |
 
 **Datu nodrošinātāja konfigurācija**
 
@@ -216,13 +216,13 @@ Lai iegūtu statistiskos mērījumus analīzē Izmaksu uzskaite, ir jānosaka st
 > [!NOTE]
 > Šajā piemērā mēs izveidosim relāciju tikai **faktiskajai versijai**.
 
-Lai izveidot relāciju, dodieties uz **Izmaksu uzskaites virsgrāmata** \> **Faktiskā versija** \> **Pārvaldība** \> **Statistiskie mēri**. Šajā scenārijā atlasiet datu savienotāju **Dynamics 365 Finance – statistiskie mēri**, jo vēlaties izgūt datus no programmas Finance.
+Lai izveidot relāciju, dodieties uz **Izmaksu uzskaites virsgrāmata** \> **Faktiskā versija** \> **Pārvaldība** \> **Statistiskie mēri**. Šajā scenārijā atlasiet **Dynamics 365 Finanses - statistikas pasākumu** datu savienotāju, jo mēs vēlamies izgūt datus no Finanšu.
 
 **Datu avots**
 
 | Vārds           | Datu savienotājs                                                                     | Statisko dimensiju elements |
 |----------------|------------------------------------------------------------------------------------|------------------------------|
-| Pakotne CC D365FO | Dynamics 365 Finance – statistiskie mēri | Pakotnes kopija                      |
+| Pakotne CC D365FO | Dynamics 365 Finanses — statistikas pasākumi | Pakotnes kopija                      |
 
 Sistēma atpazīst, ka ProdRouteTrans ir tabula, kur katrs ieraksts pieder atsevišķai juridiskai personai. Tāpēc jums būs jāizvēlas juridiskā persona, no kuras jāimportē darbības.
 

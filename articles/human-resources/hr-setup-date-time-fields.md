@@ -1,6 +1,6 @@
 ---
 title: Informācija par datuma un laika laukiem
-description: Šajā tēmā ir paskaidrots, kas sagaidāms, izmantojot Microsoft laukus Datums un laiks Dynamics 365 Human Resources.
+description: Šajā tēmā skaidrots, ko gaidīt, kad izmantojat Microsoft datuma un laika laukus Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c81155f0c5150af44982f224c8eca2026a78ee7
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: f595e06d9ddc9b44e8820d814d888971444bdf6a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060893"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8688494"
 ---
 # <a name="understand-date-and-time-fields"></a>Informācija par datuma un laika laukiem
 
@@ -28,37 +27,37 @@ ms.locfileid: "8060893"
 
 
 
-**Datums un laiks** lauki ir Microsoft pamatjēdziens Dynamics 365 Human Resources. Ir svarīgi, lai jūs saprastu, kā ar to strādāt **Datums un laiks** dati lapās, in Dataverse un ārējos avotos.
+**Datuma un laika** lauki ir Microsoft fundamentāla koncepcija Dynamics 365 Human Resources. Ir svarīgi izprast, kā strādāt ar datuma **un laika datiem** lapās, Dataverse in un ārējos avotos.
 
 ## <a name="understanding-the-difference-between-date-and-date-and-time-field-data-types"></a>Izprast atšķirību starp datuma un datuma un laika lauku datu veidiem
 
-**Datums un laiks** laukos ir informācija par laika joslu, savukārt **Datums** laukiem nav. **Datums** laukos tiek rādīta viena un tā pati informācija jebkurā vietā. Ievadot datumu laukā a **Datums** laukā tas pats datums tiek ierakstīts datu bāzē.
+**Datuma un laika** laukos ir ietverta informācija par laika joslu **, bet** datuma lauki nav. **Datuma** laukos vienāda informācija tiek rādīta jebkurā vietā. Ievadot datumu laukā **Datums**, šis datums tiek rakstīts datu bāzē.
 
-Kad dati tiek parādīti a **Datums un laiks** laukā datums un laiks tiek pielāgoti, pamatojoties uz lietotāja laika joslu, kas ir atlasīta **Lietotāja opcijas** lappuse (**Bieži \> Uzstādīt \> Lietotāja opcijas**). Laukā ievadītā datuma un laika informācija var nebūt tāda pati kā informācija, kas tiek ierakstīta datu bāzē.
+Kad dati tiek **rādīti laukā Datums un laiks, datums un laiks tiek pielāgoti, pamatojoties uz lietotāja laika joslu,** **kas ir atlasīta lapā Lietotāja opcijas (** Kopējās **iestatījuma lietotāja \> opcijas \>).** Datuma un laika informācija, ko ievadāt laukā, var nebūt tāda pati kā informācija, kas ierakstīta datu bāzē.
 
 [![Lietotāja opciju lapa.](./media/Useroptionsform.png)](./media/Useroptionsform.png)
 
-## <a name="understanding-date-and-time-fields-on-pages"></a>Izpratne par datuma un laika laukiem lapās 
+## <a name="understanding-date-and-time-fields-on-pages"></a>Izzināšanas datuma un laika lauki lapās 
 
 **Datuma un laika** ekrānā parādītie dati nav tādi paši kā dati, kas tiek glabāti datu bāzē, ja lietotāja laika josla nav iestatīta uz koordinēto pasaules laiku (UTC). Dati **Datuma un laika** laukos vienmēr tiek glabāti kā UTC.
 
-[![Darba ņēmēja lapa UTC.](./media/worker-form.png)](./media/worker-form.png)
+[![Darbinieka lapas UTC.](./media/worker-form.png)](./media/worker-form.png)
 
 ## <a name="understand-date-and-time-fields-in-the-database"></a>Izpratne par Datuma un laika laukiem datu bāzē 
 
-Kad **Datums un laiks** vērtība tiek ierakstīta datu bāzē, dati tiek saglabāti kā UTC. Tāpēc lietotāji var redzēt jebkuru **Datums un laiks** datus saistībā ar laika joslu, kas definēta viņu lietotāja opcijās.
+Kad datu **bāzē tiek ierakstīta** datuma un laika vērtība, dati tiek saglabāti kā UTC. Tāpēc lietotāji var redzēt visus datuma **un laika** datus attiecībā pret laika joslu, kas ir noteikta viņu lietotāja opcijās.
  
 Iepriekšminētajā piemērā sākuma laiks ir laika punkts, nevis konkrēts datums. Mainot lietotājā reģistrēto laika joslu no GMT + 12:00 uz GMT UTC, tas pats ieraksts rāda 04/30/2019 12:00:00, nevis 05/01/2019 12:00:00.
 
-Tālāk esošajā piemērā darbinieka 000724 nodarbinātība kļūst aktīva vienlaikus neatkarīgi no laika joslas. Darbinieks būs aktīvs 04/30/2019 GMT laika joslā, kas ir tad pat kad 05/01/2019 GMT + 12:00 laika zonā. Abi attiecas uz vienu un to pašu punktu laikā, nevis konkrētu datumu. 
+Tālāk piemērā darbinieka 000724 nodarbinātība kļūst aktīva vienlaicīgi neatkarīgi no laika zonas. Darbinieks būs aktīvs 04/30/2019 GMT laika joslā, kas ir tad pat kad 05/01/2019 GMT + 12:00 laika zonā. Abi attiecas uz vienu un to pašu punktu laikā, nevis konkrētu datumu. 
 
-[![Darbinieka lapa GMT.](./media/worker-form2.png)](./media/worker-form2.png)
+[![Darbinieka lapas GMT.](./media/worker-form2.png)](./media/worker-form2.png)
 
 ## <a name="date-and-time-data-in-data-management-framework-excel-dataverse-and-power-bi"></a>Datuma un laika dati Datu pārvaldības struktūrā, Excel, Dataverse un Power BI 
 
-Datu pārvaldības sistēma (DMF), Excel pievienojumprogramma,Dataverse, un Power BI Visi ziņojumi ir paredzēti, lai mijiedarbotos ar datiem tieši datu bāzes līmenī. Tā kā nav klienta, lai koriģētu **Datuma un laika** datus uz lietotāja laika joslu, visas **Datuma un laika** vērtības ir UTC, kas var izraisīt dažus kļūdainus pieņēmumus, ievadot vai skatot datus.
+Datu pārvaldības struktūra (DMF), Excel pievienojumprogramma un pārskati tie visi ir veidoti, Dataverse Power BI lai mijiedarbotos ar datiem tieši datu bāzes līmenī. Tā kā nav klienta, lai koriģētu **Datuma un laika** datus uz lietotāja laika joslu, visas **Datuma un laika** vērtības ir UTC, kas var izraisīt dažus kļūdainus pieņēmumus, ievadot vai skatot datus.
  
-Kad **Datums un laiks** dati tiek iesniegti, izmantojot DMF, Excel vai Dataverse, datu bāze pieņem, ka tas ir UTC. Tomēr, ja lietotājiem, kuri skatās datus, lietotāja laika joslai nav iestatīta UTC, tiek iesniegts **Datums un laiks** vērtība neparādīsies, kā paredzēts, un lietotāji var apjukt. 
+Kad **datuma un laika** dati tiek iesniegti, izmantojot DMF, Excel vai, datu bāze pieņem, Dataverse ka tā ir UTC formātā. Tomēr, ja lietotāji, kuri skatā datus, nav iestatījuši savu lietotāja laika joslu uz UTC, **iesniegtā** datuma un laika vērtība neparādīsies kā paredzēts, un lietotāji var tikt jaukti. 
  
 Tas pats var notikt pretēji, kad dati tiek eksportēti. **Datuma un laika** dati eksportētajā DMF elementā var atšķirties no tiem, kas tiek parādīti Dynamics klientā. 
  

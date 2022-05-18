@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-06-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d221e1a47dca85880fd683177ca95dd1b7766fb9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 350fb5a00b85f28fa8aef2ca50cf1f277b8f635e
+ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8064926"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "8743546"
 ---
 # <a name="server-to-server-authentication-for-the-ats-integration-api"></a>Servera-servera autentifikācija ATS integrācijas API
 
@@ -89,7 +89,7 @@ Jaunajai lomai ir jāpiešķir atbilstoša piekļuve vismaz tālāk minētajiem 
 
 Otrā darbība ir nodrošināt, ka programmai tiek piešķirtas atbilstošas atļaujas Human Resources datiem, saistot to ar lietotāju programmā Human Resources. Programmas lietotājam servera-servera izsaukumi, izmantojot Dataverse virtuālās tabulas, tiek veikti lietotāja (programmas) identitātes kontekstā Dataverse, kas tiek atsaukta no darbības. Pēc tam virtuālās tabulas adaptera pakalpojums meklē saistīto lietotāju Human Resources un palaiž vaicājumu šī lietotāja kontekstā. Tas nozīmē, ka lietotājam jābūt izveidotam Human Resources kontā ar pareizām lomām, lai nodrošinātu piekļuvi datiem, kas nepieciešamas integrācijas programmai.
 
-Human Resources lietotājam būs jāpiešķir arī pareizās atļaujas datiem Human Resources datos. Loma **Personāla atlases programma** (HcmRecruitingIntegrator) ir pieejama ar privilēģijām primārajām entītijām, kas nepieciešamas integrēšanai personāla atlases datos. Šo lomu var piešķirt programmas lietotājam lapā **Lietotāji**, lai piešķirtu atbilstošu piekļuvi datiem. Papildinformāciju par Human Resources drošības lomām skatiet sadaļā [Uz lomām balstīta drošība](/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+Human Resources lietotājam būs jāpiešķir arī pareizās atļaujas datiem Human Resources datos. Loma **Personāla atlases programma** (HcmRecruitingIntegrator) ir pieejama ar privilēģijām primārajām entītijām, kas nepieciešamas integrēšanai personāla atlases datos. Šo lomu var piešķirt programmas lietotājam lapā **Lietotāji**, lai piešķirtu atbilstošu piekļuvi datiem. Papildinformāciju par Human Resources drošības lomām skatiet sadaļā [Uz lomām balstīta drošība](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 ### <a name="set-up-the-new-user-with-appropriate-permissions"></a>Iestatīt jaunu lietotāju ar atbilstošām atļaujām
 

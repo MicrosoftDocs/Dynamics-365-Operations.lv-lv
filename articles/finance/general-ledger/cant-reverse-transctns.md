@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-07-21
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 869832f085ee91f6c1fee53dad508cf5e54535627dadd6fb59a7586b03c8ec3b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e18caf1dbdf8191713c17b1793f5da44cf2f182b
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719738"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8724534"
 ---
 # <a name="why-cant-i-reverse-this-transaction"></a>Kādēļ es nevaru atgriezt šo darījumu?
 
@@ -35,7 +35,7 @@ Organizācijas var saskarties ar situācijām, kad tām ir jāatgriež iegrāmat
 
 ## <a name="resolution"></a>Novēršana
 
-Pirms darbību stornšanas darbībām ir jāatbilst noteiktiem kritērijiem. Pārējās šīs tēmas sadaļas sniedz apstiprinājumu katram modulim. Lai gan šī tēma fokusējas uz Microsoft Dynamics 365 Finance darbībām, dažas koncepcijas un apstiprināšana var tikt pielietota citām programmām, piemēram, Dynamics 365 Supply Chain Management.
+Pirms darbību stornšanas darbībām ir jāatbilst noteiktiem kritērijiem. Pārējās šīs tēmas sadaļas sniedz apstiprinājumu katram modulim. Lai gan šī tēma fokusējas Microsoft Dynamics uz darbībām 365 Finansēs, dažas koncepcijas un apstiprināšanu var pielietot citām programmām, piemēram, Dynamics 365 Supply Chain Management.
 
 Turklāt darbības apvērses vieta var ietekmēt to, vai to var atcelt. Piemēram, kreditora maksājumu, kas ir iegrāmatots kā čeks, var atcelt tikai no bankas kontu darbību lapas sadaļas **Čeki**. To nevar anulēt no **Virsgrāmatas dokumentu** darbību lapas.
 

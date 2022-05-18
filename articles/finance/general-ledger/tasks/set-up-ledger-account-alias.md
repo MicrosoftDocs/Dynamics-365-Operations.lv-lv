@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerAccountAlias
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 60e1dc0e61fd11e5498966031fbe7e6e65af2c6f57a820e1c99df05c6ad7f8f2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 50b486cd01850049ab3d23117d994c3db1038124
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745800"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716892"
 ---
 # <a name="set-up-a-ledger-account-alias"></a>Virsgrāmatas konta aizstājvārda iestatīšana
 
@@ -26,17 +26,14 @@ ms.locfileid: "6745800"
 
 Šajā procedūrā parādīts, kā izveidot konta aizstājvārdu, kas nodrošina saīsni konta numura ievadīšanai. Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma USMF dati.
 
-1. Pārejiet uz sadaļu Virsgrāmata > Kontu plāns > Konti > Virsgrāmatas konta aizstājvārds.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Virsgrāmatas konta aizstājvārds ierakstiet kādu vērtību.
-4. Laukā Konta struktūra atlasiet struktūru, kurai pieder konts un dimensijas.
-5. Laukā Uzņēmums noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-6. Sarakstā atrodiet un atlasiet uzņēmumu, uz kuru attiecas aizstājvārds.
-7. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-8. Laukā Virsgrāmatas konta aizstājvārds norādiet kontu un dimensijas.
+1. Dodieties **uz virsgrāmatas > kontu plāna > konta > konta aizstājvārdu**, noklikšķiniet uz **Jauns**.
+2. Laukā **Virsgrāmatas konta aizstājvārds** ierakstiet vērtību.
+3. Laukā **Konta struktūra** atlasiet struktūru, kurai pieder konts un dimensijas.
+4. Laukā **Uzņēmums** sarakstā atlasiet uzņēmumu, uz kuru attiecas aizstājvārds.
+5. Virsgrāmatas konta **aizstājvārda definīcijas** laukā norādiet kontu un dimensijas.
     * Konts un dimensijas tiks aizpildītas, izmantojot šo saīsni.  
-9. Laukā Sākotnējais fokuss atlasiet dimensiju, uz kuru būs vērsts fokuss, kad tiek izmantots šis aizstājvārds.
-    * Kad ievadīsiet saīsni un konts un dimensijas tiks aizpildītas, lauks Sākotnējais fokuss ir lauks, kur tiks pārvietots kursors vai fokuss.  
+6. Laukā Sākotnējais **fokuss** atlasiet dimensiju, kam būs fokuss, lietojot aizstājvārdu.
+    * Pēc saīsnes tipa un konta un dimensijas ir aizpildītas, sākotnējais fokusa lauks norāda, **uz** kurieni kursors vai fokuss pārvietojas.  
 
 
 

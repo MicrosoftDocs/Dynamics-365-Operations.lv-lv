@@ -6,16 +6,15 @@ ms.date: 12/10/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-12-17
-ms.openlocfilehash: 43418b61778d187364d4d52a05178078a37623eb
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: ca7cceb066d30b7bba82265a3654f3bfb26f57f6
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984274"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689106"
 ---
 # <a name="asynchronous-customer-creation-mode"></a>Asinhronā debitora izveides režīms
 
@@ -28,7 +27,7 @@ Komercijas programmā ir divi debitoru izveides veidi: sinhroni (vai sinhroni) u
 Ja opcija **Izveidot klientu asinhronajā režīmā** ir iestatīta uz **Jā** veikala funkcionalitātes profilā (**Retail un Commerce\>Kanāla iestatīšana\>Tiešsaistes veikala iestatīšana\>Funkcionalitātes profili**), reāllaika pakalpojuma zvani netiek izmantoti klientu ierakstu izveidei kanāla datu bāzē. Async debitora izveides režīms neietekmē commerce headquarters veiktspēju. Pagaidu globāli unikāls identifikators (GUID) tiek piešķirts katram jaunam async debitora ierakstam un tiek izmantots kā debitora konta ID. Šis GUID netiek rādīts pārdošanas punkta (POS) lietotājiem. Tā vietā šie lietotāji kā klienta konta ID redzēs **Gaida sinhronizāciju**.
 
 > [!IMPORTANT]
-> Ja POS darbojas bezsaistē, sistēma automātiski izveido debitorus asinhroni, pat ja async debitora izveides režīms ir atspējots. Tāpēc neatkarīgi no veiktās atlases starp sinhronizācijas un async debitoru izveidi Commerce headquarters administratoriem ir jāizveido un jāplāno periodisks pakešuzdevums P darbam, Sinhronizēšanas debitoru un biznesa partneru sinhronizācija no async režīma darba (iepriekš saukts par Sinhronizēt debitorus un biznesa partnerus no **async** režīma), un **·** **·** **1010** darbs, tādējādi visi async debitori tiek konvertēti sinhronizācijā ar debitoriem programmā Commerce Headquarters.
+> Ja POS darbojas bezsaistē, sistēma automātiski izveido debitorus asinhroni, pat ja async debitora izveides režīms ir atspējots. Tāpēc neatkarīgi no veiktās atlases starp sinhronizācijas un async debitoru izveidi Commerce headquarters **administratoriem ir jāizveido un jāplāno periodisks pakešuzdevums P darbam**, **Sinhronizējiet debitorus un biznesa partnerus no async** režīma darba (**iepriekš saukts par Sinhronizēt debitorus un biznesa partnerus no async** režīma), **un 1010** darbu, tādējādi visi async debitori tiek konvertēti sinhronizācijā ar debitoriem programmā Commerce Headquarters.
 
 ## <a name="async-customer-limitations"></a>Asinhrono klientu ierobežojumi
 
@@ -39,19 +38,19 @@ Async debitora funkcionalitātei pašlaik ir šādi ierobežojumi:
 
 ## <a name="async-customer-enhancements"></a>Async debitora uzlabojumi
 
-Attiecībā uz Commerce versijas 10.0.24 laidienu, varat iespējot iespējot uzlabotās async debitoru izveides līdzekli līdzekļu **pārvaldības** **darbvietā**. Šis līdzeklis nodrošina atšķirību starp async un sync debitoru izveides režīmiem POS un e-komercijas sistēmā, izmantojot tālāk norādītos veidus.
+Attiecībā uz Commerce versijas 10.0.24 laidienu, **varat iespējot iespējot uzlabotās async** **debitoru izveides līdzekli līdzekļu pārvaldības darbvietā**. Šis līdzeklis nodrošina atšķirību starp async un sync debitoru izveides režīmiem POS un e-komercijas sistēmā, izmantojot tālāk norādītos veidus.
 
 - Piederības var saistīt ar async debitoriem.
 - Nosaukumus var pievienot async debitoriem.
 - Async debitoriem var fiksēt sekundārās e-pasta adreses un tālruņa numurus.
 
-Attiecībā uz Commerce versijas 10.0.22 izlaidi, jūs varat iespējot asinhronu klientu adrešu funkcijas izveidi Līdzekļu **pārvaldības** **darbvietā**. Šis līdzeklis iespējo jaunizveidotās debitoru adreses asinhroni saglabāt gan sinhronizētajiem debitoriem, gan async debitoriem.
+Attiecībā uz Commerce versijas 10.0.22 izlaidi, **jūs varat iespējot asinhronu** **klientu adrešu funkcijas izveidi Līdzekļu pārvaldības darbvietā**. Šis līdzeklis iespējo jaunizveidotās debitoru adreses asinhroni saglabāt gan sinhronizētajiem debitoriem, gan async debitoriem.
 
-Pēc iepriekš minēto līdzekļu iespējošanas ir jāplāno periodisks pakešuzdevums P darbam, sinhronizēt debitorus un biznesa partnerus no async režīma darba **un** **·** **1010 darbu, lai visi** async debitori tiktu pārvērsti sinhronizācijā ar debitoriem programmā Commerce Headquarters.
+**Pēc iepriekš minēto līdzekļu iespējošanas ir jāplāno periodisks pakešuzdevums P darbam**, **sinhronizēt debitorus un biznesa partnerus no async** **režīma darba un 1010** darbu, lai visi async debitori tiktu pārvērsti sinhronizācijā ar debitoriem programmā Commerce Headquarters.
 
 ### <a name="customer-creation-in-pos-offline-mode"></a>Klientu izveide POS bezsaistes režīmā
 
-Kā tika norādīts iepriekš, vienmēr, kad POS darbojas bezsaistē, sistēma automātiski izveido debitorus asinhroni, pat ja async debitora izveides režīms ir atspējots. Tāpēc Commerce Headquarters administratoriem ir jāizveido un jāplāno periodisks pakešuzdevums P darbam, sinhronizēt debitorus un biznesa partnerus no async režīma darba **un** **·** **1010 darbu, lai visi** async debitori tiktu pārvērsti sinhronizācijā ar debitoriem programmā Commerce Headquarters.
+Kā tika norādīts iepriekš, vienmēr, kad POS darbojas bezsaistē, sistēma automātiski izveido debitorus asinhroni, pat ja async debitora izveides režīms ir atspējots. Tāpēc Commerce Headquarters **administratoriem ir jāizveido un jāplāno periodisks pakešuzdevums P** darbam, **sinhronizēt debitorus un biznesa partnerus no async** režīma darba un **1010** darbu, lai visi async debitori tiktu pārvērsti sinhronizācijā ar debitoriem programmā Commerce Headquarters.
 
 > [!NOTE]
 > Ja opcija **Filtra kopīgotās klientu datu tabulas** ir iestatīta uz **Jā** lapā **Commerce kanālu shēma** (**Retail un Commerce\>Galvenās pārvaldes iestatīšana\>Commerce plānotājs\>Kanālu datu bāzes grupa**), klienta ieraksti netiek izveidoti POS bezsaistes režīmā. Papildinformāciju skatiet tēmā [Datu izņemšana bezsaistē](dev-itpro/implementation-considerations-cdx.md#offline-data-exclusion).

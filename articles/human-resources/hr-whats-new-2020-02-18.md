@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9cce93aab902a8ca269cf22e1999716fe49f3ed8
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 42d00f570403af6e7a6a39a6643eec1f59ccdc20
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063008"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687929"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-18-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2020. gada 18. februāris)
 
@@ -32,7 +31,7 @@ ms.locfileid: "8063008"
 
 ## <a name="platform-update-32"></a>Platformas update 32 
 
-Platform update 32 tagad ir pieejams. Papildinformāciju skatiet [Kas jauns vai mainīts platformas atjauninājumā 32 for Finance and Operations (2020. gada februāris)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md).
+Platform update 32 tagad ir pieejams. Papildinformāciju skatiet sadaļā [Kas jauns vai mainīts platformas atjauninājumā 32 finanšu un operāciju vajadzībām (2020. gada februāris)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md).
 
 ## <a name="search-values-are-remembered-when-changing-view-options-in-streamlined-employee-form-383833"></a>Meklēšanas vērtības tiek saglabātas, kad tiek mainītas skatījuma opcijas racionalizētajā darbinieku veidlapā (383833)
 

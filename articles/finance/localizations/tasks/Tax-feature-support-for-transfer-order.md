@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 2f68a3d7ed4384fe5a97f1e59903e3191df6b741
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: d95ea6795dc5777bfd37f8fbb3ebc47f2db337a0
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647717"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689219"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Nodokļu līdzekļu atbalsts pārsūtīšanas pasūtījumiem
 
@@ -31,7 +30,7 @@ ms.locfileid: "7647717"
 Lai konfigurētu un lietotu šo funkcionalitāti, ir jāveic trīs galvenās darbības:
 
 1. **RCS iestatījumi**: regulēšanas konfigurācijas pakalpojumā iestatiet nodokļu līdzekli, nodokļu kodus un nodokļu kodu piemērojamību nodokļa koda noteikšanai pārsūtīšanas pasūtījumos.
-2. **Dynamics 365 Finance iestatīšana:** programmā Finance iespējojiet līdzekli **Nodoklis pārsūtīšanas pasūtījumā**, iestatiet krājumu nodokļu aprēķina pakalpojumu parametrus un iestatiet galvenos nodokļu parametrus.
+2. **Dynamics 365 finanšu iestatīšana:** **finanšu** iestatījumā iespējojiet līdzekli Nodoklis pārsūtīšanas pasūtījumā, iestatiet krājumu nodokļu aprēķināšanas pakalpojumu parametrus un iestatiet galvenos nodokļu parametrus.
 3. **Krājumu iestatīšana**: iestatiet krājumu konfigurāciju pārsūtīšanas pasūtījumu darījumiem.
 
 ## <a name="set-up-rcs-for-tax-and-transfer-order-transactions"></a>Nodokļu un pārsūtīšanas pasūtījumu darījumu RCS iestatīšana

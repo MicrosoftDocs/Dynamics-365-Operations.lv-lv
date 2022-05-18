@@ -1,21 +1,21 @@
 ---
 title: Iespējot Power BI Globālajai krājumu uzskaitei
 description: Šajā tēmā ir aprakstīts, kā iespējot Microsoft Power BI Globālajai krājumu uzskaiti.
-author: AndersGirke
+author: JennySong-SH
 ms.date: 06/18/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: f0a8f5948d9e30eb220aa8177a4b9718223a4f9d
-ms.sourcegitcommit: 5bfd6511d710deb539b4030eb0e9c48d25513595
+ms.openlocfilehash: 8be486409d60cc4927599816e30e1e4ab21a312a
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8013838"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8669787"
 ---
 # <a name="enable-power-bi-for-global-inventory-accounting"></a>Iespējot Power BI Globālajai krājumu uzskaitei
 
@@ -51,9 +51,9 @@ Lai iestatītu Power BI integrāciju, veiciet tālāk norādītās darbības.
 
     1. Dodieties uz **Manu darbvietu**, atrodiet Globālās krājumu uzskaites datu kopu un pēc tam izvēlnē **Opcijas** atlasiet **Iestatījumi**.
     1. Sadaļā **Globālās krājumu uzskaites iestatījumi** izvērsiet **Parametri** un pēc vajadzības atjauniniet visus parametrus. It īpaši pārbaudiet šādus iestatījumus:
-        1. Pārrakstiet noklusējuma **Dataverse URL** vērtības, izmantojot vērtības, kas atrodamas Power platform vides informācijā **LCS** **(Power platform integrācijas** sadaļā).
-        1. Pārrakstiet noklusējuma vides ID vērtības, izmantojot vērtības, kas atrastas vides papildinformācijā **par** **LCS** (sadaļā **Pārvaldīt** vidi).
-        1. Atlasiet saiti **Rediģēt** akreditācijas datus blakus **CDS** etiķetei datu avota **akreditācijas datu** sadaļā. Tad piesakieties savā Dataverse kontā, izmantojot **OAuth2** autentifikācijas metodi.
+        1. Pārrakstiet noklusējuma **Dataverse URL vērtības**, izmantojot vērtības, kas **atrodamas Power platform vides** informācijā LCS (**Power platform integrācijas sadaļā**).
+        1. Pārrakstiet noklusējuma **vides ID vērtības**, izmantojot vērtības, kas atrastas **vides** papildinformācijā par LCS (sadaļā **Pārvaldīt** vidi).
+        1. Atlasiet saiti **Rediģēt akreditācijas** datus blakus **CDS etiķetei** datu avota akreditācijas **datu** sadaļā. Tad piesakieties savā Dataverse kontā, izmantojot **OAuth2** autentifikācijas metodi.
     1. Pārbaudiet, vai Power BI atskaites, kas atrodamas **Mana darbvieta \> Atskaites \> Globālā krājumu uzskaite**, tagad darbojas pareizi un parāda sistēmas saturu.
 
 1. Reģistrējiet programmu atbilstoši aprakstam sadaļā [Konfigurēt PowerBI.com integrāciju](../../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md#registration-process).

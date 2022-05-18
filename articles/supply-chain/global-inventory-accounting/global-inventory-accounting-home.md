@@ -1,21 +1,21 @@
 ---
 title: Globālās krājumu uzskaites sākumlapa
 description: Šī tēma ir Microsoft Dynamics 365 Supply Chain Management Globālās krājumu uzskaites pievienojumprogrammas mājas lapa.
-author: AndersGirke
+author: JennySong-SH
 ms.date: 06/18/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 7312ab2491814e7cd266e39820f0e87e79dd84e4
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: bd134452de97a9acf74649795850abf620dee799
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103567"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8675210"
 ---
 # <a name="global-inventory-accounting-home-page"></a>Globālās krājumu uzskaites sākumlapa
 

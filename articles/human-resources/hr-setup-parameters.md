@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMParameters, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fd9bb907f95ba4c368871a470ca9b2bc807646ee
-ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.openlocfilehash: 1fc8ba3f69f216d66850485b6ba33cd324a57156
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7771439"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689415"
 ---
 # <a name="configure-human-resources-parameters"></a>Konfigurēt Human Resources parametrus
 
@@ -65,13 +64,13 @@ Iestatījumi lapā **Vispārīgi** nosaka informācijas parādīšanos par kavē
 
 Iestatījumi cilnē **Personāla atlase** definē dokumentu tipus, kas tiek izmantoti sarakstei, kas tiek automātiski nosūtīta kandidātiem. Varat arī norādīt personāla atlases projektu, ko izmanto neapstiprināto pieteikumu saņemšanai.
 
-Periods, kas ir definēts personāla atlases projekta vecumstruktūrā, nosaka, kuri personāla atlases projekti ir iekļauti vecumstruktūras projektu elementā **·** Personāla **·** **atlases pārvaldības** darbvietā. Pieteikuma termiņa brīdinājumam definētais periods tiek izmantots, lai parādītu personāla atlases projektus, kas tuvojas pieteikuma termiņam pieteikumu beigu termiņam, kurš personāla atlases darbvietā tuvojas **·** **·** elementam.
+Periods, kas ir definēts personāla **atlases projekta** vecumstruktūrā, nosaka, kuri personāla atlases projekti ir iekļauti vecumstruktūras projektu elementā Personāla **atlases** **pārvaldības darbvietā**. Pieteikuma termiņa **brīdinājumam** **definētais periods tiek izmantots, lai parādītu personāla atlases projektus, kas tuvojas pieteikuma termiņam pieteikumu beigu termiņam, kurš personāla atlases darbvietā tuvojas elementam.**
 
 Papildinformāciju par pieņemšanu darbā skatiet [Personāla atlases kandidāti](hr-personnel-recruit.md).
 
 ## <a name="compensation"></a>Kompensācija
 
-Iestatījumi cilnē **Atlīdzība** definē, vai lietotājiem ir jāapstiprina, ka viņi vēlas saglabāt informāciju fiksēto vai mainīgo atlīdzību plānam programmā Dynamics 365 Finance. Ja atzīmējat izvēles rūtiņu **Iespējot saglabāšanas pārbaudi**, ikreiz, kad lietotāji aizver ar atlīdzību saistītu lapu, viņi saņem ziņojumu ar jautājumu, vai viņi vēlas saglabāt ierakstu. Dažas Atlīdzības pārvaldības lapas neļauj lietotājiem dzēst informāciju. Tāpēc prasot lietotājiem apstiprināt, ka viņi vēlas saglabāt informāciju, var ierobežot informācijas daudzumu, kas tiek saglabāts un ko nevar izdzēst vēlāk. Ja izvēles rūtiņa **Iespējot saglabāšanas pārbaudi** ir notīrīta, ieraksti tiek vienmēr saglabāti nekavējoties, iespējams pirms lietotājs ir gatavs. Ja jūs izmantojat veiktspējas pārvaldību, cilne **Atlīdzība** ļauj jums izvēlēties vērtēšanas modeli, ko veiktspējas vērtēšanas laikā lietot modeļa, kas piešķirts atlīdzības plāniem, vietā.
+Dynamics 365 Finanses cilnes Atlīdzība iestatījumi nosaka, vai lietotājiem jāapstiprina, **vai** viņi vēlas saglabāt informāciju par fiksētās vai mainīgās atlīdzības sistēmu. Ja atzīmējat izvēles rūtiņu **Iespējot saglabāšanas pārbaudi**, ikreiz, kad lietotāji aizver ar atlīdzību saistītu lapu, viņi saņem ziņojumu ar jautājumu, vai viņi vēlas saglabāt ierakstu. Dažas Atlīdzības pārvaldības lapas neļauj lietotājiem dzēst informāciju. Tāpēc prasot lietotājiem apstiprināt, ka viņi vēlas saglabāt informāciju, var ierobežot informācijas daudzumu, kas tiek saglabāts un ko nevar izdzēst vēlāk. Ja izvēles rūtiņa **Iespējot saglabāšanas pārbaudi** ir notīrīta, ieraksti tiek vienmēr saglabāti nekavējoties, iespējams pirms lietotājs ir gatavs. Ja jūs izmantojat veiktspējas pārvaldību, cilne **Atlīdzība** ļauj jums izvēlēties vērtēšanas modeli, ko veiktspējas vērtēšanas laikā lietot modeļa, kas piešķirts atlīdzības plāniem, vietā.
 
 Cilvēkresursu sadaļā varat lietot cilni **Atlīdzība**, lai izvēlētos ierobežot piekļuvi atlīdzības plāniem un iestatīt noklusējuma valūtu.
 
@@ -107,20 +106,20 @@ Cilnē FMLA iestatiet FMLA piemērotības prasības un FMLA pilnvaru stundas. Pa
 
 ## <a name="employee-self-service"></a>Darbinieku patstāvīgi izmantojamais pakalpojums
 
-Iestatījumi cilnē Darbinieku **pašapkalpošanās** ietekmē to, kā **darbiniekiem parādās** darbinieku pašapkalpošanās. Šajā cilnē varat veikt šādus uzdevumus:
+Iestatījumi cilnē Darbinieku **pašapkalpošanās ietekmē** to, kā darbiniekiem **parādās darbinieku** pašapkalpošanās. Šajā cilnē varat veikt šādus uzdevumus:
 
-- Ievadiet darbinieka **pašapkalpošanās darbvietas** nosaukumu
+- Ievadiet darbinieka pašapkalpošanās **darbvietas** nosaukumu
 - Atlasīt, kuru informāciju vadītājs var ievadīt darbiniekiem
 - Pievienot darbiniekiem noderīgas saites
-- Ierobežot darbinieku kontaktinformācijas pievienošanu vai rediģēšanu. Papildinformāciju skatiet sadaļā [Personas informācijas rediģēšanas](hr-employee-self-service-restrict-editing.md) ierobežošana.
+- Ierobežot darbinieku kontaktinformācijas pievienošanu vai rediģēšanu. Papildinformāciju skatiet sadaļā [Personas informācijas rediģēšanas](hr-employee-self-service-restrict-editing.md)ierobežošana.
 
-Papildinformāciju par to, kā iestatīt **darbinieku** pašapkalpošanos, skatiet darbinieku un [pārvaldnieka pašapkalpošanās](hr-employee-manager-self-service-overview.md) pārskatu.
+Papildinformāciju par to, kā iestatīt darbinieku **pašapkalpošanos**, skatiet darbinieku [un pārvaldnieka pašapkalpošanās pārskatu](hr-employee-manager-self-service-overview.md).
 
 ![Darbinieku pašapkalpošanās cilne.](./media/hr-setup-parameters-employee-self-service.png)
 
 ## <a name="manager-self-service"></a>Vadītāja pašapkalpošanās
 
-Pārvaldnieka **pašapkalpošanās cilnes iestatījumi** ietekmē pārvaldniekus, kas tiek skatīti **pārvaldnieka pašapkalpošanās** sadaļā. Šajā cilnē varat konfigurēt šādas opcijas:
+Pārvaldnieka pašapkalpošanās **cilnes iestatījumi ietekmē** pārvaldniekus, kas tiek skatīti pārvaldnieka **pašapkalpošanās sadaļā**. Šajā cilnē varat konfigurēt šādas opcijas:
 
 - Ierakstu, kuru skaits beidzas, diapazons
 - Informācijas pārvaldnieki var skatīt ierakstus, kuru termiņš beidzas
@@ -128,13 +127,13 @@ Pārvaldnieka **pašapkalpošanās cilnes iestatījumi** ietekmē pārvaldniekus
 - Izejas darbinieku skatījumi
 - Noderīgas saites vadītājiem
 
-Papildinformāciju par to, kā iestatīt **pārvaldnieka** pašapkalpošanos, skatiet [darbinieku un pārvaldnieka pašapkalpošanās](hr-employee-manager-self-service-overview.md) pārskatu.
+Papildinformāciju par to, kā iestatīt pārvaldnieka **pašapkalpošanos**, skatiet darbinieku [un pārvaldnieka pašapkalpošanās pārskatu](hr-employee-manager-self-service-overview.md).
 
 ![Vadītāja pašapkalpošanās cilne.](./media/hr-setup-parameters-manager-self-service.png)
 
 ## <a name="benefits-management"></a>Atvieglojumu pārvaldība
 
-Cilnē **Atvieglojumu pārvaldība** varat konfigurēt e-pasta opcijas atvieglojumu pārvaldībai. Papildinformāciju par to, kā iestatīt un lietot atvieglojumu pārvaldību, skatiet atvieglojumu [pārvaldības](hr-benefits-management-overview.md) pārskatā.
+Cilnē Atvieglojumu **pārvaldība varat** konfigurēt e-pasta opcijas atvieglojumu pārvaldībai. Papildinformāciju par to, kā iestatīt un lietot atvieglojumu pārvaldību, skatiet atvieglojumu [pārvaldības pārskatā](hr-benefits-management-overview.md).
 
 ![Cilne Atvieglojumu pārvaldība.](./media/hr-setup-parameters-benefits-management.png)
 

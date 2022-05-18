@@ -1,7 +1,7 @@
 ---
 title: Izlaist uz noliktavu
 description: Šajā tēma sniegta informācija par izlaišanas noliktavā procedūru. Tajā aprakstītas tās entitījas, kuras tiek izveidotas, izlaižot pasūtījumu uz noliktavu, un opcijas, kuras varat lietot, lai iniciētu šo procesu.
-author: mirzaab
+author: Mirzaab
 ms.date: 8/13/2021
 ms.topic: article
 ms.search.form: WHSReleaseToWarehouse, WHSReleaseToWarehouseSalesOrder, WHSReleaseToWarehouseTransferOrder, WHSLoadPlanningWorkbench, WHSWaveTemplateTable, WHSWorkTemplateTable, WHSLocDirTable
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 3269bf3f8a5475fb85e6b51514db29006be9aab1
-ms.sourcegitcommit: b52ff5dfd32580121f74a5f262e5c2495e39d578
+ms.openlocfilehash: 8624db42e9d0f3d08ed3b582224ed7937d52f85d
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "8376212"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8678356"
 ---
 # <a name="release-to-warehouse"></a>Izlaist uz noliktavu
 
@@ -125,7 +125,7 @@ Lai iestatītu pakešuzdevumu, ar kuru izlaiž pārdošanas pasūtījumus, izpil
     - **Izlaižamais daudzums** — Atlasiet, vai uz noliktavu vajadzētu izlaist visu daudzumu vai tikai fiziski rezervēto daudzumu.
     - **Ļaut daļēji izlaistu pasūtījumu izlaišanu** — Norādiet, vai uz noliktavu vajadzētu izlaist atlikušos daļēji izlaisto pasūtījumu daudzumus.
     - **Paturēt rezervācijas izlaišanas kļūmes gadījumā** — Norādiet, vai daudzumus, kuri tika automātiski rezervēti pārdošanas pasūtījumam, ir jāturpina rezervēt, ja izlaišana uz noliktavu neizdodas.
-    - **Grupēt laidienus pēc debitora** – norādiet, vai sistēmai jāapstrādā nodošana noliktavas operācijām atsevišķi katram klientam vai vienlaikus jānodod visi pārdošanas pasūtījumi. Ja šī opcija ir iestatīta uz *Jā*, sistēma apkopo visas atlasītā klienta pārdošanas pasūtījuma rindas, nodod šos pasūtījumus noliktavai un pēc tam apstrādā nākamo klientu. Ja šī opcija ir iestatīta uz *Nē*, sistēma nodod visas pieejamās pārdošanas pasūtījuma rindas vienā laidienā noliktavas operācijai. Iespējojot šo opciju, varat palīdzēt uzlabot izlaišanas uz noliktavu procesa veiktspēju un noturību. Tomēr, izmantojot šo opciju, jums jābūt uzmanīgiem kopā ar viļņu veidnēm, kas ir konfigurētas viļņu apstrādei izlaišanas brīdī noliktavā, jo šī kombinācija var ģenerēt daudzus viena klienta viļņus, no kuriem katram ir darbs, kas ģenerēts tikai šim klientam. Ja vēlaties ģenerēt darbu, kas apvieno sūtījumus vairākiem klientiem, izslēdziet *opciju Grupēt laidienus pēc klienta* vai konfigurējiet viļņu veidnes, lai izmantotu atlikto apstrādi.
+    - **Grupas izpilde pēc debitora** – norādiet, vai sistēmai ir jāapstrādā atsevišķas pārsūtīšanas uz noliktavu operācijas katram debitoram vai jāizlaiž visi pārdošanas pasūtījumi vienlaicīgi. Kad ir iestatīta opcija *Jā*, sistēma apkopos visas pārdošanas pasūtījuma rindas atlasītajam debitoram, izlaiž šos pasūtījumus noliktavā un pēc tam apstrādās nākamo debitoru. Kad šī opcija ir iestatīta uz *Nē*, sistēma izlaiž visas pieejamās pārdošanas pasūtījuma rindas vienā darbības izpildei noliktavā. Iespējojot šo opciju, varat palīdzēt uzlabot izlaišanas uz noliktavas procesu veiktspēju un piederību tām. Tomēr, ja izmantojat šo opciju, kopā ar laidiena veidnēm, kas ir konfigurētas laidieniem, kuri tiek konfigurēti laidieniem, kuri tiek izlaisti nosūtīšanai uz noliktavu, ir jābūt piesardzīgiem, jo šī kombinācija var ģenerēt daudzus viena debitora kopumus, no kuriem katram ir darbs, kas ģenerēts tikai šim debitoram. Ja vēlaties ģenerēt darbu, kas apvieno kravas vairākiem debitoriem, *izslēdziet* opciju Grupas izlaide pēc debitora vai konfigurējiet laidiena veidnes, lai izmantotu atliktu apstrādi.
     - **Bloķēta pasūtījuma apstrāde** — Atlasiet, kā sistēmai vajadzētu apstrādāt pārdošanas pasūtījumus, kuri ir pašlaik ir bloķēti, jo tos rediģē citi lietotāji vai procesi:
 
         - *Gaidīt uz pasūtījumu atbloķēšanu* — Sistēmai vajadzētu pagaidīt, līdz pasūtījumi tiek atbloķēti, pirms tie tiek izlaisti uz noliktavu. Šajā gadījumā izlaišana uz noliktavu varētu aizņemt vairāk laika.

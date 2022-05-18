@@ -1,6 +1,6 @@
 ---
 title: Datu integrācijas tehnoloģiju izvēle
-description: Šajā tēmā sniegta informācija par datu, kurus pārvalda personāla vadība, integrēšanu.
+description: Šajā tēmā sniegta informācija par integrēšanu ar personāla vadības pārvaldītajiem datiem.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 24ddd242185d736287f61ec250c631ab65e08c95
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 98c1c56b445ae426103d19f96cbf1a77891221ef
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065045"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717144"
 ---
 # <a name="choose-a-data-integration-technology"></a>Datu integrācijas tehnoloģiju izvēle
 
@@ -31,7 +30,7 @@ ms.locfileid: "8065045"
 
 
 
-Šajā tēmā sniegta informācija datu, kurus pārvalda Dynamics 365 Human Resources, integrēšanai. Tas apraksta dažādas integrēšanas tehnoloģijas, lai palīdzētu jums izlemt, kuras tehnoloģijas vislabāk atbilst jūsu vajadzībām.
+Šajā tēmā sniegta informācija par integrēšanu ar datiem, ko pārvalda Dynamics 365 cilvēkresursi. Tas apraksta dažādas integrēšanas tehnoloģijas, lai palīdzētu jums izlemt, kuras tehnoloģijas vislabāk atbilst jūsu vajadzībām.
 
 ## <a name="data-integration-background"></a>Datu integrācijas fons
 
@@ -71,7 +70,7 @@ Dataverse tabulas un to saistītie API ir vislabākā opcija, lai piekļūtu Per
 
 ### <a name="dmfdixf-entities"></a>DMF/DIXF elementi
 
-Cilvēkresursi, kas galvenokārt veidoti uz tās pašas platformas, kur Finance and Operations lietojumprogrammas, nodrošina a [Datu pārvaldības sistēma (DMF)](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json). DMF ir zināms arī kā Datu importēšanas un eksportēšanas struktūra (DIXF). Personāla vadība nodrošina datu elementu kopu, ko varat izmantot, lai importētu un eksportētu Personāla vadības datus. Lai gan Dataverse tabulas ir Personāla vadības izvēlētais datu integrācijas interfeiss, DMF elementi joprojām ir noderīgi dažos tālāk minētajos gadījumos:
+Cilvēkresursi, galvenokārt uz tās pašas platformas, kurā atrodas finanšu un operāciju programmas, nodrošina datu [pārvaldības struktūru (DMF)](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json). DMF ir zināms arī kā Datu importēšanas un eksportēšanas struktūra (DIXF). Personāla vadība nodrošina datu elementu kopu, ko varat izmantot, lai importētu un eksportētu Personāla vadības datus. Lai gan Dataverse tabulas ir Personāla vadības izvēlētais datu integrācijas interfeiss, DMF elementi joprojām ir noderīgi dažos tālāk minētajos gadījumos:
 
 - Dataverse tabulas vēl nav pieejamas.
 
@@ -114,7 +113,7 @@ BYOD ir piemērots pārskatu risinājumiem, datu integrācijām, datu jaucējpro
 
 ### <a name="odata-enabled-entities"></a>OData iespējotie elementi
 
-Lielākā daļa DMF elementu ir iespējoti arī piekļuvei, izmantojot Human Resources datu pakalpojumu (OData). Dokumentācija, kas paredzēta [Finanšu un operāciju OData pakalpojums](/dynamics365/unified-operations/dev-itpro/data-entities/odata) attiecas uz cilvēkresursiem, izņemot savu OData pakļauto entītiju izveidi.
+Lielākā daļa DMF elementu ir iespējoti arī piekļuvei, izmantojot Human Resources datu pakalpojumu (OData). Dokumentācija, kas sniegta Finanšu [un operāciju OData](/dynamics365/unified-operations/dev-itpro/data-entities/odata) pakalpojumam, attiecas uz cilvēkresursiem, izņemot pašu OData atklāto entītiju izveidi.
 
 Lai gan Dataverse un OData implementācijai, ko sniedz Dataverse (izmantojot [Dynamics 365 Web API](/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8))), tiek dota priekšroka pret Human Resources datu pakalpojumu, Human Resources datu pakalpojumam pašlaik ir pilnīgāks elementu segums Human Resources datiem.
 
@@ -128,11 +127,11 @@ Excel pievienojumprogramma ir piemērota speciālai datu importēšanai/eksport�
 
 Jūs varat izmantot [Datu integratora pakalpojumu](/powerapps/administrator/data-integrator), lai integrētu datus uz un no Dataverse. Datu integrētāju ļauj jums definēt integrācijas projektus, bieži pamatojoties uz iepriekš noteiktām veidnēm, ko programmas izstrādātāji ir pielāgojuši noteiktām integrācijām. Jūs varat ieplānot integrācijas projektu palaišanu automātiskai izpildei periodiskā grafikā vai to palaišanai manuāli.
 
-Datu integratora projekti ir piemēroti Dataverse partijas integrācijai. Tā ir lieliska izvēle integrācijai starp Dynamics 365 saimes programmām. Piemēram, Microsoft nodrošina Datu integrētāja veidni, ko var izmantot datu integrācijai no Personāla vadības uz Dynamics 365 Finance. Jūs varat uzzināt vairāk par veidni sadaļā  [Integrācija no Dynamics 365 Human Resources uz Dynamics 365 Finance](hr-admin-integration-finance.md).
+Datu integratora projekti ir piemēroti Dataverse partijas integrācijai. Tā ir lieliska izvēle integrācijai starp Dynamics 365 saimes programmām. Piemēram, Microsoft nodrošina datu integrētāāja veidni datu integrēšanai dynamics 365 finansēs no personāla vadības. Par veidni Integrācija no Dynamics [Dynamics 365 Human Resources 365 finansēm varat uzzināt vairāk](hr-admin-integration-finance.md).
 
 ### <a name="power-query"></a>Power Query
 
-Datu integrators atbalsta [Power Query](/power-query/power-query-what-is-power-query) caur to [Uzlabotā vaicājuma funkcija](/powerapps/administrator/data-integrator#advanced-data-transformation-and-filtering). Power Query nodrošina jaudīgu, elastīgu datu filtrēšanu un pārveidošanu, tostarp bagātīgo M formulas valodu. Power Query iespējams, būs pazīstams, ja esat attīstījis Power BI ziņojumi.
+Datu integrētājs atbalsta paplašinātā [Power Query](/power-query/power-query-what-is-power-query) vaicājuma [līdzekli](/powerapps/administrator/data-integrator#advanced-data-transformation-and-filtering). Power Query nodrošina jaudīgu, elastīgu datu filtrēšanu un pārvēršanu, ietverot bagātinātās M formulas valodu. Power Query iespējams, būs zināms, ja būsiet izstrādājis Power BI pārskatus.
 
 ## <a name="deciding-on-an-integration-technology"></a>Lemšana par integrācijas tehnoloģiju
 

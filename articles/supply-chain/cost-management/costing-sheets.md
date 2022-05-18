@@ -1,7 +1,7 @@
 ---
 title: Izmaksu aprēķināšanas lapas
 description: Aprēķina shēmas iestatīšana ietver divus mērķus. Kā pirmo mērķi jūs nosakiet formātu pārdoto preču izmaksu informācijas parādīšanai par ražoto vienību vai ražošanas pasūtījumu. Noformētais ekrāns ir nosauktā aprēķina shēma. Kā otro mērķi jūs nosakiet pamatu netiešo izmaksu aprēķināšanai. Aprēķina shēmas iestatījums balstās uz izmaksu grupas līdzekli informācijas parādīšanai un netiešo izmaksu aprēķināšanas formulām. Šajā rakstā ir aprakstīti divi izmaksu aprēķināšanas shēmu iestatīšanas mērķi.
-author: AndersGirke
+author: JennySong-SH
 ms.date: 11/18/2021
 ms.topic: article
 ms.search.form: CostSheetDesigner, CostSheetCalculationFactor
@@ -9,15 +9,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 53201
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64b8a9b8b29193f25e706e52424de2af3454aec8
-ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
+ms.openlocfilehash: 6891fc4472e714133a7d0cdf77f2908becc0547c
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/18/2021
-ms.locfileid: "7825362"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8672435"
 ---
 # <a name="costing-sheets"></a>Izmaksu aprēķināšanas lapas
 
@@ -30,8 +30,8 @@ Aprēķina shēmas iestatīšana ietver divus mērķus. Kā pirmo mērķi jūs n
 | Loma | Piekļuve
 |---|---|
 | Uzskaites vadītājs | Rediģēt |
-| Krājumu grāmatvedības darbinieks | Apskatīt |
-| Krājumu grāmatvedis | Apskatīt |
+| Krājumu grāmatvedības darbinieks | Skatīt |
+| Krājumu grāmatvedis | Skatīt |
 
 Izmaksu aprēķina lapa ir formatēta informācijas parādīšana par to preču izmaksām, kas pārdotas atbilstoši izgatavotajai precei vai ražošanas pasūtījumam. Iestatot izmaksu aprēķina lapu, nosakiet informācijas formātu, kā arī netiešo izmaksu aprēķināšanas pamatu. Izmaksu aprēķina iestatījums pamatojas uz izmaksu grupas līdzekļiem informācijas parādīšanai un netiešo izmaksu aprēķināšanas formulām. Šeit ir plašāka informācija par diviem izmaksu aprēķina lapas iestatījuma mērķiem:
 

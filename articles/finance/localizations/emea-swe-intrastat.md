@@ -1,20 +1,20 @@
 ---
 title: Zviedrijas Intrastat
 description: Šajā tēmā ir ietverta informācija par Intrastat pārskatiem Zviedrijā.
-author: andosip
+author: anasyash
 ms.date: 8/24/2021
 ms.topic: article
 audience: Application User
-ms.reviewer: kfender
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: v-aosipov
+ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 152bfd24843867685b1d303484ed61ad98ec652a
-ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
+ms.openlocfilehash: 1031b93950e44fe3b1b6254bf1503b4c09d6fd10
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7486950"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727403"
 ---
 # <a name="swedish-intrastat"></a>Zviedrijas Intrastat
 
@@ -43,7 +43,7 @@ Plašāka informācija pieejama rakstā [Elektronisko pārskatu (ER) konfigurāc
 
 ## <a name="set-up-foreign-trade-parameters"></a>Iestatīt starptautiskās tirdzniecības parametrus
 
-1. Risinājumā Microsoft Dynamics 365 Finance dodieties uz **Nodokļi** > **Iestatījumi** > **Ārējās tirdzniecības parametri**.
+1. Microsoft Dynamics 365 Finanšu gadā dodieties uz **TaxSetupForeign** > **·** > **tirdzniecības parametriem**.
 2. Kopsavilkuma cilnē **Elektroniskie pārskati** cilnē **Intrastat** laukā **Failu formātu kartēšana** atlasiet **Intrastat (SE)**.
 3. Laukā **Pārskata formāta kartēšana** atlasiet **Intrastat pārskats**.
 4. Kopsavilkuma cilnes **Preču kodu hierarhija** laukā **Kategoriju hierarhija** atlasiet **Intrastat**.

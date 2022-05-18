@@ -3,7 +3,7 @@ title: Veikala atlasītāja modulis
 description: Šajā tēmā aplūkots veikalu atlasītāja modulis un aprakstīts, kā to pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/08/2021
+ms.date: 05/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0ee9d3cec9c524f73472929052d46d87f8270ba67568314eceb462b1803cf149
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7276f25daada8286490ad7e1af2b350e4a2805bb
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772160"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710784"
 ---
 # <a name="store-selector-module"></a>Veikalu atlasītāja modulis
 
@@ -59,6 +59,16 @@ Lai ievadītu veikala atrašanās vietas platumu un garumu programmā Commerce H
     ![Veikala platuma un garuma iestatījuma piemērs galvenajā birojā.](./media/Store-latitude-longitude.png)
 
 1. Darbību rūtī atlasiet **Saglabāt**. 
+
+### <a name="hide-a-store-from-the-store-selector-module"></a>Veikala paslēpšanas no veikala atlases moduļa
+
+Daži veikali izpildes grupā, iespējams, nav derīgi saņemšanas novietojumi. Lai nodrošinātu, ka veikala atlasītāja modulī tiek rādītas tikai derīgās saņemšanas vietas, izpildiet šīs darbības programmā Commerce Headquarters.
+
+1. Pārejiet uz **sadaļu Mazumtirdzniecības un \> Commerce \> Commerce iestatīšanas izpildes grupas \> visiem veikaliem**.
+1. Darbību rūtī atlasiet **Rediģēt**.
+1. Sadaļā **Iestatījumi** katram veikalam, kas nav derīga izdošanas vieta, **noņemiet atzīmi no izvēles rūtiņas Ir izdošanas** vieta.
+1. Darbību rūtī atlasiet **Saglabāt**.
+1. Palaidiet 1070 **kanāla konfigurācijas sadales** grafika darbu.
 
 ## <a name="bing-maps-integration"></a>Bing karšu integrācija
 

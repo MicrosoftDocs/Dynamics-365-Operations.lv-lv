@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetPlanSetLayout
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 261794
 ms.assetid: 1d8e99c1-b70d-41ba-991e-ab50b16797e0
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8297548bee83d1e982f50c4e5adae748f9f40137362f4ad47ad837ea2af96c29
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 90691aec0ffad8d33a19a09e7bc521cd6d6a09a9
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775174"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711981"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Budžeta plānošanas veidnes programmai Excel
 
@@ -55,7 +55,7 @@ Izkārtojuma konfigurāciju varat pārskatīt un pēc nepieciešamības koriģē
 Excel veidnē būs visi elementi no budžeta plāna dokumenta izkārtojuma, kur kolonnas **Pieejams darblapā** vērtība ir iestatīta uz Patiess. Excel veidnē nav atļauta elementu pārklāšanās. Piemēram, ja izkārtojumā ietilpst kolonnas Pieprasījums Q1, Pieprasījums Q2, Pieprasījums Q3 un Pieprasījums Q4, un kopīgā pieprasījuma kolonna, kas pārstāv visu četru ceturkšņu kolonnu summu, tad Excel veidnē lietošanai ir pieejamas tikai ceturkšņa kolonnas vai kopējā kolonna. Atjaunināšanas laikā Excel fails nevar atjaunināt kolonnas, kas pārklājas, jo tabulā esošie dati varētu kļūt novecojuši vai neprecīzi.
 
 > [!NOTE] 
-> Lai nepieļautu iespējamas problēmas saistībā ar budžeta plāna datu skatīšanu un rediģēšanu, izmantojot programmu Excel, programmā Microsoft Dynamics 365 Finance un Microsoft Dynamics Office pievienojumprogrammā Datu savienotājs ir jāpiesakās vienam un tam pašam lietotājam.
+> Lai izvairītos no potenciālām problēmām ar budžeta plāna datu skatīšanu un rediģēšanu, izmantojot Excel, Microsoft Dynamics viens un tas pats lietotājs jāpiesakās gan 365 Microsoft Dynamics Finansēs, gan Office pievienojumprogrammu datu savienotājā.
 
 ## <a name="add-a-header-to-budget-plan-document-template"></a>Pievienot galveni budžeta plāna dokumenta veidnei
 Lai pievienotu galvenes informāciju, atlasiet augšējo rindu Excel failā un ievietojiet tukšas rindas. Programmā **Datu savienotājs** noklikšķiniet uz **Dizains**, lai Excel failam pievienotu galvenes laukus.
@@ -79,7 +79,7 @@ Atlasītajā lauku grupā tiek rādītas veidnē pieejamās kolonnas. Noklikšķ
 [![Pievienot un ievietot kolonnu.](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> Lai formulu definētu, izveidojiet šo formulu izklājlapā un pēc tam to iekopējiet logā **Dizains**. Ar Finance and Operations saistītai tabulai parasti tiek piešķirts nosaukums “AXTable1”. Piemēram, lai izklājlapā apkopotu kolonnas Pieprasījums Q1 : Pieprasījums Q4, tiek izmantota formula = AxTable1\[Pieprasījums Q1\]+AxTable1\[Pieprasījums Q2\]+AxTable1\[Pieprasījums Q3\]+AxTable1\[Pieprasījums Q4\].
+> Lai formulu definētu, izveidojiet šo formulu izklājlapā un pēc tam to iekopējiet logā **Dizains**. Ar programmatūru Dynamics 365 for Finance and Operations saistītai tabulai parasti tiek piešķirts nosaukums “AXTable1”. Piemēram, lai izklājlapā apkopotu kolonnas Pieprasījums Q1 : Pieprasījums Q4, tiek izmantota formula = AxTable1\[Pieprasījums Q1\]+AxTable1\[Pieprasījums Q2\]+AxTable1\[Pieprasījums Q3\]+AxTable1\[Pieprasījums Q4\].
 
 Atkārtojiet šīs darbības, lai ievietotu kolonnu **Korekcija**. Šai kolonnai izmantojiet formulu = AxTable1\[Kopējais pieprasījums\]\*$I$1. Šādi šūnā I1 esošā vērtība tiks izmantota reizināšanai ar vērtībām kolonnā **Kopējais pieprasījums**, lai aprēķinātu korekcijas summas.
 

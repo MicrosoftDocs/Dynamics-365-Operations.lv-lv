@@ -8,34 +8,33 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmSharedParameters, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 51891
 ms.assetid: c7d8f58c-d78a-4035-abbf-2b0ce16109fe
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 039d8e2100824921d568c013fe3e113e1b091979
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: e59745e01905be50e6908fb9587b8afc17604382
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7729103"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8692119"
 ---
 # <a name="configure-shared-parameters"></a>Konfigurēt koplietotos parametrus
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Jums jāiestata koplietojamie parametri ierakstiem, kas tiek koplietoti visu uzņēmumu, piemēram, **amatu** ierakstu gadījumos. Šajā tēmā skaidrots, kā iestatīt personāla vadības parametrus juridiskajām personām.
+Jums jāiestata koplietojamie parametri ierakstiem, kas tiek koplietoti visu uzņēmumu, piemēram, amatu **ierakstu** gadījumos. Šajā tēmā skaidrots, kā iestatīt personāla vadības parametrus juridiskajām personām.
 
-Daži ierakstu veidi, piemēram, **Amatu** ieraksti, tiek koplietoti uzņēmumu dažādos uzņēmumos. Šiem ierakstiem ir jāiestata koplietojamie parametri. Piemēram, lapa Cilvēkresursu **kopīgie** parametri tiek izmantota, lai iestatītu personāla vadības parametrus dažādām juridiskajām personām. 
+Daži ierakstu veidi, piemēram, Amatu **ieraksti**, tiek koplietoti uzņēmumu dažādos uzņēmumos. Šiem ierakstiem ir jāiestata koplietojamie parametri. Piemēram, lapa Cilvēkresursu **kopīgie parametri** tiek izmantota, lai iestatītu personāla vadības parametrus dažādām juridiskajām personām. 
 
 Lapā **Personāla vadības kopīgie parametri** parametri tiek grupēti apgabalos, pamatojoties uz to funkcionalitāti. 
 
 ### <a name="settings"></a>Iestatījumi
-Cilnē **Identifikācija** ir jāatlasa identifikācijas tipi, kas pārstāv šajā lapā uzskaitītos identifikācijas numurus. Identifikācijas tipi ir jāiestata, pirms darbiniekiem varat ievadīt identifikācijas informāciju. Informācija par sociālās apdrošināšanas numuru, nacionālo ID numuru, ārzemnieka ID numuru un personas kodu tiek glabāta lapā **Identifikācijas tips**. Lai definētu jaunu identifikācijas tipu vai pārskatītu esošo tipu sarakstu, dodieties uz personāla **vadības saišu** &gt; **·** &gt; **iestatījuma** &gt; **identifikācijas** tipiem. Var ievadīt vienkāršu kodu un aprakstu. 
+Cilnē **Identifikācija** ir jāatlasa identifikācijas tipi, kas pārstāv šajā lapā uzskaitītos identifikācijas numurus. Identifikācijas tipi ir jāiestata, pirms darbiniekiem varat ievadīt identifikācijas informāciju. Informācija par sociālās apdrošināšanas numuru, nacionālo ID numuru, ārzemnieka ID numuru un personas kodu tiek glabāta lapā **Identifikācijas tips**. Lai definētu jaunu identifikācijas tipu vai pārskatītu esošo tipu sarakstu, dodieties uz personāla vadības saišu **iestatījuma** &gt; **·** &gt; **identifikācijas** &gt; **tipiem.** Var ievadīt vienkāršu kodu un aprakstu. 
 
-Cilnē Numuru sērijas var atlasīt numuru sērijas, kas tiek izmantotas šādiem ierakstiem: personāla numurs, amats, lietotāja pieprasījuma **·** **·** **·** **·** ID, **I-9** dokuments, **·** **·** **·** **·** kandidāts, diskusija, atvieglojuma ID un personāla darbība (ja šis ieraksta tips ir iespējots). Lai saglabātu numuru sēriju atsauces un kodus, lietojiet saraksta lapu **Numuru sērijas**. Lai atrastu šo lapu, lietojiet lapu meklēšanas funkciju. 
+**Cilnē Numuru sērijas var atlasīt numuru sērijas, kas tiek izmantotas šādiem ierakstiem:** **personāla numurs, amats,** **lietotāja pieprasījuma ID**, **I**-9 dokuments **,** **·** **kandidāts, diskusija,** atvieglojumu **ID** **un personāla darbība (ja šis ieraksta tips ir iespējots).** Lai saglabātu numuru sēriju atsauces un kodus, lietojiet saraksta lapu **Numuru sērijas**. Lai atrastu šo lapu, lietojiet lapu meklēšanas funkciju. 
 
 Cilnē **Amati** norādiet, vai jauni amati ir pieejami piešķiršanai pēc noklusējuma:
 
@@ -44,7 +43,7 @@ Cilnē **Amati** norādiet, vai jauni amati ir pieejami piešķiršanai pēc nok
 
 Cilnē **Paplašināta piekļuve** var ierobežot piekļuvi informācijai vai saitēm:
 
-- **Ierobežot piekļuvi darbinieka informācijai – atlasiet šo funkciju, ja lietotājiem vajadzētu būt spēt skatīt darbinieku informāciju tikai tām juridiskajām personām, kurām viņiem ir piekļuve, un darbiniekiem, kuriem ir nodarbinātība šajās** juridiskajās personām.
+- **Ierobežot piekļuvi darbinieka informācijai** – atlasiet šo funkciju, ja lietotājiem vajadzētu būt spēt skatīt darbinieku informāciju tikai tām juridiskajām personām, kurām viņiem ir piekļuve, un darbiniekiem, kuriem ir nodarbinātība šajās juridiskajās personām.
 
     Pēc šīs funkcijas izvēles izpildiet šīs darbības, lai iestatītu atbilstošās atļaujas katram lietotājam, kura skatījums ir jāierobežo:
 
@@ -57,6 +56,6 @@ Cilnē **Paplašināta piekļuve** var ierobežot piekļuvi informācijai vai sa
     > [!NOTE]
     > Uzņēmumiem, kuriem lietotājam ir piekļuve, ir jāatbilst visām lietotāja lomām.
 
-- **Iespējot starpuzņēmumu kompensāciju skatu** — atlīdzība darbiniekiem tiek piešķirta katrai nodarbinātības juridiskajai personai. Dažreiz darbinieks var tikt nodarbināts vairākās juridiskajās personās vienlaicīgi. Kad šī funkcija ir atlasīta, atlīdzība katrai juridiskajai personai tiks parādīta darbinieku pašapkalpošanās un pārvaldnieka pašapkalpošanās sistēmā bez nepieciešamības **·** mainīt **·** juridiskās personas. 
+- **Iespējot starpuzņēmumu kompensāciju skatu** — atlīdzība darbiniekiem tiek piešķirta katrai nodarbinātības juridiskajai personai. Dažreiz darbinieks var tikt nodarbināts vairākās juridiskajās personās vienlaicīgi. Kad šī funkcija ir atlasīta, atlīdzība katrai **juridiskajai personai tiks parādīta darbinieku pašapkalpošanās** **un pārvaldnieka pašapkalpošanās sistēmā** bez nepieciešamības mainīt juridiskās personas. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

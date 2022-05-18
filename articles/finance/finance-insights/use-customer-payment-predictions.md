@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: ed70e133b93c783542d4669b679fc5b6d2d20240
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: ecc864485dfc106df22b48e92a85f2c73d58e0e8
+ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968916"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740629"
 ---
 # <a name="use-customer-payment-predictions"></a>Debitoru maksājumu prognožu izmantošana
 
@@ -28,15 +28,15 @@ ms.locfileid: "7968916"
 
 Šajā tēmā ir paskaidrots, kā izmantot debitoru maksājumu prognozes. Pirms izmantojat šo līdzekli, pārliecinieties, vai esat pabeidzis tā uzstādīšanas darbības. Plašāku informāciju skatiet šeit: [Debitoru maksājumu prognozēšanas iespējošana](enable-cust-paymnt-prediction.md).
 
-Debitoru maksājumu prognozes var skatīt darbvietā Pārvaldīt debitoru kredītu un atgādinājumus, kā arī divās jaunās **saraksta** **lapās: darbību maksājumu prognozēšana** un debitoru maksājumu **prognozēšanas**.
+Debitoru maksājumu prognozes var skatīt **darbvietā Pārvaldīt debitoru kredītu un atgādinājumus**, kā arī divās jaunās saraksta lapās: darbību **maksājumu prognozēšana** un **debitoru maksājumu prognozēšanas**.
 
 ### <a name="manage-customer-credit-and-collections-workspace"></a>Darbvieta Debitora kredīta un iekasēšanas pārvaldība
 
-Darbvieta **Pārvaldīt debitora kredītu un iekasēšanas** darbalauku ietver divas jaunas darbības: darbību **maksājumu prognozes un debitoru maksājumu** **prognozēšanas**.
+Klienta **kredīta pārvaldīšanas un iekasēšanas darbvietā** ir ietvertas divas jaunas darbības: **darbību maksājumu prognozes un** **debitoru maksājumu prognozēšanas**.
 
 ### <a name="transaction-payment-predictions-list-page"></a>Darījuma maksājuma prognožu saraksta lapa
 
-Saraksta lapā Darbību maksājumu prognozes varat skatīt maksājumu iespējamību atvērtām darbībām laika, nokavēto un **ļoti** **·** **·** **nokavēto** intervālu ietvaros. Katram darījumam režģī kolonna **Iespējamība Laicīgi** parāda iespējamību, ka rēķins tiks apmaksāts apmaksas datumā vai pirms tā. Ja iespējamība, ka ir maksājums notiks laicīgi, ir mazāka par 50 procentiem, blakus procentuālajai vērtībai kolonnā **Iespējamība: laicīgi** tiek parādīts sarkans aplis, lai norādītu novēlota maksājuma risku.
+Saraksta lapā **Darbību maksājumu prognozes** **varat** skatīt maksājumu iespējamību atvērtām darbībām laika, **nokavēta** un ļoti **vēlu intervālos.** Katram darījumam režģī kolonna **Iespējamība Laicīgi** parāda iespējamību, ka rēķins tiks apmaksāts apmaksas datumā vai pirms tā. Ja iespējamība, ka ir maksājums notiks laicīgi, ir mazāka par 50 procentiem, blakus procentuālajai vērtībai kolonnā **Iespējamība: laicīgi** tiek parādīts sarkans aplis, lai norādītu novēlota maksājuma risku.
 
 [![Lapa Maksājumu prognoze katram darījumam.](./media/payment-predictions-per-transaction.png)](./media/payment-predictions-per-transaction.png)
 
@@ -52,7 +52,7 @@ Dati sadaļā **Galvenie faktori** un kopsavilkuma cilnēs **Klientu ieskati** u
 
 ### <a name="customer-payment-predictions-list-page"></a>Debitora maksājuma prognožu saraksta lapa
 
-Debitoru maksājumu prognozēšanas saraksta lapa parāda kopējo atvērto bilanci un summu, kas ir prognozēta apmaksai Pēc laika, Nokavēto un **Ļoti** **·** **·** **vēlu** intervālos.
+Debitoru **maksājumu prognozēšanas** saraksta lapa parāda kopējo atvērto bilanci un summu, **kas** ir paredzētu apmaksai laikā, **·** **nokavētos un ļoti vēlu laika** intervālos.
 
 [![Lapa Maksājumu prognozes katram debitoram.](./media/payment-predictions-per-transaction-02.png)](./media/payment-predictions-per-transaction-02.png)
 
@@ -80,16 +80,12 @@ Lapas labajā pusē esošajā sadaļā **Saistītā informācija** tiek rādīta
 - Kopsavilkuma cilnē **Debitora ieskati** redzams pašreizējais rēķina, maksājuma un iekasēšanas statistika par debitoru atlasītajam darījumam.
 - Kopsavilkuma cilnē **Debitora vēsture** tiek radīta debitora maksājumu vēsture intervālos **Laicīgi**, **Novēloti** un **Ļoti novēloti**.
 
-Dati, kas ir **debitoru ieskatu un** debitoru vēstures kopsavilkuma **cilnēs**, palīdz skaidrot maksājumu prognozes. Tas var palīdzēt palielināt jūsu pārliecību par prognožu efektivitāti.
+Dati, kas ir debitoru ieskatu **un** debitoru **vēstures kopsavilkuma** cilnēs, palīdz skaidrot maksājumu prognozes. Tas var palīdzēt palielināt jūsu pārliecību par prognožu efektivitāti.
 
 ## <a name="improving-the-accuracy-of-payment-predictions"></a>Maksājumu prognožu precizitātes uzlabošana
 
 Varat skatīt maksājumu prognožu precizitāti, dodoties uz **Kredīti un iekasēšana \> Iestatīšana \> Finanšu ieskati \> Finanšu ieskatu parametri**. Cilnē **Debitoru maksājumu ieskati** sadaļa **Prognozēšanas modelis** parāda prognozēšanas modeļa precizitāti procentos.
 
-[![Maksājumu prognožu precizitāte.](./media/finance-insights-parameters-accuracy-2nd.png)](./media/finance-insights-parameters-accuracy-2nd.png)
-
-Ja neesat apmierināts ar precizitāti, atlasiet saiti **Uzlabot modeļa** precizitāti, lai atvērtu AI Builder paplašinājumu pieredzi. Paplašinājuma pieredzi var atlasīt vai atcelt lauku atlasi, līdz esat atlasījis laukus, kurus uzskatāt par vissvarīgākajiem, lai precīzi AI Builder prognozētu maksājumu iespējamības. Kad esat pabeidzis, varat viegli saglabāt prognozēšanas modeli un publicēt izmaiņas. Jaunais apmācītais prognozēšanas modelis tiks automātiski izvēlēts prognozēm pakalpojumā Dynamics 365 Finance.
-
-[![AI Builder paplašinājuma pieredze.](./media/ai-builder.png)](./media/ai-builder.png)
+Ja neesat apmierināts ar precizitāti, atlasiet saiti **Uzlabot modeļa precizitāti**, lai atvērtu paplašinājumu AI Builder pieredzi. Paplašinājuma AI Builder pieredzi var atlasīt vai atcelt lauku atlasi, līdz esat atlasījis laukus, kurus uzskatāt par vissvarīgākajiem, lai precīzi prognozētu maksājumu iespējamības. Kad esat pabeidzis, varat viegli saglabāt prognozēšanas modeli un publicēt izmaiņas. Jaunais ierobežotais prognozēšanas modelis automātiski tiks saņemts prognozēm Dynamics 365 finansēs.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
-title: Norādīt starpkursu
-description: Šajā tēmā ir sniegta informācija par starpkursiem programmā Microsoft Dynamics 365 Finance.
+title: Starpkursa norādīšana
+description: Šajā tēmā sniegta informācija par krusteniskām likmēm Microsoft Dynamics 365 Finansēs.
 author: abruer
 ms.date: 05/16/2018
 ms.topic: article
@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c46ac3324a985810ede61072190014538d0b7ed36f7eedfc387468619cc88cb2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ed1db707cf6aed7c9def76ebbbdef7032b8776b6
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737021"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735295"
 ---
-# <a name="specify-the-cross-rate"></a>Norādīt starpkursu
+# <a name="specify-the-cross-rate"></a>Starpkursa norādīšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidrots starpkursa nolūks un tas, kā norādīt starpkursu, ja sedzat maksājumu ar rēķinu. Izmantojiet starpkursu, kad ir spēkā visi šie kritēriji: 
+Šajā tēmā skaidrots starpkursa nolūks un tas, kā norādīt starpkursu, ja sedzat maksājumu ar rēķinu. Lietojiet starplikmi, ja lietojat šādus kritērijus: 
 -   Jūs sedzat maksājumu ar rēķinu. 
 -   Maksājuma rinda un rēķina rinda izmanto dažādas valūtas. 
 -   Neviena no valūtām nav uzskaites valūta. 

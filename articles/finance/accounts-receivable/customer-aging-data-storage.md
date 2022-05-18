@@ -8,26 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 497d49da84f4df90877908bef3031e079bc36066
-ms.sourcegitcommit: d0e99545d722c924db57ae2bd06f72154a1f1f97
+ms.openlocfilehash: 1af4b4cbf503369565ee64ad8889ee9e59a92b3f
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557883"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735526"
 ---
 # <a name="customer-aging-data-storage"></a>Klientu vecumstruktūras datu krātuve
 
 [!include [banner](../includes/banner.md)]
 
-
-Šajā tēmā aprakstīts process, kā debitoru vecumstruktūras datiem izmantot ārējo krātuvi. Microsoft Dynamics 365. finanšu gadā varat palaist debitoru vecumstruktūras datu glabāšanas procesu, lai padarītu izvadi pieejamu eksportam uz ārēju sistēmu. Kad izpildījāt procesu, ārējās sistēmā pieejamās vecumstruktūras pārskata opcijas ir pieejamas arī ārējās sistēmas. Dati vienmēr tiek iekļauti eksportētos datos.
+Šajā tēmā aprakstīts process, kā debitoru vecumstruktūras datiem izmantot ārējo krātuvi. Microsoft Dynamics 365. finanšu gadā varat **palaist** debitoru vecumstruktūras datu glabāšanas procesu, lai padarītu izvadi pieejamu eksportam uz ārēju sistēmu. Kad izpildījāt procesu, ārējās sistēmā pieejamās vecumstruktūras pārskata opcijas ir pieejamas arī ārējās sistēmas. Dati vienmēr tiek iekļauti eksportētos datos.
 
 Tas var būt lietderīgi, lai padarītu debitoru vecumstruktūras datus pieejamus ārējai sistēmai glabāšanai gadījumos, kad izvadei ir daudz debitoru un/vai daudzas darbības. Ja esošais Debitoru **vecumstruktūras** pārskats ieiet, jo tam ir pārāk daudz datu, ko drukāt, šī funkcija nodrošina alternatīvu veidu, kā iegūt tos pašus datus.
 

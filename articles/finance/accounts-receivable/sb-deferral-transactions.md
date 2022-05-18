@@ -9,20 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, Operations
 ms.custom: 539093
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: f66c538afc732caf3faed3cfea6c695ff7f16273
-ms.sourcegitcommit: d0e99545d722c924db57ae2bd06f72154a1f1f97
+ms.openlocfilehash: 5913308d4ee9fdcb8cf2b862171078f27f651662
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557977"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686022"
 ---
-# <a name="deferral-default-transactions"></a>Atlikto maksājumu noklusējuma darbības
+# <a name="deferral-default-transactions"></a>Atlikto maksājumu noklusējuma transakcijas
 
 Šajā tēmā aprakstītas darbības, kas ļauj veikt ieņēmumu un izdevumu atliktos maksājumus. Atlikto maksājumu grafiki vienmēr tiek balstīti uz un ir atkarīgi no sākotnējā dokumenta vai rēķina grafika. Atlikto maksājumu grafiki tiek izveidoti pēc noklusējuma, un tos nevar ievadīt vai izveidot atsevišķi.
 
@@ -123,7 +122,7 @@ Lapā **Transakciju atlikto** maksājumu lapa satur šādus laukus.
 | Atzīšanas konts | Norādiet patēriņa atzīšanas konta numuru. |
 | Sākotnējās atzīšanas konts | <p>Norādiet kontu sākotnējai patēriņa atzīšanas summai. Noklusētā vērtība ir no atlikto maksājumu **noklusējumu** lapas.</p><p>Šis lauks ir pieejams tikai tad **, ja atlikto maksājumu** **·** **grāmatošanas metodes lauks lapā Ieņēmumu un izdevumu atlikto maksājumu parametri ir iestatīts uz Peļņa un** zaudējumi.</p> |
 | Atzīšanas korespondējošais konts | <p>Norādiet kontu patēriņa atzīšanas korespondējošai summai. Noklusētā vērtība ir no atlikto maksājumu **noklusējumu** lapas.</p><p>Šis lauks ir pieejams tikai tad **, ja atlikto maksājumu** **·** **grāmatošanas metodes lauks lapā Ieņēmumu un izdevumu atlikto maksājumu parametri ir iestatīts uz Peļņa un** zaudējumi.</p> |
-| **Ieplānot** | |
+| **Grafiks** | |
 | Grafika veids | <p>Atlasiet atliktā maksājuma grafika tipu: lineārā **·**(noklusējums) vai **atbilstoši notikumam**.</p><p>Lapā parādītās opcijas ir balstītas uz jūsu izvēlēto atlikto maksājumu grafika tipu.</p><p>Ja noklusējuma veidne ir iestatīta atlikto **maksājumu noklusējumu lapā darbības rindai, atlikto maksājumu grafika tips tiek pamatots uz atlasītās** veidnes tipu.</p> |
 | **Grafiks - lineārā** | |
 | Konsolidēt iepriekšējos periodus | <p>Norādiet, vai vēlaties konsolidēt atlikto maksājumu grafika rindas agrākiem periodiem:</p><ul><li>**Jā** – konsolidēt atlikto maksājumu grafika rindas par agrākiem periodiem.</li><li>**Nē** - nekonsolidējiet atlikto maksājumu grafika rindas agrākiem periodiem.</li></ul><p>Noklusētā vērtība ir no ieņēmumu **un izdevumu atlikto maksājumu parametru** lapas.</p> |

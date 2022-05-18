@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmSkillMapping, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: adcb7387b9ac21a88c1ee047d1b9573708a14abb
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 83669ce2a864ff8646dfafdfb242489e4d5a44cf
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068873"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8688578"
 ---
 # <a name="develop-a-succession-plan"></a>Pēctecības plāna izstrāde
 
@@ -38,8 +37,8 @@ Augot organizācijai, jāsāk pēctecības plānošana. Pēctecības plānošan�
 7. Atlasiet **Persona**.
 8. Laukā **Persons** ierakstiet kādu vārdu vai atlasiet no nolaižamā saraksta.
 9. Atlasiet **Labi**.
-10. Izvērsiet **kopsavilkuma cilni Sertifikāti**, lai skatītu vai rediģētu prasmju kartēšanā iekļautos sertifikātus.
-11. Izvērsiet **kopsavilkuma cilni Prasmes**, lai skatītu vai rediģētu iekļaujamās prasmes.
+10. Izvērsiet kopsavilkuma **cilni Sertifikāti**, lai skatītu vai rediģētu sertifikātus, kas ietverti prasmju kartēšanā.
+11. Izvērsiet kopsavilkuma **cilni** Prasmes, lai skatītu vai rediģētu iekļaujamās prasmes.
 12. Sarakstā atzīmējiet pirmo rindu. Piemērs: Grāmatvedība.
 13. Atlasiet izvēles rūtiņu **Nav obligāti**.
 14. Laukā **Svarīgums** atlasiet kādu opciju. Ja kādu prasmi atzīmējat kā neobligātu, jums šai prasmei ir jānorāda svarīguma līmenis.  
@@ -52,7 +51,7 @@ Augot organizācijai, jāsāk pēctecības plānošana. Pēctecības plānošan�
 21. Sarakstā atlasiet 4. rindu.
 22. Atlasiet izvēles rūtiņu **Nav obligāti**.
 23. Laukā **Svarīgums** atlasiet kādu opciju.
-24. Izvērsiet **kopsavilkuma cilni Izglītība**, lai skatītu vai rediģētu prasmju kartēšanā iekļaujamās izglītības kompetences.
+24. Izvērsiet kopsavilkuma **cilni Izglītība**, lai skatītu vai rediģētu izglītības zināšanas, kas jāiekļauj prasmju kartēšanā.
 25. Atlasiet **Izpildīt**.
 26. Atlasiet **Labi**.
 27. Atlasiet **Rezultāts**.

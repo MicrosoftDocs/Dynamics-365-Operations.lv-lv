@@ -1,25 +1,22 @@
 ---
 title: Fantoma krājumi
-description: Šajā tēmā ir detalizēti aprakstīts, kā rindas tipu Fantoms var izmantot materiālu komplekta (MK) un formulas rindām programmā Dynamics 365 Supply Chain Management.
+description: Šajā tēmā ir aprakstīts, kā fantoma rindas tipu var lietot materiālu komplekta (MK) rindām un formulai sadaļā Dynamics 365 Supply Chain Management.
 author: johanhoffmann
-ms.date: 06/15/2018
+ms.date: 05/05/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
-ms.search.validfrom: ''
-ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8e1b241c826e89909590ae16c8458bc49df995bd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.search.validFrom: 2022-05-05
+ms.dyn365.ops.version: 10.0.23
+ms.openlocfilehash: 5c9768381d35709611e4bec3d2b7793a4d896b34
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572821"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713252"
 ---
 # <a name="phantom-items"></a>Fantoma krājumi
 
@@ -27,49 +24,55 @@ ms.locfileid: "7572821"
 
 Šajā sadaļā ir sniegta detalizēta informācija par to, kā fantoma rindas veidu var izmantot materiālu komplektu (MK) un formulas rindām.
 
-Nākamajā attēlā (a) ir preces H un daļu F un G MK un (b) ir preces H un daļas F maršruta lapa.
+1. att., (a) ir preces H, F un G daļu MK, un (b) ir maršruta lapa produktiem H un daļa F.
 
-![MK struktūras piemērs divos līmeņos.](media/product-H-part-F.png)
+![1. attēls: Tehniskais MK.](media/product-H-part-F.png)
+*1. attēls: Tehniskais MK*
 
-Šajā attēlā ir redzams MK struktūras divos līmeņos piemērs. Pabeigtā prece H pārstāv iekārtas montāžai paredzētu preci. Iekārtas montāža ietver divas daļas, elektroiekārtu (F), kas ietver divus materiālus (A un B), un iepakojuma materiālu grupu (G), kas arī ietver divus materiālus (C un D). Iekārtas vispārējas montāžās laikā tiek izmantots cits materiāls (E).
+1. attēlā parādīts MK struktūras piemērs divos līmeņos. Pabeigtā prece H pārstāv iekārtas montāžai paredzētu preci. Iekārtas montāža ietver divas daļas, elektroiekārtu (F), kas ietver divus materiālus (A un B), un iepakojuma materiālu grupu (G), kas arī ietver divus materiālus (C un D). Iekārtas vispārējas montāžās laikā tiek izmantots cits materiāls (E).
 
-![Inženierzinātnes MK precei H.](media/product-H-part-B.png)
+1. attēlā ir tehniskais MK precei H. Šī struktūra sniedz labi apskatīt visas iekārtas montāžas daļas un komponentus. Taču, lai gan preces izstrādātāji varētu vēlēties, lai MK tiek parādīts šādā veidā, šī struktūra var pareizi neatspoguļot viedu, kādā iekārta tiek būvēta ražošanas laikā.
 
-Iepriekšējā attēlā ir redzams preces H konstruēšanas MK. Šī struktūra sniedz labu pārskatu par vispārējās iekārtas montāžas daļām un komponentiem. Taču, lai gan preces izstrādātāji varētu vēlēties, lai MK tiek parādīts šādā veidā, šī struktūra var pareizi neatspoguļot viedu, kādā iekārta tiek būvēta ražošanas laikā.
-
-Piemēram, konstruēšanas MK iepriekšējā attēlā norāda, ka elektroiekārta F tiek montēta kā atsevišķa daļa pēc atsevišķa darba pasūtījuma. Tomēr ražotnē var novērtēt labāk, ka elektroiekārtas montāža tiek veikta vispārējā iekārtas montāžas ietvaros, nevis kā atsevišķa darba pasūtījuma izpilde.
+Piemēram, 1. attēlā parādītais tehniskais MK norāda, ka elektriskā vienība F ir salikta kā atsevišķa daļa atsevišķā darba pasūtījumā. Tomēr ražotnē var novērtēt labāk, ka elektroiekārtas montāža tiek veikta vispārējā iekārtas montāžas ietvaros, nevis kā atsevišķa darba pasūtījuma izpilde.
 
 Šo konstruēšanas MK arī norāda, ka daļa G ir atsevišķa daļa. Tomēr šajā struktūrā daļa G nepārstāv fizisko daļu, bet iepakojuma materiālu komplektu.
 
 Tāpēc, lai gan konstruēšanas MK nodrošina preces konstrukcijas un šīs konstrukcijas uzturēšanas lielu vērtību, tas var nebūt loģiskākais veids, kā atbalstīt preces ražošanas izpildes procesu. Turpretim konstruēšanas MK ir labākais veids, kā veidot preci.
 
-Nākamajā attēlā ir parādīts, kā iepriekšējais konstruēšanas MK tiek pārvērsts par ražošanas MK. Šajā attēlā (a) ir preces H MK un b ir preces H maršruta lapa.
+2. attēlā ir parādīts, kā iepriekšējais tehniskais MK pāriet uz ražošanas MK. 2. attēlā (a) ir preces H MK, un b ir produkta H maršruta lapa.
+
+![2. attēls: Ražošanas MK.](media/product-H-part-B.png)
+*2. attēls: Ražošanas MK*
 
 Šajā struktūrā var redzēt, ka nav nekas norādīts par daļu F un G, un materiāli, kurus ietver šīs daļas, ir pārnesti uz nākamo MK līmeni.
 
 Atšķirībā no konstruēšanas MK, kurā bija divas operāciju lapas, ražošanas MK ir tikai viena operāciju lapa. Iepakojuma operācija, kas ir saistīta ar daļu G, arī ir pārnesta, un tā tagad ir preces H operācijas lapas daļa. Elektroierīces montāža ir pirmajā operācija. Šai secībai ir jēga, jo šī ierīce tiek izmantota nākamajā darbībā, kas ir iekārtas montāža. Pēdējā operācija ir iepakošanas darbība, kurā tiek izmantoti divi iepakojuma materiāli (C un D).
 
-Pāreja no konstruēšanas MK uz ražošanas MK ir tiek nodrošināta, izmantojot MK rindas tipu Fantoms. Kā jau termins “fantoms” norāda, pārejas starp abiem MK viediem laikā daļa F un G ir pazudusi. Šajā piemērā fantoma rindas veids tiek lietots daļas F un G MK rindās konstruēšanas MK. Izveidojot ražošanas vai partijas pasūtījumu, konstruēšanas MK tiek kopēts ražošanas vai partijas pasūtījumā. Pēc tam, novērtējot pasūtījumu, rodas pāreja no konstruēšanas MK uz ražošanas MK, kā parādīts iepriekšējos attēlos. Saskaņā ar operācijas lapu otrajā attēlā iepakojuma materiāls C un D tiek ievadīts operācijai.
+Pāreja no konstruēšanas MK uz ražošanas MK ir tiek nodrošināta, izmantojot MK rindas tipu Fantoms. Kā jau termins “fantoms” norāda, pārejas starp abiem MK viediem laikā daļa F un G ir pazudusi. Šajā piemērā fantoma rindas veids tiek lietots daļas F un G MK rindās konstruēšanas MK. Izveidojot ražošanas vai partijas pasūtījumu, konstruēšanas MK tiek kopēts ražošanas vai partijas pasūtījumā. Pēc pasūtījuma prognozēšanas notiek pāreja no tehnikas MK uz ražošanas MK, kā parādīts 2. att. No operāciju lapas 2. attēlā, operācijai tiek ievadīti iepakojuma materiāli C un D.
 
 ## <a name="multilevel-phantom-bom-structures"></a>Daudzlīmeņu fantoma MK struktūras
 
-Fantoma rindas veidu var izmantot daudzlīmeņu MK struktūrās, kā parādīts nākamajā attēlā. Šajā attēlā (a) ir preces G MK un (b) ir daļas E un F un preces G maršruta lapa.
+Fantoma rindas tipu var izmantot vairāklīmeņu MK struktūrās, kā parādīts 3. attēlā. 3. attēlā (a) ir preces G MK, un (b) ir maršruta lapa E un F daļām un precei G.
 
-![Fantoma rindas tips, ko izmanto vairāklīmeņu MK struktūrās.](media/product-G-route-sheet-G.png)
+![3. attēls: Tehnikas MK daļa G.](media/product-G.png)
+*3. attēls: Tehnikas MK daļa G*
 
-Nākamajā attēlā ir parādīts galīgais ražošanas MK un maršruta lapa, ja daļas E un F MK rindas ir konfigurētas tā, lai rindas veids ir fantoms. Šajā attēlā (a) ir preces G MK un (b) ir preces G maršruta lapa.
+4. attēlā redzama izveidotā ražošanas MK un maršruta lapa, ja E un F daļu MK rindas ir konfigurētas tā, lai rindas tips būtu Fantoms. 4. att., (a) ir preces G MK un (b) ir produkta G maršruta lapa.
 
-![Prece G.](media/product-G.png)
+![4. attēls: Ražošanas MK daļa G.](media/product-G-route-sheet-G.png)
+*4. attēls: Ražošanas MK daļa G*
 
 ## <a name="phantom-and-route-network"></a>Fantoms un maršruta tīkls
 
-Fantoma MK var izmantot arī MK, kam ir maršruta tīkls. Maršruta tīklā viena vai vairākas operācijas tiek veiktas paralēli. Nākamajā attēlā ir parādīts tāda maršruta tīkla piemērs, kas tiek izmantots daudzlīmeņu MK. Šajā attēlā (a) ir preces G un daļas F MK un (b) ir preces G un daļas F, kam ir maršruta tīkls, maršruta lapa.
+Fantoma MK var izmantot arī MK, kam ir maršruta tīkls. Maršruta tīklā viena vai vairākas operācijas tiek veiktas paralēli. 5. attēlā parādīts vairāklīmeņu MK izmantotā maršruta tīkla piemērs. 5. att., (a) ir MK precei G, daļai F un (b) ir maršruta lapa produktam G un daļai F, kurai ir maršruta tīkls.
 
-![Maršruta tīkla piemērs, kas tiek izmantots vairāklīmeņu MK.](media/product-G-part-F.png)
+![5. attēls: Tehnika MK daļa G, maršruta tīkls.](media/product-G-part-F.png)
+*5. attēls: Tehnika MK daļa G, maršruta tīkls*
 
-Nākamajā attēlā (a) ir preces G un daļas F MK un (b) ir preces G un daļas F maršruta lapa.
+6. attēlā (a) ir preces G un F daļas MK, un (b) ir preces G un F daļas maršruta lapa.
 
-![Preces G un daļas F MK un maršruta lapa produktam G un daļa F.](media/product-G-part-F-with-route-sheet.png)
+![6. attēls: Ražošanas MK daļa G, maršruta tīkls.](media/product-G-part-F-with-route-sheet.png)
+*6. attēls: Ražošanas MK daļa G, maršruta tīkls*
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

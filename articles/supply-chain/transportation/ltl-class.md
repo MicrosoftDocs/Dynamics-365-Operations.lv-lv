@@ -1,22 +1,22 @@
 ---
 title: Mazāk par autokravu (LTL) klases
 description: Šajā tēmā skaidrots, kas ir mazāk par autokravu (LTL) klases, un apraksta, kā to iestatīt sistēmā Microsoft Dynamics 365 Supply Chain Management.
-author: Henrikan
+author: Weijiesa
 ms.date: 04/05/2021
 ms.topic: article
 ms.search.form: WHSLTLClass
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: weijiesa
 ms.search.validFrom: 2021-04-05
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 4349e649e48e5103a53a5e6ab332d127fd1de27aa7b06953533198d3928d250a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a6e05ea7534ee081778a899d5956e6ca7cd104cb
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782375"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8678071"
 ---
 # <a name="less-than-truckload-ltl-classes"></a>Mazāk par autokravu (LTL) klases
 

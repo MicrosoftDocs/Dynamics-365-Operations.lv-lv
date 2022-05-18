@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b104cec399a368ada64a73688c42476e6fbd9e52
-ms.sourcegitcommit: 304a482dfcc31dcb61849f710ae73432324ddef3
+ms.openlocfilehash: 497739e56c6ce0f4fe0bd4aec889f0782d08fc4a
+ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/29/2021
-ms.locfileid: "7947344"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8720172"
 ---
 # <a name="impair-right-of-use-assets"></a>Līdzekļa lietošanas tiesību mazināšana
 
@@ -39,7 +39,7 @@ LLT līdzekļa atlikums tiks amortizēts atlikušajam periodu skaitam neatkarīg
 4. Laukā **Darījuma datums** ievadiet datumu, kad ir jāgrāmato vērtības samazinājuma ieraksts.
 5. Laukā **Atlikušie periodi** ievadiet atlikušo mēnešu skaitu, kam jāveic amortizācija.
 6. Iestatiet opciju **Priekšskatījums**, lai skatītu piedāvāto līdzekļu bilanci un finanšu ierakstu pirms to izveides vai grāmatošanas.
-7. Iestatiet opciju **Aizvērt grāmatu** uz **Jā**, lai aizvērtu nomas grāmatu. Šo darbību var atsaukt, izmantojot nomas statusu Atkārtoti **atvērt**. Ierakstus nevar grāmatot slēgtām nomām, un slēgtās nomas nevar koriģēt. 
+7. Iestatiet opciju **Aizvērt grāmatu** uz **Jā**, lai aizvērtu nomas grāmatu. Šo darbību var atsaukt, izmantojot nomas statusu **Atkārtoti atvērt**. Ierakstus nevar grāmatot slēgtām nomām, un slēgtās nomas nevar koriģēt. 
 8. Atlasiet **Grāmatot,** lai izveidotu vai grāmatotu pasliktināšanās ierakstu.
 
     > [!NOTE]

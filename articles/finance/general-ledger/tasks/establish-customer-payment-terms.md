@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: PaymDay, PaymTerm, CashDisc
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 12c26cfedca3f3b0eec1a3b068184522f87ff8d103a41b81a0775bf5a35d0e03
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 16d861294a80ddb44c78760b329e544bc4665130
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766967"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716976"
 ---
 # <a name="establish-customer-payment-terms"></a>Debitoru maksājumu nosacījumu izveide
 
@@ -26,7 +26,7 @@ ms.locfileid: "6766967"
 
 Šī procedūra definē termiņatlaides un apmaksas datuma iestatījumus. Šis uzdevuma ceļvedis izmanto USMF demonstrācijas uzņēmumu.
 
-1. Pārejiet uz sadaļu **Navigācijas rūts > Moduļi > Debitori > Maksājumu iestatīšana > Maksājumu dienas**. **Apmaksas nosacījumu** ir kopīgi **Debitoriem** un **Kreditoriem**. Ja tos definējat modulī, tie būs pieejami arī citā modulī. Šajā uzdevumu ceļvedī visi apmaksas nosacījumi izveidoti sadaļā **Debitori**.
+1. Pārejiet uz sadaļu **Navigācijas rūts > Moduļi > Debitori > Maksājumu iestatīšana > Maksājumu dienas**. **Apmaksas nosacījumu** ir kopīgi **Debitoriem** un **Kreditoriem**. Ja tos definējat modulī, tie būs pieejami arī citā modulī. Šajā uzdevumu ceļvedī ir iestatīti visi debitoru parādu **maksāšanas** termiņi.
 2. Klikšķiniet **Jauns**. Izveidojiet maksāšanas dienu, ja apmaksas nosacījumos ir prasīta konkrēta nedēļas diena (pirmdiena, otrdiena u.c.) vai konkrēts mēneša datums (5., 10. u.c.). 
 3. Ievadiet ID laukā **Maksājuma diena**.
 4. Laukā **Apraksts** ievadiet maksājuma dienas īsu aprakstu.

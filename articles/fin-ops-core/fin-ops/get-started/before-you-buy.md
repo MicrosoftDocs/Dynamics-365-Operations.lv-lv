@@ -1,7 +1,7 @@
 ---
 title: Pirms iegādes
-description: Detalizēti norādījumi, ko izmantot, apsverot Dynamics 365 Finance, Dynamics 365 Supply Chain Management vai Dynamics 365 Commerce iegādi.
-author: ShellyBakke
+description: Pakāpeniskas norādes, ko izmantot, ņemot vērā Dynamics 365 finanšu, Dynamics 365 Supply Chain Management vai pirkšanas iespēju Dynamics 365 Commerce.
+author: sericks007
 ms.date: 11/30/2021
 ms.topic: article
 ms.prod: ''
@@ -10,29 +10,29 @@ audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.custom: 21761
 ms.search.region: Global
-ms.author: smiller
+ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: f994acfb85e5bb7ccb9cbd3e6c0a0f3c4eec318a
-ms.sourcegitcommit: 34113bd588d53b9aed481da060a1c6738fca0eaf
+ms.openlocfilehash: 9c2f658fbf7fd4db38d572ff80e9d500b5548e0a
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/30/2021
-ms.locfileid: "7874588"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713281"
 ---
 # <a name="before-you-buy"></a>Pirms iegādes
 
 [!include [banner](../includes/banner.md)]
 
-Jauns Dynamics 365 Finance, Dynamics 365 Supply Chain Management vai Dynamics 365 Commerce lietotājs? Esam izveidojuši detalizētus norādījumus, kas noderēs neatkarīgi no tā, vai joprojām izvērtējat vai arī esat gatavs veikt pirkumu.
+Jauns- Dynamics 365 Finanses, Dynamics 365 Supply Chain Management vai Dynamics 365 Commerce? Esam izveidojuši detalizētus norādījumus, kas noderēs neatkarīgi no tā, vai joprojām izvērtējat vai arī esat gatavs veikt pirkumu.
 
-## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Pirmais solis: izmēģiniet Finance and Operations bez maksas 30 dienas
+## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Pirmā darbība: izmēģiniet Finance and Operations bez maksas 30 dienas
 
-Varat izmēģināt Dynamics 365 for Finance, Dynamics 365 Supply Chain Management vai Dynamics 365 Commerce 30 dienas, veicot vienkāršu reģistrēšanos ar e-pastu. Finance and Operations izmēģinājumversijā ir iekļauti darba sākšanas uzdevumu ceļveži, kuros sniegti detalizēti norādījumi, kas ļauj jums darbībā redzēt noteiktus scenārijus. Šis produkts ir pieejams izpētes un izpildes scenārijiem, taču to nevar pielāgot. Lai produkta lietošana būtu vienkāršāka un saprotamāka, ir iekļauti demonstrācijas dati. Kad līdz izmēģinājumversijas termiņa beigām būs atlikušas 3 dienas, par to tiks nosūtīts atgādinājuma e-pasta ziņojums. Saņemt informāciju [Reģistrācija priekšskatīuma abonementiem](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe).
+Varat izmēģināt Dynamics 365 for Finance, Dynamics 365 Supply Chain Management vai Dynamics 365 Commerce 30 dienas, veicot vienkāršu reģistrēšanos ar e-pastu. Finanšu un operāciju programmu izmēģinājuma versija ietver darba sākšanas uzdevumu ceļvežus, kas sniedz pakāpeniskas instrukcijas, kas ļauj skatīt noteiktus scenārijus darbībā. Šis produkts ir pieejams izpētes un izpildes scenārijiem, taču to nevar pielāgot. Lai produkta lietošana būtu vienkāršāka un saprotamāka, ir iekļauti demonstrācijas dati. Kad līdz izmēģinājumversijas termiņa beigām būs atlikušas 3 dienas, par to tiks nosūtīts atgādinājuma e-pasta ziņojums. Saņemt informāciju [Reģistrācija priekšskatīuma abonementiem](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe).
 
 ## <a name="step-two-choose-a-deployment-option"></a>Otrā darbība: izvēlieties izvietošanas opciju
 
-Tagad varat izvietot programmas Finance and Operations mākonī vai lokāli. Mākoņa izvietojumi piedāvā ERP pakalpojumu, ko pilnībā pārvalda Microsoft, savukārt lokālie izvietojumi tiek izvietoti lokāli debitora datu centrā.
+Tagad finanšu un operāciju programmas varat izvietot mākonī vai lokāli. Mākoņa izvietojumi piedāvā ERP pakalpojumu, ko pilnībā pārvalda Microsoft, savukārt lokālie izvietojumi tiek izvietoti lokāli debitora datu centrā.
 
 Lokālo versiju izvēloties kā izvietošanas opciju, ir jāņem vērā tālāk norādītie apsvērumi.
 
@@ -42,7 +42,7 @@ Lokālo versiju izvēloties kā izvietošanas opciju, ir jāņem vērā tālāk 
 - [Sistēmas prasības lokālajiem izvietojumiem](system-requirements-on-prem.md).
 
 > [!IMPORTANT]
-> Lokāla izvietošana netiek atbalstīta nevienā publiskā mākoņa infrastruktūrā, tostarp Microsoft Azure. Tomēr tie tiek atbalstīti, lai tos palaistu [Microsoft Azure steka HCI](https://azure.microsoft.com/products/azure-stack/hci/) un [Microsoft Azure Steka centrmezglā](https://azure.microsoft.com/products/azure-stack/hub/).
+> Lokāla izvietošana netiek atbalstīta nevienā publiskā mākoņa infrastruktūrā, tostarp Microsoft Azure. Tomēr tie tiek atbalstīti palaišanai uz Steka [Microsoft Azure HCI un Steka](https://azure.microsoft.com/products/azure-stack/hci/)[Microsoft Azure pārkraušanas mezgla](https://azure.microsoft.com/products/azure-stack/hub/).
 
 Papildinformāciju skatiet tēmā [Izvietošanas opcijas](../../dev-itpro/deployment/choose-deployment-type.md).
 
@@ -68,7 +68,7 @@ Lai iegādātos Finance and Operations lokālo versiju, jums ir jāsadarbojas ar
 
 Ja organizācijā ir vismaz 250 Dynamics 365 lietotāju, jums varētu būt saistošs [Lielapjoma licencēšanas līgums](https://www.microsoft.com/Licensing/product-licensing/dynamics365).
 
-Lielapjoma licencēšanai Finance and Operations pieteikumi ir pieejami, izmantojot tālāk norādīto.
+Apjoma licencēšanas finanšu un operāciju programmas ir pieejamas, izmantojot:
 
 - Enterprise līgums
 - Enterprise līguma abonements

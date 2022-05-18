@@ -1,6 +1,6 @@
 ---
 title: Konsolidācijas kontu grupas un papildu konsolidācijas konti
-description: Šajā tēmā ir sniegta informācija par konsolidācijas kontu grupām un papildu konsolidācijas kontiem, kā arī paskaidrots, kā tie tiek izmantoti.
+description: Šajā tēmā ir sniegta informācija par konsolidācijas kontu grupām un papildu konsolidācijas kontiem un skaidrots, kā tās tiek izmantotas.
 author: panolte
 ms.date: 01/11/2018
 ms.topic: article
@@ -8,29 +8,29 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerConsolidateAccountGroup
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 265544
 ms.assetid: 71c31df7-b655-46a8-8844-4f92a8bd71b0
 ms.search.region: Global
-ms.author: roschlom
+ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 489f5417b6044e02d4711a03a17d6c19031cc2ee
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 5ca7a50fcac53f1636da15b2d7977174b087ac25
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883391"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711698"
 ---
 # <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Konsolidācijas kontu grupas un papildu konsolidācijas konti
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par konsolidācijas kontu grupām un papildu konsolidācijas kontiem, kā arī paskaidrots, kā tie tiek izmantoti.
+Šajā tēmā ir sniegta informācija par konsolidācijas kontu grupām un papildu konsolidācijas kontiem un skaidrots, kā tās tiek izmantotas.
 
 ## <a name="consolidation-account-groups"></a>Konsolidācijas kontu grupas
 
-Konsolidācijas kontu grupas jums ļauj veidot grupas no kontiem, kurus vēlaties izmantot datu konsolidēšanai. Parasti konsolidācijas kontu grupa pārstāv valdības pilnvarotu kontu plānu. Konsolidācijas kontu grupa var arī kartēt kontus uz grupu, ko definē uzņēmuma galvenā mītne. Konsolidācijas kontu grupas ir atrodamas moduļa **Konsolidācijas** apgabalā **Iestatīšana**. Pievienojot jaunu grupu, tiek ievadīts unikāls kontu grupas identifikators, kā arī nosaukums.
+Konsolidācijas kontu grupas jums ļauj veidot grupas no kontiem, kurus vēlaties izmantot datu konsolidēšanai. Parasti konsolidācijas kontu grupa pārstāv valdības noteiktu kontu plānu. Konsolidācijas kontu grupa var arī kartēt kontus grupai, kas ir definēta uzņēmuma galvenajā birojā. Konsolidācijas kontu grupas ir atrodamas moduļa **Konsolidācijas** apgabalā **Iestatīšana**. Kad pievienojat jaunu grupu, ievadiet unikālu identifikatoru konta grupai, kā arī nosaukumu.
 
 ## <a name="additional-consolidation-accounts"></a>Papildu konsolidācijas konti
 Papildu konsolidācijas konti jums ļauj konsolidācijas kontu grupai piešķirt kontu no jau esoša kontu plāna. Pēc tam varat norādīt konsolidācijas konta vērtību un nosaukumu. 

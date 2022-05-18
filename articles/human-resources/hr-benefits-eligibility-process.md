@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SysPolicySourceDocumentRuleType, SysPolicyListPage, SysPolicy, HcmBenefitEligibilityPolicy, HcmBenefit, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 16a866cb35aacb3b6bece0d6adde6bb5978bd4fc
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 61818ad8d397fe2b61952003aa562818c4bad2f5
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066022"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687706"
 ---
 # <a name="benefit-eligibility-process"></a>Atvieglojumu piemērojamības apstrāde
 
@@ -29,31 +28,31 @@ ms.locfileid: "8066022"
 
 Šīs procedūras aprakstā ir paskaidrots, kā darbojas atvieglojumu piemērojamības noteikšanas process. Kad process ir pabeigts, varat skatīt rezultātus. USMF ir paraugdatu uzņēmums, kas tiek izmantots šīs procedūras izveidei.
 
-1. Dodieties uz **Cilvēkresursu \> ieguvumu \> priekšrocības**.
+1. Pārejiet uz **sadaļu Personāla vadības \> atvieglojumi \>**.
 2. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
 3. Sarakstā atlasiet saiti atlasītajā rindā.
 4. Atlasiet **Rediģēt**.
-5. Iekš **Atbilstība** laukā atlasiet **Pamatojoties uz noteikumiem**.
-6. Iekš **Noteikumu veids** laukā atlasiet pabalstu politikas noteikumu, ko piemērot pabalstam.
-7. Darbību rūtī atlasiet **Ieguvums**.
-8. Izvēlieties **Izveidojiet atbilstības notikumu**.
-9. Nolaižamajā dialoglodziņā sadaļā **Pasākums** laukā ievadiet vērtību.
+5. Laukā **Tiesības tikt** izvēlētam, pamatojoties **uz noteikumiem**.
+6. Laukā **Nosacījumu** tips atlasiet atvieglojumu ierobežojuma nosacījumu, kuru piemērot atvieglojumam.
+7. Darbību rūtī atlasiet **Atvieglojums**.
+8. Atlasiet **Izveidot piemērotības notikumu**.
+9. Nolaižamā dialoglodziņa laukā Notikums **ievadiet** vērtību.
 10. Laukā **Apraksts** ievadiet kādu vērtību.
-11. Iekš **Pasākuma veids** laukā atlasiet **Atvērt pieteikšanos**.
-12. Iekš **Pārklājuma sākuma datums** laukā ievadiet datumu un laiku.
-13. Iekš **Reģistrācijas perioda sākuma datums** laukā ievadiet datumu un laiku.
-14. Iekš **Dienas, lai reģistrētos** laukā ievadiet numuru.
-15. Izvēlieties **Izveidot notikumu**.
-16. Uz **Strādnieki** FastTab, atlasiet **Pievienot**.
-17. Iekš **Rādīt pēc veida** laukā atlasiet **Darbinieki**.
-18. Iekš **Rādīt pēc juridiskās personas** laukā atlasiet **Pašreizējā juridiskā persona**.
+11. Laukā **Notikuma** veids atlasiet Atvērt **reģistrāciju**.
+12. Laukā **Vajadzību sākuma** datums ievadiet datumu un laiku.
+13. Laukā **Reģistrācijas perioda sākuma datums** ievadiet datumu un laiku.
+14. **Reģistrācijas laukā Dienas** ievadiet numuru.
+15. Atlasiet **Izveidot notikumu**.
+16. Kopsavilkuma cilnē **Darbinieki** atlasiet **Pievienot**.
+17. Laukā **Rādīt pēc** tipa atlasiet **Darbinieki**.
+18. Laukā **Parādīt pēc juridiskās** personas atlasiet **Pašreizējā juridiskā persona**.
 19. Sarakstā atzīmējiet visas rindas vai noņemiet tām atzīmi.
 20. Atlasiet **Labi**.
-21. Izvēlieties **Process**.
+21. Atlasiet **Procesu**.
 22. Atlasiet **Labi**.
 23. Atsvaidziniet lapu.
-24. Izvēlieties **Rādīt rezultātus**.
-25. Atveriet **Statuss** kolonnu filtrs.
-26. Kārtojiet kolonnu no A līdz Z.
+24. Atlasiet **Rādīt rezultātus**.
+25. Atvērt kolonnas **filtru** Statuss.
+26. Kārtot kolonnu no A uz Z.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

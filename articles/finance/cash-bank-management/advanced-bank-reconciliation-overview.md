@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BankReconciliationMatchRule
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "22104"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ebddf6c77df227f896e6f275f741ea69fb68474
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: d6dadc5fd49a7103df8e1cacfd3be09c24a06e67
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983596"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711413"
 ---
 # <a name="advanced-bank-reconciliation-overview"></a>Detalizētās bankas darbību saskaņošanas pārskats
 
@@ -38,7 +38,7 @@ Detalizētās bankas darbību saskaņošanas funkcija ļauj importēt banku izra
     -   Šī funkcionalitāte var tikt paplašināta uz jebkuru formātu.
 
 2.  Iestatiet numuru sēriju, kuru lietot detalizētajai bankas darbību saskaņošanai un definējiet bankas darbību saskaņošanas atbilstības kārtulas.
-    -   Saskaņošanas atbilstības kārtula ir kritēriju kopa, kas tiek izmantota, lai filtrētu bankas izrakstu rindas un Microsoft Dynamics 365 Finance bankas transakciju rindas saskaņošanas procesa laikā. Atkarībā no jūsu biznesa prakses varat iestatīt vairākas atbilstības kārtulas, lai automatizētu un optimizētu saskaņošanas procesu.
+    -   Saskaņošanas atbilstības kārtula ir kritēriju kopa, ko izmanto Microsoft Dynamics, lai filtrētu bankas izraksta rindas un 365 finanšu bankas darbību rindas saskaņošanas procesa laikā. Atkarībā no jūsu biznesa prakses varat iestatīt vairākas atbilstības kārtulas, lai automatizētu un optimizētu saskaņošanas procesu.
 
 3.  Saskaņojiet bankas izrakstus ar finanšu bankas transakcijām.
     -   Veiciet automātisku atbilstības noteikšanu un saskaņošanas žurnālu izveidi.

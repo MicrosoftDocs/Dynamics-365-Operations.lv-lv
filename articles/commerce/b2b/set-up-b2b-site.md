@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e012b88465e98e788f65697d95fc141d453888e3
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 31266f84270f170e172eadea75a90397c5a6e8e6
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983321"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691922"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>B2B e-komercijas vietnes iestatīšana
 
@@ -318,14 +318,14 @@ Lai pievienotu lielapjoma pirkšanas moduli PDP Commerce site Builder, sekojiet 
 1. Moduļa **Noklusējuma lapa** slotā **Galvenais** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
 1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Konteiners** un pēc tam atlasiet **Labi**.
 1. Slotā **Konteiners** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
-1. Dialoglodziņā Pievienot **moduli** atlasiet lielapjoma **pirkšanas moduli un pēc tam atlasiet** **Labi**.
+1. Dialoglodziņā Pievienot **moduli atlasiet** lielapjoma pirkšanas **moduli un** pēc tam atlasiet **Labi**.
 1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu veidnē, un pēc tam atlasiet **Publicēt**, lai publicētu to.
 1. Dodieties **uz** lapām un atlasiet jūsu vietnes PDP.
 1. Moduļa **Noklusējuma lapa** slotā **Galvenais** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
 1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Konteiners** un pēc tam atlasiet **Labi**.
-1. Moduļa Konteiners **rekvizītu** rūtī, zem **platums**, atlasiet Aizpildīt **konteineru**.
+1. Moduļa Konteiners rekvizītu **rūtī**, zem **platums**, atlasiet Aizpildīt **konteineru**.
 1. Slotā **Konteiners** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
-1. Dialoglodziņā Pievienot **moduli** atlasiet lielapjoma **pirkšanas moduli un pēc tam atlasiet** **Labi**.
+1. Dialoglodziņā Pievienot **moduli atlasiet** lielapjoma pirkšanas **moduli un** pēc tam atlasiet **Labi**.
 1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt**, lai publicētu to.
 
 > [!NOTE] 

@@ -1,30 +1,30 @@
 ---
 title: Pārskats par finanšu konsolidācijām un valūtas konvertāciju
 description: Šajā tēmā ir aprakstītas finanšu konsolidācijas un valūtas pārrēķināšana Virsgrāmatā.
-author: jiwo
+author: jinniew
 ms.date: 10/07/2021
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: aolson
+ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: a77fe5e1970c617203706d9d629ac65e3a47909b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: f6f0094ac3307164e1c715a71e16b0766247e275
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982409"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713873"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Finanšu konsolidācijas un valūtas pārrēķināšanas pārskats
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīta pieeja, kas tiek izmantota konsolidācijai gan programmā Microsoft Dynamics 365 Finance, gan modulī Finanšu pārskatu izveide. Tēmā ir aprakstīti scenāriji, kas ietver vairāku uzņēmumu pārskatu veidošanu, apkopojumu, elimināciju un mazākuma līdzdalības daļu. Tajā ir arī paskaidrots, kā rīkoties īpašās situācijās, piemēram, scenārijos, kur juridiskajām personām ir dažādi finanšu periodi vai dažādi kontu plāni.
+Šī tēma ņem vērā pieeju, ko Microsoft Dynamics konsolidēšanām izmanto gan finanšu, gan finanšu pārskati. Tēmā ir aprakstīti scenāriji, kas ietver vairāku uzņēmumu pārskatu veidošanu, apkopojumu, elimināciju un mazākuma līdzdalības daļu. Tajā ir arī paskaidrots, kā rīkoties īpašās situācijās, piemēram, scenārijos, kur juridiskajām personām ir dažādi finanšu periodi vai dažādi kontu plāni.
 
 Šī tēma tika rakstīta lietotājiem un funkcionāliem konsultantiem, pieņemot, ka lasītājiem ir vispārīga izpratne par programmu Finance un par finanšu pārskatu veidošanu. Pamata iestatījumi netiek apskatīti.
 

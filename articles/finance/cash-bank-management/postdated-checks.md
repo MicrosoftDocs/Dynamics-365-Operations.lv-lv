@@ -1,6 +1,6 @@
 ---
 title: Ar iepriekšēju datumu datēti čeki
-description: Šajā rakstā ir sniegta informācija par ar iepriekšēju datumu datētu čeku atbalstu programmā Microsoft Dynamics 365 Finance. Ar iepriekšēju datumu datēti čeki ir čeki, kas tiek izsniegti, lai veiktu vai saņemtu maksājumus nākotnes datumā. Tāpēc šādu čeku nevar iekasēt pirms norādītā datuma.
+description: Šajā rakstā ir sniegta informācija par atbalstu čekiem ar datumu Microsoft Dynamics 365 Finanses. Ar iepriekšēju datumu datēti čeki ir čeki, kas tiek izsniegti, lai veiktu vai saņemtu maksājumus nākotnes datumā. Tāpēc šādu čeku nevar iekasēt pirms norādītā datuma.
 author: panolte
 ms.date: 01/12/2018
 ms.topic: article
@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: VendPostDatedChecks, CustPostDatedChecks
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 21741
 ms.assetid: 4eb7c7da-1e6b-4d35-9f41-373b66103229
 ms.search.region: Global
-ms.author: leguo
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f5c4d641a3d3ccc326ee56ce7bd05c891b3fa8a
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 33de0d5180962f52ddb0770f8729ed147d144e6d
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595466"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722860"
 ---
 # <a name="postdated-checks"></a>Ar iepriekšēju datumu datēti čeki
 
@@ -28,7 +28,7 @@ ms.locfileid: "7595466"
 
 Šajā rakstā ir sniegta informācija par ar iepriekšēju datumu datētu čeku atbalstu. Ar iepriekšēju datumu datēti čeki ir čeki, kas tiek izsniegti, lai veiktu vai saņemtu maksājumus nākotnes datumā. Tāpēc šādu čeku nevar iekasēt pirms norādītā datuma.
 
-Programma Dynamics 365 Finance atbalsta pilnu pārvaldības ciklu ar iepriekšēju datumu datētiem čekiem gan modulī, Debitori, gan modulī Kreditori, kā tas ir parādīts tālāk redzamajā tabulā.
+Dynamics 365 Finanses atbalsta pilnu ar datumu saistīto čeku pārvaldības ciklu gan debitoru parādos, gan parādos kreditoriem, kā parādīts šajā tabulā.
 <table>
 <colgroup>
 <col width="50%" />

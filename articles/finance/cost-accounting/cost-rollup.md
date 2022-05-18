@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostRollupRule, CAMDimensionHierarchy, CAMOverheadRatePolicy
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f86529359f548bf48fdef8817bd2e2260235561cce57cac28158739687ade2c1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9c36587294ff157266e354e06d107000f198061
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779960"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734434"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Izmaksu apkopojuma politika un pieskaitāmo izmaksu aprēķināšana 
 
@@ -30,9 +30,7 @@ ms.locfileid: "6779960"
 Izmaksu uzskaite sniedz iespēju gūt ieskatu par to, kā izmaksu plūsma ir saistīta ar organizācijas nodrošinātajām precēm un pakalpojumiem. Lai nodrošinātu izmaksu pārskatāmību, ir svarīgi sadalīt izmaksas pa izmaksu objektiem, pamatojoties uz atbilstošu sadalījuma pamatu. Pēc noklusējuma tiek nodrošināts primāro izmaksu elementa sadalījums, kas ir vajadzīgs dažos gadījumos, taču rada maz vērā ņemamu seku.
 
 -   Pēc pieskaitāmo izmaksu aprēķināšanas primārā izmaksu elementa papildu izmaksu objektu bilance būs vienāda ar nulli.
-
 -   Pieskaitāmo izmaksu aprēķināšanas laikā var tikt ģenerēts ļoti daudz izmaksu ierakstu.
-
 -   Izmaksu plūsmu starp izmaksu objektiem nevar izsekot.
 
 Lai nepieļautu šādus sarežģījumus, modulis Izmaksu uzskaite sniedz iespēju konfigurēt izmaksu sadalījumu atbilstoši jūsu organizācijas vadības pārskatu prasībām. Šajā tēmā ir aprakstīts, kā noteikt pareizo sekundāro izmaksu elementu līmeni un izveidot izmaksu apkopojuma kārtulas, kas ir piemērotas organizācijas pārskatu un izmaksu izsekojamības metodēm.

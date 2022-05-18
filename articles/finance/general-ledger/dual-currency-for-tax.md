@@ -8,26 +8,26 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
-ms.author: roschlom
+ms.author: wangchen
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 449ebe55b8be7ee7ea22b4be7c44162d83fc3c2affbd4d20f4cad235ddb0f772
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fcd5a3afb442d9c85aba12b7782cf09f88f0e51a
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742208"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713049"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>Divkāršās valūtas atbalsts PVN
 [!include [banner](../includes/banner.md)]
 
 Šajā tēmā skaidrots, kā paplašināt divkāršas valūtu uzskaites attiecībā uz PVN, un ietekme uz PVN aprēķiniem, grāmatošanu un apmaksu.
 
-Divkāršās valūtas līdzeklis programmai Dynamics 365 Finance tika ieviests versijā 8,1 (2018. gada oktobris). Tas maina veidu, kādā tiek aprēķināti uzskaites ieraksti pārskata valūtā.
+Dynamics 365 Finanšu dubultās valūtas līdzeklis tika ieviests versijā 8.1 (2018. gada oktobris). Tas maina veidu, kādā tiek aprēķināti uzskaites ieraksti pārskata valūtā.
 
 Iepriekšējās versijās transakcijas tika konvertētas pārskata valūtā šādā secībā: 
 

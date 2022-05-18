@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMDimensionMember, CAMAllocationBaseDetail, CAMFormulaAllocationBaseDetail, CAMAllocationBasePreview, CAMAllocationBase, CAMCostAllocationRule, CAMPredefinedMemberAllocationBase
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 223174
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2e51d0320d66a2ae094573735df96bc9bc3f93d359f3bbeab2e5cec3081dddbe
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb50fe7d258bdd56529bc5d0ef55dae309d3edec
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743053"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8733796"
 ---
 # <a name="allocation-bases"></a>Sadalījuma pamati 
 
@@ -115,7 +115,7 @@ Pēc tam, kad izmaksu elements Nr. 10001 (Algas) ir lietots kā sadalījuma pam
 **Žurnāls**
 
 | Žurnāls | Žurnāla tips                          | Kalendārais finanšu periods | Gads | Periods   | Versija                                                                 |
-|---------|---------------------------------------|------------------------|------|----------|-------------------------------------------------------------------------|
+|---------|---------------------------------------|------------------------|------|----------|---------------------------------------------|
 | 00001   | Izmaksu sadales aprēķina žurnāls | Finanšu                 | 2017 | Periods 1 | Pieskaitāmo izmaksu aprēķins / 01-02-2017 23:51:00 / Virsgrāmata /2017 / 1. periods |
 
 **Izmaksu objekta bilances žurnāla ieraksti**

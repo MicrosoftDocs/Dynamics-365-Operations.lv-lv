@@ -1,6 +1,6 @@
 ---
 title: Meitasuzņēmuma datu importēšana no failiem
-description: Šajā tēmā ir paskaidrots, kā sagatavot ārējo sistēmu datus, lai tos varētu importēt Microsoft Dynamics 365 Finance.
+description: Šajā tēmā skaidrots, kā sagatavot datus no ārējām sistēmām, lai tos varētu importēt Microsoft Dynamics 365 finanšu sistēmā.
 author: jinniew
 ms.date: 10/09/2020
 ms.topic: article
@@ -8,28 +8,28 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 4be1e748724331c4e2089da8a08a9ac7e5cf88a2ac6d3d89b37b9fcd4480f516
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 045ecd6dfb95ccf38773293d44834531668ac1ff
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727304"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8733824"
 ---
 # <a name="import-subsidiary-data-from-files"></a>Meitasuzņēmuma datu importēšana no failiem
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā sagatavot ārējo sistēmu datus, lai tos varētu importēt Microsoft Dynamics 365 Finance. Izmantojiet lapu **Konsolidēt ar importēšanu** (**Konsolidācija \> Konsolidēt ar importēšanu**), lai sagatavotu meitasuzņēmuma datu pārsūtīšanu no ārējām sistēmām.
+Šajā tēmā skaidrots, kā sagatavot datus no ārējām sistēmām, lai tos varētu importēt Microsoft Dynamics 365 finanšu sistēmā. Izmantojiet lapu **Konsolidēt ar importēšanu** (**Konsolidācija \> Konsolidēt ar importēšanu**), lai sagatavotu meitasuzņēmuma datu pārsūtīšanu no ārējām sistēmām.
 
 1. Meitasuzņēmuma juridiskās personas konsolidācijas izveidošana. Informāciju par to, kā izveidot juridiskās personas, skatiet sadaļā [Juridiskas personas izveidošana](../../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md). Papildinformāciju skatiet sadaļās [Juridiskas personas sagatavošana izmantošanai konsolidācijas procesā](prepare-company-for-consolidation.md) un [Meitasuzņēmuma juridiskās personas konsolidācijas iestatīšana](set-up-subsidiary-company-for-consolidation.md).
 
 2. Sagatavojiet failu, kas ietvers importētos datus. Papildinformāciju par importēšanas procesu skatiet [Datu importēšanas un eksportēšanas darbu apskatā](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
-3. Eksportējiet datus uz failu, izpildot darbības “Datu importēšanas/eksportēšanas procesa” procedūrā, kas atrodas sadaļā [Datu importēšanas un eksportēšanas darbu pārskats](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md). Šo procedūru var izmantot, lai konsolidētu datus no citas Dynamics 365 Finance instances vai no Dynamics 365 Business Central. Ja importējat datus no ārējām sistēmām, datiem jābūt tādā formātā, kā aprakstīts sadaļā [Meitasuzņēmuma datu eksportēšana uz failiem](export-subsidiary-data-to-file.md).
+3. Eksportējiet datus uz failu, izpildot darbības “Datu importēšanas/eksportēšanas procesa” procedūrā, kas atrodas sadaļā [Datu importēšanas un eksportēšanas darbu pārskats](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md). Šo procedūru varat izmantot, lai konsolidētu datus no citas Dynamics 365 Finanšu vai no instances Dynamics 365 Business Central. Ja importējat datus no ārējām sistēmām, datiem jābūt tādā formātā, kā aprakstīts sadaļā [Meitasuzņēmuma datu eksportēšana uz failiem](export-subsidiary-data-to-file.md).
 4. Dodieties uz **Konsolidācija \> Konsolidēt ar importēšanu**. Lapas **Konsolidēt ar importēšanu** cilnē **Kritēriji** norādiet informāciju par pārskatu un/vai importēšanu, iestatot tālāk esošos laukus.
 
     | Lauks                                 | Pārskata vērtība | Importēšanas vērtība |

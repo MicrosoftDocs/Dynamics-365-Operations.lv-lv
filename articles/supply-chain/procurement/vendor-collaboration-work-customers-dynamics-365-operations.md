@@ -1,7 +1,7 @@
 ---
 title: Kreditoru sadarbība ar debitoriem
 description: Šajā tēmā ir aprakstīts, kā varat izmantot kreditoru sadarbību, lai strādātu ar pirkšanas pasūtījumiem un uzraudzītu sūtījuma krājumus.
-author: TaylorVH
+author: GalynaFedorova
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 221234
 ms.assetid: 6e69fb8b-6d3a-46ef-88cf-6d01212aa7c3
 ms.search.region: Global
-ms.author: v-savanh
+ms.author: gfedorova
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f699b00ab7ea2d043e12824015c54439caf8e63c
-ms.sourcegitcommit: d58a891d9fe0aa0e6b2c20329250c8d74ffbee90
+ms.openlocfilehash: 5690630d4dde947798c925af66c73122c2efad3d
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "8022978"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8673779"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Kreditoru sadarbība ar debitoriem
 
@@ -96,21 +96,21 @@ Atveriet darbvietu **Piegādātāja piedāvājuma izteikšana**, lai piekļūtu 
 
 ### <a name="working-with-rfqs-that-are-publicly-available"></a>Darbs ar publiski pieejamiem piedāvājumu pieprasījumiem
 
-Personas, kas strādā publiskajā sektorā, var redzēt atklātos un beidzies piedāvājumus, kas ir darīti pieejami sabiedrībai.
+Cilvēki, kas strādā publiskā sektorā, var redzēt atvērtus un novecojušus PP, kas padarīti pieejami publiskam.
 
 - Atlasiet saiti **Atvērt publicētos piedāvājumu pieprasījumus**, lai redzētu sarakstu ar atvērtajiem piedāvājumu pieprasījumiem, kas ir publiski pieejami. Atvērts piedāvājuma pieprasījums ir piedāvājuma pieprasījums, kas vēl nav beidzies. Piedāvājuma pieprasījuma beigu datums un laiks ir atrodami piedāvājuma pieprasījuma virsrakstā.
 
     Ja esat uzaicināts izteikt piedāvājumu, to pašu piedāvājuma pieprasījumu varat atrast lapā **Jauni aicinājumi izteikt piedāvājumus**. Reizēm, iespējams, vēlaties izteikt piedāvājumu par kādu atvērtu piedāvājuma pieprasījumu, bet neesat uzaicināts izteikt piedāvājumus par to. Tādā gadījumā, iespējams, varat uzaicināt pats sevi, ja vien debitors šī piedāvājuma pieprasījuma gadījumā ir aktivizējis pašuzaicināšanu. 
 
-    The **Jauni solīšanas uzaicinājumi** lapa var nodrošināt filtru, kas ļauj skatīt atvērtos piedāvājumus un noteikt tos, kuros ir rindas, kas atbilst jūsu apstiprinātajām iepirkumu kategorijām. Lai padarītu šo filtru pieejamu, jums ir jāieslēdz *Ļaujiet pārdevējiem meklēt piedāvājumus pēc iepirkuma kategorijas* funkcija jūsu sistēmā. Administratori var izmantot **Funkciju pārvaldība** darbvieta, lai pārbaudītu šīs funkcijas statusu un ieslēgtu to, ja tas ir nepieciešams. Tur šis līdzeklis ir uzskaitīts šādā veidā:
+    Jaunā **piedāvājuma uzaicinājumu lapa var nodrošināt filtru, kas ļauj skatīt atvērtos PP un identificēt tos**, kas satur rindas, kas atbilst jūsu apstiprinātajām sagādes kategorijām. Lai padarītu šo filtru pieejamu, *sistēmā ir jāieslēdz iespēja Ļaut kreditoriem* meklēt PP pēc sagādes kategorijas funkcionalitātes. Administratori var izmantot līdzekļu **pārvaldības darbvietu**, lai pārbaudītu šī līdzekļa statusu un ieslēgtu to, ja nepieciešams. Tur šis līdzeklis ir uzskaitīts šādā veidā:
 
-    - **Modulis:** *Kreditori*
-    - **Līdzekļa nosaukums:** *Ļaujiet pārdevējiem meklēt piedāvājumus pēc iepirkuma kategorijas* <!-- KFM: I don't see this here, is this right? -->
+    - **Modulis:** *parādi kreditoriem*
+    - **Funkcionalitātes nosaukums:** *ļauj kreditoriem meklēt PP pēc sagādes kategorijas* <!-- KFM: I don't see this here, is this right? -->
 
-    Jūs varat uzlabot pieejamību **Atvērt publicētos piedāvājumu pieprasījumus** saiti, ieslēdzot *Parādiet saiti "Atvērt publicētos piedāvājuma pieprasījumus" kā elementu* funkciju. Šī funkcija pārvērš saiti par elementu un pārvieto to uz labi redzamu vietu, lai to būtu viegli atrast. Administratori var izmantot **Funkciju pārvaldība** darbvieta, lai pārbaudītu šīs funkcijas statusu un ieslēgtu to, ja tas ir nepieciešams. (Sākot ar Supply Chain Management versiju 10.0.21, līdzeklis ir ieslēgts pēc noklusējuma.) Šeit līdzeklis ir norādīts šādi:
+    Ir iespējams uzlabot saites Atvērt **publicētos piedāvājumu pieprasījumus pieejamību, ieslēdzot saiti "Atvērt publicētus piedāvājuma pieprasījumus** *" kā elementa* elementu. Šī funkcija pārvērš saiti par elementu un pārvieto to uz izcilu atrašanās vietu, lai to būtu viegli atrast. Administratori var izmantot līdzekļu **pārvaldības darbvietu**, lai pārbaudītu šī līdzekļa statusu un ieslēgtu to, ja nepieciešams. (No Piegādes ķēdes pārvaldības versijas 10.0.21, funkcija ir ieslēgta pēc noklusējuma.) Tur šis līdzeklis ir uzskaitīts šādā veidā:
 
     - **Modulis:** *Sagāde un ieguve*
-    - **Līdzekļa nosaukums:** *Parādiet saiti "Atvērt publicētos piedāvājuma pieprasījumus" kā elementu*
+    - **Līdzekļa nosaukums:** *rādīt saiti "Atvērt publicētus piedāvājuma pieprasījumus" kā elementu*
 
 - Atlasiet saiti **Slēgtie publicētie piedāvājumu pieprasījumi**, lai redzētu sarakstu ar slēgtajiem piedāvājumu pieprasījumiem, kas ir publiski pieejami. Slēgts piedāvājuma pieprasījums ir piedāvājuma pieprasījums, kas ir beidzies. Piedāvājuma pieprasījuma beigu datums un laiks ir atrodami piedāvājuma pieprasījuma virsrakstā.
 

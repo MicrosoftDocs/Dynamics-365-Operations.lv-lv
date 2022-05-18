@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom:
 - "260624"
 - intro-internal
@@ -17,18 +16,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8674c228a1e624a79ae210dc6ad5c0f80741570f
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: c867d051f5e32c5f98ea49a92475c6f15427ad54
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075050"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8692784"
 ---
 # <a name="human-resources-home-page"></a>Personāla vadības sākumlapa
 
 
 
-Šajā tēmā ir sniegts saraksts ar palīdzības tēmām un citiem resursiem programmā Dynamics 365 Cilvēkresursi. 
+Šajā tēmā sniegts palīdzības tēmu un citu dynamics 365 personāla vadības resursu saraksts. 
 
 Atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.
 
@@ -47,7 +46,7 @@ Human Resources savieno cilvēkus un operāciju datus, lai palīdzētu jums opti
 
 ## <a name="dynamics-365-finance"></a>Dynamics 365 Finance
 
-Informāciju par Dynamics 365 Finance, ko skatiet [Finance sākumlapā](../finance/index.md).
+Lai iegūtu informāciju par Dynamics 365 Finansēm, skatiet [Finanšu mājas lapu](../finance/index.md).
 
 ## <a name="additional-resources"></a>Papildu resursi
 

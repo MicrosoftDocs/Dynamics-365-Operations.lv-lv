@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14f76e06f7265a4dc1837a66171d3db13bc2e580
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: c36ace4fe61d4f3add7750c66594c0f1060f8127
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982513"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694373"
 ---
 # <a name="sales-agreements-overview"></a>Pārdošanas līgumu pārskats
 
@@ -36,7 +36,8 @@ Pārdošanas līguma derīguma termiņu nosaka līguma laukā **Spēkā stāšan
 
 Pārdošanas pasūtījumu var izveidot tieši no pārdošanas līguma, izmantojot darbību **Izveidot izpildpasūtījumu**. Vai arī varat atlasīt spēkā esošo pārdošanas līgumu, pieņemot pasūtījumus (skatiet šī raksta sadaļu “Pārdošanas līgumu lietošana pasūtīšanas procesā”).  
 
-> [Piezīme!] Iepriekšējās versijās pārdošanas līgumi tika saukti par padošanas pasūtījumu plāniem.
+> [!NOTE] 
+> Agrākās versijās pārdošanas līgumi tika saukti par virspasūtījumiem.
 
 ## <a name="commitment-types"></a>Saistību veidi
 Katra pārdošanas līguma rinda norāda saistības kaut ko pārdot. Parasti ir divas saistību kategorijas:

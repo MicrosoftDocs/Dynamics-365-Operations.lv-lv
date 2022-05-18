@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 222564
 ms.assetid: ''
 ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 89ea19753abdc4e5d4219a123a832bb3606515a43b439d5f94a9619857b6c7d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 772c754e9980e693daf7542de273cbe278ca7038
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722699"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722441"
 ---
 # <a name="set-up-default-descriptions-for-automatic-posting"></a>Iestatīt noklusējuma aprakstus automātiskai grāmatošanai
 
@@ -28,7 +28,7 @@ ms.locfileid: "6722699"
 Šajā tēmā skaidrots, kā iestatīt noklusējuma tekstu, kas tiek lietots, lai aprakstītu uzskaites ierakstus, kas tiek automātiski grāmatoti Virsgrāmatā. Varat iestatīt noklusējuma apraksta tekstu, izmantojot brīvformas tekstu vai izvēloties fiksētus mainīgos.
 
 > [!NOTE]
-> Dažiem transakciju veidiem dažās valstīs vai reģionos varat iekļaut arī tekstu no laukiem sistēmas Microsoft Dynamics AX datu bāzē, kas ir saistīti ar šiem transakciju veidiem. Sarakstu ar darbību tipiem, kā arī valstīm un reģioniem, skatiet sadaļu [Papildus: pievienot citu tekstu noklusējuma aprakstiem](#optional-add-other-text-to-default-descriptions) tālāk šajā tēmā.
+> Dažiem darbību tipiem dažās valstīs vai reģionos var ietvert arī tekstu no laukiem, kas saistīti ar šiem darbību tipiem. Sarakstu ar darbību tipiem, kā arī valstīm un reģioniem, skatiet sadaļu [Papildus: pievienot citu tekstu noklusējuma aprakstiem](#optional-add-other-text-to-default-descriptions) tālāk šajā tēmā.
 
 ## <a name="set-up-default-descriptions"></a>Noklusējuma aprakstu iestatīšana
 

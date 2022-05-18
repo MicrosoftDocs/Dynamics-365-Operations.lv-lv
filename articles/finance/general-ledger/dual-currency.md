@@ -1,6 +1,6 @@
 ---
 title: Divkāršā valūta
-description: Šajā tēmā ir sniegta informācija par divkāršo valūtu — gadījumu, kad pārskata valūta tiek izmantota kā otrā uzskaites valūta programmā Microsoft Dynamics 365 Finance.
+description: Šajā tēmā sniegta informācija par dubulto valūtu, kur pārskata valūta tiek izmantota kā otra uzskaites valūta Microsoft Dynamics 365 Finanses.
 author: kweekley
 ms.date: 04/17/2020
 ms.topic: article
@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTable, Ledger, AssetTransReportingCurrencyAmountsWizard,BankAccountTransReportingCurrencyAmountsWizard, LedgerTrialBalanceListPage
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: b20c45952d2c0c28a1b785fd92bf47cfb25251fa3a3308d14130ad0f1c78305d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 04738d2fe88fef5c0e96a39febfec86fab3bee7d
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762071"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713590"
 ---
 # <a name="dual-currency"></a>Divkāršā valūta
 
@@ -199,7 +199,7 @@ Turklāt nolietojuma procesā ir veiktas būtiskas izmaiņas. Šīm izmaiņām i
     
 ### <a name="consolidations"></a>Konsolidācija
     
-Funkcionalitāte, kas tika ietverta Dynamics 365 Finance versijā 10.0.5 (2019. gada oktobris) iespējo funkcionalitāti, izmantojot iespēju pārvaldību uzlabotajam elastīgumam attiecībā uz konsolidāciju un dubulto valūtu. Šīs funkcionalitātes iespējošanai pārejiet uz darbvietu **Funkcionalitātes pārvaldība** un atlasiet **Iespējot dubultās valūtas funkcionalitāti Virsgrāmatas konsolidācijā**.
+Funkcionalitāte, kas ieviesta Dynamics 365 Finanšu versijā 10.0.5 (2019. gada oktobris) aktivizē funkcionalitāti, izmantojot līdzekļu pārvaldību, lai uzlabotu konsolidācijas un dubultās valūtas elastīgumu. Šīs funkcionalitātes iespējošanai pārejiet uz darbvietu **Funkcionalitātes pārvaldība** un atlasiet **Iespējot dubultās valūtas funkcionalitāti Virsgrāmatas konsolidācijā**.
 
 Virsgrāmatas konsolidācijā ir pievienota jauna opcija, lai konsolidētu vai nu uzskaites, vai pārskata valūtas summas no avota uzņēmumiem. Ja uzskaites vai pārskata valūta ir tāda pati kā uzskaites vai pārskata valūta uzņēmumā, summas tiks kopētas tieši, nevis tiks konvertētas.
 

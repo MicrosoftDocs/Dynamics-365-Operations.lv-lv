@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmLoanItem, HcmLoanType, HcmPersonLoan, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 3581
 ms.assetid: b14bdddb-f10e-4619-9f91-8c88439da862
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 9093944a2e225565fc8fdba8f9a487303369c251
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 9a5f5adea61b898fb884fd41fd187089a57efb00
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067280"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8690671"
 ---
 # <a name="manage-items-that-are-lent-to-workers"></a>Nodarbinātajiem aizdotu priekšmetu pārvaldīšana
 
@@ -31,7 +30,7 @@ ms.locfileid: "8067280"
 
 Patapinājuma priekšmeti ir ieraksti, kas vadītājiem palīdz izsekot fiziskos priekšmetus, kurus jūsu uzņēmums patapina saviem darbiniekiem. 
 
-Tālāk ir sniegti daži to vienumu piemēri, kurus uzņēmums var aizdot darbiniekiem.
+Šeit sniegti daži krājumu piemēri, ko uzņēmums var aizdot darbiniekiem:
 
 -   Mobilie tālruņi
 -   Automašīnas
@@ -41,7 +40,7 @@ Katram fiziskajam priekšmetam ir nepieciešams atbilstošs patapinājuma priek�
 
 Kad priekšmets tiek patapināts, ievadiet datumu, kad tas ticis patapināts, un plānoto atpakaļatdošanas datumu. Kad priekšmets tiek atdots atpakaļ, ievadiet faktisko atpakaļatdošanas datumu.
 
-Darbinieki var izmantot **darbinieku pašapkalpošanās** darbvietu, lai skatītu viņiem patapināto preču ierakstus. Viņi var arī rediģēt esošos ierakstus vai ievadīt jaunas patapinājuma preces, ja ir saņemtas papildu fiziskās preces. Darbplūsmu var iestatīt, lai maršruta izmaiņas jauniem vai esošiem patapinājuma priekšmetiem, izmantojot apstiprināšanas procesu. 
+Darbinieki var izmantot Darbinieku **pašapkalpošanās darbalauku**, lai apskatītu ierakstus par krājumiem, kas tiem ir aizdoti. Viņi var arī rediģēt esošos ierakstus vai ievadīt jaunus patapinājuma priekšmetus, ja tie ir saņēmuši papildu fiziskus priekšmetus. Darbplūsmu var iestatīt maršruta maiņai uz jauniem vai esošiem patapinājuma priekšmetiem apstiprināšanas procesā. 
 
 Vadītāji var skatīt patapinājuma priekšmetus savām tiešajām atskaitēm. Tāpat viņiem var piešķirt atļauju pievienot jaunus patapinājuma priekšmetus savu darbinieku vārdā.
 

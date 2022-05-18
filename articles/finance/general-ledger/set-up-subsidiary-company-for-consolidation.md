@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: fbec5ad8fa5e17b75859c07ee64a66c9568c97d3d18b6a7616a64303d3a33f10
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bfa913ca1778391ce0f5a1b2fdf6e5828b30cb66
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727963"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8724478"
 ---
 # <a name="set-up-a-subsidiary-legal-entity-for-consolidation"></a>Iestatīt meitasuzņēmuma juridisko personu konsolidācijai
 
@@ -29,7 +29,7 @@ Metode, ko izmantojat, lai sagatavotu meitasuzņēmuma kontus konsolidācijai, d
 Pirms sākat konsolidāciju kā daļu no perioda slēgšanas, veiciet perioda slēgšanas sagatavošanās darbus, bet neslēdziet meitasuzņēmuma kontus, līdz konsolidācija ir pabeigta. Papildinformāciju par perioda beigu slēgšanu skatiet šeit: [Slēgt virsgrāmatu perioda beigās](close-general-ledger-at-period-end.md) un [Slēgt finanšu gadu](tasks/close-fiscal-year.md).
 
 > [!NOTE]
->  Ieteicams izmantot Management Reporter programmai Microsoft Dynamics 365 Finance, lai apvienotu finanšu rezultātus vairākām juridiskām personām konsolidētā formātā. Management Reporter ļauj izveidot konsolidētus finanšu pārskatus starp juridiskajām personām, izmantot Excel, lai importētu konsolidēšanas datus no citiem avotiem, un pārvērst summas jebkurā pārskatu valūtā bez vajadzības veikt konsolidācijas procesu Dynamics 365 Finance.
+>  Ieteicams izmantot pārvaldības pārskataeru Microsoft Dynamics 365 finansēm, lai apvienotu finanšu rezultātus vairākām juridiskajām personām konsolidētā formātā. Pārvaldības pārskata sagatavotājs ļauj izveidot konsolidētus finanšu pārskatus starp juridiskajām personām, izmantot Excel, lai importētu konsolidēšanas datus no citiem avotiem, un pārvērst summas jebkurā pārskatu valūtā bez nepieciešamības veikt konsolidācijas procesu Dynamics 365 Finansēs.
 
 ## <a name="map-subsidiary-main-accounts-to-consolidated-main-accounts"></a>Kartēt meitasuzņēmuma galvenos kontus konsolidētajos galvenajos kontos
 

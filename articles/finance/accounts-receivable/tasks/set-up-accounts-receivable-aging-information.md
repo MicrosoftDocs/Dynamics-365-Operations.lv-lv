@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustVendReportInterval, CustAgingSnapshot, CustCollectionsPoolsListPage, CustCollections
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 996fb289c32a1819103fd67ffddc940dfd2870fb
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 5b67c33f73a33721167cedde1a8d83a81aa77db3
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753564"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735407"
 ---
 # <a name="set-up-and-generate-accounts-receivable-aging-information"></a>Debitoru vecumstruktūras informācijas iestatīšana un ģenerēšana
 
 [!include [banner](../../includes/banner.md)]
 
-Šis ceļvedis jums palīdzēs iestatīt vecumstruktūras perioda definīciju, novecot debitoru bilances un skatīt bilances sarakstā Vecas bilances un lapā Iekasēšanas. Šajā ierakstā tiek izmantots USMF demonstrācijas uzņēmums.
+Šī rokasgrāmata palīdzēs iestatīt vecumstruktūras perioda definīciju, debitora vecuma bilances un skatīt **bilances** **bilanču sarakstā Vecuma bilance un Iekasēšanas** lapa. Šajā ierakstā tiek izmantots USMF demonstrācijas uzņēmums.
 
 
 ## <a name="create-an-aging-period-definition"></a>Izveidot vecumstruktūras perioda definīciju

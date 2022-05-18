@@ -8,21 +8,21 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "14151"
 - intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
-ms.author: shpandey
+ms.author: panolte
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: fc616e5fce6bbfeaa3b36ccc35f1b1cf407af4a6
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 5669b414283013ae1de095de2201df066ab588dd
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109864"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725910"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Finance Insights iestatījumu problēmu novēršana
 
@@ -34,7 +34,7 @@ ms.locfileid: "8109864"
 
 ### <a name="resolution"></a>Novēršana
 
-Iespējams, ka agrākai versijai izmantojat veidni. Pirms versijas 10.0.17 izlaišanas priekšskatiet debitorus, kuri konfigurēja **Debitora maksājuma ieskatu rezultātus (CDS uz Fin un Ops)** Datu integrācijas (DI) veidni, izmantojot **Maksājumu prognozēšanas rezultātu (priekšskatījuma)** elementu. Pēc jaunināšanas uz 10.0.17 vai jaunāku versiju, ir jāizmanto **Debitoru maksājumu ieskatu rezultāti (CDS uz Fin un Ops 10.0.17 vai jaunāka versija)** DI veidne, lai pabeigtu kartēšanu. Iespējams, ka nevarēsit kartēt DI veidnes mērķa kolonnu, kamēr datu pārvaldības elementu saraksts nav atsvaidzināts un tajā tiek parādīts **Maksājumu prognozēšanas rezultāta** elements. Lai atsvaidzinātu elementu sarakstu un rādītu maksājumu prognozēšanas rezultātu, izpildīsiet gan Microsoft Dynamics 365 Finance, gan Dataverse (iepriekš zināmas kā Common Data Service \[CDS\] administratora portāls).
+Iespējams, ka agrākai versijai izmantojat veidni. Pirms versijas 10.0.17 izlaišanas priekšskatiet debitorus, kuri konfigurēja **Debitora maksājuma ieskatu rezultātus (CDS uz Fin un Ops)** Datu integrācijas (DI) veidni, izmantojot **Maksājumu prognozēšanas rezultātu (priekšskatījuma)** elementu. Pēc jaunināšanas uz 10.0.17 vai jaunāku versiju, ir jāizmanto **Debitoru maksājumu ieskatu rezultāti (CDS uz Fin un Ops 10.0.17 vai jaunāka versija)** DI veidne, lai pabeigtu kartēšanu. Iespējams, ka nevarēsit kartēt DI veidnes mērķa kolonnu, kamēr datu pārvaldības elementu saraksts nav atsvaidzināts un tajā tiek parādīts **Maksājumu prognozēšanas rezultāta** elements. Lai atsvaidzinātu elementu sarakstu un rādītu maksājumu prognozēšanas rezultātu, Microsoft Dynamics izpildīsiet darbības gan finansēs 365 Dataverse, gan (iepriekš zināmas kā Common Data Service\[CDS\] administratora portāls).
 
 ### <a name="in-finance"></a>Finance
 
@@ -58,7 +58,7 @@ Izpildiet šīs darbības [Power Platform administrēšanas centrā](https://adm
 
 ### <a name="resolution"></a>Novēršana
 
-Dynamics 365 Finance Lietotāja kontam jābūt vides Microsoft Power Apps lietotāja kontam un šim lietotāja kontam jābūt sistēmas pielāgotāja lomai. Sistēmas Microsoft Power Apps administrators var izveidot lietotāja kontu un piešķirt lomu. Pēc tam varat doties uz <https://make.preview.powerapps.com/>, pieteikties, izmantojot šo lietotāja kontu, un vēlreiz mēģināt saites.
+Dynamics 365 finanšu lietotājiem jābūt Microsoft Power Apps vides lietotāja kontam un šim lietotāja kontam jābūt sistēmas pielāgotāja lomai. Sistēmas Microsoft Power Apps administrators var izveidot lietotāja kontu un piešķirt lomu. Pēc tam varat doties uz <https://make.preview.powerapps.com/>, pieteikties, izmantojot šo lietotāja kontu, un vēlreiz mēģināt saites.
 
 ## <a name="symptom-why-doesnt-the-cash-forecast-tab-in-the-cash-flow-forecast-workspace-show-any-data"></a>Simptoms: kādēļ naudas plūsmas prognozes darbvietas cilne Naudas plūsmas prognoze nerāda nekādus datus?
 
@@ -85,7 +85,7 @@ Ja jums ir piešķirta pareizā projekta drošības loma, iespējams, būs jāat
 Šādiem soļiem jābūt pabeigtiem.
 
 - Pārbaudiet, vai jums ir **sistēmas administratora** un **sistēmas pielāgotāja** piekļuve Power Portal administratora centrā.
-- Pārbaudiet, vai Dynamics 365 Finance vai vai vai licences numurs attiecas uz lietotāju, kurš instalē pievienojumprogrammu.
+- Pārbaudiet, vai Dynamics 365 finanšu vai ekvivalenta licence ir lietota lietotājam, kurš instalē šo pievienojumprogrammu.
 - Pārbaudiet, vai šī Azure AD programma ir reģistrēta Azure AD: 
 
   | Pieteikums                  | Programmas ID           |

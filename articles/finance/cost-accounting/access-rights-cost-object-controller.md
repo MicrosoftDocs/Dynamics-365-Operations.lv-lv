@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspace, CAMParameters
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c30a7c2765647aad17a475ba8705b8e688d166593adf242fcd15d90e49334189
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 13d562a4f42644b822c9548d1ea87d44a396b2c2
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733033"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8733883"
 ---
 # <a name="access-rights-for-cost-object-controllers"></a>Izmaksu objekta kontrolieru piekļuves tiesības
 
@@ -91,7 +91,7 @@ Piekļuves saraksta hierarhijas iestatījumi tiek izmantoti, lai kontrolētu to,
 - Microsoft Power BI:
 
     - Power BI vizualizācijās redzamie dati
-    - Datu Power BI vizualizācijas, kas ir iegultas Dynamics 365 Finance klientā
+    - Datu Power BI vizualizēšanas, kas ir iegultas Dynamics 365 finanšu klientā
 
 > [!IMPORTANT]
 > - Lai piekļuves saraksta hierarhija varētu ietekmēt datus pakalpojumā Power BI, piekļuves saraksta hierarhija ir jāsavieno pārī ar rindas līmeņa drošību pakalpojumā Power BI. Papildinformāciju skatiet rakstā [Drošības iestatīšana satura pakotnei Izmaksu uzskaite](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).

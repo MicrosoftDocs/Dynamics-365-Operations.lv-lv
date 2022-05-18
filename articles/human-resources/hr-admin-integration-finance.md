@@ -1,6 +1,6 @@
 ---
 title: Integrācijas konfigurēšana ar Finance
-description: Šajā tēmā aprakstīta integrācija starp programmām Dynamics 365 Human Resources un Dynamics 365 Finance.
+description: Šajā tēmā aprakstīta integrācija starp Un Dynamics 365 Human Resources Dynamics 365 Finansēm.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0a2c5dd0ce97f33f5f8b65c801fbc15dfc65e8d4
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3880601b40ce8ec544a1976f7f0ac7391dab32e1
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065020"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687537"
 ---
 # <a name="configure-integration-with-finance"></a>Integrācijas konfigurēšana ar Finance
 
@@ -31,7 +30,7 @@ ms.locfileid: "8065020"
 
 
 
-Lai integrētu Dynamics 365 Human Resources ar Dynamics 365 Finance, varat izmantot veidni No Human Resources uz Finance [datu integratorā](/powerapps/administrator/data-integrator). Cilvēkresursu finansēšanas veidne ļauj datu plūsmu darbiem, amatiem un darbiniekiem. Šī veidne ļauj datiem no Human Resources plūst uz Finance, bet neļauj datiem plūst no Finance uz Human Resources.
+Lai integrētu Dynamics 365 Human Resources ar Dynamics 365 finansēm, varat izmantot cilvēkresursus finanšu veidnei [datu integrētājā](/powerapps/administrator/data-integrator). Cilvēkresursu finansēšanas veidne ļauj datu plūsmu darbiem, amatiem un darbiniekiem. Šī veidne ļauj datiem no Human Resources plūst uz Finance, bet neļauj datiem plūst no Finance uz Human Resources.
 
 ![Integrācijas plūsma no Human Resources uz Finance.](./media/hr-admin-integration-finance-flow.png)
 
@@ -47,7 +46,7 @@ Risinājums no Human Resources uz Finance nodrošina tālāk minēto datu veidu 
 Integrācijas risinājumam ir nepieciešamas tālāk minētās Human Resources un Finance versijas. 
 
 - Dynamics 365 Human Resources šeit: Dataverse
-- Dynamics 365 Finance versija 7.2 un jaunāka versija
+- Dynamics 365 Finanšu versija 7.2 vai jaunāka
 
 ## <a name="template-and-tasks"></a>Veidne un uzdevumi
 
@@ -248,7 +247,7 @@ Veidne izmanto šādus pamatā esošos uzdevumus, lai sinhronizētu ierakstus no
 
 Integrācija no Human Resources uz Finance, integrācija mēģina saskaņot ierakstu atbilstību, pamatojoties uz ID. Ja ieraksti atbilst, datu integrators pārraksta datus, kas atrodas Finance, ar Human Resources esošajām vērtībām. Tomēr problēma var rasties, ja loģiski tie ir atšķirīgi ieraksti, un tas pats ID, pamatojoties uz attiecīgo numuru sēriju, tika ģenerēts vai nu Human Resources, vai Finance.
 
-Problēma var rasties sadaļā **Nodarbinātais**, kas atbilstības izveidošanai izmanto **Personāla numuru**, un **Amati**. Sadaļa Darbi neizmanto numuru sērijas. Tādējādi, ja viens un tas pats darba ID ir gan Human Resources, gan Finance, Human Resources informācija pārraksta Dynamics 365 Finance informāciju. 
+Problēma var rasties sadaļā **Nodarbinātais**, kas atbilstības izveidošanai izmanto **Personāla numuru**, un **Amati**. Sadaļa Darbi neizmanto numuru sērijas. Tādēļ, ja personāla vadības un finanšu līmenī pastāv viens darba ID, personāla vadības informācija pārraksta Dynamics 365 finanšu informāciju. 
 
 Lai novērstu problēmas ar dublētiem ID, varat vai nu pievienot prefiksu [numuru sērijai](/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json), vai numuru sērijā iestatīt sākuma numuru, kas ir ārpus citas sistēmas diapazona. 
 

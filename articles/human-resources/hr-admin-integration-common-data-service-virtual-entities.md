@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CDSIntegrationAdministration
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f7ffe522f0f17a21280e53728c6efc2823743733
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: d7f4d3770c754d2a7974d17fc7c40462ac8fc642
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069150"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691419"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Dataverse virtuālo tabulu konfigurēšana
 
@@ -122,10 +121,10 @@ Nākamais solis ir konfigurēt virtuālās tabulas datu avotu Power Apps vidē.
 
 4. **Risinājumu darbspējas centrmezglā** atlasiet ikonu **Detalizētā atrašana** lietojumprogrammas lapas augšējā labajā stūrī.
 
-5. **Lapas** Detalizētā atrašana **nolaižamajā sarakstā Meklēt** atlasiet **Finanšu un operāciju virtuālo datu avotu konfigurācijas**.
+5. Lapas Detalizētā **atrašana** nolaižamajā sarakstā Meklēt **izvēlieties Finanšu** un operāciju virtuālā **datu avota konfigurācijas**.
 
    > [!NOTE]
-   > Virtuālās tabulas programmas instalēšana no iepriekšējās iestatīšanas darbības var ilgt dažas minūtes. Ja **sarakstā nav pieejamas finanšu un operāciju virtuālo datu avotu konfigurācijas**, pagaidiet minūti un atsvaidziniet sarakstu.
+   > Virtuālās tabulas programmas instalēšana no iepriekšējās iestatīšanas darbības var ilgt dažas minūtes. Ja **finanšu un operāciju virtuālā datu** avota konfigurācijas nav pieejamas sarakstā, uzgaidiet kādu minūti un atsvaidziniet sarakstu.
 
 6. Atlasiet **Rezultāti**.
 

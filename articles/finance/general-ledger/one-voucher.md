@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerParameters, AssetProposalDepreciation
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 978d0dc28f86860335a782bd2ddaa141ed639fe5
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 9a0a9a3f23a3aec0077fd1a64c55fea567b72800
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344062"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722497"
 ---
 # <a name="one-voucher"></a>Viens dokuments
 
@@ -72,7 +72,7 @@ Sakarā ar problēmām, kas var rasties, izmantojot Viens dokuments, šī funkci
 
 Kad būs novērsti visi funkcionālie trūkumi, Microsoft paziņos, ka līdzeklis kļūs novecojis. Tomēr novecošana nebūs spēkā vismaz vienu gadu pēc šī paziņojuma. Lai gan Microsoft nevar sniegt novērtējumu par to, kad Viena dokumenta funkcionalitāte būs novecojusi, iespējams, ka tas būs vismaz pēc diviem gadiem. Microsoft politika ir ieturēt vismaz 12 mēnešus starp paziņojumu par novecojušu funkcionalitāti un faktisko novecošanu, tādējādi debitoriem un neatkarīgiem programmatūras kreditoriem (ISV) ir laiks, lai reaģētu uz izmaiņām. Piemēram, organizācijai varētu būt nepieciešams atjaunināt savus biznesa procesus, elementus un integrācijas.
 
-Viena dokumenta novecošana ir būtiska izmaiņa, par ko tiks plaši brīdināts. Šī paziņojuma ietvaros Microsoft atjauninās šo tēmu, publicēs emuāra ziņu Microsoft Dynamics 365 Finance emuārā, atjauninās tēmu “Noņemtie vai novecojušie līdzekļi”, paziņos par izmaiņām attiecīgajās Microsoft konferencēs un tā tālāk.
+Viena dokumenta novecošana ir būtiska izmaiņa, par ko tiks plaši brīdināts. Kā daļa no šīs komunikācijas Microsoft atjauninās šo tēmu, iegrāmatojiet tiešsaistes Microsoft Dynamics ziņu 365 Finanses, atjauniniet tēmu "Noņemts vai novecojis", komunicē ar izmaiņām attiecīgajās Microsoft konferencēs un tā tālāk.
 
 ## <a name="why-use-one-voucher"></a>Kādos gadījumos izmantot funkcionalitāti Viens dokuments?
 

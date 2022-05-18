@@ -8,18 +8,18 @@ ems.prod: ''
 ms.technology: ''
 ms.search.form: DimensionDetails, DimensionValueDetails, SysTranslationDetail
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 25871
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 36e667e8dd1282e788eb40cd392baa9db824cec2
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
-ms.translationtype: HT
+ms.openlocfilehash: 1360139a06909c1df922570f6e577d1d310b1c48
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644364"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722330"
 ---
 # <a name="financial-dimensions"></a>Finanšu dimensijas
 
@@ -31,7 +31,7 @@ Izmantojiet lapu **Finanšu dimensijas**, lai izveidotu finanšu dimensijas, ko 
 
 Kad esat izveidojis finanšu dimensijas, izmantojiet lapu **Finanšu dimensiju vērtības**, lai katrai finanšu dimensijai piešķirtu papildu rekvizītus.
 
-Finanšu dimensijas varat izmantot, lai attēlotu juridiskās personas. Jums nav jāizveido juridiskās personas Dynamics 365 finansēs. Taču finanšu dimensijas nav paredzēts izmantot, lai risinātu juridisko personu operāciju vai biznesa prasības. Starpvienību uzskaites funkcionalitāte programmā Finance ir paredzēta darbam tikai ar katras transakcijas ietvaros izveidotajiem uzskaites ierakstiem.
+Finanšu dimensijas varat izmantot, lai attēlotu juridiskās personas. Programmā Dynamics 365 Finance juridiskās personas nav jāizveido. Taču finanšu dimensijas nav paredzēts izmantot, lai risinātu juridisko personu operāciju vai biznesa prasības. Starpvienību uzskaites funkcionalitāte programmā Finance ir paredzēta darbam tikai ar katras transakcijas ietvaros izveidotajiem uzskaites ierakstiem.
 
 Pirms finanšu dimensijas iestatāt kā juridiskas personas, nosakiet, vai šie iestatījumi ir piemēroti jūsu organizācijai, novērtējot savas uzņēmējdarbības procesus tālāk norādītajās jomās.
 
@@ -79,12 +79,12 @@ Lai palīdzētu uzturēt atsauču datu integritāti, finanšu dimensijas dzēst 
 - Vai šī finanšu dimensija ir izmantota kādā aktīvā konta struktūrā, papildu kārtulas struktūrā vai finanšu dimensiju kopā?
 - Vai šī finanšu dimensija veido daļu no noklusējuma finanšu dimensiju integrācijas formāta?
 - Vai šī finanšu dimensija ir iestatīta kā noklusējuma dimensija?
-- Vai finanšu dimensija nav atlasīta finanšu pārskatu iestatījumos? 
+- Vai finanšu dimensija nav atlasīta no finanšu pārskatu iestatījumiem? 
 
 Ja finanšu dimensija atbilst kādam no šiem kritērijiem, tad šo finanšu dimensiju nevar izdzēst.
 
 > [!NOTE]
-> Sākot ar finanšu versiju 10.0.27, finanšu dimensijas vairs netiks automātiski atlasītas finanšu pārskatu iestatīšanai, jo tās tiks izveidotas. 
+> Sākot ar Finance versiju 10.0.27, finanšu dimensijas vairs netiks automātiski atlasītas finanšu pārskatu iestatījumiem, kad tās tiek izveidotas. 
 
 ## <a name="default-dimension-values"></a>Noklusējuma dimensijas vērtības
 

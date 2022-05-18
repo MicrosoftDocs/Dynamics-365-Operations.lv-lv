@@ -2,7 +2,7 @@
 title: B2C nomnieka iestatīšana programmā Commerce
 description: Šajā tēmā aprakstīts, kā iestatīt Azure Active Directory (Azure AD) biznesa-patērētāju (B2C) nomniekus lietotāja vietas autentifikācijai sistēmā Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 02/11/2022
+ms.date: 05/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d4cbb117e47940491266134fb1e2dbe87374d4a3
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 086128091b23ce6ab46dd2dfc0803af38de6bac7
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109893"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8714316"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>B2C nomnieka iestatīšana programmā Commerce
 
@@ -137,9 +137,9 @@ Varat izvēlēties izmantot nodrošinātās noklusējuma lietotāju plūsmas Azu
 
 Lai pielāgotu lietotāja politikas lapas Dynamics 365 Commerce, skatiet sadaļu [Pielāgotu lapu iestatīšana lietotāju pieteikšanās tiesībām](custom-pages-user-logins.md). Papildinformāciju skatiet sadaļā [Lietotāja pieredzes interfeisa pielāgošana Azure Active Directory B2C](/azure/active-directory-b2c/tutorial-customize-ui).
 
-### <a name="create-a-sign-up-and-sign-in-user-flow-policy"></a>Izveidot pierakstīšanos un pieteikties lietotāja plūsmas politikā
+### <a name="create-a-sign-up-and-sign-in-user-flow-policy"></a>Izveidot pierakstīšanās un pierakstīšanās lietotāju plūsmas politiku
 
-Lai izveidotu Parakstīšanos un pierakstīšanos lietotāja plūsmā politiku, veiciet tālāk minētās darbības.
+Lai izveidotu pierakstīšanās un pierakstīšanās lietotāju plūsmas politiku, sekojiet šiem soļiem.
 
 1. Azure portālā kreisajā navigācijas rūtī atlasiet **Lietotāju plūsmas (politikas)**.
 1. Lapā **Azure AD B2C — lietotāja plūsmas (politikas)** atlasiet **Jauna lietotāja plūsma**.
@@ -159,7 +159,7 @@ Lai izveidotu Parakstīšanos un pierakstīšanos lietotāja plūsmā politiku, 
 
 1. Atlasiet **Izveidot**.
 
-Tālāk minētais attēls ir Azure AD B2C reģistrācijas un pieteikšanās piemērs lietotāja plūsmā.
+Šis attēls ir B2C pierakstīšanās Azure AD un pierakstīšanās lietotāju plūsmas piemērs.
 
 ![Parakstīšanās un pieteikšanās politikas iestatījumi.](./media/B2CImage_11.png)
 
@@ -239,15 +239,15 @@ Lai pievienotu un iestatītu sociālās identitātes nodrošinātāju, veiciet �
 
 1. Azure portālā dodieties uz **Identitātes nodrošinātājiem**.
 1. Atlasiet **Pievienot**. Parādās ekrāns **Pievienot identitātes nodrošinātāju**.
-1. Sadaļā **Nosaukums** ievadiet nosaukumu, kas jāparāda lietotājiem jūsu pieteikšanās ekrānā.
+1. Sadaļā **Nosaukums** ievadiet nosaukumu, kas tiks rādīts lietotājiem pierakstīšanās ekrānā.
 1. Sadaļā **Identitātes nodrošinātāja tips** no saraksta atlasiet identitātes nodrošinātāju.
 1. Atlasiet **Labi**.
 1. Atlasiet **Iestatīt šo identitātes nodrošinātāju**, lai piekļūtu ekrānam **Iestatīt sociālās identitātes nodrošinātāja**.
 1. Sadaļā **Klienta ID** ievadiet klienta ID, kas iegūts no identitātes nodrošinātāja programmas uzstādīšanas.
 1. Sadaļā **Klienta slepenā atslēga** ievadiet klienta slepeno atslēgu, kas iegūts no identitātes nodrošinātāja programmas uzstādīšanas.
-1. Pievienojiet lietotāja plūsmu žurnālam piesakieties politikām:
+1. Pievienojiet lietotāju plūsmu pierakstīšanās/pierakstīšanās politikām:
 1. Doties uz **Azure AD B2C — lietotāja plūsmas (politikas) \> {jūsu pierakstīšanās/pieteikšanās politika} \> identitātes nodrošinātāji**.
-1. Lai pievienotu pieteikšanos/pierakstīšanos lietotāja plūsmas politikai, atlasiet katru identitātes nodrošinātāju, ko esat iestatījis savam kontam. Lai pārbaudītu tos, atlasiet **Palaist lietotāja plūsmu** katram identitātes nodrošinātājam. Jauna cilne parādīs pieteikšanās lapu, parādot jauno identitātes nodrošinātāju atlases lodziņu.
+1. Lai pievienotu pierakstīšanās/pierakstīšanās lietotāju plūsmas politiku, atlasiet katru personas kodu, kuru esat iestatījis savam kontam. Lai pārbaudītu tos, atlasiet **Palaist lietotāja plūsmu** katram identitātes nodrošinātājam. Jauna cilne parādīs pieteikšanās lapu, parādot jauno identitātes nodrošinātāju atlases lodziņu.
 
 Sekojošajā attēlā ir redzami **Pievienot identitātes nodrošinātāju** un **Uzstādīt sociālo identitātes nodrošinātāju** ekrāna piemēri Azure AD B2C.
 
@@ -332,27 +332,28 @@ Lai pievienotu programmai Commerce Azure AD savu B2C nomnieka pieteikuma inform�
 
 1. Piesakieties kā administrators Commerce vietņu veidotājā jūsu videi.
 1. Kreisās puses navigācijas rūtī atlasiet **Nomnieka iestatījumi**, lai to izvērstu.
-1. Sadaļā **Nomnieka iestatījumi** atlasiet **B2C iestatījumi**. 
-1. Galvenajā logā blakus **B2C lietojumprogrammas** atlasiet **Pārvaldīt**. (Ja jūsu nomnieks parādās B2C lietojumprogrammu sarakstā, tad administrators to jau ir pievienojis. Pārbaudiet, vai vienumi 6. solī atbilst jūsu B2C lietojumprogrammai.)
-1. Atlasiet **Pievienot B2C lietojumprogrammas**.
+1. Sadaļā **Nomnieka iestatījumi** atlasiet vietnes **autentifikācijas iestatījumus**. 
+1. Galvenajā logā blakus vietnes autentifikācijas **profiliem** atlasiet **Pārvaldīt**. (Ja nomnieks parādās vietnes autentifikācijas profilu sarakstā, administrators to jau ir pievienojis. Pārbaudiet, vai krājumi tālāk 6. darbībā atbilst krājumiem, kas paredzēti B2C iestatījumam. Jaunu profilu var izveidot, izmantojot līdzīgus Azure AD B2C nomniekus vai programmas, lai noteiktu nelielas atšķirības, piemēram, atšķirīgiem lietotāju politikas ID).
+1. Atlasiet **Pievienot vietnes autentifikācijas profilu**.
 1. Veidlapā ievadiet tālāk norādītos pieprasītos vienumus, izmantojot vērtības no jūsu B2C nomnieka un lietojumprogrammas. Lauki, kas nav nepieciešami (bez zvaigznītes), var tikt atstāti tukši.
 
     - **Lietojumprogrammas nosaukums**: jūsu B2C lietojumprogrammas nosaukums, piemēram, "Fabrikam B2C".
     - **Nomnieka nosaukums**: jūsu B2C nomnieka nosaukums (piemēram, izmantot "fabrikam", ja domēns parādās kā "fabrikam.onmicrosoft.com" B2C nomniekam). 
     - **Aizmirstas paroles politikas ID**: aizmirstas paroles lietotāja plūsmas politikas ID, piemēram, "B2C_1_PasswordReset".
-    - **Pierakstīšanās pieteikšanās politikas ID**: pierakstīšanās un pieteikšanās lietotāja plūsmas politikas ID, piemēram, "B2C_1_signup_signin".
+    - **Pierakstīšanās pierakstīšanās politikas ID**: pierakstīšanās un pierakstīšanās lietotāja plūsmas politikas ID, piemēram, "B2C_1_signup_signin".
     - **Klienta GUID**: B2C lietojumprogrammas ID, piemēram, "22290eb2-c52e-42e9-8b35-a2b0a3bcb9e6".
     - **Rediģēt profila politikas ID**: profila rediģēšanas lietotāja plūsmas politikas ID, piemēram, "B2C_1A_ProfileEdit".
 
 1. Atlasiet **Labi**. Tagad jums ir jāredz jūsu B2C lietojumprogrammas nosaukums, kas parādās sarakstā.
 1. Atlasiet **Saglabāt**, lai saglabātu izmaiņas.
 
+Neobligātais **pieteikšanās pielāgotais** domēna lauks ir jāizmanto tikai tad, ja iestatāt pielāgotu domēnu Azure AD B2C nomniekam. Papildinformāciju par pielāgotā domēna pieteikšanās **lauka** lietojumu skatiet tālāk [papildinformāciju par B2C](#additional-b2c-information) informāciju.
+
 ### <a name="associate-the-b2c-application-to-your-site-and-channel"></a>Saistīt B2C lietojumprogrammu ar jūsu vietni un kanālu
 
 > [!WARNING]
-> Ja jūsu vietne jau ir saistīta ar B2C lietojumprogrammu, pārejot uz citu B2C programmu, tiks noņemtas pašreizējās atsauces, kas izveidotas lietotājiem, kas jau ir reģistrējušies šajā vidē. Ja tas tiks mainīts, visi akreditācijas dati, kas ir saistīti ar pašlaik piešķirto B2C lietojumprogrammu, lietotājiem nebūs pieejami. 
-> 
-> Atjauniniet tikai B2C lietojumprogrammu, ja kanāla B2C lietojumprogrammu iestatāt pirmo reizi vai vēlaties, lai lietotāji atkārtoti pierakstītos ar jauniem akreditācijas datiem šajā kanālā ar jauno B2C lietojumprogrammu. Esiet piesardzīgs, saistot kanālus ar B2C lietojumprogrammām, un skaidri nosauciet lietojumprogrammas. Ja kanāls nav saistīts ar B2C programmu tālāk norādītajās darbībās, lietotāji, kas piesakās šajā kanālā jūsu vietnei, tiks ievadīti B2C programmā, kas tiek parādīta kā **Noklusējums** **Nomnieka iestatījumi \> B2C iestatījumi** B2C lietojumprogrammu saraksts.
+> - Ja jūsu vietne jau ir saistīta ar B2C lietojumprogrammu, pārejot uz citu B2C programmu, tiks noņemtas pašreizējās atsauces, kas izveidotas lietotājiem, kas jau ir reģistrējušies šajā vidē. Ja tas tiks mainīts, visi akreditācijas dati, kas ir saistīti ar pašlaik piešķirto B2C lietojumprogrammu, lietotājiem nebūs pieejami. 
+> - Atjauniniet B2C programmu tikai tad, ja pirmo reizi iestatāt kanāla B2C programmu vai ja vēlaties, lai lietotāji atkal pierakstītos šajā kanālā ar jauno B2C programmu. Esiet piesardzīgs, saistot kanālus ar B2C lietojumprogrammām, un skaidri nosauciet lietojumprogrammas. Ja kanāls nav saistīts ar B2C programmu tālāk norādītajās darbībās, lietotāji, kas piesakās šajā kanālā jūsu vietnei, tiks ievadīti B2C programmā, kas tiek parādīta kā **Noklusējums** **Nomnieka iestatījumi \> B2C iestatījumi** B2C lietojumprogrammu saraksts.
 
 Lai saistītu B2C lietojumprogrammu ar jūsu vietni un kanālu, sekojiet šīm darbībām,
 
@@ -378,6 +379,23 @@ Lai iegūtu papildu informāciju par Azure AD B2C mijiedarbību un politikas pl�
 ### <a name="secondary-admin"></a>Sekundārais administrators
 
 Papildu administratora kontu var pievienot jūsu B2C nomnieka **Lietotāji** sadaļā. Tas var būt tiešais konts vai vispārējais konts. Ja ir jākopīgo konts grupas resursos, var tikt izveidots arī kopīgs konts. Izmantojot Azure AD B2C uzglabāto datu sensivitāti, kopējais konts ir rūpīgi jākontrolē atbilstoši jūsu uzņēmuma drošības praksei.
+
+### <a name="set-up-a-custom-sign-in-domain"></a>Pielāgotas pierakstīšanās domēna iestatīšana
+
+Azure AD B2C ļauj iestatīt pielāgotu pierakstīšanās domēnu Azure AD B2C nomniekam. Norādījumus skatiet pielāgoto [domēnu iespējošana B2C Azure Active Directory](/azure/active-directory-b2c/custom-domain). 
+
+Ja izmantojat pielāgotu pierakstīšanās domēnu, domēns jāievada Commerce Site Builder.
+
+Lai ievadītu pielāgotu pierakstīšanās domēnu vietnes veidotājā, sekojiet šiem soļiem.
+
+1. Vietas veidotāja augšējā labajā stūrī atlasiet vietas pārslēdzēju un pēc tam atlasiet Pārvaldīt **vietnes**.
+1. Kreisās puses navigācijas rūtī atlasiet nomnieka **iestatījumu vietnes \> autentifikācijas iestatījumus**.
+1. Vietnes autentifikācijas **profilu** sadaļā atlasiet **Pārvaldīt**.
+1. Izlietnes izvēlnē labajā pusē atlasiet pogu Rediģēt (simbols) blakus vietnes autentifikācijas profilam, **kuram** vēlaties ievadīt pielāgotu domēnu.
+1. Dialoglodziņā Rediģēt **vietnes autentifikācijas profilu** sadaļā **Pieteikties** pielāgotajā domēnā ievadiet pielāgoto pierakstīšanās domēnu (piemēram, 'login.fabrikam.com').
+
+> [!WARNING]
+> Kad atjaunināt pielāgotu domēnu Azure AD B2C nomniekam, izmaiņas ietekmē nomnieka izsniedzēja detalizētu informāciju par ģenerēto marķieru. Tad izsniedzēja dati ietvers pielāgoto domēnu, nevis B2C Azure AD nodrošināto noklusējuma domēnu. Atšķirīga izsniedzēja **konfigurācija** programmā Commerce headquarters (**Retail un Commerce \> Headquarters \>\> iestatīšanas parametri Commerce \>** koplietojamie parametri identitātes nodrošinātāji) maina sistēmas mijiedarbību ar vietas lietotājiem; iespējams, tiek veidots jauns debitora ieraksts, ja lietotājs autentificēas attiecībā pret jauno izsniedzēju. Visas pielāgotās domēna izmaiņas rūpīgi jāpārbauda pirms pārslēgšanās uz pielāgoto domēnu tiešā Azure AD B2C vidē.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

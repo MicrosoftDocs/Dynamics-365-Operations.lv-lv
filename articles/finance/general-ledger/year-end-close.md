@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerClosingSheet
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04eeb8886d74fa8c633d2ac4e9e47aa28a12ee30
-ms.sourcegitcommit: e06b7d4de6d5ee7ae491d437d6c0365608a5380b
+ms.openlocfilehash: 247c3286124da946937c8afd248a275e5a745044
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "7892481"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725238"
 ---
 # <a name="year-end-close"></a>Gada beigu slēgšana
 
@@ -44,7 +44,7 @@ Lapā **Galvenais konts**:
 Lapas **Virsgrāmatas parametri** sadaļā **Finanšu gada slēgšana**
 
 - Opcija **Dzēst esošos gada beigu ierakstus, atkārtoti aizverot gadu** tiek izmantota, lai norādītu, vai, atkārtoti izpildot gada beigu slēgšanu, ir jādzēš iepriekšējās gada beigu slēgšanas laikā sistēmā ģenerētā sākuma transakcija. Ja ir iestatīta šīs opcijas vērtība **Jā**, iepriekšējā sākuma un izvēles slēgšanas transakcijas tiek dzēstas un tiek izveidota jauna sākuma vai beigu transakcija, pamatojoties uz pašreizējām bilancēm. Ja ir iestatīta šīs opcijas vērtība **Nē**, iepriekšējā sākuma un izvēles slēgšanas transakcijas tiek saglabātas un tiek izveidota papildu sākuma vai beigu transakcija, lai pārvietotu turpmākai lietošanai bilances no koriģējošajām transakcijām, kas ir grāmatotas pēc iepriekšējās gada beigu slēgšanas.
-- Opcija Izveidot slēgšanas darbības pārsūtīšanas laikā tiek lietota, lai izveidotu slēguma darbības slēgtajā finanšu gadā, lai visu galveno kontu bilances būtu **0** (nulle). Ja ir iestatīta šīs opcijas vērtība **Jā**, tiek izveidotas gan sākuma darbība, gan slēgšanas darbība. Ja ir iestatīta šīs opcijas vērtība **Nē**, finanšu gadā tiek izveidota tikai sākuma transakcija, kas pārsūta bilances. Galvenā konta bilances paliek finanšu gada beigās.
+- Opcija **Izveidot slēgšanas darbības** pārsūtīšanas laikā tiek lietota, lai izveidotu slēguma darbības slēgtajā finanšu gadā, lai visu galveno kontu bilances būtu 0 (nulle). Ja ir iestatīta šīs opcijas vērtība **Jā**, tiek izveidotas gan sākuma darbība, gan slēgšanas darbība. Ja ir iestatīta šīs opcijas vērtība **Nē**, finanšu gadā tiek izveidota tikai sākuma transakcija, kas pārsūta bilances. Galvenā konta bilances paliek finanšu gada beigās.
 - Opcija **Iestatīt finanšu gada statusu kā neatgriezeniski slēgtu** tiek izmantota, lai iestatītu finanšu gada neatgriezeniskas slēgšanas statusu. Uzmanīgi lietojiet šo opciju, jo periodus, kuriem ir neatgriezenisks slēgts statuss, nevar atvērt atkārtoti. Tāpēc korekcijas nevar grāmatot finanšu gadā. Kā labākā prakse šī iespēja būtu jāiestata kā **Nē**.
 - Opcija **Dokumenta numuram jābūt aizpildītam** ir noņemta. Dokuments ir nepieciešams, kad tiek izpildīts gada beigu slēgšanas process. Tajā laikā dokumenta numurs tiek ievadīts manuāli.
 

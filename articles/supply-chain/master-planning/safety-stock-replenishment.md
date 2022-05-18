@@ -1,22 +1,22 @@
 ---
 title: Krājumu drošības rezerves izpilde
 description: Šajā tēmā ir apskatīta krājumu drošības rezerves izpilde un veids, kā iestatīt drošības rezervi krājumiem.
-author: thethehelga
+author: t-benebo
 ms.date: 8/23/2021
 ms.topic: article
 ms.search.form: ReqSafetyKey, ReqItemTableSetup, ReqItemJournalName, ReqItemTable, EcoResProductDetailsExtended, ReqSafetyKeyDefaultDataWizard
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: v-oldolg
+ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 937341e17688959e5721153c61af904a88608b17
-ms.sourcegitcommit: bc9e75c38e192664cde226ed3a94df5a0b304369
+ms.openlocfilehash: c539b804198ddc5d5dac52c958a851ee55116711
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7790942"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8672071"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>Krājumu drošības rezerves izpilde
 
@@ -90,7 +90,7 @@ Nākamajā scenārijā ir parādīts, kā šis parametrs darbojas un kādas ir a
 > [!NOTE]
 > Visās šīs tēmas ilustrācijās x ass apzīmē krājumus, y ass apzīmē dienas, joslas apzīmē krājumu līmeni, un bultiņas apzīmē transakcijas, piemēram, pārdošanas pasūtījumu rindas, pirkšanas pasūtījumu rindas vai plānotus pasūtījumus.
 
-[![ Kopējs drošības rezervju izpildes scenārijs.](media/Scenario1.png)](media/Scenario1.png)
+[![Kopējs drošības rezervju izpildes scenārijs.](media/Scenario1.png)](media/Scenario1.png)
 
 Parametram **Izpildīt minimumu** var būt šādas vērtības:
 
@@ -98,17 +98,17 @@ Parametram **Izpildīt minimumu** var būt šādas vērtības:
 
 Norādītais minimuma daudzums tiek izpildīts datumā, kad tiek palaista vispārējā plānošana. Sistēma cenšas izpildīt krājumu drošības rezerves ierobežojumu pēc iespējas ātrāk, kaut arī tas var nebūt reāli iespējams izpildes laika dēļ.
 
-[![ Vajadzība šodienas datumā.](media/TodayReq.png)](media/TodayReq.png)
+[![Vajadzība šodienas datumā.](media/TodayReq.png)](media/TodayReq.png)
 
 Plānotais pasūtījums P1 tiek izveidots šodienas datumam, lai pieejamo krājumu daudzums atkal pārsniegtu krājumu drošības rezerves līmeni šajā datumā. Pārdošanas pasūtījuma rindas no S1 līdz S3 turpina pazemināt krājumu līmeni. Pēc katras pārdošanas pasūtījuma prasības vispārējā plānošana ģenerē plānotus pasūtījumus no P2 līdz P4, lai krājumu līmenis atgrieztos pie drošības ierobežojuma.
 
 Kad tiek izmantots vajadzības aprēķināšanas kods **Prasība**, tiek izveidoti vairāki plānoti pasūtījumi. Bieži pieprasītiem krājumiem un materiāliem vienmēr ir ieteicams izmantot vajadzību **Periods** vai **Min./maks.**, lai komplektētu papildināšanu. Nākamajā attēlā ir parādīts vajadzības aprēķināšanas koda **Periods** piemērs.
 
-[![ Periods. Šodienas datums.](media/TodayPeriod.png)](media/TodayPeriod.png)
+[![Periods. Šodienas datums.](media/TodayPeriod.png)](media/TodayPeriod.png)
 
 Nākamajā attēlā ir parādīts vajadzības aprēķināšanas koda **Min/Max** piemērs.
 
-[![ Min/Max. Šodienas datums.](media/TodayMinMax.png)](media/TodayMinMax.png)
+[![Min/Max. Šodienas datums.](media/TodayMinMax.png)](media/TodayMinMax.png)
 
 ### <a name="todays-date--procurement-time"></a>Šodienas datums + piegādes laiks
 
@@ -118,11 +118,11 @@ Norādītais minimuma daudzums tiek izpildīts vispārējās plānošanas palai�
 
 Nākamajā attēlā ir parādīts plāna rezultāts, ja vajadzību aprēķināšanas metode ir **Prasība** vai **Periods**.
 
-[![ Prasība vai Periods. Šodienas datums un izpildes laiks.](media/TodayPLTReq.png)](media/TodayPLTReq.png)
+[![Prasība vai Periods. Šodienas datums un izpildes laiks.](media/TodayPLTReq.png)](media/TodayPLTReq.png)
 
 Nākamajā attēlā ir parādīts plāna rezultāts, ja vajadzību aprēķināšanas metode ir **Min/Max**.
 
-[![ Min/Max. Šodienas datums un izpildes laiks.](media/TodayPLTMinMax.png)](media/TodayPLTMinMax.png)
+[![Min/Max. Šodienas datums un izpildes laiks.](media/TodayPLTMinMax.png)](media/TodayPLTMinMax.png)
 
 ### <a name="first-issue"></a>Pirmā izejas plūsma
 
@@ -130,21 +130,21 @@ Norādītais minimuma daudzums tiek izpildīts datumā, kad pieejamais krājuma 
 
 Nākamajā attēlā ir parādīts vajadzības aprēķināšanas koda **Prasība** piemērs.
 
-[![ Krājuma plānošana ar vajadzības aprēķināšanas kodu Prasība un izpildi Pirmā izejas plūsma.](media/FirstIssueReq.png)](media/FirstIssueReq.png)
+[![Krājuma plānošana ar vajadzības aprēķināšanas kodu Prasība un izpildi Pirmā izejas plūsma.](media/FirstIssueReq.png)](media/FirstIssueReq.png)
 
 Nākamajā attēlā ir parādīts vajadzības aprēķināšanas koda **Periods** piemērs.
 
-[![ Krājuma plānošana ar vajadzības aprēķināšanas kodu Periods un izpildi Pirmā izejas plūsma.](media/FirstIssuePeriod.png)](media/FirstIssuePeriod.png)
+[![Krājuma plānošana ar vajadzības aprēķināšanas kodu Periods un izpildi Pirmā izejas plūsma.](media/FirstIssuePeriod.png)](media/FirstIssuePeriod.png)
 
 Nākamajā attēlā ir parādīts vajadzības aprēķināšanas koda **Min/Max** piemērs.
 
-[![ Krājuma plānošana ar vajadzības aprēķināšanas kodu MinMax un izpildi Pirmā izejas plūsma.](media/FirstIssueMinMax.png)](media/FirstIssueMinMax.png)
+[![Krājuma plānošana ar vajadzības aprēķināšanas kodu MinMax un izpildi Pirmā izejas plūsma.](media/FirstIssueMinMax.png)](media/FirstIssueMinMax.png)
 
 Ja datumā, kad tiek izpildīta vispārējā plānošana, pieejamais krājuma daudzums jau ir mazāks par krājumu drošības rezerves ierobežojumu, iestatījums **Šodienas datums** un **Šodienas datums + sagādes laiks** papildināšanu izsauc nekavējoties. Iestatījums **Pirmā izejas plūsma** gaidīs, līdz attiecīgajam krājumam rodas cita izejas plūsmas transakcija, piemēram, pārdošanas pasūtījums un MK rindas prasība, un pēc tam tas izsauks papildināšanu šīs transakcijas datumā.
 
 Ja datumā, kad tiek izpildīta vispārējā plānošana, pieejamais krājuma daudzums nav mazāks par krājumu drošības rezerves ierobežojumu, iestatījums **Šodienas datums** un **Pirmā izejas plūsma** sniedz tieši tādu pašu rezultātu, kā parādīts nākamajā attēlā.
 
-[![ Nav ierobežots.](media/ReqFirstIssue.png)](media/ReqFirstIssue.png)
+[![Nav ierobežots.](media/ReqFirstIssue.png)](media/ReqFirstIssue.png)
 
 Ja datumā, kad tiek izpildīta vispārējā plānošana, pieejamais krājuma daudzums nav mazāks par krājumu drošības rezerves ierobežojumu, iestatījums **Šodienas datums + sagādes laiks** sniedz tālāk norādīto rezultātu, jo tas atliek izpildi līdz sagādes izpildes laika beigām.
 
@@ -160,23 +160,23 @@ Krājumu ieejas plūsma, kurai ir visvēlākais beigu datums, jebkurā brīdī t
 
 Lai parādītu, kā tas darbojas, apskatiet tālāk aprakstīto scenāriju.
 
-[![ FEFO scenārijs.](media/FEFOScenario.png)](media/FEFOScenario.png)
+[![FEFO scenārijs.](media/FEFOScenario.png)](media/FEFOScenario.png)
 
 Izpildot plānošanu, pirmo pārdošanas pasūtījumu tā sedz no pastāvošajiem rīcībā esošajiem krājumiem, un papildu pirkšanas pasūtījumu — atlikušajam daudzumam.
 
-[![ 1. FEFO.](media/FEFO1.png)](media/FEFO1.png)
+[![1. FEFO.](media/FEFO1.png)](media/FEFO1.png)
 
 Tiek izveidots plānots pasūtījums, lai nodrošinātu, ka pieejamais krājumu daudzums atgriežas drošības līmenī.
 
-[![ 2. FEFO.](media/FEFO2.png)](media/FEFO2.png)
+[![2. FEFO.](media/FEFO2.png)](media/FEFO2.png)
 
 Kad tiek plānots otrais pārdošanas pasūtījums, šī daudzuma segšanai tiek izmantots iepriekš izveidotais plānotais pasūtījums, kas sedz krājumu drošības rezervi. Tādējādi tiek pastāvīgi uzturēta krājumu drošības rezerve.
 
-[![ 3. FEFO.](media/FEFO3.png)](media/FEFO3.png)
+[![3. FEFO.](media/FEFO3.png)](media/FEFO3.png)
 
 Visbeidzot tiek izveidots cits plānots pasūtījums, lai segtu krājumu drošības rezervi.
 
-[![ 4. FEFO.](media/FEFO4.png)](media/FEFO4.png)
+[![4. FEFO.](media/FEFO4.png)](media/FEFO4.png)
 
 Visām partijām atbilstoši pienāk beigu datums, un tiek izveidoti plānotie pasūtījumi, lai pēc beigu datuma papildinātu krājumu drošības rezervi.
 

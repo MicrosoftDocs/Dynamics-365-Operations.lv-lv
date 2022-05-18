@@ -1,5 +1,5 @@
 ---
-title: Izveidot norēķinu grafikus
+title: Norēķinu grafiku izveide
 description: Šajā tēmā skaidrots, kā izveidot, dzēst un rediģēt norēķinu grafikus.
 author: JodiChristiansen
 ms.date: 02/09/2022
@@ -9,20 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, Operations
 ms.custom: 539093
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 2c4e3c0edadd00fd3a3f2ae9968248a226147996
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: ed31dd96b0115610cfb74aed69f1acc1055bfe56
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462592"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8690450"
 ---
-# <a name="create-billing-schedules"></a>Izveidot norēķinu grafikus
+# <a name="create-billing-schedules"></a>Norēķinu grafiku izveide
 
 [!include [banner](../includes/banner.md)]
 

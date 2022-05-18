@@ -1,6 +1,6 @@
 ---
 title: Uzkrājumu pārskats
-description: Šajā rakstā ir aprakstīti uzkrājumi un sniegta informācija par to, kā tos iestatīt un izveidot transakcijas.
+description: Šajā tēmā aprakstīti uzkrājumi un sniegta informācija par to, kā tās iestatīt un izveidot darbības.
 author: aprilolson
 ms.date: 01/11/2018
 ms.topic: overview
@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerAccuralTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "14131"
 - intro-internal
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc3234c1a64155e1d0ad53cb7008d91847f7af7d
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 62b56e698d3d9eeec08824eb799d74a8c6792ea7
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985291"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735237"
 ---
 # <a name="accruals-overview"></a>Uzkrājumu pārskats
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir aprakstīti uzkrājumi un sniegta informācija par to, kā tos iestatīt un izveidot transakcijas.
+Šajā tēmā aprakstīti uzkrājumi un sniegta informācija par to, kā tās iestatīt un izveidot darbības.
 
 Uzkrājumi tiek izmantoti uzkrājumu principa uzskaitē, lai izsekotu ieņēmumus, kas tiek atzīti par iegūtiem noteiktā periodā, nevis tad, kad tiek saņemts maksājums, un izsekotu izdevumus (izmaksas), kas tiek atzītas tad, kad tie rodas, nevis tad, kad tiek veikts maksājums.
 

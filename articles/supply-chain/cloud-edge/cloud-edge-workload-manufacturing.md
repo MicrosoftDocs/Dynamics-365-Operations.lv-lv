@@ -1,7 +1,7 @@
 ---
 title: Ražošanas izpildes darba slodzes mākoņa un malas mēroga vienībām
 description: Šajā tēmā aprakstīts, kā ražošanas izpildes darba slodzes darbojas ar mākoņa un malas mēroga vienībām.
-author: cabeln
+author: johanhoffmann
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: SCM
-ms.author: cabeln
+ms.author: johanho
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 633740ee1e26d2e4ed2ea7031ef298fb11c2ab58
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b30e16489b0b0169f08e52c70cf4489c9bf4ce1b
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068848"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8674059"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Ražošanas izpildes darba slodzes mākoņa un malas mēroga vienībām
 
@@ -32,7 +32,7 @@ ms.locfileid: "8068848"
 >
 > Dažas biznesa funkcionalitātes netiek pilnībā atbalstītas publiskajā priekšskatījumā, kad darba slodzes mēroga vienības tiek izmantotas.
 >
-> Priekšskatījuma ražošanas izpildes darba slodzi nevar palaist mēroga vienībā, kurā ir instalēta arī noliktavas izpildes darba slodze.
+> Priekšskatījuma ražošanas izpildes darba slodzi nevar palaist mēroga vienībā, kurā ir instalēta arī noliktavas izpildes darba noslodze.
 
 Ražošanas izpildē mēroga vienības nodrošina šādas iespējas:
 
@@ -132,21 +132,21 @@ Pašreizējā laidienā, reģistrējot pabeigšanu un izvietošanas operācijas,
 
  -->
 
-## <a name="enable-and-use-the-start-operation-on-a-scale-unit"></a>Iespējojiet un izmantojiet skalas vienības sākuma darbību
+## <a name="enable-and-use-the-start-operation-on-a-scale-unit"></a>Iespējot un izmantot mēroga vienības sākuma operāciju
 
-Pašreizējā laidienā ražošanas un sērijveida pasūtījumu sākšanas darbību atbalsta [noliktavas izpildes slodze](cloud-edge-workload-warehousing.md) (nevis ražošanas izpildes slodze). Tāpēc, lai izmantotu šo funkcionalitāti, kad ir izveidots savienojums ar skalas ierīci, jums ir jāveic šādi uzdevumi:
-
-- Instalējiet gan noliktavas izpildes darba noslodzi, gan ražošanas izpildes darba slodzi mēroga vienībai.
-- Iespējot *Sāciet ražošanas pasūtījumu noliktavas pārvaldības darba slodzei mākoņa un malas mēroga vienībai* iezīme iekšā [Funkciju pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
-- Izmantojiet Noliktavas pārvaldības mobilo lietotni, lai sāktu ražošanu vai partijas pasūtījumu.
-
-## <a name="enable-and-use-material-consumption-on-a-scale-unit"></a>Iespējot un izmantot materiālu patēriņu uz skalas vienības
-
-Pašreizējā laidienā plūsma noliktavas pārvaldība mobilajā lietotnē materiālu patēriņa reģistrēšanai tiek atbalstīta ar [noliktavas izpildes slodze](cloud-edge-workload-warehousing.md) (nevis ražošanas izpildes slodze). Tāpēc, lai izmantotu šo funkcionalitāti, kad ir izveidots savienojums ar skalas ierīci, jums ir jāveic šādi uzdevumi:
+Pašreizējā izlaidē ražošanas un partijas pasūtījumu [sākšanas operāciju atbalsta noliktavas izpildes](cloud-edge-workload-warehousing.md) darba slodze (nevis ražošanas izpildes darba slodze). Tāpēc, lai lietotu šo funkcionalitāti, kad ir izveidots savienojums ar mēroga vienību, pabeidziet šos uzdevumus:
 
 - Instalējiet gan noliktavas izpildes darba noslodzi, gan ražošanas izpildes darba slodzi mēroga vienībai.
-- Iespējot *Reģistrēt materiālu patēriņu mobilajā lietotnē uz skalas vienības* iezīme iekšā [Funkciju pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
-- Izmantojiet Noliktavas pārvaldības mobilo lietotni, lai reģistrētu materiālu patēriņu.
+- Iespējojiet *noliktavas pārvaldības darba noslodzes sākt ražošanas pasūtījumu mākoņa un malas skalas vienības līdzeklim* līdzekļu [pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+- Izmantojiet mobilo programmu Noliktavas pārvaldība, lai sāktu ražošanas vai partijas pasūtījumu.
+
+## <a name="enable-and-use-material-consumption-on-a-scale-unit"></a>Materiālu patēriņa iespējošana un izmantošana mēroga vienībās
+
+Pašreizējā laidienā [noliktavas](cloud-edge-workload-warehousing.md) pārvaldības mobilās programmas plūsmu materiālu patēriņa reģistrēšanai atbalsta noliktavas izpildes darba slodze (nevis ražošanas izpildes darba noslodze). Tāpēc, lai lietotu šo funkcionalitāti, kad ir izveidots savienojums ar mēroga vienību, pabeidziet šos uzdevumus:
+
+- Instalējiet gan noliktavas izpildes darba noslodzi, gan ražošanas izpildes darba slodzi mēroga vienībai.
+- Iespējojiet *līdzekli Reģistrēt materiālu patēriņu mobilajā programmā, izmantojot līdzekļu pārvaldības mēroga*[vienības līdzekli](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+- Izmantojiet mobilo programmu Noliktavas pārvaldība, lai reģistrētu materiālu patēriņu.
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

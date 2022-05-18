@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle, HcmPersonnelManagementWorkspace, HCMJobFamily
 audience: Application User
 ms.author: twheeloc
-ms.search.scope: Human Resources
 ms.custom: 269054
 ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7e2c9421646dacc5523f40b28b550881dc4b25dd
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: de828bc1ab764a8a1bd084a508f38ff19a3947d5
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068163"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8693589"
 ---
 # <a name="set-up-the-components-of-a-job"></a>Darba komponentu iestatīšana
 
@@ -63,7 +62,7 @@ Darba funkcijas apraksta augsta līmeņa funkcionālās kategorijas un attiecas 
 Darba funkcijas tiek uzturētas lapā **Darba funkcijas**. Lapā **Darba funkcijas** ievadiet identifikācijas kodu un īsu aprakstu par attiecīgo darba funkciju.
 
 ## <a name="compensation"></a>Kompensācija
-Lai piešķirtu fiksētās atlīdzības sistēmu darbiniekam, kuram ir amats darbā, jums darbam jāiestata atlīdzības līmeņi. The **Kompensācijas līmenis** tiek izmantots, ja kompensācijas struktūrā (kompensācijas režģī) ir iestatītas minimālās, vidējās un maksimālās summas. Kad tiek izveidots fiksētās atlīdzības plāns, tiek atlasīta kompensācijas struktūra. Kompensācijas struktūra ietver arī kompensācijas līmeni. Kad darbiniekam atlasāt fiksētās atlīdzības sistēmu, atlasei pieejamie atlīdzības līmeņi ir atkarīgi no darba, ar kuru ir saistīts darbinieka amats. Papildinformāciju par to, kā iestatit atlīdzību skatiet [Atlīdzības plāni](hr-compensation-overview.md).
+Lai piešķirtu fiksētās atlīdzības sistēmu darbiniekam, kuram ir amats darbā, jums darbam jāiestata atlīdzības līmeņi. Kompensācijas **līmenis tiek izmantots**, kad minimālās, vidējā darba un maksimālās summas ir iestatītas kompensācijas struktūrā (kompensācijas režģis). Kad tiek izveidots fiksētās atlīdzības plāns, tiek atlasīta kompensācijas struktūra. Kompensācijas struktūra ietver arī kompensācijas līmeni. Kad darbiniekam atlasāt fiksētās atlīdzības sistēmu, atlasei pieejamie atlīdzības līmeņi ir atkarīgi no darba, ar kuru ir saistīts darbinieka amats. Papildinformāciju par to, kā iestatit atlīdzību skatiet [Atlīdzības plāni](hr-compensation-overview.md).
 
 ## <a name="job-skills"></a>Darba prasmes
 Darba prasmes apraksta prasmes, kas nepieciešamas darba veikšanai. Prasmju līmenis jāsaista ar visām darba prasmēm. Prasmju līmeņi ir lietotāja definēti. Tie norāda prasmju vai prasmes līmeni, kas nepieciešams prasmei. Piemēram, uzņēmumi var iestatīt skaitliskus līmeņus, piemēram, 1 līdz 5, kur **1** norāda darbību un **5** apzīmē ekspertu. Alternatīvi uzņēmumi var iestatīt līmeņus, kas atzīmēti kā **Iesācējs**, **Vidējais** vai **Eksperts**. Pēc prasmju līmeņa iestatīšanas var tikt iestatīts arī šīs prasmes svarīgums. Piemēram, ja grāmatvedim nepieciešamas stipras Microsoft Excel zināšanas, var tikt izveidotas prasmes ar nosaukumu **Excel zināšanas**. Pēc tam prasmju līmeni var iestatīt uz **Vidējais**, un svarīgumu var iestatīt uz **Vairums**.

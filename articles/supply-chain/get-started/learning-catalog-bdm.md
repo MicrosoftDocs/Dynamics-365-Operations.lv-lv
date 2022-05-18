@@ -1,23 +1,23 @@
 ---
 title: Mācību katalogs biznesa lēmumu pieņēmējiem, ņemot vērā Dynamics 365 Supply Chain Management
 description: Atrodiet visas apmācību iespējas pakalpojumiem BDM un TDM, ņemot vērā Dynamics 365 Supply Chain Management.
-author: margoc
+author: kamaybac
 ms.date: 07/27/2020
 ms.topic: article
-ms.author: margoc
+ms.author: kamaybac
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 856a53c18c95aea4fdeee397f125be9f33f8fe38
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: f5c175fb0b087a6b970ab8e2e8f87f75c1aa3845
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402253"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671341"
 ---
 # <a name="learning-catalog-for-business-decision-makers-considering-dynamics-365-supply-chain-management"></a>Mācību katalogs biznesa lēmumu pieņēmējiem, ņemot vērā Dynamics 365 Supply Chain Management
 
@@ -31,7 +31,7 @@ Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem dom�
 |---------|-------------|--------|--------|
 | [Uzziniet Microsoft Dynamics 365 un Power Platformbiznesa vērtību](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Vai vēlaties uzzināt par biznesa lietotnēm? Varbūt nezināt, kā sākt darbu ar Microsoft Dynamics 365 un Power Platform pieteikumiem? Uzziniet, kā biznesa lietojumprogrammu pilnvaras var palīdzēt pārveidot jūsu biznesu. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 7 stundas |
 | [Dynamics 365 un Power Platform pamati](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Vai vēlaties uzzināt par biznesa lietotnēm? Sāciet ar šo mācīšanās ceļu, lai uzzinātu, kā tiek izmantotas Dynamics 365 lietojumprogrammas. Uzzini par mākoņa koncepcijām, Power Platformun par to, kā uzsākt darbu ar Dynamics 365 lietojumprogrammām. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 5.5 stundas |
-| [Darba sākšana ar Finance and Operations programmām](/learn/paths/get-started-finance-operations/) | Uzziniet, kā Finance and Operations programmas atbalsta uzņēmumus, lai pārvaldītu to globālās finanšu sistēmas, darbības biznesa procesus un racionalizētas piegādes ķēdes, lai dotu iespēju cilvēkiem pieņemt ātrus, informētus lēmumus. Kā pirmo soli karjerā, strādājot ar programmām Finance and Operations, jums ir jāiepazīstas ar tā iespējām un funkcionalitāti neatkarīgi no jūsu vēlamās lomas. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 2 stundas |
+| [Sākt ar Finanšu un operāciju programmām](/learn/paths/get-started-finance-operations/) | Uzziniet, kā finanšu un operāciju programmas atbalsta uzņēmumus, lai pārvaldītu savas globālās finanšu sistēmas, darbības biznesa procesus un racionalizētas piegādes ķēdes, lai dotu iespēju cilvēkiem pieņemt ātrus, informētus lēmumus. Kā pirmais solis jūsu karjerai darbā ar Finanšu un operāciju programmām, jums ir jāiepazīstas ar tās funkcijām un funkcionalitāti ar jebkādu vēlamo lomu. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 2 stundas |
 | [Kurss MB-900T01-A: Dynamics 365 pamati](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01) | Šis kurss jūs iepazīstinās ar Dynamics 365 funkcionalitāti un biznesa vērtību. Kurss ietvers Dynamics 365 programmas, Power Platform, mākoņu koncepcijas, drošības modeli un licencēšanas apsvērumus. | Pasniedzēja vadīta personiska vai tiešsaistes apmācība; izmaksas var mainīties atkarībā no reģiona un partnera. | 1 diena |
 | [Sākt darbu ar Līdzekļu pārvaldību Dynamics 365 Supply Chain Management](/learn/modules/get-started-asset-management/index) | Līdzekļu pārvaldība ir modulis līdzekļu un uzturēšanas darbu pārvaldībai programmā Dynamics 365 Supply Chain Management. Līdzekļu pārvaldība ļauj efektīvi pārvaldīt un veikt uzdevumus, kas saistīti ar dažāda veida iekārtu pārvaldīšanu un apkopi uzņēmumā, piemēram, mašīnām, ražošanas iekārtām un transportlīdzekļiem. Līdzekļu pārvaldība atbalsta risinājumus daudzās nozarēs. | Brīva režīma, paša kontrolēts tiešsaistes mācību modulis | 1 stunda |
 | [Sākt darbu ar Tehnisko izmaiņu pārvaldības pievienojumprogrammu Dynamics 365 Supply Chain Management](/learn/modules/get-started-engineering-change-management/) | Dynamics 365 Supply Chain Management pilnvaro darbiniekus un organizācijas ar iespēju iegūt vienotu skatījumu par krājumiem, noliktavu, ražošanu, servisu un loģistiku un prognožu analīzi, kas pārvērš datus, lai atbalstītu labākos stratēģiskos lēmumus. | Brīva režīma, paša kontrolēts tiešsaistes mācību modulis | 2 stundas |

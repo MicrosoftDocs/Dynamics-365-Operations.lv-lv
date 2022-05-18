@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: Ledger
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-09
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3e6c4d966f2720339941fb848ff9ac79e4593868ce10d3712efbb1ad18a9ceea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 38c4364c47915cc0019cb6b3d471d3e60d413bf0
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712223"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711553"
 ---
 # <a name="configure-ledgers"></a>Virsgrāmatas konfigurēšana
 
@@ -28,7 +28,7 @@ ms.locfileid: "6712223"
 
 ## <a name="selecting-the-chart-of-accounts"></a>Kontu plāna atlasīšana
 
-Katrai juridiskajai personai Microsoft Dynamics 365 Finance ir jākonfigurē detalizēta informācija par Virsgrāmatu. Lapa **Virsgrāmata** ļauj atlasīt kontu plānu un konta struktūras, kas tiks izmantotas atlasītajai juridiskajai personai. Varat kopīgot savu kontu plānu un konta struktūras, konfigurējot lapu **Virsgrāmata** katrā juridiskajā personā, lai izmantotu to pašu kontu plānu un konta struktūras. Katrā juridiskajā personā varat arī kopīgot konfigurācijas daļu, un katrai juridiskajai personai var būt īpašas konfigurācijas.
+Katrai juridiskajai personai Microsoft Dynamics 365. finanšu gadā ir jākonfigurē detalizēta informācija par Virsgrāmatu. Lapa **Virsgrāmata** ļauj atlasīt kontu plānu un konta struktūras, kas tiks izmantotas atlasītajai juridiskajai personai. Varat kopīgot savu kontu plānu un konta struktūras, konfigurējot lapu **Virsgrāmata** katrā juridiskajā personā, lai izmantotu to pašu kontu plānu un konta struktūras. Katrā juridiskajā personā varat arī kopīgot konfigurācijas daļu, un katrai juridiskajai personai var būt īpašas konfigurācijas.
 
 Ja juridiskajām personām ir nepieciešami dažādi kontu plāni vai dažādas konta struktūras, var būt noderīgs juridiskās personas pārlabošanas līdzeklis. Lietojot vienu un to pašu kontu shēmu un konta struktūras vairākām juridiskajām personām un pēc tam pārvaldot jebkurus izņēmumus, izmantojot juridiskās personas pārlabošanu, laika gaitā varat vienkāršot uzturēšanu.
 
@@ -38,7 +38,7 @@ Lai iegūtu vairāk informācijas par to, kā plānot un konfigurēt kontu plān
 
 ## <a name="selecting-account-structures"></a>Konta struktūru atlasīšana
 
-Katru juridisko personu Dynamics 365 Finance var konfigurēt, lai izmantotu vienu vai vairākas konta struktūras. Katra konta struktūra definē finanšu dimensijas un galveno kontu un finanšu dimensiju kombinācijas, kas tiks atļautas, grāmatojot darījumus. Varat izmantot vienas un tās pašas konta struktūras vairāk kā vienā juridiskajā personā.
+Katru juridisko personu programmā Dynamics 365 Finanses var konfigurēt, lai izmantotu vienu vai vairākas konta struktūras. Katra konta struktūra definē finanšu dimensijas un galveno kontu un finanšu dimensiju kombinācijas, kas tiks atļautas, grāmatojot darījumus. Varat izmantot vienas un tās pašas konta struktūras vairāk kā vienā juridiskajā personā.
 
 Ņemiet vērā, ja jums ir vairākas konta struktūras, varat atlasīt tikai tās konta struktūras, kurām nepārklājas galveno kontu un finanšu dimensiju kombinācijas. Piemēram, viena no jūsu konta struktūrām ir konfigurēta, lai pievienotu biznesa vienību galvenajiem kontiem starp 1000 un 1999. Citā konta struktūrā jūs esat pievienojis nodaļas finanšu dimensiju galvenajiem kontiem, kas sākas ar 1. Šādā gadījumā vienai un tai pašai juridiskajai personai var pievienot tikai vienu no konta struktūrām.
 

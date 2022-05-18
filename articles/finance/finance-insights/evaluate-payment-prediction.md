@@ -2,25 +2,25 @@
 title: Sākotnējā debitora maksājuma prognozēšanas modeļa novērtēšana
 description: Šajā tēmā aprakstītas darbības, ko varat veikt, lai izprastu debitoru maksājumu prognozēšanas modeli un novērtētu tā efektivitāti.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 05/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 874c6e938681537a0420eece6835a4c2124e11fc
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: c0951c8dcf6205ebbb15baf86b1272af4e95547f
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7969116"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677959"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model"></a>Sākotnējā debitora maksājuma prognozēšanas modeļa novērtēšana
 
@@ -30,17 +30,17 @@ ms.locfileid: "7969116"
 
 ## <a name="getting-details-about-the-model"></a>Informācijas iegūšana par modeli
 
-Lapā **Finanšu ieskatu parametri** pakalpojumā Microsoft Dynamics 365 Finance blakus precizitātes rezultātam ir redzama saite **Modeļa precizitātes uzlabošana**.
+Finanšu ieskatu **parametru lapā** Microsoft Dynamics 365 Finansēs līdzās **precizitātes** rādītājam tiek parādīta saite Uzlabot modeļa precizitāti.
 
 [![Modeļa precizitātes uzlabošanas saite.](./media/prediction-model.png)](./media/prediction-model.png)
 
-Šī saite AI Builder prasa, kur varat uzzināt vairāk par pašreizējo modeli un veikt arī tā uzlabošanai. Tālāk atrodamajā attēlā ir redzams atvērta lapa.
+Šī saite prasa, kur AI Builder varat uzzināt vairāk par pašreizējo modeli un veikt arī tā uzlabošanai. Tālāk atrodamajā attēlā ir redzams atvērta lapa.
 
 [![AI Builder.](./media/what-to-predict.png)](./media/what-to-predict.png)
 
 Atvērtajā lapā ir redzama tālāk minētā informācija.
 
-- Sadaļā **Veiktspēja** modeļa veiktspējas pakāpe sniedz skatījumu uz modeļa kvalitāti. Plašāku informāciju par šo kategoriju skatiet [prognozēšanas modeļa](/ai-builder/prediction-performance) veiktspēju AI Builder dokumentācijā.
+- Sadaļā **Veiktspēja** modeļa veiktspējas pakāpe sniedz skatījumu uz modeļa kvalitāti. Plašāku informāciju par šo kategoriju skatiet prognozēšanas [modeļa veiktspēju](/ai-builder/prediction-performance)AI Builder dokumentācijā.
 - Sadaļā **Visietekmīgākie dati** parādīts, cik svarīgi jūsu modelim bija dažādi datu ievades tipi. Varat novērtēt šo sarakstu un atbilstošos procentus, lai noteiktu, vai informācija atbilst tam, ko zināt par savu uzņēmumu un tirgu.
 
     [![Prognozēšanas modeļa sadaļas Veiktspēja un Visietekmīgākie dati.](./media/models.png)](./media/models.png)
@@ -51,7 +51,7 @@ Atvērtajā lapā ir redzama tālāk minētā informācija.
 
 ## <a name="digging-deeper"></a>Detalizētāka izpēte
 
-Lai gan precizitāte ir labs sākumpunkts modeļa novērtēšanai un veiktspējas kategorija nodrošina perspektīvu, tiek sniegti detalizētāki rādītāji, ko AI Builder varat izmantot savam novērtējumam. Lai lejupielādētu detalizētu informāciju, sadaļā **Veiktspēja** atlasiet daudzpunktes pogu (**...**) blakus pogai **Izmantot modeli** un pēc tam atlasiet **Lejupielādēt detalizētu metriku**.
+Lai gan precizitāte ir labs sākumpunkts modeļa novērtēšanai un veiktspējas kategorija nodrošina perspektīvu, AI Builder tiek sniegti detalizētāki rādītāji, ko varat izmantot savam novērtējumam. Lai lejupielādētu detalizētu informāciju, sadaļā **Veiktspēja** atlasiet daudzpunktes pogu (**...**) blakus pogai **Izmantot modeli** un pēc tam atlasiet **Lejupielādēt detalizētu metriku**.
 
 [![Komanda Lejupielādēt detalizētu metriku.](./media/performance.png)](./media/performance.png)
 
@@ -89,10 +89,10 @@ Skaitlis, kas attēlo modeļa veiktspēju labāk nekā precizitāti, ir F1 makro
 
 ## <a name="improving-the-model"></a>Modeļa uzlabošana
 
-Kad esat izpratis pirmā modeļa rezultātus, iespējams, vēlēsities uzlabot modeli, pievienojot vai noņemot funkciju kolonnas, vai filtrējot jebkuru datu kopas daļu, kas neatbalsta precīzas prognozes. Aizveriet AI Builder un pēc tam izmantojiet saiti Uzlabot **modeli**, lai Dynamics 365 Finance restartētu AI Builder procesu. Varat eksperimentēt ar dažādiem raksturlielumiem, neietekmējot publicēto modeli. Publicētais modelis tiek ietekmēts tikai tad, kad atlasāt **Publicēt**. Atcerieties, ka jūsu Dynamics 365 Finance instancei tiek izmantots viens modelis. Tāpēc rūpīgi pārskatiet jebkuru jauno modeli, pirms to publicējat.
+Kad esat izpratis pirmā modeļa rezultātus, iespējams, vēlēsities uzlabot modeli, pievienojot vai noņemot funkciju kolonnas, vai filtrējot jebkuru datu kopas daļu, kas neatbalsta precīzas prognozes. Aizveriet AI Builder un pēc tam izmantojiet saiti Uzlabot **modeli** programmā Dynamics 365 Finanses, lai restartētu AI Builder procesu. Varat eksperimentēt ar dažādiem raksturlielumiem, neietekmējot publicēto modeli. Publicētais modelis tiek ietekmēts tikai tad, kad atlasāt **Publicēt**. Atcerieties, ka viens modelis tiek izmantots jūsu Dynamics 365 Finanšu instancei. Tāpēc rūpīgi pārskatiet jebkuru jauno modeli, pirms to publicējat.
 
 ## <a name="for-more-information"></a>Plašāka informācija
 
-Papildinformāciju par to, kā izvērtēt prognozēšanas modeļus skatiet sadaļā [Algoritmiskās mācīšanās modeļu rezultāti](/confusion-matrix.md)
+Papildinformāciju par to, kā izvērtēt prognozēšanas modeļus skatiet sadaļā [Algoritmiskās mācīšanās modeļu rezultāti](confusion-matrix.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

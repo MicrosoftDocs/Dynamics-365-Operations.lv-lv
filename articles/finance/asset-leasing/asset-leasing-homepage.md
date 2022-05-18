@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetLeaseLeasingWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "4464"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d187f094a7d13e26a6121a2115c146c1372dba46bcafd423a3683d73a1e779f7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c82c54b08a7d4c603d1246c598abacc51eb88839
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775222"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710390"
 ---
 # <a name="asset-leasing-home-page"></a>Līdzekļu nomas mājas lapa
 
@@ -30,7 +30,7 @@ ms.locfileid: "6775222"
 
 Šajā tēmā uzskaitītas palīdzības tēmas, kas pieejamas līdzekļu nomai, un iekļautas saites uz noteiktām tēmām. 
 
-Līdzekļu noma ir papildu iespēja finanšu darbību pārvaldībai, izsekošanai un automatizēšanai nomātajiem līdzekļiem Microsoft Dynamics 365 Finance. Līdzekļu noma atbilst starptautiskajiem grāmatvedības standartiem (16. SFPS) un ASV vispārpieņemtajiem grāmatvedības principiem (ASC 842). Līdzekļu noma notver un apstrādā nomu informāciju un palīdz ģenerēt žurnāla ierakstus, izmantojot nomas dzīves ciklu, no sākotnējās atzīšanas, ikmēneša žurnālu ierakstiem līdz nomas vērtības samazinājumam un pārtraukšanai.
+Pamatlīdzekļu nolaižšana ir papildu spēja pārvaldīt, izsekot un automātisks Microsoft Dynamics finanšu darbību 365. finanšu gadam. Līdzekļu noma atbilst starptautiskajiem grāmatvedības standartiem (16. SFPS) un ASV vispārpieņemtajiem grāmatvedības principiem (ASC 842). Līdzekļu noma notver un apstrādā nomu informāciju un palīdz ģenerēt žurnāla ierakstus, izmantojot nomas dzīves ciklu, no sākotnējās atzīšanas, ikmēneša žurnālu ierakstiem līdz nomas vērtības samazinājumam un pārtraukšanai.
 
 Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot **Līdzekļu pārvaldības** darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Drbvietā **Līdzekļu pārvaldība** atrodiet un atlasiet līdzekli ar nosaukumu **Līdzekļa noma**, un pēc tam noklikšķiniet pogu **Iespējot tūlīt**.
 
@@ -90,7 +90,7 @@ Lai uzzinātu, kādus jaunus līdzekļus ir plānots ieviest, skatiet [Microsoft
 
 ### <a name="blogs"></a>Emuāri
 
-Varat atrast viedokļus, jaunumus un citu informāciju [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) un [Microsoft Dynamics 365 Finance and Operations — Financials emuārā](https://community.dynamics.com/365/financeandoperations/b/financials).
+Varat atrast viedokļus, jaunumus un citu informāciju [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) un [Microsoft Dynamics 365 Finance and Operations – Financials emuārā](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Microsoft Dynamics Operations partneru kopienas emuārā](https://community.dynamics.com/partner/b/operationspartnercommunityblog) Microsoft Dynamics partneriem tiek sniegts vienots resurss, kur uzzināt par jaunumiem un tendencēm risinājumā Dynamics 365.
 

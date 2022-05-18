@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: KMQuestion, HcmLearningWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b1feab5ec5185a5f2625620431e9d13542bfe940
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 102879ec15c157618fd796a949d09f7522f060b6
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071736"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717032"
 ---
 # <a name="create-an-open-ended-question"></a>Izveidot atvērtu jautājumu
 
@@ -29,7 +28,7 @@ ms.locfileid: "8071736"
 
 
 
-Atvērtos jautājumos respondenti var sniegt savu atbildi. Varat kontrolēt, vai šī atbilde ir skaitlis, decimāldaļa, datums, komentārs un tā tālāk. Šajā procedūrā parādīts, kā izveidot noteikta tipa jautājumu — atvērtu jautājumu. Lai sāktu šo procedūru, dodieties uz **anketas > dizaina > jautājumiem**. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
+Atvērtos jautājumos respondenti var sniegt savu atbildi. Varat kontrolēt, vai šī atbilde ir skaitlis, decimāldaļa, datums, komentārs un tā tālāk. Šajā procedūrā parādīts, kā izveidot noteikta tipa jautājumu — atvērtu jautājumu. Lai sāktu šo procedūru, dodieties uz sadaļu **Anketas > un > jautājumus**. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 
 1. Klikšķiniet **Jauns**.
 2. Atlasiet tipu saistītu jautājumu grupēšanai.

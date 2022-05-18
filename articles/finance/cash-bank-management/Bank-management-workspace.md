@@ -1,24 +1,24 @@
 ---
 title: Bankas pārvaldības darbvieta
-description: Šajā tēmā ir sniegta informācija par darbvietu Banku vadība. Šajā darbvietā tiek rādīta informācija, kas saistīta ar datu faila bankas kontiem.
-author: roschlom
+description: Šajā tēmā ir sniegta informācija par darbvietu Banku vadība. Šī darbvieta rāda informāciju, kas saistīta ar uzņēmuma bankas kontiem.
+author: kweekley
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: f12f907e6135af60e092a2c20ebfd4d196b2d861
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 9c0642664cbae84c966f2cd514a176e1412c80d5
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883341"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711469"
 ---
 # <a name="bank-management-workspace"></a>Bankas pārvaldības darbvieta
 

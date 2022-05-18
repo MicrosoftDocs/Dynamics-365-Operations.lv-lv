@@ -2,7 +2,7 @@
 title: Dynamics 365 Commerce novērtēšanas vides konfigurēšana
 description: Šajā tēmā paskaidrots, kā konfigurēt Microsoft Dynamics 365 Commerce novērtējuma vidi pēc tās nodrošināšanas.
 author: psimolin
-ms.date: 12/10/2021
+ms.date: 05/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5883a6e68628d706fa19d7d23b68f17007c32890
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: d9738700ca495d54c91ad91aa9c5a3d32c95a5a5
+ms.sourcegitcommit: 4a973ac0e7af0176270a8070a96a52293567dfbf
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913731"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "8747641"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce novērtēšanas vides konfigurēšana
 
@@ -39,7 +39,9 @@ Kad jūsu Commerce novērtējuma vide ir pilnībā nodrošināta, ir jāpabeidz 
 1. No saraksta atlasiet savu vidi.
 1. Vides informācijas labajā pusē atlasiet **Pieteikties vidē**. Jūs tiksiet nosūtīts uz Commerce galveno biroju.
 1. Pārliecinieties, ka ir atlasīta **USRT** juridiskā persona (augšējā labajā stūrī).
-2. Dodieties uz **Commerce parametri > Konfigurācijas parametri un** pārliecinieties, vai **productSearch.UseAzureSearch** ir iestatīts kā **patiess**. Ja šī ieraksta nav, varat pievienot šo ierakstu un palaist **kanālu datu bāzes > pilnu** sinhronizāciju ar jūsu e-komercijas vietni saistītajai Commerce Scale vienībai.
+1. Dodieties uz **commerce parametru \> konfigurācijas** parametriem un nodrošiniet, ka parametram ProductSearch.UseAzureSearch **ir ievadīts** ieraksts un vai vērtība ir iestatīta kā **patiesa**. Ja šī ieraksta nav, to **·** **\>** var pievienot, iestatīt vērtību kā patiesu un pēc tam atlasīt Kanāla datu bāzes pilnu datu sinhronizāciju commerce Scale vienībai, kas ir saistīta ar jūsu e-commerce vietni.
+1. Pārejiet uz **retail and Commerce \> Headquarters iestatīšanas \> Commerce plānotāju \> Inicializējiet Commerce plānotāju**. **Izvēlnē Inicializēt Commerce Scheduler** izniršanas izvēlni iestatiet opciju **Dzēst esošo** konfigurāciju **kā** Jā un pēc tam atlasiet **Labi**.
+1. Lai Commerce Scale Unit pievienotu kanālus, **dodieties uz mazumtirdzniecības un Commerce \> Headquarters \> iestatīšanas Commerce plānotāja \>** kanāla datu bāzi un pēc tam kreisajā rūtī atlasiet Commerce Scale Unit. Kopsavilkuma cilnē **Mazumtirdzniecības** kanāls pievienojiet **AW** tiešsaistes veikalu, **AW biznesa tiešsaistes** **veikalu un Fabrikam paplašinātos tiešsaistes veikala kanālus**. Pēc izvēles varat arī pievienot mazumtirdzniecības veikalus, ja izmantosit POS (piemēram, Sietlā, **·** **San Arko** un **San Arko).**
 
 Pēc nodrošināšanas darbību laikā Commerce Headquarters, pārliecinieties, ka **USRT** juridiskā persona vienmēr ir atlasīta.
 
@@ -85,6 +87,7 @@ Lai sāktu iestatīt novērtējuma vietni pakalpojumā Commerce, veiciet tālāk
 1. Ka noklusējuma valodu atlasiet **en-us**.
 1. Atstājiet lauka **Path** vērtību tādu, kāda tā ir.
 1. Atlasiet **Labi**. Tiek parādīts vietnes lapu saraksts.
+1. Atkārtojiet soļus 2-7 **AdventureWorks** vietai (kas kartē uz AW tiešsaistes **veikala kanālu)** **AdventureWorks un biznesa vietni (kas tiek kartēta uz AW biznesa tiešsaistes veikala** kanālu).**·** **Ja Fabrikam** vietas ceļš ir tukšs AdventureWorks, ir jāpievieno ceļi divām vietām (piemēram, "aw" un "awbusiness").
 
 ## <a name="enable-jobs"></a>Darbu iespējošana
 
@@ -107,7 +110,7 @@ Lai iespējotu darbus pakalpojumā Commerce, izpildiet tālāk aprakstītās dar
     1. Darbību rūtī noklikšķiniet uz cilnes **Pakešuzdevums**, pēc tam atlasiet **Mainīt statusu**.
     1. Atlasiet **Atcelt** un pēc tam atlasiet **Labi**.
 
-1. Ja darba statuss ir **Ieturēts**, rīkojieties šādi:
+1. Ja darba statuss ir ieturēts **, sekojiet** šiem soļiem:
 
     1. Atlasiet ierakstu.
     1. Darbību rūtī noklikšķiniet uz cilnes **Pakešuzdevums**, pēc tam atlasiet **Mainīt statusu**.
@@ -149,6 +152,28 @@ Lai konfigurētu neobligātos līdzekļus savai Commerce novērtējuma videi, sk
 
 > [!NOTE]
 > Commerce novērtēšanas vidēs ir iepriekš ielādēts Azure Active Directory (Azure AD) “no uzņēmuma patērētājam” (Business-to-Consumer — B2C) nomnieks demonstrācijas nolūkiem. Paša Azure AD B2C nomnieka konfigurēšana nav nepieciešama novērtēšanas vidēm. Tomēr, ja jūs konfigurējat novērtēšanas vidi, lai izmantotu savu Azure AD B2C nomnieku, lūdzu, pievienojiet ``https://login.commerce.dynamics.com/_msdyn365/authresp`` kā atbildes URL Azure AD B2C programmā, izmantojot Azure portālu.
+
+## <a name="troubleshooting"></a>Problēmu novēršana
+
+### <a name="site-builder-channel-list-is-empty-when-configuring-site"></a>Vietas veidotāja kanālu saraksts ir tukšs, konfigurējot vietu
+
+Ja vietas veidotājs nerāda nevienu tiešsaistes veikala kanālu, galvenajā birojā nodrošiniet, lai kanāli tiktu pievienoti Commerce Scale Unit [saskaņā](#before-you-start) ar aprakstu iepriekš sadaļā Pirms sākšanas. Palaidiet arī commerce **Scheduler**, lai dzēstu esošo **konfigurācijas vērtību, kas** iestatīta uz **Jā**.  Kad šie soļi ir pabeigti, **Kanāla** datu bāzes lapā (**Retail un Commerce \> Headquarters \> iestatīšanas Commerce plānotāja \>** kanāla datu bāze) **izpildiet 9999**. darbu Commerce Scale Unit.
+
+### <a name="color-swatches-are-not-rendering-on-the-category-page-but-are-rendering-on-the-product-details-page-pdp-page"></a>Krāsu aizstāsumi kategoriju lapā netiek renderti, bet tiek renderti preces informācijas lapas (PDP) lapā.
+
+Ievērojiet šos soļus, lai nodrošinātu, ka krāsa un izmērs ir iestatīti uz uzdefinējamiem.
+
+1. Galvenajā birojā dodieties uz sadaļu **Mazumtirdzniecības un Commerce \>\> kanāla iestatīšanas kanāla kategorijas un preces īpašības**.
+1. Kreisajā rūtī atlasiet tiešsaistes veikala kanālu un pēc tam atlasiet Iestatīt **atribūta metadatus**.
+1. Kanāla opcijai **Rādīt atribūtu** iestatiet vērtību **Jā**, iestatiet opciju **Var precizēt uz** Jā **un** pēc tam atlasiet **Saglabāt**. 
+1. Atgriezieties tiešsaistes veikala kanāla lapā un pēc tam atlasiet Publicēt **kanāla atjauninājumus**.
+1. Dodieties uz **mazumtirdzniecības un Commerce \> Headquarters iestatīšanas \> Commerce plānotāja \> kanāla** **datu bāzi un izpildiet 9999** . darbu commerce Scale Unit.
+
+### <a name="business-features-dont-appear-to-be-turned-on-for-the-adventureworks-business-site"></a>Biznesa vietnei nav ieslēgti biznesa AdventureWorks līdzekļi.
+
+Galvenajā birojā nodrošiniet, lai tiešsaistes veikala kanāls tiktu konfigurēts ar debitora veidu, kas **iestatīts** uz **B2B**. **Ja debitora veids** ir iestatīts **uz B2C**, ir jāizveido jauns kanāls, jo esošo kanālu nevar rediģēt. 
+
+Demonstrācijas dati tika nosūtīti Commerce versijā 10.0.26 un agrāk **, kad AW Business tiešsaistes** veikala kanāls tika konfigurēts nepareizi. Risinājums ir izveidot jaunu kanālu ar tādiem **pašiem** iestatījumiem un konfigurācijām, izņemot debitora veidu, **kas jāiestata uz B2B**.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

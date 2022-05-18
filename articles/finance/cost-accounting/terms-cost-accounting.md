@@ -1,27 +1,27 @@
 ---
 title: Izmaksu uzskaites terminoloģija
 description: Šajā tēmā tiek definēti galvenie termini, kas tiek izmantoti Izmaksu uzskaitē.
-author: ShylaThompson
+author: aprilolson
 ms.date: 08/31/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostAccountingLedger
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 223114
 ms.assetid: 1c798592-77d0-4a8f-beaa-9159c75957da
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f61ae7a6657eaad3510833c17f342b7266be247aec2a9bfe80b97172f662ae0a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f50f7849ac3c097d64a8499a19157f24d7a7b317
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774381"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8712430"
 ---
 # <a name="cost-accounting-terminology"></a>Izmaksu uzskaites terminoloģija
 
@@ -115,7 +115,7 @@ Ir divu veidu dimensiju hierarhijas: kategorizēšanas hierarhija un klasifikāc
 Izmaksu uzskaite atbalsta datu integrēšanu no avota sistēmām, izmantojot datu savienotāju komplektu. Ir pieejami tālāk norādītie datu savienotāji.
 
 -  Importētās transakcijas (iepriekš konfigurētas)
--  Dynamics 365 Finance (iepriekš konfigurētas)
+-  Dynamics 365 Finanses (iepriekš konfigurētas)
 -  Dynamics AX (nepieciešams konfigurēt)
 
 **Piezīme.** Datu savienotājs Importētās transakcijas ir balstīts uz datu elementiem.
@@ -124,7 +124,7 @@ Izmaksu uzskaite atbalsta datu integrēšanu no avota sistēmām, izmantojot dat
 
 Vairums avota sistēmu var sniegt datus, kas atbilst vienam vai vairākiem datu avotiem izmaksu uzskaitē. Lai datus no avota sistēmām saskaņotu ar datu avotu izmaksu uzskaitē, datu sniedzējs ir jākonfigurē. Nākamajā tabulā ir uzskaitīta datu sniedzēju pieejamība atkarībā no datu savienotāja un datu avota.
 
-|  **Datu avoti** |  **Importēto transakciju datu savienotājs** | **Dynamics 365 Finance datu savienotājs**  | **Dynamics AX datu savienotājs**  |
+|  **Datu avoti** |  **Importēto transakciju datu savienotājs** | **Dynamics 365 finanšu datu savienotājs**  | **Dynamics AX datu savienotājs**  |
 |---|---|---|---|
 | Izmaksu elementu dimensiju elementi  |  Jā | Jā  | Jā  |
 |  Izmaksu objekta dimensiju elementi |  Jā | Jā  | Jā  |

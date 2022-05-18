@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HierarchyDesigner, OMOperatingUnit, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 63213
 ms.assetid: 5dbc62fc-0184-4c0e-9856-e735fc68799e
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 8571b254a3dcdeaf562a97f165b8124f04ae7e6d
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: cdc0440c02d0e66eaa89bfd875d8c8edf8d99c96
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068898"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8688606"
 ---
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>Nodaļu izveide un ietveršana nodaļu hierarhijā
 
@@ -40,7 +39,7 @@ Nodaļu var ietvert izmaksu centru grupā. Pozīcijas var piešķirt nodaļām. 
 | **Meklēšanas nosaukums**         | Ievadiet nosaukumu vai akronīmu, ko var izmantot nodaļas meklēšanai.                                                                                                                                            |
 | **Atgādne**                | Ievadiet papildinformāciju šeit.                                                                                                                                                                            |
 | **Hierarhijā**        | Atzīmētā izvēles rūtiņa nozīmē, ka nodaļa ir iekļauta nodaļu hierarhijā. Informāciju par to, kā pievienot nodaļu nodaļu hierarhijai, skatiet tālāk šajā rakstā. |
-| **DUNS numurs**         | DUNS nozīmē universālo datu numerācijas sistēmu. Tas ir deviņu ciparu numurs, ko piešķir Dun & Bradstreet.                                                                                                     |
+| **Universālās datu numerācijas sistēmas (DUNS) numurs**         | DUNS nozīmē universālo datu numerācijas sistēmu. Tas ir deviņu ciparu numurs, ko piešķir Dun & Bradstreet.                                                                                                     |
 | **Vadītājs**             | Ievadiet personu, kas pārvalda nodaļu.                                                                                                                                                                    |
 | **Adreses**           | Pievienojiet nodaļai adreses informāciju. Piemēram, pievienojiet pasta adresi ēkai, kas atrodas struktūrvienība.                                                                          |
 | **Kontaktinformācija** | Pievienojiet nodaļai kontaktinformāciju. Piemēram, pievienojiet struktūrvienības informācijas nodaļas tālruņa numuru.                                                                                           |

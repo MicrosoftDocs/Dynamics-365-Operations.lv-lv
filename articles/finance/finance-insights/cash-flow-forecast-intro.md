@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "14151"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 62e30e382d94e4eff73789b3e884c6b81afce6c1
-ms.sourcegitcommit: c8dc60bb760553f166409c2e06dd2377f601c006
+ms.openlocfilehash: 2ed6795073b4a013df7a6a8a7a61df2c11525c51
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/23/2021
-ms.locfileid: "7945833"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711007"
 ---
 # <a name="cash-forecast"></a>Naudas prognoze
 
@@ -43,7 +43,7 @@ Lielākajai daļai uzņēmumu skaidras naudas plūsmas pārvaldība un skaidras 
 ## <a name="details-of-the-cash-flow-forecasts-capability"></a>Detalizēta informācija par skaidras naudas plūsmas prognozes iespēju
 Skaidras naudas plūsmas prognožu līdzeklī ir ietverta tālāk norādītā funkcionalitāte. 
 
-- Iepazīstina ar programmējamo skaidras naudas plūsmas prognozēšanu ilgtermiņa prognozēšanai, lietojot laika sēriju prognozēšanu, izmantojot automatizēto integrāciju ar AI Builder.
+- Tiek ieviests entatisks naudas plūsmas prognozēšanas par ilgtermiņa prognozēšanu, izmantojot laika sēriju prognozēšanu, izmantojot automātisko integrāciju ar AI Builder.
 
 - Ļauj saglabāt noteiktu naudas plūsmas pozīciju vai prognozes, rediģēt tās un pēc tam viegli salīdzināt un nomērīt prognozes veiktspēju ar faktiskajām finanšu situācijām.
 
@@ -53,7 +53,7 @@ Skaidras naudas plūsmas prognožu līdzeklī ir ietverta tālāk norādītā fu
 
 - Ļauj filtrēt un skatīt bankas kontus, kas ir saistīti ar finanšu dimensijām.
 
-Skaidras naudas plūsmas prognozēšanas funkcionalitāte Dynamics 365 Finance dos jūsu organizācijai iespēju pārveidot garlaicīgu, sarežģītu, tomēr atkārtojošos skaidras naudas plūsmas projekciju vienkāršā, automatizētā procesā. Visnogurdinošāko skaidras naudas plūsmas prognozēšanas aspektu automatizācija ļaus jums koncentrēties uz kritisku lēmumu pieņemšanu, lai varētu vadīt vēlamos biznesa rezultātus.
+Naudas plūsmas prognozēšanas funkcionalitāte programmā Dynamics 365 Finanses dos uzņēmumam iespēju pārveidottedu, sarežģītu, vēl atkārtotu naudas plūsmas projekciju uz vienkāršu, automatizētu procesu. Visnogurdinošāko skaidras naudas plūsmas prognozēšanas aspektu automatizācija ļaus jums koncentrēties uz kritisku lēmumu pieņemšanu, lai varētu vadīt vēlamos biznesa rezultātus.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

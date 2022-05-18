@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxGroup,  TaxItemGroup
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7c3bf881f0f11d6d21d5f2e9d3132c2bea00b982411c9c5d76ae617b00a69fda
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c461c3d3e9b073b186e68ff1b0453fafe5da80e7
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739339"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734872"
 ---
 # <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a>PVN grupu un krājumu PVN grupu iestatīšana
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā uzdevuma ierakstā parādīts, kā iestatīt PVN un Krājumu PVN grupas. PVN grupas ir PVN kodu grupas, kas piesaistītas debitoriem un kreditoriem. Tās tiek arī pievienotas Virsgrāmatas kontiem transakcijām, kas nav iegrāmatotas konkrētam kreditoram vai debitoram.  Krājumu PVN grupas ir PVN kodu grupas, kas piesaistītas tādiem resursiem kā produkti.  Uz konkrētu transakciju attiecināmie PVN tiek noteikti pēc PVN kodiem, kas ietverti gan PVN grupā, gan transakcijas krājumu PVN grupā.  PVN var tikt aprēķināts tikai tad, ja PVN grupa un krājuma PVN grupa ir atlasītas katrai transakcijai, kurai jāaprēķina vai jāreģistrē PVN.  
+Šajā uzdevuma ierakstā parādīts, kā iestatīt PVN un Krājumu PVN grupas. PVN grupas ir PVN kodu grupas, kas piesaistītas debitoriem un kreditoriem. Tās tiek arī pievienotas Virsgrāmatas kontiem transakcijām, kas nav iegrāmatotas konkrētam kreditoram vai debitoram. Krājumu PVN grupas ir PVN kodu grupas, kas piesaistītas tādiem resursiem kā produkti. Uz konkrētu transakciju attiecināmie PVN tiek noteikti pēc PVN kodiem, kas ietverti gan PVN grupā, gan transakcijas krājumu PVN grupā. PVN var tikt aprēķināts tikai tad, ja PVN grupa un krājuma PVN grupa ir atlasītas katrai transakcijai, kurai jāaprēķina vai jāreģistrē PVN.  
 
 1. Pārejiet uz **Navigācijas rūts > Moduļi >Nodokļi > Netiešie nodokļi > PVN > PVN grupas**.
 2. Klikšķiniet **Jauns**.

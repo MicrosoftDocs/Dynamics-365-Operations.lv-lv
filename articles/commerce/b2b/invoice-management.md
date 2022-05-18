@@ -1,5 +1,5 @@
 ---
-title: Rēķinu pārvaldība B2B e-komercijas vietnēm
+title: Rēķinu pārvaldība B2B e-komercijas tīmekļa vietnēm
 description: Šajā tēmā aprakstītas rēķinu pārvaldības iespējas bizness-biznesam Microsoft Dynamics 365 Commerce (B2B) e-komercijas vietnes.
 author: shajain
 ms.date: 02/16/2022
@@ -14,14 +14,14 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c1f0cc6820063a9a87e79fd6df25c7cffc01e228
-ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
+ms.openlocfilehash: 60cb0c8aaede4a0eaeed80cf5ebe41068da57836
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8312128"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686304"
 ---
-# <a name="invoice-management-for-b2b-e-commerce-websites"></a>Rēķinu pārvaldība B2B e-komercijas vietnēm
+# <a name="invoice-management-for-b2b-e-commerce-websites"></a>Rēķinu pārvaldība B2B e-komercijas tīmekļa vietnēm
 
 [!include [banner](../../includes/banner.md)]
 

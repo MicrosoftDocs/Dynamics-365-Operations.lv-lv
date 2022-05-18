@@ -1,6 +1,6 @@
 ---
 title: Uzkrātās projekta izmaksas pirkšanas pavadzīmēs
-description: Šajā tēmā ir aprakstīts, kā var izsekot uzkrātajām projekta izmaksām pirkšanas pavadzīmēs programmā Microsoft Dynamics 365 Finance.
+description: Šajā tēmā aprakstīts, kā uzkrātās projekta izmaksas no pirkumu saņemšanas var izsekot Microsoft Dynamics 365 Finansēs.
 author: sunfzam
 ms.date: 06/20/2017
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CostControlCommittedCost
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 266984
 ms.assetid: 61e7d2a3-5aab-4113-bccc-213f932885d2
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7ae2f57e0104a30492363f1576962d36a2a1b04b
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 7e435002bca8fd4deb58c16c50db55237a3e9053
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595234"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735115"
 ---
-# <a name="project-cost-accrual-on-purchase-receipts"></a>Uzkrātās projekta izmaksas pirkšanas pavadzīmēs
+# <a name="project-cost-accrual-on-purchase-receipts"></a>Projekta izmaksu uzkrāšanas pirkšanas pavadzīmes
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā var izsekot uzkrātajām projekta izmaksām pirkšanas pavadzīmēs programmā Microsoft Dynamics 365 Finance. 
+Šajā tēmā aprakstīts, kā uzkrātās projekta izmaksas no pirkumu saņemšanas var izsekot Microsoft Dynamics 365 Finansēs. 
 
 Bieži vien projekta rēķini tiek saņemti vēlāk par preču un pakalpojumu piegādi, un tas var būtiski ietekmēt projekta izpildes pamatrādītājus (KPI). Ir svarīgi, lai jūs varētu izsekot šīs transakcijas gan finanšu, gan projekta pārskatos.
 

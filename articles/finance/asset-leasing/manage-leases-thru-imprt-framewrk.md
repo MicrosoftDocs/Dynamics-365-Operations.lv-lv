@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetLeaseLeaseImportHeader
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 534584a7da494b427d48b1bc97bf6554d25f4a79d9d62f59ec5f2afb65e67431
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e3443225b5c7cb6d8f758248e538c2a427a89265
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758901"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723172"
 ---
 # <a name="manage-leases-through-the-lease-import-framework"></a>Nomu pārvaldība, izmantojot nomas importēšanas struktūru
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidrots, kā izmantot nomas importēšanas struktūru, lai ar vienu darbību koriģētu vairākas nomas. Izmantojot šo iespēju, varat ietaupīt laiku un varat arī nodrošināt precīzākas korekcijas, samazinot cilvēka kļūdas iespējamību. Turklāt šī iespēja var savienot Microsoft Dynamics 365 Finance ar ārējo datu vienībām, lai efektīvi augšupielādētu datus.
+Šajā tēmā skaidrots, kā izmantot nomas importēšanas struktūru, lai ar vienu darbību koriģētu vairākas nomas. Izmantojot šo iespēju, varat ietaupīt laiku un varat arī nodrošināt precīzākas korekcijas, samazinot cilvēka kļūdas iespējamību. Turklāt šī iespēja var savienot Microsoft Dynamics 365 finanses ar ārējiem datu elementiem, lai efektīvi augšupielādētu datus.
 
 Tālāk norādītos datu elementus var izmantot, lai integrētu līdzekļu nomu ar ārējām sistēmām:
 

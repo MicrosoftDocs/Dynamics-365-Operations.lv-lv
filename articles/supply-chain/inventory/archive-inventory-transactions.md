@@ -2,7 +2,7 @@
 title: Arhivēt krājumu transakcijas
 description: Šajā tēmā ir aprakstīts, kā arhivēt krājumu darbību datus, lai palīdzētu uzlabot sistēmas veiktspēju.
 author: yufeihuang
-ms.date: 03/01/2021
+ms.date: 05/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 99a7b61d9bd5e1e2bd8d2c7df34882646bb51270
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8b766d306f31fc531f33aa29e1f96048bbd90085
+ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567467"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8736066"
 ---
 # <a name="archive-inventory-transactions"></a>Arhivēt krājumu transakcijas
 
@@ -116,3 +116,110 @@ Rīkjosla virs režģa nodrošina šādas pogas, kuras var izmantot darbam ar at
 - **Apturēt arhivēšanu** - apturēt atlasīto arhīvu, kas pašlaik tiek apstrādāts. Pauze stājas spēkā tikai pēc tam, kad ir izveidots arhivēšanas uzdevums. Tāpēc var būt neliela aizkave, pirms pauze stājas spēkā. Ja arhīvs ir apturēts, laukā **Pārtraukt pašreizējo atjaunināšanu** tiek parādīta atzīme.
 - **Atsākt arhivēšanu** - atsākt atlasītā arhīva apstrādi, kas pašlaik ir apturēts.
 - **Atsaukt** – anulēt atlasīto arhīvu. Arhīvu var atsaukt tikai tad, ja tā lauks **Stāvoklis** ir iestatīts uz *Pabeigts*. Ja arhīvs ir apturēts, laukā **Pārtraukt pašreizējo atjaunināšanu** tiek parādīta atzīme.
+
+## <a name="extend-your-code-to-support-custom-fields"></a>Paplašināt kodu, lai atbalstītu pielāgotos laukus
+
+Ja tabulā `InventTrans` ir viens vai vairāki pielāgoti lauki, iespējams, jāpaplašina kods, lai tos atbalstītu, atkarībā no tā, kā tie nosaukti.
+
+- Ja pielāgotajiem tabulas laukiem `InventTrans` ir tādi paši lauku `InventtransArchive` nosaukumi kā tabulā, tas nozīmē, ka tie ir kartēti 1:1. Tādēļ jūs varat vienkārši ievietot pielāgotos laukus `InventoryArchiveFields` tabulas lauku `inventTrans` grupā.
+- Ja pielāgotie lauku nosaukumi tabulā `InventTrans` neatbilst tabulas `InventtransArchive` lauku nosaukumiem, tad, lai tos kartētu, ir jāpievieno kods. Piemēram, `InventTrans.CreatedDateTime` ja ir izsaukts `InventTransArchive``InventtransArchive.InventTransCreatedDateTime` sistēmas lauks, `InventTransArchiveProcessTask` tad ir jāizveido lauks tabulā ar citu nosaukumu (`InventTransArchiveSqlStatementHelper` piemēram) un jāpievieno paplašinājumi un klases, kā parādīts tālāk esošajā parauga kodā.
+
+Tālāk sniegtajā parauga kodā parādīts piemērs par to, kā klasei pievienot nepieciešamo `InventTransArchiveProcessTask` paplašinājumu.
+
+```xpp
+[ExtensionOf(classStr(InventTransArchiveProcessTask))]
+Final class InventTransArchiveProcessTask_Extension
+{
+
+    protected void addInventTransFields(SysDaSelection _selectionObject)
+    {
+        _selectionObject.add(fieldStr(InventTrans, ModifiedBy))
+            .add(fieldStr(InventTrans, CreatedBy)).add(fieldStr(InventTrans, CreatedDateTime));
+
+        next addInventTransFields(_selectionObject);
+    }
+
+
+    protected void addInventTransArchiveFields(SysDaSelection _selectionObject)
+    {
+        _selectionObject.add(fieldStr(InventTransArchive, InventTransModifiedBy))
+            .add(fieldStr(InventTransArchive, InventTransCreatedBy)).add(fieldStr(InventTransArchive, InventTransCreatedDateTime));
+
+        next addInventTransArchiveFields(_selectionObject);
+    }
+}
+```
+
+Tālāk sniegtajā parauga kodā parādīts piemērs par to, kā klasei pievienot nepieciešamo `InventTransArchiveSqlStatementHelper` paplašinājumu.
+
+```xpp
+[ExtensionOf(classStr(InventTransArchiveSqlStatementHelper))]
+final class InventTransArchiveSqlStatementHelper_Extension
+{
+    private str     inventTransModifiedBy;  
+    private str     inventTransCreatedBy;
+    private str     inventTransCreatedDateTime;
+
+    protected void initialize()
+    {
+        next initialize();
+        inventTransModifiedBy = new SysDictField(tablenum(InventTrans), fieldNum(InventTrans, ModifiedBy)).name(DbBackend::Sql);
+        inventTransCreatedDateTime = new SysDictField(tablenum(InventTrans), fieldNum(InventTrans, CreatedDateTime)).name(DbBackend::Sql);
+        inventTransCreatedBy = new SysDictField(tablenum(InventTrans), fieldNum(InventTrans, CreatedBy)).name(DbBackend::Sql);
+    }
+
+    protected str buildInventTransArchiveSelectionFieldsStatement()
+    {
+        str     ret;
+
+        ret = next buildInventTransArchiveSelectionFieldsStatement();
+        
+        if (inventTransModifiedBy)
+        {
+            ret += ',';
+            ret += strFmt('%1',  new SysDictField(tablenum(InventTransArchive), fieldNum(InventTransArchive, InventTransModifiedBy)).name(DbBackend::Sql));
+        }
+
+        if (inventTransCreatedBy)
+        {
+            ret += ',';
+            ret += strFmt('%1',  new SysDictField(tablenum(InventTransArchive), fieldNum(InventTransArchive, InventTransCreatedBy)).name(DbBackend::Sql));
+        }
+
+        if (inventTransCreatedDateTime)
+        {
+            ret += ',';
+            ret += strFmt('%1',  new SysDictField(tablenum(InventTransArchive), fieldNum(InventTransArchive, InventTransCreatedDateTime)).name(DbBackend::Sql));
+        }
+
+        return ret;
+    }
+
+    protected str buildInventTransTargetFieldsStatement()
+    {
+        str     ret;
+
+        ret = next buildInventTransTargetFieldsStatement();
+
+        if (inventTransModifiedBy)
+        {
+            ret += ',';
+            ret += strFmt('%1', inventTransModifiedBy);
+        }
+
+        if (inventTransCreatedBy)
+        {
+            ret += ',';
+            ret += strFmt('%1', inventTransCreatedBy);
+        }
+
+        if (inventTransCreatedDateTime)
+        {
+            ret += ',';
+            ret += strFmt('%1', inventTransCreatedDateTime);
+        }
+
+        return ret;
+    }
+}
+```

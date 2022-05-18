@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-04-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d91ef244f8dd48baf65f5633357a7d81a68f84621b20d39d4e0ee771283a2bab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 19ac856de0fed9253bf79cb4c06d4347e5a19c77
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741361"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8693477"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-5-2021"></a>Jaunumi vai izmaiņas risinājumā Dynamics 365 Human Resources 2021. gada 5. aprīlis
 
@@ -72,7 +71,7 @@ Tālāk norādītie jaunie līdzekļi ir priekšskatījumā. Papildinformāciju 
 | Funkcija | Detalizētā informācija |
 | --- | --- |
 | Vadītāja ievadītās prasmes saviem darbiniekiem var automātiski apstiprināt ar darbplūsmu | Drīzumā. |
-| Platformas atjauninājums 10.0.17 (41) | Ir ieplānots, ka platformas atjaunināšana 10.0.17 sāks izriti ar nākamo laidienu 2021. gada 19. aprīlī. Papildinformāciju skatiet [Platformas atjauninājumi Finance and Operations programmu versijai 10.0.17 (2021. gada aprīlis)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md). |
+| Platformas atjauninājums 10.0.17 (41) | Ir ieplānots, ka platformas atjaunināšana 10.0.17 sāks izriti ar nākamo laidienu 2021. gada 19. aprīlī. Papildinformāciju skatiet Platformas [atjauninājumos Finanšu un operāciju programmu versijā 10.0.17 (2021. gada aprīlis)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md). |
 
 Pilnīgu sarakstu ar plānotajiem līdzekļiem un to ieplānotajiem laidieniem skatiet sadaļā [Pakalpojuma Dynamics 365 Human Resources 2021 laidiena 1. kopuma pārskats](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
 

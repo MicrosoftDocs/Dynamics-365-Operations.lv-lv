@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, Operations
 ms.custom: 539093
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: e422b16d1c4505b2837bb282918ecada902b806e
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: bb5b220dd941cbb9f1fda5d0eb821a86a9135309
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8566566"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685804"
 ---
 # <a name="set-up-multiple-element-revenue-allocation"></a>Iestatīt vairāku elementu ieņēmumu sadalījumu
 
@@ -85,7 +84,7 @@ Krājuma **savrupā pārdošanas cenas lapā** ir ietverti tālāk norādīti la
 | Atsevišķās pārdošanas cena | Norādiet krājuma savrupo pārdošanas cenu. Šis lauks ir pieejams, ja savrupas **pārdošanas cenas izcelsmes lauks** ir iestatīts uz **Summa**. |
 | Procenti | Norādiet savrupās pārdošanas cenas procentuālo vērtību. Šis lauks ir pieejams, **kad savrupas** **pārdošanas** cenas izcelsmes lauks ir iestatīts uz Preces procenti, **Pamatrēķinā** iekļautās cenas procenti vai **pamatcenas procenti.** |
 | Ieņēmumu sadale | <p>Norādīt, vai rindā tiek izmantota ieņēmumu sadalīšana:</p><ul><li>**Atlasīts** – laukā Krājumu saistība var atlasīt tikai tos krājumus, kuriem iestatīta ieņēmumu **sadalīšanas** veidne. Šo izvēles rūtiņu var atzīmēt tikai ieņēmumu sadalīšanas veidnes pamatelementiem.</li><li>**Dzēsts** - krājums ir standarta prece, kas neizmanto ieņēmumu sadalījumu.</li></ul> |
-| Saistība | Simbols norāda, vai ieņēmumu sadalījumā krājums ir pamatobjekts vai pakārtotais krājums. |
+| Attiecības | Simbols norāda, vai ieņēmumu sadalījumā krājums ir pamatobjekts vai pakārtotais krājums. |
 | Krājuma kods | <p>Atlasiet krājuma kodu: **Tabula** vai **Grupa**.</p><p>Ja izvēles **rūtiņa Ieņēmumu** sadalīšana ir atzīmēta, šis lauks ir iestatīts **uz** Tabula un vērtību nevar mainīt.</p> |
 | Krājumu saistība | <p>Atlasiet krājuma kodu.</p><p>Ja izvēles rūtiņa **Ieņēmumu sadalīšana** ir atzīmēta, atlasei ir pieejami tikai krājumi, kas ir pamatelementi, kuriem ir iestatīta ieņēmumu sadalīšanas veidne. Kad pamatelements ir atlasīts, saraksts tiek automātiski atjaunināts ar šī pamatelementa pakārtotajiem krājumiem.</p> |
 | Pamatkrājums | Pamatelementam šis lauks rāda krājuma kodu. Pakārtotajiem krājumiem ieņēmumu sadalījumā tas rāda pamatelementa krājuma numuru. |

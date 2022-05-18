@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 57592
 ms.assetid: 747faa47-9a23-4277-bc11-8d0a1267c3a4
 ms.search.region: Global
-ms.author: aolson
+ms.author: jiwo
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 92da476f64b937d339b5f0c6088b8ce722a0584938ccf2a6c6cbd39fdc15544d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf5062cfc7ce47a2356c72462da805e8d0d6a756
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714639"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727795"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Pārskatu koka definīcijas finanšu pārskatos
 
@@ -101,7 +101,7 @@ Kad izmantojot atskaišu koku, summas no atskaites apakšvienībām varat apkopo
     > Ja norādāt dimensijas gan apakšvienībām, gan pamata vienībām, varat izraisīt datu dublēšanos šajā atskaitē.
 
 - Pārskata vienības, kas satur dimensijas pārskata kokā, atbilst dimensijām, kas tiek izmantotas rindu un kolonnu definīcijās. Dimensiju kombinācija nosaka šai vienībai atgrieztās summas. Piemēram, tālāk šajā rakstā sniegtajā 2. piemērā 6. un 7. rinda attiecīgi atgriež vērtības tikai nodaļām 00 un 01.
-- Summas pamata atskaites vienībām, kas atskaišu kokā nesatur dimensijas, tiek noteiktas no apakšvienību atskaites un apkopo summu uz norādīto pamatvienību. Piemēram, ja pamatvienībai (sk. Contoso USA datu apkopojuma 2. piemērā) ir divas apakšvienībās (022 un 023), un tā nesatur dimensijas, tad atskaite tiek ģenerēta katrai apakšvienībai un pamata vienībai. Pamata kopsumma sastāv no divām apakš-summām.
+- Summas pamata atskaites vienībām, kas atskaišu kokā nesatur dimensijas, tiek noteiktas no apakšvienību atskaites un apkopo summu uz norādīto pamatvienību. Piemēram, ja pamatvienībai (sk. Contoso USA datu apkopošanas piemēru 2. piemērā) ir divas apakšvienībās (022 un 023), un tā nesatur dimensijas, tad atskaite tiek ģenerēta katrai apakšvienībai un pamata vienībai. Pamata kopsumma sastāv no divām apakš-summām.
 
 ### <a name="manage-reporting-units"></a>Pārvaldīt pārskata vienības
 
@@ -165,18 +165,18 @@ Jūs varat neļaut noteiktiem lietotājiem un grupām piekļūt pārskata vienī
 
 Šeit ir atskaišu vienību struktūra šādā atskaišu kokā:
 
-- Atskaites vienība Contoso Japāna ir pamata vienība apakšvienībām Contoso Japāna Pārdošana un Contoso Japānas Konsultēšana.
-- Nodaļa Contoso Japānas Pārdošana ir gan apakšvienība vienībai Contoso Japāna, gan pamata vienība vienībām Mājas pārdošana un Automātiska pārdošana.
+- Atskaites vienība Contoso Japan ir pamata vienība apakšvienībām Contoso Japan Sales un Contoso Japan Consulting.
+- Nodaļa Contoso Japan Sales ir gan apakšvienība vienībai Contoso Japan, gan pamata vienība vienībām Home Sales un Auto Sales.
 - Viszemākā līmeņa detalizācijas atskaites vienības (Home Sales, Auto Sales, Client Services un Operations) apzīmē nodaļas finanšu datos. Šīs pārskata vienības ir diagrammas ēnotais apgabals.
 - Augstāka līmeņa kopsavilkuma vienības apkopo informāciju no detaļu vienībām.
 
-[![Contoso kopsavilkuma pārskata struktūra — 1. piemērs.](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
+[![Contoso kopsavilkuma pārskata struktūra – 1. piemērs.](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
 
 ### <a name="reporting-unit-structure--example-2"></a>Atskaites vienības struktūra — 2. piemērs
 
 Nākamajā diagrammā ir redzams atskaišu koks, kam ir organizatoriska struktūra, kura ir sadalīta pēc biznesa funkcijas.
 
-[![Contoso kopsavilkuma pārskata struktūra — 2. piemērs.](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
+[![Contoso kopsavilkuma pārskata struktūra – 2. piemērs.](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>Dialoglodziņa Ievietot atskaišu vienības no dimensijām piemērs
 

@@ -2,19 +2,19 @@
 title: Puse un globālā adrešu grāmata
 description: Šajā tēmā ir aprakstīta dubultās rakstīšanas Puses un globālās adrešu grāmatas funkcionalitāte.
 author: RamaKrishnamoorthy
-ms.date: 03/10/2022
+ms.date: 04/25/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: josaw
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 2e0d16b29a71da23acc925c09c87f0bb4776759c
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: 1e2dcfa69308f6691e787a1ff1893f9080dcaef1
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8407769"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717451"
 ---
 # <a name="party-and-global-address-book"></a>Puse un globālā adrešu grāmata
 
@@ -139,7 +139,7 @@ Režģī ir iekļautas tālāk minētās kolonnas.
 
 Varat izmantot pogu **Jauna elektroniskā adrese** virs režģa, lai izveidotu pēc izvēles tik daudz adrešu, cik vēlaties.
 
-Elektroniskās adreses ir pieejamas tikai šajā režģī. Turpmākajos laidienos visi pasta adrešu un elektronisko adrešu lauki tiks noņemti no citām cilnēm, piemēram, **Kopsavilkums** un **Detalizēta informācija**. Cilnē **Detalizēta informācija** rādītā kontaktinformācija ir tikai primārās elektroniskās adreses kopijas, piemēram, primārais tālrunis, primārais e-pasts, primārais fakss un primārais Twitter ID. Potenciālā klienta kvalifikācijas procesa laikā varat norādīt gan biznesa tālruņa numuru, gan mobilā tālruņa numuru. Biznesa tālruņa numurs tiek uzskatīts par primāro tālruņa numuru, ja **IsMobile=Nē** un mobilā tālruņa numurs tiek uzskatīts par sekundāro tālruni, ja **IsMobile=Jā**.
+Potenciālā klienta kvalifikācijas procesa laikā varat norādīt gan biznesa tālruņa numuru, gan mobilā tālruņa numuru. Biznesa tālruņa numurs tiek uzskatīts **par primāro tālruņa numuru, ja IsMobile=Nē**, **un mobilā tālruņa numurs tiek uzskatīts par sekundāro tālruņa numuru, ja IsMobile=Jā**.
 
 > [!TIP]
 > Lai pārvaldītu pasta un elektroniskās adreses, lietojiet **Konta** un **Kontaktu** veidlapas **Adreses** **Elektroniskās adreses** . Tas nodrošina, ka adrešu dati tiek sinhronizēti ar finanšu un operāciju programmām.
@@ -148,7 +148,7 @@ Elektroniskās adreses ir pieejamas tikai šajā režģī. Turpmākajos laidieno
 
 1. Atveriet savu Customer Engagement programmas vidi.
 
-2. Instalējiet pēdējo (2.2.2.60 vai jaunāku) [duālās programmas instrumentācijas risinājuma](https://aka.ms/dual-write-app) versiju.
+2. Instalējiet visus priekšnosacījumu risinājumus, kā aprakstīts Atsevišķā [duālās rakstīšanas programmas instrumentācijas pakotnē](separated-solutions.md).
 
 3. Instalējiet [Dubultās rakstīšanas puses un globālās adrešu grāmatas risinājumus](https://aka.ms/dual-write-gab).
 
@@ -165,8 +165,8 @@ Elektroniskās adreses ir pieejamas tikai šajā režģī. Turpmākajos laidieno
 
     Atbilstību karte | Atjaunināt līdz šai versijai | Izmaiņas
     ---|---|---
-    `CDS Parties (msdyn_parties)`| 1.0.0.0 | Šī ir jauna karte, kas ir pievienota kā daļa no ša laidiena.
-    `Contacts V2 (msdyn_contactforparties)`| 1.0.0.5 | Šī ir jauna karte, kas ir pievienota kā daļa no ša laidiena.
+    `CDS Parties (msdyn_parties)`| 1.0.0.2 | Šī ir jauna karte, kas ir pievienota kā daļa no ša laidiena.
+    `Contacts V2 (msdyn_contactforparties)`| 1.0.0.6 | Šī ir jauna karte, kas ir pievienota kā daļa no ša laidiena.
     `Customers V3 (accounts)` | 1.0.0.5 |Noņēma `PartyNumber` un citus ar pusi saistītos laukus, piemēram, vārdu, personas datus, pasta adrešu laukus un elektroniskās kontaktpersonu adreses.
     `Customer V3 (contacts)` | 1.0.0.5 | Noņēma `PartyNumber` un citus ar pusi saistītos laukus, piemēram, vārdu, personas datus, pasta adrešu laukus un elektroniskās kontaktpersonu adreses.
     `Vendors V2 (msdyn_vendors)` | 1.0.0.6 | Noņēma `PartyNumber` un citus ar pusi saistītos laukus, piemēram, vārdu, personas datus, pasta adrešu laukus un elektroniskās kontaktpersonu adreses.
@@ -174,16 +174,17 @@ Elektroniskās adreses ir pieejamas tikai šajā režģī. Turpmākajos laidieno
     `Sales invoice headers V2 (invoices)` | 1.0.0.4 | Kontaktpersona aizstāta ar `ContactforParty` atsauci.
     `CDS Sales order headers (salesorders)` | 1.0.0.5 | Kontaktpersona aizstāta ar `ContactforParty` atsauci.
     `CDS Party postal address locations (msdyn_partypostaladdresses)` | 1.0.0.1  | Šī ir jauna karte, kas ir pievienota kā daļa no ša laidiena.
-    `CDS postal address history V2 (msdyn_postaladdresses)` | 1.0.0.1 | Šī ir jauna karte, kas ir pievienota kā daļa no ša laidiena.
+    `CDS postal address history V2 (msdyn_postaladdresses)` | 1.0.0.2 | Šī ir jauna karte, kas ir pievienota kā daļa no ša laidiena.
     `CDS postal address locations (msdyn_postaladdresscollections)` | 1.0.0.0 | Šī ir jauna karte, kas ir pievienota kā daļa no ša laidiena.
     `Party Contacts V3 (msdyn_partyelectronicaddresses)` | 1.0.0.0 | Šī ir jauna karte, kas ir pievienota kā daļa no ša laidiena.
-    `Complimentary Closings ( msdyn_compliemntaryclosings)` | 1.0.0.0 | Šī ir jauna karte, kas ir pievienota kā daļa no ša laidiena.
+    `Complimentary Closings (msdyn_compliemntaryclosings)` | 1.0.0.0 | Šī ir jauna karte, kas ir pievienota kā daļa no ša laidiena.
     `Decision making roles (msdyn_decisionmakingroles)` | 1.0.0.0 | Šī ir jauna karte, kas ir pievienota kā daļa no ša laidiena.
     `Loyalty levels (msdyn_loyaltylevels)` | 1.0.0.0 | Šī ir jauna karte, kas ir pievienota kā daļa no ša laidiena.
     `Contact person titles (msdyn_salescontactpersontitles)` | 1.0.0.0 | Šī ir jauna karte, kas ir pievienota kā daļa no ša laidiena.
     `Personal character types (msdyn_personalcharactertypes)` | 1.0.0.0 | Šī ir jauna karte, kas ir pievienota kā daļa no ša laidiena.
     `Salutations (msdyn_salutations)` | 1.0.0.0 | Šī ir jauna karte, kas ir pievienota kā daļa no ša laidiena.
     `Employment job functions (msdyn_employmentjobfunctions)` | 1.0.0.0 | Šī ir jauna karte, kas ir pievienota kā daļa no ša laidiena.
+    `CDS Address roles (msdyn_addressroles)` | 1.0.0.0 | Šī ir jauna karte, kas ir pievienota kā daļa no ša laidiena.
 
 8. Pirms iepriekš minēto karšu lietošanas integrācijas atslēgas jāatjaunina manuāli, kā aprakstīts šādās darbībās. Pēc tam atlasiet **Saglabāt**.
 
@@ -251,14 +252,15 @@ Elektroniskās adreses ir pieejamas tikai šajā režģī. Turpmākajos laidieno
     [CDS pārdošanas piedāvājuma virsraksts](mapping-reference.md#215) | piedāvājumi
     [CDS pārdošanas pasūtījumu virsraksti](mapping-reference.md#217) | salesorders
     [Pārdošanas rēķinu galvenes V2](mapping-reference.md#118) | rēķini
+    [CDS adrešu lomas](mapping-reference.md#301) | msdyn_addressroles
 
 > [!NOTE]
 > Karte `CDS Contacts V2 (contacts)` ir karte, kas tika apturēta 1. darbībā. Mēģinot palaist citas kartes, šīs 2 kartes var parādīties pakārtoto sarakstā. Neizmantojiet šīs kartes.
 >
-> Ja ir instalēts puses un globālās adrešu grāmatas risinājums, ir jāatspējo spraudnis ar nosaukumu `Microsoft.Dynamics.SCMExtended.Plugins.Plugins.LeadPrimaryContactPostCreate: QualifyLead of lead`. Atinstalējot pusi un globālo adrešu grāmatas risinājumu, spraudnis ir jāiespējo no jauna.
+> Ja ir instalēts puses un globālās adrešu grāmatas risinājums, disable the party and global address book solution `Microsoft.Dynamics.SCMExtended.Plugins.Plugins.LeadPrimaryContactPostCreate: QualifyLead of lead`. Atinstalējot pusi un globālo adrešu grāmatas risinājumu, spraudnis ir jāiespējo no jauna.
 >
 > Lauku `msdyn_*partynumber` (vienas rindas teksta lauku), kas iekļauts tabulās **Konts**, **Kontaktpersona** un **Kreditors** nedrīkst izmantot turpmāk. Iezīmes nosaukumam ir prefikss **(Novecojis)** skaidrības labad. Tā vietā izmantojiet **msdyn_partyid** lauku. Lauks ir pārlūks **msdyn_party** tabulai.
-
+>
 > Tabulas nosaukums | Vecais lauks | Jauns lauks
 > --------|-------|--------
 > Konts | `msdyn_partynumber` | `msdyn_partyid`
@@ -290,21 +292,22 @@ Tabulas karšu vākšana darbojas kopā puses un globālās adrešu grāmatas mi
 | [Pārdošanas rēķinu galvenes V2](mapping-reference.md#118) | rēķini |
 | [Uzrunas](mapping-reference.md#228) | msdyn\_salutations |
 | [Kreditori V2](mapping-reference.md#202) | msdyn\_vendors |
+| [CDS adrešu lomas](mapping-reference.md#301) |msdaddressroles\_|
 
 Papildinformāciju skatiet sadaļā [Dubultā ieraksta kartēšanas atsauce](mapping-reference.md).
+
+## <a name="address-roles-as-a-multi-select-drop-down-list"></a>Adrešu lomas kā nolaižamais saraksts ar vairākiem sarakstiem
+Pasta adrese vai elektroniskā adrese var kalpot vairākiem nolūkiem. Piemēram, pasta adrese var kalpot kā rēķina adrese un piegādes adrese. Šādos gadījumos lietotājs nolaižamajā sarakstā var **atlasīt** **rēķinu** un piegādi, kā parādīts šajā ilustrācijā. 
+
+![Nolaižamajā sarakstā nolūks/loma.](media/purpose.png)
 
 ## <a name="known-issues-and-limitations"></a>Zināmās problēmas un ierobežojumi
 
 + Finanšu un operāciju programmās, kad izveidojat debitoru kopā ar adresi un to saglabājat, adrese var nesinhronizēt uz **adrešu** tabulu. Tas ir tāpēc, ka pastāv dubultrakstīšanas platformu secības problēma. Vispirms izveidojiet debitoru un saglabājiet to. Pēc tam pievienojiet adresi.
 + Finanšu un operāciju programmās, kad debitora ierakstam ir primārā adrese un jūs šim debitoram izveidojat jaunu kontaktpersonu, tad kontaktpersonas ieraksts pārmanto primāro adresi no saistītā debitora ieraksta. Tas notiek arī attiecībā uz kreditora kontaktpersonu. Dataverse neatbalsta šo uzvedību. Ja ir aktivizēta duālā rakstīšana, debitoru kontaktpersonas, kas pārmantotas ar primāro adresi no finanšu un operāciju programmas Dataverse, tiek sinhronizētas kopā ar tās adresi.
-+ Elektroniskās adreses, kas iestatītas elektroniskās adreses veidlapu **Konts**, **Kontaktpersona** un **Kreditors** cilnē, nāk no `msdyn_partyelectronicaddress` tabulas. Šī informācija neplūst uz tās saistītajām darījumiem, piemēram, pārdošanas pasūtījumu, piedāvājumu un pirkšanas pasūtījumu. Mēs plānojam risināt šo problēmu inkrementālā izlaidē. Esošie dati konta elektroniskās adreses laukos un kontaktpersonu ierakstos turpinās strādāt ar darījumiem, piemēram, pārdošanas pasūtījumu, piedāvājumu un pirkšanas pasūtījumu.
 + Finanšu un operāciju programmās varat izveidot kontaktpersonas ierakstu no formas **Pievienot** kontaktpersonu. Ja mēģināt izveidot jaunu kontaktpersonu no veidlapas **Skatīt kontaktpersonu**, darbība neizdodas. Šī ir zināma problēma.
 
     ![Zināmā problēma ar Pievienot kontaktpersonu.](media/party-gab-contact-issue.png)
 
-+ **Sākotnējā sinhronizācija** neatbalsta laika laukus **Pieejams no** un **Pieejams līdz** cilnē **ContactForParty**, jo DIXF pārvērš vērtību virknē vesela skaitļa vietā. Pārvēršana izraisa kļūdu `Cannot convert the literal '<say 08:00:00>’ to the expected type edm.int32`.
-+ Ja pasta adrese tiek izmantota vairāk nekā vienam iemeslam, piemēram, biznesa sakaru adrese un rēķina adrese, tai ir jāparādās kā `Business;Invoice`,kā parādīts šajā attēlā. Ja starp vērtībām pievienosiet atstarpi, tiks parādīts kļūdas ziņojums.
-
-    ![Zināmā problēma ar Adresi.](media/party-gab-address-issue.png)
-
++ **Sākotnējā sinhronizācija** neatbalsta laika laukus **Pieejams no** un **Pieejams līdz** cilnē **ContactForParty**, jo DIXF pārvērš vērtību virknē vesela skaitļa vietā. Pārvēršana izraisa kļūdu `Cannot convert the literal '<say 08:00:00>' to the expected type edm.int32`.
 + Nevar ievadīt uz priekšu datētu pasta adresi, izmantojot finanšu un operāciju programmu ar dubulto rakstiet, jo Dataverse tā neatbalsta spēkā stāšanās datumu. Ja ievadāt nākotnes datētu pasta adresi, izmantojot finanšu un operāciju programmu, Dataverse tā pilnībā tiek sinhronizēta un adrese tiks skatīta lietotāja interfeisā nekavējoties. Jebkura šī ieraksta atjaunināšanas rezultātā rodas kļūda, jo tā ir nākotnes datēta un nav pašlaik finanšu un operāciju programmā.

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 4fd46ea161fb4441d94a9e7c7f7ffbfb245eb873
-ms.sourcegitcommit: 9c2bc045eafc05b39ed1a6b601ccef48bd62ec55
+ms.openlocfilehash: 08e247bac577dc0bb8a4635d61f0082793380da9
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7919505"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722523"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>E-pasta ziņojumu veidņu izveide transakciju notikumiem
 
@@ -64,8 +64,8 @@ Iepakošanas pabeigtais paziņojuma veids atbalsta šādus papildu e-pasta viett
 | ------------------- | ------- |
 | `pickupstorename`     | Tā veikala nosaukums, kur pasūtījums ir pieejams savākšanai. |
 | `pickupstoreaddress`  | Tā veikala nosaukums, kur pasūtījums ir pieejams savākšanai. |
-| `pickupstorehourfrom` | Savākšanas veikala darba laika sākums. |
-| `pickupstorehourto`   | Savākšanas veikala darba laika beigas. |
+| `pickupstoreopenfrom` | Savākšanas veikala darba laika sākums. |
+| `pickupstoreopento` | Savākšanas veikala darba laika beigas. |
 | `pickupchannelid`     | Savākšanas veikala kanāla ID. |
 | `packingslipid`      | Pavadzīmes ID pasūtījumam, kas tiks izdots. |
 | `confirmationid`      | Pasūtījuma apstiprinājuma ID pasūtījumam, kas tiks izdots. (Reizēm šis ID tiek saukts par kanāla atsauces ID.) |
@@ -102,7 +102,7 @@ Problēmas dāvanu kartes paziņojuma veids atbalsta šādus papildu vietturus.
 | Viettura nosaukums      | Nolūks |
 | --------------------- | ------- |
 | `giftcardnumber`        | Dāvanu kartes numurs dāvanu kartes veida precēm. |
-| `giftcardbalance`       | Dāvanu kartes bilance dāvanu kartes veida precēm. |
+| `availablebalance` | Dāvanu kartes atlikusī bilance. |
 | `giftcardmessage`       | Dāvanu kartes ziņojums dāvanu kartes veida precēm. |
 | `giftcardpin`         | Dāvanu kartes personīgais identifikācijas numurs (PIN) dāvanu kartes veida precēm. (Šis vietturis ir raksturīgs ārējām dāvanu kartēm.) |
 | `giftcardexpiration`    | Dāvanu kartes beigu datums dāvanu kartes veida precēm. (Šis vietturis ir raksturīgs ārējām dāvanu kartēm.) |

@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: cd033cfc3df21ddac5572aa70c18db5ffe26f54e
-ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
+ms.openlocfilehash: 26b2821f33ea23dde1fda1d461baa5de1b4f9efc
+ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8656808"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740657"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Pakalpojuma apraksts finanšu un operāciju programmām
 
@@ -265,7 +265,7 @@ Debitora nomnieka administrators var piekļūt ražošanas instancēm vai instan
 |---|---|---|
 | **Ar ražošanu nesaistīts**<br>1. pakāpes smilškaste | Vide, kas nav ražošanas vide, ko klienti izvieto izstrādes, demonstrācijas vai apmācības nolūkos. | 1. pakāpes smilškaste (tiek saukta arī par mākonī viesotu vidi) ir debitora pārvaldīta VM, kas ir izvietots debitora Azure abonementā no LCS. Tā kā debitora Azure abonements ir VM, debitoram ir pilna administratīvā piekļuve videi, izmantojot attālo darbvirsmu. |
 | **Ar ražošanu nesaistīts**<br>2. pakāpes (vai augstāka) smilškaste | Vide, kas nav ražošanas vide, ko debitori izmanto lietotāju pieņemšanas pārbaudei, integrācijas testēšanai, apmācībai, sagatavošanai vai jebkuram citam pirms produkcijas scenārijam. | 2. pakāpe un citas rūtiņas tiek izvietotas Finanšu un operāciju SAAS abonementā. Piekļuve Azure SQL datu bāzēm, kas ir saistītas ar ne produkcijas vidi, tiek piešķirtas, izmantojot [piekļuvu laikā](../../dev-itpro/database/database-just-in-time-jit-access.md). Attālās darbvirsmas piekļuve nav pieejama. |
-| **Ražošana** | Ražošanas vide tiek izvietota, kad projekts ir [gatavs sākotnējai izvietošanai](/imp-lifecycle/environment-planning.md#production-system-readiness). | Ražošanas vides tiek izvietotas SaaS abonementā. Visa piekļuve ir caur pārlūku, pakalpojuma galapunktiem vai LCS. |
+| **Ražošana** | Ražošanas vide tiek izvietota, kad projekts ir [gatavs sākotnējai izvietošanai](../imp-lifecycle/environment-planning.md#production-system-readiness). | Ražošanas vides tiek izvietotas SaaS abonementā. Visa piekļuve ir caur pārlūku, pakalpojuma galapunktiem vai LCS. |
 
 ### <a name="microsoft-administrative-access"></a>Microsoft administratīvās piekļuves tiesības
 
@@ -286,7 +286,7 @@ Korporācija Microsoft ir daudzpusēja rīku kopā, lai pārraudzītu un veltīt
 |---|---|
 | <ul><li>Pārraudzīt pakalpojuma pieejamību.</li><li>Pastāvīgi uzraugiet un brīdināt, izmantojot darbspējas rādītājus un datu apstrādes kritiskos komponentus, piemēram, Application Object Server (AOS), Batch, Data Import/Export Framework (DIXF), Commerce un Management Reporter.</li><li>Uzraugiet veiktspēju, ko izraisa infrastruktūras pakalpojumi (piemēram, Azure Active Directory \[Azure AD\] un Azure SQL).</li><li>Ja Korporācija Microsoft nosaka, ka atsevišķs process vai pakešuzdevums izraisa sabrīdzēšanu, šis process vai darbs tiks pārtraukts pēc saziņas ar klientu.</li></ul> | <ul><li>Pārraudzīt izmaiņas programmas konfigurācijās un paplašinājumos, kas var izraisīt funkcionalitātes un veiktspējas problēmas.</li><li>Lietošanas kļūdas ir jādiagnosticē, izmantojot monitoringa rīkus. Izmantojiet šos rīkus, lai lietotāja ziņotās veiktspējas izmaiņas izmantotu.</li><li>Informējiet Microsoft, ja sistēmā ir paredzama noslodze, kas ir ārpus prognozētās noslodzes.</li><li>Ja attiecīgajā ražošanas instancē pakalpojums nav pieejams, debitors var izmantot LCS, lai ziņotu par [ražošanas zaudējumu](../../dev-itpro/lifecycle-services/report-production-outage.md).</li></ul> |
 
-Iesniedzot atbalsta pieprasījumus tiešsaistē, izmantojot LCS, debitori ļauj korporācijai Microsoft ātri un padziļināti sniegt tehnisko zināšanas vislietīgāk un efektīvāk. Kaut arī tālruņa opcija ir pieejama, tā jāizmanto tikai tad, ja tiešsaistes opcija nav pieejama. Papildinformāciju skatiet tēmā [Tālruņa atbalsta opcijas](/power-platform/admin/support-overview.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json#is-there-a-phone-number-i-can-call-to-contact-support).
+Iesniedzot atbalsta pieprasījumus tiešsaistē, izmantojot LCS, debitori ļauj korporācijai Microsoft ātri un padziļināti sniegt tehnisko zināšanas vislietīgāk un efektīvāk. Kaut arī tālruņa opcija ir pieejama, tā jāizmanto tikai tad, ja tiešsaistes opcija nav pieejama. Papildinformāciju skatiet tēmā [Tālruņa atbalsta opcijas](/power-platform/admin/support-overview?toc=%2Fdynamics365%2Ffin-ops-core%2Fdev-itpro%2Ftoc.json&bc=%2Fdynamics365%2Fbreadcrumb%2Ftoc.json#is-there-a-phone-number-i-can-call-to-contact-support).
 
 ## <a name="incident-management"></a>Incidentu pārvaldība
 

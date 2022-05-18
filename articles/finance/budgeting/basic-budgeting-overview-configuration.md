@@ -1,6 +1,6 @@
 ---
 title: Budžeta veidošanas apskats
-description: Gandrīz ikvienam uzņēmumam, kas izmanto Microsoft Dynamics 365 Finance funkcionalitāti Finanšu dati, ir jāspēj izveidot budžetā paredzēto un faktisko vērtību salīdzinājuma pārskatus. Šajā rakstā ir paskaidrota minimālā konfigurācija, kas ir nepieciešama, lai programmatūrā Dynamics 365 for Finance and Operations izveidotu budžetus vai tos ielādētu no kādas trešās puses programmas.
+description: Gandrīz katrs uzņēmums, kas Microsoft Dynamics izmanto Finanšu funkcionalitāti 365 Finansēs, varēs izveidot pārskatus par budžetu pret faktiskajām. Šajā rakstā ir paskaidrota minimālā konfigurācija, kas ir nepieciešama, lai programmatūrā Dynamics 365 for Finance and Operations izveidotu budžetus vai tos ielādētu no kādas trešās puses programmas.
 author: panolte
 ms.date: 04/29/2021
 ms.topic: overview
@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetParameters
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "60113"
 - intro-internal
@@ -17,18 +17,18 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8e881a878265062dc5ce8cec68a45237711f385d
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 48fcfec7126b4835b7d05e431bbc6ad7b9176bbe
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986514"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710418"
 ---
 # <a name="budgeting-overview"></a>Budžeta veidošanas apskats 
 
 [!include [banner](../includes/banner.md)]
 
-Gandrīz ikvienam uzņēmumam, kas izmanto Microsoft Dynamics 365 Finance funkcionalitāti Finanšu dati, ir jāspēj izveidot budžetā paredzēto un faktisko vērtību salīdzinājuma pārskatus. Šajā rakstā ir paskaidrota minimālā konfigurācija, kas ir nepieciešama, lai programmatūrā Dynamics 365 for Finance and Operations izveidotu budžetus vai tos ielādētu no kādas trešās puses programmas.
+Gandrīz katrs uzņēmums, kas Microsoft Dynamics izmanto Finanšu funkcionalitāti 365 Finansēs, varēs izveidot pārskatus par budžetu pret faktiskajām. Šajā rakstā ir paskaidrota minimālā konfigurācija, kas ir nepieciešama, lai programmatūrā Dynamics 365 for Finance and Operations izveidotu budžetus vai tos ielādētu no kādas trešās puses programmas.
 
 ## <a name="overview"></a>Pārskats
 
@@ -68,7 +68,7 @@ Budžeta kodi nodrošina auditācijas pierakstus par apstiprinātā budžeta mod
 
 Ja vēlaties, varat arī iestatīt *budžeta pārsūtīšanas kārtulas*. Lai izmantotu budžeta pārsūtīšanas kārtulas, lapā **Budžeta parametri** atlasiet **Lietot budžeta pārsūtījumu kārtulas**. Kad tiek izmantotas budžeta pārsūtīšanas kārtulas, ja lietotājs veido dokumentu, izmantojot budžeta kodu ar tipu **Pārsūtīšana**, budžeta bilances netiks atjauninātas, ja ir pārkāptas budžeta pārsūtīšanas kārtulas. Piemēram, jūs varat atļaut budžeta pārsūtīšanas dokumentus, kur izdevumu budžets tiek pārsūtīts starp Pārdošanas un mārketinga nodaļas galvenajiem kontiem, un aizliegt budžeta pārsūtīšanu no vai uz šo nodaļu, ja šāda veida budžeta konta ierakstam piešķirts darbplūsmas apstiprinājums.
 
-Funkcionalitāte, kas tika ieviesta Microsoft Dynamics 365 Finance versijā 10.0.7 (2020. gada janvāris), pievienoja iespējas un elastību budžeta reģistra ierakstiem. Lai iespējotu šos uzlabojumus, dodieties uz darbvietu **Līdzekļu pārvaldība** un atlasiet **Budžeta reģistra ieraksti tikai daudzumam** un/vai **Budžeta reģistra ieraksti, kas ir apjoma veida noklusējums**.
+Funkcionalitāte, kas ieviesta Microsoft Dynamics 365 Finanšu versijā 10.0.7 (2020. gada janvārī) pievienoja spēju un elastīgumu budžeta reģistra ierakstiem. Lai iespējotu šos uzlabojumus, dodieties uz darbvietu **Līdzekļu pārvaldība** un atlasiet **Budžeta reģistra ieraksti tikai daudzumam** un/vai **Budžeta reģistra ieraksti, kas ir apjoma veida noklusējums**.
 
 Līdzeklis **Budžeta reģistra ieraksti tikai daudzumam** ļauj grāmatot budžeta reģistra ierakstu ar tikai daudzuma summām. Piemēram, varat grāmatot budžeta ierakstu ar daudzumu 32 un nulles cenu, kuras rezultātā summa ir nulle. Pēc tam šo daudzumu varat izmantot finanšu pārskata kontekstā, lai noteiktu cenu par daudzumu. Ņemiet vērā, ka nekādas uzziņas vai pārskati netika atjaunināti kā daļa no šā līdzekļa — tas tikai ļauj grāmatot nulles summu.
 

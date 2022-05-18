@@ -1,6 +1,6 @@
 ---
-title: Sinhronizēt nodokļu iestatījumus no nodokļu aprēķina pakalpojuma uz Dynamics 365 Finance
-description: Šajā tēmā skaidrots, kā sinhronizēt nodokļu iestatījumu pamatdatus no nodokļu aprēķina pakalpojuma uz Microsoft Dynamics 365 Finance.
+title: Sinhronizēt nodokļu iestatījumus no nodokļu aprēķināšanas pakalpojuma uz Dynamics 365 finansēm
+description: Šajā tēmā skaidrots, kā sinhronizēt nodokļu iestatījumu pamatdatus no nodokļu aprēķina pakalpojuma līdz Microsoft Dynamics 365 Finanses.
 author: wangchen
 ms.date: 01/05/2022
 ms.topic: article
@@ -9,33 +9,32 @@ ms.technology: ''
 ms.search.form: TaxIntegration, TaxServiceParameters
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: intro-internal
 ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d5d994934014a146f825431cb53dfbef8fe20bc8
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 3a9c11a6f5946d56b9e58a02c37f18adec155661
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7965109"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687791"
 ---
-# <a name="sync-the-tax-setup-from-the-tax-calculation-service-to-dynamics-365-finance"></a>Sinhronizēt nodokļu iestatījumus no nodokļu aprēķina pakalpojuma uz Dynamics 365 Finance
+# <a name="sync-the-tax-setup-from-the-tax-calculation-service-to-dynamics-365-finance"></a>Sinhronizēt nodokļu iestatījumus no nodokļu aprēķināšanas pakalpojuma uz Dynamics 365 finansēm
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidrots, kā sinhronizēt nodokļu iestatījumu pamatdatus no nodokļu aprēķina pakalpojuma uz Microsoft Dynamics 365 Finance.
+Šajā tēmā skaidrots, kā sinhronizēt nodokļu iestatījumu pamatdatus no nodokļu aprēķina pakalpojuma līdz Microsoft Dynamics 365 Finanses.
 
-Kad esat izpildījis nepieciešamās iestatīšanas darbības sadaļā Sākt ar nodokļu aprēķinu, šie nodokļu iestatījumu dati automātiski tiek sinhronizēti no [nodokļu aprēķina pakalpojuma uz](global-get-started-with-tax-calculation-service.md) Finanses.
+Kad esat izpildījis [nepieciešamās](global-get-started-with-tax-calculation-service.md) iestatīšanas darbības sadaļā Sākt ar nodokļu aprēķinu, šie nodokļu iestatījumu dati automātiski tiek sinhronizēti no nodokļu aprēķina pakalpojuma uz Finanses.
 
 ## <a name="sales-tax-code"></a>PVN kods
 
 | Nodokļu aprēķināšanas pakalpojums           | Finance                             |
 | --------------------------------- | ----------------------------------- |
 | Nodokļa kods                          | PVN kods                      |
-| Apraksts                       | Nosaukums                                |
+| Apraksts                       | Nosaukums/vārds, uzvārds                                |
 | Lietotāja ievadne                        | Nosegšanas periods                   |
 | Lietotāja ievadne                        | Virsgrāmatas grāmatošanas grupa                |
 | Lietotāja ievadne                        | PVN valūta                  |

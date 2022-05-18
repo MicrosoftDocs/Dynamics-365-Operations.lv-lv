@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 876f5a5f8ebf77a65ba3aa6271a2957b7dc2cb96
-ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
+ms.openlocfilehash: 86e33296fd8631082e47bf6814d8e5e716d9fa1b
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8570483"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691475"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.23. (2022. gada janvāris)
 
@@ -75,7 +75,9 @@ Nesen ir pievienotas vai ievērojami atjauninātas tālāk norādītās palīdz�
 | Noliktavas vadība | [Globālie mobilās ierīces parametri](../warehousing/mobile-device-parameters.md) |
 | Noliktavas vadība | [Noenkurošana](../warehousing/anchoring.md) |
 | Pārdošana un mārketings | Starpuzņēmumu tirdzniecība tagad ir detalizēti aprakstīta, sākot ar [Starpuzņēmumu tirdzniecības iestatīšanu](../sales-marketing/intercompany-trade-set-up.md) un ar to saistītajām tēmām. |
+| Pārdošana un mārketings | [Pārdošanas vēstures tīrīšanas veiktspējas uzlabojumi](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) |
 | Krājumu vadība | Krājumu redzamības dokumentācija ir izvērsta un atjaunināta, sākot ar [Krājumu redzamības pievienojumprogrammas apskatu](../inventory/inventory-visibility.md) un ar to saistītajām tēmām. |
+| Noliktavas vadība | [Mobilās ierīces lietotāju konti](../warehousing/mobile-device-work-users.md) |
 
 ## <a name="additional-resources"></a>Papildu resursi
 

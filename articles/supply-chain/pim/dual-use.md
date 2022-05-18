@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 21910c61cc330e0c9292990b7b1914f56bac844c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 787d0c4ebcf83d6bfec05943f2bb0ddc5961a93a
+ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570757"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8736038"
 ---
 # <a name="dual-use-goods"></a>Divējāda lietojuma preces
 
@@ -34,7 +34,7 @@ Izskatiet tālāk norādīto scenāriju:
 2. Produkta X-100 lapa **Izlaisto preču detalizēta informācija** norāda, ka tā ir divējāda lietojuma prece. Kods, kategorija, grupa un režīms kopā norāda eksporta kontroles klasifikāciju, kurai prece pieder.
 3. Lapā **Divējāda lietojuma sertifikāti** ir ietverts sertifikāts precei X-100, kad tas tiek nosūtīts uz Franciju. Sertifikāta derīguma termiņš beidzas 2020. gada 1. janvārī.
 4. 2020. gada 17. jūnijā jūs izveidojat pārdošanas pasūtījumu klienta uzņēmumam, kas atrodas Francijā, un pasūtījumā ir ietverta prece X-100.
-5. Kad tiek saglabāts pārdošanas pasūtījums, sistēma nosaka šādu informāciju:
+5. Kad jūs apstipriniet pārdošanas pasūtījumu, sistēma nosaka šādu informāciju:
 
     1. Vai pasūtījumā ir iekļautas preces, kas ir divējāda lietojuma preces?
     2. Ja pasūtījumā iekļautas divējāda lietojuma preces, vai galamērķa valsts pieprasa divējāda lietojuma sertifikātus?

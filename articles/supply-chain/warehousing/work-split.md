@@ -1,7 +1,7 @@
 ---
 title: Darba sadale
 description: Šajā tēmā ir sniegta informācija par darba sadales funkcionalitāti. Šī funkcionalitāte ļauj sadalīt lielus darba pasūtījumus vairākos mazākos darba pasūtījumos, kurus pēc tam var piešķirt vairākiem noliktavas darbiniekiem. Tādējādi vienu un to pašu darbu var vienlaikus paņemt vairāki noliktavas darbinieki.
-author: mirzaab
+author: Mirzaab
 ms.date: 10/15/2020
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 8b06164a81a18548cf9d98ea2f577b5783145100
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: b9914958684d552f0b45ddca641238124ade3454
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778261"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8669465"
 ---
 # <a name="work-split"></a>Darba sadale
 
@@ -33,7 +33,7 @@ Darba sadales funkcionalitāte ļauj sadalīt lielus darba ID (proti, darba pas�
 
 Lai varētu izmantot darba sadales funkcionalitātiu, sistēmā ir jāieslēdz līdzeklis un tā priekšnosacījuma līdzeklis. Administratori var izmantot [līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļu statusu un tos ieslēgtu pēc vajadzības.
 
-Vispirms ieslēdziet priekšnosacījuma *Organizācijas mēroga darba aizturēšana* līdzekli, ja tas vēl nav ieslēgts. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.21 šī funkcija ir obligāta, tāpēc tā ir ieslēgta pēc noklusējuma un to nevar atkal izslēgt. Tomēr šis līdzeklis joprojām ir [uzskaitīts Līdzekļu](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pārvaldībā šādā veidā:
+Vispirms ieslēdziet priekšnosacījuma *Organizācijas mēroga darba aizturēšana* līdzekli, ja tas vēl nav ieslēgts. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.21 šī funkcija ir obligāta, tāpēc tā ir ieslēgta pēc noklusējuma un to nevar atkal izslēgt. Tomēr šis līdzeklis joprojām ir uzskaitīts [Līdzekļu](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pārvaldībā šādā veidā:
 
 - **Modulis:** *Noliktavas pārvaldība*
 - **Līdzekļa nosaukums:** *Organizācijas līmeņa darba aizturēšana*

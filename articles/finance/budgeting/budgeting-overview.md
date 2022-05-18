@@ -1,6 +1,6 @@
 ---
 title: Budžeta veidošanas sākumlapa
-description: Šajā tēmā ir sniegts apskats par budžeta veidošanas funkcionalitātes sastāvdaļām, budžeta veidošanas rīkiem, kā arī atskaišu veidošanas iespējām programmā Microsoft Dynamics 365 Finance.
+description: Šajā tēmā sniegts pārskats par budžeta veidošanas funkcionalitātes komponentiem, budžeta veidošanas rīkiem un ziņošanas iespējām Microsoft Dynamics 365 Finansēs.
 author: panolte
 ms.date: 04/29/2021
 ms.topic: overview
@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetPlanningWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "106043"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ad0d055702a3801bf9fe9ac3159eba7c297b6f0
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1e5ef283991cb7ccb990d7d687ab3964040d03ba
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983956"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8712570"
 ---
 # <a name="budgeting-home-page"></a>Budžeta veidošanas sākumlapa
 

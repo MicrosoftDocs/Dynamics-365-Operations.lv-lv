@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 02f0b0664dcb78d20c2719b4377dcc6047f2bf3392225f1cf9c166a1073ecd59
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: be50596cd64839ba82b847b2fabb0f46dc749a3f
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772620"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686860"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-january-21-2021"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources 2021. gada 21. janvāris
 
@@ -43,7 +42,7 @@ Zemāk minētie līdzekļi parasti ir pieejami ar šo laidienu.
 
 | Funkcija | Nodošanas izpildei plāns | Dokumentācija |
 | --- | --- | --- |
-| Platformas atjauninājums 10.0.16(40) | -- | [Platformas atjauninājumi programmu Finance and Operations versijai 10.0.16 (2021. gada februāris)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md) |
+| Platformas atjauninājums 10.0.16(40) | -- | [Platformas atjauninājumi Finanšu un operāciju programmu versijai 10.0.16 (2021. gada februāris)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md) |
 | Uzlaboti darbplūsmas pieprasījumi un apstiprinājumi | [Organizācijas un personāla vadības darbplūsmas pieredzes uzlabojumi](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Konfigurācijas opcija, lai novietotu sarakstu Man piešķirtie darba elementi](./hr-whats-new-2020-09-03.md#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
 | Pieejamās aprūpes akta (ACA) saskaņotības atjauninājumi formai 1095-C, formai 1095-B un elektroniskie pārskati mantojuma atvieglojumos | -- | -- | 
 | Atvieglojumu pārvaldība tagad atbalsta ACA saskaņotības pārskatus ASV juridiskajām personām | -- | [Ģenerēt ACA pārskatus Atvieglojumu pārvaldībā](hr-benefits-management-aca-reports.md) |

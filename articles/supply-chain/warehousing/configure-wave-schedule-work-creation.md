@@ -1,7 +1,7 @@
 ---
 title: Plānot darba izveidi kopuma laikā
 description: Šajā tēmā ir aprakstīts, kā iestatīt un izmantot grafika darba izveides kopuma apstrādes metodi.
-author: perlynne
+author: Mirzaab
 ms.date: 01/14/2021
 ms.topic: article
 ms.prod: ''
@@ -9,17 +9,16 @@ ms.technology: ''
 ms.search.form: WHSPostMethod, WHSWavePostMethodTaskConfig, WHSWaveTemplateTable, WHSParameters, WHSWaveTableListPage, WHSWorkTableListPage, WHSWorkTable, BatchJobEnhanced, WHSPlannedWorkOrder
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5b1e798ac0558e7c5b0bbe4b6a732cbdcf5729a1
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: c955e7275c0bdc12dc206dde1d7e390f16270148
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920117"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691136"
 ---
 # <a name="schedule-work-creation-during-wave"></a>Plānot darba izveidi kopuma laikā
 
@@ -54,7 +53,7 @@ Esošās uzdevumu un kopuma apstrādes konfigurācijas tiks paturētas arī vis�
 Ja nepieciešams, varat manuāli atgriezt jebkurus vai visus iestatījumus, kas tika veikti automātiski, kad iespējojāt *Organizācijas grafika darba izveides kopuma metodes* līdzekli, tālāk rīkojoties šādi:
 
 - Kopumu veidnes atradīsiet, dodoties uz **Noliktavas pārvaldība \> Iestatījumi \> Kopumi \> Kopuma veidnes**. Aizstāt *Darba plānošanas izveides* metodi ar *Izveidot darbu*.
-- Noliktavas parametriem atveriet noliktavas pārvaldības **iestatījuma \> noliktavas pārvaldības \> parametrus**. Cilnē **Kopuma apstrāde** lietojiet vēlamās vērtības **Kopuma apstrādei partijā** un **Gaidīt bloķēšanu (ms)**.
+- Noliktavas parametriem atveriet noliktavas pārvaldības **iestatījuma \> noliktavas \> pārvaldības parametrus**. Cilnē **Kopuma apstrāde** lietojiet vēlamās vērtības **Kopuma apstrādei partijā** un **Gaidīt bloķēšanu (ms)**.
 - Kopumu metodes atradīsiet, dodoties uz **Noliktavas pārvaldība \> Iestatījumi \> Kopumi \> Kopuma procesa metodes**. Atlasiet `WHSScheduleWorkCreationWaveStepMethod` un darbību rūtī atlasiet **Uzdevuma konfigurācija**. Ja nepieciešams, modificējiet vai dzēsiet pakešuzdevumu skaitu un katrai uzskaitītai noliktavai piešķirto kopuma grupu.
 
 ## <a name="manually-configure-scheduled-work-creation"></a>Manuāli konfigurēt ieplānota darba izveidi
@@ -74,7 +73,7 @@ Lai izmantotu paralēlās asinhronās metodes priekšrocības noliktavas darba i
 Sākt, izveidojot jaunu kopuma darbības metodi un iespējojot to paralēlā asinhronā uzdevuma apstrādē.
 
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatīšana \> Kopumi \> Kopuma procesa metodes**.
-1. Atlasiet reģenerēšanas metodi un ievērojiet, ka **·** *WHSScheduleWorkCreationWaveStepMethod ir pievienots kopuma apstrādes metožu sarakstam, ko varat izmantot nosūtīšanas* kopuma veidnēs.
+1. Atlasiet **reģenerēšanas** *metodi un ievērojiet, ka WHSScheduleWorkCreationWaveStepMethod* ir pievienots kopuma apstrādes metožu sarakstam, ko varat izmantot nosūtīšanas kopuma veidnēs.
 1. Atlasiet ierakstu ar **Metodes nosaukumu** *WHSScheduleWorkCreationWaveStepMethod* un atlasiet **Uzdevuma konfigurāciju**.
 1. Darbību rūtī atlasiet **Jauns**, lai pievienotu rindu režģim, un pēc tam atlasiet šos iestatījumus:
 

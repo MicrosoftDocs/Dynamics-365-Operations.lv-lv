@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: KMCollection, KMCollectionQuestion, KMCollectionQuestionTree, HcmLearningWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f28f75a902121f23c92a919b539517dbdb191447
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b2f7d55b577478f3156a8299fc2f827ab3bb60f1
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066729"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686087"
 ---
 # <a name="make-a-question-dependent-on-the-answer-of-the-previous-question"></a>Jautājuma izveide, kas atkarīgs no iepriekšējā jautājuma atbildes
 
@@ -48,12 +47,12 @@ Nosacījuma jautājumi ļauj norādīt, kurš turpinājuma jautājums tiks attē
 ## <a name="set-the-questionnaire-sequence-to-conditional-and-make-the-question-dependent-on-the-appropriate-question"></a>Iestatiet anketas secību par nosacītu un norādiet, ka jautājums ir atkarīgs no atbilstoša jautājuma
 1. Noklikšķiniet uz **Rediģēt**.
 2. Izvērsiet sadaļu **Iestatīšana**.
-3. Laukā **Jautājumu pasūtījums** atlasiet "Nosacīts".
-4. Noklikšķiniet uz **Nosacījuma** jautājums.
+3. Laukā **Jautājumu pasūtījums** atlasiet "Nosacījums".
+4. Noklikšķiniet **uz Nosacījuma** jautājums.
 5. Koka struktūrā atlasiet "Jautājumi\Paskaidrojiet, kāpēc sniedzāt šādu atbildi uz iepriekšējo jautājumu?".
-6. Laukā Primārais **jautājums** atlasiet jautājumu 00009.
+6. Laukā **Primārais** jautājums atlasiet jautājumu 00009.
 7. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-8. Laukā **Atbilde** ievadiet atbildes opcijas atbilžu secības ID, no kuras vēlaties padarīt jautājumu atkarīgu. Piemēram, ievadiet 1, lai norādītu uz pirmo atbildes opciju.
+8. Laukā **Atbilde** ievadiet atbildes sērijas ID atbildes opcijai, no kuras vēlaties padarīt jautājumu atkarīgu. Piemēram, ievadiet 1, lai norādītu uz pirmo atbildes opciju.
 9. Noklikšķiniet uz **Saglabāt**.
 10. Koka struktūrā atlasiet "Jautājumi\Par padarīto darbu saņemu pienācīgu atalgojumu."
     * Ievērojiet, ka jautājumu koks tika atjaunināts, lai attēlotu sakarību.  

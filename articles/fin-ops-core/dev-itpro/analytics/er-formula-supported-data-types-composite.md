@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf7178888e39a5f26ae92e77df9c996374b76bf3
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 933c8211276c1335a6a81bf4a8cb1c3f270762d4
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323669"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689247"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>Elektronisko pārskatu veidotāja atbalstītie saliktie datu tipi
 
@@ -81,7 +81,7 @@ Datu tips *record list* ir saraksts ar krājumiem datu tipā *record*. Parasti *
 
 Pēc noklusējuma ierakstiem no *record list* var piekļūt secīgi. Lai piekļūtu konkrētam ierakstam, varat izmantot funkciju [INDEX](er-functions-list-index.md) un norādīt datu tipa *integer* indeksu.
 
-Noklusējuma vērtība datu tipam *record list* ir **empty**. Varat izmantot [ISEMPTY](/er-functions-list-isempty.md) funkciju, lai novērtētu, vai *record list* ir tukšs.
+Noklusējuma vērtība datu tipam *record list* ir **empty**. Varat izmantot [ISEMPTY](er-functions-list-isempty.md) funkciju, lai novērtētu, vai *record list* ir tukšs.
 
 > [!NOTE]
 > Ja *record list* ir tukšs, visi mēģinājumi iegūt lauka vērtību no datu tipa *record* izraisa izņēmumu izpildlaikā. Lai uzzinātu, kā palīdzēt novērst šī tipa izpildlaika izņēmumus, skatiet sadaļu [Tukšu sarakstu gadījumu apsvēršana](er-components-inspections.md#i9).

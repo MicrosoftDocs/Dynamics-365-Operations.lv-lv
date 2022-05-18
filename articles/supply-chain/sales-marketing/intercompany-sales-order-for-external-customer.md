@@ -1,22 +1,22 @@
 ---
 title: Starpuzņēmumu pārdošanas pasūtījumu ārējam debitoram izveide un rēķina izrakstīšana
 description: Šajā tēmā skaidrots, kā izveidot starpuzņēmumu pārdošanas pasūtījumu un izrakstīt rēķinu ārējam debitoram
-author: GalynaFedorova
+author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: v-gfedorova
+ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: b5f7342a997407c8701b836c2a6a6222d8512121
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: c8a22ded1a6242e4062e1ce9e0ce624d4579fba9
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074998"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8669395"
 ---
 # <a name="create-and-invoice-an-intercompany-sales-order-for-an-external-customer"></a>Starpuzņēmumu pārdošanas pasūtījumu ārējam debitoram izveide un rēķina izrakstīšana
 
@@ -77,16 +77,16 @@ Izpildiet šīs darbības juridiskajā personā B. Šī procedūra atbilst 2. lo
 Debitora rēķins starpuzņēmumu pārdošanas pasūtījumam tiek automātiski iegrāmatots juridiskajai personai B. Pēc tam, starpuzņēmumu kreditora rēķins tiek automātiski izveidots un iegrāmatots juridiskajā personā B. Ja sākotnējais pārdošanas pasūtījums ir iestatīts kā tiešā piegāde, debitora rēķins tiek izveidots sākotnējam pārdošanas pasūtījumam juridiskajā personā A.
 
 > [!NOTE]
-> Iepriekš starpuzņēmumu pārdošanas scenārijos, ja piegādātāja rēķina darbplūsma bija konfigurēta starpuzņēmumu pirkšanas uzņēmumā, starpuzņēmumu pārdošanas pasūtījumu nevarēja sekmīgi izrakstīt. Tāpēc starpuzņēmumu iepirkumu uzņēmumam bija jāizslēdz pārdevēja rēķinu darbplūsma. 
+> Iepriekš starpuzņēmumu pārdošanas scenārijiem, ja kreditora rēķina darbplūsma ir konfigurēta starpuzņēmumu pirkšanas uzņēmumā, starpuzņēmumu pārdošanas pasūtījumam nevarēja sekmīgi izrakstīt rēķinu. Tāpēc starpuzņēmumu pirkšanas uzņēmumam bija jābūt izslēgtai kreditora rēķina darbplūsmai. 
 > 
-> Šis ierobežojums ir novērsts, izmantojot neseno līdzekli 10.0.25. Par starpuzņēmumu pārdošanas pasūtījumiem tagad var izrakstīt rēķinus, kad starpuzņēmumu pirkšanas uzņēmumā ir konfigurēta piegādātāja rēķinu darbplūsma.
+> Šis ierobežojums ir fiksēts ar neseno funkciju versijā 10.0.25. Starpuzņēmumu pārdošanas pasūtījumus tagad var iekļaut rēķinā, kad kreditora rēķina darbplūsma ir konfigurēta starpuzņēmumu pirkšanas uzņēmumā.
 > 
-> Lai iespējotu šo funkciju, veiciet šīs darbības.
+> Lai iespējotu šo līdzekli, sekojiet šiem soļiem.
 >
-> 1. Izvēlieties starpuzņēmumu pārdošanas juridisko personu.  
+> 1. Atlasiet starpuzņēmumu pārdošanas juridisko personu.  
 > 2. Dodieties uz **Debitoru parādi \> Debitori \> Visi debitori**.
-> 3. Izvēlieties klientu starpuzņēmumu iepirkumu uzņēmumam.
-> 4. Iet uz **Ģenerālis \> Uzstādīt \> Starpuzņēmums**.
-> 5. Uz **Pirkuma pasūtījumu politikas** cilnē atlasiet **Apiet piegādātāja rēķinu darbplūsmu starpuzņēmumu piegādātāju rēķiniem** parametrs.
+> 3. Atlasiet starpuzņēmumu pirkšanas uzņēmuma debitoru.
+> 4. Doties uz **sadaļu \> Vispārīgi iestatīt \> starpuzņēmumu**.
+> 5. Cilnē Pirkšanas **pasūtījuma politikas** atlasiet starpuzņēmumu **kreditoru rēķinu parametra apiet kreditora rēķina darbplūsmu**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

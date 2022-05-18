@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschloma
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c171ab99a434e529c48f39be9147ac411fb08b9b
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 4d96f50db4379a44ad8f2b06725db654a27393f9
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753902"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734808"
 ---
 # <a name="credit-limit-adjustments"></a>Kredītlimita korekcijas 
 
@@ -27,7 +27,7 @@ Kredīta limita korekcijas ļauj kredīta pārvaldniekiem atjaunināt viena debi
 
 ## <a name="set-up-credit-limit-adjustments"></a>Kredīta limita korekciju iestatīšana
 
-Jūs varat izveidot ierakstus kredīta limita korekciju žurnālā lapā **Kredīta limita korekcija** (**Kredīta pārvaldība \> Kredīta limita korekcijas \> Kredīta limita korekcijas**).
+Var izveidot ierakstus kredīta limita **korekcijas žurnālā** kredīta limita **korekcijas** lapā (**Kredīta pārvaldības kredīta limita \> korekcijas \> kredīta limita korekcijas**).
 
 1. Atlasiet **Jauns**. Tiek izveidota jauna ierakstu grupa, kurai ir kredīta limita korekcijas numurs.
 2. Atlasiet kredīta limita korekcijas veidu.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bcc69cbf418131d0b1747f1c904de3188d7ba84216cb3145607b45553263244c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d81d20045c7b06de01a023d1a34ee653dd696ff1
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757223"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711325"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Jaunumi un izmaiņas programmā Dynamics AX 7.0 (2016. gada februāris)
 
@@ -969,7 +969,7 @@ Pastāv uzlabota "zema pieskāriena" klienta komponenta instalācija, izmantojot
 </tr>
 <tr>
 <td>Pārraugiet sistēmas darbspēju un atrodiet kļūdas un problēmas.</td>
-<td>Šai funkcionalitātei ir nepieciešama pakotne <a href="https://www.microsoft.com/download/details.aspx?id=42636">System Center 2012 Management Pack for Microsoft Dynamics AX 2012 R3 CU8 Retail</a>.</td>
+<td>Šai funkcionalitātei ir nepieciešama pakotne <a href="https://www.microsoft.com/en-us/download/details.aspx?id=58205">System Center 2012 Management Pack for Microsoft Dynamics AX 2012 R3 CU8 Retail</a>.</td>
 <td>Pārraudzība un diagnostika mazumtirdzniecības komponentiem tagad ir pieejama, izmantojot LCS informācijas paneli <strong>Darbības ieskati</strong>.</td>
 <td>Informācijas panelis <strong>Darbības ieskati</strong> ir mākoņa pārraudzības portāls, kas aizstāj nepieciešamību instalēt System Center Operations Manager (SCOM) infrastruktūru.</td>
 </tr>
@@ -1028,7 +1028,7 @@ Nav pievienoti jauni līdzekļi.
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Jaunumi un izmaiņas Finance and Operations sākumlapā](whats-new-changed.md)
+[Mājas lapa “Jaunumi un izmaiņas programmā Finance and Operations“](whats-new-changed.md)
 
 [Jauni uzdevumu ceļveži (2016. gada februāris)](new-task-guides-available-february-2016.md)
 

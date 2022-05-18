@@ -1,22 +1,22 @@
 ---
 title: Mēroga vienības izdalītā hibrīda topoloģijā
 description: Šajā tēmā ir sniegta informācija par mākoņa un malas mēroga vienībām ražošanas un noliktavas pārvaldības darba slodzēm.
-author: cabeln
+author: Mirzaab
 ms.date: 04/22/2021
 ms.topic: article
 ms.search.form: ScaleUnitWorkloadsWorkspace
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: cabeln
+ms.author: mirzaab
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 30f455f37b5161878cf9c864b92966aa74da051f
-ms.sourcegitcommit: b52ff5dfd32580121f74a5f262e5c2495e39d578
+ms.openlocfilehash: 5ec846b294cd9ca62ff15a5306e012813c77e306
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "8376186"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8676356"
 ---
 # <a name="scale-units-in-a-distributed-hybrid-topology"></a>Mēroga vienības izdalītā hibrīda topoloģijā
 
@@ -40,7 +40,7 @@ Darba slodzes iespējas tiek pastāvīgi izlaistas, izmantojot inkrementālos uz
 
 ## <a name="scale-units-and-dedicated-workloads"></a>Mēroga vienības un specializētās darba slodzes
 
-Mēroga vienības paplašina centrālo Supply Chain Management centrmezgla vidi, pievienojot īpašu apstrādes noslodzi. Mēroga vienības var palaist mākonī. Alternatīvi, viņi var darboties uz [malas](cloud-edge-edge-scale-units-lbd.md), uz vietas jūsu vietējā objektā.
+Mēroga vienības paplašina centrālo Supply Chain Management centrmezgla vidi, pievienojot īpašu apstrādes noslodzi. Mēroga vienības var palaist mākonī. Alternatīvi viņi var darboties uz [malas](cloud-edge-edge-scale-units-lbd.md), lokāli jūsu lokālajā telpā.
 
 :::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Dynamics 365 ar mēroga vienībām.":::
 
@@ -52,7 +52,7 @@ Varat konfigurēt centrmezgla vidi un mākoņveida skalas vienības atlasītajā
 
 ### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Īpašas noliktavas vadības darba slodzes iespējas mēroga vienībās
 
-Noliktavas pārvaldības darba slodze ļauj noliktavas operācijām mērogot un darboties noturīgā vidē, izmantojot izolētus uzturēšanas logus. Noliktavas pārvaldības darba slodze atbalsta lielāko daļu uzņēmuma centrmezgla noliktavas pārvaldības procesu. Plašāku informāciju skatiet rakstā [Mākoņa un malas mēroga vienības ražošanas izpilde](cloud-edge-workload-warehousing.md).
+Noliktavas pārvaldības darba noslodze ļauj noliktavas operācijām veikt mērogu un darbību elastīgā vidē, izmantojot izolētus uzturēšanas logus. Noliktavas pārvaldības darba noslodze atbalsta lielāko daļu uzņēmuma pārkraušanas centra noliktavas pārvaldības procesu. Plašāku informāciju skatiet rakstā [Mākoņa un malas mēroga vienības ražošanas izpilde](cloud-edge-workload-warehousing.md).
 
 ### <a name="dedicated-manufacturing-execution-workload-capabilities-in-a-scale-unit"></a>Īpašas ražošanas izpildes darba slodzes iespējas mēroga vienībās
 
@@ -65,9 +65,9 @@ Ražošanas darba slodze nodrošina šādas iespējas:
 
 Plašāku informāciju skatiet rakstā [Mākoņa un malas mēroga vienības ražošanas izpilde](cloud-edge-workload-manufacturing.md).
 
-## <a name="considerations-before-you-enable-the-distributed-hybrid-topology-for-supply-chain-management"></a>Apsvērumi pirms dalītās hibrīdās topoloģijas iespējošanas piegādes ķēdes pārvaldībai
+## <a name="considerations-before-you-enable-the-distributed-hybrid-topology-for-supply-chain-management"></a>Apsvērumi, pirms iespējojat sadalīto topoloģiju piegādes ķēžu pārvaldībai
 
-Iespējojot dalīto hibrīdo topoloģiju, jūs pārslēdzat savu piegādes ķēdes pārvaldības mākoņa vidi, lai tā darbotos kā centrmezgls. Varat arī saistīt papildu vides, kas mākonī vai malā ir konfigurētas kā mēroga vienības.
+Iespējojot izplatīto topoloģiju, jūs pāriet uz piegādes ķēdes pārvaldības mākoņa vidi, lai tā darbojas kā pārkraušanas mezgls. Varat arī saistīt papildu vides, kas mākonī vai malā ir konfigurētas kā mēroga vienības.
 
 ### <a name="prerequisites-and-limitations-for-cloud-scale-units"></a><a name="cloud-scale-unit-prerequisites"></a>Mākoņskalas mērvienību priekšnosacījumi un ierobežojumi
 
@@ -116,7 +116,7 @@ Rādītāji un mērvienības, kas var palīdzēt atlasīt labāko programmu mēr
 
 ### <a name="data-processing-during-management-of-scale-units"></a><a name="data-processing-management"></a>Datu apstrāde mēroga vienību pārvaldības laikā
 
-Iespējojot Dynamics 365 vidi, lai atbalstītu izkliedēto hibrīdo topoloģiju mākoņa un malu skalas vienībām, daži pārvaldības pakalpojumi tiks viesoti tikai Amerikas Savienotajās Valstīs, tāpat kā LKS. Šī darbība ietekmē atsevišķas administratīvās un konfigurācijas informācijas pārsūtīšanu un uzglabāšanu, ko izmanto [Mēroga vienību pārvaldnieka portāls](https://sum.dynamics.com). Daži piemēri:
+Iespējojot Dynamics 365 vidi, lai atbalstītu dalīto topoloģiju mākoņa un malas skalas vienībām, daži pārvaldības pakalpojumi tiks viesoti tikai Amerikas Savienotajās Valstīs līdzīgi kā LCS. Šī darbība ietekmē atsevišķas administratīvās un konfigurācijas informācijas pārsūtīšanu un uzglabāšanu, ko izmanto [Mēroga vienību pārvaldnieka portāls](https://sum.dynamics.com). Daži piemēri:
 
 - Jūsu nomnieka nosaukumi un ID
 - Jūsu LCS projekta ID
@@ -127,25 +127,25 @@ Iespējojot Dynamics 365 vidi, lai atbalstītu izkliedēto hibrīdo topoloģiju 
 
 Dati, kas tiek pārsūtīti un glabāti ASV datu centros, tiks dzēsti saskaņā ar Microsoft datu glabāšanas politikām. Jūsu konfidencialitāte ir svarīga korporācijai Microsoft. Lai uzzinātu vairāk, izlasiet mūsu [Paziņojumu par konfidencialitāti](https://go.microsoft.com/fwlink/?LinkId=521839).
 
-## <a name="onboard-to-the-distributed-hybrid-topology-for-supply-chain-management"></a>Uz kuģa uz izplatīto hibrīda topoloģiju piegādes ķēdes pārvaldībai
+## <a name="onboard-to-the-distributed-hybrid-topology-for-supply-chain-management"></a>Piegādes ķēžu pārvaldības sadalītā topoloģija
 
-### <a name="try-out-the-distributed-hybrid-topology"></a>Izmēģiniet izplatīto hibrīda topoloģiju
+### <a name="try-out-the-distributed-hybrid-topology"></a>Mēģiniet veikt izplatīto topoloģiju
 
-Izplatītās hibrīda topoloģijas borta procesam ir divi posmi. Pirmajā posmā jums vajadzētu [izmēģināt](cloud-edge-try-out.md) risinājumu un validēt pielāgojumus, lai pārliecinātos, ka tie darbojas izkliedētā topoloģijā, kas ietver mēroga vienības. (Validācijas veikšanai varat izmantot esošās izstrādes vides.) Pēc tam varat turpināt līdz otrajam posmam, kurā iegūstat ražošanas vidi.
+Notiek process, kad notiek izvietošana sadalītajā topoloģijā, ir divi posmi. Pirmā posma laikā jums ir pamēģiniet [risinājumu](cloud-edge-try-out.md) un validējiet pielāgojumus, lai pārliecinātos, ka tie darbojas sadalītā topoloģijā, kas ietver apjoma vienības. (Lai validāciju izdarītu, varat lietot esošās izstrādes vides.) Pēc tam varat turpināt ar otro pakāpi, kur iegūstat ražošanas vides.
 
 ## <a name="select-your-lcs-project-tenant-and-the-detailed-onboarding-process"></a>Atlasiet savu LCS projekta nomnieku un detalizētu pievienošanas procesu
 
 Mēroga vienības tiek piedāvātas vairākās noliktavas vienībās (NV) un cenu noteikšanas opcijās. Tāpēc varat izvēlēties opciju, kas vislabāk atbilst jūsu plānotā mēneša transakciju apjomam un veiktspējas prasībām.
 
 > [!TIP]
-> Lai noteiktu izmērus, kas vislabāk atbilst jūsu vajadzībām, sadarbojieties ar savu ieviešanas partneri un Microsoft, lai izprastu nepieciešamo ikmēneša darījumu apjomu.
+> Lai identificētu izmērus, kas vislabāk atbilst jūsu vajadzībām, sazinieties ar ieviešanas partneri un Microsoft, lai saprastu ikmēneša darbības lielumu, kas nepieciešams.
 
 Ievades līmeņa SKU ir pazīstama kā *Pamata* un vēl spēcīgāka SKU ir pazīstama kā *Standarta*. Katra SKU ir iepriekš ielādēta ar noteiktu mēneša transakciju skaitu. Tomēr ikmēneša transakciju budžetu var palielināt, katram SKU pievienojot pārsnieguma pievienojumprogrammas.
 
 :::image type="content" source="media/SKUs-highlevel.png" alt-text="Pievienojumprogrammas mākoņa mēroga vienībām.":::
 
 > [!NOTE]
-> Mēroga vienību pievienojumprogrammas nav saistītas ar ierobežotu lietotāju skaitu. Tie ir pieejami jebkuram lietotājam jūsu esošajā abonementā (ar nosacījumu, ka administrators viņam ir piešķīris nepieciešamās lietotāja lomas).
+> Mēroga vienību pievienojumprogrammas nav savienotas ar ierobežotu lietotāju skaitu. Tie ir pieejami jebkuriem lietotājiem jūsu esošajā abonementā (ja jūsu administrators ir piešķīris lietotājiem nepieciešamās lomas).
 
 Katras mēroga vienības pievienojumprogrammas pirkšana ne tikai dod mēneša transakciju apjomu, bet arī sniedz jums īpašu vides slotu skaitu LCS. Katrai mākoņa skalas vienības pievienojumprogrammai ir tiesības izmantot vienu jaunu ražošanas slotu un vienu jaunu smilškastes slotu. Pievienošanas procesa laikā tiks pievienots jauns LCS projekts, kam ir šie sloti. Slotu lietošanas tiesības ir piesaistītas tā, lai sloti tiktu izmantoti kā mēroga vienības, kam ir mākoņa centrmezgls.
 
@@ -154,7 +154,7 @@ Pārtēriņa pievienojumprogrammas nedod jums tiesības izmantot jaunas vides sl
 Ja vēlaties iegūt vairāk smilškastes vides, varat iegādāties papildu parastos smilškastes slotus. Pēc tam korporācija Microsoft var palīdzēt iespējot šos slotus kā smilškastes skalas vienības hibrīdu topoloģijai.
 
 
-Pēc tam, kad esat pabeidzis plānot, kā jūs nonāksiet uz izplatītās hibrīda topoloģijas piegādes ķēdes pārvaldībai, jūs izmantosiet [mēroga vienības pārvaldnieka portālu](https://aka.ms/SCMSUM), lai sāktu iekāpšanas procesu. Portālā atlasiet cilni **Dynamics 365 nomnieki**. Šī cilne parāda to nomnieku sarakstu, kuros ir iekļauts jūsu konts un kuros esat LCS projekta īpašnieks vai vides administrators.
+Kad esat beidzis plānošanu, kā dosties uz sadalīto topoloģiju piegādes ķēžu pārvaldībai, jūs izmantosiet Mēroga vienības pārvaldnieka portālu, [lai](https://aka.ms/SCMSUM) sāktu pārdošanas procesu. Portālā atlasiet cilni **Dynamics 365 nomnieki**. Šī cilne parāda to nomnieku sarakstu, kuros ir iekļauts jūsu konts un kuros esat LCS projekta īpašnieks vai vides administrators.
 
 Ja jūsu meklētais nomnieks nav sarakstā, dodieties uz [LCS](https://lcs.dynamics.com/v2) un pārliecinieties, ka jūs esat vai nu vides administrators, vai arī LCS projekta īpašnieks šim nomniekam. Tikai Azure Active Directory (Azure AD) atlasītā nomnieka konts ir autorizēts pabeigt reģistrēšanu.
 
@@ -173,46 +173,46 @@ Korporācija Microsoft pārskatīs jūsu pieprasījumu un sniegs informāciju pa
 
 Kad pievienošana ir pabeigta, varat izmantot portu, lai konfigurētu mēroga vienības un darba slodzes.
 
-### <a name="manage-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a> Pārvaldīt mēroga vienības un darba slodzi, izmantojot Mēroga vienības pārvaldnieka portālu
+### <a name="manage-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a> Pārvaldīt mēroga vienības un darba slodzi, izmantojot portālu Mērvienību vadītājs
 
 Dodieties uz [portālu Skale Unit Manager](https://aka.ms/SCMSUM) un piesakieties, izmantojot savu nomnieka kontu. Lapā **Konfigurēt mēroga vienības** varat pievienot centrmezgla vidi, ja tā jau nav norādīta sarakstā. Pēc tam varat atlasīt centrmezglu, ko vēlaties konfigurēt ar mēroga vienībām un darba slodzēm.
 
-:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Mēroga vienību pārvaldnieka portāls, Konfigurēt mēroga vienības lapu.":::
+:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Mēroga vienību pārvaldnieka portāls, Konfigurējiet mēroga vienību lapu.":::
 
 Lai pievienotu vienu vai vairākas mēroga vienības, kas ir pieejamas jūsu abonementos, atlasiet **Pievienot mēroga vienības**.
 
 Lai pievienotu noliktavas pārvaldības darba slodzi kādai no jūsu mēroga vienībām, cilnē **Definētās darba slodzes** izmantojiet pogu **Izveidot darba slodzi**. Katrai darba slodzei jānorāda to procesu konteksts, kas piederēs šai darba slodzei. Noliktavas pārvaldības darba slodzei konteksts ir noteikta noliktava noteiktā vietā un juridiskajā personā.
 
-:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Definējiet darba slodžu dialogu.":::
+:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Definējiet darba noslodzes dialogu.":::
 
 #### <a name="manage-workloads"></a><a name="manage-workloads"></a> Pārvaldīt darba slodzi
 
-Ja ir iespējota viena vai vairākas darba slodzes, izmantojiet **opciju Pārvaldīt darba slodzi, lai iniciētu un pārvaldītu procesus, piemēram, tos**, kas norādīti nākamajā tabulā.
+Kad ir iespējota viena vai vairākas darba noslodzes, izmantojiet opciju Pārvaldīt darba slodzi, **lai sāktu un pārvaldītu procesus, piemēram, tos**, kas ir uzskaitīti šajā tabulā.
 
 | Apstrādāšana | Apraksts |
 |---|---|
-| Pauzēt skalas vienības komunikāciju | Pauzēt konveijera ziņojumus starp centrmezglu un skalas vienību. Šis process apturēs sakarus un iztukšos datu cauruļvadu starp rumbu un mēroga vienībām. Šis process ir jāpalaiž pirms piegādes ķēdes pārvaldības apkopes operācijas palaišanas centrmezglā vai skalas blokā, bet to var izmantot arī citās situācijās. |
-| Atsākt mēroga vienības saziņu | Atsākt konveijera ziņojumus starp centrmezglu un mēroga vienību. Iespējams, šis process būs jāizmanto, piemēram, pēc piegādes ķēdes pārvaldības apkalpošanas operācijas palaišanas centrmezglā vai skalas blokā. |
-| Jaunināt darba slodzi | Sinhronizējiet jaunu funkcionalitāti starp centrmezgla un mēroga vienību darba slodzi. Iespējams, šis process ir jāizmanto, piemēram, ja apkalpošana ir izraisījusi datu apmaiņas vaicājumu maiņu un/vai darba slodzei ir pievienojusi jaunas tabulas vai laukus. |
-| Darba slodžu pārsūtīšana uz skalas vienību | Ieplānojiet darba slodzi, kas pašlaik darbojas centrmezglā, lai to pārvietotu uz mēroga vienību. Kad šis process tiks palaists, datu sinhronizācija plūdīs, un gan centrmezgls, gan mēroga vienība tiks iestatīti, lai mainītu īpašumtiesības uz darba slodzi. |
-| Pārsūtīt mēroga vienību uz centrmezglu | Ieplānojiet darba slodzi, kas pašlaik darbojas mēroga vienībā, lai to pārvietotu uz centrmezglu. Kad šis process tiks palaists, datu sinhronizācija plūdīs, un gan centrmezgls, gan mēroga vienība tiks iestatīti, lai mainītu īpašumtiesības uz darba slodzi.
-| Ārkārtas pāreja uz centrmezglu | <p>Nekavējoties pārsūtiet esošo darba slodzi uz centrmezglu. *Šis process mainīs īpašumtiesības tikai uz datiem, kas pašlaik ir pieejami centrmezglā.*</p><p><strong>Brīdinājums:</strong> šis process var izraisīt datu zudumu nesinhronizētiem datiem un biznesa apstrādes kļūmes. Tāpēc tas būtu jāizmanto tikai ārkārtas situācijās, kad biznesa procesi ir jāapstrādā centrmezglā, jo skalas vienībai ir pārtraukums, ko nevar mazināt saprātīgā laikā.</p> |
-| Izkliedētās topoloģijas pārtraukšana | Noņemiet mēroga vienības izvietošanu un palaidiet to tikai centrmezglā bez darba slodzes apstrādes. |
+| Pauzēt mēroga vienības sakarus | Pauzēt konveijera ziņojumus starp pārkraušanas vietu un mēroga vienību. Šis process apturēs sakarus un pāries datu konveijeru starp pārkraušanas punktu un mēroga vienībām. Šis process ir jāpalaiž pirms piegādes ķēdes pārvaldības apkalpošanas operācijas palaišanas pārkraušanas centrā vai mēroga vienībā, bet jūs to varat izmantot arī citās situācijās. |
+| CV apjoma vienības sakarus | Atsākt konveijera ziņojumus starp pārkraušanas vietu un mēroga vienību. Iespējams, ka jums būs jāizmanto šis process, piemēram, pēc piegādes ķēžu apkalpošanas operācijas palaišanas pārkraušanas centrā vai mēroga vienībā. |
+| Jaunināt darba noslodzes | Sinhronizēt jaunu funkcionalitāti starp pārkraušanas centra un mēroga vienības darba slodzēm. Iespējams, ka jums būs jāizmanto šis process, piemēram, kad apkalpošana ir radījusi datu apmaiņas vaicājumu maiņu un/vai ir pievienojusi jaunas tabulas vai laukus darba noslodzei. |
+| Pārsūtīt darba slodzi uz apjoma vienību | Plānojiet darba noslodzi, kas pašreiz darbojas pārkraušanas punktu, kas jāpārvieto uz mēroga vienību. Kad šis process ir palaists, datu sinhronizācija notiks, un gan pārkraušanas punktu, gan mēroga vienību tiks iestatīta mainīt darba noslodzes īpašumtiesības. |
+| Pārsūtīt mēroga vienību uz pārkraušanas centru | Plānojiet darba noslodzi, kas pašreiz darbojas mēroga vienībā, lai to pārceltu uz pārkraušanas punktu. Kad šis process ir palaists, datu sinhronizācija notiks, un gan pārkraušanas punktu, gan mēroga vienību tiks iestatīta mainīt darba noslodzes īpašumtiesības.
+| Ārkārtas pāreja uz pārkraušanas mezglu | <p>Nekavējoties pārsūtiet esošo darba noslodzi uz pārkraušanas centru. *Šis process mainīs īpašumtiesības tikai datiem, kas pašlaik ir pieejami pārkraušanas centrā.*</p><p><strong>Brīdinājums.</strong> Šis process var izraisīt datu zudumu nesinhronizētiem datiem un biznesa apstrādes kļūmi. Tāpēc tā ir jāizmanto tikai noslogotos gadījumos, kur biznesa procesi ir jāapstrādā pārkraušanas punktu, jo mēroga vienībai ir pārtraukums, ko pieņemamā laikā nevar samazināt.</p> |
+| Ideoloģija - izplatītā topoloģija | Noņemiet mēroga vienības izvietojumu un palaidiet tikai pārkraušanas centrā bez darba noslodzes apstrādes. |
 
 :::image type="content" source="media/sum-manage-workloads.png" alt-text="Mēroga vienības un darba slodzes pārvaldības pieredze.":::
 
 > [!TIP]
-> Laika gaitā inkrementāli uzlabojumi tiks pievienoti Mēroga vienību pārvaldnieka pieredzei, lai atvieglotu dzīves cikla pārvaldības operācijas. Pašreizējās izlaišanas īpašās iespējas ir dokumentētas borta rokasgrāmatā, kas ir pieejama klientiem, kuri pašlaik tiek iekļauti izkliedētajā hibrīda topoloģijā piegādes ķēdes pārvaldībai. <!-- KFM: Add a link to the handbook when it is published -->
+> Laika gaitā inkrementāli uzlabojumi tiks pievienoti Mēroga vienību pārvaldnieka pieredzei, lai atvieglotu dzīves cikla pārvaldības operācijas. Pašreizējās versijas specifiskās iespējas tiek dokumentētas izvietošanas rokasgrāmatā, kas ir pieejama klientiem, kuri ir piegādes ķēdes pārvaldības sadalītās topoloģijas procesā. <!-- KFM: Add a link to the handbook when it is published -->
 
-## <a name="feature-management-considerations-for-workloads"></a>Līdzekļu pārvaldības apsvērumi par darba slodzi
+## <a name="feature-management-considerations-for-workloads"></a>Līdzekļu pārvaldības apsvērumi attiecībā uz darba slodzēm
 
-Šajā sadaļā ir izskaidroti daži svarīgi aspekti, kas jāņem vērā, instalējot darba slodzi, pievienojot līdzekļus vai noņemot līdzekļus dalītā hibrīdās topoloģijas izvietojumā. Vairāki scenāriji var ietekmēt to, vai pēc izmaiņu veikšanas būs jāveic [darba slodzes jaunināšana](#manage-workloads). Tomēr parasti tas ir jādara, atjauninot vai pievienojot jaunus datu apmaiņas vaicājumus un/vai pievienojot jaunas tabulas vai laukus iepriekš instalētai darba slodzei.
+Šajā sadaļā skaidroti daži svarīgi aspektiem, kas ir jāņem vērā, kad instalējat darba slodzi, pievienojiet līdzekļus vai noņemiet funkcijas sadalītās topoloģijas izvietošanā. Vairāki scenāriji var ietekmēt to, vai pēc izmaiņu [veikšanas](#manage-workloads) būs jāveic darba noslodzes jaunināšana. Tomēr tas parasti nepieciešams, atjauninot vai pievienojot jaunus datu apmaiņas vaicājumus un/vai kad pievienojat jaunas tabulas vai laukus iepriekš instalētajām darba noslodzei.
 
-### <a name="mandatory-features-for-installing-a-workload"></a>Obligātās funkcijas darba slodzes instalēšanai
+### <a name="mandatory-features-for-installing-a-workload"></a>Obligātie līdzekļi darba slodzes instalēšanai
 
-Instalējot darba slodzi, instalēšanas process izveido darba slodzes definīciju, kas satur informāciju par datu tabulām, kuras tiek izmantotas, kad dati tiek sinhronizēti starp abiem izvietojumiem. Darba slodzes definīcijas izveide tiek veikta automātiski, pamatojoties uz līdzekļiem, kas pašlaik ir iespējoti [līdzekļu pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Šajā tabulā ir uzskaitīti līdzekļi, kas jāiespējo, lai ģenerētu darba slodzes definīcijas, kas nepieciešamas noliktavas vai ražošanas darba slodzes izpildei.
+Kad instalējat darba slodzi, instalēšanas process izveido darba noslodzes definīciju, kas satur informāciju par datu tabulām, ko izmanto, kad dati tiek sinhronizēti starp divām izvietošanām. Darba noslodzes definīcijas izveide tiek automātiski apstrādāta, pamatojoties uz funkcijām, kas pašlaik ir iespējotas līdzekļu [pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Šajā tabulā ir uzskaitīti līdzekļi, kas ir jāiespējo, lai ģenerētu darba noslodzes definīcijas, kas nepieciešamas noliktavas vai ražošanas darba noslodzes palaišanai.
 
-| Obligāts līdzeklis | Darba slodze |
+| Obligāta funkcija | Darba slodze |
 |---|---|
 | Automātiska GUID piešķiršana WHS lietotāja izveidei | Noliktava |
 | Organizācijas mēroga darba aizturēšana | Noliktava |
@@ -220,11 +220,11 @@ Instalējot darba slodzi, instalēšanas process izveido darba slodzes definīci
 | Mērogotās vienības atbalsts noliktavas programmas darbu sarakstiem | Noliktava |
 | Ražošanas izpilde | Ražošana |
 
-Izvietojot darba slodzi, [izmantojot lielapjoma vienības izvietošanas rīkus vienas kastes izstrādes vidēm](https://github.com/microsoft/SCMScaleUnitDevTools) vai [mēroga vienību pārvaldnieka portālu](https://sum.dynamics.com), visi obligātie līdzekļi tiks automātiski iespējoti. Tomēr, ja veicat manuālu testa izvietošanu, kurā trūkst viena vai vairāku obligāto līdzekļu, darba slodzes instalēšana neizdosies, un jūs saņemsiet ziņojumu, kurā būs uzskaitīti trūkstošie līdzekļi. Pēc tam šie līdzekļi ir manuāli jāiespējo un jāattīra darba slodzes instalācija.
+Kad izvietojat darba slodzi [, izmantojot mēroga vienību izvietošanas rīkus vienas kastes izstrādes vidēm vai mēroga vienību pārvaldnieka portālam, visas obligātās funkcijas tiks automātiski aktivizētas](https://github.com/microsoft/SCMScaleUnitDevTools)[...](https://sum.dynamics.com). Tomēr, ja veiksiet manuālu testa izvietošanu, kam trūkst viena vai vairākas obligātas funkcijas, darba slodzes instalēšana neizdosies, un jūs saņemsit ziņojumu, kurā būs uzskaitīti trūkstošie līdzekļi. Pēc tam šie līdzekļi ir manuāli jāiespējo un atkārtoti jāaktivizē darba noslodzes instalēšana.
 
-### <a name="enabling-or-disabling-features-that-have-data-synchronization-dependencies"></a>Tādu līdzekļu iespējošana vai atspējošana, kuriem ir datu sinhronizācijas atkarības
+### <a name="enabling-or-disabling-features-that-have-data-synchronization-dependencies"></a>Iespējo vai deaktivizē funkcijas, kurām ir datu sinhronizācijas atkarības
 
-Funkcijas, kas ietekmē to datu atlasi, kas ir sinhronizēti starp centrmezglu un tā mēroga vienībām, ietekmē arī to, kā tiek izveidota darba slodzes definīcija. Tāpēc ir svarīgi, lai šie līdzekļi tiktu iespējoti pirms darba slodzes instalēšanas. Ja iespējojat šāda veida līdzekli darba slodzes laikā, darba slodzes definīcija ir jāatjauno, pēc līdzekļa iespējošanas palaižot [darba slodzes jauninājumu](#manage-workloads). Tāpat, ja atspējojat līdzekli, kuram ir datu sinhronizācijas atkarības, kamēr tiek palaista darba slodze, ir jāpalaiž darba slodzes jaunināšana [, lai noņemtu](#manage-workloads) atbilstošo datu sinhronizācijas informāciju no darba slodzes definīcijas.
+Līdzekļi, kas ietekmē sinhronizēto datu atlasi starp pārkraušanas vietu un tā mēroga vienībām, ietekmē arī to, kā tiek izveidota darba noslodzes definīcija. Tāpēc ir svarīgi, lai šie līdzekļi tiktu iespējoti pirms darba slodzes instalēšanas. Ja iespējosiet šī tipa līdzekli slodzes lietošanas laikā, jums ir jāģenerē darba noslodzes definīcija, [palaižot darba noslodzes jaunināšanu](#manage-workloads) pēc funkcijas iespējošanas. Tāpat arī, ja atspējosit funkciju, kam ir datu sinhronizācijas atkarības darba slodzes izpildes laikā, ir jāpalaiž darba noslodzes jaunināšana, [lai](#manage-workloads) noņemtu atbilstošo datu sinhronizācijas informāciju no darba noslodzes definīcijas.
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

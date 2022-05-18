@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 04987f18542ff331124f5224e4b1240672874e83
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: d0da71c87364eacf60b9a82a200996292b863b6a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533969"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8692427"
 ---
 # <a name="copy-an-instance"></a>Instances kopēšana
 
@@ -70,11 +69,11 @@ Lai pabeigtu šo uzdevumu, vispirms kopējiet instanci un pēc tam pierakstietie
 
 4. Uzdevumrūtī **Kopēt instanci** atlasiet instanci, kuru pārrakstīt, un pēc tam atlasiet **Kopēt**. Uzgaidiet, līdz lauka **Kopēšanas statuss** vērtība tiek atjaunināta uz **Pabeigts**.
 
-   ![[Instances atlasīšana pārrakstīšanai.](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[Atlasiet instanci, kuru pārrakstīt.](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. Atlasiet **Power Platform** un pierakstieties Microsoft Power Platform administrēšanas centrā.
 
-   ![[Atlasīt Power Platform.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[Atlasiet <a0/&Power Platform](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Atlasiet Power Apps vidi, kas jākopē, un pēc atlasiet **Kopēt**.
 

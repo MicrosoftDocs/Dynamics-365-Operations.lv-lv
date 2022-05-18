@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerTransSettlement, LedgerTrialBalanceListPage, LedgerTrialBalanceListPageBalanceParms, LedgerTransAccount, LedgerTransSettled
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 711e2f445e043dc74cba0ee11f1ab2dc22215ff30f495e06dce1f6f3ab4a0a09
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a871e379826626edbad2434b11281fce5e29e14e
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723803"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717311"
 ---
 # <a name="settle-transactions-between-ledger-accounts"></a>Darbību segšana starp Virsgrāmatas kontiem
 
@@ -28,22 +28,22 @@ ms.locfileid: "6723803"
 
 
 ## <a name="settle-transaction-between-ledger-accounts"></a>Transakciju segšana starp Virsgrāmatas kontiem
-1. Pārejiet uz sadaļu Virsgrāmata > Periodiskie uzdevumi > Virsgrāmatas darbību sasaistīšana.
+1. Dodieties uz **Virsgrāmatas > periodiskiem > virsgrāmatas segšanas**.
 2. Sarakstā atrodiet transakcijas, kuras vēlaties nosegt.
    > [!NOTE]
    > Summas bilancei jābūt vienādai ar nulli.  
-3. Noklikšķiniet uz Iekļaut.
-4. Noklikšķiniet uz Akceptēt.
+3. Noklikšķiniet uz **Iekļaut**.
+4. Noklikšķiniet uz **Akceptēt**.
 
 ## <a name="cancel-a-ledger-settlement"></a>Virsgrāmatas nosegšanas atcelšana
 
-1. Pārejiet uz sadaļu Virsgrāmata > Uzziņas un atskaites > Apgrozījuma bilance.
-2. Noklikšķiniet uz Parametri, lai atvērtu nolaižamo dialogu.
-3. Noklikšķiniet uz Atjaunināt.
+1. Pārejiet uz **virsgrāmatas > uz vaicājumiem un pārskatiem > apgrozījuma bilanci**.
+2. Noklikšķiniet **uz Parametri**, lai atvērtu nolaižamo dialogu.
+3. Noklikšķiniet uz **Atjaunināt**.
 4. Sarakstā atrodiet kontu, kurā atrodas nosegta transakcija.
-5. Noklikšķiniet uz Visas transakcijas.
+5. Noklikšķiniet **uz Visas darbības**.
 6. Izmantojiet filtru, lai viegli atrastu transakciju sarakstā.
-7. Noklikšķiniet uz Virsgrāmatas darbību sasaistīšana.
+7. Noklikšķiniet uz **Virsgrāmatas darbību segšanas**.
 8. Sarakstā atzīmējiet atlasīto rindu.
 
 

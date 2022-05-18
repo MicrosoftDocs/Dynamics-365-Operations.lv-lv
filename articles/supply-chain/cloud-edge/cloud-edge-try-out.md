@@ -1,8 +1,8 @@
 ---
-title: Izmēģināt mēroga vienības izkliedētā hibrīda topoloģijā
-description: Šajā tēmā ir sniegta informācija par to, kā izmēģināt mākoņa un malu skalas vienības ražošanas un noliktavas pārvaldības darba slodzei.
+title: Izmēģināt mēroga vienības sadalītajā hibrīdajā topoloģijā
+description: Šajā tēmā ir sniegta informācija, kā izmēģināt mākoni un malas apjoma vienības ražošanas un noliktavas pārvaldības darba noslodzei.
 author: perlynne
-ms.date: 03/03/2022
+ms.date: 05/02/2022
 ms.topic: article
 ms.search.form: ScaleUnitWorkloadsWorkspace
 audience: Application User
@@ -11,32 +11,32 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2022-03-03
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 04fd79f3c582ae9ac51882f73410477efaa35496
-ms.sourcegitcommit: b52ff5dfd32580121f74a5f262e5c2495e39d578
+ms.openlocfilehash: 658948d94cd012b95812a786433967f5cadc3a15
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "8376258"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711891"
 ---
-# <a name="try-out-scale-units-in-a-distributed-hybrid-topology"></a>Izmēģināt mēroga vienības izkliedētā hibrīda topoloģijā
+# <a name="try-out-scale-units-in-a-distributed-hybrid-topology"></a>Izmēģināt mēroga vienības sadalītajā hibrīdajā topoloģijā
 
 [!include [banner](../includes/banner.md)]
 
-Izplatītās hibrīda topoloģijas izmēģināšanas process ir vienkāršs. Pirmajā posmā ir jāpārbauda pielāgojumi, lai nodrošinātu, ka tie darbojas izkliedētajā topoloģijā. Jums ir divas iespējas.
+Dalītās topoloģijas izmēģinšanas process ir vienkāršs. Pirmajā posmā jums ir jāpārbauda pielāgojumi, lai nodrošinātu, ka tie darbojas sadalītā topoloģijā. Ir divas opcijas.
 
-## <a name="option-1-evaluate-customizations-in-development-environments"></a>1. iespēja: pielāgojumu novērtēšana izstrādes vidēs
+## <a name="option-1-evaluate-customizations-in-development-environments"></a>1. opcija: pielāgošanas vērtējiet izstrādes vidēs
 
-Pirms sākat iebūvēt smilškastes vidēs, ieteicams izpētīt mēroga vienības izstrādes iestatījumos, piemēram, vienas kastes vidē (kas pazīstama arī kā 1. līmeņa vide), lai varētu validēt procesus, pielāgojumus un risinājumus. Šā posma laikā dati un pielāgojumi tiks pielietoti vienas kastes vidēm. Jūs varat darboties vienā vidē, kas var uzņemties gan uzņēmuma centra, gan mēroga vienības lomu. Alternatīvi, jums var būt divas attīstības vides, no kurām viena ieņem centra lomu, bet otra uzņemas mēroga vienības lomu. Šis iestatījums nodrošina labāko veidu, kā identificēt un risināt problēmas. Lai pabeigtu šo posmu, var izmantot arī jaunāko [agrīnās piekļuves (PEAP) būvi](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxURUFWTjQzTzg0UUk5RkJHMDFEMVlSSDFEQy4u).
+Pirms sākat darbu ar kastu vidēm, ieteicams izstrādes iestatījumos izpētīt mēroga vienības, piemēram, vienlodziņa vidē (ko sauc arī par 1. pakāpes vidi), lai varētu validēt procesus, pielāgojumus un risinājumus. Šā posma laikā dati un pielāgojumi tiks pielietoti vienas kastes vidēm. Jūs varat darboties vienā vidē, kurai var būt gan uzņēmuma pārkraušanas centra, gan mēroga vienības loma. Alternatīvi var būt divas izstrādes vides, no kurām viena veic pārkraušanas centra lomu, un otrai no tām ir loma mēroga vienībā. Šis iestatījums nodrošina labāko veidu, kā identificēt un risināt problēmas. Jaunāko priekšskatījuma [būvējumu](../../fin-ops-core/fin-ops/get-started/one-version.md#how-can-i-get-early-access-to-non-released-platform-updates) var izmantot arī šīs stadijas pabeigšanai.
 
-Lai instalētu un uzturētu vidi, [izmantojiet skalas bloku izvietošanas rīkus](https://github.com/microsoft/SCMScaleUnitDevTools) vienas kastes izstrādes vidēm. Šie rīki ļauj konfigurēt centrmezgla un mēroga vienības vienā vai divās viena lodziņa vidēs. Rīki tiek nodrošināti gan kā binārs laidiens, gan GitHub pirmkodā. Izpētiet projekta vikivietni, kurā ir [iekļauta detalizēta lietošanas pamācība](https://github.com/microsoft/SCMScaleUnitDevTools/wiki/Step-by-step-usage-guide), kurā aprakstīts, kā izmantot rīkus. Ja izvietojat [malu mēroga vienības pielāgotā aparatūrā, izmantojot vietējos biznesa datus (LBD),](cloud-edge-edge-scale-units-lbd.md) jums ir jāievēro cits process.
+Lai instalētu un uzturētu [vides, jums jāizmanto mēroga vienību izvietošanas rīki vienas kastes](https://github.com/microsoft/SCMScaleUnitDevTools) izstrādes vidēm. Izmantojot šos rīkus, varat konfigurēt pārkraušanas centra un mēroga vienības vienā vai divos lodziņa vidēs. Rīki tiek nodrošināti kā binārais laidiens un GitHub avota kods. No jauna izpētiet projekta to, kurā iekļauta [pakāpeniskas lietošanas rokasgrāmata](https://github.com/microsoft/SCMScaleUnitDevTools/wiki/Step-by-step-usage-guide), kurā aprakstīts, kā izmantot rīkus. Ja pielāgotajā aparatūru [izvietojat malu skalas vienības, izmantojot vietējos biznesa datus (LBD),](cloud-edge-edge-scale-units-lbd.md) jums jāatbilst dažādiem procesiem.
 
-## <a name="option-2-acquire-add-ins-and-deploy-in-your-sandbox-environments"></a>2. iespēja: iegūstiet pievienojumprogrammas un izvietojiet smilškastes vidēs
+## <a name="option-2-acquire-add-ins-and-deploy-in-your-sandbox-environments"></a>2. opcija: pievienojumprogrammu ieguve un izvietošana jūsu kastēs vidēs
 
-Lai izmēģinātu izplatīto hibrīdo topoloģiju, jums ir jābūt divām smilškastes vidēm (2. līmenis), no kurām vienā ir jūsu dati (uzņēmuma centrmezgls), bet otrā - skalas vienībai un ir "tukši dati".
+Lai mēģinātu izplatīto topoloģiju, ir jābūt divām kastu vidēm (2. pakāpe), no kurām vienai ir jūsu dati (uzņēmuma pārkraušanas punkts), bet otrai ir jābūt mēroga vienībai un ir "tukši dati".
 
-Jāpievienojumprogrammas vismaz vienai mākoņa vai malu skalas vienībai. Pēc tam dzīves cikla pakalpojumos (LKS) tiks piešķirtas [Microsoft Dynamics atbilstošas projektu un vides laika nišas, lai skalas vienības vides varētu izvietot, izmantojot](https://lcs.dynamics.com/) Mēroga vienības pārvaldnieka portālu [.](https://aka.ms/SCMSUM)
+Ir jāiegūst pievienojumprogrammas vismaz vienai mākoņa vai malas mēroga vienībai. Pēc tam atbilstošie projekta un vides sloti tiks piešķirti pakalpojumos [Microsoft Dynamics](https://lcs.dynamics.com/) Lifecycle Services (LCS), [lai mēroga vienību vides varētu izvietot, izmantojot mēroga vienību pārvaldnieka portālu](https://aka.ms/SCMSUM).
 
-Sazinieties ar Microsoft atbalsta dienestu, lai pieprasītu iespējot smilškastes vides.
+Sazinieties ar Microsoft atbalsta dienestu, lai pieprasītu kases vides iespējošanu.
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

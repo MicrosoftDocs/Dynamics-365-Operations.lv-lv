@@ -8,23 +8,22 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9d574f760960241e4d79a988b1b671f224cb345f
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: bf7ce43785e3ef485074f2b0294caea381f8f726
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487799"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8688097"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge---release-10025-update"></a>Dynamics 365 Human Resources infrastruktūras sapludināšana — laidiena 10.0.25 atjauninājums
 
-10.0.25 izpilde atved pirmo spēju kopumu infrastruktūras sapludināšanas laikā. Infrastruktūras sapludināšanas laikā korporācija Microsoft Dynamics 365 Human Resources tiks sapludināta ar Finanšu un operāciju infrastruktūru. Tomēr tā turpinās būt licencēta kā neatkarīgs pieteikums, līdzīgi kā Dynamics 365 Finance un Dynamics 365 Supply Chain Management. Papildinformāciju par infrastruktūras sapludināšanu skatiet infrastruktūras sapludināšanas [Dynamics 365 Human Resources FAQ](../human-resources/hr-infrastructure-merge-faq.md).
+10.0.25 izpilde atved pirmo spēju kopumu infrastruktūras sapludināšanas laikā. Infrastruktūras sapludināšanas laikā korporācija Microsoft Dynamics 365 Human Resources tiks sapludināta ar Finanšu un operāciju infrastruktūru. Tomēr tā turpinās būt licencēta kā neatkarīgs pieteikums, piemēram, Dynamics 365 Finanses un Dynamics 365 Supply Chain Management. Papildinformāciju par infrastruktūras sapludināšanu skatiet infrastruktūras sapludināšanas [Dynamics 365 Human Resources FAQ](../human-resources/hr-infrastructure-merge-faq.md).
 
 Sapludināšana nodrošinās personāla vadības lietotāju konsekvenci šādos veidos:
 

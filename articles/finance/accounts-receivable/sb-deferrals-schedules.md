@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, Operations
 ms.custom: 539093
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 953347500f83a4a16f43331b572d2029027a5f59
-ms.sourcegitcommit: d0e99545d722c924db57ae2bd06f72154a1f1f97
+ms.openlocfilehash: 9135ac733496a0c5d79669c35972c273c209f81d
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557974"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685982"
 ---
 # <a name="deferral-schedules"></a>Atlikšanas grafiki
 
@@ -174,7 +173,7 @@ Lapā **Visi atlikto maksājumu grafiki** ir iekļauti tālāk iekļautie lauki.
 | Lauki | Apraksts |
 |--------|-------------|
 | **Galvene** | |
-| **Ieplānot** | |
+| **Grafiks** | |
 | Sadalījuma tips | Uz notikumiem balstītu atlikto maksājumu sadalījuma tips: procenti **vai** **summa**. |
 | Pārklasificēšanas datums | <p>Jaunākais datums, kad tika apstrādāta atlikto maksājumu grafika īstermiņa pārklasificēšana. Šis datums tiek atjaunināts katru reizi **, kad atlikto maksājumu grafikam** tiek izmantota notikuma īstermiņa pārklasificēšana.</p>Šis lauks ir pieejams tikai tad, ja tiek lietoti atrites periodi vai fiksētā gada īstermiņa atliktā maksājuma metode. |
 | **Konts** | |

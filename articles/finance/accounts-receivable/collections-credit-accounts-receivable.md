@@ -1,6 +1,6 @@
 ---
 title: Iekasēšana modulī “Debitori”
-description: Debitoru parādu iekasēšanas informācija tiek pārvaldīta vienā centrālā skatā, izmantojot Microsoft Dynamics 365 Finance lapu Iekasēšana. Kredīta un iekasēšanas vadītāji šo centrālo skatu var izmantot, lai pārvaldītu iekasēšanu. Iekasēšanas aģenti var uzsākt iekasēšanas procesu, izmantojot debitoru sarakstus, kas tiek ģenerēti, izmantojot iepriekš definētus iekasēšanas kritērijus, vai lapu Debitori.
+description: Debitoru parādu iekasēšanas informācija tiek pārvaldīta vienā centrālajā skatā, izmantojot Microsoft Dynamics 365 Finanšu iekasēšanas lapu. Kredīta un iekasēšanas vadītāji šo centrālo skatu var izmantot, lai pārvaldītu iekasēšanu. Iekasēšanas aģenti var uzsākt iekasēšanas procesu, izmantojot debitoru sarakstus, kas tiek ģenerēti, izmantojot iepriekš definētus iekasēšanas kritērijus, vai lapu Debitori.
 author: ShivamPandey-msft
 ms.date: 10/26/2017
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsActivitiesListPage, CustCollectionsAgent, CustCollectionsCaseListPage, CustCollectionsPool, CustCollectionsPoolsListPage, CustTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b143ebead89804af57e7d2dbfa6f7d366c1ae664573776d78bff44763ddeb819
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 03d1304c39628323c6d6e15181263a73ba965930
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723923"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710362"
 ---
 # <a name="collections-in-accounts-receivable"></a>Iekasēšana modulī “Debitori”
 
 [!include [banner](../includes/banner.md)]
 
-Debitoru parādu iekasēšanas informācija tiek pārvaldīta vienā centrālā skatā, izmantojot Microsoft Dynamics 365 Finance lapu Iekasēšana. Kredīta un iekasēšanas vadītāji šo centrālo skatu var izmantot, lai pārvaldītu iekasēšanu. Iekasēšanas aģenti var uzsākt iekasēšanas procesu, izmantojot debitoru sarakstus, kas tiek ģenerēti, izmantojot iepriekš definētus iekasēšanas kritērijus, vai lapu Debitori.
+Debitoru parādu iekasēšanas informācija tiek pārvaldīta vienā centrālajā skatā, izmantojot Microsoft Dynamics 365 Finanšu iekasēšanas lapu. Kredīta un iekasēšanas vadītāji šo centrālo skatu var izmantot, lai pārvaldītu iekasēšanu. Iekasēšanas aģenti var uzsākt iekasēšanas procesu, izmantojot debitoru sarakstus, kas tiek ģenerēti, izmantojot iepriekš definētus iekasēšanas kritērijus, vai lapu Debitori.
 
 Pirms sākat iekasēšanas darbību iestatīšanu vai apstrādi, jums ir jāsaprot tālāk norādītās koncepcijas.
 -   Debitora vecumstruktūru momentuzņēmumi satur vecu bilances informāciju par noteiktu laika periodu
@@ -65,7 +65,7 @@ Tālāk ir norādītas sarakstu lapas, kas palīdz sakārtot iekasēšanas infor
 
 > [!NOTE]
 > Pirms varat skatīt informāciju šajās sarakstu lapās, ir jāizveido vecumstruktūras momentuzņēmums. Tiek rādīta informācija tikai par tiem debitoriem, kam ir izveidots vecumstruktūras momentuzņēmums. Saraksta lapā rādītos ierakstus var papildus filtrēt tālāk norādītajā veidā.
-> <li>Pēc noklusējuma Finance and Operations lietotājs var piekļūt visiem debitoriem, kuriem ir vecumstruktūras momentuzņēmums.</li>
+> <li>Pēc noklusējuma Dynamics 365 for Finance and Operations lietotājs var piekļūt visiem debitoriem, kuriem ir vecumstruktūras momentuzņēmums.</li>
 > <li>Ja pastāv debitoru kopas, lietotājam ir jābūt iestatītam kā iekasēšanas aģentam, lai viņš varētu izmantot kopas informācijas filtrēšanai iekasēšanas sarakstu lapās. Ir pieejama informācija tikai par debitoriem, kuri ir ietverti atlasītajā debitoru kopā.</li>
 > <li>Ja lietotājs ir iestatīts kā iekasēšanas aģents, saraksta lapā ir pieejamas tikai tās kopas, kas ir atlasītas konkrētajam iekasēšanas aģentam. Ja iekasēšanas aģentam lapā Iekasēšanas aģents ir atlasīta slēdzis Ļaut aģentam skatīt visas debitoru kopas, šim aģentam ir pieejamas visas kopas.</li>
 

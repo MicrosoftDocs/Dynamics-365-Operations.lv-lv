@@ -1,7 +1,7 @@
 ---
 title: Sagādes un avotu sākumlapa
 description: Šajā tēmā ir sniegts saraksts ar palīdzības tēmām un citiem resursiem, kas ir pieejami sagādes un avotu modulī.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 09/27/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom:
 - intro-internal
 ms.assetid: 17f06036-cac2-4c28-8dc6-1dff6b81a7cc
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54ddaee1fd820435c245f3946ae1cc91209b12d4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fdf56084147edcdf8951d4a267611c10dc7eb6dd
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565499"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8673023"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Sagādes un avotu sākumlapa
 
@@ -56,8 +56,8 @@ Sagāde un avoti aptver visas darbības no preces un pakalpojumus nepieciešamī
 -   [Iestatīt un uzturēt kreditoru sadarbību](set-up-maintain-vendor-collaboration.md)
 -   [Ienākošo sūtījuma krājumu demonstrācijas skripts programmai Microsoft Dynamics 365 for Finance and Operations](https://www.microsoft.com/download/details.aspx?id=101945)(tehniskais dokuments)
 -   [Sūtījuma krājumu pārraudzība, izmantojot kreditoru sadarbību](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
--   [Sadarbība ar kreditoriem, izmantojot kreditoru portālu](collaborate-vendors-vendor-portal.md)  (tikai Dynamics AX 2016. gada februāra un 2016. gada maija versijās)
--   [Kreditoru portāla lietotāju drošība](configure-security-vendor-portal-users.md) (tikai Finance and Operations 2016. gada februāra un 2016. gada maija versijas)
+-   [Sadarbība ar kreditoriem, izmantojot kreditoru portālu](collaborate-vendors-vendor-portal.md) (tikai Dynamics AX 2016. gada februāra un 2016. gada maija versijās)
+-   [Kreditoru portāla lietotāju drošība](configure-security-vendor-portal-users.md) (tikai Finance and Operations 2016. gada februāra un 2016. gada maija versijas)
 -   [Kreditoru sadarbības mobilā darbvieta](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>Sagādes preču pārvaldība

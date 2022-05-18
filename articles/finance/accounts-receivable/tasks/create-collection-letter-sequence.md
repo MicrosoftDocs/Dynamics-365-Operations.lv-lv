@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CollectionLetterCourse
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: adeae6e20a799165e086df28b92a1357e8f2f0d3
-ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
+ms.openlocfilehash: af5d0a001fbe705834e116516933be67f2de8826
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7921203"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734163"
 ---
 # <a name="create-a-collection-letter-sequence"></a>Atgādinājuma vēstules secības izveide
 
@@ -26,10 +26,10 @@ ms.locfileid: "7921203"
 
 Izmantojiet šo procedūru, lai izveidotu atgādinājuma vēstuļu sēriju. Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums USMF.
 
-1. Navigācijas rūtī dodieties uz **Moduļi > Kredīts un iekasēšana > Iestatīšana > Iestatīt atgādinājuma vēstuļu sēriju**.
+1. Pārejiet uz **Sadaļu Kredīts un >, > iestatīt atgādinājuma vēstuļu sēriju**.
 2. Klikšķiniet **Jauns**.
 3. Laukā **Atgādinājuma vēstuļu sērija** ievadiet sērijas ID, kas pārstāvēs sēriju. Tas tiks izmantots, kad iestatīsit grāmatošanas metodi.
-4. Laukā **Apraksts** ierakstiet kādu vērtību.  Maksāšanas nosacījumi nav obligāti. Ja ievadāt vērtību šeit, atgādinājuma vēstules papildmaksas rēķinā tiks izmantoti šie maksāšanas nosacījumi, nevis debitoram saglabātie maksāšanas nosacījumi.  
+4. Laukā **Apraksts** ierakstiet kādu vērtību. Maksāšanas nosacījumi nav obligāti. Ja ievadāt vērtību šeit, atgādinājuma vēstules papildmaksas rēķinā tiks izmantoti šie maksāšanas nosacījumi, nevis debitoram saglabātie maksāšanas nosacījumi.  
 5. Laukā **Atgādinājuma vēstules kods** atlasiet kodu pirmajai atgādinājuma vēstulei, ko vēlaties nosūtīt. Pirmā atgādinājuma vēstule tiek izveidota atbilstoši rēķina apmaksas termiņam, vērtībai, ko šai rindai ievadāt pagarinājuma periodam laukā Dienas, un atbilstoši citai informācijai, ko ievadāt šai rindai.  
 6. Laukā **Apraksts** ierakstiet kādu vērtību. 
 7. Papildmaksas noklusētā valūta ir juridiskas personas valūta. Šis valūtas kods var atšķirties no rēķina valūtas.   
@@ -52,9 +52,9 @@ Izmantojiet šo procedūru, lai izveidotu atgādinājuma vēstuļu sēriju. Šaj
 22. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
 23. Ievadiet skaitli laukā **Minimālā nokavētā bilance**.
 24. Ievadiet skaitli laukā **Dienas**.
-25. Atlasiet izvēles rūtiņu **Bloķēt**, lai apturētu papildu piegādes un rēķinu piesūtīšanu klientam. Lai kontu atbloķētu, rēķinu izrakstīšanā atlasiet **Nē** un debitoru lapā atlasiet piegādes aizturēšanas lauku.  
+25. Atlasiet izvēles rūtiņu **Bloķēt**, lai apturētu papildu piegādes un rēķinu piesūtīšanu klientam. Lai atbloķētu kodu, debitoru **lapas** **laukā Rēķina izrakstīšana un piegāde** aizturēta atlasiet **Nē**.  
 26. Izvērsiet kopsavilkuma cilni **Piezīme**.
-27. Ievadiet tekstu, kuru saturēs atgādinājuma vēstules ar atlasīto atgādinājuma vēstuļu kodu. Varat iztulkot šo tekstu vairākās valodās, izmantojot izvēlni Tulkojumi, kas atrodas virs piezīmes lodziņa.  
+27. Ievadiet tekstu, kuru saturēs atgādinājuma vēstules ar atlasīto atgādinājuma vēstuļu kodu. Šo tekstu var tulkot vairākās valodās, izmantojot **tulkojumu izvēlni** virs piezīmes lodziņa.  
 
 
 

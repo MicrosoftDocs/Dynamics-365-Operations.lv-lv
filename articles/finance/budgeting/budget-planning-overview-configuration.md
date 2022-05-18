@@ -8,21 +8,21 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "17251"
 - intro-internal
 ms.assetid: a2e06633-a800-4840-a962-88fed8462104
 ms.search.region: Global
-ms.author: sigitac
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 391f62f42e482f79420bbe1bbd4cec4930790229
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: d69d3d1620616bd7a136645d6f28f638e8bcf199
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982069"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711748"
 ---
 # <a name="budget-planning-overview"></a>Budžeta plānošanas pārskats
 
@@ -32,7 +32,7 @@ ms.locfileid: "7982069"
 
 ## <a name="overview-of-budget-planning"></a>Budžeta plānošanas pārskats
 
-Organizācija var konfigurēt budžeta plānošanu un pēc tam iestatīt budžeta plānošanas procesus atbilstoši savai politikai, procedūrām un budžeta sagatavošanas prasībām. Izprotot programmā Microsoft Dynamics 365 Finance izmantotos jēdzienus un terminoloģiju, varat vieglāk un efektīvāk ieviest budžeta plānošanu savā organizācijā.
+Organizācija var konfigurēt budžeta plānošanu un pēc tam iestatīt budžeta plānošanas procesus atbilstoši savai politikai, procedūrām un budžeta sagatavošanas prasībām. Izprotot koncepcijas un terminoloģija Microsoft Dynamics, kas tiek izmantota 365 Finansēs, ir iespējams daudz vieglāk un efektīvāk īstenot budžeta plānošanu savā organizācijā.
 
 ### <a name="key-terms"></a>Galvenie termini
 
@@ -57,7 +57,7 @@ Budžeta plānošana ir integrēta ar citiem moduļiem. Tāpēc varat ietvert in
 
 ## <a name="configuring-budget-planning"></a>Budžeta plānošanas konfigurēšana
 
-Funkcionalitāte, kas tika ieviesta Dynamics 365 Finance versijā 10.0.9 (2020. gada aprīlis), ietver līdzekli, kas palīdz uzlabot veiktspēju, kad izmantojat pogu **Publicēt**, lai atjauninātu esošos ierakstus programmā Excel, un pēc tam tos publicētu klientam. Šis līdzeklis paātrina atjaunināšanas procesu un palīdz arī samazināt iespējamību, ka atjauninājums tiks bloķēts, kad vienlaicīgi atjaunināt daudzus ierakstus. Lai šo funkcionalitāti padarītu pieejamu, pārejiet uz darbvietu **Līdzekļu pārvaldība** un ieslēdziet līdzekli **Budžeta plānošanas vaicājumu optimizācija veiktspējai**, kas atrodas sadaļā **Budžeta veidošana**. Iesakām ieslēgt šo līdzekli.
+Funkcionalitāte, kas ieviesta Dynamics 365 finanšu versijā 10.0.9 (2020. gada aprīlī) **ietver** līdzekli, kas palīdz uzlabot veiktspēju, kad izmantojat pogu Publicēt, lai atjauninātu esošos ierakstus programmā Excel un pēc tam tos publicētu atpakaļ klientā. Šis līdzeklis paātrina atjaunināšanas procesu un palīdz arī samazināt iespējamību, ka atjauninājums tiks bloķēts, kad vienlaicīgi atjaunināt daudzus ierakstus. Lai šo funkcionalitāti padarītu pieejamu, pārejiet uz darbvietu **Līdzekļu pārvaldība** un ieslēdziet līdzekli **Budžeta plānošanas vaicājumu optimizācija veiktspējai**, kas atrodas sadaļā **Budžeta veidošana**. Iesakām ieslēgt šo līdzekli.
 
 Lapā **Budžeta plānošanas konfigurācija** ir lielākā iestatījumu to daļa, kas jums nepieciešami, lai iestatītu budžeta plānošanu. Turpmākajās sadaļās aprakstīti daži faktori, kas jāņem vērā, kad konfigurējat budžeta plānošanu. Kad esat pabeidzis konfigurēšanu, varat iestatīt budžeta plānošanas procesus.
 
@@ -87,7 +87,7 @@ Budžeta plānošanai varat izmantot vienu no diviem drošības modeļiem, kas d
 
 Lai pārvaldītu budžeta plānu izveidi un attīstību, tiek izmantotas budžeta plānošanas darbplūsmas un budžeta veidošanas darbplūsmas.
 
-Budžeta plānošanas darbplūsmu sastāv no sakārtota posmu kopuma, pa kuru pārvietojas budžeta plāns. Katra budžeta plānošanas darbplūsma ir saistīta ar budžeta veidošanas darbplūsmu. Budžeta veidošanas darbplūsmas ir viens no darbplūsmu veidiem, kas tiek izmantots sistēmā Dynamics 365 Finance. Tās maršrutē budžeta plānus kopā ar darblapām, pamatojumiem un pielikumiem organizācijas ietvaros to pārskatīšanai un apstiprināšanai.
+Budžeta plānošanas darbplūsmu sastāv no sakārtota posmu kopuma, pa kuru pārvietojas budžeta plāns. Katra budžeta plānošanas darbplūsma ir saistīta ar budžeta veidošanas darbplūsmu. Budžeta plānošanas darbplūsmas ir viens no darbplūsmas tipiem, kas tiek izmantoti visā Dynamics 365 finansēs. Tās maršrutē budžeta plānus kopā ar darblapām, pamatojumiem un pielikumiem organizācijas ietvaros to pārskatīšanai un apstiprināšanai.
 
 Budžeta plānošanas darbplūsmu iespējams izveidot lapas **Budžeta plānošanas konfigurācija** sadaļā **Darbplūsmas stadijas**. Tur varat atlasīt izmantojamās stadijas un budžeta veidošanas darbplūsmas, un konfigurēt papildu iestatījumus.
 

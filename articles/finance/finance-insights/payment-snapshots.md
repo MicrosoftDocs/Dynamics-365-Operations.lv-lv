@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "14151"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f9b6d44b7381817a40b86c17ee4eaf3dbfc46b67
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: f84afddb26136797a7d35faf52325702b8e41a45
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983521"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725350"
 ---
 # <a name="snapshots-overview"></a>Momentuzņēmumu apskats
 
@@ -40,6 +40,6 @@ Varat izveidot momentuzņēmumu, atlasot **Jauns momentuzņēmums** cilnē **Ska
 
 Skaidras naudas ienākošās un izejošās plūsmas momentuzņēmumos var rediģēt jebkurā laikā. Kad tiek rediģēta ienākošās naudas plūsmas vai izejošās naudas plūsmas summa, atjauninātā summa tiek proporcionāli piešķirta likviditātes kontos, kas veica sākotnējo bilanci. Kad momentuzņēmumu rediģēšana ir pabeigta, atlasiet **Saglabāt**, lai saglabātu izmaiņas.
 
-Lai salīdzinātu faktiskos finanšu rezultātus ar prognozi, kas tika saglabāta kā momentuzņēmums, atlasiet **Salīdzināt ar faktiskajiem rādītājiem**. Lapa **Salīdzināt ar** faktiskajām summām parāda faktisko summu un prognozes salīdzinājumu. Diagramma lapas augšdaļā parāda ienākošās naudas plūsmas, izejošās naudas plūsmas un bankas bilanču salīdzinājumu starp diviem momentuzņēmumiem pārklāšanos periodos. Režģī apakšējā sadaļā tiek parādīts detalizēts faktisko bilanču katrā periodā un prognozētās bilances salīdzinājums katrai likviditātes summai. **Novirzes** kolonna režģī parāda starpību starp faktisko bilanci periodā un prognozēto bilanci.
+Lai salīdzinātu faktiskos finanšu rezultātus ar prognozi, kas tika saglabāta kā momentuzņēmums, atlasiet **Salīdzināt ar faktiskajiem rādītājiem**. Lapa **Salīdzināt ar faktiskajām** summām parāda faktisko summu un prognozes salīdzinājumu. Diagramma lapas augšdaļā parāda ienākošās naudas plūsmas, izejošās naudas plūsmas un bankas bilanču salīdzinājumu starp diviem momentuzņēmumiem pārklāšanos periodos. Režģī apakšējā sadaļā tiek parādīts detalizēts faktisko bilanču katrā periodā un prognozētās bilances salīdzinājums katrai likviditātes summai. **Novirzes** kolonna režģī parāda starpību starp faktisko bilanci periodā un prognozēto bilanci.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

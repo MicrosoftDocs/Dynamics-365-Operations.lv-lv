@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ec7fcb97bd46551846ccee13b369a1b02a589688
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: cf38717ab3768249e3c9b988ee3893c5e539bcd0
+ms.sourcegitcommit: 90ffd763d18f97654b9dbc9e3f71c998e6094c6b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075303"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8739392"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.21 (2021. gada oktobris)
 
@@ -69,7 +69,7 @@ Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvald
 | Pārsūtīt pasūtījuma atcelšanu | 9/1/2021 | 7/13/2020 | Ieslēgts pēc noklusējuma | Krājumu un noliktavas pārvaldība |
 | Atbloķēt krājumu žurnālu | 9/1/2021 | 8/17/2020 | Ieslēgts pēc noklusējuma | Krājumu un noliktavas pārvaldība |
 | Saglabātie krājumu pārvaldības skati | 9/1/2021 | 30.09.2020. | Ieslēgts pēc noklusējuma | Krājumu un noliktavas pārvaldība |
-| Navigācija uz MK versiju no MK līnijām | 9/1/2021 | 11/11/2019 | Ieslēgts pēc noklusējuma | Krājumu un noliktavas pārvaldība |
+| Navigācija no MK versijas no MK rindām | 9/1/2021 | 11/11/2019 | Ieslēgts pēc noklusējuma | Krājumu un noliktavas pārvaldība |
 | Mērvienības un vienības daudzuma izmantošana krājumu žurnālos | 9/1/2021 | 11/11/2019 | Ieslēgts pēc noklusējuma | Krājumu un noliktavas pārvaldība |
 | Atļaut tukšas partijas atribūtu vērtības | 9/1/2021 | 11/11/2019 | Ieslēgts pēc noklusējuma | Krājumu un noliktavas pārvaldība |
 | Automātiski palielināt krājumu pārsūtīšanas pasūtījuma rindu numurus | 9/1/2021 | 10/11/2019 | Ieslēgts pēc noklusējuma | Krājumu un noliktavas pārvaldība |
@@ -92,7 +92,7 @@ Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvald
 | Saglabātie izlaisto preču skati | 9/1/2021 | 30.09.2020. | Ieslēgts pēc noklusējuma | Preču informācijas pārvaldība |
 | Uzlabojumi apstiprināšanas un pārsūtīšanas darbu dialogos | 9/1/2021 | 10/11/2019 | Ieslēgts pēc noklusējuma | Ražošanas kontrole |
 | Darbu kartes ierīcei ir pievienota noliktavas vienībai, lai ziņotu par pabeigšanu | 9/1/2021 | 8/31/2019 | Ieslēgts pēc noklusējuma | Ražošanas kontrole |
-| Lapā Job Card Terminal ir pievienota jauna poga, lai apturētu pārtraukumu | 9/1/2021 | 2/19/2020 | Ieslēgts pēc noklusējuma | Ražošanas kontrole |
+| Darba kartes termināļa lapai ir pievienota jauna poga pārtraukuma apturēšanai | 9/1/2021 | 2/19/2020 | Ieslēgts pēc noklusējuma | Ražošanas kontrole |
 | Iespējojiet daļēju apakšlīgumu elementu saņemšanu un novērsiet problēmu ar kreditora veida MK rindu brāķa aprēķināšanu. | 9/1/2021 | 11/11/2019 | Ieslēgts pēc noklusējuma | Ražošanas kontrole |
 | Saglabātie skati ražošanas kontrolei | 9/1/2021 | 8/17/2020 | Ieslēgts pēc noklusējuma | Ražošanas kontrole |
 | Dynamics 365 Guides ražošanai | 9/1/2021 | 7/13/2020 | Ieslēgts pēc noklusējuma | Ražošanas kontrole |
@@ -130,16 +130,16 @@ Nesen ir pievienotas vai ievērojami atjauninātas tālāk norādītās palīdz�
 | Vispārējā plānošana | [Plāna vēstures un plānošanas žurnālu skatīšana](../master-planning/planning-optimization/plan-history-logs.md) |
 | Noliktavas pārvaldība | [Konteineru iepakošanas stratēģijas](../warehousing/container-packing-strategy-overview.md) |
 | Noliktavas pārvaldība | [Cikla inventarizācijas piemēru scenāriji](../warehousing/cycle-counting-scenarios.md) |
-| Noliktavas pārvaldība | [Ienākošo IPPN importēšana, izmantojot V2 datu elementu](../warehousing/import-asn-v2-data-entity.md) |
-| Noliktavas pārvaldība | [Pārdošanas pasūtījumu un pārsūtīšanas pasūtījumu pārmērīga izdošana](../warehousing/over-picking-for-sales-and-transfer-orders.md) |
+| Noliktavas vadība | [Importēt ienākošos NNS, izmantojot V3 datu elementu](../warehousing/import-asn-data-entity.md) |
+| Noliktavas vadība | [Pārdošanas pasūtījumu un pārsūtīšanas pasūtījumu pārmērīga izdošana](../warehousing/over-picking-for-sales-and-transfer-orders.md) |
 | Noliktavas pārvaldība | [Kopuma etiķešu drukāšanas plānošana kopuma laikā](../warehousing/configure-task-based-wave-label-printing.md) |
 | Noliktavas pārvaldība | [Kas jauns vai mainīts mobilajā programmā Warehouse Management](../warehousing/whats-new-wma.md) |
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Programmu Finance and Operations platformas atjauninājumi
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformas atjauninājumi finanšu un operāciju programmām
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.21 ietver platformas atjauninājumus. Lai uzzinātu vairāk, skatiet [Platformas atjauninājumi lietotņu Finance and Operations versijai 10.0.21 (2021. gada oktobris)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.21 ietver platformas atjauninājumus. Lai uzzinātu vairāk, skatiet [Informāciju par Platformas atjauninājumiem finanšu un operāciju programmu versijā 10.0.21 (2021. gada oktobris)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21.md).
 
 ### <a name="bug-fixes"></a>Kļūdu labojumi
 

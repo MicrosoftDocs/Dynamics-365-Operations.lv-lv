@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 897c25df96017c5be1ae789027d178ca6b3ccc0410b4f65c7d2557b39e840134
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b1d2ccf1083f34aefbe87354f03dbebd6cb5be7e
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735355"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694429"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-22-2021"></a>Jaunumi un izmaiņas programmatūrā Dynamics 365 Human Resources 2021. gada 22. jūnijs
 
@@ -83,7 +82,7 @@ Tālāk norādītie jaunie līdzekļi ir priekšskatījumā. Papildinformāciju 
 
 | Funkcija | Detalizētā informācija |
 | --- | --- |
-| Platformas atjauninājums 10.0.19 (43) | Ir ieplānots, ka platformas atjaunināšana 10.0.19 sāks izriti ar pakalpojuma laidienu 2021. gada 28. jūnijā. Papildinformāciju skatiet [Platformas atjauninājumi Finance and Operations programmu versijai 10.0.19 (2021. gada jūnijs)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19). |
+| Platformas atjauninājums 10.0.19 (43) | Ir ieplānots, ka platformas atjaunināšana 10.0.19 sāks izriti ar pakalpojuma laidienu 2021. gada 28. jūnijā. Papildinformāciju skatiet Platformas [atjauninājumos Finanšu un operāciju programmu versijā 10.0.19 (2021. gada jūnijs)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19). |
 |  Pakalpojumu rādīšanas gadu pārslēgšanās | Šī iespēja sniedz iespēju izmantot dažādus datumus, lai aprēķinātu pakalpojuma gadus, kas attēloti vaidlapā **Racionalizēta darbinieka ieraksts** un veidlapā **Cilvēki**.  Tas būs pieejams Human Resources parametros. |
 |  Atļaut kavējumu pārvaldniekam pārvaldīt atvaļinājumu | [Atļaut kavējumu pārvaldniekam pārvaldīt atvaļinājumu](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/enable-absence-manager-manage-leave) |
 |  Pilnvarojuma pielikumi īpašiem atvaļinājumu tipiem | Šis līdzeklis ļauj administratoriem pievienot pielikumus, iesniedzot atvaļinājuma pieprasījumus noteiktiem atvaļinājuma veidiem. |

@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 1c5012fdc4f3bfab3f91adfee1eab758dd9c1a0f
-ms.sourcegitcommit: 5aecb04178e45e1fdea032b3ef3ce338332005dc
+ms.openlocfilehash: ad9b1929cb4773ae79c54f6c95d73c1a8d5f86ef
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7966719"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8712598"
 ---
 # <a name="automate-vendor-payment-proposals"></a>Kreditoru maksājumu priekšlikumu automatizēšana
 
@@ -34,7 +34,7 @@ Organizācijas, kas maksā kreditoriem periodiskā grafikā, tagad var automatiz
 Maksājuma priekšlikuma automatizācijas automātiski negrāmato maksājumus. Tāpēc varat turpināt lietot visus apstiprināšanas un darbplūsmas procesus, ko pašlaik izmantojat, lai apstiprinātu izveidotos maksājumus.
 
 > [!NOTE]
-> Lai **izmantotu šo** funkcionalitāti, līdzekļa pārvaldībā jāiespējo kreditora maksājuma priekšlikuma automatizācijas funkcija. 
+> Lai **izmantotu šo funkcionalitāti,** līdzekļa pārvaldībā jāiespējo kreditora maksājuma priekšlikuma automatizācijas funkcija. 
 
 ## <a name="define-the-occurrence-of-vendor-payment-proposals"></a>Kreditoru maksājumu priekšlikumu rašanās definēšana
 

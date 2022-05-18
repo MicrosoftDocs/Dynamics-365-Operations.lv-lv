@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: VendEditInvoiceHeaderStagingListPage
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f407d42fe624206e32a2f58fe8c7fcaf2df52c729a1d945d3d801f450b6ed129
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 02fcb6ce49156c32f23bfb37478a1076f62aa868
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722771"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716414"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Rēķinu automatizācija skenētajiem dokumentiem
 
@@ -32,7 +32,7 @@ Organizācijas, kast vēlas uzlabot savus kreditoru procesus, rēķinu apstrādi
 
 Rēķinu automatizācijas risinājums nodrošina standarta interfeisu, kas var pieņemt rēķina metadatus rēķina virsrakstam un rēķina rindām, kā arī pielikumiem, kas attiecas uz rēķinu. Jebkura ārējā sistēma, kas var ģenerēt šim interfeisam atbilstošus artefaktus, varēs nosūtīt plūsmu automātiskai rēķinu un pielikumu apstrādei.
 
-Tālāk esošajā attēlā ir parādīts parauga integrācijas scenārijs, kurā uzņēmums Contoso kopā ar OCR pakalpojumu sniedzēju izmanto kreditora rēķinu apstrādi. Contoso, kreditori pakalpojumu sniedzējam sūta rēķinus, izmantojot e-pastu. Izmantojot OCR apstrādi, pakalpojumu sniedzējs ģenerē rēķina metadatus (virsrakstu un/vai rindas) un skenēto rēķina attēlu. Pēc tam integrācijas slānis šos artefaktus pārveido tā, lai tos varētu patērēt.
+Tālāk esošajā attēlā ir parādīts parauga integrācijas scenārijs, kurā uzņēmums Contoso kopā ar OCR pakalpojumu sniedzēju izmanto kreditora rēķinu apstrādi. Uzņēmuma Contoso kreditori pakalpojumu sniedzējam sūta rēķinus, izmantojot e-pastu. Izmantojot OCR apstrādi, pakalpojumu sniedzējs ģenerē rēķina metadatus (virsrakstu un/vai rindas) un skenēto rēķina attēlu. Pēc tam integrācijas slānis šos artefaktus pārveido tā, lai tos varētu patērēt.
 
 ![Parauga integrācijas scenārijs.](media/vendor_invoice_automation_01.png)
 
@@ -58,7 +58,7 @@ Datu pakotne ir darba vienība, kas ir jānosūta, lai varētu izveidot rēķina
 
 Kreditora rēķina dokumenta pielikums ir jauns datu elements, kas ir ieviests kā daļa no šī līdzekļa. Kreditora rēķina virsraksta elements ir modificēts tā, lai tas atbalstītu pielikumus. Kreditora rēķina rindas elements nav modificēts šim līdzeklim.
 
-Detalizētu informāciju par datu pakotnēm skatiet [datu pārvaldības pārskatā](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Informāciju, kā izveidot datu pakotnes, izmantojot datu pārvaldības darbvietu, skatiet [datu pakotņu apstrāde un patērēšana Dynamics 365 Finance and Operations programmu risinājumā](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
+Detalizētu informāciju par datu pakotnēm skatiet [datu pārvaldības pārskatā](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Papildinformāciju par to, kā izveidot datu pakotnes, izmantojot datu pārvaldības darbvietu, [skatiet sadaļā Datu pakotņu apstrāde un patērēšana dynamics 365 finanšu un operāciju programmu risinājumā](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
 
 Lai ātri ģenerētu testa datus, kas ietver rēķinus un pielikumus, veiciet tālāk norādītās darbības.
 

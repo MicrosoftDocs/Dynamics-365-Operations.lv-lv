@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 40ae7b61537cdcd1934056b9e289f342e96b57d3eebe5a6e713b2db91310ed9a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 852cfa536ed7e6985ce1f7de612b34e2a492ee07
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766982"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735087"
 ---
 # <a name="dimension-hierarchy"></a>Dimensiju hierarhija
 
@@ -203,13 +203,13 @@ Ja izveidojat pārskatus, izmantojot programmu Excel vai pakalpojumu Power BI, t
 Tālāk ir sniegts pārskatu struktūrā ietvertas dimensiju hierarhijas piemērs.
 
 | Izmaksu objektu dimensiju hierarhija — 1. līmenis | Izmaksu objektu dimensiju hierarhija — 2. līmenis | Izmaksu objektu dimensiju hierarhija — 3. līmenis | Izmaksu objektu dimensiju hierarhija — 4. līmenis | Izmaksu objektu dimensiju hierarhija — 15. līmenis |
-|-------------------------------------------|-------------------------------------------|-------------------------------------------|-------------------------------------------|--------------------------------------------|
-| Organizācija                              | Administrators                                     | Finansēt                                   | CC002                                     |                                            |
-| Organizācija                              | Administrators                                     | Finansēt                                   | CC003                                     |                                            |
-| Organizācija                              | Administrators                                     | Finansēt                                   | CC007                                     |                                            |
-| Organizācija                              | Administrators                                     | HR                                        | CC001                                     |                                            |
-| Organizācija                              | Ražošana                                | Iepakošana                                 | CC005                                     |                                            |
-| Organizācija                              | Ražošana                                | Montāža                                  | CC006                                     |                                            |
+|----------------------------------|---------------------------------|-------------------------|-------------------------|----------------------------------------|
+| Organizācija              | Administrators                 | Finansēt                    | CC002              |                                            |
+| Organizācija              | Administrators                 | Finansēt                    | CC003              |                                            |
+| Organizācija              | Administrators               | Finansēt                     | CC007               |                                            |
+| Organizācija              | Administrators                | HR                           | CC001              |                                            |
+| Organizācija              | Ražošana           | Iepakošana                    | CC005             |                                            |
+| Organizācija              | Ražošana          | Montāža                      | CC006            |                                            |
 
 ### <a name="update-the-dimension-hierarchies-that-are-used-for-reporting"></a>Pārskatiem izmantoto dimensiju hierarhiju atjaunināšana 
 
@@ -328,7 +328,7 @@ Piekļuves saraksta hierarhijas iestatījumi tiek izmantoti, lai kontrolētu to,
 - Power BI:
 
     - Power BI vizualizācijās redzamie dati
-    - Datu Power BI vizualizācijas, kas ir iegultas Dynamics 365 Finance klientā
+    - Datu Power BI vizualizēšanas, kas ir iegultas Dynamics 365 finanšu klientā
 
 > [!NOTE] 
 > - Lai piekļuves saraksta hierarhija varētu ietekmēt datus pakalpojumā Power BI, piekļuves saraksta hierarhija ir jāsavieno pārī ar rindas līmeņa drošību pakalpojumā Power BI. Papildinformāciju skatiet rakstā [Drošības iestatīšana satura pakotnei Izmaksu uzskaite](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).

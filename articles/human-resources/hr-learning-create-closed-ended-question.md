@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: KMAnswerCollection, KMAnswer, KMQuestion, HcmLearningWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b3b90bb2a4981f32feb10ee1192e9c4d2e604e7a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 18b755675b97e608afccea2e48ea3cfca74c984f
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071737"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686168"
 ---
 # <a name="create-a-closed-ended-question"></a>Slēgta jautājuma izveide
 
@@ -37,10 +36,10 @@ Slēgto jautājumu atbildēm varat norādīt opcijas, no kurām respondents var 
 2. Klikšķiniet **Jauns**.
 3. Laukā **Atbilžu grupa** ievadiet vērtību.
 4. Laukā **Apraksts** ierakstiet kādu vērtību.
-    * **Izmantojiet funkcionalitāti Randomizēt**, lai pēc nejaušības principa novietotu atbildes citā secībā ikreiz, kad jautājumu atbilžu grupa tiek izmantota.  
+    * Izmantojiet Randomize **funkcionalitāti**, lai nejaušā secībā novietotu atbildes citā secībā katru reizi, kad jautājumam tiek izmantota atbilžu grupa.  
 5. Noklikšķiniet uz **Atbildēt**.
 6. Klikšķiniet **Jauns**.
-    * Secības numurs kontrolē atbilžu parādīšanas secību, ja vien **grupai Atbilde nav atlasīta** randomize **·**.  
+    * Secības numurs kontrolē kārtību, kādā tiek parādītas atbildes, ja vien **Atbilžu** grupai nav atlasīta **nejaušība**.  
     * Atbildēm var piešķirt punktus, kuri tiek izmantoti anketas vērtēšanā.  
 7. Laukā **Punkti** ievadiet skaitu.
     * Pareizo atbildi var iezīmēt, lai norādītu, ka atlasītā atbilde ir pareiza. To var izmantot anketas punktu skaitīšanai.  
@@ -64,8 +63,8 @@ Slēgto jautājumu atbildēm varat norādīt opcijas, no kurām respondents var 
 ## <a name="create-the-question"></a>Jautājuma izveide
 1. Dodieties uz **Aptauja**  > **Projekts**  > **Jautājumi**.
 2. Klikšķiniet **Jauns**.
-3. **Izmantojiet lauku Tips**, lai grupētu saistītus jautājumus kopā.
-    * Slēgtiem **jautājumiem var izmantot izvēles rūtiņas**, **pogas** Alternative vai **Kombinēto datu** ievades tipus.  
+3. Lietojiet **lauku Tips**, lai sagrupētu saistītus jautājumus kopā.
+    * Slēgtiem jautājumiem varat izmantot ievades **tipus** Izvēles **rūtiņai**, Alternatīvai **pogai** vai Kombinētajam lodziņam.  
 4. Laukā **Ievades veids** atlasiet opciju.
 5. Laukā **Atbilžu grupa** ievadiet vai atlasiet vērtību.
 6. Laukā **Teksts** ierakstiet vērtību.

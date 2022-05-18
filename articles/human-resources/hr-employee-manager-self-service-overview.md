@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMParameters, EssWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom:
 - "51941"
 - intro-internal
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 28bf4ff4e456505efda3777a4f820c54f270c74b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 51883730c36a3df2538adbe85ad8ead7d3cf1e98
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068948"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694486"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>Darbinieka un vadītāja patstāvīgi izmantojama pakalpojuma pārskats
 
@@ -96,7 +95,7 @@ Skatiet un pārvaldiet dokumentus ar elementu **Pielikumi**. Varat pārvaldīt v
 
 Šajā sadaļā sniegtas saites uz citām **Darbinieka pašapkalpošanās** zonām, līdzīgi kā sadaļā **Manas karjeras informācija**.
 
-Parakstieties atvieglojumiem, izmantojot saiti **Atvieglojumi**. Papildinformāciju par pabalstu pārvaldību skatiet [Priekšrocību pārskats](hr-benefits-management-overview.md).
+Parakstieties atvieglojumiem, izmantojot saiti **Atvieglojumi**. Papildinformāciju par atvieglojumu pārvaldību skatiet atvieglojumu [pārskatā](hr-benefits-management-overview.md).
 
 Sadaļā **Veiktspēja** varat atlasīt **Veiktspējas žurnālu**, lai izveidotu veiktspējas žurnālu ierakstus, kurus lietot gan attiecībā uz veiktspējas mērķiem un pārskatiem. Varat atlasīt **Sūtīt atsauksmes**, lai sniegtu atsauksmes par citiem darbiniekiem savā organizācijā. Atkarībā no jūsu organizācijas iestatījumiem, saņēmējam, sūtītājam un vadītājiem var tikt sūtīti e-pasta ziņojumi. Varat nosūtīt atsauksmes visiem darbiniekiem organizācijā. Uzņēmums neierobežo atsauksmes.
 

@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-10-12
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 174cbd85139db5cee75481041fb721dc7646ab66
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: e74336270ab46fc19adb4c797745c9582028391a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913606"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687476"
 ---
 # <a name="print-tax-information-on-transfer-order-documents"></a>Drukāt nodokļu informāciju pārsūtīšanas pasūtījuma dokumentos
 
@@ -39,7 +38,7 @@ Lai konfigurētu šos datus, ir jāveic šādas galvenās darbības.
 
 1. [Iespējojiet un iestatiet nodokļu līdzekli pārsūtīšanas pasūtījumiem](tasks/Tax-feature-support-for-transfer-order.md).
 2. [Izveidojiet un iestatiet vairākus juridiskas personas nodokļa reģistrācijas numurus](emea-multiple-vat-registration-numbers.md).
-3. Iestatiet neapliekamā nodokļa kodu, aprakstu, nodokļu direktīvas un drukājiet kodu nodokļu kodā. Šajā piemērā ir izveidoti trīs nodokļu kodi un sinhronizēti Microsoft Dynamics 365 Finance: **NL-Neapliekamais**, **BE-RC-21** un **BE-RC+21**.
+3. Iestatiet neapliekamā nodokļa kodu, aprakstu, nodokļu direktīvas un drukājiet kodu nodokļu kodā. Šim piemēram, 365 Finance tiek izveidoti un sinhronizēti Microsoft Dynamics trīs nodokļu kodi: **NL-Exempt**, **BE-RC-21** un **BE-RC+21**.
 
     1. Programmā Finance dodieties uz **Nodoklis** \> **Uzstādīšana** \> **PVN** \> **PVN reģistrācijas kodi**.
     2. Atlasiet **Labot** un ievadiet **EK** reģistrācijas koda aprakstu. Piemēram, ievadiet **EK bez nodokļiem brīvās kravas ar nodokļa reģistrācijas numuru**.

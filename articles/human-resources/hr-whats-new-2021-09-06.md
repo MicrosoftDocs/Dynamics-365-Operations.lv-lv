@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-09-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2add53b4b014cb65caacff03bf175078d2b70d8f
-ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
+ms.openlocfilehash: 314d836db9b7560c2ed95ad1b9d2eba753e39d2b
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "7485911"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8690587"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-6-2021"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources 2021. gada 6. septembrī
 
@@ -77,7 +76,7 @@ Pilnīgu sarakstu ar plānotajiem līdzekļiem un to ieplānotajiem laidieniem s
 
 | Funkcija | Detalizētā informācija |
 |---|---|
-| Platformas atjauninājums 10.0.21 (45) | Ir ieplānots, ka platformas atjaunināšana 10.0.21 sāks izriti ar pakalpojuma laidienu 2021. gada 4. oktobrī. Papildinformāciju skatiet [Platformas atjauninājumi Finance and Operations programmu versijai 10.0.21 (2021. gada oktobris)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21). |
+| Platformas atjauninājums 10.0.21 (45) | Ir ieplānots, ka platformas atjaunināšana 10.0.21 sāks izriti ar pakalpojuma laidienu 2021. gada 4. oktobrī. Papildinformāciju skatiet Platformas [atjauninājumos Finanšu un operāciju programmu versijā 10.0.21 (2021. gada oktobris)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21). |
 | Atvieglojumu pārskats | Atvieglojumu pārskats darbinieka pašreizējo atvieglojumu atlases skatīšanai. Papildu informāciju skatiet Laidiena viļņa dokumenta sadaļā [Atvieglojumu pārskats](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/benefits-summary-statement). |
 
 ## <a name="see-also"></a>Skatiet arī

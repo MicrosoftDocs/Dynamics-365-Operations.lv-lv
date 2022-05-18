@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a14e485d1e02247159e1d9eb1c5d81be37626216
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d206654dcb7964ac2ed9aa9ccf7cec709e1bd38c
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580508"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689683"
 ---
 # <a name="price-simulation"></a>Cenas simulācija
 
@@ -32,7 +32,8 @@ Piedāvājuma cenas simulācija rāda jaunu kopsummu, balstoties uz ierosināto 
 
 Cenas simulācija nemaina cenu piedāvājumā. Ja cenas simulācija tiek lietota visam piedāvājumam, tā tiek apstrādāta kā īpaša atlaide piedāvājuma virsrakstā. Ja cenas simulācija tiek lietota noteiktiem krājumiem, tā tiek apstrādāta kā īpaša atlaide piedāvājuma rindās. Kad tiek lietota cenas simulācija, jau izveidotā vienības pārdošanas cena piedāvājuma rindā nemainās. Tā vietā tiek pielietoti atlaides procenti, kas attiecas uz cenas samazinājumu kotācijas rindā. Kad tiek lietota cenas simulācija, vienības pārdošanas cena un atlaides procenti tiek pārsūtīti uz piedāvājuma rindu vai piedāvājuma virsrakstu.  
 
->[Piezīme!] Kad palaižat cenas simulāciju, simulācijas izveidei tiek izmantota tikai pašreizējā pārdošanas valūta. Taču, kad apskatāt piedāvājuma kopsummas, redzat uzņēmuma valūtas un pārdošanas valūtas kombināciju.  
+>[!NOTE]
+>Palaižot cenu simulāciju, tikai pašreizējā pārdošanas valūta tiek izmantota simulācijas veidojiet. Taču, kad apskatāt piedāvājuma kopsummas, redzat uzņēmuma valūtas un pārdošanas valūtas kombināciju.  
 
 Papildu krājumi, kas tiek pievienoti piedāvājuma rindām, var izraisīt rindas atlaides vai vairākrindu atlaides. Tie var izraisīt arī kopējās atlaides, kas maina piedāvājuma rindu un visas atlaides seguma summas un seguma summas likmes.  
 
