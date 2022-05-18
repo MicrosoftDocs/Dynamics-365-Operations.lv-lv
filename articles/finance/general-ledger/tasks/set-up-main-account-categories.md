@@ -1,6 +1,6 @@
 ---
 title: Galvenā konta kategoriju iestatīšana
-description: Šajā tēmā ir izskaidrots, kā iestatīt galvenā uzņēmuma kategorijas programmā Dynamics 365 Finance.
+description: Šajā tēmā skaidrots, kā iestatīt galvenās konta kategorijas Dynamics 365 Finansēs.
 author: aprilolson
 ms.date: 08/08/2019
 ms.topic: business-process
@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: MainAccountCategory, MainAccountCategoryLink
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3530ba65dc0a4978ca4b1ca4b1acd96c79749a6f16e430fb260729dd3e28dbac
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb41f1b7200363f8846c406d5c20338f6ea242bd
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732937"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8721987"
 ---
 # <a name="set-up-main-account-categories"></a>Galvenā konta kategoriju iestatīšana
 

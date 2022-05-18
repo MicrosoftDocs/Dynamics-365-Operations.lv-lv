@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: aae46fa90d306355608200f96ae5cf10793c8464
-ms.sourcegitcommit: 0925b9ee0cb0df93047681a243aacc2abd404dea
+ms.openlocfilehash: 35ee857339a59391b048f920e8d6b13812909d76
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "8446182"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725768"
 ---
 # <a name="revenue-recognition-overview"></a>Ieņēmumu atzīšanas pārskats
 
@@ -35,7 +35,7 @@ Parasti ieņēmumu atzīšanas procesu var izmantot, lai veiktu šos uzdevumus:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44iER]
 
-Video [Kā izmantot ieņēmumu atzīšanu programmā Dynamics 365 Finance](https://youtu.be/v3amIsiqvoo) (parādīts iepriekš) ir iekļauts [Finance and Operations atskaņošanas sarakstā](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), kas ir pieejams vietnē YouTube.
+Kā [izmantot ieņēmumu atzīšanu Dynamics 365 Finanšu](https://youtu.be/v3amIsiqvoo) video (parādīts iepriekš) [ir iekļauts Finanšu un operāciju vietnē, kas](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) pieejama YouTube.
 
 Ieņēmumu atzīšanas līdzeklis nodrošina elastīgu platformu, kas ļauj jums noteikt uzņēmuma specifiskos noteikumus, lai varētu atpazīt gan ieņēmumu cenu, gan ieņēmumu grafiku.
 

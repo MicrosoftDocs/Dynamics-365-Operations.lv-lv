@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: ''
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2021-06-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a9d623c712de34afd1b38dbc6a8738ebf9613d49
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: 652d8684473d1c1505a80eb1d860c57a214b9488
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860562"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734224"
 ---
 # <a name="set-up-electronic-messages"></a>Elektronisko ziņojumu iestatīšana
 
@@ -72,7 +72,7 @@ Nākamajā tabulā ir aprakstīti lauki lapā **Ziņojuma statusi**.
 
 ## <a name="additional-fields"></a><a id="additional"></a>Papildlauki
 
-EM funkcionalitāte ļauj jums apkopot ierakstus no Microsoft Dynamics 365 Finance transakciju tabulām kā ziņojumu krājumus. Šādā veidā var sagatavot ierakstus pārskatiem un pēc tam ziņot par tiem. Tomēr transakciju tabulās dažreiz nav pietiekami daudz informācijas, lai aizpildītu ierakstus tādā veidā, kas atbilst pārskatu izveides prasībām. Lai aizpildītu visu informāciju, kas ir jāziņo par ierakstu, varat izveidot papildu laukus. Papildu laukus var saistīt gan ar ziņojumiem, gan ziņojumu vienumiem. Papildu laukus var iestatīt, dodoties uz **Nodoklis** \> **Iestatījumi** \> **Elektr. ziņojumi** \> **Papildu lauki**.
+EM funkcionalitāte ļauj jums apkopot ierakstus no darbību tabulām Microsoft Dynamics 365 Finanses kā ziņojumu krājumus. Šādā veidā var sagatavot ierakstus pārskatiem un pēc tam ziņot par tiem. Tomēr transakciju tabulās dažreiz nav pietiekami daudz informācijas, lai aizpildītu ierakstus tādā veidā, kas atbilst pārskatu izveides prasībām. Lai aizpildītu visu informāciju, kas ir jāziņo par ierakstu, varat izveidot papildu laukus. Papildu laukus var saistīt gan ar ziņojumiem, gan ziņojumu vienumiem. Papildu laukus var iestatīt, dodoties uz **Nodoklis** \> **Iestatījumi** \> **Elektr. ziņojumi** \> **Papildu lauki**.
 
 Nākamajā tabulā ir aprakstīti galvenie lauki lapā **Papildu lauki**.
 
@@ -142,25 +142,25 @@ Cilnē **Datu avotu iestatīšana** pievienojiet rindu katram datu avotam, kas t
 
 ## <a name="populate-records-from-multiple-companies"></a><a id="multiple-companies-populate"></a> Aizpildīt ierakstus no vairākiem uzņēmumiem
 
-Ja jūsu uzņēmumam ir jāsniedz pārskats no vairākām juridiskajām personām vienā finanšu datu bāzē, iestatiet aizpildīto ierakstu darbības visām juridiskajām personām, no kurām dati jāiekļauj [pārskatā](#populate).
+Ja jūsu uzņēmumam ir jāsniedz pārskats no vairākām juridiskajām personām vienā finanšu datu bāzē, [iestatiet](#populate) aizpildīto ierakstu darbības visām juridiskajām personām, no kurām dati jāiekļauj pārskatā.
 
 Lai iespējotu šo spēju finanšu vidē, sekojiet šiem soļiem. 
 
-1. Pārejiet uz **sadaļu** \> **Darbalauku līdzekļu** pārvaldība.
-2. Atrodiet un atlasiet **starpuzņēmumu vaicājumus aizpildīto ierakstu darbību** līdzeklim sarakstā.
+1. Pārejiet uz **sadaļu Darbalauku** \> **līdzekļu pārvaldība.**
+2. Atrodiet un atlasiet **starpuzņēmumu vaicājumus aizpildīto ierakstu darbību līdzeklim** sarakstā.
 3. Atlasiet **Iespējot tagad**. 
 
-Lai iestatītu [aizpildīto ierakstu darbības](#populate) vairākiem uzņēmumiem, no kuriem dati jāiekļauj pārskatā, sekojiet šiem soļiem.
+Lai iestatītu aizpildīto [ierakstu darbības vairākiem](#populate) uzņēmumiem, no kuriem dati jāiekļauj pārskatā, sekojiet šiem soļiem.
 
-1. Doties uz **nodokļu** \> **iestatīšanas** \> **·** \> **elektroniskajiem ziņojumiem Aizpildīt ierakstu** darbības.
+1. Doties uz nodokļu **iestatīšanas** \> **·** \> **elektroniskajiem ziņojumiem** \> **Aizpildīt ierakstu darbības.**
 
-    Ja starpuzņēmumu vaicājumi aizpildīto ierakstu darbību funkcijai ir iespējoti, datu avotu iestatīšanas režģis darbību lapā Aizpildītie ieraksti **ietver** lauku **·** **·** **Uzņēmums**. Esošiem ierakstiem, kas tika izveidoti aizpildīto ierakstu darbību vispārīgās iestatīšanas laikā, šis lauks [rāda](#populate) pašreizējās juridiskās personas identifikatoru.
+    Ja starpuzņēmumu **vaicājumi** aizpildīto ierakstu darbību funkcijai ir iespējoti, **datu avotu iestatīšanas** **režģis** darbību lapā Aizpildītie ieraksti ietver **lauku** Uzņēmums. Esošiem ierakstiem, kas tika izveidoti [aizpildīto ierakstu darbību vispārīgās iestatīšanas laikā](#populate), šis lauks rāda pašreizējās juridiskās personas identifikatoru.
 
-2. Datu avotu iestatījumu režģī pievienojiet rindu katrai juridiskajai personai, kas jāiekļauj pārskatā, un iestatiet **šādus** laukus.
+2. Datu avotu **iestatījumu** režģī pievienojiet rindu katrai juridiskajai personai, kas jāiekļauj pārskatā, un iestatiet šādus laukus.
 
     | Lauka nosaukums             | Vērtība |
     |------------------------|-------|
-    | Nosaukums                   | Ievadiet teksta vērtību, kas palīdzēs saprast, no kurienes ir šis ieraksts. Piemēram, ievadiet **Datu avota nosaukumu - 1.** filiāle. |
+    | Nosaukums/vārds, uzvārds                   | Ievadiet teksta vērtību, kas palīdzēs saprast, no kurienes ir šis ieraksts. Piemēram, ievadiet **Datu avota nosaukumu - 1. filiāle**. |
     | Ziņojuma krājuma veids      | Atlasiet ziņojuma krājuma tipu, kas nepieciešams jūsu EM apstrādei. |
     | Konta veids           | Norādiet konta tipu, kas nepieciešams jūsu EM apstrādei. Ja EM apstrādei nav specifisku kontu tipu, atlasiet **Visi**. |
     | Galvenās tabulas nosaukums      | Norādiet galvenās tabulas nosaukumu, kas nepieciešams jūsu EM apstrādei. |
@@ -168,9 +168,9 @@ Lai iestatītu [aizpildīto ierakstu darbības](#populate) vairākiem uzņēmumi
     | Dokumenta datuma lauks    | Norādiet lauku, kas satur dokumenta datumu jūsu EM apstrādes ierakstos. |
     | Dokumenta konta lauks | Norādiet lauku, kas satur dokumenta kontu jūsu EM apstrādes ierakstos. |
     | Uzņēmums                | Atlasiet filiāles juridiskās personas ID. |
-    | Lietotāja vaicājums             | Šī izvēles rūtiņa tiek automātiski atzīmēta, kad definējat kritērijus, atlasot **Vaicājumu** Labot. |
+    | Lietotāja vaicājums             | Šī izvēles rūtiņa tiek automātiski atzīmēta, kad definējat kritērijus, atlasot **Vaicājumu Labot**. |
 
-3. Katrai jaunai rindai atlasiet Vaicājumu Rediģēt un norādiet juridiskās personas saistītos kritērijus, kas **ir** norādīti rindas **laukā** Uzņēmums.
+3. Katrai jaunai rindai atlasiet **Vaicājumu** Rediģēt un norādiet **juridiskās personas saistītos kritērijus, kas ir norādīti** rindas laukā Uzņēmums.
 
 ## <a name="web-applications"></a><a id="applications"></a>Tīmekļa lietojumprogrammas
 

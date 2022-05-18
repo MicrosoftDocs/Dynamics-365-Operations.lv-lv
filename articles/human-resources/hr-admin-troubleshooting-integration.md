@@ -7,19 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 308e2a538666522edf4a76be13b93c82c3f3a774
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 9b83250bdb54ea6e78709dd3a3ea434a994f6211
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071114"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694009"
 ---
 # <a name="integration-with-finance-faq"></a>Integrācija ar Finance bieži uzdotajiem jautājumiem
 
@@ -30,11 +29,11 @@ ms.locfileid: "8071114"
 
 
 
-Šajā tēmā ir sniegtas atbildes uz bieži uzdotiem jautājumiem par to, kādi dati tiek sinhronizēti, integrējot Dynamics 365 Human Resources ar Dynamics 365 Finance.
+Šī tēma atbild uz bieži uzdotiem jautājumiem par to, kādi dati tiek sinhronizēti Dynamics 365 Human Resources, kad ir integrēti ar Dynamics 365 Finanses.
 
 ## <a name="can-i-edit-the-dynamics-365-talent-application-user-in-power-apps"></a>Vai var rediģēt Dynamics 365 Talent programmas lietotāju Power Apps?
 
-Nr.p.k. Ja rediģējat Human Resources programmas lietotāju, integrēšana starp Personāla vadību un Dataverse, iespējams, neizdosies. Sekojošajā tabulā ir redzami Talent programmas lietotāja noklusējuma iestatījumi.
+Nē. Ja rediģējat Human Resources programmas lietotāju, integrēšana starp Personāla vadību un Dataverse, iespējams, neizdosies. Sekojošajā tabulā ir redzami Talent programmas lietotāja noklusējuma iestatījumi.
 
 | Pilnais vārds un uzvārds | Lietojumprogrammas ID | Azure AD Objekta ID | Lietojumprogrammas ID URI |
 | --- | --- | --- | --- |
@@ -44,7 +43,7 @@ Nr.p.k. Ja rediģējat Human Resources programmas lietotāju, integrēšana star
 
 ## <a name="is-all-data-synchronized-or-just-some-data-entities"></a>Vai tiek sinhronizēti visi dati vai tikai daži datu elementi?
 
-Tiek sinhronizēta datu apakškopa. Visu elementu sarakstu skatiet [Integrācija ar Dynamics 365 Finance](hr-admin-integration-finance.md).
+Tiek sinhronizēta datu apakškopa. Visu elementu sarakstu skatiet sadaļā Integrācija ar [Dynamics 365 Finansēm](hr-admin-integration-finance.md).
 
 ## <a name="why-dont-i-see-any-data-synced-to-dataverse"></a>Kāpēc es neredzu nevienu datu sinhronizāciju Dataverse?
 
@@ -89,7 +88,7 @@ Izņēmumu apstrādei nav nepieciešama īpaša iestatīšana. Datu integrētāj
 
 ## <a name="can-i-set-up-bi-directional-integration"></a>Vai var iestatīt divvirzienu integrāciju?
 
-Nē, integrācija pašlaik ir vienvirziena (cilvēkresursi uz finansēm un darbībām). Tomēr ir pieejama noklusējuma veidne datu sūtīšanai no Human Resources uz Finance.
+Nē, integrācija šobrīd ir vienvirziena (Cilvēkresursi- Finanses un operācijas). Tomēr ir pieejama noklusējuma veidne datu sūtīšanai no Human Resources uz Finance.
 
 ## <a name="can-i-allow-record-deletion-as-part-of-my-integration"></a>Vai var atļaut ieraksta dzēšanu integrācijas ietvaros?
 
@@ -157,7 +156,7 @@ Veicot Human Resources ieviešanu, pārbaudiet, vai Human Resources un Finance n
 
 ## <a name="when-creating-my-connection-set-i-am-unable-to-see-the-connection-in-the-connection-drop-down-list-what-do-i-do"></a>Izveidojot savienojumu kopu, savienojums netiek rādīts nolaižamajā sarakstā Savienojums. Ko darīt?
 
-Pārliecinieties, ka, veidojot savienojumus, izvēlaties Dynamics 365 Finance un Dataverse.
+Pārliecinieties, veidojot savienojumus, izvēlieties Dynamics 365 Finanses un Dataverse.
 
 ## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Veicot nodarbinātību sinhronizāciju, tiek parādīti kļūdas ziņojumi “CompanyInfo_FK neeksistē” vai “Vērtība “31.12.2154. 23:59:59” laukā “Nodarbinātības beigu datums” nav atrasta saistītajā tabulā “Nodarbinātība”.” Ko darīt?
 

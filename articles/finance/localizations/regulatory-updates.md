@@ -2,7 +2,7 @@
 title: Regulēšanas atjauninājumi
 description: Šajā tēmā sniegts plānoto un izdoto uzraudzības atjauninājumu saraksts Microsoft Dynamics 365 Finansēm.
 author: VStamberg
-ms.date: 01/20/2022
+ms.date: 04/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 734a4abf4559d05b1f96bcfbde151b49bba8e827
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
-ms.translationtype: HT
+ms.openlocfilehash: 4e9a74f814e6ae93fd5c12b05c4fbd00ad503fca
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649134"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711919"
 ---
 # <a name="regulatory-updates"></a>Regulēšanas atjauninājumi
 
@@ -29,11 +29,11 @@ Normatīvie atjauninājumi ir līdzekļi, kas tiek ieviesti, lai atbalstītu jau
 
 Microsoft cenšas ieviest jaunas normatīvās prasības iespējami drīz. Faktiskais nodrošināšanas datums ir atkarīgs no likuma izsludināšanas datuma, detalizētās informācijas par prasībām pieejamību no vietējām iestādēm, validācijas rīku pieejamības, kā arī no izmaiņu apjoma un sarežģītības.
 
-Mēs plānojam nodrošināt normatīvos atjauninājumus kā vienas versijas pakalpojuma atjauninājumus, kas tiek izlaisti savlaicīgi, lai klienti var veikt atjauninājumus un sagatavoties uz izmaiņu spēkā stāšanās datumu (attiecas uz transakciju normatīvajiem atjauninājumiem) vai pirmajam obligātajam ziņošanas termiņam (attiecas uz normatīvajiem atjauninājumiem, kas saistīti ar atskaišu iesniegšanu). Klienti un partneri var priekšskatīt jaunot normatīvos atjauninājumus priekšskatījuma agrīnas pieņemšanas programmā (Preview Early Adoption Program, PEAP).
+Mēs plānojam nodrošināt normatīvos atjauninājumus kā vienas versijas pakalpojuma atjauninājumus, kas tiek izlaisti savlaicīgi, lai klienti var veikt atjauninājumus un sagatavoties uz izmaiņu spēkā stāšanās datumu (attiecas uz transakciju normatīvajiem atjauninājumiem) vai pirmajam obligātajam ziņošanas termiņam (attiecas uz normatīvajiem atjauninājumiem, kas saistīti ar atskaišu iesniegšanu). Debitori un partneri var priekšskatīt jaunos regulēšanas atjauninājumus priekšskatījuma pakotnē, kas paredzēta katram pakalpojuma atjauninājumam.
 
 Ja paziņojums tiek saņemts vēlu, pieprasījuma dati vai validācijas instrumentu pieejamība tiek novēlota vai izmaiņas ir īpaši apjomīgas un sarežģītas, iespējams, ka normatīvo atjauninājumu nevar sagatavot līdz ikmēneša atjauninājuma vispārējās pieejamības datumam. Šādos gadījumos normatīvais atjauninājums būtiskiem pieejamajiem ikmēneša atjauninājumiem tiek nosūtīts labojumfailu veidā.
 
-Reglamentējošie atjauninājumi, kas tiek izlaisti kā daļa no mēneša atjauninājumiem, tiek norādīti tikai pēc laidiena versijas. Regulējošie atjauninājumi, kas tiek piegādāti kā labojumi vai kā daļa no laidiena priekšskatījuma, var tikt noteikti, izmantojot saīsinājumus HF un PEAP, attiecīgi. 
+Reglamentējošie atjauninājumi, kas tiek izlaisti kā daļa no mēneša atjauninājumiem, tiek norādīti tikai pēc laidiena versijas. Regulēšanas atjauninājumi, kas tiek piegādāti kā karsts labojums vai kā daļa no izlaišanas priekšskatījuma, var tikt identificēti, attiecīgi izmantojot saīsinājumus DK un Preview. 
 
 Informāciju par jaunākajiem normatīvo atjauninājumu plāniem skatiet nākamajā tabulā.   
 

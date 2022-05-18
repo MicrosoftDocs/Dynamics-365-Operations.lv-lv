@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "14151"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 04897e3a7765264ab2e664422caa928c49b9cc61
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: f3d6f328ff3fd4da6ad3e7d4f3f751d3be692736
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982043"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713195"
 ---
 # <a name="customer-payment-predictions"></a>Debitoru maksājumu prognozes
 
@@ -66,6 +66,6 @@ Daudzos uzņēmumos iekasēšanas process ir reaktīva darbība. Citiem vārdiem
 
 ## <a name="methodology"></a>Metodoloģija
 
-Iepriekš parasti bija sarežģīti izstrādāt un izvietot mākslīgā intelekta (AI) risinājumu. Procesam bija nepieciešama datu zinātnieku grupa, mācību priekšmetu eksperti un inženieri, kas strādā ilgāku laika periodu, lai formulētu, attīstītu, izvietotu un uzturētu izmantojamu AI risinājumu. Debitoru maksājumu prognozes atvieglo AI risinājuma izvietošanu un izmantošanu pakalpojumā Microsoft Dynamics 365 Finance. Microsoft ir AI risinājumu prepakošana, kuru pamatā ir korporācija Microsoft AI Builder. Tāpēc lietotāji var izvietot AI risinājumu ar vienu peles klikšķi, lai izmantotu inteliģento prognožu priekšrocības. Ja neesat apmierināts ar prognozēšanas precizitāti, power lietotājs var (vēlreiz ar vienu peles klikšķi) ievadīt paplašinājuma pieredzi, un pēc tam atlasiet vai notīriet laukus, kas tiek izmantoti AI Builder prognozēšanas ģenerēšanas laikā. Kad esat gatavs, varat apmācīt modeli un publicēt izmaiņas. Jaunais apmācītais modelis tiks automātiski izvēlēts, lai ģenerētu prognozes pakalpojumā Dynamics 365 Finance.
+Iepriekš parasti bija sarežģīti izstrādāt un izvietot mākslīgā intelekta (AI) risinājumu. Procesam bija nepieciešama datu zinātnieku grupa, mācību priekšmetu eksperti un inženieri, kas strādā ilgāku laika periodu, lai formulētu, attīstītu, izvietotu un uzturētu izmantojamu AI risinājumu. Debitoru maksājumu prognozes atvieglo AI Microsoft Dynamics risinājuma izvietošanu un izmantošanu 365 finansēs. Microsoft ir AI risinājumu prepakošana, kuru pamatā ir korporācija Microsoft AI Builder. Tāpēc lietotāji var izvietot AI risinājumu ar vienu peles klikšķi, lai izmantotu inteliģento prognožu priekšrocības. Ja neesat apmierināts ar prognozēšanas precizitāti, power lietotājs var (vēlreiz ar vienu peles klikšķi) AI Builder ievadīt paplašinājuma pieredzi, un pēc tam atlasiet vai notīriet laukus, kas tiek izmantoti prognozēšanas ģenerēšanas laikā. Kad esat gatavs, varat apmācīt modeli un publicēt izmaiņas. Jaunais ierobežotais modelis tiks automātiski paņemts, lai ģenerētu prognozes Dynamics 365 Finansēs.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
