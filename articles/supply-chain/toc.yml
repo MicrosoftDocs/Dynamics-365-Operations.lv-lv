@@ -86,8 +86,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Finance + Operations (on-premises) iegāde
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Noliktavas konfigurēšana lokālajiem izvietojumiem
-                  href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
             - name: Dokumentācijas resursi
               items:
                 - name: Palīdzības sistēma
@@ -3299,8 +3297,8 @@
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: 'Krājumu reģistrēšana pamata noliktavā aktivizētam krājumam, izmantojot krājumu saņemšanas žurnālu'
                   href: warehousing/tasks/register-items-basic-warehousing.md
-                - name: "Ienākošo\_IPPN importēšana, izmantojot V2\_datu elementu"
-                  href: warehousing/import-asn-v2-data-entity.md
+                - name: "Ienākošo\_IPPN importēšana, izmantojot V3\_datu elementu"
+                  href: warehousing/import-asn-data-entity.md
                 - name: Preču no saņēmēja noliktavas pārkraušana sadales centrā uz veikaliem
                   href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
                 - name: Vietas direktīvas iestatīšana pirkšanas pasūtījuma izvietošanai

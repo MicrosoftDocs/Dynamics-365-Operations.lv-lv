@@ -1,25 +1,23 @@
 ---
 title: Bieži uzdotie jautājumi par finanšu pārskatu veidošanu
 description: Šajā tēmā sniegtas atbildes uz dažiem bieži uzdotiem jautājumiem par finanšu pārskatu veidošanu.
-author: jiwo
+author: jinniew
 ms.date: 07/07/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3690a541b503281f204221a72bfb5a371984d9e4
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: b5e0702864815c630f35e3f5b753ece1cb1daa71
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605283"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722301"
 ---
 # <a name="financial-reporting-faq"></a>Bieži uzdotie jautājumi par finanšu pārskatu veidošanu
 
@@ -57,7 +55,7 @@ Ja jums ir pārskats, kurā nav atbilstošu bilanču, veiciet tālāk norādīt�
 9. Ģenerējiet pārskatu. 
 10. Eksportējiet pārskatu uz Microsoft Excel.
 
-### <a name="in-dynamics-365-finance"></a>Programmā Dynamics 365 Finance
+### <a name="in-dynamics-365-finance"></a>Risinājumā Dynamics 365 Finance:
 
 1. Dodieties uz **Virsgrāmata \> Pieprasījumi un pārskati \> Apgrozījuma bilance**.
 2. Iestatiet tālāk norādītos laukus.
@@ -104,7 +102,7 @@ Tāpat, kad pārskati tiek ģenerēti, izmantojot valūtas pārrēķināšanu v�
 
 ## <a name="what-are-the-estimated-data-mart-integration-intervals"></a>Kādi ir paredzētie Data Mart integrācijas intervāli?
 
-Financial Reporter izmanto 16 uzdevumus, lai kopētu Dynamics 365 Finance datus Financial Reporter datubāzē. Tālāk sniegtajā tabulā uzskaitīti šie 16 uzdevumi un parādīts intervāls, kas norāda, cik bieži katrs uzdevums tiek izpildīts. Intervālus nevar mainīt.
+Financial Reporter izmanto 16 uzdevumus, lai kopētu Dynamics 365 Finance datus Financial Reporter datubāzē. Tālāk sniegtajā tabulā uzskaitīti šie 16 uzdevumi un parādīts intervāls, kas norāda, cik bieži katrs uzdevums tiek izpildīts. Intervālus nevar mainīt.
 
 | Nosaukums                                                       | Intervāls | Intervāla hronometrāža |
 |------------------------------------------------------------|----------|-----------------|

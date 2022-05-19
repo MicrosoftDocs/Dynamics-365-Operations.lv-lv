@@ -600,6 +600,8 @@
                       href: wallets.md
                     - name: Uzlaboti maksājumi vitrīnas norēķinos
                       href: dev-itpro/enhanced-sca.md
+                    - name: PayPal ekspresmaksājumu konfigurēšana
+                      href: dev-itpro/express-payments-paypal.md
                     - name: Bieži uzdotie jautājumi par maksājumiem
                       href: dev-itpro/payments-retail.md
                 - name: E-pasta ziņojumi un paziņojumi
@@ -958,6 +960,8 @@
               href: online-store-overview.md
             - name: E-komercijas vietnes izveide
               items:
+                - name: Kanālu kartēšana uz e-komercijas vietnēm
+                  href: map-channels-sites.md
                 - name: Domēna nosaukuma konfigurēšana
                   href: configure-your-domain-name.md
                 - name: Jauna e-komercijas nomnieka izvietošana
@@ -2560,18 +2564,20 @@
                       href: dev-itpro/pos-extension/pos-extension-basics.md
                     - name: "POS paplašinājumu migrēšana uz Commerce\_SDK"
                       href: dev-itpro/pos-extension/migrate-pos-extension.md
+                    - name: POS paplašinājuma pakotnes projekta izveide
+                      href: dev-itpro/pos-extension/create-pos-extension-package.md
                     - name: 'Store Commerce paplašinājumu atkļūdošana, izmantojot VS Code'
                       href: dev-itpro/sc-debug.md
+                    - name: Aizzīmogoti MPOS un CPOS paplašinājumi
+                      items:
+                        - name: "Modern\_POS paplašinājuma pakotnei paredzēta .appx faila izveide"
+                          href: dev-itpro/pos-extension/create-pos-extension-appx.md
+                        - name: MPOS (aizzīmogoti) un CPOS paplašinājumu atkļūdošana
+                          href: dev-itpro/pos-extension/debug-pos-extension.md
                 - name: Vides iestatīšana
                   items:
                     - name: Lokāla izstrādes vide
                       href: dev-itpro/setup-local-dev-env.md
-                    - name: POS paplašinājuma pakotnes projekta izveide
-                      href: dev-itpro/pos-extension/create-pos-extension-package.md
-                    - name: "Modern\_POS paplašinājuma pakotnei paredzēta .appx faila izveide"
-                      href: dev-itpro/pos-extension/create-pos-extension-appx.md
-                    - name: "POS\_paplašinājumu atkļūdošana"
-                      href: dev-itpro/pos-extension/debug-pos-extension.md
                 - name: API un atsauce
                   items:
                     - name: "POS\_paplašinājuma pakotnes informācijas skatīšana"
@@ -2834,6 +2840,10 @@
                           href: e-commerce-extensibility/instance-cache.md
                         - name: Moduļa CSS optimizācija
                           href: e-commerce-extensibility/module-css-optimization.md
+                        - name: Attēlu optimizēšana preču informācijas lapās
+                          href: e-commerce-extensibility/optimize-images-pdp.md
+                        - name: Attēlu optimizēšana meklēšanas un kategoriju lapās
+                          href: e-commerce-extensibility/optimize-images-search-cat.md
                     - name: Telemetrija un analīze
                       items:
                         - name: Telemetrijas reģistrētājs

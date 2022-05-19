@@ -1,33 +1,33 @@
 ---
 title: Finance mājas lapa
-description: Šajā tēmā ir saraksts ar palīdzības tēmām un citiem resursiem finanšu pārvaldības līdzekļiem programmā Microsoft Dynamics 365 Finance.
-author: roschlom
+description: Šajā tēmā ir saraksts ar palīdzības tēmām un citiem resursiem finanšu pārvaldības līdzekļiem programmā Microsoft Dynamics 365 Finance.
+author: kfend
 ms.date: 11/04/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "206434"
 - intro-internal
 ms.assetid: 8a6238bd-9d6f-48d9-8752-3966836364a4
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 13a5e12c7ea45ff343a5c7ae14b8ed5a030aabf5
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 1018cb8c3279a27a55a415c23405571e23ab40e1
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753725"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713703"
 ---
 # <a name="finance-home-page"></a>Finance mājas lapa
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir saraksts ar palīdzības tēmām un citiem resursiem finanšu pārvaldības līdzekļiem programmā Microsoft Dynamics 365 Finance. 
+Šajā tēmā ir saraksts ar palīdzības tēmām un citiem resursiem finanšu pārvaldības līdzekļiem programmā Microsoft Dynamics 365 Finance. 
 
 Atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.
 
@@ -80,6 +80,6 @@ Lai iegūtu informāciju par pirkumu, krājumu un ražošanas pārvaldības iesp
 
 ## <a name="elearning-courses"></a>Elektronisko mācību kursi
 
-Informāciju par tiešsaistes kursiem un apmācību skatiet šeit: [Dynamics 365 Finance platformā Microsoft Learn](/learn/browse/?products=dynamics-finance&resource_type=learning+path).
+Informāciju par tiešsaistes kursiem un apmācību skatiet šeit: [Dynamics 365 Finance platforma Microsoft Learn](/learn/browse/?products=dynamics-finance&resource_type=learning+path).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

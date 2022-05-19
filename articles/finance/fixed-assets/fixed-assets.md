@@ -1,6 +1,6 @@
 ---
 title: Pamatlīdzekļu sākumlapa
-description: Šī tēma nodrošina piekļuvi resursiem, kas var palīdzēt jums izmantot pamatlīdzekļus pakalpojumā Microsoft Dynamics 365 Finance.
+description: Šī tēma nodrošina piekļuvi resursiem, kas var palīdzēt jums izmantot pamatlīdzekļus pakalpojumā Microsoft Dynamics 365 Finance.
 author: moaamer
 ms.date: 08/31/2017
 ms.topic: index-page
@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "21481"
 - intro-internal
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1a31273e16275750594ef8d9b99f9a4cd2222ef
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: cee27143ca005f2fa42899365933ec3014aa13f6
+ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674855"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8720451"
 ---
 # <a name="fixed-assets-home-page"></a>Pamatlīdzekļu sākumlapa
 
 [!include [banner](../includes/banner.md)]
 
-Šī tēma nodrošina piekļuvi resursiem, kas var palīdzēt jums izmantot pamatlīdzekļus pakalpojumā Microsoft Dynamics 365 Finance. Pamatlīdzekļi ir vērtību krājumi, kas pieder atsevišķai personai vai organizācijai. Krājumi ietver ēkas, transporta līdzekļus, zemi un aprīkojumu. 
+Šī tēma nodrošina piekļuvi resursiem, kas var palīdzēt jums izmantot pamatlīdzekļus pakalpojumā Microsoft Dynamics 365 Finance. Pamatlīdzekļi ir vērtību krājumi, kas pieder atsevišķai personai vai organizācijai. Krājumi ietver ēkas, transporta līdzekļus, zemi un aprīkojumu. 
 
 Pamatlīdzekļiem var iestatīt un ievadīt informāciju par to iegādi un pēc tam to pārvaldīt līdzekļus, samazinot to vērtību un iestatot kapitalizācijas slieksni, lai noteiktu nolietojumu. Varat aprēķināt pamatlīdzekļu pielāgojumus, kā arī izslēgt tos. Izmantojot virsgrāmatu kopā ar pamatlīdzekļiem, jūs varat skatīt visu pamatlīdzekļu pašreizējo vērtību. Pamatlīdzekļu apstrādes veidam ir jāatbilst gan starptautiskajiem grāmatvedības standartiem, gan katras valsts/reģiona grāmatvedības likumdošanai. Prasības var ietvert noteikumus pārskatiem par pamatlīdzekļu iegādi un izslēgšanas darbībām, par nolietojumu, kalpošanas ilgumu, vērtības palielināšanu un samazināšanu. Pamatlīdzekļu funkcionalitāte ietver daudzus no šiem standartiem un noteikumiem.
 
@@ -44,7 +44,7 @@ Lai uzzinātu, kādus jaunus līdzekļus ir plānots ieviest, skatiet [Microsoft
 
 #### <a name="blogs"></a>Emuāri
 
-Varat atrast viedokļus, jaunumus un citu informāciju [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) un [Microsoft Dynamics 365 Finance and Operations — Financials emuārā](https://community.dynamics.com/365/financeandoperations/b/financials).
+Varat atrast viedokļus, jaunumus un citu informāciju [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) un [Microsoft Dynamics 365 Finance and Operations — Financials emuārā](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Microsoft Dynamics Operations partneru kopienas emuārā](https://community.dynamics.com/partner/b/operationspartnercommunityblog) Microsoft Dynamics partneriem tiek nodrošināts vienots resurss, kur uzzināt par jaunumiem un tendencēm risinājumā Dynamics 365.
 

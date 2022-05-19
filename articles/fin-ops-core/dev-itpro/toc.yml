@@ -48,12 +48,8 @@
               href: dev-tools/version-models-build.md
         - name: Datu integrācija
           items:
-            - name: Finance and Operations programmu un trešo pušu pakalpojumu integrācija
+            - name: Finanšu un operāciju programmu un trešo pušu pakalpojumu integrācija
               href: data-entities/integration-overview.md
-            - name: Uz prioritāti balstīta ierobežošana
-              hreF: data-entities/priority-based-throttling.md
-            - name: Bieži uzdotie jautājumi par uz prioritāti balstītu ierobežošanu
-              href: data-entities/throttling-faq.md
             - name: Datu integrācijas API
               items:
                 - name: Datu pārvaldības pakotnes REST API
@@ -74,6 +70,18 @@
                   href: data-entities/recurring-integrations.md
                 - name: 'Pakalpojumu testēšana, izmantojot trešo pušu utilītas'
                   href: data-entities/third-party-service-test.md
+            - name: Pakalpojuma aizsardzības ierobežojumi
+              items:
+                - name: Pakalpojuma aizsardzības API ierobežojumi
+                  href: data-entities/service-protection-api-limits.md
+                - name: Prioritātes noteikšanas ierobežošana
+                  href: data-entities/priority-based-throttling.md
+                - name: Operāciju atkārtošana
+                  href: data-entities/service-protection-retry-operations.md
+                - name: API ierobežošanas pārraudzība
+                  href: data-entities/service-protection-monitoring.md
+                - name: API caurlaides maksimizēšana
+                  href: data-entities/service-protection-maximizing-api-throughput.md
             - name: Finance and Operations savienotājs
               href: data-entities/fin-ops-connector.md
             - name: Izstrāde integrācijai
@@ -398,6 +406,8 @@
                       href: deployment/onprem-SSRSHA.md
                     - name: Starpniekserveru konfigurēšana lokālās vidēs
                       href: deployment/onprem-reverseproxy.md
+                    - name: Noliktavas programmas konfigurēšana lokālajiem izvietojumiem
+                      href: deployment/warehousing-for-on-premise-deployments.md
                     - name: Tīkla printera ierīču instalēšana lokālās vidēs
                       href: analytics/install-network-printer-onprem.md
                     - name: Lokālā diagnostika
@@ -472,16 +482,14 @@
                   href: help/language-locale.md
                 - name: Sadarbība pie palīdzības satura paplašināšanas un pielāgošanas
                   href: help/contributor-guide.md
-            - name: Izvietošanas apsvērumi
+            - name: Finanšu un operāciju programmu reģionālie pakalpojumi
               items:
-                - name: Suverēnas un lokālās mākoņa izvietošanas opcijas Dynamics 365 Finance un Dynamics 365 Supply Chain Management
+                - name: Lokālās ģeogrāfiskās vietas
                   href: deployment/deployment-options-geo.md
-                - name: Finance un Supply Chain Management ASV Government Community Cloud (GCC)
+                - name: ASV Government Community Cloud (GCC)
                   href: deployment/us-gcc-deployment.md
-                - name: Finance un Supply Chain Management darbību nodrošina 21Vianet Ķīnā
+                - name: Darbību nodrošina 21Vianet Ķīnā
                   href: deployment/china-local-deployment.md
-                - name: Finance and Operations programmas Francijā
-                  href: deployment/france-local-deployment.md
         - name: Izstrāde un pielāgošana
           items:
             - name: Izstrādes un pielāgošanas sākumlapa
@@ -559,7 +567,7 @@
                     - name: Modeļu un datu modeļa elementu izveides pārskats
                       href: dev-tools/create-data-model-elements.md
                     - name: Nosaukumdošanas vadlīnijas paplašinājumiem
-                      href: /dynamics365/fin-ops-core/dev-itpro/naming-guidelines-extensions
+                      href: /dynamics365/fin-ops-core/dev-itpro/extensibility/naming-guidelines-extensions
                     - name: Modeļu pielāgošanas izslēgšana un funkcionalitātes atzīšana par novecojušu
                       href: dev-tools/lock-models.md
                 - name: Pielāgojumu analizētāja pārskats

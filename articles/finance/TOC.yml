@@ -86,8 +86,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/finance/toc.json
                 - name: Finance + Operations (on-premises) iegāde
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
-                - name: Noliktavas konfigurēšana lokālajiem izvietojumiem
-                  href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
             - name: Dokumentācijas resursi
               items:
                 - name: Palīdzības sistēma
@@ -272,6 +270,8 @@
                   href: accounts-payable/tasks/research-resolve-exceptions.md
             - name: Kreditoru grāmatošanas metodes
               href: accounts-payable/vendor-posting-profiles.md
+            - name: Maksu kodu izveide
+              href: accounts-receivable/create-charges-codes.md
             - name: Kreditora rēķina datumi
               href: accounts-payable/vendor-invoice-dates.md
             - name: Ārvalstu valūtas pārvērtēšana moduļiem “Kreditori“ un “Debitori”
@@ -292,9 +292,11 @@
               items:
                 - name: Centralizētie maksājumi kreditoriem
                   href: accounts-payable/centralized-payments-accounts-payable.md
+                - name: Pagaidu maksājumu iestatīšana un apstrāde
+                  href: accounts-receivable/set-up-and-process-bridged-payments.md
                 - name: Nosegšanas konfigurēšana
                   href: cash-bank-management/configure-settlement.md
-                - name: Atlikuma nosegšana
+                - name: Atlikuma nokārtošana
                   href: cash-bank-management/settle-remainder.md
                 - name: Kreditoru maksājumu pārskats
                   href: cash-bank-management/tasks/vendor-payment-overview.md
@@ -344,7 +346,7 @@
               href: accounts-receivable/tasks/establish-customer-payment-fees.md
             - name: Debitora maksājumu ieskati (priekšskatījums)
               href: accounts-receivable/payment-insights-overview.md
-            - name: Debitoru grāmatošanas profili
+            - name: Debitoru grāmatošanas metodes
               href: accounts-receivable/customer-posting-profiles.md
             - name: 'Debitoru kopēšana, izmantojot koplietotas numuru sērijas'
               href: accounts-receivable/copy-customer.md
@@ -354,8 +356,12 @@
               href: accounts-receivable/set-up-process-recurring-invoices.md
             - name: Uzskaites sadales un apakšgrāmatas žurnālu ieraksti brīva teksta rēķiniem
               href: accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
-            - name: Debitoru grāmatošanas profili
+            - name: Debitoru parādu grāmatošana
+              href: general-ledger/accts-recvble-posting.md
+            - name: Debitoru grāmatošanas metodes
               href: accounts-receivable/customer-posting-profiles.md
+            - name: Maksu kodu izveide
+              href: accounts-receivable/create-charges-codes.md
             - name: SEPA tiešā debeta pārskats
               href: accounts-receivable/sepa-direct-debit-overview.md
             - name: SEPA tiešā debeta pilnvarojuma iestatīšana
@@ -436,6 +442,8 @@
                       href: accounts-receivable/terminate-billing-schedule.md
                     - name: Saskaņošanas datuma scenāriji
                       href: accounts-receivable/sb-alignment-date-examples.md
+                    - name: Ieņēmumu sadale
+                      href: accounts-receivable/sb-revenue-split.md
                 - name: Ieņēmumu un izdevumu atlikšanas
                   items:
                     - name: Ieņēmumu un izdevumu atlikšanu iestatīšana
@@ -452,6 +460,8 @@
               items:
                 - name: Debitoru maksājumu pārskats
                   href: cash-bank-management/tasks/customer-payment-overview.md
+                - name: Pagaidu maksājumu iestatīšana un apstrāde
+                  href: accounts-receivable/set-up-and-process-bridged-payments.md
                 - name: Centralizētie maksājumi modulim “Debitori”
                   href: accounts-receivable/centralized-payments-accounts-receivable.md
                 - name: Debitora maksājumu deponēšana
@@ -1026,6 +1036,14 @@
                       href: general-ledger/import-currency-exchange-rates.md
                     - name: Divkāršā valūta
                       href: general-ledger/dual-currency.md
+                - name: Grāmatošanas metodes
+                  items:
+                    - name: Grāmatošanas metožu pārskats
+                      href: general-ledger/pstg-prfles-ovrvw.md
+                    - name: Ieteicamā grāmatošanas metožu prakse
+                      href: general-ledger/recommended-practices-pstg-prfles.md
+                    - name: Automātisko darījumu konti
+                      href: general-ledger/accounts-for-auto-transactions.md
                 - name: Sadalījuma kārtulas
                   items:
                     - name: Virsgrāmatas sadalījuma kārtulas

@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: kweekley
+ms.author: moaamer
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b0560024d87ad72c7ab77eaff52a305a4ab5a089
-ms.sourcegitcommit: cd0ba5f0ac7c44d36559a3e6e0fffb6ed18f9a20
+ms.openlocfilehash: 19d23c2c5a8fabd6799c6240c25f3ede4064c001
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947266"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725605"
 ---
 # <a name="year-end-activities-faq"></a>Bieži uzdotie jautājumi par gada beigu aktivitātēm 
 
@@ -170,9 +170,9 @@ Iespējams, organizācijai būs manuāli jāizveido 1099 transakcijas, kas nav s
 
 Manuāli izveidotas 1099 transakcijas netiek atjauninātas, izmantojot procesu **Atjaunināt visu** vai **Pārrēķināt esošo 1099 summas** utilītā **Atjaunināt 1099**.
 
-## <a name="accounts-payable-1099--does-dynamics-365-finance-support-the-1096-form"></a>Parādi kreditoriem: 1099 — vai Dynamics 365 Finance atbalsta veidlapu 1096? 
+## <a name="accounts-payable-1099--does-dynamics-365-finance-support-the-1096-form"></a>Parādi kreditoriem: 1099 — vai Dynamics 365 Finance atbalsta veidlapu 1096? 
 
-Dynamics 365 Finance nedrukā 1096 gada kopsavilkumu un veidlapu ASV Informācijas atgriešanas pārsūtīšana.
+Dynamics 365 Finance nedrukā 1096 gada kopsavilkumu un veidlapu ASV Informācijas atgriešanas pārsūtīšana.
 
 ## <a name="accounts-payable-1099--are-there-any-new-features-that-support-1099-reporting-for-public-sector"></a>Parādi kreditoriem: 1099 — vai ir kāds jauns līdzeklis, kas atbalsta 1099 pārskatu sniegšanu publiskajā sektorā? 
 Ir pievienots jauns publiskā sektora līdzeklis **Atjaunināt 1099 informāciju pēc galvenā konta**, ko var iespējot darbvietā **Līdzekļu pārvaldība**. Šis līdzeklis ļauj saistīt 1099 kreditora vērtības ar galveno kontu uzskaites sadalē, nevis ar kreditora ieraksta noklusējuma kontu.
