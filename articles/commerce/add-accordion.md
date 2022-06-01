@@ -2,7 +2,7 @@
 title: Akordeona modulis
 description: Šajā tēmā aplūkoti Accordion moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fa2515a0cbc5b69a1a69e15ec9e1ba2739fa2fbeffb5b0eb22b49fd8cab18e6f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e17476d745da6f498b4f3ed90d55b0d13a0264b6
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719531"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780693"
 ---
 # <a name="accordion-module"></a>Akordeona modulis
 
@@ -56,18 +56,18 @@ Attēlā zemāk redzams akordeona moduļa piemērs, kas tiek izmantots informāc
 Lai pievienotu akordeona moduli FAQ lapai un iestatītu tās rekvizītus vietņu veidotājā, veiciet tālāk minētās darbības.
 
 1. Dodieties uz **Lapas** un izmantojiet Fabrikam mārketinga veidni (vai jebkuru veidni, kurai nav ierobežojumu), lai izveidotu jaunu lapu, kuras nosaukums ir **Veikala FAQ**.
-1. **Noklusējuma lapas** slotā **Galvenais** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
-1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Konteiners** un pēc tam atlasiet **Labi**.
-1. Slotā **Konteiners** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
-1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Akordeona krājums** un pēc tam atlasiet **Labi**.
+1. Noklusējuma lapas **galvenajam** slotam **atlasiet** daudzpunkti (**...**) un pēc tam atlasiet Pievienot **moduli**.
+1. Dialoglodziņā Moduļu **atlase** atlasiet moduli Konteiners **un** pēc tam atlasiet **Labi**.
+1. Konteinera slotā **atlasiet** daudzpunkti (**...) un** pēc tam atlasiet Pievienot **moduli**.
+1. Dialoglodziņā Atlasīt **moduļus** atlasiet moduli Summu **moduli un** pēc tam atlasiet **Labi**.
 1. Akordeona moduļa rekvizītu rūtī atlasiet blakus zīmuļa simbolam **Virsraksts**.
 1. Dialoglodziņa **Virsraksts** sadaļā **Virsraksta teksts** ievadiet **Bieži uzdotie jautājumi**. Tad atl. **Labi**.
 1. Akordeona moduļa rekvizītu rūtī atzīmējiet izvēles rūtiņu **Rādīt izvērstu visu** un pēc tam laukā **Saziņas stils** atlasiet **Neatkarīgs**.
-1. Slotā **Akordeons** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
-1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Akordeona krājums** un pēc tam atlasiet **Labi**.
+1. Izpildot **drošības slotu**, atlasiet daudzpunkti (**...**) un pēc tam atlasiet Pievienot **moduli**.
+1. Dialoglodziņā Atlasīt **moduļus** atlasiet moduli Summu **modulis Un** pēc tam atlasiet **Labi**.
 1. Akordeona krājuma moduļa rekvizītu rūtī sadaļā **Nosaukums** ievadiet virsraksta tekstu (piemēram, **Kā darbojas atgriešana?**).
-1. Slotā **Akordeona krājums** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
-1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Teksta bloks** un pēc tam atlasiet **Labi**.
+1. **Laika krājuma slotā** atlasiet elipsi (**...**) un pēc tam atlasiet Pievienot **moduli**.
+1. Dialoglodziņā Moduļu **atlase** atlasiet moduli Teksta bloķēšana **un** pēc tam atlasiet **Labi**.
 1. Teksta bloka moduļa rekvizītu rūtī ievadiet teksta rindkopu (piemēram, **Atgriešana ir jāapstrādā, izmantojot zvanu centru. Sazinieties ar 1-800-FABRIKAM atgriešanai. Precēm ir 30 dienu atgriešanas politika. Atgriešanas ir jāuzsāk šajā laika posmā**).
 1. Slotā **Akordeons** pievienojiet vēl dažus akordeona krājumu moduļus. Katrā akordeona krājuma modulī pievienojiet teksta bloka moduli, kam ir saturs.
 1. Atlasiet **Saglabāt** un pēc tam atlasiet **Priekšskatījums**, lai priekšskatītu lapu. Lapā tiks parādīts akordeona modulis ar pievienoto saturu.

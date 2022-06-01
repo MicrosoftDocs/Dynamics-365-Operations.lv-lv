@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: bc5f097a7f941dfa05f4011d9be5caffbb7f01b5f6e67cd7535ef3d1b13f59fe
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9812a828cb159400c6388f02f10e00694aa64ad
+ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740435"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809536"
 ---
 # <a name="create-legal-entities"></a>Izveidot juridiskās personas
 
@@ -62,7 +62,7 @@ Lai izveidotu jaunu juridisko personu programmā Dynamics 365 Commerce, veiciet 
 1. Sadaļā **Informācijas paneļa attēls** skatiet vai mainiet logotipu un informācijas paneļa attēlu, kas ir saistīti ar juridisko personu.
 1. Sadaļā **Nodokļa reģistrācija** ievadiet reģistrācijas numurus, kas tiek izmantoti, atskaitoties nodokļu iestādēm.
 1. Sadaļā **Nodoklis 1099** ievadiet 1099 informāciju par juridisko iestādi.
-1. Sadaļā **Nodokļu informācija** ievadiet nodokļu informāciju par juridisko iestādi.
+1. Sadaļā Informācija **par nodokļiem** ievadiet informāciju par nodokļiem juridiskajai personai.
 1. Atlasiet **Saglabāt**.
 
 Tālāk redzamajā attēlā parādīts juridiskas personas informācijas piemērs.

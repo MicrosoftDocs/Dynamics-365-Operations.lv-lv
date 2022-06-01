@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a2f7929026f41e921b71bc5a899810695c859902
-ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
+ms.openlocfilehash: 7e42c0b49a4083edd0e64551f4840bd74d412fc1
+ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8547793"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "8786843"
 ---
 # <a name="configure-inventory-visibility"></a>Krājumu redzamības konfigurēšana
 
@@ -60,7 +60,7 @@ Inventory Visibility pievienojumprogramma pievieno vairākus jaunus līdzekļus 
 
 Ja nezināt pareizo Krājumu redzamības pakalpojuma galapunktu, atveriet lapu **Konfigurācija** programmā Power Apps un pēc tam augšējā labajā stūrī atlasiet **Rādīt pakalpojuma galapunktu**. Lapa parādīs pareizo pakalpojuma galapunktu.
 
-## <a name="data-source-configuration"></a>Datu avota konfigurācija
+## <a name="data-source-configuration"></a><a name="data-source-configuration"></a>Datu avota konfigurācija
 
 Katrs datu avots atspoguļo sistēmu, no kuras nāk dati. Piemēram, datu avotu nosaukumi ietver `fno` (kas nozīmē "Dynamics 365 Finanšu un operāciju programmas") `pos` un (kas nozīmē "pārdošanas punkts"). Pēc noklusējuma Krājumu redzamības programma Supply Chain Management ir iestatīta kā noklusējuma datu avots (`fno`).
 
@@ -141,7 +141,7 @@ Lai pievienotu dimensiju kartējumus, rīkojieties šādi.
 
 Piemēram, ja datu avots ietver preces krāsas dimensiju, varat to kartēt uz `ColorId` pamatdimensiju, lai pievienotu pielāgotu `ProductColor` dimensiju `exterchannel` datu avotam. Pēc tam tā ir kartēta uz `ColorId` pamatdimensiju.
 
-### <a name="physical-measures"></a>Fiziskie mēri
+### <a name="physical-measures"></a><a name="data-source-configuration-physical-measures"></a>Fiziskie mēri
 
 Ja datu avots grāmato krājumu izmaiņas Krājumu redzamībai, tas grāmato šīs izmaiņas, izmantojot *fiziskos pasākumus*. Fiziskie pasākumi modificē daudzumu un atspoguļo krājumu statusu. Varat definēt savus fiziskos līdzekļus, balstoties uz jūsu prasībām. Vaicājumu pamatā var būt fiziskie pasākumi.
 
@@ -175,6 +175,9 @@ Ja datu avots ir Supply Chain Management, jums nav no jauna jāizveido noklusēj
 ### <a name="calculated-measures"></a>Aprēķinātie līdzekļi
 
 Varat izmantot Krājumu redzamību, lai pieprasītu gan krājumu fiziskos izmērus, gan *pielāgotos aprēķinātos izmērus*. Aprēķinātie pasākumi nodrošina pielāgotu aprēķināšanas formulu, kas sastāv no fizisko līdzekļu kombinācijas. Funkcionalitāte vienkārši ļauj definēt fizisko mērvienību kopu, kas tiks pievienota, un/vai fizisko mēru kopu, kas tiks atņemta, lai izveidotu pielāgotu mērījumu.
+
+> [!IMPORTANT]
+> Aprēķinātais līdzeklis ir fizisko mērījumu sastāvs. Tā formulā var būt iekļauti tikai fiziskie pasākumi bez dublikātiem, nevis aprēķinātajiem parādītajiem.
 
 Konfigurācija ļauj definēt modifikatoru kopu, kas tiek pievienota vai atņemta, lai iegūtu kopējo uzkrāto izvades daudzumu.
 
@@ -297,7 +300,7 @@ Risinājums ietver šo nodalījuma konfigurāciju pēc noklusējuma. *Tādēļ j
 
 ## <a name="product-index-hierarchy-configuration"></a><a name="index-configuration"></a>Preču indeksa hierarhijas konfigurācija
 
-Lielākā daļa laika rīcībā esošo krājumu vaicājums nebūs tikai augstākajā "kopsummas" līmenī. Tā vietā, iespējams, vēlēsieties skatīt arī rezultātus, kas uzkrāti, pamatojoties uz krājumu dimensijām.
+Lielākā daļa laika rīcībā esošo krājumu vaicājums nebūs tikai augstākajā "kopsummas" līmenī. Tā vietā, iespējams, vēlēsieties arī redzēt rezultātus, kas uzkrāti, pamatojoties uz krājumu dimensijām.
 
 Krājumu redzamība nodrošina elastību, neļaujot iestatīt _indeksus_. Šie indeksi ir balstīti uz dimensiju vai dimensiju kombināciju. Indeksu veido *kopas numurs*, *dimensija* un *hierarhija*, kā norādīts šajā tabulā.
 

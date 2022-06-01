@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 5c2eb6c8e18770eb149c445f662ab7a90aad81a7
-ms.sourcegitcommit: 367e323bfcfe41976e5d8aa5f5e24a279909d8ac
+ms.openlocfilehash: 73dbc2242639a54d687506e7c325fec4b9a95d12
+ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8660516"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8770159"
 ---
 # <a name="revenue-split-templates-in-subscription-billing"></a>Ieņēmumu sadalīšanas veidnes abonementa norēķinos
 
@@ -99,3 +99,54 @@ Lai izveidotu norēķinu grafiku, kurā ir vienība, kas ir iestatīta ieņēmum
 > - Pakārtotie krājumi tiek automātiski ievadīti pārdošanas pasūtījuma vai norēķinu grafika rindā.
 >
 > Ja opcija **Automātiski izveidot ieņēmumu sadalījumu ir** iestatīta uz **Nē**, funkcionalitāte tiek paskaidrota iepriekš.
+
+## <a name="additional-revenue-split-information"></a>Papildu ieņēmumu sadalīšanas informācija
+
+Kad pievienojat krājumu, kas ir daļa no ieņēmumu sadalīšanas, ņemiet vērā šādu informāciju: 
+
+- Vecākelementa summu nevar atlikt.
+- Atvasināto krājumu sākuma, beigu datuma, daudzuma, vienības, vietas un noliktavas vērtības ir balstītas uz pamatobjektu. Šīs vērtības pakārtotajiem krājumiem nevar mainīt. Visas pamatelementa izmaiņas ir jāveic. 
+- Cenu noteikšanas metode ir **Flat,** un to nevar mainīt.
+- Atvasinātos krājumus var pievienot vai noņemt.
+- Pamatobjektiem un pakārtotajiem krājumiem ir jāizmanto viena un tā pati krājumu grupa. 
+- Pakārtotajiem krājumiem var būt viens no šiem iestatījumiem:
+
+    - Lauki **Norēķinu biežums un** Norēķinu **intervāli** ir iestatīti uz to pašu vērtību, ar kuru tiek iestatīta pamatelements. 
+    - Lauks **Norēķinu biežums** ir iestatīts **uz Vienreizējs**. Šajā gadījumā rēķina intervālu lauks **automātiski** tiek iestatīts uz **1**. 
+
+- Pakārtoto krājumu neto summu summa ir vienāda ar vecākelementa summu. Ja sadalījuma metode ir Nulle **summas**, pakārtoto krājumu summu summa un pamatsumma ir 0 (nulle). 
+
+    > [!NOTE]
+    > Ja piešķiršanas metode ir Nulles **pamatsumma**, pakārtoto krājumu summa (nav nulle) ne vienāda ar pamatsummu, kas ir 0 (nulle). Šī sadalījuma metode tiek izmantota iekšējiem mērķiem, lai darbinieki varētu redzēt atvasinātos krājumus. Tomēr debitori var apskatīt tikai pamatelementu.
+
+- Ja pārdošanas pasūtījuma vairāku elementu izkārtošanas (MEA) **tips** ir Viens, atbilstošā vairāku elementu ieņēmumu sadalījuma darbības rinda tiek izveidota, kad tiek pievienoti pamatelementi un pakārtotie krājumi. 
+- Ja sadalījuma metode ieņēmumu sadalīšanai ir **Vienādas summas** un tiek mainīta pamatsumma, summas tiek pārrēķinātas visām pakārtotajām rindām. 
+- Ieņēmumu sadalīšanai, kur sadalījuma metode ir **Mainīga summa**, rodas šāda uzvedība:
+
+    - Pamatelementa neto summa tiek parādīta kolonnā **Pamata** summa. Šo vērtību var rediģēt. Tomēr vienības cena, neto summa un atlaide ir 0 (nulle), un to nevar rediģēt.
+    - Pakārtoto krājumu vienības cena ir 0 (nulle). Varat labot vienības cenu vai neto summu. Labojot vienu vērtību, cita vērtība tiek automātiski atjaunināta.
+
+- Ieņēmumu sadalīšanai, kur sadalījuma metode ir **Procenti**, rodas šāda uzvedība:
+
+    - Pamatelementa neto summa tiek parādīta kolonnā **Pamata** summa. Šo vērtību var rediģēt. Tomēr vienības cena, neto summa un atlaide ir 0 (nulle), un to nevar rediģēt. 
+    - Atvasināto krājumu neto summa tiek aprēķināta kā procenti *no*&times;*pamatsummas*.
+
+- Ieņēmumu sadalīšanai, kur sadalījuma metode ir **Vienāda summa**, rodas šāda uzvedība:
+
+    - Pamatelementa neto summa tiek parādīta kolonnā **Pamata** summa. Šo vērtību var rediģēt. Tomēr vienības cena, neto summa un atlaide ir 0 (nulle), un to nevar rediģēt. 
+    - Atvasināto krājumu neto summa tiek aprēķināta, vienlīdzīgi dalot vecākelementu summu starp visiem atvasinātajiem krājumiem. 
+    - Ja bērnelementus noņem vai pievieno, neto summa un vienības cenas tiek pārrēķinātas tā, lai visām pakārtotajām rindām būtu vienādas summas. 
+    - Ja pamatsvaru nevar dalīt vienādi, pēdējā pakārtotā krājuma neto summa un vienības cena var būt nedaudz lielāka vai mazāka par citu pakārtoto krājumu neto summu un vienības cenu. 
+
+- Ieņēmumu sadalīšanai, kur sadalījuma metode ir **Nulles summa**, rodas šāda uzvedība:
+
+    - Vienības cenu, neto summu un atlaidi var rediģēt. Pamatsumma ir 0 (nulle) un to nevar rediģēt. 
+    - Atvasināto krājumu daudzuma, vienības, vietas un noliktavas vērtības ir balstītas uz pamatvienību. Pakārtotajiem krājumiem šīs vērtības nevar mainīt. Visas pamatelementa izmaiņas ir jāveic. 
+    - Vienības cena un atvasināto krājumu neto cena ir 0 (nulle), un to nevar rediģēt. 
+
+- Ieņēmumu sadalīšanai, kur sadalījuma metode ir **Nulles pamatsumma**, rodas šāda uzvedība:
+
+    - Pamatelementa vienības cena, pamatsumma un neto summa ir 0 (nulle).
+    - Norēķinu grafikā pakārtotās rindas tiek parādītas tā, it kā tās tiktu pievienotas manuāli, un visas vērtības tiek atjauninātas, pamatojoties uz atlasīto norēķinu grafika grupu. Šīs vērtības var labot. Pakārtotajiem krājumiem **varat** **·** **piekļūt** eskalācijas un atlaides un Detalizētās cenu noteikšanas opcijām, izmantojot ievadīto daudzumu, **vienības** cenu, **·** **·** **atlaidi un neto summas laukus Skatīt norēķinu detalizētu informāciju.** 
+    - Pārdošanas pasūtījumā pakārtotajām rindām atlaide un atlaides procenti ir 0 (nulle). 
+    - Pamatelementa un pakārtoto krājumu norēķinu biežumu var mainīt, un katrai rindai var būt cits biežums. Tomēr pamatelements tiek automātiski atjaunināts, lai tas izmanto visīsāko biežumu no pakārtotajām rindām. Piemēram, ieņēmumu sadalīj ir divi pakārtotie krājumi, **·** **no** kuriem viens izmanto Mēneša norēķinu biežumu, un otra no tām izmanto Gada norēķinu biežumu. Šajā gadījumā pamatvienības norēķinu biežums tiek atjaunināts uz **Mēnesis**.

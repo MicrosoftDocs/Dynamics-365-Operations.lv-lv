@@ -2,7 +2,7 @@
 title: Preču meklēšana un debitoru meklēšana pārdošanas punktā (POS)
 description: Šajā tēmā ir sniegts apskats par preču un debitoru meklēšanas funkcionalitātes uzlabojumiem programmā Dynamics 365 Commerce.
 author: ShalabhjainMSFT
-ms.date: 10/26/2021
+ms.date: 05/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 022dcaca9bb3c9e7e749ee143702325367e5149b
-ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.openlocfilehash: 460c7d3b00421ba43414f7343887edf9b8adad9c
+ms.sourcegitcommit: 9dd2d32fc303023a509d58ec7b5935f89d1e9c6d
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "7700093"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "8806432"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Preču meklēšana un debitoru meklēšana pārdošanas punktā (POS)
 
@@ -106,6 +106,8 @@ Lai iestatītu meklēšanas kritērijus kā saīsnes, administratoram ir jāatve
 > Ja pievienojat pārāk daudz saīšņu, POS meklēšanas joslas nolaižamā izvēlne kļūt pārblīvēta, un tas var ietekmēt darbinieku meklēšanas ērtumu. Ieteicams pievienot tikai tik daudz saīšņu, cik nepieciešams.
 
 Lauks **Rādīšanas secība** nosaka secību, kādā POS tiek rādītas šīs saīsnes. Rādītie kritēriji ir standarta versijas rekvizīti, kurus debitoru meklēšanas algoritms izmanto debitoru meklēšanai. Taču partneri var pievienot pielāgotus rekvizītus kā meklēšanas saīsnes. Lai pievienotu pielāgotus rekvizītus kā meklēšanas saīsnes, sistēmas administratoram ir jāpaplašina paplašināmais uzskaitījums, kas tiek izmantots debitoru meklēšanas kritērijiem, un pēc tam partnera pielāgotie rekvizīti ir jāatzīmē kā saīsnes. Partneri ir atbildīgi par koda rakstīšanu, lai atrastu rezultātus, kad meklēšanai tiek izmantotas partneru pielāgotās saīsnes.
+
+Ja vēlaties, lai POS atveidotu saīsnes, ir nepieciešami tulkojumi. Ja jūsu kanāla valoda atšķiras no sistēmas noklusējuma valodas, tulkošana katrai saīsnei jādefinē nepieciešamajā valodā. Tulkojumus var definēt, katrai saīsnei **atlasot** Tulkot. 
 
 > [!NOTE]
 > Pielāgots rekvizīts, kas tiek pievienots uzskaitījumam, neietekmē standarta debitoru meklēšanas algoritmu. Citiem vārdiem sakot — debitoru meklēšanas algoritms nemeklēs pielāgotajā rekvizītā. Lietotāji meklēšanai var izmantot pielāgotu rekvizītu tikai tad, ja šis pielāgotais rekvizīts ir pievienots kā saīsne vai ja tiek ignorēts noklusējuma meklēšanas algoritms.

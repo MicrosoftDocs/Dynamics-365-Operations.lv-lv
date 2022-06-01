@@ -2,7 +2,7 @@
 title: Noņemtie vai novecojušie platformas līdzekļi
 description: Šajā tēmā aprakstīti noņemtie līdzekļi vai līdzekļi, kas ir ieplānoti noņemšanai no platformas atjauninājumiem Finanšu un operāciju programmām.
 author: sericks007
-ms.date: 04/26/2022
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0cf0d4b3ff108645c8542ce10a0be58d29cc68ed
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 3de9b9ea0bd20d1346a7cdfd2f919f50374b164c
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644612"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811251"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Noņemtie vai novecojušie platformas līdzekļi
 
@@ -31,6 +31,33 @@ ms.locfileid: "8644612"
 Šis saraksts ir izveidots, lai jūs savā plānošanā varētu ņemt vērā, kuri līdzekļi tiek noņemti un kļūst novecojuši. 
 
 Detalizēta informācija par objektiem Finanšu un operāciju programmās var tikt atrasta tehniskajos [atsauces pārskatos](/dynamics/s-e/global/axtechrefrep_61). Varat salīdzināt dažādas šo pārskatu versijas, lai uzzinātu par objektiem, kas ir mainīti vai noņemti katrā Finanšu un operāciju programmu versijā.
+
+
+## <a name="feature-deprecation-effective-june-2022"></a>Līdzekļu nolietošana ir spēkā no 2022. gada jūnija
+
+### <a name="finance-and-operations-dynamics-365-mobile-application-and-mobile-platform"></a>Finanšu un operāciju (Dynamics 365) mobilā programma un mobilā platforma 
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Mēs nolietojam mobilo lietojumprogrammu un platformu Finanses un operācijas (Dynamics 365), lai konsolidētu vienu mobilo platformu, kas ir Power Apps. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Jā, mobilo pieredzi finanšu un operāciju programmas datu pamatā var veidot ar Power Platform integrāciju. [Papildinformāciju skatiet sadaļā Mobilās](../power-platform/build-mobile-experiences.md) pieredzes veidošana. |
+| **Ietekmētie produkta apgabali**         | Finance and Operations programmas |
+| **Izvietošanas iespēja**              | Visus |
+| **Statuss**                         | Novecojis. Atbalsta beigu datums ir paredzēts 2024. gada oktobrisi. |
+
+
+## <a name="platform-updates-for-version-10029-of-finance-and-operations-apps"></a>Platformas atjauninājumi Finanšu un operāciju programmu versijai 10.0.29
+
+### <a name="panorama-tab-style"></a>Modes cilnes stils
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Horizontālās ritināšanas lapas līdzinātas ar novecojušiem izkārtojuma modeļiem, kam ir zināmas lietojamības un pieejamības problēmas.  |
+| **Vai ir aizstāts ar citu līdzekli?**   | Tomēr joprojām ir pieejami citi ciļņu stili. |
+| **Ietekmētie produkta apgabali**         | Tīmekļa klients |
+| **Izvietošanas iespēja**              | Visus |
+| **Statuss**                         | Novecojis. |
+
 
 ## <a name="feature-deprecation-effective-april-2022"></a>Līdzekļu nolietojuma 2022. gada aprīlis
 

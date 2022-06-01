@@ -2,7 +2,7 @@
 title: Tiešsaistes un bezsaistes pārdošanas punkta (POS) operācijas
 description: Šajā tēmā ir sniegta detalizēta informācija par pārdošanas punkta (POS) operācijām programmā Dynamics 365 Commerce. Tajā ir norādīts, kurās programmas vietās var izsaukt operācijas, un tas, vai šīs operācijas ir pieejamas bezsaistes režīmā.
 author: jblucher
-ms.date: 05/11/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: dc281a691b34731fb0b5986222b41b436912c782
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 7e4556ad11cbea0cb8fb3c5447116a1b54576e17
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740686"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811206"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Tiešsaistes un bezsaistes pārdošanas punkta (POS) operācijas
 
@@ -44,7 +44,7 @@ Tālāk norādītajās kolonnās ir norādītas vietas, kur var izsaukt operāci
 > [!NOTE]
 > Tālāk norādītās operācijas attiecas uz jaunāko Commerce versiju. Dažas darbības var atšķirties vai nebūt pieejamas iepriekšējās versijās.
 
-| ID   | Operācija                                         | Apraksts                                                                                                                                                                                                    | Vai veikt lietotāja operāciju?    | Transakciju ekrāns | Sveiciena ekrāns | Vai pieejams bezsaistē? | Lokalizācijai raksturīga |
+| ID   | Operācija                                         | Apraksts                                                                                                                                                                                                    | Lietotāja operācijas    | Transakciju ekrāns | Sveiciena ekrāns | Vai pieejams bezsaistē? | Lokalizācijai raksturīga |
 | ---- | ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ------------------ | -------------- | ----------------- | --------------- |
 | 100  | Preces pārdošana                                      | Pievienot transakcijai norādīto preci.                                                                                                                                                                    | Jā            | Jā                | Jā            | Jā               | Nē              |
 | 101  | Cenas pārbaude                                       | Uzmeklē norādītās preces cenu.                                                                                                                                        | Jā            | Jā                | Jā            | Jā               | Nē              |
@@ -273,11 +273,11 @@ Tālāk norādītajās kolonnās ir norādītas vietas, kur var izsaukt operāci
 | 1219 | URL atvēršana punktā POS                                   | Atveriet administratora konfigurētu URL sistēmā POS.                                                                                                                                                                           | Jā            | Jā                | Jā            | Jā               | Nē              |
 | 1220 | Pārvaldīt seifu                                       | Pārvaldiet Seifu dažādiem reģistriem.                                                                                                                                                                       | Jā            | Jā                | Jā            | Jā               | Nē              |
 | 1221 | Anulēt aizturētos darījumus                       | Anulēt bloķētās darbības.                                                                                                                                                                               | Jā            | Jā                | Jā            | Jā               | Nē              |
-| 1300 | Izlaist finanšu reģistrāciju                          | Izlaist finanšu reģistrāciju.                                                                                                                                                                                       | Jā            | Jā                | Jā            | Jā               | Jā             |
-| 1301 | Atzīmēt finanšu notikumu kā reģistrētu                      |  Atzīmēt finanšu notikumu kā reģistrētu.                                                                                                                                                                                  | Jā            | Jā                | Jā            | Jā               | Jā             |
-| 1302 | Pabeigt finanšu reģistrācijas procesu              | Pabeidziet finanšu reģistrācijas procesu.                                                                                                                                                                           | Jā            | Jā                | Jā            | Jā               | Jā             |
-| 1303 | Izlaist darbspējas pārbaudes kļūdu                           | Izlaidiet veselības pārbaudes kļūdu.                                                                                                                                                                                        | Jā            | Jā                | Jā            | Jā               | Jā             |
-| 1304 |  Atlikt finanšu reģistrāciju                     | Atlikt finanšu reģistrāciju.                                                                                                                                                                                  | Jā            | Jā                | Jā            | Jā               | Jā             |
+| 1300 | Izlaist finanšu reģistrāciju                          | Izlaist finanšu reģistrāciju.                                                                                                                                                                                       | Nē            | Nē                | Nē            | Jā               | Nē             |
+| 1301 | Atzīmēt finanšu notikumu kā reģistrētu                      |  Atzīmēt finanšu notikumu kā reģistrētu.                                                                                                                                                                                  | Nē            | Nē                | Nē            | Jā               | Nē             |
+| 1302 | Pabeigt finanšu reģistrācijas procesu              | Pabeidziet finanšu reģistrācijas procesu.                                                                                                                                                                           | Nē            | Nē                | Jā            | Jā               | Jā             |
+| 1303 | Izlaist darbspējas pārbaudes kļūdu                           | Izlaidiet veselības pārbaudes kļūdu.                                                                                                                                                                                        | Jā            | Jā                | Jā            | Jā               | Nē             |
+| 1304 |  Atlikt finanšu reģistrāciju                     | Atlikt finanšu reģistrāciju.                                                                                                                                                                                  | Nē            | Nē                | Nē            | Jā               | Nē             |
 | 1400 | Pārvaldīt kontrolsarakstus un uzdevumus                       | Pārvaldīt darbinieku kontrolsarakstu un uzdevumus.                                                                                                                                                                        | Nē             | Nē                 | Jā            | Nē                | Nē              |
 | 2000 | Grafika pārvaldība                               | Šī operācija pagaidām netiek atbalstīta.                                                                                                                                                                           | Jā            | Jā                | Jā            | Nē                | Nē              |
 | 2001 | Grafika pieprasījumi                                 | Šī operācija pagaidām netiek atbalstīta.                                                                                                                                                                           | Jā            | Jā                | Jā            | Nē                | Nē              |

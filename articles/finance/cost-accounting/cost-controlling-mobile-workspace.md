@@ -2,7 +2,7 @@
 title: Izmaksu kontrolēšanas mobilā darbvieta
 description: Šajā tēmā ir sniegta informācija par mobilo darbvietu Izmaksu kontrolēšana. Šī darbvieta ļauj izmaksu centra vadītājiem skatīt informāciju par izmaksu centra veiktspēju jebkurā laikā un vietā.
 author: AndersGirke
-ms.date: 12/01/2017
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,22 +15,23 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 1f5e0314678758849a787e6b3f7a67391c701046
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 75d8abaeec85b46f0fd0e430040bc7e3a8fd3042
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734078"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811329"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>Izmaksu kontrolēšanas mobilā darbvieta
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
 Šajā tēmā ir sniegta informācija par mobilo darbvietu **Izmaksu kontrolēšana**. Šī darbvieta ļauj izmaksu centra vadītājiem skatīt informāciju par izmaksu centra veiktspēju jebkurā laikā un vietā.
 
-Šī mobilā darbvieta ir paredzēta lietošanai kopā ar mobilo programmu Finance and Operations.
+Šo mobilo darbvietu ir paredzēts izmantot ar mobilo programmu Finanses un operācijas (Dynamics 365).
 
-## <a name="overview"></a>Kopsavilkums
+## <a name="overview"></a>Pārskats
 Mobilā darbvieta **Izmaksu kontrole** sniedz tūlītēju skatu uz izmaksu centru pašreizējo veiktspēju, faktiskās izmaksas salīdzinot ar budžetā paredzētajām izmaksām. Varat skatīt detalizētu informāciju ar atsevišķu izmaksu elementu statusu.
 
 Piemēram, darbinieks saņem uzaicinājumu uz starptautisku konferenci, bet organizācijai ir jāsedz visi ceļa izdevumi. Darbinieks vaicā savam vadītājam, vai var apmeklēt šo konferenci. Vadītājs savā mobilajā ierīcē ātri atver mobilo darbvietu **Izmaksu kontrole**, lai apskatītu, vai ir pieejams budžets, lai darbinieks šo konferenci varētu apmeklēt.
@@ -113,9 +114,9 @@ Ja jūsu organizācijai ir izvietota versija 1611 ar 3. platformas atjaunināj
 
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobilās programmas lejupielāde un instalēšana
-Lejupielādēt un instalēt Finance and Operations mobilo programmu:
+Lejupielādējiet un instalējiet mobilo programmu Finanses un operācijas (Dynamics 365):
 
--   [Android tālruņiem](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [Programma Android tālruņiem](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Tālruņiem iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Pierakstīšanās mobilajā programmā

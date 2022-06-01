@@ -2,7 +2,7 @@
 title: Norēķināšanās modulis
 description: Šajā tēmā ir aprakstīts, kā pievienot norēķināšanas moduli lapā un iestatīt nepieciešamos rekvizītus.
 author: anupamar-ms
-ms.date: 08/31/2020
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 031c70181e0dff9bc81450d2454f21e1dbaf1285d41b38ff6f7df6045923c27c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0d022ad98603b489a133a5b9f2326677e9ebb307
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715510"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780518"
 ---
 # <a name="checkout-module"></a>Norēķināšanās modulis
 
@@ -91,14 +91,14 @@ Lielākā daļa norēķināšanās informācijas, piemēram, piegādes adrese un
 Lai pievienotu norēķināšanās moduli jaunā lapā un iestatītu nepieciešamos rekvizītus, veiciet šādas darbības.
 
 1. Dodieties uz **Fragmenti** un atlasiet **Jauns**, lai izveidotu jaunu fragmentu.
-1. Dialoglodziņā **Jauns fragments** atlasiet **Norēķināšanās** moduli.
+1. Dialoglodziņā Atlasīt **fragmentu** atlasiet moduli **Paņemt**.
 1. Sadaļā **Fragmenta nosaukums** ievadiet nosaukumu **Norēķināšanās fragments** un pēc tam atlasiet **Labi**.
 1. Atlasiet slotu **Norēķināšanās modulis**.
 1. Rekvizītu rūts labajā pusē atlasiet zīmuļa simbolu, ievadiet virsraksta tekstu laukā un pēc tam atlasiet atzīmes simbolu.
-1. Slotā **Norēķināšanās informācija** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
-1. Dialoglodziņā **Pievienot moduli** atlasiet moduļus **Piegādes adrese**, **Piegādes opcijas**, **Norēķināšanās sekcijas konteiners** un **Kontaktinformācija** un pēc tam atlasiet **Labi**.
-1. Modulī **Norēķināšanās sekcijas konteiners** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
-1. Dialoglodziņā **Pievienot moduli** atlasiet moduļus **Dāvanas karte**, **Lojalitāte** un **Maksājums** un pēc tam atlasiet **Labi**. Šādā veidā ir jāpārliecinās, ka visas maksājumu metodes tiek rādītas kopā vienā sadaļā.
+1. **Izvēlnes informācijas slotā** atlasiet elipsi (**...**) un pēc tam atlasiet Pievienot **moduli**.
+1. Dialoglodziņā Atlasīt **moduļus** atlasiet piegādes **adresi**, piegādes opcijas, **·** **·** **sadaļas** Paņemt konteineru un kontaktinformācijas moduļus, pēc tam atlasiet **Labi.**
+1. Modulī **Izņemiet sadaļu** Konteiners atlasiet daudzpunkti (**...**) un pēc tam atlasiet Pievienot **moduli**.
+1. Dialoglodziņā Moduļu **atlase** atlasiet dāvanu karti **, lojalitātes** **programmas un maksājumu** moduļus **un** pēc tam atlasiet **Labi**. Šādā veidā ir jāpārliecinās, ka visas maksājumu metodes tiek rādītas kopā vienā sadaļā.
 1. Sadaļā **Noteikumi un nosacījumi** pievienojiet **Norēķināšanās noteikumi un nosacījumi** moduli, ja tas ir nepieciešams. Moduļa rekvizītu rūtī atbilstoši konfigurējiet noteikumu un nosacījumu tekstu.
 1. Atlasiet **Saglabāt** un pēc tam atlasiet **Priekšskatījums**, lai priekšskatītu fragmentu. Daži moduļi var netikt atveidoti priekšskatījumā, jo tiem nav groza konteksta.
 1. Atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu fragmentā, un pēc tam atlasiet **Publicēt**, lai publicētu to.

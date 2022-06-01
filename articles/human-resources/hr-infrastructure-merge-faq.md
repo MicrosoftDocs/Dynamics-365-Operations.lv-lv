@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a905d752af2cf8397acb4927aa99edb4c23bfa6a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 766ee49c17749841d8acac6637a0262e87e52e92
+ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688125"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809618"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-faq"></a>Dynamics 365 Human Resources bieži uzdotie jautājumi par infrastruktūras sapludināšanu
 
@@ -131,6 +131,9 @@ Tas ir atkarīgs no integrācijas galapunkta. Plašāku informāciju par integr�
 Ja finanšu Dynamics 365 Human Resources un operāciju vides, kas tiks apvienotas vidē ar jauno infrastruktūru, ir saistītas ar vienu un to pašu vidi, šīs divas programmas turpinās savienoties ar vienu un to Dataverse Dataverse pašu vidi pēc migrācijas. Tāpēc visiem Dataverse paplašinājumiem migrācija nav nepieciešama.
 
 Tomēr, Dynamics 365 Human Resources Dataverse ja finanšu un operāciju vides pašlaik ir saistītas ar atsevišķām vidēm, Dataverse šīs divas vides būs jāapvieno, lai tās būtu saistītas ar vienu jaunās infrastruktūras vidi. Šai Dataverse migrācijai Dataverse tabulas, kas ir Human Resources risinājumu standarts, var savienot ar jauno Dataverse vidi un unsinhronizēt ar to. Tomēr visi Dataverse vides paplašinājumi netiks migrēti automātiski, bet ir atkārtoti jāizvieto jaunajā vidē. Ir ieteicams izmantot pārvaldītus risinājumus, lai pārvaldītu Dataverse paplašinājumus. Papildinformāciju skatiet sadaļā [Ievads risinājumos](/powerapps/developer/data-platform/introduction-solutions).
+
+### <a name="we-have-utilized-the-custom-field-functionality-within-dynamics-365-human-resources-will-those-custom-fields-migrate-automatically"></a>Ietvaros esam izmantojuši pielāgoto lauka funkcionalitāti, vai Dynamics 365 Human Resources šie pielāgotie lauki tiks migrēti automātiski?
+Jā, pievienotie pielāgotie lauki tiks migrēti uz jauno infrastruktūru.
 
 ### <a name="we-have-configured-microsoft-power-automate-flows-andor-microsoft-power-apps-to-work-with-dynamics-365-human-resources-will-these-microsoft-power-platform-components-be-migrated-and-work-automatically-after-the-infrastructure-change-is-completed"></a>Ir konfigurētas Microsoft Power Automate plūsmas un/vai Microsoft Power Apps darbam ar Dynamics 365 Human Resources. Vai šie Microsoft Power Platform komponenti tiks migrēti un darbojas automātiski pēc infrastruktūras izmaiņu pabeigšanas?
 

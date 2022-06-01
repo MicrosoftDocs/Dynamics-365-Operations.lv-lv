@@ -3,7 +3,7 @@ title: Veikala atlasītāja modulis
 description: Šajā tēmā aplūkots veikalu atlasītāja modulis un aprakstīts, kā to pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/04/2022
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7276f25daada8286490ad7e1af2b350e4a2805bb
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 76682f26f62fe4686f5102e3099f038a50005f5e
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710784"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780657"
 ---
 # <a name="store-selector-module"></a>Veikalu atlasītāja modulis
 
@@ -135,26 +135,29 @@ Veikala atlasītājam modulim tiek ievērots [Iestatījums Pievienot preci groza
 Lai konfigurētu veikala atlasītāja moduli, lai rādītu veikala atrašanās vietu lapu pieejamos veikalus, kā iepriekš šajā tēmā attēlotajā ilustrācijā, veiciet sekojošās darbības.
 
 1. Dodieties uz **Veidnes** un pēc tam atlasiet **Jauns**, lai izveidotu jaunu veidni.
-1. Dialoglodziņā **Jauna veidne** zem **Veidnes nosaukums** ievadiet **Mārketinga veidne** un pēc tam atlasiet **Labi**.
+1. Dialoglodziņa Jauna **veidne sadaļā** Veidnes nosaukums, **ievadiet** Mārketinga **veidne un** pēc tam atlasiet **Labi**.
 1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu veidnē, un pēc tam atlasiet **Publicēt**, lai publicētu to.
 1. Dodieties uz **Lapas** un atlasiet **Jauns**, lai izveidotu jaunu lapu.
-1. Dialoglodziņā **Izvēlēties veidni** atlasiet veidni **Mārketinga veidne**. Sadaļā **Lapas nosaukums** ievadiet **Veikala atrašanās vietas** pēc tam atlasiet **Labi**.
-1. Jaunās lapas slotā **Galvenais** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
-1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Konteiners** un pēc tam atlasiet **Labi**.
-1. Slotā **Konteiners** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
-1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Konteiners ar 2 kolonnām** un pēc tam atlasiet **Labi**.
+1. Dialoglodziņa Izveidot **jaunu lapu sadaļā** Lapas nosaukums ievadiet **Veikalu** atrašanās vietas **un pēc** tam atlasiet **Tālāk**.
+1. Zem **Izvēlēties veidni**, atlasiet izveidoto **mārketinga** veidni un pēc tam atlasiet **Tālāk**.
+1. Sadaļā **Izvēlēties izkārtojumu atlasiet** lapas izkārtojumu (piemēram, Elastīgs **izkārtojums**) un pēc tam atlasiet **Tālāk**.
+1. Sadaļā **Pārskatīt un pabeigt** pārskatiet lapas konfigurāciju. Ja jums ir jārediģē lapas informācija, atlasiet **Atpakaļ**. Ja lapas informācija ir pareiza, atlasiet Izveidot **lapu**. 
+1. Jaunās lapas **galvenajā** slotā atlasiet daudzpunkti (**...**) un pēc tam atlasiet Pievienot **moduli**.
+1. Dialoglodziņā Moduļu **atlase** atlasiet moduli Konteiners **un** pēc tam atlasiet **Labi**.
+1. Konteinera slotā **atlasiet** daudzpunkti (**...) un** pēc tam atlasiet Pievienot **moduli**.
+1. Dialoglodziņā Atlasīt **moduļus** atlasiet moduli Konteiners **ar 2 kolonnām** un pēc tam atlasiet **Labi**.
 1. Moduļa rekvizītu rūtī iestatiet **Platuma** vērtību, lai **Aizpildītu konteineru**.
 1. Iestatiet **Ekstra maza skata porta kolonnas konfigurācijas** vērtību uz **100%**.
 1. Iestatiet **Maza skata porta kolonnas konfigurācijas** vērtību uz **100%**.
 1. Iestatiet **Vidēja skata porta kolonnas konfigurācijas** vērtību uz **33% 67%**.
 1. Iestatiet **Liela skata porta kolonnas konfigurācijas** vērtību uz **33% 67%**.
-1. Slotā **Konteiners ar 2 kolonnām** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
-1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Veikalu atlasītājs** un pēc tam atlasiet **Labi**.
+1. Konteinerā **ar 2 kolonnu** slotu atlasiet daudzpunkti (**...**) un pēc tam atlasiet Pievienot **moduli**.
+1. Dialoglodziņā Atlasīt **moduļus** atlasiet veikala atlases **moduli un** pēc tam atlasiet **Labi**.
 1. Moduļa rekvizītu rūtī iestatiet **Režīma** vērtību, lai **Atrastu veikalus**.
 1. Iestatiet **Meklēt rādiusa** vērtību jūdzēs.
 1. Pēc nepieciešamības iestatiet citus rekvizītus, piemēram, **Iestatīt kā vēlamo veikalu**, **Rādīt visus veikalus** un **Iespējot automātisko ieteikšanu**.
-1. Slotā **Konteiners ar 2 kolonnām** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
-1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Karte** un pēc tam atlasiet **Labi**.
+1. Konteinerā **ar 2 kolonnu** slotu atlasiet daudzpunkti (**...**) un pēc tam atlasiet Pievienot **moduli**.
+1. Dialoglodziņā Atlasīt **moduļus** atlasiet moduli Karte **un** pēc tam atlasiet **Labi**.
 1. Moduļa rekvizītu rūtī iestatiet jebkādus papildu rekvizītus, kas nepieciešami.
 1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt**, lai publicētu to.
  

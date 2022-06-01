@@ -2,35 +2,32 @@
 title: Dinamisku e-komercijas lapu izveide, pamatojoties uz URL parametriem
 description: Šajā tēmā aprakstīts, kā iestatīts Microsoft Dynamics 365 Commerce e-komercijas lapu, kura var apkalpot dinamisku saturu, pamatojoties URL parametros.
 author: StuHarg
-ms.date: 01/28/2021
+ms.date: 05/27/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ROBOTS: ''
-audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+audience: Application User, Developer, IT Pro
+ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
-ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 348fdb30f4d0104e80bea5235c1e337b9f977311
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3443dad9ead40b59da994c56e22fe2599f4bac82
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694344"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811035"
 ---
 # <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a>Dinamisku e-komercijas lapu izveide, pamatojoties uz URL parametriem
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Šajā tēmā aprakstīts, kā iestatīts Microsoft Dynamics 365 Commerce e-komercijas lapu, kura var apkalpot dinamisku saturu, pamatojoties URL parametros.
 
-E-komercijas lapu var konfigurēt, lai tā kalpotu dažādam saturam, pamatojoties uz segmentu vietrāža URL ceļā. Tāpēc šī lapa ir pazīstama kā dinamiskā lapa. Segments tiek izmantots kā parametrs lapas satura izgūšanai. Piemēram, lapa, kas ir nosaukta par **blog\_viewer**, tiek izveidota un saistīta ar URL `https://fabrikam.com/blog`. Pēc tam šo lapu var izmantot, lai parādītu dažādu saturu, balstoties uz pēdējo segmentu URL ceļā. Piemēram, pēdējais segments vietrādī URL `https://fabrikam.com/blog/article-1` ir **article-1**.
+E-komercijas lapu var konfigurēt, lai tā kalpotu dažādam saturam, pamatojoties uz segmentu vietrāža URL ceļā. Tāpēc šī lapa ir pazīstama kā dinamiskā lapa. Segments tiek izmantots kā parametrs lapas satura izgūšanai. Piemēram, lapa, kas ir izveidota vietņu veidotājā un nosaukta **\_ lietojumprogrammas skatītāja** informācija tiek kartēta uz URL `https://fabrikam.com/blog`. Pēc tam šo lapu var izmantot, lai parādītu dažādu saturu, balstoties uz pēdējo segmentu URL ceļā. Piemēram, pēdējais segments vietrādī URL `https://fabrikam.com/blog/article-1` ir **article-1**.
 
-Atsevišķas pielāgotas lapas, kas ignorē dinamisko lapu, var tikt saistītas arī ar segmentiem vietrāža URL ceļā. Piemēram, lapa, kas ir nosaukta par **blog\_summary**, tiek izveidota un saistīta ar URL `https://fabrikam.com/blog/about-this-blog`. Kad tiek pieprasīts šis URL, tiek atgriezta **bloga\_kopsavilkuma** lapa, kas ir saistīta ar **/about-this-blog** parametru, nevis **blog\_viewer** lapa.
+Jūs varat arī ignorēt parametru URL segmentu ar vietas veidotāja lapu. Piemēram, lapu, kas ir izveidota vietu veidotājā un nosaukts **dokumenta\_ kopsavilkums**, var kartēt uz URL `https://fabrikam.com/blog/about-this-blog`. Kad URL `https://fabrikam.com/blog` ir pieprasīts `/about-this-blog` ar segmentu beigās, **gala lapas saturs tiek atgriezts nevis \_**`/about-this-blog` segments, kas tiek interpretēts kā parametrs, kas jāizmanto `https://fabrikam.com/blog` lapā. 
+
+Atlasot dinamiskās lapas parametru nosaukumus, dinamiskās lapas nosaukumu, kā tas parādās vietrādī URL (`/blog` skatiet iepriekšminētajā piemērā), nevar izmantot kā parametra nosaukumu vai parametra nosaukuma apakšvirszaru. 
 
 > [!NOTE]
 > Dinamisko lapu satura viesošanas, izgūšanas un rādīšanas funkcionalitāte tiek īstenota, izmantojot pielāgotu moduli. Papildinformāciju skatiet šeit: [Tiešsaistes kanāla paplašināmība](e-commerce-extensibility/overview.md).
@@ -60,7 +57,7 @@ Lai konfigurētu maršrutu uz dinamisko lapu Commerce vietnes veidotājā, sekoj
 1. Sadaļā **Parametrizēti URL ceļi** atlasiet **Pievienot** un pēc tam ievadiet URL ceļu, ko ievadījāt, kad izveidojāt URL (šajā piemērā **/blog**).
 1. Atlasiet **Saglabāt un publicēt**.
 
-Kad maršruts ir konfigurēts, visi pieprasījumi uz parametrizētu URL ceļu atgriezīs lapu, kas ir saistīta ar šo URL. Ja jebkādi pieprasījumi ietver papildu segmentu, tiks atgriezta saistītā lapa, un lapas saturs tiks izgūts, kā parametru izmantojot segmentu. Piemēram, `https://fabrikam.com/blog/article-1` atgriezīs **blog\_summary** lapu, un lapas saturs tiks izgūts, izmantojot **/article-1** parametru.
+Kad maršruts ir konfigurēts, visi pieprasījumi uz parametrizētu URL ceļu atgriezīs lapu, kas ir saistīta ar šo URL. Ja jebkādi pieprasījumi ietver papildu segmentu, tiks atgriezta saistītā lapa, un lapas saturs tiks izgūts, kā parametru izmantojot segmentu. Piemēram, tiks `https://fabrikam.com/blog/article-1` atgriezta lapa `https://fabrikam.com/blog` ar tās izgūto saturu, lietojot **parametru /article-1**.
 
 ## <a name="override-a-parameterized-url-with-a-custom-page"></a>Ignorēt parametrizētu URL ar pielāgotu lapu
 

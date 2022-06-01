@@ -15,16 +15,68 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 43dd1a9cba1fe8df5cff26fe76af7e2957a0d6a4
-ms.sourcegitcommit: cf7d4af11bf85638ee831a28ea5ee1a1e041a675
+ms.openlocfilehash: bc2f17d62b429b599d5ac5f2a521819275d36b64
+ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/04/2022
-ms.locfileid: "8544552"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8770252"
 ---
 # <a name="set-up-positive-pay-files-by-using-electronic-reporting"></a>Iestatīt pozitīvo maksājumu failus, izmantojot elektroniskos pārskatus
 
-Iestatiet pozitīvo maksājumu, lai izveidotu elektronisku čeku sarakstu, kas tiek iesniegts bankai. Kad čeks ir iesniegts bankai, banka to salīdzina ar čeku sarakstu. Ja čeks atbilst čekam sarakstā, banka to dzēš. Ja čeks neatbilst čekam sarakstā, banka to aiztur uz pārskatīšanu.
+Šajā tēmā skaidrots, kā iestatīt pozitīvo maksājumu un ģenerēt pozitīvo maksājumu failus, izmantojot elektroniskos pārskatus.
+
+> [!NOTE] 
+> Pirms bankas **pozitīvā maksājuma faila funkcijas ģenerēšanas** vispirms jāatsvaidzina elementu saraksts.
+> Pārejiet uz sadaļu **Datu pārvaldība > Importēšana/eksportēšana > Struktūras parametri** 
+> **Elementa iestatījumu** kopsavilkuma cilni, atlasiet **Atsvaidzināt elementu sarakstu**.
+
+
+Iestatiet pozitīvo maksājumu, lai izveidotu elektronisku čeku sarakstu, kas tiek iesniegts bankai. Kad čeki tiek uzrādīti bankai, banka to salīdzina ar čeku sarakstu. Ja čeks atbilst čekam sarakstā, banka to dzēš. Ja čeks neatbilst čekam sarakstā, banka to aiztur uz pārskatīšanu.
+
+## <a name="security-for-positive-pay-files"></a>Pozitīvā maksājuma failu drošība
+Pozitīvo maksājumu faili var saturēt konfidenciālu informāciju par maksājumu saņēmējiem un čeku summām. Šī iemesla dēļ nodrošiniet, lai no failu ģenerēšanas, līdz to saņemšanai bankā, tiek veikti atbilstoši drošības pasākumi. Pozitīvo maksājumu faili tiek lejupielādēti atrašanās vietā, kas ir norādīta tīmekļa pārlūkprogrammā. Tā kā pozitīvo maksājumu faili var saturēt jutīgu informāciju, ir svarīgi, lai tikai autorizētiem lietotājiem būtu piekļuve šīs Microsoft Dynamics informācijas ģenerēšanu un skatīšanu 365 Finansēs. Izmantojiet nākamo tabulu, kas palīdzēs noskaidrot nepieciešamās privilēģijas.
+
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Uzdevums</th>
+<th>Privilēģija</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Izveidot pozitīvo maksājumu failus, izmantojot sarakstu lapu <strong>Bankas konti</strong> vai lapu <strong>Bankas konti</strong>.</td>
+<td><ul>
+<li><strong>Uzturēt bankas pozitīvo maksājumu datus</strong> (BankPositivePayProcess)</li>
+<li><strong>BankPositivePayExportEntityView</strong> (BankPositivePayExportEntityView)</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Izveidot pozitīvo maksājumu failus vairākām juridiskajām personām un bankas kontiem, izmantojot lapu <strong>Izveidot pozitīvā maksājuma failu</strong>.</td>
+<td><ul>
+<li><strong>Uzturēt bankas pozitīvo maksājumu datus</strong> (BankPositivePayProcess)</li>
+<li><strong>BankPositivePayExportEntityView</strong> (BankPositivePayExportEntityView)</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>Skatīt pozitīvo maksājumu failus lapā <strong>Pozitīvā maksājuma kopsavilkuma fails</strong>.</td>
+<td><strong>Skatīt vairākām juridiskām personām izveidotos bankas pozitīvo maksājumu datus</strong> (BankPositivePayView)</td>
+</tr>
+<tr class="even">
+<td>Apstiprināt bankas pozitīvā maksājuma failu lapā <strong>Pozitīvā maksājuma kopsavilkuma fails</strong>.</td>
+<td><strong>Apstiprināt pozitīvā maksājuma failu</strong> (BankPositivePayConfirm)</td>
+</tr>
+<tr class="odd">
+<td>Atsaukt bankas pozitīvā maksājuma failu lapā <strong>Pozitīvā maksājuma faila kopsavilkums</strong>.</td>
+<td><strong>Atsaukt pozitīvā maksājuma failu</strong> (BankPositivePayRecall)</td>
+</tr>
+</tbody>
+</table>
 
 ## <a name="set-up-the-electronic-reporting-configuration"></a>Elektronisko pārskatu izveides konfigurācijas iestatīšana
 
@@ -44,17 +96,38 @@ Iestatiet pozitīvo maksājumu, lai izveidotu elektronisku čeku sarakstu, kas t
 5. Iestatiet eksporta **formāta konfigurācijas lauku** pozitīvā **maksājuma formātā**.
 
 ## <a name="assign-a-positive-pay-format-to-a-bank-account"></a>Pozitīvā maksājuma formāta piešķiršana bankas kontam
+Katram bankas kontam, kuram vēlaties izveidot pozitīvā maksājuma datus, ir jāpiešķir iepriekšējā sadaļā norādīto pozitīvā maksājuma formāts. Lapā Bankas konti atlasiet pozitīvā maksājuma formātu, kas atbilst bankas kontam. Laukā **Pozitīvā maksājuma sākuma datums** ievadiet pozitīvo maksājumu failu izveides sākuma datumu. 
+
+>[!Important]
+> Laukā Pozitīvā maksājuma sākuma datums **ievadiet** datumu. Ja lauks ir atstāts tukšs, pirmajā izveidotajā pozitīvā maksājuma failā tiks ietverti visi čeki, kas ir izveidoti šim bankas kontam.
 
 1. Dodieties uz **skaidras naudas un bankas pārvaldības \> banku kontiem \> Bankas konti**.
 2. Atveriet bankas kontu.
 3. Kopsavilkuma cilnē **Vispārīgi** iestatiet lauku Pozitīvā **maksājuma formāts** uz iepriekš izveidoto formātu.
 4. Laukā Pozitīvā **maksājuma sākuma datums** iestatiet pašreizējo datumu.
 
-## <a name="generate-a-positive-pay-file"></a>Ģenerēt pozitīvā maksājuma failu
+## <a name="assign-a-number-sequence-for-positive-pay-files"></a>Piešķirt pozitīvo maksājumu failu numerāciju
+Katram pozitīvo maksājumu failam ir nepieciešams unikāls numurs. Lapā Kases **un bankas vadības** parametri izveidojiet numuru sēriju pozitīvā maksājuma failiem cilnē **Numuru sērijas**.
+
+## <a name="generate-a-positive-pay-file-for-a-single-bank-account"></a>Izveidot pozitīvā maksājuma failu vienam bankas kontam
+Pozitīvā maksājuma failu var izveidot vienai juridiskajai personai un vienam bankas kontam. Lai iegūtu informāciju par to, kā vienlaicīgi izveidot pozitīvo maksājumu failus vairākām juridiskajām personām un banku kontiem, skatiet nākamo sadaļu. Lai izveidotu pozitīvā maksājuma failu vienai juridiskajai personai un vienam bankas kontam, atveriet dialoglodziņu **Izveidot pozitīvā maksājuma failu** lapā **Bankas konti**. Laukā **Pēdējais datums** ievadiet pēdējā čeka datumu, kas jāiekļauj pozitīvā maksājuma failā. Failā tiek iekļauti visi čeki, kas nav iekļauti pozitīvā maksājuma failā līdz šī čeka datumam.
 
 1. Dodieties uz **skaidras naudas un bankas pārvaldības \> bankas kontu \> bankas kontiem**.
 2. Atveriet bankas kontu, kam ir iestatīti pozitīvais pārskaitījums.
 3. Atlasiet Pārvaldīt **maksājumu pozitīvā \> maksājuma \> pozitīvā maksājuma failu**.
 4. **Iestatiet beigu datuma** lauku. Tiks iekļauti čeki, kas tika ģenerēti pirms šī datuma.
+
+## <a name="generate-a-positive-pay-file-for-multiple-bank-accounts"></a>Izveidot pozitīvā maksājuma failu vairākiem bankas kontam
+Lai ģenerētu pozitīvā maksājuma failu vairākiem bankas kontiem, izmantojiet periodisko **uzdevumu Pozitīvā** maksājuma failam. Atlasiet pozitīvā maksājuma faila formātu un norādiet, vai izveidot failu visām juridiskajām personām vai tikai atlasītajai juridiskajai personai. Var izveidot arī pozitīvā maksājuma failu visiem bankas kontiem, kas izmanto norādīto pozitīvā maksājuma formātu, vai tikai atlasītajam bankas kontam. Laukā **Pēdējais datums** ievadiet pēdējā čeka datumu, kas jāiekļauj pozitīvā maksājuma failā. Failā tiek iekļauti visi čeki, kas nav iekļauti pozitīvā maksājuma failā līdz šī čeka datumam.
+
+## <a name="view-the-results-of-positive-pay-file-generation"></a>Skatīt pozitīvā maksājuma faila izveides rezultātus
+Kad pozitīvā maksājuma fails ir izveidots, lapā **Pozitīvā maksājuma faila kopsavilkums** var skatīt rezultātus. Lai apskatītu detalizētu informāciju par atsevišķiem čekiem, dodieties uz lapu **Detalizēta informācija par pozitīvā maksājuma** failu.
+
+## <a name="confirm-a-positive-pay-file"></a>Pozitīvā maksājuma faila apstiprināšana
+Kad čeki ir ievietoti sarakstā un pozitīvā maksājuma fails ir apmaksāts, banka jums nosūta apstiprinājuma numuru. Pēc tam pozitīvā maksājuma failu var apstiprināt. Lapā **Pozitīvā maksājuma faila kopsavilkums** atlasiet pozitīvā maksājuma failu ar statusu **Izveidots** un pēc tam atlasiet darbību **Ievadīt apstiprinājumu**. Apstiprinot pozitīvā maksājuma failu, tiek reģistrēts no bankas saņemtais apstiprinājuma numurs.
+
+## <a name="recall-a-positive-pay-file"></a>Pozitīva maksājuma faila atsaukšana
+Ja pozitīvā maksājuma fails ir jāmaina, to var atsaukt. Lapā **Pozitīvā maksājuma faila kopsavilkums** atlasiet pozitīvā maksājuma failu ar statusu **Izveidots** un pēc tam atlasiet darbību **Atsaukt**. Katrā pozitīvā maksājuma failā tiek atiestatīts lauks, kas norāda, vai šis čeks ir iekļauts pozitīvā maksājuma failā. Pēc tam var izveidot jaunu pozitīvā maksājuma failu, kurā ir iekļauts atsauktais čeks.
+
 
 Rezultātā iegūtais XML fails tiks lejupielādēts.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: f8e74902e939355aba9bbadd8e7f8f8aa46fe5c5
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 2c2d79c9ea36c42cfc0f6ba0d3c81d063d8d9446
+ms.sourcegitcommit: 6c1bf233748c4bc70fc5a1a9711758cdfd9e07dc
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323929"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8782181"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>Word satura vadīklu likvidēšana ģenerētajos pārskatos
 
@@ -26,7 +26,7 @@ ms.locfileid: "8323929"
 
 Lai ģenerētu pārskatus kā Microsoft Word dokumentus, ir jāizveido veidne pārskatiem kā Word dokuments. Šajā veidnē jābūt Word satura vadīklām kā vietturiem datiem, kas tiks aizpildīti izpildlaikā. Lai izveidoto Word dokumentu izmantotu kā veidni jūsu pārskatiem, varat [konfigurēt](er-design-configuration-word.md) jaunu [elektronisko pārskatu sniegšanas (ER)](general-electronic-reporting.md) [risinājumu](er-quick-start1-new-solution.md). Risinājumā ir jāietver ER [konfigurācija](general-electronic-reporting.md#Configuration), kas satur ER formāta komponentu. Šis ER formāts ir jākonfigurē, lai pārskata ģenerēšanai izmantotu izveidoto veidni.
 
-Programmas Dynamics 365 Finance versijā 10.0.6 un jaunākās versijās varat konfigurēt formulas savā ER formātā, lai likvidētu dažas Word satura vadīklas ģenerētajos dokumentos.
+Versijā 10.0.6 vai jaunākā dynamics 365 finanšu versijā varat konfigurēt formulas ER formātā, lai likvidētu dažas Word satura kontroles ģenerētos dokumentos.
 
 Turpmākās darbības paskaidro veidu, kā lietotājs, kuram ir piešķirta sistēmas administratora vai elektronisko pārskatu funkcionālā konsultanta loma, var konfigurēt ER formātu, kas ģenerē pārskatus kā Word failus un likvidē dažas satura vadīklas ģenerētajā pārskatā, kurš ir konfigurēts, izmantojot Word veidni.
 
@@ -47,7 +47,7 @@ Pabeidzot šo uzdevumu ceļvežu darbības, ir sagatavoti tālāk minētie vienu
 
 Turklāt jums ir nepieciešams šim pašam pārskatam lejupielādēt un saglabāt šādu veidni:
 
-- [Maksājumu pārskata saistītā 2. veidne (SampleVendPaymDocReportBounded2.docx)](https://download.microsoft.com/download/a/1/2/a126cb43-6281-4f7b-bde0-25e03ff9bc1e/SampleVendPaymDocReportBounded2.docx)
+- [Maksājumu pārskata saistītā 2. veidne (SampleVendPaymDocReportBounded2.docx)](https://download.microsoft.com/download/1/9/b/19b36e39-861a-414e-9150-9880d9d2487c/SampleVendPaymDocReportBounded2.docx)
 
 ## <a name="review-the-downloaded-word-template"></a><a id="tag-control"></a>Pārskatīt lejupielādēto Word veidni
 

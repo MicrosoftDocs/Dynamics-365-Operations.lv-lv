@@ -2,7 +2,7 @@
 title: Ātrā skata modulis
 description: Šajā tēmā tiek stāstīts par ātrā skata moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 01/28/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2020-01-08
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 68808da1ad2b3474852b3544df55db948f8758cd
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 5ba42806d8f77f41ab9c5cf5e26b20ecb647aadf
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692704"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780822"
 ---
 # <a name="quick-view-module"></a>Ātrā skata modulis
 
@@ -60,8 +60,8 @@ Tāpat kā iegādes lodziņa modulī, ātrā skata modulī tiek ievēroti iestat
 Lai pievienotu ātrā skata moduli preču kolekciju modulim programmā Commerce vietnes veidotājs, veiciet tālāk norādītās darbības.
 
 1. Dodieties uz **Lapas** un pēc tam atlasiet Fabrikam vietnes sakumlapu.
-1. Dodieties uz **Preču kolekciju** moduli sākumlapā, atlasiet daudzpunktes (**...**) un pēc tam atlasiet **Pievienot moduli**.
-1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Ātrais skats** un pēc tam atlasiet **Labi**.
+1. Dodieties uz **jebkuru mājas** lapas produktu kolekcijas moduli, atlasiet daudzpunkti (**...**) un pēc tam atlasiet Pievienot **moduli**.
+1. Dialoglodziņā Atlasīt **moduļus** atlasiet Ātro skatu **moduli un** pēc tam atlasiet **Labi**.
 1. Moduļa **Ātrais skats** rekvizītu rūtī atlasiet **Virsraksts**. Dialoglodziņā **Virsraksts** iestatiet lauka **Virsraksta līmenis** vērtību uz **H2** un pēc tam atlasiet **Labi**.
 1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt**, lai publicētu to.
 

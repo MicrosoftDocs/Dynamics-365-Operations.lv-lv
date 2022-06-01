@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: de3011c6660b1cdccf94def32864316525adcde6
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 92731f0f56e6eba05043403c121939accbe26c05
+ms.sourcegitcommit: 220101d2511a3164572226294ef090a43a1e6cdd
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7477017"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "8789245"
 ---
 # <a name="trade-agreements-can-be-created-from-rejected-rfqs"></a>Tirdzniecības līgumus var izveidot no noraidītajiem piedāvājumu pieprasījumiem (PP)
 
@@ -26,4 +26,4 @@ Tirdzniecības līgumus var izveidot no noraidītajiem piedāvājumu pieprasīju
 
 ## <a name="resolution"></a>Novēršana
 
-Tā ir paredzamā darbība. Tirdzniecības līgumus var izveidot jebkurai atbildei uz piedāvājuma pieprasījumu (PP) neatkarīgi no tā, vai tie ir pieņemti vai noraidīti. Papildinformāciju skatiet rakstā [Piedāvājuma pieprasījumu (PP) pārskats](/dynamics365/supply-chain/procurement/request-quotations.md).
+Tā ir paredzamā darbība. Tirdzniecības līgumus var izveidot jebkurai atbildei uz piedāvājuma pieprasījumu (PP) neatkarīgi no tā, vai tie ir pieņemti vai noraidīti. Papildinformāciju skatiet rakstā [Piedāvājuma pieprasījumu (PP) pārskats](/dynamics365/supply-chain/procurement/request-quotations).

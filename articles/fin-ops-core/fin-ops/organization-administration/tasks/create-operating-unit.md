@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dcfcd64ae24297c8e11f36629490ebe7cd063de53c717559e1b73743ccc61664
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bc0020a7f7aa60305bfc7c66474e0bbc26f27bef
+ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758997"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809563"
 ---
 # <a name="create-an-operating-unit"></a>Pārvaldības struktūrvienības izveide
 
@@ -37,7 +37,7 @@ Pārvaldības struktūrvienība ir organizācija, kas tiek lietota, lai sadalīt
     + Ievadiet informāciju par adresi, tādu kā ielas nosaukumu un numuru, pasta indeksa kodu un pilsētu. Noklikšķiniet uz **Pievienot**, lai ievadītu jaunu adreses ierakstu, vai noklikšķiniet uz Rediģēt, lai mainītu jau esošu adreses ierakstu.   
     + Ja nepieciešams, izvērsiet sadaļu **Kontaktinformācija**.  
     + Ierakstiet informāciju par komunikācijas veidiem, piemēram, e-pasta adreses, URL un tālruņa numurus. Lai ievadītu jaunu saziņas ierakstu, noklikšķiniet uz Jauns. Lai modificētu esošo sakaru ierakstu, noklikšķiniet uz **Vairāk opciju > Detalizēti**.   
-6. Ir arī iespēja mainīt **Operatīvās struktūrvienības numuru** pēc vajadzības. Ņemiet vērā, ka šis numurs ir unikāls identifikators atbilstīgajam **Puses** ierakstam un nevar būt tāds pats kā cita operatīva struktūrvienība.
+6. Ir arī iespēja mainīt **Operatīvās struktūrvienības numuru** pēc vajadzības. Ievērojiet, ka šis numurs ir unikāls atbilstošās **puses ieraksta** numurs un nevar būt tāds pats kā jebkura cita pārvaldības struktūrvienība.
 7. Atlasiet **Saglabāt**.
 
 

@@ -1,22 +1,22 @@
 ---
-title: Izveidot Commerce katalogus B2B vietām
+title: Commerce katalogu izveide B2B vietnēm
 description: Šajā tēmā ir aprakstīts, kā izveidot Commerce katalogus "bizness-biznesam Microsoft Dynamics 365 Commerce " (B2B).
 author: ashishmsft
-ms.date: 04/28/2022
+ms.date: 05/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 868f6bbeefeb1698bb136d52c09cebf293c95731
-ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
+ms.openlocfilehash: 7382062706c2de01c499ee05aeb0b45ff6fb37cb
+ms.sourcegitcommit: bca0cb730307948368a9aabe322cf963688ed8b1
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8657192"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8782841"
 ---
-# <a name="create-commerce-catalogs-for-b2b-sites"></a>Izveidot Commerce katalogus B2B vietām
+# <a name="create-commerce-catalogs-for-b2b-sites"></a>Commerce katalogu izveide B2B vietnēm
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
@@ -24,7 +24,7 @@ ms.locfileid: "8657192"
 Šajā tēmā ir aprakstīts, kā izveidot Commerce preču katalogus Microsoft Dynamics 365 Commerce "bizness-biznesam" (B2B). Atbildes uz bieži uzdotiem jautājumiem par Commerce katalogiem B2B vietnēm skatiet Commerce [katalogos, kas paredzēts B2B FAQ](catalogs-b2b-sites-FAQ.md).
 
 > [!NOTE]
-> Šī tēma attiecas uz Dynamics 365 Commerce versiju 10.0.26 un vēlākiem laidieniem.
+> Šī tēma attiecas uz Dynamics 365 Commerce versiju 10.0.27 un vēlākiem laidieniem.
 
 Varat izmantot Commerce katalogus, lai identificētu preces, ko vēlaties piedāvāt savā B2B tiešsaistes veikalos. Izveidojot katalogu, jūs identificējiet tiešsaistes veikalus, kuros preces tiek piedāvātas, pievienojiet preces, kuras vēlaties iekļaut, un pastipriniet preču piedāvājumus, pievienojot detalizētu informāciju par preču mazumtirdzniecību. Katram B2B tiešsaistes veikalam var izveidot vairākus katalogus.
 
@@ -42,7 +42,7 @@ Commerce preču katalogi ļauj definēt šādu informāciju:
 - **Cenu grupas** - jūs varat konfigurēt cenas un veicināšanas pasākumi, kas ir specifiski noteiktam katalogam. Šī iespēja ir galvenais iemesls kataloga definēšana B2B kanālam. Kataloga cenu grupas ļauj organizācijām padarīt produktus pieejamus to paredzētajām B2B organizācijām un piemērot savas vēlamās cenu noteikšanas un atlaides. B2B debitori, kuri pasūta no konfigurēta kataloga, var gūt labumu no īpašām cenām un veicināšanas pasākumiem pēc pieteikšanās Commerce B2B vietnē. Lai konfigurētu katalogam raksturīgās cenas, **atlasiet cenu** grupas **cilnē Katalogi**, lai saistītu vienu vai vairākas cenu grupas ar katalogu. Visi tirdzniecības līgumi, cenu korekcijas žurnāli un papildu atlaides, kas ir saistītas ar to pašu cenu grupu, tiks piemērotas, kad debitori ir pasūtīti no šī kataloga. (Papildu atlaides ietver sliekšņa, daudzuma un komplekta atlaides.) Papildinformāciju par cenu grupām skatiet sadaļā [Cenu grupas](price-management.md#price-groups).
 
 > [!NOTE]
-> Šī funkcija ir pieejama no versijas Dynamics 365 Commerce 10.0.26 laidiena. Lai konfigurētu tādas katalogam specifiskas konfigurācijas kā navigācijas hierarhija un debitoru hierarhija, **programmā** Commerce headquarters atveriet līdzekļu pārvaldības darbvietu (**Sistēmas administrēšanas \>\> darbalauku līdzekļu pārvaldība**), **·** **iespējojiet vairāku katalogu lietošanu mazumtirdzniecības kanālu līdzeklī un pēc tam izpildiet 1110 CDX** darbu.
+> Šī funkcija ir pieejama kā versijas Dynamics 365 Commerce 10.0.27 izlaide. Lai konfigurētu tādas katalogam specifiskas konfigurācijas kā navigācijas hierarhija un debitoru hierarhija, **programmā** Commerce headquarters atveriet līdzekļu pārvaldības darbvietu (**Sistēmas administrēšanas \>\> darbalauku līdzekļu pārvaldība**), **·** **iespējojiet vairāku katalogu lietošanu mazumtirdzniecības kanālu līdzeklī un pēc tam izpildiet 1110 CDX** darbu.
 
 ## <a name="catalog-process-flow"></a>Kataloga apstrādes plūsma
 
@@ -143,4 +143,4 @@ Kad kataloga statuss ir **Apstiprināts**, to var publicēt, izvēlnē **Katalog
 
 [Commerce katalogu paplašināmības ietekme B2B pielāgojumiem](catalogs-b2b-sites-dev.md)
 
-[Commerce katalogi B2B FAQ](catalogs-b2b-sites-FAQ.md)
+[Bieži uzdotie jautājumi par Commerce katalogiem B2B vietnēm](catalogs-b2b-sites-FAQ.md)

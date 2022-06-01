@@ -2,7 +2,7 @@
 title: Konfigurācijas noformēšana dokumentu ģenerēšanai Excel formātā
 description: Šī tēma sniedz informāciju par to, kā veidot elektronisko pārskatu (ER) formātu, lai aizpildītu Excel veidni un pēc tam ģenerētu izejošos Excel formāta dokumentus.
 author: NickSelin
-ms.date: 03/25/2022
+ms.date: 05/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ec25065f2e3cc3b5dd3c9004d5330447f7b2ac61
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 4a34f990c865aa8c82213a60c23d5a44ad75aee4
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645140"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811425"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Konfigurācijas noformēšana dokumentu ģenerēšanai Excel formātā
 
@@ -288,6 +288,16 @@ Varat atlasīt **Atjaunināt no Excel** darbību rūts cilnē **Importēt**, lai
 
 ![Izveidot Excel lapas formāta elementa opciju dialoglodziņā Atjaunināt no Excel.](./media/er-excel-format-update-template.png)
 
+Versijā 10.0.28 un jaunākā **versijā varat izmantot opciju Atjaunināt Excel galvenes un Excel kājenes formāta** elementus.
+
+- Kad iestatāt **šo opciju kā Nē**, Excel virsraksta un Excel kājenes formāta elementi paliek nemainīgi, pat ja atbilstošie virsraksti un kājenes ir atjaunināti importētās veidnes darblapās Excel darbgrāmatas formātā.
+- Kad iestatīsit **šo opciju kā Jā**, Excel galvenes un Excel kājenes formāta elementi tiks mainīti, kad atbilstošie virsraksti un kājenes tiks atjauninātas importētās veidnes darblapās Excel darbgrāmatas formātā.
+
+    - Ja darblapas virsraksta vai kājenes struktūra nav mainīta vai arī tā ir tikai pievienota, tiek atjaunināta atbilstošā Excel virsraksta vai Excel kājenes formāta elementa struktūra. Tiks saglabāti formāta elementu, kas ir ligzdoti zem šī Excel virsraksta vai Excel kājenes formāta elementa, saistīumi.
+    - Ja ir mainīta darblapas virsraksta vai kājenes struktūra, atkārtoti tiek izveidots atbilstošais Excel virsraksta vai Excel kājenes formāta elements. Tiks noņemti formāta elementu, kas ir ligzdoti zem šī Excel virsraksta vai Excel kājenes formāta elementa, saistīumi.
+
+![Atjaunināt Excel galvenes un Excel kājenes formāta elementu opciju dialoglodziņā Atjaunināt no Excel.](./media/er-excel-format-update-template2.png)
+
 Lai uzzinātu vairāk par šo līdzekli, sekojiet soļiem sadaļā [Modificēt elektronisko pārskatu formātus, atkārtoti pielietojot Excel veidnes](modify-electronic-reporting-format-reapply-excel-template.md).
 
 ## <a name="validate-an-er-format"></a>Pārbaudīt ER formātu
@@ -355,7 +365,7 @@ Kad tiek ģenerēts izejošais dokuments Microsoft Excel darbgrāmatas formātā
 
 ## <a name="example-2-fixing-the-merged-cells-epplus-issue"></a><a name="example-2"></a> 2. piemērs: sapludināto šūnu EPPlus problēmas labošana
 
-ER formātu varat palaist, lai izveidotu izejošo dokumentu Excel darbgrāmatas formātā. **Kad iespējo EPPlus** **bibliotēkas** izmantošanu elektronisko pārskatu veidošanas struktūras līdzeklī, kas ir iespējots Līdzekļu pārvaldības darbvietā, [EPPlus](https://www.nuget.org/packages/epplus/4.5.2.1) bibliotēka tiek izmantota Excel izvades veidošanai. Tomēr, tā [kā Excel](https://answers.microsoft.com/msoffice/forum/all/deleting-a-range-of-cells-that-includes-merged/8601462c-4e2c-48e0-bd23-848eecb872a9) funkcionalitāte ir zināma un EPPlus bibliotēka ir ierobežota, varat saskarties ar šādu izņēmumu: "Nevar dzēst/pārrakstīt sapludinātās šūnas. Diapazons ir daļēji sapludināts ar citu sapludinātu diapazonu." Lai uzzinātu, kādas Excel veidnes var izraisīt šo izņēmumu un kā var labot šo problēmu, izpildiet šo piemēru.
+ER formātu varat palaist, lai izveidotu izejošo dokumentu Excel darbgrāmatas formātā. **Kad iespējo EPPlus** **bibliotēkas** izmantošanu elektronisko pārskatu veidošanas struktūras līdzeklī, kas ir iespējots Līdzekļu pārvaldības darbvietā, [EPPlus](https://www.nuget.org/packages/epplus/4.5.2.1) bibliotēka tiek izmantota Excel izvades veidošanai. Tomēr, tā [kā Excel](https://answers.microsoft.com/en-us/msoffice/forum/all/deleting-a-range-of-cells-that-includes-merged/8601462c-4e2c-48e0-bd23-848eecb872a9) funkcionalitāte ir zināma un EPPlus bibliotēka ir ierobežota, varat saskarties ar šādu izņēmumu: "Nevar dzēst/pārrakstīt sapludinātās šūnas. Diapazons ir daļēji sapludināts ar citu sapludinātu diapazonu." Lai uzzinātu, kādas Excel veidnes var izraisīt šo izņēmumu un kā var labot šo problēmu, izpildiet šo piemēru.
 
 1. Excel darbvirsmas programmā izveidojiet jaunu Excel darbgrāmatu.
 2. Darblapas **lapā1** pievienojiet **ReportTitle** nosaukumu šūnai **A2**.
@@ -378,7 +388,7 @@ Varat labot šo problēmu vienā no tālāk norādītajiem veidiem:
     1. Excel darbvirsmas programmā modificējiet Excel darbgrāmatu vienā no šiem veidiem:
 
         - Darblapas **lapā1** no atcelt šūnu **a1 un** **A2 saplūšanu**.
-        - Mainiet **ReportTitle** nosaukuma atsauci no **=Sheet1!$A$2** uz **=Sheet1!$A$1**.
+        - Mainiet **ReportTitle** **nosaukuma atsauci no =Sheet1!$A$2** uz **=Sheet1!$A$1**.
 
         ![Pārskatiet rezultātus, kas rodas, mainot atsauci Excel darbvirsmas programmas izveidotai darbgrāmatai.](./media/er-fillable-excel-example2-3.png)
 

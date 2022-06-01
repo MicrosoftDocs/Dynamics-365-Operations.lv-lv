@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: cbd33b16a4b21e8e1931bc61cb55e376e7d73179
-ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.openlocfilehash: cb02e8d10a5c673734727682436ba1b3fc996935
+ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8524470"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "8786871"
 ---
 # <a name="inventory-visibility-public-apis"></a>Krājumu uztveramības pievienojumprogrammas publiskais API
 
@@ -41,17 +41,22 @@ Tālāk esošajā tabulā ir norādītas pieejamās API:
 | /api/vide/{environmentId}/rīcībā esošs/{inventorySystem}/lielapjoma | Amats | [Iestatīt/ignorēt rīcībā esošos daudzumus](#set-onhand-quantities) |
 | /api/vide/{environmentId}/rīcībā esošs/rezervēt | Amats | [Izveidot vienu rezervācijas notikumu](#create-one-reservation-event) |
 | /api/vide/{environmentId}/rīcībā esošs/rezervēt/lielapjoma | Amats | [Izveidot vairākus rezervēšanas notikumus](#create-multiple-reservation-events) |
-| /api/environment/{environmentId} on-hand/changeschedule | Grāmatot | [Izveidot vienu plānoto rīcībā esošo izmaiņu](inventory-visibility-available-to-promise.md) |
-| /api/environment/{environmentId} on-hand/changeschedule/bulk | Grāmatot | [Izveidot vairākas plānotas rīcībā esošo krājumu izmaiņas](inventory-visibility-available-to-promise.md) |
+| /api/environment/{environmentId} onhand/changeschedule | Grāmatot | [Izveidot vienu plānoto rīcībā esošo izmaiņu](inventory-visibility-available-to-promise.md) |
+| /api/environment/{environmentId} onhand/changeschedule/lielapjoma | Grāmatot | [Izveidot vairākas plānotas rīcībā esošo krājumu izmaiņas](inventory-visibility-available-to-promise.md) |
 | /api/vide/{environmentId}/rīcībā esošs/indeksa vaicājums | Grāmatot | [Vaicājums, izmantojot grāmatošanas metodi](#query-with-post-method) |
 | /api/vide/{environmentId}/rīcībā esošs | Iegūt | [Vaicājums, izmantojot iegūšanas metodi](#query-with-get-method) |
+| /api/vide/sadalījums{environmentId}/sadalījums | Grāmatot | [Izveidot vienu piešķires notikumu](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/vide/{environmentId} sadalījums/atdalīšana | Grāmatot | [Izveidot vienu nesadalītu notikumu](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/vide/{environmentId} sadalījums/reallocate | Grāmatot | [Izveidot vienu no jauna pārceltiem notikumiem](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/vide/sadalījums{environmentId}/patērēšanas | Grāmatot | [Izveidot vienu patērēto notikumu](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/allocation{environmentId}/vaicājums | Grāmatot | [Vaicājuma sadalījuma rezultāts](inventory-visibility-allocation.md#using-allocation-api) |
 
 > [!NOTE]
 > Ceļa {environmentId} daļa ir vides ID Microsoft Dynamics pakalpojumā Lifecycle Services (LCS).
 > 
 > Lielapjoma API var atgriezt maksimāli 512 ierakstus katram pieprasījumam.
 
-Microsoft ir nodrošinājusi standarta *Pastnieka* pieprasījuma kolekciju. Jūs variet importēt šo kolekciju savā *Pastnieka* programmatūrā, izmantojot šādu koplietojamu saiti: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
+Microsoft ir nodrošinājusi standarta *Pastnieka* pieprasījuma kolekciju. Jūs variet importēt šo kolekciju savā *Pastnieka* programmatūrā, izmantojot šādu koplietojamu saiti: <https://www.getpostman.com/collections/ad8a1322f953f88d9a55>.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Atrast galapunktu atbilstoši Lifecycle Services videi
 
@@ -84,7 +89,7 @@ Microsoft ir izveidojis lietotāja interfeisu (UI) risinājumā Power Apps, lai 
 
 ## <a name="authentication"></a><a name="inventory-visibility-authentication"></a>Autentifikācija
 
-Platformas drošības marķieris tiek izmantots, lai izsauktu Krājumu redzamības pievienojumprogrammas publisko API. Tāpēc, izmantojot programmu, ir jāizveido _Azure Active Directory (Azure AD) marķieris_ ar Azure AD lietotni. Pēc tam ir jāizmanto Azure AD marķieris, lai iegūtu _piekļuves pilnvaras_ no drošības pakalpojuma.
+Platformas drošības marķieris tiek izmantots, lai izsauktu Krājumu redzamības pievienojumprogrammas publisko API. Tādēļ jums ir jāizveido _Azure Active Directory (Azure AD) marķieris_, izmantojot programmu Azure AD. Pēc tam ir jāizmanto Azure AD marķieris, lai iegūtu _piekļuves pilnvaras_ no drošības pakalpojuma.
 
 Microsoft ir nodrošinājusi standarta *Pastnieka* pieprasījuma kolekciju. Jūs variet importēt šo kolekciju savā *Pastnieka* programmatūrā, izmantojot šādu koplietojamu saiti: <https://www.getpostman.com/collections/496645018f96b3f0455e>.
 
@@ -539,7 +544,7 @@ Body:
 }
 ```
 
-Šajos piemēros parādīts, kā vaicāt preces noteiktā objektā un atrašanās vietā.
+Šajā piemērā parādīts, kā vaicāt par visām precēm noteiktā vietā un atrašanās vietā.
 
 ```json
 {
@@ -580,6 +585,10 @@ Query(Url Parameters):
 
 ## <a name="available-to-promise"></a>Pieejams solīšanai
 
-Var iestatīt krājumu redzamību, lai ļautu plānot turpmākās rīcībā esošo izmaiņu veikšanu un aprēķināt ATP daudzumus. ATP ir pieejamais krājuma daudzums, un nākamajā periodā to var solīt debitoram. ATP aprēķina izmantošana var ievērojami palielināt pasūtījuma izpildes spēju. Papildinformāciju par to, kā iespējot šo funkciju un kā mijiedarboties ar krājumu redzamību, izmantojot tā API pēc funkcijas iespējošanas, [skatiet krājumu redzamības rīcībā esošo izmaiņu grafikus un pieejamos solīšanai](inventory-visibility-available-to-promise.md).
+Var iestatīt krājumu redzamību, lai ļautu plānot turpmākās rīcībā esošo izmaiņu veikšanu un aprēķināt ATP daudzumus. ATP ir pieejamais krājuma daudzums, un nākamajā periodā to var solīt debitoram. ATP aprēķina izmantošana var ievērojami palielināt pasūtījuma izpildes spēju. Papildinformāciju par to, kā iespējot šo funkciju un kā mijiedarboties ar krājumu redzamību, izmantojot tā API pēc funkcijas iespējošanas, [skatiet krājumu redzamības rīcībā esošo izmaiņu grafikus un pieejamos solīšanai](inventory-visibility-available-to-promise.md#api-urls).
+
+## <a name="allocation"></a>Sadalījums
+
+Ar piešķiri saistītie API ir novietoti krājumu [redzamības sadalījumā](inventory-visibility-allocation.md#using-allocation-api).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

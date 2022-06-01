@@ -2,7 +2,7 @@
 title: Elektronisko pārskatu veidošanas formātu modificēšana, atkārtoti lietojot Excel veidnes
 description: Šajā tēmā ir sniegta informācija par to, kā var izmainīt biznesa dokumentu ģenerēšanai izmantoto elektronisko pārskatu veidošanas (ER) formātu, atkārtoti lietojot izmainītu Excel veidni.
 author: NickSelin
-ms.date: 06/01/2017
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 57f0db12657878fa34c86c55925d62100c26cad8799e5e6ace7e7dd81d91cd9f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 626450b05789c93f63675a55e050649c862c86f6
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737879"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811397"
 ---
 # <a name="modify-electronic-reporting-formats-by-reapplying-excel-templates"></a>Elektronisko pārskatu veidošanas formātu modificēšana, atkārtoti lietojot Excel veidnes
 
@@ -28,9 +28,12 @@ ms.locfileid: "6737879"
 
 Elektronisko pārskatu veidošanas (ER) rīks tiek izmantots elektroniska formāta biznesa dokumentu ģenerēšanai. Ja vēlaties ģenerēt biznesa dokumentu, jums ir jāizveido ER formāta un pēc tam jāizmanto ER noformētājs, lai definētu biznesa dokumenta izkārtojumu un norādītu tajā ietveramos datus. Pēc tam varat izpildīt ER formātu, lai ģenerētu biznesa dokumentu.
 
-ER rīku var izmantot biznesa dokumentu ģenerēšanai Microsoft Excel failu formātā. Kā šo dokumentu veidnes varat izmantot Excel dokumentus. Lai ER noformētājā definētu dokumenta izkārtojumu, varat definētajā ER formātā importēt tā Excel dokumenta saturu, ko vēlaties izmantot kā veidni. Lai saņemtu papildinformāciju un izmēģinātu šo scenāriju, atskaņojiet uzdevuma ceļvedi **Konfigurācijas noformēšana pārskatu ģenerēšanai OPENXML formātā (ER)** (daļa no 7.5.4.3. biznesa procesa IT pakalpojumu/risinājumu komponentu iegāde/izstrāde (10677)).
+ER rīku var izmantot biznesa dokumentu ģenerēšanai Microsoft Excel failu formātā. Kā šo dokumentu veidnes varat izmantot Excel dokumentus. Lai ER noformētājā definētu dokumenta izkārtojumu, varat definētajā ER formātā importēt tā Excel dokumenta saturu, ko vēlaties izmantot kā veidni. Lai saņemtu papildinformāciju un izmēģinātu šo scenāriju, atskaņojiet uzdevuma ceļvedi **Konfigurācijas noformēšana pārskatu ģenerēšanai OPENXML formātā (ER)** (daļa no 7.5.4.3. biznesa procesa IT pakalpojumu/risinājumu komponentu iegāde/izstrāde (10677)). Uzdevumu ceļveža darbībā, kur importējat Excel veidni, izmantojiet maksājuma pārskata Excel [faila SampleVendPaymWsReport sākotnējo veidni](https://download.microsoft.com/download/e/6/b/e6bb79f0-cc08-44af-96fa-49c7929d4fb8/SampleVendPaymWsReport.xlsx).
 
-Ja rediģējat Excel dokumentu, kas tiek izmantots kā biznesa dokumenta veidne, jauna ER funkcionalitāte sniedz iespēju ER formātam atkārtoti lietot atjaunināto veidni. Pēc tam ER formāts tiek atjaunināts atbilstoši atjauninātajai veidnei. Lai saņemtu papildinformāciju par šo funkcionalitāti, atskaņojiet uzdevuma ceļvedi **Formāta izmainīšana, atkārtoti lietojot Excel veidni (ER)** (daļa no 7.5.5.3. biznesa procesa IT pakalpojumu/risinājumu komponentu iegāde/izstrāde (10683)). Veicot uzdevuma ceļveža darbību, kuras ietvaros importējat atjauninātu veidni, izmantojiet maksājumu pārskata Excel faila SampleVendPaymWsReport2 izmainīto veidni.
+Ja rediģējat Excel dokumentu, kas tiek izmantots kā biznesa dokumenta veidne, jauna ER funkcionalitāte sniedz iespēju ER formātam atkārtoti lietot atjaunināto veidni. Pēc tam ER formāts tiek atjaunināts atbilstoši atjauninātajai veidnei. Lai saņemtu papildinformāciju par šo funkcionalitāti, atskaņojiet uzdevuma ceļvedi **Formāta izmainīšana, atkārtoti lietojot Excel veidni (ER)** (daļa no 7.5.5.3. biznesa procesa IT pakalpojumu/risinājumu komponentu iegāde/izstrāde (10683)). Uzdevumu ceļveža darbībā, kur importējat atjauninātu veidni, izmantojiet modificēto veidni Maksājumu pārskata Excel [failam SampleVendPaymWsReport2](https://download.microsoft.com/download/3/1/0/3104d397-c9c5-4227-b68e-f98625313801/SampleVendPaymWsReport2.xlsx).
 
+## <a name="additional-resources"></a>Papildu resursi
+
+[Veidnes atjaunināšana](er-fillable-excel.md#update-a-template)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

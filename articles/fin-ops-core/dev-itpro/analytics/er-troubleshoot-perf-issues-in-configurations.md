@@ -2,7 +2,7 @@
 title: Veiktspējas problēmu novēršana ER konfigurācijās
 description: Šajā tēmā skaidrots, kā atrast un labot veiktspējas problēmas Elektronisko pārskatu (ER) konfigurācijās.
 author: NickSelin
-ms.date: 06/08/2021
+ms.date: 05/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: maximbel
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: b5f5308f171b6cd4224debec897dbde133e6d8424673aabfab51e6b83b9014e2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e727e06c73ff445bf4219ac5a9eee7bec25740d9
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744390"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811685"
 ---
 # <a name="troubleshooting-performance-issues-in-er-configurations"></a>Veiktspējas problēmu novēršana ER konfigurācijās
 
@@ -55,7 +55,7 @@ Dažreiz veiktspējas problēmas nav saistītas ar ER formāta konfigurāciju, k
 
 Sagatavojiet nelielu piemēru vai savāciet vairākas izsekotās darbības no pārskata ģenerēšanas nejaušām daļām.
 
-Pēc tam [Trace parsētājā](#trace-parser) veiciet pilnu standarta analīzi un atbildiet uz šādiem jautājumiem:
+Pēc tam [Trace parser](#trace-parser) veiciet standarta apakšpuses analīzi un atbildiet uz šādiem jautājumiem:
 
 - Kādas ir galvenās metodes attiecībā uz laika patēriņu?
 - Kādu daļu no kopējā laika šīs metodes izmanto?
@@ -82,7 +82,7 @@ Pēc tam atveriet izsekotās darbības ER modeļa kartēšanas noformētājā un
 
 - Vai vaicājumu un ienesto ierakstu skaits atbilst vispārējam datu apjomam? Piemēram, ja dokumentam ir 10 rindas, vai statistika rāda, ka pārskats izgūs 10 rindas vai 1000 rindas? Ja jums ir liels skaits ienesto ierakstu, apsveriet vienu no šiem labojumiem:
 
-    - [Izmantojiet funkciju **FILTER**, nevis **WHERE** funkciju](#filter), lai apstrādātu datus SQL Server pusē.
+    - [Lai pusē **apstrādātu** datus, **lietojiet funkciju** FILTER, nevis](#filter) funkciju WHERE Microsoft SQL Server.
     - Izmantojiet kešdarbi, lai izvairītos no to pašu datu ieneses.
     - [Izmantojiet apkopoto datu funkcijas](#collected-data), lai izvairītos no to pašu ienesto datu apkopošanas.
 
@@ -191,6 +191,10 @@ c:\programs\PerfView collect "e:\traces\$(date -format "ddMMyyyy_hhmm").etl" `
 
 Lai gan kešdarbe samazina laiku, kas nepieciešams atkārtotai datu ienesei, tā aizņem lielu atmiņas krātuves vietu. Izmantojiet kešdarbi gadījumos, kad ienesto datu apjoms nav pārāk liels. Papildinformāciju un piemēru, kas parāda, kā izmantot kešdarbi, skatiet sadaļā [Modeļa kartēšanas uzlabošana, pamatojoties uz izpildes darbību izsekošanas informāciju](trace-execution-er-troubleshoot-perf.md#improve-the-model-mapping-based-on-information-from-the-execution-trace).
 
+#### <a name="reduce-volume-of-data-fetched"></a><a name="reduce-fetched-data"></a> Samazināt ienesto datu apjomu
+
+Atmiņas patēriņu kešatmiņai var samazināt, ierobežojot lauku skaitu programmas tabulas ieneses ieneses izpildlaikā. Šajā gadījumā tiks ienestas tikai tās programmas tabulas lauka vērtības, kas nepieciešamas ER modeļa kartēšanai. Citi šīs tabulas lauki netiks ienesti. Tāpēc atmiņas apjoms, kas ir nepieciešams ienesto ierakstu ierakstīšanai kešatmiņā, tiek samazināts. Papildinformāciju skatiet [ER risinājumu veiktspējas uzlabošanai, samazinot izpildlaikā ienesto tabulas lauku skaitu](er-reduce-fetched-fields-number.md).
+
 #### <a name="use-a-cached-parameterized-calculated-field"></a><a name="cached-parameterized"></a>Izmantot kešdarbes parametru aprēķināto lauku
 
 Dažreiz vērtības ir nepieciešams izmantot atkārtoti. Piemēri ietver kontu nosaukumus un kontu numurus. Lai ietaupītu laiku, varat izveidot aprēķinātu lauku, kura parametri atrodas augstākajā līmenī, un pēc tam pievienot šo lauku kešatmiņai.
@@ -218,4 +222,4 @@ ER var patērēt datus no šādiem avotiem:
 - Klases (**objekta** un **klases** datu avoti)
 - Tabulas (**tabulas** un **tabulas ierakstu** datu avoti)
 
-Vēl [ER API](er-apis-app73.md#how-to-access-internal-x-objects-by-using-erobjectsfactory) nodrošina arī veidu, kā nosūtīt iepriekš aprēķinātos datus no izsaukšanas koda. Programmas komplekts satur daudzus šādas pieejas piemērus.
+[ER programmas programmēšanas interfeiss (API)](er-apis-app73.md#how-to-access-internal-x-objects-by-using-erobjectsfactory) nodrošina arī veidu, kā nosūtīt iepriekš aprēķinātos datus no izsaukšanas koda. Programmas komplekts satur daudzus šādas pieejas piemērus.

@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 26b2821f33ea23dde1fda1d461baa5de1b4f9efc
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
-ms.translationtype: HT
+ms.openlocfilehash: 3385edf8961d04cf8bfc4ca06299f1911b76a4f5
+ms.sourcegitcommit: 2b119aec0e6f49bfd36125d9660f49cde5394446
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740657"
+ms.lasthandoff: 05/16/2022
+ms.locfileid: "8758774"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Pakalpojuma apraksts finanšu un operāciju programmām
 
@@ -132,9 +132,9 @@ Finanšu un operāciju programmām Microsoft darbojas kā procesors. Finanses un
 
 LCS nodrošina [pašapkalpošanās rīkus](../../dev-itpro/deployment/infrastructure-stack.md) un [datu bāzes kustības darbības](../../dev-itpro/database/dbmovement-operations.md), kas tiek izmantotas vides un datu pārvaldības uzdevumu veikšanai. Daži piemēri:
 
-**Notikums:** [Ražošanas instances pieprasījums](../imp-lifecycle/prepare-go-live.md#requesting-the-production-environment)
+**Notikums:** [Ražošanas instances pieprasījums](../imp-lifecycle/go-live-faq.md#when-can-i-configure-and-request-my-production-environment)
 
-- Aizpildiet [Tiešraides kontrolsaraksts](../imp-lifecycle/prepare-go-live.md) un iesniedziet to [Microsoft FastTrack](/dynamics365/fasttrack/) komandai.
+- Izpildiet [Go-Live gatavības](../imp-lifecycle/prepare-go-live.md) pārskatu un iesniedziet to [Microsoft FastTrack](/dynamics365/fasttrack/) komandai.
 - Pirms pieprasāt ražošanas instanci, pabeidziet [LCS](../../dev-itpro/lifecycle-services/subscription-estimator.md) abonementa novērtējumu.
 - Veiciet visus ieviešanas uzdevumus, kas norādīti [LCS metodoloģijā](../../dev-itpro/lifecycle-services/create-methodology.md).
 

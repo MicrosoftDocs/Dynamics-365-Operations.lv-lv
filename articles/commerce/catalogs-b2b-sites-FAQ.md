@@ -1,22 +1,22 @@
 ---
-title: Commerce katalogi B2B FAQ
+title: Bieži uzdotie jautājumi par Commerce katalogiem B2B vietnēm
 description: Šajā tēmā sniegta atbilde uz bieži uzdotiem jautājumiem par Microsoft Dynamics 365 Commerce katalogiem.
 author: ashishmsft
-ms.date: 04/28/2022
+ms.date: 05/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 776820e8e77cd0884b3df5412bb95e6e80ca4fc7
-ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
+ms.openlocfilehash: 5bdc7dfcb0e48aa85db2db4d178c5bf62ea0411b
+ms.sourcegitcommit: bca0cb730307948368a9aabe322cf963688ed8b1
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8657191"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8782866"
 ---
-# <a name="commerce-catalogs-for-b2b-faq"></a>Commerce katalogi B2B FAQ
+# <a name="commerce-catalogs-for-b2b-faq"></a>Bieži uzdotie jautājumi par Commerce katalogiem B2B vietnēm
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
@@ -25,7 +25,7 @@ ms.locfileid: "8657191"
 
 ## <a name="why-cant-i-configure-a-catalog-specific-navigation-hierarchy-or-see-an-option-to-associate-a-customer-hierarchy"></a>Kādēļ es nevaru konfigurēt katalogam raksturīgu navigācijas hierarhiju vai skatīt opciju, lai saistītu debitora hierarhiju?
 
-Nodrošiniet, lai iespējotu **vairāku katalogu izmantošanu mazumtirdzniecības kanālu funkcijai**, kas ir iespējota **Commerce Headquarters līdzekļu pārvaldības** darbvietā. Turklāt pārliecinieties, vai vidē tiek izmantota Commerce versija 10.0.26 vai jaunāka versija.
+Nodrošiniet, lai iespējotu **vairāku katalogu izmantošanu mazumtirdzniecības kanālu funkcijai**, kas ir iespējota **Commerce Headquarters līdzekļu pārvaldības** darbvietā. Turklāt pārliecinieties, vai vidē tiek izmantota Commerce versija 10.0.27 vai jaunāka versija.
 
 ## <a name="can-i-view-the-catalog-specific-hierarchy-and-enrich-category-pages-in-commerce-site-builder"></a>Vai es varētu skatīt katalogam raksturīgo hierarhiju un bagātināt kategoriju lapas Commerce Site Builder?
 
@@ -81,6 +81,6 @@ Nē. Kataloga avota kodi tiek atbalstīti tikai zvanu centra kanāliem.
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Izveidot Commerce katalogus B2B vietām](catalogs-b2b-sites.md)
+[Commerce katalogu izveide B2B vietnēm](catalogs-b2b-sites.md)
 
 [Commerce katalogu paplašināmības ietekme B2B pielāgojumiem](catalogs-b2b-sites-dev.md)

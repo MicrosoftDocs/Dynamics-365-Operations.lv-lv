@@ -2,7 +2,7 @@
 title: Elektroniskās pārskatu veidošanas (ER) adresāti
 description: Šajā tēmā ir sniegta informācija par elektronisko pārskatu (ER) adresātiem, atbalstīto galamērķu tipiem un drošības apsvērumiem.
 author: nselin
-ms.date: 09/16/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e8e176b8d4e14eee2050b3c66f7547ff878b5174
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: e3154cb62531bf956365b420b454c98ead7f7335
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647097"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780465"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektroniskās pārskatu veidošanas (ER) adresāti
 
@@ -45,7 +45,7 @@ Ja vēlaties, varat instalēt vienu no tālāk norādītajiem priekšnosacījumi
 - Lietojumprogrammas Microsoft Dynamics AX versija 7.0.1 (2016. gada maijs)
 - [Elektroniskās ziņošanas galamērķa pārvaldības programmas labojumfails](https://fix.lcs.dynamics.com/issue/results/?q=3160213)
 
-Iekļauts arī [Drukāšanas](er-destination-type-print.md) adresāta tips. Lai to izmantotu, instalējiet Microsoft Dynamics 365 Finance versiju 10.0.9 ( 2020. gada aprīlis).
+Iekļauts arī [Drukāšanas](er-destination-type-print.md) adresāta tips. Lai to izmantotu, ir jāinstalē Microsoft Dynamics 365 Finanšu versija 10.0.9 (2020. gada aprīlis).
 
 ## <a name="overview"></a>Pārskats
 
@@ -173,11 +173,11 @@ Programmas Finance versijās **pirms versijas 10.0.18** šo opciju var ieslēgt 
 
 ### <a name="limitations"></a>Ierobežojumi
 
-PDF pārveides opcija ir pieejama tikai mākoņa izvietojumiem.
+Finanšu versijas 10.0.9 **PDF** pārvēršanas opcija ir pieejama tikai mākoņa izvietošanai. Sākot ar finanšu versiju **10.0.27**, PDF pārvēršanas opcija ir pieejama jebkurai lokālai izvietošanai, kam ir [iespējota interneta savienojamība](../user-interface/client-disconnected.md).
 
 Saražotais PDF dokuments ir ierobežots līdz maksimālam 300 lapu skaitam.
 
-Programmas Finance **10.0.9 versijā** tikai horizontāli orientētu lapas orientāciju atbalsta PDF dokuments, kas ir izveidots no Excel formāta izvades. Ar Finance **versiju 10.0.10 (2020. gada maijs) un vēlāk** jūs varat [norādīt lapas orientāciju](#SelectPdfPageOrientation) PDF dokumentā, kas tiek veidots no Excel izdrukas, kamēr jūs konfigurējat ER galamērķi.
+Finanšu versijas 10.0.9 **PDF** dokumentā, kas veidots no Excel izvades, tiek atbalstīta tikai ainavorientācija. Sākot no finanšu **versijas 10.0.10**, varat [norādīt](#SelectPdfPageOrientation) lapas orientāciju PDF dokumentam, kas tiek iegūts no Excel izvades, kamēr konfigurējat ER adresātu.
 
 Lai pārveidotu izvadi, kas nesatur iegultus fontus, tiek izmantoti tikai Window operētājsistēmas bieži sastopamie sistēmas fonti.
 

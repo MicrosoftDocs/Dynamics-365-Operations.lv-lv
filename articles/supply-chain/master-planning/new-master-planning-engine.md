@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 20e48fee237615c7b1acdb564e5e524d393f8eba
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 598e29ead50e1ecb249a7338c7f0952a912b4f69
+ms.sourcegitcommit: cbe9493d479f96f271d94599ec1b85131b26169f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469902"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809100"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Migrācija uz Plānošanas optimizāciju vispārējai plānošanai
 
@@ -47,7 +47,7 @@ Kā minēts iepriekš versijā 10.0.16 un jaunākās tiks parādīts kļūdas zi
 
 ### <a name="new-deployments"></a>Jauni izvietojumi
 
-Plānošanas optimizācija ir uzskatāma par noklusēto vispārējās plānošanas programmu visiem jaunajiem izvietojumiem mākonī. Vispārīgi Plānošanas optimizācija ir jāizmanto visiem jaunajiem izvietojumiem, kas vispārējās plānošanas laikā neģenerē plānotos ražošanas pasūtījumus. Ja jauns izvietojums ir atkarīgs no funkcionalitātes, ko plānošanas optimizācija pašlaik neatbalsta, varat pieprasīt izņēmumu, lai varētu turpināt izmantot iebūvēto vispārējās plānošanas programmu.
+Plānošanas optimizāciju ir jāuzskata par noklusējuma vispārējās plānošanas programmu visām jaunajām izvietošanām mākonī. Vispārīgi Plānošanas optimizācija ir jāizmanto visiem jaunajiem izvietojumiem, kas vispārējās plānošanas laikā neģenerē plānotos ražošanas pasūtījumus. Ja jauns izvietojums ir atkarīgs no funkcionalitātes, ko plānošanas optimizācija pašlaik neatbalsta, varat pieprasīt izņēmumu, lai varētu turpināt izmantot iebūvēto vispārējās plānošanas programmu.
 
 ### <a name="existing-deployments"></a>Esošās izvietošanas
 
@@ -63,7 +63,7 @@ Varat pieprasīt izņēmumu, ja ir jāturpina izmantot iebūvēto vispārējās 
 
 Pēc tam, kad būs pieejamas nepieciešamās funkcijas, korporācija Microsoft nodrošinās pagarinājuma periodu līdz izņēmuma termiņa beigām. Vides administrators tiks informēts, kad vajadzīgie līdzekļi ir kļuvuši pieejami un pagarinājuma periods ir sācies.
 
-Šajā plūsmkartē ir apkopota šajā tēmā sniegtā informācija, lai varētu ātri noteikt, vai ir jāpieprasa izņēmums. Ja nepieciešams pieprasīt izņēmumu, lūdzu, aizpildiet un iesniedziet [Plānošanas optimizācijas migrācijas un izņēmuma anketu](https://go.microsoft.com/fwlink/?linkid=2144962).
+Šajā plūsmkartē ir apkopota šajā tēmā sniegtā informācija, lai varētu ātri noteikt, vai ir jāpieprasa izņēmums. Ja nepieciešams pieprasīt izņēmumu, lūdzu, aizpildiet un iesniedziet [Plānošanas optimizācijas migrācijas un izņēmuma anketu](https://go.microsoft.com/fwlink/?linkid=2144962). Preču grupa ir atbildīga par katra izņēmuma pieprasījuma vērtēšanu un apstiprināšanu, tāpēc, lūdzu, iesniedziet savu pieprasījumu tieši preču grupai, izmantojot norādīto saiti, un neveidojiet tai atbalsta biļeti. Ja jūsu pieprasījums tiek noraidīts, lūdzu, neveidojiet atbalsta biļeti, jo Microsoft Support nevar atkārtoti novērtēt vai piešķirt izņēmumus.
 
 ![Izņēmumu plūsmkarte.](media/exception-diagram.png "Izņēmumu plūsmkarte")
 

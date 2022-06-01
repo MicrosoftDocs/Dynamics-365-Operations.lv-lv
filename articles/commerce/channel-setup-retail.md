@@ -2,7 +2,7 @@
 title: Mazumtirdzniecības kanāla iestatīšana
 description: Šajā tēmā aprakstīts, kā izveidot jaunu mazumtirdzniecības kanālu risinājumā Microsoft Dynamics 365 Commerce.
 author: samjarawan
-ms.date: 04/23/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6a8db8bb4b42c7ad6c0c0e0c257bc03e356de7d525f524c22eab46e38c018d49
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 74a4f0f61e0bbfd73d0006d3cf45863af6fef18f
+ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745410"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8770225"
 ---
 # <a name="set-up-a-retail-channel"></a>Mazumtirdzniecības kanāla iestatīšana
 
@@ -90,6 +90,13 @@ Lai iestatītu maksājuma metodes, katram šajā kanālā atbalstītajam maksāj
 Tālāk esošajā attēlā ir parādīts skaidras naudas maksājuma piemērs.
 
 ![Maksājumu metožu piemērs.](media/channel-setup-retail-5.png)
+
+Šajā attēlā parādīts skaidras naudas maksāšanas metodes piemērs un cilnes **Summa** konfigurācija.
+
+![Piemērs maksāšanas metodes iestatīšanai summām.](media/payment-methods-recount.png)
+
+> [!NOTE]
+> Cilnes Summa **vērtības** tiek kešotas mazumtirdzniecības serverī un stāsies spēkā tikai pēc sadales grafika darbu palaišanas. Iespējams, būs jārestartē mākoņa mēroga vienība, lai nekavējoties piemērotu šīs vērtības testēšanas laikā.
 
 ### <a name="set-up-cash-declaration"></a>Skaidrās naudas deklarācijas iestatīšana
 

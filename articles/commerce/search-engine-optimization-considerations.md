@@ -2,24 +2,19 @@
 title: Meklētājprogrammas optimizēšanas (SEO) apsvērumi jūsu vietnei
 description: Šī tēma attiecas uz meklēšanas programmas optimizācijas (SEO) apsvērumiem jūsu vietnē no izstrādes līdz ražošanai.
 author: psimolin
-ms.date: 10/01/2019
+ms.date: 05/25/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application user
+audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
-ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: df92aeae967bbf248b90dffc6bc2239a8d2959183acb9e9181bc344b9e3eff8d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2f90581766dba3d3a671df52ec08339a1a0fd7dc
+ms.sourcegitcommit: 9dd2d32fc303023a509d58ec7b5935f89d1e9c6d
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716861"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "8806409"
 ---
 # <a name="search-engine-optimization-seo-considerations-for-your-site"></a>Meklētājprogrammas optimizēšanas (SEO) apsvērumi jūsu vietnei
 
@@ -30,11 +25,15 @@ ms.locfileid: "6716861"
 
 ## <a name="a-site-that-is-under-development"></a>Vietne, kas tiek izstrādāta
 
-Kamēr vietne tiek izstrādāta, visām vietnes lapām jābūt **NOINDEX** un **NOFOLLOW** meta tagiem, lai meklēšanas programmas neatzīmē jūs vietnes lapas un veikala izstrādes versijas jūsu savā kešatmiņā. Lai veiktu šo konfigurāciju, ir jāpievieno noklusējuma meta tagu modulis vietnes lapas veidnei. Noklusējuma meta tagu rekvizīti tad būs pieejami SEO rekvizītu sadaļā lapas redaktorā. Varat izmantot šos rekvizītus, lai pārvaldītu meta tagus.
+Lai nodrošinātu, ka meklēšanas programmas neindeksē vietu izstrādei, **visu vietu lapām jābūt bezindex** **un bezfollow** metadatu etiķetēm. Labā prakse ir izveidot fragmentu [, balstoties uz metatags moduli, kas satur šādu meta taga ierakstu, un nodrošināt, ka fragments](metatags-module.md) tiek pievienots visu vietnē izmantoto veidņu HTML \<head\> sadaļai.
+
+```html
+<meta name="robots" content="noindex,nofollow" /> 
+```
 
 ## <a name="soft-launch-of-a-site"></a>Vietnes viegla palaišana
 
-“Vieglas palaišanas” laikā vietne ir pieejama ierobežotai auditorijai vai tirgum, pirms tiek veikta pilna palaišana. Ja jūs veicat savas tīmekļa vietnes vieglo palaišanu, jums vajadzētu apsvērt iespēju atstāt **NOINDEX** meta tagus. Šādā veidā jūs palīdzēsiet nodrošināt, ka vieglā palaišana joprojām ir ierobežota ar ierobežotu auditoriju, ko vēlaties sasniegt.
+“Vieglas palaišanas” laikā vietne ir pieejama ierobežotai auditorijai vai tirgum, pirms tiek veikta pilna palaišana. Ja tīmekļa vietne tiek palaista viegli, ieteicams atstāt bezindeksu **metadatu** etiķetes vietā. Šādā veidā jūs palīdzēsiet nodrošināt, ka vieglā palaišana joprojām ir ierobežota ar ierobežotu auditoriju, ko vēlaties sasniegt.
 
 ## <a name="a-site-that-is-in-production"></a>Vietne, kas ir ražošanā
 
@@ -44,7 +43,7 @@ Lai optimizētu meklēšanas programmas indeksēšanu, atveidošanas struktūra 
 
 ### <a name="page-seo-settings-for-internal-preview-limited-audiences-and-all-audiences"></a>Lapas SEO iestatījumi iekšējam priekšskatījumam, ierobežotas auditorijas un visas auditorijas
 
-Tā kā Dynamics 365 Commerce atbalsta “ko redzat, to iegūstat”(WYSIWYG) autentificētus priekšskatījumus vizuālo lapu veidotājā, autori var sagatavot savu lapas saturu, neuztraucoties, ka šī informācija tiks rādīta vietnes apmeklētājiem. Ja lapa ir jāpublicē, bet tās pieejamībai jābūt ierobežotai, tai jābūt **NOINDEX** meta tagam, lai meklēšanas programmas to neindeksētu. Pēc tam, kad lapa ir gatava visām auditorijām, visiem pamata SEO metadatiem ir jābūt klātesošiem, lai palielinātu meklēšanas programmu indeksācijas efektivitāti. Turklāt **NOLIMIT** meta tags ir jānoņem.
+Tā kā Dynamics 365 Commerce atbalsta “ko redzat, to iegūstat”(WYSIWYG) autentificētus priekšskatījumus vizuālo lapu veidotājā, autori var sagatavot savu lapas saturu, neuztraucoties, ka šī informācija tiks rādīta vietnes apmeklētājiem. Ja lapa ir jāpublicē, bet tās ietekme ir jāierobežo, **tai jābūt bezindeksēšanas** metadatu etiķetei, lai tā nebūtu indeksēta meklēšanas programmā. Pēc tam, kad lapa ir gatava visām auditorijām, visiem pamata SEO metadatiem ir jābūt klātesošiem, lai palielinātu meklēšanas programmu indeksācijas efektivitāti. Turklāt nolimitinātais **metadatu** tags ir jānoņem.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

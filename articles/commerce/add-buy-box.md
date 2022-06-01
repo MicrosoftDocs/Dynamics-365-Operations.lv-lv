@@ -2,7 +2,7 @@
 title: Iegādes lodziņa modulis
 description: Šajā tēmā aplūkoti Buy box moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 07/08/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4f49c7a1519744cda9cfba31a3938fd23e692841a851a52ec9d18a241f8c0458
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eba86cd0fe2790cabed1f091ddc59002d19ae228
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717799"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780438"
 ---
 # <a name="buy-box-module"></a>Pirkšanas lodziņa modulis
 
@@ -89,22 +89,25 @@ Lai pievienotu iegādes lodziņa moduli jaunā lapā un iestatītu nepieciešamo
 1. Dodieties uz **Fragmenti** un atlasiet **Jauns**, lai izveidotu jaunu fragmentu.
 1. Dialoglodziņā **Jauns fragments** atlasiet moduli **Iegādes lodziņš**.
 1. Sadaļā **Fragmenta nosaukums** ievadiet nosaukumu **Iegādes lodziņa fragments** un pēc tam atlasiet **Labi**.
-1. Iegādes lodziņa moduļa slotā **Mediju galerija** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
-1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Mediju galerija** un pēc tam atlasiet **Labi**.
-1. Iegādes lodziņa moduļa slotā **Veikalu atlasītājs** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
-1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Veikalu atlasītājs** un pēc tam atlasiet **Labi**.
+1. **Pirkšanas rūtiņas** moduļa Mediju galerijas slotā atlasiet daudzpunkti (**...**) un pēc tam atlasiet Pievienot **moduli**.
+1. Dialoglodziņā Atlasīt **moduļus** atlasiet mediju galerijas **moduli** un pēc tam atlasiet **Labi**.
+1. **Pirkšanas lodziņa moduļa** veikala atlases slotā atlasiet daudzpunkti (**...**) un pēc tam atlasiet Pievienot **moduli**.
+1. Dialoglodziņā Atlasīt **moduļus** atlasiet veikala atlases **moduli un** pēc tam atlasiet **Labi**.
 1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu fragmentā, un pēc tam atlasiet **Publicēt**, lai publicētu to.
 1. Dodieties uz **Veidnes** un pēc tam atlasiet **Jauns**, lai izveidotu jaunu veidni.
-1. Dialoglodziņā **Jauna veidne** zem **Veidnes nosaukums** ievadiet **PDP veidne** un pēc tam atlasiet **Labi**.
-1. Slotā **Pamatteksts** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
-1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Noklusējuma lapa** un pēc tam atlasiet **Labi**.
+1. Dialoglodziņā Jauna **veidne ar** veidnes nosaukumu **ievadiet** **PDP veidni un pēc** tam atlasiet **Labi.**
+1. Pamatteksta **slotā** atlasiet daudzpunkti (**...**) un pēc tam atlasiet Pievienot **moduli**.
+1. Dialoglodziņā Atlasīt **moduļus** atlasiet noklusējuma lapas **moduli** un pēc tam atlasiet **Labi**.
 1. Noklusējuma lapas **Galvenajā** slotā atlasiet daudzpunktes pogu (**...**) un pēc tam atlasiet **Pievienot fragmentu**.
-1. Dialoglodziņā **Atlasīt fragmentu** atlasiet iepriekš izveidoto fragmentu **Iegādes lodziņa fragments** un pēc tam atlasiet **Labi**.
+1. Dialoglodziņā Atlasīt **fragmentu** atlasiet izveidoto Pirkšanas lodziņa **fragmentu** un pēc tam atlasiet **Labi**.
 1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu veidnē, un pēc tam atlasiet **Publicēt**, lai publicētu to.
 1. Dodieties uz **Lapas** un atlasiet **Jauns**, lai izveidotu jaunu lapu.
-1. Dialoglodziņā **Izvēlēties veidni** atlasiet veidni **PDP veidne**. Sadaļā **Lapas nosaukums** ievadiet **PDP lapa** pēc tam atlasiet **Labi**.
+1. Dialoglodziņā Izveidot **jaunu lapu ar** lapas nosaukumu **ievadiet** **PDP lapu un** pēc tam atlasiet **Tālāk.**
+1. Zem **Izvēlēties veidni**, atlasiet **PDP veidni un** pēc tam atlasiet **Tālāk**.
+1. Sadaļā **Izvēlēties izkārtojumu atlasiet** lapas izkārtojumu (piemēram, Elastīgs **izkārtojums**) un pēc tam atlasiet **Tālāk**.
+1. Sadaļā **Pārskatīt un pabeigt** pārskatiet lapas konfigurāciju. Ja jums ir jārediģē lapas informācija, atlasiet **Atpakaļ**. Ja lapas informācija ir pareiza, atlasiet Izveidot **lapu**.
 1. Jaunās lapas **Galvenajā** slotā atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot fragmentu**.
-1. Dialoglodziņā **Atlasīt fragmentu** atlasiet iepriekš izveidoto fragmentu **Iegādes lodziņa fragments** un pēc tam atlasiet **Labi**.
+1. Dialoglodziņā Atlasīt **fragmentu** atlasiet izveidoto Pirkšanas lodziņa **fragmentu** un pēc tam atlasiet **Labi**.
 1. Saglabājiet un priekšskatiet lapu. Pievienojiet **?productid=&lt;product id&gt;** vaicājuma virknes parametru priekšskatījuma lapas vietrādim URL. Šādā veidā preces konteksts tiek izmantots priekšskatījuma lapas ielādei un atveidošanai.
 1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt**, lai publicētu to. Preču informācijas lapā ir jābūt redzamam iegādes lodziņam.
 

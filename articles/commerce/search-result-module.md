@@ -2,7 +2,7 @@
 title: Meklēšanas rezultātu modulis
 description: Šajā tēmā tiek stāstīts par meklēšanas rezultātu moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 04/21/2022
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 15b3bb50eb0b75fa19ac8e136da83cb362b4cec6
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: dcf3dedbb7c499135bbae45b917153854ecd4a28
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644930"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780922"
 ---
 # <a name="search-results-module"></a>Meklēšanas rezultātu modulis
 
@@ -65,23 +65,26 @@ Meklēšanas rezultātu modulis atbalsta [ātro skatu moduli](quick-view-module.
 
 ## <a name="add-a-search-results-module-to-a-category-page"></a>Pievienot meklēšanas rezultātu moduli kategorijas lapai
 
-Lai pievienotu meklēšanas rezultātu moduli kategorijas lapai, veiciet tālāk minētās darbības.
+Lai vietas veidotājā kategorijas lapai pievienotu meklēšanas rezultātu moduli, veiciet šos soļus.
 
 1. Dodieties uz **Veidnes** un pēc tam atlasiet **Jauns**, lai izveidotu jaunu veidni.
 1. Dialoglodziņā **Jauna veidne** ievadiet nosaukumu **Meklēt rezultātus** un pēc tam atlasiet **Labi**.
-1. Slotā **Pamatteksts** atlasiet daudzpunkti (...) un pēc tam atlasiet **Pievienot moduli**.
-1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Noklusējuma lapa** un pēc tam atlasiet **Labi**.
-1. Moduļa **Noklusējuma lapa** slotā **Galvenais** atlasiet daudzpunkti (...) un pēc tam atlasiet **Pievienot moduli**.
-1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Konteiners** un pēc tam atlasiet **Labi**.
-1. Slotā **Konteiners** atlasiet daudzpunkti (...) un pēc tam atlasiet **Pievienot moduli**.
-1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Atpakaļceļs** un pēc tam atlasiet **Labi**.
+1. Pamatteksta **slotā** atlasiet daudzpunkti (...) un pēc tam atlasiet Pievienot **moduli**.
+1. Dialoglodziņā Atlasīt **moduļus** atlasiet noklusējuma lapas **moduli** un pēc tam atlasiet **Labi**.
+1. Noklusējuma lapas **moduļa** galvenajā **slotā** atlasiet daudzpunkti (...) un pēc tam atlasiet Pievienot **moduli**.
+1. Dialoglodziņā Moduļu **atlase** atlasiet moduli Konteiners **un** pēc tam atlasiet **Labi**.
+1. Konteinera slotā **atlasiet** daudzpunkti (...) un pēc tam atlasiet Pievienot **moduli**.
+1. Dialoglodziņā Atlasīt **moduļus** atlasiet moduli Atpakaļcēlums **un** pēc tam atlasiet **Labi**.
 1. Rekvizītu rūtī **Atpakaļceļš** ievadiet vērtību **1** opcijai **Min. atkārtošanās skaits**.
-1. Slotā **Konteiners** atlasiet daudzpunkti (...) un pēc tam atlasiet **Pievienot moduli**.
-1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Meklēšanas rezultāti** un pēc tam atlasiet **Labi**.
+1. Konteinera slotā **atlasiet** daudzpunkti (...) un pēc tam atlasiet Pievienot **moduli**.
+1. Dialoglodziņā Atlasīt **moduļus** atlasiet meklēšanas rezultātu **moduli** un pēc tam atlasiet **Labi**.
 1. Rekvizītu rūtī **Meklēšanas rezultāti** ievadiet vērtību **1** opcijai **Min. atkārtošanās skaits** un pēc tam iestatiet visus citus nepieciešamos meklēšanas rezultātu modulim. Iestatot šos rekvizītus veidnē, pārliecinieties, ka visi konkrētas kategorijas lapas pielāgojumi automātiski ietvers šos iestatījumus.
 1. Atlasiet **Pabeigt rediģēšanu** un pēc tam atlasiet **Publicēt**, lai publicētu veidni.
 1. Dodieties uz **Lapas** un atlasiet **Jauns**, lai izveidotu jaunu lapu.
-1. Dialoglodziņā **Izvēlēties veidni** atlasiet iepriekš izveidoto veidni **Meklēšanas rezultāti**, ievadiet **Kategorijas lapa** opcijai **Lapas nosaukums** un pēc tam atlasiet **Labi**. Tā kā visas vērtības ir iestatītas veidnē, lapa ir gatava publicēšanai.
+1. Dialoglodziņa Izveidot **jaunu lapu sadaļā** Lapas nosaukums ievadiet **Kategorijas** lapu **un pēc** tam atlasiet **Tālāk**.
+1. Sadaļā **Izvēlēties veidni atlasiet** izveidoto **meklēšanas** rezultātu veidni un pēc tam atlasiet **Tālāk**.
+1. Sadaļā **Izvēlēties izkārtojumu atlasiet** lapas izkārtojumu (piemēram, Elastīgs **izkārtojums**) un pēc tam atlasiet **Tālāk**.
+1. Sadaļā **Pārskatīt un pabeigt** pārskatiet lapas konfigurāciju. Ja jums ir jārediģē lapas informācija, atlasiet **Atpakaļ**. Ja lapas informācija ir pareiza, atlasiet Izveidot **lapu**.
 1. Atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt**, lai publicētu to.
 
 ## <a name="enable-inventory-awareness-for-the-search-results-module"></a>Meklēšanas rezultātu moduļa krājumu apzināšanas iespējošana
@@ -102,7 +105,7 @@ Krājumu informācijas preču meklēšanā tiek izmantotas preču īpašības, l
 
 Lai izveidotu atvēlētas preces īpašības, kas atbalstītu krājumu zināto meklēšanas rezultātu moduli, sekojiet šiem soļiem.
 
-1. Dodieties uz **Retail un Commerce \> Retail un Commerce IT \> Preces un krājumi**.
+1. Galvenajā birojā dodieties uz sadaļu **Mazumtirdzniecība un commerce \> Retail un Commerce IT \> preces un krājumi**.
 1. Atlasiet un atveriet **aizpildīt preču īpašības ar krājuma līmeni**.
 1. Dialoglodziņā ievadiet šādu informāciju:
 
@@ -116,11 +119,11 @@ Lai izveidotu atvēlētas preces īpašības, kas atbalstītu krājumu zināto m
 
 Lai konfigurētu preces īpašības tiešsaistes kanālam, sekojiet šiem soļiem. 
 
-1. Pārejiet uz **Mazumtirdzniecība un komercija \> Kanāla iestatīšana \> Kanālu kategorijas un preču īpašības**.
-2. Atlasiet tiešsaistes kanālu, lai iespējotu krājumu informācijas meklēšanas rezultātu moduli.
-3. Atlasiet un atveriet saistīto atribūtu grupu un pēc tam pievienojiet tai jaunizveidotās preces īpašības.
-4. Commerce versijām pirms 10.0.27 laidiena atlasiet **Iestatīt atribūtu metadatus**,**atlasiet** jaunizveidotās preces īpašības un pēc tam slēdziet kanāla atribūtu Rādīt, **Izgūšanu**, **Var** precizēt un **opcijas** Var būt vaicājumā.
-5. Dodieties uz **grafiku \> Mazumtirdzniecība un Commerce Retail un Commerce IT \> sadale** un palaidiet **1150 (kataloga)** darbu. Ja plānojat **aizpildīt** preču īpašības ar krājumu līmeņa darbu kā pakešuzdevumu, ieteicams arī ieplānot 1150 darbu kā pakešuzdevumu, kas darbojas ar vienādu frekvenci.
+1. Galvenajā birojā dodieties uz sadaļu **Mazumtirdzniecības un Commerce \>\> kanāla iestatīšanas kanāla kategorijas un preces īpašības**.
+1. Atlasiet tiešsaistes kanālu, lai iespējotu krājumu informācijas meklēšanas rezultātu moduli.
+1. Atlasiet un atveriet saistīto atribūtu grupu un pēc tam pievienojiet tai jaunizveidotās preces īpašības.
+1. Commerce versijām pirms 10.0.27 laidiena atlasiet **Iestatīt atribūtu metadatus**,**atlasiet** jaunizveidotās preces īpašības un pēc tam slēdziet kanāla atribūtu Rādīt, **Izgūšanu**, **Var** precizēt un **opcijas** Var būt vaicājumā.
+1. Dodieties uz **grafiku \> Mazumtirdzniecība un Commerce Retail un Commerce IT \> sadale** un palaidiet **1150 (kataloga)** darbu. Ja plānojat **aizpildīt** preču īpašības ar krājumu līmeņa darbu kā pakešuzdevumu, ieteicams arī ieplānot 1150 darbu kā pakešuzdevumu, kas darbojas ar vienādu frekvenci.
 
 > [!NOTE]
 > Precēm, kas tiek rādītas meklēšanas rezultātu modulī, krājumu līmenis tiek rādīts preču šablona līmenī, nevis atsevišķā varianta līmenī. Ir tikai divas iespējamās vērtības: "pieejams" un "nav noliktavā". Faktiskā vērtības iezīme tiek izgūta no krājumu līmeņa [profila](inventory-buffers-levels.md) definīcijas. Šablona prece tiek uzskatīta par krājumu tikai tad, ja visi tās varianti ir krājumos.

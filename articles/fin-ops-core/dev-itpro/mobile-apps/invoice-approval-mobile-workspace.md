@@ -2,7 +2,7 @@
 title: Mobilā darbvieta Rēķinu apstiprinājumi
 description: Šajā tēmā ir sniegta informācija par mobilo darbvietu Rēķinu apstiprinājumi.
 author: abruer
-ms.date: 12/01/2017
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,22 +12,23 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 0d19e99776f04eab28eb7371bc0ac90ac046b62af0ad785fd3ab28309cae43ab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 08775a574bcd57948c6bf6a634d822b32112f782
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759984"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811363"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>Mobilā darbvieta Rēķinu apstiprinājumi
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
 Šajā tēmā ir sniegta informācija par mobilo darbvietu **Rēķinu apstiprinājumi**. Šajā darbvietā tiek sniegts saraksts ar rēķiniem, kas jums ir piešķirti, izmantojot kreditora rēķina virsraksta darbplūsmas procesu. 
 
 Šī mobilā darbvieta ir paredzēta lietošanai kopā ar mobilo programmu Finance and Operations.
 
-## <a name="overview"></a>Pārskats
+## <a name="overview"></a>Kopsavilkums
 
 Mobilā darbvieta **Rēķinu apstiprinājumi** darbiniekiem un vadītājiem no moduļa Kreditori ļauj apskatītu rēķinus, kas viņiem ir piešķirti kā daļa no kreditora rēķina virsraksta darbplūsmas procesa. Varat skatīt rēķina informāciju un pat detalizētu informāciju par rindām un sadali, lai varētu labāk pieņemtu informētus apstiprinājuma lēmumus. No šīs darbvietas varat veikt pasākumus, lai rēķinu pārvietotu darbplūsmas procesā. 
 
@@ -45,7 +46,7 @@ Lai varētu izmantot šo mobilo darbvietu, vispirms ir jāizpilda tālāk norād
 </thead>
 <tbody>
 <tr class="odd">
-<td>Jūsu organizācijā ir jābūt izvietotai programmai Microsoft Dynamics 365 Finance.</td>
+<td>Microsoft Dynamics 365 Finanses ir jāizvieto jūsu organizācijā.</td>
 <td>Sistēmas administrators</td>
 <td>Skatiet rakstu <a href="../deployment/deploy-demo-environment.md">Izvietot demonstrācijas vidi</a>.
 </td>
@@ -60,9 +61,9 @@ Lai varētu izmantot šo mobilo darbvietu, vispirms ir jāizpilda tālāk norād
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobilās programmas lejupielāde un instalēšana
 
-Mobilās programmas Finance and Operations lejupielāde un instalēšana.
+Lejupielādēt un instalēt Finance and Operations mobilo programmu:
 
--   [. Android tālruņiem](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [Android tālruņiem](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Tālruņiem iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Pierakstīšanās mobilajā programmā

@@ -2,7 +2,7 @@
 title: Kājenes modulis
 description: Šajā tēmā ir aprakstīti kājenes moduļi un kā tos autorēt programmā Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 03/02/2022
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 81db5cf32f23b7ee1ca8325eeec2e6ceafda55e0
-ms.sourcegitcommit: 90a553e271e7cd471fed2e4f006d753fdb67b47d
+ms.openlocfilehash: 542796ffce08694954d03878cd7782b01c2c6b27
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "8374835"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780263"
 ---
 # <a name="footer-module"></a>Kājenes modulis  
 
@@ -46,15 +46,15 @@ Līdzīgi kā lielākajā daļā konteineru, kājenes modulis atbalsta rekvizīt
 ## <a name="create-a-footer-module"></a>Kājenes moduļa izveide
 
 1. Dodieties uz **Fragmenti** un atlasiet **Jauns**, lai izveidotu jaunu fragmentu.
-1. Dialoglodziņā **Jauns fragments** atlasiet moduli **Konteiners**, ievadiet fragmenta nosaukumu un pēc tam atlasiet **Labi**.
-1. Slotā **Noklusējuma konteiners** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
-1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Kājenes kategorija** un pēc tam atlasiet **Labi**.
-1. Slotā **Kājenes kategorija** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
-1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Kājenes elements** un pēc tam atlasiet **Labi**.
+1. Dialoglodziņā Atlasīt **fragmentu** atlasiet moduli **Konteiners**, ievadiet fragmenta nosaukumu un pēc tam atlasiet **Labi**.
+1. Noklusējuma konteinera **slotā** atlasiet elipsi (**...**) un pēc tam atlasiet Pievienot **moduli**.
+1. Dialoglodziņā Atlasīt **moduļus** atlasiet kategorijas Kājene **moduli** un pēc tam atlasiet **Labi**.
+1. **Kājenes kategorijas slotā** atlasiet elipsi (**...**) un pēc tam atlasiet Pievienot **moduli**.
+1. Dialoglodziņā Moduļu **atlase** atlasiet kājenes elementa **moduli un** pēc tam atlasiet **Labi**.
 1. Atlasiet slotu **Kājenes elements** un pēc tam rekvizītu rūtī labajā pusē pēc nepieciešamības konfigurējiet virsrakstu, saiti, saites tekstu un attēlu.
 1. Pievienojiet vairāk kājenes elementu, katram atkārtojot darbības, sākot no 5. līdz 7. darbībai.
-1. Lai kājenei pievienotu saiti “atpakaļ uz augšu”, atlasiet daudzpunkti (**...**) slotā **Kājenes kategorija** un pēc tam atlasiet **Pievienot moduli**.
-1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Atpakaļ uz augšu** un pēc tam atlasiet **Labi**.
+1. Lai kājenei pievienotu saiti "atpakaļ uz augšu", izvēlieties elipsi (**...**)**kājenes** kategorijas slotā un pēc tam atlasiet **Pievienot moduli**.
+1. Dialoglodziņā Atlasīt **moduļus** atlasiet moduli Atpakaļ uz **augšu un** pēc tam atlasiet **Labi**.
 1. Atlasiet slotu **Atpakaļ uz augšu** un pēc tam rekvizītu rūtī labajā pusē pēc nepieciešamības konfigurējiet tekstu un citus moduļa rekvizītus.
 1. Atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu fragmentā, un pēc tam atlasiet **Publicēt**, lai publicētu to.
 

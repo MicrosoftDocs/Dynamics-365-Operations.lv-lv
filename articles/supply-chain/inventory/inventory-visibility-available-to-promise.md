@@ -2,7 +2,7 @@
 title: Krājumu redzamības rīcībā esošo izmaiņu grafiki un pieejamās solīšanai
 description: Šajā tēmā ir aprakstīts, kā plānot turpmākās rīcībā veiktās izmaiņas un aprēķināt rīcībā esošos (ATP) daudzumus.
 author: yufeihuang
-ms.date: 03/04/2022
+ms.date: 05/11/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-04
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 7ce868871f093fd734a466bb8a06c5782bf83302
-ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.openlocfilehash: 7456f87bede7bd0073223fa4762f96f919799e06
+ms.sourcegitcommit: 38d97efafb66de298c3f504b83a5c9b822f5a62a
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8526334"
+ms.lasthandoff: 05/17/2022
+ms.locfileid: "8763258"
 ---
 # <a name="inventory-visibility-on-hand-change-schedules-and-available-to-promise"></a>Krājumu redzamības rīcībā esošo izmaiņu grafiki un pieejamās solīšanai
 
@@ -24,7 +24,7 @@ ms.locfileid: "8526334"
 
 Šajā tēmā ir aprakstīts, *kā* iestatīt rīcībā esošo krājumu izmaiņu grafika funkciju, lai plānotu turpmākās rīcībā esošo izmaiņu izmaiņas un aprēķinātu rīcībā esošos (ATP) daudzumus. ATP ir pieejamais krājuma daudzums, un nākamajā periodā to var solīt debitoram. Šī aprēķina izmantošana var lielā palielinās pasūtījuma izpildes iespēju.
 
-Daudzām ražošanām, mazumtirdzniecības vai pārdevējiem nepietiek tikai, lai zinātu, kas pašlaik ir pieejams. Tām ir jābūt pilnai redzamībai nākotnē. Šai nākotnes pieejamībai jāapsver nākotnes piedāvājums, turpmāks pieprasījums un ATP.
+Daudziem ražotājiem, mazumtirgotājiem vai pārdevējiem nepietiek tikai tā, lai zinātu, kas pašlaik ir pieejams. Tām ir jābūt pilnai redzamībai nākotnē. Šai nākotnes pieejamībai jāapsver nākotnes piedāvājums, turpmāks pieprasījums un ATP.
 
 ## <a name="enable-and-set-up-the-features"></a><a name="setup"></a> Iespējot un iestatīt līdzekļus
 
@@ -32,17 +32,26 @@ Lai aprēķinātu ATP daudzumus, pirms ATP izmantošanas jāiestata viens vai va
 
 ### <a name="set-up-calculated-measures-for-atp-quantities"></a>Iestatīt aprēķinātos apjomus ATP daudzumiem
 
-ATP *aprēķinātais līdzeklis* ir iepriekš definēts aprēķinātais līdzeklis, kas parasti tiek izmantots, lai atrastu rīcībā esošo daudzumu, kas pašlaik ir pieejams. Tā pievienošanas modifikatora daudzumu summa ir piegādes daudzums, un tā atņemšanas modifikatora daudzumu summa ir pieprasījuma daudzums.
+ATP *aprēķinātais līdzeklis* ir iepriekš definēts aprēķinātais līdzeklis, kas parasti tiek izmantots, lai atrastu rīcībā esošo daudzumu, kas pašlaik ir pieejams. Piegādes *daudzums ir to fizisko apjomu summa, kuriem ir saskaitīšanas modifikatora* *tips, un pieprasījuma daudzums ir to fizisko apjomu summa,* *kuriem* ir atņemšanas modifikatora tips.*·*
 
-Varat pievienot vairākus aprēķinātus apjomus, lai aprēķinātu ATP daudzumus. Tomēr visu ATP aprēķināto pasākumu kopējais modifikatoru skaits nedrīkst būt mazāks par deviņiem.
+Varat pievienot vairākus aprēķinātus apjomus, lai aprēķinātu vairākus ATP daudzumus. Tomēr visu ATP aprēķināto pasākumu kopējā atšķirīgu fizisko pasākumu skaitam ir jābūt mazākam par deviņām.
+
+> [!IMPORTANT]
+> Aprēķinātais līdzeklis ir fizisko mērījumu sastāvs. Tā formulā var būt iekļauti tikai fiziskie pasākumi bez dublikātiem, nevis aprēķinātajiem parādītajiem.
 
 Piemēram, jūs iestatāt šādu aprēķināto mērījumu:
 
-**Pieejams rīcībā =** (PhysicalInventOnHandUnrestrictedQualityInspectionInbound *·* + *·* + *·* + *·* + *) — (* ReservPhysicalSoftReservePhysicalOutbound) *·* + *·* + *·*
+**Pieejams rīcībā =** (*PhysicalInvent* + *OnHand* + *Unrestricted* + *QualityInspection* + *Inbound*) – (*ReservPhysical* + *SoftReservePhysical* + *Outbound*)
 
-Summa (PhysicalInventOnHandUnrestrictedQualityInspectionInbound *·* + *·* + *·* + *·* + *) norāda piedāvājumu, un summa (* *ReservPhysicalSoftReservePhysicalOutbound* + *·* + *·*) attēlo pieprasījumu. Tādējādi aprēķinātais līdzeklis var būt izprotams šādā veidā:
+Summa (*PhysicalInvent* + *OnHand* + *Unrestricted* + *QualityInspection* + *Inbound*) parāda piedāvājumu un summa (*ReservPhysical* + *SoftReservePhysical* + *Outbound*) attēlo pieprasījumu. Tādējādi aprēķinātais līdzeklis var būt izprotams šādā veidā:
 
-**Rīcībā esošie krājumiSupply** = *·* – *Pieprasījums*
+**Rīcībā pieejams piedāvājums** = *·* – *pieprasījums*
+
+Varat pievienot citu aprēķinātu mērījumu, lai aprēķinātu **rīcībā esošo fizisko** ATP daudzumu.
+
+**Rīcībā esošie fiziskie** = (*PhysicalInvent* + *OnHand* + *unrestricted* + *QualityInspection* + *Inbound*) – (*Izejošais*)
+
+Šiem diviem ATP aprēķinātajiem mēriem ir astoņi dažādi fiziskie mēri: PhysicalInvent, OnHand *,* Unrestricted *,* QualityInspection *,* Inbound *,* ReservPhysical *,* SoftReservePhysical *un* Outbound *.* *·*
 
 Papildinformāciju par aprēķinātajiem pasākumiem skatiet sadaļā [Aprēķinātie pasākumi](inventory-visibility-configuration.md#calculated-measures).
 
@@ -80,7 +89,7 @@ Piemēram, jūs veiktu pasūtījumu par 10 pirkšanas pasūtījumiem un paredzat
 
 Vaicājumot par rīcībā esošo krājumu un ATP daudzumu krājumu redzamību, tā atgriež šādu informāciju par katru dienu grafika periodā:
 
-- **Datums** – datums, uz kuru attiecas rezultāts.
+- **Datums** – datums, uz kuru attiecas rezultāts. Laika josla ir universālais koordinētais laiks (UTC).
 - **Rīcībā esošo krājumu** daudzums – faktiskais rīcībā esošo krājumu daudzums norādītajā datumā. Šis aprēķins tiek veikts saskaņā ar ATP aprēķināto mērījumu, kas ir konfigurēts krājumu redzamībai.
 - **Plānotā piegāde** - visu plānoto ienākošo daudzumu summa, kas nav kļuvis fiziski pieejama tiešajam patēriņam vai kravai no norādītā datuma.
 - **Plānotais** pieprasījums - visu plānoto izejošo daudzumu summa, kas nav patērēti vai nosūtīti no norādītā datuma.
@@ -108,79 +117,79 @@ Piemēram, ja pašreizējais datums ir 2022. gada 1. februāris un grafika perio
 
     | Datums | Rīcībā esošie krājumi | Plānotā piegāde | Plānotais pieprasījums | Prognozētais rīcībā esošo krājumu | ATP |
     | --- | --- | --- | --- | --- | --- |
-    | 2022/02/01 | 20 | | 3 | 17 | 17 |
-    | 2022/02/02 | 20 | | | 17 | 17 |
-    | 2022/02/03 | 20 | | | 17 | 17 |
-    | 2022/02/04 | 20 | | | 17 | 17 |
-    | 2022/02/05 | 20 | | | 17 | 17 |
-    | 2022/02/06 | 20 | | | 17 | 17 |
-    | 2022/02/07 | 20 | | | 17 | 17 |
+    | 2022-02-01 | 20 | | 3 | 17 | 17 |
+    | 2022-02-02 | 20 | | | 17 | 17 |
+    | 2022-02-03 | 20 | | | 17 | 17 |
+    | 2022-02-04 | 20 | | | 17 | 17 |
+    | 2022-02-05 | 20 | | | 17 | 17 |
+    | 2022-02-06 | 20 | | | 17 | 17 |
+    | 2022-02-07 | 20 | | | 17 | 17 |
 
 1. Pašreizējā datumā (2022. gada 1. februārī) jūs iesniedziet plānoto piegādes daudzumu 10 2022. gada 3. februārī. Šajā tabulā parādīts rezultāts.
 
     | Datums | Rīcībā esošie krājumi | Plānotā piegāde | Plānotais pieprasījums | Prognozētais rīcībā esošo krājumu | ATP |
     | --- | --- | --- | --- | --- | --- |
-    | 2022/02/01 | 20 | | 3 | 17 | 17 |
-    | 2022/02/02 | 20 | | | 17 | 17 |
-    | 2022/02/03 | 20 | 10. | | 27 | 27 |
-    | 2022/02/04 | 20 | | | 27 | 27 |
-    | 2022/02/05 | 20 | | | 27 | 27 |
-    | 2022/02/06 | 20 | | | 27 | 27 |
-    | 2022/02/07 | 20 | | | 27 | 27 |
+    | 2022-02-01 | 20 | | 3 | 17 | 17 |
+    | 2022-02-02 | 20 | | | 17 | 17 |
+    | 2022-02-03 | 20 | 10. | | 27 | 27 |
+    | 2022-02-04 | 20 | | | 27 | 27 |
+    | 2022-02-05 | 20 | | | 27 | 27 |
+    | 2022-02-06 | 20 | | | 27 | 27 |
+    | 2022-02-07 | 20 | | | 27 | 27 |
 
 1. Pašreizējā datumā (2022. gada 1. februārī) iesniedzat šādas plānotā daudzuma izmaiņas:
 
     - 2022. gada 4. februārī pieprasītais daudzums 15
     - 2022. gada 5. februārī piegādājamais daudzums 1.
-    - 3. pieprasījuma daudzums 2022. gada 6. februārī
+    - 3. piegādes daudzums 2022. gada 6. februārī
 
     Šajā tabulā parādīts rezultāts.
 
     | Datums | Rīcībā esošie krājumi | Plānotā piegāde | Plānotais pieprasījums | Prognozētais rīcībā esošo krājumu | ATP |
     | --- | --- | --- | --- | --- | --- |
-    | 2022/02/01 | 20 | | 3 | 17 | 12. |
-    | 2022/02/02 | 20 | | | 17 | 12. |
-    | 2022/02/03 | 20 | 10. | | 27 | 12. |
-    | 2022/02/04 | 20 | | 15 | 12. | 12. |
-    | 2022/02/05 | 20 | 1 | | 13 | 13 |
-    | 2022/02/06 | 20 | 3 | | 16 | 16 |
-    | 2022/02/07 | 20 | | | 16 | 16 |
+    | 2022-02-01 | 20 | | 3 | 17 | 12. |
+    | 2022-02-02 | 20 | | | 17 | 12. |
+    | 2022-02-03 | 20 | 10. | | 27 | 12. |
+    | 2022-02-04 | 20 | | 15 | 12. | 12. |
+    | 2022-02-05 | 20 | 1 | | 13 | 13 |
+    | 2022-02-06 | 20 | 3 | | 16 | 16 |
+    | 2022-02-07 | 20 | | | 16 | 16 |
 
 1. Pašreizējā datumā (2022. gada 1. februārī) jūs nosūtat plānoto pieprasījuma daudzumu 3. Tādēļ šīs izmaiņas jāveic tā, lai tās atspoguļotu faktiskajā rīcībā esošo daudzumu. Lai iesniegtu izmaiņas, iesniedziet rīcībā esošo izmaiņu notikumu, kura izejošais daudzums ir 3. Pēc tam atgriežat plānotās izmaiņas, iesniedzot rīcībā esošo izmaiņu grafiku, kura izejošais daudzums ir -3. Šajā tabulā parādīts rezultāts.
 
     | Datums | Rīcībā esošie krājumi | Plānotā piegāde | Plānotais pieprasījums | Prognozētais rīcībā esošo krājumu | ATP |
     | --- | --- | --- | --- | --- | --- |
-    | 2022/02/01 | 17 | | 0 | 17 | 12. |
-    | 2022/02/02 | 17 | | | 17 | 12. |
-    | 2022/02/03 | 17 | 10. | | 27 | 12. |
-    | 2022/02/04 | 17 | | 15 | 12. | 12. |
-    | 2022/02/05 | 17 | 1 | | 13 | 13 |
-    | 2022/02/06 | 17 | 3 | | 16 | 16 |
-    | 2022/02/07 | 17 | | | 16 | 16 |
+    | 2022-02-01 | 17 | | 0 | 17 | 12. |
+    | 2022-02-02 | 17 | | | 17 | 12. |
+    | 2022-02-03 | 17 | 10. | | 27 | 12. |
+    | 2022-02-04 | 17 | | 15 | 12. | 12. |
+    | 2022-02-05 | 17 | 1 | | 13 | 13 |
+    | 2022-02-06 | 17 | 3 | | 16 | 16 |
+    | 2022-02-07 | 17 | | | 16 | 16 |
 
 1. Nākamajā dienā (2022. gada 2. februārī) grafika periods mainās uz priekšu par vienu dienu. Šajā tabulā parādīts rezultāts.
 
     | Datums | Rīcībā esošie krājumi | Plānotā piegāde | Plānotais pieprasījums | Prognozētais rīcībā esošo krājumu | ATP |
     | --- | --- | --- | --- | --- | --- |
-    | 2022/02/02 | 17 | | | 17 | 12. |
-    | 2022/02/03 | 17 | 10. | | 27 | 12. |
-    | 2022/02/04 | 17 | | 15 | 12. | 12. |
-    | 2022/02/05 | 17 | 1 | | 13 | 13 |
-    | 2022/02/06 | 17 | 3 | | 16 | 16 |
-    | 2022/02/07 | 17 | | | 16 | 16 |
-    | 2022/02/08 | 17 | | | 16 | 16 |
+    | 2022-02-02 | 17 | | | 17 | 12. |
+    | 2022-02-03 | 17 | 10. | | 27 | 12. |
+    | 2022-02-04 | 17 | | 15 | 12. | 12. |
+    | 2022-02-05 | 17 | 1 | | 13 | 13 |
+    | 2022-02-06 | 17 | 3 | | 16 | 16 |
+    | 2022-02-07 | 17 | | | 16 | 16 |
+    | 2022-02-08 | 17 | | | 16 | 16 |
 
 1. Tomēr divas dienas vēlāk (2022. gada 4. februāris), piegādes daudzums 10, kas tika plānots 3. februārī, vēl nav saņemts. Šajā tabulā parādīts rezultāts.
 
     | Datums | Rīcībā esošie krājumi | Plānotā piegāde | Plānotais pieprasījums | Prognozētais rīcībā esošo krājumu | ATP |
     | --- | --- | --- | --- | --- | --- |
-    | 2022/02/04 | 17 | | 15 | 2 | 2 |
-    | 2022/02/05 | 17 | 1 | | 3 | 3 |
-    | 2022/02/06 | 17 | 3 | | 6 | 6 |
-    | 2022/02/07 | 17 | | | 6 | 6 |
-    | 2022/02/08 | 17 | | | 6 | 6 |
-    | 2022/02/09 | 17 | | | 6 | 6 |
-    | 2022/02/10 | 17 | | | 6 | 6 |
+    | 2022-02-04 | 17 | | 15 | 2 | 2 |
+    | 2022-02-05 | 17 | 1 | | 3 | 3 |
+    | 2022-02-06 | 17 | 3 | | 6 | 6 |
+    | 2022-02-07 | 17 | | | 6 | 6 |
+    | 2022-02-08 | 17 | | | 6 | 6 |
+    | 2022-02-09 | 17 | | | 6 | 6 |
+    | 2022-02-10 | 17 | | | 6 | 6 |
 
     Kā redzams, plānotās (bet nav fiksētās) rīcībā veiktās izmaiņas neietekmē faktisko rīcībā esošo daudzumu.
 
@@ -190,8 +199,8 @@ Lietojumprogrammas saskarnes (API) vietrāžus URL var izmantot, lai iesniegtu r
 
 | Ceļš | Metode | Apraksts |
 | --- | --- | --- |
-| `/api/environment/{environmentId}/on-hand/changeschedule` | `POST` | Izveidot vienu plānotu rīcībā esošo izmaiņu. |
-| `/api/environment/{environmentId}/on-hand/changeschedule/bulk` | `POST` | Izveidot vairākas plānotas rīcībā esošo krājumu izmaiņas. |
+| `/api/environment/{environmentId}/onhand/changeschedule` | `POST` | Izveidot vienu plānotu rīcībā esošo izmaiņu. |
+| `/api/environment/{environmentId}/onhand/changeschedule/bulk` | `POST` | Izveidot vairākas plānotas rīcībā esošo krājumu izmaiņas. |
 | `/api/environment/{environmentId}/onhand` | `POST` | Izveidot vienu rīcībā esošo izmaiņu notikumu. |
 | `/api/environment/{environmentId}/onhand/bulk` | `POST` | Izveidot vairākus izmaiņu notikumus. |
 | `/api/environment/{environmentId}/onhand/indexquery` | `POST` | Vaicājums, izmantojot `POST` metodi. |
@@ -199,31 +208,46 @@ Lietojumprogrammas saskarnes (API) vietrāžus URL var izmantot, lai iesniegtu r
 
 Plašāku informāciju skatiet krājumu redzamības [publiskajiem API](inventory-visibility-api.md).
 
-### <a name="submit-on-hand-change-schedules"></a>Iesniegt rīcībā esošo izmaiņu grafikus
+### <a name="create-one-on-hand-change-schedule"></a>Izveidot rīcībā esošo izmaiņu grafiku
 
-Rīcībā esošie izmaiņu grafiki tiek veikti, iesniedzot pieprasījumu atbilstošam krājumu redzamības `POST` pakalpojuma URL ([skatiet iesniegt izmaiņu grafikus, izmaiņu notikumus un ATP vaicājumus, izmantojot API](#api-urls) sadaļu). Varat arī iesniegt lielapjoma pieprasījumus.
+Rīcībā esošo izmaiņu grafiks `POST` tiek izveidots, iesniedzot pieprasījumu atbilstošam krājumu redzamības pakalpojuma URL ([skatiet iesniegt izmaiņu grafikus, izmaiņu notikumus un ATP vaicājumus, izmantojot API](#api-urls) sadaļu). Varat arī iesniegt lielapjoma pieprasījumus.
 
-Lai iesniegtu rīcībā esošo izmaiņu grafiku, pieprasījuma pamattekstam jāsatur organizācijas ID, preces ID, plānotais datums un daudzumi pēc datuma. Plānotajam datumam jābūt starp pašreizējo datumu un pašreizējā grafika perioda beigām.
+Rīcībā esošo izmaiņu grafiku var izveidot tikai tad, ja plānotais datums ir starp pašreizējo datumu un pašreizējā grafika perioda beigām. Datuma un laika formātam jābūt *gada mēnesim (piemēram*, **2022-02-01**). Laika formātam jābūt precīzam tikai līdz dienai.
 
-#### <a name="example-request-body-that-contains-a-single-update"></a>Pieprasījuma pamatteksta piemērs, kas ietver vienu atjauninājumu
+Šis API izveido vienu rīcībā esošo izmaiņu grafiku.
 
-Šajā piemērā parādīts pieprasījuma pamatteksts, kas satur vienu atjauninājumu.
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/changeschedule
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        id: string,
+        organizationId: string,
+        productId: string,
+        dimensionDataSource: string, # optional
+        dimensions: {
+            [key:string]: string,
+        },
+        quantitiesByDate: {
+            [datetime:datetime]: {
+                [dataSourceName:string]: {
+                    [key:string]: number,
+                },
+            },
+        },
+    }
+```
+
+Šajā piemērā parādīts parauga pamatteksta saturs bez `dimensionDataSource`.
 
 ```json
-# Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/on-hand/changeschedule
-
-# Method
-Post
-
-# Header
-# Replace {access_token} with the one from your security service
-Api-version: "1.0"
-Content-Type: "application/json"
-Authorization: "Bearer {access_token}"
-
-# Body
 {
     "id": "id-bike-0001",
     "organizationId": "usmf",
@@ -232,38 +256,60 @@ Authorization: "Bearer {access_token}"
         "SiteId": "1",
         "LocationId": "11",
         "ColorId": "Red",
-        "SizeId": "Small"
+        "SizeId&quot;: &quot;Small"
     },
     "quantitiesByDate":
     {
-        "2022/02/01": // today
+        "2022-02-01": // today
         {
             "pos":{
-                "inbound": 10,
-            },
-        },
-    },
+                "inbound": 10
+            }
+        }
+    }
 }
 ```
 
-#### <a name="example-request-body-that-contains-multiple-bulk-updates"></a>Pieprasījuma pamatteksta piemērs, kurā ir vairāki (lielapjoma) atjauninājumi
+### <a name="create-multiple-on-hand-change-schedules"></a>Izveidot vairākus rīcībā esošo izmaiņu grafikus
 
-Šajā piemērā parādīts pieprasījuma pamatteksts, kas satur vairākus (lielapjoma) atjauninājumus.
+Šis API var izveidot vairākus ierakstus vienlaicīgi. Vienīgās atšķirības starp šo API un viena notikuma API ir tās un `Path``Body` vērtības. Šim API `Body` sniedz ierakstu masīvu. Maksimālais ierakstu skaits ir 512. Tāpēc rīcībā esošo izmaiņu grafika lielapjoma API var atbalstīt līdz 512 ieplānotajām izmaiņām vienlaicīgi.
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/changeschedule/bulk
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    [
+        {
+            id: string,
+            organizationId: string,
+            productId: string,
+            dimensionDataSource: string,
+            dimensions: {
+                [key:string]: string,
+            },
+            quantityDataSource: string, # optional
+            quantitiesByDate: {
+                [datetime:datetime]: {
+                    [dataSourceName:string]: {
+                        [key:string]: number,
+                    },
+                },
+            },
+        },
+        ...
+    ]
+```
+
+Šajā piemērā parādīts parauga pamatteksta saturs.
 
 ```json
-# Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/on-hand/changeschedule/bulk
-
-# Method
-Post
-
-# Header
-# replace {access_token} with the one from your security service
-Api-version: "1.0"
-Content-Type: "application/json"
-Authorization: "Bearer {access_token}"
-
 [
     {
         "id": "id-bike-0001",
@@ -273,67 +319,51 @@ Authorization: "Bearer {access_token}"
             "SiteId": "1",
             "LocationId": "11",
             "ColorId": "Red",
-            "SizeId": "Small"
+            "SizeId&quot;: &quot;Small"
         },
         "quantitiesByDate":
         {
-            "2022/02/01": // today
+            "2022-02-01": // today
             {
                 "pos":{
-                    "inbound": 10,
-                },
-            },
-        },
+                    "inbound": 10
+                }
+            }
+        }
     },
     {
-        "id": "id-bike-0002",
+        "id": "id-car-0002",
         "organizationId": "usmf",
         "productId": "Car",
         "dimensions": {
             "SiteId": "1",
             "LocationId": "11",
             "ColorId": "Red",
-            "SizeId": "Small"
+            "SizeId&quot;: &quot;Small"
         },
         "quantitiesByDate":
         {
-            "2022/02/05":
+            "2022-02-05":
             {
                 "pos":{
-                    "outbound": 10,
-                },
-            },
-        },
+                    "outbound": 10
+                }
+            }
+        }
     }
 ]
 ```
 
-### <a name="submit-on-hand-change-events"></a>Iesniegt rīcībā esošo izmaiņu notikumus
+### <a name="create-on-hand-change-events"></a>Izveidot rīcībā esošus izmaiņu notikumus
 
 Rīcībā esošie izmaiņu notikumi tiek `POST` veikti, iesniedzot pieprasījumu atbilstošam krājumu redzamības pakalpojuma URL ([skatiet iesniegt izmaiņu grafikus, izmaiņu notikumus un ATP vaicājumus, izmantojot API](#api-urls) sadaļu). Varat arī iesniegt lielapjoma pieprasījumus.
 
 > [!NOTE]
-> Rīcībā esošo izmaiņu notikumi nav unikāli ATP funkcionalitātei, bet ir daļa no standarta krājumu redzamības API. Šis piemērs ir iekļauts, jo notikumi ir svarīgi, kad strādājat ar ATP. Rīcībā esošie izmaiņu notikumi ir līdzīgi rīcībā esošo izmaiņu rezervācijām, bet notikumu ziņojumi jānosūta uz citu API URL, `quantities``quantityByDate` un notikumi ziņojuma pamatteksta vietā tiek lietoti. Papildinformāciju par rīcībā esošiem izmaiņu notikumiem un citām krājumu redzamības API funkcijām skatiet krājumu [redzamības publiskajos API](inventory-visibility-api.md).
-
-Lai iesniegtu rīcībā esošo izmaiņu notikumu, pieprasījuma pamattekstam jāsatur organizācijas ID, preces ID, plānotais datums un daudzumi pēc datuma. Plānotajam datumam jābūt starp pašreizējo datumu un pašreizējā grafika perioda beigām.
+> Rīcībā esošo izmaiņu notikumi nav unikāli ATP funkcionalitātei, bet ir daļa no standarta krājumu redzamības API. Šis piemērs ir iekļauts, jo notikumi ir svarīgi, kad strādājat ar ATP. Rīcībā esošie izmaiņu notikumi ir līdzīgi rīcībā esošo izmaiņu rezervācijām, bet notikumu ziņojumi jānosūta uz citu API URL, `quantities``quantityByDate` un notikumi ziņojuma pamatteksta vietā tiek lietoti. Papildinformāciju par rīcībā esošiem izmaiņu notikumiem un citām krājumu redzamības API funkcijām skatiet krājumu [redzamības publiskajos API](inventory-visibility-api.md#create-one-onhand-change-event).
 
 Šajā piemērā parādīts pieprasījuma pamatteksts, kas satur vienu rīcībā esošo izmaiņu notikumu.
 
 ```json
-# Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand
-
-# Method
-Post
-
-# Header
-# Replace {access_token} with the one from your security service
-Api-version: "1.0"
-Content-Type: "application/json"
-Authorization: "Bearer {access_token}"
-
-# Body
 {
     "id": "id-bike-0001",
     "organizationId": "usmf",
@@ -342,7 +372,7 @@ Authorization: "Bearer {access_token}"
         "SiteId": "1",
         "LocationId": "11",
         "SizeId": "Big",
-        "ColorId": "Red",
+        "ColorId": "Red"
     },
     "quantities": {
         "pos": {
@@ -362,46 +392,71 @@ Pieprasījumā iestatiet kā patiesu `QueryATP`*·*, ja vēlaties vaicāt par r�
 - Ja pieprasījums tiek iesniegts, izmantojot metodi `POST`, iestatiet šo parametru pieprasījuma pamattekstā.
 
 > [!NOTE]
-> Neatkarīgi no tā `returnNegative`*·* *·*, vai parametrs pieprasījuma pamattekstā ir iestatīts kā patiess vai nepatiess, rezultāts ietvers negatīvas vērtības, kad vaicājums tiks veikts par rīcībā esošo izmaiņu veikšanu un ATP rezultātiem. Šīs negatīvās vērtības tiks iekļautas, jo, ja tiek plānoti tikai pieprasījuma pasūtījumi vai ja piegādes daudzums ir mazāks par pieprasījuma daudzumu, plānotie rīcībā esošo izmaiņu daudzumi būs negatīvi. Ja negatīvas vērtības netika iekļautas, rezultāti būtu saplūdoši. Papildinformāciju par šo opciju un to, kā tā darbojas citiem vaicājumu tipiem, skatiet Krājumu [redzamības publiskais API](inventory-visibility-api.md).
+> Neatkarīgi no tā `returnNegative`*·* *·*, vai parametrs pieprasījuma pamattekstā ir iestatīts kā patiess vai nepatiess, rezultāts ietvers negatīvas vērtības, kad vaicājums tiks veikts par rīcībā esošo izmaiņu veikšanu un ATP rezultātiem. Šīs negatīvās vērtības tiks iekļautas, jo, ja tiek plānoti tikai pieprasījuma pasūtījumi vai ja piegādes daudzums ir mazāks par pieprasījuma daudzumu, plānotie rīcībā esošo izmaiņu daudzumi būs negatīvi. Ja negatīvas vērtības netika iekļautas, rezultāti būtu saplūdoši. Papildinformāciju par šo opciju un to, kā tā darbojas citiem vaicājumu tipiem, skatiet Krājumu [redzamības publiskais API](inventory-visibility-api.md#query-with-post-method).
 
-### <a name="post-method-example"></a>GRĀMATOŠANAS metodes piemērs
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/indexquery
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        dimensionDataSource: string, # Optional
+        filters: {
+            organizationId: string[],
+            productId: string[],
+            siteId: string[],
+            locationId: string[],
+            [dimensionKey:string]: string[],
+        },
+        groupByValues: string[],
+        returnNegative: boolean,
+    }
+```
 
 Tālāk sniegtajā piemērā ir parādīts, kā izveidot pieprasījuma pamattekstu, kuru, izmantojot metodi, var iesniegt krājumu redzamībai`POST`.
 
 ```json
-# Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/on-hand/indexquery
-
-# Method
-Post
-
-# Header
-# replace {access_token} with the one from your security service
-Api-version: "1.0"
-Content-Type: "application/json"
-Authorization: "Bearer {access_token}"
-
-# Body
 {
     "filters": {
         "organizationId": ["usmf"],
         "productId": ["Bike"],
         "siteId": ["1"],
-        "LocationId": ["11"],
+        "LocationId": ["11"]
     },
     "groupByValues": ["ColorId", "SizeId"],
     "returnNegative": true,
-    "QueryATP":true,
+    "QueryATP":true
 }
 ```
 
 ### <a name="get-method-example"></a>GET metodes piemērs
 
+```txt
+Path:
+    /api/environment/{environmentId}/onhand
+Method:
+    Get
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Query(Url Parameters):
+    groupBy
+    returnNegative
+    [Filters]
+```
+
 Šajā piemērā parādīts, kā izveidot pieprasījuma URL kā `GET` pieprasījumu.
 
 ```txt
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand?organizationId=usmf&productId=Bike&SiteId=1&groupBy=ColorId,SizeId&returnNegative=true&QueryATP=true
+https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand?organizationId=usmf&productId=Bike&SiteId=1&LocationId=11&groupBy=ColorId,SizeId&returnNegative=true&QueryATP=true
 ```
 
 Šī pieprasījuma rezultāts `GET` ir tieši tāds pats kā pieprasījuma `POST` rezultāts iepriekšējā piemērā.

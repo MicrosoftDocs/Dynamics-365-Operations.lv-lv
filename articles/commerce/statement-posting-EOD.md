@@ -2,19 +2,19 @@
 title: Izrakstu grāmatošanas funkcionalitātes uzlabojumi
 description: Šajā tēmā ir aprakstīti izrakstu grāmatošanas līdzeklim veiktie uzlabojumi.
 author: analpert
-ms.date: 04/27/2022
+ms.date: 05/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: be9aa68aec1fd7deff315234a6dbf41edc3d6819
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: f3937ee7b34b7204c31d922900029ae3a2c59e18
+ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649023"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8770173"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Izrakstu grāmatošanas funkcionalitātes uzlabojumi
 
@@ -151,6 +151,9 @@ Apkopoto darbību skats nodrošina šādas priekšrocības:
 - Lietotājam ir pārredzams veids, kā transakcijas tiek apkopotas.
 - Lietotājam ir pilnīgi auditācijas pieraksti, no transakcijām līdz pārdošanas pasūtījumiem, līdz pārdošanas rēķiniem. Šie auditācijas pieraksti nebija pieejami mantotajā izrakstu grāmatošanas līdzeklī.
 - Apkopotais XML fails atvieglo problēmu identificēšanu pārdošanas pasūtījuma izveides un rēķinu izrakstīšanas laikā.
+
+> [!NOTE]
+> Kad darbības tiek apkopotas, **darbībai** piešķirtais darbinieks vairs nav pieejams augšējā personāla pārdošanas pārskatā ( Top Staff Sales **Report), kas nozīmē,** ka augšējā personāla pārdošanas pārskatā netiks rādītas visas darbības. Ieteicams neizmantojiet augstākā personāla pārdošanas pārskatu **ar apkopotām** darbībām.
 
 ### <a name="journal-vouchers"></a>Žurnālu dokumenti
 

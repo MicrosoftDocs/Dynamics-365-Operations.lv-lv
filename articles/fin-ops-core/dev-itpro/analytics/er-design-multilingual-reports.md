@@ -2,7 +2,7 @@
 title: Veidot daudzvalodu pārskatus Elektroniskajos pārskatos
 description: Šajā tēmā skaidrots, kā varat izmantot Elektronisko pārskatu (ER) etiķetes, lai veidotu un izveidotu daudzvalodu pārskatus.
 author: NickSelin
-ms.date: 11/30/2021
+ms.date: 04/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eab17635494657740fe46364bde0773dae5b9e4b
-ms.sourcegitcommit: 8bcb9c13eccb14e61c39ca6578d135b64090fad2
+ms.openlocfilehash: aa8297d4f5c56a7a20561b1a90c5852e65dbff31
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8313695"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811612"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Veidot daudzvalodu pārskatus Elektroniskajos pārskatos
 
@@ -46,7 +46,7 @@ No valodas atkarīgus resursus varat konfigurēt kā ER etiķetes. Šīs etiķet
 
 ER etiķetes var konfigurēt katrā ER [konfigurācijā](general-electronic-reporting.md#Configuration), kas ietver dažādus komponentus. Etiķetes var uzturēt neatkarīgi no ER datu modeļu konfigurētās loģikas, ER modeļa kartēšanas un ER formāta komponentes.
 
-Katra ER etiķete tiek identificēta ar ID, kas ir unikāls to ER konfigurācijas sfērā, kas ietver šo etiķeti. Katrai etiķetei var būt etiķetes teksts katrai valodai, ko atbalsta pašreizējā Microsoft Dynamics 365 Finance instance. Šīs atbalstītās valodas ietver izvietoto pielāgojumu valodas.
+Katra ER etiķete tiek identificēta ar ID, kas ir unikāls to ER konfigurācijas sfērā, kas ietver šo etiķeti. Katra iezīme var saturēt iezīmju tekstu katrai valodai, kas tiek atbalstīta pašreizējā Microsoft Dynamics 365 Finanšu instancē. Šīs atbalstītās valodas ietver izvietoto pielāgojumu valodas.
 
 ## <a name="entry"></a>Ieraksts
 
@@ -81,7 +81,7 @@ Kad ER datu modelis ir konfigurēts šādā veidā, tā saturs tiks prezentēts 
 
 ### <a name="model-mapping-component"></a>Modeļa kartēšanas komponents
 
-Tā kā ER modeļa kartēšana balstās uz ER datu modeli, datu modeļa elementu etiķetes tiek parādītas lietotāja vēlamajā valodā modeļa kartēšanas veidotājā. Sekojošajā attēlā ir parādīts, kā ir izskaidrota lauka **PurchaseOrder** nozīme rediģējamā modeļa kartēšanā, izmantojot **Apraksta** atribūta etiķeti, kas ir pievienota konfigurētajam datu modelim. Ievērojiet, ka šī etiķete ir norādīta lietotāja vēlamajā valodā (šajā piemērā DE-AT).
+Tā kā ER modeļa kartēšana ir balstīta uz ER datu modeli, to datu modeļa elementu iezīmes, uz kuriem attiecas, parādās lietotāja izvēlētā valodā modeļu kartēšanas veidotājā. Sekojošajā attēlā ir parādīts, kā ir izskaidrota lauka **PurchaseOrder** nozīme rediģējamā modeļa kartēšanā, izmantojot **Apraksta** atribūta etiķeti, kas ir pievienota konfigurētajam datu modelim. Ievērojiet, ka šī etiķete ir norādīta lietotāja vēlamajā valodā (šajā piemērā DE-AT).
 
 ![ER datu kartēšanas noformētāja izkārtojums lietotājam ar DE-AT iestatītu kā vēlamo valodu.](./media/er-multilingual-labels-show-mapping.png)
 
@@ -89,7 +89,7 @@ Kad **Lietotāja ievades parametru** datu avota **Etiķetes** atribūts ir konfi
 
 ### <a name="format-component"></a>Komponenta formāts
 
-Konfigurējot ER formātu, varat pievienot tam ER etiķetes. Katra konfigurētā datu avota **Etiķetes** un **Palīdzības teksta** atribūti var būt saistīti ar ER etiķeti, kas pievienotaER formātam. Katras <a id="LinkFormatEnum"></a>formāta uzskaitījuma vērtības **Etiķetes** un **Apraksta** atribūti var būt saistīti arī ar ER etiķeti, kas ir pieejama no rediģējamā ER formāta.
+Konfigurējot ER formātu, varat pievienot tam ER etiķetes. Katra konfigurētā datu avota **Etiķetes** un **Palīdzības teksta** atribūti var būt saistīti ar ER etiķeti, kas pievienotaER formātam. Katra **formāta** uzskaitījuma **vērtības** etiķešu un aprakstu atribūtus <a id="LinkFormatEnum"></a> var saistīt arī ar ER etiķeti, kas ir pieejama rediģējamā ER formātā.
 
 > [!NOTE]
 > Varat arī saistīt šos atribūtus ar pamata ER datu modeļa ER etiķeti, kas atkārtoti izmanto modeļa etiķetes katrā ER formātā, kas ir konfigurēta šim ER datu modelim.
@@ -218,6 +218,11 @@ ER komponenta etiķetes, kas var tikt rediģētas, tiek turētas kopā ar citu k
 
 Bāzes ER komponenta etiķetes var tikt minētas atvasinātajā ER komponenta versijā, ko izveidojat, lai ieviestu jūsu izmaiņas.
 
+> [!TIP]
+> Veidojot ER risinājumu, var atvasināt savu ER [datu](er-overview-components.md#data-model-component) modeļa komponentu no saņemtā. Šajā atvasinātajā datu modelī varat ieviest savas ER iezīmes un izmantot tās visos ER formātos, kas datu modeli izmantos kā datu avotu. Pēc tam varat iegūt savu ER [formāta](er-overview-components.md#format-component) komponentu no tā, ko nodrošina, atlasot atvasināto ER datu modeli, nevis sniegto. Versijā 10.0.28 un jaunākās versijās varat aktivizēt uzlaboto piekļuvi iezīmes paplašinātajam ER datu modeļa līdzeklim, **lai piekļūtu augoša ER** datu modeļa iezīmēm atvasinātos ER formāta komponentos, pat ja atvasinātajam ER komponentam atlasītais ER datu modelis atšķiras no tā, kas tika izmantots pamata ER komponentā.
+>
+> Ja atvasinātajam komponentam un tā augošajam komponentam tiek izmantots tas pats iezīmes nosaukums, kā atbilstošāko tiek izmantots tās tulkojums.
+
 ER versijas kontrolē etiķešu piešķiri jebkuram atribūtam ER komponentā. Etiķešu piešķires izmaiņas tiek reģistrētas rediģējamā ER komponenta izmaiņu sarakstā (delta), kas ir izveidots kā atvasināta sniegtā ER komponenta versija. Šīs izmaiņas tiks apstiprinātas, kad atvasinātā versija tiks balstīta uz jaunu bāzes versiju.
 
 ## <a name="functions"></a>Funkcijas
@@ -240,9 +245,9 @@ Mainot ER konfigurācijas versijas statusu no **Melnraksts** **uz** Pabeigts, ja
 
 Mēs iesakām iespējot **ER etiķešu glabāšanas līdzekli** Paātrināt ER pārvaldības **darbvietu**. Šī funkcija palīdz uzlabot tīkla joslas platumu un vispārējo sistēmas veiktspēju, jo vairākumā gadījumu vienas valodas ER etiķetes tiek izmantotas, strādājot ar vienu ER konfigurāciju.
 
-Lai atlasīto glabāšanas shēmu piemērotu visu ER konfigurāciju glabāšanas etiķetēm currenet Finance instancē, veiciet šādus soļus:
+Lai lietotu atlasīto glabāšanas shēmu visu ER konfigurāciju glabāšanai pašreizējā finanšu instancē, veiciet šādus soļus.
 
-1. Pārejiet uz **organizācijas administrationPeriodicApply** > **·** > **atlasītajām etiķetēm, kas glabā shēmu visām ER konfigurācijām**.
+1. Pārejiet uz **sadaļu Organizācijas** > **administrēšana** > **periodiski. Lietojiet atlasītās iezīmes, glabājot shēmu visām ER konfigurācijām**.
 2. Atlasiet **Labi**.
 
 

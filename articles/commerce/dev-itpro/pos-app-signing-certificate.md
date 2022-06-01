@@ -1,8 +1,8 @@
 ---
-title: Parakstīt MPOS ar koda parakstīšanas sertifikātu
+title: Parakstīt MPOS .appx failu ar koda parakstīšanas sertifikātu
 description: Šajā tēmā skaidrots, kā parakstīt MPOS ar koda parakstīšanas sertifikātu.
 author: mugunthanm
-ms.date: 05/11/2022
+ms.date: 05/27/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: tfehr
@@ -10,16 +10,17 @@ ms.custom: 28021
 ms.search.region: Global
 ms.author: mumani
 ms.search.validFrom: 2019-09-2019
-ms.openlocfilehash: e45961cf1ddb385d914b700d03bc95d07de47b68
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 38c094de6f94381a809fdb68d2e76d410e406934
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8742585"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811089"
 ---
-# <a name="sign-mpos-appx-with-a-code-signing-certificate"></a>MPOS faila parakstīšana ar koda parakstīšanas sertifikātu
+# <a name="sign-the-mpos-appx-file-with-a-code-signing-certificate"></a>Parakstīt MPOS .appx failu ar koda parakstīšanas sertifikātu
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Lai instalētu Modern POS (MPOS), jums jāparaksta MPOS programma ar koda parakstīšanas sertifikātu no uzticama nodrošinātāja un jāinstalē tas pats sertifikāts visās datorās, kur MPOS ir instalēts pašreizējā lietotāja uzticamajā saknes mapē.
 
@@ -42,7 +43,7 @@ Universālajā Windows platformā (UWP) programmas parakstīšanai ieteicams izm
 ![MPOS programmas parakstīšanas plūsma.](media/POSSigningFlow.png)
 
 > [!NOTE]
-> Pašlaik OOB iepakojums atbalsta tikai programmas faila parakstīšanu, tāpēc šis process neraksta citus pašapkalpošanās instalētājus, piemēram, MP ATG, OOU un HWS. Jums tas ir manuāli jāparaksta, izmantojot SignTool vai citus parakstīšanas rīkus. Sertifikātam, kas tiek izmantots programmas faila parakstīšanai, ir jābūt instalētam datorā, kurā ir instalēts Modern POS.
+> Pašlaik OOB iepakojums atbalsta parakstīšanu tikai .appx failu, dažādas pašapkalpošanās instalētāji, piemēram, MP ATG, MFU un HWS, šajā procesā nav parakstīti. Jums tas ir manuāli jāparaksta, izmantojot SignTool vai citus parakstīšanas rīkus. Sertifikātam, kas tiek izmantots .appx faila parakstīšanai, jābūt instalētam datorā, kurā ir instalēta Modern POS.
 
 ## <a name="steps-to-configure-the-certificate-for-signing-in-azure-pipelines"></a>Darbības, lai konfigurētu sertifikātu reģistrēšanai Azure konveijeros
 
@@ -51,21 +52,22 @@ Universālajā Windows platformā (UWP) programmas parakstīšanai ieteicams izm
 Lejupielādējiet [uzdevumu DownloadFile](/visualstudio/msbuild/downloadfile-task) un pievienojiet to kā pirmo procesa soli. Drošā faila uzdevuma izmantošanas priekšrocība ir tāda, ka fails ir šifrēts un ievietots diskā būvējuma laikā neatkarīgi no tā, vai būvējuma konveijers ir veiksmīgs, neveiksmīgs vai atcelts. Fails tiek dzēsts no lejupielādes vietas pēc būvējuma procesa pabeigšanas.
 
 1. Lejupielādējiet un pievienojiet uzdevumu Drošais fails kā pirmo soli Azure būvējuma konveijerā. Varat lejupielādēt Secure File uzdevumu no [DownloadFile](https://marketplace.visualstudio.com/items?itemName=automagically.DownloadFile).
-2. Augšupielādējiet sertifikātu drošā faila uzdevumā un iestatiet atsauces nosaukumu zem Izvades mainīgie, kā parādīts šajā attēlā.
+1. Augšupielādējiet sertifikātu drošā faila uzdevumā un iestatiet atsauces nosaukumu zem Izvades mainīgie, kā parādīts šajā attēlā.
     > [!div class="mx-imgBorder"]
     > ![Faila uzdevums ir nodrošināts.](media/SecureFile.png)
-3. Izveidojiet jaunu mainīgo Azure konveijerā, cilnē **Mainīgie** atlasot **jaunu** mainīgo.
-4. Norādiet mainīgā nosaukumu vērtības laukā, piemēram, **MySigningCert**.
-5. Saglabājiet mainīgo.
-6. **Atveriet Customization.settings** failu no **RetailSDK\\BuildTools** un atjauniniet **ModernPOSPackageCertificateKeyFile** ar mainīgā nosaukumu, kas izveidots konveijerā (3. darbība). Piemēram:
+1. Izveidojiet jaunu mainīgo Azure konveijerā, cilnē **Mainīgie** atlasot **jaunu** mainīgo.
+1. Norādiet mainīgā nosaukumu vērtības laukā, piemēram, **MySigningCert**.
+1. Saglabājiet mainīgo.
+1. **Atveriet Customization.settings** failu no **RetailSDK\\BuildTools** un atjauniniet **ModernPOSPackageCertificateKeyFile** ar mainīgā nosaukumu, kas izveidots konveijerā (3. darbība). Piemēram:
 
     ```Xml
     <ModernPOSPackageCertificateKeyFile Condition="'$(ModernPOSPackageCertificateKeyFile)' ==''">$(MySigningCert)</ModernPOSPackageCertificateKeyFile>
     ```
     Šī darbība ir nepieciešama, ja sertifikāts nav aizsargāts pret paroli. Ja sertifikāts ir aizsargāts pret paroli, veiciet šādas darbības.
- 
-7. Konveijera mainīgo **cilnē pievienojiet** jaunu drošā teksta mainīgo. Iestatiet vārdu uz **MySigningCert.secret** un iestatiet sertifikāta paroles vērtību. Atlasiet slēga ikonu, lai nodrošinātu mainīgo.
-8. Pievienojiet konveijeram **Powershell** skripta uzdevumu (pēc lejupielādes drošā faila un pirms darbības Veidot). Norādiet Parādāmo **nosaukumu** un iestatiet tipu kā **Inline**. Kopējiet un ielīmējiet tālāk norādīto sadaļā skripts.
+    
+1. Ja vēlaties laikspiedolu MPOS .appx failam, to parakstot ar sertifikātu, **atveriet Retail SDK\\ build\\ rīka pielāgošana.iestatījumu** **failu un atjauniniet ModernPOSPackageCertificateTimestamp** mainīgo ar laikspiedola nodrošinātāju (piemēram`http://timestamp.digicert.com`).
+1. Konveijera mainīgo **cilnē pievienojiet** jaunu drošā teksta mainīgo. Iestatiet vārdu uz **MySigningCert.secret** un iestatiet sertifikāta paroles vērtību. Atlasiet slēga ikonu, lai nodrošinātu mainīgo.
+1. Pievienojiet konveijeram **Powershell** skripta uzdevumu (pēc lejupielādes drošā faila un pirms darbības Veidot). Norādiet Parādāmo **nosaukumu** un iestatiet tipu kā **Inline**. Kopējiet un ielīmējiet tālāk norādīto sadaļā skripts.
 
     ```powershell
     Write-Host "Start adding the PFX file to the certificate store."
@@ -74,7 +76,7 @@ Lejupielādējiet [uzdevumu DownloadFile](/visualstudio/msbuild/downloadfile-tas
     Import-PfxCertificate -FilePath $pfxpath -CertStoreLocation Cert:\CurrentUser\My -Password $secureString
     ```
 
-9. Atveriet **Customization.settings** failu no **RetailSDK\\BuildTools** un atjauniniet **ModernPOSPackageCertificateThumbprint** ar sertifikāta īssavilkuma vērtību.
+1. Atveriet **Customization.settings** failu no **RetailSDK\\BuildTools** un atjauniniet **ModernPOSPackageCertificateThumbprint** ar sertifikāta īssavilkuma vērtību.
 
     ```Xml
        <ModernPOSPackageCertificateThumbprint Condition="'$(ModernPOSPackageCertificateThumbprint)' == ''"></ModernPOSPackageCertificateThumbprint>
@@ -82,16 +84,15 @@ Lejupielādējiet [uzdevumu DownloadFile](/visualstudio/msbuild/downloadfile-tas
  
 Detalizētu informāciju par to, kā iegūt sertifikāta īssavilkumu, [skatiet sadaļā sertifikāta īssavilkums](/dotnet/framework/wcf/feature-details/how-to-retrieve-the-thumbprint-of-a-certificate#to-retrieve-a-certificates-thumbprint). 
 
- 
 ## <a name="download-or-generate-a-certificate-to-sign-the-mpos-app-manually-using-msbuild-in-sdk"></a>Lejupielādēt vai ģenerēt sertifikātu, lai manuāli parakstītu MPOS programmu, izmantojot msbuild sdk
 
-Ja lejupielādētais vai ģenerētais sertifikāts tiek izmantots, lai parakstītu MPOS programmu, tad atjauniniet ModernPOSPackageCertificateKeyFile **mezglu** BuildToolsCustomization.settings **\\ failā,** lai norādiet pfx faila atrašanās vietu (**$(SdkReferencesPath)\\ appxsignkey.pfx**). Piemēram:
+Ja lejupielādētais vai ģenerētais sertifikāts tiek izmantots, lai parakstītu programmu MPOS, tad atjauniniet **ModernPOSPackageCertificateKeyFile** mezglu failā **BuildTools\\Customization.settings**, lai norādītu pfx faila atrašanās vietu (**$(SdkReferencesPath)\\appxsignkey.pfx**). Piemēram:
 
 ```xml
 <ModernPOSPackageCertificateKeyFile Condition="'$(ModernPOSPackageCertificateKeyFile)' ==''">$(SdkReferencesPath)\appxsignkey.pfx</ModernPOSPackageCertificateKeyFile>
 ```
 
-Šajā gadījumā sertifikāta faila nosaukums ir appxsignkey.pfx **, kas atrodas** Mapē Retail SDKReference **\\.**
+Šajā gadījumā sertifikāta faila nosaukums ir **appxsignkey.pfx**, kas atrodas **Retail SDK\\ atsauces** mapē.
 
 ## <a name="use-thumbprint-to-sign-the-mpos-app"></a>Izmantojiet īssavilkumu, lai parakstītu MPOS programmu
 

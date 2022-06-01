@@ -2,7 +2,7 @@
 title: Skatīt un atjaunināt entītijas datus programmā Excel
 description: Šajā tēmā ir paskaidrots, kā atvērt entītijas datus programmā Microsoft Excel un pēc tam skatīt, atjaunināt un rediģēt tos, izmantojot Microsoft Dynamics Office pievienojumprogrammu programmai Excel.
 author: jasongre
-ms.date: 10/01/2021
+ms.date: 05/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b97c585009b50c6623036d10f54e78a65a89cea
-ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
+ms.openlocfilehash: f5090674fc4f7c49c55a8a12aea8c567545d519f
+ms.sourcegitcommit: 9f11ce4d24f546e96ab794a23479a43a89b742f0
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8464942"
+ms.lasthandoff: 05/16/2022
+ms.locfileid: "8762658"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Skatīt un atjaunināt entītijas datus programmā Excel 
 
@@ -110,7 +110,7 @@ Varat izmantot veidotāju, lai regulētu kolonnas, kuras darblapai ir pievienota
 5. Ja pievienojāt lauku (kolonnu), atlasiet **Atsvaidzināt**, lai ievilktu atjauninātu datu kopu.
 
 ## <a name="change-the-publish-batch-size"></a>Mainiet publicēšanas partijas lielumu
-Kad lietotāji publicē izmaiņas datu ierakstos, izmantojot Excel pievienojumprogrammu, atjauninājumi tiek iesniegti paketēs. Noklusējuma publicēšanas partijas lielums ir 100 rindas. Versijā 10.0.17 un jaunākā versijā **Atļaut publicējamā partijas lieluma konfigurēšanu Excel pievienojumprogrammas līdzeklī** sniedz elastīgu kontroli publicēšanas partijas lielumam.
+Kad lietotāji publicē izmaiņas datu ierakstos, izmantojot Excel pievienojumprogrammu, atjauninājumi tiek iesniegti paketēs. Noklusējuma (un maksimālā) publicēšanas partijas lielums ir 100 rindas; **Tomēr publicēšanas paketes lieluma atļaut konfigurācija Excel pievienojumprogrammas līdzekļa ļauj jums elastīgāk publicēt partijas lielumu, it īpaši, ja, mēģinot publicēt atjauninājumus no Excel**, redzēt taimautus.
 
 Sistēmas administratori var norādīt visas sistēmas ierobežojumu publicēšanas paketes lielumam darbgrāmatām "Atvērt Excel", iestatot lauku **Partijas ierobežojuma publicēšana** **Office lietojumprogrammas parametru** lapas sadaļā **Lietojumprogrammas parametri**.
 
