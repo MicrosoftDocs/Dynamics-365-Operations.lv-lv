@@ -12,6 +12,8 @@
               items:
                 - name: Jaunumi un izmaiņas Commerce sākumlapā
                   href: get-started/whats-new-home-page.md
+                - name: "Commerce 10.0.28 (2022.\_gada jūlijs)"
+                  href: get-started/whats-new-commerce-10-0-28.md
                 - name: "Commerce 10.0.27 (2022.\_gada jūlijs)"
                   href: get-started/whats-new-commerce-10-0-27.md
                 - name: "Commerce 10.0.26 (2022.\_gada maijs)"
@@ -1300,6 +1302,10 @@
               items:
                 - name: Pielāgotu atbilžu lapu izveide 4xx/5xx statusa koda kļūdām
                   href: build-pages-400-500-errors.md
+            - name: Pakalpojuma integrācija
+              items:
+                - name: Customer Voice integrācija e-komercijas vietnes lapās
+                  href: customer-voice-integration.md
         - name: Aizsardzība pret krāpniecību
           items:
             - name: Dynamics 365 Fraud Protection integrācija ar Dynamics 365 Commerce
@@ -2118,6 +2124,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: DATU VĀKŠANAS datu avotu lietošana ER formātos
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
+                    - name: 'Izmantojiet USER INPUT PARAMETER datu avotus, lai norādītu parametrus pārskatam, ko vēlaties ģenerēt'
+                      href: ../fin-ops-core/dev-itpro/analytics/er-user-input-parameter-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Datu avotu atkļūdošana
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
                 - name: Datu modeļu konfigurēšana
@@ -2728,6 +2736,8 @@
                               href: e-commerce-extensibility/interactive-components.md
                             - name: Atveidot pierakstīšanās stāvokli lokālās izstrādes laikā
                               href: e-commerce-extensibility/mock-sign-in.md
+                            - name: "Web API autentifikācijas pārsūtīšanas iestatīšana, izmantojot Azure Active Directory\_B2C"
+                              href: e-commerce-extensibility/web-api-auth-trans-aad-b2c.md
                             - name: 'Moduļa rekvizītu konfigurēšana, lai tos rādītu atkarībā no konteksta'
                               href: e-commerce-extensibility/configure-properties-context.md
                             - name: 'Moduļu globalizēšana, izmantojot CultureInfoFormatter klasi'
@@ -2944,6 +2954,8 @@
                   href: troubleshoot/items-without-inventory-checked-out.md
                 - name: 'Ja nav iespējoti novērtējumi un pārskatu risinājums, vērtējumu precizētājs tiek parādīts meklēšanas rezultātos un kategoriju lapās'
                   href: troubleshoot/hide-ratings-refiner.md
+                - name: 'Pasūtījuma kopsavilkuma apakšsummā nav iekļauti nodokļi maksām, izmantojot pielāgotos pasūtījuma kopsavilkuma moduļus'
+                  href: troubleshoot/summary-taxes-custom-modules-10.0.27.md
             - name: Debitoru pārvaldība
               items:
                 - name: 'Veidojot jaunus debitorus, nav nosūtīts sveiciena e-pasta ziņojums'

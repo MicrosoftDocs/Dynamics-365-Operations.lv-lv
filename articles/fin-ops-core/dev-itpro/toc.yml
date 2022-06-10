@@ -14,9 +14,11 @@
               items:
                 - name: Jaunumi un izmaiņas platformas atjauninājumu sākumlapā
                   href: get-started/whats-new-home-page.md
-                - name: "Platform atjauninājumi versijai 10.0.27 (2022.\_gada jūlijs)"
+                - name: "Platformas atjauninājumi versijai 10.0.28 (2022.\_gada augusts)"
+                  href: get-started/whats-new-platform-updates-10-0-28.md
+                - name: "Platformas atjauninājumi versijai 10.0.27 (2022.\_gada jūlijs)"
                   href: get-started/whats-new-platform-updates-10-0-27.md
-                - name: "Platform atjauninājumi versijai 10.0.26 (2022.\_gada maijs)"
+                - name: "Platformas atjauninājumi versijai 10.0.26 (2022.\_gada maijs)"
                   href: get-started/whats-new-platform-updates-10-0-26.md
                 - name: "Platformas atjauninājumi versijai 10.0.25 (2022.\_gada aprīlis)"
                   href: get-started/whats-new-platform-updates-10-0-25.md
@@ -384,7 +386,7 @@
                   items:
                     - name: Lokālo projektu iestatīšana LCS
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
-                    - name: "Lokālas vides iestatīšana un izvietošana (41.\_Platform atjauninājums un jaunākas versijas)"
+                    - name: "Lokālas vides iestatīšana un izvietošana (41.\_platformas atjauninājums un jaunākas versijas)"
                       href: deployment/setup-deploy-on-premises-pu41.md
                     - name: "Lokālas vides iestatīšana un izvietošana (12.–40.\_platformas atjauninājums)"
                       href: deployment/setup-deploy-on-premises-pu12.md
@@ -1018,6 +1020,8 @@
                   href: lifecycle-services/azure-data-explorer.md
             - name: Vides pakalpojumu restartēšana
               href: lifecycle-services/restart-environment-services.md
+            - name: Vides administratora atjaunināšana
+              href: lifecycle-services/update-environment-admin.md
             - name: Ziņošana par ražošanas pārtraukumu
               href: lifecycle-services/report-production-outage.md
             - name: Lietotāja pierakstīšanās gadījumu izsekošana
@@ -1266,6 +1270,8 @@
               items:
                 - name: Pievienojumprogrammu apskats
                   href: power-platform/add-ins-overview.md
+            - name: Mobilo iespēju veidošana
+              href: power-platform/build-mobile-experiences.md
             - name: Politikas un saziņa
               href: /power-platform/admin/policies-communications?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json
         - name: Mobilā platforma

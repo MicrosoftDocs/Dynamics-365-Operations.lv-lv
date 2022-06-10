@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4ea45b238200d4d9d43d563e160e8574271a8ce7
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 9ae75f33d96261691eee52c963a1f1f00c75b0de
+ms.sourcegitcommit: 220101d2511a3164572226294ef090a43a1e6cdd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487868"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "8789217"
 ---
 # <a name="supply-chain-management-home-page"></a>Supply Chain Management sākumlapa
 
@@ -48,11 +48,11 @@ Atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.
 - [Pārdošana un mārketings](sales-marketing/overview-sales-marketing.md)
 - [Pakalpojumu pārvaldība](service-management/service-management-home-page.md)
 - [Transportēšanas pārvaldība](transportation/transportation-management-overview.md)
-- [Noliktavas pārvaldība](warehousing/warehouse-configuration.md)
+- [Noliktavas vadība](warehousing/warehouse-configuration.md)
 
 ## <a name="dynamics-365-finance"></a>Dynamics 365 Finance
 
-Informāciju par programmu Dynamics 365 Finance skatiet [Finance sākumlapā](../finance/index.md).
+Informāciju par programmu Dynamics 365 Finance skatiet [Finance sākumlapā](../finance/index.md).
 
 ## <a name="videos"></a>Videoklipi
 
@@ -98,7 +98,7 @@ Tālāk sniegtajos tehnoloģiju konferenču ierakstos tiek apspriesta piegādes 
 ## <a name="white-papers"></a>Tehniskie dokumenti
 
 - [LEAN ražošanas process: pieejams iegādei un Kanban darbu plānošana](/dynamics/s-e/)
-- [MK aprēķināšana, izmantojot izmaksu aprēķināšanas lapu](https://www.microsoft.com/download/details.aspx?id=101937/)
+- [MK aprēķināšana, izmantojot izmaksu aprēķināšanas lapu](https://www.microsoft.com/download/details.aspx?id=101937)
 
 ## <a name="elearning-courses"></a>Elektronisko mācību kursi
 
