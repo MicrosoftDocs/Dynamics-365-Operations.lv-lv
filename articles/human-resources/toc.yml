@@ -6,10 +6,12 @@
           href: index.md
         - name: Jaunumi un izmaiņas
           items:
-            - name: Jaunumi un izmaiņas finanšu un operāciju programmās
+            - name: Jaunumi un izmaiņas Finanšu un operāciju programmās
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: Jaunumi un izmaiņas programmā Human Resources
               items:
+                - name: Human Resources 10.0.28 (sapludinātā infrastruktūra)
+                  href: ./get-started/whats-new-changed-10.0.28.md
                 - name: Human Resources 10.0.27 (sapludinātā infrastruktūra)
                   href: ./get-started/hr-whats-new-changed-10-0-27.md
                 - name: Human Resources 10.0.26 (sapludinātā infrastruktūra)

@@ -1,6 +1,6 @@
 ---
 title: Bieži uzdotie jautājumi par gada beigu aktivitātēm
-description: Šajā tēmā uzskaitīti jautājumi, kas var rasties, slēdzot gadu, un atbildes, kas var palīdzēt ar gada beigu slēgšanas darbībām.
+description: Šajā rakstā uzskaitīti jautājumi, kas var rasties, slēdzot gadu, un atbildes, kas var palīdzēt ar gada beigu slēgšanas darbībām.
 author: moaamer
 ms.date: 12/21/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 19d23c2c5a8fabd6799c6240c25f3ede4064c001
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 1c5aca6180821dfc9fd1d475d4726c82acdf4d78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725605"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865745"
 ---
 # <a name="year-end-activities-faq"></a>Bieži uzdotie jautājumi par gada beigu aktivitātēm 
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā uzskaitīti jautājumi, kas var rasties, slēdzot gadu, un atbildes, kas var palīdzēt ar gada beigu slēgšanas darbībām. Šajā tēmā galvenokārt ir apskatīti jautājumi par gada beigu slēgšanas aktivitātēm virsgrāmatai un parādiem kreditoriem.
+Šajā rakstā uzskaitīti jautājumi, kas var rasties, slēdzot gadu, un atbildes, kas var palīdzēt ar gada beigu slēgšanas darbībām. Šajā rakstā galvenokārt ir apskatīti jautājumi par gada beigu slēgšanas aktivitātēm virsgrāmatai un kreditoriem.
 
 ## <a name="general-ledger-year-end-enhancements"></a>Virsgrāmatas gada beigu uzlabojumi 
 Versijā 10.0.20 tika ieviests gada beigu slēgšanas uzlabojums, kas ir aktivizēts pēc noklusējuma, sākot ar versiju 10.0.25. Ja jūsu organizācija izmanto versiju, kas vecāka par 10.0.25, pirms gada beigu slēgšanas procesa uzsākšanas ieteicams iespējot šo līdzekli. Lai varētu izmantot šo līdzekli, sistēmā tas vispirms ir jāiespējo. Administratori var izmantot Līdzekļu pārvaldības darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Tur šis līdzeklis ir uzskaitīts šādā veidā:
@@ -75,7 +75,7 @@ Nevajadzīgās dimensiju kopas ietekmē arī pakešuzdevumu **BudgetDimensionFoc
 [![Finanšu dimensiju kopas.](./media/faq-2020-yr-end-04.png)](./media/faq-2020-yr-end-04.png)
 
 ### <a name="year-end-close-template-configuration"></a>Gada beigu slēgšanas veidnes konfigurācija
-Gada beigu slēgšanas veidne ļauj organizācijām atlasīt finanšu dimensijas līmeni, ko uzturēt, pārsūtot peļņas un zaudējumu bilances uz nesadalīto peļņu. Iestatījumi ļauj organizācijai uzturēt detalizētas finanšu dimensijas (**Slēgt visu**), pārvietojot bilances uz nesadalīto peļņu vai izvēloties apkopot summas uz vienu dimensijas vērtību (**Slēgt vienu**). To var noteikt katrai finanšu dimensijai. Plašāku informāciju par šiem iestatījumiem skatiet tēmā [Gada beigu slēgšana](year-end-close.md).
+Gada beigu slēgšanas veidne ļauj organizācijām atlasīt finanšu dimensijas līmeni, ko uzturēt, pārsūtot peļņas un zaudējumu bilances uz nesadalīto peļņu. Iestatījumi ļauj organizācijai uzturēt detalizētas finanšu dimensijas (**Slēgt visu**), pārvietojot bilances uz nesadalīto peļņu vai izvēloties apkopot summas uz vienu dimensijas vērtību (**Slēgt vienu**). To var noteikt katrai finanšu dimensijai. Plašāku informāciju par šiem iestatījumiem skatiet rakstā [Gada beigu slēgšana](year-end-close.md).
 
 Lai uzlabotu veiktspēju, ieteicams novērtēt organizācijas prasības un, ja iespējams, aizvērt tik daudz dimensiju, cik iespējams, izmantojot gada beigu opciju **Slēgt vienu**. Noslēdzot uz vienu dimensijas vērtību (kas var būt arī tukša vērtība), sistēma aprēķina mazāk detaļu, kad tiek aprēķinātas nesadalītās peļņas konta ierakstu bilances.
 

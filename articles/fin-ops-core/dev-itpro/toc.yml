@@ -410,6 +410,8 @@
                       href: deployment/onprem-reverseproxy.md
                     - name: Noliktavas programmas konfigurēšana lokālajiem izvietojumiem
                       href: deployment/warehousing-for-on-premise-deployments.md
+                    - name: RSAT Finance + Operations (on-premises) vidēs
+                      href: deployment/onprem-rsat-configuration.md
                     - name: Tīkla printera ierīču instalēšana lokālās vidēs
                       href: analytics/install-network-printer-onprem.md
                     - name: Lokālā diagnostika
@@ -1048,6 +1050,8 @@
                   href: lifecycle-services/dts-devops-extension.md
                 - name: Azure DevOps paplašinājuma apmācība (publiskais priekšskatījums)
                   href: lifecycle-services/dts-ado-tutorial.md
+                - name: "Dynamics\_365 Translation Service Visual Studio Code paplašinājums (publiskais priekšskatījums)"
+                  href: lifecycle-services/dts-vscode-doc.md
         - name: Microsoft Power Platform integrācija
           items:
             - name: Pārskats

@@ -1,6 +1,6 @@
 ---
 title: Ieņēmumu atzīšanas atkārtota sadale — 2. scenārijs
-description: Šajā tēmā ir iekļauts atkārtotas sadales scenārijs, kurā ir ievadīti divi pārdošanas pasūtījumi, un pēc tam debitors pievieno līgumam krājumu, kad pirmais pārdošanas pasūtījums ir iekļauts rēķinā. Kad līgumam tiek pievienots jauns krājums, to var pievienot jaunam pārdošanas pasūtījumam vai esošajam pārdošanas pasūtījumam.
+description: Šajā rakstā ir iekļauts atkārtotas sadales scenārijs, kurā ir ievadīti divi pārdošanas pasūtījumi, un pēc tam debitors pievieno līgumam krājumu, kad pirmais pārdošanas pasūtījums ir iekļauts rēķinā. Kad līgumam tiek pievienots jauns krājums, to var pievienot jaunam pārdošanas pasūtījumam vai esošajam pārdošanas pasūtījumam.
 author: kweekley
 ms.date: 12/21/2020
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 4026b8c69e51cb33c64bcf71a62a13b28b86bd49
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: dec8dba9848b77e5c0a1007102789c8f88185fbc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726161"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904849"
 ---
 # <a name="revenue-recognition-reallocation--scenario-2"></a>Ieņēmumu atzīšanas atkārtota sadale — 2. scenārijs
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir iekļauts atkārtotas sadales scenārijs, kurā ir ievadīti divi pārdošanas pasūtījumi, un pēc tam debitors pievieno līgumam krājumu, kad pirmais pārdošanas pasūtījums ir iekļauts rēķinā. Kad līgumam tiek pievienots jauns krājums, to var pievienot jaunam pārdošanas pasūtījumam vai esošajam pārdošanas pasūtījumam.
+Šajā rakstā ir iekļauts atkārtotas sadales scenārijs, kurā ir ievadīti divi pārdošanas pasūtījumi, un pēc tam debitors pievieno līgumam krājumu, kad pirmais pārdošanas pasūtījums ir iekļauts rēķinā. Kad līgumam tiek pievienots jauns krājums, to var pievienot jaunam pārdošanas pasūtījumam vai esošajam pārdošanas pasūtījumam.
 
 Šim scenārijam **virsgrāmatas parametru** lapas cilnē **Ieņēmumu atzīšana** opcija **Grāmatot rēķinu labojumus debitoru parādos** ir iestatīta uz **Nē**(**Ieņēmumu atzīšana \> iestatīšana \> Virsgrāmatas parametri**).
 

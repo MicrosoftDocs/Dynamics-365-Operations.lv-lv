@@ -58,11 +58,13 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/finance/toc.json
                 - name: Atjauninājumu lietošana lokālos izvietojumos
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/finance/toc.json
-                - name: Pakalpojuma atjauninājumu konfigurēšana
+                - name: Pakalpojumu atjauninājumu konfigurēšana
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/finance/toc.json
-                - name: Pakalpojuma atjauninājumu apturēšana
+                - name: Iepriekšēja apkalpošana un pēcapkalpošana
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/pre-post-servicing.md?toc=/dynamics365/finance/toc.json
+                - name: Pakalpojumu atjauninājumu apturēšana
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/finance/toc.json
-                - name: Paziņojumu saņemšana par pakalpojuma atjauninājumiem
+                - name: Paziņojumu saņemšana par pakalpojumu atjauninājumiem
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/finance/toc.json
                 - name: Datu uzdevuma automatizēšana
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/finance/toc.json
@@ -1684,7 +1686,9 @@
                       href: general-ledger/sales-tax-calculation-methods-origin-field.md
                     - name: Visas summas un intervāla aprēķināšanas opcijas PVN kodiem
                       href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
-                    - name: PVN aprēķins vispārējā žurnālā
+                    - name: PVN aprēķināšana un noapaļošana
+                      href: general-ledger/sales-tax-calculation-rounding.md
+                    - name: PVN aprēķins vispārējā žurnāla rindās
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
                     - name: PVN aprēķināšana un koriģēšana kreditora rēķinā
                       href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
@@ -2168,6 +2172,8 @@
                   href: localizations/emea-est-vat-statement-details.md
                 - name: Igaunijas Intrastat
                   href: localizations/emea-est-intrastat.md
+                - name: ES pārdošanas saraksts
+                  href: localizations/emea-est-eu-sales-list.md
             - name: Eiropa
               items:
                 - name: Eiropas pārskats
@@ -2452,6 +2458,8 @@
                   href: localizations/emea-hun-online-invoicing.md
                 - name: PVN pārskati Ungārijai
                   href: localizations/emea-hun-sales-tax-reports.md
+                - name: Ungāru Intrastat
+                  href: localizations/emea-hun-intrastat.md
                 - name: Atliktie PVN aprēķini
                   href: localizations/emea-hun-deferred-vat.md
             - name: Islande
@@ -3112,6 +3120,8 @@
                   href: localizations/emea-lva-vat-statement-details.md
                 - name: Latvijas Intrastat
                   href: localizations/emea-lva-intrastat.md
+                - name: ES pārdošanas saraksts
+                  href: localizations/emea-lva-eu-sales-list.md
             - name: Lietuva
               items:
                 - name: Lietuvas pārskats
@@ -3130,6 +3140,8 @@
                   href: localizations/emea-ltu-saf-t.md
                 - name: Pārsūtīšanas dokumentu par preču kustību uzņēmumā iestatīšana
                   href: localizations/tasks/set-up-transfer-documents-goods-movement-inside-company.md
+                - name: ES pārdošanas saraksts
+                  href: localizations/emea-ltu-eu-sales-list.md
             - name: Malaizija
               items:
                 - name: Malaizijas pārskats
@@ -4483,6 +4495,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
                     - name: Veiktspējas problēmu novēršana elektronisko pārskatu konfigurācijās
                       href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/finance/toc.json
+                    - name: Izpildlaikā ienesto tabulas lauku skaita samazināšana
+                      href: ../fin-ops-core/dev-itpro/analytics/er-reduce-fetched-fields-number.md?toc=/dynamics365/finance/toc.json
                 - name: Biznesa dokumentu pārvaldība (BDM)
                   items:
                     - name: BDM pārskats

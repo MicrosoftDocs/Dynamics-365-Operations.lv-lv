@@ -1,6 +1,6 @@
 ---
 title: Veikala transakciju apstiprināšana pārskata aprēķinam
-description: Šajā tēmā ir aprakstīta veikala transakciju apstiprināšanas funkcionalitāte produktā Microsoft Dynamics 365 Commerce.
+description: Šajā rakstā ir aprakstīta veikala transakciju apstiprināšanas funkcionalitāte produktā Microsoft Dynamics 365 Commerce.
 author: analpert
 ms.date: 01/31/2022
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: analpert
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: f51b1f39aa212fe8587761721194db7791bec5bc
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 4be40189777a37495f185467050b61af47b684d7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087453"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890518"
 ---
 # <a name="validate-store-transactions-for-statement-calculation"></a>Veikala transakciju apstiprināšana pārskata aprēķinam
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīta veikala transakciju apstiprināšanas funkcionalitāte produktā Microsoft Dynamics 365 Commerce. Apstiprināšanas process identificē un atzīmē tās transakcijas, kas izraisīs grāmatošanas kļūdas, pirms šīs transakcijas izvēlas pārskata grāmatošanas process.
+Šajā rakstā ir aprakstīta veikala transakciju apstiprināšanas funkcionalitāte produktā Microsoft Dynamics 365 Commerce. Apstiprināšanas process identificē un atzīmē tās transakcijas, kas izraisīs grāmatošanas kļūdas, pirms šīs transakcijas izvēlas pārskata grāmatošanas process.
 
 Mēģinot grāmatot pārskatu, apstiprināšanas process var neizdoties nekonsekventu datu dēļ Commerce transakciju tabulās. Šeit sniegti daži faktoru piemēri, kas var izraisīt šādas nekonsekvences:
 

@@ -1,6 +1,6 @@
 ---
 title: Ieņēmumu atzīšanas atkārtota sadale — 4. scenārijs
-description: Šajā tēmā ir iekļauts atkārtotas sadales scenārijs, kur jauna rinda tiek noņemta no esoša, daļēji rēķinā iekļauta pārdošanas pasūtījuma. Šis scenārijs rada vienu un to pašu rezultātu neatkarīgi no tā, vai rinda ir noņemta no pārdošanas pasūtījuma vai iestatīta uz statusu Atcelts.
+description: Šajā rakstā ir iekļauts atkārtotas sadales scenārijs, kur jauna rinda tiek noņemta no esoša, daļēji rēķinā iekļauta pārdošanas pasūtījuma. Šis scenārijs rada vienu un to pašu rezultātu neatkarīgi no tā, vai rinda ir noņemta no pārdošanas pasūtījuma vai iestatīta uz statusu Atcelts.
 author: kweekley
 ms.date: 12/21/2020
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7d37877e914856baf5e5e38871f5b0b1c1eff526
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 06e6322ff55259b5c59d570b73199591ab46c767
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725740"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891671"
 ---
 # <a name="revenue-recognition-reallocation--scenario-4"></a>Ieņēmumu atzīšanas atkārtota sadale — 4. scenārijs
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir iekļauts atkārtotas sadales scenārijs, kur jauna rinda tiek noņemta no esoša, daļēji rēķinā iekļauta pārdošanas pasūtījuma. Šis scenārijs rada vienu un to pašu rezultātu neatkarīgi no tā, vai rinda ir noņemta no pārdošanas pasūtījuma vai iestatīta uz statusu Atcelts.
+Šajā rakstā ir iekļauts atkārtotas sadales scenārijs, kur jauna rinda tiek noņemta no esoša, daļēji rēķinā iekļauta pārdošanas pasūtījuma. Šis scenārijs rada vienu un to pašu rezultātu neatkarīgi no tā, vai rinda ir noņemta no pārdošanas pasūtījuma vai iestatīta uz statusu Atcelts.
 
 Šim scenārijam **virsgrāmatas parametru** lapas cilnē **Ieņēmumu atzīšana** opcija **Grāmatot rēķinu labojumus debitoru parādos** ir iestatīta uz **Nē**(**Ieņēmumu atzīšana \> iestatīšana \> Virsgrāmatas parametri**).
 

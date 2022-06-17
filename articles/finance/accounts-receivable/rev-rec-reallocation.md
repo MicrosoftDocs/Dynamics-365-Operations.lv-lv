@@ -1,6 +1,6 @@
 ---
 title: Ieņēmumu atzīšanas atkārtota sadale
-description: Šajā tēmā ir sniegta informācija par atkārtoto sadali, kas ļauj organizācijām pārrēķināt ieņēmumu cenas, ja ir mainīti pārdošanas līguma nosacījumi. Tā ietver saites uz citām tēmām, kas apraksta, kā atpazīt ieņēmumus vairākos scenārijos.
+description: Šajā rakstā ir sniegta informācija par atkārtoto sadali, kas ļauj organizācijām pārrēķināt ieņēmumu cenas, ja ir mainīti pārdošanas līguma nosacījumi. Tā ietver saites uz citām tēmām, kas apraksta, kā atpazīt ieņēmumus vairākos scenārijos.
 author: kweekley
 ms.date: 09/09/2021
 ms.topic: index-page
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7528202ed140dc2c0a7fc8c595178f155c3c1f75
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: a79288fd69a2e7780ff03952b05b99db2ed88e41
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726132"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903425"
 ---
 # <a name="revenue-recognition-reallocation"></a>Ieņēmumu atzīšanas atkārtota sadale
 
@@ -58,7 +58,7 @@ Viens parametrs ietekmē atkārtotās sadales procesu.
 
 Tā kā atkārtoto sadali var veikt pārdošanas pasūtījumā, kas ir daļēji vai pilnībā iekļauts rēķinā, visi iepriekšējie rēķina uzskaites ieraksti jāizlabo, izmantojot jaunās atkārtoti sadalītās ieņēmumu cenas. Šis labojums tiek veikts, stornējot sākotnējā rēķina uzskaites ierakstu un grāmatojot jauno uzskaites ierakstu, kas ir balstīts uz atkārtoti sadalītajām ieņēmumu cenām.
 
-Katrai organizācijai ir jāizlemj, vai labojumam jāatjaunina tikai virsgrāmata, vai arī debitoru parādi. Pieņemtais lēmums nosaka atbilstošo **virsgrāmatas parametru** lapas cilnes **Ieņēmumu atzīšana** opcijas **Grāmatot rēķinu labojumus debitoru parādos** iestatījumu (**Ieņēmumu atzīšana \> Iestatīšana \> Virsgrāmatas parametri**). Atbilstošais iestatījums ir atkarīgi no konkrētā scenārija. Lai iegūtu plašāku informāciju par iespējamiem scenārijiem, izmantojiet šīs tēmas sadaļā [Atkārtotās sadales scenāriji](#scenarios-for-reallocation) norādītās saites.
+Katrai organizācijai ir jāizlemj, vai labojumam jāatjaunina tikai virsgrāmata, vai arī debitoru parādi. Pieņemtais lēmums nosaka atbilstošo **virsgrāmatas parametru** lapas cilnes **Ieņēmumu atzīšana** opcijas **Grāmatot rēķinu labojumus debitoru parādos** iestatījumu (**Ieņēmumu atzīšana \> Iestatīšana \> Virsgrāmatas parametri**). Atbilstošais iestatījums ir atkarīgi no konkrētā scenārija. Lai iegūtu plašāku informāciju par iespējamiem scenārijiem, izmantojiet šī raksta sadaļā [Atkārtotās sadales scenāriji](#scenarios-for-reallocation) norādītās saites.
 
 [![Ieņēmumu atzīšanas cilne virsgrāmatas parametru lapā.](./media/01_RevRecScenarios.png)](./media/01_RevRecScenarios.png)
 
@@ -90,7 +90,7 @@ Lai sāktu atkārtotās sadales procesu, jebkurā pārdošanas pasūtījumā, ka
 
 [![Atkārtoti sadalīt cenu ar jaunu pasūtījuma rindu lapu.](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
 
-Lapas **Atkārtoti sadalīt cenu ar jaunām pasūtījuma rindām** augšējā režģa nosaukums ir **Pārdošana**. Tajā uzskaitīt debitora pārdošanas pasūtījumi. Atlasiet pārdošanas pasūtījumus, kas ir atkārtoti jāsadala. Ja pārdošanas pasūtījumam ir atkārtotas sadales ID, cits lietotājs to jau ir atzīmējis atkārtotai sadalei. Ja viens vai vairāki pārdošanas pasūtījumi iepriekš tika atkārtoti sadalīti un tie ir jāiekļauj citā atkārtotā sadalē, vispirms ir jāatceļ šo pārdošanas pasūtījumu atkārtota sadale. Pēc tam to(s) var iekļaut jaunā atkārtotā sadalē. Papildinformāciju skatiet tālāk šīs tēmas sadaļās [Atkārtotas sadales atsaukšana](#undo-a-reallocation) un [Vairākkārtēja atkārtota sadale](#reallocate-multiple-times).
+Lapas **Atkārtoti sadalīt cenu ar jaunām pasūtījuma rindām** augšējā režģa nosaukums ir **Pārdošana**. Tajā uzskaitīt debitora pārdošanas pasūtījumi. Atlasiet pārdošanas pasūtījumus, kas ir atkārtoti jāsadala. Ja pārdošanas pasūtījumam ir atkārtotas sadales ID, cits lietotājs to jau ir atzīmējis atkārtotai sadalei. Ja viens vai vairāki pārdošanas pasūtījumi iepriekš tika atkārtoti sadalīti un tie ir jāiekļauj citā atkārtotā sadalē, vispirms ir jāatceļ šo pārdošanas pasūtījumu atkārtota sadale. Pēc tam to(s) var iekļaut jaunā atkārtotā sadalē. Papildinformāciju skatiet tālāk šī raksta sadaļās [Atkārtotas sadales atsaukšana](#undo-a-reallocation) un [Vairākkārtēja atkārtota sadale](#reallocate-multiple-times).
 
 Lapas apakšējā režģa nosaukums ir **Rindas**. Kad **pārdošanas** režģī ir atlasīts viens vai vairāki pārdošanas pasūtījumi, **rindu** režģis rāda pārdošanas pasūtījuma rindas. Atlasiet pārdošanas pasūtījuma rindas, kas ir atkārtoti jāsadala Ja atlasījāt tikai vienu pārdošanas pasūtījumu, tā paša pārdošanas pasūtījuma rindas ir atkārtoti jāsadala. Šāda situācija var rasties, ja kāda no pārdošanas pasūtījuma rindām tika iepriekš iekļauta rēķinā, un pēc tam tika pievienota jauna rinda vai arī esoša rinda tika noņemta vai atcelta. Ja rinda tika noņemta, tā netiks parādīta režģī. Tāpēc to nevar atlasīt. Tomēr tā joprojām tiks ņemta vērā, kad tiks izpildīts atkārtotās sadales process.
 

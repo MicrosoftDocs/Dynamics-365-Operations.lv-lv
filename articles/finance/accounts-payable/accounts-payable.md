@@ -1,6 +1,6 @@
 ---
 title: Moduļa “Parādi kreditoriem” sākumlapa
-description: Šajā tēmā ir sniegts apskats par moduli Parādi kreditoriem.
+description: Šajā rakstā ir sniegts apskats par moduli Kreditori.
 author: sunfzam
 ms.date: 02/15/2019
 ms.topic: index-page
@@ -8,27 +8,27 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "21901"
 - intro-internal
 ms.assetid: 1e4c2ac4-077b-4678-8733-5cec8f6ff659
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ce768ecaa668f2c69d6753401eaa145b6fddc5ec
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 5ed6aacb94de14bdb72185cd528f62e74cd3cc15
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595291"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946106"
 ---
 # <a name="accounts-payable-home-page"></a>Moduļa “Parādi kreditoriem” sākumlapa
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegts apskats par moduli Parādi kreditoriem. 
+Šajā rakstā ir sniegts apskats par moduli Kreditori. 
 
 Kreditoru rēķinus varat ievadīt manuāli vai saņemt tos elektroniski, izmantojot datu elementu. Kad rēķini ir ievadīti vai saņemti, varat tos pārskatīt un apstiprināt, izmantojot rēķinu apstiprināšanas žurnālu vai lapu **Kreditora rēķins**. Varat izmantot rēķinu salīdzināšanu, kreditoru rēķinu ierobežojumus un darbplūsmu, lai automatizētu pārskatīšanas procesu tā, lai rēķini, kas atbilst noteiktiem kritērijiem, tiktu automātiski apstiprināti, bet pārējie rēķini tiktu atzīmēti ar karodziņu, lai tos pārskatītu autorizēts lietotājs.
 
@@ -126,16 +126,16 @@ Lai uzzinātu, kādus jaunus līdzekļus plānots ieviest, skatiet [Microsoft Dy
 
 #### <a name="blogs"></a>Emuāri
 
-Viedokļi, ziņas un cita informācija par moduli Kreditori un citiem risinājumiem ir pieejama [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) un [Microsoft Dynamics 365 Finance — Financials emuārā](https://community.dynamics.com/365/financeandoperations/b/financials).
+Varat atrast viedokļus, jaunumus un citu informāciju par kreditoriem un citiem risinājumiem [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) un [Microsoft Dynamics 365 Finance — Financials emuārā](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Microsoft Dynamics Operations partneru kopienas emuārā](https://community.dynamics.com/partner/b/operationspartnercommunityblog) Microsoft Dynamics partneriem tiek nodrošināts vienots resurss, kur uzzināt par jaunumiem un tendencēm risinājumā Dynamics 365.
 
 #### <a name="community-blogs"></a>Kopienas emuāri
 
-[Kreditoru pārvaldība risinājumā Dynamics 365 Finance](https://financefunction.tech/2019/02/15/how-to-manage-payables-in-dynamics-365-for-finance-and-operations)
+[Kā pārvaldīt kreditorus programmā Dynamics 365 Finance](https://financefunction.tech/2019/02/15/how-to-manage-payables-in-dynamics-365-for-finance-and-operations)
 
 #### <a name="task-guides"></a>Uzdevumu ceļveži
-Papildu palīdzībai lietojumprogrammā ir pieejami uzdevumu ceļveži. Lai piekļūtu uzdevumu ceļvežiem, jebkurā lapā noklikšķiniet uz pogas Palīdzība.
+Papildu palīdzībai programmā ir pieejami uzdevumu ceļveži. Lai piekļūtu uzdevumu ceļvežiem, jebkurā lapā noklikšķiniet uz pogas Palīdzība.
 
 #### <a name="videos"></a>Videoklipi
 

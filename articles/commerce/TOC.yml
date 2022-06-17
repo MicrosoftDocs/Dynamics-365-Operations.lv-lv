@@ -56,11 +56,13 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
                 - name: Atjauninājumu lietošana lokālos izvietojumos
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/commerce/toc.json
-                - name: Pakalpojuma atjauninājumu konfigurēšana
+                - name: Pakalpojumu atjauninājumu konfigurēšana
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/commerce/toc.json
-                - name: Pakalpojuma atjauninājumu apturēšana
+                - name: Iepriekšēja apkalpošana un pēcapkalpošana
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/pre-post-servicing.md?toc=/dynamics365/commerce/toc.json
+                - name: Pakalpojumu atjauninājumu apturēšana
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/commerce/toc.json
-                - name: Paziņojumu saņemšana par pakalpojuma atjauninājumiem
+                - name: Paziņojumu saņemšana par pakalpojumu atjauninājumiem
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/commerce/toc.json
                 - name: Datu uzdevuma automatizēšana
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/commerce/toc.json
@@ -394,6 +396,8 @@
                   items:
                     - name: Store Commerce programma
                       href: dev-itpro/store-commerce.md
+                    - name: Modern POS migrēšana uz Store Commerce
+                      href: dev-itpro/pos-extension/migrate-mpos-store-commerce.md
                     - name: Ierīces pārvaldības ieviešanas vadlīnijas
                       href: implementation-considerations-devices.md
                     - name: Izvēle starp Store Commerce un Cloud POS
@@ -2222,6 +2226,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
                     - name: Veiktspējas problēmu novēršana elektronisko pārskatu konfigurācijās
                       href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/commerce/toc.json
+                    - name: Izpildlaikā ienesto tabulas lauku skaita samazināšana
+                      href: ../fin-ops-core/dev-itpro/analytics/er-reduce-fetched-fields-number.md?toc=/dynamics365/commerce/toc.json
                 - name: Biznesa dokumentu pārvaldība (BDM)
                   items:
                     - name: BDM pārskats
@@ -2476,6 +2482,8 @@
                       href: dev-itpro/retail-sdk/sdk-github.md
                     - name: Mantotā Retail SDK migrācija
                       href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
+                    - name: 'Novecojuši un noņemti API, klases un metodes'
+                      href: dev-itpro/obsolete-apis-classes-methods.md
                     - name: Commerce veikala tehnoloģiju steka modernizēšana (tehniskais dokuments)
                       href: 'https://www.microsoft.com/download/details.aspx?id=103896'
                 - name: Vides iestatīšana
@@ -2560,6 +2568,8 @@
                   items:
                     - name: Cloud Scale Unit paplašinājuma pakotnes izveide
                       href: dev-itpro/CSU-packaging.md
+                    - name: Cloud Scale Unit paplašinājuma pakotņu sapludināšana izvietošanai
+                      href: dev-itpro/merge-csu-extensions.md
                     - name: Cloud Scale Unit paplašinājumu noņemšana
                       href: dev-itpro/retail-sdk/remove-csu-package.md
             - name: Store Commerce
@@ -2908,9 +2918,17 @@
                       href: dev-itpro/create-retail-experience-app.md
         - name: Problēmu novēršana
           items:
+            - name: Store Commerce
+              items:
+                - name: Iestatīšanas un instalēšanas problēmas
+                  href: troubleshoot/store-commerce-setup-installation.md
+                - name: Veiktspējas problēmas
+                  href: troubleshoot/store-commerce-performance.md
+                - name: Paplašinājuma problēmas
+                  href: troubleshoot/store-commerce-extensions.md
             - name: Pasūtījuma apstrādāšana
               items:
-                - name: Maksājuma tipam jābūt kredītkartes kļūdai
+                - name: Maksājuma veidam jābūt kredītkartes kļūdai
                   href: troubleshoot/payment-type-credit-card-error.md
                 - name: Tiešsaistes pasūtījumu nodokļi nav pareizi aprēķināti
                   href: troubleshoot/tax-miscalculated-online-order.md

@@ -1,6 +1,6 @@
 ---
 title: Uzskaites vai pārskata valūtas maiņa
-description: Šajā tēmā ir paskaidrots, kā mainīt uzskaites vai pārskata valūtu vai pievienot pārskata valūtu virsgrāmatas iestatījumiem.
+description: Šajā rakstā ir paskaidrots, kā mainīt uzskaites vai pārskata valūtu vai pievienot pārskata valūtu virsgrāmatas iestatījumiem.
 author: kweekley
 ms.date: 05/05/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ff5c38193e8469cb806c525b77809844847d6c92
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: b02432c8e0bdf52c2a588f67a581b78e682b1bf8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710897"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904619"
 ---
 # <a name="change-the-accounting-or-reporting-currency"></a>Uzskaites vai pārskata valūtas maiņa
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā mainīt uzskaites vai pārskata valūtu vai pievienot pārskata valūtu virsgrāmatas iestatījumiem.
+Šajā rakstā ir paskaidrots, kā mainīt uzskaites vai pārskata valūtu vai pievienot pārskata valūtu virsgrāmatas iestatījumiem.
 
 ## <a name="symptom"></a>Simptoms
 
@@ -73,7 +73,7 @@ Veiciet šīs darbības, lai kopētu iestatījumu datus un pamatdatus no pašrei
 10. Apgabalā **Atlasītie elementi** atlasiet **Pievienot veidni**.
 11. Atlasiet veidnes, ko izmantot. Ieteicamās veidnes jaunai juridiskajai personai iever **025 — Virsgrāmata** un **Finanses**. Ieteicams pārskatīt visas pārējās pieejamās veidnes, lai noteiktu, vai kāda no tām attiecas uz jūsu prasībām.
 12. Atlasiet **Kopēt juridiskajā personā**, lai sāktu pakešveida apstrādi, kas izveidos atlasītos elementus un kopēs tos mērķa juridiskajā personā.
-13. Kad process ir pabeigts, bet pirms kāda transakcija ir iegrāmatota, dodieties uz virsgrāmatu un atjauniniet uzskaites un pārskata valūtas, kā aprakstīts iepriekš šajā tēmā.
+13. Kad process ir pabeigts, bet pirms kāda transakcija ir iegrāmatota, dodieties uz virsgrāmatu un atjauniniet uzskaites un pārskata valūtas, kā aprakstīts iepriekš šajā rakstā.
 
 Ja izveidojāt jaunu juridisku personu, lai varētu mainīt uzskaites vai pārskata valūtu, pārbaudiet, vai sākuma bilances tiek pārrēķinātas no iepriekšējās juridiskās personas valūtām uz jaunajām valūtām.
 

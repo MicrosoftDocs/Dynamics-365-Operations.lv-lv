@@ -1,6 +1,6 @@
 ---
 title: Supply Chain Management sākumlapa
-description: Šajā lapā ir saraksts ar palīdzības tēmām un citiem resursiem saistībā ar programmas Supply Chain Management līdzekļiem.
+description: Šajā lapā ir saraksts ar palīdzības rakstiem un citiem resursiem saistībā ar programmas Supply Chain Management līdzekļiem.
 author: kamaybac
 ms.date: 09/15/2021
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9ae75f33d96261691eee52c963a1f1f00c75b0de
-ms.sourcegitcommit: 220101d2511a3164572226294ef090a43a1e6cdd
+ms.openlocfilehash: 189239ad6142af200e41cfe9cfcdbb56be65b0b7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "8789217"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879081"
 ---
 # <a name="supply-chain-management-home-page"></a>Supply Chain Management sākumlapa
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir saraksts ar palīdzības tēmām un citiem resursiem programmā Dynamics 365 Supply Chain Management.
+Šajā rakstā ir saraksts ar palīdzības rakstiem un citiem resursiem programmā Dynamics 365 Supply Chain Management.
 
 ## <a name="whats-new-and-in-development"></a>Jaunumi un drīzumā gaidāmais
 
@@ -93,7 +93,7 @@ Tālāk sniegtajos tehnoloģiju konferenču ierakstos tiek apspriesta piegādes 
 
 ## <a name="blogs"></a>Emuāri
 
-[Dynamics AX ražošanas pētniecības un attīstības darba grupas emuārā](/archive/blogs/axmfg/) un [Supply Chain Management programmā Dynamics AX pētniecības un attīstības darba grupas emuārā](https://blogs.msdn.microsoft.com/dynamicsaxscm/) ir atrodamas daudzas tēmas par ražošanu un piegādes ķēžu pārvaldību. Vairākums šo rakstu bija uzrakstīti par iepriekšējo versiju, bet pašreizējā versijā joprojām tiek izmantoti tie paši jēdzieni un procedūras.
+[Dynamics AX ražošanas pētniecības un attīstības darba grupas emuārā](/archive/blogs/axmfg/) un [Supply Chain Management programmā Dynamics AX pētniecības un attīstības darba grupas emuārā](https://blogs.msdn.microsoft.com/dynamicsaxscm/) ir atrodami daudzi raksti par ražošanu un piegādes ķēžu pārvaldību. Vairākums šo rakstu bija uzrakstīti par iepriekšējo versiju, bet pašreizējā versijā joprojām tiek izmantoti tie paši jēdzieni un procedūras.
 
 ## <a name="white-papers"></a>Tehniskie dokumenti
 

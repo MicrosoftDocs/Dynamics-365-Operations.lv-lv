@@ -1,6 +1,6 @@
 ---
 title: Gada beigu slēgšanas trūkstošās sākuma bilances
-description: Šajā tēmā skaidrots, kādēļ, slēdzot gadu, var būt trūkstošas sākuma bilances, un kā atjaunot šīs bilances, ja tās iztrūkst.
+description: Šajā rakstā skaidrots, kādēļ, slēdzot gadu, var būt trūkstošas sākuma bilances, un kā atjaunot šīs bilances, ja tās iztrūkst.
 author: kweekley
 ms.date: 05/12/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 582363ba6c5f6e63e695d41e73ee2f0b382cf26e
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 9b64118fc3ff368e21ea8935c1e706f2161c620f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727177"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894853"
 ---
 # <a name="year-end-close-missing-opening-balances"></a>Gada beigu slēgšanas trūkstošās sākuma bilances
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidrots, kādēļ, slēdzot gadu, var būt trūkstošas sākuma bilances, un kā atjaunot šīs bilances, ja tās iztrūkst.
+Šajā rakstā skaidrots, kādēļ, slēdzot gadu, var būt trūkstošas sākuma bilances, un kā atjaunot šīs bilances, ja tās iztrūkst.
 
 ### <a name="symptom"></a>Simptoms
 
@@ -36,7 +36,7 @@ Ja virsgrāmatā gads ir slēgts un pēc tam ģenerēta apgrozījuma bilance, ka
 
 Ja laukā **Atsaukt iepriekšējo slēgšanu** ir norādīta vērtība **Jā**, tiek stornēta iepriekšējā gada beigu slēgšana tam pašam finanšu gadam. Ja tiek izpildīta gada beigu slēgšanas stornēšanas darbība, visi beigu bilances un sākuma bilances ieraksti tiks dzēsti, it kā gads nebūtu ticis slēgts. Arī dokumenti tiks dzēsti. Gada beigu slēgšanas process vairs netiks automātiski atkārtoti izpildīts. Šis process ir jāsāk vēlreiz, šoreiz atjauninot opcijas **Atsaukt iepriekšējo slēgšanu** vērtību uz **Nē**.
 
-Šis scenārijs ir iekļauts gada beigu bieži uzdoto jautājumu tēmā. Papildinformāciju skatiet dokumentā [Bieži uzdotie jautājumi par darbībām gada beigās](faq-year-end-activities.md).
+Šis scenārijs ir iekļauts gada beigu bieži uzdoto jautājumu rakstā. Papildinformāciju skatiet dokumentā [Bieži uzdotie jautājumi par darbībām gada beigās](faq-year-end-activities.md).
 
 ### <a name="symptom"></a>Simptoms
 

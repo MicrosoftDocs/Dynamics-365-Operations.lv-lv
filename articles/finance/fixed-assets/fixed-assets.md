@@ -1,6 +1,6 @@
 ---
 title: Pamatlīdzekļu sākumlapa
-description: Šī tēma nodrošina piekļuvi resursiem, kas var palīdzēt jums izmantot pamatlīdzekļus pakalpojumā Microsoft Dynamics 365 Finance.
+description: Šis raksts nodrošina piekļuvi resursiem, kas var palīdzēt jums izmantot pamatlīdzekļus pakalpojumā Microsoft Dynamics 365 Finance.
 author: moaamer
 ms.date: 08/31/2017
 ms.topic: index-page
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cee27143ca005f2fa42899365933ec3014aa13f6
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 57e81aaefd61eb9e695d8fe0d1c7cac4091bece7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720451"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880821"
 ---
 # <a name="fixed-assets-home-page"></a>Pamatlīdzekļu sākumlapa
 
 [!include [banner](../includes/banner.md)]
 
-Šī tēma nodrošina piekļuvi resursiem, kas var palīdzēt jums izmantot pamatlīdzekļus pakalpojumā Microsoft Dynamics 365 Finance. Pamatlīdzekļi ir vērtību krājumi, kas pieder atsevišķai personai vai organizācijai. Krājumi ietver ēkas, transporta līdzekļus, zemi un aprīkojumu. 
+Šis raksts nodrošina piekļuvi resursiem, kas var palīdzēt jums izmantot pamatlīdzekļus pakalpojumā Microsoft Dynamics 365 Finance. Pamatlīdzekļi ir vērtību krājumi, kas pieder atsevišķai personai vai organizācijai. Krājumi ietver ēkas, transporta līdzekļus, zemi un aprīkojumu. 
 
 Pamatlīdzekļiem var iestatīt un ievadīt informāciju par to iegādi un pēc tam to pārvaldīt līdzekļus, samazinot to vērtību un iestatot kapitalizācijas slieksni, lai noteiktu nolietojumu. Varat aprēķināt pamatlīdzekļu pielāgojumus, kā arī izslēgt tos. Izmantojot virsgrāmatu kopā ar pamatlīdzekļiem, jūs varat skatīt visu pamatlīdzekļu pašreizējo vērtību. Pamatlīdzekļu apstrādes veidam ir jāatbilst gan starptautiskajiem grāmatvedības standartiem, gan katras valsts/reģiona grāmatvedības likumdošanai. Prasības var ietvert noteikumus pārskatiem par pamatlīdzekļu iegādi un izslēgšanas darbībām, par nolietojumu, kalpošanas ilgumu, vērtības palielināšanu un samazināšanu. Pamatlīdzekļu funkcionalitāte ietver daudzus no šiem standartiem un noteikumiem.
 

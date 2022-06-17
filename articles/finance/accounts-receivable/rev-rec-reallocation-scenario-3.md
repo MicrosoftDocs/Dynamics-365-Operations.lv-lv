@@ -1,6 +1,6 @@
 ---
 title: Ieņēmumu atzīšanas atkārtota sadale — 3. scenārijs
-description: Šajā tēmā ir iekļauts atkārtotas sadales scenārijs, kur jauna rinda tiek pievienota esošam, rēķinā iekļautam pārdošanas pasūtījumam. Kad līgumam tiek pievienots jauns krājums, to var pievienot jaunam pārdošanas pasūtījumam vai esošajam pārdošanas pasūtījumam.
+description: Šajā rakstā ir iekļauts atkārtotas sadales scenārijs, kur jauna rinda tiek pievienota esošam, rēķinā iekļautam pārdošanas pasūtījumam. Kad līgumam tiek pievienots jauns krājums, to var pievienot jaunam pārdošanas pasūtījumam vai esošajam pārdošanas pasūtījumam.
 author: kweekley
 ms.date: 12/21/2020
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3b3b41b09cc9f4c56fdb04f6a2c4156bc1637699
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 7aa62406a80eb3381206172caaae457ec71b7bf8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726582"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904821"
 ---
 # <a name="revenue-recognition-reallocation--scenario-3"></a>Ieņēmumu atzīšanas atkārtota sadale — 3. scenārijs
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir iekļauts atkārtotas sadales scenārijs, kur jauna rinda tiek pievienota esošam, rēķinā iekļautam pārdošanas pasūtījumam. Kad līgumam tiek pievienots jauns krājums, to var pievienot jaunam pārdošanas pasūtījumam vai esošajam pārdošanas pasūtījumam. Šajā scenārijā ir parādīts arī tas, kas notiek, ja tiek atjaunināti debitoru parādi atkārtotas sadales dēļ.
+Šajā rakstā ir iekļauts atkārtotas sadales scenārijs, kur jauna rinda tiek pievienota esošam, rēķinā iekļautam pārdošanas pasūtījumam. Kad līgumam tiek pievienots jauns krājums, to var pievienot jaunam pārdošanas pasūtījumam vai esošajam pārdošanas pasūtījumam. Šajā scenārijā ir parādīts arī tas, kas notiek, ja tiek atjaunināti debitoru parādi atkārtotas sadales dēļ.
 
 Šim scenārijam **virsgrāmatas parametru** lapas cilnē **Ieņēmumu atzīšana** opcija **Grāmatot rēķinu labojumus debitoru parādos** ir iestatīta uz **Jā**(**Ieņēmumu atzīšana \> Iestatīšana \> Virsgrāmatas parametri**).
 

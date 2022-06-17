@@ -1,6 +1,6 @@
 ---
 title: Uzlabota pēc partijas izsekoto krājumu apstrāde
-description: Šajā tēmā ir aprakstīta uzlabota pēc partijas izsekoto krājumu apstrāde, kura tiek veikta pārskata grāmatošanas procesa laikā programmā Microsoft Dynamics 365 Commerce.
+description: Šajā rakstā ir aprakstīta uzlabota pēc partijas izsekoto krājumu apstrāde, kura tiek veikta pārskata grāmatošanas procesa laikā programmā Microsoft Dynamics 365 Commerce.
 author: josaw1
 ms.date: 09/09/2021
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-28
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 513b6ca84fa71e851a5a3e4275e0b6572789e1eb
-ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
+ms.openlocfilehash: 736ab8dd21f04d7119cca6d53bfeb5e408b8cbd2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "7485787"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881883"
 ---
 # <a name="improved-handling-of-batch-tracked-items"></a>Uzlabota pēc partijas izsekoto krājumu apstrāde
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīta uzlabota pēc partijas izsekoto krājumu apstrāde, kura tiek veikta pārskata grāmatošanas procesa laikā programmā Microsoft Dynamics 365 Commerce.
+Šajā rakstā ir aprakstīta uzlabota pēc partijas izsekoto krājumu apstrāde, kura tiek veikta pārskata grāmatošanas procesa laikā programmā Microsoft Dynamics 365 Commerce.
 
 Pārdošanas laikā Dynamics 365 Commerce pārdošanas punktā (POS) nevar tvert partijas numurus pēc partijas izsekotajiem krājumiem. Tomēr attiecībā uz noteiktām konfigurācijām, ja programmā Commerce Headquarters pārdošana tiek grāmatota, izmantojot debitoru pasūtījumus vai grāmatojot pārskatu, Commerce sistēma sagaida, ka pastāv derīgi pēc partijas izsekoto krājumu partijas numuri un ka tie tiks izmantoti rēķinu izrakstīšanas procesā.
 

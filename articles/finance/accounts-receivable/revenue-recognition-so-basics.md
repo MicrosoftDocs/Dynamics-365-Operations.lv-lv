@@ -1,6 +1,6 @@
 ---
 title: Ieņēmumu atzīšana pārdošanas pasūtījumos
-description: Šajā tēmā aprakstīta pamata funkcionalitāte ieņēmumu atzīšanai pārdošanas pasūtījumos un rēķinos. Ieņēmumu atzīšana ir pieejama pārdošanas pasūtījumā un attiecīgajā rēķinā, kas tiek izveidots no pārdošanas pasūtījuma.
+description: Šajā rakstā aprakstīta pamata funkcionalitāte ieņēmumu atzīšanai pārdošanas pasūtījumos un rēķinos. Ieņēmumu atzīšana ir pieejama pārdošanas pasūtījumā un attiecīgajā rēķinā, kas tiek izveidots no pārdošanas pasūtījuma.
 author: kweekley
 ms.date: 08/24/2018
 ms.topic: index-page
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 7aaa5e7c3b568400c72a1a84b5f29082579aeeae
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 5df7341160940f5c5db0dd4c5d86e4d9698d22e2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725489"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899962"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>Ieņēmumu atzīšana pārdošanas pasūtījumos
 
@@ -27,10 +27,10 @@ ms.locfileid: "8725489"
 > [!NOTE]
 > Ieņēmumu atzīšanas līdzekli nav iespējams ieslēgt, izmantojot līdzekļu pārvaldību. Pašlaik jāizmanto konfigurācijas atslēgas, lai to ieslēgtu.
 
-Šajā tēmā aprakstīta pamata funkcionalitāte ieņēmumu atzīšanai pārdošanas pasūtījumos un rēķinos. Ieņēmumu atzīšana ir pieejama pārdošanas pasūtījumā un attiecīgajā rēķinā, kas tiek izveidots no pārdošanas pasūtījuma. Pārdošanas pasūtījumu var arī izveidot, izmantojot laika un materiālu projektu.
+Šajā rakstā aprakstīta pamata funkcionalitāte ieņēmumu atzīšanai pārdošanas pasūtījumos un rēķinos. Ieņēmumu atzīšana ir pieejama pārdošanas pasūtījumā un attiecīgajā rēķinā, kas tiek izveidots no pārdošanas pasūtījuma. Pārdošanas pasūtījumu var arī izveidot, izmantojot laika un materiālu projektu.
 
 > [!NOTE]
-> Attēlos šajā tēmā kolonnas ir paslēptas vai pievienotas režģiem, lai labāk attēlotu koncepcijas. Tādēļ lapas un dati attēlos var atšķirties no tā, ko redzat risinājumā.
+> Attēlos šajā rakstā kolonnas ir paslēptas vai pievienotas režģiem, lai labāk attēlotu koncepcijas. Tādēļ lapas un dati attēlos var atšķirties no tā, ko redzat risinājumā.
 
 ## <a name="enter-a-sales-order"></a>Pārdošanas pasūtījuma ievade
 

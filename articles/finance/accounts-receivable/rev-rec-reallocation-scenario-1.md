@@ -1,6 +1,6 @@
 ---
 title: Ieņēmumu atzīšanas atkārtota sadale — 1. scenārijs
-description: Šajā tēmā ir iekļauts atkārtotas sadales scenārijs, kur tiek ievadīti divi pārdošanas pasūtījumi, taču tie tiek tikai apstiprināti. Viens un tas pats scenārijs radīs līdzīgus rezultātus, ja vairāk nekā divu pārdošanas pasūtījumu statuss ir Apstiprināts.
+description: Šajā rakstā ir iekļauts atkārtotas sadales scenārijs, kur tiek ievadīti divi pārdošanas pasūtījumi, taču tie tiek tikai apstiprināti. Viens un tas pats scenārijs radīs līdzīgus rezultātus, ja vairāk nekā divu pārdošanas pasūtījumu statuss ir Apstiprināts.
 author: kweekley
 ms.date: 12/21/2020
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: cd094840e16a0ab19e234148e4ef40c454315d96
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 597c83388937cff689748889eff29d6be1b8341a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725797"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876273"
 ---
 # <a name="revenue-recognition-reallocation--scenario-1"></a>Ieņēmumu atzīšanas atkārtota sadale — 1. scenārijs
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir iekļauts atkārtotas sadales scenārijs, kur tiek ievadīti divi pārdošanas pasūtījumi, taču tie tiek tikai apstiprināti. Viens un tas pats scenārijs radīs līdzīgus rezultātus, ja vairāk nekā divu pārdošanas pasūtījumu statuss ir Apstiprināts.
+Šajā rakstā ir iekļauts atkārtotas sadales scenārijs, kur tiek ievadīti divi pārdošanas pasūtījumi, taču tie tiek tikai apstiprināti. Viens un tas pats scenārijs radīs līdzīgus rezultātus, ja vairāk nekā divu pārdošanas pasūtījumu statuss ir Apstiprināts.
 
 Šim scenārijam **virsgrāmatas parametru** lapas cilnē **Ieņēmumu atzīšana** opcija **Grāmatot rēķinu labojumus debitoru parādos** ir iestatīta uz **Nē**(**Ieņēmumu atzīšana \> iestatīšana \> Virsgrāmatas parametri**).
 

@@ -1,6 +1,6 @@
 ---
 title: Ieņēmumu atzīšanas iestatīšana
-description: Šajā tēmā ir aprakstītas ieņēmumu atzīšanas iestatīšanas opcijas un to izmantošana.
+description: Šajā rakstā ir aprakstītas ieņēmumu atzīšanas iestatīšanas opcijas un to izmantošana.
 author: kweekley
 ms.date: 04/28/2022
 ms.topic: index-page
@@ -13,17 +13,17 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 86690af303eb87335c980bd7dae3ae34ce06a2a0
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: ef294af8d3a8f39a80b98aeba293267dcca1f29b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725516"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900018"
 ---
 # <a name="revenue-recognition-setup"></a>Ieņēmumu atzīšanas iestatīšana
 [!include [banner](../includes/banner.md)]
 
-Ir pievienots modulis **Ieņēmumu atzīšana**, kas ietver izvēlnes elementus visiem nepieciešamajiem iestatījumiem. Šajā tēmā ir aprakstītas iestatīšanas opcijas un to izmantošana.
+Ir pievienots modulis **Ieņēmumu atzīšana**, kas ietver izvēlnes elementus visiem nepieciešamajiem iestatījumiem. Šajā rakstā ir aprakstītas iestatīšanas opcijas un to izmantošana.
 
 > [!NOTE]
 > Ieņēmumu atzīšanas līdzeklis tagad ir iespējots pēc noklusējuma, izmantojot līdzekļu pārvaldību. Ja jūsu organizācija neizmanto šo līdzekli, varat to izslēgt **līdzekļa pārvaldības** darbvietā.
